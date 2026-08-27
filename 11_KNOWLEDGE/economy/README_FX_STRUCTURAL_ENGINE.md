@@ -1,6 +1,11 @@
 ---
+title: README FX STRUCTURAL ENGINE
 tags: [economy]
+type: document
+source: 11_KNOWLEDGE/economy
 ---
+
+
 # AMOS OMEGA FX STRUCTURAL ENGINE — COMPLETE SYSTEM
 
 ## 🏗️ SYSTEM OVERVIEW
@@ -398,3 +403,6 @@ This is a **breakthrough structural operating system** that:
 ---
 
 *NOT FINANCIAL ADVICE. STRUCTURAL ANALYSIS ONLY. ALL OPERATIONS THROUGH ACTIONGATE WITH SAFETY LIMITS.*
+
+---
+**Links:** [[ECONOMY_MOC]] | [[KNOWLEDGE_MOC]]

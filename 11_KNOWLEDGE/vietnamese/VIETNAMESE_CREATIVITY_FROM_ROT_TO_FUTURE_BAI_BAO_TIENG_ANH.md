@@ -1,6 +1,11 @@
 ---
+title: VIETNAMESE CREATIVITY FROM ROT TO FUTURE BAI BAO TIENG ANH
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/vietnamese-creativity-from-r-t-to-future, vietnamese]
+type: note
+source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 
 **Vietnamese Creative Capacity: From Roots to the Future**
 *Vietnamese Proverb :”Cái khó ló cái khôn “—Necessity í the mother of invention (that is , in hardship, wisdom and creativity emerge )*
@@ -309,4 +314,7 @@ World Bank. (2022). *Vietnam digital transformation: Shaping the future of the d
 World Intellectual Property Organization (WIPO). (2023). *Global innovation index 2023: Innovation in the face of uncertainty.* Geneva: WIPO.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[vietnamese_MOC]]

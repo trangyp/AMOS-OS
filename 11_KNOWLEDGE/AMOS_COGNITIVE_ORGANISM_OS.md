@@ -1,6 +1,11 @@
 ---
+title: AMOS COGNITIVE ORGANISM OS
 tags: ['knowledge', 'note']
+type: document
+source: 11_KNOWLEDGE/root
 ---
+
+
 
 # AMOS COGNITIVE ORGANISM OS
 ## Maximum-Detail Unified Cognitive-Life Architecture
@@ -3402,3 +3407,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

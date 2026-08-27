@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 FORMAL SYSTEMS INVARIANTS
 origin_architect: Trang Phan (supplied corpus)
 provenance: user-supplied formal invariant catalog (Inv 701–1000), C301–C500 constraint catalog, G–N–D–C–B dynamical system, 19×19 sparse coupling matrix, micro↔macro 100k-year civilization map
 confidence: 0.92
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-formal-systems-invariants, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # Formal Systems Invariants & Civilizational Dynamical Model (Trang Phan)
 
@@ -115,3 +117,6 @@ Per cosmo-brain/.../EQUATION_FIREWALL.md: these are SOURCE_DERIVED symbolic/syst
 - 2026-08-22 Brain Inventory
 - 2026-08-22 Executable Brain Model Lineage
 - cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/brain/10_core/EQUATION_FIREWALL.md
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

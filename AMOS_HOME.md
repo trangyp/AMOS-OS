@@ -1,6 +1,7 @@
 ---
 aliases:
 - AMOS Home
+tags: [note, vault]
 ---
 
 # AMOS Home
@@ -8,17 +9,17 @@ aliases:
 ## Vault MOCs and tools
 
 - [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]] — AMOS OS master map
-- [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — knowledge layer index
-- [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]] — Cosmo Brain index
-- [[AMOS_Obsidian_Linking_Plugins]] — Obsidian linking plugin stack
-- [[AMOS_Templates]] — AMOS template index
+- [[KNOWLEDGE_MOC|11_KNOWLEDGE MOC]] — knowledge layer index
+- [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]] — Cosmo Brain index
+- [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian linking plugin stack
+- [[AMOS_TEMPLATES]] — AMOS template index
 
 ---
 
-- [[AMOS_Layer_Maps]] — top-level layer map index
+- [[AMOS_LAYER_MAPS]] — top-level layer map index
 ## Related
 
-- [[00_ROOT/00-Home.md|Home]]
+- [[00_HOME|Home]]
 - [[00_ROOT_MOC]] — AMOS OS master map
 - [[AMOS_RSCF_NODES]]
 
@@ -26,10 +27,10 @@ aliases:
 
 ## README and architecture stubs
 
-- [[00_ROOT/README]] — root README
-- [[00_ROOT/ARCHITECTURE]] — root architecture overview
-- [[17_OBSERVABILITY/00_INDEX/README]] — observability layer README
-- [[19_TESTS/00_INDEX/README]] — tests layer README
+- [[README]] — root README
+- [[ARCHITECTURE]] — root architecture overview
+- [[README]] — observability layer README
+- [[README]] — tests layer README
 
 ---
 
@@ -38,7 +39,7 @@ node_id: 00_home_root
 node_type: note
 path: AMOS Home.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home.md]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[00_ROOT_MOC]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL

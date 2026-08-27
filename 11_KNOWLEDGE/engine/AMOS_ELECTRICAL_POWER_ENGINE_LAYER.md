@@ -17,3 +17,6 @@ confidence: "VERIFIED"
 
 - Open the skill: .devin/skills/amos-electrical-power-engine-layer
 - Source model: Electrical_Power_Model
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

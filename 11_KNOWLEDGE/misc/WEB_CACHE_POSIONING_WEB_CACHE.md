@@ -1,6 +1,11 @@
 ---
+title: WEB CACHE POSIONING WEB CACHE
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 ## Web Cache
 How does it work?
 * If server had to send new response to every HTTP request seperately, would overload server
@@ -16,4 +21,7 @@ What are Cache Keys?
    	* We can add some naughty things in there maybeee?
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

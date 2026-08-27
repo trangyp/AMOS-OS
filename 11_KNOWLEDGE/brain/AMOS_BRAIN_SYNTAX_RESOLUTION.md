@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN SYNTAX RESOLUTION
 tags: [brain]
+type: note
+source: 11_KNOWLEDGE/brain
 ---
+
+
 🧠 AMOS Brain Supreme - Syntax Error Resolution Results
 =====================================================
 
@@ -112,4 +117,7 @@ Strongest brain system active with comprehensive syntax error resolution achievi
 Repository syntax health significantly improved while maintaining all system functionality and governance compliance.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

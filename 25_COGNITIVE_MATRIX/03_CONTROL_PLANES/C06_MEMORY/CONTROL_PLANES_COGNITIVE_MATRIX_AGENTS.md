@@ -1,3 +1,9 @@
+---
+title: CONTROL PLANES COGNITIVE MATRIX AGENTS
+type: note
+tags: [note, c06-memory]
+---
+
 # C06 — Agents
 
 **Package:** `C06_MEMORY`  
@@ -36,3 +42,6 @@ node_type: note
 path: 03_CONTROL_PLANES/C06_MEMORY/CONTROL_PLANES_COGNITIVE_MATRIX_AGENTS.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/CONTROL_PLANES_COGNITIVE_MATRIX_AGENTS.md
+
+---
+**MOC:** [[C06_MEMORY_MOC]]

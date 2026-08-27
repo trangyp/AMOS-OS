@@ -41,7 +41,7 @@ Given an operation touching `INTEGRATION KERNEL README` within the Kernel plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -59,3 +59,6 @@ node_id: amos_02_kernel_09_integration_integration_kernel_readme_md
 node_type: note
 path: 02_KERNEL/09_INTEGRATION/INTEGRATION_KERNEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[09_INTEGRATION_MOC]]

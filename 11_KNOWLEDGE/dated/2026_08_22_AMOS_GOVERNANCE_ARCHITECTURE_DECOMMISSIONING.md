@@ -93,3 +93,6 @@ This is the 22nd governance gate in `AmosKernel.run()`, evaluated post-execution
 5. **Empty state**: All 11 gates return PASS on empty state — no CONDITIONAL for empty registries (unlike fairness_ethics where stakeholder gate was CONDITIONAL on empty).
 6. **FAIL triggers**: succession-failed, insider-threat-high, two-person-failed, capture-compromised, continuity-interrupted.
 7. **CONDITIONAL triggers**: succession-not-planned, unbalanced-powers, insider-threat-detected, two-person-pending, capture-vulnerable, vendor-critical, vendor-exit-blocked/not-planned, degraded-operation, continuity-not-tested, decommission-blocked/no-notification, orphan-state.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

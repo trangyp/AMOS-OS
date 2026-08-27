@@ -1,6 +1,11 @@
 ---
+title: THE LIVING STATE MONETISATION THESIS A ECONOMIC PARADIGM
 tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-living-state-monetisation-thesis-a-n, economy]
+type: note
+source: 11_KNOWLEDGE/economy
 ---
+
+
 
 The Living State Monetisation Thesis: A New Economic Paradigm
 
@@ -2895,4 +2900,7 @@ The revolution has begun. The question is not whether continuity economics will 
 quickly organizations will recognize and capture its unprecedented potential.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ECONOMY_MOC]]

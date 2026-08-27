@@ -1,0 +1,16 @@
+---
+title: 67_MONITORING_ALERTING_MODES MOC
+type: moc
+tags: [moc, 67-monitoring-alerting-modes]
+---
+
+# 67_MONITORING_ALERTING_MODES — Map of Content
+
+## Files
+
+- [[CONTROL_PLANE_MODE_FAMILY_REGISTRY]]
+- [[CONTROL_PLANE_MODE_FAMILY_SPEC]]
+- [[MONITORING_ALERTING_MODES_COMMIT_CONTROL_PLANE_README]]
+
+---
+**Parent:** [[09_COMMIT_MOC]]

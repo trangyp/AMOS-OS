@@ -1,3 +1,9 @@
+---
+title: L00 REALITY VALIDATION RECEIPT
+type: note
+tags: [note, 11-validation]
+---
+
 ````markdown
 ---
 artifact_id: AMOS-CM-11-VALIDATION-L00-REALITY
@@ -2356,7 +2362,7 @@ canonical_status: CONDITIONAL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00-Home]]
+* INDEXED_BY: [[00_HOME]]
 
 * INDEXED_BY: [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
@@ -2393,3 +2399,6 @@ epistemic_class: AMOS_DERIVED
 
 ```
 ```
+
+---
+**MOC:** [[11_VALIDATION_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: THE INTELLIGENCE OS USEFUL ARCHITECTURE
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: source-claim
@@ -24,6 +25,7 @@ tags:
   - architecture
 
 ---
+
 
 # The Intelligence OS™
 ## Standalone Product-Company Architecture
@@ -2174,3 +2176,6 @@ Revenue
 \]
 
 and the source's high-end revenue, valuation, and founder-wealth figures should remain **scenario ceilings until supported by observed commercial evidence**.
+
+---
+**Links:** [[ARCHITECTURE_MOC]] | [[KNOWLEDGE_MOC]]

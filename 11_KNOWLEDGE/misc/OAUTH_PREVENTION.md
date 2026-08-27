@@ -1,6 +1,11 @@
 ---
+title: OAUTH PREVENTION
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 ## Prevention
 * validation of inputs by both OAuth provider and client application
    	* especially redirect-uri
@@ -25,4 +30,7 @@ For OAuth client applications
 * stop authorization codes being leaked in referer headers (maybe when loading logos or other external scripts)
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

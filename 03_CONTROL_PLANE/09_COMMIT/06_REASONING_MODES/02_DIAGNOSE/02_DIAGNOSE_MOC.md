@@ -1,0 +1,16 @@
+---
+title: 02_DIAGNOSE MOC
+type: moc
+tags: [moc, 02-diagnose]
+---
+
+# 02_DIAGNOSE — Map of Content
+
+## Files
+
+- [[COMMIT_CONTROL_PLANE_MODE_SPEC]]
+- [[COMMIT_CONTROL_PLANE_PROVENANCE]]
+- [[DIAGNOSE_REASONING_MODES_COMMIT_CONTROL_PLANE_README]]
+
+---
+**Parent:** [[06_REASONING_MODES_MOC]]

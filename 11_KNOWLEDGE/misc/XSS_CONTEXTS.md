@@ -1,6 +1,11 @@
 ---
+title: XSS CONTEXTS
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 ## Contexts
 * Especially important for reflected/stored XSS
 
@@ -11,4 +16,7 @@ When it seems most tags are blocked
 * Test out some tags and attributes. If you can't find any, send it to the intruder in Burp to test out which tags and attributes aren't blocked, and leverge them to perform the attack.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

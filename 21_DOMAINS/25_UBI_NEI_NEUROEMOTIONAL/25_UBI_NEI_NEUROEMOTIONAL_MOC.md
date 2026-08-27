@@ -1,0 +1,20 @@
+---
+title: 25_UBI_NEI_NEUROEMOTIONAL MOC
+type: moc
+tags: [moc, 25-ubi-nei-neuroemotional]
+---
+
+# 25_UBI_NEI_NEUROEMOTIONAL — Map of Content
+
+## Files
+
+- [[DOMAINS_UBI_NEI_NEUROEMOTIONAL_CONTRACT]]
+- [[UBI_NEI_NEUROEMOTIONAL_DOMAINS_DOMAIN_SPEC]]
+- [[UBI_NEI_NEUROEMOTIONAL_DOMAINS_README]]
+
+## Subdirectories
+
+- [[INDEX_UBI_NEI_NEUROEMOTIONAL_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

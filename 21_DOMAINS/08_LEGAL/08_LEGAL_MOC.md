@@ -1,0 +1,25 @@
+---
+title: 08_LEGAL MOC
+type: moc
+tags: [moc, 08-legal]
+---
+
+# 08_LEGAL — Map of Content
+
+## Files
+
+- [[AMOS_LEGAL_KERNEL]]
+- [[CANON_IP_GOVERNANCE]]
+- [[DOMAINS_LEGAL_CONTRACT]]
+- [[LEGAL_DOMAINS_DOMAIN_SPEC]]
+- [[LEGAL_DOMAINS_INTERFACES]]
+- [[LEGAL_DOMAINS_PROVENANCE]]
+- [[LEGAL_DOMAINS_README]]
+- [[VN_LEGAL_ENGINE]]
+
+## Subdirectories
+
+- [[INDEX_LEGAL_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

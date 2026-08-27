@@ -31,3 +31,6 @@ node_id: amos_e_00_index_c11_design_language_domains_c11_design_language_contrac
 node_type: note
 path: 21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX/C11_DESIGN_LANGUAGE_DOMAINS_C11_DESIGN_LANGUAGE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C11_DESIGN_LANGUAGE_DOMAINS_README]]

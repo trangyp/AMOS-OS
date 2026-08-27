@@ -1,3 +1,9 @@
+---
+title: GENERATORS BENCHMARKS
+type: note
+tags: [note, 12-generators]
+---
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS.md`. The important distinction is that **Benchmarks measure bounded performance or assurance properties under declared conditions; they do not establish universal correctness, canon, authority, or production validity**. That boundary is required by the AMOS Full Brain OS integrity model, which explicitly separates structural design targets and model outputs from externally verified empirical claims.  The primary canon source for this Skill remains `AMOS_FULL_BRAIN_OS.json`. 
 
 ````md
@@ -2482,7 +2488,7 @@ RSCF-NODE:
 RSCF-RELATIONS:
 
   - INDEXED_BY:
-      "[[00_ROOT/00-Home]]"
+      "[[00_HOME]]"
 
   - INDEXED_BY:
       "[[AMOS_RSCF_NODES]]"
@@ -2494,7 +2500,7 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - RELATED_TO:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|Generator Contract]]"
+      "[[GENERATOR_CONTRACT|Generator Contract]]"
 
   - RELATED_TO:
       "Generator Validation"
@@ -2509,13 +2515,13 @@ RSCF-RELATIONS:
       "Generator Integration"
 
   - RELATED_TO:
-      "[[00_ROOT/ROADMAP|Generator Roadmap]]"
+      "[[ROADMAP|Generator Roadmap]]"
 
   - RELATED_TO:
       "Generator History"
 
   - RELATED_TO:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG|Generator Change Log]]"
+      "[[GENERATORS_CHANGE_LOG|Generator Change Log]]"
 ```
 
 ---
@@ -3243,7 +3249,7 @@ NON_AUTHORITATIVE
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
 
 ## Related Generator artifacts
 
@@ -3293,3 +3299,6 @@ GENERATORS_CHANGE_LOG.md
 ````
 
 That separation is important because **tests answer whether a property held in a test, while benchmarks answer how a system performed under a measurement envelope; neither alone proves global correctness or readiness.**
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

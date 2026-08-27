@@ -194,3 +194,6 @@ This test is reusable as an audit lens for any canon item in the vault — not j
 - b32a7b01-5632-450a-a935-2ded537ff5fe_The_Seven_Cycles_of_the_Trang_System__Official_Manual_(Comprehensive_Edition) — C1–C7 lifecycle (maps to Parts V/VI/VII)
 - 2026-08-22 Trang Phi Framework — 17-group equation catalog; dynamics 4.1–4.4 (movement), cascade 7.1/7.2 (termination)
 - AMOS Universe Total Canon UTC Master File (inside AMOS_OS_MasterFile.compressed) — the 10-part composition canon, orthogonal axis
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

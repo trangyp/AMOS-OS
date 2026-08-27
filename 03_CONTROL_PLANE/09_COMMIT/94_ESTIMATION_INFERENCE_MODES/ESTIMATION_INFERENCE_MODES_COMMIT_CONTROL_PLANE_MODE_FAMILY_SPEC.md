@@ -31,3 +31,6 @@ node_id: cp_es_estimation_inference_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/94_ESTIMATION_INFERENCE_MODES/ESTIMATION_INFERENCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[94_ESTIMATION_INFERENCE_MODES_MOC]]

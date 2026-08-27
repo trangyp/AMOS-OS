@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 DECISION RISK GOVERNANCE
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Decision Theory & Risk Governance (Gaps 222-229)
 
 **Date**: 2026-08-22
@@ -74,6 +79,9 @@ kernel. This is intentional — catastrophic risks should block execution.
 - 2026-08-22 Uncertainty Calibration Governance
 - 2026-08-22 Adversarial Robustness Governance
 - 2026-08-22 Distributed Consensus Governance
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 
 #decision-risk #governance #gaps-222-229 #closed #amos-os-kernel
+
+---
+**MOC:** [[DATED_MOC]]

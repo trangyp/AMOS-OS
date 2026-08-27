@@ -1,6 +1,11 @@
 ---
+title: REGIME FRESHNESS
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # Epistemic Regime and Freshness
 
 ## Applicability envelope
@@ -14,4 +19,7 @@ A source may remain historically accurate while becoming decision-invalid under 
 Regime changes selectively invalidate claims whose applicability envelope no longer matches.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

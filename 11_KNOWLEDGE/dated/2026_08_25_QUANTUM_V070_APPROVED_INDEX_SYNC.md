@@ -1,6 +1,11 @@
 ---
+title: 2026 08 25 QUANTUM V070 APPROVED INDEX SYNC
 tags: [dated, dated/2026-08-25]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Quantum v0.7.0 Full Integration — Session Note (2026-08-25)
 
 ## What was done
@@ -35,3 +40,6 @@ tags: [dated, dated/2026-08-25]
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

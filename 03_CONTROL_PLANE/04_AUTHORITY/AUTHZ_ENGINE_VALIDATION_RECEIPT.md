@@ -7,6 +7,7 @@ executor: Hermes agent (ox-alpha)
 updated: 2026-08-26
 epistemic_class: DERIVED
 conclusion_class: PARTIAL
+tags: [note, 04-authority]
 ---
 
 # AUTHZ Invariant Engine — Execution Receipt
@@ -62,7 +63,7 @@ DERIVED reference implementation pending promotion.
 
 - [[AMOS Home]] — universal vault hub
 - [[00_ROOT_MOC]] — AMOS OS master map
-- [[03_CONTROL_PLANE/04_AUTHORITY/AUTHORITY_CONTROL_PLANE_README|AUTHORITY readme]]
+- [[AUTHORITY_CONTROL_PLANE_README|AUTHORITY readme]]
 - [[AMOS_RSCF_NODES]] — RSCF node index
 
 ## Reproduce
@@ -70,3 +71,6 @@ DERIVED reference implementation pending promotion.
 ```bash
 python3 03_CONTROL_PLANE/04_AUTHORITY/authz_invariant_engine.py
 ```
+
+---
+**MOC:** [[04_AUTHORITY_MOC]]

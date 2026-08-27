@@ -31,3 +31,6 @@ node_id: cp_umption_sensitivity_modes_commit_control_plane_mode_family_registry_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/77_ASSUMPTION_SENSITIVITY_MODES/ASSUMPTION_SENSITIVITY_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[77_ASSUMPTION_SENSITIVITY_MODES_MOC]]

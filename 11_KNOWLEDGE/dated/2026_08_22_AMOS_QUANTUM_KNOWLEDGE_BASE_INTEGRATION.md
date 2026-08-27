@@ -61,6 +61,9 @@ npm test
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Core Infrastructure Modules
 - 2026-08-22 AMOS Structural Gap Promotion 340-347
+
+---
+**MOC:** [[DATED_MOC]]

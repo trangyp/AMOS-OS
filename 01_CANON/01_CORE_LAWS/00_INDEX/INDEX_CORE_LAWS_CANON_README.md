@@ -1,3 +1,9 @@
+---
+title: INDEX CORE LAWS CANON README
+type: note
+tags: [note, 00-index]
+---
+
 ````markdown
 ---
 title: "AMOS Core Laws Canon Index README"
@@ -1816,3 +1822,8 @@ confidence_ceiling: 0
 
 ```
 ```
+
+## Files
+
+- [[CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
+- [[CORE_LAWS_MAP]]

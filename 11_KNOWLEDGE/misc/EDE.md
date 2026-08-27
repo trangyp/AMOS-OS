@@ -1,4 +1,5 @@
 ---
+title: EDE
 
 canon-group: human-system
 canon-type: architecture
@@ -33,6 +34,7 @@ tags:
 * rscf/type-model
 
 ---
+
 
 # Truth-Preserving Biological Operating System
 
@@ -4532,4 +4534,7 @@ not unrestricted exposure and not stabilizing deception.
 
 > **Final invariant:** The future of truth is not full exposure. It is structured integration.
 
-Source basis: 
+Source basis:
+
+---
+**Links:** [[MISC_MOC]] | [[KNOWLEDGE_MOC]]

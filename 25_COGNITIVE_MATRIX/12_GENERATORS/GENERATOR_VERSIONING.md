@@ -1,3 +1,9 @@
+---
+title: GENERATOR VERSIONING
+type: note
+tags: [note, 12-generators]
+---
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VERSIONING.md`.
 
 The central rule is that **Generator versioning is not just semantic version numbering**. In AMOS, a Generator version must bind contract, implementation, schema/template dependencies, provenance, validation/test evidence, scope/regime, policy epoch, compatibility, supersession, rollback, and state-read assumptions strongly enough that a previously validated Generator cannot silently drift underneath the same identity. This follows the AMOS Full Brain OS integrity model: implementation, authority, provenance, or validation facts that are unavailable remain explicit gaps rather than being inferred.  The primary canon source for this Skill is `AMOS_FULL_BRAIN_OS.json`; preserving its version/provenance architecture is separate from claiming an implemented runtime mechanism. 
@@ -3175,7 +3181,7 @@ RSCF-NODE:
 RSCF-RELATIONS:
 
   - INDEXED_BY:
-      "[[00_ROOT/00-Home]]"
+      "[[00_HOME]]"
 
   - INDEXED_BY:
       "[[AMOS_RSCF_NODES]]"
@@ -3187,7 +3193,7 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - GOVERNS_VERSION_OF:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|Generator Contract]]"
+      "[[GENERATOR_CONTRACT|Generator Contract]]"
 
   - RELATED_TO:
       "Generator Provenance"
@@ -3199,16 +3205,16 @@ RSCF-RELATIONS:
       "Generator Tests"
 
   - RELATED_TO:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS|Generator Benchmarks]]"
+      "[[GENERATORS_BENCHMARKS|Generator Benchmarks]]"
 
   - RELATED_TO:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_AUDIT|Generator Audit]]"
+      "[[GENERATORS_AUDIT|Generator Audit]]"
 
   - RELATED_TO:
       "Generator History"
 
   - RELATED_TO:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG|Generator Change Log]]"
+      "[[GENERATORS_CHANGE_LOG|Generator Change Log]]"
 ```
 
 ---
@@ -3976,7 +3982,7 @@ NON_AUTHORITATIVE
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
 
 ## Related Generator artifacts
 
@@ -4058,3 +4064,6 @@ not merely:
 ```
 
 That prevents silent Generator drift from invalidating provenance, tests, validation, routing, and rollback while continuing to masquerade as the “same version.”
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

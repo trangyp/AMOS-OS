@@ -31,3 +31,6 @@ node_id: amos_lysis_00_index_business_analysis_domains_business_analysis_contrac
 node_type: note
 path: 21_DOMAINS/35_BUSINESS_ANALYSIS/00_INDEX/BUSINESS_ANALYSIS_DOMAINS_BUSINESS_ANALYSIS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_BUSINESS_ANALYSIS_DOMAINS_README]]

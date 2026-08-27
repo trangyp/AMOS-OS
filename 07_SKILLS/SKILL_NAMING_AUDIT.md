@@ -3,6 +3,7 @@ name: skill-naming-audit
 version: 1.0.0
 source: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 description: AMOS skill naming audit produced from .devin/skills across vault and runtime trees.
+tags: [note, 07-skills]
 ---
 
 # AMOS Skill Naming Audit
@@ -49,3 +50,6 @@ After the rename, a second pass ran through all `SKILL.md` files:
 1. Review the manifest for source-protected names (e.g., `absolute-logic`, `supercurrent`, `omega` if source-defined).
 2. Verify runtime skill resolution in a fresh session.
 3. Add any remaining canonical skills to the `07_SKILLS/` index if needed.
+
+---
+**MOC:** [[07_SKILLS_MOC]]

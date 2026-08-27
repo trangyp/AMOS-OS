@@ -50,7 +50,7 @@ Given an operation touching `PRIMITIVES · COGNITIVE MATRIX L02 ATTENTION CONTRA
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: cm__attention_00_index_primitives_cognitive_matrix_l02_attention_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/00_INDEX/PRIMITIVES_COGNITIVE_MATRIX_L02_ATTENTION_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_README]]

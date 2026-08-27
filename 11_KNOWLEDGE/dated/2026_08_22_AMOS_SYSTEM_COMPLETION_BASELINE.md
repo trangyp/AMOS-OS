@@ -121,10 +121,13 @@ the system.
   lower than 80% once canon supersession is reconciled. Audit will test this.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS System Completion Audit (reconciliation — to be produced)
 - 2026-08-22 AMOS System Completion Roadmap (next-jump plan — to be produced)
 - 00_AMOS_Full_Brain_OS_Architecture
 - 2026-08-22 19x19 AI Cognitive Field
 - 2026-08-22 AMOS Go Board 19x19 Formal System
 - 2026-08-22 7-Part Universe Canon — Vault Completeness Audit
+
+---
+**MOC:** [[DATED_MOC]]

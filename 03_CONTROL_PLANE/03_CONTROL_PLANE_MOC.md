@@ -1,0 +1,31 @@
+---
+title: 03_CONTROL_PLANE MOC
+type: moc
+tags: [moc, 03-control-plane]
+---
+
+# 03_CONTROL_PLANE — Map of Content
+
+## Files
+
+- [[CONTROL_PLANE_CONTROL_PLANE_CONTRACT]]
+- [[CONTROL_PLANE_README]]
+
+## Subdirectories
+
+- [[INDEX_CONTROL_PLANE_README]]
+
+---
+**Parent:** [[AMOS_HOME]]
+- [[01_TASK_CONTRACT_MOC]]
+- [[02_CAPABILITY_MOC]]
+- [[03_POLICY_MOC]]
+- [[04_AUTHORITY_MOC]]
+- [[05_PROVENANCE_MOC]]
+- [[06_SEMANTIC_TRANSACTION_MOC]]
+- [[07_OBSERVABILITY_MOC]]
+- [[08_EFFECTS_MOC]]
+- [[09_COMMIT_MOC]]
+- [[10_EXPOSURE_MOC]]
+- [[11_REPLAY_MOC]]
+- [[12_ROLLBACK_MOC]]

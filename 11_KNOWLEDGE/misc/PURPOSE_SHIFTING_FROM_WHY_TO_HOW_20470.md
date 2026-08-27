@@ -1,6 +1,11 @@
 ---
+title: PURPOSE SHIFTING FROM WHY TO HOW 20470
 tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/purpose-shifting-from-why-to-how-20470, misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 
 April 2020
 
@@ -771,5 +776,8 @@ Brad Bird,” McKinsey Quarterly, April 2008, McKinsey.com.
 
 
 ## Related
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 Brain Inventory
+
+---
+**MOC:** [[MISC_MOC]]

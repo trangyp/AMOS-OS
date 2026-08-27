@@ -1,6 +1,11 @@
 ---
+title: RAW WRITE VIOLATIONS
 tags: [audit]
+type: document
+source: 11_KNOWLEDGE/audit
 ---
+
+
 # Raw Write Enforcement Report
 Generated: 2026-03-01T19:23:48.287458
 
@@ -537,3 +542,6 @@ Fix: Use kernel.persist() instead
 Line 174: open_write
 Code: `with open(file_path, 'w') as f:`
 Fix: Use kernel.persist() instead
+
+---
+**Links:** [[AUDIT_MOC]] | [[KNOWLEDGE_MOC]]

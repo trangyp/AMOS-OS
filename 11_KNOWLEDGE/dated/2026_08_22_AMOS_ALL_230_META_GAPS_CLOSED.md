@@ -115,8 +115,11 @@ The AMOS OS Kernel is now a complete, tested governance runtime. Every meta-gap 
 - Completion Graph: `seed_all_gaps` + `seed_cognitive_matrix` produce 230 + 19 closed gaps, 0 open.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS System Completion Baseline
 - 2026-08-22 AMOS Cognitive Architecture Matrix Governance
 - 2026-08-22 AMOS Cognitive Architecture Matrix Governance
 - 2026-08-22 Cosmo Brain TypeScript suite green
+
+---
+**MOC:** [[DATED_MOC]]

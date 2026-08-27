@@ -1750,7 +1750,7 @@ Before this artifact or its executable bindings are promoted beyond conditional 
 
 Governed by:
 
-[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+[[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 
 The supersession index cannot supersede higher-order law merely by recording an edge.
 

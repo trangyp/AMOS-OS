@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN ENHANCEMENT LOG
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-enhancement-log, brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 
 # AMOS Brain Enhancement Log
 
@@ -87,4 +92,7 @@ These are defined in AMOS_Os_Agent_v0.md lines 680-783 but have empty evaluation
 *End of enhancement log. S1-S9 complete. Tagged: laws_applied=L1-L6, quadrants=bio+tech+econ+env, strategy=direct_structural_answer, deviations=none.*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

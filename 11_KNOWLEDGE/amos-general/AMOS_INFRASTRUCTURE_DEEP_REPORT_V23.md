@@ -1,6 +1,11 @@
 ---
+title: AMOS INFRASTRUCTURE DEEP REPORT V23
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # AMOS as Infrastructure: Corrected Full-Stack Architecture over Forex
 ## Deep Architecture, Evidence, Runtime, and Regression Report — v23
 
@@ -1045,3 +1050,6 @@ The key design law for all future Forex work is now:
 And the corresponding authority law is:
 
 **No domain result is final until infrastructure state, provenance, transaction, authority, and audit gates have admitted it.**
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

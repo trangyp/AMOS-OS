@@ -1,6 +1,11 @@
 ---
+title: AMOS INFRASTRUCTURE FULL BRAIN AGENT ARCHITECTURE ROUND11
 tags: ['knowledge', 'note']
+type: document
+source: 11_KNOWLEDGE/root
 ---
+
+
 
 # AMOS Infrastructure, Full Brain OS, Agents & Skills Architecture
 ## Round 11 — Governed Architecture Summary
@@ -1098,3 +1103,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

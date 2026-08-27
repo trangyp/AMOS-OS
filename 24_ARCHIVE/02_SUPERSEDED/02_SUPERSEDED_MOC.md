@@ -1,0 +1,21 @@
+---
+title: 02_SUPERSEDED MOC
+type: moc
+tags: [moc, 02-superseded]
+---
+
+# 02_SUPERSEDED — Map of Content
+
+## Files
+
+- [[ARCHIVE_SUPERSEDED_CONTRACT]]
+- [[SUPERSEDED_ARCHIVE_README]]
+- [[SUPERSEDED_CANON_REGISTRY]]
+- [[SUPERSEDED_FRAMEWORK_REGISTRY]]
+
+## Subdirectories
+
+- [[INDEX_SUPERSEDED_ARCHIVE_README]]
+
+---
+**Parent:** [[24_ARCHIVE_MOC]]

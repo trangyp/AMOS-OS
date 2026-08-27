@@ -1,6 +1,11 @@
 ---
+title: AMOS STATE RISK PACK V0 TEMPLATE TEMPLATE
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-state-risk-pack-v0, amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 # AMOS State Risk Pack v0 Template Template
 
@@ -19,4 +24,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
 This template is used to generate country-specific and sector-specific pack files. Fill in the template with country/sector-specific data to create a concrete pack.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

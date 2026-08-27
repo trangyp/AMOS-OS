@@ -33,3 +33,6 @@ Drive layer restored · every pass closed with convergence loops.
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

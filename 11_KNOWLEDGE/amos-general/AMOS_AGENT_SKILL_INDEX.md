@@ -1,6 +1,11 @@
 ---
+title: AMOS AGENT SKILL INDEX
 tags: [canon-group/tech-ai, canon/framework, rscf/state/observation, topic/amos-agent-skill-index, amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 # AMOS Agent Skill Index
 
@@ -66,4 +71,7 @@ Orchestration layer: amos-agent-orchestration (routing/conflict), amos-agent-exe
 - md/Core/AMOS_Agent_Systems_Learning_Record.md — learning consolidation
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

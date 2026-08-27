@@ -31,3 +31,6 @@ node_id: cp_es_adversarial_red_team_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/47_ADVERSARIAL_RED_TEAM_MODES/ADVERSARIAL_RED_TEAM_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[47_ADVERSARIAL_RED_TEAM_MODES_MOC]]

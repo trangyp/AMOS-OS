@@ -1,6 +1,11 @@
 ---
+title: 2026 08 25 ARCHITECTURE QUANTUM AUDIT AND V070 PLAN
 tags: [dated, dated/2026-08-25]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # 2026-08-25 Architecture Quantum Audit and v0.7.0 Plan
 
 **Canonical path**: `_00_Cosmo brain/md/`
@@ -157,3 +162,6 @@ find .devin/skills ~/.hermes/skills -path '*quantum*' -o -path '*fractal*' -o -p
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[qfm-max-power-consolidation]] · [[unipower-unitaxi-mece]] · amos-tech-quantum-engine-layer
+
+---
+**MOC:** [[DATED_MOC]]

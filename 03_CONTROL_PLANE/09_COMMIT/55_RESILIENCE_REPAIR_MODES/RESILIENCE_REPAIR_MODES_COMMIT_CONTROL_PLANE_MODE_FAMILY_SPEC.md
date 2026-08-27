@@ -31,3 +31,6 @@ node_id: cp_modes_resilience_repair_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/55_RESILIENCE_REPAIR_MODES/RESILIENCE_REPAIR_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[55_RESILIENCE_REPAIR_MODES_MOC]]

@@ -1,7 +1,13 @@
 ---
+title: AMOS SIMULATION KERNEL V0 MATH FOUNDATIONS
 tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-simulation-kernel-v0, math]
+type: data
+source: 11_KNOWLEDGE/math
 ---
 
+
+
+```json
 {
   "meta": {
     "name": "Simulation_Kernel",
@@ -50,4 +56,8 @@ tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state
 }
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]] · AMOS_Sector_Definition_Pack_v0_Template_Template_Template
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]] · AMOS_Sector_Definition_Pack_v0_Template_Template_Template
+```
+
+---
+**MOC:** [[MATH_MOC]]

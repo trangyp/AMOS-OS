@@ -1,6 +1,11 @@
 ---
+title: AMOS SYSTEM ARCHITECTURE REPORT
 tags: [system]
+type: document
+source: 11_KNOWLEDGE/system
 ---
+
+
 # AMOS SYSTEM ARCHITECTURE - AGENT UNDERSTANDING REPORT
 
 ## 🚨 **MANDATORY READING FOR ALL AGENTS**
@@ -421,3 +426,6 @@ class ComponentVerticalSliceAcceptanceTest:
 **Last Updated**: 2026-03-16 12:51:38 UTC+07:00  
 **Next Review**: 2026-03-17 12:51:38 UTC+07:00  
 **Maintainer**: AMOS System Integration Team
+
+---
+**Links:** [[SYSTEM_MOC]] | [[KNOWLEDGE_MOC]]

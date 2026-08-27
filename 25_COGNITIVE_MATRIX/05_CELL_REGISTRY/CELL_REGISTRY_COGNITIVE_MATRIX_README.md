@@ -71,3 +71,6 @@ node_id: cell_registry_infrastructure_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY/05_CELL_REGISTRY_COGNITIVE_MATRIX_README.md
 claim_class: DERIVED
+
+---
+**MOC:** [[05_CELL_REGISTRY_MOC]]

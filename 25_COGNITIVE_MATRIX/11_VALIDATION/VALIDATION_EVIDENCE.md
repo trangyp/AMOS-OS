@@ -50,6 +50,7 @@ runtime_dependencies:
   - "11_VALIDATION/VALIDATION_LEVELS.md"
 
 hard_rule: "EVIDENCE != CLAIM != VALIDATION != AUTHORITY != COMMIT"
+tags: [note, 11-validation]
 ---
 
 # 11_VALIDATION — Validation Evidence
@@ -5443,7 +5444,7 @@ DESCENDANTS OF ONE CLAIM.
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -5451,6 +5452,9 @@ node_id: validation_evidence
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_EVIDENCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[11_VALIDATION_MOC]]

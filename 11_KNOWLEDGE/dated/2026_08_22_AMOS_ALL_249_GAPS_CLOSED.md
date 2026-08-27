@@ -120,7 +120,10 @@ The AMOS OS Kernel is a complete, tested governance runtime. The flat meta-gap l
 - `seed_cognitive_matrix` runtime output: 19 explicit gaps, 243 structural-gap unknowns, 9,367 structural cells, 68.02% structural-gap ratio.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Cognitive Architecture Matrix
 - 2026-08-22 AMOS Cognitive Architecture Matrix Governance
 - 2026-08-22 Cosmo Brain TypeScript suite green
+
+---
+**MOC:** [[DATED_MOC]]

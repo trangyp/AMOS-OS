@@ -1,0 +1,20 @@
+---
+title: 30_CLINICAL_RESEARCH MOC
+type: moc
+tags: [moc, 30-clinical-research]
+---
+
+# 30_CLINICAL_RESEARCH — Map of Content
+
+## Files
+
+- [[CLINICAL_RESEARCH_DOMAINS_DOMAIN_SPEC]]
+- [[CLINICAL_RESEARCH_DOMAINS_README]]
+- [[DOMAINS_CLINICAL_RESEARCH_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_CLINICAL_RESEARCH_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/amos-super-mind-os-layer`
 
 - Open the skill: .agents/skills/amos-super-mind-os-layer
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

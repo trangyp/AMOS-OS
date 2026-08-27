@@ -1734,7 +1734,7 @@ Choose one expensive decision problem
 ## Related AMOS nodes
 
 - [[docs/moc/00-Home]]
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - [[docs/moc/06-Knowledge-Base-MOC]]
 - AMOS Full Brain OS
 - AMOS Infrastructure Control Plane
@@ -1744,6 +1744,9 @@ Choose one expensive decision problem
 - TPE
 - Ubi
 - QLS
-- [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]]
-- [[docs/brain/system_scan_agent]]
-- [[docs/brain/automation_profiles]]
+- [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
+- [[SYSTEM_SCAN_AGENT]]
+- [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

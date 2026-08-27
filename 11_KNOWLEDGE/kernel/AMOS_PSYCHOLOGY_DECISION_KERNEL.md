@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-psychology-decision-kernel`
 
 - Open the skill: .devin/skills/amos-psychology-decision-kernel
+
+---
+**Links:** [[KERNEL_MOC]] | [[KNOWLEDGE_MOC]]

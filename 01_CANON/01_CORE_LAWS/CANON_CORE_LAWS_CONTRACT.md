@@ -1,3 +1,9 @@
+---
+title: CANON CORE LAWS CONTRACT
+type: note
+tags: [note, 01-core-laws]
+---
+
 ````markdown id="amos-core-laws-contract"
 ---
 title: "AMOS OS CORE LAWS Contract"
@@ -3124,3 +3130,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: AMOS_RSCF_NODES
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

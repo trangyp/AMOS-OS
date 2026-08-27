@@ -1,3 +1,9 @@
+---
+title: L21 LEARNING PRIMITIVES COGNITIVE MATRIX HML
+type: note
+tags: [note, l21-learning]
+---
+
 # L21 — H/M/L Applicability
 
 **Package:** `L21_LEARNING`  
@@ -36,3 +42,6 @@ node_type: note
 path: 01_PRIMITIVES/L21_LEARNING/L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_HML.md
+
+---
+**MOC:** [[L21_LEARNING_MOC]]

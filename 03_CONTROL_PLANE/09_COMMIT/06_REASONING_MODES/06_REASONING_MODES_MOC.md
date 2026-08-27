@@ -1,0 +1,24 @@
+---
+title: 06_REASONING_MODES MOC
+type: moc
+tags: [moc, 06-reasoning-modes]
+---
+
+# 06_REASONING_MODES — Map of Content
+
+## Files
+
+- [[REASONING_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY]]
+- [[REASONING_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
+- [[REASONING_MODES_COMMIT_CONTROL_PLANE_README]]
+
+## Subdirectories
+
+
+---
+**Parent:** [[09_COMMIT_MOC]]
+- [[01_EXPLORE_MOC]]
+- [[02_DIAGNOSE_MOC]]
+- [[03_DESIGN_MOC]]
+- [[04_AUDIT_MOC]]
+- [[05_MEASURE_MOC]]

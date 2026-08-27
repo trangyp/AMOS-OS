@@ -1,6 +1,12 @@
 ---
+title: CLICK JACKING CONSTRUCTION
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
+
 ## Construction
 
 Construction
@@ -29,9 +35,9 @@ SAMPLE
       background: green;
       }
   </style>
-  <div id="decoy_website">
+  
   Click Me
-  </div>
+  
   <iframe id="target_website" src="targetwebsite">
   </iframe>
 </body>
@@ -70,4 +76,7 @@ Multistep clickjacking
 * need precision and stealth.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

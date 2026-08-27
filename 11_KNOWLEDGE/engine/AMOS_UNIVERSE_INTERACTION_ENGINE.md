@@ -26,3 +26,6 @@ UIE = the engine governing interactions between nodes of the Universe Structure 
 
 ## Epistemic note
 This note is a **link-resolution anchor**, not an independent architecture claim. All interaction-layer authority is delegated to the UTC master file above. Confidence = SOURCE (delegated to canonical master).
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

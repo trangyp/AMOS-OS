@@ -11,6 +11,7 @@ scope:
   - "02_LIFECYCLE_OPERATIONS"
   - "03_CONTROL_PLANES"
   - "04_SCALES"
+tags: [note, 25-cognitive-matrix]
 ---
 
 # AMOS Cognitive Matrix Placeholder Seed Status
@@ -2548,7 +2549,7 @@ This is the level of depth I would use for the Matrix-wide status artifact: not 
 ```
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -2556,6 +2557,9 @@ node_id: placeholder_seed_status
 node_type: note
 path: 25_COGNITIVE_MATRIX/PLACEHOLDER_SEED_STATUS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]]

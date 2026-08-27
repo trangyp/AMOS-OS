@@ -81,3 +81,6 @@ gate in `AmosKernel.run()`, evaluated post-execution.
 3. **Gate naming convention**: Gap 270 uses `accessibility-270-*` prefix, gaps 271-273 use `i18n-27X-*` prefix.
 4. **Empty state semantics**: All gates return PASS on empty state (no records = no violations). This differs from privacy governor where jurisdiction/licensing returned CONDITIONAL on empty.
 5. **FAIL vs CONDITIONAL**: Non-conformant, divergence, inappropriate, and severe loss are FAIL (not just CONDITIONAL). This is stricter than privacy governor where most issues were CONDITIONAL.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

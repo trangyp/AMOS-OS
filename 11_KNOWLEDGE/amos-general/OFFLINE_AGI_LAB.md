@@ -1,6 +1,11 @@
 ---
+title: OFFLINE AGI LAB
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # OFFLINE AGI LAB DIRECTOR — COMPLETE IMPLEMENTATION
 
 ## 🏢 MISSION ACCOMPLISHED: SELF-EVOLVING INTELLIGENCE LAB IN A BOX
@@ -418,3 +423,6 @@ The **OFFLINE AGI LAB DIRECTOR** represents a breakthrough in autonomous artific
 - `offline_agi_lab_governance.py` - Release governance system
 
 **Status: COMPLETE AND OPERATIONAL** 🎉
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

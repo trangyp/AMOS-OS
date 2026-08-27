@@ -28,7 +28,7 @@ Index of Obsidian note and automation templates used by the AMOS vault.
 ## Current templates
 
 - linked-note — Templater template for new notes that auto-links to the root, Cosmo Brain, and home MOCs
-- [[AMOS_Obsidian_Linking_Plugins]] — plugin stack, Templater setup, and linking checklist
+- [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — plugin stack, Templater setup, and linking checklist
 
 ---
 
@@ -36,9 +36,9 @@ Index of Obsidian note and automation templates used by the AMOS vault.
 
 - [[AMOS Home]] — universal vault hub
 - [[00_ROOT_MOC]] — AMOS OS master map
-- [[00_ROOT/00_Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]] — Cosmo Brain root stub
-- [[AMOS_Layer_Maps]] — top-level layer map index
-- [[AMOS_Obsidian_Linking_Plugins]] — Obsidian linking plugin stack
+- [[00_COSMO_BRAIN_MOC|00 Cosmo Brain MOC]] — Cosmo Brain root stub
+- [[AMOS_LAYER_MAPS]] — top-level layer map index
+- [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian linking plugin stack
 
 ---
 RSCF-NODE
@@ -49,3 +49,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_COSMO_BRAIN_MOC]]

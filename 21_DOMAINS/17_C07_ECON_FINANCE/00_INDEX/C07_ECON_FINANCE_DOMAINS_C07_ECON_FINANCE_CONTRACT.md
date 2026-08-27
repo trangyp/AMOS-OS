@@ -31,3 +31,6 @@ node_id: amos_finance_00_index_c07_econ_finance_domains_c07_econ_finance_contrac
 node_type: note
 path: 21_DOMAINS/17_C07_ECON_FINANCE/00_INDEX/C07_ECON_FINANCE_DOMAINS_C07_ECON_FINANCE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C07_ECON_FINANCE_DOMAINS_README]]

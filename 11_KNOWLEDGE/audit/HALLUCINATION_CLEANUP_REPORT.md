@@ -1,6 +1,11 @@
 ---
+title: HALLUCINATION CLEANUP REPORT
 tags: [audit]
+type: document
+source: 11_KNOWLEDGE/audit
 ---
+
+
 # AMOS BRAIN HALLUCINATION CLEANUP REPORT
 =======================================
 
@@ -145,3 +150,6 @@ The user correctly identified hallucination artifacts that were compromising sys
 ---
 
 *This report documents the hallucination cleanup process under AMOS Brain governance with perpetual risk acknowledgment and evidence-based corrective actions.*
+
+---
+**Links:** [[AUDIT_MOC]] | [[KNOWLEDGE_MOC]]

@@ -31,3 +31,6 @@ node_id: amos_ology_00_index_c12_earth_ecology_domains_c12_earth_ecology_contrac
 node_type: note
 path: 21_DOMAINS/22_C12_EARTH_ECOLOGY/00_INDEX/C12_EARTH_ECOLOGY_DOMAINS_C12_EARTH_ECOLOGY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C12_EARTH_ECOLOGY_DOMAINS_README]]

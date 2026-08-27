@@ -1,6 +1,11 @@
 ---
+title: REASONING ORGAN
 tags: [cognitive]
+type: document
+source: 11_KNOWLEDGE/cognitive
 ---
+
+
 # AMOS Reasoning Organ - COMPLETE AND ACCEPTED
 
 ## 🎯 MISSION ACCOMPLISHED
@@ -110,3 +115,6 @@ The reasoning organ is ready for production deployment and serves as another ref
 ---
 
 *This reasoning organ slice demonstrates the successful integration of route + runtime + tests + acceptance criteria as required, following the validation slice's success pattern.*
+
+---
+**Links:** [[COGNITIVE_MOC]] | [[KNOWLEDGE_MOC]]

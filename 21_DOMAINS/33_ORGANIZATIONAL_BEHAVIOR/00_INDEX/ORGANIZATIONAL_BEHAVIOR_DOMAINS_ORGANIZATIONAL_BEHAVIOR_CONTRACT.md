@@ -31,3 +31,6 @@ node_id: amos_ex_organizational_behavior_domains_organizational_behavior_contrac
 node_type: note
 path: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR/00_INDEX/ORGANIZATIONAL_BEHAVIOR_DOMAINS_ORGANIZATIONAL_BEHAVIOR_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_ORGANIZATIONAL_BEHAVIOR_DOMAINS_README]]

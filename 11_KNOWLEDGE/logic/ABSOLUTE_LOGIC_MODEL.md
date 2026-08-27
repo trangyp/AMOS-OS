@@ -38,4 +38,7 @@ Defines specific violation states where reasoning fails structurally:
 This model is invoked by the `amos-canon-integration-layer` and the `amos-reasoning-kernel-layer` when evaluating the absolute lowest-level validity of a claim. If an argument violates the 19x19 interaction matrix, it is deemed logically collapsed and must be rejected, regardless of domain-specific context.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[LOGIC_MOC]]

@@ -1,6 +1,11 @@
 ---
+title: AMOS FOREX SIGNAL SIGNAL SERVICE
 tags: [amos-general]
+type: note
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 // signal/signal_service.js
 // Deterministic signal service – consumes feature events, runs the UKR engine, and emits trade signals.
 
@@ -24,4 +29,7 @@ class SignalService {
 module.exports = new SignalService();
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

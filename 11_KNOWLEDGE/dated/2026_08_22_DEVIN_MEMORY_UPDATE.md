@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 DEVIN MEMORY UPDATE
 origin_architect: Devin (AMOS session)
 provenance: direct verification — Python import of AMOS_V22_INTEGRATION constants + _selftest() + ls counts
 confidence: 0.95
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-devin-memory-update, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # Devin Memory Update — 2026-08-22
 
@@ -29,6 +31,9 @@ date: 2026-08-22
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 03-Brain-MOC
 - 02-Skills-MOC
+
+---
+**MOC:** [[DATED_MOC]]

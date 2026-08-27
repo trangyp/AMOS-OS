@@ -1,6 +1,12 @@
 ---
+title: XSS THINGS TO TRY
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
+
 ## Things to Try
 So Many things to try!
 
@@ -17,10 +23,13 @@ So Many things to try!
    	* do this in burp, send it to the Intruder.
 * Search for parameters in the source code and add it to the URL
 * If innerHTML (which doesn't take scripts), use an element with an onload or onerror eventhandler:
-   	* <img src=1 oneerror=alert(1)>
+   	* 
 * Look for Sinks (eval, write).
 
 TODO: Add list of different situations/contexts from portswigger and give sample inputs
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

@@ -1,6 +1,11 @@
 ---
+title: COPILOT INSTRUCTIONS
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # AMOS Full Infrastructure Brain for GitHub Copilot
 
 Use the repository-local AMOS Markdown brain.
@@ -36,4 +41,7 @@ Use v3.9/v4.0/v4.1/v4.2/v4.3/v4.4 modules according to dependency overlap and co
 Prefer the v4.4 local fast lane only when independence is demonstrated. Otherwise escalate.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

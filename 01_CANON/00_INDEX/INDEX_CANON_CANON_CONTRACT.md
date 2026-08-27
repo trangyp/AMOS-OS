@@ -1,3 +1,9 @@
+---
+title: INDEX CANON CANON CONTRACT
+type: note
+tags: [note, 00-index]
+---
+
 # AMOS OS — CANON Contract
 
 ```yaml
@@ -2134,3 +2140,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_CANON_README]]

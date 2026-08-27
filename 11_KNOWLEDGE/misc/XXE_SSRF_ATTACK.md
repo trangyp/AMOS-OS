@@ -1,6 +1,11 @@
 ---
+title: XXE SSRF ATTACK
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 ## SSRF Attack
 * SSRF = Server side request forgery
 * Server side app can be induced to make HTTP requests to any URL server can access
@@ -12,4 +17,7 @@ tags: [misc]
    	* Might be a directory from the URL -> so then add that to the end of your website: http://internal.vulnerable-website.com/NEWFOLDER
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

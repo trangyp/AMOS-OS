@@ -1,6 +1,11 @@
 ---
+title: AMOS CROSS SPECIES FUNCTIONAL DYNAMICS ARCHITECTURE
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # AMOS Cross-Species Functional Dynamics Architecture (CSFDA)
 ## Advanced refinement of the Cross-Species Group Model (CSGM)
 
@@ -2130,3 +2135,6 @@ High-stakes individual typing        → NOT LICENSED
 ```
 
 This architecture keeps the original Trang/AMOS structural ambition while adding the missing formal state, comparability, H/M/L, RSCF, causal, temporal, calibration, validation, governance, and infrastructure layers required for serious AMOS use.
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

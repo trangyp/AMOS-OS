@@ -50,7 +50,7 @@ Given an operation touching `SEMANTIC TRANSACTION · CONTROL PLANE SEMANTIC TRAN
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: cp_ex_semantic_transaction_control_plane_semantic_transaction_contract_
 node_type: note
 path: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX/SEMANTIC_TRANSACTION_CONTROL_PLANE_SEMANTIC_TRANSACTION_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_SEMANTIC_TRANSACTION_CONTROL_PLANE_README]]

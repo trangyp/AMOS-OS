@@ -31,3 +31,6 @@ node_id: cp_s_01_explore_explore_reasoning_modes_commit_control_plane_mode_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/01_EXPLORE/EXPLORE_REASONING_MODES_COMMIT_CONTROL_PLANE_MODE_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[01_EXPLORE_MOC]]

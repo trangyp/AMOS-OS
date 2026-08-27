@@ -1,6 +1,11 @@
 ---
+title: AMOS INFRASTRUCTURE AGENT ARCHITECTURE TEST FIX RERUN 2026 08 25
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # AMOS Infrastructure Layer — Agent Architecture Test / Fix / Rerun Record
 
 **Date:** 2026-08-25  
@@ -574,3 +579,6 @@ repair CI execution plane
 ```
 
 **Conclusion class:** `CONDITIONAL / IMPROVED / EXECUTION_GAP`
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

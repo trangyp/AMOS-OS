@@ -1,3 +1,9 @@
+---
+title: L07 MEMORY PRIMITIVES COGNITIVE MATRIX PROTOCOLS
+type: note
+tags: [note, l07-memory]
+---
+
 # L07 — Protocols
 
 **Package:** `L07_MEMORY`  
@@ -34,3 +40,6 @@ node_type: note
 path: 01_PRIMITIVES/L07_MEMORY/L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY/L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
+
+---
+**MOC:** [[L07_MEMORY_MOC]]

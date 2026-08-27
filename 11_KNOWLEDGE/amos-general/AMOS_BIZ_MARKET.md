@@ -1,7 +1,13 @@
 ---
+title: AMOS BIZ MARKET
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-ev-kernel-v0, amos-general]
+type: data
+source: 11_KNOWLEDGE/amos-general
 ---
 
+
+
+```json
 {
   "meta": {
     "name": "Unified_EV_Kernel_vInfinity_SUPER",
@@ -499,4 +505,8 @@ tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/st
 }
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+```
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

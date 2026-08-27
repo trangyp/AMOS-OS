@@ -1,6 +1,11 @@
 ---
+title: 7 INTELLIGENTS MAPPING
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # 7_Intelligents Engine Mapping
 
 **Purpose**: Domain-specific engine integration with AMOS Brain cognitive layers.
@@ -310,4 +315,7 @@ For research and analysis:
 - **Engines**: 12 total from 7_Intelligents/
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

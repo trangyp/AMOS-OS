@@ -1,6 +1,11 @@
 ---
+title: XSS VIA EXIF DATA
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # XSS Via EXIF Data
 https://shahjerry33.medium.com/xss-via-exif-data-the-p2-elevator-d09e7b7fe9b9
 
@@ -35,4 +40,7 @@ https://shahjerry33.medium.com/xss-via-exif-data-the-p2-elevator-d09e7b7fe9b9
 * Can't edit all fields (I've only had success with "comment" so far - some are pulled from the filesystem
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

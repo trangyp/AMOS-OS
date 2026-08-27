@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 TRANG PHI FRAMEWORK
 origin_architect: Hermes Agent (AMOS session)
 provenance: user-supplied canonical 17-group equation catalog (Trang ∅ Framework) + implemented & verified Python agent
 confidence: 0.95
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED
 tags: [canon-group/human-system, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-trang-phi-framework, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # Trang ∅ Framework — 17-Group Equation Catalog & Trang Agent
 
@@ -70,3 +72,6 @@ Per `EQUATION_FIREWALL.md`: every equation carries a status. The framework's thr
 - 2026-08-22 Brain Inventory
 - 2026-08-22 Executable Brain Model Lineage
 - cosmo-brain/AMOS_MD_BRAIN_FULL_INFRA/brain/20_state/ENTROPY_LACUNARITY.md
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

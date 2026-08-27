@@ -1,3 +1,9 @@
+---
+title: L09 INFERENCE PRIMITIVES COGNITIVE MATRIX HML
+type: note
+tags: [note, l09-inference]
+---
+
 # L09 — H/M/L Applicability
 
 **Package:** `L09_INFERENCE`  
@@ -36,3 +42,6 @@ node_type: note
 path: 01_PRIMITIVES/L09_INFERENCE/L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/L09_INFERENCE_PRIMITIVES_COGNITIVE_MATRIX_HML.md
+
+---
+**MOC:** [[L09_INFERENCE_MOC]]

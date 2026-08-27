@@ -57,6 +57,9 @@ Both runtimes now have data quality governance coverage.
 - **Total: 3701 verified tests** across all runtimes
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS All 249 Gaps Closed
 - Python equivalent: `AMOS_OS_KERNEL/amos/governance/data_quality.py`
+
+---
+**MOC:** [[DATED_MOC]]

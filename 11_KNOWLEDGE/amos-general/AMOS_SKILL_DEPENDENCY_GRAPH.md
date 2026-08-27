@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-skill-dependency-graph`
 
 - Open the skill: .devin/skills/amos-skill-dependency-graph
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

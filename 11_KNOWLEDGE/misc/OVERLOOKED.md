@@ -1,6 +1,11 @@
 ---
+title: OVERLOOKED
 tags: [misc]
+type: note
+source: 11_KNOWLEDGE/misc
 ---
+
+
 ﻿Những điểm extraordinary tôi thấy từ Drive/sample papers mà kiến trúc Trang đã có lõi, nhưng chưa nhấn đủ như một module riêng:
 1. Memory poisoning as entropy attack
 Không chỉ “memory cần repair”.
@@ -2257,4 +2262,7 @@ Because memory now shapes:
 across time.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

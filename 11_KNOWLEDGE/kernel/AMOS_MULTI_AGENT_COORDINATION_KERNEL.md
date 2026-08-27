@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-multi-agent-coordination-kernel`
 
 - Open the skill: .devin/skills/amos-multi-agent-coordination-kernel
+
+---
+**Links:** [[KERNEL_MOC]] | [[KNOWLEDGE_MOC]]

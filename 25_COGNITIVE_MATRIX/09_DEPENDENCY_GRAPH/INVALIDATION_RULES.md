@@ -1,3 +1,9 @@
+---
+title: INVALIDATION RULES
+type: note
+tags: [note, 09-dependency-graph]
+---
+
 # INVALIDATION_RULES — Definition
 
 **Package:** `INVALIDATION_RULES_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 09_DEPENDENCY_GRAPH/INVALIDATION_RULES_/INVALIDATION_RULES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/INVALIDATION_RULES.md
+
+---
+**MOC:** [[09_DEPENDENCY_GRAPH_MOC]]

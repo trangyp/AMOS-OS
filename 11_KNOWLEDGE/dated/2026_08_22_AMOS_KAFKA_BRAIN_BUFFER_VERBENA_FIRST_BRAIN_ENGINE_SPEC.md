@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 AMOS KAFKA BRAIN BUFFER VERBENA FIRST BRAIN ENGINE SPEC
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # AMOS_Kafka_Brain_Buffer_v1.0: A Verbena-First Brain Engine
 
 **Canon group:** tech-engineering  
@@ -638,4 +643,7 @@ cosmo-brain/
 *This spec is the manifesto of a new brain architecture. It positions Kafka-brain-buffer as a verbena-first, D8-consciousness-mapped, ACL-precise stream/log/buffer brain engine — a new canon group, distinct from the existing AMOS_Coding_Engine.md, and positioned as the operational substrate for a verbena meta-brain reading the Kafka log as its stream of brain entries.*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

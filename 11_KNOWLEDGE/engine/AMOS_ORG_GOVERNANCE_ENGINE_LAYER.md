@@ -17,3 +17,6 @@ confidence: "VERIFIED"
 
 - Open the skill: .devin/skills/amos-org-governance-engine-layer
 - Source model: Org_Governance_Model
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

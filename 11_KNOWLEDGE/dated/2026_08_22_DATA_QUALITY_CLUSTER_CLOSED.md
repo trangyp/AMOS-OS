@@ -95,8 +95,11 @@ The `test_completion.py` seed counts updated to:
 - No new conceptual framework was invented. All 11 records map directly to pre-defined `DataQuality*` dataclasses in `amos/core/types.py`.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS System Completion Baseline
 - 2026-08-22 AMOS System Completion Audit
 - 2026-08-22 AMOS System Completion Roadmap
 - 2026-08-22 resource_governance cluster closed
+
+---
+**MOC:** [[DATED_MOC]]

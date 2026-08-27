@@ -1,6 +1,11 @@
 ---
+title: AMOS ENGINE FORMAL
 tags: [engine]
+type: document
+source: 11_KNOWLEDGE/engine
 ---
+
+
 # AMOS Engine - Formal Architecture Specification - FINAL IMPLEMENTATION
 
 ## 🧠 MISSION ACCOMPLISHED
@@ -169,3 +174,6 @@ This implementation represents:
 - **Production Architecture**: Real working system with API contracts and safety layers
 
 **This is the complete formal implementation of the AMOS Engine specification - a practical post-LLM intelligence system that actually works!** 🚀
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

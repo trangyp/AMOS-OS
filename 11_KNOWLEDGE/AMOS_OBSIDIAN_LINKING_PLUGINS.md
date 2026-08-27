@@ -128,9 +128,9 @@ related:
 - 00 Cosmo Brain MOC
 - [[00_ROOT_MOC]]
 - [[AMOS Home]]
-- [[AMOS_Layer_Maps]] — top-level AMOS layer map index
+- [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — the knowledge layer index
-- [[AMOS_Templates]] — AMOS template index
+- [[AMOS_TEMPLATES]] — AMOS template index
 
 ---
 RSCF-NODE
@@ -141,3 +141,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

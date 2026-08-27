@@ -138,8 +138,11 @@ captures transitions. The `transition_mode()` method now appends a
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Cognitive Substrate Bug Fixes
 - 2026-08-22 Cognitive Substrate Memory Graph
 - 2026-08-22 Cognitive Substrate Interface Coupling
 - AMOS_Cognitive_Substrate_v2_Implementation_Notes
+
+---
+**MOC:** [[DATED_MOC]]

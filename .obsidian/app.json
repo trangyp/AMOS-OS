@@ -22,6 +22,9 @@
     "apps/public/",
     "packages/*/dist/",
     "packages/*/build/",
-    "cosmo-brain/__pycache__/"
+    "cosmo-brain/__pycache__/",
+    "00_ROOT/AMOS_RSCF_NODES.md",
+    "00_ROOT/00_HOME.md",
+    "11_KNOWLEDGE/AMOS_RUNTIME_STATE.md"
   ]
 }

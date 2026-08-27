@@ -1,6 +1,11 @@
 ---
+title: ENTROPY LACUNARITY
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # Entropy, Lacunarity, Repair
 
 These quantities are domain-sensitive. Do not confuse AMOS structural proxies with thermodynamic entropy or formal mathematical lacunarity unless definitions match.
@@ -19,4 +24,7 @@ These quantities are domain-sensitive. Do not confuse AMOS structural proxies wi
 Sustained viability requires repair capacity/rate to exceed degradation/entropy accumulation in the chosen model.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

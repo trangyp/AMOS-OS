@@ -1,6 +1,11 @@
 ---
+title: AMOS EXPRESSION TRANSLATION WORKFLOW
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-expression-translation-workflow, amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 # AMOS Expression Translation Workflow
 
@@ -111,4 +116,7 @@ NEI, NBI, SI, BEI, PSI, TSS, TPE, AMOS_BRAIN, SCIENCE, TECH, BIZFIN, HUMAN, GOV,
 - **Symbolic validation:** Treating spiritual/symbolic claims as literally true or false. Map to structural claims; preserve the speaker's meaning without making truth claims about the symbolism itself.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

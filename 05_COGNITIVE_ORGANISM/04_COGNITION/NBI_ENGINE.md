@@ -175,7 +175,7 @@ Given an operation touching `05_COGNITIVE_ORGANISM · ENGINE` within the Cogniti
 
 ## 8. Cross-plane bindings (target)
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -211,5 +211,7 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY]]
+  - GOVERNED_BY: [[LAW_HIERARCHY]]
 
+---
+**MOC:** [[04_COGNITION_MOC]]

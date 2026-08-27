@@ -1,6 +1,12 @@
 ---
+title: CSRF VULNERABILITIES
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
+
 ## Vulnerabilities
 Overview
 * CSRF vulnerabilities arise due to mistakes in token validation
@@ -34,7 +40,7 @@ Token is tied to non-session cookie
    	* NOTE: cookie-settin can happen anywhere on DNS domain.
    	* Set-Cookie header?
    	* Set an image with src that has a param setting a cookie
-   	* <img src="$/?search=test%0d%0aSet-Cookie:%20csrf=fake"+onerror="document.forms[0].submit();"/>
+   	* 
 Token duplicated in a cookie
 * some apps don't maintain server-side record of tokens
    	* instead duplicate each token within a cookie and request parameter.
@@ -47,4 +53,7 @@ Token duplicated in a cookie
    	* Use cookie setting behaviour. Check if there is anything in the Set-Cookie header and use an XSS attack
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

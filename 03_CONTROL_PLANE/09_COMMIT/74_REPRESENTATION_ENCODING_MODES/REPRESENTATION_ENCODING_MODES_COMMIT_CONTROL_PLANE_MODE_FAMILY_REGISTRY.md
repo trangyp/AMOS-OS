@@ -31,3 +31,6 @@ node_id: cp_esentation_encoding_modes_commit_control_plane_mode_family_registry_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/74_REPRESENTATION_ENCODING_MODES/REPRESENTATION_ENCODING_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[74_REPRESENTATION_ENCODING_MODES_MOC]]

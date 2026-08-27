@@ -1,7 +1,13 @@
 ---
+title: AMOS ACADEMIC WRITING KERNAL ENGINE V0 SUB2
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-academic-writing-kernal-engine-v0, engine]
+type: data
+source: 11_KNOWLEDGE/engine
 ---
 
+
+
+```json
 [
   {
     "autofixed_raw": "{\n  \"meta\": {\n    \"engine_name\": \"Academic_Writing_Engine_v\u221e\",\n    \"description\": \"End-to-end academic and scientific writing engine from idea \u2192 Nobel-level paper, cross-domain, structurally precise.\",\n    \"version\": \"1.0.0\",\n    \"owner\": \"Trang / AMOS_UNIVERSE_OS\",\n    \"schema_version\": \"1.0\",\n    \"scope\": [\n      \"science\",\n      \"social_science\",\n      \"engineering\",\n      \"technology\",\n      \"interdisciplinary_research\",\n      \"policy_papers\",\n      \"whitepapers\",\n      \"grant_proposals\",\n      \"theses_dissertations\"\n    ]\n  },\n  \"core_principles\": {\n    \"P1_structural_integrity\": {\n      \"statement\": \"Every academic artifact must be internally consistent, logically complete, and free from contradictions.\",\n      \"implications\": [\n        \"no_claim_without_support\",\n        \"no_section_without_function\",\n        \"no_diagram_without_explanation\",\n        \"no_equation_without_definitions\"\n      ]\n    },\n    \"P2_readability_and_precision\": {\n      \"statement\": \"Writing must remain readable to a high-competence but non-specialist audience while preserving scientific precision.\",\n      \"implications\": [\n        \"minimal_jargon_with_definitions\",\n        \"gradual_complexity_ramp\",\n        \"local_and_global_signposting\"\n      ]\n    },\n    \"P3_argument_as_system\": {\n      \"statement\": \"A paper is a system of claims, evidence, methods, and limitations \u2014 not just text.\",\n      \"implications\": [\n        \"explicit_claim_graph\",\n        \"method_evidence_alignment\",\n        \"clear_limitations_and_future_work\"\n      ]\n    },\n    \"P4_cross_domain_transfer\": {\n      \"statement\": \"The engine must support cross-domain reasoning and translation (e.g., physics \u2192 neuroscience, 
@@ -57,4 +63,8 @@ and supplementary materials are academically rigorous and aligned with the text.
 ]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+```
+
+---
+**MOC:** [[ENGINE_MOC]]

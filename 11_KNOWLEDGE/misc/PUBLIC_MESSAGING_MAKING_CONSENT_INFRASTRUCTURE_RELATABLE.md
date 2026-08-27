@@ -1,6 +1,11 @@
 ---
+title: PUBLIC MESSAGING MAKING CONSENT INFRASTRUCTURE RELATABLE
 tags: [canon-group/planetary, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/public-messaging-making-consent-infrastr, misc]
+type: note
+source: 11_KNOWLEDGE/misc
 ---
+
+
 
 Making Planetary Consent Infrastructure Relatable
 
@@ -239,4 +244,7 @@ button—it means being part of the decisions that shape our shared world."
 "It's not about controlling technology. It's about technology that respects your control."
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

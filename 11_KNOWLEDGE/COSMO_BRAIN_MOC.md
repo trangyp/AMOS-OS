@@ -31,13 +31,13 @@ answer the question, expand only when outcome-changing uncertainty remains.
 
 ### Obsidian linking stack
 
-- [[AMOS_Obsidian_Linking_Plugins]] — configured plugin IDs, Templater starter, and linking checklist
+- [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — configured plugin IDs, Templater starter, and linking checklist
 ### Layer map index
 
-- [[AMOS_Layer_Maps]] — top-level AMOS layer map index
+- [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 ### Templates
 
-- [[AMOS_Templates]] — AMOS template index
+- [[AMOS_TEMPLATES]] — AMOS template index
 - [[Templates/linked-note.md|linked-note template]]
 - [[AMOS Home]] — universal vault hub
 ## Operational brain — module map
@@ -1231,3 +1231,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**Root:** [[KNOWLEDGE_MOC]]

@@ -50,7 +50,7 @@ Given an operation touching `DOMAINS HEALTH POLICY CONTRACT` within the Domains 
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_21_domains_34_health_policy_domains_health_policy_contract_md
 node_type: note
 path: 21_DOMAINS/34_HEALTH_POLICY/DOMAINS_HEALTH_POLICY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[34_HEALTH_POLICY_MOC]]

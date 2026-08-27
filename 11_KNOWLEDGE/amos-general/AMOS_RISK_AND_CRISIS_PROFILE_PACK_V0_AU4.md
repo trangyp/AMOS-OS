@@ -1,4 +1,5 @@
 ---
+title: AMOS RISK AND CRISIS PROFILE PACK V0 AU4
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: amos-risk-and-crisis-profile-pack-v0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-risk-and-crisis-profile-pack-v0, amos-general]
 created: 2026-08-22
 ---
+
 
 # AMOS Risk And Crisis Profile Pack v0 Au4
 
@@ -30,4 +32,7 @@ See `./engine/A/AMOS_Australia_Economy_Engine_v0_Unipower4.md` for the complete 
 The original auto-fix process could not parse this file. The `autofixed_raw` field was empty, indicating no source content was available for parsing. A reference to the related vault source has been provided instead.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

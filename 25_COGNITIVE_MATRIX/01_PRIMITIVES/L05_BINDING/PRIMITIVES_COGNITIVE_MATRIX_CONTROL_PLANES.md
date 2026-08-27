@@ -1,3 +1,9 @@
+---
+title: PRIMITIVES COGNITIVE MATRIX CONTROL PLANES
+type: note
+tags: [note, l05-binding]
+---
+
 # L05 — Control-Plane Requirements
 
 **Package:** `L05_BINDING`  
@@ -35,3 +41,6 @@ node_type: note
 path: 01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
+
+---
+**MOC:** [[L05_BINDING_MOC]]

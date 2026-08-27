@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-behavioral-economics-kernel`
 
 - Open the skill: .devin/skills/amos-behavioral-economics-kernel
+
+---
+**Links:** [[KERNEL_MOC]] | [[KNOWLEDGE_MOC]]

@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/workflows/brain-consistency-audit.md`
 
 - Open the workflow: .devin/workflows/brain-consistency-audit.md
+
+---
+**Links:** [[BRAIN_MOC]] | [[KNOWLEDGE_MOC]]

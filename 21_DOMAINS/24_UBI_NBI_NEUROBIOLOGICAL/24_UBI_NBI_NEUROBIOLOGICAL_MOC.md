@@ -1,0 +1,20 @@
+---
+title: 24_UBI_NBI_NEUROBIOLOGICAL MOC
+type: moc
+tags: [moc, 24-ubi-nbi-neurobiological]
+---
+
+# 24_UBI_NBI_NEUROBIOLOGICAL — Map of Content
+
+## Files
+
+- [[DOMAINS_UBI_NBI_NEUROBIOLOGICAL_CONTRACT]]
+- [[UBI_NBI_NEUROBIOLOGICAL_DOMAINS_DOMAIN_SPEC]]
+- [[UBI_NBI_NEUROBIOLOGICAL_DOMAINS_README]]
+
+## Subdirectories
+
+- [[INDEX_UBI_NBI_NEUROBIOLOGICAL_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

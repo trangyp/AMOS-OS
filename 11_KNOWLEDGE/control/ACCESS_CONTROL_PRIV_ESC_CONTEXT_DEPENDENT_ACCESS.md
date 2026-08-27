@@ -1,6 +1,11 @@
 ---
+title: ACCESS CONTROL PRIV ESC CONTEXT DEPENDENT ACCESS
 tags: [control]
+type: document
+source: 11_KNOWLEDGE/control
 ---
+
+
 ## Context-Dependent Access
 Overview
 * Access restricted based on state of application
@@ -23,4 +28,7 @@ Location-based access control
 * circumvented using web proxies, VPNs, manipulation of client-side geolocation mechanisms
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[control_MOC]]

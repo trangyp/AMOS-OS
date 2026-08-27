@@ -1,0 +1,22 @@
+---
+title: 08_STRUCTURAL_GAPS MOC
+type: moc
+tags: [moc, 08-structural-gaps]
+---
+
+# 08_STRUCTURAL_GAPS — Map of Content
+
+## Files
+
+- [[COGNITIVE_MATRIX_STRUCTURAL_GAPS_CONTRACT]]
+- [[GAP_PRIORITY]]
+- [[GAP_PROMOTION]]
+- [[GAP_REGISTRY]]
+- [[STRUCTURAL_GAPS_COGNITIVE_MATRIX_README]]
+
+## Subdirectories
+
+- [[INDEX_STRUCTURAL_GAPS_COGNITIVE_MATRIX_README]]
+
+---
+**Parent:** [[25_COGNITIVE_MATRIX_MOC]]

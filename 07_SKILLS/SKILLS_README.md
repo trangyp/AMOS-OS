@@ -1,3 +1,9 @@
+---
+title: SKILLS README
+type: note
+tags: [note, 07-skills]
+---
+
 # AMOS OS Skills — Complete Inventory
 
 ## Overview
@@ -67,3 +73,6 @@ Every SKILL.md MUST include a "## 7-Part Mapping" section:
 1. Part VI — Adaptation (currently 1 skill; needs 2+ for MECE)
 2. Part V — Time (currently 2 skills; verify MECE split)
 3. Any new skill must map to an EMPTY part before filling a PARTIALLY-FILLED part
+
+---
+**MOC:** [[07_SKILLS_MOC]]

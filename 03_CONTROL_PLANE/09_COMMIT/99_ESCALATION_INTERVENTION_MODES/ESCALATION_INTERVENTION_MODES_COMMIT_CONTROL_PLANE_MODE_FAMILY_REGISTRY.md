@@ -31,3 +31,6 @@ node_id: cp_lation_intervention_modes_commit_control_plane_mode_family_registry_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/99_ESCALATION_INTERVENTION_MODES/ESCALATION_INTERVENTION_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[99_ESCALATION_INTERVENTION_MODES_MOC]]

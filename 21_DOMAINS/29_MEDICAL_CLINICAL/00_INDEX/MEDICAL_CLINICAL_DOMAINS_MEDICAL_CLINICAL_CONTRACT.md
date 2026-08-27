@@ -31,3 +31,6 @@ node_id: amos_linical_00_index_medical_clinical_domains_medical_clinical_contrac
 node_type: note
 path: 21_DOMAINS/29_MEDICAL_CLINICAL/00_INDEX/MEDICAL_CLINICAL_DOMAINS_MEDICAL_CLINICAL_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_MEDICAL_CLINICAL_DOMAINS_README]]

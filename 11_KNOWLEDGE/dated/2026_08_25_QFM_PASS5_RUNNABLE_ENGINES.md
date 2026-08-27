@@ -1,8 +1,10 @@
 ---
+title: 2026 08 25 QFM PASS5 RUNNABLE ENGINES
 tags: [daily/integrity-pass, topic/qfm-runnable-engines, dated, dated/2026-08-25]
 created: 2026-08-25
 conclusion_class: AMOS MODEL / DERIVED
 ---
+
 
 # 2026-08-25 Pass 5 — QFM Runnable Engines + Skill Enhancement
 
@@ -37,3 +39,6 @@ Every QFM agent should have a runnable engine + passing selftest behind its capa
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

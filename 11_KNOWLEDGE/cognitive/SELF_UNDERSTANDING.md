@@ -1,6 +1,11 @@
 ---
+title: SELF UNDERSTANDING
 tags: [cognitive]
+type: document
+source: 11_KNOWLEDGE/cognitive
 ---
+
+
 # AMOS Self-Understanding System - Implementation Complete
 
 ## 🧠 MISSION ACCOMPLISHED
@@ -269,3 +274,6 @@ The Self-Understanding System is now ready to integrate with:
 - **AMOS Brain**: Meta-cognitive self-awareness enhancement
 
 **AMOS now has a formal self-understanding system that prevents self-confusion by maintaining strict separation between symbolic, formal, executable, and verified layers, ensuring it knows exactly what it is, what it knows, what it can execute, and what it can only describe!** 🚀
+
+---
+**Links:** [[COGNITIVE_MOC]] | [[KNOWLEDGE_MOC]]

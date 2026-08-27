@@ -976,3 +976,6 @@ to acquire authority merely by reproducing behavior**.
 - added cumulative semantic exposure control
 - added provenance topology and authority/freshness boundaries
 - added adversarial tests, falsifiers, selective invalidation, and rollback
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

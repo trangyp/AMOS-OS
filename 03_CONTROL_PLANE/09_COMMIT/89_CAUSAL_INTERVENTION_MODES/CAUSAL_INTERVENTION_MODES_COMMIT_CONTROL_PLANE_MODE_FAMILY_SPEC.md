@@ -31,3 +31,6 @@ node_id: cp_des_causal_intervention_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/89_CAUSAL_INTERVENTION_MODES/CAUSAL_INTERVENTION_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[89_CAUSAL_INTERVENTION_MODES_MOC]]

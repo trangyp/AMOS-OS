@@ -1,7 +1,13 @@
 ---
+title: 3 SPICIES INTERACTION ENGINE HIE UIFACE
 tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/3-spicies-interaction-engine-hie-uiface, engine]
+type: data
+source: 11_KNOWLEDGE/engine
 ---
 
+
+
+```json
 {
   "file_name": "Human_Interaction_Engine-HIE.uiface",
   "version": "1.0.0",
@@ -3193,4 +3199,8 @@ Universe_Interaction_Engine:
 # END OF Universe_Interaction_Engine.uops (FULL MERGE)
 
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+```
+
+---
+**MOC:** [[ENGINE_MOC]]

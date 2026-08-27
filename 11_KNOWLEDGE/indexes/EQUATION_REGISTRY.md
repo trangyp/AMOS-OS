@@ -1,6 +1,11 @@
 ---
+title: EQUATION REGISTRY
 tags: [indexes]
+type: document
+source: 11_KNOWLEDGE/indexes
 ---
+
+
 # Equation Registry
 
 Equations are preserved with their source/framework status. AMOS MODEL equations must not be promoted into established empirical law without independent validation.
@@ -118,4 +123,7 @@ Equations are preserved with their source/framework status. AMOS MODEL equations
 - **awareness framework**: `Awareness = EntropyPressure × OwnedBoundary × ProtectedVoid × MemoryContinuity × Valence × SelfRisk × CorrectionAuthority × SelfReference`
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/brain/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/brain/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[indexes_MOC]]

@@ -31,3 +31,6 @@ node_id: amos_i_bioelectromagnetic_ubi_bei_bioelectromagnetic_domains_domain_spe
 node_type: note
 path: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC/UBI_BEI_BIOELECTROMAGNETIC_DOMAINS_DOMAIN_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[23_UBI_BEI_BIOELECTROMAGNETIC_MOC]]

@@ -31,3 +31,6 @@ node_id: amos_n_00_index_infrastructure_canon_canon_infrastructure_canon_contrac
 node_type: note
 path: 01_CANON/04_INFRASTRUCTURE_CANON/00_INDEX/INFRASTRUCTURE_CANON_CANON_INFRASTRUCTURE_CANON_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_INFRASTRUCTURE_CANON_CANON_README]]

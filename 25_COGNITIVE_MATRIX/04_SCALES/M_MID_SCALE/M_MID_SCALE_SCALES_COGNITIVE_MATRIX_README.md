@@ -1,3 +1,9 @@
+---
+title: M MID SCALE SCALES COGNITIVE MATRIX README
+type: note
+tags: [note, m-mid-scale]
+---
+
 # M — Overview
 
 **Package:** `M_MID_SCALE`  
@@ -38,3 +44,6 @@ node_type: note
 path: 04_SCALES/M_MID_SCALE/M_MID_SCALE_SCALES_COGNITIVE_MATRIX_README.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/M_MID_SCALE_SCALES_COGNITIVE_MATRIX_README.md
+
+---
+**MOC:** [[M_MID_SCALE_MOC]]

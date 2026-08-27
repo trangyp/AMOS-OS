@@ -1,3 +1,9 @@
+---
+title: README
+type: note
+tags: [note, vault]
+---
+
 """
 COSMO Monorepo - Production Readiness Summary
 
@@ -353,7 +359,7 @@ The technical foundation is solid and production-ready. With the remaining API c
 *Status: PHASE 1 READY with CLEAR PATH TO PRODUCTION*
 
 ---
-**Related:** [[docs/moc/00-Home]] · generated_architecture · [[AMOS_quantum_library_v0.1.0]] · [[PRIVACY_POLICY]]
+**Related:** [[00_HOME]] · generated_architecture · [[AMOS_quantum_library_v0.1.0]] · [[PRIVACY_POLICY]]
 
 ---
 ```RSCF-NODE
@@ -362,8 +368,11 @@ node_type: doc
 domain: DOC
 path: README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[docs/moc/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - RELATED_TO: [[AMOS_quantum_library_v0.1.0]]
   - RELATED_TO: [[PRIVACY_POLICY]]
 claim_class: AMOS_MODEL
 ```
+
+---
+**MOC:** [[AMOS_HOME]]

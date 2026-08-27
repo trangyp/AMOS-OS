@@ -1,6 +1,11 @@
 ---
+title: EMERGENCY CRASH PREVENTION
 tags: [system]
+type: document
+source: 11_KNOWLEDGE/system
 ---
+
+
 # AMOS BRAIN - EMERGENCY CRASH PREVENTION REPORT
 ===============================================
 
@@ -150,3 +155,6 @@ K = {Governance, Incentive, Enforcement, Information, Recourse, Audit, Evolution
 ---
 
 *This emergency report represents an H2 hypothesis based on tensor field governance analysis. All emergency actions are subject to verification per no-proof-no-claim constraints. The system is under emergency protocol to prevent further crashes.*
+
+---
+**Links:** [[SYSTEM_MOC]] | [[KNOWLEDGE_MOC]]

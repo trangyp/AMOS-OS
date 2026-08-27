@@ -1,6 +1,11 @@
 ---
+title: AMOS DOMAIN SKILLS CATALOG
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-domain-skills-catalog, amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 # AMOS Domain-Specific Skills Catalog
 
@@ -95,4 +100,7 @@ When creating a new AMOS skill:
 Current AMOS skill inventory: 4 skills (amos-reasoning-loop, amos-law-stack, amos-cognition-modes in reasoning/; amos-expression-overlay in communication/; amos-tech-kernel-catalog in tech/; amos-docs-bridge in docs/). Brain kernel registry: 8 kernels (K_META_LOGIC priority 10 required, K_MATH_COMPUTE priority 9 required, K_BIO_NEURO priority 9 required, K_MIND_BEHAVIOR priority 8 required, K_TECH_ENGINE priority 7 optional, K_EV_INFRA priority 7 optional, K_UNIPOWER_OPS priority 8 optional, K_UNIPOWER_TECH priority 8 optional). Routing rules: ROUTE_EV (ev/charging/station/driver/fleet), ROUTE_TECH (software/ai/architecture/system_design), ROUTE_PSYCH (emotion/behaviour/psychology/ubi), ROUTE_DEFAULT (*). 12 proposed future skills across reasoning, tech, psychology/biology, law/governance, and economic domains.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

@@ -81,6 +81,9 @@ runtime. These are the foundational layers beneath the governance modules.
 - **Total: 3701 verified tests** across all runtimes
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS All 249 Gaps Closed
 - 2026-08-22 TypeScript Data Quality Governance
+
+---
+**MOC:** [[DATED_MOC]]

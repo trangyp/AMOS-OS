@@ -1,1287 +1,4130 @@
 ---
+title: HH
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Hh</title><style>
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
-html {
-	-webkit-print-color-adjust: exact;
-}
-* {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-@media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
-}
-
-body {
-	line-height: 1.5;
-	white-space: pre-wrap;
-}
-
-a,
-a.visited {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
-}
-
-h1,
-h2,
-h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-/* Override strong tags inside headings to maintain consistent weight */
-h1 strong,
-h2 strong,
-h3 strong {
-	font-weight: 600;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
-}
-
-h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-}
-
-h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
-}
-
-.callout {
-	border-radius: 10px;
-	padding: 1rem;
-}
-
-figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
-}
-
-figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
-}
-
-mark {
-	background-color: transparent;
-}
-
-.indented {
-	padding-left: 1.5em;
-}
-
-hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-img {
-	max-width: 100%;
-}
-
-@media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
-
-	table.collection-content {
-		width: 100%;
-		table-layout: fixed;
-	}
-
-	table.collection-content th,
-	table.collection-content td {
-		overflow-wrap: anywhere;
-	}
-
-	table.collection-content td > .user,
-	table.collection-content td > time {
-		white-space: pre-wrap;
-	}
-}
-
-@page {
-	margin: 1in;
-}
-
-.collection-content-wrapper {
-	overflow-x: auto;
-}
-
-@media only print {
-	.collection-content-wrapper {
-		overflow-x: visible;
-	}
-}
-
-.collection-content {
-	font-size: 0.875rem;
-}
-
-.collection-content td {
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-.column-list {
-	display: flex;
-	gap: 46px;
-}
-
-.column {
-	min-width: 0;
-	overflow: hidden;
-}
-
-.column > *:first-child {
-	margin-top: 0;
-}
-
-.table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
-}
-
-.table_of_contents-indent-1 {
-	margin-left: 1.5rem;
-}
-
-.table_of_contents-indent-2 {
-	margin-left: 3rem;
-}
-
-.table_of_contents-indent-3 {
-	margin-left: 4.5rem;
-}
-
-.table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-}
-
-table,
-th,
-td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-	border-collapse: collapse;
-}
-
-table {
-	border-left: none;
-	border-right: none;
-}
-
-th,
-td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
-}
-
-th {
-	color: rgba(55, 53, 47, 0.6);
-}
-
-ol,
-ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
-}
-
-li > ol:first-child,
-li > ul:first-child {
-	margin-block-start: 0.6em;
-}
-
-ul > li {
-	list-style: disc;
-}
-
-ul.to-do-list {
-	padding-inline-start: 0;
-}
-
-ul.to-do-list > li {
-	list-style: none;
-}
-
-.to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
-}
-
-ul.toggle > li {
-	list-style: none;
-}
-
-ul {
-	padding-inline-start: 1.7em;
-}
-
-ul > li {
-	padding-left: 0.1em;
-}
-
-ol {
-	padding-inline-start: 1.6em;
-}
-
-ol.numbered-list.numbered-list-digits-2 {
-	padding-inline-start: 2em;
-}
-
-ol.numbered-list.numbered-list-digits-3plus {
-	padding-inline-start: 2.4em;
-}
-
-ol > li {
-	padding-left: 0.2em;
-}
-
-.mono ol {
-	padding-inline-start: 2em;
-}
-
-.mono ol > li {
-	text-indent: -0.4em;
-}
-
-.toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
-}
-
-/* Indent toggle children */
-.toggle > li > details {
-	padding-left: 1.7em;
-}
-
-.toggle > li > details > summary {
-	margin-left: -1.1em;
-}
-
-.selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
-}
-
-.collection-title {
-	display: inline-block;
-	margin-right: 1em;
-}
-
-.page-description {
-	margin-bottom: 2em;
-}
-
-.simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
-}
-.simple-table td {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table th {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
-}
-.simple-table-header {
-	font-weight: 500;
-}
-
-time {
-	opacity: 0.5;
-}
-
-.icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
-}
-
-img.icon {
-	border-radius: 3px;
-}
-
-.callout img.notion-static-icon {
-	width: 1em;
-	height: 1em;
-}
-
-.callout p {
-	margin: 0;
-}
-
-.callout h1,
-.callout h2,
-.callout h3 {
-	margin: 0 0 0.6rem;
-}
-
-.user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-	font-size: 0.8em;
-}
-
-.text-icon {
-	border: 1px solid #000;
-	text-align: center;
-}
-
-.page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
-}
-
-.page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
-}
-
-.page-header-icon img {
-	border-radius: 3px;
-}
-
-.link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
-}
-
-p > .user {
-	opacity: 0.5;
-}
-
-td > .user,
-td > time {
-	white-space: nowrap;
-}
-
-input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
-}
-
-.code,
-code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
-}
-
-code {
-	color: #eb5757;
-}
-
-.code {
-	padding: 1.5em 1em;
-}
-
-.code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
-}
-
-.code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
-}
-
-blockquote {
-	font-size: 1em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
-}
-
-blockquote.quote-large {
-	font-size: 1.25em;
-}
-
-.bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
-}
-
-.bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
-}
-
-.bookmark-text {
-	display: flex;
-	flex-direction: column;
-}
-
-.bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
-}
-
-.bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
-}
-
-.bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
-}
-
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
-.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
-.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
-.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.highlight-default {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.highlight-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.highlight-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.highlight-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.highlight-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.highlight-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.highlight-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.highlight-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.highlight-default_background {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray_background {
-	background: rgba(42, 28, 0, 0.07);
-}
-.highlight-brown_background {
-	background: rgba(139, 46, 0, 0.086);
-}
-.highlight-orange_background {
-	background: rgba(224, 101, 1, 0.129);
-}
-.highlight-yellow_background {
-	background: rgba(211, 168, 0, 0.137);
-}
-.highlight-teal_background {
-	background: rgba(0, 100, 45, 0.09);
-}
-.highlight-blue_background {
-	background: rgba(0, 124, 215, 0.094);
-}
-.highlight-purple_background {
-	background: rgba(102, 0, 178, 0.078);
-}
-.highlight-pink_background {
-	background: rgba(197, 0, 93, 0.086);
-}
-.highlight-red_background {
-	background: rgba(223, 22, 0, 0.094);
-}
-.block-color-default {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.block-color-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.block-color-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.block-color-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.block-color-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.block-color-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.block-color-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.block-color-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.block-color-default_background {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray_background {
-	background: rgba(240, 239, 237, 1);
-}
-.block-color-brown_background {
-	background: rgba(245, 237, 233, 1);
-}
-.block-color-orange_background {
-	background: rgba(251, 235, 222, 1);
-}
-.block-color-yellow_background {
-	background: rgba(249, 243, 220, 1);
-}
-.block-color-teal_background {
-	background: rgba(232, 241, 236, 1);
-}
-.block-color-blue_background {
-	background: rgba(229, 242, 252, 1);
-}
-.block-color-purple_background {
-	background: rgba(243, 235, 249, 1);
-}
-.block-color-pink_background {
-	background: rgba(250, 233, 241, 1);
-}
-.block-color-red_background {
-	background: rgba(252, 233, 231, 1);
-}
-.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
-.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
-.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
-.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
-.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
-.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
-.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
-.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
-.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
-.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
-
-.checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
-}
-
-.checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-
-.checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-	
-</style></head><body><article id="30bc5e6f-95bd-80c5-8d7a-d9eec4dc63c8" class="page sans"><header><h1 class="page-title" dir="auto">Hh</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8039-aecc-f77321314a07" class="">Invariants 901–1000: Relationships &amp; Clusters (next 100, with equations)</h3></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80de-9943-e8acc34d5560" class="">Additional definitions</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8021-80ec-deb0129df0e7" class="bulleted-list"><li style="list-style-type:disc">Cluster overlap allowed set (for multi-membership)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c0-912b-c92362472616" class="bulleted-list"><li style="list-style-type:disc">Fuzzy membership</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c2-b0f1-e01772832365" class="bulleted-list"><li style="list-style-type:disc">Pairwise “same cluster” indicator</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8017-bf2a-d1f61d2c80e4" class="bulleted-list"><li style="list-style-type:disc">Edge set by predicate</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8094-a46a-d26433661420" class="bulleted-list"><li style="list-style-type:disc">Cluster-level predicate graph</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-803e-ba0a-fdebadcede2a"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-808d-af41-f7ce680275a7" class="">A) Overlapping / multi-membership clusters</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c8-be03-f3d61fc88750" class=""><strong>901. 
-Multi-membership bounded</strong><br/>If  memberships:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a3-85a6-c1a53687cb00" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-m(v)=|\{k: v\in C_k\}| \le M_{max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8028-994d-e04d5fc49c7a" class=""><strong>902. At least one membership</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808a-b382-ebc6f21ebc6b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall v:\ m(v)\ge 1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8071-95fc-e862cab1f207" class=""><strong>903. Overlap allowed only for eligible nodes</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b5-9f08-c1a675a97100" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-m(v)&gt;1 \Rightarrow v\in EligibleOverlap</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ac-a473-ea1b4762a99c" class=""><strong>904. Overlap forbidden for exclusive types</strong><br/>If :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b5-98ce-da871cc57091" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-type(v)\in ExclusiveTypes \Rightarrow m(v)=1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f2-94ec-cc1e8435e4c1" class=""><strong>905. Overlap intersection cap</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807e-8d91-cd2d73cf5526" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall i\neq j:\ |C_i\cap C_j|\le \Omega_{max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fc-9dd1-d3e641838515" class=""><strong>906. Overlap ratio cap</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b6-9e8a-eb51d8b280d3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|C_i\cap C_j|}{\min(|C_i|,|C_j|)}\le \omega_{max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8043-8690-c67118614f4f" class=""><strong>907. Fuzzy membership simplex</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-803e-be05-f378d926267e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall v:\ \sum_k p_k(v)=1,\ \ p_k(v)\ge 0</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803b-a751-ed92ce585b18" class=""><strong>908. Hard membership from fuzzy with threshold</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8013-8d0e-cecc3f6ad312" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-v\in C_k \iff p_k(v)\ge \tau</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cb-a83f-cc33bb604814" class=""><strong>909. Overlap implies multiple probabilities above threshold</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c8-914b-e536c91aa8e1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-m(v)&gt;1 \Rightarrow |\{k: p_k(v)\ge \tau\}|&gt;1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f4-b029-f7c9f5345c6c" class=""><strong>910. Fuzzy entropy bound for non-overlap nodes</strong><br/>If :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80af-9ddd-cd7395c65256" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-H(p(v))\le H_{max}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8001-ac9a-ceff70e8fc54"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8048-a3b2-c9cf1d421be6" class="">B) Cluster similarity and deduplication (meta-clustering)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8068-96a1-d1ad07894d2f" class=""><strong>911. Cluster similarity (Jaccard)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80d0-b4d9-c9c03bfcb747" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-sim(C_i,C_j)=\frac{|C_i\cap C_j|}{|C_i\cup C_j|}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cc-8c57-fd1c6cf6523d" class=""><strong>912. No duplicate clusters</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-803f-b4a3-e3d5f5a91f34" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-sim(C_i,C_j)\ge \tau_{dup} \Rightarrow \text{merge}(C_i,C_j)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8052-aa20-cadbda444bc2" class=""><strong>913. Merge produces union</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b2-b8b5-dd346568780f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-merge(C_i,C_j)=C_i\cup C_j</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808c-8bff-e8090258f91f" class=""><strong>914. Merge preserves coverage</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a9-9cf2-e05364a13a8f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\bigcup_k C_k = V\ \text{before} \Rightarrow \bigcup_k C&#x27;_k = V\ \text{after}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bf-b489-cac8d3064b48" class=""><strong>915. Merge reduces count</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8051-b13d-d9ffe297bf37" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-merge \Rightarrow K&#x27; = K-1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e5-b101-cdc68c7e533b" class=""><strong>916. Cluster distance lower bound post-merge</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8063-a895-c89cc363c055" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall i\neq j:\ dist(C_i,C_j)\ge d_{min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-847b-e0ae8d2a978f" class=""><strong>917. Cluster centroid similarity cap</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b7-895c-fd3c00a1784d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\cos(\mu_i,\mu_j)\le \rho_{max}\ \ (i\neq j)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-a642-e3c24bd6da60" class=""><strong>918. Cluster representative uniqueness</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809f-b625-fbf402e60516" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_i)=rep(C_j)\Rightarrow i=j</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803d-9c91-d31ff8c7fb89" class=""><strong>919. Representative selection stable</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8059-b418-c0c9ef95eb4b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k,t+1)=rep(C_k,t)\ \text{unless evidence}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8029-9778-f193d2360a80" class=""><strong>920. Merge decision determinism</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8088-814c-f77aa7c15f3c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-decision(C_i,C_j)=decision(C_i,C_j)</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8078-a864-e394faca5ea2"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80f8-9b70-dfc15018f483" class="">C) Relationship closure and inference invariants</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8065-9844-c0b1de0967d9" class=""><strong>921. Inference closure is consistent</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80aa-b226-f9ee9838a5b1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-closure(F)\Rightarrow \neg (x\land \neg x)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e9-b793-e4f6a9a3c273" class=""><strong>922. Closure idempotence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b5-93c3-e18d47ae62fd" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-closure(closure(F))=closure(F)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8008-aa8a-ecc615e2834c" class=""><strong>923. Closure monotonicity</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8027-91e2-fcbfebd27df5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-F\subseteq G \Rightarrow closure(F)\subseteq closure(G)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8085-a2f1-cebe4abfe71c" class=""><strong>924. Derived facts marked derived</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-802e-baff-de59b84eedcb" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-f\in closure(F)\setminus F \Rightarrow derived(f)=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805b-a38c-da333c581b25" class=""><strong>925. Derived fact provenance</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ac-840f-f8c0acd5b610" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-derived(f)=True \Rightarrow \exists rule,\ inputs</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ee-8f2f-e769af7d645c" class=""><strong>926. Rule application determinism</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805b-bbd6-e3a50fe83282" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-apply(rule,F)=apply(rule,F)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-aea7-f276c45fe83c" class=""><strong>927. No cyclic derivation (if forbidden)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8037-bec7-e69b95a4733f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-f \Rightarrow \neg depends(f,f)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b5-b49c-db937b8dcb65" class=""><strong>928. Bounded inference depth</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8068-aaa8-fb9de3b580ba" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-depth(derivation(f))\le D_{max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-b635-c9f174b43d32" class=""><strong>929. Inference termination</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80f6-bcd9-d972d4199b3f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\Box \Diamond fixedpoint(closure)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805d-9743-d567c5529515" class=""><strong>930. Constraint satisfaction preserved under closure</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8085-9cd5-c93d9f03fb16" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-constraints(F)=True \Rightarrow constraints(closure(F))=True</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80bb-8973-ef6c9b205217"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80f0-a02f-d48bb70da5f9" class="">D) Edge directionality and reciprocity invariants (deeper)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808e-be87-dbcab1b51dea" class=""><strong>931. Reciprocity exact for symmetric predicates</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c4-860b-db8c778369ea" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow p(v,u)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f6-a728-e3d6fb7de4af" class=""><strong>932. Reciprocity forbidden for antisymmetric predicates</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ce-9023-fdba3a4ec96d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow \neg p(v,u)\ \ (u\neq v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e3-b432-c52b30f18028" class=""><strong>933. Bidirectional edge weight consistency</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80d1-9e04-f6a1ec4ccce4" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\land p(v,u)\Rightarrow |w(u,v)-w(v,u)|\le \epsilon</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801b-b041-fdc46188dab9" class=""><strong>934. Reciprocal ratio floor (network)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8008-8996-c3e0f2108399" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|\{(u,v)\in R:(v,u)\in R\}|}{|R|}\ge r_{min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805b-9791-d313e8974ddd" class=""><strong>935. In-degree distribution constraint</strong><br/>If expected distribution :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80f9-ad1b-c5e57fce05e2" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-KS(indeg, P)\le \delta</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-8db1-d5fe315fd17e" class=""><strong>936. Out-degree distribution constraint</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8098-9f7c-c3d63d6a997d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-KS(outdeg, P)\le \delta</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808c-9c31-c84c93b49689" class=""><strong>937. Edge direction consistent with time</strong><br/>If edge implies “influenced-by”:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c6-a0b6-d995bb6cbb86" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \Rightarrow time(u)\le time(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f9-a96b-d259b4f8dc47" class=""><strong>938. No backward-causality edges</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8032-9068-d02ba3d1dcef" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-time(u)&gt;time(v)\Rightarrow (u,v)\notin R</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f9-9dec-ebef53bf7a69" class=""><strong>939. Edge direction consistent with hierarchy</strong><br/>If parent relation:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80bf-a953-ceb49ba439b4" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-parent(u,v)\Rightarrow level(u)&lt;level(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d3-8160-c91455e8bb97" class=""><strong>940. No cross-level violation</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8013-a1e9-f412bf4d2d6f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-level(u)\ge level(v)\Rightarrow \neg parent(u,v)</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806b-99f3-ea89640e3db2"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-800b-a8e9-e41289ab484f" class="">E) Cluster-level constraints from block models</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8018-b54d-c43fee352c41" class=""><strong>941. Block density definition</strong><br/>For blocks :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808e-8f00-f4d0705354bd" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-dens(i,j)=\frac{|R\cap (C_i\times C_j)|}{|C_i||C_j|}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a2-8d05-e4499f9eb9b6" class=""><strong>942. Diagonal blocks dense (community)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8041-8c86-d14001d4bdf9" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-dens(i,i)\ge \delta_{in}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e1-8f1d-e306f3de1344" class=""><strong>943. Off-diagonal blocks sparse</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8028-815f-d70e3ce41bc0" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-i\neq j \Rightarrow dens(i,j)\le \delta_{out}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-94df-d9bf36dc0f97" class=""><strong>944. Stochastic block model normalization</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809f-8372-e1abb8c174c9" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-0\le \theta_{ij}\le 1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-bafc-e12655ea29d8" class=""><strong>945. Expected edges under SBM</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8087-b299-de55fca9117a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\mathbb{E}[A_{uv}] = \theta_{c(u)c(v)}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8028-9458-d28e818ebbf1" class=""><strong>946. Likelihood monotonicity (EM on SBM)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8012-8c4f-d65b0b7188b7" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\mathcal{L}_{t+1}\ge \mathcal{L}_t</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e0-87f5-f90670a64035" class=""><strong>947. Parameter identifiability (no duplicate blocks)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8092-bc96-ce9ea5e4d4ef" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\theta_{i\cdot}=\theta_{j\cdot} \Rightarrow i=j</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ba-9492-dbe982904509" class=""><strong>948. Block symmetry (undirected)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805a-ba98-c0ca36a6ab26" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\theta_{ij}=\theta_{ji}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d9-bf5b-d45b1ddf23e5" class=""><strong>949. Block constraints by predicate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8037-b5ec-e5419bec5517" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow \theta^{(p)}_{c(u)c(v)}\ge \tau</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8055-bf14-cf74fc63884a" class=""><strong>950. Multi-predicate block separation</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8060-93fd-e3450fa0fd36" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\theta^{(p)}_{ij}\cdot \theta^{(q)}_{ij}=0</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8045-98ed-f60b00e428ee"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8032-be00-e76d497286e1" class="">F) Centrality, influence, and cluster cores</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800e-ad9f-e2162372c467" class=""><strong>951. Core nodes defined by centrality threshold</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8036-9718-fa0b702772d0" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-core(v)=True \iff cent(v)\ge \tau_c</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8035-b8c8-e897cdd9b21b" class=""><strong>952. Core size bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808e-8b2d-fb1e1cd56342" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\rho_{min}|C_k|\le |Core_k|\le \rho_{max}|C_k|</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ff-a2e7-d74a2d0a4b4d" class=""><strong>953. Core contained in cluster</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80be-8d7d-d490c64552f5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Core_k \subseteq C_k</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c0-a05d-f7584e638eba" class=""><strong>954. Core connectivity</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80af-a810-ecb437a448ab" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G[Core_k]\ \text{connected}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8067-b7e0-e957e324f2ec" class=""><strong>955. Core-to-periphery reachability</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8043-a636-ffa8297a8d72" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall v\in C_k:\ \exists u\in Core_k:\ u\to^* v</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8021-bf6e-e026ebf35f8b" class=""><strong>956. Core stability across time</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8058-99d0-cdeba9109846" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|Core_k(t)\cap Core_k(t+1)|}{|Core_k(t)\cup Core_k(t+1)|}\ge J_{core}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d7-9b2c-e089f7c9e0b5" class=""><strong>957. Representative chosen from core</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8081-92d1-d4e21fe954e1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k)\in Core_k</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806a-870f-c4e445db4047" class=""><strong>958. Representative maximizes evidence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8016-b425-c60b9638d6da" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k)=\arg\max_{v\in Core_k} a(v,k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8031-9f62-c07ebcf55e2d" class=""><strong>959. No two clusters share same core node (if disjoint)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8010-b225-d4486ac39484" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-v\in Core_i \land v\in Core_j \Rightarrow i=j</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8007-a3c3-edbe9482a1e0" class=""><strong>960. Influence direction constraint</strong><br/>If influence edge:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8018-b5da-ecf263582068" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-influence(u,v)\Rightarrow cent(u)\ge cent(v)-\epsilon</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ec-bf1d-fbf3b0c34e49"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80e9-a71b-cef7e4bad894" class="">G) Fairness / bias invariants in clustering (structural)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8088-bb11-f177ad821f00" class=""><strong>961. Representation constraint</strong><br/>For group :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808c-a36c-fd5382c203d7" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ \frac{|C_k\cap g|}{|C_k|} \in [\alpha_g-\epsilon,\alpha_g+\epsilon]</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-a909-de171beabbfc" class=""><strong>962. Minimum group presence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80d9-aa0a-f04378747842" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|C_k\cap g|\ge m_g</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8024-a0cc-e8953eb641a0" class=""><strong>963. No group isolation (if forbidden)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80cc-af31-e7e82585933e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists k:\ C_k\subseteq g \Rightarrow \bot</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ab-a4dc-f058ea82fc49" class=""><strong>964. Parity of assignment confidence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b4-8546-ca9f3df13fd6" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\mathbb{E}[a(v,c(v))\mid g_1]-\mathbb{E}[a(v,c(v))\mid g_2]\le \delta</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-8aad-d8cf6c9c1223" class=""><strong>965. Equal constraint violation rate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-800a-9d8d-f711ae2277e2" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-viol\_rate(g_1)-viol\_rate(g_2)\le \delta</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8012-8f50-c0de0f3cd744" class=""><strong>966. Similar silhouette by group</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8078-b1aa-c6e43665b00d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|\mathbb{E}[sil(v)\mid g_1]-\mathbb{E}[sil(v)\mid g_2]|\le \delta</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8056-9d12-d6e60a51eec7" class=""><strong>967. Outlier parity</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805a-a182-c53d03f94a72" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\left|\frac{|O\cap g_1|}{|g_1|}-\frac{|O\cap g_2|}{|g_2|}\right|\le \delta</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8068-97a6-d5e2dcd5ecd6" class=""><strong>968. Post-processing preserves constraints</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8041-b360-c14c0a4df2f3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-constraints(c)=True \Rightarrow constraints(post(c))=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-a0ac-f3a2e69734eb" class=""><strong>969. Constraint-aware objective</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c4-8af1-c695e0821d4b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-J_{total}=J+\lambda\cdot penalty_{fair}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f1-8529-fb2394e3a559" class=""><strong>970. Fairness penalty non-negative</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809b-914e-fdfa6ebc8b24" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-penalty_{fair}\ge 0</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80b0-8fa1-c577bada442c"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8071-b790-ff91bb580f3c" class="">H) Operational invariants for relationship/cluster pipelines</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-89bc-ced7ed2cac7d" class=""><strong>971. Deterministic ETL</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8001-964f-e641845588a6" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-ETL(data)=ETL(data)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8040-9369-d9739c5f228b" class=""><strong>972. No duplicate nodes in pipeline</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809f-85ae-fd97f0d93c22" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-count(node\_id)=1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806b-bcb8-f143f78d6bef" class=""><strong>973. Pipeline preserves node count (unless filtered)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c4-843d-d15d0f37b4e1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|V_{out}|=|V_{in}|-|filtered|</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ee-8fa2-d9ebae3f1ec4" class=""><strong>974. Pipeline preserves edge count accounting</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8018-bd28-c721b9f58bd9" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|R_{out}|=|R_{in}|-|dropped|+|added|</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8019-a59b-d1d331a85159" class=""><strong>975. Every drop has reason</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c1-9869-e72f9f2b9f51" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-drop(x)\Rightarrow \exists reason(x)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8084-bcf9-f260dde6efc9" class=""><strong>976. Every edge addition has evidence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8025-9d55-c76d969994d2" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-add(u,v)\Rightarrow e(u,v)\ge \tau_e</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a0-a98a-cf7b69cb1d30" class=""><strong>977. Every assignment has evidence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b7-9c7d-eed23a2ffa2b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-assign(v,k)\Rightarrow a(v,k)\ge \tau_a</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-8d52-c0a5a6952b81" class=""><strong>978. Version pinned across pipeline stages</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805f-911c-c63d1360bc9c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-stage_i.version = stage_{i+1}.version</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804b-9933-cbf5a94fdcd0" class=""><strong>979. Audit log complete for deltas</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-801d-8a46-c7e4a2d96e62" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\Delta V \lor \Delta R \lor \Delta c \Rightarrow audit(\Delta)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80aa-bd1d-c7a9f7190d46" class=""><strong>980. Rerun reproducibility</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8040-9365-c78f23785587" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-run(seed,data)=run(seed,data)</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8074-85dc-fbe80f3b42f5"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8038-93a9-eab272d4e7de" class="">I) Cluster-to-cluster relation constraints (meta-relations)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b7-960c-d3761b36a5d1" class=""><strong>981. Cluster relation type constraints</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8011-a689-c4eee7254551" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rel_C(C_i,C_j)\in Types_C</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806a-8252-f986c04776df" class=""><strong>982. Cluster relation implies node relation existence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8018-9160-e994b954662f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rel_C(C_i,C_j)=t \Rightarrow \exists u\in C_i,v\in C_j:\ rel(u,v)=t</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801e-98d7-fc93da38730c" class=""><strong>983. Node relation implies some cluster relation</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-801e-9f0c-d83d902b7184" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rel(u,v)=t \Rightarrow rel_C(C_{c(u)},C_{c(v)})\ \text{defined}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8060-857d-c55ddc03d018" class=""><strong>984. Cluster relation antisymmetry (taxonomy)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8043-9c6f-f3c0391a2cff" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-parent_C(C_i,C_j)\land parent_C(C_j,C_i)\Rightarrow i=j</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8029-8f69-f0a3aa5f90be" class=""><strong>985. Cluster relation transitivity (taxonomy)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808c-91fa-e5b8e69e0de2" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-parent_C(C_i,C_j)\land parent_C(C_j,C_k)\Rightarrow parent_C(C_i,C_k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8079-aadc-efb5773d6386" class=""><strong>986. Cluster relation acyclicity</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80fc-9521-f2346ba26b26" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\neg \exists C_i:\ C_i \to_C^+ C_i</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8051-ba05-e96cba7638e9" class=""><strong>987. Unique parent (taxonomy)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8036-bf97-d640240eb388" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall C_j:\ |\{C_i: parent_C(C_i,C_j)\}| \le 1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d0-a5b8-e08d84a0fff1" class=""><strong>988. Root uniqueness</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e9-9349-f43ea00a72be" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|\{C_i: indeg_C(C_i)=0\}|=1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ff-8195-ce32a2bd0687" class=""><strong>989. Coverage of cluster hierarchy</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8088-9ac2-d5c71e3cdcb3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall C_i:\ root\to_C^* C_i</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8098-a8aa-dff5763cd356" class=""><strong>990. Cluster relation evidence threshold</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808f-b591-e90a8e94c702" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rel_C(C_i,C_j)\Rightarrow e_C(i,j)\ge \tau_C</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8072-b94d-dde5894fde51"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80e1-a64c-e5858c6ec55e" class="">J) Termination, validation, and invariants closure</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806e-b3cb-db7d3fdcfebf" class=""><strong>991. Validate relationship constraints</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ba-8113-e53d31082f83" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-validate(R)=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8037-abc7-ffa347fc5d2b" class=""><strong>992. Validate clustering constraints</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e7-9c8a-ef4a80fc6cad" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-validate(c)=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806c-a108-c469efd332d8" class=""><strong>993. Validate ontology constraints</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8056-a5a2-e9bd1df9faeb" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-validate(ontology)=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8007-b175-d86eaee2b712" class=""><strong>994. Validation total</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-801e-b5d7-d2b277bd6671" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-validate(x)\in\{True,False\}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a2-b1d9-faf5ad80bdc0" class=""><strong>995. Failure produces explanation</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80f7-9a52-e788faa09348" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-validate(x)=False \Rightarrow \exists explanation(x)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8030-b11f-eeda71222d36" class=""><strong>996. Fix reduces violations</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80bb-9787-d8e949ed945e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-violations_{t+1}\le violations_t</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8082-9de7-ea95d5031bda" class=""><strong>997. Fix preserves coverage</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8055-a02d-fc2a3820fc2b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\bigcup_k C_k = V</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-ab79-d3741cdbf434" class=""><strong>998. Fix preserves disjointness (if required)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8060-a310-d523194b8672" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-C_i\cap C_j=\varnothing\ (i\neq j)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b4-9353-c363f3888327" class=""><strong>999. Fixed point condition</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807d-af96-f3ff7a491fcf" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(R,c) = fix(R,c) \Rightarrow stop</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c0-9c77-c39065bdbf84" class=""><strong>1000. Output is structurally sealed (operational)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e4-9c2d-f45ccb7109b1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-validate(R)\land validate(c)\land validate(ontology) \Rightarrow output\_accepted=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807d-90b1-e9a06e3f7dc2" class="">If you want 1001–1100, specify whether you want the next set skewed toward (1) temporal evolution, (2) ontology/knowledge graphs, (3) entity resolution, or (4) block models/community detection.</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-807a-94ba-fdaeefb66fee" class="">C401–C500 (names + formal constraints)</h2></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80b0-9b3a-ca98fa0e3bd1" class="">Group E1 — Data quality &amp; 
-analytics correctness (C401–C430)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801b-9b5b-d2827f05c784" class="">C401 — DQ_Increases_With_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-b77a-f695e27fecec" class="">C402 — DQ_Increases_With_AQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-902f-faf11db9b78b" class="">C403 — DQ_Increases_With_OB —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cd-8de8-d370d8f404b3" class="">C404 — DQ_Decreases_With_MP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8089-9ff4-f775b8b4320d" class="">C405 — DQ_Decreases_With_OP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8018-b1e6-e39281162cd0" class="">C406 — DQ_Decreases_With_CF —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8046-9acb-fc1d6073f472" class="">C407 — LowDQ_Raises_IR —  (bad decisions/alerts)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800e-aac5-c3f7226ce2a4" class="">C408 — LowDQ_Raises_CP —  (misallocation cost)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f1-8c5c-c8eb3a43c859" class="">C409 — LowDQ_Raises_OP —  (data distrust → backchannels)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c5-a8bb-f9367e2b05d1" class="">C410 — DQ_Amplifies_DecisionError —  decreases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8062-8a91-cf9d93e6aeec" class="">C411 — DQ_Amplifies_Bypass —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801c-868b-edae9c81af42" class="">C412 — DataDrift_Regime —  DataDrift</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d0-ab1d-e8a0fea051fc" class="">C413 — DQ_Control_Requires_OB —  under churn</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8008-b104-d56e29103ed2" class="">C414 — D
-Q_Control_Requires_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-acf6-ef504fa88769" class="">C415 — DQ_LoopGain —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80de-bc01-dac29d3aaaaf" class="">C416 — Stabilizer_GC_OB —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800f-b5ca-de6a098b04fa" class="">C417 — HighDQ_Improves_RES —  (via better CD/EB control)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8023-9dd1-f2952d304327" class="">C418 — HighDQ_Lowers_CR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d8-a650-cf731fec655c" class="">C419 — DQ_Threshold_CostSpiral —  CostSpiral risk rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8043-8b91-f4a9ccaa3f59" class="">C420 — DQ_Boundedness —  becomes noise-driven (unstable)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802b-8609-e7e0f46bde9d" class="">C421 — DQ_Saturation —  analytics-driven errors minimal</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-8bc1-cd84ecf03bce" class="">C422 — MP_Shock_Lowers_DQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a2-bd09-f8ac1d3f536b" class="">C423 — OP_Shock_Lowers_DQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8036-9c07-d4f019542852" class="">C424 — CF_Shock_Lowers_DQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d8-bdca-c6ca4e2ac05d" class="">C425 — DQ_Requires_DF —  under model changes</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8069-9bd4-dc7968f630e6" class="">C426 — DQ_Requires_VR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d2-bf43-ecb7ec121cfe" class="">C427 — DQ_Improves_EI —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807f-9231-e12c020c9608" class="">C428 — DQ_Reduces_Bypass_Slope —  d
-ecreases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fe-9466-ce77ae205f73" class="">C429 — DQ_Stability_Exit —  exit DataDrift</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8041-b1a4-dcba874e45cd" class="">C430 — DataIntegrity_Global —  system-level decision noise bounded</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8047-9ce4-f92157c626e0"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80fe-85e6-f32ba33fa504" class="">Group E2 — Knowledge, documentation &amp; 
-memory (C431–C460)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cc-b218-daca24052ae6" class="">C431 — DF_Increases_With_CB —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804a-8b6c-c0793863e817" class="">C432 — DF_Increases_With_RS —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8007-9b7e-e124e01ad44a" class="">C433 — DF_Increases_With_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8045-9248-cc3476287136" class="">C434 — DF_Decreases_With_MP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8089-b269-d4575ab3ad3d" class="">C435 — DF_Decreases_With_CC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a7-8cf3-f77cd9dd98ca" class="">C436 — DF_Decreases_With_IR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8098-aae2-eeafa54ae6ee" class="">C437 — LowDF_Raises_TK —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b1-8c3b-c2b2deddbd74" class="">C438 — HighTK_Raises_MTTR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c1-8384-f50b078c5079" class="">C439 — KnowledgeLockIn_Regime —  KnowledgeLockIn</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ab-96b4-f1160cd39419" class="">C440 — DF_Improves_VR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8070-8014-ccb309dee69c" class="">C441 — DF_Improves_DR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804b-ba20-df6ca407cbb0" class="">C442 — DF_Reduces_Bypass —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f1-afa1-d4b9bfee56d9" class="">C443 — KnowledgeLoopGain —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d5-94e6-c2f0ce27c6be" class="">C444 — Stabilizer_RS_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-860d-dc2939fcdce2" class="">C445 — D
-F_Threshold_Attrition —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-a4c8-fb2efabde5c9" class="">C446 — DF_Boundedness —  under churn</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-aa50-c12c1b049a3c" class="">C447 — DF_Saturation —  (idealized limit)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c3-9544-d7c73851e2bd" class="">C448 — MP_Shock_Lowers_DF —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dc-af2f-f63e0e64a0ae" class="">C449 — IR_Shock_Lowers_DF —  (firefighting)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8046-91f1-df0cadcf71bc" class="">C450 — DF_ExitCondition —  exit KnowledgeLockIn</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e0-b17f-c2fccc404884" class="">C451 — TK_Raises_OP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ba-a20c-cd2ebd531320" class="">C452 — DF_Reduces_OP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8004-9928-c5a9dba36f2d" class="">C453 — DF_Improves_EI —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802c-a9d6-e01d0a1b2c26" class="">C454 — DF_Improves_RES —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8049-b994-c83aac1a7a00" class="">C455 — LowDF_Raises_CR —  (via MTTR/IR)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-bada-e96d0ff3c5d8" class="">C456 — DF_Requires_CB —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8008-8ba6-e09465d64bdf" class="">C457 — DF_Requires_RS —  investment unsustained</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8026-99b4-d61b38bc921a" class="">C458 — DF_Requires_GC —  decays under churn</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802c-ba40-fabb7c740b9e" class="">C459 — DF_Reduces_CF_Indirectly —</p></div><div s
-tyle="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a0-96c9-fc9c5210557c" class="">C460 — KnowledgeStability_Global —  bounded</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-808c-99bf-f9648fa5ccb6"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80fc-940e-eae6eeba0674" class="">Group E3 — Epistemics, dissent &amp; 
-opacity (C461–C500)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-a9a0-d9831b4bbe2c" class="">C461 — DT_Increases_With_RS —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c2-906e-cbecbabc0ca6" class="">C462 — DT_Increases_With_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8085-9f4c-c6858941b8ff" class="">C463 — DT_Increases_With_EI —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e0-9b98-e92a59b4885f" class="">C464 — DT_Decreases_With_SRC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8011-b813-fc4a3a40e898" class="">C465 — DT_Decreases_With_OP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809f-a492-dd15ea6b34d4" class="">C466 — OP_Increases_With_MP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8087-94a5-e8f985e4e1d4" class="">C467 — OP_Increases_With_SRC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807d-81dd-f50b438e9123" class="">C468 — OP_Increases_With_PA —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f9-b387-f70a4fafd2eb" class="">C469 — OP_Decreases_With_VR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-ab60-e931e31f2d7d" class="">C470 — OP_Decreases_With_RS —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8005-a122-d396f9bae6b0" class="">C471 — OP_Decreases_With_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8082-a386-cfd2b3258114" class="">C472 — EpistemicCollapse_Regime —  EpistemicCollapse</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807f-81a5-dab517e90b90" class="">C473 — LowDT_Raises_DI —  (bad decisions unchallenged)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8068-ae59-c7bbf028ad84" class="">C474 — HighOP_Raises_Bypass —</p></div><div style="display:contents" dir="auto"><p 
-d="30bc5e6f-95bd-80d8-8a9f-ce490468e7a7" class="">C475 — HighOP_Lowers_VR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8034-840c-cecfa81f671b" class="">C476 — EpistemicLoopGain —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8015-997a-f5728cc9b195" class="">C477 — Stabilizer_RS_GC_VR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a3-a2dd-f7b05cea8a85" class="">C478 — HighDT_Improves_EI —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8093-891e-f7141ca3a0fd" class="">C479 — HighDT_Improves_RES —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8015-b6e5-ecf44215ed36" class="">C480 — OP_Threshold_Cascade —  sensitivity rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800e-af57-e13b55028225" class="">C481 — OP_Threshold_CostSpiral —  CostSpiral risk rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c4-9f75-c32050587a82" class="">C482 — OP_Boundedness —  unless RS forces transparency</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8096-ac45-cf231e08f6ef" class="">C483 — DT_Boundedness —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8009-956c-e1a931943700" class="">C484 — OP_Shock_Amplifies_MP —  (panic escalation)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8038-9272-d6527d0e42b4" class="">C485 — DT_Shock_Dampens_MP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8006-9f89-dcfd694a83c6" class="">C486 — OP_Raises_CR —  (hidden risk)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806c-b66f-f1f97726f92f" class="">C487 — DT_Lowers_CR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-9429-c9b45e6e1950" class="">C488 — OP_Raises_Attrition —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8067-8ce7-ef3999b6a5ca" c
-lass="">C489 — DT_Reduces_Attrition —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8049-9fbd-dacf9afebffc" class="">C490 — OP_Raises_PA —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8082-9659-e9b8a32eebf8" class="">C491 — DF_Reduces_PA —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806e-ba60-ce597cdc7fa8" class="">C492 — EI_Requires_DT —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8075-923a-e4d761b46394" class="">C493 — EI_Requires_VR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8037-b77e-f86bad84b57c" class="">C494 — EpistemicExitCondition —  exit EpistemicCollapse</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8058-baae-ec6c45d9e97c" class="">C495 — EpistemicStability_Global —  bounded high</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806f-b9de-c1422f0e741d" class="">C496 — OP_Raises_CF —  (shadow changes)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8079-86ff-ca05dc9a7db3" class="">C497 — OP_Raises_SSR —  (hidden supply risk)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b4-9049-fa7c3cb94fa7" class="">C498 — DT_Raises_CD —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ac-b581-da9b268e194c" class="">C499 — DT_Raises_VR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fc-b37b-ebc3342c4571" class="">C500 — EpistemicIntegrity_Global —  decision noise bounded system-wide</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80c6-80b6-e5b5fffac3c1"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dc-9d2d-c506fd7b40b4" class="">If you want, I will continue with <strong>C501–C600</strong>, 
-or convert C001–C500 into a structured YAML constraint file for machine evaluation.</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8026-83a4-fd719de19b6f" class="">C301–C400 (names + formal constraints)</h2></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-805d-9caf-c1389a2b4841" class="">Group D2 — Config drift &amp; 
-change entropy (C301–C340)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807c-9ac0-fe7dd7634d24" class="">C301 — CF_Increases_With_MP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cd-88ce-f9f1150536ab" class="">C302 — CF_Increases_With_CC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b2-b3dd-d5cd98a738b3" class="">C303 — CF_Increases_With_TK —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8063-bd51-e1f01ec892e2" class="">C304 — CF_Decreases_With_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-b021-f05a45c7c8f0" class="">C305 — CF_Decreases_With_AQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e0-b225-cc95cfbb5756" class="">C306 — CF_Decreases_With_CD —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cb-bdba-cf4fa98cea54" class="">C307 — HighCF_Raises_IR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e8-a2ab-e2e2b8dff5f6" class="">C308 — HighCF_Raises_MTTR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-b2ae-ff06c784006e" class="">C309 — HighCF_Lowers_DQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8007-9f22-da64be66c0e8" class="">C310 — ConfigEntropy_Regime —  ConfigEntropy</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cb-b8cf-c6326e38aa05" class="">C311 — LowGC_Allows_CF_Runaway —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-b9f5-f31157a9becb" class="">C312 — CD_Is_Primary_CF_Damper —  (if MP not extreme)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b0-8400-ccb6e4318aab" class="">C313 — AQ_Is_Primary_CF_Damper —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ad-b861-e1f1d5eb8651" class="">C314 — CF_Amplifies_Bypass —  (via incidents/oncall)</p></div><div s
-tyle="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-bde4-cde5b8bf70b7" class="">C315 — CF_Amplifies_CC_Sensitivity —  increases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804a-b795-fe80fee2352f" class="">C316 — CF_Amplifies_DependencyRisk —  increases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8098-8366-e97c84ea56e4" class="">C317 — CF_Amplifies_SecurityRisk —  increases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e9-9e8b-e1a9f4970e46" class="">C318 — ConfigDriftLoopGain —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fc-a219-dc6f1e5b0391" class="">C319 — Stabilizer_GC_CD_AQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f8-b16a-e8c95614cb69" class="">C320 — CF_Threshold_CascadeRisk —  CascadeRisk elevated</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b9-8903-e08773cb3080" class="">C321 — CF_Threshold_CostSpiral —  CostSpiral risk rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f2-b173-f097651981b4" class="">C322 — CF_Boundedness —  must be high or IR saturates high</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a6-b570-e6ca19f038bc" class="">C323 — CF_Saturation —  config contributes ~0 to IR</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c8-a296-c20f6dab66c4" class="">C324 — MP_Shock_Raises_CF —  unless CD/AQ high</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ee-8419-e05b9dc251e1" class="">C325 — OP_Correlates_With_CF —  (untracked changes)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8037-b648-f09433962a69" class="">C326 — TK_Correlates_With_CF —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8038-83e1-efb3228ea90f" class="">C327 — DF_Dampens_CF_Indirectly —</p></div><div style="display:contents" dir="auto"><p i
-d="30bc5e6f-95bd-8097-9a20-e62a028728a8" class="">C328 — HighCF_Burns_EB —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803f-a4d4-ca3503aca91f" class="">C329 — HighCF_Raises_CP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f7-bd92-c1321fcd8709" class="">C330 — CF_Raises_MTTD_Indirectly —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b1-abe6-c2ef1e4c55d6" class="">C331 — CF_Raises_Attrition —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804e-96bb-f236b9a8e1ef" class="">C332 — CF_Reduces_Resilience —  (via IR/OS/CB)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-9b10-e1ce4b31c515" class="">C333 — CF_Requires_Runbooks —  needed to keep MTTR bounded</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-9fb7-d8605324cf96" class="">C334 — CF_Control_Requires_GC —  control weak even if AQ moderate</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805b-bda5-f70144f7c729" class="">C335 — CF_Control_Requires_CD —  under MP</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a8-bd4b-c48f3004e0cd" class="">C336 — CF_Control_Requires_AQ —  under MP</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dd-9c1c-d2cf2fc79b58" class="">C337 — CF_Control_Requires_CB —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e4-b7fd-c8a2d9699663" class="">C338 — CF_Perturbs_DQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8006-839d-f087245578aa" class="">C339 — CF_Perturbs_DH —  (integration instability)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8038-8e24-fbe33fd0a121" class="">C340 — ConfigEntropy_ExitCondition —  exit ConfigEntropy regime</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8025-8846-cd10aa61efcd"/></div><div style="display:contents" dir="auto"><h3 i
-d="30bc5e6f-95bd-80fa-be9d-f20711bb6b79" class="">Group D3 — Dependency health &amp; 
-integration fragility (C341–C380)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8070-9a66-c57aff53b8fd" class="">C341 — DH_Increases_With_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8094-aab3-fe574e786f66" class="">C342 — DH_Increases_With_AQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8060-8e35-f608003c6677" class="">C343 — DH_Increases_With_SP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ef-a79f-d6da2985abaf" class="">C344 — DH_Decreases_With_SSR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ad-b2aa-f7bcd4429061" class="">C345 — DH_Decreases_With_MP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-b82a-c157c0cf7e5b" class="">C346 — LowDH_Raises_IR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b0-a1ad-da4264c2d1bc" class="">C347 — LowDH_Raises_SSR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8053-941f-f5582a603a4d" class="">C348 — IntegrationFragility_Regime —  IntegrationFragility</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dc-98dd-dda3b024fe40" class="">C349 — HighMP_Erodes_DH —  unless GC high</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809f-b6bc-f157162d6021" class="">C350 — DH_Reduces_MTTR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-8487-fa8e8e904df7" class="">C351 — DH_Reduces_CF_Indirectly —  (fewer config hacks)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801a-b0af-e94d451cc665" class="">C352 — DH_Amplifies_CC_Effects —  increases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8007-b42c-f75687e58d96" class="">C353 — DH_Amplifies_CF_Effects —  increases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804e-90d0-e378988e1da1" class="">C354 — DH_Sensitivity_To_SSR —
-</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8090-848e-c0344d3ae915" class="">C355 — DH_Sensitivity_To_SP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e3-b9b0-c5efdaf0f4ae" class="">C356 — DependencyLoopGain —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800d-8b22-e8be1f6e2487" class="">C357 — Stabilizer_SP_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8089-af1c-efe9e17b65ec" class="">C358 — DH_Threshold_SecurityCollapse —  (within 1–2 steps)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8091-8b60-cbba40fa6362" class="">C359 — DH_Threshold_CostSpiral —  CostSpiral risk rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a3-9774-d82b4c6ac269" class="">C360 — DH_Boundedness —  sensitivity to CF spikes</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802a-bf4a-e4eb860f0db0" class="">C361 — DH_Saturation —  dependency contribution to IR minimal</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-a858-c7d750e17f79" class="">C362 — LowDH_Burns_EB —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8035-ac86-eb94a7ca8bf8" class="">C363 — LowDH_Raises_OS —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-b256-c729a01cf73b" class="">C364 — LowDH_Raises_AT —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b1-82bf-dd2da702ae93" class="">C365 — LowDH_Raises_OP —  (blame shifting/backchannels)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e3-a939-e43f47dd64af" class="">C366 — GC_Buffers_MP_On_DH —  decreases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c2-84a8-d7512a868725" class="">C367 — AQ_Buffers_MP_On_DH —  decreases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8099-9059-f5df2402f7ca" class="">C368 — C
-D_Indirectly_Protects_DH —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805e-881f-eebb4eaaac45" class="">C369 — DF_Protects_DH —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b5-91ba-c203634db887" class="">C370 — DH_Control_Requires_DF —  under integration churn</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b2-a24e-e746460748ac" class="">C371 — DH_Control_Requires_VR —  (unreviewed upgrades)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d0-8ddd-c359b29cba08" class="">C372 — DH_Control_Requires_CD —  (risky deploys)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805d-824e-ed88793a738a" class="">C373 — DH_Control_Requires_SP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805c-bb35-f02e7bf79f37" class="">C374 — DH_Raises_Resilience —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-bedf-edabce6fd12e" class="">C375 — DH_Lowers_CatastrophicRisk —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d3-a8f5-e4865554300f" class="">C376 — DH_Amplifies_SSR_When_OPHigh —  increases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-bbd2-e7c80b91f50c" class="">C377 — SupplyChain_Shock —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802b-84e5-fc537e3e4590" class="">C378 — DependencyStability_ExitCondition —  exit IntegrationFragility</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800d-8766-fa50626cc51d" class="">C379 — DH_Requires_Governed_Upgrades —  stable requires</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8020-b1ee-eba9c7776511" class="">C380 — DependencyRisk_Coordinates_With_CC —  becomes superlinear in CC</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-805d-bb29-ed0fb910903a"/></div><div style="display:contents" dir="auto"><h3 i
-d="30bc5e6f-95bd-80f8-9838-d53ccecf8f73" class="">Group D4 — Supply chain security &amp; 
-security posture (C381–C400)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e0-9007-c33fd3fbf153" class="">C381 — SSR_Increases_With_LowDH —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d0-a735-d6fb15a54ac3" class="">C382 — SSR_Increases_With_LowSP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8081-b6a2-fe675d267e3e" class="">C383 — SSR_Increases_With_MP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8001-8da8-f02b8253f3e8" class="">C384 — SSR_Decreases_With_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803f-84d9-ce8a2852684e" class="">C385 — SSR_Decreases_With_AQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dc-bfc3-fa59ef24f065" class="">C386 — SP_Increases_With_GC —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e0-9251-feb711bc154d" class="">C387 — SP_Increases_With_AQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b4-927a-dd549bd0aa0f" class="">C388 — SP_Increases_With_RS —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-9602-db71765f0cac" class="">C389 — SP_Decreases_With_MP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-b472-c92fcc9de4a5" class="">C390 — SP_Decreases_With_CP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805d-8f27-ddd7f1bc7308" class="">C391 — SP_Decreases_With_SSR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-a0f6-c7bd510ad6af" class="">C392 — SecurityCollapse_Regime —  SecurityCollapse</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803b-976d-c5fc34219e08" class="">C393 — LowSP_Raises_IR —  (security incidents)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8056-8393-e7a81699aa0b" class="">C394 — LowSP_Raises_CP —  (breach cost)</p></div><div s
-tyle="display:contents" dir="auto"><p id="30bc5e6f-95bd-8015-becb-db8d8ade5144" class="">C395 — SupplyChainLoopGain —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-9883-fba48a641368" class="">runaway</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805c-905c-c60aaf533824" class="">C396 — Stabilizer_GC_AQ —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8037-8c8b-ded2ea4a021f" class="">C397 — SSR_Threshold_IRSpike —  unless SP high</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801c-8d3c-c66518de3f0d" class="">C398 — MP_Shock_Raises_SSR —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8094-92b6-d3946d008c55" class="">C399 — CP_Shock_Lowers_SP —</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80db-8e70-ffa3bee5026a" class="">C400 — SecurityExitCondition —  exit SecurityCollapse regime</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80c6-adb7-c66caedf5a5d" class="">Invariants 801–900: Relationships &amp; 
-Clusters (next 100, with equations)</h3></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80fe-9c55-dcd4a7a0082f" class="">Additional definitions</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c1-b57e-ce41994a96e1" class="bulleted-list"><li style="list-style-type:disc">Cluster-to-cluster mapping over time</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f0-9cb1-e7b4c8249de9" class="bulleted-list"><li style="list-style-type:disc">Edge evidence score</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c2-934e-caff906eeb7a" class="bulleted-list"><li style="list-style-type:disc">Assignment evidence score</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8093-b844-e09cada89482" class="bulleted-list"><li style="list-style-type:disc">Thresholds:</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-800d-8313-f6f01adc73b3"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80ad-bf9a-dd583be3e88a" class="">A) Evidence and threshold invariants</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801a-b9ec-c56e05ed4329" class=""><strong>801. 
-Edge must exceed evidence threshold</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8066-9d87-f953fc18e021" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \Rightarrow e(u,v)\ge \tau_e</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80db-8fac-d6bb666f8f32" class=""><strong>802. No edge if evidence below threshold (if enforced)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8013-9e41-fe4d1c6fefd8" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-e(u,v)&lt;\tau_e \Rightarrow (u,v)\notin R</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-83d7-f66cb8ba95bb" class=""><strong>803. Evidence bounded</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8082-a165-d40b840c3e8f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-0\le e(u,v)\le 1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800c-ae72-c8421e058f41" class=""><strong>804. Assignment must exceed threshold</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80eb-9505-fa8e74fe0d46" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-c(v)=k \Rightarrow a(v,k)\ge \tau_a</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bf-a9d4-d3e0e6204896" class=""><strong>805. Unassigned if no cluster exceeds threshold</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b2-8437-e98814b97c7d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\max_k a(v,k)&lt;\tau_a \Rightarrow c(v)=0</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d5-9b37-e35391e513b0" class=""><strong>806. Evidence monotonic with added supporting signals</strong><br/>If signals  aggregate to evidence:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807b-b7a9-e82e5968a0b3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-e=\sum_i s_i \Rightarrow s_i \uparrow \Rightarrow e \uparrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804e-afd5-f39438d16041" class=""><strong>807. Evidence update determinism</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8072-ad41-e04ce3fefd5f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-update(e,signals)=update(e,signals)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b4-bb74-dcb591c3b6d7" class=""><strong>808. Evidence decay correctness (if used)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808b-a627-fa3f91bab9ff" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-e(t)=e(0)e^{-\lambda t}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8045-a3ba-fb161bc00f69" class=""><strong>809. Evidence source completeness</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80f5-8384-dc77c2a09dd4" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \Rightarrow \exists src(u,v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dc-8dee-f94939039542" class=""><strong>810. Evidence source whitelist</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b6-b47f-d7cd19c26e78" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-src(u,v)\in AllowedSources</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8045-8f3d-df6d4849ea25"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-804a-a276-ef790cba2bee" class="">B) Relationship typing and ontology constraints (expanded)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fe-abb3-fe455c0ae508" class=""><strong>811. Predicate domain constraint</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e7-803a-f148a980d48e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow type(u)\in Dom(p)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8032-9cfb-f421c3874dda" class=""><strong>812. Predicate range constraint</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80d3-944d-f2311ddf1bec" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow type(v)\in Ran(p)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8096-a101-f92edcb5d939" class=""><strong>813. Mutual exclusivity of predicates (if declared)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8049-85c4-c3d6ca10acc4" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow \neg q(u,v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d8-b099-ec2b18de9ea4" class=""><strong>814. Predicate implication</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80cf-9d59-e11169cb7e7f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow q(u,v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8003-b006-fc6679c6e89d" class=""><strong>815. Predicate inverse correctness</strong><br/>If :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805d-a371-e59c209c69ea" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow q(v,u)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-bb6d-de035980c477" class=""><strong>816. Predicate transitive closure (if declared transitive)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807d-9e60-f181958271be" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\land p(v,w)\Rightarrow p(u,w)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809f-a776-e9ded1224c5c" class=""><strong>817. Predicate anti-symmetry (hierarchy)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e3-9522-e041a534dc8a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\land p(v,u)\Rightarrow u=v</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c7-92d2-c76b5fce6bc0" class=""><strong>818. Functional predicate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807e-81e5-e5ca778ff5f7" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\land p(u,v&#x27;)\Rightarrow v=v&#x27;</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-b668-e2f49f23248c" class=""><strong>819. Inverse functional predicate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8081-a5e3-d312250f81e9" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\land p(u&#x27;,v)\Rightarrow u=u&#x27;</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8038-b05a-e385d7734fe5" class=""><strong>820. No type contradiction</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8055-9a71-ec5fcd82c40e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-inst(x,A)\land inst(x,B)\land disjoint(A,B)\Rightarrow \bot</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-803b-9c08-f02bc549e2af"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8029-ba25-c0f6aae386bf" class="">C) Cluster consistency constraints (semantic purity)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a1-ba12-d44d83f3d8f1" class=""><strong>821. Type purity per cluster (hard)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e8-957b-cc71595c4337" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ |\{type(v):v\in C_k\}|=1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809b-9041-eb57cdc0a5b4" class=""><strong>822. Type purity (soft bound)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8085-af41-c00c4fec8163" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ \max_T \frac{|\{v\in C_k:type(v)=T\}|}{|C_k|}\ge \pi_{\min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8088-84c1-cee31eb47897" class=""><strong>823. Attribute purity (categorical)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-800e-94a0-c5fcd3af5e84" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-purity_a(C_k)=\max_x \frac{|\{v\in C_k:a(v)=x\}|}{|C_k|}\ge p_{\min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-865f-fddefa166181" class=""><strong>824. Numeric attribute variance bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80d6-af80-f63fca608a92" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Var_a(C_k)\le \sigma^2_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d8-bbc0-d05e69698dca" class=""><strong>825. Forbidden attribute mixtures</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8095-92f0-c75bcd77ab15" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists v,w\in C_k:\ (a(v),a(w))\in ForbiddenPairs \Rightarrow \bot</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8001-b936-e623bdbcf00f" class=""><strong>826. Role uniqueness constraint</strong><br/>If role  must be unique within cluster:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a0-a6ee-e24a93a97755" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ |\{v\in C_k: role(v)=r\}|\le 1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a3-817e-d1587c73e271" class=""><strong>827. Required role presence</strong><br/>If role  required:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8029-84fd-de8d1daf541d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ |\{v\in C_k: role(v)=r\}|\ge 1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803f-93ba-d77953642908" class=""><strong>828. Cluster label determinism</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8003-a6a8-e16477c46267" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-label(C_k)=label(C_k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8034-9554-ef190b6a6c25" class=""><strong>829. Cluster representative must satisfy type</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c0-b588-d537ba2201e9" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k)\in C_k \land type(rep(C_k))=type(C_k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80af-8430-eee6f98952c9" class=""><strong>830. Representative evidence maximal</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b8-936a-d55dbd277015" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k)=\arg\max_{v\in C_k} a(v,k)</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80c4-aa9f-c2360fa32e0a"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-803d-9e27-cf6224a583e9" class="">D) Relationship constraints driven by clusters</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ed-96df-e231a7031031" class=""><strong>831. Intra-only predicate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8068-aa16-ddc0a2672abd" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow c(u)=c(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8062-a45d-cb9aca92c9ea" class=""><strong>832. Inter-only predicate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8092-b941-edc1780b5447" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow c(u)\neq c(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c5-a1c2-f1ca8be05b32" class=""><strong>833. Intra-edge density for predicate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8075-bff0-e7778305da1c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|R_p \cap (C_k\times C_k)|}{\binom{|C_k|}{2}} \ge \delta_{p}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dc-8157-d5d9bccaf02e" class=""><strong>834. Cross-edge ceiling for predicate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ca-b867-fa2ef21de111" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|R_p \cap (C_i\times C_j)|}{|R_p|} \le \gamma_{p}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807c-9ebe-c3c410e88ff3" class=""><strong>835. Cross-cluster relation must be mediated</strong><br/>If mediator predicate :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807b-af2a-e7628a99fac1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\land c(u)\neq c(v)\Rightarrow \exists w:\ m(u,w)\land m(w,v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807d-bf42-c7425f3d44e9" class=""><strong>836. No triangle across forbidden cluster triplets</strong><br/>If forbidden triplets :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807d-a440-ec240d3deded" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(c(u),c(v),c(w))\in F \Rightarrow \bot</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-86b2-c65877036578" class=""><strong>837. Cluster-level edge implies node-level support</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806c-927d-edcf22dba54a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(C_i,C_j)\in R_C \Rightarrow \exists u\in C_i,v\in C_j:\ (u,v)\in R</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8088-9477-d2496d3081c0" class=""><strong>838. Node-level support implies cluster-level edge</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a7-bd52-fecc378d4a9d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists u\in C_i,v\in C_j:\ (u,v)\in R \Rightarrow (C_i,C_j)\in R_C</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c6-8f94-c114f40a3bed" class=""><strong>839. Cluster-level weight consistency</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8080-a155-f7e42dd72710" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w_C(i,j)=\sum_{u\in C_i,v\in C_j} w(u,v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-98e0-f524dd98253d" class=""><strong>840. Cluster-level weight bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8075-a1b3-fee17eb41b32" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w_C(i,j)\le W^C_{\max}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8083-b0ea-e2c1674e59f7"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80d7-a7f1-d944d0da585b" class="">E) Stability across time (tracking clusters)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809f-a2d7-e4ac1fb14bf6" class=""><strong>841. Total mapping for surviving clusters</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e4-ae41-ffbc452efcea" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|C_k(t)|\ge m \Rightarrow f_t(k)\neq \bot</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8082-9a34-f8118a817a90" class=""><strong>842. Mapping is functional (no split unless declared)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80af-96bc-e5d3439759bc" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-f_t(k)=i \land f_t(k)=j \Rightarrow i=j</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8029-b6c7-ebedbb75f7bc" class=""><strong>843. Split event definition</strong><br/>If split occurs:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808a-958b-c13ef895baf8" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-f_t(k)=\{i,j\}\ \text{with}\ i\neq j</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8002-be10-eb2099957c79" class=""><strong>844. Merge event definition</strong><br/>If merge occurs:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80af-bf0c-eeb707d09a99" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists k_1\neq k_2:\ f_t(k_1)=f_t(k_2)=i</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cd-8480-f7039c15ede6" class=""><strong>845. Cluster ID persistence under stable mapping</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8094-917a-e9c5e5ca1b4d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-f_t(k)=k&#x27; \land stable(k,k&#x27;) \Rightarrow id(k,t)=id(k&#x27;,t+1)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8095-bb6b-d17befc161fc" class=""><strong>846. Stability criterion via overlap</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-802e-8695-d3ea752bb549" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-stable(k,k&#x27;) \iff \frac{|C_k(t)\cap C_{k&#x27;}(t+1)|}{|C_k(t)\cup C_{k&#x27;}(t+1)|}\ge J_{\min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-8c74-e0ec12b43bec" class=""><strong>847. Membership churn bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8067-b36b-ee97035d6e95" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|C_k(t)\ \Delta\ C_{f_t(k)}(t+1)|}{|C_k(t)|}\le \chi_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-885c-dd0cd6c48b77" class=""><strong>848. Cluster disappearance requires cause</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b6-aef0-d563271e8933" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-f_t(k)=\bot \Rightarrow \exists cause(k,t)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c2-ac50-f0a988758344" class=""><strong>849. Cluster creation requires cause</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e4-a10c-c329a7d06e31" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists k&#x27;: k&#x27;\ \text{new at}\ t+1 \Rightarrow \exists cause(k&#x27;,t+1)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d7-b1c5-f50e01d06864" class=""><strong>850. Centroid drift bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8041-94f8-defe7fb5f831" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\|\mu_k(t+1)-\mu_k(t)\|\le \Delta_{\max}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8074-8bf7-de38943a0efa"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-804d-8419-e99b9f519254" class="">F) Constraint satisfaction and feasibility (advanced)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8092-9347-f01fd1b03fda" class=""><strong>851. Feasible assignment exists</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8057-b12d-df16dbecc478" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists c:\ constraints(c)=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ef-9da9-f8aa9f41599f" class=""><strong>852. Infeasibility triggers fallback</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8000-8179-c26d8239619d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\neg \exists c \Rightarrow fallback\_mode=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fa-9d2e-ecb19cc33ac1" class=""><strong>853. Constraint priority ordering</strong><br/>If priorities :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b1-b5a4-cde2bbf6e3ef" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-P_i &gt; P_j \Rightarrow violate(j)\ \text{allowed before}\ violate(i)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fe-8d4b-dc03bcbaedad" class=""><strong>854. Hard constraints never violated</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8095-9664-f91aa8d57976" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-hard(x)\Rightarrow \neg violate(x)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ee-bf81-ca25bce6f8fb" class=""><strong>855. Soft constraint violation bounded</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ce-8295-e5f54328c819" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\sum soft\_violations \le V_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8096-8c81-ebbe20c4c659" class=""><strong>856. Constraint closure</strong><br/>If constraint implies other constraints:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8073-b2c6-d901ded9ec54" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-C \Rightarrow closure(C)\ \text{applied}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808b-9160-d71a91336c0f" class=""><strong>857. No contradictory constraint set</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80cd-b0b6-f47285cab36f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-C \Rightarrow \neg (x \land \neg x)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805b-86d0-d335800bcbb9" class=""><strong>858. ML transitive closure computed</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8088-9b53-d476777ca0c6" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-ML^+ = transitive\_closure(ML)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8029-9bc2-db5953b7ec9c" class=""><strong>859. CL consistency with ML closure</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ee-b4ff-ed2ab7c3201d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in ML^+ \Rightarrow (u,v)\notin CL</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e5-b835-ef78ac92dfc8" class=""><strong>860. Constraint explanation exists</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8048-9703-d4e6ab8ee48a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-violate(c)\Rightarrow \exists explanation(c)</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8093-bd78-cb1642e58e05"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8077-8278-e461e1b79fe3" class="">G) Graph partition objectives (more)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800b-8563-eabfa54ede91" class=""><strong>861. Normalized cut objective</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809e-8f0a-ee2701009399" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Ncut(\{C_k\})=\sum_k \frac{cut(C_k,\bar{C_k})}{vol(C_k)}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-abbf-fb4d60e3494d" class=""><strong>862. Objective minimization</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808d-b858-f2a002323471" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\min_{\{C_k\}} Ncut</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e4-a8a5-cc6840ac1501" class=""><strong>863. Ratio cut objective</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-804e-adf6-e93dcb332c91" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Rcut=\sum_k \frac{cut(C_k,\bar{C_k})}{|C_k|}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8052-8c73-dfa39d9f466c" class=""><strong>864. Objective monotonic improvement (iterative)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8053-af26-e441c0fc1191" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-J_{t+1}\le J_t</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d4-91f9-e22b9a45843b" class=""><strong>865. Modularity definition</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8073-8d93-d164bd6c288a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Q=\frac{1}{2m}\sum_{u,v}\left(A_{uv}-\frac{k_uk_v}{2m}\right)\mathbf{1}[c(u)=c(v)]</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8087-9620-f7ba06879466" class=""><strong>866. Max modularity goal</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ba-8e52-d2605c3213e3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\max_c Q</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8034-bc3d-e29b9b72d15c" class=""><strong>867. Balance constraint</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807b-bb94-cabd44472c47" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{\max_k |C_k|}{\min_k |C_k|}\le B_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e7-9106-ca3046226de6" class=""><strong>868. Minimum cluster size</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806e-acf0-f76e6383f518" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|C_k|\ge m</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-aa61-d6105e4e9fa9" class=""><strong>869. Maximum cluster size</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8002-abe6-ec902c4e8190" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|C_k|\le M</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803f-929b-d24f3b0a4035" class=""><strong>870. Connected partition constraint</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8098-a5d8-cf8bdd150242" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G[C_k]\ \text{connected}\ \forall k</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80f4-bce5-edb019146adf"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80e2-ab6e-ce5c24b97877" class="">H) Bipartite / two-mode relationship invariants</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8057-8c3f-c5d16eba6089" class=""><strong>871. Bipartite edge type constraint</strong><br/>If , :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8036-95c7-f405fd6cc5d8" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \Rightarrow (u\in U \land v\in W)\ \lor\ (u\in W \land v\in U)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8065-a07d-e60e7a6e5317" class=""><strong>872. No within-part edges</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80bb-ae68-ec523b585ea6" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \Rightarrow \neg(u\in U \land v\in U)\land \neg(u\in W \land v\in W)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-b127-eeeceb7eee5b" class=""><strong>873. Projection correctness</strong><br/>User-user projection edge:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8077-affc-d9abb4de0d68" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u_1,u_2)\in R_{UU} \iff \exists w\in W:\ (u_1,w)\in R \land (u_2,w)\in R</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8088-96bb-f57238bfc595" class=""><strong>874. Co-occurrence weight</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805c-a037-c699bdc9bdb0" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w(u_1,u_2)=|\{w:(u_1,w)\in R \land (u_2,w)\in R\}|</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800c-8b28-cf93417a89fd" class=""><strong>875. Projection symmetry</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a2-afe4-f0c8a23a1b7c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w(u_1,u_2)=w(u_2,u_1)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8051-8a68-ed137fd00580" class=""><strong>876. Projection diagonal excluded</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80df-9f65-c80d5d75dabb" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,u)\notin R_{UU}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f4-9236-f1ade3c7a72c" class=""><strong>877. Degree constraints per mode</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8099-903b-c85eb41bbc7c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall u\in U:\ deg(u)\le D_U,\ \forall w\in W:\ deg(w)\le D_W</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801e-b36c-d76940cbdad7" class=""><strong>878. Mode cluster constraint</strong><br/>Clusters must not mix modes (if required):</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-804e-8f64-c3bd0bf3e2c3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-v\in C_k \Rightarrow type(v)=fixed(k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8044-b110-fa1d8467b072" class=""><strong>879. Two-level clustering consistency</strong><br/>If cluster users and items:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8028-a9f4-f1ab577ac166" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,w)\in R \Rightarrow (c_U(u),c_W(w)) \in R_{CW}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-8a98-d94586796374" class=""><strong>880. Block model density bounds</strong><br/>For blocks :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-801b-8ff1-f9d760f299f7" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\delta_{ij}^{min}\le density(block_{ij})\le \delta_{ij}^{max}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ef-8c3e-e0fc55ff8369"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80ba-8e7e-d1c835b87483" class="">I) Relational integrity across clustered entities</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8032-857b-e42c082d73e7" class=""><strong>881. Cluster representative FK validity</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-804e-bd63-c0cf086218de" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k)\ \text{used as FK} \Rightarrow rep(C_k)\in PK</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8091-a551-fb44ca012334" class=""><strong>882. No two reps for same cluster</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-802f-90c1-c72a0cc39825" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k)=x \land rep(C_k)=y \Rightarrow x=y</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8059-a001-f7eadb989ca0" class=""><strong>883. Rep change requires evidence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80f3-a1d4-c53e858980a7" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep_{t+1}(C_k)\neq rep_t(C_k)\Rightarrow \Delta evidence \ge \theta</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8091-b834-d4459755b52b" class=""><strong>884. Rep must satisfy completeness</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a1-a76f-c945c3b535d8" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k)\Rightarrow required\_fields(rep)\ \text{present}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80da-b978-c920cba61448" class=""><strong>885. Cluster-level constraint implies node-level enforcement</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806b-9454-e1f4796b9079" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-constraint(C_k)\Rightarrow \forall v\in C_k:\ constraint(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80de-b72a-cfec4ade4006" class=""><strong>886. Node-level violation bubbles to cluster</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a0-b1da-f180f56456e2" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists v\in C_k:\ violate(v)\Rightarrow violate(C_k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8001-a4c6-df0e57f35fa8" class=""><strong>887. Violation count bound per cluster</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80cc-bb9f-cc3b06971129" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-violations(C_k)\le V_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-beeb-cbc3c5205948" class=""><strong>888. Repair actions monotone reduce violations</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808e-890a-ee6501e4ad84" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-violations_{t+1}(C_k)\le violations_t(C_k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8075-99cf-ef54fd1b022a" class=""><strong>889. Repair maintains partition</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-803c-87a3-d12fe35f23a4" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-repair \Rightarrow \bigcup_k C_k = V\ \land\ C_i\cap C_j=\varnothing</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8012-ba37-c6c81c560b8c" class=""><strong>890. Repair preserves identity constraints</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8032-aa6d-c37414f18b83" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-repair \Rightarrow same(\cdot)\ \text{remains equivalence}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80c0-86d4-f1c62aab6625"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-806c-90b9-f989856555ae" class="">J) Meta invariants (operational)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8012-b790-ca64f4b922ff" class=""><strong>891. Deterministic rebuild of relationships</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8061-bf23-fca009b90a22" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-build_R(seed,data)=build_R(seed,data)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d5-98e4-cec5584493de" class=""><strong>892. Deterministic rebuild of clusters</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ce-836a-fb13d4d5419a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-build_C(seed,data)=build_C(seed,data)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c8-a08a-eacb3e3e9071" class=""><strong>893. Versioned outputs</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-804f-bf39-e9ee1d3ca5c9" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-output(t+1)\neq output(t)\Rightarrow version++</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800d-975b-ff31e5ae43f9" class=""><strong>894. Backward compatibility window for IDs</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807f-906c-c109edf02be1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-t\in W \Rightarrow ids\_stable=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b9-975d-ec19a6a1ff10" class=""><strong>895. Audit record per edge change</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8090-b880-e45283d15577" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-R_{t+1}\neq R_t \Rightarrow \exists audit(\Delta R)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bb-9684-ee5a1f679cb5" class=""><strong>896. Audit record per assignment change</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805d-ae13-c5ed35aaa748" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-c_{t+1}\neq c_t \Rightarrow \exists audit(\Delta c)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-8897-f7955437474c" class=""><strong>897. Provenance for every cluster</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806d-8ff4-e6526ea3efe0" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ exists\ prov(C_k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f5-9495-d8f93c98e3ce" class=""><strong>898. Provenance for every edge</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ff-b04e-dd7a307fa71c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall (u,v)\in R:\ exists\ prov(u,v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f7-a8e3-f0d021f6c579" class=""><strong>899. Enforcement coverage</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8072-84be-ca8818f664ba" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall I\in Invariants:\ enforced(I)=True</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805e-98b7-ef6c0feb3238" class=""><strong>900. Termination criteria explicit</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8028-8b1f-c3904908ef09" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-stop \Rightarrow (|J_{t+1}-J_t|\le \epsilon)\ \lor\ (t\ge t_{\max})</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c8-a3a6-f531501e3465" class="">If you want 901–1000, specify which sub-type you want emphasized:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8042-84c9-d8029e81b630" class="numbered-list" start="1"><li>knowledge graph + ontology constraints, 2) identity/entity-resolution clusters, 3) community detection/graph partitioning, 4) temporal evolution/tracking, or 5) block models/bipartite clustering.</li></ol></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-805d-b135-f0f910c85a19" class="">MICRO↔MACRO MAP ACROSS ~100,000 YEARS OF CIVILIZATION</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809d-abdb-d42ca3a90480" class="">(English, structural, not romanticized; 
-same 19×19 control-system lens)</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-804c-b3e6-c8659a4025b8" class="">1) The core claim</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-9c5b-ed565961c6e3" class="">Across ~100,000 years, “civilizational change” is largely the same phenomenon repeated at different scales:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ce-b5e6-f489e2bc694b" class="bulleted-list"><li style="list-style-type:disc"><strong>Micro:</strong> cells, nervous systems, families, teams</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ca-b747-e4b850d36cda" class="bulleted-list"><li style="list-style-type:disc"><strong>Meso:</strong> firms, cities, supply chains</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-805b-a94a-fb21869bdf69" class="bulleted-list"><li style="list-style-type:disc"><strong>Macro:</strong> states, empires, global orders</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8095-9e80-f3a8be5a04c6" class="">The invariants don’t change. 
-Only the <strong>coupling density (C)</strong>, <strong>time constants (τ)</strong>, and <strong>buffer form (B)</strong> change.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-800f-a12f-fd5f70a78e23"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8065-b43b-c7c70185da78" class="">2) Micro → Macro translation table (stable invariants)</h2></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80d0-bbf0-fa5bd4a89d2e" class="">A) Micro (biology / individual)</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8002-9922-d6ec489052da" class="bulleted-list"><li style="list-style-type:disc"><strong>E:</strong> metabolic energy &amp; 
-oxygen delivery</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-802a-87fe-f7d929068745" class="bulleted-list"><li style="list-style-type:disc"><strong>P:</strong> energy cost (effort per unit function)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80bc-afee-f128512eaac1" class="bulleted-list"><li style="list-style-type:disc"><strong>L:</strong> friction (coordination effort, executive load)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8097-b79d-eb078eaf8a53" class="bulleted-list"><li style="list-style-type:disc"><strong>H:</strong> maintenance debt (sleep debt, inflammation, wear)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8010-a899-fa13a4f4bfcc" class="bulleted-list"><li style="list-style-type:disc"><strong>K:</strong> cost of action (risk to body)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-800c-aa9b-c1c6351027b8" class="bulleted-list"><li style="list-style-type:disc"><strong>Cr:</strong> resource flow (blood flow, glucose, attention)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809e-8520-cf441b676dce" class="bulleted-list"><li style="list-style-type:disc"><strong>Fx:</strong> external shock (infection, trauma, social threat)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801c-8155-e2b1f992ef73" class="bulleted-list"><li style="list-style-type:disc"><strong>RE:</strong> structural imbalance (posture, load distribution, chronic mismatch)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b8-b0c4-f84f3606f0a9" class="bulleted-list"><li style="list-style-type:disc"><strong>Enf/Jud/Adm:</strong> rule execution (habits, constraints, 
-self-control circuits)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f9-a195-c24eef15da36" class="bulleted-list"><li style="list-style-type:disc"><strong>Cor:</strong> leakage (wasted energy, maladaptive loops)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-808c-98b0-db23c6b8c0f8" class="bulleted-list"><li style="list-style-type:disc"><strong>Sk:</strong> motor/cognitive skill</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809d-acc1-e0e79a576fa9" class="bulleted-list"><li style="list-style-type:disc"><strong>Pr:</strong> functional output</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-804e-b4cf-e143098a2d7f" class="bulleted-list"><li style="list-style-type:disc"><strong>Inn:</strong> adaptation rate</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a6-b0e6-ca14a324872d" class="bulleted-list"><li style="list-style-type:disc"><strong>Tr:</strong> internal trust/safety signal</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a8-a8d0-e23b5643b262" class="bulleted-list"><li style="list-style-type:disc"><strong>Inf/Pol:</strong> noise &amp; 
-internal conflict</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8088-837c-e8149ce38e1d" class="bulleted-list"><li style="list-style-type:disc"><strong>Buf:</strong> reserves (glycogen, sleep reserve, social support, money)</li></ul></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-806d-a568-f5fd49ceb09e" class="">B) Macro (civilization / state)</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80df-aa66-f5d8435b0b7a" class="bulleted-list"><li style="list-style-type:disc"><strong>E:</strong> energy grid reliability (food/wood/coal/oil/electricity)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ca-8994-f8519c797f97" class="bulleted-list"><li style="list-style-type:disc"><strong>P:</strong> energy price + input costs</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8091-ae8c-ed6f473a5b2e" class="bulleted-list"><li style="list-style-type:disc"><strong>L:</strong> logistics friction (ports, roads, bureaucracy)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-802b-b5aa-e52871feb99b" class="bulleted-list"><li style="list-style-type:disc"><strong>H:</strong> infrastructure debt (roads, dams, grids, institutions)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-803f-8f31-dbb9fc92e5db" class="bulleted-list"><li style="list-style-type:disc"><strong>K:</strong> cost of capital &amp; 
-risk premium</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8083-b687-cad2cb71efe8" class="bulleted-list"><li style="list-style-type:disc"><strong>Cr:</strong> credit transmission / liquidity</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ee-a449-f79ba1ddea75" class="bulleted-list"><li style="list-style-type:disc"><strong>Fx:</strong> external shocks (war, climate, pandemics, sanctions)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8052-8903-e66485e98a42" class="bulleted-list"><li style="list-style-type:disc"><strong>RE:</strong> asset bubbles / land-to-income strain</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-804a-bb18-e178fb338627" class="bulleted-list"><li style="list-style-type:disc"><strong>Enf/Jud/Adm:</strong> enforcement, courts, 
-state capacity</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a3-a699-ff6ca5d1e0ca" class="bulleted-list"><li style="list-style-type:disc"><strong>Cor:</strong> rent extraction / leakage</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b5-aca4-f14c85c0e33f" class="bulleted-list"><li style="list-style-type:disc"><strong>Sk:</strong> workforce operational competence</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-807f-97eb-ee66c5cd80b3" class="bulleted-list"><li style="list-style-type:disc"><strong>Pr:</strong> productivity</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8005-af93-e7b987fbf0c5" class="bulleted-list"><li style="list-style-type:disc"><strong>Inn:</strong> innovation throughput</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fa-8346-ccf13fc440d6" class="bulleted-list"><li style="list-style-type:disc"><strong>Tr:</strong> social trust / legitimacy</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806e-bb5e-cdfb93e6241f" class="bulleted-list"><li style="list-style-type:disc"><strong>Inf/Pol:</strong> information noise / polarization</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-804b-a5c6-c2d592df4148" class="bulleted-list"><li style="list-style-type:disc"><strong>Buf:</strong> fiscal reserves, household buffer, strategic stockpiles</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8015-9785-ee5e639b3046" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808d-b3ac-e02f82766b8d" class="">A stable system is one where <strong>resource flow is clean</strong>, <strong>leakage is bounded</strong>, 
-and <strong>buffers replenish faster than shocks</strong>.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80fd-9dba-f1c7198d0209"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-806f-bdf1-fec8dc34dda5" class="">3) The 100,000-year arc in system variables (what actually changed)</h2></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8058-b5b1-e30c5a44de8c" class="">Phase 1 — Forager bands (pre-agrarian)</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e8-a1f8-f27d59925c89" class="bulleted-list"><li style="list-style-type:disc"><strong>C (connectivity):</strong> low (small groups)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-803c-a12d-e0226dfdd4f5" class="bulleted-list"><li style="list-style-type:disc"><strong>N (noise):</strong> low-to-medium (nature shocks)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801e-98b3-f43b48c7acae" class="bulleted-list"><li style="list-style-type:disc"><strong>D (damping):</strong> social cohesion + mobility (“exit option”)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8075-bb19-ebd0ec97e33c" class="bulleted-list"><li style="list-style-type:disc"><strong>B (buffer):</strong> low stored buffer; buffer = mobility + knowledge<strong>Failure mode:</strong> localized mortality, not systemic collapse.</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80da-9019-c89cbe83dfd9" class=""><strong>Invariant:</strong> mobility is damping.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-804b-9e26-caa138d4e7e1"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8027-a2bf-d2275b4ce3dc" class="">Phase 2 — Early agriculture &amp; 
-sedentism (state formation)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fa-83e6-cd24d542a8ea" class="">Agriculture increases:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8084-b12f-d09d2bfffa5d" class="bulleted-list"><li style="list-style-type:disc"><strong>C ↑</strong> (settlement density)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8046-ba82-cb16dea268fe" class="bulleted-list"><li style="list-style-type:disc"><strong>B ↑</strong> (stored grain)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8044-8441-cdef244f1924" class="bulleted-list"><li style="list-style-type:disc">but also <strong>N ↑</strong> (disease, raids, crop variance)<br/>and <strong>Cor ↑</strong> (rent extraction begins).</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d6-b838-e2ad2e96ac2d" class=""><strong>Critical shift:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cd-a2eb-f0c2699b1eac" class="">Stored buffer enables hierarchy; 
-hierarchy introduces leakage (Cor).</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b1-8c0a-f23b657c1a54" class=""><strong>Failure mode:</strong> famine + extraction → legitimacy collapse.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80fe-91fd-d222c6fa05e3"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8097-9622-e356d5b68a6c" class="">Phase 3 — Empire logistics era (bronze/iron classical empires)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ee-a27d-c3b16208b82a" class="">Key variable is <strong>L (logistics friction)</strong> and <strong>E (energy of food systems)</strong>.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800b-a8b4-cbb5bbe916b1" class="">Empires stabilize when:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d2-83c2-fbbf22a48e4e" class="bulleted-list"><li style="list-style-type:disc"><strong>Adm ↑</strong> (road networks, taxation, standardization)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8078-a9ee-f91035af5677" class="bulleted-list"><li style="list-style-type:disc"><strong>Jud/Enf ↑</strong> (predictability)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d7-8f01-e3b8bbeb67e7" class="bulleted-list"><li style="list-style-type:disc"><strong>Sk ↑</strong> (trained administrators/soldiers)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-91be-c4f6bb3777f7" class="">They destabilize when:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80eb-a4de-e504a0cb9b9d" class="bulleted-list"><li style="list-style-type:disc"><strong>H ↑</strong> (infrastructure &amp; 
-military overstretch)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8017-8ca6-fb406abd24ab" class="bulleted-list"><li style="list-style-type:disc"><strong>Cor ↑</strong> (elite extraction)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c2-a079-c07bebc45413" class="bulleted-list"><li style="list-style-type:disc"><strong>Buf ↓</strong> (grain/treasury exhaustion)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fb-b27a-e2c33a8a9b7e" class="bulleted-list"><li style="list-style-type:disc"><strong>Fx ↑</strong> (wars, drought, plague)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a3-913b-ddc7c2cd638a" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8078-b3f1-ec36e1232dc1" class="">Empires don’t die from one shock. 
-They die when shocks hit a system with depleted buffers + high leakage.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-802f-bb30-f809794000d0"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8092-bb58-cfa06a99c32e" class="">Phase 4 — Commercial/industrial acceleration</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808b-85e8-c101b9f39a41" class="">Industrialization is an extreme intervention on:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d6-a61f-dc76b307eebc" class="bulleted-list"><li style="list-style-type:disc"><strong>E ↑↑</strong> (fossil energy massively increases throughput)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-802f-b0c4-f5c52b37f1ec" class="bulleted-list"><li style="list-style-type:disc"><strong>Pr ↑↑</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c2-9e85-e3ddf82e7090" class="bulleted-list"><li style="list-style-type:disc"><strong>C ↑↑</strong> (global supply chains)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-803b-9e4a-e8845e57a3c0" class="bulleted-list"><li style="list-style-type:disc"><strong>N ↑</strong> (financial cycles, geopolitical entanglement)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dd-a795-ee9e71ae18f7" class=""><strong>New fragility:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-b4a3-ddb46e7b5728" class="">High productivity hides rising systemic risk because <strong>C × G</strong> grows faster than <strong>D</strong>.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b7-bb0b-ec008eecc197" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8012-87a1-cf292e9f3aa6" class="">When connectivity increases faster than damping, 
-small errors propagate into cascades.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80f1-8160-e25585db7f6e"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80ea-8902-ecc999c66743" class="">Phase 5 — Late modern / digital-global system (today)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8002-923a-dc5d8512322c" class="">Digitalization increases:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806c-8b8f-ef46613f7f24" class="bulleted-list"><li style="list-style-type:disc"><strong>G ↑</strong> (amplification)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8038-9b89-ecf9e7db0c23" class="bulleted-list"><li style="list-style-type:disc"><strong>Inf ↑</strong> (noise)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f3-bb39-dcd21f1cac15" class="bulleted-list"><li style="list-style-type:disc"><strong>C ↑</strong> (tight coupling)<br/>often without proportional increase in:</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8073-a800-e7ebf929d76c" class="bulleted-list"><li style="list-style-type:disc"><strong>D</strong> (institutional damping)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fe-84b7-c72acd0d0700" class="bulleted-list"><li style="list-style-type:disc"><strong>Buf</strong> (real household buffer)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8047-b963-e1202a1723cd" class="">So systems exhibit:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8036-a9ad-db7a9b13de72" class="bulleted-list"><li style="list-style-type:disc">fast narrative swings</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e9-8017-d014c6fc8a7b" class="bulleted-list"><li style="list-style-type:disc">fast capital flow</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="30bc5e6f-95bd-80e1-859f-dd9c75de7df6" class="bulleted-list"><li style="list-style-type:disc">rapid polarization loops</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b5-9ae3-c536e2f1531a" class="bulleted-list"><li style="list-style-type:disc">brittle trust</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8048-9985-cb245be53717" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8093-9249-f153aa7673c1" class="">High gain + high noise requires stronger damping or you get oscillation and fragmentation.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80bf-b613-e861ff1d68ff"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8090-9787-c793c25f40a9" class="">4) The universal collapse/stabilization law (micro↔macro)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807a-95d6-cf2053bafb3c" class="">Define civilization stability index:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-801f-8757-d73a72b9645c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-CSI=\frac{D+B}{G\cdot N}</code></pre></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8010-b204-dc079de73536" class="bulleted-list"><li style="list-style-type:disc"><strong>CSI &gt; 1:</strong> stable growth / manageable volatility</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809e-8bfa-e667331ecb99" class="bulleted-list"><li style="list-style-type:disc"><strong>CSI ≈ 1:</strong> fragile; politics becomes “noise management”</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c9-98b1-ef7dbd2f5c61" class="bulleted-list"><li style="list-style-type:disc"><strong>CSI &lt; 1:</strong> cascade-prone; 
-failures propagate</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800f-a2b8-ff076c1a906a" class="">Across 100,000 years, 
-“collapse” is typically:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8045-8434-ca8cf185a392" class="bulleted-list"><li style="list-style-type:disc"><strong>B exhausted</strong> (buffer depletion)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809a-b30c-d6693797e00b" class="bulleted-list"><li style="list-style-type:disc"><strong>D eroded</strong> (institutional capacity decay)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-802a-be99-d55c6b3355cb" class="bulleted-list"><li style="list-style-type:disc"><strong>Cor rises</strong> (leakage/extraction)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d4-a44b-d81aeea1782d" class="bulleted-list"><li style="list-style-type:disc"><strong>Inf/Pol rises</strong> (noise amplification)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8055-b136-e810f46bc28f" class="bulleted-list"><li style="list-style-type:disc"><strong>C too high</strong> for existing damping (tight coupling)</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8031-9838-c8f424bcc878"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80ce-b9c6-f5b1bbf59304" class="">5) What is truly “overlooked” across civilizations (hard invariants)</h2></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-801c-95b9-d6a2487b3c2a" class="">(O1) <strong>Maintenance debt is destiny</strong></h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" i
-ntegrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-802a-a206-d44dc5b6bb16" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-H(t)=\int (under\_maintenance)\,dt</code></pre></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8041-a8c6-f6189f5591ae" class="">(O2) <strong>Selective enforcement breaks trust faster than poverty</strong></h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807e-9890-cc1962347188" class="">Not “law exists,” but <strong>predictability</strong>:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-801a-ba93-dc0943f8514f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-SEG=\nabla Enf</code></pre></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80df-9c02-f10ed49ba96d" class="">(O3) <strong>Rent extraction is a silent tax on adaptation</strong></h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a0-8764-f86f60c0bb20" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-RST=\frac{Cor}{Pr}</code></pre></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8056-a050-eed64e6f4df4" class="">(O4) <strong>Connectivity without damping converts shocks into cascades</strong></h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809c-825e-fb8609daaf66" class="">Macro version of seizure/arrhythmia in biology:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ea-ba56-d45e1cc7e03e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-P_{macro}=1-(1-p)^k</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80e0-9af6-f87f498e7632"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-808c-bf5e-d775c50ca6cf" class="">6) Where “Stage 7” sits in the 100,000-year frame</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f4-be35-f9dd10cf4428" class="">“Stage 7” (re-stabilization) is not a mood. 
-It is a parameter shift:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8076-96ce-f0fed86122a4" class="bulleted-list"><li style="list-style-type:disc"><strong>Enf/Jud/Adm</strong> rebuilt (predictability)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8005-9d9e-fe83805c064e" class="bulleted-list"><li style="list-style-type:disc"><strong>Cor structurally reduced</strong> (not punished occasionally)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-800e-8856-c56b34d5d764" class="bulleted-list"><li style="list-style-type:disc"><strong>Buf replenished</strong> (household and fiscal)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801e-b6b3-f8367ebc7293" class="bulleted-list"><li style="list-style-type:disc"><strong>Inf/Pol damped by architecture</strong> (not by slogans)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f2-bda6-f7b70b3351b0" class="bulleted-list"><li style="list-style-type:disc"><strong>Connectivity becomes selective</strong> (C managed, 
-not maximized)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807c-8738-d167283a1d3e" class="">This is historically rare at scale because it requires:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809f-8111-d332d899e93b" class="bulleted-list"><li style="list-style-type:disc">admitting hidden leakage</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80cd-a7c2-cb5711e5b89e" class="bulleted-list"><li style="list-style-type:disc">sacrificing short-term extraction</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8015-9af6-e7832c5d7b9f" class="bulleted-list"><li style="list-style-type:disc">rebuilding trust through delivery</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8022-ab98-f30fe6ff2c03"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8002-a4f7-c537c7229477" class="">7) The practical bridge: micro predicts macro</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8074-a2c8-edffafdb14a8" class="">What you see in a single human nervous system is the same shape as a late-stage civilization:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80aa-be18-fc25dfbe8b1f" class="bulleted-list"><li style="list-style-type:disc">high gain</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80cf-aeb6-fb23ee349055" class="bulleted-list"><li style="list-style-type:disc">high noise</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8050-80e3-d2ca8cb686d3" class="bulleted-list"><li style="list-style-type:disc">low buffer</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80aa-9a3c-f574ee245302" class="bulleted-list"><li style="list-style-type:disc">weakened damping</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-807d-ab7b-f82300c13210" class="bulleted-list"><li s
-tyle="list-style-type:disc">tight coupling</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fd-b432-e59fa07e85ff" class="">Civilizations don’t “think.” They oscillate under these parameters.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-801f-a905-cc367cd29001"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c4-85d4-dbc1323335ac" class="">If you want the next step, pick one:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8098-8451-e4a602b8a584" class="numbered-list" start="1"><li>Build a <strong>single unified equation set</strong> that runs from neuron → family → firm → state (same variables, different τ).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-809d-b6f1-ec6a7bc31f71" class="numbered-list" start="2"><li>Map <strong>agriculture → empire → industrial → digital</strong> as explicit parameter jumps in (the 19×19 coupling matrix).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-803a-879c-e88d2033f50d" class="numbered-list" start="3"><li>Define “Stage 7 triggers” that are observable without media (structural indicators only).</li></ol></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8088-bb80-cbfc7d6ed0fa" class="">Invariants 701–800: Relationships &amp; 
-Clusters (more, with equations)</h3></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-803a-882e-ca82d669086e" class="">Additional definitions</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8039-8c91-e753a4cdfca9" class="bulleted-list"><li style="list-style-type:disc">Pairwise relation weight</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806e-87dd-d3d98f526831" class="bulleted-list"><li style="list-style-type:disc">Edge set partitioned by type</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8047-a8c2-d181fb261402" class="bulleted-list"><li style="list-style-type:disc">Cluster-level relation graph where nodes are clusters</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ea-8379-ce827468b1a2" class="bulleted-list"><li style="list-style-type:disc">Cluster assignment probability (soft clustering),</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806e-979a-f3a1fb832182"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80d0-b90d-c7cf93918a5d" class="">A) Weighted relationship invariants</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8050-87e1-faebee2f1b26" class=""><strong>701. 
-Non-negative edge weights</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b2-a821-c2948f586350" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall (u,v)\in R:\ w(u,v)\ge 0</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8013-a9b0-ea5c6f90b494" class=""><strong>702. Weight symmetry (undirected weighted)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c1-90b2-ce80df56f987" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \Rightarrow w(u,v)=w(v,u)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8040-9cc8-c19bae646c56" class=""><strong>703. Weight upper bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809a-966f-ecd65cd40adc" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall (u,v)\in R:\ w(u,v)\le W_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8044-ab2a-f92ec8fb2053" class=""><strong>704. Weight normalization (if required)</strong><br/>For normalized adjacency:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ec-9836-c006801d6b70" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\sum_{v:(u,v)\in R} w(u,v)=1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d2-b974-ebfd2748ec2e" class=""><strong>705. Edge weight implies edge existence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-801e-b698-e89074d2b089" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w(u,v)&gt;0 \Rightarrow (u,v)\in R</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dd-afd7-fbed1a11475d" class=""><strong>706. Zero weight implies no edge (if declared)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80d8-9cc4-e0ff0c16c3cb" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w(u,v)=0 \Rightarrow (u,v)\notin R</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80be-9f70-d7a57ea89c45" class=""><strong>707. Weight monotonic under aggregation</strong><br/>If  is sum of interactions :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807a-9033-edf660e0036e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w=\sum_i x_i \Rightarrow t_2&gt;t_1 \Rightarrow w(t_2)\ge w(t_1)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8038-bbca-f462ebd444cd" class=""><strong>708. Exponential decay correctness (if used)</strong><br/>With decay rate :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b2-b93c-d5c183d85b84" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w(t)=w(0)e^{-\lambda t}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c0-b7e6-f30469761d38" class=""><strong>709. Thresholding determinism</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806c-af11-f9fbeec11e2f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \iff w(u,v)\ge \tau</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801a-bc9b-df65f370df27" class=""><strong>710. No cross-type mixing</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c9-965c-c66b29800acd" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R_t \Rightarrow type(u,v)=t</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80b3-a077-da4a4798ad0f"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8036-b5ee-e97453045713" class="">B) Soft clustering (probabilistic membership) invariants</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f7-bf80-eb1c58aa7bb1" class=""><strong>711. Probability simplex per node</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8021-b960-e97e79f9294d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall v:\ \sum_{k=1}^K p_k(v)=1 \land p_k(v)\ge 0</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8017-a9e8-cee1fc209616" class=""><strong>712. Hard assignment from soft</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8068-9bb0-f4b9ad52662e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-c(v)=\arg\max_k p_k(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8071-9017-c2401d296b09" class=""><strong>713. Confidence threshold for assignment</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-804b-8bf5-ef89c348fb3f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\max_k p_k(v) \ge \tau \Rightarrow assigned(v)=True</code></pre></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8073-9ed8-cc8d68a7ab49" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-assigned(v)=False\Rightarrow c(v)=0</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a7-a6c6-c1e375989adb" class=""><strong>714. Entropy bound for “clear” membership</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-802c-99e6-fd2bc6d30bec" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-H(p(v))=-\sum_k p_k(v)\log p_k(v)\le H_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808e-8b4e-f2baa2a24424" class=""><strong>715. Cluster prior normalization</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b9-a283-fad091f89eb5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\sum_{k=1}^K \pi_k = 1,\quad \pi_k\ge 0</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-b85a-fb92ce869a58" class=""><strong>716. Responsibility consistency (EM)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8090-888c-e0ca49d8ccea" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p_k(v) \propto \pi_k \cdot \mathcal{L}(v\mid k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e3-a781-e7d496d2af80" class=""><strong>717. Likelihood monotonicity (EM)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8039-8aca-ff8fb5105048" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\mathcal{L}_{t+1}\ge \mathcal{L}_t</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-bd4d-da90fe1beeef" class=""><strong>718. Posterior determinism under fixed seed</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e5-82a2-eb7aa128a24a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p^{(s)}(v)=p^{(s)}(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c1-9c75-c9d1b02590bd" class=""><strong>719. No empty effective clusters</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8005-8b96-d36a39a94b29" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ \sum_{v} p_k(v) \ge \epsilon</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8026-b516-dbb2f229c2fb" class=""><strong>720. Soft cluster size bounds</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8074-8e73-c23386f18215" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-m \le \sum_v p_k(v) \le M</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-803c-a4c5-f99cbf851697"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80db-a99d-d1579e368de5" class="">C) Inter-cluster relationship invariants (cluster graph )</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8068-9e88-fbed13082f03" class=""><strong>721. Cluster-level edge existence</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a1-b106-c37d9ec57378" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(C_i,C_j)\in R_C \iff \exists u\in C_i, v\in C_j:\ (u,v)\in R</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d1-8f2c-d63aa11d4dfe" class=""><strong>722. Cluster edge weight aggregation</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80bd-8697-d010db698ccd" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w_C(i,j)=\sum_{u\in C_i, v\in C_j} w(u,v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8084-aec9-f769914110a4" class=""><strong>723. Cluster edge symmetry (undirected)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80bd-961a-d9e35bd3acd3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-w_C(i,j)=w_C(j,i)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8053-a9c9-c1b5085ef414" class=""><strong>724. No self-edge at cluster level (if required)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8071-9b74-eeb51efe9c92" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(C_i,C_i)\notin R_C</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802e-85c9-f9286929a25e" class=""><strong>725. Inter-cluster sparsity</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c3-8fe2-d6e76a131f4e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|R_C|}{K(K-1)} \le s_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c2-bed3-ca46bd8d6747" class=""><strong>726. Cluster graph connectivity (if required)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-802e-b488-c67158d360e6" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G_C\ \text{connected}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801a-a676-d7782d722a2a" class=""><strong>727. Cluster graph acyclicity (if taxonomy)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8017-b215-e22511455887" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G_C\ \text{acyclic}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f7-ab25-c1420c8d0ae5" class=""><strong>728. Single parent cluster (hierarchy)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a0-ba82-e718d4a73bf6" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall i:\ |\text{parents}(C_i)|\le 1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8045-bc92-cd51fba65fdb" class=""><strong>729. Root uniqueness (cluster hierarchy)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8023-a5c1-ee0893674439" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|\{C_i:\ indeg_C(C_i)=0\}|=1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8013-ade7-c9eb86298bc3" class=""><strong>730. Cluster hierarchy reachability</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-804c-914f-e1b3647e3254" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-root_C \to^* C_i\quad \forall i</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8043-97d6-cf1792e45800"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80ba-8a25-ec1483df7e13" class="">D) Constraint-based clustering invariants (expanded)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803a-a501-c49e487f3d64" class=""><strong>731. Must-link transitive closure consistency</strong><br/>If  and  must-link:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a6-adad-d203fe52c09c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-c(u)=c(v)\land c(v)=c(w)\Rightarrow c(u)=c(w)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8032-93eb-fbd21074a215" class=""><strong>732. Cannot-link anti-transitivity is not assumed</strong><br/>Formally:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805c-8a27-dfd7ee9470ca" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in CL \not\Rightarrow (u,w)\in CL</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801d-8e1f-e7dd6ae4d825" class=""><strong>733. No ML and CL contradiction</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8039-b447-d7296eab1a56" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in ML \Rightarrow (u,v)\notin CL</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8082-b512-df3e8827a861" class=""><strong>734. Constraint graph satisfiable</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ea-9901-cf5fb8912b7b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists c:\ \forall (u,v)\in ML,\ c(u)=c(v)\ \land\ \forall (u,v)\in CL,\ c(u)\neq c(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800e-9dd7-c00fb79ff915" class=""><strong>735. ML component assigned to one cluster</strong><br/>For ML-connected component :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8017-a07c-e0682b0fb1f1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall u,v\in S:\ c(u)=c(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bb-a0bd-dabbdfd2ca1a" class=""><strong>736. CL between components respected</strong><br/>If components  have CL edge:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c0-a057-f3cdc8515296" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-c(S_1)\neq c(S_2)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8081-a61a-c2e1f154f0ef" class=""><strong>737. Constraint violation rate bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c4-836d-f4de353c0508" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{\#violations}{|ML|+|CL|}\le \epsilon</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804c-a7ae-c79900989e59" class=""><strong>738. Constraint-weighted objective</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808f-9c68-e62bc13114ad" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-J&#x27; = J + \alpha\cdot Viol(M L)+\beta\cdot Viol(CL)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802e-b928-eb10e667cdc6" class=""><strong>739. Constraint satisfaction monotone (during search)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ac-a915-f2f211123a89" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Viol_{t+1}\le Viol_t</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8069-b7c3-e623b6a79861" class=""><strong>740. Constraint owner mapping</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805b-abea-e787a0f76b5e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall constraint:\exists source(constraint)</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8017-a406-e8657f9af59d"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80ee-bd1a-e64cdb13d57c" class="">E) Entity resolution + clustering invariants (identity clusters)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d7-8550-d68924e54022" class=""><strong>741. Equivalence relation for “same entity”</strong><br/>If  is identity match:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-802e-bf14-da8086c1e96d" class="bulleted-list"><li style="list-style-type:disc">Reflexive:</li></ul></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8092-a13a-d6ba64833948" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-same(u,u)=True</code></pre></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8074-b763-edbcd6615cb0" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-same(u,v)\Rightarrow same(v,u)</code></pre></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80f9-a9c7-eb4c5e88c2e5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-same(u,v)\land same(v,w)\Rightarrow same(u,w)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ca-a974-c07d7e07e903" class=""><strong>742. Identity cluster equals equivalence class</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b7-be23-d2667a3392b3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-C_k = [v]_{same}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80eb-9231-d64f260d83b1" class=""><strong>743. No two identity clusters overlap</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8001-8259-f2a1d05abf9b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-C_i\cap C_j=\varnothing \ (i\neq j)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8000-a993-f8bf4e5923fe" class=""><strong>744. Canonical representative exists</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8020-bdee-dc2caa34d960" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall C_k:\exists rep(C_k)\in C_k</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807a-9ef9-eaff72c9b317" class=""><strong>745. Representative deterministic</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8092-8748-f8c64c04e58a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-rep(C_k)=\arg\min_{v\in C_k} key(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f7-8054-e1a8d005db02" class=""><strong>746. Merge correctness</strong><br/>If merge clusters :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808b-af65-eb12f596c3bc" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-C_{new}=C_a\cup C_b</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800d-8ceb-d0494d34ec7f" class=""><strong>747. Split correctness</strong><br/>If split :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8091-9398-ffedc2cae6b5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-C_1\cup C_2=C \land C_1\cap C_2=\varnothing</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8062-b26e-fd6c0f924e5e" class=""><strong>748. No oscillating merge/split (stability)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b7-aac0-c1d3ff840e1d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-merge(t)\Rightarrow \neg split(t+\Delta)\ \text{unless evidence}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802d-a8ef-d96481093457" class=""><strong>749. Evidence threshold for merge</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8051-a97d-c973de4f47d9" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-score(C_a,C_b)\ge \tau_{merge}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fa-a294-f0daf6fbb1f3" class=""><strong>750. Evidence threshold for split</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809e-9230-fcdec2277517" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-score\_inconsistency(C)\ge \tau_{split}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80bf-8724-ef12d990935c"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-805c-89ed-df53de866b08" class="">F) Cluster evaluation invariants (quality constraints)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80aa-be00-f923004bce27" class=""><strong>751. Within-cluster distance bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80cd-ad27-e18a9bb75b87" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ \frac{1}{|C_k|^2}\sum_{u,v\in C_k} d(u,v) \le \omega_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-878b-e6b64b01ec27" class=""><strong>752. Between-cluster distance floor</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80d1-8036-e56ba44e20e6" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall i\neq j:\ \frac{1}{|C_i||C_j|}\sum_{u\in C_i,v\in C_j} d(u,v)\ge \beta_{\min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8075-8685-c831cbd30729" class=""><strong>753. Dunn index lower bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a4-ac3f-da42e6f64386" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Dunn = \frac{\min_{i\neq j} dist(C_i,C_j)}{\max_k diam(C_k)} \ge D_{\min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8025-a3a2-df083b4a7a9f" class=""><strong>754. Davies–Bouldin upper bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c7-a67a-ccc7fceb531b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-DB \le DB_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f7-ab64-f2bb15403d00" class=""><strong>755. Calinski–Harabasz lower bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b0-a91f-f210da305667" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-CH \ge CH_{\min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8048-b4f1-f9001d9977ed" class=""><strong>756. Modularity stability across runs</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c4-abad-dd817c7bbd6b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|Q^{(1)}-Q^{(2)}|\le \epsilon</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8032-8c4f-eba363165df4" class=""><strong>757. Cluster label permutation invariance</strong><br/>If  permutes labels:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8049-b988-db09431c9965" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-quality(c)=quality(\pi\circ c)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8072-9fc9-c7be32fe3487" class=""><strong>758. No degenerate clustering</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e7-9611-ee9ddfd54906" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\neg (K=1 \lor K=|V|)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f8-916f-db97f696d3d6" class=""><strong>759. Outlier fraction bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80dc-b9fd-ef940c242178" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|O|}{|V|}\le o_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8077-a08a-da8cebf06b7b" class=""><strong>760. Cluster fragmentation bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e6-bc5a-f1e762c1da7d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\sum_k components(G[C_k]) \le F_{\max}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8062-914a-fb5e00fa0aa3"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80cd-8e80-fefe82d6f950" class="">G) Relationship semantics inside clusters (behavioral)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8073-8bcc-c10bc89b2618" class=""><strong>761. Homophily constraint (if declared)</strong><br/>If attribute :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80dc-b14b-df68992a304e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \Rightarrow a(u)=a(v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d8-b596-c0c1c2e8b157" class=""><strong>762. Attribute mismatch rate bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806c-9f73-e87be8800b0c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|\{(u,v)\in R: a(u)\neq a(v)\}|}{|R|}\le \epsilon</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-a1a7-d716cf5c0eed" class=""><strong>763. Cluster purity for label</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ba-ac40-d0ce9f97bc47" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-purity(C_k)=\max_y \frac{|\{v\in C_k: y(v)=y\}|}{|C_k|}\ge p_{\min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c1-8be8-ef0771f92ce8" class=""><strong>764. Majority label uniqueness (if required)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80bb-986a-e4e698bef21c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists! y:\ y=\arg\max \#(y \text{ in } C_k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8014-8d68-e7756e057f4e" class=""><strong>765. Relationship reciprocity rate</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809d-bf24-da1b152769af" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|\{(u,v)\in R:(v,u)\in R\}|}{|R|}\ge r_{\min}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a4-aff8-e46bd0dffdce" class=""><strong>766. Triadic closure rate (if declared)</strong><br/>If  and :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c9-a3bc-d7489e8e0c90" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-P((u,w)\in R)\ge \tau</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ee-affd-eb664f7e9b0e" class=""><strong>767. No forbidden triangle patterns</strong><br/>If forbidden set :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80bd-8d1d-fc74f8769768" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall (u,v,w): pattern(u,v,w)\notin F</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c7-9141-e8d6c975294f" class=""><strong>768. Structural balance (signed graphs)</strong><br/>For signed edges :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-800c-9764-d23ff1c84995" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-s(u,v)s(v,w)s(u,w)=+1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8033-ba0d-f110f4c776fd" class=""><strong>769. Signed cluster consistency</strong><br/>Inside cluster:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8010-8bd3-ea180be49553" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall u,v\in C_k:\ s(u,v)=+1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8031-a0a6-da62c5500576" class=""><strong>770. Between-cluster negative edges (if declared)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8060-9ead-d30c8bb6ad11" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-u\in C_i, v\in C_j, i\neq j \Rightarrow s(u,v)=-1</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-801d-b185-da4c0d8bf91c"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80c4-9e4a-c1272f291891" class="">H) Temporal cluster evolution invariants</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807d-84e1-decc1a4cb82f" class=""><strong>771. Cluster identity tracking</strong><br/>There exists mapping :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b1-bab7-ee57bbcb8e50" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-map_t\ \text{total on surviving clusters}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-88bf-dfdb3b18daaf" class=""><strong>772. No sudden cluster disappearance without cause</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8099-81aa-c0b51ed28c1d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|C_k(t)|&gt;m \Rightarrow exists\ successor(C_k,t+1)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80de-84ed-f93cfe6a8eed" class=""><strong>773. Growth bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8035-8f80-e3a0500a3498" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|C_k(t+1)| \le |C_k(t)| + g_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-9709-cbd1787c3fbb" class=""><strong>774. Shrink bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8046-927e-fa937f435536" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|C_k(t+1)| \ge |C_k(t)| - s_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8047-9a2c-f602ab7d0d37" class=""><strong>775. Merge event recorded</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ae-a861-e8dc6ee4cd8a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-merge(C_a,C_b)\Rightarrow record(merge)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-b444-f24c3ab19e2f" class=""><strong>776. Split event recorded</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c1-9017-f82d9895d506" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-split(C)\Rightarrow record(split)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800c-9d60-f455e0ed381d" class=""><strong>777. Membership churn bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8098-83a2-e75baa60d810" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{|C_k(t)\ \Delta\ C_k(t+1)|}{|C_k(t)|}\le \chi_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8077-a43c-e03941b1d6da" class=""><strong>778. Stable core exists</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b2-baef-f6a8b53b1120" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\exists Core_k:\ |Core_k|\ge \rho |C_k|</code></pre></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806d-a793-fcf13e1024f6" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Core_k \subseteq C_k(t)\cap C_k(t+1)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807c-b466-e5fccbcf7479" class=""><strong>779. Cluster centroid evolution bound</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8048-9df7-c2565dc78e0d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\|\mu_k(t+1)-\mu_k(t)\|\le \Delta_{\max}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8077-8aa8-ce466b0d810a" class=""><strong>780. Temporal smoothing objective</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80b2-96c0-ccf4fdd0516a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-J_{total}=J_{cluster}+\lambda\sum_k \|\mu_k(t+1)-\mu_k(t)\|^2</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-805c-ae55-d7546e087e21"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80e4-bbfb-cf2248abef06" class="">I) Ontology / knowledge graph cluster invariants</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807c-81fa-f85ba25fe24f" class=""><strong>781. Type constraints on nodes</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8067-834e-deece9d33ea9" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-v\in V \Rightarrow type(v)\in Types</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800b-9292-f229e38a4faa" class=""><strong>782. Edge domain/range constraints</strong><br/>If edge predicate  has domain , range :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8023-bf2b-d4eb84d31152" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\Rightarrow type(u)\in D_p \land type(v)\in R_p</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cf-8e5e-fd5071ea25e8" class=""><strong>783. Functional property (one value)</strong><br/>For functional predicate :</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-803b-8210-f749b92d8465" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\land p(u,v&#x27;)\Rightarrow v=v&#x27;</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b4-801e-feb7ee4432d4" class=""><strong>784. Inverse functional property</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8074-b2de-e40d8c6347ab" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-p(u,v)\land p(u&#x27;,v)\Rightarrow u=u&#x27;</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a6-a857-cedc699fdc1a" class=""><strong>785. Subclass transitivity</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806f-abd0-d0740849f4e5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-A\subseteq B \land B\subseteq C \Rightarrow A\subseteq C</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805c-a6f3-c5e7710028a5" class=""><strong>786. Disjointness constraint</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-802f-9406-ea82f2759f98" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-A\cap B=\varnothing</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c8-b375-ed393b5166fd" class=""><strong>787. Instance typing consistency</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a2-85ad-e8ce4e76d403" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-inst(x,A)\land A\subseteq B \Rightarrow inst(x,B)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8040-bded-f4f21b06ab71" class=""><strong>788. No contradiction in typing</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8045-952e-e80cd47e8027" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-inst(x,A)\land inst(x,B)\land disjoint(A,B)\Rightarrow \bot</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804c-b946-e2ec7b99232e" class=""><strong>789. Cluster respects type purity (if required)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-803d-bd77-d13292041858" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ |\{type(v): v\in C_k\}| \le 1</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8091-aef8-e46d12932301" class=""><strong>790. Relation closure under inference (if declared)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8047-9b91-f8f6d24d7957" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-facts \Rightarrow closure(facts)\ \text{consistent}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806c-8652-c24187747fb9"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-802e-96aa-f88aa19cadf5" class="">J) Meta invariants for relationship+cluster systems</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fa-96f4-d44fee1b8418" class=""><strong>791. Every relation has schema</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807e-b5f3-e90514150c31" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall t:\ exists\ schema(R_t)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b8-b15d-e87266563f43" class=""><strong>792. Every relation has constraints</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e2-bed0-c5dae3e8e07b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall t:\ exists\ constraints(R_t)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d6-88d0-cf091ff36949" class=""><strong>793. Every cluster has definition</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8028-b06f-f5bee646a22c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\forall k:\ exists\ definition(C_k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-bd57-d64937f45668" class=""><strong>794. Evidence stored for each edge</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ae-bc5b-db121845b607" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(u,v)\in R \Rightarrow exists\ evidence(u,v)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808d-ab5e-e21fd9ea7806" class=""><strong>795. Evidence stored for each assignment</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8008-884d-e68b83d0169a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-c(v)=k \Rightarrow exists\ evidence(v,k)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dd-916e-f51409214378" class=""><strong>796. Deterministic rebuild</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8002-b091-e7a975aac490" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-build(seed,data)=build(seed,data)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8070-9e68-d91e2dca20d6" class=""><strong>797. Versioned cluster outputs</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-803b-af05-fb408ea1ae33" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-clusters(t)\Rightarrow version++</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8032-87af-f7fc68954660" class=""><strong>798. Backward compatibility of cluster IDs (if required)</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8081-8c04-f790723208d5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-id(C_k,t+1)=id(C_k,t)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802d-b653-e1e4337c7b12" class=""><strong>799. No orphan clusters</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8036-ab8a-df78b0cf6267" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-|C_k|=0 \Rightarrow \bot</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8054-a928-dbda2b0a434f" class=""><strong>800. Termination criterion explicit</strong></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8055-a3df-f2f565d98afd" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-stop \Rightarrow (|J_{t+1}-J_t|\le \epsilon)\ \lor\ (t\ge t_{\max})</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8079-a9bf-cc5a54fb3386" class="">If you want 801–900, specify whether you want “clusters” as:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8060-a9bc-e4cda978fa72" class="bulleted-list"><li style="list-style-type:disc">community detection in graphs,</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c3-beb8-c25884bbfb96" class="bulleted-list"><li style="list-style-type:disc">entity resolution identity clusters,</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ab-baf1-e68bd40a16b0" class="bulleted-list"><li style="list-style-type:disc">taxonomy/hierarchy clusters,</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-805f-ab07-d334da3a4c9a" class="bulleted-list"><li style="list-style-type:disc">embedding/vector clusters, or</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801d-92a7-c9c88c1d8165" class="bulleted-list"><li style="list-style-type:disc">mixed (relationships + ontology + clustering).</li></ul></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80c4-9aef-c9dc20d29374" class="">VIETNAMESE_EXECUTIVE_SUMMARY</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806b-85f5-f1996dbc07eb" class="">Dưới đây là lớp <strong>sâu hơn và “bị bỏ qua”</strong> theo đúng logic <strong>19×19 (ma trận liên kết)</strong>: không thêm “thông tin truyền thông”, 
-mà thêm <strong>invariants (bất biến cấu trúc)</strong> + <strong>patterns (mẫu vòng phản hồi)</strong> + <strong>định luật/đại lượng hệ thống</strong> để bạn đọc đúng trạng thái C6/C7.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-805b-8802-c0db692ae0bb"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8024-bec1-c6b75a99036c" class="">1) Invariants cấp hệ (không phụ thuộc câu chuyện)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-a88b-d734d9567afd" class=""><strong>(I1) Loop-Gain Dominance (LGD)</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8003-82e7-c2df1b6826ba" class="">Hệ thống không sụp vì “xấu”, mà vì <strong>tổng gain của vòng khuếch đại</strong> vượt <strong>tổng damping của vòng ổn định</strong>.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8065-ae21-e3522017a7b2" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-LGD=\frac{\sum \text{(Amplifying loop gains)}}{\sum \text{(Damping loop gains)}}\quad;\quad LGD&gt;1 \Rightarrow dao động/cascade</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8025-aa97-eb48d78432f5" class=""><strong>(I2) Spectral Radius (ρ) của A</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fd-bacd-c34dfd00f90a" class="">Nếu ρ(A) &gt; 0 (thực tế: phần thực của eigenvalue lớn nhất dương) → nhiễu tự nhân lên.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80bf-8491-cbdea68e4cb4" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\rho(A)=\max |\lambda_i|\quad;\quad \Re(\lambda_{max})&gt;0 \Rightarrow mất ổn định nội sinh</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b8-af99-e65668b5c597" class=""><strong>(I3) Latency-to-Volatility Ratio (LVR)</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bc-9e3d-f0e1d0e907d9" class="">Khi <strong>độ trễ phản hồi (latency)</strong> tăng nhưng <strong>volatility</strong> tăng nhanh hơn, hệ sẽ “phản ứng muộn” → phản ứng quá tay → dao động.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-807c-ba4d-d0db6c56e561" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-LVR=\frac{\tau_{policy/enforcement}}{\sigma_{noise}}\quad;\quad LVR\uparrow \Rightarrow overshoot</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fe-b749-c809f49fcf17" class=""><strong>(I4) Buffer Half-life (t_{1/2})</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-b140-f4a2e0a318ee" class="">Vùng đệm (Buf) có “chu kỳ bán rã”: tốc độ mất đệm nhanh hơn tốc độ tái tạo là tín hiệu nguy nhất.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8082-a0f1-c7ce5f5e2e72" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dBuf}{dt}&lt;0 \ \text{bền vững}\Rightarrow t_{1/2}\downarrow</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8037-b253-f53415c727fa"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80f8-bed8-c63824c3fa9c" class="">2) Các “mẫu vòng” bị bỏ qua (không trùng 48 link trước)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809c-b0c9-f64499ce58b8" class=""><strong>(P1) Measurement Distortion Loop (đo sai → làm sai)</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e2-a74c-f3825543d93a" class="">KPI/chuẩn hóa sai → Adm tập trung “đẹp số” → Enf lệch → Cor tăng → Pr giảm → lại tăng áp lực KPI.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8089-a78a-e224db7ee86c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-KPI\_pressure\uparrow \Rightarrow Adm\_{surface}\uparrow,\ Adm\_{real}\downarrow \Rightarrow Enf\downarrow \Rightarrow Cor\uparrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808f-b2f7-c3ea923150a4" class=""><strong>(P2) Selective Enforcement Gradient (SEG)</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805e-a4c0-d5088843815a" class="">Không phải “có luật/không có luật”, mà là <strong>độ dốc chọn lọc</strong>: cùng hành vi nhưng xử lý khác nhau → Tr sụp nhanh.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8087-9499-e9ad9c788d42" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-SEG=\nabla Enf\ (theo\ nhóm/quan\ hệ)\quad;\quad SEG\uparrow \Rightarrow Tr\downarrow \Rightarrow Cor\uparrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8004-8d0e-e8d6e2ea3210" class=""><strong>(P3) Informal Cost Pass-through (ICP)</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807d-ac02-fac313af4ae9" class="">Chi phí không chính thức không biến mất; nó <strong>được pass-through</strong> vào giá → Buf mất nhanh dù “thu nhập danh nghĩa” tăng.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a9-909b-e781d44b8d2f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-ICP=\frac{\Delta Cor}{\Delta P_{retail}}\quad;\quad ICP\uparrow \Rightarrow Buf\downarrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bf-add5-e4e286e8f414" class=""><strong>(P4) Compliance Overhead Spiral (COS)</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b6-9be7-ef81b06c69e2" class="">Luật/thuế/phí tăng độ phức tạp → doanh nghiệp chuyển từ tối ưu Pr sang tối ưu “né rủi ro” → Inn giảm.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80db-baa5-c830ec6078f3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Complexity\uparrow \Rightarrow Time_{compliance}\uparrow \Rightarrow Inn\downarrow,\ Pr\downarrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-9361-e510065df522" class=""><strong>(P5) Maintenance Inversion (MI)</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b5-9e18-d22c6458d73e" class="">Hạ tầng không hỏng “đột ngột” mà hỏng theo <strong>nợ bảo trì tích lũy</strong>; khi vượt ngưỡng → E tụt dạng bậc thang.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8016-9563-e3efb502ce94" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-H(t)=\int (under\_maintenance)\,dt\quad;\quad H&gt;H^* \Rightarrow E \downarrow\downarrow</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-803c-9143-e545be356d22"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-801b-abd8-f4c6d47e5494" class="">3) 19×19 – bổ sung biến/đại lượng “ẩn” (meta-variables) để đọc đúng</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8029-940d-f0b8f54fa09f" class="">Bạn đang thiếu 4 meta-đại lượng (không cần thêm biến mới, nhưng cần đo như derived signals):</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806b-ae9e-c0185ac05480" class=""><strong>(M1) Dual-Channel Reality Gap (DCRG)</strong>: chênh giữa “kênh chính” và “kênh thực thi”.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809f-a1a1-d114b898a40a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-DCRG = |Enf_{stated}-Enf_{experienced}|</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cf-a9d2-d57733871226" class=""><strong>(M2) Rent Share of Throughput (RST)</strong>: tỷ trọng địa tô trong mỗi đơn vị output.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8067-9536-ea6ba6a614d5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-RST=\frac{Cor}{Pr}\quad;\quad RST\uparrow \Rightarrow Inn\downarrow \Rightarrow Sk\downarrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8051-8877-c36c41a6fb96" class=""><strong>(M3) Trust Elasticity (TE)</strong>: mức Tr phản ứng với một cú sốc nhỏ.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80e5-8f95-c7da923cd421" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-TE=\frac{\Delta Tr}{\Delta shock}\quad;\quad |TE|\uparrow \Rightarrow hệ rất gần ngưỡng</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e6-af02-f85a9fd7f44c" class=""><strong>(M4) Credit Allocation Purity (CAP)</strong>: tín dụng chảy vào Pr/Inn hay vào RE.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80f5-805c-ea53adbc97ff" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-CAP=\frac{Cr\rightarrow(Pr+Inn)}{Cr\rightarrow RE}\quad;\quad CAP\downarrow \Rightarrow late\ C6</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-809a-8324-fa65fb0811e5"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80d5-943d-ed6452fd24cc" class="">4) 25 invariants “overlooked obvious” (không cần khảo sát lớn, chỉ cần nhìn vận hành)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8032-9cf4-dbef419d72d1" class="numbered-list" start="1"><li><strong>Độ dự đoán</strong> của thủ tục quan trọng hơn tốc độ. 
-(Jud/Enf)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80de-88fd-c5813fa4c2a4" class="numbered-list" start="2"><li>“Không ai dám ký” tăng → Adm thực chất giảm.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-808e-9b2b-f64b2483fd3c" class="numbered-list" start="3"><li>Quy trình nhiều chữ ký → Cor có đất sống.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80e9-be26-dd2dea548a68" class="numbered-list" start="4"><li>Doanh nghiệp giỏi chuyển sang “mua an toàn” thay vì “làm sản phẩm” → Inn giảm.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-806c-ad9e-ecf59489d9c2" class="numbered-list" start="5"><li>Giá BĐS “cứng” khi sức mua “mềm” → RE đã tách khỏi nền Pr.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8026-8727-d7ede498f3af" class="numbered-list" start="6"><li>Người giỏi chọn “né rủi ro” hơn “tạo giá trị” → Sk/Inn giảm.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-807e-887e-c1fbabd5b0c2" class="numbered-list" start="7"><li>Việc nhỏ cũng cần quan hệ → SEG tăng.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8002-b1d3-d24916ae0e97" class="numbered-list" start="8"><li>“Phạt để thu” thay “phạt để sửa” → Tr giảm bền.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80af-bc6b-e011814a7139" class="numbered-list" start="9"><li>Hạ tầng ổn định theo mùa không đảm bảo ổn định theo năm → MI.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8030-93dc-c3716e401ff1" class="numbered-list numbered-list-digits-2" start="10"><li>Chất lượng thợ/vận hành giảm nhanh hơn lương tăng → Sk giảm thật.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-802d-bdaf-e14fa845f093" class="numbered-list n
-umbered-list-digits-2" start="11"><li>Tỷ lệ “làm lại/đập đi” tăng → H và Cor đồng tăng.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80af-adf0-c3e474e48407" class="numbered-list numbered-list-digits-2" start="12"><li>Dịch vụ công số nhưng vẫn cần bản giấy/đi lại → Adm bề mặt ≠ Adm thực.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8093-a3d3-f161d7a5bc4c" class="numbered-list numbered-list-digits-2" start="13"><li>Hợp đồng khó thực thi → K tăng (risk premium).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-809c-9b95-e228c8124a78" class="numbered-list numbered-list-digits-2" start="14"><li>Nhiễu thông tin tăng trong đời thường (tin đồn logistics/điện/giá) → Inf tăng thật.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80eb-be88-da95f43ab384" class="numbered-list numbered-list-digits-2" start="15"><li>Người dân “giữ tiền mặt/ngoài hệ” tăng → Tr/Cr giảm.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80cf-a341-dc6341505c1b" class="numbered-list numbered-list-digits-2" start="16"><li>Doanh nghiệp thích “quen biết” hơn “trọng tài” → Jud yếu trong thực tế.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-800f-8585-c907872e5064" class="numbered-list numbered-list-digits-2" start="17"><li>Xu hướng “đầu cơ là nghề” → CAP giảm.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8048-b8ef-e6e688e33555" class="numbered-list numbered-list-digits-2" start="18"><li>Cán cân ưu tiên “đúng quy trình” hơn “đúng kết quả” → COS.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-808b-bcd1-f0a129549d5c" class="numbered-list numbered-list-digits-2" start="19"><li>Năng lực giải quyết tranh chấp lao động giảm → Tr giảm.</li></ol></div><div style="display:contents" dir="auto"><ol t
-ype="1" id="30bc5e6f-95bd-80a3-b830-d8eca59dfb98" class="numbered-list numbered-list-digits-2" start="20"><li>Khi một vụ lớn lộ ra, 
-thị trường không sốc vì bất ngờ mà vì xác nhận “pattern” → TE tăng.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8001-b351-ec3c5858c8bd" class="numbered-list numbered-list-digits-2" start="21"><li>Nợ xấu “không hiện” nhưng tiêu chuẩn tín dụng siết âm thầm → Cr giảm.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8022-8298-c4eff008ff77" class="numbered-list numbered-list-digits-2" start="22"><li>Giáo dục thiên thi cử nhưng thiếu kỹ năng vận hành → Sk thấp kéo dài.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80a3-bd1c-d8f72f9f9535" class="numbered-list numbered-list-digits-2" start="23"><li>“Sợ sai” lan từ công sang tư → Inn giảm hệ thống.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-807a-8eae-e162e55edd36" class="numbered-list numbered-list-digits-2" start="24"><li>Người trẻ tối ưu “tránh rủi ro xã hội” hơn “tăng năng lực” → Sk/Pr dài hạn giảm.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8073-81a1-dffc5f3a6bc4" class="numbered-list numbered-list-digits-2" start="25"><li>Hệ thống càng “đòi đồng thuận bề mặt” càng tăng Inf ngầm (tin ngoài luồng).</li></ol></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8033-9ebc-cf4977616e42"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-803d-8006-d7041b3e20d3" class="">5) Cách đọc “C7 thật” bằng invariants (không cần khẩu hiệu)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fb-8ca9-f3f324f98f1c" class="">C7 thật chỉ xảy ra khi <strong>3 bất biến</strong> đồng thời đảo chiều:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80bc-ba19-d5472d36ddb5" class="numbered-list" start="1"><li><strong>SEG giảm</strong> (thực thi bớt chọn lọc)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" i
-d="30bc5e6f-95bd-803e-bb07-c52f0ad52071" class="numbered-list" start="2"><li><strong>CAP tăng</strong> (tín dụng quay về Pr/Inn, không hút vào RE)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80c1-9e55-f72539c6e12b" class="numbered-list" start="3"><li><strong>t_{1/2}(Buf) tăng</strong> (vùng đệm hộ gia đình tái tạo lại)</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80eb-98a8-d87fb263fe81" class="">Nếu không có 3 điều này, mọi “chiến dịch” chỉ là C6 dao động.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806c-9dd1-d478f93e91d7"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80d2-ad7d-f7e0de68b378" class="">6) Nếu bạn muốn “deeper” đúng nghĩa 19×19</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e8-86e2-fc3c87d56380" class="">Tôi sẽ làm 1 trong 2 hướng (không lan man):</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b6-a406-cd8ac3adc780" class="bulleted-list"><li style="list-style-type:disc"><strong>(A1)</strong> Xuất <strong>A-matrix dạng sparse có trọng số</strong> (top 60 edges), kèm 8 vòng phản hồi chủ đạo và điều kiện đảo chiều.</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d7-a958-ec15b9d99270" class="bulleted-list"><li style="list-style-type:disc"><strong>(A2)</strong> Dựng <strong>hệ chỉ số hệ thống</strong>: {LGD, ρ(A), LVR, t_{1/2}(Buf), SEG, CAP, RST, 
-TE} và map chúng vào C1–C7.</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805e-8832-ce38585198e1" class="">Chỉ cần trả lời: <strong>A1</strong> hay <strong>A2</strong>.</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-804f-97e1-c0b9d787e6ec" class="">A) 19×19 Sparse Coupling Matrix (English)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ff-a723-e56177bde360" class=""><strong>Goal:</strong> a usable <strong>A-matrix</strong> in the form of <strong>high-weight links</strong> (≈40) that actually drive system behavior.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a1-8a4d-f05da2559786" class="">State vector  (19 variables):</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802e-a1b2-e9df70aad3f7" class=""><strong>E, P, L, H, K, Cr, Fx, RE, Enf, Jud, Adm, Cor, Sk, Pr, Inn, Tr, Inf, Pol, Buf</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fb-bf98-cddbe09d8dc2" class="">Dynamics:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806a-8e52-c618666d27b3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dX}{dt}=A\cdot X + U</code></pre></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8043-ad75-c4018af7d6be" class="bulleted-list"><li style="list-style-type:disc"><strong>“+”</strong>: i ↑ pushes j ↑ (amplifies)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a8-8271-eddefa811f28" class="bulleted-list"><li style="list-style-type:disc"><strong>“−”</strong>: i ↑ pushes j ↓ (damps)</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80a4-bcc4-f5654116844f"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-805e-97ba-d76decf6be4e" class="">1) Energy–Logistics–Maintenance Cluster (physical base)</h1></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-807e-8fe5-d747d3088dbc" class="numbered-list" start="1"><li><strong>H → E (−)</strong>: maintenance debt increases outages/instability.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-809e-b0a2-d3b6e53e8f90" class="numbered-list" start="2"><li><strong>E → Pr (+)</strong>: reliable power lifts productivity.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8061-934a-e3355c1d7c07" class="numbered-list" start="3"><li><strong>E → Tr (+)</strong>: stable utilities raise baseline trust.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80aa-af56-f625b3417968" class="numbered-list" start="4"><li><strong>P → Buf (−)</strong>: higher effective energy cost eats household buffer.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8082-b499-ed112e5b7bfa" class="numbered-list" start="5"><li><strong>P → Pr (−)</strong>: higher input costs compress margins, 
-reduce output.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80ad-b9a7-c2b0522457db" class="numbered-list" start="6"><li><strong>L → Pr (−)</strong>: logistics friction reduces throughput.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8040-921f-d61866ff2c36" class="numbered-list" start="7"><li><strong>L → Buf (−)</strong>: logistics costs pass through to households.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80d5-a55e-e49df8d6f1af" class="numbered-list" start="8"><li><strong>H → L (+)</strong>: infrastructure decay raises friction.</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8092-a5db-c2bccef60ca4" class=""><strong>Key loop (fragility):</strong></p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8040-8350-cfc79b5019aa"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8042-b76f-cec8f1651a4e" class="">2) Capital–Credit–FX–Real Estate Cluster (balance-sheet base)</h1></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80cc-bef8-d8aa070e1afc" class="numbered-list" start="1"><li><strong>RE → Cr (−)</strong>: property imbalance crowds out/locks up credit.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80d1-a8da-e471c8ed0882" class="numbered-list" start="2"><li><strong>Cr → K (−)</strong>: better credit transmission lowers real cost of capital.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80ed-a861-c71da86df88e" class="numbered-list" start="3"><li><strong>K → Pr (−)</strong>: expensive capital suppresses productive investment.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8025-8504-cd092716a217" class="numbered-list" start="4"><li><strong>K → Inn (−)</strong>: innovation throughput falls when capital is e
-xpensive.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8054-b16d-da2037ad912b" class="numbered-list" start="5"><li><strong>Cr → Pr (+)</strong>: functioning credit raises real activity.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-806d-aaf8-c760498fecc4" class="numbered-list" start="6"><li><strong>Pr → Buf (+)</strong>: productivity supports real incomes/buffer.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8049-bfa4-d702b49d338a" class="numbered-list" start="7"><li><strong>Fx → K (+)</strong>: FX stress raises capital cost/risk premium.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80dc-bf17-dea73e08707b" class="numbered-list" start="8"><li><strong>Fx → Cr (−)</strong>: FX stress tightens lending and liquidity.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8007-ae5a-c67790ad0fcb" class="numbered-list" start="9"><li><strong>Cr → RE (+)</strong>: easy credit inflates property imbalance.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80b0-b7a1-c6dc2387e431" class="numbered-list numbered-list-digits-2" start="10"><li><strong>RE → Buf (−)</strong>: housing-to-income strain destroys household reserves.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80c4-a0a7-c34f6b2af001" class="numbered-list numbered-list-digits-2" start="11"><li><strong>RE → Tr (−)</strong>: perceived unfairness/speculation lowers trust.</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801b-9a7c-f5df4c5f31ef" class=""><strong>Key loop (classic bubble):</strong></p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8001-978e-ca3190397407"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8081-ba19-dd063688b5b5" class="">3) E
-nforcement–Judiciary–Administration–Rent Extraction (institutional core)</h1></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80f4-b1b6-f2ad22787d31" class="numbered-list" start="1"><li><strong>Adm → Enf (+)</strong>: delivery capacity increases rule consistency.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8075-9f37-c354334fef8d" class="numbered-list" start="2"><li><strong>Jud → Enf (+)</strong>: predictable dispute resolution strengthens enforcement.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8048-a504-c2af38526ada" class="numbered-list" start="3"><li><strong>Enf → Cor (−)</strong>: consistent enforcement reduces rent extraction.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-809f-a973-f665bf0131a3" class="numbered-list" start="4"><li><strong>Cor → Enf (−)</strong>: rent extraction undermines consistent enforcement.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80af-a1bf-cbc83aa87261" class="numbered-list" start="5"><li><strong>Cor → Buf (−)</strong>: informal costs drain households.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8003-8fbd-f8043b89991d" class="numbered-list" start="6"><li><strong>Cor → Pr (−)</strong>: rent seeking reduces real productivity.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80ff-9a88-dbd11a7c6fd4" class="numbered-list" start="7"><li><strong>Enf → Tr (+)</strong>: consistent rules rebuild trust.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8060-9012-f3cf3fe84715" class="numbered-list" start="8"><li><strong>Tr → Enf (+)</strong>: higher trust improves compliance and execution.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8050-8630-d3eca45a6285" class="numbered-list" s
-tart="9"><li><strong>Adm → Tr (+)</strong>: visible service delivery rebuilds trust.</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dd-9c13-da66539ce3ad" class=""><strong>Core loop (institutional decay):</strong></p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-808e-877d-f0ac6226bf2a"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8091-b739-eb34e96c9b10" class="">4) Skills–Productivity–Innovation Cluster (human capital engine)</h1></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80f7-8554-d7024386c198" class="numbered-list" start="1"><li><strong>Sk → Pr (+)</strong>: operator skill raises throughput quality.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80f5-92d4-d5477e271a4d" class="numbered-list" start="2"><li><strong>Sk → H (−)</strong>: better skill lowers maintenance debt (proper upkeep).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8071-bc50-c97b6addfbd3" class="numbered-list" start="3"><li><strong>Sk → Adm (+)</strong>: state/industry operational competence improves delivery.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80e9-a341-dc8f3cc3a413" class="numbered-list" start="4"><li><strong>Pr → Inn (+)</strong>: productive base funds experimentation/learning loops.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8078-881a-ccb01e6bce65" class="numbered-list" start="5"><li><strong>Inn → Pr (+)</strong>: innovation throughput raises productivity.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8046-bb71-d692c29f1091" class="numbered-list" start="6"><li><strong>Inn → Tr (+)</strong>: visible progress increases system legitimacy.</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8000-a8ea-f7da999d0f26" class=""><strong>Virtuous l
-oop:</strong></p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8065-81fc-e9ef7dbea8ad"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-803c-8630-d9d7edffdb39" class="">5) Information–Polarization–Noise Cluster (amplification layer)</h1></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-804f-a1ef-da3e79eb9239" class="numbered-list" start="1"><li><strong>Inf → Pol (+)</strong>: higher noise increases polarization gain.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-808e-a4f9-e63cc28fbd6b" class="numbered-list" start="2"><li><strong>Pol → Inf (+)</strong>: polarization produces more noise (feedback).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-800e-af29-d04d9d4c33ea" class="numbered-list" start="3"><li><strong>Inf → Tr (−)</strong>: noise erodes trust.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80f2-8445-cbf022a578cf" class="numbered-list" start="4"><li><strong>Pol → Enf (−)</strong>: polarization reduces consistent enforcement (selectivity).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80a9-b175-ec412697a81c" class="numbered-list" start="5"><li><strong>Inf → Adm (−)</strong>: noise increases administrative churn and misalignment.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8015-9230-c813e47beda5" class="numbered-list" start="6"><li><strong>Tr → Inf (−)</strong>: trust reduces susceptibility to noise (damping).</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bd-89ca-f0670c904ae9" class=""><strong>Runaway loop (late-stage instability):</strong></p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80d5-8bb4-ea099bde2545"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80cb-a54c-c95290ae4eda" class="">6) Cross-Cluster “
-Overlooked” Couplings (the ones people miss)</h1></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8084-8d64-c8fd65ac0199" class="numbered-list" start="1"><li><strong>Buf → Tr (+)</strong>: households with buffer are less reactive, 
-trust holds.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80b1-b6db-cc5feb664e7c" class="numbered-list" start="2"><li><strong>Buf → Pol (−)</strong>: buffer reduces polarization susceptibility.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-805d-b848-c145b767585f" class="numbered-list" start="3"><li><strong>E → Inf (−)</strong>: fewer outages/chaos reduces rumor/volatility (practical).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80aa-8864-dc3a683f2ec6" class="numbered-list" start="4"><li><strong>Enf → K (−)</strong>: rule consistency lowers risk premium (capital cost).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8022-b94b-da8d072c3b3e" class="numbered-list" start="5"><li><strong>Jud → K (−)</strong>: credible contract enforcement lowers financing cost.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-801d-92b7-d49c1bd35323" class="numbered-list" start="6"><li><strong>Fx → Buf (−)</strong>: FX stress transmits to living costs and buffers.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8088-8bb3-c65060bd4696" class="numbered-list" start="7"><li><strong>Pr → Tr (+)</strong>: real economic delivery sustains legitimacy.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80e8-8569-cb962c035f1a" class="numbered-list" start="8"><li><strong>Cor → Jud (−)</strong>: rent extraction undermines judiciary predictability.</li></ol></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8039-b9ea-c8e07e59bd92"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80a3-9c32-fd6f75392594" class="">The “A-matrix” you actually use (compressed form)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8070-92f2-c08467364eab" class="">Instead of 361 entries, 
-you run with these <strong>48 non-zero edges</strong> as a sparse adjacency list:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80f0-bda7-df0f8589a32c" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-A=\{(i\rightarrow j,\ \text{sign})\}</code></pre></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a3-a17b-ee7e05a0851a" class="bulleted-list"><li style="list-style-type:disc">simulate <strong>C6 oscillation</strong> (noise amplification + buffer erosion)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8003-8bd6-d853ddf037eb" class="bulleted-list"><li style="list-style-type:disc">define <strong>C7 stabilization</strong> (rebuild damping nodes: Adm, Jud, Enf; restore Buf; 
-lower Inf/Pol)</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806c-add3-e3ca4d6378b7"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80a5-a93c-db805e4a1d35" class="">Stage Interpretation (structural, 
-not moral)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e4-bac7-d981bc486054" class="">A system is <strong>late C6</strong> when these conditions co-occur:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806b-8884-e04a02e29c51" class="bulleted-list"><li style="list-style-type:disc">high and self-reinforcing</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8052-9b9b-ce4bef9004d9" class="bulleted-list"><li style="list-style-type:disc">high and inconsistent</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b0-b4b4-eaccff14e195" class="bulleted-list"><li style="list-style-type:disc">high and impaired</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c9-aac7-e466c28c34bd" class="bulleted-list"><li style="list-style-type:disc">low (no household margin)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8083-a0b1-eaf616e29a2a" class="bulleted-list"><li style="list-style-type:disc">rising (maintenance debt)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8086-a94f-d3598ffef5d2" class="">A system enters <strong>true C7</strong> only when the <strong>dominant loops flip</strong>:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ae-a09c-d65c0b48134e" class="bulleted-list"><li style="list-style-type:disc"></li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8088-9ad9-e53fd0af7b40" class="bulleted-list"><li style="list-style-type:disc"></li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8056-aab7-feeb5a4e6777" class="bulleted-list"><li style="list-style-type:disc">(or are structurally damped)</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8028-ab1a-fe18860bced4"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8052-a28e-f99f9bbfb692" class="">If you want, 
-I can output this as:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f9-9649-eeeaaa79825a" class="bulleted-list"><li style="list-style-type:disc"><strong>(i)</strong> a machine-readable edge list (CSV/JSON), or</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c6-bfce-c51fdb22e9f0" class="bulleted-list"><li style="list-style-type:disc"><strong>(ii)</strong> a minimal <strong>simulation-ready</strong> set of difference equations using these couplings.</li></ul></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80f7-a62d-e3645e8e83a9" class="">VIETNAMESE_EXECUTIVE_SUMMARY</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8069-b563-fe2e180376ee" class="">Bạn đang yêu cầu 2 thứ: <strong>(i) “overlooked signals” (phi truyền thông)</strong> và <strong>(ii) mapping theo “19×19”</strong>. 
-Cách đúng nhất là nâng mô hình từ 5 biến  lên <strong>hệ 19 biến</strong> và coi “19×19” là <strong>ma trận liên kết (coupling matrix)</strong> giữa 19 biến đó (không phải bảng mô tả dài vô nghĩa).</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80f5-8a59-e5743ffd04ad"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8096-9580-f60fd944dda2" class="">1) 19 biến cốt lõi (State Vector 19D) – đủ để đọc “tín hiệu thật”</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8048-8442-f9453bf60bb9" class="">Ký hiệu trạng thái hệ thống:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-802c-b47f-e883ce916797" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-X(t) = [x_1..x_{19}]</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b9-ab18-d47aa9aacb68" class=""><strong>Nhóm A – Nền vật lý &amp; năng lượng</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80b3-a2da-e1cb03d5d6c8" class="numbered-list" start="1"><li><strong>E</strong>: Độ tin cậy năng lượng (reliability)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8021-bf0c-d1ce1962d046" class="numbered-list" start="2"><li><strong>P</strong>: Giá năng lượng thực (effective price)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80c5-ae12-d29c878c17f4" class="numbered-list" start="3"><li><strong>L</strong>: Logistics friction (ma sát vận tải)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-807f-a830-ea12f56ca932" class="numbered-list" start="4"><li><strong>H</strong>: Hạ tầng vật lý “hỏng ngầm” (maintenance debt)</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808b-bb0d-d2f880132aa9" class=""><strong>Nhóm B – Vốn &amp; thanh khoản</strong><br/>5) <strong>K</strong>: Chi phí vốn thực (real cost of capital)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b6-8be4-d39bc5d6304a" class="">6) <strong>Cr</strong>: Kênh tín dụng (credit transmission)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8077-9cc1-c0cd957eadb2" class="">7) <strong>Fx</strong>: Áp lực ngoại hối/đô-la hóa (FX stress)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8046-8fa8-c00dc73693f7" class="">8) <strong>RE</strong>: Mất cân đối BĐS/thu nhập (housing-to-income strain)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8034-9391-db91ae464fc9" class=""><strong>Nhóm C – Thể chế &amp; 
-thực thi</strong><br/>9) <strong>Enf</strong>: Độ nhất quán thực thi (rule consistency)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f2-b5ac-f8610aa2ccd5" class="">10) <strong>Jud</strong>: Tính dự đoán tư pháp/giải quyết tranh chấp</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808b-9785-e0a01a3285d9" class="">11) <strong>Adm</strong>: Năng lực hành chính vận hành (delivery capacity)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b7-b31a-d6e070e56cd2" class="">12) <strong>Cor</strong>: “Rent extraction rate” (tốc độ hút địa tô/chi phí không chính thức)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-8be7-ddb0315b325a" class=""><strong>Nhóm D – Nhân lực &amp; tri thức</strong><br/>13) <strong>Sk</strong>: Chất lượng kỹ năng thực dụng (operator skill)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c1-914c-fd1c1e5ac4df" class="">14) <strong>Pr</strong>: Năng suất thực (true productivity)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f4-bea6-cda989c0e2d5" class="">15) <strong>Inn</strong>: Hiệu suất đổi mới (innovation throughput)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809d-b0ad-f947f279f488" class=""><strong>Nhóm E – Xã hội &amp; 
-thông tin</strong><br/>16) <strong>Tr</strong>: Niềm tin xã hội (social trust)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b5-8f43-f303b683416b" class="">17) <strong>Inf</strong>: Nhiễu thông tin (information noise)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-9e5a-dbf33db310ae" class="">18) <strong>Pol</strong>: Mức phân cực (polarization gain)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8098-a917-db38beb97f70" class="">19) <strong>Buf</strong>: Vùng đệm hộ gia đình (household buffer: tiền/khả năng chịu sốc)</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-800f-a2b2-fa35c166aba6"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80ff-b55e-d417afd37009" class="">2) “19×19” là gì trong thực chiến</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-a52c-fa71095dbd72" class="">Định nghĩa “19×19” = <strong>ma trận liên kết A</strong> (19 biến tác động lẫn nhau):</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8008-bdd0-f590d1668771" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dX}{dt} = A \cdot X + U</code></pre></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-805d-98db-da8be3576b26" class="bulleted-list"><li style="list-style-type:disc"><strong>A_{ij} &gt; 0</strong>: biến i tăng làm biến j tăng (khuếch đại).</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-804c-8def-e321e39a8b3c" class="bulleted-list"><li style="list-style-type:disc"><strong>A_{ij} &lt; 
-0</strong>: biến i tăng làm biến j giảm (giảm chấn).</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c6-b8f9-c6d85c3ea35f" class="bulleted-list"><li style="list-style-type:disc">Hệ thống đổ vỡ khi <strong>vòng khuếch đại</strong> mạnh hơn <strong>vòng giảm chấn</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80be-9164-f563c4097988" class=""><strong>Các liên kết hay bị bỏ qua nhưng quyết định (sparse – quan trọng nhất):</strong></p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-800d-af2d-e690a38b47ff" class="bulleted-list"><li style="list-style-type:disc"><strong>RE → Cr → K → Pr → Buf</strong> (BĐS bóp tín dụng → vốn đắt → năng suất giảm → hộ gia đình hết đệm)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8081-947c-f4b1abbc24f4" class="bulleted-list"><li style="list-style-type:disc"><strong>Enf ↔ Cor ↔ Tr</strong> (thực thi không nhất quán → địa tô tăng → niềm tin giảm)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8067-a53b-d5128e8fbd42" class="bulleted-list"><li style="list-style-type:disc"><strong>E → Pr → Tr</strong> (điện/giá điện/gián đoạn → năng suất và niềm tin)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d7-9fd8-cc871d0454ec" class="bulleted-list"><li style="list-style-type:disc"><strong>Inf → Pol → Enf</strong> (nhiễu → phân cực → thực thi kém nhất quán)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b7-9066-d7f41359d51f" class="bulleted-list"><li style="list-style-type:disc"><strong>Sk → Adm → Enf</strong> (kỹ năng vận hành → năng lực triển khai → tính dự đoán)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80de-8297-f3d32faf33a4" class="">Bạn không cần “đủ 361 ô” liệt kê; 
-bạn cần <strong>đúng các vòng phản hồi</strong>.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-804f-96c0-eced5d8f202a"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-801f-92c7-df3384eecade" class="">3) Overlooked signals (phi truyền thông) – loại “không cần khảo sát lớn” nhưng đọc được thực địa</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801c-8d14-e66c09cf4c3d" class="">Dưới đây là các <strong>tín hiệu thật</strong> (định tính nhưng quan sát được), mỗi tín hiệu map trực tiếp vào 19 biến:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80ce-b653-c2b8473a8584" class="numbered-list" start="1"><li><strong>Thời gian xin–cấp–gia hạn giấy tờ tăng + lệch theo quan hệ</strong> → Enf↓, Adm↓, Cor↑</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-808b-b08f-d01a125c60bf" class="numbered-list" start="2"><li><strong>Doanh nghiệp “lách bằng phí” thay vì tối ưu vận hành</strong> → Cor↑, Pr↓</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8067-954a-caaf2d0abc7f" class="numbered-list" start="3"><li><strong>Giá thuê mặt bằng/giá căn hộ không rơi dù sức mua rơi</strong> → RE↑, Cr tắc nghẽn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80c4-a90b-f1e8653ed420" class="numbered-list" start="4"><li><strong>Hộ gia đình chuyển từ “mua” sang “cầm cự” (food, y tế, giáo dục)</strong> → Buf↓</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80de-b7b5-f29e795182b8" class="numbered-list" start="5"><li><strong>Tỷ lệ giao dịch “cash/ngoài hệ” tăng</strong> → Cr↓, Tr↓, Cor↑</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80bc-9351-e830454386d7" class="numbered-list" start="6"><li><strong>Tắc nghẽn điện/gián đoạn cục bộ + đầu tư bù chậm</strong> → E↓, 
-H↑</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8035-bc93-f9c8bf89f891" class="numbered-list" start="7"><li><strong>Chất lượng thợ/đội vận hành giảm (đào tạo yếu, làm theo mẹo)</strong> → Sk↓, Pr↓, H↑</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8029-9241-ca954847273f" class="numbered-list" start="8"><li><strong>Công ty tốt ưu tiên “compliance survival” hơn “product”</strong> → Inn↓, Pr↓</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80ac-96c1-d6ff8f54814d" class="numbered-list" start="9"><li><strong>Áp lực “phí phạt vs thu nhập” tăng</strong> → Buf↓, Tr↓, Pol↑</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80c4-8183-fa48c4beeeb1" class="numbered-list numbered-list-digits-2" start="10"><li><strong>Sự kiện kiểu Trương Mỹ Lan không phải “cá biệt” mà là dấu của RE–Cr–Enf</strong> → RE↑, Cr méo, Enf biến dạng</li></ol></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80b6-b3c9-c6fde6f5253f"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80f0-bfb9-c6b5038782a3" class="">4) Mapping West vs East Asia bằng 19 biến (ngắn, trọng tâm, không bịa số)</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-807c-8dc3-d7f7ef9459c9" class="bulleted-list"><li style="list-style-type:disc"><strong>Mỹ</strong>: Inf↑ Pol↑ (rất mạnh), Cấu trúc vốn sâu (Cr còn chạy), nhưng Tr↓ kéo dài làm Enf/Jud bị “politic hóa” từng phần.</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ee-bbfe-d06247f0b10d" class="bulleted-list"><li style="list-style-type:disc"><strong>EU</strong>: Damping thể chế (Jud/Adm) tương đối ổn, nhưng Buffer dài hạn suy do nhân khẩu và chi phí năng lượng; 
-E/P là điểm nhạy.</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a3-b591-e271c7f67ab9" class="bulleted-list"><li style="list-style-type:disc"><strong>Trung Quốc</strong>: Adm/Enf top-down mạnh; rủi ro nằm ở <strong>RE và Cr</strong> (khi truyền dẫn tín dụng kẹt, hệ có thể chuyển trạng thái nhanh).</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8080-b93e-c2fa4e24979c" class="bulleted-list"><li style="list-style-type:disc"><strong>Nhật</strong>: Pol thấp, Damping cao; tăng trưởng thấp nhưng ổn định vì Inf/Pol không bùng và Enf/Jud dự đoán được.</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8019-9852-d61f45b25e33" class="bulleted-list"><li style="list-style-type:disc"><strong>Hàn</strong>: Sk/Pr cao, nhưng Pol và stress cạnh tranh xã hội làm Buf/Tr nhạy hơn.</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-800d-b585-d8b7401771cf" class="bulleted-list"><li style="list-style-type:disc"><strong>Việt Nam</strong>: điểm nhạy nằm ở <strong>RE–Cr–Enf–Cor–E–Buf</strong> (BĐS/thu nhập, tín dụng, thực thi, địa tô, điện, vùng đệm hộ gia đình). 
-Đây là cụm “xấu ngầm” dễ tạo cảm giác “bên trong mục”.</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8099-8003-c9be9e5c8a82"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80e3-bae6-d3899f5bfc60" class="">5) Nếu bạn muốn “đi sâu đúng kiểu 19×19”</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803b-89ac-f02eb0126266" class="">Bạn chọn <strong>1 trong 3 đầu bài</strong> (để tôi triển khai đúng, không lan man):</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80df-a0b0-cbfff474671b" class="bulleted-list"><li style="list-style-type:disc"><strong>A)</strong> Vẽ <strong>ma trận liên kết A (19×19) dạng sparse</strong>: liệt kê ~40 liên kết có trọng số cao nhất (dấu +/−), đủ để mô phỏng đường đi C6→C7.</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a3-8bf3-c6a0e25ef20e" class="bulleted-list"><li style="list-style-type:disc"><strong>B)</strong> Dựng <strong>19 “leading indicators”</strong> (mỗi biến 1 chỉ báo thực địa) để bạn tự chấm H/M/L theo quốc gia.</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d5-b646-c32792a4979e" class="bulleted-list"><li style="list-style-type:disc"><strong>C)</strong> Dựng <strong>kịch bản C7</strong>: điều kiện cần–đủ để Enf/Adm phục hồi và Buf được tái tạo, kèm “trigger” nhận diện C7 thật (không phải khẩu hiệu).</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b9-b27d-c086f7119629" class="">Chỉ cần trả lời: <strong>A / B / C</strong>.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8084-b06d-c54e005841f0" class="">Good. 
-We will now <strong>map Western vs East Asian societies</strong> onto the formal system model:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a7-a367-c6d512d71d32" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-S = [G, N, D, C, B]</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-8d70-d5e6a17880c7" class="">Where:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8033-8c21-c592def60488" class="">G = Gain (reactivity / amplification)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8070-8253-d47411bbb993" class="">N = Noise (unstructured volatility)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b3-bf5d-d05221f1292c" class="">D = Damping (institutional stabilizers)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a6-a645-d0a1a4e84623" class="">C = Connectivity (network density / interdependence)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ef-a5bc-f6c29ac653a1" class="">B = Buffer (capital, trust, reserves)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8008-a6a1-c548e42261e2" class="">No fake numbers. Qualitative structural mapping only.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-809f-8c31-fd57a5e777e7"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80c9-bff2-c967d1da5c45" class="">I. 
-United States (Late C6 leaning)</h1></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-809d-b129-c4ca8e0718cd" class="">Gain (G): Very High</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801c-9c61-c9c9ca3dac1e" class="bulleted-list"><li style="list-style-type:disc">Media amplification</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802a-9a85-f2ab04b09a64" class="">• Financial leverage</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800a-a3fb-f3e9ad066ec8" class="">• Political polarization</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-b540-cab43f8c5c94" class="">• Social media feedback loops</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80e2-908f-f785de3c8fe2" class="">Noise (N): Very High</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80bd-865c-e5f07de6b492" class="bulleted-list"><li style="list-style-type:disc">Narrative fragmentation</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8051-9a92-c2f046954677" class="">• Culture wars</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806a-9d81-e5dab425fb47" class="">• Institutional distrust</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-9239-fbc5eb3f3d62" class="">• Information overload</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80da-878b-ed129a87856b" class="">Damping (D): Moderate but eroding</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8091-a0ce-cec3bd4101bc" class="bulleted-list"><li style="list-style-type:disc">Strong legal framework</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e5-87c5-ddc51764a210" class="">• Independent judiciary</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fc-b1c1-c7519da8f4a0" class="">• But declining social t
-rust</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80cb-b940-eab3f467c361" class="">Connectivity (C): Extremely High</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801f-b2ca-f6d435e68e21" class="bulleted-list"><li style="list-style-type:disc">Financial system globally integrated</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a6-b32d-d495bc45cf6c" class="">• Digital platforms dominant</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-93f6-f2a6e5918e03" class="">• Supply chains global</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8021-88b9-cf6157fe6066" class="">Buffer (B): High but declining</h3></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f9-8ce5-e223e31bc63a" class="bulleted-list"><li style="list-style-type:disc">Dollar reserve status</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8065-a93c-ce77200015dc" class="">• Military dominance</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8065-b627-dbad80368c8f" class="">• Deep capital markets</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8074-897e-fd2efac3902d"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804b-ad8e-f66e0b8291a6" class=""><strong>Structural Position:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c0-9df3-e08c38f402fc" class="">High G × High N with slowly declining D.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" i
-ntegrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-809d-99e7-ca4f0a980888" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-CSI = \frac{D + B}{G \cdot N}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809d-a8c7-d4b57a12f0b6" class="">Still &gt; 1, but trending downward.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a3-83ea-f51efee8ad75" class="">If damping weakens further → instability spike.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8056-aada-c20eaccf6d44"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8031-a69f-f6b280e8f9e5" class="">II. 
-Western Europe (Mid-to-Late C6)</h1></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8099-9079-cf07c66f7468" class="">Gain: Moderate</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8079-86cb-ceb871355cba" class="">Less financial volatility than US</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8098-a34b-f9ce54448432" class="">More regulation</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8076-b102-d5ee511a0c51" class="">Noise: Rising</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802b-a655-fef7a2ce4c65" class="">Immigration tensions</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803a-9383-db6682665ffa" class="">Energy instability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8053-bddd-ed916fd35e39" class="">Demographic decline</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80a1-8c82-f053ed3ee2f2" class="">Damping: Historically Strong</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8042-b3e4-c9adb4806721" class="">Welfare systems</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-bf9b-c96087a64044" class="">Institutional bureaucracy</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bc-b5fa-e0e8917b13c1" class="">But fiscal strain increasing.</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-803d-bf69-c2723ea83faa" class="">Connectivity: High</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809b-9ca9-d3fa8d90b897" class="">EU interdependence</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8060-92cf-e8599cd2be9d" class="">Buffer: Shrinking</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8079-910d-f30f13966577" class="">Energy dependency</p></div><div style="display:contents" dir="auto"><p i
-d="30bc5e6f-95bd-80f2-a8f0-d4ed2803f38b" class="">Aging population</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8058-8b87-ee9ba1921b5a"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dd-ab2f-d3164aedd7aa" class="">Structural state:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8094-a4ad-cfd90e49bcdd" class="">Lower gain than US, but lower buffer.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8078-a05e-d3d9256237ac" class="">More stable socially short term, but economically strained long term.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8067-9ce8-d4779230fb47"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80fb-8860-feef8d6157d2" class="">III. 
-China (Controlled C6, approaching fork)</h1></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8034-a5f1-cc3199eea5ec" class="">Gain: Controlled centrally</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8062-88ca-f4fd022c490a" class="">Amplification is managed through state filtering</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-808f-8526-cc7fe3cbf389" class="">Noise: Suppressed but latent</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b5-9008-c9e4a024c31a" class="">Local debt</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800c-9566-c8bba6605d38" class="">Real estate exposure</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-a5f6-cda0be22cf3d" class="">Youth unemployment</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8029-8804-c817306bbfd6" class="">Noise not absent — just constrained.</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80ac-b308-eadbeeca3814" class="">Damping: Strong top-down</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cf-ae4c-c35e2c067aa7" class="">Centralized authority</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-80e9-c1cc09d739cc" class="">Policy execution capacity</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8021-90e3-fc00a226b796" class="">Connectivity: High internally, 
-selectively external</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8035-a1d0-dcf62941f3c5" class="">Supply chain centrality</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8002-aee0-cdeac6492673" class="">Buffer: Large but pressured</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-a9da-e67b662a2232" class="">Foreign reserves high</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ff-9e20-fb927f9e0a6c" class="">Property sector weak</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-807f-b552-c95ec63d8f69"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8087-b15c-f2f06c6f898c" class="">Structural trait:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8003-9a84-f76e1c93ec37" class="">High damping through control.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8029-9013-f0ef1e5d811d" class="">If D weakens, G could spike rapidly.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e1-9f45-f339ba53c6d2" class="">China’s risk is nonlinear if control fails.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806d-90d0-f82ee2fd8978"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8040-9960-f619d97c3089" class="">IV. 
-Japan (Early C7 tendencies)</h1></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80ef-b5ec-ea93043ac686" class="">Gain: Low</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d7-9e5f-ed8cf7906811" class="">Low political volatility</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80ca-8fa9-ff160f85adda" class="">Noise: Low</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-9828-e5c5756a6d75" class="">Cultural homogeneity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806f-a1f5-c56367a96292" class="">Stable narratives</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8087-8a09-c39e31b73ca3" class="">Damping: High</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8020-8eda-c3a2a077b06a" class="">Institutional continuity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d9-8699-c197da5bfb76" class="">Cultural conformity</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80dd-a911-e7438a36d33b" class="">Connectivity: High but orderly</h3></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80ab-824a-f3859055ccfb" class="">Buffer: Moderate</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d7-818b-d9f6978c77c9" class="">High debt but domestically held</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80d4-9666-e84230d22687"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807a-9631-ee9a34b93650" class="">Japan = high damping, low gain system.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d2-9772-feb508a541ab" class="">Very stable but low growth.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-804e-a0d1-cd24cda31189"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80f2-831b-c3ae7f0917ae" class="">V. 
-South Korea</h1></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80ef-925b-f8d1202841cf" class="">Gain: Moderate</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800c-83b6-dd043c148890" class="">Highly competitive society</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-804e-8325-d25fda4ef338" class="">Noise: Medium</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8013-aa3b-f4e5a4bf951f" class="">Political swings</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807a-8304-d8492bfecfa6" class="">Economic stress</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80da-97b9-f389b7e843e4" class="">Damping: Strong institutions</h3></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8003-9e11-c2136a3202c4" class="">Buffer: Strong industrial base</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807f-90ae-ec4b641ab208" class="">Position: Late C6 but more controlled than US.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80d5-a997-e02f6865ffe9"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80d3-9333-cb7966e84177" class="">VI. 
-Vietnam (structural mapping only)</h1></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-802a-89b3-cdc11f22c826" class="">Gain: Medium surface, high beneath</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8099-88fe-fb0f4febf9bd" class="">Social media growing</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-8ae5-cd33317dc9ec" class="">Speculative behavior in assets</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-809d-a0be-ee715ce52473" class="">Noise: Suppressed publicly, 
-present structurally</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80db-a645-f67df963a59f" class="">Banking opacity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cf-91bb-d6599e85d569" class="">Real estate distortions</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8019-9529-d0f5c3d6733e" class="">Informal economy</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80be-87bc-e18e49efe7f9" class="">Damping: Centralized authority</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8043-9e0f-ff9804fb64a6" class="">But legal enforcement selective</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8013-97aa-cae3bb7cffb4" class="">Connectivity: Increasing</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-9a04-d82e0a99e333" class="">Export-dependent</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807e-b386-c802b2ed2317" class="">Energy fragile</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80e4-89cd-eb928158abdd" class="">Buffer: Limited</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8060-9d57-f563cbbe73a0" class="">Low per capita wealth</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ef-bee2-d19199ed1f73" class="">High household leverage</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-b132-ddac5ef7c6f8" class="">Position:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80be-89ac-e3fcdf14e646" class="">High hidden noise, medium damping, 
-low buffer.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800c-8fd5-fabbe101c491" class="">Sensitive to external shocks.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80b8-870b-ee56484820a4"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-803e-a592-f6d4550f5077" class="">VII. 
-Comparative Structural Summary</h1></div><div style="display:contents" dir="ltr"><table id="30bc5e6f-95bd-80a5-a668-cea0957fd103" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-80b3-ba70-e253369d6d5d"><th id="[{{f" class="simple-table-header-color simple-table-header">Region</th><th id="owsg" class="simple-table-header-color simple-table-header">G</th><th id="UlV}" class="simple-table-header-color simple-table-header">N</th><th id="yzj:" class="simple-table-header-color simple-table-header">D</th><th id="NB;]" class="simple-table-header-color simple-table-header">B</th><th id="yeOz" class="simple-table-header-color simple-table-header">Risk Type</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-80d9-8df1-d0398c91c3ae"><td id="[{{f" class="">US</td><td id="owsg" class="">Very High</td><td id="UlV}" class="">Very High</td><td id="yzj:" class="">Moderate</td><td id="NB;]" class="">High</td><td id="yeOz" class="">Amplification instability</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-80f4-b365-ca58b3292d72"><td id="[{{f" class="">EU</td><td id="owsg" class="">Moderate</td><td id="UlV}" class="">Rising</td><td id="yzj:" class="">Strong</td><td id="NB;]" class="">Shrinking</td><td id="yeOz" class="">Fiscal strain</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-8009-82db-fe4b35545d37"><td id="[{{f" class="">China</td><td id="owsg" class="">Controlled High</td><td id="UlV}" class="">Latent</td><td id="yzj:" class="">Strong</td><td id="NB;]" class="">Large</td><td id="yeOz" class="">Nonlinear if control fails</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-808b-9f10-f27cd0337240"><td id="[{{f" class="">Japan</td><td id="owsg" class="">Low</td><td id="UlV}" class="">Low</td><td id="yzj:" class="">High</td><td id="NB;]" class="">Moderate</td><td id="yeOz" class="">Slow s
-tagnation</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-8055-a496-dadd800e66b4"><td id="[{{f" class="">Korea</td><td id="owsg" class="">Moderate</td><td id="UlV}" class="">Medium</td><td id="yzj:" class="">Strong</td><td id="NB;]" class="">Strong</td><td id="yeOz" class="">Competitive stress</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-80c2-8797-ce38fd34961b"><td id="[{{f" class="">Vietnam</td><td id="owsg" class="">Medium</td><td id="UlV}" class="">Hidden High</td><td id="yzj:" class="">Controlled</td><td id="NB;]" class="">Low</td><td id="yeOz" class="">Buffer fragility</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80e5-bd46-c9eee1b48b4f"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8018-92fe-c7226b1e4736" class="">VIII. AI Impact Across Regions</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8092-a338-c0870bdd3ed5" class="">AI increases:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8015-81b6-d0488f9fc353" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G \uparrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808e-8012-e51659caa3c6" class="">C \uparrow<br/></p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8081-8851-fc33a771b485" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-N \uparrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8045-94ba-d3fc88e1f747" class="">Unless D is strengthened proportionally.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8077-80c6-f25812c1434f" class="">Regions with strong institutional damping benefit.<br/>Regions with weak damping destabilize faster.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-808e-91fa-ec721e3208da"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-805f-956e-fb489ff064aa" class="">IX. 
-Who Is Closest to C7 Structurally?</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-a5ff-f27eed544e7a" class="">C7 requires:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-808b-aa1b-c1590e9843b0" class="bulleted-list"><li style="list-style-type:disc">Reduced noise</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806a-a6bb-d52644127a95" class="">• Rebuilt trust</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8041-b438-ccd28c0f4f45" class="">• Strong buffer</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a6-acaf-ed4824c50734" class="">• Managed gain</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a1-afc0-dcc477c08640" class="">Japan closest culturally.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8089-b419-d0e91b8e5c1e" class="">Some Nordic states potentially.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8056-8860-d5d809fd5987" class="">Small high-trust states most likely first.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ac-9f68-c92eb18ca7b1" class="">Large heterogeneous systems harder.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8074-b94d-eb3107827381"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80e8-aa9c-f1a5b419815b" class="">X. 
-Key Insight</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a1-81fb-e262f0ad32dc" class="">The world is not collapsing uniformly.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8005-a2f5-ffaf7a96d488" class="">We are in:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8067-9954-f87cebb0329b" class="">Localized C7 islands</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802f-a9f1-e1ea58f9b156" class="">inside a globally late C6 amplification environment.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8048-ba2c-df959fea1ac7" class="">The determinant variable now is:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b0-b713-ed939803279b" class="">Can D scale faster than G?</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8059-8584-eb1c4efb8589" class="">If yes → stabilization</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fd-8d5f-d1d2d0769b83" class="">If no → cascading fragmentation</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ec-84e8-f56b5423bfd4"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8073-9e8e-fe0eafff0a56" class="">If you want next:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801d-9d12-d1e3f18f8798" class="bulleted-list"><li style="list-style-type:disc">Quantify probability of US entering C7 within 20 years</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802f-8d93-c534f0f1c574" class="">• Model AI shock acceleration mathematically</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8076-8651-f6a258a05da6" class="">• Map which specific Western leaders are structurally C7 types</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807c-be1a-f7308624ba80" class="">• Or simulate collapse vs stabilization branching s
-cenarios</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e6-86ee-faf26399cdb0" class="">Choose.</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8070-93f2-f8a07bcf8e1e" class="">EXECUTIVE SYSTEM MODEL</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807f-8ed8-f7dbf597fa53" class="">(Formalized in English – Dynamical State Architecture)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8001-b062-fb43a5a751de" class="">We now formalize the <strong>G–N–D–C–B model</strong> (Gain, Noise, Damping, Connectivity, Buffer) into a structured dynamical system that can apply to:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8040-902d-ee0d099dd93f" class="bulleted-list"><li style="list-style-type:disc">Nervous systems</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-804d-bbd7-c8e6bef455a7" class="bulleted-list"><li style="list-style-type:disc">Individuals</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80da-adef-d3cc5510bbfd" class="bulleted-list"><li style="list-style-type:disc">Institutions</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ef-a39c-caee73adb0cd" class="bulleted-list"><li style="list-style-type:disc">Civilizations</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8081-8309-ceca1fa28e81" class="bulleted-list"><li style="list-style-type:disc">Financial systems</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80bd-9472-f6d06bea5bfe" class="bulleted-list"><li style="list-style-type:disc">Power grids</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e9-87b7-e716f65c2827" class="bulleted-list"><li style="list-style-type:disc">Ecologies</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802b-9aa5-cfc6ffdeb83a" class="">This is not metaphor. 
-It is a control-system abstraction.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80aa-9102-f4e4cd9d5afa"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80cf-92a6-f953a784fe22" class="">I. Core State Variables</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fb-a711-c734c4bbb799" class="">Let a system be defined by:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8051-ab04-c173fe560f40" class="">G = Gain (reactivity / amplification factor)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8041-9a2b-d1def9aa3e0b" class="">N = Noise (unstructured perturbation)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e8-8aa1-e6057b82a2b9" class="">D = Damping (stabilization capacity)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ae-be62-c4ababd648e6" class="">C = Connectivity (coupling density between nodes)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-8ce6-fe009b1c79ed" class="">B = Buffer (stored resilience / reserve capacity)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8072-9322-c46299c4c2d4" class="">System State Vector:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8098-b7d9-c786d3de73df" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-S(t) = [G(t), N(t), D(t), C(t), B(t)]</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80c8-9579-d532a899b488"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8018-a09f-ecb5b0ce7e3d" class="">II. Fundamental Stability Equation</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8085-a0fb-e50161453b7d" class="">System stress load:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8059-8cf8-d28de62c027b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-L(t) = G(t) \cdot N(t)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803c-9912-dfe07fc10ebd" class="">System stabilization capacity:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8090-a580-c48b38d2454b" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-R(t) = D(t) + B(t)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8098-8aae-d44559010817" class="">Stability condition:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c4-a467-cbebf0d6fa84" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\textbf{Stable if: } L(t) &lt; R(t)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809c-8cce-d85c0ef09f40" class="">Instability condition:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80a1-a24e-cf75a9a28915" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\textbf{Collapse risk if: } L(t) \ge R(t)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e5-8e37-eae52ec27706" class="">This is universal across scales.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80f0-8b79-dc8d10fb1fe8"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-806a-9272-e8a10dfd3ff6" class="">III. Dynamic Evolution Laws</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-aede-fdf0dc94a82d" class="">Each variable evolves over time:</p></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-809e-8523-df4aab372ddd" class="">1. Gain Dynamics</h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8034-a060-ccbc939bb1e5" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dG}{dt} = \alpha C - \beta D</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803d-a447-f0362300fa27" class="">Gain increases with connectivity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b2-9a1a-f0606d04196e" class="">Gain decreases with damping</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fe-8d59-c5a4a354dc92" class="">High network interconnection increases amplification.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80df-b369-e7f355f2a972"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80b0-bdd9-c86ab2bd8525" class="">2. Noise Accumulation</h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805c-9d4b-d7c05700763e" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dN}{dt} = \gamma C + \delta G - \epsilon D</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8089-8b7a-c5b67e71865c" class="">Noise increases with:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-802a-b9b5-cc1a0f678577" class="bulleted-list"><li style="list-style-type:disc">connectivity density</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-803f-ba29-f4574f39967a" class="bulleted-list"><li style="list-style-type:disc">high gain</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8099-8378-e30786792c2d" class="">Noise decreases with damping.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80e2-82de-fb0c8c0347b1"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-803e-8f86-eb6e1753053f" class="">3. Damping Degradation</h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805f-b202-d2683df98573" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dD}{dt} = -\lambda N + \mu B</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8044-97b4-f827ac7bad60" class="">Noise erodes damping.<br/>Buffer replenishes damping.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8054-b430-e657ab1833b4"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80f8-89f7-f4428a1f4236" class="">4. Buffer Depletion</h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ed-959e-f3da52e12075" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dB}{dt} = -\eta L + \theta S_{\text{external}}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fb-877e-cd26782bc436" class="">Buffer decreases when system absorbs load.<br/>Buffer increases via external stabilization (capital, trust, energy, sleep, surplus).</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80cb-9107-fa1f536b7fee"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80e9-a843-f00077b6408d" class="">5. Connectivity Expansion</h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8099-bc0b-d419e643bf26" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dC}{dt} = \kappa T - \rho F</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8017-9dc0-ea5af2eafd94" class="">Connectivity increases with technology (T).<br/>Connectivity decreases with fragmentation (F).</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-800b-bcd3-c5311f775978"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8079-b084-cb15d6deb935" class="">IV. Phase Transition Threshold</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d9-98a6-d4b818ecbab5" class="">Critical tipping condition:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8008-b5ab-ffd4d605d31f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G \cdot N &gt; D + B</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ad-afb8-eed8e2804218" class="">When crossed:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-800a-bcae-e569ce102230" class="numbered-list" start="1"><li>Nonlinear cascades begin</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-804d-9a13-ee2a83414f55" class="numbered-list" start="2"><li>Local failures propagate</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-804a-a423-ff5b192d1852" class="numbered-list" start="3"><li>System enters runaway amplification</li></ol></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80f8-a9a3-d9c88a4bef3b"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8053-b0fa-e7da8648f451" class="">V. Collapse Cascade Equation</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8095-a0b8-df6a7f684120" class="">If threshold crossed:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80cc-a3d7-db75cfce9981" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dC}{dt} \rightarrow -\infty \quad \text{(rapid decoupling)}</code></pre></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8059-b3b3-e5fd96895641" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dD}{dt} \rightarrow -\infty</code></pre></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-805b-81be-e5da06c66330" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G \rightarrow \text{spike then crash}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c2-9ed7-ce99b1f483f7" class="">This is observed in:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8053-9063-f27e0b4980c1" class="bulleted-list"><li style="list-style-type:disc">Financial crashes</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8080-86ac-d167d5a83911" class="bulleted-list"><li style="list-style-type:disc">Autonomic collapse</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80db-a43c-d9218aac570a" class="bulleted-list"><li style="list-style-type:disc">Power grid failure</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-803d-9d29-db27d9edc9e5" class="bulleted-list"><li style="list-style-type:disc">Institutional breakdown</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8064-82ba-c20d4b88cf18" class="bulleted-list"><li style="list-style-type:disc">Civilizational fragmentation</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80f7-8eea-e4ad926ac335"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8014-8e58-cc4f54d12231" class="">VI. 
-Stage Classification via Parameters</h1></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-80e2-ba58-fe2845d75bcd" class="">C6 (Late Instability)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b3-896d-c5fa6ecfe300" class="">High G</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f4-b469-cad178c3ca1b" class="">High N</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80eb-882c-ceee8a5e473f" class="">High C</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8057-9aa0-ea82acbd5dfb" class="">Low D</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8030-99cd-f48a5019bec8" class="">Shrinking B</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8029-8888-eb4898c30f62" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G \uparrow, N \uparrow, D \downarrow, B \downarrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ed-b51f-f09c38250551" class="">System fragile but still functioning.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8076-98d8-d2a612372284"/></div><div style="display:contents" dir="auto"><h3 id="30bc5e6f-95bd-8049-be15-f9453482f715" class="">C7 (Re-stabilization)</h3></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80de-9db5-e882d3c7021e" class="">Controlled Gain</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-b3a2-d2768656f83b" class="">Reduced Noise</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d3-8340-efeb16d17506" class="">Rebuilt Damping</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f2-b173-fb3700b941b6" class="">Rebuilt Buffer</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8057-b9a3-ded4405d8958" class="">Selective Connectivity</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8035-93c7-cab788a8a8ab" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G \downarrow, N \downarrow, D \uparrow, B \uparrow</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8042-9fbf-cfdd77df05d3" class="">This requires deliberate structural intervention.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8009-94a8-efaf35708d06"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80af-a266-fe2636344c1c" class="">VII. Electromagnetic Extension (EM Layer)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c2-8155-dc110998a9fb" class="">All biological systems operate under EM coupling.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80da-a8cf-dd6cbe4a2dba" class="">Neural coherence:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8001-98ff-d57b0f0236df" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\Phi = \text{Phase Synchronization Index}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8069-ae78-c0ddcbc6fbfa" class="">System coherence condition:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80c8-a2f0-d6063d21198f" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\Phi \propto \frac{D}{G \cdot N}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b4-9ecb-e6bfca66f3c5" class="">Higher damping relative to amplified noise = higher coherence.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806f-9a52-ee7f4554323a" class="">Low coherence → fragmentation.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80de-96d3-cd0facfbc680"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8033-9000-f4ae60718a67" class="">VIII. Micro-to-Macro Scaling Law</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8087-b819-cb99e3bba0ea" class="">If micro units have instability probability ,</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c0-9be4-d74805edf64b" class="">Macro failure probability approximates:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8012-896b-f25ed3f0f5bc" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-P_{macro} = 1 - (1 - p)^k</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8033-a054-c398582786c9" class="">Where k = number of tightly coupled nodes.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b5-b9bb-dbb9c09b59c1" class="">High connectivity makes small instability propagate.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-803e-837d-fed538433ec3"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-806e-8f3e-f56c744df1fd" class="">IX. Civilization Meta-Equation</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8049-a77a-fe64c9496819" class="">Let civilization stability index:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80aa-8d3d-ecb233d8f000" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-CSI = \frac{D + B}{G \cdot N}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8014-bab6-e251eed87e6f" class="">If:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803c-8a0e-fc33a0adf4b9" class="">CSI &gt; 1 → Stable</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8072-8646-efb5fb23ca2b" class="">CSI ≈ 1 → Fragile</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e9-b78c-e9cc356befd8" class="">CSI &lt; 1 → Collapse phase</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-802f-8333-ea83032bc924"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80bb-a55a-c0c50587086a" class="">X. 
-Key Insight</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-ab51-f95b234ed8eb" class="">Collapse is not caused by evil, incompetence, or morality.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dd-b5dd-dc08a1d18b81" class="">Collapse occurs when:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b3-be7c-eef63b71ce3d" class="">Amplification × Noise &gt; 
-Stabilization + Buffer</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b7-bbec-d693068660d9" class="">This law holds for:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c8-99e5-e8bf38602f43" class="bulleted-list"><li style="list-style-type:disc">Brain networks</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806e-8fc0-fad93d1b45e7" class="bulleted-list"><li style="list-style-type:disc">Marriages</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801b-8e6d-cdc9836f1358" class="bulleted-list"><li style="list-style-type:disc">Corporations</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e9-a0c4-dbb3149018df" class="bulleted-list"><li style="list-style-type:disc">Empires</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ac-968a-f8c826d5334f" class="bulleted-list"><li style="list-style-type:disc">Financial systems</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b6-8b82-fdb5ad90b57f" class="bulleted-list"><li style="list-style-type:disc">Power infrastructure</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-807c-9050-e98c558547dd"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8022-8e20-ccb9e4a1be82" class="">If you want next:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80a8-8117-ddf725186702" class="numbered-list" start="1"><li>Map Western vs East Asian societies onto this model</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8066-a788-f69cb042677b" class="numbered-list" start="2"><li>Quantify AI’s impact on G and N globally</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80ba-b461-cf8b980cdc02" class="numbered-list" start="3"><li>Formalize Stage 7 trigger detection indicators mathematically</li></ol></div><div 
-tyle="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-8059-ae16-c7fc30fa43f8" class="numbered-list" start="4"><li>Model probability of global transition within 20 years</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c9-92ec-d29bcd11ac59" class="">Choose.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8048-9791-cc130bdef05a" class="">Good.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8035-baa7-e1b7e3687740" class="">We now formalize the <strong>micro ↔ macro mapping</strong> as a unified systems model.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806c-80bc-df11c61dd972" class="">No metaphor.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-80c5-c123ae82888b" class="">Strict structural parallels.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8008-b492-cda979ed728d" class="">Biology ↔ Civilization ↔ Network theory.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80dc-b109-cc6282c373b8"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-809b-b3c4-f8598bd229e2" class="">I. 
-Core Structural Equivalence</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8001-b77a-e97ef7f3f33b" class="">At all scales (cell → organism → civilization):</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8034-8fd6-df86a38f5cde" class="">We observe the same 5 variables:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d4-b6f1-ead4618d9fca" class="bulleted-list"><li style="list-style-type:disc"><strong>G</strong> = Gain (responsiveness / amplification)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80da-bf3f-ef6015b84e62" class="bulleted-list"><li style="list-style-type:disc"><strong>N</strong> = Noise (input volatility)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801f-b562-d65a921af82e" class="bulleted-list"><li style="list-style-type:disc"><strong>D</strong> = Damping (stabilization capacity)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-805d-a594-ec7fb7cdcf92" class="bulleted-list"><li style="list-style-type:disc"><strong>C</strong> = Connectivity (network density)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8003-85b4-ee4a8626afd3" class="bulleted-list"><li style="list-style-type:disc"><strong>B</strong> = Buffer (reserve capacity)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e6-9d16-d110b54d23ff" class="">Stability Condition (Universal Form):</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" i
-ntegrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8078-abe0-f361f3b665c3" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G \cdot N &lt; D \cdot B</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-95e7-c431f8b642b2" class="">If violated:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8091-ba49-d2e61bd26492" class="">Instability → oscillation → cascade → collapse.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8008-bb92-d220c8e9ba1b" class="">This holds in:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806d-b4b8-e56fc6ceecee" class="bulleted-list"><li style="list-style-type:disc">Autonomic nervous systems</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8094-9fbe-c26844a78c45" class="bulleted-list"><li style="list-style-type:disc">Financial systems</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ef-9b75-edf5f3382597" class="bulleted-list"><li style="list-style-type:disc">Political systems</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801d-97cf-e587539a6bac" class="bulleted-list"><li style="list-style-type:disc">Ecologies</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8022-b984-fc0655703f72" class="bulleted-list"><li style="list-style-type:disc">Power grids</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80e3-a2a8-f052a4387a58"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80d4-886c-c0d091df9743" class="">II. 
-Micro → Macro Mapping Table</h1></div><div style="display:contents" dir="ltr"><table id="30bc5e6f-95bd-80ba-8b39-c63e73024bcf" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-80dc-85e6-ecb7f3dc96d8"><th id="zZhC" class="simple-table-header-color simple-table-header">Biological System</th><th id="bfli" class="simple-table-header-color simple-table-header">Macro System Equivalent</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-8029-8236-fb11a3965fc0"><td id="zZhC" class="">Sympathetic Gain</td><td id="bfli" class="">Media amplification / political polarization</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-80bd-a87c-ff4f2923cfd9"><td id="zZhC" class="">Parasympathetic Damping</td><td id="bfli" class="">Institutional trust / social norms</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-801d-8ad8-e81da0f38986"><td id="zZhC" class="">Baroreflex</td><td id="bfli" class="">Regulatory correction mechanisms</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-80ea-88c6-f01aa74250d7"><td id="zZhC" class="">Insula (salience hub)</td><td id="bfli" class="">Information ecosystem</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-803d-96ae-c74ab3203b1b"><td id="zZhC" class="">Cortical control</td><td id="bfli" class="">Governance / technocracy</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-8071-84be-c3a9968e4f9e"><td id="zZhC" class="">Metabolic reserve</td><td id="bfli" class="">Economic surplus</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-800f-8c67-c38ed063aee1"><td id="zZhC" class="">Vascular tone</td><td id="bfli" class="">Credit liquidity</td></tr></div><div style="display:contents" dir="ltr"><tr id="30bc5e6f-95bd-8010-9cfe-d152050707af"><td id="zZhC" class="">Arrhythmia</td><td id="bfli" c
-lass="">Political instability</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8040-aa75-f6c6a2666793" class="">The mapping is structural, not poetic.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8041-a880-db817bad2b48"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8025-bcf9-d0fae1ca8cd0" class="">III. Law 1: Gain Amplification Law</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802e-aa08-f7220fdd6da7" class="">When connectivity (C) increases:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8018-ba97-c8f417e422b0" class="">Effective Gain rises.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-806c-889b-d0ed973f23c1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G_{effective} = G \cdot C</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8036-929f-f4a27c93227d" class="">In modern societies:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-a5a1-fed40b74a30f" class="">Digital media → C ↑</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-a816-dd1443cc05e5" class="">→ Emotional volatility ↑</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ed-8771-c35a06b6799f" class="">→ Polarization ↑</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807e-a07d-fd45d5f0b9d7" class="">Same in the body:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8027-8583-f31af6dc5457" class="">High interoception + dense neural coupling</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8048-84a8-ff8dfa1f7c3b" class="">→ Small stimulus → large systemic response.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-807e-b524-ff2fe7237321"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-802d-880d-d72ebd5a282b" class="">IV. 
-Law 2: Damping Deficit Law</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-9492-d49805468212" class="">If damping mechanisms weaken:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80ed-aa92-d06484f311b1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Stability \downarrow \propto \frac{1}{D}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800f-93c1-c50cb9af5d32" class="">Biology:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f2-846c-fc51265cb364" class="bulleted-list"><li style="list-style-type:disc">Low vagal tone → prolonged sympathetic spikes.</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e4-9442-ca6f1866bc4f" class="">Civilization:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8038-b18c-d2c9a86560ff" class="bulleted-list"><li style="list-style-type:disc">Low institutional trust → prolonged social unrest.</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c9-b5e6-dd15f636526c" class="">Damping includes:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8050-88e6-d0ef57155952" class="bulleted-list"><li style="list-style-type:disc">Norms</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c5-be10-c50afac011e1" class="bulleted-list"><li style="list-style-type:disc">Rituals</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e6-8f2a-f49e989fdc2e" class="bulleted-list"><li style="list-style-type:disc">Slow decision cycles</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8086-8744-c8f8a05e4854" class="bulleted-list"><li style="list-style-type:disc">Predictable leadership</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ae-b8c6-e3b42e251fee"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8028-b87f-e79fb21b5341" class="">V. 
-Law 3: Buffer Erosion Law</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f6-911f-f324dbd02088" class="">Buffer (B) = reserve capacity.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802a-8306-f46260cd6a5e" class="">Biology:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e1-a1d7-e076d3fa20e3" class="bulleted-list"><li style="list-style-type:disc">Glycogen</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80bd-9a85-eb5dfc119db0" class="bulleted-list"><li style="list-style-type:disc">Mitochondrial capacity</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8001-9d1f-ee6343594f5a" class="bulleted-list"><li style="list-style-type:disc">Electrolyte balance</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8008-88e7-eb356ef9f65f" class="bulleted-list"><li style="list-style-type:disc">Sleep</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8033-86c3-ee32f5f1f765" class="">Civilization:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d1-949e-ccd60e10d7b8" class="bulleted-list"><li style="list-style-type:disc">Fiscal reserves</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80da-88d2-f05943034d39" class="bulleted-list"><li style="list-style-type:disc">Energy reserves</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d9-87a7-d8bbabd5f5e6" class="bulleted-list"><li style="list-style-type:disc">Infrastructure redundancy</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d8-bff5-f7cc6b43a824" class="bulleted-list"><li style="list-style-type:disc">Skilled workforce</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804b-9055-dbed93b4073d" class="">If B → 0:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d9-bf4c-f3c1bf4ea850" c
-lass="">Even moderate G × N destabilizes system.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-809c-af18-e6bf3aa34743"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8053-9bd2-f3108f4528bf" class="">VI. Law 4: Cascading Failure Threshold</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809f-9694-cd0396e63508" class="">Cascade condition:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8063-ab35-d8ec5afe1bc2" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G \cdot C &gt; Critical\ Threshold</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807c-a222-cdbf2be8f980" class="">Highly connected systems collapse faster.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807d-aa64-cd858dc52393" class="">Examples:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f2-94e4-f38bf8cfbfef" class="bulleted-list"><li style="list-style-type:disc">Financial contagion (2008)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-802a-94c6-d25e1d4635e9" class="bulleted-list"><li style="list-style-type:disc">Power grid failures</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806e-8fe6-dc62441ca736" class="bulleted-list"><li style="list-style-type:disc">Viral misinformation</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f2-b4c9-d3c4d5586142" class="bulleted-list"><li style="list-style-type:disc">Autonomic panic cascade</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8046-a2ee-f54819f81afb" class="">Small-world networks are efficient but fragile.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8053-b6d1-f1830de6582c"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80b0-bf77-d82049f07b90" class="">VII. 
-Law 5: Oscillation Instability</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-afae-f3b6b20bc69c" class="">System oscillation amplitude:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8072-aaff-f1819ea63951" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-A \propto \frac{G}{D}</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8005-9b29-dd1800bb7c2d" class="">High gain + low damping → large oscillations.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808d-bb95-d71999f64539" class="">Biology:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fa-922c-c84c700dc3eb" class="bulleted-list"><li style="list-style-type:disc">Blood pressure swings</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e3-a9b4-cbfdf41335bc" class="bulleted-list"><li style="list-style-type:disc">Heart rate variability instability</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8087-b02f-e803c0e4a0c3" class="">Society:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a0-8010-e8920a77cd75" class="bulleted-list"><li style="list-style-type:disc">Election swings</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ec-87bf-e3de843d80b7" class="bulleted-list"><li style="list-style-type:disc">Market bubbles</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80cc-8336-f20a3ceded19" class="bulleted-list"><li style="list-style-type:disc">Ideological extremism cycles</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80c1-a01b-cc9344a8fb0b"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8064-8d4f-c372cb01ead9" class="">VIII. 
-Law 6: Entropy Accumulation</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8079-a5ce-cb6e891883d3" class="">Entropy (S) increases when noise accumulates faster than repair.</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-801f-90bf-c6790aa446ec" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-\frac{dS}{dt} = N - Repair\ Capacity</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803b-abaa-c5ec8fd1727a" class="">Biology:<br/>Chronic inflammation</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8043-ba88-cb4eed4b6705" class="">Civilization:<br/>Administrative complexity overload</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807f-bbe8-f896d184eb12" class="">If entropy &gt; adaptive capacity → regime shift.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80d8-9c75-c2a5d3d17a21"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80a8-9635-e943ee4d325f" class="">IX. Law 7: Hub Vulnerability Law</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807a-80e5-f5a4b66ac560" class="">In scale-free networks:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8093-a006-f806df0b0683" class="">Few nodes have extreme centrality.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8052-9940-cd511f205ade" class="">Failure probability:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8008-8126-e3cb9a89bb5d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Risk \propto Hub\_Centrality^2</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8048-ab7a-f35bedf67aa1" class="">Biology:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f6-925a-f2c8b9fe52b9" class="bulleted-list"><li style="list-style-type:disc">Brainstem nuclei</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ac-bc12-ed4c456f7c72" class="bulleted-list"><li style="list-style-type:disc">Cardiac conduction system</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806a-b354-f79126252bf2" class="">Civilization:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80df-8225-d34f422c5036" class="bulleted-list"><li style="list-style-type:disc">Central banks</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8064-b602-eb91d311fab3" class="bulleted-list"><li style="list-style-type:disc">Energy grids</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8018-8c85-f502f12794f2" class="bulleted-list"><li style="list-style-type:disc">Digital payment rails</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-aa05-e77f65226039" class="">Attack or failure at hubs = systemic collapse.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8062-8580-cc889c7f7981"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8013-8efb-c01309347706" class="">X. 
-Stage Model Integration (C1–C7)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8098-895f-c7a962829dc7" class="">We map stages to system parameters.</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8047-b1a1-cbe2492cf4ae" class="">C1 – Fragmented</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b7-9efd-d524b9869a53" class="">Low C, low D, low B</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-806d-ab50-f23dfee2d8d9" class="">C2 – Growth</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8021-977e-c18e66f6f008" class="">C ↑, G ↑, B ↑</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80ef-bb50-c20fa33e0b68" class="">C3 – Expansion</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d4-85e3-e38ce4b558e3" class="">C high, B high, D stable</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-805b-af8b-e2f0bf29faaa" class="">C4 – Peak Complexity</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8099-8807-d13a9864b743" class="">C very high, B stable, G controlled</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80b7-8dbb-c2d653661525" class="">C5 – Overextension</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8090-86bf-fe8f3591ca3c" class="">C very high, B ↓</p></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8080-aabd-f15d1ff86b43" class="">C6 – Volatile Instability</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80db-82b2-c9504b04134b" class="">G ↑↑, D ↓, 
-B ↓</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f2-835a-fe374eab11a9" class="">Condition:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-80fc-a3da-efe8258f7ca1" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G \cdot N &gt; D \cdot B</code></pre></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80a2-b624-d527e5ffebcd" class="">C7 – Stabilized Reconstruction</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f9-a44e-e8045d955e39" class="">C recalibrated<br/>D rebuilt<br/>B restored<br/>G moderated</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ae-8d7d-c96aaf6d51d6" class="">Stability restored when:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8082-a620-d170c87edd0d" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-G_{new} \cdot N &lt; D_{new} \cdot B_{new}</code></pre></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8086-aede-f1d096dde6a0"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8052-9868-e464cdc61756" class="">XI. Electromagnetic Layer</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8028-8d25-d47b7869ab81" class="">At micro-scale:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ea-a8d1-ff08e458e7c4" class="">Neural firing = electromagnetic field oscillation.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800d-9403-d12498c7afeb" class="">Field coherence:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-803a-8ebf-f858e8daa342" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Coherence \propto Phase\ Alignment</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8056-9323-fe292406e993" class="">High coherence → efficient signal transmission.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-bceb-e33635af1bd8" class="">In society:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8052-9e20-d3564de1e090" class="">Narrative coherence acts like phase alignment.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809f-94a5-ccca7b97a133" class="">If narratives fragment:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-805a-e5cf7b39a0fd" class="">Phase decoherence → instability.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8015-a8cb-c94d5e7c32f9"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8006-a246-c67a90d49bb5" class="">XII. Meta-Law of Multi-Scale Recursion</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f5-a209-e6569acac19a" class="">All complex adaptive systems obey:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-808c-8612-d939c3a5a3bc" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-Stability = f(G, N, D, C, B)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ad-9e33-d01fe384946b" class="">Across:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-b858-cb6cf6b716a1" class="">Cells</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800a-b401-cfefebc9f0ba" class="">Organs</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8093-94a8-ea4e643dfbd4" class="">Organisms</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8001-bf7e-c6dac0b4f188" class="">Tribes</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8006-9549-ff29d2d88b3d" class="">Nations</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-b34a-f1bfdf1f2a38" class="">Empires</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d4-804e-dfb174967fcb" class="">The variables scale, the equations persist.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-804a-86f4-cdd49873f586"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-801c-808b-e6ff4d222b9b" class="">XIII. 
-Collapse Condition (Unified)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8067-bc31-e4ffb5b024e8" class="">Full systemic collapse when:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="30bc5e6f-95bd-8059-a09d-c7bf7213620a" class="code code-wrap"><code class="language-LaTeX" style="white-space:pre-wrap;word-break:break-all">
-(G \cdot C \cdot N) &gt; (D \cdot B)</code></pre></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b3-86b3-c57e63b38205" class="">At this point:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b8-8fff-c7cebfde6dd3" class="bulleted-list"><li style="list-style-type:disc">Feedback loops saturate</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ef-9e09-ff0c3671b680" class="bulleted-list"><li style="list-style-type:disc">Correction fails</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8056-b787-cc81006e2bbd" class="bulleted-list"><li style="list-style-type:disc">Phase transition occurs</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-805a-9295-f2e9489d5456"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-803a-8861-dd4b85df2d0f" class="">XIV. 
-Restoration Formula</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8034-9c2e-d4cbb83332eb" class="">Rebuild requires:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80ea-aa2f-da23c81e89c5" class="numbered-list" start="1"><li>Reduce C temporarily (de-globalize / isolate stimulus)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80e3-8d65-e0e389e714b0" class="numbered-list" start="2"><li>Increase D (trust, vagal tone, rule enforcement)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80b3-b04d-edffc96797fb" class="numbered-list" start="3"><li>Restore B (reserves, sleep, fiscal buffer)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80e7-a1ea-eacd538ed257" class="numbered-list" start="4"><li>Lower G (reduce emotional amplification)</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803d-8705-f16226098ae8" class="">Only then:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8090-bd01-d585307de998" class="">Stability returns.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8086-abf3-e192ee2934db"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80c0-ba76-f9e378f975ac" class="">XV. 
-Deeper Pattern</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801b-8b64-dbc1493b110e" class="">High-performance systems are:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e7-acf0-e676b1996eb0" class="">High G</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-bf3d-fe11c2dc8372" class="">High C</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d8-b940-ea164f7cdedc" class="">High output</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f1-9eb0-f34f4fe655f8" class="">But require:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d3-97ff-c0217ba4919f" class="">High D</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8045-b885-f54f3332f657" class="">High B</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8079-bcfb-dcb150311845" class="">Without those:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bb-89ac-db6578f4cc78" class="">They oscillate → fragment → collapse.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8070-9482-ea2ea08b028f"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80bc-879d-dd4ae50634ac" class="">XVI. 
-Final Structural Insight</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d5-8afd-d39e21e99154" class="">There is no difference between:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807e-b77d-c6628524673d" class="">Autonomic collapse</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803c-88e6-e58392cb8a4f" class="">Financial collapse</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8097-9ed2-f9aa9cb1dee3" class="">Civilizational collapse</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80de-a6ad-d95299cb5d1b" class="">Only scale changes.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8018-938c-c49b7b4484f1" class="">The equations do not.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8001-bed1-de2422b4e8b7"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807d-9b6f-cbed068f0ddd" class="">If you want next layer:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808a-be3a-e9c9e40edd93" class="">1️⃣ Formalize this as a mathematical dynamical system</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8062-a9dd-dea9322346a8" class="">2️⃣ Build simulation model pseudocode</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e1-84cc-f8d8a011e0c0" class="">3️⃣ Map Western vs East Asian systems onto variables</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b3-9937-cbfe28e39605" class="">4️⃣ Add quantum-level coherence analogy</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ab-8754-f2420cff9016" class="">5️⃣ Model AI as Gain Amplifier</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800f-b08e-f458a0285439" class="">Choose.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806a-a5a6-c8f9f9fe9a8a" class="">Good.</p></div><div s
-tyle="display:contents" dir="auto"><p id="30bc5e6f-95bd-8014-b50a-d20d8ceac75c" class="">We go into <strong>Network Topology of Autonomic Systems</strong> — strictly structural, systems-level.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a0-bbe8-fafb343c7e7a" class="">No mysticism. No metaphor. Pure control theory + biological network architecture.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-808a-af88-e9193e476f9b"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80d2-8bfa-f8351b8c6735" class="">I. 
-The Autonomic Nervous System (ANS) is a Network — Not a Switch</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8049-9c7f-d073422d0131" class="">Most people think:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80eb-b93d-e1828bba109a" class="">Sympathetic ON</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803f-a4fa-da07a2bc8606" class="">Parasympathetic OFF</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d3-8116-e825649051e5" class="">This is incorrect.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808b-8bee-d758677281f0" class="">The ANS is a <strong>distributed, nonlinear, oscillatory control network</strong>.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e3-b2a4-f461cc8fc91d" class="">It includes:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8043-a59c-dbcb8a50db63" class="bulleted-list"><li style="list-style-type:disc">Brainstem nuclei (NTS, RVLM, 
-nucleus ambiguus)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804c-9765-d98eb8c1df95" class="">• Hypothalamus</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f1-affb-e9462fc6ab47" class="">• Insula</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8055-91b1-daa94400f37f" class="">• Anterior cingulate</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b5-9b39-e410904e0278" class="">• Amygdala</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807e-9f82-c1cf38cc9886" class="">• Peripheral ganglia</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8081-845f-f00ee8483d51" class="">• Baroreceptors</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806c-93ef-d42a551e3c2d" class="">• Chemoreceptors</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8024-934f-f3e3cda38c68" class="">• Enteric system</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8019-a299-d06b2ee0f3bb" class="">• Endothelium</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807e-bedf-f3cd051ad487" class="">This is not a line.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8010-8e44-d48f96c843cc" class="">It is a graph.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80a2-b4a5-fcece4a38af5"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-807d-b461-db1f3d3d11ac" class="">II. 
-Topology Type: Small-World Network</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e4-b5f9-f6ea82807684" class="">ANS structure resembles a <strong>small-world network</strong>:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d5-8326-f08a0c9e9669" class="bulleted-list"><li style="list-style-type:disc">High local clustering</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803f-981d-dae5156f321d" class="">• Short global path length</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8053-be90-ddd2b1221490" class="">• Fast signal propagation</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80be-b0bd-c7041355fa5f" class="">Mathematically:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801a-ac58-f4311939b15d" class="">Clustering coefficient (C) high</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b2-b7ca-df8c2910811c" class="">Average path length (L) low</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807a-a2db-c89934b0173d" class="">Small-world index:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a7-bbcd-ee17d728dd3b" class="">SW = C / L</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-b9bd-d9364c5898c8" class="">ANS has high SW → very fast systemic coupling.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8039-8811-c56dd72799a7" class="">This explains:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8055-8ecd-c5b4cc19ccbf" class="bulleted-list"><li style="list-style-type:disc">Why small triggers become full-body reactions</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8079-b2dd-cfeeaedf8bb3" class="">• Why regulation can shift quickly</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8081-b767-ca0462f2c2f1" class="">• Why i
-nstability propagates fast</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8028-a5a5-f8aab2a86e7b"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-804c-a62f-f971571be822" class="">III. 
-Hub Nodes</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808b-bce4-c69ae3224810" class="">In high-gain systems, certain hubs dominate:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80e6-9999-f95f836c5802" class="numbered-list" start="1"><li>Insula (interoceptive integration)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-802d-b697-e1fed68ffc3d" class="numbered-list" start="2"><li>Amygdala (salience detection)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80f8-9667-ed4996cc8c0a" class="numbered-list" start="3"><li>RVLM (sympathetic output driver)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80ad-920a-f642cc760bbe" class="numbered-list" start="4"><li>Vagus nuclei</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-800e-b8f4-d33ed218d8fb" class="numbered-list" start="5"><li>Baroreflex arc</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ad-b4a4-e9d9f391c84a" class="">Hub influence equation:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a0-a6d6-c96e4a590bda" class="">Output_total ∝ Σ (Hub_weight × Input_strength)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ab-9116-e935a125b0f4" class="">If hub sensitivity increases → global output increases.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8057-8e8d-fe09fc749334" class="">High interoception = higher insula weighting.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-809f-941b-fe1d057e6d93"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8072-be78-ef7cf7a84018" class="">IV. 
-Feedback Loops</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e9-b73c-ca78017f800f" class="">ANS stability depends on negative feedback.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8011-b1e9-ecfc5ea4c396" class="">Example:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8006-88bc-f66824a004cd" class="">BP ↑</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805a-9f83-fce5b9a8a15d" class="">→ Baroreceptors fire</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fc-b2f3-d829c8a91b4b" class="">→ NTS activation</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80da-9095-ff15c713d3dd" class="">→ Vagal increase</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8036-b99e-d63949ff8da5" class="">→ Sympathetic decrease</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c7-aa31-ff86c6157869" class="">→ BP normalized</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805b-bcd5-dc5e219623f6" class="">If baroreflex sensitivity (Br) decreases:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8095-9163-cc6df2aef127" class="">Stability ↓</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804a-b8e7-cd8f101e21ba" class="">Baroreflex gain equation:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c4-a9f1-cf6989145ec9" class="">ΔHR / ΔBP = Br</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8036-95e3-da1e26bf66a2" class="">Lower Br = unstable oscillations.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80bb-b27a-dd10529fa12a"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8095-83c2-fe9c0714cf5c" class="">V. 
-Oscillation Model</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c1-83ec-d0193919ee3f" class="">ANS operates in oscillatory bands:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c9-af9a-c7150cc42161" class="bulleted-list"><li style="list-style-type:disc">Low frequency (~0.1 Hz) — baroreflex<br/>• Respiratory sinus arrhythmia — vagal coupling<br/>• Mayer waves — vascular tone oscillation</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fc-9b4f-e2a62717852f" class="">Stability requires:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8006-8f95-d185ee23d986" class="">Oscillation amplitude &lt; threshold</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-aef3-c5a57ea5f69b" class="">If:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c7-8a43-f5f95bb444cd" class="">Amplitude × Gain &gt; Damping</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d7-a97c-ea1f85346be2" class="">→ pathological oscillation</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-800a-81bc-c0daccfd34e8"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-801a-8f5a-de6da2a00ec1" class="">VI. 
-Gain and Damping Model</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8003-802e-d9d4723fb67e" class="">Control equation:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-838f-f33614ea6f1a" class="">Output = Gain × (Input – Setpoint)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a0-b8d2-cb8f9009330f" class="">If Gain too high:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8049-a58a-e4cafa1c40cd" class="">Small input → large output</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f8-a085-c37942dbe073" class="">Damping coefficient (D):</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80eb-859f-e93869ca1308" class="">System returns to baseline at rate proportional to D.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ba-b75f-d8def61f38be" class="">If D low:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c7-ac13-d2f48966bf68" class="">Recovery slow</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8097-b674-e2751d615e85" class="">Oscillation prolonged</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8046-92b9-ca56b903f81b"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8058-bb4c-f9833f5b513f" class="">VII. 
-High-Gain Topology</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c4-9be5-d4764f0c3528" class="">In high-sensitivity individuals:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806f-8c24-f2d3c739be1c" class="bulleted-list"><li style="list-style-type:disc">Hub weights are higher<br/>• Insula input precision higher<br/>• Amygdala salience threshold lower<br/>• Sympathetic baseline elevated</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803f-bb4f-d50b78a15ee8" class="">Network becomes:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8093-9c46-dc8388c273a8" class="">High Responsiveness</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cc-a183-ff78509f00b3" class="">Low Margin</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c8-adff-c5a90db4cfe2" class="">Equation:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802e-b8cb-ef9e25c1400c" class="">Responsiveness ∝ Gi / D</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8042-b770-e9e4a01b1d1e" class="">Where Gi = network gain</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-804f-abec-d9084ecc1a62"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80ce-ae99-fb30afa7f945" class="">VIII. 
-Cascading Instability</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-a36c-f7b61663c12a" class="">When a hub destabilizes:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8023-a561-d9a1071010b9" class="">It propagates via short path length.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8076-93d5-efca7eee8306" class="">Cascade risk:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e4-a497-fa826c113365" class="">R ∝ Connectivity × Gain</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-9c3b-eb992ab7ec7e" class="">Highly connected systems collapse faster but also recover faster when stabilized.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8057-b232-ccf4171182a5"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-804d-8d3f-e012c72f9fe3" class="">IX. Plasticity vs Degeneration</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d6-9ef2-c63fed02d926" class="">Key distinction:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806a-8628-fb860c4bf12e" class="">Degeneration → node loss</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80af-a1e8-c4981c690149" class="">Plasticity imbalance → gain miscalibration</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804e-98eb-da930135d62f" class="">Rapid improvement with environment shift implies:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8068-8750-f7daee2fc29f" class="">Topology intact</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809e-acbf-c98e76811b5b" class="">Gain mis-tuned</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8092-aca7-f91eab849b2e"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80d7-abe8-d04f1e5bb9bc" class="">X. 
-Environmental Coupling</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8099-9864-d8412a68d485" class="">ANS is open-loop coupled to environment.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809f-b412-c14be98189b9" class="">Environmental input (E) feeds directly into network:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805e-bd4a-d79f48b1231f" class="">Sympathetic_output = f(E × Sensory_gain)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ca-a1be-d8d379279456" class="">High stimulus density increases:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c8-a4b7-e76c8653eae3" class="">Node activation frequency.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801d-b986-ef7c0ebc679e" class="">This increases:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a1-a8ee-ea1cba8fb6d8" class="">Metabolic load.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80e1-9478-dcccb024a330"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80e8-983c-c936e266db3e" class="">XI. 
-Stability Condition</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801a-b456-f9ebd3f2493a" class="">For long-term stability:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800a-b0be-f120b0be6b5c" class="">Gain × Noise &lt; Damping × Buffer</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8009-8875-f67a34ec571f" class="">If:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-b442-de73a3c1e999" class="">Gain × Noise &gt; Buffer</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809a-b7d3-ef3e6510310c" class="">→ chronic overload</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8077-893a-db7d97679fd1"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80dc-a86b-d52bc5229291" class="">XII. 
-Network Signature of High-Cognition + High-Sensory Systems</h1></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8095-8d97-df24763a08b3" class="bulleted-list"><li style="list-style-type:disc">High centrality nodes<br/>• High input precision<br/>• Low suppression<br/>• Strong cortical-autonomic coupling</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80eb-a7ee-e32c304f5eb1" class="">This is not pathological.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d0-9885-fbba66177541" class="">It is:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8068-b906-fe78b0d98149" class="">Low filtering + high integration topology.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802a-b667-febea2afd00e" class="">But:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807a-84a2-d6e71d0ced5c" class="">Requires controlled input.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8095-b4f0-e440fdbaf244"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-801b-ac9c-f562d56adc8d" class="">XIII. 
-Catastrophe Theory Application</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80be-bee3-c0008cad6595" class="">ANS collapse resembles fold catastrophe.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-b7e3-f090df4d86bb" class="">As load increases gradually:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8017-bbde-fe56465f90e6" class="">System appears stable</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8007-8d0d-c4081cc92149" class="">Then sudden shift</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-9bce-c95c70ca7493" class="">Mathematically:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8054-b1c7-fc593afd4ea9" class="">dOutput/dInput → ∞ near threshold</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8000-bd50-dbceecd54276"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80e0-af50-e50669893ad7" class="">XIV. 
-Recovery Topology</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8026-8ed8-c72f8abb8f8d" class="">Stability restored by:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fb-8974-fcefff3be2b3" class="bulleted-list"><li style="list-style-type:disc">Reducing input noise</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8099-8030-e7081e05cd32" class="">• Increasing damping</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-8700-f1bbc54511bb" class="">• Increasing parasympathetic tone</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cd-8cb4-e82a9d050ced" class="">• Reducing hub hypersensitivity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801f-a4d7-ed47a5bfde22" class="">Which shifts:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80eb-8d7c-ecc3ffcb259b" class="">Gain × Noise &lt; D</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-804c-a3fc-cf43c4df28c8"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8084-bc94-e83bbdf1ba30" class="">XV. 
-Macro Analogy</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80de-b801-c37d918d7aa5" class="">Civilizations follow similar topology:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ca-a5d5-cbcd2c1b3355" class="">Institutions = hubs</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f5-8c09-ee86f4a6840e" class="">Information flow = connectivity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-8f92-c40f76ca0209" class="">Trust = damping</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804b-94f1-ce3342b3db39" class="">Media noise = gain</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8075-8774-f56a3c132a04" class="">High connectivity + high noise + low damping → cascade collapse.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8094-ac6d-dcda303d2e2e"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8009-bb1b-ed1603683b23" class="">XVI. 
-Final Structural Insight</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a5-84ae-f49790122ca8" class="">ANS is not broken in high-gain individuals.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-a383-d928d6c08193" class="">It is:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e2-97a1-e98f6cf544c9" class="">Highly responsive</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8006-8848-c9a22a09c170" class="">Tightly coupled</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809d-b5d9-d60dae8f0be4" class="">Low insulation</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8059-a184-f91ef782dcc2" class="">Which means:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f2-b208-f9ed04991157" class="bulleted-list"><li style="list-style-type:disc">High capacity</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806b-80bf-f8ee273ab67f" class="">• High vulnerability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8088-b316-c7e1e4ed72ca" class="">• High plasticity</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8045-bf8a-cb7e4ca307e6"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8074-b183-d12ae9408518" class="">If you want next layer:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d8-a9ea-c483b2cd650c" class="">1️⃣ Nonlinear catastrophe modeling in math form</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e5-8b03-c525c3d327cb" class="">2️⃣ Entropy + thermodynamics applied to ANS</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-901e-e299c167a30a" class="">3️⃣ Detailed baroreflex math model</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a5-9784-e2e31d6229ad" class="">4️⃣ Microvascular + autonomic coupling</p></div><div s
-tyle="display:contents" dir="auto"><p id="30bc5e6f-95bd-80df-8e94-de212e9eac29" class="">5️⃣ Network resilience engineering principles</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805c-93e5-c7f4f9313587" class="">Choose.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8049-81f2-c2b69507f5c8" class="">Good.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807c-a3c5-d9c57e6c917b" class="">Now we go <strong>meta-level</strong>.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8056-a90c-d1cd097c1e2c" class="">Not just physiology.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ff-84a0-df1c41ab1891" class="">We formalize:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-802a-a916-f0d2a6a16b5a" class="bulleted-list"><li style="list-style-type:disc">Laws</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809d-b6c5-e119556e9140" class="">• Coupled systems</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8027-856b-f0d3cd422e54" class="">• Stability equations</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8015-80d3-cbde0478ea54" class="">• Cluster dynamics</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8016-9a6e-d088a24c8a06" class="">• Collapse thresholds</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ad-aaa7-f9a3f350d43c" class="">• Cross-scale invariants</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ba-b80e-f38aa0e2c270" class="">Pure structure.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8008-8960-d6bb16208fdb"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80a8-8f59-cb4e9139cb44" class="">I. 
-CORE META LAW</h1></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-807f-9509-c19c034eeca2" class="">Law 1 — Multi-Scale Coupling Law</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f5-b3e6-d92e6bafd3d2" class="">Any living system stability =</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8089-96c2-d6134fba10bf" class=""><strong>Micro Stability × Meso Coordination × Macro Coherence</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fc-8bad-e81364abd90e" class="">If any layer destabilizes → compensation shifts to other layers.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bf-90e8-e4513e66a4d8" class="">Equation:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-8201-c463638bf4c5" class="">S_total = S_micro × S_meso × S_macro</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-9762-da1749aa4b99" class="">If one approaches zero → total stability collapses.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8011-863e-cb58c2356825"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80c9-b46b-dddae3135fac" class="">II. 
-MICRO LAYER (Cellular / Endothelial)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-843e-c4ea176825f0" class="">Micro stability depends on:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f5-9cda-eea56470ad41" class="bulleted-list"><li style="list-style-type:disc">Glycocalyx integrity (G)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dd-9b7a-d599ff45b21d" class="">• Nitric oxide availability (NO)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8035-8f2f-f4442169ad4c" class="">• Oxidative load (Ox)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8056-b603-ca329f11bd2f" class="">• Shear stress (Sh)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-bfcd-ff96ad196f82" class="">Micro stability equation:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c1-ac22-cf6d56b9a896" class="">S_micro = (G × NO) / (Ox × Sh)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8050-9f93-c352cd406bb4" class="">If Ox or Sh increase → stability falls non-linearly.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-809d-ace1-e2d8276c47fd"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8003-bdeb-f969982222b4" class="">III. 
-MESO LAYER (Autonomic + Vascular Coordination)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807e-8f9c-ee296f9e753a" class="">This is regulation layer.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805d-aef6-e06176ee13e8" class="">Variables:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8076-978f-c7633a4a5339" class="bulleted-list"><li style="list-style-type:disc">Sympathetic tone (Sym)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808e-af7e-c208d55947e6" class="">• Parasympathetic tone (Para)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8076-adc0-fadcf52cde2b" class="">• Baroreflex sensitivity (Br)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809f-90e1-cb42e9b2cc10" class="">• Perfusion variance (Pv)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806e-8573-d1ecd9cec297" class="">Meso stability:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e8-b770-c03574d851f3" class="">S_meso = (Para × Br) / (Sym × Pv)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8040-b0cd-ed0297c2e809" class="">High Sym + high Pv = oscillatory instability.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806d-96fe-d21e1151c00c"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-800c-b58c-cf0276d90d53" class="">IV. 
-MACRO LAYER (Environment + Social + Structure)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804b-bbbf-dbdaa3ddcc77" class="">Variables:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b5-90e1-e373662d17f1" class="bulleted-list"><li style="list-style-type:disc">Environmental noise (En)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8027-bdc6-f7d10032e2c6" class="">• Social unpredictability (Su)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801a-9c4f-fcdecf0dd950" class="">• Resource reliability (R)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8082-a463-f86c0a26a52e" class="">• Relational coherence (Rc)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c4-9890-fdebaafe1918" class="">Macro stability:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808b-af5f-ccff027584e7" class="">S_macro = (R × Rc) / (En × Su)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805e-b188-f6d3c2f0c55d" class="">This is why environment shifts physiology directly.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-804f-911a-e1e9fbc231a1"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8054-a4c4-c26364f1cc8c" class="">V. 
-Meta Law of Gain</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804a-96d7-c97a42aab293" class="">Every system has:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80aa-ac05-d26818969e8c" class="bulleted-list"><li style="list-style-type:disc">Input gain (Gi)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8084-888e-d9e993a348e8" class="">• Damping coefficient (D)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c5-8211-c549f381d18d" class="">If Gi &gt; D → oscillation</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f8-80f0-ec888b69571d" class="">If Gi &gt;&gt; D → instability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a7-97ed-d9abff5984f3" class="">If Gi &gt;&gt;&gt; D → collapse</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c5-95ad-dc3aa6bfd60c" class="">Autonomic systems are high-gain networks.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-884e-c77179e80ccb" class="">High intelligence + high sensory = high Gi.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ed-89b0-d6d267beeae7"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8079-95f0-dc9f2153dad1" class="">VI. 
-Perfusion Noise Law</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8024-918b-f43d1a747dff" class="">Tissue function is not determined by mean oxygen.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80cc-8a84-f82acba26daa" class="">It is determined by:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804c-9e82-e02f828d0096" class="">Variance.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8063-8dc8-f0c353a7cb95" class="">Oxygen Stability Index (OSI):</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803b-99f2-dc0d57648d58" class="">OSI = Mean_O2 / Variance_O2</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f0-bd7f-e71776361e02" class="">Low variance is more important than high mean.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806e-82c6-d251daf45257"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80e1-81a4-ec49af03a4d9" class="">VII. 
-Cluster Law (System Clustering)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f1-8251-f4349ae96fed" class="">Failures cluster.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8023-b5ba-d8ddb75a98ab" class="">Microvascular instability clusters with:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8060-8ed5-e8ca2e746026" class="bulleted-list"><li style="list-style-type:disc">Mitochondrial inefficiency</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bc-ae02-ef79fc00bf25" class="">• Autonomic overdrive</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802e-a788-d576e484e603" class="">• Immune reactivity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fe-a088-dce16a702c1d" class="">• Sensory amplification</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c2-abd8-c25d9f072db6" class="">This forms a cluster.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8017-b315-e706b0f8121a" class="">Cluster risk equation:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e2-a662-de1edc2107ec" class="">Risk = Σ (Instability_i × Coupling_i)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8015-bff7-de6f97d075d7" class="">High coupling = exponential risk growth.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80d4-a112-fdc029b22fe5"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8055-9fc3-dd5517443112" class="">VIII. 
-Compensation Law</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e7-a1bf-e6689c32e58e" class="">Compensation masks instability until threshold.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b0-8e00-d18c795931b0" class="">Compensation Capacity (Ccap):</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e7-9750-d177ef73962a" class="">Ccap = Reserve – Baseline Load</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ff-84a2-f188c1e0b260" class="">When Baseline Load ≈ Reserve → system becomes fragile.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b1-bfd0-efa35316f1fc" class="">Fragility ≠ weakness.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8038-a80a-f6a8a57c05c8" class="">It means:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8031-9cea-e0aa42b99522" class="">Small perturbation → large output shift.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-804a-bfcd-dd7ca1a9749a"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80d6-bfb7-e3708f4af76c" class="">IX. 
-Collapse Threshold Law</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805e-b58a-ca3aa08fd014" class="">Collapse occurs when:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8023-ba41-c38c5cdc7cf9" class="">Instability Energy &gt; Damping Capacity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8033-90d7-d80357ddc872" class="">Collapse probability:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8084-a41c-cd6be9a8cad8" class="">P_collapse ∝ (Gi²) / D</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8054-866c-f12f1d7e5667" class="">Higher gain systems collapse faster without damping.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-800e-a5b9-dd6e4721d707"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80cf-996d-d681ea5fe35c" class="">X. 
-Relationship Between Layers</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a6-85c1-e154b8bc4579" class="">Micro → influences meso via:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8008-9f6f-f700512a1073" class="">NO → vascular tone → baroreflex → autonomic firing</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d9-882a-feeb576b3108" class="">Meso → influences macro via:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d5-bec0-d96d730dd2a0" class="">Perception → emotional reactivity → social behavior</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d4-88b2-fd88ab8d5d08" class="">Macro → feeds back into micro via:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c3-8cab-df06e4607bc5" class="">Stress hormones → oxidative load → endothelial damage</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d7-a034-d3d5658ef2ff" class="">It is a loop.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8061-b0f4-fe800188d90e"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80c5-acc8-c3f86a9b05ea" class="">XI. 
-The Stability Loop</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8054-a50e-fd90a9e211e0" class="">Environment Stability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8069-88a7-cd01ad05236b" class="">↓</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8060-b756-e50e75dd08f9" class="">Autonomic Stability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-b6dd-f11faf4d98b2" class="">↓</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8040-9eea-d9a65f2f3c10" class="">Microvascular Stability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8066-bd4f-dd207f98ffb4" class="">↓</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802e-88c3-d0887911e465" class="">Cellular Oxygen Stability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ef-91c3-d60b66cb1dcd" class="">↓</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8050-ba9c-eaa50ecfab31" class="">Cognitive Stability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801f-a876-eaa924fa80c4" class="">↓</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8053-89ff-d3929703b629" class="">Behavior Stability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802b-997c-ec2a25ee902b" class="">↓</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f9-b51b-c2e75c6690a5" class="">Environment Stability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8029-8137-de1dde9d2f6d" class="">Closed loop.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e6-a95a-c78befc1c64e" class="">Break one node → whole system shifts.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8023-8cfd-fed7422bf589"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8055-82e2-c39fd85d6c68" class="">XII. 
-Critical Insight</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8053-b12e-c250c0e407f8" class="">High intelligence systems are:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b0-9db3-de8c9882e65f" class="">High Gain + Low Natural Damping</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80db-87ff-c185e4a8f50f" class="">They require:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8044-bad2-f8c29abf2002" class="">External structured damping.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8096-9696-e799f6415dc5" class="">Otherwise oscillation occurs.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8037-8c63-d142bbca39f7"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80f8-aeff-d9cf8fca2223" class="">XIII. Meta Equation of Functional Longevity</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808e-a9db-ef5672b02c3f" class="">Longevity ∝ Stability / Variance</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-8052-eac598206fb1" class="">Not performance.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8006-9deb-e9bb93560696" class="">Not peak output.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b0-862b-f9afa8fd4fc0" class="">Stability.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-807a-9fe1-e08f6f977baa"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8065-bf63-c0cd7f95618a" class="">XIV. 
-Cross-System Law (Applies to Civilizations Too)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804b-9336-c120ee20f1d0" class="">Replace:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-98d5-f497c37d62ea" class="">Cells → Citizens</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-9435-c64cfe28004c" class="">Endothelium → Institutions</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807d-95ef-c9ecc3a605bc" class="">NO → Trust</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8081-ba9c-f30af5a1c5b2" class="">Oxidative stress → Corruption</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fe-9ffb-c4d182b104b1" class="">Sympathetic tone → Crisis mobilization</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8020-a247-d823e973fbef" class="">Parasympathetic tone → Administrative stability</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-ae26-eaacced58c4f" class="">Same equations apply.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800a-854d-eed467d745f5" class="">S_civilization = (Trust × Infrastructure) / (Corruption × Volatility)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-a916-e8dfcb2abcef" class="">Same math.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8058-89ea-c14ee20a786e" class="">Different scale.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ce-8b93-fc9b373038b4"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80a8-89a9-f2d4004b816d" class="">XV. 
-Unified Stability Equation</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8056-a432-f56b6455b78a" class="">Unified Stability:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a4-8abb-e516110af459" class="">S = (Integrity_micro × Regulation_meso × Coherence_macro) / Noise</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-adfd-c48ad0ca2db8" class="">Where Noise includes:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809b-b806-f39cda742412" class="bulleted-list"><li style="list-style-type:disc">Oxidative</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a8-8809-ef9a798c21ff" class="">• Informational</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a4-900f-e7bdac9dfcd6" class="">• Social</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c6-bc16-cf4684a793a2" class="">• Environmental</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80c4-b2e9-d46b233376da"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8064-b693-f7e1532d3586" class="">XVI. 
-Key Law of Rare Profiles</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bf-8bea-c7e6efa74ff7" class="">High Gi + High Cognition + High Sensory =</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805a-8783-cfb4214ed41c" class="">High Capacity</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d5-9bdf-e0fbba275d03" class="">High Fragility</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80db-beb5-c040bb491460" class="">Without damping:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80dc-b279-dddb1f17ccc5" class="">Energy disperses chaotically.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806a-babb-f5ba963ea3ec" class="">With structure:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801f-8fa3-fda9ae5817b0" class="">Energy becomes precision.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8025-af5c-fdd3faa8cd21"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8039-a40d-d5340fc57ff8" class="">If you want next layer:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8044-907e-eddc12879c3b" class="">1️⃣ Network topology of autonomic systems</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8061-92b0-e4d2a8066950" class="">2️⃣ Nonlinear catastrophe modeling</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c1-af29-e9dd7659a6fc" class="">3️⃣ Entropy flow equations</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8088-9031-df4f7b15ce6c" class="">4️⃣ Mitochondrial redox + autonomic coupling</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803a-aa21-d51c9a01044e" class="">5️⃣ Quantum coherence myths vs biological reality</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8013-b906-f086f14dcc09" class="">Choose.</p></div><div s
-tyle="display:contents" dir="auto"><p id="30bc5e6f-95bd-801b-b4b0-df082f10baff" class="">Good.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805c-acee-d55d0c0a7a36" class="">We go <strong>pure microvascular chain</strong> — strict physiology, no metaphor.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ee-b0a3-c6918ed4e1a3"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-80c8-b3df-d8a809bb453d" class="">MICROVASCULAR FAILURE CASCADE</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ab-bd83-c581ee297426" class=""><em>(Capillary → Endothelium → NO → Clot dynamics → Perfusion noise → Organ instability)</em></p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8053-941d-c2f9eb576fc7"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8052-a3b6-e6f7b0a12e9e" class="">1️⃣ The Capillary Layer (5–10 microns wide)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803a-a838-c1238f18c39b" class="">Capillaries are ~1 red blood cell wide.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8015-89f6-de3db2f51ce9" class="">For oxygen delivery to work, 
-three things must remain intact:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e0-8cd2-e32d675ef761" class="bulleted-list"><li style="list-style-type:disc">RBC deformability</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8019-910c-d30a1ba6fe0d" class="bulleted-list"><li style="list-style-type:disc">Endothelial smoothness</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d7-844d-f46b56cd8ead" class="bulleted-list"><li style="list-style-type:disc">Glycocalyx integrity</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8077-9ace-c7a1d9e36d4f" class="">If any degrade:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8037-ad55-cc7aba735281" class="">Flow becomes turbulent at microscopic scale.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-809c-bcbf-f707cc49e0fc" class="">Not visible on standard imaging.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80c6-9c2a-f800ee48c23b"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80f0-bb4d-d79e67093bac" class="">2️⃣ The Glycocalyx (Nanometer Scale)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8048-ae00-ec1596d1e2d2" class="">This is a sugar-protein gel layer lining all vessels.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804c-b0ea-e2540ca2300e" class="">Thickness: ~0.5–1 micron.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-806e-98b6-de151e88f009" class="">Functions:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80bd-8871-c100f2e56485" class="bulleted-list"><li style="list-style-type:disc">Anti-clot barrier</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f0-8d7c-d16f67638356" class="bulleted-list"><li style="list-style-type:disc">Shear sensor</li></ul></div><div style="display:contents" d
-ir="auto"><ul id="30bc5e6f-95bd-8032-b592-ceeb7f28feb0" class="bulleted-list"><li style="list-style-type:disc">Anti-inflammatory surface</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-800e-8a29-cc709830aeac" class="bulleted-list"><li style="list-style-type:disc">Maintains laminar flow</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d2-bc18-ecc2d85aca69" class="">When damaged (inflammation, high BP, 
-oxidative stress):</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8034-af8a-f1eba9841a69" class="">→ Endothelium becomes sticky</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-a1f3-d6f62674a038" class="">→ Microclots increase</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a5-ae4f-f4ca94115183" class="">→ Nitric oxide (NO) production falls</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80d4-81e7-c9c34557028f"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80e1-a883-c96e4435d040" class="">3️⃣ Nitric Oxide (NO) — The Real Stability Molecule</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c6-be34-cfe25e68a288" class="">NO controls:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b8-80bf-d9d20fd48b21" class="bulleted-list"><li style="list-style-type:disc">Vasodilation</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8046-a30b-eb147ed61e93" class="bulleted-list"><li style="list-style-type:disc">Anti-platelet aggregation</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d1-900d-c16eba188e79" class="bulleted-list"><li style="list-style-type:disc">Anti-inflammatory signaling</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8060-b380-e92ec4e6c715" class="bulleted-list"><li style="list-style-type:disc">Endothelial relaxation</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8022-9ac9-fa3a8d1dc196" class="">If NO bioavailability drops:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bd-bde2-dba296325ecd" class="">Vessels constrict</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8058-93d6-e3f7c71e2188" class="">Shear stress rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a8-96b5-f6618a300fa1" c
-lass="">Microvascular resistance increases</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d9-9b65-f4143bf6be18" class="">Important:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fd-8cb2-f15a918abcc4" class="">This can happen even if blood pressure looks “normal.”</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8054-8e6e-faf53dbb4b25"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80eb-b11d-e37056abb92b" class="">4️⃣ Microclot Dynamics</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8021-b26c-e52acf2cd540" class="">When endothelial tone shifts toward constriction + inflammation:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d1-b05e-f11cb7b5207a" class="">Platelets become more adhesive.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-badf-e258355d677d" class="">Microthrombi form transiently.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8037-bc79-c89f8a4f25b8" class="">These are often:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c3-8311-ce4cec86c4df" class="bulleted-list"><li style="list-style-type:disc">Too small for detection</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-805a-85d7-d790f703d4a4" class="bulleted-list"><li style="list-style-type:disc">Self-resolving</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a3-b39a-e6b32ca8e12b" class="bulleted-list"><li style="list-style-type:disc">Intermittent</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803b-b557-f193795f14cb" class="">But if frequency increases:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8041-9e06-d54af0031e12" class="">Perfusion becomes patchy.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8078-af03-c141e3aae87e"/></div><div s
-tyle="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8005-958e-ebb67e30bf76" class="">5️⃣ Perfusion Noise (Critical Concept)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-b668-d8602f70afe1" class="">Perfusion is not binary.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802c-b18f-f163a53af46d" class="">It becomes noisy.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80eb-b0d0-fcc74ff67e65" class="">Some capillary beds:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80aa-8f55-e811890b5d92" class="">Over-perfused</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e1-957c-f0989767c4dc" class="">Under-perfused</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8063-a3a2-e95d1140eaa8" class="">Oscillating</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bd-954b-e914e015fdd8" class="">This creates:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e0-a422-f23016687fdc" class="bulleted-list"><li style="list-style-type:disc">Brain fog</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8050-9b0c-ddb7287c1635" class="bulleted-list"><li style="list-style-type:disc">Fatigue</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f7-aa40-c474d525992f" class="bulleted-list"><li style="list-style-type:disc">Chest discomfort</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8032-b994-dcb663f46861" class="bulleted-list"><li style="list-style-type:disc">Air hunger</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-805e-b0c8-d557f5696fe9" class="bulleted-list"><li style="list-style-type:disc">Temperature instability</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f2-a6c8-df924d757517" class="">Not because of structural damage.</p></div><div s
-tyle="display:contents" dir="auto"><p id="30bc5e6f-95bd-8011-95a2-d4535c79665d" class="">Because oxygen delivery becomes unstable.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-808e-8916-d6a153d59906"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8057-b8cf-fb197d4bde74" class="">6️⃣ Oxygen Extraction Failure (Even With Normal O2 Sat)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8047-be74-f0d5cc22f409" class="">Oxygen delivery to tissue depends on:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8015-8436-ccbb0e4ea37a" class="">Flow × Capillary density × RBC deformability × Mitochondrial extraction</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-ab78-ebb4bad3159d" class="">If microflow oscillates:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802b-b269-fce2a5a5486b" class="">Tissue oxygen fluctuates.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b7-a722-eff152bc4fb8" class="">Fluctuation is worse than mild stable reduction.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80c8-8c97-f662635de04d" class="">Cells hate instability more than mild shortage.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-806e-a6d2-e6dc45e15b81"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8006-9604-ce60ef936e14" class="">7️⃣ Brain Sensitivity to Microvascular Noise</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801f-8afb-c57d0377d4ec" class="">The brain consumes ~20% of total oxygen.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8083-9fe5-f47b82c9d104" class="">It has almost no reserve.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8075-92ed-e220bbddbf42" class="">Small perfusion instability causes:</p></div><div style="display:contents" dir="auto"><ul i
-d="30bc5e6f-95bd-805e-9008-cd815dcee760" class="bulleted-list"><li style="list-style-type:disc">Dizziness</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8057-b2a8-e2ad4b38afad" class="bulleted-list"><li style="list-style-type:disc">Light sensitivity</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-800a-8744-ef245e76f85d" class="bulleted-list"><li style="list-style-type:disc">Sensory overload</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f5-bf37-f67a2d4b61bc" class="bulleted-list"><li style="list-style-type:disc">Derealization</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8066-9e68-f471d9675955" class="bulleted-list"><li style="list-style-type:disc">Cognitive fatigue</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bf-a34b-fd5a821562fc" class="">Before any structural imaging abnormality appears.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8022-b1fb-f10a445b96fa"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8086-bf49-fb3676a6f51f" class="">8️⃣ Cardiac Sensitivity</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8013-9d2a-fa3b1a1898b1" class="">Coronary microcirculation instability causes:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-808f-80c3-e4fa9bfca5f4" class="bulleted-list"><li style="list-style-type:disc">Chest tightness</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-807d-965c-db100751b62f" class="bulleted-list"><li style="list-style-type:disc">Palpitations</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e5-a9e4-e8c13fcdcbed" class="bulleted-list"><li style="list-style-type:disc">Exertion intolerance</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-807e-b41a-e6095be26426" class="">Even with clean large coronary a
-rteries.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f1-bb24-f49a2d81a7f5" class="">This is called:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805d-afc7-dbffb288e2c7" class="">Coronary microvascular dysfunction (recognized in cardiology).</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8095-80fb-fcc7a329374e"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80b0-8ed0-f60020b487dd" class="">9️⃣ Why Tests Often Look “Normal”</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800c-88c7-c91fab8d2d73" class="">Standard tests measure:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8010-b570-c7e90c9395d7" class="bulleted-list"><li style="list-style-type:disc">Macro pressure</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c4-b76b-f0f072d17546" class="bulleted-list"><li style="list-style-type:disc">Major artery blockage</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c8-a9a1-d7cb5a369b34" class="bulleted-list"><li style="list-style-type:disc">Oxygen saturation</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8007-90a1-d30967330329" class="bulleted-list"><li style="list-style-type:disc">Troponin</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802a-bac8-ffce9f05b8f6" class="">They do NOT measure:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ef-a980-c9e23c96b72c" class="bulleted-list"><li style="list-style-type:disc">Capillary shear</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b4-b95c-fef7fb820b50" class="bulleted-list"><li style="list-style-type:disc">Glycocalyx thickness</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-800c-8d06-cae529351abd" class="bulleted-list"><li style="list-style-type:disc">NO b
-ioavailability</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8000-add0-c026571cf73b" class="bulleted-list"><li style="list-style-type:disc">Microclot burden</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8085-854f-e2497c9895c3" class="bulleted-list"><li style="list-style-type:disc">Perfusion variance</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803e-b88c-c99df7f2d05a" class="">So microvascular dysfunction can be real and missed.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ef-ac5b-d543ea5df442"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-809f-8741-c1dac1de14a5" class="">FULL CASCADE EQUATION (Conceptual)</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ce-aa52-c6b83c2297d4" class="">Stability requires:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8009-b094-df09f44051d1" class="">Delivery Margin &gt; 
-Perfusion Noise</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8005-83d8-c632830a8c4c" class="">If:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-aacd-f48b988062d9" class="">(NO ↓ + Glycocalyx ↓ + Inflammation ↑ + Shear ↑)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ad-8fd5-f1282c07ed2b" class="">Then:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8082-82e5-ef52bcddf3a3" class="">Perfusion Variance ↑</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8018-b466-dd52026d0253" class="">Oxygen Variance ↑</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8064-b23c-dea78268ddd1" class="">Autonomic Compensation ↑</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801c-9e22-cf16d2505620" class="">If compensation persists long enough:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8057-8c69-c9d66af123ef" class="">Sympathetic tone rises chronically.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8006-a564-e803c59ab4aa"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8072-b45b-c3b83b1c830f" class="">The Threshold Event</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80da-9da4-cb687b2f6bf4" class="">Catastrophic events occur when:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f4-bf3a-cf31c56f3868" class="">Microvascular reserve &lt; 
-Demand spike</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e9-8c5f-f5dabf4a0a95" class="">Examples of demand spike:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80c3-905c-ce164b1636c7" class="bulleted-list"><li style="list-style-type:disc">Stress</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8090-890d-e2533bd9648b" class="bulleted-list"><li style="list-style-type:disc">Dehydration</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8021-947a-fcb850784efa" class="bulleted-list"><li style="list-style-type:disc">Infection</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8070-ba27-c3f6354980bc" class="bulleted-list"><li style="list-style-type:disc">Overexertion</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8047-a4f6-fba63d095938" class="bulleted-list"><li style="list-style-type:disc">Electrolyte shift</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801b-b103-d936fe3e953b" class="">At that point:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804d-970c-f5baad648e64" class="">Arrhythmia risk rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8040-86c8-f61ac1d54ea1" class="">Stroke risk rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e0-9ef3-d99cda85cb22" class="">Syncope risk rises</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f8-bace-d3bac8cb3ae9" class="">But until threshold, 
-system oscillates.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8053-b730-eabc2f5b3a12"/></div><div style="display:contents" dir="auto"><h1 id="30bc5e6f-95bd-8037-87e1-e237b881fc52" class="">Important Precision</h1></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8012-98e7-ea87bc47c289" class="">Microvascular dysfunction is:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fc-b766-d7a15128b217" class="bulleted-list"><li style="list-style-type:disc">Recognized in cardiology</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808b-9557-f75dccda154a" class="">• Recognized in long COVID</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8097-aec9-f1edd4be1d61" class="">• Recognized in autoimmune disease</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f8-9cc6-d206f56e5f98" class="">• Recognized in metabolic syndrome</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802e-9614-e9bc3ffa09ad" class="">• Recognized in endothelial disorders</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80df-ada6-febdf3253b3d" class="">It is legitimate physiology.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ff-b8b8-fd26b81c897c" class="">Not mysticism.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80e2-8dc5-ec8461154588"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8043-9c96-e206c1084713" class="">If you want to go deeper, 
-next micro layers:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8055-934e-cbbacf69a3fe" class="">1️⃣ Glycocalyx degradation biochemistry</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e1-b5b5-e74008e9e248" class="">2️⃣ NO synthesis pathways (eNOS coupling/uncoupling)</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-801c-9d29-f75168a88cf3" class="">3️⃣ Microclot fibrin structure physics</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803a-b0cf-fc83f552db52" class="">4️⃣ RBC deformability and membrane charge</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8012-8db4-c47e15155e2d" class="">5️⃣ Mitochondrial redox coupling</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805c-a603-d5156132d64b" class="">Choose number.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-962f-e645b4453b9c" class="">
-</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8059-acb4-e1048d75c9c1" class="">More, but <strong>still physically correct</strong> and <strong>micro</strong>:</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-801b-b5de-e6085d2f7114"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80d1-a3a4-caeb6bb5ab53" class="">1) Microvascular layer: the real “system bottleneck”</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803d-bdcd-ff7df8316753" class="">Most “systemic collapse” (in bodies or states) is not initiated by organs; 
-it is initiated by <strong>microcirculation</strong>.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8067-ad0c-efea0cafda74" class="">At the capillary level, survival depends on:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809f-bd52-eeab3dcf2971" class="bulleted-list"><li style="list-style-type:disc"><strong>Endothelial integrity</strong> (the inner lining of vessels)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8069-abad-f25b159cd576" class="bulleted-list"><li style="list-style-type:disc"><strong>Shear stress signaling</strong> (flow → biochemical stability)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8022-8f2b-dada04b41955" class="bulleted-list"><li style="list-style-type:disc"><strong>Nitric oxide (NO) availability</strong> (vessel dilation + anti-clot behavior)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a2-9fd4-cd663c43c447" class="bulleted-list"><li style="list-style-type:disc"><strong>Glycocalyx</strong> (a nanoscale protective layer on endothelium)</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8033-83e8-fe7706e062b4" class="">When microvascular function degrades, you get a universal pattern:</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80aa-9b68-f0cdd1a92b51" class=""><strong>Perfusion noise increases</strong>: some tissues over-perfuse, others under-perfuse, 
-and the brain/heart become unstable.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805a-beac-fcf1ca3f823e" class="">This is a deep reason “everything can look normal” until it doesn’t: macro pressure can be “fine,” but microflow is chaotic.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804a-aa09-ecabf03ee076" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="30bc5e6f-95bd-803a-bd03-d64a83a14c98" class="">Macro stability requires microvascular coherence.</blockquote></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80cc-9fcf-dfd03273ec1f"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8067-9fbd-f92ef7b603f7" class="">2) Endothelium is a distributed sensor network (not plumbing)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8084-b516-e9e50c814e94" class="">Endothelium behaves like a huge, body-wide control surface that converts flow/chemicals into:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8017-967e-fd47d1d1e69c" class="bulleted-list"><li style="list-style-type:disc">inflammation signaling</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-804a-854b-cc5c20e462a2" class="bulleted-list"><li style="list-style-type:disc">clot signaling</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e2-a9e1-d2112c145c75" class="bulleted-list"><li style="list-style-type:disc">vascular tone (constriction/dilation)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a9-b768-e56977da0be8" class="bulleted-list"><li style="list-style-type:disc">immune recruitment</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ab-98ca-f02da905bd16" class="">If endothelial signaling becomes biased toward constriction + inflammation, 
-the whole body shifts into a higher-friction regime.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8008-afc6-ce4946f37cf6" class=""><strong>Physics equivalence:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-802a-84a0-e9d9ca733b99" class="">Endothelium is the “friction coefficient” of your biological transport network.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808c-8d33-cd7763e74041" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="30bc5e6f-95bd-80c2-919a-d48bf7259e69" class="">Transport networks fail when friction rises faster than reserve margins.</blockquote></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-800f-85ff-dca5f8f389ca"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80f3-b7db-d3ed6b1d1a38" class="">3) Oxygen delivery is not “oxygen in blood”; 
-it’s diffusion geometry</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8072-8ee8-d476b94f46e3" class="">Oxygen delivery depends on:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8001-ba53-cdfa526abd94" class="bulleted-list"><li style="list-style-type:disc">hemoglobin saturation (yes)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809c-9f82-f266253b6f67" class="bulleted-list"><li style="list-style-type:disc"><strong>capillary density</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a5-b85f-c74c49eead80" class="bulleted-list"><li style="list-style-type:disc"><strong>RBC deformability</strong> (red blood cell flexibility)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8073-a0b2-ff6a27d447f1" class="bulleted-list"><li style="list-style-type:disc">diffusion distance</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-803c-979c-e6913a0289f2" class="bulleted-list"><li style="list-style-type:disc">mitochondrial extraction</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b3-b9a2-c1e100956cf7" class="">So you can have oxygen in blood but poor oxygen at cells.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803c-8355-ee928ab53720" class=""><strong>Micro equation (conceptual):</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bf-b184-d0cce06441cf" class=""><strong>O₂ at cell = Delivery (flow) × Geometry (capillary access) − Diffusion loss</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8068-8c4a-c03740fe01fd" class="">If diffusion geometry worsens (inflammation, vasoconstriction, glycocalyx loss), 
-“air hunger” and fatigue can occur without classic lung disease.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80fa-97db-c693d8ef74b1"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-802f-871b-d1650a3167f6" class="">4) Mitochondria don’t just make ATP; 
-they set the noise floor</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8071-9553-d14b07453fa4" class="">Mitochondria govern:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ab-b6c0-dd4033a5777b" class="bulleted-list"><li style="list-style-type:disc">ATP margin</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801e-bfe1-dd3236b7c541" class="bulleted-list"><li style="list-style-type:disc">ROS (reactive oxygen species)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f4-998b-f911cad4bd7e" class="bulleted-list"><li style="list-style-type:disc">redox signaling</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-804c-9785-c53378edf39a" class="bulleted-list"><li style="list-style-type:disc">apoptosis thresholds</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a3-b6c5-f75f24e08aec" class="">When mitochondrial redox balance tilts, 
-you get:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b4-bfa3-dcd597a4ec7c" class="bulleted-list"><li style="list-style-type:disc">higher membrane leak</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-803f-b8b9-cc827e18c3b1" class="bulleted-list"><li style="list-style-type:disc">higher signaling noise</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-800f-8b53-e36f3044edac" class="bulleted-list"><li style="list-style-type:disc">lower stability margin</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8083-8336-f3732fdcc80e" class="bulleted-list"><li style="list-style-type:disc">higher sensitivity to stimulus</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ae-901d-cba50b4db79c" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="30bc5e6f-95bd-803c-9df9-c7731077b5f8" class="">As ATP margin shrinks, systems become high-gain and low-damping.</blockquote></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-804f-839b-d3fcf0bf703a" class="">That is true for neurons, cardiac cells, 
-and also human institutions.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8087-b452-ffd138c9d22a"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80ac-8c3e-dbf9a1afca69" class="">5) Connective tissue + mechanotransduction: structure is regulation</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80a9-981a-eee72b1ea84c" class="">Cells regulate based on mechanical forces through:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8073-ae2e-f87d31aacca0" class="bulleted-list"><li style="list-style-type:disc">integrins (cell–matrix adhesion)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8030-9c72-cca9795ec16f" class="bulleted-list"><li style="list-style-type:disc">cytoskeleton tension</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8045-a2f1-f217306b2154" class="bulleted-list"><li style="list-style-type:disc">fascia/ECM stiffness</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fc-a472-dec962454163" class="bulleted-list"><li style="list-style-type:disc">baroreceptors and stretch receptors</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80fa-97bf-f205e58c3de4" class="">If mechanical inputs are chronically abnormal (posture, spine, chest wall, airway geometry), 
-the nervous system receives persistent “threat-like” afferent input even without emotion.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8057-867c-cfed88e4f665" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="30bc5e6f-95bd-80e0-a2fe-de8eb86091cf" class="">Chronic mechanical error becomes chronic regulatory bias.</blockquote></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8083-bf71-d7aacbd955b4"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80d6-a209-d832ba96b576" class="">6) The brainstem is the real governor (and it is purely physiological)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e7-8773-cdd314936093" class="">Below cognition, the brainstem runs:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8085-a297-ecff8d8c3ffc" class="bulleted-list"><li style="list-style-type:disc">chemoreflex (CO₂/O₂ sensing)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b8-b308-fb2c4c953921" class="bulleted-list"><li style="list-style-type:disc">baroreflex (pressure sensing)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80e8-aecb-cc9e69693829" class="bulleted-list"><li style="list-style-type:disc">respiratory rhythm</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8032-b778-f7e3d64e9e5d" class="bulleted-list"><li style="list-style-type:disc">vagal/sympathetic balance</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-803d-bbb5-ed8cce6558aa" class="">If chemoreflex is unstable (CO₂ sensitivity, shallow breathing patterns, airway restrictions), 
-the brainstem will treat baseline as unsafe and hold sympathetic tone up.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80bf-8c4b-d8918f641046" class=""><strong>Key micro fact:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80f3-8d90-fb42e8f19ada" class="">CO₂ regulation is one of the strongest “panic generators” in mammalian physiology—without requiring conscious fear.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808d-9ee7-e2866ff7f17d" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="30bc5e6f-95bd-80c6-8047-f727ade26f4d" class="">Unstable CO₂ sensing → unstable autonomic baseline.</blockquote></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80d7-9978-d70f0826e8f8"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8050-900f-d2bd44d64751" class="">7) Immune signaling: “inflammation” is a control mode, 
-not a disease label</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b8-94bb-ee780a8a0438" class="">Immune activation shifts the whole system into:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fa-ba4e-d41a47439343" class="bulleted-list"><li style="list-style-type:disc">higher vascular tone</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80a0-bfad-c70eb6767905" class="bulleted-list"><li style="list-style-type:disc">higher clot readiness</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80fc-8f4a-e17ec4a53464" class="bulleted-list"><li style="list-style-type:disc">lower digestion</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80b9-819d-e5f04a4c9b61" class="bulleted-list"><li style="list-style-type:disc">higher sensory sensitivity</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8084-9931-e88ffaa17c50" class="bulleted-list"><li style="list-style-type:disc">poorer sleep architecture</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80b5-b3af-cea33b44d0c9" class="">That’s adaptive short-term. 
-It becomes destructive long-term.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80e4-b6b2-f23c2ab3a13b" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="30bc5e6f-95bd-80dc-9836-e0fa4ef86800" class="">Sustained immune arousal raises the system’s baseline operating cost.</blockquote></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-80ea-be5e-e8a80c000a39"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-80e1-b248-c550e356dbfd" class="">8) Circadian and sleep are not “rest”; 
-they are maintenance windows</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8038-b4ae-d24545508c22" class="">At micro scale, deep sleep is when:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-801c-9d05-f87a30748c76" class="bulleted-list"><li style="list-style-type:disc">synapses downscale (noise reduction)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8028-ae68-c05cd1624f9f" class="bulleted-list"><li style="list-style-type:disc">glymphatic clearance increases (waste removal)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80aa-99f3-fe83f9b594a3" class="bulleted-list"><li style="list-style-type:disc">sympathetic tone drops</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80ba-b9c4-dea937dba929" class="bulleted-list"><li style="list-style-type:disc">repair pathways dominate</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8055-827f-c703d6774468" class="">When sleep is fragmented or unsafe, the system cannot run maintenance reliably, so entropy accumulates.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8022-9a08-f7dd319fd55a" class=""><strong>Invariant:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="30bc5e6f-95bd-80a5-b720-defaf460926f" class="">No maintenance window → accumulated entropy → threshold failure.</blockquote></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-809f-ba41-cdd801a871fb"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-809a-8971-d6261265ed8e" class="">9) EM layer (strictly physical): oscillators entrain via coupling, 
-not magic</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8067-a97a-e98bc0bb5a5d" class="">What’s real:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-808e-8e40-d059dc02d41f" class="bulleted-list"><li style="list-style-type:disc">biological oscillators entrain (heart rate, breathing, brain rhythms) via <strong>sensory coupling</strong> (touch, sound, 
-rhythmic environment)</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8008-b1ee-e2667f94ac4c" class="bulleted-list"><li style="list-style-type:disc">coherence improves when input is rhythmic and predictable</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-808e-b0b4-d068106002d8" class="">What’s not real:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-807f-9d4c-fbd74d83ecaa" class="bulleted-list"><li style="list-style-type:disc">“qubit-like coherence” at body scale</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ae-9e3e-defa7470a6a2" class=""><strong>Correct mapping from qubits:</strong></p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80ec-85a4-c50275567aa0" class="">Qubits survive only through <strong>error correction</strong>.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d2-90dc-fb033b44bfae" class="">Living systems and civilizations survive only through <strong>error correction + redundancy + buffers</strong>.</p></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8049-8607-d2fbca067b2c"/></div><div style="display:contents" dir="auto"><h2 id="30bc5e6f-95bd-8018-aac6-da5fb7199f47" class="">10) The deepest unifying collapse condition (cells → tissues → organs → civilization)</h2></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-8090-8b72-dafc9709adc5" class="">Collapse is threshold crossing when four things align:</p></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80e1-a8fc-f2c8d64ca637" class="numbered-list" start="1"><li><strong>Margin shrinks</strong> (ATP / buffers)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-80f4-a5f5-cca8667c6e95" class="numbered-list" start="2"><li><strong>Noise rises</strong> (signaling / truth)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" i
-d="30bc5e6f-95bd-809d-abb4-d6f9c1868779" class="numbered-list" start="3"><li><strong>Coupling is high</strong> (tight interdependence)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="30bc5e6f-95bd-806b-829e-dec46bc639e9" class="numbered-list" start="4"><li><strong>Correction is slow</strong> (repair / enforcement)</li></ol></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-805f-b35f-e23b8c7fc248" class=""><strong>System failure becomes likely when:Propagation rate &gt; 
-correction rate</strong> for long enough.</p></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d5-a3d6-d498d98c832c" class="">That is the same physics behind:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80d3-8a08-ebf9c524b471" class="bulleted-list"><li style="list-style-type:disc">arrhythmias</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8040-b42a-c546f8cbd766" class="bulleted-list"><li style="list-style-type:disc">strokes</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-806a-b7d0-ce3775edb46c" class="bulleted-list"><li style="list-style-type:disc">septic cascades</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-804e-bb54-eb9c51b51e2c" class="bulleted-list"><li style="list-style-type:disc">grid blackouts</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-809b-9cf1-c7b45b8c67cf" class="bulleted-list"><li style="list-style-type:disc">financial contagion</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-80f1-8f4e-e386c3156e98" class="bulleted-list"><li style="list-style-type:disc">institutional collapse</li></ul></div><div style="display:contents" dir="auto"><hr id="30bc5e6f-95bd-8064-8471-d6818059a2bf"/></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-800a-8309-c1bee2f9be91" class="">If you want “more” again, 
-the next true micro layer is to pick one substrate and go fully granular:</p></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8005-8da7-deccf781f494" class="bulleted-list"><li style="list-style-type:disc"><strong>Microvascular failure chain</strong>: glycocalyx → NO → clot microdynamics → perfusion noise</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8000-bdc5-ee001392f8dc" class="bulleted-list"><li style="list-style-type:disc"><strong>Arrhythmia chain</strong>: ion channels → refractoriness dispersion → reentry circuits</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8002-a9e5-cb8874bb0220" class="bulleted-list"><li style="list-style-type:disc"><strong>Brainstem chain</strong>: chemoreflex gain → vagal withdrawal → sympathetic lock</li></ul></div><div style="display:contents" dir="auto"><ul id="30bc5e6f-95bd-8064-9b90-f3ff1c21f7e8" class="bulleted-list"><li style="list-style-type:disc"><strong>Grid analogy</strong>: frequency stability math ↔ membrane depolarization ↔ reentry</li></ul></div><div style="display:contents" dir="auto"><p id="30bc5e6f-95bd-80d9-9812-fa6739f3324c" class="">Say the number: <strong>(1) microvascular</strong>, <strong>(2) arrhythmia</strong>, <strong>(3) brainstem</strong>, or <strong>(4) grid</strong>.</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+
+
+# Hh
+### Invariants 901–1000: Relationships & Clusters (next 100, with equations)
+### Additional definitions
+  * Cluster overlap allowed set (for multi-membership)
+
+
+  * Fuzzy membership
+
+
+  * Pairwise “same cluster” indicator
+
+
+  * Edge set by predicate
+
+
+  * Cluster-level predicate graph
+
+
+* * *
+## A) Overlapping / multi-membership clusters
+**901. Multi-membership bounded**  
+If memberships:
+```
+    m(v)=|\{k: v\in C_k\}| \le M_{max}
+```
+**902. At least one membership**
+```
+    \forall v:\ m(v)\ge 1
+```
+**903. Overlap allowed only for eligible nodes**
+```
+    m(v)>1 \Rightarrow v\in EligibleOverlap
+```
+**904. Overlap forbidden for exclusive types**  
+If :
+```
+    type(v)\in ExclusiveTypes \Rightarrow m(v)=1
+```
+**905. Overlap intersection cap**
+```
+    \forall i\neq j:\ |C_i\cap C_j|\le \Omega_{max}
+```
+**906. Overlap ratio cap**
+```
+    \frac{|C_i\cap C_j|}{\min(|C_i|,|C_j|)}\le \omega_{max}
+```
+**907. Fuzzy membership simplex**
+```
+    \forall v:\ \sum_k p_k(v)=1,\ \ p_k(v)\ge 0
+```
+**908. Hard membership from fuzzy with threshold**
+```
+    v\in C_k \iff p_k(v)\ge \tau
+```
+**909. Overlap implies multiple probabilities above threshold**
+```
+    m(v)>1 \Rightarrow |\{k: p_k(v)\ge \tau\}|>1
+```
+**910. Fuzzy entropy bound for non-overlap nodes**  
+If :
+```
+    H(p(v))\le H_{max}
+```
+* * *
+## B) Cluster similarity and deduplication (meta-clustering)
+**911. Cluster similarity (Jaccard)**
+```
+    sim(C_i,C_j)=\frac{|C_i\cap C_j|}{|C_i\cup C_j|}
+```
+**912. No duplicate clusters**
+```
+    sim(C_i,C_j)\ge \tau_{dup} \Rightarrow \text{merge}(C_i,C_j)
+```
+**913. Merge produces union**
+```
+    merge(C_i,C_j)=C_i\cup C_j
+```
+**914. Merge preserves coverage**
+```
+    \bigcup_k C_k = V\ \text{before} \Rightarrow \bigcup_k C'_k = V\ \text{after}
+```
+**915. Merge reduces count**
+```
+    merge \Rightarrow K' = K-1
+```
+**916. Cluster distance lower bound post-merge**
+```
+    \forall i\neq j:\ dist(C_i,C_j)\ge d_{min}
+```
+**917. Cluster centroid similarity cap**
+```
+    \cos(\mu_i,\mu_j)\le \rho_{max}\ \ (i\neq j)
+```
+**918. Cluster representative uniqueness**
+```
+    rep(C_i)=rep(C_j)\Rightarrow i=j
+```
+**919. Representative selection stable**
+```
+    rep(C_k,t+1)=rep(C_k,t)\ \text{unless evidence}
+```
+**920. Merge decision determinism**
+```
+    decision(C_i,C_j)=decision(C_i,C_j)
+```
+* * *
+## C) Relationship closure and inference invariants
+**921. Inference closure is consistent**
+```
+    closure(F)\Rightarrow \neg (x\land \neg x)
+```
+**922. Closure idempotence**
+```
+    closure(closure(F))=closure(F)
+```
+**923. Closure monotonicity**
+```
+    F\subseteq G \Rightarrow closure(F)\subseteq closure(G)
+```
+**924. Derived facts marked derived**
+```
+    f\in closure(F)\setminus F \Rightarrow derived(f)=True
+```
+**925. Derived fact provenance**
+```
+    derived(f)=True \Rightarrow \exists rule,\ inputs
+```
+**926. Rule application determinism**
+```
+    apply(rule,F)=apply(rule,F)
+```
+**927. No cyclic derivation (if forbidden)**
+```
+    f \Rightarrow \neg depends(f,f)
+```
+**928. Bounded inference depth**
+```
+    depth(derivation(f))\le D_{max}
+```
+**929. Inference termination**
+```
+    \Box \Diamond fixedpoint(closure)
+```
+**930. Constraint satisfaction preserved under closure**
+```
+    constraints(F)=True \Rightarrow constraints(closure(F))=True
+```
+* * *
+## D) Edge directionality and reciprocity invariants (deeper)
+**931. Reciprocity exact for symmetric predicates**
+```
+    p(u,v)\Rightarrow p(v,u)
+```
+**932. Reciprocity forbidden for antisymmetric predicates**
+```
+    p(u,v)\Rightarrow \neg p(v,u)\ \ (u\neq v)
+```
+**933. Bidirectional edge weight consistency**
+```
+    p(u,v)\land p(v,u)\Rightarrow |w(u,v)-w(v,u)|\le \epsilon
+```
+**934. Reciprocal ratio floor (network)**
+```
+    \frac{|\{(u,v)\in R:(v,u)\in R\}|}{|R|}\ge r_{min}
+```
+**935. In-degree distribution constraint**  
+If expected distribution :
+```
+    KS(indeg, P)\le \delta
+```
+**936. Out-degree distribution constraint**
+```
+    KS(outdeg, P)\le \delta
+```
+**937. Edge direction consistent with time**  
+If edge implies “influenced-by”:
+```
+    (u,v)\in R \Rightarrow time(u)\le time(v)
+```
+**938. No backward-causality edges**
+```
+    time(u)>time(v)\Rightarrow (u,v)\notin R
+```
+**939. Edge direction consistent with hierarchy**  
+If parent relation:
+```
+    parent(u,v)\Rightarrow level(u)<level(v)
+```
+**940. No cross-level violation**
+```
+    level(u)\ge level(v)\Rightarrow \neg parent(u,v)
+```
+* * *
+## E) Cluster-level constraints from block models
+**941. Block density definition**  
+For blocks :
+```
+    dens(i,j)=\frac{|R\cap (C_i\times C_j)|}{|C_i||C_j|}
+```
+**942. Diagonal blocks dense (community)**
+```
+    dens(i,i)\ge \delta_{in}
+```
+**943. Off-diagonal blocks sparse**
+```
+    i\neq j \Rightarrow dens(i,j)\le \delta_{out}
+```
+**944. Stochastic block model normalization**
+```
+    0\le \theta_{ij}\le 1
+```
+**945. Expected edges under SBM**
+```
+    \mathbb{E}[A_{uv}] = \theta_{c(u)c(v)}
+```
+**946. Likelihood monotonicity (EM on SBM)**
+```
+    \mathcal{L}_{t+1}\ge \mathcal{L}_t
+```
+**947. Parameter identifiability (no duplicate blocks)**
+```
+    \theta_{i\cdot}=\theta_{j\cdot} \Rightarrow i=j
+```
+**948. Block symmetry (undirected)**
+```
+    \theta_{ij}=\theta_{ji}
+```
+**949. Block constraints by predicate**
+```
+    p(u,v)\Rightarrow \theta^{(p)}_{c(u)c(v)}\ge \tau
+```
+**950. Multi-predicate block separation**
+```
+    \theta^{(p)}_{ij}\cdot \theta^{(q)}_{ij}=0
+```
+* * *
+## F) Centrality, influence, and cluster cores
+**951. Core nodes defined by centrality threshold**
+```
+    core(v)=True \iff cent(v)\ge \tau_c
+```
+**952. Core size bound**
+```
+    \rho_{min}|C_k|\le |Core_k|\le \rho_{max}|C_k|
+```
+**953. Core contained in cluster**
+```
+    Core_k \subseteq C_k
+```
+**954. Core connectivity**
+```
+    G[Core_k]\ \text{connected}
+```
+**955. Core-to-periphery reachability**
+```
+    \forall v\in C_k:\ \exists u\in Core_k:\ u\to^* v
+```
+**956. Core stability across time**
+```
+    \frac{|Core_k(t)\cap Core_k(t+1)|}{|Core_k(t)\cup Core_k(t+1)|}\ge J_{core}
+```
+**957. Representative chosen from core**
+```
+    rep(C_k)\in Core_k
+```
+**958. Representative maximizes evidence**
+```
+    rep(C_k)=\arg\max_{v\in Core_k} a(v,k)
+```
+**959. No two clusters share same core node (if disjoint)**
+```
+    v\in Core_i \land v\in Core_j \Rightarrow i=j
+```
+**960. Influence direction constraint**  
+If influence edge:
+```
+    influence(u,v)\Rightarrow cent(u)\ge cent(v)-\epsilon
+```
+* * *
+## G) Fairness / bias invariants in clustering (structural)
+**961. Representation constraint**  
+For group :
+```
+    \forall k:\ \frac{|C_k\cap g|}{|C_k|} \in [\alpha_g-\epsilon,\alpha_g+\epsilon]
+```
+**962. Minimum group presence**
+```
+    |C_k\cap g|\ge m_g
+```
+**963. No group isolation (if forbidden)**
+```
+    \exists k:\ C_k\subseteq g \Rightarrow \bot
+```
+**964. Parity of assignment confidence**
+```
+    \mathbb{E}[a(v,c(v))\mid g_1]-\mathbb{E}[a(v,c(v))\mid g_2]\le \delta
+```
+**965. Equal constraint violation rate**
+```
+    viol\_rate(g_1)-viol\_rate(g_2)\le \delta
+```
+**966. Similar silhouette by group**
+```
+    |\mathbb{E}[sil(v)\mid g_1]-\mathbb{E}[sil(v)\mid g_2]|\le \delta
+```
+**967. Outlier parity**
+```
+    \left|\frac{|O\cap g_1|}{|g_1|}-\frac{|O\cap g_2|}{|g_2|}\right|\le \delta
+```
+**968. Post-processing preserves constraints**
+```
+    constraints(c)=True \Rightarrow constraints(post(c))=True
+```
+**969. Constraint-aware objective**
+```
+    J_{total}=J+\lambda\cdot penalty_{fair}
+```
+**970. Fairness penalty non-negative**
+```
+    penalty_{fair}\ge 0
+```
+* * *
+## H) Operational invariants for relationship/cluster pipelines
+**971. Deterministic ETL**
+```
+    ETL(data)=ETL(data)
+```
+**972. No duplicate nodes in pipeline**
+```
+    count(node\_id)=1
+```
+**973. Pipeline preserves node count (unless filtered)**
+```
+    |V_{out}|=|V_{in}|-|filtered|
+```
+**974. Pipeline preserves edge count accounting**
+```
+    |R_{out}|=|R_{in}|-|dropped|+|added|
+```
+**975. Every drop has reason**
+```
+    drop(x)\Rightarrow \exists reason(x)
+```
+**976. Every edge addition has evidence**
+```
+    add(u,v)\Rightarrow e(u,v)\ge \tau_e
+```
+**977. Every assignment has evidence**
+```
+    assign(v,k)\Rightarrow a(v,k)\ge \tau_a
+```
+**978. Version pinned across pipeline stages**
+```
+    stage_i.version = stage_{i+1}.version
+```
+**979. Audit log complete for deltas**
+```
+    \Delta V \lor \Delta R \lor \Delta c \Rightarrow audit(\Delta)
+```
+**980. Rerun reproducibility**
+```
+    run(seed,data)=run(seed,data)
+```
+* * *
+## I) Cluster-to-cluster relation constraints (meta-relations)
+**981. Cluster relation type constraints**
+```
+    rel_C(C_i,C_j)\in Types_C
+```
+**982. Cluster relation implies node relation existence**
+```
+    rel_C(C_i,C_j)=t \Rightarrow \exists u\in C_i,v\in C_j:\ rel(u,v)=t
+```
+**983. Node relation implies some cluster relation**
+```
+    rel(u,v)=t \Rightarrow rel_C(C_{c(u)},C_{c(v)})\ \text{defined}
+```
+**984. Cluster relation antisymmetry (taxonomy)**
+```
+    parent_C(C_i,C_j)\land parent_C(C_j,C_i)\Rightarrow i=j
+```
+**985. Cluster relation transitivity (taxonomy)**
+```
+    parent_C(C_i,C_j)\land parent_C(C_j,C_k)\Rightarrow parent_C(C_i,C_k)
+```
+**986. Cluster relation acyclicity**
+```
+    \neg \exists C_i:\ C_i \to_C^+ C_i
+```
+**987. Unique parent (taxonomy)**
+```
+    \forall C_j:\ |\{C_i: parent_C(C_i,C_j)\}| \le 1
+```
+**988. Root uniqueness**
+```
+    |\{C_i: indeg_C(C_i)=0\}|=1
+```
+**989. Coverage of cluster hierarchy**
+```
+    \forall C_i:\ root\to_C^* C_i
+```
+**990. Cluster relation evidence threshold**
+```
+    rel_C(C_i,C_j)\Rightarrow e_C(i,j)\ge \tau_C
+```
+* * *
+## J) Termination, validation, and invariants closure
+**991. Validate relationship constraints**
+```
+    validate(R)=True
+```
+**992. Validate clustering constraints**
+```
+    validate(c)=True
+```
+**993. Validate ontology constraints**
+```
+    validate(ontology)=True
+```
+**994. Validation total**
+```
+    validate(x)\in\{True,False\}
+```
+**995. Failure produces explanation**
+```
+    validate(x)=False \Rightarrow \exists explanation(x)
+```
+**996. Fix reduces violations**
+```
+    violations_{t+1}\le violations_t
+```
+**997. Fix preserves coverage**
+```
+    \bigcup_k C_k = V
+```
+**998. Fix preserves disjointness (if required)**
+```
+    C_i\cap C_j=\varnothing\ (i\neq j)
+```
+**999. Fixed point condition**
+```
+    (R,c) = fix(R,c) \Rightarrow stop
+```
+**1000. Output is structurally sealed (operational)**
+```
+    validate(R)\land validate(c)\land validate(ontology) \Rightarrow output\_accepted=True
+```
+If you want 1001–1100, specify whether you want the next set skewed toward (1) temporal evolution, (2) ontology/knowledge graphs, (3) entity resolution, or (4) block models/community detection.
+## C401–C500 (names + formal constraints)
+### Group E1 — Data quality & analytics correctness (C401–C430)
+C401 — DQ_Increases_With_GC —
+C402 — DQ_Increases_With_AQ —
+C403 — DQ_Increases_With_OB —
+C404 — DQ_Decreases_With_MP —
+C405 — DQ_Decreases_With_OP —
+C406 — DQ_Decreases_With_CF —
+C407 — LowDQ_Raises_IR — (bad decisions/alerts)
+C408 — LowDQ_Raises_CP — (misallocation cost)
+C409 — LowDQ_Raises_OP — (data distrust → backchannels)
+C410 — DQ_Amplifies_DecisionError — decreases
+C411 — DQ_Amplifies_Bypass —
+C412 — DataDrift_Regime — DataDrift
+C413 — DQ_Control_Requires_OB — under churn
+C414 — D Q_Control_Requires_GC —
+C415 — DQ_LoopGain —
+C416 — Stabilizer_GC_OB —
+C417 — HighDQ_Improves_RES — (via better CD/EB control)
+C418 — HighDQ_Lowers_CR —
+C419 — DQ_Threshold_CostSpiral — CostSpiral risk rises
+C420 — DQ_Boundedness — becomes noise-driven (unstable)
+C421 — DQ_Saturation — analytics-driven errors minimal
+C422 — MP_Shock_Lowers_DQ —
+C423 — OP_Shock_Lowers_DQ —
+C424 — CF_Shock_Lowers_DQ —
+C425 — DQ_Requires_DF — under model changes
+C426 — DQ_Requires_VR —
+C427 — DQ_Improves_EI —
+C428 — DQ_Reduces_Bypass_Slope — d ecreases
+C429 — DQ_Stability_Exit — exit DataDrift
+C430 — DataIntegrity_Global — system-level decision noise bounded
+* * *
+### Group E2 — Knowledge, documentation & memory (C431–C460)
+C431 — DF_Increases_With_CB —
+C432 — DF_Increases_With_RS —
+C433 — DF_Increases_With_GC —
+C434 — DF_Decreases_With_MP —
+C435 — DF_Decreases_With_CC —
+C436 — DF_Decreases_With_IR —
+C437 — LowDF_Raises_TK —
+C438 — HighTK_Raises_MTTR —
+C439 — KnowledgeLockIn_Regime — KnowledgeLockIn
+C440 — DF_Improves_VR —
+C441 — DF_Improves_DR —
+C442 — DF_Reduces_Bypass —
+C443 — KnowledgeLoopGain —
+C444 — Stabilizer_RS_GC —
+C445 — D F_Threshold_Attrition —
+C446 — DF_Boundedness — under churn
+C447 — DF_Saturation — (idealized limit)
+C448 — MP_Shock_Lowers_DF —
+C449 — IR_Shock_Lowers_DF — (firefighting)
+C450 — DF_ExitCondition — exit KnowledgeLockIn
+C451 — TK_Raises_OP —
+C452 — DF_Reduces_OP —
+C453 — DF_Improves_EI —
+C454 — DF_Improves_RES —
+C455 — LowDF_Raises_CR — (via MTTR/IR)
+C456 — DF_Requires_CB —
+C457 — DF_Requires_RS — investment unsustained
+C458 — DF_Requires_GC — decays under churn
+C459 — DF_Reduces_CF_Indirectly —
+C460 — KnowledgeStability_Global — bounded
+* * *
+### Group E3 — Epistemics, dissent & opacity (C461–C500)
+C461 — DT_Increases_With_RS —
+C462 — DT_Increases_With_GC —
+C463 — DT_Increases_With_EI —
+C464 — DT_Decreases_With_SRC —
+C465 — DT_Decreases_With_OP —
+C466 — OP_Increases_With_MP —
+C467 — OP_Increases_With_SRC —
+C468 — OP_Increases_With_PA —
+C469 — OP_Decreases_With_VR —
+C470 — OP_Decreases_With_RS —
+C471 — OP_Decreases_With_GC —
+C472 — EpistemicCollapse_Regime — EpistemicCollapse
+C473 — LowDT_Raises_DI — (bad decisions unchallenged)
+C474 — HighOP_Raises_Bypass —
+C475 — HighOP_Lowers_VR —
+C476 — EpistemicLoopGain —
+C477 — Stabilizer_RS_GC_VR —
+C478 — HighDT_Improves_EI —
+C479 — HighDT_Improves_RES —
+C480 — OP_Threshold_Cascade — sensitivity rises
+C481 — OP_Threshold_CostSpiral — CostSpiral risk rises
+C482 — OP_Boundedness — unless RS forces transparency
+C483 — DT_Boundedness —
+C484 — OP_Shock_Amplifies_MP — (panic escalation)
+C485 — DT_Shock_Dampens_MP —
+C486 — OP_Raises_CR — (hidden risk)
+C487 — DT_Lowers_CR —
+C488 — OP_Raises_Attrition —
+C489 — DT_Reduces_Attrition —
+C490 — OP_Raises_PA —
+C491 — DF_Reduces_PA —
+C492 — EI_Requires_DT —
+C493 — EI_Requires_VR —
+C494 — EpistemicExitCondition — exit EpistemicCollapse
+C495 — EpistemicStability_Global — bounded high
+C496 — OP_Raises_CF — (shadow changes)
+C497 — OP_Raises_SSR — (hidden supply risk)
+C498 — DT_Raises_CD —
+C499 — DT_Raises_VR —
+C500 — EpistemicIntegrity_Global — decision noise bounded system-wide
+* * *
+If you want, I will continue with **C501–C600** , or convert C001–C500 into a structured YAML constraint file for machine evaluation.
+## C301–C400 (names + formal constraints)
+### Group D2 — Config drift & change entropy (C301–C340)
+C301 — CF_Increases_With_MP —
+C302 — CF_Increases_With_CC —
+C303 — CF_Increases_With_TK —
+C304 — CF_Decreases_With_GC —
+C305 — CF_Decreases_With_AQ —
+C306 — CF_Decreases_With_CD —
+C307 — HighCF_Raises_IR —
+C308 — HighCF_Raises_MTTR —
+C309 — HighCF_Lowers_DQ —
+C310 — ConfigEntropy_Regime — ConfigEntropy
+C311 — LowGC_Allows_CF_Runaway —
+C312 — CD_Is_Primary_CF_Damper — (if MP not extreme)
+C313 — AQ_Is_Primary_CF_Damper —
+C314 — CF_Amplifies_Bypass — (via incidents/oncall)
+C315 — CF_Amplifies_CC_Sensitivity — increases
+C316 — CF_Amplifies_DependencyRisk — increases
+C317 — CF_Amplifies_SecurityRisk — increases
+C318 — ConfigDriftLoopGain —
+C319 — Stabilizer_GC_CD_AQ —
+C320 — CF_Threshold_CascadeRisk — CascadeRisk elevated
+C321 — CF_Threshold_CostSpiral — CostSpiral risk rises
+C322 — CF_Boundedness — must be high or IR saturates high
+C323 — CF_Saturation — config contributes ~0 to IR
+C324 — MP_Shock_Raises_CF — unless CD/AQ high
+C325 — OP_Correlates_With_CF — (untracked changes)
+C326 — TK_Correlates_With_CF —
+C327 — DF_Dampens_CF_Indirectly —
+C328 — HighCF_Burns_EB —
+C329 — HighCF_Raises_CP —
+C330 — CF_Raises_MTTD_Indirectly —
+C331 — CF_Raises_Attrition —
+C332 — CF_Reduces_Resilience — (via IR/OS/CB)
+C333 — CF_Requires_Runbooks — needed to keep MTTR bounded
+C334 — CF_Control_Requires_GC — control weak even if AQ moderate
+C335 — CF_Control_Requires_CD — under MP
+C336 — CF_Control_Requires_AQ — under MP
+C337 — CF_Control_Requires_CB —
+C338 — CF_Perturbs_DQ —
+C339 — CF_Perturbs_DH — (integration instability)
+C340 — ConfigEntropy_ExitCondition — exit ConfigEntropy regime
+* * *
+### Group D3 — Dependency health & integration fragility (C341–C380)
+C341 — DH_Increases_With_GC —
+C342 — DH_Increases_With_AQ —
+C343 — DH_Increases_With_SP —
+C344 — DH_Decreases_With_SSR —
+C345 — DH_Decreases_With_MP —
+C346 — LowDH_Raises_IR —
+C347 — LowDH_Raises_SSR —
+C348 — IntegrationFragility_Regime — IntegrationFragility
+C349 — HighMP_Erodes_DH — unless GC high
+C350 — DH_Reduces_MTTR —
+C351 — DH_Reduces_CF_Indirectly — (fewer config hacks)
+C352 — DH_Amplifies_CC_Effects — increases
+C353 — DH_Amplifies_CF_Effects — increases
+C354 — DH_Sensitivity_To_SSR — 
+C355 — DH_Sensitivity_To_SP —
+C356 — DependencyLoopGain —
+C357 — Stabilizer_SP_GC —
+C358 — DH_Threshold_SecurityCollapse — (within 1–2 steps)
+C359 — DH_Threshold_CostSpiral — CostSpiral risk rises
+C360 — DH_Boundedness — sensitivity to CF spikes
+C361 — DH_Saturation — dependency contribution to IR minimal
+C362 — LowDH_Burns_EB —
+C363 — LowDH_Raises_OS —
+C364 — LowDH_Raises_AT —
+C365 — LowDH_Raises_OP — (blame shifting/backchannels)
+C366 — GC_Buffers_MP_On_DH — decreases
+C367 — AQ_Buffers_MP_On_DH — decreases
+C368 — C D_Indirectly_Protects_DH —
+C369 — DF_Protects_DH —
+C370 — DH_Control_Requires_DF — under integration churn
+C371 — DH_Control_Requires_VR — (unreviewed upgrades)
+C372 — DH_Control_Requires_CD — (risky deploys)
+C373 — DH_Control_Requires_SP —
+C374 — DH_Raises_Resilience —
+C375 — DH_Lowers_CatastrophicRisk —
+C376 — DH_Amplifies_SSR_When_OPHigh — increases
+C377 — SupplyChain_Shock —
+C378 — DependencyStability_ExitCondition — exit IntegrationFragility
+C379 — DH_Requires_Governed_Upgrades — stable requires
+C380 — DependencyRisk_Coordinates_With_CC — becomes superlinear in CC
+* * *
+### Group D4 — Supply chain security & security posture (C381–C400)
+C381 — SSR_Increases_With_LowDH —
+C382 — SSR_Increases_With_LowSP —
+C383 — SSR_Increases_With_MP —
+C384 — SSR_Decreases_With_GC —
+C385 — SSR_Decreases_With_AQ —
+C386 — SP_Increases_With_GC —
+C387 — SP_Increases_With_AQ —
+C388 — SP_Increases_With_RS —
+C389 — SP_Decreases_With_MP —
+C390 — SP_Decreases_With_CP —
+C391 — SP_Decreases_With_SSR —
+C392 — SecurityCollapse_Regime — SecurityCollapse
+C393 — LowSP_Raises_IR — (security incidents)
+C394 — LowSP_Raises_CP — (breach cost)
+C395 — SupplyChainLoopGain —
+runaway
+C396 — Stabilizer_GC_AQ —
+C397 — SSR_Threshold_IRSpike — unless SP high
+C398 — MP_Shock_Raises_SSR —
+C399 — CP_Shock_Lowers_SP —
+C400 — SecurityExitCondition — exit SecurityCollapse regime
+### Invariants 801–900: Relationships & Clusters (next 100, with equations)
+### Additional definitions
+  * Cluster-to-cluster mapping over time
+
+
+  * Edge evidence score
+
+
+  * Assignment evidence score
+
+
+  * Thresholds:
+
+
+* * *
+## A) Evidence and threshold invariants
+**801. Edge must exceed evidence threshold**
+```
+    (u,v)\in R \Rightarrow e(u,v)\ge \tau_e
+```
+**802. No edge if evidence below threshold (if enforced)**
+```
+    e(u,v)<\tau_e \Rightarrow (u,v)\notin R
+```
+**803. Evidence bounded**
+```
+    0\le e(u,v)\le 1
+```
+**804. Assignment must exceed threshold**
+```
+    c(v)=k \Rightarrow a(v,k)\ge \tau_a
+```
+**805. Unassigned if no cluster exceeds threshold**
+```
+    \max_k a(v,k)<\tau_a \Rightarrow c(v)=0
+```
+**806. Evidence monotonic with added supporting signals**  
+If signals aggregate to evidence:
+```
+    e=\sum_i s_i \Rightarrow s_i \uparrow \Rightarrow e \uparrow
+```
+**807. Evidence update determinism**
+```
+    update(e,signals)=update(e,signals)
+```
+**808. Evidence decay correctness (if used)**
+```
+    e(t)=e(0)e^{-\lambda t}
+```
+**809. Evidence source completeness**
+```
+    (u,v)\in R \Rightarrow \exists src(u,v)
+```
+**810. Evidence source whitelist**
+```
+    src(u,v)\in AllowedSources
+```
+* * *
+## B) Relationship typing and ontology constraints (expanded)
+**811. Predicate domain constraint**
+```
+    p(u,v)\Rightarrow type(u)\in Dom(p)
+```
+**812. Predicate range constraint**
+```
+    p(u,v)\Rightarrow type(v)\in Ran(p)
+```
+**813. Mutual exclusivity of predicates (if declared)**
+```
+    p(u,v)\Rightarrow \neg q(u,v)
+```
+**814. Predicate implication**
+```
+    p(u,v)\Rightarrow q(u,v)
+```
+**815. Predicate inverse correctness**  
+If :
+```
+    p(u,v)\Rightarrow q(v,u)
+```
+**816. Predicate transitive closure (if declared transitive)**
+```
+    p(u,v)\land p(v,w)\Rightarrow p(u,w)
+```
+**817. Predicate anti-symmetry (hierarchy)**
+```
+    p(u,v)\land p(v,u)\Rightarrow u=v
+```
+**818. Functional predicate**
+```
+    p(u,v)\land p(u,v')\Rightarrow v=v'
+```
+**819. Inverse functional predicate**
+```
+    p(u,v)\land p(u',v)\Rightarrow u=u'
+```
+**820. No type contradiction**
+```
+    inst(x,A)\land inst(x,B)\land disjoint(A,B)\Rightarrow \bot
+```
+* * *
+## C) Cluster consistency constraints (semantic purity)
+**821. Type purity per cluster (hard)**
+```
+    \forall k:\ |\{type(v):v\in C_k\}|=1
+```
+**822. Type purity (soft bound)**
+```
+    \forall k:\ \max_T \frac{|\{v\in C_k:type(v)=T\}|}{|C_k|}\ge \pi_{\min}
+```
+**823. Attribute purity (categorical)**
+```
+    purity_a(C_k)=\max_x \frac{|\{v\in C_k:a(v)=x\}|}{|C_k|}\ge p_{\min}
+```
+**824. Numeric attribute variance bound**
+```
+    Var_a(C_k)\le \sigma^2_{\max}
+```
+**825. Forbidden attribute mixtures**
+```
+    \exists v,w\in C_k:\ (a(v),a(w))\in ForbiddenPairs \Rightarrow \bot
+```
+**826. Role uniqueness constraint**  
+If role must be unique within cluster:
+```
+    \forall k:\ |\{v\in C_k: role(v)=r\}|\le 1
+```
+**827. Required role presence**  
+If role required:
+```
+    \forall k:\ |\{v\in C_k: role(v)=r\}|\ge 1
+```
+**828. Cluster label determinism**
+```
+    label(C_k)=label(C_k)
+```
+**829. Cluster representative must satisfy type**
+```
+    rep(C_k)\in C_k \land type(rep(C_k))=type(C_k)
+```
+**830. Representative evidence maximal**
+```
+    rep(C_k)=\arg\max_{v\in C_k} a(v,k)
+```
+* * *
+## D) Relationship constraints driven by clusters
+**831. Intra-only predicate**
+```
+    p(u,v)\Rightarrow c(u)=c(v)
+```
+**832. Inter-only predicate**
+```
+    p(u,v)\Rightarrow c(u)\neq c(v)
+```
+**833. Intra-edge density for predicate**
+```
+    \frac{|R_p \cap (C_k\times C_k)|}{\binom{|C_k|}{2}} \ge \delta_{p}
+```
+**834. Cross-edge ceiling for predicate**
+```
+    \frac{|R_p \cap (C_i\times C_j)|}{|R_p|} \le \gamma_{p}
+```
+**835. Cross-cluster relation must be mediated**  
+If mediator predicate :
+```
+    p(u,v)\land c(u)\neq c(v)\Rightarrow \exists w:\ m(u,w)\land m(w,v)
+```
+**836. No triangle across forbidden cluster triplets**  
+If forbidden triplets :
+```
+    (c(u),c(v),c(w))\in F \Rightarrow \bot
+```
+**837. Cluster-level edge implies node-level support**
+```
+    (C_i,C_j)\in R_C \Rightarrow \exists u\in C_i,v\in C_j:\ (u,v)\in R
+```
+**838. Node-level support implies cluster-level edge**
+```
+    \exists u\in C_i,v\in C_j:\ (u,v)\in R \Rightarrow (C_i,C_j)\in R_C
+```
+**839. Cluster-level weight consistency**
+```
+    w_C(i,j)=\sum_{u\in C_i,v\in C_j} w(u,v)
+```
+**840. Cluster-level weight bound**
+```
+    w_C(i,j)\le W^C_{\max}
+```
+* * *
+## E) Stability across time (tracking clusters)
+**841. Total mapping for surviving clusters**
+```
+    |C_k(t)|\ge m \Rightarrow f_t(k)\neq \bot
+```
+**842. Mapping is functional (no split unless declared)**
+```
+    f_t(k)=i \land f_t(k)=j \Rightarrow i=j
+```
+**843. Split event definition**  
+If split occurs:
+```
+    f_t(k)=\{i,j\}\ \text{with}\ i\neq j
+```
+**844. Merge event definition**  
+If merge occurs:
+```
+    \exists k_1\neq k_2:\ f_t(k_1)=f_t(k_2)=i
+```
+**845. Cluster ID persistence under stable mapping**
+```
+    f_t(k)=k' \land stable(k,k') \Rightarrow id(k,t)=id(k',t+1)
+```
+**846. Stability criterion via overlap**
+```
+    stable(k,k') \iff \frac{|C_k(t)\cap C_{k'}(t+1)|}{|C_k(t)\cup C_{k'}(t+1)|}\ge J_{\min}
+```
+**847. Membership churn bound**
+```
+    \frac{|C_k(t)\ \Delta\ C_{f_t(k)}(t+1)|}{|C_k(t)|}\le \chi_{\max}
+```
+**848. Cluster disappearance requires cause**
+```
+    f_t(k)=\bot \Rightarrow \exists cause(k,t)
+```
+**849. Cluster creation requires cause**
+```
+    \exists k': k'\ \text{new at}\ t+1 \Rightarrow \exists cause(k',t+1)
+```
+**850. Centroid drift bound**
+```
+    \|\mu_k(t+1)-\mu_k(t)\|\le \Delta_{\max}
+```
+* * *
+## F) Constraint satisfaction and feasibility (advanced)
+**851. Feasible assignment exists**
+```
+    \exists c:\ constraints(c)=True
+```
+**852. Infeasibility triggers fallback**
+```
+    \neg \exists c \Rightarrow fallback\_mode=True
+```
+**853. Constraint priority ordering**  
+If priorities :
+```
+    P_i > P_j \Rightarrow violate(j)\ \text{allowed before}\ violate(i)
+```
+**854. Hard constraints never violated**
+```
+    hard(x)\Rightarrow \neg violate(x)
+```
+**855. Soft constraint violation bounded**
+```
+    \sum soft\_violations \le V_{\max}
+```
+**856. Constraint closure**  
+If constraint implies other constraints:
+```
+    C \Rightarrow closure(C)\ \text{applied}
+```
+**857. No contradictory constraint set**
+```
+    C \Rightarrow \neg (x \land \neg x)
+```
+**858. ML transitive closure computed**
+```
+    ML^+ = transitive\_closure(ML)
+```
+**859. CL consistency with ML closure**
+```
+    (u,v)\in ML^+ \Rightarrow (u,v)\notin CL
+```
+**860. Constraint explanation exists**
+```
+    violate(c)\Rightarrow \exists explanation(c)
+```
+* * *
+## G) Graph partition objectives (more)
+**861. Normalized cut objective**
+```
+    Ncut(\{C_k\})=\sum_k \frac{cut(C_k,\bar{C_k})}{vol(C_k)}
+```
+**862. Objective minimization**
+```
+    \min_{\{C_k\}} Ncut
+```
+**863. Ratio cut objective**
+```
+    Rcut=\sum_k \frac{cut(C_k,\bar{C_k})}{|C_k|}
+```
+**864. Objective monotonic improvement (iterative)**
+```
+    J_{t+1}\le J_t
+```
+**865. Modularity definition**
+```
+    Q=\frac{1}{2m}\sum_{u,v}\left(A_{uv}-\frac{k_uk_v}{2m}\right)\mathbf{1}[c(u)=c(v)]
+```
+**866. Max modularity goal**
+```
+    \max_c Q
+```
+**867. Balance constraint**
+```
+    \frac{\max_k |C_k|}{\min_k |C_k|}\le B_{\max}
+```
+**868. Minimum cluster size**
+```
+    |C_k|\ge m
+```
+**869. Maximum cluster size**
+```
+    |C_k|\le M
+```
+**870. Connected partition constraint**
+```
+    G[C_k]\ \text{connected}\ \forall k
+```
+* * *
+## H) Bipartite / two-mode relationship invariants
+**871. Bipartite edge type constraint**  
+If , :
+```
+    (u,v)\in R \Rightarrow (u\in U \land v\in W)\ \lor\ (u\in W \land v\in U)
+```
+**872. No within-part edges**
+```
+    (u,v)\in R \Rightarrow \neg(u\in U \land v\in U)\land \neg(u\in W \land v\in W)
+```
+**873. Projection correctness**  
+User-user projection edge:
+```
+    (u_1,u_2)\in R_{UU} \iff \exists w\in W:\ (u_1,w)\in R \land (u_2,w)\in R
+```
+**874. Co-occurrence weight**
+```
+    w(u_1,u_2)=|\{w:(u_1,w)\in R \land (u_2,w)\in R\}|
+```
+**875. Projection symmetry**
+```
+    w(u_1,u_2)=w(u_2,u_1)
+```
+**876. Projection diagonal excluded**
+```
+    (u,u)\notin R_{UU}
+```
+**877. Degree constraints per mode**
+```
+    \forall u\in U:\ deg(u)\le D_U,\ \forall w\in W:\ deg(w)\le D_W
+```
+**878. Mode cluster constraint**  
+Clusters must not mix modes (if required):
+```
+    v\in C_k \Rightarrow type(v)=fixed(k)
+```
+**879. Two-level clustering consistency**  
+If cluster users and items:
+```
+    (u,w)\in R \Rightarrow (c_U(u),c_W(w)) \in R_{CW}
+```
+**880. Block model density bounds**  
+For blocks :
+```
+    \delta_{ij}^{min}\le density(block_{ij})\le \delta_{ij}^{max}
+```
+* * *
+## I) Relational integrity across clustered entities
+**881. Cluster representative FK validity**
+```
+    rep(C_k)\ \text{used as FK} \Rightarrow rep(C_k)\in PK
+```
+**882. No two reps for same cluster**
+```
+    rep(C_k)=x \land rep(C_k)=y \Rightarrow x=y
+```
+**883. Rep change requires evidence**
+```
+    rep_{t+1}(C_k)\neq rep_t(C_k)\Rightarrow \Delta evidence \ge \theta
+```
+**884. Rep must satisfy completeness**
+```
+    rep(C_k)\Rightarrow required\_fields(rep)\ \text{present}
+```
+**885. Cluster-level constraint implies node-level enforcement**
+```
+    constraint(C_k)\Rightarrow \forall v\in C_k:\ constraint(v)
+```
+**886. Node-level violation bubbles to cluster**
+```
+    \exists v\in C_k:\ violate(v)\Rightarrow violate(C_k)
+```
+**887. Violation count bound per cluster**
+```
+    violations(C_k)\le V_{\max}
+```
+**888. Repair actions monotone reduce violations**
+```
+    violations_{t+1}(C_k)\le violations_t(C_k)
+```
+**889. Repair maintains partition**
+```
+    repair \Rightarrow \bigcup_k C_k = V\ \land\ C_i\cap C_j=\varnothing
+```
+**890. Repair preserves identity constraints**
+```
+    repair \Rightarrow same(\cdot)\ \text{remains equivalence}
+```
+* * *
+## J) Meta invariants (operational)
+**891. Deterministic rebuild of relationships**
+```
+    build_R(seed,data)=build_R(seed,data)
+```
+**892. Deterministic rebuild of clusters**
+```
+    build_C(seed,data)=build_C(seed,data)
+```
+**893. Versioned outputs**
+```
+    output(t+1)\neq output(t)\Rightarrow version++
+```
+**894. Backward compatibility window for IDs**
+```
+    t\in W \Rightarrow ids\_stable=True
+```
+**895. Audit record per edge change**
+```
+    R_{t+1}\neq R_t \Rightarrow \exists audit(\Delta R)
+```
+**896. Audit record per assignment change**
+```
+    c_{t+1}\neq c_t \Rightarrow \exists audit(\Delta c)
+```
+**897. Provenance for every cluster**
+```
+    \forall k:\ exists\ prov(C_k)
+```
+**898. Provenance for every edge**
+```
+    \forall (u,v)\in R:\ exists\ prov(u,v)
+```
+**899. Enforcement coverage**
+```
+    \forall I\in Invariants:\ enforced(I)=True
+```
+**900. Termination criteria explicit**
+```
+    stop \Rightarrow (|J_{t+1}-J_t|\le \epsilon)\ \lor\ (t\ge t_{\max})
+```
+If you want 901–1000, specify which sub-type you want emphasized:
+  1. knowledge graph + ontology constraints, 2) identity/entity-resolution clusters, 3) community detection/graph partitioning, 4) temporal evolution/tracking, or 5) block models/bipartite clustering.
+
+
+## MICRO↔MACRO MAP ACROSS ~100,000 YEARS OF CIVILIZATION
+(English, structural, not romanticized; same 19×19 control-system lens)
+### 1) The core claim
+Across ~100,000 years, “civilizational change” is largely the same phenomenon repeated at different scales:
+  * **Micro:** cells, nervous systems, families, teams
+
+
+  * **Meso:** firms, cities, supply chains
+
+
+  * **Macro:** states, empires, global orders
+
+
+The invariants don’t change. Only the **coupling density (C)** , **time constants (τ)** , and **buffer form (B)** change.
+* * *
+## 2) Micro → Macro translation table (stable invariants)
+### A) Micro (biology / individual)
+  * **E:** metabolic energy & oxygen delivery
+
+
+  * **P:** energy cost (effort per unit function)
+
+
+  * **L:** friction (coordination effort, executive load)
+
+
+  * **H:** maintenance debt (sleep debt, inflammation, wear)
+
+
+  * **K:** cost of action (risk to body)
+
+
+  * **Cr:** resource flow (blood flow, glucose, attention)
+
+
+  * **Fx:** external shock (infection, trauma, social threat)
+
+
+  * **RE:** structural imbalance (posture, load distribution, chronic mismatch)
+
+
+  * **Enf/Jud/Adm:** rule execution (habits, constraints, self-control circuits)
+
+
+  * **Cor:** leakage (wasted energy, maladaptive loops)
+
+
+  * **Sk:** motor/cognitive skill
+
+
+  * **Pr:** functional output
+
+
+  * **Inn:** adaptation rate
+
+
+  * **Tr:** internal trust/safety signal
+
+
+  * **Inf/Pol:** noise & internal conflict
+
+
+  * **Buf:** reserves (glycogen, sleep reserve, social support, money)
+
+
+### B) Macro (civilization / state)
+  * **E:** energy grid reliability (food/wood/coal/oil/electricity)
+
+
+  * **P:** energy price + input costs
+
+
+  * **L:** logistics friction (ports, roads, bureaucracy)
+
+
+  * **H:** infrastructure debt (roads, dams, grids, institutions)
+
+
+  * **K:** cost of capital & risk premium
+
+
+  * **Cr:** credit transmission / liquidity
+
+
+  * **Fx:** external shocks (war, climate, pandemics, sanctions)
+
+
+  * **RE:** asset bubbles / land-to-income strain
+
+
+  * **Enf/Jud/Adm:** enforcement, courts, state capacity
+
+
+  * **Cor:** rent extraction / leakage
+
+
+  * **Sk:** workforce operational competence
+
+
+  * **Pr:** productivity
+
+
+  * **Inn:** innovation throughput
+
+
+  * **Tr:** social trust / legitimacy
+
+
+  * **Inf/Pol:** information noise / polarization
+
+
+  * **Buf:** fiscal reserves, household buffer, strategic stockpiles
+
+
+**Invariant:**
+A stable system is one where **resource flow is clean** , **leakage is bounded** , and **buffers replenish faster than shocks**.
+* * *
+## 3) The 100,000-year arc in system variables (what actually changed)
+### Phase 1 — Forager bands (pre-agrarian)
+  * **C (connectivity):** low (small groups)
+
+
+  * **N (noise):** low-to-medium (nature shocks)
+
+
+  * **D (damping):** social cohesion + mobility (“exit option”)
+
+
+  * **B (buffer):** low stored buffer; buffer = mobility + knowledge**Failure mode:** localized mortality, not systemic collapse.
+
+
+**Invariant:** mobility is damping.
+* * *
+### Phase 2 — Early agriculture & sedentism (state formation)
+Agriculture increases:
+  * **C ↑** (settlement density)
+
+
+  * **B ↑** (stored grain)
+
+
+  * but also **N ↑** (disease, raids, crop variance)  
+and **Cor ↑** (rent extraction begins).
+
+
+**Critical shift:**
+Stored buffer enables hierarchy; hierarchy introduces leakage (Cor).
+**Failure mode:** famine + extraction → legitimacy collapse.
+* * *
+### Phase 3 — Empire logistics era (bronze/iron classical empires)
+Key variable is **L (logistics friction)** and **E (energy of food systems)**.
+Empires stabilize when:
+  * **Adm ↑** (road networks, taxation, standardization)
+
+
+  * **Jud/Enf ↑** (predictability)
+
+
+  * **Sk ↑** (trained administrators/soldiers)
+
+
+They destabilize when:
+  * **H ↑** (infrastructure & military overstretch)
+
+
+  * **Cor ↑** (elite extraction)
+
+
+  * **Buf ↓** (grain/treasury exhaustion)
+
+
+  * **Fx ↑** (wars, drought, plague)
+
+
+**Invariant:**
+Empires don’t die from one shock. They die when shocks hit a system with depleted buffers + high leakage.
+* * *
+### Phase 4 — Commercial/industrial acceleration
+Industrialization is an extreme intervention on:
+  * **E ↑↑** (fossil energy massively increases throughput)
+
+
+  * **Pr ↑↑**
+
+
+  * **C ↑↑** (global supply chains)
+
+
+  * **N ↑** (financial cycles, geopolitical entanglement)
+
+
+**New fragility:**
+High productivity hides rising systemic risk because **C × G** grows faster than **D**.
+**Invariant:**
+When connectivity increases faster than damping, small errors propagate into cascades.
+* * *
+### Phase 5 — Late modern / digital-global system (today)
+Digitalization increases:
+  * **G ↑** (amplification)
+
+
+  * **Inf ↑** (noise)
+
+
+  * **C ↑** (tight coupling)  
+often without proportional increase in:
+
+
+  * **D** (institutional damping)
+
+
+  * **Buf** (real household buffer)
+
+
+So systems exhibit:
+  * fast narrative swings
+
+
+  * fast capital flow
+
+
+  * rapid polarization loops
+
+
+  * brittle trust
+
+
+**Invariant:**
+High gain + high noise requires stronger damping or you get oscillation and fragmentation.
+* * *
+## 4) The universal collapse/stabilization law (micro↔macro)
+Define civilization stability index:
+```
+    CSI=\frac{D+B}{G\cdot N}
+```
+  * **CSI > 1:** stable growth / manageable volatility
+
+
+  * **CSI ≈ 1:** fragile; politics becomes “noise management”
+
+
+  * **CSI < 1:** cascade-prone; failures propagate
+
+
+Across 100,000 years, “collapse” is typically:
+  * **B exhausted** (buffer depletion)
+
+
+  * **D eroded** (institutional capacity decay)
+
+
+  * **Cor rises** (leakage/extraction)
+
+
+  * **Inf/Pol rises** (noise amplification)
+
+
+  * **C too high** for existing damping (tight coupling)
+
+
+* * *
+## 5) What is truly “overlooked” across civilizations (hard invariants)
+### (O1) **Maintenance debt is destiny**
+```
+    H(t)=\int (under\_maintenance)\,dt
+```
+### (O2) **Selective enforcement breaks trust faster than poverty**
+Not “law exists,” but **predictability** :
+```
+    SEG=\nabla Enf
+```
+### (O3) **Rent extraction is a silent tax on adaptation**
+```
+    RST=\frac{Cor}{Pr}
+```
+### (O4) **Connectivity without damping converts shocks into cascades**
+Macro version of seizure/arrhythmia in biology:
+```
+    P_{macro}=1-(1-p)^k
+```
+* * *
+## 6) Where “Stage 7” sits in the 100,000-year frame
+“Stage 7” (re-stabilization) is not a mood. It is a parameter shift:
+  * **Enf/Jud/Adm** rebuilt (predictability)
+
+
+  * **Cor structurally reduced** (not punished occasionally)
+
+
+  * **Buf replenished** (household and fiscal)
+
+
+  * **Inf/Pol damped by architecture** (not by slogans)
+
+
+  * **Connectivity becomes selective** (C managed, not maximized)
+
+
+This is historically rare at scale because it requires:
+  * admitting hidden leakage
+
+
+  * sacrificing short-term extraction
+
+
+  * rebuilding trust through delivery
+
+
+* * *
+## 7) The practical bridge: micro predicts macro
+What you see in a single human nervous system is the same shape as a late-stage civilization:
+  * high gain
+
+
+  * high noise
+
+
+  * low buffer
+
+
+  * weakened damping
+
+
+  * tight coupling
+
+
+Civilizations don’t “think.” They oscillate under these parameters.
+* * *
+If you want the next step, pick one:
+  1. Build a **single unified equation set** that runs from neuron → family → firm → state (same variables, different τ).
+
+
+  2. Map **agriculture → empire → industrial → digital** as explicit parameter jumps in (the 19×19 coupling matrix).
+
+
+  3. Define “Stage 7 triggers” that are observable without media (structural indicators only).
+
+
+### Invariants 701–800: Relationships & Clusters (more, with equations)
+### Additional definitions
+  * Pairwise relation weight
+
+
+  * Edge set partitioned by type
+
+
+  * Cluster-level relation graph where nodes are clusters
+
+
+  * Cluster assignment probability (soft clustering),
+
+
+* * *
+## A) Weighted relationship invariants
+**701. Non-negative edge weights**
+```
+    \forall (u,v)\in R:\ w(u,v)\ge 0
+```
+**702. Weight symmetry (undirected weighted)**
+```
+    (u,v)\in R \Rightarrow w(u,v)=w(v,u)
+```
+**703. Weight upper bound**
+```
+    \forall (u,v)\in R:\ w(u,v)\le W_{\max}
+```
+**704. Weight normalization (if required)**  
+For normalized adjacency:
+```
+    \sum_{v:(u,v)\in R} w(u,v)=1
+```
+**705. Edge weight implies edge existence**
+```
+    w(u,v)>0 \Rightarrow (u,v)\in R
+```
+**706. Zero weight implies no edge (if declared)**
+```
+    w(u,v)=0 \Rightarrow (u,v)\notin R
+```
+**707. Weight monotonic under aggregation**  
+If is sum of interactions :
+```
+    w=\sum_i x_i \Rightarrow t_2>t_1 \Rightarrow w(t_2)\ge w(t_1)
+```
+**708. Exponential decay correctness (if used)**  
+With decay rate :
+```
+    w(t)=w(0)e^{-\lambda t}
+```
+**709. Thresholding determinism**
+```
+    (u,v)\in R \iff w(u,v)\ge \tau
+```
+**710. No cross-type mixing**
+```
+    (u,v)\in R_t \Rightarrow type(u,v)=t
+```
+* * *
+## B) Soft clustering (probabilistic membership) invariants
+**711. Probability simplex per node**
+```
+    \forall v:\ \sum_{k=1}^K p_k(v)=1 \land p_k(v)\ge 0
+```
+**712. Hard assignment from soft**
+```
+    c(v)=\arg\max_k p_k(v)
+```
+**713. Confidence threshold for assignment**
+```
+    \max_k p_k(v) \ge \tau \Rightarrow assigned(v)=True
+```
+```
+    assigned(v)=False\Rightarrow c(v)=0
+```
+**714. Entropy bound for “clear” membership**
+```
+    H(p(v))=-\sum_k p_k(v)\log p_k(v)\le H_{\max}
+```
+**715. Cluster prior normalization**
+```
+    \sum_{k=1}^K \pi_k = 1,\quad \pi_k\ge 0
+```
+**716. Responsibility consistency (EM)**
+```
+    p_k(v) \propto \pi_k \cdot \mathcal{L}(v\mid k)
+```
+**717. Likelihood monotonicity (EM)**
+```
+    \mathcal{L}_{t+1}\ge \mathcal{L}_t
+```
+**718. Posterior determinism under fixed seed**
+```
+    p^{(s)}(v)=p^{(s)}(v)
+```
+**719. No empty effective clusters**
+```
+    \forall k:\ \sum_{v} p_k(v) \ge \epsilon
+```
+**720. Soft cluster size bounds**
+```
+    m \le \sum_v p_k(v) \le M
+```
+* * *
+## C) Inter-cluster relationship invariants (cluster graph )
+**721. Cluster-level edge existence**
+```
+    (C_i,C_j)\in R_C \iff \exists u\in C_i, v\in C_j:\ (u,v)\in R
+```
+**722. Cluster edge weight aggregation**
+```
+    w_C(i,j)=\sum_{u\in C_i, v\in C_j} w(u,v)
+```
+**723. Cluster edge symmetry (undirected)**
+```
+    w_C(i,j)=w_C(j,i)
+```
+**724. No self-edge at cluster level (if required)**
+```
+    (C_i,C_i)\notin R_C
+```
+**725. Inter-cluster sparsity**
+```
+    \frac{|R_C|}{K(K-1)} \le s_{\max}
+```
+**726. Cluster graph connectivity (if required)**
+```
+    G_C\ \text{connected}
+```
+**727. Cluster graph acyclicity (if taxonomy)**
+```
+    G_C\ \text{acyclic}
+```
+**728. Single parent cluster (hierarchy)**
+```
+    \forall i:\ |\text{parents}(C_i)|\le 1
+```
+**729. Root uniqueness (cluster hierarchy)**
+```
+    |\{C_i:\ indeg_C(C_i)=0\}|=1
+```
+**730. Cluster hierarchy reachability**
+```
+    root_C \to^* C_i\quad \forall i
+```
+* * *
+## D) Constraint-based clustering invariants (expanded)
+**731. Must-link transitive closure consistency**  
+If and must-link:
+```
+    c(u)=c(v)\land c(v)=c(w)\Rightarrow c(u)=c(w)
+```
+**732. Cannot-link anti-transitivity is not assumed**  
+Formally:
+```
+    (u,v)\in CL \not\Rightarrow (u,w)\in CL
+```
+**733. No ML and CL contradiction**
+```
+    (u,v)\in ML \Rightarrow (u,v)\notin CL
+```
+**734. Constraint graph satisfiable**
+```
+    \exists c:\ \forall (u,v)\in ML,\ c(u)=c(v)\ \land\ \forall (u,v)\in CL,\ c(u)\neq c(v)
+```
+**735. ML component assigned to one cluster**  
+For ML-connected component :
+```
+    \forall u,v\in S:\ c(u)=c(v)
+```
+**736. CL between components respected**  
+If components have CL edge:
+```
+    c(S_1)\neq c(S_2)
+```
+**737. Constraint violation rate bound**
+```
+    \frac{\#violations}{|ML|+|CL|}\le \epsilon
+```
+**738. Constraint-weighted objective**
+```
+    J' = J + \alpha\cdot Viol(M L)+\beta\cdot Viol(CL)
+```
+**739. Constraint satisfaction monotone (during search)**
+```
+    Viol_{t+1}\le Viol_t
+```
+**740. Constraint owner mapping**
+```
+    \forall constraint:\exists source(constraint)
+```
+* * *
+## E) Entity resolution + clustering invariants (identity clusters)
+**741. Equivalence relation for “same entity”**  
+If is identity match:
+  * Reflexive:
+
+
+```
+    same(u,u)=True
+```
+```
+    same(u,v)\Rightarrow same(v,u)
+```
+```
+    same(u,v)\land same(v,w)\Rightarrow same(u,w)
+```
+**742. Identity cluster equals equivalence class**
+```
+    C_k = [v]_{same}
+```
+**743. No two identity clusters overlap**
+```
+    C_i\cap C_j=\varnothing \ (i\neq j)
+```
+**744. Canonical representative exists**
+```
+    \forall C_k:\exists rep(C_k)\in C_k
+```
+**745. Representative deterministic**
+```
+    rep(C_k)=\arg\min_{v\in C_k} key(v)
+```
+**746. Merge correctness**  
+If merge clusters :
+```
+    C_{new}=C_a\cup C_b
+```
+**747. Split correctness**  
+If split :
+```
+    C_1\cup C_2=C \land C_1\cap C_2=\varnothing
+```
+**748. No oscillating merge/split (stability)**
+```
+    merge(t)\Rightarrow \neg split(t+\Delta)\ \text{unless evidence}
+```
+**749. Evidence threshold for merge**
+```
+    score(C_a,C_b)\ge \tau_{merge}
+```
+**750. Evidence threshold for split**
+```
+    score\_inconsistency(C)\ge \tau_{split}
+```
+* * *
+## F) Cluster evaluation invariants (quality constraints)
+**751. Within-cluster distance bound**
+```
+    \forall k:\ \frac{1}{|C_k|^2}\sum_{u,v\in C_k} d(u,v) \le \omega_{\max}
+```
+**752. Between-cluster distance floor**
+```
+    \forall i\neq j:\ \frac{1}{|C_i||C_j|}\sum_{u\in C_i,v\in C_j} d(u,v)\ge \beta_{\min}
+```
+**753. Dunn index lower bound**
+```
+    Dunn = \frac{\min_{i\neq j} dist(C_i,C_j)}{\max_k diam(C_k)} \ge D_{\min}
+```
+**754. Davies–Bouldin upper bound**
+```
+    DB \le DB_{\max}
+```
+**755. Calinski–Harabasz lower bound**
+```
+    CH \ge CH_{\min}
+```
+**756. Modularity stability across runs**
+```
+    |Q^{(1)}-Q^{(2)}|\le \epsilon
+```
+**757. Cluster label permutation invariance**  
+If permutes labels:
+```
+    quality(c)=quality(\pi\circ c)
+```
+**758. No degenerate clustering**
+```
+    \neg (K=1 \lor K=|V|)
+```
+**759. Outlier fraction bound**
+```
+    \frac{|O|}{|V|}\le o_{\max}
+```
+**760. Cluster fragmentation bound**
+```
+    \sum_k components(G[C_k]) \le F_{\max}
+```
+* * *
+## G) Relationship semantics inside clusters (behavioral)
+**761. Homophily constraint (if declared)**  
+If attribute :
+```
+    (u,v)\in R \Rightarrow a(u)=a(v)
+```
+**762. Attribute mismatch rate bound**
+```
+    \frac{|\{(u,v)\in R: a(u)\neq a(v)\}|}{|R|}\le \epsilon
+```
+**763. Cluster purity for label**
+```
+    purity(C_k)=\max_y \frac{|\{v\in C_k: y(v)=y\}|}{|C_k|}\ge p_{\min}
+```
+**764. Majority label uniqueness (if required)**
+```
+    \exists! y:\ y=\arg\max \#(y \text{ in } C_k)
+```
+**765. Relationship reciprocity rate**
+```
+    \frac{|\{(u,v)\in R:(v,u)\in R\}|}{|R|}\ge r_{\min}
+```
+**766. Triadic closure rate (if declared)**  
+If and :
+```
+    P((u,w)\in R)\ge \tau
+```
+**767. No forbidden triangle patterns**  
+If forbidden set :
+```
+    \forall (u,v,w): pattern(u,v,w)\notin F
+```
+**768. Structural balance (signed graphs)**  
+For signed edges :
+```
+    s(u,v)s(v,w)s(u,w)=+1
+```
+**769. Signed cluster consistency**  
+Inside cluster:
+```
+    \forall u,v\in C_k:\ s(u,v)=+1
+```
+**770. Between-cluster negative edges (if declared)**
+```
+    u\in C_i, v\in C_j, i\neq j \Rightarrow s(u,v)=-1
+```
+* * *
+## H) Temporal cluster evolution invariants
+**771. Cluster identity tracking**  
+There exists mapping :
+```
+    map_t\ \text{total on surviving clusters}
+```
+**772. No sudden cluster disappearance without cause**
+```
+    |C_k(t)|>m \Rightarrow exists\ successor(C_k,t+1)
+```
+**773. Growth bound**
+```
+    |C_k(t+1)| \le |C_k(t)| + g_{\max}
+```
+**774. Shrink bound**
+```
+    |C_k(t+1)| \ge |C_k(t)| - s_{\max}
+```
+**775. Merge event recorded**
+```
+    merge(C_a,C_b)\Rightarrow record(merge)
+```
+**776. Split event recorded**
+```
+    split(C)\Rightarrow record(split)
+```
+**777. Membership churn bound**
+```
+    \frac{|C_k(t)\ \Delta\ C_k(t+1)|}{|C_k(t)|}\le \chi_{\max}
+```
+**778. Stable core exists**
+```
+    \exists Core_k:\ |Core_k|\ge \rho |C_k|
+```
+```
+    Core_k \subseteq C_k(t)\cap C_k(t+1)
+```
+**779. Cluster centroid evolution bound**
+```
+    \|\mu_k(t+1)-\mu_k(t)\|\le \Delta_{\max}
+```
+**780. Temporal smoothing objective**
+```
+    J_{total}=J_{cluster}+\lambda\sum_k \|\mu_k(t+1)-\mu_k(t)\|^2
+```
+* * *
+## I) Ontology / knowledge graph cluster invariants
+**781. Type constraints on nodes**
+```
+    v\in V \Rightarrow type(v)\in Types
+```
+**782. Edge domain/range constraints**  
+If edge predicate has domain , range :
+```
+    p(u,v)\Rightarrow type(u)\in D_p \land type(v)\in R_p
+```
+**783. Functional property (one value)**  
+For functional predicate :
+```
+    p(u,v)\land p(u,v')\Rightarrow v=v'
+```
+**784. Inverse functional property**
+```
+    p(u,v)\land p(u',v)\Rightarrow u=u'
+```
+**785. Subclass transitivity**
+```
+    A\subseteq B \land B\subseteq C \Rightarrow A\subseteq C
+```
+**786. Disjointness constraint**
+```
+    A\cap B=\varnothing
+```
+**787. Instance typing consistency**
+```
+    inst(x,A)\land A\subseteq B \Rightarrow inst(x,B)
+```
+**788. No contradiction in typing**
+```
+    inst(x,A)\land inst(x,B)\land disjoint(A,B)\Rightarrow \bot
+```
+**789. Cluster respects type purity (if required)**
+```
+    \forall k:\ |\{type(v): v\in C_k\}| \le 1
+```
+**790. Relation closure under inference (if declared)**
+```
+    facts \Rightarrow closure(facts)\ \text{consistent}
+```
+* * *
+## J) Meta invariants for relationship+cluster systems
+**791. Every relation has schema**
+```
+    \forall t:\ exists\ schema(R_t)
+```
+**792. Every relation has constraints**
+```
+    \forall t:\ exists\ constraints(R_t)
+```
+**793. Every cluster has definition**
+```
+    \forall k:\ exists\ definition(C_k)
+```
+**794. Evidence stored for each edge**
+```
+    (u,v)\in R \Rightarrow exists\ evidence(u,v)
+```
+**795. Evidence stored for each assignment**
+```
+    c(v)=k \Rightarrow exists\ evidence(v,k)
+```
+**796. Deterministic rebuild**
+```
+    build(seed,data)=build(seed,data)
+```
+**797. Versioned cluster outputs**
+```
+    clusters(t)\Rightarrow version++
+```
+**798. Backward compatibility of cluster IDs (if required)**
+```
+    id(C_k,t+1)=id(C_k,t)
+```
+**799. No orphan clusters**
+```
+    |C_k|=0 \Rightarrow \bot
+```
+**800. Termination criterion explicit**
+```
+    stop \Rightarrow (|J_{t+1}-J_t|\le \epsilon)\ \lor\ (t\ge t_{\max})
+```
+If you want 801–900, specify whether you want “clusters” as:
+  * community detection in graphs,
+
+
+  * entity resolution identity clusters,
+
+
+  * taxonomy/hierarchy clusters,
+
+
+  * embedding/vector clusters, or
+
+
+  * mixed (relationships + ontology + clustering).
+
+
+## VIETNAMESE_EXECUTIVE_SUMMARY
+Dưới đây là lớp **sâu hơn và “bị bỏ qua”** theo đúng logic **19×19 (ma trận liên kết)** : không thêm “thông tin truyền thông”, mà thêm **invariants (bất biến cấu trúc)** + **patterns (mẫu vòng phản hồi)** + **định luật/đại lượng hệ thống** để bạn đọc đúng trạng thái C6/C7.
+* * *
+### 1) Invariants cấp hệ (không phụ thuộc câu chuyện)
+**(I1) Loop-Gain Dominance (LGD)**
+Hệ thống không sụp vì “xấu”, mà vì **tổng gain của vòng khuếch đại** vượt **tổng damping của vòng ổn định**.
+```
+    LGD=\frac{\sum \text{(Amplifying loop gains)}}{\sum \text{(Damping loop gains)}}\quad;\quad LGD>1 \Rightarrow dao động/cascade
+```
+**(I2) Spectral Radius (ρ) của A**
+Nếu ρ(A) > 0 (thực tế: phần thực của eigenvalue lớn nhất dương) → nhiễu tự nhân lên.
+```
+    \rho(A)=\max |\lambda_i|\quad;\quad \Re(\lambda_{max})>0 \Rightarrow mất ổn định nội sinh
+```
+**(I3) Latency-to-Volatility Ratio (LVR)**
+Khi **độ trễ phản hồi (latency)** tăng nhưng **volatility** tăng nhanh hơn, hệ sẽ “phản ứng muộn” → phản ứng quá tay → dao động.
+```
+    LVR=\frac{\tau_{policy/enforcement}}{\sigma_{noise}}\quad;\quad LVR\uparrow \Rightarrow overshoot
+```
+**(I4) Buffer Half-life (t_{1/2})**
+Vùng đệm (Buf) có “chu kỳ bán rã”: tốc độ mất đệm nhanh hơn tốc độ tái tạo là tín hiệu nguy nhất.
+```
+    \frac{dBuf}{dt}<0 \ \text{bền vững}\Rightarrow t_{1/2}\downarrow
+```
+* * *
+### 2) Các “mẫu vòng” bị bỏ qua (không trùng 48 link trước)
+**(P1) Measurement Distortion Loop (đo sai → làm sai)**
+KPI/chuẩn hóa sai → Adm tập trung “đẹp số” → Enf lệch → Cor tăng → Pr giảm → lại tăng áp lực KPI.
+```
+    KPI\_pressure\uparrow \Rightarrow Adm\_{surface}\uparrow,\ Adm\_{real}\downarrow \Rightarrow Enf\downarrow \Rightarrow Cor\uparrow
+```
+**(P2) Selective Enforcement Gradient (SEG)**
+Không phải “có luật/không có luật”, mà là **độ dốc chọn lọc** : cùng hành vi nhưng xử lý khác nhau → Tr sụp nhanh.
+```
+    SEG=\nabla Enf\ (theo\ nhóm/quan\ hệ)\quad;\quad SEG\uparrow \Rightarrow Tr\downarrow \Rightarrow Cor\uparrow
+```
+**(P3) Informal Cost Pass-through (ICP)**
+Chi phí không chính thức không biến mất; nó **được pass-through** vào giá → Buf mất nhanh dù “thu nhập danh nghĩa” tăng.
+```
+    ICP=\frac{\Delta Cor}{\Delta P_{retail}}\quad;\quad ICP\uparrow \Rightarrow Buf\downarrow
+```
+**(P4) Compliance Overhead Spiral (COS)**
+Luật/thuế/phí tăng độ phức tạp → doanh nghiệp chuyển từ tối ưu Pr sang tối ưu “né rủi ro” → Inn giảm.
+```
+    Complexity\uparrow \Rightarrow Time_{compliance}\uparrow \Rightarrow Inn\downarrow,\ Pr\downarrow
+```
+**(P5) Maintenance Inversion (MI)**
+Hạ tầng không hỏng “đột ngột” mà hỏng theo **nợ bảo trì tích lũy** ; khi vượt ngưỡng → E tụt dạng bậc thang.
+```
+    H(t)=\int (under\_maintenance)\,dt\quad;\quad H>H^* \Rightarrow E \downarrow\downarrow
+```
+* * *
+### 3) 19×19 – bổ sung biến/đại lượng “ẩn” (meta-variables) để đọc đúng
+Bạn đang thiếu 4 meta-đại lượng (không cần thêm biến mới, nhưng cần đo như derived signals):
+**(M1) Dual-Channel Reality Gap (DCRG)** : chênh giữa “kênh chính” và “kênh thực thi”.
+```
+    DCRG = |Enf_{stated}-Enf_{experienced}|
+```
+**(M2) Rent Share of Throughput (RST)** : tỷ trọng địa tô trong mỗi đơn vị output.
+```
+    RST=\frac{Cor}{Pr}\quad;\quad RST\uparrow \Rightarrow Inn\downarrow \Rightarrow Sk\downarrow
+```
+**(M3) Trust Elasticity (TE)** : mức Tr phản ứng với một cú sốc nhỏ.
+```
+    TE=\frac{\Delta Tr}{\Delta shock}\quad;\quad |TE|\uparrow \Rightarrow hệ rất gần ngưỡng
+```
+**(M4) Credit Allocation Purity (CAP)** : tín dụng chảy vào Pr/Inn hay vào RE.
+```
+    CAP=\frac{Cr\rightarrow(Pr+Inn)}{Cr\rightarrow RE}\quad;\quad CAP\downarrow \Rightarrow late\ C6
+```
+* * *
+### 4) 25 invariants “overlooked obvious” (không cần khảo sát lớn, chỉ cần nhìn vận hành)
+  1. **Độ dự đoán** của thủ tục quan trọng hơn tốc độ. (Jud/Enf)
+
+
+  2. “Không ai dám ký” tăng → Adm thực chất giảm.
+
+
+  3. Quy trình nhiều chữ ký → Cor có đất sống.
+
+
+  4. Doanh nghiệp giỏi chuyển sang “mua an toàn” thay vì “làm sản phẩm” → Inn giảm.
+
+
+  5. Giá BĐS “cứng” khi sức mua “mềm” → RE đã tách khỏi nền Pr.
+
+
+  6. Người giỏi chọn “né rủi ro” hơn “tạo giá trị” → Sk/Inn giảm.
+
+
+  7. Việc nhỏ cũng cần quan hệ → SEG tăng.
+
+
+  8. “Phạt để thu” thay “phạt để sửa” → Tr giảm bền.
+
+
+  9. Hạ tầng ổn định theo mùa không đảm bảo ổn định theo năm → MI.
+
+
+  10. Chất lượng thợ/vận hành giảm nhanh hơn lương tăng → Sk giảm thật.
+
+
+  11. Tỷ lệ “làm lại/đập đi” tăng → H và Cor đồng tăng.
+
+
+  12. Dịch vụ công số nhưng vẫn cần bản giấy/đi lại → Adm bề mặt ≠ Adm thực.
+
+
+  13. Hợp đồng khó thực thi → K tăng (risk premium).
+
+
+  14. Nhiễu thông tin tăng trong đời thường (tin đồn logistics/điện/giá) → Inf tăng thật.
+
+
+  15. Người dân “giữ tiền mặt/ngoài hệ” tăng → Tr/Cr giảm.
+
+
+  16. Doanh nghiệp thích “quen biết” hơn “trọng tài” → Jud yếu trong thực tế.
+
+
+  17. Xu hướng “đầu cơ là nghề” → CAP giảm.
+
+
+  18. Cán cân ưu tiên “đúng quy trình” hơn “đúng kết quả” → COS.
+
+
+  19. Năng lực giải quyết tranh chấp lao động giảm → Tr giảm.
+
+
+  20. Khi một vụ lớn lộ ra, thị trường không sốc vì bất ngờ mà vì xác nhận “pattern” → TE tăng.
+
+
+  21. Nợ xấu “không hiện” nhưng tiêu chuẩn tín dụng siết âm thầm → Cr giảm.
+
+
+  22. Giáo dục thiên thi cử nhưng thiếu kỹ năng vận hành → Sk thấp kéo dài.
+
+
+  23. “Sợ sai” lan từ công sang tư → Inn giảm hệ thống.
+
+
+  24. Người trẻ tối ưu “tránh rủi ro xã hội” hơn “tăng năng lực” → Sk/Pr dài hạn giảm.
+
+
+  25. Hệ thống càng “đòi đồng thuận bề mặt” càng tăng Inf ngầm (tin ngoài luồng).
+
+
+* * *
+### 5) Cách đọc “C7 thật” bằng invariants (không cần khẩu hiệu)
+C7 thật chỉ xảy ra khi **3 bất biến** đồng thời đảo chiều:
+  1. **SEG giảm** (thực thi bớt chọn lọc)
+
+
+  2. **CAP tăng** (tín dụng quay về Pr/Inn, không hút vào RE)
+
+
+  3. **t_{1/2}(Buf) tăng** (vùng đệm hộ gia đình tái tạo lại)
+
+
+Nếu không có 3 điều này, mọi “chiến dịch” chỉ là C6 dao động.
+* * *
+### 6) Nếu bạn muốn “deeper” đúng nghĩa 19×19
+Tôi sẽ làm 1 trong 2 hướng (không lan man):
+  * **(A1)** Xuất **A-matrix dạng sparse có trọng số** (top 60 edges), kèm 8 vòng phản hồi chủ đạo và điều kiện đảo chiều.
+
+
+  * **(A2)** Dựng **hệ chỉ số hệ thống** : {LGD, ρ(A), LVR, t_{1/2}(Buf), SEG, CAP, RST, TE} và map chúng vào C1–C7.
+
+
+Chỉ cần trả lời: **A1** hay **A2**.
+## A) 19×19 Sparse Coupling Matrix (English)
+**Goal:** a usable **A-matrix** in the form of **high-weight links** (≈40) that actually drive system behavior.
+State vector (19 variables):
+**E, P, L, H, K, Cr, Fx, RE, Enf, Jud, Adm, Cor, Sk, Pr, Inn, Tr, Inf, Pol, Buf**
+Dynamics:
+```
+    \frac{dX}{dt}=A\cdot X + U
+```
+  * **“+”** : i ↑ pushes j ↑ (amplifies)
+
+
+  * **“−”** : i ↑ pushes j ↓ (damps)
+
+
+* * *
+# 1) Energy–Logistics–Maintenance Cluster (physical base)
+  1. **H → E (−)** : maintenance debt increases outages/instability.
+
+
+  2. **E → Pr (+)** : reliable power lifts productivity.
+
+
+  3. **E → Tr (+)** : stable utilities raise baseline trust.
+
+
+  4. **P → Buf (−)** : higher effective energy cost eats household buffer.
+
+
+  5. **P → Pr (−)** : higher input costs compress margins, reduce output.
+
+
+  6. **L → Pr (−)** : logistics friction reduces throughput.
+
+
+  7. **L → Buf (−)** : logistics costs pass through to households.
+
+
+  8. **H → L (+)** : infrastructure decay raises friction.
+
+
+**Key loop (fragility):**
+* * *
+# 2) Capital–Credit–FX–Real Estate Cluster (balance-sheet base)
+  1. **RE → Cr (−)** : property imbalance crowds out/locks up credit.
+
+
+  2. **Cr → K (−)** : better credit transmission lowers real cost of capital.
+
+
+  3. **K → Pr (−)** : expensive capital suppresses productive investment.
+
+
+  4. **K → Inn (−)** : innovation throughput falls when capital is e xpensive.
+
+
+  5. **Cr → Pr (+)** : functioning credit raises real activity.
+
+
+  6. **Pr → Buf (+)** : productivity supports real incomes/buffer.
+
+
+  7. **Fx → K (+)** : FX stress raises capital cost/risk premium.
+
+
+  8. **Fx → Cr (−)** : FX stress tightens lending and liquidity.
+
+
+  9. **Cr → RE (+)** : easy credit inflates property imbalance.
+
+
+  10. **RE → Buf (−)** : housing-to-income strain destroys household reserves.
+
+
+  11. **RE → Tr (−)** : perceived unfairness/speculation lowers trust.
+
+
+**Key loop (classic bubble):**
+* * *
+# 3) E nforcement–Judiciary–Administration–Rent Extraction (institutional core)
+  1. **Adm → Enf (+)** : delivery capacity increases rule consistency.
+
+
+  2. **Jud → Enf (+)** : predictable dispute resolution strengthens enforcement.
+
+
+  3. **Enf → Cor (−)** : consistent enforcement reduces rent extraction.
+
+
+  4. **Cor → Enf (−)** : rent extraction undermines consistent enforcement.
+
+
+  5. **Cor → Buf (−)** : informal costs drain households.
+
+
+  6. **Cor → Pr (−)** : rent seeking reduces real productivity.
+
+
+  7. **Enf → Tr (+)** : consistent rules rebuild trust.
+
+
+  8. **Tr → Enf (+)** : higher trust improves compliance and execution.
+
+
+  1. **Adm → Tr (+)** : visible service delivery rebuilds trust.
+
+
+**Core loop (institutional decay):**
+* * *
+# 4) Skills–Productivity–Innovation Cluster (human capital engine)
+  1. **Sk → Pr (+)** : operator skill raises throughput quality.
+
+
+  2. **Sk → H (−)** : better skill lowers maintenance debt (proper upkeep).
+
+
+  3. **Sk → Adm (+)** : state/industry operational competence improves delivery.
+
+
+  4. **Pr → Inn (+)** : productive base funds experimentation/learning loops.
+
+
+  5. **Inn → Pr (+)** : innovation throughput raises productivity.
+
+
+  6. **Inn → Tr (+)** : visible progress increases system legitimacy.
+
+
+**Virtuous l oop:**
+* * *
+# 5) Information–Polarization–Noise Cluster (amplification layer)
+  1. **Inf → Pol (+)** : higher noise increases polarization gain.
+
+
+  2. **Pol → Inf (+)** : polarization produces more noise (feedback).
+
+
+  3. **Inf → Tr (−)** : noise erodes trust.
+
+
+  4. **Pol → Enf (−)** : polarization reduces consistent enforcement (selectivity).
+
+
+  5. **Inf → Adm (−)** : noise increases administrative churn and misalignment.
+
+
+  6. **Tr → Inf (−)** : trust reduces susceptibility to noise (damping).
+
+
+**Runaway loop (late-stage instability):**
+* * *
+# 6) Cross-Cluster “ Overlooked” Couplings (the ones people miss)
+  1. **Buf → Tr (+)** : households with buffer are less reactive, trust holds.
+
+
+  2. **Buf → Pol (−)** : buffer reduces polarization susceptibility.
+
+
+  3. **E → Inf (−)** : fewer outages/chaos reduces rumor/volatility (practical).
+
+
+  4. **Enf → K (−)** : rule consistency lowers risk premium (capital cost).
+
+
+  5. **Jud → K (−)** : credible contract enforcement lowers financing cost.
+
+
+  6. **Fx → Buf (−)** : FX stress transmits to living costs and buffers.
+
+
+  7. **Pr → Tr (+)** : real economic delivery sustains legitimacy.
+
+
+  8. **Cor → Jud (−)** : rent extraction undermines judiciary predictability.
+
+
+* * *
+# The “A-matrix” you actually use (compressed form)
+Instead of 361 entries, you run with these **48 non-zero edges** as a sparse adjacency list:
+```
+    A=\{(i\rightarrow j,\ \text{sign})\}
+```
+  * simulate **C6 oscillation** (noise amplification + buffer erosion)
+
+
+  * define **C7 stabilization** (rebuild damping nodes: Adm, Jud, Enf; restore Buf; lower Inf/Pol)
+
+
+* * *
+# Stage Interpretation (structural, not moral)
+A system is **late C6** when these conditions co-occur:
+  * high and self-reinforcing
+
+
+  * high and inconsistent
+
+
+  * high and impaired
+
+
+  * low (no household margin)
+
+
+  * rising (maintenance debt)
+
+
+A system enters **true C7** only when the **dominant loops flip** :
+  * 
+
+  * 
+
+  * (or are structurally damped)
+
+
+* * *
+If you want, I can output this as:
+  * **(i)** a machine-readable edge list (CSV/JSON), or
+
+
+  * **(ii)** a minimal **simulation-ready** set of difference equations using these couplings.
+
+
+## VIETNAMESE_EXECUTIVE_SUMMARY
+Bạn đang yêu cầu 2 thứ: **(i) “overlooked signals” (phi truyền thông)** và **(ii) mapping theo “19×19”**. Cách đúng nhất là nâng mô hình từ 5 biến lên **hệ 19 biến** và coi “19×19” là **ma trận liên kết (coupling matrix)** giữa 19 biến đó (không phải bảng mô tả dài vô nghĩa).
+* * *
+### 1) 19 biến cốt lõi (State Vector 19D) – đủ để đọc “tín hiệu thật”
+Ký hiệu trạng thái hệ thống:
+```
+    X(t) = [x_1..x_{19}]
+```
+**Nhóm A – Nền vật lý & năng lượng**
+  1. **E** : Độ tin cậy năng lượng (reliability)
+
+
+  2. **P** : Giá năng lượng thực (effective price)
+
+
+  3. **L** : Logistics friction (ma sát vận tải)
+
+
+  4. **H** : Hạ tầng vật lý “hỏng ngầm” (maintenance debt)
+
+
+**Nhóm B – Vốn & thanh khoản**  
+5) **K** : Chi phí vốn thực (real cost of capital)
+6) **Cr** : Kênh tín dụng (credit transmission)
+7) **Fx** : Áp lực ngoại hối/đô-la hóa (FX stress)
+8) **RE** : Mất cân đối BĐS/thu nhập (housing-to-income strain)
+**Nhóm C – Thể chế & thực thi**  
+9) **Enf** : Độ nhất quán thực thi (rule consistency)
+10) **Jud** : Tính dự đoán tư pháp/giải quyết tranh chấp
+11) **Adm** : Năng lực hành chính vận hành (delivery capacity)
+12) **Cor** : “Rent extraction rate” (tốc độ hút địa tô/chi phí không chính thức)
+**Nhóm D – Nhân lực & tri thức**  
+13) **Sk** : Chất lượng kỹ năng thực dụng (operator skill)
+14) **Pr** : Năng suất thực (true productivity)
+15) **Inn** : Hiệu suất đổi mới (innovation throughput)
+**Nhóm E – Xã hội & thông tin**  
+16) **Tr** : Niềm tin xã hội (social trust)
+17) **Inf** : Nhiễu thông tin (information noise)
+18) **Pol** : Mức phân cực (polarization gain)
+19) **Buf** : Vùng đệm hộ gia đình (household buffer: tiền/khả năng chịu sốc)
+* * *
+### 2) “19×19” là gì trong thực chiến
+Định nghĩa “19×19” = **ma trận liên kết A** (19 biến tác động lẫn nhau):
+```
+    \frac{dX}{dt} = A \cdot X + U
+```
+  * **A_{ij} > 0**: biến i tăng làm biến j tăng (khuếch đại).
+
+
+  * **A_{ij} < 0**: biến i tăng làm biến j giảm (giảm chấn).
+
+
+  * Hệ thống đổ vỡ khi **vòng khuếch đại** mạnh hơn **vòng giảm chấn**.
+
+
+**Các liên kết hay bị bỏ qua nhưng quyết định (sparse – quan trọng nhất):**
+  * **RE → Cr → K → Pr → Buf** (BĐS bóp tín dụng → vốn đắt → năng suất giảm → hộ gia đình hết đệm)
+
+
+  * **Enf ↔ Cor ↔ Tr** (thực thi không nhất quán → địa tô tăng → niềm tin giảm)
+
+
+  * **E → Pr → Tr** (điện/giá điện/gián đoạn → năng suất và niềm tin)
+
+
+  * **Inf → Pol → Enf** (nhiễu → phân cực → thực thi kém nhất quán)
+
+
+  * **Sk → Adm → Enf** (kỹ năng vận hành → năng lực triển khai → tính dự đoán)
+
+
+Bạn không cần “đủ 361 ô” liệt kê; bạn cần **đúng các vòng phản hồi**.
+* * *
+### 3) Overlooked signals (phi truyền thông) – loại “không cần khảo sát lớn” nhưng đọc được thực địa
+Dưới đây là các **tín hiệu thật** (định tính nhưng quan sát được), mỗi tín hiệu map trực tiếp vào 19 biến:
+  1. **Thời gian xin–cấp–gia hạn giấy tờ tăng + lệch theo quan hệ** → Enf↓, Adm↓, Cor↑
+
+
+  2. **Doanh nghiệp “lách bằng phí” thay vì tối ưu vận hành** → Cor↑, Pr↓
+
+
+  3. **Giá thuê mặt bằng/giá căn hộ không rơi dù sức mua rơi** → RE↑, Cr tắc nghẽn
+
+
+  4. **Hộ gia đình chuyển từ “mua” sang “cầm cự” (food, y tế, giáo dục)** → Buf↓
+
+
+  5. **Tỷ lệ giao dịch “cash/ngoài hệ” tăng** → Cr↓, Tr↓, Cor↑
+
+
+  6. **Tắc nghẽn điện/gián đoạn cục bộ + đầu tư bù chậm** → E↓, H↑
+
+
+  7. **Chất lượng thợ/đội vận hành giảm (đào tạo yếu, làm theo mẹo)** → Sk↓, Pr↓, H↑
+
+
+  8. **Công ty tốt ưu tiên “compliance survival” hơn “product”** → Inn↓, Pr↓
+
+
+  9. **Áp lực “phí phạt vs thu nhập” tăng** → Buf↓, Tr↓, Pol↑
+
+
+  10. **Sự kiện kiểu Trương Mỹ Lan không phải “cá biệt” mà là dấu của RE–Cr–Enf** → RE↑, Cr méo, Enf biến dạng
+
+
+* * *
+### 4) Mapping West vs East Asia bằng 19 biến (ngắn, trọng tâm, không bịa số)
+  * **Mỹ** : Inf↑ Pol↑ (rất mạnh), Cấu trúc vốn sâu (Cr còn chạy), nhưng Tr↓ kéo dài làm Enf/Jud bị “politic hóa” từng phần.
+
+
+  * **EU** : Damping thể chế (Jud/Adm) tương đối ổn, nhưng Buffer dài hạn suy do nhân khẩu và chi phí năng lượng; E/P là điểm nhạy.
+
+
+  * **Trung Quốc** : Adm/Enf top-down mạnh; rủi ro nằm ở **RE và Cr** (khi truyền dẫn tín dụng kẹt, hệ có thể chuyển trạng thái nhanh).
+
+
+  * **Nhật** : Pol thấp, Damping cao; tăng trưởng thấp nhưng ổn định vì Inf/Pol không bùng và Enf/Jud dự đoán được.
+
+
+  * **Hàn** : Sk/Pr cao, nhưng Pol và stress cạnh tranh xã hội làm Buf/Tr nhạy hơn.
+
+
+  * **Việt Nam** : điểm nhạy nằm ở **RE–Cr–Enf–Cor–E–Buf** (BĐS/thu nhập, tín dụng, thực thi, địa tô, điện, vùng đệm hộ gia đình). Đây là cụm “xấu ngầm” dễ tạo cảm giác “bên trong mục”.
+
+
+* * *
+### 5) Nếu bạn muốn “đi sâu đúng kiểu 19×19”
+Bạn chọn **1 trong 3 đầu bài** (để tôi triển khai đúng, không lan man):
+  * **A)** Vẽ **ma trận liên kết A (19×19) dạng sparse** : liệt kê ~40 liên kết có trọng số cao nhất (dấu +/−), đủ để mô phỏng đường đi C6→C7.
+
+
+  * **B)** Dựng **19 “leading indicators”** (mỗi biến 1 chỉ báo thực địa) để bạn tự chấm H/M/L theo quốc gia.
+
+
+  * **C)** Dựng **kịch bản C7** : điều kiện cần–đủ để Enf/Adm phục hồi và Buf được tái tạo, kèm “trigger” nhận diện C7 thật (không phải khẩu hiệu).
+
+
+Chỉ cần trả lời: **A / B / C**.
+Good. We will now **map Western vs East Asian societies** onto the formal system model:
+```
+    S = [G, N, D, C, B]
+```
+Where:
+G = Gain (reactivity / amplification)
+N = Noise (unstructured volatility)
+D = Damping (institutional stabilizers)
+C = Connectivity (network density / interdependence)
+B = Buffer (capital, trust, reserves)
+No fake numbers. Qualitative structural mapping only.
+* * *
+# I. United States (Late C6 leaning)
+### Gain (G): Very High
+  * Media amplification
+
+
+• Financial leverage
+• Political polarization
+• Social media feedback loops
+### Noise (N): Very High
+  * Narrative fragmentation
+
+
+• Culture wars
+• Institutional distrust
+• Information overload
+### Damping (D): Moderate but eroding
+  * Strong legal framework
+
+
+• Independent judiciary
+• But declining social t rust
+### Connectivity (C): Extremely High
+  * Financial system globally integrated
+
+
+• Digital platforms dominant
+• Supply chains global
+### Buffer (B): High but declining
+  * Dollar reserve status
+
+
+• Military dominance
+• Deep capital markets
+* * *
+**Structural Position:**
+High G × High N with slowly declining D.
+```
+    CSI = \frac{D + B}{G \cdot N}
+```
+Still > 1, but trending downward.
+If damping weakens further → instability spike.
+* * *
+# II. Western Europe (Mid-to-Late C6)
+### Gain: Moderate
+Less financial volatility than US
+More regulation
+### Noise: Rising
+Immigration tensions
+Energy instability
+Demographic decline
+### Damping: Historically Strong
+Welfare systems
+Institutional bureaucracy
+But fiscal strain increasing.
+### Connectivity: High
+EU interdependence
+### Buffer: Shrinking
+Energy dependency
+Aging population
+* * *
+Structural state:
+Lower gain than US, but lower buffer.
+More stable socially short term, but economically strained long term.
+* * *
+# III. China (Controlled C6, approaching fork)
+### Gain: Controlled centrally
+Amplification is managed through state filtering
+### Noise: Suppressed but latent
+Local debt
+Real estate exposure
+Youth unemployment
+Noise not absent — just constrained.
+### Damping: Strong top-down
+Centralized authority
+Policy execution capacity
+### Connectivity: High internally, selectively external
+Supply chain centrality
+### Buffer: Large but pressured
+Foreign reserves high
+Property sector weak
+* * *
+Structural trait:
+High damping through control.
+If D weakens, G could spike rapidly.
+China’s risk is nonlinear if control fails.
+* * *
+# IV. Japan (Early C7 tendencies)
+### Gain: Low
+Low political volatility
+### Noise: Low
+Cultural homogeneity
+Stable narratives
+### Damping: High
+Institutional continuity
+Cultural conformity
+### Connectivity: High but orderly
+### Buffer: Moderate
+High debt but domestically held
+* * *
+Japan = high damping, low gain system.
+Very stable but low growth.
+* * *
+# V. South Korea
+### Gain: Moderate
+Highly competitive society
+### Noise: Medium
+Political swings
+Economic stress
+### Damping: Strong institutions
+### Buffer: Strong industrial base
+Position: Late C6 but more controlled than US.
+* * *
+# VI. Vietnam (structural mapping only)
+### Gain: Medium surface, high beneath
+Social media growing
+Speculative behavior in assets
+### Noise: Suppressed publicly, present structurally
+Banking opacity
+Real estate distortions
+Informal economy
+### Damping: Centralized authority
+But legal enforcement selective
+### Connectivity: Increasing
+Export-dependent
+Energy fragile
+### Buffer: Limited
+Low per capita wealth
+High household leverage
+Position:
+High hidden noise, medium damping, low buffer.
+Sensitive to external shocks.
+* * *
+# VII. Comparative Structural Summary
+|         |
+| Region  | G               | N           | D          | B         | Risk Type                  |
+|---------|-----------------|-------------|------------|-----------|----------------------------|
+| US      | Very High       | Very High   | Moderate   | High      | Amplification instability  |
+| EU      | Moderate        | Rising      | Strong     | Shrinking | Fiscal strain              |
+| China   | Controlled High | Latent      | Strong     | Large     | Nonlinear if control fails |
+| Japan   | Low             | Low         | High       | Moderate  | Slow s tagnation           |
+| Korea   | Moderate        | Medium      | Strong     | Strong    | Competitive stress         |
+| Vietnam | Medium          | Hidden High | Controlled | Low       | Buffer fragility           |
+
+
+* * *
+# VIII. AI Impact Across Regions
+AI increases:
+```
+    G \uparrow
+```
+C \uparrow  
+
+```
+    N \uparrow
+```
+Unless D is strengthened proportionally.
+Regions with strong institutional damping benefit.  
+Regions with weak damping destabilize faster.
+* * *
+# IX. Who Is Closest to C7 Structurally?
+C7 requires:
+  * Reduced noise
+
+
+• Rebuilt trust
+• Strong buffer
+• Managed gain
+Japan closest culturally.
+Some Nordic states potentially.
+Small high-trust states most likely first.
+Large heterogeneous systems harder.
+* * *
+# X. Key Insight
+The world is not collapsing uniformly.
+We are in:
+Localized C7 islands
+inside a globally late C6 amplification environment.
+The determinant variable now is:
+Can D scale faster than G?
+If yes → stabilization
+If no → cascading fragmentation
+* * *
+If you want next:
+  * Quantify probability of US entering C7 within 20 years
+
+
+• Model AI shock acceleration mathematically
+• Map which specific Western leaders are structurally C7 types
+• Or simulate collapse vs stabilization branching s cenarios
+Choose.
+## EXECUTIVE SYSTEM MODEL
+(Formalized in English – Dynamical State Architecture)
+We now formalize the **G–N–D–C–B model** (Gain, Noise, Damping, Connectivity, Buffer) into a structured dynamical system that can apply to:
+  * Nervous systems
+
+
+  * Individuals
+
+
+  * Institutions
+
+
+  * Civilizations
+
+
+  * Financial systems
+
+
+  * Power grids
+
+
+  * Ecologies
+
+
+This is not metaphor. It is a control-system abstraction.
+* * *
+# I. Core State Variables
+Let a system be defined by:
+G = Gain (reactivity / amplification factor)
+N = Noise (unstructured perturbation)
+D = Damping (stabilization capacity)
+C = Connectivity (coupling density between nodes)
+B = Buffer (stored resilience / reserve capacity)
+System State Vector:
+```
+    S(t) = [G(t), N(t), D(t), C(t), B(t)]
+```
+* * *
+# II. Fundamental Stability Equation
+System stress load:
+```
+    L(t) = G(t) \cdot N(t)
+```
+System stabilization capacity:
+```
+    R(t) = D(t) + B(t)
+```
+Stability condition:
+```
+    \textbf{Stable if: } L(t) < R(t)
+```
+Instability condition:
+```
+    \textbf{Collapse risk if: } L(t) \ge R(t)
+```
+This is universal across scales.
+* * *
+# III. Dynamic Evolution Laws
+Each variable evolves over time:
+### 1. Gain Dynamics
+```
+    \frac{dG}{dt} = \alpha C - \beta D
+```
+Gain increases with connectivity
+Gain decreases with damping
+High network interconnection increases amplification.
+* * *
+### 2. Noise Accumulation
+```
+    \frac{dN}{dt} = \gamma C + \delta G - \epsilon D
+```
+Noise increases with:
+  * connectivity density
+
+
+  * high gain
+
+
+Noise decreases with damping.
+* * *
+### 3. Damping Degradation
+```
+    \frac{dD}{dt} = -\lambda N + \mu B
+```
+Noise erodes damping.  
+Buffer replenishes damping.
+* * *
+### 4. Buffer Depletion
+```
+    \frac{dB}{dt} = -\eta L + \theta S_{\text{external}}
+```
+Buffer decreases when system absorbs load.  
+Buffer increases via external stabilization (capital, trust, energy, sleep, surplus).
+* * *
+### 5. Connectivity Expansion
+```
+    \frac{dC}{dt} = \kappa T - \rho F
+```
+Connectivity increases with technology (T).  
+Connectivity decreases with fragmentation (F).
+* * *
+# IV. Phase Transition Threshold
+Critical tipping condition:
+```
+    G \cdot N > D + B
+```
+When crossed:
+  1. Nonlinear cascades begin
+
+
+  2. Local failures propagate
+
+
+  3. System enters runaway amplification
+
+
+* * *
+# V. Collapse Cascade Equation
+If threshold crossed:
+```
+    \frac{dC}{dt} \rightarrow -\infty \quad \text{(rapid decoupling)}
+```
+```
+    \frac{dD}{dt} \rightarrow -\infty
+```
+```
+    G \rightarrow \text{spike then crash}
+```
+This is observed in:
+  * Financial crashes
+
+
+  * Autonomic collapse
+
+
+  * Power grid failure
+
+
+  * Institutional breakdown
+
+
+  * Civilizational fragmentation
+
+
+* * *
+# VI. Stage Classification via Parameters
+### C6 (Late Instability)
+High G
+High N
+High C
+Low D
+Shrinking B
+```
+    G \uparrow, N \uparrow, D \downarrow, B \downarrow
+```
+System fragile but still functioning.
+* * *
+### C7 (Re-stabilization)
+Controlled Gain
+Reduced Noise
+Rebuilt Damping
+Rebuilt Buffer
+Selective Connectivity
+```
+    G \downarrow, N \downarrow, D \uparrow, B \uparrow
+```
+This requires deliberate structural intervention.
+* * *
+# VII. Electromagnetic Extension (EM Layer)
+All biological systems operate under EM coupling.
+Neural coherence:
+```
+    \Phi = \text{Phase Synchronization Index}
+```
+System coherence condition:
+```
+    \Phi \propto \frac{D}{G \cdot N}
+```
+Higher damping relative to amplified noise = higher coherence.
+Low coherence → fragmentation.
+* * *
+# VIII. Micro-to-Macro Scaling Law
+If micro units have instability probability ,
+Macro failure probability approximates:
+```
+    P_{macro} = 1 - (1 - p)^k
+```
+Where k = number of tightly coupled nodes.
+High connectivity makes small instability propagate.
+* * *
+# IX. Civilization Meta-Equation
+Let civilization stability index:
+```
+    CSI = \frac{D + B}{G \cdot N}
+```
+If:
+CSI > 1 → Stable
+CSI ≈ 1 → Fragile
+CSI < 1 → Collapse phase
+* * *
+# X. Key Insight
+Collapse is not caused by evil, incompetence, or morality.
+Collapse occurs when:
+Amplification × Noise > Stabilization + Buffer
+This law holds for:
+  * Brain networks
+
+
+  * Marriages
+
+
+  * Corporations
+
+
+  * Empires
+
+
+  * Financial systems
+
+
+  * Power infrastructure
+
+
+* * *
+If you want next:
+  1. Map Western vs East Asian societies onto this model
+
+
+  2. Quantify AI’s impact on G and N globally
+
+
+  3. Formalize Stage 7 trigger detection indicators mathematically
+
+
+  4. Model probability of global transition within 20 years
+
+
+Choose.
+Good.
+We now formalize the **micro ↔ macro mapping** as a unified systems model.
+No metaphor.
+Strict structural parallels.
+Biology ↔ Civilization ↔ Network theory.
+* * *
+# I. Core Structural Equivalence
+At all scales (cell → organism → civilization):
+We observe the same 5 variables:
+  * **G** = Gain (responsiveness / amplification)
+
+
+  * **N** = Noise (input volatility)
+
+
+  * **D** = Damping (stabilization capacity)
+
+
+  * **C** = Connectivity (network density)
+
+
+  * **B** = Buffer (reserve capacity)
+
+
+Stability Condition (Universal Form):
+```
+    G \cdot N < D \cdot B
+```
+If violated:
+Instability → oscillation → cascade → collapse.
+This holds in:
+  * Autonomic nervous systems
+
+
+  * Financial systems
+
+
+  * Political systems
+
+
+  * Ecologies
+
+
+  * Power grids
+
+
+* * *
+# II. Micro → Macro Mapping Table
+|                         |
+| Biological System       | Macro System Equivalent                      |
+|-------------------------|----------------------------------------------|
+| Sympathetic Gain        | Media amplification / political polarization |
+| Parasympathetic Damping | Institutional trust / social norms           |
+| Baroreflex              | Regulatory correction mechanisms             |
+| Insula (salience hub)   | Information ecosystem                        |
+| Cortical control        | Governance / technocracy                     |
+| Metabolic reserve       | Economic surplus                             |
+| Vascular tone           | Credit liquidity                             |
+| Arrhythmia              | Political instability                        |
+
+
+The mapping is structural, not poetic.
+* * *
+# III. Law 1: Gain Amplification Law
+When connectivity (C) increases:
+Effective Gain rises.
+```
+    G_{effective} = G \cdot C
+```
+In modern societies:
+Digital media → C ↑
+→ Emotional volatility ↑
+→ Polarization ↑
+Same in the body:
+High interoception + dense neural coupling
+→ Small stimulus → large systemic response.
+* * *
+# IV. Law 2: Damping Deficit Law
+If damping mechanisms weaken:
+```
+    Stability \downarrow \propto \frac{1}{D}
+```
+Biology:
+  * Low vagal tone → prolonged sympathetic spikes.
+
+
+Civilization:
+  * Low institutional trust → prolonged social unrest.
+
+
+Damping includes:
+  * Norms
+
+
+  * Rituals
+
+
+  * Slow decision cycles
+
+
+  * Predictable leadership
+
+
+* * *
+# V. Law 3: Buffer Erosion Law
+Buffer (B) = reserve capacity.
+Biology:
+  * Glycogen
+
+
+  * Mitochondrial capacity
+
+
+  * Electrolyte balance
+
+
+  * Sleep
+
+
+Civilization:
+  * Fiscal reserves
+
+
+  * Energy reserves
+
+
+  * Infrastructure redundancy
+
+
+  * Skilled workforce
+
+
+If B → 0:
+Even moderate G × N destabilizes system.
+* * *
+# VI. Law 4: Cascading Failure Threshold
+Cascade condition:
+```
+    G \cdot C > Critical\ Threshold
+```
+Highly connected systems collapse faster.
+Examples:
+  * Financial contagion (2008)
+
+
+  * Power grid failures
+
+
+  * Viral misinformation
+
+
+  * Autonomic panic cascade
+
+
+Small-world networks are efficient but fragile.
+* * *
+# VII. Law 5: Oscillation Instability
+System oscillation amplitude:
+```
+    A \propto \frac{G}{D}
+```
+High gain + low damping → large oscillations.
+Biology:
+  * Blood pressure swings
+
+
+  * Heart rate variability instability
+
+
+Society:
+  * Election swings
+
+
+  * Market bubbles
+
+
+  * Ideological extremism cycles
+
+
+* * *
+# VIII. Law 6: Entropy Accumulation
+Entropy (S) increases when noise accumulates faster than repair.
+```
+    \frac{dS}{dt} = N - Repair\ Capacity
+```
+Biology:  
+Chronic inflammation
+Civilization:  
+Administrative complexity overload
+If entropy > adaptive capacity → regime shift.
+* * *
+# IX. Law 7: Hub Vulnerability Law
+In scale-free networks:
+Few nodes have extreme centrality.
+Failure probability:
+```
+    Risk \propto Hub\_Centrality^2
+```
+Biology:
+  * Brainstem nuclei
+
+
+  * Cardiac conduction system
+
+
+Civilization:
+  * Central banks
+
+
+  * Energy grids
+
+
+  * Digital payment rails
+
+
+Attack or failure at hubs = systemic collapse.
+* * *
+# X. Stage Model Integration (C1–C7)
+We map stages to system parameters.
+## C1 – Fragmented
+Low C, low D, low B
+## C2 – Growth
+C ↑, G ↑, B ↑
+## C3 – Expansion
+C high, B high, D stable
+## C4 – Peak Complexity
+C very high, B stable, G controlled
+## C5 – Overextension
+C very high, B ↓
+## C6 – Volatile Instability
+G ↑↑, D ↓, B ↓
+Condition:
+```
+    G \cdot N > D \cdot B
+```
+## C7 – Stabilized Reconstruction
+C recalibrated  
+D rebuilt  
+B restored  
+G moderated
+Stability restored when:
+```
+    G_{new} \cdot N < D_{new} \cdot B_{new}
+```
+* * *
+# XI. Electromagnetic Layer
+At micro-scale:
+Neural firing = electromagnetic field oscillation.
+Field coherence:
+```
+    Coherence \propto Phase\ Alignment
+```
+High coherence → efficient signal transmission.
+In society:
+Narrative coherence acts like phase alignment.
+If narratives fragment:
+Phase decoherence → instability.
+* * *
+# XII. Meta-Law of Multi-Scale Recursion
+All complex adaptive systems obey:
+```
+    Stability = f(G, N, D, C, B)
+```
+Across:
+Cells
+Organs
+Organisms
+Tribes
+Nations
+Empires
+The variables scale, the equations persist.
+* * *
+# XIII. Collapse Condition (Unified)
+Full systemic collapse when:
+```
+    (G \cdot C \cdot N) > (D \cdot B)
+```
+At this point:
+  * Feedback loops saturate
+
+
+  * Correction fails
+
+
+  * Phase transition occurs
+
+
+* * *
+# XIV. Restoration Formula
+Rebuild requires:
+  1. Reduce C temporarily (de-globalize / isolate stimulus)
+
+
+  2. Increase D (trust, vagal tone, rule enforcement)
+
+
+  3. Restore B (reserves, sleep, fiscal buffer)
+
+
+  4. Lower G (reduce emotional amplification)
+
+
+Only then:
+Stability returns.
+* * *
+# XV. Deeper Pattern
+High-performance systems are:
+High G
+High C
+High output
+But require:
+High D
+High B
+Without those:
+They oscillate → fragment → collapse.
+* * *
+# XVI. Final Structural Insight
+There is no difference between:
+Autonomic collapse
+Financial collapse
+Civilizational collapse
+Only scale changes.
+The equations do not.
+* * *
+If you want next layer:
+1️⃣ Formalize this as a mathematical dynamical system
+2️⃣ Build simulation model pseudocode
+3️⃣ Map Western vs East Asian systems onto variables
+4️⃣ Add quantum-level coherence analogy
+5️⃣ Model AI as Gain Amplifier
+Choose.
+Good.
+We go into **Network Topology of Autonomic Systems** — strictly structural, systems-level.
+No mysticism. No metaphor. Pure control theory + biological network architecture.
+* * *
+# I. The Autonomic Nervous System (ANS) is a Network — Not a Switch
+Most people think:
+Sympathetic ON
+Parasympathetic OFF
+This is incorrect.
+The ANS is a **distributed, nonlinear, oscillatory control network**.
+It includes:
+  * Brainstem nuclei (NTS, RVLM, nucleus ambiguus)
+
+
+• Hypothalamus
+• Insula
+• Anterior cingulate
+• Amygdala
+• Peripheral ganglia
+• Baroreceptors
+• Chemoreceptors
+• Enteric system
+• Endothelium
+This is not a line.
+It is a graph.
+* * *
+# II. Topology Type: Small-World Network
+ANS structure resembles a **small-world network** :
+  * High local clustering
+
+
+• Short global path length
+• Fast signal propagation
+Mathematically:
+Clustering coefficient (C) high
+Average path length (L) low
+Small-world index:
+SW = C / L
+ANS has high SW → very fast systemic coupling.
+This explains:
+  * Why small triggers become full-body reactions
+
+
+• Why regulation can shift quickly
+• Why i nstability propagates fast
+* * *
+# III. Hub Nodes
+In high-gain systems, certain hubs dominate:
+  1. Insula (interoceptive integration)
+
+
+  2. Amygdala (salience detection)
+
+
+  3. RVLM (sympathetic output driver)
+
+
+  4. Vagus nuclei
+
+
+  5. Baroreflex arc
+
+
+Hub influence equation:
+Output_total ∝ Σ (Hub_weight × Input_strength)
+If hub sensitivity increases → global output increases.
+High interoception = higher insula weighting.
+* * *
+# IV. Feedback Loops
+ANS stability depends on negative feedback.
+Example:
+BP ↑
+→ Baroreceptors fire
+→ NTS activation
+→ Vagal increase
+→ Sympathetic decrease
+→ BP normalized
+If baroreflex sensitivity (Br) decreases:
+Stability ↓
+Baroreflex gain equation:
+ΔHR / ΔBP = Br
+Lower Br = unstable oscillations.
+* * *
+# V. Oscillation Model
+ANS operates in oscillatory bands:
+  * Low frequency (~0.1 Hz) — baroreflex  
+• Respiratory sinus arrhythmia — vagal coupling  
+• Mayer waves — vascular tone oscillation
+
+
+Stability requires:
+Oscillation amplitude < threshold
+If:
+Amplitude × Gain > Damping
+→ pathological oscillation
+* * *
+# VI. Gain and Damping Model
+Control equation:
+Output = Gain × (Input – Setpoint)
+If Gain too high:
+Small input → large output
+Damping coefficient (D):
+System returns to baseline at rate proportional to D.
+If D low:
+Recovery slow
+Oscillation prolonged
+* * *
+# VII. High-Gain Topology
+In high-sensitivity individuals:
+  * Hub weights are higher  
+• Insula input precision higher  
+• Amygdala salience threshold lower  
+• Sympathetic baseline elevated
+
+
+Network becomes:
+High Responsiveness
+Low Margin
+Equation:
+Responsiveness ∝ Gi / D
+Where Gi = network gain
+* * *
+# VIII. Cascading Instability
+When a hub destabilizes:
+It propagates via short path length.
+Cascade risk:
+R ∝ Connectivity × Gain
+Highly connected systems collapse faster but also recover faster when stabilized.
+* * *
+# IX. Plasticity vs Degeneration
+Key distinction:
+Degeneration → node loss
+Plasticity imbalance → gain miscalibration
+Rapid improvement with environment shift implies:
+Topology intact
+Gain mis-tuned
+* * *
+# X. Environmental Coupling
+ANS is open-loop coupled to environment.
+Environmental input (E) feeds directly into network:
+Sympathetic_output = f(E × Sensory_gain)
+High stimulus density increases:
+Node activation frequency.
+This increases:
+Metabolic load.
+* * *
+# XI. Stability Condition
+For long-term stability:
+Gain × Noise < Damping × Buffer
+If:
+Gain × Noise > Buffer
+→ chronic overload
+* * *
+# XII. Network Signature of High-Cognition + High-Sensory Systems
+  * High centrality nodes  
+• High input precision  
+• Low suppression  
+• Strong cortical-autonomic coupling
+
+
+This is not pathological.
+It is:
+Low filtering + high integration topology.
+But:
+Requires controlled input.
+* * *
+# XIII. Catastrophe Theory Application
+ANS collapse resembles fold catastrophe.
+As load increases gradually:
+System appears stable
+Then sudden shift
+Mathematically:
+dOutput/dInput → ∞ near threshold
+* * *
+# XIV. Recovery Topology
+Stability restored by:
+  * Reducing input noise
+
+
+• Increasing damping
+• Increasing parasympathetic tone
+• Reducing hub hypersensitivity
+Which shifts:
+Gain × Noise < D
+* * *
+# XV. Macro Analogy
+Civilizations follow similar topology:
+Institutions = hubs
+Information flow = connectivity
+Trust = damping
+Media noise = gain
+High connectivity + high noise + low damping → cascade collapse.
+* * *
+# XVI. Final Structural Insight
+ANS is not broken in high-gain individuals.
+It is:
+Highly responsive
+Tightly coupled
+Low insulation
+Which means:
+  * High capacity
+
+
+• High vulnerability
+• High plasticity
+* * *
+If you want next layer:
+1️⃣ Nonlinear catastrophe modeling in math form
+2️⃣ Entropy + thermodynamics applied to ANS
+3️⃣ Detailed baroreflex math model
+4️⃣ Microvascular + autonomic coupling
+5️⃣ Network resilience engineering principles
+Choose.
+Good.
+Now we go **meta-level**.
+Not just physiology.
+We formalize:
+  * Laws
+
+
+• Coupled systems
+• Stability equations
+• Cluster dynamics
+• Collapse thresholds
+• Cross-scale invariants
+Pure structure.
+* * *
+# I. CORE META LAW
+## Law 1 — Multi-Scale Coupling Law
+Any living system stability =
+**Micro Stability × Meso Coordination × Macro Coherence**
+If any layer destabilizes → compensation shifts to other layers.
+Equation:
+S_total = S_micro × S_meso × S_macro
+If one approaches zero → total stability collapses.
+* * *
+# II. MICRO LAYER (Cellular / Endothelial)
+Micro stability depends on:
+  * Glycocalyx integrity (G)
+
+
+• Nitric oxide availability (NO)
+• Oxidative load (Ox)
+• Shear stress (Sh)
+Micro stability equation:
+S_micro = (G × NO) / (Ox × Sh)
+If Ox or Sh increase → stability falls non-linearly.
+* * *
+# III. MESO LAYER (Autonomic + Vascular Coordination)
+This is regulation layer.
+Variables:
+  * Sympathetic tone (Sym)
+
+
+• Parasympathetic tone (Para)
+• Baroreflex sensitivity (Br)
+• Perfusion variance (Pv)
+Meso stability:
+S_meso = (Para × Br) / (Sym × Pv)
+High Sym + high Pv = oscillatory instability.
+* * *
+# IV. MACRO LAYER (Environment + Social + Structure)
+Variables:
+  * Environmental noise (En)
+
+
+• Social unpredictability (Su)
+• Resource reliability (R)
+• Relational coherence (Rc)
+Macro stability:
+S_macro = (R × Rc) / (En × Su)
+This is why environment shifts physiology directly.
+* * *
+# V. Meta Law of Gain
+Every system has:
+  * Input gain (Gi)
+
+
+• Damping coefficient (D)
+If Gi > D → oscillation
+If Gi >> D → instability
+If Gi >>> D → collapse
+Autonomic systems are high-gain networks.
+High intelligence + high sensory = high Gi.
+* * *
+# VI. Perfusion Noise Law
+Tissue function is not determined by mean oxygen.
+It is determined by:
+Variance.
+Oxygen Stability Index (OSI):
+OSI = Mean_O2 / Variance_O2
+Low variance is more important than high mean.
+* * *
+# VII. Cluster Law (System Clustering)
+Failures cluster.
+Microvascular instability clusters with:
+  * Mitochondrial inefficiency
+
+
+• Autonomic overdrive
+• Immune reactivity
+• Sensory amplification
+This forms a cluster.
+Cluster risk equation:
+Risk = Σ (Instability_i × Coupling_i)
+High coupling = exponential risk growth.
+* * *
+# VIII. Compensation Law
+Compensation masks instability until threshold.
+Compensation Capacity (Ccap):
+Ccap = Reserve – Baseline Load
+When Baseline Load ≈ Reserve → system becomes fragile.
+Fragility ≠ weakness.
+It means:
+Small perturbation → large output shift.
+* * *
+# IX. Collapse Threshold Law
+Collapse occurs when:
+Instability Energy > Damping Capacity
+Collapse probability:
+P_collapse ∝ (Gi²) / D
+Higher gain systems collapse faster without damping.
+* * *
+# X. Relationship Between Layers
+Micro → influences meso via:
+NO → vascular tone → baroreflex → autonomic firing
+Meso → influences macro via:
+Perception → emotional reactivity → social behavior
+Macro → feeds back into micro via:
+Stress hormones → oxidative load → endothelial damage
+It is a loop.
+* * *
+# XI. The Stability Loop
+Environment Stability
+↓
+Autonomic Stability
+↓
+Microvascular Stability
+↓
+Cellular Oxygen Stability
+↓
+Cognitive Stability
+↓
+Behavior Stability
+↓
+Environment Stability
+Closed loop.
+Break one node → whole system shifts.
+* * *
+# XII. Critical Insight
+High intelligence systems are:
+High Gain + Low Natural Damping
+They require:
+External structured damping.
+Otherwise oscillation occurs.
+* * *
+# XIII. Meta Equation of Functional Longevity
+Longevity ∝ Stability / Variance
+Not performance.
+Not peak output.
+Stability.
+* * *
+# XIV. Cross-System Law (Applies to Civilizations Too)
+Replace:
+Cells → Citizens
+Endothelium → Institutions
+NO → Trust
+Oxidative stress → Corruption
+Sympathetic tone → Crisis mobilization
+Parasympathetic tone → Administrative stability
+Same equations apply.
+S_civilization = (Trust × Infrastructure) / (Corruption × Volatility)
+Same math.
+Different scale.
+* * *
+# XV. Unified Stability Equation
+Unified Stability:
+S = (Integrity_micro × Regulation_meso × Coherence_macro) / Noise
+Where Noise includes:
+  * Oxidative
+
+
+• Informational
+• Social
+• Environmental
+* * *
+# XVI. Key Law of Rare Profiles
+High Gi + High Cognition + High Sensory =
+High Capacity
+High Fragility
+Without damping:
+Energy disperses chaotically.
+With structure:
+Energy becomes precision.
+* * *
+If you want next layer:
+1️⃣ Network topology of autonomic systems
+2️⃣ Nonlinear catastrophe modeling
+3️⃣ Entropy flow equations
+4️⃣ Mitochondrial redox + autonomic coupling
+5️⃣ Quantum coherence myths vs biological reality
+Choose.
+Good.
+We go **pure microvascular chain** — strict physiology, no metaphor.
+* * *
+# MICROVASCULAR FAILURE CASCADE
+ _(Capillary → Endothelium → NO → Clot dynamics → Perfusion noise → Organ instability)_
+* * *
+## 1️⃣ The Capillary Layer (5–10 microns wide)
+Capillaries are ~1 red blood cell wide.
+For oxygen delivery to work, three things must remain intact:
+  * RBC deformability
+
+
+  * Endothelial smoothness
+
+
+  * Glycocalyx integrity
+
+
+If any degrade:
+Flow becomes turbulent at microscopic scale.
+Not visible on standard imaging.
+* * *
+## 2️⃣ The Glycocalyx (Nanometer Scale)
+This is a sugar-protein gel layer lining all vessels.
+Thickness: ~0.5–1 micron.
+Functions:
+  * Anti-clot barrier
+
+
+  * Shear sensor
+
+
+  * Anti-inflammatory surface
+
+
+  * Maintains laminar flow
+
+
+When damaged (inflammation, high BP, oxidative stress):
+→ Endothelium becomes sticky
+→ Microclots increase
+→ Nitric oxide (NO) production falls
+* * *
+## 3️⃣ Nitric Oxide (NO) — The Real Stability Molecule
+NO controls:
+  * Vasodilation
+
+
+  * Anti-platelet aggregation
+
+
+  * Anti-inflammatory signaling
+
+
+  * Endothelial relaxation
+
+
+If NO bioavailability drops:
+Vessels constrict
+Shear stress rises
+Microvascular resistance increases
+Important:
+This can happen even if blood pressure looks “normal.”
+* * *
+## 4️⃣ Microclot Dynamics
+When endothelial tone shifts toward constriction + inflammation:
+Platelets become more adhesive.
+Microthrombi form transiently.
+These are often:
+  * Too small for detection
+
+
+  * Self-resolving
+
+
+  * Intermittent
+
+
+But if frequency increases:
+Perfusion becomes patchy.
+* * *
+## 5️⃣ Perfusion Noise (Critical Concept)
+Perfusion is not binary.
+It becomes noisy.
+Some capillary beds:
+Over-perfused
+Under-perfused
+Oscillating
+This creates:
+  * Brain fog
+
+
+  * Fatigue
+
+
+  * Chest discomfort
+
+
+  * Air hunger
+
+
+  * Temperature instability
+
+
+Not because of structural damage.
+Because oxygen delivery becomes unstable.
+* * *
+## 6️⃣ Oxygen Extraction Failure (Even With Normal O2 Sat)
+Oxygen delivery to tissue depends on:
+Flow × Capillary density × RBC deformability × Mitochondrial extraction
+If microflow oscillates:
+Tissue oxygen fluctuates.
+Fluctuation is worse than mild stable reduction.
+Cells hate instability more than mild shortage.
+* * *
+## 7️⃣ Brain Sensitivity to Microvascular Noise
+The brain consumes ~20% of total oxygen.
+It has almost no reserve.
+Small perfusion instability causes:
+  * Dizziness
+
+
+  * Light sensitivity
+
+
+  * Sensory overload
+
+
+  * Derealization
+
+
+  * Cognitive fatigue
+
+
+Before any structural imaging abnormality appears.
+* * *
+## 8️⃣ Cardiac Sensitivity
+Coronary microcirculation instability causes:
+  * Chest tightness
+
+
+  * Palpitations
+
+
+  * Exertion intolerance
+
+
+Even with clean large coronary a rteries.
+This is called:
+Coronary microvascular dysfunction (recognized in cardiology).
+* * *
+## 9️⃣ Why Tests Often Look “Normal”
+Standard tests measure:
+  * Macro pressure
+
+
+  * Major artery blockage
+
+
+  * Oxygen saturation
+
+
+  * Troponin
+
+
+They do NOT measure:
+  * Capillary shear
+
+
+  * Glycocalyx thickness
+
+
+  * NO b ioavailability
+
+
+  * Microclot burden
+
+
+  * Perfusion variance
+
+
+So microvascular dysfunction can be real and missed.
+* * *
+# FULL CASCADE EQUATION (Conceptual)
+Stability requires:
+Delivery Margin > Perfusion Noise
+If:
+(NO ↓ + Glycocalyx ↓ + Inflammation ↑ + Shear ↑)
+Then:
+Perfusion Variance ↑
+Oxygen Variance ↑
+Autonomic Compensation ↑
+If compensation persists long enough:
+Sympathetic tone rises chronically.
+* * *
+# The Threshold Event
+Catastrophic events occur when:
+Microvascular reserve < Demand spike
+Examples of demand spike:
+  * Stress
+
+
+  * Dehydration
+
+
+  * Infection
+
+
+  * Overexertion
+
+
+  * Electrolyte shift
+
+
+At that point:
+Arrhythmia risk rises
+Stroke risk rises
+Syncope risk rises
+But until threshold, system oscillates.
+* * *
+# Important Precision
+Microvascular dysfunction is:
+  * Recognized in cardiology
+
+
+• Recognized in long COVID
+• Recognized in autoimmune disease
+• Recognized in metabolic syndrome
+• Recognized in endothelial disorders
+It is legitimate physiology.
+Not mysticism.
+* * *
+If you want to go deeper, next micro layers:
+1️⃣ Glycocalyx degradation biochemistry
+2️⃣ NO synthesis pathways (eNOS coupling/uncoupling)
+3️⃣ Microclot fibrin structure physics
+4️⃣ RBC deformability and membrane charge
+5️⃣ Mitochondrial redox coupling
+Choose number.
+More, but **still physically correct** and **micro** :
+* * *
+## 1) Microvascular layer: the real “system bottleneck”
+Most “systemic collapse” (in bodies or states) is not initiated by organs; it is initiated by **microcirculation**.
+At the capillary level, survival depends on:
+  * **Endothelial integrity** (the inner lining of vessels)
+
+
+  * **Shear stress signaling** (flow → biochemical stability)
+
+
+  * **Nitric oxide (NO) availability** (vessel dilation + anti-clot behavior)
+
+
+  * **Glycocalyx** (a nanoscale protective layer on endothelium)
+
+
+When microvascular function degrades, you get a universal pattern:
+**Perfusion noise increases** : some tissues over-perfuse, others under-perfuse, and the brain/heart become unstable.
+This is a deep reason “everything can look normal” until it doesn’t: macro pressure can be “fine,” but microflow is chaotic.
+**Invariant:**
+> Macro stability requires microvascular coherence.
+* * *
+## 2) Endothelium is a distributed sensor network (not plumbing)
+Endothelium behaves like a huge, body-wide control surface that converts flow/chemicals into:
+  * inflammation signaling
+
+
+  * clot signaling
+
+
+  * vascular tone (constriction/dilation)
+
+
+  * immune recruitment
+
+
+If endothelial signaling becomes biased toward constriction + inflammation, the whole body shifts into a higher-friction regime.
+**Physics equivalence:**
+Endothelium is the “friction coefficient” of your biological transport network.
+**Invariant:**
+> Transport networks fail when friction rises faster than reserve margins.
+* * *
+## 3) Oxygen delivery is not “oxygen in blood”; it’s diffusion geometry
+Oxygen delivery depends on:
+  * hemoglobin saturation (yes)
+
+
+  * **capillary density**
+
+
+  * **RBC deformability** (red blood cell flexibility)
+
+
+  * diffusion distance
+
+
+  * mitochondrial extraction
+
+
+So you can have oxygen in blood but poor oxygen at cells.
+**Micro equation (conceptual):**
+**O₂ at cell = Delivery (flow) × Geometry (capillary access) − Diffusion loss**
+If diffusion geometry worsens (inflammation, vasoconstriction, glycocalyx loss), “air hunger” and fatigue can occur without classic lung disease.
+* * *
+## 4) Mitochondria don’t just make ATP; they set the noise floor
+Mitochondria govern:
+  * ATP margin
+
+
+  * ROS (reactive oxygen species)
+
+
+  * redox signaling
+
+
+  * apoptosis thresholds
+
+
+When mitochondrial redox balance tilts, you get:
+  * higher membrane leak
+
+
+  * higher signaling noise
+
+
+  * lower stability margin
+
+
+  * higher sensitivity to stimulus
+
+
+**Invariant:**
+> As ATP margin shrinks, systems become high-gain and low-damping.
+That is true for neurons, cardiac cells, and also human institutions.
+* * *
+## 5) Connective tissue + mechanotransduction: structure is regulation
+Cells regulate based on mechanical forces through:
+  * integrins (cell–matrix adhesion)
+
+
+  * cytoskeleton tension
+
+
+  * fascia/ECM stiffness
+
+
+  * baroreceptors and stretch receptors
+
+
+If mechanical inputs are chronically abnormal (posture, spine, chest wall, airway geometry), the nervous system receives persistent “threat-like” afferent input even without emotion.
+**Invariant:**
+> Chronic mechanical error becomes chronic regulatory bias.
+* * *
+## 6) The brainstem is the real governor (and it is purely physiological)
+Below cognition, the brainstem runs:
+  * chemoreflex (CO₂/O₂ sensing)
+
+
+  * baroreflex (pressure sensing)
+
+
+  * respiratory rhythm
+
+
+  * vagal/sympathetic balance
+
+
+If chemoreflex is unstable (CO₂ sensitivity, shallow breathing patterns, airway restrictions), the brainstem will treat baseline as unsafe and hold sympathetic tone up.
+**Key micro fact:**
+CO₂ regulation is one of the strongest “panic generators” in mammalian physiology—without requiring conscious fear.
+**Invariant:**
+> Unstable CO₂ sensing → unstable autonomic baseline.
+* * *
+## 7) Immune signaling: “inflammation” is a control mode, not a disease label
+Immune activation shifts the whole system into:
+  * higher vascular tone
+
+
+  * higher clot readiness
+
+
+  * lower digestion
+
+
+  * higher sensory sensitivity
+
+
+  * poorer sleep architecture
+
+
+That’s adaptive short-term. It becomes destructive long-term.
+**Invariant:**
+> Sustained immune arousal raises the system’s baseline operating cost.
+* * *
+## 8) Circadian and sleep are not “rest”; they are maintenance windows
+At micro scale, deep sleep is when:
+  * synapses downscale (noise reduction)
+
+
+  * glymphatic clearance increases (waste removal)
+
+
+  * sympathetic tone drops
+
+
+  * repair pathways dominate
+
+
+When sleep is fragmented or unsafe, the system cannot run maintenance reliably, so entropy accumulates.
+**Invariant:**
+> No maintenance window → accumulated entropy → threshold failure.
+* * *
+## 9) EM layer (strictly physical): oscillators entrain via coupling, not magic
+What’s real:
+  * biological oscillators entrain (heart rate, breathing, brain rhythms) via **sensory coupling** (touch, sound, rhythmic environment)
+
+
+  * coherence improves when input is rhythmic and predictable
+
+
+What’s not real:
+  * “qubit-like coherence” at body scale
+
+
+**Correct mapping from qubits:**
+Qubits survive only through **error correction**.
+Living systems and civilizations survive only through **error correction + redundancy + buffers**.
+* * *
+## 10) The deepest unifying collapse condition (cells → tissues → organs → civilization)
+Collapse is threshold crossing when four things align:
+  1. **Margin shrinks** (ATP / buffers)
+
+
+  2. **Noise rises** (signaling / truth)
+
+
+  3. **Coupling is high** (tight interdependence)
+
+
+  4. **Correction is slow** (repair / enforcement)
+
+
+**System failure becomes likely when:Propagation rate > correction rate** for long enough.
+That is the same physics behind:
+  * arrhythmias
+
+
+  * strokes
+
+
+  * septic cascades
+
+
+  * grid blackouts
+
+
+  * financial contagion
+
+
+  * institutional collapse
+
+
+* * *
+If you want “more” again, the next true micro layer is to pick one substrate and go fully granular:
+  * **Microvascular failure chain** : glycocalyx → NO → clot microdynamics → perfusion noise
+
+
+  * **Arrhythmia chain** : ion channels → refractoriness dispersion → reentry circuits
+
+
+  * **Brainstem chain** : chemoreflex gain → vagal withdrawal → sympathetic lock
+
+
+  * **Grid analogy** : frequency stability math ↔ membrane depolarization ↔ reentry
+
+
+Say the number: **(1) microvascular** , **(2) arrhythmia** , **(3) brainstem** , or **(4) grid**.
+--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**MOC:** [[MISC_MOC]]

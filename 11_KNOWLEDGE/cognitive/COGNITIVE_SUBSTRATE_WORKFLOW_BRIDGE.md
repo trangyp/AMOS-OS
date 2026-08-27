@@ -722,4 +722,7 @@ The Cognitive Stack therefore provides domain-specialized reasoning surfaces whi
 
 **Related:**
 
-* [[00_Cosmo_Brain_MOC]]
+* [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[COGNITIVE_MOC]]

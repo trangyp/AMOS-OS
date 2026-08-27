@@ -1,3 +1,9 @@
+---
+title: GENERATOR VALIDATION
+type: note
+tags: [note, 12-generators]
+---
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VALIDATION.md`.
 
 This artifact should sit **below the general `12_GENERATORS/VALIDATION.md` architecture and above concrete Validator implementations**. Its job is to define what must be true before a particular Generator version, invocation, or generated candidate can be considered valid within a declared scope/regime. It does **not** grant authority, promote canon, perform Worker effects, or turn missing evidence into a pass. That separation follows the AMOS Full Brain OS requirement to preserve provenance, distinguish evidence classes, challenge consequential conclusions, and expose missing implementation/authority/validation instead of inventing it. 
@@ -2883,7 +2889,7 @@ RSCF-NODE:
 RSCF-RELATIONS:
 
   - INDEXED_BY:
-      "[[00_ROOT/00-Home]]"
+      "[[00_HOME]]"
 
   - INDEXED_BY:
       "[[AMOS_RSCF_NODES]]"
@@ -2895,10 +2901,10 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - VALIDATES:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|Generator Contract]]"
+      "[[GENERATOR_CONTRACT|Generator Contract]]"
 
   - VALIDATES:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_VERSIONING|Generator Versioning]]"
+      "[[GENERATOR_VERSIONING|Generator Versioning]]"
 
   - USES:
       "Generator Provenance"
@@ -2907,16 +2913,16 @@ RSCF-RELATIONS:
       "Generator Tests"
 
   - USES:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_BENCHMARKS|Generator Benchmarks]]"
+      "[[GENERATORS_BENCHMARKS|Generator Benchmarks]]"
 
   - AUDITED_BY:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_AUDIT|Generator Audit]]"
+      "[[GENERATORS_AUDIT|Generator Audit]]"
 
   - RELATED_TO:
       "Generator Integration"
 
   - FEEDS:
-      "[[25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES|Promotion Gates]]"
+      "[[PROMOTION_GATES|Promotion Gates]]"
 ```
 
 ---
@@ -3671,7 +3677,7 @@ READ_ONLY_BY_DEFAULT
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
 
 ## Related Generator artifacts
 
@@ -3750,3 +3756,6 @@ not simply:
 
 "the output parsed"
 ```
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

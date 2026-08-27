@@ -1,7 +1,9 @@
 ---
+title: SCIENTIFIC ENGINE MODEL
 aliases: [Scientific Engine Kernel, AMOS_Scientific_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/scientific-engine-model, engine]
 ---
+
 
 # AMOS Scientific Engine Kernel
 
@@ -31,4 +33,7 @@ The **Scientific Engine Kernel** operates as the core brain for scientific reaso
 - Always track the lineage and origin of datasets.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

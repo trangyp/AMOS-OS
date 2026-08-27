@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN DURABLE MEMORY
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-durable-memory, brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 
 # AMOS Brain: Durable Architecture Memory
 
@@ -126,4 +131,7 @@ tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/s
 Input space: 8 types — everyday language, emotional language, narrative/story, symbolic/spiritual, cultural (VN+EN), neurotypical framing, outlier framing, multi-layer mixed.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

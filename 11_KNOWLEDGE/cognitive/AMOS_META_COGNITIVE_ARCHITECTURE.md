@@ -1,6 +1,11 @@
 ---
+title: AMOS META COGNITIVE ARCHITECTURE
 tags: [cognitive]
+type: document
+source: 11_KNOWLEDGE/cognitive
 ---
+
+
 """AMOS Engine - Instant Meta-Cognitive Architecture Implementation
 
 ## 🧠 MISSION ACCOMPLISHED
@@ -112,3 +117,6 @@ The AMOS Engine is now ready to integrate with:
 - **Real Code Verification**: Engine-based code generation and verification
 
 **This represents the first practical implementation of a system that truly understands and reasons about complex systems while continuously improving its own cognitive architecture!** 🚀
+
+---
+**Links:** [[COGNITIVE_MOC]] | [[KNOWLEDGE_MOC]]

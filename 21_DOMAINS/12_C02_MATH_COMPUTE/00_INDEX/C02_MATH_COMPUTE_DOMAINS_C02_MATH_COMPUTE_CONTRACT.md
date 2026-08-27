@@ -31,3 +31,6 @@ node_id: amos_compute_00_index_c02_math_compute_domains_c02_math_compute_contrac
 node_type: note
 path: 21_DOMAINS/12_C02_MATH_COMPUTE/00_INDEX/C02_MATH_COMPUTE_DOMAINS_C02_MATH_COMPUTE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C02_MATH_COMPUTE_DOMAINS_README]]

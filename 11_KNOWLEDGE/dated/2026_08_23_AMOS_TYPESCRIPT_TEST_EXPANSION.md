@@ -117,7 +117,10 @@ Key test cases:
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Brain Cortex and Executable Brain Model Bug Fixes
 - 2026-08-23 AMOS Expression Translation Test Expansion
 - 2026-08-23 Deterministic Verification Summary
+
+---
+**MOC:** [[DATED_MOC]]

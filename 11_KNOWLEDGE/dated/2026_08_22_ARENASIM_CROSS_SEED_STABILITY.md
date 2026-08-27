@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 ARENASIM CROSS SEED STABILITY
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # AMOS ArenaSim — Cross-Seed Resource Stability Analysis
 
 **Open Question #2: Cross-seed robustness — how stable are the semantic type signatures across seeds?**
@@ -115,4 +120,7 @@ In 66/100 seeds, the EcoSystemArena population collapses before step 20 (energy 
 *Stored in skill: `~/.hermes/skills/amos-arenasim/SKILL.md`*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

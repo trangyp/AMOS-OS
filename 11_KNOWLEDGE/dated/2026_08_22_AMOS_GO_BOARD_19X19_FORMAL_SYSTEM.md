@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 AMOS GO BOARD 19X19 FORMAL SYSTEM
 origin_architect: Trang Phan
 provenance: docs/AMOS-Go-Board-19x19.md; cosmo-brain/AMOS_GO_BOARD_19X19.py; cosmo-brain/AMOS_GO_BOARD_19X19_STRATEGIC.py
 confidence: 0.92
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-go-board-19x19-formal-sy, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # AMOS 19×19 Go Board — Formal System
 
@@ -158,3 +160,6 @@ Assigning mystical meanings to all 361 cells would be canon fabrication.
 ## 8. Conclusion class
 
 The geometry, coordinate identity, and board rules are source-grounded. The 20-variable cell state, VType, Regime, Move, GroupTopology, LibertyVector, ScaleTensor, RegionMatrix, influence/territory fields, and the formal machinery are `AMOS MODEL` — executable formalizations, not empirical Go strength.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

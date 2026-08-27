@@ -1,0 +1,20 @@
+---
+title: 22_C12_EARTH_ECOLOGY MOC
+type: moc
+tags: [moc, 22-c12-earth-ecology]
+---
+
+# 22_C12_EARTH_ECOLOGY — Map of Content
+
+## Files
+
+- [[C12_EARTH_ECOLOGY_DOMAINS_DOMAIN_SPEC]]
+- [[C12_EARTH_ECOLOGY_DOMAINS_README]]
+- [[DOMAINS_C12_EARTH_ECOLOGY_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_C12_EARTH_ECOLOGY_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

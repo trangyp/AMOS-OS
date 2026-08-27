@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -31,3 +31,8 @@ node_id: amos_service_levels_00_index_index_service_levels_operating_model_readm
 node_type: note
 path: 23_OPERATING_MODEL/05_SERVICE_LEVELS/00_INDEX/INDEX_SERVICE_LEVELS_OPERATING_MODEL_README.md
 claim_class: AMOS_MODEL
+
+## Files
+
+- [[SERVICE_LEVELS_MAP]]
+- [[SERVICE_LEVELS_OPERATING_MODEL_SERVICE_LEVELS_CONTRACT]]

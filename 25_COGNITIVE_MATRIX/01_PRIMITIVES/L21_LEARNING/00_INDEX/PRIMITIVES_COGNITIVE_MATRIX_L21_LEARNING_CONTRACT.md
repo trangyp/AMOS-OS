@@ -50,7 +50,7 @@ Given an operation touching `PRIMITIVES · COGNITIVE MATRIX L21 LEARNING CONTRAC
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: cm_21_learning_00_index_primitives_cognitive_matrix_l21_learning_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/00_INDEX/PRIMITIVES_COGNITIVE_MATRIX_L21_LEARNING_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_README]]

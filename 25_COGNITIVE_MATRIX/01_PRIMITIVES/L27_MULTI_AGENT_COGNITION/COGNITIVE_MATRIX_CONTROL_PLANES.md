@@ -1,3 +1,9 @@
+---
+title: COGNITIVE MATRIX CONTROL PLANES
+type: note
+tags: [note, l27-multi-agent-cognition]
+---
+
 # L27 — Control-Plane Requirements
 
 **Package:** `L27_MULTI_AGENT_COGNITION`  
@@ -35,3 +41,6 @@ node_type: note
 path: 01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/COGNITIVE_MATRIX_CONTROL_PLANES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/COGNITIVE_MATRIX_CONTROL_PLANES.md
+
+---
+**MOC:** [[L27_MULTI_AGENT_COGNITION_MOC]]

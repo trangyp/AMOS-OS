@@ -15,4 +15,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
 Target: `Cosmo Brain — Reasoning OS by Trang Phan`
 
 ## Related
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[trang_MOC]]

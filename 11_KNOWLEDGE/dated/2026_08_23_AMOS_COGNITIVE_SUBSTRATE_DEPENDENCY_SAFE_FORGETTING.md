@@ -112,8 +112,11 @@ on two consecutive lines (lines 2889-2890). Removed the duplicate.
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Cognitive Substrate Query and Tag Retrieval
 - 2026-08-23 AMOS Cognitive Substrate Bug Fixes
 - 2026-08-22 Cognitive Substrate Memory Graph
 - AMOS_Cognitive_Substrate_v2_Implementation_Notes
+
+---
+**MOC:** [[DATED_MOC]]

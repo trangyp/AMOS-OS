@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/cosmo-obsidian-memory`
 
 - Open the skill: .agents/skills/cosmo-obsidian-memory
+
+---
+**Links:** [[UNIVERSE-COSMOS_MOC]] | [[KNOWLEDGE_MOC]]

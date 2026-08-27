@@ -1,10 +1,12 @@
 ---
+title: MEMORY THE HUMAN SYSTEM
 type: memory
 created: 2026-08-22
 updated: 2026-08-22
 source: "The Complete Human System (book manuscript — two versions ingested)"
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/memory-the-complete-human-system, system]
 ---
+
 
 # The Complete Human System — Integrated Insights (v2 — Epistemically Audited)
 
@@ -197,7 +199,7 @@ No verified framework currently derives this. Every known system reaches this bo
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]] — vault index
+- [[00_COSMO_BRAIN_MOC]] — vault index
 - [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
 - 2026-08-22 The Complete Human System — Book Knowledge Base — canonical version
 - 2026-08-22 The Complete Human System — Books One–Six — alternate version
@@ -206,3 +208,6 @@ No verified framework currently derives this. Every known system reaches this bo
 - Schizophrenia Structural Model — Complete Human System — NEW
 - The Void — Ego Dissolution Model — NEW
 - 2026-08-22 Deep Structure Learning — AMOS brain structure (parallel inquiry)
+
+---
+**MOC:** [[SYSTEM_MOC]]

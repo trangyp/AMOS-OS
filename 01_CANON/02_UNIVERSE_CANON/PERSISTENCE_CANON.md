@@ -64,10 +64,10 @@ related:
   - "[[00_ROOT/ARCHITECTURE.md|Architecture]]"
   - "[[00_ROOT/SYSTEM_MAP.md|System Map]]"
   - "[[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]]"
-  - "[[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]]"
-  - "[[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|Invariant Registry]]"
-  - "[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|Law Hierarchy]]"
-  - "[[01_CANON/02_UNIVERSE_CANON/HML_CANON|H/M/L Canon]]"
+  - "[[AMOS_CORE_LAWS|AMOS Core Laws]]"
+  - "[[INVARIANT_REGISTRY|Invariant Registry]]"
+  - "[[LAW_HIERARCHY|Law Hierarchy]]"
+  - "[[HML_CANON|H/M/L Canon]]"
 ---
 
 # AMOS Persistence Canon
@@ -2808,7 +2808,7 @@ WHEN IT FAILS.
 
 ---
 
-**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/00_ROOT_MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/NEURAL_NETWORK.md|AMOS Neural Network]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS|AMOS Core Laws]] · [[01_CANON/01_CORE_LAWS/INVARIANT_REGISTRY|Invariant Registry]] · [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|Law Hierarchy]] · [[01_CANON/02_UNIVERSE_CANON/HML_CANON|H/M/L Canon]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md|Protocol Map]] · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md|Memory Map]] · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP.md|State Map]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|Observability Map]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|Security Map]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Test Map]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|Operations Map]]
+**Related:** [[00_ROOT/README.md|AMOS OS]] · [[00_ROOT/00_ROOT_MOC.md|MOC]] · [[00_ROOT/ARCHITECTURE.md|Architecture]] · [[00_ROOT/SYSTEM_MAP.md|System Map]] · [[00_ROOT/NEURAL_NETWORK.md|AMOS Neural Network]] · [[00_ROOT/AUTHORITATIVE_STATE.md|Authoritative State]] · [[00_ROOT/PLACEMENT_RULES.md|Placement Rules]] · AMOS Canon · [[01_CANON/00_INDEX/CANON_MAP.md|Canon Map]] · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY|Invariant Registry]] · [[LAW_HIERARCHY|Law Hierarchy]] · [[HML_CANON|H/M/L Canon]] · [[02_KERNEL/00_INDEX/KERNEL_MAP.md|Kernel Map]] · [[03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md|Control Plane Map]] · [[04_RUNTIME/00_INDEX/RUNTIME_MAP.md|Runtime Map]] · [[09_PROTOCOLS/00_INDEX/PROTOCOL_MAP.md|Protocol Map]] · [[10_MEMORY/00_INDEX/MEMORY_MEMORY_MAP.md|Memory Map]] · Knowledge Map · [[12_STATE/00_INDEX/STATE_STATE_MAP.md|State Map]] · [[16_SCHEMAS/00_INDEX/SCHEMA_MAP.md|Schema Map]] · [[17_OBSERVABILITY/00_INDEX/OBSERVABILITY_OBSERVABILITY_MAP.md|Observability Map]] · [[18_SECURITY/00_INDEX/SECURITY_MAP.md|Security Map]] · [[19_TESTS/00_INDEX/TEST_MAP.md|Test Map]] · [[20_OPERATIONS/00_INDEX/OPERATIONS_MAP.md|Operations Map]]
 
 ```
 ```
@@ -2829,3 +2829,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[02_UNIVERSE_CANON_MOC]]

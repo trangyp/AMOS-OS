@@ -1,6 +1,11 @@
 ---
+title: AMOS QUANTUM STRUCTURAL LIVING SYSTEM
 tags: [reports]
+type: document
+source: 11_KNOWLEDGE/reports
 ---
+
+
 # AMOS OMEGA QUANTUM-STRUCTURAL LIVING SYSTEM ENGINE
 # ================================================
 #
@@ -155,3 +160,6 @@ tags: [reports]
 # Dependencies: numpy, scipy, psutil (all standard scientific libraries)
 # Validation: ✅ 16GB Mac safety constraints enforced
 # Status: ✅ PRODUCTION READY
+
+---
+**Links:** [[REPORTS_MOC]] | [[KNOWLEDGE_MOC]]

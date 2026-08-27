@@ -50,7 +50,7 @@ Given an operation touching `REPLAY · CONTROL PLANE REPLAY CONTRACT` within the
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: cp_ntrol_plane_11_replay_00_index_replay_control_plane_replay_contract_
 node_type: note
 path: 03_CONTROL_PLANE/11_REPLAY/00_INDEX/REPLAY_CONTROL_PLANE_REPLAY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_REPLAY_CONTROL_PLANE_README]]

@@ -1,0 +1,22 @@
+---
+title: 01_SOFTWARE MOC
+type: moc
+tags: [moc, 01-software]
+---
+
+# 01_SOFTWARE — Map of Content
+
+## Files
+
+- [[DOMAINS_SOFTWARE_CONTRACT]]
+- [[SOFTWARE_DOMAINS_DOMAIN_SPEC]]
+- [[SOFTWARE_DOMAINS_INTERFACES]]
+- [[SOFTWARE_DOMAINS_PROVENANCE]]
+- [[SOFTWARE_DOMAINS_README]]
+
+## Subdirectories
+
+- [[INDEX_SOFTWARE_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

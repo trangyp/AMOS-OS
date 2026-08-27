@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN LEARNING MEMORY
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-learning-memory, brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 
 # AMOS Brain: What I Learned (Updated with Corrected Architecture)
 
@@ -414,4 +419,7 @@ Biology (1): Ubi_Core_Engine
 These are SOURCE-DEFINED gaps, not my failure. They should remain documented as gaps.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

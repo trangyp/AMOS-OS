@@ -97,9 +97,12 @@ The global_rules claim "1,035 tests" for the codeified brain. **Verified actual:
 - H1 (working hypothesis: bottleneck is implementation/integration) → **confirmed**. The TS runtime + Python engines prove executable code exists; the gap is integrating them into one authoritative state model + kernel runtime + control plane, not inventing more frameworks.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS System Completion Baseline (the MODEL-class estimates this reconciles)
 - 2026-08-22 AMOS System Completion Roadmap (next-jump plan informed by this audit)
 - 00_AMOS_Full_Brain_OS_Architecture
 - 2026-08-22 AMOS Go Board 19x19 Formal System
 - 2026-08-22 19x19 AI Cognitive Field
+
+---
+**MOC:** [[DATED_MOC]]

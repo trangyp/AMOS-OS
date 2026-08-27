@@ -31,3 +31,6 @@ node_id: amos_m_systems_00_index_quantum_systems_domains_quantum_systems_contrac
 node_type: note
 path: 21_DOMAINS/41_QUANTUM_SYSTEMS/00_INDEX/QUANTUM_SYSTEMS_DOMAINS_QUANTUM_SYSTEMS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_QUANTUM_SYSTEMS_DOMAINS_README]]

@@ -1,0 +1,20 @@
+---
+title: 03_GOVERNANCE_FORUMS MOC
+type: moc
+tags: [moc, 03-governance-forums]
+---
+
+# 03_GOVERNANCE_FORUMS — Map of Content
+
+## Files
+
+- [[GOVERNANCE_FORUMS]]
+- [[GOVERNANCE_FORUMS_OPERATING_MODEL_README]]
+- [[OPERATING_MODEL_GOVERNANCE_FORUMS_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_GOVERNANCE_FORUMS_OPERATING_MODEL_README]]
+
+---
+**Parent:** [[23_OPERATING_MODEL_MOC]]

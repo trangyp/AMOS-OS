@@ -1,6 +1,11 @@
 ---
+title: AMOS NERVOUS SYSTEM
 tags: [biology-ubi]
+type: document
+source: 11_KNOWLEDGE/biology-ubi
 ---
+
+
 # AMOS Nervous System Framework - The Missing Link Layer
 
 ## 🧠 **MISSION ACCOMPLISHED**
@@ -157,3 +162,6 @@ The AMOS Nervous System is now ready to integrate with:
 - **Motor System**: Acts on integrated signals with full context
 
 **This completes the full biological stack: Nervous System + Brain + Meta-Cognition + Motor**
+
+---
+**Links:** [[BIOLOGY-UBI_MOC]] | [[KNOWLEDGE_MOC]]

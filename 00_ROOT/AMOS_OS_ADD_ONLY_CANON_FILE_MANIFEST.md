@@ -1400,3 +1400,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
   - GOVERNS: all entries in section 4
+
+---
+**MOC:** [[00_COSMO_BRAIN_MOC]]

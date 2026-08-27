@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-political-dynamics-kernel`
 
 - Open the skill: .devin/skills/amos-political-dynamics-kernel
+
+---
+**Links:** [[KERNEL_MOC]] | [[KNOWLEDGE_MOC]]

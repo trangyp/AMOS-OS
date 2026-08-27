@@ -31,3 +31,6 @@ node_id: amos_egistry_00_index_variable_registry_canon_variable_registry_contrac
 node_type: note
 path: 01_CANON/05_VARIABLE_REGISTRY/00_INDEX/VARIABLE_REGISTRY_CANON_VARIABLE_REGISTRY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_VARIABLE_REGISTRY_CANON_README]]

@@ -1,0 +1,23 @@
+---
+title: 07_COVERAGE MOC
+type: moc
+tags: [moc, 07-coverage]
+---
+
+# 07_COVERAGE — Map of Content
+
+## Files
+
+- [[2026-08-26_CONTRACT_FILL_PASS]]
+- [[COGNITIVE_MATRIX_COVERAGE_CONTRACT]]
+- [[COVERAGE_AUDIT]]
+- [[COVERAGE_COGNITIVE_MATRIX_README]]
+- [[COVERAGE_MODEL]]
+- [[COVERAGE_THRESHOLDS]]
+
+## Subdirectories
+
+- [[INDEX_COVERAGE_COGNITIVE_MATRIX_README]]
+
+---
+**Parent:** [[25_COGNITIVE_MATRIX_MOC]]

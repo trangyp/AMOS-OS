@@ -1,3 +1,9 @@
+---
+title: L7 AUTHORITY
+type: note
+tags: [note, 01-core-laws]
+---
+
 ````markdown
 ---
 tags: ['canon', 'core_laws', 'authority', 'authorization', 'delegation', 'revocation', 'control_plane', 'rscf', 'governance']
@@ -3537,3 +3543,6 @@ claim_class: AMOS_MODEL
 
 ```
 ```
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

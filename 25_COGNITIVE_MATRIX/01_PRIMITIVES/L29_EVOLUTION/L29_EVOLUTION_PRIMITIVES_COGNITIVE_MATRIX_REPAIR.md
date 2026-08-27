@@ -1,3 +1,9 @@
+---
+title: L29 EVOLUTION PRIMITIVES COGNITIVE MATRIX REPAIR
+type: note
+tags: [note, l29-evolution]
+---
+
 # L29 — Repair & Recovery
 
 **Package:** `L29_EVOLUTION`  
@@ -40,3 +46,6 @@ node_type: note
 path: 01_PRIMITIVES/L29_EVOLUTION/L29_EVOLUTION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION/L29_EVOLUTION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
+
+---
+**MOC:** [[L29_EVOLUTION_MOC]]

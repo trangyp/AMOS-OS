@@ -31,3 +31,6 @@ node_id: cp_s_compliance_policy_modes_commit_control_plane_mode_family_registry_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/58_COMPLIANCE_POLICY_MODES/COMPLIANCE_POLICY_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[58_COMPLIANCE_POLICY_MODES_MOC]]

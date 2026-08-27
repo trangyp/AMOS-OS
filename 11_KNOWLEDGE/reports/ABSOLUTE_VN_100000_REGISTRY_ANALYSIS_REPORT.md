@@ -1,6 +1,13 @@
 ---
+title: ABSOLUTE VN 100000 REGISTRY ANALYSIS REPORT
 tags: [reports]
+type: data
+source: 11_KNOWLEDGE/reports
 ---
+
+
+
+```json
 {
   "source_file": "/mnt/data/absolute_vn_civilizational_equation_tensor_registry_100000.json",
   "top_level_keys": [
@@ -2641,4 +2648,8 @@ tags: [reports]
 }
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+```
+
+---
+**MOC:** [[REPORTS_MOC]]

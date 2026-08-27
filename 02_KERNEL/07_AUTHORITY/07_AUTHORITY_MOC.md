@@ -1,0 +1,23 @@
+---
+title: 07_AUTHORITY MOC
+type: moc
+tags: [moc, 07-authority]
+---
+
+# 07_AUTHORITY — Map of Content
+
+## Files
+
+- [[AUTHORITY_KERNEL_README]]
+- [[KERNEL_AUTHORITY_CONTRACT]]
+- [[K_CAPABILITY_AUTHORIZATION]]
+- [[K_COMMIT_TIME_AUTHORITY]]
+- [[K_EFFECT_CLASSIFICATION]]
+- [[K_INFORMATION_EXPOSURE]]
+
+## Subdirectories
+
+- [[INDEX_AUTHORITY_KERNEL_README]]
+
+---
+**Parent:** [[02_KERNEL_MOC]]

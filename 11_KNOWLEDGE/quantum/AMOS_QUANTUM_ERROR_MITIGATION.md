@@ -192,3 +192,6 @@ status: validated
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[qfm-max-power-consolidation]] · [[unipower-unitaxi-mece]] · amos-tech-quantum-engine-layer
+
+---
+**MOC:** [[QUANTUM_MOC]]

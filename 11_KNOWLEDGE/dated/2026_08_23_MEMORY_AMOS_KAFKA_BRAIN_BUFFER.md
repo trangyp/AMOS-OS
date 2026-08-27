@@ -1,6 +1,11 @@
 ---
+title: 2026 08 23 MEMORY AMOS KAFKA BRAIN BUFFER
 tags: [dated, dated/2026-08-23]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Memory — AMOS Kafka Brain Buffer
 
 **Created:** 2026-08-23
@@ -76,4 +81,7 @@ python3 test_kafka_brain_buffer_generator.py --pattern canonical --output kafka-
 AMOS MODEL — new brain engine. Channel taxonomy and D5-D8 mapping are verbena SOURCE. Scoring formulas, buffer impl, ACL table are AMOS_MODEL. Not yet production-verified.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

@@ -70,3 +70,6 @@ node_id: dependency_graph_infrastructure_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/09_DEPENDENCY_GRAPH_COGNITIVE_MATRIX_README.md
 claim_class: DERIVED
+
+---
+**MOC:** [[09_DEPENDENCY_GRAPH_MOC]]

@@ -1,3 +1,9 @@
+---
+title: CONTROL PLANES COGNITIVE MATRIX SCOPE
+type: note
+tags: [note, c02-metacognitive]
+---
+
 # C02 — Scope
 
 **Package:** `C02_METACOGNITIVE`  
@@ -34,3 +40,6 @@ node_type: note
 path: 03_CONTROL_PLANES/C02_METACOGNITIVE/CONTROL_PLANES_COGNITIVE_MATRIX_SCOPE.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/CONTROL_PLANES_COGNITIVE_MATRIX_SCOPE.md
+
+---
+**MOC:** [[C02_METACOGNITIVE_MOC]]

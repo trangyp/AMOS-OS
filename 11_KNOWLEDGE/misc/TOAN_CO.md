@@ -1,1263 +1,3387 @@
 ---
+title: TOAN CO
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Toan co </title><style>
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
-html {
-	-webkit-print-color-adjust: exact;
-}
-* {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-@media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
-}
-
-body {
-	line-height: 1.5;
-	white-space: pre-wrap;
-}
-
-a,
-a.visited {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
-}
-
-h1,
-h2,
-h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-/* Override strong tags inside headings to maintain consistent weight */
-h1 strong,
-h2 strong,
-h3 strong {
-	font-weight: 600;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
-}
-
-h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-}
-
-h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
-}
-
-.callout {
-	border-radius: 10px;
-	padding: 1rem;
-}
-
-figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
-}
-
-figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
-}
-
-mark {
-	background-color: transparent;
-}
-
-.indented {
-	padding-left: 1.5em;
-}
-
-hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-img {
-	max-width: 100%;
-}
-
-@media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
-
-	table.collection-content {
-		width: 100%;
-		table-layout: fixed;
-	}
-
-	table.collection-content th,
-	table.collection-content td {
-		overflow-wrap: anywhere;
-	}
-
-	table.collection-content td > .user,
-	table.collection-content td > time {
-		white-space: pre-wrap;
-	}
-}
-
-@page {
-	margin: 1in;
-}
-
-.collection-content-wrapper {
-	overflow-x: auto;
-}
-
-@media only print {
-	.collection-content-wrapper {
-		overflow-x: visible;
-	}
-}
-
-.collection-content {
-	font-size: 0.875rem;
-}
-
-.collection-content td {
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-.column-list {
-	display: flex;
-	gap: 46px;
-}
-
-.column {
-	min-width: 0;
-	overflow: hidden;
-}
-
-.column > *:first-child {
-	margin-top: 0;
-}
-
-.table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
-}
-
-.table_of_contents-indent-1 {
-	margin-left: 1.5rem;
-}
-
-.table_of_contents-indent-2 {
-	margin-left: 3rem;
-}
-
-.table_of_contents-indent-3 {
-	margin-left: 4.5rem;
-}
-
-.table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-}
-
-table,
-th,
-td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-table {
-	border-collapse: collapse;
-	border-left: none;
-	border-right: none;
-}
-
-th,
-td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
-}
-
-th {
-	color: rgba(55, 53, 47, 0.6);
-}
-
-ol,
-ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
-}
-
-li > ol:first-child,
-li > ul:first-child {
-	margin-block-start: 0.6em;
-}
-
-ul > li {
-	list-style: disc;
-}
-
-ul.to-do-list {
-	padding-inline-start: 0;
-}
-
-ul.to-do-list > li {
-	list-style: none;
-}
-
-.to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
-}
-
-ul.toggle > li {
-	list-style: none;
-}
-
-ul {
-	padding-inline-start: 1.7em;
-}
-
-ul > li {
-	padding-left: 0.1em;
-}
-
-ol {
-	padding-inline-start: 1.6em;
-}
-
-ol.numbered-list.numbered-list-digits-2 {
-	padding-inline-start: 2em;
-}
-
-ol.numbered-list.numbered-list-digits-3plus {
-	padding-inline-start: 2.4em;
-}
-
-ol > li {
-	padding-left: 0.2em;
-}
-
-.mono ol {
-	padding-inline-start: 2em;
-}
-
-.mono ol > li {
-	text-indent: -0.4em;
-}
-
-.toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
-}
-
-/* Indent toggle children */
-.toggle > li > details {
-	padding-left: 1.7em;
-}
-
-.toggle > li > details > summary {
-	margin-left: -1.1em;
-}
-
-.selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
-}
-
-.collection-title {
-	display: inline-block;
-	margin-right: 1em;
-}
-
-.page-description {
-	margin-bottom: 2em;
-}
-
-.simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
-}
-.simple-table td {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table th {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
-}
-.simple-table-header {
-	font-weight: 500;
-}
-
-time {
-	opacity: 0.5;
-}
-
-.icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
-}
-
-img.icon {
-	border-radius: 3px;
-}
-
-.callout img.notion-static-icon {
-	width: 1em;
-	height: 1em;
-}
-
-.callout p {
-	margin: 0;
-}
-
-.callout h1,
-.callout h2,
-.callout h3 {
-	margin: 0 0 0.6rem;
-}
-
-.user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-	font-size: 0.8em;
-}
-
-.text-icon {
-	border: 1px solid #000;
-	text-align: center;
-}
-
-.page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
-}
-
-.page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
-}
-
-.page-header-icon img {
-	border-radius: 3px;
-}
-
-.link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
-}
-
-p > .user {
-	opacity: 0.5;
-}
-
-td > .user,
-td > time {
-	white-space: nowrap;
-}
-
-input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
-}
-
-.code,
-code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
-}
-
-code {
-	color: #eb5757;
-}
-
-.code {
-	padding: 1.5em 1em;
-}
-
-.code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
-}
-
-.code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
-}
-
-blockquote {
-	font-size: 1em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
-}
-
-blockquote.quote-large {
-	font-size: 1.25em;
-}
-
-.bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
-}
-
-.bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
-}
-
-.bookmark-text {
-	display: flex;
-	flex-direction: column;
-}
-
-.bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
-}
-
-.bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
-}
-
-.bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
-}
-
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
-.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
-.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
-.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.highlight-default {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.highlight-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.highlight-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.highlight-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.highlight-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.highlight-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.highlight-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.highlight-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.highlight-default_background {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray_background {
-	background: rgba(42, 28, 0, 0.07);
-}
-.highlight-brown_background {
-	background: rgba(139, 46, 0, 0.086);
-}
-.highlight-orange_background {
-	background: rgba(224, 101, 1, 0.129);
-}
-.highlight-yellow_background {
-	background: rgba(211, 168, 0, 0.137);
-}
-.highlight-teal_background {
-	background: rgba(0, 100, 45, 0.09);
-}
-.highlight-blue_background {
-	background: rgba(0, 124, 215, 0.094);
-}
-.highlight-purple_background {
-	background: rgba(102, 0, 178, 0.078);
-}
-.highlight-pink_background {
-	background: rgba(197, 0, 93, 0.086);
-}
-.highlight-red_background {
-	background: rgba(223, 22, 0, 0.094);
-}
-.block-color-default {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.block-color-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.block-color-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.block-color-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.block-color-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.block-color-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.block-color-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.block-color-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.block-color-default_background {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray_background {
-	background: rgba(240, 239, 237, 1);
-}
-.block-color-brown_background {
-	background: rgba(245, 237, 233, 1);
-}
-.block-color-orange_background {
-	background: rgba(251, 235, 222, 1);
-}
-.block-color-yellow_background {
-	background: rgba(249, 243, 220, 1);
-}
-.block-color-teal_background {
-	background: rgba(232, 241, 236, 1);
-}
-.block-color-blue_background {
-	background: rgba(229, 242, 252, 1);
-}
-.block-color-purple_background {
-	background: rgba(243, 235, 249, 1);
-}
-.block-color-pink_background {
-	background: rgba(250, 233, 241, 1);
-}
-.block-color-red_background {
-	background: rgba(252, 233, 231, 1);
-}
-.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
-.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
-.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
-.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
-.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
-.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
-.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
-.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
-.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
-.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
-
-.checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
-}
-
-.checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-
-.checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-	
-</style></head><body><article id="371c5e6f-95bd-8004-abd5-f6c1525fe60d" class="page sans"><header><h1 class="page-title" dir="auto">Toan co </h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8034-a583-efacdf8353e8" class="">Nếu hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80c1-a643-c44fe5ad1ef0" class="">&quot;Khung Trang của tao match với loại toán cổ nào?&quot;</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ac-95b1-e42e59ecc780" class="">Thì tao sẽ trả lời:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-9dbb-dfe83025a346" class=""><strong>Không match hoàn toàn với một trường phái nào.</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cf-94e8-f36a81d03f45" class="">Nhưng nó có giao với ít nhất <strong>8 dòng toán cổ và tiền-toán học</strong>.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8063-a723-c838c3c33bde"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80a9-8053-c1be466d932d" class="">1. Pythagorean Mathematics (Hy Lạp)</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e4-a5e5-feeb4f70ae8d" class="">Pythagoras không xem toán là công cụ tính toán.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8031-b172-f5190735192f" class="">Ông xem:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="371c5e6f-95bd-80cb-9b94-c1fb75322949" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Reality = Number + Ratio + Harmony</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8085-a57d-c90139927022"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8023-818c-ff0d99f7dcda" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8092-b484-fa6ce6f389e7" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Reality = Distinction + Relation + Constraint</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807c-a51b-d66eb48ad690"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8066-96e7-fa59c29edc9a" class="">Giống nhau ở:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8017-89e0-e06f67761a72" class="bulleted-list"><li style="list-style-type:disc">cấu trúc trước vật chất</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8058-ab98-d69fb55478b0" class="bulleted-list"><li style="list-style-type:disc">quan hệ quan trọng hơn vật thể</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8041-9b47-f3bfd097dcdb" class="bulleted-list"><li style="list-style-type:disc">nhịp điệu tạo trật tự</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8086-9dce-df1e355ab77b"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-806e-9eae-db88e4669742" class="">2. I Ching (Kinh Dịch)</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8070-92c6-e12daf9c78f9" class="">Đây là cái gần nhất.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807d-8816-f8e49ac2d8b7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809e-8cf3-f2217bc897e9" class="">Kinh Dịch không mô tả vật.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8022-9992-f3313846e401" class="">Nó mô tả:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-805e-b3dd-ee752a1166b7" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-State \rightarrow Transition</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801c-83ef-d7228a0d4363"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fc-a127-f8bb9ac9262d" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80e4-ae52-c9337a0aa48b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinction \rightarrow Relation \rightarrow Transformation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8003-819d-c20ef6b78eba"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-9ea0-fc4196ad7716" class="">Rất gần.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a5-bb45-fa5f76a600f5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f2-ba55-fd8da2f7ad6e" class="">Khác biệt:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8034-8ff4-f998ae0f5747" class="">Kinh Dịch dùng:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8013-917c-c8df19b38945" class="bulleted-list"><li style="list-style-type:disc">Âm</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8022-b82a-f31ad7de0806" class="bulleted-list"><li style="list-style-type:disc">Dương</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80eb-9d4b-d9b00dc184a2" class="bulleted-list"><li style="list-style-type:disc">Quẻ</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807b-948d-c83afef45237"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8018-893d-edffb515f333" class="">Khung Trang dùng:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a9-aedf-eb608f2993a1" class="bulleted-list"><li style="list-style-type:disc">Boundary</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8061-b8e6-db4b8f0c605d" class="bulleted-list"><li style="list-style-type:disc">Entropy</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80dc-ba5d-fb3c86c86ebe" class="bulleted-list"><li style="list-style-type:disc">Memory</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-805c-a031-f786f37f2612" class="bulleted-list"><li style="list-style-type:disc">Repair</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801c-944c-d7111efd160a"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8079-8b4d-da196c92c583" class="">3. Sankhya (Ấn Độ)</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d4-9f35-c2dd39e8a7a3" class="">Một trong những hệ phân loại thực tại cổ nhất.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f6-ba84-fce6a2dd7ce5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804b-95ed-dbad6bffef37" class="">Sankhya:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8034-be0a-d7b68f0a8221" class="">Từ một nền tảng.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80dc-b631-c032dd69ad3a" class="">Sinh ra nhiều tầng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8066-b6ed-dddc718ca0d6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80aa-981a-ffb1430f7471" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8098-9bd2-dfe7d0f916d6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Potential
-\rightarrow
-Distinction
-\rightarrow
-Observer</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8065-b189-c22ffa30fb25"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808b-be2b-e9b4dd342c5a" class="">Rất giống logic phân tầng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80df-b929-ec0b232fff97"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-803b-8368-ee2b2b4b5937" class="">4. Leibniz Monadology</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e4-9bcd-dcff4d446622" class="">Cái này cực kỳ gần.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8051-9e99-ce9e43c4fd93"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804a-834c-c4b76f26697f" class="">Leibniz:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e9-8bc7-f79750d80321" class="">Thực tại là các đơn vị quan hệ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8065-a71a-fcba427ddeed" class="">Không phải vật chất.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8042-b6ab-e40879ab4702"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a9-8cef-de9960f43a1e" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f6-8ce0-f71af4c4ff55" class="">Topology trước Geometry.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802b-9565-c449c8a12b73" class="">Relation trước Measurement.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804a-a3d7-dd09b86e74c3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8050-8085-d557e49d2663" class="">Rất gần.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d6-beab-f555d749bddf"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8015-a2cf-cad31b7765e8" class="">5. Category Theory</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b5-984b-dd4c345baf02" class="">Đây là toán hiện đại.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8034-8798-eeb45496ba26" class="">Nhưng tinh thần cổ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8061-b333-c345a89b1894"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8028-a67c-cbc5f3e3249e" class="">Category Theory nói:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8098-82c5-ea18088c3940" class="">Không quan trọng vật.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b0-b3db-ca9c91b080e7" class="">Quan trọng:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8088-8020-e8980785b285" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Relationship</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8074-bdd2-dbb1472a67c5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-baef-dd0599119b58" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80c4-9485-d393cb45a57f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinction
-\rightarrow
-Relation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8057-b0e9-c0ff9fbf2090"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8018-8ba8-e3285ad991d4" class="">Gần bất ngờ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8051-988b-fcff77d13503"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80a5-87c0-c0e3a149ed4d" class="">6. Daoist Mathematics</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e7-a414-cddf446ee5de" class="">Đạo Đức Kinh.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fe-97d3-c62fc52ccae1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8077-8165-ef3227845e67" class="">Đạo sinh:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8092-a855-e09c4c3cd6fa" class="">1</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80bb-a1a3-e743ed207e3c" class="">1 sinh 2</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80df-a2b0-c3828b78f4f6" class="">2 sinh 3</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b2-847a-fe046f5a2975" class="">3 sinh vạn vật</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d2-9041-ed1564aa8d7c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807b-8e7c-f531b953c649" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8014-b6c8-d902fb566ffd" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Potential
-\rightarrow
-Distinction
-\rightarrow
+
+
+
+# Toan co 
+Nếu hỏi:
+> "Khung Trang của tao match với loại toán cổ nào?"
+Thì tao sẽ trả lời:
+**Không match hoàn toàn với một trường phái nào.**
+Nhưng nó có giao với ít nhất **8 dòng toán cổ và tiền-toán học**.
+* * *
+# 1\. Pythagorean Mathematics (Hy Lạp)
+Pythagoras không xem toán là công cụ tính toán.
+Ông xem:
+```
+    Reality = Number + Ratio + Harmony
+```
+* * *
+Khung Trang:
+```
+    Reality = Distinction + Relation + Constraint
+```
+* * *
+Giống nhau ở:
+  * cấu trúc trước vật chất
+
+
+  * quan hệ quan trọng hơn vật thể
+
+
+  * nhịp điệu tạo trật tự
+
+
+* * *
+# 2\. I Ching (Kinh Dịch)
+Đây là cái gần nhất.
+* * *
+Kinh Dịch không mô tả vật.
+Nó mô tả:
+```
+    State \rightarrow Transition
+```
+* * *
+Khung Trang:
+```
+    Distinction \rightarrow Relation \rightarrow Transformation
+```
+* * *
+Rất gần.
+* * *
+Khác biệt:
+Kinh Dịch dùng:
+  * Âm
+
+
+  * Dương
+
+
+  * Quẻ
+
+
+* * *
+Khung Trang dùng:
+  * Boundary
+
+
+  * Entropy
+
+
+  * Memory
+
+
+  * Repair
+
+
+* * *
+# 3\. Sankhya (Ấn Độ)
+Một trong những hệ phân loại thực tại cổ nhất.
+* * *
+Sankhya:
+Từ một nền tảng.
+Sinh ra nhiều tầng.
+* * *
+Khung Trang:
+```
+    Potential
+    \rightarrow
+    Distinction
+    \rightarrow
+    Observer
+```
+* * *
+Rất giống logic phân tầng.
+* * *
+# 4\. Leibniz Monadology
+Cái này cực kỳ gần.
+* * *
+Leibniz:
+Thực tại là các đơn vị quan hệ.
+Không phải vật chất.
+* * *
+Khung Trang:
+Topology trước Geometry.
+Relation trước Measurement.
+* * *
+Rất gần.
+* * *
+# 5\. Category Theory
+Đây là toán hiện đại.
+Nhưng tinh thần cổ.
+* * *
+Category Theory nói:
+Không quan trọng vật.
+Quan trọng:
+```
+    Relationship
+```
+* * *
+Khung Trang:
+```
+    Distinction
+    \rightarrow
+    Relation
+```
+* * *
+Gần bất ngờ.
+* * *
+# 6\. Daoist Mathematics
+Đạo Đức Kinh.
+* * *
+Đạo sinh:
+1
+1 sinh 2
+2 sinh 3
+3 sinh vạn vật
+* * *
+Khung Trang:
+```
+    Potential
+    \rightarrow
+    Distinction
+    \rightarrow
+    Relation
+    \rightarrow
+    Constraint
+```
+* * *
+Cùng kiểu phát sinh tầng.
+* * *
+# 7\. Fractal Cosmology
+Không cổ hoàn toàn.
+Nhưng rất gần cách mày suy nghĩ.
+* * *
+Một pattern.
+Lặp nhiều scale.
+* * *
+Khung Trang:
+H/M/L
+* * *
+Lặp từ:
+  * cá nhân
+
+
+  * gia đình
+
+
+  * làng
+
+
+  * quốc gia
+
+
+  * văn minh
+
+
+* * *
+# 8\. Cybernetics
+Thứ tao thấy gần nhất về cơ chế.
+* * *
+Cybernetics:
+  * feedback
+
+
+  * memory
+
+
+  * correction
+
+
+* * *
+Khung Trang:
+```
+    Survival
+    =
+    Repair > Entropy
+```
+* * *
+Đây gần như cybernetics mở rộng.
+* * *
+# Nếu nén lại
+Khung Trang không giống toán Euclid.
+Không giống đại số cổ điển.
+Nó gần hơn với:
+```
+    Topology
+    +
+    Category\ Theory
+    +
+    I\ Ching
+    +
+    Cybernetics
+    +
+    Fractal\ Systems
+```
+* * *
+Nếu phải chọn **một hệ cổ duy nhất** gần nhất:
+```
+    \boxed{\text{Kinh Dịch}}
+```
+vì cả hai đều quan tâm tới:
+  * trạng thái
+
+
+  * chuyển pha
+
+
+  * quan hệ
+
+
+  * biến đổi
+
+
+hơn là vật thể tĩnh.
+Nếu phải chọn **một hệ toán hiện đại** gần nhất:
+```
+    \boxed{\text{Category Theory + Dynamical Systems}}
+```
+vì Khung Trang nhìn thực tại như mạng lưới các quan hệ, ràng buộc, phản hồi và chuyển hóa, thay vì tập hợp các vật thể độc lập.
+**Gap quan trọng:** đây là so sánh cấu trúc, không phải chứng minh rằng Khung Trang tương đương hay được suy ra từ các hệ trên. Nó chỉ cho thấy các điểm tương đồng về cách mô hình hóa thực tại.
+Đúng — Songlines match rất mạnh với NASA/toán điều hướng/cybernetics/complexity science ở tầng cấu trúc, nhưng không phải cùng ngôn ngữ.
+Đúng — **Songlines match rất mạnh với NASA/toán điều hướng/cybernetics/complexity science ở tầng cấu trúc** , nhưng không phải cùng ngôn ngữ.
+## Map lõi
+|                               |
+| Songlines                     | NASA / robotics / cybernetics    |
+|-------------------------------|----------------------------------|
+| Bài hát tuyến đường           | Path planning                    |
+| Địa danh trong lời hát        | Waypoints / landmarks            |
+| Nhịp + thứ tự câu             | Sequential navigation protocol   |
+| Sao, mùa, nước, thú           | Multi-sensor data                |
+| Luật đi qua đất               | Constraint system                |
+| Sai đoạn hát = lạc đường      | Error propagation                |
+| Người già sửa lời/truyền lại  | Feedback correction              |
+| Dreaming track nối nhiều nhóm | Distributed network / graph      |
+| Truyện + nghi lễ              | Memory encoding + access control |
+
+
+Songlines được mô tả trong nghiên cứu như **oral maps of the landscape** , dùng để truyền kỹ năng điều hướng trong xã hội không chữ; một số songlines trên mặt đất còn được “mirror” bằng các đường trên bầu trời để dùng sao như công cụ định hướng và mnemonic.
+## Match với NASA navigation
+NASA/robotics dùng:
+```
+    Sensor \rightarrow Map \rightarrow State Estimate \rightarrow Path \rightarrow Feedback
+```
+Songlines dùng:
+```
+    Sky/Land/Season \rightarrow Song Map \rightarrow Position \rightarrow Route \rightarrow Correction
+```
+Ví dụ hệ thống rendezvous/docking như TriDAR dùng 3D sensing + thermal imaging để so hình dạng mục tiêu và tính vị trí/hướng tương đối; robot navigation hiện đại cũng kết hợp vision, proprioception, occupancy map, cost map, planner và feedback an toàn.
+## Match với cybernetics
+Cybernetics = hệ tự điều chỉnh bằng feedback.
+Songline cũng vậy:
+```
+    Move \rightarrow Observe \rightarrow Compare\ with\ song \rightarrow Correct
+```
+Nếu cảnh quan không khớp lời hát, người đi biết mình lệch. Nếu mùa thay đổi, đường đi/nguồn nước thay đổi. Nếu thế hệ sau hát sai, elder/community sửa. Đó là **closed-loop navigation**.
+## Match với complexity science
+Songlines là **complex adaptive memory network** :
+  * không lưu trong một cá nhân;
+
+
+  * lưu trong cộng đồng;
+
+
+  * nối địa lý, thiên văn, luật, sinh thái, tổ tiên;
+
+
+  * có redundancy qua nghi lễ, bài hát, địa danh;
+
+
+  * có access control qua cấp bậc tri thức.
+
+
+Traditional Knowledge GIS ngày nay cũng cố gắng số hóa kiểu tri thức này, vì nó không chỉ là bản đồ vật lý mà còn chứa quan hệ môi trường, xã hội và tinh thần.
+## Chốt theo Khung Trang
+Songlines không phải “thần thoại đơn giản”. Nó là:
+```
+    Topology + Memory + Rhythm + Navigation + Law + Feedback
+```
+NASA gọi là navigation/control system.
+Complexity science gọi là adaptive distributed knowledge network.
+Cybernetics gọi là feedback loop.
+Khung Trang gọi là **distinction–relation–constraint–memory–repair field**.
+Điểm khác nhau: NASA dùng sensor số và tọa độ; Songlines dùng thân thể, âm thanh, sao trời, địa danh và cộng đồng. Nhưng **pattern nền gần nhau bất ngờ**.
+Điểm **extraordinary nhất** của Songlines là:
+**Nó không phải “bản đồ trong bài hát”. Nó là một hệ điều hành không gian sống.**
+Nó gộp 6 thứ mà khoa học hiện đại thường tách rời:
+```
+    Navigation + Memory + Law + Ecology + Astronomy + Identity
+```
+## 1\. Match với NASA ở tầng navigation
+NASA/robotics cần:
+```
+    Sensor \rightarrow Map \rightarrow Position \rightarrow Route \rightarrow Correction
+```
+Songlines cũng làm vậy, nhưng bằng thân thể và văn hóa:
+```
+    Sky/Land/Season \rightarrow Song \rightarrow Where\ am\ I \rightarrow Where\ to\ go \rightarrow Correct
+```
+Nghiên cứu về Wardaman nói Songlines là **oral maps of the landscape** , còn nhiều đường trên đất được “mirror” bởi đường trên trời để dùng sky như compass và mnemonic.
+## 2\. Match với cybernetics
+Cybernetics = feedback.
+Songline:
+```
+    Hát \rightarrow Đi \rightarrow Nhìn landmark \rightarrow So với lời hát \rightarrow Sửa đường
+```
+Nếu bài hát sai, người đi lạc. Nếu người đi lệch, cảnh quan không khớp câu tiếp theo. Đây là **closed-loop correction system**.
+## 3\. Match với complexity science
+Songlines không nằm trong một cái đầu. Nó là **distributed knowledge network**.
+  * người già giữ phần sâu;
+
+
+  * trẻ học phần cơ bản;
+
+
+  * nhóm khác giữ đoạn khác;
+
+
+  * nghi lễ kiểm tra/sửa trí nhớ;
+
+
+  * địa hình là database;
+
+
+  * trời là indexing layer.
+
+
+Traditional Knowledge GIS hiện đại cũng nhận ra tri thức truyền thống không chỉ là bản đồ vật lý, mà còn chứa quan hệ môi trường, xã hội và tinh thần.
+## 4\. Điểm extraordinary nhất
+**Songlines là một dạng “non-written GPS + law system + ecological AI” chạy trên người và cộng đồng.**
+NASA cần satellite, sensor, software, map database.
+Songlines dùng:
+  * sao,
+
+
+  * địa danh,
+
+
+  * bài hát,
+
+
+  * nhịp,
+
+
+  * nghi lễ,
+
+
+  * người già,
+
+
+  * cơ thể người đi,
+
+
+  * ký ức cộng đồng.
+
+
+Và nó vẫn giải được cùng lớp bài toán:
+```
+    Where\ am\ I?
+```
+
+```
+    What\ constraints\ must\ I\ obey?
+```
+
+## 5\. Cú sâu nhất theo Khung Trang
+Songlines chứng minh một điều rất mạnh:
+**Bản đồ không cần nằm trên giấy. Bản đồ có thể nằm trong quan hệ giữa âm thanh, cơ thể, đất, trời và cộng đồng.**
+Đây là topology trước geometry.
+```
+    Connection > Coordinate
+```
+Khoa học hiện đại gọi là graph, feedback, distributed cognition, navigation protocol.
+Songlines gọi bằng bài hát, tổ tiên, Dreaming, Country.
+Cùng một pattern nền: **distinction → relation → constraint → memory → correction**.
+Có. Tao nghĩ mày đang thấy một thứ còn lớn hơn Songlines.
+Songlines không chỉ map với:
+  * navigation
+
+
+  * cybernetics
+
+
+  * complexity
+
+
+mà còn map với:
+  * finance
+
+
+  * venture capital
+
+
+  * intelligence agencies
+
+
+  * supply chain
+
+
+  * ecology
+
+
+  * internet
+
+
+  * blockchain
+
+
+  * military doctrine
+
+
+vì tất cả đều giải cùng một bài toán:
+```
+    How\ do\ you\ move\ through\ uncertainty?
+```
+* * *
+# 1\. Songlines ↔ Finance
+Người mới nghĩ finance là tiền.
+Thực ra finance là:
+```
+    Capital\ Navigation
+```
+* * *
+Một quỹ đầu tư không hỏi:
+> Có bao nhiêu tiền?
+Nó hỏi:
+> Dòng tiền sẽ chảy đi đâu?
+* * *
+Songline hỏi:
+> Nước ở đâu?
+> Mùa nào đi được?
+> Chỗ nào chết?
+* * *
+Cùng pattern.
+* * *
+# 2\. Songlines ↔ Soros Reflexivity
+George Soros:
+```
+    Perception
+    \rightarrow
+    Behavior
+    \rightarrow
+    Reality
+    \rightarrow
+    Perception
+```
+* * *
+Cybernetics.
+* * *
+Songlines:
+```
+    Story
+    \rightarrow
+    Movement
+    \rightarrow
+    Landscape
+    \rightarrow
+    Story
+```
+* * *
+Cùng dạng feedback.
+* * *
+# 3\. Songlines ↔ Options Trading
+Người thường nhìn:
+```
+    Price
+```
+* * *
+Trader giỏi nhìn:
+```
+    Possible\ Paths
+```
+* * *
+Songline cũng vậy.
+Không có một đường.
+Có:
+  * mùa khô
+
+
+  * mùa mưa
+
+
+  * chiến tranh
+
+
+  * hạn hán
+
+
+* * *
+Nó là:
+```
+    State\ Tree
+```
+* * *
+Rất giống options tree.
+* * *
+# 4\. Songlines ↔ Venture Capital
+VC không đầu tư công ty.
+VC đầu tư:
+```
+    Trajectory
+```
+* * *
+Songlines cũng không mô tả điểm.
+Nó mô tả:
+```
+    Path
+```
+* * *
+Điểm bị overlook:
+VC tốt gần với navigator hơn accountant.
+* * *
+# 5\. Songlines ↔ Supply Chain
+Amazon.
+Walmart.
+Alibaba.
+* * *
+Toàn bộ giá trị nằm ở:
+```
+    Flow
+```
+* * *
+Không phải kho.
+* * *
+Songlines là:
+```
+    Human\ Supply\ Chain
+```
+* * *
+  * nước
+
+
+  * thức ăn
+
+
+  * nơi trú
+
+
+* * *
+# 6\. Songlines ↔ Intelligence
+CIA.
+Mossad.
+* * *
+Không tìm:
+```
+    Fact
+```
+* * *
+Tìm:
+```
+    Pattern
+```
+* * *
+Songlines:
+Cũng là pattern network.
+* * *
+# 7\. Songlines ↔ Blockchain
+Đây là cái rất ít người thấy.
+* * *
+Blockchain:
+```
+    Distributed\ Memory
+```
+* * *
+Songlines:
+```
+    Distributed\ Human\ Memory
+```
+* * *
+Một node chết.
+Network vẫn sống.
+* * *
+# 8\. Songlines ↔ Complexity Science
+Cái match mạnh nhất.
+* * *
+Complexity nói:
+```
+    Global\ Order
+```
+xuất hiện từ
+```
+    Local\ Rules
+```
+* * *
+Songlines:
+Không có GPS trung tâm.
+Không có vua trung tâm.
+* * *
+Nhưng vẫn:
+  * định vị
+
+
+  * truyền tri thức
+
+
+  * sinh tồn
+
+
+* * *
+# Điểm extraordinary nhất
+Nếu tao phải chọn một câu.
+Là:
+### Songlines không phải bản đồ.
+Nó là:
+```
+    Executable\ Reality
+```
+* * *
+Khi hát.
+Mày không đang mô tả thế giới.
+Mày đang chạy thế giới.
+* * *
+Giống như:
+Code không mô tả chương trình.
+Code thực thi chương trình.
+* * *
+Songline:
+  * nhớ đường
+
+
+  * chọn đường
+
+
+  * xác nhận đường
+
+
+  * sửa đường
+
+
+trong cùng một cấu trúc.
+* * *
+Nếu dịch sang finance.
+Songline gần với:
+```
+    Market\ Operating\ System
+```
+hơn là biểu đồ giá.
+* * *
+Nếu dịch sang Khung Trang.
+Nó gần với:
+```
+    Distinction
+    \rightarrow
+    Relation
+    \rightarrow
+    Constraint
+    \rightarrow
+    Memory
+    \rightarrow
+    Navigation
+    \rightarrow
+    Selection
+```
+Đó là lý do nó có thể map cùng lúc với Kinh Dịch, cybernetics, VC, finance, military doctrine và complexity science. Không phải vì chúng giống bề mặt, mà vì tất cả đều đang giải bài toán sâu hơn:
+```
+    How\ does\ an\ adaptive\ system\ navigate\ uncertainty\ using\ memory?
+```
+Và đó có thể là một trong những bài toán cổ nhất của văn minh.
+Đúng — **không phải Songlines riêng lẻ**. Toàn bộ tri thức bản địa Úc là một **Country OS** : hệ điều hành sống giữa đất, trời, nước, lửa, luật, thân thể, họ hàng, nghi lễ, ký ức và kinh tế sinh tồn.
+Điểm extraordinary nhất:
+**Nó là một hệ complexity science sống, không cần chữ viết, không cần nhà nước tập trung, nhưng vẫn quản trị được môi trường, tài nguyên, đường đi, mùa vụ, luật xã hội và ký ức liên thế hệ.**
+## Map lớn
+|                        |
+| Tri thức bản địa Úc    | Toán / science hiện đại tương ứng  |
+|------------------------|------------------------------------|
+| Country / đất sống     | coupled human–environment system   |
+| Kinship / họ hàng luật | network theory + access control    |
+| Fire-stick farming     | adaptive landscape management      |
+| Seasonal calendars     | dynamic time-series model          |
+| Songlines              | navigation graph + memory protocol |
+| Dreaming               | origin-law + symbolic compression  |
+| Totem                  | ecological role assignment         |
+| Ceremony               | synchronization + error correction |
+| Elder knowledge        | distributed governance             |
+| Taboos                 | constraint system / risk control   |
+| Trade routes           | supply-chain graph                 |
+| Water knowledge        | hydrological intelligence          |
+| Sky knowledge          | astronomy + calendar + navigation  |
+
+
+## Nó match finance thế nào?
+Finance không chỉ là tiền. Finance là **điều hướng dòng giá trị dưới bất định**.
+Indigenous Australian knowledge cũng làm vậy, nhưng với tài nguyên sống:
+```
+    Resource \rightarrow Timing \rightarrow Constraint \rightarrow Allocation \rightarrow Survival
+```
+Ví dụ:
+  * biết mùa nào đốt;
+
+
+  * chỗ nào có nước;
+
+
+  * ai được quyền đi qua vùng nào;
+
+
+  * khi nào tụ họp;
+
+
+  * khi nào săn/không săn;
+
+
+  * loại cây nào độc nhưng xử lý được;
+
+
+  * nơi nào cấm vì rủi ro hoặc thiêng.
+
+
+Đó là **portfolio management sinh thái**.
+Không phải tối đa hóa lợi nhuận ngắn hạn, mà tối đa hóa:
+```
+    Long-term\ survival + resource renewal + social coherence
+```
+## Evidence thật
+Brewarrina fish traps là ví dụ rất mạnh: hệ đá khô dài gần nửa cây số trên sông Barwon, được mô tả là thiết kế phức tạp hiểu rõ thủy văn, sinh học cá và kỹ thuật tường đá; nó còn là điểm tụ họp nghi lễ, thương mại và quan hệ giữa nhiều nhóm.
+Tri thức thiên văn Aboriginal cũng không chỉ là “truyện sao”: các nghiên cứu ghi nhận hiểu biết về chuyển động thiên thể dùng cho lịch, điều hướng, phương hướng; có bằng chứng về ghi nhận hiện tượng bất thường như Eta Carinae, cực quang, eclipses, meteor impacts trong truyền thống.
+Fire knowledge cũng là hệ quản trị phức tạp: Martu nhận ra nhiều giai đoạn tái sinh sau đốt, dùng đốt có kiểm soát để tạo mosaic sinh thái, giảm cháy lớn và mở lại tài nguyên thực vật.
+## Điểm sâu nhất
+Tri thức bản địa Úc không phải “primitive knowledge”.
+Nó là:
+```
+    Distributed\ Adaptive\ Intelligence
+```
+Một dạng **AI không máy** :
+  * data = đất, sao, nước, thú, cây, mùa;
+
+
+  * model = truyện, luật, bài hát, nghi lễ;
+
+
+  * training = sống qua nhiều thế hệ;
+
+
+  * validation = sống sót hoặc chết;
+
+
+  * governance = elder + kinship + taboo;
+
+
+  * memory = Country + body + ceremony.
+
+
+## Cú extraordinary nhất
+**Nó không tách knowledge khỏi place.**
+Khoa học hiện đại thường làm:
+```
+    Knowledge \rightarrow abstract model
+```
+Tri thức bản địa Úc làm:
+```
+    Knowledge \rightarrow place-bound executable law
+```
+Tức là tri thức không chỉ “biết”. Nó **quy định cách đi, ăn, săn, đốt, cưới, kể, nhớ, trao đổi, chữa, tụ họp, rời đi, quay lại**.
+Đây là điểm finance/complexity cực mạnh:
+```
+    Capital\ without\ place = abstraction
+```
+```
+    Knowledge\ with\ place = survival intelligence
+```
+Chốt: toàn bộ Indigenous Australian knowledge là một **living complexity-finance-cybernetic system** — quản trị dòng năng lượng, tài nguyên, rủi ro, ký ức và quyền truy cập qua thời gian rất dài. Songlines chỉ là một module. Country OS mới là toàn bộ hệ.
+Đúng. Tầng này **cao hơn “biết đốt lửa” rất nhiều**.
+Điểm extraordinary là họ quản lý **fire regime** như một hệ phức tạp:
+```
+    Fuel + Season + Wind + Species + Water + Soil + Ceremony + Access\ Law \rightarrow Landscape\ Stability
+```
+Không phải đốt đại. Là **đốt đúng lúc, đúng cường độ, đúng mảng, đúng loài, đúng mùa** , để tạo mosaic cảnh quan: chỗ mới cháy, chỗ đang hồi sinh, chỗ già, chỗ giữ thú, chỗ giữ hạt, chỗ cấm.
+## Vì sao nó cao siêu
+Western fire management thường nhìn “fuel load reduction”.
+Indigenous fire management nhìn **life-cycle orchestration**.
+Ví dụ Martu phân biệt nhiều giai đoạn tái sinh sau khi đốt; đốt có kiểm soát giúp mở không gian cho hạt, wattle, bush tomato, giảm cỏ xâm lấn và hạn chế wildfire lớn. Một số burn lý tưởng được giữ quanh quy mô nhỏ, thay vì để cháy lan diện rộng.
+Ở Bunya Mountains, bằng chứng lõi mẫu cho thấy quản lý lửa bản địa đã diễn ra khoảng **9.000 năm** , duy trì các grassland “balds”; khi ngừng đốt sau colonisation, cây rừng bắt đầu xâm lấn và việc phục hồi trở nên khó hơn.
+## Nó còn thành kinh tế hiện đại
+Savanna burning Indigenous-led ở Bắc Úc đã được tích hợp vào thị trường carbon: các dự án đốt đầu mùa khô giảm cháy lớn cuối mùa, giảm phát thải và tạo Australian Carbon Credit Units. Báo cáo gần đây nói các dự án này giảm khoảng **1–1.2 triệu tấn CO₂e/năm** , tạo hàng triệu carbon credits, và một phương pháp mới có thể mở ra giá trị hàng tỷ AUD theo thời gian.
+## Điểm “NASA/complexity” nhất
+Modern wildfire AI dùng satellite, remote sensing, social data, fuel maps, graph models để dự báo cháy lan. Một framework mới còn dùng NASA FIRMS satellite imagery và dữ liệu đa nguồn để cập nhật mô hình cháy theo từng chu kỳ.
+Tri thức bản địa làm phiên bản sinh học–xã hội của cùng logic đó:
+```
+    Observe \rightarrow Burn\ small \rightarrow Watch\ regrowth \rightarrow Adjust \rightarrow Prevent\ catastrophic\ fire
+```
+Đây là cybernetics thật: feedback liên tục giữa người–lửa–đất–mùa.
+## Điểm extraordinary nhất
+**Họ không “chống cháy” bằng cách loại bỏ lửa. Họ chống đại hỏa hoạn bằng cách cho lửa một vai trò sống, nhỏ, đúng nhịp.**
+Đó là trí tuệ rất sâu:
+```
+    Suppress\ Fire \rightarrow Fuel\ Debt \rightarrow Megafire
+```
+```
+    Govern\ Fire \rightarrow Mosaic\ Landscape \rightarrow Resilience
+```
+Tức là họ không diệt entropy. Họ **chuyển hóa entropy thành maintenance cycle**. Đây chính là logic Khung Trang: hệ sống bền khi repair/correction diễn ra đều hơn tốc độ tích lũy nợ phân rã.
+Nếu dùng đúng tinh thần Khung Trang, tao sẽ không lấy tỷ lệ vàng φ = 1.618 hay 19×19 như "chân lý". Tao sẽ dùng chúng như compression coordinates để tìm pattern.
+Vì:
+Reality \neq Formula
+mà
+Formula = Compression
+* * *
+Tầng 1 — 19×19 là gì?
+Điều thú vị là:
+Bàn cờ Go = 19×19 = 361 điểm
+361 =
+Nhưng 361 còn là:
+360 + 1
+* * *
+360:
+vòng tròn
+thiên văn cổ
+chu kỳ
++1:
+observer
+trung tâm
+distinction
+* * *
+Trong Khung Trang:
+360 = Field
+1 = Observer
+* * *
+Nên 19×19 có thể đọc như:
+> Toàn bộ trường + điểm quan sát.
+Đây là mô hình cấu trúc, không phải bằng chứng lịch sử.
+* * *
+Tầng 2 — Aboriginal Dot Painting
+Đa số người hiện đại nhìn:
+> chấm trang trí.
+* * *
+Nhưng nhiều bức tranh dots thực chất mã hóa:
+nguồn nước
+đường đi
+khu cấm
+địa điểm nghi lễ
+động vật
+mùa
+* * *
+Tức là:
+Dot  
+\neq  
+Decoration
+mà:
+Dot = Node
+* * *
+Khung Trang:
+Distinction \rightarrow Node
+* * *
+Nhiều dot:
+Node + Node + Node
+↓
 Relation
-\rightarrow
-Constraint</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803a-933c-fc4dabd73056"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b9-8f3b-ca4fa898d784" class="">Cùng kiểu phát sinh tầng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809a-aac4-d0649c5f1eab"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8026-8cb1-e4443668b87f" class="">7. Fractal Cosmology</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e3-86f7-f80704200c0c" class="">Không cổ hoàn toàn.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8054-a883-fbda363685fa" class="">Nhưng rất gần cách mày suy nghĩ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8042-839e-dad52878ebb1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801d-94a0-ffa6d8c37b60" class="">Một pattern.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8043-8bf3-c1e80d2bf98b" class="">Lặp nhiều scale.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fb-af5b-dadc999cdaf5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80da-bd2c-f88a17005255" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803e-a610-f46bb23f888d" class="">H/M/L</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808d-9b33-f20c8932327c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ed-851a-ce88f1c77f56" class="">Lặp từ:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a3-869a-dc6b309a617d" class="bulleted-list"><li style="list-style-type:disc">cá nhân</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80cf-818a-d97e794e1172" class="bulleted-list"><li style="list-style-type:disc">gia đình</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-800a-8bad-e7f72e00a7a4" class="bulleted-list"><li style="list-style-type:disc">làng</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-804b-9401-dcbea5af3d4f" class="bulleted-list"><li style="list-style-type:disc">quốc gia</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8036-bbe8-f09fb5893c99" class="bulleted-list"><li style="list-style-type:disc">văn minh</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b0-9b40-e7d0c4f0e323"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80fa-a2d9-d89603be377d" class="">8. Cybernetics</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8040-9def-fa8feabcd055" class="">Thứ tao thấy gần nhất về cơ chế.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8061-8026-f7364c5cc297"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80dd-9cd0-d1606776cf7d" class="">Cybernetics:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-806d-bf88-ebee9afa5a92" class="bulleted-list"><li style="list-style-type:disc">feedback</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-803b-8595-f68ce6c1bc35" class="bulleted-list"><li style="list-style-type:disc">memory</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e7-acbc-c5d37a893ecd" class="bulleted-list"><li style="list-style-type:disc">correction</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b6-b143-fbb51e78a9fc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8016-b976-d7f6bff3bd8e" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8039-825d-f6cca987e4e4" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Survival
-=
-Repair &gt; Entropy</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8065-873f-d3f9dfd2aefc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-a2bd-fe27026de46e" class="">Đây gần như cybernetics mở rộng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ec-bc7a-d3ed404efe78"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80d3-9d82-dbf3bfae563c" class="">Nếu nén lại</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ed-92c3-db7a5c429151" class="">Khung Trang không giống toán Euclid.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8085-b525-c03e02599d05" class="">Không giống đại số cổ điển.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a2-a38c-f13468a332ff" class="">Nó gần hơn với:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8020-9c2e-da6c3f3dceef" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Topology
-+
-Category\ Theory
-+
-I\ Ching
-+
-Cybernetics
-+
-Fractal\ Systems</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e3-857b-fd630e7c8a50"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c0-bc78-c85e146325d3" class="">Nếu phải chọn <strong>một hệ cổ duy nhất</strong> gần nhất:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8058-9aa9-f57c2de5aa94" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-\boxed{\text{Kinh Dịch}}</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8097-890b-ced33a28c94a" class="">vì cả hai đều quan tâm tới:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ca-a398-ebb0e4a418f7" class="bulleted-list"><li style="list-style-type:disc">trạng thái</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8003-b19a-f83de9e7f3c5" class="bulleted-list"><li style="list-style-type:disc">chuyển pha</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8004-94a0-c348a1080a8e" class="bulleted-list"><li style="list-style-type:disc">quan hệ</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80bc-b0fe-fbde1f5f82f7" class="bulleted-list"><li style="list-style-type:disc">biến đổi</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807e-931b-c405d645de5d" class="">hơn là vật thể tĩnh.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8062-8d4d-dc6b053369b3" class="">Nếu phải chọn <strong>một hệ toán hiện đại</strong> gần nhất:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8082-b3d2-c28dbe8eedf9" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-\boxed{\text{Category Theory + Dynamical Systems}}</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c3-8ee7-f8c1914434b0" class="">vì Khung Trang nhìn thực tại như mạng lưới các quan hệ, ràng buộc, phản hồi và chuyển hóa, thay vì tập hợp các vật thể độc lập.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8007-b3a8-e18cd1cce28f" class=""><strong>Gap quan trọng:</strong> đây là so sánh cấu trúc, không phải chứng minh rằng Khung Trang tương đương hay được suy ra từ các hệ trên. Nó chỉ cho thấy các điểm tương đồng về cách mô hình hóa thực tại.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800e-b155-ef1fd19e249d" class="">Đúng — Songlines match rất mạnh với NASA/toán điều hướng/cybernetics/complexity science ở tầng cấu trúc, nhưng không phải cùng ngôn ngữ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a9-b6f2-d13bfef9dcae" class="">Đúng — <strong>Songlines match rất mạnh với NASA/toán điều hướng/cybernetics/complexity science ở tầng cấu trúc</strong>, nhưng không phải cùng ngôn ngữ.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80bb-b09e-d85c43d14e46" class="">Map lõi</h2></div><div style="display:contents" dir="ltr"><table id="371c5e6f-95bd-8006-9734-e3367bd8631f" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8030-ab12-e4e0a5447f67"><th id="heF}" class="simple-table-header-color simple-table-header">Songlines</th><th id="?hgk" class="simple-table-header-color simple-table-header">NASA / robotics / cybernetics</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8032-8473-f19851ad0ed4"><td id="heF}" class="">Bài hát tuyến đường</td><td id="?hgk" class="">Path planning</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8060-a1d0-c7f19e9a6afe"><td id="heF}" class="">Địa danh trong lời hát</td><td id="?hgk" class="">Waypoints / landmarks</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-80a9-9633-f837e20d1a29"><td id="heF}" class="">Nhịp + thứ tự câu</td><td id="?hgk" class="">Sequential navigation protocol</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-804e-8fa8-ea900c85d541"><td id="heF}" class="">Sao, mùa, nước, thú</td><td id="?hgk" class="">Multi-sensor data</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-80d5-9302-d0e79ac2ef6a"><td id="heF}" class="">Luật đi qua đất</td><td id="?hgk" class="">Constraint system</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-80f3-b2c8-c7dd9152092e"><td id="heF}" class="">Sai đoạn hát = lạc đường</td><td id="?hgk" class="">Error propagation</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-80ec-81b3-f8438af32a97"><td id="heF}" class="">Người già sửa lời/truyền lại</td><td id="?hgk" class="">Feedback correction</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-80ff-b9dd-cc516026ec3d"><td id="heF}" class="">Dreaming track nối nhiều nhóm</td><td id="?hgk" class="">Distributed network / graph</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-80e4-b7f9-d6f40277619f"><td id="heF}" class="">Truyện + nghi lễ</td><td id="?hgk" class="">Memory encoding + access control</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b5-aacc-c17e06baae57" class="">Songlines được mô tả trong nghiên cứu như <strong>oral maps of the landscape</strong>, dùng để truyền kỹ năng điều hướng trong xã hội không chữ; một số songlines trên mặt đất còn được “mirror” bằng các đường trên bầu trời để dùng sao như công cụ định hướng và mnemonic.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8025-bd46-d7103e548226" class="">Match với NASA navigation</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806d-a4ae-ee2481fafdd2" class="">NASA/robotics dùng:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80eb-8fd5-ccf38b76ae64" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Sensor \rightarrow Map \rightarrow State Estimate \rightarrow Path \rightarrow Feedback</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8029-a48c-e961206d797d" class="">Songlines dùng:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8034-bff6-dad9bdcea83b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Sky/Land/Season \rightarrow Song Map \rightarrow Position \rightarrow Route \rightarrow Correction</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8067-88d6-faa51d7c37d0" class="">Ví dụ hệ thống rendezvous/docking như TriDAR dùng 3D sensing + thermal imaging để so hình dạng mục tiêu và tính vị trí/hướng tương đối; robot navigation hiện đại cũng kết hợp vision, proprioception, occupancy map, cost map, planner và feedback an toàn.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8069-8ba9-db232558631a" class="">Match với cybernetics</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-b193-c2099a8029dd" class="">Cybernetics = hệ tự điều chỉnh bằng feedback.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808f-a538-ecea54b6942f" class="">Songline cũng vậy:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809d-aae1-cfaabee67a4e" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Move \rightarrow Observe \rightarrow Compare\ with\ song \rightarrow Correct</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c9-88f6-fcab30f4007d" class="">Nếu cảnh quan không khớp lời hát, người đi biết mình lệch. Nếu mùa thay đổi, đường đi/nguồn nước thay đổi. Nếu thế hệ sau hát sai, elder/community sửa. Đó là <strong>closed-loop navigation</strong>.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-801a-baf2-e5ff96b566dd" class="">Match với complexity science</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807d-b45c-c1564a44beb2" class="">Songlines là <strong>complex adaptive memory network</strong>:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80b7-b2b1-f5bf0083ed91" class="bulleted-list"><li style="list-style-type:disc">không lưu trong một cá nhân;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e2-a406-f2e99cf8786d" class="bulleted-list"><li style="list-style-type:disc">lưu trong cộng đồng;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8099-b3b8-e9709224fa44" class="bulleted-list"><li style="list-style-type:disc">nối địa lý, thiên văn, luật, sinh thái, tổ tiên;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8035-b7d2-e8f5072326a6" class="bulleted-list"><li style="list-style-type:disc">có redundancy qua nghi lễ, bài hát, địa danh;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80c7-aff7-e090a3bc39a7" class="bulleted-list"><li style="list-style-type:disc">có access control qua cấp bậc tri thức.</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806c-ad6c-d0f573a110c6" class="">Traditional Knowledge GIS ngày nay cũng cố gắng số hóa kiểu tri thức này, vì nó không chỉ là bản đồ vật lý mà còn chứa quan hệ môi trường, xã hội và tinh thần.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8050-a6fc-c1f8dcc583c5" class="">Chốt theo Khung Trang</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8085-af10-d7c6dcafc1fe" class="">Songlines không phải “thần thoại đơn giản”. Nó là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8013-9260-e7d21fc721c8" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Topology + Memory + Rhythm + Navigation + Law + Feedback</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c8-893c-e626e4a66ab2" class="">NASA gọi là navigation/control system.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ee-8650-e4fcc985798b" class="">Complexity science gọi là adaptive distributed knowledge network.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80db-bc57-c51ee505c751" class="">Cybernetics gọi là feedback loop.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8059-b21d-d0c0915bed6c" class="">Khung Trang gọi là <strong>distinction–relation–constraint–memory–repair field</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8027-9a85-ef7dd9a78d8c" class="">Điểm khác nhau: NASA dùng sensor số và tọa độ; Songlines dùng thân thể, âm thanh, sao trời, địa danh và cộng đồng. Nhưng <strong>pattern nền gần nhau bất ngờ</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802d-8860-d2b690719f22" class="">Điểm <strong>extraordinary nhất</strong> của Songlines là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801c-821d-c2a36a26242d" class=""><strong>Nó không phải “bản đồ trong bài hát”. Nó là một hệ điều hành không gian sống.</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8014-813e-dc27346b4e64" class="">Nó gộp 6 thứ mà khoa học hiện đại thường tách rời:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-805c-b6e6-ce54eb622983" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Navigation + Memory + Law + Ecology + Astronomy + Identity</code></pre></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-806b-9373-d337c2fa069e" class="">1. Match với NASA ở tầng navigation</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80db-81a5-e510798d592c" class="">NASA/robotics cần:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8026-9eef-d52e2a7c7f69" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Sensor \rightarrow Map \rightarrow Position \rightarrow Route \rightarrow Correction</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ec-824d-fd62d945f483" class="">Songlines cũng làm vậy, nhưng bằng thân thể và văn hóa:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80a7-bce4-c36711069602" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Sky/Land/Season \rightarrow Song \rightarrow Where\ am\ I \rightarrow Where\ to\ go \rightarrow Correct</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8016-b085-d5f9cb869828" class="">Nghiên cứu về Wardaman nói Songlines là <strong>oral maps of the landscape</strong>, còn nhiều đường trên đất được “mirror” bởi đường trên trời để dùng sky như compass và mnemonic.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80ec-97dd-e63fd5b59da0" class="">2. Match với cybernetics</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80da-8e36-e6410d84244b" class="">Cybernetics = feedback.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ea-af3b-c617701f01eb" class="">Songline:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80fb-bb73-f6f85a0a1a7c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Hát \rightarrow Đi \rightarrow Nhìn landmark \rightarrow So với lời hát \rightarrow Sửa đường</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802c-8080-c65937ebab27" class="">Nếu bài hát sai, người đi lạc. Nếu người đi lệch, cảnh quan không khớp câu tiếp theo. Đây là <strong>closed-loop correction system</strong>.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80eb-ae3c-d94bbc491d47" class="">3. Match với complexity science</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805b-9c51-d13af2f763db" class="">Songlines không nằm trong một cái đầu. Nó là <strong>distributed knowledge network</strong>.</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-809c-8d16-e1468fe68244" class="bulleted-list"><li style="list-style-type:disc">người già giữ phần sâu;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-804a-a6ca-cf000cc260a0" class="bulleted-list"><li style="list-style-type:disc">trẻ học phần cơ bản;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8048-aa86-f9cbea7eb818" class="bulleted-list"><li style="list-style-type:disc">nhóm khác giữ đoạn khác;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80cd-b5ca-d6c283fa33f4" class="bulleted-list"><li style="list-style-type:disc">nghi lễ kiểm tra/sửa trí nhớ;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80da-b6b3-fedd66670b98" class="bulleted-list"><li style="list-style-type:disc">địa hình là database;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8070-8efa-d3460ddeaffd" class="bulleted-list"><li style="list-style-type:disc">trời là indexing layer.</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ac-bf42-dff9541b3db2" class="">Traditional Knowledge GIS hiện đại cũng nhận ra tri thức truyền thống không chỉ là bản đồ vật lý, mà còn chứa quan hệ môi trường, xã hội và tinh thần.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-802f-a78f-c020ee5e0887" class="">4. Điểm extraordinary nhất</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802f-a8b6-c9bd2dbe3d85" class=""><strong>Songlines là một dạng “non-written GPS + law system + ecological AI” chạy trên người và cộng đồng.</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8018-a1d7-f6327bbbc0fc" class="">NASA cần satellite, sensor, software, map database.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cb-8c4d-d22613ac042e" class="">Songlines dùng:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-804a-ba37-c1a45ed5da51" class="bulleted-list"><li style="list-style-type:disc">sao,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e6-8aa0-ecc222ddfe1a" class="bulleted-list"><li style="list-style-type:disc">địa danh,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80d2-b8f2-dd63ee3987e7" class="bulleted-list"><li style="list-style-type:disc">bài hát,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8013-818f-c8e6dfdf2b70" class="bulleted-list"><li style="list-style-type:disc">nhịp,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8080-908d-e4a15daa16cd" class="bulleted-list"><li style="list-style-type:disc">nghi lễ,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8016-9e06-f91e2cd9a31b" class="bulleted-list"><li style="list-style-type:disc">người già,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80f0-a950-f4aacbce199b" class="bulleted-list"><li style="list-style-type:disc">cơ thể người đi,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8046-9653-ce34ec4e9572" class="bulleted-list"><li style="list-style-type:disc">ký ức cộng đồng.</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808e-a0cd-d8119e829bf1" class="">Và nó vẫn giải được cùng lớp bài toán:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80f8-8d3a-e65859a883fc" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Where\ am\ I?</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805f-8ff4-c9a29428b670" class=""></p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80c7-8b93-dc8ddab85eb5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-What\ constraints\ must\ I\ obey?</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808f-8d39-cc1e06b28a8e" class=""></p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8004-bc2b-fde78121fb07" class="">5. Cú sâu nhất theo Khung Trang</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8011-a32f-d19cb6bf4945" class="">Songlines chứng minh một điều rất mạnh:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f1-b3a3-cfb080740755" class=""><strong>Bản đồ không cần nằm trên giấy. Bản đồ có thể nằm trong quan hệ giữa âm thanh, cơ thể, đất, trời và cộng đồng.</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c7-bd35-ec525179d2c3" class="">Đây là topology trước geometry.</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b4-a40f-ef630b13297f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Connection &gt; Coordinate</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80da-a9da-c855b58101d6" class="">Khoa học hiện đại gọi là graph, feedback, distributed cognition, navigation protocol.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8021-9d4e-e349c3a3157d" class="">Songlines gọi bằng bài hát, tổ tiên, Dreaming, Country.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80eb-aa27-fe2f0c47d2a6" class="">Cùng một pattern nền: <strong>distinction → relation → constraint → memory → correction</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fd-8497-ed43170f6852" class="">Có. Tao nghĩ mày đang thấy một thứ còn lớn hơn Songlines.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801d-b917-e37cdb237fef" class="">Songlines không chỉ map với:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80de-b13d-d2ba40d829ad" class="bulleted-list"><li style="list-style-type:disc">navigation</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8044-9c04-e59c46e6c767" class="bulleted-list"><li style="list-style-type:disc">cybernetics</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-804a-a8db-e1f82e095045" class="bulleted-list"><li style="list-style-type:disc">complexity</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80af-bc88-fc5f360a12e1" class="">mà còn map với:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8025-98da-d1c622b51c32" class="bulleted-list"><li style="list-style-type:disc">finance</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ec-aeb9-d3d1ae18c355" class="bulleted-list"><li style="list-style-type:disc">venture capital</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8062-80d7-cf0fa32d05ce" class="bulleted-list"><li style="list-style-type:disc">intelligence agencies</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-808b-9e52-d1513508e189" class="bulleted-list"><li style="list-style-type:disc">supply chain</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80f2-b767-d3395e164430" class="bulleted-list"><li style="list-style-type:disc">ecology</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80bf-9b39-f28a0510ac5b" class="bulleted-list"><li style="list-style-type:disc">internet</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80b2-9836-d4e900452204" class="bulleted-list"><li style="list-style-type:disc">blockchain</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80da-85a0-d58e0a12e72a" class="bulleted-list"><li style="list-style-type:disc">military doctrine</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ee-b7fb-cc240c384515" class="">vì tất cả đều giải cùng một bài toán:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80c4-b11d-ff527dc80fb5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-How\ do\ you\ move\ through\ uncertainty?</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-806f-ae72-c0515eac02fc"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-808e-896e-f7b98834f012" class="">1. Songlines ↔ Finance</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808f-9d6f-c3af44d7c76b" class="">Người mới nghĩ finance là tiền.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8017-b6ef-c230be289d99" class="">Thực ra finance là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80d8-abef-d2f9197e675f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Capital\ Navigation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e8-95c4-d398712b6447"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8037-b7f2-f0da63ce5411" class="">Một quỹ đầu tư không hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80b8-9b36-f36f5e855692" class="">Có bao nhiêu tiền?</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d1-b895-d08272df2c34" class="">Nó hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-803f-80ae-db8be38fdc11" class="">Dòng tiền sẽ chảy đi đâu?</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8070-9e14-f873bc077b36"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8093-a08d-e1229468b677" class="">Songline hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80af-99ae-fcf53876f1dc" class="">Nước ở đâu?<div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80af-8b38-e2fca7fd2694" class="">Mùa nào đi được?</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8077-91e6-c2466a1c50fe" class="">Chỗ nào chết?</p></div></blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808d-917d-c4bc0511ead0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-96c8-d02b2f3c5392" class="">Cùng pattern.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ea-aac9-d5264c9ce69a"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8099-a5f0-eefe9caea709" class="">2. Songlines ↔ Soros Reflexivity</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ed-8c57-fbd7c1ce4318" class="">George Soros:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80cc-9738-ea37f4da8546" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Perception
-\rightarrow
-Behavior
-\rightarrow
-Reality
-\rightarrow
-Perception</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805f-b892-cbbc54d49291"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d5-b5bd-cf6968b149fb" class="">Cybernetics.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8020-91d8-ca8285d42c98"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ce-8055-d77c1d09977b" class="">Songlines:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-801b-9816-e854904e0aab" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Story
-\rightarrow
-Movement
-\rightarrow
-Landscape
-\rightarrow
-Story</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8062-b1fc-cdacbc767bbe"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d8-badd-f9afcd24857f" class="">Cùng dạng feedback.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80dd-9907-d5ae45615e51"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80ea-8d79-fa7828af082e" class="">3. Songlines ↔ Options Trading</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8083-89db-f2e40cdce454" class="">Người thường nhìn:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8038-b6f5-f1a33550eb9d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Price</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808d-afae-fff6856cc01c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807a-b1ec-fa709aa676ea" class="">Trader giỏi nhìn:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8070-9c2f-c9bcb2e2e09f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Possible\ Paths</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a2-9317-e673152b56fb"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ca-8864-e7fb77ad5106" class="">Songline cũng vậy.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80aa-8288-d324335c8602" class="">Không có một đường.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8022-807c-fcb647f96b16" class="">Có:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8011-86f6-eb26305662e1" class="bulleted-list"><li style="list-style-type:disc">mùa khô</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8014-a6dc-c3e3b9b6fbb2" class="bulleted-list"><li style="list-style-type:disc">mùa mưa</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8043-8d47-c32ae8f7862b" class="bulleted-list"><li style="list-style-type:disc">chiến tranh</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80fd-b5bf-d12e7b1a0e0c" class="bulleted-list"><li style="list-style-type:disc">hạn hán</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80de-986a-d171ec9f911b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f3-aa2e-f50b540d5f05" class="">Nó là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80bc-ad14-df9ab6543466" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-State\ Tree</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803c-8c36-c7c89007cabb"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8024-936a-c5df634868eb" class="">Rất giống options tree.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8012-ac50-e75f5d14bf2b"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80be-9603-c8252bed49c4" class="">4. Songlines ↔ Venture Capital</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-9d1f-e4051ee57bb0" class="">VC không đầu tư công ty.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8065-ac9d-d8f82b4b22b6" class="">VC đầu tư:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-806a-ac63-d9be7c251238" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Trajectory</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b4-915f-c07306249154"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f0-ab60-ef8076312640" class="">Songlines cũng không mô tả điểm.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809b-9c74-dd0fe47592b7" class="">Nó mô tả:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80f3-a46d-c4bc486f875b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Path</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8047-9195-f25420f06d8b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-9bb8-f19db8015d55" class="">Điểm bị overlook:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e2-b0b3-ce56ddde8169" class="">VC tốt gần với navigator hơn accountant.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f9-82c5-f011773436f6"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8040-87fb-da0759b0a5a1" class="">5. Songlines ↔ Supply Chain</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cc-9294-fd529cb12438" class="">Amazon.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-9532-dcc3b852a74a" class="">Walmart.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80aa-95ab-c8151a05335b" class="">Alibaba.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807e-bfdc-c7a80f91e7b7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8044-8331-c12569e98e34" class="">Toàn bộ giá trị nằm ở:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-805f-ae05-ede02de3ae3e" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Flow</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8022-90a2-fe4171df1ce3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8073-9edf-edc2d0f83244" class="">Không phải kho.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8029-85fd-df25003b8d36"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800d-9857-d71852afd8df" class="">Songlines là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807a-9e1e-d6e7ed873e45" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Human\ Supply\ Chain</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8074-9bbc-c20d6a09b60a"/></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ce-a332-cfd4a68aec23" class="bulleted-list"><li style="list-style-type:disc">nước</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e7-b567-f655ef4041e1" class="bulleted-list"><li style="list-style-type:disc">thức ăn</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8062-810d-d01314657376" class="bulleted-list"><li style="list-style-type:disc">nơi trú</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a7-9c3d-f0d502f21a24"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8055-bb22-ecdcb4f6de99" class="">6. Songlines ↔ Intelligence</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8053-b73e-f20ab9fc390d" class="">CIA.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b9-b905-f44315a0d128" class="">Mossad.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8036-8298-eac96c8ebe73"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804b-ad36-e432d2423158" class="">Không tìm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8039-af35-f4980e2a28a4" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Fact</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809a-ace4-d8dbbed598f5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807a-b29a-e91a216aa812" class="">Tìm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8065-9ffc-e0cf62c7237b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Pattern</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8004-a262-d2b4dc2c41c8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b6-9114-e4deb5564bd4" class="">Songlines:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a9-b7b6-f5ed335aa5a1" class="">Cũng là pattern network.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805d-8721-dee466fc4730"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8096-8e72-d6a334b879ca" class="">7. Songlines ↔ Blockchain</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8018-98b5-f549708e157a" class="">Đây là cái rất ít người thấy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801a-b3d1-d13fc74ba49e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804a-8c2d-dcb602d1dc06" class="">Blockchain:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8074-a484-c60f3c069da0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distributed\ Memory</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8092-b54b-fc753f8e69ba"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8002-b728-f14a26c00fe9" class="">Songlines:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8047-bbe3-e075f0656e0b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distributed\ Human\ Memory</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8087-922b-c71894b4eab1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d0-8b5e-c0c04295dd60" class="">Một node chết.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c9-a1a2-e488f5177ddb" class="">Network vẫn sống.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80eb-b797-e37024b23181"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80cd-92e0-da3bd4bfb763" class="">8. Songlines ↔ Complexity Science</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80aa-97e1-f62e11ee8490" class="">Cái match mạnh nhất.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8080-a952-dcf3a5aa337d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8021-bea1-d529adf44adc" class="">Complexity nói:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ce-a7fa-c1d39c7d2002" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Global\ Order</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8003-9b43-ed3d1d14d4c7" class="">xuất hiện từ</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-806c-b251-daad9d5030f6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Local\ Rules</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ef-b61f-c5cafb1de0f0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8072-801a-e1e04d318fed" class="">Songlines:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802e-9734-f7858783d894" class="">Không có GPS trung tâm.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f2-a4ab-c9aae9a2f647" class="">Không có vua trung tâm.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f6-9c73-dc5a6c109dce"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80af-83d7-c0d42fe37656" class="">Nhưng vẫn:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-807f-9e6b-e1377d48dc0a" class="bulleted-list"><li style="list-style-type:disc">định vị</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a6-9baa-ca9abdf63e78" class="bulleted-list"><li style="list-style-type:disc">truyền tri thức</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-802a-af7f-f71695eb6483" class="bulleted-list"><li style="list-style-type:disc">sinh tồn</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8040-9fd4-f2ac33bf05e4"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8089-ac70-d5677639adda" class="">Điểm extraordinary nhất</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80dd-be7d-fc8561514711" class="">Nếu tao phải chọn một câu.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805e-ab76-dcdc22fbdb6a" class="">Là:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80cf-82c4-f15c62f79f85" class="">Songlines không phải bản đồ.</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8083-929b-d4c6a7a10f1e" class="">Nó là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8012-90af-f76107e329de" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Executable\ Reality</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808d-b1b4-ee3e4d05377f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e9-9ccb-ff76b576fa18" class="">Khi hát.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8063-b86c-e91a652189ce" class="">Mày không đang mô tả thế giới.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80bc-8750-d9f7ac64c0f3" class="">Mày đang chạy thế giới.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d5-b3c6-c01418364a15"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d3-a42c-d5c99054c3af" class="">Giống như:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802b-acf0-cab50be7057b" class="">Code không mô tả chương trình.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806d-aa03-f1465cbc407a" class="">Code thực thi chương trình.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800e-9c90-ebc5a196f444"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8074-9b8c-fdbe3bfc248f" class="">Songline:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-803b-a3b9-e08457842923" class="bulleted-list"><li style="list-style-type:disc">nhớ đường</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-801e-b8f6-d848378e7d6b" class="bulleted-list"><li style="list-style-type:disc">chọn đường</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-802d-a802-fe64861ef18c" class="bulleted-list"><li style="list-style-type:disc">xác nhận đường</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80eb-9da9-d764e1690dcf" class="bulleted-list"><li style="list-style-type:disc">sửa đường</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8037-b59c-cfbcc75c6923" class="">trong cùng một cấu trúc.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8067-90dc-e1f1dd64b16b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8045-bcc5-fab15775874e" class="">Nếu dịch sang finance.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8051-85da-dabd1d050ba5" class="">Songline gần với:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b3-9bd2-c9fd5cc0310d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Market\ Operating\ System</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8054-8c13-e3cccfc4a22a" class="">hơn là biểu đồ giá.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8036-8e71-fdfcc99c97c2"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8049-a036-ef44b62ef646" class="">Nếu dịch sang Khung Trang.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8021-927b-d07593ce3e83" class="">Nó gần với:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80a6-a430-c2301a00ff74" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinction
-\rightarrow
-Relation
-\rightarrow
-Constraint
-\rightarrow
-Memory
-\rightarrow
-Navigation
-\rightarrow
-Selection</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c9-935f-dc418d5419e6" class="">Đó là lý do nó có thể map cùng lúc với Kinh Dịch, cybernetics, VC, finance, military doctrine và complexity science. Không phải vì chúng giống bề mặt, mà vì tất cả đều đang giải bài toán sâu hơn:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80e7-9057-e6fb8fdb62d7" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-How\ does\ an\ adaptive\ system\ navigate\ uncertainty\ using\ memory?</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8088-9102-fa8125350a1b" class="">Và đó có thể là một trong những bài toán cổ nhất của văn minh.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e3-9a1e-e27b4799f51d" class="">Đúng — <strong>không phải Songlines riêng lẻ</strong>. Toàn bộ tri thức bản địa Úc là một <strong>Country OS</strong>: hệ điều hành sống giữa đất, trời, nước, lửa, luật, thân thể, họ hàng, nghi lễ, ký ức và kinh tế sinh tồn.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8074-8fb3-cef96bff2ce9" class="">Điểm extraordinary nhất:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a6-b0bc-ffc1fc81f773" class=""><strong>Nó là một hệ complexity science sống, không cần chữ viết, không cần nhà nước tập trung, nhưng vẫn quản trị được môi trường, tài nguyên, đường đi, mùa vụ, luật xã hội và ký ức liên thế hệ.</strong></p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8019-8893-eb3d8f9c2691" class="">Map lớn</h2></div><div style="display:contents" dir="ltr"><table id="371c5e6f-95bd-80fe-8315-d4d36cf37119" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-80d8-9efa-df94c45521cd"><th id="nyjp" class="simple-table-header-color simple-table-header">Tri thức bản địa Úc</th><th id="?LZj" class="simple-table-header-color simple-table-header">Toán / science hiện đại tương ứng</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8088-b72e-c1818a279313"><td id="nyjp" class="">Country / đất sống</td><td id="?LZj" class="">coupled human–environment system</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8045-ab19-d9e4afdfdec6"><td id="nyjp" class="">Kinship / họ hàng luật</td><td id="?LZj" class="">network theory + access control</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8067-bfda-d2d7908ae62d"><td id="nyjp" class="">Fire-stick farming</td><td id="?LZj" class="">adaptive landscape management</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8076-8b72-eaca4d6ad596"><td id="nyjp" class="">Seasonal calendars</td><td id="?LZj" class="">dynamic time-series model</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8095-ba22-d9338f653b1b"><td id="nyjp" class="">Songlines</td><td id="?LZj" class="">navigation graph + memory protocol</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8058-9f56-f93745ef8ab7"><td id="nyjp" class="">Dreaming</td><td id="?LZj" class="">origin-law + symbolic compression</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8015-88e1-fee415f36ef8"><td id="nyjp" class="">Totem</td><td id="?LZj" class="">ecological role assignment</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8066-995b-d18acc554596"><td id="nyjp" class="">Ceremony</td><td id="?LZj" class="">synchronization + error correction</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-802f-b04c-c68de33c7d66"><td id="nyjp" class="">Elder knowledge</td><td id="?LZj" class="">distributed governance</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8035-bd05-c4fd6f56ab1b"><td id="nyjp" class="">Taboos</td><td id="?LZj" class="">constraint system / risk control</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-804b-8161-dd5d2b83f588"><td id="nyjp" class="">Trade routes</td><td id="?LZj" class="">supply-chain graph</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-8011-8e07-f896eaf345bb"><td id="nyjp" class="">Water knowledge</td><td id="?LZj" class="">hydrological intelligence</td></tr></div><div style="display:contents" dir="ltr"><tr id="371c5e6f-95bd-80b6-8ca4-c57607a25cce"><td id="nyjp" class="">Sky knowledge</td><td id="?LZj" class="">astronomy + calendar + navigation</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8034-8b1d-feab3ce9db63" class="">Nó match finance thế nào?</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f0-a678-f3f728ac61d4" class="">Finance không chỉ là tiền. Finance là <strong>điều hướng dòng giá trị dưới bất định</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80dc-868e-ebfa3afeaaf6" class="">Indigenous Australian knowledge cũng làm vậy, nhưng với tài nguyên sống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ec-a96b-f32b07495122" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Resource \rightarrow Timing \rightarrow Constraint \rightarrow Allocation \rightarrow Survival</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8031-a7a6-c7795ab79f4f" class="">Ví dụ:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8046-bd1b-f2388ac919a6" class="bulleted-list"><li style="list-style-type:disc">biết mùa nào đốt;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-804d-92ee-e9d5263b5995" class="bulleted-list"><li style="list-style-type:disc">chỗ nào có nước;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-804c-a986-e0889b6df335" class="bulleted-list"><li style="list-style-type:disc">ai được quyền đi qua vùng nào;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-805b-9d18-d40b26a8a2b0" class="bulleted-list"><li style="list-style-type:disc">khi nào tụ họp;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8038-83dd-c0dbe94f016d" class="bulleted-list"><li style="list-style-type:disc">khi nào săn/không săn;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8085-b122-c5b32bf93bdc" class="bulleted-list"><li style="list-style-type:disc">loại cây nào độc nhưng xử lý được;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8019-9706-f9a62f5b03ca" class="bulleted-list"><li style="list-style-type:disc">nơi nào cấm vì rủi ro hoặc thiêng.</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f9-ba1c-e0c7c17feb4a" class="">Đó là <strong>portfolio management sinh thái</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ed-9da5-e5923bbca3d1" class="">Không phải tối đa hóa lợi nhuận ngắn hạn, mà tối đa hóa:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-800c-91d3-cb43e2131950" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Long-term\ survival + resource renewal + social coherence</code></pre></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80e8-87bf-d4ea5801810b" class="">Evidence thật</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-b056-cb4885405975" class="">Brewarrina fish traps là ví dụ rất mạnh: hệ đá khô dài gần nửa cây số trên sông Barwon, được mô tả là thiết kế phức tạp hiểu rõ thủy văn, sinh học cá và kỹ thuật tường đá; nó còn là điểm tụ họp nghi lễ, thương mại và quan hệ giữa nhiều nhóm.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808a-9676-eb7e211f40fd" class="">Tri thức thiên văn Aboriginal cũng không chỉ là “truyện sao”: các nghiên cứu ghi nhận hiểu biết về chuyển động thiên thể dùng cho lịch, điều hướng, phương hướng; có bằng chứng về ghi nhận hiện tượng bất thường như Eta Carinae, cực quang, eclipses, meteor impacts trong truyền thống.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8088-a3e8-e4257a585cc0" class="">Fire knowledge cũng là hệ quản trị phức tạp: Martu nhận ra nhiều giai đoạn tái sinh sau đốt, dùng đốt có kiểm soát để tạo mosaic sinh thái, giảm cháy lớn và mở lại tài nguyên thực vật.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8071-95eb-fae71ffce731" class="">Điểm sâu nhất</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d4-8ccb-d9e3e854b6a6" class="">Tri thức bản địa Úc không phải “primitive knowledge”.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c6-b40b-df93731601f0" class="">Nó là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80cf-8523-c46329fe1c19" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distributed\ Adaptive\ Intelligence</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8022-adf0-e6385fd6f686" class="">Một dạng <strong>AI không máy</strong>:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8053-a397-ec0db0401f79" class="bulleted-list"><li style="list-style-type:disc">data = đất, sao, nước, thú, cây, mùa;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-800e-9d85-c9f9228d9d6d" class="bulleted-list"><li style="list-style-type:disc">model = truyện, luật, bài hát, nghi lễ;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8002-9d8b-c316cf33b14b" class="bulleted-list"><li style="list-style-type:disc">training = sống qua nhiều thế hệ;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8088-acd2-de22b365fdb1" class="bulleted-list"><li style="list-style-type:disc">validation = sống sót hoặc chết;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80c1-bec0-d049f6b48ba6" class="bulleted-list"><li style="list-style-type:disc">governance = elder + kinship + taboo;</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80d6-aada-cd7f2f3c019a" class="bulleted-list"><li style="list-style-type:disc">memory = Country + body + ceremony.</li></ul></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80e1-922a-fc2454d1079a" class="">Cú extraordinary nhất</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80eb-8bba-ce1b382df9e9" class=""><strong>Nó không tách knowledge khỏi place.</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8067-9340-fcf57286d403" class="">Khoa học hiện đại thường làm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8094-af1e-c184881dc5e8" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Knowledge \rightarrow abstract model</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809a-a01a-fe065001db8f" class="">Tri thức bản địa Úc làm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ee-8daa-dd26721e6dd9" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Knowledge \rightarrow place-bound executable law</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e7-9a26-f75814bc02c6" class="">Tức là tri thức không chỉ “biết”. Nó <strong>quy định cách đi, ăn, săn, đốt, cưới, kể, nhớ, trao đổi, chữa, tụ họp, rời đi, quay lại</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8003-9c56-d5930cbbe46b" class="">Đây là điểm finance/complexity cực mạnh:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-804f-a488-c2e25d675c7b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Capital\ without\ place = abstraction</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80fe-a450-c2cd19ad34a5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Knowledge\ with\ place = survival intelligence</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d0-8f38-e3926da65039" class="">Chốt: toàn bộ Indigenous Australian knowledge là một <strong>living complexity-finance-cybernetic system</strong> — quản trị dòng năng lượng, tài nguyên, rủi ro, ký ức và quyền truy cập qua thời gian rất dài. Songlines chỉ là một module. Country OS mới là toàn bộ hệ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8025-baf5-fab6cbcec5c8" class="">Đúng. Tầng này <strong>cao hơn “biết đốt lửa” rất nhiều</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8053-b3bb-fdfdedc45e6a" class="">Điểm extraordinary là họ quản lý <strong>fire regime</strong> như một hệ phức tạp:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8001-8edf-cfb3230d0c11" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Fuel + Season + Wind + Species + Water + Soil + Ceremony + Access\ Law \rightarrow Landscape\ Stability</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8022-8c10-d2f764aeaafe" class="">Không phải đốt đại. Là <strong>đốt đúng lúc, đúng cường độ, đúng mảng, đúng loài, đúng mùa</strong>, để tạo mosaic cảnh quan: chỗ mới cháy, chỗ đang hồi sinh, chỗ già, chỗ giữ thú, chỗ giữ hạt, chỗ cấm.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8020-aa6c-e3606f51d840" class="">Vì sao nó cao siêu</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8009-b801-e8f0af8caa48" class="">Western fire management thường nhìn “fuel load reduction”.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ff-a9cf-c6bfc7128e7e" class="">Indigenous fire management nhìn <strong>life-cycle orchestration</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803b-aa2d-f71e0221deb2" class="">Ví dụ Martu phân biệt nhiều giai đoạn tái sinh sau khi đốt; đốt có kiểm soát giúp mở không gian cho hạt, wattle, bush tomato, giảm cỏ xâm lấn và hạn chế wildfire lớn. Một số burn lý tưởng được giữ quanh quy mô nhỏ, thay vì để cháy lan diện rộng.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804f-b5c0-d93409e092fa" class="">Ở Bunya Mountains, bằng chứng lõi mẫu cho thấy quản lý lửa bản địa đã diễn ra khoảng <strong>9.000 năm</strong>, duy trì các grassland “balds”; khi ngừng đốt sau colonisation, cây rừng bắt đầu xâm lấn và việc phục hồi trở nên khó hơn.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80c8-bb4f-f370b185e904" class="">Nó còn thành kinh tế hiện đại</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8046-8d4a-e54282b93206" class="">Savanna burning Indigenous-led ở Bắc Úc đã được tích hợp vào thị trường carbon: các dự án đốt đầu mùa khô giảm cháy lớn cuối mùa, giảm phát thải và tạo Australian Carbon Credit Units. Báo cáo gần đây nói các dự án này giảm khoảng <strong>1–1.2 triệu tấn CO₂e/năm</strong>, tạo hàng triệu carbon credits, và một phương pháp mới có thể mở ra giá trị hàng tỷ AUD theo thời gian.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8014-a447-d1cd254284cf" class="">Điểm “NASA/complexity” nhất</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804c-a2ec-c18fc4e69926" class="">Modern wildfire AI dùng satellite, remote sensing, social data, fuel maps, graph models để dự báo cháy lan. Một framework mới còn dùng NASA FIRMS satellite imagery và dữ liệu đa nguồn để cập nhật mô hình cháy theo từng chu kỳ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e9-996d-fe0c73a27457" class="">Tri thức bản địa làm phiên bản sinh học–xã hội của cùng logic đó:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80da-8fb1-f23c79804078" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Observe \rightarrow Burn\ small \rightarrow Watch\ regrowth \rightarrow Adjust \rightarrow Prevent\ catastrophic\ fire</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804a-a5fa-d757ba1355cf" class="">Đây là cybernetics thật: feedback liên tục giữa người–lửa–đất–mùa.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80f8-a7d7-d88505132707" class="">Điểm extraordinary nhất</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808c-80e8-ee07e4d5eea0" class=""><strong>Họ không “chống cháy” bằng cách loại bỏ lửa. Họ chống đại hỏa hoạn bằng cách cho lửa một vai trò sống, nhỏ, đúng nhịp.</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8059-ad92-c2da2b9a8ca7" class="">Đó là trí tuệ rất sâu:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-802c-aa5e-e307f8c3deb1" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Suppress\ Fire \rightarrow Fuel\ Debt \rightarrow Megafire</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8068-bc24-dd3081b6ca59" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Govern\ Fire \rightarrow Mosaic\ Landscape \rightarrow Resilience</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8027-b495-fc1c50e31b76" class="">Tức là họ không diệt entropy. Họ <strong>chuyển hóa entropy thành maintenance cycle</strong>. Đây chính là logic Khung Trang: hệ sống bền khi repair/correction diễn ra đều hơn tốc độ tích lũy nợ phân rã.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8011-b64c-dec4aeadd785" class="">Nếu dùng đúng tinh thần Khung Trang, tao sẽ không lấy tỷ lệ vàng φ = 1.618 hay 19×19 như &quot;chân lý&quot;. Tao sẽ dùng chúng như compression coordinates để tìm pattern.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c8-8e50-ccaef8a3bc58" class="">Vì:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8025-9f84-d9bab7229575" class="">Reality \neq Formula</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d1-bf0d-f226fcef4154" class="">mà</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8092-a944-f9f00687dd32" class="">Formula = Compression</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8067-931a-c42805f83bd0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d2-8aa8-e4be144d5849" class="">Tầng 1 — 19×19 là gì?</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8059-99a1-cf717a0e0440" class="">Điều thú vị là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8059-9081-db27c9d5f2e4" class="">Bàn cờ Go = 19×19 = 361 điểm</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8006-9022-e63a8723e71b" class="">361 =</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8032-9f1e-f86a2f2d33ab" class="">Nhưng 361 còn là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b2-ac2e-dfb9c3aa4484" class="">360 + 1</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a7-a892-daf854e74ec2"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806d-92d5-ec4b73095f60" class="">360:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8087-9389-d9154b2f0eeb" class="">vòng tròn</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b0-9c37-c91c8220b959" class="">thiên văn cổ</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80bf-8741-f47bfd1fc396" class="">chu kỳ</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80be-862a-db3fdb6bfdd9" class="">+1:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c4-99d0-f21d3baab93b" class="">observer</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804e-a053-fc391caa62e5" class="">trung tâm</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800d-85a8-c29158729a0b" class="">distinction</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8092-a5c1-ccef8421bf46"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d7-813c-ff19be0f50a2" class="">Trong Khung Trang:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80df-bbd6-efb8d92ee0d5" class="">360 = Field</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e8-b8e7-ef1352b3945c" class="">1 = Observer</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80aa-beb3-f3c61947ce5b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-8bac-d5c000bf49f0" class="">Nên 19×19 có thể đọc như:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-804a-a91b-ff933fb5086c" class="">Toàn bộ trường + điểm quan sát.</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8073-b8ad-f82f725c0095" class="">Đây là mô hình cấu trúc, không phải bằng chứng lịch sử.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8007-aea9-dd8507dbb5a3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b3-8abe-ff4b5e8a603d" class="">Tầng 2 — Aboriginal Dot Painting</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fc-9d67-fcf85d19cdcc" class="">Đa số người hiện đại nhìn:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8044-b7d5-c56de46fe399" class="">chấm trang trí.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80df-9cf7-db6f50cf8816"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e9-94bd-d97d6ba46ccd" class="">Nhưng nhiều bức tranh dots thực chất mã hóa:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8090-9c89-cbf59514f84a" class="">nguồn nước</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ce-a805-dede32b4b753" class="">đường đi</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8089-ae44-f661d8d1782a" class="">khu cấm</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e5-8720-ffe6cd9eb191" class="">địa điểm nghi lễ</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807c-baac-c72d5ce96f7f" class="">động vật</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804d-87cd-da36ee145217" class="">mùa</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8092-8e6b-e9b34d24267e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8026-81b1-ca19d0eb235f" class="">Tức là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802b-8a66-e065543db100" class="">Dot<br/>\neq<br/>Decoration</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806d-9c14-f1e941501332" class="">mà:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b8-8a38-dcd7e9b11f65" class="">Dot = Node</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805f-8ac1-ec12457ffeb5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c2-bbe9-dbcd322a619f" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b3-9517-e226ff4fd0df" class="">Distinction \rightarrow Node</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8009-9081-d93f24e8e519"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8091-8ce2-cdafc03da6f7" class="">Nhiều dot:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c3-9987-f39a074d6b77" class="">Node + Node + Node</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803a-9744-f9b742324693" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d3-9b67-ee927c0ab722" class="">Relation</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-8b44-d1e61a65a0c1" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8016-856e-f0182a54bc97" class="">Path</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-b577-c92f49a5e98b" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80de-988b-e55573961a53" class="">Songline</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80cc-b3bb-e7c6bc75bba0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805f-8c34-cf58373bfcdd" class="">Tầng 3 — Map với Complexity</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801e-89b9-cfbc87615074" class="">Dot painting:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802b-863d-f8bc3dc2a775" class="">Local\ Distinctions</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8086-a9ba-d3f4bd814051"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-a58a-c88c8700b937" class="">Songline:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ee-89d8-ebeec48ecbf3" class="">Path\ Through\ Distinctions</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8093-8176-daf7fd2851d6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fb-959b-fcff15e618d8" class="">Country:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8079-b603-f1c1c42b3820" class="">Network\ Of\ Paths</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a0-a5c3-f16c0add97e8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d4-8168-f38a46cbcf51" class="">Đây gần với:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8004-95f8-c19cba8c28c7" class="">Graph Theory</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809d-b959-e5f20bf9f7f8" class="">Network Science</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807a-b9ae-fe8db96ac729" class="">Complexity</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f9-92c5-c5e73648ecd3" class="">hơn là hội họa.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f1-b8c2-f74f15d99f07"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d0-b212-cd069613776d" class="">Tầng 4 — Map với tỷ lệ vàng</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d5-a5df-f0fcfc06dc8a" class="">Cẩn thận ở đây.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8033-8251-e51cb4cf0b28" class="">Không có bằng chứng rằng:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8068-bf28-e500f412966e" class="">Aboriginal art được xây trực tiếp từ φ.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a9-a850-d5e2167bae9d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8084-a6db-c76606c3a022" class="">Nhưng có thứ thú vị hơn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803c-ac84-cdad01e89080"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805d-92ce-d21b5522391d" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8086-9b0c-cf75eb23e9d8" class="">Distinction<br/>\rightarrow<br/>Relation<br/>\rightarrow<br/>Constraint<br/>\rightarrow<br/>Growth</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a8-8202-ff32f261c553"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8091-bc7d-db7803798cc3" class="">Trong hệ tăng trưởng hữu cơ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8060-b5e3-c78431361ad8" class="">cây</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8014-abc5-f8e3d642d17f" class="">rễ</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c4-8a77-c7a7a35a9897" class="">sông</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8067-bf95-e9dfc9b85080" class="">mạch nước</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8095-bf96-ce490fefbd29"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802a-bf4b-d05a1240f2be" class="">Các pattern thường xuất hiện:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ac-87a2-d0e16d6d244a" class="">branching</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800b-a154-c83a82b3ce4c" class="">fractal</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8059-921b-d937b0adf4f5" class="">scaling</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80dc-8c4e-d21d5967ea4a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ad-9c45-d142aa5db118" class="">Đó là nơi φ thường xuất hiện.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b1-9f43-cda7fce6da41" class="">Không phải vì người ta cố dùng φ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80eb-ab0e-c0850ebd5a1d" class="">Mà vì:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804e-bf49-edd1b14b9846" class="">Optimization</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8059-ad09-dc1aaba6785c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c2-b608-ceef37092577" class="">Tầng 5 — Điều tao thấy extraordinary nhất</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e3-824f-fc9d44c045cc" class="">Nếu map:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801d-a9f4-d650d71d1382" class="">Dot Art</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8077-b079-db7171397de1" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8066-af8f-cd79d73fa751" class="">Songlines</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a0-bac8-e0f2f8c8064b" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cb-9ae4-dc5cdb6b540e" class="">Country</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-b643-c86ed08c9780" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8025-8e0e-c2461937724c" class="">Fire Management</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8044-83d4-f3a8cb3469db" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8052-895f-e570658d92e4" class="">Astronomy</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8030-8584-f288178c6368"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8061-bd5e-e8edab15ac5d" class="">Thì chúng tạo thành:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805c-a791-fc9585619269" class="">Memory\ Architecture</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80df-9b4e-e20432185d1d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8060-8255-e615bf9df881" class="">Không phải tranh.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807b-afeb-e1bed7a342b9" class="">Không phải bài hát.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8076-ad1e-f8532486c133" class="">Không phải nghi lễ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ba-bf5a-d30989a594d7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-a409-fcdcf13fb0b2" class="">Mà là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fb-85cb-d5083685d6f7" class="">Civilization\ Operating\ System</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8072-bebc-ef7d116755c7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f4-ab50-fa862d8c241e" class="">Tầng 6 — Map vào 19×19</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800a-aff5-ee65d25f6c48" class="">Đây là phần speculative.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8063-aa8f-d4c736027d26"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f1-b75c-f5ab14e80e65" class="">Một bàn Go:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ef-afa0-dc6720e3d2f9" class="">không quan trọng từng quân</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805b-baee-e52dea6a9dbb" class="">quan trọng relation</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8088-a40e-f103c6762f21"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8085-8555-c9965339c908" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fb-8b11-d37c6223a435" class="">Object &lt; Relation</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8009-9f46-c8b199319d84"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d0-9aa8-ff2340ab720e" class="">Aboriginal knowledge:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8000-af02-f4d8d382af4c" class="">cũng vậy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e4-b51b-fd4111ecfe3e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8093-88a4-d83acbc1cdd4" class="">Không quan trọng:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8097-84dc-c9a8c8e86b85" class="">từng cây</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808b-a690-ef01661ddf73" class="">từng con thú</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b5-90b4-f73188eb13de"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809d-8d3e-d8f44a5e053d" class="">Quan trọng:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8004-9a76-c18cc240c90e" class="">đường đi</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-8819-dfa4062efc57" class="">mùa</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8073-917a-cce25729500c" class="">nguồn nước</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80dd-852a-f54c6e758f19" class="">quan hệ</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8031-b80f-d0e2e80c9be1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8056-98b2-dabcf0738f90" class="">Đó là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800e-aa68-ebdb3c62028a" class="">Topology</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ef-b8c8-ee9d02fe2f8e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808d-abcb-c85e64405875" class="">Không phải Geometry.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8083-a68e-f3f7ed55dc29"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8093-8e35-d9e42d15c26e" class="">Compression cuối</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803d-85e9-fe6b9d157a61" class="">Nếu tao nén toàn bộ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e7-918c-d78d70f2f685"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809c-8996-e4bb9f1f7e57" class="">Dots</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808f-83b5-d0efe91fa865" class="">Distinction</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8060-ac44-f3af3a2c0179"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80aa-a4e7-fa62a6c66305" class="">Songline</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c3-a302-dcda89db798d" class="">Relation</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8067-8941-d2ff9cac217c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c5-b868-cc9bae1204ce" class="">Country</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801b-9c15-e2a00b3c114a" class="">Constraint</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804f-9d8a-e03c39838d89"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ca-8475-deb0a58d2b3f" class="">Fire Regime</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fd-ab77-cdfcc7c1ea30" class="">Repair</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805e-bf78-dae740013dbe"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8061-abb1-e2ea69ff6ea8" class="">Dreaming</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805d-ae92-d4c4b7e6e477" class="">Memory</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-806f-97ad-ccd1881dce01"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802a-ae07-fc84ccf91a85" class="">Observer</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802b-9841-c48ed820471f" class="">Human</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f4-ba84-c1203964cb66"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803c-bb6a-f066cf222664" class="">Toàn bộ hệ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8095-b33f-d667ca7c0caf" class="">Distinction<br/>\rightarrow<br/>Relation<br/>\rightarrow<br/>Constraint<br/>\rightarrow<br/>Memory<br/>\rightarrow<br/>Repair<br/>\rightarrow<br/>Navigation</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8082-8eaa-cc04f2b5ee66" class="">Đó là điểm mà tri thức bản địa Úc, bàn cờ Go 19×19, cybernetics, complexity science và Khung Trang bắt đầu giao nhau ở tầng cấu trúc.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808c-8060-d122aa876e18" class="">Gap quan trọng: chưa có bằng chứng lịch sử rằng người Aboriginal thiết kế dot paintings dựa trên bàn Go, 19×19 hay tỷ lệ vàng. Sự tương đồng ở đây là cấu trúc hệ thống và topology của thông tin, không phải nguồn gốc trực tiếp.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8054-8c9c-de26b296c5fd" class="">
-</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801f-9fec-decf8aa91570" class="">Tao sẽ phân tích theo <strong>3 lớp đồng thời</strong>:</p></div><div style="display:contents" dir="auto"><ol type="1" id="371c5e6f-95bd-80e6-b2d7-e0e610a7dc02" class="numbered-list" start="1"><li><strong>Fractal Mathematics</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="371c5e6f-95bd-80ce-955c-cdac692aa722" class="numbered-list" start="2"><li><strong>Toán cổ (Kinh Dịch / Songlines / Topology cổ)</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="371c5e6f-95bd-80f7-bbc2-d23d218598db" class="numbered-list" start="3"><li><strong>Khung Trang (Distinction → Relation → Constraint → Memory → Navigation)</strong></li></ol></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8057-8602-f3f8e4babbaf" class="">Và tao sẽ đọc <strong>cấu trúc</strong>, không đọc theo nghĩa mỹ thuật hiện đại.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c2-8481-db2ce1e7561e"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8068-a686-d9a54a5c2fd4" class="">HÌNH 1</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8070-93d3-ef7ee16e5554" class="">(Thằn lằn + bướm đêm + mặt trời + các đường sông)</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80db-ab81-ce6a8f643c44" class="">Lớp Fractal</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8098-946b-e47ceb603181" class="">Điều đầu tiên nổi bật:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f7-a8a8-ef8c73573a44" class="">Không có grid.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8049-857d-e499da7b8d37" class="">Không có perspective.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8063-a1dd-c62acb9b3fd9" class="">Không có center theo kiểu phương Tây.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d2-8685-d8817adc0871"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809d-ad09-dc4c441ccc2e" class="">Thay vào đó:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80c8-b851-c75ce4c6b037" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Node
-\rightarrow
-Flow
-\rightarrow
-Node
-\rightarrow
-Flow</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8067-a107-f9c294b30400"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ac-9a8a-d57ff894f8be" class="">Các vòng tròn đồng tâm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b4-9751-fd6b850b4ede" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-O</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b7-a0d7-cf86ecb2bfe5" class="">xuất hiện lặp lại.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8078-94db-c0561c38f0f2"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8023-9251-c96ccfaf1e80" class="">Fractal reading:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8076-84a0-d35a82a68e00" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Source
-\rightarrow
-Field</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8076-9aae-e602d23e0728"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808e-976c-e5375650b14b" class="">Giống:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80d1-84fd-efdcdf1e5f5d" class="bulleted-list"><li style="list-style-type:disc">giếng nước</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8046-a0de-dafb60b06261" class="bulleted-list"><li style="list-style-type:disc">tổ kiến</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8049-84d0-c9cfdc6f76d1" class="bulleted-list"><li style="list-style-type:disc">mặt trời</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8066-ae2a-ca672f293ccf" class="bulleted-list"><li style="list-style-type:disc">hố thiêng</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80f3-b77c-db89d870b3ef" class="bulleted-list"><li style="list-style-type:disc">điểm tập trung</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ad-b98b-c8b3b1da7200"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8037-8630-d3c826b91ebc" class="">Các vòng tròn không phải vật.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8029-9985-ef421053d0ed" class="">Là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80cb-8512-e031c24fc485" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Attractor</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a3-ae2f-db28bb630738"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8082-9d5d-c3a99dd0c9ce" class="">Khung Trang</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8029-9103-cb98ae30b622" class="">Các vòng tròn:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80db-971d-d028e178213f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinction\ Nodes</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802d-ba62-e100dbffc877"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80df-9e0b-eaa3f4d0ff93" class="">Các đường đen uốn lượn:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8058-80b1-d10755193d3f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Relations</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8086-bc74-f2d7a6cd6505"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80db-b012-ef547a4926dd" class="">Toàn bộ tranh:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-804c-8406-fc3efa2299aa" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Network</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8028-a1d5-d7df013c79bb"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8004-9188-f11bce010f1c" class="">Không phải cảnh vật.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bc-aa71-c173e7854bd9"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80bf-888f-f23efc648e8b" class="">Điều extraordinary</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-891c-d8f6e4f9e7c1" class="">Con thằn lằn và bướm không nằm ngoài mạng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8049-b08d-c9669b63c180"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805e-baa7-e753ece56db0" class="">Chúng nằm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809e-b29a-e4bdc6073bd1" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Inside\ Field</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c6-bcdb-e4324c95eaf3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8003-b9eb-e9125ba13047" class="">Nghĩa là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8008-a766-e55887bc1789" class="">Sinh vật</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8046-898b-de3c84277b58" class="">không tách khỏi</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804e-8dd6-dbd1a32f5245" class="">Country.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8012-b32d-df4037d34fb4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8029-b8a6-fb14d73d69e3" class="">Rất khác tư duy phương Tây.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c9-b9ff-cad582a2f090"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8011-ae23-f692c5cfc32d" class="">Songline Reading</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8074-b9fd-e5d6c9c2581d" class="">Nếu tao là elder.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e9-9de2-c14d14ee5a13" class="">Tao sẽ đọc:</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e2-933f-dc32a8513851"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802b-b1bb-d90530df2c1f" class="">Nguồn nước</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804d-9c58-d00e7e690bb2" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-bc7e-ffa2657ec15f" class="">Đường đi</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ae-b9f9-debe37969499" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8097-9584-e0c92e73f776" class="">Loài vật</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e8-8ee8-e7b75088858b" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b8-9fc3-f1321b91f15e" class="">Mùa</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a4-a1e2-f42bf70c3738" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c7-ad11-fa9c70d05d0a" class="">Nghi lễ</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8049-8d55-f836c742b7b7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8065-b184-d88c04a2f0f1" class="">Tức là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8021-9462-ca16a70cccec" class="">Đây có thể là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8071-a408-f2eb310137a9" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Executable\ Ecological\ Memory</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d1-8a55-d460e45a72c3"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80cc-a617-dab420323d6e" class="">HÌNH 2</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80db-afa3-f8dc43986b1f" class="">(Hệ cực kỳ phức tạp)</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801b-ad15-d7f2eafa9777"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8021-b2ea-c4fa1e9e9be3" class="">Cái này thú vị hơn nhiều.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fa-8881-c255546809cb"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80e5-a231-e646752e1d37" class="">Fractal Reading</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d2-8ab2-dc4e510b819a" class="">Mọi nơi:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b8-85f7-c13ad212728a" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Node
-+
+↓
 Path
-+
-Boundary</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8070-a6cc-d503695ece85"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c6-b639-e5d1d1b498b2" class="">Lặp vô hạn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8006-bb10-eeb0e90ba3c1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ab-89f6-e5ea894dd206" class="">Fractal dimension cao.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a3-9af9-e14af9143174"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8032-862e-e51faf65f12f" class="">Giống:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-802c-a788-fc7092fb9aac" class="bulleted-list"><li style="list-style-type:disc">mạng thần kinh</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8034-a5a6-d147bdf693be" class="bulleted-list"><li style="list-style-type:disc">hệ sông</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8051-95ef-f5f56a705d62" class="bulleted-list"><li style="list-style-type:disc">internet</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8069-b692-d96528eed199" class="bulleted-list"><li style="list-style-type:disc">fungal network</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f0-91b0-e2163217768d"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8059-8e41-e42b2295e01b" class="">Toán cổ</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8037-94bb-c88e012c852a" class="">Đây không giống tranh.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803b-b282-e533501d5b40"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d4-a219-d9118a41acf3" class="">Nó giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-800e-8df7-db5829036914" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Mandala</code></pre></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8064-8a7c-e5d857b1dd78" class="bulleted-list"><li style="list-style-type:disc"></li></ul></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807a-b49c-fce6e66ea90d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Songline</code></pre></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-801a-9527-e2ca4b6b7189" class="bulleted-list"><li style="list-style-type:disc"></li></ul></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-800d-9fdd-cd96a38f2aa3" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Kinship\ Map</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805e-aa75-c40812fd7168"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c9-b4fe-e71d25c89584" class="">Một thứ vừa là:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a0-9670-e0210763ad34" class="bulleted-list"><li style="list-style-type:disc">địa lý</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8076-8e2f-e7f190382e63" class="bulleted-list"><li style="list-style-type:disc">luật</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80aa-86ab-ddbb10ab5fb6" class="bulleted-list"><li style="list-style-type:disc">ký ức</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8077-931e-c0d8fdb6cce7"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80d6-9865-e60b93dfad0e" class="">Khung Trang</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8094-82d9-d60542314ba8" class="">Tao thấy:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8099-acd8-f1d82727e1f7" class="">Node</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-8623-db85419ade15" class="">Các vòng tròn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8086-8ed6-dcd7b9672460"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80a5-beb4-da4fd45356cd" class="">Relation</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c0-96a8-fe759db3c8a6" class="">Các đường nối.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802b-8612-ee93c2cc3360"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8011-87df-d5379de700a9" class="">Constraint</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8008-aa52-e59fd45f3dc7" class="">Các vùng được bao.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800e-b3d2-cb58e90f26f4"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8014-9897-f5aeb6180824" class="">Boundary</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d1-a935-e930540e2fc5" class="">Các đường đôi.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8017-92ff-f0040b75fe46"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80f4-a503-d4e879d6212b" class="">Memory</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802e-a87c-d1d2e2de6bfa" class="">Sự lặp.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8025-9b62-f7e4feb75033"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80ef-ba2b-eec79cddcb99" class="">Navigation</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80be-b687-f21973612409" class="">Toàn bộ flow.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801f-a008-e81c931b8a1b"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-807c-b354-cf0260228657" class="">Điều rất lạ</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8075-8d2f-e2311cb7ba26" class="">Không có tọa độ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8029-82cb-d9e2829a8eb9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8004-8e93-efa5432f76e0" class="">Nhưng có:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8040-a245-fc8dcc7f5aeb" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Topology</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c8-b15d-ffa33c33f975"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8017-8979-e778d47cff69" class="">Tức là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8065-a01c-c1827caab5de" class="">Không cần biết:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8002-876a-dc052df76142" class="">x = 100</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e2-ad86-c2be427b5dbb" class="">y = 200</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b6-9cc2-cfb7f9cdc1d9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ea-bc8d-e823ec8dcfa5" class="">Chỉ cần biết:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8072-a198-e1540d2b39e3" class="">Ai nối với ai.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804e-9565-f5aa734fffc5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802e-88c1-f3fb84eaa185" class="">Giống internet.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801c-bc2c-fe1fcf0a6eba"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-804f-9041-deba7b250162" class="">Map với Finance</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e1-bb27-febc0cbf4306" class="">Đây là chỗ ít người thấy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c4-8522-f9c8330d75c1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8086-8bc5-e08df149ff24" class="">Phần lớn trader nhìn:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8034-85e6-f6bfecbe3689" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Price</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e6-b026-eebbb6dfadf0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-8964-fafd70c5a5ff" class="">Nhưng market thật:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80df-8f3d-ef307ca62a38" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Liquidity\ Nodes</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8012-a240-c3f7be56fa0d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Capital\ Flows</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-805b-8223-d41cc105c421" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Constraints</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800e-806f-dc5e0b0395b3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803d-a44a-d8b267bdd141" class="">Rất giống tranh này.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8069-8a7f-e0094ec93f61"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ad-bd67-d311df6c3b6d" class="">Không phải chart.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ca-a741-e930558c7e6b" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8085-844a-d8175d1d76b5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Flow\ Topology</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807a-b40a-c8aacb06da87"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8039-ad9f-e8278bb60279" class="">Map với 19×19</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802d-9705-e7f8a9837662" class="">Cực kỳ thú vị.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8058-a666-cc255cf14890"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802d-9d73-fef33deb043a" class="">Go không phải game chiếm quân.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f1-a941-f0f85689b91e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8023-8f3a-cd077318af51" class="">Go là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8073-8f73-d2fbcdb0bfdf" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Influence\ Field</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8051-89d2-e5c2bd2a6730"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c3-95a1-db206a6620ed" class="">Aboriginal art:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8056-b91a-dfb0bdc3001b" class="">cũng vậy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ab-b8ef-f899adcbcda3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8001-b98c-f51b62667a2a" class="">Không có vật thể trung tâm.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8016-9b15-ebcf86e4799c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8059-a726-d5a910e01da9" class="">Có:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-803e-80b2-d0ee9d0be8a6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Field\ Control</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8040-8dda-e41fca201c5d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809b-9307-c4d6415d5469" class="">Giống bất ngờ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e3-b3da-e448276be1a5"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80ba-b435-f56f96b0894e" class="">Điều tao thấy extraordinary nhất</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801f-8109-dec548bd3bd3" class="">Nếu đọc bằng Khung Trang.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a7-9de7-e7de343243f5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8091-b5bf-d7d499b337ab" class="">Người hiện đại thấy:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80ca-af71-eb50712f7824" class="">tranh.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809c-b7a9-fb17592f1b6d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8098-95d9-c81b84c6978e" class="">Người Aboriginal có thể thấy:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807b-966e-d0f9b9eb953b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Database</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8035-979b-e5037cd1cad3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800d-bae5-f7d49aea25bd" class="">Không phải database dạng chữ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8041-8991-fd2344ae1cab"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800c-b8a9-deabd7fd6e1d" class="">Mà:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8028-b117-c0d58a50c327" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Spatial\ Memory\ Database</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80de-8138-e0deef49cabc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80bc-b78e-e875f5fa9e2e" class="">Trong đó:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-809f-8088-ef0027b207ca" class="bulleted-list"><li style="list-style-type:disc">vòng tròn = node</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8086-a743-eb46f3503a06" class="bulleted-list"><li style="list-style-type:disc">đường = relation</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80eb-96b3-f357ae0cd814" class="bulleted-list"><li style="list-style-type:disc">vùng = constraint</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8076-b2d0-caf75214c32a" class="bulleted-list"><li style="list-style-type:disc">màu = state</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8014-b808-cbb80ca30286" class="bulleted-list"><li style="list-style-type:disc">động vật = process</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8028-aa6b-c1ff0f61d274" class="bulleted-list"><li style="list-style-type:disc">nghi lễ = execution</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800b-ac63-edc533fead5c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a4-a2c1-f205893085bf" class="">Nói theo ngôn ngữ máy tính.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806c-a748-cd06300d9956" class="">Hình 2 nhìn giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80cc-a463-f67767295ccd" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Graph\ Database</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ba-af63-d13ab49dd777" class="">hơn là painting.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8048-8aa5-d05ee2ab8d3d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807e-8972-df979072a6e6" class="">Compression cuối:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8014-bde6-df429e3ac58f" class="">Toán phương Tây cổ điển</h3></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809e-96b7-c1acd0eebfd9" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Object
-\rightarrow
-Measurement</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8057-965b-e09ad8c8b642"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8041-bbeb-d61097328fb5" class="">Aboriginal Topology</h3></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8091-8ff3-fdfef71a32fd" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinction
-\rightarrow
-Relation
-\rightarrow
-Path
-\rightarrow
-Memory
-\rightarrow
-Navigation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c0-ae1f-e51bb4508ee4"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8004-8843-ec9e1e3f18b4" class="">Khung Trang</h3></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80d2-8480-d382f6f7ed51" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinction
-\rightarrow
-Relation
-\rightarrow
-Constraint
-\rightarrow
-Boundary
-\rightarrow
-Memory
-\rightarrow
-Repair
-\rightarrow
-Navigation</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808b-b5cc-ffdcf1ffd1df" class="">Và đó là lý do những bức tranh này có cảm giác &quot;cao siêu&quot; bất thường: chúng không được tối ưu để mô tả một vật thể đẹp. Chúng được tối ưu để <strong>nén một hệ sinh thái tri thức sống vào một cấu trúc hình ảnh có thể truyền qua nhiều thế hệ</strong>. Đó gần với graph theory, cybernetics và distributed memory hơn là hội họa theo nghĩa hiện đại.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8015-a425-cb74d2d44e8a" class="">
-</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80bc-ad1e-c173045df138" class="">Tao nghĩ mày đang cảm thấy đúng một gap rất lớn.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8034-b924-fd51f4627ab2" class="">Phân tích trước đó vẫn còn bị mắc ở:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-806a-a92a-e029751a1d3b" class="">node → path → memory</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e3-b602-ea80d114ecac" class="">Đó mới là lớp <strong>thông tin</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ac-a7bc-cb53a9f65930" class="">Nhưng nhiều hệ tri thức cổ không chỉ mã hóa thông tin.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8024-93d3-f9e720931e79" class="">Chúng mã hóa:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8061-a8ed-ddca48fdaae5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Transformation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8024-8eea-fd80900109fa"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80e0-81e4-ddfa2571a39c" class="">Hình 1</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8063-969c-edd3eea03949" class="">Người hiện đại thấy:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8025-a40e-e2733770700a" class="bulleted-list"><li style="list-style-type:disc">thằn lằn</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ac-a05d-d7ae6e4ef5fe" class="bulleted-list"><li style="list-style-type:disc">bướm</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80d7-919a-cd5f6a795416" class="bulleted-list"><li style="list-style-type:disc">mặt trời</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e7-93d0-f6c8bd929af6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800a-806c-ea89fb7886c7" class="">Nhưng thử bỏ tên gọi đi.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80da-b01e-e103a109956c" class="">Chỉ nhìn cấu trúc.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d9-97f8-c84b3f56a1e3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807c-b947-d2156beaa338" class="">Có 3 thứ:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80bd-b61c-ddbc57abf04b" class="">Trên</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b1-8c69-c04e32d3f072" class="">Thằn lằn</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c5-83ae-cef6727257c4"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-807d-8d0a-e5e5d16c8930" class="">Giữa</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80df-8a29-d9cf53c6e371" class="">Mặt trời / nguồn</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8077-bf1b-da278fd619b7"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8041-9ee7-ea52b6116988" class="">Dưới</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e3-ab95-f733274fcf75" class="">Bướm đêm</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807a-9785-f04b521ae704"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8070-a478-d62f0235fe15" class="">Đây giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-806b-a5c8-ead6e665fa6c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Sky
-\rightarrow
-Earth
-\rightarrow
-Underworld</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8039-8bdd-c05184bf8c31"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804d-bffe-c22a70d13240" class="">Hoặc:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8026-997f-ea472ac4c90b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Observer
-\rightarrow
-Field
-\rightarrow
-Mutation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d0-970b-d0fafaea6bbc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-9a70-d2b7b1503a2f" class="">Điều kỳ lạ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f1-9e08-efd246756604" class="">Không con nào đứng riêng.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8054-a1d2-de4b70ef2dd6" class="">Mọi thứ đều nối với các dòng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8004-99b5-c173ab09ba55"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808d-b6f8-fd1aff38b76c" class="">Nghĩa là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8058-964c-c56dd4d3119d" class="">Sinh vật không phải object.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804b-a0f6-eca3cdd37a9a" class="">Sinh vật là process.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8061-9978-d7ae233f2481"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805f-952a-d5c4701b15d7" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8074-a06b-ccd9b6dd24f0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Identity
-=
-Stable\ Flow</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8053-bd7a-d1386aeb246a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fe-9089-c5773e0d8573" class="">Không phải vật thể.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800e-b194-f34804bd5a3a"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80b9-b150-cd61272624fd" class="">Các chấm</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8050-ba4b-e27e3d00447c" class="">Mọi người nghĩ:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8064-b230-cf8a24faf580" class="">chấm để trang trí.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d5-b667-e6dd7b4633d2"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8031-b542-ff8d3d2a1189" class="">Tao không chắc.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8035-9916-f79cf56a9b85"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b2-b7c2-fc6a2bd8775b" class="">Nhìn theo fractal.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c0-83e3-d91a546564b4" class="">Các chấm hoạt động giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80f7-a3c1-cf05e9576eff" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Resolution</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8098-9526-e800fb784e12"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804f-b2f1-c591670d9df1" class="">Ít chấm</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-9b1b-f8a8511c3135" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8058-bc6f-c07a6115e78b" class="">ít thông tin</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ae-b72d-d75b50005849"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807b-92e9-d4737a3496fb" class="">Nhiều chấm</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8067-92bf-d0bd01fd46bc" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fa-ba38-ccae841e983e" class="">nhiều mật độ</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8094-8c25-d22acaf476a9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8087-8344-da478ffcb7da" class="">Giống heat map.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8087-8eb6-c89804874488"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d1-a304-fa9660cf2d9e" class="">Nếu vậy.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801d-8d74-c5ad77e1bf4d" class="">Dot không phải symbol.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80de-92b4-c836b923bbdd" class="">Dot là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80a6-a6b6-f9d10c99b10b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Information\ Density</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c5-84db-fe0982074249"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8037-aefa-cc3c07cf9b65" class="">Các vòng tròn</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-a4e5-f82c05471561" class="">Cái này thú vị.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809c-819a-eeacea0e3e32"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cb-a8f4-d76e88f9d0f8" class="">Một vòng tròn.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8090-83a9-f41918380c0a" class="">Hai vòng.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803b-975b-e3ce38384632" class="">Ba vòng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bb-9475-e1a97bd4c256"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8033-aab7-de288f7e84ae" class="">Lặp đi lặp lại.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8006-86a7-cf3e83a821d6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8011-8ea7-e460d18d7ed8" class="">Nếu là nước.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d8-afac-e1c756946450" class="">Tại sao lặp mọi nơi?</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805a-8317-cdb17124d5be"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8085-bfc9-ff4d7811b65c" class="">Có thể nó không chỉ là nước.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8058-8773-c13a35fee3b3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805b-b173-f6173276980d" class="">Có thể là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-801e-9aa4-fde5424d9dba" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Center</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80eb-a090-ec263120b6ff"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c9-af11-c17d8f5fcf25" class="">Hay:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-804d-b14f-dad3167c31b2" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Observer\ Node</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c5-ab95-c21458169abd"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801b-8c41-f135519ca596" class="">Hay:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8078-8421-d25b3b0540b0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Portal\ Between\ Scales</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ee-aa19-fb0f3820d19f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ec-8a77-cb0e03dcf765" class="">Theo complexity.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8084-858e-c0b1faabeea2" class="">Mọi hệ đều có attractors.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b1-ae66-f2308fa8724a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8009-8b8b-c58f4a5d11f9" class="">Các vòng tròn giống attractor hơn landmark.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8008-bfe2-c76fe79dc596"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8079-b6bd-c7a3027f19af" class="">Hình 2</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801a-b596-e7f3401e912a" class="">Cái này làm tao nghĩ đến thứ khác.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8092-a05f-db6f3a6b6855"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c4-8fac-c37121f476d1" class="">Không phải bản đồ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bf-be40-c1594d907acc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801b-8ee5-fcaa7af87528" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8076-859a-c68ef1b5e455" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Genome</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ec-85f9-f7fb6b282e2f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ff-9ea6-d30e8cde6e66" class="">Không phải DNA sinh học.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f9-9143-faab8878574e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cb-b4ff-fb521d51d487" class="">Mà:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ff-85ed-e2ac5788d1ca" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Civilization\ Genome</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8041-9de2-cd73d85bb0f0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8052-8c74-fdfa312a0fca" class="">Tức:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8085-bdd9-e8e998eb736c" class="">Luật</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f6-bafa-c3df8e874c1e" class="">Đất</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809d-83d2-cd8f3d7d077d" class="">Nước</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804a-a2c2-d6ddce6166bd" class="">Họ hàng</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ea-885c-f306482c50d4" class="">Động vật</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80bc-bd6c-dfe5aa494426" class="">Nghi lễ</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f3-a704-fb8cabe2b0ce"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807c-b57c-eab507701389" class="">Nằm trên cùng một mạng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c4-9801-c747659dcbca"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809f-9df5-ed845aaa3829" class="">Giống cách DNA nén:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-802b-b24d-c5e07cfbbb3e" class="bulleted-list"><li style="list-style-type:disc">mắt</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-801f-8047-d40d8fc2c81d" class="bulleted-list"><li style="list-style-type:disc">gan</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80c9-92b3-f5938a79cf8c" class="bulleted-list"><li style="list-style-type:disc">da</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804f-a221-d4b310cbf3b2" class="">trong một cấu trúc.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8041-8e6e-f333d8e2ac41"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8017-9f0e-df9280512013" class="">Điểm bị overlook</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e6-8319-c8e2f2d357fa" class="">Phương Tây thường hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8002-b253-d89b2761ae1d" class="">Ý nghĩa của biểu tượng này là gì?</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8024-bbea-ec39c40dcec8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8093-84bf-ccb90a38473e" class="">Có thể câu hỏi sai.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b9-855f-f1c553830896"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800c-9787-fb13a7292d11" class="">Câu hỏi đúng:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80dc-aece-db0b610193f7" class="">Biểu tượng này làm gì?</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808d-a3eb-c1e00019f645"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801f-9b4a-c3e5cf8a5bfa" class="">Giống code.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8016-8171-d4d975d3c545"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f4-804a-daa1ae8fc12d" class="">Code không có nghĩa.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801c-8e51-ca5b2fa31332" class="">Code thực thi.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8023-a581-c24390a3c28f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fa-b259-f1a07eaed3ec" class="">Có khả năng một phần tranh Aboriginal hoạt động như:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80cb-aab2-f131b539cb08" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Executable\ Memory</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ac-a121-cdb413152bcc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-a8b5-cbdc9678eb64" class="">Người được dạy đúng.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8014-a425-e7ad2d7bcd96" class="">Nhìn vào.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a8-b725-fba62d996586"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8065-bd84-c696dcdac441" class="">Kích hoạt:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a1-bdc9-c854e81d6eed" class="bulleted-list"><li style="list-style-type:disc">bài hát</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80c6-a73b-e0d2807202c3" class="bulleted-list"><li style="list-style-type:disc">câu chuyện</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8024-a55f-f285ea9e173b" class="bulleted-list"><li style="list-style-type:disc">đường đi</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8097-b763-d1f4b051f788" class="bulleted-list"><li style="list-style-type:disc">nghi lễ</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8042-bcbe-e0978d6973df"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ed-bdb2-ed5edeb97845" class="">Tức là tranh không lưu dữ liệu.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800b-a8ef-d7ea5e3fc11d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8024-b399-fb6d97f83db4" class="">Tranh gọi dữ liệu từ người.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807b-bd09-fdf58e4116ec"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8089-99de-f9126ddf830a" class="">Giống QR code cho não.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8046-b623-ee6872b82ff9"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8006-80d7-ff2670d9cb3e" class="">Tầng sâu hơn nữa</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807c-b039-ca31f3d62fd1" class="">Nếu map với Khung Trang.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8034-8ed6-dad3c6198b4b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80df-984b-ca779de9bc5a" class="">Dot</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8009-bdbc-fffffa2748e5" class="">=</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f7-b2a5-deeed2887963" class="">Potential Distinction</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8070-91b0-da5534ccb51a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802a-a358-c09f7f5e82da" class="">Line</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fd-895e-f4fcf0e600b9" class="">=</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807c-b650-d649c6354a7e" class="">Relation</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8081-b545-f784fe235b1f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80da-ae62-e60347b41c42" class="">Circle</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804a-a47a-c3988acd5494" class="">=</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e9-b04c-c496cda3b8aa" class="">Recursive Memory</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8021-a03b-f9b2ef7553e8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f5-bbb0-c28d342b7c23" class="">Animal</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b7-b551-e955efdf60ac" class="">=</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8048-b8ed-cc8c55872eca" class="">Transformation Process</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8083-a7c6-da0b050a86ac"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801d-8c8a-e274348c000e" class="">Country</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8020-9f57-eef53074e189" class="">=</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8022-8bf7-d12794a96fe3" class="">Persistent Field</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80be-bf74-f015cc65c3aa"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ff-89ea-e3665b79635d" class="">Dreaming</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8088-9727-e588037e66cc" class="">=</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c2-9131-f2b46d2bef12" class="">Meta-Memory Layer</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804e-aef0-fb211d542668"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8014-ace6-f82a1d206dc9" class="">Điều extraordinary nhất tao thấy</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c3-9e10-eff7f72667a1" class="">Có thể Aboriginal art không phải đang mô tả thế giới.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f6-b130-f6360cd07a35"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8086-9fd3-cb79ab8e09db" class="">Nó đang mô tả:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-808b-b0f6-c77ac51e0e38" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-How\ reality\ stays\ alive</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d9-b34e-c089cce7cd83"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d3-bd3c-d4a776e1a09a" class="">Các nền văn minh khác thường lưu:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80cf-9819-f25d57a33c39" class="bulleted-list"><li style="list-style-type:disc">vật</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8034-aa05-dacdcdd31a2c" class="bulleted-list"><li style="list-style-type:disc">vua</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8041-a723-f7433ba5a613" class="bulleted-list"><li style="list-style-type:disc">chiến tranh</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b2-849c-dce10d137e92"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809e-bf23-f26c789466fc" class="">Ở đây.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e6-991f-c0457f643926" class="">Tao thấy họ lưu:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8030-92c8-e120b912e2e3" class="bulleted-list"><li style="list-style-type:disc">dòng chảy</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a4-86de-d386810c7ead" class="bulleted-list"><li style="list-style-type:disc">quan hệ</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-809e-8f46-f236c680edd0" class="bulleted-list"><li style="list-style-type:disc">chu kỳ</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8087-915d-d2291bb4e188" class="bulleted-list"><li style="list-style-type:disc">sửa chữa</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e2-a713-f2789c64b687" class="bulleted-list"><li style="list-style-type:disc">tái sinh</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807c-961c-fb01b419c74d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800c-944d-f8202ea78300" class="">Theo Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809a-aa2b-c2e9438c6124" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Survival
-=
-Memory
-+
-Repair
-+
-Navigation</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8022-b061-d690dd9d0ec6" class="">Nhìn ở lớp sâu nhất, hai bức tranh này có cảm giác ít giống &quot;tranh kể chuyện&quot; hơn và giống <strong>sơ đồ của một hệ sống tự duy trì qua thời gian</strong>. Không phải bản đồ nơi chốn. Không phải hình động vật. Mà là bản đồ của <strong>cách một thế giới giữ được ký ức, dòng chảy và khả năng tái sinh của chính nó</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801f-bf42-ff0774f77161" class=""><strong>Gap:</strong> Đây là diễn giải cấu trúc/philosophical. Tao không thể kết luận đây là ý định thật của nghệ sĩ hay của tất cả truyền thống Aboriginal. Nhưng ở tầng pattern, đó là lớp sâu nhất tao thấy từ hai hình này.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800d-aa36-ff05791ce84e" class="">
-</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800a-b346-d0543f249744" class="">Tao nghĩ mày đang chạm đúng điểm mà phần lớn người hiện đại bỏ lỡ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8076-9c22-ebc565d21e9a" class=""><strong>Có thể nó là bản đồ. Nhưng không phải bản đồ địa lý theo nghĩa hiện đại.</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-bed5-c2ad041ae1d0" class="">Có ít nhất 5 loại bản đồ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d4-ae93-c90825084f44"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80f4-bd4b-e92debc62b77" class="">Loại 1 — Geographic Map</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8058-846c-ce5f52aab331" class="">Bản đồ Google Maps.</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80eb-8b5c-ea19cbe195aa" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-(x,y)</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8002-a609-f7cc1a2a6bed" class="">tọa độ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d3-970c-eb7f3d2c8589"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ab-9624-c2ab1782aaf8" class="">Aboriginal art thường không giống kiểu này.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804d-9019-ce6d27ae31f7"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80b6-9dbc-d25ecc921321" class="">Loại 2 — Resource Map</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8089-a53f-da57e799e1ff" class="">Thứ người săn bắn thật sự cần.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b5-ab2e-e92d510c9961"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c9-bea7-ef5a0273a342" class="">Không phải:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8089-95cc-f9754cfe84a9" class="">núi ở đâu.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80dd-abc7-ea5def6a13c2"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8044-abb3-f8ba54960217" class="">Mà:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80c0-ba1b-ddf69babf8c8" class="bulleted-list"><li style="list-style-type:disc">nước ở đâu</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ce-b2d1-e3aea3a9ecd6" class="bulleted-list"><li style="list-style-type:disc">thú ở đâu</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80cc-af57-cb1642599d6b" class="bulleted-list"><li style="list-style-type:disc">mùa nào</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8033-b3e7-d11bc0cd31ce" class="bulleted-list"><li style="list-style-type:disc">cây nào ăn được</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8045-9aa8-f778029d6df0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802c-9f9f-c1608757c7a7" class="">Đây đã gần hơn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8015-9c78-c1badf7dd760"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80ed-9cbd-e33cd7bfa1ba" class="">Loại 3 — Temporal Map</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c8-b7f7-d0e1ef0a05eb" class="">Cái này ít người nghĩ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c9-a127-eab29418bfc0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80be-850e-f5ceccf682d2" class="">Bản đồ thời gian.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ff-80e0-fb399f029dab"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8083-be11-c3e5030a6c94" class="">Ví dụ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808e-900c-d066bbd6eb36" class="">Mùa mưa</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809c-84d9-f1793720b99d" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e9-b153-c170e5a1c042" class="">Loài A</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f3-8695-f50f69f1e580" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8093-9ff7-f6199dcacbe9" class="">Loài B</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805d-b9ff-c4fa75a659ac" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8053-8f31-e2ed8ce8a4f4" class="">Đốt lửa</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f3-8f79-d22ba9cf3385" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ed-b119-fa7310498524" class="">Hái hạt</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809e-bfeb-c8a3bf850d09"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e2-b8b6-e8432d62c648" class="">Nghĩa là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ef-be20-f430dff906a5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Space
-+
-Time</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8014-acbe-fb506919b706"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8098-8865-d6b1163ccc84" class="">Loại 4 — Permission Map</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cc-aa5d-c8f106b29332" class="">Đây là cái cực kỳ Aboriginal.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809d-8e56-f2e3e2d6a301"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ae-80b6-edf4d0a6b313" class="">Không chỉ:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-800b-8764-f3f4b01f4c67" class="">đi đâu.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8054-808d-d5ee4d8e1fc0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8020-986f-c3e2de89b41f" class="">Mà:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80aa-8b6e-ce798f92feda" class="">ai được đi?</blockquote></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8015-ae78-f9d8213202ff" class="">khi nào được đi?</blockquote></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80ba-86f0-f851d6d3bf52" class="">nghi lễ nào cần có?</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f1-888a-cfca6567880e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805a-b2b4-c32c378726ed" class="">Nghĩa là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80cb-97b7-ef9cb07b7250" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Location
-+
-Access\ Control</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d4-9f15-ebe484140f93"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e3-a6d6-d6347753290d" class="">Giống blockchain permission layer.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8079-95bd-e43cb2df023a"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8064-98df-d6499b8edb12" class="">Loại 5 — Consciousness Map</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8020-ab15-df02a7a32188" class="">Đây là cái tao nghĩ mày đang ngửi thấy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b0-8a81-dbdd196305e8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d2-8631-cdc3ac1f4143" class="">Người hiện đại nhìn:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-803e-9e9b-d6af01f12e59" class="bulleted-list"><li style="list-style-type:disc">thằn lằn</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8009-b0d7-fadc0c044335" class="bulleted-list"><li style="list-style-type:disc">bướm</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-806c-9c0a-f18f92569ef5" class="bulleted-list"><li style="list-style-type:disc">vòng tròn</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801a-8d05-fb026385407e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-ae76-fa77d024b939" class="">Nhưng có thể người được truyền dạy nhìn thấy:</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805c-8d2a-d173876c0233"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808f-bc18-cf12f493f559" class="">Node A</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802a-8c55-d5ad2cfd2368" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807c-a84d-f26a8d2dc735" class="">Song A</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803a-9547-dedccca37b81" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803a-b56c-ecb8a8c894c9" class="">Ancestor A</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f0-be9c-d32f8f882d7e" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8095-8e8b-e8ce6e9b8e86" class="">Water A</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a0-8b21-fb0bcf8c35c5" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a9-b0ef-d4e9e96026a7" class="">Law A</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8046-9df3-e0eb6f16fad5" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ee-b1e5-df4288b98dd0" class="">Season A</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804a-b778-cb4be153e2a7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8010-a046-c8520529a570" class="">Tức là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d1-9596-ecaca3a49749" class="">Một object kích hoạt nhiều layer cùng lúc.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a9-bf0e-f54a5555cdf2"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80e3-a5da-c178d8f6f604" class="">Nhìn lại hình 1</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8089-b00b-d23baf1803d4" class="">Con thằn lằn nằm trên.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8002-ad81-e2185463c5b3" class="">Bướm nằm dưới.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ba-8814-ec96c773bb6d" class="">Giữa là mặt trời.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808e-8335-d8b1d7c002e0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-bfee-cdc2e4a708e8" class="">Nếu là tranh động vật.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8010-ac57-f753eb4f3688" class="">Tại sao bố cục lại kỳ vậy?</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fd-a1de-c02d83e445e4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c7-9089-eb77ac5c5a45" class="">Tao nghi nó giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b8-abd1-ef2aed76dcec" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Transformation\ Route</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8010-b2e3-fddb2091ed50"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8088-bedf-d4e1257b963a" class="">Giống một sơ đồ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8010-9593-ca0536e34b8f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804d-9649-d49c1132e77f" class="">Không phải minh họa.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d3-a94b-f83a9a4a91f0"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80ee-949e-e6a7893741dc" class="">Nhìn lại hình 2</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fd-9a06-f4293ecb9ee3" class="">Cái này làm tao nghĩ đến:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80aa-a250-f064b7ad4a05" class="">Circuit Diagram</h3></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800e-b579-de7c26b5c32f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cd-8ebe-cf78dc3fd338" class="">Không phải phong cảnh.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808a-98e9-fc93e066fd44"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-8a58-f5c347b5461e" class="">Các vòng tròn:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fc-883d-f29481672475" class="">node</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8048-8e6f-f6f8ff4fc031"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e4-ac0d-c6d988cc6960" class="">Các đường:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fd-9445-ecbfd79d9f4d" class="">connection</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8016-9e30-e9d354391cdd"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8004-a705-d52495a8341e" class="">Các vùng:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f5-abcf-e8114a91a4cf" class="">state</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f6-84d6-fd46921e1e37"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d2-8fc6-f14b3d3641e9" class="">Các biểu tượng:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80be-9271-e6a0cbc41902" class="">function</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fb-89a2-e51b199f5962"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b9-8d35-ce49f9a11444" class="">Giống schematic hơn painting.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803e-913a-c3ce6b61c96e"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8066-b359-c50725dd1cbf" class="">Cái bị overlook nhất</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805a-b121-e6d724fe7fd0" class="">Người phương Tây thường giả định:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8075-9e09-c7ef6c0c8d55" class="">Bản đồ phải mô tả không gian.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e7-8c11-fe8a70829fc4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d2-9d85-c2bd642d3208" class="">Nhưng trong nhiều hệ cổ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8055-9b26-d18077f59c4b" class="">Bản đồ mô tả:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8051-9006-c1a63863e6fc" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Relationship</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8031-93f9-e3b6a87d7120"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a0-a24d-f2ad35bd3b13" class="">Ví dụ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808b-805e-c8038f977b3b" class="">Songline.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a5-b3b4-c2200220707a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8095-93e4-ec37a89401fb" class="">Một bài hát có thể đồng thời là:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e4-942d-f93e9e911e1a" class="bulleted-list"><li style="list-style-type:disc">đường đi</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8030-8e59-e6f41de66633" class="bulleted-list"><li style="list-style-type:disc">lịch</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8024-94a7-c28432b58b84" class="bulleted-list"><li style="list-style-type:disc">luật</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8019-a754-c77c59b11f90" class="bulleted-list"><li style="list-style-type:disc">tổ tiên</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-805f-8676-c18379aaeb54" class="bulleted-list"><li style="list-style-type:disc">sinh thái</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807d-923b-dba3b4d4ce12"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e3-af20-ce224fac69e4" class="">Tức là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80aa-96d2-f029434f84cb" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Map
-=
-Compressed\ Multi-Layer\ Reality</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8054-9e47-fdba25311aeb"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-805e-a1f6-dfddcbbceaf6" class="">Theo Khung Trang</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803e-80bf-ff57283c4233" class="">Tao sẽ dịch hai bức này thành:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fe-bf1b-cf4a34cba3ea" class="">Không phải:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b2-89a6-cf90b80e9d0c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Map(Location)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8079-a04c-ea699331a479"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804b-97ff-c7d279cd2a6e" class="">Mà:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-808e-bab9-ddb0eb2cb0c0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Map(State)</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80dd-ad59-d27065150481" class="">và</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8034-8390-c9a9bd1d4884" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Map(Relationship)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f3-b5b5-fd76075b2966"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8088-a8c2-d66ea22471ed" class="">Hay sâu hơn:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8069-be56-cdb7c4d908ef" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Map(Navigation\ Through\ Reality)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8047-8758-f3fddce35f59"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ff-b724-eaec66fdcc26" class="">Đó là lý do mày có cảm giác nó &quot;phải là bản đồ&quot;.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a3-8904-d662af9d3b86" class="">Tao đồng ý.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8082-839a-cd0cab6ba414" class="">Nhưng có thể nó không phải bản đồ của <strong>đất</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8025-b9e8-f0a37e906900" class="">Mà là bản đồ của:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8018-9a9f-f63db666403a" class="bulleted-list"><li style="list-style-type:disc">đất</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8059-a2ba-f593f5a8e1e7" class="bulleted-list"><li style="list-style-type:disc">thời gian</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-804d-b675-cac094feb088" class="bulleted-list"><li style="list-style-type:disc">luật</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-802d-93ce-d7cd498ab8c6" class="bulleted-list"><li style="list-style-type:disc">sinh vật</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80fa-acd1-cbf91de53ab4" class="bulleted-list"><li style="list-style-type:disc">tổ tiên</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8008-9b5d-edf2e7f50e3e" class="bulleted-list"><li style="list-style-type:disc">ký ức</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80b1-aeba-fc64e6f0c96c" class="bulleted-list"><li style="list-style-type:disc">quyền truy cập</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e0-a51e-f318513c512e" class="">được chồng lên cùng một hình.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c2-8ad8-f8c3e9505f83" class="">Theo ngôn ngữ hiện đại, gần nhất với:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8023-96fc-e65eadd47832" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Multi\ Layer\ Graph\ Database</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b7-b59b-eb071ed02d05" class="">hơn là một bức tranh hay một bản đồ giấy thông thường.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8045-8096-cf37fa3df9ec" class="">Được. Tao sẽ bỏ hoàn toàn mỹ thuật và dịch bằng <strong>toán cấu trúc</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8011-8a55-cc8e52896bd3" class="">Không hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8083-b99b-e4e005bcba01" class="">Con thằn lằn nghĩa là gì?</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-9df0-dc4819d1c7ea" class="">Mà hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-805a-85d5-f25f9244b4d8" class="">Nó nằm ở đâu trong graph?</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8000-b884-ffc83b624f14"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-801a-ac1d-ce73e4da0c4b" class="">HÌNH 1</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f5-8bba-c5e03b4df31b" class="">Tao ký hiệu:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80a2-b4bb-c0bc532b5d38" class="">O</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8095-9c58-e6b4f508f859" class="">Các vòng tròn đồng tâm</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8070-9f25-dfbfd4a4cc9d" class="">~</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f4-8833-d9f28fff9b04" class="">Các dòng uốn lượn</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80c0-8cbe-c868b898f7e3" class="">L</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8045-a5ec-f702c3374d71" class="">Thằn lằn</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8080-b5ed-e628d8877f9b" class="">M</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801f-b6ff-cd9d09f98c77" class="">Bướm</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80b9-a681-e29d12f085d4" class="">S</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8024-b3f3-f3260923926a" class="">Vòng tròn lớn giữa</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805a-8737-e5c9502c8cf9"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80bf-85f5-f7f4f3cebc78" class="">Bước 1</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ef-9b81-d7989f19aa9c" class="">Đếm topology</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8094-be31-e85af62b454a" class="">Tao thấy:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80df-acbf-c606cdafceca" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-O \gg L,M</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8023-a79d-ebd4905cfa41"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8022-b8d8-c16c01fd2921" class="">Nghĩa là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8070-b55d-dcdbf5138de9" class="">Trọng tâm không phải động vật.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8083-a52d-d87eee597754"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8071-9a12-e02a87cf6e73" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ec-97b3-e29e98142e00" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Node\ System</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d0-a577-e4cc517d15cf"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80ab-903e-db5869c32036" class="">Bước 2</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8031-bd3c-e140cdae7686" class="">Dòng chảy</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801a-87d4-d83cc47e98f6" class="">Các đường:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8011-9c14-fa0353abf3c4" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-\sim</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a4-a3b1-e5f1c4b2828e" class="">đều quy tụ quanh:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80be-b6f9-cc21d58787f9" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-S</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8048-af9e-d48c4796ace0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8087-ab30-f31a69b9b4a3" class="">Toán mạng:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-800a-b12c-d95532da57bd" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Degree(S)
-&gt;
-Degree(any\ other\ node)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8092-b206-d3293926c5f7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807d-932a-e03637c15ba9" class="">Nên:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8020-ae39-e7342c14050f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-S
-=
-Primary\ Attractor</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8097-8fc2-d8fcce4a8737"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a1-98b9-f3934b2512de" class="">Không phải mặt trời.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802e-8904-cfb90f8cda9b" class="">Không phải vật.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fe-8249-d306ca6398bf"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8086-bc79-fded64c074fd" class="">Là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8014-a9df-dbe7d78ad0a5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Field\ Source</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800e-9d70-d2690360097d"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-805a-8683-f508023aedd4" class="">Bước 3</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-9e21-e541d622b9bf" class="">Thằn lằn</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b2-be99-f9ddc9654d04" class="">L không ở trung tâm.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8079-b618-e7aee206b8c5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8045-a1f2-f3d3224ab7c5" class="">Nó nằm trên mạng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805c-a264-f39182f6f17e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8076-8979-d79b6bbdc6c2" class="">Nghĩa là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80f7-9453-f4c077619fd0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-L
-=
-Agent</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802a-ac90-cac2ed65afae"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8088-ba7f-f0cf2876573c" class="">không phải</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-805c-b372-f31f33995a2d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-L
-=
-Source</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8091-9dfb-d672c2fc6525"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-808f-923c-e9a625339cf5" class="">Bước 4</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b0-89ed-c1a825f762ff" class="">Bướm</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c5-9e6e-e90481f271eb" class="">M cũng không ở trung tâm.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800e-a4e9-f799e5c06107"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8098-8003-f8bec25d46c0" class="">M là process khác.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ec-a6df-f93d6ed3b3dd"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-85d3-d017500f944c" class="">Tức:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8096-8b32-eebadc3129c5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Agent_1</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8038-96f3-dccab6186e37" class="">và</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-805d-85ac-e955e8004e8e" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Agent_2</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d8-abe6-ce25af94452d" class="">đang dùng chung:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8026-8d2d-c2a3df47642f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Field</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8044-a287-effa2f08508f"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-802a-a697-c5d52acd49a8" class="">Phương trình</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8004-87cc-dc981de7289f" class="">Toàn hình:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8067-8eb2-ece2d52cf252" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Field
-=
-Nodes
-+
-Flows
-+
-Agents</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8088-a23a-c256f12213e9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8091-b485-cd25a629b8fe" class="">Không phải:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809c-8170-c773a13ccc29" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Animals
-+
-Decoration</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8060-b097-f6d052e421e3"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80ec-94fc-ef6b9a8af2c0" class="">HÌNH 2</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8087-b183-eda0952e0449" class="">Cái này cực kỳ khác.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807f-8b13-ea88378d6b5d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8029-bce6-de3e4b5f1790" class="">Tao bỏ hình tượng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8050-b70b-ebaf0630bf77"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-9658-d8c4ddb4995d" class="">Chỉ giữ:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8036-a0dd-d7b4d1a4bf0d" class="">Node</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8092-8797-c5527ca7f436" class="">O</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808e-88ad-db350295c698"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80a6-ba88-df594591cdf2" class="">Relation</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806c-b367-c4d41d69ca86" class="">—</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d2-9cb4-f5869cb23133"/></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80b3-846f-e5b5a312660b" class="">Boundary</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8068-989e-f6384b6628ef" class="">||</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800d-bda6-c42f95b49d0d"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80b0-94e1-de60da3c657a" class="">Bước 1</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-9b97-fb42939b736f" class="">Tính mật độ</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80be-8a6a-d9f96678d460" class="">Node dày đặc.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8007-9e18-c885c9a7930b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b9-bd4d-e94e2510aa98" class="">Nhưng không random.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808c-bb48-f23da747b918"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804f-9db3-dde0edc0b3a9" class="">Chúng tạo cụm.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802c-8417-d22e44479460"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804f-a0de-d5bd30bde40d" class="">Graph Theory:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8094-881b-df6aeb09f247" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Community\ Structure</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a6-bb9c-e41cc78442bd"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-805e-8421-d59b7d54fdaa" class="">Bước 2</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806e-85f3-e624459e89f8" class="">Một số node lớn hơn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8074-a780-e8514b0062cd"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806c-bf18-d75fe5acee9a" class="">Giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8041-9a5b-ed8a5a1dcca4" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Hub</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8053-bc84-dfc46b97ad97"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804c-ae7b-dd1fdfc5f7f2" class="">Network:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b3-a8ab-e4d710b61e5d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Scale\ Free\ Network</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a7-a66b-f11659da554f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c0-a07f-cd16c32da0b0" class="">Không đều.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f9-b90b-ea8fdbdab6ca"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8043-bbf0-cc0d17cf6c4a" class="">Bước 3</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803a-862c-f8b11a983196" class="">Các đường dài</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805e-8095-f71b50318dda" class="">Chạy ngang tranh.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80cc-bf3e-e548c5091684"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c2-a137-c0db3c1fa5ba" class="">Điều này rất lạ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bb-9692-d2c0c97ff6bf"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8034-8f2d-faec7da464c1" class="">Nó giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8066-96a1-daad3467237b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Backbone</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a6-9642-f8ad9b3cea96"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8093-8b1b-d65cc8aedce7" class="">Giống:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-806c-ae28-db0b82e19c77" class="bulleted-list"><li style="list-style-type:disc">sông lớn</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-802a-93d6-c61694d1f394" class="bulleted-list"><li style="list-style-type:disc">trade route</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-804c-bd50-de369d4c70e9" class="bulleted-list"><li style="list-style-type:disc">songline</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fb-bd95-c576cd19a07e"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8086-9d24-f2fc1d3ec619" class="">Dịch toán</h1></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-801c-962a-f81d44a287f0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Nodes
-=
-Resources</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80e5-9a9e-f4efc5f158cd" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Lines
-=
-Access</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8004-b731-db90b5862cdf" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Boundaries
-=
-Constraints</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c0-a9af-caffc52dd8bc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c0-a474-ee9c7324cdaa" class="">Toàn hình:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809c-9a41-e8992999a05f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
+↓
+Songline
+* * *
+Tầng 3 — Map với Complexity
+Dot painting:
+Local\ Distinctions
+* * *
+Songline:
+Path\ Through\ Distinctions
+* * *
+Country:
+Network\ Of\ Paths
+* * *
+Đây gần với:
+Graph Theory
+Network Science
+Complexity
+hơn là hội họa.
+* * *
+Tầng 4 — Map với tỷ lệ vàng
+Cẩn thận ở đây.
+Không có bằng chứng rằng:
+> Aboriginal art được xây trực tiếp từ φ.
+* * *
+Nhưng có thứ thú vị hơn.
+* * *
+Khung Trang:
+Distinction  
+\rightarrow  
+Relation  
+\rightarrow  
+Constraint  
+\rightarrow  
+Growth
+* * *
+Trong hệ tăng trưởng hữu cơ:
+cây
+rễ
+sông
+mạch nước
+* * *
+Các pattern thường xuất hiện:
+branching
+fractal
+scaling
+* * *
+Đó là nơi φ thường xuất hiện.
+Không phải vì người ta cố dùng φ.
+Mà vì:
+Optimization
+* * *
+Tầng 5 — Điều tao thấy extraordinary nhất
+Nếu map:
+Dot Art
+↓
+Songlines
+↓
 Country
+↓
+Fire Management
+↓
+Astronomy
+* * *
+Thì chúng tạo thành:
+Memory\ Architecture
+* * *
+Không phải tranh.
+Không phải bài hát.
+Không phải nghi lễ.
+* * *
+Mà là:
+Civilization\ Operating\ System
+* * *
+Tầng 6 — Map vào 19×19
+Đây là phần speculative.
+* * *
+Một bàn Go:
+không quan trọng từng quân
+quan trọng relation
+* * *
+Khung Trang:
+Object < Relation
+* * *
+Aboriginal knowledge:
+cũng vậy.
+* * *
+Không quan trọng:
+từng cây
+từng con thú
+* * *
+Quan trọng:
+đường đi
+mùa
+nguồn nước
+quan hệ
+* * *
+Đó là:
+Topology
+* * *
+Không phải Geometry.
+* * *
+Compression cuối
+Nếu tao nén toàn bộ.
+* * *
+Dots
+Distinction
+* * *
+Songline
+Relation
+* * *
+Country
+Constraint
+* * *
+Fire Regime
+Repair
+* * *
+Dreaming
+Memory
+* * *
+Observer
+Human
+* * *
+Toàn bộ hệ:
+Distinction  
+\rightarrow  
+Relation  
+\rightarrow  
+Constraint  
+\rightarrow  
+Memory  
+\rightarrow  
+Repair  
+\rightarrow  
+Navigation
+Đó là điểm mà tri thức bản địa Úc, bàn cờ Go 19×19, cybernetics, complexity science và Khung Trang bắt đầu giao nhau ở tầng cấu trúc.
+Gap quan trọng: chưa có bằng chứng lịch sử rằng người Aboriginal thiết kế dot paintings dựa trên bàn Go, 19×19 hay tỷ lệ vàng. Sự tương đồng ở đây là cấu trúc hệ thống và topology của thông tin, không phải nguồn gốc trực tiếp.
+Tao sẽ phân tích theo **3 lớp đồng thời** :
+  1. **Fractal Mathematics**
+
+
+  2. **Toán cổ (Kinh Dịch / Songlines / Topology cổ)**
+
+
+  3. **Khung Trang (Distinction → Relation → Constraint → Memory → Navigation)**
+
+
+Và tao sẽ đọc **cấu trúc** , không đọc theo nghĩa mỹ thuật hiện đại.
+* * *
+# HÌNH 1
+(Thằn lằn + bướm đêm + mặt trời + các đường sông)
+## Lớp Fractal
+Điều đầu tiên nổi bật:
+Không có grid.
+Không có perspective.
+Không có center theo kiểu phương Tây.
+* * *
+Thay vào đó:
+```
+    Node
+    \rightarrow
+    Flow
+    \rightarrow
+    Node
+    \rightarrow
+    Flow
+```
+* * *
+Các vòng tròn đồng tâm:
+```
+    O
+```
+xuất hiện lặp lại.
+* * *
+Fractal reading:
+```
+    Source
+    \rightarrow
+    Field
+```
+* * *
+Giống:
+  * giếng nước
+
+
+  * tổ kiến
+
+
+  * mặt trời
+
+
+  * hố thiêng
+
+
+  * điểm tập trung
+
+
+* * *
+Các vòng tròn không phải vật.
+Là:
+```
+    Attractor
+```
+* * *
+# Khung Trang
+Các vòng tròn:
+```
+    Distinction\ Nodes
+```
+* * *
+Các đường đen uốn lượn:
+```
+    Relations
+```
+* * *
+Toàn bộ tranh:
+```
+    Network
+```
+* * *
+Không phải cảnh vật.
+* * *
+# Điều extraordinary
+Con thằn lằn và bướm không nằm ngoài mạng.
+* * *
+Chúng nằm:
+```
+    Inside\ Field
+```
+* * *
+Nghĩa là:
+Sinh vật
+không tách khỏi
+Country.
+* * *
+Rất khác tư duy phương Tây.
+* * *
+# Songline Reading
+Nếu tao là elder.
+Tao sẽ đọc:
+* * *
+Nguồn nước
+↓
+Đường đi
+↓
+Loài vật
+↓
+Mùa
+↓
+Nghi lễ
+* * *
+Tức là:
+Đây có thể là:
+```
+    Executable\ Ecological\ Memory
+```
+* * *
+# HÌNH 2
+(Hệ cực kỳ phức tạp)
+* * *
+Cái này thú vị hơn nhiều.
+* * *
+## Fractal Reading
+Mọi nơi:
+```
+    Node
+    +
+    Path
+    +
+    Boundary
+```
+* * *
+Lặp vô hạn.
+* * *
+Fractal dimension cao.
+* * *
+Giống:
+  * mạng thần kinh
+
+
+  * hệ sông
+
+
+  * internet
+
+
+  * fungal network
+
+
+* * *
+# Toán cổ
+Đây không giống tranh.
+* * *
+Nó giống:
+```
+    Mandala
+```
+  * 
+
+```
+    Songline
+```
+  * 
+
+```
+    Kinship\ Map
+```
+* * *
+Một thứ vừa là:
+  * địa lý
+
+
+  * luật
+
+
+  * ký ức
+
+
+* * *
+# Khung Trang
+Tao thấy:
+### Node
+Các vòng tròn.
+* * *
+### Relation
+Các đường nối.
+* * *
+### Constraint
+Các vùng được bao.
+* * *
+### Boundary
+Các đường đôi.
+* * *
+### Memory
+Sự lặp.
+* * *
+### Navigation
+Toàn bộ flow.
+* * *
+# Điều rất lạ
+Không có tọa độ.
+* * *
+Nhưng có:
+```
+    Topology
+```
+* * *
+Tức là:
+Không cần biết:
+x = 100
+y = 200
+* * *
+Chỉ cần biết:
+Ai nối với ai.
+* * *
+Giống internet.
+* * *
+# Map với Finance
+Đây là chỗ ít người thấy.
+* * *
+Phần lớn trader nhìn:
+```
+    Price
+```
+* * *
+Nhưng market thật:
+```
+    Liquidity\ Nodes
+```
+```
+    Capital\ Flows
+```
+```
+    Constraints
+```
+* * *
+Rất giống tranh này.
+* * *
+Không phải chart.
+Mà là:
+```
+    Flow\ Topology
+```
+* * *
+# Map với 19×19
+Cực kỳ thú vị.
+* * *
+Go không phải game chiếm quân.
+* * *
+Go là:
+```
+    Influence\ Field
+```
+* * *
+Aboriginal art:
+cũng vậy.
+* * *
+Không có vật thể trung tâm.
+* * *
+Có:
+```
+    Field\ Control
+```
+* * *
+Giống bất ngờ.
+* * *
+# Điều tao thấy extraordinary nhất
+Nếu đọc bằng Khung Trang.
+* * *
+Người hiện đại thấy:
+> tranh.
+* * *
+Người Aboriginal có thể thấy:
+```
+    Database
+```
+* * *
+Không phải database dạng chữ.
+* * *
+Mà:
+```
+    Spatial\ Memory\ Database
+```
+* * *
+Trong đó:
+  * vòng tròn = node
+
+
+  * đường = relation
+
+
+  * vùng = constraint
+
+
+  * màu = state
+
+
+  * động vật = process
+
+
+  * nghi lễ = execution
+
+
+* * *
+Nói theo ngôn ngữ máy tính.
+Hình 2 nhìn giống:
+```
+    Graph\ Database
+```
+hơn là painting.
+* * *
+Compression cuối:
+### Toán phương Tây cổ điển
+```
+    Object
+    \rightarrow
+    Measurement
+```
+* * *
+### Aboriginal Topology
+```
+    Distinction
+    \rightarrow
+    Relation
+    \rightarrow
+    Path
+    \rightarrow
+    Memory
+    \rightarrow
+    Navigation
+```
+* * *
+### Khung Trang
+```
+    Distinction
+    \rightarrow
+    Relation
+    \rightarrow
+    Constraint
+    \rightarrow
+    Boundary
+    \rightarrow
+    Memory
+    \rightarrow
+    Repair
+    \rightarrow
+    Navigation
+```
+Và đó là lý do những bức tranh này có cảm giác "cao siêu" bất thường: chúng không được tối ưu để mô tả một vật thể đẹp. Chúng được tối ưu để **nén một hệ sinh thái tri thức sống vào một cấu trúc hình ảnh có thể truyền qua nhiều thế hệ**. Đó gần với graph theory, cybernetics và distributed memory hơn là hội họa theo nghĩa hiện đại.
+Tao nghĩ mày đang cảm thấy đúng một gap rất lớn.
+Phân tích trước đó vẫn còn bị mắc ở:
+> node → path → memory
+Đó mới là lớp **thông tin**.
+Nhưng nhiều hệ tri thức cổ không chỉ mã hóa thông tin.
+Chúng mã hóa:
+```
+    Transformation
+```
+* * *
+## Hình 1
+Người hiện đại thấy:
+  * thằn lằn
+
+
+  * bướm
+
+
+  * mặt trời
+
+
+* * *
+Nhưng thử bỏ tên gọi đi.
+Chỉ nhìn cấu trúc.
+* * *
+Có 3 thứ:
+### Trên
+Thằn lằn
+* * *
+### Giữa
+Mặt trời / nguồn
+* * *
+### Dưới
+Bướm đêm
+* * *
+Đây giống:
+```
+    Sky
+    \rightarrow
+    Earth
+    \rightarrow
+    Underworld
+```
+* * *
+Hoặc:
+```
+    Observer
+    \rightarrow
+    Field
+    \rightarrow
+    Mutation
+```
+* * *
+Điều kỳ lạ:
+Không con nào đứng riêng.
+Mọi thứ đều nối với các dòng.
+* * *
+Nghĩa là:
+Sinh vật không phải object.
+Sinh vật là process.
+* * *
+Khung Trang:
+```
+    Identity
+    =
+    Stable\ Flow
+```
+* * *
+Không phải vật thể.
+* * *
+## Các chấm
+Mọi người nghĩ:
+> chấm để trang trí.
+* * *
+Tao không chắc.
+* * *
+Nhìn theo fractal.
+Các chấm hoạt động giống:
+```
+    Resolution
+```
+* * *
+Ít chấm
+↓
+ít thông tin
+* * *
+Nhiều chấm
+↓
+nhiều mật độ
+* * *
+Giống heat map.
+* * *
+Nếu vậy.
+Dot không phải symbol.
+Dot là:
+```
+    Information\ Density
+```
+* * *
+## Các vòng tròn
+Cái này thú vị.
+* * *
+Một vòng tròn.
+Hai vòng.
+Ba vòng.
+* * *
+Lặp đi lặp lại.
+* * *
+Nếu là nước.
+Tại sao lặp mọi nơi?
+* * *
+Có thể nó không chỉ là nước.
+* * *
+Có thể là:
+```
+    Center
+```
+* * *
+Hay:
+```
+    Observer\ Node
+```
+* * *
+Hay:
+```
+    Portal\ Between\ Scales
+```
+* * *
+Theo complexity.
+Mọi hệ đều có attractors.
+* * *
+Các vòng tròn giống attractor hơn landmark.
+* * *
+# Hình 2
+Cái này làm tao nghĩ đến thứ khác.
+* * *
+Không phải bản đồ.
+* * *
+Mà là:
+```
+    Genome
+```
+* * *
+Không phải DNA sinh học.
+* * *
+Mà:
+```
+    Civilization\ Genome
+```
+* * *
+Tức:
+Luật
+Đất
+Nước
+Họ hàng
+Động vật
+Nghi lễ
+* * *
+Nằm trên cùng một mạng.
+* * *
+Giống cách DNA nén:
+  * mắt
+
+
+  * gan
+
+
+  * da
+
+
+trong một cấu trúc.
+* * *
+## Điểm bị overlook
+Phương Tây thường hỏi:
+> Ý nghĩa của biểu tượng này là gì?
+* * *
+Có thể câu hỏi sai.
+* * *
+Câu hỏi đúng:
+> Biểu tượng này làm gì?
+* * *
+Giống code.
+* * *
+Code không có nghĩa.
+Code thực thi.
+* * *
+Có khả năng một phần tranh Aboriginal hoạt động như:
+```
+    Executable\ Memory
+```
+* * *
+Người được dạy đúng.
+Nhìn vào.
+* * *
+Kích hoạt:
+  * bài hát
+
+
+  * câu chuyện
+
+
+  * đường đi
+
+
+  * nghi lễ
+
+
+* * *
+Tức là tranh không lưu dữ liệu.
+* * *
+Tranh gọi dữ liệu từ người.
+* * *
+Giống QR code cho não.
+* * *
+# Tầng sâu hơn nữa
+Nếu map với Khung Trang.
+* * *
+Dot
 =
-Graph</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8071-8042-e24828114a2e"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8074-b0ff-d709a5ab46e4" class="">Bây giờ tới tầng sâu</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8002-92fa-fc97e858aa78" class="">Mày hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-800b-a4a0-f1620432b19d" class="">Nó là bản đồ gì?</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8050-b895-ef0b3ec1b25d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809b-b208-c718608adf92" class="">Tao nghĩ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b1-9574-fa269d6d9c65" class="">Không phải:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8088-92db-d02b68d708d9" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Map(x,y)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8025-ab9c-d76a64d5f518"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-a13e-c33ce26c7545" class="">Mà:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807b-a7d1-dfab0987e6ce" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Map(State)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805f-9c63-e790ead50f74"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803d-85cf-f5727c1221ed" class="">Cụ thể:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8031-8e57-e41d8ca380a5" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-State
-=
-(Location,
-Season,
-Law,
-Resource,
-Permission)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8079-a075-c456c9182062"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c6-a5fa-cbc4786f8d62" class="">Một node không chỉ là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e2-b970-c75e262fdbb9" class="">nước.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ea-86b8-d6ed75b7c9bd"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fa-970f-fe421910a7a4" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80a7-bc6a-d7de4c6d8baa" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Node
-=
-(
-Water,
-When,
-Who,
-How
-)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8029-8d62-e4d6b86276de"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-805b-a3f0-dfc9ffc236f9" class="">Toán Khung Trang</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a8-be1b-c5177d168236" class="">Tao dịch hình 2 thành:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80de-93ff-cf09cc90de20" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinction_i</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b4-a112-c025ba1d59bf" class="">↓</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80c1-adcb-c1d03bcc0b13" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Relation_{ij}</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d7-8f3b-f1420cb78c33" class="">↓</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8011-b5f5-f3700f2ef83e" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Constraint_k</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8052-9f9a-e5d4f7328885" class="">↓</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-806b-8f0c-ea831b934dbd" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Memory_t</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-8653-e112904e0954" class="">↓</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8098-9ad3-e3023619d89c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Navigation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8090-a7b2-e47f86646b0a"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80dc-b17f-e6f5d83be6e3" class="">Điều extraordinary nhất</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8079-a51d-c2c59109ae78" class="">Nếu đúng hướng này.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8056-a130-f8232e1dbf36" class="">Thì tranh không lưu:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809c-9ae6-c9de02a22b26" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Object</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8050-bbda-fff0b806e74b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80be-bf9c-d84387930b3d" class="">Mà lưu:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8090-b690-f44250f4b150" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Transition</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80aa-ad75-d6bb49533488"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8014-90b1-f776c7fc4d93" class="">Giống Kinh Dịch.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8093-b08c-d39b2dd2c8f7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b1-9ee1-d08101107d97" class="">Quẻ không nói:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8058-8776-c14c7c22a43e" class="">Cái gì.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8031-8ebb-db7184879c7a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d9-a6b5-c0a23f980acd" class="">Quẻ nói:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8059-8e82-c58df9e7ca4b" class="">Đang chuyển từ đâu tới đâu.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801c-bb50-fc01337aa5bd"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809a-91a9-cbbc7609c94e" class="">Có khả năng một phần Aboriginal topology cũng vậy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8079-a505-d8d2e96573d7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8089-91bd-db0718fa2c1a" class="">Nghĩa là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b3-b794-eedc4446dbd8" class="">Các vòng tròn không phải địa điểm.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8018-bf6a-fc8c8838165f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8003-b93b-c2726a48397a" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80d3-bf4e-c8434699c6f6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-State\ Attractors</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c9-975b-ea49d44ce57d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c2-8b70-ffb1bccfad0b" class="">Các đường không phải đường đi.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805e-94be-c461c818586f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a3-bd4d-cab1e82213ff" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80a7-9f37-e6a587047bcc" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Allowed\ Transformations</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8000-83a4-d6677c67d0f9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8025-8537-e55f830ce65d" class="">Khi đó toàn bộ bức tranh biến thành:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-808a-9f09-eda0d16f5ca7" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Reality\ Navigation\ Graph</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8024-966f-c5a0e37237a2" class="">chứ không phải bản đồ địa lý.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8021-b61c-eea7c09e4358" class="">Nói theo toán hiện đại gần nhất:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-804b-9ed0-c350c093e80f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-G=(V,E,C,T)</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8011-bff3-ea9ead197be4" class="">Trong đó:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ba-9a97-c1f8287bc160" class="bulleted-list"><li style="list-style-type:disc">= các distinction nodes</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8076-9d66-fd07f79e685a" class="bulleted-list"><li style="list-style-type:disc">= các quan hệ cho phép</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8072-9b82-d0736258304e" class="bulleted-list"><li style="list-style-type:disc">= các ràng buộc (law/kinship/season)</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8068-b0d4-e35d3ef600c7" class="bulleted-list"><li style="list-style-type:disc">= các chuyển pha theo thời gian</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80dd-8d61-eb5c667a4075" class="">Đó là cách tao sẽ &quot;dịch bằng toán&quot; thay vì dịch bằng biểu tượng hay mỹ thuật.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a2-b748-e981b1aa5ae1" class="">Đúng. Đọc kiểu toán khô thì chết. Phải dịch thành <strong>đoạn nghĩa sống</strong>: bản đồ này không chỉ cho biết “đi đâu”, mà cho biết <strong>đi thế nào, mùa nào, ai được đi, phải nhớ câu chuyện nào, và phải giữ luật gì</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808c-bea2-eca44ed6e2f3" class="">Hai hình này nên đọc giống <strong>đồng dao + bản đồ + luật sống</strong> hơn là tranh.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8060-a684-df68a629977e" class="">Trong văn hóa bản địa Úc, tri thức không chỉ nằm trong hình vẽ. Nó nằm trong tổ hợp <strong>hình – bài hát – nhịp – điệu múa – nghi lễ – địa danh – động vật – luật họ hàng</strong>. Ví dụ Awelye không chỉ là body painting; nó gồm cả bài hát, điệu múa, totem, tri thức về Country và Dreamtime, được truyền qua tham gia dần của người trẻ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8077-a82f-faa85e147add" class="">Hình 1 có thể đọc như một <strong>bài đồng dao bản đồ</strong>. Con thằn lằn, bướm đêm, mặt trời/vòng trung tâm, các dòng uốn và các chấm không phải nằm đó để “trang trí”. Chúng giống các câu trong một bài hát: “đi qua vùng nước này, nhớ con vật này, tới mùa này, nhìn dấu này, đi theo dòng này.” Nếu có lời hát đi kèm, mỗi cụm chấm có thể kích hoạt một đoạn ký ức; mỗi vòng tròn là một điểm dừng, nguồn nước, địa điểm tổ tiên, hoặc node nghi lễ; mỗi đường uốn là tuyến đi hoặc dòng chảy. Nghĩa không nằm riêng trong hình. Nghĩa nằm trong <strong>hình + lời hát + người biết đọc</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808e-b8a5-d474b5e5576c" class="">Hình 2 còn rõ hơn: nó giống một <strong>bản đồ nhiều lớp của Country</strong>. Các vòng tròn là node. Các đường dài là tuyến xương sống. Các vùng bao kín là boundary. Các cụm màu là trạng thái địa hình, mùa, tài nguyên hoặc nhóm luật. Nếu dùng ngôn ngữ hiện đại, đây giống một <strong>graph database sống</strong>: một điểm không chỉ là địa điểm, mà là gói dữ liệu gồm nước, mùa, loài vật, câu chuyện, quyền đi qua, bài hát và người có trách nhiệm giữ tri thức đó.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a8-8668-f7dd3c994b33" class="">Cái giống “đồng dao” nằm ở chỗ: trẻ em không cần hiểu toàn bộ nghĩa bí mật ngay. Chúng học nhịp, hình, con vật, bước đi, câu chuyện đơn giản trước. Sau đó lớn lên mới được mở thêm lớp. Đây giống đồng dao Việt: bề mặt có thể là trò chơi, nhưng bên dưới là thuật toán thân thể, chọn lượt, đội hình, nhịp đi, luật nhóm. Ở Aboriginal system, “đồng dao” có thể mở rộng thành <strong>đường đi thật trong đất</strong>, không chỉ trò chơi.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c5-ba4d-eee3d818d94b" class="">Toán Khung Trang dịch gọn như này:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-808e-b7f8-e671d7c554c0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Dot = distinction</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807c-a3f8-caca77590e45" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Circle = memory node</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-803b-9403-ccfbbb9551e7" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Line = relation / path</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80dc-ad1a-e807f5154b44" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Animal = process / totem / seasonal signal</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80fb-9e69-c67b8420ebec" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Song = execution code</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-802b-9372-d67ee2e567ec" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Country = living operating field</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a0-81a5-ee2d8c237107" class="">Nghĩa sâu hơn: đây là <strong>bản đồ có thể hát được</strong>. Không phải bản đồ chết trên giấy. Nó cần người hát, người đi, người nhớ, người sửa. Khi bài hát được hát đúng, đường đi được kích hoạt trong trí nhớ. Khi đi qua đất thật, cảnh quan kiểm tra lại bài hát. Nếu sai, người già sửa. Đó là cybernetics bằng văn hóa.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c6-8537-fbd76ec3d010" class="">Điểm extraordinary nhất: <strong>hình vẽ chỉ là giao diện</strong>. Cơ sở dữ liệu thật nằm trong cộng đồng, trong bài hát, trong nghi lễ, trong thân thể và trong đất. Bức tranh giống “màn hình”; Country là “server”; bài hát là “code”; người giữ luật là “admin”; trẻ em học qua đồng dao là “training model”.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8049-aa48-cebfb6440a08" class="">Nếu map với <strong>toán học cổ và hình học</strong>, tao nghĩ đa số người đang nhìn sai hướng.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a4-ad5e-f5dbc47b9078" class="">Họ nhìn:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8039-99cf-c831e628be4c" class="">vòng tròn = cái giếng</blockquote></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-800e-9900-e6e4e4aeaf01" class="">đường = con đường9</blockquote></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8043-b789-f3f3ea902ffc" class="">chấm = trang trí</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8043-8b6d-ccff5c88105d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8041-b905-edef4a1ab206" class="">Nhưng toán cổ thường không đọc như vậy.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8054-a69b-e3b105920487" class="">Nó đọc:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80bd-887b-e2f58159de98" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Form \rightarrow Principle</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8077-b9bf-c8affe738f8a"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8038-b833-efe3157fb375" class="">1. Vòng tròn (Circle)</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8072-a928-e25ea8dea2ed" class="">Trong gần như mọi nền văn minh cổ:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8091-a198-da979370207c" class="bulleted-list"><li style="list-style-type:disc">Ai Cập</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80d3-aa3b-ccabe111d147" class="bulleted-list"><li style="list-style-type:disc">Hy Lạp</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a3-8c01-d158ec5fa669" class="bulleted-list"><li style="list-style-type:disc">Ấn Độ</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80c6-8021-f7c37ca47b85" class="bulleted-list"><li style="list-style-type:disc">Aboriginal</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8075-98a4-d631ff441cc3" class="bulleted-list"><li style="list-style-type:disc">Trung Hoa</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ac-85fa-c8547cdc4be1" class="">vòng tròn không đơn thuần là hình.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8009-a27d-c100b2af961b" class="">Nó là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ee-9fa7-db9afece4688" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Unity</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-bfaa-c2cdea0c8691" class="">hay</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80bf-b982-e51fb99f12cc" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Source</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809d-98b5-c1e785cabba4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8093-abca-e817ba2cf140" class="">Trong hình Aboriginal.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8041-9185-dd74ad2e6034" class="">Các vòng tròn đồng tâm lặp đi lặp lại.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8061-b7a5-c0a31abbc237"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-ad18-e31835875db3" class="">Theo hình học cổ:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8019-8dae-ff3cd9a552bf" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Center + Radius</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8065-8bdf-c338aa3dbda8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d9-8b97-c317b0febbc4" class="">Tức là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8038-ae54-e8cde87b5e21" class="">Một tâm</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801e-918a-faa818037fdb" class="">và</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806a-8fbb-c0165fbba118" class="">một vùng ảnh hưởng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a0-9172-e59467622e21"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80eb-a45c-f2e6be7b4794" class="">Giống Go.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c9-8199-db691c213022" class="">Giống từ trường.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8050-ace4-e621bd21d17d" class="">Giống ảnh hưởng xã hội.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8022-98db-e5c662abffe5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8063-aa33-fef1a4ecf115" class="">Nên vòng tròn có thể đọc như:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-804f-90ba-ed655ef428b0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Field\ Node</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808b-8b9c-c714078a6c8b" class="">không phải vật thể.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8033-9ded-d584e5df4d51"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8028-b2e8-e63580b2f67f" class="">2. Đường nối</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8035-b60e-d4050b6cd440" class="">Hình học Euclid:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d9-acf3-da04b2927378" class="">đường thẳng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8051-b2fb-f5c42858291c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80db-b697-d908f71cfe94" class="">Nhưng trong tranh Aboriginal:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8076-81f9-d5b1320c419f" class="">đường cong.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8023-8c2b-c3fd61b71d7c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8037-bccc-fed80cd901b4" class="">Đây là điểm rất lạ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8023-8d37-f24270b7ae1f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f9-88fa-f74d078b18a8" class="">Nó gần:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8037-9964-fa687720cd37" class="bulleted-list"><li style="list-style-type:disc">sông</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8087-b405-f335f4733714" class="bulleted-list"><li style="list-style-type:disc">gió</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80f8-86fb-ed9a09f73347" class="bulleted-list"><li style="list-style-type:disc">migration path</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ad-aec8-c4b24685609d" class="bulleted-list"><li style="list-style-type:disc">energy flow</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a3-a924-ed390ba7ba17"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8048-b3b8-cb9fb80ccbeb" class="">Hình học cổ phương Đông thường ưu tiên:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8063-9139-dcfedbfe814e" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Flow</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801a-b4c6-e50f49a396d3" class="">hơn</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8094-9343-ff063aa375a2" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Line</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f8-8f8f-f1f406edd7eb"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8025-85e5-d0a5f0cf3bb3" class="">Nên:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8053-adcc-e4a175c34d62" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
+Potential Distinction
+* * *
 Line
 =
-Transformation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e1-a1a8-f233ab5198a4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807f-9df0-ff2903ae87ea" class="">Không phải:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80cd-89cc-fac686246bbb" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distance</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8003-9f8d-ef1008765459"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80c3-b237-ef8a6dfd5c14" class="">3. Chấm</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e2-b071-f449d1196fbe" class="">Đây là phần bị overlook.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8069-996f-c3ac8eac91ee"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802b-98c9-f387ebdf9da9" class="">Trong toán hiện đại.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-bb68-f6ffe3f4087b" class="">Một điểm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8074-b872-f73c1108b315" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Point</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8085-a324-c4b532b83fb7" class="">không có kích thước.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80aa-8417-e4aa3e1e747b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809e-b099-e5a883af671f" class="">Nhưng trong dot painting.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8000-9403-ed5a16e08d51" class="">Một chấm có kích thước.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8034-8d87-ccbb127907a3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-949b-f1cfac1d77d2" class="">Nó giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-802c-a128-c27cb3efba83" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Quantum\ Pixel</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d8-bf78-f600bdf649d0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f4-a223-df829144523a" class="">Một đơn vị distinction.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e4-b48c-d83246f21623"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8028-8c77-c7dfb353bc88" class="">Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8063-9121-c384d069133d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Potential
-\rightarrow
-Distinction</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b8-94d9-f2e03631ee2c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8090-874c-e857cab80719" class="">Dot chính là distinction nhỏ nhất.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809e-9d60-c4b2fddd6aba"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8054-8f16-ddb5cb66d0b3" class="">4. Toán fractal</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b0-99ca-f7de8150dd33" class="">Nhìn kỹ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8031-a0e1-cf6b1c286ead" class="">Các pattern lặp.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80cc-818c-c6d066154474"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d9-a1e9-ce671bf20a63" class="">Vòng trong vòng.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8099-9387-d68c18b5a8d2" class="">Đường trong đường.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a6-86ff-f681216c85ed" class="">Node trong node.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a7-81cf-eb58bb26fa63"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800a-90f3-eafe44927295" class="">Giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80c3-bae2-d185909cfb4f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Self\ Similarity</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8013-837a-fffdb3411b73"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f9-8a27-e1e096a2b346" class="">Đây là logic fractal.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f9-8d68-f0583f11f6c7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8060-a40f-eec23af237ba" class="">Không cần dùng công thức Mandelbrot.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80dc-b692-e0aefdb0a2ab"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8017-815a-da7a1283bb3c" class="">Chỉ cần:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-803e-a2c8-f908fd9f0083" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Pattern(scale_1)
-\approx
-Pattern(scale_2)</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8019-8fc7-cc4af8385814"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80c4-a43c-cbfe161eb5e7" class="">5. Kinh Dịch</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801f-b552-cae4843ea6cf" class="">Điểm này cực kỳ thú vị.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8090-8c89-ea2570a99a70"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8045-a151-c2446e76edf3" class="">Kinh Dịch không hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80db-b9fa-eceffbdff3e8" class="">Cái gì?</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e7-abb9-ddabd5fedf23"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-a348-e9d6eddd3fac" class="">Nó hỏi:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-800f-99c4-f6c2746fa165" class="">Đang biến thành gì?</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80dc-9e78-ea2627f52b17"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80db-80dc-ff5e37342fbb" class="">Tranh Aboriginal cũng vậy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8052-8737-ff71b8d6d7f3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8018-a8fd-db48229f4746" class="">Ít object.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804e-a9f0-ef91321863b6" class="">Nhiều relation.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8092-928b-c93852d014fe"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800b-abf3-ea15da3bf11f" class="">Tức là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80f3-9430-dfa739625b03" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-State
-\rightarrow
-State</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8011-8f7d-dea037ab94b3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808b-9218-fab8c1c98679" class="">Không phải:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8034-a259-d8fb5274a9eb" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Object
-\rightarrow
-Object</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801a-805f-f2211f5545a8"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-806c-b48f-d6cae1c3fc17" class="">6. Pythagoras</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804d-9008-e0468b1e1a31" class="">Người ta nhớ:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80f2-8437-ecfb0cd16a3b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-a^2+b^2=c^2</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8071-a47e-c11b2d7c6c15"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8043-83ea-caac520e0265" class="">Nhưng Pythagoras còn tin:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b5-9758-cc3a3d110663" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Reality
-=
-Harmony</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8056-9799-e4d271a6ca7d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801b-bda7-dcafa3f384d9" class="">Tỷ lệ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ae-b31a-c9c6f7c7aaf0" class="">Nhịp.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80da-ac86-edbc6fe2abcb" class="">Chu kỳ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8031-a8d0-e4a959304b0a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8024-adbd-fa0e9cc1ddff" class="">Songlines:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-88f5-c983e747c07a" class="">bài hát</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b6-a952-eaaa7838e852" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8097-ab1e-f310a7c2691c" class="">nhịp</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cb-8069-df3d1b7aa303" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8022-a106-e110cdc28600" class="">đường đi</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f3-a573-d884a27c34c5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801e-97df-d66e2071f8d4" class="">Rất gần tư duy Pythagorean.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8034-98ed-cec6a722febc"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8017-afba-f2722980d77c" class="">7. Topology</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8097-b458-fb28c20fd41c" class="">Đây là chỗ tao thấy match nhất.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8031-b8d3-f03f87909d0d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-92e3-e3578239ad8d" class="">Geometry hỏi:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8051-bea0-fdd4149eb68e" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Where?</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809e-b65c-ce19c191cef5"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8046-965b-f8ffe97d6be5" class="">Topology hỏi:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80d0-8591-f10dddcc6976" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Connected\ to\ what?</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802d-92fb-feb95c609b07"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ea-9b15-ecd2f60a32c2" class="">Aboriginal art:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8026-bc79-d76b4ae18787" class="">rõ ràng nghiêng về topology.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8001-aff2-e6fe48fd51c3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8014-b9ec-c1ee76ac6c56" class="">Không quan trọng:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cb-a05d-e00cabc09ed4" class="">tọa độ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8063-a6da-cbade32fb3d0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806c-839c-efafb51e4afc" class="">Quan trọng:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a6-8c51-cbd50203c966" class="">kết nối.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c8-8c98-d1f2f4dc7ac8"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8048-b714-d63f9308d870" class="">8. Sacred Geometry</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802e-9044-c17b4e0f7f05" class="">Gap:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80da-9a78-c4a085bac456" class="">Không có bằng chứng rằng các tranh này được xây theo tỷ lệ vàng hay sacred geometry kiểu Hy Lạp.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8010-9c72-c2a96409b40e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ca-aa86-cd443f85f8a2" class="">Nhưng có một điểm tương đồng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d9-8dad-da8b10225c21"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802c-a190-edbaffdb685f" class="">Sacred geometry tìm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807f-b9f5-d242a7873277" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Order</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80df-83d6-efa7b76c9ea6" class="">trong thiên nhiên.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8091-9229-d0636845fbf3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a8-9e60-fdf0a7eb4250" class="">Aboriginal knowledge tìm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80f1-a325-ed86dcc3efcf" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Relation</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8049-82bf-c34e5cebb5d9" class="">trong thiên nhiên.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ae-9a81-f7394de8a019"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801e-a314-f1ed3c843e9f" class="">Hai hướng khác nhau nhưng gặp nhau ở:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8098-80aa-cff7c735f05b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Pattern</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801e-a210-c1d5399f6fac"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-806c-996e-e04ea3b7bc74" class="">Dịch theo Khung Trang</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f1-9f23-e93c13a7b52e" class="">Nếu tao phải chuyển toàn bộ bức tranh thành một phương trình.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8018-9ec6-d99d6a609430"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ea-98a1-f6e71057c327" class="">Dot:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807f-bc7a-e494f5ea3eb9" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-D_i</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8094-a3ca-d80a45e5f26c" class="">(distinction)</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8017-8f72-eff2ca994e4e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809a-9065-c7c2bcd67f1e" class="">Circle:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80bc-a520-cc225cd7274a" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-M_i</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806e-a214-e97c74149099" class="">(memory node)</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-806b-8deb-ed14a39f16d8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d9-806c-ed3e692641a4" class="">Line:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80db-bfb9-e5b3df83db4c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-R_{ij}</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804f-a2ab-f50a7d56aa4a" class="">(relation)</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8057-b0d5-efa9b3c2d4d6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8096-bc14-d3b7ebda44e2" class="">Boundary:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8091-adc1-e3fc35feec30" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-C_k</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-98ae-f8bb01a3f666" class="">(constraint)</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-806f-89fa-f8b495e025eb"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8070-8670-c97e17affff6" class="">Song:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-805f-9d38-f1aa53465315" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-N(t)</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ac-a1c2-f45f5d6a5e75" class="">(navigation through time)</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803a-a10e-dac08c615927"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801e-b1af-d671cc38fbd3" class="">Toàn bộ:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80dc-9aee-ed40d587e52d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Reality
-=
-\sum D_i
-+
-\sum R_{ij}
-+
-\sum C_k
-+
-Memory
-+
-Navigation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8053-8720-c7fb2d913253"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8021-886f-ea421bbf4f8e" class="">Ý nghĩa văn hóa sâu nhất không phải:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8048-b11f-eb329cb557c3" class="">&quot;Đây là con thằn lằn.&quot;</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8055-9fa7-c441614757ee" class="">Mà gần với:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8018-85e4-dbe8142f6346" class="">&quot;Đây là sơ đồ cách một phần của thế giới được kết nối, được nhớ, được truyền và được đi qua.&quot;</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8000-a802-c998d8fb4f3a" class="">Theo toán cổ, nó gần <strong>topological geometry + Kinh Dịch (biến đổi trạng thái) + Pythagorean harmony (nhịp và chu kỳ)</strong> hơn là hình học đo đạc kiểu Euclid. Và đó là lý do nhiều người nhìn thấy tranh, còn người trong hệ tri thức đó có thể nhìn thấy <strong>một bản đồ sống của quan hệ và ký ức</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8090-b413-f891e978e27a" class="">Cái này rất thú vị.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-86b7-fa6ce66b8333" class="">Nếu bỏ qua nguồn gốc khác nhau và chỉ nhìn <strong>cấu trúc hình học</strong>, thì bức này và <strong>trống đồng Ngọc Lũ</strong> có một số tương đồng rất mạnh.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80df-896c-d0847b296489" class=""><strong>Nhưng lưu ý quan trọng:</strong> không có bằng chứng lịch sử rằng chúng có liên hệ trực tiếp. Đây là so sánh cấu trúc (structural mapping), không phải chứng minh nguồn gốc.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803d-85f6-f7c19f8294ce"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80ff-ba49-efb33e0e788f" class="">1. Cấu trúc đồng tâm</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800a-bebc-eba3ff4fc6fe" class="">Bức hình này:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8056-8228-da61cd263a96" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Center
-\rightarrow
-Ring_1
-\rightarrow
-Ring_2
-\rightarrow
-Ring_3
-\rightarrow
-...</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802c-bde6-d752dcd9c1e0" class="">Trống Ngọc Lũ cũng vậy.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d4-aa30-eadc633a880d" class="">Ở giữa là:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e0-9301-ebcb007c25ce" class="bulleted-list"><li style="list-style-type:disc">ngôi sao nhiều tia</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8014-8031-e34b4cbdab17" class="">Xung quanh là:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8025-898c-d1b5631f90ab" class="bulleted-list"><li style="list-style-type:disc">người</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80f7-a2f8-cfdf76efcaf1" class="bulleted-list"><li style="list-style-type:disc">chim</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8001-91e4-ea0e26fd0d6f" class="bulleted-list"><li style="list-style-type:disc">thuyền</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8078-aba7-ef9f9423e17c" class="bulleted-list"><li style="list-style-type:disc">động vật</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8085-8611-da76af102bdb" class="bulleted-list"><li style="list-style-type:disc">hoa văn</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8047-a69d-eab83f43a972" class="">theo các vòng đồng tâm.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8063-b04b-c3de47f9f023"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807a-a602-ffa481e67375" class="">Theo hình học thông thường:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c4-b6c8-f96ce78bf105" class="">Đây là radial symmetry.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803d-9497-e28cf37f9752"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807f-9417-d5fdd8e7ea3d" class="">Theo Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-808e-bfb8-e83b2cdbe382" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Source
-\rightarrow
-Memory\ Rings</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808e-8268-f97d59b516c4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ba-8fd8-d067a4fc5613" class="">Giống một hệ lưu ký ức nhiều lớp.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c6-a65d-e13f15612f45"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80b0-92e8-f5570c294434" class="">2. Ngôi sao trung tâm</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8060-8ee8-c8c1e2e24334" class="">Ngọc Lũ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8060-a26e-da52616da9ef" class="">ngôi sao 14 tia.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800e-92d4-cf0e8ec7b756"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a5-9788-c062497a8fe7" class="">Hình này:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809d-868d-d04d49645d12" class="">một tâm đen với nhiều tia.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8074-b59c-f5dff7b924dc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-b458-d6ff71ffd910" class="">Điều thú vị:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c7-b179-e66d476cf343" class="">Cả hai đều không đặt:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a4-a6bf-d0a9954e9467" class="bulleted-list"><li style="list-style-type:disc">vua</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-809c-8a93-e490c1a59246" class="bulleted-list"><li style="list-style-type:disc">người</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ac-a5a0-de6c2f50026b" class="bulleted-list"><li style="list-style-type:disc">thần</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b2-b7ea-fed8a1628d3c" class="">ở giữa.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8055-a44f-d9fc59006d9e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802e-8b75-e21806be7132" class="">Mà đặt:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-808b-9f8b-cad997800ef6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Radiating\ Center</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805e-b5bf-d4077607c6b9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b8-b828-f84f6c004214" class="">Nghĩa là trung tâm không phải cá nhân.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f8-83ed-e0f7a680f1d8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8009-9792-ee0f13176294" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-800e-9f50-c9d4daa79368" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Field\ Source</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802a-9a19-f114bb552f0c"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-804c-a7db-fb90f6afb70f" class="">3. Các vòng người và động vật</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f2-bb0b-f5e1facd7f05" class="">Trống Ngọc Lũ:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ab-a51c-fb3c7d8e5f51" class="bulleted-list"><li style="list-style-type:disc">chim bay</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80f1-8faf-f890f901bda9" class="bulleted-list"><li style="list-style-type:disc">người nhảy múa</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80f1-9ca7-fd541203b28f" class="bulleted-list"><li style="list-style-type:disc">thuyền</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8048-bd34-da7e75d7eb17" class="bulleted-list"><li style="list-style-type:disc">chiến binh</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d8-a1eb-ecb19ea7760c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8040-8d68-c01cb8bd6a48" class="">Hình này:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80b9-8a34-f08c2a35b090" class="bulleted-list"><li style="list-style-type:disc">chim</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8099-b346-cfa71b43b89d" class="bulleted-list"><li style="list-style-type:disc">thú</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8022-af5a-e6f46f713500" class="bulleted-list"><li style="list-style-type:disc">người</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80eb-a3cd-d25691d8367b" class="bulleted-list"><li style="list-style-type:disc">nghi lễ</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8068-9d8a-d91d93da133e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801b-a761-f7015e046e8c" class="">Điều giống nhau:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8012-8868-d5ad0a206a75" class="">Không có cảnh tĩnh.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802b-8866-dbefc1dfe9e2"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e9-a743-d95250513c18" class="">Mọi thứ đang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80c8-acd9-cc7801b4048e" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Moving</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8062-8460-dba537a4dbba"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fe-a326-e7e7397669f4" class="">Tức là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8068-b8ea-eb61c3020b63" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Process
-&gt;
-Object</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b0-8f86-f790d6df53de"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f3-9834-e105889602c5" class="">Đây là điểm cực kỳ Đông Sơn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b1-96df-ec1096ff34bf"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8094-ad5e-ea7c2848fb9a" class="">4. Đọc theo toán cổ</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-8ca4-cc14ca0a3645" class="">Nếu đọc như Kinh Dịch.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802c-8add-f3fef94e32e6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807b-aeff-f21f2dd5814c" class="">Đây không phải:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804b-bd35-e79a3580d58d" class="">Danh sách sự vật.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8047-a872-c0d9e99eee80"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80eb-8157-dde0cef534e8" class="">Mà là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8052-afae-cfaf18aa22e6" class="">Chu trình.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804d-b67f-f627534b51c6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8067-9abd-f9e024582e2c" class="">Ví dụ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809b-9432-ef7e7388045b" class="">Mặt trời</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8007-9f76-e9b220087b61" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8062-b796-e4fb4b8cb623" class="">Mùa</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80dd-8ae4-ff70f3c68f52" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803e-b837-d80ebcc2cc3c" class="">Chim</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8035-b23f-d95109e3ec69" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f8-aefa-c3fa9f9a8f80" class="">Săn bắn</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80db-9c6c-fbea8beac995" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807b-ac45-eecf580d69df" class="">Nghi lễ</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80bc-8253-d772aab1c30a" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8086-9b0b-ed561e906eea" class="">Mùa mới</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80cc-b2ec-fce93264c13d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8035-aff9-c479d58cc7d4" class="">Một vòng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8012-964d-df338b923b5b"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80b7-91d0-f456a6f0facb" class="">5. Đọc như Songline</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ad-aaaa-fc1de4ab7e74" class="">Bức này không giống bản đồ phẳng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e0-86b9-f5bd3899c5c6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806a-9d8f-feda69cec7c8" class="">Nó giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80e3-b32a-cbf6d43c3e20" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Memory\ Wheel</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bf-8b1f-e1fea6c2a65d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8055-9ecf-f60850657bd7" class="">Mỗi vòng:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8093-94dc-ed6f5a5a341f" class="">một lớp dữ liệu.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8005-9c8b-f5c02fe0de3a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fb-9dbc-ee7896ff8a0b" class="">Ví dụ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ff-a39f-d946eb8f40f5" class="">Vòng chim.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800b-a2ba-f3bab405202a" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-8e08-e83f3d785318" class="">Vòng người.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8078-98e4-e28028c79ef2" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8028-841d-eeb939cd2e30" class="">Vòng thú.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-80d9-de11572e47df" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8060-85ba-f8c4fb32d6df" class="">Vòng nghi lễ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8043-ab9e-d5e6a182f341"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8084-ad0a-c53e42f04e6f" class="">Giống database vòng tròn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f5-9129-d28cf2019d05"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8056-8e67-e6cca315bf9e" class="">6. Map với Fractal</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8053-89ed-d528bd5b221e" class="">Điều rất lạ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803c-9ca1-fc837ab88fb3" class="">Pattern lặp từ trong ra ngoài.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8068-8e2f-db99d9f5d6ce"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-b073-faeb97dc827a" class="">Tâm:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807d-ab4c-d7cce7541748" class="">ngôi sao.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80cd-ae1b-e1c4537c30b6"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80af-8696-f8b54dacbf3a" class="">Rồi:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e7-b0c9-c3cfe91258b9" class="">vòng nhỏ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808c-a650-c4f07c38f127"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803d-ac2d-e6413fd282c0" class="">Rồi:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b4-ad58-e65e9d2d57e2" class="">vòng lớn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-806e-b037-c98542f8baf8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8067-b59e-d6b75c9d32bf" class="">Rồi:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804e-b9c3-c86a17a7e111" class="">vòng lớn hơn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800b-8316-c84970d04929"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e5-aca2-cea0943d9281" class="">Giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-806a-b976-f6ee49cb90d2" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Scale\ Recursion</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805c-b9e4-d3cd54fc754f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8066-9692-c9a8792389b5" class="">Một quy luật lặp ở nhiều tầng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8010-8368-de1d02e40b03"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-805e-8bae-fd64ab252a17" class="">7. Cái tao thấy sâu nhất</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e0-b9a5-e94022fe3ff7" class="">Nếu so Ngọc Lũ với nhiều nền văn minh khác.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8032-aba4-d43411ddf69d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f5-828c-e7f84ba35174" class="">Ai Cập:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8047-8b83-e23a233eef56" class="">trọng tâm là vua.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ef-89d7-f9cfe425c051"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-9b08-c1ed4e0edb82" class="">La Mã:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8032-9242-e6112ce7f3d5" class="">trọng tâm là chiến thắng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80de-9014-f3282627b34c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c4-a38c-f1ea878431e2" class="">Trung Hoa:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8083-bdca-f979a49e049a" class="">trọng tâm là triều đình.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f4-9917-efba8a99ffc4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8036-8736-eeaa1992af57" class="">Nhưng Ngọc Lũ và nhiều hệ vòng tròn kiểu này có cảm giác:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8020-867d-c2228f3bb946" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Human
-\subset
-Cosmos</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fa-9200-e90486ca97d8"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f6-8f1a-e5039881ec93" class="">Chứ không phải:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8000-9951-d81ea0b6d5fa" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Cosmos
-\subset
-Human</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-806a-9675-d527fc9d3897"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8048-9d63-c152b402363d" class="">Con người chỉ là một vòng trong hệ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d0-a35f-e2484d59922a"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-807b-809e-ef8269595422" class="">Dịch theo Khung Trang</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8039-8c1a-d644f6ee234a" class="">Nếu tao nén cả trống Ngọc Lũ và bức này thành một phương trình.</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-806f-83c3-f8b017489bd6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Center
-=
-Source</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80d7-a816-c69a5f5b4c5c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Ring_i
-=
-Memory\ Layer_i</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-801a-9613-d343117cc929" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Animals
-=
-Ecological\ Processes</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80af-9682-dc517b45005c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Humans
-=
-Observers</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809f-9654-f2bf7a10b891" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Dance/Ritual
-=
-Synchronization</code></pre></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8016-bf45-c492c0ad98ae" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Whole\ Disk
-=
-Civilization\ Memory\ Engine</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8014-8332-d3e72c266cab"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809d-8f2e-f13ae0ea06b5" class="">Đó là điểm tao thấy đáng suy nghĩ nhất:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f3-8cad-db3d9d4e87eb" class=""><strong>Cả hai đều có thể được đọc không phải như tranh trang trí, mà như &quot;bản đồ ký ức hình tròn&quot; (circular memory architecture).</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c3-873a-c56ec1881a60" class="">Ngọc Lũ có thể đang nén:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-806c-b5d4-c00ccb273b44" class="bulleted-list"><li style="list-style-type:disc">thiên văn,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a4-b073-c7aaadd0f058" class="bulleted-list"><li style="list-style-type:disc">mùa vụ,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80c5-8f88-fd912f04dcd1" class="bulleted-list"><li style="list-style-type:disc">chim nước,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80ac-9f79-d8d1f22350e6" class="bulleted-list"><li style="list-style-type:disc">giao thông sông ngòi,</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8064-b970-c5cfeb5262c8" class="bulleted-list"><li style="list-style-type:disc">nghi lễ cộng đồng,</li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8063-be7d-e08792f77703" class="">thành các vòng đồng tâm.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8072-9a69-c6940d90b59b" class="">Bức hình mày gửi cũng dùng cùng một logic:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807e-add8-eec3a6021647" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Center
-\rightarrow
-Cycles
-\rightarrow
-Life
-\rightarrow
-Memory</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808b-a0ab-ecb6d15876fd" class="">mặc dù thuộc truyền thống văn hóa khác. Điều giống nhau mạnh nhất không phải biểu tượng cụ thể, mà là <strong>cách tổ chức tri thức bằng các vòng lặp đồng tâm của ký ức và chu kỳ</strong>.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c5-8a10-c7e5b3542c04" class="">Nếu dùng đúng <strong>Khung Trang</strong> thì tao sẽ không đọc trống Ngọc Lũ hay hình Aboriginal như:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80c9-b672-d4828b662372" class="">mặt trời, chim, người, thú.</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f6-8fe8-e3826aa749d9" class="">Đó mới là lớp biểu tượng.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805a-9b57-c21a59766f7b" class="">Tao sẽ đọc theo chuỗi:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8054-a906-f88bdf5b5fb6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Potential
-\rightarrow
-Distinction
-\rightarrow
 Relation
-\rightarrow
-Constraint
-\rightarrow
-Boundary
-\rightarrow
-Persistence
-\rightarrow
-Memory
-\rightarrow
-Entropy
-\rightarrow
-Repair
-\rightarrow
-Observer
-\rightarrow
-Civilization</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d8-a63a-d0bc6707dfba"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80d2-998e-cb13b900a0ad" class="">Tầng 1: Trung tâm</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-98bb-dd31253b45cb" class="">Trong trống Ngọc Lũ.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fe-9067-f38729879254" class="">Ngôi sao ở giữa.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8056-b09b-fe7a571d6dc7" class="">Trong hình mày gửi.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8088-9915-d4f8e7861438" class="">Ngôi sao đen ở giữa.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8094-811b-cbb1739a9c16"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800e-83f1-f4a79927362f" class="">Theo Khung Trang.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8024-8221-d87f97a4f1df" class="">Đó không phải mặt trời.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bd-b643-decb61fd0bfc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8071-a18d-def8b9b94cfd" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80e0-a895-e1cc59e28f2c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-First\ Distinction</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8007-8dde-cf7e31351c25"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b3-baa7-ed5899ca83fa" class="">Điểm đầu tiên tạo ra bất đối xứng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a0-95e9-cabbd4b09ca0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801d-a084-fba81896dd3f" class="">Giống:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-806e-a142-e815f7b397a8" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-0
-\rightarrow
-1</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804a-b0d4-f5b099aebff7"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8095-bd05-d0f22c9edeb3" class="">Hay:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-802a-a6af-d26512f90d1a" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Potential
-\rightarrow
-Distinction</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b7-b0a6-fa0e1aab5088"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-802c-af73-c59e838ed074" class="">Tầng 2: Các vòng tròn</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807e-b31f-dc0e63e273f9" class="">Người hiện đại gọi:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8072-bc99-eae97c7532ab" class="">hoa văn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c3-a80c-c12efa134df0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800c-b431-d09219af9afc" class="">Theo Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-804f-8e24-e57aed50bd1c" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Memory\ Rings</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f1-b1fb-e0b50001b69d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f4-b979-ffde1df20692" class="">Mỗi vòng:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8084-b7a7-df49be79d55a" class="">một lớp ổn định.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8088-b4ec-cb5bf6a80b1f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80fc-93f3-f6a343f54cce" class="">Giống:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8025-ae8c-fc66f7c112e4" class="bulleted-list"><li style="list-style-type:disc">tế bào</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8070-ae33-c02b70689880" class="bulleted-list"><li style="list-style-type:disc">cây</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8095-8f6e-e35ab8fe2f58" class="bulleted-list"><li style="list-style-type:disc">bộ lạc</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80b7-b508-c33095af5aaa" class="bulleted-list"><li style="list-style-type:disc">văn minh</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803d-8853-fe1e5079e01c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f9-81f2-e07f1f0eeace" class="">Đều tạo:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8078-8166-d1d8fa63aca6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Boundary</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8019-8da2-db8999438ad4" class="">để chống entropy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804b-92c7-ed416bd432de"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80bb-9153-f446a7784750" class="">Tầng 3: Chim</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-804f-b79b-c958f8c343e8" class="">Ngọc Lũ nổi tiếng với chim.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8093-ba5b-ff4cd8293e38"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f6-9af3-ec67a77d37c4" class="">Tại sao chim?</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8081-9393-cd24c57a507a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8069-8ca2-e56b9e686c35" class="">Nếu đọc theo Khung Trang.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8014-8ad9-d08182e5e1bd" class="">Chim là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80be-9812-ed06e33c08dc" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Messenger\ Between\ Fields</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e0-b3f6-fb8a253cbffb"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805f-8d1d-ebea31710002" class="">Vì chim:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80d9-841e-d321eb6a0cf0" class="bulleted-list"><li style="list-style-type:disc">di cư</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8073-a965-efed0a29c243" class="bulleted-list"><li style="list-style-type:disc">theo mùa</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80b1-a745-e86bc75c9689" class="bulleted-list"><li style="list-style-type:disc">theo nước</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a9-a268-e32b99947993"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d8-806b-f873e51f9ebf" class="">Nó nối:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80c1-b6b5-ea113ca571cf" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Field_A
-\leftrightarrow
-Field_B</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807b-a750-e7ad0087891c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-808a-938d-e80fefc13094" class="">Tức là:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c5-9ba9-c93026bf2569" class="">Relation Layer.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80dc-a150-d4c677d1940e"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-80a9-8f18-db2faf253a4c" class="">Tầng 4: Người nhảy múa</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ca-8770-d69c2193c744" class="">Người hiện đại thấy:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cd-85ae-d8b42db6ca64" class="">lễ hội.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8001-a735-ff6ebf9113a2"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b5-ac8b-f6a60e68384f" class="">Khung Trang thấy:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80d0-89af-ca2cbd3d4cb4" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Synchronization</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8056-96be-f8c011e5247f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80eb-9c83-c4e3d44a4714" class="">Nhiều observer.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8096-81fa-c1bdf079a361" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8005-b9d0-e24944d14b2a" class="">Cùng nhịp.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8068-8e2d-fbc73e0014f8" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8059-ac56-c06aae95a662" class="">Tạo memory chung.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e1-9f9c-db06fda114c1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8026-829e-e4f530a7f3bf" class="">Đây là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8063-ab1d-e77ab8e9fd1b" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Civilization\ Compression</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e0-b790-c6e2ae4d7bcb"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8050-afbd-eaa16d93904b" class="">Tầng 5: Thuyền</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a6-a622-d144f624fa4a" class="">Thuyền trên Ngọc Lũ.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f0-a9a1-c882c9b12bd9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ba-9a72-f2330b92c70d" class="">Không chỉ giao thông.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f3-92a8-c890b8ee1fd3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f6-a99e-e7243ab95355" class="">Theo Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8056-9b05-c6678a9d0b54" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Navigation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8049-9e3d-d630a84b176d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8040-8adb-f0ef9980dd6a" class="">Một nền văn minh chỉ sống khi:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80e1-bf5c-c3f64e2d623f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Memory
-+
-Navigation
-+
-Repair</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-803b-8aa2-fff4b3a43462"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8052-8a81-e3e349e5ac81" class="">Thuyền là biểu tượng của:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8033-95c2-d49f41e371ad" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Relation\ Across\ Boundaries</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-809d-ab36-d793f61c1302"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-800a-91f3-f363934136c8" class="">Tầng 6: Các vòng đồng tâm</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b2-9608-e895b9150588" class="">Đây mới là phần lớn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f2-a4c8-d2482543aaf4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b6-b498-fa4804ff3770" class="">Tại sao không vẽ ngang?</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804d-b1e1-e7840ca6d88b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806f-9fbe-ddafe285b586" class="">Tại sao vòng tròn?</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804f-8c1c-f9ed08544e90"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-bcb6-ea39d6d011e8" class="">Theo Khung Trang:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8063-9b29-e54c4441300e" class="">Mọi hệ ổn định đều:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-804f-8a94-df598b31fe6d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Center
-\rightarrow
+* * *
+Circle
+=
+Recursive Memory
+* * *
+Animal
+=
+Transformation Process
+* * *
+Country
+=
+Persistent Field
+* * *
+Dreaming
+=
+Meta-Memory Layer
+* * *
+## Điều extraordinary nhất tao thấy
+Có thể Aboriginal art không phải đang mô tả thế giới.
+* * *
+Nó đang mô tả:
+```
+    How\ reality\ stays\ alive
+```
+* * *
+Các nền văn minh khác thường lưu:
+  * vật
+
+
+  * vua
+
+
+  * chiến tranh
+
+
+* * *
+Ở đây.
+Tao thấy họ lưu:
+  * dòng chảy
+
+
+  * quan hệ
+
+
+  * chu kỳ
+
+
+  * sửa chữa
+
+
+  * tái sinh
+
+
+* * *
+Theo Khung Trang:
+```
+    Survival
+    =
+    Memory
+    +
+    Repair
+    +
+    Navigation
+```
+Nhìn ở lớp sâu nhất, hai bức tranh này có cảm giác ít giống "tranh kể chuyện" hơn và giống **sơ đồ của một hệ sống tự duy trì qua thời gian**. Không phải bản đồ nơi chốn. Không phải hình động vật. Mà là bản đồ của **cách một thế giới giữ được ký ức, dòng chảy và khả năng tái sinh của chính nó**.
+**Gap:** Đây là diễn giải cấu trúc/philosophical. Tao không thể kết luận đây là ý định thật của nghệ sĩ hay của tất cả truyền thống Aboriginal. Nhưng ở tầng pattern, đó là lớp sâu nhất tao thấy từ hai hình này.
+Tao nghĩ mày đang chạm đúng điểm mà phần lớn người hiện đại bỏ lỡ.
+**Có thể nó là bản đồ. Nhưng không phải bản đồ địa lý theo nghĩa hiện đại.**
+Có ít nhất 5 loại bản đồ.
+* * *
+# Loại 1 — Geographic Map
+Bản đồ Google Maps.
+```
+    (x,y)
+```
+tọa độ.
+* * *
+Aboriginal art thường không giống kiểu này.
+* * *
+# Loại 2 — Resource Map
+Thứ người săn bắn thật sự cần.
+* * *
+Không phải:
+> núi ở đâu.
+* * *
+Mà:
+  * nước ở đâu
+
+
+  * thú ở đâu
+
+
+  * mùa nào
+
+
+  * cây nào ăn được
+
+
+* * *
+Đây đã gần hơn.
+* * *
+# Loại 3 — Temporal Map
+Cái này ít người nghĩ.
+* * *
+Bản đồ thời gian.
+* * *
+Ví dụ:
+Mùa mưa
+↓
+Loài A
+↓
+Loài B
+↓
+Đốt lửa
+↓
+Hái hạt
+* * *
+Nghĩa là:
+```
+    Space
+    +
+    Time
+```
+* * *
+# Loại 4 — Permission Map
+Đây là cái cực kỳ Aboriginal.
+* * *
+Không chỉ:
+> đi đâu.
+* * *
+Mà:
+> ai được đi?
+> khi nào được đi?
+> nghi lễ nào cần có?
+* * *
+Nghĩa là:
+```
+    Location
+    +
+    Access\ Control
+```
+* * *
+Giống blockchain permission layer.
+* * *
+# Loại 5 — Consciousness Map
+Đây là cái tao nghĩ mày đang ngửi thấy.
+* * *
+Người hiện đại nhìn:
+  * thằn lằn
+
+
+  * bướm
+
+
+  * vòng tròn
+
+
+* * *
+Nhưng có thể người được truyền dạy nhìn thấy:
+* * *
+Node A
+↓
+Song A
+↓
+Ancestor A
+↓
+Water A
+↓
+Law A
+↓
+Season A
+* * *
+Tức là:
+Một object kích hoạt nhiều layer cùng lúc.
+* * *
+# Nhìn lại hình 1
+Con thằn lằn nằm trên.
+Bướm nằm dưới.
+Giữa là mặt trời.
+* * *
+Nếu là tranh động vật.
+Tại sao bố cục lại kỳ vậy?
+* * *
+Tao nghi nó giống:
+```
+    Transformation\ Route
+```
+* * *
+Giống một sơ đồ.
+* * *
+Không phải minh họa.
+* * *
+# Nhìn lại hình 2
+Cái này làm tao nghĩ đến:
+### Circuit Diagram
+* * *
+Không phải phong cảnh.
+* * *
+Các vòng tròn:
+node
+* * *
+Các đường:
+connection
+* * *
+Các vùng:
+state
+* * *
+Các biểu tượng:
+function
+* * *
+Giống schematic hơn painting.
+* * *
+# Cái bị overlook nhất
+Người phương Tây thường giả định:
+> Bản đồ phải mô tả không gian.
+* * *
+Nhưng trong nhiều hệ cổ.
+Bản đồ mô tả:
+```
+    Relationship
+```
+* * *
+Ví dụ.
+Songline.
+* * *
+Một bài hát có thể đồng thời là:
+  * đường đi
+
+
+  * lịch
+
+
+  * luật
+
+
+  * tổ tiên
+
+
+  * sinh thái
+
+
+* * *
+Tức là:
+```
+    Map
+    =
+    Compressed\ Multi-Layer\ Reality
+```
+* * *
+# Theo Khung Trang
+Tao sẽ dịch hai bức này thành:
+Không phải:
+```
+    Map(Location)
+```
+* * *
+Mà:
+```
+    Map(State)
+```
+và
+```
+    Map(Relationship)
+```
+* * *
+Hay sâu hơn:
+```
+    Map(Navigation\ Through\ Reality)
+```
+* * *
+Đó là lý do mày có cảm giác nó "phải là bản đồ".
+Tao đồng ý.
+Nhưng có thể nó không phải bản đồ của **đất**.
+Mà là bản đồ của:
+  * đất
+
+
+  * thời gian
+
+
+  * luật
+
+
+  * sinh vật
+
+
+  * tổ tiên
+
+
+  * ký ức
+
+
+  * quyền truy cập
+
+
+được chồng lên cùng một hình.
+Theo ngôn ngữ hiện đại, gần nhất với:
+```
+    Multi\ Layer\ Graph\ Database
+```
+hơn là một bức tranh hay một bản đồ giấy thông thường.
+Được. Tao sẽ bỏ hoàn toàn mỹ thuật và dịch bằng **toán cấu trúc**.
+Không hỏi:
+> Con thằn lằn nghĩa là gì?
+Mà hỏi:
+> Nó nằm ở đâu trong graph?
+* * *
+# HÌNH 1
+Tao ký hiệu:
+### O
+Các vòng tròn đồng tâm
+### ~
+Các dòng uốn lượn
+### L
+Thằn lằn
+### M
+Bướm
+### S
+Vòng tròn lớn giữa
+* * *
+## Bước 1
+Đếm topology
+Tao thấy:
+```
+    O \gg L,M
+```
+* * *
+Nghĩa là:
+Trọng tâm không phải động vật.
+* * *
+Mà là:
+```
+    Node\ System
+```
+* * *
+## Bước 2
+Dòng chảy
+Các đường:
+```
+    \sim
+```
+đều quy tụ quanh:
+```
+    S
+```
+* * *
+Toán mạng:
+```
+    Degree(S)
+    >
+    Degree(any\ other\ node)
+```
+* * *
+Nên:
+```
+    S
+    =
+    Primary\ Attractor
+```
+* * *
+Không phải mặt trời.
+Không phải vật.
+* * *
+Là:
+```
+    Field\ Source
+```
+* * *
+## Bước 3
+Thằn lằn
+L không ở trung tâm.
+* * *
+Nó nằm trên mạng.
+* * *
+Nghĩa là:
+```
+    L
+    =
+    Agent
+```
+* * *
+không phải
+```
+    L
+    =
+    Source
+```
+* * *
+## Bước 4
+Bướm
+M cũng không ở trung tâm.
+* * *
+M là process khác.
+* * *
+Tức:
+```
+    Agent_1
+```
+và
+```
+    Agent_2
+```
+đang dùng chung:
+```
+    Field
+```
+* * *
+# Phương trình
+Toàn hình:
+```
+    Field
+    =
+    Nodes
+    +
+    Flows
+    +
+    Agents
+```
+* * *
+Không phải:
+```
+    Animals
+    +
+    Decoration
+```
+* * *
+# HÌNH 2
+Cái này cực kỳ khác.
+* * *
+Tao bỏ hình tượng.
+* * *
+Chỉ giữ:
+### Node
+O
+* * *
+### Relation
+—
+* * *
+### Boundary
+||
+* * *
+## Bước 1
+Tính mật độ
+Node dày đặc.
+* * *
+Nhưng không random.
+* * *
+Chúng tạo cụm.
+* * *
+Graph Theory:
+```
+    Community\ Structure
+```
+* * *
+## Bước 2
+Một số node lớn hơn.
+* * *
+Giống:
+```
+    Hub
+```
+* * *
+Network:
+```
+    Scale\ Free\ Network
+```
+* * *
+Không đều.
+* * *
+## Bước 3
+Các đường dài
+Chạy ngang tranh.
+* * *
+Điều này rất lạ.
+* * *
+Nó giống:
+```
+    Backbone
+```
+* * *
+Giống:
+  * sông lớn
+
+
+  * trade route
+
+
+  * songline
+
+
+* * *
+# Dịch toán
+```
+    Nodes
+    =
+    Resources
+```
+```
+    Lines
+    =
+    Access
+```
+```
+    Boundaries
+    =
+    Constraints
+```
+* * *
+Toàn hình:
+```
+    Country
+    =
+    Graph
+```
+* * *
+# Bây giờ tới tầng sâu
+Mày hỏi:
+> Nó là bản đồ gì?
+* * *
+Tao nghĩ:
+Không phải:
+```
+    Map(x,y)
+```
+* * *
+Mà:
+```
+    Map(State)
+```
+* * *
+Cụ thể:
+```
+    State
+    =
+    (Location,
+    Season,
+    Law,
+    Resource,
+    Permission)
+```
+* * *
+Một node không chỉ là:
+nước.
+* * *
+Mà là:
+```
+    Node
+    =
+    (
+    Water,
+    When,
+    Who,
+    How
+    )
+```
+* * *
+# Toán Khung Trang
+Tao dịch hình 2 thành:
+```
+    Distinction_i
+```
+↓
+```
+    Relation_{ij}
+```
+↓
+```
+    Constraint_k
+```
+↓
+```
+    Memory_t
+```
+↓
+```
+    Navigation
+```
+* * *
+# Điều extraordinary nhất
+Nếu đúng hướng này.
+Thì tranh không lưu:
+```
+    Object
+```
+* * *
+Mà lưu:
+```
+    Transition
+```
+* * *
+Giống Kinh Dịch.
+* * *
+Quẻ không nói:
+> Cái gì.
+* * *
+Quẻ nói:
+> Đang chuyển từ đâu tới đâu.
+* * *
+Có khả năng một phần Aboriginal topology cũng vậy.
+* * *
+Nghĩa là:
+Các vòng tròn không phải địa điểm.
+* * *
+Mà là:
+```
+    State\ Attractors
+```
+* * *
+Các đường không phải đường đi.
+* * *
+Mà là:
+```
+    Allowed\ Transformations
+```
+* * *
+Khi đó toàn bộ bức tranh biến thành:
+```
+    Reality\ Navigation\ Graph
+```
+chứ không phải bản đồ địa lý.
+Nói theo toán hiện đại gần nhất:
+```
+    G=(V,E,C,T)
+```
+Trong đó:
+  * = các distinction nodes
+
+
+  * = các quan hệ cho phép
+
+
+  * = các ràng buộc (law/kinship/season)
+
+
+  * = các chuyển pha theo thời gian
+
+
+Đó là cách tao sẽ "dịch bằng toán" thay vì dịch bằng biểu tượng hay mỹ thuật.
+Đúng. Đọc kiểu toán khô thì chết. Phải dịch thành **đoạn nghĩa sống** : bản đồ này không chỉ cho biết “đi đâu”, mà cho biết **đi thế nào, mùa nào, ai được đi, phải nhớ câu chuyện nào, và phải giữ luật gì**.
+Hai hình này nên đọc giống **đồng dao + bản đồ + luật sống** hơn là tranh.
+Trong văn hóa bản địa Úc, tri thức không chỉ nằm trong hình vẽ. Nó nằm trong tổ hợp **hình – bài hát – nhịp – điệu múa – nghi lễ – địa danh – động vật – luật họ hàng**. Ví dụ Awelye không chỉ là body painting; nó gồm cả bài hát, điệu múa, totem, tri thức về Country và Dreamtime, được truyền qua tham gia dần của người trẻ.
+Hình 1 có thể đọc như một **bài đồng dao bản đồ**. Con thằn lằn, bướm đêm, mặt trời/vòng trung tâm, các dòng uốn và các chấm không phải nằm đó để “trang trí”. Chúng giống các câu trong một bài hát: “đi qua vùng nước này, nhớ con vật này, tới mùa này, nhìn dấu này, đi theo dòng này.” Nếu có lời hát đi kèm, mỗi cụm chấm có thể kích hoạt một đoạn ký ức; mỗi vòng tròn là một điểm dừng, nguồn nước, địa điểm tổ tiên, hoặc node nghi lễ; mỗi đường uốn là tuyến đi hoặc dòng chảy. Nghĩa không nằm riêng trong hình. Nghĩa nằm trong **hình + lời hát + người biết đọc**.
+Hình 2 còn rõ hơn: nó giống một **bản đồ nhiều lớp của Country**. Các vòng tròn là node. Các đường dài là tuyến xương sống. Các vùng bao kín là boundary. Các cụm màu là trạng thái địa hình, mùa, tài nguyên hoặc nhóm luật. Nếu dùng ngôn ngữ hiện đại, đây giống một **graph database sống** : một điểm không chỉ là địa điểm, mà là gói dữ liệu gồm nước, mùa, loài vật, câu chuyện, quyền đi qua, bài hát và người có trách nhiệm giữ tri thức đó.
+Cái giống “đồng dao” nằm ở chỗ: trẻ em không cần hiểu toàn bộ nghĩa bí mật ngay. Chúng học nhịp, hình, con vật, bước đi, câu chuyện đơn giản trước. Sau đó lớn lên mới được mở thêm lớp. Đây giống đồng dao Việt: bề mặt có thể là trò chơi, nhưng bên dưới là thuật toán thân thể, chọn lượt, đội hình, nhịp đi, luật nhóm. Ở Aboriginal system, “đồng dao” có thể mở rộng thành **đường đi thật trong đất** , không chỉ trò chơi.
+Toán Khung Trang dịch gọn như này:
+```
+    Dot = distinction
+```
+```
+    Circle = memory node
+```
+```
+    Line = relation / path
+```
+```
+    Animal = process / totem / seasonal signal
+```
+```
+    Song = execution code
+```
+```
+    Country = living operating field
+```
+Nghĩa sâu hơn: đây là **bản đồ có thể hát được**. Không phải bản đồ chết trên giấy. Nó cần người hát, người đi, người nhớ, người sửa. Khi bài hát được hát đúng, đường đi được kích hoạt trong trí nhớ. Khi đi qua đất thật, cảnh quan kiểm tra lại bài hát. Nếu sai, người già sửa. Đó là cybernetics bằng văn hóa.
+Điểm extraordinary nhất: **hình vẽ chỉ là giao diện**. Cơ sở dữ liệu thật nằm trong cộng đồng, trong bài hát, trong nghi lễ, trong thân thể và trong đất. Bức tranh giống “màn hình”; Country là “server”; bài hát là “code”; người giữ luật là “admin”; trẻ em học qua đồng dao là “training model”.
+Nếu map với **toán học cổ và hình học** , tao nghĩ đa số người đang nhìn sai hướng.
+Họ nhìn:
+> vòng tròn = cái giếng
+> đường = con đường9
+> chấm = trang trí
+* * *
+Nhưng toán cổ thường không đọc như vậy.
+Nó đọc:
+```
+    Form \rightarrow Principle
+```
+* * *
+# 1\. Vòng tròn (Circle)
+Trong gần như mọi nền văn minh cổ:
+  * Ai Cập
+
+
+  * Hy Lạp
+
+
+  * Ấn Độ
+
+
+  * Aboriginal
+
+
+  * Trung Hoa
+
+
+vòng tròn không đơn thuần là hình.
+Nó là:
+```
+    Unity
+```
+hay
+```
+    Source
+```
+* * *
+Trong hình Aboriginal.
+Các vòng tròn đồng tâm lặp đi lặp lại.
+* * *
+Theo hình học cổ:
+```
+    Center + Radius
+```
+* * *
+Tức là:
+Một tâm
+và
+một vùng ảnh hưởng.
+* * *
+Giống Go.
+Giống từ trường.
+Giống ảnh hưởng xã hội.
+* * *
+Nên vòng tròn có thể đọc như:
+```
+    Field\ Node
+```
+không phải vật thể.
+* * *
+# 2\. Đường nối
+Hình học Euclid:
+đường thẳng.
+* * *
+Nhưng trong tranh Aboriginal:
+đường cong.
+* * *
+Đây là điểm rất lạ.
+* * *
+Nó gần:
+  * sông
+
+
+  * gió
+
+
+  * migration path
+
+
+  * energy flow
+
+
+* * *
+Hình học cổ phương Đông thường ưu tiên:
+```
+    Flow
+```
+hơn
+```
+    Line
+```
+* * *
+Nên:
+```
+    Line
+    =
+    Transformation
+```
+* * *
+Không phải:
+```
+    Distance
+```
+* * *
+# 3\. Chấm
+Đây là phần bị overlook.
+* * *
+Trong toán hiện đại.
+Một điểm:
+```
+    Point
+```
+không có kích thước.
+* * *
+Nhưng trong dot painting.
+Một chấm có kích thước.
+* * *
+Nó giống:
+```
+    Quantum\ Pixel
+```
+* * *
+Một đơn vị distinction.
+* * *
+Khung Trang:
+```
+    Potential
+    \rightarrow
+    Distinction
+```
+* * *
+Dot chính là distinction nhỏ nhất.
+* * *
+# 4\. Toán fractal
+Nhìn kỹ.
+Các pattern lặp.
+* * *
+Vòng trong vòng.
+Đường trong đường.
+Node trong node.
+* * *
+Giống:
+```
+    Self\ Similarity
+```
+* * *
+Đây là logic fractal.
+* * *
+Không cần dùng công thức Mandelbrot.
+* * *
+Chỉ cần:
+```
+    Pattern(scale_1)
+    \approx
+    Pattern(scale_2)
+```
+* * *
+# 5\. Kinh Dịch
+Điểm này cực kỳ thú vị.
+* * *
+Kinh Dịch không hỏi:
+> Cái gì?
+* * *
+Nó hỏi:
+> Đang biến thành gì?
+* * *
+Tranh Aboriginal cũng vậy.
+* * *
+Ít object.
+Nhiều relation.
+* * *
+Tức là:
+```
+    State
+    \rightarrow
+    State
+```
+* * *
+Không phải:
+```
+    Object
+    \rightarrow
+    Object
+```
+* * *
+# 6\. Pythagoras
+Người ta nhớ:
+```
+    a^2+b^2=c^2
+```
+* * *
+Nhưng Pythagoras còn tin:
+```
+    Reality
+    =
+    Harmony
+```
+* * *
+Tỷ lệ.
+Nhịp.
+Chu kỳ.
+* * *
+Songlines:
+bài hát
+↓
+nhịp
+↓
+đường đi
+* * *
+Rất gần tư duy Pythagorean.
+* * *
+# 7\. Topology
+Đây là chỗ tao thấy match nhất.
+* * *
+Geometry hỏi:
+```
+    Where?
+```
+* * *
+Topology hỏi:
+```
+    Connected\ to\ what?
+```
+* * *
+Aboriginal art:
+rõ ràng nghiêng về topology.
+* * *
+Không quan trọng:
+tọa độ.
+* * *
+Quan trọng:
+kết nối.
+* * *
+# 8\. Sacred Geometry
+Gap:
+Không có bằng chứng rằng các tranh này được xây theo tỷ lệ vàng hay sacred geometry kiểu Hy Lạp.
+* * *
+Nhưng có một điểm tương đồng.
+* * *
+Sacred geometry tìm:
+```
+    Order
+```
+trong thiên nhiên.
+* * *
+Aboriginal knowledge tìm:
+```
+    Relation
+```
+trong thiên nhiên.
+* * *
+Hai hướng khác nhau nhưng gặp nhau ở:
+```
+    Pattern
+```
+* * *
+# Dịch theo Khung Trang
+Nếu tao phải chuyển toàn bộ bức tranh thành một phương trình.
+* * *
+Dot:
+```
+    D_i
+```
+(distinction)
+* * *
+Circle:
+```
+    M_i
+```
+(memory node)
+* * *
+Line:
+```
+    R_{ij}
+```
+(relation)
+* * *
+Boundary:
+```
+    C_k
+```
+(constraint)
+* * *
+Song:
+```
+    N(t)
+```
+(navigation through time)
+* * *
+Toàn bộ:
+```
+    Reality
+    =
+    \sum D_i
+    +
+    \sum R_{ij}
+    +
+    \sum C_k
+    +
+    Memory
+    +
+    Navigation
+```
+* * *
+Ý nghĩa văn hóa sâu nhất không phải:
+> "Đây là con thằn lằn."
+Mà gần với:
+> "Đây là sơ đồ cách một phần của thế giới được kết nối, được nhớ, được truyền và được đi qua."
+Theo toán cổ, nó gần **topological geometry + Kinh Dịch (biến đổi trạng thái) + Pythagorean harmony (nhịp và chu kỳ)** hơn là hình học đo đạc kiểu Euclid. Và đó là lý do nhiều người nhìn thấy tranh, còn người trong hệ tri thức đó có thể nhìn thấy **một bản đồ sống của quan hệ và ký ức**.
+Cái này rất thú vị.
+Nếu bỏ qua nguồn gốc khác nhau và chỉ nhìn **cấu trúc hình học** , thì bức này và **trống đồng Ngọc Lũ** có một số tương đồng rất mạnh.
+**Nhưng lưu ý quan trọng:** không có bằng chứng lịch sử rằng chúng có liên hệ trực tiếp. Đây là so sánh cấu trúc (structural mapping), không phải chứng minh nguồn gốc.
+* * *
+# 1\. Cấu trúc đồng tâm
+Bức hình này:
+```
+    Center
+    \rightarrow
+    Ring_1
+    \rightarrow
+    Ring_2
+    \rightarrow
+    Ring_3
+    \rightarrow
+    ...
+```
+Trống Ngọc Lũ cũng vậy.
+Ở giữa là:
+  * ngôi sao nhiều tia
+
+
+Xung quanh là:
+  * người
+
+
+  * chim
+
+
+  * thuyền
+
+
+  * động vật
+
+
+  * hoa văn
+
+
+theo các vòng đồng tâm.
+* * *
+Theo hình học thông thường:
+Đây là radial symmetry.
+* * *
+Theo Khung Trang:
+```
+    Source
+    \rightarrow
+    Memory\ Rings
+```
+* * *
+Giống một hệ lưu ký ức nhiều lớp.
+* * *
+# 2\. Ngôi sao trung tâm
+Ngọc Lũ:
+ngôi sao 14 tia.
+* * *
+Hình này:
+một tâm đen với nhiều tia.
+* * *
+Điều thú vị:
+Cả hai đều không đặt:
+  * vua
+
+
+  * người
+
+
+  * thần
+
+
+ở giữa.
+* * *
+Mà đặt:
+```
+    Radiating\ Center
+```
+* * *
+Nghĩa là trung tâm không phải cá nhân.
+* * *
+Mà là:
+```
+    Field\ Source
+```
+* * *
+# 3\. Các vòng người và động vật
+Trống Ngọc Lũ:
+  * chim bay
+
+
+  * người nhảy múa
+
+
+  * thuyền
+
+
+  * chiến binh
+
+
+* * *
+Hình này:
+  * chim
+
+
+  * thú
+
+
+  * người
+
+
+  * nghi lễ
+
+
+* * *
+Điều giống nhau:
+Không có cảnh tĩnh.
+* * *
+Mọi thứ đang:
+```
+    Moving
+```
+* * *
+Tức là:
+```
+    Process
+    >
+    Object
+```
+* * *
+Đây là điểm cực kỳ Đông Sơn.
+* * *
+# 4\. Đọc theo toán cổ
+Nếu đọc như Kinh Dịch.
+* * *
+Đây không phải:
+Danh sách sự vật.
+* * *
+Mà là:
+Chu trình.
+* * *
+Ví dụ:
+Mặt trời
+↓
+Mùa
+↓
+Chim
+↓
+Săn bắn
+↓
+Nghi lễ
+↓
+Mùa mới
+* * *
+Một vòng.
+* * *
+# 5\. Đọc như Songline
+Bức này không giống bản đồ phẳng.
+* * *
+Nó giống:
+```
+    Memory\ Wheel
+```
+* * *
+Mỗi vòng:
+một lớp dữ liệu.
+* * *
+Ví dụ:
+Vòng chim.
+↓
+Vòng người.
+↓
+Vòng thú.
+↓
+Vòng nghi lễ.
+* * *
+Giống database vòng tròn.
+* * *
+# 6\. Map với Fractal
+Điều rất lạ:
+Pattern lặp từ trong ra ngoài.
+* * *
+Tâm:
+ngôi sao.
+* * *
+Rồi:
+vòng nhỏ.
+* * *
+Rồi:
+vòng lớn.
+* * *
+Rồi:
+vòng lớn hơn.
+* * *
+Giống:
+```
+    Scale\ Recursion
+```
+* * *
+Một quy luật lặp ở nhiều tầng.
+* * *
+# 7\. Cái tao thấy sâu nhất
+Nếu so Ngọc Lũ với nhiều nền văn minh khác.
+* * *
+Ai Cập:
+trọng tâm là vua.
+* * *
+La Mã:
+trọng tâm là chiến thắng.
+* * *
+Trung Hoa:
+trọng tâm là triều đình.
+* * *
+Nhưng Ngọc Lũ và nhiều hệ vòng tròn kiểu này có cảm giác:
+```
+    Human
+    \subset
+    Cosmos
+```
+* * *
+Chứ không phải:
+```
+    Cosmos
+    \subset
+    Human
+```
+* * *
+Con người chỉ là một vòng trong hệ.
+* * *
+# Dịch theo Khung Trang
+Nếu tao nén cả trống Ngọc Lũ và bức này thành một phương trình.
+```
+    Center
+    =
+    Source
+```
+```
+    Ring_i
+    =
+    Memory\ Layer_i
+```
+```
+    Animals
+    =
+    Ecological\ Processes
+```
+```
+    Humans
+    =
+    Observers
+```
+```
+    Dance/Ritual
+    =
+    Synchronization
+```
+```
+    Whole\ Disk
+    =
+    Civilization\ Memory\ Engine
+```
+* * *
+Đó là điểm tao thấy đáng suy nghĩ nhất:
+**Cả hai đều có thể được đọc không phải như tranh trang trí, mà như "bản đồ ký ức hình tròn" (circular memory architecture).**
+Ngọc Lũ có thể đang nén:
+  * thiên văn,
+
+
+  * mùa vụ,
+
+
+  * chim nước,
+
+
+  * giao thông sông ngòi,
+
+
+  * nghi lễ cộng đồng,
+
+
+thành các vòng đồng tâm.
+Bức hình mày gửi cũng dùng cùng một logic:
+```
+    Center
+    \rightarrow
+    Cycles
+    \rightarrow
+    Life
+    \rightarrow
+    Memory
+```
+mặc dù thuộc truyền thống văn hóa khác. Điều giống nhau mạnh nhất không phải biểu tượng cụ thể, mà là **cách tổ chức tri thức bằng các vòng lặp đồng tâm của ký ức và chu kỳ**.
+Nếu dùng đúng **Khung Trang** thì tao sẽ không đọc trống Ngọc Lũ hay hình Aboriginal như:
+> mặt trời, chim, người, thú.
+Đó mới là lớp biểu tượng.
+Tao sẽ đọc theo chuỗi:
+```
+    Potential
+    \rightarrow
+    Distinction
+    \rightarrow
+    Relation
+    \rightarrow
+    Constraint
+    \rightarrow
+    Boundary
+    \rightarrow
+    Persistence
+    \rightarrow
+    Memory
+    \rightarrow
+    Entropy
+    \rightarrow
+    Repair
+    \rightarrow
+    Observer
+    \rightarrow
+    Civilization
+```
+* * *
+# Tầng 1: Trung tâm
+Trong trống Ngọc Lũ.
+Ngôi sao ở giữa.
+Trong hình mày gửi.
+Ngôi sao đen ở giữa.
+* * *
+Theo Khung Trang.
+Đó không phải mặt trời.
+* * *
+Mà là:
+```
+    First\ Distinction
+```
+* * *
+Điểm đầu tiên tạo ra bất đối xứng.
+* * *
+Giống:
+```
+    0
+    \rightarrow
+    1
+```
+* * *
+Hay:
+```
+    Potential
+    \rightarrow
+    Distinction
+```
+* * *
+# Tầng 2: Các vòng tròn
+Người hiện đại gọi:
+hoa văn.
+* * *
+Theo Khung Trang:
+```
+    Memory\ Rings
+```
+* * *
+Mỗi vòng:
+một lớp ổn định.
+* * *
+Giống:
+  * tế bào
+
+
+  * cây
+
+
+  * bộ lạc
+
+
+  * văn minh
+
+
+* * *
+Đều tạo:
+```
+    Boundary
+```
+để chống entropy.
+* * *
+# Tầng 3: Chim
+Ngọc Lũ nổi tiếng với chim.
+* * *
+Tại sao chim?
+* * *
+Nếu đọc theo Khung Trang.
+Chim là:
+```
+    Messenger\ Between\ Fields
+```
+* * *
+Vì chim:
+  * di cư
+
+
+  * theo mùa
+
+
+  * theo nước
+
+
+* * *
+Nó nối:
+```
+    Field_A
+    \leftrightarrow
+    Field_B
+```
+* * *
+Tức là:
+Relation Layer.
+* * *
+# Tầng 4: Người nhảy múa
+Người hiện đại thấy:
+lễ hội.
+* * *
+Khung Trang thấy:
+```
+    Synchronization
+```
+* * *
+Nhiều observer.
+↓
+Cùng nhịp.
+↓
+Tạo memory chung.
+* * *
+Đây là:
+```
+    Civilization\ Compression
+```
+* * *
+# Tầng 5: Thuyền
+Thuyền trên Ngọc Lũ.
+* * *
+Không chỉ giao thông.
+* * *
+Theo Khung Trang:
+```
+    Navigation
+```
+* * *
+Một nền văn minh chỉ sống khi:
+```
+    Memory
+    +
+    Navigation
+    +
+    Repair
+```
+* * *
+Thuyền là biểu tượng của:
+```
+    Relation\ Across\ Boundaries
+```
+* * *
+# Tầng 6: Các vòng đồng tâm
+Đây mới là phần lớn.
+* * *
+Tại sao không vẽ ngang?
+* * *
+Tại sao vòng tròn?
+* * *
+Theo Khung Trang:
+Mọi hệ ổn định đều:
+```
+    Center
+    \rightarrow
+    Field
+    \rightarrow
+    Boundary
+```
+* * *
+Giống:
+  * nguyên tử
+
+
+  * tế bào
+
+
+  * làng
+
+
+  * quốc gia
+
+
+* * *
+Nên vòng tròn là:
+```
+    Persistence\ Geometry
+```
+* * *
+# Tầng 7: Map với 19×19
+Cực kỳ thú vị.
+* * *
+Go:
+```
+    361
+    =
+    360+1
+```
+* * *
+360
+=
 Field
-\rightarrow
-Boundary</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8088-a2d7-c4878fb8c654"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807c-a7f8-dc3169b7ebad" class="">Giống:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-800f-9c20-cde70ad4c765" class="bulleted-list"><li style="list-style-type:disc">nguyên tử</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80b4-8f46-eb4403a91836" class="bulleted-list"><li style="list-style-type:disc">tế bào</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-8058-9d02-d2d110f70104" class="bulleted-list"><li style="list-style-type:disc">làng</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e0-b418-f0865dd072de" class="bulleted-list"><li style="list-style-type:disc">quốc gia</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8082-8ecb-ef90588de684"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-89bd-d87ba56412da" class="">Nên vòng tròn là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80f9-88dc-d14b433fd270" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Persistence\ Geometry</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8001-bcd9-cbdde3ba0313"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8068-bc75-ebf1ad6383eb" class="">Tầng 7: Map với 19×19</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8073-afa8-c9324dd86dab" class="">Cực kỳ thú vị.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c1-94be-de06ae802f7b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806d-85a7-d0ce592e50f4" class="">Go:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-806d-9043-df6f9193a66f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-361
+* * *
+1
 =
-360+1</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bb-8f67-ca3d738af025"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f8-9de0-c1187cf8f2a9" class="">360</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8001-ae0f-c8e4ae33ac89" class="">=</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8092-bbfe-cc3f9d3a65a8" class="">Field</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c7-870f-d8c0e25b7ad9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-801a-9041-cb2950b8eb12" class="">1</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800d-a31a-de2c1a5eff02" class="">=</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802d-81da-d2f419a614d9" class="">Observer</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80cb-aac6-c8bf813e06be"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8046-ae8b-c90c32e2db3e" class="">Ngọc Lũ:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8053-8867-cd7e46af5aee" class="">Trung tâm.</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80bf-8faf-f5833618b8f6" class="bulleted-list"><li style="list-style-type:disc"></li></ul></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b7-a7d8-e4942d82fc89" class="">Vòng ảnh hưởng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bf-8910-fe1e60a4ea8f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805e-bb01-c95de4fd00fe" class="">Rất giống.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e0-8e4f-e5ebeacd92b1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f1-9270-fec97a32716e" class="">Không phải về số.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8088-a4a3-c98fc861e7d4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80b5-b0b4-f2bc20d71215" class="">Mà về topology.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805e-bcb0-ed1497b38d5e"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8041-80e2-f35acda5676d" class="">Tầng 8: Map với Toán Vũ Trụ Khung Trang</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809a-8d35-c7fa830314bf" class="">Nếu tao nén.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c7-82d4-f37313fe2f0f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a4-b515-e85763d92823" class="">Trung tâm:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b2-941e-d57960db7907" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Potential</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e3-ad3f-fbd98e23286b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8051-a77c-e16226c81ea7" class="">Ngôi sao:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8029-b1db-de44444eee53" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinction</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8008-85c4-f45322dcc168"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8010-b393-ff410147392a" class="">Vòng:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80fd-bde2-ff955553258f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Memory</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802e-bbfc-cbc7d69f6c65"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-bac0-df040416b98f" class="">Chim:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-807f-959d-fb1f462e7734" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Relations</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d8-bb49-ed49712285fe"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8057-aa0b-c0ec9fe2157f" class="">Thuyền:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8039-96f3-d39e19c6ed0d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Navigation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a5-baf7-de5be08db467"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-805f-a078-d27ed6a6ece5" class="">Người:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8063-8b81-e931bf400771" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Observers</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c7-a4fe-cf2630b91e29"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8084-b60e-e07fce217beb" class="">Nghi lễ:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8083-8059-e1a0476cc661" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Synchronization</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800d-8ef2-ed958f8e271b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d3-b3d3-e0de77654628" class="">Toàn bộ đĩa:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b9-856f-ea86171d6648" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Civilization</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c9-9e86-fa5380d6cebc"/></div><div style="display:contents" dir="auto"><h1 id="371c5e6f-95bd-8003-b0dd-e87baa14a4a0" class="">Điều tao thấy extraordinary nhất</h1></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8053-a2ce-dc0a5f02e813" class="">Nếu đọc bằng Khung Trang.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8047-8315-d15a3c1e3c6b" class="">Trống Ngọc Lũ và nhiều vòng tròn Aboriginal không phải đang mô tả:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-803c-b0a2-ecbdf9e913e7" class="">thế giới nhìn như thế nào.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805c-967b-cf4e6603f9f4"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8002-b03b-e40b246b0d1a" class="">Mà đang mô tả:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8080-b608-da626df710c2" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-How\ a\ world\ stays\ alive</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802b-ac59-c6e8f3a4f0dc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8026-9712-da3414b81bdf" class="">Hay:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80be-8c5b-f429581a7203" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Survival
-=
-Memory
-+
-Relation
-+
-Repair
--
-Entropy</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8037-bcbf-d698e20aec59" class="">Đó là lý do các vòng tròn cứ lặp mãi.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80eb-83fa-c3dec002a9bc" class="">Vì theo Khung Trang, <strong>vũ trụ không phải tập hợp vật thể.</strong></p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809f-bfca-cb211442848d" class="">Nó là tập hợp:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b9-92aa-c1cc495a86c3" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Distinctions
-\rightarrow
-Relations
-\rightarrow
-Persistent\ Memory</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8025-95a0-c64736b40e26" class="">và các hình tròn đồng tâm chính là cách nhiều nền văn hóa cổ nén toàn bộ logic đó thành một kiến trúc hình ảnh duy nhất.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8014-b39d-fec9b42a2bf3" class=""><strong>Gap:</strong> Đây là diễn giải theo Khung Trang (một mô hình cấu trúc), không phải kết luận khảo cổ học đã được chứng minh về ý nghĩa thật của trống Ngọc Lũ hay nghệ thuật Aboriginal.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ec-a27c-cb0bb3632bfb" class="">Tao nghĩ mày đang đụng đúng một lỗi mà rất nhiều nhà khảo cổ và sử học hiện đại mắc phải:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8099-817e-ff6c3dfde9ed" class="">Họ nhìn mọi thứ bằng:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-801b-a42b-dc922719b190" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Time
-\rightarrow
-Agriculture
-\rightarrow
-State
-\rightarrow
-Civilization</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c3-bf24-e5587e3c2458" class="">tức là tuyến tính.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80da-9431-ccf3e1f064dc"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e7-a79b-d8296e8895c8" class="">Nhưng nếu nhìn theo <strong>complexity</strong> và chính Khung Trang:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ed-a351-d42c7ab8a6e0" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Civilization
-\neq
-Agriculture</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-805f-9a2b-e65ba8ea6db0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8091-a1ec-f5bd5d811031" class="">Mà:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809b-a13c-d6a90090cbe8" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Civilization
-=
-Memory
-+
-Coordination
-+
-Repair
-+
-Navigation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80b1-b80a-e4758d14182a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807f-8041-facbe7064e34" class="">Đây là chỗ đáng đào.</p></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80f4-8ce3-ee5106b0da98" class="">Gap đầu tiên</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c5-8fac-c322223b918c" class="">Câu:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-80da-8fa5-c5c8d01e9c8c" class="">Aboriginal và Đông Sơn đều là thợ săn vì chưa đủ nông nghiệp để đếm mùa vụ.</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8029-9103-fbf3362ba3ae" class="">Tao nghĩ bằng chứng hiện có không ủng hộ hoàn toàn.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ba-98aa-cf61c517515f" class="">Người Aboriginal có hệ lịch theo mùa cực kỳ chi tiết ở nhiều vùng (không chỉ 4 mùa), dùng sao, gió, hoa nở, động vật di cư làm tín hiệu. Họ rõ ràng &quot;đếm thời gian&quot;, chỉ không nhất thiết đếm bằng lịch nông nghiệp kiểu Lưỡng Hà hay Trung Hoa.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8086-a314-ea5ceec60029" class="">Đông Sơn thì đã có nông nghiệp lúa nước đáng kể, dù săn bắt, đánh cá vẫn rất quan trọng.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804e-b7e3-dc9cd2a0c42a"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-80da-b990-fad6d74e1321" class="">Chỗ phi tuyến tính</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-ac7b-c47a2ff4bdb6" class="">Tao nghĩ mày đang ngửi thấy thứ này:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-804f-a210-d04f8035254c" class="">Có thể hunter civilization không tối ưu hóa sản lượng.</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8010-8d1a-cf874975cd77" class="">Mà tối ưu hóa:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-808a-aaca-e1f76d8708d2" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Resilience</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-802c-95b9-dc0701adec38"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8025-bc8a-ec8bb93770f0" class="">Nông nghiệp cổ điển:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80cb-a622-e58b454adb7d" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Yield_{max}</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80f0-9105-d4452aae7b48"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8006-891e-d768dbf2f9a3" class="">Hunter-network civilization:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80b1-9515-f2fa7b576b18" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Adaptability_{max}</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e7-9d93-d4fc97009e3e"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8020-a1f9-e5b9b09003da" class="">Khác nhau hoàn toàn.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ad-bad4-c04cc90899e3"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8056-8a6d-fa3ed431c973" class="">Aboriginal Fire System</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8046-b1e7-e31e7e573308" class="">Người hiện đại:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8031-a2d0-c8c8d059a306" class="">Đốt ít nhất.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d1-ad70-f026945bc652"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80de-8285-d85818c033ff" class="">Aboriginal:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8050-a9a7-dcc30b2c998e" class="">Đốt đúng nhất.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8050-a11f-f5578a12ec9d"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f6-bb51-d8994c48f0e8" class="">Không phải:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80a2-89ca-c9d3ad914a37" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Minimize\ Fire</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8082-a691-f330aac76f4c"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809d-892d-d891872e61a3" class="">Mà:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8069-9240-ea3ef31927db" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Optimize\ Fire</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80bc-a391-e7393f56a17a"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800f-bb40-d9709ab09131" class="">Đây là logic phi tuyến.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8056-826c-f33cc34c5f24" class="">Vì:</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8073-85d8-ef54e33910da" class="">Lửa nhỏ</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80a3-aaaa-cf80a44a050b" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8040-8cd0-ec099649a9ff" class="">ngăn lửa lớn</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8037-b330-fc7508917293" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-807c-be4c-cc2fcb95a453" class="">tăng đa dạng sinh học</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8016-bfaf-cee74f220b4a" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8035-b4df-fab9438dcc72" class="">tăng săn bắt</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809d-8642-f894ee3b83cc" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80c4-b03b-c7b18c8be8df" class="">tăng ổn định</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80d0-beea-c1664160f0d9"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8081-8a4a-c96e03e6b010" class="">Một vòng feedback.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-807a-a94e-c65e82b89953"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8021-9fa3-e61a33d543d9" class="">Ngọc Lũ cũng có thể bị đọc sai</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80f7-bb89-e99eeac6b22f" class="">Nhiều người nhìn:</p></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80e6-849c-ff59edd7d015" class="bulleted-list"><li style="list-style-type:disc">chim</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-808b-a14c-f8912a14c1a9" class="bulleted-list"><li style="list-style-type:disc">thuyền</li></ul></div><div style="display:contents" dir="auto"><ul id="371c5e6f-95bd-80a6-8ad3-cf5cd5368159" class="bulleted-list"><li style="list-style-type:disc">người</li></ul></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8004-9801-dfad23765309"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e2-b10f-f531fc7447ef" class="">Nhưng có thể chúng không phải danh mục.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8088-a0f3-e3680fae2749"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8090-9594-f5870d18907f" class="">Mà là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-80ae-b376-e98e3280b5fd" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Feedback\ Loops</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8025-9266-d46107039fdb"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8085-abd0-e0f140c687f1" class="">Chim nước</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8088-a19e-f6f8512adc6b" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80bf-85f4-e80023805c92" class="">nước lên</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803c-b4e5-edb5253f85e5" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8059-8b61-cf74fc4a819d" class="">cá</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8065-90a1-d813900b2ff9" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8040-874f-fade7aef1609" class="">người</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e0-bf29-d37814940125" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8048-aae4-f30c6f9cb2b1" class="">nghi lễ</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8050-9773-ee57e25b75ae" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e6-8b65-d28f2efb63cf" class="">liên minh</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8016-8e78-f183682b306e" class="">↓</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8098-9c52-f17061d6694d" class="">ổn định</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-806e-ba10-f9a81afe4bf0"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803f-8764-f238b39ce0ff" class="">Không phải timeline.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8067-91e3-f5f02d6ccec3"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80d7-aa70-d8deeeaae99e" class="">Là network.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-800c-bcdb-ed86fc805689"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-800f-b633-c69b15091c17" class="">Tầng phi tuyến tính sâu hơn</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-800e-995d-ec9609487377" class="">Trong Khung Trang.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cc-9b92-f274dc9d649f" class="">Mọi người thường đọc:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8004-a2a8-fa63f2eebce6" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-A \rightarrow B \rightarrow C</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a9-a39a-fe6530b99071"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8082-85bd-de246acfc6e7" class="">Nhưng nếu thực sự phi tuyến.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80e2-97a6-f1065ce95c43" class="">Thì phải là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8011-8c9e-f46dff672170" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-A \leftrightarrow B \leftrightarrow C</code></pre></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80ca-a85e-e61d9b57d4da" class="">và</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-802d-b158-cd3df92f75be" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-C \rightarrow A</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808a-9960-f8ec9e648653"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8065-8d2e-c60e8d235863" class="">Ví dụ:</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80df-8cdf-e78fc10ab755" class="">Country</h3></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8066-bc9e-e028ca555f34" class="">tạo</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80a9-8ce1-c2f484319460" class="">Songline</h3></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804f-a0e6-f150d2ca7090"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8003-af0d-fad67c48face" class="">Songline</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8049-b6fd-ccb5cc28574e" class="">tạo</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-8001-a624-cf6b1d408646" class="">Movement</h3></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-801a-9b9e-fb9f10eda749"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8064-bb94-fff0efe875da" class="">Movement</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8015-b576-dc4d7d1c1968" class="">duy trì</p></div><div style="display:contents" dir="auto"><h3 id="371c5e6f-95bd-80dc-9eda-e65a793eecc9" class="">Country</h3></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ef-9ff7-d89230b5ef0b"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806f-9fa4-cd7ad638f8d6" class="">Đó là loop.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80c3-a466-e9629ac28a50"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-808a-913b-ef4f90bc38fe" class="">Điều extraordinary tao thấy</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8082-9ebc-ee9e3f19e945" class="">Có thể cả Aboriginal lẫn một phần Đông Sơn không lưu tri thức dưới dạng:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8018-83a4-ce047fbca364" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Object\ Memory</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-804b-8333-ebb76bdef41f"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806b-b11e-dd16b2a042f6" class="">Mà lưu:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8050-bb3e-dc849e14a4c2" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Relationship\ Memory</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8012-a3e6-f065be4d0588"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8040-a23a-ecadfadbab7d" class="">Nghĩa là.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-806f-bafe-d51c5c604260" class="">Không nhớ:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8052-90e7-f2361c777bdf" class="">Cây này là cây gì.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80fa-9ee5-d88ecf3dd266"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cd-9290-ecc1b99f95b7" class="">Mà nhớ:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8078-9cd8-ffd73198d200" class="">Khi cây này nở,<br/>chim này tới,<br/>cá này xuất hiện,<br/>nước này lên,<br/>lúc đó làm việc này.</blockquote></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80e8-8e93-ca09bad58dff"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8042-9852-e8b7221c3596" class="">Đó là:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8047-a8b9-e8a1b394454f" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Event\ Network</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80ba-a844-c761ccb88ae1"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-803e-bac3-e268b06a51bb" class="">Không phải taxonomy.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-808b-aac5-ca5500662093"/></div><div style="display:contents" dir="auto"><h2 id="371c5e6f-95bd-8037-a6aa-f9b34045f320" class="">Nếu dịch sang toán Khung Trang phi tuyến</h2></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8061-af3d-f36a53f4f13f" class="">Không phải:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-8038-9bd9-df9d242edc03" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Potential
-\rightarrow
-Distinction
-\rightarrow
-Relation</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-80a3-ae98-f2a8d3b24393"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-802e-b234-c689a9f3124e" class="">Mà:</p></div><div style="display:contents" dir="auto"><pre id="371c5e6f-95bd-809a-a976-cdf34241df55" class="code code-wrap"><code class="language-latex" style="white-space:pre-wrap;word-break:break-all">
-Potential
-\leftrightarrow
-Distinction
-\leftrightarrow
-Relation
-\leftrightarrow
-Constraint
-\leftrightarrow
-Memory
-\leftrightarrow
-Observer</code></pre></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8059-a6b7-f2238c169f11"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8001-8d71-d1dbc86788d6" class="">Mỗi node sửa node khác.</p></div><div style="display:contents" dir="auto"><hr id="371c5e6f-95bd-8032-a25b-d204a6224530"/></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-809b-886b-ee0f38feca55" class="">Đó là lý do tao nghĩ các hình tròn đồng tâm của Ngọc Lũ và nhiều tranh Aboriginal có thể đang bị đọc quá tuyến tính.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8010-bfc5-f83942836338" class="">Có thể chúng không phải:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-8002-9cea-ef98fd372e9a" class="">sơ đồ các thứ.</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8095-a4f4-ce653a8ed71b" class="">Mà gần hơn với:</p></div><div style="display:contents" dir="auto"><blockquote id="371c5e6f-95bd-800c-8d9b-d50e46160425" class="">sơ đồ các vòng phản hồi giữ cho một thế giới tiếp tục sống.</blockquote></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-80cf-8ad5-e58e2bf66fee" class="">Đó là cách đọc phi tuyến tính mạnh nhất mà tao thấy từ dữ liệu hiện có.</p></div><div style="display:contents" dir="auto"><p id="371c5e6f-95bd-8087-bdcd-c1bb1a7c32f1" class=""><strong>Gap quan trọng:</strong> chưa thể kết luận Đông Sơn là xã hội săn bắt–chiến binh thuần túy hay tương đương Aboriginal. Bằng chứng khảo cổ hiện nay cho thấy Đông Sơn có nông nghiệp, luyện kim, giao thương và tổ chức xã hội phức tạp. Điều tao đang làm ở đây là so sánh cấu trúc hệ tri thức và vòng phản hồi, không phải đồng nhất hai nền văn hóa.</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+Observer
+* * *
+Ngọc Lũ:
+Trung tâm.
+  * 
+
+Vòng ảnh hưởng.
+* * *
+Rất giống.
+* * *
+Không phải về số.
+* * *
+Mà về topology.
+* * *
+# Tầng 8: Map với Toán Vũ Trụ Khung Trang
+Nếu tao nén.
+* * *
+Trung tâm:
+```
+    Potential
+```
+* * *
+Ngôi sao:
+```
+    Distinction
+```
+* * *
+Vòng:
+```
+    Memory
+```
+* * *
+Chim:
+```
+    Relations
+```
+* * *
+Thuyền:
+```
+    Navigation
+```
+* * *
+Người:
+```
+    Observers
+```
+* * *
+Nghi lễ:
+```
+    Synchronization
+```
+* * *
+Toàn bộ đĩa:
+```
+    Civilization
+```
+* * *
+# Điều tao thấy extraordinary nhất
+Nếu đọc bằng Khung Trang.
+Trống Ngọc Lũ và nhiều vòng tròn Aboriginal không phải đang mô tả:
+> thế giới nhìn như thế nào.
+* * *
+Mà đang mô tả:
+```
+    How\ a\ world\ stays\ alive
+```
+* * *
+Hay:
+```
+    Survival
+    =
+    Memory
+    +
+    Relation
+    +
+    Repair
+    -
+    Entropy
+```
+Đó là lý do các vòng tròn cứ lặp mãi.
+Vì theo Khung Trang, **vũ trụ không phải tập hợp vật thể.**
+Nó là tập hợp:
+```
+    Distinctions
+    \rightarrow
+    Relations
+    \rightarrow
+    Persistent\ Memory
+```
+và các hình tròn đồng tâm chính là cách nhiều nền văn hóa cổ nén toàn bộ logic đó thành một kiến trúc hình ảnh duy nhất.
+**Gap:** Đây là diễn giải theo Khung Trang (một mô hình cấu trúc), không phải kết luận khảo cổ học đã được chứng minh về ý nghĩa thật của trống Ngọc Lũ hay nghệ thuật Aboriginal.
+Tao nghĩ mày đang đụng đúng một lỗi mà rất nhiều nhà khảo cổ và sử học hiện đại mắc phải:
+Họ nhìn mọi thứ bằng:
+```
+    Time
+    \rightarrow
+    Agriculture
+    \rightarrow
+    State
+    \rightarrow
+    Civilization
+```
+tức là tuyến tính.
+* * *
+Nhưng nếu nhìn theo **complexity** và chính Khung Trang:
+```
+    Civilization
+    \neq
+    Agriculture
+```
+* * *
+Mà:
+```
+    Civilization
+    =
+    Memory
+    +
+    Coordination
+    +
+    Repair
+    +
+    Navigation
+```
+* * *
+Đây là chỗ đáng đào.
+## Gap đầu tiên
+Câu:
+> Aboriginal và Đông Sơn đều là thợ săn vì chưa đủ nông nghiệp để đếm mùa vụ.
+Tao nghĩ bằng chứng hiện có không ủng hộ hoàn toàn.
+Người Aboriginal có hệ lịch theo mùa cực kỳ chi tiết ở nhiều vùng (không chỉ 4 mùa), dùng sao, gió, hoa nở, động vật di cư làm tín hiệu. Họ rõ ràng "đếm thời gian", chỉ không nhất thiết đếm bằng lịch nông nghiệp kiểu Lưỡng Hà hay Trung Hoa.
+Đông Sơn thì đã có nông nghiệp lúa nước đáng kể, dù săn bắt, đánh cá vẫn rất quan trọng.
+* * *
+## Chỗ phi tuyến tính
+Tao nghĩ mày đang ngửi thấy thứ này:
+### Có thể hunter civilization không tối ưu hóa sản lượng.
+Mà tối ưu hóa:
+```
+    Resilience
+```
+* * *
+Nông nghiệp cổ điển:
+```
+    Yield_{max}
+```
+* * *
+Hunter-network civilization:
+```
+    Adaptability_{max}
+```
+* * *
+Khác nhau hoàn toàn.
+* * *
+## Aboriginal Fire System
+Người hiện đại:
+> Đốt ít nhất.
+* * *
+Aboriginal:
+> Đốt đúng nhất.
+* * *
+Không phải:
+```
+    Minimize\ Fire
+```
+* * *
+Mà:
+```
+    Optimize\ Fire
+```
+* * *
+Đây là logic phi tuyến.
+Vì:
+Lửa nhỏ
+↓
+ngăn lửa lớn
+↓
+tăng đa dạng sinh học
+↓
+tăng săn bắt
+↓
+tăng ổn định
+* * *
+Một vòng feedback.
+* * *
+## Ngọc Lũ cũng có thể bị đọc sai
+Nhiều người nhìn:
+  * chim
+
+
+  * thuyền
+
+
+  * người
+
+
+* * *
+Nhưng có thể chúng không phải danh mục.
+* * *
+Mà là:
+```
+    Feedback\ Loops
+```
+* * *
+Chim nước
+↓
+nước lên
+↓
+cá
+↓
+người
+↓
+nghi lễ
+↓
+liên minh
+↓
+ổn định
+* * *
+Không phải timeline.
+* * *
+Là network.
+* * *
+## Tầng phi tuyến tính sâu hơn
+Trong Khung Trang.
+Mọi người thường đọc:
+```
+    A \rightarrow B \rightarrow C
+```
+* * *
+Nhưng nếu thực sự phi tuyến.
+Thì phải là:
+```
+    A \leftrightarrow B \leftrightarrow C
+```
+và
+```
+    C \rightarrow A
+```
+* * *
+Ví dụ:
+### Country
+tạo
+### Songline
+* * *
+Songline
+tạo
+### Movement
+* * *
+Movement
+duy trì
+### Country
+* * *
+Đó là loop.
+* * *
+## Điều extraordinary tao thấy
+Có thể cả Aboriginal lẫn một phần Đông Sơn không lưu tri thức dưới dạng:
+```
+    Object\ Memory
+```
+* * *
+Mà lưu:
+```
+    Relationship\ Memory
+```
+* * *
+Nghĩa là.
+Không nhớ:
+> Cây này là cây gì.
+* * *
+Mà nhớ:
+> Khi cây này nở,  
+> chim này tới,  
+> cá này xuất hiện,  
+> nước này lên,  
+> lúc đó làm việc này.
+* * *
+Đó là:
+```
+    Event\ Network
+```
+* * *
+Không phải taxonomy.
+* * *
+## Nếu dịch sang toán Khung Trang phi tuyến
+Không phải:
+```
+    Potential
+    \rightarrow
+    Distinction
+    \rightarrow
+    Relation
+```
+* * *
+Mà:
+```
+    Potential
+    \leftrightarrow
+    Distinction
+    \leftrightarrow
+    Relation
+    \leftrightarrow
+    Constraint
+    \leftrightarrow
+    Memory
+    \leftrightarrow
+    Observer
+```
+* * *
+Mỗi node sửa node khác.
+* * *
+Đó là lý do tao nghĩ các hình tròn đồng tâm của Ngọc Lũ và nhiều tranh Aboriginal có thể đang bị đọc quá tuyến tính.
+Có thể chúng không phải:
+> sơ đồ các thứ.
+Mà gần hơn với:
+> sơ đồ các vòng phản hồi giữ cho một thế giới tiếp tục sống.
+Đó là cách đọc phi tuyến tính mạnh nhất mà tao thấy từ dữ liệu hiện có.
+**Gap quan trọng:** chưa thể kết luận Đông Sơn là xã hội săn bắt–chiến binh thuần túy hay tương đương Aboriginal. Bằng chứng khảo cổ hiện nay cho thấy Đông Sơn có nông nghiệp, luyện kim, giao thương và tổ chức xã hội phức tạp. Điều tao đang làm ở đây là so sánh cấu trúc hệ tri thức và vòng phản hồi, không phải đồng nhất hai nền văn hóa.
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**MOC:** [[MISC_MOC]]

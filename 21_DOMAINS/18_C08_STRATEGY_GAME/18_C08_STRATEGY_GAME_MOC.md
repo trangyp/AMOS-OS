@@ -1,0 +1,20 @@
+---
+title: 18_C08_STRATEGY_GAME MOC
+type: moc
+tags: [moc, 18-c08-strategy-game]
+---
+
+# 18_C08_STRATEGY_GAME — Map of Content
+
+## Files
+
+- [[C08_STRATEGY_GAME_DOMAINS_DOMAIN_SPEC]]
+- [[C08_STRATEGY_GAME_DOMAINS_README]]
+- [[DOMAINS_C08_STRATEGY_GAME_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_C08_STRATEGY_GAME_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

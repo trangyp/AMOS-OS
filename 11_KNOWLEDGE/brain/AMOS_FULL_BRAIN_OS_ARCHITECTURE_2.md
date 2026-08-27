@@ -20,5 +20,8 @@ Resolved to: `amos-general/0/00_AMOS_Full_Brain_OS_Architecture.md`
 
 ## Related
 
-- [[00_Cosmo_Brain_MOC]]
-- [[_00_Cosmo brain/amos-general/0/00_AMOS_Full_Brain_OS_Architecture]]
+- [[00_COSMO_BRAIN_MOC]]
+- [[00_AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+
+---
+**MOC:** [[BRAIN_MOC]]

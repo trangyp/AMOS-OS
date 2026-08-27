@@ -17,3 +17,6 @@ confidence: "VERIFIED"
 
 - Open the skill: .devin/skills/amos-mechanical-structural-engine-layer
 - Source model: Mechanical_Structural_Model
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

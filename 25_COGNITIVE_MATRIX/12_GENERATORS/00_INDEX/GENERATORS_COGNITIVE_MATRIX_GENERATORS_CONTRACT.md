@@ -1,3 +1,9 @@
+---
+title: GENERATORS COGNITIVE MATRIX GENERATORS CONTRACT
+type: note
+tags: [note, 00-index]
+---
+
 ````markdown
 ---
 artifact_id: AMOS-CM-12-GENERATORS-CONTRACT
@@ -2282,7 +2288,7 @@ No stronger claim is licensed by the supplied evidence.
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · COGNITIVE_MATRIX_VALIDATION_CONTRACT · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · COGNITIVE_MATRIX_VALIDATION_CONTRACT · AMOS_RSCF_NODES
 
 ---
 
@@ -2306,7 +2312,7 @@ implementation_status: PARTIAL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00-Home]]
+* INDEXED_BY: [[00_HOME]]
 
 * INDEXED_BY: [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
@@ -2376,3 +2382,6 @@ persistence_binding_state: UNKNOWN/GAP
 
 ```
 ```
+
+---
+**MOC:** [[INDEX_GENERATORS_COGNITIVE_MATRIX_README]]

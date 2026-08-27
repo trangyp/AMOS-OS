@@ -31,3 +31,6 @@ node_id: cp_data_evidence_gathering_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/64_DATA_EVIDENCE_GATHERING_MODES/DATA_EVIDENCE_GATHERING_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[64_DATA_EVIDENCE_GATHERING_MODES_MOC]]

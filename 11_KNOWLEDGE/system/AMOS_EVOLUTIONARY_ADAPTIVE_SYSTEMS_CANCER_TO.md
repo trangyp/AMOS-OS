@@ -1,4 +1,5 @@
 ---
+title: AMOS EVOLUTIONARY ADAPTIVE SYSTEMS CANCER TO
 canon-group: cross-domain-biological-ai
 canon-type: architecture
 rscf-state: model
@@ -29,6 +30,7 @@ tags:
   - system
 
 ---
+
 
 # AMOS Evolutionary Adaptive Systems Architecture
 ## From Cancer Evolution (s–o–a) to AI Evolution, Drift, Resistance, Collapse, and Governed Adaptation
@@ -3633,3 +3635,6 @@ BoundedAdaptiveIntelligence
 ---
 
 **Related:** AMOS_CORE_v4.4 · AMOS_Human_Biology_Fractal · AMOS_AI_Drift_Alignment · AMOS_Deterministic_AI_Control_Plane · AMOS_Memory_Immune_System · AMOS_GMEF · rscf · Evolutionary_Oncology · Adaptive_Systems · AI_Evolution · Model_Collapse · Reward_Hacking · Multi_Agent_Ecology
+
+---
+**Links:** [[SYSTEM_MOC]] | [[KNOWLEDGE_MOC]]

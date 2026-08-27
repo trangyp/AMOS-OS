@@ -1,0 +1,23 @@
+---
+title: 00_LEGACY MOC
+type: moc
+tags: [moc, 00-legacy]
+---
+
+# 00_LEGACY — Map of Content
+
+## Files
+
+- [[AMOS_CORE_HISTORICAL_INDEX]]
+- [[ARCHIVE_LEGACY_CONTRACT]]
+- [[HERITAGE_HISTORICAL_INDEX]]
+- [[LEGACY_ARCHIVE_README]]
+- [[TRANG_FRAMEWORK_HISTORICAL_INDEX]]
+- [[UBI_HISTORICAL_INDEX]]
+
+## Subdirectories
+
+- [[INDEX_LEGACY_ARCHIVE_README]]
+
+---
+**Parent:** [[24_ARCHIVE_MOC]]

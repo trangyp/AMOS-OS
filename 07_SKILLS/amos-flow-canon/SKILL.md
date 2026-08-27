@@ -1,3 +1,9 @@
+---
+title: SKILL
+type: note
+tags: [note, amos-flow-canon]
+---
+
 # AMOS Flow Canon
 
 ## When to Use
@@ -36,5 +42,8 @@ This skill directly addresses the **genuine gap** identified in the 7-Part Canon
 Flow (Part II) maps to the Law Stack's Rule of 2™ as the named binary attractor — dual-frame test with rejection rationale. Rubber-stamp fails. Flow persistence depends on enforcement mechanisms (Part IV) maintaining the dual-frame test passing.
 
 ## References
-- [[07_SKILLS/amos-flow-canon/references]] — session-specific detail and authoritative sources
+- [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme
+
+---
+**MOC:** [[amos-flow-canon_MOC]]

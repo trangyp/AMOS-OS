@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-analogy-abstraction-kernel`
 
 - Open the skill: .devin/skills/amos-analogy-abstraction-kernel
+
+---
+**Links:** [[KERNEL_MOC]] | [[KNOWLEDGE_MOC]]

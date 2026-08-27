@@ -36,7 +36,7 @@ Given an operation touching `C04 BIO NEURO DOMAINS README` within the Domains pl
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -54,3 +54,6 @@ node_id: amos_21_domains_14_c04_bio_neuro_c04_bio_neuro_domains_readme_md
 node_type: note
 path: 21_DOMAINS/14_C04_BIO_NEURO/C04_BIO_NEURO_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[14_C04_BIO_NEURO_MOC]]

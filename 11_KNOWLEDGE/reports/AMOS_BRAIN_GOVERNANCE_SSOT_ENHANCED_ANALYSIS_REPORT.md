@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN GOVERNANCE SSOT ENHANCED ANALYSIS REPORT
 tags: [reports]
+type: document
+source: 11_KNOWLEDGE/reports
 ---
+
+
 # AMOS BRAIN - GOVERNANCE SSOT ENHANCED ANALYSIS REPORT
 
 ## EXECUTIVE SUMMARY
@@ -323,3 +328,6 @@ The AMOS Brain represents the **cutting edge of civilization-grade dynamical sys
 **Integrity**: 85.0%  
 
 *All reasoning auditable, reversible, and bounded by verifiable artifact space.*
+
+---
+**Links:** [[REPORTS_MOC]] | [[KNOWLEDGE_MOC]]

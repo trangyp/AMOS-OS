@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/amos-os-agent-layer`
 
 - Open the skill: .agents/skills/amos-os-agent-layer
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

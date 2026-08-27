@@ -1,4 +1,5 @@
 ---
+title: GOVERNANCE ENGINE
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: governance-engine
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/governance-engine, engine]
 created: 2026-08-22
 ---
+
 
 # Governance Engine
 
@@ -69,4 +71,7 @@ See `engine/G/Governance_Super_Engine_v3.md` for the complete 902-line specifica
 - `engine/A/AMOS Governance Economy Engine vInfinity.md`
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

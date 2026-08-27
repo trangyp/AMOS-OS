@@ -1,6 +1,11 @@
 ---
+title: AMOS UNI AI INTELLIGENCE ENGINE MODEL
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-uni-ai-intelligence-engine-model, engine]
+type: document
+source: 11_KNOWLEDGE/engine
 ---
+
+
 
 # AMOS Uni AI Intelligence Engine Model
 
@@ -31,4 +36,7 @@ The Uni AI Intelligence Engine defines the roles, safety boundaries, and coordin
 Culture, Customer Experience, Data/Analytics, EV Charging, Finance, Governance, Human Resources, Infrastructure, Legal Compliance.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

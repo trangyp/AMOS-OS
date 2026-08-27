@@ -31,3 +31,6 @@ node_id: cp__modes_multi_hypothesis_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/23_MULTI_HYPOTHESIS_MODES/MULTI_HYPOTHESIS_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[23_MULTI_HYPOTHESIS_MODES_MOC]]

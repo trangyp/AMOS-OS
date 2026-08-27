@@ -1,3 +1,9 @@
+---
+title: PRIMITIVES COGNITIVE MATRIX GAP MATRIX
+type: note
+tags: [note, l05-binding]
+---
+
 # L05 — Gap Matrix
 
 **Package:** `L05_BINDING`  
@@ -40,3 +46,6 @@ node_type: note
 path: 01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_GAP_MATRIX.md
+
+---
+**MOC:** [[L05_BINDING_MOC]]

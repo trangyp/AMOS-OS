@@ -1,3 +1,9 @@
+---
+title: CELL EVIDENCE
+type: note
+tags: [note, 06-cell-contracts]
+---
+
 # CELL_EVIDENCE — Definition
 
 **Package:** `CELL_EVIDENCE_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 06_CELL_CONTRACTS/CELL_EVIDENCE_/CELL_EVIDENCE.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/CELL_EVIDENCE.md
+
+---
+**MOC:** [[06_CELL_CONTRACTS_MOC]]

@@ -1,6 +1,11 @@
 ---
+title: 00 ORCHESTRATIONREGULATORPRODUCTIONCONTRACT
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # AMOS v1 Production Contract
 
 **Definition**: AMOS v1 **100% complete for scope** when all of the following are simultaneously true:
@@ -119,4 +124,7 @@ The real frontier now is:
 That is the path from the current AMOS architecture to a system that can defensibly be called **100% complete for a declared production scope**.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

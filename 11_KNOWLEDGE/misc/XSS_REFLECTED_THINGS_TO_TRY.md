@@ -1,6 +1,11 @@
 ---
+title: XSS REFLECTED THINGS TO TRY
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 ### Things to Try
 Standard Attack for any site
 <script>alert(1)</script>
@@ -28,4 +33,7 @@ When entering a javascript string with single quote/backslash escaped
 * could try closing the script, opening a new one and putting your malicious code in there.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

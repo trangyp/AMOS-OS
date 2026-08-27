@@ -216,7 +216,10 @@ Implements the `30_epistemics/` brain directory in TypeScript:
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Kafka Brain Buffer Complete Fix
 - 2026-08-23 AMOS Gap Discovery Engine All 6 Modes
 - 2026-08-23 AMOS Unknown-Unknown Registry
+
+---
+**MOC:** [[BRAIN_MOC]]

@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/amos-speed-token-governor`
 
 - Open the skill: .agents/skills/amos-speed-token-governor
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

@@ -17,3 +17,6 @@ confidence: "VERIFIED"
 
 - Open the skill: .devin/skills/amos-design-language-engine-layer
 - Source model: Design_Language_Model
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

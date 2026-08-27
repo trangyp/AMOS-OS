@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 HUMAN INTERACTION GOVERNANCE
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Human Interaction & Recourse Governance (Gaps 250-257)
 
 **Date**: 2026-08-22
@@ -56,6 +61,9 @@ unrecoverable errors. Only one 251 gate appears at a time.
 - 2026-08-22 Data Quality Governance
 - 2026-08-22 Resource Governance
 - 2026-08-22 Decision Risk Governance
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 
 #human-interaction #governance #gaps-250-257 #closed #amos-os-kernel
+
+---
+**MOC:** [[DATED_MOC]]

@@ -1,7 +1,9 @@
 ---
+title: TECH ARCHITECTURE MODEL
 aliases: [Tech Architecture Kernel, AMOS_Tech_Architecture, Tech Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/tech-architecture-model, tech-coding]
 ---
+
 
 # AMOS Tech Architecture Kernel
 
@@ -37,4 +39,7 @@ The architecture process is strictly deterministic and phased:
 - **Migration_And_Consolidation:** Controlled technical debt reduction.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[TECH-CODING_MOC]]

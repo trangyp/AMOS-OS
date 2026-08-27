@@ -38,7 +38,7 @@ Given an operation touching `INFRASTRUCTURE CANON CANON README` within the Canon
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -56,3 +56,6 @@ node_id: amos_01_canon_04_infrastructure_canon_infrastructure_canon_canon_readme
 node_type: note
 path: 01_CANON/04_INFRASTRUCTURE_CANON/INFRASTRUCTURE_CANON_CANON_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[04_INFRASTRUCTURE_CANON_MOC]]

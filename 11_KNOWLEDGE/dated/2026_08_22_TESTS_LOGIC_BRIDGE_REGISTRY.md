@@ -28,9 +28,12 @@ Deep code-level inspection of 5 AMOS brain Python files:
 - 677 skills in master registry across 10 UTC parts (P1_META: 82, P7_APPLIED_OS: 212, P5_SOCIAL: 127)
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - [[executable_brain_model]]
 - AMOS_INTEGRATION_TEST_DASHBOARD
 - 2026-08-22 Executable Code Internals — companion inspection of core brain Python files
 - 2026-08-22 Devin Memory Update — V22 RSCF Formal Layer verification
 - 2026-08-22 AMOS Go Board 19x19 Runtime Methods — Go board integration tests
+
+---
+**MOC:** [[DATED_MOC]]

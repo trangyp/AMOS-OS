@@ -100,3 +100,6 @@ governance gate in `AmosKernel.run()`, evaluated post-execution.
 4. **Empty state semantics**: Stakeholder gate returns CONDITIONAL on empty (unregistered). Tests must pre-register a stakeholder for clean state.
 5. **Gate naming for NOT_AUDITED**: The user's gate uses `fairness-274-bias-below-threshold` for NOT_AUDITED status (not `fairness-274-bias-unaudited`).
 6. **Multiple gate names per gap**: Each gap can produce multiple gate names depending on condition (e.g., gap 274 has 3 possible names, gap 279 has 5).
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

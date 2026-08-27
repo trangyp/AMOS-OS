@@ -31,3 +31,6 @@ node_id: amos_itics_power_00_index_politics_power_domains_politics_power_contrac
 node_type: note
 path: 21_DOMAINS/39_POLITICS_POWER/00_INDEX/POLITICS_POWER_DOMAINS_POLITICS_POWER_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_POLITICS_POWER_DOMAINS_README]]

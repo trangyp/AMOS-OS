@@ -15,4 +15,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 Target: `Universe Total Canon.utc`
 
 ## Related
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[UNIVERSE-COSMOS_MOC]]

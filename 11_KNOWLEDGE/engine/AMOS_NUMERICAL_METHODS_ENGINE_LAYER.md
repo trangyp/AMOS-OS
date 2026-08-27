@@ -17,3 +17,6 @@ confidence: "VERIFIED"
 
 - Open the skill: .devin/skills/amos-numerical-methods-engine-layer
 - Source model: Numerical_Methods_Model
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

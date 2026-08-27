@@ -70,3 +70,6 @@ node_id: cell_contracts_infrastructure_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/06_CELL_CONTRACTS_COGNITIVE_MATRIX_README.md
 claim_class: DERIVED
+
+---
+**MOC:** [[06_CELL_CONTRACTS_MOC]]

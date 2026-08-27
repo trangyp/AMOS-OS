@@ -31,3 +31,6 @@ node_id: amos_e_00_index_market_intelligence_domains_market_intelligence_contrac
 node_type: note
 path: 21_DOMAINS/36_MARKET_INTELLIGENCE/00_INDEX/MARKET_INTELLIGENCE_DOMAINS_MARKET_INTELLIGENCE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_MARKET_INTELLIGENCE_DOMAINS_README]]

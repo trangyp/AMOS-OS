@@ -15,4 +15,7 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 Target: `Note Title`
 
 ## Related
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[MISC_MOC]]

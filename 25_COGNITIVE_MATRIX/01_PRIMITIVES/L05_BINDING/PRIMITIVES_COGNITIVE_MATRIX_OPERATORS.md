@@ -1,3 +1,9 @@
+---
+title: PRIMITIVES COGNITIVE MATRIX OPERATORS
+type: note
+tags: [note, l05-binding]
+---
+
 # L05 — Operators
 
 **Package:** `L05_BINDING`  
@@ -39,3 +45,6 @@ node_type: note
 path: 01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_OPERATORS.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_OPERATORS.md
+
+---
+**MOC:** [[L05_BINDING_MOC]]

@@ -1,0 +1,29 @@
+---
+title: 20_OPERATIONS MOC
+type: moc
+tags: [moc, 20-operations]
+---
+
+# 20_OPERATIONS — Map of Content
+
+## Files
+
+- [[OPERATIONS_OPERATIONS_CONTRACT]]
+- [[OPERATIONS_README]]
+
+## Subdirectories
+
+- [[INDEX_OPERATIONS_README]]
+
+---
+**Parent:** [[AMOS_HOME]]
+- [[01_RUNBOOKS_MOC]]
+- [[02_PLAYBOOKS_MOC]]
+- [[03_PROCEDURES_MOC]]
+- [[04_HANDBOOKS_MOC]]
+- [[05_POLICIES_MOC]]
+- [[06_SCHEDULES_MOC]]
+- [[07_MONITORING_MOC]]
+- [[08_INCIDENT_RESPONSE_MOC]]
+- [[09_BACKUPS_MOC]]
+- [[10_MAINTENANCE_MOC]]

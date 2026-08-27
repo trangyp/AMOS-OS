@@ -1,3 +1,9 @@
+---
+title: L18 ACTION PRIMITIVES COGNITIVE MATRIX AGENTS
+type: note
+tags: [note, l18-action]
+---
+
 # L18 — Agents
 
 **Package:** `L18_ACTION`  
@@ -36,3 +42,6 @@ node_type: note
 path: 01_PRIMITIVES/L18_ACTION/L18_ACTION_PRIMITIVES_COGNITIVE_MATRIX_AGENTS.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION/L18_ACTION_PRIMITIVES_COGNITIVE_MATRIX_AGENTS.md
+
+---
+**MOC:** [[L18_ACTION_MOC]]

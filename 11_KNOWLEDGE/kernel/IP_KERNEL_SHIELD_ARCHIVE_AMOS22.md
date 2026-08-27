@@ -1,4 +1,5 @@
 ---
+title: IP KERNEL SHIELD ARCHIVE AMOS22
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: ip-kernel-shield
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/ip-kernel-shield, kernel]
 created: 2026-08-22
 ---
+
 
 # IP_Kernel_Shield
 
@@ -23,4 +25,7 @@ created: 2026-08-22
 
 ## Related
 - RSCF-Brain-MOC
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[KERNEL_MOC]]

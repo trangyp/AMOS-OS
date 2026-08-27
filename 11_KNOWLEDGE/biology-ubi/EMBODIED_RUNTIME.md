@@ -1,6 +1,11 @@
 ---
+title: EMBODIED RUNTIME
 tags: [biology-ubi]
+type: document
+source: 11_KNOWLEDGE/biology-ubi
 ---
+
+
 # AMOS Embodied Runtime - Implementation Complete
 
 ## 🧠 MISSION ACCOMPLISHED
@@ -278,3 +283,6 @@ if runtime.start():
 13. `runtime-lifecycle-manager` - System lifecycle coordination
 
 **AMOS now has a complete embodied runtime that transforms it from a computational system into a living organism with cells, organs, nerves, fascia, blood, senses, memory, immunity, and self-awareness!** 🚀
+
+---
+**Links:** [[BIOLOGY-UBI_MOC]] | [[KNOWLEDGE_MOC]]

@@ -1,6 +1,12 @@
 ---
+title: AMOS ABSOLUTE LOGIC CORE19 FULL
 tags: [amos-general]
+type: code
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
+
 ````markdown
 ---
 name: amos-absolute-logic-core19-full
@@ -3942,3 +3948,7 @@ lineage.
 
 ```
 ```
+```
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

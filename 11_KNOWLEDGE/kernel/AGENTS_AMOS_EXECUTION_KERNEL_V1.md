@@ -1,6 +1,11 @@
 ---
+title: AGENTS AMOS EXECUTION KERNEL V1
 tags: [kernel]
+type: document
+source: 11_KNOWLEDGE/kernel
 ---
+
+
 # AMOS Kernel Agent Contract
 
 Use the executable AMOS kernel as the reasoning control plane.
@@ -22,4 +27,7 @@ If a required gate fails, return `UNKNOWN/GAP`, `CONDITIONAL`, or `COMPETING` as
 Never silently downgrade a failed gate to a prose caveat.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[KERNEL_MOC]]

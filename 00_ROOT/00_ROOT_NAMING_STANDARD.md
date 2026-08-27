@@ -94,14 +94,14 @@ aliases:
 related:
   - "[[00_ROOT/00-Home]]"
   - "MOC"
-  - "[[00_ROOT/ARCHITECTURE]]"
+  - "[[ARCHITECTURE]]"
   - "[[FULL_TREE]]"
   - "[[SYSTEM_MAP]]"
   - "[[AUTHORITATIVE_STATE]]"
   - "[[DEPENDENCY_MAP]]"
   - "[[PLACEMENT_RULES]]"
   - "[[ROADMAP]]"
-  - "[[00_ROOT/RSCF_NODE_INDEX]]"
+  - "[[RSCF_NODE_INDEX]]"
 ---
 
 # AMOS OS Naming Standard
@@ -3433,7 +3433,7 @@ The fourth invariant is:
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · MOC · [[00_ROOT/ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[00_ROOT/RSCF_NODE_INDEX]]
+**Related:** [[00_ROOT/00-Home]] · MOC · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]]
 
 ```text
 ```
@@ -3454,3 +3454,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_COSMO_BRAIN_MOC]]

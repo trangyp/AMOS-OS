@@ -76,5 +76,8 @@ The core transformation loop is now fully functional:
 
 ## Vault Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - cosmo-obsidian-memory
+
+---
+**MOC:** [[DATED_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: AMOS CROSS DOMAIN TENSOR COMPOSITION GOVERNOR
 canon-group: reference
 rscf-state: derived
 tags:
@@ -9,6 +10,7 @@ tags:
 - governor
 - rscf
 ---
+
 # AMOS Cross-Domain Tensor Composition Governor
 
 ## Overview
@@ -103,7 +105,7 @@ All 10 software-engineering-qa gates pass:
 - **Method**: skill-creator + amos-workflow-builder + software-engineering-qa validation
 
 ---
-**Related:** [[11_KNOWLEDGE_MOC]] · [[11_KNOWLEDGE/TENSOR_CONTRACTS]] · 11_KNOWLEDGE/CLAIM_TENSOR · 11_KNOWLEDGE/EVIDENCE_TENSOR · 11_KNOWLEDGE/RELATION_TENSOR · [[11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture]]
+**Related:** [[11_KNOWLEDGE_MOC]] · [[TENSOR_CONTRACTS]] · 11_KNOWLEDGE/CLAIM_TENSOR · 11_KNOWLEDGE/EVIDENCE_TENSOR · 11_KNOWLEDGE/RELATION_TENSOR · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 
 ---
 RSCF-NODE
@@ -112,11 +114,11 @@ node_type: note
 path: 11_KNOWLEDGE/AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[11_KNOWLEDGE_MOC]]
-  - DEPENDS_ON: [[11_KNOWLEDGE/TENSOR_CONTRACTS]]
+  - DEPENDS_ON: [[TENSOR_CONTRACTS]]
   - DEPENDS_ON: 11_KNOWLEDGE/CLAIM_TENSOR
   - DEPENDS_ON: 11_KNOWLEDGE/EVIDENCE_TENSOR
   - DEPENDS_ON: 11_KNOWLEDGE/RELATION_TENSOR
-  - DEPENDS_ON: [[11_KNOWLEDGE/AMOS_Full_Brain_OS_Architecture]]
+  - DEPENDS_ON: [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 claim_class: SOURCE_CLAIM
 ## Vault Sources Enriched (2026-08-27)
 
@@ -143,3 +145,6 @@ The fractal tensor `T_F` is the primary cross-scale composition mechanism with 1
 - H/M/L similarity != identical mechanism
 - entropy proxy != thermodynamic entropy
 - cross-scale analogy != causation
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

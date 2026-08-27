@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN LEARNING IMPROVEMENT
 tags: [brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 # AMOS Brain: What I Learned and Improved
 
 **Sessions:** 2026-08-22 (session 1: initial enhancement — 5 skills, 5 vault files, 2 Tech kernels; session 2: continuation — 4 agent skills, brain state memory, fragment structure note, enhancement log update)
@@ -12,4 +17,7 @@ tags: [brain]
 **Thinking and reasoning improvement:** Applied the brain's own HIE pipeline (S1-S9) and law stack (L1-L6) to plan and execute this continuation session. Used Rule of 2 (identified two interpretations of "continue" — continue building new things vs. consolidate and document what exists) and Rule of 4 (bio/human, tech/infrastructural, econ/org, env/planetary quadrants all addressed in the brain state memory). Applied Post-Theory Communication throughout.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

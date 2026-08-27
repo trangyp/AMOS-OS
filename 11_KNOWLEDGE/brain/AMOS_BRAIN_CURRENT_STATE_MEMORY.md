@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN CURRENT STATE MEMORY
 tags: [brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 # AMOS Brain: Current State — Comprehensive Memory
 
 **Last updated:** 2026-08-22  
@@ -265,4 +270,7 @@ Plus agent-specific skills with full execution patterns.
 5. **Brain state memory consolidation** — Current memories are scattered across multiple files (Durable_Memory.md, Learning_Memory.md, Enhancement_Log.md, Complete_Memory.md). A single comprehensive state memory could consolidate the most critical facts.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

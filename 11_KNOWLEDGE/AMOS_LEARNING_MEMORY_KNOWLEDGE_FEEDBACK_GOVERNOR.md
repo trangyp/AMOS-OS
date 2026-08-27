@@ -1,4 +1,5 @@
 ---
+title: AMOS LEARNING MEMORY KNOWLEDGE FEEDBACK GOVERNOR
 claim_ceiling: 0.9
 created: 2026-08-27
 domain: cross-domain
@@ -14,6 +15,7 @@ tags:
 - topic/feedback-loop
 - topic/epistemic-preservation
 ---
+
 # AMOS Learning-Memory-Knowledge Feedback Governor
 
 > **RSCF-NODE** · skill · cross-domain (C05 to Memory to Knowledge)
@@ -114,3 +116,6 @@ The loop has 4 transition types:
 ---
 
 **Related:** [[AMOS Home]] · [[11_KNOWLEDGE_MOC]] · [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]] · [[AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR]]
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

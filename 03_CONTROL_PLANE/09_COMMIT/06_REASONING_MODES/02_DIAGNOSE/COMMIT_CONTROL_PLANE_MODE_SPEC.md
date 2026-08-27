@@ -45,7 +45,7 @@ Given an operation touching `COMMIT · CONTROL PLANE MODE SPEC` within the Contr
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -63,3 +63,6 @@ node_id: cp_ommit_06_reasoning_modes_02_diagnose_commit_control_plane_mode_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/02_DIAGNOSE/COMMIT_CONTROL_PLANE_MODE_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[02_DIAGNOSE_MOC]]

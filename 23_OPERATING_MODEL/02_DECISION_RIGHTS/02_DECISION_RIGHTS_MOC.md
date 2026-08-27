@@ -1,0 +1,20 @@
+---
+title: 02_DECISION_RIGHTS MOC
+type: moc
+tags: [moc, 02-decision-rights]
+---
+
+# 02_DECISION_RIGHTS — Map of Content
+
+## Files
+
+- [[DECISION_RIGHTS]]
+- [[DECISION_RIGHTS_OPERATING_MODEL_README]]
+- [[OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_DECISION_RIGHTS_OPERATING_MODEL_README]]
+
+---
+**Parent:** [[23_OPERATING_MODEL_MOC]]

@@ -1,6 +1,11 @@
 ---
+title: AMOS AUSTRALIA ENGINES MODEL
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/state/derived, topic/amos-australia-engines-model, engine]
+type: document
+source: 11_KNOWLEDGE/engine
 ---
+
+
 
 # AMOS Australia Engines Model
 
@@ -26,4 +31,7 @@ This model documents the three unified kernels operating within the `amos-austra
 - Future of work scenario lab.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

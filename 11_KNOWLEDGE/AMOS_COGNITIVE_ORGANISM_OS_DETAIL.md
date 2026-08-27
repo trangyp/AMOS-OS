@@ -1,6 +1,11 @@
 ---
+title: AMOS COGNITIVE ORGANISM OS DETAIL
 tags: ['knowledge', 'note']
+type: document
+source: 11_KNOWLEDGE/root
 ---
+
+
 
 # AMOS Cognitive Organism OS — Full Maximum-Detail Architecture
 ## Cognition • Emotion • Perception • Memory • Agency • Lifecycle • Homeostasis • Identity • World Model • Learning • Reflection • Governance
@@ -2514,3 +2519,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

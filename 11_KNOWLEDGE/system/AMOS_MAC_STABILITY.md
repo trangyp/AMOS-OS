@@ -1,6 +1,11 @@
 ---
+title: AMOS MAC STABILITY
 tags: [system]
+type: document
+source: 11_KNOWLEDGE/system
 ---
+
+
 # AMOS OMEGA MEMORY CONTAINMENT + STABILITY + MAC SURVIVAL PROTOCOL
 =================================================================
 
@@ -247,3 +252,6 @@ The system has been successfully stabilized for 16GB Mac hardware with:
 ---
 
 *Implementation follows pure engineering principles with fail-closed design, stability first, performance second, and features last as specified.*
+
+---
+**Links:** [[SYSTEM_MOC]] | [[KNOWLEDGE_MOC]]

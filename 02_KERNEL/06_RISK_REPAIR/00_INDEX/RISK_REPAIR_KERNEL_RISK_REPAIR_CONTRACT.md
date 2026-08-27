@@ -50,7 +50,7 @@ Given an operation touching `RISK REPAIR KERNEL RISK REPAIR CONTRACT` within the
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_nel_06_risk_repair_00_index_risk_repair_kernel_risk_repair_contrac
 node_type: note
 path: 02_KERNEL/06_RISK_REPAIR/00_INDEX/RISK_REPAIR_KERNEL_RISK_REPAIR_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_RISK_REPAIR_KERNEL_README]]

@@ -31,3 +31,6 @@ node_id: amos_ndex_ubi_nei_neuroemotional_domains_ubi_nei_neuroemotional_contrac
 node_type: note
 path: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL/00_INDEX/UBI_NEI_NEUROEMOTIONAL_DOMAINS_UBI_NEI_NEUROEMOTIONAL_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_UBI_NEI_NEUROEMOTIONAL_DOMAINS_README]]

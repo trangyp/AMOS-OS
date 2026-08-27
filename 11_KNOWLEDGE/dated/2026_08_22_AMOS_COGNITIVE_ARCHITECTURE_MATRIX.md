@@ -85,6 +85,9 @@ AMOS ≠ LLM
 - 19 matrix gaps are CLOSED and tested: `python3 -m pytest tests/test_cognitive_matrix.py -q`.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Cognitive Architecture Matrix Governance
 - 2026-08-22 AMOS All 249 Gaps Closed
+
+---
+**MOC:** [[DATED_MOC]]

@@ -70,3 +70,6 @@ node_id: structural_gaps_infrastructure_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/08_STRUCTURAL_GAPS_COGNITIVE_MATRIX_README.md
 claim_class: DERIVED
+
+---
+**MOC:** [[08_STRUCTURAL_GAPS_MOC]]

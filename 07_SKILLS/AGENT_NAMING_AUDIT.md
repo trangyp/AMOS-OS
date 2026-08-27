@@ -3,6 +3,7 @@ name: agent-naming-audit
 version: 1.0.0
 source: AGENT_SCHEMA.md, Agent_Templates.md, amos-agent-registry-index.md
 description: AMOS agent naming and structure audit produced from .devin/agents across the vault.
+tags: [note, 07-skills]
 ---
 
 # AMOS Agent Naming Audit
@@ -134,3 +135,6 @@ A final pass applied the AMOS Naming Standard to `.devin/agents` filenames acros
 Decorative/suffix tokens removed from filenames: `full`, `complete`, `super`, `ultimate`, `omega`, `max`, `vomni`, `x100k`, `x1000`, `x2700`, `x25000`, `x50000`, `x10800`, `v0`–`v23`, `report`, `spec`, `x3000`, `50000`, `30000`, `25000`, `5000`, `vinfinity`, `master`, `core7`, `domains7`, `cognitive4`.
 
 `depends_on_skills` arrays were re-pointed at the canonical post-rename skill names in each tree. The full manifest is in `07_SKILLS/AGENT_RENAME_PASS.json`.
+
+---
+**MOC:** [[07_SKILLS_MOC]]

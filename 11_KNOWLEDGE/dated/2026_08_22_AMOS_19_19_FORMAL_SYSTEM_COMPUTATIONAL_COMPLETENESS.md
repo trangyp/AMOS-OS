@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 AMOS 19 19 FORMAL SYSTEM COMPUTATIONAL COMPLETENESS
 type: note
 created: 2026-08-22
 updated: 2026-08-22
@@ -8,6 +9,7 @@ provenance: combined-ingestion (spec + implementation)
 byte_count_spec_ingested: 34500
 byte_count_implementation: 213000
 ---
+
 
 # AMOS 19×19 Formal System — Computational Completeness
 
@@ -153,4 +155,7 @@ The 19×19 computational completeness is a microcosm of the larger AMOS formal a
 
 The 19×19 is not merely a Go board — it is a finite field that demonstrates how a small set of primitives (361 cells, 2 colors, 4 directions, 1 adjacency rule, 1 capture rule, 1 ko rule) can generate a combinatorially vast strategic space with memory, optionality, threat, sacrifice, initiative, and multi-scale consequence.
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[DATED_MOC]]

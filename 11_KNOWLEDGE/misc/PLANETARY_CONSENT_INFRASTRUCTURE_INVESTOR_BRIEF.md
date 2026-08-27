@@ -1,6 +1,11 @@
 ---
+title: PLANETARY CONSENT INFRASTRUCTURE INVESTOR BRIEF
 tags: [canon-group/planetary, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/planetary-consent-infrastructure-investo, misc]
+type: note
+source: 11_KNOWLEDGE/misc
 ---
+
+
 
 Planetary Consent Infrastructure
 
@@ -217,4 +222,7 @@ The window for first-mover advantage is closing. The infrastructure that coordin
 decision-making will define the next century of human development.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

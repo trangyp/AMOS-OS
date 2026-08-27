@@ -1,7 +1,9 @@
 ---
+title: SOCIETY CULTURE MODEL
 aliases: [Society & Culture Engine, AMOS_Society_Culture]
 tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/society-culture-model, models]
 ---
+
 
 # AMOS Society & Culture Engine
 
@@ -27,4 +29,7 @@ The **Society & Culture Engine** models the evolution of institutions, cultural 
 - Maintain neutrality and flag sensitive demographic topics.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MODELS_MOC]]

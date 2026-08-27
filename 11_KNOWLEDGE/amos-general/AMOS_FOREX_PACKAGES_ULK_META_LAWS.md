@@ -1,6 +1,11 @@
 ---
+title: AMOS FOREX PACKAGES ULK META LAWS
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 """ULK meta‑law validator implementations.
 
 Each validator receives the primitive inputs it needs and returns a simple ``bool``
@@ -108,4 +113,7 @@ def feedback_integrity_passed(integrity_score: Decimal, minimum: Decimal) -> boo
     return integrity_score >= minimum
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

@@ -26,5 +26,8 @@ It does not create "real" consciousness, emotion, or somatic states. Instead, it
 - **Universal Expression Layer (UEL)**: Defines expression constraints across language and other channels.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - Emotion_Engine_Model
+
+---
+**MOC:** [[ENGINE_MOC]]

@@ -31,3 +31,6 @@ node_id: cp_modes_04_audit_audit_reasoning_modes_commit_control_plane_mode_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT/AUDIT_REASONING_MODES_COMMIT_CONTROL_PLANE_MODE_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[04_AUDIT_MOC]]

@@ -50,7 +50,7 @@ Given an operation touching `AUTHORITY · KERNEL AUTHORITY CONTRACT` within the 
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_02_kernel_07_authority_00_index_authority_kernel_authority_contrac
 node_type: note
 path: 02_KERNEL/07_AUTHORITY/00_INDEX/AUTHORITY_KERNEL_AUTHORITY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_AUTHORITY_KERNEL_README]]

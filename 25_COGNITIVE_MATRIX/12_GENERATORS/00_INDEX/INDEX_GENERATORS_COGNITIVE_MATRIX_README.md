@@ -1,3 +1,9 @@
+---
+title: INDEX GENERATORS COGNITIVE MATRIX README
+type: note
+tags: [note, 00-index]
+---
+
 ````markdown
 ---
 tags:
@@ -3270,7 +3276,7 @@ Such transitions require their own evidence and governance.
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER · MODE_ADMISSION_QUEUE · MODE_COMPOSITION_REGISTRY · MODE_CONFLICT_REGISTRY · MODE_COVERAGE_MATRIX · MODE_DEPENDENCY_GRAPH
+**Related:** [[00_HOME]] · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER · MODE_ADMISSION_QUEUE · MODE_COMPOSITION_REGISTRY · MODE_CONFLICT_REGISTRY · MODE_COVERAGE_MATRIX · MODE_DEPENDENCY_GRAPH
 
 ---
 
@@ -3286,7 +3292,7 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00-Home]]
+* INDEXED_BY: [[00_HOME]]
 
 * INDEXED_BY: AMOS_RSCF_NODES
 
@@ -3338,3 +3344,8 @@ RSCF-RELATIONS:
 
 **Status note:** this replaces the placeholder with a substantive routing architecture, but deliberately keeps the artifact at `AMOS_MODEL / CANDIDATE_CANON`. The content specifies the routing contract; it does not manufacture evidence that the described runtime machinery is already implemented or empirically validated.
 ```
+
+## Files
+
+- [[GENERATORS_COGNITIVE_MATRIX_GENERATORS_CONTRACT]]
+- [[GENERATORS_MAP]]

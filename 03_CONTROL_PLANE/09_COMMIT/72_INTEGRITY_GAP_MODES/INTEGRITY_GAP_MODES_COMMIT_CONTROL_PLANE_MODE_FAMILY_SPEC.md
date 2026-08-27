@@ -31,3 +31,6 @@ node_id: cp_gap_modes_integrity_gap_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES/INTEGRITY_GAP_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[72_INTEGRITY_GAP_MODES_MOC]]

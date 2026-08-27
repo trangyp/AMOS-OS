@@ -49,7 +49,7 @@ Given an operation touching `COMMIT · CONTROL PLANE MODE FAMILY REGISTRY` withi
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -67,3 +67,6 @@ node_id: cp_plane_09_commit_03_coding_commit_control_plane_mode_family_registry_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/03_CODING/COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[03_CODING_MOC]]

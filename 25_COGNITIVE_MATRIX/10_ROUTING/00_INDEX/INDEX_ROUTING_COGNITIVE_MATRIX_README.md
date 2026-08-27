@@ -1,3 +1,9 @@
+---
+title: INDEX ROUTING COGNITIVE MATRIX README
+type: note
+tags: [note, 00-index]
+---
+
 Below is a full replacement for `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README.md`.
 
 I did not recover a matching authoritative Drive artifact from the connected Drive search, so this is a **substantive AMOS_MODEL / CONDITIONAL specification derived from the structure and semantics you supplied**, not a claim of recovered final canon.
@@ -125,7 +131,7 @@ Validation evidence references include:
 
 Cross-plane navigation includes:
 
-* [[00_ROOT/00-Home]]
+* [[00_HOME]]
 * [[00_ROOT_MAP]]
 * AMOS_RSCF_NODES
 * K_RSCF
@@ -215,7 +221,7 @@ Cross-plane or cross-segment resolution MUST NOT be inferred from basename alone
 
 Cross-plane resolution goes through:
 
-* [[00_ROOT/00-Home]]
+* [[00_HOME]]
 * [[00_ROOT_MAP]]
 * AMOS_RSCF_NODES
 
@@ -3273,7 +3279,7 @@ If any load-bearing answer is missing, AMOS preserves the gap instead of inventi
 
 ---
 
-**Related:** ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT · ROUTING_MAP · COGNITIVE_MATRIX_MOC · [[00_ROOT/00-Home]] · [[00_ROOT_MAP]] · AMOS_RSCF_NODES · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER · MODE_ADMISSION_QUEUE · MODE_COMPOSITION_REGISTRY · MODE_CONFLICT_REGISTRY · MODE_COVERAGE_MATRIX · MODE_DEPENDENCY_GRAPH · ROUTING_POLICY_VALIDATION_RECEIPT · AUTHZ_ENGINE_VALIDATION_RECEIPT · LAW_HIERARCHY · KERNEL_README · CONTROL_PLANE_README · OBSERVABILITY_README · OPERATIONS_README · K_RSCF · L17_RSCF
+**Related:** ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT · ROUTING_MAP · COGNITIVE_MATRIX_MOC · [[00_HOME]] · [[00_ROOT_MAP]] · AMOS_RSCF_NODES · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER · MODE_ADMISSION_QUEUE · MODE_COMPOSITION_REGISTRY · MODE_CONFLICT_REGISTRY · MODE_COVERAGE_MATRIX · MODE_DEPENDENCY_GRAPH · ROUTING_POLICY_VALIDATION_RECEIPT · AUTHZ_ENGINE_VALIDATION_RECEIPT · LAW_HIERARCHY · KERNEL_README · CONTROL_PLANE_README · OBSERVABILITY_README · OPERATIONS_README · K_RSCF · L17_RSCF
 
 ---
 
@@ -3287,7 +3293,7 @@ path: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_REA
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00-Home]]
+* INDEXED_BY: [[00_HOME]]
 
 * INDEXED_BY: AMOS_RSCF_NODES
 
@@ -3344,3 +3350,8 @@ canonical_status: CONDITIONAL
 
 This keeps the file correctly scoped as an **index/readme**, while making the admission → scope → authority → precondition → proposal → commit/hold → receipt semantics substantially explicit and retaining the `PARTIAL` executable-validation gap rather than overstating implementation.
 ```
+
+## Files
+
+- [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
+- [[ROUTING_MAP]]

@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/amos-governed-evolution`
 
 - Open the skill: .agents/skills/amos-governed-evolution
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

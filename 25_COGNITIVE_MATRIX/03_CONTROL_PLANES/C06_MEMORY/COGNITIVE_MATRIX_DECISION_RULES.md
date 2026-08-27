@@ -1,3 +1,9 @@
+---
+title: COGNITIVE MATRIX DECISION RULES
+type: note
+tags: [note, c06-memory]
+---
+
 # C06 — Decision Rules
 
 **Package:** `C06_MEMORY`  
@@ -39,3 +45,6 @@ node_type: note
 path: 03_CONTROL_PLANES/C06_MEMORY/COGNITIVE_MATRIX_DECISION_RULES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/COGNITIVE_MATRIX_DECISION_RULES.md
+
+---
+**MOC:** [[C06_MEMORY_MOC]]

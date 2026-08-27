@@ -1,6 +1,11 @@
 ---
+title: AMOS MATH CORE FRACTAL MATHEMATICS AND COGNITIVE ARCHITECTURE RUNTIME
 tags: [fractal]
+type: document
+source: 11_KNOWLEDGE/fractal
 ---
+
+
 # AMOS Math Core — Fractal Mathematics & Cognitive Architecture Runtime
 
 ## Overview
@@ -1207,4 +1212,7 @@ Its role is to provide explicit mathematical procedures capable of testing, esti
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · Fractal_Cognitive_Architecture_v2 · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · Fractal_Cognitive_Architecture_v2 · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[FRACTAL_MOC]]

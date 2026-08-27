@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 GOVERNANCE ARCHITECTURE DECOMMISSIONING
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # 2026-08-22 Governance Architecture & Decommissioning
 
 ## Summary
@@ -49,4 +54,7 @@ Closed gap cluster 280-290 (Governance Architecture & Decommissioning) — 11 ga
 - 19 cognitive matrix gaps (321-339)
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

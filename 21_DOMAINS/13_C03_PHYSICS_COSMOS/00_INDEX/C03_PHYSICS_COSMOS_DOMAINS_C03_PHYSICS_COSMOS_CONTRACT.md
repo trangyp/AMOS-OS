@@ -31,3 +31,6 @@ node_id: amos_mos_00_index_c03_physics_cosmos_domains_c03_physics_cosmos_contrac
 node_type: note
 path: 21_DOMAINS/13_C03_PHYSICS_COSMOS/00_INDEX/C03_PHYSICS_COSMOS_DOMAINS_C03_PHYSICS_COSMOS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C03_PHYSICS_COSMOS_DOMAINS_README]]

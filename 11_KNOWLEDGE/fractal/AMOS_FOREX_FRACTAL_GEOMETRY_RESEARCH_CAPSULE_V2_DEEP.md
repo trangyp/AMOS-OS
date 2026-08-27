@@ -1371,3 +1371,6 @@ High that this is a structurally faithful AMOS research translation; UNKNOWN for
 
 **Decision**  
 Preserve the complete Trang geometry canon in the Forex research layer. Promote only individual measured descendants that survive the AMOS validation lattice.
+
+---
+**Links:** [[FRACTAL_MOC]] | [[KNOWLEDGE_MOC]]

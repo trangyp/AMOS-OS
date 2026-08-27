@@ -1,6 +1,11 @@
 ---
+title: NEUROSYNCAI X AWS
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/neurosyncai-x-aws, misc]
+type: note
+source: 11_KNOWLEDGE/misc
 ---
+
+
 
 NeuroSyncAI™ x AWS
 Deterministic Infrastructure Deployment and Full-System
@@ -2145,4 +2150,7 @@ logic hash and IAM lockdown.
 NeuroSyncAI™ x AWS 56
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

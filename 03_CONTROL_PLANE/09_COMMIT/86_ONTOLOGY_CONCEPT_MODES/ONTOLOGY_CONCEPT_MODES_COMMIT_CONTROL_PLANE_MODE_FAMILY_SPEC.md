@@ -31,3 +31,6 @@ node_id: cp__modes_ontology_concept_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/86_ONTOLOGY_CONCEPT_MODES/ONTOLOGY_CONCEPT_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[86_ONTOLOGY_CONCEPT_MODES_MOC]]

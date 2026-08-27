@@ -117,7 +117,10 @@ all 7 stages of the constrained expression translation pipeline.
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 Deterministic Verification Summary
 - 2026-08-23 AMOS Cognitive Substrate Bug Fixes
 - 2026-08-23 AMOS Runtime Test Expansion
+
+---
+**MOC:** [[DATED_MOC]]

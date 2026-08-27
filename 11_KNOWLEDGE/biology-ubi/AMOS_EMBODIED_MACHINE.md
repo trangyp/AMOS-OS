@@ -1,6 +1,11 @@
 ---
+title: AMOS EMBODIED MACHINE
 tags: [biology-ubi]
+type: document
+source: 11_KNOWLEDGE/biology-ubi
 ---
+
+
 # AMOS Embodied Machine Framework - Complete Body Implementation
 
 ## 🧠 **MISSION ACCOMPLISHED**
@@ -178,3 +183,6 @@ The AMOS Embodied Machine is now ready to integrate with:
 - **Meta-Cognition**: Observes both body and cognitive states together
 
 **This completes the full biological stack: Body + Blood + Fascia + Nerves + Organs + Brain + Meta-Awareness**
+
+---
+**Links:** [[BIOLOGY-UBI_MOC]] | [[KNOWLEDGE_MOC]]

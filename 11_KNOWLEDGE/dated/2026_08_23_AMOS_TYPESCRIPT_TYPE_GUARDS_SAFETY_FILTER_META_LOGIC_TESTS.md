@@ -102,7 +102,7 @@ npx vitest run --reporter=default
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Kafka Brain Buffer
 - 2026-08-23 AMOS Cognitive Substrate Dependency-Safe Forgetting
 
@@ -113,3 +113,6 @@ After Kafka Brain Buffer test suite (180 tests) was added, totals updated:
 - Total verified: 1934 + 271 + 1433 = 3638
 - Grand total with deterministic verification: 3638 + 359 = 3997
 - See 2026-08-23 AMOS Kafka Brain Buffer Test Suite for details
+
+---
+**MOC:** [[DATED_MOC]]

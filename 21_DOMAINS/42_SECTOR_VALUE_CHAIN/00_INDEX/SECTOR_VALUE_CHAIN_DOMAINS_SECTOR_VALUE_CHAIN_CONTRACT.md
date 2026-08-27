@@ -31,3 +31,6 @@ node_id: amos_ain_00_index_sector_value_chain_domains_sector_value_chain_contrac
 node_type: note
 path: 21_DOMAINS/42_SECTOR_VALUE_CHAIN/00_INDEX/SECTOR_VALUE_CHAIN_DOMAINS_SECTOR_VALUE_CHAIN_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_SECTOR_VALUE_CHAIN_DOMAINS_README]]

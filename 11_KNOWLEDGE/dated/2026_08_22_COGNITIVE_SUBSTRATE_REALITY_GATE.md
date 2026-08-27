@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 COGNITIVE SUBSTRATE REALITY GATE
 origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_REALITY_GATE.py
 confidence: 0.9
@@ -7,6 +8,7 @@ conclusion_label: "VERIFIED"
 tags: [canon-group/tech-ai, cosmo-brain, cognitive-substrate, reality-contact, epistemic-autopoisoning, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-cognitive-substrate-reality-gate, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # Cognitive Substrate Reality Gate
 
@@ -17,7 +19,7 @@ date: 2026-08-22
 > Source: `cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_REALITY_GATE.py` (17 self-tests)
 > Test: `cosmo-brain/test_cognitive_substrate_reality_gate.py` (9 integration, 26 total)
 > Skill: amos-cognitive-substrate-reality-gate
-> See also: [[00_Cosmo_Brain_MOC]] · 2026-08-22 AMOS Obsidian Memory Bridge · amos-provenance-trust · amos-core-reasoning
+> See also: [[00_COSMO_BRAIN_MOC]] · 2026-08-22 AMOS Obsidian Memory Bridge · amos-provenance-trust · amos-core-reasoning
 
 ## 1. The problem this solves
 
@@ -98,3 +100,6 @@ All 4 slices are now consolidated in the single unified module `cosmo-brain/AMOS
 - Authority: explicit user authorization (repo architect), recorded here per `amos-governed-evolution`.
 - Rollback path: delete the Python module, test file, skill directory, this note, and the MOC wikilink.
 - Reversible: yes — all artifacts are additive; no existing brain module was modified.
+
+---
+**MOC:** [[DATED_MOC]]

@@ -1,3 +1,9 @@
+---
+title: CORE LAWS MAP
+type: note
+tags: [note, 00-index]
+---
+
 ````markdown
 ---
 title: "AMOS Core Laws Map"
@@ -2286,3 +2292,6 @@ confidence_ceiling: 0
 
 ```
 ```
+
+---
+**MOC:** [[INDEX_CORE_LAWS_CANON_README]]

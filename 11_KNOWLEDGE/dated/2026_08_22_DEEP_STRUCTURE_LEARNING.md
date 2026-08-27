@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 DEEP STRUCTURE LEARNING
 origin_architect: Devin (AMOS session)
 provenance: direct JSON parsing, find/ls enumeration, structural inspection of all brain subdirectories
 confidence: 0.95
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-deep-structure-learning, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # Devin Deep Structure Learning — 2026-08-22
 
@@ -42,5 +44,8 @@ Deep structural inspection of `_00_Cosmo brain/`:
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 Devin Memory Update
+
+---
+**MOC:** [[DATED_MOC]]

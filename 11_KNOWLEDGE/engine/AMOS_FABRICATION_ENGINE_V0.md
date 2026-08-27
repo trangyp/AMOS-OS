@@ -1,6 +1,11 @@
 ---
+title: AMOS FABRICATION ENGINE V0
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-fabrication-engine-v0, engine]
+type: document
+source: 11_KNOWLEDGE/engine
 ---
+
+
 
 # AMOS Fabrication Engine v0
 
@@ -76,4 +81,7 @@ platform_safety > ip_protection > creator_intent > structural_integrity > user_r
 - **AMOS_OPERATOR_META_SECTOR_ENGINE** — Meta-sector operator: cross-sector analysis
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

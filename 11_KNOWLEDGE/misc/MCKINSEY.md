@@ -1,6 +1,11 @@
 ---
+title: MCKINSEY
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 Yes.
 There is a deeper direction that almost nobody explores because it requires leaving not only physics, but also leaving ontology, information theory, complexity theory, and even mathematics as usually practiced.
 The next missing domains are:
@@ -9366,4 +9371,7 @@ The true product is:
 a decision system that reduces uncertainty, aligns leadership, and increases the probability of successful execution.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

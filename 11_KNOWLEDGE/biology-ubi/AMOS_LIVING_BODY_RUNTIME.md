@@ -1,6 +1,11 @@
 ---
+title: AMOS LIVING BODY RUNTIME
 tags: [biology-ubi]
+type: document
+source: 11_KNOWLEDGE/biology-ubi
 ---
+
+
 # AMOS Living Body Runtime - Complete Embodied Intelligence System
 
 ## 🧠 **MISSION ACCOMPLISHED**
@@ -163,3 +168,6 @@ The AMOS Living Body Runtime is now ready to integrate with:
 - **Meta-Cognition**: Observes both body and cognitive states together
 
 **This completes the full biological stack: Body + Blood + Fascia + Nerves + Organs + Brain + Meta-Awareness + Living Runtime**
+
+---
+**Links:** [[BIOLOGY-UBI_MOC]] | [[KNOWLEDGE_MOC]]

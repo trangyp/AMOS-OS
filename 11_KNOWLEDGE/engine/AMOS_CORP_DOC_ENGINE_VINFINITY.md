@@ -141,4 +141,7 @@ Connects corp engine to template/layout libraries for ppt, docs, wiki pages, cha
 **Conclusion**: SOURCE — Comprehensive corporate documentation engine with 12 clusters covering full spectrum from brand language to layout systems. x100k virtual expansion model replaces 100k micro-layers with 4-dimensional parametric model (doc_type × channel × purpose × locale). 4 overlays (formatting, compliance, governance, template) for cross-cutting concerns. 5 policies for loading, prompting, security, quality, governance. Deterministic task routing to appropriate families. Bilingual (EN/VI) with internal English reasoning. Production-ready for all corporate document types across all channels.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

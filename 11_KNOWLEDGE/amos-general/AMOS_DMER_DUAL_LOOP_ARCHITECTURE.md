@@ -1,4 +1,5 @@
 ---
+title: AMOS DMER DUAL LOOP ARCHITECTURE
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
@@ -31,6 +32,7 @@ tags:
   - amos-general
 
 ---
+
 
 # AMOS D/M/E/R Dual-Loop Architecture
 ## Distinction · Mutation · Entropy · Repair · ∞ / ●
@@ -2408,4 +2410,7 @@ not proof that all reality reduces to four empirical laws.}
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · AMOS_CORE · AMOS_Full_Brain_OS · rscf · UMPL · HIE · UIE · UEL · Absolute_Human · Ancient_Math · AMOS_Distinction_Architecture · AMOS_Entropy · AMOS_Repair · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · AMOS_CORE · AMOS_Full_Brain_OS · rscf · UMPL · HIE · UIE · UEL · Absolute_Human · Ancient_Math · AMOS_Distinction_Architecture · AMOS_Entropy · AMOS_Repair · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

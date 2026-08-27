@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 THE HUMAN SYSTEM EPISTEMIC AUDIT V2
 type: epistemic-audit
 created: 2026-08-22
 updated: 2026-08-22
@@ -10,6 +11,7 @@ byte_count_memory: 11336
 byte_count_cheatsheet: 7936
 tags: [dated, dated/2026-08-22]
 ---
+
 
 # The Complete Human System — Epistemic Audit v2 (2026-08-22)
 
@@ -420,4 +422,7 @@ The two versions are consistent on the core content. Version B adds specific cli
 **Conclusion:** The book's core insight — that humans are multi-layer regulatory systems and that distress/suffering arises from misalignment across layers — is well-supported by neuroscience and psychology. The specific equations are useful conceptual formulations but should not be treated as quantitatively precise. The most actionable content is the repair protocol (8 steps in biological order) and the manipulation compression (for understanding how influence works). The most falsifiable claim is the distress equation, IF operationalized.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

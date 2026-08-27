@@ -32,4 +32,7 @@ tags: [math, tensors, governance, composition, dated, dated/2026-08-25]
 This closes the last unowned composition surface in the QFM architecture: knowledge (L1), bridges (L2), dynamics (L3), collapse (L4), enforcement (L5) can each produce tensors, and every join between them now passes a named gate with an owning agent.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

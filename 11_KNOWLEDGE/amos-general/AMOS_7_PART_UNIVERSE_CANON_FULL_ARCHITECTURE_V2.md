@@ -1,6 +1,11 @@
 ---
+title: AMOS 7 PART UNIVERSE CANON FULL ARCHITECTURE V2
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # AMOS 7-Part Universe Canon — Full Persistence Architecture
 ## Source Canon • Formal AMOS Model • H/M/L Runtime • 19×19 State Lattice • 7-Cycle Dynamics • Control Plane • RSCF/GMEF • Collapse/Recovery
 
@@ -2224,3 +2229,6 @@ Use the canon aggressively for **structural diagnosis**.
 Use it conservatively for **causal, scientific, historical, financial, military, biological, or predictive claims**.
 
 That separation makes the canon stronger inside AMOS rather than weaker: source identity is preserved, formal runtime value increases, and unsupported universality does not contaminate the control plane.
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

@@ -112,6 +112,9 @@ python3 -m pytest tests/ -q -p no:randomly
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Completion Graph All 249 Gaps Closed
 - 2026-08-22 AMOS Structural Gap Promotion 340-347
+
+---
+**MOC:** [[DATED_MOC]]

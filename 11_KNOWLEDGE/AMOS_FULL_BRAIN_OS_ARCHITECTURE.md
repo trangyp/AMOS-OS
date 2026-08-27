@@ -1,6 +1,11 @@
 ---
+title: AMOS FULL BRAIN OS ARCHITECTURE
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/00-amos-full-brain-os-architecture]
+type: document
+source: 11_KNOWLEDGE/root
 ---
+
+
 
 # AMOS Full Brain OS — Rebuilt Architecture (2026-08-22)
 
@@ -157,3 +162,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

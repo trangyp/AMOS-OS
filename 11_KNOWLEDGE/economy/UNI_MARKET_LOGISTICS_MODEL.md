@@ -1,7 +1,9 @@
 ---
+title: UNI MARKET LOGISTICS MODEL
 aliases: [Uni Market Logistics Engine, AMOS_Uni_Market, VN_Driver_Charging_Logistics]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/uni-market-logistics-model, economy]
 ---
+
 
 # AMOS Uni Market Logistics Engine
 
@@ -30,4 +32,7 @@ Stateframes are constructed by intersecting:
 - **Expert Validation:** High-stakes investments and public policy decisions require engineering and data validation outside this kernel.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ECONOMY_MOC]]

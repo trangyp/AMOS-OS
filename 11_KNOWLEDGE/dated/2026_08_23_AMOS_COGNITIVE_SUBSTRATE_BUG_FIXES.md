@@ -132,8 +132,11 @@ tests so the scope compatibility check has a real value to compare against.
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 Cognitive Substrate Reality Gate
 - 2026-08-22 Cognitive Substrate Reasoning Graph
 - 2026-08-22 Cognitive Substrate Memory Graph
 - 2026-08-22 Cognitive Substrate Interface Coupling
+
+---
+**MOC:** [[DATED_MOC]]

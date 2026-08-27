@@ -90,3 +90,6 @@ The user pre-implemented the module, types, and store methods. I added:
 4. **All CONDITIONAL gates**: Unlike previous clusters, all longevity gates are CONDITIONAL (no FAIL). Longevity issues are advisory.
 5. **Pre-existing assurance_debt bugs**: The user's assurance_debt module had SQL column count mismatches (8 `?` for 7-column tables) and a gate count mismatch (17 gates vs expected 15). I fixed both.
 6. **All 230 gaps now closed**: With the user's assurance_debt implementation, all 230 meta-gaps (91-320) are now closed. The Completion Graph is complete.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

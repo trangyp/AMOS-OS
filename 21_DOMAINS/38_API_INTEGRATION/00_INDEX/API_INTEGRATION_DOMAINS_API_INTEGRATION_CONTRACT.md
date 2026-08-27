@@ -31,3 +31,6 @@ node_id: amos_tegration_00_index_api_integration_domains_api_integration_contrac
 node_type: note
 path: 21_DOMAINS/38_API_INTEGRATION/00_INDEX/API_INTEGRATION_DOMAINS_API_INTEGRATION_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_API_INTEGRATION_DOMAINS_README]]

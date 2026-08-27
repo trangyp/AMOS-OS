@@ -1,749 +1,134 @@
 ---
+title: MASTERPLAN DECENTRALISED QUANTUM LOGIC INFRASTRU
 tags: [quantum]
+type: document
+source: 11_KNOWLEDGE/quantum
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>🌍 Masterplan: Decentralised Quantum Logic Infrastructure for Energy, EROI, and Carbon Scoring</title><style>
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
-html {
-	-webkit-print-color-adjust: exact;
-}
-* {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-@media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
-}
-
-body {
-	line-height: 1.5;
-	white-space: pre-wrap;
-}
-
-a,
-a.visited {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
-}
-
-h1,
-h2,
-h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-/* Override strong tags inside headings to maintain consistent weight */
-h1 strong,
-h2 strong,
-h3 strong {
-	font-weight: 600;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
-}
-
-h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-}
-
-h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
-}
-
-.callout {
-	border-radius: 10px;
-	padding: 1rem;
-}
-
-figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
-}
-
-figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
-}
-
-mark {
-	background-color: transparent;
-}
-
-.indented {
-	padding-left: 1.5em;
-}
-
-hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-img {
-	max-width: 100%;
-}
-
-@media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
-
-	table.collection-content {
-		width: 100%;
-		table-layout: fixed;
-	}
-
-	table.collection-content th,
-	table.collection-content td {
-		overflow-wrap: anywhere;
-	}
-
-	table.collection-content td > .user,
-	table.collection-content td > time {
-		white-space: pre-wrap;
-	}
-}
-
-@page {
-	margin: 1in;
-}
-
-.collection-content-wrapper {
-	overflow-x: auto;
-}
-
-@media only print {
-	.collection-content-wrapper {
-		overflow-x: visible;
-	}
-}
-
-.collection-content {
-	font-size: 0.875rem;
-}
-
-.collection-content td {
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-.column-list {
-	display: flex;
-	gap: 46px;
-}
-
-.column {
-	min-width: 0;
-	overflow: hidden;
-}
-
-.column > *:first-child {
-	margin-top: 0;
-}
-
-.table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
-}
-
-.table_of_contents-indent-1 {
-	margin-left: 1.5rem;
-}
-
-.table_of_contents-indent-2 {
-	margin-left: 3rem;
-}
-
-.table_of_contents-indent-3 {
-	margin-left: 4.5rem;
-}
-
-.table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-}
-
-table,
-th,
-td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-	border-collapse: collapse;
-}
-
-table {
-	border-left: none;
-	border-right: none;
-}
-
-th,
-td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
-}
-
-th {
-	color: rgba(55, 53, 47, 0.6);
-}
-
-ol,
-ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
-}
-
-li > ol:first-child,
-li > ul:first-child {
-	margin-block-start: 0.6em;
-}
-
-ul > li {
-	list-style: disc;
-}
-
-ul.to-do-list {
-	padding-inline-start: 0;
-}
-
-ul.to-do-list > li {
-	list-style: none;
-}
-
-.to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
-}
-
-ul.toggle > li {
-	list-style: none;
-}
-
-ul {
-	padding-inline-start: 1.7em;
-}
-
-ul > li {
-	padding-left: 0.1em;
-}
-
-ol {
-	padding-inline-start: 1.6em;
-}
-
-ol.numbered-list.numbered-list-digits-2 {
-	padding-inline-start: 2em;
-}
-
-ol.numbered-list.numbered-list-digits-3plus {
-	padding-inline-start: 2.4em;
-}
-
-ol > li {
-	padding-left: 0.2em;
-}
-
-.mono ol {
-	padding-inline-start: 2em;
-}
-
-.mono ol > li {
-	text-indent: -0.4em;
-}
-
-.toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
-}
-
-/* Indent toggle children */
-.toggle > li > details {
-	padding-left: 1.7em;
-}
-
-.toggle > li > details > summary {
-	margin-left: -1.1em;
-}
-
-.selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
-}
-
-.collection-title {
-	display: inline-block;
-	margin-right: 1em;
-}
-
-.page-description {
-	margin-bottom: 2em;
-}
-
-.simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
-}
-.simple-table td {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table th {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
-}
-.simple-table-header {
-	font-weight: 500;
-}
-
-time {
-	opacity: 0.5;
-}
-
-.icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
-}
-
-img.icon {
-	border-radius: 3px;
-}
-
-.callout img.notion-static-icon {
-	width: 1em;
-	height: 1em;
-}
-
-.callout p {
-	margin: 0;
-}
-
-.callout h1,
-.callout h2,
-.callout h3 {
-	margin: 0 0 0.6rem;
-}
-
-.user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-	font-size: 0.8em;
-}
-
-.text-icon {
-	border: 1px solid #000;
-	text-align: center;
-}
-
-.page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
-}
-
-.page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
-}
-
-.page-header-icon img {
-	border-radius: 3px;
-}
-
-.link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
-}
-
-p > .user {
-	opacity: 0.5;
-}
-
-td > .user,
-td > time {
-	white-space: nowrap;
-}
-
-input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
-}
-
-.code,
-code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
-}
-
-code {
-	color: #eb5757;
-}
-
-.code {
-	padding: 1.5em 1em;
-}
-
-.code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
-}
-
-.code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
-}
-
-blockquote {
-	font-size: 1em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
-}
-
-blockquote.quote-large {
-	font-size: 1.25em;
-}
-
-.bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
-}
-
-.bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
-}
-
-.bookmark-text {
-	display: flex;
-	flex-direction: column;
-}
-
-.bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
-}
-
-.bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
-}
-
-.bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
-}
-
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
-.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
-.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
-.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.highlight-default {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.highlight-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.highlight-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.highlight-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.highlight-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.highlight-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.highlight-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.highlight-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.highlight-default_background {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray_background {
-	background: rgba(42, 28, 0, 0.07);
-}
-.highlight-brown_background {
-	background: rgba(139, 46, 0, 0.086);
-}
-.highlight-orange_background {
-	background: rgba(224, 101, 1, 0.129);
-}
-.highlight-yellow_background {
-	background: rgba(211, 168, 0, 0.137);
-}
-.highlight-teal_background {
-	background: rgba(0, 100, 45, 0.09);
-}
-.highlight-blue_background {
-	background: rgba(0, 124, 215, 0.094);
-}
-.highlight-purple_background {
-	background: rgba(102, 0, 178, 0.078);
-}
-.highlight-pink_background {
-	background: rgba(197, 0, 93, 0.086);
-}
-.highlight-red_background {
-	background: rgba(223, 22, 0, 0.094);
-}
-.block-color-default {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.block-color-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.block-color-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.block-color-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.block-color-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.block-color-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.block-color-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.block-color-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.block-color-default_background {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray_background {
-	background: rgba(240, 239, 237, 1);
-}
-.block-color-brown_background {
-	background: rgba(245, 237, 233, 1);
-}
-.block-color-orange_background {
-	background: rgba(251, 235, 222, 1);
-}
-.block-color-yellow_background {
-	background: rgba(249, 243, 220, 1);
-}
-.block-color-teal_background {
-	background: rgba(232, 241, 236, 1);
-}
-.block-color-blue_background {
-	background: rgba(229, 242, 252, 1);
-}
-.block-color-purple_background {
-	background: rgba(243, 235, 249, 1);
-}
-.block-color-pink_background {
-	background: rgba(250, 233, 241, 1);
-}
-.block-color-red_background {
-	background: rgba(252, 233, 231, 1);
-}
-.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
-.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
-.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
-.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
-.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
-.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
-.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
-.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
-.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
-.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
-
-.checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
-}
-
-.checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-
-.checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-	
-</style></head><body><article id="268c5e6f-95bd-80c1-bd10-e4f9ca6b2af0" class="page sans"><header><h1 class="page-title" dir="auto">🌍 Masterplan: Decentralised Quantum Logic Infrastructure for Energy, EROI, and Carbon Scoring</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-80f9-a66d-c1e6fd222a8b"/></div><div style="display:contents" dir="auto"><h2 id="268c5e6f-95bd-8011-88f0-d7a8c05a6c58" class="">1. Why Decentralisation Matters</h2></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-809b-b25a-ece7ef7e5e7b" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem today</strong>: Carbon markets and energy registries are centralised → controlled by governments, consultancies, or NGOs → prone to corruption, double-counting, and political capture.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80c7-a0e3-f5ffa9f9e085" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution</strong>: Like Bitcoin decentralised money, this system decentralises <strong>energy truth</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80f7-8541-c0738eeafd9f" class="bulleted-list"><li style="list-style-type:disc"><strong>Result</strong>: No single authority can alter scores. Trust shifts from institutions → cryptographic protocols + economic incentives.</li></ul></div><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-807b-a5d5-d51dd92d056e"/></div><div style="display:contents" dir="auto"><h2 id="268c5e6f-95bd-802b-8250-e5b512b6bf02" class="">2. Core Decentralisation Features</h2></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-8040-94ad-e7a4c7fc0e11" class="numbered-list" start="1"><li><strong>Open Participation</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80ef-96cb-dd03315228ba" class="bulleted-list"><li style="list-style-type:disc">Anyone can submit data, attest, or challenge (operators, verifiers, researchers).</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-805b-84dc-d27b9c6019d6" class="bulleted-list"><li style="list-style-type:disc">No need to “register” with a central body — identity secured by decentralised identifiers (DIDs).</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-806d-8a70-c1e9cc27cb75" class="numbered-list" start="2"><li><strong>Cryptographic Anchoring</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80f0-8740-e414536d9405" class="bulleted-list"><li style="list-style-type:disc">All readings, attestations, and scores are hashed, Merkle-rooted, and anchored on-chain.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-804a-b183-ce7259ab26cc" class="bulleted-list"><li style="list-style-type:disc">Immutable once finalised → irreversibility like Bitcoin blocks.</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-805a-8e43-d684f0eb1291" class="numbered-list" start="3"><li><strong>Consensus Without Central Authority</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8085-bb87-f05a35785819" class="bulleted-list"><li style="list-style-type:disc">Scores resolved through <strong>stake-weighted attestation markets</strong> and reproducible open-source methods.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-807f-8134-e3c477c5e7d4" class="bulleted-list"><li style="list-style-type:disc">Conflicts settled by cryptoeconomic rules, not by an institution’s judgment.</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-80ad-961b-e7abce647fae" class="numbered-list" start="4"><li><strong>Distributed Verification</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80ba-8d0c-f7160dca41be" class="bulleted-list"><li style="list-style-type:disc">Redundant data sources: IoT, SCADA, satellites, operator logs.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-803e-9eab-d168c307c752" class="bulleted-list"><li style="list-style-type:disc">Multiple independent verifiers → results converge through <strong>median-of-means</strong> instead of trusting one “auditor.”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-8098-8e80-d589a4a79d87" class="numbered-list" start="5"><li><strong>Incentive Alignment</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80af-827d-e045b318712d" class="bulleted-list"><li style="list-style-type:disc">Honest reporting rewarded, fraud penalised through slashing.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80ff-82b2-e8b42fbc63bd" class="bulleted-list"><li style="list-style-type:disc">Challengers earn by exposing manipulation → adversarial resilience.</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-8040-88f1-e68bb7bd1d6d"/></div><div style="display:contents" dir="auto"><h2 id="268c5e6f-95bd-8009-99a4-ddc71d19b4d1" class="">3. Quantum Logic Principles in Service of Decentralisation</h2></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-802b-be9e-e1f01ece9f72" class="bulleted-list"><li style="list-style-type:disc"><strong>Observer Effect → Many Observers</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80e0-b306-d8da1e401095" class="bulleted-list"><li style="list-style-type:circle">Not one authority, but a <em>network</em> of observers (devices, satellites, verifiers) collapsing uncertainty.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8044-84ad-f4bffdf56bd1" class="bulleted-list"><li style="list-style-type:disc"><strong>Superposition → Competing Methods</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8060-babb-f70f11ce31d4" class="bulleted-list"><li style="list-style-type:circle">Multiple methodologies run in parallel.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8089-bb02-ffec53e10872" class="bulleted-list"><li style="list-style-type:circle">Governance + consensus collapse them into canonical methods.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8027-9b67-ddf03d33f66f" class="bulleted-list"><li style="list-style-type:disc"><strong>Entanglement → Cross-Verification</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8083-9e0b-f48f4987354f" class="bulleted-list"><li style="list-style-type:circle">Energy, carbon, and EROI entangled; verification across domains prevents manipulation of a single variable.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8058-9022-f08835e2f518" class="bulleted-list"><li style="list-style-type:disc"><strong>Coherence/Decoherence → Noise Filtering</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-808d-86e1-e17b6e7a678e" class="bulleted-list"><li style="list-style-type:circle">Fraudulent or inconsistent attestations = decoherence → removed automatically through slashing.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80e5-9ff0-ecc3efb441c8" class="bulleted-list"><li style="list-style-type:disc"><strong>Irreversibility → Anchored Ledger</strong><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80ba-a562-efd89c773ade" class="bulleted-list"><li style="list-style-type:circle">Once data is finalised, it cannot be undone — institutional bias has no way back in.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-809c-915c-d24546ea7746"/></div><div style="display:contents" dir="auto"><h2 id="268c5e6f-95bd-80d8-9f7d-fea8ae946be1" class="">4. Governance by Protocol, Not Institution</h2></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-804e-b784-cb13647ffbdc" class="bulleted-list"><li style="list-style-type:disc"><strong>DAO structure</strong>:<div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8020-9785-f191dc5a61ea" class="bulleted-list"><li style="list-style-type:circle"><strong>Technical House</strong> maintains open-source scoring methods.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-804a-ae4c-c677fba72705" class="bulleted-list"><li style="list-style-type:circle"><strong>Stake House</strong> governs upgrades, with slashing for abuse.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8069-9a7c-d7c9ff8ebfa4" class="bulleted-list"><li style="list-style-type:disc">No ISO, UN, or consultancy owns the standard. The <strong>protocol is the standard</strong>.</li></ul></div><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-802d-beb8-c0e78a2e40f2"/></div><div style="display:contents" dir="auto"><h2 id="268c5e6f-95bd-80a9-be5b-dd26a6f5d322" class="">5. Market Interfaces (Decentralised First)</h2></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8032-9951-d286e91a2d98" class="bulleted-list"><li style="list-style-type:disc"><strong>Public Explorer</strong>: like a Bitcoin block explorer, but for energy → every site’s EROI, carbon, and Nature Score visible.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8047-8b1a-c921de895df3" class="bulleted-list"><li style="list-style-type:disc"><strong>DeFi &amp; Finance</strong>: scores become decentralised oracles for loans, insurance, PPAs.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-8055-8048-c4458e776fef" class="bulleted-list"><li style="list-style-type:disc"><strong>Consumer Transparency</strong>: apps pull decentralised scores directly — no middlemen “approving labels.”</li></ul></div><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-803f-b8cd-f429f9ea1eea"/></div><div style="display:contents" dir="auto"><h2 id="268c5e6f-95bd-80e0-9dea-d0e97ec9b023" class="">6. Rollout Strategy</h2></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-8019-a95f-d5cc2fc64866" class="numbered-list" start="1"><li><strong>Pilot Ledger</strong>: 10–20 renewable sites → prove decentralised attestation works.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-80c6-a387-ddf6a23db575" class="numbered-list" start="2"><li><strong>Verifier Marketplace</strong>: global open access for attestors + challengers.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-80de-b96a-e73d5b1cec01" class="numbered-list" start="3"><li><strong>DAO Governance Launch</strong>: protocol takes precedence over institutions.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-8064-99a5-e6b3534e54ab" class="numbered-list" start="4"><li><strong>Global Expansion</strong>: all asset classes (thermal, hydrocarbon, storage).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="268c5e6f-95bd-80d4-b8b6-c0c7338f6fb5" class="numbered-list" start="5"><li><strong>Planetary Ledger</strong>: decentralised baseline for carbon treaties, financial flows, and supply chains.</li></ol></div><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-80af-aa9e-c0732dad585e"/></div><div style="display:contents" dir="auto"><h2 id="268c5e6f-95bd-8032-8a99-d20c56a12149" class="">7. Strategic Impact</h2></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80e9-81ca-cb0baa7c5f76" class="bulleted-list"><li style="list-style-type:disc">Removes dependency on centralised consultants and opaque registries.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-808c-a225-d5dd2b272d9f" class="bulleted-list"><li style="list-style-type:disc">Creates <strong>trustless MRV (measurement, reporting, verification)</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-80f7-af08-e7aaf750499a" class="bulleted-list"><li style="list-style-type:disc">Unlocks truly global comparability → the “Bitcoin of energy truth.”</li></ul></div><div style="display:contents" dir="auto"><ul id="268c5e6f-95bd-808c-86fc-eccb1074672f" class="bulleted-list"><li style="list-style-type:disc">Institutions may still <em>use</em> the ledger, but they can no longer <em>control</em> it.</li></ul></div><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-8084-a75e-c6beb9b911fd"/></div><div style="display:contents" dir="auto"><p id="268c5e6f-95bd-80a6-8c5b-fe52f5616b65" class="">✅ <strong>Summary</strong>:</p></div><div style="display:contents" dir="auto"><p id="268c5e6f-95bd-8019-b6f4-e4c4e432ad3f" class="">This plan decentralises <strong>energy, EROI, and carbon scoring</strong> so that no single government, institution, or corporation can manipulate the truth. Every measurement becomes a quantum of information, observed, attested, and finalised through consensus — <strong>decentralisation as the living embodiment of quantum logic.</strong></p></div><div style="display:contents" dir="auto"><hr id="268c5e6f-95bd-8062-9e15-e7c96e8a0bcf"/></div><div style="display:contents" dir="ltr"><figure id="268c5e6f-95bd-8073-b3d9-dd16c3bda7fd" class="link-to-page"><a href="%F0%9F%8C%90%20Decentralised%20Energy%E2%80%93EROI%E2%80%93Carbon%20Scoring%20Network%20268c5e6f95bd8073b3d9dd16c3bda7fd.html">🌐 Decentralised Energy–EROI–Carbon Scoring Network</a></figure></div><div style="display:contents" dir="ltr"><figure id="26fc5e6f-95bd-80eb-b3f8-e136b11b7389" class="link-to-page"><a href="Meeting%20Playbook%E2%84%A2%2026fc5e6f95bd80ebb3f8e136b11b7389.html">Meeting Playbook™</a></figure></div><div style="display:contents" dir="ltr"><figure id="271c5e6f-95bd-80a8-aca6-da17b235e51d" class="link-to-page"><a href="Khoa%20h%E1%BB%8Dc%20c%E1%BB%A7a%20T%E1%BB%AD%20Vi%20&amp;%20T%C6%B0%E1%BB%9Bng%20S%E1%BB%91%20271c5e6f95bd80a8aca6da17b235e51d.html">Khoa học của Tử Vi &amp; Tướng Số</a></figure></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+
+
+# 🌍 Masterplan: Decentralised Quantum Logic Infrastructure for Energy, EROI, and Carbon Scoring
+* * *
+## 1\. Why Decentralisation Matters
+  * **Problem today** : Carbon markets and energy registries are centralised → controlled by governments, consultancies, or NGOs → prone to corruption, double-counting, and political capture.
+
+
+  * **Solution** : Like Bitcoin decentralised money, this system decentralises **energy truth**.
+
+
+  * **Result** : No single authority can alter scores. Trust shifts from institutions → cryptographic protocols + economic incentives.
+
+
+* * *
+## 2\. Core Decentralisation Features
+  1. **Open Participation**
+     * Anyone can submit data, attest, or challenge (operators, verifiers, researchers).
+     * No need to “register” with a central body — identity secured by decentralised identifiers (DIDs).
+
+
+  2. **Cryptographic Anchoring**
+     * All readings, attestations, and scores are hashed, Merkle-rooted, and anchored on-chain.
+     * Immutable once finalised → irreversibility like Bitcoin blocks.
+
+
+  3. **Consensus Without Central Authority**
+     * Scores resolved through **stake-weighted attestation markets** and reproducible open-source methods.
+     * Conflicts settled by cryptoeconomic rules, not by an institution’s judgment.
+
+
+  4. **Distributed Verification**
+     * Redundant data sources: IoT, SCADA, satellites, operator logs.
+     * Multiple independent verifiers → results converge through **median-of-means** instead of trusting one “auditor.”
+
+
+  5. **Incentive Alignment**
+     * Honest reporting rewarded, fraud penalised through slashing.
+     * Challengers earn by exposing manipulation → adversarial resilience.
+
+
+* * *
+## 3\. Quantum Logic Principles in Service of Decentralisation
+  * **Observer Effect → Many Observers**
+    * Not one authority, but a _network_ of observers (devices, satellites, verifiers) collapsing uncertainty.
+
+
+  * **Superposition → Competing Methods**
+    * Multiple methodologies run in parallel.
+    * Governance + consensus collapse them into canonical methods.
+
+
+  * **Entanglement → Cross-Verification**
+    * Energy, carbon, and EROI entangled; verification across domains prevents manipulation of a single variable.
+
+
+  * **Coherence/Decoherence → Noise Filtering**
+    * Fraudulent or inconsistent attestations = decoherence → removed automatically through slashing.
+
+
+  * **Irreversibility → Anchored Ledger**
+    * Once data is finalised, it cannot be undone — institutional bias has no way back in.
+
+
+* * *
+## 4\. Governance by Protocol, Not Institution
+  * **DAO structure** :
+    * **Technical House** maintains open-source scoring methods.
+    * **Stake House** governs upgrades, with slashing for abuse.
+
+
+  * No ISO, UN, or consultancy owns the standard. The **protocol is the standard**.
+
+
+* * *
+## 5\. Market Interfaces (Decentralised First)
+  * **Public Explorer** : like a Bitcoin block explorer, but for energy → every site’s EROI, carbon, and Nature Score visible.
+
+
+  * **DeFi & Finance**: scores become decentralised oracles for loans, insurance, PPAs.
+
+
+  * **Consumer Transparency** : apps pull decentralised scores directly — no middlemen “approving labels.”
+
+
+* * *
+## 6\. Rollout Strategy
+  1. **Pilot Ledger** : 10–20 renewable sites → prove decentralised attestation works.
+
+
+  2. **Verifier Marketplace** : global open access for attestors + challengers.
+
+
+  3. **DAO Governance Launch** : protocol takes precedence over institutions.
+
+
+  4. **Global Expansion** : all asset classes (thermal, hydrocarbon, storage).
+
+
+  5. **Planetary Ledger** : decentralised baseline for carbon treaties, financial flows, and supply chains.
+
+
+* * *
+## 7\. Strategic Impact
+  * Removes dependency on centralised consultants and opaque registries.
+
+
+  * Creates **trustless MRV (measurement, reporting, verification)**.
+
+
+  * Unlocks truly global comparability → the “Bitcoin of energy truth.”
+
+
+  * Institutions may still _use_ the ledger, but they can no longer _control_ it.
+
+
+* * *
+✅ **Summary** :
+This plan decentralises **energy, EROI, and carbon scoring** so that no single government, institution, or corporation can manipulate the truth. Every measurement becomes a quantum of information, observed, attested, and finalised through consensus — **decentralisation as the living embodiment of quantum logic.**
+* * *
+[🌐 Decentralised Energy–EROI–Carbon Scoring Network](<%F0%9F%8C%90%20Decentralised%20Energy%E2%80%93EROI%E2%80%93Carbon%20Scoring%20Network%20268c5e6f95bd8073b3d9dd16c3bda7fd.html>)
+[Meeting Playbook™](<Meeting%20Playbook%E2%84%A2%2026fc5e6f95bd80ebb3f8e136b11b7389.html>)
+[Khoa học của Tử Vi & Tướng Số](<Khoa%20h%E1%BB%8Dc%20c%E1%BB%A7a%20T%E1%BB%AD%20Vi%20&%20T%C6%B0%E1%BB%9Bng%20S%E1%BB%91%20271c5e6f95bd80a8aca6da17b235e51d.html>)
+\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**MOC:** [[QUANTUM_MOC]]

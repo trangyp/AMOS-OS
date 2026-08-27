@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -31,3 +31,6 @@ node_id: amos_24_archive_02_superseded_archive_superseded_contract_md
 node_type: note
 path: 24_ARCHIVE/02_SUPERSEDED/ARCHIVE_SUPERSEDED_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[02_SUPERSEDED_MOC]]

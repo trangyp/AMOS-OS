@@ -1,4 +1,5 @@
 ---
+title: SCHIZOPHRENIA STRUCTURAL MODEL HUMAN SYSTEM
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Chapter 16 (Schizophrenia — Complete Grounding)
 confidence: 0.95
@@ -10,6 +11,7 @@ source_title: "The Complete Human System — Chapter 16: Schizophrenia — Compl
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 # Schizophrenia Structural Model — Complete Human System
 
@@ -135,5 +137,8 @@ This is presented as a structural model — a way of organizing the observed neu
 - 2026-08-22 The Complete Human System — Books One–Six — alternate version
 - Memory — The Complete Human System — integrated insights with epistemic audit
 - Neurotransmitter Map — Complete Human System — receptor-level detail
-- [[00_Cosmo_Brain_MOC]] — vault index
+- [[00_COSMO_BRAIN_MOC]] — vault index
 - [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+
+---
+**MOC:** [[SYSTEM_MOC]]

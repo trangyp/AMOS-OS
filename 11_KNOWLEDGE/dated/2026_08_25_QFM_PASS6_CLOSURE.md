@@ -1,8 +1,10 @@
 ---
+title: 2026 08 25 QFM PASS6 CLOSURE
 tags: [daily/integrity-pass, topic/qfm-consolidation-pass6, dated, dated/2026-08-25]
 created: 2026-08-25
 conclusion_class: AMOS MODEL / DERIVED
 ---
+
 
 # 2026-08-25 Pass 6 — Final Empty-Skill Closure + 5th Runnable Engine
 
@@ -45,3 +47,6 @@ Hermes sync complete
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

@@ -33,5 +33,8 @@ node_id: cognitive_matrix_h_high_scale_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/COGNITIVE_MATRIX_H_HIGH_SCALE_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[H_HIGH_SCALE_MOC]]

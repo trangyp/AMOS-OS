@@ -1,3 +1,9 @@
+---
+title: GAP PRIORITY
+type: note
+tags: [note, 08-structural-gaps]
+---
+
 # GAP_PRIORITY — Definition
 
 **Package:** `GAP_PRIORITY_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 08_STRUCTURAL_GAPS/GAP_PRIORITY_/GAP_PRIORITY.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_PRIORITY.md
+
+---
+**MOC:** [[08_STRUCTURAL_GAPS_MOC]]

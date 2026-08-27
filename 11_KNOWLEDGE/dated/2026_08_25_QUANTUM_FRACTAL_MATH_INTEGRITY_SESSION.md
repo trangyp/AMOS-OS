@@ -1,6 +1,11 @@
 ---
+title: 2026 08 25 QUANTUM FRACTAL MATH INTEGRITY SESSION
 tags: [dated, dated/2026-08-25]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # 2026-08-25 Quantum-Fractal-Math Integrity Session
 
 **Canonical path**: `_00_Cosmo brain/md/`
@@ -72,3 +77,6 @@ All 5 formal engines pass with exit 0:
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

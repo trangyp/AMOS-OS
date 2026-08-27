@@ -1,6 +1,11 @@
 ---
+title: UNIVERSAL FIELD MODEL
 tags: [field]
+type: document
+source: 11_KNOWLEDGE/field
 ---
+
+
 # Universal Field Architecture — MODEL Layer
 
 Status from source: `conceptual_runtime_specification`
@@ -24,4 +29,7 @@ Status from source: `conceptual_runtime_specification`
 These remain framework/model equations unless independently established in a domain.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[field_MOC]]

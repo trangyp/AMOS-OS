@@ -1,6 +1,11 @@
 ---
+title: MONEY REGIMES STRUCTURAL ANALYSIS
 tags: [economy]
+type: document
+source: 11_KNOWLEDGE/economy
 ---
+
+
 # MONEY REGIMES STRUCTURAL ANALYSIS
 
 ## PROOF
@@ -222,3 +227,6 @@ Enforcement: Market → Political → Market → Institutional → Policy
 3. **Financial Inclusion Impact**: Measure unbanked population access via digital currencies
 4. **Systemic Risk Metrics**: Develop digital currency systemic risk indicators
 5. **International Coordination**: Test cross-border CBDC interoperability standards
+
+---
+**Links:** [[ECONOMY_MOC]] | [[KNOWLEDGE_MOC]]

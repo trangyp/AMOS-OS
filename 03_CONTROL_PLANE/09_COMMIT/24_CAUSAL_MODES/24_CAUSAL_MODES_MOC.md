@@ -1,0 +1,16 @@
+---
+title: 24_CAUSAL_MODES MOC
+type: moc
+tags: [moc, 24-causal-modes]
+---
+
+# 24_CAUSAL_MODES — Map of Content
+
+## Files
+
+- [[CAUSAL_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY]]
+- [[CAUSAL_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
+- [[CAUSAL_MODES_COMMIT_CONTROL_PLANE_README]]
+
+---
+**Parent:** [[09_COMMIT_MOC]]

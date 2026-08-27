@@ -137,4 +137,7 @@ Unified Coding Engine with runtime, testing, memory, and self-correction layers.
 **Conclusion**: SOURCE — Complete unified coding kernel (clean version without X1000 expansion). 9-layer architecture with 15 capability flags, 11 policies, full language control, deterministic routing. Covers runtime observability, testing, memory management, self-correction/patching, architecture design, documentation, estimation/planning, change impact analysis, and API contract management. Production-ready for deterministic software engineering across all roles and stacks.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[KERNEL_MOC]]

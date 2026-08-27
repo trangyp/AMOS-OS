@@ -1,4 +1,5 @@
 ---
+title: THE VOID EGO DISSOLUTION MODEL
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Book Two (The Void)
 confidence: 0.95
@@ -10,6 +11,7 @@ source_title: "The Complete Human System — Book Two: The Void"
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 # The Void — Ego Dissolution Model
 
@@ -161,5 +163,8 @@ Phase 3: Reconfiguration
 - Memory — The Complete Human System — integrated insights with epistemic audit
 - Schizophrenia Structural Model — Complete Human System — related: boundary coherence failure, but pathological rather than transient
 - Neurotransmitter Map — Complete Human System — receptor-level detail
-- [[00_Cosmo_Brain_MOC]] — vault index
+- [[00_COSMO_BRAIN_MOC]] — vault index
 - [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+
+---
+**MOC:** [[MODELS_MOC]]

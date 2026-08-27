@@ -1,6 +1,11 @@
 ---
+title: SYSTEM SCAN AGENT
 tags: [system]
+type: note
+source: 11_KNOWLEDGE/system
 ---
+
+
 """AMOS logical component.
 
 System: SENSE_SYSTEM
@@ -37,4 +42,7 @@ class SystemScan_Agent(Agent):
         return context
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/automation_profiles]] · AMOS_Sector_Definition_Pack_v0_Template_Template_Template
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[AUTOMATION_PROFILES]] · AMOS_Sector_Definition_Pack_v0_Template_Template_Template
+
+---
+**MOC:** [[SYSTEM_MOC]]

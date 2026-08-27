@@ -1,4 +1,5 @@
 ---
+title: AMOS ABSOLUTE LOGIC CORE19 FULL FIXED
 name: amos-absolute-logic-core19-full
 version: 2.1.0
 updated: 2026-08-25
@@ -15,6 +16,7 @@ description: >-
   avoidance governance kept as distinct runtime layers.
 tags: [amos-general]
 ---
+
 
 # AMOS Absolute Logic / Core-19
 
@@ -827,3 +829,6 @@ STATUS: GAP
 ```
 
 until authoritative source evidence resolves the discrepancy.
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

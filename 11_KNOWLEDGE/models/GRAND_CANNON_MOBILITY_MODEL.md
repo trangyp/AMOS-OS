@@ -38,4 +38,7 @@ Specifically tailored for the Vietnamese market, incorporating local socio-econo
 Used in conjunction with the Vietnam Engine and EV Kernel. When an AMOS agent needs to determine the exact incentive structure for a ride-hailing EV fleet in Ho Chi Minh City, it queries the Grand Cannon Logic-DB for the deterministic rules governing that specific intersection of behavior, risk, and product.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MODELS_MOC]]

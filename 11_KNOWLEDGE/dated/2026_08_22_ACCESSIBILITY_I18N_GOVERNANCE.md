@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 ACCESSIBILITY I18N GOVERNANCE
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # 2026-08-22 Accessibility & i18n Governance
 
 ## Overview
@@ -42,3 +47,6 @@ Closed gap cluster 270-273: Accessibility & i18n. 4 gaps, 4 subsystems, 4 gates,
 - 2026-08-22 Data Quality Governance
 - amos-completion-graph-workflow
 - [[accessibility_i18n]]
+
+---
+**MOC:** [[DATED_MOC]]

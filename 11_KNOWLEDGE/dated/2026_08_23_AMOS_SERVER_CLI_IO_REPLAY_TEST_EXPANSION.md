@@ -119,7 +119,10 @@ python -m pytest tests/ -q -p no:randomly
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Authority and GMEF Gate Integration
 - 2026-08-22 AMOS Core Infrastructure Modules
 - 2026-08-22 AMOS Remaining Module Test Coverage
+
+---
+**MOC:** [[DATED_MOC]]

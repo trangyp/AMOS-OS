@@ -1,7 +1,9 @@
 ---
+title: ORG GOVERNANCE MODEL
 aliases: [Org Governance Engine, AMOS_Org_Governance]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/org-governance-model, governance]
 ---
+
 
 # AMOS Org Governance Engine
 
@@ -36,4 +38,7 @@ The **Org Governance Engine** is an end-to-end kernel for diagnosing, designing,
 - **Evolution Path:** Phased roadmap (12m, 3y, 7y+).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[governance_MOC]]

@@ -18,7 +18,7 @@ name: AMOS_OS_MOC
 origin_architect: Trang Phan
 related:
 - '[[AMOS Home]]'
-- '[[00_ROOT/ARCHITECTURE]]'
+- '[[ARCHITECTURE]]'
 - '[[FULL_TREE]]'
 - '[[SYSTEM_MAP]]'
 - '[[AUTHORITATIVE_STATE]]'
@@ -26,13 +26,13 @@ related:
 - 'NAMING_STANDARD'
 - '[[PLACEMENT_RULES]]'
 - '[[ROADMAP]]'
-- '[[00_ROOT/RSCF_NODE_INDEX]]'
+- '[[RSCF_NODE_INDEX]]'
 - 'GMEF'
 - '[[HML_CANON]]'
-- '[[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]]'
+- '[[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]]'
 - '[[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]]'
-- '[[AMOS_Obsidian_Linking_Plugins]]'
-- '[[AMOS_Layer_Maps]]'
+- '[[AMOS_OBSIDIAN_LINKING_PLUGINS]]'
+- '[[AMOS_LAYER_MAPS]]'
 rscf_state: derived
 scope:
 - AMOS_OS
@@ -220,7 +220,7 @@ AMOS_OS/
 
 # 2. Root Files
 
-## [[00_ROOT/ARCHITECTURE]]
+## [[ARCHITECTURE]]
 
 Defines:
 
@@ -352,10 +352,10 @@ Use when asking:
 - [[00_ROOT_RELEASE_NOTES]]
 - [[00_ROOT_STATUS]]
 - [[00_ROOT_VERSIONING]]
-- [[00_ROOT/00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - [[COGNITIVE_MATRIX_INTEGRATION]]
 - [[NEURAL_NETWORK]]
-- [[SYSTEM_MAP_v1]]
+- [[SYSTEM_MAP_V1]]
 # 3. Canon Layer
 
 ## `01_CANON`
@@ -880,7 +880,7 @@ OBSERVATION
 
 ## `14_TOOLS`
 
-- [[AMOS_Obsidian_Linking_Plugins]] — Obsidian linking plugin stack and Templater starter (vault/brain surface)
+- [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian linking plugin stack and Templater starter (vault/brain surface)
 
 Tools provide deterministic or external capability.
 
@@ -1959,19 +1959,19 @@ confidence_ceiling:
 
 ## Related MOCs
 
-- [[11_KNOWLEDGE/Cosmo_Brain_MOC.md|00 Cosmo Brain MOC]] — the canonical Cosmo Brain index
-- [[11_KNOWLEDGE/Cosmo_Brain_BRIDGE_INDEX.md|Cosmo Brain Bridge Index]] — comprehensive bridge to external vault (8,253 entries across 20 directories)
+- [[COSMO_BRAIN_MOC|00 Cosmo Brain MOC]] — the canonical Cosmo Brain index
+- [[COSMO_BRAIN_BRIDGE_INDEX|Cosmo Brain Bridge Index]] — comprehensive bridge to external vault (8,253 entries across 20 directories)
 - [[11_KNOWLEDGE/11_KNOWLEDGE_MOC.md|11_KNOWLEDGE MOC]] — the knowledge layer index
 - [[11_KNOWLEDGE/_arxiv_md/ARXIV_QFM_MOC.md|arXiv QFM MOC]] — 66,028 arXiv preprints (68,367 entries with cross-listings; QFM + C01-C12 domain-classified; 0 unclassified)
 - [[25_COGNITIVE_MATRIX/00_INDEX/COGNITIVE_MATRIX_MOC.md|Cognitive Matrix MOC]] — 1,552 cognitive matrix files (100% indexed)
-- [[AMOS_Obsidian_Linking_Plugins]] — Obsidian vault linking plugin stack
+- [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian vault linking plugin stack
 - [[00_ROOT/00-Home]] — universal vault hub (00_ROOT)
 - [[AMOS Home]] — root AMOS Home
 
 ---
 
-- [[AMOS_Layer_Maps]] — top-level layer map index
-- [[AMOS_Templates]] — AMOS template index
+- [[AMOS_LAYER_MAPS]] — top-level layer map index
+- [[AMOS_TEMPLATES]] — AMOS template index
 - [[linked-note]] — Obsidian linked-note template (Templates/)
 - [[INDEX_REPAIR_GAP_REPORT_2026-08-26]] — vault index repair gap report (2026-08-26)
 # 48. Changelog
@@ -2032,7 +2032,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** [[AMOS Home]] · [[00_ROOT/ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · NAMING_STANDARD · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[00_ROOT/RSCF_NODE_INDEX]] · GMEF · [[HML_CANON]] · [[CONTROL_PLANE_CANON]] · [[AUTHORITY_CANON]] · [[COGNITION_CANON]] · [[COGNITIVE_ORGANISM_CANON]]
+**Related:** [[AMOS Home]] · [[ARCHITECTURE]] · [[FULL_TREE]] · [[SYSTEM_MAP]] · [[AUTHORITATIVE_STATE]] · [[DEPENDENCY_MAP]] · NAMING_STANDARD · [[PLACEMENT_RULES]] · [[ROADMAP]] · [[RSCF_NODE_INDEX]] · GMEF · [[HML_CANON]] · [[CONTROL_PLANE_CANON]] · [[AUTHORITY_CANON]] · [[COGNITION_CANON]] · [[COGNITIVE_ORGANISM_CANON]]
 
 ```
 ```
@@ -2049,3 +2049,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_COSMO_BRAIN_MOC]]

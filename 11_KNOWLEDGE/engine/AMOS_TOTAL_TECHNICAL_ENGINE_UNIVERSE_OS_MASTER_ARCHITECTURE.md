@@ -1,6 +1,11 @@
 ---
+title: AMOS TOTAL TECHNICAL ENGINE UNIVERSE OS MASTER ARCHITECTURE
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-total-technical-engine, engine]
+type: code
+source: 11_KNOWLEDGE/engine
 ---
+
+
 
 ```
 FILE: Universe_Total_Canon.utc
@@ -1580,4 +1585,7 @@ Translation_Layer:
 # ------------------------------------------------------------
 ```
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[ENGINE_MOC]]

@@ -197,4 +197,7 @@ All fully specified: architecture, runtime, testing, memory, self_correction, ro
 **Conclusion**: SOURCE — Comprehensive unified automation engine combining SUPER_CODE (coding), Tech vInfinity MAX (technical reasoning), and Design v4.0.0. 9-layer SUPER_CODE engine with 15 capability flags, 11 policies, full language control, deterministic routing. Embedded Tech MAX (100% coverage, 18 primitives, triple density) and Design v4.0.0. Benchmarks for reliability/latency/cost/safety. Auto-repair with graded fallbacks + human escalation. 7-category pattern library (30+ blueprints). Production-ready for n8n/Zapier/Make/webhook orchestration with self-audit, benchmarking, and first-class integration.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[KERNEL_MOC]]

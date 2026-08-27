@@ -1,3 +1,9 @@
+---
+title: CELL INDEX
+type: note
+tags: [note, 05-cell-registry]
+---
+
 # CELL_INDEX — Definition
 
 **Package:** `CELL_INDEX_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 05_CELL_REGISTRY/CELL_INDEX_/CELL_INDEX.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/05_CELL_REGISTRY/CELL_INDEX.md
+
+---
+**MOC:** [[05_CELL_REGISTRY_MOC]]

@@ -1,3 +1,9 @@
+---
+title: 00 ROOT DEPENDENCIES
+type: note
+tags: [note, 00-root]
+---
+
 # AMOS OS — 00 Root Dependencies
 
 ```yaml
@@ -3105,3 +3111,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_COSMO_BRAIN_MOC]]

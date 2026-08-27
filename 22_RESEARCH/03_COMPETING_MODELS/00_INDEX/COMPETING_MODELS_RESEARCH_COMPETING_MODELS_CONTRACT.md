@@ -31,3 +31,6 @@ node_id: amos_models_00_index_competing_models_research_competing_models_contrac
 node_type: note
 path: 22_RESEARCH/03_COMPETING_MODELS/00_INDEX/COMPETING_MODELS_RESEARCH_COMPETING_MODELS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_COMPETING_MODELS_RESEARCH_README]]

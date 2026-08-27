@@ -1,3 +1,9 @@
+---
+title: CELL STATUS REGISTRY
+type: note
+tags: [note, 05-cell-registry]
+---
+
 # CELL_STATUS_REGISTRY — Definition
 
 **Package:** `CELL_STATUS_REGISTRY_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 05_CELL_REGISTRY/CELL_STATUS_REGISTRY_/CELL_STATUS_REGISTRY.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/05_CELL_REGISTRY/CELL_STATUS_REGISTRY.md
+
+---
+**MOC:** [[05_CELL_REGISTRY_MOC]]

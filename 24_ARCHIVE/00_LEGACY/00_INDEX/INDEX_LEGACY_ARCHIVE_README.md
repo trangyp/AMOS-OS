@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -31,3 +31,8 @@ node_id: amos_24_archive_00_legacy_00_index_index_legacy_archive_readme_md
 node_type: note
 path: 24_ARCHIVE/00_LEGACY/00_INDEX/INDEX_LEGACY_ARCHIVE_README.md
 claim_class: AMOS_MODEL
+
+## Files
+
+- [[LEGACY_ARCHIVE_LEGACY_CONTRACT]]
+- [[LEGACY_MAP]]

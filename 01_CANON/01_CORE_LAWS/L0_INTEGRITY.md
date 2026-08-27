@@ -1,3 +1,9 @@
+---
+title: L0 INTEGRITY
+type: note
+tags: [note, 01-core-laws]
+---
+
 ````markdown
 ---
 title: "AMOS Core Laws — L0 Integrity Laws"
@@ -2527,3 +2533,6 @@ confidence_ceiling: 0
 
 ```
 ```
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

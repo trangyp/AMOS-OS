@@ -1,0 +1,20 @@
+---
+title: 21_C11_DESIGN_LANGUAGE MOC
+type: moc
+tags: [moc, 21-c11-design-language]
+---
+
+# 21_C11_DESIGN_LANGUAGE — Map of Content
+
+## Files
+
+- [[C11_DESIGN_LANGUAGE_DOMAINS_DOMAIN_SPEC]]
+- [[C11_DESIGN_LANGUAGE_DOMAINS_README]]
+- [[DOMAINS_C11_DESIGN_LANGUAGE_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_C11_DESIGN_LANGUAGE_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

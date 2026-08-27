@@ -1,3 +1,9 @@
+---
+title: L8 EXECUTION
+type: note
+tags: [note, 01-core-laws]
+---
+
 ````markdown
 ---
 tags: ['canon', 'core_laws', 'execution', 'effects', 'commit', 'idempotency', 'ledger', 'worker', 'control_plane', 'rscf']
@@ -3636,3 +3642,6 @@ claim_class: AMOS_MODEL
 
 ```
 ```
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

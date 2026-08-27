@@ -50,7 +50,7 @@ Given an operation touching `DOMAINS C05 MIND BEHAVIOR CONTRACT` within the Doma
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_21_domains_15_c05_mind_behavior_domains_c05_mind_behavior_contract
 node_type: note
 path: 21_DOMAINS/15_C05_MIND_BEHAVIOR/DOMAINS_C05_MIND_BEHAVIOR_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[15_C05_MIND_BEHAVIOR_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: VN OMNISTRUCTURE FULL
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: vn-omnistructure-full-txt
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/vn-omnistructure-full-txt, misc]
 created: 2026-08-22
 ---
+
 
 ABSOLUTE_VN_OMNISTRUCTURE
 VERSION: 1.0
@@ -1523,4 +1525,7 @@ END OF BLOCK 6 вЂ” ABSOLUTE VN COMPLETE
 ============================================================
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

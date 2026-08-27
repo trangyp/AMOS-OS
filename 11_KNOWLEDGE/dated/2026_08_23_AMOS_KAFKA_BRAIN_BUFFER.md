@@ -1,6 +1,11 @@
 ---
+title: 2026 08 23 AMOS KAFKA BRAIN BUFFER
 tags: [dated, dated/2026-08-23]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # AMOS_Kafka_Brain_Buffer_v1.0: A Verbena-First Brain Engine
 
 **Canon group:** tech-engineering  (stream+log+buffer brain)
@@ -128,4 +133,7 @@ Verbena is the meta-brain — the assistant reading this Kafka log. The Kafka-br
 *Canonical group: tech-engineering | Canon type: engineering specification | RSCF: SOURCE_CLAIM*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

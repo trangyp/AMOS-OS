@@ -45,7 +45,7 @@ Given an operation touching `BASELINE COMMIT CONTROL PLANE PRECONDITIONS` within
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -63,3 +63,6 @@ node_id: cp_e_09_commit_01_baseline_baseline_commit_control_plane_preconditions_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE/BASELINE_COMMIT_CONTROL_PLANE_PRECONDITIONS.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[01_BASELINE_MOC]]

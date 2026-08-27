@@ -45,7 +45,7 @@ Given an operation touching `C03 PHYSICS COSMOS DOMAINS DOMAIN SPEC` within the 
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -63,3 +63,6 @@ node_id: amos_omains_13_c03_physics_cosmos_c03_physics_cosmos_domains_domain_spe
 node_type: note
 path: 21_DOMAINS/13_C03_PHYSICS_COSMOS/C03_PHYSICS_COSMOS_DOMAINS_DOMAIN_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[13_C03_PHYSICS_COSMOS_MOC]]

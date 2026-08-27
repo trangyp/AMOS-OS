@@ -1,3 +1,9 @@
+---
+title: SKILL
+type: note
+tags: [note, amos-law-stack-enforcement]
+---
+
 # AMOS Law Stack Enforcement
 
 ## When to Use
@@ -39,5 +45,8 @@ Vault-generated from law stack enforcement research (2026-08-25)
 This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most-cited framework in the vault (official manual 743 lines) with ZERO executable enforcement previously. Created to fill the G3 'Law Stack' gate which had no defined checks. Contradictory drafts short-circuit: LoL→R2→R4 order must be preserved, and R4 quadrant completeness requires declared canonical family (UBI/TSS/PSI/QLS).
 
 ## References
-- [[07_SKILLS/amos-law-stack-enforcement/references]] — session-specific detail and authoritative sources
+- [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme
+
+---
+**MOC:** [[amos-law-stack-enforcement_MOC]]

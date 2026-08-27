@@ -99,8 +99,11 @@ seed_cognitive_matrix(k.completion_governor)
 | **Total** | **2675** |
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS All 249 Gaps Closed
 - 2026-08-22 AMOS Cognitive Architecture Matrix
 - 2026-08-22 AMOS Cognitive Architecture Matrix Governance
 - 2026-08-22 Cosmo Brain TypeScript suite green
+
+---
+**MOC:** [[DATED_MOC]]

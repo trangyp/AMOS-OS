@@ -1,7 +1,9 @@
 ---
+title: RISK COMPLIANCE MODEL
 aliases: [Risk & Compliance Engine, AMOS_Risk_Compliance]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/risk-compliance-model, security]
 ---
+
 
 # AMOS Risk & Compliance Engine
 
@@ -32,4 +34,7 @@ Risks are evaluated using a 20-dimensional tensor:
 Expands into specific risk categories (credit, market, conduct, etc.), regulatory regimes (banking, insurance, securities), and jurisdiction rigour.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[security_MOC]]

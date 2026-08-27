@@ -1,4 +1,5 @@
 ---
+title: MD 2026 08 23 COSMO BRAIN FULL ARCHITECTURE
 origin_architect: Trang Phan
 provenance: direct file inspection of cosmo-brain/ on 2026-08-23 (README, package.json, manifest.json, 4 subagent explorations, direct reads of key files)
 confidence: 0.95
@@ -6,6 +7,7 @@ epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
 tags: [cosmo-brain, architecture, typescript, python, amos, algorithms, governance, domains, knowledge, schemas, registry, prompts, trang-agent, amos-os-kernel, amos-md-brain, amos-v1-production, brain]
 ---
+
 
 # Cosmo Brain — Full Architecture
 
@@ -300,7 +302,7 @@ All domains include explicit uncertainty disclaimers. Culture and relationships 
 
 ## Cross-References
 
-- [[00_Cosmo_Brain_MOC]] — Master Map of Content
+- [[00_COSMO_BRAIN_MOC]] — Master Map of Content
 - md__2026-08-23 Cosmo Brain Core Architecture — Deep dive on core/ module
 - AMOS Core Version Lineage — v3.1→v4.4 evolution
 - AMOS Brain Engine Specs — Brain module specifications
@@ -325,3 +327,6 @@ All domains include explicit uncertainty disclaimers. Culture and relationships 
 - All modules credit **Trang Phan** as origin architect. IP rules enforce no agent authorship claims.
 - The `design-synthesis` module bridges founder canon documents → implementable design specs with epistemic provenance.
 - Benchmark boundaries are preserved: v3.1 logic (PASSED), v4.0 MVCC (PASSED single-target, FAILED multi-RSCF), v4.4 coordination avoidance (PROMOTED, no numeric benchmark after promotion).
+
+---
+**MOC:** [[BRAIN_MOC]]

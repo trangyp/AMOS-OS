@@ -1,6 +1,11 @@
 ---
+title: READMEA
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # AMOS Brain Service - Complete Architecture
 
 ## 🚀 Overview
@@ -344,3 +349,6 @@ pytest tests/
 ---
 
 **AMOS Brain Service** is now ready to run as a persistent AI operating system, providing superior performance, control, and scalability compared to editor-based solutions.
+
+---
+**Links:** [[MISC_MOC]] | [[KNOWLEDGE_MOC]]

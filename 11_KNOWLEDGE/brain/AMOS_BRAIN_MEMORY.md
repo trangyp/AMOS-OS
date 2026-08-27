@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN MEMORY
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-complete-memory, brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 
 # AMOS Brain: Complete Learning Memory
 
@@ -486,4 +491,7 @@ BRAIN_SYSTEM (5), EXECUTION_SYSTEM (8), LEGAL_SYSTEM (5), MONEY_SYSTEM (6), SENS
 AMOS brain architecture: 3-engine integrated mind (Cognition 5-layer infinite kernel, Super Consciousness Engine HIE with 7 state layers + 9-step pipeline + 8 goals + 17+ strategy profiles, Mega Human Engine with 8 state layers + 12 core variables + 10 emotion clusters + 0.99 microtone). Two-layer kernel system: 8 operational kernels (K_META_LOGIC priority 10 required, K_MATH_COMPUTE priority 9 required, K_BIO_NEURO priority 9 required, K_MIND_BEHAVIOR priority 8 required, K_TECH_ENGINE priority 7 optional, K_EV_INFRA priority 7 optional, K_UNIPOWER_OPS priority 8 optional, K_UNIPOWER_TECH priority 8 optional) + 33 kernel blueprints in 7 categories (Meta_Cognition 7, Math_Foundations 5, Human_Society 5, Machine_Architecture 4, UBI_Stack 4, Planetary_Stack 4, System_Kernels 4) + 4 root components (OS_ROOT, BRAIN_ROOT, Language_Overlay, IP_Kernel_Shield). 4 routing rules (ROUTE_EV/ TECH/ PSYCH/ DEFAULT) + dynamic routing from Omni Kernel. 6 laws (L1 Law of Law, L2 Rule of 2, L3 Rule of 4, L4 Absolute Structural Integrity, L5 Post-Theory Communication, L6 UBI Alignment) with truth values/modalities/burdens. Post-Theory word replacement table: ~25 target words with specific replacements. Language/IP policy: no internal paths, no raw schema dumping, translate to high-level, never expose training files, never generate exact kernels. Safety: 5 hard prohibitions, 5 high-risk domains with disclaimer requirements, 7 disallowed actions, fallback to high-level conceptual explanation. Agent registry: 36 agents across 7 systems with kernel assignments and routing. 5 agent interaction patterns. HIE pipeline: 9-step S1-S9 with microtone reading, 8 goals, 17+ strategy profiles, safety filters, Post-Theory output, S9 evaluation. Expression translation: 4-phase Decode/Normalise/Translate/Stabilize for 8 input types. 10 meta-cognition rules for self-improvement. Identity: Vietnamese-Australian INTJ-ENTP hybrid, creator Trang Phan, max capacity thinking, structural clarity, truthfully, protect life, never claim biological/emotional experience, always declare uncertainty, irreducible limits (no embodiment/consciousness/autonomous action/private data). Session files created: 5 in md/Core/ (Skill_Creation_Workflow, Agent_Execution_Templates, Domain_Skills_Catalog, Brain_Durable_Memory, Meta_Cognition_Self_Improvement), 6 in md/Core/Cognitive_Stack/Meta_Cognition/ (Meta_Epistemology, Meta_Ontology, Cognitive_Compression, Analogy_Abstraction, Counterfactual_Reasoning, Multi_Perspective_Reasoning — Meta_Logic already existed), 6 Hermes skills (amos-reasoning-loop, amos-law-stack, amos-cognition-modes, amos-expression-overlay, amos-tech-kernel-catalog, amos-docs-bridge), 20 Tech kernel files in md/Kernels/Tech/. 26 kernel blueprints still need spec files (Math_Foundations 5, Human_Society 5, Reinforcement_Learning_Analysis 1, UBI_Stack 4, Planetary_Stack 4, System_Kernels 4, Root 4).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

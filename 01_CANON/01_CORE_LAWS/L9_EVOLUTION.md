@@ -1,3 +1,9 @@
+---
+title: L9 EVOLUTION
+type: note
+tags: [note, 01-core-laws]
+---
+
 ````markdown
 ---
 tags: ['canon', 'core_laws', 'evolution', 'mutation', 'supersession', 'anti_regression', 'repair', 'rollback', 'gmef', 'rscf', 'governance']
@@ -4448,3 +4454,6 @@ claim_class: AMOS_MODEL
 
 ```
 ```
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

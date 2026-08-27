@@ -1,4 +1,5 @@
 ---
+title: MD 2026 08 23 COSMO BRAIN CORE ARCHITECTURE
 origin_architect: Trang Phan
 provenance: direct file inspection of cosmo-brain/core/ on 2026-08-23
 confidence: 0.95
@@ -6,6 +7,7 @@ epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
 tags: [cosmo-brain, core, architecture, typescript, epistemics, reasoning, memory, orchestration, identity, constraints, validation, design-synthesis, amos-core, brain]
 ---
+
 
 # Cosmo Brain Core Architecture
 
@@ -97,7 +99,7 @@ core/
 - v3.1: Logic Fixed → v3.2.1: RSCF HML Recursive → v3.3: Governed Meta-Evolution → v3.4.1: Distributed Causal Evolution → v3.5: Epistemic Regime Lineage → v3.7/3.7.1: Provenance Topology (Hardened) → v3.8: Iterative Provenance → v3.9: Persistent Incremental → v4.0: MVCC Causal Concurrency → v4.1: Transactional Multi-RSCF → v4.2: Deterministic Causal Epoch → v4.3: Hardened Adaptive Epoch → v4.4: Coordination Avoidance.
 
 ## Cross-References
-- [[00_Cosmo_Brain_MOC]] — Master Map of Content
+- [[00_COSMO_BRAIN_MOC]] — Master Map of Content
 - AMOS Core Reasoning — AMOS reasoning contract skill
 - AMOS RSCF Claims — Proof capsule skill
 - AMOS Competing Hypotheses — Hypothesis preservation skill
@@ -109,3 +111,6 @@ core/
 - The AMOS_CORE .txt files are the **Python specification lineage** — the reasoning kernel that the TypeScript modules implement.
 - All modules credit **Trang Phan** as origin architect. IP rules enforce no agent authorship claims.
 - The `design-synthesis` module is the bridge between founder canon documents and implementable design specs — it preserves epistemic provenance from source to derived spec.
+
+---
+**MOC:** [[BRAIN_MOC]]

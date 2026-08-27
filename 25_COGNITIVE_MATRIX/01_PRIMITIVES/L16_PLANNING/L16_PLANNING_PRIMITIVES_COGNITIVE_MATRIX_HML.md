@@ -1,3 +1,9 @@
+---
+title: L16 PLANNING PRIMITIVES COGNITIVE MATRIX HML
+type: note
+tags: [note, l16-planning]
+---
+
 # L16 — H/M/L Applicability
 
 **Package:** `L16_PLANNING`  
@@ -36,3 +42,6 @@ node_type: note
 path: 01_PRIMITIVES/L16_PLANNING/L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_HML.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/L16_PLANNING_PRIMITIVES_COGNITIVE_MATRIX_HML.md
+
+---
+**MOC:** [[L16_PLANNING_MOC]]

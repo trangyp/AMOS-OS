@@ -79,5 +79,8 @@ Total knowledge tests: 33 (was 29, +4 new)
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Core Module Test Coverage
+
+---
+**MOC:** [[DATED_MOC]]

@@ -136,7 +136,10 @@ the test file `AMOS_Kafka_Brain_Buffer_v1.0.test.ts`. Progress: 0 → 180 passin
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Kafka Brain Buffer
 - 2026-08-23 AMOS Kafka Brain Buffer Module Fix
 - 2026-08-23 AMOS Cognitive Substrate Dependency-Safe Forgetting
+
+---
+**MOC:** [[DATED_MOC]]

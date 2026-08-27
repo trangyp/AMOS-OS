@@ -31,3 +31,6 @@ node_id: amos_e_00_index_c06_society_culture_domains_c06_society_culture_contrac
 node_type: note
 path: 21_DOMAINS/16_C06_SOCIETY_CULTURE/00_INDEX/C06_SOCIETY_CULTURE_DOMAINS_C06_SOCIETY_CULTURE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C06_SOCIETY_CULTURE_DOMAINS_README]]

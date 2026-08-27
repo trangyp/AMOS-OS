@@ -1,3 +1,9 @@
+---
+title: GAP REGISTRY
+type: note
+tags: [note, 08-structural-gaps]
+---
+
 # GAP_REGISTRY — Definition
 
 **Package:** `GAP_REGISTRY_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 08_STRUCTURAL_GAPS/GAP_REGISTRY_/GAP_REGISTRY.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS/GAP_REGISTRY.md
+
+---
+**MOC:** [[08_STRUCTURAL_GAPS_MOC]]

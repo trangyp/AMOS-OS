@@ -1,3 +1,9 @@
+---
+title: references
+type: note
+tags: [note, amos-flow-canon]
+---
+
 # References — amos-flow-canon
 
 ## Session-Specific Detail
@@ -20,3 +26,9 @@
 - This references directory is session-specific and will be updated on each pass
 - For the canonical version, see the vault's permanent notes at `_00_Cosmo brain/`
 - Skill synced via `hermes curator adopt amos-flow-canon` from `.hermes/skills/`
+
+---
+**Related:** [[SKILL]]
+
+---
+**MOC:** [[amos-flow-canon_MOC]]

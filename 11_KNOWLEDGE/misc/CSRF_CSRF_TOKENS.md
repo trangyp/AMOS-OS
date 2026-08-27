@@ -1,6 +1,11 @@
 ---
+title: CSRF CSRF TOKENS
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 ## CSRF tokens
 What are they?
 * unique, secret, unpredictable value generated server-side and transmitted to client
@@ -33,4 +38,7 @@ How should the tokens be validated?
 * Request rejected if token is invalid or not present.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

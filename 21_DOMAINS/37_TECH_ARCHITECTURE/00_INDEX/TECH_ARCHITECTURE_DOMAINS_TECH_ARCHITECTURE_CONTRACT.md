@@ -31,3 +31,6 @@ node_id: amos_cture_00_index_tech_architecture_domains_tech_architecture_contrac
 node_type: note
 path: 21_DOMAINS/37_TECH_ARCHITECTURE/00_INDEX/TECH_ARCHITECTURE_DOMAINS_TECH_ARCHITECTURE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_TECH_ARCHITECTURE_DOMAINS_README]]

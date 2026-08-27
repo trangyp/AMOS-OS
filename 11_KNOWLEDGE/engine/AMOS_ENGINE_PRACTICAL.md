@@ -1,6 +1,11 @@
 ---
+title: AMOS ENGINE PRACTICAL
 tags: [engine]
+type: document
+source: 11_KNOWLEDGE/engine
 ---
+
+
 # AMOS Engine - Practical Post-LLM Intelligence System - Implementation Complete
 
 ## 🧠 MISSION ACCOMPLISHED
@@ -164,3 +169,6 @@ The AMOS Engine is now ready to integrate with:
 - National innovation strategy simulator
 
 **The AMOS Engine represents the first practical implementation of a post-LLM intelligence system that can actually model systems, simulate futures, and choose interventions - going far beyond current language models!** 🚀
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

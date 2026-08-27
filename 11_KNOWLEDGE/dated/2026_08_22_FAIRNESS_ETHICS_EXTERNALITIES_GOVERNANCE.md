@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 FAIRNESS ETHICS EXTERNALITIES GOVERNANCE
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # 2026-08-22 Fairness, Ethics & Externalities Governance
 
 ## Overview
@@ -49,3 +54,6 @@ Closed gap cluster 274-279: Fairness, Ethics & Externalities. 6 gaps, 6 subsyste
 - 2026-08-22 Privacy Compliance Governance
 - amos-completion-graph-workflow
 - [[fairness_ethics]]
+
+---
+**MOC:** [[DATED_MOC]]

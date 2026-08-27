@@ -50,7 +50,7 @@ Given an operation touching `DOMAINS C06 SOCIETY CULTURE CONTRACT` within the Do
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_domains_16_c06_society_culture_domains_c06_society_culture_contrac
 node_type: note
 path: 21_DOMAINS/16_C06_SOCIETY_CULTURE/DOMAINS_C06_SOCIETY_CULTURE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[16_C06_SOCIETY_CULTURE_MOC]]

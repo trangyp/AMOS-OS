@@ -36,4 +36,7 @@ The Extractive Economy Model maps the mechanics, consequences, and lifecycle of 
 This model is closely tied to the `amos-governance-economy-layer` and `amos-policy-geostrategy-engine-layer`. When an AMOS agent is evaluating the long-term viability of a business model, national policy, or corporate strategy heavily reliant on finite resources or zero-sum extraction, it must invoke this model to properly price the systemic risk of depletion.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ECONOMY_MOC]]

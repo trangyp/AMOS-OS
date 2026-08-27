@@ -1502,3 +1502,6 @@ source intuition
 ```
 
 rather than collapsing those stages into one claim of truth.
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

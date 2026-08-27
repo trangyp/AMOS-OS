@@ -1,6 +1,11 @@
 ---
+title: 00 AMOS FULL BRAIN OS ARCHITECTURE
 tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/00-amos-full-brain-os-architecture, amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 # AMOS Full Brain OS — Rebuilt Architecture (2026-08-22)
 
@@ -142,4 +147,7 @@ canonical supersession across vInfinity and v4.4.
 *Stored 2026-08-22 per user correction. Supersedes any linear Kernel→Engine→Agent framing in prior notes/skills.*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

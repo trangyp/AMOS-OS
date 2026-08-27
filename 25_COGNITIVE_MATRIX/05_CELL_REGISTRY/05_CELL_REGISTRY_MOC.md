@@ -1,0 +1,21 @@
+---
+title: 05_CELL_REGISTRY MOC
+type: moc
+tags: [moc, 05-cell-registry]
+---
+
+# 05_CELL_REGISTRY — Map of Content
+
+## Files
+
+- [[CELL_INDEX]]
+- [[CELL_REGISTRY_COGNITIVE_MATRIX_README]]
+- [[CELL_STATUS_REGISTRY]]
+- [[COGNITIVE_MATRIX_CELL_REGISTRY_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_CELL_REGISTRY_COGNITIVE_MATRIX_README]]
+
+---
+**Parent:** [[25_COGNITIVE_MATRIX_MOC]]

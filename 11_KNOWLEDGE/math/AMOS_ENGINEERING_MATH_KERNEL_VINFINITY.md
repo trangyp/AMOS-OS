@@ -160,4 +160,7 @@ option_comparison_matrix, risk_register, kpi_scorecard
 **Conclusion**: SOURCE — Engineering mathematics kernel with 20 clusters spanning linear algebra through nonlinear dynamics, 20 evaluation dimensions covering fidelity/cost/stability/robustness/safety, x100k virtual expansion with 4 axes (system_type, domain, scale, real_time), method selection reasoning mode, integration links to Scientific SUPER and C-Canon blocks, 4-lens space (exec/operator/expert/audit), and template library. Production-ready for control theory, signal processing, optimization, and simulation tasks.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MATH_MOC]]

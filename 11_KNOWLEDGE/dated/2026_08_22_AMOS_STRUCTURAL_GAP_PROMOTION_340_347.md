@@ -84,7 +84,10 @@ the 2 control planes with zero coverage.
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Cognitive Architecture Matrix Governance
 - 2026-08-22 AMOS All 249 Gaps Closed
 - 2026-08-22 AMOS Core Module Test Coverage
+
+---
+**MOC:** [[DATED_MOC]]

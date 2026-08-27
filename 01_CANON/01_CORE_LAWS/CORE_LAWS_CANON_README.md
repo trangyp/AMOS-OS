@@ -1,3 +1,9 @@
+---
+title: CORE LAWS CANON README
+type: note
+tags: [note, 01-core-laws]
+---
+
 Below is the **full replacement content** for `01_CANON/01_CORE_LAWS/CORE_LAWS_CANON_README.md`. It replaces the placeholder while keeping the document at `AMOS_MODEL / PROPOSED_SPECIFICATION`; it does **not** self-promote the README or any generated law into admitted canon. That follows the AMOS canon rule that admission requires provenance, conflict/dependency review, authority, versioning, and explicit governance.
 
 ````markdown
@@ -1888,3 +1894,6 @@ confidence_ceiling: 0
 
 ```
 ```
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

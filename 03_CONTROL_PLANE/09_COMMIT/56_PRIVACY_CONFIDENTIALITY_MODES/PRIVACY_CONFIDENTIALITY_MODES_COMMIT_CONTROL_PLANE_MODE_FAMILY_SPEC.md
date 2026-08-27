@@ -31,3 +31,6 @@ node_id: cp_privacy_confidentiality_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/56_PRIVACY_CONFIDENTIALITY_MODES/PRIVACY_CONFIDENTIALITY_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[56_PRIVACY_CONFIDENTIALITY_MODES_MOC]]

@@ -155,4 +155,7 @@ These 13 engines form the **Cognitive Stack** — the domain-specific reasoning 
 
 All engine specs from: `Google Drive /_00_AMOS_CANON/Cognitive/*.json` (13 files, locally cached)
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[COGNITIVE_MOC]]

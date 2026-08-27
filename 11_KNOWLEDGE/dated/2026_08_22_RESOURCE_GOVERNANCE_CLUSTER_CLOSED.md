@@ -90,8 +90,11 @@ This is the first rung in the Phase 1 roadmap. `resource_governance` is the stat
 - No new conceptual framework was invented. The implementation uses the existing `amos/core/types.py` ResourceGovernance dataclasses and `amos/state/store.py` methods.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS System Completion Baseline
 - 2026-08-22 AMOS System Completion Audit
 - 2026-08-22 AMOS System Completion Roadmap
 - `resource_governance.py`
+
+---
+**MOC:** [[DATED_MOC]]

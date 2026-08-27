@@ -1,0 +1,28 @@
+---
+title: 06_RISK_REPAIR MOC
+type: moc
+tags: [moc, 06-risk-repair]
+---
+
+# 06_RISK_REPAIR — Map of Content
+
+## Files
+
+- [[KERNEL_RISK_REPAIR_CONTRACT]]
+- [[K_ABSOLUTE_BIOLOGICAL_INTEGRITY]]
+- [[K_COLLAPSE_RECOVERY]]
+- [[K_HOMEOSTASIS]]
+- [[K_NEUROSYNCAI_RECOVERY]]
+- [[K_REPAIR_HARM]]
+- [[K_REPAIR_PRIORITY]]
+- [[K_RISK_CONSTRAINT]]
+- [[K_UBI_ENTROPY_CORRECTION]]
+- [[K_UBI_HOMEOSTASIS]]
+- [[RISK_REPAIR_KERNEL_README]]
+
+## Subdirectories
+
+- [[INDEX_RISK_REPAIR_KERNEL_README]]
+
+---
+**Parent:** [[02_KERNEL_MOC]]

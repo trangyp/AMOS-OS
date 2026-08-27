@@ -129,6 +129,9 @@ AMOS_GapRegistry.py (914 lines)
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Kafka Brain Buffer Test Suite
 - 2026-08-23 AMOS TypeScript Type-Guards Safety-Filter Meta-Logic Tests
+
+---
+**MOC:** [[DATED_MOC]]

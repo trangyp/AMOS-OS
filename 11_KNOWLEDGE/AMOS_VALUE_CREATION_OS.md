@@ -2949,7 +2949,7 @@ Choose one expensive decision problem
 # 103. RELATED AMOS NODES
 
 - [[00_ROOT/00-Home]]
-- [[00_ROOT/00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - Cosmo_Brain_BRIDGE_INDEX
 - Cosmo_Brain_BRIDGE_INDEX
 - Cosmo_Brain_BRIDGE_INDEX
@@ -2984,3 +2984,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

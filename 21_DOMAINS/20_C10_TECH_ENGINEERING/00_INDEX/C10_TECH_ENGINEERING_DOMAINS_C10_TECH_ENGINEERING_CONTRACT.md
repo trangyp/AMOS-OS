@@ -31,3 +31,6 @@ node_id: amos_00_index_c10_tech_engineering_domains_c10_tech_engineering_contrac
 node_type: note
 path: 21_DOMAINS/20_C10_TECH_ENGINEERING/00_INDEX/C10_TECH_ENGINEERING_DOMAINS_C10_TECH_ENGINEERING_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C10_TECH_ENGINEERING_DOMAINS_README]]

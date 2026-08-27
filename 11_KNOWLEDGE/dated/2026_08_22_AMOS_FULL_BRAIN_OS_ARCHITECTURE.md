@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 AMOS FULL BRAIN OS ARCHITECTURE
 origin_architect: Trang Phan (user re-read of mounted AMOS_FULL_BRAIN_OS.json, version vInfinity_merged_2)
 provenance: user-supplied exhaustive architecture (77 sections); raw json NOT present in this vault (no AMOS_FULL_BRAIN_OS.json found; partial specs in _Archive/ and cosmo-brain/AMOS_OS_ARCHITECTURE_BRIDGE.md)
 confidence: 0.93
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/os-module, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-full-brain-os-architectu, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # AMOS Full Brain OS — Exhaustive Multi-Plane Architecture (SUPERSEDES linear model)
 
@@ -76,3 +78,6 @@ Model: `AMOS = B × K × O × X × P × G`; operational overlay `AMOS_op = FullB
 - Generated-array counts (layers_300/capabilities_300/orchestrators_900/x100k) are source-declared registry sizes, not enumerated here (architectural, not literal dump).
 - Evaluation-harness thresholds are source design targets, not measured performance.
 - Full Brain is a composition/structural container — does NOT replace AMOS_OS_MERGED / BRAIN_ROOT / IP shield.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

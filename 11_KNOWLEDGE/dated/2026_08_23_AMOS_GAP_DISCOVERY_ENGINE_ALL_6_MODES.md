@@ -126,6 +126,9 @@ upgraded from NOT_COVERED to COVERED.
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Kafka Brain Buffer Complete Fix
 - 2026-08-22 AMOS Completion Graph All 249 Gaps Closed
+
+---
+**MOC:** [[DATED_MOC]]

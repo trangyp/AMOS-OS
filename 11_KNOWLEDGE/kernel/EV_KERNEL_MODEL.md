@@ -1,7 +1,9 @@
 ---
+title: EV KERNEL MODEL
 aliases: [EV Kernel, AMOS_EV_Kernel, Unified_EV_Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/ev-kernel-model, kernel]
 ---
+
 
 # AMOS EV Kernel
 
@@ -35,4 +37,7 @@ The **Unified EV Kernel** models electric vehicle infrastructure spanning strate
 - **NO BYPASS:** The engine must not be used to bypass local environmental, electrical, or construction regulations.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[KERNEL_MOC]]

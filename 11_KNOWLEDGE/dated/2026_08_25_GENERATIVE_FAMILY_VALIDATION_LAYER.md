@@ -54,4 +54,7 @@ The fractal audit family now covers 13 diagnostic/governance layers, each closin
 **Coverage**: three claim classes now have validation tracks — statistical fits (fit-gate-label), point hypotheses (reference-set duels), and constructive generations (trace-verify-fit). The intent-boundary guard from golden-ratio discipline carries over to artifact geometry.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

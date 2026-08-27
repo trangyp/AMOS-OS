@@ -1,3 +1,9 @@
+---
+title: AGENTS
+type: note
+tags: [note, vault]
+---
+
 # AMOS Agent Contract
 
 Use `.github/copilot-instructions.md` as the global AMOS contract.
@@ -1009,7 +1015,7 @@ Total brain-spec skills: 244
 - `amos-world-model-system`
 
 ---
-**Related:** [[docs/moc/00-Home]] · generated_architecture · [[AMOS_quantum_library_v0.1.0]] · [[PRIVACY_POLICY]]
+**Related:** [[00_HOME]] · generated_architecture · [[AMOS_quantum_library_v0.1.0]] · [[PRIVACY_POLICY]]
 
 ---
 ```RSCF-NODE
@@ -1018,8 +1024,11 @@ node_type: doc
 domain: DOC
 path: AGENTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[docs/moc/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - RELATED_TO: [[AMOS_quantum_library_v0.1.0]]
   - RELATED_TO: [[PRIVACY_POLICY]]
 claim_class: AMOS_MODEL
 ```
+
+---
+**MOC:** [[AMOS_HOME]]

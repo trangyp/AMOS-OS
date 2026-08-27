@@ -60,6 +60,9 @@ The Python AMOS OS Kernel (1533 tests) and the TypeScript Cosmo Brain runtime (1
 - The quantum-library entries were already present and approved; the fix was syntactic and enumerative, not a content change.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS System Completion Baseline
 - 2026-08-22 human_interaction cluster closed
+
+---
+**MOC:** [[DATED_MOC]]

@@ -1,3 +1,9 @@
+---
+title: L17 DECISION PRIMITIVES COGNITIVE MATRIX MEMORY
+type: note
+tags: [note, l17-decision]
+---
+
 # L17 — Memory Contract
 
 **Package:** `L17_DECISION`  
@@ -38,3 +44,6 @@ node_type: note
 path: 01_PRIMITIVES/L17_DECISION/L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_MEMORY.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION/L17_DECISION_PRIMITIVES_COGNITIVE_MATRIX_MEMORY.md
+
+---
+**MOC:** [[L17_DECISION_MOC]]

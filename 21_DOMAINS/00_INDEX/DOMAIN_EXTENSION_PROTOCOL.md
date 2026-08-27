@@ -45,7 +45,7 @@ Given an operation touching `DOMAIN EXTENSION PROTOCOL` within the Domains plane
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -63,3 +63,6 @@ node_id: amos_21_domains_00_index_domain_extension_protocol_md
 node_type: note
 path: 21_DOMAINS/00_INDEX/DOMAIN_EXTENSION_PROTOCOL.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_DOMAINS_DOMAIN_ALIAS_CONTRACT]]

@@ -35,4 +35,7 @@ The Tech Quantum Engine extends technical reasoning into the domain of quantum l
 This model is typically invoked as a specialized extension of the `amos-total-technical-engine-layer`. It is used by advanced technical agents designing systems that emulate quantum behavior (e.g., highly complex AI reasoning pathways, non-deterministic routing algorithms) or actual quantum computing interfaces.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[QUANTUM_MOC]]

@@ -50,7 +50,7 @@ Given an operation touching `LIFECYCLE OPERATIONS · COGNITIVE MATRIX O05 MEMORY
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: cm_ory_00_index_lifecycle_operations_cognitive_matrix_o05_memory_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY/00_INDEX/LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_O05_MEMORY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_O05_MEMORY_LIFECYCLE_OPERATIONS_COGNITIVE_MATRIX_README]]

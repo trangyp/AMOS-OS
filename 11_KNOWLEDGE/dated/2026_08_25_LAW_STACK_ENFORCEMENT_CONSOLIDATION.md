@@ -32,4 +32,7 @@ The Trang canon's three governing laws (Law of Law™, Rule of 2™, Rule of 4�
 Same consolidation shape again: highest-citation, zero-procedure artifact → executable contract skill → gate agent → pipeline workflow wiring into existing G3 slot. The law stack now has what bridges, collapse verdicts, and coherence claims already got: an owner, a contract, and a pipeline.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

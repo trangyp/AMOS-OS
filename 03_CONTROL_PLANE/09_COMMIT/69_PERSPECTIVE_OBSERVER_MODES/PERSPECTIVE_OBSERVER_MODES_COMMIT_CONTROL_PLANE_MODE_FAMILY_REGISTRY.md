@@ -31,3 +31,6 @@ node_id: cp_erspective_observer_modes_commit_control_plane_mode_family_registry_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/69_PERSPECTIVE_OBSERVER_MODES/PERSPECTIVE_OBSERVER_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[69_PERSPECTIVE_OBSERVER_MODES_MOC]]

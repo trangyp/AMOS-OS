@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-cognitive-compression-kernel`
 
 - Open the skill: .devin/skills/amos-cognitive-compression-kernel
+
+---
+**Links:** [[COGNITIVE_MOC]] | [[KNOWLEDGE_MOC]]

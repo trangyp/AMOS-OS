@@ -1,6 +1,11 @@
 ---
+title: HSE ENGINEV AMOS FORMAT WITH UCM
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/hse-enginev-amos-format-with-ucm, engine]
+type: document
+source: 11_KNOWLEDGE/engine
 ---
+
+
 
 
 === AMOS_CORE_FORMATTED_FILE ===
@@ -11858,4 +11863,7 @@ SECTION_VALIDITY_CHECKS:
 # itself has been replaced by UBI Score. Epistemic class: AMOS_MODEL.
 
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[ENGINE_MOC]]

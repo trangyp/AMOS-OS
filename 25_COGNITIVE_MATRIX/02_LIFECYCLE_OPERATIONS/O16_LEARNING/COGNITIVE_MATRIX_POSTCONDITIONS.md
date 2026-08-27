@@ -1,3 +1,9 @@
+---
+title: COGNITIVE MATRIX POSTCONDITIONS
+type: note
+tags: [note, o16-learning]
+---
+
 # O16 — Postconditions
 
 **Package:** `O16_LEARNING`  
@@ -34,3 +40,6 @@ node_type: note
 path: 02_LIFECYCLE_OPERATIONS/O16_LEARNING/COGNITIVE_MATRIX_POSTCONDITIONS.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING/COGNITIVE_MATRIX_POSTCONDITIONS.md
+
+---
+**MOC:** [[O16_LEARNING_MOC]]

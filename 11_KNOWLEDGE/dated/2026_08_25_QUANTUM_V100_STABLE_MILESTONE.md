@@ -1,6 +1,11 @@
 ---
+title: 2026 08 25 QUANTUM V100 STABLE MILESTONE
 tags: [dated, dated/2026-08-25]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Quantum Library v1.0.0 — STABLE MILESTONE (2026-08-25)
 
 ## Milestone declaration
@@ -35,3 +40,6 @@ During this session an external consolidation process (UBCAR v2.4 writer) restru
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

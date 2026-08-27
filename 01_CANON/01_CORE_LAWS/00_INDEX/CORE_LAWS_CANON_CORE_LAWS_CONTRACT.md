@@ -1,3 +1,9 @@
+---
+title: CORE LAWS CANON CORE LAWS CONTRACT
+type: note
+tags: [note, 00-index]
+---
+
 ````markdown
 ---
 title: "AMOS Core Laws Canon — Core Laws Contract"
@@ -2985,3 +2991,6 @@ confidence_ceiling: 0
 
 ```
 ```
+
+---
+**MOC:** [[INDEX_CORE_LAWS_CANON_README]]

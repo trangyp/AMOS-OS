@@ -1,6 +1,12 @@
 ---
+title: CSRF
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
+
 # CSRF
 Jamie's TLDR
 Yeah pretty much! So CSRF is essentially forcing a user to do something they didn’t want to do by taking advantage of the fact that your browser automatically sends cookies for particular domains when it sends a request. Attackers can take advantage of that by crafting a request (for example a password change request on a banking site) and hide it in their own website. If they can phish a user into visiting their site, they can fire off that password change request, and the users browser will automatically send their session cookies with it, to validate the request.
@@ -46,11 +52,14 @@ Delivering exploit
 * attacker place malicious HTMl on site they control, and induce victims to visit the site
 * Wait for user to visit the site
 * Some simple exploits use GET method in a single URL on vulnerable site
-<img src="https://vulnerable-website.com/email/change?email=pwned@evil-user.net">
+
 
 Prevention
 * Include CSRF tokens in relevant requests
 * SameSite cookies are also a good way of protecting against attacks.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

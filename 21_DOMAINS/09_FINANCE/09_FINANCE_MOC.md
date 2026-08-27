@@ -1,0 +1,25 @@
+---
+title: 09_FINANCE MOC
+type: moc
+tags: [moc, 09-finance]
+---
+
+# 09_FINANCE — Map of Content
+
+## Files
+
+- [[DOMAINS_FINANCE_CONTRACT]]
+- [[FINANCE_DOMAINS_DOMAIN_SPEC]]
+- [[FINANCE_DOMAINS_INTERFACES]]
+- [[FINANCE_DOMAINS_PROVENANCE]]
+- [[FINANCE_DOMAINS_README]]
+- [[MACRO_ECONOMY_KERNEL]]
+- [[OMEGA_FX_STRUCTURAL_OS]]
+- [[TRANG_ZERO_FOREX]]
+
+## Subdirectories
+
+- [[INDEX_FINANCE_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

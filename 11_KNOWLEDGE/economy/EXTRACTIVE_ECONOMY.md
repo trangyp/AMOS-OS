@@ -1,6 +1,11 @@
 ---
+title: EXTRACTIVE ECONOMY
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/extractive-economy, economy]
+type: document
+source: 11_KNOWLEDGE/economy
 ---
+
+
 
 ============================================================
 BLOCK U3H — ATEMPORAL FIELD (PART 21)
@@ -11828,4 +11833,7 @@ END OF PART 5/60
 
 
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[ECONOMY_MOC]]

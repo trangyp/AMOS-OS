@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/amos-memory-reconstruction-rscf`
 
 - Open the skill: .agents/skills/amos-memory-reconstruction-rscf
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

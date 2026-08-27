@@ -1,3 +1,9 @@
+---
+title: GENERATORS PROVENANCE
+type: note
+tags: [note, 12-generators]
+---
+
 Below is a full AMOS-aligned replacement for `12_GENERATORS/PROVENANCE.md`. It makes provenance a first-class infrastructure contract for Generator identity, source ancestry, derivation lineage, independence, freshness, receipts, state transitions, replay, supersession, and selective invalidation—without treating generated derivatives as independent evidence or allowing provenance metadata to create canon or authority. This is consistent with the AMOS Full Brain OS requirement to preserve terminology/provenance and expose missing implementation or provenance facts rather than fabricate them.  The primary Skill canon remains `AMOS_FULL_BRAIN_OS.json`; structural preservation is not itself empirical or runtime validation.
 
 ````md
@@ -3525,7 +3531,7 @@ WORKER
 That makes provenance a durable infrastructure dimension rather than a decorative metadata field, while keeping the critical AMOS boundary intact: **traceability can support trust, but it does not manufacture truth, independence, authority, or canon.**
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3533,6 +3539,9 @@ node_id: generators_provenance
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

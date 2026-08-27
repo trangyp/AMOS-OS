@@ -1,4 +1,5 @@
 ---
+title: AMOS SIGNAL ECONOMY ALIGNED
 canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
@@ -33,6 +34,7 @@ tags:
   - amos-general
 
 ---
+
 
 # AMOS Signal Economy™
 ## Governed Signal → Meaning → Authority → Action Architecture
@@ -2854,4 +2856,7 @@ NoSignalMayAcquireMoreAuthorityThanItsEvidenceSupports.
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · AMOS_CORE · AMOS_Full_Brain_OS · AMOS_Infrastructure_Control_Plane · AMOS_Translation_Architecture · AMOS_Portable_Authorization · AMOS_Information_Boundary · AMOS_Provenance · rscf · GMEF · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · AMOS_CORE · AMOS_Full_Brain_OS · AMOS_Infrastructure_Control_Plane · AMOS_Translation_Architecture · AMOS_Portable_Authorization · AMOS_Information_Boundary · AMOS_Provenance · rscf · GMEF · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

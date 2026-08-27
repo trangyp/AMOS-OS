@@ -41,6 +41,7 @@ runtime_dependencies:
   - "12_GENERATORS/README.md"
 
 hard_rule: "TEST_PASS != TRUTH != AUTHORITY != COMMIT"
+tags: [note, 12-generators]
 ---
 
 # 12_GENERATORS — Generator Tests
@@ -4244,7 +4245,7 @@ TEST
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -4252,6 +4253,9 @@ node_id: generator_tests
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_TESTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

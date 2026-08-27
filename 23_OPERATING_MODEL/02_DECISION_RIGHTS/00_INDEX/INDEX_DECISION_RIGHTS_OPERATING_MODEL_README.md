@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -31,3 +31,8 @@ node_id: amos_cision_rights_00_index_index_decision_rights_operating_model_readm
 node_type: note
 path: 23_OPERATING_MODEL/02_DECISION_RIGHTS/00_INDEX/INDEX_DECISION_RIGHTS_OPERATING_MODEL_README.md
 claim_class: AMOS_MODEL
+
+## Files
+
+- [[DECISION_RIGHTS_MAP]]
+- [[DECISION_RIGHTS_OPERATING_MODEL_DECISION_RIGHTS_CONTRACT]]

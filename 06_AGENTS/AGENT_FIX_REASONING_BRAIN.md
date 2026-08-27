@@ -229,3 +229,6 @@ Example: `amos-adversarial-robustness-agent.json` describes "prompt injection de
 - CONDITIONAL — repaired but skill is a placeholder/stub
 - EXTERNAL_VIRTUAL — skill source unavailable
 - UNKNOWN/GAP — no skill binding found
+
+---
+**MOC:** [[06_AGENTS_MOC]]

@@ -1,7 +1,9 @@
 ---
+title: NUMERICAL METHODS MODEL
 aliases: [Numerical Methods Engine, AMOS_Numerical_Methods]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/numerical-methods-model, models]
 ---
+
 
 # AMOS Numerical Methods Engine
 
@@ -32,4 +34,7 @@ The **Numerical Methods Engine** provides conceptual mapping for numerical analy
 - Must always declare expected error bounds, failure modes, and assumptions for any recommended scheme.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MODELS_MOC]]

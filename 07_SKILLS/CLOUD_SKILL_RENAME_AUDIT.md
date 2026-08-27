@@ -1,3 +1,9 @@
+---
+title: CLOUD SKILL RENAME AUDIT
+type: note
+tags: [note, 07-skills]
+---
+
 # Cloud Skill Rename Audit
 
 - Source tree: `My Drive/Projects/.devin/skills`
@@ -23,3 +29,6 @@ See `CLOUD_SKILL_RENAME_MANIFEST.json` for the full old→new mapping.
 - Also cleaned `AMOS_OS/.devin/skills` (8 renames, 31 descriptions)
 - Cloud: 0 additional renames, 37 descriptions filled
 - All three trees now have 0 non-compliant names by the current token blocklist
+
+---
+**MOC:** [[07_SKILLS_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: MD 2026 08 23 AMOS CANON LEGACY BRAIN2 CORE
 origin_architect: Trang Phan
 provenance: direct file inspection of flattened _LEGACY BRAIN2/Core files at _00_Cosmo brain root on 2026-08-23. Original path: AMOS-Consulting/AMOS-SYSTEM-main/_00_AMOS_CANON:/_LEGACY BRAIN2/Core (now empty — files moved to vault root during flatten)
 confidence: 0.95
@@ -6,6 +7,7 @@ epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
 tags: [legacy-brain2, core, amos-canon, 7-intelligents, canonical-laws, mind, ubi, web, cognition-engine, emotion-engine, consciousness-engine, personality-trang, ip-shield, brain]
 ---
+
 
 # AMOS Canon — _LEGACY BRAIN2/Core
 
@@ -278,7 +280,7 @@ The UBI Super Engine combines all 4 at X2700 depth each, with X10800 unified orc
 
 ## Cross-References
 
-- [[00_Cosmo_Brain_MOC]] — Master Map of Content
+- [[00_COSMO_BRAIN_MOC]] — Master Map of Content
 - md__2026-08-23 Cosmo Brain Full Architecture — Production TypeScript architecture
 - md__2026-08-23 Cosmo Brain Core Architecture — Core module deep dive
 - AMOS Core Version Lineage — v3.1→v4.4 evolution
@@ -293,3 +295,6 @@ The UBI Super Engine combines all 4 at X2700 depth each, with X10800 unified orc
 - 3 root Core files (Human_Intelligence, Personality, Quantum_Stack) have JSON parse issues (multi-document or non-JSON format) — content not fully analyzed.
 - The UBI Super Engine (6.2MB) is the largest single file in the entire vault.
 - These are **JSON specification files** (v0/vInfinity), not executable code — they define the structure and capabilities of the AMOS cognitive architecture.
+
+---
+**MOC:** [[BRAIN_MOC]]

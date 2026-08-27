@@ -1,6 +1,11 @@
 ---
+title: RSCF STATE
 tags: [rscf]
+type: document
+source: 11_KNOWLEDGE/rscf
 ---
+
+
 # RSCF State Architecture
 
 ## Canonical compression
@@ -41,4 +46,7 @@ Interpretations:
 coherence, entropy load, repair capacity, mutation potential, boundary integrity, memory continuity, relation density, contradiction density, observer variance, symbolic compression efficiency, evidence strength, trust, integration capacity, collapse risk, regeneration potential, cross-scale stability, selection fitness, temporal persistence, semantic drift, ontology dependency, civilization consequence.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[rscf_MOC]]

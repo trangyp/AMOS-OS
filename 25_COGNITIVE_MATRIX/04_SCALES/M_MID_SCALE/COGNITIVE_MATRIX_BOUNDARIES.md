@@ -1,3 +1,9 @@
+---
+title: COGNITIVE MATRIX BOUNDARIES
+type: note
+tags: [note, m-mid-scale]
+---
+
 # M — Boundaries
 
 **Package:** `M_MID_SCALE`  
@@ -42,3 +48,6 @@ node_type: note
 path: 04_SCALES/M_MID_SCALE/COGNITIVE_MATRIX_BOUNDARIES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/COGNITIVE_MATRIX_BOUNDARIES.md
+
+---
+**MOC:** [[M_MID_SCALE_MOC]]

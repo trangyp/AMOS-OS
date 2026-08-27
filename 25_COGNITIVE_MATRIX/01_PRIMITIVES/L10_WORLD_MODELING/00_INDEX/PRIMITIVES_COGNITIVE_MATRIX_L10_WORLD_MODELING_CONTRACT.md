@@ -31,3 +31,6 @@ node_id: cm_eling_00_index_primitives_cognitive_matrix_l10_world_modeling_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING/00_INDEX/PRIMITIVES_COGNITIVE_MATRIX_L10_WORLD_MODELING_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_L10_WORLD_MODELING_PRIMITIVES_COGNITIVE_MATRIX_README]]

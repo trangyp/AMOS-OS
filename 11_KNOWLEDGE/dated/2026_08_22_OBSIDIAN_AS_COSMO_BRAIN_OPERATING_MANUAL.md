@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 OBSIDIAN AS COSMO BRAIN OPERATING MANUAL
 origin_architect: Trang Phan
 provenance: amos-obsidian-vault-config skill + cosmo-obsidian-memory skill + AMOS_OBSIDIAN_MEMORY_BRIDGE.py implementation
 confidence: 0.95
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-obsidian-as-cosmo-brain-opera, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # Obsidian as Cosmo Brain — Operating Manual
 
@@ -58,7 +60,7 @@ related = brain.related_notes("19×19 AI Cognitive Field", depth=1)
 # Create a note
 path = brain.create_note(
     "New Memory",
-    "# New Memory\n\n[[00_Cosmo_Brain_MOC]]",
+    "# New Memory\n\n[[00_COSMO_BRAIN_MOC]]",
     {"epistemic_class": "MODEL", "tags": ["memory"]}
 )
 
@@ -106,3 +108,6 @@ Use `Note Title` to connect notes. The MOC should never be an island.
 ## 6. Conclusion class
 
 This manual and the bridge are `AMOS MODEL / DERIVED`. The layout and config are derived from the existing vault; the bridge is new executable formalization.
+
+---
+**MOC:** [[DATED_MOC]]

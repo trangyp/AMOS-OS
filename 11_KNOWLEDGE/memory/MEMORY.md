@@ -15,4 +15,7 @@ tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/s
 Target: `New Memory`
 
 ## Related
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[memory_MOC]]

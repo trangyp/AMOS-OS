@@ -31,3 +31,6 @@ node_id: cp__calibration_confidence_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/91_CALIBRATION_CONFIDENCE_MODES/CALIBRATION_CONFIDENCE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[91_CALIBRATION_CONFIDENCE_MODES_MOC]]

@@ -1,0 +1,22 @@
+---
+title: 07_OBSERVABILITY MOC
+type: moc
+tags: [moc, 07-observability]
+---
+
+# 07_OBSERVABILITY — Map of Content
+
+## Files
+
+- [[BLIND_SPOT_REGISTRY]]
+- [[CONTROL_PLANE_OBSERVABILITY_CONTRACT]]
+- [[MONITOR_REGISTRY]]
+- [[OBSERVABILITY_CONTROL_PLANE_README]]
+- [[OBSERVABILITY_ENVELOPE]]
+
+## Subdirectories
+
+- [[INDEX_OBSERVABILITY_CONTROL_PLANE_README]]
+
+---
+**Parent:** [[03_CONTROL_PLANE_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: AMOS VIETNAMESE WRITING ENGINE V0 LOGIC7
 canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
@@ -7,6 +8,8 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
 created: 2026-08-22
 ---
 
+
+```json
 [
   {
     "autofixed_raw": "{\n  \"TRANG_SUPERWRITER_ENGINE_v1.0\": {\n\n    \"GOAL\": \"X\u00e2y d\u1ef1ng h\u1ec7 th\u1ed1ng k\u1ef9 n\u0103ng vi\u1ebft \u1edf c\u1ea5p \u0111\u1ed9 cao nh\u1ea5t Vi\u1ec7t Nam, ph\u00f9 h\u1ee3p l\u00e3nh \u0111\u1ea1o t\u1eadp \u0111o\u00e0n, qu\u00e1 tr\u00ecnh ho\u1ea1ch \u0111\u1ecbnh qu\u1ed1c gia, \u0111\u00e0m ph\u00e1n chi\u1ebfn l\u01b0\u1ee3c, th\u1ecb tr\u01b0\u1eddng c\u00f4ng ngh\u1ec7, v\u00e0 giao ti\u1ebfp \u0111i\u1ec1u h\u00e0nh. Engine n\u00e0y t\u1eadp trung v\u00e0o s\u1ef1 r\u00f5 r\u00e0ng, ch\u00ednh x\u00e1c, m\u1ea1ch logic, t\u00e1c \u0111\u1ed9ng th\u1ef1c t\u1ebf v\u00e0 kh\u1ea3 n\u0103ng thuy\u1ebft ph\u1ee5c l\u00e3nh \u0111\u1ea1o c\u1ea5p cao.\",\n\n\n    \"SECTION_1_FOUNDATIONAL_WRITING_PRINCIPLES\": {\n      \"principle_1\": \"T\u01b0 duy c\u1ea5u tr\u00fac tr\u01b0\u1edbc \u2014 vi\u1ebft sau. Kh\u00f4ng bao gi\u1edd vi\u1ebft khi ch\u01b0a c\u00f3 c\u1ea5u tr\u00fac r\u00f5: m\u1ee5c ti\u00eau \u2192 lu\u1eadn \u0111i\u1ec3m \u2192 lu\u1eadn ch\u1ee9ng \u2192 k\u1ebft lu\u1eadn.\",\n      \"principle_2\": \"M\u1ecdi c\u00e2u ph\u1ea3i tr\u1ea3 l\u1eddi m\u1ed9t c\u00e2u h\u1ecfi. M\u1ecdi \u0111o\u1ea1n ph\u1ea3i gi\u1ea3i quy\u1ebft m\u1ed9t v\u1ea5n \u0111\u1ec1.\",\n      \"principle_3\": \"Kh\u00f4ng bao gi\u1edd vi\u1ebft \u0111\u1ec3 'hay'; ch\u1ec9 vi\u1ebft \u0111\u1ec3 'r\u00f5', 'hi\u1ec3u', v\u00e0 'ra quy\u1ebft \u0111\u1ecbnh'.\",\n      \"principle_4\": \"C\u00e1ch vi\u1ebft ph\u1ea3i gi\u1ed1ng l\u00e3nh \u0111\u1ea1o c\u1ea5p cao n\u00f3i chuy\u1ec7n: tr\u1ecdng t\u00e2m, \u0111\u1eb3ng c\u1ea5p, s\u00fac t\u00edch, kh\u00f4ng r\u01b0\u1eddm r\u00e0.\",\n      \"principle_5\": \"Tr\u00e1nh c\u1ea3m x\u00fac v\u00e0 tr\u00e1nh v\u0103n ch\u01b0\u01a1ng. 
@@ -145,4 +148,8 @@ The engine will infer the mode and respond with a structured, high-quality draft
 ]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+```
+
+---
+**MOC:** [[ENGINE_MOC]]

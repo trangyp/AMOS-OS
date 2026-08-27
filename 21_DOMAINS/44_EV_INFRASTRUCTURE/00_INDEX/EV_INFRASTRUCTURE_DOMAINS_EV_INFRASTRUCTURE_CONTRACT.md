@@ -31,3 +31,6 @@ node_id: amos_cture_00_index_ev_infrastructure_domains_ev_infrastructure_contrac
 node_type: note
 path: 21_DOMAINS/44_EV_INFRASTRUCTURE/00_INDEX/EV_INFRASTRUCTURE_DOMAINS_EV_INFRASTRUCTURE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_EV_INFRASTRUCTURE_DOMAINS_README]]

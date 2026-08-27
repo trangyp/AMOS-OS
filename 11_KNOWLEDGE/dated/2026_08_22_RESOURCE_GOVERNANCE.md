@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 RESOURCE GOVERNANCE
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Resource Governance (Gaps 230-238)
 
 **Date**: 2026-08-22
@@ -78,6 +83,9 @@ that block execution.
 - 2026-08-22 Decision Risk Governance
 - 2026-08-22 Uncertainty Calibration Governance
 - 2026-08-22 Adversarial Robustness Governance
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 
 #resource-governance #governance #gaps-230-238 #closed #amos-os-kernel
+
+---
+**MOC:** [[DATED_MOC]]

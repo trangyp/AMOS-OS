@@ -1,3 +1,9 @@
+---
+title: references
+type: note
+tags: [note, amos-7-part-universe-canon]
+---
+
 # References — amos-7-part-universe-canon
 
 ## Session-Specific Detail
@@ -22,3 +28,9 @@
 - This references directory is session-specific and will be updated on each pass
 - For the canonical version, see the vault's permanent notes at `_00_Cosmo brain/`
 - Skill synced via `hermes curator adopt amos-7-part-universe-canon` from `.hermes/skills/`
+
+---
+**Related:** [[SKILL]]
+
+---
+**MOC:** [[amos-7-part-universe-canon_MOC]]

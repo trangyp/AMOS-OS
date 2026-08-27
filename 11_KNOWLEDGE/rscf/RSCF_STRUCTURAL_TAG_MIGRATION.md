@@ -1,4 +1,5 @@
 ---
+title: RSCF STRUCTURAL TAG MIGRATION
 
 canon-group: tech-ai
 canon-type: migration
@@ -21,6 +22,7 @@ tags:
 * tag-governance
 
 ---
+
 
 # RSCF Structural Tag Migration
 
@@ -1690,4 +1692,7 @@ TransformMetadata
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · rscf · AMOS_CORE · AMOS_FULL_BRAIN_OS_Architecture · 2026-08-22 7-Part Universe Canon · 2026-08-22 Brain Inventory · 2026-08-22 Formal Systems Invariants · 2026-08-22 Tests Logic Bridge Registry · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · rscf · AMOS_CORE · AMOS_FULL_BRAIN_OS_Architecture · 2026-08-22 7-Part Universe Canon · 2026-08-22 Brain Inventory · 2026-08-22 Formal Systems Invariants · 2026-08-22 Tests Logic Bridge Registry · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[rscf_MOC]]

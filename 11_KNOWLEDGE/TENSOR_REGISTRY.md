@@ -1,6 +1,11 @@
 ---
+title: TENSOR REGISTRY
 tags: [tensor]
+type: document
+source: 11_KNOWLEDGE/root
 ---
+
+
 # Tensor Registry
 
 `HARNESS[task,artifact,code_state,execution_state,test_state,tool_state,memory_state,permission_state,feedback_state,version,status]`
@@ -33,3 +38,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

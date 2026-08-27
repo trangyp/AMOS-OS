@@ -93,3 +93,6 @@ governance gate in `AmosKernel.run()`, evaluated post-execution.
 2. **Empty state semantics**: Some gates (jurisdiction, licensing) return CONDITIONAL on empty state — "unregistered" is not "clean". Tests must pre-register to get PASS.
 3. **User's API pattern**: The user uses `record()` as the universal creation method, not `register()` or `grant()`. Domain-specific methods like `grant()`, `withdraw()` are state transitions on existing records.
 4. **Gate naming**: The user uses numbered gate names like `privacy-258-consent-lifecycle`, `privacy-259-purpose-limitation`, etc.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

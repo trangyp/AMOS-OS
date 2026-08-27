@@ -1,3 +1,9 @@
+---
+title: ATTACHMENTS 00 ROOT README
+type: note
+tags: [note, attachments]
+---
+
 ````markdown
 ---
 artifact_id: AMOS-OS-CANON-README
@@ -2984,3 +2990,6 @@ claim_class: AMOS_MODEL
 
 ```
 ```
+
+---
+**MOC:** [[attachments_MOC]]

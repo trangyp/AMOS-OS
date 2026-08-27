@@ -39,4 +39,7 @@ Additional conflation risk: QCI vs quantum cognition (the established field borr
 This is the same governance shape applied repeatedly: find a domain where SOURCE canon, MODEL extension, and DERIVED measurement share one vocabulary → build an explicit class contract → wrap the existing workflow with classification gates → give the contract an owning agent. Applied to: bridges (B-classes), collapse (QLS/UCP), and now coherence (QCI C1/C2/C3).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

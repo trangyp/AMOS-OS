@@ -1,6 +1,11 @@
 ---
+title: AMOS CRYPTO TENSOR ANALYSIS
 tags: [reports]
+type: document
+source: 11_KNOWLEDGE/reports
 ---
+
+
 # AMOS OMEGA CRYPTO ADVANCED TENSOR ANALYSIS - COMPLETE
 
 ## Executive Summary
@@ -496,3 +501,6 @@ The AMOS OMEGA CRYPTO system now provides **advanced multi-scale tensor field an
 *Analysis Version: AMOS OMEGA CRYPTO v1.2.0*  
 *Tensor Analysis: FULLY OPERATIONAL*  
 *Mathematical Framework: COMPLETE*
+
+---
+**Links:** [[REPORTS_MOC]] | [[KNOWLEDGE_MOC]]

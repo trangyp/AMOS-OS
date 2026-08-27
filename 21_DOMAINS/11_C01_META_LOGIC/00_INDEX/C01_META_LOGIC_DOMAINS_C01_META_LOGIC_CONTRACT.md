@@ -31,3 +31,6 @@ node_id: amos__meta_logic_00_index_c01_meta_logic_domains_c01_meta_logic_contrac
 node_type: note
 path: 21_DOMAINS/11_C01_META_LOGIC/00_INDEX/C01_META_LOGIC_DOMAINS_C01_META_LOGIC_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C01_META_LOGIC_DOMAINS_README]]

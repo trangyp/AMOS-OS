@@ -88,3 +88,6 @@ L/M/H lens:
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[qfm-max-power-consolidation]] · [[unipower-unitaxi-mece]] · [[fractal-cognitive-architecture]]
+
+---
+**MOC:** [[QUANTUM_MOC]]

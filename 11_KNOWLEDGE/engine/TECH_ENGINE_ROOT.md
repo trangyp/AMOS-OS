@@ -1,7 +1,13 @@
 ---
+title: TECH ENGINE ROOT
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/tech-engine, engine]
+type: data
+source: 11_KNOWLEDGE/engine
 ---
 
+
+
+```json
 {
   "TECH_ENGINE_V∞": {
     "meta": {
@@ -3017,4 +3023,8 @@ tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/s
   }
 }
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+```
+
+---
+**MOC:** [[ENGINE_MOC]]

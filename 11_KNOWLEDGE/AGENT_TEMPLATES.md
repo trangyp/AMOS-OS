@@ -1,4 +1,5 @@
 ---
+title: AGENT TEMPLATES
 canon-group: meta
 canon-type: framework
 canon-status: active
@@ -39,6 +40,7 @@ updated: 2026-08-25
 origin-architect: Trang Phan
 steward: Trang Phan
 ---
+
 
 # AMOS Agent Templates
 
@@ -1900,3 +1902,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_ROOT/00-Home]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

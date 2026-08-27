@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/amos-knowledge-gap-scan`
 
 - Open the skill: .agents/skills/amos-knowledge-gap-scan
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

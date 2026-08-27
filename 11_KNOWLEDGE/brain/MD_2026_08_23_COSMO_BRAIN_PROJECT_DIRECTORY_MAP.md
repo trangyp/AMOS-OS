@@ -1,4 +1,5 @@
 ---
+title: MD 2026 08 23 COSMO BRAIN PROJECT DIRECTORY MAP
 origin_architect: Trang Phan
 provenance: direct file inspection of cosmo-brain/ on 2026-08-23
 confidence: 0.95
@@ -6,6 +7,7 @@ epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
 tags: [cosmo-brain, project-map, typescript, amos, architecture, algorithms, governance, domains, schemas, registry, knowledge, prompts, brain]
 ---
+
 
 # Cosmo Brain Project Directory Map
 
@@ -51,3 +53,6 @@ cosmo-brain/
 
 - node_modules, .pytest_cache, .turbo, and .devin are excluded from the map as generated/dependency directories.
 - All substantive modules credit Trang Phan as origin architect and carry the AMOS IP rules (no overwrite, no reattribution).
+
+---
+**Links:** [[BRAIN_MOC]] | [[KNOWLEDGE_MOC]]

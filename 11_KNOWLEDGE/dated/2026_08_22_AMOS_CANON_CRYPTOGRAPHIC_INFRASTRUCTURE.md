@@ -104,8 +104,11 @@ The `CanonGovernor` is wired into `AmosKernel.run()` as a post-execution gate th
 
 ## Related
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Cognitive Architecture Matrix
 - 2026-08-22 AMOS System Completion Audit
 - 2026-08-22 AMOS System Completion Baseline
 - 00_AMOS_Full_Brain_OS_Architecture
+
+---
+**MOC:** [[DATED_MOC]]

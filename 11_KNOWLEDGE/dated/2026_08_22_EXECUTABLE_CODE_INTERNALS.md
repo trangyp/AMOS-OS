@@ -27,9 +27,12 @@ Deep code-level inspection of the AMOS brain's three core Python files:
 - Skill graph has 743 skills with 0 cycles (valid DAG)
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - [[executable_brain_model]]
 - AMOS_CORE_v4_8_capability_bound_governance
 - 2026-08-22 Tests Logic Bridge Registry — companion inspection of test/logic/bridge modules
 - 2026-08-22 Executable Brain Model Lineage — v1→v22 lineage of the executable brain
 - 2026-08-22 Brain Inventory — verified corpus counts
+
+---
+**MOC:** [[DATED_MOC]]

@@ -36,7 +36,7 @@ Given an operation touching `GOVERNANCE FORUMS · OPERATING MODEL README` within
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -46,7 +46,7 @@ Given an operation touching `GOVERNANCE FORUMS · OPERATING MODEL README` within
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -54,3 +54,6 @@ node_id: amos_model_03_governance_forums_governance_forums_operating_model_readm
 node_type: note
 path: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/GOVERNANCE_FORUMS_OPERATING_MODEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[03_GOVERNANCE_FORUMS_MOC]]

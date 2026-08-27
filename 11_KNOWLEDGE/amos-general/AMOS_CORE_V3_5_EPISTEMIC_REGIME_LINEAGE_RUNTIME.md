@@ -1,6 +1,11 @@
 ---
+title: AMOS CORE V3 5 EPISTEMIC REGIME LINEAGE RUNTIME
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 """
 AMOS_CORE v3 – Deterministic Reasoning Kernel (Clean Single-File Version)
 
@@ -2550,4 +2555,7 @@ def accept_environment_transition(
 AMOS_VERSION = "3.5.0-epistemic-regime-lineage"
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

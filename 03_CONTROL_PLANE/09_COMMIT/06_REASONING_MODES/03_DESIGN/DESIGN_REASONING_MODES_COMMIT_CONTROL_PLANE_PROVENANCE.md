@@ -31,3 +31,6 @@ node_id: cp_es_03_design_design_reasoning_modes_commit_control_plane_provenance_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/03_DESIGN/DESIGN_REASONING_MODES_COMMIT_CONTROL_PLANE_PROVENANCE.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[03_DESIGN_MOC]]

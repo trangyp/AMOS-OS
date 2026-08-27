@@ -89,3 +89,6 @@ governance gate in `AmosKernel.run()`, evaluated post-execution as an advisory g
 4. **Distributional shift threshold**: `severity > 0.3` (strictly greater than, not >=).
 5. **Attack surface exposure threshold for gates**: Only surfaces with `exposure_score > 0.7`
    AND `mitigated=False` trigger the CONDITIONAL gate.
+
+---
+**MOC:** [[DATED_MOC]]

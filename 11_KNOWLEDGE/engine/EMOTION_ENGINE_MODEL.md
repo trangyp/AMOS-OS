@@ -26,5 +26,8 @@ It translates emotional markers in text into functional responses, ensuring that
 - **Empathy Expression Engine**: Converts state estimates into precise, non-generic language.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - Consciousness_Engine_Model
+
+---
+**MOC:** [[ENGINE_MOC]]

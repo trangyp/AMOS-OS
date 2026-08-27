@@ -1,0 +1,24 @@
+---
+title: 23_OPERATING_MODEL MOC
+type: moc
+tags: [moc, 23-operating-model]
+---
+
+# 23_OPERATING_MODEL — Map of Content
+
+## Files
+
+- [[OPERATING_MODEL_OPERATING_MODEL_CONTRACT]]
+- [[OPERATING_MODEL_README]]
+
+## Subdirectories
+
+- [[INDEX_OPERATING_MODEL_README]]
+
+---
+**Parent:** [[AMOS_HOME]]
+- [[01_ROLES_MOC]]
+- [[02_DECISION_RIGHTS_MOC]]
+- [[03_GOVERNANCE_FORUMS_MOC]]
+- [[04_ESCALATION_MOC]]
+- [[05_SERVICE_LEVELS_MOC]]

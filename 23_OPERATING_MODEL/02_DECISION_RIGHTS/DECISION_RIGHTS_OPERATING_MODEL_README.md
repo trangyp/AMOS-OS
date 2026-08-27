@@ -36,7 +36,7 @@ Given an operation touching `DECISION RIGHTS · OPERATING MODEL README` within t
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -46,7 +46,7 @@ Given an operation touching `DECISION RIGHTS · OPERATING MODEL README` within t
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -54,3 +54,6 @@ node_id: amos_ing_model_02_decision_rights_decision_rights_operating_model_readm
 node_type: note
 path: 23_OPERATING_MODEL/02_DECISION_RIGHTS/DECISION_RIGHTS_OPERATING_MODEL_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[02_DECISION_RIGHTS_MOC]]

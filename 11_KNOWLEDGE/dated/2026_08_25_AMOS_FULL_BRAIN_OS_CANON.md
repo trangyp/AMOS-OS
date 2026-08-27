@@ -1,6 +1,11 @@
 ---
+title: 2026 08 25 AMOS FULL BRAIN OS CANON
 tags: [dated, dated/2026-08-25]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # 2026-08-25 — AMOS Full Brain OS — Canonical Note
 
 **Canon class**: CONDITIONAL — source-grounded for major structures; gaps around cross-artifact containment/version precedence.
@@ -266,4 +271,7 @@ The pipeline is a governance-aware demonstration, not a complete brain. The 3 CR
 *Stored 2026-08-25 per user request. Validated against 00_AMOS_Full_Brain_OS_Architecture.md and AMOS_FULL_BRAIN_OS.json.*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

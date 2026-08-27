@@ -1,0 +1,21 @@
+---
+title: 02_CAPABILITY MOC
+type: moc
+tags: [moc, 02-capability]
+---
+
+# 02_CAPABILITY — Map of Content
+
+## Files
+
+- [[CAPABILITY_CONTROL_PLANE_README]]
+- [[CAPABILITY_MANIFEST]]
+- [[CAPABILITY_RESOLVER]]
+- [[CONTROL_PLANE_CAPABILITY_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_CAPABILITY_CONTROL_PLANE_README]]
+
+---
+**Parent:** [[03_CONTROL_PLANE_MOC]]

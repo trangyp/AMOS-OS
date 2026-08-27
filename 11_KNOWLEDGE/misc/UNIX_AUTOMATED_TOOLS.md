@@ -1,6 +1,11 @@
 ---
+title: UNIX AUTOMATED TOOLS
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # Unix Automated Tools
 
 * [Linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS)
@@ -11,4 +16,7 @@ tags: [misc]
 * [Linux Priv Checker](https://github.com/sleventyeleven/linuxprivchecker)
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: AMOS BIOLOGY QUANTUM BRIDGE GOVERNOR
 claim_ceiling: 0.85
 created: 2026-08-27
 domain: cross-domain
@@ -13,6 +14,7 @@ tags:
 - topic/biology-quantum
 - topic/anti-overclaim-firewall
 ---
+
 # AMOS Biology-Quantum Bridge Governor
 
 > **RSCF-NODE** · skill · cross-domain (C04 Bio-Neuro to C03 Physics-Cosmos)
@@ -118,3 +120,6 @@ PERMITTED: structural comparisons (labeled MODEL)
 - AMOS_BRAIN_QUANTUM_OMEGA_FINAL_REPORT
 
 **Critical**: All quantum-biological mappings remain MODEL/METAPHOR. The quantum engine provides reasoning infrastructure, not physical predictions about biological systems.
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

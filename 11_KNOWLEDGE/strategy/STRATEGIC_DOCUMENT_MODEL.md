@@ -1,7 +1,9 @@
 ---
+title: STRATEGIC DOCUMENT MODEL
 aliases: [Strategic Document Engine, AMOS_Strategic_Document]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/strategic-document-model, strategy]
 ---
+
 
 # AMOS Strategic Document Engine
 
@@ -28,4 +30,7 @@ The **Strategic Document Engine** orchestrates underlying domain kernels (like B
 - **Safety Boundaries:** Does not provide binding legal, tax, or personalised investment advice. Recommends human expert review for high-stakes decisions.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[strategy_MOC]]

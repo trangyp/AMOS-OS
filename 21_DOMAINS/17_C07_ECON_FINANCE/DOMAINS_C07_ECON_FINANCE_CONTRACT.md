@@ -50,7 +50,7 @@ Given an operation touching `DOMAINS C07 ECON FINANCE CONTRACT` within the Domai
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_21_domains_17_c07_econ_finance_domains_c07_econ_finance_contract_m
 node_type: note
 path: 21_DOMAINS/17_C07_ECON_FINANCE/DOMAINS_C07_ECON_FINANCE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[17_C07_ECON_FINANCE_MOC]]

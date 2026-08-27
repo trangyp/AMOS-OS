@@ -1,4 +1,5 @@
 ---
+title: 2026 03 09 THE HUMAN SYSTEM VAULT INDEX
 type: note
 created: 2026-03-09
 updated: 2026-03-09
@@ -13,6 +14,7 @@ byte_count_schizophrenia: 6991
 byte_count_void: 8843
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-03-09-the-complete-human-system-vau, dated, dated/2026-03-09]
 ---
+
 
 # The Complete Human System — Vault Knowledge Base
 
@@ -117,4 +119,7 @@ Depression: Distinction_Collapse OR Optimization_Deadlock
 Why is there stable distinction instead of undifferentiated potential? No verified framework derives this. Every known system reaches this boundary.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

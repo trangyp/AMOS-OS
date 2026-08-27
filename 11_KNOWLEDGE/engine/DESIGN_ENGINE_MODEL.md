@@ -1,7 +1,9 @@
 ---
+title: DESIGN ENGINE MODEL
 aliases: [Unified Design Kernel, AMOS_Design_Engine, Design Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/design-engine-model, engine]
 ---
+
 
 # AMOS Unified Design Engine
 
@@ -48,4 +50,7 @@ The engine operates in 4 modes:
 4. **Evolution:** Roadmap iterative changes over time.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

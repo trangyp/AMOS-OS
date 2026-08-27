@@ -50,7 +50,7 @@ Given an operation touching `CONTROL PLANES · COGNITIVE MATRIX C09 KERNEL CONTR
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -60,7 +60,7 @@ Given an operation touching `CONTROL PLANES · COGNITIVE MATRIX C09 KERNEL CONTR
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
 
 ---
 RSCF-NODE
@@ -68,3 +68,6 @@ node_id: cm_l_00_index_control_planes_cognitive_matrix_c09_kernel_control_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL/00_INDEX/CONTROL_PLANES_COGNITIVE_MATRIX_C09_KERNEL_CONTROL_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C09_KERNEL_CONTROL_CONTROL_PLANES_COGNITIVE_MATRIX_README]]

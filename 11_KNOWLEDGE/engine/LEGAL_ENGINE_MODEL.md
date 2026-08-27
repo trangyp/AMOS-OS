@@ -1,7 +1,9 @@
 ---
+title: LEGAL ENGINE MODEL
 aliases: [Legal Engine Kernel, AMOS_Legal_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/legal-engine-model, engine]
 ---
+
 
 # AMOS Legal Engine Kernel
 
@@ -30,4 +32,7 @@ Key variables that shape the legal strategy:
 The engine routes based on matter type to focus on specific clusters (e.g., contentious matters focus on Disputes & Litigation, International Arbitration, and prioritize the fact pattern and enforcement layers).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

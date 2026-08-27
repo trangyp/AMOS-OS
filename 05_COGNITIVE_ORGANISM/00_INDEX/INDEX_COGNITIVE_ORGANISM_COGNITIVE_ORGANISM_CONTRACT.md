@@ -31,3 +31,6 @@ node_id: amos_anism_00_index_index_cognitive_organism_cognitive_organism_contrac
 node_type: note
 path: 05_COGNITIVE_ORGANISM/00_INDEX/INDEX_COGNITIVE_ORGANISM_COGNITIVE_ORGANISM_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_COGNITIVE_ORGANISM_README]]

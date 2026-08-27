@@ -1,3 +1,9 @@
+---
+title: GENERATOR REGISTRY
+type: note
+tags: [note, 12-generators]
+---
+
 Below is the substantive replacement for `GENERATOR_REGISTRY.md`. I checked the connected Drive generator material first; the canonical `12_GENERATORS` folder currently exposes only a builder script, while broader Drive search surfaces generator source artifacts such as `unified_generator.md` and `hierarchical_ai_architecture_generator.md`. I therefore treat the registry below as an **AMOS model/specification**, not as proof that a populated runtime registry already exists.  
 
 ````markdown
@@ -1628,7 +1634,7 @@ RSCF-NODE:
 
 ```yaml
 RSCF-RELATIONS:
-  - INDEXED_BY: "[[00_ROOT/00-Home]]"
+  - INDEXED_BY: "[[00_HOME]]"
   - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
 
   - PART_OF: "[[GENERATORS_MAP]]"
@@ -2957,7 +2963,7 @@ It does not invent completion.
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · GENERATOR_OUTPUT · GENERATOR_FALSIFICATION · GENERATOR_PROMOTION · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER · MODE_ADMISSION_QUEUE · MODE_COMPOSITION_REGISTRY · MODE_CONFLICT_REGISTRY · MODE_COVERAGE_MATRIX · MODE_DEPENDENCY_GRAPH
+**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · GENERATOR_OUTPUT · GENERATOR_FALSIFICATION · GENERATOR_PROMOTION · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER · MODE_ADMISSION_QUEUE · MODE_COMPOSITION_REGISTRY · MODE_CONFLICT_REGISTRY · MODE_COVERAGE_MATRIX · MODE_DEPENDENCY_GRAPH
 
 ---
 
@@ -2973,7 +2979,7 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00-Home]]
+* INDEXED_BY: [[00_HOME]]
 * INDEXED_BY: AMOS_RSCF_NODES
 * PART_OF: GENERATORS_MAP
 * PART_OF: COGNITIVE_MATRIX_MOC
@@ -2989,3 +2995,6 @@ RSCF-RELATIONS:
 
 The key integrity distinction is that this file is now **substantive architecture rather than a placeholder**, but it remains `AMOS_MODEL / CANDIDATE_CANON`: it does not falsely assert that the registry is already populated or implemented.
 ```
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

@@ -1,7 +1,9 @@
 ---
+title: BOD ENGINE MODEL
 aliases: [BOD Engine, AMOS_Bod_Engine]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/bod-engine-model, engine]
 ---
+
 
 # AMOS BOD Engine
 
@@ -32,4 +34,7 @@ The **BOD Engine** provides the decision framework for a Global Chief Executive 
 - Models enterprise strategy but does not provide actionable legal, tax, or investment advice for specific individuals or trades.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

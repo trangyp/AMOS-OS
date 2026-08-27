@@ -50,7 +50,7 @@ Given an operation touching `COGNITIVE MATRIX · VALIDATION CONTRACT` within the
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -60,7 +60,7 @@ Given an operation touching `COGNITIVE MATRIX · VALIDATION CONTRACT` within the
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
 
 ---
 RSCF-NODE
@@ -68,3 +68,6 @@ node_id: cm_25_cognitive_matrix_11_validation_cognitive_matrix_validation_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/COGNITIVE_MATRIX_VALIDATION_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[11_VALIDATION_MOC]]

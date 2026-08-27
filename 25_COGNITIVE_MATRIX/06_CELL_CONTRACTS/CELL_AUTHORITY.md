@@ -1,3 +1,9 @@
+---
+title: CELL AUTHORITY
+type: note
+tags: [note, 06-cell-contracts]
+---
+
 # CELL_AUTHORITY — Definition
 
 **Package:** `CELL_AUTHORITY_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 06_CELL_CONTRACTS/CELL_AUTHORITY_/CELL_AUTHORITY.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/CELL_AUTHORITY.md
+
+---
+**MOC:** [[06_CELL_CONTRACTS_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 AMOS OBSIDIAN MEMORY BRIDGE
 origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py
 confidence: 0.95
@@ -8,12 +9,13 @@ tags: [canon-group/tech-ai, cosmo-brain, memory-bridge, obsidian, persistence, r
 date: 2026-08-22
 ---
 
+
 # AMOS Obsidian Memory Bridge — Brain as Vault
 
 > The Obsidian vault IS the brain. This bridge module provides programmatic access to the vault as durable, queryable memory. 43 self-tests pass; 0 failures. 0 KB orphans.
 >
 > Source: `cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py`
-> See also: [[00_Cosmo_Brain_MOC]] · 2026-08-22 AMOS Go Board 19x19 Formal System
+> See also: [[00_COSMO_BRAIN_MOC]] · 2026-08-22 AMOS Go Board 19x19 Formal System
 
 ## 1. Architecture
 
@@ -121,3 +123,5 @@ This matches the external file-based audit script exactly. Both report **0 KB or
 
 `AMOS MODEL / DERIVED`. The bridge provides deterministic, file-based access to the Obsidian vault as brain memory. Orphan detection, tag statistics, and search are executable formalizations of vault health metrics.
 
+---
+**MOC:** [[DATED_MOC]]

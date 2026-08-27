@@ -1,3 +1,9 @@
+---
+title: COVERAGE MODEL
+type: note
+tags: [note, 07-coverage]
+---
+
 # COVERAGE_MODEL — Definition
 
 **Package:** `COVERAGE_MODEL_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 07_COVERAGE/COVERAGE_MODEL_/COVERAGE_MODEL.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/07_COVERAGE/COVERAGE_MODEL.md
+
+---
+**MOC:** [[07_COVERAGE_MOC]]

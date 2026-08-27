@@ -87,8 +87,11 @@ Results:
 - No new conceptual framework was invented. All 8 records are direct operationalizations of the `human_interaction` cluster description in `seed_completion.py`.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS System Completion Baseline
 - 2026-08-22 AMOS System Completion Audit
 - 2026-08-22 AMOS System Completion Roadmap
 - 2026-08-22 data_quality cluster closed
+
+---
+**MOC:** [[DATED_MOC]]

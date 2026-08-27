@@ -1,948 +1,1770 @@
 ---
+title: THE TRUST AND SIGNAL ECOSYSTEM
 tags: [system]
+type: document
+source: 11_KNOWLEDGE/system
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>🌍 The Complete Trust &amp; Signal Ecosystem</title><style>
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
-html {
-	-webkit-print-color-adjust: exact;
-}
-* {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-@media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
-}
-
-body {
-	line-height: 1.5;
-	white-space: pre-wrap;
-}
-
-a,
-a.visited {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
-}
-
-h1,
-h2,
-h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-/* Override strong tags inside headings to maintain consistent weight */
-h1 strong,
-h2 strong,
-h3 strong {
-	font-weight: 600;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
-}
-
-h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-}
-
-h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
-}
-
-.callout {
-	border-radius: 10px;
-	padding: 1rem;
-}
-
-figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
-}
-
-figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
-}
-
-mark {
-	background-color: transparent;
-}
-
-.indented {
-	padding-left: 1.5em;
-}
-
-hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-img {
-	max-width: 100%;
-}
-
-@media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
-
-	table.collection-content {
-		width: 100%;
-		table-layout: fixed;
-	}
-
-	table.collection-content th,
-	table.collection-content td {
-		overflow-wrap: anywhere;
-	}
-
-	table.collection-content td > .user,
-	table.collection-content td > time {
-		white-space: pre-wrap;
-	}
-}
-
-@page {
-	margin: 1in;
-}
-
-.collection-content-wrapper {
-	overflow-x: auto;
-}
-
-@media only print {
-	.collection-content-wrapper {
-		overflow-x: visible;
-	}
-}
-
-.collection-content {
-	font-size: 0.875rem;
-}
-
-.collection-content td {
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-.column-list {
-	display: flex;
-	gap: 46px;
-}
-
-.column {
-	min-width: 0;
-	overflow: hidden;
-}
-
-.column > *:first-child {
-	margin-top: 0;
-}
-
-.table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
-}
-
-.table_of_contents-indent-1 {
-	margin-left: 1.5rem;
-}
-
-.table_of_contents-indent-2 {
-	margin-left: 3rem;
-}
-
-.table_of_contents-indent-3 {
-	margin-left: 4.5rem;
-}
-
-.table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-}
-
-table,
-th,
-td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-table {
-	border-collapse: collapse;
-	border-left: none;
-	border-right: none;
-}
-
-th,
-td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
-}
-
-th {
-	color: rgba(55, 53, 47, 0.6);
-}
-
-ol,
-ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
-}
-
-li > ol:first-child,
-li > ul:first-child {
-	margin-block-start: 0.6em;
-}
-
-ul > li {
-	list-style: disc;
-}
-
-ul.to-do-list {
-	padding-inline-start: 0;
-}
-
-ul.to-do-list > li {
-	list-style: none;
-}
-
-.to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
-}
-
-ul.toggle > li {
-	list-style: none;
-}
-
-ul {
-	padding-inline-start: 1.7em;
-}
-
-ul > li {
-	padding-left: 0.1em;
-}
-
-ol {
-	padding-inline-start: 1.6em;
-}
-
-ol.numbered-list.numbered-list-digits-2 {
-	padding-inline-start: 2em;
-}
-
-ol.numbered-list.numbered-list-digits-3plus {
-	padding-inline-start: 2.4em;
-}
-
-ol > li {
-	padding-left: 0.2em;
-}
-
-.mono ol {
-	padding-inline-start: 2em;
-}
-
-.mono ol > li {
-	text-indent: -0.4em;
-}
-
-.toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
-}
-
-/* Indent toggle children */
-.toggle > li > details {
-	padding-left: 1.7em;
-}
-
-.toggle > li > details > summary {
-	margin-left: -1.1em;
-}
-
-.selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
-}
-
-.collection-title {
-	display: inline-block;
-	margin-right: 1em;
-}
-
-.page-description {
-	margin-bottom: 2em;
-}
-
-.simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
-}
-.simple-table td {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table th {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
-}
-.simple-table-header {
-	font-weight: 500;
-}
-
-time {
-	opacity: 0.5;
-}
-
-.icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
-}
-
-img.icon {
-	border-radius: 3px;
-}
-
-.callout img.notion-static-icon {
-	width: 1em;
-	height: 1em;
-}
-
-.callout p {
-	margin: 0;
-}
-
-.callout h1,
-.callout h2,
-.callout h3 {
-	margin: 0 0 0.6rem;
-}
-
-.user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-	font-size: 0.8em;
-}
-
-.text-icon {
-	border: 1px solid #000;
-	text-align: center;
-}
-
-.page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
-}
-
-.page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
-}
-
-.page-header-icon img {
-	border-radius: 3px;
-}
-
-.link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
-}
-
-p > .user {
-	opacity: 0.5;
-}
-
-td > .user,
-td > time {
-	white-space: nowrap;
-}
-
-input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
-}
-
-.code,
-code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
-}
-
-code {
-	color: #eb5757;
-}
-
-.code {
-	padding: 1.5em 1em;
-}
-
-.code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
-}
-
-.code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
-}
-
-blockquote {
-	font-size: 1em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
-}
-
-blockquote.quote-large {
-	font-size: 1.25em;
-}
-
-.bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
-}
-
-.bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
-}
-
-.bookmark-text {
-	display: flex;
-	flex-direction: column;
-}
-
-.bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
-}
-
-.bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
-}
-
-.bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
-}
-
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
-.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
-.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
-.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.highlight-default {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.highlight-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.highlight-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.highlight-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.highlight-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.highlight-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.highlight-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.highlight-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.highlight-default_background {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray_background {
-	background: rgba(42, 28, 0, 0.07);
-}
-.highlight-brown_background {
-	background: rgba(139, 46, 0, 0.086);
-}
-.highlight-orange_background {
-	background: rgba(224, 101, 1, 0.129);
-}
-.highlight-yellow_background {
-	background: rgba(211, 168, 0, 0.137);
-}
-.highlight-teal_background {
-	background: rgba(0, 100, 45, 0.09);
-}
-.highlight-blue_background {
-	background: rgba(0, 124, 215, 0.094);
-}
-.highlight-purple_background {
-	background: rgba(102, 0, 178, 0.078);
-}
-.highlight-pink_background {
-	background: rgba(197, 0, 93, 0.086);
-}
-.highlight-red_background {
-	background: rgba(223, 22, 0, 0.094);
-}
-.block-color-default {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.block-color-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.block-color-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.block-color-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.block-color-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.block-color-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.block-color-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.block-color-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.block-color-default_background {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray_background {
-	background: rgba(240, 239, 237, 1);
-}
-.block-color-brown_background {
-	background: rgba(245, 237, 233, 1);
-}
-.block-color-orange_background {
-	background: rgba(251, 235, 222, 1);
-}
-.block-color-yellow_background {
-	background: rgba(249, 243, 220, 1);
-}
-.block-color-teal_background {
-	background: rgba(232, 241, 236, 1);
-}
-.block-color-blue_background {
-	background: rgba(229, 242, 252, 1);
-}
-.block-color-purple_background {
-	background: rgba(243, 235, 249, 1);
-}
-.block-color-pink_background {
-	background: rgba(250, 233, 241, 1);
-}
-.block-color-red_background {
-	background: rgba(252, 233, 231, 1);
-}
-.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
-.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
-.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
-.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
-.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
-.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
-.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
-.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
-.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
-.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
-
-.checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
-}
-
-.checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-
-.checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-	
-</style></head><body><article id="2eac5e6f-95bd-8016-b02e-e5a161e3c12f" class="page sans"><header><h1 class="page-title" dir="auto"><strong>🌍 The Complete Trust &amp; Signal Ecosystem</strong></h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-808b-a795-fde06a15d804" class=""><strong>Design Principles</strong></h2></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806b-8a67-eb5c0353e52d" class="bulleted-list"><li style="list-style-type:disc"><strong>MECE</strong>: Each layer has a single primary responsibility; no overlap.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8093-9bde-e82979b61eee" class="bulleted-list"><li style="list-style-type:disc"><strong>Exhaustive</strong>: Includes ideal operation, failure/adversarial modes, time/versioning, legal boundaries, incentives and exit.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e6-b925-fe0c8173adef" class="bulleted-list"><li style="list-style-type:disc"><strong>Auditable</strong>: Every action is consented, logged, reversible where lawful.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c7-a0f3-fdee95bd361d" class="bulleted-list"><li style="list-style-type:disc"><strong>Deployable</strong>: Clear contracts between layers.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-801a-9c4d-de4be7baf857"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8037-a0c6-f8c81025fd31" class=""><strong>L1. 
-Planetary Sensing &amp; Integrity (Foundation Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8063-a850-d67cf6c3d248" class=""><strong>Primary function:</strong> Capture, validate, and preserve representations of physical reality with minimal distortion and full traceability.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804e-bc02-c87fb6075de9" class="">This layer establishes the <strong>ground truth substrate</strong> for the entire ecosystem. 
-All downstream intelligence, consent, scoring, and economic activity depends on the integrity of signals produced here.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8030-9abf-c053e31cd7a1" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dd-ae03-ef763ef121b3" class="bulleted-list"><li style="list-style-type:disc"><strong>Earth Signal Registry (ESR)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fb-9a38-e3429a6e9a0d" class="">A canonical registry for environmental, biological, and system-level signals.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803c-b572-f5a664f27f31" class="">Each signal is ingested with source attribution, collection context, and validation metadata to prevent ambiguity or duplication.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8044-acde-d735bc577448" class="bulleted-list"><li style="list-style-type:disc"><strong>Energy Integrity Grid (EIG)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805a-bcd4-f64f2010a586" class="">A metering and accounting framework that records energy flows at the joule level.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805c-b2b8-d10fcd61183b" class="">Tracks efficiency, carbon intensity, and regenerative balance to ensure energy usage is lawful, comparable, and ecologically bounded.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8057-980c-da7079300b01" class="bulleted-list"><li style="list-style-type:disc"><strong>Data Provenance Kernel (DPK)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8084-a6b7-ebf52d2e93b2" class="">The integrity backbone for all signals.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8001-a7d3-c03ac8ac5623" class="">Maintains immutable records of origin, timestamp, 
-cryptographic integrity hash, and custody chain, enabling verification, audit, and dispute resolution.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8015-ac31-f363a992d31b" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8088-96cf-cc952b980eef" class="bulleted-list"><li style="list-style-type:disc"><strong>Verified signals</strong> that meet integrity and validation requirements</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8092-ab4b-e415225107ea" class="bulleted-list"><li style="list-style-type:disc"><strong>Complete provenance metadata</strong> enabling audit, traceability, and lawful reuse</li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80aa-bbcf-c7f1c2046833" class=""><strong>L2. Identity &amp; Consent (Rights Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8045-bdf8-c82bd0912d4a" class=""><strong>Primary function:</strong> Establish lawful authority over signal contribution and access by binding identity to consent in a verifiable, revocable manner.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805f-b337-e65d1c8310e7" class="">This layer defines <strong>who is allowed to generate, share, or consume signals</strong>, under what conditions, and for how long. 
-It separates <strong>existence of signals (L1)</strong> from <strong>rights over signals (L2)</strong>.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-800a-b168-f807977fc0b1" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b5-8da8-ff915b931b6c" class="bulleted-list"><li style="list-style-type:disc"><strong>Bio-Root Identity (BRI)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8097-b493-fe004e9fc87d" class="">A biology-anchored identity framework that establishes liveness, continuity, and resistance to spoofing.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8054-935b-fd5edf384443" class="">Identity assurance is derived from physiological and nervous-system stability markers rather than static credentials, reducing impersonation and replay risk.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8064-bbd2-ed7a2b2e0484" class="bulleted-list"><li style="list-style-type:disc"><strong>Universal Consent Fabric (UCF)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805d-8675-fa7e3fe0aec7" class="">A permissioning framework that manages granular, purpose-specific, revocable, and time-bound consent.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8036-bcd4-cd0c923ded5c" class="">Consent is expressed in machine-readable form and enforced consistently across all downstream layers.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802b-88c5-d571a1ffc4fd" class="bulleted-list"><li style="list-style-type:disc"><strong>Consent Ledger</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800d-8840-e88af9d016b7" class="">An immutable, append-only record of consent events.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8010-97f1-c32d9b6033e2" class="">Stores grant, modification, 
-revocation, scope, and validity period, enabling audit, compliance verification, and dispute resolution.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80fa-83f1-ff050a147db1" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804d-aa72-fa3386ed94e7" class="bulleted-list"><li style="list-style-type:disc"><strong>Authorized signal permissions</strong>, specifying:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cb-ae9c-f9982ab0161e" class="bulleted-list"><li style="list-style-type:circle">who may contribute or access signals,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e5-b09b-c74ac4033f49" class="bulleted-list"><li style="list-style-type:circle">for which purposes,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80af-89dd-fd9e14e818a9" class="bulleted-list"><li style="list-style-type:circle">within which time bounds,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ce-aacb-fe35e8f79cfa" class="bulleted-list"><li style="list-style-type:circle">under which jurisdictional constraints.</li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80ab-b240-c0ca64a796e8" class=""><strong>L3. Temporal Integrity (Time Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a4-b713-d948611e0eb9" class=""><strong>Primary function:</strong> Ensure that truth, rights, and trust are evaluated correctly over time.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f2-9416-f0c6739ceb29" class="">This layer governs <strong>when signals, identities, consent, and scores are valid</strong>, how they evolve, and how past states are preserved or lawfully reversed. 
-It prevents stale data, frozen permissions, and permanent trust artifacts in a dynamic system.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80b0-b861-f295c2f401e1" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808c-96a2-d3ab3196270c" class="bulleted-list"><li style="list-style-type:circle"><strong>Versioned Consent &amp; Scores</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b0-a03f-cb7326506318" class="">A time-aware versioning system for consent grants and derived scores.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ad-9769-ff77e6b60be3" class="">Each consent and score includes explicit validity windows, renewal conditions, and decay rules to prevent indefinite authority or trust persistence.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d1-8de6-c4cdd8538e94" class="bulleted-list"><li style="list-style-type:circle"><strong>Signal Freshness &amp; Aging</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b8-bb7b-e6550b190508" class="">A temporal weighting mechanism that adjusts the influence of signals based on recency and relevance.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8032-8ae7-c0fcfd1e138f" class="">Older signals decay in impact according to defined aging functions, ensuring that decisions reflect current reality rather than historical artifacts.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e9-9ee0-cfdcac915cbb" class="bulleted-list"><li style="list-style-type:circle"><strong>Rollback &amp; 
-Fork Rules</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8070-a50f-df7afdeaa022" class="">A controlled framework for lawful reversibility and dispute resolution.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805e-baaf-dbf99390b3f0" class="">Enables correction of errors, resolution of contested events, and jurisdiction-mandated rollbacks while preserving an immutable historical record of changes.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8091-8330-f8307d8ed0e1" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8009-b4ab-c31147c3e8cc" class="bulleted-list"><li style="list-style-type:circle"><strong>Time-aware truth</strong>, including:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800e-96c0-d2242dc84c90" class="bulleted-list"><li style="list-style-type:square">signals evaluated with freshness context,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8066-8cc5-d97ec4451ddd" class="bulleted-list"><li style="list-style-type:square">consent and scores valid only within defined temporal bounds,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8086-be3c-d8b186eec21f" class="bulleted-list"><li style="list-style-type:square">auditable histories of change, correction, and resolution.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80dc-a67f-c726ed5ad096" class=""><strong>L4. 
-Intelligence &amp; Agency (Decision Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8067-90e3-cd8d63d0b592" class=""><strong>Primary function:</strong> Transform verified, authorized, and time-qualified signals into bounded decisions and executable intent.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803f-ac54-ffe1f8ed73c7" class="">This layer is responsible for <strong>sense-making and decision formulation</strong>, not execution. 
-It converts raw signals into structured understanding, assigns responsibility to appropriate agents, and enforces limits on autonomy to prevent drift, overreach, or unintended consequences.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ab-b3bf-c5050e4b9cba" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809f-8160-e9edce9a060e" class="bulleted-list"><li style="list-style-type:circle"><strong>Cognitive Structuring Engine (CSE)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805c-8577-e8b86aacc908" class="">A processing framework that converts validated signals into structured events, state representations, and decision-relevant insights.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-809f-b010-fe28987311c5" class="">The CSE reduces noise, resolves ambiguity, and preserves uncertainty where resolution is not justified by available data.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d7-96db-d87673960653" class="bulleted-list"><li style="list-style-type:circle"><strong>Goal-to-Role Mapper (GRM)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8091-86dd-c1cc0d77a726" class="">A translation mechanism that maps articulated human, organizational, or planetary goals into clearly scoped agent roles.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8075-bb63-cdbfe6493cfc" class="">Ensures that each role has a defined objective, authority boundary, 
-and accountability context.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801d-a327-da41b523c5c9" class="bulleted-list"><li style="list-style-type:circle"><strong>Hybrid Agent Orchestrator (HAO)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808c-b2b3-ebc622ed3e41" class="">A coordination layer that manages interaction between human and AI agents.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ff-a5f6-c8dc14751dca" class="">Enforces constraints on autonomy, escalation thresholds, handoff rules, and override conditions to ensure decisions remain aligned with policy and consent.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8046-9c04-f10164609b80" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d1-82d8-ea5fe880afe2" class="bulleted-list"><li style="list-style-type:circle"><strong>Decisions</strong> expressed as bounded intents</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c4-80a9-d5ca2980f429" class="bulleted-list"><li style="list-style-type:circle"><strong>Tasks</strong> assigned to specific agents or systems</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d5-9358-cea525651787" class="bulleted-list"><li style="list-style-type:circle"><strong>Recommendations</strong> with traceable rationale and confidence bounds</li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80f5-a03b-c7fd4037fd2d" class=""><strong>L5. 
-Execution &amp; Interfaces (Actuation Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8023-8e02-eb6ae89c7afb" class=""><strong>Primary function:</strong> Execute approved decisions safely and predictably in physical and digital environments.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c4-a49d-ef948dd4f49d" class="">This layer is responsible for <strong>controlled actuation</strong>, not decision-making. 
-It ensures that actions derived from upstream decisions are carried out within strict safety, ethical, and operational bounds, with immediate containment mechanisms for abnormal conditions.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80fa-86f0-f5749c01f1a4" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802f-a1e0-fe172adcb0c4" class="bulleted-list"><li style="list-style-type:circle"><strong>Deterministic Control Plane (DCP)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803f-a1da-e1a7e210e5a6" class="">A real-time execution framework for machines and automated systems.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804f-a6fb-fcc5fea8b770" class="">Enforces bounded autonomy through predefined control laws, state constraints, and deterministic behavior to prevent uncontrolled or emergent actions.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bf-bb8e-d196d6c5a563" class="bulleted-list"><li style="list-style-type:circle"><strong>Human–Machine Interface Suite (HMIS)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d4-b6aa-cc01a432bf74" class="">A set of interfaces enabling human interaction with executing systems, including conventional HMI and ethically governed BCI where applicable.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808c-8064-fd8938242ad4" class="">Interfaces are designed to preserve human agency, provide clear situational awareness, 
-and prevent coercive or opaque interaction.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80df-9d22-d42318c1d808" class="bulleted-list"><li style="list-style-type:circle"><strong>Runtime Safety Guard (RSG)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807e-ab39-d8c4663d67e7" class="">A continuous safety enforcement mechanism operating independently of task logic.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8009-b9eb-e96f539ced34" class="">Implements rate limits, invariant checks, fail-safe states, and immediate kill-switches to halt or degrade execution when safety boundaries are approached or violated.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-809a-b061-ea2e2b5142dd" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807a-abc1-e94bd4ea5b01" class="bulleted-list"><li style="list-style-type:circle"><strong>Safe actions</strong>, characterized by:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807b-86a9-f5ff7b61a520" class="bulleted-list"><li style="list-style-type:square">deterministic execution,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809d-a25f-de6e7723bc9d" class="bulleted-list"><li style="list-style-type:square">continuous safety monitoring,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802c-981f-f0179a9a7e08" class="bulleted-list"><li style="list-style-type:square">immediate containment or shutdown on violation,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808b-96c6-e911de52d0d6" class="bulleted-list"><li style="list-style-type:square">full traceability to upstream decisions and permissions.</li></ul></div></li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8018-a01b-fc0d603b3e6a" class=""><strong>L6. 
-Economy &amp; Value (Exchange Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805c-87dd-c374771aba22" class=""><strong>Primary function:</strong> Translate verified trust and performance into comparable economic value.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f1-901e-ccd8c0b43d89" class="">This layer defines <strong>how trusted signals, capabilities, and outcomes are priced, exchanged, and settled</strong>. 
-It does not create signals or decisions; 
-it assigns economic meaning to outputs produced and validated by upstream layers.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8024-b9d0-c142447727eb" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80eb-ac84-dc9b18fe7495" class="bulleted-list"><li style="list-style-type:disc"><strong>Signal Exchange Ledger (SEL)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fa-ad7d-e524fb801657" class="">A transaction and valuation ledger for verified signals and outcomes.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fb-9fa1-e2d1c13bd467" class="">Prices signals based on integrity, consent scope, temporal validity, and downstream utility, enabling transparent exchange without duplicating raw data.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8082-8111-ea429561a67c" class="bulleted-list"><li style="list-style-type:disc"><strong>Talent Capability Ledger (TCL)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807a-952c-dcc2d578a746" class="">A capability accounting system for the workforce.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8009-b307-ea32d8c00e46" class="">Aggregates verified performance, skill execution, and reliability signals into capability scores usable for hiring, deployment, training, 
-and compensation decisions.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8072-ac7d-fb5cd42ea423" class="bulleted-list"><li style="list-style-type:disc"><strong>Energy Value Markets (EVM)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803b-86cf-d68377b8adf8" class="">A market framework for energy-related value derived from trusted measurements.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8081-adf9-fd827bde424c" class="">Uses standardized indices such as Energy Return on Investment (EROI), carbon intensity, and nature impact to price energy production and consumption consistently across jurisdictions.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d5-b3eb-e55bd5be9c3a" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8049-b467-d9464a320c8b" class="bulleted-list"><li style="list-style-type:disc"><strong>Prices</strong> reflecting verified trust and performance</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80be-ac0a-fe4233b0b338" class="bulleted-list"><li style="list-style-type:disc"><strong>Incentives</strong> aligned with desired behaviors and outcomes</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804f-8692-f0dc8cbbc48f" class="bulleted-list"><li style="list-style-type:disc"><strong>Settlements</strong> that are auditable, traceable, and consent-compliant</li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80d4-9019-ff547a1e74ec" class=""><strong>L7. 
-Scoring &amp; Trust Indices (Measurement Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e7-b301-c9131af528f2" class=""><strong>Primary function:</strong> Convert observed behavior and outcomes into standardized, comparable metrics.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8013-8920-eed7d6e3e150" class="">This layer provides the <strong>measurement abstraction</strong> for the ecosystem. It aggregates verified signals, authorized actions, and economic outcomes into indices that are comparable across individuals, organizations, sectors, and jurisdictions. 
-Scoring reflects <em>what has occurred</em>, not what is permitted or priced.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8097-a3cc-e3c173d52e8b" class=""><strong>Core Indices</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8034-af39-d1d7bb20b403" class="bulleted-list"><li style="list-style-type:disc"><strong>Personal Trust Index (PTI)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fb-ac30-cd85fd2d4cf6" class="">Measures individual reliability based on observed behavior, biological stability indicators, and consent-compliant participation.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8094-9233-dbedc12f0915" class="">Used to assess personal trustworthiness without relying on self-reporting or reputation proxies.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8042-b8ad-c3ae7c037a2c" class="bulleted-list"><li style="list-style-type:disc"><strong>Consent Integrity Index (CII)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8047-9118-c134b0a22df2" class="">Measures how consistently an entity respects consent scope, revocation, purpose limitation, and temporal validity.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800b-ad9d-f1c9b65af483" class="">Acts as an objective indicator of consent compliance.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8050-8a87-f78778bbf961" class="bulleted-list"><li style="list-style-type:disc"><strong>Organizational Trust Index (OTI)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a8-8a93-c31ad37b8a24" class="">Aggregates organizational behavior across consent adherence, operational reliability, 
-and impact signals.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e2-a99c-f785c89219c6" class="">Enables comparison of institutions on trust and governance performance.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8090-b518-ec40afc934da" class="bulleted-list"><li style="list-style-type:disc"><strong>Planetary Trust Index (PTX)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8024-adf9-dad264763acd" class="">Measures system-level alignment with ecological, social, and governance constraints.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8015-8862-cad377255e4f" class="">Aggregates environmental integrity, energy indices, and large-scale compliance indicators.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f4-a1b7-efeeee9e407e" class="bulleted-list"><li style="list-style-type:disc"><strong>Engagement Trust Score (ETS)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b3-aad0-f02455824e1c" class="">Measures authenticity and reliability of engagement in digital and media environments.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e8-b0e8-f4aeb210081a" class="">Distinguishes genuine interaction from manipulation or artificial amplification.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d8-a76c-d0ba72e37a32" class="bulleted-list"><li style="list-style-type:disc"><strong>Capability Intelligence Score (CIS)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8087-ab2f-e287b6945710" class="">Quantifies demonstrated human or organizational capability based on verified task execution, learning outcomes, 
-and reliability over time.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cb-abff-ed83c97dc498" class="">Used for workforce deployment and development decisions.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800f-9640-d2a8a3287385" class="bulleted-list"><li style="list-style-type:disc"><strong>Energy Indices (EROI, Carbon Intensity, Nature Impact)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8061-9843-d0b9717b779e" class="">Standardized metrics describing energy efficiency, emissions, and ecological impact.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-809c-b330-e19030bf57bf" class="">Provide a consistent basis for comparison and regulation across energy systems.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8066-8f9c-f9b6ca6b7d78" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-826c-d01b7c8fcb06" class="bulleted-list"><li style="list-style-type:disc"><strong>Comparable scores</strong> with defined scope and validity periods</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806d-913d-ca23d26f1215" class="bulleted-list"><li style="list-style-type:disc"><strong>Auditable measurement trails</strong> linking each score to underlying signals and actions</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807a-8bd9-f8ac2d9ec772" class="bulleted-list"><li style="list-style-type:disc"><strong>Time-bounded metrics</strong> suitable for regulatory, economic, and policy use</li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-805e-9225-d40885c88778" class=""><strong>L8. 
-Governance &amp; Policy (Rules Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8065-8789-f5e6bff94892" class=""><strong>Primary function:</strong> Define and maintain the rules that constrain system behavior.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80dc-b22a-de1f8083dccb" class="">This layer establishes <strong>what is permitted, required, or prohibited</strong> across the ecosystem. It creates policy but does not execute actions, score behavior, or price outcomes. 
-All enforcement occurs downstream, based on the rules defined here.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e6-87ae-fb03d68fc6d0" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80aa-bd00-dba969926dc7" class="bulleted-list"><li style="list-style-type:disc"><strong>Policy Definition Authority (PDA)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8010-ae96-dfacf623dd3c" class="">A formal body or mechanism responsible for defining standards, thresholds, and constraints.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8033-91c1-db72f2e1c5fc" class="">Policies are expressed in explicit terms, including scope, applicability, escalation conditions, and review cycles.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8097-ade1-dce37177c815" class="bulleted-list"><li style="list-style-type:disc"><strong>Stress-Test &amp; 
-Foresight Unit (SFU)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8020-a88c-c911415b6ef8" class="">A simulation and analysis function that evaluates proposed or existing policies against future scenarios.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803c-af24-c51f4cc539f6" class="">Used to identify systemic risk, unintended consequences, and failure modes before policies are adopted or revised.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8091-b426-d9fdab3b44b7" class="bulleted-list"><li style="list-style-type:disc"><strong>Compliance Interface</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e8-9e7c-f21f51e7fd6a" class="">A machine-readable representation of policies and rules.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8062-8448-d0ad8f15fed5" class="">Enables consistent interpretation and enforcement across automated systems, agents, 
-and jurisdictions without manual translation.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e9-ba38-de1ddde818d1" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-825b-e6d0c8cf5751" class="bulleted-list"><li style="list-style-type:disc"><strong>Enforceable policies</strong> characterized by:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ea-8c8b-d66480879b7e" class="bulleted-list"><li style="list-style-type:circle">clear scope and applicability,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b3-bca0-c7acc07714c2" class="bulleted-list"><li style="list-style-type:circle">explicit thresholds and constraints,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bc-ab05-e99418c7f36a" class="bulleted-list"><li style="list-style-type:circle">versioning and review metadata,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8030-b8a5-dfe9c6604e1b" class="bulleted-list"><li style="list-style-type:circle">compatibility with automated enforcement and audit.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80eb-a6d6-d58d499802fc" class=""><strong>L9. Jurisdiction &amp; Legal Boundaries (Law Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8018-9a39-c8b8c3b0588d" class=""><strong>Primary function:</strong> Ensure system operation remains compliant with applicable laws, sovereignty constraints, and jurisdictional authority.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e2-be25-d772068d0adf" class="">This layer defines <strong>where and under which legal regimes the system may operate</strong>, how conflicts between jurisdictions are handled, and how lawful participation or non-participation is enforced. 
-It separates <em>rule definition</em> (L8) from <em>legal applicability and enforcement boundaries</em>.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-807b-bdad-c287db7abb12" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bf-a073-d1ec125f1051" class="bulleted-list"><li style="list-style-type:disc"><strong>Jurisdiction Router</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804c-b2eb-d738cf7ae2ad" class="">A mapping and resolution mechanism that associates signals, identities, actions, and data flows with applicable local, national, and supranational legal regimes.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8030-8226-f3f5fbfdc8ef" class="">Determines which laws apply based on location, citizenship, data residency, sector, and contractual scope.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8030-8dbc-fd0352532b79" class="bulleted-list"><li style="list-style-type:disc"><strong>Opt-in / Opt-out Controls</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8002-b563-d6055676713d" class="">A lawful participation framework that enforces mandatory inclusion, voluntary participation, or required exclusion based on jurisdictional requirements.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c0-b536-c20381fcfd86" class="">Supports legally mandated non-participation, partial participation, 
-and jurisdiction-specific overrides without breaking system integrity.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d7-bdff-c8fbbc941f71" class="bulleted-list"><li style="list-style-type:disc"><strong>Cross-Border Resolution</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805f-bab3-e97ce96a3d66" class="">A conflict-handling framework for cases involving multiple jurisdictions.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8061-8379-f0d2a2562fe4" class="">Defines precedence rules, escalation paths, and lawful arbitration mechanisms when legal obligations or permissions conflict across borders.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8089-a4d6-e5a4329ced53" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8060-abef-e4be03aa3fcf" class="bulleted-list"><li style="list-style-type:disc"><strong>Law-aligned operation</strong>, characterized by:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b8-bcd7-fd73143f7ac8" class="bulleted-list"><li style="list-style-type:circle">explicit jurisdictional scope for each action and data flow,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800b-8e88-d12998c27f2b" class="bulleted-list"><li style="list-style-type:circle">enforced participation or exclusion rules,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8024-a205-fd725462d455" class="bulleted-list"><li style="list-style-type:circle">documented resolution of cross-border legal conflicts,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a7-8b4c-e7142b7bc6cf" class="bulleted-list"><li style="list-style-type:circle">audit-ready legal traceability.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-808a-a8c4-dfddac16430e" class=""><strong>L10. 
-Adversarial &amp; Failure Management (Resilience Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8041-ace9-c9424a1808d1" class=""><strong>Primary function:</strong> Maintain system integrity under attack, misuse, error, and partial failure.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-809c-9c06-ec68b9a4b4be" class="">This layer explicitly assumes that <strong>adversarial behavior, faults, and unexpected conditions will occur</strong>. 
-It is responsible for detection, containment, and recovery, ensuring the system degrades safely rather than failing catastrophically.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e3-91b4-d9198787d3e3" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d9-bd97-f38fab04ec94" class="bulleted-list"><li style="list-style-type:disc"><strong>Threat Models</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803e-9900-e115cd01d163" class="">A structured set of adversarial and failure scenarios, including signal gaming, data poisoning, collusion, spoofing, insider abuse, and systemic stress.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8013-b61f-f486035b22a9" class="">Threat models define assumptions, attack surfaces, and expected failure modes used to design detection and response mechanisms.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806c-8d1f-e766927087c5" class="bulleted-list"><li style="list-style-type:disc"><strong>Anomaly &amp; 
-Drift Detection</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8023-b49a-ea4ee20b114e" class="">Continuous monitoring functions that identify deviations from expected behavior at signal, agent, economic, and execution levels.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8089-84cb-f9abf6058f0e" class="">Detects statistical anomalies, behavioral drift, and coordinated manipulation early enough to enable containment before systemic impact.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c7-96bf-e5ebf5cdc2f4" class="bulleted-list"><li style="list-style-type:disc"><strong>Graceful Degradation</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8054-ba7e-e6b451bc0b38" class="">A controlled fallback framework that reduces functionality while preserving safety and core guarantees.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f7-8347-d71f4a6fe70c" class="">Includes rate limiting, capability reduction, partial isolation, or reversion to manual control, depending on severity and scope of the detected issue.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-807d-b02a-d33aafeb78ee" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8061-909d-fe794b84ae40" class="bulleted-list"><li style="list-style-type:disc"><strong>System resilience</strong>, 
-characterized by:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8080-a39e-dc12b1d299e8" class="bulleted-list"><li style="list-style-type:circle">early detection of attacks or failures,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ab-bdab-f6b70751992b" class="bulleted-list"><li style="list-style-type:circle">bounded impact through containment and isolation,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8021-a470-d0fa1e6a08c7" class="bulleted-list"><li style="list-style-type:circle">continued safe operation at reduced capacity,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d5-b721-eb057fcce7e7" class="bulleted-list"><li style="list-style-type:circle">full traceability of incidents and responses for audit and remediation.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8035-a575-ef355a53b1de" class=""><strong>L11. Incentives, Capital &amp; Exit (Stability Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8067-845b-caa093365a1d" class=""><strong>Primary function:</strong> Maintain long-term system stability by preventing capture, lock-in, and incentive distortion.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8076-9d5b-e22c43f74913" class="">This layer ensures that participation remains <strong>voluntary, competitive, and reversible</strong>. 
-It addresses structural risks that arise when economic value, trust scores, or capital accumulate unevenly or become non-portable.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8056-a426-c3aef4b13ff7" class=""><strong>Core Components</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b0-813d-d33cf52ee8c8" class="bulleted-list"><li style="list-style-type:disc"><strong>Incentive Alignment Engine</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fa-80e9-d521737382ed" class="">A set of mechanisms that align rewards with desired behavior while limiting exploitability.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8059-a7fa-d0dbe74f3571" class="">Detects and mitigates incentive gaming, score farming, rent-seeking behavior, and feedback loops that would otherwise distort system outcomes.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8022-9a45-d87c11774c3e" class="bulleted-list"><li style="list-style-type:disc"><strong>Capital Concentration Limits</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8083-8e02-d98d0fa99803" class="">Structural constraints that prevent excessive accumulation of economic or decision-making power.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8082-a34b-e09d73655612" class="">Includes caps, diminishing returns, separation of roles, and governance checks to reduce monopolistic control and systemic fragility.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e7-bb48-f23c71ce4246" class="bulleted-list"><li style="list-style-type:disc"><strong>Exit &amp; 
-Portability Framework</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8040-a07e-f340ab79405d" class="">A portability and exit mechanism that enables participants to leave the system without punitive loss.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-801e-881e-f4d870c180dc" class="">Supports lawful export of personal data, scores, and historical records in standardized formats, subject to consent and jurisdictional constraints.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-802f-9e2c-ee05bb8b0f79" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c4-9029-f94d6737e453" class="bulleted-list"><li style="list-style-type:disc"><strong>Sustainable participation</strong>, characterized by:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-8bb8-d27e3726fab3" class="bulleted-list"><li style="list-style-type:circle">aligned incentives resistant to manipulation,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f8-9d92-da340a54c357" class="bulleted-list"><li style="list-style-type:circle">bounded concentration of power and capital,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8066-acdb-eaa2825a0403" class="bulleted-list"><li style="list-style-type:circle">credible exit options without systemic harm,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802e-8766-e2c506b07b6d" class="bulleted-list"><li style="list-style-type:circle">preserved trust through reversibility and portability.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8049-8eeb-d3268ad29b13" class=""><strong>L12. 
-Sector Deployments (Application Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ad-b91c-c3fcdfa67022" class=""><strong>Primary function:</strong> Apply the full ecosystem consistently across real-world sectors.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804d-92ed-eb4124b8f5be" class="">This layer defines <strong>how the common infrastructure, rules, and guarantees of the system are instantiated in specific domains</strong>. 
-Sector deployments do not modify core layers; they configure permitted parameters, data sources, and compliance mappings appropriate to each sector.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80df-af53-c49a860f65e5" class=""><strong>Core Deployment Domains</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d3-bf87-fdc2e86f5854" class="bulleted-list"><li style="list-style-type:disc"><strong>Health Systems</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8033-8ff9-f1af18f725cb" class="">Applies identity, consent, temporal integrity, and scoring to clinical data, diagnostics, care delivery, and outcomes.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-801d-b290-c942956c16db" class="">Prioritizes patient consent, biological signal integrity, safety constraints, and regulatory compliance.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8041-909d-c44ecbb5b064" class="bulleted-list"><li style="list-style-type:disc"><strong>Energy &amp; Climate</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cc-a862-f2b494544ee7" class="">Applies sensing, valuation, and scoring to energy production, distribution, and consumption.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d2-ab2c-e61c2fdec96f" class="">Uses standardized energy indices to support compliance, financing, and ecological accountability.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d5-be15-e25f711af6d0" class="bulleted-list"><li style="list-style-type:disc"><strong>Finance &amp; 
-Insurance</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8010-a145-c01b9922fba8" class="">Applies trust indices, economic valuation, and governance rules to underwriting, lending, pricing, and risk assessment.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802e-95b0-e51d2c43525c" class="">Emphasizes auditability, fairness, jurisdictional compliance, and systemic risk control.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8065-a6d7-ca801c5f7451" class="bulleted-list"><li style="list-style-type:disc"><strong>Talent &amp; Workforce</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8094-84e1-cdfb85f387f9" class="">Applies capability measurement, consent, and economic exchange to hiring, deployment, training, and compensation.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d9-80e3-dd7b53a6e35e" class="">Replaces reputation-based proxies with verified performance and reliability indicators.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8042-9ddc-f0875b4a8f07" class="bulleted-list"><li style="list-style-type:disc"><strong>Media &amp; 
-Engagement</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804a-8e2a-c7d28f33350d" class="">Applies engagement trust measurement and consent enforcement to digital content, advertising, and audience interaction.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d6-ba41-f86a9f929a62" class="">Distinguishes authentic participation from manipulation or artificial amplification.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80a1-81dc-c81e3aa70b3b" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8098-8d20-c942ae42c8e4" class="bulleted-list"><li style="list-style-type:disc"><strong>Sector-specific value</strong>, characterized by:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805e-ab57-dac5cbe41ecb" class="bulleted-list"><li style="list-style-type:circle">consistent application of core system guarantees,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8097-ab1e-e8bb2f2ffb0c" class="bulleted-list"><li style="list-style-type:circle">reduced noise and fraud,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8091-b78e-f5bea428d04d" class="bulleted-list"><li style="list-style-type:circle">improved trust, efficiency, and accountability,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8036-bfa3-c83ce92d822b" class="bulleted-list"><li style="list-style-type:circle">compatibility with sector-specific regulation without fragmenting the ecosystem.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8076-9b80-f1a8e2d21a04" class=""><strong>System Contracts (Cross-Layer Interfaces)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8097-9fe2-dc5a1a4db9d4" class=""><strong>Purpose:</strong> Define mandatory interfaces and guarantees between layers to prevent ambiguity, 
-leakage of responsibility, or unauthorized coupling.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8093-bcac-fd0a01ff0c9f" class="">System contracts specify <strong>what may pass between layers, under what conditions, and with which guarantees</strong>. 
-No layer may bypass a contract or infer authority outside its defined interface.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8000-8871-f0cd27aadca3" class=""><strong>Core Contracts</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8079-868f-e64736ff775f" class="bulleted-list"><li style="list-style-type:disc"><strong>Signal Contract (L1 → L2 → L3)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cc-9744-e0bd0532aa6f" class="">Governs the lifecycle of signals from capture to time-qualified validity.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8095-a65f-e262586672d2" class="">Requires that all signals:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8024-91ab-cec9e52d8b5f" class="bulleted-list"><li style="list-style-type:circle">originate from verified sources (L1),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e6-97f7-d678e773d149" class="bulleted-list"><li style="list-style-type:circle">carry explicit identity and consent authorization (L2),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8081-aed9-df3c3bcb973e" class="bulleted-list"><li style="list-style-type:circle">include temporal validity, versioning, 
-and decay metadata (L3).<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8012-bb77-cb2b7d4feb37" class="">Signals failing any condition are not admissible downstream.</p></div></li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8076-bd98-d267c377544d" class="bulleted-list"><li style="list-style-type:disc"><strong>Decision Contract (L3 → L4)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cc-a954-d3a00c6ff4d8" class="">Governs the transformation of time-qualified truth into decisions.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8052-a611-ec6c91226f72" class="">Ensures that only signals and states that are valid <em>at the decision time</em> may inform reasoning, planning, 
-or recommendations.</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8042-bacd-ca48bf9ddbc6" class="bulleted-list"><li style="list-style-type:disc"><strong>Action Contract (L4 → L5)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8018-a9bb-eb2e33a81160" class="">Governs the transition from decision intent to execution.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b5-938b-ea8792f38bb3" class="">Requires that every action:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f1-aeca-cc85ec75e24b" class="bulleted-list"><li style="list-style-type:circle">has a bounded scope and objective,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8029-b217-fa48524b0d67" class="bulleted-list"><li style="list-style-type:circle">specifies authorized agents or systems,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8078-a15f-f85da7c931bf" class="bulleted-list"><li style="list-style-type:circle">includes safety constraints and rollback conditions,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d4-9679-e7b6bf00d541" class="bulleted-list"><li style="list-style-type:circle">remains traceable to upstream decisions and permissions.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804a-bd31-fbc9214e9973" class="bulleted-list"><li style="list-style-type:disc"><strong>Value Contract (L5 → L6 → L7)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8026-955c-c6c859ad29ad" class="">Governs how executed actions translate into economic value and measurement.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8063-a6cf-dcd828ebbe51" class="">Ensures that only completed, authorized, 
-and auditable actions may:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8007-ace2-f2043c22d7dc" class="bulleted-list"><li style="list-style-type:circle">generate economic value or settlements (L6),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8000-82f8-d7158c0b28f3" class="bulleted-list"><li style="list-style-type:circle">contribute to scores or indices (L7).<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8095-b20b-cb2494a1a969" class="">Prevents speculative or unverified value creation.</p></div></li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807a-a50e-f4b78890a2bf" class="bulleted-list"><li style="list-style-type:disc"><strong>Rule Contract (L8 → All Layers)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8017-860f-d3649c807b74" class="">Governs policy applicability across the ecosystem.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-801b-8a8e-ecbef123b514" class="">Requires that all layers:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e4-9159-c41082641323" class="bulleted-list"><li style="list-style-type:circle">interpret and enforce policies as defined by L8,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f2-9ceb-f300751346d4" class="bulleted-list"><li style="list-style-type:circle">respect policy versioning and scope,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808e-9e84-ca3373dd9fbe" class="bulleted-list"><li style="list-style-type:circle">reject operations that violate active rules.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809c-9c9d-d18f4483739f" class="bulleted-list"><li style="list-style-type:disc"><strong>Law Contract (L9 → All Layers)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ce-81fb-cbac0d7afd45" class="">Governs l
-egal and jurisdictional applicability.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b5-8b37-f76de80c1e1b" class="">Requires that all layers:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8095-b79d-d0ecacff05f0" class="bulleted-list"><li style="list-style-type:circle">operate only within applicable legal regimes,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804b-afee-ef23fa1416b3" class="bulleted-list"><li style="list-style-type:circle">enforce opt-in/opt-out and exclusion rules,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ea-acb7-d8dc99855522" class="bulleted-list"><li style="list-style-type:circle">respect jurisdictional precedence and cross-border constraints.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80c1-a7f4-fc91df752957" class=""><strong>Contract Properties (Applies to All)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808d-a8db-e0bf9836410e" class="">All system contracts are:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809c-8745-d855df47ab08" class="bulleted-list"><li style="list-style-type:disc"><strong>Explicit</strong>: no implicit authority or side channels,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8078-a22b-f7d329b487d4" class="bulleted-list"><li style="list-style-type:disc"><strong>Machine-readable</strong>: enforceable by automated systems,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e6-a018-fbce074e2c71" class="bulleted-list"><li style="list-style-type:disc"><strong>Auditable</strong>: full traceability of contract compliance,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8059-b028-ff9c5424cecd" class="bulleted-list"><li style="list-style-type:disc"><strong>Non-bypassable</strong>: violations halt or degrade e
-xecution safely.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80e1-935b-edb0e178555c"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8032-8088-e4751f0ad2d0" class="">If you want, next I can:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802c-a9c5-c689c0a2a4a8" class="bulleted-list"><li style="list-style-type:disc">formalize these contracts as <strong>interface schemas</strong> (inputs, outputs, invariants),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808a-b204-e1a75f2e8705" class="bulleted-list"><li style="list-style-type:disc">define <strong>contract violation handling</strong> (reject, degrade, escalate), 
-or</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ad-984b-da132db5fdf4" class="bulleted-list"><li style="list-style-type:disc">compress the entire ecosystem into a <strong>single canonical specification</strong> suitable for publication or submission.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8070-916f-f5914a06a3ba"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80d5-85d8-ff1738bc7bb4" class=""><strong>1) Signal Contract (L1 → L2 → L3)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-805a-91c9-d18a7606b9f7" class=""><strong>Inputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80af-9262-f6da87dee4fd" class="numbered-list" start="1"><li>RawSignalPacket (from L1)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807a-a4b7-ce095cbfbc2d" class="bulleted-list"><li style="list-style-type:disc">signal_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802d-a2ea-e12733e41549" class="bulleted-list"><li style="list-style-type:disc">signal_type (environmental | biological | system)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80aa-9d35-c207d70fee36" class="bulleted-list"><li style="list-style-type:disc">payload (typed)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801a-a3ea-de9a3c1f15db" class="bulleted-list"><li style="list-style-type:disc">source_provenance (device/system, calibration, location, operator/system)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ee-b137-e68f2822333b" class="bulleted-list"><li style="list-style-type:disc">integrity_proof (hash, signature, 
-custody chain)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800d-a50f-fb241f597fc0" class="bulleted-list"><li style="list-style-type:disc">timestamp_capture (source time + receive time)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8095-b924-fdec5faa6749" class="numbered-list" start="2"><li>IdentityAssertion (from L2)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801b-a91c-cfd05dcb1c1a" class="bulleted-list"><li style="list-style-type:disc">subject_id (person/org/device)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e3-b3ea-cf8f33854a24" class="bulleted-list"><li style="list-style-type:disc">identity_method (bio-root/device-root/etc.)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80da-8ad6-f2f90662940f" class="bulleted-list"><li style="list-style-type:disc">liveness_proof</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8075-8dd6-e0cbdf8bedcb" class="bulleted-list"><li style="list-style-type:disc">anti_spoof_evidence</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ba-a6dd-e6edbbfe2e50" class="numbered-list" start="3"><li>ConsentGrant (from L2)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809f-a36b-c0f5bd12940f" class="bulleted-list"><li style="list-style-type:disc">consent_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8088-b618-e4c72dfe9140" class="bulleted-list"><li style="list-style-type:disc">scope (signal types, fields, resolution, 
-retention)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802f-b114-e856b5ff970d" class="bulleted-list"><li style="list-style-type:disc">purposes (allowed use-cases)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8008-80c3-cb406004e316" class="bulleted-list"><li style="list-style-type:disc">principals (who can access)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8012-9324-cec78dcc3392" class="bulleted-list"><li style="list-style-type:disc">revocability + revocation_endpoint</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8060-9d4f-d6d55eecee50" class="bulleted-list"><li style="list-style-type:disc">valid_from, 
-valid_to</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801d-8d6f-c171608431b2" class="bulleted-list"><li style="list-style-type:disc">jurisdiction_tags</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ce-8296-eefc847790a8" class="bulleted-list"><li style="list-style-type:disc">audit_requirements</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80f5-8a81-c3d5cd11e9a8" class="numbered-list" start="4"><li>TemporalPolicy (from L3)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8096-ac51-cb34d4427ab5" class="bulleted-list"><li style="list-style-type:disc">freshness_rules</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e3-9c7d-faf668d72309" class="bulleted-list"><li style="list-style-type:disc">aging/decay rules</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8020-8628-d9036d714d3d" class="bulleted-list"><li style="list-style-type:disc">versioning rules</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80c9-b8d5-e56a8f897cd8" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80f4-9f64-dd73cfe6bc47" class="numbered-list" start="1"><li>AuthorizedSignalRecord (admissible downstream)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808f-a47a-e8a52ce09fd6" class="bulleted-list"><li style="list-style-type:disc">signal_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8070-b739-e9e4a20eb75c" class="bulleted-list"><li style="list-style-type:disc">normalized_event_schema (typed)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8055-8462-c57a443d15a4" class="bulleted-list"><li style="list-style-type:disc">consent_binding (consent_id + scope snapshot)</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2eac5e6f-95bd-80d8-a3d7-d775afb9a475" class="bulleted-list"><li style="list-style-type:disc">identity_binding (subject_id + method snapshot)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8055-8f14-d885637b1653" class="bulleted-list"><li style="list-style-type:disc">provenance_binding (hashes, signatures, custody)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808d-ab80-e3246c33c0d4" class="bulleted-list"><li style="list-style-type:disc">temporal_metadata (validity window, freshness score, decay params)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8094-ada4-de7d8553933e" class="bulleted-list"><li style="list-style-type:disc">jurisdiction_binding</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d5-ba9e-cb442c592056" class="bulleted-list"><li style="list-style-type:disc">admissibility_status (ADMIT | REJECT | QUARANTINE)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ca-afe0-c2225804e170" class="numbered-list" start="2"><li>AuditTrailEntry<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e2-8e1c-faeb3285c64d" class="bulleted-list"><li style="list-style-type:disc">contract_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809b-b09b-d05d171a3f19" class="bulleted-list"><li style="list-style-type:disc">decision (admit/reject/quarantine + reason codes)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8062-b440-ec60bbeb4939" class="bulleted-list"><li style="list-style-type:disc">evidence_refs (hashes, logs, 
-signatures)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8069-8e50-da4d9b3bfcb5" class=""><strong>Invariants (must always hold)</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80c7-824d-c0819b11f33f" class="numbered-list" start="1"><li><strong>No consent, no admissibility</strong>: if ConsentGrant missing/invalid → REJECT.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ad-9f64-c2cbcfc33640" class="numbered-list" start="2"><li><strong>No provenance, 
-no trust</strong>: missing integrity_proof or broken chain → QUARANTINE/REJECT.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-806b-998d-e67b7e97ba19" class="numbered-list" start="3"><li><strong>Time-bounded validity</strong>: signal must carry valid_from/to and freshness computation.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80c1-bad6-f1e0fb1a4b5e" class="numbered-list" start="4"><li><strong>Non-bypassable binding</strong>: identity + consent + provenance must be cryptographically bound to output record.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80e9-9fb8-f6f5b0ea5fae" class="numbered-list" start="5"><li><strong>Revocation effective</strong>: revoked consent must stop future access and trigger downstream re-evaluation rules.</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-804b-a573-d54eaf1b3202"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-807a-94bc-f0b72613dacd" class=""><strong>2) Decision Contract (L3 → L4)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8022-ae6a-f07c51d4786d" class=""><strong>Inputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80b7-8b4b-e19af5223005" class="numbered-list" start="1"><li>TimeQualifiedState<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ec-91e9-e69cb020ae17" class="bulleted-list"><li style="list-style-type:disc">set of AuthorizedSignalRecord with admissibility_status=ADMIT</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b6-bf83-e6e9ae3434a4" class="bulleted-list"><li style="list-style-type:disc">state_timestamp (decision time)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8073-bcec-db3ec053a826" class="bulleted-list"><li style="list-style-type:disc">freshness_scores</li></ul></div><div s
-tyle="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8013-b006-d754d4f44066" class="bulleted-list"><li style="list-style-type:disc">uncertainty/quality metrics</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ca-a70d-d313d8c2d829" class="numbered-list" start="2"><li>DecisionPolicySet (from L8 + L9)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805b-8b20-c183c6093fad" class="bulleted-list"><li style="list-style-type:disc">allowed objectives, 
-prohibited inferences</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8047-a5d4-dad747158cca" class="bulleted-list"><li style="list-style-type:disc">minimum evidence requirements</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8075-a125-dbdaddede979" class="bulleted-list"><li style="list-style-type:disc">jurisdictional constraints</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-806b-8b17-c8ededcc1784" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-807e-937e-fce9b4568091" class="numbered-list" start="1"><li>DecisionArtifact<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8087-907f-f79f85ff0c13" class="bulleted-list"><li style="list-style-type:disc">decision_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801f-9439-d037ccd02b4b" class="bulleted-list"><li style="list-style-type:disc">objective</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8059-a02a-cdd69a222f6f" class="bulleted-list"><li style="list-style-type:disc">recommended_actions (structured intents)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809e-b73c-cfcd8563444a" class="bulleted-list"><li style="list-style-type:disc">confidence + evidence_summary</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805e-b2dc-db8187746b13" class="bulleted-list"><li style="list-style-type:disc">constraints_applied (policy refs)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cc-ab41-f4cc1fd0b05f" class="bulleted-list"><li style="list-style-type:disc">expiry (decision validity window)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80dd-8045-c20ea50508f0" class="numbered-list" start="2"><li>DecisionTrace<div style="display:contents" d
-ir="auto"><ul id="2eac5e6f-95bd-80c3-bf3a-df19e1be2aac" class="bulleted-list"><li style="list-style-type:disc">input_signal_refs (hash refs)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-994c-cbcac76d4d0a" class="bulleted-list"><li style="list-style-type:disc">model/agent identifiers (if applicable)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8092-9c0e-d919fb2953d0" class="bulleted-list"><li style="list-style-type:disc">explanations (machine-auditable rationale)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8095-9222-d845f627262e" class="bulleted-list"><li style="list-style-type:disc">risk_flags</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ab-877b-f6ae8b2e1534" class=""><strong>Invariants</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8020-b343-fad8515fd716" class="numbered-list" start="1"><li><strong>Only time-valid signals</strong>: inputs must be valid at state_timestamp.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-803b-8125-e37b401586a9" class="numbered-list" start="2"><li><strong>Policy completeness</strong>: every decision must cite the policy set applied.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80cf-824e-c2b3313d7b22" class="numbered-list" start="3"><li><strong>Evidence traceability</strong>: every decision must link to admissible signal hashes.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ea-9158-f082c80a8cfa" class="numbered-list" start="4"><li><strong>No forbidden inference</strong>: prohibited transformations must be blocked at contract boundary.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80c7-90e9-ef45f87fc9d7" class="numbered-list" start="5"><li><strong>Decision expiry</strong>: d
-ecisions must carry expiration when based on aging signals.</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8011-84f1-ec8bfccfdb89"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-809f-ab9d-ccd9d8b1d907" class=""><strong>3) Action Contract (L4 → L5)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8075-85a9-fe00f0a5b752" class=""><strong>Inputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8081-aa4c-d9159610ad64" class="numbered-list" start="1"><li>DecisionArtifact</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8061-a0fc-f2eb403c7613" class="numbered-list" start="2"><li>ExecutionContext<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8088-ba8d-cd8063cfd520" class="bulleted-list"><li style="list-style-type:disc">actor/agent identity</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8047-9467-d789ffff0a76" class="bulleted-list"><li style="list-style-type:disc">environment constraints</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806a-bb4e-c0790c647a51" class="bulleted-list"><li style="list-style-type:disc">device/machine capabilities</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8011-9adc-c0b1ad51fdb9" class="numbered-list" start="3"><li>SafetyEnvelope<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80da-9a1e-fce4e5064a69" class="bulleted-list"><li style="list-style-type:disc">rate limits</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808a-bcf6-d8c8c97cb3b6" class="bulleted-list"><li style="list-style-type:disc">invariants (do-not-violate constraints)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8085-a215-ffc93be88560" class="bulleted-list"><li style="list-style-type:disc">kill-switch c
-onditions</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8023-8c97-fc15d24f9bbd" class="bulleted-list"><li style="list-style-type:disc">rollback conditions</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ce-a13e-c169b20c65bb" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8000-8918-c25ebf2347bb" class="numbered-list" start="1"><li>ActionPlan<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b9-b359-f0641f47cf23" class="bulleted-list"><li style="list-style-type:disc">plan_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ee-92cd-ee949a293ce1" class="bulleted-list"><li style="list-style-type:disc">ordered ActionIntents</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80da-853e-e5e2fe57bea6" class="bulleted-list"><li style="list-style-type:disc">authorized_actuators</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803e-ae44-faee300c8548" class="bulleted-list"><li style="list-style-type:disc">safety_guards_attached</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-809d-a0ef-c96faeb66ccf" class="numbered-list" start="2"><li>ExecutionReceipt<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8021-ba62-fa7b65ac9af4" class="bulleted-list"><li style="list-style-type:disc">action_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ef-a318-f46b757fd701" class="bulleted-list"><li style="list-style-type:disc">status (EXECUTED | PARTIAL | ABORTED)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e8-b935-fa91e98bcb5d" class="bulleted-list"><li style="list-style-type:disc">telemetry summary</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806b-8a55-e37ea7bd2fda" c
-lass="bulleted-list"><li style="list-style-type:disc">safety events (if any)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-804b-88d3-d52a59130dd8" class=""><strong>Invariants</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-808d-90e1-ff542bab12b2" class="numbered-list" start="1"><li><strong>Bounded autonomy</strong>: every action must have explicit scope + limits.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80d3-bced-d61da4ea7417" class="numbered-list" start="2"><li><strong>Safety first</strong>: if any guard violated → ABORT or DEGRADE, 
-never “force execute”.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80fb-a86f-e47a517bc868" class="numbered-list" start="3"><li><strong>Non-repudiation</strong>: action must be attributable to a decision_id + actor identity.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-800a-8466-db4eaff94722" class="numbered-list" start="4"><li><strong>Rollback defined</strong>: actions without rollback/containment policy → REJECT unless explicitly exempted.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8082-b1ce-d1ff9442e831" class="numbered-list" start="5"><li><strong>Telemetry mandatory</strong>: execution must produce machine-auditable receipts.</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8007-863a-f58a546a4ecb"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-807a-a714-ef919560ce98" class=""><strong>4) Value Contract (L5 → L6 → L7)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-800b-9f11-da470924e3f9" class=""><strong>Inputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80b1-817b-d902fb011997" class="numbered-list" start="1"><li>ExecutionReceipt (only EXECUTED/PARTIAL with valid telemetry)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-803e-b675-ed17a08d9f79" class="numbered-list" start="2"><li>ValuationRules (from L6)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d1-b844-ef042115ce8e" class="bulleted-list"><li style="list-style-type:disc">pricing model</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808e-ba30-d4f20bb4c5ca" class="bulleted-list"><li style="list-style-type:disc">market rules</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d1-94c9-ee74ddec7f19" class="bulleted-list"><li s
-tyle="list-style-type:disc">settlement requirements</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8030-a3ce-e207933b1293" class="numbered-list" start="3"><li>ScoringRules (from L7)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b8-b865-e4c207d8dcf3" class="bulleted-list"><li style="list-style-type:disc">score update rules</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80df-bdf9-f990a9abe8bd" class="bulleted-list"><li style="list-style-type:disc">anti-gaming constraints</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80f1-8c79-fa706d9771ea" class="numbered-list" start="4"><li>Consent/UseScope (from L2)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dc-9086-e55360ad22cb" class="bulleted-list"><li style="list-style-type:disc">whether action outcomes may be monetized/scored</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e7-b063-c1008638c91a" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8038-a003-f21329effed4" class="numbered-list" start="1"><li>SettlementRecord (L6)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d8-8aeb-f926e2cb446f" class="bulleted-list"><li style="list-style-type:disc">settlement_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804d-909e-ccb22d82b701" class="bulleted-list"><li style="list-style-type:disc">priced_units</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b5-9552-e6d9dde3e31d" class="bulleted-list"><li style="list-style-type:disc">counterparties</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8044-9b9e-df92ad5ce3e0" class="bulleted-list"><li style="list-style-type:disc">clearing proof</li></ul></div></li></ol></div><div s
-tyle="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8083-ac90-c9f9c5c956b8" class="numbered-list" start="2"><li>ScoreUpdateRecord (L7)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8008-a30f-f7093de22784" class="bulleted-list"><li style="list-style-type:disc">entity_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e6-8e04-daad271b5da2" class="bulleted-list"><li style="list-style-type:disc">score_delta</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8076-aba8-d4f47be4be2c" class="bulleted-list"><li style="list-style-type:disc">rule_refs</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a0-8e27-cd7e23c96e8f" class="bulleted-list"><li style="list-style-type:disc">evidence_refs</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80a7-9f69-e1adfcfb168a" class=""><strong>Invariants</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8074-87fa-dd71afc468d5" class="numbered-list" start="1"><li><strong>No value without verified execution</strong>: if no valid receipt → NO settlement, 
-NO scoring.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8083-8204-e29f625cc951" class="numbered-list" start="2"><li><strong>Consent-bound monetization</strong>: outcomes cannot be priced/scored outside consent scope.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80cd-a8ac-fb49d2940f66" class="numbered-list" start="3"><li><strong>Anti-double-counting</strong>: same execution cannot be settled/scored twice.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8045-b425-cf82eed17def" class="numbered-list" start="4"><li><strong>Rule version pinning</strong>: all valuations and scores must record rule versions used.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80a9-877b-e3192a4d102d" class="numbered-list" start="5"><li><strong>Contestability</strong>: every settlement/score update must be disputable via defined process.</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-801a-89eb-fe3eae1c198b"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8019-8c87-fcf4030d7eae" class=""><strong>5) Rule Contract (L8 → All)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-806a-b70f-eb33507aa734" class=""><strong>Inputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80a5-8a08-da81f8be09d7" class="numbered-list" start="1"><li>MachineReadablePolicy<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800e-af15-e5272e785551" class="bulleted-list"><li style="list-style-type:disc">policy_id, version</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a7-a93a-fefa26ae0553" class="bulleted-list"><li style="list-style-type:disc">scope (layers, actors, 
-signal types)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ab-8e91-c78f3980cb71" class="bulleted-list"><li style="list-style-type:disc">thresholds, constraints, 
-required controls</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-801a-a6f2-f6de92b3d842" class="numbered-list" start="2"><li>EnforcementContext<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8022-86f0-c4b863a92e74" class="bulleted-list"><li style="list-style-type:disc">runtime environment</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8001-9698-fc87ba976f5b" class="bulleted-list"><li style="list-style-type:disc">actor role</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804b-aade-f903e67261c9" class="bulleted-list"><li style="list-style-type:disc">current jurisdiction tags (from L9)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8097-96d8-d4116ed16822" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-800f-a7a2-d2d032147ff4" class="numbered-list" start="1"><li>PolicyDecision<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800e-90aa-e8f2d75708a0" class="bulleted-list"><li style="list-style-type:disc">ALLOW | DENY | REQUIRE_MITIGATION</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a2-8633-c163f3ac5090" class="bulleted-list"><li style="list-style-type:disc">required controls / mitigations</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b5-9111-dfe0235fe4f1" class="bulleted-list"><li style="list-style-type:disc">audit reason codes</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8008-b09c-c087563061fe" class="numbered-list" start="2"><li>PolicyEvidence<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8038-aa4a-dfcda048327f" class="bulleted-list"><li style="list-style-type:disc">compliance checks performed</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2eac5e6f-95bd-80f9-aa20-cdd8c9f35f81" class="bulleted-list"><li style="list-style-type:disc">logs and attestations</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8009-9829-e487c25df09d" class=""><strong>Invariants</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-802d-9af5-e014a33920c0" class="numbered-list" start="1"><li><strong>Default deny on ambiguity</strong>: if policy applicability unclear → REQUIRE_MITIGATION or DENY.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-805a-af71-eefccb5367ab" class="numbered-list" start="2"><li><strong>Versioned enforcement</strong>: every enforcement must cite policy version.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80e0-8ae8-dd210c9fe815" class="numbered-list" start="3"><li><strong>Uniform semantics</strong>: policies must be interpreted consistently across layers.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-805c-b7d7-fd326128e174" class="numbered-list" start="4"><li><strong>Non-bypassable</strong>: operations cannot execute without policy decision.</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-803f-be38-d5735c614d2a"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8099-a02c-ed4e1f4edc7c" class=""><strong>6) Law Contract (L9 → All)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-807c-b22b-cab5a8c37e2e" class=""><strong>Inputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8021-b2be-c114ff8b5c64" class="numbered-list" start="1"><li>JurisdictionMap<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805e-ae29-f2e2ba1ad670" class="bulleted-list"><li style="list-style-type:disc">applicable jurisdictions</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2eac5e6f-95bd-805e-a029-d3ccc408f708" class="bulleted-list"><li style="list-style-type:disc">precedence order</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b2-925d-c09f4f51a1cc" class="bulleted-list"><li style="list-style-type:disc">mandatory constraints (data residency, consent form, 
-retention)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8001-9da6-ec7db431835a" class="numbered-list" start="2"><li>ParticipationMode<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ea-b8c3-cd339929539e" class="bulleted-list"><li style="list-style-type:disc">opt-in/opt-out status</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f6-b444-c51abb81bc5d" class="bulleted-list"><li style="list-style-type:disc">lawful exclusions</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8059-b22a-c88a60c52fe2" class="numbered-list" start="3"><li>CrossBorderRequest (if any)<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807d-89ca-d817d3927d85" class="bulleted-list"><li style="list-style-type:disc">data flow details</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801e-a7fc-e26b74980614" class="bulleted-list"><li style="list-style-type:disc">legal basis references</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ad-9cbf-cd12138bf82c" class=""><strong>Outputs</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8021-a596-d11d70505751" class="numbered-list" start="1"><li>LegalApplicabilityDecision<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8031-a3a8-e61f8df7260d" class="bulleted-list"><li style="list-style-type:disc">ALLOW | DENY | LOCALIZE | REDACT | REQUIRE_CONSENT_UPGRADE</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80c1-893c-e83d0f8df656" class="numbered-list" start="2"><li>ComplianceBinding<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8004-be3a-cab516d31058" class="bulleted-list"><li style="list-style-type:disc">retention rules</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2eac5e6f-95bd-8012-a951-ff3d9ed50cb1" class="bulleted-list"><li style="list-style-type:disc">residency rules</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b8-964b-c8260b7f50c0" class="bulleted-list"><li style="list-style-type:disc">disclosure constraints</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d1-ab88-ff203d3151f8" class=""><strong>Invariants</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8096-9309-d7bb04142c01" class="numbered-list" start="1"><li><strong>Sovereignty first</strong>: if conflict, apply precedence; 
-if unresolved → LOCALIZE or DENY.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80e3-a715-df0b6c6e65c4" class="numbered-list" start="2"><li><strong>Right to exit honored</strong> where required: opt-out must be implementable and auditable.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8098-9d85-c7322e49528e" class="numbered-list" start="3"><li><strong>Data minimization</strong>: only legally necessary fields may cross boundaries.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80f5-905b-e6e8eef3bee6" class="numbered-list" start="4"><li><strong>Legal basis recorded</strong>: every cross-border action must log legal basis and policy mapping.</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8000-be1d-c97ccc2cad43"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-805a-ad38-e1e23f343ae7" class=""><strong>Optional add-on (recommended): Common Contract Header (applies to all)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803b-9edb-dc586c5d74b9" class="">Every contract message should include:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b8-af7f-e5575c2db923" class="bulleted-list"><li style="list-style-type:disc">contract_id, version</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8087-8905-c09a0e4fc10b" class="bulleted-list"><li style="list-style-type:disc">request_id, correlation_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8079-a30d-deb742dad54d" class="bulleted-list"><li style="list-style-type:disc">caller_layer, 
-callee_layer</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8069-8c81-ee7c6ce5a5be" class="bulleted-list"><li style="list-style-type:disc">timestamp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8013-9009-e5015e125ec4" class="bulleted-list"><li style="list-style-type:disc">jurisdiction_tags</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8060-acda-e2f9a7f76540" class="bulleted-list"><li style="list-style-type:disc">audit_level (standard | strict | regulated)</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b3-8635-e4556a0a1501"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808e-8fb3-e419cc35575e" class="">If you want the next step, I can convert this into:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-808a-901b-ef4c8d87a155" class="numbered-list" start="1"><li>a <strong>single unified schema</strong> (common types reused across contracts), and/or</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8010-b0b2-fb15cebd9e51" class="numbered-list" start="2"><li>a <strong>contract violation matrix</strong> (violation → response: reject/degrade/quarantine/escalate).</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ba-a441-c642428e5210" class="">
-</p></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80e4-ba92-e94fe938e288" class=""><strong>The Scoring Layer (Trust Indices Layer)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b7-a5c0-d48feca45b88" class=""><strong>Purpose:</strong> Convert verified, consented, time-qualified signals into <strong>standardized indices</strong> that are comparable, auditable, contestable, and usable for pricing, policy, and decisions.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8085-83c5-e6a13860c25e"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80aa-af4e-d019d6eb78aa" class=""><strong>1) Position in the stack</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8072-92df-e724dd5acb3f" class=""><strong>Inputs (must be true before scoring):</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8023-9f54-c76a12c39e8e" class="numbered-list" start="1"><li><strong>Verified signals</strong> (L1) with provenance + integrity</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-800e-b2ff-cc6e66b0cf77" class="numbered-list" start="2"><li><strong>Authorized access</strong> (L2) via consent scope + identity binding</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-808e-9b27-f198c1adeaaa" class="numbered-list" start="3"><li><strong>Time-qualified validity</strong> (L3): freshness/aging/version windows</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8085-a976-f89dd409605d" class="numbered-list" start="4"><li><strong>Policy + law constraints</strong> (L8/L9): what can be computed, stored, 
-displayed</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a0-95f1-f37059ee66f5" class=""><strong>Outputs (what scoring produces):</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e9-b3e5-c776af263659" class="bulleted-list"><li style="list-style-type:disc">ScoreVector (one or more indices)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8077-a7cb-c934b4163665" class="bulleted-list"><li style="list-style-type:disc">ScoreEvidencePack (audit trail + hash-linked evidence)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8064-941f-ee6ef5641e72" class="bulleted-list"><li style="list-style-type:disc">ScoreGovernanceState (versioning, dispute hooks, decay rules)</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8081-aac6-fe55fb941fab"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80d4-b4ad-eec1ecc8bdca" class=""><strong>2) Core objects (schemas)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8040-9b37-c253aa5adb90" class=""><strong>2.1</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8051-8118-fea72cef0e68" class=""><strong>ScoreDefinition</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8056-bf42-f8dadc77fc34" class="">Defines one score (PTI, CII, OTI, PTX, ETS, CIS, 
-Energy Indices).</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8085-ad8a-dc231f1b5b1a" class="bulleted-list"><li style="list-style-type:disc">score_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8063-950f-f90c5eb4d260" class="bulleted-list"><li style="list-style-type:disc">name</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808a-828b-eded5051fc48" class="bulleted-list"><li style="list-style-type:disc">entity_type (person | org | service | nation | asset | creator)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804a-aa51-dc6a37e48c24" class="bulleted-list"><li style="list-style-type:disc">scale (0–100, 0–10, letter bands, etc.)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8052-a82f-f9ea6cb154ff" class="bulleted-list"><li style="list-style-type:disc">update_frequency (real-time | hourly | daily | event-driven)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8081-b6ab-ff1846c3fc9e" class="bulleted-list"><li style="list-style-type:disc">inputs_allowed (signal types + fields)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8094-a407-dd2ccfb1c430" class="bulleted-list"><li style="list-style-type:disc">feature_rules (how signals become features)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d3-b569-e64950fb31b8" class="bulleted-list"><li style="list-style-type:disc">aggregation_rules (how features become score)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8072-a997-e05ce90dd001" class="bulleted-list"><li style="list-style-type:disc">decay_rules (aging, half-life, 
-recency weighting)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ce-ac36-e545a3ddc43b" class="bulleted-list"><li style="list-style-type:disc">risk_flags (what triggers warnings)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8087-af5c-da9405d25667" class="bulleted-list"><li style="list-style-type:disc">policy_refs + law_refs</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8060-887a-d9115a2cea65" class=""><strong>2.2</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80dd-9716-e9e6cce22560" class=""><strong>ScoreComputationRequest</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806e-8b94-fe5950ccb314" class="bulleted-list"><li style="list-style-type:disc">request_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-996f-e185c8d61f65" class="bulleted-list"><li style="list-style-type:disc">entity_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c7-9012-e4504b882bd9" class="bulleted-list"><li style="list-style-type:disc">score_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800a-9686-c538c1cda4ee" class="bulleted-list"><li style="list-style-type:disc">time_window</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ad-b915-f85bfc5e0938" class="bulleted-list"><li style="list-style-type:disc">context (jurisdiction_tags, purpose, 
-audience)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8021-9baa-e877c0274a27" class="bulleted-list"><li style="list-style-type:disc">consent_snapshot_ref</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c8-a577-f9d5f3c8c42e" class="bulleted-list"><li style="list-style-type:disc">policy_snapshot_ref</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80de-bfe7-f053fd730cce" class=""><strong>2.3</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8095-b343-fbb541dfc736" class=""><strong>ScoreVector</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-805d-963b-ccf41762fbe2" class=""><strong>(output)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804c-bdb5-fa085a5f16df" class="bulleted-list"><li style="list-style-type:disc">entity_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8000-95cb-f50002a886b4" class="bulleted-list"><li style="list-style-type:disc">as_of_time</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804a-8377-e2ef901385ba" class="bulleted-list"><li style="list-style-type:disc">scores[]:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807c-be53-c00fc93e9ddf" class="bulleted-list"><li style="list-style-type:circle">score_id</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808d-8bce-ced5c08b9e5f" class="bulleted-list"><li style="list-style-type:circle">value</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b7-b6ec-e0143bfbdd01" class="bulleted-list"><li style="list-style-type:circle">band (optional)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8010-bcc6-fdb17316cb5f" class="bulleted-list"><li style="list-style-type:circle">confidence</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2eac5e6f-95bd-8067-9aec-dee3f33c4805" class="bulleted-list"><li style="list-style-type:circle">valid_from, valid_to</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f5-a1c5-e884dd39403f" class="bulleted-list"><li style="list-style-type:circle">next_refresh_time</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8030-80ba-c517a95c2f43" class=""><strong>2.4</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-809e-aeae-c0ed09d68c18" class=""><strong>ScoreEvidencePack</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8063-a489-f9d9b67097b1" class=""><strong>(audit output)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802a-ba72-e5474d1a0334" class="bulleted-list"><li style="list-style-type:disc">score_id, entity_id, 
-as_of_time</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f1-a3b8-c3f840be3d42" class="bulleted-list"><li style="list-style-type:disc">input_signal_refs[] (hash refs)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803a-8b44-de4d14686fbc" class="bulleted-list"><li style="list-style-type:disc">transform_refs[] (feature extraction + aggregation versions)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807f-9a20-eaf00f465894" class="bulleted-list"><li style="list-style-type:disc">rule_version_refs[] (policy/law/scoring rule versions)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8097-9501-fc9a63cb9bf7" class="bulleted-list"><li style="list-style-type:disc">consent_binding_ref</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b0-a18e-fd9ba9bdd4aa" class="bulleted-list"><li style="list-style-type:disc">explainability_summary (machine-readable)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8068-be98-ce29cacf1c07" class="bulleted-list"><li style="list-style-type:disc">dispute_endpoint + challenge_window</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8094-817d-ec0ac0bd07ae"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80db-9c91-dd42cf719c07" class=""><strong>3) Score update pipeline (deterministic)</strong></h2></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-808d-813d-de1ec8926ad5" class="numbered-list" start="1"><li><strong>Eligibility gate</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8042-b3f9-c42f8f068253" class="bulleted-list"><li style="list-style-type:disc">Check consent scope, purpose, jurisdiction, 
-data minimization</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80bb-8d05-d403e2487540" class="numbered-list" start="2"><li><strong>Signal → Feature</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802e-9708-fe7b61aaad65" class="bulleted-list"><li style="list-style-type:disc">Normalize → clean → derive features (bounded transformations)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ae-a7fb-fb700a2b1900" class="numbered-list" start="3"><li><strong>Feature → Score</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8037-9cd9-e938594eee74" class="bulleted-list"><li style="list-style-type:disc">Apply aggregation rules + weights + caps</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-807e-aae3-cd08bcd55362" class="numbered-list" start="4"><li><strong>Temporal adjustment</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c3-8858-c622bd240221" class="bulleted-list"><li style="list-style-type:disc">Freshness weighting + decay + renewal windows</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-807a-9d1c-f6db5c1491de" class="numbered-list" start="5"><li><strong>Anti-gaming / integrity checks</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b9-8705-e9aef221b157" class="bulleted-list"><li style="list-style-type:disc">anomaly checks, collusion signals, 
-outlier handling</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8065-9d29-cb654a3622a8" class="numbered-list" start="6"><li><strong>Publish + audit</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a4-8d7e-f9d1b5eb33a8" class="bulleted-list"><li style="list-style-type:disc">produce ScoreVector + EvidencePack + update logs</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8009-8d85-e92058ba0b38"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-802f-9feb-f6b0bcdc119c" class=""><strong>4) Scoring invariants (non-negotiable)</strong></h2></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80e1-9413-f8378fb812bc" class="numbered-list" start="1"><li><strong>No consent → no score</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80f5-9bb0-c27445923f67" class="numbered-list" start="2"><li><strong>No provenance → score cannot upgrade (must quarantine or downgrade confidence)</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-802c-8574-ee1d7e6445fe" class="numbered-list" start="3"><li><strong>Rule version pinning</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8091-ab25-e38a1d54c7f3" class="bulleted-list"><li style="list-style-type:disc">every score must record exact rule versions used</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8084-a729-f4eaa8678e0d" class="numbered-list" start="4"><li><strong>Contestable by design</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8054-8cd4-f28a8fd29f8e" class="bulleted-list"><li style="list-style-type:disc">every score must have dispute mechanism + evidence pack</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" i
-d="2eac5e6f-95bd-8086-9945-f02ad6c1c498" class="numbered-list" start="5"><li><strong>Non-manipulability baseline</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8074-ab84-e0dbba539c9e" class="bulleted-list"><li style="list-style-type:disc">detect gaming; cap influence of single source; require multi-source corroboration</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8099-aa83-e2d53d91a3be" class="numbered-list" start="6"><li><strong>Time-aware truth</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b0-abb5-fa4ba9caa372" class="bulleted-list"><li style="list-style-type:disc">scores must decay; old signals cannot dominate current ratings</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-801e-b76f-e974d0b23b8a"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8096-9ec1-cec0b1eeb3d6" class=""><strong>5) Index families (formal definitions)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e2-9cf1-ff47a855c87d" class=""><strong>5.1 PTI — Personal Trust Index</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8001-84b0-f73c07039d8f" class=""><strong>Entity:</strong> Individual</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8030-bdb0-c4656813271e" class=""><strong>Measures:</strong> stability, integrity, verified behavior consistency (within allowed scope)</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-801e-85ca-d1f37e42e27a" class=""><strong>Key rule:</strong> cannot infer sensitive traits beyond policy; 
-must remain purpose-bound.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8029-8490-da9f2651607c" class=""><strong>5.2 CII — Consent Integrity Index</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806f-85ae-f68f799a2f5f" class=""><strong>Entity:</strong> Service/platform/app</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b6-a2ff-e100921b038d" class=""><strong>Measures:</strong> consent clarity, revocability, enforcement, audit readiness, breach handling</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8062-a8b6-e31f271ef5fc" class=""><strong>5.3 OTI — Organizational Trust Index</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cb-90b3-f75f594ed4d7" class=""><strong>Entity:</strong> Organization</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8035-8f28-e1c347b67e3b" class=""><strong>Measures:</strong> compliance behavior, aggregate outcomes, incident rates, settlement integrity</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e2-9567-f2bc17b26fe2" class=""><strong>5.4 PTX — Planetary Trust Index</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8081-bedf-e2e0f23c0d67" class=""><strong>Entity:</strong> Nation/industry/system</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8011-b2d8-d913870bffaa" class=""><strong>Measures:</strong> ecological thresholds compliance, transparency, 
-systemic resilience indicators</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8039-94b8-e323e10be75a" class=""><strong>5.5 ETS — Engagement Trust Score</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e0-bd66-f03b179ec8d9" class=""><strong>Entity:</strong> Creator/media entity</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d2-9613-e9057f4baa14" class=""><strong>Measures:</strong> authentic engagement, fraud resistance, audience integrity signals</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-809c-9b4c-d97b702846c9" class=""><strong>5.6 CIS — Capability Intelligence Score</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8086-ba07-de38b4815d8e" class=""><strong>Entity:</strong> Talent/workforce role profile</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e7-afbe-df2d279759d0" class=""><strong>Measures:</strong> capability evidence, performance under constraints, reliability, learning velocity (bounded)</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80a2-bb80-c8020d7d00d5" class=""><strong>5.7 Energy Indices (EROI, Carbon Intensity, Nature Score)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b5-96ba-c9abd65be76a" class=""><strong>Entity:</strong> Asset/operator/portfolio</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8063-9044-e8b853d158e2" class=""><strong>Measures:</strong> verified energy flows, carbon intensity, 
-ecological impact scores</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-809d-b0e3-d23de5b0286a"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80d3-9518-d73bc3df67c7" class=""><strong>6) Public vs private scoring (two-channel model)</strong></h2></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-807b-ba9b-d60cd52ab26f" class="numbered-list" start="1"><li><strong>Public score channel</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8026-b757-c85bd6313a88" class="bulleted-list"><li style="list-style-type:disc">coarse bands, minimal leakage, policy-safe</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-806b-8f59-f2244a3e27d0" class="numbered-list" start="2"><li><strong>Private score channel</strong><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8081-9095-f5219a5097bb" class="bulleted-list"><li style="list-style-type:disc">detailed breakdown, 
-available only with strict consent + purpose + jurisdiction match</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-809f-89c8-d64180658658" class=""><strong>Invariant:</strong> public outputs must be derivable without exposing restricted features.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80e1-9a85-d7957dc441cc"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-800f-a77f-ed63f3dc7047" class=""><strong>7) Scoring layer interfaces (contracts)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8076-9da3-c5d00c6b3e5f" class=""><strong>7.1 Input interface (from L6 + upstream)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d9-aff3-c3ed5d427daa" class="bulleted-list"><li style="list-style-type:disc">VerifiedOutcomeReceipt (executed actions)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8089-896e-ffd5b86fc95a" class="bulleted-list"><li style="list-style-type:disc">AuthorizedSignalRecord (admitted)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801b-a235-d53397098628" class="bulleted-list"><li style="list-style-type:disc">RuleSnapshots (policy + law + scoring rules)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8071-b06f-ee805f7da99f" class=""><strong>7.2 Output interface (to L6/L8/L4)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807d-8176-cf97fa87c556" class="bulleted-list"><li style="list-style-type:disc">ScoreVector for pricing, underwriting, 
-access control</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8054-9ef5-dbdd4918d498" class="bulleted-list"><li style="list-style-type:disc">ScoreEvidencePack for audit/regulators</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d8-be02-cab1e6bc6c56" class="bulleted-list"><li style="list-style-type:disc">ScoreAlerts (risk flags, drift warnings)</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-800c-9589-cc1ec4ce5d04"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80aa-a0cd-fbdd525cd087" class=""><strong>8) Minimal MVP scoring set (practical)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8013-b3c8-d33f4d970efd" class="">If you want the <strong>smallest complete launch</strong>:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8040-b068-c94c8118472f" class="numbered-list" start="1"><li><strong>CII</strong> (platform consent compliance)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8063-9632-ebbf3c0c5c70" class="numbered-list" start="2"><li><strong>Energy Indices</strong> (energy integrity baseline)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8022-b9b0-f93b62be6af2" class="numbered-list" start="3"><li><strong>OTI</strong> (org-level trust composite)</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e4-9bd0-fff10ea0876e" class="">Then extend to <strong>PTI/CIS/ETS</strong> only after dispute + anti-gaming are mature.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8014-ba2e-c8ec745b77a6"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f9-85e5-c024e7fe9be7" class="">If you want, 
-I can formalize one index end-to-end (pick one: <strong>PTI / CII / OTI / PTX / ETS / CIS / Energy</strong>) with:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b0-b3dd-f3531d0352f4" class="bulleted-list"><li style="list-style-type:disc">full ScoreDefinition</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a5-8f8e-eb3cda2fcae6" class="bulleted-list"><li style="list-style-type:disc">feature list</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8005-9b6d-f67864638b70" class="bulleted-list"><li style="list-style-type:disc">weighting + caps</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802c-a7b6-d8bf5fefdfc9" class="bulleted-list"><li style="list-style-type:disc">decay rules</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808c-b031-f6167c8e8cc9" class="bulleted-list"><li style="list-style-type:disc">anti-gaming checks</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c9-a39f-dff5207894a4" class="bulleted-list"><li style="list-style-type:disc">dispute workflow and evidence pack fields</li></ul></div><div style="display:contents" dir="auto"><h1 id="2eac5e6f-95bd-8041-b1ef-f90bb09ed7fc" class=""><strong>AMOS Core Flywheel (System Backbone)</strong></h1></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806c-a5b2-da13d4a6c5ac" class=""><strong>Definition</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-809a-8cd5-c55a88f62a1f" class="">AMOS operates as a closed-loop control and value system.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805a-b07e-f0818a66cf82" class="">Its primary function is to <strong>convert real-world signals into enforceable decisions, measurable trust, and stable long-term value</strong>, while preventing drift, abuse, 
-and premature degradation.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-801d-9188-d0be0ef10ff8" class="">This flywheel is <strong>the operational backbone of AMOS</strong>, not an application layer.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80a4-abb8-fac4d69f61d7"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8046-aba8-c4eefc73c00b" class=""><strong>1. 
-Signal Ingestion (Reality Interface)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d0-b579-eabd1be1e4db" class=""><strong>Role in AMOS:</strong> Establish ground truth for control.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805c-a140-d0dc198fd326" class="">AMOS ingests signals from physical, human, and system domains, including:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8004-8243-dea60928403e" class="bulleted-list"><li style="list-style-type:disc">biological and human-state signals (where applicable),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b5-adc0-fba4cf2a3e0d" class="bulleted-list"><li style="list-style-type:disc">machine and actuator telemetry,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b9-a33c-cc20d98f0f36" class="bulleted-list"><li style="list-style-type:disc">energy, thermal, and environmental signals,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ba-81ff-d44660403c9a" class="bulleted-list"><li style="list-style-type:disc">consent, command, 
-and operational events.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ee-a6f0-dc88eac5ef79" class=""><strong>Hard constraints:</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806d-8821-d4d45e5879fc" class="bulleted-list"><li style="list-style-type:disc">Every signal must be source-identified.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804a-b614-f2d6fc4f54f5" class="bulleted-list"><li style="list-style-type:disc">Every signal must be time-bound.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8075-b7a4-e51a7cde0857" class="bulleted-list"><li style="list-style-type:disc">Every signal must pass integrity and plausibility checks.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8013-95ed-c1005fc89550" class="bulleted-list"><li style="list-style-type:disc">No inferred or synthetic signal is allowed to drive control directly.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8024-be3a-df1a6447b71c" class=""><strong>Output:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8031-b933-df3e6e2169b5" class="">Canonical, validated system signals.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8099-a8ff-c4dee180b6b1"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-807a-9f08-e1bcede2ebb1" class=""><strong>2. 
-Normalisation &amp; Scoring (State Compression)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8090-930b-d634b7b14e49" class=""><strong>Role in AMOS:</strong> Reduce complexity into control-relevant metrics.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805b-82e6-d31a3f42c770" class="">Raw signals are converted into <strong>bounded indices and state variables</strong>, such as:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8038-a9c8-c16d741fed04" class="bulleted-list"><li style="list-style-type:disc">stability indices,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a4-9112-cb77f67f844d" class="bulleted-list"><li style="list-style-type:disc">degradation proxies,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e4-81cf-cafcaeec84bb" class="bulleted-list"><li style="list-style-type:disc">consent integrity states,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8033-9a48-cee849fa0cd8" class="bulleted-list"><li style="list-style-type:disc">trust and reliability scores,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ef-b453-ee96b7800151" class="bulleted-list"><li style="list-style-type:disc">energy and efficiency indices.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e6-b403-ec3f95434568" class=""><strong>Key principle:</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8008-bc01-d2c8f00db593" class="">AMOS never reasons on raw noise. 
-It reasons on <strong>compressed, auditable state representations</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8065-8f1b-f28571588d50" class=""><strong>Output:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-80b7-a517-f4463ec682d2" class="">Comparable, bounded system-state scores.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b2-925e-f5e04605901c"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-804b-9ee5-da3be7313935" class=""><strong>3. 
-Trust &amp; 
-State Formation (System Self-Awareness)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d9-a3b1-cf5225656cf2" class=""><strong>Role in AMOS:</strong> Know when the system is safe to act.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80df-858f-cf68f85bd6df" class="">From scores, AMOS establishes:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8039-be1b-c712a32f00f4" class="bulleted-list"><li style="list-style-type:disc">whether inputs are trustworthy,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809e-ab9c-c41c716918bb" class="bulleted-list"><li style="list-style-type:disc">whether components are healthy or degrading,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f9-b880-c25cd19948bf" class="bulleted-list"><li style="list-style-type:disc">whether actions are allowed or must be refused,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ca-a9c8-cb118703c454" class="bulleted-list"><li style="list-style-type:disc">whether the system is inside or outside its safe operating envelope.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802f-9c21-cbbd828b5b9f" class=""><strong>Important distinction:</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c0-ac92-c81c71138874" class="">Trust here is <strong>operational trust</strong>, not social reputation.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808c-9281-d8f929701861" class=""><strong>Output:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8000-a575-d970f263ca02" class="">A live, self-consistent system state.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80fb-a28b-e7de0bf0d182"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80da-bbf9-ec36bc7d6396" class=""><strong>4. 
-Decision &amp; 
-Permissioning (Control Logic)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8058-a213-c23791f7c2e5" class=""><strong>Role in AMOS:</strong> Decide <em>what may happen next</em>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8002-a276-ee58ac8cee80" class="">AMOS evaluates proposed actions (human or automated) against:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f0-864c-c3ca1e421069" class="bulleted-list"><li style="list-style-type:disc">current system state,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a2-a2e5-d812c79690f9" class="bulleted-list"><li style="list-style-type:disc">degradation budgets,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8019-b82a-ebb4829f731a" class="bulleted-list"><li style="list-style-type:disc">thermal / electrical / safety envelopes,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8025-9a9a-e530c976a51c" class="bulleted-list"><li style="list-style-type:disc">consent and authority constraints.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8076-8501-e6093de1c9d1" class="">If an action increases short-term output but raises long-term failure probability, it is <strong>refused</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805e-b841-d0996f33815c" class=""><strong>Design rule:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-80a3-aa94-d4320eaa6422" class="">AMOS prefers early refusal and controlled derating over late shutdown.</blockquote></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8023-8fab-e2bb88536a64" class=""><strong>Output:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-804b-9860-ef6c52712948" class="">Approved actions, denied actions, 
-or constrained alternatives.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8019-a74b-ff5df946ddfc"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80b2-be13-f4dd450e6dca" class=""><strong>5. 
-Execution &amp; Enforcement (Actuation)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-809a-97ee-fbc8b63e4a77" class=""><strong>Role in AMOS:</strong> Act, but only within bounds.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fe-a02d-f55c6290a077" class="">Approved actions are executed through:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f9-aa66-dca2b30718ae" class="bulleted-list"><li style="list-style-type:disc">bounded autonomy,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a8-8a90-fa71b5386fef" class="bulleted-list"><li style="list-style-type:disc">rate-limited actuation,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8070-877e-f720ec1a9235" class="bulleted-list"><li style="list-style-type:disc">invariant enforcement (dI/dt, dT/dt, pressure, stress),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808f-89d0-f3e10ae81271" class="bulleted-list"><li style="list-style-type:disc">immediate rollback or degradation if limits are crossed.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ee-bea9-d71bb013acf4" class="">AMOS never “hopes” an action is safe — it <strong>enforces safety continuously during execution</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d1-a04a-d00c380e6182" class=""><strong>Output:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8018-83df-c53707825368" class="">Safe, traceable physical or system actions.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80a7-b6f2-f585dffb4fe9"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8079-bdd8-c86c600ebb84" class=""><strong>6. 
-Outcome Accounting (Learning Without Drift)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800e-8f18-de9e4805fa43" class=""><strong>Role in AMOS:</strong> Close the loop without self-deception.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8049-97f1-c1995ebb959d" class="">After execution, 
-AMOS measures:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8092-bc13-d2072789486d" class="bulleted-list"><li style="list-style-type:disc">actual outcomes vs expected,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c1-b03d-f6961a804e13" class="bulleted-list"><li style="list-style-type:disc">stress accumulation,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8021-97b5-e8b8c050e0b8" class="bulleted-list"><li style="list-style-type:disc">efficiency and loss,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806a-8f02-e66d41d97c5e" class="bulleted-list"><li style="list-style-type:disc">early indicators of degradation.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d3-b7dc-f6e0e9e36300" class="">These outcomes update:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c5-b2b0-da7fe3580b8e" class="bulleted-list"><li style="list-style-type:disc">future permissions,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8060-87ec-c88d9bd5979d" class="bulleted-list"><li style="list-style-type:disc">degradation budgets,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8052-a8f3-edd780a2a2d1" class="bulleted-list"><li style="list-style-type:disc">trust scores,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a7-859b-e5f3865eaa82" class="bulleted-list"><li style="list-style-type:disc">maintenance and intervention timing.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8059-bb2e-c77763d9236e" class=""><strong>Critical rule:</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8055-b1df-c9000e504b03" class="">AMOS learns <strong>from physics and outcomes</strong>, 
-not from goals or intentions.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802d-944e-df2c4122ae55" class=""><strong>Output:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8018-aeee-d20486a56469" class="">Updated system baselines and budgets.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80bd-bda1-fe87f2ff769f"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-805c-a30a-f3429b6ef2d8" class=""><strong>7. 
-Reinforcement Loop (Stability Over Time)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bc-a637-d3fd799a5f98" class=""><strong>Role in AMOS:</strong> Improve longevity, not peak output.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80dd-87b9-eff2e7c238d4" class="">Over time, 
-the flywheel results in:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8005-8026-d210b69ba5ce" class="bulleted-list"><li style="list-style-type:disc">higher uptime,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803d-874e-dfa2f7a3da41" class="bulleted-list"><li style="list-style-type:disc">fewer emergency stops,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8010-95ed-d74edae8d284" class="bulleted-list"><li style="list-style-type:disc">lower intervention rates,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d2-8360-c6ab2868a310" class="bulleted-list"><li style="list-style-type:disc">longer component life,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ea-a2fc-d12345bb913a" class="bulleted-list"><li style="list-style-type:disc">lower lifecycle cost.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803b-ae42-d3ccbeb2af41" class="">The system becomes <strong>more conservative where needed and more permissive where proven safe</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b6-8fc0-cccba3344096" class=""><strong>Output:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8083-bfd3-ee38fa6f7d20" class="">Compounding reliability and economic efficiency.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80f6-a506-d7bb93ae1ec9"/></div><div style="display:contents" dir="auto"><h1 id="2eac5e6f-95bd-80a6-9cad-f59f39f687bb" class=""><strong>Why This Flywheel Is the AMOS Backbone</strong></h1></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c6-9da4-eee0c80318d0" class="bulleted-list"><li style="list-style-type:disc">It is <strong>MECE</strong>: every function appears exactly once.</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2eac5e6f-95bd-8053-98d6-d9e51f831d6c" class="bulleted-list"><li style="list-style-type:disc">It is <strong>physics-first</strong>, not policy-first.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8084-aa35-fc66b1d0960d" class="bulleted-list"><li style="list-style-type:disc">It prevents human override from destroying long-term value.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f3-a7c8-c7d00172dd4f" class="bulleted-list"><li style="list-style-type:disc">It scales from:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8004-870a-cc7615b167ba" class="bulleted-list"><li style="list-style-type:circle">a single power module,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-a5bf-c1ceba417dd4" class="bulleted-list"><li style="list-style-type:circle">to a fleet,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8041-be0a-f564a8de9193" class="bulleted-list"><li style="list-style-type:circle">to multi-sector deployments.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80e2-aa9a-eb9cbc759df1"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80bf-93f2-df05bc7f32a7" class=""><strong>One-Sentence Definition (for your docs)</strong></h2></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8017-bb56-f5ef0340dd4c" class="">AMOS is a closed-loop system that transforms verified signals into bounded decisions, enforces actions within physical limits, and compounds trust and value over time by refusing unsafe optimisation.</blockquote></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8058-923e-d795c878da29" class="">If you want next, 
-I can:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a1-b333-f2e9a953da66" class="bulleted-list"><li style="list-style-type:disc">map this flywheel <strong>directly onto your L1–L12 layers</strong>, or</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8047-b239-c9daed4880dc" class="bulleted-list"><li style="list-style-type:disc"></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a5-9dee-f94aed5d02cc" class="bulleted-list"><li style="list-style-type:disc">rewrite it in <strong>purely mathematical / control-theory language</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a2-bf9c-dc1ab61bb569" class="">Just tell me which direction.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805f-b0e6-ca8bf1f21b30" class="">
-</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cc-bf78-c1833af97723" class="">Below is the <strong>direct, explicit mapping</strong> of the <strong>AMOS Core Flywheel</strong> onto your <strong>L1–L12 architecture</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d2-b42a-f069dffc7349" class="">This is written as a <strong>systems traceability map</strong> (what layer participates in which flywheel phase, and why).</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8058-b855-f13f73fa1f8d" class="">No marketing language. This is <strong>design- and audit-grade</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80e5-9834-cfd686323f1d"/></div><div style="display:contents" dir="auto"><h1 id="2eac5e6f-95bd-80bd-8b91-e2c811553a2e" class=""><strong>AMOS Core Flywheel → L1–L12 Layer Mapping</strong></h1></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80db-9ef1-c8d7858dc41d" class=""><strong>Flywheel Phase 1 — Signal Ingestion (Reality Interface)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d7-965f-c975a0d5c15c" class=""><strong>Primary Layers</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fd-bea4-f9a8a1bd10f2" class="bulleted-list"><li style="list-style-type:disc"><strong>L1. Planetary Sensing &amp; Integrity</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a1-bcdf-d79da9ad9417" class="bulleted-list"><li style="list-style-type:disc"><strong>L2. Identity &amp; Consent</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fd-bc7f-fc39de3cfb02" class="bulleted-list"><li style="list-style-type:disc"><strong>L3. 
-Temporal Integrity</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b9-99b9-ebbbc9fe89ca" class=""><strong>Role by layer</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803d-9734-daa811897865" class="bulleted-list"><li style="list-style-type:disc"><strong>L1</strong> captures raw physical, biological, machine, and environmental signals with provenance.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e7-a19a-fab901ba54f8" class="bulleted-list"><li style="list-style-type:disc"><strong>L2</strong> authorises which signals are lawful to ingest (identity, consent, access rights).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801e-a0a8-cab7147e491a" class="bulleted-list"><li style="list-style-type:disc"><strong>L3</strong> timestamps, versions, and bounds signals in time.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805b-a574-d50ee9a051a6" class=""><strong>Why this mapping is strict</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8066-a697-f7183ebe6827" class="bulleted-list"><li style="list-style-type:disc">No signal may bypass L2 or L3.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8033-9841-db530c846972" class="bulleted-list"><li style="list-style-type:disc">Signals without provenance (L1) or lawful permission (L2) are discarded before control logic.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8077-9d29-e366995fea3e" class=""><strong>Flywheel output</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8002-a908-f165cadcac0f" class="">Canonical, lawful, 
-time-valid system signals.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8036-b970-cf73e6566c84"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8062-97b3-ce4d1f288e69" class=""><strong>Flywheel Phase 2 — Normalisation &amp; Scoring (State Compression)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8058-a4fa-cc02ba9d462e" class=""><strong>Primary Layers</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a9-91af-cb401b797e15" class="bulleted-list"><li style="list-style-type:disc"><strong>L4. Intelligence &amp; Agency</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bf-96ae-cb4b6d2dc094" class="bulleted-list"><li style="list-style-type:disc"><strong>L7. 
-Scoring &amp; Trust Indices</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8089-9d3a-fd76976e2db2" class=""><strong>Role by layer</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d0-b2c1-c5506dd47855" class="bulleted-list"><li style="list-style-type:disc"><strong>L4</strong> structures signals into events, features, and interpretable state variables.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e5-a006-ebb927e04355" class="bulleted-list"><li style="list-style-type:disc"><strong>L7</strong> compresses those states into bounded indices (trust, stability, degradation, energy).</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808a-b725-cff065392dd0" class=""><strong>Key invariant</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8094-bcb2-e704b983ab7d" class="bulleted-list"><li style="list-style-type:disc">AMOS never reasons directly on raw L1 signals.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8059-bfd3-c1c106f9de4f" class="bulleted-list"><li style="list-style-type:disc">All downstream logic operates on L7-normalised state.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804d-80de-f7373515e03e" class=""><strong>Flywheel output</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8015-ae5b-fa6f061138d2" class="">Comparable, bounded system-state representations.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8018-bc91-fac5fb4becd0"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8052-90bb-dbd3da3d6749" class=""><strong>Flywheel Phase 3 — Trust &amp; 
-State Formation (System Self-Awareness)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807e-8c3e-de78e86c6b05" class=""><strong>Primary Layers</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cc-9042-d9f87ea9a0ab" class="bulleted-list"><li style="list-style-type:disc"><strong>L7. Scoring &amp; Trust Indices</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801d-8b17-f5e7c7a1e24e" class="bulleted-list"><li style="list-style-type:disc"><strong>L3. Temporal Integrity</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8066-9126-cdcc9ebe4b6b" class=""><strong>Supporting Layers</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807b-895f-da16a8ea090a" class="bulleted-list"><li style="list-style-type:disc"><strong>L10. 
-Adversarial &amp; 
-Failure Management</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8086-91ee-f91372394a8e" class=""><strong>Role by layer</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bd-be5f-fa27e093333f" class="bulleted-list"><li style="list-style-type:disc"><strong>L7</strong> determines whether entities, components, and inputs are trustworthy <em>now</em>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8008-a0a6-f64e0af4a849" class="bulleted-list"><li style="list-style-type:disc"><strong>L3</strong> ensures trust decays, expires, or is revoked over time.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801e-868a-e576ade370d7" class="bulleted-list"><li style="list-style-type:disc"><strong>L10</strong> detects manipulation, drift, or gaming of scores.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808a-854e-d284b962aff2" class=""><strong>Clarification</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805b-9736-cda52447fdbc" class="bulleted-list"><li style="list-style-type:disc">This is <strong>operational trust</strong>, not reputation.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8088-ad01-d1e276a6a0e4" class="bulleted-list"><li style="list-style-type:disc">Trust here answers: <em>“Is it safe to act?”</em></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804e-9920-f810b8379744" class=""><strong>Flywheel output</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8002-a61e-d8252ba89013" class="">Live, 
-internally consistent system state with trust bounds.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8026-a9ae-d7b02996b04b"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8034-97a0-db7289577630" class=""><strong>Flywheel Phase 4 — Decision &amp; Permissioning (Control Logic)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fb-82e6-ee5fab81d015" class=""><strong>Primary Layers</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806e-9b0e-f50f93e1c935" class="bulleted-list"><li style="list-style-type:disc"><strong>L4. Intelligence &amp; Agency</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8081-bc6c-cf1435a10625" class="bulleted-list"><li style="list-style-type:disc"><strong>L8. Governance &amp; Policy</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8000-a3b0-ed63b1fca4dd" class="bulleted-list"><li style="list-style-type:disc"><strong>L9. 
-Jurisdiction &amp; Legal Boundaries</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800b-813d-c674f814a871" class=""><strong>Role by layer</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8033-a112-f113eed16a57" class="bulleted-list"><li style="list-style-type:disc"><strong>L4</strong> proposes decisions, actions, or task plans.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8099-b68c-d3a5d30ca155" class="bulleted-list"><li style="list-style-type:disc"><strong>L8</strong> enforces global rules, thresholds, and invariants.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8007-b16d-fd782bc523a3" class="bulleted-list"><li style="list-style-type:disc"><strong>L9</strong> constrains decisions to lawful jurisdictional scope.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808c-a3f1-dd6e8a6b75f9" class=""><strong>Hard rule</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bc-9893-c82dbf6f43f9" class="bulleted-list"><li style="list-style-type:disc">If L8 or L9 rejects an action, L4 cannot override it.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8066-88c8-df84a11ce88b" class="bulleted-list"><li style="list-style-type:disc">Human intent does not bypass policy or law.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8028-a479-ce33568949f8" class=""><strong>Flywheel output</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-80f3-b843-c58231b33d4a" class="">Explicitly approved, constrained, or refused actions.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8003-b8f3-feb3a124dc56"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80f0-9e4e-ec7cd5dc06de" class=""><strong>Flywheel Phase 5 — Execution &amp; 
-Enforcement (Actuation)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803f-8183-cd2f2413cba8" class=""><strong>Primary Layers</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8028-8db3-f118a5a09e6b" class="bulleted-list"><li style="list-style-type:disc"><strong>L5. Execution &amp; Interfaces</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b9-ba63-d84720281a78" class="bulleted-list"><li style="list-style-type:disc"><strong>L10. 
-Adversarial &amp; 
-Failure Management</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c0-b83f-f9f3c2c6cc44" class=""><strong>Role by layer</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803d-8588-c82834831a96" class="bulleted-list"><li style="list-style-type:disc"><strong>L5</strong> executes approved actions with bounded autonomy and safety guards.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b9-9f2b-fd9bb0a81b06" class="bulleted-list"><li style="list-style-type:disc"><strong>L10</strong> monitors execution for anomalies, attacks, or unsafe excursions.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fe-9720-eb0d1446e768" class=""><strong>Invariant</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8065-bcf3-fb9ee39ce3f9" class="bulleted-list"><li style="list-style-type:disc">Execution is continuously supervised.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b2-8c02-e2c662cff721" class="bulleted-list"><li style="list-style-type:disc">Any invariant breach triggers derate, rollback, or halt — not post-mortem logging.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ae-aed3-fba76841cf36" class=""><strong>Flywheel output</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-804c-af28-d7b72b3df64e" class="">Safe, 
-traceable real-world actions.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80bf-b2ae-ce1f586fc7d4"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80cb-a15a-f54d5cf44806" class=""><strong>Flywheel Phase 6 — Outcome Accounting (Learning Without Drift)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cf-8d8f-eb02e119ba3c" class=""><strong>Primary Layers</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8085-93d7-c7679951b4b5" class="bulleted-list"><li style="list-style-type:disc"><strong>L6. Economy &amp; Value</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80de-a317-e1c5f5e00d49" class="bulleted-list"><li style="list-style-type:disc"><strong>L7. Scoring &amp; Trust Indices</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8044-860a-d238b9362ea7" class="bulleted-list"><li style="list-style-type:disc"><strong>L3. 
-Temporal Integrity</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8004-8b63-c12f1fa447f9" class=""><strong>Role by layer</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a2-836f-d3542c605595" class="bulleted-list"><li style="list-style-type:disc"><strong>L6</strong> measures value, cost, efficiency, and economic impact.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80de-bf50-d4eb26596756" class="bulleted-list"><li style="list-style-type:disc"><strong>L7</strong> updates trust, degradation, and reliability scores.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801f-98b7-cf60644d172b" class="bulleted-list"><li style="list-style-type:disc"><strong>L3</strong> records when outcomes occurred and how long they remain valid.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a3-89b4-eaffd0c37a75" class=""><strong>Critical constraint</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f8-93b5-d0eb94188362" class="bulleted-list"><li style="list-style-type:disc">Learning is outcome-based, not goal-based.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8068-a217-ef24fdbab987" class="bulleted-list"><li style="list-style-type:disc">AMOS updates future permissions, not its physical laws.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8031-ba6e-f179255ba614" class=""><strong>Flywheel output</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-808c-8711-ec6cfe68582e" class="">Updated baselines, budgets, and score trajectories.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80d3-81fb-f69711dd3bb4"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8016-821d-ea049dc4dc80" class=""><strong>Flywheel Phase 7 — Reinforcement &amp; 
-Stability (Compounding Value)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8072-bf39-d4c2cfa92272" class=""><strong>Primary Layers</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8074-afcf-d0dfc1146503" class="bulleted-list"><li style="list-style-type:disc"><strong>L11. Incentives, Capital &amp; Exit</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805d-b61b-eb656f269462" class="bulleted-list"><li style="list-style-type:disc"><strong>L6. 
-Economy &amp; 
-Value</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802c-b86a-f2d6584a263a" class=""><strong>Role by layer</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8070-834c-d1365823f51e" class="bulleted-list"><li style="list-style-type:disc"><strong>L11</strong> prevents capture, enforces portability, 
-and aligns incentives long-term.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8098-b2b1-ece4dd69503d" class="bulleted-list"><li style="list-style-type:disc"><strong>L6</strong> translates reliability and trust into sustained economic advantage.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8067-b470-d964a88a6f0b" class=""><strong>Result</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e1-a5ed-e27cba81e8bd" class="bulleted-list"><li style="list-style-type:disc">Higher uptime</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8092-afeb-fe47ab3bc233" class="bulleted-list"><li style="list-style-type:disc">Lower intervention</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8085-9f00-fcce95a4af89" class="bulleted-list"><li style="list-style-type:disc">Longer asset life</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8061-ba99-c15c87ae07a9" class="bulleted-list"><li style="list-style-type:disc">Reduced lifecycle cost</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807b-9dd7-d53eb2829275" class=""><strong>Flywheel output</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-807f-a05e-f7a77c73fd13" class="">Compounding system stability and economic efficiency.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8093-b8aa-ff28255b8545"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-808a-be1a-c8ee3fa8e875" class=""><strong>L12 — Sector Deployments (Instantiation, 
-Not Control)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8086-8bf3-e5b33252139f" class=""><strong>Role relative to the flywheel</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8051-98c2-d00973ec00c6" class="bulleted-list"><li style="list-style-type:disc"><strong>L12 does not add a new flywheel phase.</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a7-b051-eb912c9a8cf3" class="bulleted-list"><li style="list-style-type:disc">It instantiates <strong>the same flywheel</strong> under sector-specific constraints.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8047-be75-f1e9bb604d9b" class="">Each sector:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808e-8752-cc7bd12b52da" class="bulleted-list"><li style="list-style-type:disc">selects valid signal types (L1),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805c-a42e-c09ffa80aad4" class="bulleted-list"><li style="list-style-type:disc">applies sector law (L9),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f7-9940-ed8b81b688e6" class="bulleted-list"><li style="list-style-type:disc">tunes thresholds (L8),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8004-a3a3-d31c98cc601d" class="bulleted-list"><li style="list-style-type:disc">but <strong>cannot modify the flywheel logic itself</strong>.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-807a-8d75-faf3ef1cf99b"/></div><div style="display:contents" dir="auto"><h1 id="2eac5e6f-95bd-80d0-b740-fd2ccf212a25" class=""><strong>One-Line Architecture Truth (for auditors)</strong></h1></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-804d-bbff-cc25b986d1f1" class="">The AMOS flywheel is implemented across L1–L11 as a closed-loop control system; 
-L12 only configures domain-specific parameters and never alters core decision, safety, or trust logic.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8022-a9fe-f7b2d3402d8e"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806a-a31f-cd263b98d382" class="">If you want next, I can:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cd-b718-d1d81b95a670" class="bulleted-list"><li style="list-style-type:disc">convert this into a <strong>traceability matrix (Flywheel × Layer × Invariant)</strong>, or</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808a-bbf4-c2cd64966bd2" class="bulleted-list"><li style="list-style-type:disc">express it as a <strong>formal state machine with entry/exit conditions</strong>, or</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8098-b908-f3cd403b54ed" class="bulleted-list"><li style="list-style-type:disc">define <strong>interface schemas</strong> between layers aligned to each flywheel phase.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b1-b5a3-ce2ce7bef3ec" class="">Just say which one.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806c-b224-e44e235f9ea4" class="">
-</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-809c-b8fd-c755919218b9" class="">
-</p></div><div style="display:contents" dir="auto"><h1 id="2eac5e6f-95bd-80f7-91cb-c72ad3ff8bfd" class=""><strong>📊 Ecosystem + Scoring Layer Map</strong></h1></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2eac5e6f-95bd-8065-b4cd-fdd3104be7c1" class="code code-wrap"><code class="language-mermaid" style="white-space:pre-wrap;word-break:break-all">flowchart TB
-    subgraph L1[&quot;Layer 1 — Capture&quot;]
-      UBI[UBI / Biological Identity]:::box
-      MNS[MyNeuralSignal / Neural Data]:::box
-      EN[Energy Capture / Devices]:::box
-    end
-
-    subgraph L2[&quot;Layer 2 — Consent&quot;]
-      PCI[Planetary Consent Infrastructure]:::core
-      CEX[Consentex / Permissions]:::box
-      CAGE[FAR CAGE / Security]:::box
-    end
-
-    subgraph L3[&quot;Layer 3 — Intelligence&quot;]
-      NSA[NeuroSyncAI / Signals → Cognition]:::core
-      NAN[Neural A Need / Goals → Roles]:::box
-      HORG[HoloOrg / Agent Enterprise]:::box
-    end
-
-    subgraph L4[&quot;Layer 4 — Economy&quot;]
-      SE[Signal Economy / Ledger]:::core
-      TL[Talent Ledger / MIS]:::core
-      ENW[Energy Network / EROI, Carbon]:::core
-    end
-
-    subgraph L5[&quot;Layer 5 — Scoring Layer / Trust Stack&quot;]
-      PTI[Personal Trust Index PTI]:::score
-      CII[Consent Integrity Index CII]:::score
-      OTI[Organisational Trust Index OTI]:::score
-      PCIS[Planetary Consent Index PCI Score]:::score
-      ETS[Engagement Trust Score ETS]:::score
-      MIS[Meta Intelligence Score MIS]:::score
-      EIDX[Energy Indices EROI, CI, NS]:::score
-    end
-
-    %% Flows
-    UBI --&gt; PCI
-    MNS --&gt; PCI
-    EN --&gt; PCI
-
-    PCI --&gt; NSA
-    NSA --&gt; SE
-    NSA --&gt; TL
-    NSA --&gt; ENW
-
-    SE --&gt; PTI
-    SE --&gt; CII
-    SE --&gt; OTI
-    SE --&gt; PCIS
-    SE --&gt; ETS
-    TL --&gt; MIS
-    ENW --&gt; EIDX
-
-    %% Styles
-    classDef core fill:#fff3d6,stroke:#b38300,stroke-width:1.2px,color:#111,font-weight:bold;
-    classDef box fill:#f5f7fb,stroke:#6b7a99,stroke-width:1px,color:#111;
-    classDef score fill:#eafaf1,stroke:#2b8a3e,stroke-width:1.2px,color:#0f5132,font-weight:bold;
-</code></pre></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8031-b881-ebb19e98535e"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80b7-b7ae-d55bdd7ce3fc" class=""><strong>Finance &amp; Insurance</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ed-b024-e9d23de341ae" class="">Risk is mispriced because data is noisy and unverifiable. With <strong>Organisational Trust Indices (OTI)</strong> and <strong>Personal Trust Indices (PTI)</strong>, financial institutions can set <strong>risk-adjusted premiums and lending terms</strong> with unprecedented accuracy. Companies with high OTI scores get cheaper capital; individuals with high PTI scores receive better insurance rates. This transforms trust into measurable value.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8096-b382-f41ffa489b2a" class=""><strong>Healthcare</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e3-aa8a-fefc9e16708a" class="">The system grounds care in biology through <strong>NeuroSignal™</strong>. Instead of relying solely on symptoms and reports, healthcare providers and insurers gain direct access to <strong>biologically anchored clarity</strong>: nervous system stability, stress resilience, recovery rates. This lowers misdiagnosis, reduces costs, and enables <strong>preventive care models</strong> that scale globally.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-807b-9d03-d4916d9eed7e" class=""><strong>Talent</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8068-82df-c8fdc6659738" class="">Hiring and workforce development move away from résumés and prestige signals to <strong>Meta Intelligence Scores (MIS)</strong>. Employers can instantly see resilience, adaptability, logic compression, and ethical alignment — leading to <strong>smarter hiring, reduced churn, and better cultural fit</strong>. 
-For workers, MIS becomes a <strong>portable career passport</strong> across industries and borders.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80b1-a34b-fe8a1701cc47" class=""><strong>Energy</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8041-aa72-f83cefd7162b" class="">Through <strong>Energy Indices</strong> (EROI, Carbon Intensity, Nature Score), energy markets gain a <strong>trusted baseline</strong>. Investors, regulators, and consumers can differentiate between lawful, regenerative energy and extractive, harmful practices. This unlocks <strong>green finance at scale</strong>, accelerating the shift toward sustainable energy systems.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-801b-9bf0-d2d35b09ba2a" class=""><strong>Media &amp; Engagement</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b1-a437-cfe3a7d56a7b" class="">Fake followers, inflated engagement, and manipulated influence dominate the media economy. The <strong>Engagement Trust Score (ETS)</strong> cleans this market by validating <strong>authentic engagement and audience trustworthiness</strong>. 
-Influencers earn credibility, brands pay for genuine impact, and misinformation is stripped of its economic value.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80bc-9f49-cfe52015e3c9"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8017-a4f9-ee08dd8e37c1" class=""><strong>Phased Market Entry</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803c-beee-d63321ca278c" class="">The adoption path is designed for speed and compounding value:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8082-bbe6-eda9794f50bc" class="numbered-list" start="1"><li><strong>MVP (Phase 1)</strong> → Begin with <strong>personal devices (Apple Watch, wearables)</strong> and <strong>AI agents</strong> that capture biological and behavioural signals, creating the first PTI and MIS baselines.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80f3-8ded-d43712b7ce96" class="numbered-list" start="2"><li><strong>Expansion (Phase 2)</strong> → Layer into <strong>insurance and healthcare</strong>, where trust-based clarity creates immediate pricing advantages.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-804a-a817-fb634571b218" class="numbered-list" start="3"><li><strong>Scaling (Phase 3)</strong> → Move into <strong>finance and energy</strong>, embedding indices into lending, compliance, and investment flows.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80b3-8428-c4c0996300ac" class="numbered-list" start="4"><li><strong>Policy Integration (Phase 4)</strong> → Governments and regulators adopt <strong>PCI Scores</strong> as sovereign benchmarks, making the indices planetary standards.</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ed-b699-ff01a0852c47" class=""><strong>In short:</strong> The Signal Economy converts clarity into money. 
-Every sector touched by noise — finance, health, talent, energy, media — becomes a profit centre once signals are <strong>consented, scored, and trusted</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8087-9dba-dd276fc75d21"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8024-ab6f-c695dc36d5ad" class=""><strong>Why It Wins</strong></h2></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806c-b1d1-f48e2535e43d" class="bulleted-list"><li style="list-style-type:disc"><strong>Unfakeable</strong> → Every signal is anchored in biology (via NeuroSignal™) and secured through consent (via PCI). Unlike résumés, marketing, or self-reporting, instability and dishonesty cannot be faked.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804c-8e5d-c6749c746213" class="bulleted-list"><li style="list-style-type:disc"><strong>Universal</strong> → The framework applies seamlessly across individuals, organisations, industries, and nations — creating a single language of trust for the entire economy.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8067-b5f0-ebaaa265c8a9" class="bulleted-list"><li style="list-style-type:disc"><strong>Self-Reinforcing</strong> → The flywheel ensures compounding growth: more signals generate more trust, more trust drives adoption, adoption fuels revenue, and revenue attracts more signals.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8089-a718-e5f2dde27690" class="bulleted-list"><li style="list-style-type:disc"><strong>Planetary-Aligned</strong> → Unlike extractive models, the Signal Economy is designed to be regenerative, lawful, and resilient. 
-It aligns economic growth with planetary survival.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ba-8dab-c149f0059d72" class="">In the 20th century, the base unit of trust was <strong>money</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8046-88a5-e42503f21487" class="">In the 21st century, the base unit of trust is <strong>signal</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80eb-84aa-e59e148886e0"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8061-aeb2-f5250f9e2f5a" class=""><strong>Practical Use Case Scenarios</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d7-96be-f44661fc01f7" class=""><strong>1. The Smart Home That Actually Listens</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805d-8db2-cbdf0b00337e" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem:</strong> Today, devices share household data without meaningful consent.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a2-a3a7-dd4d475be757" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution:</strong> Every signal (thermostat readings, camera feeds) is routed through PCI. Consent preferences are set once and applied automatically.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ab-9724-f3c4211f125b" class="bulleted-list"><li style="list-style-type:disc"><strong>Value:</strong> Families gain trust and control while utilities and insurers can access trusted, auditable signals to optimise energy use.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80c0-bc01-f71870175293"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80a9-bd8d-d2ecab1b79b0" class=""><strong>2. 
-The Coffee That Knows Its Story</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8020-a554-ef7e711da98d" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem:</strong> Even “fair trade” labels don’t guarantee ethical sourcing.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8080-a784-c7e4982f030c" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution:</strong> Every step of the coffee journey — farmer, transporter, roaster — logs signals into the Signal Economy ledger. PCI verifies consent at each step.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8075-a2ae-c54bc2f4413c" class="bulleted-list"><li style="list-style-type:disc"><strong>Value:</strong> Consumers know purchases align with their values. Brands differentiate on trust, not marketing spin.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-803e-8379-f2bbcfb36618"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80f2-b068-d3873e671444" class=""><strong>3. 
-The City That Asks Before It Decides</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d4-9f38-f527479c5394" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem:</strong> Cities deploy sensors without resident input, eroding trust.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8071-9ec6-f938421cb17a" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution:</strong> A consent signal goes out: “Are you okay with anonymous traffic data being used for congestion management?” Citizens respond once; their preferences govern all systems.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800d-9ba3-ed2a152fbfd5" class="bulleted-list"><li style="list-style-type:disc"><strong>Value:</strong> Citizens trust city tech, planners gain adoption legitimacy, and data is lawful by design.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80f8-81d2-f7b8337b2724"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ea-b353-d3cf2033e986" class=""><strong>4. The Forest That Has a Voice</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8076-900b-cc811758668d" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem:</strong> Logging or development often ignores ecological health.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80aa-8ff9-f08ec060a4c8" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution:</strong> Environmental sensors + community reps generate signals: soil health, biodiversity, community votes. PCI verifies whether harvesting respects agreed thresholds.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8005-86a4-c6394c4c72f6" class="bulleted-list"><li style="list-style-type:disc"><strong>Value:</strong> Ecosystems and communities both have representation. 
-Companies avoid reputational risk while maintaining lawful access.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8046-a589-e9a92e06b28d"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-801a-a13e-eb56268a93c4" class=""><strong>5. Healthcare That Reads the Nervous System</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dc-8863-e37b58509b95" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem:</strong> Healthcare relies on symptoms and self-reporting, creating misdiagnosis and inefficiency.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8093-a297-f9958f2f3fbb" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution:</strong> NeuroSignal™ integrates biometric data (stress resilience, recovery rates) into the Signal Economy, with patient consent anchored in PCI.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806f-80bb-cae47125ed44" class="bulleted-list"><li style="list-style-type:disc"><strong>Value:</strong> Preventive care, cheaper insurance premiums, and trusted patient profiles that reduce systemic waste.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80e5-a86c-dd359bacaee2"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80a4-9c53-c4eb2d5091f9" class=""><strong>6. 
-Hiring Without Noise</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8012-b399-dc60678b550d" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem:</strong> Résumés and interviews are biased and noisy.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804f-9b66-f0dfb4a4fae4" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution:</strong> Candidates use the <strong>Talent Ledger</strong> to build Meta Intelligence Scores (MIS), rooted in biology and performance signals.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8050-98aa-d4e662fc1cd2" class="bulleted-list"><li style="list-style-type:disc"><strong>Value:</strong> Employers hire based on unfakeable ability. Candidates carry a portable career passport across borders and industries.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-801a-8c5c-f83a6456160a"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80f4-bfe5-f57cd49863c7" class=""><strong>7. Energy That Proves Itself</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8003-a628-d1745329f8f4" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem:</strong> Carbon offsets and registries are inconsistent, slow, and manipulated.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c4-9164-e2092e62198d" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution:</strong> Every kilowatt is logged into the Signal Economy with Energy Indices (EROI, Carbon Intensity). 
-PCI ensures data is transparent and consent-based.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801c-b2be-ea3d28af3702" class="bulleted-list"><li style="list-style-type:disc"><strong>Value:</strong> Banks, insurers, and regulators finally have a lawful baseline for green finance and compliance.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b5-b8ec-fc5a48cc8014"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-809e-b6a4-c89461bfa595" class=""><strong>8. Media That Can’t Be Faked</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b3-9153-fec5177c93c7" class="bulleted-list"><li style="list-style-type:disc"><strong>Problem:</strong> Fake followers, inflated likes, and manipulated engagement dominate influencer markets.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8035-8449-eab24aaa2fa2" class="bulleted-list"><li style="list-style-type:disc"><strong>Solution:</strong> Engagement Trust Scores (ETS) validate signals of real human interaction. 
-PCI governs consent for audience data.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803b-8f01-ff222932bf9b" class="bulleted-list"><li style="list-style-type:disc"><strong>Value:</strong> Brands pay only for real impact, influencers gain lasting credibility, and misinformation loses economic power.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80a2-82f7-de9c93b93b26"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803c-b349-d2801e4f110a" class="">👉 Together, these use cases show how <strong>signal → consent → scoring → trust</strong> applies across <strong>homes, supply chains, cities, ecosystems, healthcare, talent, energy, and media</strong> — making the Signal Economy not a niche tool, but the <strong>next layer of civilisation’s infrastructure</strong> .</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-800a-bb65-e8e7003d3210"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-805d-8410-c79c2b02c934" class=""><strong>Adoption Pathways by Sector</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-805e-a6ab-ee80b7597c93" class=""><strong>1. 
-Finance &amp; Insurance</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800f-8fd0-d9c49ba3051e" class="bulleted-list"><li style="list-style-type:disc"><strong>Starting Point:</strong> Use <strong>Personal Trust Index (PTI)</strong> + <strong>Organisational Trust Index (OTI)</strong> for credit scoring and insurance underwriting.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bd-8a4d-f16e84c191a6" class="bulleted-list"><li style="list-style-type:disc"><strong>Use Case:</strong> An SME with a high OTI gets cheaper loans; an individual with strong PTI gets reduced premiums.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806e-b7e9-d34e80a7e34a" class="bulleted-list"><li style="list-style-type:disc"><strong>Scaling:</strong> Banks and insurers adopt PCI Scores and Trust Indices as <strong>global benchmarks</strong>, embedding them into compliance and risk pricing.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f3-b040-ca5107ca843c" class="bulleted-list"><li style="list-style-type:disc"><strong>Reinforcement:</strong> More signals from loans, claims, and contracts feed into the ledger, strengthening systemic trust.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8012-bb4e-d7b6ecc2d996"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80c5-835e-d2a213b17688" class=""><strong>2. 
-Healthcare</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8099-b083-efec7de8f104" class="bulleted-list"><li style="list-style-type:disc"><strong>Starting Point:</strong> Leverage <strong>NeuroSignal™</strong> from wearables (Apple Watch, Oura Ring, medical devices).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e1-8d95-ec3b1c6543b2" class="bulleted-list"><li style="list-style-type:disc"><strong>Use Case:</strong> Patients share stress-resilience data for preventive care; insurers reward resilience with lower premiums.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8080-a466-fa1f161510b6" class="bulleted-list"><li style="list-style-type:disc"><strong>Scaling:</strong> Hospitals, insurers, and public health agencies adopt PCI-verified biological signals as a baseline for diagnosis, coverage, and population health.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8080-8b56-f374ee127467" class="bulleted-list"><li style="list-style-type:disc"><strong>Reinforcement:</strong> Continuous streams of biological data expand the ledger, powering new health AI models and reducing systemic costs.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8007-8b73-c9d3e1300642"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80aa-a438-cd303fb74047" class=""><strong>3. 
-Talent &amp; Workforce</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8036-be75-fc172254a148" class="bulleted-list"><li style="list-style-type:disc"><strong>Starting Point:</strong> Deploy the <strong>Talent Ledger</strong> with <strong>Meta Intelligence Scores (MIS)</strong> for pre-screening and training.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f1-9b91-ff1ad1c0e661" class="bulleted-list"><li style="list-style-type:disc"><strong>Use Case:</strong> Candidates replace résumés with MIS profiles, showing resilience, logic compression, and ethical alignment.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e9-bdfb-cd64e1465df7" class="bulleted-list"><li style="list-style-type:disc"><strong>Scaling:</strong> Corporates adopt Talent Ledger internally to track and train employees; governments use MIS for workforce planning.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ee-80be-cc81543998db" class="bulleted-list"><li style="list-style-type:disc"><strong>Reinforcement:</strong> Millions of practice events (interviews, tasks, training) generate trusted signals, raising the global SNR of talent markets.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80e2-8d90-e789139a3740"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ee-b7bf-f8363c321ebc" class=""><strong>4. 
-Energy &amp; Climate</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800d-9d3c-f1141e58385f" class="bulleted-list"><li style="list-style-type:disc"><strong>Starting Point:</strong> Pilot with renewable energy assets, logging outputs into the <strong>Energy Indices</strong> (EROI, Carbon Intensity, Nature Score).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802b-abb9-c2aa8af1290c" class="bulleted-list"><li style="list-style-type:disc"><strong>Use Case:</strong> A solar farm proves its lawful energy output; banks finance it with confidence.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8007-8b66-df046d89d5e9" class="bulleted-list"><li style="list-style-type:disc"><strong>Scaling:</strong> Governments and multinationals embed Energy Indices into subsidies, compliance, and global carbon markets.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8019-aea0-d9a946192818" class="bulleted-list"><li style="list-style-type:disc"><strong>Reinforcement:</strong> Energy becomes a transparent, auditable ledger, replacing greenwashing with measurable regeneration.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8008-9a9e-dc6e25ab6bb5"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80c2-8a5f-c7ecd67dce8b" class=""><strong>5. 
-Media &amp; Engagement</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8017-a300-e51c82f96f53" class="bulleted-list"><li style="list-style-type:disc"><strong>Starting Point:</strong> Introduce the <strong>Engagement Trust Score (ETS)</strong> for influencers and digital platforms.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8006-ad41-dcd519d5f4ae" class="bulleted-list"><li style="list-style-type:disc"><strong>Use Case:</strong> Brands pay only for audiences with PCI-verified engagement; 
-influencers with fake followers lose credibility.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80eb-9ae1-dc6fe6a6c224" class="bulleted-list"><li style="list-style-type:disc"><strong>Scaling:</strong> Platforms adopt ETS as a standard, forcing creators and advertisers into a <strong>trusted engagement economy</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8014-864a-f784c51718a3" class="bulleted-list"><li style="list-style-type:disc"><strong>Reinforcement:</strong> Billions of digital signals flow into the ledger, cleaning up misinformation and restoring trust in communication.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8047-aa18-ca308c099bf1"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8031-9ccf-c41cc2ec8a20" class=""><strong>The Flywheel in Motion</strong></h2></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8013-b0bf-eeb19da672c8" class="bulleted-list"><li style="list-style-type:disc"><strong>Finance and insurance</strong> adopt first (capital hungry sectors).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c8-9181-d764b74ad6e1" class="bulleted-list"><li style="list-style-type:disc"><strong>Healthcare and talent</strong> follow, leveraging wearables and AI agents.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a2-93ad-c559dba4c616" class="bulleted-list"><li style="list-style-type:disc"><strong>Energy</strong> integrates as the lawful backbone of climate finance.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8052-b310-c9959e535d7d" class="bulleted-list"><li style="list-style-type:disc"><strong>Media</strong> cleans itself with ETS, 
-driving consumer-facing adoption.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808c-8ebe-f74648454442" class="">Each sector feeds signals back into the ledger, accelerating trust, adoption, and revenue — making the <strong>Signal Economy the operating system for civilisation</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80dd-acab-ec50839b1a95"/></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+
+
+# **🌍 The Complete Trust & Signal Ecosystem**
+## **Design Principles**
+  * **MECE** : Each layer has a single primary responsibility; no overlap.
+
+
+  * **Exhaustive** : Includes ideal operation, failure/adversarial modes, time/versioning, legal boundaries, incentives and exit.
+
+
+  * **Auditable** : Every action is consented, logged, reversible where lawful.
+
+
+  * **Deployable** : Clear contracts between layers.
+
+
+* * *
+## **L1. Planetary Sensing & Integrity (Foundation Layer)**
+**Primary function:** Capture, validate, and preserve representations of physical reality with minimal distortion and full traceability.
+This layer establishes the **ground truth substrate** for the entire ecosystem. All downstream intelligence, consent, scoring, and economic activity depends on the integrity of signals produced here.
+### **Core Components**
+  * **Earth Signal Registry (ESR)**
+A canonical registry for environmental, biological, and system-level signals.
+Each signal is ingested with source attribution, collection context, and validation metadata to prevent ambiguity or duplication.
+
+
+  * **Energy Integrity Grid (EIG)**
+A metering and accounting framework that records energy flows at the joule level.
+Tracks efficiency, carbon intensity, and regenerative balance to ensure energy usage is lawful, comparable, and ecologically bounded.
+
+
+  * **Data Provenance Kernel (DPK)**
+The integrity backbone for all signals.
+Maintains immutable records of origin, timestamp, cryptographic integrity hash, and custody chain, enabling verification, audit, and dispute resolution.
+
+
+### **Outputs**
+  * **Verified signals** that meet integrity and validation requirements
+
+
+  * **Complete provenance metadata** enabling audit, traceability, and lawful reuse
+
+
+## **L2. Identity & Consent (Rights Layer)**
+**Primary function:** Establish lawful authority over signal contribution and access by binding identity to consent in a verifiable, revocable manner.
+This layer defines **who is allowed to generate, share, or consume signals** , under what conditions, and for how long. It separates **existence of signals (L1)** from **rights over signals (L2)**.
+### **Core Components**
+  * **Bio-Root Identity (BRI)**
+A biology-anchored identity framework that establishes liveness, continuity, and resistance to spoofing.
+Identity assurance is derived from physiological and nervous-system stability markers rather than static credentials, reducing impersonation and replay risk.
+
+
+  * **Universal Consent Fabric (UCF)**
+A permissioning framework that manages granular, purpose-specific, revocable, and time-bound consent.
+Consent is expressed in machine-readable form and enforced consistently across all downstream layers.
+
+
+  * **Consent Ledger**
+An immutable, append-only record of consent events.
+Stores grant, modification, revocation, scope, and validity period, enabling audit, compliance verification, and dispute resolution.
+
+
+### **Outputs**
+  * **Authorized signal permissions** , specifying:
+    * who may contribute or access signals,
+    * for which purposes,
+    * within which time bounds,
+    * under which jurisdictional constraints.
+## **L3. Temporal Integrity (Time Layer)**
+**Primary function:** Ensure that truth, rights, and trust are evaluated correctly over time.
+This layer governs **when signals, identities, consent, and scores are valid** , how they evolve, and how past states are preserved or lawfully reversed. It prevents stale data, frozen permissions, and permanent trust artifacts in a dynamic system.
+### **Core Components**
+    * **Versioned Consent & Scores**
+A time-aware versioning system for consent grants and derived scores.
+Each consent and score includes explicit validity windows, renewal conditions, and decay rules to prevent indefinite authority or trust persistence.
+    * **Signal Freshness & Aging**
+A temporal weighting mechanism that adjusts the influence of signals based on recency and relevance.
+Older signals decay in impact according to defined aging functions, ensuring that decisions reflect current reality rather than historical artifacts.
+    * **Rollback & Fork Rules**
+A controlled framework for lawful reversibility and dispute resolution.
+Enables correction of errors, resolution of contested events, and jurisdiction-mandated rollbacks while preserving an immutable historical record of changes.
+### **Outputs**
+    * **Time-aware truth** , including:
+      * signals evaluated with freshness context,
+      * consent and scores valid only within defined temporal bounds,
+      * auditable histories of change, correction, and resolution.
+## **L4. Intelligence & Agency (Decision Layer)**
+**Primary function:** Transform verified, authorized, and time-qualified signals into bounded decisions and executable intent.
+This layer is responsible for **sense-making and decision formulation** , not execution. It converts raw signals into structured understanding, assigns responsibility to appropriate agents, and enforces limits on autonomy to prevent drift, overreach, or unintended consequences.
+### **Core Components**
+    * **Cognitive Structuring Engine (CSE)**
+A processing framework that converts validated signals into structured events, state representations, and decision-relevant insights.
+The CSE reduces noise, resolves ambiguity, and preserves uncertainty where resolution is not justified by available data.
+    * **Goal-to-Role Mapper (GRM)**
+A translation mechanism that maps articulated human, organizational, or planetary goals into clearly scoped agent roles.
+Ensures that each role has a defined objective, authority boundary, and accountability context.
+    * **Hybrid Agent Orchestrator (HAO)**
+A coordination layer that manages interaction between human and AI agents.
+Enforces constraints on autonomy, escalation thresholds, handoff rules, and override conditions to ensure decisions remain aligned with policy and consent.
+### **Outputs**
+    * **Decisions** expressed as bounded intents
+    * **Tasks** assigned to specific agents or systems
+    * **Recommendations** with traceable rationale and confidence bounds
+## **L5. Execution & Interfaces (Actuation Layer)**
+**Primary function:** Execute approved decisions safely and predictably in physical and digital environments.
+This layer is responsible for **controlled actuation** , not decision-making. It ensures that actions derived from upstream decisions are carried out within strict safety, ethical, and operational bounds, with immediate containment mechanisms for abnormal conditions.
+### **Core Components**
+    * **Deterministic Control Plane (DCP)**
+A real-time execution framework for machines and automated systems.
+Enforces bounded autonomy through predefined control laws, state constraints, and deterministic behavior to prevent uncontrolled or emergent actions.
+    * **Human–Machine Interface Suite (HMIS)**
+A set of interfaces enabling human interaction with executing systems, including conventional HMI and ethically governed BCI where applicable.
+Interfaces are designed to preserve human agency, provide clear situational awareness, and prevent coercive or opaque interaction.
+    * **Runtime Safety Guard (RSG)**
+A continuous safety enforcement mechanism operating independently of task logic.
+Implements rate limits, invariant checks, fail-safe states, and immediate kill-switches to halt or degrade execution when safety boundaries are approached or violated.
+### **Outputs**
+    * **Safe actions** , characterized by:
+      * deterministic execution,
+      * continuous safety monitoring,
+      * immediate containment or shutdown on violation,
+      * full traceability to upstream decisions and permissions.
+
+
+## **L6. Economy & Value (Exchange Layer)**
+**Primary function:** Translate verified trust and performance into comparable economic value.
+This layer defines **how trusted signals, capabilities, and outcomes are priced, exchanged, and settled**. It does not create signals or decisions; it assigns economic meaning to outputs produced and validated by upstream layers.
+### **Core Components**
+  * **Signal Exchange Ledger (SEL)**
+A transaction and valuation ledger for verified signals and outcomes.
+Prices signals based on integrity, consent scope, temporal validity, and downstream utility, enabling transparent exchange without duplicating raw data.
+
+
+  * **Talent Capability Ledger (TCL)**
+A capability accounting system for the workforce.
+Aggregates verified performance, skill execution, and reliability signals into capability scores usable for hiring, deployment, training, and compensation decisions.
+
+
+  * **Energy Value Markets (EVM)**
+A market framework for energy-related value derived from trusted measurements.
+Uses standardized indices such as Energy Return on Investment (EROI), carbon intensity, and nature impact to price energy production and consumption consistently across jurisdictions.
+
+
+### **Outputs**
+  * **Prices** reflecting verified trust and performance
+
+
+  * **Incentives** aligned with desired behaviors and outcomes
+
+
+  * **Settlements** that are auditable, traceable, and consent-compliant
+
+
+## **L7. Scoring & Trust Indices (Measurement Layer)**
+**Primary function:** Convert observed behavior and outcomes into standardized, comparable metrics.
+This layer provides the **measurement abstraction** for the ecosystem. It aggregates verified signals, authorized actions, and economic outcomes into indices that are comparable across individuals, organizations, sectors, and jurisdictions. Scoring reflects _what has occurred_ , not what is permitted or priced.
+### **Core Indices**
+  * **Personal Trust Index (PTI)**
+Measures individual reliability based on observed behavior, biological stability indicators, and consent-compliant participation.
+Used to assess personal trustworthiness without relying on self-reporting or reputation proxies.
+
+
+  * **Consent Integrity Index (CII)**
+Measures how consistently an entity respects consent scope, revocation, purpose limitation, and temporal validity.
+Acts as an objective indicator of consent compliance.
+
+
+  * **Organizational Trust Index (OTI)**
+Aggregates organizational behavior across consent adherence, operational reliability, and impact signals.
+Enables comparison of institutions on trust and governance performance.
+
+
+  * **Planetary Trust Index (PTX)**
+Measures system-level alignment with ecological, social, and governance constraints.
+Aggregates environmental integrity, energy indices, and large-scale compliance indicators.
+
+
+  * **Engagement Trust Score (ETS)**
+Measures authenticity and reliability of engagement in digital and media environments.
+Distinguishes genuine interaction from manipulation or artificial amplification.
+
+
+  * **Capability Intelligence Score (CIS)**
+Quantifies demonstrated human or organizational capability based on verified task execution, learning outcomes, and reliability over time.
+Used for workforce deployment and development decisions.
+
+
+  * **Energy Indices (EROI, Carbon Intensity, Nature Impact)**
+Standardized metrics describing energy efficiency, emissions, and ecological impact.
+Provide a consistent basis for comparison and regulation across energy systems.
+
+
+### **Outputs**
+  * **Comparable scores** with defined scope and validity periods
+
+
+  * **Auditable measurement trails** linking each score to underlying signals and actions
+
+
+  * **Time-bounded metrics** suitable for regulatory, economic, and policy use
+
+
+## **L8. Governance & Policy (Rules Layer)**
+**Primary function:** Define and maintain the rules that constrain system behavior.
+This layer establishes **what is permitted, required, or prohibited** across the ecosystem. It creates policy but does not execute actions, score behavior, or price outcomes. All enforcement occurs downstream, based on the rules defined here.
+### **Core Components**
+  * **Policy Definition Authority (PDA)**
+A formal body or mechanism responsible for defining standards, thresholds, and constraints.
+Policies are expressed in explicit terms, including scope, applicability, escalation conditions, and review cycles.
+
+
+  * **Stress-Test & Foresight Unit (SFU)**
+A simulation and analysis function that evaluates proposed or existing policies against future scenarios.
+Used to identify systemic risk, unintended consequences, and failure modes before policies are adopted or revised.
+
+
+  * **Compliance Interface**
+A machine-readable representation of policies and rules.
+Enables consistent interpretation and enforcement across automated systems, agents, and jurisdictions without manual translation.
+
+
+### **Outputs**
+  * **Enforceable policies** characterized by:
+    * clear scope and applicability,
+    * explicit thresholds and constraints,
+    * versioning and review metadata,
+    * compatibility with automated enforcement and audit.
+
+
+## **L9. Jurisdiction & Legal Boundaries (Law Layer)**
+**Primary function:** Ensure system operation remains compliant with applicable laws, sovereignty constraints, and jurisdictional authority.
+This layer defines **where and under which legal regimes the system may operate** , how conflicts between jurisdictions are handled, and how lawful participation or non-participation is enforced. It separates _rule definition_ (L8) from _legal applicability and enforcement boundaries_.
+### **Core Components**
+  * **Jurisdiction Router**
+A mapping and resolution mechanism that associates signals, identities, actions, and data flows with applicable local, national, and supranational legal regimes.
+Determines which laws apply based on location, citizenship, data residency, sector, and contractual scope.
+
+
+  * **Opt-in / Opt-out Controls**
+A lawful participation framework that enforces mandatory inclusion, voluntary participation, or required exclusion based on jurisdictional requirements.
+Supports legally mandated non-participation, partial participation, and jurisdiction-specific overrides without breaking system integrity.
+
+
+  * **Cross-Border Resolution**
+A conflict-handling framework for cases involving multiple jurisdictions.
+Defines precedence rules, escalation paths, and lawful arbitration mechanisms when legal obligations or permissions conflict across borders.
+
+
+### **Outputs**
+  * **Law-aligned operation** , characterized by:
+    * explicit jurisdictional scope for each action and data flow,
+    * enforced participation or exclusion rules,
+    * documented resolution of cross-border legal conflicts,
+    * audit-ready legal traceability.
+
+
+## **L10. Adversarial & Failure Management (Resilience Layer)**
+**Primary function:** Maintain system integrity under attack, misuse, error, and partial failure.
+This layer explicitly assumes that **adversarial behavior, faults, and unexpected conditions will occur**. It is responsible for detection, containment, and recovery, ensuring the system degrades safely rather than failing catastrophically.
+### **Core Components**
+  * **Threat Models**
+A structured set of adversarial and failure scenarios, including signal gaming, data poisoning, collusion, spoofing, insider abuse, and systemic stress.
+Threat models define assumptions, attack surfaces, and expected failure modes used to design detection and response mechanisms.
+
+
+  * **Anomaly & Drift Detection**
+Continuous monitoring functions that identify deviations from expected behavior at signal, agent, economic, and execution levels.
+Detects statistical anomalies, behavioral drift, and coordinated manipulation early enough to enable containment before systemic impact.
+
+
+  * **Graceful Degradation**
+A controlled fallback framework that reduces functionality while preserving safety and core guarantees.
+Includes rate limiting, capability reduction, partial isolation, or reversion to manual control, depending on severity and scope of the detected issue.
+
+
+### **Outputs**
+  * **System resilience** , characterized by:
+    * early detection of attacks or failures,
+    * bounded impact through containment and isolation,
+    * continued safe operation at reduced capacity,
+    * full traceability of incidents and responses for audit and remediation.
+
+
+## **L11. Incentives, Capital & Exit (Stability Layer)**
+**Primary function:** Maintain long-term system stability by preventing capture, lock-in, and incentive distortion.
+This layer ensures that participation remains **voluntary, competitive, and reversible**. It addresses structural risks that arise when economic value, trust scores, or capital accumulate unevenly or become non-portable.
+### **Core Components**
+  * **Incentive Alignment Engine**
+A set of mechanisms that align rewards with desired behavior while limiting exploitability.
+Detects and mitigates incentive gaming, score farming, rent-seeking behavior, and feedback loops that would otherwise distort system outcomes.
+
+
+  * **Capital Concentration Limits**
+Structural constraints that prevent excessive accumulation of economic or decision-making power.
+Includes caps, diminishing returns, separation of roles, and governance checks to reduce monopolistic control and systemic fragility.
+
+
+  * **Exit & Portability Framework**
+A portability and exit mechanism that enables participants to leave the system without punitive loss.
+Supports lawful export of personal data, scores, and historical records in standardized formats, subject to consent and jurisdictional constraints.
+
+
+### **Outputs**
+  * **Sustainable participation** , characterized by:
+    * aligned incentives resistant to manipulation,
+    * bounded concentration of power and capital,
+    * credible exit options without systemic harm,
+    * preserved trust through reversibility and portability.
+
+
+## **L12. Sector Deployments (Application Layer)**
+**Primary function:** Apply the full ecosystem consistently across real-world sectors.
+This layer defines **how the common infrastructure, rules, and guarantees of the system are instantiated in specific domains**. Sector deployments do not modify core layers; they configure permitted parameters, data sources, and compliance mappings appropriate to each sector.
+### **Core Deployment Domains**
+  * **Health Systems**
+Applies identity, consent, temporal integrity, and scoring to clinical data, diagnostics, care delivery, and outcomes.
+Prioritizes patient consent, biological signal integrity, safety constraints, and regulatory compliance.
+
+
+  * **Energy & Climate**
+Applies sensing, valuation, and scoring to energy production, distribution, and consumption.
+Uses standardized energy indices to support compliance, financing, and ecological accountability.
+
+
+  * **Finance & Insurance**
+Applies trust indices, economic valuation, and governance rules to underwriting, lending, pricing, and risk assessment.
+Emphasizes auditability, fairness, jurisdictional compliance, and systemic risk control.
+
+
+  * **Talent & Workforce**
+Applies capability measurement, consent, and economic exchange to hiring, deployment, training, and compensation.
+Replaces reputation-based proxies with verified performance and reliability indicators.
+
+
+  * **Media & Engagement**
+Applies engagement trust measurement and consent enforcement to digital content, advertising, and audience interaction.
+Distinguishes authentic participation from manipulation or artificial amplification.
+
+
+### **Outputs**
+  * **Sector-specific value** , characterized by:
+    * consistent application of core system guarantees,
+    * reduced noise and fraud,
+    * improved trust, efficiency, and accountability,
+    * compatibility with sector-specific regulation without fragmenting the ecosystem.
+
+
+## **System Contracts (Cross-Layer Interfaces)**
+**Purpose:** Define mandatory interfaces and guarantees between layers to prevent ambiguity, leakage of responsibility, or unauthorized coupling.
+System contracts specify **what may pass between layers, under what conditions, and with which guarantees**. No layer may bypass a contract or infer authority outside its defined interface.
+### **Core Contracts**
+  * **Signal Contract (L1 → L2 → L3)**
+Governs the lifecycle of signals from capture to time-qualified validity.
+Requires that all signals:
+    * originate from verified sources (L1),
+    * carry explicit identity and consent authorization (L2),
+    * include temporal validity, versioning, and decay metadata (L3).
+Signals failing any condition are not admissible downstream.
+
+
+  * **Decision Contract (L3 → L4)**
+Governs the transformation of time-qualified truth into decisions.
+Ensures that only signals and states that are valid _at the decision time_ may inform reasoning, planning, or recommendations.
+
+
+  * **Action Contract (L4 → L5)**
+Governs the transition from decision intent to execution.
+Requires that every action:
+    * has a bounded scope and objective,
+    * specifies authorized agents or systems,
+    * includes safety constraints and rollback conditions,
+    * remains traceable to upstream decisions and permissions.
+
+
+  * **Value Contract (L5 → L6 → L7)**
+Governs how executed actions translate into economic value and measurement.
+Ensures that only completed, authorized, and auditable actions may:
+    * generate economic value or settlements (L6),
+    * contribute to scores or indices (L7).
+Prevents speculative or unverified value creation.
+
+
+  * **Rule Contract (L8 → All Layers)**
+Governs policy applicability across the ecosystem.
+Requires that all layers:
+    * interpret and enforce policies as defined by L8,
+    * respect policy versioning and scope,
+    * reject operations that violate active rules.
+
+
+  * **Law Contract (L9 → All Layers)**
+Governs l egal and jurisdictional applicability.
+Requires that all layers:
+    * operate only within applicable legal regimes,
+    * enforce opt-in/opt-out and exclusion rules,
+    * respect jurisdictional precedence and cross-border constraints.
+
+
+### **Contract Properties (Applies to All)**
+All system contracts are:
+  * **Explicit** : no implicit authority or side channels,
+
+
+  * **Machine-readable** : enforceable by automated systems,
+
+
+  * **Auditable** : full traceability of contract compliance,
+
+
+  * **Non-bypassable** : violations halt or degrade e xecution safely.
+
+
+* * *
+If you want, next I can:
+  * formalize these contracts as **interface schemas** (inputs, outputs, invariants),
+
+
+  * define **contract violation handling** (reject, degrade, escalate), or
+
+
+  * compress the entire ecosystem into a **single canonical specification** suitable for publication or submission.
+
+
+* * *
+## **1) Signal Contract (L1 → L2 → L3)**
+### **Inputs**
+  1. RawSignalPacket (from L1)
+     * signal_id
+     * signal_type (environmental | biological | system)
+     * payload (typed)
+     * source_provenance (device/system, calibration, location, operator/system)
+     * integrity_proof (hash, signature, custody chain)
+     * timestamp_capture (source time + receive time)
+
+
+  2. IdentityAssertion (from L2)
+     * subject_id (person/org/device)
+     * identity_method (bio-root/device-root/etc.)
+     * liveness_proof
+     * anti_spoof_evidence
+
+
+  3. ConsentGrant (from L2)
+     * consent_id
+     * scope (signal types, fields, resolution, retention)
+     * purposes (allowed use-cases)
+     * principals (who can access)
+     * revocability + revocation_endpoint
+     * valid_from, valid_to
+     * jurisdiction_tags
+     * audit_requirements
+
+
+  4. TemporalPolicy (from L3)
+     * freshness_rules
+     * aging/decay rules
+     * versioning rules
+
+
+### **Outputs**
+  1. AuthorizedSignalRecord (admissible downstream)
+     * signal_id
+     * normalized_event_schema (typed)
+     * consent_binding (consent_id + scope snapshot)
+     * identity_binding (subject_id + method snapshot)
+     * provenance_binding (hashes, signatures, custody)
+     * temporal_metadata (validity window, freshness score, decay params)
+     * jurisdiction_binding
+     * admissibility_status (ADMIT | REJECT | QUARANTINE)
+
+
+  2. AuditTrailEntry
+     * contract_id
+     * decision (admit/reject/quarantine + reason codes)
+     * evidence_refs (hashes, logs, signatures)
+
+
+### **Invariants (must always hold)**
+  1. **No consent, no admissibility** : if ConsentGrant missing/invalid → REJECT.
+
+
+  2. **No provenance, no trust** : missing integrity_proof or broken chain → QUARANTINE/REJECT.
+
+
+  3. **Time-bounded validity** : signal must carry valid_from/to and freshness computation.
+
+
+  4. **Non-bypassable binding** : identity + consent + provenance must be cryptographically bound to output record.
+
+
+  5. **Revocation effective** : revoked consent must stop future access and trigger downstream re-evaluation rules.
+
+
+* * *
+## **2) Decision Contract (L3 → L4)**
+### **Inputs**
+  1. TimeQualifiedState
+     * set of AuthorizedSignalRecord with admissibility_status=ADMIT
+     * state_timestamp (decision time)
+     * freshness_scores
+     * uncertainty/quality metrics
+
+
+  2. DecisionPolicySet (from L8 + L9)
+     * allowed objectives, prohibited inferences
+     * minimum evidence requirements
+     * jurisdictional constraints
+
+
+### **Outputs**
+  1. DecisionArtifact
+     * decision_id
+     * objective
+     * recommended_actions (structured intents)
+     * confidence + evidence_summary
+     * constraints_applied (policy refs)
+     * expiry (decision validity window)
+
+
+  2. DecisionTrace
+     * input_signal_refs (hash refs)
+     * model/agent identifiers (if applicable)
+     * explanations (machine-auditable rationale)
+     * risk_flags
+
+
+### **Invariants**
+  1. **Only time-valid signals** : inputs must be valid at state_timestamp.
+
+
+  2. **Policy completeness** : every decision must cite the policy set applied.
+
+
+  3. **Evidence traceability** : every decision must link to admissible signal hashes.
+
+
+  4. **No forbidden inference** : prohibited transformations must be blocked at contract boundary.
+
+
+  5. **Decision expiry** : d ecisions must carry expiration when based on aging signals.
+
+
+* * *
+## **3) Action Contract (L4 → L5)**
+### **Inputs**
+  1. DecisionArtifact
+
+
+  2. ExecutionContext
+     * actor/agent identity
+     * environment constraints
+     * device/machine capabilities
+
+
+  3. SafetyEnvelope
+     * rate limits
+     * invariants (do-not-violate constraints)
+     * kill-switch c onditions
+     * rollback conditions
+
+
+### **Outputs**
+  1. ActionPlan
+     * plan_id
+     * ordered ActionIntents
+     * authorized_actuators
+     * safety_guards_attached
+
+
+  2. ExecutionReceipt
+     * action_id
+     * status (EXECUTED | PARTIAL | ABORTED)
+     * telemetry summary
+     * safety events (if any)
+
+
+### **Invariants**
+  1. **Bounded autonomy** : every action must have explicit scope + limits.
+
+
+  2. **Safety first** : if any guard violated → ABORT or DEGRADE, never “force execute”.
+
+
+  3. **Non-repudiation** : action must be attributable to a decision_id + actor identity.
+
+
+  4. **Rollback defined** : actions without rollback/containment policy → REJECT unless explicitly exempted.
+
+
+  5. **Telemetry mandatory** : execution must produce machine-auditable receipts.
+
+
+* * *
+## **4) Value Contract (L5 → L6 → L7)**
+### **Inputs**
+  1. ExecutionReceipt (only EXECUTED/PARTIAL with valid telemetry)
+
+
+  2. ValuationRules (from L6)
+     * pricing model
+     * market rules
+     * settlement requirements
+
+
+  3. ScoringRules (from L7)
+     * score update rules
+     * anti-gaming constraints
+
+
+  4. Consent/UseScope (from L2)
+     * whether action outcomes may be monetized/scored
+
+
+### **Outputs**
+  1. SettlementRecord (L6)
+     * settlement_id
+     * priced_units
+     * counterparties
+     * clearing proof
+
+
+  2. ScoreUpdateRecord (L7)
+     * entity_id
+     * score_delta
+     * rule_refs
+     * evidence_refs
+
+
+### **Invariants**
+  1. **No value without verified execution** : if no valid receipt → NO settlement, NO scoring.
+
+
+  2. **Consent-bound monetization** : outcomes cannot be priced/scored outside consent scope.
+
+
+  3. **Anti-double-counting** : same execution cannot be settled/scored twice.
+
+
+  4. **Rule version pinning** : all valuations and scores must record rule versions used.
+
+
+  5. **Contestability** : every settlement/score update must be disputable via defined process.
+
+
+* * *
+## **5) Rule Contract (L8 → All)**
+### **Inputs**
+  1. MachineReadablePolicy
+     * policy_id, version
+     * scope (layers, actors, signal types)
+     * thresholds, constraints, required controls
+
+
+  2. EnforcementContext
+     * runtime environment
+     * actor role
+     * current jurisdiction tags (from L9)
+
+
+### **Outputs**
+  1. PolicyDecision
+     * ALLOW | DENY | REQUIRE_MITIGATION
+     * required controls / mitigations
+     * audit reason codes
+
+
+  2. PolicyEvidence
+     * compliance checks performed
+     * logs and attestations
+
+
+### **Invariants**
+  1. **Default deny on ambiguity** : if policy applicability unclear → REQUIRE_MITIGATION or DENY.
+
+
+  2. **Versioned enforcement** : every enforcement must cite policy version.
+
+
+  3. **Uniform semantics** : policies must be interpreted consistently across layers.
+
+
+  4. **Non-bypassable** : operations cannot execute without policy decision.
+
+
+* * *
+## **6) Law Contract (L9 → All)**
+### **Inputs**
+  1. JurisdictionMap
+     * applicable jurisdictions
+     * precedence order
+     * mandatory constraints (data residency, consent form, retention)
+
+
+  2. ParticipationMode
+     * opt-in/opt-out status
+     * lawful exclusions
+
+
+  3. CrossBorderRequest (if any)
+     * data flow details
+     * legal basis references
+
+
+### **Outputs**
+  1. LegalApplicabilityDecision
+     * ALLOW | DENY | LOCALIZE | REDACT | REQUIRE_CONSENT_UPGRADE
+
+
+  2. ComplianceBinding
+     * retention rules
+     * residency rules
+     * disclosure constraints
+
+
+### **Invariants**
+  1. **Sovereignty first** : if conflict, apply precedence; if unresolved → LOCALIZE or DENY.
+
+
+  2. **Right to exit honored** where required: opt-out must be implementable and auditable.
+
+
+  3. **Data minimization** : only legally necessary fields may cross boundaries.
+
+
+  4. **Legal basis recorded** : every cross-border action must log legal basis and policy mapping.
+
+
+* * *
+## **Optional add-on (recommended): Common Contract Header (applies to all)**
+Every contract message should include:
+  * contract_id, version
+
+
+  * request_id, correlation_id
+
+
+  * caller_layer, callee_layer
+
+
+  * timestamp
+
+
+  * jurisdiction_tags
+
+
+  * audit_level (standard | strict | regulated)
+
+
+* * *
+If you want the next step, I can convert this into:
+  1. a **single unified schema** (common types reused across contracts), and/or
+
+
+  2. a **contract violation matrix** (violation → response: reject/degrade/quarantine/escalate).
+
+
+## **The Scoring Layer (Trust Indices Layer)**
+**Purpose:** Convert verified, consented, time-qualified signals into **standardized indices** that are comparable, auditable, contestable, and usable for pricing, policy, and decisions.
+* * *
+## **1) Position in the stack**
+**Inputs (must be true before scoring):**
+  1. **Verified signals** (L1) with provenance + integrity
+
+
+  2. **Authorized access** (L2) via consent scope + identity binding
+
+
+  3. **Time-qualified validity** (L3): freshness/aging/version windows
+
+
+  4. **Policy + law constraints** (L8/L9): what can be computed, stored, displayed
+
+
+**Outputs (what scoring produces):**
+  * ScoreVector (one or more indices)
+
+
+  * ScoreEvidencePack (audit trail + hash-linked evidence)
+
+
+  * ScoreGovernanceState (versioning, dispute hooks, decay rules)
+
+
+* * *
+## **2) Core objects (schemas)**
+### **2.1**
+### **ScoreDefinition**
+Defines one score (PTI, CII, OTI, PTX, ETS, CIS, Energy Indices).
+  * score_id
+
+
+  * name
+
+
+  * entity_type (person | org | service | nation | asset | creator)
+
+
+  * scale (0–100, 0–10, letter bands, etc.)
+
+
+  * update_frequency (real-time | hourly | daily | event-driven)
+
+
+  * inputs_allowed (signal types + fields)
+
+
+  * feature_rules (how signals become features)
+
+
+  * aggregation_rules (how features become score)
+
+
+  * decay_rules (aging, half-life, recency weighting)
+
+
+  * risk_flags (what triggers warnings)
+
+
+  * policy_refs + law_refs
+
+
+### **2.2**
+### **ScoreComputationRequest**
+  * request_id
+
+
+  * entity_id
+
+
+  * score_id
+
+
+  * time_window
+
+
+  * context (jurisdiction_tags, purpose, audience)
+
+
+  * consent_snapshot_ref
+
+
+  * policy_snapshot_ref
+
+
+### **2.3**
+### **ScoreVector**
+### **(output)**
+  * entity_id
+
+
+  * as_of_time
+
+
+  * scores[]:
+    * score_id
+    * value
+    * band (optional)
+    * confidence
+    * valid_from, valid_to
+    * next_refresh_time
+
+
+### **2.4**
+### **ScoreEvidencePack**
+### **(audit output)**
+  * score_id, entity_id, as_of_time
+
+
+  * input_signal_refs[] (hash refs)
+
+
+  * transform_refs[] (feature extraction + aggregation versions)
+
+
+  * rule_version_refs[] (policy/law/scoring rule versions)
+
+
+  * consent_binding_ref
+
+
+  * explainability_summary (machine-readable)
+
+
+  * dispute_endpoint + challenge_window
+
+
+* * *
+## **3) Score update pipeline (deterministic)**
+  1. **Eligibility gate**
+     * Check consent scope, purpose, jurisdiction, data minimization
+
+
+  2. **Signal → Feature**
+     * Normalize → clean → derive features (bounded transformations)
+
+
+  3. **Feature → Score**
+     * Apply aggregation rules + weights + caps
+
+
+  4. **Temporal adjustment**
+     * Freshness weighting + decay + renewal windows
+
+
+  5. **Anti-gaming / integrity checks**
+     * anomaly checks, collusion signals, outlier handling
+
+
+  6. **Publish + audit**
+     * produce ScoreVector + EvidencePack + update logs
+
+
+* * *
+## **4) Scoring invariants (non-negotiable)**
+  1. **No consent → no score**
+
+
+  2. **No provenance → score cannot upgrade (must quarantine or downgrade confidence)**
+
+
+  3. **Rule version pinning**
+     * every score must record exact rule versions used
+
+
+  4. **Contestable by design**
+     * every score must have dispute mechanism + evidence pack
+
+
+  5. **Non-manipulability baseline**
+     * detect gaming; cap influence of single source; require multi-source corroboration
+
+
+  6. **Time-aware truth**
+     * scores must decay; old signals cannot dominate current ratings
+
+
+* * *
+## **5) Index families (formal definitions)**
+### **5.1 PTI — Personal Trust Index**
+**Entity:** Individual
+**Measures:** stability, integrity, verified behavior consistency (within allowed scope)
+**Key rule:** cannot infer sensitive traits beyond policy; must remain purpose-bound.
+### **5.2 CII — Consent Integrity Index**
+**Entity:** Service/platform/app
+**Measures:** consent clarity, revocability, enforcement, audit readiness, breach handling
+### **5.3 OTI — Organizational Trust Index**
+**Entity:** Organization
+**Measures:** compliance behavior, aggregate outcomes, incident rates, settlement integrity
+### **5.4 PTX — Planetary Trust Index**
+**Entity:** Nation/industry/system
+**Measures:** ecological thresholds compliance, transparency, systemic resilience indicators
+### **5.5 ETS — Engagement Trust Score**
+**Entity:** Creator/media entity
+**Measures:** authentic engagement, fraud resistance, audience integrity signals
+### **5.6 CIS — Capability Intelligence Score**
+**Entity:** Talent/workforce role profile
+**Measures:** capability evidence, performance under constraints, reliability, learning velocity (bounded)
+### **5.7 Energy Indices (EROI, Carbon Intensity, Nature Score)**
+**Entity:** Asset/operator/portfolio
+**Measures:** verified energy flows, carbon intensity, ecological impact scores
+* * *
+## **6) Public vs private scoring (two-channel model)**
+  1. **Public score channel**
+     * coarse bands, minimal leakage, policy-safe
+
+
+  2. **Private score channel**
+     * detailed breakdown, available only with strict consent + purpose + jurisdiction match
+
+
+**Invariant:** public outputs must be derivable without exposing restricted features.
+* * *
+## **7) Scoring layer interfaces (contracts)**
+### **7.1 Input interface (from L6 + upstream)**
+  * VerifiedOutcomeReceipt (executed actions)
+
+
+  * AuthorizedSignalRecord (admitted)
+
+
+  * RuleSnapshots (policy + law + scoring rules)
+
+
+### **7.2 Output interface (to L6/L8/L4)**
+  * ScoreVector for pricing, underwriting, access control
+
+
+  * ScoreEvidencePack for audit/regulators
+
+
+  * ScoreAlerts (risk flags, drift warnings)
+
+
+* * *
+## **8) Minimal MVP scoring set (practical)**
+If you want the **smallest complete launch** :
+  1. **CII** (platform consent compliance)
+
+
+  2. **Energy Indices** (energy integrity baseline)
+
+
+  3. **OTI** (org-level trust composite)
+
+
+Then extend to **PTI/CIS/ETS** only after dispute + anti-gaming are mature.
+* * *
+If you want, I can formalize one index end-to-end (pick one: **PTI / CII / OTI / PTX / ETS / CIS / Energy**) with:
+  * full ScoreDefinition
+
+
+  * feature list
+
+
+  * weighting + caps
+
+
+  * decay rules
+
+
+  * anti-gaming checks
+
+
+  * dispute workflow and evidence pack fields
+
+
+# **AMOS Core Flywheel (System Backbone)**
+**Definition**
+AMOS operates as a closed-loop control and value system.
+Its primary function is to **convert real-world signals into enforceable decisions, measurable trust, and stable long-term value** , while preventing drift, abuse, and premature degradation.
+This flywheel is **the operational backbone of AMOS** , not an application layer.
+* * *
+## **1\. Signal Ingestion (Reality Interface)**
+**Role in AMOS:** Establish ground truth for control.
+AMOS ingests signals from physical, human, and system domains, including:
+  * biological and human-state signals (where applicable),
+
+
+  * machine and actuator telemetry,
+
+
+  * energy, thermal, and environmental signals,
+
+
+  * consent, command, and operational events.
+
+
+**Hard constraints:**
+  * Every signal must be source-identified.
+
+
+  * Every signal must be time-bound.
+
+
+  * Every signal must pass integrity and plausibility checks.
+
+
+  * No inferred or synthetic signal is allowed to drive control directly.
+
+
+**Output:**
+> Canonical, validated system signals.
+* * *
+## **2\. Normalisation & Scoring (State Compression)**
+**Role in AMOS:** Reduce complexity into control-relevant metrics.
+Raw signals are converted into **bounded indices and state variables** , such as:
+  * stability indices,
+
+
+  * degradation proxies,
+
+
+  * consent integrity states,
+
+
+  * trust and reliability scores,
+
+
+  * energy and efficiency indices.
+
+
+**Key principle:**
+AMOS never reasons on raw noise. It reasons on **compressed, auditable state representations**.
+**Output:**
+> Comparable, bounded system-state scores.
+* * *
+## **3\. Trust & State Formation (System Self-Awareness)**
+**Role in AMOS:** Know when the system is safe to act.
+From scores, AMOS establishes:
+  * whether inputs are trustworthy,
+
+
+  * whether components are healthy or degrading,
+
+
+  * whether actions are allowed or must be refused,
+
+
+  * whether the system is inside or outside its safe operating envelope.
+
+
+**Important distinction:**
+Trust here is **operational trust** , not social reputation.
+**Output:**
+> A live, self-consistent system state.
+* * *
+## **4\. Decision & Permissioning (Control Logic)**
+**Role in AMOS:** Decide _what may happen next_.
+AMOS evaluates proposed actions (human or automated) against:
+  * current system state,
+
+
+  * degradation budgets,
+
+
+  * thermal / electrical / safety envelopes,
+
+
+  * consent and authority constraints.
+
+
+If an action increases short-term output but raises long-term failure probability, it is **refused**.
+**Design rule:**
+> AMOS prefers early refusal and controlled derating over late shutdown.
+**Output:**
+> Approved actions, denied actions, or constrained alternatives.
+* * *
+## **5\. Execution & Enforcement (Actuation)**
+**Role in AMOS:** Act, but only within bounds.
+Approved actions are executed through:
+  * bounded autonomy,
+
+
+  * rate-limited actuation,
+
+
+  * invariant enforcement (dI/dt, dT/dt, pressure, stress),
+
+
+  * immediate rollback or degradation if limits are crossed.
+
+
+AMOS never “hopes” an action is safe — it **enforces safety continuously during execution**.
+**Output:**
+> Safe, traceable physical or system actions.
+* * *
+## **6\. Outcome Accounting (Learning Without Drift)**
+**Role in AMOS:** Close the loop without self-deception.
+After execution, AMOS measures:
+  * actual outcomes vs expected,
+
+
+  * stress accumulation,
+
+
+  * efficiency and loss,
+
+
+  * early indicators of degradation.
+
+
+These outcomes update:
+  * future permissions,
+
+
+  * degradation budgets,
+
+
+  * trust scores,
+
+
+  * maintenance and intervention timing.
+
+
+**Critical rule:**
+AMOS learns **from physics and outcomes** , not from goals or intentions.
+**Output:**
+> Updated system baselines and budgets.
+* * *
+## **7\. Reinforcement Loop (Stability Over Time)**
+**Role in AMOS:** Improve longevity, not peak output.
+Over time, the flywheel results in:
+  * higher uptime,
+
+
+  * fewer emergency stops,
+
+
+  * lower intervention rates,
+
+
+  * longer component life,
+
+
+  * lower lifecycle cost.
+
+
+The system becomes **more conservative where needed and more permissive where proven safe**.
+**Output:**
+> Compounding reliability and economic efficiency.
+* * *
+# **Why This Flywheel Is the AMOS Backbone**
+  * It is **MECE** : every function appears exactly once.
+
+
+  * It is **physics-first** , not policy-first.
+
+
+  * It prevents human override from destroying long-term value.
+
+
+  * It scales from:
+    * a single power module,
+    * to a fleet,
+    * to multi-sector deployments.
+
+
+* * *
+## **One-Sentence Definition (for your docs)**
+> AMOS is a closed-loop system that transforms verified signals into bounded decisions, enforces actions within physical limits, and compounds trust and value over time by refusing unsafe optimisation.
+If you want next, I can:
+  * map this flywheel **directly onto your L1–L12 layers** , or
+
+
+  * 
+
+  * rewrite it in **purely mathematical / control-theory language**.
+
+
+Just tell me which direction.
+Below is the **direct, explicit mapping** of the **AMOS Core Flywheel** onto your **L1–L12 architecture**.
+This is written as a **systems traceability map** (what layer participates in which flywheel phase, and why).
+No marketing language. This is **design- and audit-grade**.
+* * *
+# **AMOS Core Flywheel → L1–L12 Layer Mapping**
+## **Flywheel Phase 1 — Signal Ingestion (Reality Interface)**
+**Primary Layers**
+  * **L1. Planetary Sensing & Integrity**
+
+
+  * **L2. Identity & Consent**
+
+
+  * **L3. Temporal Integrity**
+
+
+**Role by layer**
+  * **L1** captures raw physical, biological, machine, and environmental signals with provenance.
+
+
+  * **L2** authorises which signals are lawful to ingest (identity, consent, access rights).
+
+
+  * **L3** timestamps, versions, and bounds signals in time.
+
+
+**Why this mapping is strict**
+  * No signal may bypass L2 or L3.
+
+
+  * Signals without provenance (L1) or lawful permission (L2) are discarded before control logic.
+
+
+**Flywheel output**
+> Canonical, lawful, time-valid system signals.
+* * *
+## **Flywheel Phase 2 — Normalisation & Scoring (State Compression)**
+**Primary Layers**
+  * **L4. Intelligence & Agency**
+
+
+  * **L7. Scoring & Trust Indices**
+
+
+**Role by layer**
+  * **L4** structures signals into events, features, and interpretable state variables.
+
+
+  * **L7** compresses those states into bounded indices (trust, stability, degradation, energy).
+
+
+**Key invariant**
+  * AMOS never reasons directly on raw L1 signals.
+
+
+  * All downstream logic operates on L7-normalised state.
+
+
+**Flywheel output**
+> Comparable, bounded system-state representations.
+* * *
+## **Flywheel Phase 3 — Trust & State Formation (System Self-Awareness)**
+**Primary Layers**
+  * **L7. Scoring & Trust Indices**
+
+
+  * **L3. Temporal Integrity**
+
+
+**Supporting Layers**
+  * **L10. Adversarial & Failure Management**
+
+
+**Role by layer**
+  * **L7** determines whether entities, components, and inputs are trustworthy _now_.
+
+
+  * **L3** ensures trust decays, expires, or is revoked over time.
+
+
+  * **L10** detects manipulation, drift, or gaming of scores.
+
+
+**Clarification**
+  * This is **operational trust** , not reputation.
+
+
+  * Trust here answers: _“Is it safe to act?”_
+
+
+**Flywheel output**
+> Live, internally consistent system state with trust bounds.
+* * *
+## **Flywheel Phase 4 — Decision & Permissioning (Control Logic)**
+**Primary Layers**
+  * **L4. Intelligence & Agency**
+
+
+  * **L8. Governance & Policy**
+
+
+  * **L9. Jurisdiction & Legal Boundaries**
+
+
+**Role by layer**
+  * **L4** proposes decisions, actions, or task plans.
+
+
+  * **L8** enforces global rules, thresholds, and invariants.
+
+
+  * **L9** constrains decisions to lawful jurisdictional scope.
+
+
+**Hard rule**
+  * If L8 or L9 rejects an action, L4 cannot override it.
+
+
+  * Human intent does not bypass policy or law.
+
+
+**Flywheel output**
+> Explicitly approved, constrained, or refused actions.
+* * *
+## **Flywheel Phase 5 — Execution & Enforcement (Actuation)**
+**Primary Layers**
+  * **L5. Execution & Interfaces**
+
+
+  * **L10. Adversarial & Failure Management**
+
+
+**Role by layer**
+  * **L5** executes approved actions with bounded autonomy and safety guards.
+
+
+  * **L10** monitors execution for anomalies, attacks, or unsafe excursions.
+
+
+**Invariant**
+  * Execution is continuously supervised.
+
+
+  * Any invariant breach triggers derate, rollback, or halt — not post-mortem logging.
+
+
+**Flywheel output**
+> Safe, traceable real-world actions.
+* * *
+## **Flywheel Phase 6 — Outcome Accounting (Learning Without Drift)**
+**Primary Layers**
+  * **L6. Economy & Value**
+
+
+  * **L7. Scoring & Trust Indices**
+
+
+  * **L3. Temporal Integrity**
+
+
+**Role by layer**
+  * **L6** measures value, cost, efficiency, and economic impact.
+
+
+  * **L7** updates trust, degradation, and reliability scores.
+
+
+  * **L3** records when outcomes occurred and how long they remain valid.
+
+
+**Critical constraint**
+  * Learning is outcome-based, not goal-based.
+
+
+  * AMOS updates future permissions, not its physical laws.
+
+
+**Flywheel output**
+> Updated baselines, budgets, and score trajectories.
+* * *
+## **Flywheel Phase 7 — Reinforcement & Stability (Compounding Value)**
+**Primary Layers**
+  * **L11. Incentives, Capital & Exit**
+
+
+  * **L6. Economy & Value**
+
+
+**Role by layer**
+  * **L11** prevents capture, enforces portability, and aligns incentives long-term.
+
+
+  * **L6** translates reliability and trust into sustained economic advantage.
+
+
+**Result**
+  * Higher uptime
+
+
+  * Lower intervention
+
+
+  * Longer asset life
+
+
+  * Reduced lifecycle cost
+
+
+**Flywheel output**
+> Compounding system stability and economic efficiency.
+* * *
+## **L12 — Sector Deployments (Instantiation, Not Control)**
+**Role relative to the flywheel**
+  * **L12 does not add a new flywheel phase.**
+
+
+  * It instantiates **the same flywheel** under sector-specific constraints.
+
+
+Each sector:
+  * selects valid signal types (L1),
+
+
+  * applies sector law (L9),
+
+
+  * tunes thresholds (L8),
+
+
+  * but **cannot modify the flywheel logic itself**.
+
+
+* * *
+# **One-Line Architecture Truth (for auditors)**
+> The AMOS flywheel is implemented across L1–L11 as a closed-loop control system; L12 only configures domain-specific parameters and never alters core decision, safety, or trust logic.
+* * *
+If you want next, I can:
+  * convert this into a **traceability matrix (Flywheel × Layer × Invariant)** , or
+
+
+  * express it as a **formal state machine with entry/exit conditions** , or
+
+
+  * define **interface schemas** between layers aligned to each flywheel phase.
+
+
+Just say which one.
+# **📊 Ecosystem + Scoring Layer Map**
+```
+    flowchart TB
+        subgraph L1["Layer 1 — Capture"]
+          UBI[UBI / Biological Identity]:::box
+          MNS[MyNeuralSignal / Neural Data]:::box
+          EN[Energy Capture / Devices]:::box
+        end
+    
+        subgraph L2["Layer 2 — Consent"]
+          PCI[Planetary Consent Infrastructure]:::core
+          CEX[Consentex / Permissions]:::box
+          CAGE[FAR CAGE / Security]:::box
+        end
+    
+        subgraph L3["Layer 3 — Intelligence"]
+          NSA[NeuroSyncAI / Signals → Cognition]:::core
+          NAN[Neural A Need / Goals → Roles]:::box
+          HORG[HoloOrg / Agent Enterprise]:::box
+        end
+    
+        subgraph L4["Layer 4 — Economy"]
+          SE[Signal Economy / Ledger]:::core
+          TL[Talent Ledger / MIS]:::core
+          ENW[Energy Network / EROI, Carbon]:::core
+        end
+    
+        subgraph L5["Layer 5 — Scoring Layer / Trust Stack"]
+          PTI[Personal Trust Index PTI]:::score
+          CII[Consent Integrity Index CII]:::score
+          OTI[Organisational Trust Index OTI]:::score
+          PCIS[Planetary Consent Index PCI Score]:::score
+          ETS[Engagement Trust Score ETS]:::score
+          MIS[Meta Intelligence Score MIS]:::score
+          EIDX[Energy Indices EROI, CI, NS]:::score
+        end
+    
+        %% Flows
+        UBI --> PCI
+        MNS --> PCI
+        EN --> PCI
+    
+        PCI --> NSA
+        NSA --> SE
+        NSA --> TL
+        NSA --> ENW
+    
+        SE --> PTI
+        SE --> CII
+        SE --> OTI
+        SE --> PCIS
+        SE --> ETS
+        TL --> MIS
+        ENW --> EIDX
+    
+        %% Styles
+        classDef core fill:#fff3d6,stroke:#b38300,stroke-width:1.2px,color:#111,font-weight:bold;
+        classDef box fill:#f5f7fb,stroke:#6b7a99,stroke-width:1px,color:#111;
+        classDef score fill:#eafaf1,stroke:#2b8a3e,stroke-width:1.2px,color:#0f5132,font-weight:bold;
+    
+```
+* * *
+### **Finance & Insurance**
+Risk is mispriced because data is noisy and unverifiable. With **Organisational Trust Indices (OTI)** and **Personal Trust Indices (PTI)** , financial institutions can set **risk-adjusted premiums and lending terms** with unprecedented accuracy. Companies with high OTI scores get cheaper capital; individuals with high PTI scores receive better insurance rates. This transforms trust into measurable value.
+### **Healthcare**
+The system grounds care in biology through **NeuroSignal™**. Instead of relying solely on symptoms and reports, healthcare providers and insurers gain direct access to **biologically anchored clarity** : nervous system stability, stress resilience, recovery rates. This lowers misdiagnosis, reduces costs, and enables **preventive care models** that scale globally.
+### **Talent**
+Hiring and workforce development move away from résumés and prestige signals to **Meta Intelligence Scores (MIS)**. Employers can instantly see resilience, adaptability, logic compression, and ethical alignment — leading to **smarter hiring, reduced churn, and better cultural fit**. For workers, MIS becomes a **portable career passport** across industries and borders.
+### **Energy**
+Through **Energy Indices** (EROI, Carbon Intensity, Nature Score), energy markets gain a **trusted baseline**. Investors, regulators, and consumers can differentiate between lawful, regenerative energy and extractive, harmful practices. This unlocks **green finance at scale** , accelerating the shift toward sustainable energy systems.
+### **Media & Engagement**
+Fake followers, inflated engagement, and manipulated influence dominate the media economy. The **Engagement Trust Score (ETS)** cleans this market by validating **authentic engagement and audience trustworthiness**. Influencers earn credibility, brands pay for genuine impact, and misinformation is stripped of its economic value.
+* * *
+### **Phased Market Entry**
+The adoption path is designed for speed and compounding value:
+  1. **MVP (Phase 1)** → Begin with **personal devices (Apple Watch, wearables)** and **AI agents** that capture biological and behavioural signals, creating the first PTI and MIS baselines.
+
+
+  2. **Expansion (Phase 2)** → Layer into **insurance and healthcare** , where trust-based clarity creates immediate pricing advantages.
+
+
+  3. **Scaling (Phase 3)** → Move into **finance and energy** , embedding indices into lending, compliance, and investment flows.
+
+
+  4. **Policy Integration (Phase 4)** → Governments and regulators adopt **PCI Scores** as sovereign benchmarks, making the indices planetary standards.
+
+
+**In short:** The Signal Economy converts clarity into money. Every sector touched by noise — finance, health, talent, energy, media — becomes a profit centre once signals are **consented, scored, and trusted**.
+* * *
+## **Why It Wins**
+  * **Unfakeable** → Every signal is anchored in biology (via NeuroSignal™) and secured through consent (via PCI). Unlike résumés, marketing, or self-reporting, instability and dishonesty cannot be faked.
+
+
+  * **Universal** → The framework applies seamlessly across individuals, organisations, industries, and nations — creating a single language of trust for the entire economy.
+
+
+  * **Self-Reinforcing** → The flywheel ensures compounding growth: more signals generate more trust, more trust drives adoption, adoption fuels revenue, and revenue attracts more signals.
+
+
+  * **Planetary-Aligned** → Unlike extractive models, the Signal Economy is designed to be regenerative, lawful, and resilient. It aligns economic growth with planetary survival.
+
+
+In the 20th century, the base unit of trust was **money**.
+In the 21st century, the base unit of trust is **signal**.
+* * *
+## **Practical Use Case Scenarios**
+### **1\. The Smart Home That Actually Listens**
+  * **Problem:** Today, devices share household data without meaningful consent.
+
+
+  * **Solution:** Every signal (thermostat readings, camera feeds) is routed through PCI. Consent preferences are set once and applied automatically.
+
+
+  * **Value:** Families gain trust and control while utilities and insurers can access trusted, auditable signals to optimise energy use.
+
+
+* * *
+### **2\. The Coffee That Knows Its Story**
+  * **Problem:** Even “fair trade” labels don’t guarantee ethical sourcing.
+
+
+  * **Solution:** Every step of the coffee journey — farmer, transporter, roaster — logs signals into the Signal Economy ledger. PCI verifies consent at each step.
+
+
+  * **Value:** Consumers know purchases align with their values. Brands differentiate on trust, not marketing spin.
+
+
+* * *
+### **3\. The City That Asks Before It Decides**
+  * **Problem:** Cities deploy sensors without resident input, eroding trust.
+
+
+  * **Solution:** A consent signal goes out: “Are you okay with anonymous traffic data being used for congestion management?” Citizens respond once; their preferences govern all systems.
+
+
+  * **Value:** Citizens trust city tech, planners gain adoption legitimacy, and data is lawful by design.
+
+
+* * *
+### **4\. The Forest That Has a Voice**
+  * **Problem:** Logging or development often ignores ecological health.
+
+
+  * **Solution:** Environmental sensors + community reps generate signals: soil health, biodiversity, community votes. PCI verifies whether harvesting respects agreed thresholds.
+
+
+  * **Value:** Ecosystems and communities both have representation. Companies avoid reputational risk while maintaining lawful access.
+
+
+* * *
+### **5\. Healthcare That Reads the Nervous System**
+  * **Problem:** Healthcare relies on symptoms and self-reporting, creating misdiagnosis and inefficiency.
+
+
+  * **Solution:** NeuroSignal™ integrates biometric data (stress resilience, recovery rates) into the Signal Economy, with patient consent anchored in PCI.
+
+
+  * **Value:** Preventive care, cheaper insurance premiums, and trusted patient profiles that reduce systemic waste.
+
+
+* * *
+### **6\. Hiring Without Noise**
+  * **Problem:** Résumés and interviews are biased and noisy.
+
+
+  * **Solution:** Candidates use the **Talent Ledger** to build Meta Intelligence Scores (MIS), rooted in biology and performance signals.
+
+
+  * **Value:** Employers hire based on unfakeable ability. Candidates carry a portable career passport across borders and industries.
+
+
+* * *
+### **7\. Energy That Proves Itself**
+  * **Problem:** Carbon offsets and registries are inconsistent, slow, and manipulated.
+
+
+  * **Solution:** Every kilowatt is logged into the Signal Economy with Energy Indices (EROI, Carbon Intensity). PCI ensures data is transparent and consent-based.
+
+
+  * **Value:** Banks, insurers, and regulators finally have a lawful baseline for green finance and compliance.
+
+
+* * *
+### **8\. Media That Can’t Be Faked**
+  * **Problem:** Fake followers, inflated likes, and manipulated engagement dominate influencer markets.
+
+
+  * **Solution:** Engagement Trust Scores (ETS) validate signals of real human interaction. PCI governs consent for audience data.
+
+
+  * **Value:** Brands pay only for real impact, influencers gain lasting credibility, and misinformation loses economic power.
+
+
+* * *
+👉 Together, these use cases show how **signal → consent → scoring → trust** applies across **homes, supply chains, cities, ecosystems, healthcare, talent, energy, and media** — making the Signal Economy not a niche tool, but the **next layer of civilisation’s infrastructure** .
+* * *
+## **Adoption Pathways by Sector**
+### **1\. Finance & Insurance**
+  * **Starting Point:** Use **Personal Trust Index (PTI)** \+ **Organisational Trust Index (OTI)** for credit scoring and insurance underwriting.
+
+
+  * **Use Case:** An SME with a high OTI gets cheaper loans; an individual with strong PTI gets reduced premiums.
+
+
+  * **Scaling:** Banks and insurers adopt PCI Scores and Trust Indices as **global benchmarks** , embedding them into compliance and risk pricing.
+
+
+  * **Reinforcement:** More signals from loans, claims, and contracts feed into the ledger, strengthening systemic trust.
+
+
+* * *
+### **2\. Healthcare**
+  * **Starting Point:** Leverage **NeuroSignal™** from wearables (Apple Watch, Oura Ring, medical devices).
+
+
+  * **Use Case:** Patients share stress-resilience data for preventive care; insurers reward resilience with lower premiums.
+
+
+  * **Scaling:** Hospitals, insurers, and public health agencies adopt PCI-verified biological signals as a baseline for diagnosis, coverage, and population health.
+
+
+  * **Reinforcement:** Continuous streams of biological data expand the ledger, powering new health AI models and reducing systemic costs.
+
+
+* * *
+### **3\. Talent & Workforce**
+  * **Starting Point:** Deploy the **Talent Ledger** with **Meta Intelligence Scores (MIS)** for pre-screening and training.
+
+
+  * **Use Case:** Candidates replace résumés with MIS profiles, showing resilience, logic compression, and ethical alignment.
+
+
+  * **Scaling:** Corporates adopt Talent Ledger internally to track and train employees; governments use MIS for workforce planning.
+
+
+  * **Reinforcement:** Millions of practice events (interviews, tasks, training) generate trusted signals, raising the global SNR of talent markets.
+
+
+* * *
+### **4\. Energy & Climate**
+  * **Starting Point:** Pilot with renewable energy assets, logging outputs into the **Energy Indices** (EROI, Carbon Intensity, Nature Score).
+
+
+  * **Use Case:** A solar farm proves its lawful energy output; banks finance it with confidence.
+
+
+  * **Scaling:** Governments and multinationals embed Energy Indices into subsidies, compliance, and global carbon markets.
+
+
+  * **Reinforcement:** Energy becomes a transparent, auditable ledger, replacing greenwashing with measurable regeneration.
+
+
+* * *
+### **5\. Media & Engagement**
+  * **Starting Point:** Introduce the **Engagement Trust Score (ETS)** for influencers and digital platforms.
+
+
+  * **Use Case:** Brands pay only for audiences with PCI-verified engagement; influencers with fake followers lose credibility.
+
+
+  * **Scaling:** Platforms adopt ETS as a standard, forcing creators and advertisers into a **trusted engagement economy**.
+
+
+  * **Reinforcement:** Billions of digital signals flow into the ledger, cleaning up misinformation and restoring trust in communication.
+
+
+* * *
+## **The Flywheel in Motion**
+  * **Finance and insurance** adopt first (capital hungry sectors).
+
+
+  * **Healthcare and talent** follow, leveraging wearables and AI agents.
+
+
+  * **Energy** integrates as the lawful backbone of climate finance.
+
+
+  * **Media** cleans itself with ETS, driving consumer-facing adoption.
+
+
+Each sector feeds signals back into the ledger, accelerating trust, adoption, and revenue — making the **Signal Economy the operating system for civilisation**.
+* * *
+\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**MOC:** [[SYSTEM_MOC]]

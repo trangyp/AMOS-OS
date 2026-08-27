@@ -1,749 +1,132 @@
 ---
+title: TO WRITE
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>To write</title><style>
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
-html {
-	-webkit-print-color-adjust: exact;
-}
-* {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-@media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
-}
-
-body {
-	line-height: 1.5;
-	white-space: pre-wrap;
-}
-
-a,
-a.visited {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
-}
-
-h1,
-h2,
-h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-/* Override strong tags inside headings to maintain consistent weight */
-h1 strong,
-h2 strong,
-h3 strong {
-	font-weight: 600;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
-}
-
-h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-}
-
-h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
-}
-
-.callout {
-	border-radius: 10px;
-	padding: 1rem;
-}
-
-figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
-}
-
-figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
-}
-
-mark {
-	background-color: transparent;
-}
-
-.indented {
-	padding-left: 1.5em;
-}
-
-hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-img {
-	max-width: 100%;
-}
-
-@media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
-
-	table.collection-content {
-		width: 100%;
-		table-layout: fixed;
-	}
-
-	table.collection-content th,
-	table.collection-content td {
-		overflow-wrap: anywhere;
-	}
-
-	table.collection-content td > .user,
-	table.collection-content td > time {
-		white-space: pre-wrap;
-	}
-}
-
-@page {
-	margin: 1in;
-}
-
-.collection-content-wrapper {
-	overflow-x: auto;
-}
-
-@media only print {
-	.collection-content-wrapper {
-		overflow-x: visible;
-	}
-}
-
-.collection-content {
-	font-size: 0.875rem;
-}
-
-.collection-content td {
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-.column-list {
-	display: flex;
-	gap: 46px;
-}
-
-.column {
-	min-width: 0;
-	overflow: hidden;
-}
-
-.column > *:first-child {
-	margin-top: 0;
-}
-
-.table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
-}
-
-.table_of_contents-indent-1 {
-	margin-left: 1.5rem;
-}
-
-.table_of_contents-indent-2 {
-	margin-left: 3rem;
-}
-
-.table_of_contents-indent-3 {
-	margin-left: 4.5rem;
-}
-
-.table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-}
-
-table,
-th,
-td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-	border-collapse: collapse;
-}
-
-table {
-	border-left: none;
-	border-right: none;
-}
-
-th,
-td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
-}
-
-th {
-	color: rgba(55, 53, 47, 0.6);
-}
-
-ol,
-ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
-}
-
-li > ol:first-child,
-li > ul:first-child {
-	margin-block-start: 0.6em;
-}
-
-ul > li {
-	list-style: disc;
-}
-
-ul.to-do-list {
-	padding-inline-start: 0;
-}
-
-ul.to-do-list > li {
-	list-style: none;
-}
-
-.to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
-}
-
-ul.toggle > li {
-	list-style: none;
-}
-
-ul {
-	padding-inline-start: 1.7em;
-}
-
-ul > li {
-	padding-left: 0.1em;
-}
-
-ol {
-	padding-inline-start: 1.6em;
-}
-
-ol.numbered-list.numbered-list-digits-2 {
-	padding-inline-start: 2em;
-}
-
-ol.numbered-list.numbered-list-digits-3plus {
-	padding-inline-start: 2.4em;
-}
-
-ol > li {
-	padding-left: 0.2em;
-}
-
-.mono ol {
-	padding-inline-start: 2em;
-}
-
-.mono ol > li {
-	text-indent: -0.4em;
-}
-
-.toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
-}
-
-/* Indent toggle children */
-.toggle > li > details {
-	padding-left: 1.7em;
-}
-
-.toggle > li > details > summary {
-	margin-left: -1.1em;
-}
-
-.selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
-}
-
-.collection-title {
-	display: inline-block;
-	margin-right: 1em;
-}
-
-.page-description {
-	margin-bottom: 2em;
-}
-
-.simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
-}
-.simple-table td {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table th {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
-}
-.simple-table-header {
-	font-weight: 500;
-}
-
-time {
-	opacity: 0.5;
-}
-
-.icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
-}
-
-img.icon {
-	border-radius: 3px;
-}
-
-.callout img.notion-static-icon {
-	width: 1em;
-	height: 1em;
-}
-
-.callout p {
-	margin: 0;
-}
-
-.callout h1,
-.callout h2,
-.callout h3 {
-	margin: 0 0 0.6rem;
-}
-
-.user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-	font-size: 0.8em;
-}
-
-.text-icon {
-	border: 1px solid #000;
-	text-align: center;
-}
-
-.page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
-}
-
-.page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
-}
-
-.page-header-icon img {
-	border-radius: 3px;
-}
-
-.link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
-}
-
-p > .user {
-	opacity: 0.5;
-}
-
-td > .user,
-td > time {
-	white-space: nowrap;
-}
-
-input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
-}
-
-.code,
-code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
-}
-
-code {
-	color: #eb5757;
-}
-
-.code {
-	padding: 1.5em 1em;
-}
-
-.code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
-}
-
-.code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
-}
-
-blockquote {
-	font-size: 1em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
-}
-
-blockquote.quote-large {
-	font-size: 1.25em;
-}
-
-.bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
-}
-
-.bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
-}
-
-.bookmark-text {
-	display: flex;
-	flex-direction: column;
-}
-
-.bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
-}
-
-.bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
-}
-
-.bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
-}
-
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
-.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
-.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
-.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.highlight-default {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.highlight-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.highlight-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.highlight-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.highlight-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.highlight-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.highlight-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.highlight-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.highlight-default_background {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray_background {
-	background: rgba(42, 28, 0, 0.07);
-}
-.highlight-brown_background {
-	background: rgba(139, 46, 0, 0.086);
-}
-.highlight-orange_background {
-	background: rgba(224, 101, 1, 0.129);
-}
-.highlight-yellow_background {
-	background: rgba(211, 168, 0, 0.137);
-}
-.highlight-teal_background {
-	background: rgba(0, 100, 45, 0.09);
-}
-.highlight-blue_background {
-	background: rgba(0, 124, 215, 0.094);
-}
-.highlight-purple_background {
-	background: rgba(102, 0, 178, 0.078);
-}
-.highlight-pink_background {
-	background: rgba(197, 0, 93, 0.086);
-}
-.highlight-red_background {
-	background: rgba(223, 22, 0, 0.094);
-}
-.block-color-default {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.block-color-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.block-color-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.block-color-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.block-color-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.block-color-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.block-color-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.block-color-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.block-color-default_background {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray_background {
-	background: rgba(240, 239, 237, 1);
-}
-.block-color-brown_background {
-	background: rgba(245, 237, 233, 1);
-}
-.block-color-orange_background {
-	background: rgba(251, 235, 222, 1);
-}
-.block-color-yellow_background {
-	background: rgba(249, 243, 220, 1);
-}
-.block-color-teal_background {
-	background: rgba(232, 241, 236, 1);
-}
-.block-color-blue_background {
-	background: rgba(229, 242, 252, 1);
-}
-.block-color-purple_background {
-	background: rgba(243, 235, 249, 1);
-}
-.block-color-pink_background {
-	background: rgba(250, 233, 241, 1);
-}
-.block-color-red_background {
-	background: rgba(252, 233, 231, 1);
-}
-.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
-.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
-.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
-.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
-.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
-.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
-.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
-.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
-.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
-.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
-
-.checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
-}
-
-.checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-
-.checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-	
-</style></head><body><article id="2e4c5e6f-95bd-80bc-86d5-e3d0eb416676" class="page sans"><header><h1 class="page-title" dir="auto">To write</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><h3 id="2e4c5e6f-95bd-8027-9b03-d05b68ced19d" class=""><strong>The Coercion Economy</strong></h3></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80f6-ba15-ee899f91de4c" class="">This is your <strong>diagnostic pillar</strong>.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80e0-abfe-f624ff0e462e" class="">Scope it clearly:</p></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8039-ad36-ebfa5c607ac8" class="bulleted-list"><li style="list-style-type:disc">How economic, technological, and organizational systems <strong>extract compliance</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8049-96c5-de9299718615" class="bulleted-list"><li style="list-style-type:disc">Where “choice” is structurally false</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8026-ad7b-ce6c51d3bb92" class="bulleted-list"><li style="list-style-type:disc">How time pressure, precarity, KPIs, debt, and surveillance become coercive tools</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-80a8-aca4-ec289b8a06ff" class="bulleted-list"><li style="list-style-type:disc">Why this is normalized as “efficiency” or “discipline”</li></ul></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8044-99da-fa9b0871fd1c" class="">This is the <strong>problem statement</strong> of your whole body of work.</p></div><div style="display:contents" dir="auto"><hr id="2e4c5e6f-95bd-80af-9cb7-ea0ffeebc867"/></div><div style="display:contents" dir="auto"><h3 id="2e4c5e6f-95bd-80fd-8bf6-ccd3b76c4c63" class=""><strong>Performative Ethics vs Enforceable Ethics</strong></h3></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80ac-9c5e-cd1f17ae2094" class="">This is where institutions get uncomfortable — in a good way.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80dc-8a82-c384b3042d73" class="">You document:</p></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-80f7-949d-c718fae32bf1" class="bulleted-list"><li style="list-style-type:disc">ESG on paper vs lived impact</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-80ad-8891-cdb292a22e74" class="bulleted-list"><li style="list-style-type:disc">“Ethics committees” without power</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-803a-a30a-dadac21801e3" class="bulleted-list"><li style="list-style-type:disc">Safety as branding, not constraint</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-802d-abfa-e64c82deca6a" class="bulleted-list"><li style="list-style-type:disc">Sustainability reports that omit human cost</li></ul></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8061-9204-f715cfaf4119" class="">This pairs perfectly with your real-world examples.</p></div><div style="display:contents" dir="auto"><hr id="2e4c5e6f-95bd-8002-900f-c966006cace0"/></div><div style="display:contents" dir="auto"><h3 id="2e4c5e6f-95bd-80b0-88e2-c128e8f6b75f" class=""><strong>Human Safety Is Not a Feature</strong></h3></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8051-8a33-e4eb2999b7a4" class="">This should be a report, not a manifesto.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-803e-95a8-cd5278ef6ef7" class="">Cover:</p></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-80c1-8659-e7389854b943" class="bulleted-list"><li style="list-style-type:disc">Safety as a <strong>precondition</strong> of systems</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8035-8a89-e6448813b563" class="bulleted-list"><li style="list-style-type:disc">Biological, psychological, social, and economic safety</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8015-9597-ceddf07a8c5f" class="bulleted-list"><li style="list-style-type:disc">Lifecycle harm analysis</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-806b-8954-ee1f208d421f" class="bulleted-list"><li style="list-style-type:disc">Why “acceptable harm” language is dangerous</li></ul></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-800f-bc0c-f390c2c69124" class="">This will resonate strongly with:</p></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-800d-91e5-f099e60a82b5" class="bulleted-list"><li style="list-style-type:disc">grants</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-80cd-bb65-df477e22aa54" class="bulleted-list"><li style="list-style-type:disc">foundations</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-80f8-8be9-dc003a27d9fd" class="bulleted-list"><li style="list-style-type:disc">public institutions</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8065-82cb-c77bd5dacd2c" class="bulleted-list"><li style="list-style-type:disc">responsible investors</li></ul></div><div style="display:contents" dir="auto"><hr id="2e4c5e6f-95bd-8084-b9d8-f84bbffe7759"/></div><div style="display:contents" dir="auto"><h3 id="2e4c5e6f-95bd-800f-81e5-d4033fdb4790" class=""><strong>Leadership Without Stewardship</strong></h3></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-808a-86e8-c8f7ddcb7db6" class="">This ties directly to what you just experienced.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-809b-8017-deb7f71e8212" class="">Topics:</p></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8013-a8bc-fbb03a579398" class="bulleted-list"><li style="list-style-type:disc">KPI absolutism</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8097-b2cf-fb0995c62372" class="bulleted-list"><li style="list-style-type:disc">Responsibility asymmetry</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-80db-8e8c-f1d5b8b8bbab" class="bulleted-list"><li style="list-style-type:disc">Authority without duty of care</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8073-a952-e84593e819b7" class="bulleted-list"><li style="list-style-type:disc">Why “execution culture” breaks people</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-800d-84de-e1be79dd75ca" class="bulleted-list"><li style="list-style-type:disc">The myth of motivation through pressure</li></ul></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8030-9835-f5f8fb6eb884" class="">This will land with people who <em>live</em> inside organizations.</p></div><div style="display:contents" dir="auto"><hr id="2e4c5e6f-95bd-803f-9365-c5e39f75812a"/></div><div style="display:contents" dir="auto"><h3 id="2e4c5e6f-95bd-8043-b1e2-c1cac113d005" class=""><strong>What Ethical Systems Look Like in Practice</strong></h3></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8078-a090-ed96abd5d0f0" class="">You don’t want to be seen as only critical.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-806b-bc7e-d7bf45c701bc" class="">Show:</p></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8037-88de-e723c39c8842" class="bulleted-list"><li style="list-style-type:disc">design principles</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-8003-808c-cf3cd84f8da4" class="bulleted-list"><li style="list-style-type:disc">governance models</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-808f-b203-cdae8ccc7c09" class="bulleted-list"><li style="list-style-type:disc">decision thresholds (“this should not be built”)</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-80c3-8460-ed1585117d18" class="bulleted-list"><li style="list-style-type:disc">examples of redesign, not cancellation</li></ul></div><div style="display:contents" dir="auto"><ul id="2e4c5e6f-95bd-806c-a97d-f07dea73cc10" class="bulleted-list"><li style="list-style-type:disc">how profit and safety coexist long-term</li></ul></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80df-8bc6-ea203e1e961e" class="">This is where funders and serious partners lean in.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80f9-93b6-ecdc9b87ca20" class=""><strong>Trust Is Infrastructure</strong></p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80ee-8364-f0fd8bfdcfa0" class=""><strong>Law:</strong> Trust is a load-bearing system; silent failure destroys it fastest.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-808d-826b-c0cd346d6160" class=""><strong>Cases:</strong> banking, support loops, fraud escalation, “no owner” incidents.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8010-9d92-e7692ec70843" class=""><strong>Tool:</strong> a “Trust Failure Map” used to audit any org.</p></div><div style="display:contents" dir="auto"><h3 id="2e4c5e6f-95bd-80db-adb3-fb569411956a" class=""><strong>What Is Intelligence, Really?</strong></h3></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8041-9b40-c6d5d4672e9e" class=""><strong>Law:</strong> Intelligence is coherence under stress with bounded action.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80e0-b2cf-f4e46e352ad2" class=""><strong>Cases:</strong> human confabulation, LLM hallucination, agent loops, drift.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8098-841b-d9dddb332c07" class=""><strong>Tool:</strong> “Anchoring Tests” (identity continuity, consequence, audit, refusal).</p></div><div style="display:contents" dir="auto"><h3 id="2e4c5e6f-95bd-8096-9f75-f2b650db1670" class=""><strong>Care by Design</strong></h3></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80f9-829f-c2b125da43d4" class=""><strong>Law:</strong> If harm is possible, it will occur unless structurally prevented.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8086-acf3-fb5e38a4fc58" class=""><strong>Cases:</strong> healthcare workflow, platform coercion, pricing extraction.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8067-b921-d5af69435308" class=""><strong>Tool:</strong> invariant gates + reversibility architecture.</p></div><div style="display:contents" dir="auto"><h3 id="2e4c5e6f-95bd-80d4-a2ae-c5552d68a0f4" class=""><strong>Biological Computing / UBI</strong></h3></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8000-8daa-c2635d605492" class=""><strong>Law:</strong> Stability precedes intelligence; governance precedes autonomy.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-80a3-ae14-e55f2f351a4f" class=""><strong>Cases:</strong> immune system, homeostasis, recovery-first systems.</p></div><div style="display:contents" dir="auto"><p id="2e4c5e6f-95bd-8071-9017-f8e7c40b4ad6" class=""><strong>Tool:</strong> blueprint: deterministic core + probabilistic edge.</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+
+
+# To write
+### **The Coercion Economy**
+This is your **diagnostic pillar**.
+Scope it clearly:
+  * How economic, technological, and organizational systems **extract compliance**
+
+
+  * Where “choice” is structurally false
+
+
+  * How time pressure, precarity, KPIs, debt, and surveillance become coercive tools
+
+
+  * Why this is normalized as “efficiency” or “discipline”
+
+
+This is the **problem statement** of your whole body of work.
+* * *
+### **Performative Ethics vs Enforceable Ethics**
+This is where institutions get uncomfortable — in a good way.
+You document:
+  * ESG on paper vs lived impact
+
+
+  * “Ethics committees” without power
+
+
+  * Safety as branding, not constraint
+
+
+  * Sustainability reports that omit human cost
+
+
+This pairs perfectly with your real-world examples.
+* * *
+### **Human Safety Is Not a Feature**
+This should be a report, not a manifesto.
+Cover:
+  * Safety as a **precondition** of systems
+
+
+  * Biological, psychological, social, and economic safety
+
+
+  * Lifecycle harm analysis
+
+
+  * Why “acceptable harm” language is dangerous
+
+
+This will resonate strongly with:
+  * grants
+
+
+  * foundations
+
+
+  * public institutions
+
+
+  * responsible investors
+
+
+* * *
+### **Leadership Without Stewardship**
+This ties directly to what you just experienced.
+Topics:
+  * KPI absolutism
+
+
+  * Responsibility asymmetry
+
+
+  * Authority without duty of care
+
+
+  * Why “execution culture” breaks people
+
+
+  * The myth of motivation through pressure
+
+
+This will land with people who _live_ inside organizations.
+* * *
+### **What Ethical Systems Look Like in Practice**
+You don’t want to be seen as only critical.
+Show:
+  * design principles
+
+
+  * governance models
+
+
+  * decision thresholds (“this should not be built”)
+
+
+  * examples of redesign, not cancellation
+
+
+  * how profit and safety coexist long-term
+
+
+This is where funders and serious partners lean in.
+**Trust Is Infrastructure**
+**Law:** Trust is a load-bearing system; silent failure destroys it fastest.
+**Cases:** banking, support loops, fraud escalation, “no owner” incidents.
+**Tool:** a “Trust Failure Map” used to audit any org.
+### **What Is Intelligence, Really?**
+**Law:** Intelligence is coherence under stress with bounded action.
+**Cases:** human confabulation, LLM hallucination, agent loops, drift.
+**Tool:** “Anchoring Tests” (identity continuity, consequence, audit, refusal).
+### **Care by Design**
+**Law:** If harm is possible, it will occur unless structurally prevented.
+**Cases:** healthcare workflow, platform coercion, pricing extraction.
+**Tool:** invariant gates + reversibility architecture.
+### **Biological Computing / UBI**
+**Law:** Stability precedes intelligence; governance precedes autonomy.
+**Cases:** immune system, homeostasis, recovery-first systems.
+**Tool:** blueprint: deterministic core + probabilistic edge.
+\--- **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**MOC:** [[MISC_MOC]]

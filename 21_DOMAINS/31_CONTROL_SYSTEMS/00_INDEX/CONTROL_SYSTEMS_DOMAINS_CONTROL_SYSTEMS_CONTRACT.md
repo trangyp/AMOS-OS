@@ -31,3 +31,6 @@ node_id: amos_l_systems_00_index_control_systems_domains_control_systems_contrac
 node_type: note
 path: 21_DOMAINS/31_CONTROL_SYSTEMS/00_INDEX/CONTROL_SYSTEMS_DOMAINS_CONTROL_SYSTEMS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_CONTROL_SYSTEMS_DOMAINS_README]]

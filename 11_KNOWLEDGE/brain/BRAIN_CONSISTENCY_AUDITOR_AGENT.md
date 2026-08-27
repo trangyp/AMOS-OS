@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/agents/Brain_Consistency_Auditor_Agent.md`
 
 - Open the agent: .devin/agents/Brain_Consistency_Auditor_Agent.md
+
+---
+**Links:** [[BRAIN_MOC]] | [[KNOWLEDGE_MOC]]

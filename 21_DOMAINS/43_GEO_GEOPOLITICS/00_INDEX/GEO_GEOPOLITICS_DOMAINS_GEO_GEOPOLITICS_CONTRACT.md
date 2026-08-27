@@ -31,3 +31,6 @@ node_id: amos_opolitics_00_index_geo_geopolitics_domains_geo_geopolitics_contrac
 node_type: note
 path: 21_DOMAINS/43_GEO_GEOPOLITICS/00_INDEX/GEO_GEOPOLITICS_DOMAINS_GEO_GEOPOLITICS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_GEO_GEOPOLITICS_DOMAINS_README]]

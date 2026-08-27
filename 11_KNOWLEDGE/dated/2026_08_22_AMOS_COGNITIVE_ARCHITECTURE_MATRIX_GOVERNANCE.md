@@ -101,6 +101,9 @@ Closing the matrix means the AMOS OS Kernel no longer treats completion as a fla
 - The 19 explicit gaps are `GapKind.RELATION` records in the Completion Graph.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS All 249 Gaps Closed
 - 2026-08-22 human_interaction cluster closed
+
+---
+**MOC:** [[DATED_MOC]]

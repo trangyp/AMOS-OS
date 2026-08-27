@@ -26,3 +26,6 @@ UST = the canonical structural tree of the AMOS Universe domain: the MECE decomp
 
 ## Epistemic note
 This note is a **link-resolution anchor**, not an independent architecture claim. All structural authority is delegated to the UTC master file above. Confidence = SOURCE (delegated to canonical master).
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

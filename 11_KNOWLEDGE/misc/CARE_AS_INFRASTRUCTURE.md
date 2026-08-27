@@ -1,4 +1,5 @@
 ---
+title: CARE AS INFRASTRUCTURE
 
 canon-group: human-system
 canon-type: architecture
@@ -28,6 +29,7 @@ tags:
 * rscf/type-model
 
 ---
+
 
 # Care-as-Infrastructure
 
@@ -3647,4 +3649,7 @@ not merely interface language.}
 }
 ]
 
-Source basis: 
+Source basis:
+
+---
+**Links:** [[MISC_MOC]] | [[KNOWLEDGE_MOC]]

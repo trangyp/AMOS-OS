@@ -1,4 +1,5 @@
 ---
+title: MD 2026 08 23 AMOS CONSULTING LEGACY BRAIN2 CORE EMPTY STATE
 origin_architect: Trang Phan
 provenance: direct inspection of AMOS-Consulting/AMOS-SYSTEM-main/_00_AMOS_CANON:/_LEGACY BRAIN2/Core on 2026-08-23
 confidence: 1.0
@@ -6,6 +7,7 @@ epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
 tags: [legacy-brain, amos-consulting, empty, dedup, core, gap, brain]
 ---
+
 
 # AMOS-Consulting LEGACY BRAIN2 Core — Empty State
 
@@ -40,4 +42,7 @@ Because the directories are empty, this is a structural anchor only. When asked,
 ## Cross-References
 
 - 2026-08-23 Cosmo Brain Project Directory Map
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[BRAIN_MOC]]

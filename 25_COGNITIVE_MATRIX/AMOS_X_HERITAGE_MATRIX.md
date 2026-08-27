@@ -4016,18 +4016,18 @@ CONSTRAINED_BY
 RSCF_RELATIONS:
 
   INDEXED_BY:
-    - "[[00_ROOT/00-Home]]"
+    - "[[00_HOME]]"
     - "[[AMOS_RSCF_NODES]]"
 
   BELONGS_TO:
     - "[[25_COGNITIVE_MATRIX]]"
 
   GOVERNED_BY:
-    - "[[01_CANON/01_CORE_LAWS/LAW_HIERARCHY]]"
+    - "[[LAW_HIERARCHY]]"
 
   RELATED_TO:
-    - "[[AMOS Cognitive Architecture Matrix]]"
-    - "[[AMOS Full Brain OS]]"
+    - "[[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]"
+    - "[[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
     - "[[AMOS Physics Cosmos Engine]]"
     - "[[AMOS Strategy Game Engine]]"
     - "[[AMOS Econ Finance Engine]]"
@@ -4230,11 +4230,11 @@ No AMOS process should replace a genuine gap with fabricated certainty.
 
 **Related:**
 
-- [[00_ROOT/00-Home]]
+- [[00_HOME]]
 - [[AMOS_RSCF_NODES]]
 - [[25_COGNITIVE_MATRIX]]
-- [[AMOS Cognitive Architecture Matrix]]
-- [[AMOS Full Brain OS]]
+- [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
+- [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
 
 ---
 
@@ -4254,14 +4254,17 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY]]
+  - GOVERNED_BY: [[LAW_HIERARCHY]]
 
   - BELONGS_TO: [[25_COGNITIVE_MATRIX]]
 
-  - RELATED_TO: [[AMOS Cognitive Architecture Matrix]]
+  - RELATED_TO: [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]
 
-  - RELATED_TO: [[AMOS Full Brain OS]]
+  - RELATED_TO: [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+
+---
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]]

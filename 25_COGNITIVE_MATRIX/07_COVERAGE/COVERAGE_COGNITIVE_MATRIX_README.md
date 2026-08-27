@@ -70,3 +70,6 @@ node_id: coverage_infrastructure_readme
 node_type: note
 path: 25_COGNITIVE_MATRIX/07_COVERAGE/07_COVERAGE_COGNITIVE_MATRIX_README.md
 claim_class: DERIVED
+
+---
+**MOC:** [[07_COVERAGE_MOC]]

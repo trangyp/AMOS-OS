@@ -2692,3 +2692,6 @@ So this is suitable as the **full `K_HML` canon-candidate specification**, but t
 
 ---
 **Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+
+---
+**MOC:** [[09_INTEGRATION_MOC]]

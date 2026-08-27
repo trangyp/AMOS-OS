@@ -1,6 +1,11 @@
 ---
+title: 2026 08 25 DUAL CANON GROUNDING SYSTEM
 tags: [dated, dated/2026-08-25]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Dual-Canon Grounding System — Session Completion Note (2026-08-25)
 
 ## What was built (this workstream, all committed)
@@ -36,3 +41,6 @@ Gates 10+13 · UBCAR 8 · Pipeline 11/11 · MURK 10 · DMER 21 · TS vitest 1142
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

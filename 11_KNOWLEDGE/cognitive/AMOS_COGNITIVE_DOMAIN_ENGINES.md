@@ -1,3 +1,11 @@
+---
+title: AMOS_COGNITIVE_DOMAIN_ENGINES
+tags: [cognitive]
+type: document
+source: 11_KNOWLEDGE/cognitive
+---
+
+
 """
 AMOS Brain Engine Registry
 ==========================
@@ -1294,3 +1302,6 @@ def demo() -> None:
 
 if __name__ == "__main__":
     demo()
+
+---
+**Links:** [[COGNITIVE_MOC]] | [[KNOWLEDGE_MOC]]

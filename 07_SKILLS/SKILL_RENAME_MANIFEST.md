@@ -3,6 +3,7 @@ name: skill-rename-manifest
 version: 1.0.0
 source: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 description: Proposed skill renames based on AMOS Naming Standard (lowercase-kebab, no decorative tokens, ASCII-only).
+tags: [note, 07-skills]
 ---
 
 # AMOS Skill Rename Manifest
@@ -121,3 +122,6 @@ description: Proposed skill renames based on AMOS Naming Standard (lowercase-keb
 | `amos-universe-brain-super-engine` | `amos-universe-brain-engine` | DECORATIVE:super | `AMOS` | _00_Cosmo brain/UNIVERSE_BRAIN_SUPER_ENGINE_vInfinity_FULL.m... |
 | `amos-vomni-kernel-master` | `amos-kernel-master` | DECORATIVE:vomni | `AMOS` |  |
 | `amos-vomni-master-kernel` | `amos-master-kernel` | DECORATIVE:vomni | `AMOS` |  |
+
+---
+**MOC:** [[07_SKILLS_MOC]]

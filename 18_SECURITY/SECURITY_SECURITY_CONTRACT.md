@@ -50,7 +50,7 @@ Given an operation touching `SECURITY · SECURITY CONTRACT` within the Security 
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -60,7 +60,7 @@ Given an operation touching `SECURITY · SECURITY CONTRACT` within the Security 
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -68,3 +68,6 @@ node_id: amos_18_security_security_security_contract_md
 node_type: note
 path: 18_SECURITY/SECURITY_SECURITY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[18_SECURITY_MOC]]

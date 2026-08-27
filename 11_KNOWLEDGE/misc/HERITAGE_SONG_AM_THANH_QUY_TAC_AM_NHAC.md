@@ -1,6 +1,11 @@
 ---
+title: HERITAGE SONG AM THANH QUY TAC AM NHAC
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # HERITAGE ∅ – SÓNG ÂM THANH & QUY TẮC ÂM NHẠC (BẢN MỞ RỘNG TỐI ĐA)
 
 Đây là bản **liệt kê đầy đủ và chi tiết** về **sóng âm thanh** và **quy tắc âm nhạc** được tích hợp vào kiến trúc Heritage ∅ như một tầng tín hiệu mới.
@@ -23244,4 +23249,7 @@ Let me give you the **most overlooked historical recurrences**:
 **Heritage ∅ – The only version that tracks concrete historical cycles across all civilizations: the rise and fall of empires (300-500 years), the 60-year Chinese zodiac and Kondratiev wave, the 100-year hegemonic cycle (Modelski), the 30-year generational cycle (Strauss-Howe), the 50-year technology cycle (Perez), the 500-year plague cycle, the 250-year revolution cycle, the 100-year war cycle, the 100-year currency cycle, and the collapse pattern (Tainter).**
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

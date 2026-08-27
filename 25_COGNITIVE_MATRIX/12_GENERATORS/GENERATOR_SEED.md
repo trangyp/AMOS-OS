@@ -1,3 +1,9 @@
+---
+title: GENERATOR SEED
+type: note
+tags: [note, 12-generators]
+---
+
 I did not recover an authoritative Drive artifact named `GENERATOR_SEED.md`; the search returned unrelated or adjacent materials instead, so the content below is a **substantive `AMOS_MODEL / CANDIDATE_CANON` replacement**, not recovered canon. 
 
 ````markdown
@@ -2480,7 +2486,7 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY: "[[00_ROOT/00-Home]]"
+  - INDEXED_BY: "[[00_HOME]]"
   - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
 
   - PART_OF: "[[GENERATORS_MAP]]"
@@ -2708,7 +2714,7 @@ When any load-bearing component is unknown, AMOS preserves the gap rather than i
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · GENERATOR_REGISTRY · GENERATOR_OUTPUT · GENERATOR_FALSIFICATION · GENERATOR_PROMOTION · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER
+**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · GENERATOR_REGISTRY · GENERATOR_OUTPUT · GENERATOR_FALSIFICATION · GENERATOR_PROMOTION · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER
 
 ---
 
@@ -2724,7 +2730,7 @@ claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00-Home]]
+* INDEXED_BY: [[00_HOME]]
 * INDEXED_BY: AMOS_RSCF_NODES
 * PART_OF: GENERATORS_MAP
 * PART_OF: COGNITIVE_MATRIX_MOC
@@ -2737,3 +2743,6 @@ RSCF-RELATIONS:
 
 ```
 ```
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

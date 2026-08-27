@@ -31,3 +31,6 @@ node_id: cm_ation_00_index_primitives_cognitive_matrix_l15_goal_formation_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/00_INDEX/PRIMITIVES_COGNITIVE_MATRIX_L15_GOAL_FORMATION_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_L15_GOAL_FORMATION_PRIMITIVES_COGNITIVE_MATRIX_README]]

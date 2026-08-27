@@ -1,0 +1,23 @@
+---
+title: 06_CELL_CONTRACTS MOC
+type: moc
+tags: [moc, 06-cell-contracts]
+---
+
+# 06_CELL_CONTRACTS — Map of Content
+
+## Files
+
+- [[CELL_AUTHORITY]]
+- [[CELL_BINDINGS]]
+- [[CELL_CONTRACTS_COGNITIVE_MATRIX_README]]
+- [[CELL_EVIDENCE]]
+- [[CELL_STATE]]
+- [[COGNITIVE_MATRIX_CELL_CONTRACTS_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_CELL_CONTRACTS_COGNITIVE_MATRIX_README]]
+
+---
+**Parent:** [[25_COGNITIVE_MATRIX_MOC]]

@@ -1,7 +1,9 @@
 ---
+title: BIOLOGY COGNITION MODEL
 aliases: [Biology & Cognition Engine, AMOS_Biology_Cognition]
 tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/biology-cognition-model, biology-ubi]
 ---
+
 
 # AMOS Biology & Cognition Engine
 
@@ -24,4 +26,7 @@ The **Biology and Cognition Engine** provides a 7-layer scaffolding to determini
 Designed to approximate 100% conceptual coverage for biological modeling and AI persona mapping. **It is not a medical device, nor a substitute for a clinician.** High-stakes decisions demand human review.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BIOLOGY-UBI_MOC]]

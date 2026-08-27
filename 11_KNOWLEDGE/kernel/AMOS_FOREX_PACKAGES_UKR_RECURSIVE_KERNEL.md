@@ -1,6 +1,11 @@
 ---
+title: AMOS FOREX PACKAGES UKR RECURSIVE KERNEL
 tags: [kernel]
+type: document
+source: 11_KNOWLEDGE/kernel
 ---
+
+
 """UKR recursive kernel – orchestrates the 17-stage pipeline.
 
 The public function is ``process_ukr`` which receives a ``UKRState`` instance and
@@ -281,4 +286,7 @@ def process_ukr(state) -> CanonPermission:
 __all__ = ["process_ukr", "STAGE_ORDER"]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[KERNEL_MOC]]

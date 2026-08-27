@@ -50,7 +50,7 @@ Given an operation touching `CELL CONTRACTS COGNITIVE MATRIX CELL CONTRACTS CONT
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -60,7 +60,7 @@ Given an operation touching `CELL CONTRACTS COGNITIVE MATRIX CELL CONTRACTS CONT
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT/00-Home]]
+**Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]
 
 ---
 RSCF-NODE
@@ -68,3 +68,6 @@ node_id: cm_racts_00_index_cell_contracts_cognitive_matrix_cell_contracts_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/00_INDEX/CELL_CONTRACTS_COGNITIVE_MATRIX_CELL_CONTRACTS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_CELL_CONTRACTS_COGNITIVE_MATRIX_README]]

@@ -1,6 +1,11 @@
 ---
+title: 2026 08 25 QUANTUM V080 THERMODYNAMICS CYCLE
 tags: [dated, dated/2026-08-25]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Quantum Library v0.8.0 Cycle — Quantum Thermodynamics (2026-08-25)
 
 ## Cycle summary
@@ -39,3 +44,6 @@ watch for further uncommitted test edits.
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

@@ -1,6 +1,11 @@
 ---
+title: DOM BASED CONTROLLING WEB MESSAGE SOURCE
 tags: [control]
+type: document
+source: 11_KNOWLEDGE/control
 ---
+
+
 ## Controlling web-message source
 What is it
 * web messages can be used as a source
@@ -19,4 +24,7 @@ How to construct an attack
 * For cross-origin messaging: exploit `event.source` to send a reply to a different window, creating a confused-deputy scenario where the trusted page acts on behalf of the attacker
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[control_MOC]]

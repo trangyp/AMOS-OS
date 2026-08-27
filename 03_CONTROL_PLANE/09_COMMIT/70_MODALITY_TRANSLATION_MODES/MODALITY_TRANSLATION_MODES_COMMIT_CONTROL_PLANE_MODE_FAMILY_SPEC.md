@@ -31,3 +31,6 @@ node_id: cp_es_modality_translation_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/70_MODALITY_TRANSLATION_MODES/MODALITY_TRANSLATION_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[70_MODALITY_TRANSLATION_MODES_MOC]]

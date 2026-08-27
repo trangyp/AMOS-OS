@@ -1,6 +1,11 @@
 ---
+title: WELCOME
 tags: [misc]
+type: note
+source: 11_KNOWLEDGE/misc
 ---
+
+
 This is your new *vault*.
 
 Make a note of something, create a link, or try [the Importer](https://help.obsidian.md/Plugins/Importer)!
@@ -8,4 +13,7 @@ Make a note of something, create a link, or try [the Importer](https://help.obsi
 When you're ready, delete this note and make the vault your own.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

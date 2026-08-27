@@ -1,6 +1,11 @@
 ---
+title: AMOS SKILL CREATION WORKFLOW
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-skill-creation-workflow, amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 # AMOS Skill Creation Workflow
 
@@ -117,4 +122,7 @@ If the skill represents a significant capability, document it in the brain vault
 AMOS skills live in `~/.hermes/skills/<category>/amos-<name>/SKILL.md`. Categories: reasoning, tech, docs, communication. Skill creation workflow: identify gap → name+categorize → define content (frontmatter, when to use, what it does, how to use, examples, references) → check integration (kernel routing, law compliance, IP protection, expression translation) → create file → document in brain vault. Existing skills: amos-reasoning-loop (reasoning), amos-law-stack (reasoning), amos-cognition-modes (reasoning), amos-expression-overlay (communication), amos-tech-kernel-catalog (tech), amos-docs-bridge (docs).
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

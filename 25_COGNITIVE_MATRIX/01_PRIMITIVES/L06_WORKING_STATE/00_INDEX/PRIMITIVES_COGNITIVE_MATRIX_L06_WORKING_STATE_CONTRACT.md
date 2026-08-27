@@ -31,3 +31,6 @@ node_id: cm__state_00_index_primitives_cognitive_matrix_l06_working_state_contra
 node_type: note
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE/00_INDEX/PRIMITIVES_COGNITIVE_MATRIX_L06_WORKING_STATE_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_L06_WORKING_STATE_PRIMITIVES_COGNITIVE_MATRIX_README]]

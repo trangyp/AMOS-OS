@@ -1,6 +1,12 @@
 ---
+title: AMOS COLLAPSE SPACE COVERAGE AUDIT
 tags: [amos-general]
+type: code
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
+
 ````markdown
 ---
 title: AMOS Collapse-Space Coverage Audit
@@ -1357,9 +1363,13 @@ The legacy document remains useful as historical source material, but its numeri
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · amos-7-part-universe-canon-full · amos-16-canonical-laws-existence · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · amos-7-part-universe-canon-full · amos-16-canonical-laws-existence · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ```
 
 :contentReference[oaicite:0]{index=0}
 ```
+```
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

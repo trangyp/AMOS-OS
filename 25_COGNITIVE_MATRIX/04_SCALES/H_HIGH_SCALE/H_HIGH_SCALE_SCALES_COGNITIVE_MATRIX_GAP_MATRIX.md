@@ -1,3 +1,9 @@
+---
+title: H HIGH SCALE SCALES COGNITIVE MATRIX GAP MATRIX
+type: note
+tags: [note, h-high-scale]
+---
+
 # H — Gap Matrix
 
 **Package:** `H_HIGH_SCALE`  
@@ -40,3 +46,6 @@ node_type: note
 path: 04_SCALES/H_HIGH_SCALE/H_HIGH_SCALE_SCALES_COGNITIVE_MATRIX_GAP_MATRIX.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/H_HIGH_SCALE_SCALES_COGNITIVE_MATRIX_GAP_MATRIX.md
+
+---
+**MOC:** [[H_HIGH_SCALE_MOC]]

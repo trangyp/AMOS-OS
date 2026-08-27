@@ -1,3 +1,9 @@
+---
+title: L6 UNCERTAINTY
+type: note
+tags: [note, 01-core-laws]
+---
+
 ````markdown
 ---
 tags: ['canon', 'core_laws', 'uncertainty', 'confidence', 'unknown', 'competing', 'rscf', 'governance']
@@ -3430,3 +3436,6 @@ claim_class: AMOS_MODEL
 
 ```
 ```
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

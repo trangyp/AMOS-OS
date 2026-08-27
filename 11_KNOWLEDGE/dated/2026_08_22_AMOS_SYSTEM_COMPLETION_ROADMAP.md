@@ -111,8 +111,11 @@ Phase 2 work:
 - competing hypothesis: close `cognitive_architecture_matrix` (321-339) first instead of `resource_governance`. Rejected: the bottleneck is state model/persistence, not the matrix representation.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS System Completion Baseline
 - 2026-08-22 AMOS System Completion Audit
 - 00_AMOS_Full_Brain_OS_Architecture
 - 2026-08-22 19x19 AI Cognitive Field
+
+---
+**MOC:** [[DATED_MOC]]

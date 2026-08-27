@@ -1874,6 +1874,9 @@ RSCF-RELATIONS:
 claim_class: AMOS_MODEL
 ## Related MOCs
 
-- [[AMOS_Layer_Maps]] — top-level AMOS layer map index
+- [[AMOS_LAYER_MAPS]] — top-level AMOS layer map index
 - [[00_ROOT_MOC]] — AMOS OS master map
 - [[00_ROOT/00-Home]] — universal vault hub
+
+---
+**MOC:** [[INDEX_CONTROL_PLANE_README]]

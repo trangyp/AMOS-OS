@@ -477,3 +477,6 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

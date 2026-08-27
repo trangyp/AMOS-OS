@@ -1,3 +1,9 @@
+---
+title: GENERATORS INTEGRATION
+type: note
+tags: [note, 12-generators]
+---
+
 Below is a fuller AMOS-aligned replacement for `12_GENERATORS/INTEGRATION.md`. I’m treating **integration** as the contract that binds Generators into Routing, Validation, Skills, Agents, Engines, Kernels, Workers, Event Bus, state/versioning, provenance, promotion, recovery, and finality—without collapsing any of those layers into one another. This follows the AMOS Full Brain OS rule that architecture should preserve provenance, expose missing dependencies, and distinguish structural orchestration from verified implementation.  The primary canon source for the Skill is `AMOS_FULL_BRAIN_OS.json`; the exact runtime integration described here remains `MODEL / UNKNOWN-GAP` until supported by implementation evidence.
 
 ````md
@@ -3975,7 +3981,7 @@ That keeps the Generator subsystem integrated with AMOS infrastructure without t
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -3983,6 +3989,9 @@ node_id: generators_integration
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

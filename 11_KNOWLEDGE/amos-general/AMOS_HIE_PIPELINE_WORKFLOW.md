@@ -1,6 +1,11 @@
 ---
+title: AMOS HIE PIPELINE WORKFLOW
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/state/observation, topic/amos-hie-pipeline-workflow, amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 # AMOS HIE Pipeline Workflow
 
@@ -82,4 +87,7 @@ Did output obey all 6 laws (L1-L6)? All 4 quadrants? Rule of 2? Uncertainty labe
 S1: Parse→7-layer snapshot | S2: Update→deltas | S3: Goal→8 options | S4: Strategy→6 profiles | S5: Structure→Rule of 2+4 | S6: Safety→hard prohibitions+high-risk | S7: Channel→match state | S8: Write→Post-Theory+IP | S9: Evaluate→tag
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: AMOS SECURITY CONTROL ACCESS BRIDGE GOVERNOR
 claim_ceiling: 0.9
 created: 2026-08-27
 domain: cross-domain
@@ -13,6 +14,7 @@ tags:
 - topic/security-control-access
 - topic/pipeline-governance
 ---
+
 # AMOS Security-Control-Access Bridge Governor
 
 > **RSCF-NODE** · skill · cross-domain (C09 to C10 to Runtime)
@@ -101,3 +103,6 @@ Security models must be formally defined independent of implementation. Access c
 ### Risk Compliance Model
 
 Sector profiles, regulation/compliance, market structure, risk/crisis, technology/data, workforce/skills, ESG, operations.
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

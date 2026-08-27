@@ -1,6 +1,11 @@
 ---
+title: AMOS CHINA ENGINES MODEL
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/state/derived, topic/amos-china-engines-model, engine]
+type: document
+source: 11_KNOWLEDGE/engine
 ---
+
+
 
 # AMOS China Engines Model
 
@@ -22,4 +27,7 @@ This model documents the unified structural kernels operating within the `amos-c
 - `cn_law_reform_options`: Scenario and reform options at the policy level.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

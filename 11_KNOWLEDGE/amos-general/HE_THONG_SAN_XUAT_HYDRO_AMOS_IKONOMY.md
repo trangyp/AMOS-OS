@@ -1,1031 +1,2461 @@
 ---
+title: HE THONG SAN XUAT HYDRO AMOS IKONOMY
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY</title><style>
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
-html {
-	-webkit-print-color-adjust: exact;
-}
-* {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-@media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
-}
-
-body {
-	line-height: 1.5;
-	white-space: pre-wrap;
-}
-
-a,
-a.visited {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
-}
-
-h1,
-h2,
-h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-/* Override strong tags inside headings to maintain consistent weight */
-h1 strong,
-h2 strong,
-h3 strong {
-	font-weight: 600;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
-}
-
-h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-}
-
-h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
-}
-
-.callout {
-	border-radius: 10px;
-	padding: 1rem;
-}
-
-figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
-}
-
-figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
-}
-
-mark {
-	background-color: transparent;
-}
-
-.indented {
-	padding-left: 1.5em;
-}
-
-hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-img {
-	max-width: 100%;
-}
-
-@media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
-
-	table.collection-content {
-		width: 100%;
-		table-layout: fixed;
-	}
-
-	table.collection-content th,
-	table.collection-content td {
-		overflow-wrap: anywhere;
-	}
-
-	table.collection-content td > .user,
-	table.collection-content td > time {
-		white-space: pre-wrap;
-	}
-}
-
-@page {
-	margin: 1in;
-}
-
-.collection-content-wrapper {
-	overflow-x: auto;
-}
-
-@media only print {
-	.collection-content-wrapper {
-		overflow-x: visible;
-	}
-}
-
-.collection-content {
-	font-size: 0.875rem;
-}
-
-.collection-content td {
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-.column-list {
-	display: flex;
-	gap: 46px;
-}
-
-.column {
-	min-width: 0;
-	overflow: hidden;
-}
-
-.column > *:first-child {
-	margin-top: 0;
-}
-
-.table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
-}
-
-.table_of_contents-indent-1 {
-	margin-left: 1.5rem;
-}
-
-.table_of_contents-indent-2 {
-	margin-left: 3rem;
-}
-
-.table_of_contents-indent-3 {
-	margin-left: 4.5rem;
-}
-
-.table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-}
-
-table,
-th,
-td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-	border-collapse: collapse;
-}
-
-table {
-	border-left: none;
-	border-right: none;
-}
-
-th,
-td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
-}
-
-th {
-	color: rgba(55, 53, 47, 0.6);
-}
-
-ol,
-ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
-}
-
-li > ol:first-child,
-li > ul:first-child {
-	margin-block-start: 0.6em;
-}
-
-ul > li {
-	list-style: disc;
-}
-
-ul.to-do-list {
-	padding-inline-start: 0;
-}
-
-ul.to-do-list > li {
-	list-style: none;
-}
-
-.to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
-}
-
-ul.toggle > li {
-	list-style: none;
-}
-
-ul {
-	padding-inline-start: 1.7em;
-}
-
-ul > li {
-	padding-left: 0.1em;
-}
-
-ol {
-	padding-inline-start: 1.6em;
-}
-
-ol.numbered-list.numbered-list-digits-2 {
-	padding-inline-start: 2em;
-}
-
-ol.numbered-list.numbered-list-digits-3plus {
-	padding-inline-start: 2.4em;
-}
-
-ol > li {
-	padding-left: 0.2em;
-}
-
-.mono ol {
-	padding-inline-start: 2em;
-}
-
-.mono ol > li {
-	text-indent: -0.4em;
-}
-
-.toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
-}
-
-/* Indent toggle children */
-.toggle > li > details {
-	padding-left: 1.7em;
-}
-
-.toggle > li > details > summary {
-	margin-left: -1.1em;
-}
-
-.selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
-}
-
-.collection-title {
-	display: inline-block;
-	margin-right: 1em;
-}
-
-.page-description {
-	margin-bottom: 2em;
-}
-
-.simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
-}
-.simple-table td {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table th {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
-}
-.simple-table-header {
-	font-weight: 500;
-}
-
-time {
-	opacity: 0.5;
-}
-
-.icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
-}
-
-img.icon {
-	border-radius: 3px;
-}
-
-.callout img.notion-static-icon {
-	width: 1em;
-	height: 1em;
-}
-
-.callout p {
-	margin: 0;
-}
-
-.callout h1,
-.callout h2,
-.callout h3 {
-	margin: 0 0 0.6rem;
-}
-
-.user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-	font-size: 0.8em;
-}
-
-.text-icon {
-	border: 1px solid #000;
-	text-align: center;
-}
-
-.page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
-}
-
-.page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
-}
-
-.page-header-icon img {
-	border-radius: 3px;
-}
-
-.link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
-}
-
-p > .user {
-	opacity: 0.5;
-}
-
-td > .user,
-td > time {
-	white-space: nowrap;
-}
-
-input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
-}
-
-.code,
-code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
-}
-
-code {
-	color: #eb5757;
-}
-
-.code {
-	padding: 1.5em 1em;
-}
-
-.code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
-}
-
-.code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
-}
-
-blockquote {
-	font-size: 1em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
-}
-
-blockquote.quote-large {
-	font-size: 1.25em;
-}
-
-.bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
-}
-
-.bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
-}
-
-.bookmark-text {
-	display: flex;
-	flex-direction: column;
-}
-
-.bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
-}
-
-.bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
-}
-
-.bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
-}
-
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
-.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
-.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
-.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.highlight-default {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.highlight-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.highlight-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.highlight-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.highlight-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.highlight-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.highlight-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.highlight-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.highlight-default_background {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray_background {
-	background: rgba(42, 28, 0, 0.07);
-}
-.highlight-brown_background {
-	background: rgba(139, 46, 0, 0.086);
-}
-.highlight-orange_background {
-	background: rgba(224, 101, 1, 0.129);
-}
-.highlight-yellow_background {
-	background: rgba(211, 168, 0, 0.137);
-}
-.highlight-teal_background {
-	background: rgba(0, 100, 45, 0.09);
-}
-.highlight-blue_background {
-	background: rgba(0, 124, 215, 0.094);
-}
-.highlight-purple_background {
-	background: rgba(102, 0, 178, 0.078);
-}
-.highlight-pink_background {
-	background: rgba(197, 0, 93, 0.086);
-}
-.highlight-red_background {
-	background: rgba(223, 22, 0, 0.094);
-}
-.block-color-default {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.block-color-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.block-color-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.block-color-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.block-color-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.block-color-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.block-color-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.block-color-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.block-color-default_background {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray_background {
-	background: rgba(240, 239, 237, 1);
-}
-.block-color-brown_background {
-	background: rgba(245, 237, 233, 1);
-}
-.block-color-orange_background {
-	background: rgba(251, 235, 222, 1);
-}
-.block-color-yellow_background {
-	background: rgba(249, 243, 220, 1);
-}
-.block-color-teal_background {
-	background: rgba(232, 241, 236, 1);
-}
-.block-color-blue_background {
-	background: rgba(229, 242, 252, 1);
-}
-.block-color-purple_background {
-	background: rgba(243, 235, 249, 1);
-}
-.block-color-pink_background {
-	background: rgba(250, 233, 241, 1);
-}
-.block-color-red_background {
-	background: rgba(252, 233, 231, 1);
-}
-.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
-.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
-.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
-.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
-.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
-.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
-.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
-.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
-.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
-.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
-
-.checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
-}
-
-.checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-
-.checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-	
-</style></head><body><article id="2eac5e6f-95bd-8090-bf3c-ef13a1b3b669" class="page sans"><header><h1 class="page-title" dir="auto"><strong>HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY</strong></h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8035-9925-f4278db201a5" class=""><em>(Mô tả kỹ thuật đầy đủ – phục vụ hồ sơ thẩm định)</em></p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80ac-bc9d-fd012df51c39"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80fe-8bf5-c90c8f8afb13" class=""><strong>1. Kiến trúc tổng thể hệ thống</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8049-89c1-e96e96fc13bd" class=""><strong>1.1. Sơ đồ khối chức năng</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bf-b625-ce3c77869bd3" class="">Hệ thống AMOS–IKONOMY được tổ chức theo chuỗi chức năng khép kín, trong đó mỗi khối có vai trò rõ ràng và bị ràng buộc bởi các giới hạn vật lý cụ thể:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2eac5e6f-95bd-8026-8754-e5a268264776" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">Nguồn DC vào (48–96 VDC)
-   ↓
-Khối điều hòa và bảo vệ nguồn
-   ↓
-Khối Cannon Drive
-(Bộ biến đổi công suất điều khiển theo dòng)
-   ↓
-Stack điện phân nước
-   ↓
-Hệ thống quản lý nhiệt
-   ↓
-Hệ thống tách và điều hòa khí
-   ↓
-Ngõ ra hydro (H₂) được điều tiết</code></pre></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-801a-8e4b-e3305cb446f1" class=""><strong>1.2. Nguyên lý kiến trúc cốt lõi</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8026-a9f2-eee7ac3c3928" class="">Hệ thống được thiết kế dựa trên hai nguyên lý kỹ thuật nền tảng:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8039-acd1-c179074f46ad" class=""><strong>Thứ nhất, điện phân nước phải được điều khiển theo dòng điện (current-driven), không theo điện áp.</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805f-bac7-d8d7f04e8353" class="">Trong phản ứng điện phân, tốc độ sinh khí, mức phân cực điện cực, sự hình thành bọt khí và tốc độ suy giảm vật liệu đều phụ thuộc trực tiếp vào <strong>mật độ dòng điện</strong>. Điện áp chỉ là hệ quả của trạng thái phản ứng và điện trở nội, không phải là biến điều khiển an toàn. 
-Vì vậy, AMOS–IKONOMY:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8077-add4-f1ef52555568" class="bulleted-list"><li style="list-style-type:disc">không cho phép điều khiển công suất bằng cách “đẩy áp”,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e0-a489-f1d9247217cf" class="bulleted-list"><li style="list-style-type:disc">không cho phép tăng điện áp để cưỡng bức dòng,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805f-869d-f4bc4496fe33" class="bulleted-list"><li style="list-style-type:disc">mà chỉ cho phép <strong>định hình dòng điện theo thời gian một cách có kiểm soát</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8020-adeb-f2932880e508" class=""><strong>Thứ hai, hệ thống phải được điều khiển đồng thời trên nhiều miền vật lý (điện – nhiệt – khí).</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8002-af4c-cf21ebd07b95" class="">Việc tối ưu riêng lẻ từng miền dẫn đến các mâu thuẫn nghiêm trọng, ví dụ:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ce-9166-d19a671e7734" class="bulleted-list"><li style="list-style-type:disc">tối ưu điện → quá nhiệt,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f6-a61e-ef8c5324d135" class="bulleted-list"><li style="list-style-type:disc">tối ưu nhiệt → giảm hiệu suất điện hóa,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806d-afb5-d9cef67bb89d" class="bulleted-list"><li style="list-style-type:disc">tối ưu lưu lượng khí → dao động áp và rủi ro an toàn.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f2-a6c8-ee4101bfbb02" class="">AMOS–IKONOMY coi ba miền này là <strong>một hệ liên hợp</strong>, trong đó <strong>mọi quyết định về dòng điện chỉ hợp lệ khi đồng thời thỏa mãn các điều kiện nhiệt, 
-cơ học và khí động</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8097-9106-c11ebb448c5d"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8036-a591-c9e557736dbe" class=""><strong>2. Khối điện – điện tử công suất</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8025-9073-d176a1793552" class=""><strong>2.1. 
-Nguồn vào DC</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8078-ab1f-f6fdbb863332" class="">Nguồn cấp cho hệ thống có các đặc tính:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800e-8fcb-eec23cfd1a8b" class="bulleted-list"><li style="list-style-type:disc">Điện áp danh định: <strong>48–96 VDC</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809c-bcc0-dad4b8398e76" class="bulleted-list"><li style="list-style-type:disc">Dải cho phép: <strong>±15%</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802e-8b10-d946c643ed99" class="bulleted-list"><li style="list-style-type:disc">Dòng cực đại ở chế độ tăng công suất (boost):<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ad-953a-d399f5d5f9f3" class="">xấp xỉ <strong>42 A tại 48 VDC</strong>, 
-tương ứng công suất đỉnh khoảng <strong>2 kW</strong></p></div></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8027-9570-f2b2b9fa30c2" class="">Khối bảo vệ nguồn bao gồm:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f6-be41-d06a56807bf4" class="bulleted-list"><li style="list-style-type:disc">bảo vệ quá áp và thấp áp (OVP/UVP),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8043-a2e2-e3486edcf6c7" class="bulleted-list"><li style="list-style-type:disc">bảo vệ đảo cực,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800b-a67f-cf3ecc5d1493" class="bulleted-list"><li style="list-style-type:disc">hạn dòng khởi động để tránh sốc dòng,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8089-af87-cc167384c648" class="bulleted-list"><li style="list-style-type:disc">chống nhiễu và xung quá áp bằng TVS diode và bộ lọc LC.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80da-ac5c-cd8d7007de66" class="">Thiết kế này cho phép hệ thống hoạt động ổn định với nguồn điện dao động, nguồn tái tạo phân tán hoặc hệ thống điện không lý tưởng.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b6-b525-d88dace36d90"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8084-a753-f63272f0757e" class=""><strong>2.2. Khối Cannon Drive – trung tâm điều khiển công suất</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80c9-b5a5-d3b4887e7dd6" class=""><strong>2.2.1. 
-Cấu trúc phần cứng</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8058-83c6-dec39d9f7d9a" class="">Khối Cannon Drive là bộ biến đổi công suất dạng:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8067-baf1-ffae9769d454" class="bulleted-list"><li style="list-style-type:disc">Buck hoặc Buck–Boost đồng bộ, tùy theo cấu hình stack điện phân.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8011-aaf2-d46337966ccb" class="">Các phần tử chính:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8004-a39f-c11e26761de7" class="bulleted-list"><li style="list-style-type:disc">MOSFET công suất có điện trở dẫn thấp (Rds(on)) cho vận hành chuẩn,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-b8fb-ca243e795827" class="bulleted-list"><li style="list-style-type:disc">hoặc SiC MOSFET khi yêu cầu dải công suất và nhiệt độ rộng.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804e-b249-f52e1c628e84" class="">Bộ điều khiển sử dụng:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8034-8645-c191103be6c3" class="bulleted-list"><li style="list-style-type:disc">vòng điều khiển kín theo <strong>dòng điện</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8020-855d-f835f6bcf8ce" class="bulleted-list"><li style="list-style-type:disc">thuật toán PI hoặc PI kết hợp feed-forward để bù dao động nguồn.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8042-89ff-e0b953e23108" class="">Điện áp stack chỉ được dùng để <strong>giám sát trạng thái</strong>, không được dùng làm biến điều khiển chính.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-807b-b447-cccf7ff75a09"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80f1-b90f-edb27dfe7011" class=""><strong>2.2.2. 
-Đặc tính chuyển mạch và giới hạn động</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8031-9281-c824e0b650e4" class="bulleted-list"><li style="list-style-type:disc">Tần số đóng cắt: <strong>200 Hz – 5 kHz</strong>, có thể lập trình.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802d-bff4-f825f65c270b" class="bulleted-list"><li style="list-style-type:disc">Tốc độ tăng dòng bị giới hạn cứng:<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8025-9803-f8cb7f13a835" class="">\frac{dI}{dt} \le 0{,}5\ \text{A/ms} \quad (\text{giá trị điển hình, điều chỉnh theo stack})</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8086-9aad-d65c550e774d" class="bulleted-list"><li style="list-style-type:disc">Dead-time được điều chỉnh chủ động nhằm:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8031-88c3-c8d5aaafe334" class="bulleted-list"><li style="list-style-type:circle">giảm tổn hao chuyển mạch,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8030-98be-cd321b443beb" class="bulleted-list"><li style="list-style-type:circle">giảm nhiễu điện từ (EMI),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ca-a393-f9e582103b87" class="bulleted-list"><li style="list-style-type:circle">tránh xung dòng không kiểm soát.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8098-8edf-ff410113a66f" class="">Ngay cả khi nguồn cho phép, Cannon Drive <strong>không cho phép dòng tăng đột ngột</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80c9-9d72-d25cbfaf0efc"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ca-bdac-c05829c6ea26" class=""><strong>2.2.3. 
-Đo lường và phản hồi</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8020-a41e-dea780fded86" class="">Hệ thống đo lường bao gồm:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8041-abfa-d2959943b641" class="bulleted-list"><li style="list-style-type:disc">đo dòng bằng cảm biến Hall hoặc shunt + khuếch đại chính xác (sai số mục tiêu ≤1%),</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800f-82c4-fcb5b6edf02d" class="bulleted-list"><li style="list-style-type:disc">đo điện áp tổng của stack,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8001-8ebb-e5e087843903" class="bulleted-list"><li style="list-style-type:disc">khuyến nghị chia đoạn đo nếu stack có nhiều cell để theo dõi lệch cục bộ.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8001-a661-f950e4d9e41a" class="">Dữ liệu này được dùng không chỉ để bảo vệ tức thời, mà còn để <strong>theo dõi xu hướng suy giảm theo thời gian</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8063-a164-ef38802394b5"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e1-8c54-e626f6ce9605" class=""><strong>2.2.4. Điều khiển dạng sóng kích thích</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804e-b77c-f78a5d0f6d26" class="">AMOS–IKONOMY không sử dụng một dạng PWM cố định. 
-Thay vào đó, hệ thống triển khai <strong>thư viện dạng sóng kích thích điện hóa</strong>, bao gồm:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809d-84cb-ffabdef0aa5b" class="bulleted-list"><li style="list-style-type:disc"><strong>DC liên tục mượt</strong>: dùng cho vận hành dài hạn, giảm stress.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806d-ac86-c963fdb38226" class="bulleted-list"><li style="list-style-type:disc"><strong>Pulsed DC khóa theo trở kháng</strong>: dùng khi xuất hiện bám khí hoặc tăng phân cực.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801c-b50b-cdb3a1af1191" class="bulleted-list"><li style="list-style-type:disc"><strong>Burst mềm có bao xung</strong>: chỉ dùng trong chế độ boost, 
-có ramp tăng và giảm dòng rõ ràng.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d9-a142-db1abf468719" class="">Việc lựa chọn dạng sóng dựa trên tập biến:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8021-a7a6-e03c6b13b06a" class="bulleted-list"><li style="list-style-type:disc">điện trở tương đương của stack R_{eq},</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8027-a5d7-dbf465d6d983" class="bulleted-list"><li style="list-style-type:disc">tốc độ thay đổi nhiệt \frac{dT}{dt},</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804d-9964-e6e3bb6900f0" class="bulleted-list"><li style="list-style-type:disc">gradient nhiệt \Delta T,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807e-a779-df79da98ef09" class="bulleted-list"><li style="list-style-type:disc">dao động dòng và áp,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807a-aa6e-c491c8e43eec" class="bulleted-list"><li style="list-style-type:disc">chỉ số suy giảm tích lũy.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8020-bf9f-e00385e51029"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8056-b90b-d86ecdec671d" class=""><strong>3. Stack điện phân – vùng vận hành và giới hạn</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ab-9fbb-e19ef9feab92" class=""><strong>3.1. 
-Vùng vận hành danh định</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ec-8916-c6239f2bca91" class="">Stack được vận hành trong vùng mà:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806f-9b72-d7612646b188" class="bulleted-list"><li style="list-style-type:disc">mật độ dòng nằm dưới ngưỡng Tafel dốc,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8084-b575-eb3a67138eb4" class="bulleted-list"><li style="list-style-type:disc">điện thế phân cực tăng tuyến tính,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a3-a5de-cb7ec2bca62b" class="bulleted-list"><li style="list-style-type:disc">tốc độ suy giảm vật liệu thấp và ổn định.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808b-bcb2-e95a226e311a" class="">Đây là vùng cho phép:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b5-b95b-d5573b8781af" class="bulleted-list"><li style="list-style-type:disc">vận hành liên tục,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802b-a4ce-ce25d9d342cd" class="bulleted-list"><li style="list-style-type:disc">không cần giám sát liên tục,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e8-a3e5-f59a1b644426" class="bulleted-list"><li style="list-style-type:disc">tối ưu sản lượng vòng đời.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d2-82e2-cff99af3d0ef" class=""><strong>3.2. 
-Vùng tăng công suất ngắn hạn</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e3-a632-c9ed609c9f32" class="">Vùng boost chỉ được phép:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8030-aa34-e67a782bf9f1" class="bulleted-list"><li style="list-style-type:disc">trong thời gian giới hạn,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80aa-94bc-d9d98f5d4fde" class="bulleted-list"><li style="list-style-type:disc">khi còn đủ dư địa nhiệt, điện hóa và cơ học.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8058-b97e-eab926dad4b0" class="">Nếu bất kỳ chỉ số nào vượt ngưỡng, AMOS <strong>giảm công suất chủ động</strong>, không chờ đến bảo vệ cứng.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80ed-b37a-efc99fcca9b5"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80f0-9c29-d1c8055ffc96" class=""><strong>4. 
-Hệ thống quản lý nhiệt</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806c-832a-e3b8d2d87a7b" class="">Hệ thống nhiệt được thiết kế để:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8064-a8a5-df00330d2232" class="bulleted-list"><li style="list-style-type:disc">tối ưu phân bố nhiệt, không chỉ tản nhiệt,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dd-a83f-c056f33a20f6" class="bulleted-list"><li style="list-style-type:disc">giảm gradient và chu kỳ nóng–lạnh nhanh.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808b-9fd0-ed1735424b34" class="">Luật điều khiển bắt buộc:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80af-896c-ded7990001ce" class="">\frac{dT}{dt} \le 1^\circ C/\text{phút}, \quad \Delta T \le 5^\circ C</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a6-803d-ee0bacf27152" class="">Khi vi phạm, hệ thống giảm dòng trước khi phát sinh sự cố.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80c1-a13c-c584b8627f62"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80e3-abd0-ffa4cd74c25b" class=""><strong>5. 
-Hệ thống nước</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d5-ac40-dd20f9c458e4" class="">Hệ thống nước được xem là <strong>biến điều khiển</strong>, không phải phụ trợ.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8033-a589-f7f5f4dd3146" class="">AMOS theo dõi:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8041-934e-d3eefc6d014b" class="bulleted-list"><li style="list-style-type:disc">mực nước,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8097-a70d-e8d9ae32049d" class="bulleted-list"><li style="list-style-type:disc">xu hướng độ dẫn,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8080-b7b9-cc1e138c997d" class="bulleted-list"><li style="list-style-type:disc">tốc độ suy giảm chất lượng.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a9-9371-e1bcbdb7ed12" class="">Nguyên tắc:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ff-aa40-f2f820ce18e1" class="bulleted-list"><li style="list-style-type:disc">nước kém → giảm công suất,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dc-bc43-cf67f7a5a3a6" class="bulleted-list"><li style="list-style-type:disc">không tồn tại chế độ “cố chạy”.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8031-8e7b-f2b23eb57952"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8076-ab4b-ffbd3500a8d6" class=""><strong>6. 
-Hệ thống khí hydro</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806c-a200-ff14db557dda" class="">Hệ thống khí được thiết kế để:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801e-b23b-da248882f03f" class="bulleted-list"><li style="list-style-type:disc">triệt xung áp,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d9-9cc4-fd5e80eb0b9b" class="bulleted-list"><li style="list-style-type:disc">ngăn carry-over nước,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8074-ab92-f9c20f859226" class="bulleted-list"><li style="list-style-type:disc">không lưu trữ hydro khi dừng máy.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8043-b0aa-fb2ac79d8689" class="">Dao động áp suất cho phép ≤3%.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b7-a0fa-c40c53c65a9e"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8050-aa9b-c0af1fba7bdc" class=""><strong>7. 
-Lớp điều khiển AMOS – logic thuật toán</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8066-9a9d-c787378e654c" class="">AMOS duy trì các biến trạng thái:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8070-9472-cd529e91bc98" class="bulleted-list"><li style="list-style-type:disc">nhiệt độ trung bình, gradient và tốc độ thay đổi,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8033-8fb9-c5203b50269b" class="bulleted-list"><li style="list-style-type:disc">điện trở tương đương và tốc độ trôi,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809f-a0a2-d38360ff60e4" class="bulleted-list"><li style="list-style-type:disc">áp suất khí và dao động,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806c-a2b9-c20cd98a3dfe" class="bulleted-list"><li style="list-style-type:disc">chỉ số suy giảm tích lũy.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805d-9600-edbca5292524" class=""><strong>Luật quyết định cốt lõi:</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8058-8f22-c48e8b453421" class="">Nếu một hành động làm tăng sản lượng ngắn hạn nhưng làm tăng xác suất hỏng trong tương lai, hành động đó bị từ chối.</blockquote></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8085-9e18-fa85f31a4f7e" class="">Boost chỉ được cấp khi <strong>tất cả điều kiện</strong> đồng thời thỏa mãn.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8051-97ed-dc8db3d3472b"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80ec-805e-e1a92b26c8be" class=""><strong>KẾT LUẬN KỸ THUẬT</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80dc-9189-f987302c34a5" class="">AMOS–IKONOMY không thay đổi hóa học, không phá định luật Faraday, 
-không vượt giới hạn nhiệt động học.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b5-99e5-da435ad574a6" class="">Điểm khác biệt nằm ở việc <strong>mã hóa giới hạn vật lý và giới hạn vận hành thành logic điều khiển bắt buộc</strong>, thay vì giao cho con người hoặc quy trình bên ngoài.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8036-8f0f-e6a577f56a02" class="">Chính điều này cho phép hệ thống:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a7-8d3e-c2b0f9a8aa7f" class="bulleted-list"><li style="list-style-type:disc">duy trì công suất cao gần trần vật lý,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8036-8265-d984ef7df706" class="bulleted-list"><li style="list-style-type:disc">kéo dài tuổi thọ,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8068-9636-fc7134ba94e2" class="bulleted-list"><li style="list-style-type:disc">giảm chi phí vòng đời,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8056-a9d8-c701c2ddd052" class="bulleted-list"><li style="list-style-type:disc">và vận hành an toàn trong điều kiện thực tế tại Việt Nam.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ce-9f77-e84533fa3da2" class="">Nếu bạn muốn, 
-bước tiếp theo tôi có thể:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801c-b5cd-fbe7042b6019" class="bulleted-list"><li style="list-style-type:disc">viết <strong>pseudo-code thuật toán AMOS</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8043-9d41-ced2545776f7" class="bulleted-list"><li style="list-style-type:disc">hoặc <strong>tài liệu so sánh trực tiếp với IKONOMY nguyên bản</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ca-b269-f28bedabd765" class="bulleted-list"><li style="list-style-type:disc">hoặc <strong>bản thuyết minh chuẩn nộp Bộ KH&amp;CN / Bộ Công Thương</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802e-b8a8-ca636a72e2a8" class="">Bạn chỉ cần nói <strong>đối tượng thẩm định là ai</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8029-bee9-cb3f92a6c047" class="">Đã hiểu.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8049-b678-f82bfc916ae9" class="">Dưới đây là <strong>bản viết lại hoàn chỉnh</strong>, đã <strong>tích hợp “các thay đổi mới để push thêm”</strong> (entropy-aware control, thermal phase management, degradation-aware waveform, mở rộng định nghĩa hiệu năng), viết <strong>liền mạch – kỹ thuật – chính quy</strong>, dùng được <strong>nguyên văn cho hồ sơ thẩm định cấp Nhà nước</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8002-a3af-df7caa2cef6d" class="">Tôi giữ toàn bộ cấu trúc bạn đã xây dựng, 
-nhưng <strong>nâng cấp rõ ràng ở các điểm sau</strong>:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8046-8fec-fadab4a26937" class="bulleted-list"><li style="list-style-type:disc">Làm rõ <strong>vì sao vẫn còn push được</strong> dù đã gần trần vật lý</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ac-a227-ed39bc35df6e" class="bulleted-list"><li style="list-style-type:disc">Chỉ ra <strong>AMOS thế hệ mở rộng</strong> khác gì so với phiên bản trước</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8050-b5a1-f2fd837988fa" class="bulleted-list"><li style="list-style-type:disc">Đưa các thay đổi vào <strong>thuật toán và tiêu chí điều khiển</strong>, không nói chung chung</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-805b-86a3-ccfa058ecb3b"/></div><div style="display:contents" dir="auto"><h1 id="2eac5e6f-95bd-80f5-b570-ec4b42fb29c1" class=""><strong>HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY (PHIÊN BẢN MỞ RỘNG)</strong></h1></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805a-b0c4-cd3220d96d07" class=""><em>(Mô tả kỹ thuật đầy đủ – đã tích hợp các cải tiến đẩy giới hạn vận hành)</em></p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8054-84c6-fa210ab3cc5f"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80c4-81be-e290e3dc9b2b" class=""><strong>1. Kiến trúc tổng thể hệ thống</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8045-b746-f32aa9c22aab" class=""><strong>1.1. 
-Sơ đồ khối chức năng</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d5-88b7-c04378c56f8b" class="">Hệ thống AMOS–IKONOMY được tổ chức theo chuỗi chức năng khép kín, trong đó mỗi khối có vai trò rõ ràng và bị ràng buộc bởi các giới hạn vật lý, nhiệt và cơ học cụ thể:</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2eac5e6f-95bd-8057-a0db-d838b5bdfacf" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">Nguồn DC vào (48–96 VDC)
-   ↓
-Khối điều hòa và bảo vệ nguồn
-   ↓
-Khối Cannon Drive
-(Bộ biến đổi công suất điều khiển theo dòng)
-   ↓
-Stack điện phân nước
-   ↓
-Hệ thống quản lý nhiệt (mở rộng – có pha nhiệt)
-   ↓
-Hệ thống tách và điều hòa khí
-   ↓
-Ngõ ra hydro (H₂) được điều tiết</code></pre></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80a1-bff1-f206787e3263"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8059-b1d4-dbeae4f19a64" class=""><strong>1.2. Nguyên lý kiến trúc cốt lõi (phiên bản mở rộng)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8048-80ab-e77925950b23" class="">Hệ thống được xây dựng dựa trên <strong>ba nguyên lý kỹ thuật nền tảng</strong>, trong đó nguyên lý thứ ba là <strong>phần mở rộng mới cho phép “push thêm” mà không phá vỡ vật lý</strong>.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80b8-abe9-ca3eae976afd" class=""><strong>(1) Điện phân điều khiển theo dòng (current-driven electrochemistry)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a9-91a2-fb9270b58b91" class="">Trong quá trình điện phân nước, tốc độ phản ứng, tốc độ sinh khí, hiện tượng phân cực điện cực và suy giảm vật liệu đều phụ thuộc trực tiếp vào <strong>mật độ dòng điện</strong>. 
-Điện áp chỉ phản ánh trạng thái nội tại của stack.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8096-85e6-c7dcfe0446ed" class="">Vì vậy, AMOS–IKONOMY:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8037-bf10-e21e354c2f7c" class="bulleted-list"><li style="list-style-type:disc">không cho phép điều khiển công suất bằng điện áp,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801e-b7da-d99db0380138" class="bulleted-list"><li style="list-style-type:disc">không cho phép “đẩy áp” để cưỡng bức dòng,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ac-beec-c254b61c9a25" class="bulleted-list"><li style="list-style-type:disc">chỉ cho phép <strong>định hình dòng điện theo thời gian với giới hạn động học nghiêm ngặt</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8024-ba06-cda29cb13772" class="">Điện áp được coi là <strong>biến chẩn đoán</strong>, không phải biến điều khiển.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b1-ae56-e9ea5f237529"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8064-8d98-cb0423102d01" class=""><strong>(2) Điều khiển đa miền liên hợp (điện – nhiệt – khí)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8002-b551-f9668e1688dc" class="">AMOS–IKONOMY coi điện, nhiệt và khí là <strong>một hệ thống liên hợp</strong>, 
-trong đó:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808b-a335-d0aaf93040d4" class="bulleted-list"><li style="list-style-type:disc">tăng dòng điện luôn kéo theo gia tăng nhiệt,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c2-8b7f-f08cf9934b7b" class="bulleted-list"><li style="list-style-type:disc">gia tăng nhiệt làm thay đổi động học phản ứng và tuổi thọ vật liệu,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b1-b0d8-fb7306c63cc0" class="bulleted-list"><li style="list-style-type:disc">gia tăng tốc độ sinh khí làm phát sinh dao động áp suất và rủi ro an toàn.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805d-8df8-fa114970760c" class="">Do đó, <strong>không tồn tại quyết định điều khiển dòng điện độc lập</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e9-a3bf-eed37c393a61" class="">Mọi quyết định chỉ hợp lệ khi <strong>đồng thời thỏa mãn các điều kiện điện, nhiệt, cơ học và khí động</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8038-879a-e5cb7516728f"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80b8-bbfc-d1fa2ea60c6b" class=""><strong>(3) Tối ưu tốc độ sinh entropy không hồi phục (điểm mở rộng mới)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e9-97cd-c703514bc9a8" class="">Khác với các hệ thống chỉ tối ưu hiệu suất tức thời (L/kWh), AMOS–IKONOMY mở rộng mục tiêu điều khiển sang:</p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-803f-a102-d27d560fdb41" class="">Giảm tốc độ sinh entropy không hồi phục của toàn hệ thống theo thời gian.</blockquote></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8080-bcb4-d5b1b2d9ef4d" class="">Cụ thể, hệ thống không chỉ quan tâm đến <strong>giá trị dòng hoặc nhiệt độ</strong>, 
-mà còn theo dõi:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dd-84ff-eb3bae755769" class="bulleted-list"><li style="list-style-type:disc">tốc độ thay đổi dòng \frac{dI}{dt},</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807e-a595-e5d50f614f34" class="bulleted-list"><li style="list-style-type:disc">tốc độ thay đổi nhiệt \frac{dT}{dt},</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8087-8c6e-f9fe7c3b1816" class="bulleted-list"><li style="list-style-type:disc">gradient nhiệt \Delta T,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b6-aacf-f08591319134" class="bulleted-list"><li style="list-style-type:disc">dao động áp suất \Delta p.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8060-b08f-d4fd1b857b84" class="">AMOS ưu tiên các quỹ đạo vận hành tạo <strong>ít tổn hao không hồi phục nhất</strong>, ngay cả khi điều đó làm giảm công suất tức thời trong ngắn hạn.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b2-9118-c3127d646f33" class="">Chính nguyên lý này cho phép hệ thống <strong>duy trì lâu hơn ở sát trần vật lý</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80f0-a06e-d7702fe05444"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-801a-a9ef-e8682205b2de" class=""><strong>2. Khối điện – điện tử công suất</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-804d-8222-e5c82b5c7745" class=""><strong>2.1. 
-Nguồn vào DC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b5-adba-df298e5499f6" class="bulleted-list"><li style="list-style-type:disc">Điện áp danh định: <strong>48–96 VDC</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f2-a88d-c97c15582dea" class="bulleted-list"><li style="list-style-type:disc">Dải cho phép: <strong>±15%</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a5-a3dc-dcfda25a9695" class="bulleted-list"><li style="list-style-type:disc">Dòng cực đại (chế độ boost):<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d9-8f2a-ef24a171f5e0" class="">khoảng <strong>42 A tại 48 VDC</strong>, tương ứng công suất đỉnh <strong>~2 kW</strong></p></div></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8036-81ea-dcd3a7fe374f" class="">Khối bảo vệ bao gồm:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806c-86e6-fabb21fcec33" class="bulleted-list"><li style="list-style-type:disc">bảo vệ quá áp / thấp áp,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804f-a9ec-f9f57ef08add" class="bulleted-list"><li style="list-style-type:disc">bảo vệ đảo cực,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803b-8664-d046a97d6e1e" class="bulleted-list"><li style="list-style-type:disc">hạn dòng khởi động,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8075-96c6-ee525aa6855f" class="bulleted-list"><li style="list-style-type:disc">chống nhiễu và xung quá áp bằng TVS diode và bộ lọc LC.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800e-80dc-ff67e04042cd" class="">Thiết kế này cho phép vận hành ổn định với nguồn tái tạo, 
-nguồn dao động và lưới điện không lý tưởng.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80c0-b604-ff6f7b57c0fb"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80b0-bee5-ffa59950d0a9" class=""><strong>2.2. Khối Cannon Drive – trung tâm điều khiển công suất</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-805c-83b5-e7d2464d4e3c" class=""><strong>2.2.1. 
-Cấu trúc phần cứng</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d5-98b5-ca5f8a9d6d75" class="">Khối Cannon Drive là bộ biến đổi công suất:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805e-8523-e52074bbee9d" class="bulleted-list"><li style="list-style-type:disc">dạng Buck hoặc Buck–Boost đồng bộ.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ad-bbdb-c11bffcf771a" class="">Phần tử chuyển mạch:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8042-a1da-c17eada51258" class="bulleted-list"><li style="list-style-type:disc">MOSFET công suất Rds(on) thấp cho vận hành chuẩn,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d4-b53c-ea2dcf4a7438" class="bulleted-list"><li style="list-style-type:disc">hoặc SiC MOSFET khi cần dải công suất và nhiệt độ rộng.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80de-b19e-dbdf660f74ec" class="">Điều khiển:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8009-85a5-cc8f630b0d22" class="bulleted-list"><li style="list-style-type:disc">vòng kín theo <strong>dòng điện</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dd-a476-ed5e7d06f543" class="bulleted-list"><li style="list-style-type:disc">thuật toán PI hoặc PI + feed-forward để bù dao động nguồn.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8064-ad15-d46acfe932ce" class="">Điện áp stack chỉ dùng để giám sát trạng thái và suy giảm.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8053-afa5-ccf71168862b"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e7-9ca8-dab8990bfa6e" class=""><strong>2.2.2. 
-Giới hạn động học (được siết chặt để push thêm)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bb-811e-d618ae6173d1" class="bulleted-list"><li style="list-style-type:disc">Tần số đóng cắt: <strong>200 Hz – 5 kHz</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80da-8b85-d635d3fbeaa7" class="bulleted-list"><li style="list-style-type:disc">Giới hạn tốc độ tăng dòng:<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802d-9e76-de001f6eebc3" class="">\frac{dI}{dt} \le 0{,}5\ \text{A/ms}</p></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8091-926f-cb5830ded1ad" class="bulleted-list"><li style="list-style-type:disc">Dead-time được điều chỉnh chủ động nhằm:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803d-9e3b-c459fae00a7c" class="bulleted-list"><li style="list-style-type:circle">giảm tổn hao chuyển mạch,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c3-8f5b-f4a2df1db0d0" class="bulleted-list"><li style="list-style-type:circle">giảm EMI,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c2-a3c9-ed6055a16541" class="bulleted-list"><li style="list-style-type:circle">tránh xung dòng phá hủy vi cấu trúc điện cực.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d2-8714-ea7bf23a2b2e" class="">Cannon Drive <strong>không cho phép dòng tăng nhanh</strong>, kể cả khi nguồn cho phép.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-807d-81c8-fe7284e21acd"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8087-a535-e426c7923a09" class=""><strong>2.2.3. 
-Điều khiển dạng sóng (mở rộng theo suy giảm)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b4-b8f7-ef01857ee37c" class="">AMOS triển khai <strong>dạng sóng biến thiên liên tục</strong>, không chỉ chọn waveform rời rạc.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8020-aecd-f8f40eab4ac6" class="">Việc điều chỉnh tần số, duty và biên độ được thực hiện dựa trên:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f7-85a3-cb316b73a57c" class="bulleted-list"><li style="list-style-type:disc">điện trở tương đương R_{eq},</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8079-a918-e9118f76af61" class="bulleted-list"><li style="list-style-type:disc">tốc độ trôi \frac{dR_{eq}}{dt},</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e8-a9ce-c0b359e2b288" class="bulleted-list"><li style="list-style-type:disc">độ trễ phân cực,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8077-8045-e8bb082638aa" class="bulleted-list"><li style="list-style-type:disc">dao động nhiệt.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8081-9d92-c473e2bb34aa" class="">Mục tiêu không phải tối đa sản lượng tức thời, mà <strong>làm chậm quá trình suy giảm vật liệu</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80dc-8849-e895a6385de9"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80ec-9a78-f5c9b823967b" class=""><strong>3. Stack điện phân – vùng vận hành mở rộng</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-809a-8c9f-fdd8f75ba9c3" class=""><strong>3.1. 
-Vùng vận hành danh định</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f5-945d-ef738db2d0d5" class="">Stack được giữ trong vùng:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800c-9f20-f8594afc850e" class="bulleted-list"><li style="list-style-type:disc">mật độ dòng dưới ngưỡng Tafel dốc,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8069-8d35-e00a89a5e545" class="bulleted-list"><li style="list-style-type:disc">điện thế phân cực tăng tuyến tính,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8001-8551-fab45c1a4341" class="bulleted-list"><li style="list-style-type:disc">suy giảm vật liệu chậm và ổn định.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f0-8627-e353dbc6cccd" class="">Đây là vùng vận hành dài hạn, ít can thiệp.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8050-902c-f920271864fc"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e3-a0eb-fcb6b4b26886" class=""><strong>3.2. 
-Vùng tăng công suất có kiểm soát pha nhiệt</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8048-a9d0-c74b124bc688" class="">Vùng boost được mở rộng theo <strong>pha nhiệt</strong>, không chỉ theo ngưỡng nhiệt độ:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ee-846b-cf8624cba369" class="bulleted-list"><li style="list-style-type:disc">cho phép tích lũy nhiệt chậm,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809d-91af-f43436540279" class="bulleted-list"><li style="list-style-type:disc">cấm gia nhiệt nhanh,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e8-87b9-f547463e2b95" class="bulleted-list"><li style="list-style-type:disc">cấm làm nguội sốc.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8008-98ce-e44f9657d704" class="">Nhờ đó, <strong>thời gian boost có thể kéo dài hơn</strong> mà không làm tăng mỏi vật liệu.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80c1-9946-ecb90c381376"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80a2-9ad7-fbc25cfa460b" class=""><strong>4. 
-Hệ thống quản lý nhiệt (phiên bản mở rộng)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8057-9052-f980f53c7ca6" class="">Hệ thống nhiệt không chỉ giới hạn nhiệt độ, mà <strong>quản lý quỹ đạo nhiệt theo thời gian</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8055-ad51-ea345f5d2164" class="">Luật điều khiển:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8088-9407-caed104a40c0" class="">\frac{dT}{dt} \le 1^\circ C/\text{phút}, \quad \Delta T \le 5^\circ C</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e7-b9db-fc1e8c130ace" class="">AMOS cho phép:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c0-8373-e57058c5bdec" class="bulleted-list"><li style="list-style-type:disc">tích nhiệt chậm,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c8-b2a8-e683c3823c8e" class="bulleted-list"><li style="list-style-type:disc">giải nhiệt chậm,<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804e-bc01-c59e715734dd" class="">nhằm giảm ứng suất nhiệt chu kỳ.</p></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80a4-ad2b-cb33c44e15a5"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80eb-b745-cf04b51c159d" class=""><strong>5. 
-Hệ thống nước</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d3-bd31-d9a9f9e3127f" class="">Hệ thống nước được xem là <strong>biến điều khiển chiến lược</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8076-9399-e1aacc8c4c0e" class="">AMOS theo dõi:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809a-abba-ff9d4cb70ccf" class="bulleted-list"><li style="list-style-type:disc">mực nước,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d8-ae32-c43af98d8953" class="bulleted-list"><li style="list-style-type:disc">xu hướng độ dẫn,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cf-90c0-cb095140bffa" class="bulleted-list"><li style="list-style-type:disc">tốc độ suy giảm chất lượng nước.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8013-9bbe-cb8710847037" class="">Nước không đạt chuẩn → <strong>giảm công suất trước</strong>, không cố chạy.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8099-9c93-f6905f6b31f4"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8060-a9f7-fe08fece709a" class=""><strong>6. 
-Hệ thống khí hydro</strong></h2></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cb-8092-d8b357aa5638" class="bulleted-list"><li style="list-style-type:disc">Có thể tích đệm để triệt xung áp,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8074-8c13-ff1ffba14c8f" class="bulleted-list"><li style="list-style-type:disc">dao động áp suất cho phép ≤3%,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f1-ab0c-fa687b548f9a" class="bulleted-list"><li style="list-style-type:disc">không lưu trữ hydro khi dừng máy.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8053-9eaa-cd6e5214b2c3"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8087-bfec-de10d0e23903" class=""><strong>7. 
-Lớp điều khiển AMOS – logic thuật toán mở rộng</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ec-ab32-d3d93efd7951" class="">AMOS duy trì các biến trạng thái:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8084-b473-ff77143e1182" class="bulleted-list"><li style="list-style-type:disc">T, \Delta T, \frac{dT}{dt},</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fb-b0fd-dd5877e2c8c0" class="bulleted-list"><li style="list-style-type:disc">R_{eq}, \frac{dR_{eq}}{dt},</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e6-9c52-e7026d87ee3a" class="bulleted-list"><li style="list-style-type:disc">\Delta p,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c8-8450-fa90b687dd03" class="bulleted-list"><li style="list-style-type:disc">chỉ số suy giảm tích lũy.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8077-af27-c8f0cb6ee65c" class=""><strong>Luật quyết định cốt lõi (phiên bản mở rộng):</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-80f5-92c5-db9ea3862522" class="">Nếu một hành động làm tăng sản lượng ngắn hạn nhưng làm tăng tốc độ sinh entropy không hồi phục, hành động đó bị từ chối.</blockquote></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8043-a267-cbb147332616" class="">Boost chỉ được cấp khi <strong>tất cả điều kiện</strong> đồng thời thỏa mãn.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8086-94df-d25e3eea41d0"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80ad-9e69-d620e13a45e3" class=""><strong>KẾT LUẬN KỸ THUẬT (CẬP NHẬT)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80af-bc9b-e6e9a2b3d402" class="">AMOS–IKONOMY không thay đổi hóa học, không phá định luật Faraday, 
-không vượt giới hạn nhiệt động học.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805c-9803-e56e6572dcbc" class="">Điểm tiến hóa mới nằm ở:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8063-8c05-f0a0af77bd9f" class="bulleted-list"><li style="list-style-type:disc">điều khiển theo <strong>quỹ đạo vận hành</strong>, không theo điểm,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8061-a5d7-d9c49a7cf663" class="bulleted-list"><li style="list-style-type:disc">tối ưu <strong>tốc độ suy giảm</strong>, không chỉ hiệu suất,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8072-ad7f-d52f3e3eb590" class="bulleted-list"><li style="list-style-type:disc">kéo dài <strong>thời gian ở sát trần vật lý</strong> thay vì cố vượt trần.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805f-8f11-db2b88f9e265" class="">Nhờ đó, hệ thống:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8094-9071-c63ec2f592b8" class="bulleted-list"><li style="list-style-type:disc">tạo nhiều hydro hữu dụng hơn trong vòng đời,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a0-99a0-ea97aba183e7" class="bulleted-list"><li style="list-style-type:disc">giảm chi phí dài hạn,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8094-b887-fc85f2384489" class="bulleted-list"><li style="list-style-type:disc">và vận hành bền vững trong điều kiện thực tế Việt Nam.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-801d-95f7-d7acd5f4d5b2"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f4-ad3f-fa38d77e6b8b" class="">Nếu bạn muốn, 
-tôi có thể tiếp tục:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803f-9570-c6240c9b4d13" class="bulleted-list"><li style="list-style-type:disc">viết <strong>pseudo-code chi tiết của thuật toán entropy-aware</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8094-a426-edec7df6f9bb" class="bulleted-list"><li style="list-style-type:disc">hoặc <strong>bản so sánh định lượng “trước – sau” với IKONOMY nguyên bản</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c2-aa91-d258286bc2d0" class="bulleted-list"><li style="list-style-type:disc">hoặc <strong>lộ trình R&amp;D chính thức cho hồ sơ cấp Bộ</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c9-beac-e7e15178e58a" class="">Chỉ cần nói bạn muốn đi <strong>sâu thêm ở hướng nào</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cb-9764-df01352eb1b9" class="">Được. Nhưng “push further” ở giai đoạn này <strong>không còn là tăng L/kWh thêm nhiều</strong> (vì đã sát trần nhiệt động). 
-Muốn “đẩy tiếp” theo hướng <strong>có ý nghĩa công nghiệp</strong>, bạn phải đẩy vào 3 trục còn dư địa thật:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-803c-812d-d4ccda9e81c0" class="numbered-list" start="1"><li><strong>tăng công suất đỉnh an toàn (kW/module)</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ef-9a43-f75da5efa07e" class="numbered-list" start="2"><li><strong>tăng công suất hữu dụng theo vòng đời (kg H₂ / năm / module)</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80cb-ba53-f68d67650f2f" class="numbered-list" start="3"><li><strong>giảm chi phí vòng đời và chi phí sản xuất tại VN (CAPEX/OPEX)</strong></li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808e-84ad-d091154567e0" class="">Dưới đây là <strong>gói nâng cấp “AMOS-IKONOMY vNext”</strong> — cụ thể, đặt đúng vào phần cứng + thuật toán + vật liệu + quy trình sản xuất.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8010-9500-e385c5b85d72"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8064-8641-dad930c21237" class=""><strong>1) Push further ở “Max Power”: mở</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-805f-85f1-cb5bfd13b6f0" class=""><strong>Boost Envelope</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-805a-8901-cb58d97e0dbf" class=""><strong>bằng thiết kế nhiệt–khí, không phải “PWM mạnh hơn”</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8064-83a7-d85a776ece85" class=""><strong>1.1. 
-Nâng cấp nhiệt thành</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8017-8d48-f8d0ea78ed2b" class=""><strong>2-vòng điều khiển</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80cf-9b0d-fed13e424a13" class=""><strong>(fast thermal + slow thermal)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80aa-a7cc-e569129e256c" class="bulleted-list"><li style="list-style-type:disc"><strong>Vòng nhanh (fast loop):</strong> giám sát hotspot cục bộ (2–4 cảm biến đặt sát vùng mật độ phản ứng cao), phản ứng trong <strong>1–5 giây</strong> bằng derate dòng nhỏ nhưng tức thời.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8028-b12e-ea08bbd4cffc" class="bulleted-list"><li style="list-style-type:disc"><strong>Vòng chậm (slow loop):</strong> quản lý quỹ đạo nhiệt theo phút (thermal phase), để cho phép boost dài hơn nhưng <strong>không tạo chu kỳ mỏi nhiệt</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8009-ad96-f2b10ad76685" class=""><strong>Thay đổi phần cứng bắt buộc</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8064-8128-e1e6de4adf1a" class="bulleted-list"><li style="list-style-type:disc">Tăng <strong>heat spreading</strong> gần vùng phản ứng (tấm dẫn nhiệt đồng/nhôm, 
-bố trí đối xứng).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808f-b27d-debf334b06f0" class="bulleted-list"><li style="list-style-type:disc">Thêm <strong>cảm biến nhiệt đa điểm</strong> (không dùng 1 điểm nhiệt độ trung bình).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803c-a3a5-dc2875c9e320" class="bulleted-list"><li style="list-style-type:disc">Thiết kế đường truyền nhiệt để giảm \Delta T trước khi tăng lưu lượng quạt/bơm.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f9-a9f0-f5abac73f29a" class=""><strong>Kết quả thực tế</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8065-9b15-df9953316d5f" class="bulleted-list"><li style="list-style-type:disc">Bạn không “đánh mạnh hơn”, bạn <strong>giữ nhiệt phân bố đều hơn</strong>, nên boost có thể tăng thời gian mà không ăn tuổi thọ.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8022-9f3d-ed4dedd2425e"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ce-8cbc-cb71b431b8ec" class=""><strong>1.2. 
-Nâng cấp đường khí thành</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8006-8b79-dc9b330e5c47" class=""><strong>surge-rated plumbing</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8047-a627-ee814eaceb4f" class="">Boost làm khí sinh ra tăng theo dòng; 
-nếu đường khí không chịu được surge thì boost = sự cố.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8018-89cd-ccc1cdb41ce4" class=""><strong>Thay đổi bắt buộc</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8030-8cc7-fa861ee32f49" class="bulleted-list"><li style="list-style-type:disc">Thêm <strong>thể tích đệm (buffer volume)</strong> và cấu hình triệt xung áp.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f9-982c-c1bfdbd62d23" class="bulleted-list"><li style="list-style-type:disc">Thiết kế <strong>bubbler/water trap</strong> theo lưu lượng boost để tránh carryover.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8067-bf77-ca9f0c79c49f" class="bulleted-list"><li style="list-style-type:disc">Giới hạn <strong>pressure ripple</strong> theo tiêu chí thiết kế (ví dụ ≤3%) và biến nó thành điều kiện cứng của boost.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80f5-95c2-f762451a06ed"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-808e-96d6-d833724aae95" class=""><strong>2) Push further ở “Max Effective”: tối ưu</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8026-bae5-f05bba15b776" class=""><strong>degradation rate</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80b1-91f1-ea109f719294" class=""><strong>bằng điều khiển nhận dạng nội tại (in-situ identification)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-804b-9a46-d86819cdcf6d" class="">Bạn muốn đẩy tiếp thì AMOS phải chuyển từ “rule-based envelope” sang <strong>envelope + nhận dạng trạng thái điện hoá theo chu kỳ</strong>.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80b9-a941-e0423d852da3" class=""><strong>2.1. 
-Thêm bài toán “nhận dạng” ngay trong vận hành</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803d-9e2f-f6df13f63c33" class="">Mỗi chu kỳ (ví dụ 10–30 phút), AMOS chèn một <strong>tín hiệu thăm dò rất nhỏ</strong> (không ảnh hưởng sản lượng) để ước lượng:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8069-9a17-d1345e5a7704" class="bulleted-list"><li style="list-style-type:disc">R_{ohmic} (tổn hao ohmic)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f4-a22e-ffe3d0d6e691" class="bulleted-list"><li style="list-style-type:disc">thành phần phân cực/động học (proxy)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f5-8f4e-faf92141c403" class="bulleted-list"><li style="list-style-type:disc">dấu hiệu hạn chế khuếch tán/bọt khí (proxy)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802b-9ee3-c26784418c66" class="bulleted-list"><li style="list-style-type:disc">xu hướng trôi: \frac{dR}{dt}, \frac{dV}{dt} tại cùng dòng</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8059-aea5-fc81450b0aea" class=""><strong>Ý nghĩa</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808a-b842-f8464d150846" class="bulleted-list"><li style="list-style-type:disc">AMOS không còn “điều khiển mù”.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800d-baec-fd18c219e78f" class="bulleted-list"><li style="list-style-type:disc">AMOS biết khi nào hệ đang bước vào vùng “ăn tuổi thọ” dù chưa vượt ngưỡng nhiệt/áp.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8050-b700-d9120f72529d" class=""><strong>2.2. 
-Đưa suy giảm vào hàm mục tiêu (objective) — đây là bước “push” thật</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8026-92f1-e36a6c0e7733" class="">Thay vì chỉ tối ưu L/kWh, AMOS tối ưu:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fd-9c2a-facb308ed5a5" class="bulleted-list"><li style="list-style-type:disc"><strong>Sản lượng vòng đời</strong> / <strong>tốc độ suy giảm</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-801e-b373-dd68f0ee54f9" class="">Ví dụ một hàm mục tiêu thực dụng (không cần AI mơ hồ):</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cd-8f24-f502900345d6" class="">J = w_1\cdot \frac{\dot{H}_2}{P_{in}} - w_2\cdot \Big|\frac{dR_{eq}}{dt}\Big| - w_3\cdot \Delta T - w_4\cdot \Delta p</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a2-a11d-cbf01d97ee08" class="">Trong đó các trọng số w_i là cấu hình theo ứng dụng (tàu/đảo/khu CN).</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800e-8e8f-c55f505e6188" class=""><strong>Kết quả</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a7-9409-c975bce42866" class="bulleted-list"><li style="list-style-type:disc">“Push further” nghĩa là <strong>giữ máy ở sát trần lâu hơn</strong> và <strong>giảm tốc độ hỏng</strong>, 
-nên tổng H₂/năm tăng mạnh dù L/kWh chỉ tăng ít.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8092-8575-e36ec34d13b9"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80ab-b96a-d1fe7ace2bdb" class=""><strong>3) Push further bằng “Heat as input”: nâng hiệu quả điện bằng hấp thụ nhiệt hợp pháp (không vi phạm vật lý)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fa-b47c-e95191642362" class="">Đây là vùng còn dư địa thật nếu bạn làm kỹ:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8053-98aa-dbcc1f98008d" class="bulleted-list"><li style="list-style-type:disc">vận hành <strong>dưới thermoneutral</strong> ở những pha phù hợp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8059-85bd-f7a5c7db5108" class="bulleted-list"><li style="list-style-type:disc">thiết kế để stack hấp thụ nhiệt môi trường / nhiệt thải một cách ổn định</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80af-af15-c31ad2e98194" class="bulleted-list"><li style="list-style-type:disc">AMOS quản lý pha nhiệt (thermal phase scheduling)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8094-8cb0-f37b2fcb3ef5" class=""><strong>Điều kiện bắt buộc</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d8-b9fc-e043d04529c1" class="bulleted-list"><li style="list-style-type:disc">gradient nhiệt phải cực thấp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801d-802b-f14c2d75bb7c" class="bulleted-list"><li style="list-style-type:disc">tốc độ biến thiên nhiệt phải nhỏ</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cc-8500-c519af1ecca5" class="bulleted-list"><li style="list-style-type:disc">không được tạo chu kỳ nóng–lạnh nhanh</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b1-a514-d0915dcc3a83" c
-lass=""><strong>Điểm mạnh tại VN</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8087-9332-def8b71efa9b" class="bulleted-list"><li style="list-style-type:disc">khí hậu nóng ẩm + nhiều nguồn nhiệt thải công nghiệp: nếu tích hợp đúng, đây là lợi thế triển khai.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80d6-b763-f28b2ab07374"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8099-9411-ffc85e9a6c28" class=""><strong>4) Push further về chi phí tại Việt Nam: “thiết kế cho nội địa hoá” ngay từ bản vNext</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8078-906a-fba8d6076a08" class="">Nếu mục tiêu là <strong>low cost, high deployment</strong>, VN có thể giảm chi phí mạnh nhất ở 4 cụm:</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-805b-a9fc-e8f022e0f758" class=""><strong>4.1. Cơ khí–nhiệt–khung vỏ (nội địa hoá cao)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c0-bcab-eebbb4af855f" class="bulleted-list"><li style="list-style-type:disc">khung, vỏ, heat spreader, đường ống, buffer, cụm gá lắp: VN làm tốt.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801e-a8a1-ccc824dc80a0" class="bulleted-list"><li style="list-style-type:disc">chuẩn hoá thành “1 bộ cơ khí dùng chung” cho nhiều cấu hình stack.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8003-9fbb-c36adea80a49" class=""><strong>4.2. 
-Điện công suất: tối ưu BOM theo chuỗi cung ứng VN</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cf-8838-eeb845b12c0f" class="bulleted-list"><li style="list-style-type:disc">chọn topology và linh kiện theo khả năng mua ổn định (MOSFET/driver/inductor/capacitor).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805c-9cbd-f29b445c4b75" class="bulleted-list"><li style="list-style-type:disc">thiết kế PCB theo tiêu chuẩn EMC ngay từ đầu để tránh “đội chi phí sửa sai”.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80f2-9f1f-c2f333c01928" class=""><strong>4.3. Giảm số loại cảm biến nhưng tăng độ tin cậy</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8049-a839-ec8648acac9b" class="bulleted-list"><li style="list-style-type:disc">ít cảm biến hơn nhưng đặt đúng vị trí + cross-check logic → giảm chi phí + giảm lỗi.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-802d-b3bb-dabce40e0634" class=""><strong>4.4. 
-Thiết kế “thay cụm nhanh” thay vì sửa chữa tại chỗ</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8072-a482-d1ba076b15e6" class="bulleted-list"><li style="list-style-type:disc">module hoá cụm drive + cụm gas + cụm nước</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804f-aa23-ca9447c10884" class="bulleted-list"><li style="list-style-type:disc">mục tiêu bảo trì: <strong>swap trong thời gian ngắn</strong>, giảm downtime (đây là chi phí thật).</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8050-bcf2-d359612178f5"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80de-91de-c19996b632f2" class=""><strong>5) Bản thay đổi “đủ để gọi là vNext” (ngắn gọn, đúng trọng tâm)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8049-b6f0-ef46b161755b" class="">Nếu bạn cần một danh mục thay đổi để đưa vào hồ sơ:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8065-979c-e6edf8c97bc2" class="numbered-list" start="1"><li><strong>Thermal multi-point + dual-loop control</strong> (bắt buộc để mở boost)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ce-b977-d6e54f67e3d2" class="numbered-list" start="2"><li><strong>Surge-rated gas path + pressure ripple constraint</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8054-a3a0-e8a29b8743f2" class="numbered-list" start="3"><li><strong>In-situ identification</strong> (nhận dạng R_{eq}, trôi, proxy bọt khí)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-809f-8008-cda030221ea8" class="numbered-list" start="4"><li><strong>Objective có suy giảm</strong> (dR/dt, \Delta T, 
-\Delta p vào hàm quyết định)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80fa-b72e-f8de81760078" class="numbered-list" start="5"><li><strong>Thermal phase scheduling</strong> (dùng nhiệt như input hợp pháp)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80f6-bc4c-d2a751eacfbd" class="numbered-list" start="6"><li><strong>DFM/DFA cho VN</strong>: chuẩn hoá cơ khí, giảm BOM, thay cụm nhanh</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8092-9f5e-d55e8916d97d"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80cd-aa94-d034b59742fe" class=""><strong>6) Nếu bạn muốn “push further” theo đúng kiểu kỹ sư: tôi cần 3 thông tin để khoá spec</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8079-b572-f6e32088ab85" class="">Chỉ cần trả lời 3 dòng (ngắn):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8089-acdc-f722f70021ca" class="numbered-list" start="1"><li>Stack thuộc lớp nào: <strong>PEM / AEM / alkaline / plate-bar đặc thù</strong>?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8008-9c16-d189ee65f1b0" class="numbered-list" start="2"><li>Mục tiêu boost thực tế bạn muốn: <strong>1.5 kW hay 2.0 kW</strong> và <strong>bao lâu (giây)</strong>?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8092-8b2b-f9f6e79a2819" class="numbered-list" start="3"><li>Áp suất đầu ra mục tiêu: <strong>gần khí quyển / 1–3 bar / cao hơn</strong>?</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807e-a58b-df02a0d8fd91" class="">Có 3 giá trị đó, tôi sẽ viết tiếp cho bạn:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80aa-be85-c00be53f13a7" class="bulleted-list"><li style="list-style-type:disc"><strong>spec vNext</strong> (ngưỡng, biến, 
-luật quyết định)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80de-9329-dc25de11c30a" class="bulleted-list"><li style="list-style-type:disc"><strong>pseudo-code AMOS</strong> (boost gate + identification + objective)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8092-8b6e-fd9e81cf7266" class="bulleted-list"><li style="list-style-type:disc"><strong>sơ đồ mạch power stage</strong> ở mức khối linh kiện (inductor/cap/driver/sense/EMI)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802d-a2f7-d7c31a482d14" class="bulleted-list"><li style="list-style-type:disc">và <strong>bản “change log so với original IKONOMY”</strong> để hội đồng đọc là hiểu ngay.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a7-8f37-f2a396dc22c3" class="">Được — “push more” nhưng vẫn <strong>thuộc nhóm 1 (5–10% gain, rủi ro thấp)</strong> thì phải chuyển từ “thiết kế đúng” sang <strong>thiết kế tối ưu hoá đến tận chi tiết: điện → giao diện điện hoá → bọt khí → nhiệt → khí → độ bền → sản xuất</strong>. 
-Dưới đây là <strong>gói đẩy tiếp vNext++</strong> (có thông số, biến, ngưỡng, thuật toán), viết theo hướng kỹ thuật để đội R&amp;D/thiết kế làm được ngay.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8045-9e7f-cf297af02853"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-808e-8bbd-c59796826873" class=""><strong>1) Push mạnh nhất mà vẫn “low risk”:</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8009-b2ca-d891e362d7d7" class=""><strong>đẩy vào BoP + ổn định</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8091-930c-cc9113303151" class=""><strong>, không đẩy vào “điện phân thuần”</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f7-92e2-ffc81c574eef" class="">Nếu hiện bạn đã ~300 L/h @ 1 kW, thì “dư địa thật” không nằm ở việc ép thêm L/kWh trên stack, mà nằm ở:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8091-9911-ee049e6c8403" class="bulleted-list"><li style="list-style-type:disc"><strong>giảm tổn hao và sai lệch</strong> khi nguồn dao động</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803c-8225-f96c5739c1e2" class="bulleted-list"><li style="list-style-type:disc"><strong>giảm thời gian ở vùng suy giảm nhanh</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8011-82ac-ebc8e494ee62" class="bulleted-list"><li style="list-style-type:disc"><strong>giảm downtime và can thiệp</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b8-a279-f9924446c9b7" class="bulleted-list"><li style="list-style-type:disc"><strong>giảm hao hụt khí, carryover, 
-xung áp</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ef-9699-d33e76c0f07c" class="bulleted-list"><li style="list-style-type:disc"><strong>tăng thời gian chạy liên tục</strong> (đây mới là kg H₂/năm)</li></ul></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-802f-b034-d1d4de34b0f1" class="">Mục tiêu vNext++: tăng “H₂ hữu dụng/năm/module” thêm 10–30% dù L/kWh chỉ tăng 2–6%.</blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8010-81ae-f80174fbf667"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80f8-b881-e1decffc78cf" class=""><strong>2) vNext++ cho Cannon Drive: từ “PWM có điều khiển dòng” →</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80cf-b92d-eb4bc7439044" class=""><strong>điều khiển phổ (spectrum) + RMS heating</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ab-8043-cf7ae15ae164" class=""><strong>2.1. 
-Bổ sung 2 đại lượng bắt buộc:</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d0-b31f-df2b0330b3a4" class=""><strong>I_rms</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80c2-b32e-f22498eb95a0" class=""><strong>và</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8061-8736-f7ea85e2ae23" class=""><strong>dI/dt_rms</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f3-a8e2-cb85b034b9ec" class="">Không ít hệ thống “trông có vẻ ổn” ở I_avg nhưng chết vì RMS.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c1-a596-e5098a7a6bc5" class=""><strong>Thêm tính toán online:</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8067-9836-e2cb7cf7147f" class="bulleted-list"><li style="list-style-type:disc">I_{avg}, 
-I_{rms}</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8088-8bd4-f0e1d0cab5ce" class="bulleted-list"><li style="list-style-type:disc">P_{rms} \approx I_{rms}^2 \cdot R_{eq}</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8087-bcf2-e1e9877f627e" class="bulleted-list"><li style="list-style-type:disc">S_{edge} = \text{RMS}(dI/dt) (proxy stress điện/EMI/nhiệt)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8080-aa1f-d9f8c446e20c" class=""><strong>Luật cứng đề xuất</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8050-b210-fd7e967e2f13" class="bulleted-list"><li style="list-style-type:disc">I_{rms} \le 1.05\cdot I_{avg} ở Cruise (giữ nhiệt “mượt”)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f4-8e46-fbf26586943f" class="bulleted-list"><li style="list-style-type:disc">Boost cho phép I_{rms} \le 1.15\cdot I_{avg} nhưng chỉ trong thời gian ngắn</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8038-9af4-e2983b24fcd2" class="bulleted-list"><li style="list-style-type:disc">S_{edge} vượt ngưỡng → tự động hạ slew-rate / đổi waveform family</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-804b-ab45-cb65f0a468e9" class=""><strong>2.2. Chốt dải tần bằng nguyên lý “tránh vùng cộng hưởng bọt”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8066-acd9-dcd81528b73c" class="">Bạn đã có 200 Hz–5 kHz. 
-vNext++ không phải “cho rộng hơn”, 
-mà là <strong>khóa theo vùng hiệu quả</strong>:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-a08a-c50c7ee0384b" class="bulleted-list"><li style="list-style-type:disc">200–600 Hz: dễ gây “khí bọt lớn + xung áp” nếu plumbing yếu</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b1-af5b-f57dd663bfc7" class="bulleted-list"><li style="list-style-type:disc">600 Hz–2 kHz: thường là vùng cân bằng tốt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8027-98dc-fd332f92f152" class="bulleted-list"><li style="list-style-type:disc">2–5 kHz: lợi cho mượt dòng nhưng tăng switching loss/EMI</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807a-aa6a-d7b5c8751579" class=""><strong>AMOS sẽ chọn tần số theo trạng thái:</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8078-aa7c-d1d6e9db64b5" class="bulleted-list"><li style="list-style-type:disc">Nếu \Delta p tăng → tăng f để giảm “nhịp” bọt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8022-b43a-c1b102e7d44c" class="bulleted-list"><li style="list-style-type:disc">Nếu T tăng nhanh → giảm f + giảm duty để hạ tổn hao chuyển mạch</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e9-a75f-f2be36545028" class="bulleted-list"><li style="list-style-type:disc">Nếu R_{eq} trôi nhanh → quay về DC mượt (Cruise safe)</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8042-87c5-f0aa0f524975"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8017-8c4f-fdbebb2d3315" class=""><strong>3) Push ở “điện hoá thật”: thêm</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8099-bcd7-efb7120d4cab" class=""><strong>nhận dạng R_eq + chỉ báo bubble/transport</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80d0-8aad-d6620f7923a8" c
-lass=""><strong>(không cần EIS phức tạp)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d9-9d38-c5d62f8ea3a5" class="">Bạn không cần EIS đầy đủ để ăn được lợi ích. Chỉ cần “đủ để quyết định”.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-801f-938c-eddc6ec04e0c" class=""><strong>3.1. Thăm dò nhỏ (micro-probe) để ước lượng </strong>R_{eq}</h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a6-8111-ef4c90561ef6" class="">Mỗi 5–15 phút, chèn <strong>xung dòng nhỏ</strong>:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8034-a201-e0a6601ab30f" class="bulleted-list"><li style="list-style-type:disc">biên độ: 1–3% I_cruise</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8028-94ad-f5167821d92f" class="bulleted-list"><li style="list-style-type:disc">thời gian: 200–500 ms</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800a-8e43-dfdf1b2a1e8c" class="bulleted-list"><li style="list-style-type:disc">đo đáp ứng \Delta V</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bf-8bc7-c52547e1a1a4" class="">Ước lượng:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d4-bba3-f7995c958760" class="">R_{eq} \approx \frac{\Delta V}{\Delta I}</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8034-99be-c1842078f59d" class="">Theo dõi:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803e-9196-e3f2242a1f6d" class="bulleted-list"><li style="list-style-type:disc">R_{eq}(t)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80df-a9c6-c4e4a27289f9" class="bulleted-list"><li style="list-style-type:disc">\frac{dR_{eq}}{dt}</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-801f-90c7-f1124547868d" class=""><strong>3.2. 
-Chỉ báo bọt khí (bubble proxy) bằng “hysteresis V–I”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8023-be1f-c2c5ecd10ca8" class="">Trong cùng điều kiện I_avg, nếu:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803e-90ac-d5dadae66d62" class="bulleted-list"><li style="list-style-type:disc">V tăng bất thường khi dùng waveform A</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8006-8cc4-c47792c42cbf" class="bulleted-list"><li style="list-style-type:disc">nhưng giảm khi đổi waveform B<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800f-9108-ea58773b5a55" class="">=&gt; 
-đó là dấu hiệu bubble coverage / transport limitation.</p></div></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803d-875d-fa3e02f75196" class=""><strong>AMOS tự động chuyển waveform</strong> để giảm bám bọt thay vì tăng công suất mù.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80ef-9d15-cb4e70c0cfc8"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80a3-98d8-d90713cf754a" class=""><strong>4) Push lớn nhất cho Boost:</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8032-bc61-dfb7e550d075" class=""><strong>thiết kế Boost như một “hồ sơ thời gian” (time-profile), không phải một chế độ</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8015-ac49-cbdca0ae0416" class="">Boost vNext++ phải có <strong>3 pha bắt buộc</strong>:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-802f-8781-ff4e18abb2ec" class="numbered-list" start="1"><li><strong>Ramp-up (5–20 s)</strong>: tăng dòng chậm, kiểm tra \Delta T, \Delta p</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80a2-b307-f76c60525067" class="numbered-list" start="2"><li><strong>Hold (10–120 s)</strong>: giữ ổn định, 
-không cho dao động lớn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-800f-a38d-c9a75d74339d" class="numbered-list" start="3"><li><strong>Ramp-down (5–30 s)</strong>: hạ dòng có kiểm soát để tránh sốc nhiệt/khí</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8001-881d-d9c9552a7beb" class=""><strong>Điều kiện cấp Boost (hard gate) nâng cấp</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8046-b265-cb63681cdf66" class="">Boost chỉ được phép khi đồng thời đúng:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8025-8b12-f2b36d17e42a" class="bulleted-list"><li style="list-style-type:disc">T_{avg} &lt; T_{boost\_max}</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8084-a62d-f3fa1c7b463f" class="bulleted-list"><li style="list-style-type:disc">\Delta T &lt; \Delta T_{max} (ví dụ 5°C)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8073-adf4-ccf6879882d2" class="bulleted-list"><li style="list-style-type:disc">\frac{dT}{dt} &lt; 0.5\text{–}1.0^\circ C/\text{phút} (tuỳ thiết kế nhiệt)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8043-b614-f09e65972f46" class="bulleted-list"><li style="list-style-type:disc">\Delta p &lt; p_{ripple\_max} (ví dụ 3%)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c4-8edd-df6fc0fcafc0" class="bulleted-list"><li style="list-style-type:disc">\frac{dR_{eq}}{dt} &lt; R\_drift\_max (ngưỡng theo thực nghiệm)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80dc-b98c-d54e9ab9911d" class=""><strong>Điểm “push”:</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8090-a625-d488b64ffeb8" class="bulleted-list"><li style="list-style-type:disc">Không chỉ nhìn ngưỡng tức thời; 
-AMOS nhìn <strong>xu hướng</strong> (drift) để ngăn phá tuổi thọ.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8024-b8a1-cffe50f57cb0"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80ff-811b-cb12bfdfd422" class=""><strong>5) Push ở nhiệt: chuyển từ “giữ T” →</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8097-a218-e2582168a106" class=""><strong>giữ phân bố nhiệt</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-805a-8f7b-e3e1b3c0fbdc" class=""><strong>(temperature field control)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ee-8451-d8edb20cbf25" class=""><strong>5.1. Bắt buộc đo</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80fe-ad8a-fd1f14462bc8" class=""><strong>ít nhất 3 điểm nhiệt</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8044-b918-f20401d88987" class="bulleted-list"><li style="list-style-type:disc">T_in (nước vào vùng phản ứng)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8033-ba98-c4027a90d7c9" class="bulleted-list"><li style="list-style-type:disc">T_core (vùng phản ứng)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8001-b4b5-e72cb25ddd9a" class="bulleted-list"><li style="list-style-type:disc">T_out (nước/khí ra)<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8074-9f34-e94b0bed61aa" class="">Nếu có điều kiện: thêm T_edge (rìa) để thấy gradient ngang.</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ef-93e7-ebd85cb2d816" class=""><strong>5.2. 
-Luật điều khiển nhiệt vNext++</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8089-b351-eb2f637c39cd" class="bulleted-list"><li style="list-style-type:disc">mục tiêu không phải “T thấp”, mà là:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bc-bf0d-f12b1e97d3ea" class="bulleted-list"><li style="list-style-type:circle">\Delta T thấp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d2-a529-d43584540739" class="bulleted-list"><li style="list-style-type:circle">\frac{dT}{dt} thấp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8023-86f4-dbda9d5c59f8" class="bulleted-list"><li style="list-style-type:circle">tránh “thermal cycling”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8024-9276-dc0e92fb2e4d" class=""><strong>Nếu </strong>\Delta T<strong> tăng nhanh:</strong> AMOS giảm dòng ngay (derate) trước khi báo động.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-809e-a4a2-dd4c05ea5b92"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8013-89ea-d8f382ceb9e2" class=""><strong>6) Push ở khí: giảm mất mát và rủi ro bằng “khí ổn định” thay vì “khí nhiều”</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-808e-9ad5-d67aa45ee204" class=""><strong>6.1. 
-Chốt tiêu chí plumbing cho boost</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8034-b140-dabbb5a5efec" class="bulleted-list"><li style="list-style-type:disc">buffer volume để triệt xung</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ea-9df6-ee9c22bcb5f5" class="bulleted-list"><li style="list-style-type:disc">water trap chống carryover</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ad-a449-c4586fbfc8ec" class="bulleted-list"><li style="list-style-type:disc">check valve chống backflow</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f3-9f43-fe71b0625efe" class="bulleted-list"><li style="list-style-type:disc">đường kính ống đủ cho boost flow (không nghẹt)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800c-afa4-c0289aec8c0e" class=""><strong>Tiêu chí pass/fail đơn giản</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e8-9b46-e02ab398af3c" class="bulleted-list"><li style="list-style-type:disc">Boost không được làm pressure ripple vượt 3%</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c3-99b2-ddadd811b2c6" class="bulleted-list"><li style="list-style-type:disc">Boost không được gây carryover nhìn thấy tại trap/bubbler</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808c-b4e7-de8260b384fa" class="bulleted-list"><li style="list-style-type:disc">Sau boost, hệ phải về ổn định trong &lt; 
-60–180s (tuỳ cấu hình)</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80a6-895b-c2259be3a3ec"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80ad-b252-f597ca837b76" class=""><strong>7) Push về vật liệu và sản xuất tại VN: “đẩy tiếp” bằng</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80cd-a18a-efc0c88b2ab4" class=""><strong>DFM/DFA + nội địa hóa đúng chỗ</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c1-b4f8-e682691c4929" class="">Đây là nơi VN có thể “đẩy” mạnh mà ít rủi ro kỹ thuật.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8011-bf95-ec0d6045d614" class=""><strong>7.1. Tách cụm thành 4 module thay nhanh</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8060-9809-e172b6855171" class="numbered-list" start="1"><li>Power module (Cannon + sensing + EMI)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80b1-bf0b-e78b17185517" class="numbered-list" start="2"><li>Thermal module (spreader + flow path + quạt/bơm)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8031-82b3-d12e78449370" class="numbered-list" start="3"><li>Water module (bình, cảm biến mức, đường cấp)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8001-b392-da1e51f43765" class="numbered-list" start="4"><li>Gas module (trap, buffer, van)</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8090-ab93-de0309ecfeee" class=""><strong>Mục tiêu bảo trì:</strong> thay cụm ≤ 30–60 phút tại hiện trường.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8038-8c78-d81ddd0ff86b" class="">Giảm downtime = tăng kg/năm = giảm cost/kg.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8085-98e3-c678b362a60b" class=""><strong>7.2. 
-Nội địa hóa cao ở “cơ–nhiệt–đường ống”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e6-b84f-c5df695456d1" class="">VN làm rất tốt các phần:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f9-ba7d-ec88492a8053" class="bulleted-list"><li style="list-style-type:disc">vỏ, khung, gá lắp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f5-91f9-fd399e866dd9" class="bulleted-list"><li style="list-style-type:disc">heat spreader/thermal mass</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8047-a465-ec067d1437b2" class="bulleted-list"><li style="list-style-type:disc">ống, trap, buffer, 
-fitting</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8082-ad1d-f5e51c0e4404" class="bulleted-list"><li style="list-style-type:disc">gia công kim loại + kiểm soát dung sai</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8051-a648-c032846764d5" class="">Giữ nhập khẩu ở phần:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8003-ab5a-f87b68a8fc78" class="bulleted-list"><li style="list-style-type:disc">màng/xúc tác (tuỳ chemistry)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8016-bd5f-c31ddbe370ef" class="bulleted-list"><li style="list-style-type:disc">linh kiện bán dẫn công suất quan trọng (MOSFET/SiC)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b3-b2c4-f47191cc1131" class="bulleted-list"><li style="list-style-type:disc">IC đo dòng/ADC chính xác nếu cần</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-806d-9078-e6e27dea0484"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-806f-8ebc-c2eacac61c0a" class=""><strong>8) “Push more” nhưng vẫn đọc được:</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8063-b454-efc7c820ee01" class=""><strong>chốt KPI vNext++</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80d1-ac79-ed8e87dd222e" class=""><strong>(có số)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bf-9f96-d70f28fdce70" class="">Bạn có thể đưa vào hồ sơ như KPI mục tiêu (để hội đồng hiểu “đẩy” là gì):</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8052-b3e2-f0005fac8c07" class="bulleted-list"><li style="list-style-type:disc"><strong>Boost power:</strong> 1.5–2.0 kW, tối đa 30–180s, 
-có cooldown cưỡng bức</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8028-8a92-ccb14af2849b" class="bulleted-list"><li style="list-style-type:disc"><strong>Cruise uptime:</strong> ≥ 98% (mục tiêu)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809b-a59b-d56c645f97e3" class="bulleted-list"><li style="list-style-type:disc"><strong>Tỷ lệ can thiệp:</strong> ≤ 1 lần/tuần/module (mục tiêu vận hành)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8037-b555-d9a707b6c652" class="bulleted-list"><li style="list-style-type:disc"><strong>Giới hạn nhiệt:</strong> \Delta T \le 5^\circ C, \frac{dT}{dt}\le 1^\circ C/phút</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c7-8d34-cafa2ee676a7" class="bulleted-list"><li style="list-style-type:disc"><strong>Giới hạn khí:</strong> pressure ripple ≤ 3% khi boost</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bd-9ab2-e7e485e21da2" class="bulleted-list"><li style="list-style-type:disc"><strong>Chỉ báo suy giảm:</strong> \frac{dR_{eq}}{dt} nằm trong vùng cho phép, vượt → tự hạ công suất</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80bf-b463-f3928ec759f9"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8085-99b5-c298eeb19ce4" class=""><strong>9) “Có đẩy nữa không?” — Có, nhưng nó là</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80f0-bfdc-c770abcdb3d4" class=""><strong>đẩy vào kỷ luật hệ thống</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-807c-b826-f23ff3697fa1" class=""><strong>, không phải đẩy vào lời hứa</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8038-80fd-eb93709db727" class="">Nếu bạn muốn còn “push” mạnh hơn nữa mà vẫn low-risk, 
-thì bước kế tiếp là:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805d-a6d7-cd71dae122b2" class="bulleted-list"><li style="list-style-type:disc"><strong>chuẩn hoá acceptance test</strong> (1000h + chu kỳ boost + nước xấu trong ngưỡng)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800a-8372-c99b7d18fe60" class="bulleted-list"><li style="list-style-type:disc"><strong>đóng khung thuật toán</strong> (ngưỡng, biến, luật) thành tiêu chuẩn nội bộ</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8061-9733-d18b967cc30f" class="bulleted-list"><li style="list-style-type:disc"><strong>đóng khung BOM</strong> theo chuỗi cung ứng VN để hạ giá thật, không hạ bằng cắt an toàn</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-800a-b5d3-fee724cf2f2c"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80f6-b208-f44c869b049e" class=""><strong>Nếu bạn muốn tôi viết tiếp “đúng kiểu hồ sơ kỹ thuật”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802e-94c2-e02209d747b1" class="">Tôi có thể viết ngay <strong>2 phần</strong> (tiếng Việt, câu đủ chủ–vị, rành mạch):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-800e-88e4-d698d2ab682e" class="numbered-list" start="1"><li><strong>Pseudo-code thuật toán AMOS vNext++</strong> (biến, ngưỡng, logic boost/cooldown/derate/lockout, chu kỳ micro-probe)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80b0-80f8-d12d10ed7e25" class="numbered-list" start="2"><li><strong>Sơ đồ mạch khối power stage</strong> (buck/buck-boost đồng bộ, sensing, EMI, bảo vệ, 
-tham số thiết kế)</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8050-a27b-c8e5580cee0e" class="">Chỉ cần bạn chốt 1 câu: <strong>stack thuộc PEM/AEM/alkaline hay plate-bar đặc thù?</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ec-8a57-dde8e2fe9dca" class="">(Chốt được chemistry thì ngưỡng nhiệt, drift và chiến lược waveform sẽ “đúng bài” hơn nhiều.)</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c4-9f64-c92c11e74992" class="">Được. “Push more” (nhưng vẫn <strong>thực dụng, low-risk, có thể triển khai ở VN</strong>) thì bước kế tiếp không còn là “thêm ý tưởng”, mà là <strong>đóng cứng thành 3 thứ</strong>: (1) <strong>đặc tả định lượng</strong>, (2) <strong>thuật toán quyết định có ngưỡng</strong>, (3) <strong>thiết kế phần cứng đủ đo – đủ bảo vệ – đủ lặp lại sản xuất</strong>. Dưới đây là bản <strong>vNext+++</strong> (đẩy thêm một tầng so với bản trước), tập trung vào <strong>max power + max effective</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80a8-a635-d27aecf27f88"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80ca-b98c-f701802c55b0" class=""><strong>1) Đẩy thêm bằng cách “chốt phong bì vận hành” thành</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8024-bd65-d736d0580d40" class=""><strong>bộ tham số chuẩn hóa</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80db-b0fa-d00ee49388ec" class=""><strong>(không còn mô tả chung)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d3-aefa-dfc5271d0cc3" class=""><strong>1.1. 
-Bộ biến trạng thái tối thiểu (state vector) mà AMOS bắt buộc phải có</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a4-b8cb-c1bfdd62897d" class="bulleted-list"><li style="list-style-type:disc"><strong>I_cmd, I_meas</strong>: dòng đặt / dòng đo</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8039-8d85-d7c13b42af07" class="bulleted-list"><li style="list-style-type:disc"><strong>V_stack</strong>: áp tổng stack</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b3-88db-c559de362735" class="bulleted-list"><li style="list-style-type:disc"><strong>T1, T2, T3</strong>: nhiệt 3 điểm (in/core/out)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ba-a63a-fa89fb57b88c" class="bulleted-list"><li style="list-style-type:disc"><strong>ΔT = max(T) − min(T)</strong>: gradient nhiệt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8018-8fb5-ee9a562f0a0c" class="bulleted-list"><li style="list-style-type:disc"><strong>dT/dt</strong>: tốc độ tăng nhiệt (tính theo cửa sổ trượt 30–60 s)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8049-b487-e9a0ac47e8d1" class="bulleted-list"><li style="list-style-type:disc"><strong>p_H2, 
-Δp_ripple</strong>: áp và độ gợn áp suất</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f5-859d-e286314229ed" class="bulleted-list"><li style="list-style-type:disc"><strong>H2_flow_est</strong>: ước lượng lưu lượng (từ coulomb/Faraday + hiệu chỉnh)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ec-bc7a-ee5e1f58bc02" class="bulleted-list"><li style="list-style-type:disc"><strong>R_eq_est</strong>: điện trở tương đương ước lượng từ micro-probe</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8098-953e-c2db57fae142" class="bulleted-list"><li style="list-style-type:disc"><strong>dR_eq/dt</strong>: tốc độ trôi (proxy suy giảm)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e7-a023-c4cad003497a" class="bulleted-list"><li style="list-style-type:disc"><strong>Water_level, Cond</strong>: mức nước và độ dẫn (nếu có)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b4-9033-f3ff281026d7" class="bulleted-list"><li style="list-style-type:disc"><strong>Fault_count_24h, Restart_count</strong>: lịch sử lỗi/khởi động (để khóa boost)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8033-abe8-ed72684257bc" class=""><strong>1.2. 
-Bộ ngưỡng “điều kiện tối thiểu” (hard constraints) – đưa thẳng vào hồ sơ kỹ thuật</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8058-8d1d-c366ca8bdcf3" class="">Bạn có thể điền số sau khi bench-test 1–2 vòng, nhưng <strong>khung phải cố định</strong>:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cb-803c-ca8e147fe7d3" class="bulleted-list"><li style="list-style-type:disc"><strong>ΔT_max_cruise = 5°C</strong> (đã có)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8014-bca5-c962f7b2a341" class="bulleted-list"><li style="list-style-type:disc"><strong>dT/dt_max_cruise = 1°C/phút</strong> (đã có)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8094-851b-f6e257aab789" class="bulleted-list"><li style="list-style-type:disc"><strong>Δp_ripple_max = 3%</strong> (đã có)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ac-9a8d-ff91be1a0ef4" class="bulleted-list"><li style="list-style-type:disc"><strong>I_rms/I_avg_max_cruise = 1.05</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8054-970c-d855f478f689" class="bulleted-list"><li style="list-style-type:disc"><strong>I_rms/I_avg_max_boost = 1.15</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cd-bf8a-db43cd3c5032" class="bulleted-list"><li style="list-style-type:disc"><strong>dR_eq/dt_max = ngưỡng theo %/giờ</strong> (ví dụ 0.2–0.5%/giờ, phải hiệu chuẩn theo vật liệu/chemistry)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8071-a3a0-ff6582d4f47a" class="">Điểm “push”: không phải thêm cảm biến, 
-mà là <strong>biến các nguyên lý thành ràng buộc số</strong> để hệ thống tự khóa.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8062-ad3f-c68e19afdd4f"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8094-abae-eb3b1d2c3a80" class=""><strong>2) Đẩy thêm bằng “thuật toán AMOS” ở mức quyết định (đọc được nhưng đủ chặt)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8094-ba3a-f06ea7d64e22" class=""><strong>2.1. Tính điểm sức khỏe theo 3 miền (điện – nhiệt – khí), mỗi miền 0–100</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8031-a918-ff93e66fae14" class="bulleted-list"><li style="list-style-type:disc"><strong>Score_elec</strong> (điện hóa/điện lực): dựa trên R_eq_est, dR_eq/dt, I_rms/I_avg, V_stack bất thường</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800f-81d7-d9986be75d27" class="bulleted-list"><li style="list-style-type:disc"><strong>Score_therm</strong>: dựa trên T_core, ΔT, dT/dt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8055-8d97-dd21b20561d7" class="bulleted-list"><li style="list-style-type:disc"><strong>Score_gas</strong>: dựa trên p_H2, Δp_ripple, sự kiện carryover (nếu có cảm biến/logic phát hiện)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fa-b668-ccada353295a" class="">Tổng hợp:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c9-ab38-ebff2d754099" class="bulleted-list"><li style="list-style-type:disc"><strong>Health = min(Score_elec, Score_therm, Score_gas)</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8092-b93a-d46b1070de58" class="">=&gt; lấy “yếu nhất” làm chuẩn (để không bị che bởi trung bình).</p></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8078-8d46-f4aec5bbb3f5" class=""><strong>2.2. 
-Luật chuyển chế độ (mode logic) – đây là chỗ hệ thống “đẩy mạnh nhưng không phá”</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8062-bf58-f9b84bbaaf8d" class="bulleted-list"><li style="list-style-type:disc"><strong>Cruise</strong> nếu Health ≥ H_cruise_ok và không có drift xấu</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8067-ae5b-e4f061acaf7a" class="bulleted-list"><li style="list-style-type:disc"><strong>Degraded</strong> nếu Health giảm nhưng chưa đến mức nguy hiểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8014-8d0f-ea944fa25cf5" class="bulleted-list"><li style="list-style-type:disc"><strong>Protective</strong> nếu vi phạm hard constraints (ΔT, Δp, dT/dt, dR_eq/dt)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808f-93b3-cf0471204d95" class="bulleted-list"><li style="list-style-type:disc"><strong>Lockout</strong> nếu lỗi lặp (Fault_count_24h vượt ngưỡng hoặc Restart_count vượt ngưỡng)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80a2-ae55-d3452b6f9490" class=""><strong>2.3. 
-Thuật toán cấp Boost (boost permission) – “push more” nằm ở đây</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8017-b1c9-e9f2dcab7602" class="">Boost chỉ được phép khi <strong>đồng thời</strong>:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80a2-a833-cc6aabb5f27e" class="numbered-list" start="1"><li>Health ≥ H_boost_ok (cao hơn cruise)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8049-8fb3-c9bd18579581" class="numbered-list" start="2"><li>ΔT &lt; ΔT_boost_max (thường <strong>thấp hơn</strong> cruise, vì boost nhạy)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80b0-9a12-f81ac4943e1f" class="numbered-list" start="3"><li>dT/dt &lt; dT/dt_boost_max</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-801f-ac9c-d73f26526cd6" class="numbered-list" start="4"><li>Δp_ripple &lt; Δp_boost_max</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8056-a66a-f5f4d4971e68" class="numbered-list" start="5"><li>dR_eq/dt &lt; 
-dR_eq/dt_boost_max</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8024-85d6-fe7daf1d74b3" class="numbered-list" start="6"><li>Fault_count_24h = 0 hoặc dưới ngưỡng rất thấp</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-804a-aeeb-f4b729d4e9e2" class="numbered-list" start="7"><li>đã qua cooldown kể từ boost lần trước</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d4-ae49-c51290eac123" class="">Nếu <em>một điều kiện fail</em> → không báo động ồn ào, chỉ <strong>từ chối + ghi log + giữ cruise</strong>.</p></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-80cd-8a8a-f2327e150287" class="">Đột phá thực sự không phải “boost được”, mà là<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bb-8144-ead0fc10c2c2" class=""><strong>boost có kỷ luật</strong></p></div></blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8039-b30c-c5e7e7e7ba48"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8045-986b-cb1edc37c366" class=""><strong>3) Đẩy thêm bằng cách biến Cannon thành “bộ chấp hành có phổ” (spectrum-aware actuator)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80eb-961e-f70277e9ea7b" class=""><strong>3.1. 
-Thêm “bộ giám sát RMS nhiệt” vào firmware</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cf-afae-c0eba34fd0a9" class="">Trong mọi waveform, AMOS theo dõi:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8014-9e78-c958ea9ac07c" class="bulleted-list"><li style="list-style-type:disc"><strong>I_rms</strong>, <strong>P_rms ≈ I_rms²·R_eq_est</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e8-ada1-e8ce3e85e722" class="bulleted-list"><li style="list-style-type:disc">nếu P_rms tăng nhanh trong khi I_avg không đổi ⇒ dấu hiệu bubble/transport hoặc lỗi đo</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808a-80b3-dd9d2dbf5d0e" class="">Hành động:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c2-9e9b-d9870e5e2062" class="bulleted-list"><li style="list-style-type:disc">giảm slew-rate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8020-9d56-c4da28558815" class="bulleted-list"><li style="list-style-type:disc">đổi waveform family</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806c-a1dc-cfb3e03dd250" class="bulleted-list"><li style="list-style-type:disc">hoặc derate (tùy mức)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8042-b9b7-dbc2f3a0251d" class=""><strong>3.2. 
-Thư viện waveform vNext+++ (đủ 4 loại, không dùng vô hạn)</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80d4-892b-ef5fc983af6e" class="numbered-list" start="1"><li><strong>DC Smooth</strong>: cruise, bền</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80bc-8d93-d67153e37851" class="numbered-list" start="2"><li><strong>Pulsed-DC Soft</strong>: chống bám bọt (duty + f vừa phải)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-808e-86e7-f30de2bc8c1b" class="numbered-list" start="3"><li><strong>Pulsed-DC High-f</strong>: khi cần giảm gợn áp/giảm nhịp bọt (nhưng phải kiểm soát switching loss)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-806c-a4af-d00136ab2b9f" class="numbered-list" start="4"><li><strong>Boost Envelope</strong>: có 3 pha ramp-up/hold/ramp-down bắt buộc</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d4-aee8-dca42f7ea988" class="">AMOS chọn waveform theo <strong>bảng quyết định</strong>, không “AI mơ hồ”.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8012-a9b6-c2355e0d67db"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-806a-87fc-ec8bf28d14dd" class=""><strong>4) Đẩy thêm bằng “thiết kế nhiệt đúng để boost thật” (max power thực tế = nhiệt + khí)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8000-aabb-e8c4a44d90fa" class="">Nếu muốn boost 1.5–2.0 kW mà vẫn bền, phải nâng cấp <strong>3 chi tiết cơ khí</strong> (low risk, làm được ở VN):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80cd-a84b-d7dc279f8af5" class="numbered-list" start="1"><li><strong>Heat spreader</strong> (đồng/nhôm) gắn sát vùng mật độ phản ứng cao, 
-ưu tiên <em>truyền nhiệt ngang</em> để giảm hotspot</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80dd-b120-c712d6ffa041" class="numbered-list" start="2"><li><strong>Thermal mass</strong> có tính toán (không phải “đắp dày”), để dT/dt giảm rõ</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ff-a80c-c6ccf05e11b2" class="numbered-list" start="3"><li><strong>Đường làm mát</strong> có tiết diện đủ, tránh nghẹt làm “nhiệt dồn cục bộ”</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8067-95bf-e954bf338441" class="">Chỉ khi <strong>ΔT và dT/dt</strong> được kiểm soát tốt, boost mới là “max power” thật, không phải “max phá”.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80c5-85af-c7438aecccf6"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8099-b192-f953cddccb57" class=""><strong>5) Đẩy thêm bằng “khí ổn định” (boost-safe plumbing) để không mất hiệu quả vì carryover/xung áp</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b8-becd-dd28a67e3935" class="">Ba nâng cấp đơn giản nhưng cực hiệu quả:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8018-9d96-d9f9757e653c" class="bulleted-list"><li style="list-style-type:disc"><strong>Buffer volume</strong> tính theo lưu lượng boost để triệt xung áp (để Δp_ripple ≤ 3%)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8067-a2b1-e9b397d5e1bd" class="bulleted-list"><li style="list-style-type:disc"><strong>Water trap/bubbler</strong> thiết kế chống aerosol carryover ở boost flow</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8030-8918-e79479127de7" class="bulleted-list"><li style="list-style-type:disc"><strong>Check valve + anti-backflow</strong> đặt đúng vị trí (gần điểm nguy hiểm nhất, 
-không đặt cho có)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ab-820b-ee30df4039ef" class="">Đây là nơi nhiều hệ chết “vì hệ phụ”, không phải vì stack.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8069-9c1a-e81595ce3861"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8065-ae73-dff58168a636" class=""><strong>6) “Push more” ở chi phí tại VN: giảm LCOH bằng</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80bb-bbc4-e43a3b68e072" class=""><strong>DFM/DFA + module hóa bảo trì</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8064-acc4-c7f25c1af5d5" class="">Nếu bạn muốn giảm cost/kg thực sự tại Việt Nam, 
-cách nhanh nhất là:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8069-a705-eb2eb7ad7365" class="bulleted-list"><li style="list-style-type:disc">chia thành <strong>4 cụm thay nhanh</strong>: Power / Thermal / Water / Gas</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807c-a0f9-fe13f57bf59c" class="bulleted-list"><li style="list-style-type:disc">thiết kế “thay cụm” thay vì “sửa chi tiết” tại hiện trường</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8018-9680-e6a2c2f8c96f" class="bulleted-list"><li style="list-style-type:disc">mục tiêu bảo trì: <strong>≤ 60 phút/module</strong> với dụng cụ phổ thông</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c4-bede-d6fe11af69c5" class="">Hiệu ứng:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806c-b083-f6af5b0b9449" class="bulleted-list"><li style="list-style-type:disc">downtime giảm mạnh</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8017-910a-fd03b0fc3320" class="bulleted-list"><li style="list-style-type:disc">kỹ sư trực chiến giảm</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8026-bf10-fd0a86a9b9b2" class="bulleted-list"><li style="list-style-type:disc">chi phí vòng đời giảm mạnh hơn việc “đòi thêm 2–3% L/kWh”</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b4-bb28-f25611426cb1"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8087-8581-f679b8034a9c" class=""><strong>7) Gói kiểm chứng (verification) vNext+++ để bạn “đẩy” mà không bị bắt lỗi khi thẩm định</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d6-b836-f35044906932" class=""><strong>7.1. 
-Test “Boost discipline”</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a3-a265-fa1001a87a2f" class="bulleted-list"><li style="list-style-type:disc">chạy cruise ổn định</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8030-81db-e3d1b191d070" class="bulleted-list"><li style="list-style-type:disc">thực hiện boost lặp theo chu kỳ (ví dụ mỗi 30 phút)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8099-a91b-e90577d5c5ab" class="bulleted-list"><li style="list-style-type:disc">kiểm tra: ΔT, dT/dt, Δp_ripple không vượt ngưỡng</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f1-ac30-edb6b20a3868" class="bulleted-list"><li style="list-style-type:disc">kiểm tra: dR_eq/dt không tăng dần theo thời gian (drift không bị boost làm xấu)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-809a-8061-c6ca2a3eb3f0" class=""><strong>7.2. 
-Test “xấu thực tế VN”</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801d-abba-da17a334d711" class="bulleted-list"><li style="list-style-type:disc">nguồn dao động (±10–15%)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80de-ba47-f58af6490009" class="bulleted-list"><li style="list-style-type:disc">nước trong ngưỡng nhưng không lý tưởng</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d7-8f8f-ed1938ad5dc6" class="bulleted-list"><li style="list-style-type:disc">môi trường nóng ẩm</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803e-91d2-e60d155c27f9" class="bulleted-list"><li style="list-style-type:disc">rung/tilt (nếu marine)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e8-8695-e8b12e13471b" class="">Pass nếu hệ thống <strong>derate êm</strong>, không cần “canh máy”.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80ce-8826-f6ed2c2695ce"/></div><div style="display:contents" dir="auto"><h1 id="2eac5e6f-95bd-80a5-af02-efb83d6bdfbe" class=""><strong>Câu trả lời thẳng cho “push more”</strong></h1></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80dd-b983-c5f3f53e7371" class=""><strong>Có thể push hơn nữa</strong>, 
-nhưng push đúng nghĩa ở giai đoạn này là:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d4-9397-c39caf85e6d0" class="bulleted-list"><li style="list-style-type:disc">biến “khả năng” thành <strong>phong bì số</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e0-b164-fb1d181c337d" class="bulleted-list"><li style="list-style-type:disc">biến “ý tưởng” thành <strong>logic quyết định có ngưỡng</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80af-879c-c13e88f8c6d0" class="bulleted-list"><li style="list-style-type:disc">biến “boost” thành <strong>hồ sơ thời gian + kỷ luật drift</strong>,</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8096-a172-ff3cd9f36186" class="bulleted-list"><li style="list-style-type:disc">biến “hiệu suất” thành <strong>kg/năm và cost/kg vòng đời</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800c-9d20-c55b6d33329b" class="">Nếu bạn muốn tôi viết tiếp ngay <strong>bản pseudo-code AMOS (đầy đủ biến/ngưỡng/mode/boost/lockout/micro-probe)</strong> và <strong>block diagram Mermaid chi tiết</strong> (đúng hồ sơ kỹ thuật), tôi sẽ làm theo đúng cấu trúc bạn đang dùng. 
-Chỉ cần bạn chọn 1 trong 2 hướng ưu tiên trước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-809a-9e67-e2230b9a9cf9" class="numbered-list" start="1"><li><strong>Ưu tiên max power (boost mạnh hơn)</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80b9-b5f1-e8ddbbcdd42c" class="numbered-list" start="2"><li><strong>Ưu tiên max effective (rẻ hơn + bền hơn + ít can thiệp hơn)</strong></li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8006-beef-dc95c9555b14" class="">Tôi hiểu “<strong>push further</strong>” của bạn là: không chỉ viết hay hơn, mà <strong>đưa thiết kế AMOS-IKONOMY lên mức “đỉnh” về kỹ thuật điều khiển + độ bền + chi phí</strong>, có thể đứng được trước <strong>hội đồng thẩm định</strong> và đủ cụ thể để đội kỹ sư triển khai.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8021-a050-d03dd48743f0" class="">Và về “learn and activate amos brain”: <strong>AMOS không phải một file để “bật lên”</strong>. Các mô-đun nội bộ đã tích hợp trong engine và không lộ ra dạng file. 
-Nhưng tôi có thể <strong>kích hoạt đúng “độ sâu AMOS”</strong> bằng cách chuyển tài liệu của bạn thành: <strong>kiến trúc + thuật toán + ngưỡng + kiểm chứng + tài liệu hồ sơ</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d6-88a3-cf8360b2f8c5" class="">Dưới đây là phiên bản “push more” ở đúng nghĩa: <strong>đột phá nằm ở thuật toán điều khiển và mô hình suy giảm</strong>, không phải khẩu hiệu.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80c2-bf69-cfb0ff8a097b"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-803e-a727-e8d321b7e19d" class=""><strong>1) “Push further” thật sự nằm ở đâu?</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e0-80ce-dfc7aeb79a98" class="">Nếu bạn đã gần trần nhiệt động học về L/kWh, thì phần “còn lại” để vượt đối thủ không nằm ở hiệu suất tức thời, mà nằm ở 4 trục kỹ thuật:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8070-ad09-f934a815f5cb" class="numbered-list" start="1"><li><strong>Bám trần lâu hơn</strong>: giảm suy giảm theo thời gian (degradation rate ↓).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8023-b6e0-f1d709d95fcd" class="numbered-list" start="2"><li><strong>Tăng công suất đỉnh có kiểm soát</strong>: boost được nhưng không “ăn tuổi thọ”.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8008-bb57-d4714775adc7" class="numbered-list" start="3"><li><strong>Giảm chi phí vòng đời</strong>: giảm bảo trì, giảm dừng máy, giảm thay thế.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-801c-bd71-caabab830b33" class="numbered-list" start="4"><li><strong>Tự ổn định trong điều kiện Việt Nam</strong>: nguồn điện nhiễu, nước không lý tưởng, môi trường nóng ẩm, 
-nhân lực vận hành hạn chế.</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807d-99d0-f635d10fd46c" class="">Muốn “push more” thì AMOS Core phải đi thêm 2 tầng thuật toán mà phiên bản trước mới chỉ chạm nhẹ:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804a-93ae-c1e2dcbed204" class="bulleted-list"><li style="list-style-type:disc"><strong>Nhận dạng trạng thái điện hóa theo thời gian thực (online identification)</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800e-a2f3-ce11cdabad83" class="bulleted-list"><li style="list-style-type:disc"><strong>Điều khiển dự đoán (Model Predictive Control / MPC) với ràng buộc cứng (hard constraints)</strong></li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-804c-a4a1-fe79b05b4256"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8067-8d92-c536d6a9b195" class=""><strong>2) Nâng cấp AMOS Core lên mức thuật toán “đủ dùng thật”</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-808f-a008-f950c327a1df" class=""><strong>2.1. Tập biến trạng thái (State Vector) – không nói mơ hồ</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e0-8656-cffbabde8f5c" class="">AMOS không chỉ nhìn T và P. 
-AMOS phải ước lượng một vector trạng thái tối thiểu:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8077-8308-ea48a1c9445b" class="bulleted-list"><li style="list-style-type:disc"><strong>T_avg</strong>: nhiệt độ trung bình stack</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e8-9bd5-e91fdde9bcd3" class="bulleted-list"><li style="list-style-type:disc"><strong>ΔT</strong>: gradient nhiệt (điểm nóng – điểm lạnh)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809a-b20b-e6b4fbd27cd7" class="bulleted-list"><li style="list-style-type:disc"><strong>dT/dt</strong>: tốc độ tăng nhiệt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bb-ab66-e63b2619804b" class="bulleted-list"><li style="list-style-type:disc"><strong>R_ohm</strong>: điện trở ohmic tương đương (từ V–I)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dd-bde4-c38d54e36f30" class="bulleted-list"><li style="list-style-type:disc"><strong>R_ct (proxy)</strong>: thành phần chuyển điện tích/hoạt hóa (activation proxy)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8071-ba49-e6b1c3f9cfe6" class="bulleted-list"><li style="list-style-type:disc"><strong>Z_diff (proxy)</strong>: thành phần khuếch tán/bọt khí (mass-transfer proxy)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ee-8406-f6dec81e26b3" class="bulleted-list"><li style="list-style-type:disc"><strong>P_H2</strong> và <strong>ΔP</strong>: áp suất và dao động áp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c2-9027-d63333289294" class="bulleted-list"><li style="list-style-type:disc"><strong>W_level</strong> và <strong>σ_water</strong>: mức nước và độ dẫn (tác động trực tiếp tới ổn định)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8069-a903-c73b6a656529" class="bulleted-list"><li s
-tyle="list-style-type:disc"><strong>D_index</strong>: chỉ số suy giảm tích lũy (degradation accumulator)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8045-8be7-c50d69a5d53f" class="">Điểm mới ở đây là: <strong>R_ct và Z_diff</strong> không cần đo “đúng tuyệt đối”, nhưng phải đủ tốt để AMOS biết stack đang ở vùng nào: <strong>ohmic-limited / bubble-limited / kinetic-limited</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80ae-9b42-c33daa73ee69"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8043-a657-f50f3c6a271d" class=""><strong>2.2. Nhận dạng nhanh bằng “xung thăm dò” (Identification Pulses)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805c-ace0-ec623f5ce907" class="">Đây là một nâng cấp rất thực dụng và tạo lợi thế lớn:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8080-adef-db2ea37e306a" class="bulleted-list"><li style="list-style-type:disc">Cứ mỗi <strong>N giây</strong> (ví dụ 30–120s), Cannon chèn một <strong>xung thăm dò nhỏ</strong> (biên độ thấp, thời gian rất ngắn)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ac-b5fd-e6ed03d5418d" class="bulleted-list"><li style="list-style-type:disc">Từ đáp ứng V–I, AMOS suy ra <strong>R_ohm</strong> và chỉ báo bubble/transport (proxy)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e2-9504-f2a8bdaf5689" class="">Kết quả: hệ thống <strong>không điều khiển “mù”</strong> theo một PWM cố định, mà điều khiển theo <strong>tình trạng thật</strong> của stack ở thời điểm đó.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8082-a32a-da0a0a2610fa"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d7-b65f-c5287c9024e8" class=""><strong>2.3. 
-Luật quyết định Boost phiên bản “đủ cứng để thẩm định”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805e-a285-ebb12895a82a" class="">Boost không được là “nếu nhiệt ok thì boost”. 
-Boost phải là một <strong>hợp đồng ràng buộc</strong>:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a7-9696-e92ef2c143e3" class="">Cho phép Boost nếu và chỉ nếu:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fd-b14a-de0adb9e3f63" class="bulleted-list"><li style="list-style-type:disc"><strong>T_avg ≤ T_boost_max</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8079-8757-f13a9c25e868" class="bulleted-list"><li style="list-style-type:disc"><strong>ΔT ≤ ΔT_boost_max</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805f-8510-d14f6c6ce573" class="bulleted-list"><li style="list-style-type:disc"><strong>dT/dt ≤ (dT/dt)_max</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8085-990c-f1592db9b537" class="bulleted-list"><li style="list-style-type:disc"><strong>ΔP ≤ ΔP_max</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e7-87c0-ee3e7ec82c16" class="bulleted-list"><li style="list-style-type:disc"><strong>dR_ohm/dt ≤ k_ohm_max</strong> (đang không trôi nhanh)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803b-b2e1-c34a6d394ca1" class="bulleted-list"><li style="list-style-type:disc"><strong>Z_diff proxy ≤ Z_diff_max</strong> (không bị bubble-limited)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801e-bb14-c04f4ba50a1d" class="bulleted-list"><li style="list-style-type:disc"><strong>σ_water</strong> trong dải cho phép</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f8-a7f3-ef2aba7da1f2" class="bulleted-list"><li style="list-style-type:disc"><strong>fault_count_last_24h ≤ N_fault_max</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ed-8816-c06ac3b69fe4" class="bulleted-list"><li style="list-style-type:disc"><strong>D_index ≤ D
-_boost_allow</strong> (đủ “tuổi thọ còn lại” để dùng boost)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8094-b20f-c3153ab184e4" class="">Và Boost phải có:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a3-9dac-d04f83d7b7c7" class="bulleted-list"><li style="list-style-type:disc"><strong>T_boost_window</strong>: thời gian tối đa (ví dụ 30–180s)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8003-959a-c41134502c4f" class="bulleted-list"><li style="list-style-type:disc"><strong>T_cooldown</strong>: thời gian hồi phục bắt buộc (ví dụ 3–10 phút)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8019-a89d-dcd99c0360bf" class="bulleted-list"><li style="list-style-type:disc"><strong>Boost budget</strong> theo ngày/tuần (để không “ăn mòn” tuổi thọ bằng cách lạm dụng)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8031-a2a5-ecf78f03a8fe" class="">Đây là chỗ “global-best” thật sự: <strong>đối thủ thường không mã hóa boost thành một hợp đồng tuổi thọ</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80f7-aea6-cb7f9a8c0387"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8001-b714-e234f0c180c1" class=""><strong>3) “Push more” về phần cứng: nâng cấp đúng chỗ, không tốn tiền vô ích</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8019-962b-d7b851b0624b" class=""><strong>3.1. 
-Điện tử công suất: chuyển từ “converter” thành “actuator đo-được”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8031-9e33-dfe8c01121b4" class="">Muốn thuật toán chạy được, phần power stage phải hỗ trợ:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804a-ad93-d95d7b8747e8" class="bulleted-list"><li style="list-style-type:disc">đo dòng chính xác (≤1%)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c4-b75b-c0a16fc785eb" class="bulleted-list"><li style="list-style-type:disc">đo áp đủ sạch (lọc nhiễu đúng)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8050-8ce6-d331f5a34f5c" class="bulleted-list"><li style="list-style-type:disc">kiểm soát sườn xung (slew rate) để tránh RMS heating ẩn</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e0-a0f7-d0ed9e29cbe1" class="bulleted-list"><li style="list-style-type:disc">giới hạn dI/dt ở mức phần cứng (không chỉ phần mềm)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8016-84f6-f8febdc6c84e" class="">Nếu chỉ thay MOSFET mà không có <strong>đo và giới hạn đúng</strong>, bạn tăng boost nhưng mất tuổi thọ.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80f5-b8e9-f0410de9af9a"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80a4-84bf-f4198b498672" class=""><strong>3.2. 
-Nhiệt: nâng cấp “heat spreading” trước khi nâng cấp “fan”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8044-a81d-f103e9d4c823" class="">Ở Việt Nam, lỗi thường không phải vì “thiếu quạt”, mà vì:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8015-96b9-c8133ce5300b" class="bulleted-list"><li style="list-style-type:disc">điểm nóng cục bộ</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808f-84c4-e06c2f22881c" class="bulleted-list"><li style="list-style-type:disc">gradient lớn do vật liệu/tiếp xúc nhiệt kém</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807b-96fa-f60e4c67d6d9" class="bulleted-list"><li style="list-style-type:disc">chu kỳ nóng-lạnh nhanh</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807c-b405-cc6b0acd40bd" class="">Nâng cấp hiệu quả nhất (chi phí hợp lý nhất) thường là:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803d-a19f-e1204292a8c0" class="bulleted-list"><li style="list-style-type:disc"><strong>heat spreader</strong> tốt hơn (nhôm/đồng tùy điểm)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8010-aafb-f474f38b7874" class="bulleted-list"><li style="list-style-type:disc">tăng <strong>ổn định tiếp xúc nhiệt</strong> (interface material + cơ khí kẹp)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d2-b5c5-d7fb809a9d5c" class="bulleted-list"><li style="list-style-type:disc">bố trí cảm biến nhiệt <strong>đa điểm</strong> (ít nhất 2–3 điểm)</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8029-b14b-c8f2979470f4"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-808f-8b2c-ff011724d0d9" class=""><strong>3.3. 
-Đường khí: boost-safe = có “buffer” + triệt dao động</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8004-8e09-dcd22f8c57ef" class="">Nếu boost mà không có buffer thể tích và chống carryover, thì boost = sự kiện an toàn.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8019-83f3-c45db53ca021" class="">Cần:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d8-8f72-e2a9c9a89f54" class="bulleted-list"><li style="list-style-type:disc">thể tích đệm (buffer) đủ để <strong>giảm ripple</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8068-b124-fd653baeb9cb" class="bulleted-list"><li style="list-style-type:disc">bẫy nước (trap) và cấu hình bubbler chịu được lưu lượng đỉnh</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8074-b323-c95341e9010c" class="bulleted-list"><li style="list-style-type:disc">van một chiều + chống backflow theo đúng triết lý “không lưu trữ khi dừng”</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8090-a61e-f2ea1c53a64d"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-809d-ab47-d244e7219e28" class=""><strong>4) Có thể “push thêm” nữa không?</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807d-907d-c93149ab70af" class="">Có — nhưng chỉ theo 2 hướng “hợp pháp về vật lý” và “hợp lý về chi phí”:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8099-93ef-eb2cf839129d" class="numbered-list" start="1"><li><strong>Tối ưu vận hành dưới thermoneutral + hấp thụ nhiệt môi trường/waste heat</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8095-b2c6-d9d1b6e7207f" class="">→ tăng hiệu quả điện (hợp pháp), 
-nhưng đòi hỏi kỷ luật nhiệt rất cao.</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80c8-ab4f-c6db1c027391" class="numbered-list" start="2"><li><strong>Tối ưu BoP để giảm kWh/kg ở cấp hệ thống</strong><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80da-8c43-e689df00af3d" class="">→ nhiều hệ thống thua ở bơm/quạt/đường ống/lọc/khử ẩm hơn là thua ở stack.</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cc-a039-ef9aa998f4da" class="">Nếu bạn muốn “push more” theo đúng kiểu <strong>đột phá mà vẫn thực tế</strong>, thì tôi sẽ triển khai 3 tài liệu “đủ để làm dự án”:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803e-b662-dbce51d7f119" class="bulleted-list"><li style="list-style-type:disc"><strong>(A) Pseudo-code AMOS Core + Cannon control</strong> (đủ để firmware viết được)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8053-a96e-f5ca6bb7d184" class="bulleted-list"><li style="list-style-type:disc"><strong>(B) Mermaid block diagram chi tiết cho hồ sơ kỹ thuật</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e6-9f5c-c9abc6332730" class="bulleted-list"><li style="list-style-type:disc"><strong>(C) SRS (Software Requirement Specification) chuẩn</strong>: yêu cầu chức năng, phi chức năng, an toàn, kiểm thử, 
-truy vết</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-809f-86c2-ff74a67b9118" class="">Chỉ cần bạn trả lời 1 dòng để tôi khóa thông số không bị “đoán”:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8008-9c0b-cedabeebf687" class=""><strong>Stack của IKONOMY thuộc loại PEM / AEM / alkaline-like?</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8096-ac18-fdc768f6c2d1" class="">(Trả lời 1 từ: PEM hoặc AEM hoặc ALK)</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d3-90fd-c5f4e625368b" class="">Được. “Push more” ở mức <strong>thật sự vượt chuẩn hồ sơ kỹ thuật</strong> nghĩa là: không chỉ thêm mô-đun, mà <strong>đóng chặt hệ thống bằng ràng buộc toán + thuật toán điều khiển + thông số thiết kế phần cứng/ vật liệu/ kiểm chứng</strong>, để hội đồng đọc vào thấy <strong>có thể chế tạo – có thể thử – có thể kiểm toán</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8043-bdea-e7120c024c16" class="">Dưới đây là bản “push hơn nữa” theo 4 lớp, nhưng <strong>đào sâu Lớp 3 (AMOS Core) thành thuật toán có biến, ngưỡng, logic, pseudo-code</strong>, kèm <strong>mermaid block diagram chi tiết</strong>, kèm <strong>SRS lõi</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8072-92f7-ca47b127e55e"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8079-9b0e-ec7988aa23d8" class=""><strong>A) Điểm thay đổi “đủ lớn” so với IKONOMY nguyên bản (và vì sao)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a7-b368-e5c512da8cc4" class=""><strong>IKONOMY nguyên bản</strong> (theo triết lý “Cannon/PWM + phản hồi + bảo vệ”) thường mạnh ở: <strong>tạo dòng, tạo khí, có bảo vệ, có phản hồi</strong>. 
-Nhưng điểm yếu hệ thống thường là:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80b2-b41f-f25724a63968" class="numbered-list" start="1"><li><strong>Điều khiển dựa trên ngưỡng tức thời</strong> (threshold-based) → dễ rơi vào “hôm nay chạy được, tuần sau xuống cấp nhanh”.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80bd-9130-ea70f18efef0" class="numbered-list" start="2"><li><strong>Không có mô hình suy giảm tích lũy</strong> → boost hay ép tải không bị “tính phí tuổi thọ”.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80d5-a3fe-d3c1da552b81" class="numbered-list" start="3"><li><strong>Không có nhận dạng trạng thái điện hoá online</strong> → PWM “có vẻ ổn” nhưng thực ra đang bubble-limited hoặc diffusion-limited.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8020-9486-d46f6abe226d" class="numbered-list" start="4"><li><strong>Bảo vệ kiểu cắt</strong> (trip/shutdown) → uptime thấp, thao tác nhiều, 
-chi phí vòng đời tăng.</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fb-be69-eda81b4aa5da" class=""><strong>AMOS-IKONOMY</strong> thay đổi 4 điều trên bằng “đột phá hệ thống”:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8091-87a9-f71e17ecc3fd" class="bulleted-list"><li style="list-style-type:disc">Chuyển từ <strong>ngưỡng tức thời</strong> sang <strong>điều khiển dự đoán có ràng buộc cứng</strong> (constrained predictive control).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8017-ba96-cbb8b4a89eb9" class="bulleted-list"><li style="list-style-type:disc">Mã hoá “tuổi thọ” thành <strong>biến trạng thái</strong> và <strong>ngân sách suy giảm (degradation budget)</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cb-82dd-fc6945e14334" class="bulleted-list"><li style="list-style-type:disc">Dùng Cannon như <strong>bộ kích thích có đo-được</strong> (instrumented actuator) + <strong>xung thăm dò</strong> để nhận dạng online.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8089-9794-d47c0cae358e" class="bulleted-list"><li style="list-style-type:disc">Chuyển từ “cắt khẩn cấp” sang <strong>derate có kiểm soát</strong> để giữ uptime.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802d-802c-e0a040631d40" class="">Đây là lý do “push” thật sự không nằm ở câu chữ, mà nằm ở <strong>thuật toán + biến + kiểm chứng</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80ea-871b-e367137c964d"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80d5-9cd8-e7a5d592440c" class=""><strong>B) LỚP 3 – AMOS Core ở mức thuật toán (biến, ngưỡng, 
-logic quyết định)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8079-ab0c-fea77ca468aa" class=""><strong>B1) Tập biến (Variables) bắt buộc phải có</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d1-8238-ceb3d8da5d01" class=""><strong>Biến đo trực tiếp (Measured):</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e1-a7ce-ec6f4bdd1bb6" class="bulleted-list"><li style="list-style-type:disc">I_stack (A), V_stack (V)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808d-b085-c34dbb4709e1" class="bulleted-list"><li style="list-style-type:disc">T1, T2, T3 (°C) (tối thiểu 2–3 điểm)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8032-bb2d-fe09009ad1f9" class="bulleted-list"><li style="list-style-type:disc">P_H2 (bar), P_ripple (% hoặc bar_pp)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8095-90d5-c9f96b7cc92f" class="bulleted-list"><li style="list-style-type:disc">W_level (%), sigma_water (mS/cm) nếu có</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8041-971f-d3330bdb4ae0" class="bulleted-list"><li style="list-style-type:disc">flow_H2 (tuỳ chọn, 
-nếu có lưu lượng kế)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808a-af46-ca3dfdb77641" class=""><strong>Biến suy ra (Estimated / Derived):</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801c-aeb5-eae684a960bf" class="bulleted-list"><li style="list-style-type:disc">T_avg = mean(Ti)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8005-a864-fc783b442ff9" class="bulleted-list"><li style="list-style-type:disc">dT_dt = d(T_avg)/dt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8001-a909-ee9a046c3d60" class="bulleted-list"><li style="list-style-type:disc">dT_dx = max(Ti) - min(Ti) (gradient)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803b-821b-e30103863f18" class="bulleted-list"><li style="list-style-type:disc">R_eq = V_stack / I_stack (khi I&gt;0)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8082-a791-d26cb9e06701" class="bulleted-list"><li style="list-style-type:disc">dR_dt = d(R_eq)/dt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805d-a767-d15a4b1dcd33" class="bulleted-list"><li style="list-style-type:disc">P_pp (peak-to-peak ripple)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8046-b012-c76dd0d4a70b" class="bulleted-list"><li style="list-style-type:disc">eta_proxy (proxy phân cực): ví dụ V_stack - V_rev(T) theo mô hình đơn giản</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80da-8139-dac4b803c0e9" class="bulleted-list"><li style="list-style-type:disc">Z_diff_proxy (proxy bubble/diffusion) từ đáp ứng xung thăm dò</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c8-9aef-ed105e2e5a76" class="bulleted-list"><li style="list-style-type:disc">D_index (chỉ số suy giảm tích luỹ)</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2eac5e6f-95bd-8029-b71d-c121a8db0ac3" class="bulleted-list"><li style="list-style-type:disc">Boost_budget_day (ngân sách boost theo ngày)</li></ul></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8041-919d-f60141c5fb48" class="">Ghi chú kỹ thuật: Không cần đo EIS “đúng chuẩn phòng thí nghiệm”. 
-Chỉ cần<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a4-8122-c4c24a6f07c1" class=""><strong>proxy đủ ổn định</strong></p></div></blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-807e-ad9e-d48d6957e2a1"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80d3-911d-cb3b838fdac8" class=""><strong>B2) Ngưỡng (Thresholds) – phải khai báo thành bảng tham số</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-801c-b430-e2620c1930d5" class="">Các ngưỡng phải được “đóng” thành cấu hình (config) để phục vụ kiểm toán:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807e-9e3f-eb8abecb05d2" class="bulleted-list"><li style="list-style-type:disc">T_cruise_max, T_boost_max</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8089-94c5-d2c0554c21b0" class="bulleted-list"><li style="list-style-type:disc">dT_dt_max (°C/min)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cc-8b82-e07d221e4dc6" class="bulleted-list"><li style="list-style-type:disc">dT_dx_max (°C)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c1-b37e-df37bd14733b" class="bulleted-list"><li style="list-style-type:disc">P_max, P_pp_max</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f1-993f-d0203d796fcf" class="bulleted-list"><li style="list-style-type:disc">dR_dt_max (Ω/s hoặc %/h)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c1-b70c-f68d65fa8bff" class="bulleted-list"><li style="list-style-type:disc">Z_diff_max (proxy)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8038-9197-da96212b63db" class="bulleted-list"><li style="list-style-type:disc">sigma_min, 
-sigma_max</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8007-b506-e061a784df59" class="bulleted-list"><li style="list-style-type:disc">fault_max_24h, restart_max</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d6-885d-c8f571652818" class="bulleted-list"><li style="list-style-type:disc">boost_time_max (s)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bf-b3a7-edbd0d584fb5" class="bulleted-list"><li style="list-style-type:disc">cooldown_min (s)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8032-8561-c29321375f49" class="bulleted-list"><li style="list-style-type:disc">Boost_budget_day_max (s hoặc Wh)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804b-9287-c6df464340c7" class="bulleted-list"><li style="list-style-type:disc">D_index_max (giới hạn suy giảm)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800a-bb5f-e8c6cb532465" class="">Nguyên tắc: <strong>mọi ngưỡng phải gắn được với lý do vật lý</strong> (nhiệt, áp, suy giảm, 
-an toàn).</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b7-aa4d-ef642bbe35a6"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ef-96b5-dfce5168866c" class=""><strong>B3) Luật điều khiển trung tâm: “hai phong bì + ngân sách suy giảm”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fe-b9b1-f57e123461cf" class="">AMOS duy trì 2 phong bì:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b2-962d-cc7f1409dc01" class="bulleted-list"><li style="list-style-type:disc"><strong>Phong bì Cruise</strong>: tối ưu vòng đời (lifetime optimum)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cc-9478-d1680e9385d7" class="bulleted-list"><li style="list-style-type:disc"><strong>Phong bì Boost</strong>: tối ưu đáp ứng tải (peak) nhưng trả “phí tuổi thọ”</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8070-b8ac-d8f1fed4611e" class="">Và 2 ngân sách:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b3-83ef-fa6599af0a03" class="bulleted-list"><li style="list-style-type:disc">D_index (tăng theo stress)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8093-9434-cb655de38051" class="bulleted-list"><li style="list-style-type:disc">Boost_budget_day (giảm theo thời gian boost)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a7-a2c5-df85694604fb" class=""><strong>Boost chỉ là quyền</strong> khi:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8094-97c2-c62ce379b6a4" class="numbered-list" start="1"><li>còn dư địa vật lý, và</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8041-9c3a-c14bba33f477" class="numbered-list" start="2"><li>còn dư địa ngân sách suy giảm, 
-và</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8044-b33a-c0f6df5ee600" class="numbered-list" start="3"><li>không có dấu hiệu chuyển sang diffusion/bubble-limited.</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8006-81fe-d12553e0497b"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8052-99fc-d07f9c8ffb78" class=""><strong>B4) Công thức “D_index” (Degradation Accumulator) – phải có để push thật</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8053-bc28-dc085c86592f" class="">Bạn cần một hàm tích luỹ suy giảm tối thiểu dạng:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8074-912c-e37a2da389e3" class="">D\_index(t+\Delta t)=D\_index(t)+w_T\cdot f_T + w_{\Delta T}\cdot f_{\Delta T}+w_I\cdot f_I+w_R\cdot f_{dR}+w_P\cdot f_P+w_\sigma\cdot f_\sigma</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8044-8a1d-c518affc086c" class="">Trong đó:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80be-bb79-edc5315f3ce7" class="bulleted-list"><li style="list-style-type:disc">f_T tăng mạnh khi T tiệm cận ngưỡng</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803e-9abd-d5e54920ebfb" class="bulleted-list"><li style="list-style-type:disc">f_{\Delta T} tăng mạnh khi gradient lớn</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808a-9294-dcc2a7ff69bc" class="bulleted-list"><li style="list-style-type:disc">f_I tăng theo mật độ dòng/chu kỳ ramp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8093-9bd4-c8b3a0897564" class="bulleted-list"><li style="list-style-type:disc">f_{dR} tăng khi dR_dt xấu (dấu hiệu suy giảm)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8099-b9ba-ecb2063ca3d7" class="bulleted-list"><li style="list-style-type:disc">f_P tăng khi ripple áp t
-ăng</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8000-846e-c586af590299" class="bulleted-list"><li style="list-style-type:disc">f_\sigma tăng khi nước lệch dải</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8087-b512-cbab31b87418" class=""><strong>Điểm quan trọng:</strong> hàm này không cần “đúng tuyệt đối”, nhưng phải:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ed-8b5d-f4f29b907756" class="bulleted-list"><li style="list-style-type:disc">đơn điệu (stress ↑ thì D ↑)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ac-9c7a-ead622299699" class="bulleted-list"><li style="list-style-type:disc">nhạy với vùng nguy hiểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8076-a455-d8bc25306ae0" class="bulleted-list"><li style="list-style-type:disc">kiểm chứng được bằng thử nghiệm 1.000h / cycling</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8010-b81d-d6916a1452b0" class="">Đây là thứ mà phần lớn hệ thống thương mại “không mã hoá” ở cấp firmware.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b2-8855-ee48ed2da572"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80a4-a98f-f16b169e6462" class=""><strong>B5) Logic quyết định (Decision Logic) – dạng quy tắc đủ kiểm toán</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8024-acf0-ec917720bf9f" class=""><strong>Quy tắc 1 (Safety-first):</strong> nếu vượt ngưỡng an toàn → vào PROTECTIVE và derate về mức an toàn, không tranh luận.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b3-860b-e94a0be8c5f7" class=""><strong>Quy tắc 2 (Stability-first):</strong> nếu proxy diffusion/bubble xấu → giảm waveform/frequency/duty để “giải bọt” và hạ dòng, 
-không cố giữ công suất.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f4-9b4f-f244dbc2f118" class=""><strong>Quy tắc 3 (Lifetime-first):</strong> nếu D_index tăng nhanh hoặc dR_dt xấu → hạ xuống cruise hoặc degraded.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80a5-b3f3-eebfaec49605" class=""><strong>Quy tắc 4 (Boost-gated):</strong> boost chỉ khi <strong>tất cả</strong> điều kiện đạt và <strong>ngân sách cho phép</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-807b-bc71-c144b6b23059"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80fd-b3eb-e49d5e32f0f2" class=""><strong>B6) Pseudo-code AMOS Core (đủ để đội firmware triển khai)</strong></h3></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2eac5e6f-95bd-8007-ae23-cf666eafc405" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">loop every 100 ms:
-  read sensors: I, V, T1..T3, P, W_level, sigma, fault_flags
-  compute: T_avg, dT_dt, dT_dx, R_eq, dR_dt, P_pp
-
-  if time_for_probe():
-      inject_small_probe_pulse()
-      estimate Z_diff_proxy, R_ohm_proxy
-
-  update D_index using stress functions
-  update Boost_budget_day using boost_time_used
-
-  # HARD SAFETY
-  if T_avg &gt; T_boost_max OR dT_dx &gt; dT_dx_max OR P &gt; P_max OR fault_flags.critical:
-      mode = PROTECTIVE
-      set_current_target(I_safe)
-      enforce_cooldown()
-      continue
-
-  # STABILITY / DIFFUSION CONTROL
-  if Z_diff_proxy &gt; Z_diff_max OR P_pp &gt; P_pp_max:
-      mode = DEGRADED
-      select_waveform(anti_bubble_profile)
-      set_current_target(I_degraded)
-      continue
-
-  # LIFETIME PROTECTION
-  if dR_dt &gt; dR_dt_max OR D_index &gt; D_index_max:
-      mode = CRUISE
-      select_waveform(low_stress_dc)
-      set_current_target(I_cruise_low)
-      continue
-
-  # BOOST PERMISSION
-  if request_boost == true:
-      if Boost_budget_day &gt; 0 AND cooldown_elapsed() AND
-         T_avg &lt; T_boost_gate AND dT_dt &lt; dT_dt_max AND dT_dx &lt; dT_dx_gate AND
-         Z_diff_proxy &lt; Z_diff_gate AND dR_dt &lt; dR_dt_gate AND sigma in band:
-            mode = BOOST
-            select_waveform(soft_burst_profile)
-            run_boost_for(boost_time_max) with ramp_up/down and dI/dt limit
-      else:
-            mode = CRUISE
-            refuse_boost_log_reason()
-
-  # NORMAL CRUISE
-  if mode not set:
-      mode = CRUISE
-      select_waveform(impedance_locked_pulse_or_dc)
-      set_current_target(I_cruise_opt)</code></pre></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8063-b1b4-d598d4b30268"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8056-b2a4-f828c6726a55" class=""><strong>C) Mermaid – sơ đồ khối chi tiết cho hồ sơ kỹ thuật (module-first)</strong></h2></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2eac5e6f-95bd-8038-964a-f91617303cf1" class="code code-wrap"><code class="language-Mermaid" style="white-space:pre-wrap;word-break:break-all">flowchart TB
-  A[DC Input 48-96V] --&gt; B[Input Protection\nOVP/UVP, Reverse, Inrush, TVS, LC]
-  B --&gt; C[EMI/EMC Filter &amp; Grounding\nChassis/Signal separation]
-  C --&gt; D[Cannon Power Stage\nSync Buck/Buck-Boost\nCurrent-Mode Control]
-  D --&gt; E[Current Sense\nHall/Shunt + ADC]
-  D --&gt; F[Stack Voltage Sense\nTotal + optional segments]
-  D --&gt; G[Gate Driver\nSlew-rate control, Dead-time]
-  D --&gt; H[Electrolysis Stack\nCell/Plates/Bars]
-  H --&gt; I[Thermal Hardware\nHeat Spreader + Thermal Mass + Cooling Path]
-  I --&gt; J[Temp Sensors T1..T3]
-  H --&gt; K[Gas Separator\nH2/O2 separation]
-  K --&gt; L[Bubbler/Trap/Filter\nBoost-flow rated]
-  L --&gt; M[H2 Pressure Regulator/Valve]
-  M --&gt; N[H2 Output]
-  K --&gt; O[Pressure Sensors\nP, P_ripple]
-  H --&gt; P[Water System\nTank, feed, return]
-  P --&gt; Q[Water Level Sensor]
-  P --&gt; R[Conductivity Sensor (opt)]
-
-  subgraph MCU[Real-time MCU Layer]
-    S[Fast Control Loop 0.1-1 kHz\nCurrent PI + feedforward\nRamp &amp; dI/dt limiting]
-    T[Waveform Generator Library\nDC/Pulse/Burst profiles]
-  end
-  E --&gt; S
-  F --&gt; S
-  T --&gt; S
-  S --&gt; G
-
-  subgraph AMOS[AMOS Core Layer]
-    U[State Estimator\nT_avg, dT/dt, dT_dx,\nR_eq, dR/dt, Z_diff proxy]
-    V[Degradation Accumulator D_index\n+ Boost Budget]
-    W[Envelope Manager\nCruise/Boost/Degraded/Protective]
-    X[Decision Logic\nBoost gating, refusal,\nderate policies]
-  end
-
-  J --&gt; U
-  O --&gt; U
-  Q --&gt; U
-  R --&gt; U
-  S --&gt; U
-  U --&gt; V
-  V --&gt; X
-  X --&gt; W
-  W --&gt; T
-
-  subgraph Supervisory[Supervisory / Policy / Audit]
-    Y[Logger &amp; Traceability\nEvents, thresholds, reasons]
-    Z[Remote Monitoring (optional)\nConfig mgmt, reporting]
-    AA[Audit Pack\nUptime, interventions,\nboost usage, D_index trend]
-  end
-
-  X --&gt; Y
-  U --&gt; Y
-  W --&gt; Y
-  Y --&gt; AA
-  Z --&gt; 
-Y</code></pre></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-805e-8f6e-d016bcd5f778"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-800d-ad82-c69f8134afcd" class=""><strong>D) “Push more” nữa: nâng cấp phần power stage + vật liệu (nhưng vẫn tối ưu chi phí VN)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b7-813b-c42685a9e796" class="">Đây là các nâng cấp “đúng tiền”, giúp tăng <strong>max power + max effective</strong> mà không đẩy BOM vượt kiểm soát:</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80f7-a778-e4839459910b" class=""><strong>D1) Power stage</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c8-adac-fe77af926300" class="bulleted-list"><li style="list-style-type:disc">Chuyển sang <strong>current-mode bắt buộc</strong> (hardware + firmware), có <strong>dI/dt clamp</strong> ở cả 2 tầng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c0-a97e-f1be6aaa8856" class="bulleted-list"><li style="list-style-type:disc">Gate driver có <strong>slew-rate control</strong> để giảm RMS heating ẩn khi boost.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803b-9c30-fd833cee00e4" class="bulleted-list"><li style="list-style-type:disc">Thiết kế layout theo nguyên tắc <strong>high-di/dt loop nhỏ</strong> + tách mass công suất và mass tín hiệu.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-804b-9916-eab3dff7ab98" class=""><strong>D2) Thermal/vật liệu (VN làm rất mạnh)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8087-9509-dd51257655ea" class="bulleted-list"><li style="list-style-type:disc"><strong>Heat spreader</strong> (nhôm/đồng) tối ưu tiếp xúc, 
-ưu tiên giảm gradient hơn là tăng quạt.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bb-bc66-d86d8ec2aad0" class="bulleted-list"><li style="list-style-type:disc">Vật liệu kẹp/đệm nhiệt ổn định theo thời gian (TIM phù hợp nóng ẩm).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b7-8374-f7d3b64658b2" class="bulleted-list"><li style="list-style-type:disc">Bố trí cơ khí để giảm rung, giảm lỏng tiếp xúc → giảm hotspot.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ae-88fe-cf0fc13061f4" class=""><strong>D3) Gas path</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bb-8613-f33314f23aeb" class="bulleted-list"><li style="list-style-type:disc">Bubbler/trap “boost-rated” (đủ tiết diện) để tránh carryover nước khi boost.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8074-8151-c295d3ce3919" class="bulleted-list"><li style="list-style-type:disc">Buffer thể tích để triệt ripple áp khi burst.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8042-b5db-ef3e97262d07"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8040-bf69-e4990971f9cf" class=""><strong>E) SRS AMOS (khung chuẩn, 
-đủ để viết tài liệu chính thức)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8032-8106-d880474d3f7d" class=""><strong>E1) Phạm vi</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bf-9deb-e4eb357fcf74" class="">AMOS là phần mềm lõi quyết định chế độ vận hành và giới hạn công suất dựa trên trạng thái điện–nhiệt–khí và chỉ số suy giảm.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-809a-af29-e5113a872001" class=""><strong>E2) Yêu cầu chức năng (Functional Requirements)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c2-abe3-ebdd6357b74c" class="bulleted-list"><li style="list-style-type:disc">FR-01: Ước lượng trạng thái thời gian thực (T_avg, dT/dt, dT_dx, R_eq, dR/dt, P_ripple, 
-Z_diff_proxy).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8021-9edb-cd45a12d3edd" class="bulleted-list"><li style="list-style-type:disc">FR-02: Cập nhật D_index theo hàm tích lũy suy giảm.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8008-8c73-d5892f3063f5" class="bulleted-list"><li style="list-style-type:disc">FR-03: Quản lý phong bì vận hành: Cruise/Boost/Degraded/Protective/Lockout.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fe-9998-e4f9276948c0" class="bulleted-list"><li style="list-style-type:disc">FR-04: Logic cấp Boost theo điều kiện AND cứng + ngân sách boost.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80db-b078-de3bd6961307" class="bulleted-list"><li style="list-style-type:disc">FR-05: Refusal logic: từ chối boost và ghi rõ lý do bằng mã lỗi chuẩn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802e-9dae-f50cf00b617e" class="bulleted-list"><li style="list-style-type:disc">FR-06: Derate chủ động theo luật (không chờ trip).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800b-9a99-cece6b28ea59" class="bulleted-list"><li style="list-style-type:disc">FR-07: Quản lý cooldown, restart cap, fault history windows.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ac-b872-c50c28698471" class="bulleted-list"><li style="list-style-type:disc">FR-08: Tạo gói “Audit Pack” (uptime, interventions, boost usage, D_index trend).</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e3-ade0-fe24a8dff209" class=""><strong>E3) Yêu cầu phi chức năng (Non-functional)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8063-8288-ff2419d2350d" class="bulleted-list"><li style="list-style-type:disc">NFR-01: deterministic timing; 
-vòng điều khiển dòng phải chạy ổn định (ví dụ 1 kHz).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8074-a7a7-cb533a24e111" class="bulleted-list"><li style="list-style-type:disc">NFR-02: fail-safe: khi AMOS lỗi, MCU phải rơi về trạng thái an toàn (I_safe).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e5-9ca8-e9db0bb3630e" class="bulleted-list"><li style="list-style-type:disc">NFR-03: traceability: mọi quyết định boost/derate phải có log (timestamp, trạng thái, ngưỡng, lý do).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ae-9601-c5d13da4ac88" class="bulleted-list"><li style="list-style-type:disc">NFR-04: cấu hình ngưỡng theo profile triển khai (VN/biển/đảo/lab), nhưng không được vượt giới hạn an toàn.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8012-901c-e334460ed043" class=""><strong>E4) Kiểm thử &amp; nghiệm thu</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8016-bb7a-ec00317413ca" class="bulleted-list"><li style="list-style-type:disc">VT-01: 1.000h chạy liên tục ở cruise; 
-D_index tăng hợp lý, không có cliff.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e0-abd9-d409d36dc648" class="bulleted-list"><li style="list-style-type:disc">VT-02: boost lặp theo profile (burst + cooldown) không tạo runaway nhiệt, không vượt P_pp.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80df-bd8c-c809bae134f6" class="bulleted-list"><li style="list-style-type:disc">VT-03: nước lệch dải → hệ thống derate, không “cố chạy”.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8028-8a3c-f6f584afee48" class="bulleted-list"><li style="list-style-type:disc">VT-04: nguồn dao động → hệ thống ổn định, không trip hàng loạt.</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8045-8769-e2f20690ab7b"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8077-91f1-eba9cdc2f1a8" class=""><strong>F) Trả lời đúng câu “can we push more?”</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8038-9955-c9f109f7f315" class="">Có. Nhưng “push” tiếp theo phải là <strong>đưa AMOS lên chuẩn MPC + nhận dạng online</strong> như trên. 
-Khi làm đủ, bạn có thêm 3 lợi ích rất rõ:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ef-ade0-f709f4131999" class="numbered-list" start="1"><li><strong>Boost mạnh hơn nhưng không phá tuổi thọ</strong> vì boost bị tính “phí suy giảm”.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8021-a932-edf66921d97e" class="numbered-list" start="2"><li><strong>Hiệu quả vòng đời tăng mạnh</strong> vì giảm intervention + giảm shutdown.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80a1-89a9-cf91040dac6e" class="numbered-list" start="3"><li><strong>Chi phí VN giảm thêm</strong> vì phần cơ khí/nhiệt/đường ống làm trong nước rất mạnh, còn phần “moat” nằm ở firmware/logic.</li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8007-aee5-c28b4a4ab39a"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fd-a652-d29f9fd9ae75" class="">Nếu bạn muốn tôi “push more” thêm một cấp nữa (cấp cuối cho hồ sơ), tôi sẽ viết tiếp 3 thứ theo đúng format thẩm định:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-802a-8ef1-e33a03fd29b6" class="numbered-list" start="1"><li><strong>Bảng tham số ngưỡng (parameter table)</strong> theo 3 profile: Lab / Công nghiệp / Hàng hải-đảo.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-804c-9fac-cd0d83b8c014" class="numbered-list" start="2"><li><strong>Bản mô tả mạch power stage</strong> (khối buck/buck-boost, đo dòng, driver, lọc EMI) ở mức “có thể giao cho thiết kế PCB”.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ff-b62b-cab00c91bb5d" class="numbered-list" start="3"><li><strong>Bảng so sánh định lượng với IKONOMY nguyên bản</strong>: uptime mục tiêu, số lần trip, boost duty/day, MTBC (Mean Time Between Correction), 
-LCOH proxy.</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fa-ba08-d4600bf2d220" class="">Chỉ cần bạn xác nhận 1 thông tin để tôi “đóng số” cho đúng: <strong>đầu ra H₂ hiện tại có điều áp về bao nhiêu bar (hoặc đang gần áp suất khí quyển)?</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80d7-bf46-d47acb142884" class="">Được. 
-Mình “push more” theo đúng nghĩa <strong>đóng số – đóng ngưỡng – đóng thuật toán – đóng phần cứng – đóng tiêu chí nghiệm thu</strong>, để tài liệu của bạn <strong>đủ đứng</strong> cho: kỹ sư thiết kế, hội đồng khoa học, 
-và thẩm định/kiểm toán Nhà nước.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b7-bf0e-c9f22930f3bc" class="">Dưới đây là 4 phần bạn đang thiếu để “lên cấp”:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8080-9182-c681d6df6a16" class="numbered-list" start="1"><li><strong>Bảng tham số ngưỡng (parameter table) theo 3 profile triển khai</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80bf-b601-ce9b9f10b1cc" class="numbered-list" start="2"><li><strong>Thiết kế khối công suất (power stage) ở mức mô tả mạch/PCB</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80a4-a8db-cb7871b93619" class="numbered-list" start="3"><li><strong>Thuật toán AMOS dạng “state machine + guard + MPC-lite” có biến và điều kiện rõ</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80d0-b0a6-c7600a92276b" class="numbered-list" start="4"><li><strong>Bảng so sánh định lượng: IKONOMY nguyên bản vs AMOS-IKONOMY</strong></li></ol></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80b8-8663-db7772dfd0bd"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8096-a581-f61a1cdc7feb" class=""><strong>1) Bảng tham số ngưỡng (Parameter Table) – đủ để cấu hình và kiểm toán</strong></h2></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8067-a7e9-d86e3de13205" class="">Nguyên tắc: mọi ngưỡng chia 2 tầng:<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8033-ba30-ca2e32aff8bc" class=""><strong>Trip (cứng)</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bf-9220-ca65b5d1da95" class=""><strong>Derate gate (mềm)</strong></p></div></blockquote></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-8046-b505-f720d4891f63" class="">Derate xảy ra trước trip để giữ uptime.</blockquote></div><div s
-tyle="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80f9-bf9b-ee0e29dec12e" class=""><strong>1.1 Ba profile triển khai</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800b-a712-cfdc854f5166" class="bulleted-list"><li style="list-style-type:disc"><strong>P0 – Lab/Thử nghiệm (mở rộng vùng khảo sát, vẫn an toàn)</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8007-9884-e088cf19775b" class="bulleted-list"><li style="list-style-type:disc"><strong>P1 – Công nghiệp VN (ưu tiên bền, ít can thiệp, chịu dao động nguồn)</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8096-9582-deffc962f50a" class="bulleted-list"><li style="list-style-type:disc"><strong>P2 – Hàng hải/Đảo (ưu tiên an toàn, chống rung, chống thao tác sai, rất ít boost)</strong></li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e4-98fd-ef4f2ee16c35" class=""><strong>1.2 Bảng ngưỡng lõi (đề xuất khởi tạo; 
-sẽ hiệu chỉnh theo stack thực)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e4-812f-d575c9e2fbd8" class=""><strong>A) Nhiệt</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808c-b50b-f8e2f6974e9e" class="bulleted-list"><li style="list-style-type:disc">T_derate_gate (°C): P0 72 | P1 70 | P2 68</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e0-b341-e863caee2c3d" class="bulleted-list"><li style="list-style-type:disc">T_trip (°C): P0 78 | P1 75 | P2 72</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8017-a0d7-c4207e631254" class="bulleted-list"><li style="list-style-type:disc">dT_dt_derate (°C/min): P0 1.5 | P1 1.0 | P2 0.8</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e9-98dc-c991e7c481c4" class="bulleted-list"><li style="list-style-type:disc">dT_dt_trip (°C/min): P0 2.0 | P1 1.5 | P2 1.0</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ad-999c-d2ea40848df7" class="bulleted-list"><li style="list-style-type:disc">dT_dx_derate (°C): P0 6 | P1 5 | P2 4</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805c-aab3-d7c2402164bb" class="bulleted-list"><li style="list-style-type:disc">dT_dx_trip (°C): P0 8 | P1 6 | P2 5</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8045-89cd-d15ce7e0acc8" class=""><strong>B) Áp suất/dao động khí</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8026-9908-edbe00c78a01" class="bulleted-list"><li style="list-style-type:disc">P_max (bar): theo thiết kế cơ khí (ví dụ 3.0 bar danh định → trip 3.3 bar)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f4-ac27-e9119e4154f6" class="bulleted-list"><li style="list-style-type:disc">P_pp_derate (% hoặc bar_pp): P0 4% | P1 3% | P2 2%</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2eac5e6f-95bd-80f3-84a4-d55adf516fc4" class="bulleted-list"><li style="list-style-type:disc">P_pp_trip: P0 6% | P1 4% | P2 3%</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8078-862d-fd3fc74dd2f3" class=""><strong>C) Điện – ổn định điện hoá</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802f-bb27-c6be2f301f25" class="bulleted-list"><li style="list-style-type:disc">dI_dt_max (A/ms): P0 0.7 | P1 0.5 | P2 0.4</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8041-92a6-f95cc251deba" class="bulleted-list"><li style="list-style-type:disc">R_eq_drift_derate (%/h): P0 1.0 | P1 0.5 | P2 0.3</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8001-908e-d0cdfbdaf8a8" class="bulleted-list"><li style="list-style-type:disc">R_eq_drift_trip (%/h): P0 2.0 | P1 1.0 | P2 0.6</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8095-bd32-fef3af930be7" class="bulleted-list"><li style="list-style-type:disc">Z_diff_proxy_derate (đ.vị proxy): P0 cao hơn | P1 trung bình | P2 thấp (đóng theo dữ liệu hiệu chuẩn)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806c-8a1c-ca95c78db031" class=""><strong>D) Nước</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807c-bbda-d31d33e888c1" class="bulleted-list"><li style="list-style-type:disc">W_level_derate: 25% | W_level_trip: 15%</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c0-961d-d4084839522d" class="bulleted-list"><li style="list-style-type:disc">sigma_band (mS/cm): khai báo theo hoá học thực (PEM/AEM/alkaline-like).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8057-b4dd-deb58fc01f48" class="bulleted-list"><li style="list-style-type:disc">Luật: ra khỏi band → <strong>derate</strong>; 
-lệch nghiêm trọng + kéo dài → <strong>trip</strong>.</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806e-90a3-dfaac1a5ff90" class=""><strong>E) Lỗi và tái khởi động</strong></p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8021-a18c-e8f0578decaf" class="bulleted-list"><li style="list-style-type:disc">restart_max_24h: P0 10 | P1 6 | P2 3</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a1-893f-ec5e898778ad" class="bulleted-list"><li style="list-style-type:disc">fault_max_24h (non-critical): P0 20 | P1 10 | P2 6</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808e-8792-fac3cb85ded8" class="bulleted-list"><li style="list-style-type:disc">lockout_time (min): P0 5 | P1 15 | P2 30</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-801d-9d93-ea97da3d5955" class=""><strong>1.3 Ngưỡng Boost (đóng bằng “ngân sách”, 
-không chỉ bằng thời gian)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802f-ba4a-c1b9a729ad5b" class="bulleted-list"><li style="list-style-type:disc">boost_power (W): 1.5–2.0 kW (tuỳ module)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c1-b794-cdbd5ded8c53" class="bulleted-list"><li style="list-style-type:disc">boost_time_max (s): P0 180 | P1 120 | P2 60</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dc-a889-cfd7a24e12a0" class="bulleted-list"><li style="list-style-type:disc">cooldown_min (s): P0 180 | P1 300 | P2 600</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e2-b191-fef5e8460bf4" class="bulleted-list"><li style="list-style-type:disc">Boost_budget_day (s/ngày): P0 1800 | P1 600 | P2 180</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8000-9eff-c7d116ed631b" class="bulleted-list"><li style="list-style-type:disc">D_index_budget_day (điểm/ngày): P0 cao | P1 trung | P2 thấp</li></ul></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-80f5-92ff-f8b736ab4440" class="">Điểm “push”:<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8059-a1bf-da2b4cc092f9" class=""><strong>Boost bị ràng buộc bởi ngân sách suy giảm</strong></p></div></blockquote></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80be-989b-fe867f987ff2"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80f6-b8a9-d124bb8880d1" class=""><strong>2) Power Stage – mô tả mạch/PCB đủ để giao thiết kế (không mơ hồ)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80aa-9dd3-ce698be679da" class=""><strong>2.1 Topology và lý do</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802a-ad25-ff6f4f6311fe" class="bulleted-list"><li style="list-style-type:disc">Chọn <strong>Buck đồng bộ</strong> nếu V_in luôn cao hơn V
-_stack.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8073-9917-ffd786a2d631" class="bulleted-list"><li style="list-style-type:disc">Chọn <strong>Buck-Boost đồng bộ</strong> nếu V_stack thay đổi rộng hoặc có chế độ cần nâng/hạ áp.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8058-b0f2-ea7d6b66dc08" class=""><strong>2.2 Sơ đồ khối mạch (chi tiết hơn “block”)</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8045-a144-f755cc5d2083" class="numbered-list" start="1"><li><strong>Input Stage</strong></li></ol></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ce-b4d0-cc848d112f92" class="bulleted-list"><li style="list-style-type:disc">TVS diode (clamp surge)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c8-bff9-f98348bd29b5" class="bulleted-list"><li style="list-style-type:disc">LC EMI filter (CM/DM)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8063-b6f9-dcab6e713640" class="bulleted-list"><li style="list-style-type:disc">Inrush limiter (NTC hoặc active)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8010-9c71-ef9a9899b9aa" class="bulleted-list"><li style="list-style-type:disc">Reverse polarity protection (ideal diode MOSFET)</li></ul></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80d6-8fae-cea8f92849ae" class="numbered-list" start="1"><li><strong>Synchronous Switching Stage</strong></li></ol></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805d-b4e7-c93e7e1ee590" class="bulleted-list"><li style="list-style-type:disc">High-side MOSFET + Low-side MOSFET (hoặc SiC nếu nhiệt/boost cao)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a1-bf2e-dce9f342f24f" class="bulleted-list"><li style="list-style-type:disc">Gate driver có: dead-time programmable + slew-rate c
-ontrol</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8065-9f9e-c9c93dca28ab" class="bulleted-list"><li style="list-style-type:disc">Power inductor (L) chọn theo ripple dòng mục tiêu</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8022-a822-f4999562b254" class="bulleted-list"><li style="list-style-type:disc">Output capacitors (low ESR) + snubber (giảm ringing)</li></ul></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8050-b99f-da0ac1a01812" class="numbered-list" start="1"><li><strong>Current Sensing</strong></li></ol></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8024-a704-ff42159ba6d1" class="bulleted-list"><li style="list-style-type:disc">Ưu tiên shunt low-ohm + amplifier (bền, rẻ, chính xác)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-809f-9034-ec08e5bee480" class="bulleted-list"><li style="list-style-type:disc">Hall chỉ dùng khi cần cách ly hoặc dòng rất lớn</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802d-86f1-fddfc1f5f915" class="bulleted-list"><li style="list-style-type:disc">Mục tiêu: <strong>≤1%</strong> sai số, 
-nhiễu thấp để điều khiển dòng ổn định</li></ul></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8056-95e7-e7250a01c26d" class="numbered-list" start="1"><li><strong>Voltage Sensing</strong></li></ol></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8088-833f-f0cb48cb6f5f" class="bulleted-list"><li style="list-style-type:disc">Đo tổng áp stack (divider + ADC)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8017-9b6c-d86b7cff51e5" class="bulleted-list"><li style="list-style-type:disc">Tuỳ chọn: đo “segment” (mỗi đoạn vài cell) để phát hiện lệch cục bộ/hotspot điện hoá</li></ul></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8076-b444-dd7c25f3357c" class="numbered-list" start="1"><li><strong>MCU Control</strong></li></ol></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806f-9ffe-f26306cafe17" class="bulleted-list"><li style="list-style-type:disc">PWM/DPWM generation</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8031-a0f1-fb8c3ce24fc7" class="bulleted-list"><li style="list-style-type:disc">Current-loop PI ở 1–10 kHz</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8046-93a7-c04412f21d15" class="bulleted-list"><li style="list-style-type:disc">dI/dt clamp (hard)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8075-acfc-d6b72330f16d" class="bulleted-list"><li style="list-style-type:disc">Fault ISR (ngắt an toàn)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8026-a6ff-c8f49dbcc4c1" class=""><strong>2.3 “Cannon waveform” thực chất là gì (để hội đồng hiểu)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b2-ae01-e2017d201a75" class="bulleted-list"><li style="list-style-type:disc">PWM không phải để “đánh mạnh”, 
-mà để <strong>tạo các profile dòng theo thời gian</strong>:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8026-b7a5-f390d062d3cf" class="bulleted-list"><li style="list-style-type:circle">DC mượt (ripple thấp)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e7-921c-faee76b8acc3" class="bulleted-list"><li style="list-style-type:circle">Pulse có duty/freq thay đổi</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8068-9814-fd9e3c200350" class="bulleted-list"><li style="list-style-type:circle">Burst có ramp lên/ramp xuống</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8093-aee4-e86c211b4f84" class="bulleted-list"><li style="list-style-type:disc">Quan trọng nhất: <strong>giới hạn cạnh xung (slew-rate)</strong> để không tạo RMS heating ẩn và không kích EMI.</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8078-8832-cc10f20e7393" class=""><strong>2.4 Thông số thiết kế PCB bắt buộc (để không chết vì EMI/nhiệt)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d3-86b4-fec3b9eace57" class="bulleted-list"><li style="list-style-type:disc">Vòng dòng xung (switch loop) <strong>cực ngắn</strong>, plane dày, via stitching</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e9-aa19-ff521ef3b74b" class="bulleted-list"><li style="list-style-type:disc">Tách mass công suất và mass tín hiệu, 
-nối tại 1 điểm (star)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ed-a1bb-e182084b3b28" class="bulleted-list"><li style="list-style-type:disc">Sense shunt dùng Kelvin connection</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800d-9a4e-fe2083d8d195" class="bulleted-list"><li style="list-style-type:disc">Nhiệt: MOSFET/inductor có copper pour + thermal via</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8015-9df2-df5b9813ddd1"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8042-8e05-fa5f3c71c0e1" class=""><strong>3) AMOS Core – thuật toán “đủ cụ thể nhưng đọc được”</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80af-88dd-e238f94d6b0a" class=""><strong>3.1 State Machine (bắt buộc có, để kiểm toán)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8037-ae6f-d9df701f4967" class="">Các trạng thái:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807d-8813-f35d9eeae0d8" class="">INIT → CRUISE → (BOOST) → COOLDOWN → CRUISE</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-801e-ae71-ee5dab5db281" class="">CRUISE → DEGRADED → CRUISE</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806b-8995-ee661a0c0723" class="">Bất kỳ trạng thái nào → PROTECTIVE → LOCKOUT (nếu lặp)</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8044-a417-c4ba6780fe16" class=""><strong>3.2 Bộ ước lượng trạng thái (State Estimator – không cần AI mơ hồ)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8012-8af6-fcd8cb68bba8" class="">Mỗi chu kỳ (100 ms):</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8040-a1c2-d8b164c6b0aa" class="bulleted-list"><li style="list-style-type:disc">Tính T_avg, dT_dt, 
-dT_dx</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805f-8623-df8d38a132c6" class="bulleted-list"><li style="list-style-type:disc">Tính R_eq = V/I và dR_dt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e9-85f7-da957c5ca12a" class="bulleted-list"><li style="list-style-type:disc">Tính P_pp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e7-a5fd-d1c9435128d1" class="bulleted-list"><li style="list-style-type:disc">Mỗi 30–120 s thực hiện <strong>probe pulse</strong> nhỏ để cập nhật Z_diff_proxy</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802a-a5dd-c0bab0984257" class=""><strong>Probe pulse</strong> (đủ để nhận biết diffusion/bubble):</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80dc-b7a7-fefb57233cf4" class="bulleted-list"><li style="list-style-type:disc">biên độ nhỏ (ví dụ 2–5% I_cruise)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b6-9cc2-ffa9405623d8" class="bulleted-list"><li style="list-style-type:disc">thời gian ngắn (50–200 ms)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8079-8600-e60bfc7ee89c" class="bulleted-list"><li style="list-style-type:disc">đo đáp ứng điện áp ΔV theo thời gian → suy ra proxy</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-809b-a113-f0d05bc660ac" class=""><strong>3.3 Degradation Budget (đây là “push” thật)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807c-a547-c473c9c96cd4" class="">Cập nhật D_index theo stress:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80cb-898e-d5528173d854" class="bulleted-list"><li style="list-style-type:disc">stress nhiệt: gần ngưỡng + gradient + tốc độ tăng</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d7-89ab-f2a9d382cb65" class="bulleted-list"><li s
-tyle="list-style-type:disc">stress điện hoá: drift R_eq + proxy diffusion</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e3-81d5-d3051216d5cc" class="bulleted-list"><li style="list-style-type:disc">stress khí: ripple áp</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e1-9569-f6ea8b46a8bc" class="">Luật quyết định:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8004-9bb4-cf833c0d6c60" class="bulleted-list"><li style="list-style-type:disc">Nếu ΔD_index/Δt vượt ngưỡng → hạ về CRUISE/DEGRADED</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8071-bf62-f390c9f6c93c" class="bulleted-list"><li style="list-style-type:disc">Nếu D_index vượt trần ngày → cấm BOOST đến hết chu kỳ</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8017-804c-cd64cd4aca07" class=""><strong>3.4 Boost Permission Logic (AND cứng + ngân sách)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e6-89df-d4e5bf3631db" class="">BOOST chỉ cấp khi:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e1-af1a-ca0dc8c14aa0" class="bulleted-list"><li style="list-style-type:disc">T_avg &lt; T_derate_gate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801c-96ae-f35d81c82ee6" class="bulleted-list"><li style="list-style-type:disc">dT_dt &lt; dT_dt_derate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8029-8fb4-ca9b3f86a3ee" class="bulleted-list"><li style="list-style-type:disc">dT_dx &lt; dT_dx_derate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8034-beab-e7ad5f07e566" class="bulleted-list"><li style="list-style-type:disc">P_pp &lt; P_pp_derate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a6-9eff-e71010ba91fa" class="bulleted-list"><li style="list-style-type:disc">dR_dt &lt; 
-R_eq_drift_derate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a4-9a7c-f3fecc7b4ceb" class="bulleted-list"><li style="list-style-type:disc">Z_diff_proxy &lt; Z_diff_derate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803f-9e3d-fa45fa2e560c" class="bulleted-list"><li style="list-style-type:disc">Boost_budget_day &gt; 
-0</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8017-8aa0-f91212d534b6" class="bulleted-list"><li style="list-style-type:disc">cooldown_elapsed == true</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8090-9e76-f8da82d6584c" class="">Thiếu 1 điều kiện → <strong>REFUSE_BOOST</strong> và log lý do theo mã.</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80f9-90a9-d3e94427001b" class=""><strong>3.5 Điều khiển dòng và dạng sóng (có “lý do chọn”)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-802e-ab29-f0ae13554933" class="bulleted-list"><li style="list-style-type:disc">Nếu diffusion/bubble tăng: chọn <strong>anti-bubble profile</strong> (pulse phù hợp) + hạ I</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-803f-9710-ce47dd917ffd" class="bulleted-list"><li style="list-style-type:disc">Nếu nhiệt/gradient tăng: chuyển <strong>DC mượt</strong> + giảm I (ổn định nhiệt)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-804e-92e1-e441f46ebe93" class="bulleted-list"><li style="list-style-type:disc">Nếu nguồn dao động: tăng feed-forward để giữ dòng ổn định, 
-không “đuổi áp”</li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-800e-93df-dd6bc486ced3"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8091-981f-cd6f174dd9ce" class=""><strong>4) So sánh định lượng: IKONOMY nguyên bản vs AMOS-IKONOMY (đúng kiểu hội đồng)</strong></h2></div><div style="display:contents" dir="auto"><blockquote id="2eac5e6f-95bd-80b7-8593-e1b72e6e38a4" class="">Lưu ý: đây là<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8019-8c37-d32bb76285dd" class=""><strong>mục tiêu kỹ thuật/thiết kế</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80b3-9b4f-c58d20c448c2" class=""><strong>kết quả kỳ vọng sau kiểm chứng</strong></p></div></blockquote></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e7-8379-e254387e2121" class=""><strong>4.1 Bảng so sánh (module 1 kW, 
-boost 1.5–2.0 kW)</strong></h3></div><div style="display:contents" dir="ltr"><table id="2eac5e6f-95bd-8065-ba5e-c87dd023ebf5" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-8085-9257-f9e1ec19cfa0"><th id="b]dC" class="simple-table-header-color simple-table-header"><strong>Hạng mục</strong></th><th id="}@Te" class="simple-table-header-color simple-table-header"><strong>IKONOMY nguyên bản (điển hình)</strong></th><th id="x&lt;a]" class="simple-table-header-color simple-table-header"><strong>AMOS-IKONOMY (thiết kế)</strong></th><th id="@yCe" class="simple-table-header-color simple-table-header"><strong>Lý do thay đổi</strong></th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-80eb-bbbc-dd5769f92baa"><td id="b]dC" class="">Chế độ vận hành</td><td id="}@Te" class="">1 lớp (gần như 1 envelope)</td><td id="x&lt;a]" class="">2 lớp Cruise/Boost + ngân sách</td><td id="@yCe" class="">Tách “max power” khỏi “max life”</td></tr></div><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-802d-8f59-c155edd057fa"><td id="b]dC" class="">Boost</td><td id="}@Te" class="">có thể có nhưng không bị “tính phí”</td><td id="x&lt;a]" class="">boost có gate + budget + cooldown</td><td id="@yCe" class="">Ngăn boost phá tuổi thọ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-801c-95c6-dbbd99939d61"><td id="b]dC" class="">Dừng khẩn cấp (trip)</td><td id="}@Te" class="">nhiều hơn</td><td id="x&lt;a]" class="">ít hơn (derate trước)</td><td id="@yCe" class="">Uptime tăng, 
-giảm can thiệp</td></tr></div><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-80c5-a342-f81833dac1be"><td id="b]dC" class="">Uptime mục tiêu</td><td id="}@Te" class="">phụ thuộc vận hành</td><td id="x&lt;a]" class=""><strong>≥98%</strong></td><td id="@yCe" class="">derate + lockout logic</td></tr></div><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-8080-ad8d-d4be40d41cb1"><td id="b]dC" class="">Can thiệp/tuần</td><td id="}@Te" class="">biến động</td><td id="x&lt;a]" class=""><strong>≤1</strong> (mục tiêu)</td><td id="@yCe" class="">alarm theo hành động, refusal rõ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-8086-b792-c13718a4db9d"><td id="b]dC" class="">Tuổi thọ hữu dụng</td><td id="}@Te" class="">baseline</td><td id="x&lt;a]" class=""><strong>1.5–2.0×</strong> (mục tiêu)</td><td id="@yCe" class="">D_index + tránh vùng suy giảm</td></tr></div><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-8007-bdee-cde81eb13ed5"><td id="b]dC" class="">Chi phí vòng đời</td><td id="}@Te" class="">baseline</td><td id="x&lt;a]" class=""><strong>giảm 25–40%</strong> (mục tiêu)</td><td id="@yCe" class="">ít hỏng, ít dừng, 
-ít công vận hành</td></tr></div><div style="display:contents" dir="ltr"><tr id="2eac5e6f-95bd-80ee-a396-f0ff7b8193a3"><td id="b]dC" class="">Power đỉnh an toàn</td><td id="}@Te" class="">giới hạn bởi trip</td><td id="x&lt;a]" class=""><strong>tăng nhưng có giới hạn</strong></td><td id="@yCe" class="">boost envelope có ràng buộc nhiệt/khí</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8015-b113-c116ffe514bc" class=""><strong>4.2 “Max power” và “Max effective” đóng bằng 2 KPI (để không tranh cãi)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8060-ba14-d4bb17f33447" class="bulleted-list"><li style="list-style-type:disc"><strong>KPI-Peak:</strong> P_boost_safe (W) và boost_time_max (s) với điều kiện không vượt dT_dx, P_pp</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8088-8e65-e828b060b196" class="bulleted-list"><li style="list-style-type:disc"><strong>KPI-Effective:</strong> MTBC (Mean Time Between Correction) + H2_per_kWh_stability theo thời gian</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8040-afe2-fc04d94bb046" class="">Nếu bạn đưa KPI này vào hồ sơ, hội đồng sẽ hiểu ngay: bạn không khoe hiệu suất giấy, bạn khoe <strong>khả năng chạy thật</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8011-95ad-d7c41aaed696"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80e3-8002-fa69ea557901" class=""><strong>5) “Push more nữa” về chi phí tại VN (thực tế, không khẩu hiệu)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ce-bacd-eb79609920a2" class="">Bạn có thể giảm thêm chi phí tại VN theo đúng cấu trúc module:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8029-8760-cd8e57ca958e" class="bulleted-list"><li style="list-style-type:disc"><strong>Cơ khí, đường ống, heat spreader, vỏ, 
-gá lắp</strong>: nội địa hoá mạnh (chi phí giảm rõ).</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8097-b9c5-deca90bffbfe" class="bulleted-list"><li style="list-style-type:disc"><strong>PCB lắp ráp, dây harness, cảm biến phổ thông</strong>: VN làm được.</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8034-a0a5-ed9b56dcd49f" class="bulleted-list"><li style="list-style-type:disc"><strong>Nhập khẩu cần giữ</strong>: bán dẫn công suất chất lượng, một số cảm biến áp/flow chuẩn, vật liệu màng/xúc tác (tuỳ hoá học).</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c1-8153-faccf016bdd7" class="">Điểm AMOS giúp giảm chi phí “lớn nhất” không nằm ở BOM, mà nằm ở:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800c-b30c-dbd9b0c019f6" class="bulleted-list"><li style="list-style-type:disc">giảm dừng máy ngoài kế hoạch</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805e-9f6d-f0d4d2b2c871" class="bulleted-list"><li style="list-style-type:disc">giảm thay thế sớm</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8072-a611-f63e04189a72" class="bulleted-list"><li style="list-style-type:disc">giảm nhu cầu kỹ sư trực 24/7<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8036-83f2-f936efd220ce" class="">=&gt; OPEX và downtime giảm, đó mới là 25–40%.</p></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80bb-add1-e20d2866d21e"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e6-90c5-cce6f085b8c1" class="">Nếu bạn muốn “push thêm một nấc cuối cùng”, mình sẽ viết tiếp ngay (cũng bằng tiếng Việt chuẩn hồ sơ) 3 mục:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80c2-b4f4-f272ab65aa17" class="numbered-list" start="1"><li><strong>Bảng mã lỗi &amp; 
-mã từ chối boost (Fault/Refusal Code Table)</strong> để log/audit</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80ab-9e73-e24a6e8bb874" class="numbered-list" start="2"><li><strong>Kế hoạch thử nghiệm 1.000h + chu kỳ boost + thử nước kém + thử nguồn dao động</strong> (test matrix)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8069-b9db-efe6420dac5f" class="numbered-list" start="3"><li><strong>Sơ đồ mạch power stage dạng danh mục linh kiện theo thông số (không nêu hãng), đủ để RFQ</strong></li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8009-ae49-f96ce15d5d66" class="">Chỉ cần bạn trả lời 1 câu để mình “đóng” phần khí cho đúng: <strong>H₂ đầu ra của module hiện tại là gần áp khí quyển (≈1 bar) hay có điều áp lên ~1.5–3 bar?</strong></p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800f-8e06-ede1eccb3b3d" class="">Được. 
-“Đẩy tới <strong>mép tuyệt đối của khả năng</strong>” (absolute edge) với AMOS-IKONOMY nghĩa là: <strong>không còn tối ưu cục bộ</strong>, mà tối ưu <strong>toàn bộ phong bì vật lý</strong> của hệ (điện-nhiệt-khí-vật liệu-vận hành) để chạy <strong>sát trần nhiệt động học</strong> trong <strong>thời gian dài</strong>, với <strong>chi phí vòng đời thấp nhất</strong>, và vẫn <strong>không rơi khỏi an toàn/tuổi thọ</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8028-9632-dad7bf58fe1c" class="">Mình sẽ nói thẳng theo 3 tầng: <strong>(A) Trần tuyệt đối</strong>, <strong>(B) Vùng còn “headroom” thật</strong>, <strong>(C) Gói nâng cấp để chạm mép</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-803a-b831-c0d7cb0accea"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-802f-8b0c-c1de10df54c2" class=""><strong>A) Trần tuyệt đối (không ai vượt được)</strong></h2></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80cb-8f76-e65e5aa14051" class="numbered-list" start="1"><li><strong>Faraday</strong>: H₂ sinh ra tỉ lệ trực tiếp với điện lượng:<div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80da-937d-d79d0d8fb5e3" class="">\dot n_{H_2}=\eta_F\frac{I}{2F}</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-805d-9401-c5e65fefacd4" class="">Không có “đường tắt” điện tử nào vượt quy luật này.</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-801c-a215-e839092b3acc" class="numbered-list" start="2"><li><strong>Nhiệt động học</strong>: trần điện-hoá của điện phân nước là <strong>giới hạn reversible</strong> (ΔG). 
-Về bản chất, bạn chỉ có thể tiệm cận trần đó; càng gần thì mỗi % cải thiện càng đắt.</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e4-b9ca-fe90168ea84b" class=""><strong>Kết luận:</strong> “đẩy tới mép” không phải là hứa vượt vật lý, mà là <strong>tiệm cận trần trong thực tế vận hành</strong> (đời thật, nhiều năm, nguồn dao động, nước không hoàn hảo, tải thay đổi).</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8063-8fb1-d7621e6f8038"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8063-89b4-f5d795b0a606" class=""><strong>B) Phần “headroom” thật sự còn lại (chỉ còn 4 hướng)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-802b-931d-fe7898e2e8ac" class="">Nếu bạn đã gần ~300 L/kWh ở điều kiện thực, thì trong điện phân nước cổ điển, phần cải thiện còn lại <strong>không nằm</strong> ở “PWM khéo hơn” đơn thuần. 
-Nó nằm ở 4 hướng sau (và chỉ 4):</p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8030-953a-c1a3d74ca1bb" class=""><strong>1)</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80cb-983a-f08a0bacf51d" class=""><strong>Kéo hệ xuống dưới thermoneutral có chủ đích</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-800c-9c05-e72a1a64bf88" class=""><strong>(điện ít hơn, lấy thêm từ nhiệt)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80cc-a204-e694b9bdf47a" class="">Đây là “đường hợp pháp” duy nhất để tăng <strong>hiệu suất điện</strong> mà không vi phạm định luật: bạn làm hệ hấp thụ nhiệt môi trường / nhiệt thải (waste heat) một cách <strong>có kiểm soát</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80ed-96d6-cab119712793" class="">Điều này yêu cầu:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8037-8e8b-f23b990bac9b" class="bulleted-list"><li style="list-style-type:disc">quản lý gradient nhiệt cực chặt (ΔT nhỏ)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d9-a64b-f8fa6576a6ef" class="bulleted-list"><li style="list-style-type:disc">tốc độ tăng nhiệt nhỏ (dT/dt nhỏ)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b6-951f-e0bb96442282" class="bulleted-list"><li style="list-style-type:disc">vật liệu và cấu trúc nhiệt tốt (heat spreading, 
-thermal mass đúng chỗ)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80fe-ba6e-d3c89353f4cb" class=""><strong>Đây là hướng số 1 để chạm mép.</strong></p></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-802d-aa57-d2eac1eb8656" class=""><strong>2)</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8074-af74-e40906e1383c" class=""><strong>Giảm entropy tạo ra bằng “điều khiển theo trở kháng” (impedance-locked driving)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8074-94c7-f0b206a923cd" class="">Không phải “đổi tần số” cho vui, mà là:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80e4-8f00-ec2e82195bd1" class="bulleted-list"><li style="list-style-type:disc">đo proxy khuếch tán/bọt khí (diffusion/bubble proxy)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8076-9538-d6173ba32413" class="bulleted-list"><li style="list-style-type:disc">chọn dạng sóng để tránh vùng tổn hao không hồi phục (irreversible loss topology)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-801d-a4cc-d95b0324fb8a" class="bulleted-list"><li style="list-style-type:disc">giữ hệ trong vùng mà tăng dòng không kéo theo tăng phân cực theo kiểu “dốc đứng” (Tafel cliff)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-801a-a830-e3deb8876b33" class=""><strong>3)</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-805c-9548-d857912749c9" class=""><strong>Tối ưu hoá đa miền theo “ngân sách suy giảm” (degradation budget)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f2-8ace-ecc9e997bb07" class="">Cái giết trần là <strong>suy giảm vật liệu</strong> và <strong>chu kỳ nhiệt/khí</strong>, không phải thiếu thông minh. 
-Bạn chỉ chạm mép được nếu AMOS quản lý:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-808b-9934-c18410d52979" class="bulleted-list"><li style="list-style-type:disc">ngân sách boost theo ngày/tuần</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c2-8e25-c293f4818d1d" class="bulleted-list"><li style="list-style-type:disc">ngân sách gradient nhiệt</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80ad-b0db-e8e26d0b6a40" class="bulleted-list"><li style="list-style-type:disc">ngân sách ripple áp suất khí</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8009-9183-da6e33addbd2" class="bulleted-list"><li style="list-style-type:disc">ngân sách drift R_eq / proxy khuếch tán</li></ul></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8056-b105-facee0a4c709" class=""><strong>4)</strong></h3></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8036-99f1-c6fffaae42ac" class=""><strong>Hạ chi phí thật bằng nội địa hoá + thiết kế cho “ít sửa” (minimum correction design)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f8-b156-c893a1b0fa02" class="">Ở mép, 
-LCOH (chi phí vòng đời/kg H₂) bị quyết định bởi:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fc-8f34-dfe278236e8e" class="bulleted-list"><li style="list-style-type:disc">downtime</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8078-8c62-c4cbb41436d5" class="bulleted-list"><li style="list-style-type:disc">thay thế sớm</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8040-abd3-e237b795f59b" class="bulleted-list"><li style="list-style-type:disc">can thiệp người</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a3-9088-ed6c5ef17960" class="bulleted-list"><li style="list-style-type:disc">logistics bảo trì</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bc-901d-c5ef08d863e6" class="">AMOS giúp bạn “đẩy tới mép” bằng cách <strong>giảm correction</strong> chứ không phải chỉ tăng output.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80ea-86e3-d990a1b8d337"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-8035-b79f-f6ab91983abf" class=""><strong>C) Gói nâng cấp “Absolute Edge” (đề xuất cụ thể)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80bd-8655-cf10a552929a" class="">Dưới đây là cấu hình mà mình gọi là <strong>AMOS-IKONOMY Edge Stack</strong>: mỗi mục đều có “đặt ở đâu”, “thay gì”, 
-“đo bằng gì”.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80c2-89a3-ef46a064c821"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80e6-8803-c7637b8e8064" class=""><strong>1) Nâng Cannon từ “actuator” thành “thiết bị đo điện-hoá” (Actuate + Identify)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8054-9479-cb1e4bbc5309" class=""><strong>Thêm chế độ probe bắt buộc</strong> (không phải AI):</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8071-aaaf-e9060d11ba6d" class="bulleted-list"><li style="list-style-type:disc">mỗi 30–120 giây chèn 1 “probe pulse” biên độ nhỏ (2–5% I_cruise), 50–200 ms</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-807d-b309-d9bd642bb1c7" class="bulleted-list"><li style="list-style-type:disc">đo đáp ứng ΔV(t) để cập nhật 2 proxy:<div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8046-ae03-d7a9ca9a13eb" class="bulleted-list"><li style="list-style-type:circle">R_ohmic_proxy</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d1-a083-c503383bd56e" class="bulleted-list"><li style="list-style-type:circle">Z_diff_proxy (khuếch tán/bọt khí)</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8012-95bc-c0a436c894cc" class=""><strong>Đặt ở đâu:</strong> firmware lớp MCU (Lớp 2) + AMOS core (Lớp 3).</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f8-a946-da0f2f599b1a" class=""><strong>Tại sao đột phá:</strong> từ đây bạn <strong>không lái mù</strong>; 
-bạn lái theo trạng thái điện-hoá thực.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8002-80c2-f271a4b1acad"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8019-add5-f3a7689ce353" class=""><strong>2) Chuyển “Waveform Library” thành “Waveform Selection Law”</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8025-9897-d30c61423ac7" class="">Thay vì 3 dạng sóng cố định, bạn đóng một <strong>luật chọn</strong>:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-805e-b204-d182f151af2a" class="bulleted-list"><li style="list-style-type:disc">Nếu Z_diff_proxy↑ (bọt/khuyếch tán xấu) → chuyển sang profile giảm bám khí + hạ I</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80fa-b2e5-fde9bee17313" class="bulleted-list"><li style="list-style-type:disc">Nếu dT/dt↑ hoặc ΔT↑ → chuyển về DC mượt + hạ I (ổn định nhiệt)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-806c-bcab-fa8888c53f0a" class="bulleted-list"><li style="list-style-type:disc">Nếu nguồn dao động → tăng feed-forward để giữ I ổn định (không đuổi theo V)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8041-9a49-cb6a09986742" class=""><strong>Đặt ở đâu:</strong> AMOS Core quyết định, MCU thực thi.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80be-9dab-cf6fc1205078" class=""><strong>Thước đo:</strong> giảm drift R_eq theo giờ + giảm số lần trip.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-80fa-8765-ce7486a70488"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8064-94aa-f65779584956" class=""><strong>3) “Thermal is the Boost Gate” (boost do nhiệt quyết định, 
-không do nhu cầu)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8086-a26b-c9056ce2f78a" class="">Boost chỉ được phép nếu đồng thời:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8097-856a-e49690d7366c" class="bulleted-list"><li style="list-style-type:disc">T_avg &lt; T_gate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8095-813a-e59bd0814dea" class="bulleted-list"><li style="list-style-type:disc">ΔT &lt; ΔT_gate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80a5-8190-e77f3952fb7b" class="bulleted-list"><li style="list-style-type:disc">dT/dt &lt; 
-dTdt_gate</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8094-8c85-dc0745723fa0" class="bulleted-list"><li style="list-style-type:disc">và đủ ngân sách suy giảm</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f7-83b0-d55026e8c587" class=""><strong>Đặt ở đâu:</strong> AMOS (Lớp 3) + sensor nhiệt đa điểm (Lớp 1).</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8050-9d1c-eb566aeb1f45" class=""><strong>Nâng cấp phần cứng bắt buộc:</strong> tối thiểu 3 điểm đo nhiệt (inlet/outlet + gần vùng phản ứng), không dùng 1 cảm biến.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8067-8bdb-d6e23d649600"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ac-827c-eafa813e1f71" class=""><strong>4) Tối ưu “hấp thụ nhiệt” (sub-thermoneutral) bằng kiến trúc nhiệt, không phải quạt</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c2-8054-f03067584169" class="">Nếu bạn muốn đi sát trần reversible trong đời thật, bạn phải:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80f4-91da-e15e3b0f280d" class="bulleted-list"><li style="list-style-type:disc">thiết kế heat spreader (nhôm/đồng) đúng đường truyền</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8041-98a8-c6df86811999" class="bulleted-list"><li style="list-style-type:disc">tăng thermal mass đúng vị trí “mật độ phản ứng cao”</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80d1-b398-dd3a36eae56c" class="bulleted-list"><li style="list-style-type:disc">giảm gradient bằng cấu trúc, 
-không bằng “thổi mạnh”</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8070-aedb-ca2e14b6e836" class=""><strong>Đặt ở đâu:</strong> Lớp 1.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8034-84bc-d9879370dab3" class=""><strong>Thước đo:</strong> ΔT nhỏ hơn cùng công suất; boost không tạo hotspot.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8095-ae9d-e1082ca6f71d"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80ce-aa00-cb918bc22de9" class=""><strong>5) Gas path “surge-rated” để boost không biến thành sự kiện an toàn</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8093-b141-fbb92621d82b" class="">Boost = tăng tốc sinh khí = tăng ripple áp. 
-Bạn cần:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8079-9eae-f5c03a05c109" class="bulleted-list"><li style="list-style-type:disc">buffer volume tính theo lưu lượng boost</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80b0-b122-f8073c2255ff" class="bulleted-list"><li style="list-style-type:disc">water trap/bubbler không carryover</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800d-9308-f647b5bd2905" class="bulleted-list"><li style="list-style-type:disc">check valve + backflow protection theo triết lý “no storage when stop”</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-800c-8342-f418f1efcf8a" class="bulleted-list"><li style="list-style-type:disc">target P_pp thấp (≤2–3% tùy profile)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80e6-8670-e21d8ab02f33" class=""><strong>Đặt ở đâu:</strong> Lớp 1 đường khí.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-801a-8fbe-de701e54459d"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-80b2-a244-e82db02b9bb6" class=""><strong>6) Degradation Budget Engine (đây là “edge” thật sự)</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80c5-a9c4-e36da841a5c4" class="">Bạn định nghĩa một chỉ số suy giảm tích lũy:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8026-87fb-c9d6ddf5181b" class="bulleted-list"><li style="list-style-type:disc">D_thermal (hàm của T, dT/dt, ΔT)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c0-8e19-ef8bdf277217" class="bulleted-list"><li style="list-style-type:disc">D_echem (hàm của dR/dt, 
-Z_diff_proxy)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80c8-9d55-c27456392f0d" class="bulleted-list"><li style="list-style-type:disc">D_gas (hàm của P_pp)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8022-917e-d50a637f2231" class="bulleted-list"><li style="list-style-type:disc">D_events (fault/restart)</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8076-b84a-f1d6e3542df5" class="">D_{total}=w_1D_{thermal}+w_2D_{echem}+w_3D_{gas}+w_4D_{events}</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8070-9e5c-cc5c335a1372" class="">Luật: <strong>Boost tiêu tốn ngân sách D</strong>, hết ngân sách thì cấm boost.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8066-920d-f9b0e54664cd" class=""><strong>Đặt ở đâu:</strong> AMOS Core (Lớp 3).</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-803a-a0c3-cc0d9521960d" class=""><strong>Thước đo:</strong> tuổi thọ hữu dụng tăng mà không phải “hy sinh hiệu suất”.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-805e-9a60-de13485c02e6"/></div><div style="display:contents" dir="auto"><h3 id="2eac5e6f-95bd-8050-89f4-c7d8241a4ef8" class=""><strong>7) “Edge Cost” tại VN: giảm mạnh OPEX bằng thiết kế ít sửa + nội địa hoá đúng chỗ</strong></h3></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-807e-bcc6-f05d39ac8a21" class="">Nếu muốn <strong>đẩy tới mép chi phí thấp nhất</strong>, bạn làm 3 việc:</p></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8030-9dae-cf4246c4d708" class="bulleted-list"><li style="list-style-type:disc">Nội địa hoá cao phần <strong>cơ-nhiệt-đường ống-vỏ-gá</strong> (VN rất mạnh)</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-8054-8879-f1e12471d038" class="bulleted-list"><li style="list-style-type:disc">Chuẩn hoá BOM theo “ít loại linh kiện”, 
-dễ thay</li></ul></div><div style="display:contents" dir="auto"><ul id="2eac5e6f-95bd-80bc-b6d9-e90047458a0e" class="bulleted-list"><li style="list-style-type:disc">AMOS giảm nhu cầu “kỹ sư trực”, biến vận hành thành “định kỳ” thay vì “phản ứng”</li></ul></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8052-9040-e4158226d12a" class=""><strong>Cái này mới kéo LCOH xuống sâu</strong>.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8059-8831-ea326ab98319"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-809c-8864-cbf5babcb177" class=""><strong>“Mép tuyệt đối” trông như thế nào (để bạn chốt trong hồ sơ)</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-800e-a504-e21980db2c30" class="">Một hệ ở mép sẽ có 4 dấu hiệu mà hội đồng tin ngay:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8069-909f-d036844492a3" class="numbered-list" start="1"><li><strong>Có hai phong bì rõ ràng:</strong> Cruise (bền) và Boost (ngắn), có cooldown.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-80c4-a053-c61f80cd7d2f" class="numbered-list" start="2"><li><strong>Có cơ chế đo proxy điện-hoá tại chỗ</strong> (probe) để không lái mù.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8030-a67c-cf8f2779ee50" class="numbered-list" start="3"><li><strong>Có ngân sách suy giảm</strong> để tối ưu dài hạn, 
-không tối ưu theo KPI tức thời.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-804b-98be-f221a58109f1" class="numbered-list" start="4"><li><strong>Có thiết kế nhiệt và khí “surge-rated”</strong> để boost không tạo rủi ro.</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f0-ae82-d0b9398161e4" class="">Đó là “absolute edge” trong thế giới thật.</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8045-a447-cb58b5856b56"/></div><div style="display:contents" dir="auto"><h2 id="2eac5e6f-95bd-80b3-bed9-fb6a6bb14b22" class=""><strong>Nhưng “push more” nữa thì còn gì?</strong></h2></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8007-90a2-c588e6c4fc61" class="">Nếu bạn muốn <strong>vượt thêm một bậc nữa</strong> (vẫn trong nước điện phân), chỉ còn 1 lựa chọn hợp lệ:</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-8049-9190-ff40d92ff9f8" class=""><strong>Tích hợp nhiệt thải có chủ đích</strong> (waste-heat coupling) thành một phần của kiến trúc, thay vì “ăn ké” nhiệt môi trường. 
-Đây là nấc cuối cùng trước khi phải đổi hẳn chemistry (SOEC/AEM khác lớp).</p></div><div style="display:contents" dir="auto"><hr id="2eac5e6f-95bd-8038-a330-f08e626875a6"/></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-806f-a8cb-d63408cbcd3d" class="">Nếu bạn trả lời đúng 2 thông tin này, mình sẽ “đóng” bản Edge Spec thành <strong>tài liệu kỹ thuật hoàn chỉnh</strong> (ngưỡng số cụ thể + pseudo-code + bảng test matrix):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-805a-9a6b-e91a2a4b15a4" class="numbered-list" start="1"><li>H₂ đầu ra hiện tại: <strong>≈1 bar</strong> hay <strong>1.5–3 bar</strong>?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2eac5e6f-95bd-8061-aee4-dc9668124eaf" class="numbered-list" start="2"><li>Stack thuộc lớp nào: <strong>PEM / AEM / alkaline-like</strong>?</li></ol></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-808e-beeb-d031af41c8c8" class="">Chỉ cần 2 dữ kiện đó là mình có thể viết ra bản “Absolute Edge” <strong>không còn chỗ mơ hồ</strong>.</p></div><div style="display:contents" dir="auto"><p id="2eac5e6f-95bd-80f8-9a44-c0c95dd155dc" class="">
-</p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+
+
+# **HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY**
+ _(Mô tả kỹ thuật đầy đủ – phục vụ hồ sơ thẩm định)_
+* * *
+## **1\. Kiến trúc tổng thể hệ thống**
+### **1.1. Sơ đồ khối chức năng**
+Hệ thống AMOS–IKONOMY được tổ chức theo chuỗi chức năng khép kín, trong đó mỗi khối có vai trò rõ ràng và bị ràng buộc bởi các giới hạn vật lý cụ thể:
+```
+    Nguồn DC vào (48–96 VDC)
+       ↓
+    Khối điều hòa và bảo vệ nguồn
+       ↓
+    Khối Cannon Drive
+    (Bộ biến đổi công suất điều khiển theo dòng)
+       ↓
+    Stack điện phân nước
+       ↓
+    Hệ thống quản lý nhiệt
+       ↓
+    Hệ thống tách và điều hòa khí
+       ↓
+    Ngõ ra hydro (H₂) được điều tiết
+```
+### **1.2. Nguyên lý kiến trúc cốt lõi**
+Hệ thống được thiết kế dựa trên hai nguyên lý kỹ thuật nền tảng:
+**Thứ nhất, điện phân nước phải được điều khiển theo dòng điện (current-driven), không theo điện áp.**
+Trong phản ứng điện phân, tốc độ sinh khí, mức phân cực điện cực, sự hình thành bọt khí và tốc độ suy giảm vật liệu đều phụ thuộc trực tiếp vào **mật độ dòng điện**. Điện áp chỉ là hệ quả của trạng thái phản ứng và điện trở nội, không phải là biến điều khiển an toàn. Vì vậy, AMOS–IKONOMY:
+  * không cho phép điều khiển công suất bằng cách “đẩy áp”,
+
+
+  * không cho phép tăng điện áp để cưỡng bức dòng,
+
+
+  * mà chỉ cho phép **định hình dòng điện theo thời gian một cách có kiểm soát**.
+
+
+**Thứ hai, hệ thống phải được điều khiển đồng thời trên nhiều miền vật lý (điện – nhiệt – khí).**
+Việc tối ưu riêng lẻ từng miền dẫn đến các mâu thuẫn nghiêm trọng, ví dụ:
+  * tối ưu điện → quá nhiệt,
+
+
+  * tối ưu nhiệt → giảm hiệu suất điện hóa,
+
+
+  * tối ưu lưu lượng khí → dao động áp và rủi ro an toàn.
+
+
+AMOS–IKONOMY coi ba miền này là **một hệ liên hợp** , trong đó **mọi quyết định về dòng điện chỉ hợp lệ khi đồng thời thỏa mãn các điều kiện nhiệt, cơ học và khí động**.
+* * *
+## **2\. Khối điện – điện tử công suất**
+### **2.1. Nguồn vào DC**
+Nguồn cấp cho hệ thống có các đặc tính:
+  * Điện áp danh định: **48–96 VDC**
+
+
+  * Dải cho phép: **±15%**
+
+
+  * Dòng cực đại ở chế độ tăng công suất (boost):
+xấp xỉ **42 A tại 48 VDC** , tương ứng công suất đỉnh khoảng **2 kW**
+
+
+Khối bảo vệ nguồn bao gồm:
+  * bảo vệ quá áp và thấp áp (OVP/UVP),
+
+
+  * bảo vệ đảo cực,
+
+
+  * hạn dòng khởi động để tránh sốc dòng,
+
+
+  * chống nhiễu và xung quá áp bằng TVS diode và bộ lọc LC.
+
+
+Thiết kế này cho phép hệ thống hoạt động ổn định với nguồn điện dao động, nguồn tái tạo phân tán hoặc hệ thống điện không lý tưởng.
+* * *
+## **2.2. Khối Cannon Drive – trung tâm điều khiển công suất**
+### **2.2.1. Cấu trúc phần cứng**
+Khối Cannon Drive là bộ biến đổi công suất dạng:
+  * Buck hoặc Buck–Boost đồng bộ, tùy theo cấu hình stack điện phân.
+
+
+Các phần tử chính:
+  * MOSFET công suất có điện trở dẫn thấp (Rds(on)) cho vận hành chuẩn,
+
+
+  * hoặc SiC MOSFET khi yêu cầu dải công suất và nhiệt độ rộng.
+
+
+Bộ điều khiển sử dụng:
+  * vòng điều khiển kín theo **dòng điện** ,
+
+
+  * thuật toán PI hoặc PI kết hợp feed-forward để bù dao động nguồn.
+
+
+Điện áp stack chỉ được dùng để **giám sát trạng thái** , không được dùng làm biến điều khiển chính.
+* * *
+### **2.2.2. Đặc tính chuyển mạch và giới hạn động**
+  * Tần số đóng cắt: **200 Hz – 5 kHz** , có thể lập trình.
+
+
+  * Tốc độ tăng dòng bị giới hạn cứng:
+\frac{dI}{dt} \le 0{,}5\ \text{A/ms} \quad (\text{giá trị điển hình, điều chỉnh theo stack})
+
+
+  * Dead-time được điều chỉnh chủ động nhằm:
+    * giảm tổn hao chuyển mạch,
+    * giảm nhiễu điện từ (EMI),
+    * tránh xung dòng không kiểm soát.
+
+
+Ngay cả khi nguồn cho phép, Cannon Drive **không cho phép dòng tăng đột ngột**.
+* * *
+### **2.2.3. Đo lường và phản hồi**
+Hệ thống đo lường bao gồm:
+  * đo dòng bằng cảm biến Hall hoặc shunt + khuếch đại chính xác (sai số mục tiêu ≤1%),
+
+
+  * đo điện áp tổng của stack,
+
+
+  * khuyến nghị chia đoạn đo nếu stack có nhiều cell để theo dõi lệch cục bộ.
+
+
+Dữ liệu này được dùng không chỉ để bảo vệ tức thời, mà còn để **theo dõi xu hướng suy giảm theo thời gian**.
+* * *
+### **2.2.4. Điều khiển dạng sóng kích thích**
+AMOS–IKONOMY không sử dụng một dạng PWM cố định. Thay vào đó, hệ thống triển khai **thư viện dạng sóng kích thích điện hóa** , bao gồm:
+  * **DC liên tục mượt** : dùng cho vận hành dài hạn, giảm stress.
+
+
+  * **Pulsed DC khóa theo trở kháng** : dùng khi xuất hiện bám khí hoặc tăng phân cực.
+
+
+  * **Burst mềm có bao xung** : chỉ dùng trong chế độ boost, có ramp tăng và giảm dòng rõ ràng.
+
+
+Việc lựa chọn dạng sóng dựa trên tập biến:
+  * điện trở tương đương của stack R_{eq},
+
+
+  * tốc độ thay đổi nhiệt \frac{dT}{dt},
+
+
+  * gradient nhiệt \Delta T,
+
+
+  * dao động dòng và áp,
+
+
+  * chỉ số suy giảm tích lũy.
+
+
+* * *
+## **3\. Stack điện phân – vùng vận hành và giới hạn**
+### **3.1. Vùng vận hành danh định**
+Stack được vận hành trong vùng mà:
+  * mật độ dòng nằm dưới ngưỡng Tafel dốc,
+
+
+  * điện thế phân cực tăng tuyến tính,
+
+
+  * tốc độ suy giảm vật liệu thấp và ổn định.
+
+
+Đây là vùng cho phép:
+  * vận hành liên tục,
+
+
+  * không cần giám sát liên tục,
+
+
+  * tối ưu sản lượng vòng đời.
+
+
+### **3.2. Vùng tăng công suất ngắn hạn**
+Vùng boost chỉ được phép:
+  * trong thời gian giới hạn,
+
+
+  * khi còn đủ dư địa nhiệt, điện hóa và cơ học.
+
+
+Nếu bất kỳ chỉ số nào vượt ngưỡng, AMOS **giảm công suất chủ động** , không chờ đến bảo vệ cứng.
+* * *
+## **4\. Hệ thống quản lý nhiệt**
+Hệ thống nhiệt được thiết kế để:
+  * tối ưu phân bố nhiệt, không chỉ tản nhiệt,
+
+
+  * giảm gradient và chu kỳ nóng–lạnh nhanh.
+
+
+Luật điều khiển bắt buộc:
+\frac{dT}{dt} \le 1^\circ C/\text{phút}, \quad \Delta T \le 5^\circ C
+Khi vi phạm, hệ thống giảm dòng trước khi phát sinh sự cố.
+* * *
+## **5\. Hệ thống nước**
+Hệ thống nước được xem là **biến điều khiển** , không phải phụ trợ.
+AMOS theo dõi:
+  * mực nước,
+
+
+  * xu hướng độ dẫn,
+
+
+  * tốc độ suy giảm chất lượng.
+
+
+Nguyên tắc:
+  * nước kém → giảm công suất,
+
+
+  * không tồn tại chế độ “cố chạy”.
+
+
+* * *
+## **6\. Hệ thống khí hydro**
+Hệ thống khí được thiết kế để:
+  * triệt xung áp,
+
+
+  * ngăn carry-over nước,
+
+
+  * không lưu trữ hydro khi dừng máy.
+
+
+Dao động áp suất cho phép ≤3%.
+* * *
+## **7\. Lớp điều khiển AMOS – logic thuật toán**
+AMOS duy trì các biến trạng thái:
+  * nhiệt độ trung bình, gradient và tốc độ thay đổi,
+
+
+  * điện trở tương đương và tốc độ trôi,
+
+
+  * áp suất khí và dao động,
+
+
+  * chỉ số suy giảm tích lũy.
+
+
+**Luật quyết định cốt lõi:**
+> Nếu một hành động làm tăng sản lượng ngắn hạn nhưng làm tăng xác suất hỏng trong tương lai, hành động đó bị từ chối.
+Boost chỉ được cấp khi **tất cả điều kiện** đồng thời thỏa mãn.
+* * *
+## **KẾT LUẬN KỸ THUẬT**
+AMOS–IKONOMY không thay đổi hóa học, không phá định luật Faraday, không vượt giới hạn nhiệt động học.
+Điểm khác biệt nằm ở việc **mã hóa giới hạn vật lý và giới hạn vận hành thành logic điều khiển bắt buộc** , thay vì giao cho con người hoặc quy trình bên ngoài.
+Chính điều này cho phép hệ thống:
+  * duy trì công suất cao gần trần vật lý,
+
+
+  * kéo dài tuổi thọ,
+
+
+  * giảm chi phí vòng đời,
+
+
+  * và vận hành an toàn trong điều kiện thực tế tại Việt Nam.
+
+
+Nếu bạn muốn, bước tiếp theo tôi có thể:
+  * viết **pseudo-code thuật toán AMOS** ,
+
+
+  * hoặc **tài liệu so sánh trực tiếp với IKONOMY nguyên bản** ,
+
+
+  * hoặc **bản thuyết minh chuẩn nộp Bộ KH &CN / Bộ Công Thương**.
+
+
+Bạn chỉ cần nói **đối tượng thẩm định là ai**.
+Đã hiểu.
+Dưới đây là **bản viết lại hoàn chỉnh** , đã **tích hợp “các thay đổi mới để push thêm”** (entropy-aware control, thermal phase management, degradation-aware waveform, mở rộng định nghĩa hiệu năng), viết **liền mạch – kỹ thuật – chính quy** , dùng được **nguyên văn cho hồ sơ thẩm định cấp Nhà nước**.
+Tôi giữ toàn bộ cấu trúc bạn đã xây dựng, nhưng **nâng cấp rõ ràng ở các điểm sau** :
+  * Làm rõ **vì sao vẫn còn push được** dù đã gần trần vật lý
+
+
+  * Chỉ ra **AMOS thế hệ mở rộng** khác gì so với phiên bản trước
+
+
+  * Đưa các thay đổi vào **thuật toán và tiêu chí điều khiển** , không nói chung chung
+
+
+* * *
+# **HỆ THỐNG SẢN XUẤT HYDRO AMOS–IKONOMY (PHIÊN BẢN MỞ RỘNG)**
+_(Mô tả kỹ thuật đầy đủ – đã tích hợp các cải tiến đẩy giới hạn vận hành)_
+* * *
+## **1\. Kiến trúc tổng thể hệ thống**
+### **1.1. Sơ đồ khối chức năng**
+Hệ thống AMOS–IKONOMY được tổ chức theo chuỗi chức năng khép kín, trong đó mỗi khối có vai trò rõ ràng và bị ràng buộc bởi các giới hạn vật lý, nhiệt và cơ học cụ thể:
+```
+    Nguồn DC vào (48–96 VDC)
+       ↓
+    Khối điều hòa và bảo vệ nguồn
+       ↓
+    Khối Cannon Drive
+    (Bộ biến đổi công suất điều khiển theo dòng)
+       ↓
+    Stack điện phân nước
+       ↓
+    Hệ thống quản lý nhiệt (mở rộng – có pha nhiệt)
+       ↓
+    Hệ thống tách và điều hòa khí
+       ↓
+    Ngõ ra hydro (H₂) được điều tiết
+```
+* * *
+### **1.2. Nguyên lý kiến trúc cốt lõi (phiên bản mở rộng)**
+Hệ thống được xây dựng dựa trên **ba nguyên lý kỹ thuật nền tảng** , trong đó nguyên lý thứ ba là **phần mở rộng mới cho phép “push thêm” mà không phá vỡ vật lý**.
+### **(1) Điện phân điều khiển theo dòng (current-driven electrochemistry)**
+Trong quá trình điện phân nước, tốc độ phản ứng, tốc độ sinh khí, hiện tượng phân cực điện cực và suy giảm vật liệu đều phụ thuộc trực tiếp vào **mật độ dòng điện**. Điện áp chỉ phản ánh trạng thái nội tại của stack.
+Vì vậy, AMOS–IKONOMY:
+  * không cho phép điều khiển công suất bằng điện áp,
+
+
+  * không cho phép “đẩy áp” để cưỡng bức dòng,
+
+
+  * chỉ cho phép **định hình dòng điện theo thời gian với giới hạn động học nghiêm ngặt**.
+
+
+Điện áp được coi là **biến chẩn đoán** , không phải biến điều khiển.
+* * *
+### **(2) Điều khiển đa miền liên hợp (điện – nhiệt – khí)**
+AMOS–IKONOMY coi điện, nhiệt và khí là **một hệ thống liên hợp** , trong đó:
+  * tăng dòng điện luôn kéo theo gia tăng nhiệt,
+
+
+  * gia tăng nhiệt làm thay đổi động học phản ứng và tuổi thọ vật liệu,
+
+
+  * gia tăng tốc độ sinh khí làm phát sinh dao động áp suất và rủi ro an toàn.
+
+
+Do đó, **không tồn tại quyết định điều khiển dòng điện độc lập**.
+Mọi quyết định chỉ hợp lệ khi **đồng thời thỏa mãn các điều kiện điện, nhiệt, cơ học và khí động**.
+* * *
+### **(3) Tối ưu tốc độ sinh entropy không hồi phục (điểm mở rộng mới)**
+Khác với các hệ thống chỉ tối ưu hiệu suất tức thời (L/kWh), AMOS–IKONOMY mở rộng mục tiêu điều khiển sang:
+> Giảm tốc độ sinh entropy không hồi phục của toàn hệ thống theo thời gian.
+Cụ thể, hệ thống không chỉ quan tâm đến **giá trị dòng hoặc nhiệt độ** , mà còn theo dõi:
+  * tốc độ thay đổi dòng \frac{dI}{dt},
+
+
+  * tốc độ thay đổi nhiệt \frac{dT}{dt},
+
+
+  * gradient nhiệt \Delta T,
+
+
+  * dao động áp suất \Delta p.
+
+
+AMOS ưu tiên các quỹ đạo vận hành tạo **ít tổn hao không hồi phục nhất** , ngay cả khi điều đó làm giảm công suất tức thời trong ngắn hạn.
+Chính nguyên lý này cho phép hệ thống **duy trì lâu hơn ở sát trần vật lý**.
+* * *
+## **2\. Khối điện – điện tử công suất**
+### **2.1. Nguồn vào DC**
+  * Điện áp danh định: **48–96 VDC**
+
+
+  * Dải cho phép: **±15%**
+
+
+  * Dòng cực đại (chế độ boost):
+khoảng **42 A tại 48 VDC** , tương ứng công suất đỉnh **~2 kW**
+
+
+Khối bảo vệ bao gồm:
+  * bảo vệ quá áp / thấp áp,
+
+
+  * bảo vệ đảo cực,
+
+
+  * hạn dòng khởi động,
+
+
+  * chống nhiễu và xung quá áp bằng TVS diode và bộ lọc LC.
+
+
+Thiết kế này cho phép vận hành ổn định với nguồn tái tạo, nguồn dao động và lưới điện không lý tưởng.
+* * *
+## **2.2. Khối Cannon Drive – trung tâm điều khiển công suất**
+### **2.2.1. Cấu trúc phần cứng**
+Khối Cannon Drive là bộ biến đổi công suất:
+  * dạng Buck hoặc Buck–Boost đồng bộ.
+
+
+Phần tử chuyển mạch:
+  * MOSFET công suất Rds(on) thấp cho vận hành chuẩn,
+
+
+  * hoặc SiC MOSFET khi cần dải công suất và nhiệt độ rộng.
+
+
+Điều khiển:
+  * vòng kín theo **dòng điện** ,
+
+
+  * thuật toán PI hoặc PI + feed-forward để bù dao động nguồn.
+
+
+Điện áp stack chỉ dùng để giám sát trạng thái và suy giảm.
+* * *
+### **2.2.2. Giới hạn động học (được siết chặt để push thêm)**
+  * Tần số đóng cắt: **200 Hz – 5 kHz**
+
+
+  * Giới hạn tốc độ tăng dòng:
+\frac{dI}{dt} \le 0{,}5\ \text{A/ms}
+
+
+  * Dead-time được điều chỉnh chủ động nhằm:
+    * giảm tổn hao chuyển mạch,
+    * giảm EMI,
+    * tránh xung dòng phá hủy vi cấu trúc điện cực.
+
+
+Cannon Drive **không cho phép dòng tăng nhanh** , kể cả khi nguồn cho phép.
+* * *
+### **2.2.3. Điều khiển dạng sóng (mở rộng theo suy giảm)**
+AMOS triển khai **dạng sóng biến thiên liên tục** , không chỉ chọn waveform rời rạc.
+Việc điều chỉnh tần số, duty và biên độ được thực hiện dựa trên:
+  * điện trở tương đương R_{eq},
+
+
+  * tốc độ trôi \frac{dR_{eq}}{dt},
+
+
+  * độ trễ phân cực,
+
+
+  * dao động nhiệt.
+
+
+Mục tiêu không phải tối đa sản lượng tức thời, mà **làm chậm quá trình suy giảm vật liệu**.
+* * *
+## **3\. Stack điện phân – vùng vận hành mở rộng**
+### **3.1. Vùng vận hành danh định**
+Stack được giữ trong vùng:
+  * mật độ dòng dưới ngưỡng Tafel dốc,
+
+
+  * điện thế phân cực tăng tuyến tính,
+
+
+  * suy giảm vật liệu chậm và ổn định.
+
+
+Đây là vùng vận hành dài hạn, ít can thiệp.
+* * *
+### **3.2. Vùng tăng công suất có kiểm soát pha nhiệt**
+Vùng boost được mở rộng theo **pha nhiệt** , không chỉ theo ngưỡng nhiệt độ:
+  * cho phép tích lũy nhiệt chậm,
+
+
+  * cấm gia nhiệt nhanh,
+
+
+  * cấm làm nguội sốc.
+
+
+Nhờ đó, **thời gian boost có thể kéo dài hơn** mà không làm tăng mỏi vật liệu.
+* * *
+## **4\. Hệ thống quản lý nhiệt (phiên bản mở rộng)**
+Hệ thống nhiệt không chỉ giới hạn nhiệt độ, mà **quản lý quỹ đạo nhiệt theo thời gian**.
+Luật điều khiển:
+\frac{dT}{dt} \le 1^\circ C/\text{phút}, \quad \Delta T \le 5^\circ C
+AMOS cho phép:
+  * tích nhiệt chậm,
+
+
+  * giải nhiệt chậm,
+nhằm giảm ứng suất nhiệt chu kỳ.
+
+
+* * *
+## **5\. Hệ thống nước**
+Hệ thống nước được xem là **biến điều khiển chiến lược**.
+AMOS theo dõi:
+  * mực nước,
+
+
+  * xu hướng độ dẫn,
+
+
+  * tốc độ suy giảm chất lượng nước.
+
+
+Nước không đạt chuẩn → **giảm công suất trước** , không cố chạy.
+* * *
+## **6\. Hệ thống khí hydro**
+  * Có thể tích đệm để triệt xung áp,
+
+
+  * dao động áp suất cho phép ≤3%,
+
+
+  * không lưu trữ hydro khi dừng máy.
+
+
+* * *
+## **7\. Lớp điều khiển AMOS – logic thuật toán mở rộng**
+AMOS duy trì các biến trạng thái:
+  * T, \Delta T, \frac{dT}{dt},
+
+
+  * R_{eq}, \frac{dR_{eq}}{dt},
+
+
+  * \Delta p,
+
+
+  * chỉ số suy giảm tích lũy.
+
+
+**Luật quyết định cốt lõi (phiên bản mở rộng):**
+> Nếu một hành động làm tăng sản lượng ngắn hạn nhưng làm tăng tốc độ sinh entropy không hồi phục, hành động đó bị từ chối.
+Boost chỉ được cấp khi **tất cả điều kiện** đồng thời thỏa mãn.
+* * *
+## **KẾT LUẬN KỸ THUẬT (CẬP NHẬT)**
+AMOS–IKONOMY không thay đổi hóa học, không phá định luật Faraday, không vượt giới hạn nhiệt động học.
+Điểm tiến hóa mới nằm ở:
+  * điều khiển theo **quỹ đạo vận hành** , không theo điểm,
+
+
+  * tối ưu **tốc độ suy giảm** , không chỉ hiệu suất,
+
+
+  * kéo dài **thời gian ở sát trần vật lý** thay vì cố vượt trần.
+
+
+Nhờ đó, hệ thống:
+  * tạo nhiều hydro hữu dụng hơn trong vòng đời,
+
+
+  * giảm chi phí dài hạn,
+
+
+  * và vận hành bền vững trong điều kiện thực tế Việt Nam.
+
+
+* * *
+Nếu bạn muốn, tôi có thể tiếp tục:
+  * viết **pseudo-code chi tiết của thuật toán entropy-aware** ,
+
+
+  * hoặc **bản so sánh định lượng “trước – sau” với IKONOMY nguyên bản** ,
+
+
+  * hoặc **lộ trình R &D chính thức cho hồ sơ cấp Bộ**.
+
+
+Chỉ cần nói bạn muốn đi **sâu thêm ở hướng nào**.
+Được. Nhưng “push further” ở giai đoạn này **không còn là tăng L/kWh thêm nhiều** (vì đã sát trần nhiệt động). Muốn “đẩy tiếp” theo hướng **có ý nghĩa công nghiệp** , bạn phải đẩy vào 3 trục còn dư địa thật:
+  1. **tăng công suất đỉnh an toàn (kW/module)**
+
+
+  2. **tăng công suất hữu dụng theo vòng đời (kg H₂ / năm / module)**
+
+
+  3. **giảm chi phí vòng đời và chi phí sản xuất tại VN (CAPEX/OPEX)**
+
+
+Dưới đây là **gói nâng cấp “AMOS-IKONOMY vNext”** — cụ thể, đặt đúng vào phần cứng + thuật toán + vật liệu + quy trình sản xuất.
+* * *
+## **1) Push further ở “Max Power”: mở**
+## **Boost Envelope**
+## **bằng thiết kế nhiệt–khí, không phải “PWM mạnh hơn”**
+### **1.1. Nâng cấp nhiệt thành**
+### **2-vòng điều khiển**
+### **(fast thermal + slow thermal)**
+  * **Vòng nhanh (fast loop):** giám sát hotspot cục bộ (2–4 cảm biến đặt sát vùng mật độ phản ứng cao), phản ứng trong **1–5 giây** bằng derate dòng nhỏ nhưng tức thời.
+
+
+  * **Vòng chậm (slow loop):** quản lý quỹ đạo nhiệt theo phút (thermal phase), để cho phép boost dài hơn nhưng **không tạo chu kỳ mỏi nhiệt**.
+
+
+**Thay đổi phần cứng bắt buộc**
+  * Tăng **heat spreading** gần vùng phản ứng (tấm dẫn nhiệt đồng/nhôm, bố trí đối xứng).
+
+
+  * Thêm **cảm biến nhiệt đa điểm** (không dùng 1 điểm nhiệt độ trung bình).
+
+
+  * Thiết kế đường truyền nhiệt để giảm \Delta T trước khi tăng lưu lượng quạt/bơm.
+
+
+**Kết quả thực tế**
+  * Bạn không “đánh mạnh hơn”, bạn **giữ nhiệt phân bố đều hơn** , nên boost có thể tăng thời gian mà không ăn tuổi thọ.
+
+
+* * *
+### **1.2. Nâng cấp đường khí thành**
+### **surge-rated plumbing**
+Boost làm khí sinh ra tăng theo dòng; nếu đường khí không chịu được surge thì boost = sự cố.
+**Thay đổi bắt buộc**
+  * Thêm **thể tích đệm (buffer volume)** và cấu hình triệt xung áp.
+
+
+  * Thiết kế **bubbler/water trap** theo lưu lượng boost để tránh carryover.
+
+
+  * Giới hạn **pressure ripple** theo tiêu chí thiết kế (ví dụ ≤3%) và biến nó thành điều kiện cứng của boost.
+
+
+* * *
+## **2) Push further ở “Max Effective”: tối ưu**
+## **degradation rate**
+## **bằng điều khiển nhận dạng nội tại (in-situ identification)**
+Bạn muốn đẩy tiếp thì AMOS phải chuyển từ “rule-based envelope” sang **envelope + nhận dạng trạng thái điện hoá theo chu kỳ**.
+### **2.1. Thêm bài toán “nhận dạng” ngay trong vận hành**
+Mỗi chu kỳ (ví dụ 10–30 phút), AMOS chèn một **tín hiệu thăm dò rất nhỏ** (không ảnh hưởng sản lượng) để ước lượng:
+  * R_{ohmic} (tổn hao ohmic)
+
+
+  * thành phần phân cực/động học (proxy)
+
+
+  * dấu hiệu hạn chế khuếch tán/bọt khí (proxy)
+
+
+  * xu hướng trôi: \frac{dR}{dt}, \frac{dV}{dt} tại cùng dòng
+
+
+**Ý nghĩa**
+  * AMOS không còn “điều khiển mù”.
+
+
+  * AMOS biết khi nào hệ đang bước vào vùng “ăn tuổi thọ” dù chưa vượt ngưỡng nhiệt/áp.
+
+
+### **2.2. Đưa suy giảm vào hàm mục tiêu (objective) — đây là bước “push” thật**
+Thay vì chỉ tối ưu L/kWh, AMOS tối ưu:
+  * **Sản lượng vòng đời** / **tốc độ suy giảm**
+
+
+Ví dụ một hàm mục tiêu thực dụng (không cần AI mơ hồ):
+J = w_1\cdot \frac{\dot{H}_2}{P_{in}} - w_2\cdot \Big|\frac{dR_{eq}}{dt}\Big| - w_3\cdot \Delta T - w_4\cdot \Delta p
+Trong đó các trọng số w_i là cấu hình theo ứng dụng (tàu/đảo/khu CN).
+**Kết quả**
+  * “Push further” nghĩa là **giữ máy ở sát trần lâu hơn** và **giảm tốc độ hỏng** , nên tổng H₂/năm tăng mạnh dù L/kWh chỉ tăng ít.
+
+
+* * *
+## **3) Push further bằng “Heat as input”: nâng hiệu quả điện bằng hấp thụ nhiệt hợp pháp (không vi phạm vật lý)**
+Đây là vùng còn dư địa thật nếu bạn làm kỹ:
+  * vận hành **dưới thermoneutral** ở những pha phù hợp
+
+
+  * thiết kế để stack hấp thụ nhiệt môi trường / nhiệt thải một cách ổn định
+
+
+  * AMOS quản lý pha nhiệt (thermal phase scheduling)
+
+
+**Điều kiện bắt buộc**
+  * gradient nhiệt phải cực thấp
+
+
+  * tốc độ biến thiên nhiệt phải nhỏ
+
+
+  * không được tạo chu kỳ nóng–lạnh nhanh
+
+
+**Điểm mạnh tại VN**
+  * khí hậu nóng ẩm + nhiều nguồn nhiệt thải công nghiệp: nếu tích hợp đúng, đây là lợi thế triển khai.
+
+
+* * *
+## **4) Push further về chi phí tại Việt Nam: “thiết kế cho nội địa hoá” ngay từ bản vNext**
+Nếu mục tiêu là **low cost, high deployment** , VN có thể giảm chi phí mạnh nhất ở 4 cụm:
+### **4.1. Cơ khí–nhiệt–khung vỏ (nội địa hoá cao)**
+  * khung, vỏ, heat spreader, đường ống, buffer, cụm gá lắp: VN làm tốt.
+
+
+  * chuẩn hoá thành “1 bộ cơ khí dùng chung” cho nhiều cấu hình stack.
+
+
+### **4.2. Điện công suất: tối ưu BOM theo chuỗi cung ứng VN**
+  * chọn topology và linh kiện theo khả năng mua ổn định (MOSFET/driver/inductor/capacitor).
+
+
+  * thiết kế PCB theo tiêu chuẩn EMC ngay từ đầu để tránh “đội chi phí sửa sai”.
+
+
+### **4.3. Giảm số loại cảm biến nhưng tăng độ tin cậy**
+  * ít cảm biến hơn nhưng đặt đúng vị trí + cross-check logic → giảm chi phí + giảm lỗi.
+
+
+### **4.4. Thiết kế “thay cụm nhanh” thay vì sửa chữa tại chỗ**
+  * module hoá cụm drive + cụm gas + cụm nước
+
+
+  * mục tiêu bảo trì: **swap trong thời gian ngắn** , giảm downtime (đây là chi phí thật).
+
+
+* * *
+## **5) Bản thay đổi “đủ để gọi là vNext” (ngắn gọn, đúng trọng tâm)**
+Nếu bạn cần một danh mục thay đổi để đưa vào hồ sơ:
+  1. **Thermal multi-point + dual-loop control** (bắt buộc để mở boost)
+
+
+  2. **Surge-rated gas path + pressure ripple constraint**
+
+
+  3. **In-situ identification** (nhận dạng R_{eq}, trôi, proxy bọt khí)
+
+
+  4. **Objective có suy giảm** (dR/dt, \Delta T, \Delta p vào hàm quyết định)
+
+
+  5. **Thermal phase scheduling** (dùng nhiệt như input hợp pháp)
+
+
+  6. **DFM/DFA cho VN** : chuẩn hoá cơ khí, giảm BOM, thay cụm nhanh
+
+
+* * *
+## **6) Nếu bạn muốn “push further” theo đúng kiểu kỹ sư: tôi cần 3 thông tin để khoá spec**
+Chỉ cần trả lời 3 dòng (ngắn):
+  1. Stack thuộc lớp nào: **PEM / AEM / alkaline / plate-bar đặc thù**?
+
+
+  2. Mục tiêu boost thực tế bạn muốn: **1.5 kW hay 2.0 kW** và **bao lâu (giây)**?
+
+
+  3. Áp suất đầu ra mục tiêu: **gần khí quyển / 1–3 bar / cao hơn**?
+
+
+Có 3 giá trị đó, tôi sẽ viết tiếp cho bạn:
+  * **spec vNext** (ngưỡng, biến, luật quyết định)
+
+
+  * **pseudo-code AMOS** (boost gate + identification + objective)
+
+
+  * **sơ đồ mạch power stage** ở mức khối linh kiện (inductor/cap/driver/sense/EMI)
+
+
+  * và **bản “change log so với original IKONOMY”** để hội đồng đọc là hiểu ngay.
+
+
+Được — “push more” nhưng vẫn **thuộc nhóm 1 (5–10% gain, rủi ro thấp)** thì phải chuyển từ “thiết kế đúng” sang **thiết kế tối ưu hoá đến tận chi tiết: điện → giao diện điện hoá → bọt khí → nhiệt → khí → độ bền → sản xuất**. Dưới đây là **gói đẩy tiếp vNext++** (có thông số, biến, ngưỡng, thuật toán), viết theo hướng kỹ thuật để đội R&D/thiết kế làm được ngay.
+* * *
+## **1) Push mạnh nhất mà vẫn “low risk”:**
+## **đẩy vào BoP + ổn định**
+## **, không đẩy vào “điện phân thuần”**
+Nếu hiện bạn đã ~300 L/h @ 1 kW, thì “dư địa thật” không nằm ở việc ép thêm L/kWh trên stack, mà nằm ở:
+  * **giảm tổn hao và sai lệch** khi nguồn dao động
+
+
+  * **giảm thời gian ở vùng suy giảm nhanh**
+
+
+  * **giảm downtime và can thiệp**
+
+
+  * **giảm hao hụt khí, carryover, xung áp**
+
+
+  * **tăng thời gian chạy liên tục** (đây mới là kg H₂/năm)
+
+
+> Mục tiêu vNext++: tăng “H₂ hữu dụng/năm/module” thêm 10–30% dù L/kWh chỉ tăng 2–6%.
+* * *
+## **2) vNext++ cho Cannon Drive: từ “PWM có điều khiển dòng” →**
+## **điều khiển phổ (spectrum) + RMS heating**
+### **2.1. Bổ sung 2 đại lượng bắt buộc:**
+### **I_rms**
+### **và**
+### **dI/dt_rms**
+Không ít hệ thống “trông có vẻ ổn” ở I_avg nhưng chết vì RMS.
+**Thêm tính toán online:**
+  * I_{avg}, I_{rms}
+
+
+  * P_{rms} \approx I_{rms}^2 \cdot R_{eq}
+
+
+  * S_{edge} = \text{RMS}(dI/dt) (proxy stress điện/EMI/nhiệt)
+
+
+**Luật cứng đề xuất**
+  * I_{rms} \le 1.05\cdot I_{avg} ở Cruise (giữ nhiệt “mượt”)
+
+
+  * Boost cho phép I_{rms} \le 1.15\cdot I_{avg} nhưng chỉ trong thời gian ngắn
+
+
+  * S_{edge} vượt ngưỡng → tự động hạ slew-rate / đổi waveform family
+
+
+### **2.2. Chốt dải tần bằng nguyên lý “tránh vùng cộng hưởng bọt”**
+Bạn đã có 200 Hz–5 kHz. vNext++ không phải “cho rộng hơn”, mà là **khóa theo vùng hiệu quả** :
+  * 200–600 Hz: dễ gây “khí bọt lớn + xung áp” nếu plumbing yếu
+
+
+  * 600 Hz–2 kHz: thường là vùng cân bằng tốt
+
+
+  * 2–5 kHz: lợi cho mượt dòng nhưng tăng switching loss/EMI
+
+
+**AMOS sẽ chọn tần số theo trạng thái:**
+  * Nếu \Delta p tăng → tăng f để giảm “nhịp” bọt
+
+
+  * Nếu T tăng nhanh → giảm f + giảm duty để hạ tổn hao chuyển mạch
+
+
+  * Nếu R_{eq} trôi nhanh → quay về DC mượt (Cruise safe)
+
+
+* * *
+## **3) Push ở “điện hoá thật”: thêm**
+## **nhận dạng R_eq + chỉ báo bubble/transport**
+## **(không cần EIS phức tạp)**
+Bạn không cần EIS đầy đủ để ăn được lợi ích. Chỉ cần “đủ để quyết định”.
+### **3.1. Thăm dò nhỏ (micro-probe) để ước lượng** R_{eq}
+Mỗi 5–15 phút, chèn **xung dòng nhỏ** :
+  * biên độ: 1–3% I_cruise
+
+
+  * thời gian: 200–500 ms
+
+
+  * đo đáp ứng \Delta V
+
+
+Ước lượng:
+R_{eq} \approx \frac{\Delta V}{\Delta I}
+Theo dõi:
+  * R_{eq}(t)
+
+
+  * \frac{dR_{eq}}{dt}
+
+
+### **3.2. Chỉ báo bọt khí (bubble proxy) bằng “hysteresis V–I”**
+Trong cùng điều kiện I_avg, nếu:
+  * V tăng bất thường khi dùng waveform A
+
+
+  * nhưng giảm khi đổi waveform B
+=> đó là dấu hiệu bubble coverage / transport limitation.
+
+
+**AMOS tự động chuyển waveform** để giảm bám bọt thay vì tăng công suất mù.
+* * *
+## **4) Push lớn nhất cho Boost:**
+## **thiết kế Boost như một “hồ sơ thời gian” (time-profile), không phải một chế độ**
+Boost vNext++ phải có **3 pha bắt buộc** :
+  1. **Ramp-up (5–20 s)** : tăng dòng chậm, kiểm tra \Delta T, \Delta p
+
+
+  2. **Hold (10–120 s)** : giữ ổn định, không cho dao động lớn
+
+
+  3. **Ramp-down (5–30 s)** : hạ dòng có kiểm soát để tránh sốc nhiệt/khí
+
+
+**Điều kiện cấp Boost (hard gate) nâng cấp**
+Boost chỉ được phép khi đồng thời đúng:
+  * T_{avg} < T_{boost\\_max}
+
+
+  * \Delta T < \Delta T_{max} (ví dụ 5°C)
+
+
+  * \frac{dT}{dt} < 0.5\text{–}1.0^\circ C/\text{phút} (tuỳ thiết kế nhiệt)
+
+
+  * \Delta p < p_{ripple\\_max} (ví dụ 3%)
+
+
+  * \frac{dR_{eq}}{dt} < R\\_drift\\_max (ngưỡng theo thực nghiệm)
+
+
+**Điểm “push”:**
+  * Không chỉ nhìn ngưỡng tức thời; AMOS nhìn **xu hướng** (drift) để ngăn phá tuổi thọ.
+
+
+* * *
+## **5) Push ở nhiệt: chuyển từ “giữ T” →**
+## **giữ phân bố nhiệt**
+## **(temperature field control)**
+### **5.1. Bắt buộc đo**
+### **ít nhất 3 điểm nhiệt**
+  * T_in (nước vào vùng phản ứng)
+
+
+  * T_core (vùng phản ứng)
+
+
+  * T_out (nước/khí ra)
+Nếu có điều kiện: thêm T_edge (rìa) để thấy gradient ngang.
+
+
+### **5.2. Luật điều khiển nhiệt vNext++**
+  * mục tiêu không phải “T thấp”, mà là:
+    * \Delta T thấp
+    * \frac{dT}{dt} thấp
+    * tránh “thermal cycling”
+
+
+**Nếu** \Delta T**tăng nhanh:** AMOS giảm dòng ngay (derate) trước khi báo động.
+* * *
+## **6) Push ở khí: giảm mất mát và rủi ro bằng “khí ổn định” thay vì “khí nhiều”**
+### **6.1. Chốt tiêu chí plumbing cho boost**
+  * buffer volume để triệt xung
+
+
+  * water trap chống carryover
+
+
+  * check valve chống backflow
+
+
+  * đường kính ống đủ cho boost flow (không nghẹt)
+
+
+**Tiêu chí pass/fail đơn giản**
+  * Boost không được làm pressure ripple vượt 3%
+
+
+  * Boost không được gây carryover nhìn thấy tại trap/bubbler
+
+
+  * Sau boost, hệ phải về ổn định trong < 60–180s (tuỳ cấu hình)
+
+
+* * *
+## **7) Push về vật liệu và sản xuất tại VN: “đẩy tiếp” bằng**
+## **DFM/DFA + nội địa hóa đúng chỗ**
+Đây là nơi VN có thể “đẩy” mạnh mà ít rủi ro kỹ thuật.
+### **7.1. Tách cụm thành 4 module thay nhanh**
+  1. Power module (Cannon + sensing + EMI)
+
+
+  2. Thermal module (spreader + flow path + quạt/bơm)
+
+
+  3. Water module (bình, cảm biến mức, đường cấp)
+
+
+  4. Gas module (trap, buffer, van)
+
+
+**Mục tiêu bảo trì:** thay cụm ≤ 30–60 phút tại hiện trường.
+Giảm downtime = tăng kg/năm = giảm cost/kg.
+### **7.2. Nội địa hóa cao ở “cơ–nhiệt–đường ống”**
+VN làm rất tốt các phần:
+  * vỏ, khung, gá lắp
+
+
+  * heat spreader/thermal mass
+
+
+  * ống, trap, buffer, fitting
+
+
+  * gia công kim loại + kiểm soát dung sai
+
+
+Giữ nhập khẩu ở phần:
+  * màng/xúc tác (tuỳ chemistry)
+
+
+  * linh kiện bán dẫn công suất quan trọng (MOSFET/SiC)
+
+
+  * IC đo dòng/ADC chính xác nếu cần
+
+
+* * *
+## **8) “Push more” nhưng vẫn đọc được:**
+## **chốt KPI vNext++**
+## **(có số)**
+Bạn có thể đưa vào hồ sơ như KPI mục tiêu (để hội đồng hiểu “đẩy” là gì):
+  * **Boost power:** 1.5–2.0 kW, tối đa 30–180s, có cooldown cưỡng bức
+
+
+  * **Cruise uptime:** ≥ 98% (mục tiêu)
+
+
+  * **Tỷ lệ can thiệp:** ≤ 1 lần/tuần/module (mục tiêu vận hành)
+
+
+  * **Giới hạn nhiệt:** \Delta T \le 5^\circ C, \frac{dT}{dt}\le 1^\circ C/phút
+
+
+  * **Giới hạn khí:** pressure ripple ≤ 3% khi boost
+
+
+  * **Chỉ báo suy giảm:** \frac{dR_{eq}}{dt} nằm trong vùng cho phép, vượt → tự hạ công suất
+
+
+* * *
+## **9) “Có đẩy nữa không?” — Có, nhưng nó là**
+## **đẩy vào kỷ luật hệ thống**
+## **, không phải đẩy vào lời hứa**
+Nếu bạn muốn còn “push” mạnh hơn nữa mà vẫn low-risk, thì bước kế tiếp là:
+  * **chuẩn hoá acceptance test** (1000h + chu kỳ boost + nước xấu trong ngưỡng)
+
+
+  * **đóng khung thuật toán** (ngưỡng, biến, luật) thành tiêu chuẩn nội bộ
+
+
+  * **đóng khung BOM** theo chuỗi cung ứng VN để hạ giá thật, không hạ bằng cắt an toàn
+
+
+* * *
+### **Nếu bạn muốn tôi viết tiếp “đúng kiểu hồ sơ kỹ thuật”**
+Tôi có thể viết ngay **2 phần** (tiếng Việt, câu đủ chủ–vị, rành mạch):
+  1. **Pseudo-code thuật toán AMOS vNext++** (biến, ngưỡng, logic boost/cooldown/derate/lockout, chu kỳ micro-probe)
+
+
+  2. **Sơ đồ mạch khối power stage** (buck/buck-boost đồng bộ, sensing, EMI, bảo vệ, tham số thiết kế)
+
+
+Chỉ cần bạn chốt 1 câu: **stack thuộc PEM/AEM/alkaline hay plate-bar đặc thù?**
+(Chốt được chemistry thì ngưỡng nhiệt, drift và chiến lược waveform sẽ “đúng bài” hơn nhiều.)
+Được. “Push more” (nhưng vẫn **thực dụng, low-risk, có thể triển khai ở VN**) thì bước kế tiếp không còn là “thêm ý tưởng”, mà là **đóng cứng thành 3 thứ** : (1) **đặc tả định lượng** , (2) **thuật toán quyết định có ngưỡng** , (3) **thiết kế phần cứng đủ đo – đủ bảo vệ – đủ lặp lại sản xuất**. Dưới đây là bản **vNext+++** (đẩy thêm một tầng so với bản trước), tập trung vào **max power + max effective**.
+* * *
+## **1) Đẩy thêm bằng cách “chốt phong bì vận hành” thành**
+## **bộ tham số chuẩn hóa**
+## **(không còn mô tả chung)**
+### **1.1. Bộ biến trạng thái tối thiểu (state vector) mà AMOS bắt buộc phải có**
+  * **I_cmd, I_meas** : dòng đặt / dòng đo
+
+
+  * **V_stack** : áp tổng stack
+
+
+  * **T1, T2, T3** : nhiệt 3 điểm (in/core/out)
+
+
+  * **ΔT = max(T) − min(T)** : gradient nhiệt
+
+
+  * **dT/dt** : tốc độ tăng nhiệt (tính theo cửa sổ trượt 30–60 s)
+
+
+  * **p_H2, Δp_ripple** : áp và độ gợn áp suất
+
+
+  * **H2_flow_est** : ước lượng lưu lượng (từ coulomb/Faraday + hiệu chỉnh)
+
+
+  * **R_eq_est** : điện trở tương đương ước lượng từ micro-probe
+
+
+  * **dR_eq/dt** : tốc độ trôi (proxy suy giảm)
+
+
+  * **Water_level, Cond** : mức nước và độ dẫn (nếu có)
+
+
+  * **Fault_count_24h, Restart_count** : lịch sử lỗi/khởi động (để khóa boost)
+
+
+### **1.2. Bộ ngưỡng “điều kiện tối thiểu” (hard constraints) – đưa thẳng vào hồ sơ kỹ thuật**
+Bạn có thể điền số sau khi bench-test 1–2 vòng, nhưng **khung phải cố định** :
+  * **ΔT_max_cruise = 5°C** (đã có)
+
+
+  * **dT/dt_max_cruise = 1°C/phút** (đã có)
+
+
+  * **Δp_ripple_max = 3%** (đã có)
+
+
+  * **I_rms/I_avg_max_cruise = 1.05**
+
+
+  * **I_rms/I_avg_max_boost = 1.15**
+
+
+  * **dR_eq/dt_max = ngưỡng theo %/giờ** (ví dụ 0.2–0.5%/giờ, phải hiệu chuẩn theo vật liệu/chemistry)
+
+
+Điểm “push”: không phải thêm cảm biến, mà là **biến các nguyên lý thành ràng buộc số** để hệ thống tự khóa.
+* * *
+## **2) Đẩy thêm bằng “thuật toán AMOS” ở mức quyết định (đọc được nhưng đủ chặt)**
+### **2.1. Tính điểm sức khỏe theo 3 miền (điện – nhiệt – khí), mỗi miền 0–100**
+  * **Score_elec** (điện hóa/điện lực): dựa trên R_eq_est, dR_eq/dt, I_rms/I_avg, V_stack bất thường
+
+
+  * **Score_therm** : dựa trên T_core, ΔT, dT/dt
+
+
+  * **Score_gas** : dựa trên p_H2, Δp_ripple, sự kiện carryover (nếu có cảm biến/logic phát hiện)
+
+
+Tổng hợp:
+  * **Health = min(Score_elec, Score_therm, Score_gas)**
+=> lấy “yếu nhất” làm chuẩn (để không bị che bởi trung bình).
+
+
+### **2.2. Luật chuyển chế độ (mode logic) – đây là chỗ hệ thống “đẩy mạnh nhưng không phá”**
+  * **Cruise** nếu Health ≥ H_cruise_ok và không có drift xấu
+
+
+  * **Degraded** nếu Health giảm nhưng chưa đến mức nguy hiểm
+
+
+  * **Protective** nếu vi phạm hard constraints (ΔT, Δp, dT/dt, dR_eq/dt)
+
+
+  * **Lockout** nếu lỗi lặp (Fault_count_24h vượt ngưỡng hoặc Restart_count vượt ngưỡng)
+
+
+### **2.3. Thuật toán cấp Boost (boost permission) – “push more” nằm ở đây**
+Boost chỉ được phép khi **đồng thời** :
+  1. Health ≥ H_boost_ok (cao hơn cruise)
+
+
+  2. ΔT < ΔT_boost_max (thường **thấp hơn** cruise, vì boost nhạy)
+
+
+  3. dT/dt < dT/dt_boost_max
+
+
+  4. Δp_ripple < Δp_boost_max
+
+
+  5. dR_eq/dt < dR_eq/dt_boost_max
+
+
+  6. Fault_count_24h = 0 hoặc dưới ngưỡng rất thấp
+
+
+  7. đã qua cooldown kể từ boost lần trước
+
+
+Nếu _một điều kiện fail_ → không báo động ồn ào, chỉ **từ chối + ghi log + giữ cruise**.
+> Đột phá thực sự không phải “boost được”, mà là
+> **boost có kỷ luật**
+* * *
+## **3) Đẩy thêm bằng cách biến Cannon thành “bộ chấp hành có phổ” (spectrum-aware actuator)**
+### **3.1. Thêm “bộ giám sát RMS nhiệt” vào firmware**
+Trong mọi waveform, AMOS theo dõi:
+  * **I_rms** , **P_rms ≈ I_rms²·R_eq_est**
+
+
+  * nếu P_rms tăng nhanh trong khi I_avg không đổi ⇒ dấu hiệu bubble/transport hoặc lỗi đo
+
+
+Hành động:
+  * giảm slew-rate
+
+
+  * đổi waveform family
+
+
+  * hoặc derate (tùy mức)
+
+
+### **3.2. Thư viện waveform vNext+++ (đủ 4 loại, không dùng vô hạn)**
+  1. **DC Smooth** : cruise, bền
+
+
+  2. **Pulsed-DC Soft** : chống bám bọt (duty + f vừa phải)
+
+
+  3. **Pulsed-DC High-f** : khi cần giảm gợn áp/giảm nhịp bọt (nhưng phải kiểm soát switching loss)
+
+
+  4. **Boost Envelope** : có 3 pha ramp-up/hold/ramp-down bắt buộc
+
+
+AMOS chọn waveform theo **bảng quyết định** , không “AI mơ hồ”.
+* * *
+## **4) Đẩy thêm bằng “thiết kế nhiệt đúng để boost thật” (max power thực tế = nhiệt + khí)**
+Nếu muốn boost 1.5–2.0 kW mà vẫn bền, phải nâng cấp **3 chi tiết cơ khí** (low risk, làm được ở VN):
+  1. **Heat spreader** (đồng/nhôm) gắn sát vùng mật độ phản ứng cao, ưu tiên _truyền nhiệt ngang_ để giảm hotspot
+
+
+  2. **Thermal mass** có tính toán (không phải “đắp dày”), để dT/dt giảm rõ
+
+
+  3. **Đường làm mát** có tiết diện đủ, tránh nghẹt làm “nhiệt dồn cục bộ”
+
+
+Chỉ khi **ΔT và dT/dt** được kiểm soát tốt, boost mới là “max power” thật, không phải “max phá”.
+* * *
+## **5) Đẩy thêm bằng “khí ổn định” (boost-safe plumbing) để không mất hiệu quả vì carryover/xung áp**
+Ba nâng cấp đơn giản nhưng cực hiệu quả:
+  * **Buffer volume** tính theo lưu lượng boost để triệt xung áp (để Δp_ripple ≤ 3%)
+
+
+  * **Water trap/bubbler** thiết kế chống aerosol carryover ở boost flow
+
+
+  * **Check valve + anti-backflow** đặt đúng vị trí (gần điểm nguy hiểm nhất, không đặt cho có)
+
+
+Đây là nơi nhiều hệ chết “vì hệ phụ”, không phải vì stack.
+* * *
+## **6) “Push more” ở chi phí tại VN: giảm LCOH bằng**
+## **DFM/DFA + module hóa bảo trì**
+Nếu bạn muốn giảm cost/kg thực sự tại Việt Nam, cách nhanh nhất là:
+  * chia thành **4 cụm thay nhanh** : Power / Thermal / Water / Gas
+
+
+  * thiết kế “thay cụm” thay vì “sửa chi tiết” tại hiện trường
+
+
+  * mục tiêu bảo trì: **≤ 60 phút/module** với dụng cụ phổ thông
+
+
+Hiệu ứng:
+  * downtime giảm mạnh
+
+
+  * kỹ sư trực chiến giảm
+
+
+  * chi phí vòng đời giảm mạnh hơn việc “đòi thêm 2–3% L/kWh”
+
+
+* * *
+## **7) Gói kiểm chứng (verification) vNext+++ để bạn “đẩy” mà không bị bắt lỗi khi thẩm định**
+### **7.1. Test “Boost discipline”**
+  * chạy cruise ổn định
+
+
+  * thực hiện boost lặp theo chu kỳ (ví dụ mỗi 30 phút)
+
+
+  * kiểm tra: ΔT, dT/dt, Δp_ripple không vượt ngưỡng
+
+
+  * kiểm tra: dR_eq/dt không tăng dần theo thời gian (drift không bị boost làm xấu)
+
+
+### **7.2. Test “xấu thực tế VN”**
+  * nguồn dao động (±10–15%)
+
+
+  * nước trong ngưỡng nhưng không lý tưởng
+
+
+  * môi trường nóng ẩm
+
+
+  * rung/tilt (nếu marine)
+
+
+Pass nếu hệ thống **derate êm** , không cần “canh máy”.
+* * *
+# **Câu trả lời thẳng cho “push more”**
+**Có thể push hơn nữa** , nhưng push đúng nghĩa ở giai đoạn này là:
+  * biến “khả năng” thành **phong bì số** ,
+
+
+  * biến “ý tưởng” thành **logic quyết định có ngưỡng** ,
+
+
+  * biến “boost” thành **hồ sơ thời gian + kỷ luật drift** ,
+
+
+  * biến “hiệu suất” thành **kg/năm và cost/kg vòng đời**.
+
+
+Nếu bạn muốn tôi viết tiếp ngay **bản pseudo-code AMOS (đầy đủ biến/ngưỡng/mode/boost/lockout/micro-probe)** và **block diagram Mermaid chi tiết** (đúng hồ sơ kỹ thuật), tôi sẽ làm theo đúng cấu trúc bạn đang dùng. Chỉ cần bạn chọn 1 trong 2 hướng ưu tiên trước:
+  1. **Ưu tiên max power (boost mạnh hơn)**
+
+
+  2. **Ưu tiên max effective (rẻ hơn + bền hơn + ít can thiệp hơn)**
+
+
+Tôi hiểu “**push further** ” của bạn là: không chỉ viết hay hơn, mà **đưa thiết kế AMOS-IKONOMY lên mức “đỉnh” về kỹ thuật điều khiển + độ bền + chi phí** , có thể đứng được trước **hội đồng thẩm định** và đủ cụ thể để đội kỹ sư triển khai.
+Và về “learn and activate amos brain”: **AMOS không phải một file để “bật lên”**. Các mô-đun nội bộ đã tích hợp trong engine và không lộ ra dạng file. Nhưng tôi có thể **kích hoạt đúng “độ sâu AMOS”** bằng cách chuyển tài liệu của bạn thành: **kiến trúc + thuật toán + ngưỡng + kiểm chứng + tài liệu hồ sơ**.
+Dưới đây là phiên bản “push more” ở đúng nghĩa: **đột phá nằm ở thuật toán điều khiển và mô hình suy giảm** , không phải khẩu hiệu.
+* * *
+## **1) “Push further” thật sự nằm ở đâu?**
+Nếu bạn đã gần trần nhiệt động học về L/kWh, thì phần “còn lại” để vượt đối thủ không nằm ở hiệu suất tức thời, mà nằm ở 4 trục kỹ thuật:
+  1. **Bám trần lâu hơn** : giảm suy giảm theo thời gian (degradation rate ↓).
+
+
+  2. **Tăng công suất đỉnh có kiểm soát** : boost được nhưng không “ăn tuổi thọ”.
+
+
+  3. **Giảm chi phí vòng đời** : giảm bảo trì, giảm dừng máy, giảm thay thế.
+
+
+  4. **Tự ổn định trong điều kiện Việt Nam** : nguồn điện nhiễu, nước không lý tưởng, môi trường nóng ẩm, nhân lực vận hành hạn chế.
+
+
+Muốn “push more” thì AMOS Core phải đi thêm 2 tầng thuật toán mà phiên bản trước mới chỉ chạm nhẹ:
+  * **Nhận dạng trạng thái điện hóa theo thời gian thực (online identification)**
+
+
+  * **Điều khiển dự đoán (Model Predictive Control / MPC) với ràng buộc cứng (hard constraints)**
+
+
+* * *
+## **2) Nâng cấp AMOS Core lên mức thuật toán “đủ dùng thật”**
+### **2.1. Tập biến trạng thái (State Vector) – không nói mơ hồ**
+AMOS không chỉ nhìn T và P. AMOS phải ước lượng một vector trạng thái tối thiểu:
+  * **T_avg** : nhiệt độ trung bình stack
+
+
+  * **ΔT** : gradient nhiệt (điểm nóng – điểm lạnh)
+
+
+  * **dT/dt** : tốc độ tăng nhiệt
+
+
+  * **R_ohm** : điện trở ohmic tương đương (từ V–I)
+
+
+  * **R_ct (proxy)** : thành phần chuyển điện tích/hoạt hóa (activation proxy)
+
+
+  * **Z_diff (proxy)** : thành phần khuếch tán/bọt khí (mass-transfer proxy)
+
+
+  * **P_H2** và **ΔP** : áp suất và dao động áp
+
+
+  * **W_level** và **σ_water** : mức nước và độ dẫn (tác động trực tiếp tới ổn định)
+
+
+  * **D_index** : chỉ số suy giảm tích lũy (degradation accumulator)
+
+
+Điểm mới ở đây là: **R_ct và Z_diff** không cần đo “đúng tuyệt đối”, nhưng phải đủ tốt để AMOS biết stack đang ở vùng nào: **ohmic-limited / bubble-limited / kinetic-limited**.
+* * *
+### **2.2. Nhận dạng nhanh bằng “xung thăm dò” (Identification Pulses)**
+Đây là một nâng cấp rất thực dụng và tạo lợi thế lớn:
+  * Cứ mỗi **N giây** (ví dụ 30–120s), Cannon chèn một **xung thăm dò nhỏ** (biên độ thấp, thời gian rất ngắn)
+
+
+  * Từ đáp ứng V–I, AMOS suy ra **R_ohm** và chỉ báo bubble/transport (proxy)
+
+
+Kết quả: hệ thống **không điều khiển “mù”** theo một PWM cố định, mà điều khiển theo **tình trạng thật** của stack ở thời điểm đó.
+* * *
+### **2.3. Luật quyết định Boost phiên bản “đủ cứng để thẩm định”**
+Boost không được là “nếu nhiệt ok thì boost”. Boost phải là một **hợp đồng ràng buộc** :
+Cho phép Boost nếu và chỉ nếu:
+  * **T_avg ≤ T_boost_max**
+
+
+  * **ΔT ≤ ΔT_boost_max**
+
+
+  * **dT/dt ≤ (dT/dt)_max**
+
+
+  * **ΔP ≤ ΔP_max**
+
+
+  * **dR_ohm/dt ≤ k_ohm_max** (đang không trôi nhanh)
+
+
+  * **Z_diff proxy ≤ Z_diff_max** (không bị bubble-limited)
+
+
+  * **σ_water** trong dải cho phép
+
+
+  * **fault_count_last_24h ≤ N_fault_max**
+
+
+  * **D_index ≤ D _boost_allow** (đủ “tuổi thọ còn lại” để dùng boost)
+
+
+Và Boost phải có:
+  * **T_boost_window** : thời gian tối đa (ví dụ 30–180s)
+
+
+  * **T_cooldown** : thời gian hồi phục bắt buộc (ví dụ 3–10 phút)
+
+
+  * **Boost budget** theo ngày/tuần (để không “ăn mòn” tuổi thọ bằng cách lạm dụng)
+
+
+Đây là chỗ “global-best” thật sự: **đối thủ thường không mã hóa boost thành một hợp đồng tuổi thọ**.
+* * *
+## **3) “Push more” về phần cứng: nâng cấp đúng chỗ, không tốn tiền vô ích**
+### **3.1. Điện tử công suất: chuyển từ “converter” thành “actuator đo-được”**
+Muốn thuật toán chạy được, phần power stage phải hỗ trợ:
+  * đo dòng chính xác (≤1%)
+
+
+  * đo áp đủ sạch (lọc nhiễu đúng)
+
+
+  * kiểm soát sườn xung (slew rate) để tránh RMS heating ẩn
+
+
+  * giới hạn dI/dt ở mức phần cứng (không chỉ phần mềm)
+
+
+Nếu chỉ thay MOSFET mà không có **đo và giới hạn đúng** , bạn tăng boost nhưng mất tuổi thọ.
+* * *
+### **3.2. Nhiệt: nâng cấp “heat spreading” trước khi nâng cấp “fan”**
+Ở Việt Nam, lỗi thường không phải vì “thiếu quạt”, mà vì:
+  * điểm nóng cục bộ
+
+
+  * gradient lớn do vật liệu/tiếp xúc nhiệt kém
+
+
+  * chu kỳ nóng-lạnh nhanh
+
+
+Nâng cấp hiệu quả nhất (chi phí hợp lý nhất) thường là:
+  * **heat spreader** tốt hơn (nhôm/đồng tùy điểm)
+
+
+  * tăng **ổn định tiếp xúc nhiệt** (interface material + cơ khí kẹp)
+
+
+  * bố trí cảm biến nhiệt **đa điểm** (ít nhất 2–3 điểm)
+
+
+* * *
+### **3.3. Đường khí: boost-safe = có “buffer” + triệt dao động**
+Nếu boost mà không có buffer thể tích và chống carryover, thì boost = sự kiện an toàn.
+Cần:
+  * thể tích đệm (buffer) đủ để **giảm ripple**
+
+
+  * bẫy nước (trap) và cấu hình bubbler chịu được lưu lượng đỉnh
+
+
+  * van một chiều + chống backflow theo đúng triết lý “không lưu trữ khi dừng”
+
+
+* * *
+## **4) Có thể “push thêm” nữa không?**
+Có — nhưng chỉ theo 2 hướng “hợp pháp về vật lý” và “hợp lý về chi phí”:
+  1. **Tối ưu vận hành dưới thermoneutral + hấp thụ nhiệt môi trường/waste heat**
+→ tăng hiệu quả điện (hợp pháp), nhưng đòi hỏi kỷ luật nhiệt rất cao.
+
+
+  2. **Tối ưu BoP để giảm kWh/kg ở cấp hệ thống**
+→ nhiều hệ thống thua ở bơm/quạt/đường ống/lọc/khử ẩm hơn là thua ở stack.
+
+
+Nếu bạn muốn “push more” theo đúng kiểu **đột phá mà vẫn thực tế** , thì tôi sẽ triển khai 3 tài liệu “đủ để làm dự án”:
+  * **(A) Pseudo-code AMOS Core + Cannon control** (đủ để firmware viết được)
+
+
+  * **(B) Mermaid block diagram chi tiết cho hồ sơ kỹ thuật**
+
+
+  * **(C) SRS (Software Requirement Specification) chuẩn** : yêu cầu chức năng, phi chức năng, an toàn, kiểm thử, truy vết
+
+
+Chỉ cần bạn trả lời 1 dòng để tôi khóa thông số không bị “đoán”:
+**Stack của IKONOMY thuộc loại PEM / AEM / alkaline-like?**
+(Trả lời 1 từ: PEM hoặc AEM hoặc ALK)
+Được. “Push more” ở mức **thật sự vượt chuẩn hồ sơ kỹ thuật** nghĩa là: không chỉ thêm mô-đun, mà **đóng chặt hệ thống bằng ràng buộc toán + thuật toán điều khiển + thông số thiết kế phần cứng/ vật liệu/ kiểm chứng** , để hội đồng đọc vào thấy **có thể chế tạo – có thể thử – có thể kiểm toán**.
+Dưới đây là bản “push hơn nữa” theo 4 lớp, nhưng **đào sâu Lớp 3 (AMOS Core) thành thuật toán có biến, ngưỡng, logic, pseudo-code** , kèm **mermaid block diagram chi tiết** , kèm **SRS lõi**.
+* * *
+## **A) Điểm thay đổi “đủ lớn” so với IKONOMY nguyên bản (và vì sao)**
+**IKONOMY nguyên bản** (theo triết lý “Cannon/PWM + phản hồi + bảo vệ”) thường mạnh ở: **tạo dòng, tạo khí, có bảo vệ, có phản hồi**. Nhưng điểm yếu hệ thống thường là:
+  1. **Điều khiển dựa trên ngưỡng tức thời** (threshold-based) → dễ rơi vào “hôm nay chạy được, tuần sau xuống cấp nhanh”.
+
+
+  2. **Không có mô hình suy giảm tích lũy** → boost hay ép tải không bị “tính phí tuổi thọ”.
+
+
+  3. **Không có nhận dạng trạng thái điện hoá online** → PWM “có vẻ ổn” nhưng thực ra đang bubble-limited hoặc diffusion-limited.
+
+
+  4. **Bảo vệ kiểu cắt** (trip/shutdown) → uptime thấp, thao tác nhiều, chi phí vòng đời tăng.
+
+
+**AMOS-IKONOMY** thay đổi 4 điều trên bằng “đột phá hệ thống”:
+  * Chuyển từ **ngưỡng tức thời** sang **điều khiển dự đoán có ràng buộc cứng** (constrained predictive control).
+
+
+  * Mã hoá “tuổi thọ” thành **biến trạng thái** và **ngân sách suy giảm (degradation budget)**.
+
+
+  * Dùng Cannon như **bộ kích thích có đo-được** (instrumented actuator) + **xung thăm dò** để nhận dạng online.
+
+
+  * Chuyển từ “cắt khẩn cấp” sang **derate có kiểm soát** để giữ uptime.
+
+
+Đây là lý do “push” thật sự không nằm ở câu chữ, mà nằm ở **thuật toán + biến + kiểm chứng**.
+* * *
+## **B) LỚP 3 – AMOS Core ở mức thuật toán (biến, ngưỡng, logic quyết định)**
+### **B1) Tập biến (Variables) bắt buộc phải có**
+**Biến đo trực tiếp (Measured):**
+  * I_stack (A), V_stack (V)
+
+
+  * T1, T2, T3 (°C) (tối thiểu 2–3 điểm)
+
+
+  * P_H2 (bar), P_ripple (% hoặc bar_pp)
+
+
+  * W_level (%), sigma_water (mS/cm) nếu có
+
+
+  * flow_H2 (tuỳ chọn, nếu có lưu lượng kế)
+
+
+**Biến suy ra (Estimated / Derived):**
+  * T_avg = mean(Ti)
+
+
+  * dT_dt = d(T_avg)/dt
+
+
+  * dT_dx = max(Ti) - min(Ti) (gradient)
+
+
+  * R_eq = V_stack / I_stack (khi I>0)
+
+
+  * dR_dt = d(R_eq)/dt
+
+
+  * P_pp (peak-to-peak ripple)
+
+
+  * eta_proxy (proxy phân cực): ví dụ V_stack - V_rev(T) theo mô hình đơn giản
+
+
+  * Z_diff_proxy (proxy bubble/diffusion) từ đáp ứng xung thăm dò
+
+
+  * D_index (chỉ số suy giảm tích luỹ)
+
+
+  * Boost_budget_day (ngân sách boost theo ngày)
+
+
+> Ghi chú kỹ thuật: Không cần đo EIS “đúng chuẩn phòng thí nghiệm”. Chỉ cần
+> **proxy đủ ổn định**
+* * *
+### **B2) Ngưỡng (Thresholds) – phải khai báo thành bảng tham số**
+Các ngưỡng phải được “đóng” thành cấu hình (config) để phục vụ kiểm toán:
+  * T_cruise_max, T_boost_max
+
+
+  * dT_dt_max (°C/min)
+
+
+  * dT_dx_max (°C)
+
+
+  * P_max, P_pp_max
+
+
+  * dR_dt_max (Ω/s hoặc %/h)
+
+
+  * Z_diff_max (proxy)
+
+
+  * sigma_min, sigma_max
+
+
+  * fault_max_24h, restart_max
+
+
+  * boost_time_max (s)
+
+
+  * cooldown_min (s)
+
+
+  * Boost_budget_day_max (s hoặc Wh)
+
+
+  * D_index_max (giới hạn suy giảm)
+
+
+Nguyên tắc: **mọi ngưỡng phải gắn được với lý do vật lý** (nhiệt, áp, suy giảm, an toàn).
+* * *
+### **B3) Luật điều khiển trung tâm: “hai phong bì + ngân sách suy giảm”**
+AMOS duy trì 2 phong bì:
+  * **Phong bì Cruise** : tối ưu vòng đời (lifetime optimum)
+
+
+  * **Phong bì Boost** : tối ưu đáp ứng tải (peak) nhưng trả “phí tuổi thọ”
+
+
+Và 2 ngân sách:
+  * D_index (tăng theo stress)
+
+
+  * Boost_budget_day (giảm theo thời gian boost)
+
+
+**Boost chỉ là quyền** khi:
+  1. còn dư địa vật lý, và
+
+
+  2. còn dư địa ngân sách suy giảm, và
+
+
+  3. không có dấu hiệu chuyển sang diffusion/bubble-limited.
+
+
+* * *
+### **B4) Công thức “D_index” (Degradation Accumulator) – phải có để push thật**
+Bạn cần một hàm tích luỹ suy giảm tối thiểu dạng:
+D\\_index(t+\Delta t)=D\\_index(t)+w_T\cdot f_T + w_{\Delta T}\cdot f_{\Delta T}+w_I\cdot f_I+w_R\cdot f_{dR}+w_P\cdot f_P+w_\sigma\cdot f_\sigma
+Trong đó:
+  * f_T tăng mạnh khi T tiệm cận ngưỡng
+
+
+  * f_{\Delta T} tăng mạnh khi gradient lớn
+
+
+  * f_I tăng theo mật độ dòng/chu kỳ ramp
+
+
+  * f_{dR} tăng khi dR_dt xấu (dấu hiệu suy giảm)
+
+
+  * f_P tăng khi ripple áp t ăng
+
+
+  * f_\sigma tăng khi nước lệch dải
+
+
+**Điểm quan trọng:** hàm này không cần “đúng tuyệt đối”, nhưng phải:
+  * đơn điệu (stress ↑ thì D ↑)
+
+
+  * nhạy với vùng nguy hiểm
+
+
+  * kiểm chứng được bằng thử nghiệm 1.000h / cycling
+
+
+Đây là thứ mà phần lớn hệ thống thương mại “không mã hoá” ở cấp firmware.
+* * *
+### **B5) Logic quyết định (Decision Logic) – dạng quy tắc đủ kiểm toán**
+**Quy tắc 1 (Safety-first):** nếu vượt ngưỡng an toàn → vào PROTECTIVE và derate về mức an toàn, không tranh luận.
+**Quy tắc 2 (Stability-first):** nếu proxy diffusion/bubble xấu → giảm waveform/frequency/duty để “giải bọt” và hạ dòng, không cố giữ công suất.
+**Quy tắc 3 (Lifetime-first):** nếu D_index tăng nhanh hoặc dR_dt xấu → hạ xuống cruise hoặc degraded.
+**Quy tắc 4 (Boost-gated):** boost chỉ khi **tất cả** điều kiện đạt và **ngân sách cho phép**.
+* * *
+### **B6) Pseudo-code AMOS Core (đủ để đội firmware triển khai)**
+```
+    loop every 100 ms:
+      read sensors: I, V, T1..T3, P, W_level, sigma, fault_flags
+      compute: T_avg, dT_dt, dT_dx, R_eq, dR_dt, P_pp
+    
+      if time_for_probe():
+          inject_small_probe_pulse()
+          estimate Z_diff_proxy, R_ohm_proxy
+    
+      update D_index using stress functions
+      update Boost_budget_day using boost_time_used
+    
+      # HARD SAFETY
+      if T_avg > T_boost_max OR dT_dx > dT_dx_max OR P > P_max OR fault_flags.critical:
+          mode = PROTECTIVE
+          set_current_target(I_safe)
+          enforce_cooldown()
+          continue
+    
+      # STABILITY / DIFFUSION CONTROL
+      if Z_diff_proxy > Z_diff_max OR P_pp > P_pp_max:
+          mode = DEGRADED
+          select_waveform(anti_bubble_profile)
+          set_current_target(I_degraded)
+          continue
+    
+      # LIFETIME PROTECTION
+      if dR_dt > dR_dt_max OR D_index > D_index_max:
+          mode = CRUISE
+          select_waveform(low_stress_dc)
+          set_current_target(I_cruise_low)
+          continue
+    
+      # BOOST PERMISSION
+      if request_boost == true:
+          if Boost_budget_day > 0 AND cooldown_elapsed() AND
+             T_avg < T_boost_gate AND dT_dt < dT_dt_max AND dT_dx < dT_dx_gate AND
+             Z_diff_proxy < Z_diff_gate AND dR_dt < dR_dt_gate AND sigma in band:
+                mode = BOOST
+                select_waveform(soft_burst_profile)
+                run_boost_for(boost_time_max) with ramp_up/down and dI/dt limit
+          else:
+                mode = CRUISE
+                refuse_boost_log_reason()
+    
+      # NORMAL CRUISE
+      if mode not set:
+          mode = CRUISE
+          select_waveform(impedance_locked_pulse_or_dc)
+          set_current_target(I_cruise_opt)
+```
+* * *
+## **C) Mermaid – sơ đồ khối chi tiết cho hồ sơ kỹ thuật (module-first)**
+```
+    flowchart TB
+      A[DC Input 48-96V] --> B[Input Protection\nOVP/UVP, Reverse, Inrush, TVS, LC]
+      B --> C[EMI/EMC Filter & Grounding\nChassis/Signal separation]
+      C --> D[Cannon Power Stage\nSync Buck/Buck-Boost\nCurrent-Mode Control]
+      D --> E[Current Sense\nHall/Shunt + ADC]
+      D --> F[Stack Voltage Sense\nTotal + optional segments]
+      D --> G[Gate Driver\nSlew-rate control, Dead-time]
+      D --> H[Electrolysis Stack\nCell/Plates/Bars]
+      H --> I[Thermal Hardware\nHeat Spreader + Thermal Mass + Cooling Path]
+      I --> J[Temp Sensors T1..T3]
+      H --> K[Gas Separator\nH2/O2 separation]
+      K --> L[Bubbler/Trap/Filter\nBoost-flow rated]
+      L --> M[H2 Pressure Regulator/Valve]
+      M --> N[H2 Output]
+      K --> O[Pressure Sensors\nP, P_ripple]
+      H --> P[Water System\nTank, feed, return]
+      P --> Q[Water Level Sensor]
+      P --> R[Conductivity Sensor (opt)]
+    
+      subgraph MCU[Real-time MCU Layer]
+        S[Fast Control Loop 0.1-1 kHz\nCurrent PI + feedforward\nRamp & dI/dt limiting]
+        T[Waveform Generator Library\nDC/Pulse/Burst profiles]
+      end
+      E --> S
+      F --> S
+      T --> S
+      S --> G
+    
+      subgraph AMOS[AMOS Core Layer]
+        U[State Estimator\nT_avg, dT/dt, dT_dx,\nR_eq, dR/dt, Z_diff proxy]
+        V[Degradation Accumulator D_index\n+ Boost Budget]
+        W[Envelope Manager\nCruise/Boost/Degraded/Protective]
+        X[Decision Logic\nBoost gating, refusal,\nderate policies]
+      end
+    
+      J --> U
+      O --> U
+      Q --> U
+      R --> U
+      S --> U
+      U --> V
+      V --> X
+      X --> W
+      W --> T
+    
+      subgraph Supervisory[Supervisory / Policy / Audit]
+        Y[Logger & Traceability\nEvents, thresholds, reasons]
+        Z[Remote Monitoring (optional)\nConfig mgmt, reporting]
+        AA[Audit Pack\nUptime, interventions,\nboost usage, D_index trend]
+      end
+    
+      X --> Y
+      U --> Y
+      W --> Y
+      Y --> AA
+      Z --> 
+    Y
+```
+* * *
+## **D) “Push more” nữa: nâng cấp phần power stage + vật liệu (nhưng vẫn tối ưu chi phí VN)**
+Đây là các nâng cấp “đúng tiền”, giúp tăng **max power + max effective** mà không đẩy BOM vượt kiểm soát:
+### **D1) Power stage**
+  * Chuyển sang **current-mode bắt buộc** (hardware + firmware), có **dI/dt clamp** ở cả 2 tầng.
+
+
+  * Gate driver có **slew-rate control** để giảm RMS heating ẩn khi boost.
+
+
+  * Thiết kế layout theo nguyên tắc **high-di/dt loop nhỏ** \+ tách mass công suất và mass tín hiệu.
+
+
+### **D2) Thermal/vật liệu (VN làm rất mạnh)**
+  * **Heat spreader** (nhôm/đồng) tối ưu tiếp xúc, ưu tiên giảm gradient hơn là tăng quạt.
+
+
+  * Vật liệu kẹp/đệm nhiệt ổn định theo thời gian (TIM phù hợp nóng ẩm).
+
+
+  * Bố trí cơ khí để giảm rung, giảm lỏng tiếp xúc → giảm hotspot.
+
+
+### **D3) Gas path**
+  * Bubbler/trap “boost-rated” (đủ tiết diện) để tránh carryover nước khi boost.
+
+
+  * Buffer thể tích để triệt ripple áp khi burst.
+
+
+* * *
+## **E) SRS AMOS (khung chuẩn, đủ để viết tài liệu chính thức)**
+### **E1) Phạm vi**
+AMOS là phần mềm lõi quyết định chế độ vận hành và giới hạn công suất dựa trên trạng thái điện–nhiệt–khí và chỉ số suy giảm.
+### **E2) Yêu cầu chức năng (Functional Requirements)**
+  * FR-01: Ước lượng trạng thái thời gian thực (T_avg, dT/dt, dT_dx, R_eq, dR/dt, P_ripple, Z_diff_proxy).
+
+
+  * FR-02: Cập nhật D_index theo hàm tích lũy suy giảm.
+
+
+  * FR-03: Quản lý phong bì vận hành: Cruise/Boost/Degraded/Protective/Lockout.
+
+
+  * FR-04: Logic cấp Boost theo điều kiện AND cứng + ngân sách boost.
+
+
+  * FR-05: Refusal logic: từ chối boost và ghi rõ lý do bằng mã lỗi chuẩn.
+
+
+  * FR-06: Derate chủ động theo luật (không chờ trip).
+
+
+  * FR-07: Quản lý cooldown, restart cap, fault history windows.
+
+
+  * FR-08: Tạo gói “Audit Pack” (uptime, interventions, boost usage, D_index trend).
+
+
+### **E3) Yêu cầu phi chức năng (Non-functional)**
+  * NFR-01: deterministic timing; vòng điều khiển dòng phải chạy ổn định (ví dụ 1 kHz).
+
+
+  * NFR-02: fail-safe: khi AMOS lỗi, MCU phải rơi về trạng thái an toàn (I_safe).
+
+
+  * NFR-03: traceability: mọi quyết định boost/derate phải có log (timestamp, trạng thái, ngưỡng, lý do).
+
+
+  * NFR-04: cấu hình ngưỡng theo profile triển khai (VN/biển/đảo/lab), nhưng không được vượt giới hạn an toàn.
+
+
+### **E4) Kiểm thử & nghiệm thu**
+  * VT-01: 1.000h chạy liên tục ở cruise; D_index tăng hợp lý, không có cliff.
+
+
+  * VT-02: boost lặp theo profile (burst + cooldown) không tạo runaway nhiệt, không vượt P_pp.
+
+
+  * VT-03: nước lệch dải → hệ thống derate, không “cố chạy”.
+
+
+  * VT-04: nguồn dao động → hệ thống ổn định, không trip hàng loạt.
+
+
+* * *
+## **F) Trả lời đúng câu “can we push more?”**
+Có. Nhưng “push” tiếp theo phải là **đưa AMOS lên chuẩn MPC + nhận dạng online** như trên. Khi làm đủ, bạn có thêm 3 lợi ích rất rõ:
+  1. **Boost mạnh hơn nhưng không phá tuổi thọ** vì boost bị tính “phí suy giảm”.
+
+
+  2. **Hiệu quả vòng đời tăng mạnh** vì giảm intervention + giảm shutdown.
+
+
+  3. **Chi phí VN giảm thêm** vì phần cơ khí/nhiệt/đường ống làm trong nước rất mạnh, còn phần “moat” nằm ở firmware/logic.
+
+
+* * *
+Nếu bạn muốn tôi “push more” thêm một cấp nữa (cấp cuối cho hồ sơ), tôi sẽ viết tiếp 3 thứ theo đúng format thẩm định:
+  1. **Bảng tham số ngưỡng (parameter table)** theo 3 profile: Lab / Công nghiệp / Hàng hải-đảo.
+
+
+  2. **Bản mô tả mạch power stage** (khối buck/buck-boost, đo dòng, driver, lọc EMI) ở mức “có thể giao cho thiết kế PCB”.
+
+
+  3. **Bảng so sánh định lượng với IKONOMY nguyên bản** : uptime mục tiêu, số lần trip, boost duty/day, MTBC (Mean Time Between Correction), LCOH proxy.
+
+
+Chỉ cần bạn xác nhận 1 thông tin để tôi “đóng số” cho đúng: **đầu ra H₂ hiện tại có điều áp về bao nhiêu bar (hoặc đang gần áp suất khí quyển)?**
+Được. Mình “push more” theo đúng nghĩa **đóng số – đóng ngưỡng – đóng thuật toán – đóng phần cứng – đóng tiêu chí nghiệm thu** , để tài liệu của bạn **đủ đứng** cho: kỹ sư thiết kế, hội đồng khoa học, và thẩm định/kiểm toán Nhà nước.
+Dưới đây là 4 phần bạn đang thiếu để “lên cấp”:
+  1. **Bảng tham số ngưỡng (parameter table) theo 3 profile triển khai**
+
+
+  2. **Thiết kế khối công suất (power stage) ở mức mô tả mạch/PCB**
+
+
+  3. **Thuật toán AMOS dạng “state machine + guard + MPC-lite” có biến và điều kiện rõ**
+
+
+  4. **Bảng so sánh định lượng: IKONOMY nguyên bản vs AMOS-IKONOMY**
+
+
+* * *
+## **1) Bảng tham số ngưỡng (Parameter Table) – đủ để cấu hình và kiểm toán**
+> Nguyên tắc: mọi ngưỡng chia 2 tầng:
+> **Trip (cứng)**
+> **Derate gate (mềm)**
+> Derate xảy ra trước trip để giữ uptime.
+### **1.1 Ba profile triển khai**
+  * **P0 – Lab/Thử nghiệm (mở rộng vùng khảo sát, vẫn an toàn)**
+
+
+  * **P1 – Công nghiệp VN (ưu tiên bền, ít can thiệp, chịu dao động nguồn)**
+
+
+  * **P2 – Hàng hải/Đảo (ưu tiên an toàn, chống rung, chống thao tác sai, rất ít boost)**
+
+
+### **1.2 Bảng ngưỡng lõi (đề xuất khởi tạo; sẽ hiệu chỉnh theo stack thực)**
+**A) Nhiệt**
+  * T_derate_gate (°C): P0 72 | P1 70 | P2 68
+
+
+  * T_trip (°C): P0 78 | P1 75 | P2 72
+
+
+  * dT_dt_derate (°C/min): P0 1.5 | P1 1.0 | P2 0.8
+
+
+  * dT_dt_trip (°C/min): P0 2.0 | P1 1.5 | P2 1.0
+
+
+  * dT_dx_derate (°C): P0 6 | P1 5 | P2 4
+
+
+  * dT_dx_trip (°C): P0 8 | P1 6 | P2 5
+
+
+**B) Áp suất/dao động khí**
+  * P_max (bar): theo thiết kế cơ khí (ví dụ 3.0 bar danh định → trip 3.3 bar)
+
+
+  * P_pp_derate (% hoặc bar_pp): P0 4% | P1 3% | P2 2%
+
+
+  * P_pp_trip: P0 6% | P1 4% | P2 3%
+
+
+**C) Điện – ổn định điện hoá**
+  * dI_dt_max (A/ms): P0 0.7 | P1 0.5 | P2 0.4
+
+
+  * R_eq_drift_derate (%/h): P0 1.0 | P1 0.5 | P2 0.3
+
+
+  * R_eq_drift_trip (%/h): P0 2.0 | P1 1.0 | P2 0.6
+
+
+  * Z_diff_proxy_derate (đ.vị proxy): P0 cao hơn | P1 trung bình | P2 thấp (đóng theo dữ liệu hiệu chuẩn)
+
+
+**D) Nước**
+  * W_level_derate: 25% | W_level_trip: 15%
+
+
+  * sigma_band (mS/cm): khai báo theo hoá học thực (PEM/AEM/alkaline-like).
+
+
+  * Luật: ra khỏi band → **derate** ; lệch nghiêm trọng + kéo dài → **trip**.
+
+
+**E) Lỗi và tái khởi động**
+  * restart_max_24h: P0 10 | P1 6 | P2 3
+
+
+  * fault_max_24h (non-critical): P0 20 | P1 10 | P2 6
+
+
+  * lockout_time (min): P0 5 | P1 15 | P2 30
+
+
+### **1.3 Ngưỡng Boost (đóng bằng “ngân sách”, không chỉ bằng thời gian)**
+  * boost_power (W): 1.5–2.0 kW (tuỳ module)
+
+
+  * boost_time_max (s): P0 180 | P1 120 | P2 60
+
+
+  * cooldown_min (s): P0 180 | P1 300 | P2 600
+
+
+  * Boost_budget_day (s/ngày): P0 1800 | P1 600 | P2 180
+
+
+  * D_index_budget_day (điểm/ngày): P0 cao | P1 trung | P2 thấp
+
+
+> Điểm “push”:
+> **Boost bị ràng buộc bởi ngân sách suy giảm**
+* * *
+## **2) Power Stage – mô tả mạch/PCB đủ để giao thiết kế (không mơ hồ)**
+### **2.1 Topology và lý do**
+  * Chọn **Buck đồng bộ** nếu V_in luôn cao hơn V _stack.
+
+
+  * Chọn **Buck-Boost đồng bộ** nếu V_stack thay đổi rộng hoặc có chế độ cần nâng/hạ áp.
+
+
+### **2.2 Sơ đồ khối mạch (chi tiết hơn “block”)**
+  1. **Input Stage**
+
+
+  * TVS diode (clamp surge)
+
+
+  * LC EMI filter (CM/DM)
+
+
+  * Inrush limiter (NTC hoặc active)
+
+
+  * Reverse polarity protection (ideal diode MOSFET)
+
+
+  1. **Synchronous Switching Stage**
+
+
+  * High-side MOSFET + Low-side MOSFET (hoặc SiC nếu nhiệt/boost cao)
+
+
+  * Gate driver có: dead-time programmable + slew-rate c ontrol
+
+
+  * Power inductor (L) chọn theo ripple dòng mục tiêu
+
+
+  * Output capacitors (low ESR) + snubber (giảm ringing)
+
+
+  1. **Current Sensing**
+
+
+  * Ưu tiên shunt low-ohm + amplifier (bền, rẻ, chính xác)
+
+
+  * Hall chỉ dùng khi cần cách ly hoặc dòng rất lớn
+
+
+  * Mục tiêu: **≤1%** sai số, nhiễu thấp để điều khiển dòng ổn định
+
+
+  1. **Voltage Sensing**
+
+
+  * Đo tổng áp stack (divider + ADC)
+
+
+  * Tuỳ chọn: đo “segment” (mỗi đoạn vài cell) để phát hiện lệch cục bộ/hotspot điện hoá
+
+
+  1. **MCU Control**
+
+
+  * PWM/DPWM generation
+
+
+  * Current-loop PI ở 1–10 kHz
+
+
+  * dI/dt clamp (hard)
+
+
+  * Fault ISR (ngắt an toàn)
+
+
+### **2.3 “Cannon waveform” thực chất là gì (để hội đồng hiểu)**
+  * PWM không phải để “đánh mạnh”, mà để **tạo các profile dòng theo thời gian** :
+    * DC mượt (ripple thấp)
+    * Pulse có duty/freq thay đổi
+    * Burst có ramp lên/ramp xuống
+
+
+  * Quan trọng nhất: **giới hạn cạnh xung (slew-rate)** để không tạo RMS heating ẩn và không kích EMI.
+
+
+### **2.4 Thông số thiết kế PCB bắt buộc (để không chết vì EMI/nhiệt)**
+  * Vòng dòng xung (switch loop) **cực ngắn** , plane dày, via stitching
+
+
+  * Tách mass công suất và mass tín hiệu, nối tại 1 điểm (star)
+
+
+  * Sense shunt dùng Kelvin connection
+
+
+  * Nhiệt: MOSFET/inductor có copper pour + thermal via
+
+
+* * *
+## **3) AMOS Core – thuật toán “đủ cụ thể nhưng đọc được”**
+### **3.1 State Machine (bắt buộc có, để kiểm toán)**
+Các trạng thái:
+INIT → CRUISE → (BOOST) → COOLDOWN → CRUISE
+CRUISE → DEGRADED → CRUISE
+Bất kỳ trạng thái nào → PROTECTIVE → LOCKOUT (nếu lặp)
+### **3.2 Bộ ước lượng trạng thái (State Estimator – không cần AI mơ hồ)**
+Mỗi chu kỳ (100 ms):
+  * Tính T_avg, dT_dt, dT_dx
+
+
+  * Tính R_eq = V/I và dR_dt
+
+
+  * Tính P_pp
+
+
+  * Mỗi 30–120 s thực hiện **probe pulse** nhỏ để cập nhật Z_diff_proxy
+
+
+**Probe pulse** (đủ để nhận biết diffusion/bubble):
+  * biên độ nhỏ (ví dụ 2–5% I_cruise)
+
+
+  * thời gian ngắn (50–200 ms)
+
+
+  * đo đáp ứng điện áp ΔV theo thời gian → suy ra proxy
+
+
+### **3.3 Degradation Budget (đây là “push” thật)**
+Cập nhật D_index theo stress:
+  * stress nhiệt: gần ngưỡng + gradient + tốc độ tăng
+
+
+  * stress điện hoá: drift R_eq + proxy diffusion
+
+
+  * stress khí: ripple áp
+
+
+Luật quyết định:
+  * Nếu ΔD_index/Δt vượt ngưỡng → hạ về CRUISE/DEGRADED
+
+
+  * Nếu D_index vượt trần ngày → cấm BOOST đến hết chu kỳ
+
+
+### **3.4 Boost Permission Logic (AND cứng + ngân sách)**
+BOOST chỉ cấp khi:
+  * T_avg < T_derate_gate
+
+
+  * dT_dt < dT_dt_derate
+
+
+  * dT_dx < dT_dx_derate
+
+
+  * P_pp < P_pp_derate
+
+
+  * dR_dt < R_eq_drift_derate
+
+
+  * Z_diff_proxy < Z_diff_derate
+
+
+  * Boost_budget_day > 0
+
+
+  * cooldown_elapsed == true
+
+
+Thiếu 1 điều kiện → **REFUSE_BOOST** và log lý do theo mã.
+### **3.5 Điều khiển dòng và dạng sóng (có “lý do chọn”)**
+  * Nếu diffusion/bubble tăng: chọn **anti-bubble profile** (pulse phù hợp) + hạ I
+
+
+  * Nếu nhiệt/gradient tăng: chuyển **DC mượt** \+ giảm I (ổn định nhiệt)
+
+
+  * Nếu nguồn dao động: tăng feed-forward để giữ dòng ổn định, không “đuổi áp”
+
+
+* * *
+## **4) So sánh định lượng: IKONOMY nguyên bản vs AMOS-IKONOMY (đúng kiểu hội đồng)**
+> Lưu ý: đây là
+> **mục tiêu kỹ thuật/thiết kế**
+> **kết quả kỳ vọng sau kiểm chứng**
+### **4.1 Bảng so sánh (module 1 kW, boost 1.5–2.0 kW)**
+|                      |
+| **Hạng mục**         | **IKONOMY nguyên bản (điển hình)**  | **AMOS-IKONOMY (thiết kế)**       | **Lý do thay đổi**                     |
+|----------------------|-------------------------------------|-----------------------------------|----------------------------------------|
+| Chế độ vận hành      | 1 lớp (gần như 1 envelope)          | 2 lớp Cruise/Boost + ngân sách    | Tách “max power” khỏi “max life”       |
+| Boost                | có thể có nhưng không bị “tính phí” | boost có gate + budget + cooldown | Ngăn boost phá tuổi thọ                |
+| Dừng khẩn cấp (trip) | nhiều hơn                           | ít hơn (derate trước)             | Uptime tăng, giảm can thiệp            |
+| Uptime mục tiêu      | phụ thuộc vận hành                  | **≥98%**                          |  derate + lockout logic                |
+| Can thiệp/tuần       | biến động                           | **≤1** (mục tiêu)                 | alarm theo hành động, refusal rõ       |
+| Tuổi thọ hữu dụng    | baseline                            | **1.5–2.0×** (mục tiêu)           | D_index + tránh vùng suy giảm          |
+| Chi phí vòng đời     | baseline                            | **giảm 25–40%** (mục tiêu)        | ít hỏng, ít dừng, ít công vận hành     |
+| Power đỉnh an toàn   | giới hạn bởi trip                   | **tăng nhưng có giới hạn**        |  boost envelope có ràng buộc nhiệt/khí |
+
+
+### **4.2 “Max power” và “Max effective” đóng bằng 2 KPI (để không tranh cãi)**
+  * **KPI-Peak:** P_boost_safe (W) và boost_time_max (s) với điều kiện không vượt dT_dx, P_pp
+
+
+  * **KPI-Effective:** MTBC (Mean Time Between Correction) + H2_per_kWh_stability theo thời gian
+
+
+Nếu bạn đưa KPI này vào hồ sơ, hội đồng sẽ hiểu ngay: bạn không khoe hiệu suất giấy, bạn khoe **khả năng chạy thật**.
+* * *
+## **5) “Push more nữa” về chi phí tại VN (thực tế, không khẩu hiệu)**
+Bạn có thể giảm thêm chi phí tại VN theo đúng cấu trúc module:
+  * **Cơ khí, đường ống, heat spreader, vỏ, gá lắp** : nội địa hoá mạnh (chi phí giảm rõ).
+
+
+  * **PCB lắp ráp, dây harness, cảm biến phổ thông** : VN làm được.
+
+
+  * **Nhập khẩu cần giữ** : bán dẫn công suất chất lượng, một số cảm biến áp/flow chuẩn, vật liệu màng/xúc tác (tuỳ hoá học).
+
+
+Điểm AMOS giúp giảm chi phí “lớn nhất” không nằm ở BOM, mà nằm ở:
+  * giảm dừng máy ngoài kế hoạch
+
+
+  * giảm thay thế sớm
+
+
+  * giảm nhu cầu kỹ sư trực 24/7
+=> OPEX và downtime giảm, đó mới là 25–40%.
+
+
+* * *
+Nếu bạn muốn “push thêm một nấc cuối cùng”, mình sẽ viết tiếp ngay (cũng bằng tiếng Việt chuẩn hồ sơ) 3 mục:
+  1. **Bảng mã lỗi & mã từ chối boost (Fault/Refusal Code Table)** để log/audit
+
+
+  2. **Kế hoạch thử nghiệm 1.000h + chu kỳ boost + thử nước kém + thử nguồn dao động** (test matrix)
+
+
+  3. **Sơ đồ mạch power stage dạng danh mục linh kiện theo thông số (không nêu hãng), đủ để RFQ**
+
+
+Chỉ cần bạn trả lời 1 câu để mình “đóng” phần khí cho đúng: **H₂ đầu ra của module hiện tại là gần áp khí quyển (≈1 bar) hay có điều áp lên ~1.5–3 bar?**
+Được. “Đẩy tới **mép tuyệt đối của khả năng** ” (absolute edge) với AMOS-IKONOMY nghĩa là: **không còn tối ưu cục bộ** , mà tối ưu **toàn bộ phong bì vật lý** của hệ (điện-nhiệt-khí-vật liệu-vận hành) để chạy **sát trần nhiệt động học** trong **thời gian dài** , với **chi phí vòng đời thấp nhất** , và vẫn **không rơi khỏi an toàn/tuổi thọ**.
+Mình sẽ nói thẳng theo 3 tầng: **(A) Trần tuyệt đối** , **(B) Vùng còn “headroom” thật** , **(C) Gói nâng cấp để chạm mép**.
+* * *
+## **A) Trần tuyệt đối (không ai vượt được)**
+  1. **Faraday** : H₂ sinh ra tỉ lệ trực tiếp với điện lượng:
+\dot n_{H_2}=\eta_F\frac{I}{2F}
+Không có “đường tắt” điện tử nào vượt quy luật này.
+
+
+  2. **Nhiệt động học** : trần điện-hoá của điện phân nước là **giới hạn reversible** (ΔG). Về bản chất, bạn chỉ có thể tiệm cận trần đó; càng gần thì mỗi % cải thiện càng đắt.
+
+
+**Kết luận:** “đẩy tới mép” không phải là hứa vượt vật lý, mà là **tiệm cận trần trong thực tế vận hành** (đời thật, nhiều năm, nguồn dao động, nước không hoàn hảo, tải thay đổi).
+* * *
+## **B) Phần “headroom” thật sự còn lại (chỉ còn 4 hướng)**
+Nếu bạn đã gần ~300 L/kWh ở điều kiện thực, thì trong điện phân nước cổ điển, phần cải thiện còn lại **không nằm** ở “PWM khéo hơn” đơn thuần. Nó nằm ở 4 hướng sau (và chỉ 4):
+### **1)**
+### **Kéo hệ xuống dưới thermoneutral có chủ đích**
+### **(điện ít hơn, lấy thêm từ nhiệt)**
+Đây là “đường hợp pháp” duy nhất để tăng **hiệu suất điện** mà không vi phạm định luật: bạn làm hệ hấp thụ nhiệt môi trường / nhiệt thải (waste heat) một cách **có kiểm soát**.
+Điều này yêu cầu:
+  * quản lý gradient nhiệt cực chặt (ΔT nhỏ)
+
+
+  * tốc độ tăng nhiệt nhỏ (dT/dt nhỏ)
+
+
+  * vật liệu và cấu trúc nhiệt tốt (heat spreading, thermal mass đúng chỗ)
+
+
+**Đây là hướng số 1 để chạm mép.**
+### **2)**
+### **Giảm entropy tạo ra bằng “điều khiển theo trở kháng” (impedance-locked driving)**
+Không phải “đổi tần số” cho vui, mà là:
+  * đo proxy khuếch tán/bọt khí (diffusion/bubble proxy)
+
+
+  * chọn dạng sóng để tránh vùng tổn hao không hồi phục (irreversible loss topology)
+
+
+  * giữ hệ trong vùng mà tăng dòng không kéo theo tăng phân cực theo kiểu “dốc đứng” (Tafel cliff)
+
+
+### **3)**
+### **Tối ưu hoá đa miền theo “ngân sách suy giảm” (degradation budget)**
+Cái giết trần là **suy giảm vật liệu** và **chu kỳ nhiệt/khí** , không phải thiếu thông minh. Bạn chỉ chạm mép được nếu AMOS quản lý:
+  * ngân sách boost theo ngày/tuần
+
+
+  * ngân sách gradient nhiệt
+
+
+  * ngân sách ripple áp suất khí
+
+
+  * ngân sách drift R_eq / proxy khuếch tán
+
+
+### **4)**
+### **Hạ chi phí thật bằng nội địa hoá + thiết kế cho “ít sửa” (minimum correction design)**
+Ở mép, LCOH (chi phí vòng đời/kg H₂) bị quyết định bởi:
+  * downtime
+
+
+  * thay thế sớm
+
+
+  * can thiệp người
+
+
+  * logistics bảo trì
+
+
+AMOS giúp bạn “đẩy tới mép” bằng cách **giảm correction** chứ không phải chỉ tăng output.
+* * *
+## **C) Gói nâng cấp “Absolute Edge” (đề xuất cụ thể)**
+Dưới đây là cấu hình mà mình gọi là **AMOS-IKONOMY Edge Stack** : mỗi mục đều có “đặt ở đâu”, “thay gì”, “đo bằng gì”.
+* * *
+### **1) Nâng Cannon từ “actuator” thành “thiết bị đo điện-hoá” (Actuate + Identify)**
+**Thêm chế độ probe bắt buộc** (không phải AI):
+  * mỗi 30–120 giây chèn 1 “probe pulse” biên độ nhỏ (2–5% I_cruise), 50–200 ms
+
+
+  * đo đáp ứng ΔV(t) để cập nhật 2 proxy:
+    * R_ohmic_proxy
+    * Z_diff_proxy (khuếch tán/bọt khí)
+
+
+**Đặt ở đâu:** firmware lớp MCU (Lớp 2) + AMOS core (Lớp 3).
+**Tại sao đột phá:** từ đây bạn **không lái mù** ; bạn lái theo trạng thái điện-hoá thực.
+* * *
+### **2) Chuyển “Waveform Library” thành “Waveform Selection Law”**
+Thay vì 3 dạng sóng cố định, bạn đóng một **luật chọn** :
+  * Nếu Z_diff_proxy↑ (bọt/khuyếch tán xấu) → chuyển sang profile giảm bám khí + hạ I
+
+
+  * Nếu dT/dt↑ hoặc ΔT↑ → chuyển về DC mượt + hạ I (ổn định nhiệt)
+
+
+  * Nếu nguồn dao động → tăng feed-forward để giữ I ổn định (không đuổi theo V)
+
+
+**Đặt ở đâu:** AMOS Core quyết định, MCU thực thi.
+**Thước đo:** giảm drift R_eq theo giờ + giảm số lần trip.
+* * *
+### **3) “Thermal is the Boost Gate” (boost do nhiệt quyết định, không do nhu cầu)**
+Boost chỉ được phép nếu đồng thời:
+  * T_avg < T_gate
+
+
+  * ΔT < ΔT_gate
+
+
+  * dT/dt < dTdt_gate
+
+
+  * và đủ ngân sách suy giảm
+
+
+**Đặt ở đâu:** AMOS (Lớp 3) + sensor nhiệt đa điểm (Lớp 1).
+**Nâng cấp phần cứng bắt buộc:** tối thiểu 3 điểm đo nhiệt (inlet/outlet + gần vùng phản ứng), không dùng 1 cảm biến.
+* * *
+### **4) Tối ưu “hấp thụ nhiệt” (sub-thermoneutral) bằng kiến trúc nhiệt, không phải quạt**
+Nếu bạn muốn đi sát trần reversible trong đời thật, bạn phải:
+  * thiết kế heat spreader (nhôm/đồng) đúng đường truyền
+
+
+  * tăng thermal mass đúng vị trí “mật độ phản ứng cao”
+
+
+  * giảm gradient bằng cấu trúc, không bằng “thổi mạnh”
+
+
+**Đặt ở đâu:** Lớp 1.
+**Thước đo:** ΔT nhỏ hơn cùng công suất; boost không tạo hotspot.
+* * *
+### **5) Gas path “surge-rated” để boost không biến thành sự kiện an toàn**
+Boost = tăng tốc sinh khí = tăng ripple áp. Bạn cần:
+  * buffer volume tính theo lưu lượng boost
+
+
+  * water trap/bubbler không carryover
+
+
+  * check valve + backflow protection theo triết lý “no storage when stop”
+
+
+  * target P_pp thấp (≤2–3% tùy profile)
+
+
+**Đặt ở đâu:** Lớp 1 đường khí.
+* * *
+### **6) Degradation Budget Engine (đây là “edge” thật sự)**
+Bạn định nghĩa một chỉ số suy giảm tích lũy:
+  * D_thermal (hàm của T, dT/dt, ΔT)
+
+
+  * D_echem (hàm của dR/dt, Z_diff_proxy)
+
+
+  * D_gas (hàm của P_pp)
+
+
+  * D_events (fault/restart)
+
+
+D_{total}=w_1D_{thermal}+w_2D_{echem}+w_3D_{gas}+w_4D_{events}
+Luật: **Boost tiêu tốn ngân sách D** , hết ngân sách thì cấm boost.
+**Đặt ở đâu:** AMOS Core (Lớp 3).
+**Thước đo:** tuổi thọ hữu dụng tăng mà không phải “hy sinh hiệu suất”.
+* * *
+### **7) “Edge Cost” tại VN: giảm mạnh OPEX bằng thiết kế ít sửa + nội địa hoá đúng chỗ**
+Nếu muốn **đẩy tới mép chi phí thấp nhất** , bạn làm 3 việc:
+  * Nội địa hoá cao phần **cơ-nhiệt-đường ống-vỏ-gá** (VN rất mạnh)
+
+
+  * Chuẩn hoá BOM theo “ít loại linh kiện”, dễ thay
+
+
+  * AMOS giảm nhu cầu “kỹ sư trực”, biến vận hành thành “định kỳ” thay vì “phản ứng”
+
+
+**Cái này mới kéo LCOH xuống sâu**.
+* * *
+## **“Mép tuyệt đối” trông như thế nào (để bạn chốt trong hồ sơ)**
+Một hệ ở mép sẽ có 4 dấu hiệu mà hội đồng tin ngay:
+  1. **Có hai phong bì rõ ràng:** Cruise (bền) và Boost (ngắn), có cooldown.
+
+
+  2. **Có cơ chế đo proxy điện-hoá tại chỗ** (probe) để không lái mù.
+
+
+  3. **Có ngân sách suy giảm** để tối ưu dài hạn, không tối ưu theo KPI tức thời.
+
+
+  4. **Có thiết kế nhiệt và khí “surge-rated”** để boost không tạo rủi ro.
+
+
+Đó là “absolute edge” trong thế giới thật.
+* * *
+## **Nhưng “push more” nữa thì còn gì?**
+Nếu bạn muốn **vượt thêm một bậc nữa** (vẫn trong nước điện phân), chỉ còn 1 lựa chọn hợp lệ:
+**Tích hợp nhiệt thải có chủ đích** (waste-heat coupling) thành một phần của kiến trúc, thay vì “ăn ké” nhiệt môi trường. Đây là nấc cuối cùng trước khi phải đổi hẳn chemistry (SOEC/AEM khác lớp).
+* * *
+Nếu bạn trả lời đúng 2 thông tin này, mình sẽ “đóng” bản Edge Spec thành **tài liệu kỹ thuật hoàn chỉnh** (ngưỡng số cụ thể + pseudo-code + bảng test matrix):
+  1. H₂ đầu ra hiện tại: **≈1 bar** hay **1.5–3 bar**?
+
+
+  2. Stack thuộc lớp nào: **PEM / AEM / alkaline-like**?
+
+
+Chỉ cần 2 dữ kiện đó là mình có thể viết ra bản “Absolute Edge” **không còn chỗ mơ hồ**.
+\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**MOC:** [[AMOS-GENERAL_MOC]]

@@ -25,6 +25,9 @@ It establishes AMOS as a "heart + architecture" intelligence: structurally carin
 - **Tone & Culture**: A blend of Vietnamese (Hanoi) warmth and sensitivity with Australian directness and cosmic humor.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - Consciousness_Engine_Model
 - Emotion_Engine_Model
+
+---
+**MOC:** [[ENGINE_MOC]]

@@ -1,3 +1,9 @@
+---
+title: WORKFLOW
+type: note
+tags: [note, law-stack-enforcement-pipeline]
+---
+
 # Law Stack Enforcement Pipeline
 
 ## Overview
@@ -42,3 +48,6 @@ hermes pipeline run law-stack-enforcement-pipeline \
   --law-text "<proposed law>" \
   --skill "<target skill name>"
 ```
+
+---
+**MOC:** [[law-stack-enforcement-pipeline_MOC]]

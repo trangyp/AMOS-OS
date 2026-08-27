@@ -175,3 +175,6 @@ See: 2026-08-22 7-Part Universe Canon
 - THE TRANG SYSTEM™ CODEX – META-LAWS — Law 001–027
 - The Seven Cycles of the Trang System™ – Official M — C1–C7 lifecycle
 - 2026-08-22 Trang Phi Framework — 17-group equation catalog
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

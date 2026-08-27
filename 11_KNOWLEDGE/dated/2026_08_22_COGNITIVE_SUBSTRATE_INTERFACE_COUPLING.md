@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 COGNITIVE SUBSTRATE INTERFACE COUPLING
 origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_INTERFACE.py
 confidence: 0.9
@@ -7,6 +8,7 @@ conclusion_label: "VERIFIED"
 tags: [canon-group/tech-ai, cosmo-brain, cognitive-substrate, interface-coupling, epistemic-autopoisoning, cognitive-integrity, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-cognitive-substrate-interface, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # Cognitive Substrate Interface Coupling
 
@@ -119,3 +121,6 @@ This slice binds all three prior slices:
 - Authority: explicit user authorization (repo architect).
 - Rollback: delete the 5 artifacts listed in the workflow file.
 - Reversible: yes — all artifacts are additive; no existing brain module was modified.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

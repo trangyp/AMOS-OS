@@ -1,6 +1,11 @@
 ---
+title: CC982116 F9B3 4FA5 B9EA 31FA41B20F73 REDEFINING LOGIC
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/cc982116-f9b3-4fa5-b9ea-31fa41b20f73-red, logic]
+type: note
+source: 11_KNOWLEDGE/logic
 ---
+
+
 
 Redefining Logic
 I. Introduction — Deep, Illustrated Version
@@ -881,4 +886,7 @@ is to extend the lifespan of reality itself.ˮ  Authorʼs note
 Redefining Logic 30
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[LOGIC_MOC]]

@@ -1,8 +1,10 @@
 ---
+title: COSMO BRAIN BRIDGE INDEX
 canon-group: reference
 rscf-state: derived
 tags: [moc, index, bridge, cosmo-brain]
 ---
+
 
 # Cosmo Brain Bridge Index
 
@@ -8381,3 +8383,6 @@ tags: [moc, index, bridge, cosmo-brain]
 ---
 
 **Related:** Cosmo_Brain_MOC · 11_KNOWLEDGE_MOC · 00-Home
+
+---
+**Links:** [[COSMO_BRAIN_MOC]] | [[KNOWLEDGE_MOC]]

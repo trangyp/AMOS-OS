@@ -45,7 +45,7 @@ Given an operation touching `STRATEGY COMMIT CONTROL PLANE PURPOSE SCOPE` within
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -63,3 +63,6 @@ node_id: cp_e_09_commit_04_strategy_strategy_commit_control_plane_purpose_scope_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY/STRATEGY_COMMIT_CONTROL_PLANE_PURPOSE_SCOPE.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[04_STRATEGY_MOC]]

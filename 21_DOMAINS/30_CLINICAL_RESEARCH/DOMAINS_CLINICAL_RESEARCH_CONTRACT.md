@@ -50,7 +50,7 @@ Given an operation touching `DOMAINS CLINICAL RESEARCH CONTRACT` within the Doma
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_21_domains_30_clinical_research_domains_clinical_research_contract
 node_type: note
 path: 21_DOMAINS/30_CLINICAL_RESEARCH/DOMAINS_CLINICAL_RESEARCH_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[30_CLINICAL_RESEARCH_MOC]]

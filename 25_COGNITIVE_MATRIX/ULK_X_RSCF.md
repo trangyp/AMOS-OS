@@ -175,7 +175,7 @@ Given an operation touching `25_COGNITIVE_MATRIX · ARTIFACT` within the Cogniti
 
 ## 8. Cross-plane bindings (target)
 
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -187,7 +187,7 @@ Given an operation touching `25_COGNITIVE_MATRIX · ARTIFACT` within the Cogniti
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -207,9 +207,11 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - GOVERNED_BY: [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY]]
+  - GOVERNED_BY: [[LAW_HIERARCHY]]
 
+---
+**MOC:** [[25_COGNITIVE_MATRIX_MOC]]

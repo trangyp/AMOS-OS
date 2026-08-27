@@ -1,7 +1,9 @@
 ---
+title: AUDIT QUALITY MODEL
 aliases: [Audit Quality Engine, AMOS_Audit_Quality, Quality Kernel]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/audit-quality-model, models]
 ---
+
 
 # AMOS Audit Quality Engine
 
@@ -43,4 +45,7 @@ The engine scores domains [0,1] to produce a global `AUDIT_QUALITY_INDEX`:
 - **D (< 0.50):** Immediate C5/C6 crisis risk.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MODELS_MOC]]

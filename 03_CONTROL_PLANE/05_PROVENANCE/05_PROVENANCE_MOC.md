@@ -1,0 +1,22 @@
+---
+title: 05_PROVENANCE MOC
+type: moc
+tags: [moc, 05-provenance]
+---
+
+# 05_PROVENANCE — Map of Content
+
+## Files
+
+- [[CONTROL_PLANE_PROVENANCE_CONTRACT]]
+- [[OBSERVED_READ_SET]]
+- [[PROVENANCE_CONTROL_PLANE_README]]
+- [[PROVENANCE_LEDGER]]
+- [[READ_SET_VALIDATOR]]
+
+## Subdirectories
+
+- [[INDEX_PROVENANCE_CONTROL_PLANE_README]]
+
+---
+**Parent:** [[03_CONTROL_PLANE_MOC]]

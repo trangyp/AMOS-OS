@@ -1,3 +1,9 @@
+---
+title: C06 MEMORY CONTROL PLANES COGNITIVE MATRIX README
+type: note
+tags: [note, c06-memory]
+---
+
 # C06 — Overview
 
 **Package:** `C06_MEMORY`  
@@ -38,3 +44,6 @@ node_type: note
 path: 03_CONTROL_PLANES/C06_MEMORY/C06_MEMORY_CONTROL_PLANES_COGNITIVE_MATRIX_README.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/C06_MEMORY_CONTROL_PLANES_COGNITIVE_MATRIX_README.md
+
+---
+**MOC:** [[C06_MEMORY_MOC]]

@@ -1,1245 +1,6420 @@
 ---
+title: GIAO TRINH DAO TAO UNITAXI
 tags: [vietnamese]
+type: document
+source: 11_KNOWLEDGE/vietnamese
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Giáo trình đào tạo UniTaxi</title><style>
-/* cspell:disable-file */
-/* webkit printing magic: print all background colors */
-html {
-	-webkit-print-color-adjust: exact;
-}
-* {
-	box-sizing: border-box;
-	-webkit-print-color-adjust: exact;
-}
-
-html,
-body {
-	margin: 0;
-	padding: 0;
-}
-@media only screen {
-	body {
-		margin: 2em auto;
-		max-width: 900px;
-		color: rgb(55, 53, 47);
-	}
-}
-
-body {
-	line-height: 1.5;
-	white-space: pre-wrap;
-}
-
-a,
-a.visited {
-	color: inherit;
-	text-decoration: underline;
-}
-
-.pdf-relative-link-path {
-	font-size: 80%;
-	color: #444;
-}
-
-h1,
-h2,
-h3 {
-	letter-spacing: -0.01em;
-	line-height: 1.2;
-	font-weight: 600;
-	margin-bottom: 0;
-}
-
-/* Override strong tags inside headings to maintain consistent weight */
-h1 strong,
-h2 strong,
-h3 strong {
-	font-weight: 600;
-}
-
-.page-title {
-	font-size: 2.5rem;
-	font-weight: 700;
-	margin-top: 0;
-	margin-bottom: 0.75em;
-}
-
-h1 {
-	font-size: 1.875rem;
-	margin-top: 1.875rem;
-}
-
-h2 {
-	font-size: 1.5rem;
-	margin-top: 1.5rem;
-}
-
-h3 {
-	font-size: 1.25rem;
-	margin-top: 1.25rem;
-}
-
-.source {
-	border: 1px solid #ddd;
-	border-radius: 3px;
-	padding: 1.5em;
-	word-break: break-all;
-}
-
-.callout {
-	border-radius: 10px;
-	padding: 1rem;
-}
-
-figure {
-	margin: 1.25em 0;
-	page-break-inside: avoid;
-}
-
-figcaption {
-	opacity: 0.5;
-	font-size: 85%;
-	margin-top: 0.5em;
-}
-
-mark {
-	background-color: transparent;
-}
-
-.indented {
-	padding-left: 1.5em;
-}
-
-hr {
-	background: transparent;
-	display: block;
-	width: 100%;
-	height: 1px;
-	visibility: visible;
-	border: none;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.09);
-}
-
-img {
-	max-width: 100%;
-}
-
-@media only print {
-	img {
-		max-height: 100vh;
-		object-fit: contain;
-	}
-
-	table.collection-content {
-		width: 100%;
-		table-layout: fixed;
-	}
-
-	table.collection-content th,
-	table.collection-content td {
-		overflow-wrap: anywhere;
-	}
-
-	table.collection-content td > .user,
-	table.collection-content td > time {
-		white-space: pre-wrap;
-	}
-}
-
-@page {
-	margin: 1in;
-}
-
-.collection-content-wrapper {
-	overflow-x: auto;
-}
-
-@media only print {
-	.collection-content-wrapper {
-		overflow-x: visible;
-	}
-}
-
-.collection-content {
-	font-size: 0.875rem;
-}
-
-.collection-content td {
-	white-space: pre-wrap;
-	word-break: break-word;
-}
-
-.column-list {
-	display: flex;
-	gap: 46px;
-}
-
-.column {
-	min-width: 0;
-	overflow: hidden;
-}
-
-.column > *:first-child {
-	margin-top: 0;
-}
-
-.table_of_contents-item {
-	display: block;
-	font-size: 0.875rem;
-	line-height: 1.3;
-	padding: 0.125rem;
-}
-
-.table_of_contents-indent-1 {
-	margin-left: 1.5rem;
-}
-
-.table_of_contents-indent-2 {
-	margin-left: 3rem;
-}
-
-.table_of_contents-indent-3 {
-	margin-left: 4.5rem;
-}
-
-.table_of_contents-link {
-	text-decoration: none;
-	opacity: 0.7;
-	border-bottom: 1px solid rgba(55, 53, 47, 0.18);
-}
-
-table,
-th,
-td {
-	border: 1px solid rgba(55, 53, 47, 0.09);
-	border-collapse: collapse;
-}
-
-table {
-	border-left: none;
-	border-right: none;
-}
-
-th,
-td {
-	font-weight: normal;
-	padding: 0.25em 0.5em;
-	line-height: 1.5;
-	min-height: 1.5em;
-	text-align: left;
-}
-
-th {
-	color: rgba(55, 53, 47, 0.6);
-}
-
-ol,
-ul {
-	margin: 0;
-	margin-block-start: 0.6em;
-	margin-block-end: 0.6em;
-}
-
-li > ol:first-child,
-li > ul:first-child {
-	margin-block-start: 0.6em;
-}
-
-ul > li {
-	list-style: disc;
-}
-
-ul.to-do-list {
-	padding-inline-start: 0;
-}
-
-ul.to-do-list > li {
-	list-style: none;
-}
-
-.to-do-children-checked {
-	text-decoration: line-through;
-	opacity: 0.375;
-}
-
-ul.toggle > li {
-	list-style: none;
-}
-
-ul {
-	padding-inline-start: 1.7em;
-}
-
-ul > li {
-	padding-left: 0.1em;
-}
-
-ol {
-	padding-inline-start: 1.6em;
-}
-
-ol.numbered-list.numbered-list-digits-2 {
-	padding-inline-start: 2em;
-}
-
-ol.numbered-list.numbered-list-digits-3plus {
-	padding-inline-start: 2.4em;
-}
-
-ol > li {
-	padding-left: 0.2em;
-}
-
-.mono ol {
-	padding-inline-start: 2em;
-}
-
-.mono ol > li {
-	text-indent: -0.4em;
-}
-
-.toggle {
-	padding-inline-start: 0em;
-	list-style-type: none;
-}
-
-/* Indent toggle children */
-.toggle > li > details {
-	padding-left: 1.7em;
-}
-
-.toggle > li > details > summary {
-	margin-left: -1.1em;
-}
-
-.selected-value {
-	display: inline-block;
-	padding: 0 0.5em;
-	background: rgba(206, 205, 202, 0.5);
-	border-radius: 3px;
-	margin-right: 0.5em;
-	margin-top: 0.3em;
-	margin-bottom: 0.3em;
-	white-space: nowrap;
-}
-
-.collection-title {
-	display: inline-block;
-	margin-right: 1em;
-}
-
-.page-description {
-	margin-bottom: 2em;
-}
-
-.simple-table {
-	margin-top: 1em;
-	font-size: 0.875rem;
-	empty-cells: show;
-}
-.simple-table td {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table th {
-	height: 29px;
-	min-width: 120px;
-}
-
-.simple-table-header-color {
-	background: rgb(247, 246, 243);
-	color: black;
-}
-.simple-table-header {
-	font-weight: 500;
-}
-
-time {
-	opacity: 0.5;
-}
-
-.icon {
-	display: inline-flex;
-	align-items: center;
-	justify-content: center;
-	max-width: 1.2em;
-	max-height: 1.2em;
-	text-decoration: none;
-	vertical-align: text-bottom;
-	margin-right: 0.5em;
-}
-
-img.icon {
-	border-radius: 3px;
-}
-
-.callout img.notion-static-icon {
-	width: 1em;
-	height: 1em;
-}
-
-.callout p {
-	margin: 0;
-}
-
-.callout h1,
-.callout h2,
-.callout h3 {
-	margin: 0 0 0.6rem;
-}
-
-.user-icon {
-	width: 1.5em;
-	height: 1.5em;
-	border-radius: 100%;
-	margin-right: 0.5rem;
-}
-
-.user-icon-inner {
-	font-size: 0.8em;
-}
-
-.text-icon {
-	border: 1px solid #000;
-	text-align: center;
-}
-
-.page-cover-image {
-	display: block;
-	object-fit: cover;
-	width: 100%;
-	max-height: 30vh;
-}
-
-.page-header-icon {
-	font-size: 3rem;
-	margin-bottom: 1rem;
-}
-
-.page-header-icon-with-cover {
-	margin-top: -0.72em;
-	margin-left: 0.07em;
-}
-
-.page-header-icon img {
-	border-radius: 3px;
-}
-
-.link-to-page {
-	margin: 1em 0;
-	padding: 0;
-	border: none;
-	font-weight: 500;
-}
-
-p > .user {
-	opacity: 0.5;
-}
-
-td > .user,
-td > time {
-	white-space: nowrap;
-}
-
-input[type="checkbox"] {
-	transform: scale(1.5);
-	margin-right: 0.6em;
-	vertical-align: middle;
-}
-
-p {
-	margin-top: 0.5em;
-	margin-bottom: 0.5em;
-}
-
-.image {
-	border: none;
-	margin: 1.5em 0;
-	padding: 0;
-	border-radius: 0;
-	text-align: center;
-}
-
-.code,
-code {
-	background: rgba(135, 131, 120, 0.15);
-	border-radius: 3px;
-	padding: 0.2em 0.4em;
-	border-radius: 3px;
-	font-size: 85%;
-	tab-size: 2;
-}
-
-code {
-	color: #eb5757;
-}
-
-.code {
-	padding: 1.5em 1em;
-}
-
-.code-wrap {
-	white-space: pre-wrap;
-	word-break: break-all;
-}
-
-.code > code {
-	background: none;
-	padding: 0;
-	font-size: 100%;
-	color: inherit;
-}
-
-blockquote {
-	font-size: 1em;
-	margin: 1em 0;
-	padding-left: 1em;
-	border-left: 3px solid rgb(55, 53, 47);
-}
-
-blockquote.quote-large {
-	font-size: 1.25em;
-}
-
-.bookmark {
-	text-decoration: none;
-	max-height: 8em;
-	padding: 0;
-	display: flex;
-	width: 100%;
-	align-items: stretch;
-}
-
-.bookmark-title {
-	font-size: 0.85em;
-	overflow: hidden;
-	text-overflow: ellipsis;
-	height: 1.75em;
-	white-space: nowrap;
-}
-
-.bookmark-text {
-	display: flex;
-	flex-direction: column;
-}
-
-.bookmark-info {
-	flex: 4 1 180px;
-	padding: 12px 14px 14px;
-	display: flex;
-	flex-direction: column;
-	justify-content: space-between;
-}
-
-.bookmark-image {
-	width: 33%;
-	flex: 1 1 180px;
-	display: block;
-	position: relative;
-	object-fit: cover;
-	border-radius: 1px;
-}
-
-.bookmark-description {
-	color: rgba(55, 53, 47, 0.6);
-	font-size: 0.75em;
-	overflow: hidden;
-	max-height: 4.5em;
-	word-break: break-word;
-}
-
-.bookmark-href {
-	font-size: 0.75em;
-	margin-top: 0.25em;
-}
-
-.sans { font-family: ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol"; }
-.code { font-family: "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace; }
-.serif { font-family: Lyon-Text, Georgia, ui-serif, serif; }
-.mono { font-family: iawriter-mono, Nitti, Menlo, Courier, monospace; }
-.pdf .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK JP'; }
-.pdf:lang(zh-CN) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK SC'; }
-.pdf:lang(zh-TW) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK TC'; }
-.pdf:lang(ko-KR) .sans { font-family: Inter, ui-sans-serif, -apple-system, BlinkMacSystemFont, "Segoe UI Variable Display", "Segoe UI", Helvetica, "Apple Color Emoji", "Noto Sans Arabic", "Noto Sans Hebrew", Arial, sans-serif, "Segoe UI Emoji", "Segoe UI Symbol", 'Twemoji', 'Noto Color Emoji', 'Noto Sans CJK KR'; }
-.pdf .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .code { font-family: Source Code Pro, "SFMono-Regular", Menlo, Consolas, "PT Mono", "Liberation Mono", Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.pdf .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK JP'; }
-.pdf:lang(zh-CN) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK SC'; }
-.pdf:lang(zh-TW) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK TC'; }
-.pdf:lang(ko-KR) .serif { font-family: PT Serif, Lyon-Text, Georgia, ui-serif, serif, 'Twemoji', 'Noto Color Emoji', 'Noto Serif CJK KR'; }
-.pdf .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK JP'; }
-.pdf:lang(zh-CN) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK SC'; }
-.pdf:lang(zh-TW) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK TC'; }
-.pdf:lang(ko-KR) .mono { font-family: PT Mono, iawriter-mono, Nitti, Menlo, Courier, monospace, 'Twemoji', 'Noto Color Emoji', 'Noto Sans Mono CJK KR'; }
-.highlight-default {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.highlight-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.highlight-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.highlight-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.highlight-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.highlight-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.highlight-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.highlight-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.highlight-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.highlight-default_background {
-	color: rgba(44, 44, 43, 1);
-}
-.highlight-gray_background {
-	background: rgba(42, 28, 0, 0.07);
-}
-.highlight-brown_background {
-	background: rgba(139, 46, 0, 0.086);
-}
-.highlight-orange_background {
-	background: rgba(224, 101, 1, 0.129);
-}
-.highlight-yellow_background {
-	background: rgba(211, 168, 0, 0.137);
-}
-.highlight-teal_background {
-	background: rgba(0, 100, 45, 0.09);
-}
-.highlight-blue_background {
-	background: rgba(0, 124, 215, 0.094);
-}
-.highlight-purple_background {
-	background: rgba(102, 0, 178, 0.078);
-}
-.highlight-pink_background {
-	background: rgba(197, 0, 93, 0.086);
-}
-.highlight-red_background {
-	background: rgba(223, 22, 0, 0.094);
-}
-.block-color-default {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray {
-	color: rgba(125, 122, 117, 1);
-	fill: rgba(125, 122, 117, 1);
-}
-.block-color-brown {
-	color: rgba(159, 118, 90, 1);
-	fill: rgba(159, 118, 90, 1);
-}
-.block-color-orange {
-	color: rgba(210, 123, 45, 1);
-	fill: rgba(210, 123, 45, 1);
-}
-.block-color-yellow {
-	color: rgba(203, 148, 52, 1);
-	fill: rgba(203, 148, 52, 1);
-}
-.block-color-teal {
-	color: rgba(80, 148, 110, 1);
-	fill: rgba(80, 148, 110, 1);
-}
-.block-color-blue {
-	color: rgba(56, 125, 201, 1);
-	fill: rgba(56, 125, 201, 1);
-}
-.block-color-purple {
-	color: rgba(154, 107, 180, 1);
-	fill: rgba(154, 107, 180, 1);
-}
-.block-color-pink {
-	color: rgba(193, 76, 138, 1);
-	fill: rgba(193, 76, 138, 1);
-}
-.block-color-red {
-	color: rgba(207, 81, 72, 1);
-	fill: rgba(207, 81, 72, 1);
-}
-.block-color-default_background {
-	color: inherit;
-	fill: inherit;
-}
-.block-color-gray_background {
-	background: rgba(240, 239, 237, 1);
-}
-.block-color-brown_background {
-	background: rgba(245, 237, 233, 1);
-}
-.block-color-orange_background {
-	background: rgba(251, 235, 222, 1);
-}
-.block-color-yellow_background {
-	background: rgba(249, 243, 220, 1);
-}
-.block-color-teal_background {
-	background: rgba(232, 241, 236, 1);
-}
-.block-color-blue_background {
-	background: rgba(229, 242, 252, 1);
-}
-.block-color-purple_background {
-	background: rgba(243, 235, 249, 1);
-}
-.block-color-pink_background {
-	background: rgba(250, 233, 241, 1);
-}
-.block-color-red_background {
-	background: rgba(252, 233, 231, 1);
-}
-.select-value-color-default { background-color: rgba(42, 28, 0, 0.07); }
-.select-value-color-gray { background-color: rgba(28, 19, 1, 0.11); }
-.select-value-color-brown { background-color: rgba(127, 51, 0, 0.156); }
-.select-value-color-orange { background-color: rgba(196, 88, 0, 0.203); }
-.select-value-color-yellow { background-color: rgba(209, 156, 0, 0.282); }
-.select-value-color-green { background-color: rgba(0, 96, 38, 0.156); }
-.select-value-color-blue { background-color: rgba(0, 118, 217, 0.203); }
-.select-value-color-purple { background-color: rgba(92, 0, 163, 0.141); }
-.select-value-color-pink { background-color: rgba(183, 0, 78, 0.152); }
-.select-value-color-red { background-color: rgba(206, 24, 0, 0.164); }
-
-.checkbox {
-	display: inline-flex;
-	vertical-align: text-bottom;
-	width: 16;
-	height: 16;
-	background-size: 16px;
-	margin-left: 2px;
-	margin-right: 5px;
-}
-
-.checkbox-on {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20width%3D%2216%22%20height%3D%2216%22%20fill%3D%22%2358A9D7%22%2F%3E%0A%3Cpath%20d%3D%22M6.71429%2012.2852L14%204.9995L12.7143%203.71436L6.71429%209.71378L3.28571%206.2831L2%207.57092L6.71429%2012.2852Z%22%20fill%3D%22white%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-
-.checkbox-off {
-	background-image: url("data:image/svg+xml;charset=UTF-8,%3Csvg%20width%3D%2216%22%20height%3D%2216%22%20viewBox%3D%220%200%2016%2016%22%20fill%3D%22none%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%0A%3Crect%20x%3D%220.75%22%20y%3D%220.75%22%20width%3D%2214.5%22%20height%3D%2214.5%22%20fill%3D%22white%22%20stroke%3D%22%2336352F%22%20stroke-width%3D%221.5%22%2F%3E%0A%3C%2Fsvg%3E");
-}
-	
-</style></head><body><article id="2aec5e6f-95bd-80b9-b523-db71bf46baca" class="page sans"><header><h1 class="page-title" dir="auto">Giáo trình đào tạo UniTaxi</h1><p class="page-description" dir="auto"></p></header><div class="page-body"><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8066-b316-f7e7c8f65f18" class=""><strong>Nội dung nền tảng chung (16 giờ)</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8076-9423-f3c95918f630" class=""><em>(Học chung cho Tài xế – Điều phối – Kỹ thuật)</em></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80b0-8ceb-fa15c9e6a8a9"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80f2-a998-d8c36b899e14" class=""><strong>📘 1. 
-BỐI CẢNH &amp; SỨ MỆNH UNITAXI (2 GIỜ)</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8077-a794-e80078a6cc83" class=""><strong>Mục tiêu khóa học: </strong>Giúp học viên hiểu <strong>vì sao Unitaxi tồn tại</strong>, vì sao mô hình khác biệt, và vì sao mỗi người trong hệ thống có trách nhiệm giữ hình ảnh thương hiệu.</p></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-8067-b969-ef07ec65a373" class=""><strong>⏱ Cấu trúc thời lượng 2 giờ</strong></h2></div><div style="display:contents" dir="ltr"><table id="2aec5e6f-95bd-8027-8917-fb3e8b52b330" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80bf-a88f-dee42ef4ef5b"><th id="}&gt;oA" class="simple-table-header-color simple-table-header"><strong>Thời gian</strong></th><th id="VAP}" class="simple-table-header-color simple-table-header" style="width:524px"><strong>Nội dung</strong></th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80eb-a18e-d64c5964e745"><td id="}&gt;oA" class="">0–15 phút</td><td id="VAP}" class="" style="width:524px">Bối cảnh ngành giao thông &amp; 
-xu hướng xe điện</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8068-a226-ed0ff1cc7c04"><td id="}&gt;oA" class="">15–40 phút</td><td id="VAP}" class="" style="width:524px">Vì sao Unitaxi chọn mô hình 100% xe điện</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80f7-baba-ec67738c2a08"><td id="}&gt;oA" class="">40–70 phút</td><td id="VAP}" class="" style="width:524px">Vai trò của giao thông xanh trong đô thị hiện đại</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8015-b4b8-eadb74b179b4"><td id="}&gt;oA" class="">70–95 phút</td><td id="VAP}" class="" style="width:524px">Mối liên kết Tài xế – Điều phối – Kỹ thuật</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-802e-8a9a-ca0680af3818"><td id="}&gt;oA" class="">95–110 phút</td><td id="VAP}" class="" style="width:524px">Ý nghĩa nghề nghiệp &amp; hình ảnh người tài xế Unitaxi</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-806a-b07a-c2a01b9fe847"><td id="}&gt;oA" class="">110–120 phút</td><td id="VAP}" class="" style="width:524px">Hỏi đáp + Bài kiểm tra nhanh</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80ce-ba86-d008fa297f89"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80af-866c-c2bf5ba3d992" class="">🚀 <strong>HÀNH TRÌNH MỚI: UNITAXI VÀ SỨ MỆNH KIẾN TẠO GIAO THÔNG VIỆT NAM</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80bd-8ca1-ed99f98dc1d9" class=""><strong>(Thời lượng: 15 phút – Chuẩn đào tạo Quốc tế)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80ac-8a7b-e0a76c6effb9" class=""><strong>Mục tiêu:</strong> Cùng nhau khám phá cơ hội vàng từ những thách thức giao thông Việt Nam, nắm bắt xu hướng toàn cầu, và xác định vai trò tiên phong của chúng ta trong cuộc cách mạng taxi điện. 
-Buổi học đề cao sự chia sẻ kinh nghiệm thực tế để mỗi chúng ta đều trở thành người dẫn đầu.</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80ea-a978-fd43a0268e77"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-804c-ba78-c51e613d4364" class=""><strong>A. VIỆT NAM: BỨC TRANH THÁCH THỨC &amp; CƠ HỘI VÀNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e3-b908-f919965667b5" class=""><strong>(7 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80cc-a956-df381136724b" class=""><strong>Câu chuyện mở đầu:</strong> Hãy nghĩ về những con đường chúng ta chạy mỗi ngày. Đó không chỉ là thách thức, mà chính là LÝ DO tại sao chúng ta có mặt ở đây hôm nay.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8040-81d3-ca20aa6dda6c" class="bulleted-list"><li style="list-style-type:disc"><strong>1. Ùn tắc đô thị – Áp lực hay Động lực? (1,5 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8053-8d15-ce29ad0298cb" class="bulleted-list"><li style="list-style-type:circle"><strong>Thực trạng:</strong> Hà Nội và TP.HCM đang trong top 15 thành phố kẹt xe nhất châu Á. 
-Khái niệm &quot;giờ thấp điểm&quot; dần biến mất.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c4-bd75-e7570161db0b" class="bulleted-list"><li style="list-style-type:circle"><strong>Hệ quả:</strong> Thời gian mỗi chuyến kéo dài, thu nhập bấp bênh, và đặc biệt là <strong>căng thẳng</strong> cho cả tài xế và hành khách.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805a-a4b9-d568223fe717" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Hãy chia sẻ một cách xử lý thông minh hoặc một câu chuyện vui bạn đã từng trải qua trong giờ kẹt xe để giữ được thiện cảm của khách?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8076-a0d8-db0fec45f304" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Ô nhiễm – Sứ mệnh Làm Sạch Bầu Không Khí của Chính Chúng Ta (1,5 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8002-bd99-e29b34538a8f" class="bulleted-list"><li style="list-style-type:circle"><strong>Sự thật:</strong> Giao thông là thủ phạm chính gây ra 35-45% ô nhiễm không khí. 
-Tiếng ồn và khí thải khiến các tuyến phố trở nên ngột ngạt.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c3-898e-e8f1b64b60dd" class="bulleted-list"><li style="list-style-type:circle"><strong>Xu hướng:</strong> Các thành phố hàng đầu như Tokyo, Singapore đang chuyển mình mạnh mẽ với taxi điện – êm ái, sạch sẽ, văn minh.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b8-bb6c-f3678ced9103" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Khách hàng đã bao giờ phản hồi với bạn về mùi xe xăng hay sự yên tĩnh của xe điện chưa? Chúng ta có thể làm gì để mang lại trải nghiệm &#x27;sạch - êm&#x27; hơn nữa?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8041-88e4-d0d46af9bffc" class="bulleted-list"><li style="list-style-type:disc"><strong>3. Chi Phí Vận Hành – Chìa Khóa Để Tăng Thu Nhập (1,5 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806c-a15d-e984aaff1ca2" class="bulleted-list"><li style="list-style-type:circle"><strong>Bài toán khó:</strong> Giá xăng biến động không lường, chi phí bảo trì, sửa chữa cho xe xăng luôn là gánh nặng, &quot;ăn mòn&quot; lợi nhuận mỗi ngày.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800a-aa90-cc80acc09022" class="bulleted-list"><li style="list-style-type:circle"><strong>Lời giải:</strong> Xe điện chính là chìa khóa! Nghiên cứu từ Uber &amp; Bolt cho thấy xe điện giúp <strong>tiết kiệm 30-50% chi phí vận hành</strong>. 
-Điều này nghĩa là thu nhập ổn định hơn, ít lo âu hơn!</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807e-b452-defa9196ba5b" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Biến động giá xăng ảnh hưởng thế nào đến kế hoạch tài chính của bạn? Bạn kỳ vọng gì vào giải pháp xe điện?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ca-b47d-e9cfb0dd2e23" class="bulleted-list"><li style="list-style-type:disc"><strong>4. Hành Khách Mới – Kỳ Vọng Mới: Họ Muốn Gì? (2,5 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f6-8b8e-d78703c1703f" class="bulleted-list"><li style="list-style-type:circle"><strong>Thế hệ Gen Z, Millennials:</strong> Họ nhạy cảm với mùi xe, điều hòa, và sự chuyên nghiệp.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8011-8e2f-e121f7b795a1" class="bulleted-list"><li style="list-style-type:circle"><strong>Các gia đình:</strong> Ưu tiên sự an toàn, êm ái, sạch sẽ cho con nhỏ.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8048-8bd0-c0e2d1291006" class="bulleted-list"><li style="list-style-type:circle"><strong>Doanh nghiệp:</strong> Hướng tới các đối tác &quot;xanh&quot; để phát triển bền vững.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8033-bf8a-c9b20bbb90f7" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Kết Luận &amp; Thảo Luận (1 phút):</strong> &quot;Khách hàng ngày nay sẵn sàng trả giá cao hơn cho một trải nghiệm tuyệt vời. Ai đã từng nhận được lời khen ngợi vì thái độ tốt hoặc chiếc xe sạch sẽ? Hãy chia sẻ câu chuyện thành công của bạn để cả lớp cùng học hỏi!&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8012-bf19-f77e0f8da02e" class=""><strong>➡ THÔNG ĐIỆP KẾT: </strong>Việt Nam đang ở một ngã rẽ lịch sử. 
-Sự thay đổi không còn là lựa chọn, mà là TẤT YẾU. Và chúng ta, những người trực tiếp vận hành, chính là những NGƯỜI TIÊN PHONG dẫn dắt sự thay đổi đó: Hướng tới một nền giao thông <strong>XANH HƠN, ÊM ÁI HƠN, CHUYÊN NGHIỆP HƠN.</strong></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8086-807f-fdee087b49bc"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8044-aa63-f9ca76626e10" class=""><strong>B. BỨC TRANH TOÀN CẦU: UNITAXI – CHÚNG TA ĐANG Ở ĐÂU TRONG CUỘC ĐUA NÀY?</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8070-b75c-d24ce4e2c56a" class=""><strong>(8 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8027-842e-e1227e8a9dab" class=""><strong>Dẫn nhập:</strong> Chúng ta không đơn độc. Cả thế giới đang chạy đua, và Việt Nam có cơ hội để bắt kịp, thậm chí vượt lên dẫn đầu.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c2-ba96-dfe4f54b1a96" class="bulleted-list"><li style="list-style-type:disc"><strong>1. 
-Làn Sóng Xanh Toàn Cầu – Chúng Ta Có Muốn Bị Bỏ Lại? (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e5-9092-e8cae3ac8869" class="bulleted-list"><li style="list-style-type:circle"><strong>Uber &amp; Lyft:</strong> Cam kết 100% xe điện tại các thành phố lớn vào 2030.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d1-b6ca-e7c19ba44420" class="bulleted-list"><li style="list-style-type:circle"><strong>Grab:</strong> Đang triển khai 50.000 xe điện tại Đông Nam Á.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d4-b236-ffea8592a98e" class="bulleted-list"><li style="list-style-type:circle"><strong>Bolt:</strong> Thưởng đặc biệt cho các tài xế xe điện.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ad-8a82-cb0efd67b1e7" class="bulleted-list"><li style="list-style-type:circle"><strong>Bài học:</strong> Taxi điện không chỉ là phương tiện, mà là <strong>lợi thế cạnh tranh</strong> giúp tăng điểm đánh giá, tăng sự trung thành của khách hàng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8098-9345-d81ab86d50ab" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Khi cả thế giới đang chuyển mình, theo bạn, Unitaxi nên làm gì để chúng ta không chỉ theo kịp, mà còn DẪN ĐẦU thị trường?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80aa-8749-e42aa82c7398" class="bulleted-list"><li style="list-style-type:disc"><strong>2. 
-Chính Sách &quot;Thúc Lưng&quot; cho Xe Điện – Cánh Cửa Thời Đại Đang Mở (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807b-8e08-ca25cf9d7209" class="bulleted-list"><li style="list-style-type:circle"><strong>Singapore, EU:</strong> Siết chặt xe xăng, ưu đãi lớn cho xe điện.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801b-9540-d2f23b8ceffb" class="bulleted-list"><li style="list-style-type:circle"><strong>Nhật Bản, Hàn Quốc:</strong> Hạ tầng sạc điện được đầu tư mạnh mẽ, taxi điện trở thành hình ảnh quốc gia.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808c-a328-e34419495b8c" class="bulleted-list"><li style="list-style-type:circle"><strong>Thông điệp toàn cầu:</strong> &quot;Hãy hướng tới sự <strong>Êm Ái - Sạch Sẽ - Giảm Khí Thải</strong>&quot;.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d5-a070-f0ed8230cf47" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Nếu Việt Nam áp dụng các chính sách ưu tiên xe điện, điều đó sẽ TẠO RA CƠ HỘI gì cho bạn?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f0-9de8-cc57288e5968" class="bulleted-list"><li style="list-style-type:disc"><strong>3. Trải Nghiệm Là Vua – Điều Gì Khiến Khách Hàng Toàn Cầu Trung Thành? (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800c-b429-cc318eab5956" class="bulleted-list"><li style="list-style-type:circle">Không còn là cuộc chiến giá rẻ. 
-Đó là cuộc chiến về <strong>cảm xúc</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a6-a67e-cdd3ed5b6613" class="bulleted-list"><li style="list-style-type:circle">Khách hàng toàn cầu tìm kiếm sự <strong>&quot;yên tĩnh, sạch sẽ, êm ái&quot;</strong> – những yếu tố mà xe điện sở hữu một cách tuyệt đối.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f5-a9f6-e3bc8527eed6" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Ngoài việc lái xe an toàn, bạn đã làm điều gì &#x27;đặc biệt&#x27; nhỏ thôi để khiến khách hàng nhớ đến chuyến đi và muốn quay lại với bạn?&quot; (Ví dụ: một câu chào thân thiện, nhiệt độ điều hòa vừa phải...)</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805d-ae86-c45cccc5821c" class="bulleted-list"><li style="list-style-type:disc"><strong>4. 
-Chuẩn Mực Phục Vụ Đẳng Cấp Thế Giới – Chúng Ta Học Hỏi Điều Gì? 
-(2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c4-b1f5-e757f5dd7866" class="bulleted-list"><li style="list-style-type:circle"><strong>Tokyo MK Taxi (Nhật Bản):</strong> Đỉnh cao của sự an toàn, lịch sự và chu đáo.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8024-a9ea-c332c99b59bd" class="bulleted-list"><li style="list-style-type:circle"><strong>Uber/Bolt Training:</strong> Nghệ thuật giao tiếp, xử lý tình huống, tạo dựng niềm tin.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8057-b13b-d81ac6d433e3" class="bulleted-list"><li style="list-style-type:circle"><strong>ComfortDelGro (Singapore):</strong> Sự kỷ luật, đúng giờ và hình ảnh chuyên nghiệp.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8011-9624-f214ef602b51" class="bulleted-list"><li style="list-style-type:circle"><strong>Unitaxi</strong> đã chắt lọc tinh hoa của thế giới để xây dựng giáo trình 48 giờ, trang bị cho bạn mọi kỹ năng để TỎA SÁNG.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808d-97b9-de5d824b7b77" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Trong các chuẩn mực quốc tế trên, bạn cảm thấy yếu tố nào là sức mạnh của bản thân và yếu tố nào bạn muốn cùng Unitaxi trau dồi thêm?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8087-8132-e2aa15797fd7"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80cc-a6ca-c65635ddc2a7" class="">🎯 <strong>LỜI KẾT: CHÚNG TA CÙNG VIẾT NÊN CÂU CHUYỆN THÀNH CÔNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e7-8c4d-fe49ca467610" class=""><strong>(1 phút cuối)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8056-9f00-eec52bd32d7f" class="">&quot;Taxi điện không phải là điểm đến, 
-mà là HÀNH TRÌNH chúng ta cùng nhau bắt đầu. Đây là cơ hội để chúng ta – những tài xế, điều phối viên, kỹ thuật viên – không còn là người chứng kiến, mà trở thành NHÂN VẬT CHÍNH kiến tạo tương lai giao thông Việt Nam.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80ba-8086-eb07d587bac0" class="">Unitaxi cam kết đồng hành cùng bạn với công nghệ, đào tạo và chính sách tốt nhất. Vậy còn bạn, bạn sẵn sàng cùng chúng tôi làm gì để biến Unitaxi trở thành biểu tượng của sự <strong>hiện đại, thân thiện và tiên phong</strong>?</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d8-870f-c16c772661a8" class="bulleted-list"><li style="list-style-type:disc"><em>(Dành 1 phút cuối để lắng nghe các ý tưởng, sáng kiến từ học viên về các chương trình đào tạo, quảng bá hình ảnh xe xanh, hoặc các dịch vụ gia tăng cho khách hàng.)</em></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8002-a486-c242ab202c42"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8065-b402-ee8314f0083f" class="">🚀 <strong>GIÁO TRÌNH: VÌ SAO CHÚNG TA CÙNG NHAU CHỌN XE ĐIỆN 100%?</strong></h1></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80ef-83e4-c2f263a687c7"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-805c-9c68-f42bef94d32b" class=""><strong>a. CUỘC CÁCH MẠNG CÁ NHÂN: LÁI XE ĐIỆN - VÌ SỨC KHỎE &amp; THU NHẬP CỦA CHÍNH BẠN</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-809b-9a44-f6b7c8867679" class=""><strong>(Thời lượng: 7 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8084-b0a6-deaceec9d5a0" class=""><strong>Dẫn nhập:</strong> Chúng ta không chỉ đổi xe, chúng ta đang nâng cấp chất lượng cuộc sống và công việc của chính mình.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e0-a805-d92c05e21c8b" class="bulleted-list"><li style="list-style-type:disc"><strong>1. 
-Chi phí Ổn Định - Thu nhập Có Thể Dự Đoán (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80fd-8f13-c7a5a1c8088f" class="bulleted-list"><li style="list-style-type:circle"><strong>Câu chuyện cũ (Xe xăng):</strong> Vật lộn với biến động giá xăng, những khoản sửa chữa lặt vặt liên tục (nhớt, bugi, lọc gió) - thu nhập tháng này chẳng biết tháng sau ra sao.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809c-88c7-d98eecb8a908" class="bulleted-list"><li style="list-style-type:circle"><strong>Tương lai mới (Xe điện):</strong> Chi phí &quot;nạp điện&quot; thấp hơn 30-40%, ít bộ phận hao mòn - <strong>bạn biết chắc mình kiếm được bao nhiêu.</strong> Hãy nhìn Singapore: tài xế EV tiết kiệm tới 35% chi phí mỗi tháng!</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c8-b76e-c717e3d44054" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Sự bất ổn của giá xăng đã &#x27;ăn&#x27; bao nhiêu phần thu nhập của bạn? Bạn cảm thấy thế nào về một tương lai với chi phí cố định?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8021-9b86-f49015e01d63" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Trải Nghiệm Lái Xe - Sự Tỉnh Táo Sau Mỗi Ca Làm (1,5 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e7-acb8-d9a13f94a8bb" class="bulleted-list"><li style="list-style-type:circle"><strong>Cảm giác cũ:</strong> Sự mệt mỏi đến từ tiếng ồn, độ rung và mùi xe xăng sau một ngày dài.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8018-ba37-e7e8b1726c83" class="bulleted-list"><li style="list-style-type:circle"><strong>Cảm giác mới:</strong> Sự êm ái, yên tĩnh tuyệt đối. Bạn kết thúc ca lái mà đầu óc vẫn nhẹ nhàng, cơ thể ít căng thẳng. 
-Đó là lý do Uber ưu tiên EV cho các chuyến cao cấp!</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808f-b7e6-d41b3571424c" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Hãy tưởng tượng kết thúc một ca 12 tiếng mà vẫn cảm thấy tỉnh táo. Điều đó sẽ thay đổi cuộc sống của bạn thế nào?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8050-a140-f0fe56618b4a" class="bulleted-list"><li style="list-style-type:disc"><strong>3. Độ Tin Cậy - &quot;Chiến Hữu&quot; Đáng Tin Cậy Trên Mọi Cung Đường (1,5 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8039-bea7-da0869233ea1" class="bulleted-list"><li style="list-style-type:circle"><strong>Rủi ro cũ:</strong> &quot;Chết máy&quot; giữa đường, mất cuốc, mất uy tín.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8033-b654-e85a89cb8188" class="bulleted-list"><li style="list-style-type:circle"><strong>Tự tin mới:</strong> Động cơ điện đơn giản, ít hỏng vặt. Bạn tập trung vào kiếm tiền, không còn lo lắng về những bất ngờ khó chịu. Ở Hàn Quốc, EV giảm 60% thời gian sửa chữa!</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e3-935f-d94bf209757e" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Khoảnh khắc xe hỏng giữa đường tồi tệ thế nào? Sự an tâm về độ tin cậy của EV có đáng giá với bạn không?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8015-86b7-f5cfb7f44374" class="bulleted-list"><li style="list-style-type:disc"><strong>4. 
-Công Nghệ - Người Bạn Đồng Hành Thông Minh (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c8-be5d-d252fcdd4723" class="bulleted-list"><li style="list-style-type:circle"><strong>Làm việc đơn lẻ:</strong> Bạn phải tự nhớ mọi thứ - khi nào cần bảo dưỡng, lượng xăng còn lại...</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806f-9ecd-e6a0fde38380" class="bulleted-list"><li style="list-style-type:circle"><strong>Làm việc theo đội:</strong> Xe điện kết nối dữ liệu thời gian thực. Đội kỹ thuật chủ động nhắc bảo dưỡng, đội điều phối thông minh phân bổ chuyến đi và nhắc bạn sạc pin đúng lúc.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-804f-97c0-cfeaa28a0059" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Bạn có muốn có một &#x27;trợ lý ảo&#x27; giúp bạn tối ưu lộ trình và bảo trì xe? Dữ liệu từ EV sẽ giúp gì cho bạn?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80d8-a16a-ea60bed1064c"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8022-94b1-e8aacf8ec70d" class=""><strong>b. CUỘC CÁCH MẠNG THƯƠNG HIỆU: CHÚNG TA KHÔNG PHẢI LÀ MỘT TÀI XẾ BÌNH THƯỜNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8092-a751-d8bddf85088e" class=""><strong>(Thời lượng: 6 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8045-a713-f8fef956292a" class=""><strong>Dẫn nhập:</strong> Với xe điện, chúng ta không còn cạnh tranh bằng giá rẻ. Chúng ta cạnh tranh bằng giá trị và sự khác biệt.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80eb-933e-d7ede3d83515" class="bulleted-list"><li style="list-style-type:disc"><strong>1. 
-Định Vị Đẳng Cấp: &quot;Taxi Điện - Êm Ái, Sạch Sẽ, An Toàn&quot; (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800d-bc4c-c8cbd9686a9c" class="bulleted-list"><li style="list-style-type:circle"><strong>Cuộc chiến cũ:</strong> Các hãng khác đua nhau hạ giá, khiến thu nhập của tài xế bị bào mòn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803d-829f-f46c365ccd8e" class="bulleted-list"><li style="list-style-type:circle"><strong>Lối đi của Unitaxi:</strong> Chúng ta là lựa chọn <strong>cao cấp hơn</strong>. Khách hàng trả tiền cho sự yên tĩnh, không mùi, và cảm giác an toàn. Chúng ta xây dựng lòng trung thành, không phải sự rẻ tiền.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e9-bf52-d320fd022914" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Bạn muốn khách hàng nhớ đến mình như một người lái xe bình thường, hay một tài xế chuyên nghiệp của thương hiệu taxi điện đẳng cấp?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8007-b5a9-e465e3203cb9" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Dấu Ấn Khó Phai - Từng Chuyến Đi Là Một Lần Quảng Cáo (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801e-8aa0-d383d7224d52" class="bulleted-list"><li style="list-style-type:circle">Chiếc xe điện đồng nhất, sạch bóng là hình ảnh di động mạnh mẽ nhất. 
-Người ta sẽ chỉ điểm: &quot;<strong>Đó là Unitaxi, taxi điện đó!</strong>&quot;.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8062-8063-f3abc7d40a80" class="bulleted-list"><li style="list-style-type:circle">Khách hàng tự hào khi được sử dụng dịch vụ xanh và sạch, và họ sẽ tự động chia sẻ điều đó.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808e-b03f-fb28ed3cfce4" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Khi khách hàng khen chiếc xe của bạn êm và sạch, bạn cảm thấy thế nào? Điều đó có khiến bạn tự hào về công việc của mình hơn không?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ed-a1e0-d61962da4ffd" class="bulleted-list"><li style="list-style-type:disc"><strong>3. Thoát Khỏi Vòng Xoáy Giảm Giá - Thu Nhập Bền Vững (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800f-8c51-f7a0a028457f" class="bulleted-list"><li style="list-style-type:circle">Chúng ta từ chối tham gia cuộc đua &quot;đốt tiền&quot; vô nghĩa. 
-Thay vì chạy nhiều hơn để kiếm ít hơn, chúng ta chạy thông minh hơn để có thu nhập xứng đáng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8066-8af3-f7766fd6af31" class="bulleted-list"><li style="list-style-type:circle">Unitaxi tập trung vào những khách hàng coi trọng chất lượng, sẵn sàng trả giá cao hơn cho một trải nghiệm tuyệt vời.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d7-86d5-c73c62cd7192" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Bạn muốn chạy 10 chuyến với thu nhập thấp hay 7 chuyến với thu nhập cao và tinh thần thoải mái? EV chính là chìa khóa cho lựa chọn thứ hai.”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-806b-9515-d6a302738b0b"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80ff-af2c-ca2b458eacba" class=""><strong>c. TẦM NHÌN TƯƠNG LAI: KHÔNG CHỈ LÀ MỘT CÔNG TY, MÀ LÀ MỘT SỨ MỆNH</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8077-9500-e1d029e6e6cd" class=""><strong>(Thời lượng: 7 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-808b-ad61-e754ab98e097" class=""><strong>Dẫn nhập:</strong> Lựa chọn của chúng ta hôm nay không chỉ cho ngày mai, mà cho cả 10, 20 năm tới.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8034-b927-e87c24f634b3" class="bulleted-list"><li style="list-style-type:disc"><strong>1. Bắt Nhịp Xu Thế Toàn Cầu - Đón Đầu Chính Sách (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8079-b3b5-fd5a5e3dc24f" class="bulleted-list"><li style="list-style-type:circle">Cả thế giới đang chuyển mình. Các thành phố lớn trên thế giới đang dần loại bỏ xe xăng. 
-Chính phủ Việt Nam cũng đang có những chính sách ưu đãi mạnh mẽ cho giao thông xanh.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80cf-a8b2-c563efb501a0" class="bulleted-list"><li style="list-style-type:circle">Bằng cách đi đầu, Unitaxi và các bạn đang nắm giữ lợi thế tiên phong, trở thành đối tác được ưu tiên.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f1-994c-f3871c055621" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Theo bạn, việc trở thành người tiên phong trong cuộc cách mạng xe điện tại Việt Nam mang lại lợi thế gì cho chúng ta?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c9-95f8-ce5d00db3dd8" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Thu Hút Những Đối Tác &quot;Vàng&quot; (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801c-b34b-dc739862817c" class="bulleted-list"><li style="list-style-type:circle">Các tập đoàn quốc tế, trường học quốc tế, bệnh viện lớn... chỉ muốn hợp tác với những đơn vị vận tải &quot;xanh&quot; và &quot;sạch&quot;.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b0-838d-f6828178d873" class="bulleted-list"><li style="list-style-type:circle">EV là tấm vé thông hành để Unitaxi ký được những hợp đồng dài hạn, ổn định, mang lại nguồn thu nhập bền vững cho tất cả mọi người.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8007-acc3-e98463b0c521" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> “Những hợp đồng doanh nghiệp ổn định sẽ giúp bạn yên tâm ra sao so với việc chạy từng chuyến riêng lẻ?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805d-b430-edfb83b2d7ed" class="bulleted-list"><li style="list-style-type:disc"><strong>3. 
-Tốc Độ Phát Triển Thần Tốc - Nhân Bản Sự Thành Công (3 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8012-86e7-eb0ade5ffa07" class="bulleted-list"><li style="list-style-type:circle">Khi có một đội xe đồng nhất, một quy trình vận hành chuẩn, chúng ta có thể mở rộng Unitaxi đến bất kỳ tỉnh thành nào một cách dễ dàng và nhanh chóng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8094-b48a-f57894e2eea9" class="bulleted-list"><li style="list-style-type:circle">Thương hiệu &quot;Unitaxi - Taxi Điện&quot; sẽ trở thành một biểu tượng trên toàn quốc, và các bạn - những người tiên phong - chính là những hạt nhân quan trọng nhất.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8019-a595-c6373749a65b" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (1 phút):</strong> “Bạn muốn nhìn thấy Unitaxi có mặt ở tỉnh nào tiếp theo? Hãy tưởng tượng khi thương hiệu của chúng ta có mặt trên khắp cả nước, điều đó có ý nghĩa thế nào với bạn?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80de-93c9-ec2002724399"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8092-87bb-e3c849413714" class=""><strong>d. KẾT NỐI SỨ MỆNH: VAI TRÒ CỦA MỖI CHÚNG TA</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8066-8292-eb29c65c32fc" class=""><strong>(Thời lượng: 5 phút cuối)</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8032-91c6-e885f583594f" class="bulleted-list"><li style="list-style-type:disc"><strong>Với Tài Xế:</strong> Bạn là gương mặt của cuộc cách mạng. 
-Mỗi lần bạn chạm vô-lăng, bạn không chỉ kiếm sống - bạn đang kiến tạo tương lai, mang lại hình ảnh đẹp về một Việt Nam hiện đại và văn minh.<br/><strong>📌 Thảo Luận (1 phút):</strong> “Là một trong những người đầu tiên, điều gì khiến bạn tự hào nhất?”</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808b-8b82-e2f005fd75b1" class="bulleted-list"><li style="list-style-type:disc"><strong>Với Điều Phối &amp; Kỹ Thuật:</strong> Các bạn là bộ não và trái tim của hệ thống. Dữ liệu từ EV giúp các bạn hỗ trợ tài xế tốt hơn, tối ưu hóa toàn bộ hệ thống và chứng minh giá trị của chúng ta với các đối tác.<br/><strong>📌 Thảo Luận (1 phút):</strong> “Công cụ và dữ liệu mới giúp bạn phát huy năng lực của mình như thế nào?”</li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8066-8179-d6adae60d67a"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8049-856b-d98cc69d990a" class="">🎯 <strong>LỜI KẾT: CHÚNG TA LÀ NHỮNG NGƯỜI VIẾT NÊN LỊCH SỬ</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8070-a059-c1b3e2407032" class="">Unitaxi chọn 100% xe điện vì:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a1-b11e-d72c8ae7c283" class="bulleted-list"><li style="list-style-type:disc"><strong>Sức khỏe và Thu nhập</strong> của chính bạn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8008-aaa3-fdd91e361f69" class="bulleted-list"><li style="list-style-type:disc"><strong>Thương hiệu Tử tế và Đẳng cấp</strong> mà chúng ta cùng xây đắp.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b1-9eb3-df20eea563fb" class="bulleted-list"><li style="list-style-type:disc"><strong>Tương lai Bền vững</strong> mà chúng ta chung tay kiến tạo.</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f5-a15a-c1002b5961d7" class="">Các bạn không phải là người theo sau. 
-Các bạn là <strong>NGƯỜI DẪN ĐẦU</strong>. Hãy cùng nhau tạo nên dấu ấn!</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80be-ab2f-dd26a781849f" class="bulleted-list"><li style="list-style-type:disc"><em>(Dành 1 phút cuối để lắng nghe cảm xúc, câu chuyện và ý tưởng đóng góp của các học viên.)</em></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80f3-9066-c819a8f6ff0b"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80a4-98b8-f1abd4272616" class="">🍀 <strong>GIÁO TRÌNH: SỨ MỆNH GIAO THÔNG XANH - KIẾN TẠO ĐÔ THỊ VIỆT TƯƠNG LAI</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8042-b88b-df499dcbc881" class=""><strong>(Thời lượng: 30–45 phút – Chuẩn đào tạo Quốc tế nâng cao)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-808f-9287-c1b0996e0274" class=""><strong>Mục tiêu:</strong> Khơi dậy niềm tự hào khi mỗi học viên không chỉ là một tài xế, mà là một <strong>&quot;Người hùng đô thị&quot;</strong> - người trực tiếp kiến tạo một môi trường sống lành mạnh, một hệ thống giao thông hiệu quả và những giá trị nhân văn cho cộng đồng.</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-800d-9138-de56381de9cd"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-808e-821a-edf35fb666dc" class=""><strong>A. 
-NGƯỜI HÙNG THẦM LẶNG: BẢO VỆ SỨC KHỎE CỘNG ĐỒNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80fc-a81f-efecfdad738f" class=""><strong>(10–12 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e2-bd9a-d667ad575e31" class=""><strong>Dẫn nhập:</strong> Mỗi chuyến xe của chúng ta không chỉ là một hành trình, mà là một lựa chọn: Góp phần vào những vấn đề sức khỏe, hay trở thành một phần của giải pháp?</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d1-8003-cf886a975f50" class="bulleted-list"><li style="list-style-type:disc"><strong>1. Lá Phổi Của Thành Phố - Chúng Ta Đang Hít Gì Mỗi Ngày? (4 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8031-b886-c3dfa1d5accc" class="bulleted-list"><li style="list-style-type:circle"><strong>Sự thật giật mình:</strong> 40-60% ô nhiễm không khí đô thị đến từ khí thải xe xăng/dầu. Những hạt bụi siêu mịn PM2.5 là thủ phạm vô hình gây ra viêm phổi, bệnh tim, thậm chí là ung thư.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805a-8ffe-f71fdd8e0f94" class="bulleted-list"><li style="list-style-type:circle"><strong>Hành động cụ thể của chúng ta:</strong> Mỗi chiếc Unitaxi điện là một &quot;lá phổi di động&quot; - <strong>KHÔNG</strong> thải ra bất kỳ khí độc hại nào tại chỗ. 
-Chúng ta đang trực tiếp làm sạch bầu không khí cho chính con em và gia đình mình.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80cc-b410-c2e7ba388ed9" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (1 phút):</strong> &quot;Bạn đã bao giờ cảm nhận rõ sự ô nhiễm trên những cung đường mình chạy? Cảm giác thế nào khi biết mình đang góp phần mang lại bầu không khí sạch hơn?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bc-8917-f3c64a28c0e9" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Sự Yên Tĩnh - Món Quà Sức Khỏe Tinh Thần (4 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803a-b535-f7bfba988f32" class="bulleted-list"><li style="list-style-type:circle"><strong>Âm thanh của sự mệt mỏi:</strong> Tiếng ồn giao thông không chỉ gây khó chịu; nó là tác nhân gây stress, mất ngủ và giảm sự tập trung.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8033-a175-f95cc4ccb19b" class="bulleted-list"><li style="list-style-type:circle"><strong>Âm thanh của tương lai:</strong> Sự yên tĩnh của xe điện không chỉ là một trải nghiệm sang trọng; nó là liều thuốc cho sức khỏe tinh thần của cả tài xế, hành khách và những người dân sống ven đường.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b7-a7e8-fdee897b3ed8" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (1 phút):</strong> &quot;Sự yên tĩnh trong cabin xe điện đã thay đổi trải nghiệm làm việc của bạn thế nào? Khách hàng đã phản hồi gì về điều này?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807c-9573-f827343c642f" class="bulleted-list"><li style="list-style-type:disc"><strong>3. 
-Vòng Tay Bảo Vệ Cho Những Người Dễ Tổn Thương (4 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8037-a7ef-c01ce45451d4" class="bulleted-list"><li style="list-style-type:circle">Chúng ta có một đặc ân và trách nhiệm: Phục vụ những đối tượng cần sự chăm sóc đặc biệt nhất - <strong>trẻ em, người cao tuổi, phụ nữ mang thai.</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c3-b52c-fc9ef8076c5a" class="bulleted-list"><li style="list-style-type:circle">Chiếc xe điện êm ái, sạch sẽ, không mùi độc hại chính là &quot;vòng tay bảo vệ&quot; an toàn nhất cho họ. Đây không còn là dịch vụ, mà là sứ mệnh.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ed-aa7b-dfb61430fd92" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (1 phút):</strong> &quot;Hãy kể về một lần bạn cảm thấy thực sự ý nghĩa khi được chở một hành khách đặc biệt. Xe điện đã giúp bạn chăm sóc họ tốt hơn thế nào?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8061-ac86-d4e9654bc0cb"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80c7-b7d7-f85ff16f93b2" class=""><strong>B. KIẾN TRÚC SƯ ĐÔ THỊ: KIẾN TẠO HỆ THỐNG GIAO THÔNG THÔNG MINH</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8083-a38c-f681070db909" class=""><strong>(10–12 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8036-aeed-ee2a95f61792" class=""><strong>Dẫn nhập:</strong> Chúng ta không chỉ đang lái xe trong thành phố; chúng ta đang cùng nhau <strong>vận hành và cải tạo</strong> hệ thống giao thông đô thị.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c6-aba8-c278cde33464" class="bulleted-list"><li style="list-style-type:disc"><strong>1. 
-Giải Pháp Cho Sự Tắc Nghẽn - &quot;Làn Sóng Xanh&quot; Từ Mỗi Vô-Lăng (4 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c1-a729-ec7618cb7499" class="bulleted-list"><li style="list-style-type:circle">Khả năng tăng tốc mượt mà và phanh tái sinh của xe điện giúp giảm thiểu hiệu ứng &quot;sóng người đi bộ&quot; - một trong những nguyên nhân chính gây ùn tắc cục bộ.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a9-baf5-f80141078356" class="bulleted-list"><li style="list-style-type:circle">Khi chúng ta lái xe êm ái và chủ động, chúng ta đang tạo ra một &quot;làn sóng xanh&quot; lưu thông cho tất cả các phương tiện phía sau.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806b-8b71-ebb1f27abe51" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo luận (1 phút):</strong> &quot;Bạn có nhận thấy sự khác biệt trong cách dòng xe lưu thông khi bạn lái một chiếc xe êm ái và tăng tốc mượt mà? Hãy chia sẻ trải nghiệm.&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b0-b83e-de89ee97a942" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Trái Tim Của Thành Phố Thông Minh (3 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8031-bee8-faefe7f43037" class="bulleted-list"><li style="list-style-type:circle">Mỗi chiếc Unitaxi là một &quot;cảm biến di động&quot; thu thập dữ liệu giao thông theo thời gian thực. 
-Dữ liệu này giúp thành phố hiểu và tối ưu hóa hệ thống giao thông một cách thông minh.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8003-aa41-c185fc67ae2b" class="bulleted-list"><li style="list-style-type:circle">Chúng ta không còn là những cá thể đơn lẻ; chúng ta là một mạng lưới kết nối, cùng nhau tạo nên một hệ sinh thái giao thông hiệu quả hơn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80da-ba5b-d4ac5df9b100" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo luận (30 giây):</strong> &quot;Theo bạn, dữ liệu từ đội xe điện của chúng ta có thể giúp ích gì cho việc quy hoạch giao thông của thành phố trong tương lai?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807e-bb34-cf2cd79452ee" class="bulleted-list"><li style="list-style-type:disc"><strong>3. Người Gác Cổng An Toàn Đường Phố (3 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807e-ac5c-cbd57cea7a74" class="bulleted-list"><li style="list-style-type:circle">Thiết kế của xe điện với trọng tâm thấp và khả năng phản hồi tức thì giúp hạn chế tai nạn. 
-Sự êm ái giúp tài xế giữ được bình tĩnh và tập trung cao độ hơn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b3-a407-f8ac424c283d" class="bulleted-list"><li style="list-style-type:circle">Mỗi chuyến đi an toàn không chỉ bảo vệ bạn và khách hàng, mà còn góp phần tạo nên một môi trường đường phố an toàn hơn cho tất cả mọi người.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8059-b13a-cb4e312c2f40" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo luận (30 giây):</strong> &quot;Điều gì về xe điện khiến bạn cảm thấy tự tin hơn về mặt an toàn so với xe xăng?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8071-b952-d4c63a9b959f"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80ef-8952-d164376fa163" class=""><strong>C. GIÁ TRỊ CỐT LÕI: XÂY DỰNG MỘT DI SẢN TỬ TẾ</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8012-b475-e49899669fdb" class=""><strong>(10–12 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80eb-a91f-e0f7f2dcd74a" class=""><strong>Dẫn nhập:</strong> Di sản mà chúng ta để lại không phải là doanh số, mà là những giá trị nhân văn và sự thay đổi tích cực mà chúng ta mang đến cho xã hội.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809b-9055-c5d0e0076627" class="bulleted-list"><li style="list-style-type:disc"><strong>1. 
-Dịch Vụ Mang Trái Tim - Phục Vụ Vì Cộng Đồng (3 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80be-92bd-c9874a3ba4d9" class="bulleted-list"><li style="list-style-type:circle">Unitaxi không đơn thuần là một hãng xe, mà là một mạng lưới an sinh lưu động, đặc biệt dành cho những đối tượng dễ bị tổn thương nhất.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8066-8fdc-f4672761c4e3" class="bulleted-list"><li style="list-style-type:circle">Chúng ta xây dựng lòng tin thông qua từng hành động nhỏ: một cái mở cửa, một lời hỏi thăm, một chuyến xe êm ái.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801f-8691-dbaadf119de9" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo luận (30 giây):</strong> &quot;Khoảnh khắc nào khi phục vụ những nhóm hành khách đặc biệt (người già, trẻ em...) khiến bạn cảm thấy công việc của mình thực sự có ý nghĩa?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8096-8580-f63f9c86c7ea" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Người Tiên Phong - Nâng Tầm Nghề Tài Xế Việt (3 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8059-b670-fc2acc5d8db1" class="bulleted-list"><li style="list-style-type:circle">Chúng ta đang viết lại câu chuyện về nghề tài xế. 
-Từ một người lái xe, chúng ta trở thành những <strong>&quot;Chuyên gia Di chuyển&quot;</strong> - am hiểu công nghệ, có tác phong chuẩn quốc tế và một trái tim phục vụ.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8022-8e87-f4c9130ca4f4" class="bulleted-list"><li style="list-style-type:circle">Hình ảnh của bạn hôm nay sẽ truyền cảm hứng cho thế hệ tài xế tương lai.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-804e-956a-c5bac2a7d702" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo luận (30 giây):</strong> &quot;Bạn muốn mọi người nhìn nhận nghề tài xế của chúng ta như thế nào? Làm thế nào để chúng ta cùng nhau thay đổi định kiến?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8087-a4cd-c80b489449ad" class="bulleted-list"><li style="list-style-type:disc"><strong>3. Đối Tác Đáng Tin Cậy Cho Tương Lai (3 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800e-8dad-d6fdc8808fe5" class="bulleted-list"><li style="list-style-type:circle">Các trường học, bệnh viện và tập đoàn lớn đang tìm kiếm những đối tác &quot;xanh&quot; và &quot;có trách nhiệm&quot;. 
-Unitaxi, với 100% xe điện và đội ngũ được đào tạo bài bản, chính là câu trả lời hoàn hảo.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800f-b92b-c83eced4ca6e" class="bulleted-list"><li style="list-style-type:circle">Điều này không chỉ mang lại những hợp đồng bền vững, mà còn khẳng định vị thế tiên phong và đạo đức của chúng ta trong ngành.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ae-93ec-de8186ce4131" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo luận (30 giây):</strong> &quot;Theo bạn, việc trở thành đối tác vận chuyển cho các trường học hoặc bệnh viện có ý nghĩa như thế nào đối với uy tín và sự phát triển của Unitaxi?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8087-a493-c0c9d443eb9c"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-808c-84e7-c087817b2bab" class=""><strong>D. 
-PHÒNG THẢO LUẬN: CHÚNG TA ĐÃ TẠO RA SỰ KHÁC BIỆT</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80ac-8fd6-ce9b1007987c" class=""><strong>(5 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8021-8f3c-f09169684c0c" class=""><strong>Câu hỏi:</strong> &quot;Hãy chia sẻ một tình huống cụ thể mà bạn tin rằng <strong>chiếc xe điện và tác phong phục vụ</strong> của mình đã tạo ra sự khác biệt tích cực, dù lớn hay nhỏ, cho hành khách hoặc cộng đồng.&quot;</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f2-bfc7-cbe175bcf057" class=""><strong>Gợi ý:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8083-8704-f9c95074cbb8" class="bulleted-list"><li style="list-style-type:disc">Một em bé ngủ ngon trên xe thay vì khóc vì say xe.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8014-bf05-d89212544c32" class="bulleted-list"><li style="list-style-type:disc">Một cụ già cảm ơn vì được lên/xuống xe êm ái.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e1-81de-e0509d76e47e" class="bulleted-list"><li style="list-style-type:disc">Một hành khách khen không khí trong lành trong xe.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8016-955d-ecfe639fa6c7" class="bulleted-list"><li style="list-style-type:disc">Một khu phố yên tĩnh hơn nhờ xe chạy êm.</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8012-b761-cb973342aa8c" class=""><strong>Mục tiêu:</strong> Biết rằng mỗi chúng ta đều là một mắt xích quan trọng, cùng viết nên câu chuyện thành công của Unitaxi và của chính một Việt Nam xanh-sạch-êm ái hơn.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8057-848b-ff3694769915" class="bulleted-list"><li style="list-style-type:disc"><em>(Chia nhóm 3-4 người, 
-thảo luận sôi nổi trong 3 phút và chia sẻ những câu chuyện đẹp trong 2 phút cuối.)</em></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-803b-8917-dcc4aa3fe0b7"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-801d-8732-f26ddbb3d24b" class="">🤝 <strong>GIÁO TRÌNH: SỨC MẠNH ĐỒNG ĐỘI - KHI MỖI CHÚNG TA LÀ MỘT MẮT XÍCH HOÀN HẢO</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-802d-9423-e272e622e7b3" class=""><strong>(Thời lượng: 25 phút – Chuẩn đào tạo tinh thần đồng đội Quốc tế)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8001-a2c9-dbc52f90203f" class=""><strong>Mục tiêu:</strong> Khơi dậy tinh thần &quot;Một người vì mọi người&quot;. Học viên hiểu rằng thành công của mỗi cá nhân được xây dựng dựa trên sự phối hợp nhịp nhàng của cả hệ thống, từ đó nâng cao niềm tự hào, trách nhiệm và hiệu quả làm việc nhóm.</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8027-8664-ef905bee3baa"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8081-9875-eb2ae410985b" class=""><strong>A. TRÁI TIM DỊCH VỤ: VAI TRÒ CỦA TÀI XẾ - GƯƠNG MẶT CỦA UNITAXI</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8002-9f22-f40113b1ef14" class=""><strong>(10 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80a1-ade1-f2bdc1f5bb4e" class=""><strong>Dẫn nhập:</strong> Bạn là người hùng thầm lặng. Bạn là người trực tiếp chạm đến trái tim khách hàng và biến những lời hứa của Unitaxi thành hiện thực.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d5-a7b4-f514a95d3836" class="bulleted-list"><li style="list-style-type:disc"><strong>1. 
-Bạn Chính Là Điểm Khác Biệt (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80fd-b884-fce4b5ef18fe" class="bulleted-list"><li style="list-style-type:circle">Công nghệ có thể sao chép, nhưng <strong>thái độ tử tế, sự chuyên nghiệp và kỹ năng lái xe an toàn của bạn là điều không thể thay thế.</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8027-a17e-eb351a28dd87" class="bulleted-list"><li style="list-style-type:circle">Mỗi lần bạn mở cửa, mỗi nụ cười chào hỏi, mỗi chuyến xe êm ái đều khắc sâu vào tâm trí khách hàng về thương hiệu Unitaxi.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80de-8445-e3e119214031" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Hãy kể về một lần bạn cảm thấy mình thực sự tạo ra sự khác biệt trong trải nghiệm của khách hàng. Điều gì khiến họ nhớ đến bạn?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bb-b66d-cbe1eaddd3ed" class="bulleted-list"><li style="list-style-type:disc"><strong>2. 
-Người Cầm Lái Đáng Tin Cậy (3 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d8-bd76-d589700fa626" class="bulleted-list"><li style="list-style-type:circle">Bạn không chỉ lái xe; bạn là <strong>người bảo vệ</strong> cho sự an toàn của khách hàng và cộng đồng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8055-872e-de9cd7be8248" class="bulleted-list"><li style="list-style-type:circle">Việc kiểm tra xe đầu ca (pin, lốp, đèn, vệ sinh) trong 90 giây không phải là thủ tục, mà là <strong>nghi thức thể hiện sự tôn trọng</strong> với công việc và hành khách của mình.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8066-a905-f2fd869c2bf5" class="bulleted-list"><li style="list-style-type:circle">Sự tập trung và lái xe dự đoán của bạn chính là &quot;tấm khiên&quot; vô hình ngăn chặn rủi ro.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a8-84d6-c32c0c2d7f89" class="bulleted-list"><li style="list-style-type:disc"><strong>3. Cộng Sự Thông Thái Của Đội Kỹ Thuật &amp; Điều Phối (3 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808a-bcea-eb14a3b6f902" class="bulleted-list"><li style="list-style-type:circle">Khi bạn báo lỗi <strong>&quot;Rõ - Đúng - Nhanh&quot;</strong> qua app, bạn chính là đôi mắt và đôi tai của đội kỹ thuật trên khắp các cung đường.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8059-acdc-ced356f3ae10" class="bulleted-list"><li style="list-style-type:circle">Thông tin của bạn giúp họ <strong>chẩn đoán chính xác từ xa</strong>, tiết kiệm thời gian và đưa ra giải pháp tức thì. 
-Một thông báo mơ hồ có thể khiến cả hệ thống tốn thêm hàng giờ.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8021-9b1c-f5be99bab08f" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Theo bạn, một báo cáo sự cố lý tưởng cần những thông tin gì? Hãy cùng xây dựng một mẫu báo cáo hoàn hảo!&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b9-9e47-e6a8038bd446" class="bulleted-list"><li style="list-style-type:disc"><strong>4. Đại Sứ Thương Hiệu (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8010-9e08-ee58a985abd6" class="bulleted-list"><li style="list-style-type:circle">Trang phục chỉn chu, lời nói nhã nhặn và hành động chuyên nghiệp của bạn là <strong>bộ mặt đáng tin cậy</strong> của Unitaxi.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80aa-8f65-f5b6ec9abea8" class="bulleted-list"><li style="list-style-type:circle">Bạn không chỉ đại diện cho Unitaxi; bạn đang góp phần <strong>nâng tầm hình ảnh người tài xế Việt</strong> trong mắt cộng đồng và bạn bè quốc tế.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8053-a4d0-c4ff53f1064b"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8001-9ee4-df8c9d5bcaf2" class=""><strong>B. BỘ NÃO ĐIỀU HÀNH: VAI TRÒ CỦA ĐIỀU PHỐI - NGƯỜI KẾT NỐI MỌI TRÁI TIM</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80de-9c69-ff2c763c4697" class=""><strong>(8 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-809b-94b6-c1872088e8fd" class=""><strong>Dẫn nhập:</strong> Nếu tài xế là trái tim, điều phối chính là bộ não. 
-Bạn là người vẽ nên những lộ trình hiệu quả, kết nối mọi người và đảm bảo nhịp đập của hệ thống luôn ổn định.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c2-9ca9-ece44b4a30d3" class="bulleted-list"><li style="list-style-type:disc"><strong>1. Nhà Hoạch Định Tuyệt Vời (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8032-90da-c0f7cec6cca2" class="bulleted-list"><li style="list-style-type:circle">Bạn không chỉ phân công chuyến xe; bạn là <strong>kiến trúc sư của sự hiệu quả</strong>. Mỗi quyết định của bạn giúp giảm thiểu quãng đường chạy rỗng, tiết kiệm thời gian cho tài xế và mang lại trải nghiệm nhanh chóng cho khách hàng.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809f-b088-fa768a562b19" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Người Hỗ Trợ Đáng Tin Cậy (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e2-b30a-f3439a9ac804" class="bulleted-list"><li style="list-style-type:circle">Giọng nói bình tĩnh, rõ ràng của bạn qua sóng liên lạc là <strong>liều thuốc an thần</strong> tốt nhất cho tài xế trong những tình huống căng thẳng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807a-adfd-dd9bb059d7a3" class="bulleted-list"><li style="list-style-type:circle">Bạn là hậu phương vững chắc, luôn lắng nghe và sẵn sàng hỗ trợ.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c1-b0c5-f4f786acb4f6" class="bulleted-list"><li style="list-style-type:disc"><strong>3. 
-Người Đồng Đội Hiểu Rõ Nhất (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80fb-9dcf-ece800138f02" class="bulleted-list"><li style="list-style-type:circle">Việc bạn chủ động nhắc tài xế nghỉ ngơi khi có dấu hiệu mệt mỏi cho thấy Unitaxi không chỉ quan tâm đến hiệu suất, mà còn <strong>trân trọng sức khỏe của từng thành viên.</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8023-a608-f30a0e810059" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Hãy chia sẻ một lần bạn cảm nhận được sự hỗ trợ kịp thời từ đội điều phối. Điều đó đã giúp ích gì cho bạn?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ab-958c-f7f5820a8049" class="bulleted-list"><li style="list-style-type:disc"><strong>4. Cầu Nối Của Niềm Tin (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807b-bce1-f515f1201101" class="bulleted-list"><li style="list-style-type:circle">Bạn là mắt xích kết nối giữa kỳ vọng của khách hàng và khả năng đáp ứng của đội xe. Sự nhạy bén của bạn giúp <strong>cân bằng mọi nhu cầu</strong>, đảm bảo sự hài lòng cho tất cả.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8083-a66a-c34d28321679"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8090-8172-ea8a6ae79603" class=""><strong>C. NỀN TẢNG VỮNG CHẮC: VAI TRÒ CỦA KỸ THUẬT - NGƯỜI GIỮ LỬA CHO MỖI HÀNH TRÌNH</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80de-af78-d93e22f9aaf8" class=""><strong>(7 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e1-8e07-fb3cff8c403d" class=""><strong>Dẫn nhập:</strong> Mọi chuyến xe an toàn và êm ái đều bắt đầu từ đôi bàn tay của bạn. 
-Bạn là người hùng hậu trường, đảm bảo &quot;người bạn đồng hành&quot; - chiếc xe điện - luôn ở trạng thái tốt nhất.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ab-ba06-cfdca04b00b0" class="bulleted-list"><li style="list-style-type:disc"><strong>1. Người Bảo Vệ Sự An Toàn (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803b-b435-f7962105f7f2" class="bulleted-list"><li style="list-style-type:circle">Công việc bảo trì, kiểm tra của bạn không đơn thuần là kỹ thuật; đó là <strong>hành động đảm bảo tính mạng</strong> cho tài xế và hành khách.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bb-bb2f-d94f1faed53b" class="bulleted-list"><li style="list-style-type:circle">Sự tỉ mỉ của bạn chính là &quot;lá chắn thép&quot; ngăn chặn mọi sự cố bất ngờ.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80cb-bc87-cc289dbfa6c1" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Chuyên Gia Giải Mã (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c4-adda-de5d7bfb4709" class="bulleted-list"><li style="list-style-type:circle">Khả năng chẩn đoán nhanh chóng, chính xác và <strong>giải thích dễ hiểu</strong> của bạn giúp xóa tan mọi lo lắng, mang lại sự an tâm cho tài xế.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809c-a48b-c409c16915f4" class="bulleted-list"><li style="list-style-type:circle">Việc trả xe đúng hẹn là minh chứng cho sự tôn trọng thời gian và công việc của đồng đội.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f5-b125-ef57bcf7ca36" class="bulleted-list"><li style="list-style-type:disc"><strong>3. 
-Đối Tác Tin Cậy (2 phút)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80aa-b538-ed2e4c16b36c" class="bulleted-list"><li style="list-style-type:circle">Khi tài xế đưa ra thông tin chính xác, bạn chính là người <strong>biến thông tin thành hành động</strong> khắc phục hiệu quả.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805b-a727-d361139ab994" class="bulleted-list"><li style="list-style-type:circle">Sự phối hợp nhịp nhàng giữa tài xế và kỹ thuật tạo nên một vòng tròn khép kín của sự tin cậy và an toàn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d0-a34f-d25119705906" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Lần gần đây nhất đội kỹ thuật đã &#x27;giải cứu&#x27; bạn khỏi một sự cố khó chịu? Hãy gửi lời cảm ơn hoặc chia sẻ câu chuyện đó!&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80c0-b510-ceda0b19a0d7"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8079-b672-e410800091fb" class=""><strong>D. 
-SỨC MẠNH CỦA VÒNG TRÒN HOÀN HẢO: KHÔNG AI BỊ BỎ LẠI PHÍA SAU</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8073-96bd-efc9b746f754" class=""><strong>(3 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e9-a842-c4c3f8d72a7f" class="">Chúng ta là một vòng tròn khép kín, nơi mỗi người đều là mắt xích quan trọng:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805e-9e2c-f0009db91175" class="bulleted-list"><li style="list-style-type:disc"><strong>Tài Xế</strong> lái xe an toàn, báo cáo sự cố rõ ràng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805a-80d9-d7f3f5a65677" class="bulleted-list"><li style="list-style-type:disc"><strong>Điều Phối</strong> lắng nghe, hỗ trợ và tối ưu hóa lộ trình.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8041-a00e-ffce12bb8eb6" class="bulleted-list"><li style="list-style-type:disc"><strong>Kỹ Thuật</strong> dựa trên thông tin từ tài xế để bảo trì chủ động, sửa chữa nhanh chóng.</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f2-b6b9-c86e40c59482" class=""><strong>Hãy nhớ:</strong> Một con én không làm nên mùa xuân. Một chiếc xe hỏng sẽ ảnh hưởng đến toàn bộ lịch trình. Một thông tin báo cáo mơ hồ sẽ làm chậm trễ cả đội xe. Nhưng khi chúng ta cùng nhau tạo thành một <strong>&quot;vòng tròn hoàn hảo&quot;</strong>, mọi vấn đề đều được giải quyết, và khách hàng nhận được trải nghiệm tuyệt vời nhất.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8038-96c7-f7ad8e39da06" class=""><strong>📌 Thảo luận nhanh (1 phút):</strong> &quot;Hãy thử tưởng tượng một ngày làm việc lý tưởp khi cả 3 bộ phận đều phối hợp ăn ý. 
-Nó sẽ trông như thế nào?&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-800c-afeb-f37f54427fb6"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-807a-ad92-e7ebf17871d0" class="">🎯 <strong>LỜI KẾT: CÙNG NHAU KIẾN TẠO NHỮNG HÀNH TRÌNH HẠNH PHÚC</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8059-ad7b-ebbf77e5c93e" class=""><strong>(2 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8037-87c1-c086087598b1" class="">Thông điệp quan trọng nhất hôm nay: <strong>&quot;Đơn giản là, chúng ta cần nhau.&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8048-906e-d0008c6f6d62" class="">Khi bạn lái xe an toàn, bạn đang bảo vệ uy tín của cả đội. Khi bạn điều phối thông minh, bạn đang nâng đỡ công việc của đồng đội. Khi bạn sửa chữa tận tâm, bạn đang trao gửi sự an tâm cho mỗi hành trình. Chúng ta không chỉ giao tiếp qua sóng điện thoại hay ứng dụng. Chúng ta đang kết nối bằng <strong>sự tin tưởng, trách nhiệm và cùng chung một mục tiêu:</strong> Mang lại những chuyến đi hạnh phúc, an toàn và êm ái cho cộng đồng.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80bf-a276-cfa82e2780aa" class="">Hãy tự hào vì bạn là một phần trong cỗ máy hoàn hảo này. 
-Cảm ơn bạn vì đã là một mắt xích không thể thiếu!</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-800a-ba04-cefd09dd4a36"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80f2-b1c3-e1c5b472b863" class="">🌟 <strong>GIÁO TRÌNH: SỨ MỆNH NGƯỜI TÀI XẾ UNITAXI - KIẾN TẠO NHỮNG HÀNH TRÌNH HẠNH PHÚC</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8072-8194-c5ed8b24143a" class=""><strong>Sổ tay Tác phong Unitaxi – Phần Ý nghĩa Nghề nghiệp(Thời lượng: 15 phút – Trái tim của chương trình đào tạo 48 giờ)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-806f-a3ba-fb77bd585ada" class=""><strong>Mục tiêu:</strong> Khơi dậy lòng tự hào và nhận thức sâu sắc về sứ mệnh. Giúp mỗi học viên thấy rằng họ không chỉ đang LÁI XE, mà đang kiến tạo niềm tin, gìn giữ an toàn và trao gửi yêu thương trong từng hành trình.</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8091-a63d-c31ee5709b50"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8024-a151-f670571e49fd" class=""><strong>A. BỐN DANH HIỆU CAO QUÝ CỦA NGƯỜI TÀI XẾ UNITAXI</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80a4-9fbb-f7194ec3dfdb" class=""><strong>(5 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b6-b7d1-f019aa9654fa" class=""><strong>Dẫn nhập:</strong> Trong hành trình của Unitaxi, chúng ta không có người lái xe. Chúng ta có những NGƯỜI GIỮ VỮNG NHỮNG SỨ MỆNH.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f9-94a8-c1cf17e77c7f" class="bulleted-list"><li style="list-style-type:disc"><strong>1. 
-Người Bảo Vệ An Toàn (The Safety Guardian)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d3-b078-ef9478e4f353" class="bulleted-list"><li style="list-style-type:circle">Bạn không chỉ cầm vô-lăng; bạn đang cầm giữ sự an toàn của những người cha, người mẹ, những đứa trẻ phía sau.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8091-a729-e77fd830a85a" class="bulleted-list"><li style="list-style-type:circle">Mỗi lần bạn giữ khoảng cách an toàn, mỗi lần bạn quan sát kỹ trước khi chuyển làn, đó không phải là quy tắc - đó là <strong>sự tôn trọng sinh mạng</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a0-9fd7-e170052268b0" class="bulleted-list"><li style="list-style-type:circle">Bạn chính là &quot;lá chắn sống&quot; đáng tin cậy nhất của hành khách.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808d-b331-e13c2bfdf11e" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Đại Sứ Thương Hiệu (The Brand Ambassador)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f4-a807-f97200460832" class="bulleted-list"><li style="list-style-type:circle">Trong mắt khách hàng, <strong>BẠN chính là Unitaxi</strong>. Họ có thể quên app thông minh thế nào, nhưng họ sẽ không bao giờ quên <strong>cảm giác</strong> khi ngồi sau xe bạn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803a-9754-e3bca5dab46c" class="bulleted-list"><li style="list-style-type:circle">Một nụ cười chân thành, một câu &quot;Cảm ơn anh/chị đã đồng hành&quot; - đó là những viên gạch xây nên lâu đài thương hiệu Unitaxi.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bd-bf69-d6ee0b9e2288" class="bulleted-list"><li style="list-style-type:disc"><strong>3. 
-Người Hùng Môi Trường Thầm Lặng (The Silent Eco-Hero)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ae-9a1f-f44e5a2e8a22" class="bulleted-list"><li style="list-style-type:circle">Bằng việc lái chiếc xe điện, mỗi km bạn chạy là một <strong>lời hứa với tương lai</strong> - về một bầu trời trong xanh hơn, những con đường yên tĩnh hơn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8006-820c-df78096505bc" class="bulleted-list"><li style="list-style-type:circle">Bạn đang trực tiếp góp phần <strong>chữa lành</strong> những vết thương của thành phố, chỉ bằng cách làm tốt nhất công việc của mình.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808e-9ece-c56501b1a510" class="bulleted-list"><li style="list-style-type:disc"><strong>4. Người Vỗ Về Những Mệt Mỏi (The Comfort Keeper)</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a9-86f7-f0e08ca7c13c" class="bulleted-list"><li style="list-style-type:circle">Khách hàng bước lên xe mang theo cả một ngày dài. Có người vừa tan làm mệt nhoài, có người đang lo lắng cho người thân trong bệnh viện, có em nhỏ đang khóc vì say xe.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f4-8f55-e550a77cefff" class="bulleted-list"><li style="list-style-type:circle">Sự êm ái của bạn, sự im lặng tôn trọng của bạn, hay đơn giản là một chai nước mát lạnh đưa kịp lúc... có thể <strong>biến một chuyến đi thành một sự an ủi</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ad-b34e-c6782ec1684f" class="bulleted-list"><li style="list-style-type:circle"><strong>📌 Cùng Thảo Luận (30 giây):</strong> &quot;Hãy kể về một lần bạn cảm nhận được sự biết ơn chân thành từ khách hàng. 
-Điều gì nhỏ nhất bạn làm lại khiến họ nhớ nhất?&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80ae-bb70-e83e56fdf0ed"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-809c-baad-fa87fbc09059" class=""><strong>B. HÌNH MẪU NGƯỜI TÀI XẾ TƯƠNG LAI - VỪA CÓ TÂM, VỪA CÓ TẦM</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b6-bc8a-db8b8afa750c" class=""><strong>(6 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-804d-9fa2-c704ebd3d97c" class="">Chúng ta cùng nhau xây dựng một hình ảnh mới - nơi người tài xế được trân trọng như một <strong>Nghề Chuyên Nghiệp</strong>.</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8030-9126-c2a5e0bb768f" class="bulleted-list"><li style="list-style-type:disc"><strong>1. Sự Chỉn Chu Tạo Nên Uy Tín</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8002-95ea-ca5a533daba7" class="bulleted-list"><li style="list-style-type:circle">Một bộ đồ phẳng phiu, đôi giày sạch sẽ, chiếc xe tinh tươm. Đó không phải là quy định - đó là <strong>sự tôn trọng dành cho chính bạn và công việc của bạn</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8053-a833-d63294b58e79" class="bulleted-list"><li style="list-style-type:circle">Sự đúng giờ không chỉ là kỷ luật; đó là thông điệp: &quot;Tôi coi trọng thời gian của bạn.&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800c-ac4b-cbb432489e05" class="bulleted-list"><li style="list-style-type:disc"><strong>2. Nghệ Thuật Giao Tiếp Tinh Tế</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8065-8a0d-d9f591c7847c" class="bulleted-list"><li style="list-style-type:circle">Giọng nói nhẹ nhàng, cách nói chuyện đúng mực. 
-Bạn không cần phải là một diễn giả, chỉ cần là một <strong>người đồng hành biết lắng nghe</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8030-b6cb-c24fd5a96f2e" class="bulleted-list"><li style="list-style-type:circle">Im lặng đúng lúc còn giá trị hơn một câu chuyện phiếm không cần thiết.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809c-85b3-d14015b66e4c" class="bulleted-list"><li style="list-style-type:disc"><strong>3. Tài Nghệ Lái Xe - Một Môn Nghệ Thuật</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a9-a3ce-dbb2eb37cbdb" class="bulleted-list"><li style="list-style-type:circle">Khách hàng không cảm nhận được &quot;kỹ thuật lái xe&quot;, họ chỉ cảm nhận được <strong>cảm giác an tâm và thoải mái</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805d-9d68-f8951e02d0f5" class="bulleted-list"><li style="list-style-type:circle">Một phanh nhẹ nhàng, một cua lượn mượt mà - đó là ngôn ngữ của sự chuyên nghiệp mà ai cũng hiểu được.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807a-b2fb-c417822632b6" class="bulleted-list"><li style="list-style-type:disc"><strong>4. Sự Thấu Cảm - Phẩm Chất Cao Quý Nhất</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8022-9acc-cf9d0688cf84" class="bulleted-list"><li style="list-style-type:circle"><strong>Quan sát và Thấu hiểu:</strong> Một hành khách lớn tuổi - cần mở cửa và hỗ trợ. Một em nhỏ - cần điều hòa ấm hơn một chút. 
-Một khách hàng có vẻ mệt mỏi - cần sự yên tĩnh.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8087-87f1-f26c71de0c64" class="bulleted-list"><li style="list-style-type:circle">Bạn không chỉ lái xe; bạn đang <strong>đọc vị cảm xúc</strong> và mang lại trải nghiệm được <strong>cá nhân hóa</strong> một cách tinh tế nhất.</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80f7-99db-f5f7f398e8eb"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8001-9c7c-f50ae76a4976" class=""><strong>C. NIỀM TỰ HÀO ĐÍCH THỰC - CHÚNG TA ĐANG VIẾT NÊN LỊCH SỬ</strong></h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d0-ba8d-e46052ee9bc3" class=""><strong>(4 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-804f-b010-c0ba52063422" class="">Hôm nay, bạn có quyền tự hào vì:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80ac-802e-fd44f5776a5e" class="numbered-list" start="1"><li><strong>Bạn là Người Tiên Phong:</strong> Bạn không đi theo lối mòn. Bạn đang cùng Unitaxi <strong>định hình tương lai</strong> của ngành giao thông Việt Nam - một tương lai xanh, sạch và nhân văn.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-809e-8940-d759cfaac02e" class="numbered-list" start="2"><li><strong>Bạn Tạo Ra Khác Biệt Bằng Chính Con Người Mình:</strong> Mỗi cử chỉ đẹp của bạn, mỗi hành động tử tế của bạn, đều là một <strong>hạt giống tốt</strong> gieo vào lòng thành phố. 
-Khách hàng sẽ không nhớ đến một công ty vô tri, họ sẽ nhớ đến <strong>con người tuyệt vời</strong> đã giúp đỡ họ.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80dc-adc4-f84d43ae9025" class="numbered-list" start="3"><li><strong>Bạn Được Trao Một Đặc Ân:</strong> Rất ít nghề nghiệp cho bạn cơ hội <strong>chạm vào cuộc sống</strong> của hàng trăm người mỗi tháng theo cách tích cực như nghề của chúng ta. Bạn là điểm sáng trong ngày của ai đó, là sự an tâm của một bà mẹ, là niềm vui của một đứa trẻ.</li></ol></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8020-8642-e58ce87fbaa9" class=""><strong>Thông Điệp Kết Thúc (1 phút):</strong></p></div><div style="display:contents" dir="auto"><blockquote id="2aec5e6f-95bd-802a-b91d-d72554e04d80" class="">&quot;Hãy nhớ rằng, phía sau mỗi chuyến xe không chỉ là một hành khách - đó là một câu chuyện.<br/>Và bạn, với tư cách là người tài xế, có đặc quyền được trở thành một nhân tử tốt đẹp trong câu chuyện đó. Hãy phục vụ với tất cả sự chân thành và tôn trọng, như thể người ngồi sau là chính người thân của mình. Không cần điều gì quá lớn lao, chỉ cần sự <strong>tử tế đúng lúc</strong> và <strong>trách nhiệm đến nơi</strong>.<div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-803f-820d-da58c32b9459" class="">Cảm ơn bạn đã chọn trở thành một phần của Unitaxi. 
-Cùng nhau, chúng ta không chỉ vận hành những chiếc xe - chúng ta đang <strong>vận chuyển niềm tin và kiến tạo hạnh phúc</strong>.&quot;</p></div></blockquote></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8072-8c6c-eff6c11601d1"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8092-b0b8-c437416f3467" class="">✅ <strong>BÀI KIỂM TRA NHANH - KẾT THÚC HÀNH TRÌNH ĐÀO TẠO NỀN TẢNG</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8019-ad7a-c9d295011fef" class=""><strong>(Thời lượng: 5 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8026-a7db-f6c477542eae" class=""><strong>Hướng dẫn cho Giảng viên:</strong><br/>&quot;Hãy cùng nhau ôn lại 5 điều cốt lõi nhất. Tôi sẽ đọc từng câu hỏi, chúng ta dành 15 giây suy nghĩ và cùng nhau nói đáp án. Đây không phải là bài thi, mà là dịp để chúng ta cùng khẳng định lại những giá trị chung của Unitaxi.&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-808e-91f5-c78441585a66"/></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8071-9afd-eceb72a79a59" class=""><strong>1. Điều gì khiến Unitaxi quyết tâm chọn 100% xe điện?</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c9-b550-ef4689c6f0b2" class=""><strong>Đáp án then chốt:</strong>&quot;Vì đây là lựa chọn thông minh cho cả tài xế và cộng đồng: giúp chúng ta tiết kiệm chi phí, lái xe an toàn &amp; thoải mái hơn, cùng nhau kiến tạo một thành phố xanh - sạch - êm.&quot;</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e1-81cb-c64ea9f9c2fb" class=""><strong>2. Sức mạnh của sự phối hợp giữa Tài xế - Điều phối - Kỹ thuật nằm ở đâu?</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8075-a830-da3b3eee096e" class=""><strong>Đáp án then chốt:&quot;</strong>Chúng ta là một vòng tròn khép kín. 
-Thông tin rõ ràng từ Tài xế giúp Kỹ thuật hành động chính xác, và sự hỗ trợ kịp thời từ Điều phối giúp Tài xế tập trung vào điều quan trọng nhất: một chuyến xe an toàn và dễ chịu.&quot;</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8043-99df-feca16948784" class=""><strong>3. Tại sao &#x27;An toàn&#x27; luôn phải là nguyên tắc bất di bất dịch?</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8022-b6c6-d8677bdebf9c" class=""><strong>Đáp án then chốt:</strong>&quot;Vì chúng ta đang gánh vác trên vai sự an toàn và sinh mạng của con người. An toàn không chỉ là ưu tiên số 1 - đó là GIÁ TRỊ CỐT LÕI làm nên thương hiệu Unitaxi.&quot;</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8066-b34f-cf2e83bfd1c5" class=""><strong>4. Mỗi chuyến xe xanh của chúng ta đóng góp điều gì cụ thể cho thành phố?</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8079-931e-ea98c3cb9250" class=""><strong>Đáp án then chốt:&quot;Mỗi km chúng ta chạy là một đóng góp trực tiếp:</strong> Một luồng khí thải độc hại ÍT HƠN, một khoảng không gian yên tĩnh HƠN, và một môi trường sống lành mạnh HƠN cho tất cả mọi người.&quot;</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8013-b5a9-d986e7ab3997" class=""><strong>5. Bí quyết nào để tạo nên trải nghiệm tuyệt vời nhất cho khách hàng?</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8051-b450-ea8a61b554d8" class=""><strong>Đáp án then chốt:</strong>&quot;Đó chính là CON NGƯỜI bạn. 
-Các nghiên cứu quốc tế chỉ ra rằng, đến 80% cảm nhận của khách hàng về Unitaxi được quyết định bởi thái độ phục vụ, kỹ năng lái xe và sự chuyên nghiệp của chính bạn.&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8001-ab5d-d81f8b4abe35"/></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8091-bd1c-ce24d9019c9d" class=""><strong>Lời kết của Giảng viên (30 giây): </strong>&quot;Hoàn hảo! Nếu những câu trả lời này đã thấm nhuần trong tâm trí bạn, thì bạn không chỉ sẵn sàng trở thành một tài xế Unitaxi - bạn đã sẵn sàng trở thành một <strong>Người hùng đô thị thực thụ</strong>. Hãy ra đường với tất cả sự tự hào và trách nhiệm. Chúc các bạn luôn giữ vững tay lái, giữ trọn tâm thế và luôn tỏa sáng!&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80ca-803e-fdb4af377fc6"/></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e2-8e44-c6c6d7de0b02" class="">
-</p></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80eb-9d7a-db5fd4de3c30" class=""><strong>📘 GIÁO ÁN ĐÀO TẠO – 8 CHUẨN VĂN HOÁ – TÁC PHONG UNITAXI (4 GIỜ)</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8094-ac06-d677127141a6" class=""><strong>Đối tượng:</strong> Tài xế – Điều phối – Kỹ thuật</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-804a-829b-d13015e124c7" class=""><strong>Hình thức:</strong> Lý thuyết + Tình huống + Diễn vai + Quan sát trực tiếp</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8011-ad19-f60f61699a17" class=""><strong>Mục tiêu:</strong> Chuẩn hóa <em>1 bộ tác phong chung</em> cho toàn hệ thống</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80e6-b1c4-e37a91c0a5a4"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8099-981a-f7fb388e149c" class=""><strong>⏱ 1. 
-CẤU TRÚC BUỔI HỌC (4 GIỜ)</strong></h1></div><div style="display:contents" dir="ltr"><table id="2aec5e6f-95bd-80c9-88a1-dff5d6a30d2d" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8022-88c7-c59c8e2803b0"><th id=":BvO" class="simple-table-header-color simple-table-header" style="width:138px"><strong>Thời gian</strong></th><th id="J~nL" class="simple-table-header-color simple-table-header" style="width:566px"><strong>Nội dung</strong></th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80e1-a08b-f13dce5c9d51"><td id=":BvO" class="" style="width:138px">0–10 phút</td><td id="J~nL" class="" style="width:566px">Giới thiệu – mục tiêu – kỳ vọng</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80d2-89cd-e270b5d247a0"><td id=":BvO" class="" style="width:138px">10–55 phút</td><td id="J~nL" class="" style="width:566px">Chuẩn 1: An toàn trước – sau – luôn luôn</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8021-9dff-d20de6046cf2"><td id=":BvO" class="" style="width:138px">55–75 phút</td><td id="J~nL" class="" style="width:566px">Chuẩn 2: Đúng giờ &amp; 
-tôn trọng cam kết</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80d6-a082-e47b172eb3e1"><td id=":BvO" class="" style="width:138px">75–115 phút</td><td id="J~nL" class="" style="width:566px">Chuẩn 3: Không gian dễ chịu cho khách</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80b2-8def-d4d11d677904"><td id=":BvO" class="" style="width:138px">115–145 phút</td><td id="J~nL" class="" style="width:566px">Chuẩn 4: Tôn trọng trong giao tiếp</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80ca-a575-cc801044d5c6"><td id=":BvO" class="" style="width:138px">145–165 phút</td><td id="J~nL" class="" style="width:566px">Chuẩn 5: Trung thực với hệ thống</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-804f-a454-caab6f195c04"><td id=":BvO" class="" style="width:138px">165–190 phút</td><td id="J~nL" class="" style="width:566px">Chuẩn 6: Kỷ luật giờ giấc – quy trình</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80a9-9a15-ef28be78b1cd"><td id=":BvO" class="" style="width:138px">190–215 phút</td><td id="J~nL" class="" style="width:566px">Chuẩn 7: Chú ý chi tiết (Attention to Detail)</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80a2-9156-dc660e2a2986"><td id=":BvO" class="" style="width:138px">215–235 phút</td><td id="J~nL" class="" style="width:566px">Chuẩn 8: Tự hào khi mặc đồng phục</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8050-8bd3-ee4c4f10e50e"><td id=":BvO" class="" style="width:138px">235–240 phút</td><td id="J~nL" class="" style="width:566px">Kiểm tra nhanh – nhắc lại – kết thúc</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8066-9f52-cb0823d5c411"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8015-b331-f35afd7939ed" class="">🛡️ <strong>CHUẨN 1: AN TOÀN - GIÁ TRỊ KHÔNG BAO GIỜ ĐỔI Đ
-ƯỢC</strong></h1></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80e8-8a4a-fe0773d22add" class=""><strong>A. 
-MỞ ĐẦU: TẠI SAO AN TOÀN LÀ SỐ 1?</strong> (4-5 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d4-a572-e5a6a4a1fbd9" class="">Khi bạn cầm vô-lăng Unitaxi, có một câu hỏi chúng ta nên tự đặt ra mỗi ngày: <strong>&quot;Nếu người ngồi sau là người thân của mình - mình sẽ lái thế nào?&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8082-b4f2-ca185e3b0e26" class="">Câu trả lời luôn chỉ có một: <strong>AN TOÀN TUYỆT ĐỐI</strong>.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80aa-9d38-e1a8db59b2a8" class=""><strong>Thống kê từ Uber &amp; 
-Lyft cho thấy:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c0-b3a3-eba0913157c3" class="bulleted-list"><li style="list-style-type:disc">Tài xế tuân thủ an toàn có thu nhập cao hơn 18% (Uber Pro Diamond)</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a7-b267-fcf0351dc406" class="bulleted-list"><li style="list-style-type:disc">94% khách hàng đánh giá 5 sao khi cảm thấy an toàn (Lyft Safety Survey)</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8089-b886-d7a3389b3598" class="bulleted-list"><li style="list-style-type:disc">Tai nạn giảm 72% khi tài xế được đào tạo phòng vệ (Uber Safety Report 2024)</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80fd-b93d-fd987ddf4544" class="">Đó là lý do Unitaxi đặt an toàn làm giá trị cốt lõi:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b7-9c3c-c07458d4f944" class="bulleted-list"><li style="list-style-type:disc">Một phút mất tập trung = Mất cả tương lai</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808b-88ae-da909381da96" class="bulleted-list"><li style="list-style-type:disc">Một giây chủ quan = Hối hận cả đời</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809c-800b-d633926e2bd5" class="bulleted-list"><li style="list-style-type:disc">Một lần đúng = Cứu cả gia đình</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-800a-af28-d8e2b577c301" class="">Hôm nay, chúng ta không học lý thuyết - chúng ta học cách <strong>bảo vệ sự sống</strong>.</p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80d2-aa3c-dd258b9f8c83" class=""><strong>B. 
-10 KẺ THÙ LỚN NHẤT TRÊN ĐƯỜNG PHỐ</strong> (5 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b2-a7a7-eb7e61c505eb" class="">Theo thống kê từ CSGT và Uber Safety, 90% tai nạn đến từ:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8051-bff3-c491afa1550b" class="numbered-list" start="1"><li>📱 <strong>Mất tập trung vì điện thoại</strong> - Uber ghi nhận 47% sự cố từ nguyên nhân này</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c0-8722-ce9abafa4d5e" class="numbered-list" start="2"><li>🚗 <strong>Phanh gấp - tăng tốc đột ngột</strong> - Lyft ghi nhận đây là nguyên nhân #1 gây say xe</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-803d-b488-f055fc95ed9d" class="numbered-list" start="3"><li>😴 <strong>Buồn ngủ, mệt mỏi</strong> - Theo ComfortDelGro, lái xe dưới 5 tiếng ngủ = rủi ro tăng 300%</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8080-b1db-eb7cbb23dfea" class="numbered-list" start="4"><li>🛵 <strong>Xe máy cắt ngang bất ngờ</strong> - Đặc thù Việt Nam, 
-chiếm 35% va chạm</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8059-8f7a-ff111d592516" class="numbered-list" start="5"><li>💨 <strong>Tốc độ không phù hợp</strong> - Bolt ghi nhận 60% tai nạn từ tốc độ không phù hợp với điều kiện</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-806b-aa1e-e96292bbf02c" class="numbered-list" start="6"><li>🪞 <strong>Không quan sát gương</strong> - Japan Taxi Academy: quét gương 5-7 giây/lần giảm 80% điểm mù</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80d5-9b1b-ed1a7d88947a" class="numbered-list" start="7"><li>🌧️ <strong>Đường trơn trời mưa</strong> - Singapore LTA: mưa làm tăng nguy cơ tai nạn lên 40%</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-808e-97cc-fac19e208c64" class="numbered-list" start="8"><li>🛑 <strong>Không giữ khoảng cách</strong> - Khoảng cách 3 giây giảm 65% đâm sau (Uber Safety Standard)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c2-9804-c6ef194fcbf6" class="numbered-list" start="9"><li>🚦 <strong>Đèn đỏ, đèn vàng</strong> - Grab ghi nhận 25% tai nạn tại ngã tư có đèn tín hiệu</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8026-9988-f4fc8b24aa40" class="numbered-list numbered-list-digits-2" start="10"><li>🚶 <strong>Người đi bộ bất ngờ</strong> - Đặc biệt khu vực trường học, chợ</li></ol></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80a9-aa63-e4ec4a710c29" class="">→ Chúng ta sẽ học cách <strong>vô hiệu hóa</strong> từng mối nguy này.</p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80f3-b74f-c90e5dc0d953" class=""><strong>C. 
-5 BÍ KÍP LÁI XE PHÒNG VỆ</strong> (8 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8050-b3ee-d782ffd50555" class="">Đây là bí quyết từ các tài xế hạng kim cương Uber/Lyft và Japan Taxi:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8020-9acc-ef3c8ff8663b" class="numbered-list" start="1"><li><strong>Mắt nhìn xa 12-15 giây</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f2-9be5-c59829c42aba" class="bulleted-list"><li style="list-style-type:disc"><em>Uber Defensive Driving:</em> &quot;Luôn quét đường ở khoảng cách ít nhất 12 giây&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8080-bbbd-c5252577cc48" class="bulleted-list"><li style="list-style-type:disc">Thấy trước = Xử lý trước</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80df-9e58-e2018f3f7012" class="bulleted-list"><li style="list-style-type:disc">Không bao giờ bị động</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-809e-8084-e5cac5a13d37" class="numbered-list" start="2"><li><strong>Quét gương mỗi 5-7 giây</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8056-9429-dac269b96d40" class="bulleted-list"><li style="list-style-type:disc"><em>Japan Taxi Standard:</em> &quot;5-7 giây/lần, 
-theo thứ tự trái - giữa - phải&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d5-b5a9-eb80f3c9c02b" class="bulleted-list"><li style="list-style-type:disc">Xe máy từ đâu cũng thấy</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ef-90b9-c013c1cc00ef" class="bulleted-list"><li style="list-style-type:disc">Giảm 80% điểm mù</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80de-970d-c1f7ef6cc2ce" class="numbered-list" start="3"><li><strong>Khoảng cách 3 giây an toàn</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80fd-881a-ed9502efce65" class="bulleted-list"><li style="list-style-type:disc"><em>Lyft Safety Protocol:</em> &quot;3 giây là tối thiểu, 4-5 giây khi thời tiết xấu&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80dd-a02a-d572ba86e06e" class="bulleted-list"><li style="list-style-type:disc">1 giây nhận diện</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ff-a68f-f431aeba02ab" class="bulleted-list"><li style="list-style-type:disc">1 giây phản xạ</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809c-b511-f894da4c6cbf" class="bulleted-list"><li style="list-style-type:disc">1 giây xử lý</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800f-b7e9-caddbf4d9e8a" class="bulleted-list"><li style="list-style-type:disc">Mưa = 5 giây</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80e3-a88e-e52196f73706" class="numbered-list" start="4"><li><strong>Tốc độ thông minh</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8089-855b-e4ad72ab08cb" class="bulleted-list"><li style="list-style-type:disc"><em>Bolt Safety Guide:</em> &quot;Tốc độ phải phù hợp với điều kiện thực tế, 
-không phải biển báo&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808a-aaee-f0cc52be1466" class="bulleted-list"><li style="list-style-type:disc">Không chạy theo biển báo</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a4-a7b2-cae5d5775fdf" class="bulleted-list"><li style="list-style-type:disc">Chạy theo tình huống thực tế</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8091-a273-f6d9bd5126e7" class="numbered-list" start="5"><li><strong>Luôn có lối thoát</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8098-a7f8-ea388acdd8e6" class="bulleted-list"><li style="list-style-type:disc"><em>ComfortDelGro Training:</em> &quot;Đừng bao giờ để mình kẹt giữa các phương tiện lớn&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a5-9f5b-c4c9b5e704e5" class="bulleted-list"><li style="list-style-type:disc">Không kẹt giữa xe lớn</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8008-b5af-cb4c0ba6dc76" class="bulleted-list"><li style="list-style-type:disc">Không chạy song song container</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8036-b4d3-dbbb41b917ae" class=""><strong>D. 
-9 ĐIỀU CẤM KỴ - VI PHẠM = RA KHỎI HỆ THỐNG</strong> (5 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8043-8be4-f47e4b862a39" class="">Theo tiêu chuẩn của Uber Zero Tolerance Policy và Grab Safety Framework:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8097-a90c-d7099b08ed12" class="numbered-list" start="1"><li>❌ <strong>Cầm điện thoại khi lái</strong> - Uber ghi nhận đây là vi phạm nghiêm trọng nhất</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80f3-bf77-ebc72b8d4639" class="numbered-list" start="2"><li>❌ <strong>Livestream, xem video</strong> - Lyft cấm tuyệt đối mọi hình thức giải trí khi lái xe</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-808a-9ef2-f726e6db1f35" class="numbered-list" start="3"><li>❌ <strong>Tranh đường, 
-ép xe máy</strong> - Japan Taxi: &quot;Nhường đường là kỹ năng số 1&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80f9-b92c-d167c836fada" class="numbered-list" start="4"><li>❌ <strong>Chạy nhanh vì khách giục</strong> - Uber Pro: &quot;An toàn quan trọng hơn tốc độ&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80ec-ab1d-e410699c3cde" class="numbered-list" start="5"><li>❌ <strong>Đón/trả khách giữa đường</strong> - Grab Safety+ yêu cầu dừng ở vị trí an toàn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8029-8720-c408f4dff7eb" class="numbered-list" start="6"><li>❌ <strong>Lái khi ngủ dưới 5 tiếng</strong> - ComfortDelGro: &quot;Mệt mỏi nguy hiểm như say rượu&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8056-97f8-fe44480b9cab" class="numbered-list" start="7"><li>❌ <strong>Quay đầu nói chuyện</strong> - Bolt Driver Code cấm mất tập trung với khách</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-805b-bf92-ca37b6eb552f" class="numbered-list" start="8"><li>❌ <strong>Bẻ lái khi đang phanh</strong> - Kỹ thuật cơ bản nhưng 70% tài xế mắc lỗi</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8047-9793-cc76303b5649" class="numbered-list" start="9"><li>❌ <strong>Rượu bia (0% cồn)</strong> - Uber/Lyft/ Grab đều có chính sách zero tolerance</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8026-b064-c142b468857c" class=""><strong>E. 
-BÍ QUYẾT LÁI XE ĐIỆN AN TOÀN</strong> (6 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80ce-b5b6-dcbd58a33bd1" class="">Dựa trên Tesla Safety Protocol và BYD EV Training:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803f-b190-f13d3a9da3a8" class="bulleted-list"><li style="list-style-type:disc"><strong>Chân ga nhạy</strong>: Thả ga từ từ, không đạp mạnh<div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c3-b3e4-cb88ab68c5c9" class="bulleted-list"><li style="list-style-type:circle"><em>Tesla Model 3:</em> Tăng tốc 0-60 km/h chỉ 3.1 giây → cần cực kỳ cẩn thận</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ee-aec6-e34d171cdf8b" class="bulleted-list"><li style="list-style-type:disc"><strong>Phanh tái sinh</strong>: Giữ chân đều, 
-không nhấp nhấp<div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8057-8808-dac98515e535" class="bulleted-list"><li style="list-style-type:circle"><em>BYD Training:</em> &quot;Phanh tái sinh giảm 30% hao mòn phanh nhưng cần làm quen&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800d-b8f2-f69e3f921fb3" class="bulleted-list"><li style="list-style-type:disc"><strong>Xe nặng hơn</strong>: Phanh xa hơn → khoảng cách lớn hơn<div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80fb-97b3-d767d9714222" class="bulleted-list"><li style="list-style-type:circle"><em>EV Weight Factor:</em> Xe điện nặng hơn 20-30% → quán tính lớn hơn</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8030-bd6b-f0b58877da5f" class="bulleted-list"><li style="list-style-type:disc"><strong>Cabin yên tĩnh</strong>: Khách nghe rõ mọi âm thanh → lái thật êm<div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8070-99a3-c7bd3baafa8e" class="bulleted-list"><li style="list-style-type:circle"><em>ComfortDelGro EV Standard:</em> &quot;Sự yên tĩnh là lợi thế nhưng cũng là trách nhiệm&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-804a-b5eb-f57efc1bdc9e" class=""><strong>F. 
-AN TOÀN KIỂU VIỆT - XỬ LÝ TÌNH HUỐNG ĐẶC THÙ</strong> (6 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807f-9ded-d61b2324b86f" class="">Kết hợp kinh nghiệm địa phương và tiêu chuẩn quốc tế:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8063-ba6e-f395d982ace1" class="numbered-list" start="1"><li><strong>Xe máy lách 360 độ</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8028-af58-e27b587d1cea" class="bulleted-list"><li style="list-style-type:disc">Quét gương liên tục</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80be-aef2-c6b5d8e82646" class="bulleted-list"><li style="list-style-type:disc">Luôn dự phòng</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8012-8571-c701cfd00c59" class="bulleted-list"><li style="list-style-type:disc"><em>Grab Vietnam Insight:</em> &quot;Coi mọi xe máy đều có thể cắt ngang&quot;</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-807a-a3fa-fe216c0d8351" class="numbered-list" start="2"><li><strong>Hẻm nhỏ, 
-hẻm tối</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801f-b529-e612502bb823" class="bulleted-list"><li style="list-style-type:disc">Giảm tốc 10-15 km/h</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808d-92ed-fa7ab4f39b81" class="bulleted-list"><li style="list-style-type:disc">Bật đèn sáng</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bc-904c-ee4935fc7e43" class="bulleted-list"><li style="list-style-type:disc"><em>Uber SEA Guideline:</em> &quot;Tốc độ dưới 15 km/h trong hẻm&quot;</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80b1-b169-cdec04dd8f53" class="numbered-list" start="3"><li><strong>Ngã tư không đèn</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80cc-a0c3-e610ab13fae7" class="bulleted-list"><li style="list-style-type:disc">Nhường đường dù đúng</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8061-b971-df336cbee365" class="bulleted-list"><li style="list-style-type:disc">An toàn trên hết</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bb-9b9d-d8959ac5254b" class="bulleted-list"><li style="list-style-type:disc"><em>Japan Driving Philosophy:</em> &quot;Better late than never&quot;</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80d1-8bd2-f92900a80b13" class="numbered-list" start="4"><li><strong>Mưa ngập</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8005-aa83-c79d3ff4062c" class="bulleted-list"><li style="list-style-type:disc">Xe điện: không lội nước quá ½ bánh</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8069-bb6d-f17ebebb1882" class="bulleted-list"><li style="list-style-type:disc">Tìm đường khác an toàn hơn</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809a-8d7a-f9f75922a1d7" c
-lass="bulleted-list"><li style="list-style-type:disc"><em>BYD Safety Warning:</em> &quot;Nước ngập có thể làm hỏng pin vĩnh viễn&quot;</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8099-80fa-e14ad6c305fe" class="numbered-list" start="5"><li><strong>Khu dân cư tối</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-802d-b294-eecc4a2b4b93" class="bulleted-list"><li style="list-style-type:disc">Coi chừng trẻ em chạy ra</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806a-bc2e-f46a8224ddf1" class="bulleted-list"><li style="list-style-type:disc">Tốc độ dưới 20 km/h</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8080-a9a5-c2cef43ff727" class="bulleted-list"><li style="list-style-type:disc"><em>Lyft Community Safety:</em> &quot;Trẻ em có thể xuất hiện bất ngờ&quot;</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8070-a58c-c9bbf9b6c24b" class=""><strong>G. XỬ LÝ KHỦNG HOẢNG - 5 GIÂY VÀNG</strong> (6 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-800d-b773-f1b4913e527d" class="">Theo Uber Critical Response Protocol và Grab Safety Framework:</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8069-b172-d462f23e8d00" class=""><strong>Khi khách giục chạy nhanh:</strong><em>&quot;Dạ em giữ tốc độ ổn định để mình an toàn hơn ạ. 
-Chậm vài phút nhưng chắc chắn anh/chị nhé! 
-Theo tiêu chuẩn Uber Pro, an toàn luôn là ưu tiên số 1.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-805b-8ac3-f116212452cc" class=""><strong>Khi va chạm - Uber 5-Step Protocol:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80a7-906e-d424fc9d9930" class="numbered-list" start="1"><li>✅ Bật đèn cảnh báo - <em>Uber Step 1: Secure the scene</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-806e-be77-e1128e0c12cd" class="numbered-list" start="2"><li>✅ Dừng xe an toàn - <em>Uber Step 2: Move to safe location</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-809b-afdb-e9567139db27" class="numbered-list" start="3"><li>✅ Giữ bình tĩnh - <em>Uber Step 3: Stay calm, don&#x27;t admit fault</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8010-8a22-fccfc5f5a76f" class="numbered-list" start="4"><li>✅ Gọi điều phối - <em>Uber Step 4: Contact support immediately</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-800e-a782-c4915d99d46c" class="numbered-list" start="5"><li>✅ Chỉ nói: <em>&quot;Mình chờ điều phối xử lý đúng quy trình nha&quot; 
-- Uber Step 5: Follow company procedure</em></li></ol></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-804e-a487-edd923aff910" class=""><strong>Khi khách say - Grab Safety+ Protocol:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803b-93bc-e09fcb4069cc" class="bulleted-list"><li style="list-style-type:disc">Giữ khoảng cách - <em>Grab: &quot;Maintain physical distance&quot;</em></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805f-b7cf-d90f26c56a1a" class="bulleted-list"><li style="list-style-type:disc">Không tranh cãi - <em>Grab: &quot;Avoid confrontation&quot;</em></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8000-9818-e5c13d5d61ef" class="bulleted-list"><li style="list-style-type:disc">Dừng chỗ sáng - <em>Grab: &quot;Choose well-lit, public area&quot;</em></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8024-b73b-c18becfb7b4d" class="bulleted-list"><li style="list-style-type:disc">Gọi hỗ trợ ngay - <em>Grab: &quot;Use emergency button in app&quot;</em></li></ul></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-807b-86ca-e4947916d8f6" class=""><strong>H. 
-CHECKLIST 90 GIÂY - ĐẦU CA &amp; CUỐI CA</strong> (4 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e5-a1bd-f2a420ab0b78" class=""><strong>ĐẦU CA - 10 ĐIỂM VÀNG</strong> (Theo Japan Taxi Academy &amp; 
-Uber Vehicle Inspection):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80a3-ab30-f5e144914062" class="numbered-list" start="1"><li>Lốp (áp suất, độ mòn) - <em>Uber: &quot;Tire pressure check daily&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8067-a807-db7f50b3d51c" class="numbered-list" start="2"><li>Đèn (phá, xi-nhan, stop) - <em>Japan Taxi: &quot;Light check saves lives&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80e3-94f6-d95742a901a8" class="numbered-list" start="3"><li>Gương (trái, phải, trong) - <em>Uber: &quot;Clean mirrors reduce blind spots&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8028-9f45-f07a45d44020" class="numbered-list" start="4"><li>Camera hành trình - <em>Grab: &quot;Ensure dashcam is functioning&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80e8-9b91-c6447a9bfbd2" class="numbered-list" start="5"><li>Thảm trải sàn - <em>ComfortDelGro: &quot;Clean floor prevents pedal interference&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8032-830e-efb9248eaa08" class="numbered-list" start="6"><li>Ghế (chỉnh, 
-vệ sinh) - <em>Lyft: &quot;Proper seat adjustment = better control&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80d7-a102-cef492226aa9" class="numbered-list" start="7"><li>Phanh (thử tại chỗ) - <em>Uber: &quot;Test brakes before moving&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-809c-8b1f-e6b8f953b382" class="numbered-list" start="8"><li>Giấy tờ (bản gốc) - <em>Legal requirement all platforms</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80ce-98a5-ef50d32b3c04" class="numbered-list" start="9"><li>App (kết nối, 
-pin) - <em>Bolt: &quot;App functionality critical for safety&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80ae-b2b2-dc4d92136eed" class="numbered-list numbered-list-digits-2" start="10"><li>Pin xe (%) - <em>EV Best Practice: &quot;Check charge level before trip&quot;</em></li></ol></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80dd-8731-dc1f302ad849" class=""><strong>CUỐI CA - 5 VIỆC KHÔNG QUÊN:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8066-957c-fe2fd996b531" class="numbered-list" start="1"><li>Báo lỗi (nếu có) - <em>Uber: &quot;Report issues immediately&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-802c-9040-d2cfd4f12c55" class="numbered-list" start="2"><li>Dọn xe sạch sẽ - <em>Japan Taxi: &quot;Clean car = professional image&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-801b-bc63-df5cafd3e097" class="numbered-list" start="3"><li>Cắm sạc đúng cách - <em>BYD: &quot;Follow charging protocol&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-802b-96e1-c530e8e05620" class="numbered-list" start="4"><li>Gửi báo cáo cuối ca - <em>Grab: &quot;End-of-shift report mandatory&quot;</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-809b-86a4-c92414e8be61" class="numbered-list" start="5"><li>Kiểm tra đồ thất lạc - <em>Lyft: &quot;Lost items damage reputation&quot;</em></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8075-aba3-d9362d4f0bb5" class=""><strong>I. 
-5 CÂU THẦN CHÚ AN TOÀN</strong> (3 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8017-945c-d57d2cbc7f22" class="">Học thuộc 5 câu này, dùng cả đời (theo Uber/Lyft Communication Guidelines):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-808e-8f01-f3e77a90dc81" class="numbered-list" start="1"><li><em>&quot;Em giữ tốc độ ổn định để mình an toàn hơn ạ.&quot; - Uber Comfort Standard</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8046-a9b8-cafdef58d279" class="numbered-list" start="2"><li><em>&quot;Đoạn này em giảm tốc một chút cho chắc nha anh/chị.&quot; - Lyft Safety Phrase</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8093-b46e-c5ad6b96a8c4" class="numbered-list" start="3"><li><em>&quot;Để em tập trung lái cho an toàn, mình nói chuyện sau nhé.&quot; - Grab Safety Communication</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80d7-bbca-d12160fff4dd" class="numbered-list" start="4"><li><em>&quot;Em cua nhẹ thôi để mình không xốc ạ.&quot; - Japan Taxi Polite Driving</em></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80b0-a857-fca0ab7b0742" class="numbered-list" start="5"><li><em>&quot;Anh/chị đeo dây an toàn giúp em với ạ.&quot; - Legal Requirement &amp; Best Practice</em></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-800d-86f2-c12f971611d8" class=""><strong>J. 
-LỜI KẾT: TRAO GỬI NIỀM TIN</strong> (3 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d7-947c-d13f70373174" class="">Anh chị em thân mến,</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-805b-b2b5-dbe72271cec8" class="">Mỗi chuyến xe của chúng ta không chỉ là một hành trình - đó là <strong>sự tin tưởng</strong> mà khách hàng trao gửi.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8055-8c4b-d4effe6c76b9" class=""><strong>Theo Uber Safety Pledge:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8080-ad6d-ca3c175ff748" class="bulleted-list"><li style="list-style-type:disc">Một cú phanh êm = Một đánh giá 5 sao</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807a-9d8a-fd2dd543e31e" class="bulleted-list"><li style="list-style-type:disc">Một chuyến đi an toàn = Một khách hàng trung thành</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80dc-a7b2-f1154709d4a0" class="bulleted-list"><li style="list-style-type:disc">Một ngày làm việc tỉnh táo = Một tương lai bền vững</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80af-aca5-c53a48df25fe" class=""><strong>An toàn không phải là chạy chậm - an toàn là lái thông minh, có trách nhiệm. </strong>Cảm ơn các bạn - những người đang viết nên câu chuyện Unitaxi bằng sự an toàn và chuyên nghiệp!</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80d0-885c-e3ecbae04c4b"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80e8-8043-d0f0cfcd44a2" class="">🕒 <strong>CHUẨN 2: ĐÚNG GIỜ &amp; TÔN TRỌNG CAM KẾT</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8038-9941-ce8d53fdcecd" class=""><strong>(Phiên bản hoàn chỉnh - 25-30 phút đào tạo)</strong></p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8073-8d52-c1e0bf2282fa" class=""><strong>A. 
-MỞ ĐẦU: ĐÚNG GIỜ = TẠO NIỀM TIN ĐẦU TIÊN</strong> (3 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8051-8721-f9fe94249065" class=""><strong>Thống kê từ Grab &amp; 
-Uber cho thấy:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8008-8d0e-f4644340ff73" class="bulleted-list"><li style="list-style-type:disc">92% khách hàng đánh giá 1 sao khi phải chờ quá 5 phút không được thông báo</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807e-922d-f83168442a37" class="bulleted-list"><li style="list-style-type:disc">Tài xế đúng giờ có tỷ lệ hủy chuyến thấp hơn 45% (Uber Pro Data)</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b5-97ff-c34f550630d4" class="bulleted-list"><li style="list-style-type:disc">78% khách sẵn sàng trả thêm cho dịch vụ đúng giờ (Grab Customer Insight 2024)</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-808a-b0df-eef121428073" class=""><strong>Câu chuyện thực tế từ Japan Taxi:</strong><br/>&quot;Khách không nhớ bạn đến sớm, nhưng không bao giờ quên bạn đến trễ&quot;</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b2-b497-c82f38f641b7" class="">Đúng giờ không phải là phép lịch sự - đó là:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b6-82a7-f5c1caeb8b99" class="bulleted-list"><li style="list-style-type:disc"><strong>Chiến lược an toàn</strong>: Giảm 60% tình huống khách giục chạy nhanh</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d4-9617-ca7384af9714" class="bulleted-list"><li style="list-style-type:disc"><strong>Chiến lược kinh tế</strong>: Tăng 25% thu nhập nhờ giữ chân khách hàng trung thành</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8089-a04f-f528e50b1886" class="bulleted-list"><li style="list-style-type:disc"><strong>Chiến lược thương hiệu</strong>: Xây dựng hình ảnh &quot;Unitaxi - luôn đáng tin cậy&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-806d-a4e2-fbf2d55a8127" class=""><strong>B. 
-5 LÝ DO ĐÚNG GIỜ LÀ KHÔNG THƯƠNG LƯỢNG</strong> (5 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-807c-9bc9-edf449c7c5ad" class="numbered-list" start="1"><li><strong>Trải nghiệm khách hàng</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a9-a33c-c646285a278e" class="bulleted-list"><li style="list-style-type:disc">85% khách cảm thấy bị coi thường khi phải chờ không thông báo</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-804f-9278-c90975da96a7" class="bulleted-list"><li style="list-style-type:disc"><em>Theo Uber CSAT Score:</em> Đúng giờ chiếm 40% điểm đánh giá</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-802d-90f8-fe5805cbfc71" class="numbered-list" start="2"><li><strong>An toàn đường bộ</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803f-b103-e7bf683f492f" class="bulleted-list"><li style="list-style-type:disc">Khách sốt ruột → 72% tài xế bị áp lực chạy nhanh</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a2-a6e4-f71159934c4d" class="bulleted-list"><li style="list-style-type:disc"><em>Lyft Safety Report:</em> Trễ giờ làm tăng nguy cơ tai nạn lên 55%</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8068-96ca-e563457774d8" class="numbered-list" start="3"><li><strong>Hiệu suất hệ thống</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800b-b2d2-d3a5675fa892" class="bulleted-list"><li style="list-style-type:disc">Trễ 5 phút = Ảnh hưởng đến 3-5 chuyến xe khác</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8006-84ae-ec496ea7adec" class="bulleted-list"><li style="list-style-type:disc"><em>Grab Operations Data:</em> Đúng giờ giúp tăng 30% hiệu suất toàn hệ thống</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" i
-d="2aec5e6f-95bd-80d9-b428-cd4790a3d0f3" class="numbered-list" start="4"><li><strong>Pháp lý &amp; Bảo hiểm</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e0-b5a7-f1b1c07546f5" class="bulleted-list"><li style="list-style-type:disc">Mọi tranh chấp đều dựa trên log thời gian hệ thống</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-804c-8dbd-c2aa518f2d7d" class="bulleted-list"><li style="list-style-type:disc"><em>Bolt Insurance Protocol:</em> Trễ giờ không báo cáo = mất bảo hiểm</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-801c-920a-f7c25605a933" class="numbered-list" start="5"><li><strong>Hình ảnh nghề nghiệp</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b3-8675-d152352c09ee" class="bulleted-list"><li style="list-style-type:disc"><em>Japan Taxi Standard:</em> &quot;Đúng giờ là phẩm chất cơ bản của người tài xế chuyên nghiệp&quot;</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80d1-8be3-eca3cbe37ff1" class=""><strong>C. 
-6 &quot;KẺ THÙ&quot; KHIẾN BẠN TRỄ GIỜ &amp; 
-CÁCH XỬ LÝ</strong> (4 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80a2-8791-e476feee78df" class="numbered-list" start="1"><li><strong>Không kiểm tra pin</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ca-8f8d-fedea24fc31b" class="bulleted-list"><li style="list-style-type:disc"><em>BYD EV Protocol:</em> Luôn kiểm tra pin trước khi nhận cuốc &gt;30%</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80a8-bb99-f7444387cbaf" class="numbered-list" start="2"><li><strong>Bỏ qua tình trạng giao thông</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a2-8f61-f569aba202f4" class="bulleted-list"><li style="list-style-type:disc"><em>Waze Data:</em> Xem traffic 5 phút trước giúp tránh 80% kẹt xe bất ngờ</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8059-8925-f2973039e848" class="numbered-list" start="3"><li><strong>Ước lượng thời gian không thực tế</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801c-8a96-e258b2e18f42" class="bulleted-list"><li style="list-style-type:disc"><em>Google Maps Insight:</em> Luôn cộng thêm 20% thời gian dự phòng</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80d1-9516-ca463df0bf1d" class="numbered-list" start="4"><li><strong>Im lặng khi gặp sự cố</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8079-987a-e21365502ca1" class="bulleted-list"><li style="list-style-type:disc"><em>Uber Driver Guide:</em> Báo cáo sự cố trong vòng 1 phút đầu tiên</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8015-bfaf-c6521f8b6457" class="numbered-list" start="5"><li><strong>Không dự phòng tuyến đường</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8084-a06f-cd09fa340321" class="bulleted-list"><li s
-tyle="list-style-type:disc"><em>Grab Navigation Tip:</em> Luôn có 2-3 tuyến đường thay thế</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-804c-8781-c3b8b4531ca7" class="numbered-list" start="6"><li><strong>Xác nhận sai vị trí</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-804a-b927-ecd47104ea43" class="bulleted-list"><li style="list-style-type:disc"><em>ComfortDelGro Training:</em> Luôn hỏi lại điểm đón chính xác</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80e3-bf44-d81c7f890cc6" class=""><strong>D. 
-QUY TRÌNH 3 BƯỚC &quot;LUÔN ĐÚNG GIỜ&quot;</strong> (5 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8040-ba06-fe5f41186458" class=""><strong>Bước 1: Chuẩn bị thông minh (1 phút)</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8002-a9c7-fdbc2fcee9e8" class="bulleted-list"><li style="list-style-type:disc">Kiểm tra pin, lộ trình, giao thông</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f9-b86e-d4f9c0cc8984" class="bulleted-list"><li style="list-style-type:disc"><em>Uber Pro Tip:</em> &quot;Planning prevents poor performance&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8019-8ed7-e171151f11ce" class=""><strong>Bước 2: Hành động chủ động (3 phút)</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8048-87ab-d5c3422000d2" class="bulleted-list"><li style="list-style-type:disc">Trễ &gt;1 phút → Nhắn tin ngay</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8056-a08b-c7539acd1b16" class="bulleted-list"><li style="list-style-type:disc">Trễ &gt;3 phút → Gọi điện thông báo</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8031-8b23-c6822d40a545" class="bulleted-list"><li style="list-style-type:disc"><em>Lyft Communication Standard:</em> &quot;Thông báo sớm hơn lời xin lỗi&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-805d-af15-e0bb87c12ec3" class=""><strong>Bước 3: Kết thúc hoàn hảo (1 phút)</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801c-9b68-e85ac3778661" class="bulleted-list"><li style="list-style-type:disc">Đỗ xe an toàn, 
-dễ thấy</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f6-9918-c48a2e24e720" class="bulleted-list"><li style="list-style-type:disc">Nhắn tin xác nhận đã đến</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80dc-9b90-f752ec372ec9" class="bulleted-list"><li style="list-style-type:disc"><em>Japan Taxi Protocol:</em> &quot;Luôn đến sớm hơn 2 phút&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8091-918f-f688c51e20b7" class=""><strong>E. 5 CÂU &quot;CỨU CÁNH&quot; KHI TRỄ GIỜ</strong> (4 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807f-bcf1-dc16bfad4546" class=""><em>(Dựa trên Uber/Lyft Communication Framework)</em></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c8-849b-d6bb81298856" class="numbered-list" start="1"><li><strong>Trễ nhẹ:</strong><br/>&quot;Em đang đến, còn khoảng 2 phút nữa tới nơi ạ. Cảm ơn anh/chị đã kiên nhẫn chờ!&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-809d-a929-ed2b3bcb78eb" class="numbered-list" start="2"><li><strong>Trễ do kẹt xe:</strong><br/>&quot;Dạ đoạn đường đang kẹt hơn dự kiến, em đến trễ khoảng 3 phút. Rất xin lỗi và cảm ơn anh/chị đã thông cảm ạ!&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8024-9e06-d17af066ef4b" class="numbered-list" start="3"><li><strong>Trễ do thời tiết:</strong><br/>&quot;Trời mưa đường trơn nên em đi chậm để đảm bảo an toàn, em đến trễ khoảng 4 phút. Mong anh/chị thông cảm ạ!&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8068-a6e6-d72f2c35541b" class="numbered-list" start="4"><li><strong>Sai vị trí:</strong><br/>&quot;Dạ em đang ở cổng A, nếu anh/chị ở cổng B em qua đón ngay ạ. 
-Xin lỗi vì sự bất tiện này!&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-800b-9522-fdc8a12264f7" class="numbered-list" start="5"><li><strong>Khách bực bội:</strong><br/>&quot;Em thực sự xin lỗi vì để anh/chị chờ. Em sẽ cố gắng trong khả năng an toàn nhất có thể ạ.&quot;</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80bb-a028-fa29ea30bd2e" class=""><strong>F. THỰC HÀNH TÌNH HUỐNG - 3 KỊCH BẢN</strong> (5 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807d-9198-c1c0cebc321e" class=""><strong>Tình huống 1: Khách nhắn &quot;Sao lâu vậy?&quot;</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c4-a89d-ede98ae5ec5e" class="bulleted-list"><li style="list-style-type:disc"><em>Cách xử lý chuẩn:</em> &quot;Dạ em xin lỗi, còn 2 phút nữa tới nơi ạ. Cảm ơn anh/chị đã kiên nhẫn!&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8018-bbf7-c42c4ba60d0d" class=""><strong>Tình huống 2: Nhầm cổng đón</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80db-a0d4-e5c7b44446f6" class="bulleted-list"><li style="list-style-type:disc"><em>Cách xử lý chuẩn:</em> &quot;Em đang ở cổng A, xin lỗi anh/chị, em qua cổng B ngay ạ!&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f9-a520-fd4a732037fb" class=""><strong>Tình huống 3: Khách vội vì trễ họp</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f1-ae23-f961661e21e1" class="bulleted-list"><li style="list-style-type:disc"><em>Cách xử lý chuẩn:</em> &quot;Em hiểu anh/chị đang vội, em sẽ cố gắng trong mức an toàn cho phép ạ.&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80b1-b7d8-c9c2f29b87f3" class=""><strong>G. 
-7 NGUYÊN TẮC VÀNG KHÔNG BAO GIỜ QUÊN</strong> (3 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8064-8246-e067ca8bb1f5" class="numbered-list" start="1"><li><strong>Luôn báo trước</strong> - Thông báo sớm hơn xin lỗi</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80f3-bd01-f4689f826988" class="numbered-list" start="2"><li><strong>Đừng hứa suông</strong> - Chỉ hứa khi chắc chắn 100%</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80fc-92cb-c477cdb0807b" class="numbered-list" start="3"><li><strong>Im lặng là vàng?</strong> - Không! Im lặng khi trễ là thảm họa</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8042-9662-f568cb99a46f" class="numbered-list" start="4"><li><strong>Kiểm tra kỹ</strong> - Luôn xác nhận điểm đón chính xác</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80a0-9196-d47d6f23fcdf" class="numbered-list" start="5"><li><strong>Vị trí thông minh</strong> - Đỗ chỗ sáng, an toàn, dễ thấy</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80e7-9cbb-e8724a1ca49e" class="numbered-list" start="6"><li><strong>Tuân thủ hệ thống</strong> - Mọi thứ qua app, không nói miệng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8011-a565-f8fa587cee10" class="numbered-list" start="7"><li><strong>Học từ sai lầm</strong> - Ghi nhớ các tình huống trễ để không lặp lại</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80ed-82e8-fc9349666647" class=""><strong>H. 
-KIỂM TRA NHANH 30 GIÂY</strong> (1 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8051-b84c-d144d7c5d4c0" class="numbered-list" start="1"><li><strong>Trễ 1 phút có cần báo không?</strong><br/>→ CÓ! Luôn thông báo khi trễ bất kỳ bao lâu</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8071-be96-c276b2a7ac5b" class="numbered-list" start="2"><li><strong>Câu nào đúng khi trễ?</strong><br/>→ &quot;Em đến trễ 2 phút, mong anh/chị thông cảm ạ.&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-802a-a7fb-c10e61781ce5" class="numbered-list" start="3"><li><strong>Khách giục chạy nhanh vì trễ?</strong><br/>→ &quot;Em sẽ cố gắng trong giới hạn an toàn ạ.&quot;</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80ee-b7c8-c749a74801f5" class=""><strong>I. 
-THÔNG ĐIỆP KẾT: ĐÚNG GIỜ = TÔN TRỌNG = THÀNH CÔNG</strong> (2 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c3-b9f7-efffefa638e6" class="">Anh chị em thân mến,</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807b-a298-c95adaf52abc" class="">Theo triết lý của Japan Taxi Academy:<br/><strong>&quot;Một tài xế đúng giờ không chỉ tôn trọng thời gian của khách hàng - mà còn tôn trọng chính giá trị bản thân mình.&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8060-af74-ff522974da49" class="">Mỗi lần bạn đến đúng giờ:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803a-90bd-f402496f0082" class="bulleted-list"><li style="list-style-type:disc">Bạn đang gửi thông điệp: &quot;Tôi là người đáng tin cậy&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c2-9d53-f2293bd9b131" class="bulleted-list"><li style="list-style-type:disc">Bạn đang xây dựng: Thương hiệu cá nhân và tập thể</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f4-9041-f87e55ec653c" class="bulleted-list"><li style="list-style-type:disc">Bạn đang tạo ra: Giá trị bền vững cho chính mình</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f7-89fe-fccf12ba1ce7" class="">Hãy là những tài xế mà khách hàng không bao giờ phải hỏi:<br/><strong>&quot;Xe đâu rồi?&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-809f-9854-f2703a380a44" class=""><strong>Cảm ơn các bạn - những đại sứ của sự tin cậy!</strong></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80cb-819c-fd669f32229a"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80ec-a4e0-c61987828b43" class="">🟦 <strong>CHUẨN 3: KHÔNG GIAN DỂ CHỊU CHO KHÁCH</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8042-8f52-d59c4f983daf" class=""><strong>(Phiên bản n
-âng cấp - Bổ sung chuẩn quốc tế)</strong></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80f5-a6bb-d6b7b2345940"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8060-934d-f4f4caf46f47" class=""><strong>A. MỞ ĐẦU – 10 GIÂY ĐẦU TIÊN ĐÃ NÓI LÊN TẤT CẢ</strong> (3 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b0-bce5-ff8de74d8ba1" class=""><strong>Bổ sung từ Uber Global Standard:</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b9-a548-cc16d24ed78f" class="">&quot;The First 10-Second Rule&quot; - Nghiên cứu từ 5,000 chuyến xe cho thấy 85% đánh giá được quyết định trong 10 giây đầu tiên khi khách bước lên xe.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-801f-b9c1-e4ac4e367259" class=""><strong>Japan Taxi Academy Insights:</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8053-af94-f1250c7b5be6" class="">&quot;Không gian xe là bộ mặt thứ hai của tài xế. Khách không đánh giá bạn qua lời chào, mà qua cảm nhận đầu tiên.&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8089-8199-c6e35411832e"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8088-aa21-d6f110f5c9b2" class=""><strong>B. 
-VÌ SAO KHÔNG GIAN XE LẠI QUAN TRỌNG ĐẾN VẬY?</strong> (4 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8096-9457-ef8615870082" class=""><strong>Bổ sung từ Lyft Comfort Program:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803b-8200-fad614c449f4" class="bulleted-list"><li style="list-style-type:disc">Tài xế đạt chuẩn Comfort có thu nhập cao hơn 25% so với tài xế thông thường</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8044-9950-db3f6fe10df7" class="bulleted-list"><li style="list-style-type:disc">92% khách hàng sẵn sàng trả thêm 10-15% cho trải nghiệm &quot;xe sạch - êm - dễ chịu&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807c-a171-e887de8958b3" class=""><strong>Singapore ComfortDelGro Research:</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8031-b735-c9ffcbed14a8" class="">&quot;Không gian xe ảnh hưởng trực tiếp đến:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ab-a5b8-cf75a02f26ac" class="bulleted-list"><li style="list-style-type:disc">Tỷ lệ giữ chân khách hàng (tăng 40%)</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f9-9bce-d62494e7963c" class="bulleted-list"><li style="list-style-type:disc">Số lượt đánh giá 5 sao (tăng 65%)</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c6-bb36-d0afb398fec4" class="bulleted-list"><li style="list-style-type:disc">Tần suất khách giới thiệu (tăng 55%)&quot;</li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-805d-b20f-d2b2302f6bb7"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8065-a30b-eb8cc743d656" class=""><strong>C. 5 YẾU TỐ QUỐC TẾ TẠO NÊN KHÔNG GIAN HOÀN HẢO</strong> (12 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-806d-b44c-faf48f014d7e" class=""><strong>1. 
-SẠCH SẼ TUYỆT ĐỐI</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8040-85c5-df32a5d885b7" class=""><strong>Bổ sung từ London Black Cab Standard:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80fc-93ec-f924d8bb492c" class="bulleted-list"><li style="list-style-type:disc">Sử dụng UV light để kiểm tra vệ sinh ghế mỗi tuần</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8063-977a-ffae01338dfc" class="bulleted-list"><li style="list-style-type:disc">Thảm xe được hút bụi chuyên nghiệp 2 lần/ngày</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8063-ae0e-f121ee6b1e48" class="bulleted-list"><li style="list-style-type:disc">Tay nắm cửa được khử trùng sau mỗi chuyến</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8029-90a2-cffb43dc2746" class=""><strong>2. KHÔNG MÙI LẠ</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8035-8252-ca5b8b9e020f" class=""><strong>Bổ sung từ European Taxi Alliance:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f5-bffa-d42fb9bc1315" class="bulleted-list"><li style="list-style-type:disc">Sử dụng hệ thống lọc không khí HEPA trong cabin</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8094-8494-c9ab8fcd0224" class="bulleted-list"><li style="list-style-type:disc">Kiểm tra mùi bằng máy đo VOC (Volatile Organic Compounds)</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d8-88b6-f028970e1d49" class="bulleted-list"><li style="list-style-type:disc">Sử dụng ozone generator khử mùi định kỳ</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8041-a9ca-e094bc0c7b14" class=""><strong>3. 
-NHIỆT ĐỘ LÝ TƯỞNG</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c5-ba74-f7252c6cd8cb" class=""><strong>Bổ sung từ Dubai Taxi Corporation:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a3-ab88-c0312c31b230" class="bulleted-list"><li style="list-style-type:disc">Ứng dụng công nghệ &quot;Pre-cooling&quot; - làm mát xe trước 5 phút</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f6-82d8-fea13b88ac2f" class="bulleted-list"><li style="list-style-type:disc">Hệ thống dual-zone climate control cho khách tuỳ chỉnh</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8018-932b-ff034d8a6220" class="bulleted-list"><li style="list-style-type:disc">Theo dõi độ ẩm duy trì 40-60% để tránh khô da</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f6-a8da-d9a1313db2ce" class=""><strong>4. ÂM THANH NHẸ NHÀNG</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80da-b4b6-e6b1f70c0b4e" class=""><strong>Bổ sung từ New York TLC Standard:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ca-9b09-cbe9ccaf2753" class="bulleted-list"><li style="list-style-type:disc">Sử dụng hệ thống âm thanh spatial audio</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c7-81aa-e65bbf0116af" class="bulleted-list"><li style="list-style-type:disc">Curated playlist được nghiên cứu bởi chuyên gia tâm lý</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801b-b5ac-eb0f8c2de7d8" class="bulleted-list"><li style="list-style-type:disc">Công nghệ noise cancellation cho cuộc gọi</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-800d-85f3-debe63532732" class=""><strong>5. 
-ÁNH SÁNG VỪA ĐỦ</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f1-953d-cbd9664dc4f8" class=""><strong>Bổ sung từ Tokyo MK Taxi:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806e-adbb-ce8699a55b34" class="bulleted-list"><li style="list-style-type:disc">Hệ thống đèn LED điều chỉnh theo thời gian trong ngày</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8049-a853-d946b1a67906" class="bulleted-list"><li style="list-style-type:disc">Đèn reading light riêng cho từng ghế</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809f-a1e8-c0923cfb3c6b" class="bulleted-list"><li style="list-style-type:disc">Công nghệ anti-glare cho kính chắn gió</li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8036-80a9-f05e6dc8520e"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8027-a90a-f8884db2f641" class=""><strong>D. 
-CHECKLIST 30 GIÂY GIỮA CÁC CHUYẾN</strong> (4 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8000-8534-dc9afaa3dcc2" class=""><strong>Bổ sung từ Uber Pro Diamond Checklist:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80f1-baef-ff9584a653f3" class="numbered-list" start="1"><li><strong>Mùi:</strong> Sử dụng máy kiểm tra mùi cầm tay</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8058-83d1-fd2799155523" class="numbered-list" start="2"><li><strong>Bụi:</strong> Dùng đèn UV kiểm tra vết bẩn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8077-ab8a-c131a7cd1ffd" class="numbered-list" start="3"><li><strong>Nhiệt độ:</strong> Đo bằng nhiệt kế hồng ngoại</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8038-9a35-f4c298f9c32f" class="numbered-list" start="4"><li><strong>Âm thanh:</strong> Kiểm tra decibel bằng app</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c1-b3b3-e299c8f6c462" class="numbered-list" start="5"><li><strong>Ánh sáng:</strong> Đo lux bằng light meter</li></ol></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d7-9eb2-d8bafa86a21d" class=""><strong>Công nghệ từ GrabAcademy Singapore:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807a-9609-fd337f8d25b3" class="bulleted-list"><li style="list-style-type:disc">Ứng dụng AI nhận diện độ sạch qua camera</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8000-964e-cdeb9f99271d" class="bulleted-list"><li style="list-style-type:disc">Hệ thống cảm biến mùi tự động thông báo</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808c-a9a3-c22a2e360a8d" class="bulleted-list"><li style="list-style-type:disc">Báo cáo tự động gửi đến quản lý chất lượng</li></ul></div><div s
-tyle="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8064-9e6f-ebe0eb650fd4"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8053-9546-f5cb7979e50a" class=""><strong>E. THỰC HÀNH NHANH TRONG LỚP</strong> (6 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f9-8eb3-d8458fb2a2ce" class=""><strong>Bổ sung phương pháp từ Japan Taxi Training:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8031-afff-f2500677343c" class="bulleted-list"><li style="list-style-type:disc">Sử dụng &quot;Sensory Evaluation Kit&quot; để đánh giá khách quan</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f5-a0b5-c8d05389c8fd" class="bulleted-list"><li style="list-style-type:disc">Áp dụng tiêu chuẩn 5S (Sort, Set, Shine, Standardize, Sustain)</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e5-a0ef-d1518aacd819" class="bulleted-list"><li style="list-style-type:disc">Thực hành với &quot;Mystery Customer&quot; theo tiêu chuẩn quốc tế</li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80f6-bc08-c176c59ed56e"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8073-8c96-e014aade0ffc" class=""><strong>F. 
-3 CÂU MẪU VÀNG</strong> (1 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8029-bdd5-e174fe40bf0f" class=""><strong>Bổ sung từ International Hospitality Standards:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-808e-88e0-c16b8c0685cb" class="numbered-list" start="1"><li>&quot;Would you like me to adjust the temperature to your preference?&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8093-869d-c0172391394e" class="numbered-list" start="2"><li>&quot;I have curated some relaxing music, or would you prefer silence?&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-806d-8f33-ff7cdd2f48a6" class="numbered-list" start="3"><li>&quot;The reading light is available if you need to work during our ride.&quot;</li></ol></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8027-adc2-d63630b532cc"/></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80fe-b2db-c809e75fd32c" class=""><strong>G. THÔNG ĐIỆP KẾT</strong> (2 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8067-9906-f28a67df07db" class=""><strong>Bổ sung từ Global Taxi Excellence Program:</strong><br/>&quot;Trong thế giới dịch vụ premium, không gian không còn là yếu tố phụ - đó là sản phẩm chính. 
-Mỗi chiếc xe Unitaxi không chỉ là phương tiện vận chuyển, mà là một trải nghiệm được thiết kế tỉ mỉ.&quot;</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8066-9c59-ee68de49f23c" class=""><strong>Theo Harvard Business Review: </strong>&quot;Dịch vụ vận chuyển trong tương lai sẽ được định giá dựa trên chất lượng không gian nhiều hơn tốc độ di chuyển.&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80f7-bf5e-e3326bf5de22"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8058-af54-d43582a23096" class="">🟦 <strong>CHUẨN 4: TÔN TRỌNG TRONG GIAO TIẾP</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-801d-af92-ceafcab4625b" class=""><strong>(Phiên bản hoàn chỉnh - 45 phút đào tạo)</strong></p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-807a-894a-f7bc17fbe5ef" class=""><strong>A. 
-MỞ ĐẦU: GIAO TIẾP = TRÁI TIM DỊCH VỤ</strong> (4 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80ec-8d1a-d985fbe0abe5" class="">Kính thưa anh chị em, Có một sự thật trong ngành dịch vụ: <strong>&quot;Khách có thể tha thứ cho một chiếc xe cũ, nhưng không bao giờ tha thứ cho một lời nói thiếu tôn trọng.&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-801c-8457-d0923896bcba" class="">Theo nghiên cứu từ Grab &amp; Uber:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8084-baf2-d9c73d39f892" class="bulleted-list"><li style="list-style-type:disc">90% khiếu nại xuất phát từ giao tiếp</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80db-bd94-c51a84436558" class="bulleted-list"><li style="list-style-type:disc">75% khách hủy chuyến vì cảm thấy không được tôn trọng</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e4-a780-d40778ee60d8" class="bulleted-list"><li style="list-style-type:disc">Tài xế giỏi giao tiếp có thu nhập cao hơn 35%</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-802d-a82b-f25d3f896a4e" class="">Hôm nay, chúng ta sẽ cùng nhau học nghệ thuật <strong>&quot;nói ít nhưng ý nghĩa, im lặng đúng lúc và thấu hiểu không lời.&quot;</strong></p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80a4-bd52-e7bd23958f10" class=""><strong>B. 5 NGUYÊN TẮC VÀNG TRONG GIAO TIẾP</strong> (8 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807f-b2b4-f51ff4d89575" class=""><strong>1. 
-Luôn bắt đầu bằng nụ cười</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808c-858d-dc65500d38f2" class="bulleted-list"><li style="list-style-type:disc">Nụ cười chân thành = Cửa mở vào trái tim khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e7-b0a2-d41623646d28" class="bulleted-list"><li style="list-style-type:disc"><em>Japan Taxi Standard:</em> &quot;Hãy cười bằng mắt, không chỉ bằng miệng&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8004-8bfe-fc818e8af257" class=""><strong>2. Giọng nói nhẹ nhàng, tốc độ vừa phải</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8012-9396-e360b4021e16" class="bulleted-list"><li style="list-style-type:disc">Không quá to, không quá nhỏ</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8030-a31f-eae6e3f52af4" class="bulleted-list"><li style="list-style-type:disc">Không nói quá nhanh hoặc quá chậm</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8096-a057-c4717c14f989" class="bulleted-list"><li style="list-style-type:disc"><em>Uber Communication Guide:</em> &quot;Tone giọng quan trọng hơn nội dung&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8018-9218-ef4e1d2b5177" class=""><strong>3. 
-Ngôn từ lịch sự, xưng hô phù hợp</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ac-a067-e744e359efc7" class="bulleted-list"><li style="list-style-type:disc">&quot;Dạ&quot;, &quot;Vâng ạ&quot;, &quot;Xin lỗi&quot;, &quot;Cảm ơn&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8089-b0d7-fb9aa3e9e08d" class="bulleted-list"><li style="list-style-type:disc">Xưng &quot;em&quot; - gọi &quot;anh/chị&quot; với khách trung niên</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e8-972a-d3661cf95310" class="bulleted-list"><li style="list-style-type:disc"><em>ComfortDelGro Protocol:</em> &quot;Luôn dùng ngôn trang trọng&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8005-a16f-dc8905e23bf9" class=""><strong>4. Lắng nghe chủ động</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d2-ba70-de06c0c403fa" class="bulleted-list"><li style="list-style-type:disc">Gật đầu đồng cảm</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8095-81a1-f2d95f41f0ee" class="bulleted-list"><li style="list-style-type:disc">Không cắt ngang khi khách nói</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807e-873b-d7d0f29c7d45" class="bulleted-list"><li style="list-style-type:disc"><em>Lyft Training:</em> &quot;Lắng nghe là cách tôn trọng cao nhất&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-802a-a1e4-cbccbd0afea6" class=""><strong>5. 
-Im lặng đúng lúc</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80be-af65-c3a7b4dcc1d2" class="bulleted-list"><li style="list-style-type:disc">Khách mệt → giữ im lặng</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-808f-a02d-e33914458fd2" class="bulleted-list"><li style="list-style-type:disc">Khách nghe điện thoại → giảm âm lượng</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8052-a53f-d692c45d5901" class="bulleted-list"><li style="list-style-type:disc"><em>Grab Premium Standard:</em> &quot;Im lặng cũng là một dịch vụ&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8059-b1f0-dd8c9469857b" class=""><strong>C. 10 TÌNH HUỐNG GIAO TIẾP &quot;KHÓ&quot; &amp; CÁCH XỬ LÝ</strong> (12 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807b-9d65-fb32c809193d" class=""><strong>1. Khách phàn nàn về giá</strong><em>&quot;Dạ em hiểu anh/chị quan tâm về chi phí. Giá cả được tính toán tự động dựa trên quãng đường và thời gian thực tế ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c4-8355-e59f01d09eb1" class=""><strong>2. Khách chỉ đường lòng vòng</strong><em>&quot;Dạ vâng, em sẽ đi theo chỉ dẫn của anh/chị. Nếu có tuyến đường nào tối ưu hơn, em xin phép đề xuất ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8045-b063-e8653616febf" class=""><strong>3. Khách trách móc vì trễ</strong><em>&quot;Em thực sự xin lỗi vì sự bất tiện này. Em đang cố gắng hết sức trong điều kiện an toàn cho phép ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80de-8a62-fefc8ebee121" class=""><strong>4. Khách yêu cầu dừng đỗ không an toàn</strong><em>&quot;Dạ xin lỗi anh/chị, chỗ này không được phép dừng đỗ. 
-Em sẽ tìm điểm an toàn gần nhất ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80bb-a28f-f51054a739f5" class=""><strong>5. Khách nói chuyện tiêu cực</strong><em>&quot;Dạ em hiểu cảm giác của anh/chị. Mình cứ từ từ, mọi chuyện rồi sẽ ổn thôi ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80bf-bfba-eb8bd2265641" class=""><strong>6. Khách hỏi thông tin cá nhân</strong><em>&quot;Dạ cảm ơn anh/chị quan tâm. Theo quy định công ty, em không tiện chia sẻ thông tin cá nhân ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-804a-a309-f8209be71f7d" class=""><strong>7. Khách phàn nàn về dịch vụ trước</strong><em>&quot;Em rất tiếc vì trải nghiệm không tốt của anh/chị. Em sẽ cố gắng hết sức để thay đổi ấn tượng đó ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f4-9004-d1c5ff85462c" class=""><strong>8. Khách đột ngột thay đổi điểm đến</strong><em>&quot;Dạ được ạ, em sẽ cập nhật điểm đến mới ngay. Có thể sẽ có thay đổi về chi phí, em xin thông báo trước ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80bd-b58d-c575cc55009c" class=""><strong>9. Khách mang theo hành lý cồng kềnh</strong><em>&quot;Để em hỗ trợ anh/chị xếp hành lý gọn gàng và an toàn nhất ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b2-8577-e7fe31fb8627" class=""><strong>10. Khách không thắt dây an toàn</strong><em>&quot;Mình cùng thắt dây an toàn để chuyến đi được an toàn tuyệt đối nhé ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8023-8d82-ce41b3784d9a" class=""><strong>D. NGHỆ THUẬT GIAO TIẾP KHÔNG LỜI</strong> (6 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80af-a740-fb54e5ff1587" class=""><strong>1. 
-Ánh mắt</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-803f-915b-d99fa8c49f1d" class="bulleted-list"><li style="list-style-type:disc">Nhìn thẳng thắn, không đảo mắt liên tục</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800e-b335-df5dc0e4c595" class="bulleted-list"><li style="list-style-type:disc">Giao tiếp bằng mắt khi nói chuyện</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8097-9e33-d2f829f7918c" class="bulleted-list"><li style="list-style-type:disc"><em>Japan Taxi Master:</em> &quot;Ánh mắt nói lên sự chân thành&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80a4-a734-da7bf0ea8faa" class=""><strong>2. Cử chỉ</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e9-92fe-d3faba0cdfef" class="bulleted-list"><li style="list-style-type:disc">Không chỉ trỏ, không vung tay</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806a-8903-ef0c475a9101" class="bulleted-list"><li style="list-style-type:disc">Gật đầu đồng tình khi lắng nghe</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8047-ad62-f107397141c9" class="bulleted-list"><li style="list-style-type:disc"><em>Uber Professional Standard:</em> &quot;Cử chỉ điềm đạm tạo niềm tin&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80db-b732-fcc28d563fe2" class=""><strong>3. 
-Tư thế</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8040-940b-f25ebac9a960" class="bulleted-list"><li style="list-style-type:disc">Ngồi thẳng, không dựa ngả</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bc-abbd-daff20a2f0b1" class="bulleted-list"><li style="list-style-type:disc">Tay đặt nhẹ trên vô lăng</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a1-9435-d085788e39d6" class="bulleted-list"><li style="list-style-type:disc"><em>ComfortDelGro Posture Guide:</em> &quot;Tư thế tốt = Hình ảnh chuyên nghiệp&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8047-9121-d47d5289a553" class=""><strong>4. Khoảng cách</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d3-8ae7-dde548955ac7" class="bulleted-list"><li style="list-style-type:disc">Giữ khoảng cách vừa phải</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c2-8efa-ddaf946d84e0" class="bulleted-list"><li style="list-style-type:disc">Không nghiêng người quá gần</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d0-a667-ce6817037b3f" class="bulleted-list"><li style="list-style-type:disc"><em>Grab Safety Protocol:</em> &quot;Tôn trọng không gian cá nhân&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80b0-aa9b-d9a3ba81fc64" class=""><strong>E. 
-THỰC HÀNH TÌNH HUỐNG - ROLE PLAY</strong> (10 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b7-9dbc-d3e116e2769a" class=""><strong>Chia lớp thành 3 nhóm:</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8097-8fc0-e3b618fdba0e" class=""><strong>Nhóm 1:</strong> Xử lý tình huống khách phàn nàn<br/><strong>Nhóm 2:</strong> Xử lý tình huống khách yêu cầu đặc biệt</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8066-b595-daae7a950f7c" class=""><strong>Nhóm 3:</strong> Xử lý tình huống khách không hài lòng</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8041-a002-d101cb0890ca" class=""><strong>Tiêu chí đánh giá:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-803e-b2c5-fb00d3c1a0bb" class="numbered-list" start="1"><li>Ngôn từ lịch sự (3 điểm)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8080-a073-ef5772a616fb" class="numbered-list" start="2"><li>Giọng điệu phù hợp (3 điểm)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c8-b5a3-d53d1733dcef" class="numbered-list" start="3"><li>Giải pháp hợp lý (2 điểm)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8053-9757-e9cedecbdf0b" class="numbered-list" start="4"><li>Thái độ tích cực (2 điểm)</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80b2-9cef-d1d8f2bbc2b7" class=""><strong>F. 
-5 CÂU &quot;CẦN NÓI&quot; &amp; 
-5 CÂU &quot;KHÔNG NÊN NÓI&quot;</strong> (3 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-805f-a92c-e3f6287c8b10" class=""><strong>NÊN:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80ff-8dc6-fd404c7558dd" class="numbered-list" start="1"><li>&quot;Dạ em hiểu ý anh/chị&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80fd-8585-de66eeb3d2a3" class="numbered-list" start="2"><li>&quot;Em xin phép...&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8088-b587-e6080bf89ed2" class="numbered-list" start="3"><li>&quot;Cảm ơn anh/chị đã thông cảm&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80db-ac35-f8e4d632037b" class="numbered-list" start="4"><li>&quot;Em sẽ cố gắng hết sức&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8065-877e-d00f3157afaf" class="numbered-list" start="5"><li>&quot;Chúc anh/chị một ngày tốt lành&quot;</li></ol></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d4-a506-e8ec4d8ceb05" class=""><strong>KHÔNG NÊN:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-804c-96ce-ffd8acec135b" class="numbered-list" start="1"><li>&quot;Không được đâu&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80cc-8b18-fc0c5682072e" class="numbered-list" start="2"><li>&quot;Tôi không biết&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c9-85bc-e02fca7351b3" class="numbered-list" start="3"><li>&quot;Đằng nào cũng...&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8019-bdbe-f3d602b63a96" class="numbered-list" start="4"><li>&quot;Ai bảo...&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" i
-d="2aec5e6f-95bd-800a-9bdf-e7e60d69cbec" class="numbered-list" start="5"><li>&quot;Tại vì...&quot;</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80bf-baef-c5526e4d3a94" class=""><strong>G. KẾT LUẬN: LỜI NÓI ĐONG ĐẦY TRÁCH NHIỆM</strong> (2 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80a7-bd51-ceb0390f95e3" class="">Anh chị em thân mến, Mỗi lời chúng ta nói ra không chỉ đại diện cho bản thân, mà còn đại diện cho cả Unitaxi. Một câu nói tử tế có thể:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80c0-a057-f59bb6789e06" class="bulleted-list"><li style="list-style-type:disc"><strong>Biến một khách hàng giận dữ thành người thông cảm</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8068-8115-efc853d0d2fb" class="bulleted-list"><li style="list-style-type:disc"><strong>Biến một trải nghiệm tồi thành kỷ niệm đẹp</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8016-9777-c8e51830704a" class="bulleted-list"><li style="list-style-type:disc"><strong>Biến một người lạ thành khách quen</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8050-aa7b-df84028affe8" class="">Hãy để mỗi cuộc trò chuyện đều là một cơ hội lan tỏa sự tôn trọng và thấu hiểu. Cảm ơn các bạn - những nghệ sĩ của ngôn từ!</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80fb-a933-cc3606bc7b5a"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80e7-acd2-f1cfa7f2c07d" class="">🟪 <strong>CHUẨN 5: TRUNG THỰC VỚI HỆ THỐNG</strong></h1></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-802b-8efe-ca81b613303c" class="">A. 
-MỤC TIÊU HỌC</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80cf-a919-c94682a9c408" class="">Sau buổi học, tài xế phải:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-808b-be00-d07b9cfc6cc3" class="numbered-list" start="1"><li>Hiểu hệ thống dữ liệu là “xương sống” của Unitaxi.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80be-bab4-d9af9d0aaa00" class="numbered-list" start="2"><li>Biết hành vi vi phạm nghiêm trọng theo tiêu chuẩn mobility toàn cầu.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c3-8b45-e9d498a76cfa" class="numbered-list" start="3"><li>Nhận thức trung thực = bảo vệ tài khoản, thu nhập, và thương hiệu.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-800d-a179-cb3af5231ac1" class="numbered-list" start="4"><li>Áp dụng cách báo lỗi – cập nhật thông tin đúng chuẩn.</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80a9-9eea-f844e4d44700" class="">B. 
-VÌ SAO TRUNG THỰC LÀ MỆNH LỆNH?</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8028-8316-dfcf50bea47c" class=""><strong>(MECE – 4 nhóm logic)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80b4-a187-da10a9863f17" class="numbered-list" start="1"><li><strong>Dữ liệu là nền tảng vận hành:</strong> Sai lệch nhỏ → sai quyết định lớn (phân ca, bảo trì, định tuyến).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8053-90fd-e681cf479837" class="numbered-list" start="2"><li><strong>Dữ liệu là tài sản chung:</strong> Một sai → ảnh hưởng hàng trăm tài xế (Grab Singapore Transparency Protocol: “Hệ thống xây dựng trên nguyên tắc mọi giao dịch ghi lại, mọi hành trình theo dõi”).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8023-9dbf-e4af4cef939b" class="numbered-list" start="3"><li><strong>Đối tác lớn yêu cầu minh bạch:</strong> 95% doanh nghiệp từ chối hợp tác nếu gian lận dữ liệu &gt;1% (Lyft Trust &amp; Safety Report).</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80e5-bc5f-d3f77ffbf551" class="numbered-list" start="4"><li><strong>Bảo vệ chính tài xế:</strong> Một lỗi → khóa tài khoản, mất thu nhập (ComfortDelGro Singapore Audit System phát hiện 99.7% bất thường trong 2 giờ).</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8092-a805-e9f9ac255d5c" class="">C. 
-3 NHÓM HÀNH VI TUYỆT ĐỐI CẤM</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-804e-a26f-c88633cf52ac" class="numbered-list" start="1"><li><strong>Không bao giờ nói miệng:</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8074-8c3d-ef62504a155b" class="bulleted-list"><li style="list-style-type:disc">Báo lỗi xe → bấm app.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80cc-be91-fa0f71f762ba" class="bulleted-list"><li style="list-style-type:disc">Khách quên đồ → bấm app.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80aa-8991-c85bb1866da1" class="bulleted-list"><li style="list-style-type:disc">Trả học sinh → bấm xác nhận.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ec-a07a-c1b091abdb23" class="bulleted-list"><li style="list-style-type:disc">Cắm sạc → bấm hoàn thành.<br/>(Japan Taxi Digital Protocol: Sử dụng blockchain lưu giao dịch; hệ thống nhận diện giọng nói tự động ghi nhận; QR code cho chuyến đặc biệt).</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-805e-9f01-fec53dedf1f6" class="numbered-list" start="2"><li><strong>Không lách quy trình:</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-800c-8294-c73a209ed029" class="bulleted-list"><li style="list-style-type:disc">Không tắt app chạy ngoài.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8065-bb8b-c89a2b32b019" class="bulleted-list"><li style="list-style-type:disc">Không nhận tiền mặt riêng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ce-810f-e77816756a51" class="bulleted-list"><li style="list-style-type:disc">Không bỏ kiểm tra đầu/ca cuối ca.<br/>(European Ride-Sharing Alliance: Hệ thống phát hiện bất thường realtime; cảnh báo GPS can thiệp; 
-machine learning nhận diện hành vi lạ).</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8042-b612-e610dbe18b60" class="numbered-list" start="3"><li><strong>Không tự ý quyết định thay hệ thống:</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8038-a470-dfd9f2e039e4" class="bulleted-list"><li style="list-style-type:disc">Xe đèn báo → báo kỹ thuật, không đoán.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-801b-a246-e7eeeb175b65" class="bulleted-list"><li style="list-style-type:disc">Khách đổi điểm → cập nhật app.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80af-840a-f0690a6757c0" class="bulleted-list"><li style="list-style-type:disc">Đi trễ → báo ngay, không giấu.<br/>(New York TLC Regulation: Báo cáo sự cố trong 15 phút; hệ thống cảnh báo tự động; “Maintenance Mode” bắt buộc khi xe cần sửa).</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-804a-9c98-d0ba18c48b85" class="">D. 
-6 VÍ DỤ THỰC TẾ QUỐC TẾ</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8074-8645-c7870e8d4c08" class="numbered-list" start="1"><li>Uber London: Sử dụng thiết bị giả mạo GPS → phạt £2,500 và thu hồi giấy phép vĩnh viễn.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8080-bbf4-ccf0af997df7" class="numbered-list" start="2"><li>Bolt Germany: Điều phối tự sửa dữ liệu chuyến xe → khởi tố hình sự vì gian lận dữ liệu.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-804a-82f2-f2337180ee90" class="numbered-list" start="3"><li>Dubai Taxi: Không báo cáo tai nạn nhỏ → phạt 10,000 AED và đình chỉ 6 tháng.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8039-8aba-d841c5736500" class="numbered-list" start="4"><li>Uber London (thêm): Thiết bị giả mạo GPS → phạt £2,500, thu hồi giấy phép.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-803e-a3d9-ca8b54583779" class="numbered-list" start="5"><li>Bolt Germany (thêm): Điều phối sửa dữ liệu → khởi tố hình sự.</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8063-a901-c772757f0fe8" class="numbered-list" start="6"><li>Dubai Taxi (thêm): Không báo tai nạn → phạt 10,000 AED, đình chỉ 6 tháng.</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8029-b107-f288d5a676fb" class="">E. 4 TÌNH HUỐNG THỰC HÀNH NHANH</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8071-a90e-fef9c568cc7c" class=""><strong>Tình huống 1:</strong> Khách đề nghị trả thêm tiền mặt để đi nhanh, bỏ đèn đỏ.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80cf-874e-e7bbe75c666e" class="">→ Trả lời: “Em xin lỗi, nhưng em phải tuân thủ luật giao thông và quy định công ty. 
-An toàn của anh/chị và em là ưu tiên hàng đầu ạ.”</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80df-9c52-f5fb865cc4e4" class=""><strong>Tình huống 2:</strong> Hệ thống báo lỗi xe, bạn đang trên đường đón khách quan trọng.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8094-baa5-da04cde02249" class="">→ Trả lời: “Em cần ưu tiên an toàn xe. Để em sắp xếp xe thay thế cho anh/chị ngay lập tức trong khi em xử lý vấn đề này ạ.”</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f5-8342-c16631a71ce7" class=""><strong>Tình huống 3 (Grab Academy):</strong> Khách đề nghị trả thêm để bỏ đèn đỏ.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-801a-b9f8-d90df6366328" class="">→ Trả lời: “Em xin lỗi, nhưng em phải tuân thủ luật giao thông và quy định công ty. An toàn của anh/chị và em là ưu tiên hàng đầu ạ.”</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c4-ad00-e2c17fbe0e10" class=""><strong>Tình huống 4 (Uber Pro):</strong> Hệ thống báo lỗi xe, bạn đang đón khách quan trọng.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807c-bfc2-cb4aca829728" class="">→ Trả lời: “Em cần ưu tiên an toàn xe. Để em sắp xếp xe thay thế cho anh/chị ngay lập tức trong khi em xử lý vấn đề này ạ.”</p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8047-867f-fa7e9a160e2a" class="">F. 
-3 CÂU MẪU THUỘC LÒNG</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8065-b91a-df8c9f15136a" class="numbered-list" start="1"><li>“Để đảm bảo chính xác và minh bạch, em sẽ cập nhật điều này vào hệ thống ngay lập tức ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c7-91f7-ea4984977b3c" class="numbered-list" start="2"><li>“Hệ thống của chúng em ghi nhận mọi tương tác để mang lại dịch vụ tốt nhất cho anh/chị ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8010-b6ef-d75dc3ce7574" class="numbered-list" start="3"><li>“Em bắt buộc phải tuân thủ giao thức kỹ thuật số để bảo vệ mọi người ạ.”</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80bc-9bb7-cb66e709a11c" class="">G. THÔNG ĐIỆP KẾT</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807c-b702-f0845ea07cde" class=""><strong>(2 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d1-a620-de38781c5f32" class="">Trong kỷ nguyên số, sự trung thực không còn là đức tính – đó là <strong>tài sản</strong>. Mỗi byte dữ liệu trung thực là một viên gạch xây dựng lòng tin với khách hàng, đối tác và cộng đồng (Global Mobility Ethics Charter).</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-808d-8121-d312fb348998" class="">Theo MIT Technology Review, các hệ thống vận tải tương lai sẽ dựa hoàn toàn trên dữ liệu tin cậy. Sự trung thực trở thành yêu cầu kỹ thuật, không phải lựa chọn đạo đức.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8069-9370-cae6cbae0cb9" class="">Anh chị em ơi,</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80a6-8c3d-ce849292f6f0" class="">Trung thực với hệ thống không phải vì công ty “soi mói”, mà vì chính mình và cả đội đang cùng xây một thương hiệu sạch để làm nghề lâu dài. 
-Một lần lách = lãi vài chục nghìn, nhưng mất đi vài chục triệu thu nhập và danh dự nghề nghiệp.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c1-8dab-c8b41c1b3430" class="">Cảm ơn anh chị em – những người giữ cho dữ liệu Unitaxi luôn sạch 100%, để tất cả chúng ta cùng ăn nên làm ra, cùng tự hào với nghề!</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80fc-a8e5-cad7cbb68415"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8080-bd18-db2f307ca25a" class="">🟪 <strong>CHUẨN 6: KỶ LUẬT GIỜ GIẤC &amp; TUÂN THỦ QUY TRÌNH</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80dc-a786-d3e0c723958b" class=""><strong>(Phiên bản chính thức Unitaxi – giảng 30 phút – chuẩn Uber Pro Diamond, Japan Taxi, ComfortDelGro Singapore, Grab Operations, Singapore LTA)</strong></p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-800d-ad0d-efca482e5a7d" class="">A. 
-MỞ ĐẦU – KỶ LUẬT = TỰ DO THẬT SỰ (3 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d5-8e0c-d3c3b6f45787" class="">Anh chị em thân mến,</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8077-935b-d5db9d3c5bfc" class="">Có một câu nói rất hay của tài xế Japan Taxi 40 năm trong nghề:</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807d-98bc-e3e62669f7bc" class=""><strong>“Kỷ luật không phải là xiềng xích – kỷ luật chính là đôi cánh.”</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8087-9096-f4d2795f7219" class="">Khi mình đúng giờ, đủ giờ, làm đúng quy trình:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-809d-a526-de491543c442" class="bulleted-list"><li style="list-style-type:disc">Mình được tự do chọn cuốc đẹp</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806b-8c66-fbc0d6468611" class="bulleted-list"><li style="list-style-type:disc">Tự do không lo bị phạt, bị khóa</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80fc-9e0f-da1b0ba77140" class="bulleted-list"><li style="list-style-type:disc">Tự do về sớm khi hoàn thành chỉ tiêu</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-807c-9a97-d73f33db7338" class="bulleted-list"><li style="list-style-type:disc">Và quan trọng nhất: tự do trong đầu óc, không lo lắng</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8062-ac68-d74b29aea76f" class="">Uber Pro Diamond 2025 thống kê:</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-806b-bf35-d3ad03a72db9" class="">Tài xế kỷ luật cao → thu nhập cao hơn 42%, stress thấp hơn 75%, được ưu tiên cuốc doanh nghiệp.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8038-8b77-f8f675efa18d" class="">Hôm nay chúng ta cùng xây thói quen kỷ luật – nền tảng để làm nghề 5 năm, 10 năm mà vẫn khỏe, vẫn vui, 
-vẫn kiếm tốt!</p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8088-aed9-e9e55a580921" class="">B. 4 LÝ DO KỶ LUẬT KHÔNG THỂ THƯƠNG LƯỢNG (5 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80da-a7f9-e50f6b65fe2a" class="numbered-list" start="1"><li><strong>Vì an toàn của chính mình</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f8-a47a-d055c1a0901a" class="">Ngủ đủ – nghỉ đủ – lái tỉnh → phản xạ nhanh.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80cd-a832-ff32409c81e6" class="">Japan Taxi: “Mệt mỏi giết chết phản xạ trước khi tai nạn xảy ra.”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-809d-9b78-e38a15d4480c" class="numbered-list" start="2"><li><strong>Vì cả đội</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b6-84a5-e47121c9010f" class="">Một người trễ 15 phút = làm xáo trộn 5–7 cuốc của anh em khác.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-800f-8531-cf6123775fa0" class="">Grab Operations: “Kỷ luật của bạn = hiệu suất của 500 xe cùng chạy.”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c5-892d-c0af25cecafd" class="numbered-list" start="3"><li><strong>Vì thu nhập ổn định &amp; tăng dần</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8045-80b4-db8327eba97b" class="">Lyft Insight: Tài xế đúng giờ, đủ giờ được hệ thống ưu tiên cuốc dài, cuốc đẹp, thưởng hoàn thành ca.</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80f1-bddb-d98b81d97cd0" class="numbered-list" start="4"><li><strong>Vì danh tiếng nghề nghiệp &amp; thương hiệu Unitaxi</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80a5-b26a-de5f41555979" class="">ComfortDelGro Singapore: “Kỷ luật tạo nên thương hiệu. 
-Thương hiệu nuôi sống cả đời tài xế.”</p></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80fa-b8cc-dbb1445c2488" class="">C. 
-5 QUY TẮC KỶ LUẬT VÀNG (8 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8045-b502-d14d38abf816" class="numbered-list" start="1"><li><strong>Giờ giấc không thương lượng</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bf-9245-cf8dc72c4b8b" class="bulleted-list"><li style="list-style-type:disc">Đến trước 15 phút</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8085-98e1-f74b18334384" class="bulleted-list"><li style="list-style-type:disc">Không về sớm dù đã đủ tiền</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8015-83f8-dca5ab99474a" class="bulleted-list"><li style="list-style-type:disc">Không tắt app khi chưa hết ca<br/>→ Uber Pro: “15 phút chuẩn bị = 8 giờ làm việc hiệu quả”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-803b-ae63-c6416297622f" class="numbered-list" start="2"><li><strong>Tuân thủ 100% lộ trình hệ thống</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806a-88f6-e9bdc0492b81" class="bulleted-list"><li style="list-style-type:disc">Không tự ý “biết đường tắt”</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8094-a218-f05b24626067" class="bulleted-list"><li style="list-style-type:disc">Không chạy theo ý thích<br/>→ Bolt Standard: “Hệ thống tính toán tốt hơn kinh nghiệm cá nhân”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c8-8547-cc51b2f21f8e" class="numbered-list" start="3"><li><strong>Nghỉ ngơi đúng luật</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a6-92bc-d41eca44bcb0" class="bulleted-list"><li style="list-style-type:disc">Sau mỗi 4 giờ lái liên tục → nghỉ ít nhất 15 phút</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f5-9b43-d019288e4280" class="bulleted-list"><li style="list-style-type:disc">Không làm 
-uá 12 giờ/ngày<br/>→ Singapore LTA: “Nghỉ ngơi là một phần của an toàn”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c6-bcba-d0313aa04923" class="numbered-list" start="4"><li><strong>Báo cáo đúng hạn, trung thực</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8020-9364-f5d7238a6d85" class="bulleted-list"><li style="list-style-type:disc">Sự cố → báo trong 30 phút</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80bb-80d8-eccfc4efe387" class="bulleted-list"><li style="list-style-type:disc">Trạng thái xe → cập nhật real-time<br/>→ Japan Taxi: “Thông tin chậm = hành động chậm = rủi ro lớn”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8049-97a5-e539df718184" class="numbered-list" start="5"><li><strong>Bảo dưỡng không bỏ qua</strong><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-805b-a97c-eb81618d45f8" class="bulleted-list"><li style="list-style-type:disc">Lịch bảo dưỡng → bắt buộc</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f0-aea9-d3c9fcb0bdc9" class="bulleted-list"><li style="list-style-type:disc">Phát hiện lỗi → báo ngay, không “để mai tính”<br/>→ Tesla Service: “Bảo dưỡng phòng ngừa rẻ hơn sửa chữa khẩn cấp gấp 10 lần”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80ab-bb70-d6064bd9a27a" class="">D. 
-QUY TRÌNH MỘT NGÀY CHUẨN QUỐC TẾ (6 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8092-8940-f4788e572fa0" class=""><strong>ĐẦU CA – 15 PHÚT VÀNG</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80db-a056-c7b883c55524" class="numbered-list" start="1"><li>Đến bãi xe trước 15 phút</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80ed-8d71-c1159fa4dfd5" class="numbered-list" start="2"><li>Kiểm tra xe + đồng phục (5 phút)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-804a-91cf-cfce521a9b5b" class="numbered-list" start="3"><li>Cập nhật trạng thái “Ready” trên app</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-805e-87c8-f89bae8deebd" class="numbered-list" start="4"><li>Xem lộ trình + giao thông ngày hôm nay</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8026-8641-c64737fed438" class="numbered-list" start="5"><li>Hít thở sâu 5 lần – chuẩn bị tinh thần</li></ol></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8023-b58a-c6deab4cbf8a" class=""><strong>TRONG CA – NGUYÊN TẮC 4-4-2</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b1-a2f8-f7800d642056" class="bulleted-list"><li style="list-style-type:disc">4 giờ lái tập trung cao độ</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8048-8c0e-fd0ac90f5733" class="bulleted-list"><li style="list-style-type:disc">Nghỉ 15–20 phút (uống nước, đi vệ sinh, 
-giãn cơ)</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8078-a5b3-e3dad6189bc9" class="bulleted-list"><li style="list-style-type:disc">Lặp lại chu kỳ này 2–3 lần/ca</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8062-9f12-f91fe81d342d" class=""><strong>CUỐI CA – 10 PHÚT HOÀN HẢO</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8013-bd72-e547c6fa6cf3" class="numbered-list" start="1"><li>Bấm “Kết thúc ca” đúng giờ</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8041-b6e0-fea3e5299122" class="numbered-list" start="2"><li>Dọn xe sạch sẽ</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8090-8788-e03c0c91a229" class="numbered-list" start="3"><li>Cắm sạc đầy</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80d7-9d9a-e059bce8a89f" class="numbered-list" start="4"><li>Báo cáo ngắn gọn nếu có sự cố</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-801e-875b-e5cc98f04f15" class="numbered-list" start="5"><li>Chào anh em còn lại – về nhà an toàn</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80e6-9bdf-c9d69a778970" class="">E. XỬ LÝ KHI LỠ VI PHẠM (4 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f5-8372-d2fbe595c183" class="">Tình huống 1 – Ngủ quên, trễ ca</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-807f-ad6b-f9039621686a" class="">→ Nhắn ngay nhóm: “Anh chị em cho em xin lỗi, em trễ ca hôm nay. Em sẽ ở lại bù đủ giờ và không tái phạm.”</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b4-bd77-f6f05d4dc1bf" class="">Tình huống 2 – Tự ý đổi lộ trình</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8064-ad2c-e37783ff510f" class="">→ Tự nhận: “Em nhận lỗi đã tự đổi tuyến. 
-Từ mai em tuân thủ 100% hệ thống.”</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8066-a7a0-f3303bc70752" class="">Tình huống 3 – Quên bảo dưỡng</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80ce-b2d2-e8d88ac4af22" class="">→ Chủ động: “Em xin chịu trách nhiệm, em đặt lịch bảo dưỡng bù ngay hôm nay.”</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8093-a1cb-e833c6a2851e" class="">→ Kỷ luật không phải để phạt, mà để cùng nhau tốt hơn.</p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8062-a150-f587b87fab68" class="">F. CÔNG CỤ HỖ TRỢ KỶ LUẬT (2 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-806f-bd74-fee03f0512bd" class="numbered-list" start="1"><li>App Unitaxi tự động nhắc giờ vào ca, giờ nghỉ, giờ bảo dưỡng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80b0-9059-d79606e8a741" class="numbered-list" start="2"><li>Checklist in sẵn dán trong xe (đầu ca – cuối ca)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-806f-b600-d91c9455be2a" class="numbered-list" start="3"><li>Nhóm Zalo “Kỷ luật Unitaxi” – anh em nhắc nhau, chia sẻ kinh nghiệm</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8053-897f-d18f5090144e" class="">G. 
-KẾT LUẬN &amp; CAM KẾT CHUNG (2 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8066-a494-eae313f7afae" class="">Anh chị em ơi,</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8003-a57f-e55a2cec445b" class="">Kỷ luật không phải là gánh nặng – kỷ luật là <strong>đôi cánh</strong> giúp chúng ta bay cao, bay xa, bay bền trong nghề.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8066-a6a1-c3bc4a6fee3e" class="">Tôi mời tất cả chúng ta cùng đứng dậy, giơ tay lên và đọc to cam kết:</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8063-8a5a-c3705be0eb8c" class=""><strong>“Từ hôm nay, tôi chọn kỷ luật – vì an toàn, vì thu nhập, vì anh em, và vì chính tôi!”</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c3-8f2d-ded06be60d6f" class="">Cảm ơn anh chị em – những tài xế kỷ luật nhất thành phố này!</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8013-bfd7-f8508c8e7d71"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-805b-a4ef-d54762cbd074" class=""><strong>📍 CHUẨN 7: CHÚ Ý CHI TIẾT (25 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c2-b3c6-de2ee9050d48" class="">
-</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f2-8745-eb7f569ba11d" class=""><strong>LỜI MỞ ĐẦU (3 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8017-8b6b-f246790ea89c" class="">Kính chào các tài xế thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f8-b94c-e86b43e788ba" class="">Hôm nay, chúng ta cùng khám phá một chuẩn mực quan trọng làm nên sự khác biệt của Unitaxi: <strong>sự tinh tế trong từng chi tiết</strong>.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8038-b8ee-ff97b81b6416" class="">Có bao giờ quý vị tự hỏi: <em>&quot;Tại sao cùng một chuyến xe, có khách đánh giá 5 sao, có khách chỉ cho 4 sao?&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8050-abcc-d38e864d0701" class="">Câu trả lời nằm ở những điều nhỏ nhất - những chi tiết mà đôi khi chúng ta không để ý, nhưng khách hàng lại cảm nhận rất rõ.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802d-a7c6-ffffbb6582f5" class="">Theo nghiên cứu quốc tế:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8044-b3a7-f61c22fdbc7f" class="bulleted-list"><li style="list-style-type:disc">95% ấn tượng của khách được hình thành trong 10 giây đầu tiên</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-800a-9900-fe4fc3710582" class="bulleted-list"><li style="list-style-type:disc">Khách có thể không nhớ tên chúng ta, nhưng họ sẽ nhớ chiếc xe có mùi dễ chịu không, ghế ngồi có sạch sẽ không, cửa xe có đóng êm không</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ee-9de4-cc8649d97086" class="">Đây chính là lý do các hãng xe lớn như Grab Singapore, 
-Uber Nhật Bản đều yêu cầu tài xế kiểm tra xe 3 lần mỗi ca.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804c-b11f-d903b7df498a" class=""><strong>Sự tinh tế trong chi tiết = Tôn trọng khách hàng + Bảo vệ thương hiệu + Nâng cao thu nhập của chính mình.</strong></p></div><div style="display:contents" dir="auto"><hr id="2b0c5e6f-95bd-80b7-8109-c9aba4eff893"/></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8070-97d0-d2a66098a055" class=""><strong>PHẦN 1: KHÔNG GIAN XE - TẠO CẢM XÚC ĐẦU TIÊN (7 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802d-ac07-ce45e5d8607d" class=""><strong>1.1. Hương thơm trong xe</strong><br/>Khách hàng nhạy cảm với mùi hơn chúng ta 3-4 lần. 
-Một chiếc xe có mùi ẩm mốc, mùi thức ăn hay mùi thuốc lá sẽ để lại ấn tượng không tốt ngay lập tức.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807f-963c-ef1526c36f1b" class=""><em>Cách thực hiện:</em></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8065-bfeb-f0ab0de64533" class="bulleted-list"><li style="list-style-type:disc">Mở cửa xe 1 phút trước mỗi ca lái</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8077-b9fe-ce13d9be5039" class="bulleted-list"><li style="list-style-type:disc">Không để thức ăn trong khoang lái</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8068-8c80-ead8a4f06f4f" class="bulleted-list"><li style="list-style-type:disc">Sử dụng hương thơm nhẹ nhàng, trung tính</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8008-b951-e2ed1cafd52a" class="bulleted-list"><li style="list-style-type:disc">Thường xuyên vệ sinh bề mặt ghế ngồi</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8087-a610-d90deed7d62a" class=""><em>Thực hành:</em> Dùng khăn giấy lau thử ghế để kiểm tra</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8060-800b-de7cb53e2b6d" class=""><strong>1.2. Ghế ngồi và bề mặt</strong><br/>Những vết bẩn nhỏ trên ghế, thảm trải sàn lệch lạc - tất cả đều tạo cảm giác thiếu chuyên nghiệp.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8010-ad23-f2e24adfa595" class="">Tiêu chuẩn quốc tế: Ghế ngồi phải đạt mức &quot;sạch như mới giặt&quot;</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8054-8e4e-da0df0fae1dd" class=""><strong>1.3. Kính chắn gió và bảng điều khiển</strong><br/>Đây là những vị trí khách hàng nhìn thấy nhiều nhất. 
-Vết vân tay, bụi bám đều cần được lau chùi thường xuyên.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8003-b0d7-e36d8ac7ef0a" class=""><em>Mẹo nhỏ:</em> Dành 10 giây mỗi ca để lau bảng điều khiển và tay nắm cửa</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ec-a59f-e3cd079523cf" class=""><strong>1.4. Điều hòa, ánh sáng và âm thanh</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8039-baf9-f7dbe3639016" class="bulleted-list"><li style="list-style-type:disc">Nhiệt độ lý tưởng: 24-26°C</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8011-bb07-e054f60e7233" class="bulleted-list"><li style="list-style-type:disc">Âm lượng nhạc: 30-40%, tránh bass mạnh</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80aa-9e64-eaac5052483b" class="bulleted-list"><li style="list-style-type:disc">Ánh sáng dịu nhẹ vào buổi tối</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b9-9aef-c3171494ee74" class="">Đặc biệt lưu ý với khách đi bệnh viện, trẻ em hoặc người say xe - họ rất nhạy cảm với các yếu tố này.</p></div><div style="display:contents" dir="auto"><hr id="2b0c5e6f-95bd-8050-8c59-d0c2ea3d05b9"/></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8021-8715-c601bdce402b" class=""><strong>PHẦN 2: PHƯƠNG TIỆN - AN TOÀN TRÊN TỪNG KM (7 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804b-aaea-da4b9bc514f5" class=""><strong>2.1. Cửa xe</strong><br/>Cửa xe đóng mạnh tạo cảm giác kém an toàn. Hãy đóng cửa nhẹ nhàng, êm ái - đó là dấu hiệu của dịch vụ cao cấp.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-803a-be6f-c12adb552241" class=""><strong>2.2. 
-Hệ thống đèn và camera</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8090-909a-fb336dd073ec" class="bulleted-list"><li style="list-style-type:disc">Đèn trong xe quá sáng gây khó chịu</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8098-801d-f423eec92b42" class="bulleted-list"><li style="list-style-type:disc">Đèn ngoài xe hỏng ảnh hưởng an toàn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ce-abb4-ecbdcdfdf3fa" class="bulleted-list"><li style="list-style-type:disc">Camera lệch góc giảm hiệu quả giám sát</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a1-87d8-de64e33a2783" class=""><em>Lưu ý:</em> Chỉnh camera ngay nếu bị lệch dù chỉ 5 độ</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d6-92b2-e67a44091d8c" class=""><strong>2.3. Tình trạng pin và ứng dụng</strong><br/>Nhận chuyến khi pin thấp dễ dẫn đến hủy chuyến - ảnh hưởng uy tín. Luôn kiểm tra:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8067-913b-da25fc87385d" class="bulleted-list"><li style="list-style-type:disc">Mức pin đủ cho chuyến dài</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-802b-8804-f625152b36d5" class="bulleted-list"><li style="list-style-type:disc">Cảnh báo kỹ thuật</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80f3-8f51-d66ff2d8ea33" class="bulleted-list"><li style="list-style-type:disc">Đồng hồ km</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ba-9e55-d7638daed3c3" class="bulleted-list"><li style="list-style-type:disc">Áp suất lốp</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b2-9d3d-ca99f413f182" class=""><strong>2.4. Gương chiếu hậu</strong><br/>Gương lệch khiến tài xế phải xoay đầu nhiều - mất an toàn. 
-Chuẩn Nhật Bản: luôn chỉnh gương trước khi vào số D.</p></div><div style="display:contents" dir="auto"><hr id="2b0c5e6f-95bd-804b-aa58-d317d16eae06"/></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805f-b520-d034b24c823d" class=""><strong>PHẦN 3: THAO TÁC - SỰ TINH TẾ TRONG CỬ CHỈ (5 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8021-b88b-e252f81a2f34" class=""><strong>3.1. Mở cửa đón khách</strong><br/>Cửa xe mở nhẹ nhàng, đóng êm ái - thể hiện sự chuyên nghiệp ngay từ giây phút đầu tiên</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8059-97a1-f716b0f07544" class=""><strong>3.2. Sắp xếp hành lý</strong><br/>Đặt đồ gọn gàng, không để rơi đổ - thể hiện sự tôn trọng tài sản khách hàng</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8036-8e19-f3007e18f0e3" class=""><strong>3.3. 
-Dừng đón/trả khách</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8081-83f3-c286a7c57113" class="bulleted-list"><li style="list-style-type:disc">Dừng xe sát lề, thẳng thớm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8021-99c8-df498d80c487" class="bulleted-list"><li style="list-style-type:disc">Tránh vũng nước, chỗ đông người</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-808e-bc09-dd3ac87b4c88" class="bulleted-list"><li style="list-style-type:disc">Đảm bảo an toàn tuyệt đối khi khách lên/xuống</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80fe-8154-fc232d9a578c" class=""><em>Minh họa:</em> Hình ảnh so sánh vị trí dừng đúng/sai</p></div><div style="display:contents" dir="auto"><hr id="2b0c5e6f-95bd-808e-9f97-cd7eeb48fcad"/></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8066-b33f-f0d498339448" class=""><strong>THỰC HÀNH (3 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802a-8ddc-f4c7a81ceec3" class="">Chúng ta cùng tham gia thử thách: &quot;Tìm 10 lỗi nhỏ trong 60 giây&quot;</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e5-a347-ec7c10e83d15" class="">Trên chiếc xe mẫu đã chuẩn bị sẵn 10 lỗi nhỏ thường gặp. 
-Hãy quan sát thật kỹ!</p></div><div style="display:contents" dir="auto"><hr id="2b0c5e6f-95bd-800d-8fae-c8eb9196522a"/></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8098-9386-fca7c86bb32b" class=""><strong>LỜI KẾT (1 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8051-afda-d37f68cf562e" class="">Thưa các tài xế,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80df-ab4d-d8baef3eab57" class="">Sự tinh tế không nằm ở những gì to lớn, mà nằm ở cách chúng ta quan tâm đến từng chi tiết nhỏ nhất.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807e-9585-d30e945bd029" class="">Mỗi lần lau sạch vết bụi trên ghế, mỗi lần chỉnh nhiệt độ điều hòa phù hợp, mỗi lần đóng cửa xe thật êm - đó chính là cách chúng ta gửi thông điệp: &quot;Chúng tôi trân trọng quý khách&quot;.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b0-baf7-d1a3ea0e9af1" class="">Những điều tưởng chừng nhỏ bé ấy sẽ:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8042-ab4e-f7b0d1b71910" class="bulleted-list"><li style="list-style-type:disc">Giảm thiểu khiếu nại</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8027-9f18-d4264eecce6e" class="bulleted-list"><li style="list-style-type:disc">Tăng đánh giá 5 sao</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-801d-a772-ed0dbd290593" class="bulleted-list"><li style="list-style-type:disc">Nâng cao thu nhập</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-805e-913f-c97aea137713" class="bulleted-list"><li style="list-style-type:disc">Xây dựng hình ảnh Unitaxi &quot;Chuẩn mực - Sạch sẽ - Chuyên nghiệp&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8050-b29c-c48dfe6f7682" class="">Xin cảm ơn các tài xế đã lắng nghe! 
-Chúc quý vị luôn an toàn và thành công trên mọi nẻo đường.</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8022-b47d-f1d566b140fc"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80f0-844b-ce60f714c15c" class="">🟦 <strong>CHUẨN 8: TỰ HÀO KHI MẶC ĐỒNG PHỤC (20 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8040-b433-f9a081a9f28e" class=""><strong>(Phiên bản chính thức Unitaxi – giảng 25 phút – chuẩn Uber Pro Diamond, Japan Taxi Association, ComfortDelGro Singapore, Grab Premium, London Black Cab)</strong></p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8063-926f-f2697d0c16e3" class="">A. 
-MỞ ĐẦU – Đồng phục không phải là quần áo, là DANH DỰ (3 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c2-96de-d9c647e4f908" class="">Anh chị em thân mến,</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80cf-9f64-c84e42f4ad76" class="">Khi bạn mặc đồng phục Unitaxi và bước ra đường, bạn không còn là cá nhân nữa – bạn chính là <strong>Unitaxi</strong> trong mắt hàng triệu người Sài Gòn, Hà Nội, Đà Nẵng.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80bf-8da2-da02cc9150ea" class="">Japan Taxi Association dạy tài xế từ ngày đầu:</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-805a-814f-cdd371782139" class="">“Đồng phục là lá cờ của công ty bạn mang trên người.”</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d4-bee9-f618add8a4a7" class="">Uber Pro Diamond nói thẳng:</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f2-9583-ea0c95b16136" class="">“Đồng phục sạch – thẳng – đúng chuẩn = tăng 42% tiền tip và 38% rating 5 sao.”</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d2-bb30-ce841147781a" class="">Hôm nay chúng ta học cách mặc đồng phục sao cho mỗi lần khách nhìn thấy là nghĩ ngay:</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b6-b317-cac23d104061" class="">“Unitaxi khác thật!”</p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8060-9da5-c513c448da85" class="">B. 
-VÌ SAO ĐỒNG PHỤC LẠI QUAN TRỌNG ĐẾN VẬY? (5 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8031-b6e3-f0fc99d4d741" class="numbered-list" start="1"><li><strong>Khách đánh giá thương hiệu qua bạn trong 3 giây đầu</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d7-b5a3-e173c71dd256" class="">Lyft Research 2025: 87% khách quyết định “có lên xe không” chỉ bằng cách nhìn đồng phục và tác phong tài xế.</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80e0-bc78-d0e9001b7586" class="numbered-list" start="2"><li><strong>Đồng phục sạch = cảm giác an toàn</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c8-a01d-e27541a752ab" class="">Grab Premium Study: khách nữ và gia đình có con nhỏ chọn xe có tài xế “gọn gàng – sạch sẽ” cao hơn 68%.</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-808c-8574-e9ccef9ff73c" class="numbered-list" start="3"><li><strong>Đồng phục là niềm tự hào nghề nghiệp</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8034-b597-cb9028227c01" class="">ComfortDelGro Singapore 55 năm không thay tiêu chuẩn:</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8017-83b6-efa7e0beb134" class="">“Tài xế mặc đồng phục thẳng thớm = tự tôn trọng chính mình và nghề mình làm.”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80b1-b5e6-f0c8de64df5d" class="numbered-list" start="4"><li><strong>Đồng phục chuẩn = tăng thu nhập thực tế</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-806b-b2e5-f37c84e78e44" class="">Uber Pro Diamond Việt Nam 2025: tài xế giữ đồng phục đúng chuẩn có thu nhập cao hơn 28–35% nhờ được ưu tiên cuốc đẹp và tip cao.</p></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8019-bcb9-ebc658735f9a" class="">C. 
-8 TIÊU CHUẨN ĐỒNG PHỤC QUỐC TẾ BẮT BUỘC (10 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8075-808a-c8ad88d8a9e6" class="numbered-list" start="1"><li><strong>Áo đồng phục</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8067-b0fe-ef3dd7d03493" class="">– Luôn cài hết nút (trừ nút cổ trên khi trời nóng)</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80fc-ba99-f37b00ae8c3e" class="">– Thẳng thớm, không nhăn, không ố vàng</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-805e-8835-c1202b699d5d" class="">– Luôn bỏ vào quần (chuẩn Japan Taxi &amp; 
-ComfortDelGro)</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8073-bbd4-e44e21dc678b" class="numbered-list" start="2"><li><strong>Quần tây đen</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d0-a47b-ef5602d4d8e3" class="">– Ủi li thẳng, không nhăn gối</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8000-b8f2-eb8dc25e1c5c" class="">– Không phai màu, không rách gấu</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e0-9baa-fd5da38e151e" class="">– Dài vừa chạm mũi giày</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8050-a0fd-d2b7d1b4d3fb" class="numbered-list" start="3"><li><strong>Giày đen bóng</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8054-b2e4-def13d5ed021" class="">– Lau sạch mỗi ngày</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-803c-b4a8-f887bb249a5f" class="">– Không dép lê, không sandal, không giày thể thao</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d4-aaef-ca53be534ae2" class="">– Chuẩn London Black Cab: “Giày phải bóng đến mức soi gương được”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80d9-bef9-f7a76b6f998c" class="numbered-list" start="4"><li><strong>Tóc &amp; 
-râu</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8013-b34d-ffb61e1c8bab" class="">– Tóc gọn, không nhuộm màu nổi</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80ff-9291-d8c3fa37e239" class="">– Râu cạo sạch hoặc cắt tỉa gọn (chuẩn Grab Premium)</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8076-aafe-d7c0a2279b41" class="">– Không để tóc che tai, che cổ áo</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-808e-9c83-d4675fa031b5" class="numbered-list" start="5"><li><strong>Phụ kiện bắt buộc</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8081-a890-ec977f5e0a45" class="">– Thẻ tên đeo thẳng, sạch, đúng vị trí</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b8-a65c-c8c81cff2bb9" class="">– Đồng hồ đơn giản (không đeo vòng vàng to)</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8028-8c61-fa2a0e59b240" class="">– Không đeo kính râm khi nói chuyện với khách (trừ kính thuốc)</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8022-b2e2-d016fbf142dd" class="numbered-list" start="6"><li><strong>Mùa mưa – áo mưa Unitaxi</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e3-aff0-fe8d53151d56" class="">– Chỉ mặc áo mưa chính hãng, màu xanh Unitaxi</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8067-a692-ec7e3ef0e80f" class="">– Cởi ngay khi lên xe, treo gọn phía sau</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-804d-bf58-d331edc7f109" class="numbered-list" start="7"><li><strong>Đồng phục dự phòng</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8038-9a08-dbb39dac0c02" class="">– Luôn có 1 bộ sạch trong cốp xe</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8079-b40e-ed6ffd1b070f" class="">– Nếu đổ mồ hôi, 
-đổ cà phê → thay ngay khi có thể</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c6-bcb4-e170eb5c09c1" class="numbered-list" start="8"><li><strong>Kiểm tra đồng phục trước khi nhận ca</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80da-b263-fb2f944da184" class="">– Gương soi toàn thân tại bãi xe</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e8-b657-f4bbe3a9572d" class="">– Checklist 10 giây: Áo – Quần – Giày – Tóc – Thẻ tên</p></div></li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-80fd-a59e-e438422c998b" class="">D. 
-CHECKLIST 10 GIÂY TRƯỚC KHI LÊN XE (3 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8082-b8c2-f9ff6665f79a" class="numbered-list" start="1"><li>Áo thẳng &amp; bỏ vào quần chưa?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80a9-a224-f90782f3916c" class="numbered-list" start="2"><li>Quần có li, không nhăn gối?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80a6-8570-ebf573058458" class="numbered-list" start="3"><li>Giày có sạch và bóng không?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8072-b8b3-f8f389e96c6e" class="numbered-list" start="4"><li>Thẻ tên có thẳng không?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80f9-95ae-fb0608a26b37" class="numbered-list" start="5"><li>Tóc có gọn không?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c7-9e58-ce23ad57d744" class="numbered-list" start="6"><li>Có mùi cơ thể không? (xịt chút khử mùi nếu cần)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8039-ac6b-f3e6755ba6b6" class="numbered-list" start="7"><li>Tay sạch, móng tay cắt ngắn?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8032-8f06-eb5a7e04c818" class="numbered-list" start="8"><li>Đồng phục có vết bẩn không?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80bc-ac4e-d8c169f4047a" class="numbered-list" start="9"><li>Nụ cười đã sẵn sàng chưa?</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80b7-8234-ff0e8cd065d0" class="numbered-list numbered-list-digits-2" start="10"><li>Tự hỏi: “Nếu mẹ mình thấy mình lúc này, mẹ có tự hào không?”</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8013-adaf-e1f9a8002c44" class="">E. 
-THỰC HÀNH NHANH TRONG LỚP (5 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80df-911d-df5eec0d36ea" class="">Chia 2 nhóm:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-806a-b3b4-ff74aa629079" class="bulleted-list"><li style="list-style-type:disc">Nhóm 1: mặc đúng chuẩn 100% → cả lớp vỗ tay</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8009-ab0b-f35f4a603ce0" class="bulleted-list"><li style="list-style-type:disc">Nhóm 2: cố ý sai 5–7 lỗi (áo nhăn, giày bẩn, thẻ tên ngược…) → cả lớp chỉ ra lỗi trong 20 giây</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-808a-8fe3-cb2599cb3af6" class=""><strong>→ Ai phát hiện nhiều lỗi nhất → tặng ngay 1 bộ đồng phục mới!</strong></p></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8061-ba9b-f5fb2c34724d" class="">F. 
-5 CÂU MẪU KHI ĐƯỢC KHEN ĐỒNG PHỤC (2 phút)</h3></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-801b-9860-c9c909cd6a0b" class="numbered-list" start="1"><li>“Dạ cảm ơn anh/chị, em luôn giữ đồng phục sạch để xứng đáng với Unitaxi ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c1-af0d-ff6e041b3858" class="numbered-list" start="2"><li>“Cảm ơn anh/chị đã nhận ra, đây là niềm tự hào của em mỗi ngày.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80c4-b491-e07aa5d94f07" class="numbered-list" start="3"><li>“Đồng phục sạch là cách em tôn trọng anh/chị và chính mình ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8051-b35a-d0ee95b30866" class="numbered-list" start="4"><li>“Unitaxi yêu cầu rất cao về đồng phục, em luôn cố gắng giữ chuẩn ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80f0-9f1d-f997e47a87c1" class="numbered-list" start="5"><li>“Cảm ơn anh/chị, em sẽ tiếp tục giữ gìn để Unitaxi luôn đẹp trong mắt mọi người.”</li></ol></div><div style="display:contents" dir="auto"><h3 id="2aec5e6f-95bd-8068-9e60-f41cee4cb9be" class="">G. THÔNG ĐIỆP KẾT (2 phút)</h3></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80fa-96ab-d908ed4a7daf" class="">Anh chị em ơi, Đồng phục Unitaxi không phải để “cho có” – nó là danh dự, là niềm tự hào, là lý do khách chọn mình thay vì hàng nghìn xe khác ngoài kia. 
-Japan Taxi có câu nói treo ở mọi bãi xe: <strong>“Đồng phục thẳng – lòng tự trọng cao – nghề nghiệp trường tồn.”</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8067-a0d6-d22a49c2fd93" class="">Mỗi lần bạn mặc đồng phục sạch sẽ, thẳng thớm, bạn không chỉ đẹp cho chính mình – bạn đang làm đẹp cho cả Unitaxi, cho gia đình mình, và cho nghề tài xế Việt Nam.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8083-bf6f-d69e056dc225" class=""><strong>Cảm ơn anh chị em – những người mặc đồng phục đẹp nhất thành phố này!</strong></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-808b-a1f7-d4bb9178f11d"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-804f-9ebd-c81cd3010a95" class="">📍 <strong>KIỂM TRA NHANH KẾT THÚC MÔ-ĐUN</strong></h2></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80b6-8a55-edb9ee9c6600" class=""><strong>(5 câu – 5 phút – Dùng cho Tài xế / Điều phối / Kỹ thuật – Chuẩn Unitaxi 2025)</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80d8-801b-f7ba0eed6507" class="">Hướng dẫn trainer:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ce-97dd-d8f3d6fcd546" class="bulleted-list"><li style="list-style-type:disc">Đọc to từng câu, dừng 20–25 giây để học viên ghi hoặc trả lời miệng.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80d8-a398-e17e0757b540" class="bulleted-list"><li style="list-style-type:disc">Chấm ngay tại chỗ, 1 câu = 20 điểm, 
-5/5 = Xuất sắc.</li></ul></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8040-9230-f1b97960c884" class="numbered-list" start="1"><li><strong>Chuẩn số 1 của Unitaxi là gì?</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-803c-a4cd-ccbdf489441a" class="">→ <strong>An toàn trước – sau – luôn luôn.</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-803c-9793-c3dec0be167d" class="">(Phải trả lời đúng nguyên văn)</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8079-8d22-ec66bd2dcfb9" class="numbered-list" start="2"><li><strong>Khi sắp trễ giờ đón khách, việc đầu tiên phải làm là gì và tại sao?</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8042-b07c-e6ae86ce9b03" class="">→ <strong>Báo ngay cho khách (và cập nhật trên app nếu trễ &gt;1 phút).</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-806d-bb5d-ddd58d2366c0" class="">Vì để khách yên tâm, giảm 70% khả năng xung đột và giữ uy tín của Unitaxi.</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80e5-ace5-f08cd46b276b" class="numbered-list" start="3"><li><strong>Kể tên đúng 3 yếu tố quan trọng nhất tạo nên không gian xe dễ chịu?</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80ef-aadf-e5806b76058e" class="">→ <strong>Xe sạch – Không mùi lạ – Điều hòa 24–26°C.</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-801c-9378-d703f327a117" class="">(Chấp nhận thêm: âm lượng nhỏ, 
-ánh sáng dễ chịu)</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-80d0-bc8c-f98e0dc2e73b" class="numbered-list" start="4"><li><strong>Nêu 1 hành vi giao tiếp bị cấm tuyệt đối với khách và hậu quả nếu vi phạm?</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8035-8c6d-db26581b5f64" class="">→ Ví dụ:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8038-bdf0-e604ad26b11f" class="bulleted-list"><li style="list-style-type:disc">Tranh cãi/quát tháo khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8061-9ef5-d9a4bb7bacaf" class="bulleted-list"><li style="list-style-type:disc">Hỏi chuyện riêng tư</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ad-8baa-fc76e2bfa3c3" class="bulleted-list"><li style="list-style-type:disc">Nói tục/chửi thề</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a3-a828-d693ddf5d23b" class="bulleted-list"><li style="list-style-type:disc">Dùng điện thoại khi đang nói chuyện với khách<br/>→ Hậu quả: Bị khóa tài khoản ngay lập tức, trừ 100% thu nhập chuyến đó.</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2aec5e6f-95bd-8071-96cf-e575ef541e21" class="numbered-list" start="5"><li><strong>Giải thích ngắn gọn tại sao phải trung thực 100% với hệ thống (app)?</strong><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80da-b792-d90cb779c15d" class="">→ Vì dữ liệu của mình ảnh hưởng đến cả đội, đến đối tác, đến thương hiệu Unitaxi và trực tiếp bảo vệ tài khoản + thu nhập lâu dài của chính mình.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8063-b7a7-d7954bbfdd0c" class="">(Nếu nói miệng thay vì bấm app → coi như chưa làm)</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8064-be3b-f687cb3b5bc5" class=""><strong>Đáp án chuẩn &amp; 
-thang điểm nhanh</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-801e-8cd3-ce7cd54c0417" class="">5/5 → Xuất sắc – sẵn sàng chạy độc lập</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80da-9d0b-f3d1ad1699ca" class="">4/5 → Đạt – cần ôn lại 1 chuẩn</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-809a-bcd3-e67e67d43329" class="">3/5 → Cần kèm cặp thêm 1 tuần</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80a6-abf3-e406717ad68d" class="">&lt;3/5 → Học lại mô-đun</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80e1-a3ad-ee3599766f63" class=""><strong>Thông điệp kết từ trainer (15 giây):</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8063-9dd1-fd7979a9ca04" class="">“5/5 đúng → Chúc mừng! Bạn chính thức là thành viên đội ngũ Unitaxi 5 sao.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8045-b3bb-ff49c3a9c3c0" class=""><strong>Hãy giữ mãi 5 chuẩn này mỗi ngày – khách sẽ nhớ mãi và tiền sẽ tự tìm đến!”</strong></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80f3-b4d8-c7e6514645e8"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-801d-8b52-f2734ea3e11c" class=""><strong>📘 3. 
-AN TOÀN &amp; PHÁP LÝ (4 GIỜ)</strong></h1></div><div style="display:contents" dir="ltr"><table id="2aec5e6f-95bd-802a-8bc0-e6ece5d7e08e" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80b0-b544-ec2026fce8cd"><th id="H@cD" class="simple-table-header-color simple-table-header"><strong>Thời gian</strong></th><th id="]YvU" class="simple-table-header-color simple-table-header" style="width:587px"><strong>Nội dung</strong></th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80c7-b4b5-ee600a2bbdc6"><td id="H@cD" class="">0–20 phút</td><td id="]YvU" class="" style="width:587px">Khung pháp lý cơ bản cho tài xế taxi điện</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8023-b374-c84c031777df"><td id="H@cD" class="">20–60 phút</td><td id="]YvU" class="" style="width:587px">Luật Giao thông – Hành vi bắt buộc &amp; cấm tuyệt đối</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-809f-af30-c4dfb10ef2b0"><td id="H@cD" class="">60–105 phút</td><td id="]YvU" class="" style="width:587px">An toàn xe điện – pin – cháy nổ – trạm sạc</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8017-8199-e54e2f210064"><td id="H@cD" class="">105–145 phút</td><td id="]YvU" class="" style="width:587px">Quy định đưa đón học sinh &amp; người yếu thế</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8025-9e56-f4de69380a8c"><td id="H@cD" class="">145–180 phút</td><td id="]YvU" class="" style="width:587px">Quy định rượu bia – ma tuý – camera – ghi âm</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8020-ab65-ee9f86fb2aec"><td id="H@cD" class="">180–220 phút</td><td id="]YvU" class="" style="width:587px">10 tình huống an toàn thực tế &amp; 
-cách xử lý</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80fd-bd89-f5476840f8e7"><td id="H@cD" class="">220–240 phút</td><td id="]YvU" class="" style="width:587px">Bài test 10 câu + thảo luận nhóm</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-802c-8c73-c57cc29aa8b1" class=""><strong>Mục tiêu:</strong></p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80bf-9c8b-d3425941122a" class="">Giúp học viên nắm chắc toàn bộ quy định pháp lý – tiêu chuẩn an toàn – quy trình xử lý rủi ro khi vận hành taxi điện.</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-805c-8e1b-db7d171a5141" class="">Mục tiêu cuối cùng: <strong>Không vi phạm – Không tranh chấp – Không tai nạn.</strong></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8087-9c45-fed74d8695d1"/></div><div style="display:contents" dir="auto"><h1 id="2b0c5e6f-95bd-80c8-946b-eb990b6a3410" class=""><strong>⏱  CHƯƠNG TRÌNH ĐÀO TẠO: KHUNG PHÁP LÝ VẬN HÀNH TAXI ĐIỆN UNITAXI</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802f-9659-e06c3e2003f7" class=""><strong>KHUNG PHÁP LÝ CƠ BẢN CHO TÀI XẾ TAXI ĐIỆN</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805d-b555-f4af30d3c457" class=""><em>20 phút quyết định bạn là tài xế chuyên nghiệp hay chỉ là người cầm lái bình thường</em></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-809e-820f-c934529aae67" class=""><strong>🎯 Sau 20 phút này, bạn sẽ tự tin tuyên bố:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8023-b099-d32705d7b470" class="">“Tôi hiểu rõ pháp luật – tôi làm chủ rủi ro – tôi bảo vệ chính mình và thương hiệu Unitaxi!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807a-8b29-fc82b4421f72" class=""><strong>⏱ 0–3 phút — MỞ ĐẦU MẠNH MẼ (Giảng viên nói đúng 1 câu duy nhất, 
-giọng trầm – chắc – truyền cảm hứng)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802f-83de-c02bc1feb97e" class="">“Các anh chị ơi!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8072-b087-d962c8b0ffdc" class="">Một lần hiểu sai pháp luật = mất việc, mất thu nhập cả năm, mất luôn niềm tin của khách.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8000-ad05-eae56e0f49c3" class="">Nhưng một lần làm đúng pháp luật = cả đời tự hào, tiền thưởng đầy túi, khách xếp hàng chờ mình!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8047-bde3-d631cbc75f08" class="">20 phút tới đây, chúng ta sẽ biến pháp luật từ gánh nặng thành LÁ CHẮN VÀNG bảo vệ các anh chị!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d7-91de-fa78e24bffa6" class=""><strong>⏱ 3–9 phút — (A) LUẬT GIAO THÔNG ĐƯỜNG BỘ – LÀM ĐÚNG LÀ SỐNG, LÀM SAI LÀ… RA ĐI!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8018-858c-e68650344934" class="numbered-list" start="1"><li>Ba chữ “TUYỆT ĐỐI KHÔNG” mà tài xế taxi điện phải khắc vào tim:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8088-b6e4-c0eabead6b11" class="bulleted-list"><li style="list-style-type:disc">Không dừng giữa làn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80a2-82b6-f0d57bdad40f" class="bulleted-list"><li style="list-style-type:disc">Không trả khách giữa đường</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8019-b7a4-efe67d1fdb1d" class="bulleted-list"><li style="list-style-type:disc">Không lướt đèn vàng để “bám cuốc”<br/>→ Singapore LTA phạt 2 triệu + tước phù hiệu 6 tháng chỉ vì dừng giữa làn. 
-Chúng ta không để chuyện đó xảy ra!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8001-aa74-fbe10e948a1a" class="numbered-list" start="2"><li>Biển số xanh + phù hiệu taxi = bạn đang mang trên vai danh dự của cả ngành!<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8066-8be8-e573ec3cf99d" class="bulleted-list"><li style="list-style-type:disc">Phù hiệu rơi, che, mờ → phạt ngay 4–6 triệu + tạm giữ xe</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80b3-9099-df2d7695627c" class="bulleted-list"><li style="list-style-type:disc">Hãy kiểm tra mỗi sáng như kiểm tra ví tiền – không thể thiếu!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80b3-839e-c0c4d77f5bc2" class="numbered-list" start="3"><li>Đèn vàng không phải là “cơ hội”, mà là “lời cảnh báo cuối cùng”<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-807b-8cba-c2697eb116dc" class="bulleted-list"><li style="list-style-type:disc">Nhật Bản MLIT: 100% tài xế vượt đèn vàng bị đuổi việc ngay lập tức</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-803d-a649-effe78193f33" class="bulleted-list"><li style="list-style-type:disc">Chúng ta chọn an toàn, chọn tương lai, chọn 5 sao thay vì 5 giây mạo hiểm!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801d-8ef1-c68237b905bc" class=""><strong>⏱ 9–13 phút — (B) XE KINH DOANH VẬN TẢI – MỌI THỨ ĐỀU BỊ GIÁM SÁT, VÀ ĐÓ LÀ ĐIỀU TUYỆT VỜI NHẤT!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8041-b7c0-c5dd455d3375" class="numbered-list" start="1"><li>Camera hành trình = “nhân chứng thép” bảo vệ bạn 24/7<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8056-9110-db33287479eb" class="bulleted-list"><li style="list-style-type:disc">Tắt, che, dán giấy, chỉnh góc = tự bắn vào chân mình! 
-Phạt 7–15 triệu + đuổi việc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80a1-b89a-eaf725c0dc5f" class="bulleted-list"><li style="list-style-type:disc">Hãy yêu camera như yêu người bạn thân nhất – nó cứu bạn khi khách khiếu nại oan!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80b1-b576-ea5447c13110" class="numbered-list" start="2"><li>Dữ liệu hành trình = “hộp đen” của taxi điện<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80b8-bc83-ec493d3fae44" class="bulleted-list"><li style="list-style-type:disc">Không được xóa, không được chỉnh sửa bằng app lậu</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80bc-b345-ca1477df04bc" class="bulleted-list"><li style="list-style-type:disc">Sai lệch dữ liệu = bị xem là gian lận → mất việc vĩnh viễn</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80a2-97c9-d30a0b95434a" class="numbered-list" start="3"><li>Giấy tờ bắt buộc luôn đầy đủ trên xe:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ba-933c-ea4fc3ac1b76" class="bulleted-list"><li style="list-style-type:disc">Đăng kiểm, bảo hiểm, phù hiệu, hướng dẫn chữa cháy xe điện<br/>→ Cảnh sát kiểm tra mà thiếu 1 thứ = xe bị giữ, tài xế bị phạt, khách mất lòng tin!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8001-8247-cfd596125c92" class=""><strong>⏱ 13–16 phút — (C) QUYỀN RIÊNG TƯ &amp; 
-BẢO VỆ DỮ LIỆU – UY TÍN CỦA BẠN NẰM Ở ĐÂY!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8033-a4f4-c8a16946012a" class="numbered-list" start="1"><li>4 điều KHÔNG BAO GIỜ làm với thông tin khách:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80dc-abf6-c4bd56e6e8cb" class="bulleted-list"><li style="list-style-type:disc">Không quay lén</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80f1-b7b4-d9428f20035e" class="bulleted-list"><li style="list-style-type:disc">Không lưu số</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8030-a393-d3ff3b4fa4dc" class="bulleted-list"><li style="list-style-type:disc">Không chụp ảnh riêng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8099-a49e-c84f0e44102a" class="bulleted-list"><li style="list-style-type:disc">Không nhắn tin, gọi lại sau chuyến<br/>→ Vi phạm = khóa tài khoản vĩnh viễn (chuẩn Singapore, Nhật, EU)</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80f3-925a-c75f271c239c" class="numbered-list" start="2"><li>Khi có sự cố, chỉ gửi hình/video cho 3 nơi DUY NHẤT:<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8068-b702-cff01cf5562e" class="">Điều phối – Công an – Bảo hiểm</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-803b-9b77-e132a5ccdf7d" class="">Đăng Facebook, Zalo = tự hủy hoại sự nghiệp!</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8012-a378-dfb0fe00e30a" class="numbered-list" start="3"><li>Chuẩn quốc tế đang bảo vệ bạn:<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8038-963a-c57cca98ccb8" class="">Singapore LTA, Japan MLIT, 
-EU GDPR đều nói:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8047-8061-c846f2307a05" class="">“Tài xế tôn trọng dữ liệu khách = được tôn trọng ngược lại gấp bội!”</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8033-a788-facbbf7850a5" class=""><strong>⏱ 16–20 phút — (D) TRÁCH NHIỆM PHÁP LÝ &amp; 6 LÚC PHẢI DỪNG XE NGAY LẬP TỨC</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-801d-937f-d06d93a81a12" class="numbered-list" start="1"><li>Bạn chịu trách nhiệm 100% khi:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8072-b7b8-edc47b00b2a3" class="bulleted-list"><li style="list-style-type:disc">Gây tai nạn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8013-bf60-f583f6289fc1" class="bulleted-list"><li style="list-style-type:disc">Trả khách sai chỗ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80a3-8a0d-fb0a555eccb8" class="bulleted-list"><li style="list-style-type:disc">Không thắt dây cho trẻ em</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8063-b677-c5feff965ea9" class="bulleted-list"><li style="list-style-type:disc">Tắt camera<br/>→ Đừng để 1 phút lơ là phá tan cả sự nghiệp!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80d0-9797-ea903a267c3e" class="numbered-list" start="2"><li>6 tình huống phải “STOP WORK” ngay – không thương lượng!<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a5-9fcd-ea29f3c6a538" class="">a. Buồn ngủ, hoa mắt</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a9-a502-d190e0b9b1ff" class="">b. Đau đầu, stress nặng</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-808a-8d61-f1a27895bdcc" class="">c. 
-Khách đe dọa hoặc có dấu hiệu nguy hiểm</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8073-b612-d4ad1c8aca3a" class="">d. Xe báo lỗi pin nghiêm trọng</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807e-9cf6-d4244687c782" class="">e. Mưa bão, ngập sâu</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80fa-a105-de76c4f80cac" class="">f. Tai nạn dù chỉ là va quẹt nhẹ</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-803c-81ed-f8184fe86114" class="">→ Dừng xe – báo điều phối – kích hoạt hỗ trợ. 
-Sống sót hôm nay để chạy tiếp ngày mai!</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80d4-972d-f0b879095351" class="numbered-list" start="3"><li>5 trường hợp bạn có QUYỀN từ chối khách một cách danh chính ngôn thuận:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-803d-ab54-f5d30a8785ba" class="bulleted-list"><li style="list-style-type:disc">Khách say xỉn mất kiểm soát</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8072-a68f-d7bafc3fd406" class="bulleted-list"><li style="list-style-type:disc">Mang hung khí</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80c3-81c3-dcdb408b2383" class="bulleted-list"><li style="list-style-type:disc">Yêu cầu chạy ngược chiều, vượt đèn đỏ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-800c-bb18-c9c84c98a1fa" class="bulleted-list"><li style="list-style-type:disc">Xúc phạm, đe dọa tài xế</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-800c-867b-e16199d2e7fd" class="bulleted-list"><li style="list-style-type:disc">Có dấu hiệu phạm pháp<br/>→ Từ chối không phải là mất tiền, mà là bảo vệ danh dự và an toàn!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8063-bb6c-f51e527058a5" class=""><strong>📌 KẾT THÚC 20 PHÚT – GIẢNG VIÊN ĐỨNG THẲNG, GIỌNG MẠNH MẼ:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8031-809f-ca7d332525d1" class="">“Các anh chị thân mến! Từ hôm nay, pháp luật không còn là nỗi sợ – mà là NGƯỜI BẠN HÙNG MẠNH nhất của các anh chị! Mỗi lần tuân thủ đúng một quy định, các anh chị đang bỏ tiền vào túi, bỏ sao vào hồ sơ, bỏ tự hào vào tim! 
-Hãy bước ra khỏi phòng học này với tư thế ngẩng cao đầu và tự nhủ:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804b-accd-e2208cc987ef" class=""><strong>“Tôi không chỉ lái xe – tôi lái xe ĐÚNG LUẬT, ĐẲNG CẤP QUỐC TẾ!”</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8010-be42-cc805959e638" class="">Unitaxi tự hào vì có các anh chị! Việt Nam tự hào vì có các anh chị! Cùng nhau, chúng ta sẽ làm nên lịch sử taxi điện sạch – an toàn – chuyên nghiệp nhất Đông Nam Á!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8095-9748-fb6dd93c4f3a" class="">Cảm ơn các anh chị – giờ là lúc tỏa sáng trên mọi nẻo đường! 
-🚕💚**</p></div><div style="display:contents" dir="auto"><hr id="2b0c5e6f-95bd-800d-baf7-ecd588a62c93"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8026-a476-c1cc213919aa" class=""><strong>⏱ 20–60 phút — PHẦN 2: HÀNH VI BẮT BUỘC &amp; 
-HÀNH VI CẤM TUYỆT ĐỐI</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e0-8f4d-de8dc8406fb7" class=""><strong>40 phút này sẽ biến bạn từ “tài xế bình thường” thành “tài xế được khách nhớ mãi tên”!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c2-8ab3-e4e18176d1ae" class=""><strong>🎯 Sau 40 phút, bạn sẽ mang về nhà 3 thứ vô giá:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80dc-9a6a-c4ac0e71a29c" class="numbered-list" start="1"><li>Bộ kỹ năng lái xe đạt chuẩn Singapore – Nhật Bản – châu Âu</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-809b-ab9b-de3b25c8b623" class="numbered-list" start="2"><li>Sự tự tin thép: “Tôi làm đúng – tôi không sợ bất kỳ tình huống nào!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80e5-a098-e2ba4a8f8291" class="numbered-list" start="3"><li>Thu nhập tăng vọt vì khách tự động cho 5 sao + boa hậu hĩnh</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8029-a924-dcef1aaf3f4b" class=""><strong>⏱ 20–40 phút — 5 HÀNH VI BẮT BUỘC – KHẮC VÀO TIM, THỰC HIỆN MỖI GIÂY!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-801f-84d7-f30abffcef58" class="numbered-list" start="1"><li>Thắt dây an toàn – Không phải “làm cho có”, mà là “làm để cứu mạng!”<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80d1-af0d-e5fc64c3fcbc" class="bulleted-list"><li style="list-style-type:disc">Bạn cài dây trước khi xe lăn bánh – dù chỉ đi 100 mét!</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80bb-b6dc-f997382bd67a" class="bulleted-list"><li style="list-style-type:disc">Nhắc khách bằng nụ cười ấm áp:<br/>“Anh/chị ơi mình cài dây an toàn giúp em một chút cho yên tâm ạ!”<br/>→ Nhật Bản &amp; 
-Singapore: 100% tài xế 5 sao đều nhắc dây – đó là văn hóa chuyên nghiệp!<br/>→ Khách không cài dây = bạn được bảo hiểm chi trả 100% nếu có chuyện → bạn ngủ ngon mỗi đêm!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8056-99f1-cd046625b284" class="numbered-list" start="2"><li>Giữ khoảng cách 2–3 giây – Đây là “khoảng cách vàng” cứu bạn cả đời!<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8096-837f-df69e5b7b889" class="bulleted-list"><li style="list-style-type:disc">Đếm “một nghìn lẻ một – một nghìn lẻ hai – một nghìn lẻ ba”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80a7-9b13-c01cf54db1e5" class="bulleted-list"><li style="list-style-type:disc">Xe trước qua cột điện → xe bạn phải tới sau ít nhất 3 giây!<br/>→ Khách cảm nhận được xe chạy ÊM – KHÔNG GIẬT – KHÔNG RUNG → tự động 5 sao + boa!<br/>→ Bạn có thời gian phản ứng → tai nạn giảm 70%!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80e5-92b0-c264a3a93671" class="numbered-list" start="3"><li>Quan sát 360° trước khi chuyển làn – Mắt bạn phải là “radar sống”!<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-801c-8cc0-ca91707c632f" class="bulleted-list"><li style="list-style-type:disc">Gương trái → gương phải → gương chiếu hậu → quay đầu nhìn điểm mù!</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8042-95e7-e78f31d48ae1" class="bulleted-list"><li style="list-style-type:disc">Bật xi-nhan trước 3–5 giây – không đánh lái đột ngột!<br/>→ Xe máy “ma” trong góc chết không còn là nỗi ám ảnh nữa!<br/>→ Khách ngồi sau thấy bạn chuyên nghiệp → tự động khoe với bạn bè: “Tài xế hôm nay lái siêu êm!”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80b6-8976-e31c901cad7c" class="numbered-list" start="4"><li>Đi đúng tốc độ – Không nhanh hơn luật cho phép dù chỉ 1 km/h!<div s
-tyle="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8024-8f96-fb7845a23cee" class="bulleted-list"><li style="list-style-type:disc">Nhìn biển báo như nhìn ví tiền của mình!</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8002-82b9-cebf5205c422" class="bulleted-list"><li style="list-style-type:disc">Khách giục: bạn mỉm cười đáp:<br/>“Dạ em hiểu anh/chị đang gấp, em sẽ đi nhanh nhất trong mức an toàn tuyệt đối ạ!”<br/>→ Khách không dám giục nữa, mà còn cảm ơn bạn vì sự chuyên nghiệp!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8090-b176-faf28a9a2168" class="numbered-list" start="5"><li>“Đọc đường” trước 5–10 giây – Bạn là người lái trước khi mọi thứ xảy ra!<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8039-baab-f200accd04a6" class="bulleted-list"><li style="list-style-type:disc">Nhìn xa, dự đoán đèn sắp đỏ, xe máy sắp cắt ngang, người đi bộ chuẩn bị băng qua</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80e4-9168-cfb5ca741b84" class="bulleted-list"><li style="list-style-type:disc">Giảm tốc từ từ thay vì đạp phanh đột ngột<br/>→ Khách không bị giật trà, không bị đổ người → đánh giá 5 sao ngay lập tức!<br/>→ Pin tiết kiệm, phanh bền, 
-bạn khỏe – khách vui – công ty thưởng!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-809b-af08-f1c7283e0574" class=""><strong>⏱ 40–55 phút — 5 HÀNH VI CẤM TUYỆT ĐỐI – LÀM 1 LẦN = MẤT CẢ SỰ NGHIỆP!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8026-a841-e66c1b51f920" class="numbered-list" start="1"><li>Vượt đèn đỏ hoặc “lướt” đèn vàng → Coi như tự tay đốt tương lai của mình!<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804e-a024-e5b7c3121a32" class="">→ Singapore phạt 6 tháng tước phù hiệu chỉ vì 1 lần vượt vàng!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e5-9d73-e1489cfed781" class="">→ Chúng ta chọn dừng lại 30 giây để đi cả đời an toàn!</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c3-b35a-f88e51ec0a70" class="numbered-list" start="2"><li>Cầm điện thoại khi xe đang chạy – Dù chỉ 2 giây cũng là 2 giây quá nguy hiểm!<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802b-af91-e34386b3f3c1" class="">→ Thống kê quốc tế: dùng điện thoại tăng rủi ro tai nạn gấp 4 lần!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f1-ac21-e8707c59d1ef" class="">→ Muốn xem tin nhắn? 
-Tấp vào lề – dừng hẳn – bật đèn cảnh báo – rồi mới cầm!</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8047-bb50-f6b90ba7cc74" class="numbered-list" start="3"><li>Lái xe khi mệt mỏi, buồn ngủ, hoặc có chút rượu bia nào → Coi như cầm dao tự đâm mình!<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8049-a676-c7be4115e867" class="bulleted-list"><li style="list-style-type:disc">Ngáp 3 lần liên tiếp → báo điều phối ngay lập tức!</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80c8-8e42-c1d6048fa1bf" class="bulleted-list"><li style="list-style-type:disc">“Cố chuyến cuối” = câu nói cuối cùng của rất nhiều tài xế gặp nạn!<br/>→ Chúng ta chọn nghỉ 10 phút để chạy tiếp 10 năm!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80f1-b655-cadb0b8d5971" class="numbered-list" start="4"><li>Lái xe hung hăng, bóp còi inh ỏi, chen lấn → Biến khách thành kẻ thù!<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cb-86fd-d0250f33ace2" class="">→ Khách sợ hãi → đánh giá 1 sao → công ty khóa tài khoản!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8029-b103-ebc1d8d00512" class="">→ Bạn là người mang nụ cười của Unitaxi – không phải tiếng còi!</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-806c-9e8c-f76962b52dc6" class="numbered-list" start="5"><li>Cãi nhau, lớn tiếng, 
-đáp trả khách hoặc người đi đường → Bạn không bao giờ thắng!<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80aa-8bef-e028cf7df0bf" class="bulleted-list"><li style="list-style-type:disc">Khách sai 100% thì bạn vẫn thua nếu cãi lại!</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8000-b574-ea438c19b1aa" class="bulleted-list"><li style="list-style-type:disc">Câu thần chú: “Dạ để em nhờ điều phối hỗ trợ xử lý cho rõ ràng ạ!”<br/>→ Khách nể phục sự chuyên nghiệp → tự động xin lỗi và cho 5 sao!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ab-81ef-e9d7c9da54de" class=""><strong>⏱ 55–60 phút — 3 CON SỐ KHÔNG BAO GIỜ QUÊN &amp; 2 TÌNH HUỐNG THỰC TẾ</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d1-8f74-c48a7d7adb3c" class=""><strong>3 con số khắc vào tim:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80f9-befb-d9f497a1ae22" class="bulleted-list"><li style="list-style-type:disc">70% tai nạn xảy ra chỉ vì mất tập trung 3 giây</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-805a-80a9-e00aac7cd08e" class="bulleted-list"><li style="list-style-type:disc">Một cú phanh gấp làm khách giảm 60% sự hài lòng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-802c-b3af-da794b0e1e0f" class="bulleted-list"><li style="list-style-type:disc">Dùng điện thoại khi lái = nguy cơ tai nạn tăng gấp 4 lần</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8007-b7aa-ccc90bcbefa6" class=""><strong>Tình huống 1 – Khách giục chạy nhanh:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8019-833a-de916ac3c7ab" class="">Câu trả lời chuẩn Unitaxi (mỉm cười, giọng ấm, chắc chắn):</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d1-a16f-ec6310e5cd7a" class="">“Dạ em hiểu anh/chị đang rất gấp. 
-Em sẽ cố gắng đi nhanh nhất có thể trong giới hạn an toàn tuyệt đối ạ. An toàn cho anh/chị là trên hết!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8086-b30c-f4b65e3f3134" class="">→ 99% khách sẽ im lặng và cảm ơn bạn!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f2-a849-dcdff1556e26" class=""><strong>Tình huống 2 – Va chạm nhẹ khi đang chở khách:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c9-a6e4-f8e4b4d3d529" class="">5 bước xử lý chuyên nghiệp:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8063-a405-e1172b467256" class="numbered-list" start="1"><li>Bình tĩnh – tấp vào lề – bật đèn cảnh báo</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c1-b927-f6adb020486e" class="numbered-list" start="2"><li>Quay lại hỏi khách: “Anh/chị có sao không ạ? Em xin lỗi vì sự cố vừa rồi!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80a0-93b7-e6bbe29aaf00" class="numbered-list" start="3"><li>Chụp ảnh hiện trường + biển số xe kia</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8092-bb5b-f8c617019df6" class="numbered-list" start="4"><li>Báo ngay điều phối</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80bf-8fdc-f146f5dcf136" class="numbered-list" start="5"><li>Tuyệt đối không cãi nhau giữa đường</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c3-969e-ff7330745c37" class="">Câu nói với khách: “Em xin lỗi anh/chị, vừa có va chạm nhẹ. Em tấp vào lề an toàn rồi mình xử lý nhanh ạ. 
-Anh/chị có bị đau đâu không ạ?”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80bd-ae9b-dfa3770d57d0" class="">→ Khách thấy bạn chuyên nghiệp → 90% vẫn cho 5 sao + cảm ơn bạn!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8023-9ed9-d0b4efd35261" class=""><strong>⏱ 60 PHÚT – GIẢNG VIÊN KẾT THÚC BẰNG GIỌNG MẠNH NHẤT, ĐẦY NĂNG LƯỢNG:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8067-98bb-e77c529097f4" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80be-a226-e9d1c639f087" class="">Từ hôm nay, các anh chị không còn là những tài xế bình thường nữa. 
-Các anh chị là những CHIẾN BINH AN TOÀN – những ĐẠI SỨ 5 SAO – những NGƯỜI HÙNG thầm lặng trên mọi cung đường!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804b-9717-f5201c387d4e" class="">Mỗi lần các anh chị thắt dây, giữ khoảng cách, mỉm cười từ chối chạy ẩu – các anh chị đang:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80d9-a968-fc56d23a41ac" class="bulleted-list"><li style="list-style-type:disc">Bảo vệ mạng sống của mình và khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8087-ab13-c87c6b6bb49e" class="bulleted-list"><li style="list-style-type:disc">Bỏ thêm tiền thưởng vào túi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-809d-903b-dfa42257e5e7" class="bulleted-list"><li style="list-style-type:disc">Đưa thương hiệu <em><strong>Unitaxi </strong></em>lên tầm thế giới</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8057-a4ac-f92f86f7c7b0" class="">Hãy bước ra khỏi phòng học này và tự nhủ thật to:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a2-9453-f643e00a770b" class=""><strong>“TÔI LÁI XE KHÔNG CHỈ ĐỂ KIẾM TIỀN – TÔI LÁI XE ĐỂ TẠO NÊN KỲ TÍCH!”</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8035-a01d-deb2b5061de6" class="">Unitaxi tự hào vì có các anh chị! Việt Nam tự hào vì có các anh chị! Cùng nhau, chúng ta sẽ làm nên một đội taxi điện AN TOÀN NHẤT – CHUYÊN NGHIỆP NHẤT – ĐÁNG TỰ HÀO NHẤT Đông Nam Á!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8043-8482-d585bcb12900" class="">Cảm ơn các anh chị – bây giờ, hãy ra đường và tỏa sáng! 
-🚕✨**</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80d1-857c-def4f6b5fce1"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80b7-b3aa-d63a38cb3a18" class=""><strong>⏱ 60–105 phút — PHẦN 3: AN TOÀN XE ĐIỆN – PIN – CHÁY NỔ – TRẠM SẠC</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8080-8f71-d8365526fc0f" class=""><strong>45 phút này có thể cứu mạng bạn, cứu khách và cứu cả đội xe!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8075-8072-fadba87b56d0" class=""><strong>🎯 Sau 45 phút, bạn sẽ rời phòng học với 4 sự tự tin thép:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-801d-ba70-c8f888379cdc" class="numbered-list" start="1"><li>Bạn hiểu pin xe điện rõ như kỹ sư VinFast</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8096-831c-d662d5dbd803" class="numbered-list" start="2"><li>Bạn biết chính xác phải làm gì trong 3 giây đầu tiên khi có sự cố</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8080-836e-f7ae55fb2446" class="numbered-list" start="3"><li>Bạn không còn sợ cháy nổ xe điện nữa – vì bạn đã nắm luật chơi</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8042-8673-fa6155594bac" class="numbered-list" start="4"><li>Bạn chính là “lá chắn sống” bảo vệ hành khách và thương hiệu Unitaxi!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ae-a989-cedf7fc949a4" class=""><strong>⏱ 60–75 phút — HIỂU ĐÚNG VỀ PIN: KIẾN THỨC CỨU MẠNG</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8005-8b3d-c102f63c5b4f" class="">“Pin xe điện không phải quả bom – nó là người bạn thông minh, 
-luôn báo trước khi sắp giận!”</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80bb-bdd4-cc416053617e" class="numbered-list" start="1"><li>Pin Lithium-ion hoạt động thế nào? 
-(giải thích 90 giây mà tài xế nào cũng hiểu)<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-803d-a50d-cf934879d917" class="bulleted-list"><li style="list-style-type:disc">Cell → Module → Pack → BMS (bộ não) quản lý mọi thứ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80c4-a862-f849014ad76e" class="bulleted-list"><li style="list-style-type:disc">BMS giống như “bác sĩ riêng” của pin: đo nhiệt độ, điện áp, cân bằng cell 24/7</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80fe-b30d-ded8a5f67a02" class="numbered-list" start="2"><li>Pin chỉ “nổi điên” khi bị ngược đãi:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80d5-b371-ea02d20eade3" class="bulleted-list"><li style="list-style-type:disc">Va chạm mạnh</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-809c-96bb-e0b6456196a6" class="bulleted-list"><li style="list-style-type:disc">Nhiệt độ &gt;60°C hoặc &lt;0°C quá lâu</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80af-9ebe-e0073a3d655a" class="bulleted-list"><li style="list-style-type:disc">Sạc bằng cáp dỏm, 
-cắm không đúng cách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80fe-a2c5-c0862e56d844" class="bulleted-list"><li style="list-style-type:disc">Đỗ xe dưới nắng 40–50°C nhiều giờ</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8053-b1f7-d49927dad624" class="numbered-list" start="3"><li>6 dấu hiệu pin đang kêu cứu – bạn phải nhận ra trong 5 giây!<div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-80cb-bd77-e7ead047b3ea" class="numbered-list" start="1"><li>Mùi khét nhẹ (như nhựa cháy)</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-806f-946d-f456117399e1" class="numbered-list" start="2"><li>Nhiệt độ pin tăng vọt trên màn hình</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-8068-802c-ecce11ec9d66" class="numbered-list" start="3"><li>Pin tụt 2–3% chỉ trong vài phút</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-8020-a7ad-f10f5e9cd18c" class="numbered-list" start="4"><li>Xe khựng, rung nhẹ khi tăng tốc</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-80ba-8f74-cb54c069ae9d" class="numbered-list" start="5"><li>Khói mỏng dưới gầm</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-8097-81c3-feeb17b7708d" class="numbered-list" start="6"><li>Cảnh báo đỏ từ BMS</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8064-87ed-dd2749bb9fde" class="">→ Nhớ 1 câu duy nhất: “Pin không tự nhiên cháy – nó luôn báo trước 30 giây đến vài phút!”</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8014-8008-db15aa6f95da" class=""><strong>⏱ 75–85 phút — 4 CẤP ĐỘ CHÁY PIN &amp; 
-CÁCH XỬ LÝ CHUẨN QUỐC TẾ (NFPA + Tesla + BYD + VinFast)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8047-808b-e5abcd4eacb2" class=""><strong>Cấp 1 – Nóng bất thường</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b4-a528-dd4cfe970c45" class="">Dấu hiệu: báo nóng pin + mùi nhẹ</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8087-9be6-f814d6876899" class="">→ Hành động ngay:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b6-a7d5-e96b382f006e" class="">• Tấp vào lề an toàn</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-808c-88a2-c4d97b88b2c1" class="">• Mở hết cửa → mời khách xuống “cho thoáng mát”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8060-9000-f12c99063600" class="">• Gọi kỹ thuật + điều phối → KHÔNG chạy tiếp dù chỉ 500m!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8031-8c53-f520baf655f7" class=""><strong>Cấp 2 – Khói mỏng</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a8-ad1a-f8933cde185c" class="">→ Di tản khách xa 15m ngay lập tức!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cd-b3bb-e0529a0b0c98" class="">→ Không mở nắp capo, không cúi gầm xe</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8055-8f47-d018d7c5c964" class="">→ Gọi 114 + báo: “Xe điện có khói pin”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b8-9208-c4796f3cbb58" class=""><strong>Cấp 3 – Cháy nhỏ, 
-có tia lửa</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805d-b222-c6c57aa6e619" class="">→ Dùng bình chữa cháy bột ABC (không dùng nước!)</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b1-91bc-ea3b0738c004" class="">→ Đứng cách 5–7m</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-803d-89d5-c7844d4eab55" class="">→ Vẫn di tản khách xa 30m</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e0-a03d-e1a15ee97acb" class=""><strong>Cấp 4 – Cháy lớn</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e9-b298-ce1c6a75655f" class="">→ Chạy xa ít nhất 50m</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8041-b59f-df69119f12ee" class="">→ Gọi 114, báo chính xác: “Cháy pin lithium-ion xe điện”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80dd-8865-f118bc2126bd" class="">→ Để lực lượng chuyên dụng xử lý – bạn chỉ cần bảo vệ khách và chính mình!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80da-986c-e9972c0a9948" class=""><strong>Câu thần chú khắc vào tim:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8041-b673-c3f882f948a5" class="">“Nước + pin lithium = nổ to hơn! 
-Chỉ dùng bột ABC hoặc để đội cứu hỏa chuyên dụng!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c7-b32a-efd76d2a0ba5" class=""><strong>⏱ 85–95 phút — AN TOÀN TRẠM SẠC: 6 QUY TẮC VÀNG CHUẨN SINGAPORE – CHÂU ÂU – HÀN QUỐC</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-804e-ab08-edb08cd5bc21" class="numbered-list" start="1"><li>4 điều KHÔNG BAO GIỜ làm khi sạc:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80f4-a487-de8b88da73a5" class="bulleted-list"><li style="list-style-type:disc">Sạc khi trời mưa to, ngập nước</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-802a-9ec6-fb46004f7284" class="bulleted-list"><li style="list-style-type:disc">Dùng cáp lạ, cáp tự chế</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8032-840a-ded7e9dd060e" class="bulleted-list"><li style="list-style-type:disc">Đứng sát đầu sạc khi cắm/rút</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8009-a49a-d741edb9d80c" class="bulleted-list"><li style="list-style-type:disc">Giật mạnh dây khi chưa bấm STOP</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8012-8345-f8e44d110ef5" class="numbered-list" start="2"><li>Quy trình sạc 6 bước an toàn tuyệt đối:<div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-8007-b7b0-dfc16347cd2a" class="numbered-list" start="1"><li>Đỗ đúng vạch</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-80f9-9aac-c09da9ac21bc" class="numbered-list" start="2"><li>Mở khóa cổng sạc trên app</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-804f-91c4-ceb66eeb20c1" class="numbered-list" start="3"><li>Cắm thẳng, 
-không nghiêng</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-8024-b327-ff47e8b1e4c1" class="numbered-list" start="4"><li>Chờ đèn “Charging”</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-80de-9221-c15148b73475" class="numbered-list" start="5"><li>Khi xong → bấm STOP → đợi 3 giây → mới rút</li></ol></div><div style="display:contents" dir="auto"><ol type="a" id="2b0c5e6f-95bd-80b5-923e-d5c3af2498d4" class="numbered-list" start="6"><li>Treo cáp gọn gàng</li></ol></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-804c-9028-f4dfe4e09378" class="numbered-list" start="3"><li>Các lỗi thường gặp &amp; 
-cách xử lý nhanh:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-800b-b76c-e2218a0ba483" class="bulleted-list"><li style="list-style-type:disc">Đầu sạc kẹt → không kéo mạnh → gọi kỹ thuật</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80af-bffe-db3257affeb1" class="bulleted-list"><li style="list-style-type:disc">Sạc chậm → để pin nguội 10 phút rồi sạc lại</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8021-a2c2-d287d6c58476" class="bulleted-list"><li style="list-style-type:disc">Cáp nóng ran tay → ngưng ngay, báo trạm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ba-a871-c8e292dd1235" class="bulleted-list"><li style="list-style-type:disc">Tụt sạc đột ngột → chụp ảnh màn hình → báo kỹ thuật liền!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8078-a0df-d73b14236d9e" class=""><strong>⏱ 95–105 phút — 4 TÌNH HUỐNG THỰC TẾ – BẠN SẼ PHẢN XẠ NHANH NHƯ SIÊU ANH HÙNG</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e5-8a61-d05e878c067e" class=""><strong>Tình huống 1:</strong> Xe báo nóng pin + có mùi khét nhẹ khi đang chở khách</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8088-bb2f-fe87f2735d12" class="">→ 5 hành động trong 20 giây:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80f5-8252-c02dcc7a7659" class="numbered-list" start="1"><li>“Anh/chị ơi xe đang nóng pin, 
-mình tấp vào lề cho an toàn nhé!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80e6-bc9a-efea6f3e8fd3" class="numbered-list" start="2"><li>Tấp lề – mở hết cửa</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c8-96c4-f1cb6989f89f" class="numbered-list" start="3"><li>Mời khách xuống đứng xa 10–15m</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8081-9918-de10ac5e5de5" class="numbered-list" start="4"><li>Gọi kỹ thuật + điều phối</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-803d-9896-d6a41d4bbccc" class="numbered-list" start="5"><li>Không mở capo, không chạy tiếp!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8050-ba79-d1fe38297a7b" class=""><strong>Tình huống 2:</strong> Đầu sạc kẹt cứng, không rút ra được</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ef-95d0-c741d31110cb" class="">→ Bình tĩnh:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8020-a0ac-f9ff981c7bd7" class="">“Đã bấm STOP chưa? 
-→ Vẫn kẹt → gọi kỹ thuật ngay → đứng cách xa 1m”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801d-bb13-d76ea923a6cc" class=""><strong>Tình huống 3:</strong> Thấy khói mỏng dưới gầm khi đang chạy</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8086-858f-d5caa408ad93" class="">→ 10 giây quyết định sống còn:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8027-9602-da40a523ac1f" class="numbered-list" start="1"><li>Dừng xe ngay nơi thoáng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8036-959e-c8e977a7ae32" class="numbered-list" start="2"><li>Mời khách ra xa 15–20m</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80df-a8a6-f5dcf6858333" class="numbered-list" start="3"><li>Gọi 114 + điều phối</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8011-8871-fc58f0a5fe29" class="numbered-list" start="4"><li>Không lại gần xe!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8068-a194-f85e5e4c0d68" class=""><strong>Tình huống 4:</strong> Phát hiện cháy nhỏ ở khu vực pin</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80aa-bfc7-c4fdcb955408" class="">→ Hành động như đã tập luyện 100 lần:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-801e-abee-ecedb540df19" class="numbered-list" start="1"><li>Dùng bình bột ABC phun từ xa</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8053-a265-c332755cab4a" class="numbered-list" start="2"><li>Di tản khách 30–50m</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80d1-883a-ff725ace2d01" class="numbered-list" start="3"><li>Gọi cứu hỏa chuyên dụng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8098-b4e0-d192d1457bcd" class="numbered-list" start="4"><li>Tự h
-ào vì đã cứu được mọi người!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8015-9216-e47102dfa45f" class=""><strong>⏱ 105 PHÚT – GIẢNG VIÊN KẾT THÚC BẰNG CÂU NÓI ĐỈNH CAO NHẤT:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ed-b6ef-d6470d144fe1" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80da-a420-db2f06f90221" class="">Từ hôm nay, xe điện không còn là nỗi sợ nữa.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8000-9de8-d25ff63fa925" class="">Nó là người bạn thông minh nhất, an toàn nhất – chỉ khi chúng ta HIỂU và TÔN TRỌNG nó!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d0-9cce-caa7af65e7bc" class="">Mỗi lần các anh chị phát hiện sớm 1 dấu hiệu, 
-xử lý đúng 1 tình huống – các anh chị đã:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8009-9176-ff7829076e9e" class="bulleted-list"><li style="list-style-type:disc">Cứu mạng khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80e1-bf33-d9a8d36d68cb" class="bulleted-list"><li style="list-style-type:disc">Bảo vệ gia đình mình</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80d0-8534-df9527be54b3" class="bulleted-list"><li style="list-style-type:disc">Đưa Unitaxi trở thành hãng taxi điện AN TOÀN NHẤT Đông Nam Á!</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8071-9207-e7debac46368" class="">Hãy bước ra đường với tư thế ngẩng cao đầu và tự nhủ thật to:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804c-8cf7-e77556baf83c" class="">“TÔI KHÔNG CHỈ LÁI XE ĐIỆN – TÔI ĐIỀU KHIỂN TƯƠNG LAI!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8041-a572-c1739b4a9ea5" class="">Unitaxi tự hào vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f2-997f-e4023f6b8cea" class="">Khách hàng tin tưởng vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8085-95bd-efae7a16a02e" class="">Và chính các anh chị là những NGƯỜI HÙNG thầm lặng của kỷ nguyên xe điện Việt Nam!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8014-a3a3-c4e17858899b" class="">Cảm ơn các anh chị – giờ là lúc ra đường và làm chủ mọi tình huống! 
-⚡🚕🔥**</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80f3-a3c4-c3aeb8097123"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-807a-b043-d257c126c055" class=""><strong>⏱ 105–145 phút — PHẦN 4: QUY ĐỊNH ĐƯA ĐÓN HỌC SINH &amp; 
-NGƯỜI YẾU THẾ</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-803c-8053-e955ed4631e0" class=""><strong>40 phút này sẽ biến bạn thành “người hùng thầm lặng” mà mọi gia đình muốn con em mình gặp!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d7-b112-f33dde1e4d97" class=""><strong>🎯 Sau 40 phút, bạn sẽ mang về 4 siêu năng lực thực sự:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80df-8759-cd77d4d6bd8d" class="numbered-list" start="1"><li>Đưa đón trẻ em đúng chuẩn Singapore – Nhật – Úc → phụ huynh tin tưởng tuyệt đối</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8075-81d6-fc27b3c6d303" class="numbered-list" start="2"><li>Chăm sóc bà bầu, người già như người nhà → khách nhớ tên bạn mãi</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80b1-a402-e5b0c7381c1b" class="numbered-list" start="3"><li>Hỗ trợ người khuyết tật đúng chuẩn ADA → không bao giờ bị kiện, chỉ được khen</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8091-91b5-c1a535839eff" class="numbered-list" start="4"><li>Tự hào nói: “Tôi không chỉ là tài xế – tôi là người bảo vệ những người cần được bảo vệ nhất!”</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804f-98e9-fca4c13b92b6" class=""><strong>⏱ 105–120 phút — ĐƯA ĐÓN HỌC SINH: TRẺ EM LÀ TƯƠNG LAI, 
-CHÚNG TA LÀ NGƯỜI ĐƯA TƯƠNG LAI VỀ NHÀ!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8076-8724-e22aae53694a" class="numbered-list" start="1"><li>4 quy định pháp luật Việt Nam bạn phải thuộc lòng:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80af-814c-d2b0fec75f9a" class="bulleted-list"><li style="list-style-type:disc">Trẻ dưới 16 tuổi KHÔNG ĐƯỢC xuống xe nếu chưa có người đón hợp lệ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ce-a2cc-f2a50ba14cc3" class="bulleted-list"><li style="list-style-type:disc">Child Lock BẬT 100% khi có trẻ em</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80f0-ac4b-c035824b956d" class="bulleted-list"><li style="list-style-type:disc">Chỉ cho xuống bên lề an toàn – không bao giờ giữa đường</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-801e-8e8f-e7f7504fe617" class="bulleted-list"><li style="list-style-type:disc">Phải xác nhận danh tính người đón</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c0-9576-c12296afe25a" class="numbered-list" start="2"><li>Quy trình 3 bước chuẩn Nhật – Singapore – Úc:<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c9-98e7-e787dcb3717f" class=""><strong>Trước khi đón:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8018-8618-d223f771404a" class="bulleted-list"><li style="list-style-type:disc">Nhắn phụ huynh: “Em đang đến cổng trường, còn 2 phút nữa ạ!”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8071-a45a-dfe2d01ceb9b" class="bulleted-list"><li style="list-style-type:disc">Đỗ đúng khu vực đón trả của trường</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80f7-8b1a-c7c65adfe336" class="bulleted-list"><li style="list-style-type:disc">Kiểm tra ghế, 
-dây an toàn sạch sẽ</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801d-b844-d2cf56c172e4" class=""><strong>Khi trẻ lên xe:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-809e-9eb3-c806a026f670" class="bulleted-list"><li style="list-style-type:disc">Chào nhẹ nhàng: “Chào con, hôm nay học có vui không?”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8019-8cbb-dd9952646409" class="bulleted-list"><li style="list-style-type:disc">Nhắc thắt dây, kiểm tra 2 lần</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-809e-92a6-f261736cdb6f" class="bulleted-list"><li style="list-style-type:disc">Không bật nhạc ồn</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807c-9cf8-f97e7c9fd04e" class=""><strong>Khi trả trẻ:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80b9-aa6c-f6cb1cd23deb" class="bulleted-list"><li style="list-style-type:disc">Dừng sát lề, bật đèn cảnh báo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80bc-aa06-eaec8d83a43a" class="bulleted-list"><li style="list-style-type:disc">Xác nhận người đón: “Cháu là bé Minh đúng không ạ? 
-Cô/chú là phụ huynh phải không ạ?”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-809c-8b90-ff33d88e9b6a" class="bulleted-list"><li style="list-style-type:disc">Chờ trẻ vào tay người đón mới chạy</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-800d-b075-e0c1f54d7d7d" class="bulleted-list"><li style="list-style-type:disc">Nhắn tin ngay: “Em đã trả bé an toàn ạ, chúc gia đình buổi tối vui vẻ!”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8067-9f82-d47f90ffd707" class="numbered-list" start="3"><li>3 tình huống thực tế bạn sẽ gặp:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-808f-b680-c43d1e211c30" class="bulleted-list"><li style="list-style-type:disc">Phụ huynh đến trễ → bạn mỉm cười: “Dạ không sao ạ, em chờ cùng bé cho an toàn!”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80cb-8c08-c9fdde8712af" class="bulleted-list"><li style="list-style-type:disc">Bé khóc → giọng ấm áp: “Không sao đâu con, chú đưa con về với ba mẹ ngay đây!”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-806f-94ac-c4f8e7feb003" class="bulleted-list"><li style="list-style-type:disc">Bé say xe → hạ kính, chạy chậm, 
-dừng nghỉ nếu cần → phụ huynh sẽ cảm ơn bạn đến tận nhà!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8098-bd4e-ff1ae7796a18" class=""><strong>⏱ 120–130 phút — PHỤ NỮ MANG THAI: BẠN ĐANG CHỞ 2 MẠNG NGƯỜI!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805d-b56c-ea59c19404ef" class="">Câu nói vàng khắc vào tim:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805b-9cf1-ecf95ab2f182" class="">“Chạy nhanh 30 giây không đáng bằng an toàn cho mẹ tròn con vuông cả đời!”</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80ee-be0f-e18ac4096aef" class="numbered-list" start="1"><li>Quy trình đón:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80b5-ae11-ef6d1cf6d8c4" class="bulleted-list"><li style="list-style-type:disc">Dừng sát lề, mở cửa nhẹ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-804f-b520-dd0cde695699" class="bulleted-list"><li style="list-style-type:disc">Trời mưa → che ô, đỡ cửa cẩn thận</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-801e-84ee-f2ae26a3efce" class="bulleted-list"><li style="list-style-type:disc">Nói nhẹ: “Chị xuống từ từ nhé, em mở cửa giúp chị.”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80f7-9845-d42266351cea" class="numbered-list" start="2"><li>Trong chuyến đi:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80c1-8b37-fe93744822c9" class="bulleted-list"><li style="list-style-type:disc">Lái như trứng để đầu – không phanh gấp, 
-không cua mạnh</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80e9-9f9b-ea10834d97d2" class="bulleted-list"><li style="list-style-type:disc">Điều hòa ấm vừa phải</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ec-91c9-e234b3423291" class="bulleted-list"><li style="list-style-type:disc">Tuyệt đối không hỏi: “Bé trai hay bé gái?” → để chị ấy tự kể nếu muốn</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80fa-92e5-e0e9d9481730" class="numbered-list" start="3"><li>Khi khách giục chạy nhanh → bạn mỉm cười đáp:<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8080-a3a3-ec814f3581b3" class="">“Dạ em hiểu chị đang gấp, nhưng em phải giữ tốc độ thật êm để tốt cho cả mẹ và bé ạ!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802e-a5da-e559b169d5c1" class="">→ 100% chị ấy sẽ cảm ơn và cho 5 sao + boa hậu hĩnh!</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802c-ae8a-c2099319a2ad" class=""><strong>⏱ 130–138 phút — NGƯỜI LỚN TUỔI: KÍNH TRỌNG LÀ VĂN HÓA, AN TOÀN LÀ TRÁCH NHIỆM!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80f6-93e4-e98431dd790f" class="numbered-list" start="1"><li>3 điều cần nhớ:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-803c-9242-c96d9a98c7d7" class="bulleted-list"><li style="list-style-type:disc">Họ dễ té → dừng sát lề, không để lề cao</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-804d-a6ca-caf971d1c85f" class="bulleted-list"><li style="list-style-type:disc">Họ dễ lạnh → điều hòa 26–27°C</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-806d-80eb-d6a5a9fd768c" class="bulleted-list"><li style="list-style-type:disc">Họ phản xạ chậm → không giục, 
-không nói nhanh</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80aa-987f-d1cfd2c58df9" class="numbered-list" start="2"><li>Câu nói thần thánh khi trả khách:<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a6-afc1-cf2dfd4108c1" class="">“Bác xuống từ từ ạ, cháu đứng chờ bác vào nhà mới chạy!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ea-b06d-f962985edbb7" class="">→ Các cụ sẽ kể với cả xóm: “Tài xế Unitaxi hôm nay tốt như con cháu!”</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ab-95f2-f4e9b2284895" class=""><strong>⏱ 138–145 phút — NGƯỜI KHUYẾT TẬT: TÔN TRỌNG LÀ ĐIỀU ĐẦU TIÊN, HỖ TRỢ LÀ ĐIỀU THỨ HAI!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-803b-ac72-d8daf2a4bcf0" class="numbered-list" start="1"><li>Điều cấm tuyệt đối (chuẩn ADA Mỹ + Singapore):<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-804f-8d61-e0136936b5b0" class="bulleted-list"><li style="list-style-type:disc">Không tự ý chạm vào người khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8021-b359-c2445c858100" class="bulleted-list"><li style="list-style-type:disc">Không nắm tay, đỡ lưng, 
-đẩy xe lăn nếu chưa được phép</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8060-abdc-d0449838579d" class="numbered-list" start="2"><li>Cách hỗ trợ đúng chuẩn quốc tế:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8036-b7c9-eef43db00ef0" class="bulleted-list"><li style="list-style-type:disc">Giữ cửa mở lâu</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8088-a40b-e9aaf3940377" class="bulleted-list"><li style="list-style-type:disc">Hỏi rõ: “Anh/chị cần em hỗ trợ gì ạ?”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8075-b4ad-f4f76f12e8ac" class="bulleted-list"><li style="list-style-type:disc">Nếu được phép mới đỡ tay hoặc đẩy xe lăn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8026-8cf7-da5060311652" class="bulleted-list"><li style="list-style-type:disc">Lái siêu êm – phanh từ xa – báo trước mọi ổ gà</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80f2-ab44-c0cb594ec383" class="numbered-list" start="3"><li>Câu nói mẫu khi khách dùng nạng:<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8029-9f99-cc6b3987b717" class="">“Anh xuống từ từ nhé, 
-em giữ cửa và đứng đây chờ anh cho chắc!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-806b-b7b8-d01141546123" class="">→ Khách sẽ cảm động và nhớ tên bạn mãi!</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d0-905c-c69e8d666ecd" class=""><strong>⏱ 145 PHÚT – GIẢNG VIÊN KẾT THÚC BẰNG LỜI NHẮN MẠNH MẼ NHẤT:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8048-b74f-c1f827aca69a" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8008-ad17-ca2c11825b0d" class="">Hôm nay chúng ta không chỉ học cách lái xe.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802a-824a-c3010efb9038" class="">Chúng ta học cách trở thành NGƯỜI THÂN của hàng nghìn gia đình ngoài kia!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8068-be20-f1df4f8bd4ad" class="">Mỗi lần các anh chị dừng sát lề cho một bà cụ,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ba-ba26-cd9f3b64530e" class="">Mỗi lần các anh chị chờ thêm 2 phút để phụ huynh đón con,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8005-be3f-d1ec9940dd9e" class="">Mỗi lần các anh chị hỏi “Anh/chị cần em hỗ trợ gì ạ?” với người khuyết tật…</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8087-b585-ea02eb9431a1" class="">…các anh chị đang viết nên một Unitaxi mà mọi người mẹ đều muốn con mình lên xe,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-808b-adec-c5ad8b2813e2" class="">mọi người con đều muốn cha mẹ mình được chở,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80fe-b555-ecf0453a8a66" class="">và mọi người khuyết tật đều cảm thấy mình được tôn trọng tuyệt đối!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8018-89f1-f7ef6658f215" class="">Hãy bước ra khỏi phòng học này và tự nhủ thật t
-o:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ce-b3e2-d551415d5c1e" class="">“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG CHỞ YÊU THƯƠNG, CHỞ TƯƠNG LAI, CHỞ NIỀM TIN CỦA HÀNG TRIỆU GIA ĐÌNH VIỆT NAM!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c3-b48d-ed4006810b4c" class="">Unitaxi tự hào vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805d-a111-df40e08302f6" class="">Các gia đình Việt Nam biết ơn vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-800f-a541-fb8d956c5647" class="">Và chính các anh chị là những NGƯỜI HÙNG ĐÍCH THỰC của thời đại mới!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80fa-b287-d74042a6b8e0" class="">Cảm ơn các anh chị – bây giờ, hãy ra đường và lan tỏa yêu thương bằng từng chuyến xe! 
-❤️🚕**</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8080-8409-c4782fd5c2a4"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80f0-b973-d4fbb84c9184" class=""><strong>⏱ 145–180 phút — PHẦN 5: RƯỢU BIA – MA TUÝ – CAMERA – GHI ÂM</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802e-b9af-e776a38e7365" class=""><strong>35 phút này có thể cứu cả sự nghiệp và tính mạng của bạn!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8041-9129-f15d3ac394a4" class=""><strong>🎯 Sau 35 phút, bạn sẽ rời phòng học với 4 vũ khí thép:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-806b-b3c2-e31d711cabf2" class="numbered-list" start="1"><li>Nồng độ cồn 0% – đầu óc tỉnh 100% – thu nhập cao 200%</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8017-a4d1-f28ba3a84bfa" class="numbered-list" start="2"><li>Camera là “người bảo vệ thầm lặng” chứ không phải “kẻ theo dõi”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8003-a2fa-da1347ae427f" class="numbered-list" start="3"><li>Biết cách xử lý khách say, khách nguy hiểm mà vẫn giữ được 5 sao</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8014-9f73-f2285f8ac947" class="numbered-list" start="4"><li>Tự tin nói: “Tôi lái xe sạch – tôi lái xe an toàn – tôi là tài xế Unitaxi đáng tự hào nhất!”</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cf-8de8-e24e32494090" class=""><strong>⏱ 145–160 phút — RƯỢU BIA &amp; 
-CHẤT KÍCH THÍCH: 0% LÀ 0%, KHÔNG CÓ NGOẠI LỆ!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c0-ae21-cc3f404b4220" class="">Câu thần chú khắc vào tim:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8025-8ea3-d1976f38cfa4" class="">“Một ngụm bia = mất cả đời lái xe!”</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-801d-8876-c1420cea3d23" class="numbered-list" start="1"><li>Pháp luật Việt Nam + chuẩn Uber/Lyft/Grab/Japan Taxi:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8096-be1e-c77cae9fd055" class="bulleted-list"><li style="list-style-type:disc">Nồng độ cồn = 0.00 (không thương lượng)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80c7-a15e-fd3996b668ef" class="bulleted-list"><li style="list-style-type:disc">Uống thuốc ho, siro có cồn → cũng bị coi là vi phạm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8028-83d1-fecbcc5ae41b" class="bulleted-list"><li style="list-style-type:disc">Dùng cần sa, 
-ma túy (dù chỉ 1 lần) → khóa tài khoản vĩnh viễn</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80ee-bab2-d443c66ec85f" class="numbered-list" start="2"><li>Buồn ngủ = sát thủ nguy hiểm thứ 2 sau rượu bia<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80c0-a986-e9958c959587" class="bulleted-list"><li style="list-style-type:disc">Ngáp 3 lần → báo điều phối nghỉ ngay!</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80df-99ac-e5c6226ac296" class="bulleted-list"><li style="list-style-type:disc">Thiếu ngủ 4 tiếng = phản xạ chậm như uống 2 lon bia</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80b6-9405-e0e4ff2c6cbb" class="numbered-list" start="3"><li>Khách say – bạn vẫn là người tỉnh táo nhất xe!<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ef-8c0e-cae72c30ba20" class="bulleted-list"><li style="list-style-type:disc">Khóa cửa trẻ em</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-800f-a929-cb0a890fad7b" class="bulleted-list"><li style="list-style-type:disc">Giọng nói nhẹ như ru: “Anh nghỉ một chút nhé, em đưa anh về tới nơi an toàn.”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-805d-abaf-f1daf434bec3" class="bulleted-list"><li style="list-style-type:disc">Khách nôn → dừng xe an toàn → gọi hỗ trợ → KHÔNG ĐUỔI KHÁCH giữa đường (chuẩn Japan Taxi)<br/>→ 99% khách say sẽ cảm ơn bạn khi tỉnh lại và cho 5 sao!</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8058-8d7a-c38084753dbf" class=""><strong>⏱ 160–170 phút — CAMERA &amp; 
-GHI ÂM: BẠN THÂN 24/7, KHÔNG PHẢI KẺ THÙ!</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8013-b80c-c83f6ec0818e" class="numbered-list" start="1"><li>5 điều camera PHẢI luôn luôn:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8009-9ec2-d1bf6fcc25e5" class="bulleted-list"><li style="list-style-type:disc">Bật – Đúng góc – Không che – Không tắt – Không xoay lệch</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80aa-915d-e0bc96e46756" class="numbered-list" start="2"><li>4 điều KHÔNG BAO GIỜ làm:<div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80c5-9f87-f0f62a3dd603" class="bulleted-list"><li style="list-style-type:disc">Quay lén khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ec-8796-f0a7d76323ce" class="bulleted-list"><li style="list-style-type:disc">Đăng video khách lên Facebook, 
-TikTok</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80cf-aafd-fc8f9e58ca19" class="bulleted-list"><li style="list-style-type:disc">Ghi âm để trêu hoặc trả đũa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ff-98f1-c5d9b5dede1d" class="bulleted-list"><li style="list-style-type:disc">Tắt camera “cho thân mật”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80ba-a54a-df994d2c4495" class="numbered-list" start="3"><li>Khi nào được ghi thêm?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f2-bc41-d205bc66f74f" class="">Chỉ khi khách đe dọa tính mạng → bật ghi âm khẩn cấp → báo điều phối trong 10 giây!</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8078-bcba-c3cc83c6a51e" class="">Câu nói vàng:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f6-830d-e21aba21980f" class="">“Camera không quay bạn – camera bảo vệ bạn!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-806d-9170-dcc03526b812" class=""><strong>⏱ 170–180 phút — GẶP KHÁCH NGUY HIỂM: BÌNH TĨNH LÀ VŨ KHÍ MẠNH NHẤT</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8076-8a5d-ffcf9d393744" class="">5 dấu hiệu khách nguy hiểm (nhận diện trong 10 giây):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-801e-9869-fbb4fcfa4034" class="numbered-list" start="1"><li>Say xỉn mất kiểm soát</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80cc-8354-e5d40af9186a" class="numbered-list" start="2"><li>Mùi ma túy/nước tiểu mạnh</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80b2-b110-e77e76eb1a1c" class="numbered-list" start="3"><li>Nói lảm nhảm, 
-mắt đỏ</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-809c-b8a0-f348ffb081a1" class="numbered-list" start="4"><li>Mang vật sắc nhọn lộ ra ngoài</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-809d-944c-fe6f8eac9087" class="numbered-list" start="5"><li>Liên tục hỏi “đi đường nào vắng?”</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b3-81b9-f7ddb9f179a0" class="">Quy trình 3 bước quốc tế (Uber + Bolt + Japan Taxi):</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d0-a77f-e70271aa97b3" class=""><strong>Bước 1 – Giữ khoảng cách</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80de-8379-c07a0a227e5e" class="">→ Không để khách ngồi ghế trước nếu thấy nguy hiểm</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e0-a4cd-e28e2bb7196c" class="">→ Giữ tay gần nút SOS</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80fd-9685-f9e549da698f" class=""><strong>Bước 2 – Giọng nói hạ thấp, không đối đầu</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ec-86df-db61442bb3e9" class="bulleted-list"><li style="list-style-type:disc">“Dạ anh thông cảm, 
-em phải chạy đúng tuyến cho an toàn ạ.”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8063-8bd9-fa436833426f" class="bulleted-list"><li style="list-style-type:disc">“Em dừng ở chỗ đông người một chút để mình nói chuyện rõ hơn nhé.”</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8080-8ec8-f7861b662f30" class=""><strong>Bước 3 – Gọi cứu viện ngay lập tức</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8000-8c26-ecd9a26a2491" class="">→ Bấm SOS → điều phối nhận cuộc gọi trong 5 giây</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8083-8bc3-f371c82cac9b" class="">→ Nếu nguy cấp → dừng ở cây xăng, đồn công an → mở cửa chạy</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8035-8005-f8563c46e0a1" class="">4 điều tuyệt đối CẤM:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8055-b309-e65c3eb2c406" class="bulleted-list"><li style="list-style-type:disc">Không cãi tay đôi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80d1-a6fc-c55378054266" class="bulleted-list"><li style="list-style-type:disc">Không nói “Anh say rồi”, 
-“Anh vô lý quá”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8011-a4e3-d70e7cb784e1" class="bulleted-list"><li style="list-style-type:disc">Không tự xử lý một mình</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80cf-83a4-f185f843f895" class="bulleted-list"><li style="list-style-type:disc">Không xuống xe đối mặt</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8061-9c47-fe5a376b2ed3" class=""><strong>⏱ 180 PHÚT – GIẢNG VIÊN KẾT THÚC BẰNG CÂU NÓI MẠNH NHẤT:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8030-b203-fa23eb1920bc" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f4-8595-d91cddf5f2cc" class="">Từ hôm nay, các anh chị không còn sợ khách say, không sợ bị vu oan, 
-không sợ bị tấn công nữa!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8092-aabc-e41e1add8647" class="">Vì các anh chị có:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8065-8ed3-ecffe8e270b3" class="bulleted-list"><li style="list-style-type:disc">Đầu óc tỉnh táo 100%</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80be-99a9-c830f9a95996" class="bulleted-list"><li style="list-style-type:disc">Camera bảo vệ 24/7</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8017-979d-e976fe8e8eba" class="bulleted-list"><li style="list-style-type:disc">Quy trình quốc tế trong tim</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ac-a10a-dbef05c1ec8e" class="bulleted-list"><li style="list-style-type:disc">Và cả một đội ngũ Unitaxi luôn đứng sau lưng các anh chị!</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8063-9584-fc96163a5808" class="">Mỗi lần các anh chị từ chối 1 ngụm bia,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c6-89df-ededd01ca80e" class="">Mỗi lần các anh chị giữ bình tĩnh trước khách nguy hiểm,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8067-b822-d623710a0fad" class="">Mỗi lần các anh chị để camera làm nhân chứng…</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807e-9616-fbfe43ed4d0e" class="">…các anh chị đang bảo vệ chính gia đình mình,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8067-a862-f780f3f0e25a" class="">bảo vệ đồng nghiệp mình,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80aa-b6cf-db09ed239d79" class="">và bảo vệ hàng triệu hành khách tin tưởng Unitaxi mỗi ngày!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802e-b24c-c4aa60fa6223" class="">Hãy bước ra khỏi phòng học này và tự nhủ thật to:</p></div><div style="display:contents" d
-ir="auto"><p id="2b0c5e6f-95bd-808c-92a7-d00771577ac3" class="">“TÔI LÁI XE SẠCH – TÔI LÁI XE AN TOÀN – TÔI LÀ TÀI XẾ UNITAXI MẠNH MẼ NHẤT!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801c-a3df-e9ec9de26406" class="">Unitaxi tự hào vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-809f-80c6-ecf79f4419d1" class="">Khách hàng an tâm vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-803d-8ee6-f12138cf62f7" class="">Và các anh chị chính là những CHIẾN BINH AN TOÀN thực thụ của thời đại mới!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8005-bc4b-ccecdfd9d28c" class="">Cảm ơn các anh chị – giờ là lúc ra đường và làm chủ mọi tình huống! 
-🛡️🚕💪**</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-808f-afb6-de3c12f024f6"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80aa-bf29-e24baf2775ff" class=""><strong>⏱ 180–220 phút — PHẦN 6: 10 TÌNH HUỐNG THỰC TẾ &amp; 
-CÁCH XỬ LÝ</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807e-bc09-dd91506085f6" class=""><strong>40 phút cuối cùng biến bạn thành “thầy phù thủy” của mọi tình huống đường phố!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807a-8972-e0f770e60797" class=""><strong>🎯 Sau 40 phút này, 
-bạn sẽ rời phòng học với siêu năng lực thực chiến:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8006-8c11-f5a8fc3ca5ab" class="bulleted-list"><li style="list-style-type:disc">Không bao giờ hoảng loạn dù chuyện gì xảy ra</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8080-a312-ceb5764adf38" class="bulleted-list"><li style="list-style-type:disc">Xử lý 10/10 tình huống chỉ trong 15–30 giây</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-800b-a296-e95d85a6f3d6" class="bulleted-list"><li style="list-style-type:disc">Giữ được 5 sao + boa + sự tôn trọng của khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8003-9899-da76ad9b6035" class="bulleted-list"><li style="list-style-type:disc">Trở thành tài xế mà cả công ty muốn nhân bản 1000 lần!</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8012-999c-cdbabe3c3866" class=""><strong>CẤU TRÚC VÀNG CHO MỌI TÌNH HUỐNG (khắc vào tim):</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80e3-90af-df958f719361" class="numbered-list" start="1"><li>Giữ an toàn trước tiên (bản thân + khách)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80f7-92be-de9ece632aa1" class="numbered-list" start="2"><li>Nói 1 câu mẫu – giọng thấp – ngắn – ấm</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c1-9397-e42e90b9bb07" class="numbered-list" start="3"><li>Báo điều phối + ghi nhận trên app</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ff-be35-c64b96fe2612" class=""><strong>⏱ BẮT ĐẦU – 10 TÌNH HUỐNG THỰC CHIẾN (mỗi tình huống 3–4 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80af-a7ce-e91832fdc6ac" class=""><strong>1. 
-Khách gây sự, nóng tính, chửi bới</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cc-9f60-f20006fc6b99" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-803f-912a-c8012e4b567a" class="numbered-list" start="1"><li>Hạ giọng + không nhìn mắt quá lâu</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8039-b1eb-c3791d8deca0" class="numbered-list" start="2"><li>“Dạ em hiểu anh/chị đang bực, em sẽ xử lý nhanh nhất có thể ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8072-b2b0-ddc447fed38f" class="numbered-list" start="3"><li>Nếu leo thang → dừng nơi đông người → bấm SOS → báo điều phối<br/>→ Kết quả: 90% khách tự im lặng vì thấy bạn quá chuyên nghiệp!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805e-83d9-d452aa969c4a" class=""><strong>2. Khách đòi đi đường cấm, đường ngược chiều</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8036-81da-f42885b7f7bf" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80b0-b0b8-ff14c3339fea" class="numbered-list" start="1"><li>Từ chối ngay lập tức, giọng bình tĩnh</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8042-80c2-ea8084e7bfee" class="numbered-list" start="2"><li>“Dạ đường này đang cấm ạ, em đi đường đúng luật để an toàn cho cả hai mình.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8016-8cac-dcd8979a4d61" class="numbered-list" start="3"><li>Khách ép → báo điều phối → chuyển khách nếu cần<br/>→ Bạn không mất phù hiệu, khách vẫn về nhà an toàn!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cb-98fe-c074a5b13474" class=""><strong>3. 
-Va chạm nhẹ (quẹt gương, trầy sơn)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ba-a9f1-e1313f5a22a0" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8061-b156-f0f64319c896" class="numbered-list" start="1"><li>Tấp vào lề → bật đèn cảnh báo → không xuống xe ngay</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8076-a695-c116f3fc5681" class="numbered-list" start="2"><li>“Mình dừng lại một chút để xử lý cho đúng luật anh/chị nhé.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8010-a41f-da546b5ea754" class="numbered-list" start="3"><li>Chụp ảnh 4 góc + biển số → báo điều phối → không cãi nhau<br/>→ Khách thấy bạn pro → vẫn cho 5 sao!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8001-afb6-d5f0e1ae58c9" class=""><strong>4. Pin báo lỗi / nóng bất thường</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8090-a356-cf6ff873a9f1" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-809f-b764-eb81562e2360" class="numbered-list" start="1"><li>Tấp lề ngay → mở cửa → mời khách ra xa 10m</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80e4-bd90-d3017b67867e" class="numbered-list" start="2"><li>“Xe đang báo nhiệt, em dừng lại cho an toàn ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c2-9752-d85bc39ff24f" class="numbered-list" start="3"><li>Gọi kỹ thuật + điều phối → không cố chạy tiếp<br/>→ Bạn cứu được cả xe và cả mạng người!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e6-81f2-c4ae4c6a351e" class=""><strong>5. 
-Cháy đầu cắm tại trạm sạc (tia lửa, mùi khét)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d7-9f2c-ccbf1d226fb6" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8018-9b38-ca8b95343233" class="numbered-list" start="1"><li>Bấm STOP → lùi xe xa 7m → không chạm đầu cắm</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8065-a84f-e11a27a2fe33" class="numbered-list" start="2"><li>“Anh/chị đứng xa giúp em một chút, em xử lý ngay đây ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80d7-84c6-f13a2da647f6" class="numbered-list" start="3"><li>Báo kỹ thuật trạm + điều phối → không dùng nước<br/>→ Bạn là người hùng của cả trạm sạc!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d3-af4c-fd40c70cc4e0" class=""><strong>6. Học sinh không có người đón</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e8-949f-cc7caad1370c" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-808c-bf7f-d58c94691b27" class="numbered-list" start="1"><li>KHÔNG CHO XUỐNG dù bé năn nỉ</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8007-882a-cf7fec1e224a" class="numbered-list" start="2"><li>“Con ngồi yên với chú nhé, chú gọi ba mẹ tới đón con ngay đây!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-806d-9914-fa7cbd39998c" class="numbered-list" start="3"><li>Gọi phụ huynh + điều phối → chờ ở chỗ sáng<br/>→ Phụ huynh sẽ cảm ơn bạn đến rơi nước mắt!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805a-be07-d3945d00c218" class=""><strong>7. 
-Khách say xỉn, nôn ói, la hét</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-809b-8511-c670faf73ed2" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-809a-b538-f79738781b27" class="numbered-list" start="1"><li>Khóa cửa trẻ em → chạy êm → hạ kính</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80ca-99c0-efe205acb290" class="numbered-list" start="2"><li>“Anh cứ nghỉ một chút, em đưa anh về tới nơi an toàn.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8045-99eb-fd27e92a3162" class="numbered-list" start="3"><li>Nếu mất kiểm soát → dừng cây xăng/đồn công an → gọi hỗ trợ<br/>→ Sáng hôm sau khách tỉnh lại → nhắn tin xin lỗi + boa gấp đôi!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-809c-a185-dfa24012d588" class=""><strong>8. Cụ già trượt chân, té nhẹ khi xuống xe</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ae-b82c-c376287700b6" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8024-b0eb-da5fc6a706fd" class="numbered-list" start="1"><li>Đỡ từ xa (không nắm tay nếu chưa được phép)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80e8-aa59-f9608e0d731d" class="numbered-list" start="2"><li>“Bác đứng từ từ ạ, cháu đỡ bác cho chắc.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80bd-ac37-e501fa18c998" class="numbered-list" start="3"><li>Hỏi thăm + báo điều phối để theo dõi sức khỏe cụ<br/>→ Cả xóm sẽ biết: “Unitaxi có tài xế tốt như con cháu!”</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8025-86d1-e2bc118183a2" class=""><strong>9. 
-Khách đòi xuống giữa đường cao tốc / giữa làn</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ea-988d-f2e6378110b5" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8061-a3f5-caf54a6c0594" class="numbered-list" start="1"><li>Từ chối → chạy tiếp đến điểm an toàn gần nhất</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80f9-a005-c4c8ad448c26" class="numbered-list" start="2"><li>“Em xin phép dừng ở chỗ an toàn hơn 200m nữa thôi ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-804e-90c7-db40ca1480cd" class="numbered-list" start="3"><li>Dừng nơi có lề, có đèn đường → mở cửa bên an toàn<br/>→ Khách bực 30 giây, nhưng về nhà vẫn an toàn!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8085-9ae8-ca17fa0f0154" class=""><strong>10. 
-Trời mưa to, điểm đón ngập / nguy hiểm</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-806e-8ad6-dcc2db9a8b99" class="">→ 3 bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c2-b2db-f12075dc1436" class="numbered-list" start="1"><li>Di chuyển đến điểm sáng, cao ráo gần nhất</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-807e-93fb-c659c5dff605" class="numbered-list" start="2"><li>“Em đón anh/chị ở khúc này cho khô ráo và an toàn hơn ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c8-b368-e97212ceeab9" class="numbered-list" start="3"><li>Bật đèn cảnh báo → che ô → mở cửa từ từ<br/>→ Khách ướt một chút nhưng cảm động vì bạn quá tận tâm!</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8072-b7d0-dac80c54274a" class=""><strong>⏱ 220 PHÚT – GIẢNG VIÊN KẾT THÚC TOÀN BỘ KHÓA HỌC BẰNG CÂU NÓI ĐỈNH CAO NHẤT:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c3-b001-d6b4040f8e1a" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801b-8d4e-d7b36204b38f" class="">Hôm nay chúng ta đã cùng nhau đi qua 220 phút KHÔNG HỀ LÝ THUYẾT SUÔNG.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a8-b893-f50dc51cf04a" class="">Chúng ta đã biến từng trang luật khô khan thành vũ khí,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8015-8d40-cf4df81d250c" class="">biến từng tình huống nguy hiểm thành cơ hội để tỏa sáng!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cb-9424-fc72ee4dc909" class="">Từ giờ phút này, 
-các anh chị không còn là những tài xế bình thường nữa.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-809c-b40a-c08c7b0a1b39" class="">Các anh chị là:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80d7-9edc-e08becfa3c1e" class="bulleted-list"><li style="list-style-type:disc">Những chiến binh an toàn mạnh nhất Đông Nam Á</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80f0-802d-fc6693973398" class="bulleted-list"><li style="list-style-type:disc">Những đại sứ 5 sao mà khách nhắc tên hàng ngày</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-804f-86fc-fd22a9bd4fd5" class="bulleted-list"><li style="list-style-type:disc">Những người hùng thầm lặng mà gia đình, công ty, và cả đất nước này đang cần!</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8071-87fd-e642cdc1f56e" class="">Hãy bước ra khỏi phòng học này, cầm chắc tay lái và tự nhủ thật to:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8005-b503-e2ac2da0b450" class="">“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG VIẾT NÊN LỊCH SỬ TAXI ĐIỆN VIỆT NAM ĐẲNG CẤP THẾ GIỚI!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c7-ad9d-edc4e3c773bc" class="">Unitaxi tự hào vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-809a-bb27-d3f8827c53d0" class="">Hàng triệu hành khách đang chờ các anh chị bảo vệ họ!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8030-84ad-cec2dae52391" class="">Và chính các anh chị là những NGƯỜI HÙNG THỰC SỰ của kỷ nguyên mới!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807c-bfb4-e35567a1fd37" class="">Cảm ơn các anh chị – bây giờ, hãy ra đường và LÀM NÊN KỲ TÍCH! 
-🚕⚡🇻🇳💚**</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80b6-b1cb-fd6089613411"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8092-a6b7-fe2e99f7c1a0" class=""><strong>⏱ 220–240 phút — PHẦN 7: BÀI TEST 10 CÂU + THẢO LUẬN NHÓM</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8065-ad21-f3e8f150e277" class=""><strong>20 phút cuối cùng quyết định bạn là tài xế 5 sao hay chỉ là người cầm lái!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8077-9a78-e12ec9b1b52a" class=""><strong>🎯 Mục tiêu 20 phút này:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8061-826e-c8980e6461db" class="bulleted-list"><li style="list-style-type:disc">Kiểm tra xem kiến thức đã “thấm vào máu” chưa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-801f-b69a-c91013179712" class="bulleted-list"><li style="list-style-type:disc">Để lại trong đầu các anh chị 5 quy tắc vàng không bao giờ quên</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80f3-b38d-f3a7aa96685a" class="bulleted-list"><li style="list-style-type:disc">Kết thúc khóa học bằng cảm giác TỰ HÀO bùng nổ!</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c8-838b-d1434b83bc0b" class=""><strong>⏱ 220–228 phút — BÀI TEST NHANH 10 CÂU (8 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b9-8a85-f11050e750c5" class="">Giảng viên phát giấy / chiếu slide – học viên trả lời trong 5 phút – chấm ngay tại chỗ.</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cc-8816-d936f19fbae7" class=""><strong>10 CÂU CHUẨN UNITAXI (đáp án in đậm để giảng viên dễ chấm):</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-808d-8b7a-c1d684d2ce3a" class="numbered-list" start="1"><li>Khách giục “chạy nhanh lên”, 
-bạn làm gì?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8060-98bc-cdbba026dd48" class="">A. Tăng tốc chút đỉnh</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8074-8740-c73461525386" class="">B. Im lặng</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d3-a229-d8923fb04b5d" class=""><strong>C. Giữ tốc độ an toàn + nói câu mẫu</strong></p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8075-a17e-f1a0af26e298" class="numbered-list" start="2"><li>Khoảng cách an toàn chuẩn là bao nhiêu giây?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8045-ab93-d9ef42135bba" class="">A. 1 giây</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ba-aaa7-f40eae68f865" class=""><strong>B. 2–3 giây</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f6-80b4-fa6f54b31321" class="">C. 5 giây</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-806f-a3dd-fdd5666e9804" class="numbered-list" start="3"><li>Pin báo tam giác đỏ + nóng bất thường → hành động đầu tiên?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ec-a1f6-e4006740cb2e" class="">A. Chạy tiếp về hãng</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8003-b7ad-fa2bbf2e3476" class=""><strong>B. Dừng ngay – đưa khách ra xa – báo kỹ thuật</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a2-969c-cfc9e60ae88a" class="">C. Tắt máy giữa đường</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80fc-a98b-f0cb04a2ef86" class="numbered-list" start="4"><li>Bé học sinh đến nơi nhưng không có người đón → bạn làm gì?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80fc-b5bd-fb38ee6c2d38" class="">A. 
-Cho bé tự về</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80bb-8159-c651f2a44a63" class=""><strong>B. Không cho xuống – gọi phụ huynh + điều phối</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807a-a7f2-fed70c3f6482" class="">C. Chạy vòng thêm 1 vòng</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80c8-a5b8-e34b8559caab" class="numbered-list" start="5"><li>Khách đòi xuống giữa làn đường mưa to → bạn làm gì?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8088-bb41-deac998bba3e" class="">A. Cho xuống ngay</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ea-a985-d40344aed8e6" class=""><strong>B. Giải thích + dừng ở điểm an toàn gần nhất</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8070-9a65-d4442cb23b75" class="">C. Cãi lại</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8039-b94c-dca87f04685f" class="numbered-list" start="6"><li>Khi nào được phép tắt camera hành trình?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-803f-a93d-f62c9636ca4f" class="">A. Khách yêu cầu riêng tư</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8094-b753-f4e30add6f13" class="">B. Ban đêm</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8074-8f00-e28694d9055f" class=""><strong>C. Không bao giờ</strong></p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8090-a42c-f08340216cb8" class="numbered-list" start="7"><li>Khách say xỉn gây rối → ưu tiên hàng đầu là gì?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d2-a2a7-ed021ca7dc13" class="">A. Mở nhạc to cho tỉnh</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8007-843d-d127b495570d" class=""><strong>B. 
-Giữ an toàn – lái êm – không cãi – sẵn sàng báo điều phối</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8088-b706-c449a1ebde6e" class="">C. Đuổi khách xuống</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80fc-a1e7-fb4f45e609ff" class="numbered-list" start="8"><li>App hiển thị sai lộ trình → bạn phải làm gì đầu tiên?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80da-ae72-f5ea42c5cfb6" class="">A. Tự đi đường quen</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c4-b472-fd0238940539" class=""><strong>B. Báo điều phối + cập nhật trên app</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cc-bcc1-de1d74f4ae2e" class="">C. Bỏ qua</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-809a-8e9b-d35c05f68686" class="numbered-list" start="9"><li>Bạn bắt đầu ngáp liên tục, mắt cay → phải làm gì?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8010-bd1a-ea099744a9f7" class="">A. Cố chạy thêm 1 chuyến cuối</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ab-9313-f53ebd372644" class="">B. Uống cà phê</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-808b-bdb6-dea92324fbfd" class=""><strong>C. Báo nghỉ ngay lập tức</strong></p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80a3-839c-c286d4f75ad3" class="numbered-list numbered-list-digits-2" start="10"><li>Chuẩn giao tiếp quan trọng nhất với mọi khách hàng là?<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802b-94d0-f79781c9b13a" class="">A. Nói thật nhiều cho thân thiện</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8027-b858-fbfcac6cac2e" class=""><strong>B. 
-Giọng nhẹ – ngắn – rõ – không tranh cãi</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ef-8e88-d4333772c5d7" class="">C. 
-Hỏi chuyện riêng tư</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b5-80fd-ed2b346112aa" class=""><strong>Chấm điểm nhanh tại chỗ:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8075-9801-d51fcfb58156" class="bulleted-list"><li style="list-style-type:disc">10/10 → vỗ tay + chụp ảnh “Tài xế xuất sắc nhất khóa”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8029-a4f1-fc4ffd1a2344" class="bulleted-list"><li style="list-style-type:disc">9/10 → “Gần hoàn hảo!”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80c7-8af1-eef76dedfe90" class="bulleted-list"><li style="list-style-type:disc">Dưới 9 → giảng viên gặp riêng, bổ sung 30 phút re-training ngay trong tuần</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8025-bde4-cb7075ed8990" class=""><strong>⏱ 228–233 phút — THẢO LUẬN NHÓM SIÊU NHANH (5 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807d-80a9-e5701a0d6d19" class="">Giảng viên hỏi lớn:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-803e-aa49-d82f93707edb" class="">“Trong suốt thời gian lái taxi, tình huống nguy hiểm nhất các anh chị từng gặp là gì – và bây giờ các anh chị sẽ xử lý khác đi như thế nào?”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8041-96a0-c0ef8ea625c0" class="">→ Mỗi người chỉ nói 30–40 giây</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f1-9c01-d49f6a23ae7e" class="">→ Giảng viên ghi nhanh lên bảng 3 cột:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-808c-9f49-c75ed517aa8a" class="">Do tài xế | Do khách | Do thời tiết/đường sá</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e2-bb6b-ffc7cefe0c1a" class="">→ Kết luận: “Dù nguyên nhân từ đâu, 
-cách xử lý của chúng ta từ hôm nay đã thay đổi hoàn toàn!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8044-82bf-e01b1a4dec02" class=""><strong>⏱ 233–238 phút — 5 QUY TẮC VÀNG KHẮC VÀO TIM (5 phút)</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f2-8dee-c337f4667a97" class="">Giảng viên viết to lên bảng + yêu cầu toàn bộ học viên đọc to theo:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80ea-9830-e6ed485ec162" class="numbered-list" start="1"><li>“Tôi luôn giữ khoảng cách 2–3 giây – vì 70% tai nạn đến từ phía trước!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8038-89b1-ca5567c0ae0d" class="numbered-list" start="2"><li>“Tôi không bao giờ cầm điện thoại khi xe chạy – vì 3 giây mất tập trung có thể mất cả đời!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8013-9c89-df76ce23bd62" class="numbered-list" start="3"><li>“Tôi quan sát 360° trước khi chuyển làn – vì điểm mù không tha thứ!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-806a-9e58-c31849432894" class="numbered-list" start="4"><li>“Tôi không bao giờ để khách xuống nơi nguy hiểm – vì an toàn của họ cũng là an toàn của tôi!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80e9-a774-ebffa6909f4f" class="numbered-list" start="5"><li>“Khi có bất kỳ rủi ro nào → tôi DỪNG – NÓI 1 CÂU MẪU – BÁO ĐIỀU PHỐI!”</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8073-8379-f8568689d385" class=""><strong>⏱ 238–240 phút — KẾT THÚC TOÀN KHÓA HỌC – ĐỈNH CAO CẢM XÚC</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8009-aa4d-f8bfef5b148c" class="">Giảng viên đứng giữa, 
-giọng mạnh mẽ nhất có thể:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-800f-939d-d50c5c2403dc" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8070-bd60-f5d156f42a3d" class="">Hôm nay không phải là kết thúc – mà là ngày các anh chị CHÍNH THỨC TRỞ THÀNH PHIÊN BẢN MẠNH NHẤT của chính mình!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8016-8b7a-f238e72a80c9" class="">Từ giờ phút này, mỗi vòng quay bánh xe của các anh chị không chỉ chở khách – mà còn chở:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80b2-b0c9-c3563b7b3e77" class="bulleted-list"><li style="list-style-type:disc">NIỀM TIN của hàng triệu gia đình Việt Nam</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8069-bccc-ce26a410f5fe" class="bulleted-list"><li style="list-style-type:disc">DANH DỰ của Unitaxi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80d0-87ef-e2053fa891e7" class="bulleted-list"><li style="list-style-type:disc">TƯƠNG LAI của chính các anh chị và người thân!</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8063-84d9-d2635a1adedb" class="">Hãy bước ra khỏi cánh cửa này, ngẩng cao đầu và hét thật to trong tim:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8003-8812-e5bda7b3bbbd" class="">“TÔI LÀ TÀI XẾ UNITAXI – TÔI LÁI XE BẰNG TRÁI TIM VÀ BẰNG KIẾN THỨC ĐẲNG CẤP THẾ GIỚI!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8026-a7ef-d0ea546b73a5" class="">Unitaxi tự hào vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b6-b7cc-ee29574149ef" class="">Việt Nam tự hào vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f4-8a75-c4ab3dd290c6" class="">Và từ hôm nay, mỗi con đường các anh chị đi qua sẽ an toàn hơn, đẹp hơn, và đáng tự hào hơn rất nhiều! 
-Chúc các anh chị luôn AN TOÀN – 5 SAO – THU NHẬP KHỦNG và TỰ HÀO MÃI MÃI!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801a-b45f-d0f2571b72f4" class="">Bây giờ… ra đường và LÀM NÊN LỊCH SỬ nào! 🚕⚡🇻🇳💚”</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8085-93cb-e45153f7650c"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8001-a273-c5faf1860b9e" class=""><strong>📘 4. GIAO TIẾP &amp; XỬ LÝ XUNG ĐỘT (3 GIỜ)</strong></h1></div><div style="display:contents" dir="ltr"><table id="2aec5e6f-95bd-80d8-98b5-cd8b955740f9" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8076-b31a-e0f57e7bca9b"><th id="Aak&lt;" class="simple-table-header-color simple-table-header" style="width:153.671875px"><strong>Mục</strong></th><th id="bo\h" class="simple-table-header-color simple-table-header" style="width:227.6640625px"><strong>Nội dung chi tiết</strong></th><th id="[uj&lt;" class="simple-table-header-color simple-table-header" style="width:199.6640625px"><strong>Mô tả theo chuẩn quốc tế</strong></th><th id="j~d;" class="simple-table-header-color simple-table-header"><strong>Thời lượng</strong></th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80ac-a356-d567fb58bbbf"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>1. Nguyên tắc vàng trong giao tiếp</strong></td><td id="bo\h" class="" style="width:227.6640625px">Giọng nhẹ – đều – không quát – không tranh cãi</td><td id="[uj&lt;" class="" style="width:199.6640625px">Chuẩn “Low-Tension Voice Code” của Grab SG</td><td id="j~d;" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80a9-b361-f1fcf93842bd"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>2. 
-Kỹ năng lắng nghe</strong></td><td id="bo\h" class="" style="width:227.6640625px">Không cắt lời – nhắc lại ý khách – xác nhận nhu cầu</td><td id="[uj&lt;" class="" style="width:199.6640625px">Theo chuẩn “Active Listening for Drivers” của Lyft</td><td id="j~d;" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8091-83f6-efe38ec22483"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>3. Kỹ năng xin lỗi đúng chuẩn</strong></td><td id="bo\h" class="" style="width:227.6640625px">Xin lỗi ngắn – không đổ lỗi – không giải thích dài</td><td id="[uj&lt;" class="" style="width:199.6640625px">Uber: “Short Apology Protocol”</td><td id="j~d;" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8074-9bba-f12f7a3aa626"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>4. Giải thích ngắn &amp; rõ</strong></td><td id="bo\h" class="" style="width:227.6640625px">Tối đa 1 câu – không vòng vo – không gây căng thẳng</td><td id="[uj&lt;" class="" style="width:199.6640625px">Chuẩn ComfortDelGro (Singapore)</td><td id="j~d;" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-806a-b4ce-cf5c84babc70"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>5. Xử lý khách nóng tính</strong></td><td id="bo\h" class="" style="width:227.6640625px">Giữ khoảng cách – giọng hạ thấp – “câu mẫu an toàn”</td><td id="[uj&lt;" class="" style="width:199.6640625px">Chuẩn “De-escalation Tactics” (Lyft)</td><td id="j~d;" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-808e-85f6-dadd353e5919"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>6. 
-Xử lý khách say</strong></td><td id="bo\h" class="" style="width:227.6640625px">Không tranh luận – an toàn là trên hết – gọi điều phối</td><td id="[uj&lt;" class="" style="width:199.6640625px">Japan Taxi Protocol</td><td id="j~d;" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8024-8e2f-ccaaffff208d"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>7. Khi nào cần gọi điều phối / an ninh / công an</strong></td><td id="bo\h" class="" style="width:227.6640625px">8 tiêu chí kích hoạt hỗ trợ</td><td id="[uj&lt;" class="" style="width:199.6640625px">Chuẩn an toàn của Bolt</td><td id="j~d;" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80c2-a9df-ddada1eacf5c"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>8. Kỷ luật ngôn từ</strong></td><td id="bo\h" class="" style="width:227.6640625px">không nói tục – không đùa tục – không dạy đời – không hỏi chuyện riêng tư</td><td id="[uj&lt;" class="" style="width:199.6640625px">Chuẩn Code of Conduct toàn cầu</td><td id="j~d;" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80f0-8df7-c32c3fc4b060"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>9. 3–5 câu mẫu an toàn</strong></td><td id="bo\h" class="" style="width:227.6640625px">Áp dụng ngay trong mọi tình huống căng thẳng</td><td id="[uj&lt;" class="" style="width:199.6640625px">Ứng dụng thực tế</td><td id="j~d;" class="">10’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80de-a463-d153bbc558d2"><td id="Aak&lt;" class="" style="width:153.671875px"><strong>10. 
-Role-play 10 tình huống</strong></td><td id="bo\h" class="" style="width:227.6640625px">Khách sai điểm, khách la mắng, khách yêu cầu đi tắt…</td><td id="[uj&lt;" class="" style="width:199.6640625px">Đánh giá trực tiếp</td><td id="j~d;" class="">25’</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><h1 id="2b0c5e6f-95bd-809c-b900-ef08707d06ab" class=""><strong>📘 1. 
-NGUYÊN TẮC VÀNG TRONG GIAO TIẾP – PHIÊN BẢN ĐẦY ĐỦ 20 PHÚT</strong></h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80de-84a3-c214740ca4c7" class=""><strong>Chuẩn Grab Singapore Low-Tension Voice Code + Uber + Lyft + Japan Taxi</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e2-b5f2-ef9b628dd07f" class=""><strong>🎯 Mục tiêu sau 20 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80d5-b58c-f784e1ffbd06" class="bulleted-list"><li style="list-style-type:disc">Giọng nói của bạn trở thành “máy giảm căng thẳng tự động”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80aa-a564-cf6ca36511aa" class="bulleted-list"><li style="list-style-type:disc">Khách bực mấy cũng dịu lại trong 10 giây</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-809d-92c0-ea5d6c9959fd" class="bulleted-list"><li style="list-style-type:disc">Điểm đánh giá trung bình tăng tối thiểu 0.3 sao</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8004-bd18-e6cd3ca37cf5" class="bulleted-list"><li style="list-style-type:disc">Không bao giờ bị khiếu nại “thái độ tài xế” nữa</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8056-8158-c2847f9b3d9a" class=""><strong>⏱ 0–1 phút — MỞ ĐẦU MẠNH</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d6-9e20-f51d3eff763c" class="">“Grab Singapore đã đo: 70% khách quyết định cho 5 sao hay 1 sao chỉ trong 15 giây đầu tiên – dựa hoàn toàn vào GIỌNG NÓI của tài xế!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801d-9437-ec155c3f7a05" class="">Hôm nay chúng ta biến giọng nói thành vũ khí kiếm tiền mạnh nhất!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f6-9b95-e18785eb5333" class=""><strong>⏱ 1–4 phút — A. 
-TẠI SAO GIỌNG NÓI QUAN TRỌNG HƠN NỘI DUNG?</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80fc-acae-ec7fca7a83c3" class="bulleted-list"><li style="list-style-type:disc">Giọng nhẹ + đều → kích hoạt vùng an toàn trong não khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80ff-ad65-d3449b990074" class="bulleted-list"><li style="list-style-type:disc">Giọng to + nhanh + lên tông → kích hoạt chế độ “chiến đấu” của khách<br/>→ Japan Taxi dạy: “Khách không nhớ bạn nói gì, khách chỉ nhớ mình cảm thấy thế nào.”</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80aa-a8e0-f554a6972cc1" class=""><strong>⏱ 4–14 phút — B. 
-5 NGUYÊN TẮC VÀNG UNITAXI (giảng viên viết to lên bảng)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80b5-8915-cb66d974eb16" class="numbered-list" start="1"><li>Giọng nhẹ – đều – chậm hơn bình thường 10–15%<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805f-9aa0-e9bcfa237467" class="">→ Tập nói như đang ru em bé (không phải hát ru, chỉ nhịp độ thôi!)</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8078-a0c9-d79f3c7f1733" class="numbered-list" start="2"><li>Tuyệt đối không tranh cãi – dù khách sai 100%<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805d-9293-c80fda2f1c72" class="">Sai: “Em đi đúng mà anh!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8096-a1f7-e8e2f66b831c" class="">Đúng: “Dạ em hiểu ạ.”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80da-86c6-cf7d7d0e66c3" class="numbered-list" start="3"><li>Không phản ứng cảm xúc theo khách<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b6-a573-f985f5e4466f" class="">→ Khách càng nóng → bạn càng mát</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805b-bdfb-f0120d7df2fe" class="">→ Không thở dài, không lắc đầu, 
-không nhăn mặt</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80bb-af1c-f52514ab6d4b" class="numbered-list" start="4"><li>Khi khách đang căng thẳng → thực hiện “3 giảm” ngay lập tức<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8042-88af-ef0e9a47cf01" class="">Giảm âm lượng ↓</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ac-84db-f97a22231626" class="">Giảm tốc độ nói ↓</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8034-97fc-d498c81bb71d" class="">Giảm độ cao giọng ↓</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8004-b723-f1f411cbc842" class="">→ Kỹ thuật này có tên chính thức: Low-Tension Voice Code (Grab SG)</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8059-9f9e-ec2955d7ff57" class="numbered-list" start="5"><li>Luôn mở đầu bằng 1 trong 2 câu thần chú<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ae-9ec0-de5a4fd97e4f" class="">Câu 1: “Dạ em hiểu ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8066-b81f-cf662c2ec883" class="">Câu 2: “Dạ để em xử lý ngay.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801c-baa0-c40739506ea9" class="">→ Nói xong 2 câu này → 80% khách tự dịu lại!</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e4-a381-ca0cf1b8e42a" class=""><strong>⏱ 14–18 phút — C. 
-4 TÌNH HUỐNG THỰC TẾ + ROLE-PLAY NHANH</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c8-988f-dafdb29d4286" class=""><strong>Tình huống 1</strong> – Khách bực vì chờ 7 phút</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b5-8c46-f1dea82582d5" class="">Sai: “Kẹt xe chứ em muốn chậm đâu!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8037-9b72-dbdfe9f86a09" class="">Đúng (giọng nhẹ, chậm):</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c5-a880-ed6abc2eb850" class="">“Dạ em hiểu chị đang bực vì phải chờ. Em đến ngay đây ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-808c-a560-f1584d179aba" class=""><strong>Tình huống 2</strong> – Khách nói tài xế đi vòng</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8093-b586-dec0d55e9b8e" class="">Sai: “Em đi đúng lộ trình mà anh!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8003-8298-c66e38e9fe95" class="">Đúng:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801a-ace4-f0449bec56a8" class="">“Dạ em hiểu anh đang lo. Để em kiểm tra lại tuyến sát nhất cho mình.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8099-9a04-c86975e10616" class=""><strong>Tình huống 3</strong> – Khách la hét vì nhầm xe</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8099-a5dc-c406a6b6c0a0" class="">Sai: “Anh nhìn kỹ biển số chưa mà la um lên!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8058-88d3-ca5aa26f20a1" class="">Đúng (giọng nhẹ như ru):</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e4-aba6-f93e06a696bb" class="">“Dạ em hiểu anh đang bực. 
-Để em kiểm tra cuốc xe ngay đây ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8014-be0d-c1d44e3966dc" class=""><strong>Tình huống 4</strong> – Khách than “sao xe nóng quá”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801d-89b4-fdce3cd0cd35" class="">Sai: “Mới bật có 2 phút mà!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-801d-a4bc-cca87cfc4a9a" class="">Đúng:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ed-a170-d89f74e5bf12" class="">“Dạ em hiểu chị đang thấy nóng. Để em chỉnh xuống 23 độ ngay ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e3-807e-e997aef0285f" class=""><strong>⏱ 18–19 phút — D. 
-5 LỖI GIAO TIẾP “GIẾT CHẾT” 5 SAO</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80d4-bd53-f078cdc2256f" class="numbered-list" start="1"><li>Nói to, nói nhanh khi khách đang bực</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-805d-8e5d-eef9e0b29ec0" class="numbered-list" start="2"><li>Cãi lại dù chỉ 1 câu</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80bd-9d76-ef0b9996c179" class="numbered-list" start="3"><li>Thở dài, lắc đầu, nhăn mặt</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80ff-8d4d-c3beca1a384d" class="numbered-list" start="4"><li>Hỏi chuyện riêng tư không cần thiết</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80df-962f-e944df171960" class="numbered-list" start="5"><li>Dùng từ phán xét: “Giờ này đi là kẹt rồi”, “Sao anh đặt xa vậy?”</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8071-bbd5-db66c66bc7f3" class=""><strong>⏱ 19–20 phút — KẾT THÚC BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ed-a795-cf993a5c4de2" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-800f-9812-c84b95831a24" class="">Từ hôm nay, 
-mỗi lần mở miệng là các anh chị đang bỏ tiền vào túi mình!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8047-a833-f175413992c8" class="">Giọng nhẹ – không tranh cãi – 2 câu thần chú = 5 sao tự động bay về!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-809a-bebd-f5665316577a" class="">Hãy tự nhủ mỗi sáng trước khi lên xe:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cf-a68b-f496a806b8f9" class="">“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐIỀU KHIỂN CẢM XÚC CỦA KHÁCH BẰNG GIỌNG NÓI!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8091-828a-ec41a724cd44" class="">Chỉ 20 phút thôi – nhưng đủ để các anh chị trở thành tài xế được khách yêu quý nhất tuyến đường!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805e-b637-d1a3ff4d7432" class="">Cảm ơn các anh chị – giờ thì ra đường và “nói chuyện bằng cả trái tim” nhé! ❤️🚕”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-808f-aae4-e9da4da82fd3" class="">Nếu bạn muốn tiếp tục series giao tiếp 5 sao:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-807d-8832-efd6065b45e2" class="">👉 Chỉ cần nói “Viết mục 2” (hoặc mục nào bạn muốn)</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d7-b486-f8e30495a436" class="">Mình bắn ngay theo đúng chuẩn này! 🔥</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8037-b306-d0c9c382d7a2"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-80c9-bdb4-c4badf39bd70" class=""><strong>2. 
-Kỹ năng lắng nghe chủ động (15 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80c5-bd8f-cd69f1ac7907" class=""><strong>Nội dung:</strong></p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80cd-8864-da000e16f7bf" class="bulleted-list"><li style="list-style-type:disc">Không cắt lời khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8043-a14c-c1ae51e33d6b" class="bulleted-list"><li style="list-style-type:disc">Nhắc lại ý khách để xác nhận:<div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8005-b8b1-eef9c616e989" class="bulleted-list"><li style="list-style-type:circle">“Dạ, ý anh/chị là … đúng không ạ?”</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-802b-9e81-c2cadd1b4dd4" class="bulleted-list"><li style="list-style-type:disc">Quan sát nét mặt – giọng nói để nhận biết mức độ căng thẳng</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8014-8f59-f8c07e2b0d06" class="bulleted-list"><li style="list-style-type:disc">Không phán xét, không phản ứng ngay</li></ul></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-802d-9303-cc9322846aa9" class=""><strong>Chuẩn quốc tế:</strong> <em>Lyft – Active Listening for Drivers.</em></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80e5-946b-db2379348fb6"/></div><div style="display:contents" dir="auto"><h1 id="2b0c5e6f-95bd-801a-a96e-dfa01ffaeea6" class="">📘 3. 
-XIN LỖI ĐÚNG CHUẨN QUỐC TẾ (15 PHÚT)</h1></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804c-a899-ef4b63d8a64d" class=""><strong>15 phút này giúp bạn biến khách đang “muốn hủy chuyến + đánh giá 1 sao” thành khách cho 5 sao + boa ngay lập tức!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8010-87ae-f8e1b0c75fbe" class=""><strong>🎯 Mục tiêu sau 15 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8022-b00d-c34a01957f42" class="bulleted-list"><li style="list-style-type:disc">Biết nói 1 câu xin lỗi làm tan biến 80% cơn bực của khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80e9-aa23-fd8f79de124e" class="bulleted-list"><li style="list-style-type:disc">Không bao giờ làm khách bực thêm vì “xin lỗi sai cách”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8041-8e12-f26b35c4e782" class="bulleted-list"><li style="list-style-type:disc">Tăng điểm đánh giá trung bình thêm 0.3–0.5 sao</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-808a-8bd5-ef4a6346cc46" class="bulleted-list"><li style="list-style-type:disc">Trở thành tài xế mà khách nói: “Tài xế này xin lỗi mà mình hết giận luôn!”</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8032-9c08-f071ae41b1d8" class=""><strong>⏱ 0–1 phút — GIẢNG VIÊN MỞ ĐẦU ĐỈNH CAO</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80bc-a2f6-fd887137c413" class="">“Uber Global và Grab Singapore đã chứng minh:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804e-bcf2-d0e6c4c84f9a" class="">Tài xế biết xin lỗi đúng chuẩn → tỷ lệ khiếu nại giảm 80%!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8035-b586-ccc27c79beb3" class="">Hôm nay các anh chị sẽ học công thức 1+1 = 5 sao!”</p></div><div style="display:contents" dir="auto"><p i
-d="2b0c5e6f-95bd-8031-a245-cb09cf70d797" class=""><strong>⏱ 1–3 phút — A. TẠI SAO PHẢI XIN LỖI NGẮN?</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8057-8d61-d369471f33af" class="">Uber Short Apology Protocol &amp; Lyft Conflict Manual nói rõ:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-805c-8e2d-c227aace1db8" class="bulleted-list"><li style="list-style-type:disc">Xin lỗi dài → khách nghĩ bạn biện minh</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-803a-83ab-c78732119da8" class="bulleted-list"><li style="list-style-type:disc">Xin lỗi kèm “nhưng” → khách nghe thành đổ lỗi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-802f-a7f7-f8c457870457" class="bulleted-list"><li style="list-style-type:disc">Xin lỗi nhiều câu → khách càng bực thêm</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8003-a133-fecc2362c278" class=""><strong>Công thức vàng quốc tế:</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8061-9a9e-e2ca654bad65" class=""><strong>1 câu xin lỗi + 1 câu hành động = xong!</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80c4-a9dc-fe9407ca240b" class=""><strong>⏱ 3–9 phút — B. 
-5 NGUYÊN TẮC XIN LỖI ĐÚNG CHUẨN (Japan Taxi + Grab SG + Uber)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-808b-96b1-d595b7c0485b" class="numbered-list" start="1"><li>Chỉ 1 câu xin lỗi – ngắn gọn, rõ ràng<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-805a-90b2-f0726b1a4943" class="">Câu mẫu thần thánh:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8081-a9bc-e215e1f5499f" class="">“Dạ em xin lỗi anh/chị.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e8-b894-ca2b98f08dcc" class="">“Dạ em xin lỗi vì đã để anh/chị chờ.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8088-b0f4-d02ff5e23d82" class="">“Dạ em xin lỗi, 
-em xử lý ngay đây ạ.”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8060-bc6b-ec4d3936d19b" class="numbered-list" start="2"><li>Tuyệt đối KHÔNG đổ lỗi cho bất kỳ ai<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-808b-b301-ffbfa31e57dc" class="">Cấm nói:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8025-967e-d039ee19052a" class="bulleted-list"><li style="list-style-type:disc">“Tại app bị lỗi”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80b2-882a-edb21029ce02" class="bulleted-list"><li style="list-style-type:disc">“Tại đường kẹt”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-807e-bc46-ed0a59279c35" class="bulleted-list"><li style="list-style-type:disc">“Tại anh/chị đặt sai địa chỉ”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8008-9afa-de801d9bdacb" class="numbered-list" start="3"><li>Không tranh đúng sai<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8022-8735-db6dd4e12ee6" class="">Cấm nói:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-806f-a77d-c8da908223d9" class="bulleted-list"><li style="list-style-type:disc">“Em làm đúng mà”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-808f-9e0e-d4a0feca29b8" class="bulleted-list"><li style="list-style-type:disc">“Không phải lỗi của em”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8003-bd12-fe29bff165ff" class="bulleted-list"><li style="list-style-type:disc">“Anh/chị hiểu lầm rồi”</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8083-b09a-d4000637512d" class="numbered-list" start="4"><li>Không giải thích hơn 1 câu<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a4-952d-e7d5fbf40662" class="">Sai: “Em xin lỗi nhưng hôm nay đường kẹt lắm, 
-với lại em cũng mới nhận cuốc, tuyến kia anh đặt xa quá…”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8086-a7ae-e0bde84eb7ab" class="">Đúng: “Dạ em xin lỗi, để em đổi tuyến nhanh hơn ạ.”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8053-9ec3-de7c205213ec" class="numbered-list" start="5"><li>Luôn kèm hành động ngay lập tức<div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80dd-befb-e2f4bb4d77ee" class="">Xin lỗi xong → làm luôn:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8049-9097-d06a23b28f66" class="bulleted-list"><li style="list-style-type:disc">Chỉnh điều hòa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80a6-b66a-dd3ebd87956a" class="bulleted-list"><li style="list-style-type:disc">Đổi tuyến</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-80a9-b4f9-f44ba93806df" class="bulleted-list"><li style="list-style-type:disc">Dừng xe an toàn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8021-b7e9-c24e0525b120" class="bulleted-list"><li style="list-style-type:disc">Báo điều phối</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8027-8d25-f59af20c6a42" class=""><strong>⏱ 9–12 phút — C. 
-4 VÍ DỤ THỰC TẾ SIÊU CHUẨN</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80f2-b3ea-feb1807685ad" class=""><strong>Ví dụ 1:</strong> Trễ 3 phút</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80aa-81e2-f0d0779176d6" class="">Sai: “Em xin lỗi nhưng tại kẹt xe dữ quá…”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b9-b480-dc4c272021ef" class="">Đúng: “Dạ em xin lỗi chị, em đến ngay đây ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802b-9d76-f9d3b8f1c036" class=""><strong>Ví dụ 2:</strong> Khách than xe nóng</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8032-b017-d9da441b2fb5" class="">Sai: “Em mới bật có 2 phút mà chị!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a4-bd3f-c97fcb08bf5d" class="">Đúng: “Dạ em xin lỗi anh, để em chỉnh xuống 23 độ ngay cho mát ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80aa-b41a-f7c016b5bf1c" class=""><strong>Ví dụ 3:</strong> Đi nhầm đường (do app)</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cc-9910-def6147f9f32" class="">Sai: “Tại app chỉ vậy chứ em biết đường này gần hơn!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8014-bf28-ceb4bb107263" class="">Đúng: “Dạ em xin lỗi chị, để em quay lại tuyến đúng ngay đây ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80ff-bc17-d5ef0df40dec" class=""><strong>Ví dụ 4:</strong> Khách bực vì tài xế im lặng</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80b2-8d27-df8275317f39" class="">Sai: “Em tập trung lái xe chứ biết nói gì!”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8045-9c6b-daa790a6460e" class="">Đúng: “Dạ em xin lỗi vì để anh im lặng, 
-anh/chị cần em hỗ trợ gì thêm không ạ?”</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8012-99bb-f55d683bcc9e" class=""><strong>⏱ 12–14 phút — D. ROLE-PLAY 90 GIÂY</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-802a-9135-e07f50b40039" class="">Giảng viên chia cặp nhanh:</p></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8077-87db-c2ab6f02dacb" class="bulleted-list"><li style="list-style-type:disc">Người A: khách cực kỳ bực (hét, đòi hủy, đòi báo công ty)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b0c5e6f-95bd-8083-9d70-da4d6d93fcdf" class="bulleted-list"><li style="list-style-type:disc">Người B: tài xế chỉ được dùng công thức 1+1<br/>→ Sau 45 giây đổi vai<br/>→ Cả lớp cười vì thấy khách “diễn” cũng tự dịu lại thật!</li></ul></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cd-a798-efcf911e01fd" class=""><strong>⏱ 14–15 phút — E. 
-5 LỖI PHỔ BIẾN LÀM KHÁCH BỰC THÊM</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80a9-b538-cd8ff145ef04" class="numbered-list" start="1"><li>Xin lỗi kèm “nhưng…”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8091-bbb5-ffbc945fd10a" class="numbered-list" start="2"><li>Xin lỗi 3–4 câu liên tiếp</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80d3-9bdc-cdf2b69c8bc5" class="numbered-list" start="3"><li>Giải thích nguyên nhân dài dòng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-8041-b487-d495f6dfb2f1" class="numbered-list" start="4"><li>Đổ lỗi cho app, đường, điều phối, khách</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b0c5e6f-95bd-80a8-bd0e-e4858a017180" class="numbered-list" start="5"><li>Giọng lên cao hoặc nghe như chống chế</li></ol></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80a1-81f2-c6ea76937a7e" class=""><strong>⏱ 15 phút — KẾT THÚC BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8026-9e06-fca91ab2687c" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-8077-b32d-cf4b44622452" class="">Từ hôm nay, 
-mỗi lần nói “Dạ em xin lỗi” đúng cách,</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-804e-aed1-c95999c6d66a" class="">các anh chị không hề yếu đi – các anh chị đang trở thành SIÊU ANH HÙNG 5 SAO!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80d4-8717-cbeb2e82a412" class="">Hãy khắc vào tim công thức:</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80cf-8d24-fb0785e8fc3b" class="">1 CÂU XIN LỖI + 1 HÀNH ĐỘNG = KHÁCH DỊU NGAY + 5 SAO + BOA!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-800b-b22c-d28eb9fd178c" class="">Giờ thì ra đường và biến mọi cơn bực thành nụ cười nhé!</p></div><div style="display:contents" dir="auto"><p id="2b0c5e6f-95bd-80e8-8143-ef0bf77b89bc" class="">Unitaxi tự hào vì có những tài xế biết xin lỗi ĐẲNG CẤP QUỐC TẾ như các anh chị! ❤️🚕”</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-809d-ab8e-fe6ef6c67c1e"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-80e1-b437-f54be096d158" class=""><strong>4. 
-Giải thích ngắn &amp; rõ (15 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c3-97b4-cd771aef48b1" class=""><strong>🔥 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH &quot;BẬC THẦY GIẢI THÍCH&quot; - KHÁCH TỨC GIẬN CŨNG PHẢI GẬT GÙ ĐỒNG Ý! 🚀</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c7-a90f-df370decd257" class=""><strong>🎯 MỤC TIÊU SAU 15 PHÚT:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8053-9ff8-e4104cd63b62" class="bulleted-list"><li style="list-style-type:disc">Biết cách giải thích 1 câu khiến khách từ &quot;sao đi đường này?&quot; thành &quot;ồ hay quá!&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807e-a6d9-cb7410d8d305" class="bulleted-list"><li style="list-style-type:disc">Tăng 30% tỷ lệ khách đồng ý với lựa chọn đường của tài xế</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8042-a0f0-eeb8a9b8b313" class="bulleted-list"><li style="list-style-type:disc">Trở thành tài xế mà khách review: &quot;Rất chuyên nghiệp, giải thích rõ ràng và đáng tin cậy!&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b5-bea2-c64a0b5cc77a" class=""><strong>⏱ 0-1 PHÚT — MỞ ĐẦU BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d0-9a19-e29e4bbe1e58" class="">&quot;ComfortDelGro Singapore - hãng taxi số 1 Đông Nam Á đã chứng minh:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8027-abe5-e4ef49affc28" class="">Tài xế biết giải thích ngắn gọn = Tỷ lệ khiếu nại giảm 65% + Tips tăng 40%!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8032-b263-f3bc3b4423b2" class="">Hôm nay chúng ta sẽ học bí kíp &#x27;1 CÂU THAY VẠN LỜI&#x27;!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8048-a814-e4c3c7375dcb" class=""><strong>⏱ 1-3 PHÚT — A. 
-TẠI SAO PHẢI GIẢI THÍCH NGẮN?</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c3-a89e-ee9e94a09031" class="">Theo nghiên cứu từ Japan Taxi &amp; Uber Global:</p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8022-962f-fb4352c4447a" class="bulleted-list"><li style="list-style-type:disc">Giải thích dài = Khách nghĩ bạn đang bao biện</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800f-aca6-cedc7c1ecf3d" class="bulleted-list"><li style="list-style-type:disc">Giải thích ngắn = Thể hiện năng lực chuyên môn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8065-a575-ffb4186ffad5" class="bulleted-list"><li style="list-style-type:disc">85% khách hàng chỉ nhớ duy nhất 1 thông điệp chính</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8007-9d3a-f9395b199a0f" class=""><strong>CÔNG THỨC VÀNG QUỐC TẾ:&quot;1 CÂU GIẢI THÍCH + 1 LỢI ÍCH CỤ THỂ = KHÁCH ĐỒNG Ý NGAY!&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804d-b4ff-d0b37d33d2e5" class=""><strong>⏱ 3-9 PHÚT — B. 5 NGUYÊN TẮC &quot;GIẢI THÍCH THÔNG MINH&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808c-b34a-c96f8a1265c3" class=""><strong>1. 
-CHỈ 1 CÂU - ĐÚNG TRỌNG TÂM</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8001-9699-dc6156cedac8" class="bulleted-list"><li style="list-style-type:disc">Tuyệt đối không nói quá 2 câu liên tiếp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8095-b4ef-d5802c7477d1" class="bulleted-list"><li style="list-style-type:disc">Tập trung vào lợi ích chính cho khách</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806f-bce5-c3f344f40466" class=""><em>Câu thần thánh:</em><br/>✅ &quot;Mình đi hướng này để TRÁNH KẸT và VỀ SỚM 15 PHÚT ạ!&quot;<br/>✅ &quot;Đường này ÍT ĐÈN ĐỎ nên mình sẽ chạy NHANH HƠN 20%!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808e-970a-c8aeec321430" class=""><strong>2. TUYỆT ĐỐI KHÔNG DÙNG TỪ GÂY ÁP LỰC</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800d-a4fc-d9329ef02e92" class="bulleted-list"><li style="list-style-type:disc">CẤM: &quot;phải&quot;, &quot;buộc&quot;, &quot;không được&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8043-8fb8-c07aaf80a8fd" class="bulleted-list"><li style="list-style-type:disc">NÊN: &quot;nên&quot;, &quot;có thể&quot;, &quot;tốt hơn nên&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8000-b57f-db6d4bf5c6ea" class=""><em>Ví dụ xuất sắc:</em><br/>❌ &quot;Anh phải ngồi yên!&quot;<br/>✅ &quot;Mình ngồi yên để an toàn hơn nhé!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807a-8413-cae46a196b5d" class=""><strong>3. 
-KHÔNG VÒNG VO - KHÔNG GIẢI THÍCH HAI LẦN</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8004-8644-fc00843726dd" class="bulleted-list"><li style="list-style-type:disc">Nói 1 lần - nói rõ ràng - không nhắc lại</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8035-aae5-efd6b6aca392" class="bulleted-list"><li style="list-style-type:disc">Khách nóng = bạn nói càng ít</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8069-9b79-c2bb6e5369ef" class=""><em>Bí kíp cao thủ:</em><br/>&quot;Đoạn này có camera, mình đi đúng làn cho an toàn ạ!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8079-998d-e56a640cabd8" class=""><strong>4. IM LẶNG ĐÚNG LÚC - NÓI ĐÚNG THỜI ĐIỂM</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ef-87a8-e17095662592" class="bulleted-list"><li style="list-style-type:disc">Khách đang bực = chỉ nói 1 câu rồi im lặng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8071-9bb2-fad6177c0f8f" class="bulleted-list"><li style="list-style-type:disc">Giọng nói: chậm hơn 15%, volume thấp hơn 20%</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8056-ab28-ebd60c3bab69" class=""><em>Câu cứu tinh:</em><br/>&quot;Dạ để em tập trung xử lý cho mình an toàn trước ạ!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d0-89c8-fc1589db440a" class=""><strong>5. 
-HƯỚNG DẪN - KHÔNG TRANH LUẬN</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f0-a5c1-dd2d3954d70a" class="bulleted-list"><li style="list-style-type:disc">Thay vì chứng minh đúng sai, hãy hướng dẫn giải pháp</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809c-9948-eab79f2a3c67" class=""><em>Tuyệt chiêu:</em><br/>❌ &quot;Em đúng, anh sai rồi!&quot;<br/>✅ &quot;Hướng này sẽ giúp mình đến nơi NHANH HƠN và AN TOÀN HƠN ạ!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805b-96ea-fbbbb5e7ca50" class=""><strong>⏱ 9-12 PHÚT — C. 4 TÌNH HUỐNG &quot;KHÓ NHẰN&quot; VÀ CÁCH XỬ LÝ THÔNG MINH</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8001-81e2-fb0d78574efb" class=""><strong>Tình huống 1:</strong> Khách bảo đi đường A, bạn muốn đi đường B<br/>❌ &quot;Đường anh chỉ kẹt lắm!&quot;<br/>✅ &quot;Hướng này đang thông suốt, mình đi sẽ TIẾT KIỆM 10 PHÚT ạ!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8000-84ea-e79af3719740" class=""><strong>Tình huống 2:</strong> Khách yêu cầu dừng giữa đường nguy hiểm<br/>❌ &quot;Không được dừng ở đây!&quot;<br/>✅ &quot;Em sẽ dừng ở điểm AN TOÀN ngay phía trước cho mình nhé!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80df-b005-cbebc7d7d613" class=""><strong>Tình huống 3:</strong> Khách hỏi tại sao không đi nhanh hơn<br/>❌ &quot;Em đang chạy đúng tốc độ rồi!&quot;<br/>✅ &quot;Em giữ tốc độ ổn định để đảm bảo AN TOÀN TUYỆT ĐỐI cho mình ạ!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8056-9f88-f6dfedab70ea" class=""><strong>Tình huống 4:</strong> Khách phàn nàn về nhiệt độ<br/>❌ &quot;Em mới chỉnh rồi!&quot;<br/>✅ &quot;Dạ để em điều chỉnh nhiệt độ cho mình DỄ CHỊU ngay ạ!&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808f-8384-df9a0e69fb98" class=""><strong>⏱ 12-14 PHÚT — D. 
-THỰC CHIẾN 90 GIÂY</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8030-be17-cfbc8b8a4bd8" class="">Giảng viên chia cặp nhanh:</p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80df-afd3-f02c265feb13" class="bulleted-list"><li style="list-style-type:disc">Người A: khách khó tính nhất (liên tục phàn nàn, chỉ đường)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804a-8541-ce63d3aaddbd" class="bulleted-list"><li style="list-style-type:disc">Người B: tài xere chỉ được dùng 1 câu giải thích + 1 lợi ích<br/>→ 45 giây đổi vai<br/>→ Cả lớp bất ngờ vì hiệu quả của việc &quot;nói ít nhưng chất&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8037-8e17-f0e087b56879" class=""><strong>⏱ 14-15 PHÚT — E. 
-5 LỖI &quot;CHẾT NGƯỜI&quot; KHI GIẢI THÍCH</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ba-bdd7-efb6457a762a" class="numbered-list" start="1"><li>❌ Giải thích dài hơn 3 câu → Khách nghĩ bạn bao biện</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80e9-890a-da033f34a78e" class="numbered-list" start="2"><li>❌ Dùng từ &quot;phải&quot;, &quot;buộc&quot; 
-→ Tạo cảm giác bị ép buộc</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8030-b23a-fba24426f4ab" class="numbered-list" start="3"><li>❌ Tranh luận đúng sai → Mất thiện cảm ngay lập tức</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ea-9304-f016c33ae904" class="numbered-list" start="4"><li>❌ Nói quá nhiều khi khách đang bực → Dầu đổ thêm lửa</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80f9-aafe-dc89bbf8a59e" class="numbered-list" start="5"><li>❌ Đổ lỗi cho app/đường/đèn đỏ → Đánh mất sự chuyên nghiệp</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8002-815d-c0de0b377680" class=""><strong>⏱ 15 PHÚT — KẾT THÚC ĐỈNH CAO</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ff-bb08-c40b0c84b242" class="">&quot;Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8037-863b-c242feed3dd3" class="">Từ hôm nay, mỗi lần giải thích ngắn gọn và thông minh,</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8038-b965-f22047422e21" class="">các anh chị không chỉ tiết kiệm thời gian - mà còn KIẾM THÊM SỰ TIN TƯỞNG!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809e-9f37-dfbd5dc145ab" class="">Hãy nhớ kỹ:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8071-8761-c70f276db9bb" class="">1 CÂU GIẢI THÍCH + 1 LỢI ÍCH CỤ THỂ = KHÁCH GẬT ĐẦU + 5 SAO + BOA!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8097-8e7d-d41264bce70f" class="">Ra đường và trở thành những &#x27;BẬC THẦY GIẢI THÍCH&#x27; nhé!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e8-a4a8-f238836b7228" class="">Unipower tự hào vì có những tài xế BIẾT NÓI NHƯNG KHÔNG BAO GIỜ NÓI DÀI! 
-🚀❤️&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-809e-b72d-e2f81927a9bb"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-80db-9943-fb55491f1232" class=""><strong>5. 
-Xử lý khách nóng tính (20 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80de-9279-e63495317323" class=""><strong>Chuẩn Lyft De-escalation Tactics + Grab Conflict Diffusion + Uber Safety + JapanTaxi Safety Style</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803b-8b17-d682525ec977" class=""><strong>🎯 Mục tiêu sau 20 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e2-9261-dfb2959902a4" class="bulleted-list"><li style="list-style-type:disc">Bạn sẽ không còn sợ khách la hét, đập ghế, chửi bới</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8019-94ad-c245e3734b4f" class="bulleted-list"><li style="list-style-type:disc">Biết làm khách “hạ hỏa” trong vòng 15–30 giây</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ef-93aa-df439cf49c2d" class="bulleted-list"><li style="list-style-type:disc">Giữ được bình tĩnh 100%, an toàn 100%, 
-5 sao 100%</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e1-8971-d2c25a040565" class="bulleted-list"><li style="list-style-type:disc">Trở thành “bậc thầy giảm nhiệt” mà cả công ty phải nể!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8067-a233-ec449092ffee" class=""><strong>⏱ 0–5 phút — PHẦN 1: HIỂU RÕ “CƠ CHẾ NÓNG” CỦA KHÁCH</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808c-b3aa-c67a383bd268" class="">(Lyft 2024 Safety Report + Grab SG 2025)</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806e-8dee-cc96a90b1190" class="">5 nguyên nhân thực sự khiến khách nổi nóng:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ce-8d64-c107d91ef175" class="numbered-list" start="1"><li>Đang trễ giờ → stress cực độ</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8050-8290-d7e2bce7b6ff" class="numbered-list" start="2"><li>Kẹt xe → mất cảm giác kiểm soát</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8082-a094-cf6fa45d96ec" class="numbered-list" start="3"><li>Lo bị đi vòng → sợ tốn tiền</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b1-bb89-d22b25977777" class="numbered-list" start="4"><li>Đang có chuyện cá nhân → không liên quan bạn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d0-b53e-e913683259fb" class="numbered-list" start="5"><li>Quan niệm “tôi là khách = tôi là vua”</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8051-9f16-c42b188757ad" class="">→ Quan trọng nhất: 70–80% cơn nóng KHÔNG LIÊN QUAN ĐẾN BẠN!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f2-81a1-fe139cab51cf" class="">→ Nếu bạn phản ứng lại → bạn tự nhảy vào “vòng xoáy chiến đấu”</p></div><div style="display:contents" dir="auto"><p i
-d="2b1c5e6f-95bd-8045-8dd6-de17f3e36fa0" class=""><strong>⏱ 5–13 phút — PHẦN 2: 6 KỸ THUẬT GIẢM NHIỆT SIÊU TỐC (giảng viên viết to lên bảng)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8023-aefd-d7988846a084" class="numbered-list" start="1"><li>Giữ khoảng cách cơ thể<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809c-8dc7-ff6fcf0c12db" class="">→ Không quay hẳn người lại, không đối đầu trực diện</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-802d-a79b-e8f1d3032573" class="numbered-list" start="2"><li>Hạ giọng + nói chậm hơn 15%<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80df-a287-d9854ca61b3e" class="">→ Grab SG đo: hạ giọng = giảm 40–50% căng thẳng khách</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80cd-b22c-cdf6349e54ee" class="numbered-list" start="3"><li>Mắt nhìn lệch nhẹ sang phải hoặc nhìn đường<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8096-b22c-deddf009dfe7" class="">→ Không nhìn chằm chằm qua gương (khách sẽ càng nóng)</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8024-8546-cba9a9247ea9" class="numbered-list" start="4"><li>Không tranh cãi – không chứng minh mình đúng<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8068-8517-d3f7a752aab7" class="">→ Cấm tuyệt đối các từ: “đâu có”, “ai bảo”, 
-“anh sai rồi”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8063-be79-cbe0ccdc5818" class="numbered-list" start="5"><li>Không biện minh dài dòng<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e4-ab2f-f59a62ab16a2" class="">→ Tối đa 1 câu giải thích</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8084-8130-e81b48b99a42" class="numbered-list" start="6"><li>Tay giữ vô-lăng chắc – chân sẵn sàng phanh<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8099-8ffd-c5a163f7c7c4" class="">→ Giữ an toàn là ưu tiên số 1</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8076-9f24-f72c7bc4966b" class=""><strong>⏱ 13–16 phút — PHẦN 3: 3 CÂU MẪU THẦN THÁNH (thuộc lòng ngay tại chỗ)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806a-8b71-fc091499b57b" class="">Giảng viên yêu cầu cả lớp đọc to 3 lần:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8070-80b9-e90996e5b0fb" class="numbered-list" start="1"><li>“Dạ em hiểu ạ, để em xử lý cho mình.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80a1-9941-e322717ab333" class="numbered-list" start="2"><li>“Anh/chị yên tâm, 
-em sẽ giữ an toàn nhất ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b0-9528-d5fbd3a3c26a" class="numbered-list" start="3"><li>“Dạ mình đi đường này sẽ an toàn và nhanh hơn ạ.”</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809a-be29-f68b4107a611" class="">→ 3 câu này đã cứu hàng nghìn tài xế Uber/Lyft/Grab khỏi xung đột!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8052-a353-e4253022bdf3" class=""><strong>⏱ 16–20 phút — PHẦN 4: THỰC HÀNH 3 TÌNH HUỐNG THỰC CHIẾN (Role-play tại chỗ)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809f-9027-eac81450d958" class=""><strong>Tình huống 1</strong> – Khách la lớn: “Mày chạy đường gì vậy hả?! Đi vòng phải không?!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a6-ab57-fb9e5726e62a" class="">Đúng 100%:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bf-9c8a-c2efd6f8f2c9" class="">→ Hạ giọng cực nhẹ: “Dạ em hiểu anh đang bực. 
-Đường kia đang kẹt nặng, đường này an toàn và nhanh hơn ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d2-817b-f87b1169ba7e" class=""><strong>Tình huống 2</strong> – Khách đập ghế, giục chạy nhanh</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806d-83c7-c979f3841949" class="">Đúng 100%:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b2-8d24-f28a98106f91" class="">→ Giữ tốc độ hiện tại (hoặc giảm nhẹ)</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a8-b129-e9faf1d6ec2e" class="">→ Giọng nhẹ như ru: “Dạ anh yên tâm, em đang giữ tốc độ an toàn nhất cho mình ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804d-8b11-fd945fd42870" class="">→ Nếu khách tiếp tục → bấm SOS lặng lẽ → báo điều phối</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8072-a325-d57cfc29d6fb" class=""><strong>Tình huống 3</strong> – Khách chửi bới, xúc phạm cá nhân</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808c-848d-e33914ce7fcd" class="">Đúng 100%:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8068-b4d9-e14046686074" class="">→ Im lặng 3–5 giây → giọng nhẹ: “Dạ em hiểu ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802a-8e0e-e3379f6723d6" class="">→ Tập trung lái → báo điều phối trong 30 giây</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802f-a4bb-ed3750c94bff" class="">→ Không đáp trả dù chỉ 1 từ!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80dc-a206-e550ae2d8e0c" class=""><strong>⏱ 20 phút — KẾT THÚC BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f3-a2b6-eaac821d2149" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d6-a877-e4c6e6575c9a" class="">Từ hôm nay, 
-khi khách càng nóng → các anh chị càng mát!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d1-a073-e97832932e1f" class="">Khách càng la → các anh chị càng nhẹ!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8024-8e8c-d80853e891a1" class="">Vì các anh chị đã sở hữu 6 kỹ thuật + 3 câu thần chú mà ngay cả tài xế 10 năm kinh nghiệm ở Singapore, Nhật Bản cũng phải học!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8040-b07d-dd505bb1406c" class="">Hãy bước ra đường với tư thế ngẩng cao đầu và tự nhủ thật to:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807b-b26a-cc852c7194f7" class="">“TÔI KHÔNG SỢ KHÁCH NÓNG TÍNH NỮA – VÌ TÔI LÀ NGƯỜI ĐIỀU KHIỂN NHIỆT ĐỘ TRONG XE!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f6-a937-d9ccb37f4d76" class="">Unitaxi tự hào vì có những chiến binh giảm nhiệt đỉnh cao như các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8058-9bab-c12fb1a7be1e" class="">Giờ thì ra đường và biến mọi tiếng la hét thành… tiếng cười + 5 sao + boa nhé! ❤️🚕🔥”</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80fd-9d99-e4400e8f3c95"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-807b-919c-feab32556775" class=""><strong>6. 
-Xử lý khách say (15 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80dc-99e9-e3d56aacfd05" class=""><strong>🔥 20 PHÚT NÀY SẼ BIẾN BẠN THÀNH &quot;BẬC THẦY XỬ LÝ XUNG ĐỘT&quot; - KHÁCH GIẬN DỮ ĐẾN MẤY CŨNG PHẢI BÌNH TĨNH LẠI! 
-🚀</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ea-b397-d9cf4c6df77b" class=""><strong>🎯 MỤC TIÊU ĐỘT PHÁ (1 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ee-b698-c9aac3c81425" class="bulleted-list"><li style="list-style-type:disc"><strong>Thấu hiểu</strong> tận gốc 5 nguyên nhân khiến khách &quot;bùng nổ&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8045-895d-c359162778d9" class="bulleted-list"><li style="list-style-type:disc"><strong>Làm chủ</strong> 6 kỹ thuật &quot;hạ nhiệt&quot; chuẩn quốc tế trong 3-10 giây</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805a-9f2a-e3fdc9c7d2e2" class="bulleted-list"><li style="list-style-type:disc"><strong>Trở thành</strong> chuyên gia xử lý xung đột: an toàn cho bạn - tôn trọng khách</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8019-b5c4-c908c167da0c"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8010-841c-e4b30368e0d4" class=""><strong>🌟 VÌ SAO KHÁCH TRỞ THÀNH &quot;NGƯỜI NHIỀU LỬA&quot;? 
-(3 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8020-9399-dfd1483883a7" class="">Theo nghiên cứu từ Lyft &amp; Uber Global:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8034-8115-ddfc6df8a90f" class=""><strong>80% khách nóng tính KHÔNG HỀ NÓNG VÌ BẠN!</strong> Họ đang mang theo:</p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80cc-b9ac-da98e8656832" class="bulleted-list"><li style="list-style-type:disc">💼 <strong>Áp lực công việc</strong> (trễ meeting, sếp la, deal sập)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803c-b03d-d92c7c9e8aa7" class="bulleted-list"><li style="list-style-type:disc">🏥 <strong>Lo lắng sức khỏe</strong> (vào viện khám gấp)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f7-9b9b-f433f2989fae" class="bulleted-list"><li style="list-style-type:disc">✈️ <strong>Căng thẳng di chuyển</strong> (sợ lỡ chuyến bay, tàu)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803f-aaad-e3e17e0e6ca3" class="bulleted-list"><li style="list-style-type:disc">🏠 <strong>Vấn đề gia đình</strong> (cãi vợ/chồng, con ốm)</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e7-b0ba-ead9227b405b" class=""><strong>SỰ THẬT CHẤN ĐỘNG:</strong> Khách không giận bạn - họ đang giận HOÀN CẢNH!</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8074-a3f0-f381e2f5c901"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8039-98c1-c489b942fdcf" class=""><strong>💎 6 BÍ KÍP &quot;HẠ NHIỆT&quot; TỪ CÁC CHUYÊN GIA LYFT (12 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c8-aca1-f15da0794576" class=""><strong>1. 
-NGHỆ THUẬT &quot;GIỮ KHOẢNG CÁCH VÀNG&quot;</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8014-8cbe-cc36d14e4b8d" class="bulleted-list"><li style="list-style-type:disc">❌ KHÔNG quay người đối diện trực tiếp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808a-9f40-c3e71bdeae80" class="bulleted-list"><li style="list-style-type:disc">✅ NGỒI thẳng, tay nắm vô-lăng, mắt hướng đường</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8076-a321-de7be42f48a4" class="bulleted-list"><li style="list-style-type:disc">✅ CHỈ nghiêng đầu 15 độ khi trả lời</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80df-9159-fbf4925c3bd4" class=""><strong>Hiệu quả:</strong> Giảm 40% cảm giác đối đầu ngay lập tức!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801e-9a75-dbce27c1f0e9" class=""><strong>2. GIỌNG NÓI &quot;THẦN THÁNH&quot; - THẤP · CHẬM · ÊM</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d5-a45b-fb87cd8bed78" class="bulleted-list"><li style="list-style-type:disc">🔊 Giảm âm lượng 2 nấc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806c-8a71-e799f503a056" class="bulleted-list"><li style="list-style-type:disc">🐢 Nói chậm hơn 20%</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b3-bbed-c9f51f7be9a7" class="bulleted-list"><li style="list-style-type:disc">🌬️ Kết hợp hơi thở sâu</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8039-b9a0-f49158f13d34" class=""><strong>Câu &quot;cửa miệng&quot; của cao thủ:</strong><em>&quot;Dạ em hiểu ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fe-9a1d-c9c2be1460be" class=""><strong>3. 
-ÁNH MẮT &quot;KHÔNG ĐỐI ĐẦU&quot;</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8058-930f-f06e26322b20" class="bulleted-list"><li style="list-style-type:disc">👀 Không nhìn chằm chằm qua gương</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806e-8f55-e73d79ba0959" class="bulleted-list"><li style="list-style-type:disc">👁️ Không khóa mắt trực tiếp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808d-9621-ef554e413fe9" class="bulleted-list"><li style="list-style-type:disc">🫣 Hướng tầm mắt lệch 30 độ sang phải</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fd-9f4e-ef3b3de0428a" class=""><strong>Nghiên cứu Lyft:</strong> Tránh eye-contact giảm 50% leo thang xung đột!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8021-8b3f-ca7b580b9628" class=""><strong>4. NGUYÊN TẮC &quot;MỘT LỜI - MỘT NGHĨA&quot;</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b7-abe3-f774507f4d4a" class="bulleted-list"><li style="list-style-type:disc">🚫 Tuyệt đối không tranh luận</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8031-8281-ce9b3fa6edde" class="bulleted-list"><li style="list-style-type:disc">🚫 Tuyệt đối không giải thích dài</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ce-9f78-e2dca834c4e0" class="bulleted-list"><li style="list-style-type:disc">🚫 Tuyệt đối không chứng minh đúng sai</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8052-8822-d6b767e44541" class=""><strong>Triết lý vàng:</strong> <em>Thắng trong im lặng, an toàn trong hành động!</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c8-b379-e944a5307be0" class=""><strong>5. 
-CÔNG THỨC &quot;THẤU CẢM + HÀNH ĐỘNG&quot;</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a2-8319-c64429a65dea" class="bulleted-list"><li style="list-style-type:disc">🤝 <strong>Ghi nhận:</strong> &quot;Dạ em hiểu anh/chị đang rất sốt ruột&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c6-a117-eb6b5165b6b0" class="bulleted-list"><li style="list-style-type:disc">🎯 <strong>Chuyển hướng:</strong> &quot;Để em xử lý ngay cho mình ạ!&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801c-b2b2-c53b5e308ccd" class=""><strong>Hiệu quả tức thì:</strong> Khách cảm thấy được lắng nghe → giảm bùng nổ!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8083-b5de-c78b7f984ecd" class=""><strong>6. 
-LÁI XE &quot;ÊM NHƯ NHUNG&quot;</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8022-b22a-d8d69be1dbdb" class="bulleted-list"><li style="list-style-type:disc">🚗 Không phanh gấp, không tăng tốc đột ngột</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808f-910f-ce900b101647" class="bulleted-list"><li style="list-style-type:disc">🛣️ Giữ khoảng cách an toàn gấp 1.5 lần bình thường</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803e-82fa-cd33b90ff915" class="bulleted-list"><li style="list-style-type:disc">🎵 Tốc độ ổn định như dòng sông chảy</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d7-ac6a-ec86bd2bb152" class=""><strong>Bí mật:</strong> Xe êm = Tâm trạng khách dịu xuống 60%!</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8037-b56b-ea521b5bbb39"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8052-8cb0-f2d66770f9f8" class=""><strong>🛡️ 6 CÂU &quot;BÙA HỘ MỆNH&quot; 
-CHO MỌI TÌNH HUỐNG (3 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-809d-9c5a-d027284c8668" class="numbered-list" start="1"><li>✅ <strong>&quot;Dạ em hiểu, để em xử lý ngay ạ.&quot;</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80c8-bf7a-e8c07b02bc70" class="numbered-list" start="2"><li>✅ <strong>&quot;Anh/chị yên tâm, em đang giải quyết ổn thỏa ạ.&quot;</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8066-ac58-e214bc51ad63" class="numbered-list" start="3"><li>✅ <strong>&quot;Hướng này sẽ giúp mình tránh kẹt và về sớm hơn ạ.&quot;</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80fd-bc4b-d0d531c27567" class="numbered-list" start="4"><li>✅ <strong>&quot;Em xin lỗi, để em điều chỉnh nhiệt độ cho mình dễ chịu ngay.&quot;</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8050-8c48-cc2e55e8cd50" class="numbered-list" start="5"><li>✅ <strong>&quot;Em hiểu mình đang vội, 
-em cố gắng trong mức an toàn nhất ạ.&quot;</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-808f-9fb3-d546e59bb788" class="numbered-list" start="6"><li>✅ <strong>&quot;Em sẽ cập nhật ứng dụng để minh bạch thông tin cho mình ạ.&quot;</strong></li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8039-8050-d5e8954e58f7" class=""><strong>🚫 TUYỆT ĐỐI CẤM:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804d-b5a1-fa4ae9f759ea" class="bulleted-list"><li style="list-style-type:disc">❌ &quot;Anh/chị sai rồi!&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c3-aa05-dd9af0e6d667" class="bulleted-list"><li style="list-style-type:disc">❌ &quot;Không phải lỗi của em!&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8083-9528-e524d7837d5d" class="bulleted-list"><li style="list-style-type:disc">❌ &quot;Em làm đúng mà!&quot;<br/><em>→ Đây là 3 câu &quot;mồi lửa&quot; 
-gây nổ lớn!</em></li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8058-9eed-c4f8d3557497"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8080-954f-d0ba6fa9052a" class=""><strong>🎭 3 TÌNH HUỐNG THỰC CHIẾN CẤP TỐC (1 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b5-b83d-ef996f800b54" class=""><strong>Tình huống 1:</strong> Khách quát &quot;Sao chạy chậm thế?&quot;<br/>➤ <strong>Đáp trả thông minh:</strong><em>&quot;Dạ em giữ tốc độ ổn định để đảm bảo AN TOÀN TUYỆT ĐỐI cho mình ạ!&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808b-a6fd-e7a32a62ed13" class=""><strong>Tình huống 2:</strong> Khách gắt &quot;Tôi bảo đi đường kia cơ!&quot;<br/>➤ <strong>Xử lý đỉnh cao:</strong><em>&quot;Dạ em hiểu, nếu anh/chị muốn em sẽ quay lại hướng đó NGAY ạ!&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d6-88fd-d98d94b0f1d8" class=""><strong>Tình huống 3:</strong> Khách lớn tiếng vì kẹt xe<br/>➤ <strong>Giải pháp vàng:</strong><em>&quot;Dạ đoạn này đang đông, em đã chọn tuyến TỐI ƯU nhất rồi ạ!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80b6-9d3a-c7b1c4b1a26f"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8073-bddd-cfe09935007c" class=""><strong>💫 KẾT THÚC TRÀN ĐẦY NĂNG LƯỢNG (1 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8004-a1d5-e041d1243589" class="">&quot;Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8096-8d47-df07e2a93f1c" class="">Một tài xế THÔNG THÁI không cần thắng bằng lời nói,<br/>mà thắng bằng SỰ BÌNH TĨNH và CHUYÊN NGHIỆP!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8096-9ee3-c92895004ef7" class="">Hôm nay, 
-chúng ta đã học được bí kíp từ những hãng taxi hàng đầu thế giới:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8057-b05f-fa3f0a1a379a" class=""><strong>LYFT · UBER · COMFORTDELGRO · JAPAN TAXI</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8048-91a6-c42e15e534e1" class="">Hãy nhớ: Mỗi lần bạn giữ bình tĩnh thành công,<br/>bạn không chỉ bảo vệ chính mình - mà còn cứu một hành khách khỏi &#x27;cơn bão cảm xúc&#x27;!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807e-a975-d718e5831fd3" class="">Ra đường và tỏa sáng, những BẬC THẦY XỬ LÝ XUNG ĐỘT! 🌟🚗</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b0-93b2-eaf5189659b9" class="">Unipower tự hào vì có bạn! ❤️&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8092-bbb3-ef9b9c43f085"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-8018-8e12-c1ae7a34d7f3" class=""><strong>7. 
-Khi nào cần gọi điều phối / an ninh / công an (20 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806b-b5f1-e992f2cc74fb" class=""><strong>🚨 20 PHÚT NÀY SẼ GIÚP BẠN TRỞ THÀNH &quot;BẬC THẦY XỬ LÝ KHỦNG HOẢNG&quot; - AN TOÀN TUYỆT ĐỐI &amp; CHUYÊN NGHIỆP ĐẲNG CẤP QUỐC TẾ! 🌟</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808e-b61a-c665445f1da0" class=""><strong>🎯 MỤC TIÊU ĐỘT PHÁ (2 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800c-8fa2-f34eee7d6901" class="bulleted-list"><li style="list-style-type:disc"><strong>NHẬN DIỆN SIÊU NHANH</strong> 8 tình huống &quot;báo động đỏ&quot; cần kích hoạt hỗ trợ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8078-829e-d063844a8018" class="bulleted-list"><li style="list-style-type:disc"><strong>LÀM CHỦ</strong> quy trình 3 bước vàng từ Bolt &amp; Uber</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8042-902d-f685af1c5104" class="bulleted-list"><li style="list-style-type:disc"><strong>TRỞ THÀNH</strong> tài xế thông thái: biết khi nào cần &quot;hỗ trợ hệ thống&quot;</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80e8-b7d5-cc6a8513aab3"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800f-8355-e5cf8ac80a99" class=""><strong>🔴 8 TÌNH HUỐNG &quot;BÁO ĐỘNG ĐỎ&quot; - GỌI HỖ TRỢ NGAY! (10 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8070-8919-fa9f6844f814" class=""><strong>1. 
-KHÁCH ĐE DỌA HOẶC XÚC PHẠM</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b0-9665-dc236ee449ca" class="bulleted-list"><li style="list-style-type:disc">👊 Đập ghế, đá cửa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8081-b761-fe450b88f6cc" class="bulleted-list"><li style="list-style-type:disc">🗣️ Chửi bới, xúc phạm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801d-baec-f7816a017913" class="bulleted-list"><li style="list-style-type:disc">⚠️ Đe dọa: &quot;Tao đánh mày&quot;, &quot;Tao kiện mày&quot;<br/>→ <strong>NGUY CƠ BẠO LỰC CAO</strong> - cần hỗ trợ an ninh ngay!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8094-a72a-ee5da91071f5" class=""><strong>2. KHÁCH SAY MẤT KIỂM SOÁT HOÀN TOÀN</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80da-96fb-ee031a3a5b80" class="bulleted-list"><li style="list-style-type:disc">🚶 Không giữ được thăng bằng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8087-9c6f-c96e86e2d84c" class="bulleted-list"><li style="list-style-type:disc">🔊 La hét vô cớ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800b-a942-e6714add166c" class="bulleted-list"><li style="list-style-type:disc">🚪 Cố mở cửa khi xe đang chạy<br/>→ <strong>AN TOÀN TÍNH MẠNG BỊ ĐE DỌA</strong> - báo điều phối Level 1!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8001-af97-ebfbede9167b" class=""><strong>3. 
-KHÁCH &quot;NGỒI LÌ&quot; - KHÔNG CHỊU XUỐNG XE</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807a-b3a2-e1e10bb7ade2" class="bulleted-list"><li style="list-style-type:disc">🪑 Ngồi lì không rời</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803b-93a7-fde931d020da" class="bulleted-list"><li style="list-style-type:disc">🚪 Giữ chặt cửa, ghế</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b5-8bf8-c9b6f8d170d7" class="bulleted-list"><li style="list-style-type:disc">⏰ Kéo dài thời gian vô lý<br/>→ <strong>NGUY CƠ XUNG ĐỘT LEO THANG</strong> - cần can thiệp hệ thống!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a3-a83a-d6db0cd6d8fe" class=""><strong>4. KHÁCH YÊU CẦU ĐƯỜNG NGUY HIỂM</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800a-bf51-e318a97a0bf9" class="bulleted-list"><li style="list-style-type:disc">🚫 Đường cấm taxi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8032-a765-ce30b382e957" class="bulleted-list"><li style="list-style-type:disc">🔄 Đường một chiều</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8041-9e5a-e2c03815ec47" class="bulleted-list"><li style="list-style-type:disc">🌊 Đường ngập sâu<br/>→ <strong>VI PHẠM LUẬT GIAO THÔNG</strong> - tài xế chịu trách nhiệm pháp lý!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c4-a888-c30f0da96904" class=""><strong>5. 
-KHÁCH CÓ HÀNH VI PHÁ HOẠI XE</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808a-9166-dc8ed1062aab" class="bulleted-list"><li style="list-style-type:disc">💥 Đập vỡ nội thất</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801d-8da8-c5a62e25db1a" class="bulleted-list"><li style="list-style-type:disc">🎨 Bôi bẩn ghế, cửa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803d-9098-e09238d197fc" class="bulleted-list"><li style="list-style-type:disc">🔧 Làm hỏng thiết bị<br/>→ <strong>THIỆT HẠI TÀI SẢN</strong> - cần ghi nhận để bồi thường!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8023-8788-f95b5d32f78d" class=""><strong>6. KHÁCH ĐÒI XUỐNG NƠI NGUY HIỂM</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a0-aa5e-c321e69bedee" class="bulleted-list"><li style="list-style-type:disc">🛣️ Giữa đường cao tốc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805b-bdab-f37578b9f520" class="bulleted-list"><li style="list-style-type:disc">🌉 Trên cầu, hầm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a4-8b8d-cf883c0d7a43" class="bulleted-list"><li style="list-style-type:disc">🌃 Khu vực tối, vắng<br/>→ <strong>VI PHẠM LUẬT &amp; NGUY HIỂM TÍNH MẠNG</strong> - tuyệt đối không thực hiện!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801a-aba0-e92e1f4bd388" class=""><strong>7. 
-KHÁCH GÂY MẤT TẬP TRUNG KÉO DÀI</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806f-adf0-f74a44e06ce1" class="bulleted-list"><li style="list-style-type:disc">📢 La hét liên tục</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8019-9203-f671d28ab227" class="bulleted-list"><li style="list-style-type:disc">👋 Đập vào ghế tài xế</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8066-928f-f5931a2866ae" class="bulleted-list"><li style="list-style-type:disc">🎭 Hành vi kích động<br/>→ <strong>NGUY CƠ MẤT KIỂM SOÁT TAY LÁI</strong> - dừng xe an toàn ngay!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a1-867e-f7f41ff1934b" class=""><strong>8. 
-VA CHẠM GIAO THÔNG (DÙ NHẸ)</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8073-9b1b-fac0ff505091" class="bulleted-list"><li style="list-style-type:disc">🛵 Trầy xước nhẹ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800f-a4cd-c6f1fb0400ce" class="bulleted-list"><li style="list-style-type:disc">🚗 Va quẹt nhỏ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ed-9d05-c00d7188b769" class="bulleted-list"><li style="list-style-type:disc">🚦 Tai nạn nhẹ<br/>→ <strong>BẮT BUỘC BÁO HỆ THỐNG</strong> để ghi nhận &amp; 
-xử lý đúng quy trình!</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8085-af89-eba22f8cee6e"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805b-a70e-d8cac0156769" class=""><strong>💎 QUY TRÌNH 3 BƯỚC VÀNG XỬ LÝ KHỦNG HOẢNG (6 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8048-917c-e6348eebc907" class=""><strong>BƯỚC 1: BÁO ĐIỀU PHỐI NGAY - &quot;1 CÂU 5 GIÂY&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8017-af95-e3660d78ce6a" class=""><em>Câu thần chú của cao thủ:</em><br/>✅ <strong>&quot;Em gặp tình huống nguy hiểm cấp độ 2, cần hỗ trợ ngay!&quot;</strong><br/>✅ <strong>&quot;Xe có va chạm nhẹ, 
-em báo để xử lý theo quy trình!&quot;</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800f-8548-dd8d7ee28a66" class=""><em>Nguyên tắc vàng:</em> <strong>KHÔNG kể chuyện dài</strong> - điều phối sẽ hỏi thêm nếu cần!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e3-b8c3-e5211872d600" class=""><strong>BƯỚC 2: CHỈ ĐẠO HỆ THỐNG - KHÔNG TỰ Ý HÀNH ĐỘNG</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803d-8ab4-ff2ffb9368ab" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG</strong> cãi nhau với khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808a-87ac-ca55497a8765" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG</strong> tự ý ghi hình (trừ tự vệ)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806a-9b5b-f221281bad85" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG</strong> đuổi khách xuống xe</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808e-b610-e36c43f83a10" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG</strong> xử lý theo cảm tính</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805d-bedb-d282bf1d1194" class=""><em>Bí kíp Bolt:</em> <strong>Tài xế không tự leo thang - để hệ thống hỗ trợ!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8076-b63e-e38a5fb488d2" class=""><strong>BƯỚC 3: GHI NHẬN DỮ LIỆU - MINH BẠCH TUYỆT ĐỐI</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800e-9a22-c8b3095fd3fb" class="bulleted-list"><li style="list-style-type:disc">📸 Chụp ảnh hiện trường, hư hại</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ee-8d1d-d4779f472425" class="bulleted-list"><li style="list-style-type:disc">🕒 Ghi rõ giờ, 
-vị trí chính xác</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803a-b45d-e158d11cdf64" class="bulleted-list"><li style="list-style-type:disc">📱 Cập nhật tình huống lên app</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801e-a984-e3b5bf3457db" class="bulleted-list"><li style="list-style-type:disc">⚠️ Báo điểm đón có rủi ro cho tài xế khác</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8082-90ae-d6da1bc5d26a" class=""><em>Mục tiêu tối thượng:</em> <strong>BẢO VỆ BẠN khỏi khiếu nại sai!</strong></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8042-befb-de9df035fc48"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809f-840b-cf8e5046512a" class=""><strong>🎭 3 TÌNH HUỐNG THỰC CHIẾN CẤP TỐC (2 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8052-9f17-f49c1b53602e" class=""><strong>TÌNH HUỐNG 1:</strong> Khách say mở cửa giữa đường<br/>➤ <strong>XỬ LÝ ĐỈNH CAO:</strong><em>Giảm tốc → Dừng an toàn → Báo điều phối: &quot;Khách say Level 3 đang cố mở cửa!&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80da-880c-d0171754d286" class=""><strong>TÌNH HUỐNG 2:</strong> Khách la hét, chửi bới<br/>➤ <strong>GIẢI PHÁP VÀNG:</strong><em>Không đáp trả → Giữ khoảng cách → Báo: &quot;Khách có hành vi đe dọa, cần hỗ trợ an ninh!&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fd-936f-fa58219a5b02" class=""><strong>TÌNH HUỐNG 3:</strong> Va quẹt nhẹ xe máy<br/>➤ <strong>XỬ LÝ THÔNG MINH:</strong><em>Dừng xe → Bật cảnh báo → Chụp ảnh → Báo: &quot;Va chạm nhẹ, 
-cần hướng dẫn xử lý!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80b2-9221-f0c7ffa02073"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a1-8cec-f587963fd1af" class=""><strong>💫 KẾT THÚC TRÀN ĐẦY SỨC MẠNH (30 GIÂY)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ab-b7bb-c5f7c5b6e898" class="">&quot;Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803d-84b9-d80323c6f97d" class="">Điều phối không chỉ để xử lý giấy tờ - mà là VỊ CỨU TINH CỦA BẠN trong mọi tình huống nguy hiểm!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800b-91a0-f21e5d69a5a1" class="">Hãy nhớ kỹ: Khi bạn tuân thủ 3 bước vàng này, bạn không chỉ bảo vệ chính mình - mà còn đang VIẾT NÊN TIÊU CHUẨN AN TOÀN ĐẲNG CẤP QUỐC TẾ!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8058-a428-c64f598876a2" class="">Unipower LUÔN Ở ĐÂY để hỗ trợ bạn - vì sự an toàn của bạn là GIÁ TRỊ CỐT LÕI của chúng ta! ❤️🚗 Hãy lái xe an toàn và TỎA SÁNG, những BẬC THẦY XỬ LÝ KHỦNG HOẢNG! 🌟&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8092-a66b-c1d7f4bc787f"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-8034-b7ac-e2fabe3ab660" class=""><strong>8. 
-Kỷ luật ngôn từ (15 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808d-bd6a-d9a6f8c9208c" class=""><strong>🎯 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH &quot;BẬC THẦY GIAO TIẾP&quot; - CHUYÊN NGHIỆP, AN TOÀN &amp; ĐẲNG CẤP QUỐC TẾ! 🌟</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a4-9b68-cf75449b4df7" class=""><strong>🔥 MỤC TIÊU ĐỘT PHÁ</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f1-8bde-ea93e58a6e1c" class="bulleted-list"><li style="list-style-type:disc"><strong>Làm chủ</strong> nghệ thuật giao tiếp TRUNG LẬP - KHÔNG KÍCH ĐỘNG</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d7-9f74-e2ecd299aa6f" class="bulleted-list"><li style="list-style-type:disc"><strong>Tránh 100%</strong> xung đột không cần thiết từ ngôn từ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8090-8172-e0f344a0113b" class="bulleted-list"><li style="list-style-type:disc"><strong>Xây dựng</strong> hình ảnh tài xế Unitaxi VĂN MINH - CHUYÊN NGHIỆP</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80bf-838d-f330e36a0a24"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c5-92b4-f2f36282c2ac" class=""><strong>💎 5 NGUYÊN TẮC VÀNG &quot;KHÔNG BAO GIỜ PHÁ VỠ&quot; (5 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e1-9ace-c7117bea894d" class=""><strong>1. 
-🚫 TUYỆT ĐỐI KHÔNG NÓI TỤC - CHỬI THỀ</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b2-b841-c0d84ebb4de0" class="bulleted-list"><li style="list-style-type:disc">Tạo cảm giác ĐE DỌA &amp; MẤT AN TOÀN</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-802d-9640-d1c49aa825ed" class="bulleted-list"><li style="list-style-type:disc">Ảnh hưởng trực tiếp đến ĐÁNH GIÁ và UY TÍN</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8033-9466-f4e5bc1bfc52" class=""><strong>2. 🚫 KHÔNG ĐÙA NHẠY CẢM</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8017-a649-e9d1a01058cd" class="bulleted-list"><li style="list-style-type:disc">❌ Ngoại hình, cân nặng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c5-a6fc-c5d506284cc9" class="bulleted-list"><li style="list-style-type:disc">❌ Giới tính, xu hướng tình dục</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c9-9981-e070a53bb966" class="bulleted-list"><li style="list-style-type:disc">❌ Vùng miền, địa phương</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8077-8cc5-c13c1ddc113d" class="bulleted-list"><li style="list-style-type:disc">❌ Tôn giáo, chính trị</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80df-a41b-eb9f57abda25" class=""><em>Hậu quả:</em> Đánh giá 1 sao NGAY LẬP TỨC!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8037-a9b8-cc56dc24af4a" class=""><strong>3. 
-🚫 KHÔNG &quot;DẠY ĐỜI&quot; - LÀM THẦY ĐỜI</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c2-a076-da563325f096" class="bulleted-list"><li style="list-style-type:disc">❌ &quot;Anh/chị nên làm thế này...&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805d-bc14-e748940fe91a" class="bulleted-list"><li style="list-style-type:disc">❌ &quot;Để tôi chỉ cho...&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8046-9dd4-c02026b11deb" class="bulleted-list"><li style="list-style-type:disc">❌ &quot;Như vậy là sai rồi!&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801f-bcd4-ee5f3c6c8c0f" class=""><em>Tác hại:</em> Tạo thế ĐỐI ĐẦU - Mất thiện cảm NGAY LẬP TỨC!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809e-8289-c73591dbc1c1" class=""><strong>4. 🚫 KHÔNG XỚI MÓI CHUYỆN RIÊNG TƯ</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803b-8697-c3b170ba49a4" class="bulleted-list"><li style="list-style-type:disc">💼 Thu nhập, lương bổng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a9-ba4c-ef644474e447" class="bulleted-list"><li style="list-style-type:disc">👨‍👩‍👧‍👦 Hôn nhân, gia đình</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b2-a213-e192a272a08c" class="bulleted-list"><li style="list-style-type:disc">🏥 Tình trạng sức khỏe</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f9-be35-e5ca693dee30" class=""><em>Chuẩn quốc tế:</em> Đây là &quot;HÀNH VI XÂM PHẠM&quot; cần TRÁNH!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e1-aaa8-e80fe6656f34" class=""><strong>5. 
-🚫 KHÔNG PHÁN XÉT - ĐÁNH GIÁ</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f7-85b1-cae66c5ce877" class="bulleted-list"><li style="list-style-type:disc">👕 Trang phục, ngoại hình</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8036-96c8-e816ef3d45ee" class="bulleted-list"><li style="list-style-type:disc">🗣️ Giọng nói, phương ngữ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805e-8099-d2a724384660" class="bulleted-list"><li style="list-style-type:disc">💼 Nghề nghiệp, công việc</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8045-a21f-c69ff7769ddc" class=""><em>Nguyên tắc:</em> MỖI HÀNH KHÁCH ĐỀU XỨNG ĐÁNG ĐƯỢC TÔN TRỌNG!</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8004-8959-c8299e635f49"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807e-b8f6-dd802b66c21a" class=""><strong>🚨 6 CÂU &quot;CẤM KỴ&quot; - TUYỆT ĐỐI KHÔNG BAO GIỜ NÓI! (5 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-803a-9411-e98ef02caebd" class="numbered-list" start="1"><li>❌ <strong>&quot;Anh uống nhiều quá ha?&quot;</strong><br/>→ Kích động khách say</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-800c-80f5-e4e473acd0d9" class="numbered-list" start="2"><li>❌ <strong>&quot;Bé mập dễ thương ghê!&quot;</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8057-9ae4-d7ce7a3c968a" class="">→ Xúc phạm ngoại hình</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8073-9233-c6b76709d7b5" class="numbered-list" start="3"><li>❌ <strong>&quot;Người miền ... 
-hay nóng tính lắm!&quot;</strong><br/>→ Kỳ thị vùng miền</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8011-99bb-c4fe6b8b647f" class="numbered-list" start="4"><li>❌ <strong>&quot;Đi taxi hoài chắc giàu lắm?&quot;</strong><br/>→ Xâm phạm tài chính</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8007-8fe2-df441adc298d" class="numbered-list" start="5"><li>❌ <strong>&quot;Làm nghề đó chắc vất vả lắm?&quot;</strong><br/>→ Đánh giá nghề nghiệp</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-807c-b4f5-e9dbdc9abff5" class="numbered-list" start="6"><li>❌ <strong>&quot;Chồng/chị đâu rồi?&quot;</strong><br/>→ Xâm phạm đời tư</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8039-a798-ef8889a4fdf3" class=""><strong>⚠️ ĐÂY LÀ 6 ĐIỀU &quot;CẤM TOÀN CẦU&quot; TRONG NGÀNH VẬN TẢI!</strong></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-803d-a275-d64b363b55d5"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fa-8e67-d852b19bda2f" class=""><strong>🛡️ 4 NHÓM CÂU &quot;BẤT BẠI&quot; 
-- DÙNG MỌI TÌNH HUỐNG (5 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bf-b00d-ea8ab4ba9f87" class=""><strong>NHÓM 1: CÂU XÁC NHẬN TRUNG LẬP</strong><br/>✅ <strong>&quot;Dạ em hiểu.&quot;</strong><br/>✅ <strong>&quot;Dạ đúng rồi ạ.&quot;</strong><em>→ Luôn an toàn, không sai được!</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8025-b7fc-e73a2a19d2df" class=""><strong>NHÓM 2: CÂU XỬ LÝ LÀM DỊU</strong><br/>✅ <strong>&quot;Để em kiểm tra giúp ạ.&quot;</strong><br/>✅ <strong>&quot;Em xử lý ngay đây.&quot;</strong><em>→ Giảm 50% căng thẳng ngay lập tức!</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d8-897e-ccaccd6e365f" class=""><strong>NHÓM 3: CÂU ĐỊNH HƯỚNG THÔNG MINH</strong><br/>✅ <strong>&quot;Mình đi đường này sẽ AN TOÀN hơn ạ.&quot;</strong><br/>✅ <strong>&quot;Hướng này giúp mình TRÁNH KẸT tốt hơn.&quot;</strong><em>→ Tập trung vào LỢI ÍCH, không tranh cãi!</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bb-9ce7-dfea6c0317fe" class=""><strong>NHÓM 4: CÂU HỖ TRỢ CHUYÊN NGHIỆP</strong><br/>✅ <strong>&quot;Em hỗ trợ ngay cho mình.&quot;</strong><br/>✅ <strong>&quot;Anh/chị yên tâm, em lo phần này.&quot;</strong><em>→ Xây dựng NIỀM TIN &amp; SỰ AN TÂM!</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80a0-8e38-c2068118f995"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ca-a81b-d2fc8fa68818" class=""><strong>🎭 LUYỆN TẬP THỰC CHIẾN - 3 TÌNH HUỐNG &quot;KHÓ NHẰN&quot; 
-(2 PHÚT)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a7-b2b1-cf8c9baab7ba" class=""><strong>TÌNH HUỐNG 1:</strong> Khách nóng tính phàn nàn về tuyến đường<br/>➤ <strong>CÂU TRẢ LỜI VÀNG:</strong><em>&quot;Dạ em hiểu, em đang chọn tuyến TỐI ƯU nhất cho mình ạ!&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8000-9e32-da80e15fc784" class=""><strong>TÌNH HUỐNG 2:</strong> Khách sai điểm đón, đổ lỗi cho tài xế<br/>➤ <strong>GIẢI PHÁP THÔNG MINH:</strong><em>&quot;Dạ để em KIỂM TRA và ĐIỀU CHỈNH ngay cho mình ạ!&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f3-b167-e04b63bf2655" class=""><strong>TÌNH HUỐNG 3:</strong> Khách liên tục phàn nàn về giá cước<br/>➤ <strong>XỬ LÝ CHUYÊN NGHIỆP:</strong><em>&quot;Dạ em HIỂU, em sẽ CẬP NHẬT thông tin đầy đủ cho mình ạ!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8008-b0ee-d49147d177e0"/></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807c-8ffe-f52467d09447" class=""><strong>💫 KẾT THÚC ĐẦY CẢM HỨNG (30 GIÂY)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c0-90d9-f98ceb7089b4" class="">&quot;Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ab-9f30-e095fc88b089" class="">Kỷ luật ngôn từ KHÔNG PHẢI là gò bó - mà là VŨ KHÍ MẠNH NHẤT để bảo vệ chính bạn và xây dựng hình ảnh Unitaxi ĐẲNG CẤP!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f0-9a6c-dc33b1cbd309" class="">Mỗi câu nói đúng chuẩn của bạn hôm nay đang viết nên câu chuyện về một nền vận tải VĂN MINH - TÔN TRỌNG - CHUYÊN NGHIỆP!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8077-8e8f-cc91eceb7bbf" class="">Hãy là những ĐẠI SỨ NGÔN TỪ - mang đến trải nghiệm TUYỆT VỜI nhất cho mỗi hành khách! 🌟🚗 Unipower TỰ HÀO vì có bạn! 
-❤️&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8041-a237-dea2432a0c80"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-80d5-9a5a-fb2854e9ca57" class=""><strong>10. Role-play 10 tình huống thực tế (25 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8059-b590-daaf5ee37f73" class=""><strong>🎯 25 PHÚT NÀY SẼ BIẾN BẠN THÀNH &quot;BẬC THẦY XỬ LÝ TÌNH HUỐNG&quot; - PHẢN XẠ NHANH NHẠY &amp; CHUYÊN NGHIỆP ĐẲNG CẤP QUỐC TẾ! 🌟</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8076-96c7-ea2d7e73319e" class=""><strong>🔥 MỤC TIÊU TỐI THƯỢNG</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8042-a53a-c26191b905cb" class="bulleted-list"><li style="list-style-type:disc"><strong>Rèn luyện</strong> phản xạ TỰ NHIÊN trong 10 tình huống &quot;khó nhằn&quot; nhất</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8023-ae8a-c894e9fcc8e4" class="bulleted-list"><li style="list-style-type:disc"><strong>Xây dựng</strong> thói quen sử dụng ngôn từ VÀNG &amp; hành vi AN TOÀN</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8004-9898-f81e5dc4e206" class="bulleted-list"><li style="list-style-type:disc"><strong>Trở thành</strong> tài xế Unitaxi ĐẲNG CẤP - bình tĩnh trước mọi thử thách</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8013-9abc-e1bca13fd8da"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-807c-bdaf-c5528fc6e301" class=""><strong>🎭 10 TÌNH HUỐNG THỰC TẾ &quot;CÓ THẬT 100%&quot;</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8084-a7ff-daf30ca0b961" class=""><strong>1. 
-KHÁCH SAI ĐIỂM ĐÓN - XỬ LÝ &quot;MƯỢT NHƯ NHUNG&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8027-9845-ee83aaf9e890" class=""><strong>Mục tiêu:</strong> Giải thích ngắn gọn - không làm khách ngại ngùng</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-8030-b5c8-d33f495ad0de" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Dạ để em xác nhận lại, anh/chị đang ở cổng A hay cổng B ạ?&quot;
-✅ HÀNH ĐỘNG: Dừng xe an toàn, mở app kiểm tra
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-800f-bab1-e36648b00837" class=""><strong>2. KHÁCH LA MẮNG - &quot;HẠ NHIỆT&quot; TRONG 5 GIÂY</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8042-a9d6-c1b8d7f26d5b" class=""><strong>Mục tiêu:</strong> Dập tắt căng thẳng ngay lập tức</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-8002-a4e3-dd37d5f37a99" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Dạ em hiểu, để em kiểm tra ngay ạ.&quot;
-✅ HÀNH ĐỘNG: Giữ giọng thấp, tay nắm vô-lăng, không quay lại
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-808a-b695-eab1d0630c2e" class=""><strong>3. YÊU CẦU ĐƯỜNG NGUY HIỂM - BẢO VỆ AN TOÀN</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8084-9210-c57cf0535fd8" class=""><strong>Mục tiêu:</strong> Từ chối khéo mà vẫn giữ thiện cảm</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-80de-aa61-cca1c257df75" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Đường đó hiện không an toàn, mình đi hướng này sẽ NHANH và AN TOÀN hơn ạ.&quot;
-✅ HÀNH ĐỘNG: Tiếp tục lái xe ổn định, không dao động
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80e2-b060-cf562963a5d5" class=""><strong>4. KHÁCH SAY XỈN - KIỂM SOÁT &quot;KHÔNG TRANH LUẬN&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807f-ba83-e91c12bf627e" class=""><strong>Mục tiêu:</strong> Đưa khách về an toàn mà không xung đột</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-804a-8c7b-e421c486bb8d" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Anh/chị ngồi vững giúp em nhé, mình sắp tới nơi rồi ạ.&quot;
-✅ HÀNH ĐỘNG: Bật khóa cửa trẻ em, quan sát gương liên tục
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8039-8aab-cd9de7fe9a9f" class=""><strong>5. KHÁCH ĐE DỌA - KÍCH HOẠT &quot;CHẾ ĐỘ BẢO MẬT&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8023-899d-f17be5658a87" class=""><strong>Mục tiêu:</strong> Bảo vệ bản thân ngay lập tức</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-80f4-8d38-ea0928146809" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Dạ để em gọi điều phối hỗ trợ ngay ạ.&quot;
-✅ HÀNH ĐỘNG: Dừng xe nơi đông người, bấm nút khẩn cấp trên app
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8062-bf5b-c5737c6215f8" class=""><strong>6. KHÁCH BẮT BẤM CÒI - TUÂN THỦ LUẬT GIAO THÔNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8004-9e4a-eb6c13c350b8" class=""><strong>Mục tiêu:</strong> Giải thích đúng luật mà không gây khó chịu</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-8073-a161-deaba2ed5de6" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Đường này em hạn chế còi để tránh ảnh hưởng mọi người, mình vẫn đi kịp ạ.&quot;
-✅ HÀNH ĐỘNG: Duy trì tốc độ ổn định, bật đèn ưu tiên nếu cần
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8007-b4b6-c645afb0ade3" class=""><strong>7. YÊU CẦU NHẠC LỚN - GIỮ TẬP TRUNG LÁI XE</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f5-afad-c9fde2192448" class=""><strong>Mục tiêu:</strong> Đảm bảo an toàn mà vẫn tôn trọng khách</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-8007-875d-ff08016f6e15" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Em mở nhạc nhẹ thôi cho mình lái xe an toàn hơn ạ.&quot;
-✅ HÀNH ĐỘNG: Chỉnh âm lượng vừa phải, chọn kênh nhạc nhẹ
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80e1-a36b-c057eacf38ad" class=""><strong>8. CÔNG KÍCH CÁ NHÂN - &quot;IM LẶNG LÀ VÀNG&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8042-860b-d7dfa0f4e41f" class=""><strong>Mục tiêu:</strong> Bảo vệ hình ảnh bản thân và Unitaxi</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-8054-8167-da2b9425581d" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Dạ em hiểu, để em tập trung lái cho an toàn ạ.&quot;
-✅ HÀNH ĐỘNG: Mắt nhìn đường, không phản ứng, không biểu cảm
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80b7-afb7-ca3131efd181" class=""><strong>9. YÊU CẦU VƯỢT ĐÈN VÀNG - TUYỆT ĐỐI KHÔNG VI PHẠM</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806f-a830-e9877f91939d" class=""><strong>Mục tiêu:</strong> An toàn là trên hết</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-803d-8363-e2023c2cf178" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Em dừng lại cho an toàn anh/chị nhé.&quot;
-✅ HÀNH ĐỘNG: Dừng xe đúng vạch, giữ bình tĩnh
-</code></pre></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8005-b863-d0ed491e7333" class=""><strong>10. YÊU CẦU DỪNG GIỮA ĐƯỜNG - KIÊN QUYẾT TỪ CHỐI</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8006-88cd-df17dbf9a925" class=""><strong>Mục tiêu:</strong> Đưa khách đến điểm an toàn</p></div><div style="display:contents" dir="auto"><script src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/prism.min.js" integrity="sha512-7Z9J3l1+EYfeaPKcGXu3MS/7T+w19WtKQY/n+xzmw4hZhJ9tyYmcUS+4QqAlzhicE5LAfMQSF3iFTK9bQdTxXg==" crossorigin="anonymous" referrerPolicy="no-referrer"></script><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.29.0/themes/prism.min.css" integrity="sha512-tN7Ec6zAFaVSG3TpNAKtk4DOHNpSwKHxxrsiw4GHKESGPs5njn/0sMCUMl2svV4wo4BK/rCP7juYz+zx+l6oeQ==" crossorigin="anonymous" referrerPolicy="no-referrer"/><pre id="2b1c5e6f-95bd-801b-9d41-c2fe471c108a" class="code code-wrap"><code class="language-Plain Text" style="white-space:pre-wrap;word-break:break-all">✅ CÂU VÀNG: &quot;Chỗ này chưa an toàn, để em đỗ sát lề cho mình xuống nhé.&quot;
-✅ HÀNH ĐỘNG: Tìm điểm dừng hợp lệ, bật đèn báo hiệu
-</code></pre></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8026-b5b0-dcffd97a214f"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8066-950e-da771dde2da9" class=""><strong>🎯 CÔNG THỨC HUẤN LUYỆN ROLE-PLAY ĐỈNH CAO (5 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8008-aefa-f2130e565aea" class=""><strong>THIẾT LẬP NHÓM THÔNG MINH</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bf-a92d-cb26dc98c313" class="bulleted-list"><li style="list-style-type:disc">👨‍✈️ <strong>1 Tài xế</strong> - Thực hành kỹ năng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804d-9d64-d131e3be60ec" class="bulleted-list"><li style="list-style-type:disc">😠 <strong>1 Khách khó tính</strong> - Diễn cảm xúc chân thật</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8072-bbda-dd2df6d2a974" class="bulleted-list"><li style="list-style-type:disc">👀 <strong>1 Quan sát viên</strong> - Đánh giá khách quan</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8027-b153-ca278f6f2c71" class=""><strong>QUY TRÌNH 90 GIÂY &quot;THỰC CHIẾN&quot;</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8005-9920-f4b94368edc8" class="numbered-list" start="1"><li><strong>📢 Giảng viên đọc tình huống</strong> - Mô tả chi tiết, 
-cảm xúc</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ad-981f-d3d636052b88" class="numbered-list" start="2"><li><strong>🎭 Khách diễn xuất</strong> - Giận dữ/ Say xỉn/ Thúc giục</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8032-9e48-c980c4fad0e3" class="numbered-list" start="3"><li><strong>🚗 Tài xế phản ứng</strong> - 1 câu vàng + 1 hành động an toàn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-806f-a77b-ee64059f84b4" class="numbered-list" start="4"><li><strong>📊 Quan sát viên chấm điểm</strong> - 3 tiêu chí vàng</li></ol></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8053-8b7c-c6d5171a535f" class=""><strong>TIÊU CHÍ ĐÁNH GIÁ &quot;3 VÀNG&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f7-bb8e-d1d0518204f7" class=""><strong>🎙️ GIỌNG NÓI AN TOÀN</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8032-bdd4-f7e00eca958d" class="bulleted-list"><li style="list-style-type:disc">🔊 Không cao giọng, không hằn học</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-802e-a97e-ca430d41751a" class="bulleted-list"><li style="list-style-type:disc">🐢 Tốc độ chậm hơn 20% khi căng thẳng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801a-a52b-c5b688f6ef80" class="bulleted-list"><li style="list-style-type:disc">❌ Không cắt lời, 
-không tranh luận</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804e-a720-e5dd6f8b5c6d" class=""><strong>🛡️ XỬ LÝ ĐÚNG CHUẨN</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8043-99f5-ddc382b0774f" class="bulleted-list"><li style="list-style-type:disc">🎯 Chỉ 1 câu giải thích</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8096-96b0-f0b82013fa65" class="bulleted-list"><li style="list-style-type:disc">🤝 Không chạy theo cảm xúc khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c5-bd67-caf926a0e43a" class="bulleted-list"><li style="list-style-type:disc">🚗 Ưu tiên AN TOÀN trên hết</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ff-8cc3-ef291463eb1a" class=""><strong>💼 TINH THẦN CHUYÊN NGHIỆP</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ab-bae7-d288700fb279" class="bulleted-list"><li style="list-style-type:disc">😐 Mặt bình tĩnh, không nhăn nhó</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b8-a64a-d4d7362f8141" class="bulleted-list"><li style="list-style-type:disc">🙅 Không thở dài, 
-không lắc đầu</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8071-a9cb-ee3489ef421e" class="bulleted-list"><li style="list-style-type:disc">🎯 Tập trung vào GIẢI PHÁP</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-802c-8a43-d789ac371a0e"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80d6-aa8f-f399265a62ee" class=""><strong>💫 KẾT THÚC TRÀN ĐẦY NĂNG LƯỢNG (30 GIÂY)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c0-9b02-faa59ebc5ff1" class="">&quot;Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8072-a99d-e49a97987fca" class="">Mỗi lần thực hành role-play hôm nay chính là trang bị CHO CHÍNH BẠN mạng sống và sự nghiệp!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8020-a73c-d82e02627523" class="">Hãy nhớ: Phản xạ NHANH - Ứng xử KHÉO - Giữ bình tĩnh TUYỆT ĐỐI là ba chìa khóa vàng biến bạn thành TÀI XẾ ĐẲNG CẤP QUỐC TẾ!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b5-86e5-e17f353657e0" class="">Unipower TỰ HÀO đồng hành cùng bạn trên mọi nẻo đường! ❤️🚗</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8055-8ac2-e4f5f4383410" class="">Hãy ra đường và TỎA SÁNG, những BẬC THẦY XỬ LÝ TÌNH HUỐNG! 🌟&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80d0-88a7-f1f85a6049f1"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80a9-a6a2-d2336ff5dcc8" class=""><strong>📘 5. 
-HỆ THỐNG CÔNG NGHỆ UNITAXI (3 GIỜ)</strong></h1></div><div style="display:contents" dir="ltr"><table id="2aec5e6f-95bd-80f8-8740-c4971ca4c486" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8060-8cd9-ca7dfef82894"><th id="cAq`" class="simple-table-header-color simple-table-header"><strong>Mục</strong></th><th id="eOXq" class="simple-table-header-color simple-table-header"><strong>Nội dung chi tiết</strong></th><th id="Snvv" class="simple-table-header-color simple-table-header"><strong>Chuẩn quốc tế đối chiếu</strong></th><th id="qSSi" class="simple-table-header-color simple-table-header"><strong>Thời lượng</strong></th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80a1-b750-e396c7411a17"><td id="cAq`" class=""><strong>1. Tổng quan hệ thống Unitaxi</strong></td><td id="eOXq" class="">App tài xế – điều phối – giám sát xe – giám sát trạm</td><td id="Snvv" class="">Cấu trúc tương tự Uber Fleet</td><td id="qSSi" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8005-be5a-daee18050be6"><td id="cAq`" class=""><strong>2. Driver App – 8 tính năng quan trọng</strong></td><td id="eOXq" class="">Nhận cuốc, báo lỗi, ghi chú điểm đón, tình trạng xe…</td><td id="Snvv" class="">Chuẩn Rider-Driver Sync của Lyft</td><td id="qSSi" class="">30’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80be-957b-e5ebf5ea6289"><td id="cAq`" class=""><strong>3. Dashboard điều phối</strong></td><td id="eOXq" class="">Luồng xử lý cuốc – phân tuyến – xử lý khiếu nại</td><td id="Snvv" class="">Grab Ops Playbook</td><td id="qSSi" class="">25’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8073-af6c-d788bc49f278"><td id="cAq`" class=""><strong>4. 
-Giám sát xe &amp; trạm</strong></td><td id="eOXq" class="">Cách đọc biểu tượng lỗi – cách báo sự cố pin, AC, DC</td><td id="Snvv" class="">ComfortDelGro EV Fleet Standard</td><td id="qSSi" class="">25’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-801d-ac24-e86e8fe4eded"><td id="cAq`" class=""><strong>5. Cách báo lỗi đúng quy trình</strong></td><td id="eOXq" class="">Không báo miệng – phải qua hệ thống – minh bạch</td><td id="Snvv" class="">Singapore Transport Authority SOP</td><td id="qSSi" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80d4-a292-f69f6f86d8fb"><td id="cAq`" class=""><strong>6. Ghi nhận dữ liệu &amp; báo cáo</strong></td><td id="eOXq" class="">6 loại dữ liệu cần nhập – lưu vết sự cố</td><td id="Snvv" class="">Tiêu chuẩn dữ liệu Bolt</td><td id="qSSi" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8087-9528-d772ea9e2abb"><td id="cAq`" class=""><strong>7. Luồng xử lý khi xảy ra lỗi kỹ thuật</strong></td><td id="eOXq" class="">Ai xử lý – trong bao lâu – tài xế phải làm gì</td><td id="Snvv" class="">Quy trình 3 cấp của Uber</td><td id="qSSi" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80b9-9e1f-cb8e275f89d3"><td id="cAq`" class=""><strong>8. Bài tập thực hành</strong></td><td id="eOXq" class="">Giả lập: mất GPS – lỗi pin – lỗi điều hòa – sai km</td><td id="Snvv" class="">Đánh giá tại lớp</td><td id="qSSi" class="">25’</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-8019-a033-c5b08aa1f8be" class=""><strong>1. 
-Mục tiêu của buổi học</strong></h2></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8019-b091-dc35feab9e69" class="">Sau 3 giờ, học viên phải:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8066-9af6-dcddb615ed57" class="bulleted-list"><li style="list-style-type:disc">Hiểu toàn bộ công cụ đang dùng hằng ngày.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80e0-865a-c9db714bd083" class="bulleted-list"><li style="list-style-type:disc">Nắm được “luồng vận hành” từ khi nhận ca → nhận chuyến → trả khách → báo cáo.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8025-ad4c-e631a08623a8" class="bulleted-list"><li style="list-style-type:disc">Biết ghi nhận sự cố, lỗi, phản hồi đúng chuẩn.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80b5-8418-d90f0691548c" class="bulleted-list"><li style="list-style-type:disc">Không xử lý “miệng”, không làm ngoài hệ thống.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80dc-96d9-c9000332d091" class="bulleted-list"><li style="list-style-type:disc">Biết bảo vệ dữ liệu, bảo vệ tài khoản, tránh lỗi vi phạm.</li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8011-a196-f0eeac9ab7c5"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80c3-b21e-ebf9c3b14f39" class=""><strong>I. 
-TỔNG QUAN HỆ THỐNG UNITAXI (20 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807a-9d04-e8593e59405e" class=""><strong>🎯 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH &quot;BẬC THẦY SỬ DỤNG APP&quot; - THAO TÁC NHANH GỌN &amp; CHUYÊN NGHIỆP! 🚀</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8078-9af6-f93188adf699" class=""><strong>🔥 MỤC TIÊU ĐỘT PHÁ</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8087-a7de-e6058e19032a" class="bulleted-list"><li style="list-style-type:disc"><strong>Làm chủ</strong> 6 màn hình QUAN TRỌNG NHẤT trong Driver App</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ce-9751-e7a607633e5b" class="bulleted-list"><li style="list-style-type:disc"><strong>Thao tác</strong> nhuần nhuyễn - không sai sót - không mất cuốc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c2-8f30-d7e4b76ba702" class="bulleted-list"><li style="list-style-type:disc"><strong>Tránh</strong> 100% lỗi phổ biến gây mất tiền, giảm rating</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80b1-b62d-e7c5989fdada"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80d3-8167-f4f613664401" class=""><strong>📱 6 MÀN HÌNH &quot;SINH TỬ&quot; MỖI NGÀY</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8022-9dd0-e03b1701279d" class=""><strong>⏱ 0-3 PHÚT - GIỚI THIỆU TỔNG QUAN</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800d-b775-cab9be21a511" class="">&quot;Chào các anh chị! 
-Đây chính là &#x27;VŨ KHÍ TỐI THƯỢNG&#x27; của chúng ta - Driver App Unitaxi!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800f-ad3a-dc25d5528598" class="">Hôm nay chúng ta sẽ cùng nhau CHINH PHỤC 6 màn hình QUAN TRỌNG NHẤT:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80cd-9bdf-c5859608e152" class="numbered-list" start="1"><li>🗺️ <strong>Bản đồ chính</strong> - &#x27;Đôi mắt&#x27; của hệ thống</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-806d-aa43-f5fac6cc322d" class="numbered-list" start="2"><li>✅ <strong>Nhận/từ chối cuốc</strong> - &#x27;Trái tim&#x27; của thu nhập</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-805f-b42a-ead040a565f8" class="numbered-list" start="3"><li>🧭 <strong>Điều hướng</strong> - &#x27;Người dẫn đường&#x27; thông thái</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d8-b2d1-d63df3486445" class="numbered-list" start="4"><li>🚦 <strong>Bắt đầu cuốc</strong> - &#x27;Công tắc&#x27; kiếm tiền</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-802e-b66c-d79280595f29" class="numbered-list" start="5"><li>🏁 <strong>Kết thúc cuốc</strong> - &#x27;Cái kết&#x27; hoàn hảo</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8002-9dbe-f0f44e6c4a5e" class="numbered-list" start="6"><li>💰 <strong>Thu nhập</strong> - &#x27;Thành quả&#x27; xứng đáng</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8059-8246-d393774fdf77" class="">Hãy cùng bắt đầu hành trình CHINH PHỤC CÔNG NGHỆ!&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80db-a3c6-ed38d3a91de2"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80ff-b264-e8620d558461" class=""><strong>⏱ 3-6 PHÚT - MÀN HÌNH 1: BẢN ĐỒ - &quot;BỘ NÃO&quot; 
-HỆ THỐNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80be-8579-dad1161cdf92" class=""><strong>🎯 THÀNH PHẦN QUAN TRỌNG:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8093-875a-fe2784eb2a3c" class="bulleted-list"><li style="list-style-type:disc">📍 <strong>Vị trí hiện tại</strong> - GPS phải LUÔN BẬT</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-802c-aebd-d8aaa12ccd4a" class="bulleted-list"><li style="list-style-type:disc">🚗 <strong>Trạng thái xe</strong>: Rảnh/Đang đón/Đang chở</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8083-9eaa-e8694fba96af" class="bulleted-list"><li style="list-style-type:disc">🔥 <strong>Khu vực ưu tiên</strong> - Nơi &#x27;vàng&#x27; dễ có cuốc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8034-8b37-c29b4b8dd7f1" class="bulleted-list"><li style="list-style-type:disc">🔋 <strong>Pin điện thoại</strong> - Phải trên 20%</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a8-b07c-da0c173bdd90" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>Cảnh báo hệ thống</strong> - Đọc NGAY khi hiện</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809a-984b-e228c1cb7aa2" class=""><strong>🚨 LỖI &#x27;CHẾT NGƯỜI&#x27; 
-CẦN TRÁNH:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f6-9492-c8320431f406" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>Quên bật GPS</strong> → App định vị sai → MẤT CUỐC</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807d-9664-c0a8d4b176a0" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>Để pin yếu</strong> → Hệ thống TỰ ĐỘNG KHÓA CUỐC</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b0-9f70-f0f8ebb3f4ea" class=""><strong>💡 DEMO THỰC TẾ:</strong><em>Giảng viên thao tác trực tiếp: Bật/tắt GPS → Hiển thị sai vị trí → Giải thích hậu quả</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8043-8c30-fd6f0bf15a08"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-805d-a5a5-ccf608431f00" class=""><strong>⏱ 6-9 PHÚT - MÀN HÌNH 2: NHẬN CUỐC - &quot;3 GIÂY VÀNG&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806c-b70c-c09ee0424205" class=""><strong>📊 THÔNG TIN HIỂN THỊ:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8006-9c23-ea3d7b49abc0" class="bulleted-list"><li style="list-style-type:disc">📏 Khoảng cách đến khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8091-a6ca-db4ac79e85c1" class="bulleted-list"><li style="list-style-type:disc">🏠 Điểm đón - điểm trả</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b2-a326-ee1156937e58" class="bulleted-list"><li style="list-style-type:disc">⏰ Thời gian di chuyển</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809b-b465-fe5f551853f9" class="bulleted-list"><li style="list-style-type:disc">💵 Giá cuốc dự kiến</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801b-b3f5-c2b0fc71f47c" class="bulleted-list"><li style="list-style-type:disc">🎯 Loại cuốc (Thường/Sân b
-ay/Ưu tiên)</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80aa-a347-ecd776f6f112" class=""><strong>🎯 HAI THAO TÁC QUYẾT ĐỊNH:</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ac-9169-e7a43b0a4dc8" class=""><strong>1. NHẬN CUỐC - &quot;PHẢN XẠ 3 GIÂY&quot;</strong><br/>✅ <strong>Bấm NGAY</strong> trong 3 giây đầu<br/>✅ <strong>Kiểm tra nhanh</strong> điểm đón trong 1 giây</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ea-ab07-f5044cb47d00" class=""><strong>2. 
-TỪ CHỐI - &quot;LÝ DO CHÍNH ĐÁNG&quot;</strong><br/>✅ <strong>Phải chọn lý do</strong> để hệ thống HIỂU và TỐI ƯU</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808b-86b4-d32af87464ed" class=""><strong>📝 LÝ DO HỢP LỆ:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f0-909b-e78fb7a19a34" class="bulleted-list"><li style="list-style-type:disc">🚫 Đang ở khu vực khó quay đầu</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809e-bcfc-cbe72e168896" class="bulleted-list"><li style="list-style-type:disc">🚫 Xe đang bảo trì, sửa chữa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8029-999a-ee5ae0e785f1" class="bulleted-list"><li style="list-style-type:disc">🚫 Đang nghỉ giải lao, 
-vệ sinh</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e4-8544-d22ef80c0c93" class="bulleted-list"><li style="list-style-type:disc">🚫 Pin điện thoại dưới 15%</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8074-b980-c7383c0ef8df" class=""><strong>🚨 CẢNH BÁO QUAN TRỌNG:</strong><em>&quot;Từ chối liên tục → Hệ thống HIỂU NHẦM bạn không hoạt động → GIẢM ƯU TIÊN nhận cuốc!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8018-bd73-e4b1773f0aab"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-801d-868e-dc98acc61de1" class=""><strong>⏱ 9-11 PHÚT - MÀN HÌNH 3: ĐIỀU HƯỚNG - &quot;TRỢ LÝ THÔNG MINH&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807b-b8f1-ddf3bb7f9034" class=""><strong>🚀 SAU KHI NHẬN CUỐC:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8018-9e07-c27f6c050e9a" class="bulleted-list"><li style="list-style-type:disc">👉 Bấm <strong>&quot;Đi đến điểm đón&quot;</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80db-8448-d3dca6f5a6f4" class="bulleted-list"><li style="list-style-type:disc">🗺️ App tự động mở Google Maps/bản đồ nội bộ</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f3-8535-d4dacb277f03" class=""><strong>💡 TÍNH NĂNG THÔNG MINH:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8047-a153-d81707c683f1" class="bulleted-list"><li style="list-style-type:disc">🤖 <strong>AI tối ưu tuyến đường</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8081-a7ae-e454ccdc1709" class="bulleted-list"><li style="list-style-type:disc">🚦 <strong>Cảnh báo ùn tắc thời gian thực</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8074-af97-f21ca4481474" class="bulleted-list"><li style="list-style-type:disc">⏱️ <strong>Tính t
-oán chính xác</strong> thời gian đến</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ed-ab5f-fe05d47d6704" class=""><strong>⚠️ LƯU Ý AN TOÀN:</strong><em>&quot;TUYỆT ĐỐI không tự ý đi đường cấm/tắt nguy hiểm → GIẢM ĐIỂM AN TOÀN ngay lập tức!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8079-8763-d6ea38d3e57f"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-804f-a0d5-f6bf5fb752a8" class=""><strong>⏱ 11-13 PHÚT - MÀN HÌNH 4: BẮT ĐẦU CUỐC - &quot;CÔNG TẮC VÀNG&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804d-9be9-d30371fefbec" class=""><strong>🎯 QUY TRÌNH CHUẨN:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80c4-9228-ce40b97fa268" class="numbered-list" start="1"><li>✅ Khách lên xe → Bấm <strong>&quot;Bắt đầu cuốc&quot;</strong></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80af-a553-de18cad65b50" class="numbered-list" start="2"><li>✅ Kiểm tra điểm đến CHÍNH XÁC</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-801a-b520-fb127d29cfc4" class="numbered-list" start="3"><li>✅ Nhắc khách thắt dây an toàn</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803e-b509-ed3589f86ddd" class=""><strong>🚨 LỖI &quot;MẤT TIỀN OAN&quot;:</strong><em>&quot;QUÊN bấm Bắt đầu cuốc → Hệ thống KHÔNG tính tiền → MẤT TRẮNG chuyến đi!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-805f-9fb6-ec364a595d6d"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8030-bad6-cf11417ba748" class=""><strong>⏱ 13-14 PHÚT - MÀN HÌNH 5: KẾT THÚC - &quot;HOÀN HẢO ĐẾN GIÂY CUỐI&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8003-be15-fb9fdb0be5ab" class=""><strong>🎯 QUY TRÌNH CHUYÊN NGHIỆP:</strong></p></div><div style="display:contents" d
-ir="auto"><ul id="2b1c5e6f-95bd-80ef-aac0-eaf6eecc311c" class="bulleted-list"><li style="list-style-type:disc">🅿️ Dừng xe tại vị trí AN TOÀN</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803b-9c23-d26fcb645d41" class="bulleted-list"><li style="list-style-type:disc">📣 Nhắc khách kiểm tra đồ đạc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ed-9bcd-ed05d502bee4" class="bulleted-list"><li style="list-style-type:disc">👉 Bấm <strong>&quot;Hoàn thành&quot;</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8015-9448-ec9aaf51cbf7" class="bulleted-list"><li style="list-style-type:disc">🎯 Chọn lý do kết thúc (nếu có vấn đề)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8088-8d0e-f5a0b422f31d" class="bulleted-list"><li style="list-style-type:disc">📸 Chụp ảnh minh chứng (nếu cần)</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8098-b098-dba63c084804" class=""><strong>⚠️ LƯU Ý QUAN TRỌNG:</strong><em>&quot;CHỈ bấm Hoàn thành khi khách ĐÃ XUỐNG XE hoàn toàn!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8063-825e-dc8dea5b1dba"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80d7-9677-e42d988f016f" class=""><strong>⏱ 14-15 PHÚT - MÀN HÌNH 6: THU NHẬP - &quot;THÀNH QUẢ XỨNG ĐÁNG&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8088-881e-cc49c3280916" class=""><strong>📊 DỮ LIỆU MINH BẠCH:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804b-85fb-ee96178f57f9" class="bulleted-list"><li style="list-style-type:disc">💰 Thu nhập theo Ngày/Tuần/Tháng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8004-9400-c3853181cec7" class="bulleted-list"><li style="list-style-type:disc">🎁 Thưởng &amp; 
-chương trình khuyến mãi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b2-9786-fbadf1746137" class="bulleted-list"><li style="list-style-type:disc">📈 Lịch sử chuyến chi tiết</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8083-9a8e-fdaa622654e2" class="bulleted-list"><li style="list-style-type:disc">⚠️ Các chuyến lỗi &amp; 
-lý do</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f5-bc61-e730d4250680" class=""><strong>🔒 CAM KẾT TỪ UNIPOWER:</strong><em>&quot;MINH BẠCH 100% - KHÔNG tiền mặt - KHÔNG nhầm lẫn - MỌI GIAO DỊCH ĐỀU ĐƯỢC GHI LẠI!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-800a-8162-c1299ec2858a"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8045-b37f-f6e10a4b4be7" class=""><strong>💎 KẾT THÚC ẤN TƯỢNG</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8054-8191-df97f06256c1" class="">&quot;Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8092-82ec-e39664f679fe" class="">3 THAO TÁC VÀNG cần khắc cốt ghi tâm:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8010-8f8e-db10c3b66b08" class="numbered-list" start="1"><li>✅ <strong>NHẬN CUỐC</strong> - Phản xạ 3 giây</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8031-a2a7-da78b339c9c6" class="numbered-list" start="2"><li>✅ <strong>BẮT ĐẦU</strong> - Không được quên</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d0-856e-c427fb977683" class="numbered-list" start="3"><li>✅ <strong>HOÀN THÀNH</strong> - Đúng thời điểm</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8087-9588-e92b357c2007" class="">Hãy nhớ: GPS MẠNH + PIN ĐẦY = CUỐC XE LIÊN TỤC!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c1-ba61-e723bc44aa54" class="">Unipower TỰ HÀO đồng hành cùng bạn trên mọi nẻo đường! ❤️🚗</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8080-a1b0-c7fb5a929611" class="">Chúc các anh chị NHIỀU CUỐC XE và THU NHẬP CAO! 
-🌟&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80e4-8eec-fea9ca36a914"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8054-a6ad-ebf3c63309c0" class=""><strong>II. DRIVER APP – ỨNG DỤNG TÀI XẾ (75 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808b-9e9a-de17546807c2" class=""><strong>🎯 15 PHÚT ĐÀO TẠO THÀNH CÔNG: LÀM CHỦ ỨNG DỤNG TÀI XẾ UNITAXI! 🚗💨</strong></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80ef-a2d0-cadcf54d7e18"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8044-923c-d3ee73b6c30f" class=""><strong>📱 PHẦN 1: GIAO DIỆN &amp; CHỨC NĂNG CHÍNH DRIVER APP</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8083-804b-c4292fe61ceb" class=""><strong>🎯 MỤC TIÊU:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800b-82ab-e9f42505fd05" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>Hiểu rõ</strong> toàn bộ màn hình quan trọng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808d-ae70-ecb5ba1d1a44" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>Giảm 90%</strong> lỗi nhận cuốc - trả khách - đối soát</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a1-a7db-da3e3481e98d" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>Tăng vọt</strong> tỷ lệ hoàn thành cuốc &amp; chất lượng dịch vụ</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-805a-8a30-e16554ec811e"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80e2-9ad7-e9a4baa3c1f9" class=""><strong>🏠 A. MÀN HÌNH CHÍNH - &quot;TRUNG TÂM ĐIỀU KHIỂN&quot; (5 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8025-9e94-d3a01b5950e6" class=""><strong>1. 
-🗺️ BẢN ĐỒ THÔNG MINH</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a7-a2b3-d0e36d2271ac" class="bulleted-list"><li style="list-style-type:disc">📍 <strong>Vị trí xe thời gian thực</strong> - theo GPS</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8009-89c5-d7ffa2d6aa8a" class="bulleted-list"><li style="list-style-type:disc">🧭 <strong>Mũi tên chỉ hướng</strong> - luôn biết mình đang đi đâu</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807e-9233-df3ec2f76668" class="bulleted-list"><li style="list-style-type:disc">🔵 <strong>Vùng tìm cuốc</strong> - bán kính hoạt động hiệu quả</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80ea-a465-cf032903031c" class=""><strong>2. 🔄 TRẠNG THÁI XE - &quot;CÔNG TẮC KIẾM TIỀN&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8058-bdab-e92173a820a8" class="bulleted-list"><li style="list-style-type:disc">🟢 <strong>Online</strong> - sẵn sàng nhận cuốc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f0-9407-d08125db699b" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>Offline</strong> - tạm dừng hoạt động</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8026-bde3-ed6eeb2c2602" class="bulleted-list"><li style="list-style-type:disc">🟡 <strong>Đang trên cuốc</strong> - tập trung phục vụ khách</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-807c-b064-d99b99eaf459" class=""><strong>3. 
-⚡ NÚT CHUYỂN TRẠNG THÁI THÔNG MINH</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8039-8196-fb50f9a1c790" class="bulleted-list"><li style="list-style-type:disc">💡 <strong>Tự động bảo vệ</strong>: mất mạng/4G → hệ thống tự chuyển Offline</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8033-967c-df9e72e9d42c" class="bulleted-list"><li style="list-style-type:disc">🛡️ <strong>Tránh lỗi</strong>: không nhận cuốc khi kết nối không ổn định</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80f5-b391-eeb43157de79"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80a2-ae4b-fc6fb1d63de5" class=""><strong>🎯 B. NHẬN CUỐC &amp; ĐIỀU HƯỚNG - &quot;5 PHÚT VÀNG&quot; (5 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80f4-ac8c-efe8f6d5b3ee" class=""><strong>1. 
-📲 MÀN HÌNH NHẬN CUỐC - &quot;QUYẾT ĐỊNH TRONG 3 GIÂY&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a0-913e-e778cc4dc15a" class=""><strong>THÔNG TIN QUAN TRỌNG:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8064-8514-e48f6c98093a" class="bulleted-list"><li style="list-style-type:disc">📏 Khoảng cách đến khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80af-99f4-e29ed9c1a9c9" class="bulleted-list"><li style="list-style-type:disc">⏱️ Thời gian dự kiến</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8096-b0d6-cf753d275530" class="bulleted-list"><li style="list-style-type:disc">🎯 Loại dịch vụ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80fd-9fd3-e445a8657297" class="bulleted-list"><li style="list-style-type:disc">💰 Giá cước ước tính</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808e-8748-eeb7e61b8134" class=""><strong>THAO TÁC QUYẾT ĐỊNH:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ce-91e0-d943df70bbe6" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>NHẬN</strong> - phản xạ trong 3 giây</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8077-9025-f6180335e0df" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>TỪ CHỐI</strong> - phải chọn lý do hợp lệ</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8092-9545-daff26850008" class=""><em>💡 Lưu ý: Chọn lý do từ chối giúp NOC tối ưu phân cuốc cho bạn!</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-802b-9d20-f647c45511aa" class=""><strong>2. 
-🧭 ĐIỀU HƯỚNG THÔNG MINH</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804a-915f-fa671de6da12" class="bulleted-list"><li style="list-style-type:disc">🗺️ <strong>Tự động mở</strong> Google Maps/bản đồ mặc định</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f8-847a-d4ca6c3822fe" class="bulleted-list"><li style="list-style-type:disc">📶 <strong>Giữ 4G ổn định</strong> - tránh mất kết nối điều hướng</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-801c-8423-e847c1b146c8" class=""><strong>3. 👥 ĐÓN KHÁCH CHUYÊN NGHIỆP</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804c-8593-d903e0122dc4" class="bulleted-list"><li style="list-style-type:disc">📍 <strong>Bấm &quot;Đã đến nơi&quot;</strong> khi tới điểm đón</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8055-a1d9-c4704d68bcd0" class="bulleted-list"><li style="list-style-type:disc">🔍 <strong>Xác nhận kỹ</strong>: biển số, tên khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8001-9de0-deb6d3c57c10" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>TUYỆT ĐỐI</strong>: không đón khách ngoài app</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-805e-85dc-d99bf5ddb147"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-805e-b90a-f35ac4d04ac1" class=""><strong>🚗 C. 
-TRONG CHUYẾN ĐI - &quot;3 PHÚT HOÀN HẢO&quot; 
-(3 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-802c-822e-f05a53dabe29" class=""><strong>🎯 QUY TRÌNG CHUẨN:</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8014-a0e5-fd39032d5714" class="numbered-list" start="1"><li><strong>BẮT ĐẦU CUỐC</strong> - khi khách đã lên xe an toàn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-800c-90ee-d5b6be6e225b" class="numbered-list" start="2"><li><strong>THEO TUYẾN ĐƯỜNG</strong> - hệ thống đề xuất tối ưu</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8085-b662-fda7df2599c0" class="numbered-list" start="3"><li><strong>LINH HOẠT</strong> - nếu khách yêu cầu đổi đường</li></ol></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-809b-8606-eed3cfd11002" class=""><strong>💬 CÂU NÓI VÀNG KHI ĐỔI TUYẾN:</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801e-be87-e590fbd7992a" class=""><em>&quot;Dạ em chuyển tuyến ngay cho anh/chị.&quot;</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8012-ad8e-d9fc704cca74" class=""><strong>🚨 HẬU QUẢ SAI ĐƯỜNG:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a7-a3ae-d4deb4bd83ed" class="bulleted-list"><li style="list-style-type:disc">⭐ Giảm điểm đánh giá</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805a-a837-f8acee80e77b" class="bulleted-list"><li style="list-style-type:disc">🎁 Mất thưởng chuyến đi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809f-9ac9-c001020ab18f" class="bulleted-list"><li style="list-style-type:disc">📉 Ảnh hưởng uy tín tài xế</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8059-9d2e-c9f361f15b37"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80f6-9043-d7e7cbfd5a37" class=""><strong>💰 D. 
-KẾT THÚC &amp; THU NHẬP - &quot;2 PHÚT MINH BẠCH&quot; (2 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80e4-b05c-e5417636f10d" class=""><strong>1. 🏁 KẾT THÚC CHUYẾN AN TOÀN</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c3-9033-d9f478012b95" class="bulleted-list"><li style="list-style-type:disc">🛑 <strong>XE DỪNG 100%</strong> mới bấm &quot;Hoàn thành&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803d-b219-c2c4192b7e33" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>CẤM</strong> bấm khi xe còn lăn bánh</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80e1-bc12-d0f12fff84ab" class=""><strong>2. 📊 MÀN HÌNH THU NHẬP</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a3-a0c9-c64842044c7f" class="bulleted-list"><li style="list-style-type:disc">💵 Thu nhập theo ngày</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804e-9c6c-e1e9d5599f6c" class="bulleted-list"><li style="list-style-type:disc">🎁 Thưởng &amp; phạt</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80fa-b4e7-ee6b65fe2067" class="bulleted-list"><li style="list-style-type:disc">📈 Số cuốc hoàn thành</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8045-8416-fbde56042951" class="bulleted-list"><li style="list-style-type:disc">🎯 Chỉ tiêu ngày</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-809e-b72c-e674b8c8a158" class=""><strong>3. 
-📖 LỊCH SỬ CHUYẾN</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c5-b893-e76d05cc9a5a" class="bulleted-list"><li style="list-style-type:disc">🔍 Kiểm tra khi có khiếu nại</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800a-94bf-f44f91558ce0" class="bulleted-list"><li style="list-style-type:disc">📝 Báo lỗi trực tiếp nếu sai giá/sai điểm</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8011-9a65-f348188e1eec"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8018-a909-f9958298ea00" class=""><strong>⚠️ E. 
-LƯU Ý QUAN TRỌNG - &quot;UNITAXI KHÔNG CÓ PIN&quot;</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8022-872f-d9c5b2168442" class=""><strong>ĐIỂM KHÁC BIỆT QUAN TRỌNG:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e7-9b8f-c9a5260bb4de" class="bulleted-list"><li style="list-style-type:disc">🔋 <strong>KHÔNG có thông tin pin</strong> như xe điện</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ae-a6d1-f12b5282d50b" class="bulleted-list"><li style="list-style-type:disc">📶 <strong>TRỌNG TÂM</strong>: kết nối 4G ổn định</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c5-b302-d7fd702076d7" class="bulleted-list"><li style="list-style-type:disc">📍 <strong>GPS chính xác</strong> - luôn bật định vị</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807f-9eb6-f842e3429d73" class="bulleted-list"><li style="list-style-type:disc">📱 <strong>KHÔNG tắt app nền</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8060-8c58-cb23c4fbc1f2" class="bulleted-list"><li style="list-style-type:disc">🔄 <strong>KHÔNG bật chế độ tiết kiệm pin</strong> (gây lỗi GPS)</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80ef-9d74-eb16f14e23f8"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80cd-8d86-ff408e97c999" class=""><strong>🎭 F. 
-DEMO THỰC TẾ - &quot;THẤY MỚI TIN, 
-LÀM MỚI GIỎI&quot;</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805e-a117-edd3ae52a66f" class=""><strong>GIẢNG VIÊN THỰC HIỆN:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8086-b2e8-d3e33d5d366b" class="numbered-list" start="1"><li>📱 Mở app Unitaxi trên màn hình lớn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-805c-b9da-db14cea2e58d" class="numbered-list" start="2"><li>🎯 Chạy cuốc mô phỏng đầy đủ:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805f-acb3-e7eaf50ad1c5" class="bulleted-list"><li style="list-style-type:disc">Nhận cuốc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8096-8468-f11d61ce3425" class="bulleted-list"><li style="list-style-type:disc">Điều hướng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8054-9e80-c58d8cc22984" class="bulleted-list"><li style="list-style-type:disc">Đón khách</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8014-9b33-e9bef72d5d0f" class="bulleted-list"><li style="list-style-type:disc">Trả khách</li></ul></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-802e-a723-d31db1452357" class="numbered-list" start="3"><li>👥 Học viên làm theo trên điện thoại</li></ol></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8059-8ca3-f9e2fdd38db1"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80b4-9d4c-d6344872b458" class=""><strong>💎 KẾT THÚC ẤN TƯỢNG</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8087-a55f-ee34ddd7fbe1" class="">&quot;Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b2-8f24-c44c1e7b011a" class="">Ứng dụng tài xế Unitaxi chính là <strong>NGƯỜI ĐỒNG HÀNH</strong> đáng tin cậy nhất của chúng ta.</p></div><div style="display:contents" d
-ir="auto"><p id="2b1c5e6f-95bd-80e6-b812-c0b17f8ac82e" class=""><strong>HIỂU APP = TĂNG THU NHẬP = NÂNG TẦM DỊCH VỤ</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800f-81b3-c47fbbd10935" class="">Hãy làm chủ công nghệ, để mỗi chuyến xe không chỉ là hành trình - mà là <strong>TRẢI NGHIỆM TUYỆT VỜI</strong> cho mọi hành khách!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bf-a324-c8ce7f4816b9" class="">Unipower <strong>TỰ HÀO</strong> đồng hành cùng bạn! ❤️🚗</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c2-8bc2-c541287e2f4d" class=""><strong>RA ĐƯỜNG VÀ TỎA SÁNG!</strong> 🌟&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80d5-bce0-ded029ae72b4"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-8003-90f3-eac9f024e370" class=""><strong>2. 
-Các lỗi phổ biến &amp; cách tránh (15 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800d-a0e1-c9fcd77fda33" class=""><strong>Mục tiêu tối thượng:</strong> <strong>BẢO VỆ BẠN khỏi mọi lỗi hệ thống và khiếu nại sai!</strong></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8066-95b7-cd89f0b1cc6b"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-806a-9dad-d058d35250bb" class=""><strong>🚨 5 LỖI &quot;CHẾT NGƯỜI&quot; - XỬ LÝ NGAY TRONG 3 GIÂY!</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80c8-a29e-fd91d1db6c92" class=""><strong>❌ LỖI 1: APP ĐÓNG BĂNG - MẤT CUỐC GIỮA CHỪNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809b-829c-fdc909ba0e31" class=""><strong>➤ GIẢI PHÁP TỨC THÌ:</strong><em>Đóng app → Mở lại → Báo &quot;Lỗi app&quot; → Nhận cuốc mới!</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8083-9ec6-f6cb78f8dcdc" class=""><strong>❌ LỖI 2: GPS LỆCH - KHÔNG TÌM THẤY KHÁCH</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80da-9d7e-e4f09b0a9153" class=""><strong>➤ XỬ LÝ THÔNG MINH:</strong><em>Bật lại GPS → Đợi 10 giây → Gọi khách xác nhận vị trí!</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-800e-8835-c617e363bab3" class=""><strong>❌ LỖI 3: QUÊN BẤM BẮT ĐẦU - MẤT TIỀN OAN</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803b-ab10-ee9edbe64c72" class=""><strong>➤ CỨU VÃN NGAY:</strong><em>Bấm &quot;Bắt đầu&quot; 
-→ Báo điều phối → Ghi chú thời gian thực tế!</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8014-9a43-caf6b2c8b785" class=""><strong>❌ LỖI 4: MẤT MẠNG - CUỐC BIẾN MẤT</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808f-9bb4-d311411f744f" class=""><strong>➤ KHẮC PHỤC KHẨN CẤP:</strong><em>Bật lại 4G → Chờ kết nối → Báo &quot;Mất kết nối&quot; để được bảo vệ!</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8059-9de1-fe848a0bba71" class=""><strong>❌ LỖI 5: NHẬN NHẦM KHÁCH - SAI CHUYẾN</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808d-bfe3-d654fc9a973e" class=""><strong>➤ XỬ LÝ CHUYÊN NGHIỆP:</strong><em>Xin lỗi khách → Báo hủy → Chọn lý do &quot;Nhận nhầm khách&quot;!</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8074-b5c3-c49d155b92c1"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8036-ba12-f7cf948c7cea" class=""><strong>💎 3 TÌNH HUỐNG KHẨN CẤP - XỬ LÝ TRONG 10 GIÂY!</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8085-a98b-e99cd1bbc29d" class=""><strong>🔥 TÌNH HUỐNG 1: APP TỰ THOÁT GIỮA CHUYẾN</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8094-8aee-dcd3405e37be" class=""><strong>➤ XỬ LÝ ĐỈNH CAO:</strong><em>Mở lại app ngay → Báo &quot;App thoát bất ngờ&quot; 
-→ Tiếp tục chuyến đi!</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-806b-8482-c1026670cedf" class=""><strong>🔥 TÌNH HUỐNG 2: TÍNH SAI GIÁ - KHÁCH PHÀN NÀN</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8077-b2c4-c0efd7afde99" class=""><strong>➤ GIẢI PHÁP VÀNG:</strong><em>Không tranh luận → Báo điều phối → Để hệ thống điều chỉnh!</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80d6-8a82-fc4dec44d37a" class=""><strong>🔥 TÌNH HUỐNG 3: KHÔNG BẤM KẾT THÚC ĐƯỢC</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e2-996c-d24ce51437b5" class=""><strong>➤ XỬ LÝ THÔNG MINH:</strong><em>Chụp ảnh màn hình → Gọi điều phối → Đợi hỗ trợ!</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8066-8257-c62ebf8a7bc8"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80d3-b32c-cd3a62a5e114" class=""><strong>🛡️ BÍ KÍP BẢO VỆ BẢN THÂN - KHÔNG BAO GIỜ THIỆT!</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8021-a8ce-fa9be9ce5ab5" class=""><strong>📸 LUÔN LUÔN GIỮ CHỨNG CỨ:</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f4-9d00-cd58683061df" class="bulleted-list"><li style="list-style-type:disc">Chụp ảnh màn hình lỗi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8065-bcdf-fe4191b97ddc" class="bulleted-list"><li style="list-style-type:disc">Ghi âm cuộc gọi quan trọng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8076-93c2-dd0d2521cddd" class="bulleted-list"><li style="list-style-type:disc">Lưu tin nhắn với khách</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-806e-bff2-db247f37cd52" class=""><strong>📞 BÁO CÁO NGAY LẬP TỨC:</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a3-afcb-dbc10f18a5ff" class="bulleted-list"><li s
-tyle="list-style-type:disc">Đừng đợi đến cuối ngày</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80cc-8e4a-fdcbd00a885f" class="bulleted-list"><li style="list-style-type:disc">Mọi lỗi đều có giải pháp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8033-ba65-e8ddf13c6fe1" class="bulleted-list"><li style="list-style-type:disc">Hệ thống luôn bảo vệ bạn</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80df-8631-d43ca7fd61fa" class=""><strong>🎯 NGUYÊN TẮC VÀNG:</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e7-9d98-cdbaeb868d4f" class=""><em>&quot;LỖI APP + BÁO NGAY = ĐƯỢC BẢO VỆ!</em></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8019-b2dc-cd8bf0c4e8d3" class=""><em>LỖI APP + IM LẶNG = TỰ CHỊU THIỆT!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8061-8262-df622caef021"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80ad-b23f-ddc4acbbc77c" class=""><strong>💫 KẾT THÚC ĐẦY NĂNG LƯỢNG</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f4-bd1b-e643342d2f64" class="">&quot;Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802b-a768-c86cf2ef51ca" class="">Ứng dụng Unitaxi là công cụ ĐẮC LỰC nhất của chúng ta - nhưng đôi khi cũng cần sự hỗ trợ!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d4-908b-db928863fbe3" class="">Hãy nhớ kỹ: Mọi lỗi kỹ thuật đều CÓ GIẢI PHÁP. Quan trọng là bạn PHẢI HÀNH ĐỘNG NGAY!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803f-91e7-d0b2484f9605" class="">Báo lỗi kịp thời = Bảo vệ thu nhập = Giữ vững rating cao!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d6-99da-d918da896b5f" class="">Unipower LUÔN SẴN SÀNG hỗ trợ bạn 24/7. 
-Đừng ngần ngại - hãy liên hệ ngay khi cần!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b3-b3a2-e4c4573854fe" class="">Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8043-a494-e6dfd306d07f"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-80e0-952d-ffe44c9cb973" class=""><strong>3. Quy trình xử lý lỗi &amp; báo cáo (20 phút)</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f1-a299-fb01ab23b280" class=""><strong>🎯 20 PHÚT THÀNH THẠO: QUY TRÌNH XỬ LÝ LỖI &amp; BÁO CÁO CHUYÊN NGHIỆP</strong></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80f2-a2a3-c3f93e015a19"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-804b-b3c5-d3ebd5d4e487" class=""><strong>⏱ 0-5 PHÚT - 3 LÝ DO &quot;BẮT BUỘC PHẢI BÁO CÁO&quot;</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8028-8c1f-f5457cd8c0f5" class=""><strong>🔍 1. MỌI SỰ CỐ ĐỀU PHẢI CÓ LOG</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8024-988b-f8de73573d70" class="bulleted-list"><li style="list-style-type:disc"><strong>KHÔNG có log → NOC KHÔNG xử lý được → TÀI XẾ chịu trách nhiệm</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8062-8186-e1f347bf67fc" class="bulleted-list"><li style="list-style-type:disc"><strong>CÓ log → Hệ thống có căn cứ can thiệp → Bảo vệ quyền lợi của bạn</strong></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8068-a6b5-e534accbc0b9" class=""><strong>🛡️ 2. 
-BÁO CÁO = BẢO VỆ CHÍNH MÌNH</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f9-b10e-cdb0b612a0e8" class="bulleted-list"><li style="list-style-type:disc">Log là <strong>BẰNG CHỨNG PHÁP LÝ</strong> khi:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800a-9b9c-d1bdd1425526" class="bulleted-list"><li style="list-style-type:circle">Khách khiếu nại</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8051-98d7-cdc2a8c47816" class="bulleted-list"><li style="list-style-type:circle">Tranh chấp giá</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8027-8470-eb984caa5d8c" class="bulleted-list"><li style="list-style-type:circle">Tai nạn giao thông</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803b-b784-d6ef3e086ed8" class="bulleted-list"><li style="list-style-type:disc"><strong>KHÔNG có báo cáo = KHÔNG có chứng cứ bảo vệ</strong></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8078-a4f7-dc0a9c51da99" class=""><strong>💾 3. 
-DỮ LIỆU SẠCH = THU NHẬP CHÍNH XÁC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804f-85d7-c1f4e7114493" class="bulleted-list"><li style="list-style-type:disc">Dữ liệu càng sạch → Thu nhập càng chính xác</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ce-b40f-ef2f7fb091a4" class="bulleted-list"><li style="list-style-type:disc">Tài khoản hoạt động ổn định → Nhận thưởng đều đặn</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803e-883b-cd6adac8b2ea" class=""><strong>🎯 NGUYÊN TẮC VÀNG:</strong><em>&quot;KHÔNG nói miệng - CHỈ ghi nhận trên hệ thống!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80fb-99f8-dc9f0e691dc1"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8072-96ad-c4923e8cbae0" class=""><strong>⏱ 5-10 PHÚT - 5 LOẠI BÁO CÁO &quot;BẮT BUỘC PHẢI GỬI NGAY&quot;</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-804b-bc92-c7feb61d232f" class=""><strong>1. 🚨 LỖI KỸ THUẬT</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d0-99aa-c2830c5b482b" class="bulleted-list"><li style="list-style-type:disc"><strong>App đứng, treo, tự thoát</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c2-a57a-d1a07f8b7977" class="bulleted-list"><li style="list-style-type:disc"><strong>GPS lệch, map không chính xác</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8013-b6f6-dc48ae153869" class="bulleted-list"><li style="list-style-type:disc"><strong>Không nhận được cuốc</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8048-9e07-d61856ea913d" class=""><strong>➤ GIẢI PHÁP:</strong><em>Thoát app → Mở lại → Nếu còn lỗi → GỬI REPORT NGAY!</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-807f-a164-cf7bba3502c1" class=""><strong>2. 
-😠 KHÁCH PHÀN NÀN</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8042-9f2e-de7a064f46ac" class="bulleted-list"><li style="list-style-type:disc">Khách nói &quot;đi sai đường&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801e-8271-f576e65721cf" class="bulleted-list"><li style="list-style-type:disc">Khách phàn nàn &quot;không đón đúng điểm&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8077-ba42-d26d2e14cb2d" class="bulleted-list"><li style="list-style-type:disc">Khách tố &quot;tài xế thô lỗ&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8084-8359-f08f4cab3cf5" class="bulleted-list"><li style="list-style-type:disc">Khách yêu cầu điều tra giá</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f2-a997-ca2054045c63" class=""><strong>➤ CÁCH GHI CHUẨN:</strong><em>&quot;Khách nói tôi đón sai điểm, đề nghị kiểm tra.&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8012-9a50-d88d0bc95fd7" class=""><strong>3. 
-📊 LỊCH SỬ CUỐC BẤT THƯỜNG</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809c-b7dc-d8e8467234da" class="bulleted-list"><li style="list-style-type:disc">Cuốc quá ngắn/ quá dài</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e9-8a68-dc2a8829b6c4" class="bulleted-list"><li style="list-style-type:disc">Cuốc bị trừ phí lạ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8074-a541-f84f499fa92b" class="bulleted-list"><li style="list-style-type:disc">Cuốc không tính tiền</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f3-8684-e0406d374fab" class="bulleted-list"><li style="list-style-type:disc">Cuốc ghi sai km</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b7-866c-ecb5d5b62c3c" class="bulleted-list"><li style="list-style-type:disc">Hệ thống báo &quot;cuốc treo&quot;</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80aa-be5c-f1bd3f9c5609" class=""><strong>➤ CÁCH GHI CHUẨN:</strong><em>&quot;Cuốc ID 79201 - km không khớp với thực tế.&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80a7-9e3d-c1dbb2825044" class=""><strong>4. 
-🚗 SỰ CỐ GIAO THÔNG</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801b-ac15-c9d2bf22d056" class="bulleted-list"><li style="list-style-type:disc">Va chạm nhẹ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f9-835a-c88ea5be7041" class="bulleted-list"><li style="list-style-type:disc">Khách té khi xuống xe</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8043-a1ec-c33c4e28e5e6" class="bulleted-list"><li style="list-style-type:disc">Phanh gấp do xe khác cắt ngang</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8006-bec2-e29d725913fb" class="bulleted-list"><li style="list-style-type:disc">Đường bị phong tỏa</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ec-9e7d-db6f39c4a8a4" class=""><strong>➤ CÁCH GHI CHUẨN:</strong><em>&quot;Va chạm nhẹ - xe không thiệt hại - khách an toàn.&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8082-a561-eebd36ce70ea" class=""><strong>5. 
-🎒 ĐỒ THẤT LẠC (BÁO TRONG 5 PHÚT)</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802f-8431-ec67e5dd3efe" class=""><strong>QUY TRÌNH KHẨN CẤP:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8048-b6fd-db88d8873c53" class="numbered-list" start="1"><li>📱 Mở Report → chọn &quot;Đồ thất lạc&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80f2-b13c-ce180e16a448" class="numbered-list" start="2"><li>✍️ Ghi mô tả: &quot;Túi xách đen - ghế sau&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-800b-8832-c56812d65ab4" class="numbered-list" start="3"><li>📸 Chụp 2 tấm ảnh làm bằng chứng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-805e-97b3-e876c68c9fe5" class="numbered-list" start="4"><li>🏢 Mang về văn phòng theo hướng dẫn NOC</li></ol></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-800f-87b6-e01deb020be3"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80c5-a98f-ebf798a5a11d" class=""><strong>⏱ 10-15 PHÚT - QUY TRÌNH 5 BƯỚC &quot;XỬ LÝ MỌI LỖI&quot;</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8071-8283-d6671345209c" class=""><strong>BƯỚC 1 🛑 - GIỮ AN TOÀN LÀ TRÊN HẾT</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806d-bf84-e7aca9350beb" class="bulleted-list"><li style="list-style-type:disc">Đang lái gặp lỗi → TÌM CHỖ AN TOÀN → DỪNG XE</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ec-8209-c2313e580be9" class="bulleted-list"><li style="list-style-type:disc"><strong>KHÔNG</strong> thao tác app khi xe đang chạy</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80b9-b67a-e2cd32cd3575" class=""><strong>BƯỚC 2 📸 - CHỤP BẰNG CHỨNG ĐẦY ĐỦ</strong></h3></div><div style="display:contents" dir="auto"><ul i
-d="2b1c5e6f-95bd-80c9-9e88-e8f1e51046ba" class="bulleted-list"><li style="list-style-type:disc">📱 Screenshot app lỗi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801a-ac10-eb00d6d966aa" class="bulleted-list"><li style="list-style-type:disc">🗺️ Ảnh màn hình map</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8051-954b-caf7d57a1860" class="bulleted-list"><li style="list-style-type:disc">🎥 Clip ngắn nếu cần</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-801d-add5-e538a17f767f" class=""><strong>BƯỚC 3 📝 - GỬI REPORT TRONG DRIVER APP</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806c-a6af-d0b46d891daf" class="bulleted-list"><li style="list-style-type:disc">Chọn ĐÚNG mục trong 5 nhóm trên</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f0-8c48-d8a621ea8879" class="bulleted-list"><li style="list-style-type:disc">Mô tả NGẮN GỌN - ĐÚNG TRỌNG TÂM</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80fb-9b32-e27e982bf7af" class=""><strong>BƯỚC 4 📞 - GỌI ĐIỀU PHỐI (NẾU NGHIÊM TRỌNG)</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d1-a42e-c1461d53b88e" class=""><strong>Áp dụng cho:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8026-bcc8-e98bbd1a7481" class="bulleted-list"><li style="list-style-type:disc">🚨 Khách nguy hiểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bb-967e-c35d393020d7" class="bulleted-list"><li style="list-style-type:disc">🚗 Sự cố giao thông</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e3-8807-de86a0d4793d" class="bulleted-list"><li style="list-style-type:disc">⚠️ Lỗi liên quan an toàn</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80d6-a92d-cba0458b59ad" class=""><strong>BƯỚC 5 ⏳ - CHỜ HƯỚNG DẪN - KHÔNG TỰ 
-Ử</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a4-87af-c07f7703b5cf" class="bulleted-list"><li style="list-style-type:disc">Điều phối kiểm tra log → Hướng dẫn bước tiếp theo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80fc-9df3-c8d8c899782a" class="bulleted-list"><li style="list-style-type:disc"><strong>TUYỆT ĐỐI</strong> không tự ý xử lý</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8045-9d0a-d712dbcdec4c"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-805d-8e9d-f6b933716d75" class=""><strong>⏱ 15-20 PHÚT - TIÊU CHUẨN &quot;DUYỆT REPORT&quot; CỦA NOC</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80e4-9aa4-e0b7a4909f25" class=""><strong>1. 🎯 ĐÚNG TIÊU ĐỀ - ĐỪNG ĐỂ CHUNG CHUNG</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80db-a9e7-cbbd1571aadc" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI:</strong> &quot;App lỗi&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d0-ae03-ff88384e93c7" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>ĐÚNG:</strong> &quot;Không nhận cuốc - GPS lệch&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8077-848b-caa2b96b8eed" class=""><strong>2. 📸 ĐỦ BẰNG CHỨNG - KHÔNG CÓ LÀ KHÔNG DUYỆT</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805c-a765-e53a917e5e5b" class="bulleted-list"><li style="list-style-type:disc">Ảnh chụp màn hình → BẮT BUỘC với lỗi kỹ thuật</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d8-ac84-e3dc4c86fbee" class="bulleted-list"><li style="list-style-type:disc">Video ngắn → Khi cần mô tả lỗi phức tạp</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80f1-bcae-ffd4731b2724" class=""><strong>3. 
-⏰ ĐÚNG THỜI ĐIỂM - BÁO NGAY TRONG 5 PHÚT</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80db-b1a8-d3f25026fe35" class="bulleted-list"><li style="list-style-type:disc">NOC so log theo timestamp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809f-bbcd-de08ba8b5a1d" class="bulleted-list"><li style="list-style-type:disc">Báo cáo càng sớm → Xử lý càng nhanh</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-802a-bf9a-fa14be06d3a7" class=""><strong>4. 🧾 KHÔNG BÌNH LUẬN - CHỈ MÔ TẢ SỰ THẬT</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8013-a8fb-cddbb6dcedc7" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI:</strong> &quot;Khách này khó tính quá&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807d-bca0-fe012b2e41d5" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>ĐÚNG:</strong> &quot;Khách phàn nàn về tuyến đường&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8013-87cb-e5c20fb3378e" class=""><strong>5. 
-🔄 ĐÚNG QUY TRÌNH - KHÔNG NHẢY BƯỚC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ef-89d3-f5934d69277b" class="bulleted-list"><li style="list-style-type:disc">Report → Chờ phản hồi trong app</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8092-aa60-ce40ea8668c4" class="bulleted-list"><li style="list-style-type:disc">Không gọi trước khi gửi report</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80ab-9e07-f64ac13c8149"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80ad-a433-ce585fc1fcdc" class=""><strong>💎 KẾT THÚC ẤN TƯỢNG</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8048-a71e-daa567383ec4" class=""><strong>&quot;Các anh chị thân mến!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8079-b862-c417e62b2026" class="">Hãy khắc cốt ghi tâm:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808c-bcd1-e43e273404d0" class=""><strong>&#x27;KHÔNG CÓ REPORT = KHÔNG CÓ DỮ LIỆU = KHÔNG BẢO VỆ ĐƯỢC TÀI XẾ&#x27;</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f0-abb8-c2548d6cca22" class="">Mỗi báo cáo của bạn không chỉ giải quyết vấn đề trước mắt - mà còn là TẤM KHIÊN BẢO VỆ cho chính thu nhập và sự nghiệp của bạn!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807b-9fa5-cb655e3656bf" class="">Unipower LUÔN Ở ĐÂY để hỗ trợ 24/7. Đừng ngần ngại - HÃY BÁO CÁO NGAY!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f5-a2d2-d24ea1f00c65" class="">Chúc các anh chị NHIỀU CHUYẾN XE THÀNH CÔNG và THU NHẬP CAO! 🚗💨&quot;**</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8067-a2dd-f54b4f8d45f8"/></div><div style="display:contents" dir="auto"><h2 id="2aec5e6f-95bd-80bc-b9ab-e4d635d837b2" class=""><strong>4. 
-Bộ 5 Kỹ năng sử dụng app theo chuẩn quốc tế (25 phút)</strong></h2></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80db-836c-fa212da52baa" class=""><strong>I. 
-&quot;CÔNG THỨC BẤM CHUẨN&quot; - CLEAR TAP PROTOCOL (6 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8016-aa3e-daeb7ddaa03e" class=""><strong>🔥 3 NGUYÊN TẮC VÀNG TỪ UBER</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8050-b32a-e8b138891370" class="bulleted-list"><li style="list-style-type:disc">👉 <strong>Bấm DỨT KHOÁT - một lần</strong> → tránh lỗi hệ thống</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8049-86f9-c76586971fa6" class="bulleted-list"><li style="list-style-type:disc">🔄 <strong>Bấm ĐÚNG TRÌNH TỰ</strong>: Nhận cuốc → Đến điểm đón → Bắt đầu → Kết thúc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8019-a58f-dcf9a41e8d76" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG bấm khi xe lắc</strong> → 32% lỗi GPS do xe rung</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8012-bf74-eca6f555e0ce" class=""><strong>🚨 LỖI &quot;MẤT TIỀN&quot; 
-CỦA TÀI XẾ VIỆT</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807e-aa95-f532f70c6f65" class="bulleted-list"><li style="list-style-type:disc">💸 <strong>Quên BẮT ĐẦU</strong> → khách khiếu nại tiền</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ef-b2da-c176b78d79ab" class="bulleted-list"><li style="list-style-type:disc">⏰ <strong>Quên KẾT THÚC</strong> → cuốc treo → sai doanh thu</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8010-a51a-f361bb07e0c9" class="bulleted-list"><li style="list-style-type:disc">📍 <strong>Bấm khi xóc</strong> → GPS sai → khách phàn nàn</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-801d-b0ac-f02b2250f878" class=""><strong>💪 LUYỆN TẬP CẤP TỐC 1 PHÚT</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8023-b40a-e31aa20da843" class=""><em>Giảng viên demo 4 nút CHÍNH → Học viên bấm theo tốc độ CHUẨN!</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80e5-bd4f-ef97d99d32a6"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-805f-8c29-ccf22805de1c" class=""><strong>II. 
-&quot;CHẾ ĐỘ TẬP TRUNG&quot; 
-- FOCUS MODE (5 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80e8-9599-e0afaa51d3cd" class=""><strong>🎯 CHUẨN VÀNG TỪ LYFT</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808c-83ae-f71978760491" class="bulleted-list"><li style="list-style-type:disc">📵 <strong>KHÔNG</strong> đọc tin nhắn khi lái</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805d-a387-c3f22b0bb7a0" class="bulleted-list"><li style="list-style-type:disc">📞 <strong>KHÔNG</strong> nghe gọi riêng (trừ điều phối)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8052-bd41-c9db7b92dad4" class="bulleted-list"><li style="list-style-type:disc">🚗 <strong>KHÔNG</strong> vừa lái vừa thao tác app</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80c1-bae0-c6327349f6c8" class=""><strong>⚠️ SỰ THẬT GÂY SỐC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809f-abe1-cc56755729fc" class="bulleted-list"><li style="list-style-type:disc">💥 <strong>Tai nạn TĂNG 4 LẦN</strong> khi rời mắt 2-3 giây</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ca-8393-dcb61ddc3049" class="bulleted-list"><li style="list-style-type:disc">😠 <strong>60%</strong> khiếu nại do thao tác thiếu tập trung</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-802e-9523-faed0c87788f" class=""><strong>🎮 MẸO ÁP DỤNG NGAY</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f0-851a-fac7e923d7a8" class="bulleted-list"><li style="list-style-type:disc">🅿️ <strong>Dừng xe an toàn</strong> → mới bấm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bc-8311-da61b11c544e" class="bulleted-list"><li style="list-style-type:disc">🔕 <strong>Tắt thông báo</strong> không cần thiết</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2b1c5e6f-95bd-80be-998c-df8572be7eb6" class="bulleted-list"><li style="list-style-type:disc">📱 <strong>Cố định điện thoại</strong> → không cầm tay</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8020-abbe-edcb0d3674bc"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8078-99f1-cdfcbd55f30a" class=""><strong>III. 
-&quot;ĐIỀU HƯỚNG THÔNG MINH&quot; 
-- SAFE NAVIGATION (5 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80ae-a571-dc1ab43e7bdd" class=""><strong>🧭 NGUYÊN TẮC BẤT BIẾN TỪ BOLT</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-802c-9060-d25e4545c84e" class="bulleted-list"><li style="list-style-type:disc">🛑 <strong>KHÔNG</strong> đổi hướng đột ngột theo GPS</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d5-9770-ce44310bcd64" class="bulleted-list"><li style="list-style-type:disc">🛡️ <strong>Ưu tiên AN TOÀN</strong> hơn tốc độ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e0-a105-f3f843a596ee" class="bulleted-list"><li style="list-style-type:disc">⏱️ <strong>Giữ khoảng cách</strong> 2-3 giây khi điều hướng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8091-9420-f9094070434f" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG</strong> phanh gấp vì &quot;map kêu quẹo&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-805f-be40-d15e6d2b1536" class=""><strong>🎭 TÌNH HUỐNG THỰC TẾ</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c2-9f4c-e529fc2556ef" class=""><em>&quot;GPS báo quẹo phải 10m - nhưng bạn đang ở làn trái&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80ec-9547-e4fdc616b44e" class=""><strong>🚀 XỬ LÝ ĐỈNH CAO</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8082-b2ec-ce0d26759295" class="bulleted-list"><li style="list-style-type:disc">🛣️ <strong>Đi thẳng</strong> → tìm chỗ quay đầu an toàn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f6-8b63-d54ed293ba0b" class="bulleted-list"><li style="list-style-type:disc">💬 <strong>Giải thích 1 câu</strong>:<br/><em>&quot;Để an toàn, 
-em đi tuyến này ạ!&quot;</em></li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8021-b6be-e1e3310faddc"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-807b-8491-c0d0c988d2da" class=""><strong>IV. 
-&quot;QUAN SÁT TINH NHẠY&quot; - CUSTOMER VISIBILITY (4 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8037-88f7-e8fb606d9cbf" class=""><strong>👁️ &quot;CỬA SỔ QUAN SÁT&quot; 
-THEO GRAB</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806d-a574-d6d15147679c" class="bulleted-list"><li style="list-style-type:disc">⏰ <strong>15-40 giây</strong> - thời gian vàng để đánh giá tình huống</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8077-bea2-f9bddad42af3" class="bulleted-list"><li style="list-style-type:disc">🗺️ <strong>Kiểm tra</strong> khách có di chuyển không</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8002-bccc-e4ab4b7c349e" class="bulleted-list"><li style="list-style-type:disc">📞 <strong>Gọi ngay</strong> nếu khách đổi điểm đón xa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8062-8aa2-faee04a798d8" class="bulleted-list"><li style="list-style-type:disc">🏢 <strong>Xác nhận</strong> đúng block, đúng tòa nhà</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8030-b3a9-cc697430fe7b" class=""><strong>📊 CON SỐ BIẾT NÓI</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f2-9041-eba3e9075aa5" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>40%</strong> hủy cuốc Đông Nam Á do sai vị trí</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803d-9416-cf775ef5c6ce" class="bulleted-list"><li style="list-style-type:disc">👍 <strong>Giảm ngay</strong> hiểu lầm &quot;tài xế không tới&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-803f-94fd-da7f2564793e" class=""><strong>🎯 THỰC HÀNH NHANH</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8026-b7bf-e32d44360e35" class=""><em>Giảng viên mô phỏng 3 vị trí khách → Học viên xác định điểm đón CHÍNH XÁC!</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8038-be44-e889d17f749d"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-801f-9294-e91aee1758e8" class=""><strong>V. 
-&quot;50M CUỐI HOÀN HẢO&quot; 
-- LAST-METER ACCURACY (5 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-800f-a7c4-d5b38f11ea97" class=""><strong>🎖️ CHUẨN SINGAPORE TAXI</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8098-bfc1-f3f33f579d57" class=""><strong>50m cuối = KHU VỰC RỦI RO CAO</strong></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80cc-8f6f-fc3974eca042" class=""><strong>✅ HÀNH VI BẮT BUỘC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8037-a601-e2062449add7" class="bulleted-list"><li style="list-style-type:disc">🐢 <strong>Giảm tốc độ</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d8-9898-cc512e9edee4" class="bulleted-list"><li style="list-style-type:disc">🎯 <strong>Tới đúng</strong> block - hẻm - cửa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b8-9268-ea5197f520d3" class="bulleted-list"><li style="list-style-type:disc">👀 <strong>Quan sát</strong> người đi bộ - xe máy - trẻ em</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-807a-b40a-e91f1acfeb89" class=""><strong>❌ HÀNH VI CẤM TUYỆT ĐỐI</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8034-a615-f89f1fa51d31" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>Phanh gấp</strong> khi tới điểm đón</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a8-acd0-d2521117925c" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>Tạt đầu</strong> vào lề đột ngột</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8014-9c12-d9b17e29312b" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>Dừng giữa đường</strong> vì &quot;GPS báo tới&quot;</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-802a-aab3-fd256d4b5b78" class=""><strong>💬 CÂU NÓI VÀNG TIẾP C
-ẬN</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80de-976d-d4b5cce070af" class=""><em>&quot;Anh/chị đứng đúng block giúp em nhé, 
-em tới ngay ạ!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-809b-8e39-c20fc2c38654"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8016-a348-fa6f9743b25f" class=""><strong>📊 BẢNG TỔNG KẾT 5 KỸ NĂNG &quot;VÀNG&quot;</strong></h2></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-80ba-9762-efc2ac4c35df" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80dc-85f0-e9913a597d4f"><th id="wOfZ" class="simple-table-header-color simple-table-header">KỸ NĂNG</th><th id="HgOp" class="simple-table-header-color simple-table-header">LỢI ÍCH &quot;SIÊU TO KHỔNG LỒ&quot;</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8041-a803-c133f4558812"><td id="wOfZ" class=""><strong>Clear Tap Protocol</strong></td><td id="HgOp" class="">✅ Không lỗi cuốc&lt;br&gt;✅ Không tranh chấp&lt;br&gt;✅ Tăng SAO đánh giá</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-808f-8ebc-e79dcc5bab24"><td id="wOfZ" class=""><strong>Focus Mode</strong></td><td id="HgOp" class="">✅ An toàn tuyệt đối&lt;br&gt;✅ Giảm căng thẳng&lt;br&gt;✅ Tránh phạt nội bộ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80d5-bdf7-d293ac78aa7d"><td id="wOfZ" class=""><strong>Safe Navigation</strong></td><td id="HgOp" class="">✅ Không phanh gấp&lt;br&gt;✅ Không tranh cãi&lt;br&gt;✅ Hài lòng khách hàng</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-803e-87f8-fa375ef5e4cf"><td id="wOfZ" class=""><strong>Customer Visibility</strong></td><td id="HgOp" class="">✅ Giảm 40% hủy cuốc&lt;br&gt;✅ Tăng tỷ lệ đón đúng&lt;br&gt;✅ Tiết kiệm thời gian</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-800b-89e8-d142710ed1fe"><td id="wOfZ" class=""><strong>Last-Meter Accuracy</strong></td><td id="HgOp" class="">✅ Khách hài lòng tức thì&lt;br&gt;✅ An t
-oàn 50m cuối&lt;br&gt;✅ Đón/trả khách chuẩn xác</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80f4-8e98-de5fe3dfaa4e"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-808c-b95f-ff543767e46c" class=""><strong>💫 LỜI CHÚC TRÀN ĐẦY NĂNG LƯỢNG</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8024-a6c4-c9861a95ea3c" class=""><strong>&quot;Các anh chị thân mến!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ab-b8ab-e33e4c6cd907" class="">5 kỹ năng sử dụng app đẳng cấp quốc tế này chính là <strong>VŨ KHÍ TỐI THƯỢNG</strong> giúp bạn:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809c-adc6-e98f92d8ba25" class="">🚀 <strong>KIẾM TIỀN NHANH HƠN</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e6-8741-f210c51532e8" class="">⭐ <strong>ĐƯỢC ĐÁNH GIÁ CAO HƠN</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803a-af18-c02930cc9e46" class="">😊 <strong>LÀM VIỆC NHẸ NHÀNG HƠN</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809d-80b1-c8e600048d80" class="">Hãy biến mỗi thao tác app thành <strong>HÀNH ĐỘNG CHUYÊN NGHIỆP</strong> - mỗi chuyến xe thành <strong>TRẢI NGHIỆM TUYỆT VỜI</strong>!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f6-9af5-f4b3a412d93e" class="">Wooberly <strong>TỰ HÀO</strong> đồng hành cùng bạn trên mọi nẻo đường! ❤️</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801a-a6c1-fda06b609556" class=""><strong>CHINH PHỤC CÔNG NGHỆ - TỎA SÁNG ĐẲNG CẤP!</strong> 🌟&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-809e-a1e9-e9995c9b0dd5"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-802c-aa27-eddda8d5db59" class=""><strong>III. 
-DISPATCH CONSOLE – BẢNG ĐIỀU PHỐI (30 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802c-887d-f6b246165fa4" class=""><strong>🎯 20 PHÚT THÀNH THẠO: HỆ THỐNG GIÁM SÁT XE ĐIỆN THÔNG MINH 🚗⚡</strong></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80c9-b313-c8eeffb50a59"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80f8-bf97-d9844b478f61" class=""><strong>📊 PHẦN 1: 7 THÔNG SỐ &quot;SINH TỬ&quot; TÀI XẾ PHẢI THUỘC LÒNG (10 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8015-bec3-f8fc1390ef0c" class=""><strong>1. 🔋 SOC - MỨC NĂNG LƯỢNG PIN (%)</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8089-8d6c-dcdecf11f0db" class="bulleted-list"><li style="list-style-type:disc">🟢 <strong>AN TOÀN</strong>: &gt; 20%</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8011-bf2e-d9931e5e4992" class="bulleted-list"><li style="list-style-type:disc">🎯 <strong>TỐI ƯU</strong>: &gt; 40% (nhận cuốc hiệu quả)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8053-9a3d-e1ba2f096758" class="bulleted-list"><li style="list-style-type:disc">🚨 <strong>NGUY HIỂM</strong>: &lt; 10% (tuyệt đối tránh)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80bf-b6b6-d15df6ef6b16" class=""><strong>2. 
-🌡️ NHIỆT ĐỘ PIN - &quot;SỨC KHỎE&quot; CỦA XE</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b8-992d-e0d4d142aec7" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>CHUẨN</strong>: 15–40°C</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8028-930e-fef72fd2f421" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>CẢNH BÁO</strong>: &gt; 50°C → nguy cơ mất ổn định</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8009-844b-e6357f4f3261" class="bulleted-list"><li style="list-style-type:disc">💡 <strong>LƯU Ý</strong>: Dù app không hiển thị, NOC vẫn giám sát 24/7 từ backend</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-806c-a7f5-de47eccb90f1" class=""><strong>3. ⚠️ CẢNH BÁO CELL PIN - &quot;BÁO ĐỘNG ĐỎ&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8041-ac68-dc733e754cfd" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>Cell Imbalance</strong> - mất cân bằng tế bào pin</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ed-851e-d737b7156d1f" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>Voltage Low</strong> - điện áp thấp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8013-a4a7-d52a0181740b" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>Battery Error</strong> - lỗi pin nghiêm trọng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8001-a139-d27d4f9acac6" class="bulleted-list"><li style="list-style-type:disc">🚨 <strong>XỬ LÝ</strong>: DỪNG XE NGAY LẬP TỨC</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80bb-bed9-d977fec8b697" class=""><strong>4. 
-🚀 TỐC ĐỘ VẬN HÀNH AN TOÀN</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8083-b7b9-d41ceaaa3634" class="bulleted-list"><li style="list-style-type:disc">📏 <strong>Tuân thủ</strong> ngưỡng tốc độ theo tuyến</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8053-a553-d871d28a8f68" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>Tránh</strong> tăng tốc/phanh gấp liên tục</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8076-b166-e100ac8f16c5" class="bulleted-list"><li style="list-style-type:disc">💡 <strong>Nguyên nhân</strong>: Gây nóng động cơ &amp; pin</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8029-bb56-fff264baa543" class=""><strong>5. 
-🔌 TRẠNG THÁI SẠC - &quot;BÍ QUYẾT SẠC THÔNG MINH&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bc-832f-df8da39862f4" class="bulleted-list"><li style="list-style-type:disc">⚡ <strong>Công suất sạc</strong> - theo dõi hiệu suất</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806c-af74-cc732280b2ef" class="bulleted-list"><li style="list-style-type:disc">⏱️ <strong>Thời gian sạc</strong> - tối ưu thời gian chờ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8074-bc20-de3a2e649ddd" class="bulleted-list"><li style="list-style-type:disc">📈 <strong>% tăng mỗi phút</strong> - đánh giá chất lượng trạm sạc</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805a-8310-d8697230090a" class=""><strong>🔧 LỖI THƯỜNG GẶP:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8074-a3ba-c90c5d65fd1c" class="bulleted-list"><li style="list-style-type:disc">❌ Cắm chưa sát</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d8-8f84-f3fe5f6bd710" class="bulleted-list"><li style="list-style-type:disc">❌ Đầu cắm bẩn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8031-a2b4-e801dfb27c89" class="bulleted-list"><li style="list-style-type:disc">❌ Cổng sạc lỏng</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8093-9156-f5d2fb4dacb5" class=""><strong>6. 
-📋 LỊCH SỬ LỖI - &quot;HỒ SƠ SỨC KHỎE&quot; XE</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8057-a04b-d12f383ec504" class="bulleted-list"><li style="list-style-type:disc">🔧 <strong>Motor warning</strong> - cảnh báo động cơ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805e-b746-fd6c040ac70e" class="bulleted-list"><li style="list-style-type:disc">🛑 <strong>ABS warning</strong> - cảnh báo hệ thống phanh</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8003-b8ce-db92bdde9851" class="bulleted-list"><li style="list-style-type:disc">⚡ <strong>EV system warning</strong> - cảnh báo hệ thống điện</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8012-b7a8-dfcdbb27ee16" class="bulleted-list"><li style="list-style-type:disc">🔥 <strong>Overheat warning</strong> - cảnh báo quá nhiệt</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808f-8f73-d788910753ab" class=""><strong>🎨 QUY TẮC MÀU CẢNH BÁO:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8018-8bec-d836db5c8d2f" class="bulleted-list"><li style="list-style-type:disc">🟢 <strong>XANH</strong>: Bình thường - tiếp tục hoạt động</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e0-b687-e2af3d668b0f" class="bulleted-list"><li style="list-style-type:disc">🟡 <strong>VÀNG</strong>: Bất thường - chạy chậm lại + báo cáo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8083-8937-c7d9543d861e" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>ĐỎ</strong>: NGUY HIỂM - DỪNG XE NGAY</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-805b-bc3a-f5cb9b32aa00" class=""><strong>7. 
-📍 ĐỊNH VỊ THỜI GIAN THỰC - &quot;CON MẮT&quot; HỆ THỐNG</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8019-bbe7-fcde62bfb348" class="bulleted-list"><li style="list-style-type:disc">🎯 <strong>GPS chính xác</strong> → nhận cuốc dễ dàng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8028-883f-fdc4c6266358" class="bulleted-list"><li style="list-style-type:disc">📶 <strong>Mất tín hiệu</strong> → điều phối can thiệp ngay</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8062-b050-fa4b7cecd487" class="bulleted-list"><li style="list-style-type:disc">⏰ <strong>Dừng lâu không lý do</strong> → hệ thống tự động cảnh báo</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-808c-8e0a-d16e0c781417"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8075-a453-d8da3f256b52" class=""><strong>🚨 PHẦN 2: 4 LỖI &quot;DỪNG XE NGAY - KHÔNG BÀN CÃI&quot; (5 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80fe-bcd1-d5351f772de1" class=""><strong>1. 🔴 CẢNH BÁO PIN ĐỎ / BATTERY ERROR</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8083-a8ad-d2f79dac38b0" class="bulleted-list"><li style="list-style-type:disc">💥 <strong>Nguy cơ</strong>: Cháy nổ - thermal runaway</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8095-8cdb-df6d9e9642be" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>Xử lý</strong>: TUYỆT ĐỐI không tiếp tục chạy</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8085-af03-c7d9d7f74194" class=""><strong>2. 
-🌡️ NHIỆT ĐỘ PIN &gt; 50°C</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8086-855d-ecc1dd112f9c" class="bulleted-list"><li style="list-style-type:disc">🔥 <strong>Nguyên nhân</strong>:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80db-a33a-d644d7e6274c" class="bulleted-list"><li style="list-style-type:circle">Đường nóng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-802e-8f58-c4930099cb15" class="bulleted-list"><li style="list-style-type:circle">Chạy tốc độ cao liên tục</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c0-aa76-d98142915492" class="bulleted-list"><li style="list-style-type:circle">Sạc xong chưa nguội đã chạy</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80dc-90fa-e62374524e7c" class="bulleted-list"><li style="list-style-type:disc">🛑 <strong>Xử lý</strong>: Dừng xe → Mở cửa → Báo NOC ngay</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80e3-83c2-fcb43e58d9b5" class=""><strong>3. 🔊 ÂM THANH BẤT THƯỜNG</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8068-ba2c-c2f3170acab0" class="bulleted-list"><li style="list-style-type:disc">🎵 <strong>Tiếng lạch cạch</strong> - có thể do linh kiện lỏng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80db-9256-f94dd23403cd" class="bulleted-list"><li style="list-style-type:disc">📳 <strong>Rung mạnh bất thường</strong> - liên quan motor/trục dẫn động</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808b-85be-da0102cbb818" class="bulleted-list"><li style="list-style-type:disc">🔧 <strong>Xử lý</strong>: Dừng kiểm tra → Báo kỹ thuật</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8080-bca4-f9066d93d8a3" class=""><strong>4. 
-🟡 ĐÈN VÀNG &quot;EV WARNING&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d9-9a2e-de1a82864037" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>Mức độ</strong>: Lỗi nhẹ động cơ/controller</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8005-ab39-d2c18d1f92f8" class="bulleted-list"><li style="list-style-type:disc">📍 <strong>Quy tắc</strong>:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8089-b5e0-e1f85a28c29d" class="bulleted-list"><li style="list-style-type:circle">Lần 1: Chạy chậm + báo cáo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d3-b518-da9d0983860e" class="bulleted-list"><li style="list-style-type:circle">Lần 2: KIỂM TRA NGAY</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805b-9481-ff85abcf085f" class=""><strong>🎯 NGUYÊN TẮC VÀNG:</strong><em>&quot;THẤY ĐÈN ĐỎ - DỪNG! 
-THẤY ĐÈN VÀNG - CHẠY CHẬM + BÁO!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8018-97fe-d137c9c5fb9d"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-806d-af64-c45cb4b00671" class=""><strong>📞 PHẦN 3: QUY TRÌNH 5 BƯỚC &quot;BÁO LỖI CHUYÊN NGHIỆP&quot; 
-(5 PHÚT)</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80c7-b0c6-e5d58b12f78a" class=""><strong>BƯỚC 1 🛑 - DỪNG XE AN TOÀN TUYỆT ĐỐI</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c1-b154-e1751554af4a" class="bulleted-list"><li style="list-style-type:disc">🅿️ <strong>Chọn vị trí</strong>: Có lề rộng, 
-không giữa làn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8054-83b4-cf2ce22800cb" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>Bật đèn</strong>: Đèn cảnh báo nguy hiểm</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8099-acb7-cef41dbd248b" class=""><strong>BƯỚC 2 📱 - GỬI REPORT TRÊN APP</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8089-be36-dc4b4e53d8df" class="bulleted-list"><li style="list-style-type:disc">🎯 <strong>Chọn đúng mục</strong>:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807d-8009-c7f71d6dc869" class="bulleted-list"><li style="list-style-type:circle">✅ &quot;Lỗi kỹ thuật&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a6-ae7b-c14c4ae7d3bd" class="bulleted-list"><li style="list-style-type:circle">✅ &quot;Cảnh báo động cơ&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e6-ba2e-fb27a4562556" class="bulleted-list"><li style="list-style-type:circle">✅ &quot;Cảnh báo pin&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bc-979f-c2bac8b43005" class="bulleted-list"><li style="list-style-type:circle">✅ &quot;Âm thanh bất thường&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80b0-99b7-c7afbe62e8c0" class=""><strong>BƯỚC 3 📞 - GỌI ĐIỀU PHỐI KHẨN CẤP</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f5-8275-dea0c74b8d62" class="bulleted-list"><li style="list-style-type:disc">💬 <strong>Chuẩn 1 câu</strong>:<br/><em>&quot;Xe cảnh báo màu [đỏ/vàng], vị trí [địa điểm], 
-em chờ hướng dẫn.&quot;</em></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80c5-a936-d8aa10a9cc15" class=""><strong>BƯỚC 4 ⏳ - CHỜ HƯỚNG DẪN CHUYÊN GIA</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ff-a740-c07bf5c85a4f" class="bulleted-list"><li style="list-style-type:disc">🔍 <strong>Điều phối sẽ</strong>:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8074-b903-ea08033c904d" class="bulleted-list"><li style="list-style-type:circle">Kiểm tra backend</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8099-bcdf-dd53bf36e766" class="bulleted-list"><li style="list-style-type:circle">Phân tích lịch sử xe</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8061-9d3d-e57427eb89fd" class="bulleted-list"><li style="list-style-type:circle">Điều xe cứu hộ/đổi xe</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8041-bd0d-eb9a0be92de2" class=""><strong>BƯỚC 5 🚫 - TUYỆT ĐỐI KHÔNG TỰ Ý</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c3-88ac-efc3b5d1e154" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>Không</strong> mở khoang pin</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803c-8afd-f04752ce4d1c" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>Không</strong> đóng/ngắt cầu chì</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801f-a9e1-dcb9883e97d4" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>Không</strong> reset xe tự ý</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80ab-b0d1-e5865d56f097"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80d4-bdcc-fb625662e72e" class=""><strong>💎 THÔNG ĐIỆP &quot;CHẠM TIM&quot; 
-CUỐI BÀI</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8024-8c02-db2fd05fbb34" class=""><strong>&quot;Các anh chị thân mến!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80cf-8e64-d7614fce25cb" class="">Hãy nhớ kỹ: <strong>Tài xế thông thái KHÔNG cần là kỹ thuật viên - mà là người NHẬN BIẾT ĐÚNG &amp; BÁO CÁO NHANH!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807d-aac5-f75983092b6f" class="">Mỗi lần bạn tuân thủ quy trình này, bạn không chỉ bảo vệ chính mình - mà còn đang bảo vệ TÀI SẢN và UY TÍN của UniTaxi!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fe-a215-fcd11da7e45e" class=""><strong>Điều phối + NOC = LUÔN SẴN SÀNG hỗ trợ bạn 24/7!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802e-9ad3-c394bd11b636" class="">Hãy lái xe thật an toàn và trở thành những TÀI XẾ ĐIỆN THÔNG THÁI - TIÊN PHONG CÔNG NGHỆ! ⚡🚗</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b6-8ac1-f2bbe17a6bed" class="">UniTaxi <strong>TỰ HÀO</strong> đồng hành cùng bạn! ❤️&quot;</p></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80cf-adb6-e4084437e408" class=""><em>(Phần này giúp tài xế hiểu điều phối đang làm gì để phối hợp tốt hơn.)</em></p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-806e-a6e7-f10431eb1ac1"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8018-8f41-f4e2d63c6644" class=""><strong>IV. 
-HỆ THỐNG GIÁM SÁT XE ĐIỆN (20 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80dc-ad4c-fd70077469a2" class=""><strong>🎯 20 PHÚT LÀM CHỦ: HỆ THỐNG GIÁM SÁT XE ĐIỆN THÔNG MINH</strong> ⚡</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-809a-9bb8-ce77cd9d9e7e"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8050-b429-caa3a9f4985e" class=""><strong>📊 PHẦN 1: 7 CHỈ SỐ &quot;SỐNG CÒN&quot; TÀI XẾ CẦN THUỘC LÒNG</strong> (10 phút)</h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80be-85ee-c943cd40c08d" class=""><strong>1. 🔋 MỨC PIN (SOC) - &quot;NHIÊN LIỆU ĐIỆN&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8021-b240-e62111a47da0" class="bulleted-list"><li style="list-style-type:disc">🟢 <strong>AN TOÀN</strong>: Trên 20%</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8036-886c-dc822fb246b9" class="bulleted-list"><li style="list-style-type:disc">🎯 <strong>LÝ TƯỞNG</strong>: Trên 40% (nhận cuốc tối ưu)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803d-9738-f006ef04e718" class="bulleted-list"><li style="list-style-type:disc">🚨 <strong>NGUY HIỂM</strong>: Dưới 10% (tuyệt đối tránh)</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80ca-a7de-f4df77215602" class=""><strong>2. 
-🌡️ NHIỆT ĐỘ PIN - &quot;SỨC KHỎE ẨN&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8030-bf43-d6417a714e18" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>BÌNH THƯỜNG</strong>: 15–40°C</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8040-9a4f-ce32551c4e37" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>CẢNH BÁO</strong>: Trên 50°C → rủi ro cao<br/><em>💡 Dù app không hiển thị, NOC vẫn giám sát 24/7</em></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8054-9700-cfbd7930fa8b" class=""><strong>3. ⚠️ CẢNH BÁO PIN - &quot;BÁO ĐỘNG ĐỎ&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8044-a0f7-d9ee3e556851" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>Mất cân bằng cell</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8071-8d56-fae1ec51d553" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>Điện áp thấp</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806f-9f18-ebd9f5b4c7db" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>Lỗi pin nghiêm trọng</strong><br/>→ <strong>XỬ LÝ</strong>: DỪNG XE NGAY</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8010-8e0e-f70ee9a3487b" class=""><strong>4. 
-🚀 TỐC ĐỘ VẬN HÀNH</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8060-bfa8-e9ae3bce91ee" class="bulleted-list"><li style="list-style-type:disc">📏 <strong>Tuân thủ</strong> giới hạn tốc độ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8096-a99a-d2782efbc537" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>Tránh</strong> tăng tốc/phanh gấp liên tục</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8048-866e-d0ff158c5a4d" class="bulleted-list"><li style="list-style-type:disc">💡 <strong>Lý do</strong>: Gây nóng động cơ và pin</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8023-92ed-d373ce431eca" class=""><strong>5. 
-🔌 TRẠNG THÁI SẠC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80aa-9fa5-f8f8d0d0f8c2" class="bulleted-list"><li style="list-style-type:disc">⚡ <strong>Công suất sạc</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8019-b924-d9ef048eccfb" class="bulleted-list"><li style="list-style-type:disc">⏱️ <strong>Thời gian sạc</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8010-8b8b-f49e3658de7f" class="bulleted-list"><li style="list-style-type:disc">📈 <strong>% pin tăng theo phút</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800c-9133-e08cb501468f" class=""><strong>🔧 LỖI THƯỜNG GẶP:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e4-b3cd-e7cb20712300" class="bulleted-list"><li style="list-style-type:disc">❌ Cắm sạc không khớp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ce-b282-ffa144d361d3" class="bulleted-list"><li style="list-style-type:disc">❌ Đầu cắm bẩn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808a-a6f3-ccae77ad2f05" class="bulleted-list"><li style="list-style-type:disc">❌ Cổng sạc lỏng lẻo</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80cc-acae-ef1c01e3f9d4" class=""><strong>6. 
-📋 LỊCH SỬ LỖI</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801f-8497-d26c23634419" class="bulleted-list"><li style="list-style-type:disc">🔧 <strong>Cảnh báo động cơ</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e9-8361-ed2f01b70324" class="bulleted-list"><li style="list-style-type:disc">🛑 <strong>Cảnh báo phanh ABS</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809f-a798-e63964249a7c" class="bulleted-list"><li style="list-style-type:disc">⚡ <strong>Cảnh báo hệ thống điện</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801b-a957-e13b46a10124" class="bulleted-list"><li style="list-style-type:disc">🔥 <strong>Cảnh báo quá nhiệt</strong></li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c4-934b-d94045b522c4" class=""><strong>🎨 QUY TẮC MÀU SẮC:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d7-a2df-c4e2c8fa20e9" class="bulleted-list"><li style="list-style-type:disc">🟢 <strong>XANH</strong>: Bình thường</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f9-bd4d-fbb1a99c754e" class="bulleted-list"><li style="list-style-type:disc">🟡 <strong>VÀNG</strong>: Bất thường - giảm tốc + báo cáo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8065-a6fa-de4d04c2f31f" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>ĐỎ</strong>: Nguy hiểm - DỪNG XE NGAY</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8004-9060-cd46d958be50" class=""><strong>7. 
-📍 ĐỊNH VỊ THỜI GIAN THỰC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e5-a2ca-fde5b65b06d0" class="bulleted-list"><li style="list-style-type:disc">🎯 <strong>GPS chính xác</strong> → nhận cuốc dễ dàng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8074-9ef0-fd820826f7ec" class="bulleted-list"><li style="list-style-type:disc">📶 <strong>Mất tín hiệu</strong> → điều phối can thiệp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8006-96cb-dd8fac009738" class="bulleted-list"><li style="list-style-type:disc">⏰ <strong>Dừng lâu</strong> → hệ thống tự cảnh báo</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-806c-b569-d94bb16e84c2"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8049-a6b0-ec99adde588f" class=""><strong>🚨 PHẦN 2: 4 TÌNH HUỐNG &quot;DỪNG XE TỨC THÌ&quot;</strong> (5 phút)</h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8069-b6d4-ec13bfcc9d75" class=""><strong>1. 🔴 CẢNH BÁO PIN ĐỎ</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f8-bd8d-f32a7cc6ae7d" class="bulleted-list"><li style="list-style-type:disc">💥 <strong>Nguy cơ</strong>: Cháy nổ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b1-be63-ca301cced69f" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>Xử lý</strong>: DỪNG LẠI NGAY</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80c3-bf39-cde0f8c5a547" class=""><strong>2. 
-🌡️ NHIỆT ĐỘ PIN TRÊN 50°C</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808d-9f80-def9d5fbe636" class="bulleted-list"><li style="list-style-type:disc">🔥 <strong>Nguyên nhân</strong>:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f6-b6a1-df148db655d1" class="bulleted-list"><li style="list-style-type:circle">Đường nóng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800f-a925-ebfef19e832d" class="bulleted-list"><li style="list-style-type:circle">Chạy tốc độ cao kéo dài</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806b-957a-dd9bec0a1657" class="bulleted-list"><li style="list-style-type:circle">Sạc xong chưa nguội</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803f-b365-c2aa83107789" class="bulleted-list"><li style="list-style-type:disc">🛑 <strong>Xử lý</strong>: Dừng xe → Mở cửa → Báo NOC</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-805a-8364-e1a162fb3ced" class=""><strong>3. 🔊 ÂM THANH LẠ</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8055-9706-ed8fb3ec5554" class="bulleted-list"><li style="list-style-type:disc">🎵 <strong>Lạch cạch</strong> - linh kiện lỏng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803e-a578-e0519818db7b" class="bulleted-list"><li style="list-style-type:disc">📳 <strong>Rung mạnh</strong> - vấn đề động cơ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8023-934a-ece101d9e827" class="bulleted-list"><li style="list-style-type:disc">🔧 <strong>Xử lý</strong>: Dừng kiểm tra → Báo kỹ thuật</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80fa-997e-d48c3b7a323a" class=""><strong>4. 
-🟡 ĐÈN VÀNG &quot;CẢNH BÁO&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bd-b2a7-ecef3cb8a4bd" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>Mức độ</strong>: Lỗi nhẹ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8058-be47-ef138f30eab4" class="bulleted-list"><li style="list-style-type:disc">📍 <strong>Quy tắc</strong>:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e6-9fb4-f869e9571156" class="bulleted-list"><li style="list-style-type:circle">Lần 1: Giảm tốc + báo cáo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d4-bfce-df0735fd049c" class="bulleted-list"><li style="list-style-type:circle">Lần 2: KIỂM TRA NGAY</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8069-9363-f11bd6f9a574" class=""><strong>🎯 NGUYÊN TẮC VÀNG:</strong><em>&quot;ĐÈN ĐỎ - DỪNG! 
-ĐÈN VÀNG - CHẬM LẠI + BÁO CÁO!&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8019-b76b-da691ed65473"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8044-b549-f918e2d0d68b" class=""><strong>📞 PHẦN 3: QUY TRÌNH 5 BƯỚC &quot;XỬ LÝ SỰ CỐ&quot;</strong> (5 phút)</h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-803e-8c16-d3409df0311e" class=""><strong>BƯỚC 1 🛑 - DỪNG XE AN TOÀN</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ea-9081-da1ff2e29cb2" class="bulleted-list"><li style="list-style-type:disc">🅿️ <strong>Vị trí</strong>: Lề rộng, 
-không giữa làn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807d-843c-faa675b34ae8" class="bulleted-list"><li style="list-style-type:disc">⚠️ <strong>Cảnh báo</strong>: Bật đèn khẩn cấp</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80a6-ac98-e0d479957a5d" class=""><strong>BƯỚC 2 📱 - GỬI BÁO CÁO TRÊN APP</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8056-922d-df04928e0a36" class="bulleted-list"><li style="list-style-type:disc">🎯 <strong>Chọn mục</strong>:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8079-bb11-f9bc6e68d5f4" class="bulleted-list"><li style="list-style-type:circle">✅ &quot;Lỗi kỹ thuật&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bd-965f-df0c72a4a6d0" class="bulleted-list"><li style="list-style-type:circle">✅ &quot;Cảnh báo động cơ&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8002-b53d-ec7c9bba3ea5" class="bulleted-list"><li style="list-style-type:circle">✅ &quot;Cảnh báo pin&quot;</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e7-8b03-ef72702766cf" class="bulleted-list"><li style="list-style-type:circle">✅ &quot;Âm thanh bất thường&quot;</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80db-a440-f67c9be5cf45" class=""><strong>BƯỚC 3 📞 - GỌI ĐIỀU PHỐI</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-802e-a967-dcf62acf1223" class="bulleted-list"><li style="list-style-type:disc">💬 <strong>Câu chuẩn</strong>:<br/><em>&quot;Xe cảnh báo màu [màu], vị trí [nơi], 
-em chờ hướng dẫn.&quot;</em></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8099-8eed-da404848e96c" class=""><strong>BƯỚC 4 ⏳ - CHỜ CHỈ DẪN</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-802f-bca8-c94134a612aa" class="bulleted-list"><li style="list-style-type:disc">🔍 <strong>Điều phối sẽ</strong>:<div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c2-a357-fbc61a5728c1" class="bulleted-list"><li style="list-style-type:circle">Kiểm tra hệ thống</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80cc-aa8f-d4956d515ee9" class="bulleted-list"><li style="list-style-type:circle">Phân tích lịch sử</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8081-9503-f3a802bf8a53" class="bulleted-list"><li style="list-style-type:circle">Điều phương tiện hỗ trợ</li></ul></div></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80e9-856c-e1dc3275a106" class=""><strong>BƯỚC 5 🚫 - KHÔNG TỰ Ý SỬA CHỮA</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8094-91d1-f9f7994e6d81" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>Không</strong> mở khoang pin</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ae-9f19-cc6eca4ed000" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>Không</strong> động cầu dao</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8053-ba99-c5dc128d2582" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>Không</strong> reset hệ thống</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8078-8a8f-c89b6290b01c"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8040-a54b-dbd6aec3516e" class=""><strong>💎 THÔNG ĐIỆP QUAN TRỌNG</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8083-97b4-f74b314f5985" c
-lass=""><strong>&quot;Các tài xế thân mến!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8031-ae92-e53f24cba604" class="">Hãy nhớ: <strong>Bạn không cần là thợ kỹ thuật - chỉ cần NHẬN BIẾT ĐÚNG và BÁO CÁO NHANH!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808e-a5b3-c3f140ea0e6b" class="">Mỗi lần bạn tuân thủ quy trình này, bạn đang bảo vệ chính mình và hành khách, đồng thời góp phần vào sự PHÁT TRIỂN BỀN VỮNG của UniTaxi!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802d-b67a-ecc6a333409d" class=""><strong>Đội ngũ kỹ thuật và điều phối LUÔN SẴN SÀNG hỗ trợ bạn 24/7.</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803e-9658-f19f4f207aa9" class="">Hãy trở thành những TÀI XẾ ĐIỆN THÔNG THÁI - TIÊN PHONG TRONG KỶ NGUYÊN MỚI! ⚡🚗</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ea-9fba-ce6bb5dd4037" class="">UniTaxi <strong>TỰ HÀO</strong> đồng hành cùng bạn! ❤️&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80a5-aa78-e6d6d563ec7f"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80c9-815d-eadde77d9730" class=""><strong>V. 
-HỆ THỐNG GIÁM SÁT TRẠM SẠC (20 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80dd-978d-e03bdd6a219b" class=""><strong>🎯 20 PHÚT THÀNH THẠO: HỆ THỐNG GIÁM SÁT TRẠM SẠC THÔNG MINH</strong> ⚡</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8051-97d0-e04ab81f1829"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-806b-80b6-d26b83b7de6a" class=""><strong>🏗️ PHẦN 1: HIỂU RÕ &quot;CẤU TRÚC TRẠM SẠC THÔNG MINH&quot;</strong> (5 phút)</h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8002-bf43-ca0a8ce5805b" class=""><strong>🔧 THÀNH PHẦN THEN CHỐT CỦA TRẠM SẠC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8086-8ea2-d14a01e80890" class="bulleted-list"><li style="list-style-type:disc"><strong>Trụ sạc</strong> - &quot;Trái tim&quot; hệ thống</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a0-a793-db5d46114cab" class="bulleted-list"><li style="list-style-type:disc"><strong>Đầu kết nối</strong> - &quot;Bàn tay&quot; truyền điện</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800a-a9ae-dcc11ae330ce" class="bulleted-list"><li style="list-style-type:disc"><strong>Màn hình hiển thị</strong> - &quot;Giao diện&quot; trực quan</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8037-817d-d938cdf94d7f" class="bulleted-list"><li style="list-style-type:disc"><strong>Dây cáp</strong> - &quot;Huyết mạch&quot; dẫn điện</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8032-8810-e3115a400e47" class="bulleted-list"><li style="list-style-type:disc"><strong>CB &amp; RCD</strong> - &quot;Vệ sĩ&quot; chống giật</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809d-83b5-f778e95762f6" class="bulleted-list"><li style="list-style-type:disc"><strong>Camera &amp; cảm biến</strong> - &quot;Đôi mắt&quot; 
-an ninh</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8067-88d9-cd81fdb2fd17" class=""><strong>📊 TRẠNG THÁI TRẠM TRÊN HỆ THỐNG</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bb-a074-f1d0a58a508f" class="bulleted-list"><li style="list-style-type:disc">🟢 <strong>Available</strong>: Trống - sẵn sàng phục vụ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80fa-a1bc-e60665c07422" class="bulleted-list"><li style="list-style-type:disc">🟡 <strong>Occupied</strong>: Đang sạc - vui lòng chờ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a8-993f-f3a059b6ee2b" class="bulleted-list"><li style="list-style-type:disc">🔴 <strong>Fault</strong>: Lỗi kỹ thuật - không sử dụng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b0-9335-d3679d8609b4" class="bulleted-list"><li style="list-style-type:disc">⚫ <strong>Offline</strong>: Mất kết nối - báo điều phối ngay</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80a2-9114-ff70795a80e5" class=""><strong>🎯 KIỂM TRA TRẠM TRỐNG THÔNG MINH</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d0-a443-d3d9d0b41794" class="bulleted-list"><li style="list-style-type:disc">📱 <strong>Kiểm tra app</strong> - thông tin thời gian thực</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bf-aad7-f8ab1bbe8e25" class="bulleted-list"><li style="list-style-type:disc">📞 <strong>Gọi điều phối</strong> - khi khu vực đông xe</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e9-a265-e59b381b2ea1" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>Không chắn lối</strong> - khi chưa được hướng dẫn</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8054-b1b3-f4a61bc828da"/></div><div style="display:contents" dir="auto"><h2 i
-d="2b1c5e6f-95bd-8081-a446-e5f79282a097" class=""><strong>⚡ PHẦN 2: QUY TRÌNH &quot;SẠC THÔNG MINH - AN TOÀN TUYỆT ĐỐI&quot;</strong> (5 phút)</h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-809d-835b-d1032cd01200" class=""><strong>🛡️ AN TOÀN TRƯỚC KHI SẠC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8030-b329-e9cb5d80238c" class="bulleted-list"><li style="list-style-type:disc">🔌 <strong>Tắt máy</strong> - kéo phanh tay</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8039-84ad-d54163346458" class="bulleted-list"><li style="list-style-type:disc">👀 <strong>Kiểm tra</strong> đầu cắm sạch sẽ, 
-khô ráo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8035-9fba-c093ce816c6a" class="bulleted-list"><li style="list-style-type:disc">💧 <strong>Tuyệt đối không</strong> cắm khi đầu cắm ướt</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d1-854f-ca35c51b0bbf" class="bulleted-list"><li style="list-style-type:disc">🚷 <strong>Di chuyển khách</strong> ra xa khu vực sạc</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80b9-9b14-f8b3bd2d1a8f" class=""><strong>📏 KHOẢNG CÁCH AN TOÀN VÀNG</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803a-985f-e9dabf64bd53" class="bulleted-list"><li style="list-style-type:disc">📐 <strong>Giữ khoảng cách</strong> 0.5-1 mét từ đầu sạc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b1-9591-e41c8a90892b" class="bulleted-list"><li style="list-style-type:disc">🙅 <strong>Không cúi mặt</strong> sát đầu sạc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800a-9af7-dc35e506998b" class="bulleted-list"><li style="list-style-type:disc">👶 <strong>Cảnh báo trẻ em</strong> - không đến gần</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80a3-8755-c4d76812ab74" class=""><strong>🔌 QUY TRÌNH CẮM SẠC CHUẨN</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8052-b32d-ee9fbbd72a9a" class="numbered-list" start="1"><li><strong>Kiểm tra màn hình</strong> → Trạng thái Available</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8012-a9fc-eace26c97de8" class="numbered-list" start="2"><li><strong>Cắm thẳng góc</strong> → Nghe &quot;click&quot; 
-khớp</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d1-82c9-edd1df817058" class="numbered-list" start="3"><li><strong>Xác nhận kết nối</strong> → Trên màn hình/app</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80e8-b8a2-d547bb93b091" class="numbered-list" start="4"><li><strong>Di chuyển an toàn</strong> → Đứng cách xa đầu sạc</li></ol></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-807d-ad4e-e0e485f9e6a5" class=""><strong>🔋 QUY TRÌNH RÚT SẠC AN TOÀN</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80de-8b8e-d08b539685fe" class="numbered-list" start="1"><li><strong>Kết thúc phiên</strong> → Trên app/trạm</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8050-ad1a-fbe801c623a0" class="numbered-list" start="2"><li><strong>Chờ xác nhận</strong> → Màn hình báo Stop</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8060-a30c-fc674b815766" class="numbered-list" start="3"><li><strong>Rút thẳng tay</strong> → Không xoay vặn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b9-bef5-fa1badbd5e40" class="numbered-list" start="4"><li><strong>Sắp xếp gọn</strong> → Treo dây đúng vị trí</li></ol></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80cb-b138-ecaab9e0dd49" class=""><strong>🎖️ 4 NGUYÊN TẮC VÀNG KHÔNG BAO GIỜ VI PHẠM</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8038-a6dd-cf7188c6a5ee" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>KHÔNG</strong> giật mạnh dây cáp</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8099-8390-e9bde0e268bb" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>KHÔNG</strong> xoắn vặn đầu cắm</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2b1c5e6f-95bd-8031-9ebd-cb4fa90d3e0f" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>KHÔNG</strong> để đầu cắm rơi xuống đất</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bb-a589-fc05d48c0121" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>KHÔNG</strong> khởi động xe khi đang sạc</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-803f-b6c3-d697dd676fa2"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8069-824c-d0b8f2d12359" class=""><strong>🚨 PHẦN 3: XỬ LÝ SỰ CỐ &quot;NHANH - CHUẨN - AN TOÀN&quot;</strong> (5 phút)</h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80b8-8cd8-e3a467ffde7e" class=""><strong>🔧 5 LỖI THƯỜNG GẶP</strong></h3></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8021-b057-dfa03a2c98c9" class="numbered-list" start="1"><li><strong>Đầu cắm không nhận</strong> - không kết nối</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8045-8fa4-c8377821e511" class="numbered-list" start="2"><li><strong>Trạm mất điện</strong> - không hoạt động</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ae-9b9b-ec5b5c18c352" class="numbered-list" start="3"><li><strong>Màn hình Fault</strong> - báo lỗi hệ thống</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8073-b057-c9f17c27824b" class="numbered-list" start="4"><li><strong>Xe không sạc</strong> - sau 10 giây chờ</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-806f-8cc8-e51d3b07ba65" class="numbered-list" start="5"><li><strong>Kẹt đầu cắm</strong> - không rút được</li></ol></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8082-9d78-e6fcfebb1299" class=""><strong>🛠️ QUY TRÌNH XỬ LÝ CHUẨN NOC</strong></h3></div><div style="display:contents" dir="auto"><ul i
-d="2b1c5e6f-95bd-80b5-bde1-ce2ba66e0031" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG cố gắng</strong> rút bằng force</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bc-a8e1-d7bb0f60336a" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG đập</strong> vào trụ sạc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80df-b8ec-cd1806f5b46b" class="bulleted-list"><li style="list-style-type:disc">🚫 <strong>KHÔNG chuyển trụ</strong> khi chưa báo cáo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8024-81c9-f0b729bf4c3e" class="bulleted-list"><li style="list-style-type:disc">📸 <strong>Chụp ảnh lỗi</strong> → Gửi báo cáo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8093-bdfa-f9ffe708fd83" class="bulleted-list"><li style="list-style-type:disc">📞 <strong>Gọi ngay</strong> điều phối &amp; 
-kỹ thuật</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-805a-a1b7-cc6d795a2864"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80a2-9d9c-e9f10825e75f" class=""><strong>📋 PHẦN 4: QUY ĐỊNH VẬN HÀNH &quot;THÉP&quot;</strong> (5 phút)</h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8037-8db3-e76b41997d9c" class=""><strong>🚫 TUYỆT ĐỐI KHÔNG ĐỂ KHÁCH TỰ SẠC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8072-979d-fe641ea3afb1" class="bulleted-list"><li style="list-style-type:disc">⚡ <strong>Nguy cơ giật điện</strong> - rủi ro cao</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8049-89b3-e99116d8f184" class="bulleted-list"><li style="list-style-type:disc">📝 <strong>Vi phạm quy trình</strong> - mất chuẩn</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80de-a07b-f036d740c784" class="bulleted-list"><li style="list-style-type:disc">⚖️ <strong>Trách nhiệm pháp lý</strong> - hệ lụy lớn</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8031-b529-d8e3a3dd1eb9" class=""><strong>🌧️ KHU VỰC CẤM SẠC</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809a-a756-d493c29dfa2f" class="bulleted-list"><li style="list-style-type:disc">💦 <strong>Khu vực ngập nước</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806b-b4af-dc7bbfca2325" class="bulleted-list"><li style="list-style-type:disc">🌧️ <strong>Nơi mưa tạt trực tiếp</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800a-b816-fbc7c060800b" class="bulleted-list"><li style="list-style-type:disc">🔌 <strong>Dây điện hở</strong> - lộ lõi đồng</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8089-b078-e2f919865b7a" class=""><strong>⚠️ 3 HÀNH VI NGUY HIỂM CẦN TRÁNH</strong></h3></div><div style="display:contents" d
-ir="auto"><ul id="2b1c5e6f-95bd-80b2-bf84-c3eb2d9c5542" class="bulleted-list"><li style="list-style-type:disc">🙅 <strong>Sờ đầu cáp</strong> bằng tay ướt</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8023-a193-d6f42472019e" class="bulleted-list"><li style="list-style-type:disc">🚷 <strong>Đứng đối diện</strong> đầu cắm khi khởi động sạc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80b4-933c-cc22c391678f" class="bulleted-list"><li style="list-style-type:disc">🔥 <strong>Chạm dây điện</strong> khi đang sạc</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8026-b2fe-c95d1a68f6cb" class=""><strong>🏁 CHUẨN &quot;SẠC XONG - GIẢI PHÓNG&quot;</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8007-a939-c4e62c46f348" class="bulleted-list"><li style="list-style-type:disc">⏱️ <strong>Không chiếm dụng</strong> trạm sau khi sạc xong</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ba-ac34-e43e9a956f68" class="bulleted-list"><li style="list-style-type:disc">🚗 <strong>Không đỗ lấn</strong> slot</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8047-8a43-f80f24b81777" class="bulleted-list"><li style="list-style-type:disc">🤝 <strong>Tạo điều kiện</strong> cho tài xế khác</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80be-8c21-c44677d86db3"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8076-a0f0-eb2e02928b87" class=""><strong>💎 THÔNG ĐIỆP &quot;AN TOÀN TRÊN HẾT&quot;</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bc-baf3-df4e0c3ee938" class=""><strong>&quot;Các tài xế thân mến!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8080-988f-e6057016c78b" class="">Trạm sạc là <strong>KHU VỰC AN TOÀN ĐẶC BIỆT</strong> - mọi thao tác đều phải TUÂN THỦ THEO QUY TRÌNH!</p></div><div s
-tyle="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ea-93d0-dc10834af580" class="">Hãy nhớ:</p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8018-948d-cd2931f46533" class="bulleted-list"><li style="list-style-type:disc"><strong>Lỗi kỹ thuật</strong> → BÁO NGAY cho NOC</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ee-a2d0-c231e79322bc" class="bulleted-list"><li style="list-style-type:disc"><strong>Tuyệt đối không</strong> tự ý xử lý</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8026-9c9d-fd8f0d7cf400" class="bulleted-list"><li style="list-style-type:disc"><strong>Sạc đúng - Rút đúng - Đứng đúng</strong> = AN TOÀN TUYỆT ĐỐI</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8070-bb23-d9285563de6b" class="">Mỗi lần bạn thao tác chuẩn, bạn không chỉ bảo vệ chính mình mà còn đang <strong>BẢO VỆ CỘNG ĐỒNG TÀI XẾ UNICABI!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8007-a9c6-c95f97093597" class=""><strong>Đội ngũ kỹ thuật 24/7 LUÔN SẴN SÀNG hỗ trợ bạn!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ec-97d4-d80ca97bb81c" class="">Hãy trở thành những <strong>TÀI XẾ THÔNG THÁI - CHUYÊN NGHIỆP - VĂN MINH!</strong> 🚗⚡</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ad-a774-d65fea8745f8" class="">UniTaxi <strong>TỰ HÀO</strong> đồng hành cùng bạn! ❤️&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80c7-bdb9-f6554085f232"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8060-8ba9-e24f3775c4c9" class=""><strong>VI. 
-THỰC HÀNH – ROLE-PLAY 7 TÌNH HUỐNG (20 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8087-9868-c3b4376afe91" class=""><strong>🎯 20 PHÚT THÀNH THẠO: XỬ LÝ 7 TÌNH HUỐNG THỰC TẾ ĐỈNH CAO</strong> 🚗💨</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-807c-ab1d-cd88ae9b52e3"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80ef-b826-c4a404a262dd" class=""><strong>📋 GIỚI THIỆU BUỔI THỰC HÀNH</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c1-acdc-f1371db1fb5b" class=""><strong>Mục tiêu:</strong> Rèn luyện phản xạ NHANH - Xử lý ĐÚNG - Giao tiếp KHÉO trong 7 tình huống &quot;có thật 100%&quot;</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8039-bc0e-f26130d6bab5" class=""><strong>3 TIÊU CHÍ ĐÁNH GIÁ:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8045-a1ac-d9a57d842acb" class="bulleted-list"><li style="list-style-type:disc">⚡ <strong>Tốc độ xử lý</strong> (5-10 giây)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8019-80e0-cffba9e2475a" class="bulleted-list"><li style="list-style-type:disc">💬 <strong>Kỹ năng giao tiếp</strong> (không tranh cãi)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8042-89d2-df71f0547a17" class="bulleted-list"><li style="list-style-type:disc">📚 <strong>Tuân thủ quy trình</strong> (đúng 100% SOP)</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80cd-8a93-c7ab5e80b39b"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-801b-b08a-f117e3370e42" class=""><strong>🔄 7 TÌNH HUỐNG &quot;THỬ THÁCH THẬT&quot;</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80c1-a083-fdecf83ef1bb" class=""><strong>🟦 TÌNH HUỐNG 1: APP TREO KHI NHẬN CUỐC</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8081-a276-c459cb870a6d" c
-lass=""><strong>🔍 DẤU HIỆU NHẬN BIẾT:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80af-a259-e64d625cfe95" class="bulleted-list"><li style="list-style-type:disc">🗺️ Bản đồ đứng im</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d0-835a-ce4755ad5260" class="bulleted-list"><li style="list-style-type:disc">📱 Nút &quot;Nhận cuốc&quot; 
-không hoạt động</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8052-b36f-cca843bf369e" class="bulleted-list"><li style="list-style-type:disc">⏳ Không phản hồi thao tác</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bf-9b82-f9881be3e481" class=""><strong>🎯 QUY TRÌNH 5 BƯỚC:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80bd-9d5e-c60672d4bd7d" class="numbered-list" start="1"><li>🛑 Tấp vào lề an toàn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b9-a63b-f7f0d36a7473" class="numbered-list" start="2"><li>🔄 Tắt app → Mở lại</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80fc-9567-e31a2fe6048a" class="numbered-list" start="3"><li>📝 Gửi Report: &quot;App treo - không nhận cuốc&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ca-b5f5-faef6520fc8b" class="numbered-list" start="4"><li>📞 Báo điều phối 1 câu</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80bf-a700-caf2ba1d7416" class="numbered-list" start="5"><li>🚫 Không tắt máy xe</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8059-b038-c98af6cee9c6" class=""><strong>💬 CÂU MẪU CHUẨN:</strong><em>&quot;Dạ hệ thống đang lỗi, em đang xử lý theo quy trình ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8037-ba57-ca605e7bbeb0"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80bb-b84c-e6def94b63e1" class=""><strong>🟦 TÌNH HUỐNG 2: GPS SAI - ĐIỀU HƯỚNG VÒNG VO</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805d-9f52-c5a205c07dec" class=""><strong>🔍 DẤU HIỆU NHẬN BIẾT:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8099-8cf9-c10e51d4deb5" class="bulleted-list"><li style="list-style-type:disc">🗺️ Bản đồ lag, 
-chậm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-804e-b8d7-dce029dce715" class="bulleted-list"><li style="list-style-type:disc">🚏 Chỉ đường sai block/hướng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e1-92c7-ecc83e82f04f" class="bulleted-list"><li style="list-style-type:disc">🔀 Điều hướng vòng vèo</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8020-aca0-da6ed4cb8dc1" class=""><strong>🎯 QUY TRÌNH 4 BƯỚC:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8087-bb50-fadfd0aff02d" class="numbered-list" start="1"><li>👀 Quan sát biển báo thực tế</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8062-be6f-c51f93f3d3b4" class="numbered-list" start="2"><li>🚫 Không đánh lái theo GPS nguy hiểm</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8028-a92f-db717b04b750" class="numbered-list" start="3"><li>⏱️ Dừng ngắn 3-5 giây xác định hướng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b9-9728-e2c398e66796" class="numbered-list" start="4"><li>📞 Báo điều phối nếu cần</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8011-b094-e03396c6b197" class=""><strong>💬 CÂU MẪU CHUẨN:</strong><em>&quot;Đoạn này GPS hơi sai, 
-em đi hướng an toàn nhất cho mình nhé.&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8046-9013-ecd20761d382"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8040-9bc6-e3be3b282c43" class=""><strong>🟦 TÌNH HUỐNG 3: QUÊN BẤM &quot;KẾT THÚC CUỐC&quot;</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8040-b618-c5724dd39276" class=""><strong>⚠️ RỦI RO NGAY LẬP TỨC:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80de-a3ad-e800b621260f" class="bulleted-list"><li style="list-style-type:disc">💸 Sai dữ liệu thu nhập</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8072-a22f-e89f02023758" class="bulleted-list"><li style="list-style-type:disc">📊 Ảnh hưởng báo cáo</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8008-8b23-e4fc063c0087" class="bulleted-list"><li style="list-style-type:disc">😠 Tranh chấp với khách</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b0-bb50-d43df3321e38" class=""><strong>🎯 QUY TRÌNH 3 BƯỚC:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-806c-9c52-e8d2dd0f8cac" class="numbered-list" start="1"><li>🙏 Xin lỗi khách ngay</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-801b-a9be-dd6da90abbb7" class="numbered-list" start="2"><li>📱 Bấm &quot;Kết thúc cuốc&quot; 
-tức thì</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80e8-a789-c05b9e5232aa" class="numbered-list" start="3"><li>📞 Báo điều phối điều chỉnh</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807b-b6b4-d2553b1f0bc3" class=""><strong>💬 CÂU MẪU CHUẨN:</strong><em>&quot;Dạ em xin lỗi, để em kết thúc cuốc ngay và báo hệ thống điều chỉnh ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80ef-8c26-c25ab28ebc24"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8095-bb62-d1a7d3913d4f" class=""><strong>🟦 TÌNH HUỐNG 4: KHÁCH YÊU CẦU ĐƯỜNG CẤM</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ad-b537-f727829f862f" class=""><strong>🎯 QUY TRÌNH 4 BƯỚC:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-808e-9a7f-e378bd40d8d9" class="numbered-list" start="1"><li>🚫 Không tranh luận</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-806d-a827-dd653fc1833c" class="numbered-list" start="2"><li>💡 Giải thích 1 câu rõ ràng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b6-99bd-e5d9349a2b06" class="numbered-list" start="3"><li>🛣️ Chọn đường thay thế an toàn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8018-ac1a-e937f5483072" class="numbered-list" start="4"><li>📞 Báo điều phối nếu khách ép</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8084-bccb-f8806f3a60d8" class=""><strong>💬 CÂU MẪU CHUẨN:</strong><em>&quot;Đường này cấm, 
-mình đi hướng bên kia sẽ an toàn và đúng luật hơn ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80e2-bae0-fdd3a9785550"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80c0-9bd6-fb36c7ae7115" class=""><strong>🟦 TÌNH HUỐNG 5: LỖI PIN BÁO NÓNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b6-ba51-e20c51d58a99" class=""><strong>🔍 DẤU HIỆU NGUY HIỂM:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f1-a35d-d4fa0141b14b" class="bulleted-list"><li style="list-style-type:disc">🔥 Pin nóng bất thường</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8085-803c-fd9cff96dec2" class="bulleted-list"><li style="list-style-type:disc">👃 Mùi lạ từ xe</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8082-b84d-c6803499edfd" class="bulleted-list"><li style="list-style-type:disc">⚠️ Cảnh báo trên dashboard</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8099-af6d-f09b9d999ce8" class=""><strong>🎯 QUY TRÌNH 5 BƯỚC KHẨN CẤP:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8043-85cf-d0626601b800" class="numbered-list" start="1"><li>🛑 Dừng xe NGAY LẬP TỨC</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8095-8b0e-ff30bdfeb534" class="numbered-list" start="2"><li>🚪 Mở cửa thông thoáng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8096-8c0e-e7c808e1f1ff" class="numbered-list" start="3"><li>🚶 Đưa khách ra xa 5-10m</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ab-85eb-dfca4866bac5" class="numbered-list" start="4"><li>📝 Gửi Report: &quot;Battery Overheat Warning&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ae-b80b-c806f777dfce" class="numbered-list" start="5"><li>📞 Gọi đ
-iều phối + kỹ thuật</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8023-b6f0-e9fe60dd09bf" class=""><strong>💬 CÂU MẪU CHUẨN:</strong><em>&quot;Xe đang báo nhiệt độ cao, em dừng kiểm tra để đảm bảo an toàn cho mình ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80ee-9c24-eeea30dc1463"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8098-8912-d21a0b0ebe1b" class=""><strong>🟦 TÌNH HUỐNG 6: TRẠM SẠC QUÁ TẢI</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8087-9167-d89ea7c28204" class=""><strong>🎯 QUY TRÌNH 4 BƯỚC:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8072-99c3-ea120a586b01" class="numbered-list" start="1"><li>🔍 Kiểm tra trạm khác trên hệ thống</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8005-aa8c-db3d1239b908" class="numbered-list" start="2"><li>🚫 Không cố cắm lại nhiều lần</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8019-932d-e7aa6190604c" class="numbered-list" start="3"><li>📝 Gửi Report: &quot;Station Overload/No Charging&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8093-86d7-f83d5b72b583" class="numbered-list" start="4"><li>📞 Báo điều phối điều hướng trạm mới</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8005-9e02-ee172eb68534" class=""><strong>💬 CÂU MẪU CHUẨN:</strong><em>&quot;Trạm đang quá tải, 
-em chuyển sang trạm gần nhất theo hướng dẫn hệ thống.&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80af-b327-f82b187863b3"/></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80ea-849d-ed4a7af70f7d" class=""><strong>🟦 TÌNH HUỐNG 7: NHẶT ĐƯỢC ĐỒ KHÁCH</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8000-8b21-fe11b16f500d" class=""><strong>🎯 QUY TRÌNH 5 BƯỚC BẮT BUỘC:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8076-b386-e999ef7ffc28" class="numbered-list" start="1"><li>📞 Không tự gọi khách</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8091-b8b1-e8f7fdc5f096" class="numbered-list" start="2"><li>📝 Gửi Report: &quot;Lost Item&quot;</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d0-b896-e4d8ddfabf81" class="numbered-list" start="3"><li>📞 Báo điều phối giữ đồ</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8098-ade2-c672d8a31167" class="numbered-list" start="4"><li>📸 Chụp hình vật dụng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ff-a118-e819dedd6afd" class="numbered-list" start="5"><li>🚫 Không mở/kiểm tra đồ</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f6-8bbf-c72ae56996ad" class=""><strong>💬 CÂU MẪU CHUẨN:</strong><em>&quot;Em vừa nhặt được đồ khách để lại, 
-em báo điều phối giữ hộ ngay ạ.&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80b9-9cb6-c6372b4c16b8"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8033-b854-fd1a1b37307c" class=""><strong>📊 BẢNG ĐÁNH GIÁ THỰC HÀNH</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8082-9c80-f08057f59a44" class=""><strong>🎯 TIÊU CHÍ CHẤM ĐIỂM (10 điểm/tình huống)</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8026-a983-c8a056c7397d" class=""><strong>⚡ TỐC ĐỘ XỬ LÝ (4 điểm)</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d9-9397-d557e4b2dc2e" class="bulleted-list"><li style="list-style-type:disc">✅ Phản ứng trong 5-10 giây: 4 điểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800e-bd0e-daa43b567afa" class="bulleted-list"><li style="list-style-type:disc">✅ 11-15 giây: 3 điểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8071-8f51-f7ca1eba2f78" class="bulleted-list"><li style="list-style-type:disc">✅ Trên 15 giây: 2 điểm</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809f-a796-f1a16925861f" class=""><strong>💬 GIAO TIẾP (3 điểm)</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8059-ac75-fd33973df310" class="bulleted-list"><li style="list-style-type:disc">✅ Giọng nhẹ, 
-không căng thẳng: 3 điểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809e-9500-c42d5adb3bdc" class="bulleted-list"><li style="list-style-type:disc">✅ Còn hơi vội: 2 điểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807e-b889-d6eac2b23fc6" class="bulleted-list"><li style="list-style-type:disc">✅ Thiếu tự nhiên: 1 điểm</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802b-8b03-dc0142a82f2d" class=""><strong>📚 TUÂN THỦ QUY TRÌNH (3 điểm)</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d8-9f5e-e924bb16c45d" class="bulleted-list"><li style="list-style-type:disc">✅ Đúng 100% SOP: 3 điểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808a-a4ad-e685460e2e7e" class="bulleted-list"><li style="list-style-type:disc">✅ Thiếu 1 bước: 2 điểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8073-9627-c5482f6ab70a" class="bulleted-list"><li style="list-style-type:disc">✅ Thiếu 2 bước trở lên: 1 điểm</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8026-b8fd-c391661539b1"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80d7-83ed-fdab2f10ed4e" class=""><strong>🏆 THANG ĐIỂM ĐÁNH GIÁ</strong></h2></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e7-8b02-e3c4b4e45b10" class="bulleted-list"><li style="list-style-type:disc">🥇 <strong>XUẤT SẮC</strong>: 65-70 điểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f1-adae-f380a4592927" class="bulleted-list"><li style="list-style-type:disc">🥈 <strong>TỐT</strong>: 55-64 điểm</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a4-9f20-fc8a597ba5b1" class="bulleted-list"><li style="list-style-type:disc">🥉 <strong>ĐẠT</strong>: 45-54 điểm</li></ul></div><div style="display:contents" dir="auto"><ul i
-d="2b1c5e6f-95bd-80b3-b626-e421246a7a23" class="bulleted-list"><li style="list-style-type:disc">📝 <strong>CẦN LUYỆN THÊM</strong>: Dưới 45 điểm</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80a7-92ce-cf73c21da563"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8019-ad1b-ceb434d081e4" class=""><strong>💫 LỜI CHÚC KẾT THÚC</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e3-a76e-ca6d8b2cd99d" class=""><strong>&quot;Chúc mừng các anh chị đã hoàn thành buổi thực hành!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8071-abdf-f48b3a34bc65" class="">Mỗi tình huống hôm nay là một bài học QUÝ GIÁ cho hành trình TRỞ THÀNH TÀI XẾ ĐẲNG CẤP của các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807d-bc00-e5f485e3065b" class="">Hãy nhớ:</p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8045-b70a-d735eec6ca3f" class="bulleted-list"><li style="list-style-type:disc"><strong>Bình tĩnh</strong> là chìa khóa thành công</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8057-99fa-ee9145b7106d" class="bulleted-list"><li style="list-style-type:disc"><strong>Quy trình</strong> là kim chỉ nam</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c0-84b4-f3e388398a51" class="bulleted-list"><li style="list-style-type:disc"><strong>Giao tiếp</strong> là nghệ thuật</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e3-a7b9-cda9f5177453" class="">UniTaxi <strong>TỰ HÀO</strong> đồng hành cùng sự PHÁT TRIỂN của các anh chị! 
-❤️</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f3-9b69-e2aa028e6125" class=""><strong>RA ĐƯỜNG VÀ TỎA SÁNG!</strong> 🌟🚗&quot;</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-805b-8098-c5b75935a089"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-805b-8c65-d1e8730fa20b" class=""><strong>VII. KẾT THÚC – BÀI TEST (10 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8090-a7fd-c11c2fe34b7e" class=""><strong>🎯 10 PHÚT ĐÁNH GIÁ TOÀN DIỆN: BÀI TEST CHUẨN ĐẦU RA UNITAXI</strong> 📝</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-808c-ae6b-fb95402d9cb9"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8032-ad71-ee65d2ed025d" class=""><strong>📋 GIỚI THIỆU BÀI KIỂM TRA</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8051-a4b8-d4735b259664" class=""><strong>Mục tiêu:</strong> Xác nhận năng lực tối thiểu - Đảm bảo an toàn - Chuẩn bị cho thực hành</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d7-99f2-fd158a04db06" class=""><strong>Thời gian:</strong> 10 phút - <strong>Số câu:</strong> 10 trắc nghiệm + 5 tình huống</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8082-9852-e5d68ba6e4d8"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80dd-8497-e6d9d1d4948c" class=""><strong>📝 PHẦN A: 10 CÂU TRẮC NGHIỆM &quot;THỬ THÁCH HIỂU BIẾT&quot;</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-803c-bdb6-f0bd8c7a3bb1" class=""><strong>1. 
-❓ Khi app treo, tài xế được phép tắt máy để reset?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a5-85fd-d85095675eb7" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI</strong> → Chỉ reset app, không tắt máy khi đang ở nơi đông xe</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80c8-a054-c5ba426f970d" class=""><strong>2. ❓ Khách yêu cầu đi đường cấm, tài xế phải từ chối ngay lập tức?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8019-b540-f99f1b21ee50" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI</strong> → Giải thích 1 câu → đề xuất đường thay thế</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8070-841b-ca3abab78f06" class=""><strong>3. ❓ Khi pin báo nóng, tài xế phải dừng xe ngay và đưa khách ra xa?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809a-9c73-e0a545d4dec1" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>ĐÚNG</strong> - An toàn là trên hết!</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8081-8a8d-e0cf00770c0c" class=""><strong>4. ❓ Thấy trẻ em xuống xe một mình là vi phạm quy định?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8098-8034-d5419d35d6e5" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>ĐÚNG</strong> - Bảo vệ trẻ em là trách nhiệm hàng đầu</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80f3-99a6-d8e16d4263af" class=""><strong>5. 
-❓ Khi quên bấm &quot;Kết thúc cuốc&quot;, tài xế chỉ cần xin lỗi khách?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803e-91c1-f2e8082afdf2" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI</strong> → Phải báo điều phối để chỉnh dữ liệu</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80cc-ba61-ef76231e8d84" class=""><strong>6. ❓ Nhặt được đồ khách, tài xế được phép gọi khách trực tiếp cho nhanh?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8093-8a67-d2e1c56402b7" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI</strong> → Tuyệt đối báo điều phối, không gọi khách</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80ae-9483-f0b4c9947b6d" class=""><strong>7. ❓ Khi khách la mắng, tài xế phải giải thích đầy đủ để họ hiểu?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e7-a035-d39fe7888604" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI</strong> → Giải thích 1 câu → hạ giọng → tránh tranh cãi</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80da-b795-cc84a9df5872" class=""><strong>8. ❓ Khi trạm sạc quá tải, tài xế phải thử cắm lại nhiều lần?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8013-b602-ddfbfb93ee5f" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI</strong> → Gửi Report → báo điều phối → sang trạm khác</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-806a-a522-f02ffeabe988" class=""><strong>9. 
-❓ Gặp điểm đón nguy hiểm, tài xế phải chủ động chọn vị trí an toàn hơn?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800b-b8b7-e576d8519fd3" class="bulleted-list"><li style="list-style-type:disc">✅ <strong>ĐÚNG</strong> - Chủ động bảo vệ an toàn</li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8027-9658-de6f7786b707" class=""><strong>10. ❓ App không hiển thị đúng km/hành trình, tài xế vẫn tiếp tục chạy?</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806b-bd1f-ed3e6390ff77" class="bulleted-list"><li style="list-style-type:disc">❌ <strong>SAI</strong> → Báo điều phối → gửi Report trước khi tiếp tục</li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8072-a2d9-e3f2d4c632f5"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8011-b896-e137d4153af0" class=""><strong>🎤 PHẦN B: 5 TÌNH HUỐNG &quot;PHẢN XẠ NHANH&quot;</strong> (30 giây/câu)</h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8037-93f2-ee55b4f82fdd" class=""><strong>1. 🚨 Khách yêu cầu đi rất nhanh vì sắp trễ giờ?</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fa-840a-f75a4ec76c47" class=""><strong>→ &quot;Em giữ tốc độ ổn định để mình an toàn nhất ạ.&quot;</strong></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80a3-9413-f25be6860add" class=""><strong>2. 🔥 Xe báo lỗi pin giữa đường?</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8076-a388-db685a272617" class=""><strong>→ Dừng an toàn → Mở cửa → Đưa khách ra xa → Report → Gọi điều phối</strong></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80f6-a32c-c878b6ae5aee" class=""><strong>3. 
-🚪 Khách mở cửa xuống giữa làn?</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804c-b72c-f0605acdff84" class=""><strong>→ Giữ cửa → Nhắc nhẹ: &quot;Chỗ này không an toàn, mình dừng sát lề nhé.&quot;</strong></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-808a-8f6c-ce42eca3ecb6" class=""><strong>4. 🗺️ App không load bản đồ ở điểm đón?</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808d-b767-c0437d9166ea" class=""><strong>→ Dừng an toàn → Reset app → Gọi khách xác nhận vị trí</strong></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80a9-bad5-fc9c18f7071d" class=""><strong>5. 
-😠 Khách công kích cá nhân?</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807b-85d5-eb812b4f1c8e" class=""><strong>→ Hạ giọng: &quot;Dạ để em xử lý ngay ạ.&quot; 
-→ Báo điều phối</strong></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-804c-8c9d-c9f1fdc11b9f"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8012-983d-d6193c6cfaf9" class=""><strong>📊 TIÊU CHÍ ĐÁNH GIÁ CHUẨN</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-806b-8b61-f756edf2b9ac" class=""><strong>✅ ĐẠT YÊU CẦU KHI:</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80be-804c-eea461bd1369" class="bulleted-list"><li style="list-style-type:disc">🎯 Trả lời đúng <strong>≥ 8/10 câu</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80af-9e59-df44dee0ec38" class="bulleted-list"><li style="list-style-type:disc">🗣️ Thể hiện <strong>giọng bình tĩnh</strong> trong phần tình huống</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8034-a408-f7258a928a17" class="bulleted-list"><li style="list-style-type:disc">💬 Không sử dụng từ ngữ <strong>phản ứng, đổ lỗi</strong></li></ul></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8016-8462-cadc5820c1b1" class=""><strong>❌ KHÔNG ĐẠT KHI:</strong></h3></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805b-ba2a-ea47b6695dab" class="bulleted-list"><li style="list-style-type:disc">⚠️ Sai <strong>≥ 3 câu quan trọng</strong> (pin, trẻ em, trạm sạc, an toàn)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-800e-9559-c0a05b238ae7" class="bulleted-list"><li style="list-style-type:disc">😤 Thái độ <strong>căng thẳng, 
-tranh cãi</strong></li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-806e-98f0-c8938c6d9ccc" class="bulleted-list"><li style="list-style-type:disc">🗯️ Không nhớ <strong>câu mẫu cơ bản</strong></li></ul></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8031-9912-d527b99e388e"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-80f7-824e-d062f21b24be" class=""><strong>🎯 5 NGUYÊN TẮC BẤT BIẾN UNITAXI</strong></h2></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-80a3-9a62-d6dcce301178" class=""><strong>1. 🛡️ AN TOÀN TUYỆT ĐỐI</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809e-aa0f-ff64ef800341" class=""><em>&quot;Mạng sống và sức khỏe là không thể thay thế&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-804d-afcb-f49bd6b6a39d" class=""><strong>2. 🤝 KHÔNG TRANH CÃI</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8025-a7ff-db1d67ae42d7" class=""><em>&quot;Thắng trong im lặng - An toàn trong hành động&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-806d-b848-cc379092cd1e" class=""><strong>3. 📋 KHÔNG XỬ LÝ NGOÀI QUY TRÌNH</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8040-867d-d3cd2646423f" class=""><em>&quot;Quy trình là lá chắn bảo vệ bạn&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-804c-862b-c1d628b1de5b" class=""><strong>4. 📱 KHÔNG NÓI MIỆNG - CHỈ BÁO CÁO TRÊN HỆ THỐNG</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e1-ba65-d1a4a99d6727" class=""><em>&quot;Không có report = không có bảo vệ&quot;</em></p></div><div style="display:contents" dir="auto"><h3 id="2b1c5e6f-95bd-8032-9ecd-c8388dd46336" class=""><strong>5. 
-❤️ TỬ TẾ ĐÚNG LÚC - ĐÚNG MỨC</strong></h3></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f5-bd27-c4a8124e45f8" class=""><em>&quot;Chuyên nghiệp không có nghĩa là vô cảm&quot;</em></p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-80e4-b151-e61e4550a26a"/></div><div style="display:contents" dir="auto"><h2 id="2b1c5e6f-95bd-8038-bdf6-c05a1e1f42a0" class=""><strong>💫 LỜI KẾT TRÀN ĐẦY CẢM HỨNG</strong></h2></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80aa-95a0-d64cf0d10e53" class=""><strong>&quot;Chúc mừng các anh chị đã hoàn thành bài kiểm tra!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a6-8bbe-c76b50fa701b" class="">Mỗi câu trả lời đúng của các anh chị hôm nay là một viên gạch vững chắc xây nên <strong>SỰ NGHIỆP TÀI XẾ CHUYÊN NGHIỆP!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803e-951f-e4412f28bc8d" class="">Hãy nhớ: <strong>Kiến thức + Kỹ năng + Thái độ = TÀI XẾ UNITAXI ĐẲNG CẤP!</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8067-bf9a-da9661257bf5" class="">Chúng tôi <strong>TIN TƯỞNG</strong> vào sự thành công của các anh chị và <strong>CAM KẾT</strong> đồng hành cùng các anh chị trên mọi nẻo đường!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f7-a637-eddb431324f6" class=""><strong>HẸN GẶP LẠI TRÊN NHỮNG HÀNH TRÌNH MỚI!</strong> 🚗✨</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805f-96dd-dcccbf6f3687" class="">UniTaxi - <strong>VỮNG TAY LÁI, TRỌN NIỀM TIN!</strong> ❤️&quot;</p></div><div style="display:contents" dir="auto"><hr id="2b1c5e6f-95bd-8014-9943-f88ed116ab83"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8057-aa53-ce7f43a78d96" class=""><strong>📘 6. 
-SỨC KHOẺ – NĂNG LƯỢNG – TẬP TRUNG (4 GIỜ)</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-80f1-a410-e118b7b09b4c" class=""><em>(Chuẩn đào tạo của Nhật Bản &amp; Singapore dành cho tài xế EV)</em></p></div><div style="display:contents" dir="ltr"><table id="2aec5e6f-95bd-808c-a490-facad7374572" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8044-a1ca-ec1ddb828ce4"><th id="qWpK" class="simple-table-header-color simple-table-header"><strong>Mục</strong></th><th id="r&lt;qa" class="simple-table-header-color simple-table-header"><strong>Nội dung chi tiết</strong></th><th id="qKGv" class="simple-table-header-color simple-table-header"><strong>Tiêu chuẩn quốc tế</strong></th><th id="PGh[" class="simple-table-header-color simple-table-header"><strong>Thời lượng</strong></th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-808d-a150-ef3338e648c6"><td id="qWpK" class=""><strong>1. Tư thế ngồi &amp; đứng</strong></td><td id="r&lt;qa" class="">Ngồi đúng góc – lưng thẳng – tránh tê tay – tê chân</td><td id="qKGv" class="">Japan Taxi Ergonomic Standard</td><td id="PGh[" class="">25’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-800a-8048-f68e8ae815ac"><td id="qWpK" class=""><strong>2. Bài khởi động 5 phút/đầu ca</strong></td><td id="r&lt;qa" class="">Xoay vai – giãn lưng – hít thở – xoay cổ</td><td id="qKGv" class="">Singapore Transport Fitness Protocol</td><td id="PGh[" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-801d-85a2-f35dffd8a90d"><td id="qWpK" class=""><strong>3. 
-Quy trình nghỉ giữa ca</strong></td><td id="r&lt;qa" class="">Nghỉ 5–10 phút sau 3–4 giờ lái</td><td id="qKGv" class="">WHO Urban Mobility Guideline</td><td id="PGh[" class="">25’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8011-8cc3-dd925257dc52"><td id="qWpK" class=""><strong>4. Dấu hiệu mất tỉnh táo</strong></td><td id="r&lt;qa" class="">Mắt cay – phản xạ chậm – khó chịu – bực vô cớ – buồn ngủ</td><td id="qKGv" class="">Bộ tiêu chí của Uber Safety</td><td id="PGh[" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8060-b46c-e57e9d9af06f"><td id="qWpK" class=""><strong>5. Cách xử lý khi mất tập trung</strong></td><td id="r&lt;qa" class="">Tắt xe – đứng dậy – uống nước – báo điều phối</td><td id="qKGv" class="">Lyft Fatigue Protocol</td><td id="PGh[" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8026-8f41-cf8f9e2d668e"><td id="qWpK" class=""><strong>6. Chế độ ăn uống hợp lý</strong></td><td id="r&lt;qa" class="">Không ăn quá no – chia nhỏ bữa – uống nước chia nhỏ</td><td id="qKGv" class="">Standard of Singapore Taxi Academy</td><td id="PGh[" class="">20’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-805f-b1a6-f5cfe53643b0"><td id="qWpK" class=""><strong>7. Hạn chế điện thoại giữa ca</strong></td><td id="r&lt;qa" class="">Không xem clip – không lướt mạng</td><td id="qKGv" class="">Mobile Distraction Prevention (Bolt)</td><td id="PGh[" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80f3-b80c-f9d873df21c2"><td id="qWpK" class=""><strong>8. Bài tập thở giảm stress</strong></td><td id="r&lt;qa" class="">4 kỹ thuật: Box Breathing – 4–6–8 – Reset Breath – 1-min Calm</td><td id="qKGv" class="">Áp dụng cho tài xế quốc tế</td><td id="PGh[" class="">30’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-8015-a9e0-e226b3e5fb39"><td id="qWpK" class=""><strong>9. 
-Quy trình báo điều phối khi mệt</strong></td><td id="r&lt;qa" class="">Cách báo – cách xin đổi ca – khi nào dừng</td><td id="qKGv" class="">SOP Safety Uber</td><td id="PGh[" class="">15’</td></tr></div><div style="display:contents" dir="ltr"><tr id="2aec5e6f-95bd-80cf-aded-df35d1a6af30"><td id="qWpK" class=""><strong>10. Thực hành thực tế</strong></td><td id="r&lt;qa" class="">Tập thở – tập tư thế – mô phỏng dấu hiệu mệt</td><td id="qKGv" class="">Trainer kiểm tra trực tiếp</td><td id="PGh[" class="">25’</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8078-ae4f-cf797f6d8602"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80d5-ab8f-c8376c853cf2" class=""><strong>I. 
-MỤC TIÊU BUỔI HỌC</strong></h1></div><div style="display:contents" dir="auto"><p id="2aec5e6f-95bd-8030-bf90-c03008e23b3b" class="">Sau 4 giờ học, học viên phải:</p></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80ab-a10e-ff6f02dc91b7" class="bulleted-list"><li style="list-style-type:disc">Biết cách <strong>giữ tỉnh táo, không buồn ngủ</strong> khi lái.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8084-b06d-cd6adc767a40" class="bulleted-list"><li style="list-style-type:disc">Biết <strong>ngưỡng an toàn</strong> để không được phép tiếp tục lái xe.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80f5-a4d7-f8342c1cd406" class="bulleted-list"><li style="list-style-type:disc">Biết cách <strong>ăn uống – sinh hoạt – nghỉ ngắn</strong> như tài xế quốc tế.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8090-a01e-f1d40870a882" class="bulleted-list"><li style="list-style-type:disc">Nhận diện <strong>10 dấu hiệu mất tập trung nguy hiểm</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-8024-ac6c-f26feae763c1" class="bulleted-list"><li style="list-style-type:disc">Nắm quy trình <strong>báo điều phối khi cơ thể không an toàn</strong>.</li></ul></div><div style="display:contents" dir="auto"><ul id="2aec5e6f-95bd-80a8-80d8-cabc45d9cce7" class="bulleted-list"><li style="list-style-type:disc">Biết bảo vệ sức khỏe → bảo vệ thu nhập → bảo vệ hình ảnh Unitaxi.</li></ul></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80f2-bd2b-f94e6d30d405"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8003-b22c-f7a6f4dd1ab0" class=""><strong>II. TỔNG QUAN VỀ “THỂ TRẠNG TÀI XẾ” (20 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e1-9390-c36fcc81240a" class=""><strong>📘 II. 
-TỔNG QUAN VỀ “THỂ TRẠNG TÀI XẾ” – 20 PHÚT ĐỈNH CAO</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804c-a78d-ffc9326b60df" class=""><strong>Chuẩn JapanTaxi + Singapore Taxi Academy + Uber Health &amp; Safety</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808b-918e-efa9bfd2a74f" class=""><strong>🎯 Mục tiêu sau 20 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801c-8cc9-c91bf5440866" class="bulleted-list"><li style="list-style-type:disc">Tài xế hiểu rằng: SỨC KHỎE = AN TOÀN = THU NHẬP</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f1-b174-f5cc201219d5" class="bulleted-list"><li style="list-style-type:disc">Không còn coi “mệt thì ráng” là bình thường</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8057-b514-c655df3198b2" class="bulleted-list"><li style="list-style-type:disc">Tự giác nghỉ ngơi, uống nước, thay đổi tư thế như một phần nghề</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f5-8257-fec1f5a31e1e" class="bulleted-list"><li style="list-style-type:disc">Trở thành tài xế “luôn tỉnh – luôn êm – luôn 5 sao”</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8039-85a6-f8404dc285c8" class=""><strong>⏱ 0–10 phút — PHẦN 1: VÌ SAO SỨC KHỎE = AN TOÀN? 
-(Số liệu + thực tế)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8079-abc5-d5877977e8bf" class="">Giảng viên chiếu từng con số + yêu cầu cả lớp đọc to:</p></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-8053-97f3-dc984fe560c6" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80a4-9379-f29aaba65702"><th id="Tlpy" class="simple-table-header-color simple-table-header">Nguồn dữ liệu</th><th id="UHF[" class="simple-table-header-color simple-table-header">Con số thực tế</th><th id="~^Tb" class="simple-table-header-color simple-table-header">Hậu quả nếu bỏ qua</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8071-97cf-e2ac789b1f64"><td id="Tlpy" class="">JapanTaxi 2020–2024</td><td id="UHF[" class="">40% tai nạn do tài xế mệt, mắt mờ, phản xạ chậm</td><td id="~^Tb" class="">→ Tai nạn nghiêm trọng</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-800f-b1e0-c450d68af14b"><td id="Tlpy" class="">Lyft Global Safety Report 2023</td><td id="UHF[" class="">30% đánh lái sai sau 3 giờ chạy liên tục</td><td id="~^Tb" class="">→ Va quẹt, khách đánh giá thấp</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8098-aacf-faf337570e05"><td id="Tlpy" class="">Singapore Taxi Academy</td><td id="UHF[" class="">72% tranh cãi với khách khi tài xế căng thẳng</td><td id="~^Tb" class="">→ Mất rating, 
-mất thu nhập</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80a3-a80a-e47b0e532923"><td id="Tlpy" class="">Uber Health Study</td><td id="UHF[" class="">Thiếu ngủ 1 đêm = phản xạ chậm như uống 2 lon bia</td><td id="~^Tb" class="">→ Nguy hiểm tương đương lái xe say</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8052-a92c-d2e7f2e70dc7" class=""><strong>Cơ thể mệt → 5 hiện tượng nguy hiểm xảy ra cùng lúc:</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-802c-b02e-eb1ae3c9c12e" class="numbered-list" start="1"><li>Mắt nhòe – mất tầm nhìn 2–3 giây</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-804b-9a6d-fb952027c535" class="numbered-list" start="2"><li>Phản xạ chậm 20–40%</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b3-9037-dce04e420f8a" class="numbered-list" start="3"><li>Dễ cáu gắt → tranh cãi với khách</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-800b-83f0-e216c580e629" class="numbered-list" start="4"><li>Đau lưng, 
-tê chân → không đạp phanh kịp</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80c8-b16c-c3166cafe20a" class="numbered-list" start="5"><li>Buồn ngủ vi mô (micro-sleep) → ngủ gật 1–3 giây mà không biết</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e6-8a60-c6f14975b376" class=""><strong>Đặc thù xe điện làm mọi thứ tệ hơn:</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80cc-9adb-cc4d357a6390" class="bulleted-list"><li style="list-style-type:disc">Xe êm như ru → dễ buồn ngủ</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80aa-b060-dc04b41cc8c8" class="bulleted-list"><li style="list-style-type:disc">Không gian yên tĩnh → não tự chuyển sang chế độ “nghỉ”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80aa-8463-f8e4a6797b36" class="bulleted-list"><li style="list-style-type:disc">Ngồi lâu + điều hòa lạnh → máu lưu thông kém → tê mỏi → phản xạ chậm</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8014-99fa-f443c299e1b6" class=""><strong>⏱ 10–19 phút — PHẦN 2: TẠI SAO UNITAXI PHẢI DẠY SỨC KHỎE NHƯ KỸ NĂNG NGHỀ?</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805a-b43b-e9378bdab8ac" class="">Giảng viên viết 4 lý do to đùng lên bảng + cả lớp đọc to:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ad-977f-f1c7062cc92b" class="numbered-list" start="1"><li>Vì Unitaxi cạnh tranh bằng AN TOÀN &amp; 
-DỊU DÀNG – không phải bằng giá rẻ<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b8-91d3-e2d5e51b21de" class="">→ Tài xế mệt = lái giật = khách sợ = mất thương hiệu</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-802c-8c2e-e486e132c1b6" class="numbered-list" start="2"><li>Vì xe điện yêu cầu cơ thể ở trạng thái ỔN ĐỊNH – TỈNH TÁO<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8089-ab81-eb90c02db246" class="">→ Tăng tốc nhanh, giảm tốc mượt → chỉ làm được khi cơ thể khỏe</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8026-9f6c-d41295ae8421" class="numbered-list" start="3"><li>Vì tài xế là “gương mặt thương hiệu” trong 100% thời gian chuyến xe<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8032-a83b-eeef10acb177" class="">→ Mặt cau có, 
-giọng cáu → khách nhớ mãi “Unitaxi chán”</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-802d-8ea3-dfad344c7e57" class="numbered-list" start="4"><li>Vì sức khỏe tốt = kiểm soát cảm xúc tốt = ít tranh cãi = rating cao = thu nhập cao</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a7-9a4c-e9256f934af7" class=""><strong>⏱ 19–20 phút — 5 THÔNG ĐIỆP THEN CHỐT (cả lớp đứng dậy hô to từng câu!)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80f4-b2d5-e3766ff79849" class="numbered-list" start="1"><li>“SỨC KHỎE TỐT = LÁI ÊM = KHÁCH HÀI LÒNG = TIỀN VÀO ĐẦY TÚI!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8082-a9d0-f65872d6f110" class="numbered-list" start="2"><li>“MỘT GIÂY LƠ ĐỄNH = MẤT CẢ ĐỜI NGHỀ!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80c4-af1c-ec8884bea3c2" class="numbered-list" start="3"><li>“MỆT THÌ BÁO NGHỈ 5 PHÚT → AN TOÀN HƠN CỐ 5 GIỜ!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8067-ac5d-f0b06ba5eee2" class="numbered-list" start="4"><li>“CƠ THỂ MỆT = ĐẦU NÓNG = DỄ CÃI KHÁCH = MẤT SAO!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8040-914a-eecc9678c9d5" class="numbered-list" start="5"><li>“GIỮ SỨC KHỎE LÀ NGHỀ – KHÔNG PHẢI LỰA CHỌN!”</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8068-b059-f08e58e12bdf" class=""><strong>KẾT THÚC BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ce-b548-c0f32c0a0aa5" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c2-a568-f2645733658a" class="">Từ hôm nay, mỗi lần các anh chị uống 1 ngụm nước, duỗi chân 30 giây, 
-nghỉ ngơi 5 phút –</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8071-ad59-d1855081379a" class="">các anh chị không lười – các anh chị đang LÀM NGHỀ CHUYÊN NGHIỆP NHẤT!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800f-94e5-e3ec507ca31e" class="">Hãy bước ra khỏi phòng học này và tự nhủ thật to:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809a-bac8-c6359580ba6b" class="">“TÔI KHÔNG CHỈ LÁI XE ĐIỆN – TÔI LÁI XE BẰNG CƠ THỂ KHỎE MẠNH VÀ TRÁI TIM TỈNH TÁO!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8047-811a-e9d56ae9dcc2" class="">Unitaxi tự hào vì có những tài xế biết yêu thương chính mình để yêu thương khách!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fe-a504-f439171b9274" class="">Bây giờ… ra đường và lái bằng 100% sức khỏe nào! ⚡💪❤️”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80dc-bfba-c46e4961ad30" class="">(20 phút kết thúc – kiến thức đã khắc sâu vào tiềm thức!)</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805e-80b8-d588c5be7dc2" class="">Nếu bạn sẵn sàng cho phần thực chiến nhất:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800d-b432-fa96dcff8e5f" class="">👉 Chỉ cần nói “Viết tiếp phần III: 6 kỹ năng giữ sức khỏe – tập trung khi lái (30 phút)”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8054-8dff-f3c404d49988" class="">Mình bắn ngay bản siêu thực tế + bài tập tại chỗ! 🔥</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80a0-b22d-cc6ad07afef3"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8047-b39e-d238f33bae82" class=""><strong>III. TƯ THẾ + THÓI QUEN TRƯỚC CA (40 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806d-a1c6-c2685bffae65" class=""><strong>📘 III. 
-TƯ THẾ + THÓI QUEN TRƯỚC CA – 40 PHÚT THỰC CHIẾN</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d4-8a94-d7ae22aa35f6" class=""><strong>Chuẩn JapanTaxi + Singapore Taxi Academy + Uber Driver Health</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804e-9572-f0ec3d64e0d1" class=""><strong>🎯 Mục tiêu sau 40 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809f-9dce-e3a00168aec0" class="bulleted-list"><li style="list-style-type:disc">Mọi tài xế ngồi đúng 100% ngay từ giây đầu lên xe</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ab-ab72-ec6b5c4e41b2" class="bulleted-list"><li style="list-style-type:disc">Không còn đau lưng, tê chân, mỏi vai sau ca 8–10 tiếng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f5-9822-ca24a9e2dbdc" class="bulleted-list"><li style="list-style-type:disc">Tăng độ tỉnh táo thêm 30–40% chỉ với 5 phút chuẩn bị</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-807f-bda0-df11624c7876" class="bulleted-list"><li style="list-style-type:disc">Lái êm như tài xế Nhật – khách tự động cho 5 sao</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8034-9c07-d0ed4a53ad2e" class=""><strong>⏱ 0–15 phút — PHẦN 1: TƯ THẾ NGỒI CHUẨN NHẬT BẢN (cả lớp thực hành ngay trên ghế)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fc-b43f-d6f90bc3b499" class="">Giảng viên hô to + cả lớp làm theo từng bước:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80c7-9a93-cfdb4a6ed2cd" class="numbered-list" start="1"><li><strong>Lưng thẳng – vai thả lỏng</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b7-9ca9-c5a90dbaa1c5" class="">→ Dính sát lưng vào ghế, không gù, 
-không ưỡn</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8034-a7dd-ed011ba12656" class="numbered-list" start="2"><li><strong>Khoảng cách vô lăng</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8016-8ae5-e8820c518167" class="">→ Tay duỗi thẳng → cổ tay chạm vô lăng → lùi ghế lại 2–3 cm</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8035-8271-d2104ec6acd3" class="">→ Tay cầm 9h–3h hoặc 10h–2h, khuỷu tay gập nhẹ 120°</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80f4-8091-f164187dd411" class="numbered-list" start="3"><li><strong>Độ cao ghế</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a9-9eb6-daf3e1989c91" class="">→ Mắt ngang hoặc cao hơn tâm vô lăng 5–10 cm</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806f-8752-f285dd96f5bb" class="">→ Nhìn đường phải thấy rõ ít nhất 10–15 m phía trước</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8048-8c72-c8ffac068bd1" class="numbered-list" start="4"><li><strong>Chân với pedal</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809a-83e8-c910ee293282" class="">→ Đạp hết phanh mà đầu gối còn gập 20–30°</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8078-b36d-c97888926c0b" class="">→ Không duỗi thẳng chân (rất nguy hiểm khi phanh gấp)</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80e0-a74b-d1f1b82743a6" class="numbered-list" start="5"><li><strong>Gương chiếu hậu</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d1-b12a-dbdf8e837141" class="">→ Gương trái/phải: chỉ thấy 5–10% thân xe</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802b-aeea-ea60ddde988c" class="">→ Gương trong: thấy toàn bộ kính hậu, 
-không phải cúi người</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807b-9393-c8e2e97cfbfb" class=""><strong>Thực hành 3 phút:</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e6-98ba-fa5b1c7a27c8" class="">Mọi người chỉnh ghế ngay tại chỗ → giảng viên đi vòng sửa từng người → ai sai phải làm lại 2 lần!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fa-a98c-f50f9802ef42" class=""><strong>⏱ 15–30 phút — PHẦN 2: THÓI QUEN 5 PHÚT TRƯỚC CA (bắt buộc làm mỗi ngày)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8028-908d-d6e054c87b62" class=""><strong>Bước 1 – Khởi động 90 giây (cả lớp đứng dậy làm theo giảng viên)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-808d-abb1-c08c6ee0f380" class="numbered-list" start="1"><li>Xoay vai 10 vòng thuận – 10 vòng ngược</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80a0-89e7-fe56d0627d3d" class="numbered-list" start="2"><li>Nghiêng cổ trái 5 lần – phải 5 lần</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8026-b11c-d81b68e9ac27" class="numbered-list" start="3"><li>Vươn người + hít sâu 3 lần</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-807f-868d-c81dedea84d8" class="numbered-list" start="4"><li>Xoay cổ tay + bóp nắm tay 10 lần</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ff-9af3-e09dbee8ec2d" class="">→ Giảm 40% tê mỏi vai cổ sau 8 tiếng!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8046-b6f7-ee583da71c74" class=""><strong>Bước 2 – Nước &amp; 
-Oxy (60 giây)</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8019-863e-d20f7ad286dc" class="bulleted-list"><li style="list-style-type:disc">Uống 3–4 ngụm nước (không uống ừng ực)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80cc-baa3-c4b815053399" class="bulleted-list"><li style="list-style-type:disc">Thở 4-2-4 (cả lớp làm theo):<br/>Hít vào 4 giây → giữ 2 giây → thở ra 4 giây → lặp lại 4 lần<br/>→ Não tỉnh ngay lập tức!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e9-af99-dd900b7627ed" class=""><strong>Bước 3 – Checklist 30 giây (cả lớp hô to từng câu)</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8059-bc70-c18e810fce0b" class="bulleted-list"><li style="list-style-type:disc">“Ghế – gương – vô lăng đã đúng chưa?”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80af-94f2-fa1de2c4de96" class="bulleted-list"><li style="list-style-type:disc">“Điều hòa 24–26°C chưa?”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8068-b8b4-c455eb7423a8" class="bulleted-list"><li style="list-style-type:disc">“Mùi xe ổn chưa?”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-802d-b9b3-e10478b74ebc" class="bulleted-list"><li style="list-style-type:disc">“Camera – app – đèn báo có lỗi không?”<br/>→ Unitaxi bắt buộc làm trước cuốc đầu tiên mỗi ca!</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8071-afb8-deb713396f4f" class=""><strong>⏱ 30–40 phút — PHẦN 3: 5 SAI LẦM “GIẾT CHẾT” SỨC KHỎE &amp; 
-RATING</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8064-85ef-dda39267781f" class="numbered-list" start="1"><li>Vội vàng lên xe chạy luôn → não chưa tỉnh → 10 phút đầu dễ tai nạn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8046-a2bd-c8a78ad88dc8" class="numbered-list" start="2"><li>Ghế quá thấp/xa/gần → đau lưng, tê chân, lái giật</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-807d-be52-c04feac8c8b3" class="numbered-list" start="3"><li>Không uống nước → 3 tiếng sau đau đầu, 
-cáu gắt</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8003-bc65-cd434064f33f" class="numbered-list" start="4"><li>Không khởi động → vai cổ cứng đơ sau 4 tiếng</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8014-9d20-c11fa924346f" class="numbered-list" start="5"><li>Để điều hòa 20–22°C → buồn ngủ vi mô → nguy hiểm chết người</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8056-8ade-c02a3aa8c21b" class=""><strong>⏱ 40 phút — KẾT THÚC BÙNG NỔ (cả lớp đứng dậy hô to 3 lần)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802f-a5f7-fe47a62ba205" class="">“TƯ THẾ ĐÚNG – KHỞI ĐỘNG ĐỦ – CHECKLIST XONG = LÁI ÊM CẢ NGÀY!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805c-a141-fd2063884879" class="">“TÔI KHÔNG CHỈ LÊN XE – TÔI CHUẨN BỊ NHƯ MỘT VẬN ĐỘNG VIÊN CHUYÊN NGHIỆP!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8029-bde0-fdba81fe7ab7" class="">“5 PHÚT TRƯỚC CA = 10 TIẾNG AN TOÀN + 5 SAO + KHÔNG ĐAU LƯNG!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8003-b859-fdb45b1c958d" class="">Giảng viên kết:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8030-ba9c-c65bc15b914f" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8063-8364-f18be39a803d" class="">Từ hôm nay, mỗi lần các anh chị chỉnh ghế đúng, xoay vai, uống nước, 
-thở 4-2-4 –</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bf-9984-c74f6731d1f0" class="">các anh chị không lười – các anh chị đang LÁI XE BẰNG SỨC KHỎE ĐỈNH CAO!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8060-81a4-c33dc4d2c1e3" class="">Unitaxi tự hào vì có những tài xế biết yêu cơ thể mình để yêu khách hàng tuyệt đối!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809a-b879-cd5360396911" class="">Bây giờ… ra xe và thực hiện 100% ngay từ ca tiếp theo nào! ⚡💪❤️”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8059-8624-fba1f988a108" class="">(40 phút kết thúc – mọi người đã ngồi đúng, khởi động đủ, sẵn sàng lái 10 tiếng mà vẫn tỉnh!)</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80d9-bade-c15efed40b04"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80b2-a430-f6f19d2d7c58" class=""><strong>IV. QUY TRÌNH NGHỈ NGẮN QUỐC TẾ (30 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a0-b15a-d8cd4b0ad7d5" class=""><strong>📘 IV. 
-QUY TRÌNH NGHỈ NGẮN QUỐC TẾ – 30 PHÚT THỰC CHIẾN</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8010-8142-dbc782a07d9f" class=""><strong>Chuẩn Uber Driver Well-Being + Singapore LTA + JapanTaxi + Lyft Health Program</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801b-aeea-eab2080839dd" class=""><strong>🎯 Mục tiêu sau 30 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-803b-b2bc-d399caf3ef7f" class="bulleted-list"><li style="list-style-type:disc">Tài xế biết chính xác khi nào phải nghỉ, nghỉ bao lâu, nghỉ thế nào</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-808c-b7e8-c2a05c63438a" class="bulleted-list"><li style="list-style-type:disc">Không còn “cố thêm 1 cuốc” rồi ngủ gật</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80ef-8916-dbd0f671d144" class="bulleted-list"><li style="list-style-type:disc">Tăng thời gian tỉnh táo +30–50% mỗi ca</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8056-9e2d-edc147cb2e4a" class="bulleted-list"><li style="list-style-type:disc">Lái êm hơn, ít đau lưng hơn, rating cao hơn, thu nhập cao hơn</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80df-bd83-cb5902261e2b" class=""><strong>⏱ 0–10 phút — PHẦN 1: VÌ SAO PHẢI NGHỈ NGẮN? 
-(Số liệu + thực tế)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802a-9a4a-c7cb19a22aa5" class="">Giảng viên chiếu bảng + cả lớp đọc to:</p></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-8012-8a42-ee4d1ab18296" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80c6-9d08-c699327963cd"><th id="|vqB" class="simple-table-header-color simple-table-header">Thời gian lái liên tục</th><th id="u`gF" class="simple-table-header-color simple-table-header">Hậu quả khoa học</th><th id="aDtS" class="simple-table-header-color simple-table-header">Tăng nguy cơ</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80d9-b4c4-cfa100f24bb7"><td id="|vqB" class="">90 phút</td><td id="u`gF" class="">Não giảm 10–15% khả năng tập trung</td><td id="aDtS" class="">Phanh chậm hơn 0.3–0.5 giây</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80ba-b934-d0442ee40b63"><td id="|vqB" class="">3 giờ</td><td id="u`gF" class="">Phản xạ giảm 30%</td><td id="aDtS" class="">Tai nạn tăng gấp 2</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80fa-a554-d1fbfda445b6"><td id="|vqB" class="">4 giờ</td><td id="u`gF" class="">Mắt mờ + micro-sleep (ngủ gật 1–3 giây)</td><td id="aDtS" class="">JapanTaxi: 40% tai nạn</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80c9-ba81-f3e79f564933"><td id="|vqB" class="">6 giờ+</td><td id="u`gF" class="">Cortisol tăng → dễ cáu, 
-dễ cãi khách</td><td id="aDtS" class="">Rating giảm 0.4–0.8 sao</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8095-9f03-eaf0f587ca09" class=""><strong>Kết luận đanh thép:</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807b-ba51-d39eec58e40d" class="">“NGHỈ NGẮN 5–10 PHÚT = MUA LẠI 2–3 GIỜ TỈNH TÁO VÀ AN TOÀN!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8001-bd8c-c1e6b8f4b277" class=""><strong>⏱ 10–20 phút — PHẦN 2: CHU KỲ NGHỈ VÀNG (GOLDEN REST CYCLE)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80db-b848-d295030bf83e" class=""><strong>Quy tắc bắt buộc Unitaxi (cả lớp hô to 3 lần):</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e4-a09b-da9eb9683e23" class="">“MỖI 3–4 GIỜ → NGHỈ 5–10 PHÚT!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8086-b87d-c70ac14a3b58" class=""><strong>5 việc PHẢI làm trong 5–10 phút (giảng viên làm mẫu – cả lớp làm theo):</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b7-866c-ee3c3784765e" class="numbered-list" start="1"><li>Giãn cơ 60 giây<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ce-b56d-f54e71e1e7de" class="">→ Xoay vai 10 vòng – nghiêng cổ 5 trái 5 phải – vươn người 3 lần</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8060-aed6-de1532f79d70" class="numbered-list" start="2"><li>Uống 3–4 ngụm nước (không uống ừng ực)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80cc-8589-e9825fa14923" class="numbered-list" start="3"><li>Thở 4-4-4 (hít 4 → giữ 4 → thở 4) × 4 lần</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80db-8014-d1a5a0cb8485" class="numbered-list" start="4"><li>Đi bộ 30–50 bước quanh xe</li></ol></div><div style="display:contents" d
-ir="auto"><ol type="1" id="2b1c5e6f-95bd-808c-b150-c02be24c7835" class="numbered-list" start="5"><li>Tự hỏi 3 câu:<div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fb-8aad-d3b8ac9e1a3d" class="">“Mắt có cay không? Vai có cứng không? 
-Mình có đang cáu vô cớ không?”</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8003-a54e-d55c76045354" class=""><strong>5 việc TUYỆT ĐỐI CẤM (giảng viên giơ biển đỏ):</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8018-8154-f7601a5c7776" class="">❌ Lướt TikTok/Facebook</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804f-8d72-cb4b09045bec" class="">❌ Ăn bánh ngọt, trà sữa</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ff-9e1f-ed54708af1ed" class="">❌ Nằm ngủ sâu trên ghế</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d2-9d1d-c5d98abefd4e" class="">❌ Hút thuốc liên tục</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800d-ae09-f5f88d00d5c7" class="">❌ Tắt điều hòa hoàn toàn</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8048-ac90-ccd246bfaddc" class=""><strong>⏱ 20–26 phút — PHẦN 3: CHỌN ĐIỂM NGHỈ AN TOÀN (giảng viên chiếu ảnh thực tế)</strong></p></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-801d-9bdc-e3f0eaa1a32e" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-801b-bf1a-e8fb129bc128"><th id="@XYT" class="simple-table-header-color simple-table-header">ĐƯỢC nghỉ</th><th id="MFXI" class="simple-table-header-color simple-table-header">KHÔNG được nghỉ</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-807f-9f93-ce5cea534740"><td id="@XYT" class="">Bãi đỗ TTTM, siêu thị</td><td id="MFXI" class="">Lề đường lớn, quốc lộ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8065-a409-ce491695b412"><td id="@XYT" class="">Trạm nghỉ Unitaxi</td><td id="MFXI" class="">Khu vực tối, vắng vẻ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80ee-bed0-de765a35243f"><td id="@XYT" class="">Cây xăng lớn, 
-có bảo vệ</td><td id="MFXI" class="">Gần trường học – bệnh viện lúc tan tầm</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80f9-8dda-d3c4404cfdf4"><td id="@XYT" class="">Điểm đỗ có mái che, thoáng</td><td id="MFXI" class="">Nơi cấm đỗ → bị phạt 700k–1 triệu</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8061-bcbb-f0a5cddee012" class=""><strong>Điều hòa khi nghỉ:</strong> 25–27°C (không lạnh quá, 
-không tắt hẳn)</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ba-929f-d8e36b69adf5" class=""><strong>⏱ 26–30 phút — PHẦN 4: LỢI ÍCH THỰC TẾ + THÔNG ĐIỆP KẾT</strong></p></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-8055-a7cb-f429e94e8050" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8064-9dc9-d818651e820b"><th id="BwkZ" class="simple-table-header-color simple-table-header">Đối tượng</th><th id="=Tmm" class="simple-table-header-color simple-table-header">Lợi ích cụ thể</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80fc-9d0a-d881f76d311f"><td id="BwkZ" class="">Tài xế</td><td id="=Tmm" class="">Phản xạ nhanh hơn – ít đau lưng – ít cáu gắt – rating tăng 0.3–0.5 sao</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80e4-b301-ddffc46d0ede"><td id="BwkZ" class="">Khách</td><td id="=Tmm" class="">Cảm giác an toàn – xe chạy êm – không bị giật</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8072-bb9a-e33742087e4a"><td id="BwkZ" class="">Unitaxi</td><td id="=Tmm" class="">Giảm tai nạn – giảm phàn nàn – tăng doanh thu</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8059-8d49-e04c5c1ec265" class=""><strong>Cả lớp đứng dậy hô to 3 lần:</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8003-8c9d-d27277b8f903" class="">“NGHỈ 5–10 PHÚT KHÔNG MẤT CUỐC – NGHỈ 5–10 PHÚT KIẾM ĐƯỢC NHIỀU CUỐC HƠN!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f3-8247-ff2ec9cf3511" class="">“TÔI NGHỈ ĐÚNG GIỜ = TÔI LÁI ĐÚNG CHUẨN = TÔI KIẾM ĐƯỢC NHIỀU TIỀN HƠN!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8057-8955-d50b3c74f6b9" class="">“5 PHÚT NGHỈ = 5 SAO + 50K BOA!”</p></div><div style="display:contents" dir="auto"><p i
-d="2b1c5e6f-95bd-80db-900c-d1e7d1824299" class=""><strong>Giảng viên kết thúc bùng nổ:</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804a-bd76-f00e6bf06b57" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b8-9410-f3312028894c" class="">Từ hôm nay, mỗi lần các anh chị tấp vào nghỉ 5–10 phút, các anh chị không lười –</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ee-b792-cdbc098d5a62" class="">các anh chị đang ĐẦU TƯ vào chính sự an toàn, sức khỏe và túi tiền của mình!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808b-a94c-fa48327bac72" class="">Hãy bước ra đường và thực hiện chu kỳ nghỉ vàng ngay từ ca hôm nay!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8036-9d63-dc4902cb8e1a" class="">Unitaxi tự hào vì có những tài xế biết nghỉ đúng cách để lái xuất sắc cả ngày! ⚡💪❤️”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8028-aec3-df6f2392a06f" class="">(30 phút kết thúc – mọi người đã thuộc lòng chu kỳ nghỉ, sẵn sàng áp dụng ngay!)</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80be-8238-d0a67d252940"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80e1-b1a0-d90a9724836a" class=""><strong>V. NGƯỠNG KHÔNG ĐƯỢC PHÉP LÁI (30 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8059-ac98-eb50014e8cf8" class=""><strong>📘 V. 
-NGƯỠNG KHÔNG ĐƯỢC PHÉP LÁI – 30 PHÚT “ĐỎ = DỪNG NGAY”</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a3-a14b-f8ca538cf86e" class=""><strong>Chuẩn Uber Global Fatigue Threshold + JapanTaxi Health Board + Singapore LTA + Lyft Safety</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80de-9b85-d8ce37354810" class=""><strong>🎯 Mục tiêu sau 30 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bd-b0cc-e1155e31ab61" class="bulleted-list"><li style="list-style-type:disc">Thuộc lòng 10 dấu hiệu đỏ + 8 tình huống cấm lái</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f6-b304-e1e0250dd2cd" class="bulleted-list"><li style="list-style-type:disc">Biết tự kiểm tra 30 giây – biết dừng đúng lúc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8092-b66e-ee36980ae0d4" class="bulleted-list"><li style="list-style-type:disc">Không còn ai “cố thêm 1 cuốc” khi đã vượt ngưỡng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8063-ae80-fa8cdc061500" class="bulleted-list"><li style="list-style-type:disc">Trở thành tài xế biết nói KHÔNG với rủi ro</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8005-858d-d511a2431156" class=""><strong>⏱ 0–10 phút — PHẦN 1: 10 DẤU HIỆU ĐỎ (cả lớp hô to từng cái)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e7-beb1-fc02990368f7" class="">Giảng viên giơ bảng đỏ – học viên đồng thanh:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80e9-9ab7-cf0bc0da8033" class="numbered-list" start="1"><li>HOA MẮT – MẮT MỜ!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8038-a612-c33ffdf94a42" class="numbered-list" start="2"><li>PHẢN XẠ CHẬM – ĐẠP THẮNG TRỄ!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" i
-d="2b1c5e6f-95bd-80c0-955c-e02ae8954007" class="numbered-list" start="3"><li>NGÁP LIÊN TỤC ≥ 3 LẦN!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ac-99d8-f146361f7cbf" class="numbered-list" start="4"><li>ĐAU ĐẦU – TỨC NGỰC – NHÓI VAI GÁY!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8067-bd3f-fde916328e3e" class="numbered-list" start="5"><li>KHÓ TẬP TRUNG – BỎ LỠ ĐÈN!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b6-a781-d0f495549103" class="numbered-list" start="6"><li>CÁU GẮT VÔ CỚ!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8058-819f-d1758b8cbfc5" class="numbered-list" start="7"><li>ĐẦU NẶNG – NÃO CHẬM!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-806a-9683-ea5dcb8c89b1" class="numbered-list" start="8"><li>BUỒN NGỦ – GẬT GÙ!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80dd-aeb9-c7abd2844a03" class="numbered-list" start="9"><li>TIM ĐẬP NHANH BẤT THƯỜNG!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8009-b037-cbf1391300b2" class="numbered-list numbered-list-digits-2" start="10"><li>TÊ TAY – TÊ ĐÙI!</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8034-9801-f6c984683ad8" class="">→ Chỉ cần 1 dấu hiệu = DỪNG XE NGAY + BÁO ĐIỀU PHỐI!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803b-9e7e-d2fb21aa06e6" class=""><strong>⏱ 10–18 phút — PHẦN 2: 8 TÌNH HUỐNG CẤM LÁI (giảng viên giơ biển đỏ từng cái)</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80f0-a0fa-eeee71d2d837" class="numbered-list" start="1"><li>Đã lái ≥ 10 giờ trong ngày</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-807d-b2e5-f74e4c17d13a" class="numbered-list" start="2"><li>Đã lái ≥ 6
- giờ không nghỉ ngắn</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-807a-8b5c-d645fc16aa4d" class="numbered-list" start="3"><li>Vừa cãi nhau/xung đột với khách</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-802d-9f0c-dba81575edda" class="numbered-list" start="4"><li>Mắt cay đỏ rát &gt; 
-10 phút</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80fe-96c6-c5934f673809" class="numbered-list" start="5"><li>Lưng đau không xoay người được</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80be-8ed5-eed52086f6e9" class="numbered-list" start="6"><li>Đau đầu kéo dài dù đã uống nước</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8080-bb05-c6be28fa46ed" class="numbered-list" start="7"><li>Không nhớ đoạn đường vừa đi 5 phút trước</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80e9-b87a-d88c2396f66d" class="numbered-list" start="8"><li>Tự thấy lái giật, 
-không còn êm</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8086-a1ad-c95f72cc4fc1" class="">→ 8 trường hợp này = KHÔNG ĐƯỢC NHẬN CUỐC TIẾP THEO!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8083-a4a6-ec3c0c12b95d" class=""><strong>⏱ 18–26 phút — PHẦN 3: BÀI TẬP TỰ KIỂM TRA 30 GIÂY (cả lớp làm ngay tại chỗ 3 lần)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e5-8782-c9f4c2b4889e" class="">Giảng viên đếm nhịp lớn:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8024-b70b-fe32077afefd" class="numbered-list" start="1"><li>MỞ – NẮM BÀN TAY 10 LẦN → tê = NGUY HIỂM</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-800f-9909-e5e4fd678f66" class="numbered-list" start="2"><li>LIẾC MẮT TRÁI-PHẢI 10 LẦN → hoa mắt = NGUY HIỂM</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d7-bb57-d9d84dd490b9" class="numbered-list" start="3"><li>HÍT SÂU 3 LẦN + THỞ RA CHẬM → chóng mặt = NGUY HIỂM</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d7-ab73-e5cd1aaa9553" class="numbered-list" start="4"><li>XOAY CỔ NHẸ 3 VÒNG → đau/choáng = NGUY HIỂM</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8056-a780-c988a0fedbb3" class="">→ 1 trong 4 bước khó chịu → DỪNG LÁI NGAY!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805f-9d90-dbfd1aaebb82" class=""><strong>⏱ 26–30 phút — PHẦN 4: QUY TRÌNH 4 BƯỚC KHI XUẤT HIỆN DẤU HIỆU (hô đồng thanh)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8047-a6bf-d3fbad9a4884" class="">BƯỚC 1 → “DỪNG XE AN TOÀN!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806e-917c-f9fb1231e289" class="">BƯỚC 2 → “BÁO ĐIỀU PHỐI: Em mệt – xin nghỉ 5–10 phút để an toàn!”</p></div><div style="display:contents" dir="auto"><p i
-d="2b1c5e6f-95bd-803d-9a73-cd6704f1a1c7" class="">BƯỚC 3 → “NGHỈ 5–10 PHÚT: giãn cơ + nước + thở + không điện thoại!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8092-b676-e25b145086c8" class="">BƯỚC 4 → “TỰ TEST LẠI 30 GIÂY → ổn mới chạy, không ổn thì đổi ca!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8015-a7ab-cf1ba7449ae6" class=""><strong>⏱ 30 phút — KẾT THÚC BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804c-850d-cc3c0385437a" class="">Cả lớp đứng dậy, giơ tay hô thật to 3 lần:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804b-aa9b-e705aef6e8ea" class="">“TÔI BIẾT KHI NÀO PHẢI DỪNG!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8059-9ee8-f80e3d9a2a72" class="">“TÔI KHÔNG ĐÁNH CƯỢC MẠNG SỐNG!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8025-80fa-e738b45d7102" class="">“MỘT PHÚT DỪNG ĐÚNG = CẢ ĐỜI BÌNH AN!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8093-b719-c0e9cb84abd9" class="">Giảng viên kết:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8090-abc5-d70822e2ee5a" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8035-beb2-da667bd215df" class="">Từ hôm nay các anh chị không còn là người “cố” nữa –</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-807d-b471-e9e7c24c0e5d" class="">các anh chị là những TÀI XẾ THÔNG MINH biết bảo vệ chính mình và hành khách!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e2-b3e2-d51eaf603d90" class="">Unitaxi tự hào vì có các anh chị! ❤️🚕”</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8047-80e4-dda93e32e339"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8045-aa92-f508e6c0b579" class=""><strong>VI. 
-ĂN UỐNG &amp; 
-SINH HOẠT CHUẨN TÀI XẾ (40 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d2-908f-ca6979db72de" class=""><strong>Chuẩn Uber Driver Wellness + JapanTaxi Health Board + Singapore LTA Driver Care</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d0-be27-ffa4fc8f3866" class=""><strong>🎯 Mục tiêu sau 40 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8046-adf3-f7a286d7e1e2" class="bulleted-list"><li style="list-style-type:disc">Không còn buồn ngủ, tụt năng lượng, đau đầu giữa ca</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8070-848f-ddc1505106a9" class="bulleted-list"><li style="list-style-type:disc">Giữ tỉnh táo + lái êm suốt 10–12 tiếng</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8056-b513-d4eab24af1f3" class="bulleted-list"><li style="list-style-type:disc">Giảm 70% nguy cơ mệt mỏi do ăn uống sai</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8046-94a4-ee6aee84137a" class="bulleted-list"><li style="list-style-type:disc">Tăng rating nhờ luôn tươi tỉnh, giọng nhẹ, 
-không cáu gắt</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8025-b982-e645f30aa67f" class=""><strong>⏱ 0–10 phút — PHẦN 1: ĂN UỐNG TRƯỚC CA (cơm no – không nặng bụng)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c7-a980-e8d9db88e406" class="">Giảng viên chiếu bảng + cả lớp đọc to:</p></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-802b-a78f-e10b5b091495" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80b0-abf0-fa825159cc5f"><th id="qyir" class="simple-table-header-color simple-table-header">NÊN ĂN (2–3 giờ trước ca)</th><th id="VTm{" class="simple-table-header-color simple-table-header">TUYỆT ĐỐI TRÁNH</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-808e-b0d7-c7c8f2a73c5e"><td id="qyir" class="">Cơm + thịt/cá/trứng + rau + canh</td><td id="VTm{" class="">Bánh mì ngọt, mì gói, mì xào dầu</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80a7-90d5-f45a845482dc"><td id="qyir" class="">Trái cây ít đường (táo, ổi)</td><td id="VTm{" class="">Đồ chiên rán, gà rán, khoai chiên</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8054-837b-c454acad5ec3"><td id="qyir" class="">Cháo thịt, bún nhẹ</td><td id="VTm{" class="">Phở/bún nước lèo tè, nhiều hành mỡ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-802c-9396-c8ced8b6b462"><td id="qyir" class="">Uống nước ấm 200–250ml</td><td id="VTm{" class="">Nước đá, trà sữa, nước tăng lực</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c0-8b7f-dc49af32bbdd" class=""><strong>Cà phê thì sao?</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8044-b9b4-ce55336319c2" class="">→ Được, 
-nhưng:</p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80c9-b971-e8cd2da72d4d" class="bulleted-list"><li style="list-style-type:disc">Chỉ 1 ly nhỏ (không đường hoặc ít đường)</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80bc-be95-c4101f0d7c79" class="bulleted-list"><li style="list-style-type:disc">Uống xong trước giờ lái ít nhất 30–45 phút</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80d9-8c72-f2676f5ac23e" class="bulleted-list"><li style="list-style-type:disc">Không uống sau 15h (gây mất ngủ đêm)</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d7-ab35-cbd43ce61788" class=""><strong>⏱ 10–20 phút — PHẦN 2: ĂN UỐNG TRONG CA (giữ đường huyết ổn định)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8087-b8de-f6f48c3002d7" class=""><strong>Quy tắc vàng:</strong> “Chia nhỏ – đều đặn – không đường”</p></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-807b-bb8c-c3e71e730aeb" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8067-b779-e5ab3c93326e"><th id="G@`R" class="simple-table-header-color simple-table-header">Thời gian</th><th id="F&lt;xO" class="simple-table-header-color simple-table-header">Nên làm</th><th id="n;S{" class="simple-table-header-color simple-table-header">Cấm tuyệt đối</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80a1-8488-f713c6799d9b"><td id="G@`R" class="">Mỗi 45–60 phút</td><td id="F&lt;xO" class="">Uống 100–150ml nước ấm</td><td id="n;S{" class="">Uống nước ngọt, trà sữa, nước tăng lực</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-800b-a5a6-e4d226e0b49f"><td id="G@`R" class="">Đói nhẹ</td><td id="F&lt;xO" class="">1 trái chuối nhỏ / 1 nắm hạt điều không muối / bánh gạo lứt</td><td id="n;S{" class="">Bánh ngọt, kẹo, 
-bim bim</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8070-9499-cf2b978d9679"><td id="G@`R" class="">Sau 4–5 giờ</td><td id="F&lt;xO" class="">1 hộp sữa hạt không đường hoặc 1 quả trứng luộc</td><td id="n;S{" class="">Cà phê thứ 2, nước Red Bull</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8022-9954-fd2a2a0d0c6a" class=""><strong>⏱ 20–30 phút — PHẦN 3: SAU CA – PHỤC HỒI NHANH (không ngủ ngay)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8043-a1bc-c62ce2d4d197" class="">Cả lớp làm theo giảng viên tại chỗ:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80ef-b811-e777ea4e32e6" class="numbered-list" start="1"><li>Xuống xe → đi bộ nhẹ 60–90 giây</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-808e-867c-ce157ae6b787" class="numbered-list" start="2"><li>Xoay vai + nghiêng cổ + duỗi lưng 60 giây</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-806d-9129-ed99fafd43f3" class="numbered-list" start="3"><li>Uống 250ml nước ấm</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-802a-9041-dd5a720c8f2e" class="numbered-list" start="4"><li>Ăn nhẹ trong 30 phút đầu:<br/>→ Cháo/súp/miên + rau + ít thịt<br/>→ Trái cây (đu đủ, thanh long, 
-bưởi)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8031-a5b1-e6d1c64493ea" class="numbered-list" start="5"><li>Tắm nước ấm → lên giường (không tắm nước lạnh ngay)</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c9-9c68-f197a43595a5" class=""><strong>⏱ 30–40 phút — PHẦN 4: 10 THÓI QUEN VÀNG CỦA TÀI XẾ 5 SAO</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8023-b27f-ea6f652423c8" class="">Giảng viên viết to lên bảng → cả lớp hô to từng câu:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d3-b9e1-e5cc8c0f80f6" class="numbered-list" start="1"><li>“NGỦ ĐỦ 6–7 GIỜ MỖI ĐÊM!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8035-a01a-cd245f50d36c" class="numbered-list" start="2"><li>“KHÔNG BAO GIỜ BỎ BỮA SÁNG!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d3-8439-f419a36e5f2b" class="numbered-list" start="3"><li>“KHÔNG HÚT THUỐC TRONG CA!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-806d-b2c0-d20722b9595e" class="numbered-list" start="4"><li>“HẠN CHẾ ĐƯỜNG – TRÁNH BUỒN NGỦ!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-801a-9997-c7ae5448e853" class="numbered-list" start="5"><li>“MỖI GIỜ UỐNG 1 NGỤM NƯỚC!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80db-8ada-c71903ac5681" class="numbered-list" start="6"><li>“ĐIỀU HÒA 24–26°C – KHÔNG LẠNH QUÁ!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8012-940e-e74e1839a2ed" class="numbered-list" start="7"><li>“GIÃN CƠ TRƯỚC – GIỮA – SAU CA!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80a8-8fbd-ea8341553acf" class="numbered-list" start="8"><li>“KHÔNG NGỒI Y 1 TƯ THẾ QUÁ 2 GIỜ!”</li></ol></div><div s
-tyle="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80f6-a8d6-e879019eeb8c" class="numbered-list" start="9"><li>“ĐÈN ĐỎ KHÔNG CẦM ĐIỆN THOẠI!”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-803c-adb1-df029659093e" class="numbered-list numbered-list-digits-2" start="10"><li>“MỆT LÀ BÁO – KHÔNG CỐ!”</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8040-8ad1-c72710c83632" class=""><strong>⏱ 40 phút — KẾT THÚC BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8068-95f7-c58133f89a50" class="">Cả lớp đứng dậy, giơ tay hô thật to:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ce-a7a6-d745663d7988" class="">“TÔI ĂN ĐÚNG – UỐNG ĐÚNG – NGHỈ ĐÚNG = TÔI LÁI ÊM CẢ NGÀY!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f4-9480-c72cca531fd6" class="">“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐIỀU KHIỂN CƠ THỂ ĐỈNH CAO!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8036-a1cc-c42314f48d1a" class="">“ĂN UỐNG CHUẨN = 5 SAO + KHÔNG ĐAU LƯNG + KIẾM TIỀN DỄ HƠN!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8064-8065-cb59e06cbebc" class="">Giảng viên kết:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bc-b84c-e31641528e45" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8015-bb7e-ff08c9722cb4" class="">Từ hôm nay, mỗi miếng ăn, mỗi ngụm nước đều là NHIÊN LIỆU cho sự an toàn và thu nhập của chính mình!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8078-a559-d5a3cbfcbcad" class="">Unitaxi tự hào vì có những tài xế biết nuôi dưỡng cơ thể để nuôi dưỡng thương hiệu!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a6-857e-ff6237bb4692" class="">Bây giờ… ra đường và lái bằng 100% năng lượng nào! 
-⚡🍌💪❤️”</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-80fe-a84a-ccaa4f2f206e"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80dc-a404-f67cae37f8ca" class=""><strong>VII. QUẢN LÝ CẢM XÚC &amp; TINH THẦN (35 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d2-aedb-e6ea8177f318" class=""><strong>📘 VII. 
-QUẢN LÝ CẢM XỨC &amp; 
-TINH THẦN – 35 PHÚT “BÌNH TĨNH LÀ SIÊU NĂNG LỰC”</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b8-8c72-f4acb847a21a" class=""><strong>Chuẩn Uber Safety Academy + Lyft Mindfulness + JapanTaxi Emotional Protocol + LTA Singapore</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8055-9daa-eaa763cc1e8c" class=""><strong>🎯 Mục tiêu sau 35 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8043-9293-fc2636123ec4" class="bulleted-list"><li style="list-style-type:disc">Không bao giờ bị khách “dắt cảm xúc”</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80f8-8871-c776c24a644c" class="bulleted-list"><li style="list-style-type:disc">Biến mọi tình huống căng thẳng thành 5 sao</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805a-8093-e033b0bee208" class="bulleted-list"><li style="list-style-type:disc">Giữ đầu lạnh 100% dù khách có la hét, kẹt xe, 
-áp lực cuốc</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8020-90ab-e260092dbdfe" class="bulleted-list"><li style="list-style-type:disc">Trở thành tài xế “không gì làm lung lay được”</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8067-8027-dec343c67ed0" class=""><strong>⏱ 0–10 phút — PHẦN 1: 4 DẤU HIỆU “ĐỎ” – BẠN ĐANG MẤT KIỂM SOÁT</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fd-b43f-f6667330881d" class="">Giảng viên chiếu bảng đỏ + cả lớp đọc to:</p></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-8075-b081-d88058c47b42" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8005-813c-cf58304c5fd2"><th id="WW|:" class="simple-table-header-color simple-table-header">#</th><th id="PZEv" class="simple-table-header-color simple-table-header">Dấu hiệu</th><th id="bT|y" class="simple-table-header-color simple-table-header">Nghĩa là gì?</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80fb-9178-f7be6ad1859b"><td id="WW|:" class="">1</td><td id="PZEv" class="">Giọng nói cao hơn bình thường</td><td id="bT|y" class="">Hệ thần kinh đã “bật chế độ chiến đấu”</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8056-a33c-ceb8b4dd8f7c"><td id="WW|:" class="">2</td><td id="PZEv" class="">Thở nhanh – nông – ngực</td><td id="bT|y" class="">Stress cấp – dễ nói sai, lái giật</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-801a-beaf-cc8839b2f7f7"><td id="WW|:" class="">3</td><td id="PZEv" class="">Bàn tay siết chặt vô lăng</td><td id="bT|y" class="">Cơ thể đang căng cứng → phản xạ chậm</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8086-b56e-d22b97926a49"><td id="WW|:" class="">4</td><td id="PZEv" class="">Đầu nghĩ chuyện khác (khách trước, tiền, 
-gia đình…)</td><td id="bT|y" class="">Não đã rời khỏi đường → nguy hiểm chết người</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805e-8499-e3902c642824" class="">→ Chỉ cần 1 dấu hiệu → áp dụng ngay “cắt căng thẳng 10 giây”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80db-a9ad-cf10bc2aed0e" class=""><strong>⏱ 10–20 phút — PHẦN 2: KỸ THUẬT “CẮT CĂNG THẲNG 10 GIÂY” (cả lớp làm theo giảng viên 5 lần)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8073-856f-e8b37ebc6fdc" class="">Giảng viên đếm nhịp lớn:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80a9-9f04-e6a0db1d9c2b" class="numbered-list" start="1"><li>(2 giây) THẢ VAI XUỐNG – THỞ RA HẾT</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8073-8d13-f4cde0125338" class="numbered-list" start="2"><li>(4 giây) HÍT SÂU BẰNG MŨI 4 GIÂY → GIỮ 1 → THỞ RA MIỆNG 4 GIÂY (lặp 2 lần)</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8081-8cc4-d16b7730bf16" class="numbered-list" start="3"><li>(2 giây) NỚI LỎNG BÀN TAY – CẦM LẠI NHẸ NHÀNG</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80e7-84ea-ce88355dad86" class="numbered-list" start="4"><li>(2 giây) NÓI TRONG ĐẦU: “BÌNH TĨNH – AN TOÀN – DỄ CHỊU”</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804c-95a4-f681b71aad0d" class="">→ JapanTaxi đo: kỹ thuật này giảm nhịp tim 12–18 nhịp/phút trong 10 giây!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8053-bf11-e6f7e541c9e9" class=""><strong>⏱ 20–28 phút — PHẦN 3: XỬ LÝ KHÁCH KHÓ – 2 BƯỚC KHÔNG BAO GIỜ SAI</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f6-a629-c2283286dd03" class="">Giảng viên viết to lên bảng + cả lớp hô:</p></div><div style="display:contents" dir="auto"><p i
-d="2b1c5e6f-95bd-8060-8562-fdf67a9c3e79" class="">BƯỚC 1 → GIẢM GIỌNG – NÓI CHẬM HƠN 20%</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806b-9077-e43479daf680" class="">BƯỚC 2 → BÁO ĐIỀU PHỐI (không cố thắng lý)</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b5-8ba6-f5d11c41b42f" class="">5 câu mẫu bắt buộc phải thuộc (cả lớp đọc to 3 vòng):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80bd-b431-e9e869474aad" class="numbered-list" start="1"><li>“Dạ em hiểu ạ, để em xử lý ngay cho mình.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d8-88a5-c9f740e6c4f1" class="numbered-list" start="2"><li>“Anh/chị yên tâm, em sẽ giữ an toàn nhất ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b2-b926-d4332fbcaaf9" class="numbered-list" start="3"><li>“Dạ em xin lỗi vì đã để anh/chị khó chịu.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8094-aa69-e435c95afe88" class="numbered-list" start="4"><li>“Dạ để em gọi điều phối hỗ trợ thêm cho mình nhé.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8008-a60d-f52a861684d2" class="numbered-list" start="5"><li>“Dạ mình cùng giữ bình tĩnh để chuyến xe an toàn ạ.”</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804d-a850-dd5a12515a53" class=""><strong>⏱ 28–33 phút — PHẦN 4: 3 TÌNH HUỐNG THỰC CHIẾN + ROLE-PLAY NHANH</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8097-97a3-fdb869bcfffb" class=""><strong>Tình huống 1</strong> – Khách la: “Sao trễ thế hả? 
-Tôi trễ họp rồi!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ac-af31-f5a4d1c41da2" class="">→ Học viên thực hành: kỹ thuật 10 giây + câu mẫu 1 hoặc 3</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ea-be72-e1f23b439a5d" class=""><strong>Tình huống 2</strong> – Kẹt xe, khách đập ghế: “Chạy đường khác đi!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c4-993b-c6532f7a0035" class="">→ Học viên: kỹ thuật 10 giây + câu mẫu 2 + giữ tốc độ an toàn</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8070-8a3a-d82a1b571e44" class=""><strong>Tình huống 3</strong> – Khách say, chửi bới liên tục</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8040-9dc6-d8d6272addea" class="">→ Học viên: kỹ thuật 10 giây + câu mẫu 4 + bấm SOS lặng lẽ</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f8-8af5-c95e8cb9d703" class="">→ Giảng viên đi vòng sửa giọng, sửa tư thế từng người</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8017-926e-db735e50346e" class=""><strong>⏱ 33–35 phút — KẾT THÚC BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801c-b367-f7c377e90426" class="">Cả lớp đứng dậy, 
-giơ tay hô thật to:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806b-a1fb-e5e8fddfb049" class="">“TÔI LÀ CHỦ CẢM XÚC CỦA CHÍNH MÌNH!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ab-bfd7-e9de41bd42f1" class="">“KHÁCH CÀNG NÓNG – TÔI CÀNG MÁT!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809f-afe9-dde016cacf53" class="">“10 GIÂY BÌNH TĨNH = 5 SAO + AN TOÀN + THU NHẬP CAO!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e1-9cec-fd538b03c9c8" class="">Giảng viên kết:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804b-acdf-d431a2296a00" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8068-a126-ed2bbad2b516" class="">Từ hôm nay, không còn khách nào “dắt” được cảm xúc của các anh chị nữa!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804f-9519-faaff64e4990" class="">Các anh chị chính là những tài xế MẠNH NHẤT về tinh thần mà Unitaxi từng có!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801b-9932-e03d04b93460" class="">Bước ra đường và lái bằng TRÁI TIM BÌNH TĨNH, ĐẦU LẠNH, VÀ NỤ CƯỜI LUÔN SẴN SÀNG nào! ❤️🚕”</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-808a-a2e6-fc106d8710a1"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-8006-98d7-c258e92993c1" class=""><strong>VIII. QUY TRÌNH BÁO ĐIỀU PHỐI KHI MỆT (20 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a7-bc8d-da5b213b45f1" class=""><strong>📘 VIII. 
-QUY TRÌNH BÁO ĐIỀU PHỐI KHI MỆT – 20 PHÚT “MỆT LÀ BÁO, 
-KHÔNG LÀ CỐ”</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8050-9ee9-efd85af8eb72" class=""><strong>Chuẩn Uber Rest Standard + Lyft Fatigue Protocol + JapanTaxi Safety + LTA Singapore</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8084-9c3a-d0236e7f5c87" class=""><strong>🎯 Mục tiêu sau 20 phút</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8049-958f-fd38fae6b064" class="bulleted-list"><li style="list-style-type:disc">Không còn ai “cố thêm 1 cuốc” khi đã mệt</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8042-a2aa-d31aaab5e923" class="bulleted-list"><li style="list-style-type:disc">Biết báo đúng 1 câu – đúng 3 bước – đúng quy trình</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8081-8ffb-f37312873604" class="bulleted-list"><li style="list-style-type:disc">Giảm 100% tai nạn do mệt mỏi</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805f-84de-c3bec37d544f" class="bulleted-list"><li style="list-style-type:disc">Trở thành tài xế biết nói “Em mệt” một cách CHUYÊN NGHIỆP NHẤT</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e7-99f4-c6fc314655f7" class=""><strong>⏱ 0–5 phút — PHẦN 1: TẠI SAO MỆT LÀ PHẢI BÁO NGAY?</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801d-a88c-d99d4284656d" class="">Giảng viên chiếu 3 con số KHỦNG + cả lớp đọc to:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80bd-93fa-c0313d4bf159" class="numbered-list" start="1"><li>“70% tai nạn có thể tránh được nếu tài xế nghỉ đúng lúc!” – Uber Global 2024</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8072-9117-c67c900f257c" class="numbered-list" start="2"><li>“Tranh cãi với khách tăng gấp 4 lần khi tài xế mệt!” – Lyft Safety Report</li></ol></div><div style="display:contents" d
-ir="auto"><ol type="1" id="2b1c5e6f-95bd-8097-9513-d2cc182dd719" class="numbered-list" start="3"><li>“40% tai nạn đô thị ở Nhật do tài xế cố khi đã có dấu hiệu mệt!” – JapanTaxi 2023</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801e-8e10-ca1330133d34" class="">→ Unitaxi KHÔNG BAO GIỜ phạt người báo mệt.</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80de-be2a-cdb8d5485f2b" class="">→ Unitaxi CHỈ phạt người cố lái khi mệt và gây sự cố.</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8083-a56d-f98eba4dd957" class=""><strong>⏱ 5–12 phút — PHẦN 2: 7 DẤU HIỆU MỆT = PHẢI DỪNG + BÁO NGAY</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f4-a75a-d95c03cce56c" class="">Giảng viên giơ 7 ngón tay – cả lớp hô to từng dấu hiệu:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-803e-b82a-f76039a952fb" class="numbered-list" start="1"><li>MẮT CAY – NHEO LIÊN TỤC!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8091-9a05-edc06559d9f4" class="numbered-list" start="2"><li>PHẢN XẠ CHẬM – ĐẠP THẮNG TRỄ!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8064-98cb-fb6fb1dbd529" class="numbered-list" start="3"><li>NGÁP ≥ 3 LẦN TRONG 5 PHÚT!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8033-9fd0-cd66edc507c4" class="numbered-list" start="4"><li>BUỒN NGỦ – LẮC ĐẦU ĐỂ TỈNH!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8053-ba92-d7d105262f63" class="numbered-list" start="5"><li>ĐAU ĐẦU – CỔ CĂNG!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-803a-9f7d-ce51ba320aa3" class="numbered-list" start="6"><li>HOA MẮT – KHÔNG NHÌN RÕ ĐƯỜNG!</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-803f-a6bf-fd3a6ee4b18c" c
-lass="numbered-list" start="7"><li>KHÓ CHỊU VÔ CỚ – DỄ CÁU!</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8053-b8cd-c7e1005d7454" class=""><strong>Cả lớp hô to 3 lần:</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805c-98d0-fb1780afba22" class="">“CHỈ CẦN 1 DẤU HIỆU = BÁO NGAY!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8019-886e-fb3062cfb7bf" class=""><strong>⏱ 12–18 phút — PHẦN 3: QUY TRÌNH 3 BƯỚC BẮT BUỘC (thuộc lòng + thực hành)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806b-aeb3-ea5d2057e077" class="">Giảng viên viết to lên bảng – cả lớp hô theo từng bước:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8056-86ff-ca74bacdbf29" class=""><strong>BƯỚC 1 – BÁO NGẮN GỌN (10 giây)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8041-9949-f112b5ba5f5f" class="">5 câu mẫu chuẩn (cả lớp đọc to 3 vòng):</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8096-8b5f-e8dc08387861" class="numbered-list" start="1"><li>“Em đang mệt, khó tập trung, xin hỗ trợ ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8010-8f8f-e56d30057054" class="numbered-list" start="2"><li>“Em hơi hoa mắt, xin phép báo để đảm bảo an toàn.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8059-9a10-df18ea08462e" class="numbered-list" start="3"><li>“Em đang buồn ngủ, xin đổi ca ngay ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8010-8864-e5d445d74b27" class="numbered-list" start="4"><li>“Em mất tỉnh táo, 
-xin nghỉ ngắn ạ.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-809d-b30d-dab95175e7a6" class="numbered-list" start="5"><li>“Em cần hỗ trợ vì đang có dấu hiệu mệt.”</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801a-a561-daeb4d01a6d8" class="">→ CẤM nói: “Em cố được”, “Em chạy nốt cuốc này”, 
-“Tại kẹt xe nên mệt”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804c-815b-ecd0f1da597d" class=""><strong>BƯỚC 2 – YÊU CẦU 1 TRONG 3 HÌNH THỨC</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80b1-abf1-fe37c72a7ee3" class="numbered-list" start="1"><li>Đổi ca</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80e1-86a3-c05e3fe968aa" class="numbered-list" start="2"><li>Nghỉ 5–10 phút</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80c9-847f-c40f4dfd8528" class="numbered-list" start="3"><li>Tạm dừng nhận cuốc</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8000-a951-c920c81a5594" class=""><strong>BƯỚC 3 – CHỜ XÁC NHẬN 100%</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801b-97d8-c6f8fa912465" class="">→ Không tự tắt app</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f4-a619-da82029181f1" class="">→ Không tự bỏ cuốc</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ee-935d-d43ee0658a01" class="">→ Không tự chạy về</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b0-b764-dbeb152c466f" class="">→ Chỉ làm đúng hướng dẫn của điều phối</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c3-8898-cc0d22cacbb8" class=""><strong>⏱ 18–20 phút — ROLE-PLAY SIÊU NHANH (3 tình huống)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809b-88eb-fa3531790b8b" class="">Giảng viên chia cặp – 30 giây mỗi tình huống:</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80f6-9995-db7a69432f7e" class="numbered-list" start="1"><li>Đang chờ khách, mắt cay → gọi điều phối</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-807e-92df-f341684cfce7" class="numbered-list" start="2"><li>Đang chạy, 
-buồn ngủ → bấm gọi ngay</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-800a-949c-f28c3ba52a25" class="numbered-list" start="3"><li>Điều phối chưa nghe máy → đỗ xe an toàn, bật đèn khẩn cấp, chờ</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80bf-982b-ced3dc808b86" class=""><strong>⏱ 20 phút — KẾT THÚC BÙNG NỔ</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8056-8a5d-f457a8da70cd" class="">Cả lớp đứng dậy, giơ tay hô thật to:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8037-b3e7-e2132459251b" class="">“MỆT LÀ BÁO – KHÔNG LÀ CỐ!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8038-ad53-cfe79b43dc8a" class="">“TÔI BÁO MỆT = TÔI BẢO VỆ MÌNH VÀ KHÁCH!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800a-9f67-eb406c87bfe0" class="">“1 CÂU BÁO ĐÚNG = 10 NĂM BÌNH AN!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808e-8b63-f4c187f2066f" class="">Giảng viên kết:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b0-855a-e11ef4da6be6" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802d-a255-fb8bbca81b1b" class="">Từ hôm nay, khi các anh chị nói “Em mệt” – đó không phải yếu đuối,</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f7-9417-dc82e35e47b2" class="">đó là hành động DŨNG CẢM và CHUYÊN NGHIỆP NHẤT của một tài xế 5 sao!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803e-ae0a-ef1bf1c2186f" class="">Unitaxi luôn tự hào và luôn đứng sau lưng các anh chị 24/7!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805a-ac92-f9f13d7f2760" class="">Bây giờ… ra đường và lái bằng 100% tỉnh táo, 200% trách nhiệm nào! 
-❤️🚕”</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-803e-b0e7-ea844f058a2d"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-80dc-bbb7-f79e86f5dbf6" class=""><strong>IX. BÀI KIỂM TRA THỰC HÀNH (10 phút)</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8082-b83a-d143c77739d2" class=""><strong>📘 IX. 
-BÀI KIỂM TRA THỰC HÀNH “AN TOÀN 100%” – 10 PHÚT QUYẾT ĐỊNH</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80cd-867f-d0a9f8b6f953" class=""><strong>Chuẩn Uber + Lyft + JapanTaxi + LTA Singapore – Mixed Test</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804f-b163-f0f4e256a802" class=""><strong>🎯 Mục tiêu</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80dd-85af-c3dcfc23efc0" class="bulleted-list"><li style="list-style-type:disc">Kiểm tra kiến thức đã “thấm” thật chưa</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80e0-baec-e99931bad9e2" class="bulleted-list"><li style="list-style-type:disc">Đảm bảo 100% tài xế đủ năng lực an toàn trước khi ra ca thật</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-809f-998a-e0ce8c2fc4e4" class="bulleted-list"><li style="list-style-type:disc">Không ai ra đường nếu chưa đạt ≥ 85%</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80a7-8c78-d2973a2ac5f1" class="bulleted-list"><li style="list-style-type:disc">*</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800c-9ec6-f192d499f4bc" class=""><strong>⏱ 0–5 phút — PHẦN 1: 10 CÂU TRẮC NGHIỆM SIÊU NHANH</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b7-b121-e58bb8d9a126" class="">Giảng viên phát phiếu A4 – học viên khoanh đáp án trong 3 phút – chấm ngay tại chỗ.</p></div><div style="display:contents" dir="ltr"><table id="2b1c5e6f-95bd-8043-b6b6-eb9fa64277c3" class="simple-table"><thead class="simple-table-header"><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8058-8c14-c5b6404977b9"><th id="TYEU" class="simple-table-header-color simple-table-header">Câu</th><th id="`DBU" class="simple-table-header-color simple-table-header">Câu hỏi</th><th id="ugI_" class="simple-table-header-color simple-table-header">Đáp án đ
-úng</th></tr></div></thead><tbody><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80d6-be3f-d0b1c3b8a9c9"><td id="TYEU" class="">1</td><td id="`DBU" class="">Buồn ngủ nhẹ → làm gì đầu tiên?</td><td id="ugI_" class="">C. Báo điều phối ngay</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8023-838d-fd458ff3915d"><td id="TYEU" class="">2</td><td id="`DBU" class="">Dấu hiệu nào KHÔNG được lái tiếp?</td><td id="ugI_" class="">D. Hoa mắt + phản xạ chậm</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8056-a3fd-df8a4cf3879f"><td id="TYEU" class="">3</td><td id="`DBU" class="">Nghỉ ngắn sau mỗi bao lâu?</td><td id="ugI_" class="">B. 5–10 phút sau 3–4 giờ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80e2-a2f4-ed0b39195747"><td id="TYEU" class="">4</td><td id="`DBU" class="">Khách say, quy tắc số 1?</td><td id="ugI_" class="">A. Không tranh cãi</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8050-91a7-d63f2144c1ae"><td id="TYEU" class="">5</td><td id="`DBU" class="">Say nắng → việc đầu tiên?</td><td id="ugI_" class="">B. Dừng xe – bật điều hòa – báo điều phối</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-8055-b240-c976c0519fa9"><td id="TYEU" class="">6</td><td id="`DBU" class="">Dùng điện thoại khi lái → nguy cơ?</td><td id="ugI_" class="">B. Mất tập trung 3 giây → tai nạn tăng x4</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-800e-9819-dc58d58a5288"><td id="TYEU" class="">7</td><td id="`DBU" class="">Đau lưng trong ca → làm gì?</td><td id="ugI_" class="">B. Dừng nghỉ + giãn cơ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-808a-af42-e85b158beb4c"><td id="TYEU" class="">8</td><td id="`DBU" class="">Trường hợp nào phải gọi điều phối ngay?</td><td id="ugI_" class="">C. 
-Va chạm nhẹ</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-808e-b07c-c95d509f595a"><td id="TYEU" class="">9</td><td id="`DBU" class="">Kẹt xe + căng thẳng → làm gì?</td><td id="ugI_" class="">C. Giữ tốc độ ổn định + hít sâu 4 lần</td></tr></div><div style="display:contents" dir="ltr"><tr id="2b1c5e6f-95bd-80d3-b70c-c4d4f1aa8dc3"><td id="TYEU" class="">10</td><td id="`DBU" class="">Ngưỡng tối đa không được lái tiếp?</td><td id="ugI_" class="">C. 10 giờ liên tục</td></tr></div></tbody></table></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-808c-914d-c45ae01bea68" class=""><strong>Chấm điểm nhanh:</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8093-a8da-c06500371fed" class="">10 đúng → 100% → ĐẠT</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8078-80e8-c8e3bb1b1498" class="">8–9 đúng → 80–90% → Cảnh báo + ôn lại</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c2-afe5-c9891793cf19" class="">Dưới 8 → Phải học lại buổi hôm sau</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8040-97a3-e3260741bff3" class=""><strong>⏱ 5–10 phút — PHẦN 2: 5 TÌNH HUỐNG THỰC TẾ (giảng viên đọc – học viên trả lời to 3 bước)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8030-bdf8-ecedeba45254" class="">Giảng viên hô: “TÌNH HUỐNG 1 – GO!” → cả lớp đồng thanh đáp án chuẩn.</p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8073-afb2-e7fabc020a23" class="numbered-list" start="1"><li><strong>Buồn ngủ – ngáp liên tục</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800a-90a7-e93beb0a3b99" class="">→ 1. Dừng xe an toàn</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8098-a645-f729175481a9" class="">→ 2. 
-Báo: “Em đang buồn ngủ, xin nghỉ 5–10 phút ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806d-946e-cb2a16851c06" class="">→ 3. Không nhận cuốc mới</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8074-a34b-ece8ac17814c" class="numbered-list" start="2"><li><strong>Say nắng – choáng, nóng đầu</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8035-840a-d224c812c6dc" class="">→ 1. Tấp vào bóng râm ngay</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8048-8793-f70157ca99bd" class="">→ 2. Bật điều hòa + uống nước ấm</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8048-8bee-e0fd3628cf5c" class="">→ 3. Báo điều phối xin đổi ca</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8050-93d8-df4a98748ded" class="numbered-list" start="3"><li><strong>Khách la mắng vì trễ</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a6-93f1-f087c450d282" class="">→ 1. Hạ giọng cực nhẹ</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8081-b167-f54bbc8f49be" class="">→ 2. “Dạ em hiểu, để em xử lý ngay ạ.”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fc-869e-c7440f9c0f77" class="">→ 3. Nếu khách tiếp tục → báo điều phối</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-805e-a4ba-df78167f1142" class="numbered-list" start="4"><li><strong>Đau thắt lưng không ngồi thẳng được</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ab-9476-f514400a62ba" class="">→ 1. Dừng xe nghỉ 5–10 phút</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f4-a5e8-c74932c6231e" class="">→ 2. Giãn cơ xoay vai + nghiêng cổ</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8062-b368-d98600e88215" class="">→ 3. 
-Báo điều phối nếu không đỡ</p></div></li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-800c-8f1c-feeb78cf95c4" class="numbered-list" start="5"><li><strong>Nhận tin nhắn cá nhân khi đang chạy</strong><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800e-9901-ff229657c073" class="">→ 1. TUYỆT ĐỐI KHÔNG ĐỌC</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805e-bba8-ff8e506dd86b" class="">→ 2. Tấp vào lề an toàn mới xem</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-805a-b72e-eefb52acf4e7" class="">→ 3. 
-Xong việc mới tiếp tục lái</p></div></li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80b4-8324-de4b7b244d33" class=""><strong>⏱ 10 phút — KẾT THÚC + TRAO CHỨNG NHẬN NHANH</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8062-8dfa-ccf14b76b50a" class="">Giảng viên hô lớn:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-803e-8c31-f40470b3d1f7" class="">“Ai đạt 85% trở lên – giơ tay!” → vỗ tay rần rần</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801c-ba7b-eb1e2ecf0145" class="">“Ai dưới 85% – mai quay lại học tiếp, không sao cả, an toàn là trên hết!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8070-875f-ccf457c21585" class="">Cả lớp hô đồng thanh 3 lần:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-804b-b523-f10cd9c1354f" class="">“TÔI ĐÃ SẴN SÀNG LÁI AN TOÀN 100%!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8007-90df-d508e468fa35" class="">“KHÔNG MỆT – KHÔNG CỐ – CHỈ 5 SAO!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8043-a2a0-d1b5aafd9a1b" class="">“UNITAXI – AN TOÀN LÀ SỐ 1!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809d-a3c0-c7b5c736bd6f" class=""><strong>Giảng viên kết cuối:</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8034-a581-ce1adb82f968" class="">“Các anh chị đã chính thức trở thành những TÀI XẾ AN TOÀN ĐẲNG CẤP QUỐC TẾ!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8078-a3ee-e26d3f9939f2" class="">Hãy mang kiến thức này ra đường và biến mỗi chuyến xe thành một hành trình 5 sao + an toàn tuyệt đối!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8010-a79f-e64b598098f3" class="">Unitaxi tự hào vì các anh chị! 
-❤️🚕⚡”</p></div><div style="display:contents" dir="auto"><hr id="2aec5e6f-95bd-8019-96c8-fd6f01ded210"/></div><div style="display:contents" dir="auto"><h1 id="2aec5e6f-95bd-803d-b2f2-ee00bf9fb9c1" class=""><strong>X. TINH THẦN KHÓA HỌC</strong></h1></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800d-b153-e088911ec3de" class=""><strong>📘 X. 
-TINH THẦN KHÓA HỌC – FINAL MINDSET STATEMENT</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806e-9896-ea192f5d9d5e" class=""><strong>“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG BẢO VỆ MẠNG SỐNG”</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-806e-afb7-eb26daea7288" class=""><strong>(Chuẩn Uber Driver Integrity + Lyft Professional Mindset + JapanTaxi “Kokoro no Anzen” + LTA Singapore Driver Oath)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f0-a805-e60fbcccf545" class=""><strong>⏱ 10 phút cuối cùng – phần thiêng liêng nhất của khóa học</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fb-a916-d51690182f75" class=""><strong>🔹 5 KHẲNG ĐỊNH CỐT LÕI – UNITAXI DRIVER MINDSET</strong></p></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8041-98ca-ec2cdf81052e" class="numbered-list" start="1"><li>“Giữ tỉnh táo là giữ mạng sống – của tôi và của khách.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-80d7-af46-f3389fa6b598" class="numbered-list" start="2"><li>“Một tài xế khỏe mới là một tài xế an toàn.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8030-9357-e2431b3efb93" class="numbered-list" start="3"><li>“An toàn không phải lựa chọn – an toàn là nghề.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-8077-9142-d50b877470c9" class="numbered-list" start="4"><li>“Tôi lái bằng trách nhiệm – không bằng cảm xúc.”</li></ol></div><div style="display:contents" dir="auto"><ol type="1" id="2b1c5e6f-95bd-801f-85dd-e5579ae05624" class="numbered-list" start="5"><li>“Mỗi chuyến xe là một lời hứa: đưa khách về tới nơi – an toàn và trọn vẹn.”</li></ol></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800b-9acf-db663409e216" class=""><strong>🔹 TUYÊN NGÔN NGHỀ NGHIỆP UNITAXI</strong></p></div><div s
-tyle="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80fb-b886-f55cd601d941" class=""><strong>(Giảng viên + toàn bộ học viên đứng dậy, đọc to từng câu – giọng chắc, mắt nhìn thẳng)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80f9-80e1-d6bcac854f41" class="">“Tôi đặt an toàn lên trên tốc độ, trên áp lực, trên mọi hoàn cảnh.</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c9-a8a5-ed22c253403a" class="">Tôi lái xe để khách cảm thấy được tôn trọng và yên tâm tuyệt đối.</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80eb-8f30-e7efd5deef7a" class="">Tôi tôn trọng luật, tôn trọng khách, tôn trọng đồng nghiệp và tôn trọng chính mình.</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e1-9ad8-eff47c4183cb" class="">Tôi không bao giờ đánh cược mạng sống – của mình, của khách, 
-của gia đình họ.</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80af-b9e4-c582cf0635f8" class="">Tôi tự hào là tài xế Unitaxi – vì mỗi vòng quay bánh xe là một lần tôi làm nên lịch sử taxi Việt Nam đẳng cấp quốc tế!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809a-8513-ddbc5f2c7db6" class=""><strong>🔹 TINH THẦN CỦA MỘT TÀI XẾ CHUYÊN NGHIỆP UNITAXI</strong></p></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-8018-91ac-c1360212634a" class="bulleted-list"><li style="list-style-type:disc">Bình tĩnh khi khách căng thẳng → vì tôi là người điều khiển năng lượng chuyến xe.</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-805d-b580-f31cbef7b30e" class="bulleted-list"><li style="list-style-type:disc">Chính xác trong từng thao tác → vì sai 1 giây có thể thay đổi cả cuộc đời.</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-80dc-9e53-f1dd703dabe0" class="bulleted-list"><li style="list-style-type:disc">Nâng tiêu chuẩn mỗi ngày → vì khách xứng đáng được phục vụ tốt hơn hôm qua.</li></ul></div><div style="display:contents" dir="auto"><ul id="2b1c5e6f-95bd-801a-9534-d338a53ae39f" class="bulleted-list"><li style="list-style-type:disc">Luôn tỉnh táo – luôn sạch sẽ – luôn tôn trọng – luôn trung thực – luôn tự hào.</li></ul></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-800e-9a79-ea62cd26c4ab" class=""><strong>🔹 LỜI CAM KẾT CUỐI KHÓA (cả lớp đồng thanh – 30 giây)</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80c8-92b4-ff79a8b5db84" class="">Giảng viên dẫn dắt, 
-cả lớp hô theo từng câu:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80e6-918a-f14076651d92" class="">“TÔI CAM KẾT LÁI AN TOÀN!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80a3-8d03-c93e34e0ad9b" class="">“TÔI CAM KẾT GIỮ TỈNH TÁO!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80eb-94bc-d44f13bb68ac" class="">“TÔI CAM KẾT TÔN TRỌNG KHÁCH!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-801d-8ab9-f8602af5674e" class="">“TÔI CAM KẾT ĐẠI DIỆN CHO UNITAXI BẰNG TÁC PHONG TỐT NHẤT!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d6-8bdb-cd569db77870" class="">“TÔI LÀ TÀI XẾ UNITAXI – TÔI LÁI XE BẰNG TRÁI TIM VÀ TRÁCH NHIỆM!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-809a-9a1a-f6f2b8095ae3" class=""><strong>⏱ Kết thúc – giảng viên nói chậm, giọng trầm, truyền cảm hứng</strong></p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-802d-a350-ebac641f7076" class="">“Các anh chị thân mến!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ea-8efa-ee8eabe0d017" class="">Từ giây phút này, các anh chị không còn là những tài xế bình thường nữa.</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8005-9ab8-c0ad9f158749" class="">Các anh chị là những CHIẾN BINH AN TOÀN – những ĐẠI SỨ 5 SAO – những NGƯỜI HÙNG THẦM LẶNG của kỷ nguyên taxi điện Việt Nam!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80ca-ae1b-c514a6495754" class="">Hãy bước ra khỏi phòng học này, 
-cầm chắc tay lái và tự nhủ thật to:</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8062-91ba-c954f4aa707a" class="">“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG VIẾT NÊN LỊCH SỬ UNITAXI ĐẲNG CẤP THẾ GIỚI!”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8093-8bfd-c6ae95d64640" class="">Unitaxi tự hào vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8099-8ed5-f14f78c1ff34" class="">Việt Nam tự hào vì có các anh chị!</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-8092-8ace-f40e51f95ab5" class="">Bây giờ… ra đường và LÀM NÊN KỲ TÍCH nào! ⚡🚕🇻🇳❤️”</p></div><div style="display:contents" dir="auto"><p id="2b1c5e6f-95bd-80d8-b9aa-fd961954fa57" class=""><strong>(Toàn bộ học viên đứng dậy vỗ tay + chụp ảnh kỷ yếu khóa học – không khí bùng nổ tự hào!)</strong></p></div></div></article><span class="sans" style="font-size:14px;padding-top:2em"></span></body></html>
+
+
+
+# Giáo trình đào tạo UniTaxi
+# **Nội dung nền tảng chung (16 giờ)**
+_(Học chung cho Tài xế – Điều phối – Kỹ thuật)_
+* * *
+# **📘 1. BỐI CẢNH & SỨ MỆNH UNITAXI (2 GIỜ)**
+**Mục tiêu khóa học:** Giúp học viên hiểu **vì sao Unitaxi tồn tại** , vì sao mô hình khác biệt, và vì sao mỗi người trong hệ thống có trách nhiệm giữ hình ảnh thương hiệu.
+## **⏱ Cấu trúc thời lượng 2 giờ**
+|               |
+| **Thời gian** | **Nội dung**                                        |
+|---------------|-----------------------------------------------------|
+| 0–15 phút     | Bối cảnh ngành giao thông & xu hướng xe điện        |
+| 15–40 phút    | Vì sao Unitaxi chọn mô hình 100% xe điện            |
+| 40–70 phút    | Vai trò của giao thông xanh trong đô thị hiện đại   |
+| 70–95 phút    | Mối liên kết Tài xế – Điều phối – Kỹ thuật          |
+| 95–110 phút   | Ý nghĩa nghề nghiệp & hình ảnh người tài xế Unitaxi |
+| 110–120 phút  | Hỏi đáp + Bài kiểm tra nhanh                        |
+
+
+* * *
+# 🚀 **HÀNH TRÌNH MỚI: UNITAXI VÀ SỨ MỆNH KIẾN TẠO GIAO THÔNG VIỆT NAM**
+**(Thời lượng: 15 phút – Chuẩn đào tạo Quốc tế)**
+**Mục tiêu:** Cùng nhau khám phá cơ hội vàng từ những thách thức giao thông Việt Nam, nắm bắt xu hướng toàn cầu, và xác định vai trò tiên phong của chúng ta trong cuộc cách mạng taxi điện. Buổi học đề cao sự chia sẻ kinh nghiệm thực tế để mỗi chúng ta đều trở thành người dẫn đầu.
+* * *
+### **A. VIỆT NAM: BỨC TRANH THÁCH THỨC & CƠ HỘI VÀNG**
+**(7 phút)**
+**Câu chuyện mở đầu:** Hãy nghĩ về những con đường chúng ta chạy mỗi ngày. Đó không chỉ là thách thức, mà chính là LÝ DO tại sao chúng ta có mặt ở đây hôm nay.
+  * **1\. Ùn tắc đô thị – Áp lực hay Động lực? (1,5 phút)**
+    * **Thực trạng:** Hà Nội và TP.HCM đang trong top 15 thành phố kẹt xe nhất châu Á. Khái niệm "giờ thấp điểm" dần biến mất.
+    * **Hệ quả:** Thời gian mỗi chuyến kéo dài, thu nhập bấp bênh, và đặc biệt là **căng thẳng** cho cả tài xế và hành khách.
+    * **📌 Cùng Thảo Luận (30 giây):** "Hãy chia sẻ một cách xử lý thông minh hoặc một câu chuyện vui bạn đã từng trải qua trong giờ kẹt xe để giữ được thiện cảm của khách?"
+
+
+  * **2\. Ô nhiễm – Sứ mệnh Làm Sạch Bầu Không Khí của Chính Chúng Ta (1,5 phút)**
+    * **Sự thật:** Giao thông là thủ phạm chính gây ra 35-45% ô nhiễm không khí. Tiếng ồn và khí thải khiến các tuyến phố trở nên ngột ngạt.
+    * **Xu hướng:** Các thành phố hàng đầu như Tokyo, Singapore đang chuyển mình mạnh mẽ với taxi điện – êm ái, sạch sẽ, văn minh.
+    * **📌 Cùng Thảo Luận (30 giây):** "Khách hàng đã bao giờ phản hồi với bạn về mùi xe xăng hay sự yên tĩnh của xe điện chưa? Chúng ta có thể làm gì để mang lại trải nghiệm 'sạch - êm' hơn nữa?"
+
+
+  * **3\. Chi Phí Vận Hành – Chìa Khóa Để Tăng Thu Nhập (1,5 phút)**
+    * **Bài toán khó:** Giá xăng biến động không lường, chi phí bảo trì, sửa chữa cho xe xăng luôn là gánh nặng, "ăn mòn" lợi nhuận mỗi ngày.
+    * **Lời giải:** Xe điện chính là chìa khóa! Nghiên cứu từ Uber & Bolt cho thấy xe điện giúp **tiết kiệm 30-50% chi phí vận hành**. Điều này nghĩa là thu nhập ổn định hơn, ít lo âu hơn!
+    * **📌 Cùng Thảo Luận (30 giây):** "Biến động giá xăng ảnh hưởng thế nào đến kế hoạch tài chính của bạn? Bạn kỳ vọng gì vào giải pháp xe điện?"
+
+
+  * **4\. Hành Khách Mới – Kỳ Vọng Mới: Họ Muốn Gì? (2,5 phút)**
+    * **Thế hệ Gen Z, Millennials:** Họ nhạy cảm với mùi xe, điều hòa, và sự chuyên nghiệp.
+    * **Các gia đình:** Ưu tiên sự an toàn, êm ái, sạch sẽ cho con nhỏ.
+    * **Doanh nghiệp:** Hướng tới các đối tác "xanh" để phát triển bền vững.
+    * **📌 Kết Luận & Thảo Luận (1 phút):** "Khách hàng ngày nay sẵn sàng trả giá cao hơn cho một trải nghiệm tuyệt vời. Ai đã từng nhận được lời khen ngợi vì thái độ tốt hoặc chiếc xe sạch sẽ? Hãy chia sẻ câu chuyện thành công của bạn để cả lớp cùng học hỏi!"
+
+
+**➡ THÔNG ĐIỆP KẾT:** Việt Nam đang ở một ngã rẽ lịch sử. Sự thay đổi không còn là lựa chọn, mà là TẤT YẾU. Và chúng ta, những người trực tiếp vận hành, chính là những NGƯỜI TIÊN PHONG dẫn dắt sự thay đổi đó: Hướng tới một nền giao thông **XANH HƠN, ÊM ÁI HƠN, CHUYÊN NGHIỆP HƠN.**
+* * *
+### **B. BỨC TRANH TOÀN CẦU: UNITAXI – CHÚNG TA ĐANG Ở ĐÂU TRONG CUỘC ĐUA NÀY?**
+**(8 phút)**
+**Dẫn nhập:** Chúng ta không đơn độc. Cả thế giới đang chạy đua, và Việt Nam có cơ hội để bắt kịp, thậm chí vượt lên dẫn đầu.
+  * **1\. Làn Sóng Xanh Toàn Cầu – Chúng Ta Có Muốn Bị Bỏ Lại? (2 phút)**
+    * **Uber & Lyft:** Cam kết 100% xe điện tại các thành phố lớn vào 2030.
+    * **Grab:** Đang triển khai 50.000 xe điện tại Đông Nam Á.
+    * **Bolt:** Thưởng đặc biệt cho các tài xế xe điện.
+    * **Bài học:** Taxi điện không chỉ là phương tiện, mà là **lợi thế cạnh tranh** giúp tăng điểm đánh giá, tăng sự trung thành của khách hàng.
+    * **📌 Cùng Thảo Luận (30 giây):** "Khi cả thế giới đang chuyển mình, theo bạn, Unitaxi nên làm gì để chúng ta không chỉ theo kịp, mà còn DẪN ĐẦU thị trường?"
+
+
+  * **2\. Chính Sách "Thúc Lưng" cho Xe Điện – Cánh Cửa Thời Đại Đang Mở (2 phút)**
+    * **Singapore, EU:** Siết chặt xe xăng, ưu đãi lớn cho xe điện.
+    * **Nhật Bản, Hàn Quốc:** Hạ tầng sạc điện được đầu tư mạnh mẽ, taxi điện trở thành hình ảnh quốc gia.
+    * **Thông điệp toàn cầu:** "Hãy hướng tới sự **Êm Ái - Sạch Sẽ - Giảm Khí Thải** ".
+    * **📌 Cùng Thảo Luận (30 giây):** "Nếu Việt Nam áp dụng các chính sách ưu tiên xe điện, điều đó sẽ TẠO RA CƠ HỘI gì cho bạn?"
+
+
+  * **3\. Trải Nghiệm Là Vua – Điều Gì Khiến Khách Hàng Toàn Cầu Trung Thành? (2 phút)**
+    * Không còn là cuộc chiến giá rẻ. Đó là cuộc chiến về **cảm xúc**.
+    * Khách hàng toàn cầu tìm kiếm sự **" yên tĩnh, sạch sẽ, êm ái"** – những yếu tố mà xe điện sở hữu một cách tuyệt đối.
+    * **📌 Cùng Thảo Luận (30 giây):** "Ngoài việc lái xe an toàn, bạn đã làm điều gì 'đặc biệt' nhỏ thôi để khiến khách hàng nhớ đến chuyến đi và muốn quay lại với bạn?" (Ví dụ: một câu chào thân thiện, nhiệt độ điều hòa vừa phải...)
+
+
+  * **4\. Chuẩn Mực Phục Vụ Đẳng Cấp Thế Giới – Chúng Ta Học Hỏi Điều Gì? (2 phút)**
+    * **Tokyo MK Taxi (Nhật Bản):** Đỉnh cao của sự an toàn, lịch sự và chu đáo.
+    * **Uber/Bolt Training:** Nghệ thuật giao tiếp, xử lý tình huống, tạo dựng niềm tin.
+    * **ComfortDelGro (Singapore):** Sự kỷ luật, đúng giờ và hình ảnh chuyên nghiệp.
+    * **Unitaxi** đã chắt lọc tinh hoa của thế giới để xây dựng giáo trình 48 giờ, trang bị cho bạn mọi kỹ năng để TỎA SÁNG.
+    * **📌 Cùng Thảo Luận (30 giây):** "Trong các chuẩn mực quốc tế trên, bạn cảm thấy yếu tố nào là sức mạnh của bản thân và yếu tố nào bạn muốn cùng Unitaxi trau dồi thêm?"
+
+
+* * *
+### 🎯 **LỜI KẾT: CHÚNG TA CÙNG VIẾT NÊN CÂU CHUYỆN THÀNH CÔNG**
+**(1 phút cuối)**
+"Taxi điện không phải là điểm đến, mà là HÀNH TRÌNH chúng ta cùng nhau bắt đầu. Đây là cơ hội để chúng ta – những tài xế, điều phối viên, kỹ thuật viên – không còn là người chứng kiến, mà trở thành NHÂN VẬT CHÍNH kiến tạo tương lai giao thông Việt Nam.
+Unitaxi cam kết đồng hành cùng bạn với công nghệ, đào tạo và chính sách tốt nhất. Vậy còn bạn, bạn sẵn sàng cùng chúng tôi làm gì để biến Unitaxi trở thành biểu tượng của sự **hiện đại, thân thiện và tiên phong**?
+  * _(Dành 1 phút cuối để lắng nghe các ý tưởng, sáng kiến từ học viên về các chương trình đào tạo, quảng bá hình ảnh xe xanh, hoặc các dịch vụ gia tăng cho khách hàng.)_
+
+
+* * *
+# 🚀 **GIÁO TRÌNH: VÌ SAO CHÚNG TA CÙNG NHAU CHỌN XE ĐIỆN 100%?**
+* * *
+### **a. CUỘC CÁCH MẠNG CÁ NHÂN: LÁI XE ĐIỆN - VÌ SỨC KHỎE & THU NHẬP CỦA CHÍNH BẠN**
+**(Thời lượng: 7 phút)**
+**Dẫn nhập:** Chúng ta không chỉ đổi xe, chúng ta đang nâng cấp chất lượng cuộc sống và công việc của chính mình.
+  * **1\. Chi phí Ổn Định - Thu nhập Có Thể Dự Đoán (2 phút)**
+    * **Câu chuyện cũ (Xe xăng):** Vật lộn với biến động giá xăng, những khoản sửa chữa lặt vặt liên tục (nhớt, bugi, lọc gió) - thu nhập tháng này chẳng biết tháng sau ra sao.
+    * **Tương lai mới (Xe điện):** Chi phí "nạp điện" thấp hơn 30-40%, ít bộ phận hao mòn - **bạn biết chắc mình kiếm được bao nhiêu.** Hãy nhìn Singapore: tài xế EV tiết kiệm tới 35% chi phí mỗi tháng!
+    * **📌 Cùng Thảo Luận (30 giây):** “Sự bất ổn của giá xăng đã 'ăn' bao nhiêu phần thu nhập của bạn? Bạn cảm thấy thế nào về một tương lai với chi phí cố định?”
+
+
+  * **2\. Trải Nghiệm Lái Xe - Sự Tỉnh Táo Sau Mỗi Ca Làm (1,5 phút)**
+    * **Cảm giác cũ:** Sự mệt mỏi đến từ tiếng ồn, độ rung và mùi xe xăng sau một ngày dài.
+    * **Cảm giác mới:** Sự êm ái, yên tĩnh tuyệt đối. Bạn kết thúc ca lái mà đầu óc vẫn nhẹ nhàng, cơ thể ít căng thẳng. Đó là lý do Uber ưu tiên EV cho các chuyến cao cấp!
+    * **📌 Cùng Thảo Luận (30 giây):** “Hãy tưởng tượng kết thúc một ca 12 tiếng mà vẫn cảm thấy tỉnh táo. Điều đó sẽ thay đổi cuộc sống của bạn thế nào?”
+
+
+  * **3\. Độ Tin Cậy - "Chiến Hữu" Đáng Tin Cậy Trên Mọi Cung Đường (1,5 phút)**
+    * **Rủi ro cũ:** "Chết máy" giữa đường, mất cuốc, mất uy tín.
+    * **Tự tin mới:** Động cơ điện đơn giản, ít hỏng vặt. Bạn tập trung vào kiếm tiền, không còn lo lắng về những bất ngờ khó chịu. Ở Hàn Quốc, EV giảm 60% thời gian sửa chữa!
+    * **📌 Cùng Thảo Luận (30 giây):** “Khoảnh khắc xe hỏng giữa đường tồi tệ thế nào? Sự an tâm về độ tin cậy của EV có đáng giá với bạn không?”
+
+
+  * **4\. Công Nghệ - Người Bạn Đồng Hành Thông Minh (2 phút)**
+    * **Làm việc đơn lẻ:** Bạn phải tự nhớ mọi thứ - khi nào cần bảo dưỡng, lượng xăng còn lại...
+    * **Làm việc theo đội:** Xe điện kết nối dữ liệu thời gian thực. Đội kỹ thuật chủ động nhắc bảo dưỡng, đội điều phối thông minh phân bổ chuyến đi và nhắc bạn sạc pin đúng lúc.
+    * **📌 Cùng Thảo Luận (30 giây):** “Bạn có muốn có một 'trợ lý ảo' giúp bạn tối ưu lộ trình và bảo trì xe? Dữ liệu từ EV sẽ giúp gì cho bạn?”
+
+
+* * *
+### **b. CUỘC CÁCH MẠNG THƯƠNG HIỆU: CHÚNG TA KHÔNG PHẢI LÀ MỘT TÀI XẾ BÌNH THƯỜNG**
+**(Thời lượng: 6 phút)**
+**Dẫn nhập:** Với xe điện, chúng ta không còn cạnh tranh bằng giá rẻ. Chúng ta cạnh tranh bằng giá trị và sự khác biệt.
+  * **1\. Định Vị Đẳng Cấp: "Taxi Điện - Êm Ái, Sạch Sẽ, An Toàn" (2 phút)**
+    * **Cuộc chiến cũ:** Các hãng khác đua nhau hạ giá, khiến thu nhập của tài xế bị bào mòn.
+    * **Lối đi của Unitaxi:** Chúng ta là lựa chọn **cao cấp hơn**. Khách hàng trả tiền cho sự yên tĩnh, không mùi, và cảm giác an toàn. Chúng ta xây dựng lòng trung thành, không phải sự rẻ tiền.
+    * **📌 Cùng Thảo Luận (30 giây):** “Bạn muốn khách hàng nhớ đến mình như một người lái xe bình thường, hay một tài xế chuyên nghiệp của thương hiệu taxi điện đẳng cấp?”
+
+
+  * **2\. Dấu Ấn Khó Phai - Từng Chuyến Đi Là Một Lần Quảng Cáo (2 phút)**
+    * Chiếc xe điện đồng nhất, sạch bóng là hình ảnh di động mạnh mẽ nhất. Người ta sẽ chỉ điểm: "**Đó là Unitaxi, taxi điện đó!** ".
+    * Khách hàng tự hào khi được sử dụng dịch vụ xanh và sạch, và họ sẽ tự động chia sẻ điều đó.
+    * **📌 Cùng Thảo Luận (30 giây):** “Khi khách hàng khen chiếc xe của bạn êm và sạch, bạn cảm thấy thế nào? Điều đó có khiến bạn tự hào về công việc của mình hơn không?”
+
+
+  * **3\. Thoát Khỏi Vòng Xoáy Giảm Giá - Thu Nhập Bền Vững (2 phút)**
+    * Chúng ta từ chối tham gia cuộc đua "đốt tiền" vô nghĩa. Thay vì chạy nhiều hơn để kiếm ít hơn, chúng ta chạy thông minh hơn để có thu nhập xứng đáng.
+    * Unitaxi tập trung vào những khách hàng coi trọng chất lượng, sẵn sàng trả giá cao hơn cho một trải nghiệm tuyệt vời.
+    * **📌 Cùng Thảo Luận (30 giây):** “Bạn muốn chạy 10 chuyến với thu nhập thấp hay 7 chuyến với thu nhập cao và tinh thần thoải mái? EV chính là chìa khóa cho lựa chọn thứ hai.”
+
+
+* * *
+### **c. TẦM NHÌN TƯƠNG LAI: KHÔNG CHỈ LÀ MỘT CÔNG TY, MÀ LÀ MỘT SỨ MỆNH**
+**(Thời lượng: 7 phút)**
+**Dẫn nhập:** Lựa chọn của chúng ta hôm nay không chỉ cho ngày mai, mà cho cả 10, 20 năm tới.
+  * **1\. Bắt Nhịp Xu Thế Toàn Cầu - Đón Đầu Chính Sách (2 phút)**
+    * Cả thế giới đang chuyển mình. Các thành phố lớn trên thế giới đang dần loại bỏ xe xăng. Chính phủ Việt Nam cũng đang có những chính sách ưu đãi mạnh mẽ cho giao thông xanh.
+    * Bằng cách đi đầu, Unitaxi và các bạn đang nắm giữ lợi thế tiên phong, trở thành đối tác được ưu tiên.
+    * **📌 Cùng Thảo Luận (30 giây):** “Theo bạn, việc trở thành người tiên phong trong cuộc cách mạng xe điện tại Việt Nam mang lại lợi thế gì cho chúng ta?”
+
+
+  * **2\. Thu Hút Những Đối Tác "Vàng" (2 phút)**
+    * Các tập đoàn quốc tế, trường học quốc tế, bệnh viện lớn... chỉ muốn hợp tác với những đơn vị vận tải "xanh" và "sạch".
+    * EV là tấm vé thông hành để Unitaxi ký được những hợp đồng dài hạn, ổn định, mang lại nguồn thu nhập bền vững cho tất cả mọi người.
+    * **📌 Cùng Thảo Luận (30 giây):** “Những hợp đồng doanh nghiệp ổn định sẽ giúp bạn yên tâm ra sao so với việc chạy từng chuyến riêng lẻ?”
+
+
+  * **3\. Tốc Độ Phát Triển Thần Tốc - Nhân Bản Sự Thành Công (3 phút)**
+    * Khi có một đội xe đồng nhất, một quy trình vận hành chuẩn, chúng ta có thể mở rộng Unitaxi đến bất kỳ tỉnh thành nào một cách dễ dàng và nhanh chóng.
+    * Thương hiệu "Unitaxi - Taxi Điện" sẽ trở thành một biểu tượng trên toàn quốc, và các bạn - những người tiên phong - chính là những hạt nhân quan trọng nhất.
+    * **📌 Cùng Thảo Luận (1 phút):** “Bạn muốn nhìn thấy Unitaxi có mặt ở tỉnh nào tiếp theo? Hãy tưởng tượng khi thương hiệu của chúng ta có mặt trên khắp cả nước, điều đó có ý nghĩa thế nào với bạn?”
+
+
+* * *
+### **d. KẾT NỐI SỨ MỆNH: VAI TRÒ CỦA MỖI CHÚNG TA**
+**(Thời lượng: 5 phút cuối)**
+  * **Với Tài Xế:** Bạn là gương mặt của cuộc cách mạng. Mỗi lần bạn chạm vô-lăng, bạn không chỉ kiếm sống - bạn đang kiến tạo tương lai, mang lại hình ảnh đẹp về một Việt Nam hiện đại và văn minh.  
+**📌 Thảo Luận (1 phút):** “Là một trong những người đầu tiên, điều gì khiến bạn tự hào nhất?”
+
+
+  * **Với Điều Phối & Kỹ Thuật:** Các bạn là bộ não và trái tim của hệ thống. Dữ liệu từ EV giúp các bạn hỗ trợ tài xế tốt hơn, tối ưu hóa toàn bộ hệ thống và chứng minh giá trị của chúng ta với các đối tác.  
+**📌 Thảo Luận (1 phút):** “Công cụ và dữ liệu mới giúp bạn phát huy năng lực của mình như thế nào?”
+
+
+* * *
+### 🎯 **LỜI KẾT: CHÚNG TA LÀ NHỮNG NGƯỜI VIẾT NÊN LỊCH SỬ**
+Unitaxi chọn 100% xe điện vì:
+  * **Sức khỏe và Thu nhập** của chính bạn.
+
+
+  * **Thương hiệu Tử tế và Đẳng cấp** mà chúng ta cùng xây đắp.
+
+
+  * **Tương lai Bền vững** mà chúng ta chung tay kiến tạo.
+
+
+Các bạn không phải là người theo sau. Các bạn là **NGƯỜI DẪN ĐẦU**. Hãy cùng nhau tạo nên dấu ấn!
+  * _(Dành 1 phút cuối để lắng nghe cảm xúc, câu chuyện và ý tưởng đóng góp của các học viên.)_
+
+
+* * *
+# 🍀 **GIÁO TRÌNH: SỨ MỆNH GIAO THÔNG XANH - KIẾN TẠO ĐÔ THỊ VIỆT TƯƠNG LAI**
+**(Thời lượng: 30–45 phút – Chuẩn đào tạo Quốc tế nâng cao)**
+**Mục tiêu:** Khơi dậy niềm tự hào khi mỗi học viên không chỉ là một tài xế, mà là một **" Người hùng đô thị"** \- người trực tiếp kiến tạo một môi trường sống lành mạnh, một hệ thống giao thông hiệu quả và những giá trị nhân văn cho cộng đồng.
+* * *
+### **A. NGƯỜI HÙNG THẦM LẶNG: BẢO VỆ SỨC KHỎE CỘNG ĐỒNG**
+**(10–12 phút)**
+**Dẫn nhập:** Mỗi chuyến xe của chúng ta không chỉ là một hành trình, mà là một lựa chọn: Góp phần vào những vấn đề sức khỏe, hay trở thành một phần của giải pháp?
+  * **1\. Lá Phổi Của Thành Phố - Chúng Ta Đang Hít Gì Mỗi Ngày? (4 phút)**
+    * **Sự thật giật mình:** 40-60% ô nhiễm không khí đô thị đến từ khí thải xe xăng/dầu. Những hạt bụi siêu mịn PM2.5 là thủ phạm vô hình gây ra viêm phổi, bệnh tim, thậm chí là ung thư.
+    * **Hành động cụ thể của chúng ta:** Mỗi chiếc Unitaxi điện là một "lá phổi di động" \- **KHÔNG** thải ra bất kỳ khí độc hại nào tại chỗ. Chúng ta đang trực tiếp làm sạch bầu không khí cho chính con em và gia đình mình.
+    * **📌 Cùng Thảo Luận (1 phút):** "Bạn đã bao giờ cảm nhận rõ sự ô nhiễm trên những cung đường mình chạy? Cảm giác thế nào khi biết mình đang góp phần mang lại bầu không khí sạch hơn?"
+
+
+  * **2\. Sự Yên Tĩnh - Món Quà Sức Khỏe Tinh Thần (4 phút)**
+    * **Âm thanh của sự mệt mỏi:** Tiếng ồn giao thông không chỉ gây khó chịu; nó là tác nhân gây stress, mất ngủ và giảm sự tập trung.
+    * **Âm thanh của tương lai:** Sự yên tĩnh của xe điện không chỉ là một trải nghiệm sang trọng; nó là liều thuốc cho sức khỏe tinh thần của cả tài xế, hành khách và những người dân sống ven đường.
+    * **📌 Cùng Thảo Luận (1 phút):** "Sự yên tĩnh trong cabin xe điện đã thay đổi trải nghiệm làm việc của bạn thế nào? Khách hàng đã phản hồi gì về điều này?"
+
+
+  * **3\. Vòng Tay Bảo Vệ Cho Những Người Dễ Tổn Thương (4 phút)**
+    * Chúng ta có một đặc ân và trách nhiệm: Phục vụ những đối tượng cần sự chăm sóc đặc biệt nhất - **trẻ em, người cao tuổi, phụ nữ mang thai.**
+    * Chiếc xe điện êm ái, sạch sẽ, không mùi độc hại chính là "vòng tay bảo vệ" an toàn nhất cho họ. Đây không còn là dịch vụ, mà là sứ mệnh.
+    * **📌 Cùng Thảo Luận (1 phút):** "Hãy kể về một lần bạn cảm thấy thực sự ý nghĩa khi được chở một hành khách đặc biệt. Xe điện đã giúp bạn chăm sóc họ tốt hơn thế nào?"
+
+
+* * *
+### **B. KIẾN TRÚC SƯ ĐÔ THỊ: KIẾN TẠO HỆ THỐNG GIAO THÔNG THÔNG MINH**
+**(10–12 phút)**
+**Dẫn nhập:** Chúng ta không chỉ đang lái xe trong thành phố; chúng ta đang cùng nhau **vận hành và cải tạo** hệ thống giao thông đô thị.
+  * **1\. Giải Pháp Cho Sự Tắc Nghẽn - "Làn Sóng Xanh" Từ Mỗi Vô-Lăng (4 phút)**
+    * Khả năng tăng tốc mượt mà và phanh tái sinh của xe điện giúp giảm thiểu hiệu ứng "sóng người đi bộ" \- một trong những nguyên nhân chính gây ùn tắc cục bộ.
+    * Khi chúng ta lái xe êm ái và chủ động, chúng ta đang tạo ra một "làn sóng xanh" lưu thông cho tất cả các phương tiện phía sau.
+    * **📌 Cùng Thảo luận (1 phút):** "Bạn có nhận thấy sự khác biệt trong cách dòng xe lưu thông khi bạn lái một chiếc xe êm ái và tăng tốc mượt mà? Hãy chia sẻ trải nghiệm."
+
+
+  * **2\. Trái Tim Của Thành Phố Thông Minh (3 phút)**
+    * Mỗi chiếc Unitaxi là một "cảm biến di động" thu thập dữ liệu giao thông theo thời gian thực. Dữ liệu này giúp thành phố hiểu và tối ưu hóa hệ thống giao thông một cách thông minh.
+    * Chúng ta không còn là những cá thể đơn lẻ; chúng ta là một mạng lưới kết nối, cùng nhau tạo nên một hệ sinh thái giao thông hiệu quả hơn.
+    * **📌 Cùng Thảo luận (30 giây):** "Theo bạn, dữ liệu từ đội xe điện của chúng ta có thể giúp ích gì cho việc quy hoạch giao thông của thành phố trong tương lai?"
+
+
+  * **3\. Người Gác Cổng An Toàn Đường Phố (3 phút)**
+    * Thiết kế của xe điện với trọng tâm thấp và khả năng phản hồi tức thì giúp hạn chế tai nạn. Sự êm ái giúp tài xế giữ được bình tĩnh và tập trung cao độ hơn.
+    * Mỗi chuyến đi an toàn không chỉ bảo vệ bạn và khách hàng, mà còn góp phần tạo nên một môi trường đường phố an toàn hơn cho tất cả mọi người.
+    * **📌 Cùng Thảo luận (30 giây):** "Điều gì về xe điện khiến bạn cảm thấy tự tin hơn về mặt an toàn so với xe xăng?"
+
+
+* * *
+### **C. GIÁ TRỊ CỐT LÕI: XÂY DỰNG MỘT DI SẢN TỬ TẾ**
+**(10–12 phút)**
+**Dẫn nhập:** Di sản mà chúng ta để lại không phải là doanh số, mà là những giá trị nhân văn và sự thay đổi tích cực mà chúng ta mang đến cho xã hội.
+  * **1\. Dịch Vụ Mang Trái Tim - Phục Vụ Vì Cộng Đồng (3 phút)**
+    * Unitaxi không đơn thuần là một hãng xe, mà là một mạng lưới an sinh lưu động, đặc biệt dành cho những đối tượng dễ bị tổn thương nhất.
+    * Chúng ta xây dựng lòng tin thông qua từng hành động nhỏ: một cái mở cửa, một lời hỏi thăm, một chuyến xe êm ái.
+    * **📌 Cùng Thảo luận (30 giây):** "Khoảnh khắc nào khi phục vụ những nhóm hành khách đặc biệt (người già, trẻ em...) khiến bạn cảm thấy công việc của mình thực sự có ý nghĩa?"
+
+
+  * **2\. Người Tiên Phong - Nâng Tầm Nghề Tài Xế Việt (3 phút)**
+    * Chúng ta đang viết lại câu chuyện về nghề tài xế. Từ một người lái xe, chúng ta trở thành những **" Chuyên gia Di chuyển"** \- am hiểu công nghệ, có tác phong chuẩn quốc tế và một trái tim phục vụ.
+    * Hình ảnh của bạn hôm nay sẽ truyền cảm hứng cho thế hệ tài xế tương lai.
+    * **📌 Cùng Thảo luận (30 giây):** "Bạn muốn mọi người nhìn nhận nghề tài xế của chúng ta như thế nào? Làm thế nào để chúng ta cùng nhau thay đổi định kiến?"
+
+
+  * **3\. Đối Tác Đáng Tin Cậy Cho Tương Lai (3 phút)**
+    * Các trường học, bệnh viện và tập đoàn lớn đang tìm kiếm những đối tác "xanh" và "có trách nhiệm". Unitaxi, với 100% xe điện và đội ngũ được đào tạo bài bản, chính là câu trả lời hoàn hảo.
+    * Điều này không chỉ mang lại những hợp đồng bền vững, mà còn khẳng định vị thế tiên phong và đạo đức của chúng ta trong ngành.
+    * **📌 Cùng Thảo luận (30 giây):** "Theo bạn, việc trở thành đối tác vận chuyển cho các trường học hoặc bệnh viện có ý nghĩa như thế nào đối với uy tín và sự phát triển của Unitaxi?"
+
+
+* * *
+### **D. PHÒNG THẢO LUẬN: CHÚNG TA ĐÃ TẠO RA SỰ KHÁC BIỆT**
+**(5 phút)**
+**Câu hỏi:** "Hãy chia sẻ một tình huống cụ thể mà bạn tin rằng **chiếc xe điện và tác phong phục vụ** của mình đã tạo ra sự khác biệt tích cực, dù lớn hay nhỏ, cho hành khách hoặc cộng đồng."
+**Gợi ý:**
+  * Một em bé ngủ ngon trên xe thay vì khóc vì say xe.
+
+
+  * Một cụ già cảm ơn vì được lên/xuống xe êm ái.
+
+
+  * Một hành khách khen không khí trong lành trong xe.
+
+
+  * Một khu phố yên tĩnh hơn nhờ xe chạy êm.
+
+
+**Mục tiêu:** Biết rằng mỗi chúng ta đều là một mắt xích quan trọng, cùng viết nên câu chuyện thành công của Unitaxi và của chính một Việt Nam xanh-sạch-êm ái hơn.
+  * _(Chia nhóm 3-4 người, thảo luận sôi nổi trong 3 phút và chia sẻ những câu chuyện đẹp trong 2 phút cuối.)_
+
+
+* * *
+# 🤝 **GIÁO TRÌNH: SỨC MẠNH ĐỒNG ĐỘI - KHI MỖI CHÚNG TA LÀ MỘT MẮT XÍCH HOÀN HẢO**
+**(Thời lượng: 25 phút – Chuẩn đào tạo tinh thần đồng đội Quốc tế)**
+**Mục tiêu:** Khơi dậy tinh thần "Một người vì mọi người". Học viên hiểu rằng thành công của mỗi cá nhân được xây dựng dựa trên sự phối hợp nhịp nhàng của cả hệ thống, từ đó nâng cao niềm tự hào, trách nhiệm và hiệu quả làm việc nhóm.
+* * *
+### **A. TRÁI TIM DỊCH VỤ: VAI TRÒ CỦA TÀI XẾ - GƯƠNG MẶT CỦA UNITAXI**
+**(10 phút)**
+**Dẫn nhập:** Bạn là người hùng thầm lặng. Bạn là người trực tiếp chạm đến trái tim khách hàng và biến những lời hứa của Unitaxi thành hiện thực.
+  * **1\. Bạn Chính Là Điểm Khác Biệt (2 phút)**
+    * Công nghệ có thể sao chép, nhưng **thái độ tử tế, sự chuyên nghiệp và kỹ năng lái xe an toàn của bạn là điều không thể thay thế.**
+    * Mỗi lần bạn mở cửa, mỗi nụ cười chào hỏi, mỗi chuyến xe êm ái đều khắc sâu vào tâm trí khách hàng về thương hiệu Unitaxi.
+    * **📌 Cùng Thảo Luận (30 giây):** "Hãy kể về một lần bạn cảm thấy mình thực sự tạo ra sự khác biệt trong trải nghiệm của khách hàng. Điều gì khiến họ nhớ đến bạn?"
+
+
+  * **2\. Người Cầm Lái Đáng Tin Cậy (3 phút)**
+    * Bạn không chỉ lái xe; bạn là **người bảo vệ** cho sự an toàn của khách hàng và cộng đồng.
+    * Việc kiểm tra xe đầu ca (pin, lốp, đèn, vệ sinh) trong 90 giây không phải là thủ tục, mà là **nghi thức thể hiện sự tôn trọng** với công việc và hành khách của mình.
+    * Sự tập trung và lái xe dự đoán của bạn chính là "tấm khiên" vô hình ngăn chặn rủi ro.
+
+
+  * **3\. Cộng Sự Thông Thái Của Đội Kỹ Thuật & Điều Phối (3 phút)**
+    * Khi bạn báo lỗi **" Rõ - Đúng - Nhanh"** qua app, bạn chính là đôi mắt và đôi tai của đội kỹ thuật trên khắp các cung đường.
+    * Thông tin của bạn giúp họ **chẩn đoán chính xác từ xa** , tiết kiệm thời gian và đưa ra giải pháp tức thì. Một thông báo mơ hồ có thể khiến cả hệ thống tốn thêm hàng giờ.
+    * **📌 Cùng Thảo Luận (30 giây):** "Theo bạn, một báo cáo sự cố lý tưởng cần những thông tin gì? Hãy cùng xây dựng một mẫu báo cáo hoàn hảo!"
+
+
+  * **4\. Đại Sứ Thương Hiệu (2 phút)**
+    * Trang phục chỉn chu, lời nói nhã nhặn và hành động chuyên nghiệp của bạn là **bộ mặt đáng tin cậy** của Unitaxi.
+    * Bạn không chỉ đại diện cho Unitaxi; bạn đang góp phần **nâng tầm hình ảnh người tài xế Việt** trong mắt cộng đồng và bạn bè quốc tế.
+
+
+* * *
+### **B. BỘ NÃO ĐIỀU HÀNH: VAI TRÒ CỦA ĐIỀU PHỐI - NGƯỜI KẾT NỐI MỌI TRÁI TIM**
+**(8 phút)**
+**Dẫn nhập:** Nếu tài xế là trái tim, điều phối chính là bộ não. Bạn là người vẽ nên những lộ trình hiệu quả, kết nối mọi người và đảm bảo nhịp đập của hệ thống luôn ổn định.
+  * **1\. Nhà Hoạch Định Tuyệt Vời (2 phút)**
+    * Bạn không chỉ phân công chuyến xe; bạn là **kiến trúc sư của sự hiệu quả**. Mỗi quyết định của bạn giúp giảm thiểu quãng đường chạy rỗng, tiết kiệm thời gian cho tài xế và mang lại trải nghiệm nhanh chóng cho khách hàng.
+
+
+  * **2\. Người Hỗ Trợ Đáng Tin Cậy (2 phút)**
+    * Giọng nói bình tĩnh, rõ ràng của bạn qua sóng liên lạc là **liều thuốc an thần** tốt nhất cho tài xế trong những tình huống căng thẳng.
+    * Bạn là hậu phương vững chắc, luôn lắng nghe và sẵn sàng hỗ trợ.
+
+
+  * **3\. Người Đồng Đội Hiểu Rõ Nhất (2 phút)**
+    * Việc bạn chủ động nhắc tài xế nghỉ ngơi khi có dấu hiệu mệt mỏi cho thấy Unitaxi không chỉ quan tâm đến hiệu suất, mà còn **trân trọng sức khỏe của từng thành viên.**
+    * **📌 Cùng Thảo Luận (30 giây):** "Hãy chia sẻ một lần bạn cảm nhận được sự hỗ trợ kịp thời từ đội điều phối. Điều đó đã giúp ích gì cho bạn?"
+
+
+  * **4\. Cầu Nối Của Niềm Tin (2 phút)**
+    * Bạn là mắt xích kết nối giữa kỳ vọng của khách hàng và khả năng đáp ứng của đội xe. Sự nhạy bén của bạn giúp **cân bằng mọi nhu cầu** , đảm bảo sự hài lòng cho tất cả.
+
+
+* * *
+### **C. NỀN TẢNG VỮNG CHẮC: VAI TRÒ CỦA KỸ THUẬT - NGƯỜI GIỮ LỬA CHO MỖI HÀNH TRÌNH**
+**(7 phút)**
+**Dẫn nhập:** Mọi chuyến xe an toàn và êm ái đều bắt đầu từ đôi bàn tay của bạn. Bạn là người hùng hậu trường, đảm bảo "người bạn đồng hành" \- chiếc xe điện - luôn ở trạng thái tốt nhất.
+  * **1\. Người Bảo Vệ Sự An Toàn (2 phút)**
+    * Công việc bảo trì, kiểm tra của bạn không đơn thuần là kỹ thuật; đó là **hành động đảm bảo tính mạng** cho tài xế và hành khách.
+    * Sự tỉ mỉ của bạn chính là "lá chắn thép" ngăn chặn mọi sự cố bất ngờ.
+
+
+  * **2\. Chuyên Gia Giải Mã (2 phút)**
+    * Khả năng chẩn đoán nhanh chóng, chính xác và **giải thích dễ hiểu** của bạn giúp xóa tan mọi lo lắng, mang lại sự an tâm cho tài xế.
+    * Việc trả xe đúng hẹn là minh chứng cho sự tôn trọng thời gian và công việc của đồng đội.
+
+
+  * **3\. Đối Tác Tin Cậy (2 phút)**
+    * Khi tài xế đưa ra thông tin chính xác, bạn chính là người **biến thông tin thành hành động** khắc phục hiệu quả.
+    * Sự phối hợp nhịp nhàng giữa tài xế và kỹ thuật tạo nên một vòng tròn khép kín của sự tin cậy và an toàn.
+    * **📌 Cùng Thảo Luận (30 giây):** "Lần gần đây nhất đội kỹ thuật đã 'giải cứu' bạn khỏi một sự cố khó chịu? Hãy gửi lời cảm ơn hoặc chia sẻ câu chuyện đó!"
+
+
+* * *
+### **D. SỨC MẠNH CỦA VÒNG TRÒN HOÀN HẢO: KHÔNG AI BỊ BỎ LẠI PHÍA SAU**
+**(3 phút)**
+Chúng ta là một vòng tròn khép kín, nơi mỗi người đều là mắt xích quan trọng:
+  * **Tài Xế** lái xe an toàn, báo cáo sự cố rõ ràng.
+
+
+  * **Điều Phối** lắng nghe, hỗ trợ và tối ưu hóa lộ trình.
+
+
+  * **Kỹ Thuật** dựa trên thông tin từ tài xế để bảo trì chủ động, sửa chữa nhanh chóng.
+
+
+**Hãy nhớ:** Một con én không làm nên mùa xuân. Một chiếc xe hỏng sẽ ảnh hưởng đến toàn bộ lịch trình. Một thông tin báo cáo mơ hồ sẽ làm chậm trễ cả đội xe. Nhưng khi chúng ta cùng nhau tạo thành một **" vòng tròn hoàn hảo"**, mọi vấn đề đều được giải quyết, và khách hàng nhận được trải nghiệm tuyệt vời nhất.
+**📌 Thảo luận nhanh (1 phút):** "Hãy thử tưởng tượng một ngày làm việc lý tưởp khi cả 3 bộ phận đều phối hợp ăn ý. Nó sẽ trông như thế nào?"
+* * *
+### 🎯 **LỜI KẾT: CÙNG NHAU KIẾN TẠO NHỮNG HÀNH TRÌNH HẠNH PHÚC**
+**(2 phút)**
+Thông điệp quan trọng nhất hôm nay: **" Đơn giản là, chúng ta cần nhau."**
+Khi bạn lái xe an toàn, bạn đang bảo vệ uy tín của cả đội. Khi bạn điều phối thông minh, bạn đang nâng đỡ công việc của đồng đội. Khi bạn sửa chữa tận tâm, bạn đang trao gửi sự an tâm cho mỗi hành trình. Chúng ta không chỉ giao tiếp qua sóng điện thoại hay ứng dụng. Chúng ta đang kết nối bằng **sự tin tưởng, trách nhiệm và cùng chung một mục tiêu:** Mang lại những chuyến đi hạnh phúc, an toàn và êm ái cho cộng đồng.
+Hãy tự hào vì bạn là một phần trong cỗ máy hoàn hảo này. Cảm ơn bạn vì đã là một mắt xích không thể thiếu!
+* * *
+# 🌟 **GIÁO TRÌNH: SỨ MỆNH NGƯỜI TÀI XẾ UNITAXI - KIẾN TẠO NHỮNG HÀNH TRÌNH HẠNH PHÚC**
+**Sổ tay Tác phong Unitaxi – Phần Ý nghĩa Nghề nghiệp(Thời lượng: 15 phút – Trái tim của chương trình đào tạo 48 giờ)**
+**Mục tiêu:** Khơi dậy lòng tự hào và nhận thức sâu sắc về sứ mệnh. Giúp mỗi học viên thấy rằng họ không chỉ đang LÁI XE, mà đang kiến tạo niềm tin, gìn giữ an toàn và trao gửi yêu thương trong từng hành trình.
+* * *
+### **A. BỐN DANH HIỆU CAO QUÝ CỦA NGƯỜI TÀI XẾ UNITAXI**
+**(5 phút)**
+**Dẫn nhập:** Trong hành trình của Unitaxi, chúng ta không có người lái xe. Chúng ta có những NGƯỜI GIỮ VỮNG NHỮNG SỨ MỆNH.
+  * **1\. Người Bảo Vệ An Toàn (The Safety Guardian)**
+    * Bạn không chỉ cầm vô-lăng; bạn đang cầm giữ sự an toàn của những người cha, người mẹ, những đứa trẻ phía sau.
+    * Mỗi lần bạn giữ khoảng cách an toàn, mỗi lần bạn quan sát kỹ trước khi chuyển làn, đó không phải là quy tắc - đó là **sự tôn trọng sinh mạng**.
+    * Bạn chính là "lá chắn sống" đáng tin cậy nhất của hành khách.
+
+
+  * **2\. Đại Sứ Thương Hiệu (The Brand Ambassador)**
+    * Trong mắt khách hàng, **BẠN chính là Unitaxi**. Họ có thể quên app thông minh thế nào, nhưng họ sẽ không bao giờ quên **cảm giác** khi ngồi sau xe bạn.
+    * Một nụ cười chân thành, một câu "Cảm ơn anh/chị đã đồng hành" \- đó là những viên gạch xây nên lâu đài thương hiệu Unitaxi.
+
+
+  * **3\. Người Hùng Môi Trường Thầm Lặng (The Silent Eco-Hero)**
+    * Bằng việc lái chiếc xe điện, mỗi km bạn chạy là một **lời hứa với tương lai** \- về một bầu trời trong xanh hơn, những con đường yên tĩnh hơn.
+    * Bạn đang trực tiếp góp phần **chữa lành** những vết thương của thành phố, chỉ bằng cách làm tốt nhất công việc của mình.
+
+
+  * **4\. Người Vỗ Về Những Mệt Mỏi (The Comfort Keeper)**
+    * Khách hàng bước lên xe mang theo cả một ngày dài. Có người vừa tan làm mệt nhoài, có người đang lo lắng cho người thân trong bệnh viện, có em nhỏ đang khóc vì say xe.
+    * Sự êm ái của bạn, sự im lặng tôn trọng của bạn, hay đơn giản là một chai nước mát lạnh đưa kịp lúc... có thể **biến một chuyến đi thành một sự an ủi**.
+    * **📌 Cùng Thảo Luận (30 giây):** "Hãy kể về một lần bạn cảm nhận được sự biết ơn chân thành từ khách hàng. Điều gì nhỏ nhất bạn làm lại khiến họ nhớ nhất?"
+
+
+* * *
+### **B. HÌNH MẪU NGƯỜI TÀI XẾ TƯƠNG LAI - VỪA CÓ TÂM, VỪA CÓ TẦM**
+**(6 phút)**
+Chúng ta cùng nhau xây dựng một hình ảnh mới - nơi người tài xế được trân trọng như một **Nghề Chuyên Nghiệp**.
+  * **1\. Sự Chỉn Chu Tạo Nên Uy Tín**
+    * Một bộ đồ phẳng phiu, đôi giày sạch sẽ, chiếc xe tinh tươm. Đó không phải là quy định - đó là **sự tôn trọng dành cho chính bạn và công việc của bạn**.
+    * Sự đúng giờ không chỉ là kỷ luật; đó là thông điệp: "Tôi coi trọng thời gian của bạn."
+
+
+  * **2\. Nghệ Thuật Giao Tiếp Tinh Tế**
+    * Giọng nói nhẹ nhàng, cách nói chuyện đúng mực. Bạn không cần phải là một diễn giả, chỉ cần là một **người đồng hành biết lắng nghe**.
+    * Im lặng đúng lúc còn giá trị hơn một câu chuyện phiếm không cần thiết.
+
+
+  * **3\. Tài Nghệ Lái Xe - Một Môn Nghệ Thuật**
+    * Khách hàng không cảm nhận được "kỹ thuật lái xe", họ chỉ cảm nhận được **cảm giác an tâm và thoải mái**.
+    * Một phanh nhẹ nhàng, một cua lượn mượt mà - đó là ngôn ngữ của sự chuyên nghiệp mà ai cũng hiểu được.
+
+
+  * **4\. Sự Thấu Cảm - Phẩm Chất Cao Quý Nhất**
+    * **Quan sát và Thấu hiểu:** Một hành khách lớn tuổi - cần mở cửa và hỗ trợ. Một em nhỏ - cần điều hòa ấm hơn một chút. Một khách hàng có vẻ mệt mỏi - cần sự yên tĩnh.
+    * Bạn không chỉ lái xe; bạn đang **đọc vị cảm xúc** và mang lại trải nghiệm được **cá nhân hóa** một cách tinh tế nhất.
+
+
+* * *
+### **C. NIỀM TỰ HÀO ĐÍCH THỰC - CHÚNG TA ĐANG VIẾT NÊN LỊCH SỬ**
+**(4 phút)**
+Hôm nay, bạn có quyền tự hào vì:
+  1. **Bạn là Người Tiên Phong:** Bạn không đi theo lối mòn. Bạn đang cùng Unitaxi **định hình tương lai** của ngành giao thông Việt Nam - một tương lai xanh, sạch và nhân văn.
+
+
+  2. **Bạn Tạo Ra Khác Biệt Bằng Chính Con Người Mình:** Mỗi cử chỉ đẹp của bạn, mỗi hành động tử tế của bạn, đều là một **hạt giống tốt** gieo vào lòng thành phố. Khách hàng sẽ không nhớ đến một công ty vô tri, họ sẽ nhớ đến **con người tuyệt vời** đã giúp đỡ họ.
+
+
+  3. **Bạn Được Trao Một Đặc Ân:** Rất ít nghề nghiệp cho bạn cơ hội **chạm vào cuộc sống** của hàng trăm người mỗi tháng theo cách tích cực như nghề của chúng ta. Bạn là điểm sáng trong ngày của ai đó, là sự an tâm của một bà mẹ, là niềm vui của một đứa trẻ.
+
+
+**Thông Điệp Kết Thúc (1 phút):**
+> "Hãy nhớ rằng, phía sau mỗi chuyến xe không chỉ là một hành khách - đó là một câu chuyện.  
+> Và bạn, với tư cách là người tài xế, có đặc quyền được trở thành một nhân tử tốt đẹp trong câu chuyện đó. Hãy phục vụ với tất cả sự chân thành và tôn trọng, như thể người ngồi sau là chính người thân của mình. Không cần điều gì quá lớn lao, chỉ cần sự **tử tế đúng lúc** và **trách nhiệm đến nơi**.
+> Cảm ơn bạn đã chọn trở thành một phần của Unitaxi. Cùng nhau, chúng ta không chỉ vận hành những chiếc xe - chúng ta đang **vận chuyển niềm tin và kiến tạo hạnh phúc**."
+* * *
+# ✅ **BÀI KIỂM TRA NHANH - KẾT THÚC HÀNH TRÌNH ĐÀO TẠO NỀN TẢNG**
+**(Thời lượng: 5 phút)**
+**Hướng dẫn cho Giảng viên:**  
+"Hãy cùng nhau ôn lại 5 điều cốt lõi nhất. Tôi sẽ đọc từng câu hỏi, chúng ta dành 15 giây suy nghĩ và cùng nhau nói đáp án. Đây không phải là bài thi, mà là dịp để chúng ta cùng khẳng định lại những giá trị chung của Unitaxi."
+* * *
+**1\. Điều gì khiến Unitaxi quyết tâm chọn 100% xe điện?**
+**Đáp án then chốt:** "Vì đây là lựa chọn thông minh cho cả tài xế và cộng đồng: giúp chúng ta tiết kiệm chi phí, lái xe an toàn & thoải mái hơn, cùng nhau kiến tạo một thành phố xanh - sạch - êm."
+**2\. Sức mạnh của sự phối hợp giữa Tài xế - Điều phối - Kỹ thuật nằm ở đâu?**
+**Đáp án then chốt: "**Chúng ta là một vòng tròn khép kín. Thông tin rõ ràng từ Tài xế giúp Kỹ thuật hành động chính xác, và sự hỗ trợ kịp thời từ Điều phối giúp Tài xế tập trung vào điều quan trọng nhất: một chuyến xe an toàn và dễ chịu."
+**3\. Tại sao 'An toàn' luôn phải là nguyên tắc bất di bất dịch?**
+**Đáp án then chốt:** "Vì chúng ta đang gánh vác trên vai sự an toàn và sinh mạng của con người. An toàn không chỉ là ưu tiên số 1 - đó là GIÁ TRỊ CỐT LÕI làm nên thương hiệu Unitaxi."
+**4\. Mỗi chuyến xe xanh của chúng ta đóng góp điều gì cụ thể cho thành phố?**
+**Đáp án then chốt: "Mỗi km chúng ta chạy là một đóng góp trực tiếp:** Một luồng khí thải độc hại ÍT HƠN, một khoảng không gian yên tĩnh HƠN, và một môi trường sống lành mạnh HƠN cho tất cả mọi người."
+**5\. Bí quyết nào để tạo nên trải nghiệm tuyệt vời nhất cho khách hàng?**
+**Đáp án then chốt:** "Đó chính là CON NGƯỜI bạn. Các nghiên cứu quốc tế chỉ ra rằng, đến 80% cảm nhận của khách hàng về Unitaxi được quyết định bởi thái độ phục vụ, kỹ năng lái xe và sự chuyên nghiệp của chính bạn."
+* * *
+**Lời kết của Giảng viên (30 giây):** "Hoàn hảo! Nếu những câu trả lời này đã thấm nhuần trong tâm trí bạn, thì bạn không chỉ sẵn sàng trở thành một tài xế Unitaxi - bạn đã sẵn sàng trở thành một **Người hùng đô thị thực thụ**. Hãy ra đường với tất cả sự tự hào và trách nhiệm. Chúc các bạn luôn giữ vững tay lái, giữ trọn tâm thế và luôn tỏa sáng!"
+* * *
+# **📘 GIÁO ÁN ĐÀO TẠO – 8 CHUẨN VĂN HOÁ – TÁC PHONG UNITAXI (4 GIỜ)**
+**Đối tượng:** Tài xế – Điều phối – Kỹ thuật
+**Hình thức:** Lý thuyết + Tình huống + Diễn vai + Quan sát trực tiếp
+**Mục tiêu:** Chuẩn hóa _1 bộ tác phong chung_ cho toàn hệ thống
+* * *
+# **⏱ 1. CẤU TRÚC BUỔI HỌC (4 GIỜ)**
+|               |
+| **Thời gian** | **Nội dung**                                  |
+|---------------|-----------------------------------------------|
+| 0–10 phút     | Giới thiệu – mục tiêu – kỳ vọng               |
+| 10–55 phút    | Chuẩn 1: An toàn trước – sau – luôn luôn      |
+| 55–75 phút    | Chuẩn 2: Đúng giờ & tôn trọng cam kết         |
+| 75–115 phút   | Chuẩn 3: Không gian dễ chịu cho khách         |
+| 115–145 phút  | Chuẩn 4: Tôn trọng trong giao tiếp            |
+| 145–165 phút  | Chuẩn 5: Trung thực với hệ thống              |
+| 165–190 phút  | Chuẩn 6: Kỷ luật giờ giấc – quy trình         |
+| 190–215 phút  | Chuẩn 7: Chú ý chi tiết (Attention to Detail) |
+| 215–235 phút  | Chuẩn 8: Tự hào khi mặc đồng phục             |
+| 235–240 phút  | Kiểm tra nhanh – nhắc lại – kết thúc          |
+
+
+* * *
+# 🛡️ **CHUẨN 1: AN TOÀN - GIÁ TRỊ KHÔNG BAO GIỜ ĐỔI Đ ƯỢC**
+### **A. MỞ ĐẦU: TẠI SAO AN TOÀN LÀ SỐ 1?** (4-5 phút)
+Khi bạn cầm vô-lăng Unitaxi, có một câu hỏi chúng ta nên tự đặt ra mỗi ngày: **" Nếu người ngồi sau là người thân của mình - mình sẽ lái thế nào?"**
+Câu trả lời luôn chỉ có một: **AN TOÀN TUYỆT ĐỐI**.
+**Thống kê từ Uber & Lyft cho thấy:**
+  * Tài xế tuân thủ an toàn có thu nhập cao hơn 18% (Uber Pro Diamond)
+
+
+  * 94% khách hàng đánh giá 5 sao khi cảm thấy an toàn (Lyft Safety Survey)
+
+
+  * Tai nạn giảm 72% khi tài xế được đào tạo phòng vệ (Uber Safety Report 2024)
+
+
+Đó là lý do Unitaxi đặt an toàn làm giá trị cốt lõi:
+  * Một phút mất tập trung = Mất cả tương lai
+
+
+  * Một giây chủ quan = Hối hận cả đời
+
+
+  * Một lần đúng = Cứu cả gia đình
+
+
+Hôm nay, chúng ta không học lý thuyết - chúng ta học cách **bảo vệ sự sống**.
+### **B. 10 KẺ THÙ LỚN NHẤT TRÊN ĐƯỜNG PHỐ** (5 phút)
+Theo thống kê từ CSGT và Uber Safety, 90% tai nạn đến từ:
+  1. 📱 **Mất tập trung vì điện thoại** \- Uber ghi nhận 47% sự cố từ nguyên nhân này
+
+
+  2. 🚗 **Phanh gấp - tăng tốc đột ngột** \- Lyft ghi nhận đây là nguyên nhân #1 gây say xe
+
+
+  3. 😴 **Buồn ngủ, mệt mỏi** \- Theo ComfortDelGro, lái xe dưới 5 tiếng ngủ = rủi ro tăng 300%
+
+
+  4. 🛵 **Xe máy cắt ngang bất ngờ** \- Đặc thù Việt Nam, chiếm 35% va chạm
+
+
+  5. 💨 **Tốc độ không phù hợp** \- Bolt ghi nhận 60% tai nạn từ tốc độ không phù hợp với điều kiện
+
+
+  6. 🪞 **Không quan sát gương** \- Japan Taxi Academy: quét gương 5-7 giây/lần giảm 80% điểm mù
+
+
+  7. 🌧️ **Đường trơn trời mưa** \- Singapore LTA: mưa làm tăng nguy cơ tai nạn lên 40%
+
+
+  8. 🛑 **Không giữ khoảng cách** \- Khoảng cách 3 giây giảm 65% đâm sau (Uber Safety Standard)
+
+
+  9. 🚦 **Đèn đỏ, đèn vàng** \- Grab ghi nhận 25% tai nạn tại ngã tư có đèn tín hiệu
+
+
+  10. 🚶 **Người đi bộ bất ngờ** \- Đặc biệt khu vực trường học, chợ
+
+
+→ Chúng ta sẽ học cách **vô hiệu hóa** từng mối nguy này.
+### **C. 5 BÍ KÍP LÁI XE PHÒNG VỆ** (8 phút)
+Đây là bí quyết từ các tài xế hạng kim cương Uber/Lyft và Japan Taxi:
+  1. **Mắt nhìn xa 12-15 giây**
+     *  _Uber Defensive Driving:_ "Luôn quét đường ở khoảng cách ít nhất 12 giây"
+     * Thấy trước = Xử lý trước
+     * Không bao giờ bị động
+
+
+  2. **Quét gương mỗi 5-7 giây**
+     *  _Japan Taxi Standard:_ "5-7 giây/lần, theo thứ tự trái - giữa - phải"
+     * Xe máy từ đâu cũng thấy
+     * Giảm 80% điểm mù
+
+
+  3. **Khoảng cách 3 giây an toàn**
+     *  _Lyft Safety Protocol:_ "3 giây là tối thiểu, 4-5 giây khi thời tiết xấu"
+     * 1 giây nhận diện
+     * 1 giây phản xạ
+     * 1 giây xử lý
+     * Mưa = 5 giây
+
+
+  4. **Tốc độ thông minh**
+     *  _Bolt Safety Guide:_ "Tốc độ phải phù hợp với điều kiện thực tế, không phải biển báo"
+     * Không chạy theo biển báo
+     * Chạy theo tình huống thực tế
+
+
+  5. **Luôn có lối thoát**
+     *  _ComfortDelGro Training:_ "Đừng bao giờ để mình kẹt giữa các phương tiện lớn"
+     * Không kẹt giữa xe lớn
+     * Không chạy song song container
+
+
+### **D. 9 ĐIỀU CẤM KỴ - VI PHẠM = RA KHỎI HỆ THỐNG** (5 phút)
+Theo tiêu chuẩn của Uber Zero Tolerance Policy và Grab Safety Framework:
+  1. ❌ **Cầm điện thoại khi lái** \- Uber ghi nhận đây là vi phạm nghiêm trọng nhất
+
+
+  2. ❌ **Livestream, xem video** \- Lyft cấm tuyệt đối mọi hình thức giải trí khi lái xe
+
+
+  3. ❌ **Tranh đường, ép xe máy** \- Japan Taxi: "Nhường đường là kỹ năng số 1"
+
+
+  4. ❌ **Chạy nhanh vì khách giục** \- Uber Pro: "An toàn quan trọng hơn tốc độ"
+
+
+  5. ❌ **Đón/trả khách giữa đường** \- Grab Safety+ yêu cầu dừng ở vị trí an toàn
+
+
+  6. ❌ **Lái khi ngủ dưới 5 tiếng** \- ComfortDelGro: "Mệt mỏi nguy hiểm như say rượu"
+
+
+  7. ❌ **Quay đầu nói chuyện** \- Bolt Driver Code cấm mất tập trung với khách
+
+
+  8. ❌ **Bẻ lái khi đang phanh** \- Kỹ thuật cơ bản nhưng 70% tài xế mắc lỗi
+
+
+  9. ❌ **Rượu bia (0% cồn)** \- Uber/Lyft/ Grab đều có chính sách zero tolerance
+
+
+### **E. BÍ QUYẾT LÁI XE ĐIỆN AN TOÀN** (6 phút)
+Dựa trên Tesla Safety Protocol và BYD EV Training:
+  * **Chân ga nhạy** : Thả ga từ từ, không đạp mạnh
+    *  _Tesla Model 3:_ Tăng tốc 0-60 km/h chỉ 3.1 giây → cần cực kỳ cẩn thận
+
+
+  * **Phanh tái sinh** : Giữ chân đều, không nhấp nhấp
+    *  _BYD Training:_ "Phanh tái sinh giảm 30% hao mòn phanh nhưng cần làm quen"
+
+
+  * **Xe nặng hơn** : Phanh xa hơn → khoảng cách lớn hơn
+    *  _EV Weight Factor:_ Xe điện nặng hơn 20-30% → quán tính lớn hơn
+
+
+  * **Cabin yên tĩnh** : Khách nghe rõ mọi âm thanh → lái thật êm
+    *  _ComfortDelGro EV Standard:_ "Sự yên tĩnh là lợi thế nhưng cũng là trách nhiệm"
+
+
+### **F. AN TOÀN KIỂU VIỆT - XỬ LÝ TÌNH HUỐNG ĐẶC THÙ** (6 phút)
+Kết hợp kinh nghiệm địa phương và tiêu chuẩn quốc tế:
+  1. **Xe máy lách 360 độ**
+     * Quét gương liên tục
+     * Luôn dự phòng
+     *  _Grab Vietnam Insight:_ "Coi mọi xe máy đều có thể cắt ngang"
+
+
+  2. **Hẻm nhỏ, hẻm tối**
+     * Giảm tốc 10-15 km/h
+     * Bật đèn sáng
+     *  _Uber SEA Guideline:_ "Tốc độ dưới 15 km/h trong hẻm"
+
+
+  3. **Ngã tư không đèn**
+     * Nhường đường dù đúng
+     * An toàn trên hết
+     *  _Japan Driving Philosophy:_ "Better late than never"
+
+
+  4. **Mưa ngập**
+     * Xe điện: không lội nước quá ½ bánh
+     * Tìm đường khác an toàn hơn
+     *  _BYD Safety Warning:_ "Nước ngập có thể làm hỏng pin vĩnh viễn"
+
+
+  5. **Khu dân cư tối**
+     * Coi chừng trẻ em chạy ra
+     * Tốc độ dưới 20 km/h
+     *  _Lyft Community Safety:_ "Trẻ em có thể xuất hiện bất ngờ"
+
+
+### **G. XỬ LÝ KHỦNG HOẢNG - 5 GIÂY VÀNG** (6 phút)
+Theo Uber Critical Response Protocol và Grab Safety Framework:
+**Khi khách giục chạy nhanh:**_" Dạ em giữ tốc độ ổn định để mình an toàn hơn ạ. Chậm vài phút nhưng chắc chắn anh/chị nhé! Theo tiêu chuẩn Uber Pro, an toàn luôn là ưu tiên số 1."_
+**Khi va chạm - Uber 5-Step Protocol:**
+  1. ✅ Bật đèn cảnh báo - _Uber Step 1: Secure the scene_
+
+
+  2. ✅ Dừng xe an toàn - _Uber Step 2: Move to safe location_
+
+
+  3. ✅ Giữ bình tĩnh - _Uber Step 3: Stay calm, don 't admit fault_
+
+
+  4. ✅ Gọi điều phối - _Uber Step 4: Contact support immediately_
+
+
+  5. ✅ Chỉ nói: _" Mình chờ điều phối xử lý đúng quy trình nha" \- Uber Step 5: Follow company procedure_
+
+
+**Khi khách say - Grab Safety+ Protocol:**
+  * Giữ khoảng cách - _Grab: "Maintain physical distance"_
+
+
+  * Không tranh cãi - _Grab: "Avoid confrontation"_
+
+
+  * Dừng chỗ sáng - _Grab: "Choose well-lit, public area"_
+
+
+  * Gọi hỗ trợ ngay - _Grab: "Use emergency button in app"_
+
+
+### **H. CHECKLIST 90 GIÂY - ĐẦU CA & CUỐI CA** (4 phút)
+**ĐẦU CA - 10 ĐIỂM VÀNG** (Theo Japan Taxi Academy & Uber Vehicle Inspection):
+  1. Lốp (áp suất, độ mòn) - _Uber: "Tire pressure check daily"_
+
+
+  2. Đèn (phá, xi-nhan, stop) - _Japan Taxi: "Light check saves lives"_
+
+
+  3. Gương (trái, phải, trong) - _Uber: "Clean mirrors reduce blind spots"_
+
+
+  4. Camera hành trình - _Grab: "Ensure dashcam is functioning"_
+
+
+  5. Thảm trải sàn - _ComfortDelGro: "Clean floor prevents pedal interference"_
+
+
+  6. Ghế (chỉnh, vệ sinh) - _Lyft: "Proper seat adjustment = better control"_
+
+
+  7. Phanh (thử tại chỗ) - _Uber: "Test brakes before moving"_
+
+
+  8. Giấy tờ (bản gốc) - _Legal requirement all platforms_
+
+
+  9. App (kết nối, pin) - _Bolt: "App functionality critical for safety"_
+
+
+  10. Pin xe (%) - _EV Best Practice: "Check charge level before trip"_
+
+
+**CUỐI CA - 5 VIỆC KHÔNG QUÊN:**
+  1. Báo lỗi (nếu có) - _Uber: "Report issues immediately"_
+
+
+  2. Dọn xe sạch sẽ - _Japan Taxi: "Clean car = professional image"_
+
+
+  3. Cắm sạc đúng cách - _BYD: "Follow charging protocol"_
+
+
+  4. Gửi báo cáo cuối ca - _Grab: "End-of-shift report mandatory"_
+
+
+  5. Kiểm tra đồ thất lạc - _Lyft: "Lost items damage reputation"_
+
+
+### **I. 5 CÂU THẦN CHÚ AN TOÀN** (3 phút)
+Học thuộc 5 câu này, dùng cả đời (theo Uber/Lyft Communication Guidelines):
+  1. _" Em giữ tốc độ ổn định để mình an toàn hơn ạ." \- Uber Comfort Standard_
+
+
+  2.  _" Đoạn này em giảm tốc một chút cho chắc nha anh/chị." \- Lyft Safety Phrase_
+
+
+  3.  _" Để em tập trung lái cho an toàn, mình nói chuyện sau nhé." \- Grab Safety Communication_
+
+
+  4.  _" Em cua nhẹ thôi để mình không xốc ạ." \- Japan Taxi Polite Driving_
+
+
+  5.  _" Anh/chị đeo dây an toàn giúp em với ạ." \- Legal Requirement & Best Practice_
+
+
+### **J. LỜI KẾT: TRAO GỬI NIỀM TIN** (3 phút)
+Anh chị em thân mến,
+Mỗi chuyến xe của chúng ta không chỉ là một hành trình - đó là **sự tin tưởng** mà khách hàng trao gửi.
+**Theo Uber Safety Pledge:**
+  * Một cú phanh êm = Một đánh giá 5 sao
+
+
+  * Một chuyến đi an toàn = Một khách hàng trung thành
+
+
+  * Một ngày làm việc tỉnh táo = Một tương lai bền vững
+
+
+**An toàn không phải là chạy chậm - an toàn là lái thông minh, có trách nhiệm.** Cảm ơn các bạn - những người đang viết nên câu chuyện Unitaxi bằng sự an toàn và chuyên nghiệp!
+* * *
+# 🕒 **CHUẨN 2: ĐÚNG GIỜ & TÔN TRỌNG CAM KẾT**
+**(Phiên bản hoàn chỉnh - 25-30 phút đào tạo)**
+### **A. MỞ ĐẦU: ĐÚNG GIỜ = TẠO NIỀM TIN ĐẦU TIÊN** (3 phút)
+**Thống kê từ Grab & Uber cho thấy:**
+  * 92% khách hàng đánh giá 1 sao khi phải chờ quá 5 phút không được thông báo
+
+
+  * Tài xế đúng giờ có tỷ lệ hủy chuyến thấp hơn 45% (Uber Pro Data)
+
+
+  * 78% khách sẵn sàng trả thêm cho dịch vụ đúng giờ (Grab Customer Insight 2024)
+
+
+**Câu chuyện thực tế từ Japan Taxi:**  
+"Khách không nhớ bạn đến sớm, nhưng không bao giờ quên bạn đến trễ"
+Đúng giờ không phải là phép lịch sự - đó là:
+  * **Chiến lược an toàn** : Giảm 60% tình huống khách giục chạy nhanh
+
+
+  * **Chiến lược kinh tế** : Tăng 25% thu nhập nhờ giữ chân khách hàng trung thành
+
+
+  * **Chiến lược thương hiệu** : Xây dựng hình ảnh "Unitaxi - luôn đáng tin cậy"
+
+
+### **B. 5 LÝ DO ĐÚNG GIỜ LÀ KHÔNG THƯƠNG LƯỢNG** (5 phút)
+  1. **Trải nghiệm khách hàng**
+     * 85% khách cảm thấy bị coi thường khi phải chờ không thông báo
+     *  _Theo Uber CSAT Score:_ Đúng giờ chiếm 40% điểm đánh giá
+
+
+  2. **An toàn đường bộ**
+     * Khách sốt ruột → 72% tài xế bị áp lực chạy nhanh
+     *  _Lyft Safety Report:_ Trễ giờ làm tăng nguy cơ tai nạn lên 55%
+
+
+  3. **Hiệu suất hệ thống**
+     * Trễ 5 phút = Ảnh hưởng đến 3-5 chuyến xe khác
+     *  _Grab Operations Data:_ Đúng giờ giúp tăng 30% hiệu suất toàn hệ thống
+
+
+  4. **Pháp lý & Bảo hiểm**
+     * Mọi tranh chấp đều dựa trên log thời gian hệ thống
+     *  _Bolt Insurance Protocol:_ Trễ giờ không báo cáo = mất bảo hiểm
+
+
+  5. **Hình ảnh nghề nghiệp**
+     *  _Japan Taxi Standard:_ "Đúng giờ là phẩm chất cơ bản của người tài xế chuyên nghiệp"
+
+
+### **C. 6 "KẺ THÙ" KHIẾN BẠN TRỄ GIỜ & CÁCH XỬ LÝ** (4 phút)
+  1. **Không kiểm tra pin**
+     *  _BYD EV Protocol:_ Luôn kiểm tra pin trước khi nhận cuốc >30%
+
+
+  2. **Bỏ qua tình trạng giao thông**
+     *  _Waze Data:_ Xem traffic 5 phút trước giúp tránh 80% kẹt xe bất ngờ
+
+
+  3. **Ước lượng thời gian không thực tế**
+     *  _Google Maps Insight:_ Luôn cộng thêm 20% thời gian dự phòng
+
+
+  4. **Im lặng khi gặp sự cố**
+     *  _Uber Driver Guide:_ Báo cáo sự cố trong vòng 1 phút đầu tiên
+
+
+  5. **Không dự phòng tuyến đường**
+     *  _Grab Navigation Tip:_ Luôn có 2-3 tuyến đường thay thế
+
+
+  6. **Xác nhận sai vị trí**
+     *  _ComfortDelGro Training:_ Luôn hỏi lại điểm đón chính xác
+
+
+### **D. QUY TRÌNH 3 BƯỚC "LUÔN ĐÚNG GIỜ"** (5 phút)
+**Bước 1: Chuẩn bị thông minh (1 phút)**
+  * Kiểm tra pin, lộ trình, giao thông
+
+
+  *  _Uber Pro Tip:_ "Planning prevents poor performance"
+
+
+**Bước 2: Hành động chủ động (3 phút)**
+  * Trễ >1 phút → Nhắn tin ngay
+
+
+  * Trễ >3 phút → Gọi điện thông báo
+
+
+  *  _Lyft Communication Standard:_ "Thông báo sớm hơn lời xin lỗi"
+
+
+**Bước 3: Kết thúc hoàn hảo (1 phút)**
+  * Đỗ xe an toàn, dễ thấy
+
+
+  * Nhắn tin xác nhận đã đến
+
+
+  *  _Japan Taxi Protocol:_ "Luôn đến sớm hơn 2 phút"
+
+
+### **E. 5 CÂU "CỨU CÁNH" KHI TRỄ GIỜ** (4 phút)
+_(Dựa trên Uber/Lyft Communication Framework)_
+  1. **Trễ nhẹ:**  
+"Em đang đến, còn khoảng 2 phút nữa tới nơi ạ. Cảm ơn anh/chị đã kiên nhẫn chờ!"
+
+
+  2. **Trễ do kẹt xe:**  
+"Dạ đoạn đường đang kẹt hơn dự kiến, em đến trễ khoảng 3 phút. Rất xin lỗi và cảm ơn anh/chị đã thông cảm ạ!"
+
+
+  3. **Trễ do thời tiết:**  
+"Trời mưa đường trơn nên em đi chậm để đảm bảo an toàn, em đến trễ khoảng 4 phút. Mong anh/chị thông cảm ạ!"
+
+
+  4. **Sai vị trí:**  
+"Dạ em đang ở cổng A, nếu anh/chị ở cổng B em qua đón ngay ạ. Xin lỗi vì sự bất tiện này!"
+
+
+  5. **Khách bực bội:**  
+"Em thực sự xin lỗi vì để anh/chị chờ. Em sẽ cố gắng trong khả năng an toàn nhất có thể ạ."
+
+
+### **F. THỰC HÀNH TÌNH HUỐNG - 3 KỊCH BẢN** (5 phút)
+**Tình huống 1: Khách nhắn "Sao lâu vậy?"**
+  * _Cách xử lý chuẩn:_ "Dạ em xin lỗi, còn 2 phút nữa tới nơi ạ. Cảm ơn anh/chị đã kiên nhẫn!"
+
+
+**Tình huống 2: Nhầm cổng đón**
+  *  _Cách xử lý chuẩn:_ "Em đang ở cổng A, xin lỗi anh/chị, em qua cổng B ngay ạ!"
+
+
+**Tình huống 3: Khách vội vì trễ họp**
+  *  _Cách xử lý chuẩn:_ "Em hiểu anh/chị đang vội, em sẽ cố gắng trong mức an toàn cho phép ạ."
+
+
+### **G. 7 NGUYÊN TẮC VÀNG KHÔNG BAO GIỜ QUÊN** (3 phút)
+  1. **Luôn báo trước** \- Thông báo sớm hơn xin lỗi
+
+
+  2. **Đừng hứa suông** \- Chỉ hứa khi chắc chắn 100%
+
+
+  3. **Im lặng là vàng?** \- Không! Im lặng khi trễ là thảm họa
+
+
+  4. **Kiểm tra kỹ** \- Luôn xác nhận điểm đón chính xác
+
+
+  5. **Vị trí thông minh** \- Đỗ chỗ sáng, an toàn, dễ thấy
+
+
+  6. **Tuân thủ hệ thống** \- Mọi thứ qua app, không nói miệng
+
+
+  7. **Học từ sai lầm** \- Ghi nhớ các tình huống trễ để không lặp lại
+
+
+### **H. KIỂM TRA NHANH 30 GIÂY** (1 phút)
+  1. **Trễ 1 phút có cần báo không?**  
+→ CÓ! Luôn thông báo khi trễ bất kỳ bao lâu
+
+
+  2. **Câu nào đúng khi trễ?**  
+→ "Em đến trễ 2 phút, mong anh/chị thông cảm ạ."
+
+
+  3. **Khách giục chạy nhanh vì trễ?**  
+→ "Em sẽ cố gắng trong giới hạn an toàn ạ."
+
+
+### **I. THÔNG ĐIỆP KẾT: ĐÚNG GIỜ = TÔN TRỌNG = THÀNH CÔNG** (2 phút)
+Anh chị em thân mến,
+Theo triết lý của Japan Taxi Academy:  
+**" Một tài xế đúng giờ không chỉ tôn trọng thời gian của khách hàng - mà còn tôn trọng chính giá trị bản thân mình."**
+Mỗi lần bạn đến đúng giờ:
+  * Bạn đang gửi thông điệp: "Tôi là người đáng tin cậy"
+
+
+  * Bạn đang xây dựng: Thương hiệu cá nhân và tập thể
+
+
+  * Bạn đang tạo ra: Giá trị bền vững cho chính mình
+
+
+Hãy là những tài xế mà khách hàng không bao giờ phải hỏi:  
+**" Xe đâu rồi?"**
+**Cảm ơn các bạn - những đại sứ của sự tin cậy!**
+* * *
+# 🟦 **CHUẨN 3: KHÔNG GIAN DỂ CHỊU CHO KHÁCH**
+**(Phiên bản n âng cấp - Bổ sung chuẩn quốc tế)**
+* * *
+### **A. MỞ ĐẦU – 10 GIÂY ĐẦU TIÊN ĐÃ NÓI LÊN TẤT CẢ** (3 phút)
+**Bổ sung từ Uber Global Standard:**
+"The First 10-Second Rule" \- Nghiên cứu từ 5,000 chuyến xe cho thấy 85% đánh giá được quyết định trong 10 giây đầu tiên khi khách bước lên xe.
+**Japan Taxi Academy Insights:**
+"Không gian xe là bộ mặt thứ hai của tài xế. Khách không đánh giá bạn qua lời chào, mà qua cảm nhận đầu tiên."
+* * *
+### **B. VÌ SAO KHÔNG GIAN XE LẠI QUAN TRỌNG ĐẾN VẬY?** (4 phút)
+**Bổ sung từ Lyft Comfort Program:**
+  * Tài xế đạt chuẩn Comfort có thu nhập cao hơn 25% so với tài xế thông thường
+
+
+  * 92% khách hàng sẵn sàng trả thêm 10-15% cho trải nghiệm "xe sạch - êm - dễ chịu"
+
+
+**Singapore ComfortDelGro Research:**
+"Không gian xe ảnh hưởng trực tiếp đến:
+  * Tỷ lệ giữ chân khách hàng (tăng 40%)
+
+
+  * Số lượt đánh giá 5 sao (tăng 65%)
+
+
+  * Tần suất khách giới thiệu (tăng 55%)"
+
+
+* * *
+### **C. 5 YẾU TỐ QUỐC TẾ TẠO NÊN KHÔNG GIAN HOÀN HẢO** (12 phút)
+**1\. SẠCH SẼ TUYỆT ĐỐI**
+**Bổ sung từ London Black Cab Standard:**
+  * Sử dụng UV light để kiểm tra vệ sinh ghế mỗi tuần
+
+
+  * Thảm xe được hút bụi chuyên nghiệp 2 lần/ngày
+
+
+  * Tay nắm cửa được khử trùng sau mỗi chuyến
+
+
+**2\. KHÔNG MÙI LẠ**
+**Bổ sung từ European Taxi Alliance:**
+  * Sử dụng hệ thống lọc không khí HEPA trong cabin
+
+
+  * Kiểm tra mùi bằng máy đo VOC (Volatile Organic Compounds)
+
+
+  * Sử dụng ozone generator khử mùi định kỳ
+
+
+**3\. NHIỆT ĐỘ LÝ TƯỞNG**
+**Bổ sung từ Dubai Taxi Corporation:**
+  * Ứng dụng công nghệ "Pre-cooling" \- làm mát xe trước 5 phút
+
+
+  * Hệ thống dual-zone climate control cho khách tuỳ chỉnh
+
+
+  * Theo dõi độ ẩm duy trì 40-60% để tránh khô da
+
+
+**4\. ÂM THANH NHẸ NHÀNG**
+**Bổ sung từ New York TLC Standard:**
+  * Sử dụng hệ thống âm thanh spatial audio
+
+
+  * Curated playlist được nghiên cứu bởi chuyên gia tâm lý
+
+
+  * Công nghệ noise cancellation cho cuộc gọi
+
+
+**5\. ÁNH SÁNG VỪA ĐỦ**
+**Bổ sung từ Tokyo MK Taxi:**
+  * Hệ thống đèn LED điều chỉnh theo thời gian trong ngày
+
+
+  * Đèn reading light riêng cho từng ghế
+
+
+  * Công nghệ anti-glare cho kính chắn gió
+
+
+* * *
+### **D. CHECKLIST 30 GIÂY GIỮA CÁC CHUYẾN** (4 phút)
+**Bổ sung từ Uber Pro Diamond Checklist:**
+  1. **Mùi:** Sử dụng máy kiểm tra mùi cầm tay
+
+
+  2. **Bụi:** Dùng đèn UV kiểm tra vết bẩn
+
+
+  3. **Nhiệt độ:** Đo bằng nhiệt kế hồng ngoại
+
+
+  4. **Âm thanh:** Kiểm tra decibel bằng app
+
+
+  5. **Ánh sáng:** Đo lux bằng light meter
+
+
+**Công nghệ từ GrabAcademy Singapore:**
+  * Ứng dụng AI nhận diện độ sạch qua camera
+
+
+  * Hệ thống cảm biến mùi tự động thông báo
+
+
+  * Báo cáo tự động gửi đến quản lý chất lượng
+
+
+* * *
+### **E. THỰC HÀNH NHANH TRONG LỚP** (6 phút)
+**Bổ sung phương pháp từ Japan Taxi Training:**
+  * Sử dụng "Sensory Evaluation Kit" để đánh giá khách quan
+
+
+  * Áp dụng tiêu chuẩn 5S (Sort, Set, Shine, Standardize, Sustain)
+
+
+  * Thực hành với "Mystery Customer" theo tiêu chuẩn quốc tế
+
+
+* * *
+### **F. 3 CÂU MẪU VÀNG** (1 phút)
+**Bổ sung từ International Hospitality Standards:**
+  1. "Would you like me to adjust the temperature to your preference?"
+
+
+  2. "I have curated some relaxing music, or would you prefer silence?"
+
+
+  3. "The reading light is available if you need to work during our ride."
+
+
+* * *
+### **G. THÔNG ĐIỆP KẾT** (2 phút)
+**Bổ sung từ Global Taxi Excellence Program:**  
+"Trong thế giới dịch vụ premium, không gian không còn là yếu tố phụ - đó là sản phẩm chính. Mỗi chiếc xe Unitaxi không chỉ là phương tiện vận chuyển, mà là một trải nghiệm được thiết kế tỉ mỉ."
+**Theo Harvard Business Review:** "Dịch vụ vận chuyển trong tương lai sẽ được định giá dựa trên chất lượng không gian nhiều hơn tốc độ di chuyển."
+* * *
+# 🟦 **CHUẨN 4: TÔN TRỌNG TRONG GIAO TIẾP**
+**(Phiên bản hoàn chỉnh - 45 phút đào tạo)**
+### **A. MỞ ĐẦU: GIAO TIẾP = TRÁI TIM DỊCH VỤ** (4 phút)
+Kính thưa anh chị em, Có một sự thật trong ngành dịch vụ: **" Khách có thể tha thứ cho một chiếc xe cũ, nhưng không bao giờ tha thứ cho một lời nói thiếu tôn trọng."**
+Theo nghiên cứu từ Grab & Uber:
+  * 90% khiếu nại xuất phát từ giao tiếp
+
+
+  * 75% khách hủy chuyến vì cảm thấy không được tôn trọng
+
+
+  * Tài xế giỏi giao tiếp có thu nhập cao hơn 35%
+
+
+Hôm nay, chúng ta sẽ cùng nhau học nghệ thuật **" nói ít nhưng ý nghĩa, im lặng đúng lúc và thấu hiểu không lời."**
+### **B. 5 NGUYÊN TẮC VÀNG TRONG GIAO TIẾP** (8 phút)
+**1\. Luôn bắt đầu bằng nụ cười**
+  * Nụ cười chân thành = Cửa mở vào trái tim khách
+
+
+  *  _Japan Taxi Standard:_ "Hãy cười bằng mắt, không chỉ bằng miệng"
+
+
+**2\. Giọng nói nhẹ nhàng, tốc độ vừa phải**
+  * Không quá to, không quá nhỏ
+
+
+  * Không nói quá nhanh hoặc quá chậm
+
+
+  *  _Uber Communication Guide:_ "Tone giọng quan trọng hơn nội dung"
+
+
+**3\. Ngôn từ lịch sự, xưng hô phù hợp**
+  * "Dạ", "Vâng ạ", "Xin lỗi", "Cảm ơn"
+
+
+  * Xưng "em" \- gọi "anh/chị" với khách trung niên
+
+
+  *  _ComfortDelGro Protocol:_ "Luôn dùng ngôn trang trọng"
+
+
+**4\. Lắng nghe chủ động**
+  * Gật đầu đồng cảm
+
+
+  * Không cắt ngang khi khách nói
+
+
+  *  _Lyft Training:_ "Lắng nghe là cách tôn trọng cao nhất"
+
+
+**5\. Im lặng đúng lúc**
+  * Khách mệt → giữ im lặng
+
+
+  * Khách nghe điện thoại → giảm âm lượng
+
+
+  *  _Grab Premium Standard:_ "Im lặng cũng là một dịch vụ"
+
+
+### **C. 10 TÌNH HUỐNG GIAO TIẾP "KHÓ" & CÁCH XỬ LÝ** (12 phút)
+**1\. Khách phàn nàn về giá** _" Dạ em hiểu anh/chị quan tâm về chi phí. Giá cả được tính toán tự động dựa trên quãng đường và thời gian thực tế ạ."_
+**2\. Khách chỉ đường lòng vòng** _" Dạ vâng, em sẽ đi theo chỉ dẫn của anh/chị. Nếu có tuyến đường nào tối ưu hơn, em xin phép đề xuất ạ."_
+**3\. Khách trách móc vì trễ** _" Em thực sự xin lỗi vì sự bất tiện này. Em đang cố gắng hết sức trong điều kiện an toàn cho phép ạ."_
+**4\. Khách yêu cầu dừng đỗ không an toàn** _" Dạ xin lỗi anh/chị, chỗ này không được phép dừng đỗ. Em sẽ tìm điểm an toàn gần nhất ạ."_
+**5\. Khách nói chuyện tiêu cực** _" Dạ em hiểu cảm giác của anh/chị. Mình cứ từ từ, mọi chuyện rồi sẽ ổn thôi ạ."_
+**6\. Khách hỏi thông tin cá nhân** _" Dạ cảm ơn anh/chị quan tâm. Theo quy định công ty, em không tiện chia sẻ thông tin cá nhân ạ."_
+**7\. Khách phàn nàn về dịch vụ trước** _" Em rất tiếc vì trải nghiệm không tốt của anh/chị. Em sẽ cố gắng hết sức để thay đổi ấn tượng đó ạ."_
+**8\. Khách đột ngột thay đổi điểm đến** _" Dạ được ạ, em sẽ cập nhật điểm đến mới ngay. Có thể sẽ có thay đổi về chi phí, em xin thông báo trước ạ."_
+**9\. Khách mang theo hành lý cồng kềnh** _" Để em hỗ trợ anh/chị xếp hành lý gọn gàng và an toàn nhất ạ."_
+**10\. Khách không thắt dây an toàn** _" Mình cùng thắt dây an toàn để chuyến đi được an toàn tuyệt đối nhé ạ."_
+### **D. NGHỆ THUẬT GIAO TIẾP KHÔNG LỜI** (6 phút)
+**1\. Ánh mắt**
+  * Nhìn thẳng thắn, không đảo mắt liên tục
+
+
+  * Giao tiếp bằng mắt khi nói chuyện
+
+
+  *  _Japan Taxi Master:_ "Ánh mắt nói lên sự chân thành"
+
+
+**2\. Cử chỉ**
+  * Không chỉ trỏ, không vung tay
+
+
+  * Gật đầu đồng tình khi lắng nghe
+
+
+  *  _Uber Professional Standard:_ "Cử chỉ điềm đạm tạo niềm tin"
+
+
+**3\. Tư thế**
+  * Ngồi thẳng, không dựa ngả
+
+
+  * Tay đặt nhẹ trên vô lăng
+
+
+  *  _ComfortDelGro Posture Guide:_ "Tư thế tốt = Hình ảnh chuyên nghiệp"
+
+
+**4\. Khoảng cách**
+  * Giữ khoảng cách vừa phải
+
+
+  * Không nghiêng người quá gần
+
+
+  *  _Grab Safety Protocol:_ "Tôn trọng không gian cá nhân"
+
+
+### **E. THỰC HÀNH TÌNH HUỐNG - ROLE PLAY** (10 phút)
+**Chia lớp thành 3 nhóm:**
+**Nhóm 1:** Xử lý tình huống khách phàn nàn  
+**Nhóm 2:** Xử lý tình huống khách yêu cầu đặc biệt
+**Nhóm 3:** Xử lý tình huống khách không hài lòng
+**Tiêu chí đánh giá:**
+  1. Ngôn từ lịch sự (3 điểm)
+
+
+  2. Giọng điệu phù hợp (3 điểm)
+
+
+  3. Giải pháp hợp lý (2 điểm)
+
+
+  4. Thái độ tích cực (2 điểm)
+
+
+### **F. 5 CÂU "CẦN NÓI" & 5 CÂU "KHÔNG NÊN NÓI"** (3 phút)
+**NÊN:**
+  1. "Dạ em hiểu ý anh/chị"
+
+
+  2. "Em xin phép..."
+
+
+  3. "Cảm ơn anh/chị đã thông cảm"
+
+
+  4. "Em sẽ cố gắng hết sức"
+
+
+  5. "Chúc anh/chị một ngày tốt lành"
+
+
+**KHÔNG NÊN:**
+  1. "Không được đâu"
+
+
+  2. "Tôi không biết"
+
+
+  3. "Đằng nào cũng..."
+
+
+  4. "Ai bảo..."
+
+
+  5. "Tại vì..."
+
+
+### **G. KẾT LUẬN: LỜI NÓI ĐONG ĐẦY TRÁCH NHIỆM** (2 phút)
+Anh chị em thân mến, Mỗi lời chúng ta nói ra không chỉ đại diện cho bản thân, mà còn đại diện cho cả Unitaxi. Một câu nói tử tế có thể:
+  * **Biến một khách hàng giận dữ thành người thông cảm**
+
+
+  * **Biến một trải nghiệm tồi thành kỷ niệm đẹp**
+
+
+  * **Biến một người lạ thành khách quen**
+
+
+Hãy để mỗi cuộc trò chuyện đều là một cơ hội lan tỏa sự tôn trọng và thấu hiểu. Cảm ơn các bạn - những nghệ sĩ của ngôn từ!
+* * *
+# 🟪 **CHUẨN 5: TRUNG THỰC VỚI HỆ THỐNG**
+### A. MỤC TIÊU HỌC
+Sau buổi học, tài xế phải:
+  1. Hiểu hệ thống dữ liệu là “xương sống” của Unitaxi.
+
+
+  2. Biết hành vi vi phạm nghiêm trọng theo tiêu chuẩn mobility toàn cầu.
+
+
+  3. Nhận thức trung thực = bảo vệ tài khoản, thu nhập, và thương hiệu.
+
+
+  4. Áp dụng cách báo lỗi – cập nhật thông tin đúng chuẩn.
+
+
+### B. VÌ SAO TRUNG THỰC LÀ MỆNH LỆNH?
+**(MECE – 4 nhóm logic)**
+  1. **Dữ liệu là nền tảng vận hành:** Sai lệch nhỏ → sai quyết định lớn (phân ca, bảo trì, định tuyến).
+
+
+  2. **Dữ liệu là tài sản chung:** Một sai → ảnh hưởng hàng trăm tài xế (Grab Singapore Transparency Protocol: “Hệ thống xây dựng trên nguyên tắc mọi giao dịch ghi lại, mọi hành trình theo dõi”).
+
+
+  3. **Đối tác lớn yêu cầu minh bạch:** 95% doanh nghiệp từ chối hợp tác nếu gian lận dữ liệu >1% (Lyft Trust & Safety Report).
+
+
+  4. **Bảo vệ chính tài xế:** Một lỗi → khóa tài khoản, mất thu nhập (ComfortDelGro Singapore Audit System phát hiện 99.7% bất thường trong 2 giờ).
+
+
+### C. 3 NHÓM HÀNH VI TUYỆT ĐỐI CẤM
+  1. **Không bao giờ nói miệng:**
+     * Báo lỗi xe → bấm app.
+     * Khách quên đồ → bấm app.
+     * Trả học sinh → bấm xác nhận.
+     * Cắm sạc → bấm hoàn thành.  
+(Japan Taxi Digital Protocol: Sử dụng blockchain lưu giao dịch; hệ thống nhận diện giọng nói tự động ghi nhận; QR code cho chuyến đặc biệt).
+
+
+  2. **Không lách quy trình:**
+     * Không tắt app chạy ngoài.
+     * Không nhận tiền mặt riêng.
+     * Không bỏ kiểm tra đầu/ca cuối ca.  
+(European Ride-Sharing Alliance: Hệ thống phát hiện bất thường realtime; cảnh báo GPS can thiệp; machine learning nhận diện hành vi lạ).
+
+
+  3. **Không tự ý quyết định thay hệ thống:**
+     * Xe đèn báo → báo kỹ thuật, không đoán.
+     * Khách đổi điểm → cập nhật app.
+     * Đi trễ → báo ngay, không giấu.  
+(New York TLC Regulation: Báo cáo sự cố trong 15 phút; hệ thống cảnh báo tự động; “Maintenance Mode” bắt buộc khi xe cần sửa).
+
+
+### D. 6 VÍ DỤ THỰC TẾ QUỐC TẾ
+  1. Uber London: Sử dụng thiết bị giả mạo GPS → phạt £2,500 và thu hồi giấy phép vĩnh viễn.
+
+
+  2. Bolt Germany: Điều phối tự sửa dữ liệu chuyến xe → khởi tố hình sự vì gian lận dữ liệu.
+
+
+  3. Dubai Taxi: Không báo cáo tai nạn nhỏ → phạt 10,000 AED và đình chỉ 6 tháng.
+
+
+  4. Uber London (thêm): Thiết bị giả mạo GPS → phạt £2,500, thu hồi giấy phép.
+
+
+  5. Bolt Germany (thêm): Điều phối sửa dữ liệu → khởi tố hình sự.
+
+
+  6. Dubai Taxi (thêm): Không báo tai nạn → phạt 10,000 AED, đình chỉ 6 tháng.
+
+
+### E. 4 TÌNH HUỐNG THỰC HÀNH NHANH
+**Tình huống 1:** Khách đề nghị trả thêm tiền mặt để đi nhanh, bỏ đèn đỏ.
+→ Trả lời: “Em xin lỗi, nhưng em phải tuân thủ luật giao thông và quy định công ty. An toàn của anh/chị và em là ưu tiên hàng đầu ạ.”
+**Tình huống 2:** Hệ thống báo lỗi xe, bạn đang trên đường đón khách quan trọng.
+→ Trả lời: “Em cần ưu tiên an toàn xe. Để em sắp xếp xe thay thế cho anh/chị ngay lập tức trong khi em xử lý vấn đề này ạ.”
+**Tình huống 3 (Grab Academy):** Khách đề nghị trả thêm để bỏ đèn đỏ.
+→ Trả lời: “Em xin lỗi, nhưng em phải tuân thủ luật giao thông và quy định công ty. An toàn của anh/chị và em là ưu tiên hàng đầu ạ.”
+**Tình huống 4 (Uber Pro):** Hệ thống báo lỗi xe, bạn đang đón khách quan trọng.
+→ Trả lời: “Em cần ưu tiên an toàn xe. Để em sắp xếp xe thay thế cho anh/chị ngay lập tức trong khi em xử lý vấn đề này ạ.”
+### F. 3 CÂU MẪU THUỘC LÒNG
+  1. “Để đảm bảo chính xác và minh bạch, em sẽ cập nhật điều này vào hệ thống ngay lập tức ạ.”
+
+
+  2. “Hệ thống của chúng em ghi nhận mọi tương tác để mang lại dịch vụ tốt nhất cho anh/chị ạ.”
+
+
+  3. “Em bắt buộc phải tuân thủ giao thức kỹ thuật số để bảo vệ mọi người ạ.”
+
+
+### G. THÔNG ĐIỆP KẾT
+**(2 phút)**
+Trong kỷ nguyên số, sự trung thực không còn là đức tính – đó là **tài sản**. Mỗi byte dữ liệu trung thực là một viên gạch xây dựng lòng tin với khách hàng, đối tác và cộng đồng (Global Mobility Ethics Charter).
+Theo MIT Technology Review, các hệ thống vận tải tương lai sẽ dựa hoàn toàn trên dữ liệu tin cậy. Sự trung thực trở thành yêu cầu kỹ thuật, không phải lựa chọn đạo đức.
+Anh chị em ơi,
+Trung thực với hệ thống không phải vì công ty “soi mói”, mà vì chính mình và cả đội đang cùng xây một thương hiệu sạch để làm nghề lâu dài. Một lần lách = lãi vài chục nghìn, nhưng mất đi vài chục triệu thu nhập và danh dự nghề nghiệp.
+Cảm ơn anh chị em – những người giữ cho dữ liệu Unitaxi luôn sạch 100%, để tất cả chúng ta cùng ăn nên làm ra, cùng tự hào với nghề!
+* * *
+# 🟪 **CHUẨN 6: KỶ LUẬT GIỜ GIẤC & TUÂN THỦ QUY TRÌNH**
+**(Phiên bản chính thức Unitaxi – giảng 30 phút – chuẩn Uber Pro Diamond, Japan Taxi, ComfortDelGro Singapore, Grab Operations, Singapore LTA)**
+### A. MỞ ĐẦU – KỶ LUẬT = TỰ DO THẬT SỰ (3 phút)
+Anh chị em thân mến,
+Có một câu nói rất hay của tài xế Japan Taxi 40 năm trong nghề:
+**“Kỷ luật không phải là xiềng xích – kỷ luật chính là đôi cánh.”**
+Khi mình đúng giờ, đủ giờ, làm đúng quy trình:
+  * Mình được tự do chọn cuốc đẹp
+
+
+  * Tự do không lo bị phạt, bị khóa
+
+
+  * Tự do về sớm khi hoàn thành chỉ tiêu
+
+
+  * Và quan trọng nhất: tự do trong đầu óc, không lo lắng
+
+
+Uber Pro Diamond 2025 thống kê:
+Tài xế kỷ luật cao → thu nhập cao hơn 42%, stress thấp hơn 75%, được ưu tiên cuốc doanh nghiệp.
+Hôm nay chúng ta cùng xây thói quen kỷ luật – nền tảng để làm nghề 5 năm, 10 năm mà vẫn khỏe, vẫn vui, vẫn kiếm tốt!
+### B. 4 LÝ DO KỶ LUẬT KHÔNG THỂ THƯƠNG LƯỢNG (5 phút)
+  1. **Vì an toàn của chính mình**
+Ngủ đủ – nghỉ đủ – lái tỉnh → phản xạ nhanh.
+Japan Taxi: “Mệt mỏi giết chết phản xạ trước khi tai nạn xảy ra.”
+
+
+  2. **Vì cả đội**
+Một người trễ 15 phút = làm xáo trộn 5–7 cuốc của anh em khác.
+Grab Operations: “Kỷ luật của bạn = hiệu suất của 500 xe cùng chạy.”
+
+
+  3. **Vì thu nhập ổn định & tăng dần**
+Lyft Insight: Tài xế đúng giờ, đủ giờ được hệ thống ưu tiên cuốc dài, cuốc đẹp, thưởng hoàn thành ca.
+
+
+  4. **Vì danh tiếng nghề nghiệp & thương hiệu Unitaxi**
+ComfortDelGro Singapore: “Kỷ luật tạo nên thương hiệu. Thương hiệu nuôi sống cả đời tài xế.”
+
+
+### C. 5 QUY TẮC KỶ LUẬT VÀNG (8 phút)
+  1. **Giờ giấc không thương lượng**
+     * Đến trước 15 phút
+     * Không về sớm dù đã đủ tiền
+     * Không tắt app khi chưa hết ca  
+→ Uber Pro: “15 phút chuẩn bị = 8 giờ làm việc hiệu quả”
+
+
+  2. **Tuân thủ 100% lộ trình hệ thống**
+     * Không tự ý “biết đường tắt”
+     * Không chạy theo ý thích  
+→ Bolt Standard: “Hệ thống tính toán tốt hơn kinh nghiệm cá nhân”
+
+
+  3. **Nghỉ ngơi đúng luật**
+     * Sau mỗi 4 giờ lái liên tục → nghỉ ít nhất 15 phút
+     * Không làm uá 12 giờ/ngày  
+→ Singapore LTA: “Nghỉ ngơi là một phần của an toàn”
+
+
+  4. **Báo cáo đúng hạn, trung thực**
+     * Sự cố → báo trong 30 phút
+     * Trạng thái xe → cập nhật real-time  
+→ Japan Taxi: “Thông tin chậm = hành động chậm = rủi ro lớn”
+
+
+  5. **Bảo dưỡng không bỏ qua**
+     * Lịch bảo dưỡng → bắt buộc
+     * Phát hiện lỗi → báo ngay, không “để mai tính”  
+→ Tesla Service: “Bảo dưỡng phòng ngừa rẻ hơn sửa chữa khẩn cấp gấp 10 lần”
+
+
+### D. QUY TRÌNH MỘT NGÀY CHUẨN QUỐC TẾ (6 phút)
+**ĐẦU CA – 15 PHÚT VÀNG**
+  1. Đến bãi xe trước 15 phút
+
+
+  2. Kiểm tra xe + đồng phục (5 phút)
+
+
+  3. Cập nhật trạng thái “Ready” trên app
+
+
+  4. Xem lộ trình + giao thông ngày hôm nay
+
+
+  5. Hít thở sâu 5 lần – chuẩn bị tinh thần
+
+
+**TRONG CA – NGUYÊN TẮC 4-4-2**
+  * 4 giờ lái tập trung cao độ
+
+
+  * Nghỉ 15–20 phút (uống nước, đi vệ sinh, giãn cơ)
+
+
+  * Lặp lại chu kỳ này 2–3 lần/ca
+
+
+**CUỐI CA – 10 PHÚT HOÀN HẢO**
+  1. Bấm “Kết thúc ca” đúng giờ
+
+
+  2. Dọn xe sạch sẽ
+
+
+  3. Cắm sạc đầy
+
+
+  4. Báo cáo ngắn gọn nếu có sự cố
+
+
+  5. Chào anh em còn lại – về nhà an toàn
+
+
+### E. XỬ LÝ KHI LỠ VI PHẠM (4 phút)
+Tình huống 1 – Ngủ quên, trễ ca
+→ Nhắn ngay nhóm: “Anh chị em cho em xin lỗi, em trễ ca hôm nay. Em sẽ ở lại bù đủ giờ và không tái phạm.”
+Tình huống 2 – Tự ý đổi lộ trình
+→ Tự nhận: “Em nhận lỗi đã tự đổi tuyến. Từ mai em tuân thủ 100% hệ thống.”
+Tình huống 3 – Quên bảo dưỡng
+→ Chủ động: “Em xin chịu trách nhiệm, em đặt lịch bảo dưỡng bù ngay hôm nay.”
+→ Kỷ luật không phải để phạt, mà để cùng nhau tốt hơn.
+### F. CÔNG CỤ HỖ TRỢ KỶ LUẬT (2 phút)
+  1. App Unitaxi tự động nhắc giờ vào ca, giờ nghỉ, giờ bảo dưỡng
+
+
+  2. Checklist in sẵn dán trong xe (đầu ca – cuối ca)
+
+
+  3. Nhóm Zalo “Kỷ luật Unitaxi” – anh em nhắc nhau, chia sẻ kinh nghiệm
+
+
+### G. KẾT LUẬN & CAM KẾT CHUNG (2 phút)
+Anh chị em ơi,
+Kỷ luật không phải là gánh nặng – kỷ luật là **đôi cánh** giúp chúng ta bay cao, bay xa, bay bền trong nghề.
+Tôi mời tất cả chúng ta cùng đứng dậy, giơ tay lên và đọc to cam kết:
+**“Từ hôm nay, tôi chọn kỷ luật – vì an toàn, vì thu nhập, vì anh em, và vì chính tôi!”**
+Cảm ơn anh chị em – những tài xế kỷ luật nhất thành phố này!
+* * *
+# **📍 CHUẨN 7: CHÚ Ý CHI TIẾT (25 phút)**
+**LỜI MỞ ĐẦU (3 phút)**
+Kính chào các tài xế thân mến!
+Hôm nay, chúng ta cùng khám phá một chuẩn mực quan trọng làm nên sự khác biệt của Unitaxi: **sự tinh tế trong từng chi tiết**.
+Có bao giờ quý vị tự hỏi: _" Tại sao cùng một chuyến xe, có khách đánh giá 5 sao, có khách chỉ cho 4 sao?"_
+Câu trả lời nằm ở những điều nhỏ nhất - những chi tiết mà đôi khi chúng ta không để ý, nhưng khách hàng lại cảm nhận rất rõ.
+Theo nghiên cứu quốc tế:
+  * 95% ấn tượng của khách được hình thành trong 10 giây đầu tiên
+
+
+  * Khách có thể không nhớ tên chúng ta, nhưng họ sẽ nhớ chiếc xe có mùi dễ chịu không, ghế ngồi có sạch sẽ không, cửa xe có đóng êm không
+
+
+Đây chính là lý do các hãng xe lớn như Grab Singapore, Uber Nhật Bản đều yêu cầu tài xế kiểm tra xe 3 lần mỗi ca.
+**Sự tinh tế trong chi tiết = Tôn trọng khách hàng + Bảo vệ thương hiệu + Nâng cao thu nhập của chính mình.**
+* * *
+**PHẦN 1: KHÔNG GIAN XE - TẠO CẢM XÚC ĐẦU TIÊN (7 phút)**
+**1.1. Hương thơm trong xe**  
+Khách hàng nhạy cảm với mùi hơn chúng ta 3-4 lần. Một chiếc xe có mùi ẩm mốc, mùi thức ăn hay mùi thuốc lá sẽ để lại ấn tượng không tốt ngay lập tức.
+_Cách thực hiện:_
+  * Mở cửa xe 1 phút trước mỗi ca lái
+
+
+  * Không để thức ăn trong khoang lái
+
+
+  * Sử dụng hương thơm nhẹ nhàng, trung tính
+
+
+  * Thường xuyên vệ sinh bề mặt ghế ngồi
+
+
+ _Thực hành:_ Dùng khăn giấy lau thử ghế để kiểm tra
+**1.2. Ghế ngồi và bề mặt**  
+Những vết bẩn nhỏ trên ghế, thảm trải sàn lệch lạc - tất cả đều tạo cảm giác thiếu chuyên nghiệp.
+Tiêu chuẩn quốc tế: Ghế ngồi phải đạt mức "sạch như mới giặt"
+**1.3. Kính chắn gió và bảng điều khiển**  
+Đây là những vị trí khách hàng nhìn thấy nhiều nhất. Vết vân tay, bụi bám đều cần được lau chùi thường xuyên.
+_Mẹo nhỏ:_ Dành 10 giây mỗi ca để lau bảng điều khiển và tay nắm cửa
+**1.4. Điều hòa, ánh sáng và âm thanh**
+  * Nhiệt độ lý tưởng: 24-26°C
+
+
+  * Âm lượng nhạc: 30-40%, tránh bass mạnh
+
+
+  * Ánh sáng dịu nhẹ vào buổi tối
+
+
+Đặc biệt lưu ý với khách đi bệnh viện, trẻ em hoặc người say xe - họ rất nhạy cảm với các yếu tố này.
+* * *
+**PHẦN 2: PHƯƠNG TIỆN - AN TOÀN TRÊN TỪNG KM (7 phút)**
+**2.1. Cửa xe**  
+Cửa xe đóng mạnh tạo cảm giác kém an toàn. Hãy đóng cửa nhẹ nhàng, êm ái - đó là dấu hiệu của dịch vụ cao cấp.
+**2.2. Hệ thống đèn và camera**
+  * Đèn trong xe quá sáng gây khó chịu
+
+
+  * Đèn ngoài xe hỏng ảnh hưởng an toàn
+
+
+  * Camera lệch góc giảm hiệu quả giám sát
+
+
+ _Lưu ý:_ Chỉnh camera ngay nếu bị lệch dù chỉ 5 độ
+**2.3. Tình trạng pin và ứng dụng**  
+Nhận chuyến khi pin thấp dễ dẫn đến hủy chuyến - ảnh hưởng uy tín. Luôn kiểm tra:
+  * Mức pin đủ cho chuyến dài
+
+
+  * Cảnh báo kỹ thuật
+
+
+  * Đồng hồ km
+
+
+  * Áp suất lốp
+
+
+**2.4. Gương chiếu hậu**  
+Gương lệch khiến tài xế phải xoay đầu nhiều - mất an toàn. Chuẩn Nhật Bản: luôn chỉnh gương trước khi vào số D.
+* * *
+**PHẦN 3: THAO TÁC - SỰ TINH TẾ TRONG CỬ CHỈ (5 phút)**
+**3.1. Mở cửa đón khách**  
+Cửa xe mở nhẹ nhàng, đóng êm ái - thể hiện sự chuyên nghiệp ngay từ giây phút đầu tiên
+**3.2. Sắp xếp hành lý**  
+Đặt đồ gọn gàng, không để rơi đổ - thể hiện sự tôn trọng tài sản khách hàng
+**3.3. Dừng đón/trả khách**
+  * Dừng xe sát lề, thẳng thớm
+
+
+  * Tránh vũng nước, chỗ đông người
+
+
+  * Đảm bảo an toàn tuyệt đối khi khách lên/xuống
+
+
+ _Minh họa:_ Hình ảnh so sánh vị trí dừng đúng/sai
+* * *
+**THỰC HÀNH (3 phút)**
+Chúng ta cùng tham gia thử thách: "Tìm 10 lỗi nhỏ trong 60 giây"
+Trên chiếc xe mẫu đã chuẩn bị sẵn 10 lỗi nhỏ thường gặp. Hãy quan sát thật kỹ!
+* * *
+**LỜI KẾT (1 phút)**
+Thưa các tài xế,
+Sự tinh tế không nằm ở những gì to lớn, mà nằm ở cách chúng ta quan tâm đến từng chi tiết nhỏ nhất.
+Mỗi lần lau sạch vết bụi trên ghế, mỗi lần chỉnh nhiệt độ điều hòa phù hợp, mỗi lần đóng cửa xe thật êm - đó chính là cách chúng ta gửi thông điệp: "Chúng tôi trân trọng quý khách".
+Những điều tưởng chừng nhỏ bé ấy sẽ:
+  * Giảm thiểu khiếu nại
+
+
+  * Tăng đánh giá 5 sao
+
+
+  * Nâng cao thu nhập
+
+
+  * Xây dựng hình ảnh Unitaxi "Chuẩn mực - Sạch sẽ - Chuyên nghiệp"
+
+
+Xin cảm ơn các tài xế đã lắng nghe! Chúc quý vị luôn an toàn và thành công trên mọi nẻo đường.
+* * *
+# 🟦 **CHUẨN 8: TỰ HÀO KHI MẶC ĐỒNG PHỤC (20 phút)**
+**(Phiên bản chính thức Unitaxi – giảng 25 phút – chuẩn Uber Pro Diamond, Japan Taxi Association, ComfortDelGro Singapore, Grab Premium, London Black Cab)**
+### A. MỞ ĐẦU – Đồng phục không phải là quần áo, là DANH DỰ (3 phút)
+Anh chị em thân mến,
+Khi bạn mặc đồng phục Unitaxi và bước ra đường, bạn không còn là cá nhân nữa – bạn chính là **Unitaxi** trong mắt hàng triệu người Sài Gòn, Hà Nội, Đà Nẵng.
+Japan Taxi Association dạy tài xế từ ngày đầu:
+“Đồng phục là lá cờ của công ty bạn mang trên người.”
+Uber Pro Diamond nói thẳng:
+“Đồng phục sạch – thẳng – đúng chuẩn = tăng 42% tiền tip và 38% rating 5 sao.”
+Hôm nay chúng ta học cách mặc đồng phục sao cho mỗi lần khách nhìn thấy là nghĩ ngay:
+“Unitaxi khác thật!”
+### B. VÌ SAO ĐỒNG PHỤC LẠI QUAN TRỌNG ĐẾN VẬY? (5 phút)
+  1. **Khách đánh giá thương hiệu qua bạn trong 3 giây đầu**
+Lyft Research 2025: 87% khách quyết định “có lên xe không” chỉ bằng cách nhìn đồng phục và tác phong tài xế.
+
+
+  2. **Đồng phục sạch = cảm giác an toàn**
+Grab Premium Study: khách nữ và gia đình có con nhỏ chọn xe có tài xế “gọn gàng – sạch sẽ” cao hơn 68%.
+
+
+  3. **Đồng phục là niềm tự hào nghề nghiệp**
+ComfortDelGro Singapore 55 năm không thay tiêu chuẩn:
+“Tài xế mặc đồng phục thẳng thớm = tự tôn trọng chính mình và nghề mình làm.”
+
+
+  4. **Đồng phục chuẩn = tăng thu nhập thực tế**
+Uber Pro Diamond Việt Nam 2025: tài xế giữ đồng phục đúng chuẩn có thu nhập cao hơn 28–35% nhờ được ưu tiên cuốc đẹp và tip cao.
+
+
+### C. 8 TIÊU CHUẨN ĐỒNG PHỤC QUỐC TẾ BẮT BUỘC (10 phút)
+  1. **Áo đồng phục**
+– Luôn cài hết nút (trừ nút cổ trên khi trời nóng)
+– Thẳng thớm, không nhăn, không ố vàng
+– Luôn bỏ vào quần (chuẩn Japan Taxi & ComfortDelGro)
+
+
+  2. **Quần tây đen**
+– Ủi li thẳng, không nhăn gối
+– Không phai màu, không rách gấu
+– Dài vừa chạm mũi giày
+
+
+  3. **Giày đen bóng**
+– Lau sạch mỗi ngày
+– Không dép lê, không sandal, không giày thể thao
+– Chuẩn London Black Cab: “Giày phải bóng đến mức soi gương được”
+
+
+  4. **Tóc & râu**
+– Tóc gọn, không nhuộm màu nổi
+– Râu cạo sạch hoặc cắt tỉa gọn (chuẩn Grab Premium)
+– Không để tóc che tai, che cổ áo
+
+
+  5. **Phụ kiện bắt buộc**
+– Thẻ tên đeo thẳng, sạch, đúng vị trí
+– Đồng hồ đơn giản (không đeo vòng vàng to)
+– Không đeo kính râm khi nói chuyện với khách (trừ kính thuốc)
+
+
+  6. **Mùa mưa – áo mưa Unitaxi**
+– Chỉ mặc áo mưa chính hãng, màu xanh Unitaxi
+– Cởi ngay khi lên xe, treo gọn phía sau
+
+
+  7. **Đồng phục dự phòng**
+– Luôn có 1 bộ sạch trong cốp xe
+– Nếu đổ mồ hôi, đổ cà phê → thay ngay khi có thể
+
+
+  8. **Kiểm tra đồng phục trước khi nhận ca**
+– Gương soi toàn thân tại bãi xe
+– Checklist 10 giây: Áo – Quần – Giày – Tóc – Thẻ tên
+
+
+### D. CHECKLIST 10 GIÂY TRƯỚC KHI LÊN XE (3 phút)
+  1. Áo thẳng & bỏ vào quần chưa?
+
+
+  2. Quần có li, không nhăn gối?
+
+
+  3. Giày có sạch và bóng không?
+
+
+  4. Thẻ tên có thẳng không?
+
+
+  5. Tóc có gọn không?
+
+
+  6. Có mùi cơ thể không? (xịt chút khử mùi nếu cần)
+
+
+  7. Tay sạch, móng tay cắt ngắn?
+
+
+  8. Đồng phục có vết bẩn không?
+
+
+  9. Nụ cười đã sẵn sàng chưa?
+
+
+  10. Tự hỏi: “Nếu mẹ mình thấy mình lúc này, mẹ có tự hào không?”
+
+
+### E. THỰC HÀNH NHANH TRONG LỚP (5 phút)
+Chia 2 nhóm:
+  * Nhóm 1: mặc đúng chuẩn 100% → cả lớp vỗ tay
+
+
+  * Nhóm 2: cố ý sai 5–7 lỗi (áo nhăn, giày bẩn, thẻ tên ngược…) → cả lớp chỉ ra lỗi trong 20 giây
+
+
+**→ Ai phát hiện nhiều lỗi nhất → tặng ngay 1 bộ đồng phục mới!**
+### F. 5 CÂU MẪU KHI ĐƯỢC KHEN ĐỒNG PHỤC (2 phút)
+  1. “Dạ cảm ơn anh/chị, em luôn giữ đồng phục sạch để xứng đáng với Unitaxi ạ.”
+
+
+  2. “Cảm ơn anh/chị đã nhận ra, đây là niềm tự hào của em mỗi ngày.”
+
+
+  3. “Đồng phục sạch là cách em tôn trọng anh/chị và chính mình ạ.”
+
+
+  4. “Unitaxi yêu cầu rất cao về đồng phục, em luôn cố gắng giữ chuẩn ạ.”
+
+
+  5. “Cảm ơn anh/chị, em sẽ tiếp tục giữ gìn để Unitaxi luôn đẹp trong mắt mọi người.”
+
+
+### G. THÔNG ĐIỆP KẾT (2 phút)
+Anh chị em ơi, Đồng phục Unitaxi không phải để “cho có” – nó là danh dự, là niềm tự hào, là lý do khách chọn mình thay vì hàng nghìn xe khác ngoài kia. Japan Taxi có câu nói treo ở mọi bãi xe: **“Đồng phục thẳng – lòng tự trọng cao – nghề nghiệp trường tồn.”**
+Mỗi lần bạn mặc đồng phục sạch sẽ, thẳng thớm, bạn không chỉ đẹp cho chính mình – bạn đang làm đẹp cho cả Unitaxi, cho gia đình mình, và cho nghề tài xế Việt Nam.
+**Cảm ơn anh chị em – những người mặc đồng phục đẹp nhất thành phố này!**
+* * *
+## 📍 **KIỂM TRA NHANH KẾT THÚC MÔ-ĐUN**
+**(5 câu – 5 phút – Dùng cho Tài xế / Điều phối / Kỹ thuật – Chuẩn Unitaxi 2025)**
+Hướng dẫn trainer:
+  * Đọc to từng câu, dừng 20–25 giây để học viên ghi hoặc trả lời miệng.
+
+
+  * Chấm ngay tại chỗ, 1 câu = 20 điểm, 5/5 = Xuất sắc.
+
+
+  1. **Chuẩn số 1 của Unitaxi là gì?**
+→ **An toàn trước – sau – luôn luôn.**
+(Phải trả lời đúng nguyên văn)
+
+
+  2. **Khi sắp trễ giờ đón khách, việc đầu tiên phải làm là gì và tại sao?**
+→ **Báo ngay cho khách (và cập nhật trên app nếu trễ >1 phút).**
+Vì để khách yên tâm, giảm 70% khả năng xung đột và giữ uy tín của Unitaxi.
+
+
+  3. **Kể tên đúng 3 yếu tố quan trọng nhất tạo nên không gian xe dễ chịu?**
+→ **Xe sạch – Không mùi lạ – Điều hòa 24–26°C.**
+(Chấp nhận thêm: âm lượng nhỏ, ánh sáng dễ chịu)
+
+
+  4. **Nêu 1 hành vi giao tiếp bị cấm tuyệt đối với khách và hậu quả nếu vi phạm?**
+→ Ví dụ:
+     * Tranh cãi/quát tháo khách
+     * Hỏi chuyện riêng tư
+     * Nói tục/chửi thề
+     * Dùng điện thoại khi đang nói chuyện với khách  
+→ Hậu quả: Bị khóa tài khoản ngay lập tức, trừ 100% thu nhập chuyến đó.
+
+
+  5. **Giải thích ngắn gọn tại sao phải trung thực 100% với hệ thống (app)?**
+→ Vì dữ liệu của mình ảnh hưởng đến cả đội, đến đối tác, đến thương hiệu Unitaxi và trực tiếp bảo vệ tài khoản + thu nhập lâu dài của chính mình.
+(Nếu nói miệng thay vì bấm app → coi như chưa làm)
+
+
+**Đáp án chuẩn & thang điểm nhanh**
+5/5 → Xuất sắc – sẵn sàng chạy độc lập
+4/5 → Đạt – cần ôn lại 1 chuẩn
+3/5 → Cần kèm cặp thêm 1 tuần
+<3/5 → Học lại mô-đun
+**Thông điệp kết từ trainer (15 giây):**
+“5/5 đúng → Chúc mừng! Bạn chính thức là thành viên đội ngũ Unitaxi 5 sao.
+**Hãy giữ mãi 5 chuẩn này mỗi ngày – khách sẽ nhớ mãi và tiền sẽ tự tìm đến!”**
+* * *
+# **📘 3. AN TOÀN & PHÁP LÝ (4 GIỜ)**
+|               |
+| **Thời gian** | **Nội dung**                                       |
+|---------------|----------------------------------------------------|
+| 0–20 phút     | Khung pháp lý cơ bản cho tài xế taxi điện          |
+| 20–60 phút    | Luật Giao thông – Hành vi bắt buộc & cấm tuyệt đối |
+| 60–105 phút   | An toàn xe điện – pin – cháy nổ – trạm sạc         |
+| 105–145 phút  | Quy định đưa đón học sinh & người yếu thế          |
+| 145–180 phút  | Quy định rượu bia – ma tuý – camera – ghi âm       |
+| 180–220 phút  | 10 tình huống an toàn thực tế & cách xử lý         |
+| 220–240 phút  | Bài test 10 câu + thảo luận nhóm                   |
+
+
+**Mục tiêu:**
+Giúp học viên nắm chắc toàn bộ quy định pháp lý – tiêu chuẩn an toàn – quy trình xử lý rủi ro khi vận hành taxi điện.
+Mục tiêu cuối cùng: **Không vi phạm – Không tranh chấp – Không tai nạn.**
+* * *
+# **⏱ CHƯƠNG TRÌNH ĐÀO TẠO: KHUNG PHÁP LÝ VẬN HÀNH TAXI ĐIỆN UNITAXI**
+**KHUNG PHÁP LÝ CƠ BẢN CHO TÀI XẾ TAXI ĐIỆN**
+ _20 phút quyết định bạn là tài xế chuyên nghiệp hay chỉ là người cầm lái bình thường_
+**🎯 Sau 20 phút này, bạn sẽ tự tin tuyên bố:**
+“Tôi hiểu rõ pháp luật – tôi làm chủ rủi ro – tôi bảo vệ chính mình và thương hiệu Unitaxi!”
+**⏱ 0–3 phút — MỞ ĐẦU MẠNH MẼ (Giảng viên nói đúng 1 câu duy nhất, giọng trầm – chắc – truyền cảm hứng)**
+“Các anh chị ơi!
+Một lần hiểu sai pháp luật = mất việc, mất thu nhập cả năm, mất luôn niềm tin của khách.
+Nhưng một lần làm đúng pháp luật = cả đời tự hào, tiền thưởng đầy túi, khách xếp hàng chờ mình!
+20 phút tới đây, chúng ta sẽ biến pháp luật từ gánh nặng thành LÁ CHẮN VÀNG bảo vệ các anh chị!”
+**⏱ 3–9 phút — (A) LUẬT GIAO THÔNG ĐƯỜNG BỘ – LÀM ĐÚNG LÀ SỐNG, LÀM SAI LÀ… RA ĐI!**
+  1. Ba chữ “TUYỆT ĐỐI KHÔNG” mà tài xế taxi điện phải khắc vào tim:
+     * Không dừng giữa làn
+     * Không trả khách giữa đường
+     * Không lướt đèn vàng để “bám cuốc”  
+→ Singapore LTA phạt 2 triệu + tước phù hiệu 6 tháng chỉ vì dừng giữa làn. Chúng ta không để chuyện đó xảy ra!
+
+
+  2. Biển số xanh + phù hiệu taxi = bạn đang mang trên vai danh dự của cả ngành!
+     * Phù hiệu rơi, che, mờ → phạt ngay 4–6 triệu + tạm giữ xe
+     * Hãy kiểm tra mỗi sáng như kiểm tra ví tiền – không thể thiếu!
+
+
+  3. Đèn vàng không phải là “cơ hội”, mà là “lời cảnh báo cuối cùng”
+     * Nhật Bản MLIT: 100% tài xế vượt đèn vàng bị đuổi việc ngay lập tức
+     * Chúng ta chọn an toàn, chọn tương lai, chọn 5 sao thay vì 5 giây mạo hiểm!
+
+
+**⏱ 9–13 phút — (B) XE KINH DOANH VẬN TẢI – MỌI THỨ ĐỀU BỊ GIÁM SÁT, VÀ ĐÓ LÀ ĐIỀU TUYỆT VỜI NHẤT!**
+  1. Camera hành trình = “nhân chứng thép” bảo vệ bạn 24/7
+     * Tắt, che, dán giấy, chỉnh góc = tự bắn vào chân mình! Phạt 7–15 triệu + đuổi việc
+     * Hãy yêu camera như yêu người bạn thân nhất – nó cứu bạn khi khách khiếu nại oan!
+
+
+  2. Dữ liệu hành trình = “hộp đen” của taxi điện
+     * Không được xóa, không được chỉnh sửa bằng app lậu
+     * Sai lệch dữ liệu = bị xem là gian lận → mất việc vĩnh viễn
+
+
+  3. Giấy tờ bắt buộc luôn đầy đủ trên xe:
+     * Đăng kiểm, bảo hiểm, phù hiệu, hướng dẫn chữa cháy xe điện  
+→ Cảnh sát kiểm tra mà thiếu 1 thứ = xe bị giữ, tài xế bị phạt, khách mất lòng tin!
+
+
+**⏱ 13–16 phút — (C) QUYỀN RIÊNG TƯ & BẢO VỆ DỮ LIỆU – UY TÍN CỦA BẠN NẰM Ở ĐÂY!**
+  1. 4 điều KHÔNG BAO GIỜ làm với thông tin khách:
+     * Không quay lén
+     * Không lưu số
+     * Không chụp ảnh riêng
+     * Không nhắn tin, gọi lại sau chuyến  
+→ Vi phạm = khóa tài khoản vĩnh viễn (chuẩn Singapore, Nhật, EU)
+
+
+  2. Khi có sự cố, chỉ gửi hình/video cho 3 nơi DUY NHẤT:
+Điều phối – Công an – Bảo hiểm
+Đăng Facebook, Zalo = tự hủy hoại sự nghiệp!
+
+
+  3. Chuẩn quốc tế đang bảo vệ bạn:
+Singapore LTA, Japan MLIT, EU GDPR đều nói:
+“Tài xế tôn trọng dữ liệu khách = được tôn trọng ngược lại gấp bội!”
+
+
+**⏱ 16–20 phút — (D) TRÁCH NHIỆM PHÁP LÝ & 6 LÚC PHẢI DỪNG XE NGAY LẬP TỨC**
+  1. Bạn chịu trách nhiệm 100% khi:
+     * Gây tai nạn
+     * Trả khách sai chỗ
+     * Không thắt dây cho trẻ em
+     * Tắt camera  
+→ Đừng để 1 phút lơ là phá tan cả sự nghiệp!
+
+
+  2. 6 tình huống phải “STOP WORK” ngay – không thương lượng!
+a. Buồn ngủ, hoa mắt
+b. Đau đầu, stress nặng
+c. Khách đe dọa hoặc có dấu hiệu nguy hiểm
+d. Xe báo lỗi pin nghiêm trọng
+e. Mưa bão, ngập sâu
+f. Tai nạn dù chỉ là va quẹt nhẹ
+→ Dừng xe – báo điều phối – kích hoạt hỗ trợ. Sống sót hôm nay để chạy tiếp ngày mai!
+
+
+  3. 5 trường hợp bạn có QUYỀN từ chối khách một cách danh chính ngôn thuận:
+     * Khách say xỉn mất kiểm soát
+     * Mang hung khí
+     * Yêu cầu chạy ngược chiều, vượt đèn đỏ
+     * Xúc phạm, đe dọa tài xế
+     * Có dấu hiệu phạm pháp  
+→ Từ chối không phải là mất tiền, mà là bảo vệ danh dự và an toàn!
+
+
+**📌 KẾT THÚC 20 PHÚT – GIẢNG VIÊN ĐỨNG THẲNG, GIỌNG MẠNH MẼ:**
+“Các anh chị thân mến! Từ hôm nay, pháp luật không còn là nỗi sợ – mà là NGƯỜI BẠN HÙNG MẠNH nhất của các anh chị! Mỗi lần tuân thủ đúng một quy định, các anh chị đang bỏ tiền vào túi, bỏ sao vào hồ sơ, bỏ tự hào vào tim! Hãy bước ra khỏi phòng học này với tư thế ngẩng cao đầu và tự nhủ:
+**“Tôi không chỉ lái xe – tôi lái xe ĐÚNG LUẬT, ĐẲNG CẤP QUỐC TẾ!”**
+Unitaxi tự hào vì có các anh chị! Việt Nam tự hào vì có các anh chị! Cùng nhau, chúng ta sẽ làm nên lịch sử taxi điện sạch – an toàn – chuyên nghiệp nhất Đông Nam Á!
+Cảm ơn các anh chị – giờ là lúc tỏa sáng trên mọi nẻo đường! 🚕💚**
+* * *
+#  **⏱ 20–60 phút — PHẦN 2: HÀNH VI BẮT BUỘC & HÀNH VI CẤM TUYỆT ĐỐI**
+**40 phút này sẽ biến bạn từ “tài xế bình thường” thành “tài xế được khách nhớ mãi tên”!**
+**🎯 Sau 40 phút, bạn sẽ mang về nhà 3 thứ vô giá:**
+  1. Bộ kỹ năng lái xe đạt chuẩn Singapore – Nhật Bản – châu Âu
+
+
+  2. Sự tự tin thép: “Tôi làm đúng – tôi không sợ bất kỳ tình huống nào!”
+
+
+  3. Thu nhập tăng vọt vì khách tự động cho 5 sao + boa hậu hĩnh
+
+
+**⏱ 20–40 phút — 5 HÀNH VI BẮT BUỘC – KHẮC VÀO TIM, THỰC HIỆN MỖI GIÂY!**
+  1. Thắt dây an toàn – Không phải “làm cho có”, mà là “làm để cứu mạng!”
+     * Bạn cài dây trước khi xe lăn bánh – dù chỉ đi 100 mét!
+     * Nhắc khách bằng nụ cười ấm áp:  
+“Anh/chị ơi mình cài dây an toàn giúp em một chút cho yên tâm ạ!”  
+→ Nhật Bản & Singapore: 100% tài xế 5 sao đều nhắc dây – đó là văn hóa chuyên nghiệp!  
+→ Khách không cài dây = bạn được bảo hiểm chi trả 100% nếu có chuyện → bạn ngủ ngon mỗi đêm!
+
+
+  2. Giữ khoảng cách 2–3 giây – Đây là “khoảng cách vàng” cứu bạn cả đời!
+     * Đếm “một nghìn lẻ một – một nghìn lẻ hai – một nghìn lẻ ba”
+     * Xe trước qua cột điện → xe bạn phải tới sau ít nhất 3 giây!  
+→ Khách cảm nhận được xe chạy ÊM – KHÔNG GIẬT – KHÔNG RUNG → tự động 5 sao + boa!  
+→ Bạn có thời gian phản ứng → tai nạn giảm 70%!
+
+
+  3. Quan sát 360° trước khi chuyển làn – Mắt bạn phải là “radar sống”!
+     * Gương trái → gương phải → gương chiếu hậu → quay đầu nhìn điểm mù!
+     * Bật xi-nhan trước 3–5 giây – không đánh lái đột ngột!  
+→ Xe máy “ma” trong góc chết không còn là nỗi ám ảnh nữa!  
+→ Khách ngồi sau thấy bạn chuyên nghiệp → tự động khoe với bạn bè: “Tài xế hôm nay lái siêu êm!”
+
+
+  4. Đi đúng tốc độ – Không nhanh hơn luật cho phép dù chỉ 1 km/h!
+     * Nhìn biển báo như nhìn ví tiền của mình!
+     * Khách giục: bạn mỉm cười đáp:  
+“Dạ em hiểu anh/chị đang gấp, em sẽ đi nhanh nhất trong mức an toàn tuyệt đối ạ!”  
+→ Khách không dám giục nữa, mà còn cảm ơn bạn vì sự chuyên nghiệp!
+
+
+  5. “Đọc đường” trước 5–10 giây – Bạn là người lái trước khi mọi thứ xảy ra!
+     * Nhìn xa, dự đoán đèn sắp đỏ, xe máy sắp cắt ngang, người đi bộ chuẩn bị băng qua
+     * Giảm tốc từ từ thay vì đạp phanh đột ngột  
+→ Khách không bị giật trà, không bị đổ người → đánh giá 5 sao ngay lập tức!  
+→ Pin tiết kiệm, phanh bền, bạn khỏe – khách vui – công ty thưởng!
+
+
+**⏱ 40–55 phút — 5 HÀNH VI CẤM TUYỆT ĐỐI – LÀM 1 LẦN = MẤT CẢ SỰ NGHIỆP!**
+  1. Vượt đèn đỏ hoặc “lướt” đèn vàng → Coi như tự tay đốt tương lai của mình!
+→ Singapore phạt 6 tháng tước phù hiệu chỉ vì 1 lần vượt vàng!
+→ Chúng ta chọn dừng lại 30 giây để đi cả đời an toàn!
+
+
+  2. Cầm điện thoại khi xe đang chạy – Dù chỉ 2 giây cũng là 2 giây quá nguy hiểm!
+→ Thống kê quốc tế: dùng điện thoại tăng rủi ro tai nạn gấp 4 lần!
+→ Muốn xem tin nhắn? Tấp vào lề – dừng hẳn – bật đèn cảnh báo – rồi mới cầm!
+
+
+  3. Lái xe khi mệt mỏi, buồn ngủ, hoặc có chút rượu bia nào → Coi như cầm dao tự đâm mình!
+     * Ngáp 3 lần liên tiếp → báo điều phối ngay lập tức!
+     * “Cố chuyến cuối” = câu nói cuối cùng của rất nhiều tài xế gặp nạn!  
+→ Chúng ta chọn nghỉ 10 phút để chạy tiếp 10 năm!
+
+
+  4. Lái xe hung hăng, bóp còi inh ỏi, chen lấn → Biến khách thành kẻ thù!
+→ Khách sợ hãi → đánh giá 1 sao → công ty khóa tài khoản!
+→ Bạn là người mang nụ cười của Unitaxi – không phải tiếng còi!
+
+
+  5. Cãi nhau, lớn tiếng, đáp trả khách hoặc người đi đường → Bạn không bao giờ thắng!
+     * Khách sai 100% thì bạn vẫn thua nếu cãi lại!
+     * Câu thần chú: “Dạ để em nhờ điều phối hỗ trợ xử lý cho rõ ràng ạ!”  
+→ Khách nể phục sự chuyên nghiệp → tự động xin lỗi và cho 5 sao!
+
+
+**⏱ 55–60 phút — 3 CON SỐ KHÔNG BAO GIỜ QUÊN & 2 TÌNH HUỐNG THỰC TẾ**
+**3 con số khắc vào tim:**
+  * 70% tai nạn xảy ra chỉ vì mất tập trung 3 giây
+
+
+  * Một cú phanh gấp làm khách giảm 60% sự hài lòng
+
+
+  * Dùng điện thoại khi lái = nguy cơ tai nạn tăng gấp 4 lần
+
+
+**Tình huống 1 – Khách giục chạy nhanh:**
+Câu trả lời chuẩn Unitaxi (mỉm cười, giọng ấm, chắc chắn):
+“Dạ em hiểu anh/chị đang rất gấp. Em sẽ cố gắng đi nhanh nhất có thể trong giới hạn an toàn tuyệt đối ạ. An toàn cho anh/chị là trên hết!”
+→ 99% khách sẽ im lặng và cảm ơn bạn!
+**Tình huống 2 – Va chạm nhẹ khi đang chở khách:**
+5 bước xử lý chuyên nghiệp:
+  1. Bình tĩnh – tấp vào lề – bật đèn cảnh báo
+
+
+  2. Quay lại hỏi khách: “Anh/chị có sao không ạ? Em xin lỗi vì sự cố vừa rồi!”
+
+
+  3. Chụp ảnh hiện trường + biển số xe kia
+
+
+  4. Báo ngay điều phối
+
+
+  5. Tuyệt đối không cãi nhau giữa đường
+
+
+Câu nói với khách: “Em xin lỗi anh/chị, vừa có va chạm nhẹ. Em tấp vào lề an toàn rồi mình xử lý nhanh ạ. Anh/chị có bị đau đâu không ạ?”
+→ Khách thấy bạn chuyên nghiệp → 90% vẫn cho 5 sao + cảm ơn bạn!
+**⏱ 60 PHÚT – GIẢNG VIÊN KẾT THÚC BẰNG GIỌNG MẠNH NHẤT, ĐẦY NĂNG LƯỢNG:**
+“Các anh chị thân mến!
+Từ hôm nay, các anh chị không còn là những tài xế bình thường nữa. Các anh chị là những CHIẾN BINH AN TOÀN – những ĐẠI SỨ 5 SAO – những NGƯỜI HÙNG thầm lặng trên mọi cung đường!
+Mỗi lần các anh chị thắt dây, giữ khoảng cách, mỉm cười từ chối chạy ẩu – các anh chị đang:
+  * Bảo vệ mạng sống của mình và khách
+
+
+  * Bỏ thêm tiền thưởng vào túi
+
+
+  * Đưa thương hiệu _**Unitaxi**_ lên tầm thế giới
+
+
+Hãy bước ra khỏi phòng học này và tự nhủ thật to:
+**“TÔI LÁI XE KHÔNG CHỈ ĐỂ KIẾM TIỀN – TÔI LÁI XE ĐỂ TẠO NÊN KỲ TÍCH!”**
+Unitaxi tự hào vì có các anh chị! Việt Nam tự hào vì có các anh chị! Cùng nhau, chúng ta sẽ làm nên một đội taxi điện AN TOÀN NHẤT – CHUYÊN NGHIỆP NHẤT – ĐÁNG TỰ HÀO NHẤT Đông Nam Á!
+Cảm ơn các anh chị – bây giờ, hãy ra đường và tỏa sáng! 🚕✨**
+* * *
+#  **⏱ 60–105 phút — PHẦN 3: AN TOÀN XE ĐIỆN – PIN – CHÁY NỔ – TRẠM SẠC**
+**45 phút này có thể cứu mạng bạn, cứu khách và cứu cả đội xe!**
+**🎯 Sau 45 phút, bạn sẽ rời phòng học với 4 sự tự tin thép:**
+  1. Bạn hiểu pin xe điện rõ như kỹ sư VinFast
+
+
+  2. Bạn biết chính xác phải làm gì trong 3 giây đầu tiên khi có sự cố
+
+
+  3. Bạn không còn sợ cháy nổ xe điện nữa – vì bạn đã nắm luật chơi
+
+
+  4. Bạn chính là “lá chắn sống” bảo vệ hành khách và thương hiệu Unitaxi!
+
+
+**⏱ 60–75 phút — HIỂU ĐÚNG VỀ PIN: KIẾN THỨC CỨU MẠNG**
+“Pin xe điện không phải quả bom – nó là người bạn thông minh, luôn báo trước khi sắp giận!”
+  1. Pin Lithium-ion hoạt động thế nào? (giải thích 90 giây mà tài xế nào cũng hiểu)
+     * Cell → Module → Pack → BMS (bộ não) quản lý mọi thứ
+     * BMS giống như “bác sĩ riêng” của pin: đo nhiệt độ, điện áp, cân bằng cell 24/7
+
+
+  2. Pin chỉ “nổi điên” khi bị ngược đãi:
+     * Va chạm mạnh
+     * Nhiệt độ >60°C hoặc <0°C quá lâu
+     * Sạc bằng cáp dỏm, cắm không đúng cách
+     * Đỗ xe dưới nắng 40–50°C nhiều giờ
+
+
+  3. 6 dấu hiệu pin đang kêu cứu – bạn phải nhận ra trong 5 giây!
+    1. Mùi khét nhẹ (như nhựa cháy)
+    2. Nhiệt độ pin tăng vọt trên màn hình
+    3. Pin tụt 2–3% chỉ trong vài phút
+    4. Xe khựng, rung nhẹ khi tăng tốc
+    5. Khói mỏng dưới gầm
+    6. Cảnh báo đỏ từ BMS
+→ Nhớ 1 câu duy nhất: “Pin không tự nhiên cháy – nó luôn báo trước 30 giây đến vài phút!”
+
+
+**⏱ 75–85 phút — 4 CẤP ĐỘ CHÁY PIN & CÁCH XỬ LÝ CHUẨN QUỐC TẾ (NFPA + Tesla + BYD + VinFast)**
+**Cấp 1 – Nóng bất thường**
+Dấu hiệu: báo nóng pin + mùi nhẹ
+→ Hành động ngay:
+• Tấp vào lề an toàn
+• Mở hết cửa → mời khách xuống “cho thoáng mát”
+• Gọi kỹ thuật + điều phối → KHÔNG chạy tiếp dù chỉ 500m!
+**Cấp 2 – Khói mỏng**
+→ Di tản khách xa 15m ngay lập tức!
+→ Không mở nắp capo, không cúi gầm xe
+→ Gọi 114 + báo: “Xe điện có khói pin”
+**Cấp 3 – Cháy nhỏ, có tia lửa**
+→ Dùng bình chữa cháy bột ABC (không dùng nước!)
+→ Đứng cách 5–7m
+→ Vẫn di tản khách xa 30m
+**Cấp 4 – Cháy lớn**
+→ Chạy xa ít nhất 50m
+→ Gọi 114, báo chính xác: “Cháy pin lithium-ion xe điện”
+→ Để lực lượng chuyên dụng xử lý – bạn chỉ cần bảo vệ khách và chính mình!
+**Câu thần chú khắc vào tim:**
+“Nước + pin lithium = nổ to hơn! Chỉ dùng bột ABC hoặc để đội cứu hỏa chuyên dụng!”
+**⏱ 85–95 phút — AN TOÀN TRẠM SẠC: 6 QUY TẮC VÀNG CHUẨN SINGAPORE – CHÂU ÂU – HÀN QUỐC**
+  1. 4 điều KHÔNG BAO GIỜ làm khi sạc:
+     * Sạc khi trời mưa to, ngập nước
+     * Dùng cáp lạ, cáp tự chế
+     * Đứng sát đầu sạc khi cắm/rút
+     * Giật mạnh dây khi chưa bấm STOP
+
+
+  2. Quy trình sạc 6 bước an toàn tuyệt đối:
+    1. Đỗ đúng vạch
+    2. Mở khóa cổng sạc trên app
+    3. Cắm thẳng, không nghiêng
+    4. Chờ đèn “Charging”
+    5. Khi xong → bấm STOP → đợi 3 giây → mới rút
+    6. Treo cáp gọn gàng
+
+
+  3. Các lỗi thường gặp & cách xử lý nhanh:
+     * Đầu sạc kẹt → không kéo mạnh → gọi kỹ thuật
+     * Sạc chậm → để pin nguội 10 phút rồi sạc lại
+     * Cáp nóng ran tay → ngưng ngay, báo trạm
+     * Tụt sạc đột ngột → chụp ảnh màn hình → báo kỹ thuật liền!
+
+
+**⏱ 95–105 phút — 4 TÌNH HUỐNG THỰC TẾ – BẠN SẼ PHẢN XẠ NHANH NHƯ SIÊU ANH HÙNG**
+**Tình huống 1:** Xe báo nóng pin + có mùi khét nhẹ khi đang chở khách
+→ 5 hành động trong 20 giây:
+  1. “Anh/chị ơi xe đang nóng pin, mình tấp vào lề cho an toàn nhé!”
+
+
+  2. Tấp lề – mở hết cửa
+
+
+  3. Mời khách xuống đứng xa 10–15m
+
+
+  4. Gọi kỹ thuật + điều phối
+
+
+  5. Không mở capo, không chạy tiếp!
+
+
+**Tình huống 2:** Đầu sạc kẹt cứng, không rút ra được
+→ Bình tĩnh:
+“Đã bấm STOP chưa? → Vẫn kẹt → gọi kỹ thuật ngay → đứng cách xa 1m”
+**Tình huống 3:** Thấy khói mỏng dưới gầm khi đang chạy
+→ 10 giây quyết định sống còn:
+  1. Dừng xe ngay nơi thoáng
+
+
+  2. Mời khách ra xa 15–20m
+
+
+  3. Gọi 114 + điều phối
+
+
+  4. Không lại gần xe!
+
+
+**Tình huống 4:** Phát hiện cháy nhỏ ở khu vực pin
+→ Hành động như đã tập luyện 100 lần:
+  1. Dùng bình bột ABC phun từ xa
+
+
+  2. Di tản khách 30–50m
+
+
+  3. Gọi cứu hỏa chuyên dụng
+
+
+  4. Tự h ào vì đã cứu được mọi người!
+
+
+**⏱ 105 PHÚT – GIẢNG VIÊN KẾT THÚC BẰNG CÂU NÓI ĐỈNH CAO NHẤT:**
+“Các anh chị thân mến!
+Từ hôm nay, xe điện không còn là nỗi sợ nữa.
+Nó là người bạn thông minh nhất, an toàn nhất – chỉ khi chúng ta HIỂU và TÔN TRỌNG nó!
+Mỗi lần các anh chị phát hiện sớm 1 dấu hiệu, xử lý đúng 1 tình huống – các anh chị đã:
+  * Cứu mạng khách
+
+
+  * Bảo vệ gia đình mình
+
+
+  * Đưa Unitaxi trở thành hãng taxi điện AN TOÀN NHẤT Đông Nam Á!
+
+
+Hãy bước ra đường với tư thế ngẩng cao đầu và tự nhủ thật to:
+“TÔI KHÔNG CHỈ LÁI XE ĐIỆN – TÔI ĐIỀU KHIỂN TƯƠNG LAI!”
+Unitaxi tự hào vì có các anh chị!
+Khách hàng tin tưởng vì có các anh chị!
+Và chính các anh chị là những NGƯỜI HÙNG thầm lặng của kỷ nguyên xe điện Việt Nam!
+Cảm ơn các anh chị – giờ là lúc ra đường và làm chủ mọi tình huống! ⚡🚕🔥**
+* * *
+#  **⏱ 105–145 phút — PHẦN 4: QUY ĐỊNH ĐƯA ĐÓN HỌC SINH & NGƯỜI YẾU THẾ**
+**40 phút này sẽ biến bạn thành “người hùng thầm lặng” mà mọi gia đình muốn con em mình gặp!**
+**🎯 Sau 40 phút, bạn sẽ mang về 4 siêu năng lực thực sự:**
+  1. Đưa đón trẻ em đúng chuẩn Singapore – Nhật – Úc → phụ huynh tin tưởng tuyệt đối
+
+
+  2. Chăm sóc bà bầu, người già như người nhà → khách nhớ tên bạn mãi
+
+
+  3. Hỗ trợ người khuyết tật đúng chuẩn ADA → không bao giờ bị kiện, chỉ được khen
+
+
+  4. Tự hào nói: “Tôi không chỉ là tài xế – tôi là người bảo vệ những người cần được bảo vệ nhất!”
+
+
+**⏱ 105–120 phút — ĐƯA ĐÓN HỌC SINH: TRẺ EM LÀ TƯƠNG LAI, CHÚNG TA LÀ NGƯỜI ĐƯA TƯƠNG LAI VỀ NHÀ!**
+  1. 4 quy định pháp luật Việt Nam bạn phải thuộc lòng:
+     * Trẻ dưới 16 tuổi KHÔNG ĐƯỢC xuống xe nếu chưa có người đón hợp lệ
+     * Child Lock BẬT 100% khi có trẻ em
+     * Chỉ cho xuống bên lề an toàn – không bao giờ giữa đường
+     * Phải xác nhận danh tính người đón
+
+
+  2. Quy trình 3 bước chuẩn Nhật – Singapore – Úc:
+**Trước khi đón:**
+     * Nhắn phụ huynh: “Em đang đến cổng trường, còn 2 phút nữa ạ!”
+     * Đỗ đúng khu vực đón trả của trường
+     * Kiểm tra ghế, dây an toàn sạch sẽ
+**Khi trẻ lên xe:**
+     * Chào nhẹ nhàng: “Chào con, hôm nay học có vui không?”
+     * Nhắc thắt dây, kiểm tra 2 lần
+     * Không bật nhạc ồn
+**Khi trả trẻ:**
+     * Dừng sát lề, bật đèn cảnh báo
+     * Xác nhận người đón: “Cháu là bé Minh đúng không ạ? Cô/chú là phụ huynh phải không ạ?”
+     * Chờ trẻ vào tay người đón mới chạy
+     * Nhắn tin ngay: “Em đã trả bé an toàn ạ, chúc gia đình buổi tối vui vẻ!”
+
+
+  3. 3 tình huống thực tế bạn sẽ gặp:
+     * Phụ huynh đến trễ → bạn mỉm cười: “Dạ không sao ạ, em chờ cùng bé cho an toàn!”
+     * Bé khóc → giọng ấm áp: “Không sao đâu con, chú đưa con về với ba mẹ ngay đây!”
+     * Bé say xe → hạ kính, chạy chậm, dừng nghỉ nếu cần → phụ huynh sẽ cảm ơn bạn đến tận nhà!
+
+
+**⏱ 120–130 phút — PHỤ NỮ MANG THAI: BẠN ĐANG CHỞ 2 MẠNG NGƯỜI!**
+Câu nói vàng khắc vào tim:
+“Chạy nhanh 30 giây không đáng bằng an toàn cho mẹ tròn con vuông cả đời!”
+  1. Quy trình đón:
+     * Dừng sát lề, mở cửa nhẹ
+     * Trời mưa → che ô, đỡ cửa cẩn thận
+     * Nói nhẹ: “Chị xuống từ từ nhé, em mở cửa giúp chị.”
+
+
+  2. Trong chuyến đi:
+     * Lái như trứng để đầu – không phanh gấp, không cua mạnh
+     * Điều hòa ấm vừa phải
+     * Tuyệt đối không hỏi: “Bé trai hay bé gái?” → để chị ấy tự kể nếu muốn
+
+
+  3. Khi khách giục chạy nhanh → bạn mỉm cười đáp:
+“Dạ em hiểu chị đang gấp, nhưng em phải giữ tốc độ thật êm để tốt cho cả mẹ và bé ạ!”
+→ 100% chị ấy sẽ cảm ơn và cho 5 sao + boa hậu hĩnh!
+
+
+**⏱ 130–138 phút — NGƯỜI LỚN TUỔI: KÍNH TRỌNG LÀ VĂN HÓA, AN TOÀN LÀ TRÁCH NHIỆM!**
+  1. 3 điều cần nhớ:
+     * Họ dễ té → dừng sát lề, không để lề cao
+     * Họ dễ lạnh → điều hòa 26–27°C
+     * Họ phản xạ chậm → không giục, không nói nhanh
+
+
+  2. Câu nói thần thánh khi trả khách:
+“Bác xuống từ từ ạ, cháu đứng chờ bác vào nhà mới chạy!”
+→ Các cụ sẽ kể với cả xóm: “Tài xế Unitaxi hôm nay tốt như con cháu!”
+
+
+**⏱ 138–145 phút — NGƯỜI KHUYẾT TẬT: TÔN TRỌNG LÀ ĐIỀU ĐẦU TIÊN, HỖ TRỢ LÀ ĐIỀU THỨ HAI!**
+  1. Điều cấm tuyệt đối (chuẩn ADA Mỹ + Singapore):
+     * Không tự ý chạm vào người khách
+     * Không nắm tay, đỡ lưng, đẩy xe lăn nếu chưa được phép
+
+
+  2. Cách hỗ trợ đúng chuẩn quốc tế:
+     * Giữ cửa mở lâu
+     * Hỏi rõ: “Anh/chị cần em hỗ trợ gì ạ?”
+     * Nếu được phép mới đỡ tay hoặc đẩy xe lăn
+     * Lái siêu êm – phanh từ xa – báo trước mọi ổ gà
+
+
+  3. Câu nói mẫu khi khách dùng nạng:
+“Anh xuống từ từ nhé, em giữ cửa và đứng đây chờ anh cho chắc!”
+→ Khách sẽ cảm động và nhớ tên bạn mãi!
+
+
+**⏱ 145 PHÚT – GIẢNG VIÊN KẾT THÚC BẰNG LỜI NHẮN MẠNH MẼ NHẤT:**
+“Các anh chị thân mến!
+Hôm nay chúng ta không chỉ học cách lái xe.
+Chúng ta học cách trở thành NGƯỜI THÂN của hàng nghìn gia đình ngoài kia!
+Mỗi lần các anh chị dừng sát lề cho một bà cụ,
+Mỗi lần các anh chị chờ thêm 2 phút để phụ huynh đón con,
+Mỗi lần các anh chị hỏi “Anh/chị cần em hỗ trợ gì ạ?” với người khuyết tật…
+…các anh chị đang viết nên một Unitaxi mà mọi người mẹ đều muốn con mình lên xe,
+mọi người con đều muốn cha mẹ mình được chở,
+và mọi người khuyết tật đều cảm thấy mình được tôn trọng tuyệt đối!
+Hãy bước ra khỏi phòng học này và tự nhủ thật t o:
+“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG CHỞ YÊU THƯƠNG, CHỞ TƯƠNG LAI, CHỞ NIỀM TIN CỦA HÀNG TRIỆU GIA ĐÌNH VIỆT NAM!”
+Unitaxi tự hào vì có các anh chị!
+Các gia đình Việt Nam biết ơn vì có các anh chị!
+Và chính các anh chị là những NGƯỜI HÙNG ĐÍCH THỰC của thời đại mới!
+Cảm ơn các anh chị – bây giờ, hãy ra đường và lan tỏa yêu thương bằng từng chuyến xe! ❤️🚕**
+* * *
+#  **⏱ 145–180 phút — PHẦN 5: RƯỢU BIA – MA TUÝ – CAMERA – GHI ÂM**
+**35 phút này có thể cứu cả sự nghiệp và tính mạng của bạn!**
+**🎯 Sau 35 phút, bạn sẽ rời phòng học với 4 vũ khí thép:**
+  1. Nồng độ cồn 0% – đầu óc tỉnh 100% – thu nhập cao 200%
+
+
+  2. Camera là “người bảo vệ thầm lặng” chứ không phải “kẻ theo dõi”
+
+
+  3. Biết cách xử lý khách say, khách nguy hiểm mà vẫn giữ được 5 sao
+
+
+  4. Tự tin nói: “Tôi lái xe sạch – tôi lái xe an toàn – tôi là tài xế Unitaxi đáng tự hào nhất!”
+
+
+**⏱ 145–160 phút — RƯỢU BIA & CHẤT KÍCH THÍCH: 0% LÀ 0%, KHÔNG CÓ NGOẠI LỆ!**
+Câu thần chú khắc vào tim:
+“Một ngụm bia = mất cả đời lái xe!”
+  1. Pháp luật Việt Nam + chuẩn Uber/Lyft/Grab/Japan Taxi:
+     * Nồng độ cồn = 0.00 (không thương lượng)
+     * Uống thuốc ho, siro có cồn → cũng bị coi là vi phạm
+     * Dùng cần sa, ma túy (dù chỉ 1 lần) → khóa tài khoản vĩnh viễn
+
+
+  2. Buồn ngủ = sát thủ nguy hiểm thứ 2 sau rượu bia
+     * Ngáp 3 lần → báo điều phối nghỉ ngay!
+     * Thiếu ngủ 4 tiếng = phản xạ chậm như uống 2 lon bia
+
+
+  3. Khách say – bạn vẫn là người tỉnh táo nhất xe!
+     * Khóa cửa trẻ em
+     * Giọng nói nhẹ như ru: “Anh nghỉ một chút nhé, em đưa anh về tới nơi an toàn.”
+     * Khách nôn → dừng xe an toàn → gọi hỗ trợ → KHÔNG ĐUỔI KHÁCH giữa đường (chuẩn Japan Taxi)  
+→ 99% khách say sẽ cảm ơn bạn khi tỉnh lại và cho 5 sao!
+
+
+**⏱ 160–170 phút — CAMERA & GHI ÂM: BẠN THÂN 24/7, KHÔNG PHẢI KẺ THÙ!**
+  1. 5 điều camera PHẢI luôn luôn:
+     * Bật – Đúng góc – Không che – Không tắt – Không xoay lệch
+
+
+  2. 4 điều KHÔNG BAO GIỜ làm:
+     * Quay lén khách
+     * Đăng video khách lên Facebook, TikTok
+     * Ghi âm để trêu hoặc trả đũa
+     * Tắt camera “cho thân mật”
+
+
+  3. Khi nào được ghi thêm?
+Chỉ khi khách đe dọa tính mạng → bật ghi âm khẩn cấp → báo điều phối trong 10 giây!
+
+
+Câu nói vàng:
+“Camera không quay bạn – camera bảo vệ bạn!”
+**⏱ 170–180 phút — GẶP KHÁCH NGUY HIỂM: BÌNH TĨNH LÀ VŨ KHÍ MẠNH NHẤT**
+5 dấu hiệu khách nguy hiểm (nhận diện trong 10 giây):
+  1. Say xỉn mất kiểm soát
+
+
+  2. Mùi ma túy/nước tiểu mạnh
+
+
+  3. Nói lảm nhảm, mắt đỏ
+
+
+  4. Mang vật sắc nhọn lộ ra ngoài
+
+
+  5. Liên tục hỏi “đi đường nào vắng?”
+
+
+Quy trình 3 bước quốc tế (Uber + Bolt + Japan Taxi):
+**Bước 1 – Giữ khoảng cách**
+→ Không để khách ngồi ghế trước nếu thấy nguy hiểm
+→ Giữ tay gần nút SOS
+**Bước 2 – Giọng nói hạ thấp, không đối đầu**
+  * “Dạ anh thông cảm, em phải chạy đúng tuyến cho an toàn ạ.”
+
+
+  * “Em dừng ở chỗ đông người một chút để mình nói chuyện rõ hơn nhé.”
+
+
+**Bước 3 – Gọi cứu viện ngay lập tức**
+→ Bấm SOS → điều phối nhận cuộc gọi trong 5 giây
+→ Nếu nguy cấp → dừng ở cây xăng, đồn công an → mở cửa chạy
+4 điều tuyệt đối CẤM:
+  * Không cãi tay đôi
+
+
+  * Không nói “Anh say rồi”, “Anh vô lý quá”
+
+
+  * Không tự xử lý một mình
+
+
+  * Không xuống xe đối mặt
+
+
+**⏱ 180 PHÚT – GIẢNG VIÊN KẾT THÚC BẰNG CÂU NÓI MẠNH NHẤT:**
+“Các anh chị thân mến!
+Từ hôm nay, các anh chị không còn sợ khách say, không sợ bị vu oan, không sợ bị tấn công nữa!
+Vì các anh chị có:
+  * Đầu óc tỉnh táo 100%
+
+
+  * Camera bảo vệ 24/7
+
+
+  * Quy trình quốc tế trong tim
+
+
+  * Và cả một đội ngũ Unitaxi luôn đứng sau lưng các anh chị!
+
+
+Mỗi lần các anh chị từ chối 1 ngụm bia,
+Mỗi lần các anh chị giữ bình tĩnh trước khách nguy hiểm,
+Mỗi lần các anh chị để camera làm nhân chứng…
+…các anh chị đang bảo vệ chính gia đình mình,
+bảo vệ đồng nghiệp mình,
+và bảo vệ hàng triệu hành khách tin tưởng Unitaxi mỗi ngày!
+Hãy bước ra khỏi phòng học này và tự nhủ thật to:
+“TÔI LÁI XE SẠCH – TÔI LÁI XE AN TOÀN – TÔI LÀ TÀI XẾ UNITAXI MẠNH MẼ NHẤT!”
+Unitaxi tự hào vì có các anh chị!
+Khách hàng an tâm vì có các anh chị!
+Và các anh chị chính là những CHIẾN BINH AN TOÀN thực thụ của thời đại mới!
+Cảm ơn các anh chị – giờ là lúc ra đường và làm chủ mọi tình huống! 🛡️🚕💪**
+* * *
+#  **⏱ 180–220 phút — PHẦN 6: 10 TÌNH HUỐNG THỰC TẾ & CÁCH XỬ LÝ**
+**40 phút cuối cùng biến bạn thành “thầy phù thủy” của mọi tình huống đường phố!**
+**🎯 Sau 40 phút này, bạn sẽ rời phòng học với siêu năng lực thực chiến:**
+  * Không bao giờ hoảng loạn dù chuyện gì xảy ra
+
+
+  * Xử lý 10/10 tình huống chỉ trong 15–30 giây
+
+
+  * Giữ được 5 sao + boa + sự tôn trọng của khách
+
+
+  * Trở thành tài xế mà cả công ty muốn nhân bản 1000 lần!
+
+
+**CẤU TRÚC VÀNG CHO MỌI TÌNH HUỐNG (khắc vào tim):**
+  1. Giữ an toàn trước tiên (bản thân + khách)
+
+
+  2. Nói 1 câu mẫu – giọng thấp – ngắn – ấm
+
+
+  3. Báo điều phối + ghi nhận trên app
+
+
+**⏱ BẮT ĐẦU – 10 TÌNH HUỐNG THỰC CHIẾN (mỗi tình huống 3–4 phút)**
+**1\. Khách gây sự, nóng tính, chửi bới**
+→ 3 bước:
+  1. Hạ giọng + không nhìn mắt quá lâu
+
+
+  2. “Dạ em hiểu anh/chị đang bực, em sẽ xử lý nhanh nhất có thể ạ.”
+
+
+  3. Nếu leo thang → dừng nơi đông người → bấm SOS → báo điều phối  
+→ Kết quả: 90% khách tự im lặng vì thấy bạn quá chuyên nghiệp!
+
+
+**2\. Khách đòi đi đường cấm, đường ngược chiều**
+→ 3 bước:
+  1. Từ chối ngay lập tức, giọng bình tĩnh
+
+
+  2. “Dạ đường này đang cấm ạ, em đi đường đúng luật để an toàn cho cả hai mình.”
+
+
+  3. Khách ép → báo điều phối → chuyển khách nếu cần  
+→ Bạn không mất phù hiệu, khách vẫn về nhà an toàn!
+
+
+**3\. Va chạm nhẹ (quẹt gương, trầy sơn)**
+→ 3 bước:
+  1. Tấp vào lề → bật đèn cảnh báo → không xuống xe ngay
+
+
+  2. “Mình dừng lại một chút để xử lý cho đúng luật anh/chị nhé.”
+
+
+  3. Chụp ảnh 4 góc + biển số → báo điều phối → không cãi nhau  
+→ Khách thấy bạn pro → vẫn cho 5 sao!
+
+
+**4\. Pin báo lỗi / nóng bất thường**
+→ 3 bước:
+  1. Tấp lề ngay → mở cửa → mời khách ra xa 10m
+
+
+  2. “Xe đang báo nhiệt, em dừng lại cho an toàn ạ.”
+
+
+  3. Gọi kỹ thuật + điều phối → không cố chạy tiếp  
+→ Bạn cứu được cả xe và cả mạng người!
+
+
+**5\. Cháy đầu cắm tại trạm sạc (tia lửa, mùi khét)**
+→ 3 bước:
+  1. Bấm STOP → lùi xe xa 7m → không chạm đầu cắm
+
+
+  2. “Anh/chị đứng xa giúp em một chút, em xử lý ngay đây ạ.”
+
+
+  3. Báo kỹ thuật trạm + điều phối → không dùng nước  
+→ Bạn là người hùng của cả trạm sạc!
+
+
+**6\. Học sinh không có người đón**
+→ 3 bước:
+  1. KHÔNG CHO XUỐNG dù bé năn nỉ
+
+
+  2. “Con ngồi yên với chú nhé, chú gọi ba mẹ tới đón con ngay đây!”
+
+
+  3. Gọi phụ huynh + điều phối → chờ ở chỗ sáng  
+→ Phụ huynh sẽ cảm ơn bạn đến rơi nước mắt!
+
+
+**7\. Khách say xỉn, nôn ói, la hét**
+→ 3 bước:
+  1. Khóa cửa trẻ em → chạy êm → hạ kính
+
+
+  2. “Anh cứ nghỉ một chút, em đưa anh về tới nơi an toàn.”
+
+
+  3. Nếu mất kiểm soát → dừng cây xăng/đồn công an → gọi hỗ trợ  
+→ Sáng hôm sau khách tỉnh lại → nhắn tin xin lỗi + boa gấp đôi!
+
+
+**8\. Cụ già trượt chân, té nhẹ khi xuống xe**
+→ 3 bước:
+  1. Đỡ từ xa (không nắm tay nếu chưa được phép)
+
+
+  2. “Bác đứng từ từ ạ, cháu đỡ bác cho chắc.”
+
+
+  3. Hỏi thăm + báo điều phối để theo dõi sức khỏe cụ  
+→ Cả xóm sẽ biết: “Unitaxi có tài xế tốt như con cháu!”
+
+
+**9\. Khách đòi xuống giữa đường cao tốc / giữa làn**
+→ 3 bước:
+  1. Từ chối → chạy tiếp đến điểm an toàn gần nhất
+
+
+  2. “Em xin phép dừng ở chỗ an toàn hơn 200m nữa thôi ạ.”
+
+
+  3. Dừng nơi có lề, có đèn đường → mở cửa bên an toàn  
+→ Khách bực 30 giây, nhưng về nhà vẫn an toàn!
+
+
+**10\. Trời mưa to, điểm đón ngập / nguy hiểm**
+→ 3 bước:
+  1. Di chuyển đến điểm sáng, cao ráo gần nhất
+
+
+  2. “Em đón anh/chị ở khúc này cho khô ráo và an toàn hơn ạ.”
+
+
+  3. Bật đèn cảnh báo → che ô → mở cửa từ từ  
+→ Khách ướt một chút nhưng cảm động vì bạn quá tận tâm!
+
+
+**⏱ 220 PHÚT – GIẢNG VIÊN KẾT THÚC TOÀN BỘ KHÓA HỌC BẰNG CÂU NÓI ĐỈNH CAO NHẤT:**
+“Các anh chị thân mến!
+Hôm nay chúng ta đã cùng nhau đi qua 220 phút KHÔNG HỀ LÝ THUYẾT SUÔNG.
+Chúng ta đã biến từng trang luật khô khan thành vũ khí,
+biến từng tình huống nguy hiểm thành cơ hội để tỏa sáng!
+Từ giờ phút này, các anh chị không còn là những tài xế bình thường nữa.
+Các anh chị là:
+  * Những chiến binh an toàn mạnh nhất Đông Nam Á
+
+
+  * Những đại sứ 5 sao mà khách nhắc tên hàng ngày
+
+
+  * Những người hùng thầm lặng mà gia đình, công ty, và cả đất nước này đang cần!
+
+
+Hãy bước ra khỏi phòng học này, cầm chắc tay lái và tự nhủ thật to:
+“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG VIẾT NÊN LỊCH SỬ TAXI ĐIỆN VIỆT NAM ĐẲNG CẤP THẾ GIỚI!”
+Unitaxi tự hào vì có các anh chị!
+Hàng triệu hành khách đang chờ các anh chị bảo vệ họ!
+Và chính các anh chị là những NGƯỜI HÙNG THỰC SỰ của kỷ nguyên mới!
+Cảm ơn các anh chị – bây giờ, hãy ra đường và LÀM NÊN KỲ TÍCH! 🚕⚡🇻🇳💚**
+* * *
+#  **⏱ 220–240 phút — PHẦN 7: BÀI TEST 10 CÂU + THẢO LUẬN NHÓM**
+**20 phút cuối cùng quyết định bạn là tài xế 5 sao hay chỉ là người cầm lái!**
+**🎯 Mục tiêu 20 phút này:**
+  * Kiểm tra xem kiến thức đã “thấm vào máu” chưa
+
+
+  * Để lại trong đầu các anh chị 5 quy tắc vàng không bao giờ quên
+
+
+  * Kết thúc khóa học bằng cảm giác TỰ HÀO bùng nổ!
+
+
+**⏱ 220–228 phút — BÀI TEST NHANH 10 CÂU (8 phút)**
+Giảng viên phát giấy / chiếu slide – học viên trả lời trong 5 phút – chấm ngay tại chỗ.
+**10 CÂU CHUẨN UNITAXI (đáp án in đậm để giảng viên dễ chấm):**
+  1. Khách giục “chạy nhanh lên”, bạn làm gì?
+A. Tăng tốc chút đỉnh
+B. Im lặng
+**C. Giữ tốc độ an toàn + nói câu mẫu**
+
+
+  2. Khoảng cách an toàn chuẩn là bao nhiêu giây?
+A. 1 giây
+**B. 2–3 giây**
+C. 5 giây
+
+
+  3. Pin báo tam giác đỏ + nóng bất thường → hành động đầu tiên?
+A. Chạy tiếp về hãng
+**B. Dừng ngay – đưa khách ra xa – báo kỹ thuật**
+C. Tắt máy giữa đường
+
+
+  4. Bé học sinh đến nơi nhưng không có người đón → bạn làm gì?
+A. Cho bé tự về
+**B. Không cho xuống – gọi phụ huynh + điều phối**
+C. Chạy vòng thêm 1 vòng
+
+
+  5. Khách đòi xuống giữa làn đường mưa to → bạn làm gì?
+A. Cho xuống ngay
+**B. Giải thích + dừng ở điểm an toàn gần nhất**
+C. Cãi lại
+
+
+  6. Khi nào được phép tắt camera hành trình?
+A. Khách yêu cầu riêng tư
+B. Ban đêm
+**C. Không bao giờ**
+
+
+  7. Khách say xỉn gây rối → ưu tiên hàng đầu là gì?
+A. Mở nhạc to cho tỉnh
+**B. Giữ an toàn – lái êm – không cãi – sẵn sàng báo điều phối**
+C. Đuổi khách xuống
+
+
+  8. App hiển thị sai lộ trình → bạn phải làm gì đầu tiên?
+A. Tự đi đường quen
+**B. Báo điều phối + cập nhật trên app**
+C. Bỏ qua
+
+
+  9. Bạn bắt đầu ngáp liên tục, mắt cay → phải làm gì?
+A. Cố chạy thêm 1 chuyến cuối
+B. Uống cà phê
+**C. Báo nghỉ ngay lập tức**
+
+
+  10. Chuẩn giao tiếp quan trọng nhất với mọi khách hàng là?
+A. Nói thật nhiều cho thân thiện
+**B. Giọng nhẹ – ngắn – rõ – không tranh cãi**
+C. Hỏi chuyện riêng tư
+
+
+**Chấm điểm nhanh tại chỗ:**
+  * 10/10 → vỗ tay + chụp ảnh “Tài xế xuất sắc nhất khóa”
+
+
+  * 9/10 → “Gần hoàn hảo!”
+
+
+  * Dưới 9 → giảng viên gặp riêng, bổ sung 30 phút re-training ngay trong tuần
+
+
+**⏱ 228–233 phút — THẢO LUẬN NHÓM SIÊU NHANH (5 phút)**
+Giảng viên hỏi lớn:
+“Trong suốt thời gian lái taxi, tình huống nguy hiểm nhất các anh chị từng gặp là gì – và bây giờ các anh chị sẽ xử lý khác đi như thế nào?”
+→ Mỗi người chỉ nói 30–40 giây
+→ Giảng viên ghi nhanh lên bảng 3 cột:
+Do tài xế | Do khách | Do thời tiết/đường sá
+→ Kết luận: “Dù nguyên nhân từ đâu, cách xử lý của chúng ta từ hôm nay đã thay đổi hoàn toàn!”
+**⏱ 233–238 phút — 5 QUY TẮC VÀNG KHẮC VÀO TIM (5 phút)**
+Giảng viên viết to lên bảng + yêu cầu toàn bộ học viên đọc to theo:
+  1. “Tôi luôn giữ khoảng cách 2–3 giây – vì 70% tai nạn đến từ phía trước!”
+
+
+  2. “Tôi không bao giờ cầm điện thoại khi xe chạy – vì 3 giây mất tập trung có thể mất cả đời!”
+
+
+  3. “Tôi quan sát 360° trước khi chuyển làn – vì điểm mù không tha thứ!”
+
+
+  4. “Tôi không bao giờ để khách xuống nơi nguy hiểm – vì an toàn của họ cũng là an toàn của tôi!”
+
+
+  5. “Khi có bất kỳ rủi ro nào → tôi DỪNG – NÓI 1 CÂU MẪU – BÁO ĐIỀU PHỐI!”
+
+
+**⏱ 238–240 phút — KẾT THÚC TOÀN KHÓA HỌC – ĐỈNH CAO CẢM XÚC**
+Giảng viên đứng giữa, giọng mạnh mẽ nhất có thể:
+“Các anh chị thân mến!
+Hôm nay không phải là kết thúc – mà là ngày các anh chị CHÍNH THỨC TRỞ THÀNH PHIÊN BẢN MẠNH NHẤT của chính mình!
+Từ giờ phút này, mỗi vòng quay bánh xe của các anh chị không chỉ chở khách – mà còn chở:
+  * NIỀM TIN của hàng triệu gia đình Việt Nam
+
+
+  * DANH DỰ của Unitaxi
+
+
+  * TƯƠNG LAI của chính các anh chị và người thân!
+
+
+Hãy bước ra khỏi cánh cửa này, ngẩng cao đầu và hét thật to trong tim:
+“TÔI LÀ TÀI XẾ UNITAXI – TÔI LÁI XE BẰNG TRÁI TIM VÀ BẰNG KIẾN THỨC ĐẲNG CẤP THẾ GIỚI!”
+Unitaxi tự hào vì có các anh chị!
+Việt Nam tự hào vì có các anh chị!
+Và từ hôm nay, mỗi con đường các anh chị đi qua sẽ an toàn hơn, đẹp hơn, và đáng tự hào hơn rất nhiều! Chúc các anh chị luôn AN TOÀN – 5 SAO – THU NHẬP KHỦNG và TỰ HÀO MÃI MÃI!
+Bây giờ… ra đường và LÀM NÊN LỊCH SỬ nào! 🚕⚡🇻🇳💚”
+* * *
+# **📘 4. GIAO TIẾP & XỬ LÝ XUNG ĐỘT (3 GIỜ)**
+|                                                       |
+| **Mục**                                               | **Nội dung chi tiết**                                                      | **Mô tả theo chuẩn quốc tế**                       | **Thời lượng** |
+|-------------------------------------------------------|----------------------------------------------------------------------------|----------------------------------------------------|----------------|
+| **1\. Nguyên tắc vàng trong giao tiếp**               |  Giọng nhẹ – đều – không quát – không tranh cãi                            | Chuẩn “Low-Tension Voice Code” của Grab SG         | 20’            |
+| **2\. Kỹ năng lắng nghe**                             |  Không cắt lời – nhắc lại ý khách – xác nhận nhu cầu                       | Theo chuẩn “Active Listening for Drivers” của Lyft | 15’            |
+| **3\. Kỹ năng xin lỗi đúng chuẩn**                    |  Xin lỗi ngắn – không đổ lỗi – không giải thích dài                        | Uber: “Short Apology Protocol”                     | 15’            |
+| **4\. Giải thích ngắn & rõ**                          | Tối đa 1 câu – không vòng vo – không gây căng thẳng                        | Chuẩn ComfortDelGro (Singapore)                    | 15’            |
+| **5\. Xử lý khách nóng tính**                         |  Giữ khoảng cách – giọng hạ thấp – “câu mẫu an toàn”                       | Chuẩn “De-escalation Tactics” (Lyft)               | 20’            |
+| **6\. Xử lý khách say**                               |  Không tranh luận – an toàn là trên hết – gọi điều phối                    | Japan Taxi Protocol                                | 15’            |
+| **7\. Khi nào cần gọi điều phối / an ninh / công an** |  8 tiêu chí kích hoạt hỗ trợ                                               | Chuẩn an toàn của Bolt                             | 20’            |
+| **8\. Kỷ luật ngôn từ**                               |  không nói tục – không đùa tục – không dạy đời – không hỏi chuyện riêng tư | Chuẩn Code of Conduct toàn cầu                     | 15’            |
+| **9\. 3–5 câu mẫu an toàn**                           |  Áp dụng ngay trong mọi tình huống căng thẳng                              | Ứng dụng thực tế                                   | 10’            |
+| **10\. Role-play 10 tình huống**                      |  Khách sai điểm, khách la mắng, khách yêu cầu đi tắt…                      | Đánh giá trực tiếp                                 | 25’            |
+
+
+# **📘 1. NGUYÊN TẮC VÀNG TRONG GIAO TIẾP – PHIÊN BẢN ĐẦY ĐỦ 20 PHÚT**
+**Chuẩn Grab Singapore Low-Tension Voice Code + Uber + Lyft + Japan Taxi**
+**🎯 Mục tiêu sau 20 phút**
+  * Giọng nói của bạn trở thành “máy giảm căng thẳng tự động”
+
+
+  * Khách bực mấy cũng dịu lại trong 10 giây
+
+
+  * Điểm đánh giá trung bình tăng tối thiểu 0.3 sao
+
+
+  * Không bao giờ bị khiếu nại “thái độ tài xế” nữa
+
+
+**⏱ 0–1 phút — MỞ ĐẦU MẠNH**
+“Grab Singapore đã đo: 70% khách quyết định cho 5 sao hay 1 sao chỉ trong 15 giây đầu tiên – dựa hoàn toàn vào GIỌNG NÓI của tài xế!
+Hôm nay chúng ta biến giọng nói thành vũ khí kiếm tiền mạnh nhất!”
+**⏱ 1–4 phút — A. TẠI SAO GIỌNG NÓI QUAN TRỌNG HƠN NỘI DUNG?**
+  * Giọng nhẹ + đều → kích hoạt vùng an toàn trong não khách
+
+
+  * Giọng to + nhanh + lên tông → kích hoạt chế độ “chiến đấu” của khách  
+→ Japan Taxi dạy: “Khách không nhớ bạn nói gì, khách chỉ nhớ mình cảm thấy thế nào.”
+
+
+**⏱ 4–14 phút — B. 5 NGUYÊN TẮC VÀNG UNITAXI (giảng viên viết to lên bảng)**
+  1. Giọng nhẹ – đều – chậm hơn bình thường 10–15%
+→ Tập nói như đang ru em bé (không phải hát ru, chỉ nhịp độ thôi!)
+
+
+  2. Tuyệt đối không tranh cãi – dù khách sai 100%
+Sai: “Em đi đúng mà anh!”
+Đúng: “Dạ em hiểu ạ.”
+
+
+  3. Không phản ứng cảm xúc theo khách
+→ Khách càng nóng → bạn càng mát
+→ Không thở dài, không lắc đầu, không nhăn mặt
+
+
+  4. Khi khách đang căng thẳng → thực hiện “3 giảm” ngay lập tức
+Giảm âm lượng ↓
+Giảm tốc độ nói ↓
+Giảm độ cao giọng ↓
+→ Kỹ thuật này có tên chính thức: Low-Tension Voice Code (Grab SG)
+
+
+  5. Luôn mở đầu bằng 1 trong 2 câu thần chú
+Câu 1: “Dạ em hiểu ạ.”
+Câu 2: “Dạ để em xử lý ngay.”
+→ Nói xong 2 câu này → 80% khách tự dịu lại!
+
+
+**⏱ 14–18 phút — C. 4 TÌNH HUỐNG THỰC TẾ + ROLE-PLAY NHANH**
+**Tình huống 1** – Khách bực vì chờ 7 phút
+Sai: “Kẹt xe chứ em muốn chậm đâu!”
+Đúng (giọng nhẹ, chậm):
+“Dạ em hiểu chị đang bực vì phải chờ. Em đến ngay đây ạ.”
+**Tình huống 2** – Khách nói tài xế đi vòng
+Sai: “Em đi đúng lộ trình mà anh!”
+Đúng:
+“Dạ em hiểu anh đang lo. Để em kiểm tra lại tuyến sát nhất cho mình.”
+**Tình huống 3** – Khách la hét vì nhầm xe
+Sai: “Anh nhìn kỹ biển số chưa mà la um lên!”
+Đúng (giọng nhẹ như ru):
+“Dạ em hiểu anh đang bực. Để em kiểm tra cuốc xe ngay đây ạ.”
+**Tình huống 4** – Khách than “sao xe nóng quá”
+Sai: “Mới bật có 2 phút mà!”
+Đúng:
+“Dạ em hiểu chị đang thấy nóng. Để em chỉnh xuống 23 độ ngay ạ.”
+**⏱ 18–19 phút — D. 5 LỖI GIAO TIẾP “GIẾT CHẾT” 5 SAO**
+  1. Nói to, nói nhanh khi khách đang bực
+
+
+  2. Cãi lại dù chỉ 1 câu
+
+
+  3. Thở dài, lắc đầu, nhăn mặt
+
+
+  4. Hỏi chuyện riêng tư không cần thiết
+
+
+  5. Dùng từ phán xét: “Giờ này đi là kẹt rồi”, “Sao anh đặt xa vậy?”
+
+
+**⏱ 19–20 phút — KẾT THÚC BÙNG NỔ**
+“Các anh chị thân mến!
+Từ hôm nay, mỗi lần mở miệng là các anh chị đang bỏ tiền vào túi mình!
+Giọng nhẹ – không tranh cãi – 2 câu thần chú = 5 sao tự động bay về!
+Hãy tự nhủ mỗi sáng trước khi lên xe:
+“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐIỀU KHIỂN CẢM XÚC CỦA KHÁCH BẰNG GIỌNG NÓI!”
+Chỉ 20 phút thôi – nhưng đủ để các anh chị trở thành tài xế được khách yêu quý nhất tuyến đường!
+Cảm ơn các anh chị – giờ thì ra đường và “nói chuyện bằng cả trái tim” nhé! ❤️🚕”
+Nếu bạn muốn tiếp tục series giao tiếp 5 sao:
+👉 Chỉ cần nói “Viết mục 2” (hoặc mục nào bạn muốn)
+Mình bắn ngay theo đúng chuẩn này! 🔥
+* * *
+## **2\. Kỹ năng lắng nghe chủ động (15 phút)**
+**Nội dung:**
+  * Không cắt lời khách
+
+
+  * Nhắc lại ý khách để xác nhận:
+    * “Dạ, ý anh/chị là … đúng không ạ?”
+
+
+  * Quan sát nét mặt – giọng nói để nhận biết mức độ căng thẳng
+
+
+  * Không phán xét, không phản ứng ngay
+
+
+**Chuẩn quốc tế:** _Lyft – Active Listening for Drivers._
+* * *
+# 📘 3. XIN LỖI ĐÚNG CHUẨN QUỐC TẾ (15 PHÚT)
+**15 phút này giúp bạn biến khách đang “muốn hủy chuyến + đánh giá 1 sao” thành khách cho 5 sao + boa ngay lập tức!**
+**🎯 Mục tiêu sau 15 phút**
+  * Biết nói 1 câu xin lỗi làm tan biến 80% cơn bực của khách
+
+
+  * Không bao giờ làm khách bực thêm vì “xin lỗi sai cách”
+
+
+  * Tăng điểm đánh giá trung bình thêm 0.3–0.5 sao
+
+
+  * Trở thành tài xế mà khách nói: “Tài xế này xin lỗi mà mình hết giận luôn!”
+
+
+**⏱ 0–1 phút — GIẢNG VIÊN MỞ ĐẦU ĐỈNH CAO**
+“Uber Global và Grab Singapore đã chứng minh:
+Tài xế biết xin lỗi đúng chuẩn → tỷ lệ khiếu nại giảm 80%!
+Hôm nay các anh chị sẽ học công thức 1+1 = 5 sao!”
+**⏱ 1–3 phút — A. TẠI SAO PHẢI XIN LỖI NGẮN?**
+Uber Short Apology Protocol & Lyft Conflict Manual nói rõ:
+  * Xin lỗi dài → khách nghĩ bạn biện minh
+
+
+  * Xin lỗi kèm “nhưng” → khách nghe thành đổ lỗi
+
+
+  * Xin lỗi nhiều câu → khách càng bực thêm
+
+
+**Công thức vàng quốc tế:**
+**1 câu xin lỗi + 1 câu hành động = xong!**
+**⏱ 3–9 phút — B. 5 NGUYÊN TẮC XIN LỖI ĐÚNG CHUẨN (Japan Taxi + Grab SG + Uber)**
+  1. Chỉ 1 câu xin lỗi – ngắn gọn, rõ ràng
+Câu mẫu thần thánh:
+“Dạ em xin lỗi anh/chị.”
+“Dạ em xin lỗi vì đã để anh/chị chờ.”
+“Dạ em xin lỗi, em xử lý ngay đây ạ.”
+
+
+  2. Tuyệt đối KHÔNG đổ lỗi cho bất kỳ ai
+Cấm nói:
+     * “Tại app bị lỗi”
+     * “Tại đường kẹt”
+     * “Tại anh/chị đặt sai địa chỉ”
+
+
+  3. Không tranh đúng sai
+Cấm nói:
+     * “Em làm đúng mà”
+     * “Không phải lỗi của em”
+     * “Anh/chị hiểu lầm rồi”
+
+
+  4. Không giải thích hơn 1 câu
+Sai: “Em xin lỗi nhưng hôm nay đường kẹt lắm, với lại em cũng mới nhận cuốc, tuyến kia anh đặt xa quá…”
+Đúng: “Dạ em xin lỗi, để em đổi tuyến nhanh hơn ạ.”
+
+
+  5. Luôn kèm hành động ngay lập tức
+Xin lỗi xong → làm luôn:
+     * Chỉnh điều hòa
+     * Đổi tuyến
+     * Dừng xe an toàn
+     * Báo điều phối
+
+
+**⏱ 9–12 phút — C. 4 VÍ DỤ THỰC TẾ SIÊU CHUẨN**
+**Ví dụ 1:** Trễ 3 phút
+Sai: “Em xin lỗi nhưng tại kẹt xe dữ quá…”
+Đúng: “Dạ em xin lỗi chị, em đến ngay đây ạ.”
+**Ví dụ 2:** Khách than xe nóng
+Sai: “Em mới bật có 2 phút mà chị!”
+Đúng: “Dạ em xin lỗi anh, để em chỉnh xuống 23 độ ngay cho mát ạ.”
+**Ví dụ 3:** Đi nhầm đường (do app)
+Sai: “Tại app chỉ vậy chứ em biết đường này gần hơn!”
+Đúng: “Dạ em xin lỗi chị, để em quay lại tuyến đúng ngay đây ạ.”
+**Ví dụ 4:** Khách bực vì tài xế im lặng
+Sai: “Em tập trung lái xe chứ biết nói gì!”
+Đúng: “Dạ em xin lỗi vì để anh im lặng, anh/chị cần em hỗ trợ gì thêm không ạ?”
+**⏱ 12–14 phút — D. ROLE-PLAY 90 GIÂY**
+Giảng viên chia cặp nhanh:
+  * Người A: khách cực kỳ bực (hét, đòi hủy, đòi báo công ty)
+
+
+  * Người B: tài xế chỉ được dùng công thức 1+1  
+→ Sau 45 giây đổi vai  
+→ Cả lớp cười vì thấy khách “diễn” cũng tự dịu lại thật!
+
+
+**⏱ 14–15 phút — E. 5 LỖI PHỔ BIẾN LÀM KHÁCH BỰC THÊM**
+  1. Xin lỗi kèm “nhưng…”
+
+
+  2. Xin lỗi 3–4 câu liên tiếp
+
+
+  3. Giải thích nguyên nhân dài dòng
+
+
+  4. Đổ lỗi cho app, đường, điều phối, khách
+
+
+  5. Giọng lên cao hoặc nghe như chống chế
+
+
+**⏱ 15 phút — KẾT THÚC BÙNG NỔ**
+“Các anh chị thân mến!
+Từ hôm nay, mỗi lần nói “Dạ em xin lỗi” đúng cách,
+các anh chị không hề yếu đi – các anh chị đang trở thành SIÊU ANH HÙNG 5 SAO!
+Hãy khắc vào tim công thức:
+1 CÂU XIN LỖI + 1 HÀNH ĐỘNG = KHÁCH DỊU NGAY + 5 SAO + BOA!
+Giờ thì ra đường và biến mọi cơn bực thành nụ cười nhé!
+Unitaxi tự hào vì có những tài xế biết xin lỗi ĐẲNG CẤP QUỐC TẾ như các anh chị! ❤️🚕”
+* * *
+## **4\. Giải thích ngắn & rõ (15 phút)**
+**🔥 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY GIẢI THÍCH" \- KHÁCH TỨC GIẬN CŨNG PHẢI GẬT GÙ ĐỒNG Ý! 🚀**
+**🎯 MỤC TIÊU SAU 15 PHÚT:**
+  * Biết cách giải thích 1 câu khiến khách từ "sao đi đường này?" thành "ồ hay quá!"
+
+
+  * Tăng 30% tỷ lệ khách đồng ý với lựa chọn đường của tài xế
+
+
+  * Trở thành tài xế mà khách review: "Rất chuyên nghiệp, giải thích rõ ràng và đáng tin cậy!"
+
+
+**⏱ 0-1 PHÚT — MỞ ĐẦU BÙNG NỔ**
+"ComfortDelGro Singapore - hãng taxi số 1 Đông Nam Á đã chứng minh:
+Tài xế biết giải thích ngắn gọn = Tỷ lệ khiếu nại giảm 65% + Tips tăng 40%!
+Hôm nay chúng ta sẽ học bí kíp '1 CÂU THAY VẠN LỜI'!"
+**⏱ 1-3 PHÚT — A. TẠI SAO PHẢI GIẢI THÍCH NGẮN?**
+Theo nghiên cứu từ Japan Taxi & Uber Global:
+  * Giải thích dài = Khách nghĩ bạn đang bao biện
+
+
+  * Giải thích ngắn = Thể hiện năng lực chuyên môn
+
+
+  * 85% khách hàng chỉ nhớ duy nhất 1 thông điệp chính
+
+
+**CÔNG THỨC VÀNG QUỐC TẾ: "1 CÂU GIẢI THÍCH + 1 LỢI ÍCH CỤ THỂ = KHÁCH ĐỒNG Ý NGAY!"**
+**⏱ 3-9 PHÚT — B. 5 NGUYÊN TẮC "GIẢI THÍCH THÔNG MINH"**
+**1\. CHỈ 1 CÂU - ĐÚNG TRỌNG TÂM**
+  * Tuyệt đối không nói quá 2 câu liên tiếp
+
+
+  * Tập trung vào lợi ích chính cho khách
+
+
+ _Câu thần thánh:_  
+✅ "Mình đi hướng này để TRÁNH KẸT và VỀ SỚM 15 PHÚT ạ!"  
+✅ "Đường này ÍT ĐÈN ĐỎ nên mình sẽ chạy NHANH HƠN 20%!"
+**2\. TUYỆT ĐỐI KHÔNG DÙNG TỪ GÂY ÁP LỰC**
+  * CẤM: "phải", "buộc", "không được"
+
+
+  * NÊN: "nên", "có thể", "tốt hơn nên"
+
+
+_Ví dụ xuất sắc:_  
+❌ "Anh phải ngồi yên!"  
+✅ "Mình ngồi yên để an toàn hơn nhé!"
+**3\. KHÔNG VÒNG VO - KHÔNG GIẢI THÍCH HAI LẦN**
+  * Nói 1 lần - nói rõ ràng - không nhắc lại
+
+
+  * Khách nóng = bạn nói càng ít
+
+
+ _Bí kíp cao thủ:_  
+"Đoạn này có camera, mình đi đúng làn cho an toàn ạ!"
+**4\. IM LẶNG ĐÚNG LÚC - NÓI ĐÚNG THỜI ĐIỂM**
+  * Khách đang bực = chỉ nói 1 câu rồi im lặng
+
+
+  * Giọng nói: chậm hơn 15%, volume thấp hơn 20%
+
+
+_Câu cứu tinh:_  
+"Dạ để em tập trung xử lý cho mình an toàn trước ạ!"
+**5\. HƯỚNG DẪN - KHÔNG TRANH LUẬN**
+  * Thay vì chứng minh đúng sai, hãy hướng dẫn giải pháp
+
+
+ _Tuyệt chiêu:_  
+❌ "Em đúng, anh sai rồi!"  
+✅ "Hướng này sẽ giúp mình đến nơi NHANH HƠN và AN TOÀN HƠN ạ!"
+**⏱ 9-12 PHÚT — C. 4 TÌNH HUỐNG "KHÓ NHẰN" VÀ CÁCH XỬ LÝ THÔNG MINH**
+**Tình huống 1:** Khách bảo đi đường A, bạn muốn đi đường B  
+❌ "Đường anh chỉ kẹt lắm!"  
+✅ "Hướng này đang thông suốt, mình đi sẽ TIẾT KIỆM 10 PHÚT ạ!"
+**Tình huống 2:** Khách yêu cầu dừng giữa đường nguy hiểm  
+❌ "Không được dừng ở đây!"  
+✅ "Em sẽ dừng ở điểm AN TOÀN ngay phía trước cho mình nhé!"
+**Tình huống 3:** Khách hỏi tại sao không đi nhanh hơn  
+❌ "Em đang chạy đúng tốc độ rồi!"  
+✅ "Em giữ tốc độ ổn định để đảm bảo AN TOÀN TUYỆT ĐỐI cho mình ạ!"
+**Tình huống 4:** Khách phàn nàn về nhiệt độ  
+❌ "Em mới chỉnh rồi!"  
+✅ "Dạ để em điều chỉnh nhiệt độ cho mình DỄ CHỊU ngay ạ!"
+**⏱ 12-14 PHÚT — D. THỰC CHIẾN 90 GIÂY**
+Giảng viên chia cặp nhanh:
+  * Người A: khách khó tính nhất (liên tục phàn nàn, chỉ đường)
+
+
+  * Người B: tài xere chỉ được dùng 1 câu giải thích + 1 lợi ích  
+→ 45 giây đổi vai  
+→ Cả lớp bất ngờ vì hiệu quả của việc "nói ít nhưng chất"
+
+
+**⏱ 14-15 PHÚT — E. 5 LỖI "CHẾT NGƯỜI" KHI GIẢI THÍCH**
+  1. ❌ Giải thích dài hơn 3 câu → Khách nghĩ bạn bao biện
+
+
+  2. ❌ Dùng từ "phải", "buộc" → Tạo cảm giác bị ép buộc
+
+
+  3. ❌ Tranh luận đúng sai → Mất thiện cảm ngay lập tức
+
+
+  4. ❌ Nói quá nhiều khi khách đang bực → Dầu đổ thêm lửa
+
+
+  5. ❌ Đổ lỗi cho app/đường/đèn đỏ → Đánh mất sự chuyên nghiệp
+
+
+**⏱ 15 PHÚT — KẾT THÚC ĐỈNH CAO**
+"Các anh chị thân mến!
+Từ hôm nay, mỗi lần giải thích ngắn gọn và thông minh,
+các anh chị không chỉ tiết kiệm thời gian - mà còn KIẾM THÊM SỰ TIN TƯỞNG!
+Hãy nhớ kỹ:
+1 CÂU GIẢI THÍCH + 1 LỢI ÍCH CỤ THỂ = KHÁCH GẬT ĐẦU + 5 SAO + BOA!
+Ra đường và trở thành những 'BẬC THẦY GIẢI THÍCH' nhé!
+Unipower tự hào vì có những tài xế BIẾT NÓI NHƯNG KHÔNG BAO GIỜ NÓI DÀI! 🚀❤️"
+* * *
+## **5\. Xử lý khách nóng tính (20 phút)**
+**Chuẩn Lyft De-escalation Tactics + Grab Conflict Diffusion + Uber Safety + JapanTaxi Safety Style**
+**🎯 Mục tiêu sau 20 phút**
+  * Bạn sẽ không còn sợ khách la hét, đập ghế, chửi bới
+
+
+  * Biết làm khách “hạ hỏa” trong vòng 15–30 giây
+
+
+  * Giữ được bình tĩnh 100%, an toàn 100%, 5 sao 100%
+
+
+  * Trở thành “bậc thầy giảm nhiệt” mà cả công ty phải nể!
+
+
+**⏱ 0–5 phút — PHẦN 1: HIỂU RÕ “CƠ CHẾ NÓNG” CỦA KHÁCH**
+(Lyft 2024 Safety Report + Grab SG 2025)
+5 nguyên nhân thực sự khiến khách nổi nóng:
+  1. Đang trễ giờ → stress cực độ
+
+
+  2. Kẹt xe → mất cảm giác kiểm soát
+
+
+  3. Lo bị đi vòng → sợ tốn tiền
+
+
+  4. Đang có chuyện cá nhân → không liên quan bạn
+
+
+  5. Quan niệm “tôi là khách = tôi là vua”
+
+
+→ Quan trọng nhất: 70–80% cơn nóng KHÔNG LIÊN QUAN ĐẾN BẠN!
+→ Nếu bạn phản ứng lại → bạn tự nhảy vào “vòng xoáy chiến đấu”
+**⏱ 5–13 phút — PHẦN 2: 6 KỸ THUẬT GIẢM NHIỆT SIÊU TỐC (giảng viên viết to lên bảng)**
+  1. Giữ khoảng cách cơ thể
+→ Không quay hẳn người lại, không đối đầu trực diện
+
+
+  2. Hạ giọng + nói chậm hơn 15%
+→ Grab SG đo: hạ giọng = giảm 40–50% căng thẳng khách
+
+
+  3. Mắt nhìn lệch nhẹ sang phải hoặc nhìn đường
+→ Không nhìn chằm chằm qua gương (khách sẽ càng nóng)
+
+
+  4. Không tranh cãi – không chứng minh mình đúng
+→ Cấm tuyệt đối các từ: “đâu có”, “ai bảo”, “anh sai rồi”
+
+
+  5. Không biện minh dài dòng
+→ Tối đa 1 câu giải thích
+
+
+  6. Tay giữ vô-lăng chắc – chân sẵn sàng phanh
+→ Giữ an toàn là ưu tiên số 1
+
+
+**⏱ 13–16 phút — PHẦN 3: 3 CÂU MẪU THẦN THÁNH (thuộc lòng ngay tại chỗ)**
+Giảng viên yêu cầu cả lớp đọc to 3 lần:
+  1. “Dạ em hiểu ạ, để em xử lý cho mình.”
+
+
+  2. “Anh/chị yên tâm, em sẽ giữ an toàn nhất ạ.”
+
+
+  3. “Dạ mình đi đường này sẽ an toàn và nhanh hơn ạ.”
+
+
+→ 3 câu này đã cứu hàng nghìn tài xế Uber/Lyft/Grab khỏi xung đột!
+**⏱ 16–20 phút — PHẦN 4: THỰC HÀNH 3 TÌNH HUỐNG THỰC CHIẾN (Role-play tại chỗ)**
+**Tình huống 1** – Khách la lớn: “Mày chạy đường gì vậy hả?! Đi vòng phải không?!”
+Đúng 100%:
+→ Hạ giọng cực nhẹ: “Dạ em hiểu anh đang bực. Đường kia đang kẹt nặng, đường này an toàn và nhanh hơn ạ.”
+**Tình huống 2** – Khách đập ghế, giục chạy nhanh
+Đúng 100%:
+→ Giữ tốc độ hiện tại (hoặc giảm nhẹ)
+→ Giọng nhẹ như ru: “Dạ anh yên tâm, em đang giữ tốc độ an toàn nhất cho mình ạ.”
+→ Nếu khách tiếp tục → bấm SOS lặng lẽ → báo điều phối
+**Tình huống 3** – Khách chửi bới, xúc phạm cá nhân
+Đúng 100%:
+→ Im lặng 3–5 giây → giọng nhẹ: “Dạ em hiểu ạ.”
+→ Tập trung lái → báo điều phối trong 30 giây
+→ Không đáp trả dù chỉ 1 từ!
+**⏱ 20 phút — KẾT THÚC BÙNG NỔ**
+“Các anh chị thân mến!
+Từ hôm nay, khi khách càng nóng → các anh chị càng mát!
+Khách càng la → các anh chị càng nhẹ!
+Vì các anh chị đã sở hữu 6 kỹ thuật + 3 câu thần chú mà ngay cả tài xế 10 năm kinh nghiệm ở Singapore, Nhật Bản cũng phải học!
+Hãy bước ra đường với tư thế ngẩng cao đầu và tự nhủ thật to:
+“TÔI KHÔNG SỢ KHÁCH NÓNG TÍNH NỮA – VÌ TÔI LÀ NGƯỜI ĐIỀU KHIỂN NHIỆT ĐỘ TRONG XE!”
+Unitaxi tự hào vì có những chiến binh giảm nhiệt đỉnh cao như các anh chị!
+Giờ thì ra đường và biến mọi tiếng la hét thành… tiếng cười + 5 sao + boa nhé! ❤️🚕🔥”
+* * *
+## **6\. Xử lý khách say (15 phút)**
+**🔥 20 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY XỬ LÝ XUNG ĐỘT" \- KHÁCH GIẬN DỮ ĐẾN MẤY CŨNG PHẢI BÌNH TĨNH LẠI! 🚀**
+**🎯 MỤC TIÊU ĐỘT PHÁ (1 PHÚT)**
+  * **Thấu hiểu** tận gốc 5 nguyên nhân khiến khách "bùng nổ"
+
+
+  * **Làm chủ** 6 kỹ thuật "hạ nhiệt" chuẩn quốc tế trong 3-10 giây
+
+
+  * **Trở thành** chuyên gia xử lý xung đột: an toàn cho bạn - tôn trọng khách
+
+
+* * *
+**🌟 VÌ SAO KHÁCH TRỞ THÀNH "NGƯỜI NHIỀU LỬA"? (3 PHÚT)**
+Theo nghiên cứu từ Lyft & Uber Global:
+**80% khách nóng tính KHÔNG HỀ NÓNG VÌ BẠN!** Họ đang mang theo:
+  * 💼 **Áp lực công việc** (trễ meeting, sếp la, deal sập)
+
+
+  * 🏥 **Lo lắng sức khỏe** (vào viện khám gấp)
+
+
+  * ✈️ **Căng thẳng di chuyển** (sợ lỡ chuyến bay, tàu)
+
+
+  * 🏠 **Vấn đề gia đình** (cãi vợ/chồng, con ốm)
+
+
+**SỰ THẬT CHẤN ĐỘNG:** Khách không giận bạn - họ đang giận HOÀN CẢNH!
+* * *
+**💎 6 BÍ KÍP "HẠ NHIỆT" TỪ CÁC CHUYÊN GIA LYFT (12 PHÚT)**
+**1\. NGHỆ THUẬT "GIỮ KHOẢNG CÁCH VÀNG"**
+  * ❌ KHÔNG quay người đối diện trực tiếp
+
+
+  * ✅ NGỒI thẳng, tay nắm vô-lăng, mắt hướng đường
+
+
+  * ✅ CHỈ nghiêng đầu 15 độ khi trả lời
+
+
+**Hiệu quả:** Giảm 40% cảm giác đối đầu ngay lập tức!
+**2\. GIỌNG NÓI "THẦN THÁNH" \- THẤP · CHẬM · ÊM**
+  * 🔊 Giảm âm lượng 2 nấc
+
+
+  * 🐢 Nói chậm hơn 20%
+
+
+  * 🌬️ Kết hợp hơi thở sâu
+
+
+**Câu "cửa miệng" của cao thủ:**_" Dạ em hiểu ạ."_
+**3\. ÁNH MẮT "KHÔNG ĐỐI ĐẦU"**
+  * 👀 Không nhìn chằm chằm qua gương
+
+
+  * 👁️ Không khóa mắt trực tiếp
+
+
+  * 🫣 Hướng tầm mắt lệch 30 độ sang phải
+
+
+**Nghiên cứu Lyft:** Tránh eye-contact giảm 50% leo thang xung đột!
+**4\. NGUYÊN TẮC "MỘT LỜI - MỘT NGHĨA"**
+  * 🚫 Tuyệt đối không tranh luận
+
+
+  * 🚫 Tuyệt đối không giải thích dài
+
+
+  * 🚫 Tuyệt đối không chứng minh đúng sai
+
+
+**Triết lý vàng:** _Thắng trong im lặng, an toàn trong hành động!_
+**5\. CÔNG THỨC "THẤU CẢM + HÀNH ĐỘNG"**
+  * 🤝 **Ghi nhận:** "Dạ em hiểu anh/chị đang rất sốt ruột"
+
+
+  * 🎯 **Chuyển hướng:** "Để em xử lý ngay cho mình ạ!"
+
+
+**Hiệu quả tức thì:** Khách cảm thấy được lắng nghe → giảm bùng nổ!
+**6\. LÁI XE "ÊM NHƯ NHUNG"**
+  * 🚗 Không phanh gấp, không tăng tốc đột ngột
+
+
+  * 🛣️ Giữ khoảng cách an toàn gấp 1.5 lần bình thường
+
+
+  * 🎵 Tốc độ ổn định như dòng sông chảy
+
+
+**Bí mật:** Xe êm = Tâm trạng khách dịu xuống 60%!
+* * *
+**🛡️ 6 CÂU "BÙA HỘ MỆNH" CHO MỌI TÌNH HUỐNG (3 PHÚT)**
+  1. ✅ **" Dạ em hiểu, để em xử lý ngay ạ."**
+
+
+  2. ✅ **" Anh/chị yên tâm, em đang giải quyết ổn thỏa ạ."**
+
+
+  3. ✅ **" Hướng này sẽ giúp mình tránh kẹt và về sớm hơn ạ."**
+
+
+  4. ✅ **" Em xin lỗi, để em điều chỉnh nhiệt độ cho mình dễ chịu ngay."**
+
+
+  5. ✅ **" Em hiểu mình đang vội, em cố gắng trong mức an toàn nhất ạ."**
+
+
+  6. ✅ **" Em sẽ cập nhật ứng dụng để minh bạch thông tin cho mình ạ."**
+
+
+**🚫 TUYỆT ĐỐI CẤM:**
+  * ❌ "Anh/chị sai rồi!"
+
+
+  * ❌ "Không phải lỗi của em!"
+
+
+  * ❌ "Em làm đúng mà!"  
+_→ Đây là 3 câu "mồi lửa" gây nổ lớn!_
+
+
+* * *
+**🎭 3 TÌNH HUỐNG THỰC CHIẾN CẤP TỐC (1 PHÚT)**
+**Tình huống 1:** Khách quát "Sao chạy chậm thế?"  
+➤ **Đáp trả thông minh:**_" Dạ em giữ tốc độ ổn định để đảm bảo AN TOÀN TUYỆT ĐỐI cho mình ạ!"_
+**Tình huống 2:** Khách gắt "Tôi bảo đi đường kia cơ!"  
+➤ **Xử lý đỉnh cao:**_" Dạ em hiểu, nếu anh/chị muốn em sẽ quay lại hướng đó NGAY ạ!"_
+**Tình huống 3:** Khách lớn tiếng vì kẹt xe  
+➤ **Giải pháp vàng:**_" Dạ đoạn này đang đông, em đã chọn tuyến TỐI ƯU nhất rồi ạ!"_
+* * *
+**💫 KẾT THÚC TRÀN ĐẦY NĂNG LƯỢNG (1 PHÚT)**
+"Các anh chị thân mến!
+Một tài xế THÔNG THÁI không cần thắng bằng lời nói,  
+mà thắng bằng SỰ BÌNH TĨNH và CHUYÊN NGHIỆP!
+Hôm nay, chúng ta đã học được bí kíp từ những hãng taxi hàng đầu thế giới:
+**LYFT · UBER · COMFORTDELGRO · JAPAN TAXI**
+Hãy nhớ: Mỗi lần bạn giữ bình tĩnh thành công,  
+bạn không chỉ bảo vệ chính mình - mà còn cứu một hành khách khỏi 'cơn bão cảm xúc'!
+Ra đường và tỏa sáng, những BẬC THẦY XỬ LÝ XUNG ĐỘT! 🌟🚗
+Unipower tự hào vì có bạn! ❤️"
+* * *
+## **7\. Khi nào cần gọi điều phối / an ninh / công an (20 phút)**
+**🚨 20 PHÚT NÀY SẼ GIÚP BẠN TRỞ THÀNH "BẬC THẦY XỬ LÝ KHỦNG HOẢNG" \- AN TOÀN TUYỆT ĐỐI & CHUYÊN NGHIỆP ĐẲNG CẤP QUỐC TẾ! 🌟**
+**🎯 MỤC TIÊU ĐỘT PHÁ (2 PHÚT)**
+  * **NHẬN DIỆN SIÊU NHANH** 8 tình huống "báo động đỏ" cần kích hoạt hỗ trợ
+
+
+  * **LÀM CHỦ** quy trình 3 bước vàng từ Bolt & Uber
+
+
+  * **TRỞ THÀNH** tài xế thông thái: biết khi nào cần "hỗ trợ hệ thống"
+
+
+* * *
+**🔴 8 TÌNH HUỐNG "BÁO ĐỘNG ĐỎ" \- GỌI HỖ TRỢ NGAY! (10 PHÚT)**
+**1\. KHÁCH ĐE DỌA HOẶC XÚC PHẠM**
+  * 👊 Đập ghế, đá cửa
+
+
+  * 🗣️ Chửi bới, xúc phạm
+
+
+  * ⚠️ Đe dọa: "Tao đánh mày", "Tao kiện mày"  
+→ **NGUY CƠ BẠO LỰC CAO** \- cần hỗ trợ an ninh ngay!
+
+
+**2\. KHÁCH SAY MẤT KIỂM SOÁT HOÀN TOÀN**
+  * 🚶 Không giữ được thăng bằng
+
+
+  * 🔊 La hét vô cớ
+
+
+  * 🚪 Cố mở cửa khi xe đang chạy  
+→ **AN TOÀN TÍNH MẠNG BỊ ĐE DỌA** \- báo điều phối Level 1!
+
+
+**3\. KHÁCH "NGỒI LÌ" \- KHÔNG CHỊU XUỐNG XE**
+  * 🪑 Ngồi lì không rời
+
+
+  * 🚪 Giữ chặt cửa, ghế
+
+
+  * ⏰ Kéo dài thời gian vô lý  
+→ **NGUY CƠ XUNG ĐỘT LEO THANG** \- cần can thiệp hệ thống!
+
+
+**4\. KHÁCH YÊU CẦU ĐƯỜNG NGUY HIỂM**
+  * 🚫 Đường cấm taxi
+
+
+  * 🔄 Đường một chiều
+
+
+  * 🌊 Đường ngập sâu  
+→ **VI PHẠM LUẬT GIAO THÔNG** \- tài xế chịu trách nhiệm pháp lý!
+
+
+**5\. KHÁCH CÓ HÀNH VI PHÁ HOẠI XE**
+  * 💥 Đập vỡ nội thất
+
+
+  * 🎨 Bôi bẩn ghế, cửa
+
+
+  * 🔧 Làm hỏng thiết bị  
+→ **THIỆT HẠI TÀI SẢN** \- cần ghi nhận để bồi thường!
+
+
+**6\. KHÁCH ĐÒI XUỐNG NƠI NGUY HIỂM**
+  * 🛣️ Giữa đường cao tốc
+
+
+  * 🌉 Trên cầu, hầm
+
+
+  * 🌃 Khu vực tối, vắng  
+→ **VI PHẠM LUẬT & NGUY HIỂM TÍNH MẠNG** \- tuyệt đối không thực hiện!
+
+
+**7\. KHÁCH GÂY MẤT TẬP TRUNG KÉO DÀI**
+  * 📢 La hét liên tục
+
+
+  * 👋 Đập vào ghế tài xế
+
+
+  * 🎭 Hành vi kích động  
+→ **NGUY CƠ MẤT KIỂM SOÁT TAY LÁI** \- dừng xe an toàn ngay!
+
+
+**8\. VA CHẠM GIAO THÔNG (DÙ NHẸ)**
+  * 🛵 Trầy xước nhẹ
+
+
+  * 🚗 Va quẹt nhỏ
+
+
+  * 🚦 Tai nạn nhẹ  
+→ **BẮT BUỘC BÁO HỆ THỐNG** để ghi nhận & xử lý đúng quy trình!
+
+
+* * *
+**💎 QUY TRÌNH 3 BƯỚC VÀNG XỬ LÝ KHỦNG HOẢNG (6 PHÚT)**
+**BƯỚC 1: BÁO ĐIỀU PHỐI NGAY - "1 CÂU 5 GIÂY"**
+_Câu thần chú của cao thủ:_  
+✅ **" Em gặp tình huống nguy hiểm cấp độ 2, cần hỗ trợ ngay!"**  
+✅ **" Xe có va chạm nhẹ, em báo để xử lý theo quy trình!"**
+_Nguyên tắc vàng:_ **KHÔNG kể chuyện dài** \- điều phối sẽ hỏi thêm nếu cần!
+**BƯỚC 2: CHỈ ĐẠO HỆ THỐNG - KHÔNG TỰ Ý HÀNH ĐỘNG**
+  * 🚫 **KHÔNG** cãi nhau với khách
+
+
+  * 🚫 **KHÔNG** tự ý ghi hình (trừ tự vệ)
+
+
+  * 🚫 **KHÔNG** đuổi khách xuống xe
+
+
+  * 🚫 **KHÔNG** xử lý theo cảm tính
+
+
+ _Bí kíp Bolt:_ **Tài xế không tự leo thang - để hệ thống hỗ trợ!**
+**BƯỚC 3: GHI NHẬN DỮ LIỆU - MINH BẠCH TUYỆT ĐỐI**
+  * 📸 Chụp ảnh hiện trường, hư hại
+
+
+  * 🕒 Ghi rõ giờ, vị trí chính xác
+
+
+  * 📱 Cập nhật tình huống lên app
+
+
+  * ⚠️ Báo điểm đón có rủi ro cho tài xế khác
+
+
+ _Mục tiêu tối thượng:_ **BẢO VỆ BẠN khỏi khiếu nại sai!**
+* * *
+**🎭 3 TÌNH HUỐNG THỰC CHIẾN CẤP TỐC (2 PHÚT)**
+**TÌNH HUỐNG 1:** Khách say mở cửa giữa đường  
+➤ **XỬ LÝ ĐỈNH CAO:**_Giảm tốc → Dừng an toàn → Báo điều phối: "Khách say Level 3 đang cố mở cửa!"_
+**TÌNH HUỐNG 2:** Khách la hét, chửi bới  
+➤ **GIẢI PHÁP VÀNG:**_Không đáp trả → Giữ khoảng cách → Báo: "Khách có hành vi đe dọa, cần hỗ trợ an ninh!"_
+**TÌNH HUỐNG 3:** Va quẹt nhẹ xe máy  
+➤ **XỬ LÝ THÔNG MINH:**_Dừng xe → Bật cảnh báo → Chụp ảnh → Báo: "Va chạm nhẹ, cần hướng dẫn xử lý!"_
+* * *
+**💫 KẾT THÚC TRÀN ĐẦY SỨC MẠNH (30 GIÂY)**
+"Các anh chị thân mến!
+Điều phối không chỉ để xử lý giấy tờ - mà là VỊ CỨU TINH CỦA BẠN trong mọi tình huống nguy hiểm!
+Hãy nhớ kỹ: Khi bạn tuân thủ 3 bước vàng này, bạn không chỉ bảo vệ chính mình - mà còn đang VIẾT NÊN TIÊU CHUẨN AN TOÀN ĐẲNG CẤP QUỐC TẾ!
+Unipower LUÔN Ở ĐÂY để hỗ trợ bạn - vì sự an toàn của bạn là GIÁ TRỊ CỐT LÕI của chúng ta! ❤️🚗 Hãy lái xe an toàn và TỎA SÁNG, những BẬC THẦY XỬ LÝ KHỦNG HOẢNG! 🌟"
+* * *
+## **8\. Kỷ luật ngôn từ (15 phút)**
+**🎯 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY GIAO TIẾP" \- CHUYÊN NGHIỆP, AN TOÀN & ĐẲNG CẤP QUỐC TẾ! 🌟**
+**🔥 MỤC TIÊU ĐỘT PHÁ**
+  * **Làm chủ** nghệ thuật giao tiếp TRUNG LẬP - KHÔNG KÍCH ĐỘNG
+
+
+  * **Tránh 100%** xung đột không cần thiết từ ngôn từ
+
+
+  * **Xây dựng** hình ảnh tài xế Unitaxi VĂN MINH - CHUYÊN NGHIỆP
+
+
+* * *
+**💎 5 NGUYÊN TẮC VÀNG "KHÔNG BAO GIỜ PHÁ VỠ" (5 PHÚT)**
+**1\. 🚫 TUYỆT ĐỐI KHÔNG NÓI TỤC - CHỬI THỀ**
+  * Tạo cảm giác ĐE DỌA & MẤT AN TOÀN
+
+
+  * Ảnh hưởng trực tiếp đến ĐÁNH GIÁ và UY TÍN
+
+
+**2\. 🚫 KHÔNG ĐÙA NHẠY CẢM**
+  * ❌ Ngoại hình, cân nặng
+
+
+  * ❌ Giới tính, xu hướng tình dục
+
+
+  * ❌ Vùng miền, địa phương
+
+
+  * ❌ Tôn giáo, chính trị
+
+
+ _Hậu quả:_ Đánh giá 1 sao NGAY LẬP TỨC!
+**3\. 🚫 KHÔNG "DẠY ĐỜI" \- LÀM THẦY ĐỜI**
+  * ❌ "Anh/chị nên làm thế này..."
+
+
+  * ❌ "Để tôi chỉ cho..."
+
+
+  * ❌ "Như vậy là sai rồi!"
+
+
+_Tác hại:_ Tạo thế ĐỐI ĐẦU - Mất thiện cảm NGAY LẬP TỨC!
+**4\. 🚫 KHÔNG XỚI MÓI CHUYỆN RIÊNG TƯ**
+  * 💼 Thu nhập, lương bổng
+
+
+  * 👨‍👩‍👧‍👦 Hôn nhân, gia đình
+
+
+  * 🏥 Tình trạng sức khỏe
+
+
+ _Chuẩn quốc tế:_ Đây là "HÀNH VI XÂM PHẠM" cần TRÁNH!
+**5\. 🚫 KHÔNG PHÁN XÉT - ĐÁNH GIÁ**
+  * 👕 Trang phục, ngoại hình
+
+
+  * 🗣️ Giọng nói, phương ngữ
+
+
+  * 💼 Nghề nghiệp, công việc
+
+
+ _Nguyên tắc:_ MỖI HÀNH KHÁCH ĐỀU XỨNG ĐÁNG ĐƯỢC TÔN TRỌNG!
+* * *
+**🚨 6 CÂU "CẤM KỴ" \- TUYỆT ĐỐI KHÔNG BAO GIỜ NÓI! (5 PHÚT)**
+  1. ❌ **" Anh uống nhiều quá ha?"**  
+→ Kích động khách say
+
+
+  2. ❌ **" Bé mập dễ thương ghê!"**
+→ Xúc phạm ngoại hình
+
+
+  3. ❌ **" Người miền ... hay nóng tính lắm!"**  
+→ Kỳ thị vùng miền
+
+
+  4. ❌ **" Đi taxi hoài chắc giàu lắm?"**  
+→ Xâm phạm tài chính
+
+
+  5. ❌ **" Làm nghề đó chắc vất vả lắm?"**  
+→ Đánh giá nghề nghiệp
+
+
+  6. ❌ **" Chồng/chị đâu rồi?"**  
+→ Xâm phạm đời tư
+
+
+**⚠️ ĐÂY LÀ 6 ĐIỀU "CẤM TOÀN CẦU" TRONG NGÀNH VẬN TẢI!**
+* * *
+**🛡️ 4 NHÓM CÂU "BẤT BẠI" \- DÙNG MỌI TÌNH HUỐNG (5 PHÚT)**
+**NHÓM 1: CÂU XÁC NHẬN TRUNG LẬP**  
+✅ **" Dạ em hiểu."**  
+✅ **" Dạ đúng rồi ạ."**_→ Luôn an toàn, không sai được!_
+**NHÓM 2: CÂU XỬ LÝ LÀM DỊU**  
+✅ **" Để em kiểm tra giúp ạ."**  
+✅ **" Em xử lý ngay đây."**_→ Giảm 50% căng thẳng ngay lập tức!_
+**NHÓM 3: CÂU ĐỊNH HƯỚNG THÔNG MINH**  
+✅ **" Mình đi đường này sẽ AN TOÀN hơn ạ."**  
+✅ **" Hướng này giúp mình TRÁNH KẸT tốt hơn."**_→ Tập trung vào LỢI ÍCH, không tranh cãi!_
+**NHÓM 4: CÂU HỖ TRỢ CHUYÊN NGHIỆP**  
+✅ **" Em hỗ trợ ngay cho mình."**  
+✅ **" Anh/chị yên tâm, em lo phần này."**_→ Xây dựng NIỀM TIN & SỰ AN TÂM!_
+* * *
+**🎭 LUYỆN TẬP THỰC CHIẾN - 3 TÌNH HUỐNG "KHÓ NHẰN" (2 PHÚT)**
+**TÌNH HUỐNG 1:** Khách nóng tính phàn nàn về tuyến đường  
+➤ **CÂU TRẢ LỜI VÀNG:**_" Dạ em hiểu, em đang chọn tuyến TỐI ƯU nhất cho mình ạ!"_
+**TÌNH HUỐNG 2:** Khách sai điểm đón, đổ lỗi cho tài xế  
+➤ **GIẢI PHÁP THÔNG MINH:**_" Dạ để em KIỂM TRA và ĐIỀU CHỈNH ngay cho mình ạ!"_
+**TÌNH HUỐNG 3:** Khách liên tục phàn nàn về giá cước  
+➤ **XỬ LÝ CHUYÊN NGHIỆP:**_" Dạ em HIỂU, em sẽ CẬP NHẬT thông tin đầy đủ cho mình ạ!"_
+* * *
+**💫 KẾT THÚC ĐẦY CẢM HỨNG (30 GIÂY)**
+"Các anh chị thân mến!
+Kỷ luật ngôn từ KHÔNG PHẢI là gò bó - mà là VŨ KHÍ MẠNH NHẤT để bảo vệ chính bạn và xây dựng hình ảnh Unitaxi ĐẲNG CẤP!
+Mỗi câu nói đúng chuẩn của bạn hôm nay đang viết nên câu chuyện về một nền vận tải VĂN MINH - TÔN TRỌNG - CHUYÊN NGHIỆP!
+Hãy là những ĐẠI SỨ NGÔN TỪ - mang đến trải nghiệm TUYỆT VỜI nhất cho mỗi hành khách! 🌟🚗 Unipower TỰ HÀO vì có bạn! ❤️"
+* * *
+## **10\. Role-play 10 tình huống thực tế (25 phút)**
+**🎯 25 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY XỬ LÝ TÌNH HUỐNG" \- PHẢN XẠ NHANH NHẠY & CHUYÊN NGHIỆP ĐẲNG CẤP QUỐC TẾ! 🌟**
+**🔥 MỤC TIÊU TỐI THƯỢNG**
+  * **Rèn luyện** phản xạ TỰ NHIÊN trong 10 tình huống "khó nhằn" nhất
+
+
+  * **Xây dựng** thói quen sử dụng ngôn từ VÀNG & hành vi AN TOÀN
+
+
+  * **Trở thành** tài xế Unitaxi ĐẲNG CẤP - bình tĩnh trước mọi thử thách
+
+
+* * *
+## **🎭 10 TÌNH HUỐNG THỰC TẾ "CÓ THẬT 100%"**
+### **1\. KHÁCH SAI ĐIỂM ĐÓN - XỬ LÝ "MƯỢT NHƯ NHUNG"**
+**Mục tiêu:** Giải thích ngắn gọn - không làm khách ngại ngùng
+```
+    ✅ CÂU VÀNG: "Dạ để em xác nhận lại, anh/chị đang ở cổng A hay cổng B ạ?"
+    ✅ HÀNH ĐỘNG: Dừng xe an toàn, mở app kiểm tra
+    
+```
+### **2\. KHÁCH LA MẮNG - "HẠ NHIỆT" TRONG 5 GIÂY**
+**Mục tiêu:** Dập tắt căng thẳng ngay lập tức
+```
+    ✅ CÂU VÀNG: "Dạ em hiểu, để em kiểm tra ngay ạ."
+    ✅ HÀNH ĐỘNG: Giữ giọng thấp, tay nắm vô-lăng, không quay lại
+    
+```
+### **3\. YÊU CẦU ĐƯỜNG NGUY HIỂM - BẢO VỆ AN TOÀN**
+**Mục tiêu:** Từ chối khéo mà vẫn giữ thiện cảm
+```
+    ✅ CÂU VÀNG: "Đường đó hiện không an toàn, mình đi hướng này sẽ NHANH và AN TOÀN hơn ạ."
+    ✅ HÀNH ĐỘNG: Tiếp tục lái xe ổn định, không dao động
+    
+```
+### **4\. KHÁCH SAY XỈN - KIỂM SOÁT "KHÔNG TRANH LUẬN"**
+**Mục tiêu:** Đưa khách về an toàn mà không xung đột
+```
+    ✅ CÂU VÀNG: "Anh/chị ngồi vững giúp em nhé, mình sắp tới nơi rồi ạ."
+    ✅ HÀNH ĐỘNG: Bật khóa cửa trẻ em, quan sát gương liên tục
+    
+```
+### **5\. KHÁCH ĐE DỌA - KÍCH HOẠT "CHẾ ĐỘ BẢO MẬT"**
+**Mục tiêu:** Bảo vệ bản thân ngay lập tức
+```
+    ✅ CÂU VÀNG: "Dạ để em gọi điều phối hỗ trợ ngay ạ."
+    ✅ HÀNH ĐỘNG: Dừng xe nơi đông người, bấm nút khẩn cấp trên app
+    
+```
+### **6\. KHÁCH BẮT BẤM CÒI - TUÂN THỦ LUẬT GIAO THÔNG**
+**Mục tiêu:** Giải thích đúng luật mà không gây khó chịu
+```
+    ✅ CÂU VÀNG: "Đường này em hạn chế còi để tránh ảnh hưởng mọi người, mình vẫn đi kịp ạ."
+    ✅ HÀNH ĐỘNG: Duy trì tốc độ ổn định, bật đèn ưu tiên nếu cần
+    
+```
+### **7\. YÊU CẦU NHẠC LỚN - GIỮ TẬP TRUNG LÁI XE**
+**Mục tiêu:** Đảm bảo an toàn mà vẫn tôn trọng khách
+```
+    ✅ CÂU VÀNG: "Em mở nhạc nhẹ thôi cho mình lái xe an toàn hơn ạ."
+    ✅ HÀNH ĐỘNG: Chỉnh âm lượng vừa phải, chọn kênh nhạc nhẹ
+    
+```
+### **8\. CÔNG KÍCH CÁ NHÂN - "IM LẶNG LÀ VÀNG"**
+**Mục tiêu:** Bảo vệ hình ảnh bản thân và Unitaxi
+```
+    ✅ CÂU VÀNG: "Dạ em hiểu, để em tập trung lái cho an toàn ạ."
+    ✅ HÀNH ĐỘNG: Mắt nhìn đường, không phản ứng, không biểu cảm
+    
+```
+### **9\. YÊU CẦU VƯỢT ĐÈN VÀNG - TUYỆT ĐỐI KHÔNG VI PHẠM**
+**Mục tiêu:** An toàn là trên hết
+```
+    ✅ CÂU VÀNG: "Em dừng lại cho an toàn anh/chị nhé."
+    ✅ HÀNH ĐỘNG: Dừng xe đúng vạch, giữ bình tĩnh
+    
+```
+### **10\. YÊU CẦU DỪNG GIỮA ĐƯỜNG - KIÊN QUYẾT TỪ CHỐI**
+**Mục tiêu:** Đưa khách đến điểm an toàn
+```
+    ✅ CÂU VÀNG: "Chỗ này chưa an toàn, để em đỗ sát lề cho mình xuống nhé."
+    ✅ HÀNH ĐỘNG: Tìm điểm dừng hợp lệ, bật đèn báo hiệu
+    
+```
+* * *
+## **🎯 CÔNG THỨC HUẤN LUYỆN ROLE-PLAY ĐỈNH CAO (5 PHÚT)**
+### **THIẾT LẬP NHÓM THÔNG MINH**
+  * 👨‍✈️ **1 Tài xế** \- Thực hành kỹ năng
+
+
+  * 😠 **1 Khách khó tính** \- Diễn cảm xúc chân thật
+
+
+  * 👀 **1 Quan sát viên** \- Đánh giá khách quan
+
+
+### **QUY TRÌNH 90 GIÂY "THỰC CHIẾN"**
+  1. **📢 Giảng viên đọc tình huống** \- Mô tả chi tiết, cảm xúc
+
+
+  2. **🎭 Khách diễn xuất** \- Giận dữ/ Say xỉn/ Thúc giục
+
+
+  3. **🚗 Tài xế phản ứng** \- 1 câu vàng + 1 hành động an toàn
+
+
+  4. **📊 Quan sát viên chấm điểm** \- 3 tiêu chí vàng
+
+
+### **TIÊU CHÍ ĐÁNH GIÁ "3 VÀNG"**
+**🎙️ GIỌNG NÓI AN TOÀN**
+  * 🔊 Không cao giọng, không hằn học
+
+
+  * 🐢 Tốc độ chậm hơn 20% khi căng thẳng
+
+
+  * ❌ Không cắt lời, không tranh luận
+
+
+**🛡️ XỬ LÝ ĐÚNG CHUẨN**
+  * 🎯 Chỉ 1 câu giải thích
+
+
+  * 🤝 Không chạy theo cảm xúc khách
+
+
+  * 🚗 Ưu tiên AN TOÀN trên hết
+
+
+**💼 TINH THẦN CHUYÊN NGHIỆP**
+  * 😐 Mặt bình tĩnh, không nhăn nhó
+
+
+  * 🙅 Không thở dài, không lắc đầu
+
+
+  * 🎯 Tập trung vào GIẢI PHÁP
+
+
+* * *
+## **💫 KẾT THÚC TRÀN ĐẦY NĂNG LƯỢNG (30 GIÂY)**
+"Các anh chị thân mến!
+Mỗi lần thực hành role-play hôm nay chính là trang bị CHO CHÍNH BẠN mạng sống và sự nghiệp!
+Hãy nhớ: Phản xạ NHANH - Ứng xử KHÉO - Giữ bình tĩnh TUYỆT ĐỐI là ba chìa khóa vàng biến bạn thành TÀI XẾ ĐẲNG CẤP QUỐC TẾ!
+Unipower TỰ HÀO đồng hành cùng bạn trên mọi nẻo đường! ❤️🚗
+Hãy ra đường và TỎA SÁNG, những BẬC THẦY XỬ LÝ TÌNH HUỐNG! 🌟"
+* * *
+# **📘 5. HỆ THỐNG CÔNG NGHỆ UNITAXI (3 GIỜ)**
+|                                             |
+| **Mục**                                     | **Nội dung chi tiết**                                 | **Chuẩn quốc tế đối chiếu**       | **Thời lượng** |
+|---------------------------------------------|-------------------------------------------------------|-----------------------------------|----------------|
+| **1\. Tổng quan hệ thống Unitaxi**          |  App tài xế – điều phối – giám sát xe – giám sát trạm | Cấu trúc tương tự Uber Fleet      | 15’            |
+| **2\. Driver App – 8 tính năng quan trọng** |  Nhận cuốc, báo lỗi, ghi chú điểm đón, tình trạng xe… | Chuẩn Rider-Driver Sync của Lyft  | 30’            |
+| **3\. Dashboard điều phối**                 |  Luồng xử lý cuốc – phân tuyến – xử lý khiếu nại      | Grab Ops Playbook                 | 25’            |
+| **4\. Giám sát xe & trạm**                  | Cách đọc biểu tượng lỗi – cách báo sự cố pin, AC, DC  | ComfortDelGro EV Fleet Standard   | 25’            |
+| **5\. Cách báo lỗi đúng quy trình**         |  Không báo miệng – phải qua hệ thống – minh bạch      | Singapore Transport Authority SOP | 20’            |
+| **6\. Ghi nhận dữ liệu & báo cáo**          | 6 loại dữ liệu cần nhập – lưu vết sự cố               | Tiêu chuẩn dữ liệu Bolt           | 20’            |
+| **7\. Luồng xử lý khi xảy ra lỗi kỹ thuật** |  Ai xử lý – trong bao lâu – tài xế phải làm gì        | Quy trình 3 cấp của Uber          | 20’            |
+| **8\. Bài tập thực hành**                   |  Giả lập: mất GPS – lỗi pin – lỗi điều hòa – sai km   | Đánh giá tại lớp                  | 25’            |
+
+
+## **1\. Mục tiêu của buổi học**
+Sau 3 giờ, học viên phải:
+  * Hiểu toàn bộ công cụ đang dùng hằng ngày.
+
+
+  * Nắm được “luồng vận hành” từ khi nhận ca → nhận chuyến → trả khách → báo cáo.
+
+
+  * Biết ghi nhận sự cố, lỗi, phản hồi đúng chuẩn.
+
+
+  * Không xử lý “miệng”, không làm ngoài hệ thống.
+
+
+  * Biết bảo vệ dữ liệu, bảo vệ tài khoản, tránh lỗi vi phạm.
+
+
+* * *
+# **I. TỔNG QUAN HỆ THỐNG UNITAXI (20 phút)**
+**🎯 15 PHÚT NÀY SẼ BIẾN BẠN THÀNH "BẬC THẦY SỬ DỤNG APP" \- THAO TÁC NHANH GỌN & CHUYÊN NGHIỆP! 🚀**
+**🔥 MỤC TIÊU ĐỘT PHÁ**
+  * **Làm chủ** 6 màn hình QUAN TRỌNG NHẤT trong Driver App
+
+
+  * **Thao tác** nhuần nhuyễn - không sai sót - không mất cuốc
+
+
+  * **Tránh** 100% lỗi phổ biến gây mất tiền, giảm rating
+
+
+* * *
+## **📱 6 MÀN HÌNH "SINH TỬ" MỖI NGÀY**
+### **⏱ 0-3 PHÚT - GIỚI THIỆU TỔNG QUAN**
+"Chào các anh chị! Đây chính là 'VŨ KHÍ TỐI THƯỢNG' của chúng ta - Driver App Unitaxi!
+Hôm nay chúng ta sẽ cùng nhau CHINH PHỤC 6 màn hình QUAN TRỌNG NHẤT:
+  1. 🗺️ **Bản đồ chính** \- 'Đôi mắt' của hệ thống
+
+
+  2. ✅ **Nhận/từ chối cuốc** \- 'Trái tim' của thu nhập
+
+
+  3. 🧭 **Điều hướng** \- 'Người dẫn đường' thông thái
+
+
+  4. 🚦 **Bắt đầu cuốc** \- 'Công tắc' kiếm tiền
+
+
+  5. 🏁 **Kết thúc cuốc** \- 'Cái kết' hoàn hảo
+
+
+  6. 💰 **Thu nhập** \- 'Thành quả' xứng đáng
+
+
+Hãy cùng bắt đầu hành trình CHINH PHỤC CÔNG NGHỆ!"
+* * *
+### **⏱ 3-6 PHÚT - MÀN HÌNH 1: BẢN ĐỒ - "BỘ NÃO" HỆ THỐNG**
+**🎯 THÀNH PHẦN QUAN TRỌNG:**
+  * 📍 **Vị trí hiện tại** \- GPS phải LUÔN BẬT
+
+
+  * 🚗 **Trạng thái xe** : Rảnh/Đang đón/Đang chở
+
+
+  * 🔥 **Khu vực ưu tiên** \- Nơi 'vàng' dễ có cuốc
+
+
+  * 🔋 **Pin điện thoại** \- Phải trên 20%
+
+
+  * ⚠️ **Cảnh báo hệ thống** \- Đọc NGAY khi hiện
+
+
+**🚨 LỖI 'CHẾT NGƯỜI' CẦN TRÁNH:**
+  * ❌ **Quên bật GPS** → App định vị sai → MẤT CUỐC
+
+
+  * ❌ **Để pin yếu** → Hệ thống TỰ ĐỘNG KHÓA CUỐC
+
+
+**💡 DEMO THỰC TẾ:**_Giảng viên thao tác trực tiếp: Bật/tắt GPS → Hiển thị sai vị trí → Giải thích hậu quả_
+* * *
+### **⏱ 6-9 PHÚT - MÀN HÌNH 2: NHẬN CUỐC - "3 GIÂY VÀNG"**
+**📊 THÔNG TIN HIỂN THỊ:**
+  * 📏 Khoảng cách đến khách
+
+
+  * 🏠 Điểm đón - điểm trả
+
+
+  * ⏰ Thời gian di chuyển
+
+
+  * 💵 Giá cuốc dự kiến
+
+
+  * 🎯 Loại cuốc (Thường/Sân b ay/Ưu tiên)
+
+
+**🎯 HAI THAO TÁC QUYẾT ĐỊNH:**
+**1\. NHẬN CUỐC - "PHẢN XẠ 3 GIÂY"**  
+✅ **Bấm NGAY** trong 3 giây đầu  
+✅ **Kiểm tra nhanh** điểm đón trong 1 giây
+**2\. TỪ CHỐI - "LÝ DO CHÍNH ĐÁNG"**  
+✅ **Phải chọn lý do** để hệ thống HIỂU và TỐI ƯU
+**📝 LÝ DO HỢP LỆ:**
+  * 🚫 Đang ở khu vực khó quay đầu
+
+
+  * 🚫 Xe đang bảo trì, sửa chữa
+
+
+  * 🚫 Đang nghỉ giải lao, vệ sinh
+
+
+  * 🚫 Pin điện thoại dưới 15%
+
+
+**🚨 CẢNH BÁO QUAN TRỌNG:**_" Từ chối liên tục → Hệ thống HIỂU NHẦM bạn không hoạt động → GIẢM ƯU TIÊN nhận cuốc!"_
+* * *
+### **⏱ 9-11 PHÚT - MÀN HÌNH 3: ĐIỀU HƯỚNG - "TRỢ LÝ THÔNG MINH"**
+**🚀 SAU KHI NHẬN CUỐC:**
+  * 👉 Bấm **" Đi đến điểm đón"**
+
+
+  * 🗺️ App tự động mở Google Maps/bản đồ nội bộ
+
+
+**💡 TÍNH NĂNG THÔNG MINH:**
+  * 🤖 **AI tối ưu tuyến đường**
+
+
+  * 🚦 **Cảnh báo ùn tắc thời gian thực**
+
+
+  * ⏱️ **Tính t oán chính xác** thời gian đến
+
+
+**⚠️ LƯU Ý AN TOÀN:**_" TUYỆT ĐỐI không tự ý đi đường cấm/tắt nguy hiểm → GIẢM ĐIỂM AN TOÀN ngay lập tức!"_
+* * *
+### **⏱ 11-13 PHÚT - MÀN HÌNH 4: BẮT ĐẦU CUỐC - "CÔNG TẮC VÀNG"**
+**🎯 QUY TRÌNH CHUẨN:**
+  1. ✅ Khách lên xe → Bấm **" Bắt đầu cuốc"**
+
+
+  2. ✅ Kiểm tra điểm đến CHÍNH XÁC
+
+
+  3. ✅ Nhắc khách thắt dây an toàn
+
+
+**🚨 LỖI "MẤT TIỀN OAN":**_" QUÊN bấm Bắt đầu cuốc → Hệ thống KHÔNG tính tiền → MẤT TRẮNG chuyến đi!"_
+* * *
+### **⏱ 13-14 PHÚT - MÀN HÌNH 5: KẾT THÚC - "HOÀN HẢO ĐẾN GIÂY CUỐI"**
+**🎯 QUY TRÌNH CHUYÊN NGHIỆP:**
+  * 🅿️ Dừng xe tại vị trí AN TOÀN
+
+
+  * 📣 Nhắc khách kiểm tra đồ đạc
+
+
+  * 👉 Bấm **" Hoàn thành"**
+
+
+  * 🎯 Chọn lý do kết thúc (nếu có vấn đề)
+
+
+  * 📸 Chụp ảnh minh chứng (nếu cần)
+
+
+**⚠️ LƯU Ý QUAN TRỌNG:**_" CHỈ bấm Hoàn thành khi khách ĐÃ XUỐNG XE hoàn toàn!"_
+* * *
+### **⏱ 14-15 PHÚT - MÀN HÌNH 6: THU NHẬP - "THÀNH QUẢ XỨNG ĐÁNG"**
+**📊 DỮ LIỆU MINH BẠCH:**
+  * 💰 Thu nhập theo Ngày/Tuần/Tháng
+
+
+  * 🎁 Thưởng & chương trình khuyến mãi
+
+
+  * 📈 Lịch sử chuyến chi tiết
+
+
+  * ⚠️ Các chuyến lỗi & lý do
+
+
+**🔒 CAM KẾT TỪ UNIPOWER:**_" MINH BẠCH 100% - KHÔNG tiền mặt - KHÔNG nhầm lẫn - MỌI GIAO DỊCH ĐỀU ĐƯỢC GHI LẠI!"_
+* * *
+## **💎 KẾT THÚC ẤN TƯỢNG**
+"Các anh chị thân mến!
+3 THAO TÁC VÀNG cần khắc cốt ghi tâm:
+  1. ✅ **NHẬN CUỐC** \- Phản xạ 3 giây
+
+
+  2. ✅ **BẮT ĐẦU** \- Không được quên
+
+
+  3. ✅ **HOÀN THÀNH** \- Đúng thời điểm
+
+
+Hãy nhớ: GPS MẠNH + PIN ĐẦY = CUỐC XE LIÊN TỤC!
+Unipower TỰ HÀO đồng hành cùng bạn trên mọi nẻo đường! ❤️🚗
+Chúc các anh chị NHIỀU CUỐC XE và THU NHẬP CAO! 🌟"
+* * *
+# **II. DRIVER APP – ỨNG DỤNG TÀI XẾ (75 phút)**
+**🎯 15 PHÚT ĐÀO TẠO THÀNH CÔNG: LÀM CHỦ ỨNG DỤNG TÀI XẾ UNITAXI! 🚗💨**
+* * *
+## **📱 PHẦN 1: GIAO DIỆN & CHỨC NĂNG CHÍNH DRIVER APP**
+**🎯 MỤC TIÊU:**
+  * ✅ **Hiểu rõ** toàn bộ màn hình quan trọng
+
+
+  * ✅ **Giảm 90%** lỗi nhận cuốc - trả khách - đối soát
+
+
+  * ✅ **Tăng vọt** tỷ lệ hoàn thành cuốc & chất lượng dịch vụ
+
+
+* * *
+## **🏠 A. MÀN HÌNH CHÍNH - "TRUNG TÂM ĐIỀU KHIỂN" (5 PHÚT)**
+### **1\. 🗺️ BẢN ĐỒ THÔNG MINH**
+  * 📍 **Vị trí xe thời gian thực** \- theo GPS
+
+
+  * 🧭 **Mũi tên chỉ hướng** \- luôn biết mình đang đi đâu
+
+
+  * 🔵 **Vùng tìm cuốc** \- bán kính hoạt động hiệu quả
+
+
+### **2\. 🔄 TRẠNG THÁI XE - "CÔNG TẮC KIẾM TIỀN"**
+  * 🟢 **Online** \- sẵn sàng nhận cuốc
+
+
+  * 🔴 **Offline** \- tạm dừng hoạt động
+
+
+  * 🟡 **Đang trên cuốc** \- tập trung phục vụ khách
+
+
+### **3\. ⚡ NÚT CHUYỂN TRẠNG THÁI THÔNG MINH**
+  * 💡 **Tự động bảo vệ** : mất mạng/4G → hệ thống tự chuyển Offline
+
+
+  * 🛡️ **Tránh lỗi** : không nhận cuốc khi kết nối không ổn định
+
+
+* * *
+## **🎯 B. NHẬN CUỐC & ĐIỀU HƯỚNG - "5 PHÚT VÀNG" (5 PHÚT)**
+### **1\. 📲 MÀN HÌNH NHẬN CUỐC - "QUYẾT ĐỊNH TRONG 3 GIÂY"**
+**THÔNG TIN QUAN TRỌNG:**
+  * 📏 Khoảng cách đến khách
+
+
+  * ⏱️ Thời gian dự kiến
+
+
+  * 🎯 Loại dịch vụ
+
+
+  * 💰 Giá cước ước tính
+
+
+**THAO TÁC QUYẾT ĐỊNH:**
+  * ✅ **NHẬN** \- phản xạ trong 3 giây
+
+
+  * ❌ **TỪ CHỐI** \- phải chọn lý do hợp lệ
+
+
+ _💡 Lưu ý: Chọn lý do từ chối giúp NOC tối ưu phân cuốc cho bạn!_
+### **2\. 🧭 ĐIỀU HƯỚNG THÔNG MINH**
+  * 🗺️ **Tự động mở** Google Maps/bản đồ mặc định
+
+
+  * 📶 **Giữ 4G ổn định** \- tránh mất kết nối điều hướng
+
+
+### **3\. 👥 ĐÓN KHÁCH CHUYÊN NGHIỆP**
+  * 📍 **Bấm "Đã đến nơi"** khi tới điểm đón
+
+
+  * 🔍 **Xác nhận kỹ** : biển số, tên khách
+
+
+  * ⚠️ **TUYỆT ĐỐI** : không đón khách ngoài app
+
+
+* * *
+## **🚗 C. TRONG CHUYẾN ĐI - "3 PHÚT HOÀN HẢO" (3 PHÚT)**
+### **🎯 QUY TRÌNG CHUẨN:**
+  1. **BẮT ĐẦU CUỐC** \- khi khách đã lên xe an toàn
+
+
+  2. **THEO TUYẾN ĐƯỜNG** \- hệ thống đề xuất tối ưu
+
+
+  3. **LINH HOẠT** \- nếu khách yêu cầu đổi đường
+
+
+### **💬 CÂU NÓI VÀNG KHI ĐỔI TUYẾN:**
+_" Dạ em chuyển tuyến ngay cho anh/chị."_
+**🚨 HẬU QUẢ SAI ĐƯỜNG:**
+  * ⭐ Giảm điểm đánh giá
+
+
+  * 🎁 Mất thưởng chuyến đi
+
+
+  * 📉 Ảnh hưởng uy tín tài xế
+
+
+* * *
+## **💰 D. KẾT THÚC & THU NHẬP - "2 PHÚT MINH BẠCH" (2 PHÚT)**
+### **1\. 🏁 KẾT THÚC CHUYẾN AN TOÀN**
+  * 🛑 **XE DỪNG 100%** mới bấm "Hoàn thành"
+
+
+  * ⚠️ **CẤM** bấm khi xe còn lăn bánh
+
+
+### **2\. 📊 MÀN HÌNH THU NHẬP**
+  * 💵 Thu nhập theo ngày
+
+
+  * 🎁 Thưởng & phạt
+
+
+  * 📈 Số cuốc hoàn thành
+
+
+  * 🎯 Chỉ tiêu ngày
+
+
+### **3\. 📖 LỊCH SỬ CHUYẾN**
+  * 🔍 Kiểm tra khi có khiếu nại
+
+
+  * 📝 Báo lỗi trực tiếp nếu sai giá/sai điểm
+
+
+* * *
+## **⚠️ E. LƯU Ý QUAN TRỌNG - "UNITAXI KHÔNG CÓ PIN"**
+**ĐIỂM KHÁC BIỆT QUAN TRỌNG:**
+  * 🔋 **KHÔNG có thông tin pin** như xe điện
+
+
+  * 📶 **TRỌNG TÂM** : kết nối 4G ổn định
+
+
+  * 📍 **GPS chính xác** \- luôn bật định vị
+
+
+  * 📱 **KHÔNG tắt app nền**
+
+
+  * 🔄 **KHÔNG bật chế độ tiết kiệm pin** (gây lỗi GPS)
+
+
+* * *
+## **🎭 F. DEMO THỰC TẾ - "THẤY MỚI TIN, LÀM MỚI GIỎI"**
+**GIẢNG VIÊN THỰC HIỆN:**
+  1. 📱 Mở app Unitaxi trên màn hình lớn
+
+
+  2. 🎯 Chạy cuốc mô phỏng đầy đủ:
+     * Nhận cuốc
+     * Điều hướng
+     * Đón khách
+     * Trả khách
+
+
+  3. 👥 Học viên làm theo trên điện thoại
+
+
+* * *
+## **💎 KẾT THÚC ẤN TƯỢNG**
+"Các anh chị thân mến!
+Ứng dụng tài xế Unitaxi chính là **NGƯỜI ĐỒNG HÀNH** đáng tin cậy nhất của chúng ta.
+**HIỂU APP = TĂNG THU NHẬP = NÂNG TẦM DỊCH VỤ**
+Hãy làm chủ công nghệ, để mỗi chuyến xe không chỉ là hành trình - mà là **TRẢI NGHIỆM TUYỆT VỜI** cho mọi hành khách!
+Unipower **TỰ HÀO** đồng hành cùng bạn! ❤️🚗
+**RA ĐƯỜNG VÀ TỎA SÁNG!** 🌟"
+* * *
+## **2\. Các lỗi phổ biến & cách tránh (15 phút)**
+**Mục tiêu tối thượng:** **BẢO VỆ BẠN khỏi mọi lỗi hệ thống và khiếu nại sai!**
+* * *
+## **🚨 5 LỖI "CHẾT NGƯỜI" \- XỬ LÝ NGAY TRONG 3 GIÂY!**
+### **❌ LỖI 1: APP ĐÓNG BĂNG - MẤT CUỐC GIỮA CHỪNG**
+**➤ GIẢI PHÁP TỨC THÌ:**_Đóng app → Mở lại → Báo "Lỗi app" → Nhận cuốc mới!_
+### **❌ LỖI 2: GPS LỆCH - KHÔNG TÌM THẤY KHÁCH**
+**➤ XỬ LÝ THÔNG MINH:**_Bật lại GPS → Đợi 10 giây → Gọi khách xác nhận vị trí!_
+### **❌ LỖI 3: QUÊN BẤM BẮT ĐẦU - MẤT TIỀN OAN**
+**➤ CỨU VÃN NGAY:**_Bấm "Bắt đầu" → Báo điều phối → Ghi chú thời gian thực tế!_
+### **❌ LỖI 4: MẤT MẠNG - CUỐC BIẾN MẤT**
+**➤ KHẮC PHỤC KHẨN CẤP:**_Bật lại 4G → Chờ kết nối → Báo "Mất kết nối" để được bảo vệ!_
+### **❌ LỖI 5: NHẬN NHẦM KHÁCH - SAI CHUYẾN**
+**➤ XỬ LÝ CHUYÊN NGHIỆP:**_Xin lỗi khách → Báo hủy → Chọn lý do "Nhận nhầm khách"!_
+* * *
+## **💎 3 TÌNH HUỐNG KHẨN CẤP - XỬ LÝ TRONG 10 GIÂY!**
+### **🔥 TÌNH HUỐNG 1: APP TỰ THOÁT GIỮA CHUYẾN**
+**➤ XỬ LÝ ĐỈNH CAO:**_Mở lại app ngay → Báo "App thoát bất ngờ" → Tiếp tục chuyến đi!_
+### **🔥 TÌNH HUỐNG 2: TÍNH SAI GIÁ - KHÁCH PHÀN NÀN**
+**➤ GIẢI PHÁP VÀNG:**_Không tranh luận → Báo điều phối → Để hệ thống điều chỉnh!_
+### **🔥 TÌNH HUỐNG 3: KHÔNG BẤM KẾT THÚC ĐƯỢC**
+**➤ XỬ LÝ THÔNG MINH:**_Chụp ảnh màn hình → Gọi điều phối → Đợi hỗ trợ!_
+* * *
+## **🛡️ BÍ KÍP BẢO VỆ BẢN THÂN - KHÔNG BAO GIỜ THIỆT!**
+### **📸 LUÔN LUÔN GIỮ CHỨNG CỨ:**
+  * Chụp ảnh màn hình lỗi
+
+
+  * Ghi âm cuộc gọi quan trọng
+
+
+  * Lưu tin nhắn với khách
+
+
+### **📞 BÁO CÁO NGAY LẬP TỨC:**
+  * Đừng đợi đến cuối ngày
+
+
+  * Mọi lỗi đều có giải pháp
+
+
+  * Hệ thống luôn bảo vệ bạn
+
+
+### **🎯 NGUYÊN TẮC VÀNG:**
+_" LỖI APP + BÁO NGAY = ĐƯỢC BẢO VỆ!_
+_LỖI APP + IM LẶNG = TỰ CHỊU THIỆT! "_
+* * *
+## **💫 KẾT THÚC ĐẦY NĂNG LƯỢNG**
+"Các anh chị thân mến!
+Ứng dụng Unitaxi là công cụ ĐẮC LỰC nhất của chúng ta - nhưng đôi khi cũng cần sự hỗ trợ!
+Hãy nhớ kỹ: Mọi lỗi kỹ thuật đều CÓ GIẢI PHÁP. Quan trọng là bạn PHẢI HÀNH ĐỘNG NGAY!
+Báo lỗi kịp thời = Bảo vệ thu nhập = Giữ vững rating cao!
+Unipower LUÔN SẴN SÀNG hỗ trợ bạn 24/7. Đừng ngần ngại - hãy liên hệ ngay khi cần!
+Chúc các anh chị NHIỀU CHUYẾN THÀNH CÔNG và THU NHẬP CAO! 🚗💨"
+* * *
+## **3\. Quy trình xử lý lỗi & báo cáo (20 phút)**
+**🎯 20 PHÚT THÀNH THẠO: QUY TRÌNH XỬ LÝ LỖI & BÁO CÁO CHUYÊN NGHIỆP**
+* * *
+## **⏱ 0-5 PHÚT - 3 LÝ DO "BẮT BUỘC PHẢI BÁO CÁO"**
+### **🔍 1. MỌI SỰ CỐ ĐỀU PHẢI CÓ LOG**
+  * **KHÔNG có log → NOC KHÔNG xử lý được → TÀI XẾ chịu trách nhiệm**
+
+
+  * **CÓ log → Hệ thống có căn cứ can thiệp → Bảo vệ quyền lợi của bạn**
+
+
+### **🛡️ 2. BÁO CÁO = BẢO VỆ CHÍNH MÌNH**
+  * Log là **BẰNG CHỨNG PHÁP LÝ** khi:
+    * Khách khiếu nại
+    * Tranh chấp giá
+    * Tai nạn giao thông
+
+
+  * **KHÔNG có báo cáo = KHÔNG có chứng cứ bảo vệ**
+
+
+### **💾 3. DỮ LIỆU SẠCH = THU NHẬP CHÍNH XÁC**
+  * Dữ liệu càng sạch → Thu nhập càng chính xác
+
+
+  * Tài khoản hoạt động ổn định → Nhận thưởng đều đặn
+
+
+**🎯 NGUYÊN TẮC VÀNG:**_" KHÔNG nói miệng - CHỈ ghi nhận trên hệ thống!"_
+* * *
+## **⏱ 5-10 PHÚT - 5 LOẠI BÁO CÁO "BẮT BUỘC PHẢI GỬI NGAY"**
+### **1\. 🚨 LỖI KỸ THUẬT**
+  * **App đứng, treo, tự thoát**
+
+
+  * **GPS lệch, map không chính xác**
+
+
+  * **Không nhận được cuốc**
+
+
+**➤ GIẢI PHÁP:**_Thoát app → Mở lại → Nếu còn lỗi → GỬI REPORT NGAY!_
+### **2\. 😠 KHÁCH PHÀN NÀN**
+  * Khách nói "đi sai đường"
+
+
+  * Khách phàn nàn "không đón đúng điểm"
+
+
+  * Khách tố "tài xế thô lỗ"
+
+
+  * Khách yêu cầu điều tra giá
+
+
+**➤ CÁCH GHI CHUẨN:**_" Khách nói tôi đón sai điểm, đề nghị kiểm tra."_
+### **3\. 📊 LỊCH SỬ CUỐC BẤT THƯỜNG**
+  * Cuốc quá ngắn/ quá dài
+
+
+  * Cuốc bị trừ phí lạ
+
+
+  * Cuốc không tính tiền
+
+
+  * Cuốc ghi sai km
+
+
+  * Hệ thống báo "cuốc treo"
+
+
+**➤ CÁCH GHI CHUẨN:**_" Cuốc ID 79201 - km không khớp với thực tế."_
+### **4\. 🚗 SỰ CỐ GIAO THÔNG**
+  * Va chạm nhẹ
+
+
+  * Khách té khi xuống xe
+
+
+  * Phanh gấp do xe khác cắt ngang
+
+
+  * Đường bị phong tỏa
+
+
+**➤ CÁCH GHI CHUẨN:**_" Va chạm nhẹ - xe không thiệt hại - khách an toàn."_
+### **5\. 🎒 ĐỒ THẤT LẠC (BÁO TRONG 5 PHÚT)**
+**QUY TRÌNH KHẨN CẤP:**
+  1. 📱 Mở Report → chọn "Đồ thất lạc"
+
+
+  2. ✍️ Ghi mô tả: "Túi xách đen - ghế sau"
+
+
+  3. 📸 Chụp 2 tấm ảnh làm bằng chứng
+
+
+  4. 🏢 Mang về văn phòng theo hướng dẫn NOC
+
+
+* * *
+## **⏱ 10-15 PHÚT - QUY TRÌNH 5 BƯỚC "XỬ LÝ MỌI LỖI"**
+### **BƯỚC 1 🛑 - GIỮ AN TOÀN LÀ TRÊN HẾT**
+  * Đang lái gặp lỗi → TÌM CHỖ AN TOÀN → DỪNG XE
+
+
+  * **KHÔNG** thao tác app khi xe đang chạy
+
+
+### **BƯỚC 2 📸 - CHỤP BẰNG CHỨNG ĐẦY ĐỦ**
+  * 📱 Screenshot app lỗi
+
+
+  * 🗺️ Ảnh màn hình map
+
+
+  * 🎥 Clip ngắn nếu cần
+
+
+### **BƯỚC 3 📝 - GỬI REPORT TRONG DRIVER APP**
+  * Chọn ĐÚNG mục trong 5 nhóm trên
+
+
+  * Mô tả NGẮN GỌN - ĐÚNG TRỌNG TÂM
+
+
+### **BƯỚC 4 📞 - GỌI ĐIỀU PHỐI (NẾU NGHIÊM TRỌNG)**
+**Áp dụng cho:**
+  * 🚨 Khách nguy hiểm
+
+
+  * 🚗 Sự cố giao thông
+
+
+  * ⚠️ Lỗi liên quan an toàn
+
+
+### **BƯỚC 5 ⏳ - CHỜ HƯỚNG DẪN - KHÔNG TỰ Ử**
+  * Điều phối kiểm tra log → Hướng dẫn bước tiếp theo
+
+
+  * **TUYỆT ĐỐI** không tự ý xử lý
+
+
+* * *
+## **⏱ 15-20 PHÚT - TIÊU CHUẨN "DUYỆT REPORT" CỦA NOC**
+### **1\. 🎯 ĐÚNG TIÊU ĐỀ - ĐỪNG ĐỂ CHUNG CHUNG**
+  * ❌ **SAI:** "App lỗi"
+
+
+  * ✅ **ĐÚNG:** "Không nhận cuốc - GPS lệch"
+
+
+### **2\. 📸 ĐỦ BẰNG CHỨNG - KHÔNG CÓ LÀ KHÔNG DUYỆT**
+  * Ảnh chụp màn hình → BẮT BUỘC với lỗi kỹ thuật
+
+
+  * Video ngắn → Khi cần mô tả lỗi phức tạp
+
+
+### **3\. ⏰ ĐÚNG THỜI ĐIỂM - BÁO NGAY TRONG 5 PHÚT**
+  * NOC so log theo timestamp
+
+
+  * Báo cáo càng sớm → Xử lý càng nhanh
+
+
+### **4\. 🧾 KHÔNG BÌNH LUẬN - CHỈ MÔ TẢ SỰ THẬT**
+  * ❌ **SAI:** "Khách này khó tính quá"
+
+
+  * ✅ **ĐÚNG:** "Khách phàn nàn về tuyến đường"
+
+
+### **5\. 🔄 ĐÚNG QUY TRÌNH - KHÔNG NHẢY BƯỚC**
+  * Report → Chờ phản hồi trong app
+
+
+  * Không gọi trước khi gửi report
+
+
+* * *
+## **💎 KẾT THÚC ẤN TƯỢNG**
+**" Các anh chị thân mến!**
+Hãy khắc cốt ghi tâm:
+**' KHÔNG CÓ REPORT = KHÔNG CÓ DỮ LIỆU = KHÔNG BẢO VỆ ĐƯỢC TÀI XẾ'**
+Mỗi báo cáo của bạn không chỉ giải quyết vấn đề trước mắt - mà còn là TẤM KHIÊN BẢO VỆ cho chính thu nhập và sự nghiệp của bạn!
+Unipower LUÔN Ở ĐÂY để hỗ trợ 24/7. Đừng ngần ngại - HÃY BÁO CÁO NGAY!
+Chúc các anh chị NHIỀU CHUYẾN XE THÀNH CÔNG và THU NHẬP CAO! 🚗💨"**
+* * *
+##  **4\. Bộ 5 Kỹ năng sử dụng app theo chuẩn quốc tế (25 phút)**
+## **I. "CÔNG THỨC BẤM CHUẨN" \- CLEAR TAP PROTOCOL (6 PHÚT)**
+### **🔥 3 NGUYÊN TẮC VÀNG TỪ UBER**
+  * 👉 **Bấm DỨT KHOÁT - một lần** → tránh lỗi hệ thống
+
+
+  * 🔄 **Bấm ĐÚNG TRÌNH TỰ** : Nhận cuốc → Đến điểm đón → Bắt đầu → Kết thúc
+
+
+  * 🚫 **KHÔNG bấm khi xe lắc** → 32% lỗi GPS do xe rung
+
+
+### **🚨 LỖI "MẤT TIỀN" CỦA TÀI XẾ VIỆT**
+  * 💸 **Quên BẮT ĐẦU** → khách khiếu nại tiền
+
+
+  * ⏰ **Quên KẾT THÚC** → cuốc treo → sai doanh thu
+
+
+  * 📍 **Bấm khi xóc** → GPS sai → khách phàn nàn
+
+
+### **💪 LUYỆN TẬP CẤP TỐC 1 PHÚT**
+ _Giảng viên demo 4 nút CHÍNH → Học viên bấm theo tốc độ CHUẨN!_
+* * *
+## **II. "CHẾ ĐỘ TẬP TRUNG" \- FOCUS MODE (5 PHÚT)**
+### **🎯 CHUẨN VÀNG TỪ LYFT**
+  * 📵 **KHÔNG** đọc tin nhắn khi lái
+
+
+  * 📞 **KHÔNG** nghe gọi riêng (trừ điều phối)
+
+
+  * 🚗 **KHÔNG** vừa lái vừa thao tác app
+
+
+### **⚠️ SỰ THẬT GÂY SỐC**
+  * 💥 **Tai nạn TĂNG 4 LẦN** khi rời mắt 2-3 giây
+
+
+  * 😠 **60%** khiếu nại do thao tác thiếu tập trung
+
+
+### **🎮 MẸO ÁP DỤNG NGAY**
+  * 🅿️ **Dừng xe an toàn** → mới bấm
+
+
+  * 🔕 **Tắt thông báo** không cần thiết
+
+
+  * 📱 **Cố định điện thoại** → không cầm tay
+
+
+* * *
+## **III. "ĐIỀU HƯỚNG THÔNG MINH" \- SAFE NAVIGATION (5 PHÚT)**
+### **🧭 NGUYÊN TẮC BẤT BIẾN TỪ BOLT**
+  * 🛑 **KHÔNG** đổi hướng đột ngột theo GPS
+
+
+  * 🛡️ **Ưu tiên AN TOÀN** hơn tốc độ
+
+
+  * ⏱️ **Giữ khoảng cách** 2-3 giây khi điều hướng
+
+
+  * 🚫 **KHÔNG** phanh gấp vì "map kêu quẹo"
+
+
+### **🎭 TÌNH HUỐNG THỰC TẾ**
+ _" GPS báo quẹo phải 10m - nhưng bạn đang ở làn trái"_
+### **🚀 XỬ LÝ ĐỈNH CAO**
+  * 🛣️ **Đi thẳng** → tìm chỗ quay đầu an toàn
+
+
+  * 💬 **Giải thích 1 câu** :  
+_" Để an toàn, em đi tuyến này ạ!"_
+
+
+* * *
+## **IV. "QUAN SÁT TINH NHẠY" \- CUSTOMER VISIBILITY (4 PHÚT)**
+### **👁️ "CỬA SỔ QUAN SÁT" THEO GRAB**
+  * ⏰ **15-40 giây** \- thời gian vàng để đánh giá tình huống
+
+
+  * 🗺️ **Kiểm tra** khách có di chuyển không
+
+
+  * 📞 **Gọi ngay** nếu khách đổi điểm đón xa
+
+
+  * 🏢 **Xác nhận** đúng block, đúng tòa nhà
+
+
+### **📊 CON SỐ BIẾT NÓI**
+  * ❌ **40%** hủy cuốc Đông Nam Á do sai vị trí
+
+
+  * 👍 **Giảm ngay** hiểu lầm "tài xế không tới"
+
+
+### **🎯 THỰC HÀNH NHANH**
+ _Giảng viên mô phỏng 3 vị trí khách → Học viên xác định điểm đón CHÍNH XÁC!_
+* * *
+## **V. "50M CUỐI HOÀN HẢO" \- LAST-METER ACCURACY (5 PHÚT)**
+### **🎖️ CHUẨN SINGAPORE TAXI**
+**50m cuối = KHU VỰC RỦI RO CAO**
+### **✅ HÀNH VI BẮT BUỘC**
+  * 🐢 **Giảm tốc độ**
+
+
+  * 🎯 **Tới đúng** block - hẻm - cửa
+
+
+  * 👀 **Quan sát** người đi bộ - xe máy - trẻ em
+
+
+### **❌ HÀNH VI CẤM TUYỆT ĐỐI**
+  * 🚫 **Phanh gấp** khi tới điểm đón
+
+
+  * 🚫 **Tạt đầu** vào lề đột ngột
+
+
+  * 🚫 **Dừng giữa đường** vì "GPS báo tới"
+
+
+### **💬 CÂU NÓI VÀNG TIẾP C ẬN**
+ _" Anh/chị đứng đúng block giúp em nhé, em tới ngay ạ!"_
+* * *
+## **📊 BẢNG TỔNG KẾT 5 KỸ NĂNG "VÀNG"**
+|                         |
+| KỸ NĂNG                 | LỢI ÍCH "SIÊU TO KHỔNG LỒ"                                                    |
+|-------------------------|-------------------------------------------------------------------------------|
+| **Clear Tap Protocol**  |  ✅ Không lỗi cuốc
+✅ Không tranh chấp
+✅ Tăng SAO đánh giá                |
+| **Focus Mode**          |  ✅ An toàn tuyệt đối
+✅ Giảm căng thẳng
+✅ Tránh phạt nội bộ              |
+| **Safe Navigation**     |  ✅ Không phanh gấp
+✅ Không tranh cãi
+✅ Hài lòng khách hàng              |
+| **Customer Visibility** |  ✅ Giảm 40% hủy cuốc
+✅ Tăng tỷ lệ đón đúng
+✅ Tiết kiệm thời gian        |
+| **Last-Meter Accuracy** |  ✅ Khách hài lòng tức thì
+✅ An t oàn 50m cuối
+✅ Đón/trả khách chuẩn xác |
+
+
+* * *
+## **💫 LỜI CHÚC TRÀN ĐẦY NĂNG LƯỢNG**
+**" Các anh chị thân mến!**
+5 kỹ năng sử dụng app đẳng cấp quốc tế này chính là **VŨ KHÍ TỐI THƯỢNG** giúp bạn:
+🚀 **KIẾM TIỀN NHANH HƠN**
+⭐ **ĐƯỢC ĐÁNH GIÁ CAO HƠN**
+😊 **LÀM VIỆC NHẸ NHÀNG HƠN**
+Hãy biến mỗi thao tác app thành **HÀNH ĐỘNG CHUYÊN NGHIỆP** \- mỗi chuyến xe thành **TRẢI NGHIỆM TUYỆT VỜI**!
+Wooberly **TỰ HÀO** đồng hành cùng bạn trên mọi nẻo đường! ❤️
+**CHINH PHỤC CÔNG NGHỆ - TỎA SÁNG ĐẲNG CẤP!** 🌟"
+* * *
+# **III. DISPATCH CONSOLE – BẢNG ĐIỀU PHỐI (30 phút)**
+**🎯 20 PHÚT THÀNH THẠO: HỆ THỐNG GIÁM SÁT XE ĐIỆN THÔNG MINH 🚗⚡**
+* * *
+## **📊 PHẦN 1: 7 THÔNG SỐ "SINH TỬ" TÀI XẾ PHẢI THUỘC LÒNG (10 PHÚT)**
+### **1\. 🔋 SOC - MỨC NĂNG LƯỢNG PIN (%)**
+  * 🟢 **AN TOÀN** : > 20%
+
+
+  * 🎯 **TỐI ƯU** : > 40% (nhận cuốc hiệu quả)
+
+
+  * 🚨 **NGUY HIỂM** : < 10% (tuyệt đối tránh)
+
+
+### **2\. 🌡️ NHIỆT ĐỘ PIN - "SỨC KHỎE" CỦA XE**
+  * ✅ **CHUẨN** : 15–40°C
+
+
+  * ⚠️ **CẢNH BÁO** : > 50°C → nguy cơ mất ổn định
+
+
+  * 💡 **LƯU Ý** : Dù app không hiển thị, NOC vẫn giám sát 24/7 từ backend
+
+
+### **3\. ⚠️ CẢNH BÁO CELL PIN - "BÁO ĐỘNG ĐỎ"**
+  * 🔴 **Cell Imbalance** \- mất cân bằng tế bào pin
+
+
+  * 🔴 **Voltage Low** \- điện áp thấp
+
+
+  * 🔴 **Battery Error** \- lỗi pin nghiêm trọng
+
+
+  * 🚨 **XỬ LÝ** : DỪNG XE NGAY LẬP TỨC
+
+
+### **4\. 🚀 TỐC ĐỘ VẬN HÀNH AN TOÀN**
+  * 📏 **Tuân thủ** ngưỡng tốc độ theo tuyến
+
+
+  * 🚫 **Tránh** tăng tốc/phanh gấp liên tục
+
+
+  * 💡 **Nguyên nhân** : Gây nóng động cơ & pin
+
+
+### **5\. 🔌 TRẠNG THÁI SẠC - "BÍ QUYẾT SẠC THÔNG MINH"**
+  * ⚡ **Công suất sạc** \- theo dõi hiệu suất
+
+
+  * ⏱️ **Thời gian sạc** \- tối ưu thời gian chờ
+
+
+  * 📈 **% tăng mỗi phút** \- đánh giá chất lượng trạm sạc
+
+
+**🔧 LỖI THƯỜNG GẶP:**
+  * ❌ Cắm chưa sát
+
+
+  * ❌ Đầu cắm bẩn
+
+
+  * ❌ Cổng sạc lỏng
+
+
+### **6\. 📋 LỊCH SỬ LỖI - "HỒ SƠ SỨC KHỎE" XE**
+  * 🔧 **Motor warning** \- cảnh báo động cơ
+
+
+  * 🛑 **ABS warning** \- cảnh báo hệ thống phanh
+
+
+  * ⚡ **EV system warning** \- cảnh báo hệ thống điện
+
+
+  * 🔥 **Overheat warning** \- cảnh báo quá nhiệt
+
+
+**🎨 QUY TẮC MÀU CẢNH BÁO:**
+  * 🟢 **XANH** : Bình thường - tiếp tục hoạt động
+
+
+  * 🟡 **VÀNG** : Bất thường - chạy chậm lại + báo cáo
+
+
+  * 🔴 **ĐỎ** : NGUY HIỂM - DỪNG XE NGAY
+
+
+### **7\. 📍 ĐỊNH VỊ THỜI GIAN THỰC - "CON MẮT" HỆ THỐNG**
+  * 🎯 **GPS chính xác** → nhận cuốc dễ dàng
+
+
+  * 📶 **Mất tín hiệu** → điều phối can thiệp ngay
+
+
+  * ⏰ **Dừng lâu không lý do** → hệ thống tự động cảnh báo
+
+
+* * *
+## **🚨 PHẦN 2: 4 LỖI "DỪNG XE NGAY - KHÔNG BÀN CÃI" (5 PHÚT)**
+### **1\. 🔴 CẢNH BÁO PIN ĐỎ / BATTERY ERROR**
+  * 💥 **Nguy cơ** : Cháy nổ - thermal runaway
+
+
+  * 🚫 **Xử lý** : TUYỆT ĐỐI không tiếp tục chạy
+
+
+### **2\. 🌡️ NHIỆT ĐỘ PIN > 50°C**
+  * 🔥 **Nguyên nhân** :
+    * Đường nóng
+    * Chạy tốc độ cao liên tục
+    * Sạc xong chưa nguội đã chạy
+
+
+  * 🛑 **Xử lý** : Dừng xe → Mở cửa → Báo NOC ngay
+
+
+### **3\. 🔊 ÂM THANH BẤT THƯỜNG**
+  * 🎵 **Tiếng lạch cạch** \- có thể do linh kiện lỏng
+
+
+  * 📳 **Rung mạnh bất thường** \- liên quan motor/trục dẫn động
+
+
+  * 🔧 **Xử lý** : Dừng kiểm tra → Báo kỹ thuật
+
+
+### **4\. 🟡 ĐÈN VÀNG "EV WARNING"**
+  * ⚠️ **Mức độ** : Lỗi nhẹ động cơ/controller
+
+
+  * 📍 **Quy tắc** :
+    * Lần 1: Chạy chậm + báo cáo
+    * Lần 2: KIỂM TRA NGAY
+
+
+**🎯 NGUYÊN TẮC VÀNG:**_" THẤY ĐÈN ĐỎ - DỪNG! THẤY ĐÈN VÀNG - CHẠY CHẬM + BÁO!"_
+* * *
+## **📞 PHẦN 3: QUY TRÌNH 5 BƯỚC "BÁO LỖI CHUYÊN NGHIỆP" (5 PHÚT)**
+### **BƯỚC 1 🛑 - DỪNG XE AN TOÀN TUYỆT ĐỐI**
+  * 🅿️ **Chọn vị trí** : Có lề rộng, không giữa làn
+
+
+  * ⚠️ **Bật đèn** : Đèn cảnh báo nguy hiểm
+
+
+### **BƯỚC 2 📱 - GỬI REPORT TRÊN APP**
+  * 🎯 **Chọn đúng mục** :
+    * ✅ "Lỗi kỹ thuật"
+    * ✅ "Cảnh báo động cơ"
+    * ✅ "Cảnh báo pin"
+    * ✅ "Âm thanh bất thường"
+
+
+### **BƯỚC 3 📞 - GỌI ĐIỀU PHỐI KHẨN CẤP**
+  * 💬 **Chuẩn 1 câu** :  
+_" Xe cảnh báo màu [đỏ/vàng], vị trí [địa điểm], em chờ hướng dẫn."_
+
+
+### **BƯỚC 4 ⏳ - CHỜ HƯỚNG DẪN CHUYÊN GIA**
+  * 🔍 **Điều phối sẽ** :
+    * Kiểm tra backend
+    * Phân tích lịch sử xe
+    * Điều xe cứu hộ/đổi xe
+
+
+### **BƯỚC 5 🚫 - TUYỆT ĐỐI KHÔNG TỰ Ý**
+  * ❌ **Không** mở khoang pin
+
+
+  * ❌ **Không** đóng/ngắt cầu chì
+
+
+  * ❌ **Không** reset xe tự ý
+
+
+* * *
+## **💎 THÔNG ĐIỆP "CHẠM TIM" CUỐI BÀI**
+**" Các anh chị thân mến!**
+Hãy nhớ kỹ: **Tài xế thông thái KHÔNG cần là kỹ thuật viên - mà là người NHẬN BIẾT ĐÚNG & BÁO CÁO NHANH!**
+Mỗi lần bạn tuân thủ quy trình này, bạn không chỉ bảo vệ chính mình - mà còn đang bảo vệ TÀI SẢN và UY TÍN của UniTaxi!
+**Điều phối + NOC = LUÔN SẴN SÀNG hỗ trợ bạn 24/7!**
+Hãy lái xe thật an toàn và trở thành những TÀI XẾ ĐIỆN THÔNG THÁI - TIÊN PHONG CÔNG NGHỆ! ⚡🚗
+UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
+_(Phần này giúp tài xế hiểu điều phối đang làm gì để phối hợp tốt hơn.)_
+* * *
+# **IV. HỆ THỐNG GIÁM SÁT XE ĐIỆN (20 phút)**
+**🎯 20 PHÚT LÀM CHỦ: HỆ THỐNG GIÁM SÁT XE ĐIỆN THÔNG MINH** ⚡
+* * *
+## **📊 PHẦN 1: 7 CHỈ SỐ "SỐNG CÒN" TÀI XẾ CẦN THUỘC LÒNG** (10 phút)
+### **1\. 🔋 MỨC PIN (SOC) - "NHIÊN LIỆU ĐIỆN"**
+  * 🟢 **AN TOÀN** : Trên 20%
+
+
+  * 🎯 **LÝ TƯỞNG** : Trên 40% (nhận cuốc tối ưu)
+
+
+  * 🚨 **NGUY HIỂM** : Dưới 10% (tuyệt đối tránh)
+
+
+### **2\. 🌡️ NHIỆT ĐỘ PIN - "SỨC KHỎE ẨN"**
+  * ✅ **BÌNH THƯỜNG** : 15–40°C
+
+
+  * ⚠️ **CẢNH BÁO** : Trên 50°C → rủi ro cao  
+ _💡 Dù app không hiển thị, NOC vẫn giám sát 24/7_
+
+
+### **3\. ⚠️ CẢNH BÁO PIN - "BÁO ĐỘNG ĐỎ"**
+  * 🔴 **Mất cân bằng cell**
+
+
+  * 🔴 **Điện áp thấp**
+
+
+  * 🔴 **Lỗi pin nghiêm trọng**  
+→ **XỬ LÝ** : DỪNG XE NGAY
+
+
+### **4\. 🚀 TỐC ĐỘ VẬN HÀNH**
+  * 📏 **Tuân thủ** giới hạn tốc độ
+
+
+  * 🚫 **Tránh** tăng tốc/phanh gấp liên tục
+
+
+  * 💡 **Lý do** : Gây nóng động cơ và pin
+
+
+### **5\. 🔌 TRẠNG THÁI SẠC**
+  * ⚡ **Công suất sạc**
+
+
+  * ⏱️ **Thời gian sạc**
+
+
+  * 📈 **% pin tăng theo phút**
+
+
+**🔧 LỖI THƯỜNG GẶP:**
+  * ❌ Cắm sạc không khớp
+
+
+  * ❌ Đầu cắm bẩn
+
+
+  * ❌ Cổng sạc lỏng lẻo
+
+
+### **6\. 📋 LỊCH SỬ LỖI**
+  * 🔧 **Cảnh báo động cơ**
+
+
+  * 🛑 **Cảnh báo phanh ABS**
+
+
+  * ⚡ **Cảnh báo hệ thống điện**
+
+
+  * 🔥 **Cảnh báo quá nhiệt**
+
+
+**🎨 QUY TẮC MÀU SẮC:**
+  * 🟢 **XANH** : Bình thường
+
+
+  * 🟡 **VÀNG** : Bất thường - giảm tốc + báo cáo
+
+
+  * 🔴 **ĐỎ** : Nguy hiểm - DỪNG XE NGAY
+
+
+### **7\. 📍 ĐỊNH VỊ THỜI GIAN THỰC**
+  * 🎯 **GPS chính xác** → nhận cuốc dễ dàng
+
+
+  * 📶 **Mất tín hiệu** → điều phối can thiệp
+
+
+  * ⏰ **Dừng lâu** → hệ thống tự cảnh báo
+
+
+* * *
+## **🚨 PHẦN 2: 4 TÌNH HUỐNG "DỪNG XE TỨC THÌ"** (5 phút)
+### **1\. 🔴 CẢNH BÁO PIN ĐỎ**
+  * 💥 **Nguy cơ** : Cháy nổ
+
+
+  * 🚫 **Xử lý** : DỪNG LẠI NGAY
+
+
+### **2\. 🌡️ NHIỆT ĐỘ PIN TRÊN 50°C**
+  * 🔥 **Nguyên nhân** :
+    * Đường nóng
+    * Chạy tốc độ cao kéo dài
+    * Sạc xong chưa nguội
+
+
+  * 🛑 **Xử lý** : Dừng xe → Mở cửa → Báo NOC
+
+
+### **3\. 🔊 ÂM THANH LẠ**
+  * 🎵 **Lạch cạch** \- linh kiện lỏng
+
+
+  * 📳 **Rung mạnh** \- vấn đề động cơ
+
+
+  * 🔧 **Xử lý** : Dừng kiểm tra → Báo kỹ thuật
+
+
+### **4\. 🟡 ĐÈN VÀNG "CẢNH BÁO"**
+  * ⚠️ **Mức độ** : Lỗi nhẹ
+
+
+  * 📍 **Quy tắc** :
+    * Lần 1: Giảm tốc + báo cáo
+    * Lần 2: KIỂM TRA NGAY
+
+
+**🎯 NGUYÊN TẮC VÀNG:**_" ĐÈN ĐỎ - DỪNG! ĐÈN VÀNG - CHẬM LẠI + BÁO CÁO!"_
+* * *
+## **📞 PHẦN 3: QUY TRÌNH 5 BƯỚC "XỬ LÝ SỰ CỐ"** (5 phút)
+### **BƯỚC 1 🛑 - DỪNG XE AN TOÀN**
+  * 🅿️ **Vị trí** : Lề rộng, không giữa làn
+
+
+  * ⚠️ **Cảnh báo** : Bật đèn khẩn cấp
+
+
+### **BƯỚC 2 📱 - GỬI BÁO CÁO TRÊN APP**
+  * 🎯 **Chọn mục** :
+    * ✅ "Lỗi kỹ thuật"
+    * ✅ "Cảnh báo động cơ"
+    * ✅ "Cảnh báo pin"
+    * ✅ "Âm thanh bất thường"
+
+
+### **BƯỚC 3 📞 - GỌI ĐIỀU PHỐI**
+  * 💬 **Câu chuẩn** :  
+_" Xe cảnh báo màu [màu], vị trí [nơi], em chờ hướng dẫn."_
+
+
+### **BƯỚC 4 ⏳ - CHỜ CHỈ DẪN**
+  * 🔍 **Điều phối sẽ** :
+    * Kiểm tra hệ thống
+    * Phân tích lịch sử
+    * Điều phương tiện hỗ trợ
+
+
+### **BƯỚC 5 🚫 - KHÔNG TỰ Ý SỬA CHỮA**
+  * ❌ **Không** mở khoang pin
+
+
+  * ❌ **Không** động cầu dao
+
+
+  * ❌ **Không** reset hệ thống
+
+
+* * *
+## **💎 THÔNG ĐIỆP QUAN TRỌNG**
+**" Các tài xế thân mến!**
+Hãy nhớ: **Bạn không cần là thợ kỹ thuật - chỉ cần NHẬN BIẾT ĐÚNG và BÁO CÁO NHANH!**
+Mỗi lần bạn tuân thủ quy trình này, bạn đang bảo vệ chính mình và hành khách, đồng thời góp phần vào sự PHÁT TRIỂN BỀN VỮNG của UniTaxi!
+**Đội ngũ kỹ thuật và điều phối LUÔN SẴN SÀNG hỗ trợ bạn 24/7.**
+Hãy trở thành những TÀI XẾ ĐIỆN THÔNG THÁI - TIÊN PHONG TRONG KỶ NGUYÊN MỚI! ⚡🚗
+UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
+* * *
+# **V. HỆ THỐNG GIÁM SÁT TRẠM SẠC (20 phút)**
+**🎯 20 PHÚT THÀNH THẠO: HỆ THỐNG GIÁM SÁT TRẠM SẠC THÔNG MINH** ⚡
+* * *
+## **🏗️ PHẦN 1: HIỂU RÕ "CẤU TRÚC TRẠM SẠC THÔNG MINH"** (5 phút)
+### **🔧 THÀNH PHẦN THEN CHỐT CỦA TRẠM SẠC**
+  * **Trụ sạc** \- "Trái tim" hệ thống
+
+
+  * **Đầu kết nối** \- "Bàn tay" truyền điện
+
+
+  * **Màn hình hiển thị** \- "Giao diện" trực quan
+
+
+  * **Dây cáp** \- "Huyết mạch" dẫn điện
+
+
+  * **CB & RCD** \- "Vệ sĩ" chống giật
+
+
+  * **Camera & cảm biến** \- "Đôi mắt" an ninh
+
+
+### **📊 TRẠNG THÁI TRẠM TRÊN HỆ THỐNG**
+  * 🟢 **Available** : Trống - sẵn sàng phục vụ
+
+
+  * 🟡 **Occupied** : Đang sạc - vui lòng chờ
+
+
+  * 🔴 **Fault** : Lỗi kỹ thuật - không sử dụng
+
+
+  * ⚫ **Offline** : Mất kết nối - báo điều phối ngay
+
+
+### **🎯 KIỂM TRA TRẠM TRỐNG THÔNG MINH**
+  * 📱 **Kiểm tra app** \- thông tin thời gian thực
+
+
+  * 📞 **Gọi điều phối** \- khi khu vực đông xe
+
+
+  * 🚫 **Không chắn lối** \- khi chưa được hướng dẫn
+
+
+* * *
+## **⚡ PHẦN 2: QUY TRÌNH "SẠC THÔNG MINH - AN TOÀN TUYỆT ĐỐI"** (5 phút)
+### **🛡️ AN TOÀN TRƯỚC KHI SẠC**
+  * 🔌 **Tắt máy** \- kéo phanh tay
+
+
+  * 👀 **Kiểm tra** đầu cắm sạch sẽ, khô ráo
+
+
+  * 💧 **Tuyệt đối không** cắm khi đầu cắm ướt
+
+
+  * 🚷 **Di chuyển khách** ra xa khu vực sạc
+
+
+### **📏 KHOẢNG CÁCH AN TOÀN VÀNG**
+  * 📐 **Giữ khoảng cách** 0.5-1 mét từ đầu sạc
+
+
+  * 🙅 **Không cúi mặt** sát đầu sạc
+
+
+  * 👶 **Cảnh báo trẻ em** \- không đến gần
+
+
+### **🔌 QUY TRÌNH CẮM SẠC CHUẨN**
+  1. **Kiểm tra màn hình** → Trạng thái Available
+
+
+  2. **Cắm thẳng góc** → Nghe "click" khớp
+
+
+  3. **Xác nhận kết nối** → Trên màn hình/app
+
+
+  4. **Di chuyển an toàn** → Đứng cách xa đầu sạc
+
+
+### **🔋 QUY TRÌNH RÚT SẠC AN TOÀN**
+  1. **Kết thúc phiên** → Trên app/trạm
+
+
+  2. **Chờ xác nhận** → Màn hình báo Stop
+
+
+  3. **Rút thẳng tay** → Không xoay vặn
+
+
+  4. **Sắp xếp gọn** → Treo dây đúng vị trí
+
+
+### **🎖️ 4 NGUYÊN TẮC VÀNG KHÔNG BAO GIỜ VI PHẠM**
+  * ❌ **KHÔNG** giật mạnh dây cáp
+
+
+  * ❌ **KHÔNG** xoắn vặn đầu cắm
+
+
+  * ❌ **KHÔNG** để đầu cắm rơi xuống đất
+
+
+  * ❌ **KHÔNG** khởi động xe khi đang sạc
+
+
+* * *
+## **🚨 PHẦN 3: XỬ LÝ SỰ CỐ "NHANH - CHUẨN - AN TOÀN"** (5 phút)
+### **🔧 5 LỖI THƯỜNG GẶP**
+  1. **Đầu cắm không nhận** \- không kết nối
+
+
+  2. **Trạm mất điện** \- không hoạt động
+
+
+  3. **Màn hình Fault** \- báo lỗi hệ thống
+
+
+  4. **Xe không sạc** \- sau 10 giây chờ
+
+
+  5. **Kẹt đầu cắm** \- không rút được
+
+
+### **🛠️ QUY TRÌNH XỬ LÝ CHUẨN NOC**
+  * 🚫 **KHÔNG cố gắng** rút bằng force
+
+
+  * 🚫 **KHÔNG đập** vào trụ sạc
+
+
+  * 🚫 **KHÔNG chuyển trụ** khi chưa báo cáo
+
+
+  * 📸 **Chụp ảnh lỗi** → Gửi báo cáo
+
+
+  * 📞 **Gọi ngay** điều phối & kỹ thuật
+
+
+* * *
+## **📋 PHẦN 4: QUY ĐỊNH VẬN HÀNH "THÉP"** (5 phút)
+### **🚫 TUYỆT ĐỐI KHÔNG ĐỂ KHÁCH TỰ SẠC**
+  * ⚡ **Nguy cơ giật điện** \- rủi ro cao
+
+
+  * 📝 **Vi phạm quy trình** \- mất chuẩn
+
+
+  * ⚖️ **Trách nhiệm pháp lý** \- hệ lụy lớn
+
+
+### **🌧️ KHU VỰC CẤM SẠC**
+  * 💦 **Khu vực ngập nước**
+
+
+  * 🌧️ **Nơi mưa tạt trực tiếp**
+
+
+  * 🔌 **Dây điện hở** \- lộ lõi đồng
+
+
+### **⚠️ 3 HÀNH VI NGUY HIỂM CẦN TRÁNH**
+  * 🙅 **Sờ đầu cáp** bằng tay ướt
+
+
+  * 🚷 **Đứng đối diện** đầu cắm khi khởi động sạc
+
+
+  * 🔥 **Chạm dây điện** khi đang sạc
+
+
+### **🏁 CHUẨN "SẠC XONG - GIẢI PHÓNG"**
+  * ⏱️ **Không chiếm dụng** trạm sau khi sạc xong
+
+
+  * 🚗 **Không đỗ lấn** slot
+
+
+  * 🤝 **Tạo điều kiện** cho tài xế khác
+
+
+* * *
+## **💎 THÔNG ĐIỆP "AN TOÀN TRÊN HẾT"**
+**" Các tài xế thân mến!**
+Trạm sạc là **KHU VỰC AN TOÀN ĐẶC BIỆT** \- mọi thao tác đều phải TUÂN THỦ THEO QUY TRÌNH!
+Hãy nhớ:
+  * **Lỗi kỹ thuật** → BÁO NGAY cho NOC
+
+
+  * **Tuyệt đối không** tự ý xử lý
+
+
+  * **Sạc đúng - Rút đúng - Đứng đúng** = AN TOÀN TUYỆT ĐỐI
+
+
+Mỗi lần bạn thao tác chuẩn, bạn không chỉ bảo vệ chính mình mà còn đang **BẢO VỆ CỘNG ĐỒNG TÀI XẾ UNICABI!**
+**Đội ngũ kỹ thuật 24/7 LUÔN SẴN SÀNG hỗ trợ bạn!**
+Hãy trở thành những **TÀI XẾ THÔNG THÁI - CHUYÊN NGHIỆP - VĂN MINH!** 🚗⚡
+UniTaxi **TỰ HÀO** đồng hành cùng bạn! ❤️"
+* * *
+# **VI. THỰC HÀNH – ROLE-PLAY 7 TÌNH HUỐNG (20 phút)**
+**🎯 20 PHÚT THÀNH THẠO: XỬ LÝ 7 TÌNH HUỐNG THỰC TẾ ĐỈNH CAO** 🚗💨
+* * *
+## **📋 GIỚI THIỆU BUỔI THỰC HÀNH**
+**Mục tiêu:** Rèn luyện phản xạ NHANH - Xử lý ĐÚNG - Giao tiếp KHÉO trong 7 tình huống "có thật 100%"
+**3 TIÊU CHÍ ĐÁNH GIÁ:**
+  * ⚡ **Tốc độ xử lý** (5-10 giây)
+
+
+  * 💬 **Kỹ năng giao tiếp** (không tranh cãi)
+
+
+  * 📚 **Tuân thủ quy trình** (đúng 100% SOP)
+
+
+* * *
+## **🔄 7 TÌNH HUỐNG "THỬ THÁCH THẬT"**
+### **🟦 TÌNH HUỐNG 1: APP TREO KHI NHẬN CUỐC**
+**🔍 DẤU HIỆU NHẬN BIẾT:**
+  * 🗺️ Bản đồ đứng im
+
+
+  * 📱 Nút "Nhận cuốc" không hoạt động
+
+
+  * ⏳ Không phản hồi thao tác
+
+
+**🎯 QUY TRÌNH 5 BƯỚC:**
+  1. 🛑 Tấp vào lề an toàn
+
+
+  2. 🔄 Tắt app → Mở lại
+
+
+  3. 📝 Gửi Report: "App treo - không nhận cuốc"
+
+
+  4. 📞 Báo điều phối 1 câu
+
+
+  5. 🚫 Không tắt máy xe
+
+
+**💬 CÂU MẪU CHUẨN:**_" Dạ hệ thống đang lỗi, em đang xử lý theo quy trình ạ."_
+* * *
+### **🟦 TÌNH HUỐNG 2: GPS SAI - ĐIỀU HƯỚNG VÒNG VO**
+**🔍 DẤU HIỆU NHẬN BIẾT:**
+  * 🗺️ Bản đồ lag, chậm
+
+
+  * 🚏 Chỉ đường sai block/hướng
+
+
+  * 🔀 Điều hướng vòng vèo
+
+
+**🎯 QUY TRÌNH 4 BƯỚC:**
+  1. 👀 Quan sát biển báo thực tế
+
+
+  2. 🚫 Không đánh lái theo GPS nguy hiểm
+
+
+  3. ⏱️ Dừng ngắn 3-5 giây xác định hướng
+
+
+  4. 📞 Báo điều phối nếu cần
+
+
+**💬 CÂU MẪU CHUẨN:**_" Đoạn này GPS hơi sai, em đi hướng an toàn nhất cho mình nhé."_
+* * *
+### **🟦 TÌNH HUỐNG 3: QUÊN BẤM "KẾT THÚC CUỐC"**
+**⚠️ RỦI RO NGAY LẬP TỨC:**
+  * 💸 Sai dữ liệu thu nhập
+
+
+  * 📊 Ảnh hưởng báo cáo
+
+
+  * 😠 Tranh chấp với khách
+
+
+**🎯 QUY TRÌNH 3 BƯỚC:**
+  1. 🙏 Xin lỗi khách ngay
+
+
+  2. 📱 Bấm "Kết thúc cuốc" tức thì
+
+
+  3. 📞 Báo điều phối điều chỉnh
+
+
+**💬 CÂU MẪU CHUẨN:**_" Dạ em xin lỗi, để em kết thúc cuốc ngay và báo hệ thống điều chỉnh ạ."_
+* * *
+### **🟦 TÌNH HUỐNG 4: KHÁCH YÊU CẦU ĐƯỜNG CẤM**
+**🎯 QUY TRÌNH 4 BƯỚC:**
+  1. 🚫 Không tranh luận
+
+
+  2. 💡 Giải thích 1 câu rõ ràng
+
+
+  3. 🛣️ Chọn đường thay thế an toàn
+
+
+  4. 📞 Báo điều phối nếu khách ép
+
+
+**💬 CÂU MẪU CHUẨN:**_" Đường này cấm, mình đi hướng bên kia sẽ an toàn và đúng luật hơn ạ."_
+* * *
+### **🟦 TÌNH HUỐNG 5: LỖI PIN BÁO NÓNG**
+**🔍 DẤU HIỆU NGUY HIỂM:**
+  * 🔥 Pin nóng bất thường
+
+
+  * 👃 Mùi lạ từ xe
+
+
+  * ⚠️ Cảnh báo trên dashboard
+
+
+**🎯 QUY TRÌNH 5 BƯỚC KHẨN CẤP:**
+  1. 🛑 Dừng xe NGAY LẬP TỨC
+
+
+  2. 🚪 Mở cửa thông thoáng
+
+
+  3. 🚶 Đưa khách ra xa 5-10m
+
+
+  4. 📝 Gửi Report: "Battery Overheat Warning"
+
+
+  5. 📞 Gọi đ iều phối + kỹ thuật
+
+
+**💬 CÂU MẪU CHUẨN:**_" Xe đang báo nhiệt độ cao, em dừng kiểm tra để đảm bảo an toàn cho mình ạ."_
+* * *
+### **🟦 TÌNH HUỐNG 6: TRẠM SẠC QUÁ TẢI**
+**🎯 QUY TRÌNH 4 BƯỚC:**
+  1. 🔍 Kiểm tra trạm khác trên hệ thống
+
+
+  2. 🚫 Không cố cắm lại nhiều lần
+
+
+  3. 📝 Gửi Report: "Station Overload/No Charging"
+
+
+  4. 📞 Báo điều phối điều hướng trạm mới
+
+
+**💬 CÂU MẪU CHUẨN:**_" Trạm đang quá tải, em chuyển sang trạm gần nhất theo hướng dẫn hệ thống."_
+* * *
+### **🟦 TÌNH HUỐNG 7: NHẶT ĐƯỢC ĐỒ KHÁCH**
+**🎯 QUY TRÌNH 5 BƯỚC BẮT BUỘC:**
+  1. 📞 Không tự gọi khách
+
+
+  2. 📝 Gửi Report: "Lost Item"
+
+
+  3. 📞 Báo điều phối giữ đồ
+
+
+  4. 📸 Chụp hình vật dụng
+
+
+  5. 🚫 Không mở/kiểm tra đồ
+
+
+**💬 CÂU MẪU CHUẨN:**_" Em vừa nhặt được đồ khách để lại, em báo điều phối giữ hộ ngay ạ."_
+* * *
+## **📊 BẢNG ĐÁNH GIÁ THỰC HÀNH**
+### **🎯 TIÊU CHÍ CHẤM ĐIỂM (10 điểm/tình huống)**
+**⚡ TỐC ĐỘ XỬ LÝ (4 điểm)**
+  * ✅ Phản ứng trong 5-10 giây: 4 điểm
+
+
+  * ✅ 11-15 giây: 3 điểm
+
+
+  * ✅ Trên 15 giây: 2 điểm
+
+
+**💬 GIAO TIẾP (3 điểm)**
+  * ✅ Giọng nhẹ, không căng thẳng: 3 điểm
+
+
+  * ✅ Còn hơi vội: 2 điểm
+
+
+  * ✅ Thiếu tự nhiên: 1 điểm
+
+
+**📚 TUÂN THỦ QUY TRÌNH (3 điểm)**
+  * ✅ Đúng 100% SOP: 3 điểm
+
+
+  * ✅ Thiếu 1 bước: 2 điểm
+
+
+  * ✅ Thiếu 2 bước trở lên: 1 điểm
+
+
+* * *
+## **🏆 THANG ĐIỂM ĐÁNH GIÁ**
+  * 🥇 **XUẤT SẮC** : 65-70 điểm
+
+
+  * 🥈 **TỐT** : 55-64 điểm
+
+
+  * 🥉 **ĐẠT** : 45-54 điểm
+
+
+  * 📝 **CẦN LUYỆN THÊM** : Dưới 45 điểm
+
+
+* * *
+## **💫 LỜI CHÚC KẾT THÚC**
+**" Chúc mừng các anh chị đã hoàn thành buổi thực hành!**
+Mỗi tình huống hôm nay là một bài học QUÝ GIÁ cho hành trình TRỞ THÀNH TÀI XẾ ĐẲNG CẤP của các anh chị!
+Hãy nhớ:
+  * **Bình tĩnh** là chìa khóa thành công
+
+
+  * **Quy trình** là kim chỉ nam
+
+
+  * **Giao tiếp** là nghệ thuật
+
+
+UniTaxi **TỰ HÀO** đồng hành cùng sự PHÁT TRIỂN của các anh chị! ❤️
+**RA ĐƯỜNG VÀ TỎA SÁNG!** 🌟🚗"
+* * *
+# **VII. KẾT THÚC – BÀI TEST (10 phút)**
+**🎯 10 PHÚT ĐÁNH GIÁ TOÀN DIỆN: BÀI TEST CHUẨN ĐẦU RA UNITAXI** 📝
+* * *
+## **📋 GIỚI THIỆU BÀI KIỂM TRA**
+**Mục tiêu:** Xác nhận năng lực tối thiểu - Đảm bảo an toàn - Chuẩn bị cho thực hành
+**Thời gian:** 10 phút - **Số câu:** 10 trắc nghiệm + 5 tình huống
+* * *
+## **📝 PHẦN A: 10 CÂU TRẮC NGHIỆM "THỬ THÁCH HIỂU BIẾT"**
+### **1\. ❓ Khi app treo, tài xế được phép tắt máy để reset?**
+  * ❌ **SAI** → Chỉ reset app, không tắt máy khi đang ở nơi đông xe
+
+
+### **2\. ❓ Khách yêu cầu đi đường cấm, tài xế phải từ chối ngay lập tức?**
+  * ❌ **SAI** → Giải thích 1 câu → đề xuất đường thay thế
+
+
+### **3\. ❓ Khi pin báo nóng, tài xế phải dừng xe ngay và đưa khách ra xa?**
+  * ✅ **ĐÚNG** \- An toàn là trên hết!
+
+
+### **4\. ❓ Thấy trẻ em xuống xe một mình là vi phạm quy định?**
+  * ✅ **ĐÚNG** \- Bảo vệ trẻ em là trách nhiệm hàng đầu
+
+
+### **5\. ❓ Khi quên bấm "Kết thúc cuốc", tài xế chỉ cần xin lỗi khách?**
+  * ❌ **SAI** → Phải báo điều phối để chỉnh dữ liệu
+
+
+### **6\. ❓ Nhặt được đồ khách, tài xế được phép gọi khách trực tiếp cho nhanh?**
+  * ❌ **SAI** → Tuyệt đối báo điều phối, không gọi khách
+
+
+### **7\. ❓ Khi khách la mắng, tài xế phải giải thích đầy đủ để họ hiểu?**
+  * ❌ **SAI** → Giải thích 1 câu → hạ giọng → tránh tranh cãi
+
+
+### **8\. ❓ Khi trạm sạc quá tải, tài xế phải thử cắm lại nhiều lần?**
+  * ❌ **SAI** → Gửi Report → báo điều phối → sang trạm khác
+
+
+### **9\. ❓ Gặp điểm đón nguy hiểm, tài xế phải chủ động chọn vị trí an toàn hơn?**
+  * ✅ **ĐÚNG** \- Chủ động bảo vệ an toàn
+
+
+### **10\. ❓ App không hiển thị đúng km/hành trình, tài xế vẫn tiếp tục chạy?**
+  * ❌ **SAI** → Báo điều phối → gửi Report trước khi tiếp tục
+
+
+* * *
+## **🎤 PHẦN B: 5 TÌNH HUỐNG "PHẢN XẠ NHANH"** (30 giây/câu)
+### **1\. 🚨 Khách yêu cầu đi rất nhanh vì sắp trễ giờ?**
+**→ "Em giữ tốc độ ổn định để mình an toàn nhất ạ."**
+### **2\. 🔥 Xe báo lỗi pin giữa đường?**
+**→ Dừng an toàn → Mở cửa → Đưa khách ra xa → Report → Gọi điều phối**
+### **3\. 🚪 Khách mở cửa xuống giữa làn?**
+**→ Giữ cửa → Nhắc nhẹ: "Chỗ này không an toàn, mình dừng sát lề nhé."**
+### **4\. 🗺️ App không load bản đồ ở điểm đón?**
+**→ Dừng an toàn → Reset app → Gọi khách xác nhận vị trí**
+### **5\. 😠 Khách công kích cá nhân?**
+**→ Hạ giọng: "Dạ để em xử lý ngay ạ." → Báo điều phối**
+* * *
+## **📊 TIÊU CHÍ ĐÁNH GIÁ CHUẨN**
+### **✅ ĐẠT YÊU CẦU KHI:**
+  * 🎯 Trả lời đúng **≥ 8/10 câu**
+
+
+  * 🗣️ Thể hiện **giọng bình tĩnh** trong phần tình huống
+
+
+  * 💬 Không sử dụng từ ngữ **phản ứng, đổ lỗi**
+
+
+### **❌ KHÔNG ĐẠT KHI:**
+  * ⚠️ Sai **≥ 3 câu quan trọng** (pin, trẻ em, trạm sạc, an toàn)
+
+
+  * 😤 Thái độ **căng thẳng, tranh cãi**
+
+
+  * 🗯️ Không nhớ **câu mẫu cơ bản**
+
+
+* * *
+## **🎯 5 NGUYÊN TẮC BẤT BIẾN UNITAXI**
+### **1\. 🛡️ AN TOÀN TUYỆT ĐỐI**
+ _" Mạng sống và sức khỏe là không thể thay thế"_
+### **2\. 🤝 KHÔNG TRANH CÃI**
+ _" Thắng trong im lặng - An toàn trong hành động"_
+### **3\. 📋 KHÔNG XỬ LÝ NGOÀI QUY TRÌNH**
+ _" Quy trình là lá chắn bảo vệ bạn"_
+### **4\. 📱 KHÔNG NÓI MIỆNG - CHỈ BÁO CÁO TRÊN HỆ THỐNG**
+ _" Không có report = không có bảo vệ"_
+### **5\. ❤️ TỬ TẾ ĐÚNG LÚC - ĐÚNG MỨC**
+ _" Chuyên nghiệp không có nghĩa là vô cảm"_
+* * *
+## **💫 LỜI KẾT TRÀN ĐẦY CẢM HỨNG**
+**" Chúc mừng các anh chị đã hoàn thành bài kiểm tra!**
+Mỗi câu trả lời đúng của các anh chị hôm nay là một viên gạch vững chắc xây nên **SỰ NGHIỆP TÀI XẾ CHUYÊN NGHIỆP!**
+Hãy nhớ: **Kiến thức + Kỹ năng + Thái độ = TÀI XẾ UNITAXI ĐẲNG CẤP!**
+Chúng tôi **TIN TƯỞNG** vào sự thành công của các anh chị và **CAM KẾT** đồng hành cùng các anh chị trên mọi nẻo đường!
+**HẸN GẶP LẠI TRÊN NHỮNG HÀNH TRÌNH MỚI!** 🚗✨
+UniTaxi - **VỮNG TAY LÁI, TRỌN NIỀM TIN!** ❤️"
+* * *
+# **📘 6. SỨC KHOẺ – NĂNG LƯỢNG – TẬP TRUNG (4 GIỜ)**
+_(Chuẩn đào tạo của Nhật Bản & Singapore dành cho tài xế EV)_
+|                                         |
+| **Mục**                                 | **Nội dung chi tiết**                                          | **Tiêu chuẩn quốc tế**               | **Thời lượng** |
+|-----------------------------------------|----------------------------------------------------------------|--------------------------------------|----------------|
+| **1\. Tư thế ngồi & đứng**              | Ngồi đúng góc – lưng thẳng – tránh tê tay – tê chân            | Japan Taxi Ergonomic Standard        | 25’            |
+| **2\. Bài khởi động 5 phút/đầu ca**     |  Xoay vai – giãn lưng – hít thở – xoay cổ                      | Singapore Transport Fitness Protocol | 15’            |
+| **3\. Quy trình nghỉ giữa ca**          |  Nghỉ 5–10 phút sau 3–4 giờ lái                                | WHO Urban Mobility Guideline         | 25’            |
+| **4\. Dấu hiệu mất tỉnh táo**           |  Mắt cay – phản xạ chậm – khó chịu – bực vô cớ – buồn ngủ      | Bộ tiêu chí của Uber Safety          | 20’            |
+| **5\. Cách xử lý khi mất tập trung**    |  Tắt xe – đứng dậy – uống nước – báo điều phối                 | Lyft Fatigue Protocol                | 20’            |
+| **6\. Chế độ ăn uống hợp lý**           |  Không ăn quá no – chia nhỏ bữa – uống nước chia nhỏ           | Standard of Singapore Taxi Academy   | 20’            |
+| **7\. Hạn chế điện thoại giữa ca**      |  Không xem clip – không lướt mạng                              | Mobile Distraction Prevention (Bolt) | 15’            |
+| **8\. Bài tập thở giảm stress**         |  4 kỹ thuật: Box Breathing – 4–6–8 – Reset Breath – 1-min Calm | Áp dụng cho tài xế quốc tế           | 30’            |
+| **9\. Quy trình báo điều phối khi mệt** |  Cách báo – cách xin đổi ca – khi nào dừng                     | SOP Safety Uber                      | 15’            |
+| **10\. Thực hành thực tế**              |  Tập thở – tập tư thế – mô phỏng dấu hiệu mệt                  | Trainer kiểm tra trực tiếp           | 25’            |
+
+
+* * *
+# **I. MỤC TIÊU BUỔI HỌC**
+Sau 4 giờ học, học viên phải:
+  * Biết cách **giữ tỉnh táo, không buồn ngủ** khi lái.
+
+
+  * Biết **ngưỡng an toàn** để không được phép tiếp tục lái xe.
+
+
+  * Biết cách **ăn uống – sinh hoạt – nghỉ ngắn** như tài xế quốc tế.
+
+
+  * Nhận diện **10 dấu hiệu mất tập trung nguy hiểm**.
+
+
+  * Nắm quy trình **báo điều phối khi cơ thể không an toàn**.
+
+
+  * Biết bảo vệ sức khỏe → bảo vệ thu nhập → bảo vệ hình ảnh Unitaxi.
+
+
+* * *
+# **II. TỔNG QUAN VỀ “THỂ TRẠNG TÀI XẾ” (20 phút)**
+**📘 II. TỔNG QUAN VỀ “THỂ TRẠNG TÀI XẾ” – 20 PHÚT ĐỈNH CAO**
+**Chuẩn JapanTaxi + Singapore Taxi Academy + Uber Health & Safety**
+**🎯 Mục tiêu sau 20 phút**
+  * Tài xế hiểu rằng: SỨC KHỎE = AN TOÀN = THU NHẬP
+
+
+  * Không còn coi “mệt thì ráng” là bình thường
+
+
+  * Tự giác nghỉ ngơi, uống nước, thay đổi tư thế như một phần nghề
+
+
+  * Trở thành tài xế “luôn tỉnh – luôn êm – luôn 5 sao”
+
+
+**⏱ 0–10 phút — PHẦN 1: VÌ SAO SỨC KHỎE = AN TOÀN? (Số liệu + thực tế)**
+Giảng viên chiếu từng con số + yêu cầu cả lớp đọc to:
+|                                |
+| Nguồn dữ liệu                  | Con số thực tế                                    | Hậu quả nếu bỏ qua                 |
+|--------------------------------|---------------------------------------------------|------------------------------------|
+| JapanTaxi 2020–2024            | 40% tai nạn do tài xế mệt, mắt mờ, phản xạ chậm   | → Tai nạn nghiêm trọng             |
+| Lyft Global Safety Report 2023 | 30% đánh lái sai sau 3 giờ chạy liên tục          | → Va quẹt, khách đánh giá thấp     |
+| Singapore Taxi Academy         | 72% tranh cãi với khách khi tài xế căng thẳng     | → Mất rating, mất thu nhập         |
+| Uber Health Study              | Thiếu ngủ 1 đêm = phản xạ chậm như uống 2 lon bia | → Nguy hiểm tương đương lái xe say |
+
+
+**Cơ thể mệt → 5 hiện tượng nguy hiểm xảy ra cùng lúc:**
+  1. Mắt nhòe – mất tầm nhìn 2–3 giây
+
+
+  2. Phản xạ chậm 20–40%
+
+
+  3. Dễ cáu gắt → tranh cãi với khách
+
+
+  4. Đau lưng, tê chân → không đạp phanh kịp
+
+
+  5. Buồn ngủ vi mô (micro-sleep) → ngủ gật 1–3 giây mà không biết
+
+
+**Đặc thù xe điện làm mọi thứ tệ hơn:**
+  * Xe êm như ru → dễ buồn ngủ
+
+
+  * Không gian yên tĩnh → não tự chuyển sang chế độ “nghỉ”
+
+
+  * Ngồi lâu + điều hòa lạnh → máu lưu thông kém → tê mỏi → phản xạ chậm
+
+
+**⏱ 10–19 phút — PHẦN 2: TẠI SAO UNITAXI PHẢI DẠY SỨC KHỎE NHƯ KỸ NĂNG NGHỀ?**
+Giảng viên viết 4 lý do to đùng lên bảng + cả lớp đọc to:
+  1. Vì Unitaxi cạnh tranh bằng AN TOÀN & DỊU DÀNG – không phải bằng giá rẻ
+→ Tài xế mệt = lái giật = khách sợ = mất thương hiệu
+
+
+  2. Vì xe điện yêu cầu cơ thể ở trạng thái ỔN ĐỊNH – TỈNH TÁO
+→ Tăng tốc nhanh, giảm tốc mượt → chỉ làm được khi cơ thể khỏe
+
+
+  3. Vì tài xế là “gương mặt thương hiệu” trong 100% thời gian chuyến xe
+→ Mặt cau có, giọng cáu → khách nhớ mãi “Unitaxi chán”
+
+
+  4. Vì sức khỏe tốt = kiểm soát cảm xúc tốt = ít tranh cãi = rating cao = thu nhập cao
+
+
+**⏱ 19–20 phút — 5 THÔNG ĐIỆP THEN CHỐT (cả lớp đứng dậy hô to từng câu!)**
+  1. “SỨC KHỎE TỐT = LÁI ÊM = KHÁCH HÀI LÒNG = TIỀN VÀO ĐẦY TÚI!”
+
+
+  2. “MỘT GIÂY LƠ ĐỄNH = MẤT CẢ ĐỜI NGHỀ!”
+
+
+  3. “MỆT THÌ BÁO NGHỈ 5 PHÚT → AN TOÀN HƠN CỐ 5 GIỜ!”
+
+
+  4. “CƠ THỂ MỆT = ĐẦU NÓNG = DỄ CÃI KHÁCH = MẤT SAO!”
+
+
+  5. “GIỮ SỨC KHỎE LÀ NGHỀ – KHÔNG PHẢI LỰA CHỌN!”
+
+
+**KẾT THÚC BÙNG NỔ**
+“Các anh chị thân mến!
+Từ hôm nay, mỗi lần các anh chị uống 1 ngụm nước, duỗi chân 30 giây, nghỉ ngơi 5 phút –
+các anh chị không lười – các anh chị đang LÀM NGHỀ CHUYÊN NGHIỆP NHẤT!
+Hãy bước ra khỏi phòng học này và tự nhủ thật to:
+“TÔI KHÔNG CHỈ LÁI XE ĐIỆN – TÔI LÁI XE BẰNG CƠ THỂ KHỎE MẠNH VÀ TRÁI TIM TỈNH TÁO!”
+Unitaxi tự hào vì có những tài xế biết yêu thương chính mình để yêu thương khách!
+Bây giờ… ra đường và lái bằng 100% sức khỏe nào! ⚡💪❤️”
+(20 phút kết thúc – kiến thức đã khắc sâu vào tiềm thức!)
+Nếu bạn sẵn sàng cho phần thực chiến nhất:
+👉 Chỉ cần nói “Viết tiếp phần III: 6 kỹ năng giữ sức khỏe – tập trung khi lái (30 phút)”
+Mình bắn ngay bản siêu thực tế + bài tập tại chỗ! 🔥
+* * *
+# **III. TƯ THẾ + THÓI QUEN TRƯỚC CA (40 phút)**
+**📘 III. TƯ THẾ + THÓI QUEN TRƯỚC CA – 40 PHÚT THỰC CHIẾN**
+**Chuẩn JapanTaxi + Singapore Taxi Academy + Uber Driver Health**
+**🎯 Mục tiêu sau 40 phút**
+  * Mọi tài xế ngồi đúng 100% ngay từ giây đầu lên xe
+
+
+  * Không còn đau lưng, tê chân, mỏi vai sau ca 8–10 tiếng
+
+
+  * Tăng độ tỉnh táo thêm 30–40% chỉ với 5 phút chuẩn bị
+
+
+  * Lái êm như tài xế Nhật – khách tự động cho 5 sao
+
+
+**⏱ 0–15 phút — PHẦN 1: TƯ THẾ NGỒI CHUẨN NHẬT BẢN (cả lớp thực hành ngay trên ghế)**
+Giảng viên hô to + cả lớp làm theo từng bước:
+  1. **Lưng thẳng – vai thả lỏng**
+→ Dính sát lưng vào ghế, không gù, không ưỡn
+
+
+  2. **Khoảng cách vô lăng**
+→ Tay duỗi thẳng → cổ tay chạm vô lăng → lùi ghế lại 2–3 cm
+→ Tay cầm 9h–3h hoặc 10h–2h, khuỷu tay gập nhẹ 120°
+
+
+  3. **Độ cao ghế**
+→ Mắt ngang hoặc cao hơn tâm vô lăng 5–10 cm
+→ Nhìn đường phải thấy rõ ít nhất 10–15 m phía trước
+
+
+  4. **Chân với pedal**
+→ Đạp hết phanh mà đầu gối còn gập 20–30°
+→ Không duỗi thẳng chân (rất nguy hiểm khi phanh gấp)
+
+
+  5. **Gương chiếu hậu**
+→ Gương trái/phải: chỉ thấy 5–10% thân xe
+→ Gương trong: thấy toàn bộ kính hậu, không phải cúi người
+
+
+**Thực hành 3 phút:**
+Mọi người chỉnh ghế ngay tại chỗ → giảng viên đi vòng sửa từng người → ai sai phải làm lại 2 lần!
+**⏱ 15–30 phút — PHẦN 2: THÓI QUEN 5 PHÚT TRƯỚC CA (bắt buộc làm mỗi ngày)**
+**Bước 1 – Khởi động 90 giây (cả lớp đứng dậy làm theo giảng viên)**
+  1. Xoay vai 10 vòng thuận – 10 vòng ngược
+
+
+  2. Nghiêng cổ trái 5 lần – phải 5 lần
+
+
+  3. Vươn người + hít sâu 3 lần
+
+
+  4. Xoay cổ tay + bóp nắm tay 10 lần
+
+
+→ Giảm 40% tê mỏi vai cổ sau 8 tiếng!
+**Bước 2 – Nước & Oxy (60 giây)**
+  * Uống 3–4 ngụm nước (không uống ừng ực)
+
+
+  * Thở 4-2-4 (cả lớp làm theo):  
+Hít vào 4 giây → giữ 2 giây → thở ra 4 giây → lặp lại 4 lần  
+→ Não tỉnh ngay lập tức!
+
+
+**Bước 3 – Checklist 30 giây (cả lớp hô to từng câu)**
+  * “Ghế – gương – vô lăng đã đúng chưa?”
+
+
+  * “Điều hòa 24–26°C chưa?”
+
+
+  * “Mùi xe ổn chưa?”
+
+
+  * “Camera – app – đèn báo có lỗi không?”  
+→ Unitaxi bắt buộc làm trước cuốc đầu tiên mỗi ca!
+
+
+**⏱ 30–40 phút — PHẦN 3: 5 SAI LẦM “GIẾT CHẾT” SỨC KHỎE & RATING**
+  1. Vội vàng lên xe chạy luôn → não chưa tỉnh → 10 phút đầu dễ tai nạn
+
+
+  2. Ghế quá thấp/xa/gần → đau lưng, tê chân, lái giật
+
+
+  3. Không uống nước → 3 tiếng sau đau đầu, cáu gắt
+
+
+  4. Không khởi động → vai cổ cứng đơ sau 4 tiếng
+
+
+  5. Để điều hòa 20–22°C → buồn ngủ vi mô → nguy hiểm chết người
+
+
+**⏱ 40 phút — KẾT THÚC BÙNG NỔ (cả lớp đứng dậy hô to 3 lần)**
+“TƯ THẾ ĐÚNG – KHỞI ĐỘNG ĐỦ – CHECKLIST XONG = LÁI ÊM CẢ NGÀY!”
+“TÔI KHÔNG CHỈ LÊN XE – TÔI CHUẨN BỊ NHƯ MỘT VẬN ĐỘNG VIÊN CHUYÊN NGHIỆP!”
+“5 PHÚT TRƯỚC CA = 10 TIẾNG AN TOÀN + 5 SAO + KHÔNG ĐAU LƯNG!”
+Giảng viên kết:
+“Các anh chị thân mến!
+Từ hôm nay, mỗi lần các anh chị chỉnh ghế đúng, xoay vai, uống nước, thở 4-2-4 –
+các anh chị không lười – các anh chị đang LÁI XE BẰNG SỨC KHỎE ĐỈNH CAO!
+Unitaxi tự hào vì có những tài xế biết yêu cơ thể mình để yêu khách hàng tuyệt đối!
+Bây giờ… ra xe và thực hiện 100% ngay từ ca tiếp theo nào! ⚡💪❤️”
+(40 phút kết thúc – mọi người đã ngồi đúng, khởi động đủ, sẵn sàng lái 10 tiếng mà vẫn tỉnh!)
+* * *
+# **IV. QUY TRÌNH NGHỈ NGẮN QUỐC TẾ (30 phút)**
+**📘 IV. QUY TRÌNH NGHỈ NGẮN QUỐC TẾ – 30 PHÚT THỰC CHIẾN**
+**Chuẩn Uber Driver Well-Being + Singapore LTA + JapanTaxi + Lyft Health Program**
+**🎯 Mục tiêu sau 30 phút**
+  * Tài xế biết chính xác khi nào phải nghỉ, nghỉ bao lâu, nghỉ thế nào
+
+
+  * Không còn “cố thêm 1 cuốc” rồi ngủ gật
+
+
+  * Tăng thời gian tỉnh táo +30–50% mỗi ca
+
+
+  * Lái êm hơn, ít đau lưng hơn, rating cao hơn, thu nhập cao hơn
+
+
+**⏱ 0–10 phút — PHẦN 1: VÌ SAO PHẢI NGHỈ NGẮN? (Số liệu + thực tế)**
+Giảng viên chiếu bảng + cả lớp đọc to:
+|                        |
+| Thời gian lái liên tục | Hậu quả khoa học                        | Tăng nguy cơ                |
+|------------------------|-----------------------------------------|-----------------------------|
+| 90 phút                | Não giảm 10–15% khả năng tập trung      | Phanh chậm hơn 0.3–0.5 giây |
+| 3 giờ                  | Phản xạ giảm 30%                        | Tai nạn tăng gấp 2          |
+| 4 giờ                  | Mắt mờ + micro-sleep (ngủ gật 1–3 giây) | JapanTaxi: 40% tai nạn      |
+| 6 giờ+                 | Cortisol tăng → dễ cáu, dễ cãi khách    | Rating giảm 0.4–0.8 sao     |
+
+
+**Kết luận đanh thép:**
+“NGHỈ NGẮN 5–10 PHÚT = MUA LẠI 2–3 GIỜ TỈNH TÁO VÀ AN TOÀN!”
+**⏱ 10–20 phút — PHẦN 2: CHU KỲ NGHỈ VÀNG (GOLDEN REST CYCLE)**
+**Quy tắc bắt buộc Unitaxi (cả lớp hô to 3 lần):**
+“MỖI 3–4 GIỜ → NGHỈ 5–10 PHÚT!”
+**5 việc PHẢI làm trong 5–10 phút (giảng viên làm mẫu – cả lớp làm theo):**
+  1. Giãn cơ 60 giây
+→ Xoay vai 10 vòng – nghiêng cổ 5 trái 5 phải – vươn người 3 lần
+
+
+  2. Uống 3–4 ngụm nước (không uống ừng ực)
+
+
+  3. Thở 4-4-4 (hít 4 → giữ 4 → thở 4) × 4 lần
+
+
+  4. Đi bộ 30–50 bước quanh xe
+
+
+  5. Tự hỏi 3 câu:
+“Mắt có cay không? Vai có cứng không? Mình có đang cáu vô cớ không?”
+
+
+**5 việc TUYỆT ĐỐI CẤM (giảng viên giơ biển đỏ):**
+❌ Lướt TikTok/Facebook
+❌ Ăn bánh ngọt, trà sữa
+❌ Nằm ngủ sâu trên ghế
+❌ Hút thuốc liên tục
+❌ Tắt điều hòa hoàn toàn
+**⏱ 20–26 phút — PHẦN 3: CHỌN ĐIỂM NGHỈ AN TOÀN (giảng viên chiếu ảnh thực tế)**
+|                            |
+| ĐƯỢC nghỉ                  | KHÔNG được nghỉ                        |
+|----------------------------|----------------------------------------|
+| Bãi đỗ TTTM, siêu thị      | Lề đường lớn, quốc lộ                  |
+| Trạm nghỉ Unitaxi          | Khu vực tối, vắng vẻ                   |
+| Cây xăng lớn, có bảo vệ    | Gần trường học – bệnh viện lúc tan tầm |
+| Điểm đỗ có mái che, thoáng | Nơi cấm đỗ → bị phạt 700k–1 triệu      |
+
+
+**Điều hòa khi nghỉ:** 25–27°C (không lạnh quá, không tắt hẳn)
+**⏱ 26–30 phút — PHẦN 4: LỢI ÍCH THỰC TẾ + THÔNG ĐIỆP KẾT**
+|           |
+| Đối tượng | Lợi ích cụ thể                                                         |
+|-----------|------------------------------------------------------------------------|
+| Tài xế    | Phản xạ nhanh hơn – ít đau lưng – ít cáu gắt – rating tăng 0.3–0.5 sao |
+| Khách     | Cảm giác an toàn – xe chạy êm – không bị giật                          |
+| Unitaxi   | Giảm tai nạn – giảm phàn nàn – tăng doanh thu                          |
+
+
+**Cả lớp đứng dậy hô to 3 lần:**
+“NGHỈ 5–10 PHÚT KHÔNG MẤT CUỐC – NGHỈ 5–10 PHÚT KIẾM ĐƯỢC NHIỀU CUỐC HƠN!”
+“TÔI NGHỈ ĐÚNG GIỜ = TÔI LÁI ĐÚNG CHUẨN = TÔI KIẾM ĐƯỢC NHIỀU TIỀN HƠN!”
+“5 PHÚT NGHỈ = 5 SAO + 50K BOA!”
+**Giảng viên kết thúc bùng nổ:**
+“Các anh chị thân mến!
+Từ hôm nay, mỗi lần các anh chị tấp vào nghỉ 5–10 phút, các anh chị không lười –
+các anh chị đang ĐẦU TƯ vào chính sự an toàn, sức khỏe và túi tiền của mình!
+Hãy bước ra đường và thực hiện chu kỳ nghỉ vàng ngay từ ca hôm nay!
+Unitaxi tự hào vì có những tài xế biết nghỉ đúng cách để lái xuất sắc cả ngày! ⚡💪❤️”
+(30 phút kết thúc – mọi người đã thuộc lòng chu kỳ nghỉ, sẵn sàng áp dụng ngay!)
+* * *
+# **V. NGƯỠNG KHÔNG ĐƯỢC PHÉP LÁI (30 phút)**
+**📘 V. NGƯỠNG KHÔNG ĐƯỢC PHÉP LÁI – 30 PHÚT “ĐỎ = DỪNG NGAY”**
+**Chuẩn Uber Global Fatigue Threshold + JapanTaxi Health Board + Singapore LTA + Lyft Safety**
+**🎯 Mục tiêu sau 30 phút**
+  * Thuộc lòng 10 dấu hiệu đỏ + 8 tình huống cấm lái
+
+
+  * Biết tự kiểm tra 30 giây – biết dừng đúng lúc
+
+
+  * Không còn ai “cố thêm 1 cuốc” khi đã vượt ngưỡng
+
+
+  * Trở thành tài xế biết nói KHÔNG với rủi ro
+
+
+**⏱ 0–10 phút — PHẦN 1: 10 DẤU HIỆU ĐỎ (cả lớp hô to từng cái)**
+Giảng viên giơ bảng đỏ – học viên đồng thanh:
+  1. HOA MẮT – MẮT MỜ!
+
+
+  2. PHẢN XẠ CHẬM – ĐẠP THẮNG TRỄ!
+
+
+  3. NGÁP LIÊN TỤC ≥ 3 LẦN!
+
+
+  4. ĐAU ĐẦU – TỨC NGỰC – NHÓI VAI GÁY!
+
+
+  5. KHÓ TẬP TRUNG – BỎ LỠ ĐÈN!
+
+
+  6. CÁU GẮT VÔ CỚ!
+
+
+  7. ĐẦU NẶNG – NÃO CHẬM!
+
+
+  8. BUỒN NGỦ – GẬT GÙ!
+
+
+  9. TIM ĐẬP NHANH BẤT THƯỜNG!
+
+
+  10. TÊ TAY – TÊ ĐÙI!
+
+
+→ Chỉ cần 1 dấu hiệu = DỪNG XE NGAY + BÁO ĐIỀU PHỐI!
+**⏱ 10–18 phút — PHẦN 2: 8 TÌNH HUỐNG CẤM LÁI (giảng viên giơ biển đỏ từng cái)**
+  1. Đã lái ≥ 10 giờ trong ngày
+
+
+  2. Đã lái ≥ 6 giờ không nghỉ ngắn
+
+
+  3. Vừa cãi nhau/xung đột với khách
+
+
+  4. Mắt cay đỏ rát > 10 phút
+
+
+  5. Lưng đau không xoay người được
+
+
+  6. Đau đầu kéo dài dù đã uống nước
+
+
+  7. Không nhớ đoạn đường vừa đi 5 phút trước
+
+
+  8. Tự thấy lái giật, không còn êm
+
+
+→ 8 trường hợp này = KHÔNG ĐƯỢC NHẬN CUỐC TIẾP THEO!
+**⏱ 18–26 phút — PHẦN 3: BÀI TẬP TỰ KIỂM TRA 30 GIÂY (cả lớp làm ngay tại chỗ 3 lần)**
+Giảng viên đếm nhịp lớn:
+  1. MỞ – NẮM BÀN TAY 10 LẦN → tê = NGUY HIỂM
+
+
+  2. LIẾC MẮT TRÁI-PHẢI 10 LẦN → hoa mắt = NGUY HIỂM
+
+
+  3. HÍT SÂU 3 LẦN + THỞ RA CHẬM → chóng mặt = NGUY HIỂM
+
+
+  4. XOAY CỔ NHẸ 3 VÒNG → đau/choáng = NGUY HIỂM
+
+
+→ 1 trong 4 bước khó chịu → DỪNG LÁI NGAY!
+**⏱ 26–30 phút — PHẦN 4: QUY TRÌNH 4 BƯỚC KHI XUẤT HIỆN DẤU HIỆU (hô đồng thanh)**
+BƯỚC 1 → “DỪNG XE AN TOÀN!”
+BƯỚC 2 → “BÁO ĐIỀU PHỐI: Em mệt – xin nghỉ 5–10 phút để an toàn!”
+BƯỚC 3 → “NGHỈ 5–10 PHÚT: giãn cơ + nước + thở + không điện thoại!”
+BƯỚC 4 → “TỰ TEST LẠI 30 GIÂY → ổn mới chạy, không ổn thì đổi ca!”
+**⏱ 30 phút — KẾT THÚC BÙNG NỔ**
+Cả lớp đứng dậy, giơ tay hô thật to 3 lần:
+“TÔI BIẾT KHI NÀO PHẢI DỪNG!”
+“TÔI KHÔNG ĐÁNH CƯỢC MẠNG SỐNG!”
+“MỘT PHÚT DỪNG ĐÚNG = CẢ ĐỜI BÌNH AN!”
+Giảng viên kết:
+“Các anh chị thân mến!
+Từ hôm nay các anh chị không còn là người “cố” nữa –
+các anh chị là những TÀI XẾ THÔNG MINH biết bảo vệ chính mình và hành khách!
+Unitaxi tự hào vì có các anh chị! ❤️🚕”
+* * *
+# **VI. ĂN UỐNG & SINH HOẠT CHUẨN TÀI XẾ (40 phút)**
+**Chuẩn Uber Driver Wellness + JapanTaxi Health Board + Singapore LTA Driver Care**
+**🎯 Mục tiêu sau 40 phút**
+  * Không còn buồn ngủ, tụt năng lượng, đau đầu giữa ca
+
+
+  * Giữ tỉnh táo + lái êm suốt 10–12 tiếng
+
+
+  * Giảm 70% nguy cơ mệt mỏi do ăn uống sai
+
+
+  * Tăng rating nhờ luôn tươi tỉnh, giọng nhẹ, không cáu gắt
+
+
+**⏱ 0–10 phút — PHẦN 1: ĂN UỐNG TRƯỚC CA (cơm no – không nặng bụng)**
+Giảng viên chiếu bảng + cả lớp đọc to:
+|                                  |
+| NÊN ĂN (2–3 giờ trước ca)        | TUYỆT ĐỐI TRÁNH                    |
+|----------------------------------|------------------------------------|
+| Cơm + thịt/cá/trứng + rau + canh | Bánh mì ngọt, mì gói, mì xào dầu   |
+| Trái cây ít đường (táo, ổi)      | Đồ chiên rán, gà rán, khoai chiên  |
+| Cháo thịt, bún nhẹ               | Phở/bún nước lèo tè, nhiều hành mỡ |
+| Uống nước ấm 200–250ml           | Nước đá, trà sữa, nước tăng lực    |
+
+
+**Cà phê thì sao?**
+→ Được, nhưng:
+  * Chỉ 1 ly nhỏ (không đường hoặc ít đường)
+
+
+  * Uống xong trước giờ lái ít nhất 30–45 phút
+
+
+  * Không uống sau 15h (gây mất ngủ đêm)
+
+
+**⏱ 10–20 phút — PHẦN 2: ĂN UỐNG TRONG CA (giữ đường huyết ổn định)**
+**Quy tắc vàng:** “Chia nhỏ – đều đặn – không đường”
+|                |
+| Thời gian      | Nên làm                                                     | Cấm tuyệt đối                          |
+|----------------|-------------------------------------------------------------|----------------------------------------|
+| Mỗi 45–60 phút | Uống 100–150ml nước ấm                                      | Uống nước ngọt, trà sữa, nước tăng lực |
+| Đói nhẹ        | 1 trái chuối nhỏ / 1 nắm hạt điều không muối / bánh gạo lứt | Bánh ngọt, kẹo, bim bim                |
+| Sau 4–5 giờ    | 1 hộp sữa hạt không đường hoặc 1 quả trứng luộc             | Cà phê thứ 2, nước Red Bull            |
+
+
+**⏱ 20–30 phút — PHẦN 3: SAU CA – PHỤC HỒI NHANH (không ngủ ngay)**
+Cả lớp làm theo giảng viên tại chỗ:
+  1. Xuống xe → đi bộ nhẹ 60–90 giây
+
+
+  2. Xoay vai + nghiêng cổ + duỗi lưng 60 giây
+
+
+  3. Uống 250ml nước ấm
+
+
+  4. Ăn nhẹ trong 30 phút đầu:  
+→ Cháo/súp/miên + rau + ít thịt  
+→ Trái cây (đu đủ, thanh long, bưởi)
+
+
+  5. Tắm nước ấm → lên giường (không tắm nước lạnh ngay)
+
+
+**⏱ 30–40 phút — PHẦN 4: 10 THÓI QUEN VÀNG CỦA TÀI XẾ 5 SAO**
+Giảng viên viết to lên bảng → cả lớp hô to từng câu:
+  1. “NGỦ ĐỦ 6–7 GIỜ MỖI ĐÊM!”
+
+
+  2. “KHÔNG BAO GIỜ BỎ BỮA SÁNG!”
+
+
+  3. “KHÔNG HÚT THUỐC TRONG CA!”
+
+
+  4. “HẠN CHẾ ĐƯỜNG – TRÁNH BUỒN NGỦ!”
+
+
+  5. “MỖI GIỜ UỐNG 1 NGỤM NƯỚC!”
+
+
+  6. “ĐIỀU HÒA 24–26°C – KHÔNG LẠNH QUÁ!”
+
+
+  7. “GIÃN CƠ TRƯỚC – GIỮA – SAU CA!”
+
+
+  8. “KHÔNG NGỒI Y 1 TƯ THẾ QUÁ 2 GIỜ!”
+
+
+  9. “ĐÈN ĐỎ KHÔNG CẦM ĐIỆN THOẠI!”
+
+
+  10. “MỆT LÀ BÁO – KHÔNG CỐ!”
+
+
+**⏱ 40 phút — KẾT THÚC BÙNG NỔ**
+Cả lớp đứng dậy, giơ tay hô thật to:
+“TÔI ĂN ĐÚNG – UỐNG ĐÚNG – NGHỈ ĐÚNG = TÔI LÁI ÊM CẢ NGÀY!”
+“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐIỀU KHIỂN CƠ THỂ ĐỈNH CAO!”
+“ĂN UỐNG CHUẨN = 5 SAO + KHÔNG ĐAU LƯNG + KIẾM TIỀN DỄ HƠN!”
+Giảng viên kết:
+“Các anh chị thân mến!
+Từ hôm nay, mỗi miếng ăn, mỗi ngụm nước đều là NHIÊN LIỆU cho sự an toàn và thu nhập của chính mình!
+Unitaxi tự hào vì có những tài xế biết nuôi dưỡng cơ thể để nuôi dưỡng thương hiệu!
+Bây giờ… ra đường và lái bằng 100% năng lượng nào! ⚡🍌💪❤️”
+* * *
+# **VII. QUẢN LÝ CẢM XÚC & TINH THẦN (35 phút)**
+**📘 VII. QUẢN LÝ CẢM XỨC & TINH THẦN – 35 PHÚT “BÌNH TĨNH LÀ SIÊU NĂNG LỰC”**
+**Chuẩn Uber Safety Academy + Lyft Mindfulness + JapanTaxi Emotional Protocol + LTA Singapore**
+**🎯 Mục tiêu sau 35 phút**
+  * Không bao giờ bị khách “dắt cảm xúc”
+
+
+  * Biến mọi tình huống căng thẳng thành 5 sao
+
+
+  * Giữ đầu lạnh 100% dù khách có la hét, kẹt xe, áp lực cuốc
+
+
+  * Trở thành tài xế “không gì làm lung lay được”
+
+
+**⏱ 0–10 phút — PHẦN 1: 4 DẤU HIỆU “ĐỎ” – BẠN ĐANG MẤT KIỂM SOÁT**
+Giảng viên chiếu bảng đỏ + cả lớp đọc to:
+|     |
+| #   | Dấu hiệu                                            | Nghĩa là gì?                                 |
+|-----|-----------------------------------------------------|----------------------------------------------|
+| 1   | Giọng nói cao hơn bình thường                       | Hệ thần kinh đã “bật chế độ chiến đấu”       |
+| 2   | Thở nhanh – nông – ngực                             | Stress cấp – dễ nói sai, lái giật            |
+| 3   | Bàn tay siết chặt vô lăng                           | Cơ thể đang căng cứng → phản xạ chậm         |
+| 4   | Đầu nghĩ chuyện khác (khách trước, tiền, gia đình…) | Não đã rời khỏi đường → nguy hiểm chết người |
+
+
+→ Chỉ cần 1 dấu hiệu → áp dụng ngay “cắt căng thẳng 10 giây”
+**⏱ 10–20 phút — PHẦN 2: KỸ THUẬT “CẮT CĂNG THẲNG 10 GIÂY” (cả lớp làm theo giảng viên 5 lần)**
+Giảng viên đếm nhịp lớn:
+  1. (2 giây) THẢ VAI XUỐNG – THỞ RA HẾT
+
+
+  2. (4 giây) HÍT SÂU BẰNG MŨI 4 GIÂY → GIỮ 1 → THỞ RA MIỆNG 4 GIÂY (lặp 2 lần)
+
+
+  3. (2 giây) NỚI LỎNG BÀN TAY – CẦM LẠI NHẸ NHÀNG
+
+
+  4. (2 giây) NÓI TRONG ĐẦU: “BÌNH TĨNH – AN TOÀN – DỄ CHỊU”
+
+
+→ JapanTaxi đo: kỹ thuật này giảm nhịp tim 12–18 nhịp/phút trong 10 giây!
+**⏱ 20–28 phút — PHẦN 3: XỬ LÝ KHÁCH KHÓ – 2 BƯỚC KHÔNG BAO GIỜ SAI**
+Giảng viên viết to lên bảng + cả lớp hô:
+BƯỚC 1 → GIẢM GIỌNG – NÓI CHẬM HƠN 20%
+BƯỚC 2 → BÁO ĐIỀU PHỐI (không cố thắng lý)
+5 câu mẫu bắt buộc phải thuộc (cả lớp đọc to 3 vòng):
+  1. “Dạ em hiểu ạ, để em xử lý ngay cho mình.”
+
+
+  2. “Anh/chị yên tâm, em sẽ giữ an toàn nhất ạ.”
+
+
+  3. “Dạ em xin lỗi vì đã để anh/chị khó chịu.”
+
+
+  4. “Dạ để em gọi điều phối hỗ trợ thêm cho mình nhé.”
+
+
+  5. “Dạ mình cùng giữ bình tĩnh để chuyến xe an toàn ạ.”
+
+
+**⏱ 28–33 phút — PHẦN 4: 3 TÌNH HUỐNG THỰC CHIẾN + ROLE-PLAY NHANH**
+**Tình huống 1** – Khách la: “Sao trễ thế hả? Tôi trễ họp rồi!”
+→ Học viên thực hành: kỹ thuật 10 giây + câu mẫu 1 hoặc 3
+**Tình huống 2** – Kẹt xe, khách đập ghế: “Chạy đường khác đi!”
+→ Học viên: kỹ thuật 10 giây + câu mẫu 2 + giữ tốc độ an toàn
+**Tình huống 3** – Khách say, chửi bới liên tục
+→ Học viên: kỹ thuật 10 giây + câu mẫu 4 + bấm SOS lặng lẽ
+→ Giảng viên đi vòng sửa giọng, sửa tư thế từng người
+**⏱ 33–35 phút — KẾT THÚC BÙNG NỔ**
+Cả lớp đứng dậy, giơ tay hô thật to:
+“TÔI LÀ CHỦ CẢM XÚC CỦA CHÍNH MÌNH!”
+“KHÁCH CÀNG NÓNG – TÔI CÀNG MÁT!”
+“10 GIÂY BÌNH TĨNH = 5 SAO + AN TOÀN + THU NHẬP CAO!”
+Giảng viên kết:
+“Các anh chị thân mến!
+Từ hôm nay, không còn khách nào “dắt” được cảm xúc của các anh chị nữa!
+Các anh chị chính là những tài xế MẠNH NHẤT về tinh thần mà Unitaxi từng có!
+Bước ra đường và lái bằng TRÁI TIM BÌNH TĨNH, ĐẦU LẠNH, VÀ NỤ CƯỜI LUÔN SẴN SÀNG nào! ❤️🚕”
+* * *
+# **VIII. QUY TRÌNH BÁO ĐIỀU PHỐI KHI MỆT (20 phút)**
+**📘 VIII. QUY TRÌNH BÁO ĐIỀU PHỐI KHI MỆT – 20 PHÚT “MỆT LÀ BÁO, KHÔNG LÀ CỐ”**
+**Chuẩn Uber Rest Standard + Lyft Fatigue Protocol + JapanTaxi Safety + LTA Singapore**
+**🎯 Mục tiêu sau 20 phút**
+  * Không còn ai “cố thêm 1 cuốc” khi đã mệt
+
+
+  * Biết báo đúng 1 câu – đúng 3 bước – đúng quy trình
+
+
+  * Giảm 100% tai nạn do mệt mỏi
+
+
+  * Trở thành tài xế biết nói “Em mệt” một cách CHUYÊN NGHIỆP NHẤT
+
+
+**⏱ 0–5 phút — PHẦN 1: TẠI SAO MỆT LÀ PHẢI BÁO NGAY?**
+Giảng viên chiếu 3 con số KHỦNG + cả lớp đọc to:
+  1. “70% tai nạn có thể tránh được nếu tài xế nghỉ đúng lúc!” – Uber Global 2024
+
+
+  2. “Tranh cãi với khách tăng gấp 4 lần khi tài xế mệt!” – Lyft Safety Report
+
+
+  3. “40% tai nạn đô thị ở Nhật do tài xế cố khi đã có dấu hiệu mệt!” – JapanTaxi 2023
+
+
+→ Unitaxi KHÔNG BAO GIỜ phạt người báo mệt.
+→ Unitaxi CHỈ phạt người cố lái khi mệt và gây sự cố.
+**⏱ 5–12 phút — PHẦN 2: 7 DẤU HIỆU MỆT = PHẢI DỪNG + BÁO NGAY**
+Giảng viên giơ 7 ngón tay – cả lớp hô to từng dấu hiệu:
+  1. MẮT CAY – NHEO LIÊN TỤC!
+
+
+  2. PHẢN XẠ CHẬM – ĐẠP THẮNG TRỄ!
+
+
+  3. NGÁP ≥ 3 LẦN TRONG 5 PHÚT!
+
+
+  4. BUỒN NGỦ – LẮC ĐẦU ĐỂ TỈNH!
+
+
+  5. ĐAU ĐẦU – CỔ CĂNG!
+
+
+  6. HOA MẮT – KHÔNG NHÌN RÕ ĐƯỜNG!
+
+
+  7. KHÓ CHỊU VÔ CỚ – DỄ CÁU!
+
+
+**Cả lớp hô to 3 lần:**
+“CHỈ CẦN 1 DẤU HIỆU = BÁO NGAY!”
+**⏱ 12–18 phút — PHẦN 3: QUY TRÌNH 3 BƯỚC BẮT BUỘC (thuộc lòng + thực hành)**
+Giảng viên viết to lên bảng – cả lớp hô theo từng bước:
+**BƯỚC 1 – BÁO NGẮN GỌN (10 giây)**
+5 câu mẫu chuẩn (cả lớp đọc to 3 vòng):
+  1. “Em đang mệt, khó tập trung, xin hỗ trợ ạ.”
+
+
+  2. “Em hơi hoa mắt, xin phép báo để đảm bảo an toàn.”
+
+
+  3. “Em đang buồn ngủ, xin đổi ca ngay ạ.”
+
+
+  4. “Em mất tỉnh táo, xin nghỉ ngắn ạ.”
+
+
+  5. “Em cần hỗ trợ vì đang có dấu hiệu mệt.”
+
+
+→ CẤM nói: “Em cố được”, “Em chạy nốt cuốc này”, “Tại kẹt xe nên mệt”
+**BƯỚC 2 – YÊU CẦU 1 TRONG 3 HÌNH THỨC**
+  1. Đổi ca
+
+
+  2. Nghỉ 5–10 phút
+
+
+  3. Tạm dừng nhận cuốc
+
+
+**BƯỚC 3 – CHỜ XÁC NHẬN 100%**
+→ Không tự tắt app
+→ Không tự bỏ cuốc
+→ Không tự chạy về
+→ Chỉ làm đúng hướng dẫn của điều phối
+**⏱ 18–20 phút — ROLE-PLAY SIÊU NHANH (3 tình huống)**
+Giảng viên chia cặp – 30 giây mỗi tình huống:
+  1. Đang chờ khách, mắt cay → gọi điều phối
+
+
+  2. Đang chạy, buồn ngủ → bấm gọi ngay
+
+
+  3. Điều phối chưa nghe máy → đỗ xe an toàn, bật đèn khẩn cấp, chờ
+
+
+**⏱ 20 phút — KẾT THÚC BÙNG NỔ**
+Cả lớp đứng dậy, giơ tay hô thật to:
+“MỆT LÀ BÁO – KHÔNG LÀ CỐ!”
+“TÔI BÁO MỆT = TÔI BẢO VỆ MÌNH VÀ KHÁCH!”
+“1 CÂU BÁO ĐÚNG = 10 NĂM BÌNH AN!”
+Giảng viên kết:
+“Các anh chị thân mến!
+Từ hôm nay, khi các anh chị nói “Em mệt” – đó không phải yếu đuối,
+đó là hành động DŨNG CẢM và CHUYÊN NGHIỆP NHẤT của một tài xế 5 sao!
+Unitaxi luôn tự hào và luôn đứng sau lưng các anh chị 24/7!
+Bây giờ… ra đường và lái bằng 100% tỉnh táo, 200% trách nhiệm nào! ❤️🚕”
+* * *
+# **IX. BÀI KIỂM TRA THỰC HÀNH (10 phút)**
+**📘 IX. BÀI KIỂM TRA THỰC HÀNH “AN TOÀN 100%” – 10 PHÚT QUYẾT ĐỊNH**
+**Chuẩn Uber + Lyft + JapanTaxi + LTA Singapore – Mixed Test**
+**🎯 Mục tiêu**
+  * Kiểm tra kiến thức đã “thấm” thật chưa
+
+
+  * Đảm bảo 100% tài xế đủ năng lực an toàn trước khi ra ca thật
+
+
+  * Không ai ra đường nếu chưa đạt ≥ 85%
+
+
+  * *
+
+
+ **⏱ 0–5 phút — PHẦN 1: 10 CÂU TRẮC NGHIỆM SIÊU NHANH**
+Giảng viên phát phiếu A4 – học viên khoanh đáp án trong 3 phút – chấm ngay tại chỗ.
+|     |
+| Câu | Câu hỏi                                 | Đáp án đ úng                              |
+|-----|-----------------------------------------|-------------------------------------------|
+| 1   | Buồn ngủ nhẹ → làm gì đầu tiên?         | C. Báo điều phối ngay                     |
+| 2   | Dấu hiệu nào KHÔNG được lái tiếp?       | D. Hoa mắt + phản xạ chậm                 |
+| 3   | Nghỉ ngắn sau mỗi bao lâu?              | B. 5–10 phút sau 3–4 giờ                  |
+| 4   | Khách say, quy tắc số 1?                | A. Không tranh cãi                        |
+| 5   | Say nắng → việc đầu tiên?               | B. Dừng xe – bật điều hòa – báo điều phối |
+| 6   | Dùng điện thoại khi lái → nguy cơ?      | B. Mất tập trung 3 giây → tai nạn tăng x4 |
+| 7   | Đau lưng trong ca → làm gì?             | B. Dừng nghỉ + giãn cơ                    |
+| 8   | Trường hợp nào phải gọi điều phối ngay? | C. Va chạm nhẹ                            |
+| 9   | Kẹt xe + căng thẳng → làm gì?           | C. Giữ tốc độ ổn định + hít sâu 4 lần     |
+| 10  | Ngưỡng tối đa không được lái tiếp?      | C. 10 giờ liên tục                        |
+
+
+**Chấm điểm nhanh:**
+10 đúng → 100% → ĐẠT
+8–9 đúng → 80–90% → Cảnh báo + ôn lại
+Dưới 8 → Phải học lại buổi hôm sau
+**⏱ 5–10 phút — PHẦN 2: 5 TÌNH HUỐNG THỰC TẾ (giảng viên đọc – học viên trả lời to 3 bước)**
+Giảng viên hô: “TÌNH HUỐNG 1 – GO!” → cả lớp đồng thanh đáp án chuẩn.
+  1. **Buồn ngủ – ngáp liên tục**
+→ 1. Dừng xe an toàn
+→ 2. Báo: “Em đang buồn ngủ, xin nghỉ 5–10 phút ạ.”
+→ 3. Không nhận cuốc mới
+
+
+  2. **Say nắng – choáng, nóng đầu**
+→ 1. Tấp vào bóng râm ngay
+→ 2. Bật điều hòa + uống nước ấm
+→ 3. Báo điều phối xin đổi ca
+
+
+  3. **Khách la mắng vì trễ**
+→ 1. Hạ giọng cực nhẹ
+→ 2. “Dạ em hiểu, để em xử lý ngay ạ.”
+→ 3. Nếu khách tiếp tục → báo điều phối
+
+
+  4. **Đau thắt lưng không ngồi thẳng được**
+→ 1. Dừng xe nghỉ 5–10 phút
+→ 2. Giãn cơ xoay vai + nghiêng cổ
+→ 3. Báo điều phối nếu không đỡ
+
+
+  5. **Nhận tin nhắn cá nhân khi đang chạy**
+→ 1. TUYỆT ĐỐI KHÔNG ĐỌC
+→ 2. Tấp vào lề an toàn mới xem
+→ 3. Xong việc mới tiếp tục lái
+
+
+**⏱ 10 phút — KẾT THÚC + TRAO CHỨNG NHẬN NHANH**
+Giảng viên hô lớn:
+“Ai đạt 85% trở lên – giơ tay!” → vỗ tay rần rần
+“Ai dưới 85% – mai quay lại học tiếp, không sao cả, an toàn là trên hết!”
+Cả lớp hô đồng thanh 3 lần:
+“TÔI ĐÃ SẴN SÀNG LÁI AN TOÀN 100%!”
+“KHÔNG MỆT – KHÔNG CỐ – CHỈ 5 SAO!”
+“UNITAXI – AN TOÀN LÀ SỐ 1!”
+**Giảng viên kết cuối:**
+“Các anh chị đã chính thức trở thành những TÀI XẾ AN TOÀN ĐẲNG CẤP QUỐC TẾ!
+Hãy mang kiến thức này ra đường và biến mỗi chuyến xe thành một hành trình 5 sao + an toàn tuyệt đối!
+Unitaxi tự hào vì các anh chị! ❤️🚕⚡”
+* * *
+# **X. TINH THẦN KHÓA HỌC**
+**📘 X. TINH THẦN KHÓA HỌC – FINAL MINDSET STATEMENT**
+**“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG BẢO VỆ MẠNG SỐNG”**
+**(Chuẩn Uber Driver Integrity + Lyft Professional Mindset + JapanTaxi “Kokoro no Anzen” + LTA Singapore Driver Oath)**
+**⏱ 10 phút cuối cùng – phần thiêng liêng nhất của khóa học**
+**🔹 5 KHẲNG ĐỊNH CỐT LÕI – UNITAXI DRIVER MINDSET**
+  1. “Giữ tỉnh táo là giữ mạng sống – của tôi và của khách.”
+
+
+  2. “Một tài xế khỏe mới là một tài xế an toàn.”
+
+
+  3. “An toàn không phải lựa chọn – an toàn là nghề.”
+
+
+  4. “Tôi lái bằng trách nhiệm – không bằng cảm xúc.”
+
+
+  5. “Mỗi chuyến xe là một lời hứa: đưa khách về tới nơi – an toàn và trọn vẹn.”
+
+
+**🔹 TUYÊN NGÔN NGHỀ NGHIỆP UNITAXI**
+**(Giảng viên + toàn bộ học viên đứng dậy, đọc to từng câu – giọng chắc, mắt nhìn thẳng)**
+“Tôi đặt an toàn lên trên tốc độ, trên áp lực, trên mọi hoàn cảnh.
+Tôi lái xe để khách cảm thấy được tôn trọng và yên tâm tuyệt đối.
+Tôi tôn trọng luật, tôn trọng khách, tôn trọng đồng nghiệp và tôn trọng chính mình.
+Tôi không bao giờ đánh cược mạng sống – của mình, của khách, của gia đình họ.
+Tôi tự hào là tài xế Unitaxi – vì mỗi vòng quay bánh xe là một lần tôi làm nên lịch sử taxi Việt Nam đẳng cấp quốc tế!”
+**🔹 TINH THẦN CỦA MỘT TÀI XẾ CHUYÊN NGHIỆP UNITAXI**
+  * Bình tĩnh khi khách căng thẳng → vì tôi là người điều khiển năng lượng chuyến xe.
+
+
+  * Chính xác trong từng thao tác → vì sai 1 giây có thể thay đổi cả cuộc đời.
+
+
+  * Nâng tiêu chuẩn mỗi ngày → vì khách xứng đáng được phục vụ tốt hơn hôm qua.
+
+
+  * Luôn tỉnh táo – luôn sạch sẽ – luôn tôn trọng – luôn trung thực – luôn tự hào.
+
+
+**🔹 LỜI CAM KẾT CUỐI KHÓA (cả lớp đồng thanh – 30 giây)**
+Giảng viên dẫn dắt, cả lớp hô theo từng câu:
+“TÔI CAM KẾT LÁI AN TOÀN!”
+“TÔI CAM KẾT GIỮ TỈNH TÁO!”
+“TÔI CAM KẾT TÔN TRỌNG KHÁCH!”
+“TÔI CAM KẾT ĐẠI DIỆN CHO UNITAXI BẰNG TÁC PHONG TỐT NHẤT!”
+“TÔI LÀ TÀI XẾ UNITAXI – TÔI LÁI XE BẰNG TRÁI TIM VÀ TRÁCH NHIỆM!”
+**⏱ Kết thúc – giảng viên nói chậm, giọng trầm, truyền cảm hứng**
+“Các anh chị thân mến!
+Từ giây phút này, các anh chị không còn là những tài xế bình thường nữa.
+Các anh chị là những CHIẾN BINH AN TOÀN – những ĐẠI SỨ 5 SAO – những NGƯỜI HÙNG THẦM LẶNG của kỷ nguyên taxi điện Việt Nam!
+Hãy bước ra khỏi phòng học này, cầm chắc tay lái và tự nhủ thật to:
+“TÔI KHÔNG CHỈ LÁI XE – TÔI ĐANG VIẾT NÊN LỊCH SỬ UNITAXI ĐẲNG CẤP THẾ GIỚI!”
+Unitaxi tự hào vì có các anh chị!
+Việt Nam tự hào vì có các anh chị!
+Bây giờ… ra đường và LÀM NÊN KỲ TÍCH nào! ⚡🚕🇻🇳❤️”
+**(Toàn bộ học viên đứng dậy vỗ tay + chụp ảnh kỷ yếu khóa học – không khí bùng nổ tự hào!)**
+\--- **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**MOC:** [[vietnamese_MOC]]

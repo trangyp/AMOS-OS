@@ -1,3 +1,9 @@
+---
+title: L21 LEARNING PRIMITIVES COGNITIVE MATRIX MEMORY
+type: note
+tags: [note, l21-learning]
+---
+
 # L21 — Memory Contract
 
 **Package:** `L21_LEARNING`  
@@ -38,3 +44,6 @@ node_type: note
 path: 01_PRIMITIVES/L21_LEARNING/L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_MEMORY.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/L21_LEARNING_PRIMITIVES_COGNITIVE_MATRIX_MEMORY.md
+
+---
+**MOC:** [[L21_LEARNING_MOC]]

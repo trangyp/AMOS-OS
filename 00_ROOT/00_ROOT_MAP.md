@@ -8,7 +8,7 @@ tags: ['amos_os', '00_root']
 Navigation map for the `00_ROOT` segment of the Root plane.
 
 - **Artifact** — [[00_ROOT/00-Home]]
-- **Artifact** — [[00_ROOT/00_Cosmo_Brain_MOC]]
+- **Artifact** — [[00_COSMO_BRAIN_MOC]]
 - **Artifact** — [[00_ROOT_ARCHITECTURE]]
 - **Artifact** — [[00_ROOT_AUDIT]]
 - **Artifact** — [[00_ROOT_AUTHORIZATION]]
@@ -30,10 +30,10 @@ Navigation map for the `00_ROOT` segment of the Root plane.
 - **Artifact** — [[00_ROOT_RELEASE_NOTES]]
 - **Artifact** — [[00_ROOT_STATUS]]
 - **Artifact** — [[00_ROOT_VERSIONING]]
-- **Artifact** — [[AMOS_Layer_Maps]]
+- **Artifact** — [[AMOS_LAYER_MAPS]]
 - **Artifact** — [[AMOS_RSCF_NODES]]
-- **Artifact** — [[AMOS_Templates]]
-- **Artifact** — [[00_ROOT/ARCHITECTURE]]
+- **Artifact** — [[AMOS_TEMPLATES]]
+- **Artifact** — [[ARCHITECTURE]]
 - **Artifact** — [[AUTHORITATIVE_STATE]]
 - **Artifact** — [[COGNITIVE_MATRIX_INTEGRATION]]
 - **Artifact** — [[DEPENDENCY_MAP]]
@@ -42,9 +42,9 @@ Navigation map for the `00_ROOT` segment of the Root plane.
 - **Artifact** — [[PLACEMENT_RULES]]
 - **Readme** — README
 - **Artifact** — [[ROADMAP]]
-- **Artifact** — [[00_ROOT/RSCF_NODE_INDEX]]
+- **Artifact** — [[RSCF_NODE_INDEX]]
 - **Artifact** — [[SYSTEM_MAP]]
-- **Artifact** — [[SYSTEM_MAP_v1]]
+- **Artifact** — [[SYSTEM_MAP_V1]]
 
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.
@@ -70,7 +70,7 @@ Given an operation touching `00 ROOT MAP` within the Root plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -88,3 +88,6 @@ node_id: amos_00_root_00_root_map_md
 node_type: note
 path: 00_ROOT/00_ROOT_MAP.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[00_COSMO_BRAIN_MOC]]

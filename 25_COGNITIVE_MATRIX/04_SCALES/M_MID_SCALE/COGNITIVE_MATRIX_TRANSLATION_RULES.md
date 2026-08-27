@@ -1,3 +1,9 @@
+---
+title: COGNITIVE MATRIX TRANSLATION RULES
+type: note
+tags: [note, m-mid-scale]
+---
+
 # M — Translation Rules
 
 **Package:** `M_MID_SCALE`  
@@ -38,3 +44,6 @@ node_type: note
 path: 04_SCALES/M_MID_SCALE/COGNITIVE_MATRIX_TRANSLATION_RULES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/COGNITIVE_MATRIX_TRANSLATION_RULES.md
+
+---
+**MOC:** [[M_MID_SCALE_MOC]]

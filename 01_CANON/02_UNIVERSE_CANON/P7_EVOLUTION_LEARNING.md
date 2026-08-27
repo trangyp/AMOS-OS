@@ -1,3 +1,9 @@
+---
+title: P7 EVOLUTION LEARNING
+type: note
+tags: [note, 02-universe-canon]
+---
+
 Below is the **full replacement content** for:
 
 `01_CANON/02_UNIVERSE_CANON/P7_EVOLUTION_LEARNING.md`
@@ -4852,3 +4858,6 @@ claim_class: AMOS_MODEL
 
 **Conclusion class: `DERIVED / CONDITIONAL`.** This closes P7 architecturally without promoting the source-supplied `10 cycles`, `PV law`, `K-2`, or `L9 Evolution Laws` beyond what the supplied specification actually establishes. The decisive P7 boundary is: **AMOS may evolve components under invariants, but the evolution mechanism does not thereby acquire authority to rewrite the integrity stack that governs evolution itself.**
 ```
+
+---
+**MOC:** [[02_UNIVERSE_CANON_MOC]]

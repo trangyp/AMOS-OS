@@ -1,3 +1,9 @@
+---
+title: GENERATORS CHANGE LOG
+type: note
+tags: [note, 12-generators]
+---
+
 Below is a full AMOS-aligned replacement for `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG.md`. Unlike `HISTORY.md`, this file should be an **append-oriented operational record of accepted changes to the Generator subsystem artifacts and contracts**, while preserving provenance, supersession, validation state, and explicit uncertainty. It must not reconstruct missing history or treat every edit as authoritative change. This follows the AMOS Full Brain OS requirement to preserve source terminology/provenance, distinguish structural model from verified implementation, and expose gaps rather than invent them.  The Skill’s primary canon source is `AMOS_FULL_BRAIN_OS.json`; alignment with that structure does not itself establish runtime validity or final canon. 
 
 ````md
@@ -2085,7 +2091,7 @@ RSCF-NODE:
 RSCF-RELATIONS:
 
   - INDEXED_BY:
-      "[[00_ROOT/00-Home]]"
+      "[[00_HOME]]"
 
   - INDEXED_BY:
       "[[AMOS_RSCF_NODES]]"
@@ -2097,7 +2103,7 @@ RSCF-RELATIONS:
       "[[COGNITIVE_MATRIX_MOC]]"
 
   - RELATED_TO:
-      "[[25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_CONTRACT|Generator Contract]]"
+      "[[GENERATOR_CONTRACT|Generator Contract]]"
 
   - RELATED_TO:
       "Generator Provenance"
@@ -2109,7 +2115,7 @@ RSCF-RELATIONS:
       "Generator Tests"
 
   - RELATED_TO:
-      "[[00_ROOT/ROADMAP|Generator Roadmap]]"
+      "[[ROADMAP|Generator Roadmap]]"
 
   - RELATED_TO:
       "Generator Integration"
@@ -2906,7 +2912,7 @@ NON_AUTHORITATIVE
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
 
 ## Related Generator artifacts
 
@@ -2954,3 +2960,6 @@ GENERATORS_CHANGE_LOG.md
 ````
 
 That keeps the Change Log operational and auditable instead of allowing it to become a second History file or a narrative list of unsupported “updates.”
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

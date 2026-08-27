@@ -1,6 +1,11 @@
 ---
+title: F27CC831 ED1E 4764 896C 24B01EBE2302 THE TRANG SYSTEM CODEX META LAWS
 tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/observation, topic/f27cc831-ed1e-4764-896c-24b01ebe2302-the, trang]
+type: note
+source: 11_KNOWLEDGE/trang
 ---
+
+
 
 THE TRANG SYSTEM™ CODEX –
 META-LAWS
@@ -2898,4 +2903,7 @@ This finishes the structural Codex of the Trang System™.
 THE TRANG SYSTEM™ CODEX  METALAWS66
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[trang_MOC]]

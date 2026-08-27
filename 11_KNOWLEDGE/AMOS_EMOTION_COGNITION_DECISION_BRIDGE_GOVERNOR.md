@@ -1,4 +1,5 @@
 ---
+title: AMOS EMOTION COGNITION DECISION BRIDGE GOVERNOR
 canon-group: reference
 rscf-state: derived
 tags:
@@ -12,6 +13,7 @@ tags:
 - c01
 - c10
 ---
+
 # AMOS Emotion-Cognition-Decision Bridge Governor
 
 ## Overview
@@ -133,3 +135,6 @@ Explicit rules linking nervous system state to emotional posture:
 L4 is the primary bridge point between C05 emotion and C01/C10 decision-making.
 
 **Limits**: Not a medical device. High-stakes decisions demand human review.
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

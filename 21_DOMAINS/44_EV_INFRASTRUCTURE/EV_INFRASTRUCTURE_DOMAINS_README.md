@@ -35,7 +35,7 @@ Given an operation touching `EV INFRASTRUCTURE DOMAINS README` within the Domain
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -53,3 +53,6 @@ node_id: amos_21_domains_44_ev_infrastructure_ev_infrastructure_domains_readme_m
 node_type: note
 path: 21_DOMAINS/44_EV_INFRASTRUCTURE/EV_INFRASTRUCTURE_DOMAINS_README.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[44_EV_INFRASTRUCTURE_MOC]]

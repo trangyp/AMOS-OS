@@ -50,7 +50,7 @@ Given an operation touching `EXPERIMENTS RESEARCH EXPERIMENTS CONTRACT` within t
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_h_02_experiments_00_index_experiments_research_experiments_contrac
 node_type: note
 path: 22_RESEARCH/02_EXPERIMENTS/00_INDEX/EXPERIMENTS_RESEARCH_EXPERIMENTS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_EXPERIMENTS_RESEARCH_README]]

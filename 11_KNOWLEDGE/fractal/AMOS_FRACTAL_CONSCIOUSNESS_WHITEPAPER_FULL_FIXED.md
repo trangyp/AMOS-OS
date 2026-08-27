@@ -1,4 +1,5 @@
 ---
+title: AMOS FRACTAL CONSCIOUSNESS WHITEPAPER FULL FIXED
 name: amos-fractal-consciousness-astrology-matter-light-time-energy-society
 version: 2.0.0
 created: 2026-08-25
@@ -20,6 +21,7 @@ description: >-
   competing hypotheses, falsifiers, and selective repair.
 tags: [fractal]
 ---
+
 
 # AMOS ALIGNMENT LAYER
 
@@ -292,7 +294,8 @@ flowchart TD
         N2["🔄 Ranh giới là mong manh và fractal"]
         N3["⚡ Bạn tương tác liên tục với môi trường qua nhiều tầng"]
         N4["🌀 Thời gian có thể uốn cong, đảo ngược và phân nhánh"]
-        N5["🔬 Thần giao cách cảm, linh cảm, năng lượng địa điểm<br>có thể có cơ sở trong vật lý lượng tử và fractal"]
+        N5["🔬 Thần giao cách cảm, linh cảm, năng lượng địa điểm
+có thể có cơ sở trong vật lý lượng tử và fractal"]
     end
 
     OLD_VIEW --> NEW_VIEW
@@ -314,9 +317,12 @@ Câu trả lời: **Từ bên trong lõi của những ngôi sao khổng lồ.**
 ```
 flowchart LR
     subgraph STAR_LIFE["⭐ VÒNG ĐỜI CỦA MỘT NGÔI SAO"]
-        S1["💨 Khí Hydro"] -->|Nhiệt độ & áp suất| S2["🔥 Tổng hợp hạt nhân<br>Hydro → Helium → Carbon → Oxy → Sắt"]
-        S2 -->|Hết nhiên liệu| S3["💥 Siêu tân tinh (Supernova)<br>Phát tán nguyên tố nặng"]
-        S3 --> S4["🌌 Đám mây khí & bụi<br>giàu nguyên tố nặng"]
+        S1["💨 Khí Hydro"] -->|Nhiệt độ & áp suất| S2["🔥 Tổng hợp hạt nhân
+Hydro → Helium → Carbon → Oxy → Sắt"]
+        S2 -->|Hết nhiên liệu| S3["💥 Siêu tân tinh (Supernova)
+Phát tán nguyên tố nặng"]
+        S3 --> S4["🌌 Đám mây khí & bụi
+giàu nguyên tố nặng"]
         S4 -->|Hấp dẫn| S5["🪐 Hệ Mặt Trời & Trái Đất"]
     end
 
@@ -354,10 +360,13 @@ Bạn nghĩ mắt chỉ dùng để nhìn? Sai. Một phát hiện mang tính c�
 ```
 flowchart TD
     subgraph EYE["👁️ MẮT BẠN KHÔNG CHỈ ĐỂ NHÌN"]
-        A["🔵 Ánh sáng xanh 480nm"] --> B["🔬 Tế bào ipRGCs<br>(chứa melanopsin)"]
+        A["🔵 Ánh sáng xanh 480nm"] --> B["🔬 Tế bào ipRGCs
+(chứa melanopsin)"]
         B --> C["🧠 Hạch nền trên chéo (SCN)"]
         C --> D["⏰ Đồng hồ chính của cơ thể"]
-        D --> E["🔄 Đồng bộ hàng nghìn tỷ<br>'đồng hồ ngoại vi'<br>trong mọi cơ quan"]
+        D --> E["🔄 Đồng bộ hàng nghìn tỷ
+'đồng hồ ngoại vi'
+trong mọi cơ quan"]
     end
 
     subgraph EFFECT["🌡️ HỆ QUẢ"]
@@ -404,13 +413,19 @@ flowchart LR
     subgraph SPACETIME["🌌 THỜI - KHÔNG GIAN (Einstein)"]
         A["📦 Không gian 3 chiều"]
         B["⏰ Thời gian 1 chiều"]
-        C["⚡ Tốc độ ánh sáng là hằng số<br>(299,792,458 m/s)"]
+        C["⚡ Tốc độ ánh sáng là hằng số
+(299,792,458 m/s)"]
     end
 
     subgraph CONSEQUENCE["🔻 HỆ QUẢ"]
-        D["🕰️ Giãn thời gian hấp dẫn<br>(Gravitational time dilation)<br>Đồng hồ chạy chậm hơn ở gần vật thể có khối lượng lớn"]
-        E["🚀 Giãn thời gian vận tốc<br>(Velocity time dilation)<br>Đồng hồ chạy chậm hơn khi chuyển động càng nhanh"]
-        F["🌀 Sự đảo ngược thời gian<br>có thể xảy ra gần lỗ đen"]
+        D["🕰️ Giãn thời gian hấp dẫn
+(Gravitational time dilation)
+Đồng hồ chạy chậm hơn ở gần vật thể có khối lượng lớn"]
+        E["🚀 Giãn thời gian vận tốc
+(Velocity time dilation)
+Đồng hồ chạy chậm hơn khi chuyển động càng nhanh"]
+        F["🌀 Sự đảo ngược thời gian
+có thể xảy ra gần lỗ đen"]
     end
 
     SPACETIME --> CONSEQUENCE
@@ -433,9 +448,17 @@ flowchart TD
     end
 
     subgraph FRACTAL_TIME["🌀 QUAN NIỆM MỚI (Vật lý lý thuyết & Fractal)"]
-        F1["Thời gian có cấu trúc fractal:<br>tự đồng dạng ở nhiều thang đo<br>(phút, giờ, năm, thế kỷ, chu kỷ địa chất)"]
-        F2["Hiện tại không phải một điểm,<br>mà là một 'vùng' (a thick present)<br>có chiều dài ~ 2-3 giây<br>(theo nghiên cứu EEG/MEG)"]
-        F3["Quá khứ và tương lai có thể<br>'kết nối' với hiện tại qua<br>cấu trúc fractal của không-thời gian<br>(Mô hình 'Implicate Order' của David Bohm)"]
+        F1["Thời gian có cấu trúc fractal:
+tự đồng dạng ở nhiều thang đo
+(phút, giờ, năm, thế kỷ, chu kỷ địa chất)"]
+        F2["Hiện tại không phải một điểm,
+mà là một 'vùng' (a thick present)
+có chiều dài ~ 2-3 giây
+(theo nghiên cứu EEG/MEG)"]
+        F3["Quá khứ và tương lai có thể
+'kết nối' với hiện tại qua
+cấu trúc fractal của không-thời gian
+(Mô hình 'Implicate Order' của David Bohm)"]
     end
 
     LINEAR --> FRACTAL_TIME
@@ -463,13 +486,18 @@ Albert Einstein từng gọi hiện tượng vướng mắc lượng tử là **
 ```
 flowchart LR
     subgraph ENTANGLEMENT["🔗 VƯỚNG MẮC LƯỢNG TỬ"]
-        A["🎲 Hạt A<br>Spin lên"]
-        B["🎲 Hạt B<br>Spin xuống"]
+        A["🎲 Hạt A
+Spin lên"]
+        B["🎲 Hạt B
+Spin xuống"]
     end
 
-    C["📏 Dù cách xa nhau<br>hàng triệu năm ánh sáng"]
+    C["📏 Dù cách xa nhau
+hàng triệu năm ánh sáng"]
 
-    A <-.->|"Thông tin lượng tử<br>kết nối tức thời<br>(nhanh hơn tốc độ ánh sáng)"| B
+    A <-.->|"Thông tin lượng tử
+kết nối tức thời
+(nhanh hơn tốc độ ánh sáng)"| B
     C -.-> A & B
 
     style A fill:#cce5ff,stroke:#333
@@ -496,13 +524,23 @@ Lý thuyết fractal cho thấy rằng **cấu trúc của vũ trụ có tính t
 ```
 flowchart TD
     subgraph FRACTAL_NONLOCAL["🌀 KẾT NỐI PHI CỤC BỘ FRACTAL (Tính tự đồng dạng xuyên thang đo)"]
-        Q["🔬 Cấp độ lượng tử:<br>Vướng mắc giữa hai hạt<br>(✅ Đã được chứng minh, đoạt giải Nobel 2022)"]
-        B["🧬 Cấp độ sinh học:<br>Sự đồng bộ giữa hai hệ thần kinh?<br>(Đang được nghiên cứu - EEG/ECG hyperscanning)"]
-        C["🧠 Cấp độ nhận thức:<br>Sự thấu cảm (empathy) mạnh mẽ?<br>Hiện tượng 'biết trước' (precognition)?"]
-        S["🌐 Cấp độ xã hội:<br>Sự lan tỏa của ý tưởng,<br>'tâm lý bầy đàn',<br>hành vi tập thể"]
+        Q["🔬 Cấp độ lượng tử:
+Vướng mắc giữa hai hạt
+(✅ Đã được chứng minh, đoạt giải Nobel 2022)"]
+        B["🧬 Cấp độ sinh học:
+Sự đồng bộ giữa hai hệ thần kinh?
+(Đang được nghiên cứu - EEG/ECG hyperscanning)"]
+        C["🧠 Cấp độ nhận thức:
+Sự thấu cảm (empathy) mạnh mẽ?
+Hiện tượng 'biết trước' (precognition)?"]
+        S["🌐 Cấp độ xã hội:
+Sự lan tỏa của ý tưởng,
+'tâm lý bầy đàn',
+hành vi tập thể"]
     end
 
-    Q -->|"🌀 Tính tự đồng dạng<br>(Fractal Self-similarity)"| B --> C --> S
+    Q -->|"🌀 Tính tự đồng dạng
+(Fractal Self-similarity)"| B --> C --> S
 
     style Q fill:#cce5ff,stroke:#333,stroke-width:3px
     style B fill:#ffffcc,stroke:#333
@@ -531,11 +569,28 @@ flowchart TD
 flowchart TD
     subgraph POSSIBLE["🔬 CÁC HIỆN TƯỢNG CÓ THỂ CÓ CƠ SỞ KHOA HỌC (CẦN NGHIÊN CỨU SÂU HƠN)"]
         direction LR
-        P1["👥 Sự đồng bộ<br>hệ thần kinh<br>giữa hai người<br>(EEG/ECG hyperscanning)<br>✅ Đã có bằng chứng"]
-        P2["🏞️ Cảm nhận<br>từ trường địa chất<br>(Magnetite trong não)<br>🔬 Đang được nghiên cứu"]
-        P3["🍃 Hiệu ứng<br>người quan sát<br>trong cơ học lượng tử<br>✅ Đã được chứng minh<br>(giải Nobel 2022)"]
-        P4["🌀 Cấu trúc fractal<br>của thời gian và<br>không gian<br>📐 Lý thuyết, đang được kiểm tra"]
-        P5["🔮 Vướng mắc<br>lượng tử sinh học<br>(Biological entanglement)<br>⚡ Giả thuyết, chưa chứng minh"]
+        P1["👥 Sự đồng bộ
+hệ thần kinh
+giữa hai người
+(EEG/ECG hyperscanning)
+✅ Đã có bằng chứng"]
+        P2["🏞️ Cảm nhận
+từ trường địa chất
+(Magnetite trong não)
+🔬 Đang được nghiên cứu"]
+        P3["🍃 Hiệu ứng
+người quan sát
+trong cơ học lượng tử
+✅ Đã được chứng minh
+(giải Nobel 2022)"]
+        P4["🌀 Cấu trúc fractal
+của thời gian và
+không gian
+📐 Lý thuyết, đang được kiểm tra"]
+        P5["🔮 Vướng mắc
+lượng tử sinh học
+(Biological entanglement)
+⚡ Giả thuyết, chưa chứng minh"]
     end
 
     style P1 fill:#ccffcc,stroke:#333
@@ -584,10 +639,18 @@ flowchart TD
 ```
 flowchart TD
     subgraph FRACTAL_BRAIN["🧠 TÍNH FRACTAL CỦA NÃO BỘ"]
-        F1["🔬 Tế bào thần kinh<br>(Dendrite fractal)<br>📏 Chiều fractal đo lường được"]
-        F2["🔗 Mạng lưới kết nối<br>(Small-world topology)<br>🌐 Tiết kiệm năng lượng, tối ưu truyền tin"]
-        F3["📈 Sóng não<br>(DFA fractal scaling)<br>📊 Liên quan đến trạng thái ý thức"]
-        F4["🧠 Toàn bộ não<br>(Hình dạng và cấu trúc gấp nếp)<br>🌀 Tự đồng dạng ở nhiều thang đo"]
+        F1["🔬 Tế bào thần kinh
+(Dendrite fractal)
+📏 Chiều fractal đo lường được"]
+        F2["🔗 Mạng lưới kết nối
+(Small-world topology)
+🌐 Tiết kiệm năng lượng, tối ưu truyền tin"]
+        F3["📈 Sóng não
+(DFA fractal scaling)
+📊 Liên quan đến trạng thái ý thức"]
+        F4["🧠 Toàn bộ não
+(Hình dạng và cấu trúc gấp nếp)
+🌀 Tự đồng dạng ở nhiều thang đo"]
     end
 
     F1 --> F2 --> F3 --> F4
@@ -607,9 +670,14 @@ flowchart TD
 ```
 flowchart LR
     subgraph ATTRACTOR["🌀 FRACTAL ATTRACTOR TRONG KHÔNG GIAN PHA"]
-        AT1["Trạng thái bình thường:<br>Attractor ổn định, chu kỳ"]
-        AT2["Sang chấn (Trauma):<br>Attractor lạ (strange attractor)<br>Hỗn loạn có tổ chức, vòng lặp bệnh lý"]
-        AT3["Chữa lành (Healing):<br>Thay đổi hình dạng attractor,<br>tạo chu kỳ mới"]
+        AT1["Trạng thái bình thường:
+Attractor ổn định, chu kỳ"]
+        AT2["Sang chấn (Trauma):
+Attractor lạ (strange attractor)
+Hỗn loạn có tổ chức, vòng lặp bệnh lý"]
+        AT3["Chữa lành (Healing):
+Thay đổi hình dạng attractor,
+tạo chu kỳ mới"]
     end
 
     AT1 --> AT2 --> AT3
@@ -638,9 +706,15 @@ Có một hiện tượng khoa học có thật, rất thú vị: Khi hai ngư�
 ```
 flowchart TD
     subgraph SYNC["📡 ĐỒNG BỘ LIÊN CÁ NHÂN (Interpersonal Synchrony)"]
-        S1["👥 Hai người tương tác<br>trò chuyện, nhìn mắt,<br>đồng cảm"]
-        S2["📊 Đo lường đồng thời:<br>ECG (tim), EEG (não),<br>hơi thở"]
-        S3["🔄 Kết quả:<br>Nhịp tim, sóng não<br>đồng bộ hóa"]
+        S1["👥 Hai người tương tác
+trò chuyện, nhìn mắt,
+đồng cảm"]
+        S2["📊 Đo lường đồng thời:
+ECG (tim), EEG (não),
+hơi thở"]
+        S3["🔄 Kết quả:
+Nhịp tim, sóng não
+đồng bộ hóa"]
     end
 
     S1 --> S2 --> S3
@@ -673,13 +747,31 @@ Mọi hệ thống sống đều được xây dựng trên bốn tầng nền n
 flowchart TD
     subgraph FOUR_LAYERS["🌌 BỐN TẦNG NỀN CỦA VẠN VẬT (Fractal & Lượng tử)"]
         direction LR
-        M["🪨 1. VẬT CHẤT<br>Nền tảng cứng<br>🌀 Fractal: Đám mây phân tử,<br>mạng tinh thể, cấu trúc xương,<br>🔬 Lượng tử: Vướng mắc, chồng chập"]
-        L["☀️ 2. ÁNH SÁNG<br>Tầng kích hoạt<br>🌀 Fractal: Tia chớp,<br>sự phân bố sao, vết rạn nứt<br>🔬 Lượng tử: Lưỡng tính sóng-hạt"]
-        T["⏳ 3. THỜI GIAN<br>Tầng tạo nhịp<br>🌀 Fractal: Chuỗi thời gian,<br>nhịp tim, chu kỳ kinh tế, lịch sử<br>🔬 Tương đối: Uốn cong, giãn nở"]
-        E["⚡ 4. ĐIỆN TỪ/NĂNG LƯỢNG<br>Tầng kết nối<br>🌀 Fractal: Tia sét,<br>mạng lưới thần kinh, cấu trúc thiên hà<br>🔬 Lượng tử: Trường, photon, hạt ảo"]
+        M["🪨 1. VẬT CHẤT
+Nền tảng cứng
+🌀 Fractal: Đám mây phân tử,
+mạng tinh thể, cấu trúc xương,
+🔬 Lượng tử: Vướng mắc, chồng chập"]
+        L["☀️ 2. ÁNH SÁNG
+Tầng kích hoạt
+🌀 Fractal: Tia chớp,
+sự phân bố sao, vết rạn nứt
+🔬 Lượng tử: Lưỡng tính sóng-hạt"]
+        T["⏳ 3. THỜI GIAN
+Tầng tạo nhịp
+🌀 Fractal: Chuỗi thời gian,
+nhịp tim, chu kỳ kinh tế, lịch sử
+🔬 Tương đối: Uốn cong, giãn nở"]
+        E["⚡ 4. ĐIỆN TỪ/NĂNG LƯỢNG
+Tầng kết nối
+🌀 Fractal: Tia sét,
+mạng lưới thần kinh, cấu trúc thiên hà
+🔬 Lượng tử: Trường, photon, hạt ảo"]
     end
 
-    FOUR_LAYERS --> LIFE["🧬 SỰ SỐNG CÓ Ý THỨC<br>Là giao điểm fractal - lượng tử - tương đối<br>của bốn tầng"]
+    FOUR_LAYERS --> LIFE["🧬 SỰ SỐNG CÓ Ý THỨC
+Là giao điểm fractal - lượng tử - tương đối
+của bốn tầng"]
 
     style M fill:#e6ccff,stroke:#333
     style L fill:#ffffcc,stroke:#333
@@ -705,32 +797,54 @@ Kết hợp tất cả các góc nhìn khoa học hiện đại:
 
 ```
 flowchart TD
-    subgraph QUANTUM["🔬 VẬT LÝ LƯỢNG TỬ<br>(Giải Nobel 2022)"]
-        Q1["🔗 Vướng mắc lượng tử<br>Kết nối phi cục bộ"]
-        Q2["👁️ Hiệu ứng người quan sát<br>Thực tại phụ thuộc vào đo lường"]
-        Q3["🔬 Vướng mắc sinh học?<br>Giả thuyết, đang nghiên cứu"]
+    subgraph QUANTUM["🔬 VẬT LÝ LƯỢNG TỬ
+(Giải Nobel 2022)"]
+        Q1["🔗 Vướng mắc lượng tử
+Kết nối phi cục bộ"]
+        Q2["👁️ Hiệu ứng người quan sát
+Thực tại phụ thuộc vào đo lường"]
+        Q3["🔬 Vướng mắc sinh học?
+Giả thuyết, đang nghiên cứu"]
     end
 
     subgraph RELATIVITY["⏳ THUYẾT TƯƠNG ĐỐI"]
         R1["🌌 Không-thời gian uốn cong"]
         R2["⏰ Giãn thời gian hấp dẫn/vận tốc"]
-        R3["🌀 Thời gian fractal &<br>trật tự tiềm ẩn (Bohm)"]
+        R3["🌀 Thời gian fractal &
+trật tự tiềm ẩn (Bohm)"]
     end
 
     subgraph FRACTAL["🌀 LÝ THUYẾT FRACTAL"]
         F1["🔄 Tính tự đồng dạng xuyên thang đo"]
         F2["📐 Cấu trúc hình học của tự nhiên"]
-        F3["🌀 Attractor lạ & hệ thống hỗn loạn<br>(Trauma, chữa lành)"]
+        F3["🌀 Attractor lạ & hệ thống hỗn loạn
+(Trauma, chữa lành)"]
     end
 
     subgraph NEURO["🧠 KHOA HỌC THẦN KINH"]
         N1["🌿 Cấu trúc fractal của nơ-ron"]
         N2["🔗 Mạng lưới small-world của não"]
         N3["📈 Sóng não & phân tích DFA"]
-        N4["👥 Đồng bộ liên cá nhân<br>(EEG/ECG hyperscanning)"]
+        N4["👥 Đồng bộ liên cá nhân
+(EEG/ECG hyperscanning)"]
     end
 
-    QUANTUM & RELATIVITY & FRACTAL --> NEURO --> CONCLUSION["✨ KẾT LUẬN CHUNG:<br><br>Bạn là một hệ thống fractal sống động,<br>được kết nối với toàn bộ vũ trụ<br>qua nhiều tầng vật chất, ánh sáng,<br>thời gian, năng lượng, và thông tin.<br><br>Những hiện tượng như 'thần giao cách cảm'<br>hay 'linh cảm' không còn là điều huyền bí<br>nếu được nhìn nhận như những biểu hiện<br>có thể có của cấu trúc fractal<br>và kết nối lượng tử trong vũ trụ.<br><br>Khoa học chưa chứng minh chắc chắn,<br>nhưng cũng không thể bác bỏ hoàn toàn.<br>Đây là biên giới của nhận thức."]
+    QUANTUM & RELATIVITY & FRACTAL --> NEURO --> CONCLUSION["✨ KẾT LUẬN CHUNG:
+
+Bạn là một hệ thống fractal sống động,
+được kết nối với toàn bộ vũ trụ
+qua nhiều tầng vật chất, ánh sáng,
+thời gian, năng lượng, và thông tin.
+
+Những hiện tượng như 'thần giao cách cảm'
+hay 'linh cảm' không còn là điều huyền bí
+nếu được nhìn nhận như những biểu hiện
+có thể có của cấu trúc fractal
+và kết nối lượng tử trong vũ trụ.
+
+Khoa học chưa chứng minh chắc chắn,
+nhưng cũng không thể bác bỏ hoàn toàn.
+Đây là biên giới của nhận thức."]
 
     style QUANTUM fill:#cce5ff,stroke:#333
     style RELATIVITY fill:#ffffcc,stroke:#333
@@ -1052,13 +1166,30 @@ Nó không phải là vật lý, nhưng nó là một công nghệ tri thức (k
 flowchart TD
     subgraph ASTRO["🔭 CHIÊM TINH LÀ BẢN ĐỒ FRACTAL CỦA..."]
         direction LR
-        A1["🪨 VẬT CHẤT<br>Hành tinh: Saturn, Venus, Mars<br>Cung: Kim Ngưu, Ma Kết, Xử Nữ, Thiên Yết<br>Chu kỳ: 29.5 năm (Saturn), 1 năm (Mặt Trời)<br>Câu hỏi: Ranh giới, tài sản, thân thể, bền bỉ, cái chết, sự tái sinh"]
-        A2["☀️ ÁNH SÁNG<br>Hành tinh: Mặt Trời, Sư Tử<br>Chu kỳ: 1 ngày, 1 năm (hoàng đạo)<br>Câu hỏi: Ý chí, bản ngã, khả năng tỏa sáng, trái tim, mục đích sống"]
-        A3["⏳ THỜI GIAN<br>Hành tinh: Mặt Trăng, Saturn<br>Cung: Cự Giải<br>Chu kỳ: 27.3 ngày (Mặt Trăng), 29.5 năm (Saturn), 2.5 năm (Jupiter)<br>Câu hỏi: Tôi sinh ở pha nào? Chu kỳ nào đang bắt đầu, đỉnh điểm, kết thúc?"]
-        A4["⚡ NĂNG LƯỢNG / TƯƠNG TÁC<br>Hành tinh: Mars, Mercury, Venus, Jupiter, Uranus, Neptune, Pluto<br>Cung: Song Tử, Thiên Bình, Bảo Bình, Song Ngư<br>Câu hỏi: Tác động, tín hiệu, hấp dẫn, mở rộng, đột phá, hòa tan, lực ngầm?"]
+        A1["🪨 VẬT CHẤT
+Hành tinh: Saturn, Venus, Mars
+Cung: Kim Ngưu, Ma Kết, Xử Nữ, Thiên Yết
+Chu kỳ: 29.5 năm (Saturn), 1 năm (Mặt Trời)
+Câu hỏi: Ranh giới, tài sản, thân thể, bền bỉ, cái chết, sự tái sinh"]
+        A2["☀️ ÁNH SÁNG
+Hành tinh: Mặt Trời, Sư Tử
+Chu kỳ: 1 ngày, 1 năm (hoàng đạo)
+Câu hỏi: Ý chí, bản ngã, khả năng tỏa sáng, trái tim, mục đích sống"]
+        A3["⏳ THỜI GIAN
+Hành tinh: Mặt Trăng, Saturn
+Cung: Cự Giải
+Chu kỳ: 27.3 ngày (Mặt Trăng), 29.5 năm (Saturn), 2.5 năm (Jupiter)
+Câu hỏi: Tôi sinh ở pha nào? Chu kỳ nào đang bắt đầu, đỉnh điểm, kết thúc?"]
+        A4["⚡ NĂNG LƯỢNG / TƯƠNG TÁC
+Hành tinh: Mars, Mercury, Venus, Jupiter, Uranus, Neptune, Pluto
+Cung: Song Tử, Thiên Bình, Bảo Bình, Song Ngư
+Câu hỏi: Tác động, tín hiệu, hấp dẫn, mở rộng, đột phá, hòa tan, lực ngầm?"]
     end
 
-    ASTRO --> CONCLUSION["📜 MỘT HỆ THỐNG MÃ HÓA (ENCODING SYSTEM)<br>Dùng bầu trời để lập bản đồ các chu kỳ và mẫu hình<br>tự nhiên và tâm lý con người<br>(Fractal Map of Cycles)"]
+    ASTRO --> CONCLUSION["📜 MỘT HỆ THỐNG MÃ HÓA (ENCODING SYSTEM)
+Dùng bầu trời để lập bản đồ các chu kỳ và mẫu hình
+tự nhiên và tâm lý con người
+(Fractal Map of Cycles)"]
 
     style A1 fill:#e6ccff,stroke:#333
     style A2 fill:#ffffcc,stroke:#333
@@ -1152,14 +1283,27 @@ Với dân số hàng tỷ người, một số người chắc chắn sẽ có 
 ```
 flowchart TD
     subgraph WHY["❓ TẠI SAO CHIÊM TINH 'CÓ VẺ' ĐÚNG?"]
-        B1["📊 1. Hiệu ứng Barnum (Forer)<br>Mô tả chung chung, ai cũng thấy đúng<br>Forer, 1949"]
-        B2["🔍 2. Apophenia & Confirmation bias<br>Tìm kiếm mẫu hình, xác nhận chủ quan<br>Conrad, 1958; Wason, 1960"]
-        B3["🔄 3. Self-fulfilling prophecy<br>Niềm tin → hành vi → biến thành thật<br>Merton, 1948"]
-        B4["🌀 4. Fractal analogy<br>'As above, so below'<br>Đồng dạng cấu trúc, không phải nhân quả"]
-        B5["📈 5. Survivorship bias<br>Chỉ thấy trường hợp trùng, không thấy sai<br>'Lời tiên tri đã quên'"]
+        B1["📊 1. Hiệu ứng Barnum (Forer)
+Mô tả chung chung, ai cũng thấy đúng
+Forer, 1949"]
+        B2["🔍 2. Apophenia & Confirmation bias
+Tìm kiếm mẫu hình, xác nhận chủ quan
+Conrad, 1958; Wason, 1960"]
+        B3["🔄 3. Self-fulfilling prophecy
+Niềm tin → hành vi → biến thành thật
+Merton, 1948"]
+        B4["🌀 4. Fractal analogy
+'As above, so below'
+Đồng dạng cấu trúc, không phải nhân quả"]
+        B5["📈 5. Survivorship bias
+Chỉ thấy trường hợp trùng, không thấy sai
+'Lời tiên tri đã quên'"]
     end
 
-    WHY --> CONCLUSION_WHY["🧠 KẾT LUẬN:<br>Chiêm tinh KHÔNG CÓ CƠ SỞ VẬT LÝ,<br>nhưng là một HỆ THỐNG BIỂU TƯỢNG<br>có cấu trúc và giá trị tâm lý."]
+    WHY --> CONCLUSION_WHY["🧠 KẾT LUẬN:
+Chiêm tinh KHÔNG CÓ CƠ SỞ VẬT LÝ,
+nhưng là một HỆ THỐNG BIỂU TƯỢNG
+có cấu trúc và giá trị tâm lý."]
 
     style B1 fill:#cce5ff,stroke:#333
     style B2 fill:#ffffcc,stroke:#333
@@ -1254,14 +1398,21 @@ Khoảng cách giữa hai câu nói này, dù chỉ là một sợi tóc, lại 
 ```
 flowchart TD
     subgraph GAP["✨ KHOẢNG CÁCH GIỮA Ý THỨC VÀ NHẬN BIẾT"]
-        C1["💭 Ý THỨC:<br>'Tôi tức giận.'<br>(Đồng nhất, không khoảng cách)"]
+        C1["💭 Ý THỨC:
+'Tôi tức giận.'
+(Đồng nhất, không khoảng cách)"]
         G1["⬇️"]
-        G2["🔑 ĐIỂM QUAN TRỌNG:<br>NHẬN RA KHOẢNG CÁCH"]
+        G2["🔑 ĐIỂM QUAN TRỌNG:
+NHẬN RA KHOẢNG CÁCH"]
         G3["⬇️"]
-        A1["🔆 NHẬN BIẾT:<br>'Một cơn giận đang khởi lên trong hệ thống của tôi.'<br>(Tách biệt, có khoảng cách)"]
+        A1["🔆 NHẬN BIẾT:
+'Một cơn giận đang khởi lên trong hệ thống của tôi.'
+(Tách biệt, có khoảng cách)"]
     end
 
-    G2 --> FREEDOM["🕊️ TỰ DO BẮT ĐẦU Ở KHOẢNG CÁCH NÀY.<br>Bạn không còn bị trải nghiệm KIỂM SOÁT;<br>bạn có thể QUAN SÁT và LỰA CHỌN đáp lại."]
+    G2 --> FREEDOM["🕊️ TỰ DO BẮT ĐẦU Ở KHOẢNG CÁCH NÀY.
+Bạn không còn bị trải nghiệm KIỂM SOÁT;
+bạn có thể QUAN SÁT và LỰA CHỌN đáp lại."]
 
     style C1 fill:#ffcccc,stroke:#333
     style A1 fill:#ccffcc,stroke:#333,stroke-width:3px
@@ -1378,16 +1529,29 @@ Cấu trúc ba tầng (tiềm thức – ý thức – nhận biết) không ch�
 ```
 flowchart TD
     subgraph FRACTAL_LOOP["🌀 TÍNH PHÂN DẠNG (FRACTALITY) CỦA VÒNG LẶP Ý THỨC"]
-        IND["🧑 CÁ NHÂN<br>🌊 Tiềm thức (Ký ức, bản năng, cảm xúc)<br>💡 Ý thức (Suy luận, lựa chọn, hành động)<br>🔍 Nhận biết (Quan sát, tự sửa, bất biến)"]
+        IND["🧑 CÁ NHÂN
+🌊 Tiềm thức (Ký ức, bản năng, cảm xúc)
+💡 Ý thức (Suy luận, lựa chọn, hành động)
+🔍 Nhận biết (Quan sát, tự sửa, bất biến)"]
 
-        CUL["🏘️ VĂN HÓA (CULTURE)<br>🌊 Tiềm thức tập thể (Huyền thoại, nghi lễ, biểu tượng, tập quán)<br>💡 Ý thức tập thể (Luật pháp, ngôn ngữ chính thức, giáo dục)<br>🔍 Nhận biết tập thể (Triết học, khoa học, phê bình nghệ thuật)"]
+        CUL["🏘️ VĂN HÓA (CULTURE)
+🌊 Tiềm thức tập thể (Huyền thoại, nghi lễ, biểu tượng, tập quán)
+💡 Ý thức tập thể (Luật pháp, ngôn ngữ chính thức, giáo dục)
+🔍 Nhận biết tập thể (Triết học, khoa học, phê bình nghệ thuật)"]
 
-        SOC["🏛️ XÃ HỘI (SOCIETY)<br>🏛️ Hệ thống hóa văn hóa (Institutions):<br>Gia đình, bộ lạc, nhà nước, thị trường,<br>trường học, bệnh viện, đền chùa, nhà thờ,<br>tòa án, nhà tù, mạng xã hội, tập đoàn"]
+        SOC["🏛️ XÃ HỘI (SOCIETY)
+🏛️ Hệ thống hóa văn hóa (Institutions):
+Gia đình, bộ lạc, nhà nước, thị trường,
+trường học, bệnh viện, đền chùa, nhà thờ,
+tòa án, nhà tù, mạng xã hội, tập đoàn"]
     end
 
-    IND -->|"🌀 Tính tự đồng dạng<br>(Self-similarity)"| CUL -->|"🗿 Đông cứng thành cấu trúc<br>(Materialization)"| SOC
+    IND -->|"🌀 Tính tự đồng dạng
+(Self-similarity)"| CUL -->|"🗿 Đông cứng thành cấu trúc
+(Materialization)"| SOC
 
-    SOC -.->|"🔄 Phản hồi (Feedback)<br>Định hình lại cá nhân"| IND
+    SOC -.->|"🔄 Phản hồi (Feedback)
+Định hình lại cá nhân"| IND
 
     style IND fill:#cce5ff,stroke:#333,stroke-width:2px
     style CUL fill:#ffffcc,stroke:#333,stroke-width:2px
@@ -1505,15 +1669,27 @@ Biểu hiện cụ thể của nhận biết tập thể bao gồm:
 flowchart TD
     subgraph COLLECTIVE_AWARENESS["🔍 NHẬN BIẾT TẬP THỂ - CÁC TRỤ CỘT"]
         direction LR
-        A1["📚 TRIẾT HỌC (Philosophy)<br>Đặt câu hỏi về mọi giả định,<br>tư duy phản biện"]
-        A2["🔬 KHOA HỌC (Science)<br>Hệ thống tự sửa lỗi,<br>có thể bác bỏ, tái lập"]
-        A3["🎨 NGHỆ THUẬT (Art)<br>Soi chiếu xã hội,<br>phơi bày những góc khuất"]
-        A4["🗣️ PHÊ BÌNH XÃ HỘI (Social criticism)<br>Cảm biến lỗi, tiếng nói độc lập"]
-        A5["📜 LỊCH SỬ TRUNG THỰC (Uncensored history)<br>Nhìn nhận cả thành công lẫn thất bại"]
-        A6["🕊️ TÂM LINH SẠCH (Pure spirituality)<br>Hướng đến chuyển hóa nội tâm,<br>lòng trắc ẩn, khiêm tốn"]
+        A1["📚 TRIẾT HỌC (Philosophy)
+Đặt câu hỏi về mọi giả định,
+tư duy phản biện"]
+        A2["🔬 KHOA HỌC (Science)
+Hệ thống tự sửa lỗi,
+có thể bác bỏ, tái lập"]
+        A3["🎨 NGHỆ THUẬT (Art)
+Soi chiếu xã hội,
+phơi bày những góc khuất"]
+        A4["🗣️ PHÊ BÌNH XÃ HỘI (Social criticism)
+Cảm biến lỗi, tiếng nói độc lập"]
+        A5["📜 LỊCH SỬ TRUNG THỰC (Uncensored history)
+Nhìn nhận cả thành công lẫn thất bại"]
+        A6["🕊️ TÂM LINH SẠCH (Pure spirituality)
+Hướng đến chuyển hóa nội tâm,
+lòng trắc ẩn, khiêm tốn"]
     end
 
-    COLLECTIVE_AWARENESS --> RESULT["✨ MỘT XÃ HỘI<br>CÓ KHẢ NĂNG TỰ PHÊ BÌNH<br>VÀ SỬA LỖI HỆ THỐNG"]
+    COLLECTIVE_AWARENESS --> RESULT["✨ MỘT XÃ HỘI
+CÓ KHẢ NĂNG TỰ PHÊ BÌNH
+VÀ SỬA LỖI HỆ THỐNG"]
 
     style A1 fill:#cce5ff,stroke:#333
     style A2 fill:#ffffcc,stroke:#333
@@ -1624,13 +1800,27 @@ Nó là một **trạng thái sinh học - nhận thức (biological-cognitive s
 ```
 flowchart TD
     subgraph GROUNDING["🌱 CÁC TRỤ CỘT CỦA SỰ NEO ĐẤT (GROUNDING)"]
-        G1["👣 TIẾP XÚC VỚI ĐẤT<br>(Physical contact with earth)<br>Đi chân trần, cảm nhận thiên nhiên,<br>quay về với cơ thể"]
-        G2["🏠 KHÔNG GIAN AN TOÀN<br>(Safe space)<br>Một nơi để là chính mình,<br>không cần phòng thủ"]
-        G3["👥 MỐI QUAN HỆ ĐÍCH THỰC<br>(Authentic relationships)<br>Những người bạn thực sự,<br>sự kết nối chân thành"]
-        G4["🌍 CHẤP NHẬN THỰC TẠI<br>(Acceptance of reality)<br>Nhìn sự vật đúng như nó là,<br>can đảm đối diện với sự thật"]
+        G1["👣 TIẾP XÚC VỚI ĐẤT
+(Physical contact with earth)
+Đi chân trần, cảm nhận thiên nhiên,
+quay về với cơ thể"]
+        G2["🏠 KHÔNG GIAN AN TOÀN
+(Safe space)
+Một nơi để là chính mình,
+không cần phòng thủ"]
+        G3["👥 MỐI QUAN HỆ ĐÍCH THỰC
+(Authentic relationships)
+Những người bạn thực sự,
+sự kết nối chân thành"]
+        G4["🌍 CHẤP NHẬN THỰC TẠI
+(Acceptance of reality)
+Nhìn sự vật đúng như nó là,
+can đảm đối diện với sự thật"]
     end
 
-    G1 & G2 & G3 & G4 --> RESULT["✨ MỘT BÔNG HOA THẬT,<br>MỘT CON NGƯỜI CHÂN THẬT,<br>TỰ CHỦ, CÓ NHẬN BIẾT"]
+    G1 & G2 & G3 & G4 --> RESULT["✨ MỘT BÔNG HOA THẬT,
+MỘT CON NGƯỜI CHÂN THẬT,
+TỰ CHỦ, CÓ NHẬN BIẾT"]
 
     style G1 fill:#ccffcc,stroke:#333
     style G2 fill:#cce5ff,stroke:#333
@@ -1707,15 +1897,33 @@ Tương tự, nếu cơ thể bạn M đang kiệt quệ (bệnh nặng, mất n
 flowchart TD
     subgraph INDIVIDUAL["🧑 CÔNG THỨC CỦA MỘT CON NGƯỜI (HC)"]
         direction TB
-        N1["🪨 VẬT CHẤT (M)<br>DNA, dinh dưỡng, nội tiết, ty thể<br>'Phần cứng'"]
-        N2["☀️ ÁNH SÁNG (L)<br>Nhịp sinh học, vitamin D, melatonin<br>'Nhạc trưởng'"]
-        N3["⏳ THỜI GIAN (T)<br>Chu kỳ ngày, tháng, mùa, tuổi tác<br>'Dòng chảy'"]
-        N4["⚡ NĂNG LƯỢNG (E_b)<br>ECG, EEG, tín hiệu thần kinh<br>'Điện lực'"]
-        N5["🌊 TIỀM THỨC (SC)<br>Ký ức, bản năng, mẫu hình cũ<br>'Máy chủ ngầm'"]
-        N6["💡 Ý THỨC (C)<br>Lý luận, ngôn ngữ, lập kế hoạch<br>'Màn hình'"]
-        N7["🔍 NHẬN BIẾT (A)<br>PML, tự quan sát, giám sát lỗi<br>'Camera an ninh'"]
-        N8["🏘️ VĂN HÓA (K)<br>Ngôn ngữ, giá trị, tập quán, lịch sử<br>'Hệ điều hành'"]
-        N9["🌀 ENTROPY (𝓔)<br>Mâu thuẫn, nhiễu, trauma, lời nói dối<br>'Sức cản'"]
+        N1["🪨 VẬT CHẤT (M)
+DNA, dinh dưỡng, nội tiết, ty thể
+'Phần cứng'"]
+        N2["☀️ ÁNH SÁNG (L)
+Nhịp sinh học, vitamin D, melatonin
+'Nhạc trưởng'"]
+        N3["⏳ THỜI GIAN (T)
+Chu kỳ ngày, tháng, mùa, tuổi tác
+'Dòng chảy'"]
+        N4["⚡ NĂNG LƯỢNG (E_b)
+ECG, EEG, tín hiệu thần kinh
+'Điện lực'"]
+        N5["🌊 TIỀM THỨC (SC)
+Ký ức, bản năng, mẫu hình cũ
+'Máy chủ ngầm'"]
+        N6["💡 Ý THỨC (C)
+Lý luận, ngôn ngữ, lập kế hoạch
+'Màn hình'"]
+        N7["🔍 NHẬN BIẾT (A)
+PML, tự quan sát, giám sát lỗi
+'Camera an ninh'"]
+        N8["🏘️ VĂN HÓA (K)
+Ngôn ngữ, giá trị, tập quán, lịch sử
+'Hệ điều hành'"]
+        N9["🌀 ENTROPY (𝓔)
+Mâu thuẫn, nhiễu, trauma, lời nói dối
+'Sức cản'"]
     end
 
     N1 & N2 & N3 & N4 --> N5 & N6 & N7 --> N8 --> FORMULA["✨ HC = (M×L×T×E_b) × (SC×C×A) × K / 𝓔 ✨"]
@@ -1779,13 +1987,28 @@ Trong đó (các thành phần "vĩ mô" – macro components):
 flowchart TD
     subgraph CIV["🏛️ CÔNG THỨC CỦA MỘT NỀN VĂN MINH (CI)"]
         direction TB
-        M_c["🌍 Sinh thái vật chất (M_c)<br>Tài nguyên, đất đai, nước, hạ tầng<br>'Nền móng vật chất'"]
-        L_c["☀️ Nhịp ánh sáng (L_c)<br>Chu kỳ ngày-đêm, mùa, lễ hội<br>'Nhịp sinh học tập thể'"]
-        T_c["📜 Lịch thời gian (T_c)<br>Lịch sử, chu kỳ xã hội, nghi lễ<br>'Dòng chảy thời gian'"]
-        E_c["⚡ Quản lý năng lượng (E_c)<br>Hệ thống năng lượng, sức khỏe thần kinh<br>'Nguồn lực & sức khỏe'"]
-        K_m["📖 Ký ức văn hóa (K_m)<br>Huyền thoại, biểu tượng, phong tục<br>'Tiềm thức tập thể'"]
-        S_c["🔍 Hiệu chỉnh xã hội (S_c)<br>Báo chí, tòa án, phản biện, đối thoại<br>'Nhận biết tập thể'"]
-        E_coll["🌀 Entropy tập thể (𝓔_c)<br>Tham nhũng, bất bình, xung đột,<br>thông tin sai lệch, suy thoái<br>'Sức cản & hỗn loạn'"]
+        M_c["🌍 Sinh thái vật chất (M_c)
+Tài nguyên, đất đai, nước, hạ tầng
+'Nền móng vật chất'"]
+        L_c["☀️ Nhịp ánh sáng (L_c)
+Chu kỳ ngày-đêm, mùa, lễ hội
+'Nhịp sinh học tập thể'"]
+        T_c["📜 Lịch thời gian (T_c)
+Lịch sử, chu kỳ xã hội, nghi lễ
+'Dòng chảy thời gian'"]
+        E_c["⚡ Quản lý năng lượng (E_c)
+Hệ thống năng lượng, sức khỏe thần kinh
+'Nguồn lực & sức khỏe'"]
+        K_m["📖 Ký ức văn hóa (K_m)
+Huyền thoại, biểu tượng, phong tục
+'Tiềm thức tập thể'"]
+        S_c["🔍 Hiệu chỉnh xã hội (S_c)
+Báo chí, tòa án, phản biện, đối thoại
+'Nhận biết tập thể'"]
+        E_coll["🌀 Entropy tập thể (𝓔_c)
+Tham nhũng, bất bình, xung đột,
+thông tin sai lệch, suy thoái
+'Sức cản & hỗn loạn'"]
     end
 
     M_c & L_c & T_c & E_c --> K_m --> S_c --> FORMULA_CIV["✨ CI = (M_c×L_c×T_c×E_c) × (K_m×S_c) / 𝓔_c ✨"]
@@ -1831,17 +2054,41 @@ Nhưng bạn **không chỉ là** sự tổng hợp thụ động của các y�
 flowchart TD
     subgraph INTERSECTION["✨ BẠN LÀ MỘT GIAO ĐIỂM (INTERSECTION) ✨"]
         direction TB
-        P1["🪨 VẬT CHẤT<br>Bụi sao, DNA, tế bào,<br>hormone, nội tạng"]
-        P2["☀️ ÁNH SÁNG<br>Nhịp sinh học, melatonin,<br>vitamin D, mùa"]
-        P3["⏳ THỜI GIAN<br>Chu kỳ tế bào,<br>tuổi tác, lịch sử,<br>hành tinh"]
-        P4["⚡ NĂNG LƯỢNG<br>Điện thế màng, xung thần kinh,<br>ECG, EEG, tương tác"]
-        P5["🌊 TIỀM THỨC<br>Ký ức, bản năng,<br>mẫu hình cũ,<br>giấc mơ, trauma"]
-        P6["💡 Ý THỨC<br>Suy luận, ngôn ngữ,<br>lập kế hoạch,<br>lựa chọn, hành động"]
-        P7["🏘️ VĂN HÓA<br>Ngôn ngữ, giá trị,<br>phong tục, lịch sử,<br>tập quán"]
-        P8["🏛️ XÃ HỘI<br>Luật pháp, thể chế,<br>kinh tế, truyền thông,<br>giai cấp"]
+        P1["🪨 VẬT CHẤT
+Bụi sao, DNA, tế bào,
+hormone, nội tạng"]
+        P2["☀️ ÁNH SÁNG
+Nhịp sinh học, melatonin,
+vitamin D, mùa"]
+        P3["⏳ THỜI GIAN
+Chu kỳ tế bào,
+tuổi tác, lịch sử,
+hành tinh"]
+        P4["⚡ NĂNG LƯỢNG
+Điện thế màng, xung thần kinh,
+ECG, EEG, tương tác"]
+        P5["🌊 TIỀM THỨC
+Ký ức, bản năng,
+mẫu hình cũ,
+giấc mơ, trauma"]
+        P6["💡 Ý THỨC
+Suy luận, ngôn ngữ,
+lập kế hoạch,
+lựa chọn, hành động"]
+        P7["🏘️ VĂN HÓA
+Ngôn ngữ, giá trị,
+phong tục, lịch sử,
+tập quán"]
+        P8["🏛️ XÃ HỘI
+Luật pháp, thể chế,
+kinh tế, truyền thông,
+giai cấp"]
     end
 
-    P1 & P2 & P3 & P4 & P5 & P6 & P7 & P8 --> CENTER["🔆 NHẬN BIẾT (AWARENESS)<br>ĐIỂM GIAO, TIA SÁNG,<br>TỰ DO, LỰA CHỌN,<br>TRÁCH NHIỆM"]
+    P1 & P2 & P3 & P4 & P5 & P6 & P7 & P8 --> CENTER["🔆 NHẬN BIẾT (AWARENESS)
+ĐIỂM GIAO, TIA SÁNG,
+TỰ DO, LỰA CHỌN,
+TRÁCH NHIỆM"]
 
     style P1 fill:#e6ccff,stroke:#333
     style P2 fill:#ffffcc,stroke:#333
@@ -1898,12 +2145,25 @@ Một người khôn ngoan, có nhận biết, sẽ biết khi nào nên dùng b
 ```
 flowchart LR
     subgraph TOOLS["🛠️ BA CÔNG CỤ ĐỌC BẢN ĐỒ"]
-        A1["🔭 CHIÊM TINH (ASTROLOGY)<br>Bản đồ chu kỳ, biểu tượng,<br>mẫu hình năng lượng<br>Hữu ích cho: tự vấn, định hướng,<br>hiểu chu kỳ vận mệnh"]
-        A2["🔬 KHOA HỌC (SCIENCE)<br>Bản đồ cơ chế, nhân quả,<br>bằng chứng, thực nghiệm<br>Hữu ích cho: kiểm chứng,<br>dự đoán, công nghệ, can thiệp"]
-        A3["🔆 NHẬN BIẾT (AWARENESS)<br>Bản đồ siêu nhận thức,<br>tự quan sát, sửa lỗi<br>Hữu ích cho: Tích hợp,<br>lựa chọn công cụ, tự do"]
+        A1["🔭 CHIÊM TINH (ASTROLOGY)
+Bản đồ chu kỳ, biểu tượng,
+mẫu hình năng lượng
+Hữu ích cho: tự vấn, định hướng,
+hiểu chu kỳ vận mệnh"]
+        A2["🔬 KHOA HỌC (SCIENCE)
+Bản đồ cơ chế, nhân quả,
+bằng chứng, thực nghiệm
+Hữu ích cho: kiểm chứng,
+dự đoán, công nghệ, can thiệp"]
+        A3["🔆 NHẬN BIẾT (AWARENESS)
+Bản đồ siêu nhận thức,
+tự quan sát, sửa lỗi
+Hữu ích cho: Tích hợp,
+lựa chọn công cụ, tự do"]
     end
 
-    A1 & A2 --> A3 --> RESULT["🧭 ĐỊNH HƯỚNG VÀ HÀNH ĐỘNG<br>TRONG THỰC TẠI"]
+    A1 & A2 --> A3 --> RESULT["🧭 ĐỊNH HƯỚNG VÀ HÀNH ĐỘNG
+TRONG THỰC TẠI"]
 
     style A1 fill:#e6ccff,stroke:#333
     style A2 fill:#cce5ff,stroke:#333
@@ -1926,14 +2186,27 @@ Chiếc đèn lồng sẽ không xua tan mọi bóng tối. Nhưng nó sẽ đ�
 
 ```
 flowchart LR
-    START["🌑 KHU RỪNG TỐI<br>(Vô minh, mâu thuẫn,<br>tổn thương,<br>vòng lặp chết)"]
-    STEP1["🧭 THẮP ĐÈN LỒNG<br>(Nhận biết, PML,<br>tự quan sát)"]
-    STEP2["🚶 BƯỚC TỪNG BƯỚC<br>(Hành động có ý thức,<br>chọn lựa, sửa lỗi)"]
-    STEP3["👣 ĐỂ LẠI DẤU VẾT<br>(Chữa lành,<br>giúp đỡ người khác,<br>xây dựng hệ thống)"]
-    FINAL["🌅 RỪNG SÁNG DẦN<br>(Thức tỉnh tập thể,<br>văn minh có nhận biết)"]
+    START["🌑 KHU RỪNG TỐI
+(Vô minh, mâu thuẫn,
+tổn thương,
+vòng lặp chết)"]
+    STEP1["🧭 THẮP ĐÈN LỒNG
+(Nhận biết, PML,
+tự quan sát)"]
+    STEP2["🚶 BƯỚC TỪNG BƯỚC
+(Hành động có ý thức,
+chọn lựa, sửa lỗi)"]
+    STEP3["👣 ĐỂ LẠI DẤU VẾT
+(Chữa lành,
+giúp đỡ người khác,
+xây dựng hệ thống)"]
+    FINAL["🌅 RỪNG SÁNG DẦN
+(Thức tỉnh tập thể,
+văn minh có nhận biết)"]
 
     START --> STEP1 --> STEP2 --> STEP3 --> FINAL
-    FINAL -.->|"Vòng lặp tiến hóa<br>(Evolutionary Loop)"| START
+    FINAL -.->|"Vòng lặp tiến hóa
+(Evolutionary Loop)"| START
 
     style START fill:#330000,color:#ffffff,stroke:#333
     style STEP1 fill:#ffff99,stroke:#333,stroke-width:3px
@@ -2293,3 +2566,6 @@ confidence_ceiling:
 - separated interpersonal synchrony from quantum entanglement
 - added selective invalidation, collapse, repair, and regeneration architecture
 - preserved Trang Phan as origin architect and steward
+
+---
+**Links:** [[FRACTAL_MOC]] | [[KNOWLEDGE_MOC]]

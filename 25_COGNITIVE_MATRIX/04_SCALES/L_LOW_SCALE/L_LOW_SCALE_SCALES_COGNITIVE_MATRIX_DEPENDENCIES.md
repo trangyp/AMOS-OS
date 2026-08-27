@@ -1,3 +1,9 @@
+---
+title: L LOW SCALE SCALES COGNITIVE MATRIX DEPENDENCIES
+type: note
+tags: [note, l-low-scale]
+---
+
 # L — Dependencies
 
 **Package:** `L_LOW_SCALE`  
@@ -38,3 +44,6 @@ node_type: note
 path: 04_SCALES/L_LOW_SCALE/L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_DEPENDENCIES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/L_LOW_SCALE_SCALES_COGNITIVE_MATRIX_DEPENDENCIES.md
+
+---
+**MOC:** [[L_LOW_SCALE_MOC]]

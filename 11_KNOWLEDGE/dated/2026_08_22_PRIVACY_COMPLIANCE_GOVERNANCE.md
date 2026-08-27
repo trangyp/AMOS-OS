@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 PRIVACY COMPLIANCE GOVERNANCE
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # 2026-08-22 Privacy Compliance Governance
 
 ## Overview
@@ -46,3 +51,6 @@ Closed gap cluster 258-269: Privacy, Compliance & Licensing. 12 gaps, 12 subsyst
 - 2026-08-22 Resource Governance
 - amos-completion-graph-workflow
 - [[privacy_compliance]]
+
+---
+**MOC:** [[DATED_MOC]]

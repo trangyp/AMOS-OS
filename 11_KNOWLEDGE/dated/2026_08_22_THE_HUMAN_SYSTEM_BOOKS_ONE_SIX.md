@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 THE HUMAN SYSTEM BOOKS ONE SIX
 origin: external — "The Complete Human System" (alternate version / Book One–Six)
 provenance: direct ingestion of full text
 confidence: 0.95
@@ -10,6 +11,7 @@ source_title: "The Complete Human System — A Unified Theory of Mind, Body, Civ
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 # The Complete Human System — Alternate Version (Books One–Six)
 
@@ -561,10 +563,13 @@ You are not one thing. You are many things. They are not always aligned. That is
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]] — vault index
+- [[00_COSMO_BRAIN_MOC]] — vault index
 - [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
 - 2026-08-22 The Complete Human System — Book Knowledge Base — canonical/foreword version of same book
 - 2026-08-22 Deep Structure Learning — AMOS brain structure (parallel inquiry)
 - amos-species-interaction — AMOS HIE layer for human-facing interaction
 - amos-emotion-engine — AMOS emotion/somatic state modeling
 - amos-medical-clinical — AMOS medical/clinical reasoning (non-prescriptive)
+
+---
+**MOC:** [[DATED_MOC]]

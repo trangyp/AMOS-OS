@@ -31,3 +31,6 @@ node_id: amos_earch_00_index_clinical_research_domains_clinical_research_contrac
 node_type: note
 path: 21_DOMAINS/30_CLINICAL_RESEARCH/00_INDEX/CLINICAL_RESEARCH_DOMAINS_CLINICAL_RESEARCH_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_CLINICAL_RESEARCH_DOMAINS_README]]

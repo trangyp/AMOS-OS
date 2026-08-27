@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN OPERATIONAL REPORT
 tags: [brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 # AMOS Brain Omega Enhanced - Operational Status Report
 
 ## Executive Summary
@@ -266,4 +271,7 @@ The AMOS Brain Omega Enhanced system represents the **state of the art** in AI g
 **Operational Status**: FULLY OPERATIONAL
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

@@ -31,3 +31,6 @@ node_id: cp_modes_ranking_selection_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/93_RANKING_SELECTION_MODES/RANKING_SELECTION_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[93_RANKING_SELECTION_MODES_MOC]]

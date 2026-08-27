@@ -1,0 +1,16 @@
+---
+title: 15_CUSTOM_MODES MOC
+type: moc
+tags: [moc, 15-custom-modes]
+---
+
+# 15_CUSTOM_MODES — Map of Content
+
+## Files
+
+- [[CUSTOM_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_REGISTRY]]
+- [[CUSTOM_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC]]
+- [[CUSTOM_MODES_COMMIT_CONTROL_PLANE_README]]
+
+---
+**Parent:** [[09_COMMIT_MOC]]

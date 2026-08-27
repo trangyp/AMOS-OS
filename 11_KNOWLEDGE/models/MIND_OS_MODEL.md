@@ -25,7 +25,10 @@ The **AMOS Super Mind OS** (`AMOS_SUPER_MIND_OS`) is the unified integration lay
 This OS ensures that **emotion informs logic, but logic governs architecture**. The Mind OS acts as a cohesive operating layer that prevents the AI from becoming either a purely mechanical calculator or an unstable empathic mirror. 
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - Cognition_Engine_Model
 - Emotion_Engine_Model
 - Consciousness_Engine_Model
+
+---
+**MOC:** [[MODELS_MOC]]

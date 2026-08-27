@@ -1,3 +1,9 @@
+---
+title: L07 MEMORY PRIMITIVES COGNITIVE MATRIX CONTROL PLANES
+type: note
+tags: [note, l07-memory]
+---
+
 # L07 — Control-Plane Requirements
 
 **Package:** `L07_MEMORY`  
@@ -35,3 +41,6 @@ node_type: note
 path: 01_PRIMITIVES/L07_MEMORY/L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY/L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_CONTROL_PLANES.md
+
+---
+**MOC:** [[L07_MEMORY_MOC]]

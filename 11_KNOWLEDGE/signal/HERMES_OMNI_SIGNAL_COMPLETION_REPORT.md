@@ -1,6 +1,11 @@
 ---
+title: HERMES OMNI SIGNAL COMPLETION REPORT
 tags: [signal]
+type: document
+source: 11_KNOWLEDGE/signal
 ---
+
+
 # HERMES OMNI-SIGNAL INTELLIGENCE AGENT - COMPLETION REPORT
 
 ## MISSION STATUS: ✅ OPERATIONAL
@@ -304,3 +309,6 @@ The system is ready for **Phase 1 expansion** into remaining domains and **advan
 **Status:** ✅ **HERMES OMNI-SIGNAL INTELLIGENCE AGENT - READY FOR AMOS INTEGRATION**
 
 **Next Action:** Continue Phase 1 extraction from remaining authoritative sources while maintaining governance compliance and evidence integrity.
+
+---
+**Links:** [[SIGNAL_MOC]] | [[KNOWLEDGE_MOC]]

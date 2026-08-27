@@ -247,4 +247,7 @@ state_summary_for_internal_use, tags_for_other_kernels, constraints_on_tone_and_
 **Conclusion**: SOURCE — Comprehensive affective-somatic-instinct engine with 11 coverage targets (≥0.95), 8-layer state model with 13 core variables, microtone engine (18 text + 5 conversation features → 10 outputs + 7 integration rules), 11 specialized kernels (emotional, instinct, somatic, attachment, trauma, motivation, cross-cultural, developmental, collective, cycle, adaptivity), empathy expression engine, 8-step integration pipeline. Production-ready for non-clinical human affective/somatic state estimation and response generation with safety boundaries.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

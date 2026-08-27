@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN STRUCTURE REORGANIZATION PLAN
 tags: [reports]
+type: document
+source: 11_KNOWLEDGE/reports
 ---
+
+
 # AMOS BRAIN STRUCTURE REORGANIZATION PLAN
 ==========================================
 
@@ -232,3 +237,6 @@ mkdir -p archive/hallucination_artifacts
 ---
 
 *This reorganization plan operates under AMOS Brain governance with perpetual hallucination risk acknowledgment and evidence-based directory management.*
+
+---
+**Links:** [[REPORTS_MOC]] | [[KNOWLEDGE_MOC]]

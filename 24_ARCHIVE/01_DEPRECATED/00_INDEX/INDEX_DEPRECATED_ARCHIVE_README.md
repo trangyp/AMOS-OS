@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -31,3 +31,8 @@ node_id: amos_24_archive_01_deprecated_00_index_index_deprecated_archive_readme_
 node_type: note
 path: 24_ARCHIVE/01_DEPRECATED/00_INDEX/INDEX_DEPRECATED_ARCHIVE_README.md
 claim_class: AMOS_MODEL
+
+## Files
+
+- [[DEPRECATED_ARCHIVE_DEPRECATED_CONTRACT]]
+- [[DEPRECATED_MAP]]

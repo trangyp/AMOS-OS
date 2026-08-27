@@ -1,3 +1,9 @@
+---
+title: ROUTING POLICY VALIDATION RECEIPT
+type: note
+tags: [note, 11-validation]
+---
+
 ````markdown
 ---
 artifact_id: AMOS-CM-11-VALIDATION-RPOL-EXECUTOR
@@ -1997,7 +2003,7 @@ The receipt should be superseded or revalidated when its source policy, executor
 
 ## Related MOCs
 
-* [[00_ROOT/00-Home]] — universal vault hub
+* [[00_HOME]] — universal vault hub
 * [[00_ROOT_MOC]] — AMOS OS master map
 * AMOS_RSCF_NODES — RSCF node index
 * COGNITIVE_MATRIX_MOC
@@ -2025,7 +2031,7 @@ conclusion_class: PARTIAL
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_ROOT/00-Home]]
+* INDEXED_BY: [[00_HOME]]
 
 * INDEXED_BY: [[00_ROOT_MOC]]
 
@@ -2062,3 +2068,6 @@ epistemic_class: DERIVED
 
 This version deliberately leaves `T-RPOL-014`, the exact source/executor hashes, execution environment, and F1–F5 definitions unresolved where your supplied receipt does not provide them. Filling those in without the underlying artifacts would turn a validation receipt into invented evidence.
 ```
+
+---
+**MOC:** [[11_VALIDATION_MOC]]

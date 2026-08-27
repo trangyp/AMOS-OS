@@ -4169,4 +4169,7 @@ This architecture is formalized from the supplied **UBI Omnis™: Hệ Điều H
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · AMOS_FULL_BRAIN_OS · Ubi · AMOS_Prediction_Governance · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Human_Biology_Fractal_RSCF_Engine · AMOS_Time_Series_Conformal_UQ · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · AMOS_FULL_BRAIN_OS · Ubi · AMOS_Prediction_Governance · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Human_Biology_Fractal_RSCF_Engine · AMOS_Time_Series_Conformal_UQ · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[vietnamese_MOC]]

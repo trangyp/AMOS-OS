@@ -1,4 +1,5 @@
 ---
+title: AMOS QUANTUM STACK V0 CORE3
 canon-group: quantum
 canon-type: os-module
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: amos-quantum-stack-v0
 tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-quantum-stack-v0, quantum]
 created: 2026-08-22
 ---
+
 
 # AMOS_Quantum_Stack_v0
 
@@ -41,5 +43,8 @@ The full spec (17,692+ chars) includes: global_objectives, self_constraints, det
 
 ## Related
 - RSCF-Brain-MOC
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - AMOS_Quantum_Stack_v0_Core7 (source — full autofixed_raw spec)
+
+---
+**MOC:** [[QUANTUM_MOC]]

@@ -1,6 +1,11 @@
 ---
+title: AMOS README SCENARIO PACKS PACK V0 SCENARIO PACKS SCENARIO PACKS
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-readme-scenario-packs-pack-v0, amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 
 # AMOS Readme Scenario Packs Pack v0 Scenario Packs Scenario Packs
 
@@ -20,4 +25,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
 The original auto-fix process could not parse this file. The `autofixed_raw` field was empty, indicating no source content was available for parsing.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

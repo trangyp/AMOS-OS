@@ -1,4 +1,5 @@
 ---
+title: SECTOR PROFILE JSON REGULATION AND COMPLIANCE JSON MARKET STRUCTURE JSON VALUE CHAIN JSON RISK AND CRISIS JSON TECHNOLOGY AND DATA JSON WORKFORCE AND SKILLS JSON SUSTAINABILITY AND ESG JSON OPS
 canon-group: human-system
 canon-type: model
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: sector-profile-json-regulation-and-compliance-json-market-st
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/sector-profile-json-regulation-and-compl, security]
 created: 2026-08-22
 ---
+
 
 # Sector Profile.json Regulation and Compliance.json Market Structure.json Value Chain.json Risk and Crisis.json Technology and Data.json Workforce and Skills.json Sustainability and ESG.json Ops Models and Processes.json Integration with Economy Pack
 
@@ -25,4 +27,7 @@ created: 2026-08-22
 The original auto-fix process could not parse this file. The `autofixed_raw` field was empty, indicating no source content was available for parsing.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[security_MOC]]

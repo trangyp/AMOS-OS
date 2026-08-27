@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -31,3 +31,6 @@ node_id: amos_03_experimental_00_index_experimental_archive_experimental_contrac
 node_type: note
 path: 24_ARCHIVE/03_EXPERIMENTAL/00_INDEX/EXPERIMENTAL_ARCHIVE_EXPERIMENTAL_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_EXPERIMENTAL_ARCHIVE_README]]

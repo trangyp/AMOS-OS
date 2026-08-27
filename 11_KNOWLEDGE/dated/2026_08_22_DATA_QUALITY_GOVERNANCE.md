@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 DATA QUALITY GOVERNANCE
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Data Quality & Measurement Governance (Gaps 239-249)
 
 **Date**: 2026-08-22
@@ -58,6 +63,9 @@ Implemented the Data Quality & Measurement governance module for the AMOS OS Ker
 - 2026-08-22 Resource Governance
 - 2026-08-22 Decision Risk Governance
 - 2026-08-22 Uncertainty Calibration Governance
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 
 #data-quality #governance #gaps-239-249 #closed #amos-os-kernel
+
+---
+**MOC:** [[DATED_MOC]]

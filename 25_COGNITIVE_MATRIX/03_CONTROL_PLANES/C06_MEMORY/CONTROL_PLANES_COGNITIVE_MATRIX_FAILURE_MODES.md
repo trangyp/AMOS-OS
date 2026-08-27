@@ -1,3 +1,9 @@
+---
+title: CONTROL PLANES COGNITIVE MATRIX FAILURE MODES
+type: note
+tags: [note, c06-memory]
+---
+
 # C06 — Failure Modes
 
 **Package:** `C06_MEMORY`  
@@ -35,3 +41,6 @@ node_type: note
 path: 03_CONTROL_PLANES/C06_MEMORY/CONTROL_PLANES_COGNITIVE_MATRIX_FAILURE_MODES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/CONTROL_PLANES_COGNITIVE_MATRIX_FAILURE_MODES.md
+
+---
+**MOC:** [[C06_MEMORY_MOC]]

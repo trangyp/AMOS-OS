@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-ethical-reasoning-kernel`
 
 - Open the skill: .devin/skills/amos-ethical-reasoning-kernel
+
+---
+**Links:** [[KERNEL_MOC]] | [[KNOWLEDGE_MOC]]

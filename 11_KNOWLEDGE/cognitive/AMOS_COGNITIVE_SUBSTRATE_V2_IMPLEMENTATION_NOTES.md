@@ -1,4 +1,5 @@
 ---
+title: AMOS COGNITIVE SUBSTRATE V2 IMPLEMENTATION NOTES
 created: 2026-08-23
 updated: 2026-08-23
 status: verified_complete
@@ -19,6 +20,7 @@ tags:
   - cognitive
 
 ---
+
 
 # AMOS Cognitive Substrate v2.0 — Implementation Notes
 
@@ -169,3 +171,6 @@ Memory retrieved is not current truth merely because it was retrieved. Epistemic
 - Authority: explicit user authorization (repo architect)
 - Rollback: delete `AMOS_COGNITIVE_SUBSTRATE.py`, this vault note, `.hermes/skills/amos-cognitive-substrate.md`, `.devin/workflows/amos-cognitive-substrate-implementation.md`, and MOC wikilinks
 - Reversible: yes — all artifacts are additive
+
+---
+**MOC:** [[COGNITIVE_MOC]]

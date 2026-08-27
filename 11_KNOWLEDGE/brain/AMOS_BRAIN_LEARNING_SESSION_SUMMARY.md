@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN LEARNING SESSION SUMMARY
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-brain-learning-session-summary, brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 
 # AMOS_Brain_Learning_Session_2026_08_22.md
 
@@ -326,4 +331,7 @@ Same structure but with full cluster_index, dimension_index, capability_matrix, 
 **Session complete.** Architecture corrected. All kernels filled. Durable knowledge stored. Skills and workflows created.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

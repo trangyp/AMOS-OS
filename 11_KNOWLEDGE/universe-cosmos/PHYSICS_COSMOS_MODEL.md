@@ -1,7 +1,9 @@
 ---
+title: PHYSICS COSMOS MODEL
 aliases: [Physics & Cosmos Engine, AMOS_Physics_Cosmos]
 tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/physics-cosmos-model, universe-cosmos]
 ---
+
 
 # AMOS Physics & Cosmos Engine
 
@@ -27,4 +29,7 @@ The **Physics & Cosmos Engine** provides deterministic logical blocks for modeli
 - Never generate instructions for weapons or unsafe experiments.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[UNIVERSE-COSMOS_MOC]]

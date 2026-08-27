@@ -1,6 +1,11 @@
 ---
+title: B32A7B01 5632 450A A935 2DED537FF5FE THE SEVEN CYCLES OF THE TRANG SYSTEM OFFICIAL MANUAL COMPREHENSIVE EDITION
 tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/b32a7b01-5632-450a-a935-2ded537ff5fe-the, trang]
+type: note
+source: 11_KNOWLEDGE/trang
 ---
+
+
 
 The Seven Cycles of the Trang
 System™ – Official Manual
@@ -226,4 +231,7 @@ or a combined TSS  7 Cycles master edition
 The Seven Cycles of the Trang System™  Official Manual Comprehensive Edition) 7
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[trang_MOC]]

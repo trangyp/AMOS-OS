@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/amos-fractal-routing`
 
 - Open the skill: .agents/skills/amos-fractal-routing
+
+---
+**Links:** [[FRACTAL_MOC]] | [[KNOWLEDGE_MOC]]

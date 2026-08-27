@@ -144,4 +144,7 @@ tags: [amos, design, kernel, v-infinity, visual, ux, product, service, org, busi
 **Conclusion**: SOURCE — Comprehensive design kernel with 96 clusters across 16 domain buckets (visual identity through meta design ops), 20 evaluation dimensions, x100k virtual expansion with 8 axes, 7 mapping functions (cluster selection → design synthesis → evaluation → evolution), 4 reasoning modes, 3 policy areas, deterministic routing. Production-ready for all design tasks from visual identity to planetary context design.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[KERNEL_MOC]]

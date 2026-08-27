@@ -1,4 +1,5 @@
 ---
+title: AMOS LINKAGE OS
 canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: amos-linkage-os
 tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-linkage-os, amos-general]
 created: 2026-08-22
 ---
+
 
 ============================================================
 BLOCK U3H — ATEMPORAL FIELD (PART 21)
@@ -11832,4 +11834,7 @@ END OF PART 5/60
 }
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

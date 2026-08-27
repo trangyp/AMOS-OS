@@ -1,4 +1,5 @@
 ---
+title: AMOS QUANTUM STACK V0 CORE
 canon-group: quantum
 canon-type: os-module
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: amos-quantum-stack-v0
 tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-quantum-stack-v0, quantum]
 created: 2026-08-22
 ---
+
 
 # AMOS Quantum Stack v0
 
@@ -35,3 +37,5 @@ See `AMOS_Quantum_Stack_v0_Core7.md` for the complete spec.
 ## Related
 - RSCF-Brain-MOC
 
+---
+**Links:** [[QUANTUM_MOC]] | [[KNOWLEDGE_MOC]]

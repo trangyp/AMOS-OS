@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-decision-reasoning-filter`
 
 - Open the skill: .devin/skills/amos-decision-reasoning-filter
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

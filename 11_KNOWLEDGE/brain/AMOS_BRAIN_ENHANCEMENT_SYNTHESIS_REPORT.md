@@ -1,6 +1,11 @@
 ---
+title: AMOS BRAIN ENHANCEMENT SYNTHESIS REPORT
 tags: [brain]
+type: document
+source: 11_KNOWLEDGE/brain
 ---
+
+
 # AMOS BRAIN MAXIMUM ENHANCEMENT SYNTHESIS REPORT
 ================================================
 
@@ -421,4 +426,7 @@ The system is **production-ready** and positioned for immediate deployment with 
 *This report was generated automatically by the AMOS Brain Maximum Enhancement system with full audit trail and SHA256 verification.*
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BRAIN_MOC]]

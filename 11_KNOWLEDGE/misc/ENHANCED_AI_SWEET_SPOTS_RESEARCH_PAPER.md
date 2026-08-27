@@ -1,6 +1,11 @@
 ---
+title: ENHANCED AI SWEET SPOTS RESEARCH PAPER
 tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/enhanced-ai-sweet-spots-research-paper, misc]
+type: note
+source: 11_KNOWLEDGE/misc
 ---
+
+
 
 AI Sweet Spots: Differential Cognitive Effects of Generative AI
 Across Neurotypical, Neurodivergent, Twice-Exceptional, Elderly,
@@ -323,4 +328,7 @@ Appendix D: Implementation Toolkit
 [Assessment instruments, educator training materials, policy templates]
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

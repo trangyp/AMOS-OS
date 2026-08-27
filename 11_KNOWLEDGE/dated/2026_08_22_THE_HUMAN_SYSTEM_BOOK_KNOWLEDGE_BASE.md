@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 THE HUMAN SYSTEM BOOK KNOWLEDGE BASE
 origin: external — "The Complete Human System" (book manuscript)
 provenance: direct ingestion of full text
 confidence: 0.95
@@ -10,6 +11,7 @@ source_title: "The Complete Human System — A Unified Fractal Theory of Mind, B
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 # The Complete Human System — Book Knowledge Base
 
@@ -455,7 +457,7 @@ But within that boundary, everything else is knowable. The equations are a map. 
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]] — vault index
+- [[00_COSMO_BRAIN_MOC]] — vault index
 - [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
 - 2026-08-22 Deep Structure Learning — AMOS brain structure (parallel inquiry)
 - 2026-08-22 The Complete Human System — Books One–Six — alternate manuscript version
@@ -467,3 +469,6 @@ But within that boundary, everything else is knowable. The equations are a map. 
 - amos-species-interaction — AMOS HIE layer for human-facing interaction
 - amos-emotion-engine — AMOS emotion/somatic state modeling
 - amos-medical-clinical — AMOS medical/clinical reasoning (non-prescriptive)
+
+---
+**MOC:** [[DATED_MOC]]

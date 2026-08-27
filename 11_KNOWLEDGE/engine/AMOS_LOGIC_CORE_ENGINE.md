@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-logic-core-engine`
 
 - Open the skill: .devin/skills/amos-logic-core-engine
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

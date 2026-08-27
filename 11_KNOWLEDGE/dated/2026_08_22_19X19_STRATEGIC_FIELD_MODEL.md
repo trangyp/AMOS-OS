@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 19X19 STRATEGIC FIELD MODEL
 origin_architect: Trang Phan (user-supplied 75-section formal spec) + AMOS MODEL extension
 provenance: user-supplied 19×19 strategic-ontology completion; base geometry already in cosmo-brain/AMOS_GO_BOARD_19X19.py (905 lines, 361 cells, 684 edges, D4 symmetry, 12-var cell)
 confidence: 0.92
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-19x19-strategic-field-model, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # 19×19 Architecture — Computationally Complete Strategic Field Model
 
@@ -107,3 +109,6 @@ Cell=PotentialSite, Move=Distinction, Stone=Memory, Adjacency=Relation, Group=Em
   - `self_play` (§60-61 legal random self-play, terminates via 2 passes, deterministic per seed)
   Verified: lone-stone CAPTURE, illegal SUICIDE, textbook KO recapture BLOCKED, two-eye group ALIVE, corner-stone scores full board, self-play reproducible.
 - Run: `cd cosmo-brain && python3 AMOS_GO_BOARD_19X19_STRATEGIC.py` → self-test PASS. Base: `python3 AMOS_GO_BOARD_19X19.py` → 109 passed.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

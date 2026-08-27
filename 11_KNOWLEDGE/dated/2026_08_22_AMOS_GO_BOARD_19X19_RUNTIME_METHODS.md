@@ -1,4 +1,5 @@
 ---
+title: 2026 08 22 AMOS GO BOARD 19X19 RUNTIME METHODS
 origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_GO_BOARD_19X19.py diff; 75-section formal spec sections 10-72
 confidence: 0.95
@@ -7,6 +8,7 @@ conclusion_label: VERIFIED_PRESENT
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-go-board-19x19-runtime-m, dated, dated/2026-08-22]
 date: 2026-08-22
 ---
+
 
 # AMOS 19×19 Go Board — Runtime Methods (62+ Sections)
 
@@ -98,3 +100,6 @@ Returns legal flag, cell, color, eyes, aji, ko, influence sum, option count, mem
 ## 5. Conclusion class
 
 `AMOS MODEL / DERIVED`. The board geometry, coordinate identity, and Go rules are source-grounded. The influence/territory decay models, aji scoring, eye robustness, pressure/repair ratios, and option-space metrics are executable formalizations, not empirical Go strength.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

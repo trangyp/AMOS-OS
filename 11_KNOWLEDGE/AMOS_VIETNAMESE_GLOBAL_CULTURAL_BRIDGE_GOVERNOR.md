@@ -1,4 +1,5 @@
 ---
+title: AMOS VIETNAMESE GLOBAL CULTURAL BRIDGE GOVERNOR
 claim_ceiling: 0.9
 created: 2026-08-27
 domain: cross-domain
@@ -13,6 +14,7 @@ tags:
 - topic/vietnamese-global
 - topic/cultural-bridge
 ---
+
 # AMOS Vietnamese-Global Cultural Bridge Governor
 
 > **RSCF-NODE** · skill · cross-domain (C06 Vietnamese to Global)
@@ -102,3 +104,6 @@ Bidirectional translation preserving Vietnamese cultural specificity while enabl
 
 - AMOS_Society_Culture_Engine — Institutions, norms, demographics, cultural evolution
 - AMOS_Vn_Legal_Engine — Vietnam-specialised legal reasoning, defaults to Vietnamese language and Vietnam law while preserving global legal safety constraints
+
+---
+**MOC:** [[KNOWLEDGE_MOC]]

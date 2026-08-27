@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.agents/skills/amos-consciousness-engine-layer`
 
 - Open the skill: .agents/skills/amos-consciousness-engine-layer
+
+---
+**Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]

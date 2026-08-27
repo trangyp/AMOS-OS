@@ -33,5 +33,8 @@ node_id: cognitive_matrix_m_mid_scale_contract
 node_type: note
 path: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/COGNITIVE_MATRIX_M_MID_SCALE_CONTRACT.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[M_MID_SCALE_MOC]]

@@ -1,6 +1,13 @@
 ---
+title: TRANG AMOS REALITY ARCHITECTURE MASTER MAX DETAIL
 tags: [trang]
+type: data
+source: 11_KNOWLEDGE/trang
 ---
+
+
+
+```json
 {
   "title": "Trang Reality Architecture / AMOS Universe Master Corpus JSON",
   "version": "max_detail_available_session_v3_dual_corpus_full_raw",
@@ -28237,4 +28244,8 @@ timing, meaning, and repair.\nIf metabolized, it becomes learning, adaptation, m
 }
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+```
+
+---
+**MOC:** [[trang_MOC]]

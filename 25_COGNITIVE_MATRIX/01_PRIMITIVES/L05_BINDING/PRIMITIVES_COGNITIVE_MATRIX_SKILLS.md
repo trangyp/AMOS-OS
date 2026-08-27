@@ -1,3 +1,9 @@
+---
+title: PRIMITIVES COGNITIVE MATRIX SKILLS
+type: note
+tags: [note, l05-binding]
+---
+
 # L05 — Skills
 
 **Package:** `L05_BINDING`  
@@ -34,3 +40,6 @@ node_type: note
 path: 01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_SKILLS.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/PRIMITIVES_COGNITIVE_MATRIX_SKILLS.md
+
+---
+**MOC:** [[L05_BINDING_MOC]]

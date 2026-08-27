@@ -46,3 +46,6 @@ An integrity audit must check *graph* health (wikilinks resolve), not just *file
 
 ## Conclusion Class
 MODEL — self-audit and repairs performed by the assistant; all fixes verified by script.
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

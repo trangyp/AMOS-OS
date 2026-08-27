@@ -31,3 +31,6 @@ node_id: cp__modes_dependency_trace_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/88_DEPENDENCY_TRACE_MODES/DEPENDENCY_TRACE_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[88_DEPENDENCY_TRACE_MODES_MOC]]

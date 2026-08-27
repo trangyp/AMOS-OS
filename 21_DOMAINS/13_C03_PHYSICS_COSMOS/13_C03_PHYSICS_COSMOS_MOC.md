@@ -1,0 +1,20 @@
+---
+title: 13_C03_PHYSICS_COSMOS MOC
+type: moc
+tags: [moc, 13-c03-physics-cosmos]
+---
+
+# 13_C03_PHYSICS_COSMOS — Map of Content
+
+## Files
+
+- [[C03_PHYSICS_COSMOS_DOMAINS_DOMAIN_SPEC]]
+- [[C03_PHYSICS_COSMOS_DOMAINS_README]]
+- [[DOMAINS_C03_PHYSICS_COSMOS_CONTRACT]]
+
+## Subdirectories
+
+- [[INDEX_C03_PHYSICS_COSMOS_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

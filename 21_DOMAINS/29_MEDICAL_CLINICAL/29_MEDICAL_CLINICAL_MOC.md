@@ -1,0 +1,20 @@
+---
+title: 29_MEDICAL_CLINICAL MOC
+type: moc
+tags: [moc, 29-medical-clinical]
+---
+
+# 29_MEDICAL_CLINICAL — Map of Content
+
+## Files
+
+- [[DOMAINS_MEDICAL_CLINICAL_CONTRACT]]
+- [[MEDICAL_CLINICAL_DOMAINS_DOMAIN_SPEC]]
+- [[MEDICAL_CLINICAL_DOMAINS_README]]
+
+## Subdirectories
+
+- [[INDEX_MEDICAL_CLINICAL_DOMAINS_README]]
+
+---
+**Parent:** [[21_DOMAINS_MOC]]

@@ -31,3 +31,6 @@ node_id: amos_icy_00_index_c09_org_law_policy_domains_c09_org_law_policy_contrac
 node_type: note
 path: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX/C09_ORG_LAW_POLICY_DOMAINS_C09_ORG_LAW_POLICY_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C09_ORG_LAW_POLICY_DOMAINS_README]]

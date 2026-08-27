@@ -1,6 +1,11 @@
 ---
+title: 2026 08 25 QUANTUM V090 HONESTY CYCLE
 tags: [dated, dated/2026-08-25]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Quantum Library v0.9.0 Cycle — Honesty Infrastructure (2026-08-25)
 
 ## Cycle summary
@@ -39,3 +44,6 @@ v0.9.0 library commit · skill v2.2.0 commit · SSOT/max-power sync commit
 
 ---
 **Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[2026-08-25-qfm-pass15-corpus-depth]] · [[2026-08-25-qfm-pass5-zero-empty]] · [[2026-08-25-qfm-pass4-runtime-sync]]
+
+---
+**MOC:** [[DATED_MOC]]

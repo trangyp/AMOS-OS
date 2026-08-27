@@ -1,6 +1,11 @@
 ---
+title: EMERGENCY RAM RECOVERY
 tags: [system]
+type: document
+source: 11_KNOWLEDGE/system
 ---
+
+
 # AMOS EMERGENCY RAM RECOVERY - CRITICAL SWAP SITUATION
 ====================================================
 
@@ -97,3 +102,6 @@ The AMOS brain's memory containment system is working perfectly (18.3MB usage), 
 ---
 
 **STATUS**: EMERGENCY RAM RECOVERY COMPLETE - SYSTEM RESTART REQUIRED
+
+---
+**Links:** [[SYSTEM_MOC]] | [[KNOWLEDGE_MOC]]

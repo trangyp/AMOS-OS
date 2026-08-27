@@ -1,6 +1,11 @@
 ---
+title: AMOS INFRASTRUCTURE TEST FIX RERUN ARCHITECTURE
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # AMOS Infrastructure Layer — Test, Fix, Rerun & Architecture Enhancement
 
 **Origin architect / steward:** Trang Phan  
@@ -541,3 +546,6 @@ The broader infrastructure architecture is **DERIVED from AMOS lineage, Drive ma
 External runtime integrations remain **CONDITIONAL** until their actual binaries/services are executed and validated in the target deployment.
 
 No unexecuted capability is credited as PASS.
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

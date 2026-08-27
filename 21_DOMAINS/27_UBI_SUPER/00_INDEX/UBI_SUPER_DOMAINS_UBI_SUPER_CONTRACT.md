@@ -50,7 +50,7 @@ Given an operation touching `UBI SUPER DOMAINS UBI SUPER CONTRACT` within the Do
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos__domains_27_ubi_super_00_index_ubi_super_domains_ubi_super_contrac
 node_type: note
 path: 21_DOMAINS/27_UBI_SUPER/00_INDEX/UBI_SUPER_DOMAINS_UBI_SUPER_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_UBI_SUPER_DOMAINS_README]]

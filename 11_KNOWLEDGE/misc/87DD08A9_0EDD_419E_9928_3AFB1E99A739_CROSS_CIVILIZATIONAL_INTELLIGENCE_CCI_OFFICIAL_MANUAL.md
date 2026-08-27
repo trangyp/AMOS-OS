@@ -1,6 +1,11 @@
 ---
+title: 87DD08A9 0EDD 419E 9928 3AFB1E99A739 CROSS CIVILIZATIONAL INTELLIGENCE CCI OFFICIAL MANUAL
 tags: [canon-group/meta, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/87dd08a9-0edd-419e-9928-3afb1e99a739-cro, misc]
+type: note
+source: 11_KNOWLEDGE/misc
 ---
+
+
 
 Cross-Civilizational
 Intelligence™ (CCI) – Official
@@ -705,4 +710,7 @@ This scoring system is now part of the canonical architecture of your full stack
 Cross-Civilizational Intelligence™ CCI  Official Manual 26
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

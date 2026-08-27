@@ -1,4 +1,5 @@
 ---
+title: AMOS PUBLIC HEALTH KERNEL V0 SCIENCE HEALTH2
 canon-group: biology
 canon-type: framework
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: amos-public-health-kernel-v0
 tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-public-health-kernel-v0, kernel]
 created: 2026-08-22
 ---
+
 
 # AMOS_Public_Health_Kernel_v0
 
@@ -64,5 +66,8 @@ created: 2026-08-22
 
 ## Related
 - RSCF-Brain-MOC
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - AMOS_Public_Health_Kernel_v0_Biology_Cognition (source)
+
+---
+**MOC:** [[KERNEL_MOC]]

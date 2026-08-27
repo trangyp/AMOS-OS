@@ -1,4 +1,5 @@
 ---
+title: MD 2026 08 23 AMOS ABSOLUTE INTEGRITY PASS
 origin_architect: "Trang Phan"
 type: "note"
 tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/integrity, topic/test-reconciliation, topic/gap-closure, amos-general]
@@ -6,6 +7,7 @@ status: "complete"
 provenance: "OBSERVATION"
 confidence: "HIGH"
 ---
+
 
 # AMOS Absolute Integrity Pass — 2026-08-23
 
@@ -79,6 +81,9 @@ Updated in:
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Kafka Brain Buffer Module Fix
 - 2026-08-23 AMOS TypeScript Test Expansion
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

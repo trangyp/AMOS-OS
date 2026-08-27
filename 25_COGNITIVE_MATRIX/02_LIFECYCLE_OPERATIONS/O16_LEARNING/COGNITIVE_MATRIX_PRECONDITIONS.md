@@ -1,3 +1,9 @@
+---
+title: COGNITIVE MATRIX PRECONDITIONS
+type: note
+tags: [note, o16-learning]
+---
+
 # O16 — Preconditions
 
 **Package:** `O16_LEARNING`  
@@ -34,3 +40,6 @@ node_type: note
 path: 02_LIFECYCLE_OPERATIONS/O16_LEARNING/COGNITIVE_MATRIX_PRECONDITIONS.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING/COGNITIVE_MATRIX_PRECONDITIONS.md
+
+---
+**MOC:** [[O16_LEARNING_MOC]]

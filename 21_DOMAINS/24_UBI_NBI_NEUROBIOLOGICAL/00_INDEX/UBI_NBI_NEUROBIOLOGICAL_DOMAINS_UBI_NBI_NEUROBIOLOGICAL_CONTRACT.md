@@ -31,3 +31,6 @@ node_id: amos_ex_ubi_nbi_neurobiological_domains_ubi_nbi_neurobiological_contrac
 node_type: note
 path: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX/UBI_NBI_NEUROBIOLOGICAL_DOMAINS_UBI_NBI_NEUROBIOLOGICAL_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_UBI_NBI_NEUROBIOLOGICAL_DOMAINS_README]]

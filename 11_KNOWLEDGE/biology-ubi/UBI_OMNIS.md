@@ -1,4 +1,5 @@
 ---
+title: UBI OMNIS
 
 canon-group: ubi
 canon-type: product-architecture
@@ -9,7 +10,9 @@ version: 1.0
 status: architecture-specification
 origin-architect: Trang Phan
 created: 2026-08-25
--------------------
+---
+
+----------------
 
 # UBI Omnis Wear™ — AMOS-Governed Wearable Architecture
 
@@ -3152,4 +3155,7 @@ That structure preserves the original UBI Omnis direction while aligning it with
 
 ---
 
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · UBI_Omnis · AMOS_FULL_BRAIN_OS · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · UBI_Omnis · AMOS_FULL_BRAIN_OS · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[BIOLOGY-UBI_MOC]]

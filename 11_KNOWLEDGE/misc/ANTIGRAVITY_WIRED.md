@@ -17,5 +17,8 @@ confidence: "VERIFIED"
 Antigravity agent has successfully connected to the Cosmo Brain Obsidian Vault. Memory and learning persistence operations can now utilize the vault natively via the `cosmo-obsidian-memory` skill.
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22
+
+---
+**MOC:** [[MISC_MOC]]

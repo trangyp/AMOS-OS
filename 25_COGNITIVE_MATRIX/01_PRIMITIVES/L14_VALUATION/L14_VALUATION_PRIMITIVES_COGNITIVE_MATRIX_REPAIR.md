@@ -1,3 +1,9 @@
+---
+title: L14 VALUATION PRIMITIVES COGNITIVE MATRIX REPAIR
+type: note
+tags: [note, l14-valuation]
+---
+
 # L14 — Repair & Recovery
 
 **Package:** `L14_VALUATION`  
@@ -39,3 +45,6 @@ node_type: note
 path: 01_PRIMITIVES/L14_VALUATION/L14_VALUATION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION/L14_VALUATION_PRIMITIVES_COGNITIVE_MATRIX_REPAIR.md
+
+---
+**MOC:** [[L14_VALUATION_MOC]]

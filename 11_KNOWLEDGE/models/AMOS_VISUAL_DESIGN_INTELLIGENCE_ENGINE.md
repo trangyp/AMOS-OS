@@ -1,6 +1,11 @@
 ---
+title: AMOS VISUAL DESIGN INTELLIGENCE ENGINE
 tags: [models]
+type: document
+source: 11_KNOWLEDGE/models
 ---
+
+
 # AMOS VISUAL DESIGN + UI/UX STRUCTURAL INTELLIGENCE ENGINE
 ## COMPLETE IMPLEMENTATION REPORT
 
@@ -520,3 +525,6 @@ The system is now ready for:
 ---
 
 **The AMOS VISUAL DESIGN + UI/UX STRUCTURAL INTELLIGENCE ENGINE represents a breakthrough in deterministic, accessible, and intelligent UI/UX generation, setting new standards for design system automation and AI-driven design intelligence.**
+
+---
+**Links:** [[MODELS_MOC]] | [[KNOWLEDGE_MOC]]

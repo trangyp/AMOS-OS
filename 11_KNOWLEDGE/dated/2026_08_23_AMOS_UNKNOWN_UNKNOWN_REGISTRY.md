@@ -143,6 +143,9 @@ UnknownUnknownRegistry (UNKNOWN_UNKNOWNs)
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Gap Discovery Engine All 6 Modes
 - 2026-08-22 AMOS Completion Graph All 249 Gaps Closed
+
+---
+**MOC:** [[DATED_MOC]]

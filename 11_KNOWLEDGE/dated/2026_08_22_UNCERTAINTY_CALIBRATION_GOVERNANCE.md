@@ -1,6 +1,11 @@
 ---
+title: 2026 08 22 UNCERTAINTY CALIBRATION GOVERNANCE
 tags: [dated, dated/2026-08-22]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # Uncertainty & Calibration Governance (Gaps 217-221)
 
 **Date**: 2026-08-22
@@ -65,6 +70,9 @@ Implemented the Uncertainty & Calibration governance module for the AMOS OS Kern
 
 - 2026-08-22 Adversarial Robustness Governance
 - 2026-08-22 Distributed Consensus Governance
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 
 #uncertainty-calibration #governance #gaps-217-221 #closed #amos-os-kernel
+
+---
+**MOC:** [[DATED_MOC]]

@@ -1,4 +1,5 @@
 ---
+title: 5A JOURNEY PLANNING PHASE V4
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
@@ -6,6 +7,7 @@ topic: 5a-journey-planning-phase-v4
 tags: [canon-group/tech-ai, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/5a-journey-planning-phase-v4, misc]
 created: 2026-08-22
 ---
+
 
 TRANSFORMING CUSTOMER JOURNEYS
 Playbook
@@ -1751,4 +1753,7 @@ Physical space setup ❑Identified physical space for Journey Team to operate in
 McKinsey & Company 69
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

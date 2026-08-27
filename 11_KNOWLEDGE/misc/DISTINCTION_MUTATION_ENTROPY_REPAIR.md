@@ -1,6 +1,11 @@
 ---
+title: DISTINCTION MUTATION ENTROPY REPAIR
 tags: [misc]
+type: note
+source: 11_KNOWLEDGE/misc
 ---
+
+
 ﻿canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
@@ -2234,4 +2239,7 @@ bounded finalization
 
 while preventing narrative, biological speculation, or archetype labels from silently becoming control-plane truth.
 
-Related: AMOS_CORE · AMOS_OS · AMOS_Super_Kernel · AMOS_AI_Architecture_Factory · AMOS_Distinction_Architecture · AMOS_Entropy · AMOS_Repair · AMOS_Provenance · rscf · GMEF · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+Related: AMOS_CORE · AMOS_OS · AMOS_Super_Kernel · AMOS_AI_Architecture_Factory · AMOS_Distinction_Architecture · AMOS_Entropy · AMOS_Repair · AMOS_Provenance · rscf · GMEF · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

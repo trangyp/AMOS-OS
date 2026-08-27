@@ -1,6 +1,11 @@
 ---
+title: RUNTIME LINEAGE
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # AMOS_CORE Runtime Lineage
 
 These files adapt the *reasoning pattern* of each runtime version into Markdown. They do not claim the host LLM literally provides the underlying concurrency/distributed guarantees.
@@ -25,4 +30,7 @@ These files adapt the *reasoning pattern* of each runtime version into Markdown.
 | v4.4 | Coordination Avoidance Runtime | proof-of-independence fast lane; local finalization for disjoint causal cones; automatic escalation for overlap/uncertainty/high consequence; handoff to coordinated epoch path | No later hard-test result is available in the current conversation after promotion; future limits remain untested here. |
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]

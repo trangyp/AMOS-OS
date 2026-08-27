@@ -31,3 +31,6 @@ node_id: cp_s_delegation_assignment_modes_commit_control_plane_mode_family_spec_
 node_type: note
 path: 03_CONTROL_PLANE/09_COMMIT/98_DELEGATION_ASSIGNMENT_MODES/DELEGATION_ASSIGNMENT_MODES_COMMIT_CONTROL_PLANE_MODE_FAMILY_SPEC.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[98_DELEGATION_ASSIGNMENT_MODES_MOC]]

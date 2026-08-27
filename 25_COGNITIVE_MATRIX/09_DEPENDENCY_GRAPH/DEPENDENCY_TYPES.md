@@ -1,3 +1,9 @@
+---
+title: DEPENDENCY TYPES
+type: note
+tags: [note, 09-dependency-graph]
+---
+
 # DEPENDENCY_TYPES — Definition
 
 **Package:** `DEPENDENCY_TYPES_`  
@@ -36,3 +42,6 @@ node_type: note
 path: 09_DEPENDENCY_GRAPH/DEPENDENCY_TYPES_/DEPENDENCY_TYPES.md
 claim_class: DERIVED
 node_path_note: /Users/mac/Documents/AMOS_OS/25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/DEPENDENCY_TYPES.md
+
+---
+**MOC:** [[09_DEPENDENCY_GRAPH_MOC]]

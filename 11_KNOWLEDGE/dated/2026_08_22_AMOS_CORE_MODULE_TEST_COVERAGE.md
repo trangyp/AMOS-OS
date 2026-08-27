@@ -62,5 +62,8 @@ unit tests for their individual logic.
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS All 249 Gaps Closed
+
+---
+**MOC:** [[DATED_MOC]]

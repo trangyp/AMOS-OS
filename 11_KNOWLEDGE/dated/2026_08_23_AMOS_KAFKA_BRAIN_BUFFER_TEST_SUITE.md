@@ -1,6 +1,11 @@
 ---
+title: 2026 08 23 AMOS KAFKA BRAIN BUFFER TEST SUITE
 tags: [dated, dated/2026-08-23]
+type: document
+source: 11_KNOWLEDGE/dated
 ---
+
+
 # AMOS Kafka Brain Buffer Test Suite
 
 **Date**: 2026-08-23
@@ -89,4 +94,7 @@ npx tsx AMOS_Kafka_Brain_Buffer_v1.0.test.ts
 - **Grand total**: 1934 Python + 271 cognitive substrate + 1433 TypeScript + 359 deterministic = 3997
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[DATED_MOC]]

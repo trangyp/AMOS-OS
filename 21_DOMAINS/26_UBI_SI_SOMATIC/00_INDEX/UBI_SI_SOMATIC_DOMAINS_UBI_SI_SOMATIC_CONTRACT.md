@@ -31,3 +31,6 @@ node_id: amos__si_somatic_00_index_ubi_si_somatic_domains_ubi_si_somatic_contrac
 node_type: note
 path: 21_DOMAINS/26_UBI_SI_SOMATIC/00_INDEX/UBI_SI_SOMATIC_DOMAINS_UBI_SI_SOMATIC_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_UBI_SI_SOMATIC_DOMAINS_README]]

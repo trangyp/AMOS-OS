@@ -1,6 +1,11 @@
 ---
+title: README
 tags: [moc, index]
+type: document
+source: 11_KNOWLEDGE/root
 ---
+
+
 # 01_BRAIN
 
 ## Overview
@@ -33,3 +38,6 @@ Configuration options...
 
 ## Contributing
 Follow AMOS development guidelines...
+
+---
+**Links:** [[COSMO_BRAIN_MOC]] | [[KNOWLEDGE_MOC]]

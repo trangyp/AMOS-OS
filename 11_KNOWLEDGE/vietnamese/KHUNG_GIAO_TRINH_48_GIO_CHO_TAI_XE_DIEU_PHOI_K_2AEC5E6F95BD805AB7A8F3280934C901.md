@@ -1,6 +1,11 @@
 ---
+title: KHUNG GIAO TRINH 48 GIO CHO TAI XE DIEU PHOI K 2AEC5E6F95BD805AB7A8F3280934C901
 tags: [vietnamese]
+type: document
+source: 11_KNOWLEDGE/vietnamese
 ---
+
+
 # Khung Giáo trình 48 giờ cho tài xế – điều phối – kỹ thuật.
 
 Toàn bộ cấu trúc đi từ: **Chọn đúng người → xây đúng quy trình → ổn định nội bộ → trải nghiệm khách tốt → tự hào nghề nghiệp → thương hiệu tự khuếch đại.**
@@ -256,4 +261,7 @@ Tổng: **16 + 20 + 8 + 4 = 48 giờ** cho mỗi học viên.
 ---
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[vietnamese_MOC]]

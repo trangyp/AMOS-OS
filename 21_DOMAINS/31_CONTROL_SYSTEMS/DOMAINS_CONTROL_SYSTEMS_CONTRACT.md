@@ -50,7 +50,7 @@ Given an operation touching `DOMAINS CONTROL SYSTEMS CONTRACT` within the Domain
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -68,3 +68,6 @@ node_id: amos_21_domains_31_control_systems_domains_control_systems_contract_md
 node_type: note
 path: 21_DOMAINS/31_CONTROL_SYSTEMS/DOMAINS_CONTROL_SYSTEMS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[31_CONTROL_SYSTEMS_MOC]]

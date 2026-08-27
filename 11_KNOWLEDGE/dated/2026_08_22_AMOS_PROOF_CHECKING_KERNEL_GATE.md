@@ -64,7 +64,10 @@ checking happens even if SelfAudit is modified in the future.
 - **Total: 3701 verified tests** across all runtimes
 
 ## Links
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Core Infrastructure Modules
 - 2026-08-22 AMOS Core Runtime Modules
 - 2026-08-22 AMOS Remaining Module Test Coverage
+
+---
+**MOC:** [[DATED_MOC]]

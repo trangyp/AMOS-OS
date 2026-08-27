@@ -1,3 +1,9 @@
+---
+title: L1 EPISTEMIC
+type: note
+tags: [note, 01-core-laws]
+---
+
 ````markdown
 ---
 title: "AMOS Core Laws — L1 Epistemic Laws"
@@ -3297,3 +3303,6 @@ confidence_ceiling: 0
 
 ```
 ```
+
+---
+**MOC:** [[01_CORE_LAWS_MOC]]

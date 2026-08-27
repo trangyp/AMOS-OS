@@ -1,6 +1,13 @@
 ---
+title: AMOS FOREX PACKAGE LOCK
 tags: [amos-general]
+type: data
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
+
+```json
 {
   "name": "amos-forex-os",
   "version": "0.1.0",
@@ -6107,4 +6114,8 @@ tags: [amos-general]
 }
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+```
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

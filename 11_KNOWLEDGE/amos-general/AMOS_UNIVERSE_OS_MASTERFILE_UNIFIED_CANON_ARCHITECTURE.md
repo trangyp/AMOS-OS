@@ -1,6 +1,11 @@
 ---
+title: AMOS UNIVERSE OS MASTERFILE UNIFIED CANON ARCHITECTURE
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # AMOS Universe OS Masterfile — Unified Canon Architecture
 
 ## Overview
@@ -2600,4 +2605,7 @@ Feedback
 }
 ]
 
-The supplied document therefore functions as a **master architectural specification and integration map**, not yet as proof that every declared law, equation, mapping, accuracy target, or cross-domain mechanism has been empirically validated. 
+The supplied document therefore functions as a **master architectural specification and integration map**, not yet as proof that every declared law, equation, mapping, accuracy target, or cross-domain mechanism has been empirically validated.
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

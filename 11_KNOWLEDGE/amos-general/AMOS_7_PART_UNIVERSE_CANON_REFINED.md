@@ -1,6 +1,11 @@
 ---
+title: AMOS 7 PART UNIVERSE CANON REFINED
 tags: [amos-general]
+type: document
+source: 11_KNOWLEDGE/amos-general
 ---
+
+
 # AMOS 7-Part Universe Canon — Source Canon + Infrastructure Mapping
 
 **Origin architect / steward:** Trang Phan  
@@ -909,3 +914,6 @@ This cleaned AMOS edition intentionally separates those later applications from 
 - provenance and epistemic class remain recoverable.
 
 The original uploaded file should be retained as the source archive.
+
+---
+**Links:** [[AMOS-GENERAL_MOC]] | [[KNOWLEDGE_MOC]]

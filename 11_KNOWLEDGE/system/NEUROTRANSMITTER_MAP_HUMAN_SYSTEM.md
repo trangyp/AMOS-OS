@@ -1,4 +1,5 @@
 ---
+title: NEUROTRANSMITTER MAP HUMAN SYSTEM
 origin: external — "The Complete Human System" (canonical version)
 provenance: direct ingestion of Chapter 8 (Neurochemical System)
 confidence: 0.95
@@ -10,6 +11,7 @@ source_title: "The Complete Human System — Chapter 8: The Neurochemical System
 source_type: book-manuscript
 source_url: local-ingestion
 ---
+
 
 # Neurotransmitter Map — Complete Human System
 
@@ -121,5 +123,8 @@ Different subtypes have different distributions, signaling pathways, and functio
 - 2026-08-22 The Complete Human System — Book Knowledge Base — canonical version
 - 2026-08-22 The Complete Human System — Books One–Six — alternate version
 - Memory — The Complete Human System — integrated insights with epistemic audit
-- [[00_Cosmo_Brain_MOC]] — vault index
+- [[00_COSMO_BRAIN_MOC]] — vault index
 - [[docs/moc/06-Knowledge-Base-MOC]] — knowledge base index
+
+---
+**MOC:** [[SYSTEM_MOC]]

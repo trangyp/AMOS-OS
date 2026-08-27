@@ -128,6 +128,9 @@ All 180 tests pass. The 29 remaining issues from the 151/180 milestone were reso
 
 ## Links
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-23 AMOS Kafka Brain Buffer
 - 2026-08-23 Memory — AMOS Kafka Brain Buffer
+
+---
+**MOC:** [[DATED_MOC]]

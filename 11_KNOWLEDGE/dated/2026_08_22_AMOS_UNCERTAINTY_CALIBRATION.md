@@ -86,3 +86,6 @@ governance gate in `AmosKernel.run()`, evaluated post-execution as an advisory g
 4. **Governor attribute names**: The user uses descriptive names like
    `uncertainty_decomposer`, `confidence_propagator`, `correlation_handler`,
    `unknown_probability`, `calibration_drust` (not abbreviated).
+
+---
+**Links:** [[DATED_MOC]] | [[KNOWLEDGE_MOC]]

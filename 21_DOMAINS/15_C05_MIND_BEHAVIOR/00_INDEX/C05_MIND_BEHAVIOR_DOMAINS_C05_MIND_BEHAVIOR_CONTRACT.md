@@ -31,3 +31,6 @@ node_id: amos_avior_00_index_c05_mind_behavior_domains_c05_mind_behavior_contrac
 node_type: note
 path: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX/C05_MIND_BEHAVIOR_DOMAINS_C05_MIND_BEHAVIOR_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_C05_MIND_BEHAVIOR_DOMAINS_README]]

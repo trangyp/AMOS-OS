@@ -1,3 +1,9 @@
+---
+title: GENERATORS HISTORY
+type: note
+tags: [note, 12-generators]
+---
+
 Below is a full AMOS-aligned replacement for `12_GENERATORS/HISTORY.md`. The key difference from `ROADMAP.md` is that **History records provenance-bound evolution and prior states; it does not describe intended future work**. Where actual revision evidence is unavailable, entries remain `UNKNOWN/GAP` rather than being reconstructed from filenames or apparent ordering. This follows the Full Brain OS requirement to preserve provenance, distinguish source claims from derived models, and expose missing historical evidence instead of inventing it.  The Skill’s primary canon source is `AMOS_FULL_BRAIN_OS.json`; correspondence with that architecture does not prove a particular Generator implementation or historical milestone occurred. 
 
 ````md
@@ -3073,7 +3079,7 @@ NON_AUTHORITATIVE
 
 ---
 
-**Related:** [[00_ROOT/00-Home]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC
+**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC
 
 ## Related Generator artifacts
 
@@ -3124,6 +3130,9 @@ node_id: generators_history
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_HISTORY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_ROOT/00-Home]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[12_GENERATORS_MOC]]

@@ -175,5 +175,8 @@ CIL is the **integration glue** that ensures all AMOS canon components form a co
 - AMOS HIE Human Interaction Engine — Human Interaction Engine
 - AMOS Species Interaction Core HIE — UIE
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
 - 2026-08-22 AMOS Full Brain OS Architecture
+
+---
+**MOC:** [[AMOS-GENERAL_MOC]]

@@ -1,6 +1,11 @@
 ---
+title: HSE CEO ENGINEV ROOT
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/hse-ceo-enginev, engine]
+type: document
+source: 11_KNOWLEDGE/engine
 ---
+
+
 
 ============================================================
 BLOCK U3H — ATEMPORAL FIELD (PART 21)
@@ -13342,4 +13347,7 @@ END OF BLOCK 6 — ABSOLUTE VN COMPLETE
 ============================================================
 
 
-- [[00_Cosmo_Brain_MOC]]
+- [[00_COSMO_BRAIN_MOC]]
+
+---
+**MOC:** [[ENGINE_MOC]]

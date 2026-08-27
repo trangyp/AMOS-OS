@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -31,3 +31,6 @@ node_id: amos__escalation_00_index_escalation_operating_model_escalation_contrac
 node_type: note
 path: 23_OPERATING_MODEL/04_ESCALATION/00_INDEX/ESCALATION_OPERATING_MODEL_ESCALATION_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_ESCALATION_OPERATING_MODEL_README]]

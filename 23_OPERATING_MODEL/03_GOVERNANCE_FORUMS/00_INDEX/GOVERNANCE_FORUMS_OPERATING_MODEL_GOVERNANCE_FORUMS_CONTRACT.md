@@ -23,7 +23,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 [[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
 
 ---
-**Related:** [[00_ROOT/00-Home]] · [[AMOS_RSCF_NODES]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE
@@ -31,3 +31,6 @@ node_id: amos__index_governance_forums_operating_model_governance_forums_contrac
 node_type: note
 path: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS/00_INDEX/GOVERNANCE_FORUMS_OPERATING_MODEL_GOVERNANCE_FORUMS_CONTRACT.md
 claim_class: AMOS_MODEL
+
+---
+**MOC:** [[INDEX_GOVERNANCE_FORUMS_OPERATING_MODEL_README]]

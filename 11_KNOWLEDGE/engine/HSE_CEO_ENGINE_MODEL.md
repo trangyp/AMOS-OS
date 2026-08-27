@@ -38,4 +38,7 @@ A formalized pipeline for executive decision-making, ensuring that decisions are
 Used primarily by the `amos-bod-engine-layer` and the `amos-org-governance-engine-layer`. When an AMOS agent is tasked with advising on corporate strategy, evaluating executive performance, or designing board reporting structures, it must invoke this engine to accurately model the human element at the top of the hierarchy.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[ENGINE_MOC]]

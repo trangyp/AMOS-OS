@@ -16,3 +16,6 @@ confidence: "VERIFIED"
 **Location:** `.devin/skills/amos-counterfactual-reasoning-kernel`
 
 - Open the skill: .devin/skills/amos-counterfactual-reasoning-kernel
+
+---
+**Links:** [[KERNEL_MOC]] | [[KNOWLEDGE_MOC]]

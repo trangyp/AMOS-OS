@@ -1,6 +1,11 @@
 ---
+title: EXECUTION HARNESS
 tags: [misc]
+type: document
+source: 11_KNOWLEDGE/misc
 ---
+
+
 # Execution Harness
 
 Use executable checks instead of prose when a claim can be tested.
@@ -22,4 +27,7 @@ Maintain:
 Execution evidence outranks speculative implementation reasoning for actual observed behavior.
 
 ---
-**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[docs/brain/AMOS_Simulation_Kernel_v0_Math_Foundations]] · [[docs/brain/system_scan_agent]] · [[docs/brain/automation_profiles]]
+**Related:** [[docs/moc/00-Home]] · [[docs/moc/06-Knowledge-Base-MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+
+---
+**MOC:** [[MISC_MOC]]
