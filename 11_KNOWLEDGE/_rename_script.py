@@ -18,12 +18,11 @@ from pathlib import Path
 BASE_DIR = Path("/Users/mac/Documents/AMOS_OS/11_KNOWLEDGE")
 
 # Decorative terms to strip (as whole tokens, case-insensitive)
+# Only terms explicitly listed in AMOS Naming Standard §2 and §32
 DECORATIVE_TERMS = {
     "FINAL", "COMPLETE", "ULTIMATE", "OMEGA", "SUPREME", "INFINITY",
     "INFINITE", "PERFECT", "ULTRA", "MAXIMUM", "LATEST", "BEST",
-    "NEW", "MAX", "REAL", "DONE", "READY", "FULLY",
-    "ENHANCED", "ENHANCEMENT", "ADVANCED", "SUPER", "MEGA",
-    "MISSION", "REPORT",  # These are often decorative suffixes
+    "NEW",
 }
 
 # But don't strip if it would leave the name too short or meaningless
@@ -35,6 +34,32 @@ SKIP_FILES = {".DS_Store", "_rename_script.py", "_rename_manifest.json", "_renam
 
 def strip_diacritics(text: str) -> str:
     """Remove accents/diacritics, convert to closest ASCII."""
+    # Handle Vietnamese precomposed characters that don't decompose with NFD
+    vietnamese_map = {
+        'Đ': 'D', 'đ': 'D',
+        'Ơ': 'O', 'ơ': 'O',
+        'Ư': 'U', 'ư': 'U',
+        'Ǎ': 'A', 'ǎ': 'A',
+        'Ǐ': 'I', 'ǐ': 'I',
+        'Ǒ': 'O', 'ǒ': 'O',
+        'Ǔ': 'U', 'ǔ': 'U',
+        'Ǧ': 'G', 'ǧ': 'G',
+        'Ǩ': 'K', 'ǩ': 'K',
+        'Ň': 'N', 'ň': 'N',
+        'Ș': 'S', 'ș': 'S',
+        'Ț': 'T', 'ț': 'T',
+        'Æ': 'AE', 'æ': 'AE',
+        'Ø': 'O', 'ø': 'O',
+        'Þ': 'TH', 'þ': 'TH',
+        'Ð': 'D', 'ð': 'D',
+        'Œ': 'OE', 'œ': 'OE',
+        'ẞ': 'SS', 'ß': 'SS',
+        'Ł': 'L', 'ł': 'L',
+        'Ø': 'O',
+    }
+    for vn_char, replacement in vietnamese_map.items():
+        text = text.replace(vn_char, replacement)
+
     # NFD decomposition separates base chars from combining marks
     normalized = unicodedata.normalize("NFD", text)
     # Keep only non-combining characters
@@ -93,6 +118,7 @@ def normalize_filename(filename: str) -> str:
     # Handle: spaces, hyphens (but not within version numbers), periods in name
     # First, protect version-like patterns (v1, v2.0, etc.)
     name = re.sub(r'(?<=\w)[-](?=\w)', '_', name)  # hyphens between word chars -> _
+    # Replace standalone dashes (em-dash, en-dash already converted) and spaces
     name = name.replace(' ', '_')
     name = name.replace('.', '_')
     name = name.replace(',', '_')
@@ -123,12 +149,40 @@ def normalize_filename(filename: str) -> str:
     name = name.replace('~', '_')
     name = name.replace('^', '_')
     name = name.replace('`', '_')
+    # Remove trademark/copyright symbols
+    name = name.replace('™', '')
+    name = name.replace('®', '')
+    name = name.replace('©', '')
+
+    # Step 3.5: Handle remaining special symbols before uppercase
+    name = name.replace('×', '_X_')
+    name = name.replace('∅', '_EMPTY_')
+    name = name.replace('π', '_PI_')
+    name = name.replace('→', '_TO_')
+    name = name.replace('←', '_FROM_')
+    name = name.replace('↔', '_BIDIR_')
+    name = name.replace('√', '_SQRT_')
+    name = name.replace('∞', '_INF_')
+    name = name.replace('≈', '_APPROX_')
+    name = name.replace('≠', '_NEQ_')
+    name = name.replace('≤', '_LE_')
+    name = name.replace('≥', '_GE_')
 
     # Step 4: Convert to uppercase
     name = name.upper()
 
     # Step 5: Collapse multiple underscores
     name = re.sub(r'_+', '_', name)
+
+    # Step 5.5: Clean up dash-underscore patterns (from em-dashes)
+    # Replace _-_ with single underscore, and remove leading/trailing dashes
+    name = name.replace('_-_', '_')
+    name = name.replace('--', '_')
+    name = re.sub(r'^[-_]+', '', name)
+    name = re.sub(r'[-_]+$', '', name)
+    # Re-collapse underscores after dash cleanup
+    name = re.sub(r'_+', '_', name)
+    name = name.strip('_')
 
     # Step 6: Strip leading/trailing underscores
     name = name.strip('_')
@@ -185,35 +239,71 @@ def collect_files(base_dir: Path) -> list[tuple[str, Path]]:
     return all_files
 
 
-def check_collisions(renames: dict[tuple[str, str], str]) -> dict[str, list[tuple[str, str]]]:
-    """Check for collisions in the proposed new names."""
-    new_to_old = {}
-    collisions = {}
+def check_collisions(renames: dict[tuple[str, str], str], no_change: list[tuple[str, str]]) -> dict[str, list[tuple[str, str]]]:
+    """Check for collisions in the proposed new names, including existing conformant files."""
+    # Set of names that already exist (conformant files not being renamed)
+    conformant_keys = {f"{sd}/{n}" for sd, n in no_change}
+
+    # Group all proposed targets (including conformant ones that match)
+    target_map = {}  # target_key -> list of (subdir, old_name) that want it
     for (subdir, old_name), new_name in renames.items():
         key = f"{subdir}/{new_name}"
-        if key in new_to_old:
-            if key not in collisions:
-                collisions[key] = [new_to_old[key]]
-            collisions[key].append((subdir, old_name))
-        else:
-            new_to_old[key] = (subdir, old_name)
+        if key not in target_map:
+            target_map[key] = []
+        target_map[key].append((subdir, old_name))
+
+    # Also check if any rename target matches a conformant file
+    for (subdir, old_name), new_name in renames.items():
+        key = f"{subdir}/{new_name}"
+        if key in conformant_keys and old_name != new_name:
+            # This rename target collides with an existing conformant file
+            if key not in target_map:
+                target_map[key] = []
+            # Mark the conformant file as the "owner" of the base name
+            if ("EXISTING", key) not in target_map[key]:
+                target_map[key].insert(0, ("EXISTING", key))
+
+    # Find collisions (more than one claimant for a target)
+    collisions = {}
+    for key, claimants in target_map.items():
+        if len(claimants) > 1:
+            collisions[key] = claimants
+
     return collisions
 
 
-def resolve_collisions(renames: dict[tuple[str, str], str], collisions: dict) -> dict[tuple[str, str], str]:
+def resolve_collisions(renames: dict[tuple[str, str], str], collisions: dict, no_change: list[tuple[str, str]]) -> dict[tuple[str, str], str]:
     """Resolve collisions by appending numeric suffixes."""
     resolved = dict(renames)
-    for key, old_files in collisions.items():
+    # Track all names that will be taken after resolution
+    taken = {f"{sd}/{n}" for sd, n in no_change}
+    # Also track resolved rename targets
+    for (sd, old), new in resolved.items():
+        taken.add(f"{sd}/{new}")
+
+    for key, claimants in collisions.items():
         subdir = key.rsplit('/', 1)[0]
         base_new = key.rsplit('/', 1)[1]
         name, ext = os.path.splitext(base_new)
-        for i, (sd, old_name) in enumerate(old_files, start=2):
-            if i == 2:
-                # First file keeps the base name, second gets _2
-                new_name = f"{name}_{i}{ext}"
-            else:
-                new_name = f"{name}_{i}{ext}"
-            resolved[(sd, old_name)] = new_name
+
+        for sd, old_name in claimants:
+            if old_name == "EXISTING":
+                # The existing conformant file keeps its name
+                continue
+            # Find a unique name
+            counter = 2
+            while True:
+                candidate = f"{name}_{counter}{ext}"
+                candidate_key = f"{sd}/{candidate}"
+                if candidate_key not in taken:
+                    break
+                counter += 1
+            # Update resolved and taken
+            old_key = f"{sd}/{resolved[(sd, old_name)]}"
+            taken.discard(old_key)
+            resolved[(sd, old_name)] = candidate
+            taken.add(f"{sd}/{candidate}")
+
     return resolved
 
 
@@ -243,8 +333,8 @@ def main():
     print(f"Files already conformant: {len(no_change)}")
     print()
 
-    # Check collisions
-    collisions = check_collisions(renames)
+    # Check collisions (including against existing conformant files)
+    collisions = check_collisions(renames, no_change)
     if collisions:
         print(f"Collisions detected: {len(collisions)}")
         for key, files in sorted(collisions.items()):
@@ -255,12 +345,12 @@ def main():
 
     # Resolve collisions
     if collisions:
-        renames = resolve_collisions(renames, collisions)
+        renames = resolve_collisions(renames, collisions, no_change)
         print("Collisions resolved with numeric suffixes.")
         print()
 
     # Re-check collisions after resolution
-    collisions2 = check_collisions(renames)
+    collisions2 = check_collisions(renames, no_change)
     if collisions2:
         print(f"WARNING: Unresolvable collisions remain: {len(collisions2)}")
         for key, files in collisions2.items():
