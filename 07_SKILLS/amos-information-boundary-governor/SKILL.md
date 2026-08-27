@@ -92,3 +92,6 @@ Information boundary governance is an architectural construct. It does not prove
 ## Provenance
 
 - **Skill**: `amos-information-boundary-governor
+
+---
+**Links:** [[07_SKILLS_MOC]]

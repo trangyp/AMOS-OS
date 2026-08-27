@@ -101,3 +101,6 @@ Future debt option value governance is a decision-support construct. It does not
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G
+
+---
+**Links:** [[07_SKILLS_MOC]]

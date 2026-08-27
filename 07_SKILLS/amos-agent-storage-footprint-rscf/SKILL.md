@@ -95,3 +95,6 @@ Integrity sweep of all 607 agent JSONs found **26 invalid entries**:
 - Re-verified: **607/607 agents parse with name + description present** ## Lesson
 
 Generators drift in schema even within one session's outputs. The registry-level invarian
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -101,3 +101,6 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 ### Source 3: AMOS_CORE v3.3 — Governed Meta-Evolution Runtime
 
 > Path: `amos-general/A/CORE/AMOS_CORE v3.3 — Governed Meta-Evolution Runtime.md` | Size: 59362 chars | Match sco
+
+---
+**Links:** [[07_SKILLS_MOC]]

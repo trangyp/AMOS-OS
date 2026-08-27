@@ -116,4 +116,7 @@ Benchmark results are preserved only within their tested operationalization and 
 
 ## Failure Modes
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
-- 
+-
+
+---
+**Links:** [[07_SKILLS_MOC]]

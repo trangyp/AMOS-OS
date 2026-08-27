@@ -86,4 +86,7 @@ Knowledge harvest runtime is an operational construct. It does not prove all kno
 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
-- **Binding broken**: If 1:1:1 binding 
+- **Binding broken**: If 1:1:1 binding
+
+---
+**Links:** [[07_SKILLS_MOC]]

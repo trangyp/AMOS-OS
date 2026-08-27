@@ -99,3 +99,6 @@ python -m hierarchical_ai_architecture_generator demo
 python goal_driven_ai_architecture_generator_v2.py generate \
     --goal "Create retrieval system" --count 50
 python goal_driven_ai_architecture_ge
+
+---
+**Links:** [[07_SKILLS_MOC]]

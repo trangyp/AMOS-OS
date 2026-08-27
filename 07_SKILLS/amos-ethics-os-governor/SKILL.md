@@ -103,3 +103,6 @@ Ethical alignment is AMOS_MODEL. The UEAE is a structural ethics governance fram
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation fire
+
+---
+**Links:** [[07_SKILLS_MOC]]

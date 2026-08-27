@@ -88,3 +88,6 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 -
+
+---
+**Links:** [[07_SKILLS_MOC]]

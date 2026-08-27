@@ -91,3 +91,6 @@ FX predictive fractal engine is an analytical model. It does not prove fractal p
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate — do not force-fit.
 
 ##
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -93,4 +93,7 @@ The memory immune system is an operational construct. It does not prove all corr
 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
-- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing 
+- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing
+
+---
+**Links:** [[07_SKILLS_MOC]]

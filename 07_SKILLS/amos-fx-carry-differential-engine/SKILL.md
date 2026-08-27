@@ -99,3 +99,6 @@ FX carry differential engine is an AMOS_MODEL. It does not prove carry trades ar
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreac
+
+---
+**Links:** [[07_SKILLS_MOC]]

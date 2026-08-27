@@ -95,3 +95,6 @@ The executive deck decision system is a communication tool. It does not prove th
 
 - **Skill**: `executive-deck-decision-system`
 - **Parent**: `amos-c
+
+---
+**Links:** [[07_SKILLS_MOC]]

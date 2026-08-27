@@ -94,3 +94,6 @@ Defines the structural quadrants that govern all higher-order system behavior.
 **Precedence Rule**: Higher levels constrain lower levels. A lower-level rule cannot override a higher-level law. Conflicts escalate upward.
 
 ## Failur
+
+---
+**Links:** [[07_SKILLS_MOC]]

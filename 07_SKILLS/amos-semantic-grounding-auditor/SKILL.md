@@ -95,3 +95,5 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
+---
+**Links:** [[07_SKILLS_MOC]]

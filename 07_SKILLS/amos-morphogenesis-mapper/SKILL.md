@@ -95,3 +95,6 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 - **Vault sources**:
 - `brain/A/amos_brain_performance_optimizer.md` — -*- coding: utf-8 -*- (48128 chars, score: 3), content_hash: 7371c326ec17ca19
   - `brain/A/amos_brain_
+
+---
+**Links:** [[07_SKILLS_MOC]]

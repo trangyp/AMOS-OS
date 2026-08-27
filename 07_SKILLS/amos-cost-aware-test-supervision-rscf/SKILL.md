@@ -97,3 +97,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Parent**: `amos-super-engines-master`
 - **Domain**: super
 - **
+
+---
+**Links:** [[07_SKILLS_MOC]]

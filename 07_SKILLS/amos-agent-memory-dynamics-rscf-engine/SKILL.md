@@ -102,4 +102,7 @@ Comprehensive workflow for orchestrating all 36 AMOS agents across 7 canonical s
 
 ## Overview
 
-AMOS has 36 agents organized into 7 canonical systems. This 
+AMOS has 36 agents organized into 7 canonical systems. This
+
+---
+**Links:** [[07_SKILLS_MOC]]

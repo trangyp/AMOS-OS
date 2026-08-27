@@ -92,3 +92,6 @@ Canon consistency is a structural property. It does not prove the canon is true,
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyo
+
+---
+**Links:** [[07_SKILLS_MOC]]

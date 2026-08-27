@@ -89,3 +89,6 @@ Multimodal perception layer is an AMOS_MODEL. It does not prove all perception i
 ## Validation Gates
 
 - **G1 (Law of Law)**: N
+
+---
+**Links:** [[07_SKILLS_MOC]]

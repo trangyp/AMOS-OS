@@ -69,3 +69,6 @@ The loop has 4 transition types:
 
 - **lmk_feedback.encode_learning**: Encode C05 inference outcome into Memory Systems. Maps inference results to typed memory entries (working → episodic → semantic). Preserves epistemic class from inference. Returns memory entry ID + provenance chain.
 - **lmk_feedback.consolidate_to_knowledge**: Consolidate memory entries into indexed Knowledge Research vault. Requires 2+ corroborating memory entries from independent inference episodes. Produces indexed knowledge artifact
+
+---
+**Links:** [[07_SKILLS_MOC]]

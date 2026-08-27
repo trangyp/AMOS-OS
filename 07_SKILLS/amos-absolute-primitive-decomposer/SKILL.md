@@ -93,3 +93,6 @@ Absolute primitive decomposition is an analytical method. It does not prove the 
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
 ## Validation Gates
+
+---
+**Links:** [[07_SKILLS_MOC]]

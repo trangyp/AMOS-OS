@@ -52,3 +52,6 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 - **ecd_bridge.gate_emotion_influence**: Gate emotion influence when crossing from C05 into C01/C10. Enforces the invariant: emotion may bias prioritization and tone, NEVER facts or logic. Returns PERMITTED_INFLUENCE list (pacing, verbosity, caution flags, routing) and BLOCKED_INFLUENCE list (factual content, logical structure, claims of felt experience).
 - **ecd_bridge.unify_decision_style**: Unify C05's decision style ordering (integrity > correctness > completeness > fluency > speed) with C10's technical trade-off resolution and C01's meta-logic decision gates. Produces a single ordered preference list applicable across all three domains.
 - **ecd_bridge.assess_risk_combined**: Combine C
+
+---
+**Links:** [[07_SKILLS_MOC]]

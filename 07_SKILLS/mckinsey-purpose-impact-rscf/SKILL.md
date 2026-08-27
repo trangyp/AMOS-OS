@@ -92,3 +92,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate — do not force-fit.
 
 ## Provenance
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -95,4 +95,7 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 ## Provenance
 
 - **Skill**: `amos-fx-state-space-kalman-engine`
-- **Parent**: 
+- **Parent**:
+
+---
+**Links:** [[07_SKILLS_MOC]]

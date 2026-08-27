@@ -97,3 +97,6 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 - **Origin architect**: Trang Phan
 - **Vault sources**:
 -
+
+---
+**Links:** [[07_SKILLS_MOC]]

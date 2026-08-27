@@ -94,3 +94,6 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 ## Provenance
 
 - **Skill**: `amos-target-of
+
+---
+**Links:** [[07_SKILLS_MOC]]

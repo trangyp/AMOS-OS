@@ -96,3 +96,6 @@ This utility skill is an operational tool. It does not prove content correctness
 - **Vault sources**:
 - `engine/D/Documentation_Engine_Model.md` — AMOS Corporate Documentation Engine (1999 chars, score: 5), content_hash: 4091bbfea74f6524
   - `engine/T/Tech Engine__Archive.md` —
+
+---
+**Links:** [[07_SKILLS_MOC]]

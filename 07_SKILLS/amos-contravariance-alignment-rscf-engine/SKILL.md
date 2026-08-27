@@ -166,3 +166,6 @@ TypeGate(C)
 ```
 
 A hard failure is not c
+
+---
+**Links:** [[07_SKILLS_MOC]]

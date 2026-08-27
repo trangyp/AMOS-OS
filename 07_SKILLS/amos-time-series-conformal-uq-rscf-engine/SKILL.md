@@ -90,3 +90,6 @@ Time series conformal UQ is a statistical method. It does not prove intervals al
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5
+
+---
+**Links:** [[07_SKILLS_MOC]]

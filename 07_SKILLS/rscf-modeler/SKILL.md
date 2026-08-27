@@ -96,3 +96,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - **Skill**: `rscf-modeler`
 - **Parent**: `amos-agent-systems-master`
+
+---
+**Links:** [[07_SKILLS_MOC]]

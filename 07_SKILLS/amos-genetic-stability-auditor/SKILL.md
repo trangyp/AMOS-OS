@@ -124,4 +124,7 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 
 - $$G_i > D \rightarrow oscillation$$
 - $$G_i \gg D \rightarrow instability$$
-- $$G_i 
+- $$G_i
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -129,3 +129,6 @@ Status:
     - Task + engine API
 - Minimal translation layer (NL <-> logic stubs)
     - D
+
+---
+**Links:** [[07_SKILLS_MOC]]

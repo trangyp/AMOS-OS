@@ -89,3 +89,6 @@ Arxiv research paper RSCF skill for Arxiv: rag Evaluation Rscf
 
 
 > **Reference**: See `references/brain_router_for_rag.md` (content_hash: 9c4cf65513ae1b0c) fo
+
+---
+**Links:** [[07_SKILLS_MOC]]

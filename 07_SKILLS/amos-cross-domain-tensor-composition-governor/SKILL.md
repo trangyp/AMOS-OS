@@ -52,3 +52,6 @@ No existing skill governs this composition operation. Only 3 cross-domain skills
 - **cross_domain.trace_cross_domain_provenance**: Trace provenance chains across domain boundaries. Records the full derivation path from source domain through bridge to consuming domain, preserving source paths, content hashes, and epistemic class at each hop.
 - **cross_domain.enforce_weakest_edge**: Enforce the "weakest load-bearing edge" confidence rule across composed domains. The confidence of a cross-domain composition cannot exceed the confidence of its weakest load-bearing premise, traced across all domain boundaries.
 - **cross_domain.classify_bridge**: Classify the type of cross-domain bridge being attempted: ANALOGY (structural similarity, no causal claim), ISOMORPHISM (formal equivalence, proven), CAUSAL (causal chain crosses boundary), INFORMATIONAL (information flow, no causal claim), STRUCTURAL (shared structural pattern). Each type ha
+
+---
+**Links:** [[07_SKILLS_MOC]]

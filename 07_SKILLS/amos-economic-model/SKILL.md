@@ -89,3 +89,6 @@ Economic model is an AMOS_MODEL. It does not prove economic predictions are accu
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evid
+
+---
+**Links:** [[07_SKILLS_MOC]]

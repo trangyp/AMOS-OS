@@ -82,3 +82,6 @@ The 7-part canon is an analytical framework. It does not prove the system has co
 ## Failure Modes
 
 - **Insufficient evidence
+
+---
+**Links:** [[07_SKILLS_MOC]]

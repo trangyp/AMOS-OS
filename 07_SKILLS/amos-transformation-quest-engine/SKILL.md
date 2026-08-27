@@ -96,3 +96,6 @@ Transformation quests are operational constructs. They do not prove transformati
 - **Origin architect**: Trang Phan
 - **Vault sources**:
 - `mis
+
+---
+**Links:** [[07_SKILLS_MOC]]

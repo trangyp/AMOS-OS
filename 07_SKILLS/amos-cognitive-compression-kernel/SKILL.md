@@ -81,3 +81,6 @@ From Cosmo Brain Cognitive Compression Kernel v0: Reducing complexity while pres
 ### Epistemic Boundary
 
 Cognitive compression is an operational construct. It does not prove compression is lossless, that the minimum sufficient representation is always found,
+
+---
+**Links:** [[07_SKILLS_MOC]]

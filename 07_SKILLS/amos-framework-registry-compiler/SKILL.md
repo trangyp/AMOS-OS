@@ -90,3 +90,6 @@ Framework registry compiler is an operational construct. It does not prove all f
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evid
+
+---
+**Links:** [[07_SKILLS_MOC]]

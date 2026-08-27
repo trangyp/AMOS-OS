@@ -91,3 +91,6 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 ## Validation Gates
 
 - **G1 (Law of Law)**
+
+---
+**Links:** [[07_SKILLS_MOC]]

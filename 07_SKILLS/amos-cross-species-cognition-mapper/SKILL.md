@@ -95,3 +95,6 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 - **Origin architect**: Trang Phan
 - **Vault sources**:
 - `amos-general/A/CROSS/AMOS_CROSS_
+
+---
+**Links:** [[07_SKILLS_MOC]]

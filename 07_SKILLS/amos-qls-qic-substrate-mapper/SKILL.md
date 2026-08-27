@@ -93,3 +93,6 @@ QLS QIC substrate mapping is an AMOS_MODEL. It does not prove QIC units are phys
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
 ## Valid
+
+---
+**Links:** [[07_SKILLS_MOC]]

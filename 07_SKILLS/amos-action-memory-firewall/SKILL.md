@@ -83,4 +83,7 @@ The action-memory firewall is an architectural safety construct. It does not pro
 ## Failure Modes
 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
-- **Scope violation**: If the query falls outside the skill's 
+- **Scope violation**: If the query falls outside the skill's
+
+---
+**Links:** [[07_SKILLS_MOC]]

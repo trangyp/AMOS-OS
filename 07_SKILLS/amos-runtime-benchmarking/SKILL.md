@@ -91,3 +91,6 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim b
+
+---
+**Links:** [[07_SKILLS_MOC]]

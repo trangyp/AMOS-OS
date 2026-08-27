@@ -83,3 +83,6 @@ From Cosmo Brain Counterfactual Reasoning Kernel v0: What-if analysis, alternati
 **3 Functions**: `construct_counterfactual`, `compare_actual_vs_counterfactual`, `scenario_analysis`
 
 ### Epistemic Boundary
+
+---
+**Links:** [[07_SKILLS_MOC]]

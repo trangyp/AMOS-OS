@@ -119,3 +119,6 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 6. **Report**: report with confidence intervals and provenance
 
 **Reliability law**: `BENCHMARK_PASS != PRODUCTION_READY`. A benchmark pass is necessary but not sufficient for production deployment.
+
+---
+**Links:** [[07_SKILLS_MOC]]

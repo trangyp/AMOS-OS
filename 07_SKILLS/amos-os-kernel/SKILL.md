@@ -96,3 +96,6 @@ OS Kernel is a runtime architecture. It does not prove all state is typed, that 
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On v
+
+---
+**Links:** [[07_SKILLS_MOC]]

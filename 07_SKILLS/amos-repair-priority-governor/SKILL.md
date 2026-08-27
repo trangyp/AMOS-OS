@@ -95,3 +95,6 @@ Repair priority governance is an operational construct. It does not prove optima
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
 ## V
+
+---
+**Links:** [[07_SKILLS_MOC]]

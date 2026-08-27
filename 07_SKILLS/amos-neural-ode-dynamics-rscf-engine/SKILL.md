@@ -97,3 +97,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Parent**: `amos-c04-bio-neuro-master`
 - **Domain**: c04
 - **Origin arch
+
+---
+**Links:** [[07_SKILLS_MOC]]

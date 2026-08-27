@@ -100,3 +100,6 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 
 
 > **Reference**: See `references/fractal_forex_enterprise.md` (content_hash: 5ca9b48c2e447325) for the Fractal Forex Enterprise (fractal FX analysis, enterprise-scale forex, multi-timeframe fractal pattern
+
+---
+**Links:** [[07_SKILLS_MOC]]

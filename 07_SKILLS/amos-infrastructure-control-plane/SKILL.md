@@ -91,3 +91,6 @@ Infrastructure control plane is a runtime architecture. It does not prove all in
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -93,3 +93,6 @@ Closed-loop learning governance is an operational construct. It does not prove l
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions with
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -102,3 +102,6 @@ Check when available:
 
 1. installed Skill registry
 2. declared pa
+
+---
+**Links:** [[07_SKILLS_MOC]]

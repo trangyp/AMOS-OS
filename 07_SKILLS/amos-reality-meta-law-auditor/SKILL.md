@@ -91,3 +91,6 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retrac
+
+---
+**Links:** [[07_SKILLS_MOC]]

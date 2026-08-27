@@ -94,3 +94,6 @@ Frontend engineering QA is an engineering process. It does not prove the UI is p
 ## Provenance
 
 - **Skill**: `fronte
+
+---
+**Links:** [[07_SKILLS_MOC]]

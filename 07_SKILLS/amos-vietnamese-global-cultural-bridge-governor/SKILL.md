@@ -67,3 +67,6 @@ Bidirectional translation with two firewall rules:
 - **vgc_bridge.validate_global_for_vietnamese**: Validate global model applies to VN context. Checks cultural fit, contextual validity, and specificity preservation. Returns validation result + context adaptation requirements.
 - **vgc_bridge.govern_bridge**: Govern bidirectional bridge (BRIDGE_PERMITTED / BLOCKED / CONDITIONAL). Block if: universalization without evidence, global model without VN validation, cultural specificity loss. Returns bridge state + blocking reason.
 - **vgc_bridge.detect_cultural_drift**: Detect cultural drift between VN and global models. Checks: VN model updated without global sync, global model updated without VN validation, cultural specif
+
+---
+**Links:** [[07_SKILLS_MOC]]

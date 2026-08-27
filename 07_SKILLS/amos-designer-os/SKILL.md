@@ -96,4 +96,7 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
-- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not 
+- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not
+
+---
+**Links:** [[07_SKILLS_MOC]]

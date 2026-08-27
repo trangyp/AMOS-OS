@@ -109,3 +109,6 @@ Expanded test coverage in 3 existing test files:
 - `test_multiple_handlers_called` — 2 handlers for same type both called
 - `test_handler_only_called_for_matching_type` — non-matching type → no call
 - `test_e
+
+---
+**Links:** [[07_SKILLS_MOC]]

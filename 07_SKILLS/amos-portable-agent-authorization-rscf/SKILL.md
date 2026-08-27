@@ -91,4 +91,7 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond 
+- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -129,3 +129,6 @@ AMOS Quantum Brain (416.349 performance score)
 - MARCH 17, 2026
 
 > Path: `agents/AGENT_WORKING_INSTRUCTIONS_V5_MARCH_17.md`
+
+---
+**Links:** [[07_SKILLS_MOC]]

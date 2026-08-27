@@ -94,3 +94,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 ## Provenance
 
 - **Skill**: `amos-agent-economy-constitutional-governance-rsc
+
+---
+**Links:** [[07_SKILLS_MOC]]

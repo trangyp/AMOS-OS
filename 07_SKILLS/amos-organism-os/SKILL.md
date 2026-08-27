@@ -91,3 +91,6 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 - **G3 (Provenance)**: Source path recorded
+
+---
+**Links:** [[07_SKILLS_MOC]]

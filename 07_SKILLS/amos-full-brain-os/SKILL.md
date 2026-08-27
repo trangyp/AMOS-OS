@@ -98,3 +98,6 @@ RAW EXPRESSION → Expression_Classify → Intent_Extraction → Meaning_Core �
 ### Epistemic Boundary
 
 Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, not a complete brain. Super Mind OS is a separate compatible plane, NOT a child of Full Brain OS. "Kernel → Engine → Agent →
+
+---
+**Links:** [[07_SKILLS_MOC]]

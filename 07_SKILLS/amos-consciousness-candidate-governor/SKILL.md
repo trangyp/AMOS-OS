@@ -88,3 +88,6 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UN
+
+---
+**Links:** [[07_SKILLS_MOC]]

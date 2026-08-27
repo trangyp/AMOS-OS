@@ -89,3 +89,6 @@ Forex Unified OS is an analytical framework. It does not prove profitable tradin
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE
+
+---
+**Links:** [[07_SKILLS_MOC]]

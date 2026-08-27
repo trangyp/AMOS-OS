@@ -100,4 +100,7 @@ From C05 Mind & Behavior: Persona drift detection and boundary identity governan
 - **Persona parameter drift**: personality traits, tone, style drift beyond declared tolerance
 - **Boundary drift**: the AI handles queries beyond its declared scope boundary
 - **Identity drift**: the AI's self-model drifts from its declared identity
-- **Authority drift**: the AI exercises authority beyond 
+- **Authority drift**: the AI exercises authority beyond
+
+---
+**Links:** [[07_SKILLS_MOC]]

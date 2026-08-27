@@ -96,3 +96,6 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - *
+
+---
+**Links:** [[07_SKILLS_MOC]]

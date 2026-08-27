@@ -88,3 +88,6 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 ## Failure Modes
 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do
+
+---
+**Links:** [[07_SKILLS_MOC]]

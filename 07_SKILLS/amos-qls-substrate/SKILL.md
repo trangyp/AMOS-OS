@@ -90,4 +90,7 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
-- **G2 (Epistemic class)**: All claims 
+- **G2 (Epistemic class)**: All claims
+
+---
+**Links:** [[07_SKILLS_MOC]]

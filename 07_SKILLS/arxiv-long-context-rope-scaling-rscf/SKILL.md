@@ -89,3 +89,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode)**: On validation failure, downgrade confidence, flag t
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -102,3 +102,6 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions within the ski
+
+---
+**Links:** [[07_SKILLS_MOC]]

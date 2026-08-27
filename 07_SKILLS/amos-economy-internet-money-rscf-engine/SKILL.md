@@ -96,3 +96,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **Skill**: `amos-economy-internet-money-rscf-engine`
 - **Parent**: `amos-c07-econ-finance-master`
 -
+
+---
+**Links:** [[07_SKILLS_MOC]]

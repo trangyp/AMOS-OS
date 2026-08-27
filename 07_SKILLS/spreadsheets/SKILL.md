@@ -94,4 +94,7 @@ This utility skill is an operational tool. It does not prove content correctness
 - **Domain**: c10
 - **Origin architect**: Trang Phan
 - **Vault sources**:
-- `engine/T/Tech Engine__Archive.md` — Tech Engine__Archive (92349 chars, 
+- `engine/T/Tech Engine__Archive.md` — Tech Engine__Archive (92349 chars,
+
+---
+**Links:** [[07_SKILLS_MOC]]

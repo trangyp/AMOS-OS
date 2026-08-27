@@ -97,3 +97,6 @@ Resolve:
 - whether scripts/resources/assets materially improve reliability
 
 Do not ask again for information already available from the request, source bundle, repository,
+
+---
+**Links:** [[07_SKILLS_MOC]]

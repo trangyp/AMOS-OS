@@ -73,4 +73,7 @@ Production software QA agent for repository understanding, debugging, repair, te
 
 | # | Capability | Side Effect | Description |
 |---|-----------|-------------|-------------|
-| 1 | `software.diagnose` | 
+| 1 | `software.diagnose` |
+
+---
+**Links:** [[07_SKILLS_MOC]]

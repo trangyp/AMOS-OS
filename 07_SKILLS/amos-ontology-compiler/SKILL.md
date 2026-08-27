@@ -95,3 +95,6 @@ Ontology compiler is an AMOS_MODEL. It does not prove all ontologies are compila
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 - **G3 (Provenance)**: Source path recorded for every derived cl
+
+---
+**Links:** [[07_SKILLS_MOC]]

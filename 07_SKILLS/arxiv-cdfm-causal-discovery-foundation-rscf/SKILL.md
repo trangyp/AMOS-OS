@@ -102,3 +102,6 @@ upgraded from NOT_COVERED to COVERED.
 
 #### 3. `discover_temporal(expiry_report)`
 - **Input**:
+
+---
+**Links:** [[07_SKILLS_MOC]]

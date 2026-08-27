@@ -93,3 +93,6 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**
+
+---
+**Links:** [[07_SKILLS_MOC]]

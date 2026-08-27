@@ -96,3 +96,6 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-f
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -95,3 +95,6 @@ AI drift alignment governance is an operational construct. It does not prove all
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's
+
+---
+**Links:** [[07_SKILLS_MOC]]

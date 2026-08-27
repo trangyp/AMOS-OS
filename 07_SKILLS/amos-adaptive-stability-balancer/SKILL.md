@@ -86,3 +86,6 @@ within current constraints.
 - **adaptive_stability.manage_lifecycle**: Manage lifecycle: classify, validate, trace, assess, detect.
 - **adaptive_stability.detect_drift**: Detect drift in evidence chains, provenance freshness, or confidence calibration.
 - **adapti
+
+---
+**Links:** [[07_SKILLS_MOC]]

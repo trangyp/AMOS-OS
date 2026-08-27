@@ -94,3 +94,6 @@ Neural computation mapping is an analytical analogy. It does not prove the syste
 - **Origin architect**: Trang Phan
 - **Vault sources**:
 - `biology-ubi/AMOS_NEURAL_ENHANCEMENT_COMPLETE.md` — A
+
+---
+**Links:** [[07_SKILLS_MOC]]

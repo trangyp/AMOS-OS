@@ -91,3 +91,6 @@ McKinsey framework navigation is an analytical toolset. It does not prove framew
 - **Origin architect**: Trang Phan
 - **Vault sources**:
 - `misc/E/Enhanced Master Relationship Pack - Legal & Commercial Framework.md` — Enh
+
+---
+**Links:** [[07_SKILLS_MOC]]

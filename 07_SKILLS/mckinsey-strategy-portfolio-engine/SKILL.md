@@ -91,3 +91,6 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 - **Vault sources**:
 - `architecture/DSc ScD Portfolio - Three Canon Architecture.md` — DSc/ScD Portfolio — Trang Phan (Independent Submission) (6148 chars, score: 10, content_hash: ad04085e8f89fc0a)
 - `s
+
+---
+**Links:** [[07_SKILLS_MOC]]

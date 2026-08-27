@@ -102,3 +102,6 @@ fully COVERED.
   - UU-003: OMNIVERSE_BRAIN_world_model (surveyed, est=8, conf=0.2)
   - UU-004: EXPRESSION_TRANSLATION_edge_cases (unsurveyed)
   - UU
+
+---
+**Links:** [[07_SKILLS_MOC]]

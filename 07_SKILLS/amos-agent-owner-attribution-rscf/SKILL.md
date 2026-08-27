@@ -114,3 +114,6 @@ AMOS Quantum Brain (416.349 performance score)
 11. **Fixed Claws** (`fixed_claws.py`)
 12. **Omega System** (`amos_omega_system.py`)
 13. **Real Build Detector** (`fake_build_det
+
+---
+**Links:** [[07_SKILLS_MOC]]

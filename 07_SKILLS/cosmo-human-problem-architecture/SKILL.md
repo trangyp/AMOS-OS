@@ -91,3 +91,6 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
 - **G5 (Equation firewall)**: Equations carry status tags (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
 - **G6 (Failure mode
+
+---
+**Links:** [[07_SKILLS_MOC]]

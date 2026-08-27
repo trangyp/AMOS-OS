@@ -92,3 +92,6 @@ Repair allocation optimization is an operational construct. It does not prove op
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and rela
+
+---
+**Links:** [[07_SKILLS_MOC]]

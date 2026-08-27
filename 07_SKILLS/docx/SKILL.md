@@ -96,3 +96,6 @@ This utility skill is an operational tool. It does not prove content correctness
 - **Vault sources**:
 - `engine/T/Tech Engine__Archive.md` — Tech Engine__Archive (92349 chars, score: 3), content_hash: 6d78322c6f4a68cf
   - `engine/A/amos_consulting_amos_invest_amos_canon_tech_engine.md` — amos_consulting_amos_invest_am
+
+---
+**Links:** [[07_SKILLS_MOC]]

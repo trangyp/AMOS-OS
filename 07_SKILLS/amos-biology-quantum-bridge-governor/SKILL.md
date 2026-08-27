@@ -55,3 +55,6 @@ Specifically:
 - **bq_bridge.detect_overclaim**: Detect overclaim in quantum-biological reasoning. Checks for physical predictions based on metaphor mappings, causal claims from quantum analogies, and consciousness claims from quantum biology. Returns overclaim report.
 - **bq_bridge.validate_firewall**: Validate that the anti-overclaim firewall is preserved. Checks that all quantum-biological mappings carry MODEL/METAPHOR labels, no mapping is promoted to VERIFIED without independent evidence, and no causal claim is made from a metaphor mapping.
 - **bq_bridge.trace_mapping_provenance**: Trace the provenance of a bio-quantum mapping from its source domain to its target domain
+
+---
+**Links:** [[07_SKILLS_MOC]]

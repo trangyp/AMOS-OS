@@ -91,3 +91,6 @@ Universal coordinate system is an AMOS_MODEL. It does not prove a single coordin
 
 - **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
 - **
+
+---
+**Links:** [[07_SKILLS_MOC]]

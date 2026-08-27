@@ -111,3 +111,6 @@ AMOS Quantum Brain (416.349 performance score)
 10. **Import Guard**
 11. **Fixed Claws** (`fixed_claws.py`)
 12. **Omega System** (`amo
+
+---
+**Links:** [[07_SKILLS_MOC]]

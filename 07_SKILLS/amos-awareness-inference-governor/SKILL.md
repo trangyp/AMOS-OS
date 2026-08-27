@@ -90,3 +90,6 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 ## Validation Gates
 
 - **G1 (Law of Law)**: No unresolved contradictions withi
+
+---
+**Links:** [[07_SKILLS_MOC]]

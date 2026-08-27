@@ -110,3 +110,6 @@ Manages demotion and quarantine rules with authority tracking.
 Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with authority.
 
 ### 315 — Continuous Re
+
+---
+**Links:** [[07_SKILLS_MOC]]

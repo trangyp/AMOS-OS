@@ -89,3 +89,6 @@ Measurement integrity auditing is an operational governance construct. It does n
 
 - **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
 - **Scope violation**: If the q
+
+---
+**Links:** [[07_SKILLS_MOC]]

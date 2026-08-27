@@ -85,3 +85,6 @@ FX options implied distribution is an analytical framework. It does not prove th
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
 - **Epistemic overreach**: If a claim exceed
+
+---
+**Links:** [[07_SKILLS_MOC]]

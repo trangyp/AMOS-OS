@@ -91,3 +91,6 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 - **TransactionsAtomic**: Multi-RSCF commit is atomic
 - **RollbackTested**: Rollback restores state while preserving failure evidence
 - **SecurityPassed**: Threat mod
+
+---
+**Links:** [[07_SKILLS_MOC]]

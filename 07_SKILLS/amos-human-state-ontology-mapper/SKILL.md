@@ -90,4 +90,7 @@ Human state ontology mapping is an analytical model. It does not prove all human
 
 ## Validation Gates
 
-- **G1 (Law of Law)**: No unresolved contradictions within the skill's 
+- **G1 (Law of Law)**: No unresolved contradictions within the skill's
+
+---
+**Links:** [[07_SKILLS_MOC]]

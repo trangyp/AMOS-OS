@@ -91,3 +91,6 @@ Claim verification is an epistemic governance construct. It does not prove claim
 - **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
 - **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
 - **Validation failure**: If validation gates fail, downgra
+
+---
+**Links:** [[07_SKILLS_MOC]]

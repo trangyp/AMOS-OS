@@ -112,3 +112,6 @@ falsifiers, and confidence ceilings.
 - **Freshness**: Temporal validity of the evidence
 - **Competing**: Alternative explanations
 -
+
+---
+**Links:** [[07_SKILLS_MOC]]

@@ -97,3 +97,6 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - **Parent**: `amos-trang-framework-master`
 - **Domain**: trang
 - **Origin
+
+---
+**Links:** [[07_SKILLS_MOC]]

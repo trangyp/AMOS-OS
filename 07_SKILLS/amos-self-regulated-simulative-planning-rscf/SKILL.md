@@ -91,3 +91,6 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
 - **G3 (Provenance)**: Source path recorded for every derived claim.
 - **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epi
+
+---
+**Links:** [[07_SKILLS_MOC]]

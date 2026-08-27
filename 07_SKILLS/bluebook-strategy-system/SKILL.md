@@ -96,3 +96,6 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 - **Origin architect**: Trang Phan
 - **Vault sources**:
 - `engine/A/AMOS Policy Geostrategy Engine vInfinity.md` — AMOS Policy Geostr
+
+---
+**Links:** [[07_SKILLS_MOC]]
