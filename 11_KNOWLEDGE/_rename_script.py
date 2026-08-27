@@ -287,7 +287,7 @@ def resolve_collisions(renames: dict[tuple[str, str], str], collisions: dict, no
         name, ext = os.path.splitext(base_new)
 
         for sd, old_name in claimants:
-            if old_name == "EXISTING":
+            if sd == "EXISTING":
                 # The existing conformant file keeps its name
                 continue
             # Find a unique name
