@@ -1,35 +1,12 @@
 ---
-title: "AMOS Core Laws Canon"
-artifact: "CORE_LAWS_CANON_README.md"
-artifact_id: "AMOS_CORE_LAWS_CANON_README"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-domain: "CANON / CORE LAWS"
-path: "01_CANON/01_CORE_LAWS/CORE_LAWS_CANON_README.md"
+title: CORE LAWS CANON README
+type: note
+tags: [note, 01-core-laws]
+---
 
-tags: [- canon, canon/universe]
-  - core_laws
-  - readme
-  - governance
-  - provenance
-  - rscf
-
-version: "1.0.0"
-updated: "2026-08-26"
-
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_APPLICABLE_TO_README"
-validation_status: "STRUCTURAL_SPECIFICATION_NOT_CANON_APPROVAL"
+---title: "AMOS Core Laws Canon"
 type: document
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

@@ -1,23 +1,12 @@
 ---
-title: "INDEX GENERATORS COGNITIVE MATRIX README"
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - routing
-  - index
-  - readme
-  - resolver
-  - dispatch
-  - capability
-  - modes
-  - constraints
-  - provenance
-  - rscf
+title: INDEX GENERATORS COGNITIVE MATRIX README
+type: note
+tags: [note, 00-index]
+---
+
+---title: "INDEX GENERATORS COGNITIVE MATRIX README"
 type: document
-source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

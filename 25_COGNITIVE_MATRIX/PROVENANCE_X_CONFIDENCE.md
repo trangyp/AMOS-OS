@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   provenance_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE"
   claims_moc:
-    artifact: "[[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC]]"
+    artifact: "11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -81,9 +81,9 @@ $$\text{Confidence Ceiling} = f(\text{Independent Provenance Roots}, \text{Empir
 
 # 2. Inter-Plane & Vault Connections
 
-- **Provenance Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE]]
-- **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC]]
-- **Canon Integrity:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
+- **Provenance Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
+- **Claims MOC:** 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
+- **Canon Integrity:** 01_CANON/01_CORE_LAWS/L0_INTEGRITY
 
 ---
 
@@ -94,7 +94,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_provenance_x_confidence
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Provenance x Confidence Cognitive Matrix"
     role: "Specification enforcing epistemic confidence ceilings based on source independence"
@@ -107,7 +107,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE · 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

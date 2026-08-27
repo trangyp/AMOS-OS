@@ -110,7 +110,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_neurosyncai_master
   node_type: master
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "NeurosyncAI Master Architecture"
     role: "Master controller for real-time biological synchrony, fatigue pacing, and flow state induction"

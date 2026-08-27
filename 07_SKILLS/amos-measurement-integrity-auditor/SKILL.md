@@ -130,7 +130,7 @@ Measurement integrity auditing is an operational governance construct. It does n
 
 ## Composition
 
-- **Parent**: `[[amos-audit-repair-master]]` — routes to this skill when audit specialization is needed
+- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -169,7 +169,7 @@ Measurement integrity auditing is an operational governance construct. It does n
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-measurement-integrity-auditor_MOC]]` — skill Map of Content
-- `[[amos-audit-repair-master]]` — parent skill
+- `amos-audit-repair-master` — parent skill
 - `[[amos-measurement-integrity-auditor-workflow]]` — corresponding workflow
-- `[[amos-measurement-integrity-auditor-agent]]` — corresponding agent
+- `amos-measurement-integrity-auditor-agent` — corresponding agent
 

@@ -113,7 +113,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `none` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -200,7 +200,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/v44_coordination_avoidance_detailed.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-os-runtime-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-os-runtime-master-workflow]]` — corresponding workflow
-- `[[amos-os-runtime-master-agent]]` — corresponding agent
+- `amos-os-runtime-master-agent` — corresponding agent
 

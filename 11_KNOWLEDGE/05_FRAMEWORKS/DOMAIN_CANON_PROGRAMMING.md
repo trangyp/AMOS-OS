@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_domain_canon_programming
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Domain Canon Programming (DCP)"
     role: "Proof-first, invariant-grounded programming paradigm and epistemic type safety"

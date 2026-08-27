@@ -143,7 +143,7 @@ upgraded from NOT_COVERED to COVERED.
 
 ## Composition
 
-- **Parent**: `[[amos-knowledge-research-master]]` — routes to this skill when arxiv specialization is needed
+- **Parent**: `amos-knowledge-research-master` — routes to this skill when arxiv specialization is needed
 - **Peers**: Other skills in the `arxiv` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -182,7 +182,7 @@ upgraded from NOT_COVERED to COVERED.
 - `references/cdfm_causal_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[arxiv-cdfm-causal-discovery-foundation-rscf_MOC]]` — skill Map of Content
-- `[[amos-knowledge-research-master]]` — parent skill
+- `amos-knowledge-research-master` — parent skill
 - `[[arxiv-cdfm-causal-discovery-foundation-rscf-workflow]]` — corresponding workflow
-- `[[arxiv-cdfm-causal-discovery-foundation-rscf-agent]]` — corresponding agent
+- `arxiv-cdfm-causal-discovery-foundation-rscf-agent` — corresponding agent
 

@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-distinct-working-memory-rscf]]`
-- **Agent**: `[[amos-distinct-working-memory-rscf-agent]]`
+- **Skill**: `amos-distinct-working-memory-rscf`
+- **Agent**: `amos-distinct-working-memory-rscf-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

@@ -143,7 +143,7 @@ Attention allocation is a resource management construct. It does not prove optim
 
 ## Composition
 
-- **Parent**: `[[amos-c05-mind-behavior-master]]` — routes to this skill when c05 specialization is needed
+- **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
 - **Peers**: Other skills in the `c05` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -182,7 +182,7 @@ Attention allocation is a resource management construct. It does not prove optim
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-attention-allocation-governor_MOC]]` — skill Map of Content
-- `[[amos-c05-mind-behavior-master]]` — parent skill
+- `amos-c05-mind-behavior-master` — parent skill
 - `[[amos-attention-allocation-governor-workflow]]` — corresponding workflow
-- `[[amos-attention-allocation-governor-agent]]` — corresponding agent
+- `amos-attention-allocation-governor-agent` — corresponding agent
 

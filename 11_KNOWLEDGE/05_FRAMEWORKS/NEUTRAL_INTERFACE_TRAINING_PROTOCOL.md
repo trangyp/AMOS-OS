@@ -96,7 +96,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_neutral_interface_training_protocol
   node_type: protocol
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Neutral Interface Training Protocol"
     role: "Standards for non-coercive, non-sycophantic, and autonomic-calming interfaces"

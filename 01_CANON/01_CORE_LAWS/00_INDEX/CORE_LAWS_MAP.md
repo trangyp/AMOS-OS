@@ -1,39 +1,12 @@
 ---
-title: "AMOS Core Laws Map"
-artifact: "CORE_LAWS_MAP.md"
-artifact_id: "AMOS_CORE_LAWS_MAP"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-layer: "01_CANON"
-domain: "CORE_LAWS"
-path: "01_CANON/01_CORE_LAWS/00_INDEX/CORE_LAWS_MAP.md"
+title: CORE LAWS MAP
+type: note
+tags: [note, 00-index]
+---
 
-tags: [- canon, canon/universe]
-  - core_laws
-  - index
-  - map
-  - dependency
-  - provenance
-  - authority
-  - hierarchy
-  - rscf
-
-version: "1.0.0"
-updated: "2026-08-26"
-
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+---title: "AMOS Core Laws Map"
 type: document
-source: 01_CANON/01_CORE_LAWS/00_INDEX
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

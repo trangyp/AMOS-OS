@@ -1,29 +1,12 @@
 ---
-title: "INDEX ROUTING COGNITIVE MATRIX README"
-canon-group: reference
-rscf-state: derived
-epistemic_class: AMOS_MODEL
-canonical_status: CONDITIONAL
-updated: 2026-08-26
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - routing
-  - 00_index
-  - index
-  - readme
-  - contract
-  - admission
-  - authorization
-  - provenance
-  - validation
-  - dependency_graph
-  - rscf
+title: INDEX ROUTING COGNITIVE MATRIX README
+type: note
+tags: [note, 00-index]
+---
+
+---title: "INDEX ROUTING COGNITIVE MATRIX README"
 type: document
-source: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

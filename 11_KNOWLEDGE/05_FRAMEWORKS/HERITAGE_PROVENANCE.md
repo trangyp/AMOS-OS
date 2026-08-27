@@ -105,7 +105,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_provenance
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Provenance"
     role: "Source independence verification, epistemic ancestry tracing, and anti-echo auditing"

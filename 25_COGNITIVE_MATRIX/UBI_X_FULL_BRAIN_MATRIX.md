@@ -53,7 +53,7 @@ framework_binding:
   matrix_spec:
     artifact: "[[UBI_X_FULL_BRAIN]]"
   brain_os:
-    artifact: "[[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
+    artifact: "11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_ubi_x_full_brain_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI x Full Brain Matrix Table"
     role: "Executable cross-plane routing table connecting UBI domains to Brain OS layers"

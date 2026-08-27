@@ -125,7 +125,7 @@ The action-memory firewall is an architectural safety construct. It does not pro
 
 ## Composition
 
-- **Parent**: `[[amos-memory-systems-master]]` — routes to this skill when memory specialization is needed
+- **Parent**: `amos-memory-systems-master` — routes to this skill when memory specialization is needed
 - **Peers**: Other skills in the `memory` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -164,7 +164,7 @@ The action-memory firewall is an architectural safety construct. It does not pro
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-action-memory-firewall_MOC]]` — skill Map of Content
-- `[[amos-memory-systems-master]]` — parent skill
+- `amos-memory-systems-master` — parent skill
 - `[[amos-action-memory-firewall-workflow]]` — corresponding workflow
-- `[[amos-action-memory-firewall-agent]]` — corresponding agent
+- `amos-action-memory-firewall-agent` — corresponding agent
 

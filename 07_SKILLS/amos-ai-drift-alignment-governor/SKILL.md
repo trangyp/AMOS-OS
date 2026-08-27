@@ -136,7 +136,7 @@ AI drift alignment governance is an operational construct. It does not prove all
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -175,7 +175,7 @@ AI drift alignment governance is an operational construct. It does not prove all
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-ai-drift-alignment-governor_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-ai-drift-alignment-governor-workflow]]` — corresponding workflow
-- `[[amos-ai-drift-alignment-governor-agent]]` — corresponding agent
+- `amos-ai-drift-alignment-governor-agent` — corresponding agent
 

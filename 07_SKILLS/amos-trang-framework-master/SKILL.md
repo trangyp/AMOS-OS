@@ -118,7 +118,7 @@ Research model and source claim, NOT verified physics and NOT AMOS canon. Mathem
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when trang specialization is needed
+- **Parent**: `none` — routes to this skill when trang specialization is needed
 - **Peers**: Other skills in the `trang` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -187,7 +187,7 @@ Research model and source claim, NOT verified physics and NOT AMOS canon. Mathem
 - `references/uap_trang_empty_framework.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-trang-framework-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-trang-framework-master-workflow]]` — corresponding workflow
-- `[[amos-trang-framework-master-agent]]` — corresponding agent
+- `amos-trang-framework-master-agent` — corresponding agent
 

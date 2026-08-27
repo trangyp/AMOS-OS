@@ -132,7 +132,7 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 
 ## Composition
 
-- **Parent**: `[[amos-c04-bio-neuro-master]]` — routes to this skill when c04 specialization is needed
+- **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when c04 specialization is needed
 - **Peers**: Other skills in the `c04` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-cell-intelligence-mapper_MOC]]` — skill Map of Content
-- `[[amos-c04-bio-neuro-master]]` — parent skill
+- `amos-c04-bio-neuro-master` — parent skill
 - `[[amos-cell-intelligence-mapper-workflow]]` — corresponding workflow
-- `[[amos-cell-intelligence-mapper-agent]]` — corresponding agent
+- `amos-cell-intelligence-mapper-agent` — corresponding agent
 

@@ -155,7 +155,7 @@ AMOS Quantum Brain (416.349 performance score)
 
 ## Composition
 
-- **Parent**: `[[amos-agent-systems-master]]` — routes to this skill when agent specialization is needed
+- **Parent**: `amos-agent-systems-master` — routes to this skill when agent specialization is needed
 - **Peers**: Other skills in the `agent` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -194,7 +194,7 @@ AMOS Quantum Brain (416.349 performance score)
 - `references/amos-agent-owner-attribution-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-agent-owner-attribution-rscf_MOC]]` — skill Map of Content
-- `[[amos-agent-systems-master]]` — parent skill
+- `amos-agent-systems-master` — parent skill
 - `[[amos-agent-owner-attribution-rscf-workflow]]` — corresponding workflow
-- `[[amos-agent-owner-attribution-rscf-agent]]` — corresponding agent
+- `amos-agent-owner-attribution-rscf-agent` — corresponding agent
 

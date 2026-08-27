@@ -214,11 +214,11 @@ UNKNOWN/GAP != PASS
 
 ```text
                   THE TRANG SYSTEM™ (TSS)
-                   ([[AMOS_X_TSS.md]])
+                   (AMOS_X_TSS.md)
                             │
                             ▼
                HERITAGE DECISION INTELLIGENCE
-                 ([[HERITAGE_X_TSS.md]])
+                 (HERITAGE_X_TSS.md)
                             │
         ┌───────────────────┼───────────────────┐
         ▼                   ▼                   ▼
@@ -241,7 +241,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_heritage_x_tss
   node_type: artifact
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage × TSS Integration"
     role: "Decision governance and strategic navigation across system lifecycles"

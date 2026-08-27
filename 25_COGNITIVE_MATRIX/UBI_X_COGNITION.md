@@ -53,9 +53,9 @@ framework_binding:
   matrix_counterpart:
     artifact: "[[UBI_X_COGNITION_MATRIX]]"
   knowledge_binding:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING"
   biological_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -94,7 +94,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_ubi_x_cognition
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI x Cognition Cognitive Matrix"
     role: "Cross-coupling specification between UBI biological state and active cognitive inference"

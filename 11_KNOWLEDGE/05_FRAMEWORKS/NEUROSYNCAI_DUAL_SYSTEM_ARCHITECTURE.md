@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_neurosyncai_dual_system_architecture
   node_type: architecture
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "NeurosyncAI Dual-System Architecture"
     role: "Arbitration between fast heuristic generation and deep deterministic proof verification"

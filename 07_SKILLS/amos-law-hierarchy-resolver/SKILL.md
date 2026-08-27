@@ -135,7 +135,7 @@ Defines the structural quadrants that govern all higher-order system behavior.
 
 ## Composition
 
-- **Parent**: `[[amos-c01-meta-logic-master]]` — routes to this skill when c01 specialization is needed
+- **Parent**: `amos-c01-meta-logic-master` — routes to this skill when c01 specialization is needed
 - **Peers**: Other skills in the `c01` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -174,7 +174,7 @@ Defines the structural quadrants that govern all higher-order system behavior.
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-law-hierarchy-resolver_MOC]]` — skill Map of Content
-- `[[amos-c01-meta-logic-master]]` — parent skill
+- `amos-c01-meta-logic-master` — parent skill
 - `[[amos-law-hierarchy-resolver-workflow]]` — corresponding workflow
-- `[[amos-law-hierarchy-resolver-agent]]` — corresponding agent
+- `amos-law-hierarchy-resolver-agent` — corresponding agent
 

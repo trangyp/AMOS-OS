@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_11_knowledge_06_domain_knowledge_heritage_music_acoustic_rules
   node_type: domain_knowledge
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Music Acoustic Rules"
     role: "Domain rules for harmonic resonance, pentatonic modal invariants, and acoustic entrainment"

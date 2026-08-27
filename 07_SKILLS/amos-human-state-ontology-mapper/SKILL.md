@@ -132,7 +132,7 @@ Human state ontology mapping is an analytical model. It does not prove all human
 
 ## Composition
 
-- **Parent**: `[[amos-canon-universe-master]]` — routes to this skill when canon specialization is needed
+- **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
 - **Peers**: Other skills in the `canon` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ Human state ontology mapping is an analytical model. It does not prove all human
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-human-state-ontology-mapper_MOC]]` — skill Map of Content
-- `[[amos-canon-universe-master]]` — parent skill
+- `amos-canon-universe-master` — parent skill
 - `[[amos-human-state-ontology-mapper-workflow]]` — corresponding workflow
-- `[[amos-human-state-ontology-mapper-agent]]` — corresponding agent
+- `amos-human-state-ontology-mapper-agent` — corresponding agent
 

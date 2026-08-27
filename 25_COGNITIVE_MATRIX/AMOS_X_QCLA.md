@@ -3012,8 +3012,7 @@ RSCF:
 
   claim_class: AMOS_MODEL
 
-  state: SOURCE_GROUNDED
-
+  state: SOURCE_CLAIM
   H:
     framework: QCLA
 

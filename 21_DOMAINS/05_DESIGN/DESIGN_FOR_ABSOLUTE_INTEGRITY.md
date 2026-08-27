@@ -1,6 +1,6 @@
 ---
-title: "Design for Absolute Integrity"
-type: design
+title: "Design for Absolute Integrity Specification"
+type: domain
 source: 21_DOMAINS/05_DESIGN
 artifact: "DESIGN_FOR_ABSOLUTE_INTEGRITY.md"
 artifact_id: "amos_21_domains_05_design_design_for_absolute_integrity"
@@ -9,212 +9,103 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "21_DOMAINS"
 segment: "21_DOMAINS/05_DESIGN"
-artifact_kind: "DESIGN"
+artifact_kind: "DOMAIN_DESIGN"
 path: "21_DOMAINS/05_DESIGN/DESIGN_FOR_ABSOLUTE_INTEGRITY.md"
 
-tags: [amos_os, domain, specialization, 21_domains, design, canon_placeholder, rscf, canon/domain]
+tags:
+  - amos_os
+  - domain
+  - vault
+  - 21_domains
+  - 05_design
+  - design_for_absolute_integrity
+  - dfai
+  - failure_mode_resilience
+  - rscf
+  - canon_candidate
+  - canon/domain
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+status: "ACTIVE_REFERENCE"
+epistemic_class: "SYSTEM_INVARIANT"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  state: SOURCE_CLAIM
+  claim_class: SYSTEM_INVARIANT
+  provenance:
+    - 11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY
+    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+    - AMOS_CORPUS
+  scope:
+    - DOMAIN_DESIGN
+    - DFAI_DESIGN
+    - SOURCE_DEFINED_MODEL
+
+framework_binding:
+  dfai_framework:
+    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]]"
+  law_of_law:
+    artifact: "[[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  domain_structure: VERIFIED_SOURCE_STRUCTURE
+  design_methodology: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
+# Design for Absolute Integrity (DFAI) Specification
 
-# Design for Absolute Integrity
-
-## 0. Status
-
-`DESIGN_FOR_ABSOLUTE_INTEGRITY.md` is an **ADD-ONLY placeholder** for the **Domains** plane segment at `21_DOMAINS/05_DESIGN`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
+`DESIGN_FOR_ABSOLUTE_INTEGRITY.md` is the canonical Domain Plane specification governing the engineering methodologies for zero-debt architectures, fail-safe invariant preservation, and proactive failure-mode resistance within `21_DOMAINS/05_DESIGN`.
 
 ---
 
-## 1. Purpose
+# 1. DFAI Engineering Pillars
 
-This artifact reserves the **Design for Absolute Integrity** slot within the Domains plane. The Domains plane governs C-family domain engine mappings (C01-C12) and domain canons onto the OS planes.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
+1. **Pre-Mortem Failure Modeling:** Exhaustively models all collapse modalities before committing architectural code.
+2. **Invariant Non-Violation Gate:** Rejects any design mutation that compromises the Law of Law ($\mathcal{C}, \mathcal{E}, \mathcal{F}$).
+3. **Deterministic Rollback Anchor:** Requires all state modifications to possess an immediate, zero-loss recovery path to ground state ($S_0$).
 
 ---
 
-## 3. Ingestion Rule
+# 2. Inter-Plane & Vault Connections
+
+- **DFAI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]]
+- **Law of Law:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
+- **Absolute Integrity:** [[11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY]]
+
+---
+
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_21_domains_05_design_design_for_absolute_integrity
+  node_type: domain_design
+  claim_class: SYSTEM_INVARIANT
+  state: SOURCE_CLAIM
+  H:
+    identity: "Design for Absolute Integrity Specification"
+    role: "Engineering methodology enforcing zero-debt invariant preservation and failure-mode resistance"
+  M:
+    pillars: [pre_mortem_failure_modeling, invariant_non_violation, deterministic_rollback_anchor]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
 
 ---
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `21_DOMAINS · DESIGN` within the Domains plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_21_domains_05_design_design_for_absolute_integrity
-
-node_type: design
-
-path: 21_DOMAINS/05_DESIGN/DESIGN_FOR_ABSOLUTE_INTEGRITY.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[05_DESIGN_MOC]]
+**MOC:** [[21_DOMAINS/05_DESIGN/05_DESIGN_MOC]]

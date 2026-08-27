@@ -108,7 +108,7 @@ Bidirectional translation with two firewall rules:
 
 ## Composition
 
-- **Parent**: `[[amos-c06-society-culture-master]]` — routes to this skill when cross-domain (C06 Vietnamese ↔ Global) specialization is needed
+- **Parent**: `amos-c06-society-culture-master` — routes to this skill when cross-domain (C06 Vietnamese ↔ Global) specialization is needed
 - **Peers**: Other skills in the `cross-domain (C06 Vietnamese ↔ Global)` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -156,7 +156,7 @@ Bidirectional translation with two firewall rules:
 - `references/vn_neural_invariance_silence.md` — loaded on demand
 - `references/vn_what_you_discovered.md` — loaded on demand
 - `[[amos-vietnamese-global-cultural-bridge-governor_MOC]]` — skill Map of Content
-- `[[amos-c06-society-culture-master]]` — parent skill
+- `amos-c06-society-culture-master` — parent skill
 - `[[amos-vietnamese-global-cultural-bridge-governor-workflow]]` — corresponding workflow
-- `[[amos-vietnamese-global-cultural-bridge-governor-agent]]` — corresponding agent
+- `amos-vietnamese-global-cultural-bridge-governor-agent` — corresponding agent
 

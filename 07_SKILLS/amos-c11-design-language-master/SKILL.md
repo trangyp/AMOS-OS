@@ -132,7 +132,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c11 specialization is needed
+- **Parent**: `none` — routes to this skill when c11 specialization is needed
 - **Peers**: Other skills in the `c11` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -198,7 +198,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `references/vietnamese_writing_engine.md` — loaded on demand
 - `[[amos-c11-design-language-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c11-design-language-master-workflow]]` — corresponding workflow
-- `[[amos-c11-design-language-master-agent]]` — corresponding agent
+- `amos-c11-design-language-master-agent` — corresponding agent
 

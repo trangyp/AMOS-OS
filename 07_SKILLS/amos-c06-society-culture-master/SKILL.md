@@ -124,7 +124,7 @@ Social analysis is always context-, population-, institution-, and timescale-dep
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c06 specialization is needed
+- **Parent**: `none` — routes to this skill when c06 specialization is needed
 - **Peers**: Other skills in the `c06` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -186,7 +186,7 @@ Social analysis is always context-, population-, institution-, and timescale-dep
 - `references/vn_trust_marketplace_strategy.md` — loaded on demand
 - `references/when_humanity_began.md` — loaded on demand
 - `[[amos-c06-society-culture-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c06-society-culture-master-workflow]]` — corresponding workflow
-- `[[amos-c06-society-culture-master-agent]]` — corresponding agent
+- `amos-c06-society-culture-master-agent` — corresponding agent
 

@@ -119,7 +119,7 @@ within current constraints.
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -158,7 +158,7 @@ within current constraints.
 - `references/references_MOC.md` — loaded on demand
 - `references/stability_reference.md` — loaded on demand
 - `[[amos-adaptive-stability-balancer_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-adaptive-stability-balancer-workflow]]` — corresponding workflow
-- `[[amos-adaptive-stability-balancer-agent]]` — corresponding agent
+- `amos-adaptive-stability-balancer-agent` — corresponding agent
 

@@ -130,7 +130,7 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 
 ## Composition
 
-- **Parent**: `[[amos-causal-reasoning-master]]` — routes to this skill when causal specialization is needed
+- **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
 - **Peers**: Other skills in the `causal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -169,7 +169,7 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-scientific-closure-governor-rscf_MOC]]` — skill Map of Content
-- `[[amos-causal-reasoning-master]]` — parent skill
+- `amos-causal-reasoning-master` — parent skill
 - `[[amos-scientific-closure-governor-rscf-workflow]]` — corresponding workflow
-- `[[amos-scientific-closure-governor-rscf-agent]]` — corresponding agent
+- `amos-scientific-closure-governor-rscf-agent` — corresponding agent
 

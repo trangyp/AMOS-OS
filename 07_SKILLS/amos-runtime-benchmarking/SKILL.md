@@ -132,7 +132,7 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 
 ## Composition
 
-- **Parent**: `[[amos-audit-repair-master]]` — routes to this skill when audit specialization is needed
+- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-runtime-benchmarking_MOC]]` — skill Map of Content
-- `[[amos-audit-repair-master]]` — parent skill
+- `amos-audit-repair-master` — parent skill
 - `[[amos-runtime-benchmarking-workflow]]` — corresponding workflow
-- `[[amos-runtime-benchmarking-agent]]` — corresponding agent
+- `amos-runtime-benchmarking-agent` — corresponding agent
 

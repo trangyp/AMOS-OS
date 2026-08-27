@@ -144,7 +144,7 @@ Ethical alignment is AMOS_MODEL. The UEAE is a structural ethics governance fram
 
 ## Composition
 
-- **Parent**: `[[amos-c09-org-law-policy-master]]` — routes to this skill when c09 specialization is needed
+- **Parent**: `amos-c09-org-law-policy-master` — routes to this skill when c09 specialization is needed
 - **Peers**: Other skills in the `c09` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -183,7 +183,7 @@ Ethical alignment is AMOS_MODEL. The UEAE is a structural ethics governance fram
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-ethics-os-governor_MOC]]` — skill Map of Content
-- `[[amos-c09-org-law-policy-master]]` — parent skill
+- `amos-c09-org-law-policy-master` — parent skill
 - `[[amos-ethics-os-governor-workflow]]` — corresponding workflow
-- `[[amos-ethics-os-governor-agent]]` — corresponding agent
+- `amos-ethics-os-governor-agent` — corresponding agent
 

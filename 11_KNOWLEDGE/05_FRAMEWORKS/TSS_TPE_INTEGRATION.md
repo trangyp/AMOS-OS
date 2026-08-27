@@ -112,7 +112,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_tss_tpe_integration
   node_type: integration
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "TSS-TPE Integration"
     role: "Systemic coupling of lifecycle dynamics diagnosis to structural foresight"

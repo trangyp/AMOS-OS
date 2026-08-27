@@ -1,23 +1,12 @@
 ---
-title: "GENERATORS MAP"
-canon-group: reference
-rscf-state: derived
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - generators
-  - index
-  - map
-  - registry
-  - provenance
-  - lineage
-  - validation
-  - rscf
+title: GENERATORS MAP
+type: note
+tags: [note, 00-index]
+---
+
+---title: "GENERATORS MAP"
 type: document
-source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

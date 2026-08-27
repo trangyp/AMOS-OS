@@ -112,7 +112,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_trang_lmh_architecture
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang LMH Architecture"
     role: "Universal tri-layer fractal structural decomposition and operational tiering"

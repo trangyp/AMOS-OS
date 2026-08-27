@@ -55,7 +55,7 @@ framework_binding:
   heritage_master:
     artifact: "[[HERITAGE_INTELLIGENCE_MASTER]]"
   claims_registry:
-    artifact: "[[11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY]]"
+    artifact: "11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -100,7 +100,7 @@ RSCF:
   node_id: amos_11_knowledge_03_rscf_heritage_rscf_index
   node_type: index
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage RSCF Index"
     role: "Index of RSCF proof capsules across Heritage Decision Intelligence"

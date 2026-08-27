@@ -1,33 +1,12 @@
 ---
-artifact_id: AMOS-CM-11-VALIDATION-RPOL-EXECUTOR
-title: "Routing Policy Validator — Execution Receipt"
-path_target: "25_COGNITIVE_MATRIX/11_VALIDATION/ROUTING_POLICY_VALIDATION_RECEIPT.md"
-artifact_class: VALIDATION_EVIDENCE
-contract_class: EXECUTED_VALIDATION_RECEIPT
-subsystem: 11_VALIDATION / 10_ROUTING
-origin_architect: Trang Phan
-executor: Hermes agent (ox-alpha)
-updated: 2026-08-26
-epistemic_class: DERIVED
-conclusion_class: PARTIAL
-rscf_state: derived
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - validation
-  - routing
-  - routing_policy
-  - execution_receipt
-  - validation_evidence
-  - constitutional_tests
-  - adversarial_validation
-  - provenance
-  - rscf
+title: ROUTING POLICY VALIDATION RECEIPT
+type: note
+tags: [note, 11-validation]
+---
+
+---title: "Routing Policy Validator — Execution Receipt"
 type: document
-source: 25_COGNITIVE_MATRIX/11_VALIDATION
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

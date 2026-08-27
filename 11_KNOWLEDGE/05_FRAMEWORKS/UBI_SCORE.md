@@ -101,7 +101,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_score
   node_type: metric
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Score Metric"
     role: "Exact geometric mean computation and bottleneck identification for biological alignment"

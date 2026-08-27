@@ -141,7 +141,7 @@ python goal_driven_ai_architecture_ge
 
 ## Composition
 
-- **Parent**: `[[amos-c08-strategy-game-master]]` — routes to this skill when mckinsey specialization is needed
+- **Parent**: `amos-c08-strategy-game-master` — routes to this skill when mckinsey specialization is needed
 - **Peers**: Other skills in the `mckinsey` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -180,7 +180,7 @@ python goal_driven_ai_architecture_ge
 - `references/mckinsey-architecture-reference-transfer-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[mckinsey-architecture-reference-transfer-rscf_MOC]]` — skill Map of Content
-- `[[amos-c08-strategy-game-master]]` — parent skill
+- `amos-c08-strategy-game-master` — parent skill
 - `[[mckinsey-architecture-reference-transfer-rscf-workflow]]` — corresponding workflow
-- `[[mckinsey-architecture-reference-transfer-rscf-agent]]` — corresponding agent
+- `mckinsey-architecture-reference-transfer-rscf-agent` — corresponding agent
 

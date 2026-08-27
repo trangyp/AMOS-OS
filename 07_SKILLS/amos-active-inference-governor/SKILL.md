@@ -113,7 +113,7 @@ BELIEF_UPDA
 
 ## Composition
 
-- **Parent**: `[[amos-c05-mind-behavior-master]]` — routes to this skill when mind_behavior specialization is needed
+- **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when mind_behavior specialization is needed
 - **Peers**: Other skills in the `mind_behavior` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -152,7 +152,7 @@ BELIEF_UPDA
 - `references/pragmatic_action.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-active-inference-governor_MOC]]` — skill Map of Content
-- `[[amos-c05-mind-behavior-master]]` — parent skill
+- `amos-c05-mind-behavior-master` — parent skill
 - `[[amos-active-inference-governor-workflow]]` — corresponding workflow
-- `[[amos-active-inference-governor-agent]]` — corresponding agent
+- `amos-active-inference-governor-agent` — corresponding agent
 

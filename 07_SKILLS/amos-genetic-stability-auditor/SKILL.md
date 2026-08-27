@@ -166,7 +166,7 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 
 ## Composition
 
-- **Parent**: `[[amos-audit-repair-master]]` — routes to this skill when audit specialization is needed
+- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -205,7 +205,7 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 - `references/amos-genetic-stability-auditor_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-genetic-stability-auditor_MOC]]` — skill Map of Content
-- `[[amos-audit-repair-master]]` — parent skill
+- `amos-audit-repair-master` — parent skill
 - `[[amos-genetic-stability-auditor-workflow]]` — corresponding workflow
-- `[[amos-genetic-stability-auditor-agent]]` — corresponding agent
+- `amos-genetic-stability-auditor-agent` — corresponding agent
 

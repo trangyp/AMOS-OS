@@ -109,7 +109,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_uba_framework
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Universal Biological Architecture (UBA)"
     role: "Morphological and structural organization principles for self-sustaining biological organisms"

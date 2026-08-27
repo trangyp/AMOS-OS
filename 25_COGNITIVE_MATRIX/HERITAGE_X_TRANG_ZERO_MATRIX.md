@@ -54,7 +54,7 @@ framework_binding:
   matrix_spec:
     artifact: "[[HERITAGE_X_TRANG_ZERO]]"
   zero_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_heritage_x_trang_zero_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage x Trang Zero Matrix Table"
     role: "Routing table connecting crisis states to null-state reset basins and anti-autopoisoning firewalls"

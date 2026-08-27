@@ -117,7 +117,7 @@ F1: recovered fractal canon defines diff
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when fractal specialization is needed
+- **Parent**: `none` — routes to this skill when fractal specialization is needed
 - **Peers**: Other skills in the `fractal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -174,7 +174,7 @@ F1: recovered fractal canon defines diff
 - `references/scaling_law_diagnostics.md` — loaded on demand
 - `references/ubi_fractal_entropy_correction.md` — loaded on demand
 - `[[amos-fractal-systems-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-fractal-systems-master-workflow]]` — corresponding workflow
-- `[[amos-fractal-systems-master-agent]]` — corresponding agent
+- `amos-fractal-systems-master-agent` — corresponding agent
 

@@ -132,7 +132,7 @@ FX predictive fractal engine is an analytical model. It does not prove fractal p
 
 ## Composition
 
-- **Parent**: `[[amos-c07-econ-finance-master]]` — routes to this skill when fx specialization is needed
+- **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
 - **Peers**: Other skills in the `fx` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ FX predictive fractal engine is an analytical model. It does not prove fractal p
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-fx-predictive-fractal-engine_MOC]]` — skill Map of Content
-- `[[amos-c07-econ-finance-master]]` — parent skill
+- `amos-c07-econ-finance-master` — parent skill
 - `[[amos-fx-predictive-fractal-engine-workflow]]` — corresponding workflow
-- `[[amos-fx-predictive-fractal-engine-agent]]` — corresponding agent
+- `amos-fx-predictive-fractal-engine-agent` — corresponding agent
 

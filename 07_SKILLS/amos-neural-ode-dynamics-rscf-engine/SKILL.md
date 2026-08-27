@@ -138,7 +138,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Composition
 
-- **Parent**: `[[amos-c04-bio-neuro-master]]` — routes to this skill when c04 specialization is needed
+- **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when c04 specialization is needed
 - **Peers**: Other skills in the `c04` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -177,7 +177,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-neural-ode-dynamics-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-c04-bio-neuro-master]]` — parent skill
+- `amos-c04-bio-neuro-master` — parent skill
 - `[[amos-neural-ode-dynamics-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-neural-ode-dynamics-rscf-engine-agent]]` — corresponding agent
+- `amos-neural-ode-dynamics-rscf-engine-agent` — corresponding agent
 

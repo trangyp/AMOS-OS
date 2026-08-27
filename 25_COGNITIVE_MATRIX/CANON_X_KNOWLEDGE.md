@@ -50,9 +50,9 @@ rscf:
 
 framework_binding:
   canon_moc:
-    artifact: "[[01_CANON/01_CANON_MOC]]"
+    artifact: "01_CANON/01_CANON_MOC"
   knowledge_moc:
-    artifact: "[[11_KNOWLEDGE/KNOWLEDGE_MOC]]"
+    artifact: "11_KNOWLEDGE/KNOWLEDGE_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -101,7 +101,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_canon_x_knowledge
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Canon x Knowledge Cognitive Matrix"
     role: "Cross-coupling specification binding 01_CANON core laws to 11_KNOWLEDGE frameworks and claims"

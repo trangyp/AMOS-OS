@@ -144,7 +144,7 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 
 ## Composition
 
-- **Parent**: `[[amos-c06-society-culture-master]]` — routes to this skill when c06 specialization is needed
+- **Parent**: `amos-c06-society-culture-master` — routes to this skill when c06 specialization is needed
 - **Peers**: Other skills in the `c06` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -183,7 +183,7 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-growth-graph_MOC]]` — skill Map of Content
-- `[[amos-c06-society-culture-master]]` — parent skill
+- `amos-c06-society-culture-master` — parent skill
 - `[[amos-growth-graph-workflow]]` — corresponding workflow
-- `[[amos-growth-graph-agent]]` — corresponding agent
+- `amos-growth-graph-agent` — corresponding agent
 

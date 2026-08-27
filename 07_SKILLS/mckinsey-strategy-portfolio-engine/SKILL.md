@@ -132,7 +132,7 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 
 ## Composition
 
-- **Parent**: `[[amos-c08-strategy-game-master]]` — routes to this skill when mckinsey specialization is needed
+- **Parent**: `amos-c08-strategy-game-master` — routes to this skill when mckinsey specialization is needed
 - **Peers**: Other skills in the `mckinsey` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[mckinsey-strategy-portfolio-engine_MOC]]` — skill Map of Content
-- `[[amos-c08-strategy-game-master]]` — parent skill
+- `amos-c08-strategy-game-master` — parent skill
 - `[[mckinsey-strategy-portfolio-engine-workflow]]` — corresponding workflow
-- `[[mckinsey-strategy-portfolio-engine-agent]]` — corresponding agent
+- `mckinsey-strategy-portfolio-engine-agent` — corresponding agent
 

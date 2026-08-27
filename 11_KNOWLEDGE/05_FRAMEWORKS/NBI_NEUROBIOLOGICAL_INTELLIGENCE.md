@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_nbi_neurobiological_intelligence
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Neurobiological Intelligence (NBI)"
     role: "Cortical processing, cognitive reasoning, working memory, and neural decision loops"

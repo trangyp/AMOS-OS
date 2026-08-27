@@ -118,7 +118,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_heritage_x_tss_matrix
   node_type: matrix
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage × TSS Matrix"
     role: "Multidimensional decision routing and cycle governance matrix"

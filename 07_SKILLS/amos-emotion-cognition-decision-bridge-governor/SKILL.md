@@ -93,7 +93,7 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 
 ## Composition
 
-- **Parent**: `[[amos-c05-mind-behavior-master]]` — routes to this skill when cross-domain (C05→C01→C10) specialization is needed
+- **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when cross-domain (C05→C01→C10) specialization is needed
 - **Peers**: Other skills in the `cross-domain (C05→C01→C10)` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -132,7 +132,7 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-emotion-cognition-decision-bridge-governor_MOC]]` — skill Map of Content
-- `[[amos-c05-mind-behavior-master]]` — parent skill
+- `amos-c05-mind-behavior-master` — parent skill
 - `[[amos-emotion-cognition-decision-bridge-governor-workflow]]` — corresponding workflow
-- `[[amos-emotion-cognition-decision-bridge-governor-agent]]` — corresponding agent
+- `amos-emotion-cognition-decision-bridge-governor-agent` — corresponding agent
 

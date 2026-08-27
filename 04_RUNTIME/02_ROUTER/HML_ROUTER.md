@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   router_moc:
-    artifact: "[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]"
+    artifact: "04_RUNTIME/02_ROUTER/02_ROUTER_MOC"
   knowledge_moc:
-    artifact: "[[11_KNOWLEDGE/KNOWLEDGE_MOC]]"
+    artifact: "11_KNOWLEDGE/KNOWLEDGE_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -88,9 +88,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Router MOC:** [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]
-- **Knowledge MOC:** [[11_KNOWLEDGE/KNOWLEDGE_MOC]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC]]
+- **Router MOC:** 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+- **Knowledge MOC:** 11_KNOWLEDGE/KNOWLEDGE_MOC
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/25_COGNITIVE_MATRIX_MOC
 
 ---
 
@@ -101,7 +101,7 @@ RSCF:
   node_id: amos_04_runtime_02_router_hml_router
   node_type: router_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "HML Router Specification"
     role: "Progressive context disclosure router optimizing token budget across H/M/L tiers"
@@ -114,7 +114,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]] · [[11_KNOWLEDGE/KNOWLEDGE_MOC]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/02_ROUTER/02_ROUTER_MOC · 11_KNOWLEDGE/KNOWLEDGE_MOC
 
 ---
-**MOC:** [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]
+**MOC:** 04_RUNTIME/02_ROUTER/02_ROUTER_MOC

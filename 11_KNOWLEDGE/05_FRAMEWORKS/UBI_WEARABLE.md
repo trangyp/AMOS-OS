@@ -96,7 +96,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_wearable
   node_type: interface
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Wearable Interface"
     role: "Non-invasive biosensing integration and real-time telemetry streaming for UBI 4 domains"

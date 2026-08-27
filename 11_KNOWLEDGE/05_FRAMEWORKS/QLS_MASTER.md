@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_qls_master
   node_type: master
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "QLS Master System"
     role: "Master coordination of the 4 QLS pillars for multi-hypothesis non-binary reasoning"

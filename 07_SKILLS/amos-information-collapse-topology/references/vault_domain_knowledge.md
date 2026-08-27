@@ -1,28 +1,12 @@
 ---
-title: AMOS Collapse-Space Coverage Audit
-version: 2.0.0
-created: 2026-08-25
-origin: Trang Phan
-source_status: REPAIRED_FROM_LEGACY_ANALYSIS
-domain: systemic-collapse
-conclusion_class: AMOS_MODEL
-legacy_framework: UCP+
-amos_alignment:
-  - 7-Part Universe Canon
-  - 16 Canonical Laws of Existence
-- H/M/L Cross-Scale Reasoning
-  - RSCF
-- Causal Firewall
-  - Scope/Regime Firewall
-- Measurement Integrity
+title: vault domain knowledge
+type: reference
+tags: [reference, references]
+---
+
+---title: "AMOS Collapse-Space Coverage Audit"
 type: document
-source: 07_SKILLS/amos-information-collapse-topology/references
-tags: [amos_os, references, canon/skill]
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

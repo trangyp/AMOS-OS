@@ -148,8 +148,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-emotion-cognition-decision-bridge-governor]]`
-- **Agent**: `[[amos-emotion-cognition-decision-bridge-governor-agent]]`
+- **Skill**: `amos-emotion-cognition-decision-bridge-governor`
+- **Agent**: `amos-emotion-cognition-decision-bridge-governor-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

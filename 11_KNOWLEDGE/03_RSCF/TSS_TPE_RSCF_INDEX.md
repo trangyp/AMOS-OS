@@ -102,7 +102,7 @@ RSCF:
   node_id: amos_11_knowledge_03_rscf_tss_tpe_rscf_index
   node_type: index
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "TSS-TPE RSCF Index"
     role: "Index of RSCF proof capsules across TSS lifecycles and TPE prediction engines"

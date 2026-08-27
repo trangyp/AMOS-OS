@@ -131,7 +131,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Composition
 
-- **Parent**: `[[amos-boundary-scope-master]]` — routes to this skill when boundary specialization is needed
+- **Parent**: `amos-boundary-scope-master` — routes to this skill when boundary specialization is needed
 - **Peers**: Other skills in the `boundary` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-context-orientation-cache-rscf_MOC]]` — skill Map of Content
-- `[[amos-boundary-scope-master]]` — parent skill
+- `amos-boundary-scope-master` — parent skill
 - `[[amos-context-orientation-cache-rscf-workflow]]` — corresponding workflow
-- `[[amos-context-orientation-cache-rscf-agent]]` — corresponding agent
+- `amos-context-orientation-cache-rscf-agent` — corresponding agent
 

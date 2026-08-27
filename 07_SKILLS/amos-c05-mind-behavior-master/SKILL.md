@@ -132,7 +132,7 @@ All psychological claims are MODEL unless explicitly sourced. C05 is NOT clinic
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c05 specialization is needed
+- **Parent**: `none` — routes to this skill when c05 specialization is needed
 - **Peers**: Other skills in the `c05` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -225,7 +225,7 @@ All psychological claims are MODEL unless explicitly sourced. C05 is NOT clinic
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `references/void_ego_dissolution_model.md` — loaded on demand
 - `[[amos-c05-mind-behavior-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c05-mind-behavior-master-workflow]]` — corresponding workflow
-- `[[amos-c05-mind-behavior-master-agent]]` — corresponding agent
+- `amos-c05-mind-behavior-master-agent` — corresponding agent
 

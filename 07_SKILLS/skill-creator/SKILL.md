@@ -132,7 +132,7 @@ The skill creator is an operational process. It does not prove skills are always
 
 ## Composition
 
-- **Parent**: `[[amos-agent-systems-master]]` — routes to this skill when agent specialization is needed
+- **Parent**: `amos-agent-systems-master` — routes to this skill when agent specialization is needed
 - **Peers**: Other skills in the `agent` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ The skill creator is an operational process. It does not prove skills are always
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[skill-creator_MOC]]` — skill Map of Content
-- `[[amos-agent-systems-master]]` — parent skill
+- `amos-agent-systems-master` — parent skill
 - `[[skill-creator-workflow]]` — corresponding workflow
-- `[[skill-creator-agent]]` — corresponding agent
+- `skill-creator-agent` — corresponding agent
 

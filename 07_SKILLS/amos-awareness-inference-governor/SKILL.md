@@ -131,7 +131,7 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 
 ## Composition
 
-- **Parent**: `[[amos-c05-mind-behavior-master]]` — routes to this skill when c05 specialization is needed
+- **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
 - **Peers**: Other skills in the `c05` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-awareness-inference-governor_MOC]]` — skill Map of Content
-- `[[amos-c05-mind-behavior-master]]` — parent skill
+- `amos-c05-mind-behavior-master` — parent skill
 - `[[amos-awareness-inference-governor-workflow]]` — corresponding workflow
-- `[[amos-awareness-inference-governor-agent]]` — corresponding agent
+- `amos-awareness-inference-governor-agent` — corresponding agent
 

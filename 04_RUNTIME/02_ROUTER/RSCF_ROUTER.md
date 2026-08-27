@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
@@ -52,11 +52,11 @@ rscf:
 
 framework_binding:
   router_moc:
-    artifact: "[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]"
+    artifact: "04_RUNTIME/02_ROUTER/02_ROUTER_MOC"
   rscf_moc:
-    artifact: "[[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]]"
+    artifact: "11_KNOWLEDGE/03_RSCF/03_RSCF_MOC"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/ULK_X_RSCF]]"
+    artifact: "25_COGNITIVE_MATRIX/ULK_X_RSCF"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -91,9 +91,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Router MOC:** [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]
-- **RSCF Proof MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/ULK_X_RSCF]]
+- **Router MOC:** 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+- **RSCF Proof MOC:** 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/ULK_X_RSCF
 
 ---
 
@@ -104,7 +104,7 @@ RSCF:
   node_id: amos_04_runtime_02_router_rscf_router
   node_type: router_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "RSCF Router Specification"
     role: "Dynamic lookup and confidence resolution router for RSCF proof capsules"
@@ -117,7 +117,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/02_ROUTER/02_ROUTER_MOC · 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
 
 ---
-**MOC:** [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]
+**MOC:** 04_RUNTIME/02_ROUTER/02_ROUTER_MOC

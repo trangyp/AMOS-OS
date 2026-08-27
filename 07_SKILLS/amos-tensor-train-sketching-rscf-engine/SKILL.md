@@ -133,7 +133,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Composition
 
-- **Parent**: `[[amos-formal-engines-master]]` — routes to this skill when formal specialization is needed
+- **Parent**: `amos-formal-engines-master` — routes to this skill when formal specialization is needed
 - **Peers**: Other skills in the `formal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -172,7 +172,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-tensor-train-sketching-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-formal-engines-master]]` — parent skill
+- `amos-formal-engines-master` — parent skill
 - `[[amos-tensor-train-sketching-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-tensor-train-sketching-rscf-engine-agent]]` — corresponding agent
+- `amos-tensor-train-sketching-rscf-engine-agent` — corresponding agent
 

@@ -175,8 +175,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-c09-org-law-policy-master]]`
-- **Agent**: `[[amos-c09-org-law-policy-agent]]`
+- **Skill**: `amos-c09-org-law-policy-master`
+- **Agent**: `amos-c09-org-law-policy-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

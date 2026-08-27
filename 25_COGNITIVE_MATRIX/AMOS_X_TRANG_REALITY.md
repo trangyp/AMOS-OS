@@ -4261,8 +4261,7 @@ RSCF:
     AMOS_MODEL
 
   state:
-    SOURCE_GROUNDED
-
+    SOURCE_CLAIM
   canonical_status:
     SOURCE_GROUNDED_CANON_CANDIDATE
 

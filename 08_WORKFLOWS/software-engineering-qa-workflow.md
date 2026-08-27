@@ -174,8 +174,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[software-engineering-qa]]`
-- **Agent**: `[[software-engineering-qa-agent]]`
+- **Skill**: `[[software-engineering-qa_MOC]]`
+- **Agent**: `software-engineering-qa-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

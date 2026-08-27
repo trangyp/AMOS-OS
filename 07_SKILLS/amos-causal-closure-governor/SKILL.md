@@ -136,7 +136,7 @@ Causal closure is an architectural principle, not a metaphysical claim. It does 
 
 ## Composition
 
-- **Parent**: `[[amos-causal-reasoning-master]]` — routes to this skill when causal specialization is needed
+- **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
 - **Peers**: Other skills in the `causal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -175,7 +175,7 @@ Causal closure is an architectural principle, not a metaphysical claim. It does 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-causal-closure-governor_MOC]]` — skill Map of Content
-- `[[amos-causal-reasoning-master]]` — parent skill
+- `amos-causal-reasoning-master` — parent skill
 - `[[amos-causal-closure-governor-workflow]]` — corresponding workflow
-- `[[amos-causal-closure-governor-agent]]` — corresponding agent
+- `amos-causal-closure-governor-agent` — corresponding agent
 

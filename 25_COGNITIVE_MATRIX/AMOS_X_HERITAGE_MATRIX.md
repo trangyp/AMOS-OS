@@ -3022,8 +3022,7 @@ RSCF:
 
   class: AMOS_MODEL
 
-  state: SOURCE_GROUNDED
-
+  state: SOURCE_CLAIM
   identity:
     name: AMOS × Heritage Matrix
     origin_architect: Trang Phan

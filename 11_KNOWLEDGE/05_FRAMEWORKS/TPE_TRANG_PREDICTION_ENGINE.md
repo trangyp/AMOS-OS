@@ -128,7 +128,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_tpe_trang_prediction_engine
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "The Trang Prediction Engine™ (TPE)"
     role: "Structural foresight, transition window prediction, and cascade simulation"

@@ -129,7 +129,7 @@ A parent skill with clearly labeled sections is better than 3 separate shallow s
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when causal specialization is needed
+- **Parent**: `none` — routes to this skill when causal specialization is needed
 - **Peers**: Other skills in the `causal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ A parent skill with clearly labeled sections is better than 3 separate shallow s
 - `references/sensitivity_falsifiers.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-causal-reasoning-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-causal-reasoning-master-workflow]]` — corresponding workflow
-- `[[amos-causal-reasoning-master-agent]]` — corresponding agent
+- `amos-causal-reasoning-master-agent` — corresponding agent
 

@@ -137,7 +137,7 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 
 ## Composition
 
-- **Parent**: `[[amos-information-theory-master]]` — routes to this skill when info specialization is needed
+- **Parent**: `amos-information-theory-master` — routes to this skill when info specialization is needed
 - **Peers**: Other skills in the `info` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -176,7 +176,7 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-information-geometry-mapper_MOC]]` — skill Map of Content
-- `[[amos-information-theory-master]]` — parent skill
+- `amos-information-theory-master` — parent skill
 - `[[amos-information-geometry-mapper-workflow]]` — corresponding workflow
-- `[[amos-information-geometry-mapper-agent]]` — corresponding agent
+- `amos-information-geometry-mapper-agent` — corresponding agent
 

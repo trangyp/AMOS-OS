@@ -145,7 +145,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_heritage_x_trang_zero
   node_type: artifact
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage × TRANG Zero"
     role: "Null-state grounding and invariant root decision governance"

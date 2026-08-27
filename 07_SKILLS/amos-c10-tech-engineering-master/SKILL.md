@@ -125,7 +125,7 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c10 specialization is needed
+- **Parent**: `none` — routes to this skill when c10 specialization is needed
 - **Peers**: Other skills in the `c10` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -203,7 +203,7 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - `references/unix_automated_tools.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-c10-tech-engineering-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c10-tech-engineering-master-workflow]]` — corresponding workflow
-- `[[amos-c10-tech-engineering-master-agent]]` — corresponding agent
+- `amos-c10-tech-engineering-master-agent` — corresponding agent
 

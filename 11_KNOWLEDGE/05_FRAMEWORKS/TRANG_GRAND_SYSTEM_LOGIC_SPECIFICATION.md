@@ -102,7 +102,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_trang_grand_system_logic_specification
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang Grand System Logic Specification"
     role: "Formal algebraic operators, type contracts, and inference rules for the Grand System"

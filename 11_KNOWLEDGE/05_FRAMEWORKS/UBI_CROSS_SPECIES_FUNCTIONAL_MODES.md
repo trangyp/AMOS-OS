@@ -97,7 +97,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_cross_species_functional_modes
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Cross-Species Functional Modes"
     role: "Comparative biological domain specialization and evolutionary adaptation patterns"

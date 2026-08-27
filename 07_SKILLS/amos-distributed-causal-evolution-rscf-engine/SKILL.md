@@ -142,7 +142,7 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 
 ## Composition
 
-- **Parent**: `[[amos-causal-reasoning-master]]` — routes to this skill when causal specialization is needed
+- **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
 - **Peers**: Other skills in the `causal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -181,7 +181,7 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 - `references/distributed_causal_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-distributed-causal-evolution-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-causal-reasoning-master]]` — parent skill
+- `amos-causal-reasoning-master` — parent skill
 - `[[amos-distributed-causal-evolution-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-distributed-causal-evolution-rscf-engine-agent]]` — corresponding agent
+- `amos-distributed-causal-evolution-rscf-engine-agent` — corresponding agent
 

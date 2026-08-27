@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ratpak
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "RATPAK"
     role: "Relational data serialization, state packaging, and adaptive interface protocols"

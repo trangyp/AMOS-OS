@@ -134,7 +134,7 @@ Repair harm auditing is an operational construct. It does not prove all repair h
 
 ## Composition
 
-- **Parent**: `[[amos-audit-repair-master]]` — routes to this skill when audit specialization is needed
+- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -173,7 +173,7 @@ Repair harm auditing is an operational construct. It does not prove all repair h
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-repair-harm-auditor_MOC]]` — skill Map of Content
-- `[[amos-audit-repair-master]]` — parent skill
+- `amos-audit-repair-master` — parent skill
 - `[[amos-repair-harm-auditor-workflow]]` — corresponding workflow
-- `[[amos-repair-harm-auditor-agent]]` — corresponding agent
+- `amos-repair-harm-auditor-agent` — corresponding agent
 

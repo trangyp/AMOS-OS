@@ -133,7 +133,7 @@ Canon consistency is a structural property. It does not prove the canon is true,
 
 ## Composition
 
-- **Parent**: `[[amos-canon-universe-master]]` — routes to this skill when canon specialization is needed
+- **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
 - **Peers**: Other skills in the `canon` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -172,7 +172,7 @@ Canon consistency is a structural property. It does not prove the canon is true,
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-canon-consistency-governor_MOC]]` — skill Map of Content
-- `[[amos-canon-universe-master]]` — parent skill
+- `amos-canon-universe-master` — parent skill
 - `[[amos-canon-consistency-governor-workflow]]` — corresponding workflow
-- `[[amos-canon-consistency-governor-agent]]` — corresponding agent
+- `amos-canon-consistency-governor-agent` — corresponding agent
 

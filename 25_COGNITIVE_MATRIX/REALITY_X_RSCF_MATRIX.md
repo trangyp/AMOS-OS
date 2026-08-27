@@ -51,9 +51,9 @@ rscf:
 
 framework_binding:
   reality_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE"
   rscf_index:
-    artifact: "[[11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX]]"
+    artifact: "11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_reality_x_rscf_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Reality x RSCF Matrix Table"
     role: "Routing table mapping pre-symbolic reality structures to RSCF proof capsules"

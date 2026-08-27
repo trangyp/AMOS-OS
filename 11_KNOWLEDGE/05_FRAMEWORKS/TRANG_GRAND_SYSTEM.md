@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_trang_grand_system
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang Grand System"
     role: "Total architectural convergence uniting ontology, biology, dynamics, and decision intelligence"

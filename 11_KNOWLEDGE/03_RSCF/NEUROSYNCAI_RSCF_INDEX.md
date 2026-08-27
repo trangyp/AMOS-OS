@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_11_knowledge_03_rscf_neurosyncai_rscf_index
   node_type: index
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "NeurosyncAI RSCF Index"
     role: "Index of RSCF proof capsules across NeurosyncAI bio-adaptive systems"

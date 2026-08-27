@@ -131,7 +131,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_asea_adaptive_self_evolution_ai
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang ASEA (Adaptive Self-Evolution AI)"
     role: "Self-repairing, self-evolving AI architecture with real-time lacunarity tuning and T2 gating"

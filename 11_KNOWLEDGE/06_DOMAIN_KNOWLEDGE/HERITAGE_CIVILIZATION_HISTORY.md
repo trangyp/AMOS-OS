@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_11_knowledge_06_domain_knowledge_heritage_civilization_history
   node_type: domain_knowledge
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Civilization History"
     role: "Domain catalog of historical epochs, asymmetric survival archetypes, and civilizational memory"

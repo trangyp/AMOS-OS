@@ -113,7 +113,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_handbook
   node_type: handbook
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Decision Intelligence Handbook"
     role: "Operational step-by-step execution procedures for risk auditing and decision governance"

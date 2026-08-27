@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 01_CANON/07_PART_UNIVERSE_CANON
@@ -51,11 +51,11 @@ rscf:
 
 framework_binding:
   boot_moc:
-    artifact: "[[04_RUNTIME/01_BOOT/01_BOOT_MOC]]"
+    artifact: "04_RUNTIME/01_BOOT/01_BOOT_MOC"
   universe_canon:
-    artifact: "[[01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC]]"
+    artifact: "01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON]]"
+    artifact: "25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -94,9 +94,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Boot MOC:** [[04_RUNTIME/01_BOOT/01_BOOT_MOC]]
-- **Universe Canon MOC:** [[01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON]]
+- **Boot MOC:** 04_RUNTIME/01_BOOT/01_BOOT_MOC
+- **Universe Canon MOC:** 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON
 
 ---
 
@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_04_runtime_01_boot_universe_canon_bootstrap
   node_type: bootstrap_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Universe Canon Bootstrap Specification"
     role: "Registration and cosmological invariant binding sequence for 7-Part Universe strata"
@@ -120,7 +120,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/01_BOOT/01_BOOT_MOC]] · [[01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/01_BOOT/01_BOOT_MOC · 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
 
 ---
-**MOC:** [[04_RUNTIME/01_BOOT/01_BOOT_MOC]]
+**MOC:** 04_RUNTIME/01_BOOT/01_BOOT_MOC

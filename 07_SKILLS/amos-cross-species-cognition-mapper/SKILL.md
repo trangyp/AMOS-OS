@@ -136,7 +136,7 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 
 ## Composition
 
-- **Parent**: `[[amos-c04-bio-neuro-master]]` — routes to this skill when c04 specialization is needed
+- **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when c04 specialization is needed
 - **Peers**: Other skills in the `c04` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -175,7 +175,7 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-cross-species-cognition-mapper_MOC]]` — skill Map of Content
-- `[[amos-c04-bio-neuro-master]]` — parent skill
+- `amos-c04-bio-neuro-master` — parent skill
 - `[[amos-cross-species-cognition-mapper-workflow]]` — corresponding workflow
-- `[[amos-cross-species-cognition-mapper-agent]]` — corresponding agent
+- `amos-cross-species-cognition-mapper-agent` — corresponding agent
 

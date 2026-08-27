@@ -123,7 +123,7 @@ The 7-part canon is an analytical framework. It does not prove the system has co
 
 ## Composition
 
-- **Parent**: `[[amos-canon-universe-master]]` — routes to this skill when canon specialization is needed
+- **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
 - **Peers**: Other skills in the `canon` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -162,7 +162,7 @@ The 7-part canon is an analytical framework. It does not prove the system has co
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-7-part-universe-canon-full_MOC]]` — skill Map of Content
-- `[[amos-canon-universe-master]]` — parent skill
+- `amos-canon-universe-master` — parent skill
 - `[[amos-7-part-universe-canon-full-workflow]]` — corresponding workflow
-- `[[amos-7-part-universe-canon-full-agent]]` — corresponding agent
+- `amos-7-part-universe-canon-full-agent` — corresponding agent
 

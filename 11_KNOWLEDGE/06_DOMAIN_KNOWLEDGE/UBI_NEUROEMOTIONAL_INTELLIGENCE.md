@@ -109,7 +109,7 @@ RSCF:
   node_id: amos_11_knowledge_06_domain_knowledge_ubi_neuroemotional_intelligence
   node_type: domain_knowledge
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Neuroemotional Intelligence™ (NEI)"
     role: "Affect regulation, autonomic balance, and interpersonal interpretation"

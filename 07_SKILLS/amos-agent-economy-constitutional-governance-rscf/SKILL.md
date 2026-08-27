@@ -135,7 +135,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Composition
 
-- **Parent**: `[[amos-c07-econ-finance-master]]` — routes to this skill when econ specialization is needed
+- **Parent**: `amos-c07-econ-finance-master` — routes to this skill when econ specialization is needed
 - **Peers**: Other skills in the `econ` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -174,7 +174,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-agent-economy-constitutional-governance-rscf_MOC]]` — skill Map of Content
-- `[[amos-c07-econ-finance-master]]` — parent skill
+- `amos-c07-econ-finance-master` — parent skill
 - `[[amos-agent-economy-constitutional-governance-rscf-workflow]]` — corresponding workflow
-- `[[amos-agent-economy-constitutional-governance-rscf-agent]]` — corresponding agent
+- `amos-agent-economy-constitutional-governance-rscf-agent` — corresponding agent
 

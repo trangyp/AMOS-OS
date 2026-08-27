@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-session-control-plane]]`
-- **Agent**: `[[amos-session-control-plane-agent]]`
+- **Skill**: `amos-session-control-plane`
+- **Agent**: `amos-session-control-plane-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

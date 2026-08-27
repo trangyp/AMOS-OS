@@ -9,9 +9,10 @@ from pathlib import Path
 from collections import defaultdict
 
 VAULT = Path("/Users/mac/Documents/AMOS_OS")
-SKILLS_DIR = VAULT / "07_SKILLS"
-AGENTS_DIR = VAULT / "06_AGENTS"
-WORKFLOWS_DIR = VAULT / "08_WORKFLOWS"
+# Target .devin/ source-of-truth files (Obsidian vault copies in 07_SKILLS etc. already enhanced)
+SKILLS_DIR = VAULT / ".devin" / "skills"
+AGENTS_DIR = VAULT / ".devin" / "agents"
+WORKFLOWS_DIR = VAULT / ".devin" / "workflows"
 
 # ============================================================
 # SOTA ENHANCEMENT: SKILLS
@@ -377,13 +378,13 @@ def enhance_workflow(wf_file):
     if "## Human-in-the-Loop" not in body:
         hitl = ["## Human-in-the-Loop\n"]
         hitl.append("- **Default**: Automated execution without human intervention")
-        hitl("- **Escalation triggers**:")
-        hitl("  - CRITICAL_GAP detected")
-        hitl("  - Confidence below 0.3")
-        hitl("  - Scope violation requiring reclassification")
-        hitl("  - Contradiction that cannot be auto-resolved")
-        hitl("- **Review checkpoint**: After Gate 3, if any warnings are present")
-        hitl("")
+        hitl.append("- **Escalation triggers**:")
+        hitl.append("  - CRITICAL_GAP detected")
+        hitl.append("  - Confidence below 0.3")
+        hitl.append("  - Scope violation requiring reclassification")
+        hitl.append("  - Contradiction that cannot be auto-resolved")
+        hitl.append("- **Review checkpoint**: After Gate 3, if any warnings are present")
+        hitl.append("")
         enhancements.append("\n".join(hitl))
     
     # 5. Monitoring & Observability (SOTA: production monitoring)

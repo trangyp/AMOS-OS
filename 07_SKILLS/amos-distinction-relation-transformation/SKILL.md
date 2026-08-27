@@ -132,7 +132,7 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 
 ## Composition
 
-- **Parent**: `[[amos-super-engines-master]]` — routes to this skill when super specialization is needed
+- **Parent**: `amos-super-engines-master` — routes to this skill when super specialization is needed
 - **Peers**: Other skills in the `super` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-distinction-relation-transformation_MOC]]` — skill Map of Content
-- `[[amos-super-engines-master]]` — parent skill
+- `amos-super-engines-master` — parent skill
 - `[[amos-distinction-relation-transformation-workflow]]` — corresponding workflow
-- `[[amos-distinction-relation-transformation-agent]]` — corresponding agent
+- `amos-distinction-relation-transformation-agent` — corresponding agent
 

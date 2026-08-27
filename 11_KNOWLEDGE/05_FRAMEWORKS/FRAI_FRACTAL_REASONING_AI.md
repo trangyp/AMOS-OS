@@ -118,7 +118,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_frai_fractal_reasoning_ai
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang FRAI (Fractal Reasoning AI)"
     role: "Recursive self-similar multi-scale reasoning engine"

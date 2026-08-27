@@ -96,7 +96,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_vietnamese_history
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Vietnamese History & Survival Archetypes"
     role: "Decentralized village resilience, asymmetric survival dynamics, and cultural continuity"

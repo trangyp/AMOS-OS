@@ -131,7 +131,7 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 
 ## Composition
 
-- **Parent**: `[[amos-c07-econ-finance-master]]` — routes to this skill when fx specialization is needed
+- **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
 - **Peers**: Other skills in the `fx` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-fx-macro-differential-mapper_MOC]]` — skill Map of Content
-- `[[amos-c07-econ-finance-master]]` — parent skill
+- `amos-c07-econ-finance-master` — parent skill
 - `[[amos-fx-macro-differential-mapper-workflow]]` — corresponding workflow
-- `[[amos-fx-macro-differential-mapper-agent]]` — corresponding agent
+- `amos-fx-macro-differential-mapper-agent` — corresponding agent
 

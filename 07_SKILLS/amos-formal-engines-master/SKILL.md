@@ -129,7 +129,7 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when formal specialization is needed
+- **Parent**: `none` — routes to this skill when formal specialization is needed
 - **Peers**: Other skills in the `formal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -180,7 +180,7 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 - `references/tensor_composition_governance.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-formal-engines-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-formal-engines-master-workflow]]` — corresponding workflow
-- `[[amos-formal-engines-master-agent]]` — corresponding agent
+- `amos-formal-engines-master-agent` — corresponding agent
 

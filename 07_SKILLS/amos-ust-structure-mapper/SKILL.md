@@ -138,7 +138,7 @@ UST structure mapping is an analytical framework. It does not prove the 7-part c
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -177,7 +177,7 @@ UST structure mapping is an analytical framework. It does not prove the 7-part c
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-ust-structure-mapper_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-ust-structure-mapper-workflow]]` — corresponding workflow
-- `[[amos-ust-structure-mapper-agent]]` — corresponding agent
+- `amos-ust-structure-mapper-agent` — corresponding agent
 

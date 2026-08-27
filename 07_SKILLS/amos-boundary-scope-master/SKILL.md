@@ -145,7 +145,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when boundary specialization is needed
+- **Parent**: `none` — routes to this skill when boundary specialization is needed
 - **Peers**: Other skills in the `boundary` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -185,7 +185,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-boundary-scope-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-boundary-scope-master-workflow]]` — corresponding workflow
-- `[[amos-boundary-scope-master-agent]]` — corresponding agent
+- `amos-boundary-scope-master-agent` — corresponding agent
 

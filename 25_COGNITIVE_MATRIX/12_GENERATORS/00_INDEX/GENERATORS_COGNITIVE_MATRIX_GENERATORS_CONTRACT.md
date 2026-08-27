@@ -1,34 +1,12 @@
 ---
-artifact_id: AMOS-CM-12-GENERATORS-CONTRACT
-title: "Generators Cognitive Matrix Generators Contract"
-path_target: "25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_COGNITIVE_MATRIX_GENERATORS_CONTRACT.md"
-artifact_class: CONTRACT
-contract_class: COGNITIVE_MATRIX_GENERATOR_CONTRACT
-plane: COGNITIVE_MATRIX
-subsystem: 12_GENERATORS
-origin_architect: Trang Phan
-updated: 2026-08-26
-epistemic_class: AMOS_MODEL
-conclusion_class: CONDITIONAL
-canonical_status: CONDITIONAL
-implementation_status: PARTIAL
-rscf_state: derived
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - generators
-  - contract
-  - 00_index
-  - provenance
-  - validation
-  - falsification
-  - promotion
-  - supersession
+title: GENERATORS COGNITIVE MATRIX GENERATORS CONTRACT
+type: note
+tags: [note, 00-index]
+---
+
+---title: "Generators Cognitive Matrix Generators Contract"
 type: document
-source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

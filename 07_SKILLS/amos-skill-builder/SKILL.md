@@ -143,7 +143,7 @@ Check when available:
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when skill specialization is needed
+- **Parent**: `none` — routes to this skill when skill specialization is needed
 - **Peers**: Other skills in the `skill` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -186,7 +186,7 @@ Check when available:
 - `references/validation.md` — loaded on demand
 - `references/workflows.md` — loaded on demand
 - `[[amos-skill-builder_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-skill-builder-workflow]]` — corresponding workflow
-- `[[amos-skill-builder-agent]]` — corresponding agent
+- `amos-skill-builder-agent` — corresponding agent
 

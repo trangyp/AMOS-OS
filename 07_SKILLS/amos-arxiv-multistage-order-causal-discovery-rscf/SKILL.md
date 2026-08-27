@@ -150,7 +150,7 @@ This file is designed as a stabl
 
 ## Composition
 
-- **Parent**: `[[amos-knowledge-research-master]]` — routes to this skill when arxiv specialization is needed
+- **Parent**: `amos-knowledge-research-master` — routes to this skill when arxiv specialization is needed
 - **Peers**: Other skills in the `arxiv` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -189,7 +189,7 @@ This file is designed as a stabl
 - `references/causal_discovery_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-arxiv-multistage-order-causal-discovery-rscf_MOC]]` — skill Map of Content
-- `[[amos-knowledge-research-master]]` — parent skill
+- `amos-knowledge-research-master` — parent skill
 - `[[amos-arxiv-multistage-order-causal-discovery-rscf-workflow]]` — corresponding workflow
-- `[[amos-arxiv-multistage-order-causal-discovery-rscf-agent]]` — corresponding agent
+- `amos-arxiv-multistage-order-causal-discovery-rscf-agent` — corresponding agent
 

@@ -106,7 +106,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_psi_master
   node_type: master
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "PSI Master Evaluation System"
     role: "Central audit engine and integrity receipting for complex systems"

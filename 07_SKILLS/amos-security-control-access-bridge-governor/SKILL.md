@@ -113,7 +113,7 @@ The pipeline has 4 transition types:
 
 ## Composition
 
-- **Parent**: `[[amos-security-safety-master]]` — routes to this skill when cross-domain (C09 → C10 → Runtime) specialization is needed
+- **Parent**: `amos-security-safety-master` — routes to this skill when cross-domain (C09 → C10 → Runtime) specialization is needed
 - **Peers**: Other skills in the `cross-domain (C09 → C10 → Runtime)` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -152,7 +152,7 @@ The pipeline has 4 transition types:
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-security-control-access-bridge-governor_MOC]]` — skill Map of Content
-- `[[amos-security-safety-master]]` — parent skill
+- `amos-security-safety-master` — parent skill
 - `[[amos-security-control-access-bridge-governor-workflow]]` — corresponding workflow
-- `[[amos-security-control-access-bridge-governor-agent]]` — corresponding agent
+- `amos-security-control-access-bridge-governor-agent` — corresponding agent
 

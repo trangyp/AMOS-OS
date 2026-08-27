@@ -129,7 +129,7 @@ Counterfactual selfhood mapping is an analytical model. It does not prove the sy
 
 ## Composition
 
-- **Parent**: `[[amos-causal-reasoning-master]]` — routes to this skill when causal specialization is needed
+- **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
 - **Peers**: Other skills in the `causal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -168,7 +168,7 @@ Counterfactual selfhood mapping is an analytical model. It does not prove the sy
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-counterfactual-selfhood-mapper_MOC]]` — skill Map of Content
-- `[[amos-causal-reasoning-master]]` — parent skill
+- `amos-causal-reasoning-master` — parent skill
 - `[[amos-counterfactual-selfhood-mapper-workflow]]` — corresponding workflow
-- `[[amos-counterfactual-selfhood-mapper-agent]]` — corresponding agent
+- `amos-counterfactual-selfhood-mapper-agent` — corresponding agent
 

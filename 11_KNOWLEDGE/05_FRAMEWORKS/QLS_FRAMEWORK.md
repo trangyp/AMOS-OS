@@ -110,7 +110,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_qls_framework
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Quantum Logic Scaffold™ (QLS)"
     role: "Four-pillar structural logic architecture and non-contradiction gate"

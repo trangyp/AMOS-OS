@@ -137,7 +137,7 @@ Transformation quests are operational constructs. They do not prove transformati
 
 ## Composition
 
-- **Parent**: `[[amos-super-engines-master]]` — routes to this skill when super specialization is needed
+- **Parent**: `amos-super-engines-master` — routes to this skill when super specialization is needed
 - **Peers**: Other skills in the `super` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -176,7 +176,7 @@ Transformation quests are operational constructs. They do not prove transformati
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-transformation-quest-engine_MOC]]` — skill Map of Content
-- `[[amos-super-engines-master]]` — parent skill
+- `amos-super-engines-master` — parent skill
 - `[[amos-transformation-quest-engine-workflow]]` — corresponding workflow
-- `[[amos-transformation-quest-engine-agent]]` — corresponding agent
+- `amos-transformation-quest-engine-agent` — corresponding agent
 

@@ -136,7 +136,7 @@ Generators drift in schema even within one session's outputs. The registry-level
 
 ## Composition
 
-- **Parent**: `[[amos-knowledge-research-master]]` — routes to this skill when knowledge specialization is needed
+- **Parent**: `amos-knowledge-research-master` — routes to this skill when knowledge specialization is needed
 - **Peers**: Other skills in the `knowledge` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -175,7 +175,7 @@ Generators drift in schema even within one session's outputs. The registry-level
 - `references/amos-agent-storage-footprint-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-agent-storage-footprint-rscf_MOC]]` — skill Map of Content
-- `[[amos-knowledge-research-master]]` — parent skill
+- `amos-knowledge-research-master` — parent skill
 - `[[amos-agent-storage-footprint-rscf-workflow]]` — corresponding workflow
-- `[[amos-agent-storage-footprint-rscf-agent]]` — corresponding agent
+- `amos-agent-storage-footprint-rscf-agent` — corresponding agent
 

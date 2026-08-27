@@ -57,7 +57,7 @@ framework_binding:
   biological_master:
     artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
   claims_registry:
-    artifact: "[[11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY]]"
+    artifact: "11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -102,7 +102,7 @@ RSCF:
   node_id: amos_11_knowledge_03_rscf_ubi_rscf_index
   node_type: index
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI RSCF Index"
     role: "Index of RSCF proof capsules across Unified Biological Intelligence"

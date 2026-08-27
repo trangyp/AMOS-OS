@@ -51,7 +51,7 @@ rscf:
 
 framework_binding:
   universe_canon:
-    artifact: "[[01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC]]"
+    artifact: "01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC"
   omega_matrix:
     artifact: "[[AMOS_X_OMEGA]]"
 
@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_universe_x_omega_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Universe x Omega Matrix Table"
     role: "Routing table mapping 7 Universe Canon parts to the Omega Integration Stack"

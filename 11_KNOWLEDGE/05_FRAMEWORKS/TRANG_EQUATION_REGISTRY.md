@@ -103,7 +103,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_trang_equation_registry
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang Master Equation Registry"
     role: "Canonical catalog of mathematical formulations across the Trang Framework family"

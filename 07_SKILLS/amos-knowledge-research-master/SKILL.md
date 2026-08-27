@@ -140,7 +140,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when knowledge specialization is needed
+- **Parent**: `none` — routes to this skill when knowledge specialization is needed
 - **Peers**: Other skills in the `knowledge` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -193,7 +193,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/scientific_engine_layer.md` — loaded on demand
 - `references/scientific_engine_vinfinity.md` — loaded on demand
 - `[[amos-knowledge-research-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-knowledge-research-master-workflow]]` — corresponding workflow
-- `[[amos-knowledge-research-master-agent]]` — corresponding agent
+- `amos-knowledge-research-master-agent` — corresponding agent
 

@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   execution_moc:
-    artifact: "[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]"
+    artifact: "04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC"
   law_of_law:
-    artifact: "[[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]"
+    artifact: "01_CANON/01_CORE_LAWS/L0_INTEGRITY"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -87,9 +87,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Execution MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
-- **Law of Law:** [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
-- **DFAI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY]]
+- **Execution MOC:** 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+- **Law of Law:** 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+- **DFAI Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY
 
 ---
 
@@ -100,7 +100,7 @@ RSCF:
   node_id: amos_04_runtime_06_execution_adversarial_validation_runtime
   node_type: runtime_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Adversarial Validation Runtime Specification"
     role: "Automated red-teaming and falsifier synthesis engine for robust proof validation"
@@ -113,7 +113,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]] · [[01_CANON/01_CORE_LAWS/L0_INTEGRITY]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC · 01_CANON/01_CORE_LAWS/L0_INTEGRITY
 
 ---
-**MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
+**MOC:** 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC

@@ -134,7 +134,7 @@ QLS QIC substrate mapping is an AMOS_MODEL. It does not prove QIC units are phys
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -173,7 +173,7 @@ QLS QIC substrate mapping is an AMOS_MODEL. It does not prove QIC units are phys
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-qls-qic-substrate-mapper_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-qls-qic-substrate-mapper-workflow]]` — corresponding workflow
-- `[[amos-qls-qic-substrate-mapper-agent]]` — corresponding agent
+- `amos-qls-qic-substrate-mapper-agent` — corresponding agent
 

@@ -132,7 +132,7 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 
 ## Composition
 
-- **Parent**: `[[amos-canon-universe-master]]` — routes to this skill when canon specialization is needed
+- **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
 - **Peers**: Other skills in the `canon` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-universe-viability-modeler_MOC]]` — skill Map of Content
-- `[[amos-canon-universe-master]]` — parent skill
+- `amos-canon-universe-master` — parent skill
 - `[[amos-universe-viability-modeler-workflow]]` — corresponding workflow
-- `[[amos-universe-viability-modeler-agent]]` — corresponding agent
+- `amos-universe-viability-modeler-agent` — corresponding agent
 

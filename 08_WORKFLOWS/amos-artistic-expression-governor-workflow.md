@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-artistic-expression-governor]]`
-- **Agent**: `[[amos-artistic-expression-governor-agent]]`
+- **Skill**: `amos-artistic-expression-governor`
+- **Agent**: `amos-artistic-expression-governor-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

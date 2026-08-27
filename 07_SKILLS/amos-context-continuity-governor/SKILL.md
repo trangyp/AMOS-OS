@@ -131,7 +131,7 @@ Context continuity governance is an operational construct. It does not prove all
 
 ## Composition
 
-- **Parent**: `[[amos-boundary-scope-master]]` — routes to this skill when boundary specialization is needed
+- **Parent**: `amos-boundary-scope-master` — routes to this skill when boundary specialization is needed
 - **Peers**: Other skills in the `boundary` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ Context continuity governance is an operational construct. It does not prove all
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-context-continuity-governor_MOC]]` — skill Map of Content
-- `[[amos-boundary-scope-master]]` — parent skill
+- `amos-boundary-scope-master` — parent skill
 - `[[amos-context-continuity-governor-workflow]]` — corresponding workflow
-- `[[amos-context-continuity-governor-agent]]` — corresponding agent
+- `amos-context-continuity-governor-agent` — corresponding agent
 

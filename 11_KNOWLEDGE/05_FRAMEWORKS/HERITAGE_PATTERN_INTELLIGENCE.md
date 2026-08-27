@@ -96,7 +96,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_pattern_intelligence
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Pattern Intelligence"
     role: "Cross-era civilizational pattern recognition and structural archetype mapping"

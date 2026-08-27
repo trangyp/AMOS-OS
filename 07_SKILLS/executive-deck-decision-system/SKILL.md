@@ -136,7 +136,7 @@ The executive deck decision system is a communication tool. It does not prove th
 
 ## Composition
 
-- **Parent**: `[[amos-c08-strategy-game-master]]` — routes to this skill when c08 specialization is needed
+- **Parent**: `amos-c08-strategy-game-master` — routes to this skill when c08 specialization is needed
 - **Peers**: Other skills in the `c08` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -175,7 +175,7 @@ The executive deck decision system is a communication tool. It does not prove th
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[executive-deck-decision-system_MOC]]` — skill Map of Content
-- `[[amos-c08-strategy-game-master]]` — parent skill
+- `amos-c08-strategy-game-master` — parent skill
 - `[[executive-deck-decision-system-workflow]]` — corresponding workflow
-- `[[executive-deck-decision-system-agent]]` — corresponding agent
+- `executive-deck-decision-system-agent` — corresponding agent
 

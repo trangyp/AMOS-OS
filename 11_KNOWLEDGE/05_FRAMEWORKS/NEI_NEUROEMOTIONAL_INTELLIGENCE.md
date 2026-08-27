@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_nei_neuroemotional_intelligence
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Neuroemotional Intelligence (NEI)"
     role: "Limbic regulation, autonomic vagal balance, stress resilience, and emotional loop closure"

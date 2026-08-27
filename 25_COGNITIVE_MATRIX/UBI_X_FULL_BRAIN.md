@@ -53,9 +53,9 @@ framework_binding:
   matrix_counterpart:
     artifact: "[[UBI_X_FULL_BRAIN_MATRIX]]"
   knowledge_binding:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING"
   biological_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -103,7 +103,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_ubi_x_full_brain
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI x Full Brain Cognitive Matrix"
     role: "Deep cross-coupling specification between UBI 4 domains and Cosmo Brain OS core"

@@ -131,7 +131,7 @@ Commercial due diligence is an analytical process. It does not prove all risks a
 
 ## Composition
 
-- **Parent**: `[[amos-c08-strategy-game-master]]` — routes to this skill when mckinsey specialization is needed
+- **Parent**: `amos-c08-strategy-game-master` — routes to this skill when mckinsey specialization is needed
 - **Peers**: Other skills in the `mckinsey` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ Commercial due diligence is an analytical process. It does not prove all risks a
 - `references/consulting_engine_for_due_diligence.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[mckinsey-commercial-due-diligence-rscf_MOC]]` — skill Map of Content
-- `[[amos-c08-strategy-game-master]]` — parent skill
+- `amos-c08-strategy-game-master` — parent skill
 - `[[mckinsey-commercial-due-diligence-rscf-workflow]]` — corresponding workflow
-- `[[mckinsey-commercial-due-diligence-rscf-agent]]` — corresponding agent
+- `mckinsey-commercial-due-diligence-rscf-agent` — corresponding agent
 

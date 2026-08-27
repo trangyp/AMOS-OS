@@ -118,7 +118,7 @@ Given an operation touching `SECURITY · README` within the Security plane:
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when security specialization is needed
+- **Parent**: `none` — routes to this skill when security specialization is needed
 - **Peers**: Other skills in the `security` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -184,7 +184,7 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - `references/tech_safe_honest_societies.md` — loaded on demand
 - `references/web_cache_poisoning.md` — loaded on demand
 - `[[amos-security-safety-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-security-safety-master-workflow]]` — corresponding workflow
-- `[[amos-security-safety-master-agent]]` — corresponding agent
+- `amos-security-safety-master-agent` — corresponding agent
 

@@ -51,9 +51,9 @@ rscf:
 
 framework_binding:
   canon_moc:
-    artifact: "[[01_CANON/01_CANON_MOC]]"
+    artifact: "01_CANON/01_CANON_MOC"
   core_laws:
-    artifact: "[[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC]]"
+    artifact: "01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -96,7 +96,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_total_canon_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Total Canon Matrix"
     role: "Master convergence grid connecting 01_CANON laws to runtime enforcement gates"

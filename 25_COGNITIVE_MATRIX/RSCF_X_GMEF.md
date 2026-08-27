@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   rscf_moc:
-    artifact: "[[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]]"
+    artifact: "11_KNOWLEDGE/03_RSCF/03_RSCF_MOC"
   control_plane:
-    artifact: "[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC]]"
+    artifact: "03_CONTROL_PLANE/03_CONTROL_PLANE_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -91,9 +91,9 @@ PROPOSED SYSTEM MUTATION (\mu)      RSCF INVARIANT AUDITOR            COMMIT / R
 
 # 2. Inter-Plane & Vault Connections
 
-- **RSCF Proof MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]]
-- **Control Plane MOC:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC]]
-- **ASEA Evolution:** [[11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI]]
+- **RSCF Proof MOC:** 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+- **Control Plane MOC:** 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+- **ASEA Evolution:** 11_KNOWLEDGE/05_FRAMEWORKS/ASEA_ADAPTIVE_SELF_EVOLUTION_AI
 
 ---
 
@@ -104,7 +104,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_rscf_x_gmef
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "RSCF x GMEF Cognitive Matrix"
     role: "Specification binding GMEF self-evolution mutation gates to RSCF proof capsule verification"
@@ -117,7 +117,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC · 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

@@ -109,7 +109,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_lawful_system_perception_model
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Lawful System Perception Model"
     role: "Perceptual filtering of complex systems through governing invariants and structural debt scanners"

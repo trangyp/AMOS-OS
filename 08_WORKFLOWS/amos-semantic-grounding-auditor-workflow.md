@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-semantic-grounding-auditor]]`
-- **Agent**: `[[amos-semantic-grounding-auditor-agent]]`
+- **Skill**: `amos-semantic-grounding-auditor`
+- **Agent**: `amos-semantic-grounding-auditor-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

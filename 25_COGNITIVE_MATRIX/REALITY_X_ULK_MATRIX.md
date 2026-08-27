@@ -54,9 +54,9 @@ framework_binding:
   matrix_spec:
     artifact: "[[REALITY_X_ULK]]"
   reality_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE"
   ulk_moc:
-    artifact: "[[02_KERNEL/01_ULK/01_ULK_MOC]]"
+    artifact: "02_KERNEL/01_ULK/01_ULK_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -100,7 +100,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_reality_x_ulk_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Reality x ULK Matrix Table"
     role: "Routing table connecting pre-symbolic ontology phases to ULK arithmetic logic units"

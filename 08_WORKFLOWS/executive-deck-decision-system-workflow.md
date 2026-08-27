@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[executive-deck-decision-system]]`
-- **Agent**: `[[executive-deck-decision-system-agent]]`
+- **Skill**: `[[executive-deck-decision-system_MOC]]`
+- **Agent**: `executive-deck-decision-system-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

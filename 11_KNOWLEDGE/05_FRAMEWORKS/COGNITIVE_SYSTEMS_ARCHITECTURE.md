@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_cognitive_systems_architecture
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Cognitive Systems Architecture"
     role: "End-to-end intelligence pipeline from perception to verified action execution"

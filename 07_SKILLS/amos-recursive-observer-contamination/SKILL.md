@@ -128,7 +128,7 @@ Recursive observer contamination is an epistemic construct. It does not prove al
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -167,7 +167,7 @@ Recursive observer contamination is an epistemic construct. It does not prove al
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-recursive-observer-contamination_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-recursive-observer-contamination-workflow]]` — corresponding workflow
-- `[[amos-recursive-observer-contamination-agent]]` — corresponding agent
+- `amos-recursive-observer-contamination-agent` — corresponding agent
 

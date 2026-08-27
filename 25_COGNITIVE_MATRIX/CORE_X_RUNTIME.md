@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 01_CANON/01_CANON_MOC
@@ -53,7 +53,7 @@ framework_binding:
   matrix_counterpart:
     artifact: "[[CORE_X_RUNTIME_MATRIX]]"
   runtime_moc:
-    artifact: "[[04_RUNTIME/04_RUNTIME_MOC]]"
+    artifact: "04_RUNTIME/04_RUNTIME_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -87,8 +87,8 @@ INPUT TELEMETRY INGESTION          DETERMINISTIC REASONING CYCLE      VERIFIED C
 # 2. Inter-Plane & Vault Connections
 
 - **Matrix Table:** [[CORE_X_RUNTIME_MATRIX]]
-- **Runtime Plane MOC:** [[04_RUNTIME/04_RUNTIME_MOC]]
-- **Canon Plane MOC:** [[01_CANON/01_CANON_MOC]]
+- **Runtime Plane MOC:** 04_RUNTIME/04_RUNTIME_MOC
+- **Canon Plane MOC:** 01_CANON/01_CANON_MOC
 
 ---
 
@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_core_x_runtime
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Core x Runtime Cognitive Matrix"
     role: "Specification governing deterministic execution of canonical laws inside the 04_RUNTIME engine"
@@ -112,7 +112,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_RUNTIME_MATRIX]] · [[04_RUNTIME/04_RUNTIME_MOC]] · [[01_CANON/01_CANON_MOC]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_RUNTIME_MATRIX]] · 04_RUNTIME/04_RUNTIME_MOC · 01_CANON/01_CANON_MOC
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

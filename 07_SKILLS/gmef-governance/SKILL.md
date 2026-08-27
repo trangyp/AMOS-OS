@@ -148,7 +148,7 @@ Governance requirement scales with recursion depth and consequence level.
 
 ## Composition
 
-- **Parent**: `[[amos-c08-strategy-game-master]]` — routes to this skill when c08 specialization is needed
+- **Parent**: `amos-c08-strategy-game-master` — routes to this skill when c08 specialization is needed
 - **Peers**: Other skills in the `c08` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -189,7 +189,7 @@ Governance requirement scales with recursion depth and consequence level.
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[gmef-governance_MOC]]` — skill Map of Content
-- `[[amos-c08-strategy-game-master]]` — parent skill
+- `amos-c08-strategy-game-master` — parent skill
 - `[[gmef-governance-workflow]]` — corresponding workflow
-- `[[gmef-governance-agent]]` — corresponding agent
+- `gmef-governance-agent` — corresponding agent
 

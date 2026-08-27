@@ -117,7 +117,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_absolute_structural_integrity
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Absolute Structural Integrity"
     role: "Foundational Law-of-Law, UCIA closure, and failure determinism theorem"

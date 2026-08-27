@@ -137,7 +137,7 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 
 ## Composition
 
-- **Parent**: `[[amos-c04-bio-neuro-master]]` — routes to this skill when c04 specialization is needed
+- **Parent**: `amos-c04-bio-neuro-master` — routes to this skill when c04 specialization is needed
 - **Peers**: Other skills in the `c04` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -176,7 +176,7 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-sensory-map-integrator_MOC]]` — skill Map of Content
-- `[[amos-c04-bio-neuro-master]]` — parent skill
+- `amos-c04-bio-neuro-master` — parent skill
 - `[[amos-sensory-map-integrator-workflow]]` — corresponding workflow
-- `[[amos-sensory-map-integrator-agent]]` — corresponding agent
+- `amos-sensory-map-integrator-agent` — corresponding agent
 

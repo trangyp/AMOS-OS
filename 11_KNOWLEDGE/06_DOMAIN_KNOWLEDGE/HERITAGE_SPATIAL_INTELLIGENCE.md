@@ -104,7 +104,7 @@ RSCF:
   node_id: amos_11_knowledge_06_domain_knowledge_heritage_spatial_intelligence
   node_type: domain_knowledge
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Spatial Intelligence"
     role: "Domain knowledge detailing polycentric topography, hydrological buffering, and terrain resilience"

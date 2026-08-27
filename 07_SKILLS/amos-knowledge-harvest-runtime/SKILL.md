@@ -128,7 +128,7 @@ Knowledge harvest runtime is an operational construct. It does not prove all kno
 
 ## Composition
 
-- **Parent**: `[[amos-knowledge-research-master]]` — routes to this skill when knowledge specialization is needed
+- **Parent**: `amos-knowledge-research-master` — routes to this skill when knowledge specialization is needed
 - **Peers**: Other skills in the `knowledge` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -167,7 +167,7 @@ Knowledge harvest runtime is an operational construct. It does not prove all kno
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-knowledge-harvest-runtime_MOC]]` — skill Map of Content
-- `[[amos-knowledge-research-master]]` — parent skill
+- `amos-knowledge-research-master` — parent skill
 - `[[amos-knowledge-harvest-runtime-workflow]]` — corresponding workflow
-- `[[amos-knowledge-harvest-runtime-agent]]` — corresponding agent
+- `amos-knowledge-harvest-runtime-agent` — corresponding agent
 

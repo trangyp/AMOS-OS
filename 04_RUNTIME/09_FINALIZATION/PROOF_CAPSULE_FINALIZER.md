@@ -1,6 +1,6 @@
 ---
-title: "Proof Capsule Finalizer"
-type: proof
+title: "Proof Capsule Finalizer Specification"
+type: runtime
 source: 04_RUNTIME/09_FINALIZATION
 artifact: "PROOF_CAPSULE_FINALIZER.md"
 artifact_id: "amos_04_runtime_09_finalization_proof_capsule_finalizer"
@@ -9,212 +9,111 @@ steward: "Trang Phan"
 system: "AMOS OS"
 plane: "04_RUNTIME"
 segment: "04_RUNTIME/09_FINALIZATION"
-artifact_kind: "FINALIZER"
+artifact_kind: "FINALIZER_SPEC"
 path: "04_RUNTIME/09_FINALIZATION/PROOF_CAPSULE_FINALIZER.md"
 
-tags: [amos_os, runtime, execution, 04_runtime, finalizer, canon_placeholder, rscf, canon/runtime]
+tags:
+  - amos_os
+  - runtime
+  - vault
+  - 04_runtime
+  - 09_finalization
+  - proof_capsule_finalizer
+  - cryptographic_signing
+  - rscf_header_emission
+  - rscf
+  - canon_candidate
+  - canon/runtime
 
-version: "0.1.0"
+version: "1.0.0"
 updated: "2026-08-27"
 
-status: "PLACEHOLDER"
+status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
+implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
+validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+
+ingestion_action: "NATIVE_CANON_INGESTION"
+raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+
 rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+  state: SOURCE_CLAIM
+  claim_class: AMOS_MODEL
+  provenance:
+    - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
+    - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+    - AMOS_CORPUS
+  scope:
+    - RUNTIME_FINALIZATION
+    - PROOF_CAPSULE_EMISSION
+    - SOURCE_DEFINED_MODEL
+
+framework_binding:
+  finalization_moc:
+    artifact: "04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC"
+  rscf_moc:
+    artifact: "11_KNOWLEDGE/03_RSCF/03_RSCF_MOC"
+
+epistemic_boundary:
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  spec_structure: VERIFIED_SOURCE_STRUCTURE
+  finalization_algorithm: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
+# Proof Capsule Finalizer Specification
 
-# Proof Capsule Finalizer
+`PROOF_CAPSULE_FINALIZER.md` is the canonical Runtime Plane specification governing the compilation, cryptographic hashing, and emission of signed **RSCF Proof Capsules** within `04_RUNTIME/09_FINALIZATION`.
 
-## 0. Status
+---
 
-`PROOF_CAPSULE_FINALIZER.md` is an **ADD-ONLY placeholder** for the **Runtime** plane segment at `04_RUNTIME/09_FINALIZATION`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
+# 1. Capsule Assembly & Signature Pipeline
 
 ```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
+  Local Proof Witnesses + Reasoning Trajectory
+     │
+  1. Aggregates Proof Chain & Resolves Global Confidence Ceiling
+     │
+  2. Synthesizes Canonical YAML RSCF Header
+     │
+  3. Computes Cryptographic SHA-256 State Hash (\mathcal{H})
+     │
+  4. Commits Signed Capsule to Knowledge Plane (11_KNOWLEDGE/03_RSCF)
 ```
 
-Origin architect / steward:
+---
 
-**Trang Phan**
+# 2. Inter-Plane & Vault Connections
+
+- **Finalization MOC:** 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
+- **RSCF Proof MOC:** 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+- **Decision Receipts:** 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
 
 ---
 
-## 1. Purpose
-
-This artifact reserves the **Proof Capsule Finalizer** slot within the Runtime plane. The Runtime plane governs execution substrate binding kernel contracts to runnable operators under v4.4 runtime rules.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
+# 3. RSCF Contract
 
 ```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
+RSCF:
+  node_id: amos_04_runtime_09_finalization_proof_capsule_finalizer
+  node_type: finalizer_spec
+  claim_class: AMOS_MODEL
+  state: SOURCE_CLAIM
+  H:
+    identity: "Proof Capsule Finalizer Specification"
+    role: "Compilation, cryptographic hashing, and emission engine for RSCF proof capsules"
+  M:
+    pipeline: [aggregate_proof_chain, synthesize_rscf_header, compute_sha256_hash, commit_capsule]
+  confidence_ceiling:
+    source_model: SOURCE_BOUND
+    runtime: UNKNOWN
 ```
 
 ---
 
-## 4. Contract discipline
-
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC · 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
 
 ---
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `04_RUNTIME · FINALIZER` within the Runtime plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-00_ROOT_MOC|AMOS MOC
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_04_runtime_09_finalization_proof_capsule_finalizer
-
-node_type: finalizer
-
-path: 04_RUNTIME/09_FINALIZATION/PROOF_CAPSULE_FINALIZER.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[09_FINALIZATION_MOC]]
+**MOC:** 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC

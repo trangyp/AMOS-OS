@@ -100,7 +100,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_khung_trang
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Khung Trang"
     role: "Computable recursive survival dynamics and cascade recovery framework"

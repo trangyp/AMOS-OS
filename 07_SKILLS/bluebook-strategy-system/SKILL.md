@@ -137,7 +137,7 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 
 ## Composition
 
-- **Parent**: `[[amos-c08-strategy-game-master]]` — routes to this skill when c08 specialization is needed
+- **Parent**: `amos-c08-strategy-game-master` — routes to this skill when c08 specialization is needed
 - **Peers**: Other skills in the `c08` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -176,7 +176,7 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[bluebook-strategy-system_MOC]]` — skill Map of Content
-- `[[amos-c08-strategy-game-master]]` — parent skill
+- `amos-c08-strategy-game-master` — parent skill
 - `[[bluebook-strategy-system-workflow]]` — corresponding workflow
-- `[[bluebook-strategy-system-agent]]` — corresponding agent
+- `bluebook-strategy-system-agent` — corresponding agent
 

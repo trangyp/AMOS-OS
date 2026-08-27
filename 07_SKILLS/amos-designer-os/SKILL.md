@@ -138,7 +138,7 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 
 ## Composition
 
-- **Parent**: `[[amos-c10-tech-engineering-master]]` — routes to this skill when c10 specialization is needed
+- **Parent**: `amos-c10-tech-engineering-master` — routes to this skill when c10 specialization is needed
 - **Peers**: Other skills in the `c10` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -177,7 +177,7 @@ Designer OS is a standalone shell architecture. It does not prove all design is 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-designer-os_MOC]]` — skill Map of Content
-- `[[amos-c10-tech-engineering-master]]` — parent skill
+- `amos-c10-tech-engineering-master` — parent skill
 - `[[amos-designer-os-workflow]]` — corresponding workflow
-- `[[amos-designer-os-agent]]` — corresponding agent
+- `amos-designer-os-agent` — corresponding agent
 

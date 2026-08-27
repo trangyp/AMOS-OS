@@ -110,7 +110,7 @@ The loop has 4 transition types:
 
 ## Composition
 
-- **Parent**: `[[amos-knowledge-research-master]]` — routes to this skill when cross-domain (C05 → Memory → Knowledge) specialization is needed
+- **Parent**: `amos-knowledge-research-master` — routes to this skill when cross-domain (C05 → Memory → Knowledge) specialization is needed
 - **Peers**: Other skills in the `cross-domain (C05 → Memory → Knowledge)` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -152,7 +152,7 @@ The loop has 4 transition types:
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-learning-memory-knowledge-feedback-governor_MOC]]` — skill Map of Content
-- `[[amos-knowledge-research-master]]` — parent skill
+- `amos-knowledge-research-master` — parent skill
 - `[[amos-learning-memory-knowledge-feedback-governor-workflow]]` — corresponding workflow
-- `[[amos-learning-memory-knowledge-feedback-governor-agent]]` — corresponding agent
+- `amos-learning-memory-knowledge-feedback-governor-agent` — corresponding agent
 

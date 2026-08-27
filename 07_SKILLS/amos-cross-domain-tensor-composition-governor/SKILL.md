@@ -93,7 +93,7 @@ No existing skill governs this composition operation. Only 3 cross-domain skills
 
 ## Composition
 
-- **Parent**: `[[amos-rscf-epistemic-master]]` — routes to this skill when cross-domain specialization is needed
+- **Parent**: `amos-rscf-epistemic-master` — routes to this skill when cross-domain specialization is needed
 - **Peers**: Other skills in the `cross-domain` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -132,7 +132,7 @@ No existing skill governs this composition operation. Only 3 cross-domain skills
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-cross-domain-tensor-composition-governor_MOC]]` — skill Map of Content
-- `[[amos-rscf-epistemic-master]]` — parent skill
+- `amos-rscf-epistemic-master` — parent skill
 - `[[amos-cross-domain-tensor-composition-governor-workflow]]` — corresponding workflow
-- `[[amos-cross-domain-tensor-composition-governor-agent]]` — corresponding agent
+- `amos-cross-domain-tensor-composition-governor-agent` — corresponding agent
 

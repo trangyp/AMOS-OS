@@ -170,7 +170,7 @@ AMOS Quantum Brain (416.349 performance score)
 
 ## Composition
 
-- **Parent**: `[[amos-memory-systems-master]]` — routes to this skill when memory specialization is needed
+- **Parent**: `amos-memory-systems-master` — routes to this skill when memory specialization is needed
 - **Peers**: Other skills in the `memory` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -209,7 +209,7 @@ AMOS Quantum Brain (416.349 performance score)
 - `references/amos-distinct-working-memory-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-distinct-working-memory-rscf_MOC]]` — skill Map of Content
-- `[[amos-memory-systems-master]]` — parent skill
+- `amos-memory-systems-master` — parent skill
 - `[[amos-distinct-working-memory-rscf-workflow]]` — corresponding workflow
-- `[[amos-distinct-working-memory-rscf-agent]]` — corresponding agent
+- `amos-distinct-working-memory-rscf-agent` — corresponding agent
 

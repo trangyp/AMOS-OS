@@ -132,7 +132,7 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[cosmo-human-problem-architecture_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[cosmo-human-problem-architecture-workflow]]` — corresponding workflow
-- `[[cosmo-human-problem-architecture-agent]]` — corresponding agent
+- `cosmo-human-problem-architecture-agent` — corresponding agent
 

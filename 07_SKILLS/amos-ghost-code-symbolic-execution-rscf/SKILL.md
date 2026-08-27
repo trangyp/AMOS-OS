@@ -134,7 +134,7 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 
 ## Composition
 
-- **Parent**: `[[amos-formal-engines-master]]` — routes to this skill when formal specialization is needed
+- **Parent**: `amos-formal-engines-master` — routes to this skill when formal specialization is needed
 - **Peers**: Other skills in the `formal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -173,7 +173,7 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 - `references/references_MOC.md` — loaded on demand
 - `references/unified_coding_engine_spec.md` — loaded on demand
 - `[[amos-ghost-code-symbolic-execution-rscf_MOC]]` — skill Map of Content
-- `[[amos-formal-engines-master]]` — parent skill
+- `amos-formal-engines-master` — parent skill
 - `[[amos-ghost-code-symbolic-execution-rscf-workflow]]` — corresponding workflow
-- `[[amos-ghost-code-symbolic-execution-rscf-agent]]` — corresponding agent
+- `amos-ghost-code-symbolic-execution-rscf-agent` — corresponding agent
 

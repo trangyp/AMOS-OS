@@ -131,7 +131,7 @@ Time series conformal UQ is a statistical method. It does not prove intervals al
 
 ## Composition
 
-- **Parent**: `[[amos-formal-engines-master]]` — routes to this skill when formal specialization is needed
+- **Parent**: `amos-formal-engines-master` — routes to this skill when formal specialization is needed
 - **Peers**: Other skills in the `formal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ Time series conformal UQ is a statistical method. It does not prove intervals al
 - `references/biostatistics_kernel.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-time-series-conformal-uq-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-formal-engines-master]]` — parent skill
+- `amos-formal-engines-master` — parent skill
 - `[[amos-time-series-conformal-uq-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-time-series-conformal-uq-rscf-engine-agent]]` — corresponding agent
+- `amos-time-series-conformal-uq-rscf-engine-agent` — corresponding agent
 

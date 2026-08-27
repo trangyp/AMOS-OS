@@ -104,7 +104,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_trang_cascade
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang Cascade Dynamics"
     role: "Cascade failure propagation modeling and structural decoupling firewalls"

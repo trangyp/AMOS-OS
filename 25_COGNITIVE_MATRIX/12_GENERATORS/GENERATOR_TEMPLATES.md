@@ -1,21 +1,12 @@
 ---
-title: "GENERATOR TEMPLATES"
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - generators
-  - templates
-  - contracts
-  - provenance
-  - validation
-  - falsification
-  - governance
-  - rscf
+title: GENERATOR TEMPLATES
+type: note
+tags: [note, 12-generators]
+---
+
+---title: "GENERATOR TEMPLATES"
 type: document
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

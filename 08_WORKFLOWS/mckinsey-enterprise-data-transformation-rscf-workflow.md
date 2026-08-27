@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[mckinsey-enterprise-data-transformation-rscf]]`
-- **Agent**: `[[mckinsey-enterprise-data-transformation-rscf-agent]]`
+- **Skill**: `[[mckinsey-enterprise-data-transformation-rscf_MOC]]`
+- **Agent**: `mckinsey-enterprise-data-transformation-rscf-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

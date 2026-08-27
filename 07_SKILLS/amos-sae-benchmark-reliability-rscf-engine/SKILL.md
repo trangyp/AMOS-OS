@@ -160,7 +160,7 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 
 ## Composition
 
-- **Parent**: `[[amos-audit-repair-master]]` — routes to this skill when audit specialization is needed
+- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -199,7 +199,7 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 - `references/asymptotic_transcendence.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-sae-benchmark-reliability-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-audit-repair-master]]` — parent skill
+- `amos-audit-repair-master` — parent skill
 - `[[amos-sae-benchmark-reliability-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-sae-benchmark-reliability-rscf-engine-agent]]` — corresponding agent
+- `amos-sae-benchmark-reliability-rscf-engine-agent` — corresponding agent
 

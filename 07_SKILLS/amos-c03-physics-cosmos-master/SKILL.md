@@ -124,7 +124,7 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c03 specialization is needed
+- **Parent**: `none` — routes to this skill when c03 specialization is needed
 - **Peers**: Other skills in the `c03` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -197,7 +197,7 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - `references/u3h_atemporal_field.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-c03-physics-cosmos-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c03-physics-cosmos-master-workflow]]` — corresponding workflow
-- `[[amos-c03-physics-cosmos-master-agent]]` — corresponding agent
+- `amos-c03-physics-cosmos-master-agent` — corresponding agent
 

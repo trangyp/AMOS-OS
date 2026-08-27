@@ -110,7 +110,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_trang_framework_lineage
   node_type: lineage
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang Framework Lineage"
     role: "Complete ontological transmission mapping from pre-symbolic roots to AMOS OS execution"

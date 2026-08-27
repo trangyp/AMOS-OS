@@ -1,79 +1,12 @@
 ---
-title: "CAS Canon"
-canonical_name: "CAS_CANON"
+title: CAS CANON
+type: note
+tags: [note, 04-infrastructure-canon]
+---
+
+---title: "CAS Canon"
 type: canon
-
-source: "01_CANON/04_INFRASTRUCTURE_CANON"
-artifact: "CAS_CANON.md"
-artifact_id: "amos_01_canon_04_infrastructure_canon_cas_canon"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-system: "AMOS OS"
-amos_core_target: "v4.4"
-
-plane: "01_CANON"
-plane_name: "CANON"
-segment: "01_CANON/04_INFRASTRUCTURE_CANON"
-segment_name: "04_INFRASTRUCTURE_CANON"
-artifact_kind: "CANON_PLACEHOLDER"
-package_role: "RESERVED_INFRASTRUCTURE_CANON_SLOT"
-
-path: "01_CANON/04_INFRASTRUCTURE_CANON/CAS_CANON.md"
-
-tags: [- amos_os, canon/universe]
-  - canon
-  - infrastructure_canon
-  - 01_canon
-  - cas
-  - cas_canon
-  - canon_placeholder
-  - rscf
-  - provenance
-  - lineage
-  - ingestion
-  - governance
-  - validation
-  - unknown_gap
-
-version: "0.2.0"
-updated: "2026-08-27"
-
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-conclusion_class: "UNKNOWN/GAP"
-
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-
-ingestion_action: "ADD_ONLY"
-overwrite_existing: false
-substantive_semantics_present: false
-native_canon_source_resolved: false
-
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
-  regime: AMOS_v4_4_canon
-  confidence_ceiling: DERIVED
-
-integrity:
-  fail_closed_on_unknown: true
-  preserve_existing_file: true
-  preserve_lineage: true
-  preserve_provenance: true
-  preserve_competing: true
-  invent_missing_canon: false
-  external_research_becomes_native_canon: false
-  capability_grants_authority: false
-  proposal_is_commit: false
-  authorization_is_commit: false
-  observation_grants_authority: false
+tags: [note]
 ---
 
 

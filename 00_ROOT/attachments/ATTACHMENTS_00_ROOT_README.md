@@ -1,49 +1,12 @@
 ---
-artifact_id: AMOS-OS-CANON-README
-artifact_type: PLANE_README
-plane_id: 01_CANON
-plane_name: Canon
-path: 01_CANON/CANON_README.md
+title: ATTACHMENTS 00 ROOT README
+type: note
+tags: [note, attachments]
+---
 
-title: CANON README
-status: ACTIVE_MODEL_SPEC
-conclusion_class: MODEL
-claim_class: AMOS_MODEL
-
-amos_core_target: v4.4
-origin_architect: Trang Phan
-steward: Trang Phan
-
-authority_class: NAVIGATIONAL
-normative_authority: false
-executable_binding: PARTIAL
-validation_status: PARTIAL_UNLESS_RECEIPTED
-
-tags: [- amos_os, canon/root]
-  - canon
-  - canon_plane
-  - control_plane
-  - governance
-  - provenance
-  - supersession
-  - epistemic_governance
-  - authoritative_state
-  - core_laws
-  - rscf
-  - gmef
-  - causal_lineage
-  - scope_regime
-  - validation
-  - promotion_gates
-  - infrastructure
-  - cognitive_matrix
+---title: "CANON README"
 type: document
-source: 00_ROOT/attachments
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

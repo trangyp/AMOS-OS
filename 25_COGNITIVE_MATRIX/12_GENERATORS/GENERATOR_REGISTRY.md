@@ -1,21 +1,12 @@
 ---
-title: "GENERATOR REGISTRY"
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - generators
-  - registry
-  - governance
-  - provenance
-  - rscf
-  - capability
-  - versioning
-  - lifecycle
+title: GENERATOR REGISTRY
+type: note
+tags: [note, 12-generators]
+---
+
+---title: "GENERATOR REGISTRY"
 type: document
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

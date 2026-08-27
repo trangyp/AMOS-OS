@@ -96,7 +96,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_design_for_absolute_integrity
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Design for Absolute Integrity™"
     role: "Engineering methodology for robust, provably stable, invariant-grounded systems"

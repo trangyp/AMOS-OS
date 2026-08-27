@@ -53,9 +53,9 @@ framework_binding:
   rscf_moc:
     artifact: "[[03_RSCF_MOC]]"
   canon_moc:
-    artifact: "[[01_CANON/01_CANON_MOC]]"
+    artifact: "01_CANON/01_CANON_MOC"
   claims_registry:
-    artifact: "[[11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY]]"
+    artifact: "11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_11_knowledge_03_rscf_canon_rscf_index
   node_type: index
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Canon RSCF Index"
     role: "Index of RSCF proof capsules across 01_CANON core laws"

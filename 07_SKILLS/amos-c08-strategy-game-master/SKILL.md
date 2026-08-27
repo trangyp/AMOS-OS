@@ -121,7 +121,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c08 specialization is needed
+- **Parent**: `none` — routes to this skill when c08 specialization is needed
 - **Peers**: Other skills in the `c08` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -180,7 +180,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/strategy_game_engine_cognitive.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-c08-strategy-game-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c08-strategy-game-master-workflow]]` — corresponding workflow
-- `[[amos-c08-strategy-game-master-agent]]` — corresponding agent
+- `amos-c08-strategy-game-master-agent` — corresponding agent
 

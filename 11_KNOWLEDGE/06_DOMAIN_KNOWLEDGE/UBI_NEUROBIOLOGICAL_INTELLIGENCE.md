@@ -112,7 +112,7 @@ RSCF:
   node_id: amos_11_knowledge_06_domain_knowledge_ubi_neurobiological_intelligence
   node_type: domain_knowledge
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Neurobiological Intelligence™ (NBI)"
     role: "Cortical processing, perceptual discrimination, and executive decision-making"

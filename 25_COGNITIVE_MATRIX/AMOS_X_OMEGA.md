@@ -3068,8 +3068,7 @@ RSCF:
 
   class: AMOS_MODEL
 
-  state: SOURCE_GROUNDED
-
+  state: SOURCE_CLAIM
   H:
     framework: AMOS_Omega
 

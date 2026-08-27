@@ -108,7 +108,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_to_amos_binding
   node_type: binding
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage-to-AMOS Binding"
     role: "Operational integration of Heritage decision governance into AMOS OS control plane"

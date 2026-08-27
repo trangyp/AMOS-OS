@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
@@ -51,11 +51,11 @@ rscf:
 
 framework_binding:
   boot_moc:
-    artifact: "[[04_RUNTIME/01_BOOT/01_BOOT_MOC]]"
+    artifact: "04_RUNTIME/01_BOOT/01_BOOT_MOC"
   biological_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/AMOS_X_UBI]]"
+    artifact: "25_COGNITIVE_MATRIX/AMOS_X_UBI"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -95,9 +95,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Boot MOC:** [[04_RUNTIME/01_BOOT/01_BOOT_MOC]]
-- **Biological Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/AMOS_X_UBI]]
+- **Boot MOC:** 04_RUNTIME/01_BOOT/01_BOOT_MOC
+- **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/AMOS_X_UBI
 
 ---
 
@@ -108,7 +108,7 @@ RSCF:
   node_id: amos_04_runtime_01_boot_ubi_bootstrap
   node_type: bootstrap_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Bootstrap Specification"
     role: "Calibration and baseline initialization sequence for the UBI 4-domain biological stack"
@@ -121,7 +121,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/01_BOOT/01_BOOT_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/01_BOOT/01_BOOT_MOC · 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
 
 ---
-**MOC:** [[04_RUNTIME/01_BOOT/01_BOOT_MOC]]
+**MOC:** 04_RUNTIME/01_BOOT/01_BOOT_MOC

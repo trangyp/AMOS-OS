@@ -129,7 +129,7 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -168,7 +168,7 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-core19-logic-kernel_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-core19-logic-kernel-workflow]]` — corresponding workflow
-- `[[amos-core19-logic-kernel-agent]]` — corresponding agent
+- `amos-core19-logic-kernel-agent` — corresponding agent
 

@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_irreducible_systems_architecture
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Irreducible Systems Architecture"
     role: "Architectural minimality law guaranteeing non-redundant, essential invariant structures"

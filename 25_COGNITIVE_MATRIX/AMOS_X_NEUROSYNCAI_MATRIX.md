@@ -1,83 +1,12 @@
 ---
-title: "AMOS × NeuroSyncAI Matrix"
-artifact: "AMOS_X_NEUROSYNCAI_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_amos_x_neurosyncai_matrix"
+title: AMOS X NEUROSYNCAI MATRIX
+type: note
+tags: [note, 25-cognitive-matrix]
+---
 
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/AMOS_X_NEUROSYNCAI_MATRIX.md"
-
-tags: [- amos_os, canon/cognitive-matrix]
-  - 25_cognitive_matrix
-  - cognitive_matrix
-  - matrix
-  - neurosyncai
-  - unified_biological_intelligence
-  - ubi
-  - absolute_biological_integrity
-  - deterministic_intelligence
-  - biological_recovery
-  - integrity_enforcement
-  - identity_governance
-  - memory_governance
-  - task_finality
-  - structural_audit
-  - metacognition
-  - reflection
-  - enforcement
-  - provenance
-  - uncertainty
-  - authority
-  - rscf
-  - canon_candidate
-
-version: "1.0.0"
-updated: "2026-08-27"
-
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
-implementation_status: "PARTIAL_SOURCE_DEFINED"
-validation_status: "SOURCE_VALIDATED_NOT_RUNTIME_VERIFIED"
-executable_binding: "NOT_ESTABLISHED"
-
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
-claim_class: "AMOS_MODEL"
-rscf_state: "source_grounded_matrix"
-
-primary_source_family:
-  - "NeuroSyncAI_Dual-System_Architecture_for_Biological_Recovery_and_Integrity_Enforcement.md"
-  - "NeuroSyncAI_as_Certifiable_Intelligence_Infrastructure.md"
-
-supporting_source_family:
-  - "NeuroSyncAI_x_AWS.md"
-  - "NeuroSyncAI_vs_GenAI_The_Future_of_AI_Infrastructure_Is_Deterministic.md"
-  - "Business_Plan_of_NeuroSyncAI_and_the_Institutional_Architecture_for_Unified_Biological_Advancement.md"
-  - "UBI + NeuroSyncAI Integration Framework"
-
-epistemic_boundary:
-  source_architecture: "SOURCE_CLAIM"
-  structural_normalization: "DERIVED"
-  biological_mechanisms: "MODEL_UNLESS_INDEPENDENTLY_VALIDATED"
-  clinical_effectiveness: "NOT_ESTABLISHED"
-  runtime_determinism: "NOT_ESTABLISHED"
-  certification: "NOT_ESTABLISHED"
-  deployment: "NOT_ESTABLISHED"
+---title: "AMOS × NeuroSyncAI Matrix"
 type: document
-source: 25_COGNITIVE_MATRIX
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

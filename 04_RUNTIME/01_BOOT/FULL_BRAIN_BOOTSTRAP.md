@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
@@ -51,11 +51,11 @@ rscf:
 
 framework_binding:
   boot_moc:
-    artifact: "[[04_RUNTIME/01_BOOT/01_BOOT_MOC]]"
+    artifact: "04_RUNTIME/01_BOOT/01_BOOT_MOC"
   full_brain:
-    artifact: "[[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
+    artifact: "11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN]]"
+    artifact: "25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -98,9 +98,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Boot MOC:** [[04_RUNTIME/01_BOOT/01_BOOT_MOC]]
-- **Full Brain OS:** [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN]]
+- **Boot MOC:** 04_RUNTIME/01_BOOT/01_BOOT_MOC
+- **Full Brain OS:** 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN
 
 ---
 
@@ -111,7 +111,7 @@ RSCF:
   node_id: amos_04_runtime_01_boot_full_brain_bootstrap
   node_type: bootstrap_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Full Brain Bootstrap Specification"
     role: "7-stage cold-start initialization sequence for Cosmo Brain OS"
@@ -124,7 +124,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/01_BOOT/01_BOOT_MOC]] · [[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/01_BOOT/01_BOOT_MOC · 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
 
 ---
-**MOC:** [[04_RUNTIME/01_BOOT/01_BOOT_MOC]]
+**MOC:** 04_RUNTIME/01_BOOT/01_BOOT_MOC

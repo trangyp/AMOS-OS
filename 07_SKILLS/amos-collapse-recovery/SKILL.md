@@ -138,7 +138,7 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 
 ## Composition
 
-- **Parent**: `[[amos-trang-framework-master]]` — routes to this skill when trang specialization is needed
+- **Parent**: `amos-trang-framework-master` — routes to this skill when trang specialization is needed
 - **Peers**: Other skills in the `trang` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -177,7 +177,7 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-collapse-recovery_MOC]]` — skill Map of Content
-- `[[amos-trang-framework-master]]` — parent skill
+- `amos-trang-framework-master` — parent skill
 - `[[amos-collapse-recovery-workflow]]` — corresponding workflow
-- `[[amos-collapse-recovery-agent]]` — corresponding agent
+- `amos-collapse-recovery-agent` — corresponding agent
 

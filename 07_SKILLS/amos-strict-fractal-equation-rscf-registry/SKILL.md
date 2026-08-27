@@ -133,7 +133,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Composition
 
-- **Parent**: `[[amos-fractal-systems-master]]` — routes to this skill when fractal specialization is needed
+- **Parent**: `amos-fractal-systems-master` — routes to this skill when fractal specialization is needed
 - **Peers**: Other skills in the `fractal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -172,7 +172,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-strict-fractal-equation-rscf-registry_MOC]]` — skill Map of Content
-- `[[amos-fractal-systems-master]]` — parent skill
+- `amos-fractal-systems-master` — parent skill
 - `[[amos-strict-fractal-equation-rscf-registry-workflow]]` — corresponding workflow
-- `[[amos-strict-fractal-equation-rscf-registry-agent]]` — corresponding agent
+- `amos-strict-fractal-equation-rscf-registry-agent` — corresponding agent
 

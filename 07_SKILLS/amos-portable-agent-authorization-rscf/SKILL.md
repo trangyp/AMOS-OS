@@ -133,7 +133,7 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 
 ## Composition
 
-- **Parent**: `[[amos-agent-systems-master]]` — routes to this skill when agent specialization is needed
+- **Parent**: `amos-agent-systems-master` — routes to this skill when agent specialization is needed
 - **Peers**: Other skills in the `agent` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -172,7 +172,7 @@ Enforcement trust contracts are AMOS_MODEL validated through synthetic fuzz test
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-portable-agent-authorization-rscf_MOC]]` — skill Map of Content
-- `[[amos-agent-systems-master]]` — parent skill
+- `amos-agent-systems-master` — parent skill
 - `[[amos-portable-agent-authorization-rscf-workflow]]` — corresponding workflow
-- `[[amos-portable-agent-authorization-rscf-agent]]` — corresponding agent
+- `amos-portable-agent-authorization-rscf-agent` — corresponding agent
 

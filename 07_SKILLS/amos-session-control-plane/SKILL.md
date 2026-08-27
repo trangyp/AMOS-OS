@@ -131,7 +131,7 @@ Session control plane is a runtime architecture. It does not prove all sessions 
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ Session control plane is a runtime architecture. It does not prove all sessions 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-session-control-plane_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-session-control-plane-workflow]]` — corresponding workflow
-- `[[amos-session-control-plane-agent]]` — corresponding agent
+- `amos-session-control-plane-agent` — corresponding agent
 

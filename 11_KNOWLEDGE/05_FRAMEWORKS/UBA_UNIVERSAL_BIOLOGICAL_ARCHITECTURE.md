@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_uba_universal_biological_architecture
   node_type: specification
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Universal Biological Architecture (UBA) Specification"
     role: "Detailed morphological and tensegrity laws governing living biological systems"

@@ -51,9 +51,9 @@ rscf:
 
 framework_binding:
   control_plane:
-    artifact: "[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC]]"
+    artifact: "03_CONTROL_PLANE/03_CONTROL_PLANE_MOC"
   knowledge_frameworks:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -96,7 +96,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_total_engine_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Total Engine Matrix Table"
     role: "Master convergence grid connecting computational, biological, predictive, and logic engines"

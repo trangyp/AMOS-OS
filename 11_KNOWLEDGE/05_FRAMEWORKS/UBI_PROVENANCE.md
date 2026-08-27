@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_provenance
   node_type: provenance
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Provenance"
     role: "Primary documentation origins and verifiable grounding for Unified Biological Intelligence"

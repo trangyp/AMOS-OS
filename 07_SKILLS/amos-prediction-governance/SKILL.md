@@ -131,7 +131,7 @@ Prediction governance is an epistemic construct. It does not prove predictions a
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -170,7 +170,7 @@ Prediction governance is an epistemic construct. It does not prove predictions a
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-prediction-governance_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-prediction-governance-workflow]]` — corresponding workflow
-- `[[amos-prediction-governance-agent]]` — corresponding agent
+- `amos-prediction-governance-agent` — corresponding agent
 

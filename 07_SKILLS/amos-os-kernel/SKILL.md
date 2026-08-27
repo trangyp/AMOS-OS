@@ -137,7 +137,7 @@ OS Kernel is a runtime architecture. It does not prove all state is typed, that 
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -176,7 +176,7 @@ OS Kernel is a runtime architecture. It does not prove all state is typed, that 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-os-kernel_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-os-kernel-workflow]]` — corresponding workflow
-- `[[amos-os-kernel-agent]]` — corresponding agent
+- `amos-os-kernel-agent` — corresponding agent
 

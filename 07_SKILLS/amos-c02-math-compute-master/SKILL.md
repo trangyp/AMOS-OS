@@ -131,7 +131,7 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c02 specialization is needed
+- **Parent**: `none` — routes to this skill when c02 specialization is needed
 - **Peers**: Other skills in the `c02` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -182,7 +182,7 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 - `references/spectral_method_governance.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-c02-math-compute-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c02-math-compute-master-workflow]]` — corresponding workflow
-- `[[amos-c02-math-compute-master-agent]]` — corresponding agent
+- `amos-c02-math-compute-master-agent` — corresponding agent
 

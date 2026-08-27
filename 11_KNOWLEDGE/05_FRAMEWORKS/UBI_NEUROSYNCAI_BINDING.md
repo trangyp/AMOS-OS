@@ -110,7 +110,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_neurosyncai_binding
   node_type: binding
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI-to-NeurosyncAI Binding"
     role: "Operational telemetry and bio-adaptive pacing bridge from UBI to NeurosyncAI"

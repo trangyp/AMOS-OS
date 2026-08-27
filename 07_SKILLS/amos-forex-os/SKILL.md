@@ -139,7 +139,7 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 
 ## Composition
 
-- **Parent**: `[[amos-c07-econ-finance-master]]` — routes to this skill when fx specialization is needed
+- **Parent**: `amos-c07-econ-finance-master` — routes to this skill when fx specialization is needed
 - **Peers**: Other skills in the `fx` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -178,7 +178,7 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-forex-os_MOC]]` — skill Map of Content
-- `[[amos-c07-econ-finance-master]]` — parent skill
+- `amos-c07-econ-finance-master` — parent skill
 - `[[amos-forex-os-workflow]]` — corresponding workflow
-- `[[amos-forex-os-agent]]` — corresponding agent
+- `amos-forex-os-agent` — corresponding agent
 

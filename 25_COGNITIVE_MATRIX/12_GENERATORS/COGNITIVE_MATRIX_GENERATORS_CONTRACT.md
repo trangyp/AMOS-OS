@@ -1,38 +1,12 @@
 ---
-artifact_id: AMOS-CM-11-VALIDATION-CONTRACT
-title: "Cognitive Matrix Validation Contract"
-path_target: "25_COGNITIVE_MATRIX/11_VALIDATION/COGNITIVE_MATRIX_VALIDATION_CONTRACT.md"
-artifact_class: CONTRACT
-contract_class: COGNITIVE_MATRIX_VALIDATION_CONTRACT
-plane: COGNITIVE_MATRIX
-subsystem: 11_VALIDATION
-origin_architect: Trang Phan
-updated: 2026-08-26
-epistemic_class: AMOS_MODEL
-conclusion_class: CONDITIONAL
-canonical_status: CONDITIONAL
-implementation_status: PARTIAL
-rscf_state: derived
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - validation
-  - validation_contract
-  - contract
-  - rscf
-  - provenance
-  - fail_closed
-  - dependency_closure
-  - causal_firewall
-  - scope_firewall
-  - regime_firewall
-  - promotion
-  - receipts
+title: COGNITIVE MATRIX GENERATORS CONTRACT
+type: note
+tags: [note, 12-generators]
+---
+
+---title: "Cognitive Matrix Validation Contract"
 type: document
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

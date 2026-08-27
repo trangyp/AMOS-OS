@@ -117,7 +117,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when canon specialization is needed
+- **Parent**: `none` — routes to this skill when canon specialization is needed
 - **Peers**: Other skills in the `canon` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -169,7 +169,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/universe_total_canon.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-canon-universe-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-canon-universe-master-workflow]]` — corresponding workflow
-- `[[amos-canon-universe-master-agent]]` — corresponding agent
+- `amos-canon-universe-master-agent` — corresponding agent
 

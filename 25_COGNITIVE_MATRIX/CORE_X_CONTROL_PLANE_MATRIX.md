@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE
@@ -53,7 +53,7 @@ framework_binding:
   matrix_spec:
     artifact: "[[CORE_X_CONTROL_PLANE]]"
   control_plane:
-    artifact: "[[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC]]"
+    artifact: "03_CONTROL_PLANE/03_CONTROL_PLANE_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -82,8 +82,8 @@ epistemic_boundary:
 # 2. Inter-Plane & Vault Connections
 
 - **Matrix Specification:** [[CORE_X_CONTROL_PLANE]]
-- **Control Plane MOC:** [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC]]
-- **Canon Plane MOC:** [[01_CANON/01_CANON_MOC]]
+- **Control Plane MOC:** 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+- **Canon Plane MOC:** 01_CANON/01_CANON_MOC
 
 ---
 
@@ -94,7 +94,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_core_x_control_plane_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Core x Control Plane Matrix Table"
     role: "Routing table connecting canonical authority envelopes to control plane harnesses"
@@ -107,7 +107,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_CONTROL_PLANE]] · [[03_CONTROL_PLANE/03_CONTROL_PLANE_MOC]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_CONTROL_PLANE]] · 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

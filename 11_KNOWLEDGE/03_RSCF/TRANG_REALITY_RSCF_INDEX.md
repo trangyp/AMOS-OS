@@ -101,7 +101,7 @@ RSCF:
   node_id: amos_11_knowledge_03_rscf_trang_reality_rscf_index
   node_type: index
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Trang Reality RSCF Index"
     role: "Index of RSCF proof capsules across Trang Reality Architecture and Trang ∅"

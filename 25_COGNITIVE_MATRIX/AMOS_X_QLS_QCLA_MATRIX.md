@@ -3119,8 +3119,7 @@ RSCF:
     AMOS_MODEL
 
   state:
-    SOURCE_GROUNDED
-
+    SOURCE_CLAIM
   H:
     integration:
       QLS:

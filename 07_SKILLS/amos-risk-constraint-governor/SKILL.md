@@ -138,7 +138,7 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 
 ## Composition
 
-- **Parent**: `[[amos-c09-org-law-policy-master]]` — routes to this skill when c09 specialization is needed
+- **Parent**: `amos-c09-org-law-policy-master` — routes to this skill when c09 specialization is needed
 - **Peers**: Other skills in the `c09` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -177,7 +177,7 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-risk-constraint-governor_MOC]]` — skill Map of Content
-- `[[amos-c09-org-law-policy-master]]` — parent skill
+- `amos-c09-org-law-policy-master` — parent skill
 - `[[amos-risk-constraint-governor-workflow]]` — corresponding workflow
-- `[[amos-risk-constraint-governor-agent]]` — corresponding agent
+- `amos-risk-constraint-governor-agent` — corresponding agent
 

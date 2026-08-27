@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[mckinsey-credit-lending-rscf]]`
-- **Agent**: `[[mckinsey-credit-lending-rscf-agent]]`
+- **Skill**: `[[mckinsey-credit-lending-rscf_MOC]]`
+- **Agent**: `mckinsey-credit-lending-rscf-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

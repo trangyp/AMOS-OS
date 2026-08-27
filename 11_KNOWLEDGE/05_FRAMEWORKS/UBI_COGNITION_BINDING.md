@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_cognition_binding
   node_type: binding
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Cognition Binding"
     role: "Operational mapping between NBI neurobiology and cognitive execution loops"

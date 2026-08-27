@@ -111,7 +111,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_fractal_architecture
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Fractal Architecture & Entropy Correction"
     role: "Scale-invariant biological architecture and thermodynamic entropy regulation"

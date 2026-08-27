@@ -51,7 +51,7 @@ framework_binding:
   total_canon:
     artifact: "[[TOTAL_CANON_MATRIX]]"
   core_laws:
-    artifact: "[[01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC]]"
+    artifact: "01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -93,7 +93,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_total_canon_relation_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Total Canon Relation Matrix Table"
     role: "Pairwise relational dependencies and enforcement cascades across core canon laws"

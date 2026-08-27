@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_si_somatic_intelligence
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Somatic Intelligence (SI)"
     role: "Fascial tensegrity, proprioception, postural alignment, and embodied physical stability"

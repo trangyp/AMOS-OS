@@ -127,7 +127,7 @@ Hard boundary (non-negotiable): every output is ana
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c07 specialization is needed
+- **Parent**: `none` — routes to this skill when c07 specialization is needed
 - **Peers**: Other skills in the `c07` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -198,7 +198,7 @@ Hard boundary (non-negotiable): every output is ana
 - `references/wealth_game_hack_5000.md` — loaded on demand
 - `references/wealth_game_hack_50000.md` — loaded on demand
 - `[[amos-c07-econ-finance-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c07-econ-finance-master-workflow]]` — corresponding workflow
-- `[[amos-c07-econ-finance-master-agent]]` — corresponding agent
+- `amos-c07-econ-finance-master-agent` — corresponding agent
 

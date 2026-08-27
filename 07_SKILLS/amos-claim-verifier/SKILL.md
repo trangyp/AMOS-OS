@@ -132,7 +132,7 @@ Claim verification is an epistemic governance construct. It does not prove claim
 
 ## Composition
 
-- **Parent**: `[[amos-audit-repair-master]]` — routes to this skill when audit specialization is needed
+- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ Claim verification is an epistemic governance construct. It does not prove claim
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-claim-verifier_MOC]]` — skill Map of Content
-- `[[amos-audit-repair-master]]` — parent skill
+- `amos-audit-repair-master` — parent skill
 - `[[amos-claim-verifier-workflow]]` — corresponding workflow
-- `[[amos-claim-verifier-agent]]` — corresponding agent
+- `amos-claim-verifier-agent` — corresponding agent
 

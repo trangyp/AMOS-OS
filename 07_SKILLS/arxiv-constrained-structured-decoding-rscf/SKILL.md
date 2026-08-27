@@ -130,7 +130,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Composition
 
-- **Parent**: `[[amos-knowledge-research-master]]` — routes to this skill when arxiv specialization is needed
+- **Parent**: `amos-knowledge-research-master` — routes to this skill when arxiv specialization is needed
 - **Peers**: Other skills in the `arxiv` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -169,7 +169,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[arxiv-constrained-structured-decoding-rscf_MOC]]` — skill Map of Content
-- `[[amos-knowledge-research-master]]` — parent skill
+- `amos-knowledge-research-master` — parent skill
 - `[[arxiv-constrained-structured-decoding-rscf-workflow]]` — corresponding workflow
-- `[[arxiv-constrained-structured-decoding-rscf-agent]]` — corresponding agent
+- `arxiv-constrained-structured-decoding-rscf-agent` — corresponding agent
 

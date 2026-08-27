@@ -135,7 +135,7 @@ The memory immune system is an operational construct. It does not prove all corr
 
 ## Composition
 
-- **Parent**: `[[amos-memory-systems-master]]` — routes to this skill when memory specialization is needed
+- **Parent**: `amos-memory-systems-master` — routes to this skill when memory specialization is needed
 - **Peers**: Other skills in the `memory` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -174,7 +174,7 @@ The memory immune system is an operational construct. It does not prove all corr
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-memory-immune-system_MOC]]` — skill Map of Content
-- `[[amos-memory-systems-master]]` — parent skill
+- `amos-memory-systems-master` — parent skill
 - `[[amos-memory-immune-system-workflow]]` — corresponding workflow
-- `[[amos-memory-immune-system-agent]]` — corresponding agent
+- `amos-memory-immune-system-agent` — corresponding agent
 

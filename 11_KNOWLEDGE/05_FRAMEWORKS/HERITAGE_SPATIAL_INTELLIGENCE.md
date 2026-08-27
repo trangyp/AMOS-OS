@@ -96,7 +96,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_spatial_intelligence
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Spatial Intelligence"
     role: "Territorial topology, spatial architecture, and geographic resilience modeling"

@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_metacognitive_loop
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Metacognitive Loop"
     role: "Reflective oversight, loop detection, and epistemic calibration for inference engines"

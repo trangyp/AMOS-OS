@@ -130,7 +130,7 @@ Multimodal perception layer is an AMOS_MODEL. It does not prove all perception i
 
 ## Composition
 
-- **Parent**: `[[amos-c05-mind-behavior-master]]` — routes to this skill when c05 specialization is needed
+- **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
 - **Peers**: Other skills in the `c05` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -169,7 +169,7 @@ Multimodal perception layer is an AMOS_MODEL. It does not prove all perception i
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-multimodal-perception-layer_MOC]]` — skill Map of Content
-- `[[amos-c05-mind-behavior-master]]` — parent skill
+- `amos-c05-mind-behavior-master` — parent skill
 - `[[amos-multimodal-perception-layer-workflow]]` — corresponding workflow
-- `[[amos-multimodal-perception-layer-agent]]` — corresponding agent
+- `amos-multimodal-perception-layer-agent` — corresponding agent
 

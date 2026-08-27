@@ -129,7 +129,7 @@ Agency consequence governance is an operational construct. It does not prove the
 
 ## Composition
 
-- **Parent**: `[[amos-agent-systems-master]]` — routes to this skill when agent specialization is needed
+- **Parent**: `amos-agent-systems-master` — routes to this skill when agent specialization is needed
 - **Peers**: Other skills in the `agent` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -168,7 +168,7 @@ Agency consequence governance is an operational construct. It does not prove the
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-agency-consequence-governor_MOC]]` — skill Map of Content
-- `[[amos-agent-systems-master]]` — parent skill
+- `amos-agent-systems-master` — parent skill
 - `[[amos-agency-consequence-governor-workflow]]` — corresponding workflow
-- `[[amos-agency-consequence-governor-agent]]` — corresponding agent
+- `amos-agency-consequence-governor-agent` — corresponding agent
 

@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 02_KERNEL/01_ULK
@@ -51,9 +51,9 @@ rscf:
 
 framework_binding:
   ulk_moc:
-    artifact: "[[02_KERNEL/01_ULK/01_ULK_MOC]]"
+    artifact: "02_KERNEL/01_ULK/01_ULK_MOC"
   rscf_moc:
-    artifact: "[[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]]"
+    artifact: "11_KNOWLEDGE/03_RSCF/03_RSCF_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -86,8 +86,8 @@ ULK LOGIC COMPUTATION              PROPOSITIONAL GROUNDING            RSCF CAPSU
 
 # 2. Inter-Plane & Vault Connections
 
-- **ULK Kernel MOC:** [[02_KERNEL/01_ULK/01_ULK_MOC]]
-- **RSCF MOC:** [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]]
+- **ULK Kernel MOC:** 02_KERNEL/01_ULK/01_ULK_MOC
+- **RSCF MOC:** 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
 - **Reality x ULK:** [[REALITY_X_ULK]]
 
 ---
@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_ulk_x_rscf
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "ULK x RSCF Cognitive Matrix"
     role: "Specification defining the mechanical compilation of ULK logic states into RSCF proof capsules"
@@ -112,7 +112,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[02_KERNEL/01_ULK/01_ULK_MOC]] · [[11_KNOWLEDGE/03_RSCF/03_RSCF_MOC]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · 02_KERNEL/01_ULK/01_ULK_MOC · 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

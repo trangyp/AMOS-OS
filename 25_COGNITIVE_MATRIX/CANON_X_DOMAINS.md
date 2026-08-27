@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 01_CANON/01_CANON_MOC
@@ -51,9 +51,9 @@ rscf:
 
 framework_binding:
   canon_moc:
-    artifact: "[[01_CANON/01_CANON_MOC]]"
+    artifact: "01_CANON/01_CANON_MOC"
   domain_knowledge_moc:
-    artifact: "[[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC]]"
+    artifact: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -86,8 +86,8 @@ L0 INTEGRITY x MATH   L1 REALITY x BIOLOGY  L2 COGNITION x HISTORY L3 GOVERNANCE
 
 # 2. Inter-Plane & Vault Connections
 
-- **Canon Plane MOC:** [[01_CANON/01_CANON_MOC]]
-- **Domain Knowledge MOC:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC]]
+- **Canon Plane MOC:** 01_CANON/01_CANON_MOC
+- **Domain Knowledge MOC:** 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC
 - **Cognitive Matrix MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_canon_x_domains
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Canon x Domains Cognitive Matrix"
     role: "Specification enforcing 01_CANON core laws across specialized domain knowledge areas"
@@ -112,7 +112,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[01_CANON/01_CANON_MOC]] · [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · 01_CANON/01_CANON_MOC · 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/06_DOMAIN_KNOWLEDGE_MOC
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

@@ -168,8 +168,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-c02-math-compute-master]]`
-- **Agent**: `[[amos-c02-math-compute-agent]]`
+- **Skill**: `amos-c02-math-compute-master`
+- **Agent**: `amos-c02-math-compute-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

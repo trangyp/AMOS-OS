@@ -132,7 +132,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_tss_the_trang_system
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "The Trang System™ (TSS)"
     role: "Foundational structural systems dynamics and lifecycle model"

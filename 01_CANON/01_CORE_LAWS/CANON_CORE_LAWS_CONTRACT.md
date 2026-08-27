@@ -1,33 +1,12 @@
 ---
-title: "AMOS OS CORE LAWS Contract"
-artifact: "CORE_LAWS_CONTRACT.md"
-artifact_id: "AMOS_CORE_LAWS_CONTRACT_000"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-domain: "CANON / CORE LAWS / ROOT GOVERNANCE"
-artifact_class: "CORE_LAWS_CONTRACT"
-version: "1.0.0"
-updated: "2026-08-26"
+title: CANON CORE LAWS CONTRACT
+type: note
+tags: [note, 01-core-laws]
+---
 
-tags: [- canon, canon/universe]
-  - core_laws
-  - index
-  - contract
-
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "MODEL"
-
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "UNKNOWN/GAP"
-validation_status: "UNKNOWN/GAP"
+---title: "AMOS OS CORE LAWS Contract"
 type: document
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

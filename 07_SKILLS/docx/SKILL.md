@@ -137,7 +137,7 @@ This utility skill is an operational tool. It does not prove content correctness
 
 ## Composition
 
-- **Parent**: `[[amos-c10-tech-engineering-master]]` — routes to this skill when c10 specialization is needed
+- **Parent**: `amos-c10-tech-engineering-master` — routes to this skill when c10 specialization is needed
 - **Peers**: Other skills in the `c10` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -176,7 +176,7 @@ This utility skill is an operational tool. It does not prove content correctness
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[docx_MOC]]` — skill Map of Content
-- `[[amos-c10-tech-engineering-master]]` — parent skill
+- `amos-c10-tech-engineering-master` — parent skill
 - `[[docx-workflow]]` — corresponding workflow
-- `[[docx-agent]]` — corresponding agent
+- `docx-agent` — corresponding agent
 

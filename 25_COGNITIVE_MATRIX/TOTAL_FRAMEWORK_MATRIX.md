@@ -51,9 +51,9 @@ rscf:
 
 framework_binding:
   frameworks_moc:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC"
   grand_system:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -97,7 +97,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_total_framework_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Total Framework Matrix"
     role: "Master convergence matrix uniting all 05_FRAMEWORKS into operational AMOS OS tiers"

@@ -135,7 +135,7 @@ Frontend engineering QA is an engineering process. It does not prove the UI is p
 
 ## Composition
 
-- **Parent**: `[[amos-c10-tech-engineering-master]]` — routes to this skill when c10 specialization is needed
+- **Parent**: `amos-c10-tech-engineering-master` — routes to this skill when c10 specialization is needed
 - **Peers**: Other skills in the `c10` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -174,7 +174,7 @@ Frontend engineering QA is an engineering process. It does not prove the UI is p
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[frontend-engineering-qa_MOC]]` — skill Map of Content
-- `[[amos-c10-tech-engineering-master]]` — parent skill
+- `amos-c10-tech-engineering-master` — parent skill
 - `[[frontend-engineering-qa-workflow]]` — corresponding workflow
-- `[[frontend-engineering-qa-agent]]` — corresponding agent
+- `frontend-engineering-qa-agent` — corresponding agent
 

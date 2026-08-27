@@ -135,7 +135,7 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 
 ## Composition
 
-- **Parent**: `[[amos-audit-repair-master]]` — routes to this skill when audit specialization is needed
+- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -174,7 +174,7 @@ Semantic grounding auditing is an epistemic construct. It does not prove all gro
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-semantic-grounding-auditor_MOC]]` — skill Map of Content
-- `[[amos-audit-repair-master]]` — parent skill
+- `amos-audit-repair-master` — parent skill
 - `[[amos-semantic-grounding-auditor-workflow]]` — corresponding workflow
-- `[[amos-semantic-grounding-auditor-agent]]` — corresponding agent
+- `amos-semantic-grounding-auditor-agent` — corresponding agent
 

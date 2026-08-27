@@ -104,7 +104,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_directed_systemal_intelligence
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Directed Systemal Intelligence"
     role: "Purposeful teleological navigation and multi-scale goal alignment for autonomous systems"

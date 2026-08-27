@@ -1,43 +1,12 @@
 ---
-title: "AMOS Core Laws — L3 Dependency Laws"
-artifact: "L3_DEPENDENCY.md"
-artifact_id: "AMOS_CORE_LAWS_L3_DEPENDENCY"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-layer: "01_CANON"
-domain: "01_CORE_LAWS"
-law_family: "L3_DEPENDENCY"
-path: "01_CANON/01_CORE_LAWS/L3_DEPENDENCY.md"
+title: L3 DEPENDENCY
+type: note
+tags: [note, 01-core-laws]
+---
 
-tags: [- canon, canon/universe]
-  - core_laws
-  - dependency
-  - dependency_graph
-  - dependency_closure
-  - load_bearing
-  - invalidation
-  - propagation
-  - ordering
-  - prerequisites
-  - rscf
-  - hml
-
-version: "1.0.0"
-updated: "2026-08-26"
-
-status: "PROPOSED_SOURCE_ALIGNED_SPECIFICATION"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "PARTIAL_SOURCE_ALIGNMENT"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "PARTIAL_SOURCE_SUPPORT"
+---title: "AMOS Core Laws — L3 Dependency Laws"
 type: document
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

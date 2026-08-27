@@ -110,7 +110,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_emotion_binding
   node_type: binding
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Emotion Binding"
     role: "Operational bridge connecting NEI affective signaling to decision-making governors"

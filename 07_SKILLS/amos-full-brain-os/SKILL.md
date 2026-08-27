@@ -139,7 +139,7 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 
 ## Composition
 
-- **Parent**: `[[amos-super-engines-master]]` — routes to this skill when super specialization is needed
+- **Parent**: `amos-super-engines-master` — routes to this skill when super specialization is needed
 - **Peers**: Other skills in the `super` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -178,7 +178,7 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-full-brain-os_MOC]]` — skill Map of Content
-- `[[amos-super-engines-master]]` — parent skill
+- `amos-super-engines-master` — parent skill
 - `[[amos-full-brain-os-workflow]]` — corresponding workflow
-- `[[amos-full-brain-os-agent]]` — corresponding agent
+- `amos-full-brain-os-agent` — corresponding agent
 

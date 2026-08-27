@@ -126,7 +126,7 @@ Given an operation touching `AGENTS README` within the Agents plane:
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when agent specialization is needed
+- **Parent**: `none` — routes to this skill when agent specialization is needed
 - **Peers**: Other skills in the `agent` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -173,7 +173,7 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - `references/os_agent_model.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-agent-systems-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-agent-systems-master-workflow]]` — corresponding workflow
-- `[[amos-agent-systems-master-agent]]` — corresponding agent
+- `amos-agent-systems-master-agent` — corresponding agent
 

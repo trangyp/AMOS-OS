@@ -122,7 +122,7 @@ Cognitive compression is an operational construct. It does not prove compression
 
 ## Composition
 
-- **Parent**: `[[amos-c05-mind-behavior-master]]` — routes to this skill when c05 specialization is needed
+- **Parent**: `amos-c05-mind-behavior-master` — routes to this skill when c05 specialization is needed
 - **Peers**: Other skills in the `c05` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -161,7 +161,7 @@ Cognitive compression is an operational construct. It does not prove compression
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-cognitive-compression-kernel_MOC]]` — skill Map of Content
-- `[[amos-c05-mind-behavior-master]]` — parent skill
+- `amos-c05-mind-behavior-master` — parent skill
 - `[[amos-cognitive-compression-kernel-workflow]]` — corresponding workflow
-- `[[amos-cognitive-compression-kernel-agent]]` — corresponding agent
+- `amos-cognitive-compression-kernel-agent` — corresponding agent
 

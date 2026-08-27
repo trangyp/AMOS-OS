@@ -143,7 +143,7 @@ fully COVERED.
 
 ## Composition
 
-- **Parent**: `[[amos-c08-strategy-game-master]]` — routes to this skill when mckinsey specialization is needed
+- **Parent**: `amos-c08-strategy-game-master` — routes to this skill when mckinsey specialization is needed
 - **Peers**: Other skills in the `mckinsey` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -182,7 +182,7 @@ fully COVERED.
 - `references/money_regimes_for_wealth.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[mckinsey-wealth-management-rscf_MOC]]` — skill Map of Content
-- `[[amos-c08-strategy-game-master]]` — parent skill
+- `amos-c08-strategy-game-master` — parent skill
 - `[[mckinsey-wealth-management-rscf-workflow]]` — corresponding workflow
-- `[[mckinsey-wealth-management-rscf-agent]]` — corresponding agent
+- `mckinsey-wealth-management-rscf-agent` — corresponding agent
 

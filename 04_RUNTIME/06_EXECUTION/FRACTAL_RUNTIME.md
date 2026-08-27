@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
@@ -53,11 +53,11 @@ rscf:
 
 framework_binding:
   execution_moc:
-    artifact: "[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]"
+    artifact: "04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC"
   frai_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI"
   lacunarity_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -84,10 +84,10 @@ $$\Lambda = \frac{\langle M^2 \rangle}{\langle M \rangle^2}$$
 
 # 2. Inter-Plane & Vault Connections
 
-- **Execution MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
-- **FRAI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]
-- **Lacunarity Master:** [[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY]]
-- **Heritage Fractals:** [[11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_FRACTAL_MATHEMATICS]]
+- **Execution MOC:** 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+- **FRAI Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
+- **Lacunarity Master:** 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY
+- **Heritage Fractals:** 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_FRACTAL_MATHEMATICS
 
 ---
 
@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_04_runtime_06_execution_fractal_runtime
   node_type: runtime_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Fractal Runtime Specification"
     role: "Multi-scale recursive decomposition and lacunarity-gated reasoning engine"
@@ -111,7 +111,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC · 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
 
 ---
-**MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
+**MOC:** 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC

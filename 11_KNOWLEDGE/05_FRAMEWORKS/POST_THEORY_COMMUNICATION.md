@@ -106,7 +106,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_post_theory_communication
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Post-Theory Communication"
     role: "High-fidelity, loop-closing communication protocol eliminating rhetorical noise and ambiguity"

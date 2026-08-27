@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_music_acoustic_intelligence
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Music/Acoustic Intelligence"
     role: "Harmonic resonance, acoustic geometry, and bioelectromagnetic entrainment"

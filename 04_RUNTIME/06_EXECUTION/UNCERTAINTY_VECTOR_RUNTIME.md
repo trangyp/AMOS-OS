@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
@@ -52,9 +52,9 @@ rscf:
 
 framework_binding:
   execution_moc:
-    artifact: "[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]"
+    artifact: "04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC"
   claims_moc:
-    artifact: "[[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC]]"
+    artifact: "11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -82,9 +82,9 @@ $$\vec{U} = \langle u_{\text{epistemic}}, u_{\text{aleatoric}}, u_{\text{model}}
 
 # 2. Inter-Plane & Vault Connections
 
-- **Execution MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
-- **Claims MOC:** [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC]]
-- **Confidence Matrix:** [[25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE]]
+- **Execution MOC:** 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+- **Claims MOC:** 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
+- **Confidence Matrix:** 25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE
 
 ---
 
@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_04_runtime_06_execution_uncertainty_vector_runtime
   node_type: runtime_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Uncertainty Vector Runtime Specification"
     role: "Multi-dimensional uncertainty decomposition and confidence propagation engine"
@@ -108,7 +108,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]] · [[11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC · 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
 
 ---
-**MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
+**MOC:** 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC

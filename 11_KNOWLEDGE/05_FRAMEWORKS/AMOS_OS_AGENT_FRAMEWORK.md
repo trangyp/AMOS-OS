@@ -98,7 +98,7 @@ STRICT JSON SCHEMA BINDING         AUTHORITY SEPARATION              WORKFLOW RE
 - **Agent Contract:** [[AGENTS]]
 - **Agent Schema:** `11_KNOWLEDGE/AGENT_SCHEMA` and `11_KNOWLEDGE/AGENT_TEMPLATES`
 - **Onboarding Guide:** `11_KNOWLEDGE/AGENT_ONBOARDING_GUIDE`
-- **Agent Registry:** [[.devin/agents/amos-agent-registry-index]]
+- **Agent Registry:** .devin/agents/amos-agent-registry-index
 
 ---
 
@@ -109,7 +109,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_amos_os_agent_framework
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "AMOS OS Agent Framework"
     role: "Multi-agent structural schema, capability boundaries, and execution protocols"

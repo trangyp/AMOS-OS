@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-morphogenesis-mapper]]`
-- **Agent**: `[[amos-morphogenesis-mapper-agent]]`
+- **Skill**: `amos-morphogenesis-mapper`
+- **Agent**: `amos-morphogenesis-mapper-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

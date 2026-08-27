@@ -134,7 +134,7 @@ Absolute primitive decomposition is an analytical method. It does not prove the 
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -173,7 +173,7 @@ Absolute primitive decomposition is an analytical method. It does not prove the 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-absolute-primitive-decomposer_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-absolute-primitive-decomposer-workflow]]` — corresponding workflow
-- `[[amos-absolute-primitive-decomposer-agent]]` — corresponding agent
+- `amos-absolute-primitive-decomposer-agent` — corresponding agent
 

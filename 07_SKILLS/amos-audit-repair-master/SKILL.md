@@ -120,7 +120,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when audit specialization is needed
+- **Parent**: `none` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -174,7 +174,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - `references/system_fixes_complete.md` — loaded on demand
 - `references/system_fixes_progress.md` — loaded on demand
 - `[[amos-audit-repair-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-audit-repair-master-workflow]]` — corresponding workflow
-- `[[amos-audit-repair-master-agent]]` — corresponding agent
+- `amos-audit-repair-master-agent` — corresponding agent
 

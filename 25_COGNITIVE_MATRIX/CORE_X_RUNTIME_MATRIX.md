@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 25_COGNITIVE_MATRIX/CORE_X_RUNTIME
@@ -53,7 +53,7 @@ framework_binding:
   matrix_spec:
     artifact: "[[CORE_X_RUNTIME]]"
   runtime_moc:
-    artifact: "[[04_RUNTIME/04_RUNTIME_MOC]]"
+    artifact: "04_RUNTIME/04_RUNTIME_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -82,8 +82,8 @@ epistemic_boundary:
 # 2. Inter-Plane & Vault Connections
 
 - **Matrix Specification:** [[CORE_X_RUNTIME]]
-- **Runtime Plane MOC:** [[04_RUNTIME/04_RUNTIME_MOC]]
-- **Canon Plane MOC:** [[01_CANON/01_CANON_MOC]]
+- **Runtime Plane MOC:** 04_RUNTIME/04_RUNTIME_MOC
+- **Canon Plane MOC:** 01_CANON/01_CANON_MOC
 
 ---
 
@@ -94,7 +94,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_core_x_runtime_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Core x Runtime Matrix Table"
     role: "Routing table mapping core canonical laws to 04_RUNTIME execution pipeline stages"
@@ -107,7 +107,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_RUNTIME]] · [[04_RUNTIME/04_RUNTIME_MOC]]
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_RUNTIME]] · 04_RUNTIME/04_RUNTIME_MOC
 
 ---
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]

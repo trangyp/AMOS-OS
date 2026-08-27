@@ -53,7 +53,7 @@ framework_binding:
   matrix_spec:
     artifact: "[[UBI_X_NEUROSYNCAI]]"
   neurosyncai_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_ubi_x_neurosyncai_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI x NeurosyncAI Matrix Table"
     role: "Routing table connecting biological telemetry states to UI cadence and token pacing"

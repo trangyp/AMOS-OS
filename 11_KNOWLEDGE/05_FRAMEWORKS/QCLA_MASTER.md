@@ -127,7 +127,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_qcla_master
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Quantum Causality Layer Architecture™ (QCLA)"
     role: "Four-mode structural causal validation and propagation architecture"

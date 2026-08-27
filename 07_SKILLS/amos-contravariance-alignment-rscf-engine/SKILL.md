@@ -207,7 +207,7 @@ A hard failure is not c
 
 ## Composition
 
-- **Parent**: `[[amos-rscf-epistemic-master]]` — routes to this skill when rscf specialization is needed
+- **Parent**: `amos-rscf-epistemic-master` — routes to this skill when rscf specialization is needed
 - **Peers**: Other skills in the `rscf` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -246,7 +246,7 @@ A hard failure is not c
 - `references/equations_docs.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-contravariance-alignment-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-rscf-epistemic-master]]` — parent skill
+- `amos-rscf-epistemic-master` — parent skill
 - `[[amos-contravariance-alignment-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-contravariance-alignment-rscf-engine-agent]]` — corresponding agent
+- `amos-contravariance-alignment-rscf-engine-agent` — corresponding agent
 

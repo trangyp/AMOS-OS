@@ -53,7 +53,7 @@ framework_binding:
   rscf_moc:
     artifact: "[[03_RSCF_MOC]]"
   brain_os:
-    artifact: "[[11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
+    artifact: "11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -97,7 +97,7 @@ RSCF:
   node_id: amos_11_knowledge_03_rscf_amos_rscf_index
   node_type: index
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "AMOS RSCF Index"
     role: "Index of RSCF proof capsules across core AMOS OS architecture"

@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
@@ -51,11 +51,11 @@ rscf:
 
 framework_binding:
   router_moc:
-    artifact: "[[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]"
+    artifact: "04_RUNTIME/02_ROUTER/02_ROUTER_MOC"
   frameworks_moc:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX]]"
+    artifact: "25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -87,9 +87,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Router MOC:** [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]
-- **Frameworks MOC:** [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX]]
+- **Router MOC:** 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+- **Frameworks MOC:** 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX
 
 ---
 
@@ -100,7 +100,7 @@ RSCF:
   node_id: amos_04_runtime_02_router_framework_router
   node_type: router_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Framework Router Specification"
     role: "Dynamic task decomposition and routing across 05_FRAMEWORKS systems"
@@ -113,7 +113,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/02_ROUTER/02_ROUTER_MOC · 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
 
 ---
-**MOC:** [[04_RUNTIME/02_ROUTER/02_ROUTER_MOC]]
+**MOC:** 04_RUNTIME/02_ROUTER/02_ROUTER_MOC

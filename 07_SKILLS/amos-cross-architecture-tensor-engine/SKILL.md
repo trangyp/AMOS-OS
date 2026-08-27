@@ -133,7 +133,7 @@ Cross-architecture tensor engine is an AMOS_MODEL. It does not prove all archite
 
 ## Composition
 
-- **Parent**: `[[amos-formal-engines-master]]` — routes to this skill when formal specialization is needed
+- **Parent**: `amos-formal-engines-master` — routes to this skill when formal specialization is needed
 - **Peers**: Other skills in the `formal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -172,7 +172,7 @@ Cross-architecture tensor engine is an AMOS_MODEL. It does not prove all archite
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-cross-architecture-tensor-engine_MOC]]` — skill Map of Content
-- `[[amos-formal-engines-master]]` — parent skill
+- `amos-formal-engines-master` — parent skill
 - `[[amos-cross-architecture-tensor-engine-workflow]]` — corresponding workflow
-- `[[amos-cross-architecture-tensor-engine-agent]]` — corresponding agent
+- `amos-cross-architecture-tensor-engine-agent` — corresponding agent
 

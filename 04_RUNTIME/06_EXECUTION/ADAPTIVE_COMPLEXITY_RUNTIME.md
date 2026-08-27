@@ -39,7 +39,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
@@ -52,11 +52,11 @@ rscf:
 
 framework_binding:
   execution_moc:
-    artifact: "[[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]"
+    artifact: "04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC"
   frai_framework:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX]]"
+    artifact: "25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -91,9 +91,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Execution MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
-- **FRAI Framework:** [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX]]
+- **Execution MOC:** 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+- **FRAI Framework:** 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX
 
 ---
 
@@ -104,7 +104,7 @@ RSCF:
   node_id: amos_04_runtime_06_execution_adaptive_complexity_runtime
   node_type: runtime_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Adaptive Complexity Runtime Specification"
     role: "Deep System 2 dynamic complexity and multi-branch proof synthesis engine"
@@ -117,7 +117,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]] · [[11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC · 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
 
 ---
-**MOC:** [[04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC]]
+**MOC:** 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC

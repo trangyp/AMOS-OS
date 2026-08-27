@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[arxiv-pac-bayes-piml-generalization-rscf]]`
-- **Agent**: `[[arxiv-pac-bayes-piml-generalization-rscf-agent]]`
+- **Skill**: `[[arxiv-pac-bayes-piml-generalization-rscf_MOC]]`
+- **Agent**: `arxiv-pac-bayes-piml-generalization-rscf-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

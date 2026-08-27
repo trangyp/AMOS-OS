@@ -53,7 +53,7 @@ framework_binding:
   matrix_spec:
     artifact: "[[UBI_X_COGNITION]]"
   mind_os:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -95,7 +95,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_ubi_x_cognition_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI x Cognition Matrix Table"
     role: "Routing table connecting biological alignment state to reasoning depth and search policy"

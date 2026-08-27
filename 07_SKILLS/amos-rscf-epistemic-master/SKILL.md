@@ -121,7 +121,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when rscf specialization is needed
+- **Parent**: `none` — routes to this skill when rscf specialization is needed
 - **Peers**: Other skills in the `rscf` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -169,7 +169,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - `references/rscf_state_architecture.md` — loaded on demand
 - `references/validate_rscf.md` — loaded on demand
 - `[[amos-rscf-epistemic-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-rscf-epistemic-master-workflow]]` — corresponding workflow
-- `[[amos-rscf-epistemic-master-agent]]` — corresponding agent
+- `amos-rscf-epistemic-master-agent` — corresponding agent
 

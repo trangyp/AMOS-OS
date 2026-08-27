@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_homeostasis
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Homeostasis"
     role: "Cross-domain biological equilibrium, autonomic regulation, and fatigue recovery"

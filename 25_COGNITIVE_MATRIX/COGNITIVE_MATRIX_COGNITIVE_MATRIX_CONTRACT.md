@@ -1,25 +1,12 @@
 ---
-title: "COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT"
-canon-group: governance
-rscf-state: derived
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - generators
-  - index
-  - contract
-  - governance
-  - provenance
-  - validation
-  - admission
-  - promotion
-  - supersession
-  - rscf
+title: COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT
+type: note
+tags: [note, 25-cognitive-matrix]
+---
+
+---title: "COGNITIVE MATRIX COGNITIVE MATRIX CONTRACT"
 type: document
-source: 25_COGNITIVE_MATRIX
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

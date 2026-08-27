@@ -54,9 +54,9 @@ framework_binding:
   matrix_counterpart:
     artifact: "[[UBI_X_NEUROSYNCAI_MATRIX]]"
   knowledge_binding:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING"
   neurosyncai_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -104,7 +104,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_ubi_x_neurosyncai
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI x NeurosyncAI Cognitive Matrix"
     role: "Cross-coupling specification between UBI biological state and NeurosyncAI adaptive pacing"

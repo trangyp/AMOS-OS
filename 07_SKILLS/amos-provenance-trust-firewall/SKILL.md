@@ -129,7 +129,7 @@ Provenance trust firewall is a security construct. It does not prove all autopoi
 
 ## Composition
 
-- **Parent**: `[[amos-security-safety-master]]` — routes to this skill when security specialization is needed
+- **Parent**: `amos-security-safety-master` — routes to this skill when security specialization is needed
 - **Peers**: Other skills in the `security` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -168,7 +168,7 @@ Provenance trust firewall is a security construct. It does not prove all autopoi
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-provenance-trust-firewall_MOC]]` — skill Map of Content
-- `[[amos-security-safety-master]]` — parent skill
+- `amos-security-safety-master` — parent skill
 - `[[amos-provenance-trust-firewall-workflow]]` — corresponding workflow
-- `[[amos-provenance-trust-firewall-agent]]` — corresponding agent
+- `amos-provenance-trust-firewall-agent` — corresponding agent
 

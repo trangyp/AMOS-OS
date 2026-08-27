@@ -54,7 +54,7 @@ framework_binding:
   rscf_moc:
     artifact: "[[03_RSCF_MOC]]"
   universe_canon:
-    artifact: "[[01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC]]"
+    artifact: "01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_11_knowledge_03_rscf_universe_rscf_index
   node_type: index
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Universe RSCF Index"
     role: "Index of RSCF proof capsules across Universe Total Canon and 7-Part Universe strata"

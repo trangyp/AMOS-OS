@@ -151,7 +151,7 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 
 ## Composition
 
-- **Parent**: `[[amos-rscf-epistemic-master]]` — routes to this skill when rscf specialization is needed
+- **Parent**: `amos-rscf-epistemic-master` — routes to this skill when rscf specialization is needed
 - **Peers**: Other skills in the `rscf` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -190,7 +190,7 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 - `references/aibom_subsystems.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-aibom-lifecycle-assurance-rscf_MOC]]` — skill Map of Content
-- `[[amos-rscf-epistemic-master]]` — parent skill
+- `amos-rscf-epistemic-master` — parent skill
 - `[[amos-aibom-lifecycle-assurance-rscf-workflow]]` — corresponding workflow
-- `[[amos-aibom-lifecycle-assurance-rscf-agent]]` — corresponding agent
+- `amos-aibom-lifecycle-assurance-rscf-agent` — corresponding agent
 

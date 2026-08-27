@@ -106,7 +106,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_amos_organism_os_framework
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "AMOS Organism OS Framework"
     role: "Living operating system architecture modeled as a self-sustaining cognitive organism"

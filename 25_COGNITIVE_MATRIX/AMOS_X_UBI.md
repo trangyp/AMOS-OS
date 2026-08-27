@@ -82,8 +82,7 @@ raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
 
-  state: SOURCE_GROUNDED
-
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
 
   provenance:
@@ -1555,8 +1554,7 @@ RSCF:
     AMOS_MODEL
 
   state:
-    SOURCE_GROUNDED
-
+    SOURCE_CLAIM
   H:
 
     identity:
@@ -2664,7 +2662,7 @@ Indexed through:
 Paired biological framework:
 
 ```text
-[[UNIFIED_BIOLOGICAL_FRAMEWORK_UBF]]
+UNIFIED_BIOLOGICAL_FRAMEWORK_UBF
 ```
 
 subject to exact canonical node-name reconciliation.

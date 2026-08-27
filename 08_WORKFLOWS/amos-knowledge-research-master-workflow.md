@@ -168,8 +168,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-knowledge-research-master]]`
-- **Agent**: `[[amos-knowledge-research-agent]]`
+- **Skill**: `amos-knowledge-research-master`
+- **Agent**: `amos-knowledge-research-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

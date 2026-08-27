@@ -111,7 +111,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_to_trang_zero_binding
   node_type: binding
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage-to-TRANG Zero Binding"
     role: "Operational anchoring of decision loops into the invariant null state"

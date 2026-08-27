@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_tss_meta_laws
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "TSS Meta Laws"
     role: "Fundamental structural meta laws governing systems stability, complexity, and debt"

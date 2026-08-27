@@ -118,7 +118,7 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when memory specialization is needed
+- **Parent**: `none` — routes to this skill when memory specialization is needed
 - **Peers**: Other skills in the `memory` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -163,7 +163,7 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 - `references/new_memory.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-memory-systems-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-memory-systems-master-workflow]]` — corresponding workflow
-- `[[amos-memory-systems-master-agent]]` — corresponding agent
+- `amos-memory-systems-master-agent` — corresponding agent
 

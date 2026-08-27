@@ -108,7 +108,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_unified_biological_intelligence
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Unified Biological Intelligence™ (UBI)"
     role: "Biological architecture of intelligence across 4 living domains"

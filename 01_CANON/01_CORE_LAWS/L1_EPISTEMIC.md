@@ -1,41 +1,12 @@
 ---
-title: "AMOS Core Laws — L1 Epistemic Laws"
-artifact: "L1_EPISTEMIC.md"
-artifact_id: "AMOS_CORE_LAWS_L1_EPISTEMIC"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-layer: "01_CANON"
-domain: "01_CORE_LAWS"
-law_family: "L1_EPISTEMIC"
-path: "01_CANON/01_CORE_LAWS/L1_EPISTEMIC.md"
+title: L1 EPISTEMIC
+type: note
+tags: [note, 01-core-laws]
+---
 
-tags: [- canon, canon/universe]
-  - core_laws
-  - epistemic
-  - knowledge
-  - evidence
-  - uncertainty
-  - provenance
-  - confidence
-  - falsification
-  - rscf
-
-version: "1.0.0"
-updated: "2026-08-26"
-
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+---title: "AMOS Core Laws — L1 Epistemic Laws"
 type: document
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

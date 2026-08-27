@@ -132,7 +132,7 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 
 ## Composition
 
-- **Parent**: `[[amos-os-runtime-master]]` — routes to this skill when runtime specialization is needed
+- **Parent**: `amos-os-runtime-master` — routes to this skill when runtime specialization is needed
 - **Peers**: Other skills in the `runtime` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-qls-substrate_MOC]]` — skill Map of Content
-- `[[amos-os-runtime-master]]` — parent skill
+- `amos-os-runtime-master` — parent skill
 - `[[amos-qls-substrate-workflow]]` — corresponding workflow
-- `[[amos-qls-substrate-agent]]` — corresponding agent
+- `amos-qls-substrate-agent` — corresponding agent
 

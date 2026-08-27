@@ -107,7 +107,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_bio_logical_architecture
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Bio-Logical Architecture"
     role: "Synthesis of formal structural logic and biological morphogenesis for self-healing systems"

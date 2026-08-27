@@ -1,38 +1,12 @@
 ---
-title: "AMOS Core Laws — L0 Integrity Laws"
-artifact: "L0_INTEGRITY.md"
-artifact_id: "AMOS_CORE_LAWS_L0_INTEGRITY"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-layer: "01_CANON"
-domain: "01_CORE_LAWS"
-law_family: "L0_INTEGRITY"
-path: "01_CANON/01_CORE_LAWS/L0_INTEGRITY.md"
+title: L0 INTEGRITY
+type: note
+tags: [note, 01-core-laws]
+---
 
-tags: [- canon, canon/universe]
-  - core_laws
-  - integrity
-  - invariants
-  - provenance
-  - governance
-  - rscf
-
-version: "1.0.0"
-updated: "2026-08-26"
-
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
+---title: "AMOS Core Laws — L0 Integrity Laws"
 type: document
-source: 01_CANON/01_CORE_LAWS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

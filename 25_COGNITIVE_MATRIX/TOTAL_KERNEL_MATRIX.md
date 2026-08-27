@@ -50,9 +50,9 @@ rscf:
 
 framework_binding:
   kernel_moc:
-    artifact: "[[02_KERNEL/02_KERNEL_MOC]]"
+    artifact: "02_KERNEL/02_KERNEL_MOC"
   ulk:
-    artifact: "[[02_KERNEL/01_ULK/01_ULK_MOC]]"
+    artifact: "02_KERNEL/01_ULK/01_ULK_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -94,7 +94,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_total_kernel_matrix
   node_type: matrix_table
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Total Kernel Matrix Table"
     role: "Master convergence grid mapping 02_KERNEL sub-planes to AMOS OS execution layers"

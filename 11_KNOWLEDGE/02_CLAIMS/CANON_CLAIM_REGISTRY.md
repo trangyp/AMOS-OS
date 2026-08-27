@@ -100,7 +100,7 @@ RSCF:
   node_id: amos_11_knowledge_02_claims_canon_claim_registry
   node_type: registry
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Canon Claim Registry"
     role: "Central registration and epistemic classification for 01_CANON plane assertions"

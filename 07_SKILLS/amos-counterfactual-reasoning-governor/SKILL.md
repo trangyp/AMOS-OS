@@ -124,7 +124,7 @@ From Cosmo Brain Counterfactual Reasoning Kernel v0: What-if analysis, alternati
 
 ## Composition
 
-- **Parent**: `[[amos-causal-reasoning-master]]` — routes to this skill when causal specialization is needed
+- **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
 - **Peers**: Other skills in the `causal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -163,7 +163,7 @@ From Cosmo Brain Counterfactual Reasoning Kernel v0: What-if analysis, alternati
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-counterfactual-reasoning-governor_MOC]]` — skill Map of Content
-- `[[amos-causal-reasoning-master]]` — parent skill
+- `amos-causal-reasoning-master` — parent skill
 - `[[amos-counterfactual-reasoning-governor-workflow]]` — corresponding workflow
-- `[[amos-counterfactual-reasoning-governor-agent]]` — corresponding agent
+- `amos-counterfactual-reasoning-governor-agent` — corresponding agent
 

@@ -193,7 +193,7 @@ Prevention
 
 ## Composition
 
-- **Parent**: `[[amos-knowledge-research-master]]` — routes to this skill when arxiv specialization is needed
+- **Parent**: `amos-knowledge-research-master` — routes to this skill when arxiv specialization is needed
 - **Peers**: Other skills in the `arxiv` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -232,7 +232,7 @@ Prevention
 - `references/memory_optimization_for_kv_cache.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[arxiv-kv-cache-quantization-rscf_MOC]]` — skill Map of Content
-- `[[amos-knowledge-research-master]]` — parent skill
+- `amos-knowledge-research-master` — parent skill
 - `[[arxiv-kv-cache-quantization-rscf-workflow]]` — corresponding workflow
-- `[[arxiv-kv-cache-quantization-rscf-agent]]` — corresponding agent
+- `arxiv-kv-cache-quantization-rscf-agent` — corresponding agent
 

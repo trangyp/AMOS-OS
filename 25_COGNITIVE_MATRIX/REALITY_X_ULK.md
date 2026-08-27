@@ -53,9 +53,9 @@ framework_binding:
   matrix_counterpart:
     artifact: "[[REALITY_X_ULK_MATRIX]]"
   reality_master:
-    artifact: "[[11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE]]"
+    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE"
   ulk_kernel:
-    artifact: "[[02_KERNEL/01_ULK/01_ULK_MOC]]"
+    artifact: "02_KERNEL/01_ULK/01_ULK_MOC"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -103,7 +103,7 @@ RSCF:
   node_id: amos_25_cognitive_matrix_reality_x_ulk
   node_type: matrix_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Reality x ULK Cognitive Matrix"
     role: "Cross-coupling specification between pre-symbolic reality spine and Universal Logic Kernel ALUs"

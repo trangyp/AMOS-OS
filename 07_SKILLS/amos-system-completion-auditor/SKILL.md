@@ -132,7 +132,7 @@ System completion audit is a quality construct. It does not prove the system is 
 
 ## Composition
 
-- **Parent**: `[[amos-audit-repair-master]]` — routes to this skill when audit specialization is needed
+- **Parent**: `amos-audit-repair-master` — routes to this skill when audit specialization is needed
 - **Peers**: Other skills in the `audit` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ System completion audit is a quality construct. It does not prove the system is 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-system-completion-auditor_MOC]]` — skill Map of Content
-- `[[amos-audit-repair-master]]` — parent skill
+- `amos-audit-repair-master` — parent skill
 - `[[amos-system-completion-auditor-workflow]]` — corresponding workflow
-- `[[amos-system-completion-auditor-agent]]` — corresponding agent
+- `amos-system-completion-auditor-agent` — corresponding agent
 

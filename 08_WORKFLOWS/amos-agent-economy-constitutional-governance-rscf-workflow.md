@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-agent-economy-constitutional-governance-rscf]]`
-- **Agent**: `[[amos-agent-economy-constitutional-governance-rscf-agent]]`
+- **Skill**: `amos-agent-economy-constitutional-governance-rscf`
+- **Agent**: `amos-agent-economy-constitutional-governance-rscf-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

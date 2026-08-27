@@ -150,7 +150,7 @@ Expanded test coverage in 3 existing test files:
 
 ## Composition
 
-- **Parent**: `[[amos-security-safety-master]]` — routes to this skill when security specialization is needed
+- **Parent**: `amos-security-safety-master` — routes to this skill when security specialization is needed
 - **Peers**: Other skills in the `security` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -189,7 +189,7 @@ Expanded test coverage in 3 existing test files:
 - `references/execution_provenance_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-execution-provenance-replay-rscf_MOC]]` — skill Map of Content
-- `[[amos-security-safety-master]]` — parent skill
+- `amos-security-safety-master` — parent skill
 - `[[amos-execution-provenance-replay-rscf-workflow]]` — corresponding workflow
-- `[[amos-execution-provenance-replay-rscf-agent]]` — corresponding agent
+- `amos-execution-provenance-replay-rscf-agent` — corresponding agent
 

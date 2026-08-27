@@ -104,7 +104,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_phuong_phap_trang
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Phương Pháp Trang"
     role: "Closed-loop cognitive restructuring, precise semantic labeling, and autonomic flow induction"

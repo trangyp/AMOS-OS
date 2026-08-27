@@ -110,7 +110,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_fractal_mathematics
   node_type: mathematics
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Fractal Mathematics"
     role: "Scale-invariant geometric and mathematical foundations across 12 fractal classes"

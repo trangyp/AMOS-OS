@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[amos-fx-bayesian-neural-sde-calibration-rscf-engine]]`
-- **Agent**: `[[amos-fx-bayesian-neural-sde-calibration-rscf-engine-agent]]`
+- **Skill**: `amos-fx-bayesian-neural-sde-calibration-rscf-engine`
+- **Agent**: `amos-fx-bayesian-neural-sde-calibration-rscf-engine-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

@@ -170,7 +170,7 @@ Status:
 
 ## Composition
 
-- **Parent**: `[[amos-security-safety-master]]` — routes to this skill when security specialization is needed
+- **Parent**: `amos-security-safety-master` — routes to this skill when security specialization is needed
 - **Peers**: Other skills in the `security` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -209,7 +209,7 @@ Status:
 - `references/references_MOC.md` — loaded on demand
 - `references/sybil_hardening_spec.md` — loaded on demand
 - `[[amos-provenance-sybil-hardening-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-security-safety-master]]` — parent skill
+- `amos-security-safety-master` — parent skill
 - `[[amos-provenance-sybil-hardening-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-provenance-sybil-hardening-rscf-engine-agent]]` — corresponding agent
+- `amos-provenance-sybil-hardening-rscf-engine-agent` — corresponding agent
 

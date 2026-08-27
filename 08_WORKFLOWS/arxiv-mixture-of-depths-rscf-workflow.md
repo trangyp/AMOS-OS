@@ -143,8 +143,8 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[arxiv-mixture-of-depths-rscf]]`
-- **Agent**: `[[arxiv-mixture-of-depths-rscf-agent]]`
+- **Skill**: `[[arxiv-mixture-of-depths-rscf_MOC]]`
+- **Agent**: `arxiv-mixture-of-depths-rscf-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval
 - **Parallel execution**: Supported when independent capabilities are invoked

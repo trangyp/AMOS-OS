@@ -118,7 +118,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c09 specialization is needed
+- **Parent**: `none` — routes to this skill when c09 specialization is needed
 - **Peers**: Other skills in the `c09` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -203,7 +203,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/vn_shareholder_board_report.md` — loaded on demand
 - `references/vn_technical_legal_terms.md` — loaded on demand
 - `[[amos-c09-org-law-policy-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c09-org-law-policy-master-workflow]]` — corresponding workflow
-- `[[amos-c09-org-law-policy-master-agent]]` — corresponding agent
+- `amos-c09-org-law-policy-master-agent` — corresponding agent
 

@@ -38,7 +38,7 @@ ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
     - 01_CANON/01_CANON_MOC
@@ -51,11 +51,11 @@ rscf:
 
 framework_binding:
   boot_moc:
-    artifact: "[[04_RUNTIME/01_BOOT/01_BOOT_MOC]]"
+    artifact: "04_RUNTIME/01_BOOT/01_BOOT_MOC"
   canon_moc:
-    artifact: "[[01_CANON/01_CANON_MOC]]"
+    artifact: "01_CANON/01_CANON_MOC"
   matrix_binding:
-    artifact: "[[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX]]"
+    artifact: "25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX"
 
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
@@ -92,9 +92,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Boot MOC:** [[04_RUNTIME/01_BOOT/01_BOOT_MOC]]
-- **Canon Plane MOC:** [[01_CANON/01_CANON_MOC]]
-- **Cognitive Matrix:** [[25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX]]
+- **Boot MOC:** 04_RUNTIME/01_BOOT/01_BOOT_MOC
+- **Canon Plane MOC:** 01_CANON/01_CANON_MOC
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX
 
 ---
 
@@ -105,7 +105,7 @@ RSCF:
   node_id: amos_04_runtime_01_boot_canon_bootstrap
   node_type: bootstrap_spec
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Canon Bootstrap Specification"
     role: "Arming and initialization sequence for 01_CANON core laws"
@@ -118,7 +118,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · [[04_RUNTIME/01_BOOT/01_BOOT_MOC]] · [[01_CANON/01_CANON_MOC]]
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/01_BOOT/01_BOOT_MOC · 01_CANON/01_CANON_MOC
 
 ---
-**MOC:** [[04_RUNTIME/01_BOOT/01_BOOT_MOC]]
+**MOC:** 04_RUNTIME/01_BOOT/01_BOOT_MOC

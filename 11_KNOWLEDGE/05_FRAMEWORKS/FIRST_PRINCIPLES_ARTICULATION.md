@@ -110,7 +110,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_first_principles_articulation
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "First Principles Articulation (FPR)"
     role: "Systematic deconstruction of complex domains down to irreducible physical and logical invariants"

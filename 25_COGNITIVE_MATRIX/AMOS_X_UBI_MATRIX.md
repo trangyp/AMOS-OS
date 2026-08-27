@@ -82,8 +82,7 @@ raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 
 rscf:
 
-  state: SOURCE_GROUNDED
-
+  state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
 
   provenance:
@@ -1513,8 +1512,7 @@ RSCF:
     AMOS_MODEL
 
   state:
-    SOURCE_GROUNDED
-
+    SOURCE_CLAIM
   H:
 
     identity:
@@ -3136,8 +3134,7 @@ RSCF:
     AMOS_MODEL
 
   state:
-    SOURCE_GROUNDED
-
+    SOURCE_CLAIM
   canonical_status:
     SOURCE_GROUNDED_CANON_CANDIDATE
 

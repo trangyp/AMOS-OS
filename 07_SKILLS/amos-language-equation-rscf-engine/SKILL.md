@@ -136,7 +136,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 ## Composition
 
-- **Parent**: `[[amos-c06-society-culture-master]]` — routes to this skill when c06 specialization is needed
+- **Parent**: `amos-c06-society-culture-master` — routes to this skill when c06 specialization is needed
 - **Peers**: Other skills in the `c06` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -175,7 +175,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-language-equation-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-c06-society-culture-master]]` — parent skill
+- `amos-c06-society-culture-master` — parent skill
 - `[[amos-language-equation-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-language-equation-rscf-engine-agent]]` — corresponding agent
+- `amos-language-equation-rscf-engine-agent` — corresponding agent
 

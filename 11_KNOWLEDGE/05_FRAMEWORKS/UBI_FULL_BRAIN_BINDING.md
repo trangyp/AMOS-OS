@@ -106,7 +106,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_ubi_full_brain_binding
   node_type: binding
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Full Brain Binding"
     role: "Integration of UBI biological constraints and fatigue gates into the Cosmo Brain stack"

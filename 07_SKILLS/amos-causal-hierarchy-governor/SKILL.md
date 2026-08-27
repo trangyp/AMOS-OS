@@ -133,7 +133,7 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 
 ## Composition
 
-- **Parent**: `[[amos-causal-reasoning-master]]` — routes to this skill when causal specialization is needed
+- **Parent**: `amos-causal-reasoning-master` — routes to this skill when causal specialization is needed
 - **Peers**: Other skills in the `causal` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -172,7 +172,7 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-causal-hierarchy-governor_MOC]]` — skill Map of Content
-- `[[amos-causal-reasoning-master]]` — parent skill
+- `amos-causal-reasoning-master` — parent skill
 - `[[amos-causal-hierarchy-governor-workflow]]` — corresponding workflow
-- `[[amos-causal-hierarchy-governor-agent]]` — corresponding agent
+- `amos-causal-hierarchy-governor-agent` — corresponding agent
 

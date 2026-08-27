@@ -102,7 +102,7 @@ RSCF:
   node_id: amos_11_knowledge_02_claims_ubi_claim_registry
   node_type: registry
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "UBI Claim Registry"
     role: "Central catalog of formal assertions regarding Unified Biological Intelligence and non-compensatory law"

@@ -119,7 +119,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_to_tss_binding
   node_type: binding
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage-to-TSS Binding"
     role: "Operational coupling of decision intelligence to structural lifecycle cycles"

@@ -97,7 +97,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_absolute_biological_integrity_framework
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Absolute Biological Integrity Framework"
     role: "Hard computational firewalls preventing biological substrate depletion and AI coercion"

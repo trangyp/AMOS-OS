@@ -130,7 +130,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_tss_seven_cycles
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "TSS Seven Cycles"
     role: "Detailed structural breakdown of the 7 stages of systems lifecycle evolution"

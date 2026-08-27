@@ -98,7 +98,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_fpr_first_principle_reasoning
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "FPR — First Principle Reasoning"
     role: "Operationalized first-principle proof synthesis and computational substrate rooting"

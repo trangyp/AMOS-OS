@@ -132,7 +132,7 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 
 ## Composition
 
-- **Parent**: `[[amos-canon-universe-master]]` — routes to this skill when canon specialization is needed
+- **Parent**: `amos-canon-universe-master` — routes to this skill when canon specialization is needed
 - **Peers**: Other skills in the `canon` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -171,7 +171,7 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 - `references/bluememory_water_scarcity_os.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-organism-os_MOC]]` — skill Map of Content
-- `[[amos-canon-universe-master]]` — parent skill
+- `amos-canon-universe-master` — parent skill
 - `[[amos-organism-os-workflow]]` — corresponding workflow
-- `[[amos-organism-os-agent]]` — corresponding agent
+- `amos-organism-os-agent` — corresponding agent
 

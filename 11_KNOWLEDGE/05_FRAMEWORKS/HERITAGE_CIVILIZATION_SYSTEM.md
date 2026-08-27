@@ -105,7 +105,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_heritage_civilization_system
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "Heritage Civilization System"
     role: "Civilizational lifecycle dynamics, institutional memory retention, and post-collapse recovery"

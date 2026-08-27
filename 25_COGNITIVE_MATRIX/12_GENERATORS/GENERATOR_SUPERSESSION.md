@@ -1,22 +1,12 @@
 ---
-title: "GENERATOR SUPERSESSION"
-tags: [- cognitive_matrix, canon/cognitive-matrix]
-  - generators
-  - supersession
-  - versioning
-  - lineage
-  - provenance
-  - governance
-  - compatibility
-  - rollback
-  - rscf
+title: GENERATOR SUPERSESSION
+type: note
+tags: [note, 12-generators]
+---
+
+---title: "GENERATOR SUPERSESSION"
 type: document
-source: 25_COGNITIVE_MATRIX/12_GENERATORS
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+tags: [note]
 ---
 
 

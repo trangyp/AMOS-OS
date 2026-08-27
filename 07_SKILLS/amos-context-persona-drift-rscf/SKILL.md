@@ -142,7 +142,7 @@ From C05 Mind & Behavior: Persona drift detection and boundary identity governan
 
 ## Composition
 
-- **Parent**: `[[amos-boundary-scope-master]]` — routes to this skill when boundary specialization is needed
+- **Parent**: `amos-boundary-scope-master` — routes to this skill when boundary specialization is needed
 - **Peers**: Other skills in the `boundary` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -181,7 +181,7 @@ From C05 Mind & Behavior: Persona drift detection and boundary identity governan
 - `references/nervous_system_state_drift.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-context-persona-drift-rscf_MOC]]` — skill Map of Content
-- `[[amos-boundary-scope-master]]` — parent skill
+- `amos-boundary-scope-master` — parent skill
 - `[[amos-context-persona-drift-rscf-workflow]]` — corresponding workflow
-- `[[amos-context-persona-drift-rscf-agent]]` — corresponding agent
+- `amos-context-persona-drift-rscf-agent` — corresponding agent
 

@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_neurosyncai_recovery_engine
   node_type: engine
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "NeurosyncAI Recovery Engine"
     role: "Active restorative protocols for cognitive fatigue mitigation and autonomic flow restoration"

@@ -99,7 +99,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_amos_ubi_super_engine
   node_type: engine
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "AMOS UBI Super Engine"
     role: "Computational calculation of real-time biological alignment, bottlenecks, and effectiveness"

@@ -144,7 +144,7 @@ AMOS has 36 agents organized into 7 canonical systems. This
 
 ## Composition
 
-- **Parent**: `[[amos-memory-systems-master]]` — routes to this skill when memory specialization is needed
+- **Parent**: `amos-memory-systems-master` — routes to this skill when memory specialization is needed
 - **Peers**: Other skills in the `memory` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -183,7 +183,7 @@ AMOS has 36 agents organized into 7 canonical systems. This
 - `references/amos-agent-memory-dynamics-rscf-engine_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `[[amos-agent-memory-dynamics-rscf-engine_MOC]]` — skill Map of Content
-- `[[amos-memory-systems-master]]` — parent skill
+- `amos-memory-systems-master` — parent skill
 - `[[amos-agent-memory-dynamics-rscf-engine-workflow]]` — corresponding workflow
-- `[[amos-agent-memory-dynamics-rscf-engine-agent]]` — corresponding agent
+- `amos-agent-memory-dynamics-rscf-engine-agent` — corresponding agent
 

@@ -132,7 +132,7 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c04 specialization is needed
+- **Parent**: `none` — routes to this skill when c04 specialization is needed
 - **Peers**: Other skills in the `c04` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -203,7 +203,7 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 - `references/unified_biological_governance.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-c04-bio-neuro-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
+- `none` — parent skill
 - `[[amos-c04-bio-neuro-master-workflow]]` — corresponding workflow
-- `[[amos-c04-bio-neuro-master-agent]]` — corresponding agent
+- `amos-c04-bio-neuro-master-agent` — corresponding agent
 

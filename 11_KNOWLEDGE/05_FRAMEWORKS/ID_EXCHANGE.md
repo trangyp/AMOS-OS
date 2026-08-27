@@ -100,7 +100,7 @@ RSCF:
   node_id: amos_11_knowledge_05_frameworks_id_exchange
   node_type: framework
   claim_class: AMOS_MODEL
-  state: SOURCE_GROUNDED
+  state: SOURCE_CLAIM
   H:
     identity: "ID Exchange"
     role: "Zero-knowledge sovereign biological identity and dynamic credential delegation"
