@@ -251,10 +251,74 @@ jobs:
           print('No BOM characters found.')
           "
 
+  regression-test:
+    name: Regression Tests
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run deterministic regression tests
+        run: |
+          python3 scripts/skill_regression_harness.py --skills-dir 07_SKILLS 2>&1 | tee regression.log
+          # Fail if any tests failed
+          if grep -q "Failed:       [1-9]" regression.log; then
+            echo "::error::Regression test failures detected"
+            exit 1
+          fi
+
+      - name: Run trigger evaluation
+        run: python3 scripts/skill_regression_harness.py --skills-dir 07_SKILLS --trigger-eval --summary 2>&1 | tee triggers.log
+
+      - name: Upload regression report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: regression-report
+          path: |
+            regression.log
+            triggers.log
+          retention-days: 30
+
+  binding-check:
+    name: Binding Integrity
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run 1:1:1 binding check
+        run: |
+          python3 scripts/skill_binding_checker.py --skills-dir 07_SKILLS 2>&1 | tee binding.log
+          # Fail if binding rate < 100%
+          if grep -q "Fully bound.*[0-9][0-9]%" binding.log && ! grep -q "100.0%" binding.log; then
+            echo "::error::Binding rate below 100%"
+            exit 1
+          fi
+
+      - name: Run composition graph analysis
+        run: python3 scripts/skill_composition_graph.py --skills-dir 07_SKILLS --summary 2>&1 | tee composition.log
+
   summary:
     name: Audit Summary
     runs-on: ubuntu-latest
-    needs: [validate, security, integrity, dependency-graph, token-budget, eval-harness, version-check, bom-check]
+    needs: [validate, security, integrity, dependency-graph, token-budget, eval-harness, version-check, bom-check, regression-test, binding-check]
     if: always()
     timeout-minutes: 5
     permissions:
@@ -275,3 +339,5 @@ jobs:
           echo "| Eval Harness | ${{ needs.eval-harness.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Version | ${{ needs.version-check.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| BOM Check | ${{ needs.bom-check.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Regression | ${{ needs.regression-test.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Binding | ${{ needs.binding-check.result }} |" >> $GITHUB_STEP_SUMMARY

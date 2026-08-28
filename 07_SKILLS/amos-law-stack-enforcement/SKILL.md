@@ -56,7 +56,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - When validating whether a system's rules hold across scale transitions
 - When checking if a proposed law adheres to the Law of Law™/Rule of 2™/Rule of 4™ hierarchy
 - When a draft law short-circuits the canonical order: LoL→R2→R4 (contradictory drafts fail gate)
-- When reasoning-shape ≠ authorization (integrity stack owns UBI Score/ledger, not output filter)
+- When reasoning-shape ≠ authorization (integrity stack owns UBI Score/ledger, not output filter)## Capabilities
+
+- **canon_audit**: Audit structural completeness across the 7-Part Universe Canon
+- **canon_validate**: Validate system against canon invariants
+- **canon_map**: Map system elements to canon parts
+
+
 ## Source
 Vault-generated from law stack enforcement research (2026-08-25)
 

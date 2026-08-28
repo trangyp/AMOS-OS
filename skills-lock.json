@@ -1,12 +1,12 @@
 {
   "$schema": "https://amos.ai/schemas/skills-lock.json",
-  "generated_at": "2026-08-28T09:31:23Z",
+  "generated_at": "2026-08-28T09:38:08Z",
   "skills": {
     "amos-7-part-universe-canon": {
       "file_count": 11,
       "file_hashes": {
         "MANIFEST.yaml": "b73a274f4b315cf574d63eb335b6f9c28d946c28eac5007b26b7f877e5e3cdcf",
-        "SKILL.md": "e542955f3ea14b7efbb8845fcb1ab0421574a240631c41e76c863073fcad3dcc",
+        "SKILL.md": "d5ab12156e4cdd8eeb2d92ca2505ea81c726381a82c3b5074ee583265a495ae7",
         "amos-7-part-universe-canon_MOC.md": "f33e842c9b0f1be9d0f08bafdd1b7c203ebc9c26f1180c91e533a6a362898354",
         "references.md": "573eb571435e6b9a0d358dd74df81ff8c6498d6d98b3ad83b5700fa9a16200da",
         "references/README.md": "fe0632deb5d4323d2de89a620a2b514c907852159ce8710b3684f5a347568420",
@@ -19,10 +19,10 @@
       },
       "name": "amos-7-part-universe-canon",
       "schema_version": "1.0",
-      "skill_digest": "sha256-lny4POb44pewZbK6pBZMGMfEeB5SYBeGmBGK8xkdKZc",
-      "skill_md_hash": "e542955f3ea14b7efbb8845fcb1ab0421574a240631c41e76c863073fcad3dcc",
+      "skill_digest": "sha256-FNCWpovuphinE99cZbE_spaVo2qfWDDel3hIMJ3orhc",
+      "skill_md_hash": "d5ab12156e4cdd8eeb2d92ca2505ea81c726381a82c3b5074ee583265a495ae7",
       "steward": "Trang Phan",
-      "total_size_bytes": 17423,
+      "total_size_bytes": 17638,
       "version": "1.1.0"
     },
     "amos-7-part-universe-canon-full": {
@@ -3044,7 +3044,7 @@
       "file_count": 11,
       "file_hashes": {
         "MANIFEST.yaml": "1b48131992c95ac454171d3ee3c4f1f7053a5e858f5f75b1dc7943698c91fa9c",
-        "SKILL.md": "b6b39dd06bd4536f5f3954a59273f323f1536b9d6035514d8f9d70afae3d7bfe",
+        "SKILL.md": "732d30a30a8092f37405aaef0e727f725e3dc561cf38cffc301bb626cc5a9952",
         "amos-flow-canon_MOC.md": "bce0e06d902a88cb4fcea41d7f61ed8f64d9eacfbb930a8bdf12467fcaeeb703",
         "references.md": "326061b340640aabe59ff7476f3c2752303f4f0dee831a722b99930516c36431",
         "references/README.md": "662c0cc8426a06c2a71fcf2a98fba9f9d10eb0e1caeafff517aea47cbbcd23d8",
@@ -3057,10 +3057,10 @@
       },
       "name": "amos-flow-canon",
       "schema_version": "1.0",
-      "skill_digest": "sha256-2PDX1IJDYySdRsGmqsc3rdKdfqMYe1saSHU_Ql4jxPI",
-      "skill_md_hash": "b6b39dd06bd4536f5f3954a59273f323f1536b9d6035514d8f9d70afae3d7bfe",
+      "skill_digest": "sha256-X7M1ltq25CFYYZTQf6FXdKKGeMni3yT4fTcTgrpEp3I",
+      "skill_md_hash": "732d30a30a8092f37405aaef0e727f725e3dc561cf38cffc301bb626cc5a9952",
       "steward": "Trang Phan",
-      "total_size_bytes": 14913,
+      "total_size_bytes": 15128,
       "version": "1.1.0"
     },
     "amos-forex-os": {
@@ -4402,7 +4402,7 @@
       "file_count": 11,
       "file_hashes": {
         "MANIFEST.yaml": "3ee00397892af0226de8c5447952692d4cb0222de4600033d7db3c5a93e8d0c4",
-        "SKILL.md": "932d64e401f213df2026ad746f11d0c405696bd72d7c4b78afde8778983c7ab9",
+        "SKILL.md": "37c7354335d634df4bc7122a0e910e730e348b4245e7beeed1f8275acb6d7db5",
         "amos-law-stack-enforcement_MOC.md": "256fa7563fd1439d3b36d86474d4f963ffa58bd978666d1896f657e4610ec298",
         "references.md": "69f273fb9e7c2d52e302e80f34fa2fdba46c754f85800ba369c2e6b165cd31a6",
         "references/README.md": "76df5b006ace118777475013ee410b7783047e3b7aa76f41322ff39ab4b04f73",
@@ -4415,10 +4415,10 @@
       },
       "name": "amos-law-stack-enforcement",
       "schema_version": "1.0",
-      "skill_digest": "sha256-X0xwcxizkc-nyEKMz0tXefbRAIkm6fhI4bsN22JeiMU",
-      "skill_md_hash": "932d64e401f213df2026ad746f11d0c405696bd72d7c4b78afde8778983c7ab9",
+      "skill_digest": "sha256-4-9S7_8pTB5A8mFiWF5bMLcTRBLDrWSxcuJqpWML7DM",
+      "skill_md_hash": "37c7354335d634df4bc7122a0e910e730e348b4245e7beeed1f8275acb6d7db5",
       "steward": "Trang Phan",
-      "total_size_bytes": 15194,
+      "total_size_bytes": 15409,
       "version": "1.1.0"
     },
     "amos-learning-memory-knowledge-feedback-governor": {
@@ -7511,7 +7511,7 @@
       "file_count": 8,
       "file_hashes": {
         "MANIFEST.yaml": "65566fe78e94791ce3d95662d689759d5b80e10c5ac86a660d7e5ce7e9f6ff5f",
-        "SKILL.md": "12c7de7fe43a5b0ca818439b9af015ab62bcedc34ac80016d0afb73a74ac3976",
+        "SKILL.md": "d1de9af02135b7b1acd1e2ea8d6078a54e03466096f86022df7923c99e13b07a",
         "references/.gitkeep": "740aa4107f798b1c4c44d9e01ff0fd45a7a706403538b4271333c663a0b7eb3f",
         "scripts/.gitkeep": "6210980311f6c2b381a85891bf82d067e77b39497f8d3014f05e02b707f745bb",
         "scripts/hooks/hooks_config.yaml": "f3c3c476ecf5f72b42e320c7bd78da924231db61dcfd31f2378a36ab29828747",
@@ -7521,10 +7521,10 @@
       },
       "name": "kimi-k3-in-c",
       "schema_version": "1.0",
-      "skill_digest": "sha256-Ihm3CjQ-txFJo8p0F7XNpuBHTCF9s4eLzzSDKNVhw4g",
-      "skill_md_hash": "12c7de7fe43a5b0ca818439b9af015ab62bcedc34ac80016d0afb73a74ac3976",
+      "skill_digest": "sha256-jQAq72DRZopZeaqUxn-mXdATJx_qLUbFgbhtUpil1j4",
+      "skill_md_hash": "d1de9af02135b7b1acd1e2ea8d6078a54e03466096f86022df7923c99e13b07a",
       "steward": "Trang Phan",
-      "total_size_bytes": 8330,
+      "total_size_bytes": 8470,
       "version": "1.1.0"
     },
     "mckinsey-architecture-reference-transfer-rscf": {

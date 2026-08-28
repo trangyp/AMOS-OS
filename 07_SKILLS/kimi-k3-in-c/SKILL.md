@@ -99,3 +99,9 @@ Use `--ids` to bypass the tokenizer and run ids-to-ids with no checkpoint vocabu
 - To claim the open-source engine is the official Moonshot Kimi K3 product.
 - To download or store 1.56 TB checkpoints without verifying storage and bandwidth.
 - For generic LLM fine-tuning, training, or non-inference tasks.
+
+## Provenance
+
+- **Source**: FareedKhan-dev/kimi-k3-in-c repository
+- **Epistemic class**: SOURCE_CLAIM
+- **Origin architect**: FareedKhan

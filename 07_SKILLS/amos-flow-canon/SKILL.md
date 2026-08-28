@@ -56,7 +56,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - When analyzing how power moves through any system
 - When a system's throughput, conversion, or transmission needs structural characterization
 - When identifying bottlenecks, leakage, or queue dynamics in a claimed system
-- When flow is asserted but not structurally characterized (the vault's genuine gap)
+- When flow is asserted but not structurally characterized (the vault's genuine gap)## Capabilities
+
+- **canon_audit**: Audit structural completeness across the 7-Part Universe Canon
+- **canon_validate**: Validate system against canon invariants
+- **canon_map**: Map system elements to canon parts
+
+
 ## Source
 Vault-generated from 7-Part Canon audit (2026-08-23) — identified Flow (Part II) as the only part absent from all 5 existing vault canon layers
 
