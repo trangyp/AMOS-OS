@@ -126,8 +126,15 @@ Three skill/knowledge systems — now fully consistent:
 - TypeScript core: `cosmo-brain/core/type-guards.ts` (156 lines, **1142 tests passing** across 72 test files)
 - TS toolchain: `package.json`, `tsconfig.json`, `vitest.config.ts` — installed and working
 - Health check: `sh scripts/obsidian-health-check.sh` — all checks pass
+- Plane reconcile: `python3 scripts/vault_planes_reconcile.py` — cross-checks 06_AGENTS/07_SKILLS/08_WORKFLOWS 1:1:1 trios against authoritative `.devin/` (343 skills, 343 agents, 343 workflows, 0 gaps)
 
-**Integrity corrections applied:**
+**Integrity corrections applied (2026-08-28):**
+- Completed empty `07_SKILLS/amos-mdformat-obsidian/` stub (was only `scripts/`) — added SKILL.md, MANIFEST.yaml, MOC, references/sota.md; fixed duplicate `## References## References` heading
+- Restored 4 agents missing from vault `06_AGENTS/` (flow-canon, law-stack-enforcement, mdformat-obsidian, obsidian-plugin-auto-tag) from `.devin/` source
+- Restored 4 workflows missing from vault `08_WORKFLOWS/` (same 4 skills) from `.devin/` source
+- Added missing `kimi-k3-in-c` MANIFEST.yaml from `.devin/` source
+- Regenerated skill catalogs/registries from `07_SKILLS/` (`skill_catalog_generator.py`, `skill_registry_packager.py`) — 343 skills, all A-grade (98.0 avg), 0 security issues
+- Created `scripts/vault_planes_reconcile.py` — persistent reconcile audit targeting vault real planes (existing `_audit_round23.py` checked gitignored `.devin/` symlink only)
 - False TS file/test claims removed from 10+ Devin skills and 4 Hermes skills
 - VN Omnistructure consolidated: 10 duplicate skills → 1 canonical + 8 redirect stubs
 - Executable self-check skill created (`amos-executable-self-check`) — 8-check pre-output protocol

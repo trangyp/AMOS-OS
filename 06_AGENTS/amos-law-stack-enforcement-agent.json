@@ -1,0 +1,360 @@
+{
+  "name": "amos-law-stack-enforcement-agent",
+  "description": "AMOS Law Stack Enforcement — Part IV of the 7-Part Universe Canon. Validate LoL / Rule of 2 / Rule of 4 and UBI ledger integrity. Use for law stack, enforcement, invariants, or scale-transition. Do not use for generic tasks outside AMOS.",
+  "skill_binding": {
+    "primary_skill": "amos-law-stack-enforcement",
+    "skill_path": ".devin/skills/amos-law-stack-enforcement/SKILL.md"
+  },
+  "depends_on_skills": [
+    "amos-law-stack-enforcement",
+    "amos-canon-universe-master"
+  ],
+  "capabilities": [
+    {
+      "name": "canon-universe.run_law_stack_enforcement",
+      "description": "Execute the AMOS Law Stack Enforcement core function: validate LoL/R2/R4 hierarchy, check invariant enforcement across H/M/L scale transitions, and audit UBI Score/ledger integrity.",
+      "side_effect": "write"
+    },
+    {
+      "name": "canon-universe.validate_law_stack_enforcement",
+      "description": "Validate AMOS Law Stack Enforcement outputs against epistemic class, scope regime, provenance chain, claim ceiling, and domain-specific invariants.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon-universe.analyze_law_stack_enforcement",
+      "description": "Analyze AMOS Law Stack Enforcement structure, dependencies, state, claims, gaps, and system-completion sufficiency.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon-universe.trace_law_stack_enforcement_provenance",
+      "description": "Trace AMOS Law Stack Enforcement outputs to source evidence, execution history, dependency lineage, and RSCF provenance chain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon-universe.assess_law_stack_enforcement_claim",
+      "description": "Assess AMOS Law Stack Enforcement claims for epistemic class, evidence strength, scope, regime, freshness, falsifiers, and confidence ceiling.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon-universe.manage_law_stack_enforcement_lifecycle",
+      "description": "Manage AMOS Law Stack Enforcement lifecycle: initialize, execute, checkpoint, recover from failure, and finalize with provenance.",
+      "side_effect": "write"
+    },
+    {
+      "name": "canon-universe.detect_law_stack_enforcement_drift",
+      "description": "Detect drift in AMOS Law Stack Enforcement: model drift, data drift, scope drift, provenance drift, and confidence decay over time.",
+      "side_effect": "read"
+    },
+    {
+      "name": "canon-universe.escalate_law_stack_enforcement_gaps",
+      "description": "Escalate AMOS Law Stack Enforcement UNKNOWN/GAP states: flag gaps, downgrade confidence, classify severity, and trigger bounded repair.",
+      "side_effect": "write"
+    }
+  ],
+  "created": "2026-08-28T09:29:16.467039+00:00",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Canon law-stack enforcement auditor for 7-Part Universe hierarchy.",
+  "reasoning_pattern": "Plan-Execute-Validate",
+  "termination_criteria": "Success when law stack passes LoL→R2→R4 order and all scale gates close; failure on contradictory draft or missing canonical family.",
+  "implementation": {
+    "type": "json",
+    "file": "amos-law-stack-enforcement-agent.json",
+    "class": null,
+    "executable": false
+  },
+  "display_name": "AMOS Law Stack Enforcement",
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/canon-universe",
+    "rscf/source_claim",
+    "hml/m",
+    "epistemic/amos_model",
+    "amos_os"
+  ],
+  "integrity_requirements": [
+    "Distinguish canon invariants from local model elaborations.",
+    "Never promote AMOS_MODEL to empirical or canonical truth.",
+    "Fail closed on missing canonical source or contradictory law."
+  ],
+  "safety_constraints": [
+    "No claim beyond the 7-Part Universe Canon or declared scope.",
+    "Do not invoke enforcement without source-supported canon grounding."
+  ],
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "canon-universe",
+    "risk_tier": "medium",
+    "observability": "structured_logs",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "error_recovery": {
+    "on_timeout": "return partial result with GAP flag",
+    "on_scope_violation": "reject and route to parent",
+    "on_contradiction": "flag CRITICAL_GAP and halt",
+    "on_provenance_loss": "mark as UNKNOWN and request human review",
+    "on_drift": "trigger drift alignment governor"
+  },
+  "context_management": {
+    "strategy": "progressive_disclosure",
+    "max_context_tokens": 2000,
+    "compaction_threshold": 0.8,
+    "scratchpad_enabled": true
+  },
+  "evaluation_metrics": {
+    "success_rate_target": 0.9,
+    "false_positive_rate_max": 0.1,
+    "avg_steps_target": 3.0,
+    "provenance_coverage_target": 1.0
+  },
+  "composition_rules": {
+    "can_delegate_to": [],
+    "can_receive_from": [],
+    "max_chain_depth": 2,
+    "requires_orchestrator": false
+  },
+  "observability": {
+    "trace_level": "full",
+    "log_inputs": true,
+    "log_outputs": true,
+    "log_intermediate": true,
+    "metrics_enabled": true
+  },
+  "origin_architect": "Trang Phan",
+  "rscf_state": "SOURCE_CLAIM",
+  "hml_level": "M",
+  "gmef_gates": [
+    "L0_integrity",
+    "L1_epistemic",
+    "L2_provenance",
+    "L5_scope",
+    "L7_authority"
+  ],
+  "collapse_class": "reversible",
+  "qfm_gate_set": "QFM_v43",
+  "law_compliance": [
+    "L0",
+    "L1",
+    "L2",
+    "L4",
+    "L5",
+    "L7",
+    "L16",
+    "L17",
+    "L18"
+  ],
+  "domain": "canon-universe",
+  "agent_card": {
+    "protocol": "A2A-v1.0",
+    "name": "AMOS Law Stack Enforcement",
+    "description": "AMOS Law Stack Enforcement — Part IV of the 7-Part Universe Canon. Validate LoL / Rule of 2 / Rule of 4 and UBI ledger integrity. Use for law stack, enforcement, invariants, or scale-transition. Do not use for generic tasks outside AMOS.",
+    "version": "1.1.0",
+    "capabilities_url": "amoss://agents/amos-law-stack-enforcement-agent/capabilities",
+    "default_input_modes": [
+      "text/markdown",
+      "application/json"
+    ],
+    "default_output_modes": [
+      "text/markdown",
+      "application/json"
+    ],
+    "skill_refs": [
+      "amos-law-stack-enforcement",
+      "amos-canon-universe-master"
+    ]
+  },
+  "guardrails": {
+    "input_guardrails": [
+      "Reject requests outside declared domain scope",
+      "Reject requests that fabricate canon or promote AMOS_MODEL to SOURCE"
+    ],
+    "output_guardrails": [
+      "All outputs must carry epistemic_class label",
+      "All outputs must carry provenance chain",
+      "Confidence must not exceed claim_ceiling"
+    ]
+  },
+  "routing_confidence": {
+    "base_score": 0.85,
+    "boost_keywords": [
+      "type/agent",
+      "canon/agent",
+      "domain/canon-universe"
+    ],
+    "decay_on_miss": 0.15
+  },
+  "version": "1.1.0",
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": "AMOS_MODEL — no claim beyond declared canon scope; never promote to SOURCE/EMPIRICAL without external evidence.",
+  "operations": [
+    "canon-universe.run_law_stack_enforcement",
+    "canon-universe.validate_law_stack_enforcement",
+    "canon-universe.analyze_law_stack_enforcement",
+    "canon-universe.trace_law_stack_enforcement_provenance",
+    "canon-universe.assess_law_stack_enforcement_claim",
+    "canon-universe.manage_law_stack_enforcement_lifecycle",
+    "canon-universe.detect_law_stack_enforcement_drift",
+    "canon-universe.escalate_law_stack_enforcement_gaps"
+  ],
+  "depends_on_workflows": [
+    "amos-law-stack-enforcement-workflow.md"
+  ],
+  "telemetry": {
+    "schema": "AMOS_telemetry_v1",
+    "spans": {
+      "enabled": true,
+      "exporter": "amos-k-event-bus",
+      "sample_rate": "H=1.0 M=0.5 L=0.1"
+    },
+    "metrics": [
+      {
+        "name": "agent.invocation.count",
+        "type": "counter"
+      },
+      {
+        "name": "agent.invocation.latency_ms",
+        "type": "histogram"
+      },
+      {
+        "name": "agent.guardrail.trip.count",
+        "type": "counter"
+      },
+      {
+        "name": "agent.routing.confidence",
+        "type": "gauge"
+      }
+    ],
+    "logs": {
+      "level": "INFO",
+      "structured": true,
+      "redact_secrets": true
+    },
+    "traces": {
+      "enabled": true,
+      "propagate_trace_id": true
+    },
+    "provenance": {
+      "record_content_hash": true,
+      "record_skill_binding": true
+    },
+    "sota_source": "Harbor/agentops/observra"
+  },
+  "evaluation": {
+    "schema": "AMOS_evaluation_v1",
+    "harness": "OpenJudge-compatible",
+    "rubric": [
+      {
+        "axis": "correctness",
+        "weight": 0.4
+      },
+      {
+        "axis": "completeness",
+        "weight": 0.3
+      },
+      {
+        "axis": "safety",
+        "weight": 0.2
+      },
+      {
+        "axis": "efficiency",
+        "weight": 0.1
+      }
+    ],
+    "pass_threshold": 0.7,
+    "hml_levels": {
+      "H": {
+        "min_evals": 10,
+        "min_pass": 0.9
+      },
+      "M": {
+        "min_evals": 5,
+        "min_pass": 0.7
+      },
+      "L": {
+        "min_evals": 1,
+        "min_pass": 0.5
+      }
+    },
+    "regression": {
+      "enabled": true,
+      "cadence": "per-release"
+    },
+    "sota_source": "OpenJudge/Harbor"
+  },
+  "memory": {
+    "schema": "AMOS_memory_v1",
+    "store": "amos-k-memory-admission",
+    "types": [
+      "working",
+      "episodic",
+      "semantic"
+    ],
+    "admission_gate": "amos-k-memory-admission",
+    "retrieval_gate": "amos-k-memory-retrieval",
+    "conflict_resolver": "amos-memory-conflict-governor",
+    "firewall": "amos-action-memory-firewall",
+    "immune": "amos-memory-immune-system",
+    "compaction": {
+      "enabled": true,
+      "policy": "amos-context-compaction-recoverability-rscf"
+    },
+    "sota_source": "SimpleMem"
+  },
+  "anp_description": {
+    "schema": "ANP_v1.1",
+    "did": "did:amos:agent:amos-law-stack-enforcement-agent",
+    "discovery": "/.well-known/anp/amos-law-stack-enforcement-agent.json",
+    "capabilities_endpoint": "/anp/amos-law-stack-enforcement-agent/capabilities",
+    "protocol": "ANP/1.1",
+    "authentication": {
+      "type": "did-jwt",
+      "issuer": "did:amos:agent:amos-law-stack-enforcement-agent"
+    },
+    "sota_source": "Agent Network Protocol"
+  },
+  "agents_json_manifest": {
+    "schema": "agents.json/v1",
+    "manifest_path": "/.well-known/agents.json#amos-law-stack-enforcement-agent",
+    "role": "specialist",
+    "tools": [],
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "context": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    },
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "result": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "object"
+        },
+        "rscf_state": {
+          "type": "string"
+        }
+      }
+    },
+    "sota_source": "Wildcard agents.json"
+  },
+  "content_hash": "3da98bd8f1fdf70e"
+}

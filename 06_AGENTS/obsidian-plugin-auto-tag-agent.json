@@ -1,0 +1,358 @@
+{
+  "name": "obsidian-plugin-auto-tag-agent",
+  "description": "Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing, or reconciling tags and frontmatter metadata in the Obsidian vault. Use when amos-knowledge-research-master routes to this tool capability. Do not use for generic tasks outside the declared amos domain.",
+  "skill_binding": {
+    "primary_skill": "obsidian-plugin-auto-tag",
+    "skill_path": ".devin/skills/obsidian-plugin-auto-tag/SKILL.md"
+  },
+  "depends_on_skills": [
+    "obsidian-plugin-auto-tag",
+    "amos-knowledge-research-master"
+  ],
+  "capabilities": [
+    {
+      "name": "auto_tag.generate_tags",
+      "description": "Generate relevant tags for a note or selected text using the Auto Tag plugin.",
+      "side_effect": "read"
+    },
+    {
+      "name": "auto_tag.preview",
+      "description": "Preview suggested tags before committing them to the note.",
+      "side_effect": "read"
+    },
+    {
+      "name": "auto_tag.validate_scope",
+      "description": "Ensure suggested tags are within the note's declared canon/knowledge scope.",
+      "side_effect": "read"
+    },
+    {
+      "name": "auto_tag.normalize_format",
+      "description": "Normalize tag format (kebab-case, snake_case, camelCase, PascalCase).",
+      "side_effect": "write"
+    },
+    {
+      "name": "auto_tag.detect_language",
+      "description": "Return tags in the detected language of the note.",
+      "side_effect": "read"
+    },
+    {
+      "name": "auto_tag.update_frontmatter",
+      "description": "Insert generated tags into the note's YAML frontmatter tags list.",
+      "side_effect": "write"
+    },
+    {
+      "name": "auto_tag.fix_formatting",
+      "description": "Co-fix common formatting issues that accompany tagging (fences, whitespace).",
+      "side_effect": "write"
+    },
+    {
+      "name": "auto_tag.reconcile_tags",
+      "description": "Bulk reconcile tags across a folder or vault against a target format and scope.",
+      "side_effect": "write"
+    }
+  ],
+  "created": "2026-08-28T09:29:16.467648+00:00",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Obsidian Auto Tag operator for vault metadata normalization and tag governance.",
+  "version": "1.1.0",
+  "reasoning_pattern": "Plan-Execute-Validate",
+  "termination_criteria": "Success when tags are generated or normalized with provenance; failure on scope violation or API error with no recovery path.",
+  "implementation": {
+    "type": "json",
+    "file": "obsidian-plugin-auto-tag-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "display_name": "Obsidian Auto Tag",
+  "tags": [
+    "type/agent",
+    "domain/knowledge-research",
+    "rscf/source_claim",
+    "hml/m",
+    "epistemic/amos_model",
+    "amos_os"
+  ],
+  "integrity_requirements": [
+    "Tags must be within declared canon/knowledge scope.",
+    "Never fabricate tags without source provenance.",
+    "Frontmatter must remain valid YAML after tag insertion."
+  ],
+  "safety_constraints": [
+    "No tag beyond the note's declared scope.",
+    "Do not overwrite existing tags without explicit user confirmation.",
+    "Bulk operations must produce a diff for review before commit."
+  ],
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "knowledge-research",
+    "risk_tier": "low",
+    "observability": "structured_logs",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "error_recovery": {
+    "on_timeout": "return partial result with GAP flag",
+    "on_scope_violation": "reject and route to parent",
+    "on_contradiction": "flag CRITICAL_GAP and halt",
+    "on_provenance_loss": "mark as UNKNOWN and request human review",
+    "on_drift": "trigger drift alignment governor"
+  },
+  "context_management": {
+    "strategy": "progressive_disclosure",
+    "max_context_tokens": 2000,
+    "compaction_threshold": 0.8,
+    "scratchpad_enabled": true
+  },
+  "evaluation_metrics": {
+    "success_rate_target": 0.9,
+    "false_positive_rate_max": 0.1,
+    "avg_steps_target": 5.0,
+    "provenance_coverage_target": 1.0
+  },
+  "composition_rules": {
+    "can_delegate_to": [],
+    "can_receive_from": [
+      "amos-knowledge-research-master"
+    ],
+    "max_chain_depth": 2,
+    "requires_orchestrator": false
+  },
+  "observability": {
+    "trace_level": "full",
+    "log_inputs": true,
+    "log_outputs": true,
+    "log_intermediate": true,
+    "metrics_enabled": true
+  },
+  "origin_architect": "Trang Phan",
+  "rscf_state": "SOURCE_CLAIM",
+  "hml_level": "M",
+  "gmef_gates": [
+    "L0_integrity",
+    "L1_epistemic",
+    "L2_provenance",
+    "L5_scope"
+  ],
+  "collapse_class": "reversible",
+  "qfm_gate_set": "QFM_v43",
+  "law_compliance": [
+    "L0",
+    "L1",
+    "L2",
+    "L4",
+    "L5",
+    "L7"
+  ],
+  "domain": "knowledge-research",
+  "agent_card": {
+    "protocol": "A2A-v1.0",
+    "name": "Obsidian Auto Tag",
+    "description": "Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing, or reconciling tags and frontmatter metadata in the Obsidian vault. Use when amos-knowledge-research-master routes to this tool capability. Do not use for generic tasks outside the declared amos domain.",
+    "version": "1.1.0",
+    "capabilities_url": "amoss://agents/obsidian-plugin-auto-tag-agent/capabilities",
+    "default_input_modes": [
+      "text/markdown",
+      "application/json"
+    ],
+    "default_output_modes": [
+      "text/markdown",
+      "application/json"
+    ],
+    "skill_refs": [
+      "obsidian-plugin-auto-tag",
+      "amos-knowledge-research-master"
+    ]
+  },
+  "guardrails": {
+    "input_guardrails": [
+      "Reject requests outside declared domain scope",
+      "Reject requests that fabricate canon or promote AMOS_MODEL to SOURCE"
+    ],
+    "output_guardrails": [
+      "All outputs must carry epistemic_class label",
+      "All outputs must carry provenance chain",
+      "Confidence must not exceed claim_ceiling"
+    ]
+  },
+  "routing_confidence": {
+    "base_score": 0.85,
+    "boost_keywords": [
+      "type/agent",
+      "domain/knowledge-research",
+      "rscf/source_claim"
+    ],
+    "decay_on_miss": 0.15
+  },
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": "AMOS_MODEL — no claim beyond declared canon scope; never promote to SOURCE/EMPIRICAL without external evidence.",
+  "operations": [
+    "auto_tag.generate_tags",
+    "auto_tag.preview",
+    "auto_tag.validate_scope",
+    "auto_tag.normalize_format",
+    "auto_tag.detect_language",
+    "auto_tag.update_frontmatter",
+    "auto_tag.fix_formatting",
+    "auto_tag.reconcile_tags"
+  ],
+  "depends_on_workflows": [
+    "obsidian-plugin-auto-tag-workflow.md"
+  ],
+  "telemetry": {
+    "schema": "AMOS_telemetry_v1",
+    "spans": {
+      "enabled": true,
+      "exporter": "amos-k-event-bus",
+      "sample_rate": "H=1.0 M=0.5 L=0.1"
+    },
+    "metrics": [
+      {
+        "name": "agent.invocation.count",
+        "type": "counter"
+      },
+      {
+        "name": "agent.invocation.latency_ms",
+        "type": "histogram"
+      },
+      {
+        "name": "agent.guardrail.trip.count",
+        "type": "counter"
+      },
+      {
+        "name": "agent.routing.confidence",
+        "type": "gauge"
+      }
+    ],
+    "logs": {
+      "level": "INFO",
+      "structured": true,
+      "redact_secrets": true
+    },
+    "traces": {
+      "enabled": true,
+      "propagate_trace_id": true
+    },
+    "provenance": {
+      "record_content_hash": true,
+      "record_skill_binding": true
+    },
+    "sota_source": "Harbor/agentops/observra"
+  },
+  "evaluation": {
+    "schema": "AMOS_evaluation_v1",
+    "harness": "OpenJudge-compatible",
+    "rubric": [
+      {
+        "axis": "correctness",
+        "weight": 0.4
+      },
+      {
+        "axis": "completeness",
+        "weight": 0.3
+      },
+      {
+        "axis": "safety",
+        "weight": 0.2
+      },
+      {
+        "axis": "efficiency",
+        "weight": 0.1
+      }
+    ],
+    "pass_threshold": 0.7,
+    "hml_levels": {
+      "H": {
+        "min_evals": 10,
+        "min_pass": 0.9
+      },
+      "M": {
+        "min_evals": 5,
+        "min_pass": 0.7
+      },
+      "L": {
+        "min_evals": 1,
+        "min_pass": 0.5
+      }
+    },
+    "regression": {
+      "enabled": true,
+      "cadence": "per-release"
+    },
+    "sota_source": "OpenJudge/Harbor"
+  },
+  "memory": {
+    "schema": "AMOS_memory_v1",
+    "store": "amos-k-memory-admission",
+    "types": [
+      "working",
+      "episodic",
+      "semantic"
+    ],
+    "admission_gate": "amos-k-memory-admission",
+    "retrieval_gate": "amos-k-memory-retrieval",
+    "conflict_resolver": "amos-memory-conflict-governor",
+    "firewall": "amos-action-memory-firewall",
+    "immune": "amos-memory-immune-system",
+    "compaction": {
+      "enabled": true,
+      "policy": "amos-context-compaction-recoverability-rscf"
+    },
+    "sota_source": "SimpleMem"
+  },
+  "anp_description": {
+    "schema": "ANP_v1.1",
+    "did": "did:amos:agent:obsidian-plugin-auto-tag-agent",
+    "discovery": "/.well-known/anp/obsidian-plugin-auto-tag-agent.json",
+    "capabilities_endpoint": "/anp/obsidian-plugin-auto-tag-agent/capabilities",
+    "protocol": "ANP/1.1",
+    "authentication": {
+      "type": "did-jwt",
+      "issuer": "did:amos:agent:obsidian-plugin-auto-tag-agent"
+    },
+    "sota_source": "Agent Network Protocol"
+  },
+  "agents_json_manifest": {
+    "schema": "agents.json/v1",
+    "manifest_path": "/.well-known/agents.json#obsidian-plugin-auto-tag-agent",
+    "role": "specialist",
+    "tools": [],
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "context": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    },
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "result": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "object"
+        },
+        "rscf_state": {
+          "type": "string"
+        }
+      }
+    },
+    "sota_source": "Wildcard agents.json"
+  },
+  "content_hash": "a2eac3a0e77a96bd"
+}
