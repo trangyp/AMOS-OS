@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Trajectory Bug Specification Refinement Rscf"
 type: moc
 source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

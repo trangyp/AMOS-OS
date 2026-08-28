@@ -1,6 +1,12 @@
 ---
 title: CANONICAL BODY REGISTRY
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/state/derived, topic/canonical-body-registry, canon]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/state/derived
+- topic/canonical-body-registry
+- canon
 type: data
 source: 11_KNOWLEDGE/canon
 rscf:

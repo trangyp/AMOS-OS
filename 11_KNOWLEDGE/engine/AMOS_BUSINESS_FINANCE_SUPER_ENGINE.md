@@ -6,7 +6,14 @@ canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: amos-business-finance-super-engine
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-business-finance-super-engine, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-business-finance-super-engine
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

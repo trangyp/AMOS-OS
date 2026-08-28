@@ -2,7 +2,10 @@
 title: TRANSACTION COMMIT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/81_TRANSACTION_COMMIT_MODES
-tags: [control_plane, 81_transaction_commit_modes, canon/control-plane]
+tags:
+- control_plane
+- 81_transaction_commit_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -2,7 +2,10 @@
 title: "Amos-Fractal-Math MOC"
 type: moc
 source: 07_SKILLS/amos-fractal-math
-tags: [moc, amos-fractal-math, canon/skill]
+tags:
+- moc
+- amos-fractal-math
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

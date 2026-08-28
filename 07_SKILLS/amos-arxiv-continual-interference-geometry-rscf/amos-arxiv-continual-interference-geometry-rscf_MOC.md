@@ -2,7 +2,10 @@
 title: "Amos-Arxiv-Continual-Interference-Geometry-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-arxiv-continual-interference-geometry-rscf
-tags: [moc, amos-arxiv-continual-interference-geomet, canon/skill]
+tags:
+- moc
+- amos-arxiv-continual-interference-geomet
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

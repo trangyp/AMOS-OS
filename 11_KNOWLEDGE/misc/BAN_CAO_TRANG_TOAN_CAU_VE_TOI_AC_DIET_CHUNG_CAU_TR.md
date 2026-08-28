@@ -1,6 +1,10 @@
 ---
 title: BAN CAO TRANG TOAN CAU VE TOI AC DIET CHUNG CAU TR
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

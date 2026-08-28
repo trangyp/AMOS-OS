@@ -2,7 +2,10 @@
 title: INDEX COGNITIVE ORGANISM README
 type: index
 source: 05_COGNITIVE_ORGANISM/00_INDEX
-tags: [amos_os, 05_cognitive_organism, canon/cognitive]
+tags:
+- amos_os
+- 05_cognitive_organism
+- canon/cognitive
 rscf:
   state: DERIVED
   claim_class: DERIVED

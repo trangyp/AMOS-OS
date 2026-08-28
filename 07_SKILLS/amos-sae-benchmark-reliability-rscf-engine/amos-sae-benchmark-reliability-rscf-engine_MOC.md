@@ -2,7 +2,10 @@
 title: "Amos-Sae-Benchmark-Reliability-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine
-tags: [moc, amos-sae-benchmark-reliability-rscf-engi, canon/skill]
+tags:
+- moc
+- amos-sae-benchmark-reliability-rscf-engi
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

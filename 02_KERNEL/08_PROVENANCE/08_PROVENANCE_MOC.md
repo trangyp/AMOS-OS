@@ -2,7 +2,10 @@
 title: "08 Provenance MOC"
 type: moc
 source: 02_KERNEL/08_PROVENANCE
-tags: [moc, 08-provenance, canon/kernel]
+tags:
+- moc
+- 08-provenance
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,20 @@
 title: "L00_REALITY_ENVIRONMENT — Provenance"
 type: provenance
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
-tags: [amos, provenance, evidence, lineage, ancestry, sybil-hardening, trust, reality-environment, rscf, hml, tensors, control-plane, canon/cognitive-matrix]
+tags:
+- amos
+- provenance
+- evidence
+- lineage
+- ancestry
+- sybil-hardening
+- trust
+- reality-environment
+- rscf
+- hml
+- tensors
+- control-plane
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

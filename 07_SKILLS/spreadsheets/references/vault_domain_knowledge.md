@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Spreadsheets"
 type: reference
 source: 07_SKILLS/spreadsheets/references
-tags: [reference, spreadsheets, canon/skill]
+tags:
+- reference
+- spreadsheets
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

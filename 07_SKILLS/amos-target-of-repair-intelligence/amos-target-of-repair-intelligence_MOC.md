@@ -2,7 +2,10 @@
 title: "Amos-Target-Of-Repair-Intelligence MOC"
 type: moc
 source: 07_SKILLS/amos-target-of-repair-intelligence
-tags: [moc, amos-target-of-repair-intelligence, canon/skill]
+tags:
+- moc
+- amos-target-of-repair-intelligence
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

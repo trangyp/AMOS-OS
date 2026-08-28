@@ -2,7 +2,10 @@
 title: INDEX L04 OBJECT ENTITY FORMATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/00_INDEX
-tags: [cognitive_matrix, l04_object_entity_formation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l04_object_entity_formation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

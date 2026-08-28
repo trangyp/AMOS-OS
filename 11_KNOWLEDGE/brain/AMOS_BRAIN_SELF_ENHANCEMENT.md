@@ -1,6 +1,13 @@
 ---
 title: AMOS BRAIN SELF ENHANCEMENT
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-self-enhancement, brain]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-brain-self-enhancement
+- brain
 type: document
 source: 11_KNOWLEDGE/brain
 rscf:

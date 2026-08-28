@@ -2,7 +2,10 @@
 title: "Amos-Structured-Document-Parsing-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-structured-document-parsing-rscf
-tags: [moc, amos-structured-document-parsing-rscf, canon/skill]
+tags:
+- moc
+- amos-structured-document-parsing-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

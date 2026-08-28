@@ -5,7 +5,15 @@ source: 11_KNOWLEDGE/kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Biology_Cognition/AMOS_Scientific_Kernel_v0.json (195 lines, 8KB)"
 origin_type: "SOURCE"
-tags: [amos, kernel, scientific, vInfinity, epistemology, inference, multi-domain, canon/knowledge]
+tags:
+- amos
+- kernel
+- scientific
+- vInfinity
+- epistemology
+- inference
+- multi-domain
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Bluebook-Strategy-System MOC"
 type: moc
 source: 07_SKILLS/bluebook-strategy-system
-tags: [moc, bluebook-strategy-system, canon/skill]
+tags:
+- moc
+- bluebook-strategy-system
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

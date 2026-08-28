@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Canon Consistency Governor"
 type: reference
 source: 07_SKILLS/amos-canon-consistency-governor/references
-tags: [reference, amos-canon-consistency-governor, canon/skill]
+tags:
+- reference
+- amos-canon-consistency-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

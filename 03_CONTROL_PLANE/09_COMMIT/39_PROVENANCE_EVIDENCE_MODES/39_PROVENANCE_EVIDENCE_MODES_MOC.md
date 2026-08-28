@@ -2,7 +2,10 @@
 title: "39 Provenance Evidence Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/39_PROVENANCE_EVIDENCE_MODES
-tags: [moc, 39-provenance-evidence-modes, canon/control-plane]
+tags:
+- moc
+- 39-provenance-evidence-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

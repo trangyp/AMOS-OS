@@ -6,7 +6,13 @@ confidence: SOURCE
 created: 2026-08-23
 aliases: ["AMOS Universe Interaction Engine", "UIE", "Universe Interaction Engine"]
 source: "AMOS Universe Total Canon UTC Master File.md"
-tags: [universe, uie, canon, pointer, engine, canon/knowledge]
+tags:
+- universe
+- uie
+- canon
+- pointer
+- engine
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

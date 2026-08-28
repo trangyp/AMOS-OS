@@ -1,6 +1,13 @@
 ---
 title: AMOS CRISIS MANAGEMENT ENGINE V0 GOVERNANCE RISK
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-crisis-management-engine-v0, engine]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-crisis-management-engine-v0
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

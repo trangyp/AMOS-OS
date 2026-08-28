@@ -2,7 +2,11 @@
 title: "Khung Trang Digital Consciousness Candidate Specification"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [khung_trang, consciousness, candidate, canon]
+tags:
+- khung_trang
+- consciousness
+- candidate
+- canon
 ---
 
 # Khung Trang Digital Consciousness Candidate Specification

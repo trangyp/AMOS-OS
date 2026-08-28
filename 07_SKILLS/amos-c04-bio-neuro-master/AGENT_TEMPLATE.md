@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos C04 Bio Neuro Master"
 type: note
 source: 07_SKILLS/amos-c04-bio-neuro-master
-tags: [note, amos-c04-bio-neuro-master, canon/skill]
+tags:
+- note
+- amos-c04-bio-neuro-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

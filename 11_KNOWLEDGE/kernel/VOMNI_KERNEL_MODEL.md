@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
 source: 11_KNOWLEDGE/kernel
-tags: [canon-group/human-system, canon/os-module, rscf/claim, rscf/provenance, rscf/state/derived, topic/vomni-kernel-model, kernel]
+tags:
+- canon-group/human-system
+- canon/os-module
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/vomni-kernel-model
+- kernel
 status: "active"
 provenance: "AMOS_Vomni_Kernel_v0.json"
 confidence: "STRUCTURAL"

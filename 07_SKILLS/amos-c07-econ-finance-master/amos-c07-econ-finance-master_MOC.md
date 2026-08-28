@@ -2,7 +2,10 @@
 title: "Amos-C07-Econ-Finance-Master MOC"
 type: moc
 source: 07_SKILLS/amos-c07-econ-finance-master
-tags: [moc, amos-c07-econ-finance-master, canon/skill]
+tags:
+- moc
+- amos-c07-econ-finance-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

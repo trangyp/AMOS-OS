@@ -2,7 +2,10 @@
 title: "README — Readme"
 type: note
 source: .
-tags: [note, vault, canon/general]
+tags:
+- note
+- vault
+- canon/general
 rscf:
   state: DERIVED
   claim_class: DERIVED

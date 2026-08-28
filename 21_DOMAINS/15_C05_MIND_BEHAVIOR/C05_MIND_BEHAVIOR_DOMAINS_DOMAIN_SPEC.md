@@ -2,7 +2,10 @@
 title: C05 MIND BEHAVIOR DOMAINS DOMAIN SPEC
 type: mind
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Forex Unified Os"
 type: moc
 source: 07_SKILLS/amos-forex-unified-os/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

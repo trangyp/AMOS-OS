@@ -11,7 +11,11 @@ empirical_boundary: "DOMAIN_EMPIRICAL claims require independent source validati
 amos_runtime_alignment: "see body"
 updated: "2026-08-25"
 status: "CONDITIONAL_RESEARCH_CAPSULE"
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

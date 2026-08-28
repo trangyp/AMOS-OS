@@ -1,6 +1,10 @@
 ---
 title: INV COG STRATEGIC HORIZON PRESENT
-tags: [strategy, game, planning, canon/knowledge]
+tags:
+- strategy
+- game
+- planning
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/strategy
 rscf:

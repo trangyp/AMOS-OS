@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Unreachable Semantics Rscf"
 type: reference
 source: 07_SKILLS/amos-unreachable-semantics-rscf/references
-tags: [reference, amos-unreachable-semantics-rscf, canon/skill]
+tags:
+- reference
+- amos-unreachable-semantics-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Constructive Metamorphic Testing Rscf"
 type: reference
 source: 07_SKILLS/amos-constructive-metamorphic-testing-rscf/references
-tags: [reference, amos-constructive-metamorphic-testing-rscf, canon/skill]
+tags:
+- reference
+- amos-constructive-metamorphic-testing-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

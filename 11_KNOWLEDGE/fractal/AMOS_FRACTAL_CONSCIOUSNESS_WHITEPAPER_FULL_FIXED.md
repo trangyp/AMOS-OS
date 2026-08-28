@@ -15,7 +15,11 @@ conclusion_class: AMOS_MODEL
 source_language: vi
 epistemic_mode: source_preserving_with_amos_firewalls
 description: "see body"
-tags: [fractal, math, self-similarity, canon/knowledge]
+tags:
+- fractal
+- math
+- self-similarity
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL

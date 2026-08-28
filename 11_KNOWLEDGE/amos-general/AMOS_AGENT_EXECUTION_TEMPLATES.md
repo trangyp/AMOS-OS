@@ -1,6 +1,13 @@
 ---
 title: AMOS AGENT EXECUTION TEMPLATES
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-agent-execution-templates, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-agent-execution-templates
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

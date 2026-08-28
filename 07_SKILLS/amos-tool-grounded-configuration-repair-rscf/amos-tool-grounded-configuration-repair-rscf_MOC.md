@@ -2,7 +2,10 @@
 title: "Amos-Tool-Grounded-Configuration-Repair-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf
-tags: [moc, amos-tool-grounded-configuration-repair-, canon/skill]
+tags:
+- moc
+- amos-tool-grounded-configuration-repair-
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

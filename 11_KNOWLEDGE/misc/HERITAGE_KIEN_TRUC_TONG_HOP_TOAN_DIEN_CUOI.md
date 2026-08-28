@@ -1,6 +1,10 @@
 ---
 title: HERITAGE KIEN TRUC TONG HOP TOAN DIEN CUOI
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

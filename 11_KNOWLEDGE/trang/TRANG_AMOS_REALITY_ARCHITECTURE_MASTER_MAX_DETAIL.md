@@ -1,6 +1,10 @@
 ---
 title: TRANG AMOS REALITY ARCHITECTURE MASTER MAX DETAIL
-tags: [trang, framework, reality, canon/knowledge]
+tags:
+- trang
+- framework
+- reality
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/trang
 rscf:

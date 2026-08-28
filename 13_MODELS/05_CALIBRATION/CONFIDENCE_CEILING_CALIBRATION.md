@@ -11,7 +11,15 @@ plane: "13_MODELS"
 segment: "13_MODELS/05_CALIBRATION"
 artifact_kind: "CALIBRATION"
 path: "13_MODELS/05_CALIBRATION/CONFIDENCE_CEILING_CALIBRATION.md"
-tags: [amos_os, model, specification, 13_models, calibration, canon_placeholder, rscf, canon/model]
+tags:
+- amos_os
+- model
+- specification
+- 13_models
+- calibration
+- canon_placeholder
+- rscf
+- canon/model
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

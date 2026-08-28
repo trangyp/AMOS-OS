@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Design Visual Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-design-visual-rscf-engine/references
-tags: [reference, amos-design-visual-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-design-visual-rscf-engine
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

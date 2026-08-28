@@ -2,7 +2,10 @@
 title: "25 Cognitive Matrix MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX
-tags: [moc, 25-cognitive-matrix, canon/cognitive-matrix]
+tags:
+- moc
+- 25-cognitive-matrix
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

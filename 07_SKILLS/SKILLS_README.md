@@ -2,7 +2,10 @@
 title: SKILLS README
 type: note
 source: 07_SKILLS
-tags: [note, 07-skills, canon/skill]
+tags:
+- note
+- 07-skills
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

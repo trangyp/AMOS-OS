@@ -2,7 +2,10 @@
 title: "Amos-Symbolic-Path-Reasoning-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-symbolic-path-reasoning-rscf
-tags: [moc, amos-symbolic-path-reasoning-rscf, canon/skill]
+tags:
+- moc
+- amos-symbolic-path-reasoning-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

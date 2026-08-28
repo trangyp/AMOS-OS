@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX C07 PERCEPTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION
-tags: [cognitive_matrix, control_planes, c07_perception, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- control_planes
+- c07_perception
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

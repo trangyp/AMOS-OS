@@ -2,7 +2,10 @@
 title: PERSPECTIVE OBSERVER MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/69_PERSPECTIVE_OBSERVER_MODES
-tags: [control_plane, 69_perspective_observer_modes, canon/control-plane]
+tags:
+- control_plane
+- 69_perspective_observer_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

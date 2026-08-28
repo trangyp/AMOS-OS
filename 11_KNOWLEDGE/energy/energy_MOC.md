@@ -2,7 +2,10 @@
 title: "Energy MOC"
 type: moc
 source: 11_KNOWLEDGE/energy
-tags: [moc, energy, canon/knowledge]
+tags:
+- moc
+- energy
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

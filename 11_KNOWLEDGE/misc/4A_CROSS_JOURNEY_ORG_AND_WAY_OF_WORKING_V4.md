@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: 4a-cross-journey-org-and-way-of-working-v4
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/4a-cross-journey-org-and-way-of-working-, misc]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/4a-cross-journey-org-and-way-of-working-
+- misc
 created: 2026-08-22
 rscf:
   state: DERIVED

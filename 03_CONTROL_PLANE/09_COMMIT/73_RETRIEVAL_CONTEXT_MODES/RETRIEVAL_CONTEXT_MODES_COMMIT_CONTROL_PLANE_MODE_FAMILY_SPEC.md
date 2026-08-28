@@ -2,7 +2,10 @@
 title: RETRIEVAL CONTEXT MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/73_RETRIEVAL_CONTEXT_MODES
-tags: [control_plane, 73_retrieval_context_modes, canon/control-plane]
+tags:
+- control_plane
+- 73_retrieval_context_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

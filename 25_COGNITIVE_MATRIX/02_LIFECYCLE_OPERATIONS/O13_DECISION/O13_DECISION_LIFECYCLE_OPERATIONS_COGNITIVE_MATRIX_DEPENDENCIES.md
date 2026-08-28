@@ -2,7 +2,10 @@
 title: O13 DECISION LIFECYCLE OPERATIONS COGNITIVE MATRIX DEPENDENCIES
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION
-tags: [note, o13-decision, canon/cognitive-matrix]
+tags:
+- note
+- o13-decision
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

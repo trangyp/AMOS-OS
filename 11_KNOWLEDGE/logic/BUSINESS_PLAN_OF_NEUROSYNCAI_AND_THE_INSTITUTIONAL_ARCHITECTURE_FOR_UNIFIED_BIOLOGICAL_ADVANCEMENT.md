@@ -1,6 +1,13 @@
 ---
 title: BUSINESS PLAN OF NEUROSYNCAI AND THE INSTITUTIONAL ARCHITECTURE FOR UNIFIED BIOLOGICAL ADVANCEMENT
-tags: [canon-group/biology, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/business-plan-of-neurosyncai-and-the-ins, logic]
+tags:
+- canon-group/biology
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/business-plan-of-neurosyncai-and-the-ins
+- logic
 type: note
 source: 11_KNOWLEDGE/logic
 rscf:

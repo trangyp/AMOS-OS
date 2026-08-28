@@ -1,6 +1,9 @@
 ---
 title: 2026 08 22 AMOS KAFKA BRAIN BUFFER VERBENA FIRST BRAIN ENGINE SPEC
-tags: [dated, dated/2026-08-22, canon/knowledge]
+tags:
+- dated
+- dated/2026-08-22
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/dated
 rscf:

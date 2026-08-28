@@ -2,7 +2,10 @@
 title: SUPERSEDED MAP
 type: superseded
 source: 24_ARCHIVE/02_SUPERSEDED/00_INDEX
-tags: [amos_os, 24_archive, canon/archive]
+tags:
+- amos_os
+- 24_archive
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

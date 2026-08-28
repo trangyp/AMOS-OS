@@ -2,7 +2,10 @@
 title: "Amos-Agentic-Skill-Lie-Algebroid-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine
-tags: [moc, amos-agentic-skill-lie-algebroid-rscf-en, canon/skill]
+tags:
+- moc
+- amos-agentic-skill-lie-algebroid-rscf-en
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

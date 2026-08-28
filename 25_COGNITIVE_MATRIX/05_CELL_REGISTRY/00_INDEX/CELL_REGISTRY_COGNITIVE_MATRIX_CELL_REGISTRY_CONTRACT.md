@@ -2,7 +2,10 @@
 title: CELL REGISTRY COGNITIVE MATRIX CELL REGISTRY CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY/00_INDEX
-tags: [cognitive_matrix, 00_index, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- 00_index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

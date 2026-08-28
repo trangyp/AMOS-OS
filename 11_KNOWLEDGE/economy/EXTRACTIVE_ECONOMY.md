@@ -1,6 +1,13 @@
 ---
 title: EXTRACTIVE ECONOMY
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/extractive-economy, economy]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/extractive-economy
+- economy
 type: document
 source: 11_KNOWLEDGE/economy
 rscf:

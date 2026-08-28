@@ -2,7 +2,10 @@
 title: INDEX CONTROL PLANE CONTROL PLANE CONTRACT
 type: index
 source: 03_CONTROL_PLANE/00_INDEX
-tags: [control_plane, index_control_plane_control_plane_contract.md, canon/control-plane]
+tags:
+- control_plane
+- index_control_plane_control_plane_contract.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

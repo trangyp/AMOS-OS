@@ -2,7 +2,10 @@
 title: "L12 Counterfactual Simulation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION
-tags: [moc, l12-counterfactual-simulation, canon/cognitive-matrix]
+tags:
+- moc
+- l12-counterfactual-simulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

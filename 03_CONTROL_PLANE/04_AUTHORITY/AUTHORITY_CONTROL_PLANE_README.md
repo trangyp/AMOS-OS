@@ -2,7 +2,10 @@
 title: AUTHORITY CONTROL PLANE README
 type: authority
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags: [control_plane, authority_control_plane_readme.md, canon/control-plane]
+tags:
+- control_plane
+- authority_control_plane_readme.md
+- canon/control-plane
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

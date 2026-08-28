@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L06 WORKING STATE CONTRACT
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
-tags: [cognitive_matrix, primitives, l06_working_state, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l06_working_state
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

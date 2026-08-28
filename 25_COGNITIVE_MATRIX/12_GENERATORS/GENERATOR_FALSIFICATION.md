@@ -2,7 +2,13 @@
 title: GENERATOR FALSIFICATION
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
-tags: [25_cognitive_matrix, 12_generators, generator, falsification, note, canon/cognitive-matrix]
+tags:
+- 25_cognitive_matrix
+- 12_generators
+- generator
+- falsification
+- note
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

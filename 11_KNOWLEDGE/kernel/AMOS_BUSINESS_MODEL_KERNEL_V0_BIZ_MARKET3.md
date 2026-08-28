@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-business-model-kernel-v0
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-business-model-kernel-v0, kernel]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-business-model-kernel-v0
+- kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

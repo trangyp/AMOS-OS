@@ -2,7 +2,10 @@
 title: L18 ACTION PRIMITIVES COGNITIVE MATRIX TESTS
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION
-tags: [note, l18-action, canon/cognitive-matrix]
+tags:
+- note
+- l18-action
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

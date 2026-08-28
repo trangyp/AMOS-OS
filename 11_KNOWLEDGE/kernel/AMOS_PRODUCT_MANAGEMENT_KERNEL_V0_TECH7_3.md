@@ -1,6 +1,13 @@
 ---
 title: AMOS PRODUCT MANAGEMENT KERNEL V0 TECH7 3
-tags: [canon-group/tech-ai, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-product-management-kernel-v0, kernel]
+tags:
+- canon-group/tech-ai
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-product-management-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

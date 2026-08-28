@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-vn-tax-and-fiscal-pack-v0
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-vn-tax-and-fiscal-pack-v0, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-vn-tax-and-fiscal-pack-v0
+- amos-general
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

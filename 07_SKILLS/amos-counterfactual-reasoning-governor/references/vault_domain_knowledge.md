@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Counterfactual Reasoning Governor"
 type: reference
 source: 07_SKILLS/amos-counterfactual-reasoning-governor/references
-tags: [reference, amos-counterfactual-reasoning-governor, canon/skill]
+tags:
+- reference
+- amos-counterfactual-reasoning-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

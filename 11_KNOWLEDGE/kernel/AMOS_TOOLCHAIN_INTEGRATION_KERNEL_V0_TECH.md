@@ -1,6 +1,13 @@
 ---
 title: AMOS TOOLCHAIN INTEGRATION KERNEL V0 TECH
-tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-toolchain-integration-kernel-v0, kernel]
+tags:
+- canon-group/tech-ai
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-toolchain-integration-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

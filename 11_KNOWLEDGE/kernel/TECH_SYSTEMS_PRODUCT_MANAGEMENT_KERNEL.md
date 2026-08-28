@@ -1,6 +1,10 @@
 ---
 title: TECH SYSTEMS PRODUCT MANAGEMENT KERNEL
-tags: [kernel, core, runtime, canon/knowledge]
+tags:
+- kernel
+- core
+- runtime
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

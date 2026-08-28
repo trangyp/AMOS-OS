@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Research Agent"
 type: reference
 source: 07_SKILLS/amos-research-agent/references
-tags: [reference, amos-research-agent, canon/skill]
+tags:
+- reference
+- amos-research-agent
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

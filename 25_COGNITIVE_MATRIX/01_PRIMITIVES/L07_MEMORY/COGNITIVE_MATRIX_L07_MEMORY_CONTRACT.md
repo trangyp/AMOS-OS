@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L07 MEMORY CONTRACT
 type: memory
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
-tags: [cognitive_matrix, primitives, l07_memory, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l07_memory
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

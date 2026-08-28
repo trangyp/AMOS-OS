@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: system-interfaces
-tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/system-interfaces, system]
+tags:
+- canon-group/tech-ai
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/system-interfaces
+- system
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

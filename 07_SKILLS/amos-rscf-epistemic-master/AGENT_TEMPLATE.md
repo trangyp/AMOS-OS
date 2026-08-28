@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Rscf Epistemic Master"
 type: note
 source: 07_SKILLS/amos-rscf-epistemic-master
-tags: [note, amos-rscf-epistemic-master, canon/skill]
+tags:
+- note
+- amos-rscf-epistemic-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

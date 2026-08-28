@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Emergent Social Intelligence Risk Rscf"
 type: reference
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf/references
-tags: [reference, amos-emergent-social-intelligence-risk-rscf, canon/skill]
+tags:
+- reference
+- amos-emergent-social-intelligence-risk-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

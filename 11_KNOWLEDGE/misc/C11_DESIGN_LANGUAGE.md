@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: c11-design-language-super
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c11-design-language-super, misc]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/c11-design-language-super
+- misc
 created: 2026-08-22
 rscf:
   state: DERIVED

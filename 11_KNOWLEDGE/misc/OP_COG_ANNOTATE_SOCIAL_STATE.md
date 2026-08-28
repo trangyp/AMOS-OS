@@ -1,6 +1,10 @@
 ---
 title: OP COG ANNOTATE SOCIAL STATE
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/misc
 rscf:

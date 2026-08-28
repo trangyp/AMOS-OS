@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Causal Reasoning Master"
 type: note
 source: 07_SKILLS/amos-causal-reasoning-master
-tags: [note, amos-causal-reasoning-master, canon/skill]
+tags:
+- note
+- amos-causal-reasoning-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: O02 RELATION LIFECYCLE OPERATIONS COGNITIVE MATRIX PRECONDITIONS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION
-tags: [note, o02-relation, canon/cognitive-matrix]
+tags:
+- note
+- o02-relation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

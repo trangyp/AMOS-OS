@@ -2,7 +2,10 @@
 title: "05 Design MOC"
 type: moc
 source: 21_DOMAINS/05_DESIGN
-tags: [moc, 05-design, canon/domain]
+tags:
+- moc
+- 05-design
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

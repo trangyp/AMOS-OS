@@ -2,7 +2,10 @@
 title: "Speed MOC"
 type: moc
 source: 11_KNOWLEDGE/speed
-tags: [moc, speed, canon/knowledge]
+tags:
+- moc
+- speed
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

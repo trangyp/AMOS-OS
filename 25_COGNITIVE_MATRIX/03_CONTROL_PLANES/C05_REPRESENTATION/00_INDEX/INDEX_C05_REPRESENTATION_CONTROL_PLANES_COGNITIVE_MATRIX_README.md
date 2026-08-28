@@ -2,7 +2,10 @@
 title: INDEX C05 REPRESENTATION CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/00_INDEX
-tags: [cognitive_matrix, c05_representation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c05_representation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

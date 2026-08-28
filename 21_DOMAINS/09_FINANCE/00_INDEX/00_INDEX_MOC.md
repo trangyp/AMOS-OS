@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / Finance / Index"
 type: moc
 source: 21_DOMAINS/09_FINANCE/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Ust-Structure-Mapper MOC"
 type: moc
 source: 07_SKILLS/amos-ust-structure-mapper
-tags: [moc, amos-ust-structure-mapper, canon/skill]
+tags:
+- moc
+- amos-ust-structure-mapper
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

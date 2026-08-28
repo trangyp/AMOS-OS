@@ -5,7 +5,11 @@ source: 17_OBSERVABILITY/00_INDEX
 aliases:
 - README
 rscf-state: derived
-tags: [index, readme, moc, canon/observability]
+tags:
+- index
+- readme
+- moc
+- canon/observability
 rscf:
   state: DERIVED
   claim_class: DERIVED

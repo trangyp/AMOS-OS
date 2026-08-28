@@ -2,7 +2,10 @@
 title: "05 Cell Registry MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
-tags: [moc, 05-cell-registry, canon/cognitive-matrix]
+tags:
+- moc
+- 05-cell-registry
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

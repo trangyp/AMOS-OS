@@ -2,7 +2,12 @@
 title: COMMIT CONTROL PLANE VALIDATION
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
-tags: [control_plane, commit, deep_analysis, note, canon/control-plane]
+tags:
+- control_plane
+- commit
+- deep_analysis
+- note
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

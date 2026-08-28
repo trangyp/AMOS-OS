@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Representation Aware Bug Localization Rscf"
 type: moc
 source: 07_SKILLS/amos-representation-aware-bug-localization-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

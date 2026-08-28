@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Cognitive Process Orchestrator"
 type: moc
 source: 07_SKILLS/amos-cognitive-process-orchestrator/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

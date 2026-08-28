@@ -2,7 +2,10 @@
 title: CONTROL PLANE PROVENANCE CONTRACT
 type: provenance
 source: 03_CONTROL_PLANE/05_PROVENANCE
-tags: [control_plane, control_plane_provenance_contract.md, canon/control-plane]
+tags:
+- control_plane
+- control_plane_provenance_contract.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

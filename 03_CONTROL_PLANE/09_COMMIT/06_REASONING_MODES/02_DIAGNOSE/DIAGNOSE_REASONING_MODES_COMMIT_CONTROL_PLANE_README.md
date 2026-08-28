@@ -2,7 +2,10 @@
 title: DIAGNOSE REASONING MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/02_DIAGNOSE
-tags: [control_plane, 06_reasoning_modes/02_diagnose, canon/control-plane]
+tags:
+- control_plane
+- 06_reasoning_modes/02_diagnose
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

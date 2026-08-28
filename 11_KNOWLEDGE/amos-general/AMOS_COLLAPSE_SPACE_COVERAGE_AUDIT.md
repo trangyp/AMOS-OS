@@ -17,7 +17,10 @@ amos_alignment:
   - Measurement Integrity
 type: document
 source: 11_KNOWLEDGE/amos-general
-tags: [amos_os, amos-general, canon/knowledge]
+tags:
+- amos_os
+- amos-general
+- canon/knowledge
 rscf:
   state: DERIVED
   claim_class: DERIVED

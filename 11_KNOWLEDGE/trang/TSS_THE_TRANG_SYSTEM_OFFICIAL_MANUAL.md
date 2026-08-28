@@ -5,7 +5,18 @@ origin: "Google Drive — _00_AMOS_CANON/training/TSS_Official_Manual.pdf"
 origin_architect: "Trang Phan"
 type: training-manual
 source: 11_KNOWLEDGE/trang
-tags: [canon-group/governance, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, rscf/T-topology, rscf/K-compression, rscf/mu-mutation, rscf/G-relation, topic/governance-economy-model, trang]
+tags:
+- canon-group/governance
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- rscf/T-topology
+- rscf/K-compression
+- rscf/mu-mutation
+- rscf/G-relation
+- topic/governance-economy-model
+- trang
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

@@ -1,6 +1,10 @@
 ---
 title: LIVING ATOMIC DESIGN A STRATEGIC FRAMEWORK FOR A
-tags: [strategy, game, planning, canon/knowledge]
+tags:
+- strategy
+- game
+- planning
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/strategy
 rscf:

@@ -6,7 +6,19 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Quantum_Engine_v0.json (5,389 lines, 196KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, tech, quantum, engine, v-infinity, augmentation, live-data, empirical, socio-political, runtime-tooling, role-coverage, canon/knowledge]
+tags:
+- amos
+- tech
+- quantum
+- engine
+- v-infinity
+- augmentation
+- live-data
+- empirical
+- socio-political
+- runtime-tooling
+- role-coverage
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL

@@ -2,7 +2,10 @@
 title: "Index MOC — Control Plane / Commit / Index"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/00_INDEX
-tags: [moc, 00-index, canon/control-plane]
+tags:
+- moc
+- 00-index
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

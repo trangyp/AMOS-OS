@@ -2,7 +2,10 @@
 title: "Index MOC — Kernel / Authority / Index"
 type: moc
 source: 02_KERNEL/07_AUTHORITY/00_INDEX
-tags: [moc, 00-index, canon/kernel]
+tags:
+- moc
+- 00-index
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

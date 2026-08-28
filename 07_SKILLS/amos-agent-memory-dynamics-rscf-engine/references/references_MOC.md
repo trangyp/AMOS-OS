@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Agent Memory Dynamics Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -3,7 +3,14 @@ type: doc
 source: 11_KNOWLEDGE/brain
 title: Bridge to AMOS Full Brain OS Architecture
 created: 2026-08-22
-tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-full-brain-os-architecture, brain]
+tags:
+- canon-group/tech-ai
+- canon/os-module
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-full-brain-os-architecture
+- brain
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

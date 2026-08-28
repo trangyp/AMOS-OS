@@ -2,7 +2,10 @@
 title: "Mckinsey-Recruiting-Workforce-Acquisition-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-recruiting-workforce-acquisition-rscf
-tags: [moc, mckinsey-recruiting-workforce-acquisitio, canon/skill]
+tags:
+- moc
+- mckinsey-recruiting-workforce-acquisitio
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

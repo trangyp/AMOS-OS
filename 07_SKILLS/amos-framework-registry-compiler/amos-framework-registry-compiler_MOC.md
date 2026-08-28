@@ -2,7 +2,10 @@
 title: "Amos-Framework-Registry-Compiler MOC"
 type: moc
 source: 07_SKILLS/amos-framework-registry-compiler
-tags: [moc, amos-framework-registry-compiler, canon/skill]
+tags:
+- moc
+- amos-framework-registry-compiler
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

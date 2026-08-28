@@ -2,7 +2,10 @@
 title: INDEX L LOW SCALE SCALES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE/00_INDEX
-tags: [cognitive_matrix, l_low_scale, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l_low_scale
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

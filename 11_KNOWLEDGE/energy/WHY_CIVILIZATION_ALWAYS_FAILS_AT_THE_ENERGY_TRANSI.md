@@ -1,6 +1,10 @@
 ---
 title: WHY CIVILIZATION ALWAYS FAILS AT THE ENERGY TRANSI
-tags: [energy, power, green, canon/knowledge]
+tags:
+- energy
+- power
+- green
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/energy
 rscf:

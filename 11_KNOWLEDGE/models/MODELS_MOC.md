@@ -2,7 +2,10 @@
 title: "Models MOC"
 type: moc
 source: 11_KNOWLEDGE/models
-tags: [moc, models, canon/knowledge]
+tags:
+- moc
+- models
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

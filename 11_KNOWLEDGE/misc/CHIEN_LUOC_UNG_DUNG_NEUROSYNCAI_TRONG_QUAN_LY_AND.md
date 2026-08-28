@@ -1,6 +1,10 @@
 ---
 title: CHIEN LUOC UNG DUNG NEUROSYNCAI TRONG QUAN LY AND
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

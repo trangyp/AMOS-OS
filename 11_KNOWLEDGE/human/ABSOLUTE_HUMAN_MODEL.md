@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
 source: 11_KNOWLEDGE/human
-tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/absolute-human-model, human]
+tags:
+- canon-group/human-system
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/absolute-human-model
+- human
 status: "active"
 provenance: "Absolute-Human (final version).txt"
 confidence: "STRUCTURAL"

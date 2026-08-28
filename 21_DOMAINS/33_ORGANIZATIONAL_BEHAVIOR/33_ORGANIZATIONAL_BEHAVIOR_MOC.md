@@ -2,7 +2,10 @@
 title: "33 Organizational Behavior MOC"
 type: moc
 source: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR
-tags: [moc, 33-organizational-behavior, canon/domain]
+tags:
+- moc
+- 33-organizational-behavior
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

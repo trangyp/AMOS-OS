@@ -2,7 +2,10 @@
 title: EFFECT INTENT
 type: note
 source: 03_CONTROL_PLANE/08_EFFECTS
-tags: [control_plane, effect_intent.md, canon/control-plane]
+tags:
+- control_plane
+- effect_intent.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

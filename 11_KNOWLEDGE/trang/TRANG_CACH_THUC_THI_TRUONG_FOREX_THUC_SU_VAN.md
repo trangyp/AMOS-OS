@@ -1,6 +1,10 @@
 ---
 title: TRANG CACH THUC THI TRUONG FOREX THUC SU VAN
-tags: [trang, framework, reality, canon/knowledge]
+tags:
+- trang
+- framework
+- reality
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:

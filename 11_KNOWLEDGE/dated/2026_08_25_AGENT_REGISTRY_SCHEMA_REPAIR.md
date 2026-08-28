@@ -4,7 +4,13 @@ type: daily-learning
 source: 11_KNOWLEDGE/dated
 date: 2026-08-25
 epistemic: DERIVED
-tags: [integrity, agents, schema, dated, dated/2026-08-25, canon/knowledge]
+tags:
+- integrity
+- agents
+- schema
+- dated
+- dated/2026-08-25
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: DERIVED

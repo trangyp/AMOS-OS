@@ -1,6 +1,10 @@
 ---
 title: AMOS FULL ARCHITECTURE FORM
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

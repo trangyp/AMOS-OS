@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Symbolic Path Reasoning Rscf"
 type: reference
 source: 07_SKILLS/amos-symbolic-path-reasoning-rscf/references
-tags: [reference, amos-symbolic-path-reasoning-rscf, canon/skill]
+tags:
+- reference
+- amos-symbolic-path-reasoning-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

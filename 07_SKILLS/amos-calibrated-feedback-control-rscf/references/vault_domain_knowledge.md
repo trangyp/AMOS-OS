@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Calibrated Feedback Control Rscf"
 type: reference
 source: 07_SKILLS/amos-calibrated-feedback-control-rscf/references
-tags: [reference, amos-calibrated-feedback-control-rscf, canon/skill]
+tags:
+- reference
+- amos-calibrated-feedback-control-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

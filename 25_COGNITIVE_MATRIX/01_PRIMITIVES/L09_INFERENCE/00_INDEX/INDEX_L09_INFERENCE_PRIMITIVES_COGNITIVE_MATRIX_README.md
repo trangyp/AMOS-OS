@@ -2,7 +2,10 @@
 title: INDEX L09 INFERENCE PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE/00_INDEX
-tags: [cognitive_matrix, l09_inference, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l09_inference
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: law
 rscf-state: source-claim
 topic: c09-org-law-policy
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/c09-org-law-policy, misc]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/c09-org-law-policy
+- misc
 created: 2026-08-22
 rscf:
   state: DERIVED

@@ -2,7 +2,10 @@
 title: O00 DISTINCTION LIFECYCLE OPERATIONS COGNITIVE MATRIX PRECONDITIONS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION
-tags: [note, o00-distinction, canon/cognitive-matrix]
+tags:
+- note
+- o00-distinction
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

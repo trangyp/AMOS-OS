@@ -1,6 +1,13 @@
 ---
 title: AMOS HEALTH POLICY KERNEL V0 BIOLOGY COGNITION
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-health-policy-kernel-v0, kernel]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-health-policy-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

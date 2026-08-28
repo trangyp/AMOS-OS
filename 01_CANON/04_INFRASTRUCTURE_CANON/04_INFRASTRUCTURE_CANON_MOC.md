@@ -2,7 +2,10 @@
 title: "04 Infrastructure Canon MOC"
 type: moc
 source: 01_CANON/04_INFRASTRUCTURE_CANON
-tags: [moc, 04-infrastructure-canon, canon/universe]
+tags:
+- moc
+- 04-infrastructure-canon
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Arxiv-Test-Time-Compute-Scaling-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf
-tags: [moc, arxiv-test-time-compute-scaling-rscf, canon/skill]
+tags:
+- moc
+- arxiv-test-time-compute-scaling-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

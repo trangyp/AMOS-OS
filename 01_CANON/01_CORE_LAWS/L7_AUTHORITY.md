@@ -1,5 +1,15 @@
 ---
-tags: ['canon', 'core_laws', 'authority', 'authorization', 'delegation', 'revocation', 'control_plane', 'rscf', 'governance', canon/universe]
+tags:
+- canon
+- core_laws
+- authority
+- authorization
+- delegation
+- revocation
+- control_plane
+- rscf
+- governance
+- canon/universe
 title: "L7 Authority Boundary Laws"
 origin_architect: "Trang Phan"
 updated: "2026-08-26"

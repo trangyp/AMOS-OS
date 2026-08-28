@@ -2,7 +2,10 @@
 title: "Amos-Ai-Drift-Alignment-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-ai-drift-alignment-governor
-tags: [moc, amos-ai-drift-alignment-governor, canon/skill]
+tags:
+- moc
+- amos-ai-drift-alignment-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: naming
-tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/naming, misc]
+tags:
+- canon-group/tech-ai
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/naming
+- misc
 created: 2026-08-22
 rscf:
   state: DERIVED

@@ -2,7 +2,10 @@
 title: "L01 Sensing Observation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
-tags: [moc, l01-sensing-observation, canon/cognitive-matrix]
+tags:
+- moc
+- l01-sensing-observation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

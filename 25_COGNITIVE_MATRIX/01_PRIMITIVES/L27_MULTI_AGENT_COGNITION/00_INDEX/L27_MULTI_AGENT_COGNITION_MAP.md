@@ -2,7 +2,10 @@
 title: L27 MULTI AGENT COGNITION MAP
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX
-tags: [cognitive_matrix, l27_multi_agent_cognition, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l27_multi_agent_cognition
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

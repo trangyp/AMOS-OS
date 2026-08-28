@@ -1,6 +1,10 @@
 ---
 title: HYDROGEN KHONG PHAI LUA CHON THAY THE DO LA NUOC
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

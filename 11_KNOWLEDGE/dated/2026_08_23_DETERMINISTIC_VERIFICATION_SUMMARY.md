@@ -1,6 +1,9 @@
 ---
 title: 2026 08 23 DETERMINISTIC VERIFICATION SUMMARY
-tags: [dated, dated/2026-08-23, canon/knowledge]
+tags:
+- dated
+- dated/2026-08-23
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/dated
 rscf:

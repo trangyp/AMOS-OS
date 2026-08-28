@@ -2,7 +2,10 @@
 title: "Amos-Information-Geometry-Mapper MOC"
 type: moc
 source: 07_SKILLS/amos-information-geometry-mapper
-tags: [moc, amos-information-geometry-mapper, canon/skill]
+tags:
+- moc
+- amos-information-geometry-mapper
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

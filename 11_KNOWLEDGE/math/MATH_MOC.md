@@ -2,7 +2,10 @@
 title: "Math MOC"
 type: moc
 source: 11_KNOWLEDGE/math
-tags: [moc, math, canon/knowledge]
+tags:
+- moc
+- math
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -2,7 +2,10 @@
 title: "Index MOC — Cognitive Matrix / Primitives / L23 Metacognition / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION/00_INDEX
-tags: [moc, 00-index, canon/cognitive-matrix]
+tags:
+- moc
+- 00-index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

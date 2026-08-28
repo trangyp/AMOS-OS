@@ -2,7 +2,22 @@
 title: "L00_REALITY_ENVIRONMENT — RSCF"
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
-tags: [amos, reality-environment, rscf, claim, evidence, provenance, scope, regime, causality, hml, confidence, falsification, control-plane, ai, canon/cognitive-matrix]
+tags:
+- amos
+- reality-environment
+- rscf
+- claim
+- evidence
+- provenance
+- scope
+- regime
+- causality
+- hml
+- confidence
+- falsification
+- control-plane
+- ai
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Audit Repair Master"
 type: note
 source: 07_SKILLS/amos-audit-repair-master
-tags: [note, amos-audit-repair-master, canon/skill]
+tags:
+- note
+- amos-audit-repair-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

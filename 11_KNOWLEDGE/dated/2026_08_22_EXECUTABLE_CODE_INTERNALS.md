@@ -4,7 +4,15 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: note
 source: 11_KNOWLEDGE/dated
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-executable-code-internals, dated, dated/2026-08-22]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-executable-code-internals
+- dated
+- dated/2026-08-22
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

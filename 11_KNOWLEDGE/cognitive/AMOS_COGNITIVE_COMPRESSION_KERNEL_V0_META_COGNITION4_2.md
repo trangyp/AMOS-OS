@@ -1,6 +1,13 @@
 ---
 title: AMOS COGNITIVE COMPRESSION KERNEL V0 META COGNITION4 2
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-cognitive-compression-kernel-v0, cognitive]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-cognitive-compression-kernel-v0
+- cognitive
 type: data
 source: 11_KNOWLEDGE/cognitive
 rscf:

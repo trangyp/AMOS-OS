@@ -2,7 +2,10 @@
 title: amos agent owner attribution rscf code
 type: reference
 source: 07_SKILLS/amos-agent-owner-attribution-rscf/references
-tags: [reference, amos-agent-owner-attribution-rscf, canon/skill]
+tags:
+- reference
+- amos-agent-owner-attribution-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

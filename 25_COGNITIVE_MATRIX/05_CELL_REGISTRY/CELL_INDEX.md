@@ -2,7 +2,10 @@
 title: CELL INDEX
 type: note
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
-tags: [note, 05-cell-registry, canon/cognitive-matrix]
+tags:
+- note
+- 05-cell-registry
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

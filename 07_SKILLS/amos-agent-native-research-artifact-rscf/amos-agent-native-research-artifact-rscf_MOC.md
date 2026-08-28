@@ -2,7 +2,10 @@
 title: "Amos-Agent-Native-Research-Artifact-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-agent-native-research-artifact-rscf
-tags: [moc, amos-agent-native-research-artifact-rscf, canon/skill]
+tags:
+- moc
+- amos-agent-native-research-artifact-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

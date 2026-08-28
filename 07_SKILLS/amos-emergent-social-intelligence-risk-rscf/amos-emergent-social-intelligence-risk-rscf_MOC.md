@@ -2,7 +2,10 @@
 title: "Amos-Emergent-Social-Intelligence-Risk-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf
-tags: [moc, amos-emergent-social-intelligence-risk-r, canon/skill]
+tags:
+- moc
+- amos-emergent-social-intelligence-risk-r
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: HYDROGEN IN OFFSHORE ENERGY SYSTEMS WHY SAFETY NO
-tags: [system, architecture, design, canon/knowledge]
+tags:
+- system
+- architecture
+- design
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/system
 rscf:

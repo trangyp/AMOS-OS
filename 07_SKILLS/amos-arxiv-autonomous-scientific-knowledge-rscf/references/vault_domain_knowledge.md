@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Arxiv Autonomous Scientific Knowledge Rscf"
 type: reference
 source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/references
-tags: [reference, amos-arxiv-autonomous-scientific-knowledge-rscf, canon/skill]
+tags:
+- reference
+- amos-arxiv-autonomous-scientific-knowledge-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

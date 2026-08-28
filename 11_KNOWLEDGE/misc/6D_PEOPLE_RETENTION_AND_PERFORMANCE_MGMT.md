@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 6d-people-retention-and-performance-mgmt
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/6d-people-retention-and-performance-mgmt, misc]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/6d-people-retention-and-performance-mgmt
+- misc
 created: 2026-08-22
 rscf:
   state: DERIVED

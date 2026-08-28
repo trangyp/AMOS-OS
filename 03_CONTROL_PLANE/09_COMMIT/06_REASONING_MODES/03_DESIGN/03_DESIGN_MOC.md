@@ -2,7 +2,10 @@
 title: "03 Design MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/03_DESIGN
-tags: [moc, 03-design, canon/control-plane]
+tags:
+- moc
+- 03-design
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

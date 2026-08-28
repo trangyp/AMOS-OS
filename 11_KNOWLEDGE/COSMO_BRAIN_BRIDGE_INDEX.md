@@ -4,7 +4,12 @@ type: index
 source: 11_KNOWLEDGE
 canon-group: reference
 rscf-state: derived
-tags: [moc, index, bridge, cosmo-brain, canon/knowledge]
+tags:
+- moc
+- index
+- bridge
+- cosmo-brain
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

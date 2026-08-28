@@ -2,7 +2,10 @@
 title: "26 Validation Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/26_VALIDATION_MODES
-tags: [moc, 26-validation-modes, canon/control-plane]
+tags:
+- moc
+- 26-validation-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Arxiv-Llm-Judge-Bias-Geometry-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf
-tags: [moc, arxiv-llm-judge-bias-geometry-rscf, canon/skill]
+tags:
+- moc
+- arxiv-llm-judge-bias-geometry-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: READ SET VALIDATOR
 type: note
 source: 03_CONTROL_PLANE/05_PROVENANCE
-tags: [control_plane, read_set_validator.md, canon/control-plane]
+tags:
+- control_plane
+- read_set_validator.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

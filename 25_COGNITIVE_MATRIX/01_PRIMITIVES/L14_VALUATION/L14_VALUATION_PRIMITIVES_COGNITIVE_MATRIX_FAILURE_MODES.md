@@ -2,7 +2,10 @@
 title: L14 VALUATION PRIMITIVES COGNITIVE MATRIX FAILURE MODES
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
-tags: [note, l14-valuation, canon/cognitive-matrix]
+tags:
+- note
+- l14-valuation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

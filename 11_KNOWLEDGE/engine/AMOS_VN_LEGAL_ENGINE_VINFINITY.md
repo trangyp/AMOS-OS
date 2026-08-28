@@ -5,7 +5,18 @@ source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_VN_Legal_Engine_v0.json (469 lines, 19.7KB)"
 origin_type: "SOURCE"
-tags: [amos, kernel, legal, vietnam, vInfinity, governance-risk, 25-axes, 24-dimensions, 7-tensor-layers, engine, canon/knowledge]
+tags:
+- amos
+- kernel
+- legal
+- vietnam
+- vInfinity
+- governance-risk
+- 25-axes
+- 24-dimensions
+- 7-tensor-layers
+- engine
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

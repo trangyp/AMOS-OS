@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L24 SELF REGULATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
-tags: [cognitive_matrix, primitives, l24_self_regulation, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l24_self_regulation
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

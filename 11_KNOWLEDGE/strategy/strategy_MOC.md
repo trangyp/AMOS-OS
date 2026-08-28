@@ -2,7 +2,10 @@
 title: "Strategy MOC"
 type: moc
 source: 11_KNOWLEDGE/strategy
-tags: [moc, strategy, canon/knowledge]
+tags:
+- moc
+- strategy
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

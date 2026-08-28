@@ -2,7 +2,10 @@
 title: asymptotic ceiling analysis
 type: reference
 source: 07_SKILLS/amos-benchmark-forensics/references
-tags: [reference, amos-benchmark-forensics, canon/skill]
+tags:
+- reference
+- amos-benchmark-forensics
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,10 @@
 ---
 title: AMOS CONSULTING AMOS INVEST AMOS CANON TECH ENGINE
-tags: [engine, processing, runtime, canon/knowledge]
+tags:
+- engine
+- processing
+- runtime
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

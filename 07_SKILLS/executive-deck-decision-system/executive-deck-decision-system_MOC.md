@@ -2,7 +2,10 @@
 title: "Executive-Deck-Decision-System MOC"
 type: moc
 source: 07_SKILLS/executive-deck-decision-system
-tags: [moc, executive-deck-decision-system, canon/skill]
+tags:
+- moc
+- executive-deck-decision-system
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

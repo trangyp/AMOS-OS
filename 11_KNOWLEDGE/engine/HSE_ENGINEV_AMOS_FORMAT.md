@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: hse-enginev-amos-format
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/hse-enginev-amos-format, engine]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/hse-enginev-amos-format
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

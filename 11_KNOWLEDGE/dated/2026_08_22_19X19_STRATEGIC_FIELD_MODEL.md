@@ -7,7 +7,15 @@ provenance: user-supplied 19×19 strategic-ontology completion; base geometry al
 confidence: 0.92
 epistemic_class: SOURCE_DERIVED
 conclusion_label: VERIFIED_PRESENT
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-19x19-strategic-field-model, dated, dated/2026-08-22]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-19x19-strategic-field-model
+- dated
+- dated/2026-08-22
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

@@ -7,7 +7,14 @@ provenance: direct ingestion of Chapter 8 (Neurochemical System)
 confidence: 0.95
 epistemic_class: OBSERVATION
 conclusion_label: VERIFIED
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/neurotransmitter-map-complete-human-syst, system]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/neurotransmitter-map-complete-human-syst
+- system
 date: 2026-08-22
 source_title: "The Complete Human System — Chapter 8: The Neurochemical System"
 source_type: book-manuscript

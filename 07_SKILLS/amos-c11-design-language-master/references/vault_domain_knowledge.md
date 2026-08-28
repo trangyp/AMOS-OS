@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos C11 Design Language Master"
 type: reference
 source: 07_SKILLS/amos-c11-design-language-master/references
-tags: [reference, amos-c11-design-language-master, canon/skill]
+tags:
+- reference
+- amos-c11-design-language-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

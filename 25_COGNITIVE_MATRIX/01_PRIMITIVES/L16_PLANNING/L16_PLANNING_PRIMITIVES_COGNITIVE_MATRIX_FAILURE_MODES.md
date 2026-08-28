@@ -2,7 +2,10 @@
 title: L16 PLANNING PRIMITIVES COGNITIVE MATRIX FAILURE MODES
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
-tags: [note, l16-planning, canon/cognitive-matrix]
+tags:
+- note
+- l16-planning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

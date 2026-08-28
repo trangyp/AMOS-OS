@@ -2,7 +2,10 @@
 title: "Index MOC — Canon / Provenance / Index"
 type: moc
 source: 01_CANON/07_PROVENANCE/00_INDEX
-tags: [moc, 00-index, canon/universe]
+tags:
+- moc
+- 00-index
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: 00 ROOT RELEASE NOTES
 type: note
 source: 00_ROOT
-tags: [amos_os, 00_root, canon/root]
+tags:
+- amos_os
+- 00_root
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

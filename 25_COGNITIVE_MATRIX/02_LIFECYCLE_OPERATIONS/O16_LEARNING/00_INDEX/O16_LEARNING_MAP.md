@@ -2,7 +2,10 @@
 title: O16 LEARNING MAP
 type: map
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING/00_INDEX
-tags: [cognitive_matrix, o16_learning, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o16_learning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

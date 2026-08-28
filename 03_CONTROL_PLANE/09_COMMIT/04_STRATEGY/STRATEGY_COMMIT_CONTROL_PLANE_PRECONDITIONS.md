@@ -2,7 +2,10 @@
 title: STRATEGY COMMIT CONTROL PLANE PRECONDITIONS
 type: condition
 source: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY
-tags: [control_plane, 04_strategy, canon/control-plane]
+tags:
+- control_plane
+- 04_strategy
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

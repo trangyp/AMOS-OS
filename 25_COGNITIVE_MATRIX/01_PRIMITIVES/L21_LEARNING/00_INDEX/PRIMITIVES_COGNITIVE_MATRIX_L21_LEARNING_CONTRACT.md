@@ -2,7 +2,10 @@
 title: PRIMITIVES COGNITIVE MATRIX L21 LEARNING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING/00_INDEX
-tags: [cognitive_matrix, l21_learning, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l21_learning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

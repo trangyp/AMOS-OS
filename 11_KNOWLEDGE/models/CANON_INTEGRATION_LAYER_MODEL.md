@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
 source: 11_KNOWLEDGE/models
-tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/canon-integration-layer-model, models]
+tags:
+- canon-group/human-system
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/canon-integration-layer-model
+- models
 status: "active"
 provenance: "4.Canon Integration Layer-CIL.ucil.txt"
 confidence: "STRUCTURAL"

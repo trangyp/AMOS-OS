@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX O07 INFERENCE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
-tags: [cognitive_matrix, lifecycle_operations, o07_inference, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- lifecycle_operations
+- o07_inference
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

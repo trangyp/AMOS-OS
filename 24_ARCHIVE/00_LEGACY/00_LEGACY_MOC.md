@@ -2,7 +2,10 @@
 title: "00 Legacy MOC"
 type: moc
 source: 24_ARCHIVE/00_LEGACY
-tags: [moc, 00-legacy, canon/archive]
+tags:
+- moc
+- 00-legacy
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: DERIVED

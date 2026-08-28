@@ -2,7 +2,10 @@
 title: "01 Identity MOC"
 type: moc
 source: 05_COGNITIVE_ORGANISM/01_IDENTITY
-tags: [moc, 01-identity, canon/cognitive]
+tags:
+- moc
+- 01-identity
+- canon/cognitive
 rscf:
   state: DERIVED
   claim_class: DERIVED

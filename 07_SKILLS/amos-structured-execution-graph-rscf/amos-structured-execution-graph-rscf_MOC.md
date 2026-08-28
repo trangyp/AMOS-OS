@@ -2,7 +2,10 @@
 title: "Amos-Structured-Execution-Graph-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-structured-execution-graph-rscf
-tags: [moc, amos-structured-execution-graph-rscf, canon/skill]
+tags:
+- moc
+- amos-structured-execution-graph-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

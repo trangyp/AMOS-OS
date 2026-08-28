@@ -1,6 +1,10 @@
 ---
 title: CODING
-tags: [tech-coding, tech, coding, canon/knowledge]
+tags:
+- tech-coding
+- tech
+- coding
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/tech-coding
 rscf:

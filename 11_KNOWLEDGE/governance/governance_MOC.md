@@ -2,7 +2,10 @@
 title: "Governance MOC"
 type: moc
 source: 11_KNOWLEDGE/governance
-tags: [moc, governance, canon/knowledge]
+tags:
+- moc
+- governance
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

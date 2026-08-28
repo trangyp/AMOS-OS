@@ -1,6 +1,10 @@
 ---
 title: PIPELINE
-tags: [pipelines, pipeline, workflow, canon/knowledge]
+tags:
+- pipelines
+- pipeline
+- workflow
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/pipelines
 rscf:

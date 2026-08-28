@@ -2,7 +2,10 @@
 title: "Trang MOC"
 type: moc
 source: 11_KNOWLEDGE/trang
-tags: [moc, trang, canon/knowledge]
+tags:
+- moc
+- trang
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

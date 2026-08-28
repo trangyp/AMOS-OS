@@ -2,7 +2,10 @@
 title: "Amos-Closed-Loop-Learning-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-closed-loop-learning-governor
-tags: [moc, amos-closed-loop-learning-governor, canon/skill]
+tags:
+- moc
+- amos-closed-loop-learning-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

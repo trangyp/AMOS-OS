@@ -2,7 +2,10 @@
 title: "Amos-Retrieval-Conditioned-Orchestration-Budget-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf
-tags: [moc, amos-retrieval-conditioned-orchestration, canon/skill]
+tags:
+- moc
+- amos-retrieval-conditioned-orchestration
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

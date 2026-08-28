@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Tensor Network Contraction Sketch Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine/references
-tags: [reference, amos-tensor-network-contraction-sketch-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-tensor-network-contraction-sketch-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-communication-omega
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-communication-omega, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-communication-omega
+- amos-general
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

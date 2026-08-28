@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Memory Systems Master"
 type: note
 source: 07_SKILLS/amos-memory-systems-master
-tags: [note, amos-memory-systems-master, canon/skill]
+tags:
+- note
+- amos-memory-systems-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "11_VALIDATION — Validation Levels"
 type: validation
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
-tags: [note, 11-validation, canon/cognitive-matrix]
+tags:
+- note
+- 11-validation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

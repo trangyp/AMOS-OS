@@ -3,7 +3,14 @@ title: AUDIT QUALITY MODEL
 type: model
 source: 11_KNOWLEDGE/models
 aliases: [Audit Quality Engine, AMOS_Audit_Quality, Quality Kernel]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/audit-quality-model, models]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/audit-quality-model
+- models
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL

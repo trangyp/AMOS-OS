@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Prediction Governance"
 type: reference
 source: 07_SKILLS/amos-prediction-governance/references
-tags: [reference, amos-prediction-governance, canon/skill]
+tags:
+- reference
+- amos-prediction-governance
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

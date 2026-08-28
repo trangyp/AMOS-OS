@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Ust Structure Mapper"
 type: reference
 source: 07_SKILLS/amos-ust-structure-mapper/references
-tags: [reference, amos-ust-structure-mapper, canon/skill]
+tags:
+- reference
+- amos-ust-structure-mapper
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

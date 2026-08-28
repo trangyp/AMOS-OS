@@ -2,7 +2,10 @@
 title: "35 Resource Budget Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES
-tags: [moc, 35-resource-budget-modes, canon/control-plane]
+tags:
+- moc
+- 35-resource-budget-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

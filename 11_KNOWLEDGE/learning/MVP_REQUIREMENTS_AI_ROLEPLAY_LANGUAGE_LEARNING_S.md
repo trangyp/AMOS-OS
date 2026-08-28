@@ -1,6 +1,10 @@
 ---
 title: MVP REQUIREMENTS AI ROLEPLAY LANGUAGE LEARNING S
-tags: [learning, training, adaptation, canon/knowledge]
+tags:
+- learning
+- training
+- adaptation
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/learning
 rscf:

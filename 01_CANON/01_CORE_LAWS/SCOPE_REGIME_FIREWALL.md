@@ -2,7 +2,11 @@
 title: "SCOPE_REGIME_FIREWALL — Epistemic Regime Boundary Law"
 type: core_law
 source: 01_CANON/01_CORE_LAWS
-tags: [canon, core_law, firewall, epistemic_boundary]
+tags:
+- canon
+- core_law
+- firewall
+- epistemic_boundary
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT

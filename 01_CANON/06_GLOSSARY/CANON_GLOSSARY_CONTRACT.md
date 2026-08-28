@@ -2,7 +2,10 @@
 title: CANON GLOSSARY CONTRACT
 type: canon
 source: 01_CANON/06_GLOSSARY
-tags: [amos_os, 01_canon, canon/universe]
+tags:
+- amos_os
+- 01_canon
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

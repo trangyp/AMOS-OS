@@ -2,7 +2,11 @@
 title: CONTROL PLANES COGNITIVE MATRIX README
 type: control-plane
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES
-tags: [cognitive_matrix, matrix, cognition, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- matrix
+- cognition
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "AMOS C10 — Tech & Engineering Master Knowledge"
 type: engine
 source: 11_KNOWLEDGE
-tags: [knowledge, note, canon/knowledge]
+tags:
+- knowledge
+- note
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

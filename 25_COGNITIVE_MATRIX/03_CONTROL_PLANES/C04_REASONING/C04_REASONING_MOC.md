@@ -2,7 +2,10 @@
 title: "C04 Reasoning MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
-tags: [moc, c04-reasoning, canon/cognitive-matrix]
+tags:
+- moc
+- c04-reasoning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

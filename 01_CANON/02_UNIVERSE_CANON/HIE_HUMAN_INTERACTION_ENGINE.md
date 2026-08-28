@@ -2,7 +2,10 @@
 title: "HIE Human Interaction Engine"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [hie, human_interaction, universe_canon]
+tags:
+- hie
+- human_interaction
+- universe_canon
 ---
 
 # HIE Human Interaction Engine

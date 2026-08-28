@@ -2,7 +2,10 @@
 title: "Amos-Prediction-Governance MOC"
 type: moc
 source: 07_SKILLS/amos-prediction-governance
-tags: [moc, amos-prediction-governance, canon/skill]
+tags:
+- moc
+- amos-prediction-governance
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

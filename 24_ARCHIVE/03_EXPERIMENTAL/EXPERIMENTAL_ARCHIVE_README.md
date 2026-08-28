@@ -2,7 +2,10 @@
 title: EXPERIMENTAL ARCHIVE README
 type: experimental
 source: 24_ARCHIVE/03_EXPERIMENTAL
-tags: [amos_os, 24_archive, canon/archive]
+tags:
+- amos_os
+- 24_archive
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

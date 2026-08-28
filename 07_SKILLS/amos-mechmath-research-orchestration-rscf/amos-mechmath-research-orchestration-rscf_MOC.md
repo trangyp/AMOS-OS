@@ -2,7 +2,10 @@
 title: "Amos-Mechmath-Research-Orchestration-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-mechmath-research-orchestration-rscf
-tags: [moc, amos-mechmath-research-orchestration-rsc, canon/skill]
+tags:
+- moc
+- amos-mechmath-research-orchestration-rsc
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

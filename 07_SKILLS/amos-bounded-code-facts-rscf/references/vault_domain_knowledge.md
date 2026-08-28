@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Bounded Code Facts Rscf"
 type: reference
 source: 07_SKILLS/amos-bounded-code-facts-rscf/references
-tags: [reference, amos-bounded-code-facts-rscf, canon/skill]
+tags:
+- reference
+- amos-bounded-code-facts-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

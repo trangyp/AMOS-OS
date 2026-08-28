@@ -1,6 +1,13 @@
 ---
 title: AMOS REINFORCEMENT LEARNING ANALYSIS KERNEL V0 MACHINE ARCHITECTURE4 2
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-reinforcement-learning-analysis-ker, kernel]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-reinforcement-learning-analysis-ker
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

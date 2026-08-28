@@ -2,7 +2,10 @@
 title: "17 Observability MOC"
 type: moc
 source: 17_OBSERVABILITY
-tags: [moc, 17-observability, canon/observability]
+tags:
+- moc
+- 17-observability
+- canon/observability
 rscf:
   state: DERIVED
   claim_class: DERIVED

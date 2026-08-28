@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Digital Bank Value Proposition Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-digital-bank-value-proposition-rscf/references
-tags: [reference, mckinsey-digital-bank-value-proposition-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-digital-bank-value-proposition-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

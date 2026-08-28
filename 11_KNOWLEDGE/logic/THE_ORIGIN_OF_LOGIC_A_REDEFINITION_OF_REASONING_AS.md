@@ -1,6 +1,10 @@
 ---
 title: THE ORIGIN OF LOGIC A REDEFINITION OF REASONING AS
-tags: [logic, reasoning, formal, canon/knowledge]
+tags:
+- logic
+- reasoning
+- formal
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/logic
 rscf:

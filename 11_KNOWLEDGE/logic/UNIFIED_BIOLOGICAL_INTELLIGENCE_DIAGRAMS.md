@@ -1,6 +1,13 @@
 ---
 title: UNIFIED BIOLOGICAL INTELLIGENCE DIAGRAMS
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/unified-biological-intelligence-diagrams, logic]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/unified-biological-intelligence-diagrams
+- logic
 type: note
 source: 11_KNOWLEDGE/logic
 rscf:

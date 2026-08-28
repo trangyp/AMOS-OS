@@ -2,7 +2,10 @@
 title: EV INFRASTRUCTURE DOMAINS EV INFRASTRUCTURE CONTRACT
 type: infrastructure
 source: 21_DOMAINS/44_EV_INFRASTRUCTURE/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -2,7 +2,10 @@
 title: "Index MOC — Cognitive Matrix / Scales / H High Scale / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/00_INDEX
-tags: [moc, 00-index, canon/cognitive-matrix]
+tags:
+- moc
+- 00-index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Repository Ast Analysis Rscf"
 type: reference
 source: 07_SKILLS/amos-repository-ast-analysis-rscf/references
-tags: [reference, amos-repository-ast-analysis-rscf, canon/skill]
+tags:
+- reference
+- amos-repository-ast-analysis-rscf
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

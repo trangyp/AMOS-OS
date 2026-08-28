@@ -2,7 +2,10 @@
 title: EXPOSURE CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/10_EXPOSURE
-tags: [control_plane, exposure_control_plane_readme.md, canon/control-plane]
+tags:
+- control_plane
+- exposure_control_plane_readme.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

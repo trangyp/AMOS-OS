@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Procedural Repository Retrieval Rscf"
 type: moc
 source: 07_SKILLS/amos-procedural-repository-retrieval-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

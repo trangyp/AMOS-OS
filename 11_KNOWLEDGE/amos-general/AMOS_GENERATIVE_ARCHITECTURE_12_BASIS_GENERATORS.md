@@ -7,7 +7,19 @@ type: architecture
 source: 11_KNOWLEDGE/amos-general
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [canon-group/tech-ai, architecture, generative, 12-generators, minimal-basis, expansion-rules, loop-stack, tensor-field, periodic-table, zero-gap, amos-general, canon/knowledge]
+tags:
+- canon-group/tech-ai
+- architecture
+- generative
+- 12-generators
+- minimal-basis
+- expansion-rules
+- loop-stack
+- tensor-field
+- periodic-table
+- zero-gap
+- amos-general
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Index MOC — Runtime / Index"
 type: moc
 source: 04_RUNTIME/00_INDEX
-tags: [moc, 00-index, canon/runtime]
+tags:
+- moc
+- 00-index
+- canon/runtime
 rscf:
   state: DERIVED
   claim_class: DERIVED

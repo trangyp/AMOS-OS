@@ -7,7 +7,16 @@ origin_architect: Trang Phan
 provenance: VAULT_INDEX
 status: active
 steward: Trang Phan
-tags: [moc, amos_os, root, index, map, navigation, canon-group/tech-ai, canon/navigation, topic/layer-maps]
+tags:
+- moc
+- amos_os
+- root
+- index
+- map
+- navigation
+- canon-group/tech-ai
+- canon/navigation
+- topic/layer-maps
 title: AMOS Layer Maps
 type: index
 source: 00_ROOT

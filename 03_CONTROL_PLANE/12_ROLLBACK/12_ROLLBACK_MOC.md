@@ -2,7 +2,10 @@
 title: "12 Rollback MOC"
 type: moc
 source: 03_CONTROL_PLANE/12_ROLLBACK
-tags: [moc, 12-rollback, canon/control-plane]
+tags:
+- moc
+- 12-rollback
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

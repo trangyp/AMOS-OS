@@ -2,7 +2,10 @@
 title: INDEX O03 BINDING LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING/00_INDEX
-tags: [cognitive_matrix, o03_binding, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o03_binding
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: INV-AUTHZ-047
 type: invariant
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags: [control_plane, inv-authz-047.md, canon/control-plane]
+tags:
+- control_plane
+- inv-authz-047.md
+- canon/control-plane
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Amos-Genetic-Stability-Auditor MOC"
 type: moc
 source: 07_SKILLS/amos-genetic-stability-auditor
-tags: [moc, amos-genetic-stability-auditor, canon/skill]
+tags:
+- moc
+- amos-genetic-stability-auditor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: HSE SAFETY DOMAINS HSE SAFETY CONTRACT
 type: safety
 source: 21_DOMAINS/40_HSE_SAFETY/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

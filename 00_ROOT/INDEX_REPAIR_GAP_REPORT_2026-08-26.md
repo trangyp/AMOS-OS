@@ -4,7 +4,11 @@ type: index
 source: 00_ROOT
 canon-group: reference
 rscf-state: derived
-tags: [gap-report, index-repair, audit, canon/root]
+tags:
+- gap-report
+- index-repair
+- audit
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

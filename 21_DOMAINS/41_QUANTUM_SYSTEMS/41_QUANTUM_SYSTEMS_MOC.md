@@ -2,7 +2,10 @@
 title: "41 Quantum Systems MOC"
 type: moc
 source: 21_DOMAINS/41_QUANTUM_SYSTEMS
-tags: [moc, 41-quantum-systems, canon/domain]
+tags:
+- moc
+- 41-quantum-systems
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

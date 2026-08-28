@@ -2,7 +2,10 @@
 title: "Amos-Full-Brain-Os MOC"
 type: moc
 source: 07_SKILLS/amos-full-brain-os
-tags: [moc, amos-full-brain-os, canon/skill]
+tags:
+- moc
+- amos-full-brain-os
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

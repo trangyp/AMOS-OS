@@ -1,5 +1,17 @@
 ---
-tags: ['canon', 'core_laws', 'evolution', 'mutation', 'supersession', 'anti_regression', 'repair', 'rollback', 'gmef', 'rscf', 'governance', canon/universe]
+tags:
+- canon
+- core_laws
+- evolution
+- mutation
+- supersession
+- anti_regression
+- repair
+- rollback
+- gmef
+- rscf
+- governance
+- canon/universe
 title: "L9 Evolution Laws"
 origin_architect: "Trang Phan"
 updated: "2026-08-26"

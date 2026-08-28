@@ -2,7 +2,10 @@
 title: O07 INFERENCE MAP
 type: map
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE/00_INDEX
-tags: [cognitive_matrix, o07_inference, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o07_inference
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Bundle Manifold Concentration Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine/references
-tags: [reference, amos-bundle-manifold-concentration-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-bundle-manifold-concentration-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

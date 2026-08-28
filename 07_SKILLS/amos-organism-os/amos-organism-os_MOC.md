@@ -2,7 +2,10 @@
 title: "Amos-Organism-Os MOC"
 type: moc
 source: 07_SKILLS/amos-organism-os
-tags: [moc, amos-organism-os, canon/skill]
+tags:
+- moc
+- amos-organism-os
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

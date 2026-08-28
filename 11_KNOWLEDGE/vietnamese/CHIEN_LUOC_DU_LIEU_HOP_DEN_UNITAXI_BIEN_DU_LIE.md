@@ -1,6 +1,10 @@
 ---
 title: CHIEN LUOC DU LIEU HOP DEN UNITAXI BIEN DU LIE
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

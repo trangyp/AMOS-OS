@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Boundary Scope Master"
 type: note
 source: 07_SKILLS/amos-boundary-scope-master
-tags: [note, amos-boundary-scope-master, canon/skill]
+tags:
+- note
+- amos-boundary-scope-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

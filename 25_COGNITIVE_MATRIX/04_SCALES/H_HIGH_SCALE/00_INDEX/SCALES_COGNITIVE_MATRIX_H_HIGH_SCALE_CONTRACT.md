@@ -2,7 +2,10 @@
 title: SCALES COGNITIVE MATRIX H HIGH SCALE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE/00_INDEX
-tags: [cognitive_matrix, h_high_scale, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- h_high_scale
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Universal-Coordinate-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine
-tags: [moc, amos-universal-coordinate-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-universal-coordinate-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

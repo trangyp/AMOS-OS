@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L25 IDENTITY CONTINUITY CONTRACT
 type: identity
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY
-tags: [cognitive_matrix, primitives, l25_identity_continuity, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l25_identity_continuity
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

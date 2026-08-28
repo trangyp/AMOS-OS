@@ -6,7 +6,18 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Documentation_Kernel_v0.json (708 lines, 24KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, documentation, corporate, engine, v-infinity, layout, templates, multilingual, governance, compliance, canon/knowledge]
+tags:
+- amos
+- documentation
+- corporate
+- engine
+- v-infinity
+- layout
+- templates
+- multilingual
+- governance
+- compliance
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

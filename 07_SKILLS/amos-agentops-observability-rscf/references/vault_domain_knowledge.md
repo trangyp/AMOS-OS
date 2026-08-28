@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Agentops Observability Rscf"
 type: reference
 source: 07_SKILLS/amos-agentops-observability-rscf/references
-tags: [reference, amos-agentops-observability-rscf, canon/skill]
+tags:
+- reference
+- amos-agentops-observability-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

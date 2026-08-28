@@ -2,7 +2,10 @@
 title: "Khung Trang State Vector Specification"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [khung_trang, state_vector, canon]
+tags:
+- khung_trang
+- state_vector
+- canon
 ---
 
 # Khung Trang State Vector Specification

@@ -2,7 +2,10 @@
 title: ESTIMATION INFERENCE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/94_ESTIMATION_INFERENCE_MODES
-tags: [control_plane, 94_estimation_inference_modes, canon/control-plane]
+tags:
+- control_plane
+- 94_estimation_inference_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

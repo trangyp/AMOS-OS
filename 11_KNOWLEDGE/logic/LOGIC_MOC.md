@@ -2,7 +2,10 @@
 title: "Logic MOC"
 type: moc
 source: 11_KNOWLEDGE/logic
-tags: [moc, logic, canon/knowledge]
+tags:
+- moc
+- logic
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

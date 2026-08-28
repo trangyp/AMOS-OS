@@ -8,7 +8,12 @@ status: "AMOS_MODEL / UNVALIDATED"
 epistemic_class: "MODEL"
 primitive: "L04_OBJECT_ENTITY_FORMATION"
 artifact: "VARIABLES.md"
-tags: [cognitive_matrix, primitives, l04_object_entity_formation, note, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l04_object_entity_formation
+- note
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

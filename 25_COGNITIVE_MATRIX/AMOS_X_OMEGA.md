@@ -1,7 +1,12 @@
 ---
 title: "AMOS × Omega"
 type: cognitive-matrix
-tags: [amos_os, cognitive-matrix, canon, omega, canon/cognitive-matrix]
+tags:
+- amos_os
+- cognitive-matrix
+- canon
+- omega
+- canon/cognitive-matrix
 source: 25_COGNITIVE_MATRIX
 rscf:
   state: AMOS_MODEL

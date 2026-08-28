@@ -2,7 +2,10 @@
 title: "Index MOC — Research / Index"
 type: moc
 source: 22_RESEARCH/00_INDEX
-tags: [moc, 00-index, canon/research]
+tags:
+- moc
+- 00-index
+- canon/research
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,9 @@
 ---
 title: 2026 08 25 AMOS FULL BRAIN OS CANON
-tags: [dated, dated/2026-08-25, canon/knowledge]
+tags:
+- dated
+- dated/2026-08-25
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/dated
 rscf:

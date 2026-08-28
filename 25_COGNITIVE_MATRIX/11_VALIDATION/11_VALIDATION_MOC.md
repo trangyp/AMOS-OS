@@ -2,7 +2,10 @@
 title: "11 Validation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
-tags: [moc, 11-validation, canon/cognitive-matrix]
+tags:
+- moc
+- 11-validation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

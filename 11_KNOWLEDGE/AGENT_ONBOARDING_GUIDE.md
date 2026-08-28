@@ -17,7 +17,17 @@ priority: "mandatory"
 conclusion_class: "AMOS_MODEL / CONDITIONAL"
 source_status: "SOURCE_CLAIM"
 validation_status: "REQUIRES_RUNTIME_REVALIDATION"
-tags: [agents, knowledge, vault, canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, topic/agent-onboarding, topic/runtime-governance, topic/amos-core]
+tags:
+- agents
+- knowledge
+- vault
+- canon-group/tech-ai
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- topic/agent-onboarding
+- topic/runtime-governance
+- topic/amos-core
 governing_law: "integrity > completeness > fluency > speed > token savings"
 rscf:
   state: SOURCE_CLAIM

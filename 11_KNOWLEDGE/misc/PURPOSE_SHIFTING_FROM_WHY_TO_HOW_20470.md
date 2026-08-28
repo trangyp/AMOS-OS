@@ -1,6 +1,13 @@
 ---
 title: PURPOSE SHIFTING FROM WHY TO HOW 20470
-tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/purpose-shifting-from-why-to-how-20470, misc]
+tags:
+- canon-group/planetary
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/purpose-shifting-from-why-to-how-20470
+- misc
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

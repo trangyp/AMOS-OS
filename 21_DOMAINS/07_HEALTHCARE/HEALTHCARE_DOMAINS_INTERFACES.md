@@ -2,7 +2,10 @@
 title: HEALTHCARE DOMAINS INTERFACES
 type: interface
 source: 21_DOMAINS/07_HEALTHCARE
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

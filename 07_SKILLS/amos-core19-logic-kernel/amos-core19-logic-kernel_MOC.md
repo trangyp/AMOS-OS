@@ -2,7 +2,10 @@
 title: "Amos-Core19-Logic-Kernel MOC"
 type: moc
 source: 07_SKILLS/amos-core19-logic-kernel
-tags: [moc, amos-core19-logic-kernel, canon/skill]
+tags:
+- moc
+- amos-core19-logic-kernel
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

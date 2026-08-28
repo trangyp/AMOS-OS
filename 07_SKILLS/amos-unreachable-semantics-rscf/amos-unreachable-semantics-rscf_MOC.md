@@ -2,7 +2,10 @@
 title: "Amos-Unreachable-Semantics-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-unreachable-semantics-rscf
-tags: [moc, amos-unreachable-semantics-rscf, canon/skill]
+tags:
+- moc
+- amos-unreachable-semantics-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

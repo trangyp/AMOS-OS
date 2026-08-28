@@ -1,6 +1,10 @@
 ---
 title: WHY SPEED IS A MORAL DECISION
-tags: [speed, performance, optimization, canon/knowledge]
+tags:
+- speed
+- performance
+- optimization
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/speed
 rscf:

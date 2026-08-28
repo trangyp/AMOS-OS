@@ -2,7 +2,10 @@
 title: "14 Tools MOC"
 type: moc
 source: 14_TOOLS
-tags: [moc, 14-tools, canon/tool]
+tags:
+- moc
+- 14-tools
+- canon/tool
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: ENGINEERING MATH DOMAINS README
 type: math
 source: 21_DOMAINS/28_ENGINEERING_MATH
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

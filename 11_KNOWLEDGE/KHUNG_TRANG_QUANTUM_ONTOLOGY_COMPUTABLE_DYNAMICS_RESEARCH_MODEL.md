@@ -24,7 +24,10 @@ frameworks: "- Trang_Framework
   - recursive_survival_dynamics..."
 proposed_location: "22_RESEARCH/03_COMPETING_MODELS"
 cross_links: "see body"
-tags: [knowledge, note, canon/knowledge]
+tags:
+- knowledge
+- note
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

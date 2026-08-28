@@ -1,6 +1,10 @@
 ---
 title: FULL CANON PRODUCT ENCYCLOPEDIA
-tags: [canon, universe, law, canon/knowledge]
+tags:
+- canon
+- universe
+- law
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/canon
 rscf:

@@ -2,7 +2,10 @@
 title: "Amos-Qls-Qic-Substrate-Mapper MOC"
 type: moc
 source: 07_SKILLS/amos-qls-qic-substrate-mapper
-tags: [moc, amos-qls-qic-substrate-mapper, canon/skill]
+tags:
+- moc
+- amos-qls-qic-substrate-mapper
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

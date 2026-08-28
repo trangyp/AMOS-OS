@@ -1,6 +1,10 @@
 ---
 title: DU AN AI AGENT DAO TAO HOC SINH K1 K12
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

@@ -2,7 +2,10 @@
 title: INDEX O13 DECISION LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION/00_INDEX
-tags: [cognitive_matrix, o13_decision, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o13_decision
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

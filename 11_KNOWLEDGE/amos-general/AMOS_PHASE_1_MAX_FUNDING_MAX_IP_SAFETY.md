@@ -1,6 +1,10 @@
 ---
 title: AMOS PHASE 1 MAX FUNDING MAX IP SAFETY
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

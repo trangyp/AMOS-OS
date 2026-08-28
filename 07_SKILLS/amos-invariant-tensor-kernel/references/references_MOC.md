@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Invariant Tensor Kernel"
 type: moc
 source: 07_SKILLS/amos-invariant-tensor-kernel/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

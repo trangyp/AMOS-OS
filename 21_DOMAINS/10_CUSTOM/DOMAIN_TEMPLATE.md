@@ -2,7 +2,10 @@
 title: DOMAIN TEMPLATE
 type: template
 source: 21_DOMAINS/10_CUSTOM
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

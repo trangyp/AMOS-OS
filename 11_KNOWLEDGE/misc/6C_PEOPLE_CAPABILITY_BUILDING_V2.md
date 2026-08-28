@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 6c-people-capability-building-v2
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/6c-people-capability-building-v2, misc]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/6c-people-capability-building-v2
+- misc
 created: 2026-08-22
 rscf:
   state: DERIVED

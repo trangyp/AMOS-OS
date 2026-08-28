@@ -1,6 +1,10 @@
 ---
 title: SKELETON LOAD CAPACITY
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/misc
 rscf:

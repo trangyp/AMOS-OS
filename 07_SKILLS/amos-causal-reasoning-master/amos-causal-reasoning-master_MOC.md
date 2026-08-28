@@ -2,7 +2,10 @@
 title: "Amos-Causal-Reasoning-Master MOC"
 type: moc
 source: 07_SKILLS/amos-causal-reasoning-master
-tags: [moc, amos-causal-reasoning-master, canon/skill]
+tags:
+- moc
+- amos-causal-reasoning-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

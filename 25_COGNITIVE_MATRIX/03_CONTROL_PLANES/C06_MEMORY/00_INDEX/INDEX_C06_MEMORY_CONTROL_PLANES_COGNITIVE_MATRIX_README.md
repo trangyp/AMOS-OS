@@ -2,7 +2,10 @@
 title: INDEX C06 MEMORY CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/00_INDEX
-tags: [cognitive_matrix, c06_memory, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c06_memory
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX VARIABLES
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
-tags: [note, l15-goal-formation, canon/cognitive-matrix]
+tags:
+- note
+- l15-goal-formation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

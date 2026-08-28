@@ -2,7 +2,10 @@
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX LIFECYCLE OPERATIONS CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/00_INDEX
-tags: [cognitive_matrix, 00_index, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- 00_index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

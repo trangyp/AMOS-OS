@@ -2,7 +2,10 @@
 title: "L19 Outcome Observation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
-tags: [moc, l19-outcome-observation, canon/cognitive-matrix]
+tags:
+- moc
+- l19-outcome-observation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

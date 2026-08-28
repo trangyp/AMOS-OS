@@ -2,7 +2,10 @@
 title: "08 Workflows MOC"
 type: moc
 source: 08_WORKFLOWS
-tags: [moc, 08-workflows, canon/workflow]
+tags:
+- moc
+- 08-workflows
+- canon/workflow
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

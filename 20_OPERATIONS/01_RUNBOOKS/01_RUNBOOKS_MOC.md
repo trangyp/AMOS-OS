@@ -2,7 +2,10 @@
 title: "01 Runbooks MOC"
 type: moc
 source: 20_OPERATIONS/01_RUNBOOKS
-tags: [moc, 01-runbooks, canon/operations]
+tags:
+- moc
+- 01-runbooks
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

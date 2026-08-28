@@ -6,7 +6,14 @@ canon-group: quantum
 canon-type: framework
 rscf-state: source-claim
 topic: amos-tech-quantum-engine-v0
-tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-tech-quantum-engine-v0, quantum]
+tags:
+- canon-group/quantum
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-tech-quantum-engine-v0
+- quantum
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

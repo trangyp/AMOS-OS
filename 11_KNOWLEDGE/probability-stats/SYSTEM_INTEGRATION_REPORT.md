@@ -1,6 +1,10 @@
 ---
 title: SYSTEM INTEGRATION REPORT
-tags: [probability-stats, probability, statistics, canon/knowledge]
+tags:
+- probability-stats
+- probability
+- statistics
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/probability-stats
 rscf:

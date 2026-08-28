@@ -1,6 +1,13 @@
 ---
 title: 87DD08A9 0EDD 419E 9928 3AFB1E99A739 CROSS CIVILIZATIONAL INTELLIGENCE CCI OFFICIAL MANUAL
-tags: [canon-group/meta, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/87dd08a9-0edd-419e-9928-3afb1e99a739-cro, misc]
+tags:
+- canon-group/meta
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/87dd08a9-0edd-419e-9928-3afb1e99a739-cro
+- misc
 type: note
 source: 11_KNOWLEDGE/misc
 rscf:

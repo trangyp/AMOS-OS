@@ -7,7 +7,15 @@ type: self-analysis
 source: 11_KNOWLEDGE/quantum
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [canon-group/tech-ai, self-analysis, brain-model, quantum-library, 7pt-canon, cognitive-architecture, quantum, canon/knowledge]
+tags:
+- canon-group/tech-ai
+- self-analysis
+- brain-model
+- quantum-library
+- 7pt-canon
+- cognitive-architecture
+- quantum
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

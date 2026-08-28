@@ -2,7 +2,10 @@
 title: STRATEGY DOMAINS DOMAIN SPEC
 type: strategy
 source: 21_DOMAINS/04_STRATEGY
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

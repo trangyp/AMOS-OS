@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Pdfs"
 type: reference
 source: 07_SKILLS/pdfs/references
-tags: [reference, pdfs, canon/skill]
+tags:
+- reference
+- pdfs
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

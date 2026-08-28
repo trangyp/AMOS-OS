@@ -1,6 +1,13 @@
 ---
 title: AMOS SOCIETY CULTURE ENGINE V0 COGNITIVE4
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-society-culture-engine-v0, cognitive]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-society-culture-engine-v0
+- cognitive
 type: data
 source: 11_KNOWLEDGE/cognitive
 rscf:

@@ -2,7 +2,10 @@
 title: "Amos-Provenance-Sybil-Hardening-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine
-tags: [moc, amos-provenance-sybil-hardening-rscf-eng, canon/skill]
+tags:
+- moc
+- amos-provenance-sybil-hardening-rscf-eng
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

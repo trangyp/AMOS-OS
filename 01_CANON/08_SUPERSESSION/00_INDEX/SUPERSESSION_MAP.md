@@ -2,7 +2,10 @@
 title: SUPERSESSION MAP
 type: supersession
 source: 01_CANON/08_SUPERSESSION/00_INDEX
-tags: [amos_os, 01_canon, canon/universe]
+tags:
+- amos_os
+- 01_canon
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

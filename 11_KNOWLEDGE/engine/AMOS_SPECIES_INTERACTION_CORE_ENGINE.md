@@ -5,7 +5,18 @@ source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Biology_Cognition/AMOS_Species_Interaction_Core_Engine_v0.json (232 lines, 8.9KB)"
 origin_type: "SOURCE"
-tags: [amos, kernel, species-interaction, hie, umpl, ust, uie, uel, human-interaction-engine, engine, canon/knowledge]
+tags:
+- amos
+- kernel
+- species-interaction
+- hie
+- umpl
+- ust
+- uie
+- uel
+- human-interaction-engine
+- engine
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

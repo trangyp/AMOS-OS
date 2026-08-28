@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos C10 Tech Engineering Master"
 type: note
 source: 07_SKILLS/amos-c10-tech-engineering-master
-tags: [note, amos-c10-tech-engineering-master, canon/skill]
+tags:
+- note
+- amos-c10-tech-engineering-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

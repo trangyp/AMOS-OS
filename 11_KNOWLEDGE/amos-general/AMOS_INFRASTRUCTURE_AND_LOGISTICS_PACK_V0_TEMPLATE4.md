@@ -1,6 +1,13 @@
 ---
 title: AMOS INFRASTRUCTURE AND LOGISTICS PACK V0 TEMPLATE4
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-infrastructure-and-logistics-pack-v, amos-general]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-infrastructure-and-logistics-pack-v
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

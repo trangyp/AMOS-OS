@@ -2,7 +2,10 @@
 title: "Signal MOC"
 type: moc
 source: 11_KNOWLEDGE/signal
-tags: [moc, signal, canon/knowledge]
+tags:
+- moc
+- signal
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,13 @@
 ---
 title: RUN AMOS
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/run-amos, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/run-amos
+- amos-general
 type: note
 source: 11_KNOWLEDGE/amos-general
 rscf:

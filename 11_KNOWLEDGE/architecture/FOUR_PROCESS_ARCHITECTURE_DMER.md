@@ -7,7 +7,15 @@ type: canon-entry
 source: 11_KNOWLEDGE/architecture
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [amos, canon/law, rscf/claim, four-process-architecture, dmer, adaptive-systems, collapse-recovery, architecture]
+tags:
+- amos
+- canon/law
+- rscf/claim
+- four-process-architecture
+- dmer
+- adaptive-systems
+- collapse-recovery
+- architecture
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -1,6 +1,10 @@
 ---
 title: MAP CAC HANG SO E 2 137 432 360 VA L
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

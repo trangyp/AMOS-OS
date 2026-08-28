@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos C06 Society Culture Master"
 type: note
 source: 07_SKILLS/amos-c06-society-culture-master
-tags: [note, amos-c06-society-culture-master, canon/skill]
+tags:
+- note
+- amos-c06-society-culture-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

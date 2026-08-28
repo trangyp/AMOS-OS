@@ -1,6 +1,10 @@
 ---
 title: AMOS BRAIN CBDC INTEGRATION ANALYSIS
-tags: [brain, cognitive, neural, canon/knowledge]
+tags:
+- brain
+- cognitive
+- neural
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/brain
 rscf:

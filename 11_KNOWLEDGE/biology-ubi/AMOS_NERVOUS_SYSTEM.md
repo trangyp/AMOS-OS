@@ -1,6 +1,10 @@
 ---
 title: AMOS NERVOUS SYSTEM
-tags: [biology-ubi, biology, ubi, canon/knowledge]
+tags:
+- biology-ubi
+- biology
+- ubi
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/biology-ubi
 rscf:

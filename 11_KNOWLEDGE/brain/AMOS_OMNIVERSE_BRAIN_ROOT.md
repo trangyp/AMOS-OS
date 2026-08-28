@@ -6,7 +6,14 @@ canon-group: tech-ai
 canon-type: os-module
 rscf-state: source-claim
 topic: amos-omniverse-brain-root
-tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-omniverse-brain-root, brain]
+tags:
+- canon-group/tech-ai
+- canon/os-module
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-omniverse-brain-root
+- brain
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

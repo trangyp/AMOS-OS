@@ -2,7 +2,10 @@
 title: C06 SOCIETY CULTURE MAP
 type: map
 source: 21_DOMAINS/16_C06_SOCIETY_CULTURE/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

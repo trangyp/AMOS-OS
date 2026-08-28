@@ -2,7 +2,10 @@
 title: "Amos-Os-Runtime-Master MOC"
 type: moc
 source: 07_SKILLS/amos-os-runtime-master
-tags: [moc, amos-os-runtime-master, canon/skill]
+tags:
+- moc
+- amos-os-runtime-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: RESILIENCE REPAIR MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/55_RESILIENCE_REPAIR_MODES
-tags: [control_plane, 55_resilience_repair_modes, canon/control-plane]
+tags:
+- control_plane
+- 55_resilience_repair_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

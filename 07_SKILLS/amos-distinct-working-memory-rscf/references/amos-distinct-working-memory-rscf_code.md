@@ -2,7 +2,10 @@
 title: amos distinct working memory rscf code
 type: reference
 source: 07_SKILLS/amos-distinct-working-memory-rscf/references
-tags: [reference, amos-distinct-working-memory-rscf, canon/skill]
+tags:
+- reference
+- amos-distinct-working-memory-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

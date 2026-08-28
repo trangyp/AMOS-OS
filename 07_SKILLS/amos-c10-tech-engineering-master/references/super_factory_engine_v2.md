@@ -2,7 +2,10 @@
 title: super factory engine v2
 type: reference
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
-tags: [reference, amos-c10-tech-engineering-master, canon/skill]
+tags:
+- reference
+- amos-c10-tech-engineering-master
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

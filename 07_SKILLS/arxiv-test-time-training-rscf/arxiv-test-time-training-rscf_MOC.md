@@ -2,7 +2,10 @@
 title: "Arxiv-Test-Time-Training-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-test-time-training-rscf
-tags: [moc, arxiv-test-time-training-rscf, canon/skill]
+tags:
+- moc
+- arxiv-test-time-training-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

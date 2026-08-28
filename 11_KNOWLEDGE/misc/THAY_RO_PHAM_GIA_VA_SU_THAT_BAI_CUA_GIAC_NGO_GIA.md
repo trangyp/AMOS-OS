@@ -1,6 +1,10 @@
 ---
 title: THAY RO PHAM GIA VA SU THAT BAI CUA GIAC NGO GIA
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

@@ -2,7 +2,10 @@
 title: "07 Healthcare MOC"
 type: moc
 source: 21_DOMAINS/07_HEALTHCARE
-tags: [moc, 07-healthcare, canon/domain]
+tags:
+- moc
+- 07-healthcare
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

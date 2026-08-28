@@ -2,7 +2,11 @@
 title: "ULK Logic Kernel (Universal Logic Kernel)"
 type: kernel
 source: 02_KERNEL
-tags: [ulk, kernel, logic, alu]
+tags:
+- ulk
+- kernel
+- logic
+- alu
 ---
 
 # ULK Logic Kernel (Universal Logic Kernel)

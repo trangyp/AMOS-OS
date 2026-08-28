@@ -2,7 +2,10 @@
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O15 OBSERVATION CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/00_INDEX
-tags: [cognitive_matrix, o15_observation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o15_observation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

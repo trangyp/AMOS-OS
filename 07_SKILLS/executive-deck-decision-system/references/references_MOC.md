@@ -2,7 +2,10 @@
 title: "References MOC — References — Executive Deck Decision System"
 type: moc
 source: 07_SKILLS/executive-deck-decision-system/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

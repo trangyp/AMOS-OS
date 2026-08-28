@@ -5,7 +5,19 @@ origin: "Google Drive — _00_AMOS_CANON/Kernels/AMOS_Audit_Quality_Engine_v0.js
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/amos-general
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, rscf/T-topology, rscf/K-compression, rscf/B-boundary, rscf/mu-mutation, rscf/repair, topic/audit-quality-model, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- rscf/T-topology
+- rscf/K-compression
+- rscf/B-boundary
+- rscf/mu-mutation
+- rscf/repair
+- topic/audit-quality-model
+- amos-general
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

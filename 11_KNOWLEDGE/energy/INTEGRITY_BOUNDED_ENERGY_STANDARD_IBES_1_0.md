@@ -1,6 +1,10 @@
 ---
 title: INTEGRITY BOUNDED ENERGY STANDARD IBES 1 0
-tags: [energy, power, green, canon/knowledge]
+tags:
+- energy
+- power
+- green
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/energy
 rscf:

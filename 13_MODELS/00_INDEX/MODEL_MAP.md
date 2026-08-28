@@ -2,7 +2,10 @@
 title: MODEL MAP
 type: map
 source: 13_MODELS/00_INDEX
-tags: [amos_os, 13_models, canon/model]
+tags:
+- amos_os
+- 13_models
+- canon/model
 rscf:
   state: DERIVED
   claim_class: DERIVED

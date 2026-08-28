@@ -2,7 +2,10 @@
 title: "Amos-Prompt-Domain-Control-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine
-tags: [moc, amos-prompt-domain-control-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-prompt-domain-control-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

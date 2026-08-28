@@ -1,6 +1,10 @@
 ---
 title: TRY AI MEETING NOTES AT APRIL 6 2026 10 05 AM
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

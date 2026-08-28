@@ -2,7 +2,10 @@
 title: COVERAGE COGNITIVE MATRIX COVERAGE CONTRACT
 type: coverage
 source: 25_COGNITIVE_MATRIX/07_COVERAGE/00_INDEX
-tags: [cognitive_matrix, 00_index, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- 00_index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

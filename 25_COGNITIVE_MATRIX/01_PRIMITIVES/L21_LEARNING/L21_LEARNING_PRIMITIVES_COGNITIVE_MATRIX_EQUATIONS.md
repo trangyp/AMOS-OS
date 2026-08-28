@@ -2,7 +2,10 @@
 title: L21 LEARNING PRIMITIVES COGNITIVE MATRIX EQUATIONS
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
-tags: [note, l21-learning, canon/cognitive-matrix]
+tags:
+- note
+- l21-learning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

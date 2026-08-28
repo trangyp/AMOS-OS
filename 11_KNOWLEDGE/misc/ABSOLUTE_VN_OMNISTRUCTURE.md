@@ -5,7 +5,18 @@ origin: "Google Drive — _00_AMOS_CANON/VN_OMNISTRUCTURE.txt.txt"
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/misc
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/vn-omnistructure, misc]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/T-topology
+- rscf/K-compression
+- rscf/G-relation
+- rscf/X-crossscale
+- topic/vn-omnistructure
+- misc
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

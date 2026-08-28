@@ -1,6 +1,10 @@
 ---
 title: HIERARCHICAL AI ARCHITECTURE GENERATOR
-tags: [architecture, design, structure, canon/knowledge]
+tags:
+- architecture
+- design
+- structure
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/architecture
 rscf:

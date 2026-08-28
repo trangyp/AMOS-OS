@@ -2,7 +2,12 @@
 title: "K_FAILURE_RECOVERY — Failure Recovery Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, recovery, resilience, fail_closed, rscf]
+tags:
+- kernel
+- recovery
+- resilience
+- fail_closed
+- rscf
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE

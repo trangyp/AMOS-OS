@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Fractal Systems Master"
 type: note
 source: 07_SKILLS/amos-fractal-systems-master
-tags: [note, amos-fractal-systems-master, canon/skill]
+tags:
+- note
+- amos-fractal-systems-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

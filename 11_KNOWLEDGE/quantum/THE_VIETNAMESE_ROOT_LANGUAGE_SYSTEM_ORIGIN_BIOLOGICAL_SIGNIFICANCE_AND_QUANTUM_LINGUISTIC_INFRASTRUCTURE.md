@@ -1,6 +1,13 @@
 ---
 title: THE VIETNAMESE ROOT LANGUAGE SYSTEM ORIGIN BIOLOGICAL SIGNIFICANCE AND QUANTUM LINGUISTIC INFRASTRUCTURE
-tags: [canon-group/quantum, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-vietnamese-root-language-system-orig, quantum]
+tags:
+- canon-group/quantum
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/the-vietnamese-root-language-system-orig
+- quantum
 type: note
 source: 11_KNOWLEDGE/quantum
 rscf:

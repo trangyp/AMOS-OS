@@ -10,7 +10,14 @@ origin_architect: Trang Phan
 parent_skill: amos-c06-society-culture-master
 rscf_node_type: skill
 status: production_ready
-tags: [rscf/node, knowledge, vault, canon-group/cross-domain, topic/vietnamese-global, topic/cultural-bridge, canon/knowledge]
+tags:
+- rscf/node
+- knowledge
+- vault
+- canon-group/cross-domain
+- topic/vietnamese-global
+- topic/cultural-bridge
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

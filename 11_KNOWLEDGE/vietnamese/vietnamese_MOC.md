@@ -2,7 +2,10 @@
 title: "Vietnamese MOC"
 type: moc
 source: 11_KNOWLEDGE/vietnamese
-tags: [moc, vietnamese, canon/knowledge]
+tags:
+- moc
+- vietnamese
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

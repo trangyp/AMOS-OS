@@ -1,6 +1,13 @@
 ---
 title: AMOS META COGNITION SELF IMPROVEMENT
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-meta-cognition-self-improvement, amos-general]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-meta-cognition-self-improvement
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

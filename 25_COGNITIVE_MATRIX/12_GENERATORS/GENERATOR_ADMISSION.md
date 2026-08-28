@@ -2,7 +2,10 @@
 title: GENERATOR ADMISSION
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
-tags: [cognitive_matrix, generator_admission.md, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- generator_admission.md
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

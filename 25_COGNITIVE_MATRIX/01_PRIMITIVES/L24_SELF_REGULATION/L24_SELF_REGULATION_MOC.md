@@ -2,7 +2,10 @@
 title: "L24 Self Regulation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
-tags: [moc, l24-self-regulation, canon/cognitive-matrix]
+tags:
+- moc
+- l24-self-regulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

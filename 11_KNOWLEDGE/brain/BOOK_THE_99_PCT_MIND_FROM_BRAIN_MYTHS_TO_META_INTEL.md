@@ -1,6 +1,10 @@
 ---
 title: BOOK THE 99 PCT MIND FROM BRAIN MYTHS TO META INTEL
-tags: [brain, cognitive, neural, canon/knowledge]
+tags:
+- brain
+- cognitive
+- neural
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/brain
 rscf:

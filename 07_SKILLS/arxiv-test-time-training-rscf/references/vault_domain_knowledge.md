@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Test Time Training Rscf"
 type: reference
 source: 07_SKILLS/arxiv-test-time-training-rscf/references
-tags: [reference, arxiv-test-time-training-rscf, canon/skill]
+tags:
+- reference
+- arxiv-test-time-training-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

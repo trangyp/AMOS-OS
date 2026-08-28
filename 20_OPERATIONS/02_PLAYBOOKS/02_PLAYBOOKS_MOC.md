@@ -2,7 +2,10 @@
 title: "02 Playbooks MOC"
 type: moc
 source: 20_OPERATIONS/02_PLAYBOOKS
-tags: [moc, 02-playbooks, canon/operations]
+tags:
+- moc
+- 02-playbooks
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

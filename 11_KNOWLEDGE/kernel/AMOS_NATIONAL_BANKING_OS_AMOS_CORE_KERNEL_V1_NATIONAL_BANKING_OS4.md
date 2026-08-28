@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-national-banking-os-amos-core-kernel-v1
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-national-banking-os-amos-core-kerne, kernel]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-national-banking-os-amos-core-kerne
+- kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

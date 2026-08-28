@@ -2,7 +2,10 @@
 title: "Amos-Information-Operator-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-information-operator-engine
-tags: [moc, amos-information-operator-engine, canon/skill]
+tags:
+- moc
+- amos-information-operator-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

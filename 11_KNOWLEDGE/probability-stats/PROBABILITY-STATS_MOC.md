@@ -2,7 +2,10 @@
 title: "Probability-Stats MOC"
 type: moc
 source: 11_KNOWLEDGE/probability-stats
-tags: [moc, probability-stats, canon/knowledge]
+tags:
+- moc
+- probability-stats
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

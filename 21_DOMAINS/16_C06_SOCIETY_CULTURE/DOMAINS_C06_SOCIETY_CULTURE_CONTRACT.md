@@ -2,7 +2,10 @@
 title: DOMAINS C06 SOCIETY CULTURE CONTRACT
 type: note
 source: 21_DOMAINS/16_C06_SOCIETY_CULTURE
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Index MOC — Cognitive Matrix / Control Planes / C09 Kernel Control / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL/00_INDEX
-tags: [moc, 00-index, canon/cognitive-matrix]
+tags:
+- moc
+- 00-index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

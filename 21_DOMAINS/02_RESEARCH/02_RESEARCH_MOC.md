@@ -2,7 +2,10 @@
 title: "02 Research MOC"
 type: moc
 source: 21_DOMAINS/02_RESEARCH
-tags: [moc, 02-research, canon/domain]
+tags:
+- moc
+- 02-research
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

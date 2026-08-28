@@ -1,6 +1,10 @@
 ---
 title: KIEN TRUC THUC TAI AMOS MO HINH CAU TRUC KHONG KHO
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

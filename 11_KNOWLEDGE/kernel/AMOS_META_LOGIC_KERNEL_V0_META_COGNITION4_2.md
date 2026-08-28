@@ -1,6 +1,13 @@
 ---
 title: AMOS META LOGIC KERNEL V0 META COGNITION4 2
-tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-meta-logic-kernel-v0, kernel]
+tags:
+- canon-group/meta
+- canon/law
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-meta-logic-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

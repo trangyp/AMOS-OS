@@ -6,7 +6,21 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Design_Kernel_v0.json (582 lines, 17KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, design, kernel, v-infinity, visual, ux, product, service, org, business, market, planetary, x100k, canon/knowledge]
+tags:
+- amos
+- design
+- kernel
+- v-infinity
+- visual
+- ux
+- product
+- service
+- org
+- business
+- market
+- planetary
+- x100k
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

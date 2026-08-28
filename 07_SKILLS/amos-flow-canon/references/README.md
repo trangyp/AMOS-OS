@@ -2,7 +2,10 @@
 title: "README — References — Amos Flow Canon"
 type: note
 source: 07_SKILLS/amos-flow-canon/references
-tags: [skill_reference, index, canon/skill]
+tags:
+- skill_reference
+- index
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

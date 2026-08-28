@@ -2,7 +2,10 @@
 title: "Pipelines MOC"
 type: moc
 source: 11_KNOWLEDGE/pipelines
-tags: [moc, pipelines, canon/knowledge]
+tags:
+- moc
+- pipelines
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

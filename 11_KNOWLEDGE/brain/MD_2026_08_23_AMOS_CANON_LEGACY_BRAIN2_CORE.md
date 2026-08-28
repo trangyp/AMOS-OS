@@ -7,7 +7,22 @@ provenance: "direct file inspection of flattened _LEGACY BRAIN2/Core files at _0
 confidence: 0.95
 epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
-tags: [legacy-brain2, core, amos-canon, 7-intelligents, canonical-laws, mind, ubi, web, cognition-engine, emotion-engine, consciousness-engine, personality-trang, ip-shield, brain, canon/knowledge]
+tags:
+- legacy-brain2
+- core
+- amos-canon
+- 7-intelligents
+- canonical-laws
+- mind
+- ubi
+- web
+- cognition-engine
+- emotion-engine
+- consciousness-engine
+- personality-trang
+- ip-shield
+- brain
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

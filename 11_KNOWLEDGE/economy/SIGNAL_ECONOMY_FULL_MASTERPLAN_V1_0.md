@@ -1,6 +1,10 @@
 ---
 title: SIGNAL ECONOMY FULL MASTERPLAN V1 0
-tags: [economy, finance, market, canon/knowledge]
+tags:
+- economy
+- finance
+- market
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/economy
 rscf:

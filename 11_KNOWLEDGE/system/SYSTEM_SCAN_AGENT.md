@@ -1,6 +1,10 @@
 ---
 title: SYSTEM SCAN AGENT
-tags: [system, architecture, design, canon/knowledge]
+tags:
+- system
+- architecture
+- design
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/system
 rscf:

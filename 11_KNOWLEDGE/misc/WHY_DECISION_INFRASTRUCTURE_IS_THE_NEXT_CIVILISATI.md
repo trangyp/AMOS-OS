@@ -1,6 +1,10 @@
 ---
 title: WHY DECISION INFRASTRUCTURE IS THE NEXT CIVILISATI
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

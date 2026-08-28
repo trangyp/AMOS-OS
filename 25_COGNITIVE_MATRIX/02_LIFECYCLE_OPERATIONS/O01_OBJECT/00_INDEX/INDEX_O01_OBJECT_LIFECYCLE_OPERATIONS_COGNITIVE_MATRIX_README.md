@@ -2,7 +2,10 @@
 title: INDEX O01 OBJECT LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT/00_INDEX
-tags: [cognitive_matrix, o01_object, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o01_object
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

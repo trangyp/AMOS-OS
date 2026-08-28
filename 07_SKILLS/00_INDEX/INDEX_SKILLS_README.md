@@ -2,7 +2,10 @@
 title: INDEX SKILLS README
 type: index
 source: 07_SKILLS/00_INDEX
-tags: [amos_os, 07_skills, canon/skill]
+tags:
+- amos_os
+- 07_skills
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: INTERFACES README
 type: interface
 source: 15_INTERFACES
-tags: [amos_os, 15_interfaces, canon/interface]
+tags:
+- amos_os
+- 15_interfaces
+- canon/interface
 rscf:
   state: DERIVED
   claim_class: DERIVED

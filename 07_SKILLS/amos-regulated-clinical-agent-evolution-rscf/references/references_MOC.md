@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Regulated Clinical Agent Evolution Rscf"
 type: moc
 source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "05 Calibration MOC"
 type: moc
 source: 13_MODELS/05_CALIBRATION
-tags: [moc, 05-calibration, canon/model]
+tags:
+- moc
+- 05-calibration
+- canon/model
 rscf:
   state: DERIVED
   claim_class: DERIVED

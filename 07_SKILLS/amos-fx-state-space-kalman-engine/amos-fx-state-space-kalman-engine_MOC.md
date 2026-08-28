@@ -2,7 +2,10 @@
 title: "Amos-Fx-State-Space-Kalman-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-fx-state-space-kalman-engine
-tags: [moc, amos-fx-state-space-kalman-engine, canon/skill]
+tags:
+- moc
+- amos-fx-state-space-kalman-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

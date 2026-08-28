@@ -2,7 +2,10 @@
 title: CANON COGNITION CANON CONTRACT
 type: canon
 source: 01_CANON/03_COGNITION_CANON
-tags: [amos_os, 01_canon, canon/universe]
+tags:
+- amos_os
+- 01_canon
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

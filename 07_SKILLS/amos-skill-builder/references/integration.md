@@ -2,7 +2,10 @@
 title: "integration — References — Amos Skill Builder"
 type: reference
 source: 07_SKILLS/amos-skill-builder/references
-tags: [reference, amos-skill-builder, canon/skill]
+tags:
+- reference
+- amos-skill-builder
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: FULL TREE
 type: tree
 source: 00_ROOT
-tags: [00_root, note, canon/root]
+tags:
+- 00_root
+- note
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-electrical-power-engine-v0
-tags: [canon-group/biology, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-electrical-power-engine-v0, cognitive]
+tags:
+- canon-group/biology
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-electrical-power-engine-v0
+- cognitive
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

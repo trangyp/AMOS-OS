@@ -2,7 +2,10 @@
 title: C01 GOVERNANCE MAP
 type: map
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE/00_INDEX
-tags: [cognitive_matrix, c01_governance, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c01_governance
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

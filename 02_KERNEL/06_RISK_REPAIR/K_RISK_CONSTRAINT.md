@@ -14,7 +14,22 @@ plane: KERNEL
 kernel_family: GOVERNED_DECISION
 scope: AMOS_OS
 updated: 2026-08-26
-tags: [amos-os, kernel, core, kernel/risk, kernel/constraint, kernel/governance, kernel/invariants, kernel/uncertainty, kernel/repair, kernel/causal, kernel/provenance, topic/risk-envelope, topic/irreversibility, topic/action-governance, canon/kernel]
+tags:
+- amos-os
+- kernel
+- core
+- kernel/risk
+- kernel/constraint
+- kernel/governance
+- kernel/invariants
+- kernel/uncertainty
+- kernel/repair
+- kernel/causal
+- kernel/provenance
+- topic/risk-envelope
+- topic/irreversibility
+- topic/action-governance
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

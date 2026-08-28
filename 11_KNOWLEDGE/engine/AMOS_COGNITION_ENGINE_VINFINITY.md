@@ -6,7 +6,17 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Cognition_Engine_v0.json (397 lines, 16KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, cognition, engine, v-infinity, meta-logic, structural-reasoning, quantum-reasoning, biological-logic, integration, canon/knowledge]
+tags:
+- amos
+- cognition
+- engine
+- v-infinity
+- meta-logic
+- structural-reasoning
+- quantum-reasoning
+- biological-logic
+- integration
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

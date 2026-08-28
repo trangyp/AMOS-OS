@@ -2,7 +2,10 @@
 title: INDEX RESEARCH DOMAINS README
 type: index
 source: 21_DOMAINS/02_RESEARCH/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: SECURITY README
 type: security
 source: 18_SECURITY
-tags: [amos_os, 18_security, canon/security]
+tags:
+- amos_os
+- 18_security
+- canon/security
 rscf:
   state: DERIVED
   claim_class: DERIVED

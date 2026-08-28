@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Symbolic Translation Repair Rscf"
 type: reference
 source: 07_SKILLS/amos-symbolic-translation-repair-rscf/references
-tags: [reference, amos-symbolic-translation-repair-rscf, canon/skill]
+tags:
+- reference
+- amos-symbolic-translation-repair-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

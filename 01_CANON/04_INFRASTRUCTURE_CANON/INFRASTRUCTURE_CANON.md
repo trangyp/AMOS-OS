@@ -16,7 +16,43 @@ origin_architect: Trang Phan
 steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, infrastructure, substrate, compute, storage, network, deployment, runtime, resilience, availability, durability, resource-governance, topology, isolation, fault-domain, persistence, state, provenance, observability, security, recovery, rollback, rscf, causal-lineage, canon-group/infrastructure, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/infrastructure-canon]
+tags:
+- amos
+- canon
+- universe
+- amos-os
+- amos-core
+- amos-core-v4-4
+- infrastructure
+- substrate
+- compute
+- storage
+- network
+- deployment
+- runtime
+- resilience
+- availability
+- durability
+- resource-governance
+- topology
+- isolation
+- fault-domain
+- persistence
+- state
+- provenance
+- observability
+- security
+- recovery
+- rollback
+- rscf
+- causal-lineage
+- canon-group/infrastructure
+- canon/framework
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/infrastructure-canon
 aliases: "- AMOS Infrastructure Canon
   - Infrastructure Canon
   - AMOS Infrastructure Foundation

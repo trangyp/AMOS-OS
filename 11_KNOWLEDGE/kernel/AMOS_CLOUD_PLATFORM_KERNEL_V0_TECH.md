@@ -1,6 +1,13 @@
 ---
 title: AMOS CLOUD PLATFORM KERNEL V0 TECH
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-cloud-platform-kernel-v0, kernel]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-cloud-platform-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

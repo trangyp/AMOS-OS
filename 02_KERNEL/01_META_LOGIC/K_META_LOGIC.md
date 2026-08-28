@@ -1,7 +1,19 @@
 ---
 type: logic
 source: 02_KERNEL/01_META_LOGIC
-tags: [amos, kernel, core, cognitive-matrix, l02, attention, purpose, rscf, hml, ai, governance, canon/kernel]
+tags:
+- amos
+- kernel
+- core
+- cognitive-matrix
+- l02
+- attention
+- purpose
+- rscf
+- hml
+- ai
+- governance
+- canon/kernel
 title: "L02_ATTENTION — Purpose"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"

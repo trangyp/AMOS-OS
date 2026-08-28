@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / Software / Index"
 type: moc
 source: 21_DOMAINS/01_SOFTWARE/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

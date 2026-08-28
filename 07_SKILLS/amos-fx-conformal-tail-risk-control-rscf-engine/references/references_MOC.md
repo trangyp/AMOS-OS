@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Fx Conformal Tail Risk Control Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

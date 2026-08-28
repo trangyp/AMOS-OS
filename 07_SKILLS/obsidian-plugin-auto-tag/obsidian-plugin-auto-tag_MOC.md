@@ -2,7 +2,10 @@
 title: "obsidian-plugin-auto-tag MOC"
 type: moc
 source: 07_SKILLS/obsidian-plugin-auto-tag
-tags: [moc, obsidian-plugin-auto-tag, canon/skill]
+tags:
+- moc
+- obsidian-plugin-auto-tag
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

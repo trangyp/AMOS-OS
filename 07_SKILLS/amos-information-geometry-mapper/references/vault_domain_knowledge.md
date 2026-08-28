@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Information Geometry Mapper"
 type: reference
 source: 07_SKILLS/amos-information-geometry-mapper/references
-tags: [reference, amos-information-geometry-mapper, canon/skill]
+tags:
+- reference
+- amos-information-geometry-mapper
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

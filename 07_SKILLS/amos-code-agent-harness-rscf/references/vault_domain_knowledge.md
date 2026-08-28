@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Code Agent Harness Rscf"
 type: reference
 source: 07_SKILLS/amos-code-agent-harness-rscf/references
-tags: [reference, amos-code-agent-harness-rscf, canon/skill]
+tags:
+- reference
+- amos-code-agent-harness-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

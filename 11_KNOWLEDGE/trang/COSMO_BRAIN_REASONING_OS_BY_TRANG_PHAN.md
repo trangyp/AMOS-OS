@@ -3,7 +3,14 @@ type: doc
 source: 11_KNOWLEDGE/trang
 title: Bridge to Cosmo Brain — Reasoning OS by Trang Phan
 created: 2026-08-22
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/cosmo-brain-reasoning-os-by-trang-phan, trang]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/cosmo-brain-reasoning-os-by-trang-phan
+- trang
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -6,7 +6,14 @@ canon-group: human-system
 canon-type: model
 rscf-state: source-claim
 topic: sector-profile-json-regulation-and-compliance-json-market-st
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/sector-profile-json-regulation-and-compl, security]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/sector-profile-json-regulation-and-compl
+- security
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

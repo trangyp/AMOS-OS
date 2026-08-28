@@ -16,7 +16,36 @@ domain: causal-closure
 scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/causal, kernel/causal-closure, kernel/dependency, kernel/provenance, kernel/epistemic, kernel/scope, kernel/regime, kernel/freshness, kernel/rscf, kernel/counterfactual, kernel/multi-hypothesis, kernel/validation, kernel/recovery, provenance/topology, provenance/independence, causal/firewall, causal/lineage, causal/finality, rscf/claim, rscf/provenance, rscf/state/model, topic/causal-closure, topic/causal-lineage, topic/causal-dependency]
+tags:
+- amos-os
+- kernel
+- core
+- canon-group/tech-ai
+- canon/model
+- kernel/causal
+- kernel/causal-closure
+- kernel/dependency
+- kernel/provenance
+- kernel/epistemic
+- kernel/scope
+- kernel/regime
+- kernel/freshness
+- kernel/rscf
+- kernel/counterfactual
+- kernel/multi-hypothesis
+- kernel/validation
+- kernel/recovery
+- provenance/topology
+- provenance/independence
+- causal/firewall
+- causal/lineage
+- causal/finality
+- rscf/claim
+- rscf/provenance
+- rscf/state/model
+- topic/causal-closure
+- topic/causal-lineage
+- topic/causal-dependency
 aliases: "- AMOS Causal Closure Kernel
   - Causal Closure Kernel
   - K Causal Closure

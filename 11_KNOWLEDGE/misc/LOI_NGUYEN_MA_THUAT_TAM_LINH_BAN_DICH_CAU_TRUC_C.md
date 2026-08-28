@@ -1,6 +1,10 @@
 ---
 title: LOI NGUYEN MA THUAT TAM LINH BAN DICH CAU TRUC C
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

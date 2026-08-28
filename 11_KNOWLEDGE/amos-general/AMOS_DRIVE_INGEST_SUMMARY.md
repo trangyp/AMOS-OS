@@ -5,7 +5,14 @@ origin: "Hermes ↔ Google Drive ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
 type: ingest-log
 source: 11_KNOWLEDGE/amos-general
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-drive-ingest-summary, amos-general]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-drive-ingest-summary
+- amos-general
 status: "active"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"

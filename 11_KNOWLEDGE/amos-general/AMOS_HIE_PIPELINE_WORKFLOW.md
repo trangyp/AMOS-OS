@@ -1,6 +1,12 @@
 ---
 title: AMOS HIE PIPELINE WORKFLOW
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/state/observation, topic/amos-hie-pipeline-workflow, amos-general]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/state/observation
+- topic/amos-hie-pipeline-workflow
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

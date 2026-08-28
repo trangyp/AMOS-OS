@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Structured Document Parsing Rscf"
 type: moc
 source: 07_SKILLS/amos-structured-document-parsing-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

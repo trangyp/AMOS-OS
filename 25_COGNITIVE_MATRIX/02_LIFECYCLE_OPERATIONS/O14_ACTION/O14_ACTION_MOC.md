@@ -2,7 +2,10 @@
 title: "O14 Action MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O14_ACTION
-tags: [moc, o14-action, canon/cognitive-matrix]
+tags:
+- moc
+- o14-action
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

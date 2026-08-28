@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Portable Agent Authorization Rscf"
 type: reference
 source: 07_SKILLS/amos-portable-agent-authorization-rscf/references
-tags: [reference, amos-portable-agent-authorization-rscf, canon/skill]
+tags:
+- reference
+- amos-portable-agent-authorization-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

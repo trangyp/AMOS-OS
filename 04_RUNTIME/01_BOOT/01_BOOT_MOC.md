@@ -2,7 +2,10 @@
 title: "01 Boot MOC"
 type: moc
 source: 04_RUNTIME/01_BOOT
-tags: [moc, 01-boot, canon/runtime]
+tags:
+- moc
+- 01-boot
+- canon/runtime
 rscf:
   state: DERIVED
   claim_class: DERIVED

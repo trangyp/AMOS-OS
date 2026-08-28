@@ -1,6 +1,10 @@
 ---
 title: MEMORY WRITE AGENT
-tags: [memory, state, persistence, canon/knowledge]
+tags:
+- memory
+- state
+- persistence
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/memory
 rscf:

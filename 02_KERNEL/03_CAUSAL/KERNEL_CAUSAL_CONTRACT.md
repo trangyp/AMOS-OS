@@ -2,7 +2,10 @@
 title: KERNEL CAUSAL CONTRACT
 type: kernel
 source: 02_KERNEL/03_CAUSAL
-tags: [amos_os, 02_kernel, canon/kernel]
+tags:
+- amos_os
+- 02_kernel
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "L10 World Modeling MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
-tags: [moc, l10-world-modeling, canon/cognitive-matrix]
+tags:
+- moc
+- l10-world-modeling
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

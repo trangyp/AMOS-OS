@@ -7,7 +7,15 @@ provenance: verified glob counts of vault on disk (2026-08-22, live co-edited st
 confidence: 0.98
 epistemic_class: OBSERVATION
 conclusion_label: VERIFIED
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-brain-inventory, dated, dated/2026-08-22]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-brain-inventory
+- dated
+- dated/2026-08-22
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

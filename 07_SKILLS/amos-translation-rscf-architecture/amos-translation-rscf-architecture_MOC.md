@@ -2,7 +2,10 @@
 title: "Amos-Translation-Rscf-Architecture MOC"
 type: moc
 source: 07_SKILLS/amos-translation-rscf-architecture
-tags: [moc, amos-translation-rscf-architecture, canon/skill]
+tags:
+- moc
+- amos-translation-rscf-architecture
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

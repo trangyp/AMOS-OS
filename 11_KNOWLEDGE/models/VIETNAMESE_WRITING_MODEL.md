@@ -3,7 +3,14 @@ title: VIETNAMESE WRITING MODEL
 type: model
 source: 11_KNOWLEDGE/models
 aliases: [Vietnamese Writing Engine, AMOS_Vietnamese_Writing, Trang Superwriter, Executive Writing]
-tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/vietnamese-writing-model, models]
+tags:
+- canon-group/human-system
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/vietnamese-writing-model
+- models
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

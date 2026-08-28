@@ -1,6 +1,10 @@
 ---
 title: WEALTH GAME HACK 5000 KEY EQUATIONS
-tags: [economy, finance, market, canon/knowledge]
+tags:
+- economy
+- finance
+- market
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/economy
 rscf:

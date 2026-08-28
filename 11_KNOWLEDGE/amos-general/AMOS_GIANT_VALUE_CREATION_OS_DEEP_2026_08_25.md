@@ -19,7 +19,11 @@ epistemic_classes: "- SOURCE_CLAIM
 conclusion_class: "CONDITIONAL"
 version: "2.0-deep"
 date: "2026-08-25"
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

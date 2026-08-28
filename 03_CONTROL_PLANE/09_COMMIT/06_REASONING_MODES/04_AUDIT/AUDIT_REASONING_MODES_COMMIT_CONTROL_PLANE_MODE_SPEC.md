@@ -2,7 +2,10 @@
 title: AUDIT REASONING MODES COMMIT CONTROL PLANE MODE SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT
-tags: [control_plane, 06_reasoning_modes/04_audit, canon/control-plane]
+tags:
+- control_plane
+- 06_reasoning_modes/04_audit
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

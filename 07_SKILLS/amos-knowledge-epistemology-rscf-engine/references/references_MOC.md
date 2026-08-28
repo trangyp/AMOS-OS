@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Knowledge Epistemology Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

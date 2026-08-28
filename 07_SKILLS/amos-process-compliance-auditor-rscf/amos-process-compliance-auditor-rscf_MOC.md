@@ -2,7 +2,10 @@
 title: "Amos-Process-Compliance-Auditor-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-process-compliance-auditor-rscf
-tags: [moc, amos-process-compliance-auditor-rscf, canon/skill]
+tags:
+- moc
+- amos-process-compliance-auditor-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

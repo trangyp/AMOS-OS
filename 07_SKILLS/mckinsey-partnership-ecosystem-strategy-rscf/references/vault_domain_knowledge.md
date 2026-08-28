@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Partnership Ecosystem Strategy Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf/references
-tags: [reference, mckinsey-partnership-ecosystem-strategy-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-partnership-ecosystem-strategy-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

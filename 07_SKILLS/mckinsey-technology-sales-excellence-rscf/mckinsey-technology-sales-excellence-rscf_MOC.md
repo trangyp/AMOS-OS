@@ -2,7 +2,10 @@
 title: "Mckinsey-Technology-Sales-Excellence-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf
-tags: [moc, mckinsey-technology-sales-excellence-rsc, canon/skill]
+tags:
+- moc
+- mckinsey-technology-sales-excellence-rsc
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

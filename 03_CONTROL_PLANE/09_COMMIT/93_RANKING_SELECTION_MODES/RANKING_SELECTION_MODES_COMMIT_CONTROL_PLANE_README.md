@@ -2,7 +2,10 @@
 title: RANKING SELECTION MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/93_RANKING_SELECTION_MODES
-tags: [control_plane, 93_ranking_selection_modes, canon/control-plane]
+tags:
+- control_plane
+- 93_ranking_selection_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

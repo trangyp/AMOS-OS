@@ -2,7 +2,10 @@
 title: "AMOS C05 — Mind & Behavior Master Knowledge"
 type: mind
 source: 11_KNOWLEDGE
-tags: [knowledge, note, canon/knowledge]
+tags:
+- knowledge
+- note
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

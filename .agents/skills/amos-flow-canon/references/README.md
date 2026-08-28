@@ -1,5 +1,7 @@
 ---
-tags: [skill_reference, index]
+tags:
+- skill_reference
+- index
 ---
 
 # References — amos-flow-canon

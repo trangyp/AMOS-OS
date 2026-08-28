@@ -2,7 +2,10 @@
 title: C07 ECON FINANCE DOMAINS C07 ECON FINANCE CONTRACT
 type: finance
 source: 21_DOMAINS/17_C07_ECON_FINANCE/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

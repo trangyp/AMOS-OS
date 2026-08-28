@@ -2,7 +2,10 @@
 title: "01 Core Laws MOC"
 type: moc
 source: 01_CANON/01_CORE_LAWS
-tags: [moc, 01-core-laws, canon/universe]
+tags:
+- moc
+- 01-core-laws
+- canon/universe
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

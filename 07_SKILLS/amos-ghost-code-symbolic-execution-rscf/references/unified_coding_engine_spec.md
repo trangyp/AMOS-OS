@@ -2,7 +2,10 @@
 title: unified coding engine spec
 type: reference
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf/references
-tags: [reference, amos-ghost-code-symbolic-execution-rscf, canon/skill]
+tags:
+- reference
+- amos-ghost-code-symbolic-execution-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

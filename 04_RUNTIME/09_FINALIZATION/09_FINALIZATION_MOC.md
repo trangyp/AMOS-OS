@@ -2,7 +2,10 @@
 title: "09 Finalization MOC"
 type: moc
 source: 04_RUNTIME/09_FINALIZATION
-tags: [moc, 09-finalization, canon/runtime]
+tags:
+- moc
+- 09-finalization
+- canon/runtime
 rscf:
   state: DERIVED
   claim_class: DERIVED

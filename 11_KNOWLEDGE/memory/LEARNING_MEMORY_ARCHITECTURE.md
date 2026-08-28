@@ -1,6 +1,10 @@
 ---
 title: LEARNING MEMORY ARCHITECTURE
-tags: [memory, state, persistence, canon/knowledge]
+tags:
+- memory
+- state
+- persistence
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/memory
 rscf:

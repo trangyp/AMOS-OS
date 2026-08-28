@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Retrieval Conditioned Orchestration Budget Rscf"
 type: reference
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf/references
-tags: [reference, amos-retrieval-conditioned-orchestration-budget-rscf, canon/skill]
+tags:
+- reference
+- amos-retrieval-conditioned-orchestration-budget-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

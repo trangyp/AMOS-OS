@@ -4,7 +4,23 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Governance Economy.txt"
 origin_architect: "Trang System"
 type: reference
-tags: [canon-group/human-system, amos, governance, economy, TSS, TPE, ULF, PSI, policy, institutional-design, national-governance, canon/framework, rscf/state/observation, rscf/claim, rscf/provenance, topic/amos-governance-economy-os]
+tags:
+- canon-group/human-system
+- amos
+- governance
+- economy
+- TSS
+- TPE
+- ULF
+- PSI
+- policy
+- institutional-design
+- national-governance
+- canon/framework
+- rscf/state/observation
+- rscf/claim
+- rscf/provenance
+- topic/amos-governance-economy-os
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

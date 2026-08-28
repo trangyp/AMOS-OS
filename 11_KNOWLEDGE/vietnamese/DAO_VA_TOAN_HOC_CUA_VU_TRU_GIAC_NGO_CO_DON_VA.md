@@ -1,6 +1,10 @@
 ---
 title: DAO VA TOAN HOC CUA VU TRU GIAC NGO CO DON VA
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

@@ -2,7 +2,10 @@
 title: "Amos-System-Completion-Auditor MOC"
 type: moc
 source: 07_SKILLS/amos-system-completion-auditor
-tags: [moc, amos-system-completion-auditor, canon/skill]
+tags:
+- moc
+- amos-system-completion-auditor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

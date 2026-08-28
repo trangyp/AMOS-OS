@@ -3,7 +3,14 @@ title: SIGNAL PROCESSING MODEL
 type: model
 source: 11_KNOWLEDGE/signal
 aliases: [Signal Processing Engine, AMOS_Signal_Processing]
-tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/signal-processing-model, signal]
+tags:
+- canon-group/biology
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/signal-processing-model
+- signal
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

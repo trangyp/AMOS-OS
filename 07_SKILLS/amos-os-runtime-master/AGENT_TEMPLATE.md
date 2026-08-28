@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Os Runtime Master"
 type: note
 source: 07_SKILLS/amos-os-runtime-master
-tags: [note, amos-os-runtime-master, canon/skill]
+tags:
+- note
+- amos-os-runtime-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

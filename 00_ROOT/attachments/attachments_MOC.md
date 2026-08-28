@@ -2,7 +2,10 @@
 title: "Attachments MOC"
 type: moc
 source: 00_ROOT/attachments
-tags: [moc, attachments, canon/root]
+tags:
+- moc
+- attachments
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

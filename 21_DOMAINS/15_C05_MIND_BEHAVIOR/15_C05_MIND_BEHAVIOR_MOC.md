@@ -2,7 +2,10 @@
 title: "15 C05 Mind Behavior MOC"
 type: moc
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR
-tags: [moc, 15-c05-mind-behavior, canon/domain]
+tags:
+- moc
+- 15-c05-mind-behavior
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: KE DANH DOI LICH SU VAN MINH NHU CUOC PHAN BOI C
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

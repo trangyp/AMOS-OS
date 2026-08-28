@@ -7,7 +7,15 @@ provenance: user-supplied canonical v1.0 spec + schema; verified against cosmo-b
 confidence: 0.98
 epistemic_class: OBSERVATION
 conclusion_label: VERIFIED
-tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-executable-brain-model-lineag, dated, dated/2026-08-22]
+tags:
+- canon-group/biology
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-executable-brain-model-lineag
+- dated
+- dated/2026-08-22
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

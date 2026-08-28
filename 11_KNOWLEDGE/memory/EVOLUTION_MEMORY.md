@@ -1,6 +1,10 @@
 ---
 title: EVOLUTION MEMORY
-tags: [memory, state, persistence, canon/knowledge]
+tags:
+- memory
+- state
+- persistence
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/memory
 rscf:

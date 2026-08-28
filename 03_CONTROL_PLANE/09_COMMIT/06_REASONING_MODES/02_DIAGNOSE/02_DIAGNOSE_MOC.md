@@ -2,7 +2,10 @@
 title: "02 Diagnose MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/02_DIAGNOSE
-tags: [moc, 02-diagnose, canon/control-plane]
+tags:
+- moc
+- 02-diagnose
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

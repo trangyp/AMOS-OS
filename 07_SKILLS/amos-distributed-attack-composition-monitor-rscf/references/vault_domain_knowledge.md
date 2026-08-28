@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Distributed Attack Composition Monitor Rscf"
 type: reference
 source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/references
-tags: [reference, amos-distributed-attack-composition-monitor-rscf, canon/skill]
+tags:
+- reference
+- amos-distributed-attack-composition-monitor-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

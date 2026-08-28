@@ -1,6 +1,13 @@
 ---
 title: AMOS GOVERNANCE RISK POLICY KERNEL V0
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-governance-risk-policy-kernel-v0, kernel]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-governance-risk-policy-kernel-v0
+- kernel
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:

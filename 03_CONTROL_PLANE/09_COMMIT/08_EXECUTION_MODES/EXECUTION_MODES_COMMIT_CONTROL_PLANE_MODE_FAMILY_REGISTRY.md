@@ -2,7 +2,10 @@
 title: EXECUTION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/08_EXECUTION_MODES
-tags: [control_plane, 08_execution_modes, canon/control-plane]
+tags:
+- control_plane
+- 08_execution_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

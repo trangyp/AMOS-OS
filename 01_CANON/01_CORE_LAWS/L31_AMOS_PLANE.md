@@ -2,7 +2,11 @@
 title: L31 AMOS PLANE
 type: plan
 source: 01_CANON/01_CORE_LAWS
-tags: [canon, core_laws, note, canon/universe]
+tags:
+- canon
+- core_laws
+- note
+- canon/universe
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

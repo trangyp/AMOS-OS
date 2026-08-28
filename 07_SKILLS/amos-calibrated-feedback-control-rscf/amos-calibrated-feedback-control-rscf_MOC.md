@@ -2,7 +2,10 @@
 title: "Amos-Calibrated-Feedback-Control-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-calibrated-feedback-control-rscf
-tags: [moc, amos-calibrated-feedback-control-rscf, canon/skill]
+tags:
+- moc
+- amos-calibrated-feedback-control-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

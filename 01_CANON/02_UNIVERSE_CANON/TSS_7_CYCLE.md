@@ -2,7 +2,10 @@
 title: "TSS 7-Cycle Dynamics (Redirect)"
 type: redirect
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [tss, redirect, cycles]
+tags:
+- tss
+- redirect
+- cycles
 ---
 
 # TSS 7-Cycle Dynamics

@@ -2,7 +2,10 @@
 title: CONTROL PLANE COMMIT CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT
-tags: [control_plane, control_plane_commit_contract.md, canon/control-plane]
+tags:
+- control_plane
+- control_plane_commit_contract.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

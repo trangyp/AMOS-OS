@@ -2,7 +2,18 @@
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX REPAIR
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
-tags: [amos, cognitive-matrix, l01, sensing-observation, repair, recovery, provenance, rscf, hml, control-plane, canon/cognitive-matrix]
+tags:
+- amos
+- cognitive-matrix
+- l01
+- sensing-observation
+- repair
+- recovery
+- provenance
+- rscf
+- hml
+- control-plane
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

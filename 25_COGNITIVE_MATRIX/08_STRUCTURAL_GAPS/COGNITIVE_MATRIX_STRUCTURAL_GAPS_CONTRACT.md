@@ -2,7 +2,10 @@
 title: COGNITIVE MATRIX STRUCTURAL GAPS CONTRACT
 type: gap
 source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
-tags: [cognitive_matrix, cognitive_matrix_structural_gaps_contract.md, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- cognitive_matrix_structural_gaps_contract.md
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

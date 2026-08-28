@@ -1,6 +1,10 @@
 ---
 title: QUANTUM INTEGRITY STACK THE LAW OF LAW AND THE AR
-tags: [quantum, physics, qfm, canon/knowledge]
+tags:
+- quantum
+- physics
+- qfm
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/quantum
 rscf:

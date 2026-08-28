@@ -2,7 +2,11 @@
 title: "Khung Trang 19×19 Universal Topology"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [khung_trang, go_board, topology, canon]
+tags:
+- khung_trang
+- go_board
+- topology
+- canon
 ---
 
 # Khung Trang 19×19 Universal Topology

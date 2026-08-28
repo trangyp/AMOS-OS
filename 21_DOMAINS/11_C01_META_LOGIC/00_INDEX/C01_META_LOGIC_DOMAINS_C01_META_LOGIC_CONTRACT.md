@@ -2,7 +2,10 @@
 title: C01 META LOGIC DOMAINS C01 META LOGIC CONTRACT
 type: logic
 source: 21_DOMAINS/11_C01_META_LOGIC/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L13 PREDICTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION
-tags: [cognitive_matrix, primitives, l13_prediction, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l13_prediction
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

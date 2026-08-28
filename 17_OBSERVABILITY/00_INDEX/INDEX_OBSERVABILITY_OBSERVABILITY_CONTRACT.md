@@ -2,7 +2,10 @@
 title: INDEX OBSERVABILITY OBSERVABILITY CONTRACT
 type: index
 source: 17_OBSERVABILITY/00_INDEX
-tags: [amos_os, 17_observability, canon/observability]
+tags:
+- amos_os
+- 17_observability
+- canon/observability
 rscf:
   state: DERIVED
   claim_class: DERIVED

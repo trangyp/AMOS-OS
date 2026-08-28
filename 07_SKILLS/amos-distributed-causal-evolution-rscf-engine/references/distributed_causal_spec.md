@@ -2,7 +2,10 @@
 title: distributed causal spec
 type: reference
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine/references
-tags: [reference, amos-distributed-causal-evolution-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-distributed-causal-evolution-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

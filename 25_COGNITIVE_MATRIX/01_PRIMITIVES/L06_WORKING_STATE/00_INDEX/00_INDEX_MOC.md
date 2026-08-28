@@ -2,7 +2,10 @@
 title: "Index MOC — Cognitive Matrix / Primitives / L06 Working State / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE/00_INDEX
-tags: [moc, 00-index, canon/cognitive-matrix]
+tags:
+- moc
+- 00-index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

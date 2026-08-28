@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Semantic Token Flow Firewall Rscf"
 type: reference
 source: 07_SKILLS/amos-semantic-token-flow-firewall-rscf/references
-tags: [reference, amos-semantic-token-flow-firewall-rscf, canon/skill]
+tags:
+- reference
+- amos-semantic-token-flow-firewall-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

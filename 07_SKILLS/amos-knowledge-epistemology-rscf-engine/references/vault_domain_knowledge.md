@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Knowledge Epistemology Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine/references
-tags: [reference, amos-knowledge-epistemology-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-knowledge-epistemology-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

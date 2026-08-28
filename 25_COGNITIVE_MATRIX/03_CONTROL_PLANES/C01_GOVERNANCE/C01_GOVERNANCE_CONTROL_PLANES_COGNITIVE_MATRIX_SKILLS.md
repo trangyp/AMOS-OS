@@ -2,7 +2,10 @@
 title: C01 GOVERNANCE CONTROL PLANES COGNITIVE MATRIX SKILLS
 type: note
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
-tags: [note, c01-governance, canon/cognitive-matrix]
+tags:
+- note
+- c01-governance
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

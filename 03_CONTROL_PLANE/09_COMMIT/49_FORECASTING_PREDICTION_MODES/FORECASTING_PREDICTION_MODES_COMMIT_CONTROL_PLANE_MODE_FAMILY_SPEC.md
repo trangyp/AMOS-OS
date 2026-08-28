@@ -2,7 +2,10 @@
 title: FORECASTING PREDICTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/49_FORECASTING_PREDICTION_MODES
-tags: [control_plane, 49_forecasting_prediction_modes, canon/control-plane]
+tags:
+- control_plane
+- 49_forecasting_prediction_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

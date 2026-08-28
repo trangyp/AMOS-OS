@@ -2,7 +2,10 @@
 title: "Audit MOC"
 type: moc
 source: 11_KNOWLEDGE/audit
-tags: [moc, audit, canon/knowledge]
+tags:
+- moc
+- audit
+- canon/knowledge
 rscf:
   state: DERIVED
   claim_class: DERIVED

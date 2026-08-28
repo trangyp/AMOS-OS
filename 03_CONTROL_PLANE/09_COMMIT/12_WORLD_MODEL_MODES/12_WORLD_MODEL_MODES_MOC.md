@@ -2,7 +2,10 @@
 title: "12 World Model Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/12_WORLD_MODEL_MODES
-tags: [moc, 12-world-model-modes, canon/control-plane]
+tags:
+- moc
+- 12-world-model-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

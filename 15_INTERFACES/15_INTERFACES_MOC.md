@@ -2,7 +2,10 @@
 title: "15 Interfaces MOC"
 type: moc
 source: 15_INTERFACES
-tags: [moc, 15-interfaces, canon/interface]
+tags:
+- moc
+- 15-interfaces
+- canon/interface
 rscf:
   state: DERIVED
   claim_class: DERIVED

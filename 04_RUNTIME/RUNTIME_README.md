@@ -2,7 +2,10 @@
 title: RUNTIME README
 type: runtime
 source: 04_RUNTIME
-tags: [amos_os, 04_runtime, canon/runtime]
+tags:
+- amos_os
+- 04_runtime
+- canon/runtime
 rscf:
   state: DERIVED
   claim_class: DERIVED

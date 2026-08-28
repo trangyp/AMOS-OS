@@ -1,6 +1,13 @@
 ---
 title: HSE ENGINEV AMOS FORMAT WITH UCM
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/hse-enginev-amos-format-with-ucm, engine]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/hse-enginev-amos-format-with-ucm
+- engine
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

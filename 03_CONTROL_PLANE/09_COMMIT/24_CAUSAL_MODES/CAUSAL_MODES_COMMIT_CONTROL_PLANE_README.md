@@ -2,7 +2,10 @@
 title: CAUSAL MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/24_CAUSAL_MODES
-tags: [control_plane, 24_causal_modes, canon/control-plane]
+tags:
+- control_plane
+- 24_causal_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

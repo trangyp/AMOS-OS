@@ -2,7 +2,10 @@
 title: "100 Handoff Continuity Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/100_HANDOFF_CONTINUITY_MODES
-tags: [moc, 100-handoff-continuity-modes, canon/control-plane]
+tags:
+- moc
+- 100-handoff-continuity-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

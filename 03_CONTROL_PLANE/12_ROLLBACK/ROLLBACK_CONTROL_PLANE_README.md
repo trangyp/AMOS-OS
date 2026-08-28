@@ -2,7 +2,10 @@
 title: ROLLBACK CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/12_ROLLBACK
-tags: [control_plane, rollback_control_plane_readme.md, canon/control-plane]
+tags:
+- control_plane
+- rollback_control_plane_readme.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

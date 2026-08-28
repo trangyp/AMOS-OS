@@ -2,7 +2,10 @@
 title: "12_GENERATORS — Generator Tests"
 type: test
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
-tags: [note, 12-generators, canon/cognitive-matrix]
+tags:
+- note
+- 12-generators
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

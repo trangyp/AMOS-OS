@@ -2,7 +2,10 @@
 title: STATE KERNEL README
 type: kernel
 source: 02_KERNEL/04_STATE
-tags: [amos_os, 02_kernel, canon/kernel]
+tags:
+- amos_os
+- 02_kernel
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

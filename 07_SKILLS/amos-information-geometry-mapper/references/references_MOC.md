@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Information Geometry Mapper"
 type: moc
 source: 07_SKILLS/amos-information-geometry-mapper/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

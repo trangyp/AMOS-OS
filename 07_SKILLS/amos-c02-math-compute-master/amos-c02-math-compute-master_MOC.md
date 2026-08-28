@@ -2,7 +2,10 @@
 title: "Amos-C02-Math-Compute-Master MOC"
 type: moc
 source: 07_SKILLS/amos-c02-math-compute-master
-tags: [moc, amos-c02-math-compute-master, canon/skill]
+tags:
+- moc
+- amos-c02-math-compute-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

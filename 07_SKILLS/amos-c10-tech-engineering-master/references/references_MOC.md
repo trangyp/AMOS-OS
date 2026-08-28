@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos C10 Tech Engineering Master"
 type: moc
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

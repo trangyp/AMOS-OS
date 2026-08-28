@@ -2,7 +2,10 @@
 title: "Mckinsey-Human-Centered-Design-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-human-centered-design-rscf
-tags: [moc, mckinsey-human-centered-design-rscf, canon/skill]
+tags:
+- moc
+- mckinsey-human-centered-design-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

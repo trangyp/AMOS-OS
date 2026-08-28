@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: bridge
 source: 11_KNOWLEDGE/brain
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/brain-consistency-auditor-agent, brain]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/brain-consistency-auditor-agent
+- brain
 status: "index"
 provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"

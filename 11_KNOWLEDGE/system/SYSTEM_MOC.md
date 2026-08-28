@@ -2,7 +2,10 @@
 title: "System MOC"
 type: moc
 source: 11_KNOWLEDGE/system
-tags: [moc, system, canon/knowledge]
+tags:
+- moc
+- system
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

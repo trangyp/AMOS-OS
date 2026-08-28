@@ -2,7 +2,10 @@
 title: L LOW SCALE SCALES COGNITIVE MATRIX DEPENDENCIES
 type: note
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
-tags: [note, l-low-scale, canon/cognitive-matrix]
+tags:
+- note
+- l-low-scale
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

@@ -2,7 +2,10 @@
 title: "Amos-Boundary-Scope-Master MOC"
 type: moc
 source: 07_SKILLS/amos-boundary-scope-master
-tags: [moc, amos-boundary-scope-master, canon/skill]
+tags:
+- moc
+- amos-boundary-scope-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

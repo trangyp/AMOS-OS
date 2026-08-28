@@ -1,6 +1,13 @@
 ---
 title: AMOS LANGUAGE AND INTERFACE PACK V0 TEMPLATE4
-tags: [canon-group/human-system, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-language-and-interface-pack-v0, amos-general]
+tags:
+- canon-group/human-system
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-language-and-interface-pack-v0
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

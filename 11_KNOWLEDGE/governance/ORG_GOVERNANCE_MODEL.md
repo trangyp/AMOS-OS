@@ -3,7 +3,14 @@ title: ORG GOVERNANCE MODEL
 type: model
 source: 11_KNOWLEDGE/governance
 aliases: [Org Governance Engine, AMOS_Org_Governance]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/org-governance-model, governance]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/org-governance-model
+- governance
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

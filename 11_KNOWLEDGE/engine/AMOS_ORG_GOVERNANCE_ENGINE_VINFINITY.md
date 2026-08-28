@@ -6,7 +6,24 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Org_Governance_Engine_v0.json (542 lines, 19KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, governance, organization, kernel, engine, v-infinity, diagnosis, design, structure, decision-rights, risk, compliance, culture, TSS, PSI, UBI, canon/knowledge]
+tags:
+- amos
+- governance
+- organization
+- kernel
+- engine
+- v-infinity
+- diagnosis
+- design
+- structure
+- decision-rights
+- risk
+- compliance
+- culture
+- TSS
+- PSI
+- UBI
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

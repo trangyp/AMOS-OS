@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Agent Economy Constitutional Governance Rscf"
 type: reference
 source: 07_SKILLS/amos-agent-economy-constitutional-governance-rscf/references
-tags: [reference, amos-agent-economy-constitutional-governance-rscf, canon/skill]
+tags:
+- reference
+- amos-agent-economy-constitutional-governance-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

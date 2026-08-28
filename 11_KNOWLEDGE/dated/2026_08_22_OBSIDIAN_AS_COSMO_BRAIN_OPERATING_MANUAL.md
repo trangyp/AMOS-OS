@@ -7,7 +7,15 @@ provenance: amos-obsidian-vault-config skill + cosmo-obsidian-memory skill + AMO
 confidence: 0.95
 epistemic_class: SOURCE_DERIVED
 conclusion_label: VERIFIED_PRESENT
-tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-obsidian-as-cosmo-brain-opera, dated, dated/2026-08-22]
+tags:
+- canon-group/human-system
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-obsidian-as-cosmo-brain-opera
+- dated
+- dated/2026-08-22
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "C05 Representation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION
-tags: [moc, c05-representation, canon/cognitive-matrix]
+tags:
+- moc
+- c05-representation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

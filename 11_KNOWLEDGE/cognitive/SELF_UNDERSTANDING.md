@@ -1,6 +1,10 @@
 ---
 title: SELF UNDERSTANDING
-tags: [cognitive, cognition, mind, canon/knowledge]
+tags:
+- cognitive
+- cognition
+- mind
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/cognitive
 rscf:

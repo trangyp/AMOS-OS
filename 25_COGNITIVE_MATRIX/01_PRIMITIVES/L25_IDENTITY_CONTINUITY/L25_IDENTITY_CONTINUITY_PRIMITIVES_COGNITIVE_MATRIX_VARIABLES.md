@@ -2,7 +2,10 @@
 title: L25 IDENTITY CONTINUITY PRIMITIVES COGNITIVE MATRIX VARIABLES
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY
-tags: [note, l25-identity-continuity, canon/cognitive-matrix]
+tags:
+- note
+- l25-identity-continuity
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

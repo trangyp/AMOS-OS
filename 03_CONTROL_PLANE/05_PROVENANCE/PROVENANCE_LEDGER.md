@@ -2,7 +2,10 @@
 title: PROVENANCE LEDGER
 type: provenance
 source: 03_CONTROL_PLANE/05_PROVENANCE
-tags: [control_plane, provenance_ledger.md, canon/control-plane]
+tags:
+- control_plane
+- provenance_ledger.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

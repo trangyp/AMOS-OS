@@ -1,6 +1,10 @@
 ---
 title: WHY BCI RAISES THE STANDARD FOR SAFETY TO NEAR ZER
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

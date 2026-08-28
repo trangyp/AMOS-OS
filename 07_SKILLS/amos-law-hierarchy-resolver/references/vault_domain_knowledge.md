@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Law Hierarchy Resolver"
 type: reference
 source: 07_SKILLS/amos-law-hierarchy-resolver/references
-tags: [reference, amos-law-hierarchy-resolver, canon/skill]
+tags:
+- reference
+- amos-law-hierarchy-resolver
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

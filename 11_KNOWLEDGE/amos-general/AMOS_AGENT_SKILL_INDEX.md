@@ -1,6 +1,11 @@
 ---
 title: AMOS AGENT SKILL INDEX
-tags: [canon-group/tech-ai, canon/framework, rscf/state/observation, topic/amos-agent-skill-index, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/state/observation
+- topic/amos-agent-skill-index
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

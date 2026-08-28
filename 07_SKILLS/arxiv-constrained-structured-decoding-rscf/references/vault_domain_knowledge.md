@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Constrained Structured Decoding Rscf"
 type: reference
 source: 07_SKILLS/arxiv-constrained-structured-decoding-rscf/references
-tags: [reference, arxiv-constrained-structured-decoding-rscf, canon/skill]
+tags:
+- reference
+- arxiv-constrained-structured-decoding-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

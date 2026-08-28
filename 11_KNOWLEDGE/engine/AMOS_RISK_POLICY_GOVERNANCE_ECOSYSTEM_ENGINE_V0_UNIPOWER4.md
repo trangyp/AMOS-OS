@@ -6,7 +6,14 @@ canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: amos-risk-policy-governance-ecosystem-engine-v0
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-risk-policy-governance-ecosystem-en, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-risk-policy-governance-ecosystem-en
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

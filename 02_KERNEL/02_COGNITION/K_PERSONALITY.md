@@ -11,7 +11,15 @@ plane: "02_KERNEL"
 segment: "02_KERNEL/02_COGNITION"
 artifact_kind: "ARTIFACT"
 path: "02_KERNEL/02_COGNITION/K_PERSONALITY.md"
-tags: [amos_os, kernel, core, 02_kernel, artifact, canon_placeholder, rscf, canon/kernel]
+tags:
+- amos_os
+- kernel
+- core
+- 02_kernel
+- artifact
+- canon_placeholder
+- rscf
+- canon/kernel
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

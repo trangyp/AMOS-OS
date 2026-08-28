@@ -1,6 +1,10 @@
 ---
 title: ENERGY ARCHITECTURE
-tags: [energy, power, green, canon/knowledge]
+tags:
+- energy
+- power
+- green
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/energy
 rscf:

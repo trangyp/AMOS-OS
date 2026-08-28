@@ -2,7 +2,10 @@
 title: "Amos-Sensory-Map-Integrator MOC"
 type: moc
 source: 07_SKILLS/amos-sensory-map-integrator
-tags: [moc, amos-sensory-map-integrator, canon/skill]
+tags:
+- moc
+- amos-sensory-map-integrator
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

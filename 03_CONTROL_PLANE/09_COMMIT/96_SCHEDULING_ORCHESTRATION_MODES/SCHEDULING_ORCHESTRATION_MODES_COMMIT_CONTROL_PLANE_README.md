@@ -2,7 +2,10 @@
 title: SCHEDULING ORCHESTRATION MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/96_SCHEDULING_ORCHESTRATION_MODES
-tags: [control_plane, 96_scheduling_orchestration_modes, canon/control-plane]
+tags:
+- control_plane
+- 96_scheduling_orchestration_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,11 @@
 title: CONTROL PLANE CONTROL PLANE CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE
-tags: [control_plane, governance, policy, canon/control-plane]
+tags:
+- control_plane
+- governance
+- policy
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

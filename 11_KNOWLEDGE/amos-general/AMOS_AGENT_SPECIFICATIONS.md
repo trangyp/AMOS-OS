@@ -1,6 +1,13 @@
 ---
 title: AMOS AGENT SPECIFICATIONS
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-agent-specifications, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-agent-specifications
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

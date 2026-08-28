@@ -2,7 +2,10 @@
 title: MEMORY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES
-tags: [control_plane, 18_memory_modes, canon/control-plane]
+tags:
+- control_plane
+- 18_memory_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

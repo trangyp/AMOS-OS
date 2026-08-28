@@ -2,7 +2,10 @@
 title: C06 MEMORY CONTROL PLANES COGNITIVE MATRIX README
 type: note
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
-tags: [note, c06-memory, canon/cognitive-matrix]
+tags:
+- note
+- c06-memory
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

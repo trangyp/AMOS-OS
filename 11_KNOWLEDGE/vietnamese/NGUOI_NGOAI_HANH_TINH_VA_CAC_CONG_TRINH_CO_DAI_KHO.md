@@ -1,6 +1,10 @@
 ---
 title: NGUOI NGOAI HANH TINH VA CAC CONG TRINH CO DAI KHO
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

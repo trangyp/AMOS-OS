@@ -1,6 +1,10 @@
 ---
 title: HOW HUMAN CENTERED DESIGN DRIFTED FROM CARE TO T
-tags: [human, alignment, interaction, canon/knowledge]
+tags:
+- human
+- alignment
+- interaction
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/human
 rscf:

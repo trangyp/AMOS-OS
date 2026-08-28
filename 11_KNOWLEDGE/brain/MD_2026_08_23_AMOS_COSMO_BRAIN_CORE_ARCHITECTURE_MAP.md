@@ -5,7 +5,17 @@ origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
 type: note
 source: 11_KNOWLEDGE/brain
-tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/typescript, topic/architecture, topic/core-modules, brain, canon/knowledge]
+tags:
+- cosmo
+- amos
+- canon-group/tech-ai
+- rscf/claim
+- rscf/state/observation
+- topic/typescript
+- topic/architecture
+- topic/core-modules
+- brain
+- canon/knowledge
 status: "complete"
 provenance: "OBSERVATION"
 confidence: "HIGH"

@@ -2,7 +2,10 @@
 title: UBI NBI NEUROBIOLOGICAL DOMAINS UBI NBI NEUROBIOLOGICAL CONTRACT
 type: biology
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

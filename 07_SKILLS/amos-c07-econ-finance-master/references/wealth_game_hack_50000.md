@@ -2,7 +2,10 @@
 title: wealth game hack 50000
 type: reference
 source: 07_SKILLS/amos-c07-econ-finance-master/references
-tags: [reference, amos-c07-econ-finance-master, canon/skill]
+tags:
+- reference
+- amos-c07-econ-finance-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

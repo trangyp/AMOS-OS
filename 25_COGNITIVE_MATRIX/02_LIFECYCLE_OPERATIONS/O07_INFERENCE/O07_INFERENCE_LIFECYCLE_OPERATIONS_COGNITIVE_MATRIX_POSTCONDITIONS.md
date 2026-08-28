@@ -2,7 +2,10 @@
 title: O07 INFERENCE LIFECYCLE OPERATIONS COGNITIVE MATRIX POSTCONDITIONS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
-tags: [note, o07-inference, canon/cognitive-matrix]
+tags:
+- note
+- o07-inference
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

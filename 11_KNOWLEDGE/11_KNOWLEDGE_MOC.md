@@ -2,7 +2,10 @@
 title: "11_KNOWLEDGE MOC (Knowledge Plane Map of Content)"
 type: moc
 source: 11_KNOWLEDGE
-tags: [moc, knowledge, rscf]
+tags:
+- moc
+- knowledge
+- rscf
 ---
 
 # 11_KNOWLEDGE MOC

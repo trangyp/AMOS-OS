@@ -1,6 +1,10 @@
 ---
 title: DOCUMENTATION KERNEL V0
-tags: [kernel, core, runtime, canon/knowledge]
+tags:
+- kernel
+- core
+- runtime
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:

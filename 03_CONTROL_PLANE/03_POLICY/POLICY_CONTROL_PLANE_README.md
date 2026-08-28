@@ -2,7 +2,10 @@
 title: POLICY CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/03_POLICY
-tags: [control_plane, policy_control_plane_readme.md, canon/control-plane]
+tags:
+- control_plane
+- policy_control_plane_readme.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

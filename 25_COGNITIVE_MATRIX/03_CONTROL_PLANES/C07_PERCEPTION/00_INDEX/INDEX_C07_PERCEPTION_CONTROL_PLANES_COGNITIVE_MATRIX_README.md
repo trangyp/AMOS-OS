@@ -2,7 +2,10 @@
 title: INDEX C07 PERCEPTION CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION/00_INDEX
-tags: [cognitive_matrix, c07_perception, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c07_perception
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

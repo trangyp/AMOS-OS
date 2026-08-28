@@ -2,7 +2,10 @@
 title: MODE TEMPLATE COMMIT CONTROL PLANE OBSERVABILITY
 type: template
 source: 03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE
-tags: [control_plane, 16_mode_template, canon/control-plane]
+tags:
+- control_plane
+- 16_mode_template
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

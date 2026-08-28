@@ -2,7 +2,10 @@
 title: "15 Custom Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/15_CUSTOM_MODES
-tags: [moc, 15-custom-modes, canon/control-plane]
+tags:
+- moc
+- 15-custom-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

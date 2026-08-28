@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Memory Execution Graph Attribution Rscf"
 type: reference
 source: 07_SKILLS/amos-memory-execution-graph-attribution-rscf/references
-tags: [reference, amos-memory-execution-graph-attribution-rscf, canon/skill]
+tags:
+- reference
+- amos-memory-execution-graph-attribution-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

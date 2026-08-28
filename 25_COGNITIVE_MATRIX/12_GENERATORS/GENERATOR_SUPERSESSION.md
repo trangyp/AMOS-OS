@@ -9,7 +9,9 @@ rscf:
     - internal
   freshness: EVERGREEN
   falsifiers: []
-tags: [note, 12-generators]
+tags:
+- note
+- 12-generators
 canon-group: canon/cognitive-matrix
 ---
 

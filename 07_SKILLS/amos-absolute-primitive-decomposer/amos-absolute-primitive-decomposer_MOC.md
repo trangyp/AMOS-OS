@@ -2,7 +2,10 @@
 title: "Amos-Absolute-Primitive-Decomposer MOC"
 type: moc
 source: 07_SKILLS/amos-absolute-primitive-decomposer
-tags: [moc, amos-absolute-primitive-decomposer, canon/skill]
+tags:
+- moc
+- amos-absolute-primitive-decomposer
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

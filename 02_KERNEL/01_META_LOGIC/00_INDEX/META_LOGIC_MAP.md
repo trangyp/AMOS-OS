@@ -2,7 +2,10 @@
 title: META LOGIC MAP
 type: map
 source: 02_KERNEL/01_META_LOGIC/00_INDEX
-tags: [amos_os, 02_kernel, canon/kernel]
+tags:
+- amos_os
+- 02_kernel
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

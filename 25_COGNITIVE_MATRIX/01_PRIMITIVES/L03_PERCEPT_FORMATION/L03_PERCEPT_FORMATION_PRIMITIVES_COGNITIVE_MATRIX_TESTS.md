@@ -1,7 +1,17 @@
 ---
 type: test
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
-tags: [amos, cognitive-matrix, l03, percept-formation, tests, validation, rscf, provenance, governance, canon/cognitive-matrix]
+tags:
+- amos
+- cognitive-matrix
+- l03
+- percept-formation
+- tests
+- validation
+- rscf
+- provenance
+- governance
+- canon/cognitive-matrix
 title: "L03_PERCEPT_FORMATION — Tests"
 origin_architect: "Trang Phan"
 status: "MODEL_TEST_CONTRACT / UNEXECUTED / UNVALIDATED"

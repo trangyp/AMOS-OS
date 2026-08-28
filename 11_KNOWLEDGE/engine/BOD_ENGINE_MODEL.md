@@ -3,7 +3,14 @@ title: BOD ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
 aliases: [BOD Engine, AMOS_Bod_Engine]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/bod-engine-model, engine]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/bod-engine-model
+- engine
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -2,7 +2,10 @@
 title: RISK SAFETY MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/36_RISK_SAFETY_MODES
-tags: [control_plane, 36_risk_safety_modes, canon/control-plane]
+tags:
+- control_plane
+- 36_risk_safety_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

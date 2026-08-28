@@ -12,7 +12,11 @@ status: active
 source_alignment: AMOS_CORE v3.0→v4.4
 conclusion_class: SOURCE_ALIGNED_MODEL
 description: "see body"
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,10 @@
 ---
 title: AMOS CORE V3 3 GOVERNED META EVOLUTION RUNTIME
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

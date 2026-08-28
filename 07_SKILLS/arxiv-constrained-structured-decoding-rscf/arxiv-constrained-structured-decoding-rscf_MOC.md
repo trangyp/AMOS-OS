@@ -2,7 +2,10 @@
 title: "Arxiv-Constrained-Structured-Decoding-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-constrained-structured-decoding-rscf
-tags: [moc, arxiv-constrained-structured-decoding-rs, canon/skill]
+tags:
+- moc
+- arxiv-constrained-structured-decoding-rs
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

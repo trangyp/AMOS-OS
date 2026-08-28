@@ -1,6 +1,10 @@
 ---
 title: PSI EVALUATION NGUYEN XUAN MINH
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

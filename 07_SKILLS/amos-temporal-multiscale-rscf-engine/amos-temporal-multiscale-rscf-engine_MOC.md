@@ -2,7 +2,10 @@
 title: "Amos-Temporal-Multiscale-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine
-tags: [moc, amos-temporal-multiscale-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-temporal-multiscale-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

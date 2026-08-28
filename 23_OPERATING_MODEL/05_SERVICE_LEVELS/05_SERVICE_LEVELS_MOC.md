@@ -2,7 +2,10 @@
 title: "05 Service Levels MOC"
 type: moc
 source: 23_OPERATING_MODEL/05_SERVICE_LEVELS
-tags: [moc, 05-service-levels, canon/operating-model]
+tags:
+- moc
+- 05-service-levels
+- canon/operating-model
 rscf:
   state: DERIVED
   claim_class: DERIVED

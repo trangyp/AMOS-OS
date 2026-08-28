@@ -2,7 +2,10 @@
 title: "Fractal MOC"
 type: moc
 source: 11_KNOWLEDGE/fractal
-tags: [moc, fractal, canon/knowledge]
+tags:
+- moc
+- fractal
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

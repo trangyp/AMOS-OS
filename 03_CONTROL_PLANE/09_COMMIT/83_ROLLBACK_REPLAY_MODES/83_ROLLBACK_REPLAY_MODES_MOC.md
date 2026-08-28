@@ -2,7 +2,10 @@
 title: "83 Rollback Replay Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/83_ROLLBACK_REPLAY_MODES
-tags: [moc, 83-rollback-replay-modes, canon/control-plane]
+tags:
+- moc
+- 83-rollback-replay-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

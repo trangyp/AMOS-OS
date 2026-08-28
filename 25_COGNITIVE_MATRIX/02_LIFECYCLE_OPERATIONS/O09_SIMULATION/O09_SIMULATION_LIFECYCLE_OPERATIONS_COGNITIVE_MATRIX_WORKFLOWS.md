@@ -2,7 +2,10 @@
 title: O09 SIMULATION LIFECYCLE OPERATIONS COGNITIVE MATRIX WORKFLOWS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION
-tags: [note, o09-simulation, canon/cognitive-matrix]
+tags:
+- note
+- o09-simulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: FROM ATOMIC DESIGN TO LIVING DESIGN SYSTEMS
-tags: [system, architecture, design, canon/knowledge]
+tags:
+- system
+- architecture
+- design
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/system
 rscf:

@@ -2,7 +2,10 @@
 title: "04 Escalation MOC"
 type: moc
 source: 23_OPERATING_MODEL/04_ESCALATION
-tags: [moc, 04-escalation, canon/operating-model]
+tags:
+- moc
+- 04-escalation
+- canon/operating-model
 rscf:
   state: DERIVED
   claim_class: DERIVED

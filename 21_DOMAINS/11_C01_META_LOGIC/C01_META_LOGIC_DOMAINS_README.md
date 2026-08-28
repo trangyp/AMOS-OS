@@ -2,7 +2,10 @@
 title: C01 META LOGIC DOMAINS README
 type: logic
 source: 21_DOMAINS/11_C01_META_LOGIC
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

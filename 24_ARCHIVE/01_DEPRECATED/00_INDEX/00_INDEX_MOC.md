@@ -2,7 +2,10 @@
 title: "Index MOC — Archive / Deprecated / Index"
 type: moc
 source: 24_ARCHIVE/01_DEPRECATED/00_INDEX
-tags: [moc, 00-index, canon/archive]
+tags:
+- moc
+- 00-index
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: DERIVED

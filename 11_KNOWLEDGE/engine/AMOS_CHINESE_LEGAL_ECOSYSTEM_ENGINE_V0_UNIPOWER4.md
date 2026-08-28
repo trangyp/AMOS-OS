@@ -6,7 +6,14 @@ canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: amos-chinese-legal-ecosystem-engine-v0
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-chinese-legal-ecosystem-engine-v0, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-chinese-legal-ecosystem-engine-v0
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

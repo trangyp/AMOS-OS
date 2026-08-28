@@ -26,7 +26,10 @@ cross_links: "see body"
 epistemic_regime: "THEORETICAL_RESEARCH"
 scope: "cross-scale recursive systems modeling"
 freshness_policy: "REVALIDATE_ON_DEPENDENCY_CHANGE"
-tags: [knowledge, note, canon/knowledge]
+tags:
+- knowledge
+- note
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

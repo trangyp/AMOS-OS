@@ -2,7 +2,10 @@
 title: MULTI AGENT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: agent
 source: 03_CONTROL_PLANE/09_COMMIT/31_MULTI_AGENT_MODES
-tags: [control_plane, 31_multi_agent_modes, canon/control-plane]
+tags:
+- control_plane
+- 31_multi_agent_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

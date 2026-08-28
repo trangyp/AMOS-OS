@@ -4,7 +4,15 @@ type: distillation
 source: 11_KNOWLEDGE/dated
 created: 2026-08-22
 distilled_from: 7 vault notes + epistemic audit v2 + AMOS cross-mapping (total ~65 KB ingested)
-tags: [distillation, human-system, executable-summary, canonical, rscf/claim-state/verified, dated, dated/2026-08-22, canon/knowledge]
+tags:
+- distillation
+- human-system
+- executable-summary
+- canonical
+- rscf/claim-state/verified
+- dated
+- dated/2026-08-22
+- canon/knowledge
 provenance: distillation-of-ingested-knowledge
 distillation_method: MEMORY-v2-audit-crossmapping-synthesis
 distilled_byte_count: ~12000

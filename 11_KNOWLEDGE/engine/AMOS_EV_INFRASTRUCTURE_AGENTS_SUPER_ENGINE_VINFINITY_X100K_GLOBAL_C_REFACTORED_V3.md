@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-ev-infrastructure-agents-super-engine-vinfinity-x100k-g
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-ev-infrastructure-agents-super-engi, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-ev-infrastructure-agents-super-engi
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

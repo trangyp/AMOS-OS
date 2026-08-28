@@ -2,7 +2,10 @@
 title: L04 OBJECT ENTITY FORMATION PRIMITIVES COGNITIVE MATRIX EQUATIONS
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
-tags: [note, l04-object-entity-formation, canon/cognitive-matrix]
+tags:
+- note
+- l04-object-entity-formation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

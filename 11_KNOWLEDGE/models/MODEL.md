@@ -1,6 +1,10 @@
 ---
 title: MODEL
-tags: [models, model, specification, canon/knowledge]
+tags:
+- models
+- model
+- specification
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/models
 rscf:

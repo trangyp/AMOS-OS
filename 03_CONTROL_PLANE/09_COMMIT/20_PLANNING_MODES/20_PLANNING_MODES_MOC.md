@@ -2,7 +2,10 @@
 title: "20 Planning Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/20_PLANNING_MODES
-tags: [moc, 20-planning-modes, canon/control-plane]
+tags:
+- moc
+- 20-planning-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

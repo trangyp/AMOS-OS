@@ -2,7 +2,10 @@
 title: "Index MOC — Kernel / Meta Logic / Index"
 type: moc
 source: 02_KERNEL/01_META_LOGIC/00_INDEX
-tags: [moc, 00-index, canon/kernel]
+tags:
+- moc
+- 00-index
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: KIEN TRUC TAI DIEN BAN DO CHUNG CUA CAC NEN VAN MI
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

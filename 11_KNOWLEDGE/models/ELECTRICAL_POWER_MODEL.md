@@ -3,7 +3,14 @@ title: ELECTRICAL POWER MODEL
 type: model
 source: 11_KNOWLEDGE/models
 aliases: [Electrical Power Engine, AMOS_Electrical_Power]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/electrical-power-model, models]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/electrical-power-model
+- models
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

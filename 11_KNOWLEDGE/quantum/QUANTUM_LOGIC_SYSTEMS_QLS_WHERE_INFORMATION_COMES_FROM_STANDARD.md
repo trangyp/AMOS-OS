@@ -1,6 +1,13 @@
 ---
 title: QUANTUM LOGIC SYSTEMS QLS WHERE INFORMATION COMES FROM STANDARD
-tags: [canon-group/quantum, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/quantum-logic-systems-qls-where-informat, quantum]
+tags:
+- canon-group/quantum
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/quantum-logic-systems-qls-where-informat
+- quantum
 type: note
 source: 11_KNOWLEDGE/quantum
 rscf:

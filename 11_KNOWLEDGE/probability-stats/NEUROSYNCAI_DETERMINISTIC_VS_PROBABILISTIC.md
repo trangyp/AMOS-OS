@@ -5,7 +5,19 @@ origin: "Google Drive — NeuroSyncAI_vs_GenAI.pdf (760KB) + Dual-System.pdf (92
 origin_architect: "Trang Phan"
 type: research-paper
 source: 11_KNOWLEDGE/probability-stats
-tags: [neurosyncai, deterministic, certifiable-intelligence, drift-proof, memory-gating, identity-container, auditability, vs-genai, infrastructure-grade, 5-gate-architecture, probability-stats, canon/knowledge]
+tags:
+- neurosyncai
+- deterministic
+- certifiable-intelligence
+- drift-proof
+- memory-gating
+- identity-container
+- auditability
+- vs-genai
+- infrastructure-grade
+- 5-gate-architecture
+- probability-stats
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

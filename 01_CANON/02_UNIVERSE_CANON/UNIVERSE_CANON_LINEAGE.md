@@ -11,7 +11,15 @@ plane: "01_CANON"
 segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "LINEAGE"
 path: "01_CANON/02_UNIVERSE_CANON/UNIVERSE_CANON_LINEAGE.md"
-tags: [amos_os, canon, universe, 01_canon, lineage, canon_placeholder, rscf, canon/universe]
+tags:
+- amos_os
+- canon
+- universe
+- 01_canon
+- lineage
+- canon_placeholder
+- rscf
+- canon/universe
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

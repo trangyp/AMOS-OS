@@ -4,7 +4,29 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Unipower/"
 origin_architect: "Trang Phan"
 type: reference
-tags: [canon-group/tech-ai, unipower, engines, vietnam, australia, china, global, canon-group/human-system, economy, workforce, ev, market, system-operations, ai-intelligence, bod, scientific, strategic-document, tech, risk-policy-governance, omnistructure, engine, canon/knowledge]
+tags:
+- canon-group/tech-ai
+- unipower
+- engines
+- vietnam
+- australia
+- china
+- global
+- canon-group/human-system
+- economy
+- workforce
+- ev
+- market
+- system-operations
+- ai-intelligence
+- bod
+- scientific
+- strategic-document
+- tech
+- risk-policy-governance
+- omnistructure
+- engine
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

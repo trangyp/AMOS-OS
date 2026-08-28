@@ -2,7 +2,10 @@
 title: REPLAY CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/11_REPLAY
-tags: [control_plane, replay_control_plane_readme.md, canon/control-plane]
+tags:
+- control_plane
+- replay_control_plane_readme.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,11 @@
 title: "Khung Trang Foundational Ontology"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [khung_trang, ontology, canon, pre_symbolic]
+tags:
+- khung_trang
+- ontology
+- canon
+- pre_symbolic
 rscf:
   state: CANON_SPEC
   claim_class: CANONICAL_INVARIANT

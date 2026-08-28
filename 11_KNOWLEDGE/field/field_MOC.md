@@ -2,7 +2,10 @@
 title: "Field MOC"
 type: moc
 source: 11_KNOWLEDGE/field
-tags: [moc, field, canon/knowledge]
+tags:
+- moc
+- field
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

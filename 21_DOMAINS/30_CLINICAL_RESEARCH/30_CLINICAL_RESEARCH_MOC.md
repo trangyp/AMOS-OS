@@ -2,7 +2,10 @@
 title: "30 Clinical Research MOC"
 type: moc
 source: 21_DOMAINS/30_CLINICAL_RESEARCH
-tags: [moc, 30-clinical-research, canon/domain]
+tags:
+- moc
+- 30-clinical-research
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

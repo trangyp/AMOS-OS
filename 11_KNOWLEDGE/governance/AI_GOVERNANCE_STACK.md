@@ -1,6 +1,10 @@
 ---
 title: AI GOVERNANCE STACK
-tags: [governance, policy, authority, canon/knowledge]
+tags:
+- governance
+- policy
+- authority
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/governance
 rscf:

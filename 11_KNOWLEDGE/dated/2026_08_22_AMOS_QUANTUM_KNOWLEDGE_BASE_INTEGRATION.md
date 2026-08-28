@@ -5,7 +5,17 @@ origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
 type: note
 source: 11_KNOWLEDGE/dated
-tags: [cosmo, amos, canon-group/system, rscf/claim, rscf/state/observation, topic/quantum, topic/knowledge-base, dated, dated/2026-08-22, canon/knowledge]
+tags:
+- cosmo
+- amos
+- canon-group/system
+- rscf/claim
+- rscf/state/observation
+- topic/quantum
+- topic/knowledge-base
+- dated
+- dated/2026-08-22
+- canon/knowledge
 status: "verified"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"

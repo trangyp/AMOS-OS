@@ -1,6 +1,10 @@
 ---
 title: THEORETICAL AND PRACTICAL FOUNDATIONS OF STATE MAN
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

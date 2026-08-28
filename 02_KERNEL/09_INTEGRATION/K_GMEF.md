@@ -2,7 +2,11 @@
 title: K GMEF
 type: note
 source: 02_KERNEL/09_INTEGRATION
-tags: [kernel, integration, note, canon/kernel]
+tags:
+- kernel
+- integration
+- note
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: V4 1 ATOMIC MULTI RSCF
-tags: [rscf, epistemic, claim, canon/knowledge]
+tags:
+- rscf
+- epistemic
+- claim
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/rscf
 rscf:

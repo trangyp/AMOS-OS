@@ -2,7 +2,10 @@
 title: WORKFLOW
 type: note
 source: 08_WORKFLOWS/law-stack-enforcement-pipeline
-tags: [note, law-stack-enforcement-pipeline, canon/workflow]
+tags:
+- note
+- law-stack-enforcement-pipeline
+- canon/workflow
 rscf:
   state: AMOS_MODEL
   claim_class: CONDITIONAL

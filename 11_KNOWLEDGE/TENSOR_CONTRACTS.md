@@ -1,24 +1,22 @@
-Below is a source-preserving full vault expansion. I keep the supplied tensor signatures canonical; added tags, equations, contracts, tests, and machine representations are explicitly **derived augmentation**, not silently attributed to the source.
-
-````markdown
 ---
-title: "TENSOR CONTRACTS"
-
+title: TENSOR CONTRACTS
 tags:
-  - tensor
-  - knowledge
-  - vault
-  - canon/knowledge
-
+- tensor
+- knowledge
+- vault
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/root
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
+# TENSOR CONTRACTS
+
+> **Note**: Below is a source-preserving full vault expansion. I keep the supplied tensor signatures canonical; added tags, equations, contracts, tests, and machine representations are explicitly **derived augmen...
 
 # Typed Tensor Contracts
 
@@ -61,7 +59,6 @@ frontmatter:
 
 rscf_node:
   claim_class: AMOS_MODEL
-````
 
 These are not silently collapsed.
 

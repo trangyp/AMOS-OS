@@ -2,7 +2,10 @@
 title: "Amos-Growth-Graph MOC"
 type: moc
 source: 07_SKILLS/amos-growth-graph
-tags: [moc, amos-growth-graph, canon/skill]
+tags:
+- moc
+- amos-growth-graph
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Public Sector Transformation Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-public-sector-transformation-rscf/references
-tags: [reference, mckinsey-public-sector-transformation-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-public-sector-transformation-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

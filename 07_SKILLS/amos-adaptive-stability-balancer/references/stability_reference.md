@@ -2,7 +2,10 @@
 title: stability reference
 type: reference
 source: 07_SKILLS/amos-adaptive-stability-balancer/references
-tags: [reference, amos-adaptive-stability-balancer, canon/skill]
+tags:
+- reference
+- amos-adaptive-stability-balancer
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

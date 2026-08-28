@@ -7,7 +7,18 @@ provenance: user-supplied 19×19 strategic-ontology AI-cognition extension (sect
 confidence: 0.88
 epistemic_class: SOURCE_DERIVED
 conclusion_label: MODEL
-tags: [ai-cognition, attention, cognitive-field, kernel-routing, metacognition, rscf/M-memory, rscf/type-model, strategic-field, dated, dated/2026-08-22, canon/knowledge]
+tags:
+- ai-cognition
+- attention
+- cognitive-field
+- kernel-routing
+- metacognition
+- rscf/M-memory
+- rscf/type-model
+- strategic-field
+- dated
+- dated/2026-08-22
+- canon/knowledge
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

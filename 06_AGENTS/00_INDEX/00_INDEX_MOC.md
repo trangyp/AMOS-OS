@@ -2,7 +2,10 @@
 title: "Index MOC — Agents / Index"
 type: moc
 source: 06_AGENTS/00_INDEX
-tags: [moc, 00-index, canon/agent]
+tags:
+- moc
+- 00-index
+- canon/agent
 rscf:
   state: DERIVED
   claim_class: DERIVED

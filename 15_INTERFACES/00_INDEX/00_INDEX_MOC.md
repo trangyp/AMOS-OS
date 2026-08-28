@@ -2,7 +2,10 @@
 title: "Index MOC — Interfaces / Index"
 type: moc
 source: 15_INTERFACES/00_INDEX
-tags: [moc, 00-index, canon/interface]
+tags:
+- moc
+- 00-index
+- canon/interface
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Tests MOC"
 type: moc
 source: 11_KNOWLEDGE/tests
-tags: [moc, tests, canon/knowledge]
+tags:
+- moc
+- tests
+- canon/knowledge
 rscf:
   state: DERIVED
   claim_class: DERIVED

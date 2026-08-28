@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Flow Matching Generative Rscf"
 type: moc
 source: 07_SKILLS/arxiv-flow-matching-generative-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,10 @@
 ---
 title: THIET KE MO HINH MOI GIOI BAT DONG SAN
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

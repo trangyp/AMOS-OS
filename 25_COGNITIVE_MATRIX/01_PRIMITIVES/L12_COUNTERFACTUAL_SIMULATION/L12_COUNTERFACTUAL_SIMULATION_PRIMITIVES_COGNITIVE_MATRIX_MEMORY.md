@@ -2,7 +2,10 @@
 title: L12 COUNTERFACTUAL SIMULATION PRIMITIVES COGNITIVE MATRIX MEMORY
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION
-tags: [note, l12-counterfactual-simulation, canon/cognitive-matrix]
+tags:
+- note
+- l12-counterfactual-simulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

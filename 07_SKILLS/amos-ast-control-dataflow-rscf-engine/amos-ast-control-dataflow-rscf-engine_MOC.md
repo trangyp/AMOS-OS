@@ -2,7 +2,10 @@
 title: "Amos-Ast-Control-Dataflow-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine
-tags: [moc, amos-ast-control-dataflow-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-ast-control-dataflow-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

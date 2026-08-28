@@ -2,7 +2,10 @@
 title: "09 Backups MOC"
 type: moc
 source: 20_OPERATIONS/09_BACKUPS
-tags: [moc, 09-backups, canon/operations]
+tags:
+- moc
+- 09-backups
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

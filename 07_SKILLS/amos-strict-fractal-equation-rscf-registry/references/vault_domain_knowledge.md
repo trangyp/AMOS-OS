@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Strict Fractal Equation Rscf Registry"
 type: reference
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry/references
-tags: [reference, amos-strict-fractal-equation-rscf-registry, canon/skill]
+tags:
+- reference
+- amos-strict-fractal-equation-rscf-registry
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

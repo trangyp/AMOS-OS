@@ -2,7 +2,10 @@
 title: "Amos-Verification-Aware-Implementation-Diversity-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf
-tags: [moc, amos-verification-aware-implementation-d, canon/skill]
+tags:
+- moc
+- amos-verification-aware-implementation-d
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

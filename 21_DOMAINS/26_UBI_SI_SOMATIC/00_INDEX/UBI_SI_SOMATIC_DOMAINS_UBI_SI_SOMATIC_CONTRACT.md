@@ -2,7 +2,10 @@
 title: UBI SI SOMATIC DOMAINS UBI SI SOMATIC CONTRACT
 type: note
 source: 21_DOMAINS/26_UBI_SI_SOMATIC/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

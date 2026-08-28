@@ -2,7 +2,10 @@
 title: OBSERVABILITY ENVELOPE
 type: observability
 source: 03_CONTROL_PLANE/07_OBSERVABILITY
-tags: [control_plane, observability_envelope.md, canon/control-plane]
+tags:
+- control_plane
+- observability_envelope.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

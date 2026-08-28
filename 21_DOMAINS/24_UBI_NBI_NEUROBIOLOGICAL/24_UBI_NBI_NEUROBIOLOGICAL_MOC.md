@@ -2,7 +2,10 @@
 title: "24 Ubi Nbi Neurobiological MOC"
 type: moc
 source: 21_DOMAINS/24_UBI_NBI_NEUROBIOLOGICAL
-tags: [moc, 24-ubi-nbi-neurobiological, canon/domain]
+tags:
+- moc
+- 24-ubi-nbi-neurobiological
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

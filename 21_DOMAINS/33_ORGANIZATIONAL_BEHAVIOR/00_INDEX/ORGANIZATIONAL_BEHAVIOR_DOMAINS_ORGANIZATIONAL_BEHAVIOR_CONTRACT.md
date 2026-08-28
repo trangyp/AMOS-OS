@@ -2,7 +2,10 @@
 title: ORGANIZATIONAL BEHAVIOR DOMAINS ORGANIZATIONAL BEHAVIOR CONTRACT
 type: behavior
 source: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

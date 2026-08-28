@@ -2,7 +2,10 @@
 title: "09 Protocols MOC"
 type: moc
 source: 09_PROTOCOLS
-tags: [moc, 09-protocols, canon/protocol]
+tags:
+- moc
+- 09-protocols
+- canon/protocol
 rscf:
   state: DERIVED
   claim_class: DERIVED

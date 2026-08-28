@@ -2,7 +2,10 @@
 title: "06 Execution MOC"
 type: moc
 source: 04_RUNTIME/06_EXECUTION
-tags: [moc, 06-execution, canon/runtime]
+tags:
+- moc
+- 06-execution
+- canon/runtime
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: HEALING RECOVERY COMMIT CONTROL PLANE MODE SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/05_HEALING_RECOVERY
-tags: [control_plane, 05_healing_recovery, canon/control-plane]
+tags:
+- control_plane
+- 05_healing_recovery
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

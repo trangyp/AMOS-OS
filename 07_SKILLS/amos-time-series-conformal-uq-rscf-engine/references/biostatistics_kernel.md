@@ -2,7 +2,10 @@
 title: biostatistics kernel
 type: reference
 source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine/references
-tags: [reference, amos-time-series-conformal-uq-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-time-series-conformal-uq-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

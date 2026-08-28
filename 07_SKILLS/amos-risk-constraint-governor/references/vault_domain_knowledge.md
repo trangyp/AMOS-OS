@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Risk Constraint Governor"
 type: reference
 source: 07_SKILLS/amos-risk-constraint-governor/references
-tags: [reference, amos-risk-constraint-governor, canon/skill]
+tags:
+- reference
+- amos-risk-constraint-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

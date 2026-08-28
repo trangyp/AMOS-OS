@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Proof Loss Diagnostic Reconstruction Rscf"
 type: moc
 source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

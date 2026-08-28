@@ -4,7 +4,10 @@ type: note
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
 epistemic_class: DERIVED
 status: CONTRACT_FILLED_PASS_COMPLETE
-tags: [note, 07-coverage, canon/cognitive-matrix]
+tags:
+- note
+- 07-coverage
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

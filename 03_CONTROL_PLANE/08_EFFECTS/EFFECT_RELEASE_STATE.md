@@ -2,7 +2,10 @@
 title: EFFECT RELEASE STATE
 type: state
 source: 03_CONTROL_PLANE/08_EFFECTS
-tags: [control_plane, effect_release_state.md, canon/control-plane]
+tags:
+- control_plane
+- effect_release_state.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

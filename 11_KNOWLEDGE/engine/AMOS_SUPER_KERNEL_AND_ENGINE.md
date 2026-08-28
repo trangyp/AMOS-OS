@@ -5,7 +5,21 @@ origin: "Google Drive — _00_AMOS_CANON/Dsc/"
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/engine
-tags: [amos, super-kernel, super-engine, unified-meta-OS, 7-fused-kernels, deterministic, ULK, QCLA, UCP, 18-operators, 18-tensors, 5-modes, engine, canon/knowledge]
+tags:
+- amos
+- super-kernel
+- super-engine
+- unified-meta-OS
+- 7-fused-kernels
+- deterministic
+- ULK
+- QCLA
+- UCP
+- 18-operators
+- 18-tensors
+- 5-modes
+- engine
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

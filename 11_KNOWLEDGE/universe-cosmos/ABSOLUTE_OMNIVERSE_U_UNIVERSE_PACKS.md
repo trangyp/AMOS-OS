@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: absolute-omniverse-u
-tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/absolute-omniverse-u, universe-cosmos]
+tags:
+- canon-group/tech-ai
+- canon/os-module
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/absolute-omniverse-u
+- universe-cosmos
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

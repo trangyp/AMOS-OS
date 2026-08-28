@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: model
 rscf-state: source-claim
 topic: amos-self-model-v0
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-self-model-v0, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-self-model-v0
+- amos-general
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

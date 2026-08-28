@@ -2,7 +2,10 @@
 title: "Amos-Tensor-Train-Sketching-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine
-tags: [moc, amos-tensor-train-sketching-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-tensor-train-sketching-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

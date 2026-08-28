@@ -2,7 +2,11 @@
 title: "Khung Trang Canon Validation Receipt"
 type: receipt
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [receipt, validation, khung_trang, pass]
+tags:
+- receipt
+- validation
+- khung_trang
+- pass
 ---
 
 # Khung Trang Canon Validation Receipt

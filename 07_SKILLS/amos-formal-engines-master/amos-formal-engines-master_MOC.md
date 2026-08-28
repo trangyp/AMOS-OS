@@ -2,7 +2,10 @@
 title: "Amos-Formal-Engines-Master MOC"
 type: moc
 source: 07_SKILLS/amos-formal-engines-master
-tags: [moc, amos-formal-engines-master, canon/skill]
+tags:
+- moc
+- amos-formal-engines-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

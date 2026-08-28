@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Anytime Pac Bayes Density Ratio Rscf"
 type: moc
 source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

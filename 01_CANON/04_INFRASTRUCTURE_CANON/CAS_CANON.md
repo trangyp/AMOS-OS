@@ -9,7 +9,9 @@ rscf:
     - internal
   freshness: EVERGREEN
   falsifiers: []
-tags: [note, 04-infrastructure-canon]
+tags:
+- note
+- 04-infrastructure-canon
 canon-group: canon/infrastructure
 ---
 

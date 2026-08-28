@@ -15,7 +15,28 @@ kernel_family: STATE
 domain: context-state
 scope: AMOS_OS
 updated: 2026-08-26
-tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/context, kernel/context-state, kernel/state, kernel/dependency, kernel/provenance, kernel/scope, kernel/regime, kernel/freshness, kernel/invalidation, kernel/concurrency, kernel/validation, rscf/context, rscf/state/model, topic/context-state, topic/state-management, topic/dependency-closure]
+tags:
+- amos-os
+- kernel
+- core
+- canon-group/tech-ai
+- canon/model
+- kernel/context
+- kernel/context-state
+- kernel/state
+- kernel/dependency
+- kernel/provenance
+- kernel/scope
+- kernel/regime
+- kernel/freshness
+- kernel/invalidation
+- kernel/concurrency
+- kernel/validation
+- rscf/context
+- rscf/state/model
+- topic/context-state
+- topic/state-management
+- topic/dependency-closure
 aliases: "- AMOS Context State Kernel
   - Context State Kernel
   - K Context State

@@ -2,7 +2,10 @@
 title: GAP PROMOTION
 type: note
 source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
-tags: [note, 08-structural-gaps, canon/cognitive-matrix]
+tags:
+- note
+- 08-structural-gaps
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

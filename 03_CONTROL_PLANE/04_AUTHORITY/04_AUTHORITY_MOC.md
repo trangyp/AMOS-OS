@@ -2,7 +2,10 @@
 title: "04 Authority MOC"
 type: moc
 source: 03_CONTROL_PLANE/04_AUTHORITY
-tags: [moc, 04-authority, canon/control-plane]
+tags:
+- moc
+- 04-authority
+- canon/control-plane
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

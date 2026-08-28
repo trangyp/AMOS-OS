@@ -2,7 +2,10 @@
 title: "Qfm MOC"
 type: moc
 source: 11_KNOWLEDGE/qfm
-tags: [moc, qfm, canon/knowledge]
+tags:
+- moc
+- qfm
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

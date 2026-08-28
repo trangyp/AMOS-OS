@@ -2,7 +2,10 @@
 title: brain transcendental complete
 type: reference
 source: 07_SKILLS/amos-super-engines-master/references
-tags: [reference, amos-super-engines-master, canon/skill]
+tags:
+- reference
+- amos-super-engines-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

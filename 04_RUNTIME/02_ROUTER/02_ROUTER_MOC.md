@@ -2,7 +2,10 @@
 title: "02 Router MOC"
 type: moc
 source: 04_RUNTIME/02_ROUTER
-tags: [moc, 02-router, canon/runtime]
+tags:
+- moc
+- 02-router
+- canon/runtime
 rscf:
   state: DERIVED
   claim_class: DERIVED

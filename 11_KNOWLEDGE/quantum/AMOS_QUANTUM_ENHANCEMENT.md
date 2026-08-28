@@ -1,6 +1,10 @@
 ---
 title: AMOS QUANTUM ENHANCEMENT
-tags: [quantum, physics, qfm, canon/knowledge]
+tags:
+- quantum
+- physics
+- qfm
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/quantum
 rscf:

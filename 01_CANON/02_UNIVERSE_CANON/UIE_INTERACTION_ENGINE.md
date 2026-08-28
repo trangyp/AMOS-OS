@@ -2,7 +2,10 @@
 title: "UIE Interaction Engine"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [uie, interaction, universe_canon]
+tags:
+- uie
+- interaction
+- universe_canon
 ---
 
 # UIE Interaction Engine

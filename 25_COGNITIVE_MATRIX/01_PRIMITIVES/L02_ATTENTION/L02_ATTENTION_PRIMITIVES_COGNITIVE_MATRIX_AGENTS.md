@@ -1,7 +1,18 @@
 ---
 type: agent
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
-tags: [amos, cognitive-matrix, l02, attention, agents, rscf, hml, provenance, control-plane, ai, canon/cognitive-matrix]
+tags:
+- amos
+- cognitive-matrix
+- l02
+- attention
+- agents
+- rscf
+- hml
+- provenance
+- control-plane
+- ai
+- canon/cognitive-matrix
 title: "L02_ATTENTION — Agents"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / UNVALIDATED"

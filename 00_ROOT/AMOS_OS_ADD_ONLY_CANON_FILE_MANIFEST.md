@@ -10,7 +10,15 @@ updated: 2026-08-27
 status: ACTIVE_MANIFEST
 epistemic_class: AMOS_MODEL
 ingestion_action: ADD_ONLY
-tags: [amos_os, root, index, canon-ingestion, add-only, manifest, rscf, canon/root]
+tags:
+- amos_os
+- root
+- index
+- canon-ingestion
+- add-only
+- manifest
+- rscf
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

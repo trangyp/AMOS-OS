@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Boundary Admission Governor"
 type: reference
 source: 07_SKILLS/amos-boundary-admission-governor/references
-tags: [reference, amos-boundary-admission-governor, canon/skill]
+tags:
+- reference
+- amos-boundary-admission-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

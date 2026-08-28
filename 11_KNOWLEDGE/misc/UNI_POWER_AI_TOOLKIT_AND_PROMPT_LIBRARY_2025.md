@@ -1,6 +1,10 @@
 ---
 title: UNI POWER AI TOOLKIT AND PROMPT LIBRARY 2025
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

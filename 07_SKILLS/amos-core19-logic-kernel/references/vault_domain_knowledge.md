@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Core19 Logic Kernel"
 type: reference
 source: 07_SKILLS/amos-core19-logic-kernel/references
-tags: [reference, amos-core19-logic-kernel, canon/skill]
+tags:
+- reference
+- amos-core19-logic-kernel
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

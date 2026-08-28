@@ -2,7 +2,10 @@
 title: MODELS README
 type: model
 source: 13_MODELS
-tags: [amos_os, 13_models, canon/model]
+tags:
+- amos_os
+- 13_models
+- canon/model
 rscf:
   state: DERIVED
   claim_class: DERIVED

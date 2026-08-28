@@ -2,7 +2,10 @@
 title: "24 Causal Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/24_CAUSAL_MODES
-tags: [moc, 24-causal-modes, canon/control-plane]
+tags:
+- moc
+- 24-causal-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

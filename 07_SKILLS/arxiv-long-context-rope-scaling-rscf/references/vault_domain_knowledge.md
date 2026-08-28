@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Long Context Rope Scaling Rscf"
 type: reference
 source: 07_SKILLS/arxiv-long-context-rope-scaling-rscf/references
-tags: [reference, arxiv-long-context-rope-scaling-rscf, canon/skill]
+tags:
+- reference
+- arxiv-long-context-rope-scaling-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

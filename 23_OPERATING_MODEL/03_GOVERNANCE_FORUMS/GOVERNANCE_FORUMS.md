@@ -2,7 +2,10 @@
 title: GOVERNANCE FORUMS
 type: governance
 source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
-tags: [amos_os, 23_operating_model, canon/operating-model]
+tags:
+- amos_os
+- 23_operating_model
+- canon/operating-model
 rscf:
   state: DERIVED
   claim_class: DERIVED

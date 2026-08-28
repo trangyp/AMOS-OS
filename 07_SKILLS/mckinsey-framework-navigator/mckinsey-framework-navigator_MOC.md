@@ -2,7 +2,10 @@
 title: "Mckinsey-Framework-Navigator MOC"
 type: moc
 source: 07_SKILLS/mckinsey-framework-navigator
-tags: [moc, mckinsey-framework-navigator, canon/skill]
+tags:
+- moc
+- mckinsey-framework-navigator
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

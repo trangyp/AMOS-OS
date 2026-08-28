@@ -1,6 +1,10 @@
 ---
 title: CULTURAL BIFURCATION OF EMOTION AND LOGIC
-tags: [logic, reasoning, formal, canon/knowledge]
+tags:
+- logic
+- reasoning
+- formal
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/logic
 rscf:

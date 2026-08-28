@@ -2,7 +2,10 @@
 title: "Frontend-Engineering-Qa MOC"
 type: moc
 source: 07_SKILLS/frontend-engineering-qa
-tags: [moc, frontend-engineering-qa, canon/skill]
+tags:
+- moc
+- frontend-engineering-qa
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

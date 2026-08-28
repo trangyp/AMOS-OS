@@ -2,7 +2,10 @@
 title: "37 Uncertainty Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/37_UNCERTAINTY_MODES
-tags: [moc, 37-uncertainty-modes, canon/control-plane]
+tags:
+- moc
+- 37-uncertainty-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

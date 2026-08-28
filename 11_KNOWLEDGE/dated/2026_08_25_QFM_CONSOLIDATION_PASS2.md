@@ -2,7 +2,12 @@
 title: 2026 08 25 QFM CONSOLIDATION PASS2
 type: note
 source: 11_KNOWLEDGE/dated
-tags: [daily/integrity-pass, topic/quantum-fractal-math-consolidation-pass2, dated, dated/2026-08-25, canon/knowledge]
+tags:
+- daily/integrity-pass
+- topic/quantum-fractal-math-consolidation-pass2
+- dated
+- dated/2026-08-25
+- canon/knowledge
 created: 2026-08-25
 conclusion_class: AMOS MODEL / DERIVED
 rscf:

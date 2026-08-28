@@ -2,7 +2,10 @@
 title: "Amos-Semantic-Workflow-Persistence-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-semantic-workflow-persistence-rscf
-tags: [moc, amos-semantic-workflow-persistence-rscf, canon/skill]
+tags:
+- moc
+- amos-semantic-workflow-persistence-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

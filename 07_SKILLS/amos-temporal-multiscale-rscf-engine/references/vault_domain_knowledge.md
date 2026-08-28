@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Temporal Multiscale Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine/references
-tags: [reference, amos-temporal-multiscale-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-temporal-multiscale-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

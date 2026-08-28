@@ -7,7 +7,21 @@ provenance: direct file inspection of cosmo-brain/ on 2026-08-23
 confidence: 0.95
 epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
-tags: [cosmo-brain, project-map, typescript, amos, architecture, algorithms, governance, domains, schemas, registry, knowledge, prompts, brain, canon/knowledge]
+tags:
+- cosmo-brain
+- project-map
+- typescript
+- amos
+- architecture
+- algorithms
+- governance
+- domains
+- schemas
+- registry
+- knowledge
+- prompts
+- brain
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX C09 KERNEL CONTROL CONTRACT
 type: kernel
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL
-tags: [cognitive_matrix, control_planes, c09_kernel_control, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- control_planes
+- c09_kernel_control
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

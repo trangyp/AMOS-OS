@@ -2,7 +2,10 @@
 title: "Tech-Coding MOC"
 type: moc
 source: 11_KNOWLEDGE/tech-coding
-tags: [moc, tech-coding, canon/knowledge]
+tags:
+- moc
+- tech-coding
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

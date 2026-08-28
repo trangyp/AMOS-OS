@@ -11,7 +11,15 @@ plane: "03_CONTROL_PLANE"
 segment: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION"
 artifact_kind: "FRAMEWORK"
 path: "03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/CROSS_FRAMEWORK_TRANSACTION.md"
-tags: [amos_os, control_plane, governance, 03_control_plane, framework, canon_placeholder, rscf, canon/control-plane]
+tags:
+- amos_os
+- control_plane
+- governance
+- 03_control_plane
+- framework
+- canon_placeholder
+- rscf
+- canon/control-plane
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

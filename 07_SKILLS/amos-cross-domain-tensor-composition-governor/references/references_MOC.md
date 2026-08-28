@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Cross Domain Tensor Composition Governor"
 type: moc
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

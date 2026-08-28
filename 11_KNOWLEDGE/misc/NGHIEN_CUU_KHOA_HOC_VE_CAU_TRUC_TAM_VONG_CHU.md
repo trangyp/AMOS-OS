@@ -1,6 +1,10 @@
 ---
 title: NGHIEN CUU KHOA HOC VE CAU TRUC TAM VONG CHU
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

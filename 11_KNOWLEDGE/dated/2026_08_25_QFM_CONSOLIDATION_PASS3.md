@@ -1,6 +1,9 @@
 ---
 title: 2026 08 25 QFM CONSOLIDATION PASS3
-tags: [dated, dated/2026-08-25, canon/knowledge]
+tags:
+- dated
+- dated/2026-08-25
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/dated
 rscf:

@@ -2,7 +2,10 @@
 title: "References MOC — References — Cosmo Human Problem Architecture"
 type: moc
 source: 07_SKILLS/cosmo-human-problem-architecture/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

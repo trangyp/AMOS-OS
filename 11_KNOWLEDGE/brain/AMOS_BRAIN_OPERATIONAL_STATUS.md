@@ -5,7 +5,18 @@ origin: "Google Drive — AMOS backup/01_BRAIN/OPERATIONAL_STATUS.md"
 origin_architect: "AMOS Brain Supreme system"
 type: system-report
 source: 11_KNOWLEDGE/brain
-tags: [canon-group/meta, canon/model, rscf/claim, rscf/provenance, rscf/state/observation, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/amos-brain-supreme-operational-status, brain]
+tags:
+- canon-group/meta
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- rscf/T-topology
+- rscf/K-compression
+- rscf/G-relation
+- rscf/X-crossscale
+- topic/amos-brain-supreme-operational-status
+- brain
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

@@ -16,7 +16,38 @@ origin_architect: Trang Phan
 steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, persistence, durable-state, provenance, persistent-provenance, causal-lineage, state, memory, rscf, mvcc, cas, atomicity, epoch, finality, recovery, rollback, supersession, versioning, integrity, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/persistence-canon]
+tags:
+- amos
+- canon
+- universe
+- amos-os
+- amos-core
+- amos-core-v4-4
+- persistence
+- durable-state
+- provenance
+- persistent-provenance
+- causal-lineage
+- state
+- memory
+- rscf
+- mvcc
+- cas
+- atomicity
+- epoch
+- finality
+- recovery
+- rollback
+- supersession
+- versioning
+- integrity
+- canon-group/tech-ai
+- canon/framework
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/persistence-canon
 aliases: "- AMOS Persistence Canon
   - Persistence Canon
   - AMOS Durable State Canon

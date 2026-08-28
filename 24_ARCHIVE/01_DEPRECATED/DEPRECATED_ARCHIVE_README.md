@@ -2,7 +2,10 @@
 title: DEPRECATED ARCHIVE README
 type: deprecated
 source: 24_ARCHIVE/01_DEPRECATED
-tags: [amos_os, 24_archive, canon/archive]
+tags:
+- amos_os
+- 24_archive
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

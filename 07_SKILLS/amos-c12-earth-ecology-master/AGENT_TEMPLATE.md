@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos C12 Earth Ecology Master"
 type: note
 source: 07_SKILLS/amos-c12-earth-ecology-master
-tags: [note, amos-c12-earth-ecology-master, canon/skill]
+tags:
+- note
+- amos-c12-earth-ecology-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

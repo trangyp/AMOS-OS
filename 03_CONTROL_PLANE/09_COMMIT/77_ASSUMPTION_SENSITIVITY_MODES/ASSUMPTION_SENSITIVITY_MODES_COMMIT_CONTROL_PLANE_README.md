@@ -2,7 +2,10 @@
 title: ASSUMPTION SENSITIVITY MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/77_ASSUMPTION_SENSITIVITY_MODES
-tags: [control_plane, 77_assumption_sensitivity_modes, canon/control-plane]
+tags:
+- control_plane
+- 77_assumption_sensitivity_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

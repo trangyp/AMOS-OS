@@ -1,6 +1,13 @@
 ---
 title: 4 CANON INTEGRATION LAYER CIL UCIL ROOT
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/4-canon-integration-layer-cil-ucil, layers]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/4-canon-integration-layer-cil-ucil
+- layers
 type: data
 source: 11_KNOWLEDGE/layers
 rscf:

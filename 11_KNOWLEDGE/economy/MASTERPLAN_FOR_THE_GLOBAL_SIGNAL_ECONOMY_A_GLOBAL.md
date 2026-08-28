@@ -1,6 +1,10 @@
 ---
 title: MASTERPLAN FOR THE GLOBAL SIGNAL ECONOMY A GLOBAL
-tags: [economy, finance, market, canon/knowledge]
+tags:
+- economy
+- finance
+- market
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/economy
 rscf:

@@ -2,7 +2,10 @@
 title: SYSTEM MAP
 type: map
 source: 00_ROOT
-tags: [00_root, map, canon/root]
+tags:
+- 00_root
+- map
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

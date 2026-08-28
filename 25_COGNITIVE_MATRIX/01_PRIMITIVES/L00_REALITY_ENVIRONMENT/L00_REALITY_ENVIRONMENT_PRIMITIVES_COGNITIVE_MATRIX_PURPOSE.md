@@ -2,7 +2,20 @@
 title: "L00_REALITY_ENVIRONMENT — Purpose"
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
-tags: [amos, reality, environment, grounding, observation, evidence, provenance, control-plane, rscf, hml, tensors, ai, canon/cognitive-matrix]
+tags:
+- amos
+- reality
+- environment
+- grounding
+- observation
+- evidence
+- provenance
+- control-plane
+- rscf
+- hml
+- tensors
+- ai
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

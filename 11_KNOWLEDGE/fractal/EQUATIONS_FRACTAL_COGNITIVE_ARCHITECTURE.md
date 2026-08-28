@@ -1,6 +1,10 @@
 ---
 title: EQUATIONS FRACTAL COGNITIVE ARCHITECTURE
-tags: [fractal, math, self-similarity, canon/knowledge]
+tags:
+- fractal
+- math
+- self-similarity
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/fractal
 rscf:

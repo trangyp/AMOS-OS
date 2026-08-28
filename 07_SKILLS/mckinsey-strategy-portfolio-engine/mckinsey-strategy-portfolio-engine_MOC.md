@@ -2,7 +2,10 @@
 title: "Mckinsey-Strategy-Portfolio-Engine MOC"
 type: moc
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine
-tags: [moc, mckinsey-strategy-portfolio-engine, canon/skill]
+tags:
+- moc
+- mckinsey-strategy-portfolio-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -17,7 +17,42 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 scope: "see body"
-tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, core-laws, constitutional-laws, canon-law, integrity, epistemics, provenance, provenance-topology, dependency-closure, rscf, gmef, hml, competing-hypotheses, causal-firewall, scope-firewall, regime-firewall, confidence-ceiling, uncertainty, sensitivity, anti-fabrication, anti-regression, governed-evolution, recovery, authority, canon-group/tech-ai, canon/law, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-core-laws]
+tags:
+- amos
+- canon
+- universe
+- amos-os
+- amos-core
+- amos-core-v4-4
+- core-laws
+- constitutional-laws
+- canon-law
+- integrity
+- epistemics
+- provenance
+- provenance-topology
+- dependency-closure
+- rscf
+- gmef
+- hml
+- competing-hypotheses
+- causal-firewall
+- scope-firewall
+- regime-firewall
+- confidence-ceiling
+- uncertainty
+- sensitivity
+- anti-fabrication
+- anti-regression
+- governed-evolution
+- recovery
+- authority
+- canon-group/tech-ai
+- canon/law
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-core-laws
 aliases: "- AMOS Core Laws
   - AMOS Constitutional Laws
   - AMOS Integrity Laws

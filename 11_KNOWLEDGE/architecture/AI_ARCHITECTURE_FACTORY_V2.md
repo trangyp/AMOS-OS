@@ -1,6 +1,10 @@
 ---
 title: AI ARCHITECTURE FACTORY V2
-tags: [architecture, design, structure, canon/knowledge]
+tags:
+- architecture
+- design
+- structure
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/architecture
 rscf:

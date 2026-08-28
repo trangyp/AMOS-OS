@@ -2,7 +2,9 @@
 title: "L00 REALITY ENVIRONMENT PRIMITIVES COGNITIVE MATRIX STATE"
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
-tags: [amos, canon/cognitive-matrix]
+tags:
+- amos
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

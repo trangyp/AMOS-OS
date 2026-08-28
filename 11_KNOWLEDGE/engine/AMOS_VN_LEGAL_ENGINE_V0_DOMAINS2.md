@@ -1,6 +1,13 @@
 ---
 title: AMOS VN LEGAL ENGINE V0 DOMAINS2
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-vn-legal-engine-v0, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-vn-legal-engine-v0
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

@@ -2,7 +2,10 @@
 title: TESTS TEST CONTRACT
 type: test
 source: 19_TESTS
-tags: [amos_os, 19_tests, canon/test]
+tags:
+- amos_os
+- 19_tests
+- canon/test
 rscf:
   state: DERIVED
   claim_class: DERIVED

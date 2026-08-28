@@ -2,7 +2,10 @@
 title: "23 Ubi Bei Bioelectromagnetic MOC"
 type: moc
 source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC
-tags: [moc, 23-ubi-bei-bioelectromagnetic, canon/domain]
+tags:
+- moc
+- 23-ubi-bei-bioelectromagnetic
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Action-Memory-Firewall MOC"
 type: moc
 source: 07_SKILLS/amos-action-memory-firewall
-tags: [moc, amos-action-memory-firewall, canon/skill]
+tags:
+- moc
+- amos-action-memory-firewall
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Principal Trust Governance Rscf"
 type: moc
 source: 07_SKILLS/amos-principal-trust-governance-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

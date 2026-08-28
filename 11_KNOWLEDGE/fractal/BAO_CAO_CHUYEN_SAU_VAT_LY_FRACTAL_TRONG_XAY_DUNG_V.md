@@ -1,6 +1,10 @@
 ---
 title: BAO CAO CHUYEN SAU VAT LY FRACTAL TRONG XAY DUNG V
-tags: [fractal, math, self-similarity, canon/knowledge]
+tags:
+- fractal
+- math
+- self-similarity
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/fractal
 rscf:

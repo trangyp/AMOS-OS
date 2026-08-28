@@ -1,6 +1,10 @@
 ---
 title: HUMAN PACK V0
-tags: [human, alignment, interaction, canon/knowledge]
+tags:
+- human
+- alignment
+- interaction
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/human
 rscf:

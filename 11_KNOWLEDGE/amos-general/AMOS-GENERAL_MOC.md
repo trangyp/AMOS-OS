@@ -2,7 +2,10 @@
 title: "Amos-General MOC"
 type: moc
 source: 11_KNOWLEDGE/amos-general
-tags: [moc, amos-general, canon/knowledge]
+tags:
+- moc
+- amos-general
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

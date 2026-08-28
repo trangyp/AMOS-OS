@@ -2,7 +2,10 @@
 title: DOMAINS C04 BIO NEURO CONTRACT
 type: neural
 source: 21_DOMAINS/14_C04_BIO_NEURO
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

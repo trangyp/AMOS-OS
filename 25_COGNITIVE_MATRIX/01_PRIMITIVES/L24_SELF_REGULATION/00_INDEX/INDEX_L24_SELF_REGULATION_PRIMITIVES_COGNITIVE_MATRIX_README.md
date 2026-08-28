@@ -2,7 +2,10 @@
 title: INDEX L24 SELF REGULATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/00_INDEX
-tags: [cognitive_matrix, l24_self_regulation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l24_self_regulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

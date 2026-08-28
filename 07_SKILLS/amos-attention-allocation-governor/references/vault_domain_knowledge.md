@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Attention Allocation Governor"
 type: reference
 source: 07_SKILLS/amos-attention-allocation-governor/references
-tags: [reference, amos-attention-allocation-governor, canon/skill]
+tags:
+- reference
+- amos-attention-allocation-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

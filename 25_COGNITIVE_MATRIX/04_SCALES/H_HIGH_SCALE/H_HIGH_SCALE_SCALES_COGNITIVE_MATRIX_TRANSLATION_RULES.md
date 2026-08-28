@@ -2,7 +2,10 @@
 title: H HIGH SCALE SCALES COGNITIVE MATRIX TRANSLATION RULES
 type: note
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
-tags: [note, h-high-scale, canon/cognitive-matrix]
+tags:
+- note
+- h-high-scale
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

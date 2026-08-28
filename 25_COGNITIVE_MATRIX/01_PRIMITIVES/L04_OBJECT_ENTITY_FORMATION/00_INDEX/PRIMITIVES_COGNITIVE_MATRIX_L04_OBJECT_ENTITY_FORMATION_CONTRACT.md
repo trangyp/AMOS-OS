@@ -2,7 +2,10 @@
 title: PRIMITIVES COGNITIVE MATRIX L04 OBJECT ENTITY FORMATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/00_INDEX
-tags: [cognitive_matrix, l04_object_entity_formation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l04_object_entity_formation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -2,7 +2,10 @@
 title: "Amos-Universe-Viability-Modeler MOC"
 type: moc
 source: 07_SKILLS/amos-universe-viability-modeler
-tags: [moc, amos-universe-viability-modeler, canon/skill]
+tags:
+- moc
+- amos-universe-viability-modeler
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

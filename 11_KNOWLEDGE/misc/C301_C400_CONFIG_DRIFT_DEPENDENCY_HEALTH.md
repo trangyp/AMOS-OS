@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin: "AMOS brain knowledge ingest"
 origin_architect: "AMOS"
 type: reference
-tags: [canon-group/biology, canon/metric, rscf/claim, rscf/provenance, rscf/state/observation, topic/c301-c400-config-drift-dependency-health, misc]
+tags:
+- canon-group/biology
+- canon/metric
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/c301-c400-config-drift-dependency-health
+- misc
 status: "active"
 provenance: "OBSERVATION"
 confidence: "VERIFIED"

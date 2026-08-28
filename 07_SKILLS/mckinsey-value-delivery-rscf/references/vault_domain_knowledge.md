@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Value Delivery Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-value-delivery-rscf/references
-tags: [reference, mckinsey-value-delivery-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-value-delivery-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

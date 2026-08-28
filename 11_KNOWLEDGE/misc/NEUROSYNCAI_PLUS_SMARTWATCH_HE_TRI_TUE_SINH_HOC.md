@@ -1,6 +1,10 @@
 ---
 title: NEUROSYNCAI PLUS SMARTWATCH HE TRI TUE SINH HOC
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

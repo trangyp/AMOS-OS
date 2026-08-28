@@ -1,6 +1,13 @@
 ---
 title: V11 PLANETARY CONSENT INFRASTRUCTURE TECHNICAL FRAMEWORK
-tags: [canon-group/planetary, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/v11-planetary-consent-infrastructure-com, tech-coding]
+tags:
+- canon-group/planetary
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/v11-planetary-consent-infrastructure-com
+- tech-coding
 type: note
 source: 11_KNOWLEDGE/tech-coding
 rscf:

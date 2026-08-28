@@ -1,6 +1,13 @@
 ---
 title: THE ART OF PEACE ENDING ALL HUMAN SUFFERING THROUGH UNIFIED BIOLOGICAL INTELLIGENCE
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-art-of-peace-ending-all-human-suffer, logic]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/the-art-of-peace-ending-all-human-suffer
+- logic
 type: note
 source: 11_KNOWLEDGE/logic
 rscf:

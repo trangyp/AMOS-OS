@@ -2,7 +2,10 @@
 title: "Amos-Binding-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-binding-rscf-engine
-tags: [moc, amos-binding-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-binding-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

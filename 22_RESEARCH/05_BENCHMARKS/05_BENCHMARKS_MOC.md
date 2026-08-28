@@ -2,7 +2,10 @@
 title: "05 Benchmarks MOC"
 type: moc
 source: 22_RESEARCH/05_BENCHMARKS
-tags: [moc, 05-benchmarks, canon/research]
+tags:
+- moc
+- 05-benchmarks
+- canon/research
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

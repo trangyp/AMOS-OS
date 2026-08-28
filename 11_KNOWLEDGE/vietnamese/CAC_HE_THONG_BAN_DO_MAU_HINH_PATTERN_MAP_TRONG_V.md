@@ -1,6 +1,10 @@
 ---
 title: CAC HE THONG BAN DO MAU HINH PATTERN MAP TRONG V
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

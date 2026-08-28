@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-absolute-vn-omnistructure-clean-engine-v0
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-absolute-vn-omnistructure-clean-eng, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-absolute-vn-omnistructure-clean-eng
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

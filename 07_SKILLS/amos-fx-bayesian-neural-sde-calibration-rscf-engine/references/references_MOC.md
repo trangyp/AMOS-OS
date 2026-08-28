@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Fx Bayesian Neural Sde Calibration Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

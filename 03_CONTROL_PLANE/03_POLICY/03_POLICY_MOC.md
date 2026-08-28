@@ -2,7 +2,10 @@
 title: "03 Policy MOC"
 type: moc
 source: 03_CONTROL_PLANE/03_POLICY
-tags: [moc, 03-policy, canon/control-plane]
+tags:
+- moc
+- 03-policy
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

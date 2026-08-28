@@ -1,6 +1,13 @@
 ---
 title: LOGIC ROOT
-tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/observation, topic/logic, logic]
+tags:
+- canon-group/meta
+- canon/law
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/logic
+- logic
 type: data
 source: 11_KNOWLEDGE/logic
 rscf:

@@ -2,7 +2,11 @@
 title: "references MOC"
 type: moc
 source: 07_SKILLS/obsidian-plugin-auto-tag/references
-tags: [moc, references, obsidian-plugin-auto-tag, canon/skill]
+tags:
+- moc
+- references
+- obsidian-plugin-auto-tag
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Sensory Map Integrator"
 type: reference
 source: 07_SKILLS/amos-sensory-map-integrator/references
-tags: [reference, amos-sensory-map-integrator, canon/skill]
+tags:
+- reference
+- amos-sensory-map-integrator
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Index MOC — Observability / Index"
 type: moc
 source: 17_OBSERVABILITY/00_INDEX
-tags: [moc, 00-index, canon/observability]
+tags:
+- moc
+- 00-index
+- canon/observability
 rscf:
   state: DERIVED
   claim_class: DERIVED

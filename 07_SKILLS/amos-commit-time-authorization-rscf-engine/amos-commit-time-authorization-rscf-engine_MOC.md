@@ -2,7 +2,10 @@
 title: "Amos-Commit-Time-Authorization-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-commit-time-authorization-rscf-engine
-tags: [moc, amos-commit-time-authorization-rscf-engi, canon/skill]
+tags:
+- moc
+- amos-commit-time-authorization-rscf-engi
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Adversarial-Entropy-Accountant MOC"
 type: moc
 source: 07_SKILLS/amos-adversarial-entropy-accountant
-tags: [moc, amos-adversarial-entropy-accountant, canon/skill]
+tags:
+- moc
+- amos-adversarial-entropy-accountant
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

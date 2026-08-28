@@ -2,7 +2,10 @@
 title: L13 PREDICTION PRIMITIVES COGNITIVE MATRIX REPAIR
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION
-tags: [note, l13-prediction, canon/cognitive-matrix]
+tags:
+- note
+- l13-prediction
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -4,7 +4,15 @@ type: note
 created: 2026-08-22
 updated: 2026-08-22
 source: user-provided formal specification (75 sections) + AMOS_GO_BOARD_19X19 codebase
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-19-19-formal-system-comp, dated, dated/2026-08-22]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-amos-19-19-formal-system-comp
+- dated
+- dated/2026-08-22
 provenance: combined-ingestion (spec + implementation)
 byte_count_spec_ingested: 34500
 byte_count_implementation: 213000

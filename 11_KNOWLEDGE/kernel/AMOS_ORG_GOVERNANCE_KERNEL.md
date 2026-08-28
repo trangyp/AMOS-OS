@@ -5,7 +5,18 @@ origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Org_Govern
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/kernel
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/B-boundary, topic/org-governance-model, kernel]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/T-topology
+- rscf/K-compression
+- rscf/G-relation
+- rscf/B-boundary
+- topic/org-governance-model
+- kernel
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

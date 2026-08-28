@@ -1,6 +1,13 @@
 ---
 title: ABSOLUTE OMNIVERSE U UNIVERSE PACKS UNIVERSE PACKS
-tags: [canon-group/human-system, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/absolute-omniverse-u, universe-cosmos]
+tags:
+- canon-group/human-system
+- canon/os-module
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/absolute-omniverse-u
+- universe-cosmos
 type: data
 source: 11_KNOWLEDGE/universe-cosmos
 rscf:

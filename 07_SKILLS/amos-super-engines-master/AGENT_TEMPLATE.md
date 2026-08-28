@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Super Engines Master"
 type: note
 source: 07_SKILLS/amos-super-engines-master
-tags: [note, amos-super-engines-master, canon/skill]
+tags:
+- note
+- amos-super-engines-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Execution-Provenance-Replay-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-execution-provenance-replay-rscf
-tags: [moc, amos-execution-provenance-replay-rscf, canon/skill]
+tags:
+- moc
+- amos-execution-provenance-replay-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

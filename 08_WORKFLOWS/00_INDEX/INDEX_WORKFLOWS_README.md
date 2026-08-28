@@ -2,7 +2,10 @@
 title: INDEX WORKFLOWS README
 type: index
 source: 08_WORKFLOWS/00_INDEX
-tags: [amos_os, 08_workflows, canon/workflow]
+tags:
+- amos_os
+- 08_workflows
+- canon/workflow
 rscf:
   state: DERIVED
   claim_class: DERIVED

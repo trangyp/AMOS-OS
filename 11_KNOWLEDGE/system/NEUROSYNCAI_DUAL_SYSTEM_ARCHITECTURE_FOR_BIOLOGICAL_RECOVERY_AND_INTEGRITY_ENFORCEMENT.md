@@ -1,6 +1,13 @@
 ---
 title: NEUROSYNCAI DUAL SYSTEM ARCHITECTURE FOR BIOLOGICAL RECOVERY AND INTEGRITY ENFORCEMENT
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/neurosyncai-dual-system-architecture-for, system]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/neurosyncai-dual-system-architecture-for
+- system
 type: note
 source: 11_KNOWLEDGE/system
 rscf:

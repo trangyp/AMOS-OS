@@ -1,6 +1,13 @@
 ---
 title: THE SYSTEM
-tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/the-system, system]
+tags:
+- canon-group/planetary
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/the-system
+- system
 type: note
 source: 11_KNOWLEDGE/system
 rscf:

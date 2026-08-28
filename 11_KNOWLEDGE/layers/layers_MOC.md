@@ -2,7 +2,10 @@
 title: "Layers MOC"
 type: moc
 source: 11_KNOWLEDGE/layers
-tags: [moc, layers, canon/knowledge]
+tags:
+- moc
+- layers
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

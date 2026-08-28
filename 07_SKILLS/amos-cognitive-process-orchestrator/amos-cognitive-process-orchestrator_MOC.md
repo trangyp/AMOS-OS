@@ -2,7 +2,10 @@
 title: "Amos-Cognitive-Process-Orchestrator MOC"
 type: moc
 source: 07_SKILLS/amos-cognitive-process-orchestrator
-tags: [moc, amos-cognitive-process-orchestrator, canon/skill]
+tags:
+- moc
+- amos-cognitive-process-orchestrator
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

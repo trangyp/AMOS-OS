@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Repair Harm Auditor"
 type: reference
 source: 07_SKILLS/amos-repair-harm-auditor/references
-tags: [reference, amos-repair-harm-auditor, canon/skill]
+tags:
+- reference
+- amos-repair-harm-auditor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

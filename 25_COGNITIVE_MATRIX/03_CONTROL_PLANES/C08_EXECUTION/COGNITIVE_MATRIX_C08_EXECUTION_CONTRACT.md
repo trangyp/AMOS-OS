@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX C08 EXECUTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
-tags: [cognitive_matrix, control_planes, c08_execution, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- control_planes
+- c08_execution
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

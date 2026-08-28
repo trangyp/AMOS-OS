@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Os Kernel"
 type: reference
 source: 07_SKILLS/amos-os-kernel/references
-tags: [reference, amos-os-kernel, canon/skill]
+tags:
+- reference
+- amos-os-kernel
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

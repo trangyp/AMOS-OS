@@ -2,7 +2,10 @@
 title: "Amos-Ghost-Code-Symbolic-Execution-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf
-tags: [moc, amos-ghost-code-symbolic-execution-rscf, canon/skill]
+tags:
+- moc
+- amos-ghost-code-symbolic-execution-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

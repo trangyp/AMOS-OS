@@ -2,7 +2,10 @@
 title: "Amos-Adaptive-Stability-Balancer MOC"
 type: moc
 source: 07_SKILLS/amos-adaptive-stability-balancer
-tags: [moc, amos-adaptive-stability-balancer, canon/skill]
+tags:
+- moc
+- amos-adaptive-stability-balancer
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Counterfactual Selfhood Mapper"
 type: reference
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper/references
-tags: [reference, amos-counterfactual-selfhood-mapper, canon/skill]
+tags:
+- reference
+- amos-counterfactual-selfhood-mapper
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

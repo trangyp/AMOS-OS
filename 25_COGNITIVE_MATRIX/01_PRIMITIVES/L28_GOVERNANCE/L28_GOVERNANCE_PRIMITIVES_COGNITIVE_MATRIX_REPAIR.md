@@ -2,7 +2,10 @@
 title: L28 GOVERNANCE PRIMITIVES COGNITIVE MATRIX REPAIR
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
-tags: [note, l28-governance, canon/cognitive-matrix]
+tags:
+- note
+- l28-governance
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

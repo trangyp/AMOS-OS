@@ -6,7 +6,24 @@ canon-group: ubi
 canon-type: product-architecture
 rscf-state: model
 topic: omnis-wear
-tags: [amos, ubi, omnis, wearable, sensing, system-state, trajectory, forecasting, resilience, rscf/type-model, rscf/S-state, rscf/T-topology, rscf/C-constraint, rscf/M-memory, rscf/X-cross-scale, biology-ubi, canon/knowledge]
+tags:
+- amos
+- ubi
+- omnis
+- wearable
+- sensing
+- system-state
+- trajectory
+- forecasting
+- resilience
+- rscf/type-model
+- rscf/S-state
+- rscf/T-topology
+- rscf/C-constraint
+- rscf/M-memory
+- rscf/X-cross-scale
+- biology-ubi
+- canon/knowledge
 version: 1.0
 status: architecture-specification
 origin-architect: Trang Phan

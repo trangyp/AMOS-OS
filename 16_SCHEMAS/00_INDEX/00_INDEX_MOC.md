@@ -2,7 +2,10 @@
 title: "Index MOC — Schemas / Index"
 type: moc
 source: 16_SCHEMAS/00_INDEX
-tags: [moc, 00-index, canon/schema]
+tags:
+- moc
+- 00-index
+- canon/schema
 rscf:
   state: DERIVED
   claim_class: DERIVED

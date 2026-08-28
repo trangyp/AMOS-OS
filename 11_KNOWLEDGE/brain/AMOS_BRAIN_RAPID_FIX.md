@@ -1,6 +1,10 @@
 ---
 title: AMOS BRAIN RAPID FIX
-tags: [brain, cognitive, neural, canon/knowledge]
+tags:
+- brain
+- cognitive
+- neural
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/brain
 rscf:

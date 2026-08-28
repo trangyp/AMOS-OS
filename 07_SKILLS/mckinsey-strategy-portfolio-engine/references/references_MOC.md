@@ -2,7 +2,10 @@
 title: "References MOC — References — Mckinsey Strategy Portfolio Engine"
 type: moc
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

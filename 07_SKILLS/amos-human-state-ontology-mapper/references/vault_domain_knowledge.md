@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Human State Ontology Mapper"
 type: reference
 source: 07_SKILLS/amos-human-state-ontology-mapper/references
-tags: [reference, amos-human-state-ontology-mapper, canon/skill]
+tags:
+- reference
+- amos-human-state-ontology-mapper
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

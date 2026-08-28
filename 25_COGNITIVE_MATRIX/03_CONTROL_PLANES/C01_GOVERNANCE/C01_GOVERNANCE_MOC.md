@@ -2,7 +2,10 @@
 title: "C01 Governance MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
-tags: [moc, c01-governance, canon/cognitive-matrix]
+tags:
+- moc
+- c01-governance
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Memory Immune System"
 type: moc
 source: 07_SKILLS/amos-memory-immune-system/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

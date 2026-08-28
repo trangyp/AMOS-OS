@@ -1,6 +1,10 @@
 ---
 title: 1 NGUON GOC CAC HANG SO VU TRU E 137 43
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

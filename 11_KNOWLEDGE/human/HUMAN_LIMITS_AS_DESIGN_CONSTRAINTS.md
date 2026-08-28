@@ -1,6 +1,10 @@
 ---
 title: HUMAN LIMITS AS DESIGN CONSTRAINTS
-tags: [human, alignment, interaction, canon/knowledge]
+tags:
+- human
+- alignment
+- interaction
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/human
 rscf:

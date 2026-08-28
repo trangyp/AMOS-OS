@@ -2,7 +2,10 @@
 title: TOOL MAP
 type: map
 source: 14_TOOLS/00_INDEX
-tags: [amos_os, 14_tools, canon/tool]
+tags:
+- amos_os
+- 14_tools
+- canon/tool
 rscf:
   state: DERIVED
   claim_class: DERIVED

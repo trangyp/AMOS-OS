@@ -8,7 +8,11 @@ runtime_target: "AMOS_CORE v4.4 lineage + AMOS Forex Unified OS"
 version: "2.0-deep"
 status: "SOURCE_CANON_PRESERVED__EMPIRICAL_FIREWALL_ACTIVE"
 epistemic_classes: [SOURCE_CANON, SOURCE_CLAIM, OBSERVATION, DERIVED, AMOS_MODEL, CONDITIONAL, COMPETING, VERIFIED, UNKNOWN]
-tags: [fractal, math, self-similarity, canon/knowledge]
+tags:
+- fractal
+- math
+- self-similarity
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

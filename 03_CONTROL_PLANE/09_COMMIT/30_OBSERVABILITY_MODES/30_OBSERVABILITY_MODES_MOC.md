@@ -2,7 +2,10 @@
 title: "30 Observability Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/30_OBSERVABILITY_MODES
-tags: [moc, 30-observability-modes, canon/control-plane]
+tags:
+- moc
+- 30-observability-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

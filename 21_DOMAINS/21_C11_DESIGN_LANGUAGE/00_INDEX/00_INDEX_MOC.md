@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / C11 Design Language / Index"
 type: moc
 source: 21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

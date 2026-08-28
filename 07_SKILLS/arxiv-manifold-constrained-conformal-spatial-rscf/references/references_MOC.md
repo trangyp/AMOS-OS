@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Manifold Constrained Conformal Spatial Rscf"
 type: moc
 source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Designops Agile Transformation Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-designops-agile-transformation-rscf/references
-tags: [reference, mckinsey-designops-agile-transformation-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-designops-agile-transformation-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

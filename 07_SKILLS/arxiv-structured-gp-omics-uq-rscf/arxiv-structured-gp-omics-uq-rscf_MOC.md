@@ -2,7 +2,10 @@
 title: "Arxiv-Structured-Gp-Omics-Uq-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf
-tags: [moc, arxiv-structured-gp-omics-uq-rscf, canon/skill]
+tags:
+- moc
+- arxiv-structured-gp-omics-uq-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

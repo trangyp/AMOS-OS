@@ -1,6 +1,10 @@
 ---
 title: AMOS MATH CORE FRACTAL MATHEMATICS AND COGNITIVE ARCHITECTURE RUNTIME
-tags: [fractal, math, self-similarity, canon/knowledge]
+tags:
+- fractal
+- math
+- self-similarity
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/fractal
 rscf:

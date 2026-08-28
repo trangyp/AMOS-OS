@@ -1,6 +1,10 @@
 ---
 title: UBI PLUS NEUROSYNCAI INTEGRATION WITH CONSENTX
-tags: [biology-ubi, biology, ubi, canon/knowledge]
+tags:
+- biology-ubi
+- biology
+- ubi
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/biology-ubi
 rscf:

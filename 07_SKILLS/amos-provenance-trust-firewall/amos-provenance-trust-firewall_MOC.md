@@ -2,7 +2,10 @@
 title: "Amos-Provenance-Trust-Firewall MOC"
 type: moc
 source: 07_SKILLS/amos-provenance-trust-firewall
-tags: [moc, amos-provenance-trust-firewall, canon/skill]
+tags:
+- moc
+- amos-provenance-trust-firewall
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

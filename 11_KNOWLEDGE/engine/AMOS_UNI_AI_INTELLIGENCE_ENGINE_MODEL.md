@@ -1,6 +1,13 @@
 ---
 title: AMOS UNI AI INTELLIGENCE ENGINE MODEL
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-uni-ai-intelligence-engine-model, engine]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-uni-ai-intelligence-engine-model
+- engine
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

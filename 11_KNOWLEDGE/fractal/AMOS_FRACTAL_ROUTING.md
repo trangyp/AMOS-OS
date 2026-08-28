@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: bridge
 source: 11_KNOWLEDGE/fractal
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-fractal-routing, fractal]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-fractal-routing
+- fractal
 status: "index"
 provenance: "SOURCE_CLAIM"
 confidence: "VERIFIED"

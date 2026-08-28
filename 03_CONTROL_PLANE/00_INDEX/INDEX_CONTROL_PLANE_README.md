@@ -2,7 +2,11 @@
 title: INDEX CONTROL PLANE README
 type: index
 source: 03_CONTROL_PLANE/00_INDEX
-tags: [control_plane, index, readme, canon/control-plane]
+tags:
+- control_plane
+- index
+- readme
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

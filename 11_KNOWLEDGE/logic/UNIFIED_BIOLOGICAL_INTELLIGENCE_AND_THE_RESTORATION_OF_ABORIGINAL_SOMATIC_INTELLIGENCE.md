@@ -1,6 +1,13 @@
 ---
 title: UNIFIED BIOLOGICAL INTELLIGENCE AND THE RESTORATION OF ABORIGINAL SOMATIC INTELLIGENCE
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/unified-biological-intelligence-and-the-, logic]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/unified-biological-intelligence-and-the-
+- logic
 type: note
 source: 11_KNOWLEDGE/logic
 rscf:

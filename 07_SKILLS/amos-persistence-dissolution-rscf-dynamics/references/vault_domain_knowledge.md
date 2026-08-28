@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Persistence Dissolution Rscf Dynamics"
 type: reference
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics/references
-tags: [reference, amos-persistence-dissolution-rscf-dynamics, canon/skill]
+tags:
+- reference
+- amos-persistence-dissolution-rscf-dynamics
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

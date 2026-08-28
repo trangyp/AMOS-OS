@@ -2,7 +2,10 @@
 title: C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX DECISION RULES
 type: note
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE
-tags: [note, c03-executive, canon/cognitive-matrix]
+tags:
+- note
+- c03-executive
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

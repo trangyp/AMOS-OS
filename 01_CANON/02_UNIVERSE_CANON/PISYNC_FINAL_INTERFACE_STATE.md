@@ -2,7 +2,10 @@
 title: "PISYNC Final Interface State"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [pisync, interface, universe_canon]
+tags:
+- pisync
+- interface
+- universe_canon
 ---
 
 # PISYNC Final Interface State

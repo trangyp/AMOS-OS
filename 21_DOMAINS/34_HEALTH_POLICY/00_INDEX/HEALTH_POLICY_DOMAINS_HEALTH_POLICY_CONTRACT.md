@@ -2,7 +2,10 @@
 title: HEALTH POLICY DOMAINS HEALTH POLICY CONTRACT
 type: policy
 source: 21_DOMAINS/34_HEALTH_POLICY/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

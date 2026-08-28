@@ -11,7 +11,15 @@ plane: "01_CANON"
 segment: "01_CANON/08_SUPERSESSION"
 artifact_kind: "SUPERSESSION"
 path: "01_CANON/08_SUPERSESSION/UNIVERSE_CANON_SUPERSESSION.md"
-tags: [amos_os, canon, universe, 01_canon, supersession, canon_placeholder, rscf, canon/universe]
+tags:
+- amos_os
+- canon
+- universe
+- 01_canon
+- supersession
+- canon_placeholder
+- rscf
+- canon/universe
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

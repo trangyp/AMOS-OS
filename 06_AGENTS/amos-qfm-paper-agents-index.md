@@ -2,7 +2,10 @@
 title: amos qfm paper agents index
 type: index
 source: 06_AGENTS
-tags: [index, vault, canon/agent]
+tags:
+- index
+- vault
+- canon/agent
 rscf:
   state: DERIVED
   claim_class: DERIVED

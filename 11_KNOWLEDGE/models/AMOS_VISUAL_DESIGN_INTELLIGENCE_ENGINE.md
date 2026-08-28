@@ -1,6 +1,10 @@
 ---
 title: AMOS VISUAL DESIGN INTELLIGENCE ENGINE
-tags: [models, model, specification, canon/knowledge]
+tags:
+- models
+- model
+- specification
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/models
 rscf:

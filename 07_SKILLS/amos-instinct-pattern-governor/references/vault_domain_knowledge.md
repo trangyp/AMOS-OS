@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Instinct Pattern Governor"
 type: reference
 source: 07_SKILLS/amos-instinct-pattern-governor/references
-tags: [reference, amos-instinct-pattern-governor, canon/skill]
+tags:
+- reference
+- amos-instinct-pattern-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

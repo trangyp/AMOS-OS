@@ -2,7 +2,10 @@
 title: "36 Risk Safety Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/36_RISK_SAFETY_MODES
-tags: [moc, 36-risk-safety-modes, canon/control-plane]
+tags:
+- moc
+- 36-risk-safety-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

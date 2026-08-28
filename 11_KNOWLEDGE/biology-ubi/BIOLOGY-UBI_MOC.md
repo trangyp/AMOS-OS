@@ -2,7 +2,10 @@
 title: "Biology-Ubi MOC"
 type: moc
 source: 11_KNOWLEDGE/biology-ubi
-tags: [moc, biology-ubi, canon/knowledge]
+tags:
+- moc
+- biology-ubi
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

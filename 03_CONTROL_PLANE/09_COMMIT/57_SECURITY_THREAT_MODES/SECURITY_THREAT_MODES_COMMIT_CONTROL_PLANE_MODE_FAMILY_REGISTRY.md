@@ -2,7 +2,10 @@
 title: SECURITY THREAT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/57_SECURITY_THREAT_MODES
-tags: [control_plane, 57_security_threat_modes, canon/control-plane]
+tags:
+- control_plane
+- 57_security_threat_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -9,7 +9,9 @@ rscf:
     - internal
   freshness: EVERGREEN
   falsifiers: []
-tags: [note, attachments]
+tags:
+- note
+- attachments
 canon-group: canon/root
 ---
 

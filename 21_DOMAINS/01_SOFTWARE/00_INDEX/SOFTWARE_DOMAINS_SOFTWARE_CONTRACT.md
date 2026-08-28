@@ -2,7 +2,10 @@
 title: SOFTWARE DOMAINS SOFTWARE CONTRACT
 type: note
 source: 21_DOMAINS/01_SOFTWARE/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-omega-thinking-engine-with-coding
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-omega-thinking-engine-with-coding, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-omega-thinking-engine-with-coding
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

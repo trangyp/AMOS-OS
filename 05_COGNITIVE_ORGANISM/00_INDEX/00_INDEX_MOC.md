@@ -2,7 +2,10 @@
 title: "Index MOC — Cognitive Organism / Index"
 type: moc
 source: 05_COGNITIVE_ORGANISM/00_INDEX
-tags: [moc, 00-index, canon/cognitive]
+tags:
+- moc
+- 00-index
+- canon/cognitive
 rscf:
   state: DERIVED
   claim_class: DERIVED

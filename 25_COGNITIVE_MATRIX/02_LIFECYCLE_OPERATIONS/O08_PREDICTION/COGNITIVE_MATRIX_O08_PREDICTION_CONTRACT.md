@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX O08 PREDICTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
-tags: [cognitive_matrix, lifecycle_operations, o08_prediction, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- lifecycle_operations
+- o08_prediction
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

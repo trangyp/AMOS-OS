@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Test Time Training Rscf"
 type: moc
 source: 07_SKILLS/arxiv-test-time-training-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

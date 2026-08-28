@@ -1,6 +1,10 @@
 ---
 title: TECH QUANTUM ENGINE V0
-tags: [quantum, physics, qfm, canon/knowledge]
+tags:
+- quantum
+- physics
+- qfm
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/quantum
 rscf:

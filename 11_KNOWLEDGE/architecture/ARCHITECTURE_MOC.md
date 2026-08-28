@@ -2,7 +2,10 @@
 title: "Architecture MOC"
 type: moc
 source: 11_KNOWLEDGE/architecture
-tags: [moc, architecture, canon/knowledge]
+tags:
+- moc
+- architecture
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

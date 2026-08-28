@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Cognitive Process Orchestrator"
 type: reference
 source: 07_SKILLS/amos-cognitive-process-orchestrator/references
-tags: [reference, amos-cognitive-process-orchestrator, canon/skill]
+tags:
+- reference
+- amos-cognitive-process-orchestrator
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

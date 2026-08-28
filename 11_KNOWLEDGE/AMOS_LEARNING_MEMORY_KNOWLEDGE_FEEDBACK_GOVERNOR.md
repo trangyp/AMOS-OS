@@ -10,7 +10,15 @@ origin_architect: Trang Phan
 parent_skill: amos-knowledge-research-master
 rscf_node_type: skill
 status: production_ready
-tags: [rscf/node, knowledge, vault, canon-group/cross-domain, topic/learning-memory-knowledge, topic/feedback-loop, topic/epistemic-preservation, canon/knowledge]
+tags:
+- rscf/node
+- knowledge
+- vault
+- canon-group/cross-domain
+- topic/learning-memory-knowledge
+- topic/feedback-loop
+- topic/epistemic-preservation
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

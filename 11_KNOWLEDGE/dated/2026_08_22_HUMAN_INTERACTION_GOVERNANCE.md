@@ -1,6 +1,9 @@
 ---
 title: 2026 08 22 HUMAN INTERACTION GOVERNANCE
-tags: [dated, dated/2026-08-22, canon/knowledge]
+tags:
+- dated
+- dated/2026-08-22
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/dated
 rscf:

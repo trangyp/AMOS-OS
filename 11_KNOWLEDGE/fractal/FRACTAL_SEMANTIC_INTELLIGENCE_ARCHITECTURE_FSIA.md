@@ -1,6 +1,10 @@
 ---
 title: FRACTAL SEMANTIC INTELLIGENCE ARCHITECTURE FSIA
-tags: [fractal, math, self-similarity, canon/knowledge]
+tags:
+- fractal
+- math
+- self-similarity
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/fractal
 rscf:

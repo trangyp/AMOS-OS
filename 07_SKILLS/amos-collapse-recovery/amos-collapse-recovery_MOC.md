@@ -2,7 +2,10 @@
 title: "Amos-Collapse-Recovery MOC"
 type: moc
 source: 07_SKILLS/amos-collapse-recovery
-tags: [moc, amos-collapse-recovery, canon/skill]
+tags:
+- moc
+- amos-collapse-recovery
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

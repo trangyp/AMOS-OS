@@ -2,7 +2,10 @@
 title: COMPETING MODEL REGISTRY
 type: model
 source: 22_RESEARCH/03_COMPETING_MODELS
-tags: [amos_os, 22_research, canon/research]
+tags:
+- amos_os
+- 22_research
+- canon/research
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

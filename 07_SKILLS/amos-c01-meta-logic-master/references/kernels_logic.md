@@ -2,7 +2,10 @@
 title: kernels logic
 type: reference
 source: 07_SKILLS/amos-c01-meta-logic-master/references
-tags: [reference, amos-c01-meta-logic-master, canon/skill]
+tags:
+- reference
+- amos-c01-meta-logic-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

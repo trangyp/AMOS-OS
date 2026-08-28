@@ -2,7 +2,10 @@
 title: "Amos-Rscf-Epistemic-Master MOC"
 type: moc
 source: 07_SKILLS/amos-rscf-epistemic-master
-tags: [moc, amos-rscf-epistemic-master, canon/skill]
+tags:
+- moc
+- amos-rscf-epistemic-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: PROTOCOLS PROTOCOL CONTRACT
 type: protocol
 source: 09_PROTOCOLS
-tags: [amos_os, 09_protocols, canon/protocol]
+tags:
+- amos_os
+- 09_protocols
+- canon/protocol
 rscf:
   state: DERIVED
   claim_class: DERIVED

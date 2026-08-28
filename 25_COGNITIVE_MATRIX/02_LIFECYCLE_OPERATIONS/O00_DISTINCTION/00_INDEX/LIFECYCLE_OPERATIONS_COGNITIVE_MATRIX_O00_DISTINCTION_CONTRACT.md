@@ -2,7 +2,10 @@
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O00 DISTINCTION CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/00_INDEX
-tags: [cognitive_matrix, o00_distinction, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o00_distinction
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

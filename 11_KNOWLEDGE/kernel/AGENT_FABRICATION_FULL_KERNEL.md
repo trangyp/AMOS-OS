@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: agent-fabrication-full-kernel
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/agent-fabrication-full-kernel, kernel]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/agent-fabrication-full-kernel
+- kernel
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

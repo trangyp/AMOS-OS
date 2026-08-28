@@ -2,7 +2,10 @@
 title: "References MOC — References — Mckinsey Public Sector Transformation Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-public-sector-transformation-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

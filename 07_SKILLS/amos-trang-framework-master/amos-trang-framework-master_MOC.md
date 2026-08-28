@@ -2,7 +2,10 @@
 title: "Amos-Trang-Framework-Master MOC"
 type: moc
 source: 07_SKILLS/amos-trang-framework-master
-tags: [moc, amos-trang-framework-master, canon/skill]
+tags:
+- moc
+- amos-trang-framework-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

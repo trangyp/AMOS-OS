@@ -5,7 +5,18 @@ origin: "Google Drive — Business_Plan_of_NeuroSyncAI.pdf (1.66MB)"
 origin_architect: "Trang Phan"
 type: business-plan
 source: 11_KNOWLEDGE/misc
-tags: [canon-group/business, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/business-plan, misc]
+tags:
+- canon-group/business
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/T-topology
+- rscf/K-compression
+- rscf/G-relation
+- rscf/X-crossscale
+- topic/business-plan
+- misc
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

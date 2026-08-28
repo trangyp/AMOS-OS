@@ -2,7 +2,10 @@
 title: "01 Baseline MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE
-tags: [moc, 01-baseline, canon/control-plane]
+tags:
+- moc
+- 01-baseline
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

@@ -1,6 +1,10 @@
 ---
 title: WHY GRIDS COLLAPSE POLITICALLY BEFORE THEY COLLAPS
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

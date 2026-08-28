@@ -5,7 +5,18 @@ origin: "Google Drive — new troy/Planetary Consent Infrastructure - Investor B
 origin_architect: "Quynh Trang Phan"
 type: investment-brief
 source: 11_KNOWLEDGE/misc
-tags: [troy, planetary-consent, consent-infrastructure, investor-brief, 308T-decisions, 67-actors, 98-consent-types, 100B-market, series-A-25M, misc, canon/knowledge]
+tags:
+- troy
+- planetary-consent
+- consent-infrastructure
+- investor-brief
+- 308T-decisions
+- 67-actors
+- 98-consent-types
+- 100B-market
+- series-A-25M
+- misc
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

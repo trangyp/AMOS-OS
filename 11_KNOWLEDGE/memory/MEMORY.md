@@ -3,7 +3,14 @@ type: doc
 source: 11_KNOWLEDGE/memory
 title: Bridge to New Memory
 created: 2026-08-22
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/new-memory, memory]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/new-memory
+- memory
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -7,7 +7,16 @@ provenance: AMOS Kafka Brain Buffer v1.0 test suite — all 180 tests passing
 confidence: VERIFIED
 epistemic_class: OBSERVATION
 conclusion_label: VERIFIED
-tags: [amos, kafka-brain-buffer, typescript, testing, bugfix, cosmo-brain, dated, dated/2026-08-23, canon/knowledge]
+tags:
+- amos
+- kafka-brain-buffer
+- typescript
+- testing
+- bugfix
+- cosmo-brain
+- dated
+- dated/2026-08-23
+- canon/knowledge
 date: 2026-08-23
 rscf:
   state: SOURCE_CLAIM

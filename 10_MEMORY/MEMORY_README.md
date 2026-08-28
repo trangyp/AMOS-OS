@@ -2,7 +2,10 @@
 title: MEMORY README
 type: memory
 source: 10_MEMORY
-tags: [amos_os, 10_memory, canon/memory]
+tags:
+- amos_os
+- 10_memory
+- canon/memory
 rscf:
   state: DERIVED
   claim_class: DERIVED

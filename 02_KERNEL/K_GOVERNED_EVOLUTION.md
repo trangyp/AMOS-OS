@@ -2,7 +2,10 @@
 title: "K_GOVERNED_EVOLUTION — Governed Evolution Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, evolution, gmef]
+tags:
+- kernel
+- evolution
+- gmef
 ---
 
 # K_GOVERNED_EVOLUTION — Governed Evolution Kernel

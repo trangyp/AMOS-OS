@@ -2,7 +2,10 @@
 title: UBI BEI BIOELECTROMAGNETIC DOMAINS README
 type: note
 source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

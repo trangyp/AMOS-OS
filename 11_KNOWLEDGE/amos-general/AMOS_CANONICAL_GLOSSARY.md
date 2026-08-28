@@ -1,6 +1,12 @@
 ---
 title: AMOS CANONICAL GLOSSARY
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/state/observation, topic/amos-canonical-glossary, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/state/observation
+- topic/amos-canonical-glossary
+- amos-general
 type: data
 source: 11_KNOWLEDGE/amos-general
 rscf:

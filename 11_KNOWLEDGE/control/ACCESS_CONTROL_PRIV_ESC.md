@@ -1,6 +1,10 @@
 ---
 title: ACCESS CONTROL PRIV ESC
-tags: [control, governance, policy, canon/knowledge]
+tags:
+- control
+- governance
+- policy
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/control
 rscf:

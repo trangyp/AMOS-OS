@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Heterogeneous Exploration Cohort Rscf"
 type: moc
 source: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Quantum MOC"
 type: moc
 source: 11_KNOWLEDGE/quantum
-tags: [moc, quantum, canon/knowledge]
+tags:
+- moc
+- quantum
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

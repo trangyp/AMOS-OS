@@ -2,7 +2,10 @@
 title: amos structured execution graph rscf code
 type: reference
 source: 07_SKILLS/amos-structured-execution-graph-rscf/references
-tags: [reference, amos-structured-execution-graph-rscf, canon/skill]
+tags:
+- reference
+- amos-structured-execution-graph-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

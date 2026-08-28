@@ -2,7 +2,10 @@
 title: "31 Control Systems MOC"
 type: moc
 source: 21_DOMAINS/31_CONTROL_SYSTEMS
-tags: [moc, 31-control-systems, canon/domain]
+tags:
+- moc
+- 31-control-systems
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

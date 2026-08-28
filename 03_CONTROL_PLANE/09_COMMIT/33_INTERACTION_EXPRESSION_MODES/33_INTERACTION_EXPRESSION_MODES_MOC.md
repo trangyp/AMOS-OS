@@ -2,7 +2,10 @@
 title: "33 Interaction Expression Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/33_INTERACTION_EXPRESSION_MODES
-tags: [moc, 33-interaction-expression-modes, canon/control-plane]
+tags:
+- moc
+- 33-interaction-expression-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: INDEX C11 DESIGN LANGUAGE DOMAINS README
 type: index
 source: 21_DOMAINS/21_C11_DESIGN_LANGUAGE/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

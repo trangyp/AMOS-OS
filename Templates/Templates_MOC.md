@@ -2,7 +2,10 @@
 title: "Templates MOC"
 type: moc
 source: Templates
-tags: [moc, templates, canon/template]
+tags:
+- moc
+- templates
+- canon/template
 rscf:
   state: DERIVED
   claim_class: DERIVED

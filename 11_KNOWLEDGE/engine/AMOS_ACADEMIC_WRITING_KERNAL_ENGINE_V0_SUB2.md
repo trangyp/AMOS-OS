@@ -1,6 +1,13 @@
 ---
 title: AMOS ACADEMIC WRITING KERNAL ENGINE V0 SUB2
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-academic-writing-kernal-engine-v0, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-academic-writing-kernal-engine-v0
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

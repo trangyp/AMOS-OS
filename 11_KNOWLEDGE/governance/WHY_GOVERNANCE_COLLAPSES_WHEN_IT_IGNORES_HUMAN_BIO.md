@@ -1,6 +1,10 @@
 ---
 title: WHY GOVERNANCE COLLAPSES WHEN IT IGNORES HUMAN BIO
-tags: [governance, policy, authority, canon/knowledge]
+tags:
+- governance
+- policy
+- authority
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/governance
 rscf:

@@ -2,7 +2,10 @@
 title: "Gmef-Governance MOC"
 type: moc
 source: 07_SKILLS/gmef-governance
-tags: [moc, gmef-governance, canon/skill]
+tags:
+- moc
+- gmef-governance
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: TOAN HOC CUA DAO KHI CO HOC VUOT TRUOC LUONG TU
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

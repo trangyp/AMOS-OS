@@ -2,7 +2,23 @@
 title: "AMOS EVOLUTIONARY ADAPTIVE SYSTEMS CANCER TO AI V2"
 type: system
 source: 11_KNOWLEDGE/system
-tags: [amos, system, architecture, evolutionary-oncology, artificial-intelligence, adaptive-systems, s-o-a, resistance, drift, selection-pressure, model-collapse, provenance, rscf, hml, cross-scale, canon/knowledge]
+tags:
+- amos
+- system
+- architecture
+- evolutionary-oncology
+- artificial-intelligence
+- adaptive-systems
+- s-o-a
+- resistance
+- drift
+- selection-pressure
+- model-collapse
+- provenance
+- rscf
+- hml
+- cross-scale
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

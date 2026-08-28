@@ -1,6 +1,13 @@
 ---
 title: F49F022F CDA1 4783 817B 9A6C86732371 THE TRANG GRAND SYSTEM FULL LOGIC SPECIFICATION
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/f49f022f-cda1-4783-817b-9a6c86732371-the, trang]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/f49f022f-cda1-4783-817b-9a6c86732371-the
+- trang
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:

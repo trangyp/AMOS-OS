@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Grouped Query Attention Rscf"
 type: reference
 source: 07_SKILLS/arxiv-grouped-query-attention-rscf/references
-tags: [reference, arxiv-grouped-query-attention-rscf, canon/skill]
+tags:
+- reference
+- arxiv-grouped-query-attention-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

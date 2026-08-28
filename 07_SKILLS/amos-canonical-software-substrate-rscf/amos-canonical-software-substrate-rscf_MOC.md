@@ -2,7 +2,10 @@
 title: "Amos-Canonical-Software-Substrate-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-canonical-software-substrate-rscf
-tags: [moc, amos-canonical-software-substrate-rscf, canon/skill]
+tags:
+- moc
+- amos-canonical-software-substrate-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

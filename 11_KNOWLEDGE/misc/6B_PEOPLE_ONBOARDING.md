@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 6b-people-onboarding
-tags: [canon-group/tech-ai, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/6b-people-onboarding, misc]
+tags:
+- canon-group/tech-ai
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/6b-people-onboarding
+- misc
 created: 2026-08-22
 rscf:
   state: DERIVED

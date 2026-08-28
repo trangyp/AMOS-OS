@@ -2,7 +2,10 @@
 title: INDEX O16 LEARNING LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING/00_INDEX
-tags: [cognitive_matrix, o16_learning, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o16_learning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: CONTROL PLANE SEMANTIC TRANSACTION CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
-tags: [control_plane, control_plane_semantic_transaction_contract.md, canon/control-plane]
+tags:
+- control_plane
+- control_plane_semantic_transaction_contract.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

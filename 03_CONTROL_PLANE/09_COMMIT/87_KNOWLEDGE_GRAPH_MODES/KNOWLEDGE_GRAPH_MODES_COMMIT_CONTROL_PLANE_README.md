@@ -2,7 +2,10 @@
 title: KNOWLEDGE GRAPH MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/87_KNOWLEDGE_GRAPH_MODES
-tags: [control_plane, 87_knowledge_graph_modes, canon/control-plane]
+tags:
+- control_plane
+- 87_knowledge_graph_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

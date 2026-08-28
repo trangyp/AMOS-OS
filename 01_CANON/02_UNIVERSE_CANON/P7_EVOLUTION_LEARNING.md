@@ -2,7 +2,10 @@
 title: P7 EVOLUTION LEARNING
 type: note
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [note, 02-universe-canon, canon/universe]
+tags:
+- note
+- 02-universe-canon
+- canon/universe
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "L18 Action MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION
-tags: [moc, l18-action, canon/cognitive-matrix]
+tags:
+- moc
+- l18-action
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

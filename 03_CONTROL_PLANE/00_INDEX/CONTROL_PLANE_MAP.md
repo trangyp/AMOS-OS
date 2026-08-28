@@ -2,7 +2,11 @@
 title: CONTROL PLANE MAP
 type: map
 source: 03_CONTROL_PLANE/00_INDEX
-tags: [control_plane, index, map, canon/control-plane]
+tags:
+- control_plane
+- index
+- map
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

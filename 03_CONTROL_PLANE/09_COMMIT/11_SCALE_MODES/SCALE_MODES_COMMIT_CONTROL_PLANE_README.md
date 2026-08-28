@@ -2,7 +2,10 @@
 title: SCALE MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/11_SCALE_MODES
-tags: [control_plane, 11_scale_modes, canon/control-plane]
+tags:
+- control_plane
+- 11_scale_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

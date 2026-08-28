@@ -3,7 +3,14 @@ title: ACADEMIC WRITING MODEL
 type: model
 source: 11_KNOWLEDGE/models
 aliases: [Academic Writing Engine, AMOS_Academic_Writing, Academic Kernel]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/academic-writing-model, models]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/academic-writing-model
+- models
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

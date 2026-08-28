@@ -2,7 +2,10 @@
 title: K TRANSLATION
 type: translation
 source: 02_KERNEL/09_INTEGRATION
-tags: [amos_os, 02_kernel, canon/kernel]
+tags:
+- amos_os
+- 02_kernel
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: KHOA HOC CUA TU VI AND TUONG SO
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

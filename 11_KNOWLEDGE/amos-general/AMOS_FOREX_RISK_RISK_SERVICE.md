@@ -1,6 +1,10 @@
 ---
 title: AMOS FOREX RISK RISK SERVICE
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/amos-general
 rscf:

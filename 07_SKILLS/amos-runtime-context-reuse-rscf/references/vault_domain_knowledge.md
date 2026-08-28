@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Runtime Context Reuse Rscf"
 type: reference
 source: 07_SKILLS/amos-runtime-context-reuse-rscf/references
-tags: [reference, amos-runtime-context-reuse-rscf, canon/skill]
+tags:
+- reference
+- amos-runtime-context-reuse-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

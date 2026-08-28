@@ -2,7 +2,10 @@
 title: "K_FAIL_CLOSED — Fail-Closed Enforcement Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, fail_closed, enforcement]
+tags:
+- kernel
+- fail_closed
+- enforcement
 ---
 
 # K_FAIL_CLOSED — Fail-Closed Enforcement Kernel

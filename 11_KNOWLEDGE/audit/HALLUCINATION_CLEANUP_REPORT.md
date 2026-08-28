@@ -1,6 +1,10 @@
 ---
 title: HALLUCINATION CLEANUP REPORT
-tags: [audit, repair, quality, canon/knowledge]
+tags:
+- audit
+- repair
+- quality
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/audit
 rscf:

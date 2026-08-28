@@ -2,7 +2,10 @@
 title: "Universe-Cosmos MOC"
 type: moc
 source: 11_KNOWLEDGE/universe-cosmos
-tags: [moc, universe-cosmos, canon/knowledge]
+tags:
+- moc
+- universe-cosmos
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

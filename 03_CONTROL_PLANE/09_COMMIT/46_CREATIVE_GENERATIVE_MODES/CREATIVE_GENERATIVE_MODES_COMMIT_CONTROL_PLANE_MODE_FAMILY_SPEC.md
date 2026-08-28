@@ -2,7 +2,10 @@
 title: CREATIVE GENERATIVE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/46_CREATIVE_GENERATIVE_MODES
-tags: [control_plane, 46_creative_generative_modes, canon/control-plane]
+tags:
+- control_plane
+- 46_creative_generative_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

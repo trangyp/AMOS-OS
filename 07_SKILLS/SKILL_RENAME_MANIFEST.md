@@ -5,7 +5,10 @@ name: skill-rename-manifest
 version: 1.0.0
 source: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 description: Proposed skill renames based on AMOS Naming Standard (lowercase-kebab, no decorative tokens, ASCII-only).
-tags: [note, 07-skills, canon/skill]
+tags:
+- note
+- 07-skills
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

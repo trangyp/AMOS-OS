@@ -2,7 +2,10 @@
 title: "04 Domain MOC"
 type: moc
 source: 13_MODELS/04_DOMAIN
-tags: [moc, 04-domain, canon/model]
+tags:
+- moc
+- 04-domain
+- canon/model
 rscf:
   state: DERIVED
   claim_class: DERIVED

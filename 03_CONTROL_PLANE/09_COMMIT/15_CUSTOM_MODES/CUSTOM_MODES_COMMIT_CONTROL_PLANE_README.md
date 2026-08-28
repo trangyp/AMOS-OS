@@ -2,7 +2,10 @@
 title: CUSTOM MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/15_CUSTOM_MODES
-tags: [control_plane, 15_custom_modes, canon/control-plane]
+tags:
+- control_plane
+- 15_custom_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

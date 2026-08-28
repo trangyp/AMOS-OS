@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Paper Rscf Compiler"
 type: reference
 source: 07_SKILLS/amos-paper-rscf-compiler/references
-tags: [reference, amos-paper-rscf-compiler, canon/skill]
+tags:
+- reference
+- amos-paper-rscf-compiler
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

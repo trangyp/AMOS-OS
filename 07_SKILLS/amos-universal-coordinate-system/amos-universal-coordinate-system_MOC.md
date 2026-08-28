@@ -2,7 +2,10 @@
 title: "Amos-Universal-Coordinate-System MOC"
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-system
-tags: [moc, amos-universal-coordinate-system, canon/skill]
+tags:
+- moc
+- amos-universal-coordinate-system
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

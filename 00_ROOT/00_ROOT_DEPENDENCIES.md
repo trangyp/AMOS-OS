@@ -2,7 +2,10 @@
 title: 00 ROOT DEPENDENCIES
 type: note
 source: 00_ROOT
-tags: [note, 00-root, canon/root]
+tags:
+- note
+- 00-root
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

@@ -2,7 +2,10 @@
 title: "Amos-Formally-Verified-Migration-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-formally-verified-migration-rscf
-tags: [moc, amos-formally-verified-migration-rscf, canon/skill]
+tags:
+- moc
+- amos-formally-verified-migration-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

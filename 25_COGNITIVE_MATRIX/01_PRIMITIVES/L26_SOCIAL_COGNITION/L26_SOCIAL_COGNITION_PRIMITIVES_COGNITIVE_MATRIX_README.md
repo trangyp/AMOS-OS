@@ -2,7 +2,10 @@
 title: L26 SOCIAL COGNITION PRIMITIVES COGNITIVE MATRIX README
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION
-tags: [note, l26-social-cognition, canon/cognitive-matrix]
+tags:
+- note
+- l26-social-cognition
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

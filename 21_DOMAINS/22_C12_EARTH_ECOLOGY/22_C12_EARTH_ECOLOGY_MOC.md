@@ -2,7 +2,10 @@
 title: "22 C12 Earth Ecology MOC"
 type: moc
 source: 21_DOMAINS/22_C12_EARTH_ECOLOGY
-tags: [moc, 22-c12-earth-ecology, canon/domain]
+tags:
+- moc
+- 22-c12-earth-ecology
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

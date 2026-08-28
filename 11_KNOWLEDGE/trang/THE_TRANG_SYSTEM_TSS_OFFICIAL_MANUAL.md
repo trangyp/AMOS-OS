@@ -1,6 +1,10 @@
 ---
 title: THE TRANG SYSTEM TSS OFFICIAL MANUAL
-tags: [trang, framework, reality, canon/knowledge]
+tags:
+- trang
+- framework
+- reality
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:

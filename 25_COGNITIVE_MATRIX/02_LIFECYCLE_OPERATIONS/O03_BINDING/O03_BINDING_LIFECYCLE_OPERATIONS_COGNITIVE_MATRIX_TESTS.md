@@ -2,7 +2,10 @@
 title: O03 BINDING LIFECYCLE OPERATIONS COGNITIVE MATRIX TESTS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING
-tags: [note, o03-binding, canon/cognitive-matrix]
+tags:
+- note
+- o03-binding
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,20 @@
 title: "AMOS × Heritage Matrix"
 type: heritage
 source: 25_COGNITIVE_MATRIX
-tags: [amos_os, cognitive_matrix, matrix, 25_cognitive_matrix, heritage, heritage_intelligence, heritage_void, decision_governance, uncertainty, regime_detection, provenance, rscf, canon/cognitive-matrix]
+tags:
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- heritage
+- heritage_intelligence
+- heritage_void
+- decision_governance
+- uncertainty
+- regime_detection
+- provenance
+- rscf
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

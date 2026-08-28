@@ -1,6 +1,10 @@
 ---
 title: DETAILED TECHNICAL PLUS COMPLIANCE SPEC
-tags: [security, safety, adversarial, canon/knowledge]
+tags:
+- security
+- safety
+- adversarial
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/security
 rscf:

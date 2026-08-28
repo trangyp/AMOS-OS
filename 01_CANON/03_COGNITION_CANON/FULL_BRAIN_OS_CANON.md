@@ -16,7 +16,40 @@ origin_architect: Trang Phan
 steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, full-brain-os, cognitive-architecture, cognitive-organism, cognition, intelligence, reasoning, memory, knowledge, learning, agents, skills, workflows, models, rscf, hml, provenance, uncertainty, metacognition, adaptive-complexity, governed-evolution, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/full-brain-os]
+tags:
+- amos
+- canon
+- universe
+- amos-os
+- amos-core
+- amos-core-v4-4
+- full-brain-os
+- cognitive-architecture
+- cognitive-organism
+- cognition
+- intelligence
+- reasoning
+- memory
+- knowledge
+- learning
+- agents
+- skills
+- workflows
+- models
+- rscf
+- hml
+- provenance
+- uncertainty
+- metacognition
+- adaptive-complexity
+- governed-evolution
+- canon-group/tech-ai
+- canon/framework
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/full-brain-os
 aliases: "- AMOS Full Brain OS
   - Full Brain OS
   - AMOS Full Brain Architecture

@@ -2,7 +2,10 @@
 title: cdfm causal spec
 type: reference
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/references
-tags: [reference, arxiv-cdfm-causal-discovery-foundation-rscf, canon/skill]
+tags:
+- reference
+- arxiv-cdfm-causal-discovery-foundation-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

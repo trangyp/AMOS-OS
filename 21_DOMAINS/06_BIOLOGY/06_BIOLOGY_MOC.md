@@ -2,7 +2,10 @@
 title: "06 Biology MOC"
 type: moc
 source: 21_DOMAINS/06_BIOLOGY
-tags: [moc, 06-biology, canon/domain]
+tags:
+- moc
+- 06-biology
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: brain router detailed
 type: reference
 source: 07_SKILLS/amos-knowledge-research-master/references
-tags: [reference, amos-knowledge-research-master, canon/skill]
+tags:
+- reference
+- amos-knowledge-research-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

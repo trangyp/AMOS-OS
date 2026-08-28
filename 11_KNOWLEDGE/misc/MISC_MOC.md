@@ -2,7 +2,10 @@
 title: "Misc MOC"
 type: moc
 source: 11_KNOWLEDGE/misc
-tags: [moc, misc, canon/knowledge]
+tags:
+- moc
+- misc
+- canon/knowledge
 rscf:
   state: DERIVED
   claim_class: DERIVED

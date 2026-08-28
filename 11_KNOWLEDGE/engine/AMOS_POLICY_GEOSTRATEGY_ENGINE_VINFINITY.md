@@ -6,7 +6,16 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Policy_Geostrategy_Engine_v0.json (257 lines, 7KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, policy, geostrategy, engine, v-infinity, national-strategy, decision-support, lens-space, canon/knowledge]
+tags:
+- amos
+- policy
+- geostrategy
+- engine
+- v-infinity
+- national-strategy
+- decision-support
+- lens-space
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

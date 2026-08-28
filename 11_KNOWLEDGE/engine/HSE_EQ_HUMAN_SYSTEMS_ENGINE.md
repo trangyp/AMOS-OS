@@ -1,6 +1,10 @@
 ---
 title: HSE EQ HUMAN SYSTEMS ENGINE
-tags: [engine, processing, runtime, canon/knowledge]
+tags:
+- engine
+- processing
+- runtime
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Geometric Causal Models Rscf"
 type: moc
 source: 07_SKILLS/arxiv-geometric-causal-models-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

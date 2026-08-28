@@ -1,6 +1,10 @@
 ---
 title: EMOTION RULES
-tags: [emotion, affect, mind, canon/knowledge]
+tags:
+- emotion
+- affect
+- mind
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/emotion
 rscf:

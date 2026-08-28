@@ -1,6 +1,10 @@
 ---
 title: TRANG FPR FIRST PRINCIPLE REASONING
-tags: [trang, framework, reality, canon/knowledge]
+tags:
+- trang
+- framework
+- reality
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:

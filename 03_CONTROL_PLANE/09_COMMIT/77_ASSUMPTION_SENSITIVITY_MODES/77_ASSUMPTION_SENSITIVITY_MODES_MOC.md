@@ -2,7 +2,10 @@
 title: "77 Assumption Sensitivity Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/77_ASSUMPTION_SENSITIVITY_MODES
-tags: [moc, 77-assumption-sensitivity-modes, canon/control-plane]
+tags:
+- moc
+- 77-assumption-sensitivity-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

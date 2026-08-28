@@ -2,7 +2,10 @@
 title: INDEX C03 PHYSICS COSMOS DOMAINS README
 type: index
 source: 21_DOMAINS/13_C03_PHYSICS_COSMOS/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

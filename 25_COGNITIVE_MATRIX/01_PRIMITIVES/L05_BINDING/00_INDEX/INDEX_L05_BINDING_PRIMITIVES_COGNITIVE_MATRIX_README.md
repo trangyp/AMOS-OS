@@ -2,7 +2,10 @@
 title: INDEX L05 BINDING PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/00_INDEX
-tags: [cognitive_matrix, l05_binding, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l05_binding
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

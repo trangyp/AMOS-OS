@@ -2,7 +2,10 @@
 title: "Amos-Cross-Domain-Tensor-Composition-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor
-tags: [moc, amos-cross-domain-tensor-composition-gov, canon/skill]
+tags:
+- moc
+- amos-cross-domain-tensor-composition-gov
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

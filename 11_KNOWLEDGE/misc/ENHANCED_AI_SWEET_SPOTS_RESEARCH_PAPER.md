@@ -1,6 +1,13 @@
 ---
 title: ENHANCED AI SWEET SPOTS RESEARCH PAPER
-tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/enhanced-ai-sweet-spots-research-paper, misc]
+tags:
+- canon-group/planetary
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/enhanced-ai-sweet-spots-research-paper
+- misc
 type: note
 source: 11_KNOWLEDGE/misc
 rscf:

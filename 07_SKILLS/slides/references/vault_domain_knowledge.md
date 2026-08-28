@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Slides"
 type: reference
 source: 07_SKILLS/slides/references
-tags: [reference, slides, canon/skill]
+tags:
+- reference
+- slides
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

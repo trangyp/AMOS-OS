@@ -1,6 +1,10 @@
 ---
 title: NHAP KHAU DAU KEO EV AND XE TAI EV TRUNG QUOC
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

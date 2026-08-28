@@ -2,7 +2,10 @@
 title: "Amos-Design-Visual-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-design-visual-rscf-engine
-tags: [moc, amos-design-visual-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-design-visual-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

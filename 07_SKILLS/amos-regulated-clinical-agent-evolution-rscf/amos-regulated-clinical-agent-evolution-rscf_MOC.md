@@ -2,7 +2,10 @@
 title: "Amos-Regulated-Clinical-Agent-Evolution-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf
-tags: [moc, amos-regulated-clinical-agent-evolution-, canon/skill]
+tags:
+- moc
+- amos-regulated-clinical-agent-evolution-
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

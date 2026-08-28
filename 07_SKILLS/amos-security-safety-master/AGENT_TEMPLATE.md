@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos Security Safety Master"
 type: note
 source: 07_SKILLS/amos-security-safety-master
-tags: [note, amos-security-safety-master, canon/skill]
+tags:
+- note
+- amos-security-safety-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

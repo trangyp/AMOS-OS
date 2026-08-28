@@ -2,7 +2,10 @@
 title: "Amos-Counterfactual-Selfhood-Mapper MOC"
 type: moc
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper
-tags: [moc, amos-counterfactual-selfhood-mapper, canon/skill]
+tags:
+- moc
+- amos-counterfactual-selfhood-mapper
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

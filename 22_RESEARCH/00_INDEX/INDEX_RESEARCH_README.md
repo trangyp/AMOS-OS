@@ -2,7 +2,10 @@
 title: INDEX RESEARCH README
 type: index
 source: 22_RESEARCH/00_INDEX
-tags: [amos_os, 22_research, canon/research]
+tags:
+- amos_os
+- 22_research
+- canon/research
 rscf:
   state: DERIVED
   claim_class: DERIVED

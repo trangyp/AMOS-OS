@@ -2,7 +2,10 @@
 title: COGNITIVE MATRIX DEPENDENCY GRAPH CONTRACT
 type: dependency
 source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH
-tags: [cognitive_matrix, cognitive_matrix_dependency_graph_contract.md, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- cognitive_matrix_dependency_graph_contract.md
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

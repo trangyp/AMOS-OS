@@ -1,6 +1,10 @@
 ---
 title: A_DETERMINISTIC_ARCHITECTURE_FOR_HUMANMACHINE_ALIGNMENT
-tags: [human, alignment, interaction, canon/knowledge]
+tags:
+- human
+- alignment
+- interaction
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/human
 rscf:

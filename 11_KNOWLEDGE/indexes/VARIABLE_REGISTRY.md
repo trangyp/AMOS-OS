@@ -1,6 +1,10 @@
 ---
 title: VARIABLE REGISTRY
-tags: [indexes, index, moc, canon/knowledge]
+tags:
+- indexes
+- index
+- moc
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/indexes
 rscf:

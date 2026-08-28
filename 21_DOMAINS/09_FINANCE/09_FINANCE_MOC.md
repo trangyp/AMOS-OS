@@ -2,7 +2,10 @@
 title: "09 Finance MOC"
 type: moc
 source: 21_DOMAINS/09_FINANCE
-tags: [moc, 09-finance, canon/domain]
+tags:
+- moc
+- 09-finance
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

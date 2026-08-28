@@ -1,6 +1,10 @@
 ---
 title: THE INSTITUTIONAL DIGITAL SECURITY BOUND
-tags: [security, safety, adversarial, canon/knowledge]
+tags:
+- security
+- safety
+- adversarial
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/security
 rscf:

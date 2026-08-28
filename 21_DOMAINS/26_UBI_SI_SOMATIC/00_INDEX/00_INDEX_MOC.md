@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / Ubi Si Somatic / Index"
 type: moc
 source: 21_DOMAINS/26_UBI_SI_SOMATIC/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L17 DECISION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
-tags: [cognitive_matrix, primitives, l17_decision, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l17_decision
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -1,6 +1,13 @@
 ---
 title: VIETNAMESE CREATIVITY FROM ROT TO FUTURE BAI BAO TIENG ANH
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/vietnamese-creativity-from-r-t-to-future, vietnamese]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/vietnamese-creativity-from-r-t-to-future
+- vietnamese
 type: note
 source: 11_KNOWLEDGE/vietnamese
 rscf:

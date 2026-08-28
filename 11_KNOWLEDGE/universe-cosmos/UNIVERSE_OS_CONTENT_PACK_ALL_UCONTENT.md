@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: os-module
 rscf-state: source-claim
 topic: universe-os-content-pack-all-ucontent
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/universe-os-content-pack-all-ucontent, universe-cosmos]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/universe-os-content-pack-all-ucontent
+- universe-cosmos
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

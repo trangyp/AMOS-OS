@@ -1,6 +1,13 @@
 ---
 title: AMOS DOMAIN SKILLS CATALOG
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-domain-skills-catalog, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-domain-skills-catalog
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

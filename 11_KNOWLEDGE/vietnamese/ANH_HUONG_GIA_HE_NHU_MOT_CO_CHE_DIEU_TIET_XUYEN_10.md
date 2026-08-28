@@ -1,6 +1,10 @@
 ---
 title: ANH HUONG GIA HE NHU MOT CO CHE DIEU TIET XUYEN 10
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

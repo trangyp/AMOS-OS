@@ -2,7 +2,10 @@
 title: "Index MOC — Skills / Index"
 type: moc
 source: 07_SKILLS/00_INDEX
-tags: [moc, 00-index, canon/skill]
+tags:
+- moc
+- 00-index
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "05 Frameworks MOC"
 type: moc
 source: 11_KNOWLEDGE/05_FRAMEWORKS
-tags: [moc, 05-frameworks, canon/knowledge]
+tags:
+- moc
+- 05-frameworks
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

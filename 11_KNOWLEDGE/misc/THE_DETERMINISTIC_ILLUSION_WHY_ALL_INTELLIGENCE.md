@@ -1,6 +1,10 @@
 ---
 title: THE DETERMINISTIC ILLUSION WHY ALL INTELLIGENCE
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

@@ -16,7 +16,10 @@ epistemic_class: "MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "UNKNOWN/GAP"
 validation_status: "UNKNOWN/GAP"
-tags: [note, 00-root, canon/root]
+tags:
+- note
+- 00-root
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

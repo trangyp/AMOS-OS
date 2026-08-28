@@ -2,7 +2,10 @@
 title: "Amos-Contravariance-Alignment-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine
-tags: [moc, amos-contravariance-alignment-rscf-engin, canon/skill]
+tags:
+- moc
+- amos-contravariance-alignment-rscf-engin
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: AI ENTROPY ARCHITECTURE 2
-tags: [architecture, design, structure, canon/knowledge]
+tags:
+- architecture
+- design
+- structure
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/architecture
 rscf:

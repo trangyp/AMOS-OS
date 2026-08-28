@@ -2,7 +2,10 @@
 title: "Amos-Agent-Storage-Footprint-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-agent-storage-footprint-rscf
-tags: [moc, amos-agent-storage-footprint-rscf, canon/skill]
+tags:
+- moc
+- amos-agent-storage-footprint-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

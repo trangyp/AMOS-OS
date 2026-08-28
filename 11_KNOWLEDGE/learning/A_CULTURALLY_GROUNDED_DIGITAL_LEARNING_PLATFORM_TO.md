@@ -1,6 +1,10 @@
 ---
 title: A CULTURALLY GROUNDED DIGITAL LEARNING PLATFORM TO
-tags: [learning, training, adaptation, canon/knowledge]
+tags:
+- learning
+- training
+- adaptation
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/learning
 rscf:

@@ -1,6 +1,13 @@
 ---
 title: AMOS SIGNAL PROCESSING KERNEL V0 MATH FOUNDATIONS
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-signal-processing-kernel-v0, math]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-signal-processing-kernel-v0
+- math
 type: data
 source: 11_KNOWLEDGE/math
 rscf:

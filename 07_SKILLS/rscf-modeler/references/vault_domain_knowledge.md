@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Rscf Modeler"
 type: reference
 source: 07_SKILLS/rscf-modeler/references
-tags: [reference, rscf-modeler, canon/skill]
+tags:
+- reference
+- rscf-modeler
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

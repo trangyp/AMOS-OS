@@ -2,7 +2,10 @@
 title: "04 Handbooks MOC"
 type: moc
 source: 20_OPERATIONS/04_HANDBOOKS
-tags: [moc, 04-handbooks, canon/operations]
+tags:
+- moc
+- 04-handbooks
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

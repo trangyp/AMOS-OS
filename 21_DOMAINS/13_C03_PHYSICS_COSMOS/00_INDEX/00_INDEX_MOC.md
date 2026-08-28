@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / C03 Physics Cosmos / Index"
 type: moc
 source: 21_DOMAINS/13_C03_PHYSICS_COSMOS/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

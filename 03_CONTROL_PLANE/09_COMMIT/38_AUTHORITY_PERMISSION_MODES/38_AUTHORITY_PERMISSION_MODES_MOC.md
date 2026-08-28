@@ -2,7 +2,10 @@
 title: "38 Authority Permission Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/38_AUTHORITY_PERMISSION_MODES
-tags: [moc, 38-authority-permission-modes, canon/control-plane]
+tags:
+- moc
+- 38-authority-permission-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Interprocedural Callgraph Rscf"
 type: reference
 source: 07_SKILLS/amos-interprocedural-callgraph-rscf/references
-tags: [reference, amos-interprocedural-callgraph-rscf, canon/skill]
+tags:
+- reference
+- amos-interprocedural-callgraph-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

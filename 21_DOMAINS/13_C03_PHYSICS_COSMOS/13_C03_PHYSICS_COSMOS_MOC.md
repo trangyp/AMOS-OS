@@ -2,7 +2,10 @@
 title: "13 C03 Physics Cosmos MOC"
 type: moc
 source: 21_DOMAINS/13_C03_PHYSICS_COSMOS
-tags: [moc, 13-c03-physics-cosmos, canon/domain]
+tags:
+- moc
+- 13-c03-physics-cosmos
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

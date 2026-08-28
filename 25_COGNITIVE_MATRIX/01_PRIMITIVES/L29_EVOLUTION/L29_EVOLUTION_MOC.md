@@ -2,7 +2,10 @@
 title: "L29 Evolution MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION
-tags: [moc, l29-evolution, canon/cognitive-matrix]
+tags:
+- moc
+- l29-evolution
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

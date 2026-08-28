@@ -1,6 +1,13 @@
 ---
 title: AMOS PUBLIC HEALTH KERNEL V0 BIOLOGY COGNITION
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-public-health-kernel-v0, kernel]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-public-health-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

@@ -2,7 +2,10 @@
 title: "20 Operations MOC"
 type: moc
 source: 20_OPERATIONS
-tags: [moc, 20-operations, canon/operations]
+tags:
+- moc
+- 20-operations
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

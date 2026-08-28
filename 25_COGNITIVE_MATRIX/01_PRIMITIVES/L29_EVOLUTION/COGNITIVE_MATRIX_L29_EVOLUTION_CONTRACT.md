@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L29 EVOLUTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION
-tags: [cognitive_matrix, primitives, l29_evolution, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l29_evolution
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

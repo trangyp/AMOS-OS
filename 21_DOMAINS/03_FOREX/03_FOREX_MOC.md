@@ -2,7 +2,10 @@
 title: "03 Forex MOC"
 type: moc
 source: 21_DOMAINS/03_FOREX
-tags: [moc, 03-forex, canon/domain]
+tags:
+- moc
+- 03-forex
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -5,7 +5,23 @@ origin: "Google Drive — new troy/Enhanced Master Relationship Pack.pdf + How T
 origin_architect: "Tech 4 Humanity Pty Ltd (Troy Latter, CEO)"
 type: legal-template
 source: 11_KNOWLEDGE/misc
-tags: [t4h, master-relationship-pack, NDA, MOU, commercial-engagement, Australian-law, Holo-Org, NEUROPAK, AHC, BCI-data, AI-generated-IP, strategic-IP, performance-metrics, floating-economy, misc, canon/knowledge]
+tags:
+- t4h
+- master-relationship-pack
+- NDA
+- MOU
+- commercial-engagement
+- Australian-law
+- Holo-Org
+- NEUROPAK
+- AHC
+- BCI-data
+- AI-generated-IP
+- strategic-IP
+- performance-metrics
+- floating-economy
+- misc
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

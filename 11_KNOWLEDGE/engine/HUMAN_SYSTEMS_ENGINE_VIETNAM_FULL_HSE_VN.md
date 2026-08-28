@@ -5,7 +5,28 @@ source: 11_KNOWLEDGE/engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf"
 origin_type: "SOURCE"
-tags: [amos, hse, vietnam, human-systems-engine, archetype, cycle, risk, politic, 63-provinces, 27-archetypes, 16-factors, 7-cycles, 4-human-types, 33-tech-roles, 4-power-layers, 5-policy-layers, MECE, deterministic, AI-ready, engine, canon/knowledge]
+tags:
+- amos
+- hse
+- vietnam
+- human-systems-engine
+- archetype
+- cycle
+- risk
+- politic
+- 63-provinces
+- 27-archetypes
+- 16-factors
+- 7-cycles
+- 4-human-types
+- 33-tech-roles
+- 4-power-layers
+- 5-policy-layers
+- MECE
+- deterministic
+- AI-ready
+- engine
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

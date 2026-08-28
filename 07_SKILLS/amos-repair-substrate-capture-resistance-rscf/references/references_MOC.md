@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Repair Substrate Capture Resistance Rscf"
 type: moc
 source: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,10 @@
 ---
 title: TOAN CANH THI TRUONG EVENT CONCERT FESTIVAL TAI VI
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

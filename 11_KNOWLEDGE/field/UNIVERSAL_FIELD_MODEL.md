@@ -1,6 +1,10 @@
 ---
 title: UNIVERSAL FIELD MODEL
-tags: [field, physics, domain, canon/knowledge]
+tags:
+- field
+- physics
+- domain
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/field
 rscf:

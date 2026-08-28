@@ -2,7 +2,10 @@
 title: "Control MOC"
 type: moc
 source: 11_KNOWLEDGE/control
-tags: [moc, control, canon/knowledge]
+tags:
+- moc
+- control
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

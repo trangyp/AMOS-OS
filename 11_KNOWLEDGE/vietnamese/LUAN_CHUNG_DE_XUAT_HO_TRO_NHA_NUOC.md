@@ -1,6 +1,10 @@
 ---
 title: LUAN CHUNG DE XUAT HO TRO NHA NUOC
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

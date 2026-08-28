@@ -1,6 +1,10 @@
 ---
 title: MASTER SIGNAL SPEC GENESIS V1 0 PROOF OF SIGNAL
-tags: [signal, processing, detection, canon/knowledge]
+tags:
+- signal
+- processing
+- detection
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/signal
 rscf:

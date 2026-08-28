@@ -2,7 +2,10 @@
 title: "Index MOC — Operating Model / Index"
 type: moc
 source: 23_OPERATING_MODEL/00_INDEX
-tags: [moc, 00-index, canon/operating-model]
+tags:
+- moc
+- 00-index
+- canon/operating-model
 rscf:
   state: DERIVED
   claim_class: DERIVED

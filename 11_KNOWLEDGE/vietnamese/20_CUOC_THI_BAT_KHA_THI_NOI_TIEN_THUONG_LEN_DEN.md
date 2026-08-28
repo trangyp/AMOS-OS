@@ -1,6 +1,10 @@
 ---
 title: 20 CUOC THI BAT KHA THI NOI TIEN THUONG LEN DEN
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

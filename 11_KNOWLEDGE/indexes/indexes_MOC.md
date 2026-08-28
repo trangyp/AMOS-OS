@@ -2,7 +2,10 @@
 title: "Indexes MOC"
 type: moc
 source: 11_KNOWLEDGE/indexes
-tags: [moc, indexes, canon/knowledge]
+tags:
+- moc
+- indexes
+- canon/knowledge
 rscf:
   state: DERIVED
   claim_class: DERIVED

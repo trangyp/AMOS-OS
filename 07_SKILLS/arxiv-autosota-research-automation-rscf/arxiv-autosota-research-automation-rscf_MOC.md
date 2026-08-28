@@ -2,7 +2,10 @@
 title: "Arxiv-Autosota-Research-Automation-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-autosota-research-automation-rscf
-tags: [moc, arxiv-autosota-research-automation-rscf, canon/skill]
+tags:
+- moc
+- arxiv-autosota-research-automation-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

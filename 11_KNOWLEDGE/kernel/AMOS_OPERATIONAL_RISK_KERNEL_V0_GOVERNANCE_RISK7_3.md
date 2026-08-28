@@ -1,6 +1,13 @@
 ---
 title: AMOS OPERATIONAL RISK KERNEL V0 GOVERNANCE RISK7 3
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-operational-risk-kernel-v0, kernel]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-operational-risk-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

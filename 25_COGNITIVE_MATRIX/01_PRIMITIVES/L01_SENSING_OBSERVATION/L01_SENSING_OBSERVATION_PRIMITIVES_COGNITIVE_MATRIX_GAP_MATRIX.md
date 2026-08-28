@@ -2,7 +2,20 @@
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX GAP MATRIX
 type: gap
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
-tags: [amos, cognitive-matrix, l01, sensing-observation, gap-matrix, completeness, validation, provenance, control-plane, recovery, rscf, rscf/type-model, canon/cognitive-matrix]
+tags:
+- amos
+- cognitive-matrix
+- l01
+- sensing-observation
+- gap-matrix
+- completeness
+- validation
+- provenance
+- control-plane
+- recovery
+- rscf
+- rscf/type-model
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

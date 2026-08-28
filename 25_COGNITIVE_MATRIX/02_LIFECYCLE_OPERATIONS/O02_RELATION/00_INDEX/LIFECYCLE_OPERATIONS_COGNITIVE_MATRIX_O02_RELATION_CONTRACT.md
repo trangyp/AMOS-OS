@@ -2,7 +2,10 @@
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O02 RELATION CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION/00_INDEX
-tags: [cognitive_matrix, o02_relation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o02_relation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

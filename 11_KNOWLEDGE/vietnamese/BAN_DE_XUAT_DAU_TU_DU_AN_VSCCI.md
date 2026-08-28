@@ -1,6 +1,10 @@
 ---
 title: BAN DE XUAT DAU TU DU AN VSCCI
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

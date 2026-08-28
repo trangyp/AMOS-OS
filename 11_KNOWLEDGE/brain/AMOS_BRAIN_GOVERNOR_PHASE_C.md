@@ -1,6 +1,10 @@
 ---
 title: AMOS BRAIN GOVERNOR PHASE C
-tags: [brain, cognitive, neural, canon/knowledge]
+tags:
+- brain
+- cognitive
+- neural
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/brain
 rscf:

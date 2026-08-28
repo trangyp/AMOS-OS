@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Agent Externalization Architecture Rscf"
 type: moc
 source: 07_SKILLS/amos-agent-externalization-architecture-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

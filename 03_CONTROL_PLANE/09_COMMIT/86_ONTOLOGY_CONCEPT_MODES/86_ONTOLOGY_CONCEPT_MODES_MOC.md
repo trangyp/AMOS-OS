@@ -2,7 +2,10 @@
 title: "86 Ontology Concept Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/86_ONTOLOGY_CONCEPT_MODES
-tags: [moc, 86-ontology-concept-modes, canon/control-plane]
+tags:
+- moc
+- 86-ontology-concept-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

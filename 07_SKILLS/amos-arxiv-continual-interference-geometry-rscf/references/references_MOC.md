@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Arxiv Continual Interference Geometry Rscf"
 type: moc
 source: 07_SKILLS/amos-arxiv-continual-interference-geometry-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

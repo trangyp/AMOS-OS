@@ -3,7 +3,15 @@ title: "AMOS Privacy Compliance Licensing"
 created: "2026-08-22"
 type: note
 source: 11_KNOWLEDGE/dated
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-privacy-compliance, dated, dated/2026-08-22]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-privacy-compliance
+- dated
+- dated/2026-08-22
 status: "living"
 provenance: "MODEL"
 confidence: "VERIFIED"

@@ -1,6 +1,10 @@
 ---
 title: NANG LUONG GIA HE CAU TRUC TAI DIEN CUA DONG TOC V
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

@@ -2,7 +2,10 @@
 title: system fixes complete
 type: reference
 source: 07_SKILLS/amos-audit-repair-master/references
-tags: [reference, amos-audit-repair-master, canon/skill]
+tags:
+- reference
+- amos-audit-repair-master
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

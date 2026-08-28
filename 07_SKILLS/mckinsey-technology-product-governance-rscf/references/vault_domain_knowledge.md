@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Technology Product Governance Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf/references
-tags: [reference, mckinsey-technology-product-governance-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-technology-product-governance-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

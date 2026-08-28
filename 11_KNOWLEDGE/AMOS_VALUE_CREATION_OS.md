@@ -2,7 +2,10 @@
 title: "AMOS GIANT VALUE CREATION OS — MAX DETAIL MASTER ARCHITECTURE"
 type: value
 source: 11_KNOWLEDGE
-tags: [knowledge, note, canon/knowledge]
+tags:
+- knowledge
+- note
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

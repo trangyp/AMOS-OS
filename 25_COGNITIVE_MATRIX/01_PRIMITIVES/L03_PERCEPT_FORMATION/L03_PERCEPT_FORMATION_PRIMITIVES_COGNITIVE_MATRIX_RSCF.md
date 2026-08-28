@@ -2,7 +2,12 @@
 title: L03 PERCEPT FORMATION PRIMITIVES COGNITIVE MATRIX RSCF
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
-tags: [cognitive_matrix, primitives, l03_percept_formation, note, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l03_percept_formation
+- note
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

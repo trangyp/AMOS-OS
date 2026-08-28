@@ -2,7 +2,10 @@
 title: "68 Opportunity Discovery Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/68_OPPORTUNITY_DISCOVERY_MODES
-tags: [moc, 68-opportunity-discovery-modes, canon/control-plane]
+tags:
+- moc
+- 68-opportunity-discovery-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

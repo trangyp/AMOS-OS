@@ -2,7 +2,11 @@
 title: "references MOC"
 type: moc
 source: 07_SKILLS
-tags: [moc, references, skills, canon/skill]
+tags:
+- moc
+- references
+- skills
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

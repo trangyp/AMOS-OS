@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Llm Judge Bias Geometry Rscf"
 type: moc
 source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

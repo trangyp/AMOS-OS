@@ -2,7 +2,10 @@
 title: "Canon MOC"
 type: moc
 source: 11_KNOWLEDGE/canon
-tags: [moc, canon, canon/knowledge]
+tags:
+- moc
+- canon
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

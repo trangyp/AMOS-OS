@@ -1,6 +1,10 @@
 ---
 title: SYSTEMS
-tags: [system, architecture, design, canon/knowledge]
+tags:
+- system
+- architecture
+- design
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/system
 rscf:

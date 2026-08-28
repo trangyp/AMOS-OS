@@ -2,7 +2,10 @@
 title: "Amos-Arxiv-Quantum-Arithmetic-Cryptanalysis-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf
-tags: [moc, amos-arxiv-quantum-arithmetic-cryptanaly, canon/skill]
+tags:
+- moc
+- amos-arxiv-quantum-arithmetic-cryptanaly
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

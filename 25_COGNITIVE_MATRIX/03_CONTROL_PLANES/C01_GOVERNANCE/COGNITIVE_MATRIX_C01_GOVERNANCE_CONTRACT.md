@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX C01 GOVERNANCE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
-tags: [cognitive_matrix, control_planes, c01_governance, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- control_planes
+- c01_governance
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Neural Computation Mapper"
 type: reference
 source: 07_SKILLS/amos-neural-computation-mapper/references
-tags: [reference, amos-neural-computation-mapper, canon/skill]
+tags:
+- reference
+- amos-neural-computation-mapper
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

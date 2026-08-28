@@ -2,7 +2,10 @@
 title: "Amos-Goal-Plan-Action-Alignment-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf
-tags: [moc, amos-goal-plan-action-alignment-rscf, canon/skill]
+tags:
+- moc
+- amos-goal-plan-action-alignment-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

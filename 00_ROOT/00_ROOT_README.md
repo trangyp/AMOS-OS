@@ -17,7 +17,56 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 scope: "see body"
-tags: [amos, amos_os, root, amos-os, architecture, cognitive-operating-system, infrastructure, canon, kernel, control-plane, runtime, cognition, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, provenance, rscf, gmef, hml, observability, security, tests, operations, domains, modes, research, operating-model, archive, cognitive-matrix, authority, dependency-closure, failure-recovery, provenance-topology, canon-group/tech-ai, canon/architecture, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/system-architecture]
+tags:
+- amos
+- amos_os
+- root
+- amos-os
+- architecture
+- cognitive-operating-system
+- infrastructure
+- canon
+- kernel
+- control-plane
+- runtime
+- cognition
+- cognitive-organism
+- agents
+- skills
+- workflows
+- protocols
+- memory
+- knowledge
+- state
+- models
+- tools
+- interfaces
+- schemas
+- provenance
+- rscf
+- gmef
+- hml
+- observability
+- security
+- tests
+- operations
+- domains
+- modes
+- research
+- operating-model
+- archive
+- cognitive-matrix
+- authority
+- dependency-closure
+- failure-recovery
+- provenance-topology
+- canon-group/tech-ai
+- canon/architecture
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-os
+- topic/system-architecture
 aliases: "- AMOS OS
   - AMOS Operating System
   - AMOS Cognitive Operating System

@@ -2,7 +2,9 @@
 title: "INDEX SUPERSESSION CANON README"
 type: index
 source: 01_CANON/08_SUPERSESSION/00_INDEX
-tags: [00_INDEX, canon/universe]
+tags:
+- 00_INDEX
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Session Control Plane"
 type: reference
 source: 07_SKILLS/amos-session-control-plane/references
-tags: [reference, amos-session-control-plane, canon/skill]
+tags:
+- reference
+- amos-session-control-plane
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

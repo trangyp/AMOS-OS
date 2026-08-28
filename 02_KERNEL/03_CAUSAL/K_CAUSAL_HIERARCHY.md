@@ -16,7 +16,31 @@ domain: causal-hierarchy
 scope: AMOS_OS
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/causal, kernel/causal-hierarchy, kernel/causal-closure, kernel/causal-epoch, kernel/dependency, kernel/provenance, kernel/regime, kernel/scope, kernel/multi-hypothesis, kernel/validation, rscf/state/model, causal/hierarchy, causal/mechanism, causal/confounding, causal/mediation, causal/feedback, causal/effect, topic/causal-hierarchy, topic/causal-inference]
+tags:
+- amos-os
+- kernel
+- core
+- canon-group/tech-ai
+- canon/model
+- kernel/causal
+- kernel/causal-hierarchy
+- kernel/causal-closure
+- kernel/causal-epoch
+- kernel/dependency
+- kernel/provenance
+- kernel/regime
+- kernel/scope
+- kernel/multi-hypothesis
+- kernel/validation
+- rscf/state/model
+- causal/hierarchy
+- causal/mechanism
+- causal/confounding
+- causal/mediation
+- causal/feedback
+- causal/effect
+- topic/causal-hierarchy
+- topic/causal-inference
 aliases: "- AMOS Causal Hierarchy Kernel
   - Causal Hierarchy Kernel
   - K Causal Hierarchy

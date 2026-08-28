@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Interprocedural Callgraph Rscf"
 type: moc
 source: 07_SKILLS/amos-interprocedural-callgraph-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

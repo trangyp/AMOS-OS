@@ -1,6 +1,10 @@
 ---
 title: THE SIGNAL ECONOMY INVESTOR PITCH
-tags: [economy, finance, market, canon/knowledge]
+tags:
+- economy
+- finance
+- market
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/economy
 rscf:

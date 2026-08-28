@@ -2,7 +2,10 @@
 title: GLOSSARY MAP
 type: glossary
 source: 01_CANON/06_GLOSSARY/00_INDEX
-tags: [amos_os, 01_canon, canon/universe]
+tags:
+- amos_os
+- 01_canon
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Arxiv-Multistage-Order-Causal-Discovery-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf
-tags: [moc, amos-arxiv-multistage-order-causal-disco, canon/skill]
+tags:
+- moc
+- amos-arxiv-multistage-order-causal-disco
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

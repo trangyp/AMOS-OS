@@ -2,7 +2,10 @@
 title: AGENT NAMING CONVENTION
 type: note
 source: 06_AGENTS
-tags: [note, vault, canon/agent]
+tags:
+- note
+- vault
+- canon/agent
 rscf:
   state: DERIVED
   claim_class: DERIVED

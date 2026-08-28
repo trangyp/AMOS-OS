@@ -2,7 +2,10 @@
 title: INDEX PROTOCOLS README
 type: index
 source: 09_PROTOCOLS/00_INDEX
-tags: [amos_os, 09_protocols, canon/protocol]
+tags:
+- amos_os
+- 09_protocols
+- canon/protocol
 rscf:
   state: DERIVED
   claim_class: DERIVED

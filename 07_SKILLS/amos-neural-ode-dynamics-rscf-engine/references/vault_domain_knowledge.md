@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Neural Ode Dynamics Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-neural-ode-dynamics-rscf-engine/references
-tags: [reference, amos-neural-ode-dynamics-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-neural-ode-dynamics-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

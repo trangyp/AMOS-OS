@@ -2,7 +2,10 @@
 title: INDEX MEMORY README
 type: index
 source: 10_MEMORY/00_INDEX
-tags: [amos_os, 10_memory, canon/memory]
+tags:
+- amos_os
+- 10_memory
+- canon/memory
 rscf:
   state: DERIVED
   claim_class: DERIVED

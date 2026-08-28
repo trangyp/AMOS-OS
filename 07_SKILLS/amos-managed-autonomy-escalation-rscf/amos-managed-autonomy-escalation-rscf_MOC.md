@@ -2,7 +2,10 @@
 title: "Amos-Managed-Autonomy-Escalation-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-managed-autonomy-escalation-rscf
-tags: [moc, amos-managed-autonomy-escalation-rscf, canon/skill]
+tags:
+- moc
+- amos-managed-autonomy-escalation-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

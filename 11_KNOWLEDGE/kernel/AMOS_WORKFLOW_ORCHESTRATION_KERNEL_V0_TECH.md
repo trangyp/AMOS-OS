@@ -1,6 +1,13 @@
 ---
 title: AMOS WORKFLOW ORCHESTRATION KERNEL V0 TECH
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-workflow-orchestration-kernel-v0, kernel]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-workflow-orchestration-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

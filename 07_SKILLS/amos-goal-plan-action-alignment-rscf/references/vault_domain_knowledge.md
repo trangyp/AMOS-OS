@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Goal Plan Action Alignment Rscf"
 type: reference
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf/references
-tags: [reference, amos-goal-plan-action-alignment-rscf, canon/skill]
+tags:
+- reference
+- amos-goal-plan-action-alignment-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

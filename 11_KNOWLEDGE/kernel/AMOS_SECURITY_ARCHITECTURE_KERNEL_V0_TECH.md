@@ -1,6 +1,12 @@
 ---
 title: AMOS SECURITY ARCHITECTURE KERNEL V0 TECH
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/state/observation, topic/amos-security-architecture-kernel-v0, kernel]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/state/observation
+- topic/amos-security-architecture-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

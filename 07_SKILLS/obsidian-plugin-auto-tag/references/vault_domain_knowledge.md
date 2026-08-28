@@ -2,7 +2,12 @@
 title: "obsidian-plugin-auto-tag — Vault Domain Knowledge"
 type: reference
 source: 07_SKILLS/obsidian-plugin-auto-tag/references
-tags: [reference, obsidian-plugin-auto-tag, plugin, tagging, knowledge]
+tags:
+- reference
+- obsidian-plugin-auto-tag
+- plugin
+- tagging
+- knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

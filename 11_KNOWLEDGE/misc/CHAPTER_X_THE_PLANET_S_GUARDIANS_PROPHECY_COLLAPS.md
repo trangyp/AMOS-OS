@@ -1,6 +1,10 @@
 ---
 title: CHAPTER X THE PLANET S GUARDIANS PROPHECY COLLAPS
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

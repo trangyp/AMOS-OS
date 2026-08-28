@@ -1,6 +1,13 @@
 ---
 title: SETUP AMOS V2
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/setup-amos-v2, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/setup-amos-v2
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

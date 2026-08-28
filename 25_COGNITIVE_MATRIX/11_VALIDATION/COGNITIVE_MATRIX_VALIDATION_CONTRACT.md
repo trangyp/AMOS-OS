@@ -2,7 +2,10 @@
 title: COGNITIVE MATRIX VALIDATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
-tags: [cognitive_matrix, cognitive_matrix_validation_contract.md, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- cognitive_matrix_validation_contract.md
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

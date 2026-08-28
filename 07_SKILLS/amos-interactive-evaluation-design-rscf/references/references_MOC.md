@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Interactive Evaluation Design Rscf"
 type: moc
 source: 07_SKILLS/amos-interactive-evaluation-design-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

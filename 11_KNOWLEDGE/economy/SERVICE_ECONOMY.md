@@ -6,7 +6,14 @@ canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: service-economy
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/service-economy, economy]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/service-economy
+- economy
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

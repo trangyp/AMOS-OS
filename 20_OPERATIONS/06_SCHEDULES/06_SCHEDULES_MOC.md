@@ -2,7 +2,10 @@
 title: "06 Schedules MOC"
 type: moc
 source: 20_OPERATIONS/06_SCHEDULES
-tags: [moc, 06-schedules, canon/operations]
+tags:
+- moc
+- 06-schedules
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

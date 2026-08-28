@@ -2,7 +2,10 @@
 title: asymptotic transcendence
 type: reference
 source: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/references
-tags: [reference, amos-sae-benchmark-reliability-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-sae-benchmark-reliability-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

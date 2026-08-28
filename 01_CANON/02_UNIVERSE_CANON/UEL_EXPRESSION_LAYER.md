@@ -2,7 +2,10 @@
 title: "UEL Expression Layer"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [uel, expression, universe_canon]
+tags:
+- uel
+- expression
+- universe_canon
 ---
 
 # UEL Expression Layer

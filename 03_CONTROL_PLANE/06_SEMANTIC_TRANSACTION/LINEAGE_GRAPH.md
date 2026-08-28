@@ -2,7 +2,10 @@
 title: LINEAGE GRAPH
 type: graph
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
-tags: [control_plane, lineage_graph.md, canon/control-plane]
+tags:
+- control_plane
+- lineage_graph.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

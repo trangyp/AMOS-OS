@@ -1,6 +1,13 @@
 ---
 title: HSE CEO ENGINEV ROOT
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/hse-ceo-enginev, engine]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/hse-ceo-enginev
+- engine
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

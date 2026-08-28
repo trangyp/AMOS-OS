@@ -1,6 +1,10 @@
 ---
 title: ANCIENT MATH ARCHITECTURE
-tags: [math, equation, formal, canon/knowledge]
+tags:
+- math
+- equation
+- formal
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/math
 rscf:

@@ -7,7 +7,14 @@ provenance: direct ingestion of Chapter 16 (Schizophrenia — Complete Grounding
 confidence: 0.95
 epistemic_class: MODEL
 conclusion_label: CONDITIONAL
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/schizophrenia-structural-model-complete-, system]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/schizophrenia-structural-model-complete-
+- system
 date: 2026-08-22
 source_title: "The Complete Human System — Chapter 16: Schizophrenia — Complete Grounding"
 source_type: book-manuscript

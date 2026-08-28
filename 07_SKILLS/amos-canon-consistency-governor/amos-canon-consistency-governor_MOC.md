@@ -2,7 +2,10 @@
 title: "Amos-Canon-Consistency-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-canon-consistency-governor
-tags: [moc, amos-canon-consistency-governor, canon/skill]
+tags:
+- moc
+- amos-canon-consistency-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

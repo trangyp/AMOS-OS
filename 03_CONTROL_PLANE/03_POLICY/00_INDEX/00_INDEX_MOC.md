@@ -2,7 +2,10 @@
 title: "Index MOC — Control Plane / Policy / Index"
 type: moc
 source: 03_CONTROL_PLANE/03_POLICY/00_INDEX
-tags: [moc, 00-index, canon/control-plane]
+tags:
+- moc
+- 00-index
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

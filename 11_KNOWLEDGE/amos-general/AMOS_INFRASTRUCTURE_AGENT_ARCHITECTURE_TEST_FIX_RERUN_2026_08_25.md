@@ -1,6 +1,10 @@
 ---
 title: AMOS INFRASTRUCTURE AGENT ARCHITECTURE TEST FIX RERUN 2026 08 25
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

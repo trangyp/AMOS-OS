@@ -2,7 +2,10 @@
 title: agent working instructions v2
 type: reference
 source: 07_SKILLS/amos-agent-systems-master/references
-tags: [reference, amos-agent-systems-master, canon/skill]
+tags:
+- reference
+- amos-agent-systems-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

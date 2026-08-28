@@ -2,7 +2,10 @@
 title: "Human MOC"
 type: moc
 source: 11_KNOWLEDGE/human
-tags: [moc, human, canon/knowledge]
+tags:
+- moc
+- human
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

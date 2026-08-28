@@ -5,7 +5,23 @@ origin: "Google Drive — _00_AMOS_CANON/_Archive/NEW PROCESS/*.pdf"
 origin_architect: "McKinsey & Company (AMOS adaptation)"
 type: framework
 source: 11_KNOWLEDGE/misc
-tags: [new-process, customer-journey, 7-phases, planning, incubation, build-pilot, waves-MVP, test-learn, roll-scale, organization, governance, culture, people, McKinsey, misc, canon/knowledge]
+tags:
+- new-process
+- customer-journey
+- 7-phases
+- planning
+- incubation
+- build-pilot
+- waves-MVP
+- test-learn
+- roll-scale
+- organization
+- governance
+- culture
+- people
+- McKinsey
+- misc
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

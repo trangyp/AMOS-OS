@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX C03 EXECUTIVE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE
-tags: [cognitive_matrix, control_planes, c03_executive, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- control_planes
+- c03_executive
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

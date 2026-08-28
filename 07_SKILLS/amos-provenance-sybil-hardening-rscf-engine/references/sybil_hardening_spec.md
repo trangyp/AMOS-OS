@@ -2,7 +2,10 @@
 title: sybil hardening spec
 type: reference
 source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine/references
-tags: [reference, amos-provenance-sybil-hardening-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-provenance-sybil-hardening-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: BASELINE COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE
-tags: [control_plane, 01_baseline, canon/control-plane]
+tags:
+- control_plane
+- 01_baseline
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

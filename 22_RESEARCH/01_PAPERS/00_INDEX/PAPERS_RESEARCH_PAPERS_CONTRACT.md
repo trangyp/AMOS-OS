@@ -2,7 +2,10 @@
 title: PAPERS RESEARCH PAPERS CONTRACT
 type: research
 source: 22_RESEARCH/01_PAPERS/00_INDEX
-tags: [amos_os, 22_research, canon/research]
+tags:
+- amos_os
+- 22_research
+- canon/research
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / C10 Tech Engineering / Index"
 type: moc
 source: 21_DOMAINS/20_C10_TECH_ENGINEERING/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

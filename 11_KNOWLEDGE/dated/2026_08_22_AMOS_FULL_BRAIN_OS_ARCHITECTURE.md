@@ -7,7 +7,15 @@ provenance: user-supplied exhaustive architecture (77 sections); raw json NOT pr
 confidence: 0.93
 epistemic_class: SOURCE_DERIVED
 conclusion_label: VERIFIED_PRESENT
-tags: [canon-group/human-system, canon/os-module, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-full-brain-os-architectu, dated, dated/2026-08-22]
+tags:
+- canon-group/human-system
+- canon/os-module
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-amos-full-brain-os-architectu
+- dated
+- dated/2026-08-22
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

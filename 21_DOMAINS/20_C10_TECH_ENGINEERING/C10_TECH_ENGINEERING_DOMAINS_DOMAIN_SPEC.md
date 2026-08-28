@@ -2,7 +2,10 @@
 title: C10 TECH ENGINEERING DOMAINS DOMAIN SPEC
 type: engine
 source: 21_DOMAINS/20_C10_TECH_ENGINEERING
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

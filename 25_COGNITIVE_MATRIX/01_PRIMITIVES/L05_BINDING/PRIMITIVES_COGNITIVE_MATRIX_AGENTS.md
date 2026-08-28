@@ -2,7 +2,10 @@
 title: PRIMITIVES COGNITIVE MATRIX AGENTS
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
-tags: [note, l05-binding, canon/cognitive-matrix]
+tags:
+- note
+- l05-binding
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

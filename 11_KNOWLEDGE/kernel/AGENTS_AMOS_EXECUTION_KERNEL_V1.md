@@ -1,6 +1,10 @@
 ---
 title: AGENTS AMOS EXECUTION KERNEL V1
-tags: [kernel, core, runtime, canon/knowledge]
+tags:
+- kernel
+- core
+- runtime
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:

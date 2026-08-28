@@ -7,7 +7,25 @@ provenance: direct file inspection of cosmo-brain/ on 2026-08-23 (README, packag
 confidence: 0.95
 epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
-tags: [cosmo-brain, architecture, typescript, python, amos, algorithms, governance, domains, knowledge, schemas, registry, prompts, trang-agent, amos-os-kernel, amos-md-brain, amos-v1-production, brain, canon/knowledge]
+tags:
+- cosmo-brain
+- architecture
+- typescript
+- python
+- amos
+- algorithms
+- governance
+- domains
+- knowledge
+- schemas
+- registry
+- prompts
+- trang-agent
+- amos-os-kernel
+- amos-md-brain
+- amos-v1-production
+- brain
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

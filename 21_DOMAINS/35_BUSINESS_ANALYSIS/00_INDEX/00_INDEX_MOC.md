@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / Business Analysis / Index"
 type: moc
 source: 21_DOMAINS/35_BUSINESS_ANALYSIS/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

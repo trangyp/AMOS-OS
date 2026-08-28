@@ -1,6 +1,12 @@
 ---
 title: AMOS AUSTRALIA ENGINES MODEL
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/state/derived, topic/amos-australia-engines-model, engine]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/state/derived
+- topic/amos-australia-engines-model
+- engine
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

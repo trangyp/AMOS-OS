@@ -7,7 +7,19 @@ provenance: direct file inspection + subagent exploration of _00_Cosmo brain sub
 confidence: 0.9
 epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
-tags: [cosmo-brain, flatten, amos-consulting, amos-system-main, amos-forex, openclaw, main, amos-copilot, architecture, directory-map, brain, canon/knowledge]
+tags:
+- cosmo-brain
+- flatten
+- amos-consulting
+- amos-system-main
+- amos-forex
+- openclaw
+- main
+- amos-copilot
+- architecture
+- directory-map
+- brain
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

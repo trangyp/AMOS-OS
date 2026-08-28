@@ -2,7 +2,10 @@
 title: INDEX C05 MIND BEHAVIOR DOMAINS README
 type: index
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

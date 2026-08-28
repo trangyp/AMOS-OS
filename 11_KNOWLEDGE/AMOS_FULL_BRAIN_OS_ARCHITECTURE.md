@@ -1,6 +1,12 @@
 ---
 title: AMOS FULL BRAIN OS ARCHITECTURE
-tags: [canon-group/tech-ai, canon/os-module, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/00-amos-full-brain-os-architecture]
+tags:
+- canon-group/tech-ai
+- canon/os-module
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/00-amos-full-brain-os-architecture
 type: document
 source: 11_KNOWLEDGE/root
 rscf:

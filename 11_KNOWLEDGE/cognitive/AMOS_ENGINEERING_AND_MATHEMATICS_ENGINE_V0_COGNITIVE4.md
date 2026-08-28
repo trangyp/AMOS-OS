@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: amos-engineering-and-mathematics-engine-v0
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-engineering-and-mathematics-engine-, cognitive]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-engineering-and-mathematics-engine-
+- cognitive
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

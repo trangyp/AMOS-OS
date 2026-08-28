@@ -1,5 +1,14 @@
 ---
-tags: ['canon', 'core_laws', 'uncertainty', 'confidence', 'unknown', 'competing', 'rscf', 'governance', canon/universe]
+tags:
+- canon
+- core_laws
+- uncertainty
+- confidence
+- unknown
+- competing
+- rscf
+- governance
+- canon/universe
 title: "L6 Uncertainty Laws — 01 Core Laws"
 origin_architect: "Trang Phan"
 updated: "2026-08-26"

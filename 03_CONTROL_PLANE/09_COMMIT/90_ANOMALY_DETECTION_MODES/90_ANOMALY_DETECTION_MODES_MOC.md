@@ -2,7 +2,10 @@
 title: "90 Anomaly Detection Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/90_ANOMALY_DETECTION_MODES
-tags: [moc, 90-anomaly-detection-modes, canon/control-plane]
+tags:
+- moc
+- 90-anomaly-detection-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

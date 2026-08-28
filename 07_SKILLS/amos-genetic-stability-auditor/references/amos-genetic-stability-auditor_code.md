@@ -2,7 +2,10 @@
 title: amos genetic stability auditor code
 type: reference
 source: 07_SKILLS/amos-genetic-stability-auditor/references
-tags: [reference, amos-genetic-stability-auditor, canon/skill]
+tags:
+- reference
+- amos-genetic-stability-auditor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

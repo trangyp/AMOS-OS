@@ -2,7 +2,10 @@
 title: INDEX CANON CANON CONTRACT
 type: note
 source: 01_CANON/00_INDEX
-tags: [note, 00-index, canon/universe]
+tags:
+- note
+- 00-index
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

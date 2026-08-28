@@ -2,7 +2,10 @@
 title: pragmatic action
 type: reference
 source: 07_SKILLS/amos-active-inference-governor/references
-tags: [reference, amos-active-inference-governor, canon/skill]
+tags:
+- reference
+- amos-active-inference-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

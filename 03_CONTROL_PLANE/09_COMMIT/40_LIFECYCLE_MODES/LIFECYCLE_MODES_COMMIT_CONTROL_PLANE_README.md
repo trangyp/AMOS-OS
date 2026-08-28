@@ -2,7 +2,10 @@
 title: LIFECYCLE MODES COMMIT CONTROL PLANE README
 type: lifecycle
 source: 03_CONTROL_PLANE/09_COMMIT/40_LIFECYCLE_MODES
-tags: [control_plane, 40_lifecycle_modes, canon/control-plane]
+tags:
+- control_plane
+- 40_lifecycle_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

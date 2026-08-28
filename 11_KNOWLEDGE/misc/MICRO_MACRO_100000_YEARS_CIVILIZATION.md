@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin: "AMOS brain knowledge ingest"
 origin_architect: "AMOS"
 type: reference
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/micro-macro-100000-years-civilization, misc]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/micro-macro-100000-years-civilization
+- misc
 status: "active"
 provenance: "OBSERVATION"
 confidence: "DERIVED"

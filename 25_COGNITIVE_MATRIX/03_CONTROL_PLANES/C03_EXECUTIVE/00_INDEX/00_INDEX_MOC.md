@@ -2,7 +2,10 @@
 title: "Index MOC — Cognitive Matrix / Control Planes / C03 Executive / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/00_INDEX
-tags: [moc, 00-index, canon/cognitive-matrix]
+tags:
+- moc
+- 00-index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

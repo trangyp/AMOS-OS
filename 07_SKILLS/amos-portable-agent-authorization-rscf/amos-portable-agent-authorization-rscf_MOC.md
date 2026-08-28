@@ -2,7 +2,10 @@
 title: "Amos-Portable-Agent-Authorization-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-portable-agent-authorization-rscf
-tags: [moc, amos-portable-agent-authorization-rscf, canon/skill]
+tags:
+- moc
+- amos-portable-agent-authorization-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

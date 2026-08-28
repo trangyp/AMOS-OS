@@ -2,7 +2,10 @@
 title: causal discovery spec
 type: reference
 source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf/references
-tags: [reference, amos-arxiv-multistage-order-causal-discovery-rscf, canon/skill]
+tags:
+- reference
+- amos-arxiv-multistage-order-causal-discovery-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

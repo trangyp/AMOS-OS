@@ -2,7 +2,10 @@
 title: "Amos-Agent-Owner-Attribution-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-agent-owner-attribution-rscf
-tags: [moc, amos-agent-owner-attribution-rscf, canon/skill]
+tags:
+- moc
+- amos-agent-owner-attribution-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

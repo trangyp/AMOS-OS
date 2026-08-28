@@ -2,7 +2,10 @@
 title: "Amos-Budget-Aware-Optimizer-Selection-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine
-tags: [moc, amos-budget-aware-optimizer-selection-rs, canon/skill]
+tags:
+- moc
+- amos-budget-aware-optimizer-selection-rs
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

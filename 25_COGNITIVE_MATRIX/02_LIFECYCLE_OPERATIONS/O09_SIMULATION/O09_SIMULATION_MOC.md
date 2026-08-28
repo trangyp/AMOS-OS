@@ -2,7 +2,10 @@
 title: "O09 Simulation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION
-tags: [moc, o09-simulation, canon/cognitive-matrix]
+tags:
+- moc
+- o09-simulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

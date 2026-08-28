@@ -5,7 +5,20 @@ origin: "Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_(UBI)_A
 origin_architect: "Trang Phan"
 type: whitepaper
 source: 11_KNOWLEDGE/logic
-tags: [ubi, unified-biological-intelligence, infrastructure, nervous-system, 4-domains, deterministic, somatic, neurobiological, neuroemotional, bioelectromagnetic, TCP/IP-for-intelligence, logic, canon/knowledge]
+tags:
+- ubi
+- unified-biological-intelligence
+- infrastructure
+- nervous-system
+- 4-domains
+- deterministic
+- somatic
+- neurobiological
+- neuroemotional
+- bioelectromagnetic
+- TCP/IP-for-intelligence
+- logic
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

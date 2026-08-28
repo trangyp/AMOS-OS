@@ -1,6 +1,10 @@
 ---
 title: DONG CHAY VON TOAN CAU AND VI TRI CUA VIET NAM 2025
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

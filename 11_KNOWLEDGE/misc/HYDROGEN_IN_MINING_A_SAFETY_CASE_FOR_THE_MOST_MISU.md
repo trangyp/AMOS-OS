@@ -1,6 +1,10 @@
 ---
 title: HYDROGEN IN MINING A SAFETY CASE FOR THE MOST MISU
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

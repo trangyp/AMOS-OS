@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Grapheval Reasoning Coherence Rscf"
 type: moc
 source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

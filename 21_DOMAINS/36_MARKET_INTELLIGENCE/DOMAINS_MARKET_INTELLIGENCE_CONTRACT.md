@@ -2,7 +2,10 @@
 title: DOMAINS MARKET INTELLIGENCE CONTRACT
 type: note
 source: 21_DOMAINS/36_MARKET_INTELLIGENCE
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

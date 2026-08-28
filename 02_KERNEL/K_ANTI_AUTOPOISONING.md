@@ -2,7 +2,10 @@
 title: "K_ANTI_AUTOPOISONING — Anti-Autopoisoning Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, anti_autopoisoning, recovery]
+tags:
+- kernel
+- anti_autopoisoning
+- recovery
 ---
 
 # K_ANTI_AUTOPOISONING — Anti-Autopoisoning Kernel

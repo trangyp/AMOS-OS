@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Regulated Clinical Agent Evolution Rscf"
 type: reference
 source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf/references
-tags: [reference, amos-regulated-clinical-agent-evolution-rscf, canon/skill]
+tags:
+- reference
+- amos-regulated-clinical-agent-evolution-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

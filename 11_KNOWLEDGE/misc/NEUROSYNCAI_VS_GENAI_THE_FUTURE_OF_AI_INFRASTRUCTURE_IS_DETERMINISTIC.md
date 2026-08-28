@@ -1,6 +1,13 @@
 ---
 title: NEUROSYNCAI VS GENAI THE FUTURE OF AI INFRASTRUCTURE IS DETERMINISTIC
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/neurosyncai-vs-genai-the-future-of-ai-in, misc]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/neurosyncai-vs-genai-the-future-of-ai-in
+- misc
 type: note
 source: 11_KNOWLEDGE/misc
 rscf:

@@ -1,6 +1,10 @@
 ---
 title: AMOS CORE V4 3 HARDENED ADAPTIVE EPOCH RUNTIME
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

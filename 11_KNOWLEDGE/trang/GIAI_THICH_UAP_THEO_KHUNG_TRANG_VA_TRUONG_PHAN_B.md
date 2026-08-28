@@ -1,6 +1,10 @@
 ---
 title: GIAI THICH UAP THEO KHUNG TRANG VA TRUONG PHAN B
-tags: [trang, framework, reality, canon/knowledge]
+tags:
+- trang
+- framework
+- reality
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:

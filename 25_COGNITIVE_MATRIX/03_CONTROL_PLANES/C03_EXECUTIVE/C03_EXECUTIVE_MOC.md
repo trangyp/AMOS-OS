@@ -2,7 +2,10 @@
 title: "C03 Executive MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE
-tags: [moc, c03-executive, canon/cognitive-matrix]
+tags:
+- moc
+- c03-executive
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

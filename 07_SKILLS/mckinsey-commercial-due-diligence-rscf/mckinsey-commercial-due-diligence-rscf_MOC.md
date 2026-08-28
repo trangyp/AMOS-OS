@@ -2,7 +2,10 @@
 title: "Mckinsey-Commercial-Due-Diligence-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-commercial-due-diligence-rscf
-tags: [moc, mckinsey-commercial-due-diligence-rscf, canon/skill]
+tags:
+- moc
+- mckinsey-commercial-due-diligence-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

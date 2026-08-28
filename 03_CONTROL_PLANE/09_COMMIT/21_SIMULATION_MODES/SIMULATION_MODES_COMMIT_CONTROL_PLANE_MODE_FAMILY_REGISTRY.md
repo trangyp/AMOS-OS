@@ -2,7 +2,10 @@
 title: SIMULATION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/21_SIMULATION_MODES
-tags: [control_plane, 21_simulation_modes, canon/control-plane]
+tags:
+- control_plane
+- 21_simulation_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

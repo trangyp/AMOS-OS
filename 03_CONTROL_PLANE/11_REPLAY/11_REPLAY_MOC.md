@@ -2,7 +2,10 @@
 title: "11 Replay MOC"
 type: moc
 source: 03_CONTROL_PLANE/11_REPLAY
-tags: [moc, 11-replay, canon/control-plane]
+tags:
+- moc
+- 11-replay
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

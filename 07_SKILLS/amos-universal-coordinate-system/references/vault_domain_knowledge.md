@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Universal Coordinate System"
 type: reference
 source: 07_SKILLS/amos-universal-coordinate-system/references
-tags: [reference, amos-universal-coordinate-system, canon/skill]
+tags:
+- reference
+- amos-universal-coordinate-system
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

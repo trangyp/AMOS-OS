@@ -1,6 +1,13 @@
 ---
 title: GOVERNANCE ECONOMY
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/governance-economy, governance]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/governance-economy
+- governance
 type: data
 source: 11_KNOWLEDGE/governance
 rscf:

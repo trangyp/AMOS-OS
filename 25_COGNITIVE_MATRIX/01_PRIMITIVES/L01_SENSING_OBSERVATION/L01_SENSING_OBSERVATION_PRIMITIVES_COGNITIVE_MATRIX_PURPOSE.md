@@ -2,7 +2,10 @@
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PURPOSE
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
-tags: [note, vault, canon/cognitive-matrix]
+tags:
+- note
+- vault
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

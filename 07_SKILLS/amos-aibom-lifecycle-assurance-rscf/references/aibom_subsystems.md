@@ -2,7 +2,10 @@
 title: aibom subsystems
 type: reference
 source: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/references
-tags: [reference, amos-aibom-lifecycle-assurance-rscf, canon/skill]
+tags:
+- reference
+- amos-aibom-lifecycle-assurance-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

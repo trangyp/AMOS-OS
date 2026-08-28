@@ -1,6 +1,10 @@
 ---
 title: THI TRUONG VIET NAM BIEN DONG O BE MAT NHUNG CO
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

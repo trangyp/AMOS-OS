@@ -2,7 +2,12 @@
 title: STRUCTURAL GAPS COGNITIVE MATRIX README
 type: gap
 source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
-tags: [cognitive_matrix, structural_gaps, readme, contract_filled, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- structural_gaps
+- readme
+- contract_filled
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

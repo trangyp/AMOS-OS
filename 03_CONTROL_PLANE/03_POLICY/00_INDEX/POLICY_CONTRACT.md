@@ -2,7 +2,10 @@
 title: POLICY CONTRACT
 type: policy
 source: 03_CONTROL_PLANE/03_POLICY/00_INDEX
-tags: [control_plane, 00_index, canon/control-plane]
+tags:
+- control_plane
+- 00_index
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,13 @@
 ---
 title: VN OMNISTRUCTURE TXT ROOT
-tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/vn-omnistructure-txt, misc]
+tags:
+- canon-group/meta
+- canon/law
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/vn-omnistructure-txt
+- misc
 type: note
 source: 11_KNOWLEDGE/misc
 rscf:

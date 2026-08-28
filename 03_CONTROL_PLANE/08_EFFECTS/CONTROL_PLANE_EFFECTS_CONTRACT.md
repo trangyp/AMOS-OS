@@ -2,7 +2,10 @@
 title: CONTROL PLANE EFFECTS CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/08_EFFECTS
-tags: [control_plane, control_plane_effects_contract.md, canon/control-plane]
+tags:
+- control_plane
+- control_plane_effects_contract.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

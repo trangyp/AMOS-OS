@@ -1,6 +1,13 @@
 ---
 title: F27CC831 ED1E 4764 896C 24B01EBE2302 THE TRANG SYSTEM CODEX META LAWS
-tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/observation, topic/f27cc831-ed1e-4764-896c-24b01ebe2302-the, trang]
+tags:
+- canon-group/meta
+- canon/law
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/f27cc831-ed1e-4764-896c-24b01ebe2302-the
+- trang
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:

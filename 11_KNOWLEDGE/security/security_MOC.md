@@ -2,7 +2,10 @@
 title: "Security MOC"
 type: moc
 source: 11_KNOWLEDGE/security
-tags: [moc, security, canon/knowledge]
+tags:
+- moc
+- security
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

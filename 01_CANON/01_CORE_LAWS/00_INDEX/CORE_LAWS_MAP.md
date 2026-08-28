@@ -9,7 +9,9 @@ rscf:
     - internal
   freshness: EVERGREEN
   falsifiers: []
-tags: [note, 00-index]
+tags:
+- note
+- 00-index
 canon-group: canon/core-laws
 ---
 

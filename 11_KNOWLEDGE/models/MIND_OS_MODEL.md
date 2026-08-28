@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: note
 source: 11_KNOWLEDGE/models
-tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/mind-os-model, models]
+tags:
+- canon-group/human-system
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/mind-os-model
+- models
 status: "active"
 provenance: "MODEL"
 confidence: "DERIVED"

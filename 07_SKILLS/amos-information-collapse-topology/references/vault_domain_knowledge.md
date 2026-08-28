@@ -9,7 +9,9 @@ rscf:
     - internal
   freshness: EVERGREEN
   falsifiers: []
-tags: [reference, references]
+tags:
+- reference
+- references
 canon-group: canon/skills
 ---
 

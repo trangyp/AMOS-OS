@@ -9,7 +9,24 @@ topic: intelligence-os-company-architecture
 status: standalone-architecture
 version: v1.0
 source-title: "The Intelligence OS™ — A Multi-Layered, Scalable Product Company"
-tags: [intelligence-os, architecture, design, product-company, commercial-architecture, operating-system, product-platform, domain-portfolio, intelligence-infrastructure, rscf/C-constraint, rscf/G-relation, rscf/M-memory, rscf/S-state, rscf/T-topology, rscf/X-cross-scale, rscf/type-system, canon/knowledge]
+tags:
+- intelligence-os
+- architecture
+- design
+- product-company
+- commercial-architecture
+- operating-system
+- product-platform
+- domain-portfolio
+- intelligence-infrastructure
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/M-memory
+- rscf/S-state
+- rscf/T-topology
+- rscf/X-cross-scale
+- rscf/type-system
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

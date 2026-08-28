@@ -1,7 +1,18 @@
 ---
 type: control-plane
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
-tags: [amos, cognitive-matrix, l03, percept-formation, control-plane, perception, provenance, rscf, hml, governance, canon/cognitive-matrix]
+tags:
+- amos
+- cognitive-matrix
+- l03
+- percept-formation
+- control-plane
+- perception
+- provenance
+- rscf
+- hml
+- governance
+- canon/cognitive-matrix
 title: "L03_PERCEPT_FORMATION — Control Planes"
 origin_architect: "Trang Phan"
 status: "MODEL_CONTROL_PLANE_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

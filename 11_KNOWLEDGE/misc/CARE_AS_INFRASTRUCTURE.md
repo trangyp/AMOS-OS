@@ -2,7 +2,11 @@
 title: "CARE AS INFRASTRUCTURE"
 type: infrastructure
 source: 11_KNOWLEDGE/misc
-tags: [care-as-infrastructure, misc, reference, canon/knowledge]
+tags:
+- care-as-infrastructure
+- misc
+- reference
+- canon/knowledge
 rscf:
   state: DERIVED
   claim_class: DERIVED

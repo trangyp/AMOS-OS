@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Software Engineering Qa"
 type: reference
 source: 07_SKILLS/software-engineering-qa/references
-tags: [reference, software-engineering-qa, canon/skill]
+tags:
+- reference
+- software-engineering-qa
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "references — Amos Flow Canon"
 type: note
 source: 07_SKILLS/amos-flow-canon
-tags: [note, amos-flow-canon, canon/skill]
+tags:
+- note
+- amos-flow-canon
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

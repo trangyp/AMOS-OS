@@ -8,7 +8,15 @@ origin_architect: Trang Phan
 provenance: USER_REQUEST / AMOS_Obsidian_Linking_Plugins
 status: active
 steward: Trang Phan
-tags: [template, boilerplate, reference, templater, linkme, moc, canon-group/tech-ai, canon/tooling]
+tags:
+- template
+- boilerplate
+- reference
+- templater
+- linkme
+- moc
+- canon-group/tech-ai
+- canon/tooling
 title: linked-note template
 type: template
 source: Templates

@@ -1,6 +1,13 @@
 ---
 title: AMOS META EPISTEMOLOGY KERNEL V0 META COGNITION4 2
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-meta-epistemology-kernel-v0, kernel]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-meta-epistemology-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

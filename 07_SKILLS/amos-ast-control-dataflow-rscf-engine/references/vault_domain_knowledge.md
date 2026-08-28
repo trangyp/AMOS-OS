@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Ast Control Dataflow Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine/references
-tags: [reference, amos-ast-control-dataflow-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-ast-control-dataflow-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

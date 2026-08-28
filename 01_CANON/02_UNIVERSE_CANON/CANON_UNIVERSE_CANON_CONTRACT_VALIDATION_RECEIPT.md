@@ -2,7 +2,11 @@
 title: "Universe Canon Contract Validation Receipt"
 type: receipt
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [receipt, validation, universe_canon, pass]
+tags:
+- receipt
+- validation
+- universe_canon
+- pass
 ---
 
 # Universe Canon Contract Validation Receipt

@@ -2,7 +2,10 @@
 title: L11 CAUSAL MODELING PRIMITIVES COGNITIVE MATRIX README
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING
-tags: [note, l11-causal-modeling, canon/cognitive-matrix]
+tags:
+- note
+- l11-causal-modeling
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

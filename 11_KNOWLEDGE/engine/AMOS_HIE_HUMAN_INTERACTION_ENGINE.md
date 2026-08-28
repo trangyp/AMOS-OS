@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/3.Spicies_Interaction_Engine-HIE.uiface.txt"
 origin_architect: "Trang Phan"
 type: reference
-tags: [canon-group/human-system, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-hie-human-interaction-engine, engine]
+tags:
+- canon-group/human-system
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-hie-human-interaction-engine
+- engine
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

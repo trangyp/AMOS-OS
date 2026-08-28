@@ -2,7 +2,10 @@
 title: "Pdfs MOC"
 type: moc
 source: 07_SKILLS/pdfs
-tags: [moc, pdfs, canon/skill]
+tags:
+- moc
+- pdfs
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "48 Negotiation Bargaining Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/48_NEGOTIATION_BARGAINING_MODES
-tags: [moc, 48-negotiation-bargaining-modes, canon/control-plane]
+tags:
+- moc
+- 48-negotiation-bargaining-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

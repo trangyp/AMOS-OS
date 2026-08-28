@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Canon Compiler"
 type: reference
 source: 07_SKILLS/amos-canon-compiler/references
-tags: [reference, amos-canon-compiler, canon/skill]
+tags:
+- reference
+- amos-canon-compiler
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

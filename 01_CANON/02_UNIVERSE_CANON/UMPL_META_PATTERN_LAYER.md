@@ -2,7 +2,10 @@
 title: "UMPL Meta Pattern Layer"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [umpl, meta_pattern, universe_canon]
+tags:
+- umpl
+- meta_pattern
+- universe_canon
 ---
 
 # UMPL Meta Pattern Layer

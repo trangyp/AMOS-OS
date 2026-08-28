@@ -2,7 +2,12 @@
 title: "Trang Reality Architecture Master"
 type: framework_master
 source: 11_KNOWLEDGE/05_FRAMEWORKS
-tags: [trang, reality, architecture, master, canon]
+tags:
+- trang
+- reality
+- architecture
+- master
+- canon
 ---
 
 # Trang Reality Architecture Master

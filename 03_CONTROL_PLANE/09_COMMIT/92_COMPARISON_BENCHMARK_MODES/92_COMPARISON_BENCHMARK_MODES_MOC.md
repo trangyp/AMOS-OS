@@ -2,7 +2,10 @@
 title: "92 Comparison Benchmark Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/92_COMPARISON_BENCHMARK_MODES
-tags: [moc, 92-comparison-benchmark-modes, canon/control-plane]
+tags:
+- moc
+- 92-comparison-benchmark-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

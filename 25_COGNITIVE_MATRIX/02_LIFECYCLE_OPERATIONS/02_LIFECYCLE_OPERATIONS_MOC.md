@@ -2,7 +2,10 @@
 title: "02 Lifecycle Operations MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
-tags: [moc, 02-lifecycle-operations, canon/cognitive-matrix]
+tags:
+- moc
+- 02-lifecycle-operations
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "60 Collaboration Consensus Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/60_COLLABORATION_CONSENSUS_MODES
-tags: [moc, 60-collaboration-consensus-modes, canon/control-plane]
+tags:
+- moc
+- 60-collaboration-consensus-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

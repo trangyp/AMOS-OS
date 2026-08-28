@@ -5,7 +5,20 @@ origin: "Google Drive — _00_AMOS_CANON/training/UBI_Official_Manual.pdf"
 origin_architect: "Trang Phan"
 type: training-manual
 source: 11_KNOWLEDGE/biology-ubi
-tags: [canon-group/biology, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/mu-mutation, rscf/E-entropy, rscf/X-crossscale, topic/absolute-omniverse-model, biology-ubi]
+tags:
+- canon-group/biology
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/T-topology
+- rscf/K-compression
+- rscf/G-relation
+- rscf/mu-mutation
+- rscf/E-entropy
+- rscf/X-crossscale
+- topic/absolute-omniverse-model
+- biology-ubi
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

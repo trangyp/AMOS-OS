@@ -2,7 +2,10 @@
 title: "L05 Binding MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
-tags: [moc, l05-binding, canon/cognitive-matrix]
+tags:
+- moc
+- l05-binding
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

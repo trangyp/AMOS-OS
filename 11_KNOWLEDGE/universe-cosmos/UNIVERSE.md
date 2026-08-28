@@ -1,6 +1,10 @@
 ---
 title: UNIVERSE
-tags: [universe-cosmos, universe, cosmos, canon/knowledge]
+tags:
+- universe-cosmos
+- universe
+- cosmos
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/universe-cosmos
 rscf:

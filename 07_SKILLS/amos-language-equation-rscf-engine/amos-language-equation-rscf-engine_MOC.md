@@ -2,7 +2,10 @@
 title: "Amos-Language-Equation-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-language-equation-rscf-engine
-tags: [moc, amos-language-equation-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-language-equation-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

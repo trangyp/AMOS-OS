@@ -2,7 +2,12 @@
 title: "K_ATOMIC_MULTI_RSCF — Atomic Multi-RSCF Transaction Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, rscf, transaction, atomicity, cross_plane]
+tags:
+- kernel
+- rscf
+- transaction
+- atomicity
+- cross_plane
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE

@@ -2,7 +2,10 @@
 title: HANDBOOKS OPERATIONS README
 type: operation
 source: 20_OPERATIONS/04_HANDBOOKS
-tags: [amos_os, 20_operations, canon/operations]
+tags:
+- amos_os
+- 20_operations
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

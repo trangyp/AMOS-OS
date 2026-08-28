@@ -1,6 +1,10 @@
 ---
 title: TAI LIEU THIET KE KY THUAT HE THONG AMOS IKONOMY
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

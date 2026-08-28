@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos C07 Econ Finance Master"
 type: note
 source: 07_SKILLS/amos-c07-econ-finance-master
-tags: [note, amos-c07-econ-finance-master, canon/skill]
+tags:
+- note
+- amos-c07-econ-finance-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

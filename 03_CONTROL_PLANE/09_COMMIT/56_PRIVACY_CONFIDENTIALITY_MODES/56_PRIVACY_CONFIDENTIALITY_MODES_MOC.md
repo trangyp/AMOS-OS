@@ -2,7 +2,10 @@
 title: "56 Privacy Confidentiality Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/56_PRIVACY_CONFIDENTIALITY_MODES
-tags: [moc, 56-privacy-confidentiality-modes, canon/control-plane]
+tags:
+- moc
+- 56-privacy-confidentiality-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

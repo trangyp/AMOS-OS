@@ -2,7 +2,11 @@
 title: "AMOS Vault MOC"
 type: moc
 source: .
-tags: [moc, vault, root, canon/general]
+tags:
+- moc
+- vault
+- root
+- canon/general
 rscf:
   state: DERIVED
   claim_class: DERIVED

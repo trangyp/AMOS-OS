@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Customer Journey Planning Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-customer-journey-planning-rscf/references
-tags: [reference, mckinsey-customer-journey-planning-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-customer-journey-planning-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

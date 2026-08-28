@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Arxiv Conrad Radiomics Rscf"
 type: reference
 source: 07_SKILLS/amos-arxiv-conrad-radiomics-rscf/references
-tags: [reference, amos-arxiv-conrad-radiomics-rscf, canon/skill]
+tags:
+- reference
+- amos-arxiv-conrad-radiomics-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -5,7 +5,19 @@ origin: "Google Drive — _00_AMOS_CANON/Packs/Sector_Packs/"
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/engine
-tags: [amos, super-engines, bizfin, gov-risk, human, science, tech, 5-engines, deterministic, SEAs, engine, canon/knowledge]
+tags:
+- amos
+- super-engines
+- bizfin
+- gov-risk
+- human
+- science
+- tech
+- 5-engines
+- deterministic
+- SEAs
+- engine
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

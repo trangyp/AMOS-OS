@@ -2,7 +2,10 @@
 title: "Amos-Knowledge-Harvest-Runtime MOC"
 type: moc
 source: 07_SKILLS/amos-knowledge-harvest-runtime
-tags: [moc, amos-knowledge-harvest-runtime, canon/skill]
+tags:
+- moc
+- amos-knowledge-harvest-runtime
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

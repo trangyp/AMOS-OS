@@ -2,7 +2,10 @@
 title: brain cognitive max
 type: reference
 source: 07_SKILLS/amos-c05-mind-behavior-master/references
-tags: [reference, amos-c05-mind-behavior-master, canon/skill]
+tags:
+- reference
+- amos-c05-mind-behavior-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

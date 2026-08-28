@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Technology Sales Excellence Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf/references
-tags: [reference, mckinsey-technology-sales-excellence-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-technology-sales-excellence-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

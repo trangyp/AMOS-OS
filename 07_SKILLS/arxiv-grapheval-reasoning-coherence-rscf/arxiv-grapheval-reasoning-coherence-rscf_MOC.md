@@ -2,7 +2,10 @@
 title: "Arxiv-Grapheval-Reasoning-Coherence-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf
-tags: [moc, arxiv-grapheval-reasoning-coherence-rscf, canon/skill]
+tags:
+- moc
+- arxiv-grapheval-reasoning-coherence-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

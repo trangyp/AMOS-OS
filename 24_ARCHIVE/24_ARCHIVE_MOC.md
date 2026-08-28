@@ -2,7 +2,10 @@
 title: "24 Archive MOC"
 type: moc
 source: 24_ARCHIVE
-tags: [moc, 24-archive, canon/archive]
+tags:
+- moc
+- 24-archive
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: DERIVED

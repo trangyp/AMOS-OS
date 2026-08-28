@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX O13 DECISION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION
-tags: [cognitive_matrix, lifecycle_operations, o13_decision, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- lifecycle_operations
+- o13_decision
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

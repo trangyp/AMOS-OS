@@ -2,7 +2,10 @@
 title: "05 Memory MOC"
 type: moc
 source: 02_KERNEL/05_MEMORY
-tags: [moc, 05-memory, canon/kernel]
+tags:
+- moc
+- 05-memory
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

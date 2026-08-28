@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Economic Model"
 type: reference
 source: 07_SKILLS/amos-economic-model/references
-tags: [reference, amos-economic-model, canon/skill]
+tags:
+- reference
+- amos-economic-model
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

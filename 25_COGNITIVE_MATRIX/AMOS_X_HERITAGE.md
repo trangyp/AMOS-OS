@@ -2,7 +2,10 @@
 title: AMOS X HERITAGE
 type: note
 source: 25_COGNITIVE_MATRIX
-tags: [note, 25-cognitive-matrix, canon/cognitive-matrix]
+tags:
+- note
+- 25-cognitive-matrix
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

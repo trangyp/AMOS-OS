@@ -1,6 +1,10 @@
 ---
 title: AMOS KIEN TRUC TUYET DOI TICH HOP TOAN BO 800K PLUS
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

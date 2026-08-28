@@ -2,7 +2,10 @@
 title: OPERATIONS MAP
 type: map
 source: 20_OPERATIONS/00_INDEX
-tags: [amos_os, 20_operations, canon/operations]
+tags:
+- amos_os
+- 20_operations
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "03 Cognition Canon MOC"
 type: moc
 source: 01_CANON/03_COGNITION_CANON
-tags: [moc, 03-cognition-canon, canon/universe]
+tags:
+- moc
+- 03-cognition-canon
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

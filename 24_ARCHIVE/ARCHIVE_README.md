@@ -2,7 +2,10 @@
 title: ARCHIVE README
 type: archive
 source: 24_ARCHIVE
-tags: [amos_os, 24_archive, canon/archive]
+tags:
+- amos_os
+- 24_archive
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

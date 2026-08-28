@@ -2,7 +2,10 @@
 title: EV INFRASTRUCTURE DOMAINS README
 type: infrastructure
 source: 21_DOMAINS/44_EV_INFRASTRUCTURE
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

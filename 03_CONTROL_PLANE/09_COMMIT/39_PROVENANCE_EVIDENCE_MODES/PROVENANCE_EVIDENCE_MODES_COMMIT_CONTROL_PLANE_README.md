@@ -2,7 +2,10 @@
 title: PROVENANCE EVIDENCE MODES COMMIT CONTROL PLANE README
 type: provenance
 source: 03_CONTROL_PLANE/09_COMMIT/39_PROVENANCE_EVIDENCE_MODES
-tags: [control_plane, 39_provenance_evidence_modes, canon/control-plane]
+tags:
+- control_plane
+- 39_provenance_evidence_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

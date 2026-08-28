@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Cognitive Compression Kernel"
 type: reference
 source: 07_SKILLS/amos-cognitive-compression-kernel/references
-tags: [reference, amos-cognitive-compression-kernel, canon/skill]
+tags:
+- reference
+- amos-cognitive-compression-kernel
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

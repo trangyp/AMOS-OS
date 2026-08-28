@@ -1,6 +1,10 @@
 ---
 title: BAO CAO DUE DILIGENCE AND FEASIBILITY PHUC VU TAI CA
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

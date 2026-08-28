@@ -2,7 +2,10 @@
 title: CONTROL SYSTEMS MAP
 type: map
 source: 21_DOMAINS/31_CONTROL_SYSTEMS/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

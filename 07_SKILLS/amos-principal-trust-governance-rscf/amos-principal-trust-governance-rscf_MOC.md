@@ -2,7 +2,10 @@
 title: "Amos-Principal-Trust-Governance-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-principal-trust-governance-rscf
-tags: [moc, amos-principal-trust-governance-rscf, canon/skill]
+tags:
+- moc
+- amos-principal-trust-governance-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

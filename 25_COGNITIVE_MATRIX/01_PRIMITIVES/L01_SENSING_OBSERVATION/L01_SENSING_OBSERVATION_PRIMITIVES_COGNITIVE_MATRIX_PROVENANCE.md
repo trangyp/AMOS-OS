@@ -2,7 +2,17 @@
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX PROVENANCE
 type: provenance
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
-tags: [amos, cognitive-matrix, l01, sensing-observation, provenance, evidence-topology, rscf, hml, control-plane, canon/cognitive-matrix]
+tags:
+- amos
+- cognitive-matrix
+- l01
+- sensing-observation
+- provenance
+- evidence-topology
+- rscf
+- hml
+- control-plane
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -1,6 +1,10 @@
 ---
 title: QUICK TEST
-tags: [tests, test, validation, canon/knowledge]
+tags:
+- tests
+- test
+- validation
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/tests
 rscf:

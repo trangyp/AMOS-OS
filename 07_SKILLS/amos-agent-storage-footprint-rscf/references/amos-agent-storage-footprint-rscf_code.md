@@ -2,7 +2,10 @@
 title: amos agent storage footprint rscf code
 type: reference
 source: 07_SKILLS/amos-agent-storage-footprint-rscf/references
-tags: [reference, amos-agent-storage-footprint-rscf, canon/skill]
+tags:
+- reference
+- amos-agent-storage-footprint-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

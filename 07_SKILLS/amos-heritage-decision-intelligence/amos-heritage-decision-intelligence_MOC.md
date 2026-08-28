@@ -2,7 +2,10 @@
 title: "Amos-Heritage-Decision-Intelligence MOC"
 type: moc
 source: 07_SKILLS/amos-heritage-decision-intelligence
-tags: [moc, amos-heritage-decision-intelligence, canon/skill]
+tags:
+- moc
+- amos-heritage-decision-intelligence
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "K_CONTROL_PLANE — Control Plane Dispatch Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, control_plane, dispatch]
+tags:
+- kernel
+- control_plane
+- dispatch
 ---
 
 # K_CONTROL_PLANE — Control Plane Dispatch Kernel

@@ -1,6 +1,13 @@
 ---
 title: AMOS BRAIN ENHANCEMENT LOG
-tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-enhancement-log, brain]
+tags:
+- canon-group/meta
+- canon/law
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-brain-enhancement-log
+- brain
 type: document
 source: 11_KNOWLEDGE/brain
 rscf:

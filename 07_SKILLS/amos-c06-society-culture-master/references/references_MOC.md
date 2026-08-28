@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos C06 Society Culture Master"
 type: moc
 source: 07_SKILLS/amos-c06-society-culture-master/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

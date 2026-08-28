@@ -2,7 +2,10 @@
 title: "Arxiv-Data-Mixture-Optimization-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf
-tags: [moc, arxiv-data-mixture-optimization-rscf, canon/skill]
+tags:
+- moc
+- arxiv-data-mixture-optimization-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

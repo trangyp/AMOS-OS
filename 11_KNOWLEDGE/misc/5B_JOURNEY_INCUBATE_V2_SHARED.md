@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: 5b-journey-incubate-v2-shared
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/5b-journey-incubate-v2-shared, misc]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/5b-journey-incubate-v2-shared
+- misc
 created: 2026-08-22
 rscf:
   state: DERIVED

@@ -2,7 +2,10 @@
 title: TASK CONTRACT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT
-tags: [control_plane, task_contract_control_plane_readme.md, canon/control-plane]
+tags:
+- control_plane
+- task_contract_control_plane_readme.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

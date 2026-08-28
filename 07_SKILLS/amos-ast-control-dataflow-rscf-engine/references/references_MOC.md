@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Ast Control Dataflow Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

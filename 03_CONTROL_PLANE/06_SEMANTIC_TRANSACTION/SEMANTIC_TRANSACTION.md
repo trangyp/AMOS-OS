@@ -2,7 +2,10 @@
 title: SEMANTIC TRANSACTION
 type: action
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
-tags: [control_plane, semantic_transaction.md, canon/control-plane]
+tags:
+- control_plane
+- semantic_transaction.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

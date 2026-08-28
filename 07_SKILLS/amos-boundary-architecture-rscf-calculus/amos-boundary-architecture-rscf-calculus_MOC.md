@@ -2,7 +2,10 @@
 title: "Amos-Boundary-Architecture-Rscf-Calculus MOC"
 type: moc
 source: 07_SKILLS/amos-boundary-architecture-rscf-calculus
-tags: [moc, amos-boundary-architecture-rscf-calculus, canon/skill]
+tags:
+- moc
+- amos-boundary-architecture-rscf-calculus
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

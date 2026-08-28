@@ -2,7 +2,10 @@
 title: "Amos-Designer-Os MOC"
 type: moc
 source: 07_SKILLS/amos-designer-os
-tags: [moc, amos-designer-os, canon/skill]
+tags:
+- moc
+- amos-designer-os
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

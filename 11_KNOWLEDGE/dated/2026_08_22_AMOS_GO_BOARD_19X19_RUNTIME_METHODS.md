@@ -7,7 +7,15 @@ provenance: cosmo-brain/AMOS_GO_BOARD_19X19.py diff; 75-section formal spec sect
 confidence: 0.95
 epistemic_class: SOURCE_DERIVED
 conclusion_label: VERIFIED_PRESENT
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-amos-go-board-19x19-runtime-m, dated, dated/2026-08-22]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-amos-go-board-19x19-runtime-m
+- dated
+- dated/2026-08-22
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

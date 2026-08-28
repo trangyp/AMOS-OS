@@ -2,7 +2,10 @@
 title: "Amos-Scientific-Closure-Governor-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-scientific-closure-governor-rscf
-tags: [moc, amos-scientific-closure-governor-rscf, canon/skill]
+tags:
+- moc
+- amos-scientific-closure-governor-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

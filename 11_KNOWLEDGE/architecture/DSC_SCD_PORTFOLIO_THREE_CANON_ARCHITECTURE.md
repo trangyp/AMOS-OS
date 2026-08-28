@@ -5,7 +5,22 @@ origin: "Google Drive — _00_AMOS_CANON/_Archive/doctpr.pdf (3.7MB, 3,235 lines
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/architecture
-tags: [dsc, scd, portfolio, canon-i, canon-ii, canon-iii, urk, ulk, ubi, qcla, seven-cycles, 19x19, 7x7, architecture, canon/knowledge]
+tags:
+- dsc
+- scd
+- portfolio
+- canon-i
+- canon-ii
+- canon-iii
+- urk
+- ulk
+- ubi
+- qcla
+- seven-cycles
+- 19x19
+- 7x7
+- architecture
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

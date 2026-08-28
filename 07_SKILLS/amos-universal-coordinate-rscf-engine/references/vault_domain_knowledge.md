@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Universal Coordinate Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine/references
-tags: [reference, amos-universal-coordinate-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-universal-coordinate-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

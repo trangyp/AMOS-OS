@@ -2,7 +2,10 @@
 title: uap trang empty framework
 type: reference
 source: 07_SKILLS/amos-trang-framework-master/references
-tags: [reference, amos-trang-framework-master, canon/skill]
+tags:
+- reference
+- amos-trang-framework-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

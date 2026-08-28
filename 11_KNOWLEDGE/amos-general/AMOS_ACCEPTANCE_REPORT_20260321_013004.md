@@ -1,6 +1,10 @@
 ---
 title: AMOS ACCEPTANCE REPORT 20260321 013004
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/amos-general
 rscf:

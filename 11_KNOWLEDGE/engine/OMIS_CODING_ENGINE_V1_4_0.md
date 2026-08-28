@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: omis-coding-engine-v1-4-0
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/omis-coding-engine-v1-4-0, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/omis-coding-engine-v1-4-0
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

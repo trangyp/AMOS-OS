@@ -2,7 +2,10 @@
 title: "Slides MOC"
 type: moc
 source: 07_SKILLS/slides
-tags: [moc, slides, canon/skill]
+tags:
+- moc
+- slides
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

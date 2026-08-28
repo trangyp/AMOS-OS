@@ -2,7 +2,10 @@
 title: "Memory MOC"
 type: moc
 source: 11_KNOWLEDGE/memory
-tags: [moc, memory, canon/knowledge]
+tags:
+- moc
+- memory
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

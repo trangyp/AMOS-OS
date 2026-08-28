@@ -2,7 +2,10 @@
 title: VALIDATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/26_VALIDATION_MODES
-tags: [control_plane, 26_validation_modes, canon/control-plane]
+tags:
+- control_plane
+- 26_validation_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

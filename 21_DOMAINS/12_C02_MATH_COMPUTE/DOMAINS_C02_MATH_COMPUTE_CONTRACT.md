@@ -2,7 +2,10 @@
 title: DOMAINS C02 MATH COMPUTE CONTRACT
 type: math
 source: 21_DOMAINS/12_C02_MATH_COMPUTE
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

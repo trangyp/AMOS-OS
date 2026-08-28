@@ -9,7 +9,9 @@ byte_count_note: 21776
 byte_count_books: 15137
 byte_count_memory: 11336
 byte_count_cheatsheet: 7936
-tags: [dated, dated/2026-08-22]
+tags:
+- dated
+- dated/2026-08-22
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

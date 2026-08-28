@@ -2,7 +2,10 @@
 title: "References MOC — References — Mckinsey Transformation Org Structure Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-transformation-org-structure-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

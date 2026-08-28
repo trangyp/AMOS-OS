@@ -1,6 +1,10 @@
 ---
 title: BIOLOGICAL KERNEL COMPUTING BKC
-tags: [kernel, core, runtime, canon/knowledge]
+tags:
+- kernel
+- core
+- runtime
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:

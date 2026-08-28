@@ -2,7 +2,10 @@
 title: INDEX C02 METACOGNITIVE CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/00_INDEX
-tags: [cognitive_matrix, c02_metacognitive, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c02_metacognitive
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

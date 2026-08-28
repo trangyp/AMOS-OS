@@ -2,7 +2,11 @@
 title: "PSI Planetary System Intelligence Layer"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [psi, planetary, intelligence, canon]
+tags:
+- psi
+- planetary
+- intelligence
+- canon
 ---
 
 # PSI Planetary System Intelligence Layer

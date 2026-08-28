@@ -2,7 +2,10 @@
 title: INDEX COMMIT CONTROL PLANE README
 type: index
 source: 03_CONTROL_PLANE/09_COMMIT/00_INDEX
-tags: [control_plane, 00_index, canon/control-plane]
+tags:
+- control_plane
+- 00_index
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

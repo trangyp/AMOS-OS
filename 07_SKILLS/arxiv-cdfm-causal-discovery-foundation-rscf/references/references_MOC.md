@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Cdfm Causal Discovery Foundation Rscf"
 type: moc
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

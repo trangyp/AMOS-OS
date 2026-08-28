@@ -2,7 +2,11 @@
 title: "Khung Trang Master Equations"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [khung_trang, equations, master, canon]
+tags:
+- khung_trang
+- equations
+- master
+- canon
 rscf:
   state: CANON_SPEC
   claim_class: CANONICAL_INVARIANT

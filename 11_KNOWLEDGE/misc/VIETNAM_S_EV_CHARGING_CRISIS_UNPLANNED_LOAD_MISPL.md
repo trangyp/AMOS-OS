@@ -1,6 +1,10 @@
 ---
 title: VIETNAM S EV CHARGING CRISIS UNPLANNED LOAD MISPL
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

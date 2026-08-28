@@ -1,6 +1,10 @@
 ---
 title: BIOCURRENCY THE MONETARY ARCHITECTURE OF LIVING IN
-tags: [architecture, design, structure, canon/knowledge]
+tags:
+- architecture
+- design
+- structure
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/architecture
 rscf:

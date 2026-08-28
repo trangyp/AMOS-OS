@@ -24,7 +24,19 @@ runtime_state: "NON_DESTRUCTIVE_TRACE_ONLY"
 aliases: "- EnvironmentScan Agent
   - AMOS Environment Scan Agent
   - Sense System Environment Scanner..."
-tags: [agents, knowledge, vault, canon-group/tech-ai, canon/component, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/environment-scan-agent, topic/sense-system, topic/agent-runtime, topic/context-observation]
+tags:
+- agents
+- knowledge
+- vault
+- canon-group/tech-ai
+- canon/component
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/environment-scan-agent
+- topic/sense-system
+- topic/agent-runtime
+- topic/context-observation
 governing_law: "integrity > completeness > fluency > speed > token savings"
 rscf:
   state: SOURCE_CLAIM

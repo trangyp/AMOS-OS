@@ -2,7 +2,10 @@
 title: "Amos-Knowledge-Research-Master MOC"
 type: moc
 source: 07_SKILLS/amos-knowledge-research-master
-tags: [moc, amos-knowledge-research-master, canon/skill]
+tags:
+- moc
+- amos-knowledge-research-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

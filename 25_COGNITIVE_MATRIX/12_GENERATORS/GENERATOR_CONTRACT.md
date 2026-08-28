@@ -2,7 +2,11 @@
 title: GENERATOR CONTRACT
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
-tags: [cognitive_matrix, generators, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- generators
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

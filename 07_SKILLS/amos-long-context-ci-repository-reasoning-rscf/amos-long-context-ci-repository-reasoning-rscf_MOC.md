@@ -2,7 +2,10 @@
 title: "Amos-Long-Context-Ci-Repository-Reasoning-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-long-context-ci-repository-reasoning-rscf
-tags: [moc, amos-long-context-ci-repository-reasonin, canon/skill]
+tags:
+- moc
+- amos-long-context-ci-repository-reasonin
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

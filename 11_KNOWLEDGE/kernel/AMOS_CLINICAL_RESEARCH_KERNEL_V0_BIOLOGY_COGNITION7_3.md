@@ -1,6 +1,13 @@
 ---
 title: AMOS CLINICAL RESEARCH KERNEL V0 BIOLOGY COGNITION7 3
-tags: [canon-group/biology, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-clinical-research-kernel-v0, kernel]
+tags:
+- canon-group/biology
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-clinical-research-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

@@ -1,6 +1,10 @@
 ---
 title: CAC HANG SO VO TY LA GOC DE CAC XOAN OC FRACTAL XU
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

@@ -2,7 +2,10 @@
 title: ANALOGY TRANSFER MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/44_ANALOGY_TRANSFER_MODES
-tags: [control_plane, 44_analogy_transfer_modes, canon/control-plane]
+tags:
+- control_plane
+- 44_analogy_transfer_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

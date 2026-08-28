@@ -2,7 +2,10 @@
 title: cci official manual
 type: reference
 source: 07_SKILLS/amos-c06-society-culture-master/references
-tags: [reference, amos-c06-society-culture-master, canon/skill]
+tags:
+- reference
+- amos-c06-society-culture-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

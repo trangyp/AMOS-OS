@@ -2,7 +2,10 @@
 title: NEGOTIATION BARGAINING MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/48_NEGOTIATION_BARGAINING_MODES
-tags: [control_plane, 48_negotiation_bargaining_modes, canon/control-plane]
+tags:
+- control_plane
+- 48_negotiation_bargaining_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,11 @@
 title: "RSCF STRUCTURAL TAG MIGRATION"
 type: rscf
 source: 11_KNOWLEDGE/rscf
-tags: [canon, rscf, epistemic, canon/knowledge]
+tags:
+- canon
+- rscf
+- epistemic
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

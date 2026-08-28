@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Scientific Assumption Semantic Differencing Rscf"
 type: reference
 source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf/references
-tags: [reference, amos-scientific-assumption-semantic-differencing-rscf, canon/skill]
+tags:
+- reference
+- amos-scientific-assumption-semantic-differencing-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

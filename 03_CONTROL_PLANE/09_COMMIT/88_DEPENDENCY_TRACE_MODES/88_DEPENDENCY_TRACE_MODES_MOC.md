@@ -2,7 +2,10 @@
 title: "88 Dependency Trace Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/88_DEPENDENCY_TRACE_MODES
-tags: [moc, 88-dependency-trace-modes, canon/control-plane]
+tags:
+- moc
+- 88-dependency-trace-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

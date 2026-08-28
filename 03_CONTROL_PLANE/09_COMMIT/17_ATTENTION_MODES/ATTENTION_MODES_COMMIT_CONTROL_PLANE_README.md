@@ -2,7 +2,10 @@
 title: ATTENTION MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/17_ATTENTION_MODES
-tags: [control_plane, 17_attention_modes, canon/control-plane]
+tags:
+- control_plane
+- 17_attention_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,13 @@
 ---
 title: THE LIVING STATE MONETISATION THESIS A ECONOMIC PARADIGM
-tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-living-state-monetisation-thesis-a-n, economy]
+tags:
+- canon-group/planetary
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/the-living-state-monetisation-thesis-a-n
+- economy
 type: note
 source: 11_KNOWLEDGE/economy
 rscf:

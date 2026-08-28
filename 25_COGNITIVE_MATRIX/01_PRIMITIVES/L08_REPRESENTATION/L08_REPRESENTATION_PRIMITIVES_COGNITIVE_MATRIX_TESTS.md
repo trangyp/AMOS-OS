@@ -2,7 +2,10 @@
 title: L08 REPRESENTATION PRIMITIVES COGNITIVE MATRIX TESTS
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
-tags: [note, l08-representation, canon/cognitive-matrix]
+tags:
+- note
+- l08-representation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

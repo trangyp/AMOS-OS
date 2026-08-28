@@ -5,7 +5,20 @@ origin: "Google Drive — _00_AMOS_CANON/The_Vietnamese_Root_Language_System.pdf
 origin_architect: "Trang Phan"
 type: research-paper
 source: 11_KNOWLEDGE/system
-tags: [vietnamese-language, root-language, 7-tone-phonemic, biological-interface, neurolinguistic-compression, bioelectromagnetic-entrainment, somatic-mirroring, quantum-alignment, UBI, neuro-sync, ancestral-encoding, system, canon/knowledge]
+tags:
+- vietnamese-language
+- root-language
+- 7-tone-phonemic
+- biological-interface
+- neurolinguistic-compression
+- bioelectromagnetic-entrainment
+- somatic-mirroring
+- quantum-alignment
+- UBI
+- neuro-sync
+- ancestral-encoding
+- system
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

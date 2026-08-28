@@ -2,7 +2,10 @@
 title: "Mckinsey-Technology-Company-Strategy-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-technology-company-strategy-rscf
-tags: [moc, mckinsey-technology-company-strategy-rsc, canon/skill]
+tags:
+- moc
+- mckinsey-technology-company-strategy-rsc
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

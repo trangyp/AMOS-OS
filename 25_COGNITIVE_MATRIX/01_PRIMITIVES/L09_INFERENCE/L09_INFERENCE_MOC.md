@@ -2,7 +2,10 @@
 title: "L09 Inference MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE
-tags: [moc, l09-inference, canon/cognitive-matrix]
+tags:
+- moc
+- l09-inference
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

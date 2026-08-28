@@ -2,7 +2,12 @@
 title: "K_MVCC — Multi-Version Concurrency Control Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, concurrency, mvcc, transactional, rscf]
+tags:
+- kernel
+- concurrency
+- mvcc
+- transactional
+- rscf
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE

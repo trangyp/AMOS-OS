@@ -2,7 +2,10 @@
 title: INDEX L15 GOAL FORMATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/00_INDEX
-tags: [cognitive_matrix, l15_goal_formation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l15_goal_formation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

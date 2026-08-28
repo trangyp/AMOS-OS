@@ -1,6 +1,10 @@
 ---
 title: TONG QUAN THI TRUONG GOI XE CONG NGHE TAI VIET N
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

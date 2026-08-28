@@ -2,7 +2,11 @@
 title: "arxiv_md MOC"
 type: moc
 source: 11_KNOWLEDGE/_arxiv_md
-tags: [moc, arxiv, knowledge, canon/knowledge]
+tags:
+- moc
+- arxiv
+- knowledge
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

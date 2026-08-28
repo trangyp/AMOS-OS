@@ -2,7 +2,10 @@
 title: "Amos-Reality-Simulation-Distinction MOC"
 type: moc
 source: 07_SKILLS/amos-reality-simulation-distinction
-tags: [moc, amos-reality-simulation-distinction, canon/skill]
+tags:
+- moc
+- amos-reality-simulation-distinction
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

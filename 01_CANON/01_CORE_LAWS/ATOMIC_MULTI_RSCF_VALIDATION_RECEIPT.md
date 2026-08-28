@@ -2,7 +2,14 @@
 title: "Atomic Multi-RSCF Validation Receipt"
 type: receipt
 source: 01_CANON/01_CORE_LAWS
-tags: [receipt, validation, atomic, pass, core_laws, canon, canon/universe]
+tags:
+- receipt
+- validation
+- atomic
+- pass
+- core_laws
+- canon
+- canon/universe
 rscf:
   state: SOURCE_CLAIM
   claim_class: VALIDATION_RECEIPT

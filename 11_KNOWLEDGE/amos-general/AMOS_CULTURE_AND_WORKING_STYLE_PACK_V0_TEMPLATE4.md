@@ -1,6 +1,13 @@
 ---
 title: AMOS CULTURE AND WORKING STYLE PACK V0 TEMPLATE4
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-culture-and-working-style-pack-v0, amos-general]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-culture-and-working-style-pack-v0
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Verification Aware Implementation Diversity Rscf"
 type: moc
 source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

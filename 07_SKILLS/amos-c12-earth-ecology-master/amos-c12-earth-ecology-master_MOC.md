@@ -2,7 +2,10 @@
 title: "Amos-C12-Earth-Ecology-Master MOC"
 type: moc
 source: 07_SKILLS/amos-c12-earth-ecology-master
-tags: [moc, amos-c12-earth-ecology-master, canon/skill]
+tags:
+- moc
+- amos-c12-earth-ecology-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

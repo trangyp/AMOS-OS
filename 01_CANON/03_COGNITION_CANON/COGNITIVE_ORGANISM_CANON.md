@@ -16,7 +16,37 @@ origin_architect: Trang Phan
 steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, cognition, cognitive-organism, cognitive-architecture, cognitive-organs, reasoning, perception, memory, learning, planning, decision, metacognition, rscf, hml, provenance, uncertainty, adaptive-complexity, governed-evolution, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/cognitive-organism-canon]
+tags:
+- amos
+- canon
+- universe
+- amos-os
+- amos-core
+- amos-core-v4-4
+- cognition
+- cognitive-organism
+- cognitive-architecture
+- cognitive-organs
+- reasoning
+- perception
+- memory
+- learning
+- planning
+- decision
+- metacognition
+- rscf
+- hml
+- provenance
+- uncertainty
+- adaptive-complexity
+- governed-evolution
+- canon-group/tech-ai
+- canon/framework
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/cognitive-organism-canon
 aliases: "- AMOS Cognitive Organism Canon
   - Cognitive Organism Canon
   - AMOS Cognitive Organism

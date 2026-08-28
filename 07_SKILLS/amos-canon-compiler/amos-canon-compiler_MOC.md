@@ -2,7 +2,10 @@
 title: "Amos-Canon-Compiler MOC"
 type: moc
 source: 07_SKILLS/amos-canon-compiler
-tags: [moc, amos-canon-compiler, canon/skill]
+tags:
+- moc
+- amos-canon-compiler
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

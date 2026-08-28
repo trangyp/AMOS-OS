@@ -2,7 +2,10 @@
 title: "42 Sector Value Chain MOC"
 type: moc
 source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN
-tags: [moc, 42-sector-value-chain, canon/domain]
+tags:
+- moc
+- 42-sector-value-chain
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

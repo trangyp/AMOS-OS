@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Process Compliance Auditor Rscf"
 type: reference
 source: 07_SKILLS/amos-process-compliance-auditor-rscf/references
-tags: [reference, amos-process-compliance-auditor-rscf, canon/skill]
+tags:
+- reference
+- amos-process-compliance-auditor-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

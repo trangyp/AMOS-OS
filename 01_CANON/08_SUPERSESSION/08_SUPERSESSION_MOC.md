@@ -2,7 +2,10 @@
 title: "08 Supersession MOC"
 type: moc
 source: 01_CANON/08_SUPERSESSION
-tags: [moc, 08-supersession, canon/universe]
+tags:
+- moc
+- 08-supersession
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

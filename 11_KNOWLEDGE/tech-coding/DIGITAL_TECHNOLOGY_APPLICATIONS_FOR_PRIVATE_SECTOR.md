@@ -1,6 +1,10 @@
 ---
 title: DIGITAL TECHNOLOGY APPLICATIONS FOR PRIVATE SECTOR
-tags: [tech-coding, tech, coding, canon/knowledge]
+tags:
+- tech-coding
+- tech
+- coding
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/tech-coding
 rscf:

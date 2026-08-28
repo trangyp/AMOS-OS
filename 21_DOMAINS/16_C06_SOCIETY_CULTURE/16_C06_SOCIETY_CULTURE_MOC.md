@@ -2,7 +2,10 @@
 title: "16 C06 Society Culture MOC"
 type: moc
 source: 21_DOMAINS/16_C06_SOCIETY_CULTURE
-tags: [moc, 16-c06-society-culture, canon/domain]
+tags:
+- moc
+- 16-c06-society-culture
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

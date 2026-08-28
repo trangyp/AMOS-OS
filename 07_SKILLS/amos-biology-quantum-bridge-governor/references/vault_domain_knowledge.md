@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Biology Quantum Bridge Governor"
 type: reference
 source: 07_SKILLS/amos-biology-quantum-bridge-governor/references
-tags: [reference, amos-biology-quantum-bridge-governor, canon/skill]
+tags:
+- reference
+- amos-biology-quantum-bridge-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

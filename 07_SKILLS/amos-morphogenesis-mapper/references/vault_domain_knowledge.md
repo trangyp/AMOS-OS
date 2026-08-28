@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Morphogenesis Mapper"
 type: reference
 source: 07_SKILLS/amos-morphogenesis-mapper/references
-tags: [reference, amos-morphogenesis-mapper, canon/skill]
+tags:
+- reference
+- amos-morphogenesis-mapper
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

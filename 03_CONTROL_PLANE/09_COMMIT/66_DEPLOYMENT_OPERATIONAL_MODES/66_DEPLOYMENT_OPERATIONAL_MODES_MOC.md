@@ -2,7 +2,10 @@
 title: "66 Deployment Operational Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/66_DEPLOYMENT_OPERATIONAL_MODES
-tags: [moc, 66-deployment-operational-modes, canon/control-plane]
+tags:
+- moc
+- 66-deployment-operational-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

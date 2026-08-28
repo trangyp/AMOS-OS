@@ -2,7 +2,10 @@
 title: EFFECT MANIFEST
 type: manifest
 source: 03_CONTROL_PLANE/08_EFFECTS
-tags: [control_plane, effect_manifest.md, canon/control-plane]
+tags:
+- control_plane
+- effect_manifest.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

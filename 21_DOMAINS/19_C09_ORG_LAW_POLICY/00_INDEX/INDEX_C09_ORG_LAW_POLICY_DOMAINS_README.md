@@ -2,7 +2,10 @@
 title: INDEX C09 ORG LAW POLICY DOMAINS README
 type: index
 source: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

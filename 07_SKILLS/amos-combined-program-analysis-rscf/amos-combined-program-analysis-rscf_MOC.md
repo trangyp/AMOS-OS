@@ -2,7 +2,10 @@
 title: "Amos-Combined-Program-Analysis-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-combined-program-analysis-rscf
-tags: [moc, amos-combined-program-analysis-rscf, canon/skill]
+tags:
+- moc
+- amos-combined-program-analysis-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

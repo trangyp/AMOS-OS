@@ -2,7 +2,10 @@
 title: "Index MOC — Tools / Index"
 type: moc
 source: 14_TOOLS/00_INDEX
-tags: [moc, 00-index, canon/tool]
+tags:
+- moc
+- 00-index
+- canon/tool
 rscf:
   state: DERIVED
   claim_class: DERIVED

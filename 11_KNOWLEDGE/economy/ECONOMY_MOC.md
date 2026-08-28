@@ -2,7 +2,10 @@
 title: "Economy MOC"
 type: moc
 source: 11_KNOWLEDGE/economy
-tags: [moc, economy, canon/knowledge]
+tags:
+- moc
+- economy
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

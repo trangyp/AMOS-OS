@@ -2,7 +2,10 @@
 title: O11 GOAL LIFECYCLE OPERATIONS COGNITIVE MATRIX TESTS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL
-tags: [note, o11-goal, canon/cognitive-matrix]
+tags:
+- note
+- o11-goal
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

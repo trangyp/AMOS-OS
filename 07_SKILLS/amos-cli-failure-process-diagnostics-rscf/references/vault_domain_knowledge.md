@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Cli Failure Process Diagnostics Rscf"
 type: reference
 source: 07_SKILLS/amos-cli-failure-process-diagnostics-rscf/references
-tags: [reference, amos-cli-failure-process-diagnostics-rscf, canon/skill]
+tags:
+- reference
+- amos-cli-failure-process-diagnostics-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

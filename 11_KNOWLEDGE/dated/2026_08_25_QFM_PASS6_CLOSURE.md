@@ -2,7 +2,12 @@
 title: 2026 08 25 QFM PASS6 CLOSURE
 type: note
 source: 11_KNOWLEDGE/dated
-tags: [daily/integrity-pass, topic/qfm-consolidation-pass6, dated, dated/2026-08-25, canon/knowledge]
+tags:
+- daily/integrity-pass
+- topic/qfm-consolidation-pass6
+- dated
+- dated/2026-08-25
+- canon/knowledge
 created: 2026-08-25
 conclusion_class: AMOS MODEL / DERIVED
 rscf:

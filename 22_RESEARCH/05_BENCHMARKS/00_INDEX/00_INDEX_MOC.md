@@ -2,7 +2,10 @@
 title: "Index MOC — Research / Benchmarks / Index"
 type: moc
 source: 22_RESEARCH/05_BENCHMARKS/00_INDEX
-tags: [moc, 00-index, canon/research]
+tags:
+- moc
+- 00-index
+- canon/research
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

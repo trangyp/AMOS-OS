@@ -2,7 +2,10 @@
 title: INDEX C04 REASONING CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING/00_INDEX
-tags: [cognitive_matrix, c04_reasoning, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c04_reasoning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

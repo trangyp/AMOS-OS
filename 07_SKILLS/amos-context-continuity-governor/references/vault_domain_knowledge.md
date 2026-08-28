@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Context Continuity Governor"
 type: reference
 source: 07_SKILLS/amos-context-continuity-governor/references
-tags: [reference, amos-context-continuity-governor, canon/skill]
+tags:
+- reference
+- amos-context-continuity-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

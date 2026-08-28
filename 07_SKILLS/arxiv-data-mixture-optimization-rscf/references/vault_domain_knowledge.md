@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Data Mixture Optimization Rscf"
 type: reference
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf/references
-tags: [reference, arxiv-data-mixture-optimization-rscf, canon/skill]
+tags:
+- reference
+- arxiv-data-mixture-optimization-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

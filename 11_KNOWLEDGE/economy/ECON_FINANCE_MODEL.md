@@ -3,7 +3,14 @@ title: ECON FINANCE MODEL
 type: finance
 source: 11_KNOWLEDGE/economy
 aliases: [Economics & Finance Engine, AMOS_Econ_Finance]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/econ-finance-model, economy]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/econ-finance-model
+- economy
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

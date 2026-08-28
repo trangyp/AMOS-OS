@@ -1,6 +1,10 @@
 ---
 title: AMOS BRAIN ADVANCED MULTI AGENT TENSOR FIELD REPORT
-tags: [reports, report, analysis, canon/knowledge]
+tags:
+- reports
+- report
+- analysis
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/reports
 rscf:

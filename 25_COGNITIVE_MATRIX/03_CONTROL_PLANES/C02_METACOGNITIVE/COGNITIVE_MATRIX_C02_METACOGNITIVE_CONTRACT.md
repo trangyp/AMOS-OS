@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX C02 METACOGNITIVE CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE
-tags: [cognitive_matrix, control_planes, c02_metacognitive, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- control_planes
+- c02_metacognitive
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

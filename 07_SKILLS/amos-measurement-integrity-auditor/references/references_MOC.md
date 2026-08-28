@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Measurement Integrity Auditor"
 type: moc
 source: 07_SKILLS/amos-measurement-integrity-auditor/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -5,7 +5,10 @@ name: skill-naming-audit
 version: 1.0.0
 source: 00_ROOT/00_ROOT_NAMING_STANDARD.md
 description: AMOS skill naming audit produced from .devin/skills across vault and runtime trees.
-tags: [note, 07-skills, canon/skill]
+tags:
+- note
+- 07-skills
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

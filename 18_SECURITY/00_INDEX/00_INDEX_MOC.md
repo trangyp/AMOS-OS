@@ -2,7 +2,10 @@
 title: "Index MOC — Security / Index"
 type: moc
 source: 18_SECURITY/00_INDEX
-tags: [moc, 00-index, canon/security]
+tags:
+- moc
+- 00-index
+- canon/security
 rscf:
   state: DERIVED
   claim_class: DERIVED

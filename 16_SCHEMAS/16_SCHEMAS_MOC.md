@@ -2,7 +2,10 @@
 title: "16 Schemas MOC"
 type: moc
 source: 16_SCHEMAS
-tags: [moc, 16-schemas, canon/schema]
+tags:
+- moc
+- 16-schemas
+- canon/schema
 rscf:
   state: DERIVED
   claim_class: DERIVED

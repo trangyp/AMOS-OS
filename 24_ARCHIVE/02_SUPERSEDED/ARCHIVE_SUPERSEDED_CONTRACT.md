@@ -2,7 +2,10 @@
 title: ARCHIVE SUPERSEDED CONTRACT
 type: superseded
 source: 24_ARCHIVE/02_SUPERSEDED
-tags: [amos_os, 24_archive, canon/archive]
+tags:
+- amos_os
+- 24_archive
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

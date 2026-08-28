@@ -1,6 +1,12 @@
 ---
 title: AMOS SPEED ENGINE V0 ROOT
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/state/observation, topic/amos-speed-engine-v0, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/state/observation
+- topic/amos-speed-engine-v0
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

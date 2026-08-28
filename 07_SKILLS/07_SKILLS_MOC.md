@@ -2,7 +2,10 @@
 title: "07 Skills MOC"
 type: moc
 source: 07_SKILLS
-tags: [moc, 07-skills, canon/skill]
+tags:
+- moc
+- 07-skills
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

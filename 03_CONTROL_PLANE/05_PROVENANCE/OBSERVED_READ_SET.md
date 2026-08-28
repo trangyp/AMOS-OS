@@ -2,7 +2,10 @@
 title: OBSERVED READ SET
 type: note
 source: 03_CONTROL_PLANE/05_PROVENANCE
-tags: [control_plane, observed_read_set.md, canon/control-plane]
+tags:
+- control_plane
+- observed_read_set.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

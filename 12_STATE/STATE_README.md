@@ -2,7 +2,10 @@
 title: STATE README
 type: state
 source: 12_STATE
-tags: [amos_os, 12_state, canon/state]
+tags:
+- amos_os
+- 12_state
+- canon/state
 rscf:
   state: DERIVED
   claim_class: DERIVED

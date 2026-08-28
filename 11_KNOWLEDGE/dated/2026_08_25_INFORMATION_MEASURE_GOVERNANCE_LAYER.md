@@ -4,7 +4,14 @@ type: daily-learning
 source: 11_KNOWLEDGE/dated
 date: 2026-08-25
 epistemic: SOURCE/DERIVED
-tags: [quantum, math, information-theory, governance, dated, dated/2026-08-25, canon/knowledge]
+tags:
+- quantum
+- math
+- information-theory
+- governance
+- dated
+- dated/2026-08-25
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "13 Models MOC"
 type: moc
 source: 13_MODELS
-tags: [moc, 13-models, canon/model]
+tags:
+- moc
+- 13-models
+- canon/model
 rscf:
   state: DERIVED
   claim_class: DERIVED

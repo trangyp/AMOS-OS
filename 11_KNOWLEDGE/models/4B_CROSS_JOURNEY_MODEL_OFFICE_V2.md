@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: model
 rscf-state: source-claim
 topic: 4b-cross-journey-model-office-v2
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/4b-cross-journey-model-office-v2, models]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/4b-cross-journey-model-office-v2
+- models
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

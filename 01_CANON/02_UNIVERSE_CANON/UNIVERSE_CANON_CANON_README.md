@@ -2,7 +2,10 @@
 title: UNIVERSE CANON CANON README
 type: canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [amos_os, 01_canon, canon/universe]
+tags:
+- amos_os
+- 01_canon
+- canon/universe
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

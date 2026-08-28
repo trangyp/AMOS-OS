@@ -6,7 +6,14 @@ canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: vn-driver-charging-super-engine-vinfinity-clean
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/vn-driver-charging-super-engine-vinfinit, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/vn-driver-charging-super-engine-vinfinit
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Executive Deck Decision System"
 type: reference
 source: 07_SKILLS/executive-deck-decision-system/references
-tags: [reference, executive-deck-decision-system, canon/skill]
+tags:
+- reference
+- executive-deck-decision-system
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

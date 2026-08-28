@@ -2,7 +2,10 @@
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O11 GOAL CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL/00_INDEX
-tags: [cognitive_matrix, o11_goal, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o11_goal
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

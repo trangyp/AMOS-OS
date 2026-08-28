@@ -2,7 +2,10 @@
 title: "Amos-Cross-Scale-Rscf-Tensor-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-cross-scale-rscf-tensor-engine
-tags: [moc, amos-cross-scale-rscf-tensor-engine, canon/skill]
+tags:
+- moc
+- amos-cross-scale-rscf-tensor-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

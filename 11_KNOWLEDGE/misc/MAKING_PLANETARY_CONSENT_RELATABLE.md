@@ -5,7 +5,18 @@ origin: "Google Drive — new troy/Public Messaging - Making Consent Infrastruct
 origin_architect: "Quynh Trang Phan"
 type: framework
 source: 11_KNOWLEDGE/misc
-tags: [planetary-consent, public-messaging, relatable-anecdotes, smart-home, ethical-coffee, city-planning, forest-voice, Q&A, community-engagement, misc, canon/knowledge]
+tags:
+- planetary-consent
+- public-messaging
+- relatable-anecdotes
+- smart-home
+- ethical-coffee
+- city-planning
+- forest-voice
+- Q&A
+- community-engagement
+- misc
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

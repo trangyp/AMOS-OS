@@ -11,7 +11,15 @@ plane: "24_ARCHIVE"
 segment: "24_ARCHIVE/00_LEGACY"
 artifact_kind: "INDEX"
 path: "24_ARCHIVE/00_LEGACY/AMOS_CORE_HISTORICAL_INDEX.md"
-tags: [amos_os, archive, legacy, 24_archive, index, canon_placeholder, rscf, canon/archive]
+tags:
+- amos_os
+- archive
+- legacy
+- 24_archive
+- index
+- canon_placeholder
+- rscf
+- canon/archive
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

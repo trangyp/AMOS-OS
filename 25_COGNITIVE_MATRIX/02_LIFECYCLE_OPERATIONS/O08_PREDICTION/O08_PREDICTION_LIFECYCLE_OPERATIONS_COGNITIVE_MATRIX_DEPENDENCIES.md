@@ -2,7 +2,10 @@
 title: O08 PREDICTION LIFECYCLE OPERATIONS COGNITIVE MATRIX DEPENDENCIES
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
-tags: [note, o08-prediction, canon/cognitive-matrix]
+tags:
+- note
+- o08-prediction
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: DESIGN DOMAINS DESIGN CONTRACT
 type: design
 source: 21_DOMAINS/05_DESIGN/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

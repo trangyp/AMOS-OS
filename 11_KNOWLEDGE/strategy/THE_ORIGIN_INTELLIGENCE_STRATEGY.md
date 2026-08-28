@@ -1,6 +1,10 @@
 ---
 title: THE ORIGIN INTELLIGENCE STRATEGY
-tags: [strategy, game, planning, canon/knowledge]
+tags:
+- strategy
+- game
+- planning
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/strategy
 rscf:

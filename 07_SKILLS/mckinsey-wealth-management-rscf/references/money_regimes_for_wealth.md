@@ -2,7 +2,10 @@
 title: money regimes for wealth
 type: reference
 source: 07_SKILLS/mckinsey-wealth-management-rscf/references
-tags: [reference, mckinsey-wealth-management-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-wealth-management-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

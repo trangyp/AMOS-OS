@@ -2,7 +2,10 @@
 title: C07 PERCEPTION CONTROL PLANES COGNITIVE MATRIX GAP MATRIX
 type: note
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION
-tags: [note, c07-perception, canon/cognitive-matrix]
+tags:
+- note
+- c07-perception
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

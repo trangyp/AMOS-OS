@@ -7,7 +7,15 @@ provenance: "direct inspection of AMOS-Consulting/AMOS-SYSTEM-main/_00_AMOS_CANO
 confidence: 1.0
 epistemic_class: OBSERVATION
 conclusion_class: VERIFIED
-tags: [legacy-brain, amos-consulting, empty, dedup, core, gap, brain, canon/knowledge]
+tags:
+- legacy-brain
+- amos-consulting
+- empty
+- dedup
+- core
+- gap
+- brain
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

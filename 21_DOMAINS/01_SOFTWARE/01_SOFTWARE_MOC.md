@@ -2,7 +2,10 @@
 title: "01 Software MOC"
 type: moc
 source: 21_DOMAINS/01_SOFTWARE
-tags: [moc, 01-software, canon/domain]
+tags:
+- moc
+- 01-software
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

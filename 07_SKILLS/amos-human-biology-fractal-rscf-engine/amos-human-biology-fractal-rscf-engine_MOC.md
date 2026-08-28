@@ -2,7 +2,10 @@
 title: "Amos-Human-Biology-Fractal-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-human-biology-fractal-rscf-engine
-tags: [moc, amos-human-biology-fractal-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-human-biology-fractal-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

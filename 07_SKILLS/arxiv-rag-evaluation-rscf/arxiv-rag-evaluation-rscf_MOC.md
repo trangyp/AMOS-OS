@@ -2,7 +2,10 @@
 title: "Arxiv-Rag-Evaluation-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-rag-evaluation-rscf
-tags: [moc, arxiv-rag-evaluation-rscf, canon/skill]
+tags:
+- moc
+- arxiv-rag-evaluation-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

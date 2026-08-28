@@ -1,6 +1,13 @@
 ---
 title: AMOS README SCENARIO PACKS PACK V0 SCENARIO PACKS SCENARIO PACKS
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-readme-scenario-packs-pack-v0, amos-general]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-readme-scenario-packs-pack-v0
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

@@ -2,7 +2,10 @@
 title: equations docs
 type: reference
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine/references
-tags: [reference, amos-contravariance-alignment-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-contravariance-alignment-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

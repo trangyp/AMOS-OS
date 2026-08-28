@@ -11,7 +11,15 @@ plane: "13_MODELS"
 segment: "13_MODELS/04_DOMAIN"
 artifact_kind: "REGISTRY"
 path: "13_MODELS/04_DOMAIN/HERITAGE_MODEL_REGISTRY.md"
-tags: [amos_os, model, specification, 13_models, registry, canon_placeholder, rscf, canon/model]
+tags:
+- amos_os
+- model
+- specification
+- 13_models
+- registry
+- canon_placeholder
+- rscf
+- canon/model
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

@@ -2,7 +2,10 @@
 title: tech safe honest societies
 type: reference
 source: 07_SKILLS/amos-security-safety-master/references
-tags: [reference, amos-security-safety-master, canon/skill]
+tags:
+- reference
+- amos-security-safety-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

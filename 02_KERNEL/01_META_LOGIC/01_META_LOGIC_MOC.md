@@ -2,7 +2,10 @@
 title: "01 Meta Logic MOC"
 type: moc
 source: 02_KERNEL/01_META_LOGIC
-tags: [moc, 01-meta-logic, canon/kernel]
+tags:
+- moc
+- 01-meta-logic
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

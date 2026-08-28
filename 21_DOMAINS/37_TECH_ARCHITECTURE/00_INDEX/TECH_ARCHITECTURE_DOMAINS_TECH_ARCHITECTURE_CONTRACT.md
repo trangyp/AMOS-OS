@@ -2,7 +2,10 @@
 title: TECH ARCHITECTURE DOMAINS TECH ARCHITECTURE CONTRACT
 type: architecture
 source: 21_DOMAINS/37_TECH_ARCHITECTURE/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

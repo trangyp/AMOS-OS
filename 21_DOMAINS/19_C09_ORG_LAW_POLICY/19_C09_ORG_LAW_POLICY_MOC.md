@@ -2,7 +2,10 @@
 title: "19 C09 Org Law Policy MOC"
 type: moc
 source: 21_DOMAINS/19_C09_ORG_LAW_POLICY
-tags: [moc, 19-c09-org-law-policy, canon/domain]
+tags:
+- moc
+- 19-c09-org-law-policy
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: FRACTAL ARCHITECTURE FRAMEWORK 5000
-tags: [fractal, math, self-similarity, canon/knowledge]
+tags:
+- fractal
+- math
+- self-similarity
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/fractal
 rscf:

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Flash Attention Io Rscf"
 type: reference
 source: 07_SKILLS/arxiv-flash-attention-io-rscf/references
-tags: [reference, arxiv-flash-attention-io-rscf, canon/skill]
+tags:
+- reference
+- arxiv-flash-attention-io-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

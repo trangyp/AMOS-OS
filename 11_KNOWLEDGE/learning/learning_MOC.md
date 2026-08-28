@@ -2,7 +2,10 @@
 title: "Learning MOC"
 type: moc
 source: 11_KNOWLEDGE/learning
-tags: [moc, learning, canon/knowledge]
+tags:
+- moc
+- learning
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -15,7 +15,34 @@ scope: AMOS_OS
 authority_scope: kernel-structure-and-contract-topology
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos-os, kernel, core, canon-group/tech-ai, canon/framework, kernel/map, kernel/topology, kernel/contracts, kernel/invariants, kernel/deterministic, kernel/rscf, kernel/hml, kernel/provenance, kernel/causal-lineage, kernel/epistemic-regime, kernel/persistence, kernel/concurrency, kernel/finality, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/kernel-map, topic/kernel-architecture, topic/deterministic-logic, topic/dependency-closure, topic/atomic-reasoning, topic/governed-evolution]
+tags:
+- amos-os
+- kernel
+- core
+- canon-group/tech-ai
+- canon/framework
+- kernel/map
+- kernel/topology
+- kernel/contracts
+- kernel/invariants
+- kernel/deterministic
+- kernel/rscf
+- kernel/hml
+- kernel/provenance
+- kernel/causal-lineage
+- kernel/epistemic-regime
+- kernel/persistence
+- kernel/concurrency
+- kernel/finality
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/kernel-map
+- topic/kernel-architecture
+- topic/deterministic-logic
+- topic/dependency-closure
+- topic/atomic-reasoning
+- topic/governed-evolution
 aliases: "- AMOS Kernel Map
   - AMOS OS Kernel Map
   - Kernel Topology

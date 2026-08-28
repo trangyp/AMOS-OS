@@ -2,7 +2,10 @@
 title: "Amos-Procedural-Repository-Retrieval-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-procedural-repository-retrieval-rscf
-tags: [moc, amos-procedural-repository-retrieval-rsc, canon/skill]
+tags:
+- moc
+- amos-procedural-repository-retrieval-rsc
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

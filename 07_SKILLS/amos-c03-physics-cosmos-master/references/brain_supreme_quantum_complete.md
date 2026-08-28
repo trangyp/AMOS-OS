@@ -2,7 +2,10 @@
 title: brain supreme quantum complete
 type: reference
 source: 07_SKILLS/amos-c03-physics-cosmos-master/references
-tags: [reference, amos-c03-physics-cosmos-master, canon/skill]
+tags:
+- reference
+- amos-c03-physics-cosmos-master
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

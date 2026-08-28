@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Forex Unified Os Updated"
 type: reference
 source: 07_SKILLS/amos-forex-unified-os-updated/references
-tags: [reference, amos-forex-unified-os-updated, canon/skill]
+tags:
+- reference
+- amos-forex-unified-os-updated
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

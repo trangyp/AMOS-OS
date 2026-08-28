@@ -2,7 +2,10 @@
 title: L09 INFERENCE PRIMITIVES COGNITIVE MATRIX CONTROL PLANES
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE
-tags: [note, l09-inference, canon/cognitive-matrix]
+tags:
+- note
+- l09-inference
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -11,7 +11,15 @@ plane: "01_CANON"
 segment: "01_CANON/07_PROVENANCE"
 artifact_kind: "PROVENANCE"
 path: "01_CANON/07_PROVENANCE/UNIVERSE_CANON_PROVENANCE.md"
-tags: [amos_os, canon, universe, 01_canon, provenance, canon_placeholder, rscf, canon/universe]
+tags:
+- amos_os
+- canon
+- universe
+- 01_canon
+- provenance
+- canon_placeholder
+- rscf
+- canon/universe
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

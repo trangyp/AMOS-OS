@@ -1,6 +1,10 @@
 ---
 title: THE TALENT LEDGER MEASURING HUMAN ABILITY WITH MET
-tags: [human, alignment, interaction, canon/knowledge]
+tags:
+- human
+- alignment
+- interaction
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/human
 rscf:

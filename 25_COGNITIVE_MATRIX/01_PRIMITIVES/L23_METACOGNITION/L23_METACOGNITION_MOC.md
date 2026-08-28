@@ -2,7 +2,10 @@
 title: "L23 Metacognition MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
-tags: [moc, l23-metacognition, canon/cognitive-matrix]
+tags:
+- moc
+- l23-metacognition
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

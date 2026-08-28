@@ -2,7 +2,21 @@
 title: "AMOS CORE-19 v0.3 — Formal Specification (Lean-style)"
 type: reference
 source: 11_KNOWLEDGE/amos-general
-tags: [canon-group/tech-ai, amos, deterministic-logic, formal-spec, CORE-19, lean, theorem-proving, sorts, predicates, canon/framework, rscf/state/observation, rscf/claim, rscf/provenance, topic/amos-core-19-formal-spec-lean]
+tags:
+- canon-group/tech-ai
+- amos
+- deterministic-logic
+- formal-spec
+- CORE-19
+- lean
+- theorem-proving
+- sorts
+- predicates
+- canon/framework
+- rscf/state/observation
+- rscf/claim
+- rscf/provenance
+- topic/amos-core-19-formal-spec-lean
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

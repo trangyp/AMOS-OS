@@ -2,7 +2,10 @@
 title: CAPABILITY CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/02_CAPABILITY
-tags: [control_plane, capability_control_plane_readme.md, canon/control-plane]
+tags:
+- control_plane
+- capability_control_plane_readme.md
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

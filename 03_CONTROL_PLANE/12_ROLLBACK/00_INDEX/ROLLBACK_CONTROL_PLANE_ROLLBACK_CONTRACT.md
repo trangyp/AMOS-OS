@@ -2,7 +2,10 @@
 title: ROLLBACK CONTROL PLANE ROLLBACK CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/12_ROLLBACK/00_INDEX
-tags: [control_plane, 00_index, canon/control-plane]
+tags:
+- control_plane
+- 00_index
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

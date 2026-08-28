@@ -1,6 +1,13 @@
 ---
 title: TECH ENGINE ROOT
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/tech-engine, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/tech-engine
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

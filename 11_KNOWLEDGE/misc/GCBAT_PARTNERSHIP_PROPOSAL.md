@@ -5,7 +5,18 @@ origin: "Google Drive — Strategic_Partnership_Proposal_to_GCBAT.pdf (836KB)"
 origin_architect: "Quynh Trang Phan"
 type: business-proposal
 source: 11_KNOWLEDGE/misc
-tags: [canon-group/governance, canon/business, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/X-crossscale, topic/partnership-proposal, misc]
+tags:
+- canon-group/governance
+- canon/business
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/T-topology
+- rscf/K-compression
+- rscf/G-relation
+- rscf/X-crossscale
+- topic/partnership-proposal
+- misc
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / Biology / Index"
 type: moc
 source: 21_DOMAINS/06_BIOLOGY/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L23 METACOGNITION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
-tags: [cognitive_matrix, primitives, l23_metacognition, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l23_metacognition
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

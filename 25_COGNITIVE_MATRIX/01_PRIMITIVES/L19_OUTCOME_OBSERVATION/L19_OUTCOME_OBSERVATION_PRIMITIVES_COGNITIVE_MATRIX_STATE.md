@@ -2,7 +2,10 @@
 title: L19 OUTCOME OBSERVATION PRIMITIVES COGNITIVE MATRIX STATE
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
-tags: [note, l19-outcome-observation, canon/cognitive-matrix]
+tags:
+- note
+- l19-outcome-observation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

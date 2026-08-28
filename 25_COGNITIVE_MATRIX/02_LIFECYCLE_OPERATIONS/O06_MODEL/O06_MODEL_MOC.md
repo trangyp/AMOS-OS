@@ -2,7 +2,10 @@
 title: "O06 Model MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL
-tags: [moc, o06-model, canon/cognitive-matrix]
+tags:
+- moc
+- o06-model
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

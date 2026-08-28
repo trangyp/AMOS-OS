@@ -4,7 +4,10 @@ type: note
 source: .
 aliases:
 - AMOS Home
-tags: [note, vault, canon/general]
+tags:
+- note
+- vault
+- canon/general
 rscf:
   state: DERIVED
   claim_class: DERIVED

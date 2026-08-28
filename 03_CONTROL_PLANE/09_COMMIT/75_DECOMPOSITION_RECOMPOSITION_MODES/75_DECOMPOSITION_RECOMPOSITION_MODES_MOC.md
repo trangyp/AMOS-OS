@@ -2,7 +2,10 @@
 title: "75 Decomposition Recomposition Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/75_DECOMPOSITION_RECOMPOSITION_MODES
-tags: [moc, 75-decomposition-recomposition-modes, canon/control-plane]
+tags:
+- moc
+- 75-decomposition-recomposition-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

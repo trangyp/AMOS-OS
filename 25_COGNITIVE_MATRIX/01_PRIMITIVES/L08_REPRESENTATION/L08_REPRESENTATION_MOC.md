@@ -2,7 +2,10 @@
 title: "L08 Representation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
-tags: [moc, l08-representation, canon/cognitive-matrix]
+tags:
+- moc
+- l08-representation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

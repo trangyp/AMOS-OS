@@ -2,7 +2,10 @@
 title: "Mckinsey-Architecture-Reference-Transfer-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf
-tags: [moc, mckinsey-architecture-reference-transfer, canon/skill]
+tags:
+- moc
+- mckinsey-architecture-reference-transfer
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

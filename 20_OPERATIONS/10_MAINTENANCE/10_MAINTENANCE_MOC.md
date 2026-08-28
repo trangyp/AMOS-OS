@@ -2,7 +2,10 @@
 title: "10 Maintenance MOC"
 type: moc
 source: 20_OPERATIONS/10_MAINTENANCE
-tags: [moc, 10-maintenance, canon/operations]
+tags:
+- moc
+- 10-maintenance
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

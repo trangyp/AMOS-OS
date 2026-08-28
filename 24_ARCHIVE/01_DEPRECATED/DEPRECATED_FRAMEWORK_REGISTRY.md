@@ -11,7 +11,15 @@ plane: "24_ARCHIVE"
 segment: "24_ARCHIVE/01_DEPRECATED"
 artifact_kind: "REGISTRY"
 path: "24_ARCHIVE/01_DEPRECATED/DEPRECATED_FRAMEWORK_REGISTRY.md"
-tags: [amos_os, archive, legacy, 24_archive, registry, canon_placeholder, rscf, canon/archive]
+tags:
+- amos_os
+- archive
+- legacy
+- 24_archive
+- registry
+- canon_placeholder
+- rscf
+- canon/archive
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

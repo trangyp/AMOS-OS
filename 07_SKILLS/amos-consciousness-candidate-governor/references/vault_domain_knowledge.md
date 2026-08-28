@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Consciousness Candidate Governor"
 type: reference
 source: 07_SKILLS/amos-consciousness-candidate-governor/references
-tags: [reference, amos-consciousness-candidate-governor, canon/skill]
+tags:
+- reference
+- amos-consciousness-candidate-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

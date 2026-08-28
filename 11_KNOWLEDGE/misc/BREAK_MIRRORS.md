@@ -1,6 +1,13 @@
 ---
 title: BREAK MIRRORS
-tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/break-mirrors, misc]
+tags:
+- canon-group/planetary
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/break-mirrors
+- misc
 type: note
 source: 11_KNOWLEDGE/misc
 rscf:

@@ -2,7 +2,10 @@
 title: "L21 Learning MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
-tags: [moc, l21-learning, canon/cognitive-matrix]
+tags:
+- moc
+- l21-learning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

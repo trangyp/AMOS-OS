@@ -2,7 +2,10 @@
 title: "Amos-Llm-Judge-Bias-Geometry-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-llm-judge-bias-geometry-rscf
-tags: [moc, amos-llm-judge-bias-geometry-rscf, canon/skill]
+tags:
+- moc
+- amos-llm-judge-bias-geometry-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

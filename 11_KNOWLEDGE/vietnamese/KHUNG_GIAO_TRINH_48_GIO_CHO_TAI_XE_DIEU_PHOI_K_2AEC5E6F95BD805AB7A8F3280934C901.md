@@ -1,6 +1,10 @@
 ---
 title: KHUNG GIAO TRINH 48 GIO CHO TAI XE DIEU PHOI K 2AEC5E6F95BD805AB7A8F3280934C901
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

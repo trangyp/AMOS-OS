@@ -1,6 +1,13 @@
 ---
 title: AMOS BEHAVIORAL ECONOMICS KERNEL V0 HUMAN SOCIETY4 2
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-behavioral-economics-kernel-v0, kernel]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-behavioral-economics-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

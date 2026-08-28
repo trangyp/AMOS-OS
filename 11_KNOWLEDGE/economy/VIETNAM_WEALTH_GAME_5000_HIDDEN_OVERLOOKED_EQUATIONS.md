@@ -1,6 +1,10 @@
 ---
 title: VIETNAM WEALTH GAME 5000 HIDDEN OVERLOOKED EQUATIONS
-tags: [economy, finance, market, canon/knowledge]
+tags:
+- economy
+- finance
+- market
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/economy
 rscf:

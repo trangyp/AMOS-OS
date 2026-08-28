@@ -2,7 +2,10 @@
 title: "78 Proof Verification Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/78_PROOF_VERIFICATION_MODES
-tags: [moc, 78-proof-verification-modes, canon/control-plane]
+tags:
+- moc
+- 78-proof-verification-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

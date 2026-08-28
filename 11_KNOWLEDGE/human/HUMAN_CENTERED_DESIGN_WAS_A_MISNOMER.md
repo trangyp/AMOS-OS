@@ -1,6 +1,10 @@
 ---
 title: HUMAN CENTERED DESIGN WAS A MISNOMER
-tags: [human, alignment, interaction, canon/knowledge]
+tags:
+- human
+- alignment
+- interaction
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/human
 rscf:

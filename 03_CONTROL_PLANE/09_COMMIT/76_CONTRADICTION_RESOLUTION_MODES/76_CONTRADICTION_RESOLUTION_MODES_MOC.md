@@ -2,7 +2,10 @@
 title: "76 Contradiction Resolution Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/76_CONTRADICTION_RESOLUTION_MODES
-tags: [moc, 76-contradiction-resolution-modes, canon/control-plane]
+tags:
+- moc
+- 76-contradiction-resolution-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

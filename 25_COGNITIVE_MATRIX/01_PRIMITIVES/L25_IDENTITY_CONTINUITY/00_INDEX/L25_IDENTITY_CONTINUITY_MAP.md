@@ -2,7 +2,10 @@
 title: L25 IDENTITY CONTINUITY MAP
 type: identity
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY/00_INDEX
-tags: [cognitive_matrix, l25_identity_continuity, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l25_identity_continuity
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: COGNITIVE MATRIX ROUTING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/10_ROUTING
-tags: [cognitive_matrix, cognitive_matrix_routing_contract.md, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- cognitive_matrix_routing_contract.md
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

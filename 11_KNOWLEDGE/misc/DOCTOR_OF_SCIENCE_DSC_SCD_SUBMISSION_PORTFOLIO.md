@@ -1,6 +1,10 @@
 ---
 title: DOCTOR OF SCIENCE DSC SCD SUBMISSION PORTFOLIO
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

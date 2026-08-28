@@ -2,7 +2,10 @@
 title: O06 MODEL LIFECYCLE OPERATIONS COGNITIVE MATRIX POSTCONDITIONS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL
-tags: [note, o06-model, canon/cognitive-matrix]
+tags:
+- note
+- o06-model
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

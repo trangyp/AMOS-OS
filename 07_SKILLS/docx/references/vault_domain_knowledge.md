@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Docx"
 type: reference
 source: 07_SKILLS/docx/references
-tags: [reference, docx, canon/skill]
+tags:
+- reference
+- docx
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

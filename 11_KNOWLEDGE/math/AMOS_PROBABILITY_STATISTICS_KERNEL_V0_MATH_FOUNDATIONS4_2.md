@@ -1,6 +1,13 @@
 ---
 title: AMOS PROBABILITY STATISTICS KERNEL V0 MATH FOUNDATIONS4 2
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-probability-statistics-kernel-v0, math]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-probability-statistics-kernel-v0
+- math
 type: data
 source: 11_KNOWLEDGE/math
 rscf:

@@ -2,7 +2,10 @@
 title: "References MOC — References — Mckinsey Banking Crm Assessment Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

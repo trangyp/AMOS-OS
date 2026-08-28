@@ -2,7 +2,10 @@
 title: LEGACY ARCHIVE README
 type: legacy
 source: 24_ARCHIVE/00_LEGACY
-tags: [amos_os, 24_archive, canon/archive]
+tags:
+- amos_os
+- 24_archive
+- canon/archive
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

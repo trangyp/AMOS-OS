@@ -1,6 +1,10 @@
 ---
 title: THE LOGIC MODEL FOUNDATION VERSION 1 0
-tags: [logic, reasoning, formal, canon/knowledge]
+tags:
+- logic
+- reasoning
+- formal
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/logic
 rscf:

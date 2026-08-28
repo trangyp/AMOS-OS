@@ -7,7 +7,15 @@ provenance: direct ingestion of full text
 confidence: 0.95
 epistemic_class: OBSERVATION
 conclusion_label: VERIFIED
-tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-the-complete-human-system-boo, dated, dated/2026-08-22]
+tags:
+- canon-group/human-system
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-the-complete-human-system-boo
+- dated
+- dated/2026-08-22
 date: 2026-08-22
 source_title: "The Complete Human System — A Unified Theory of Mind, Body, Civilization, and Suffering"
 source_type: book-manuscript

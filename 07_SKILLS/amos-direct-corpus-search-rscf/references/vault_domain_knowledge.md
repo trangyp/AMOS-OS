@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Direct Corpus Search Rscf"
 type: reference
 source: 07_SKILLS/amos-direct-corpus-search-rscf/references
-tags: [reference, amos-direct-corpus-search-rscf, canon/skill]
+tags:
+- reference
+- amos-direct-corpus-search-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

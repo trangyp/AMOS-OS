@@ -2,7 +2,10 @@
 title: "AMOS Cognitive Matrix Placeholder Seed Status"
 type: status
 source: 25_COGNITIVE_MATRIX
-tags: [note, 25-cognitive-matrix, canon/cognitive-matrix]
+tags:
+- note
+- 25-cognitive-matrix
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

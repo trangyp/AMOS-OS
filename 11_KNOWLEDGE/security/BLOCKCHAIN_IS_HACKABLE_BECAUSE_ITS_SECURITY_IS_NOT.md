@@ -1,6 +1,10 @@
 ---
 title: BLOCKCHAIN IS HACKABLE BECAUSE ITS SECURITY IS NOT
-tags: [security, safety, adversarial, canon/knowledge]
+tags:
+- security
+- safety
+- adversarial
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/security
 rscf:

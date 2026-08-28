@@ -23,7 +23,48 @@ scope: "- AMOS_OS
   - runtime_architecture
   - cognition_architecture
   - govern..."
-tags: [amos, amos_os, root, amos-os, architecture, system-architecture, root-architecture, operating-system, cognitive-architecture, agent-architecture, runtime, kernel, control-plane, governance, provenance, rscf, gmef, hml, fractal-knowledge-network, memory, state, knowledge, skills, workflows, protocols, tools, models, observability, security, testing, operations, domains, cognitive-matrix, canon-group/tech-ai, canon/architecture, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/system-architecture, topic/cognitive-operating-system]
+tags:
+- amos
+- amos_os
+- root
+- amos-os
+- architecture
+- system-architecture
+- root-architecture
+- operating-system
+- cognitive-architecture
+- agent-architecture
+- runtime
+- kernel
+- control-plane
+- governance
+- provenance
+- rscf
+- gmef
+- hml
+- fractal-knowledge-network
+- memory
+- state
+- knowledge
+- skills
+- workflows
+- protocols
+- tools
+- models
+- observability
+- security
+- testing
+- operations
+- domains
+- cognitive-matrix
+- canon-group/tech-ai
+- canon/architecture
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-os
+- topic/system-architecture
+- topic/cognitive-operating-system
 aliases: "- AMOS OS Architecture
   - AMOS Root Architecture
   - AMOS System Architecture

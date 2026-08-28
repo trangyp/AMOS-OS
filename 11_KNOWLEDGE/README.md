@@ -1,6 +1,9 @@
 ---
 title: "README — 11 Knowledge"
-tags: [moc, index, canon/knowledge]
+tags:
+- moc
+- index
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/root
 rscf:

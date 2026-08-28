@@ -1,6 +1,10 @@
 ---
 title: AO TUONG CUA GIAC NGO TAI SAO SU THAT KHONG THE SO
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

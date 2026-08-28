@@ -2,7 +2,10 @@
 title: O04 STATE LIFECYCLE OPERATIONS COGNITIVE MATRIX INPUT OUTPUT
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE
-tags: [note, o04-state, canon/cognitive-matrix]
+tags:
+- note
+- o04-state
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Fx-Macro-Differential-Mapper MOC"
 type: moc
 source: 07_SKILLS/amos-fx-macro-differential-mapper
-tags: [moc, amos-fx-macro-differential-mapper, canon/skill]
+tags:
+- moc
+- amos-fx-macro-differential-mapper
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

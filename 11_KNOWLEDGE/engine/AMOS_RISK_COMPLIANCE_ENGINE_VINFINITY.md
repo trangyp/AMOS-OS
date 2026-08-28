@@ -6,7 +6,18 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Risk_Compliance_Engine_v0.json (280 lines, 8KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, risk, compliance, engine, v-infinity, credit-risk, operational-risk, aml, regulatory, lens-space, canon/knowledge]
+tags:
+- amos
+- risk
+- compliance
+- engine
+- v-infinity
+- credit-risk
+- operational-risk
+- aml
+- regulatory
+- lens-space
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

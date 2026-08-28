@@ -2,7 +2,10 @@
 title: "23 Multi Hypothesis Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/23_MULTI_HYPOTHESIS_MODES
-tags: [moc, 23-multi-hypothesis-modes, canon/control-plane]
+tags:
+- moc
+- 23-multi-hypothesis-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

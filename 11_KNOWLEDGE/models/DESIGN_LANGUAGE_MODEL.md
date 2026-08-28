@@ -3,7 +3,14 @@ title: DESIGN LANGUAGE MODEL
 type: model
 source: 11_KNOWLEDGE/models
 aliases: [Design & Language Engine, AMOS_Design_Language]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/design-language-model, models]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/design-language-model
+- models
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

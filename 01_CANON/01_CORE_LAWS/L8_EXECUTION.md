@@ -1,5 +1,16 @@
 ---
-tags: ['canon', 'core_laws', 'execution', 'effects', 'commit', 'idempotency', 'ledger', 'worker', 'control_plane', 'rscf', canon/universe]
+tags:
+- canon
+- core_laws
+- execution
+- effects
+- commit
+- idempotency
+- ledger
+- worker
+- control_plane
+- rscf
+- canon/universe
 title: "L8 Execution Laws"
 origin_architect: "Trang Phan"
 updated: "2026-08-26"

@@ -7,7 +7,15 @@ type: audit-note
 source: 11_KNOWLEDGE/dated
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [amos, brain-improvement, integrity-audit, wikilink-repair, frontmatter, dated, dated/2026-08-23, canon/knowledge]
+tags:
+- amos
+- brain-improvement
+- integrity-audit
+- wikilink-repair
+- frontmatter
+- dated
+- dated/2026-08-23
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

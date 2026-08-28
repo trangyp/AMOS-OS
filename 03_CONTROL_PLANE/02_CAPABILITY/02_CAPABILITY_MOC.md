@@ -2,7 +2,10 @@
 title: "02 Capability MOC"
 type: moc
 source: 03_CONTROL_PLANE/02_CAPABILITY
-tags: [moc, 02-capability, canon/control-plane]
+tags:
+- moc
+- 02-capability
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

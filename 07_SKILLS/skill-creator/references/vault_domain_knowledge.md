@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Skill Creator"
 type: reference
 source: 07_SKILLS/skill-creator/references
-tags: [reference, skill-creator, canon/skill]
+tags:
+- reference
+- skill-creator
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

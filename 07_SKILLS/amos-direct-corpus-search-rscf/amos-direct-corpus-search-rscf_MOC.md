@@ -2,7 +2,10 @@
 title: "Amos-Direct-Corpus-Search-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-direct-corpus-search-rscf
-tags: [moc, amos-direct-corpus-search-rscf, canon/skill]
+tags:
+- moc
+- amos-direct-corpus-search-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

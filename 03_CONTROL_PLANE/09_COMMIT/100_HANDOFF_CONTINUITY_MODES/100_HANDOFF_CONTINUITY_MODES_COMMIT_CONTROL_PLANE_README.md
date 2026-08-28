@@ -2,7 +2,10 @@
 title: 100 HANDOFF CONTINUITY MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/100_HANDOFF_CONTINUITY_MODES
-tags: [control_plane, 100_handoff_continuity_modes, canon/control-plane]
+tags:
+- control_plane
+- 100_handoff_continuity_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

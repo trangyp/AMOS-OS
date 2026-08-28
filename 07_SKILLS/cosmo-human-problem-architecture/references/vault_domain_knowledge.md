@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Cosmo Human Problem Architecture"
 type: reference
 source: 07_SKILLS/cosmo-human-problem-architecture/references
-tags: [reference, cosmo-human-problem-architecture, canon/skill]
+tags:
+- reference
+- cosmo-human-problem-architecture
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

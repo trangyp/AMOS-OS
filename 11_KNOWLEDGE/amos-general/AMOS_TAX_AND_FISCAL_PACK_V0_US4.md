@@ -1,6 +1,13 @@
 ---
 title: AMOS TAX AND FISCAL PACK V0 US4
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-tax-and-fiscal-pack-v0, amos-general]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-tax-and-fiscal-pack-v0
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

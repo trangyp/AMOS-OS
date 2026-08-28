@@ -7,7 +7,20 @@ provenance: cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_INTERFACE.py
 confidence: 0.9
 epistemic_class: DERIVED
 conclusion_label: "VERIFIED"
-tags: [canon-group/tech-ai, cosmo-brain, cognitive-substrate, interface-coupling, epistemic-autopoisoning, cognitive-integrity, rscf/claim, rscf/provenance, rscf/state/observation, topic/2026-08-22-cognitive-substrate-interface, dated, dated/2026-08-22, canon/knowledge]
+tags:
+- canon-group/tech-ai
+- cosmo-brain
+- cognitive-substrate
+- interface-coupling
+- epistemic-autopoisoning
+- cognitive-integrity
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/2026-08-22-cognitive-substrate-interface
+- dated
+- dated/2026-08-22
+- canon/knowledge
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

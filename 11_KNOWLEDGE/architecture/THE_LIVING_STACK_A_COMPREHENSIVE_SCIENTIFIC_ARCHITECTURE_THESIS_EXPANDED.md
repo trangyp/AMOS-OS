@@ -1,6 +1,13 @@
 ---
 title: THE LIVING STACK A COMPREHENSIVE SCIENTIFIC ARCHITECTURE THESIS EXPANDED
-tags: [canon-group/planetary, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-living-stack-a-comprehensive-scienti, architecture]
+tags:
+- canon-group/planetary
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/the-living-stack-a-comprehensive-scienti
+- architecture
 type: note
 source: 11_KNOWLEDGE/architecture
 rscf:

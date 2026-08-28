@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Canon Consistency Governor"
 type: moc
 source: 07_SKILLS/amos-canon-consistency-governor/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

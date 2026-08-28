@@ -1,6 +1,10 @@
 ---
 title: AMOS VS OTHER FRONTIER AI VS GLOBAL TOP HUMANS A
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

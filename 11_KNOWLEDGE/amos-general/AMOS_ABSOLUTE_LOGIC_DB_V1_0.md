@@ -5,7 +5,18 @@ origin: "Google Drive — _00_AMOS_CANON/LOGIC.txt (277 KB, 8647 lines)"
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/amos-general
-tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/derived, rscf/D-distinction, rscf/T-topology, rscf/K-compression, rscf/B-boundary, topic/absolute-logic-model, amos-general]
+tags:
+- canon-group/meta
+- canon/law
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/D-distinction
+- rscf/T-topology
+- rscf/K-compression
+- rscf/B-boundary
+- topic/absolute-logic-model
+- amos-general
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

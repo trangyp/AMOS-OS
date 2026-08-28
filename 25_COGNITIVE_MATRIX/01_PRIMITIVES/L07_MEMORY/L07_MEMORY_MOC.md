@@ -2,7 +2,10 @@
 title: "L07 Memory MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
-tags: [moc, l07-memory, canon/cognitive-matrix]
+tags:
+- moc
+- l07-memory
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

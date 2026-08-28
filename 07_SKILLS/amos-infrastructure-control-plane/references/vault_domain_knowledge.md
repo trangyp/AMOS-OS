@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Infrastructure Control Plane"
 type: reference
 source: 07_SKILLS/amos-infrastructure-control-plane/references
-tags: [reference, amos-infrastructure-control-plane, canon/skill]
+tags:
+- reference
+- amos-infrastructure-control-plane
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

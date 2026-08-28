@@ -2,7 +2,10 @@
 title: L24 SELF REGULATION PRIMITIVES COGNITIVE MATRIX MEMORY
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
-tags: [note, l24-self-regulation, canon/cognitive-matrix]
+tags:
+- note
+- l24-self-regulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

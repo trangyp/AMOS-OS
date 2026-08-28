@@ -2,7 +2,10 @@
 title: "Amos-Distributed-Attack-Composition-Monitor-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf
-tags: [moc, amos-distributed-attack-composition-moni, canon/skill]
+tags:
+- moc
+- amos-distributed-attack-composition-moni
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

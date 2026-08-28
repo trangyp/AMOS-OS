@@ -2,7 +2,10 @@
 title: "57 Security Threat Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/57_SECURITY_THREAT_MODES
-tags: [moc, 57-security-threat-modes, canon/control-plane]
+tags:
+- moc
+- 57-security-threat-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Context-State-Maintenance-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-context-state-maintenance-rscf
-tags: [moc, amos-context-state-maintenance-rscf, canon/skill]
+tags:
+- moc
+- amos-context-state-maintenance-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

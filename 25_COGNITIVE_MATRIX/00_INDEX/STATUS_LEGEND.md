@@ -2,7 +2,11 @@
 title: STATUS LEGEND
 type: status
 source: 25_COGNITIVE_MATRIX/00_INDEX
-tags: [cognitive_matrix, index, note, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- index
+- note
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

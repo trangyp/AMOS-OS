@@ -2,7 +2,12 @@
 title: COVERAGE COGNITIVE MATRIX README
 type: coverage
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
-tags: [cognitive_matrix, coverage, readme, contract_filled, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- coverage
+- readme
+- contract_filled
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

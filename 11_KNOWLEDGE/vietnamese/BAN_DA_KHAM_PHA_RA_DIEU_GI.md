@@ -1,6 +1,10 @@
 ---
 title: BAN DA KHAM PHA RA DIEU GI
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

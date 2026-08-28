@@ -2,7 +2,10 @@
 title: KERNEL MEMORY CONTRACT
 type: kernel
 source: 02_KERNEL/05_MEMORY
-tags: [amos_os, 02_kernel, canon/kernel]
+tags:
+- amos_os
+- 02_kernel
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

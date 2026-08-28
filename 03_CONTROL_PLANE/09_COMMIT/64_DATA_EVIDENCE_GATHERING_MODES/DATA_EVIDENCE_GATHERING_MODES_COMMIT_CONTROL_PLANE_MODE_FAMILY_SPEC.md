@@ -2,7 +2,10 @@
 title: DATA EVIDENCE GATHERING MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/64_DATA_EVIDENCE_GATHERING_MODES
-tags: [control_plane, 64_data_evidence_gathering_modes, canon/control-plane]
+tags:
+- control_plane
+- 64_data_evidence_gathering_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

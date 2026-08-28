@@ -1,6 +1,10 @@
 ---
 title: UBS BACKED GOLD TRANSACTION AUDITED IMPACT ONE
-tags: [audit, repair, quality, canon/knowledge]
+tags:
+- audit
+- repair
+- quality
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/audit
 rscf:

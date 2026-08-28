@@ -2,7 +2,10 @@
 title: "64 Data Evidence Gathering Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/64_DATA_EVIDENCE_GATHERING_MODES
-tags: [moc, 64-data-evidence-gathering-modes, canon/control-plane]
+tags:
+- moc
+- 64-data-evidence-gathering-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

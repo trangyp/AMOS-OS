@@ -2,7 +2,10 @@
 title: "91 Calibration Confidence Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/91_CALIBRATION_CONFIDENCE_MODES
-tags: [moc, 91-calibration-confidence-modes, canon/control-plane]
+tags:
+- moc
+- 91-calibration-confidence-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

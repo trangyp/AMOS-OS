@@ -1,6 +1,10 @@
 ---
 title: DU BAO THI TRUONG XE DIEN VIET NAM 2025 2030
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

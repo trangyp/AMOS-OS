@@ -1,6 +1,13 @@
 ---
 title: AMOS ALL FRAMEWORKS
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-all-frameworks, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-all-frameworks
+- amos-general
 type: data
 source: 11_KNOWLEDGE/amos-general
 rscf:

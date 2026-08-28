@@ -1,6 +1,10 @@
 ---
 title: UNI POWER STRATEGIC GOVERNANCE AND OPERATING MODEL
-tags: [governance, policy, authority, canon/knowledge]
+tags:
+- governance
+- policy
+- authority
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/governance
 rscf:

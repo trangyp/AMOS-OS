@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Qls Qic Substrate Mapper"
 type: moc
 source: 07_SKILLS/amos-qls-qic-substrate-mapper/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

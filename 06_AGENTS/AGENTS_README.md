@@ -2,7 +2,10 @@
 title: AGENTS README
 type: agent
 source: 06_AGENTS
-tags: [amos_os, 06_agents, canon/agent]
+tags:
+- amos_os
+- 06_agents
+- canon/agent
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Cost Aware Test Supervision Rscf"
 type: moc
 source: 07_SKILLS/amos-cost-aware-test-supervision-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

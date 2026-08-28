@@ -2,7 +2,10 @@
 title: "01 Papers MOC"
 type: moc
 source: 22_RESEARCH/01_PAPERS
-tags: [moc, 01-papers, canon/research]
+tags:
+- moc
+- 01-papers
+- canon/research
 rscf:
   state: DERIVED
   claim_class: DERIVED

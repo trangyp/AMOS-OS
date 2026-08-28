@@ -2,7 +2,10 @@
 title: "Amos-Cognitive-Compression-Kernel MOC"
 type: moc
 source: 07_SKILLS/amos-cognitive-compression-kernel
-tags: [moc, amos-cognitive-compression-kernel, canon/skill]
+tags:
+- moc
+- amos-cognitive-compression-kernel
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

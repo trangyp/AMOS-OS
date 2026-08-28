@@ -2,7 +2,10 @@
 title: "References MOC — References — Mckinsey Human Centered Design Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-human-centered-design-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

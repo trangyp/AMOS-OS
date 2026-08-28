@@ -2,7 +2,10 @@
 title: "Amos-Qls-Substrate MOC"
 type: moc
 source: 07_SKILLS/amos-qls-substrate
-tags: [moc, amos-qls-substrate, canon/skill]
+tags:
+- moc
+- amos-qls-substrate
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,6 +1,10 @@
 ---
 title: ANH XA UNIFIED MODEL QUA THOI GIAN VA VAN MINH
-tags: [models, model, specification, canon/knowledge]
+tags:
+- models
+- model
+- specification
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/models
 rscf:

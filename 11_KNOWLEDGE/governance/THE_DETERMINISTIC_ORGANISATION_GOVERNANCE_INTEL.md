@@ -1,6 +1,10 @@
 ---
 title: THE DETERMINISTIC ORGANISATION GOVERNANCE INTEL
-tags: [governance, policy, authority, canon/knowledge]
+tags:
+- governance
+- policy
+- authority
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/governance
 rscf:

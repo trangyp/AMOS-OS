@@ -1,6 +1,10 @@
 ---
 title: THOUGHTS AND EMOTION
-tags: [emotion, affect, mind, canon/knowledge]
+tags:
+- emotion
+- affect
+- mind
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/emotion
 rscf:

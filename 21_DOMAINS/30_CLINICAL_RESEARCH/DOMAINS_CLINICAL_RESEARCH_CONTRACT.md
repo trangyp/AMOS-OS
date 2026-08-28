@@ -2,7 +2,10 @@
 title: DOMAINS CLINICAL RESEARCH CONTRACT
 type: research
 source: 21_DOMAINS/30_CLINICAL_RESEARCH
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

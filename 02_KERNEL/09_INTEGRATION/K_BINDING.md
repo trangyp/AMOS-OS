@@ -13,7 +13,11 @@ steward: Trang Phan
 plane: KERNEL
 scope: AMOS_OS
 updated: 2026-08-26
-tags: [kernel, integration, note, canon/kernel]
+tags:
+- kernel
+- integration
+- note
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Forex-Unified-Os MOC"
 type: moc
 source: 07_SKILLS/amos-forex-unified-os
-tags: [moc, amos-forex-unified-os, canon/skill]
+tags:
+- moc
+- amos-forex-unified-os
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

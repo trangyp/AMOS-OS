@@ -2,7 +2,10 @@
 title: PRIMITIVES MAP
 type: map
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/00_INDEX
-tags: [cognitive_matrix, 00_index, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- 00_index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

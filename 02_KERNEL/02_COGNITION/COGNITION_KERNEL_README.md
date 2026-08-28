@@ -2,7 +2,10 @@
 title: COGNITION KERNEL README
 type: kernel
 source: 02_KERNEL/02_COGNITION
-tags: [amos_os, 02_kernel, canon/kernel]
+tags:
+- amos_os
+- 02_kernel
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

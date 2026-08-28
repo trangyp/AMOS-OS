@@ -2,7 +2,10 @@
 title: OBSERVABILITY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/30_OBSERVABILITY_MODES
-tags: [control_plane, 30_observability_modes, canon/control-plane]
+tags:
+- control_plane
+- 30_observability_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

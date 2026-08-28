@@ -1,6 +1,10 @@
 ---
 title: AMOS V5 3 VERIFICATION REPORT
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/amos-general
 rscf:

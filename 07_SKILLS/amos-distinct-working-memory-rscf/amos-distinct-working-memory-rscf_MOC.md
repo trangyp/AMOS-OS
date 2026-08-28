@@ -2,7 +2,10 @@
 title: "Amos-Distinct-Working-Memory-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-distinct-working-memory-rscf
-tags: [moc, amos-distinct-working-memory-rscf, canon/skill]
+tags:
+- moc
+- amos-distinct-working-memory-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

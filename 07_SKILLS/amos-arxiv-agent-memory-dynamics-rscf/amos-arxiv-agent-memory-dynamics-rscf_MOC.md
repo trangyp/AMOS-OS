@@ -2,7 +2,10 @@
 title: "Amos-Arxiv-Agent-Memory-Dynamics-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf
-tags: [moc, amos-arxiv-agent-memory-dynamics-rscf, canon/skill]
+tags:
+- moc
+- amos-arxiv-agent-memory-dynamics-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

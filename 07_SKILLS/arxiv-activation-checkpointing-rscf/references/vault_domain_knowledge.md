@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Activation Checkpointing Rscf"
 type: reference
 source: 07_SKILLS/arxiv-activation-checkpointing-rscf/references
-tags: [reference, arxiv-activation-checkpointing-rscf, canon/skill]
+tags:
+- reference
+- arxiv-activation-checkpointing-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,11 @@
 title: GENERATORS COGNITIVE MATRIX README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
-tags: [cognitive_matrix, generators, readme, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- generators
+- readme
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

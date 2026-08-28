@@ -1,6 +1,13 @@
 ---
 title: AMOS AGENT REGISTRY
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-agent-registry, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-agent-registry
+- amos-general
 type: data
 source: 11_KNOWLEDGE/amos-general
 rscf:

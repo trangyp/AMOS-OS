@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Claim Verifier"
 type: reference
 source: 07_SKILLS/amos-claim-verifier/references
-tags: [reference, amos-claim-verifier, canon/skill]
+tags:
+- reference
+- amos-claim-verifier
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -6,7 +6,19 @@ origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"
 type: note
 source: 11_KNOWLEDGE/dated
-tags: [cosmo, amos, canon-group/tech-ai, rscf/claim, rscf/state/observation, topic/kafka-brain-buffer, topic/typescript, topic/bugfix, topic/verbena-consciousness, dated, dated/2026-08-23, canon/knowledge]
+tags:
+- cosmo
+- amos
+- canon-group/tech-ai
+- rscf/claim
+- rscf/state/observation
+- topic/kafka-brain-buffer
+- topic/typescript
+- topic/bugfix
+- topic/verbena-consciousness
+- dated
+- dated/2026-08-23
+- canon/knowledge
 status: "complete"
 provenance: "OBSERVATION"
 confidence: "HIGH"

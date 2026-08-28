@@ -2,7 +2,10 @@
 title: C04 REASONING CONTROL PLANES COGNITIVE MATRIX DEFINITION
 type: note
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
-tags: [note, c04-reasoning, canon/cognitive-matrix]
+tags:
+- note
+- c04-reasoning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

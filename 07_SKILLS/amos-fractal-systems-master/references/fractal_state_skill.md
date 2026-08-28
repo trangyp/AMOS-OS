@@ -2,7 +2,10 @@
 title: fractal state skill
 type: reference
 source: 07_SKILLS/amos-fractal-systems-master/references
-tags: [reference, amos-fractal-systems-master, canon/skill]
+tags:
+- reference
+- amos-fractal-systems-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

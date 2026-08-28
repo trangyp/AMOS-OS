@@ -2,7 +2,10 @@
 title: "Amos-Memory-Immune-System MOC"
 type: moc
 source: 07_SKILLS/amos-memory-immune-system
-tags: [moc, amos-memory-immune-system, canon/skill]
+tags:
+- moc
+- amos-memory-immune-system
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

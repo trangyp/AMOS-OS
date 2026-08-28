@@ -2,7 +2,10 @@
 title: "Amos-Natural-Evidence-Trail-Reasoning-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf
-tags: [moc, amos-natural-evidence-trail-reasoning-rs, canon/skill]
+tags:
+- moc
+- amos-natural-evidence-trail-reasoning-rs
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

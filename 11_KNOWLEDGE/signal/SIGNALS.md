@@ -1,6 +1,10 @@
 ---
 title: SIGNALS
-tags: [signal, processing, detection, canon/knowledge]
+tags:
+- signal
+- processing
+- detection
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/signal
 rscf:

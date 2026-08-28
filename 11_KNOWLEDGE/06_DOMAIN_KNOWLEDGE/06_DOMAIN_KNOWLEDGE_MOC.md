@@ -2,7 +2,10 @@
 title: "06 Domain Knowledge MOC"
 type: moc
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
-tags: [moc, 06-domain-knowledge, canon/knowledge]
+tags:
+- moc
+- 06-domain-knowledge
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

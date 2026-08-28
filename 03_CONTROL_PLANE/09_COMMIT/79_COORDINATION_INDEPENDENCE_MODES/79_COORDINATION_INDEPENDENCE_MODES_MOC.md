@@ -2,7 +2,10 @@
 title: "79 Coordination Independence Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES
-tags: [moc, 79-coordination-independence-modes, canon/control-plane]
+tags:
+- moc
+- 79-coordination-independence-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

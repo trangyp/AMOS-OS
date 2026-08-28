@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Aibom Lifecycle Assurance Rscf"
 type: moc
 source: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

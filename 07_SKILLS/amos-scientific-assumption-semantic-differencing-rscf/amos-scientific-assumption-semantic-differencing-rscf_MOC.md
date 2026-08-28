@@ -2,7 +2,10 @@
 title: "Amos-Scientific-Assumption-Semantic-Differencing-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf
-tags: [moc, amos-scientific-assumption-semantic-diff, canon/skill]
+tags:
+- moc
+- amos-scientific-assumption-semantic-diff
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

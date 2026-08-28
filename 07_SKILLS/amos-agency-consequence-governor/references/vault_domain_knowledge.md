@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Agency Consequence Governor"
 type: reference
 source: 07_SKILLS/amos-agency-consequence-governor/references
-tags: [reference, amos-agency-consequence-governor, canon/skill]
+tags:
+- reference
+- amos-agency-consequence-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,10 @@
 ---
 title: TRONG DONG DONG SON SU KET HOP HOAN HAO GIUA VU TR
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

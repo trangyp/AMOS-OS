@@ -2,7 +2,10 @@
 title: "21 Domains MOC"
 type: moc
 source: 21_DOMAINS
-tags: [moc, 21-domains, canon/domain]
+tags:
+- moc
+- 21-domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

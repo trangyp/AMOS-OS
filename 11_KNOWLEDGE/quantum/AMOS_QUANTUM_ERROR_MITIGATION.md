@@ -3,7 +3,15 @@ title: amos-quantum-error-mitigation
 type: quantum
 source: 11_KNOWLEDGE/quantum
 created: 2026-08-25
-tags: [canon-group/quantum, canon/error-mitigation, canon/error-correction, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-quantum-error-mitigation, quantum]
+tags:
+- canon-group/quantum
+- canon/error-mitigation
+- canon/error-correction
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-quantum-error-mitigation
+- quantum
 status: validated
 rscf:
   state: AMOS_MODEL

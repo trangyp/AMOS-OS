@@ -5,7 +5,38 @@ origin: "Google Drive — _00_AMOS_CANON/HSE_CEO_Enginev.txt (434KB, 13,389 line
 origin_architect: "Trang Phan"
 type: engine-spec
 source: 11_KNOWLEDGE/engine
-tags: [hse, human-systems-engine, Vietnam, U3H, atemporal-field, atemporal-intelligence, atemporal-tensor, 7-non-layers, 8-evolution-stages, 10-org-levels, 11-role-families, 5-sector-categories, 20+business-sectors, 16-gov-sectors, 12-social-systems, 11-infra-systems, 9-power-systems, 9-actor-types, 9-motivations, 7-risk-signals, 10-collapse-steps, 11-recovery-steps, 20-behavior-signals, 12-risk-flags, 6-team-types, 6-hidden-risks, 10-org-risks, 9-lazy-patterns, 9-process-gaps, engine, canon/knowledge]
+tags:
+- hse
+- human-systems-engine
+- Vietnam
+- U3H
+- atemporal-field
+- atemporal-intelligence
+- atemporal-tensor
+- 7-non-layers
+- 8-evolution-stages
+- 10-org-levels
+- 11-role-families
+- 5-sector-categories
+- 20+business-sectors
+- 16-gov-sectors
+- 12-social-systems
+- 11-infra-systems
+- 9-power-systems
+- 9-actor-types
+- 9-motivations
+- 7-risk-signals
+- 10-collapse-steps
+- 11-recovery-steps
+- 20-behavior-signals
+- 12-risk-flags
+- 6-team-types
+- 6-hidden-risks
+- 10-org-risks
+- 9-lazy-patterns
+- 9-process-gaps
+- engine
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

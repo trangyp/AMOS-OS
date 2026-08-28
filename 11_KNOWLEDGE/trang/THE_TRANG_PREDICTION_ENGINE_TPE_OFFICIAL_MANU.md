@@ -1,6 +1,10 @@
 ---
 title: THE TRANG PREDICTION ENGINE TPE OFFICIAL MANU
-tags: [trang, framework, reality, canon/knowledge]
+tags:
+- trang
+- framework
+- reality
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:

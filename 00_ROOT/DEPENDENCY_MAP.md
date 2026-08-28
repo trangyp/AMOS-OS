@@ -16,7 +16,34 @@ authority_domain: dependency_topology
 authority_level: root_architecture_contract
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos-os, amos_os, root, canon-group/tech-ai, canon/model, architecture, architecture/dependency, dependency, dependency/closure, dependency/invalidation, dependency/topology, dependency/typed-edge, dependency/load-bearing, provenance, provenance/lineage, provenance/independence, state, governance, kernel, kernel/dependency, kernel/validation, kernel/recovery, rscf/state/model, topic/dependency-map, topic/dependency-closure, topic/invalidation, topic/failure-propagation]
+tags:
+- amos-os
+- amos_os
+- root
+- canon-group/tech-ai
+- canon/model
+- architecture
+- architecture/dependency
+- dependency
+- dependency/closure
+- dependency/invalidation
+- dependency/topology
+- dependency/typed-edge
+- dependency/load-bearing
+- provenance
+- provenance/lineage
+- provenance/independence
+- state
+- governance
+- kernel
+- kernel/dependency
+- kernel/validation
+- kernel/recovery
+- rscf/state/model
+- topic/dependency-map
+- topic/dependency-closure
+- topic/invalidation
+- topic/failure-propagation
 aliases: "- AMOS OS Dependency Map
   - Dependency Map
   - AMOS Dependency Topology

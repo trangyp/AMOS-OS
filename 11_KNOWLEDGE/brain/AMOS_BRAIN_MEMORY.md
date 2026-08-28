@@ -1,6 +1,13 @@
 ---
 title: AMOS BRAIN MEMORY
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-complete-memory, brain]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-brain-complete-memory
+- brain
 type: document
 source: 11_KNOWLEDGE/brain
 rscf:

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Full Brain Os"
 type: reference
 source: 07_SKILLS/amos-full-brain-os/references
-tags: [reference, amos-full-brain-os, canon/skill]
+tags:
+- reference
+- amos-full-brain-os
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

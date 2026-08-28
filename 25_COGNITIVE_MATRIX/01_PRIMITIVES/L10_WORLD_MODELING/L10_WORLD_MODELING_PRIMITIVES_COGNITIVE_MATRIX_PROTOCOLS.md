@@ -2,7 +2,10 @@
 title: L10 WORLD MODELING PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
-tags: [note, l10-world-modeling, canon/cognitive-matrix]
+tags:
+- note
+- l10-world-modeling
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

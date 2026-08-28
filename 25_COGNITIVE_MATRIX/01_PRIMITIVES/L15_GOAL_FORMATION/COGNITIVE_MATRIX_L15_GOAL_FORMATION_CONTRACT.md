@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L15 GOAL FORMATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
-tags: [cognitive_matrix, primitives, l15_goal_formation, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l15_goal_formation
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -2,7 +2,10 @@
 title: "96 Scheduling Orchestration Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/96_SCHEDULING_ORCHESTRATION_MODES
-tags: [moc, 96-scheduling-orchestration-modes, canon/control-plane]
+tags:
+- moc
+- 96-scheduling-orchestration-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

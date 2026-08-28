@@ -2,7 +2,10 @@
 title: O05 MEMORY LIFECYCLE OPERATIONS COGNITIVE MATRIX README
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
-tags: [note, o05-memory, canon/cognitive-matrix]
+tags:
+- note
+- o05-memory
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Arxiv-Selective-State-Space-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-selective-state-space-rscf
-tags: [moc, arxiv-selective-state-space-rscf, canon/skill]
+tags:
+- moc
+- arxiv-selective-state-space-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "03 Procedures MOC"
 type: moc
 source: 20_OPERATIONS/03_PROCEDURES
-tags: [moc, 03-procedures, canon/operations]
+tags:
+- moc
+- 03-procedures
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Causal Closure Governor"
 type: reference
 source: 07_SKILLS/amos-causal-closure-governor/references
-tags: [reference, amos-causal-closure-governor, canon/skill]
+tags:
+- reference
+- amos-causal-closure-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: DOMAINS POLICY DESIGN CONTRACT
 type: design
 source: 21_DOMAINS/32_POLICY_DESIGN
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

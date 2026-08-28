@@ -2,7 +2,10 @@
 title: "Amos-Repair-Priority-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-repair-priority-governor
-tags: [moc, amos-repair-priority-governor, canon/skill]
+tags:
+- moc
+- amos-repair-priority-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

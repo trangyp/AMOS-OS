@@ -2,7 +2,10 @@
 title: M MID SCALE MAP
 type: map
 source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/00_INDEX
-tags: [cognitive_matrix, m_mid_scale, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- m_mid_scale
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

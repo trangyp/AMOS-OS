@@ -2,7 +2,10 @@
 title: "97 Allocation Resource Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/97_ALLOCATION_RESOURCE_MODES
-tags: [moc, 97-allocation-resource-modes, canon/control-plane]
+tags:
+- moc
+- 97-allocation-resource-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

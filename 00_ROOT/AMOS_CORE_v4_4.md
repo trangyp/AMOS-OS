@@ -2,7 +2,11 @@
 title: "AMOS Core v4.4 Coordination-Avoidance Runtime Architecture"
 type: core_spec
 source: 00_ROOT
-tags: [core, runtime, v4_4, coordination_avoidance]
+tags:
+- core
+- runtime
+- v4_4
+- coordination_avoidance
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE

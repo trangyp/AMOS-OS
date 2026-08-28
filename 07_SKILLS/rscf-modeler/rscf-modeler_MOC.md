@@ -2,7 +2,10 @@
 title: "Rscf-Modeler MOC"
 type: moc
 source: 07_SKILLS/rscf-modeler
-tags: [moc, rscf-modeler, canon/skill]
+tags:
+- moc
+- rscf-modeler
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

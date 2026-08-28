@@ -2,7 +2,10 @@
 title: "10 Exposure MOC"
 type: moc
 source: 03_CONTROL_PLANE/10_EXPOSURE
-tags: [moc, 10-exposure, canon/control-plane]
+tags:
+- moc
+- 10-exposure
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

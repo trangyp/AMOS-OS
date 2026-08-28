@@ -1,6 +1,10 @@
 ---
 title: AMOS 7 PART UNIVERSE CANON FULL ARCHITECTURE V2
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

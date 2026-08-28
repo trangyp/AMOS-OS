@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Anytime Pac Bayes Density Ratio Rscf"
 type: reference
 source: 07_SKILLS/arxiv-anytime-pac-bayes-density-ratio-rscf/references
-tags: [reference, arxiv-anytime-pac-bayes-density-ratio-rscf, canon/skill]
+tags:
+- reference
+- arxiv-anytime-pac-bayes-density-ratio-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

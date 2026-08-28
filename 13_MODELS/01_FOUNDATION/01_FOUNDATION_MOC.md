@@ -2,7 +2,10 @@
 title: "01 Foundation MOC"
 type: moc
 source: 13_MODELS/01_FOUNDATION
-tags: [moc, 01-foundation, canon/model]
+tags:
+- moc
+- 01-foundation
+- canon/model
 rscf:
   state: DERIVED
   claim_class: DERIVED

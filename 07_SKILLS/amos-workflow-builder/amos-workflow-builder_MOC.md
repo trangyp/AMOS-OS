@@ -2,7 +2,10 @@
 title: "Amos-Workflow-Builder MOC"
 type: moc
 source: 07_SKILLS/amos-workflow-builder
-tags: [moc, amos-workflow-builder, canon/skill]
+tags:
+- moc
+- amos-workflow-builder
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

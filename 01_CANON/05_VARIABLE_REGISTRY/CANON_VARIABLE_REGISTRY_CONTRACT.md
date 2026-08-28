@@ -2,7 +2,10 @@
 title: CANON VARIABLE REGISTRY CONTRACT
 type: canon
 source: 01_CANON/05_VARIABLE_REGISTRY
-tags: [amos_os, 01_canon, canon/universe]
+tags:
+- amos_os
+- 01_canon
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "01 Primitives MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES
-tags: [moc, 01-primitives, canon/cognitive-matrix]
+tags:
+- moc
+- 01-primitives
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

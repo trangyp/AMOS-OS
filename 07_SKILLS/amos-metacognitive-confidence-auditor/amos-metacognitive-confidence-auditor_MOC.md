@@ -2,7 +2,10 @@
 title: "Amos-Metacognitive-Confidence-Auditor MOC"
 type: moc
 source: 07_SKILLS/amos-metacognitive-confidence-auditor
-tags: [moc, amos-metacognitive-confidence-auditor, canon/skill]
+tags:
+- moc
+- amos-metacognitive-confidence-auditor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

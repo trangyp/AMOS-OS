@@ -1,6 +1,13 @@
 ---
 title: AMOS CONFIG
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-config, amos-general]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-config
+- amos-general
 type: data
 source: 11_KNOWLEDGE/amos-general
 rscf:

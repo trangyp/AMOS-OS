@@ -2,7 +2,10 @@
 title: "05 Provenance MOC"
 type: moc
 source: 03_CONTROL_PLANE/05_PROVENANCE
-tags: [moc, 05-provenance, canon/control-plane]
+tags:
+- moc
+- 05-provenance
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

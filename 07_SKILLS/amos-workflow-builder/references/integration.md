@@ -2,7 +2,10 @@
 title: "integration — References — Amos Workflow Builder"
 type: reference
 source: 07_SKILLS/amos-workflow-builder/references
-tags: [reference, amos-workflow-builder, canon/skill]
+tags:
+- reference
+- amos-workflow-builder
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

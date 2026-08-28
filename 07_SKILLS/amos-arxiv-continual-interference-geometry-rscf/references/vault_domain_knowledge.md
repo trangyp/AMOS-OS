@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Arxiv Continual Interference Geometry Rscf"
 type: reference
 source: 07_SKILLS/amos-arxiv-continual-interference-geometry-rscf/references
-tags: [reference, amos-arxiv-continual-interference-geometry-rscf, canon/skill]
+tags:
+- reference
+- amos-arxiv-continual-interference-geometry-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Amos-Arxiv-Influence-Guided-Symbolic-Regression-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-arxiv-influence-guided-symbolic-regression-rscf
-tags: [moc, amos-arxiv-influence-guided-symbolic-reg, canon/skill]
+tags:
+- moc
+- amos-arxiv-influence-guided-symbolic-reg
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

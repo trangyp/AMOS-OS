@@ -4,7 +4,14 @@ type: memory
 created: 2026-08-22
 updated: 2026-08-22
 source: "The Complete Human System (book manuscript — two versions ingested)"
-tags: [canon-group/human-system, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/memory-the-complete-human-system, system]
+tags:
+- canon-group/human-system
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/memory-the-complete-human-system
+- system
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

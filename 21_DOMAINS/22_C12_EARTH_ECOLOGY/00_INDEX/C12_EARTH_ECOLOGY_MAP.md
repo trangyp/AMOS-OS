@@ -2,7 +2,10 @@
 title: C12 EARTH ECOLOGY MAP
 type: map
 source: 21_DOMAINS/22_C12_EARTH_ECOLOGY/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

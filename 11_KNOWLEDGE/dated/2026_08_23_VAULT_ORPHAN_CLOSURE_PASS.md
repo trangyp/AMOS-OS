@@ -5,7 +5,15 @@ source: 11_KNOWLEDGE/dated
 status: active
 confidence: AMOS MODEL / DERIVED
 created: 2026-08-23
-tags: [vault, integrity, orphan, index, graph, dated, dated/2026-08-23, canon/knowledge]
+tags:
+- vault
+- integrity
+- orphan
+- index
+- graph
+- dated
+- dated/2026-08-23
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

@@ -1,7 +1,17 @@
 ---
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
-tags: [amos, cognitive-matrix, l03, percept-formation, hml, cross-scale, rscf, provenance, governance, canon/cognitive-matrix]
+tags:
+- amos
+- cognitive-matrix
+- l03
+- percept-formation
+- hml
+- cross-scale
+- rscf
+- provenance
+- governance
+- canon/cognitive-matrix
 title: "L03_PERCEPT_FORMATION — HML"
 origin_architect: "Trang Phan"
 status: "MODEL_HML_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

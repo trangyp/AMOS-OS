@@ -2,7 +2,10 @@
 title: INDEX C09 KERNEL CONTROL CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL/00_INDEX
-tags: [cognitive_matrix, c09_kernel_control, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c09_kernel_control
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

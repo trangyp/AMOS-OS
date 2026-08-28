@@ -2,7 +2,10 @@
 title: "Amos-Formal-Agent-Skill-Verification-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-formal-agent-skill-verification-rscf
-tags: [moc, amos-formal-agent-skill-verification-rsc, canon/skill]
+tags:
+- moc
+- amos-formal-agent-skill-verification-rsc
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

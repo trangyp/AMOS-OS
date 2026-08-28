@@ -1,6 +1,10 @@
 ---
 title: PHUONG AN DANH GIA HIEU QUA DAU TU PLUS DONG TIEN 36
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

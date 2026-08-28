@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Fx Threshold Vecm Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-fx-threshold-vecm-rscf-engine/references
-tags: [reference, amos-fx-threshold-vecm-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-fx-threshold-vecm-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

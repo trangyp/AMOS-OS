@@ -2,7 +2,10 @@
 title: "09 Integration MOC"
 type: moc
 source: 02_KERNEL/09_INTEGRATION
-tags: [moc, 09-integration, canon/kernel]
+tags:
+- moc
+- 09-integration
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

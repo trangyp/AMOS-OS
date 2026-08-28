@@ -2,7 +2,10 @@
 title: "Brain MOC"
 type: moc
 source: 11_KNOWLEDGE/brain
-tags: [moc, brain, canon/knowledge]
+tags:
+- moc
+- brain
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

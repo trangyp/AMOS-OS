@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Future Confidence Distillation Rscf"
 type: moc
 source: 07_SKILLS/arxiv-future-confidence-distillation-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

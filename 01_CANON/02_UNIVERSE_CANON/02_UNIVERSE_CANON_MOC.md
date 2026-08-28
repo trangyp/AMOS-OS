@@ -2,7 +2,10 @@
 title: "02 Universe Canon MOC"
 type: moc
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [moc, 02-universe-canon, canon/universe]
+tags:
+- moc
+- 02-universe-canon
+- canon/universe
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Amos-Tensor-Network-Contraction-Sketch-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine
-tags: [moc, amos-tensor-network-contraction-sketch-r, canon/skill]
+tags:
+- moc
+- amos-tensor-network-contraction-sketch-r
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

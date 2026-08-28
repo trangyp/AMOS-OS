@@ -2,7 +2,12 @@
 title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX STATE
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
-tags: [cognitive_matrix, primitives, l02_attention, note, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l02_attention
+- note
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

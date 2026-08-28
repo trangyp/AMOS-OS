@@ -1,6 +1,13 @@
 ---
 title: AMOS QA TESTING KERNEL V0 TECH
-tags: [canon-group/tech-ai, canon/metric, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-qa-testing-kernel-v0, kernel]
+tags:
+- canon-group/tech-ai
+- canon/metric
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-qa-testing-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

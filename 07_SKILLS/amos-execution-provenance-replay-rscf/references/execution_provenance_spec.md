@@ -2,7 +2,10 @@
 title: execution provenance spec
 type: reference
 source: 07_SKILLS/amos-execution-provenance-replay-rscf/references
-tags: [reference, amos-execution-provenance-replay-rscf, canon/skill]
+tags:
+- reference
+- amos-execution-provenance-replay-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

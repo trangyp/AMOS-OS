@@ -7,7 +7,19 @@ provenance: cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py
 confidence: 0.95
 epistemic_class: SOURCE_DERIVED
 conclusion_label: "VERIFIED_PRESENT"
-tags: [canon-group/tech-ai, cosmo-brain, memory-bridge, obsidian, persistence, rscf/state/observation, canon/os-module, rscf/claim, rscf/provenance, topic/2026-08-22-amos-obsidian-memory-bridge, dated, dated/2026-08-22]
+tags:
+- canon-group/tech-ai
+- cosmo-brain
+- memory-bridge
+- obsidian
+- persistence
+- rscf/state/observation
+- canon/os-module
+- rscf/claim
+- rscf/provenance
+- topic/2026-08-22-amos-obsidian-memory-bridge
+- dated
+- dated/2026-08-22
 date: 2026-08-22
 rscf:
   state: SOURCE_CLAIM

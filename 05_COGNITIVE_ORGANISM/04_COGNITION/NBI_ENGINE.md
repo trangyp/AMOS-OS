@@ -11,7 +11,15 @@ plane: "05_COGNITIVE_ORGANISM"
 segment: "05_COGNITIVE_ORGANISM/04_COGNITION"
 artifact_kind: "ENGINE"
 path: "05_COGNITIVE_ORGANISM/04_COGNITION/NBI_ENGINE.md"
-tags: [amos_os, cognitive, organism, 05_cognitive_organism, engine, canon_placeholder, rscf, canon/cognitive]
+tags:
+- amos_os
+- cognitive
+- organism
+- 05_cognitive_organism
+- engine
+- canon_placeholder
+- rscf
+- canon/cognitive
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

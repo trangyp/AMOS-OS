@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Test Time Compute Scaling Rscf"
 type: reference
 source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf/references
-tags: [reference, arxiv-test-time-compute-scaling-rscf, canon/skill]
+tags:
+- reference
+- arxiv-test-time-compute-scaling-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

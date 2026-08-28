@@ -1,6 +1,13 @@
 ---
 title: AMOS UNI SYSTEM OPERATIONS ENGINE MODEL
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-uni-system-operations-engine-model, engine]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-uni-system-operations-engine-model
+- engine
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

@@ -1,6 +1,10 @@
 ---
 title: VIETNAMESECORE
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/misc
 rscf:

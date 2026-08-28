@@ -1,6 +1,10 @@
 ---
 title: QLS ABI LONGEVITY TRONG NEN KINH TE TUOI THO
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

@@ -2,7 +2,10 @@
 title: "82 Finalization Checkpoint Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/82_FINALIZATION_CHECKPOINT_MODES
-tags: [moc, 82-finalization-checkpoint-modes, canon/control-plane]
+tags:
+- moc
+- 82-finalization-checkpoint-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

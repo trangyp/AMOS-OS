@@ -2,7 +2,10 @@
 title: "Dated MOC"
 type: moc
 source: 11_KNOWLEDGE/dated
-tags: [moc, dated, canon/knowledge]
+tags:
+- moc
+- dated
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

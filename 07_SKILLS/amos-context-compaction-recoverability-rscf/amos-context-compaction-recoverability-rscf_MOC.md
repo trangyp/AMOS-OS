@@ -2,7 +2,10 @@
 title: "Amos-Context-Compaction-Recoverability-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-context-compaction-recoverability-rscf
-tags: [moc, amos-context-compaction-recoverability-r, canon/skill]
+tags:
+- moc
+- amos-context-compaction-recoverability-r
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

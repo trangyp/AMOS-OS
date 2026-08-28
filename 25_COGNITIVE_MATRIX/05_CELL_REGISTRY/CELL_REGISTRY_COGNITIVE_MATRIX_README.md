@@ -2,7 +2,12 @@
 title: CELL REGISTRY COGNITIVE MATRIX README
 type: cognitive
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
-tags: [cognitive_matrix, cell_registry, readme, contract_filled, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- cell_registry
+- readme
+- contract_filled
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

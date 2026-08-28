@@ -13,7 +13,11 @@ steward: "Trang Phan"
 epistemic_status: "AMOS_MODEL / CONDITIONAL"
 supersedes: "AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v4_4.md"
 governing_law: "integrity > completeness > fluency > speed > token savings"
-tags: [amos-general, amos, general, canon/knowledge]
+tags:
+- amos-general
+- amos
+- general
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

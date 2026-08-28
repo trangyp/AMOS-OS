@@ -2,7 +2,10 @@
 title: "AMOS C02 — Math & Compute Master Knowledge"
 type: math
 source: 11_KNOWLEDGE
-tags: [knowledge, note, canon/knowledge]
+tags:
+- knowledge
+- note
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

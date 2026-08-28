@@ -15,7 +15,29 @@ kernel_family: EVENT
 domain: event-bus
 scope: AMOS_OS
 updated: 2026-08-26
-tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/event, kernel/event-bus, kernel/messaging, kernel/state, kernel/causality, kernel/provenance, kernel/dependency, kernel/concurrency, kernel/idempotency, kernel/replay, kernel/validation, rscf/event, rscf/provenance, rscf/state/model, topic/event-driven-architecture, topic/event-routing, topic/causal-lineage]
+tags:
+- amos-os
+- kernel
+- core
+- canon-group/tech-ai
+- canon/model
+- kernel/event
+- kernel/event-bus
+- kernel/messaging
+- kernel/state
+- kernel/causality
+- kernel/provenance
+- kernel/dependency
+- kernel/concurrency
+- kernel/idempotency
+- kernel/replay
+- kernel/validation
+- rscf/event
+- rscf/provenance
+- rscf/state/model
+- topic/event-driven-architecture
+- topic/event-routing
+- topic/causal-lineage
 aliases: "- AMOS Event Bus Kernel
   - Event Bus Kernel
   - K Event Bus

@@ -2,7 +2,10 @@
 title: "Index MOC — Domains / Ubi Bei Bioelectromagnetic / Index"
 type: moc
 source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC/00_INDEX
-tags: [moc, 00-index, canon/domain]
+tags:
+- moc
+- 00-index
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

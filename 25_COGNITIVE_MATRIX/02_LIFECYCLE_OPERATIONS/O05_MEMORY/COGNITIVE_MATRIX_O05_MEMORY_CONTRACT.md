@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX O05 MEMORY CONTRACT
 type: memory
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
-tags: [cognitive_matrix, lifecycle_operations, o05_memory, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- lifecycle_operations
+- o05_memory
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

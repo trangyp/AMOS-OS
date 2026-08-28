@@ -1,6 +1,10 @@
 ---
 title: MO TA KY THUAT VA CO SO VUOT TROI CUA HE THONG AMO
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

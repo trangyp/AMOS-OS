@@ -1,6 +1,10 @@
 ---
 title: AMOS BRAIN ANALYSIS REPORT
-tags: [brain, cognitive, neural, canon/knowledge]
+tags:
+- brain
+- cognitive
+- neural
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/brain
 rscf:

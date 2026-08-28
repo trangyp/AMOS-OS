@@ -1,6 +1,13 @@
 ---
 title: AMOS SYSTEMS CORE ENGINE V0 SYSTEMS4 2
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-systems-core-engine-v0, engine]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-systems-core-engine-v0
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

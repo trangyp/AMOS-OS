@@ -5,7 +5,23 @@ origin: "Google Drive — new troy/Troy/Living_Stack.pdf + Living_State_Monetisa
 origin_architect: "Trang Phan"
 type: research-paper
 source: 11_KNOWLEDGE/cognitive
-tags: [troy, living-stack, cognitive-reef, signal-driven, role-adaptive, RATPAK, NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX, intent-continuity, drift-detection, state-monetisation, cognitive, canon/knowledge]
+tags:
+- troy
+- living-stack
+- cognitive-reef
+- signal-driven
+- role-adaptive
+- RATPAK
+- NEUROPAK
+- HoloOrg
+- MyNeuralSignal
+- FAR-CAGE
+- ConsentX
+- intent-continuity
+- drift-detection
+- state-monetisation
+- cognitive
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

@@ -11,7 +11,14 @@ document_version: 1.0.0
 origin_architect: Trang Phan
 rscf_state: derived
 status: ACTIVE_MOC
-tags: [moc, amos_os, root, rscf, index, navigation, canon/root]
+tags:
+- moc
+- amos_os
+- root
+- rscf
+- index
+- navigation
+- canon/root
 title: RSCF Node Index
 rscf:
   state: SOURCE_CLAIM

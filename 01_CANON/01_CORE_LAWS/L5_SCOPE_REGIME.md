@@ -1,5 +1,15 @@
 ---
-tags: ['canon', 'core_laws', 'scope', 'regime', 'temporal', 'freshness', 'applicability', 'rscf', 'governance', canon/universe]
+tags:
+- canon
+- core_laws
+- scope
+- regime
+- temporal
+- freshness
+- applicability
+- rscf
+- governance
+- canon/universe
 title: "L5 Scope, Regime, and Temporal Laws"
 origin_architect: "Trang Phan"
 status: "AMOS_MODEL"

@@ -1,6 +1,13 @@
 ---
 title: AMOS RISK COMPLIANCE ENGINE V0 ORG RISK POLICY7 2
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-risk-compliance-engine-v0, engine]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-risk-compliance-engine-v0
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

@@ -2,7 +2,10 @@
 title: FINANCE DOMAINS FINANCE CONTRACT
 type: finance
 source: 21_DOMAINS/09_FINANCE/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

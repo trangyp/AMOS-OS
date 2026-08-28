@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Grpo Reasoning Policy Rscf"
 type: reference
 source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf/references
-tags: [reference, arxiv-grpo-reasoning-policy-rscf, canon/skill]
+tags:
+- reference
+- arxiv-grpo-reasoning-policy-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,10 @@
 ---
 title: TRANG REALITY ARCHITECTURE
-tags: [trang, framework, reality, canon/knowledge]
+tags:
+- trang
+- framework
+- reality
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:

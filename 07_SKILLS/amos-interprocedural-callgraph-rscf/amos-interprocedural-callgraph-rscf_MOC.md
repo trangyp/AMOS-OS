@@ -2,7 +2,10 @@
 title: "Amos-Interprocedural-Callgraph-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-interprocedural-callgraph-rscf
-tags: [moc, amos-interprocedural-callgraph-rscf, canon/skill]
+tags:
+- moc
+- amos-interprocedural-callgraph-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -16,7 +16,36 @@ origin_architect: Trang Phan
 steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, authority, governance, decision-rights, permissions, authorization, control-plane, commit, proposal, provenance, state, mvcc, cas, rscf, causal-lineage, recovery, security, canon-group/governance, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/authority-canon]
+tags:
+- amos
+- canon
+- universe
+- amos-os
+- amos-core
+- amos-core-v4-4
+- authority
+- governance
+- decision-rights
+- permissions
+- authorization
+- control-plane
+- commit
+- proposal
+- provenance
+- state
+- mvcc
+- cas
+- rscf
+- causal-lineage
+- recovery
+- security
+- canon-group/governance
+- canon/framework
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/authority-canon
 aliases: "- AMOS Authority Canon
   - Authority Canon
   - AMOS Decision Rights Canon

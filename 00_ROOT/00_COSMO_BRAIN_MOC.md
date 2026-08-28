@@ -2,7 +2,10 @@
 title: "00 Root MOC"
 type: moc
 source: 00_ROOT
-tags: [moc, 00-root, canon/root]
+tags:
+- moc
+- 00-root
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

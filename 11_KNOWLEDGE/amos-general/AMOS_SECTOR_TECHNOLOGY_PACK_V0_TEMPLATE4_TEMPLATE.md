@@ -1,6 +1,13 @@
 ---
 title: AMOS SECTOR TECHNOLOGY PACK V0 TEMPLATE4 TEMPLATE
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-sector-technology-pack-v0, amos-general]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-sector-technology-pack-v0
+- amos-general
 type: document
 source: 11_KNOWLEDGE/amos-general
 rscf:

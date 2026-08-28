@@ -2,7 +2,10 @@
 title: "01 Roles MOC"
 type: moc
 source: 23_OPERATING_MODEL/01_ROLES
-tags: [moc, 01-roles, canon/operating-model]
+tags:
+- moc
+- 01-roles
+- canon/operating-model
 rscf:
   state: DERIVED
   claim_class: DERIVED

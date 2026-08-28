@@ -2,7 +2,10 @@
 title: "Mckinsey-Value-Delivery-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-value-delivery-rscf
-tags: [moc, mckinsey-value-delivery-rscf, canon/skill]
+tags:
+- moc
+- mckinsey-value-delivery-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

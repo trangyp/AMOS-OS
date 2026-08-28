@@ -2,7 +2,10 @@
 title: "Amos-Source-Reading-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-source-reading-rscf
-tags: [moc, amos-source-reading-rscf, canon/skill]
+tags:
+- moc
+- amos-source-reading-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

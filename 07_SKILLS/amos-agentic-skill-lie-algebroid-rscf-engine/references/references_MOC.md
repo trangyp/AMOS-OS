@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Agentic Skill Lie Algebroid Rscf Engine"
 type: moc
 source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

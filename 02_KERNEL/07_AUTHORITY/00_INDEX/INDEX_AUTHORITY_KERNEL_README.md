@@ -2,7 +2,10 @@
 title: INDEX AUTHORITY KERNEL README
 type: index
 source: 02_KERNEL/07_AUTHORITY/00_INDEX
-tags: [amos_os, 02_kernel, canon/kernel]
+tags:
+- amos_os
+- 02_kernel
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,11 @@
 title: "GENERATOR OUTPUT"
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
-tags: [12_GENERATORS, cognitive_matrix, matrix, canon/cognitive-matrix]
+tags:
+- 12_GENERATORS
+- cognitive_matrix
+- matrix
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Reality Meta Law Auditor"
 type: reference
 source: 07_SKILLS/amos-reality-meta-law-auditor/references
-tags: [reference, amos-reality-meta-law-auditor, canon/skill]
+tags:
+- reference
+- amos-reality-meta-law-auditor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,13 @@
 ---
 title: REASONING KERNEL
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/reasoning-kernel, kernel]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/reasoning-kernel
+- kernel
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:

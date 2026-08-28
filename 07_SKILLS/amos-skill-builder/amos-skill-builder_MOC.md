@@ -2,7 +2,10 @@
 title: "Amos-Skill-Builder MOC"
 type: moc
 source: 07_SKILLS/amos-skill-builder
-tags: [moc, amos-skill-builder, canon/skill]
+tags:
+- moc
+- amos-skill-builder
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

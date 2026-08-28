@@ -2,7 +2,10 @@
 title: "29 Fabrication Design Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/29_FABRICATION_DESIGN_MODES
-tags: [moc, 29-fabrication-design-modes, canon/control-plane]
+tags:
+- moc
+- 29-fabrication-design-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

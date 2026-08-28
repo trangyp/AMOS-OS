@@ -2,7 +2,10 @@
 title: "K_CANON — Canon Invariant Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, canon, invariants]
+tags:
+- kernel
+- canon
+- invariants
 ---
 
 # K_CANON — Canon Invariant Kernel

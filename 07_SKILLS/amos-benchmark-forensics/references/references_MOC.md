@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Benchmark Forensics"
 type: moc
 source: 07_SKILLS/amos-benchmark-forensics/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

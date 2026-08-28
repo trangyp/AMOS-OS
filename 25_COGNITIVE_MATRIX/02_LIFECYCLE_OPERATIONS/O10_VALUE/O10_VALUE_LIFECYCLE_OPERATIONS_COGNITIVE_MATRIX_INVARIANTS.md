@@ -2,7 +2,10 @@
 title: O10 VALUE LIFECYCLE OPERATIONS COGNITIVE MATRIX INVARIANTS
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE
-tags: [note, o10-value, canon/cognitive-matrix]
+tags:
+- note
+- o10-value
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

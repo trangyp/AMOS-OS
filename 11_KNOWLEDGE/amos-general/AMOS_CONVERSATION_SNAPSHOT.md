@@ -1,6 +1,12 @@
 ---
 title: AMOS CONVERSATION SNAPSHOT
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/state/observation, topic/amos-conversation-snapshot, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/state/observation
+- topic/amos-conversation-snapshot
+- amos-general
 type: data
 source: 11_KNOWLEDGE/amos-general
 rscf:

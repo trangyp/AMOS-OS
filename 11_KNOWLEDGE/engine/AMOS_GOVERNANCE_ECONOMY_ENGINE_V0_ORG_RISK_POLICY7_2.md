@@ -1,6 +1,13 @@
 ---
 title: AMOS GOVERNANCE ECONOMY ENGINE V0 ORG RISK POLICY7 2
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-governance-economy-engine-v0, engine]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-governance-economy-engine-v0
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

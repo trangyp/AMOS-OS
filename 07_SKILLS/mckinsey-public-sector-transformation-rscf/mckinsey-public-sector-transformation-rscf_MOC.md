@@ -2,7 +2,10 @@
 title: "Mckinsey-Public-Sector-Transformation-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-public-sector-transformation-rscf
-tags: [moc, mckinsey-public-sector-transformation-rs, canon/skill]
+tags:
+- moc
+- mckinsey-public-sector-transformation-rs
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

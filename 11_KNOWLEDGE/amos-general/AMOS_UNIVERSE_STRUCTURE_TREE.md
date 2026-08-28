@@ -6,7 +6,13 @@ confidence: SOURCE
 created: 2026-08-23
 aliases: ["AMOS Universe Structure Tree", "UST canonical tree", "Universe Structure Tree"]
 source: "AMOS Universe Total Canon UTC Master File.md"
-tags: [universe, ust, canon, pointer, amos-general, canon/knowledge]
+tags:
+- universe
+- ust
+- canon
+- pointer
+- amos-general
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

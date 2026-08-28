@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Frontend Engineering Qa"
 type: reference
 source: 07_SKILLS/frontend-engineering-qa/references
-tags: [reference, frontend-engineering-qa, canon/skill]
+tags:
+- reference
+- frontend-engineering-qa
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

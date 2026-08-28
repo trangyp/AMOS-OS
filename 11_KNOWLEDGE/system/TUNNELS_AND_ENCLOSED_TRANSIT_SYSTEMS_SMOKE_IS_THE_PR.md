@@ -1,6 +1,10 @@
 ---
 title: TUNNELS AND ENCLOSED TRANSIT SYSTEMS SMOKE IS THE PR
-tags: [system, architecture, design, canon/knowledge]
+tags:
+- system
+- architecture
+- design
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/system
 rscf:

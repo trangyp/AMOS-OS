@@ -2,7 +2,10 @@
 title: C08 STRATEGY GAME DOMAINS C08 STRATEGY GAME CONTRACT
 type: strategy
 source: 21_DOMAINS/18_C08_STRATEGY_GAME/00_INDEX
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

@@ -20,7 +20,50 @@ steward: "Trang Phan"
 created: "2026-08-25"
 updated: "2026-08-25"
 scope: "see body"
-tags: [amos, amos_os, root, amos-os, naming, naming-standard, namespace, identity, artifact-identity, versioning, semantic-versioning, repository, filesystem, registry, canon, kernel, agents, skills, workflows, protocols, modes, memory, knowledge, state, models, tools, schemas, provenance, rscf, migration, rename, compatibility, lineage, governance, canon-group/tech-ai, canon/standard, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/naming-standard, topic/namespace-governance, topic/version-governance]
+tags:
+- amos
+- amos_os
+- root
+- amos-os
+- naming
+- naming-standard
+- namespace
+- identity
+- artifact-identity
+- versioning
+- semantic-versioning
+- repository
+- filesystem
+- registry
+- canon
+- kernel
+- agents
+- skills
+- workflows
+- protocols
+- modes
+- memory
+- knowledge
+- state
+- models
+- tools
+- schemas
+- provenance
+- rscf
+- migration
+- rename
+- compatibility
+- lineage
+- governance
+- canon-group/tech-ai
+- canon/standard
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/amos-os
+- topic/naming-standard
+- topic/namespace-governance
+- topic/version-governance
 aliases: "- AMOS Naming Standard
   - AMOS OS Naming Standard
   - AMOS Namespace Standard

@@ -1,6 +1,10 @@
 ---
 title: CAU TRA LOI NGAN CO SE LA MOT BUOC TIEN VI DAI VA
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

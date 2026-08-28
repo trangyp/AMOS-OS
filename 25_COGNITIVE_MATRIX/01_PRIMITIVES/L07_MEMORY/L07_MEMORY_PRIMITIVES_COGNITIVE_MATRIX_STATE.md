@@ -2,7 +2,10 @@
 title: L07 MEMORY PRIMITIVES COGNITIVE MATRIX STATE
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
-tags: [note, l07-memory, canon/cognitive-matrix]
+tags:
+- note
+- l07-memory
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

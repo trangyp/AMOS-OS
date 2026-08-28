@@ -2,7 +2,10 @@
 title: INDEX L14 VALUATION PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION/00_INDEX
-tags: [cognitive_matrix, l14_valuation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l14_valuation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Grapheval Reasoning Coherence Rscf"
 type: reference
 source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf/references
-tags: [reference, arxiv-grapheval-reasoning-coherence-rscf, canon/skill]
+tags:
+- reference
+- arxiv-grapheval-reasoning-coherence-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Tensor Train Sketching Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine/references
-tags: [reference, amos-tensor-train-sketching-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-tensor-train-sketching-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

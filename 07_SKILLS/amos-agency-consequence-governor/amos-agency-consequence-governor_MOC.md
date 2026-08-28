@@ -2,7 +2,10 @@
 title: "Amos-Agency-Consequence-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-agency-consequence-governor
-tags: [moc, amos-agency-consequence-governor, canon/skill]
+tags:
+- moc
+- amos-agency-consequence-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

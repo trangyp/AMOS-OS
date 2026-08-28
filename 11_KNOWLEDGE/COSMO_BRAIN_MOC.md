@@ -4,7 +4,15 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: moc
 source: 11_KNOWLEDGE
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/00-cosmo-brain-moc, moc, index]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/00-cosmo-brain-moc
+- moc
+- index
 status: "living"
 provenance: "MODEL"
 confidence: "DERIVED"

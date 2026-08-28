@@ -2,7 +2,10 @@
 title: "K_CORE_LAWS — Core Laws Dispatch Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, core_laws, dispatch]
+tags:
+- kernel
+- core_laws
+- dispatch
 ---
 
 # K_CORE_LAWS — Core Laws Dispatch Kernel

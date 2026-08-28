@@ -2,7 +2,10 @@
 title: L20 CREDIT ASSIGNMENT PRIMITIVES COGNITIVE MATRIX TESTS
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT
-tags: [note, l20-credit-assignment, canon/cognitive-matrix]
+tags:
+- note
+- l20-credit-assignment
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

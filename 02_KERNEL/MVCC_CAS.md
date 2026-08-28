@@ -2,7 +2,12 @@
 title: "MVCC_CAS — Concurrency & Atomic State Transition Specification"
 type: kernel_spec
 source: 02_KERNEL
-tags: [kernel, concurrency, mvcc, cas, atomic]
+tags:
+- kernel
+- concurrency
+- mvcc
+- cas
+- atomic
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE

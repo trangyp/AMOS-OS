@@ -2,7 +2,10 @@
 title: "17 Attention Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/17_ATTENTION_MODES
-tags: [moc, 17-attention-modes, canon/control-plane]
+tags:
+- moc
+- 17-attention-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

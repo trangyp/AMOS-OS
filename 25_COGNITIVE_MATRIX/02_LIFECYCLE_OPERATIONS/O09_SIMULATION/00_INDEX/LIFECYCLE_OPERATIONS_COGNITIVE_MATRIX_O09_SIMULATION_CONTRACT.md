@@ -2,7 +2,10 @@
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O09 SIMULATION CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION/00_INDEX
-tags: [cognitive_matrix, o09_simulation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o09_simulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

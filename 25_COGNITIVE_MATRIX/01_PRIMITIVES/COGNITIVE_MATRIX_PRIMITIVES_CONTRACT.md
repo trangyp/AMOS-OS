@@ -2,7 +2,10 @@
 title: COGNITIVE MATRIX PRIMITIVES CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES
-tags: [cognitive_matrix, cognitive_matrix_primitives_contract.md, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- cognitive_matrix_primitives_contract.md
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

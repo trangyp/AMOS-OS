@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L16 PLANNING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
-tags: [cognitive_matrix, primitives, l16_planning, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l16_planning
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

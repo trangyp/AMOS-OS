@@ -2,7 +2,10 @@
 title: TEMPORAL HORIZON MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/51_TEMPORAL_HORIZON_MODES
-tags: [control_plane, 51_temporal_horizon_modes, canon/control-plane]
+tags:
+- control_plane
+- 51_temporal_horizon_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

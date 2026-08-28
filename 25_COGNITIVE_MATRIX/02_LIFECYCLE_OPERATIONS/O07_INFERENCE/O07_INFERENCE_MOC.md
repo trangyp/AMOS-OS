@@ -2,7 +2,10 @@
 title: "O07 Inference MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
-tags: [moc, o07-inference, canon/cognitive-matrix]
+tags:
+- moc
+- o07-inference
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,11 @@
 title: CAPABILITY MANIFEST
 type: manifest
 source: 03_CONTROL_PLANE/02_CAPABILITY
-tags: [control_plane, capability, note, canon/control-plane]
+tags:
+- control_plane
+- capability
+- note
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

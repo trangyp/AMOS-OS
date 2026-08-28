@@ -2,7 +2,10 @@
 title: INDEX C03 EXECUTIVE CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C03_EXECUTIVE/00_INDEX
-tags: [cognitive_matrix, c03_executive, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c03_executive
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

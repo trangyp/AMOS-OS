@@ -2,7 +2,10 @@
 title: geometric causal spec
 type: reference
 source: 07_SKILLS/arxiv-geometric-causal-models-rscf/references
-tags: [reference, arxiv-geometric-causal-models-rscf, canon/skill]
+tags:
+- reference
+- arxiv-geometric-causal-models-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

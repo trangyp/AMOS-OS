@@ -2,7 +2,10 @@
 title: "12 State MOC"
 type: moc
 source: 12_STATE
-tags: [moc, 12-state, canon/state]
+tags:
+- moc
+- 12-state
+- canon/state
 rscf:
   state: DERIVED
   claim_class: DERIVED

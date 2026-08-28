@@ -2,7 +2,10 @@
 title: "08 Execution Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/08_EXECUTION_MODES
-tags: [moc, 08-execution-modes, canon/control-plane]
+tags:
+- moc
+- 08-execution-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

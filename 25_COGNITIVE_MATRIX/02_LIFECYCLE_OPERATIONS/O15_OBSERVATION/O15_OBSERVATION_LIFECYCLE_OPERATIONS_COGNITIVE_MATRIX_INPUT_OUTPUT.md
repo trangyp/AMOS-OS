@@ -2,7 +2,10 @@
 title: O15 OBSERVATION LIFECYCLE OPERATIONS COGNITIVE MATRIX INPUT OUTPUT
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION
-tags: [note, o15-observation, canon/cognitive-matrix]
+tags:
+- note
+- o15-observation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

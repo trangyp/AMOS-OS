@@ -1,6 +1,13 @@
 ---
 title: THE BIOLOGICAL SCIENCE BEHIND BUDDHAS TEACHINGS
-tags: [canon-group/biology, canon/narrative, rscf/claim, rscf/provenance, rscf/state/observation, topic/the-biological-science-behind-buddhas-te, logic]
+tags:
+- canon-group/biology
+- canon/narrative
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/the-biological-science-behind-buddhas-te
+- logic
 type: note
 source: 11_KNOWLEDGE/logic
 rscf:

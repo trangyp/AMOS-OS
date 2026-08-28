@@ -2,7 +2,11 @@
 title: COGNITIVE MATRIX MAP
 type: map
 source: 25_COGNITIVE_MATRIX/00_INDEX
-tags: [cognitive_matrix, matrix, cognition, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- matrix
+- cognition
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

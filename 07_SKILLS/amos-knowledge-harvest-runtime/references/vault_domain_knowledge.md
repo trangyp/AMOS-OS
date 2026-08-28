@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Knowledge Harvest Runtime"
 type: reference
 source: 07_SKILLS/amos-knowledge-harvest-runtime/references
-tags: [reference, amos-knowledge-harvest-runtime, canon/skill]
+tags:
+- reference
+- amos-knowledge-harvest-runtime
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

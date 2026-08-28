@@ -1,6 +1,13 @@
 ---
 title: AMOS TECH KERNEL EXPANSION
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-tech-kernel-expansion, kernel]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-tech-kernel-expansion
+- kernel
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:

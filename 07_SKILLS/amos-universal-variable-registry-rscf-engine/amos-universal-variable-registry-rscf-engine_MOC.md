@@ -2,7 +2,10 @@
 title: "Amos-Universal-Variable-Registry-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-universal-variable-registry-rscf-engine
-tags: [moc, amos-universal-variable-registry-rscf-en, canon/skill]
+tags:
+- moc
+- amos-universal-variable-registry-rscf-en
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

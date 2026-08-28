@@ -5,7 +5,20 @@ origin: "Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_Diagram
 origin_architect: "Trang Phan"
 type: comparison-reference
 source: 11_KNOWLEDGE/logic
-tags: [ubi, ai-comparison, neurobiological, neuroemotional, somatic, bioelectromagnetic, deterministic-vs-probabilistic, fascia, nervous-system, loop-mechanics, Buddhist-biology, logic, canon/knowledge]
+tags:
+- ubi
+- ai-comparison
+- neurobiological
+- neuroemotional
+- somatic
+- bioelectromagnetic
+- deterministic-vs-probabilistic
+- fascia
+- nervous-system
+- loop-mechanics
+- Buddhist-biology
+- logic
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

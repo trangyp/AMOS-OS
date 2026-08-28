@@ -1,6 +1,10 @@
 ---
 title: TOP TIER STRATEGIC PARTNERS LIST
-tags: [strategy, game, planning, canon/knowledge]
+tags:
+- strategy
+- game
+- planning
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/strategy
 rscf:

@@ -2,7 +2,10 @@
 title: "Index MOC — Operations / Index"
 type: moc
 source: 20_OPERATIONS/00_INDEX
-tags: [moc, 00-index, canon/operations]
+tags:
+- moc
+- 00-index
+- canon/operations
 rscf:
   state: DERIVED
   claim_class: DERIVED

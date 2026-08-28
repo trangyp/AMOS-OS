@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
 source: 11_KNOWLEDGE/kernel
-tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/reasoning-kernel-model, kernel]
+tags:
+- canon-group/human-system
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/reasoning-kernel-model
+- kernel
 status: "active"
 provenance: "Reasoning kernel.txt"
 confidence: "STRUCTURAL"

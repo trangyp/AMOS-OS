@@ -2,7 +2,10 @@
 title: DOMAINS DOMAIN ALIAS CONTRACT
 type: note
 source: 21_DOMAINS
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Sparse Attention Scaling Rscf"
 type: reference
 source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf/references
-tags: [reference, arxiv-sparse-attention-scaling-rscf, canon/skill]
+tags:
+- reference
+- arxiv-sparse-attention-scaling-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

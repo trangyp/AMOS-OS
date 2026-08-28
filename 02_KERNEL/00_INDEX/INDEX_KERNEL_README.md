@@ -15,7 +15,34 @@ scope: AMOS_OS
 authority_scope: kernel-plane-definition
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos-os, kernel, core, canon-group/tech-ai, canon/framework, kernel/readme, kernel/contracts, kernel/invariants, kernel/deterministic, kernel/rscf, kernel/hml, kernel/provenance, kernel/causal-lineage, kernel/epistemic-regime, kernel/dependency, kernel/persistence, kernel/concurrency, kernel/atomicity, kernel/finality, kernel/recovery, kernel/evolution, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/kernel, topic/kernel-architecture, topic/deterministic-logic]
+tags:
+- amos-os
+- kernel
+- core
+- canon-group/tech-ai
+- canon/framework
+- kernel/readme
+- kernel/contracts
+- kernel/invariants
+- kernel/deterministic
+- kernel/rscf
+- kernel/hml
+- kernel/provenance
+- kernel/causal-lineage
+- kernel/epistemic-regime
+- kernel/dependency
+- kernel/persistence
+- kernel/concurrency
+- kernel/atomicity
+- kernel/finality
+- kernel/recovery
+- kernel/evolution
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/kernel
+- topic/kernel-architecture
+- topic/deterministic-logic
 aliases: "- AMOS Kernel
   - AMOS OS Kernel
   - Kernel Plane..."

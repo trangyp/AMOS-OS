@@ -1,6 +1,10 @@
 ---
 title: CODING PROGRAMMING ARCHITECTURE
-tags: [tech-coding, tech, coding, canon/knowledge]
+tags:
+- tech-coding
+- tech
+- coding
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/tech-coding
 rscf:

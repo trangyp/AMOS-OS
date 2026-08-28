@@ -2,7 +2,10 @@
 title: "44 Ev Infrastructure MOC"
 type: moc
 source: 21_DOMAINS/44_EV_INFRASTRUCTURE
-tags: [moc, 44-ev-infrastructure, canon/domain]
+tags:
+- moc
+- 44-ev-infrastructure
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

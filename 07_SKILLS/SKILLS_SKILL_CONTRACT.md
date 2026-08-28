@@ -2,7 +2,10 @@
 title: SKILLS SKILL CONTRACT
 type: skill
 source: 07_SKILLS
-tags: [amos_os, 07_skills, canon/skill]
+tags:
+- amos_os
+- 07_skills
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

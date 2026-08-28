@@ -1,6 +1,10 @@
 ---
 title: 5 AI INTEGRATION LAYER UAI
-tags: [layers, layer, architecture, canon/knowledge]
+tags:
+- layers
+- layer
+- architecture
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/layers
 rscf:

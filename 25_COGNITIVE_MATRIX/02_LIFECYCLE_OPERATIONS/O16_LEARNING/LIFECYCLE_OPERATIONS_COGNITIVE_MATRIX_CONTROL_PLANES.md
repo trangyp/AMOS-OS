@@ -2,7 +2,10 @@
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX CONTROL PLANES
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O16_LEARNING
-tags: [note, o16-learning, canon/cognitive-matrix]
+tags:
+- note
+- o16-learning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

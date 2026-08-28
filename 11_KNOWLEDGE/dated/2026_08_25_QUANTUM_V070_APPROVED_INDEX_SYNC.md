@@ -1,6 +1,9 @@
 ---
 title: 2026 08 25 QUANTUM V070 APPROVED INDEX SYNC
-tags: [dated, dated/2026-08-25, canon/knowledge]
+tags:
+- dated
+- dated/2026-08-25
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/dated
 rscf:

@@ -2,7 +2,10 @@
 title: "Spreadsheets MOC"
 type: moc
 source: 07_SKILLS/spreadsheets
-tags: [moc, spreadsheets, canon/skill]
+tags:
+- moc
+- spreadsheets
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

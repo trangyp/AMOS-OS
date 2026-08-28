@@ -2,7 +2,10 @@
 title: amos agent memory dynamics rscf engine code
 type: reference
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references
-tags: [reference, amos-agent-memory-dynamics-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-agent-memory-dynamics-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

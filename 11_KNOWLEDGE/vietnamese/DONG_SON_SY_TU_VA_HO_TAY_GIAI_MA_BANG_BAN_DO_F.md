@@ -1,6 +1,10 @@
 ---
 title: DONG SON SY TU VA HO TAY GIAI MA BANG BAN DO F
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

@@ -2,7 +2,10 @@
 title: "Amos-Repository-Ast-Analysis-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-repository-ast-analysis-rscf
-tags: [moc, amos-repository-ast-analysis-rscf, canon/skill]
+tags:
+- moc
+- amos-repository-ast-analysis-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Amos-Ethics-Os-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-ethics-os-governor
-tags: [moc, amos-ethics-os-governor, canon/skill]
+tags:
+- moc
+- amos-ethics-os-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

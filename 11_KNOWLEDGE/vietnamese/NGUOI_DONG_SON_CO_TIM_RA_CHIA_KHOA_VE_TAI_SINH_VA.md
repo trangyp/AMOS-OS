@@ -1,6 +1,10 @@
 ---
 title: NGUOI DONG SON CO TIM RA CHIA KHOA VE TAI SINH VA
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

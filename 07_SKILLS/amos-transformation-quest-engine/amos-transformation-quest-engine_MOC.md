@@ -2,7 +2,10 @@
 title: "Amos-Transformation-Quest-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-transformation-quest-engine
-tags: [moc, amos-transformation-quest-engine, canon/skill]
+tags:
+- moc
+- amos-transformation-quest-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

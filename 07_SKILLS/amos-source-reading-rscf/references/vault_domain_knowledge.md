@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Source Reading Rscf"
 type: reference
 source: 07_SKILLS/amos-source-reading-rscf/references
-tags: [reference, amos-source-reading-rscf, canon/skill]
+tags:
+- reference
+- amos-source-reading-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

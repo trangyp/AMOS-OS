@@ -2,7 +2,10 @@
 title: "04 Cognition MOC"
 type: moc
 source: 05_COGNITIVE_ORGANISM/04_COGNITION
-tags: [moc, 04-cognition, canon/cognitive]
+tags:
+- moc
+- 04-cognition
+- canon/cognitive
 rscf:
   state: DERIVED
   claim_class: DERIVED

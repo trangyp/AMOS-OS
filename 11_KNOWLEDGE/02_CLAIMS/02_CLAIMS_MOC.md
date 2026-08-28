@@ -2,7 +2,10 @@
 title: "02 Claims MOC"
 type: moc
 source: 11_KNOWLEDGE/02_CLAIMS
-tags: [moc, 02-claims, canon/knowledge]
+tags:
+- moc
+- 02-claims
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

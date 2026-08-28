@@ -1,6 +1,10 @@
 ---
 title: WE DREAM OF MARS TO AVOID EARTH
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

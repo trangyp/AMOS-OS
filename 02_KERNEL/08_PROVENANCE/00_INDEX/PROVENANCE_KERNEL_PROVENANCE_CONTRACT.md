@@ -2,7 +2,10 @@
 title: PROVENANCE KERNEL PROVENANCE CONTRACT
 type: kernel
 source: 02_KERNEL/08_PROVENANCE/00_INDEX
-tags: [amos_os, 02_kernel, canon/kernel]
+tags:
+- amos_os
+- 02_kernel
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

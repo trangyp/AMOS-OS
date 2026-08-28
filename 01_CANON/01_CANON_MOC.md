@@ -2,7 +2,10 @@
 title: "01 Canon MOC"
 type: moc
 source: 01_CANON
-tags: [moc, 01-canon, canon/universe]
+tags:
+- moc
+- 01-canon
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

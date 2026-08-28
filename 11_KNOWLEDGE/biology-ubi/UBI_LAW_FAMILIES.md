@@ -1,6 +1,10 @@
 ---
 title: UBI LAW FAMILIES
-tags: [biology-ubi, biology, ubi, canon/knowledge]
+tags:
+- biology-ubi
+- biology
+- ubi
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/biology-ubi
 rscf:

@@ -2,7 +2,10 @@
 title: "README — References — Amos Law Stack Enforcement"
 type: note
 source: 07_SKILLS/amos-law-stack-enforcement/references
-tags: [skill_reference, index, canon/skill]
+tags:
+- skill_reference
+- index
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

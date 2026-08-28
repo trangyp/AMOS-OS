@@ -1,6 +1,10 @@
 ---
 title: HYDROGEN AS THE GOVERNANCE TEST
-tags: [governance, policy, authority, canon/knowledge]
+tags:
+- governance
+- policy
+- authority
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/governance
 rscf:

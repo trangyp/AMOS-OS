@@ -2,7 +2,10 @@
 title: "Index MOC — State / Index"
 type: moc
 source: 12_STATE/00_INDEX
-tags: [moc, 00-index, canon/state]
+tags:
+- moc
+- 00-index
+- canon/state
 rscf:
   state: DERIVED
   claim_class: DERIVED

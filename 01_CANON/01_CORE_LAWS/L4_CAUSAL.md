@@ -1,7 +1,16 @@
 ---
 type: note
 source: 01_CANON/01_CORE_LAWS
-tags: [canon, core_laws, causal, causality, dependency, provenance, rscf, governance, canon/universe]
+tags:
+- canon
+- core_laws
+- causal
+- causality
+- dependency
+- provenance
+- rscf
+- governance
+- canon/universe
 title: "L4 Causal Laws"
 origin_architect: "Trang Phan"
 status: "AMOS_MODEL"

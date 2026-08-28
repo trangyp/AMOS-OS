@@ -2,7 +2,10 @@
 title: "Amos-C11-Design-Language-Master MOC"
 type: moc
 source: 07_SKILLS/amos-c11-design-language-master
-tags: [moc, amos-c11-design-language-master, canon/skill]
+tags:
+- moc
+- amos-c11-design-language-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

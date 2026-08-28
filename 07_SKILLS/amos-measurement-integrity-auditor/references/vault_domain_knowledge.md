@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Measurement Integrity Auditor"
 type: reference
 source: 07_SKILLS/amos-measurement-integrity-auditor/references
-tags: [reference, amos-measurement-integrity-auditor, canon/skill]
+tags:
+- reference
+- amos-measurement-integrity-auditor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

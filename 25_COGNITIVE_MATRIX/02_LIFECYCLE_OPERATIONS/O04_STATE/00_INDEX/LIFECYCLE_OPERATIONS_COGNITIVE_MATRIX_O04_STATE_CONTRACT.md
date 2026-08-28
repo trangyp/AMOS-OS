@@ -2,7 +2,10 @@
 title: LIFECYCLE OPERATIONS COGNITIVE MATRIX O04 STATE CONTRACT
 type: lifecycle
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/00_INDEX
-tags: [cognitive_matrix, o04_state, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- o04_state
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

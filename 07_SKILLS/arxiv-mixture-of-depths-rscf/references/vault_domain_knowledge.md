@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Arxiv Mixture Of Depths Rscf"
 type: reference
 source: 07_SKILLS/arxiv-mixture-of-depths-rscf/references
-tags: [reference, arxiv-mixture-of-depths-rscf, canon/skill]
+tags:
+- reference
+- arxiv-mixture-of-depths-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

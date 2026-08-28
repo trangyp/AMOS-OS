@@ -2,7 +2,10 @@
 title: "Amos-Security-Safety-Master MOC"
 type: moc
 source: 07_SKILLS/amos-security-safety-master
-tags: [moc, amos-security-safety-master, canon/skill]
+tags:
+- moc
+- amos-security-safety-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

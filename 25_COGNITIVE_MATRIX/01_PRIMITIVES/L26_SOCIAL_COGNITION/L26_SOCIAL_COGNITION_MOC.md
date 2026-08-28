@@ -2,7 +2,10 @@
 title: "L26 Social Cognition MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION
-tags: [moc, l26-social-cognition, canon/cognitive-matrix]
+tags:
+- moc
+- l26-social-cognition
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

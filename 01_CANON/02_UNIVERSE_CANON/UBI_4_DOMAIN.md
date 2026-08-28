@@ -2,7 +2,10 @@
 title: "UBI 4-Domain Architecture (Redirect)"
 type: redirect
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [ubi, redirect, bio]
+tags:
+- ubi
+- redirect
+- bio
 ---
 
 # UBI 4-Domain Architecture

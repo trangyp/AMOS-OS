@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Fx State Space Kalman Engine"
 type: reference
 source: 07_SKILLS/amos-fx-state-space-kalman-engine/references
-tags: [reference, amos-fx-state-space-kalman-engine, canon/skill]
+tags:
+- reference
+- amos-fx-state-space-kalman-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

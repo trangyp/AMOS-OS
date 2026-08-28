@@ -5,7 +5,15 @@ source: 11_KNOWLEDGE/dated
 status: active
 confidence: AMOS MODEL / DERIVED
 created: 2026-08-23
-tags: [vault, integrity, canon, wikilink-repair, 7-part-canon, dated, dated/2026-08-23, canon/knowledge]
+tags:
+- vault
+- integrity
+- canon
+- wikilink-repair
+- 7-part-canon
+- dated
+- dated/2026-08-23
+- canon/knowledge
 aliases: ["2026-08-23 Vault Integrity Pass"]
 rscf:
   state: SOURCE_CLAIM

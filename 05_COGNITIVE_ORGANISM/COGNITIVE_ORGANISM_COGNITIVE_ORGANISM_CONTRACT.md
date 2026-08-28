@@ -2,7 +2,10 @@
 title: COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT
 type: cognitive
 source: 05_COGNITIVE_ORGANISM
-tags: [amos_os, 05_cognitive_organism, canon/cognitive]
+tags:
+- amos_os
+- 05_cognitive_organism
+- canon/cognitive
 rscf:
   state: DERIVED
   claim_class: DERIVED

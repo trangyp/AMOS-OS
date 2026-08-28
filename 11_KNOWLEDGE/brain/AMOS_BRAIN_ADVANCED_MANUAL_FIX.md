@@ -1,6 +1,10 @@
 ---
 title: AMOS BRAIN ADVANCED MANUAL FIX
-tags: [brain, cognitive, neural, canon/knowledge]
+tags:
+- brain
+- cognitive
+- neural
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/brain
 rscf:

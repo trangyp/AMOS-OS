@@ -3,7 +3,14 @@ type: doc
 source: 11_KNOWLEDGE/universe-cosmos
 title: Bridge to Universe Total Canon.utc
 created: 2026-08-22
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/universe-total-canon-utc, universe-cosmos]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/universe-total-canon-utc
+- universe-cosmos
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

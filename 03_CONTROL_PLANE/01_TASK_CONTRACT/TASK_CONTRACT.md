@@ -2,7 +2,11 @@
 title: TASK CONTRACT
 type: task
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT
-tags: [control_plane, task_contract, contract, canon/control-plane]
+tags:
+- control_plane
+- task_contract
+- contract
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

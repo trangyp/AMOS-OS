@@ -2,7 +2,10 @@
 title: CAPABILITY CONTROL PLANE CAPABILITY CONTRACT
 type: control-plane
 source: 03_CONTROL_PLANE/02_CAPABILITY/00_INDEX
-tags: [control_plane, 00_index, canon/control-plane]
+tags:
+- control_plane
+- 00_index
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

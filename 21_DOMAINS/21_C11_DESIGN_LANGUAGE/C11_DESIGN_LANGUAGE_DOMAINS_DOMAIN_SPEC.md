@@ -2,7 +2,10 @@
 title: C11 DESIGN LANGUAGE DOMAINS DOMAIN SPEC
 type: design
 source: 21_DOMAINS/21_C11_DESIGN_LANGUAGE
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -14,7 +14,29 @@ plane: KERNEL
 kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
-tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-retrieval, kernel/context, kernel/provenance, kernel/dependency, kernel/conflict, kernel/epistemic-integrity, rscf/retrieval, rscf/memory, rscf/provenance, rscf/dependency, hml, topic/selective-retrieval, topic/dependency-closure, topic/freshness, topic/regime, topic/context-relevance, canon/kernel]
+tags:
+- amos-os
+- kernel
+- core
+- canon-group/tech-ai
+- kernel/memory
+- kernel/memory-retrieval
+- kernel/context
+- kernel/provenance
+- kernel/dependency
+- kernel/conflict
+- kernel/epistemic-integrity
+- rscf/retrieval
+- rscf/memory
+- rscf/provenance
+- rscf/dependency
+- hml
+- topic/selective-retrieval
+- topic/dependency-closure
+- topic/freshness
+- topic/regime
+- topic/context-relevance
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

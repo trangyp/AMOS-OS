@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Arxiv Quantum Arithmetic Cryptanalysis Rscf"
 type: reference
 source: 07_SKILLS/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf/references
-tags: [reference, amos-arxiv-quantum-arithmetic-cryptanalysis-rscf, canon/skill]
+tags:
+- reference
+- amos-arxiv-quantum-arithmetic-cryptanalysis-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

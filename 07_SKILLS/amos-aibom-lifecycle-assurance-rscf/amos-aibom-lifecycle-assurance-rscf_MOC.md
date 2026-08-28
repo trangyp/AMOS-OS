@@ -2,7 +2,10 @@
 title: "Amos-Aibom-Lifecycle-Assurance-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf
-tags: [moc, amos-aibom-lifecycle-assurance-rscf, canon/skill]
+tags:
+- moc
+- amos-aibom-lifecycle-assurance-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

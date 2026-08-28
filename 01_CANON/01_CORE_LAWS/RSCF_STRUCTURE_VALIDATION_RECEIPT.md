@@ -2,7 +2,11 @@
 title: "RSCF Structure Validation Receipt"
 type: receipt
 source: 01_CANON/01_CORE_LAWS
-tags: [receipt, validation, rscf, pass]
+tags:
+- receipt
+- validation
+- rscf
+- pass
 ---
 
 # RSCF Structure Validation Receipt

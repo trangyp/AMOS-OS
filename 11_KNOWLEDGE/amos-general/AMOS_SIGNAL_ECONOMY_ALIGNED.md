@@ -11,7 +11,32 @@ version: v1.0
 origin-architect: Trang Phan
 source-title: "The Signal Economy™"
 source-status: source-claim
-tags: [amos, general, architecture, signal-economy, human-first, biological-signal, consent, authority, provenance, translation, agent-orchestration, physical-action, governance, rscf/B-boundary, rscf/C-constraint, rscf/D-distinction, rscf/G-relation, rscf/M-memory, rscf/P-repair, rscf/S-state, rscf/T-topology, rscf/X-cross-scale, rscf/type-system, amos-general, canon/knowledge]
+tags:
+- amos
+- general
+- architecture
+- signal-economy
+- human-first
+- biological-signal
+- consent
+- authority
+- provenance
+- translation
+- agent-orchestration
+- physical-action
+- governance
+- rscf/B-boundary
+- rscf/C-constraint
+- rscf/D-distinction
+- rscf/G-relation
+- rscf/M-memory
+- rscf/P-repair
+- rscf/S-state
+- rscf/T-topology
+- rscf/X-cross-scale
+- rscf/type-system
+- amos-general
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

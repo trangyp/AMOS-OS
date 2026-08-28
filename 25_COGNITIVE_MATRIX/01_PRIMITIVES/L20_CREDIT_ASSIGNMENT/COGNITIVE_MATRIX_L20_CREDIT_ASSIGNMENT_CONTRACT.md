@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L20 CREDIT ASSIGNMENT CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT
-tags: [cognitive_matrix, primitives, l20_credit_assignment, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l20_credit_assignment
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

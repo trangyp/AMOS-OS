@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Prompt Domain Control Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine/references
-tags: [reference, amos-prompt-domain-control-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-prompt-domain-control-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

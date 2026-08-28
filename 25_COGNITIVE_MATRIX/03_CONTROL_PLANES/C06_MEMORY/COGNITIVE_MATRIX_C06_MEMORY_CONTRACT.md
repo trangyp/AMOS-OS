@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX C06 MEMORY CONTRACT
 type: memory
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
-tags: [cognitive_matrix, control_planes, c06_memory, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- control_planes
+- c06_memory
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

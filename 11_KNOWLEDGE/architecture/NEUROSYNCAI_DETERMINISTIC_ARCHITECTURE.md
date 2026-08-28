@@ -5,7 +5,18 @@ origin: "Google Drive — A_Deterministic_Architecture_for_HumanMachine_Alignmen
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/architecture
-tags: [canon-group/meta, canon/law, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/D-distinction, rscf/B-boundary, topic/deterministic-architecture, architecture]
+tags:
+- canon-group/meta
+- canon/law
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/T-topology
+- rscf/K-compression
+- rscf/D-distinction
+- rscf/B-boundary
+- topic/deterministic-architecture
+- architecture
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

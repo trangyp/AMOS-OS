@@ -2,7 +2,12 @@
 title: "K_CAS — Compare-And-Swap State Transition Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, cas, state_transition, atomicity, rscf]
+tags:
+- kernel
+- cas
+- state_transition
+- atomicity
+- rscf
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE

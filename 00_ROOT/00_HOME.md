@@ -4,7 +4,11 @@ type: note
 source: 00_ROOT
 canon-group: reference
 rscf-state: derived
-tags: [moc, index, home, canon/root]
+tags:
+- moc
+- index
+- home
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

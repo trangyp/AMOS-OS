@@ -1,6 +1,10 @@
 ---
 title: TU HO DEN DEN UNG THU BAN GIAO HUONG CUA SU TAI DI
-tags: [vietnamese, vietnam, regional, canon/knowledge]
+tags:
+- vietnamese
+- vietnam
+- regional
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/vietnamese
 rscf:

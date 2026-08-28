@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Scientific Closure Governor Rscf"
 type: reference
 source: 07_SKILLS/amos-scientific-closure-governor-rscf/references
-tags: [reference, amos-scientific-closure-governor-rscf, canon/skill]
+tags:
+- reference
+- amos-scientific-closure-governor-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,6 +1,13 @@
 ---
 title: AMOS TOOLCHAIN INTEGRATION KERNEL V0 MACHINE ARCHITECTURE4 2
-tags: [canon-group/biology, canon/protocol, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-toolchain-integration-kernel-v0, kernel]
+tags:
+- canon-group/biology
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-toolchain-integration-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

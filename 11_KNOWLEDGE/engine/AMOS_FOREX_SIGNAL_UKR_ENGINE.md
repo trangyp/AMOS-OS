@@ -1,6 +1,10 @@
 ---
 title: AMOS FOREX SIGNAL UKR ENGINE
-tags: [engine, processing, runtime, canon/knowledge]
+tags:
+- engine
+- processing
+- runtime
+- canon/knowledge
 type: note
 source: 11_KNOWLEDGE/engine
 rscf:

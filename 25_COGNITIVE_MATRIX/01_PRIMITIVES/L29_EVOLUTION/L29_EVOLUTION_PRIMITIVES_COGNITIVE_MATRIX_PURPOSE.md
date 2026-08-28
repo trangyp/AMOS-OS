@@ -2,7 +2,10 @@
 title: L29 EVOLUTION PRIMITIVES COGNITIVE MATRIX PURPOSE
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L29_EVOLUTION
-tags: [note, l29-evolution, canon/cognitive-matrix]
+tags:
+- note
+- l29-evolution
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

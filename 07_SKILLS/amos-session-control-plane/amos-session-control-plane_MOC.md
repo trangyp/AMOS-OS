@@ -2,7 +2,10 @@
 title: "Amos-Session-Control-Plane MOC"
 type: moc
 source: 07_SKILLS/amos-session-control-plane
-tags: [moc, amos-session-control-plane, canon/skill]
+tags:
+- moc
+- amos-session-control-plane
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

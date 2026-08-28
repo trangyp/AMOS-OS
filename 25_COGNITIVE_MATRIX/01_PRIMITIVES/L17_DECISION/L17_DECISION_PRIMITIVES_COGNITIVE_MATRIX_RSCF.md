@@ -2,7 +2,10 @@
 title: L17 DECISION PRIMITIVES COGNITIVE MATRIX RSCF
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
-tags: [note, l17-decision, canon/cognitive-matrix]
+tags:
+- note
+- l17-decision
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL

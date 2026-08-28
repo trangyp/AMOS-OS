@@ -9,7 +9,10 @@ executor: Hermes agent (ox-alpha)
 updated: 2026-08-26
 epistemic_class: DERIVED
 conclusion_class: PARTIAL
-tags: [note, 04-authority, canon/control-plane]
+tags:
+- note
+- 04-authority
+- canon/control-plane
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

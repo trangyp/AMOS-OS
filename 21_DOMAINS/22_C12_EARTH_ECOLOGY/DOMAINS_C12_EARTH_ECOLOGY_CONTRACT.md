@@ -2,7 +2,10 @@
 title: DOMAINS C12 EARTH ECOLOGY CONTRACT
 type: log
 source: 21_DOMAINS/22_C12_EARTH_ECOLOGY
-tags: [amos_os, 21_domains, canon/domain]
+tags:
+- amos_os
+- 21_domains
+- canon/domain
 rscf:
   state: DERIVED
   claim_class: DERIVED

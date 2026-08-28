@@ -2,7 +2,10 @@
 title: "Amos-Information-Theory-Master MOC"
 type: moc
 source: 07_SKILLS/amos-information-theory-master
-tags: [moc, amos-information-theory-master, canon/skill]
+tags:
+- moc
+- amos-information-theory-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

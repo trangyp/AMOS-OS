@@ -10,7 +10,10 @@ version: "MAX_DETAIL_v1"
 date: "2026-08-25"
 language: "vi"
 status: "SOURCE_PRESERVED__AMOS_MODEL_OVERLAY__EMPIRICAL_FIREWALL_ACTIVE"
-tags: [knowledge, note, canon/knowledge]
+tags:
+- knowledge
+- note
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

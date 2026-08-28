@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Goal Plan Action Alignment Rscf"
 type: moc
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

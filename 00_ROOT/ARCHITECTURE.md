@@ -5,7 +5,11 @@ source: 00_ROOT
 aliases:
 - ARCHITECTURE
 rscf-state: derived
-tags: [index, readme, moc, canon/root]
+tags:
+- index
+- readme
+- moc
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

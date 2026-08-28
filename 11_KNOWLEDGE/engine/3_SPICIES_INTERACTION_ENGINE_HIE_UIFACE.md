@@ -1,6 +1,13 @@
 ---
 title: 3 SPICIES INTERACTION ENGINE HIE UIFACE
-tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/3-spicies-interaction-engine-hie-uiface, engine]
+tags:
+- canon-group/tech-ai
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/3-spicies-interaction-engine-hie-uiface
+- engine
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:

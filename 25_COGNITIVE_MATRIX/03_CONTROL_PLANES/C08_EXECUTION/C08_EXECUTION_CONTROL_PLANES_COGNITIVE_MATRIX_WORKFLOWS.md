@@ -2,7 +2,10 @@
 title: C08 EXECUTION CONTROL PLANES COGNITIVE MATRIX WORKFLOWS
 type: note
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
-tags: [note, c08-execution, canon/cognitive-matrix]
+tags:
+- note
+- c08-execution
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

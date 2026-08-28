@@ -4,7 +4,16 @@ type: tensor
 source: 11_KNOWLEDGE
 canon-group: reference
 rscf-state: derived
-tags: [skill, knowledge, vault, cross-domain, tensor, composition, governor, rscf, canon/knowledge]
+tags:
+- skill
+- knowledge
+- vault
+- cross-domain
+- tensor
+- composition
+- governor
+- rscf
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

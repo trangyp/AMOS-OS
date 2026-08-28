@@ -2,7 +2,10 @@
 title: "10 Rscf MOC"
 type: moc
 source: 16_SCHEMAS/10_RSCF
-tags: [moc, 10-rscf, canon/schema]
+tags:
+- moc
+- 10-rscf
+- canon/schema
 rscf:
   state: DERIVED
   claim_class: DERIVED

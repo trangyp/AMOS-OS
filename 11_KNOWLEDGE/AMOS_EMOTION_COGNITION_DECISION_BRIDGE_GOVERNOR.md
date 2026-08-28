@@ -4,7 +4,19 @@ type: emotion
 source: 11_KNOWLEDGE
 canon-group: reference
 rscf-state: derived
-tags: [skill, knowledge, vault, cross-domain, emotion, cognition, decision, bridge, c05, c01, c10, canon/knowledge]
+tags:
+- skill
+- knowledge
+- vault
+- cross-domain
+- emotion
+- cognition
+- decision
+- bridge
+- c05
+- c01
+- c10
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

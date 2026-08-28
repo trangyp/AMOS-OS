@@ -2,7 +2,10 @@
 title: "Arxiv-Mixture-Of-Depths-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-mixture-of-depths-rscf
-tags: [moc, arxiv-mixture-of-depths-rscf, canon/skill]
+tags:
+- moc
+- arxiv-mixture-of-depths-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

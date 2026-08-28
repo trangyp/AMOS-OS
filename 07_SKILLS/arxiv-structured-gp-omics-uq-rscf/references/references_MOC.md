@@ -2,7 +2,10 @@
 title: "References MOC — References — Arxiv Structured Gp Omics Uq Rscf"
 type: moc
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

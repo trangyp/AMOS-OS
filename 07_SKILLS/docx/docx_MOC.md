@@ -2,7 +2,10 @@
 title: "Docx MOC"
 type: moc
 source: 07_SKILLS/docx
-tags: [moc, docx, canon/skill]
+tags:
+- moc
+- docx
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

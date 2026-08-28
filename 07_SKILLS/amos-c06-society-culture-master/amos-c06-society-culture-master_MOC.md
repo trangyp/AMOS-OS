@@ -2,7 +2,10 @@
 title: "Amos-C06-Society-Culture-Master MOC"
 type: moc
 source: 07_SKILLS/amos-c06-society-culture-master
-tags: [moc, amos-c06-society-culture-master, canon/skill]
+tags:
+- moc
+- amos-c06-society-culture-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

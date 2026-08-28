@@ -2,7 +2,10 @@
 title: brain 2026 ultimate enhancement
 type: reference
 source: 07_SKILLS/amos-os-runtime-master/references
-tags: [reference, amos-os-runtime-master, canon/skill]
+tags:
+- reference
+- amos-os-runtime-master
+- canon/skill
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

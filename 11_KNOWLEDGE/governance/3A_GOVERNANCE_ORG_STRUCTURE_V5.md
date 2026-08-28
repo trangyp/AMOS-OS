@@ -6,7 +6,14 @@ canon-group: human-system
 canon-type: framework
 rscf-state: source-claim
 topic: 3a-governance-org-structure-v5
-tags: [canon-group/tech-ai, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/3a-governance-org-structure-v5, governance]
+tags:
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/3a-governance-org-structure-v5
+- governance
 created: 2026-08-22
 rscf:
   state: CONDITIONAL

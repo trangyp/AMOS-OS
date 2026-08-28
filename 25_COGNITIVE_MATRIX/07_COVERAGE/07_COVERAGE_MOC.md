@@ -2,7 +2,10 @@
 title: "07 Coverage MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
-tags: [moc, 07-coverage, canon/cognitive-matrix]
+tags:
+- moc
+- 07-coverage
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

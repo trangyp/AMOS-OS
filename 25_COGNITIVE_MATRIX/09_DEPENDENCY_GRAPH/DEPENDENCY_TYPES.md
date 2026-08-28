@@ -2,7 +2,10 @@
 title: DEPENDENCY TYPES
 type: note
 source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH
-tags: [note, 09-dependency-graph, canon/cognitive-matrix]
+tags:
+- note
+- 09-dependency-graph
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

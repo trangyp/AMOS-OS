@@ -2,7 +2,10 @@
 title: "Amos-Time-Series-Conformal-Uq-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine
-tags: [moc, amos-time-series-conformal-uq-rscf-engin, canon/skill]
+tags:
+- moc
+- amos-time-series-conformal-uq-rscf-engin
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

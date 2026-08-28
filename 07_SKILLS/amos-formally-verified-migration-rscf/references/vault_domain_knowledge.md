@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Formally Verified Migration Rscf"
 type: reference
 source: 07_SKILLS/amos-formally-verified-migration-rscf/references
-tags: [reference, amos-formally-verified-migration-rscf, canon/skill]
+tags:
+- reference
+- amos-formally-verified-migration-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

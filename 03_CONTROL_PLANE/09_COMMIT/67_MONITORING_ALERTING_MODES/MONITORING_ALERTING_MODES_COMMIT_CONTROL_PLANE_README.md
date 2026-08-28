@@ -2,7 +2,10 @@
 title: MONITORING ALERTING MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/67_MONITORING_ALERTING_MODES
-tags: [control_plane, 67_monitoring_alerting_modes, canon/control-plane]
+tags:
+- control_plane
+- 67_monitoring_alerting_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

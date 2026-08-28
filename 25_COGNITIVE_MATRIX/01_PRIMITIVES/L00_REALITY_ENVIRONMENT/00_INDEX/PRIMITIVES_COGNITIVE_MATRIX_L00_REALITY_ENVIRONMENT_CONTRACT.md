@@ -2,7 +2,10 @@
 title: PRIMITIVES COGNITIVE MATRIX L00 REALITY ENVIRONMENT CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/00_INDEX
-tags: [cognitive_matrix, l00_reality_environment, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l00_reality_environment
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

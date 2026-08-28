@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Memory Conflict Governor"
 type: reference
 source: 07_SKILLS/amos-memory-conflict-governor/references
-tags: [reference, amos-memory-conflict-governor, canon/skill]
+tags:
+- reference
+- amos-memory-conflict-governor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

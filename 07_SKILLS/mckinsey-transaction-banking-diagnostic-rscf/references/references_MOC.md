@@ -2,7 +2,10 @@
 title: "References MOC — References — Mckinsey Transaction Banking Diagnostic Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-transaction-banking-diagnostic-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

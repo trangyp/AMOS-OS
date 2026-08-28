@@ -2,7 +2,10 @@
 title: DELEGATION ASSIGNMENT MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 type: delegation
 source: 03_CONTROL_PLANE/09_COMMIT/98_DELEGATION_ASSIGNMENT_MODES
-tags: [control_plane, 98_delegation_assignment_modes, canon/control-plane]
+tags:
+- control_plane
+- 98_delegation_assignment_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

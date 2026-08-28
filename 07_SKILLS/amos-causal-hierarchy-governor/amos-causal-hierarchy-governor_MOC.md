@@ -2,7 +2,10 @@
 title: "Amos-Causal-Hierarchy-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-causal-hierarchy-governor
-tags: [moc, amos-causal-hierarchy-governor, canon/skill]
+tags:
+- moc
+- amos-causal-hierarchy-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

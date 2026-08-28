@@ -2,7 +2,10 @@
 title: "H High Scale MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
-tags: [moc, h-high-scale, canon/cognitive-matrix]
+tags:
+- moc
+- h-high-scale
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

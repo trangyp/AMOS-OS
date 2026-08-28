@@ -2,7 +2,10 @@
 title: "Mckinsey-Digital-Bank-Value-Proposition-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-digital-bank-value-proposition-rscf
-tags: [moc, mckinsey-digital-bank-value-proposition-, canon/skill]
+tags:
+- moc
+- mckinsey-digital-bank-value-proposition-
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

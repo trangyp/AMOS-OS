@@ -2,7 +2,10 @@
 title: "Mckinsey-Enterprise-Data-Transformation-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf
-tags: [moc, mckinsey-enterprise-data-transformation-, canon/skill]
+tags:
+- moc
+- mckinsey-enterprise-data-transformation-
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

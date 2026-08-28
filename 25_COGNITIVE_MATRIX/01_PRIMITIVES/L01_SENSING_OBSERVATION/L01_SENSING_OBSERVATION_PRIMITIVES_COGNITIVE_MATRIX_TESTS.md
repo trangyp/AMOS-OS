@@ -2,7 +2,19 @@
 title: L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX TESTS
 type: test
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
-tags: [amos, cognitive-matrix, l01, sensing-observation, tests, validation, verification, rscf, provenance, hml, control-plane, canon/cognitive-matrix]
+tags:
+- amos
+- cognitive-matrix
+- l01
+- sensing-observation
+- tests
+- validation
+- verification
+- rscf
+- provenance
+- hml
+- control-plane
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

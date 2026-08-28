@@ -1,6 +1,10 @@
 ---
 title: 1 LACUNARITY TRONG BO NAO LA GI
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

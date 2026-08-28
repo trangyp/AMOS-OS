@@ -11,7 +11,15 @@ plane: "01_CANON"
 segment: "01_CANON/00_INDEX"
 artifact_kind: "FRAMEWORK"
 path: "01_CANON/00_INDEX/AMOS_ALL_FRAMEWORKS_CANON_HIERARCHY.md"
-tags: [amos_os, canon, universe, 01_canon, framework, canon_placeholder, rscf, canon/universe]
+tags:
+- amos_os
+- canon
+- universe
+- 01_canon
+- framework
+- canon_placeholder
+- rscf
+- canon/universe
 version: "0.1.0"
 updated: "2026-08-27"
 status: "PLACEHOLDER"

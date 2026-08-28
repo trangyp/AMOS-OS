@@ -4,7 +4,12 @@ type: rscf
 source: 00_ROOT
 canon-group: reference
 rscf-state: derived
-tags: [rscf, index, moc, nodes, canon/root]
+tags:
+- rscf
+- index
+- moc
+- nodes
+- canon/root
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

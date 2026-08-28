@@ -2,7 +2,10 @@
 title: COMPETING MODELS RESEARCH COMPETING MODELS CONTRACT
 type: model
 source: 22_RESEARCH/03_COMPETING_MODELS/00_INDEX
-tags: [amos_os, 22_research, canon/research]
+tags:
+- amos_os
+- 22_research
+- canon/research
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

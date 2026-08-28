@@ -2,7 +2,10 @@
 title: "UST Structure Tree"
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
-tags: [ust, structure_tree, universe_canon]
+tags:
+- ust
+- structure_tree
+- universe_canon
 ---
 
 

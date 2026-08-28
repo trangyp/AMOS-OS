@@ -2,7 +2,10 @@
 title: "References MOC — References — Amos Canon Compiler"
 type: moc
 source: 07_SKILLS/amos-canon-compiler/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: CONTROL PLANE DEPRECATION SUPERSESSION
 type: supersession
 source: 03_CONTROL_PLANE/09_COMMIT/03_CODING
-tags: [control_plane, 03_coding, canon/control-plane]
+tags:
+- control_plane
+- 03_coding
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

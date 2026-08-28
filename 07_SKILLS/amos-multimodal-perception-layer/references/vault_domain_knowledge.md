@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Multimodal Perception Layer"
 type: reference
 source: 07_SKILLS/amos-multimodal-perception-layer/references
-tags: [reference, amos-multimodal-perception-layer, canon/skill]
+tags:
+- reference
+- amos-multimodal-perception-layer
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

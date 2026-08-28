@@ -5,7 +5,20 @@ origin: "Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.
 origin_architect: "Trang Phan"
 type: engine-spec
 source: 11_KNOWLEDGE/engine
-tags: [hse, human-systems-engine, Vietnam, 7-layers, 4-human-types, 7-system-cycles, 5-calculation-classes, 54-human-risks, 200-national-risks, predictive-rhythm, 1-36-month, engine, canon/knowledge]
+tags:
+- hse
+- human-systems-engine
+- Vietnam
+- 7-layers
+- 4-human-types
+- 7-system-cycles
+- 5-calculation-classes
+- 54-human-risks
+- 200-national-risks
+- predictive-rhythm
+- 1-36-month
+- engine
+- canon/knowledge
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

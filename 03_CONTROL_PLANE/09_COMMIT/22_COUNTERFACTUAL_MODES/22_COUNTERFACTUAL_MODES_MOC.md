@@ -2,7 +2,10 @@
 title: "22 Counterfactual Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/22_COUNTERFACTUAL_MODES
-tags: [moc, 22-counterfactual-modes, canon/control-plane]
+tags:
+- moc
+- 22-counterfactual-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

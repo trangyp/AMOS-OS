@@ -2,7 +2,10 @@
 title: MODE DEPENDENCY GRAPH
 type: dependency
 source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
-tags: [control_plane, 00_mode_index, canon/control-plane]
+tags:
+- control_plane
+- 00_mode_index
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

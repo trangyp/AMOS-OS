@@ -2,7 +2,10 @@
 title: INDEX C08 EXECUTION CONTROL PLANES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION/00_INDEX
-tags: [cognitive_matrix, c08_execution, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- c08_execution
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

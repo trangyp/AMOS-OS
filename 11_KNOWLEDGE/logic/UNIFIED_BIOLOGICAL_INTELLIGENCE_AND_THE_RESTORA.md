@@ -1,6 +1,10 @@
 ---
 title: UNIFIED BIOLOGICAL INTELLIGENCE AND THE RESTORA
-tags: [logic, reasoning, formal, canon/knowledge]
+tags:
+- logic
+- reasoning
+- formal
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/logic
 rscf:

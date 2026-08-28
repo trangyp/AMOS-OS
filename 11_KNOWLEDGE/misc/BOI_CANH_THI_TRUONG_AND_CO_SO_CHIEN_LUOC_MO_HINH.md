@@ -1,6 +1,10 @@
 ---
 title: BOI CANH THI TRUONG AND CO SO CHIEN LUOC MO HINH
-tags: [misc, reference, general, canon/knowledge]
+tags:
+- misc
+- reference
+- general
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/misc
 rscf:

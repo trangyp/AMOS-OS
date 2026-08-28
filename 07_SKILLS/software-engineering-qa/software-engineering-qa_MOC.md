@@ -2,7 +2,10 @@
 title: "Software-Engineering-Qa MOC"
 type: moc
 source: 07_SKILLS/software-engineering-qa
-tags: [moc, software-engineering-qa, canon/skill]
+tags:
+- moc
+- software-engineering-qa
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

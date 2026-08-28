@@ -2,7 +2,10 @@
 title: "C06 Memory MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
-tags: [moc, c06-memory, canon/cognitive-matrix]
+tags:
+- moc
+- c06-memory
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "07 Authority MOC"
 type: moc
 source: 02_KERNEL/07_AUTHORITY
-tags: [moc, 07-authority, canon/kernel]
+tags:
+- moc
+- 07-authority
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -17,7 +17,20 @@ authority_scope: identity-resolution
 version: 1.0.0
 created: 2026-08-25
 updated: 2026-08-25
-tags: [amos-os, canon, universe, canon-group/meta, canon/registry, canon/identity, canon/aliases, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/identity-resolution, topic/naming, topic/provenance]
+tags:
+- amos-os
+- canon
+- universe
+- canon-group/meta
+- canon/registry
+- canon/identity
+- canon/aliases
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/identity-resolution
+- topic/naming
+- topic/provenance
 aliases: "- AMOS Alias Registry
   - AMOS Identity Alias Registry
   - Canonical Alias Registry

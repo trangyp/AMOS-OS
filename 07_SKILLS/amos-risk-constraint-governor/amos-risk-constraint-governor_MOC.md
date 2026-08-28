@@ -2,7 +2,10 @@
 title: "Amos-Risk-Constraint-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-risk-constraint-governor
-tags: [moc, amos-risk-constraint-governor, canon/skill]
+tags:
+- moc
+- amos-risk-constraint-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "AGENT TEMPLATE — Amos C05 Mind Behavior Master"
 type: note
 source: 07_SKILLS/amos-c05-mind-behavior-master
-tags: [note, amos-c05-mind-behavior-master, canon/skill]
+tags:
+- note
+- amos-c05-mind-behavior-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

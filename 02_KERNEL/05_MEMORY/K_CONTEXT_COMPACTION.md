@@ -14,7 +14,26 @@ plane: KERNEL
 kernel_family: CONTEXT
 scope: AMOS_OS
 updated: 2026-08-26
-tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/context, kernel/context-compaction, kernel/provenance, kernel/dependency, kernel/epistemics, kernel/recovery, rscf/claim, rscf/provenance, topic/compaction, topic/context-window, topic/information-preservation, topic/dependency-closure, topic/lossy-compression, topic/retrieval, canon/kernel]
+tags:
+- amos-os
+- kernel
+- core
+- canon-group/tech-ai
+- kernel/context
+- kernel/context-compaction
+- kernel/provenance
+- kernel/dependency
+- kernel/epistemics
+- kernel/recovery
+- rscf/claim
+- rscf/provenance
+- topic/compaction
+- topic/context-window
+- topic/information-preservation
+- topic/dependency-closure
+- topic/lossy-compression
+- topic/retrieval
+- canon/kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED

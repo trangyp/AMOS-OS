@@ -2,7 +2,10 @@
 title: "Amos-Cost-Aware-Test-Supervision-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-cost-aware-test-supervision-rscf
-tags: [moc, amos-cost-aware-test-supervision-rscf, canon/skill]
+tags:
+- moc
+- amos-cost-aware-test-supervision-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

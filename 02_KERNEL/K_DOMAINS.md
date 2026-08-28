@@ -2,7 +2,10 @@
 title: "K_DOMAINS — Domain Engine Routing Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, domains, routing]
+tags:
+- kernel
+- domains
+- routing
 ---
 
 # K_DOMAINS — Domain Engine Routing Kernel

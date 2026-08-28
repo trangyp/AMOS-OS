@@ -2,7 +2,10 @@
 title: "Amos-Consciousness-Candidate-Governor MOC"
 type: moc
 source: 07_SKILLS/amos-consciousness-candidate-governor
-tags: [moc, amos-consciousness-candidate-governor, canon/skill]
+tags:
+- moc
+- amos-consciousness-candidate-governor
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

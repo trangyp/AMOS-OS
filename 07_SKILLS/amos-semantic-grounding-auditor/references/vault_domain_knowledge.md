@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Semantic Grounding Auditor"
 type: reference
 source: 07_SKILLS/amos-semantic-grounding-auditor/references
-tags: [reference, amos-semantic-grounding-auditor, canon/skill]
+tags:
+- reference
+- amos-semantic-grounding-auditor
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

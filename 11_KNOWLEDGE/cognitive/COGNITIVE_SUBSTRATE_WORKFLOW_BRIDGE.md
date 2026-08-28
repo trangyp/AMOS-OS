@@ -4,7 +4,13 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Cognitive/*.json"
 origin_architect: "Trang Phan"
 type: reference
-tags: [canon-group/human-system, canon/framework, rscf/provenance, rscf/state/observation, topic/amos-cognitive-stack-engines, cognitive]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-cognitive-stack-engines
+- cognitive
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

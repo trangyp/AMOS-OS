@@ -2,7 +2,10 @@
 title: "K_AUTHORITY — Authority Envelope Kernel"
 type: kernel
 source: 02_KERNEL
-tags: [kernel, authority, envelopes]
+tags:
+- kernel
+- authority
+- envelopes
 ---
 
 # K_AUTHORITY — Authority Envelope Kernel

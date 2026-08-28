@@ -6,7 +6,17 @@ created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Legal_Kernel_v0.json (433 lines, 15KB)"
 origin_type: "SOURCE"
 category: "kernel"
-tags: [amos, legal, kernel, v-infinity, 25-axes, 24-dimensions, tensor, routing, governance, canon/knowledge]
+tags:
+- amos
+- legal
+- kernel
+- v-infinity
+- 25-axes
+- 24-dimensions
+- tensor
+- routing
+- governance
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

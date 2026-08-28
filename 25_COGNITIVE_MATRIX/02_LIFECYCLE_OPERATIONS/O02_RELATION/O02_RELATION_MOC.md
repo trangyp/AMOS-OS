@@ -2,7 +2,10 @@
 title: "O02 Relation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O02_RELATION
-tags: [moc, o02-relation, canon/cognitive-matrix]
+tags:
+- moc
+- o02-relation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

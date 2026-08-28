@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Enterprise Data Transformation Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf/references
-tags: [reference, mckinsey-enterprise-data-transformation-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-enterprise-data-transformation-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

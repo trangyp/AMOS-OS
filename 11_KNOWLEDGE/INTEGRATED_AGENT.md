@@ -22,7 +22,19 @@ topic: integratedagent
 aliases: "- AMOS Universal Rename Engine
   - AMOS Namespace Migration Engine
   - AMOS Deterministic Rename Eng..."
-tags: [canon-group/tech-ai, knowledge, vault, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/integratedagent, topic/rename-engine, topic/namespace-migration, topic/repository-migration, agents]
+tags:
+- canon-group/tech-ai
+- knowledge
+- vault
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/integratedagent
+- topic/rename-engine
+- topic/namespace-migration
+- topic/repository-migration
+- agents
 governing_law: "integrity > completeness > fluency > speed > token savings"
 rscf:
   state: SOURCE_CLAIM

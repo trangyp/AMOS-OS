@@ -2,7 +2,10 @@
 title: INDEX SCHEMAS SCHEMA CONTRACT
 type: index
 source: 16_SCHEMAS/00_INDEX
-tags: [amos_os, 16_schemas, canon/schema]
+tags:
+- amos_os
+- 16_schemas
+- canon/schema
 rscf:
   state: DERIVED
   claim_class: DERIVED

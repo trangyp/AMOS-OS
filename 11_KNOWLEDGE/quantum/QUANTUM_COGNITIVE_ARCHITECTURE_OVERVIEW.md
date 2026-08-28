@@ -7,7 +7,17 @@ type: architecture
 source: 11_KNOWLEDGE/quantum
 status: "validated"
 confidence: "STRUCTURAL"
-tags: [canon-group/tech-ai, architecture, cognitive-architecture, quantum-library, brain-model, MURK, vault, 7pt-canon, quantum, canon/knowledge]
+tags:
+- canon-group/tech-ai
+- architecture
+- cognitive-architecture
+- quantum-library
+- brain-model
+- MURK
+- vault
+- 7pt-canon
+- quantum
+- canon/knowledge
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

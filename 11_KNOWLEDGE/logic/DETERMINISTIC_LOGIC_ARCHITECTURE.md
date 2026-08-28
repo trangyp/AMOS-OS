@@ -1,6 +1,10 @@
 ---
 title: DETERMINISTIC LOGIC ARCHITECTURE
-tags: [logic, reasoning, formal, canon/knowledge]
+tags:
+- logic
+- reasoning
+- formal
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/logic
 rscf:

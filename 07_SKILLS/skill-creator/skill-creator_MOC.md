@@ -2,7 +2,10 @@
 title: "Skill-Creator MOC"
 type: moc
 source: 07_SKILLS/skill-creator
-tags: [moc, skill-creator, canon/skill]
+tags:
+- moc
+- skill-creator
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

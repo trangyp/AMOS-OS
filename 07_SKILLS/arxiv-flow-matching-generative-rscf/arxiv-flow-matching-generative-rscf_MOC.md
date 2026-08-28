@@ -2,7 +2,10 @@
 title: "Arxiv-Flow-Matching-Generative-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-flow-matching-generative-rscf
-tags: [moc, arxiv-flow-matching-generative-rscf, canon/skill]
+tags:
+- moc
+- arxiv-flow-matching-generative-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

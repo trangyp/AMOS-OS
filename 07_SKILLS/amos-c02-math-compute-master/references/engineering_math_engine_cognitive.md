@@ -2,7 +2,10 @@
 title: engineering math engine cognitive
 type: reference
 source: 07_SKILLS/amos-c02-math-compute-master/references
-tags: [reference, amos-c02-math-compute-master, canon/skill]
+tags:
+- reference
+- amos-c02-math-compute-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

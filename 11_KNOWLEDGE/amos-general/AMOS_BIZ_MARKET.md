@@ -1,6 +1,13 @@
 ---
 title: AMOS BIZ MARKET
-tags: [canon-group/tech-ai, canon/protocol, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-ev-kernel-v0, amos-general]
+tags:
+- canon-group/tech-ai
+- canon/protocol
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-ev-kernel-v0
+- amos-general
 type: data
 source: 11_KNOWLEDGE/amos-general
 rscf:

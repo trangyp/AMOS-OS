@@ -2,7 +2,10 @@
 title: qfm five layer architecture
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
-tags: [reference, amos-formal-engines-master, canon/skill]
+tags:
+- reference
+- amos-formal-engines-master
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

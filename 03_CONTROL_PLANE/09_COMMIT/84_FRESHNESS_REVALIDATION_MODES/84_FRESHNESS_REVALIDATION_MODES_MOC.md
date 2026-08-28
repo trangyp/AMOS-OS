@@ -2,7 +2,10 @@
 title: "84 Freshness Revalidation Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/84_FRESHNESS_REVALIDATION_MODES
-tags: [moc, 84-freshness-revalidation-modes, canon/control-plane]
+tags:
+- moc
+- 84-freshness-revalidation-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

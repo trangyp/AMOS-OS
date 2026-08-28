@@ -2,7 +2,10 @@
 title: L22 CONSOLIDATION PRIMITIVES COGNITIVE MATRIX MEMORY
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION
-tags: [note, l22-consolidation, canon/cognitive-matrix]
+tags:
+- note
+- l22-consolidation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

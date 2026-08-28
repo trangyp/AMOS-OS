@@ -3,7 +3,14 @@ title: SCIENTIFIC ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
 aliases: [Scientific Engine Kernel, AMOS_Scientific_Engine]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/scientific-engine-model, engine]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/scientific-engine-model
+- engine
 rscf:
   state: AMOS_MODEL
   claim_class: CONDITIONAL

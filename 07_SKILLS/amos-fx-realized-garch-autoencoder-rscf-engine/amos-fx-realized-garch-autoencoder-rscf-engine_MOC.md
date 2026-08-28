@@ -2,7 +2,10 @@
 title: "Amos-Fx-Realized-Garch-Autoencoder-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-fx-realized-garch-autoencoder-rscf-engine
-tags: [moc, amos-fx-realized-garch-autoencoder-rscf-, canon/skill]
+tags:
+- moc
+- amos-fx-realized-garch-autoencoder-rscf-
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

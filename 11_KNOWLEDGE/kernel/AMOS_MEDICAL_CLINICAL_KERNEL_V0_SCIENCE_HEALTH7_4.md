@@ -1,6 +1,13 @@
 ---
 title: AMOS MEDICAL CLINICAL KERNEL V0 SCIENCE HEALTH7 4
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-medical-clinical-kernel-v0, kernel]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-medical-clinical-kernel-v0
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

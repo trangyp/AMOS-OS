@@ -3,7 +3,14 @@ title: AUTOMATION ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
 aliases: [Automation Engine, AMOS_Automation, Unified Automation OS]
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/automation-engine-model, engine]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/automation-engine-model
+- engine
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

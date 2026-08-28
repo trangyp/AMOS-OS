@@ -2,7 +2,10 @@
 title: "Index MOC — Memory / Index"
 type: moc
 source: 10_MEMORY/00_INDEX
-tags: [moc, 00-index, canon/memory]
+tags:
+- moc
+- 00-index
+- canon/memory
 rscf:
   state: DERIVED
   claim_class: DERIVED

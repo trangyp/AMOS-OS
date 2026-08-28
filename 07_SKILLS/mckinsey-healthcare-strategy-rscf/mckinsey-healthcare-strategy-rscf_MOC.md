@@ -2,7 +2,10 @@
 title: "Mckinsey-Healthcare-Strategy-Rscf MOC"
 type: moc
 source: 07_SKILLS/mckinsey-healthcare-strategy-rscf
-tags: [moc, mckinsey-healthcare-strategy-rscf, canon/skill]
+tags:
+- moc
+- mckinsey-healthcare-strategy-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

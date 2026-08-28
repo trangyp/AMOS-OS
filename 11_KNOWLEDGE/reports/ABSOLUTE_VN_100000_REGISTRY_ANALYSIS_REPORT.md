@@ -1,6 +1,10 @@
 ---
 title: ABSOLUTE VN 100000 REGISTRY ANALYSIS REPORT
-tags: [reports, report, analysis, canon/knowledge]
+tags:
+- reports
+- report
+- analysis
+- canon/knowledge
 type: data
 source: 11_KNOWLEDGE/reports
 rscf:

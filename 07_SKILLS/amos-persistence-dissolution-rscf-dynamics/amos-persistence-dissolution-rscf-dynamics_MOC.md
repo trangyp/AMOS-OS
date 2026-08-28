@@ -2,7 +2,10 @@
 title: "Amos-Persistence-Dissolution-Rscf-Dynamics MOC"
 type: moc
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics
-tags: [moc, amos-persistence-dissolution-rscf-dynami, canon/skill]
+tags:
+- moc
+- amos-persistence-dissolution-rscf-dynami
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

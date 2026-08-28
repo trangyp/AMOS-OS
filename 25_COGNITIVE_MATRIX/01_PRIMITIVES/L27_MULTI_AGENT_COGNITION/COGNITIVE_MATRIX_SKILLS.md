@@ -2,7 +2,10 @@
 title: COGNITIVE MATRIX SKILLS
 type: note
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION
-tags: [note, l27-multi-agent-cognition, canon/cognitive-matrix]
+tags:
+- note
+- l27-multi-agent-cognition
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

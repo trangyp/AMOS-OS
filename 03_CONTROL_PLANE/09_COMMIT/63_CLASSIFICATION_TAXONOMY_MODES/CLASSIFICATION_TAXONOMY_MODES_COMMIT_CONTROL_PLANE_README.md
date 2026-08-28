@@ -2,7 +2,10 @@
 title: CLASSIFICATION TAXONOMY MODES COMMIT CONTROL PLANE README
 type: control-plane
 source: 03_CONTROL_PLANE/09_COMMIT/63_CLASSIFICATION_TAXONOMY_MODES
-tags: [control_plane, 63_classification_taxonomy_modes, canon/control-plane]
+tags:
+- control_plane
+- 63_classification_taxonomy_modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

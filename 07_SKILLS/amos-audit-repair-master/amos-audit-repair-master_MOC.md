@@ -2,7 +2,10 @@
 title: "Amos-Audit-Repair-Master MOC"
 type: moc
 source: 07_SKILLS/amos-audit-repair-master
-tags: [moc, amos-audit-repair-master, canon/skill]
+tags:
+- moc
+- amos-audit-repair-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Cross Species Cognition Mapper"
 type: reference
 source: 07_SKILLS/amos-cross-species-cognition-mapper/references
-tags: [reference, amos-cross-species-cognition-mapper, canon/skill]
+tags:
+- reference
+- amos-cross-species-cognition-mapper
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

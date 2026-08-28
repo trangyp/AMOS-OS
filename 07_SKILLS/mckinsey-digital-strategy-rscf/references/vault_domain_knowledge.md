@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Digital Strategy Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-digital-strategy-rscf/references
-tags: [reference, mckinsey-digital-strategy-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-digital-strategy-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

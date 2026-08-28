@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Technology Company Strategy Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-technology-company-strategy-rscf/references
-tags: [reference, mckinsey-technology-company-strategy-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-technology-company-strategy-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

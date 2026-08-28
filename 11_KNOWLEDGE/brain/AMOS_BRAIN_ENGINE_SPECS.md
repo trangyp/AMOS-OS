@@ -5,7 +5,14 @@ origin: "Google Drive — _00_AMOS_CANON/Core/"
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/brain
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-brain-engine-specs, brain]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/amos-brain-engine-specs
+- brain
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

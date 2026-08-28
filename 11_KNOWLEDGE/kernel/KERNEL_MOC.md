@@ -2,7 +2,10 @@
 title: "Kernel MOC"
 type: moc
 source: 11_KNOWLEDGE/kernel
-tags: [moc, kernel, canon/knowledge]
+tags:
+- moc
+- kernel
+- canon/knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

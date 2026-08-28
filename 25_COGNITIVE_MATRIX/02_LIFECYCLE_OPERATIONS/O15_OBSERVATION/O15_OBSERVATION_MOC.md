@@ -2,7 +2,10 @@
 title: "O15 Observation MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION
-tags: [moc, o15-observation, canon/cognitive-matrix]
+tags:
+- moc
+- o15-observation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

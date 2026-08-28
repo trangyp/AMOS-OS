@@ -2,7 +2,10 @@
 title: "Index MOC — Cognitive Matrix / Primitives / L03 Percept Formation / Index"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/00_INDEX
-tags: [moc, 00-index, canon/cognitive-matrix]
+tags:
+- moc
+- 00-index
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

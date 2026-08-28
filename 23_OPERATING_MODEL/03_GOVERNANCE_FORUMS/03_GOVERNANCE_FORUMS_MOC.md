@@ -2,7 +2,10 @@
 title: "03 Governance Forums MOC"
 type: moc
 source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
-tags: [moc, 03-governance-forums, canon/operating-model]
+tags:
+- moc
+- 03-governance-forums
+- canon/operating-model
 rscf:
   state: DERIVED
   claim_class: DERIVED

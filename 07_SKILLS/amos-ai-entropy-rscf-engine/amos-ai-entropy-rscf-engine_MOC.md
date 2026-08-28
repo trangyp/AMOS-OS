@@ -2,7 +2,10 @@
 title: "Amos-Ai-Entropy-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-ai-entropy-rscf-engine
-tags: [moc, amos-ai-entropy-rscf-engine, canon/skill]
+tags:
+- moc
+- amos-ai-entropy-rscf-engine
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

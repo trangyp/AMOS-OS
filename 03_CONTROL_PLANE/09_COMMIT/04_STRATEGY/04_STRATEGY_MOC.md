@@ -2,7 +2,10 @@
 title: "04 Strategy MOC — 04 Strategy — 09 Commit / 04 Strategy"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/04_STRATEGY
-tags: [moc, 04-strategy, canon/control-plane]
+tags:
+- moc
+- 04-strategy
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

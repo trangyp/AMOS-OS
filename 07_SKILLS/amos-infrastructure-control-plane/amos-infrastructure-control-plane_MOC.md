@@ -2,7 +2,10 @@
 title: "Amos-Infrastructure-Control-Plane MOC"
 type: moc
 source: 07_SKILLS/amos-infrastructure-control-plane
-tags: [moc, amos-infrastructure-control-plane, canon/skill]
+tags:
+- moc
+- amos-infrastructure-control-plane
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

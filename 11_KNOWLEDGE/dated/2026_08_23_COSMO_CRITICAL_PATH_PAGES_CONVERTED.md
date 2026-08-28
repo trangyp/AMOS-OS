@@ -3,7 +3,15 @@ title: "2026-08-23 COSMO Critical Path Pages Converted"
 type: cosmos
 source: 11_KNOWLEDGE/dated
 date: 2026-08-23
-tags: [cosmo, implementation, web-app, critical-path, milestone, dated, dated/2026-08-23, canon/knowledge]
+tags:
+- cosmo
+- implementation
+- web-app
+- critical-path
+- milestone
+- dated
+- dated/2026-08-23
+- canon/knowledge
 provenance: "opencode session 2026-08-23"
 rscf:
   state: SOURCE_CLAIM

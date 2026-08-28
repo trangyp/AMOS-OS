@@ -1,6 +1,10 @@
 ---
 title: HUMANITY FROM THE ICE AGE TO THE PRESENT
-tags: [human, alignment, interaction, canon/knowledge]
+tags:
+- human
+- alignment
+- interaction
+- canon/knowledge
 type: document
 source: 11_KNOWLEDGE/human
 rscf:

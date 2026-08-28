@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Dependency Environment Reconstruction Rscf"
 type: reference
 source: 07_SKILLS/amos-dependency-environment-reconstruction-rscf/references
-tags: [reference, amos-dependency-environment-reconstruction-rscf, canon/skill]
+tags:
+- reference
+- amos-dependency-environment-reconstruction-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

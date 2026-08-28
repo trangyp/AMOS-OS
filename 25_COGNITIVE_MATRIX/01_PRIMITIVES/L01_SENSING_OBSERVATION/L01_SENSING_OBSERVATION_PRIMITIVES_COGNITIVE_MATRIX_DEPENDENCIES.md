@@ -2,7 +2,9 @@
 title: "L01 SENSING OBSERVATION PRIMITIVES COGNITIVE MATRIX DEPENDENCIES"
 type: dependency
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
-tags: [amos, canon/cognitive-matrix]
+tags:
+- amos
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

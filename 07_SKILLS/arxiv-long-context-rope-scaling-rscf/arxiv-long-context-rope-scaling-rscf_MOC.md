@@ -2,7 +2,10 @@
 title: "Arxiv-Long-Context-Rope-Scaling-Rscf MOC"
 type: moc
 source: 07_SKILLS/arxiv-long-context-rope-scaling-rscf
-tags: [moc, arxiv-long-context-rope-scaling-rscf, canon/skill]
+tags:
+- moc
+- arxiv-long-context-rope-scaling-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Reality Simulation Distinction"
 type: reference
 source: 07_SKILLS/amos-reality-simulation-distinction/references
-tags: [reference, amos-reality-simulation-distinction, canon/skill]
+tags:
+- reference
+- amos-reality-simulation-distinction
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

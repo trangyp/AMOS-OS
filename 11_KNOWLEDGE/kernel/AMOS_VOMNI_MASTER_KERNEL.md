@@ -5,7 +5,19 @@ origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_vOmni_KERNEL_v0.json"
 origin_architect: "Trang Phan"
 type: reference
 source: 11_KNOWLEDGE/kernel
-tags: [canon-group/tech-ai, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/T-topology, rscf/K-compression, rscf/G-relation, rscf/mu-mutation, rscf/X-crossscale, topic/vomni-kernel-model, kernel]
+tags:
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/T-topology
+- rscf/K-compression
+- rscf/G-relation
+- rscf/mu-mutation
+- rscf/X-crossscale
+- topic/vomni-kernel-model
+- kernel
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

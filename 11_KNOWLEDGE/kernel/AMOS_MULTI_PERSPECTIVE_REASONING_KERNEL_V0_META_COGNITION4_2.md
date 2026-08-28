@@ -1,6 +1,13 @@
 ---
 title: AMOS MULTI PERSPECTIVE REASONING KERNEL V0 META COGNITION4 2
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-multi-perspective-reasoning-kernel-, kernel]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-multi-perspective-reasoning-kernel-
+- kernel
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:

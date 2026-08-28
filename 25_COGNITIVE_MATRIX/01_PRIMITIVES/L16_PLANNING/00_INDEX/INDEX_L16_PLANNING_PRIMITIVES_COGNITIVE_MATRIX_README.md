@@ -2,7 +2,10 @@
 title: INDEX L16 PLANNING PRIMITIVES COGNITIVE MATRIX README
 type: index
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/00_INDEX
-tags: [cognitive_matrix, l16_planning, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l16_planning
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

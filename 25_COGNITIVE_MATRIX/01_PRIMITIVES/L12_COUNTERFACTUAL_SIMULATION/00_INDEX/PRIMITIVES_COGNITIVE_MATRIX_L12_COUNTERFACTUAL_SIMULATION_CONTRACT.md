@@ -2,7 +2,10 @@
 title: PRIMITIVES COGNITIVE MATRIX L12 COUNTERFACTUAL SIMULATION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION/00_INDEX
-tags: [cognitive_matrix, l12_counterfactual_simulation, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l12_counterfactual_simulation
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

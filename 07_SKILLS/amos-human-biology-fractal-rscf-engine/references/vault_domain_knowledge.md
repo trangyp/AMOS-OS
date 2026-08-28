@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Human Biology Fractal Rscf Engine"
 type: reference
 source: 07_SKILLS/amos-human-biology-fractal-rscf-engine/references
-tags: [reference, amos-human-biology-fractal-rscf-engine, canon/skill]
+tags:
+- reference
+- amos-human-biology-fractal-rscf-engine
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -2,7 +2,10 @@
 title: "Amos-Human-State-Ontology-Mapper MOC"
 type: moc
 source: 07_SKILLS/amos-human-state-ontology-mapper
-tags: [moc, amos-human-state-ontology-mapper, canon/skill]
+tags:
+- moc
+- amos-human-state-ontology-mapper
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

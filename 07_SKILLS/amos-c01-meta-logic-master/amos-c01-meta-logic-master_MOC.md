@@ -2,7 +2,10 @@
 title: "Amos-C01-Meta-Logic-Master MOC"
 type: moc
 source: 07_SKILLS/amos-c01-meta-logic-master
-tags: [moc, amos-c01-meta-logic-master, canon/skill]
+tags:
+- moc
+- amos-c01-meta-logic-master
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

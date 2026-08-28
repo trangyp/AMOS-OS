@@ -2,7 +2,10 @@
 title: "References MOC — References — Mckinsey Architecture Reference Transfer Rscf"
 type: moc
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references
-tags: [moc, references, canon/skill]
+tags:
+- moc
+- references
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

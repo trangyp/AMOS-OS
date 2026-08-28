@@ -5,7 +5,13 @@ source: 06_AGENTS
 claim_class: AMOS_MODEL
 origin_architect: Trang Phan
 status: COMPLETE
-tags: [agent-fix, agent, automation, reasoning-brain, worklog, canon/agent]
+tags:
+- agent-fix
+- agent
+- automation
+- reasoning-brain
+- worklog
+- canon/agent
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -2,7 +2,12 @@
 title: DEPENDENCY GRAPH COGNITIVE MATRIX README
 type: dependency
 source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH
-tags: [cognitive_matrix, dependency_graph, readme, contract_filled, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- dependency_graph
+- readme
+- contract_filled
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

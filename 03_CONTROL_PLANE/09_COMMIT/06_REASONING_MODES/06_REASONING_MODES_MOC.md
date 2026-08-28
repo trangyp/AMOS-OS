@@ -2,7 +2,10 @@
 title: "06 Reasoning Modes MOC"
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES
-tags: [moc, 06-reasoning-modes, canon/control-plane]
+tags:
+- moc
+- 06-reasoning-modes
+- canon/control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED

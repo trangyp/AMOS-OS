@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Mckinsey Credit Lending Rscf"
 type: reference
 source: 07_SKILLS/mckinsey-credit-lending-rscf/references
-tags: [reference, mckinsey-credit-lending-rscf, canon/skill]
+tags:
+- reference
+- mckinsey-credit-lending-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

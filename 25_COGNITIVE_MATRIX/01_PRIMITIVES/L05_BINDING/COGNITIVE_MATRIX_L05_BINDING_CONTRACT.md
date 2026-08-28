@@ -2,7 +2,12 @@
 title: COGNITIVE MATRIX L05 BINDING CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
-tags: [cognitive_matrix, primitives, l05_binding, contract, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- primitives
+- l05_binding
+- contract
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL

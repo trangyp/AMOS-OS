@@ -2,7 +2,10 @@
 title: PRIMITIVES COGNITIVE MATRIX L18 ACTION CONTRACT
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION/00_INDEX
-tags: [cognitive_matrix, l18_action, canon/cognitive-matrix]
+tags:
+- cognitive_matrix
+- l18_action
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

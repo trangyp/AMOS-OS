@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Arxiv Agent Memory Dynamics Rscf"
 type: reference
 source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf/references
-tags: [reference, amos-arxiv-agent-memory-dynamics-rscf, canon/skill]
+tags:
+- reference
+- amos-arxiv-agent-memory-dynamics-rscf
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

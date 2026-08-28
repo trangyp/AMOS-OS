@@ -2,7 +2,10 @@
 title: CELL AUTHORITY
 type: note
 source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS
-tags: [note, 06-cell-contracts, canon/cognitive-matrix]
+tags:
+- note
+- 06-cell-contracts
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

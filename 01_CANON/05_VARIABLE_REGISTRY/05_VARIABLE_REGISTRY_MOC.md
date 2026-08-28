@@ -2,7 +2,10 @@
 title: "05 Variable Registry MOC"
 type: moc
 source: 01_CANON/05_VARIABLE_REGISTRY
-tags: [moc, 05-variable-registry, canon/universe]
+tags:
+- moc
+- 05-variable-registry
+- canon/universe
 rscf:
   state: DERIVED
   claim_class: DERIVED

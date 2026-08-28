@@ -4,7 +4,14 @@ created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: brain-model
 source: 11_KNOWLEDGE/economy
-tags: [canon-group/human-system, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/extractive-economy-model, economy]
+tags:
+- canon-group/human-system
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- topic/extractive-economy-model
+- economy
 status: "active"
 provenance: "Extractive Economy.txt"
 confidence: "STRUCTURAL"

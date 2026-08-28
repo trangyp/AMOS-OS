@@ -1,6 +1,13 @@
 ---
 title: HSE ENGINE UNIPOWER4
-tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/hse-engine, engine]
+tags:
+- canon-group/human-system
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/observation
+- topic/hse-engine
+- engine
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

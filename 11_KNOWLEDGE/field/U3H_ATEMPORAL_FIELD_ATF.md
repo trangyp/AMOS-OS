@@ -5,7 +5,18 @@ origin: "Google Drive — _00_AMOS_CANON/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.txt
 origin_architect: "Trang Phan"
 type: canon-spec
 source: 11_KNOWLEDGE/field
-tags: [canon-group/meta, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, rscf/D-distinction, rscf/T-topology, rscf/B-boundary, rscf/X-crossscale, topic/atemporal-field, field]
+tags:
+- canon-group/meta
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- rscf/D-distinction
+- rscf/T-topology
+- rscf/B-boundary
+- rscf/X-crossscale
+- topic/atemporal-field
+- field
 status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"

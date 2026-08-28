@@ -2,7 +2,10 @@
 title: O01 OBJECT LIFECYCLE OPERATIONS COGNITIVE MATRIX HML
 type: note
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT
-tags: [note, o01-object, canon/cognitive-matrix]
+tags:
+- note
+- o01-object
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

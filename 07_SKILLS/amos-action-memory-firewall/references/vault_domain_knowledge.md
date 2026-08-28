@@ -2,7 +2,10 @@
 title: "Vault Domain Knowledge — Amos Action Memory Firewall"
 type: reference
 source: 07_SKILLS/amos-action-memory-firewall/references
-tags: [reference, amos-action-memory-firewall, canon/skill]
+tags:
+- reference
+- amos-action-memory-firewall
+- canon/skill
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

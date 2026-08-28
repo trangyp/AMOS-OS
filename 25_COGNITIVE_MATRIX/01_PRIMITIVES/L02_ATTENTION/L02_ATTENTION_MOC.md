@@ -2,7 +2,10 @@
 title: "L02 Attention MOC"
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
-tags: [moc, l02-attention, canon/cognitive-matrix]
+tags:
+- moc
+- l02-attention
+- canon/cognitive-matrix
 rscf:
   state: DERIVED
   claim_class: DERIVED

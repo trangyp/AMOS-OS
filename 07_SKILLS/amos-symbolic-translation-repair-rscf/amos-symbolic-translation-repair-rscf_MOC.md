@@ -2,7 +2,10 @@
 title: "Amos-Symbolic-Translation-Repair-Rscf MOC"
 type: moc
 source: 07_SKILLS/amos-symbolic-translation-repair-rscf
-tags: [moc, amos-symbolic-translation-repair-rscf, canon/skill]
+tags:
+- moc
+- amos-symbolic-translation-repair-rscf
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

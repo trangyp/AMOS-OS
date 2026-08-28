@@ -6,7 +6,14 @@ canon-group: biology
 canon-type: framework
 rscf-state: source-claim
 topic: amos-biology-and-cognition-engine-v0
-tags: [canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/amos-biology-and-cognition-engine-v0, engine]
+tags:
+- canon-group/biology
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-biology-and-cognition-engine-v0
+- engine
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL

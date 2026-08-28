@@ -2,7 +2,10 @@
 title: "Amos-Tensor-Accelerator-Activity-Rscf-Engine MOC"
 type: moc
 source: 07_SKILLS/amos-tensor-accelerator-activity-rscf-engine
-tags: [moc, amos-tensor-accelerator-activity-rscf-en, canon/skill]
+tags:
+- moc
+- amos-tensor-accelerator-activity-rscf-en
+- canon/skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
