@@ -57,8 +57,6 @@ This skill governs the execution of structural lifecycle modeling and predictive
 
 ---
 
-## 1. Core Mathematical Formulations
-
 ## Capabilities
 
 - **tss_state_tracking**: Track strategic lifecycle state vectors ($\Omega, H, F, S$)

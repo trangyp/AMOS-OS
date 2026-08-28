@@ -57,8 +57,6 @@ This skill governs high-dimensional quantum-analogous logical reasoning, multi-s
 
 ---
 
-## 1. Core Mathematical Primitives
-
 ## Capabilities
 
 - **qls_superposition**: Quantum Logic Superposition — evaluate multi-state logic branches simultaneously

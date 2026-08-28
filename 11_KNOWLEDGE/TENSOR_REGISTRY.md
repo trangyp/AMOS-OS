@@ -1,172 +1,155 @@
-The current Drive source confirms the seven registry contracts exactly as you supplied—`HARNESS`, `QUERY`, `EVIDENCE`, `CLAIM`, `RSCF`, `GOVERNANCE`, and `MEMORY`—but its metadata currently has only `tags: [tensor]`.  Below is a **filled, heavily tagged, source-preserving registry page**. The original field signatures are kept intact; added semantics are explicitly treated as AMOS-model normalization rather than invented empirical claims.
-
 ---
 title: TENSOR REGISTRY
-
 aliases:
-  - Tensor Registry
-  - AMOS Tensor Registry
-  - Typed Tensor Registry
-  - Knowledge Tensor Registry
-  - AMOS Typed Knowledge Registry
-
+- Tensor Registry
+- AMOS Tensor Registry
+- Typed Tensor Registry
+- Knowledge Tensor Registry
+- AMOS Typed Knowledge Registry
 tags:
-  - tensor
-  - tensors
-  - tensor-registry
-  - typed-tensor
-  - typed-tensors
-  - tensor-contract
-  - tensor-schema
-  - tensor-system
-  - multidimensional-knowledge
-  - semantic-typing
-  - semantic-axis
-  - typed-axis
-  - axis-contract
-  - knowledge
-  - knowledge-model
-  - knowledge-representation
-  - knowledge-architecture
-  - knowledge-governance
-  - knowledge-integrity
-  - epistemic
-  - epistemic-class
-  - conclusion-class
-  - evidence
-  - evidence-tensor
-  - evidence-lineage
-  - evidence-quality
-  - evidence-freshness
-  - provenance
-  - provenance-topology
-  - provenance-independence
-  - ancestry
-  - source
-  - source-claim
-  - observation
-  - derived
-  - model
-  - claim
-  - claim-tensor
-  - premises
-  - falsifier
-  - falsifiability
-  - competing-hypotheses
-  - confidence
-  - confidence-ceiling
-  - sensitivity
-  - causal-level
-  - causal-firewall
-  - scope
-  - scope-firewall
-  - regime
-  - regime-firewall
-  - temporal-validity
-  - freshness
-  - uncertainty
-  - uncertainty-vector
-  - consequence
-  - consequence-radius
-  - stakes
-  - irreversibility
-  - governance
-  - governance-tensor
-  - capability
-  - authority
-  - permission
-  - approval
-  - rollback
-  - reversibility
-  - mutation
-  - mutation-class
-  - memory
-  - memory-tensor
-  - memory-state
-  - contradiction
-  - retention
-  - revalidation
-  - rscf
-  - rscf-tensor
-  - hml
-  - fractal
-  - harness
-  - harness-tensor
-  - query
-  - query-tensor
-  - task
-  - artifact
-  - code-state
-  - execution-state
-  - test-state
-  - tool-state
-  - permission-state
-  - feedback-state
-  - versioning
-  - state
-  - status
-  - runtime
-  - validation
-  - auditability
-  - traceability
-  - integrity
-  - canon
-  - canon/knowledge
-  - vault
-  - amos
-  - amos-os
-
+- tensor
+- tensors
+- tensor-registry
+- typed-tensor
+- typed-tensors
+- tensor-contract
+- tensor-schema
+- tensor-system
+- multidimensional-knowledge
+- semantic-typing
+- semantic-axis
+- typed-axis
+- axis-contract
+- knowledge
+- knowledge-model
+- knowledge-representation
+- knowledge-architecture
+- knowledge-governance
+- knowledge-integrity
+- epistemic
+- epistemic-class
+- conclusion-class
+- evidence
+- evidence-tensor
+- evidence-lineage
+- evidence-quality
+- evidence-freshness
+- provenance
+- provenance-topology
+- provenance-independence
+- ancestry
+- source
+- source-claim
+- observation
+- derived
+- model
+- claim
+- claim-tensor
+- premises
+- falsifier
+- falsifiability
+- competing-hypotheses
+- confidence
+- confidence-ceiling
+- sensitivity
+- causal-level
+- causal-firewall
+- scope
+- scope-firewall
+- regime
+- regime-firewall
+- temporal-validity
+- freshness
+- uncertainty
+- uncertainty-vector
+- consequence
+- consequence-radius
+- stakes
+- irreversibility
+- governance
+- governance-tensor
+- capability
+- authority
+- permission
+- approval
+- rollback
+- reversibility
+- mutation
+- mutation-class
+- memory
+- memory-tensor
+- memory-state
+- contradiction
+- retention
+- revalidation
+- rscf
+- rscf-tensor
+- hml
+- fractal
+- harness
+- harness-tensor
+- query
+- query-tensor
+- task
+- artifact
+- code-state
+- execution-state
+- test-state
+- tool-state
+- permission-state
+- feedback-state
+- versioning
+- state
+- status
+- runtime
+- validation
+- auditability
+- traceability
+- integrity
+- canon
+- canon/knowledge
+- vault
+- amos
+- amos-os
 type: document
-
 source: 11_KNOWLEDGE/root
-
 path: 11_KNOWLEDGE/TENSOR_REGISTRY.md
-
 artifact_kind: TENSOR_REGISTRY
-
 system: AMOS_OS
-
 origin_architect: Trang_Phan
-
 status: ACTIVE_REFERENCE
-
 epistemic_status: AMOS_MODEL
-
 canonical_status: SOURCE_GROUNDED_REGISTRY
-
 implementation_status: CONCEPTUAL_SCHEMA
-
 runtime_enforcement: NOT_ESTABLISHED
-
 rscf:
-
   state: SOURCE_CLAIM
-
   claim_class: SOURCE_CLAIM
-
   provenance:
-    - AMOS_corpus
-    - 11_KNOWLEDGE/TENSOR_REGISTRY.md
-
+  - AMOS_corpus
+  - 11_KNOWLEDGE/TENSOR_REGISTRY.md
   scope:
-    - AMOS_knowledge
-    - tensor_registry
-    - typed_knowledge
-    - evidence
-    - claims
-    - reasoning
-    - governance
-    - memory
-    - execution_context
-
+  - AMOS_knowledge
+  - tensor_registry
+  - typed_knowledge
+  - evidence
+  - claims
+  - reasoning
+  - governance
+  - memory
+  - execution_context
   confidence_ceiling:
     registry_signatures: SOURCE_GROUNDED
     field_semantics: AMOS_MODEL
     runtime_implementation: NOT_ESTABLISHED
     empirical_universality: NOT_ESTABLISHED
-
 raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ---
+
+# TENSOR REGISTRY
+
+> **Note**: The current Drive source confirms the seven registry contracts exactly as you supplied—`HARNESS`, `QUERY`, `EVIDENCE`, `CLAIM`, `RSCF`, `GOVERNANCE`, and `MEMORY`—but its metadata currently has only `...
+
 
 # TENSOR REGISTRY
 

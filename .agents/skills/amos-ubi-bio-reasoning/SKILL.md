@@ -57,8 +57,6 @@ This skill governs the execution of biological intelligence constraints, living-
 
 ---
 
-## 1. Core Mathematical Primitives
-
 ## Capabilities
 
 - **nbi_assessment**: Neurobiological Intelligence — cognitive load assessment

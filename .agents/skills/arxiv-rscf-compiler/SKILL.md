@@ -61,8 +61,6 @@ This is **not** an extractive summarizer or text condenser. It is a **semantic k
 
 ---
 
-## Non-Negotiable Core Principle: Model-Side Semantic Intelligence
-
 ## Capabilities
 
 - **paper_normalization**: Transform arXiv papers into source-faithful AMOS_KNOWLEDGE_OBJECTs

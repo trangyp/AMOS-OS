@@ -209,6 +209,36 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
   - **Input**: Personality pattern inquiry
   - **Output**: Personality Engine v0 trait analysis (avoidance pattern as MODEL), behavioral recommendations with culture/timescale flags, no clinical diagnosis
 
+## Anti-Patterns
+
+- **Do not** diagnose clinical conditions — this is a modeling skill, not a clinical tool
+- **Do not** assert personality traits as fixed — use Personality Engine v0 with timescale flags
+- **Do not** collapse emotion, cognition, and behavior into one axis — they are distinct H-level domains
+- **Do not** apply group dynamics frameworks to individuals without individual-level data
+- **Do not** ignore cultural context — emotion expression and personality norms are culture-dependent
+
+## Composition
+
+- **With C04 Bio-Neuro**: UBI substrate distress veto feeds into emotion/cognition evaluation
+- **With C03 Physics-Cosmos**: Cross-domain bridge for coupled human-Earth behavior modeling
+- **With C12 Earth-Ecology**: Bidirectional bridge for ecological behavior patterns
+- **With C06 Society-Culture**: Cultural context for emotion/personality interpretation
+- **With C09 Org-Law-Policy**: Group dynamics feeding into governance and policy reasoning
+
+## Evaluation
+
+- **Epistemic class tagging**: All outputs tagged SOURCE_CLAIM, DERIVED, or AMOS_MODEL
+- **Confidence ceiling**: Personality/emotion models capped at AMOS_MODEL unless empirically validated
+- **Falsifiability**: Each hypothesis must have declared falsification conditions
+- **Cross-domain boundary**: Domain-specific claims must not leak across domain boundaries without explicit bridge typing
+
+## Error Handling
+
+- **Insufficient data**: Return UNKNOWN/GAP, do not fabricate personality assessments
+- **Domain boundary violation**: Flag and refuse cross-domain claims without bridge typing
+- **Clinical scope violation**: Refuse clinical diagnosis attempts, redirect to appropriate domain
+- **Cultural context missing**: Flag as context-dependent, do not assert universal norms
+
 ## References
 
 - **Vault source**: `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md` (vault canon, SOURCE_CLAIM)

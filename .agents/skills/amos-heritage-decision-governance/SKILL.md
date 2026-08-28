@@ -57,8 +57,6 @@ This skill governs the execution of multi-century ancestral decision intelligenc
 
 ---
 
-## 1. Core Principles & Governance Rules
-
 ## Capabilities
 
 - **ancestral_decision_evaluation**: 32-layer evaluation of decision intelligence across ancestral systems
