@@ -3,9 +3,9 @@ title: SKILL — Amos Execution Provenance Replay Rscf
 type: skill
 source: 07_SKILLS/amos-execution-provenance-replay-rscf
 name: amos-execution-provenance-replay-rscf
-description: Execution Provenance Replay — security and safety capability. Use when
-  security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master
-  routes to this specialized capability.
+description: Execution Provenance Replay — security and safety capability. Use when security analysis,
+  safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized
+  capability.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
@@ -14,21 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/security-safety
-- canon-group/tech-ai
-- topic/security
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/B-boundary
-- rscf/M-memory
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-execution-provenance-replay-rscf
-- capability/markdown_brain_adaptation
-- capability/historical_gap
-- capability/benchmark_boundary
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -58,6 +47,7 @@ law_compliance:
 - L18
 - L23
 ---
+
 
 
 

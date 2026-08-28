@@ -9,64 +9,40 @@ registry_type: canon_lineage_and_evidence_registry
 status: SOURCE_CLAIM
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 domain: canon
 scope: AMOS_OS
 authority_scope: canon-provenance-lineage-and-supersession
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, canon, universe, canon-group/meta, canon/provenance, canon/lineage, canon/supersession, canon/evidence, canon/registry, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/canon-provenance, topic/source-lineage, topic/provenance-topology, topic/version-lineage, topic/causal-lineage, topic/sybil-hardening, topic/persistent-provenance]
-
 aliases: "- AMOS Canon Provenance
   - Canon Provenance Registry
   - AMOS Canon Lineage Registry
   - Canon Sour..."---
-
-
 # AMOS OS Canon Provenance
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`  
 > **Authority:** canon provenance, lineage, ancestry, supersession, and evidence topology
-
 # 1. Purpose
-
 `CANON_PROVENANCE.md` defines the canonical provenance contract for AMOS OS canon.
-
 Its purpose is to preserve enough lineage to answer:
-
 ```text
 WHERE DID THIS CANON COME FROM?
-
 WHICH SOURCE ASSERTED IT?
-
 WHICH VERSION INTRODUCED IT?
-
 WHICH CLAIMS WERE DERIVED FROM IT?
-
 WHICH ARTIFACTS SHARE THE SAME ANCESTRY?
-
 WHICH EVIDENCE IS ACTUALLY INDEPENDENT?
-
 WHAT SUPERSEDES WHAT?
-
 WHAT REMAINS CURRENT?
-
 WHAT IS HISTORICAL?
-
 WHAT WOULD INVALIDATE THIS CLAIM?
-
 CAN THE CURRENT STATE BE RECONSTRUCTED?
 ```
-
 The governing principle is:
-
 ```text
 CANON
 WITHOUT

@@ -11,12 +11,9 @@ plane: "16_SCHEMAS"
 segment: "16_SCHEMAS/11_OBSERVABILITY"
 artifact_kind: "CANON"
 path: "16_SCHEMAS/11_OBSERVABILITY/canon_health.schema.md"
-
 tags: [amos_os, schema, specification, 16_schemas, canon, canon_placeholder, rscf, canon/schema]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

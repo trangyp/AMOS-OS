@@ -3,9 +3,8 @@ title: SKILL — Amos Source Reading Rscf
 type: skill
 source: 07_SKILLS/amos-source-reading-rscf
 name: amos-source-reading-rscf
-description: Source Reading — knowledge research capability. Use when knowledge management,
-  research, or Obsidian vault integration. Use when amos-knowledge-research-master
-  routes to this specialized capability.
+description: Source Reading — knowledge research capability. Use when knowledge management, research,
+  or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
@@ -14,19 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/knowledge-research
-- canon-group/tech-ai
-- topic/knowledge-management
-- rscf/epistemic
-- rscf/G-relation
-- rscf/M-memory
-- rscf/K-compression
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-source-reading-rscf
-- capability/search
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -51,6 +41,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

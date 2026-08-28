@@ -1,28 +1,16 @@
 ---
 title: "AMOS × QLS"
-
 type: note
-
 source: 25_COGNITIVE_MATRIX
-
 artifact: "AMOS_X_QLS.md"
-
 artifact_id: "amos_25_cognitive_matrix_amos_x_qls"
-
 origin_architect: "Trang Phan"
-
 steward: "Trang Phan"
-
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
-
 segment: "25_COGNITIVE_MATRIX"
-
 artifact_kind: "ARTIFACT"
-
 path: "25_COGNITIVE_MATRIX/AMOS_X_QLS.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -43,78 +31,48 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-
 version: "1.0.0"
-
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
-
 epistemic_class: "AMOS_MODEL"
-
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
-
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
-
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
-
   provenance:
     - AMOS_QLS_CORPUS
-
   scope:
     - AMOS_LOGIC_LAYER
     - COGNITIVE_MATRIX
     - SOURCE_DEFINED_QLS_MODEL
-
 framework_binding:
-
   primary:
     name: "Quantum Logic Scaffold™"
     acronym: "QLS"
     role: LOGICAL_STRUCTURE
-
   related:
     name: "Quantum Logic System™"
     acronym: "QLS-System"
     role: OPERATIONAL_LOGIC_ENVIRONMENT
-
 identity_rule:
-
   scaffold_system_relation:
     state: SOURCE_DEFINED_RELATION
-
   collapse_into_one_identity:
     authorized: false
-
   preserve_distinction: true
-
 epistemic_boundary:
-
   source_presence: VERIFIED_SOURCE_PRESENCE
-
   source_structure: VERIFIED_SOURCE_STRUCTURE
-
   mathematical_expressions: SOURCE_DEFINED_MODEL
-
   universal_validity: NOT_ESTABLISHED
-
   empirical_thresholds: NOT_ESTABLISHED
-
   deterministic_prediction: NOT_ESTABLISHED
-
   runtime_enforcement: NOT_ESTABLISHED
-
   theoremhood: NOT_ESTABLISHED
 ---
 

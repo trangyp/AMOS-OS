@@ -11,12 +11,9 @@ plane: "02_KERNEL"
 segment: "02_KERNEL/03_CAUSAL"
 artifact_kind: "ARTIFACT"
 path: "02_KERNEL/03_CAUSAL/K_QUANTUM_CAUSALITY.md"
-
 tags: [amos_os, kernel, core, 02_kernel, artifact, canon_placeholder, rscf, canon/kernel]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

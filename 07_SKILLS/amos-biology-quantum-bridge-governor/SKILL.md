@@ -3,14 +3,12 @@ title: SKILL — Amos Biology Quantum Bridge Governor
 type: skill
 source: 07_SKILLS/amos-biology-quantum-bridge-governor
 name: amos-biology-quantum-bridge-governor
-description: 'Biology-Quantum Bridge Governor — biology and neuroscience capability.
-  Bridges C04 biological/neurological systems with C03 quantum physics models. Creates
-  a governed translation layer that maps biological concepts to quantum-mechanical
-  analogues (and vice versa) while enforcing the critical anti-overclaim firewall:
-  quantum-biological mappings are MODEL/METAPHOR, never physical predictions. Enforces
-  the invariant that no AMOS decision may cite quantum entanglement of biological
-  systems as causal evidence. Use when bridging biological and quantum reasoning.
-  Use when amos-c04-bio-neuro-master routes to this specialized capability.'
+description: 'Biology-Quantum Bridge Governor — biology and neuroscience capability. Bridges C04 biological/neurological
+  systems with C03 quantum physics models. Creates a governed translation layer that maps biological concepts
+  to quantum-mechanical analogues (and vice versa) while enforcing the critical anti-overclaim firewall:
+  quantum-biological mappings are MODEL/METAPHOR, never physical predictions. Enforces the invariant that
+  no AMOS decision may cite quantum entanglement of biological systems as causal evidence. Use when bridging
+  biological and quantum reasoning. Use when amos-c04-bio-neuro-master routes to this specialized capability.'
 parent_skill: amos-c04-bio-neuro-master
 domain: cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos)
 origin_architect: Trang Phan
@@ -21,24 +19,11 @@ created: 2026-08-27
 tags:
 - type/skill
 - canon/skill
-- domain/bio-neuro
-- canon-group/biology
-- topic/neuroscience
-- capability/governance
-- capability/biology
-- capability/quantum
-- capability/prediction
-- capability/enforcement
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/B-boundary
-- rscf/G-relation
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-biology-quantum-bridge-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -66,6 +51,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

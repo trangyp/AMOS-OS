@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: engine_specification
-
 ---
 # AMOS LOGIC CORE ENGINE V0 LOGIC
 

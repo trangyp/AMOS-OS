@@ -5,22 +5,11 @@ source: 07_SKILLS/amos-law-stack-enforcement
 tags:
 - type/skill
 - canon/skill
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/stack
-- capability/lol_check
-- capability/canonical_order_enforcement
-- capability/gate_failure_flagging
-- capability/emergency_policy_rejection
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- domain/canon-universe
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-law-stack-enforcement
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -51,7 +40,14 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
+description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates
+  Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger
+  integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4
+  hierarchy, or when a draft law short-circuits canonical order. Use whenever the user mentions law stack,
+  enforcement, invariants, rule hierarchy, LoL, R2, R4, or scale-transition validation — even without
+  explicitly asking for 'law stack'.
 ---
+
 
 
 

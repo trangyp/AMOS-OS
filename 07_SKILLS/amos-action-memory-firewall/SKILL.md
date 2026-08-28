@@ -3,9 +3,8 @@ title: SKILL — Amos Action Memory Firewall
 type: skill
 source: 07_SKILLS/amos-action-memory-firewall
 name: amos-action-memory-firewall
-description: Action Memory Firewall — memory systems capability. Use when memory management,
-  context continuity, or memory conflict resolution. Use when amos-memory-systems-master
-  routes to this specialized capability.
+description: Action Memory Firewall — memory systems capability. Use when memory management, context continuity,
+  or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
@@ -14,22 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/memory-systems
-- canon-group/tech-ai
-- topic/memory
-- capability/firewall
-- capability/memory
-- capability/cosmo_brain_vault_content
-- capability/firewall_enforcement
-- rscf/epistemic
-- rscf/B-boundary
-- rscf/C-constraint
-- rscf/M-memory
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-action-memory-firewall
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +41,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

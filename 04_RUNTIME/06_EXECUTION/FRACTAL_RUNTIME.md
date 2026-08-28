@@ -11,7 +11,6 @@ plane: "04_RUNTIME"
 segment: "04_RUNTIME/06_EXECUTION"
 artifact_kind: "RUNTIME_SPEC"
 path: "04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME.md"
-
 tags:
   - amos_os
   - runtime
@@ -24,20 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/runtime
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -50,7 +45,6 @@ rscf:
     - RUNTIME_EXECUTION
     - FRACTAL_EXECUTION
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
   execution_moc:
     artifact: "04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC"
@@ -58,7 +52,6 @@ framework_binding:
     artifact: "11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI"
   lacunarity_framework:
     artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   spec_structure: VERIFIED_SOURCE_STRUCTURE

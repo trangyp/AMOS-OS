@@ -8,7 +8,6 @@ rscf:
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # AMOS COUNTERFACTUAL REASONING KERNEL V0 META COGNITION4 2
 

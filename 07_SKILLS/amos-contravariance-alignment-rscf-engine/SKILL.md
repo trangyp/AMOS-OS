@@ -3,10 +3,9 @@ title: SKILL — Amos Contravariance Alignment Rscf Engine
 type: skill
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine
 name: amos-contravariance-alignment-rscf-engine
-description: Contravariance Alignment — RSCF epistemic capability. Use when classifying
-  claims by epistemic state, validating outputs against epistemic and scope constraints,
-  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this
-  s...
+description: Contravariance Alignment — RSCF epistemic capability. Use when classifying claims by epistemic
+  state, validating outputs against epistemic and scope constraints, or analyzing evidence structure.
+  Use when amos-rscf-epistemic-master routes to this s...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
@@ -15,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/rscf-epistemic
-- canon-group/tech-ai
-- topic/epistemology
-- rscf/epistemic
-- rscf/D-distinction
-- rscf/C-constraint
-- rscf/S-state
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-contravariance-alignment-rscf-engine
-- capability/epistemic_classes
-- capability/core_amos_firewalls
-- capability/master_state
-- capability/claim_admission
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -59,6 +46,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

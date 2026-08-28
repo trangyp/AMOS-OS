@@ -11,7 +11,6 @@ plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX_SPEC"
 path: "25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -20,17 +19,14 @@ tags:
   - ubi_x_full_brain
   - full_brain_os
   - rscf
-
 version: "2.0.0"
 updated: "2026-08-28"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "PASSED_CONSTITUTIONAL_TESTS"
 executable_binding: "ESTABLISHED"
-
 framework_binding:
   matrix_counterpart:
     artifact: "[[UBI_X_FULL_BRAIN_MATRIX]]"

@@ -11,12 +11,9 @@ plane: "16_SCHEMAS"
 segment: "16_SCHEMAS/10_RSCF"
 artifact_kind: "FRAMEWORK"
 path: "16_SCHEMAS/10_RSCF/framework_node.schema.md"
-
 tags: [amos_os, schema, specification, 16_schemas, framework, canon_placeholder, rscf, canon/schema]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

@@ -11,13 +11,11 @@ plane: "01_CANON"
 segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "ARTIFACT"
 path: "01_CANON/03_COGNITION_CANON/AMOS_19X19_COGNITIVE_FIELD.md"
-
 canon_group: amos_cognition
 canon_family: AMOS_19X19_COGNITIVE_FIELD
 schema_family: RSCF
 schema_role: COGNITIVE_FIELD_RSCF
 schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
-
 tags:
   - amos_os
   - canon
@@ -39,10 +37,8 @@ tags:
   - regime
   - validation
   - placeholder_expanded
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
@@ -50,7 +46,6 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 native_definition_status: "NOT_ESTABLISHED"
 native_19_status: "NOT_ESTABLISHED"
 native_19x19_semantics_status: "NOT_ESTABLISHED"
@@ -70,7 +65,6 @@ native_regime_status: "NOT_ESTABLISHED"
 native_temporal_status: "NOT_ESTABLISHED"
 native_provenance_status: "PARTIALLY_SOURCE_SUPPORTED"
 native_dependencies_status: "NOT_ESTABLISHED"
-
 rscf:
   state: DERIVED
   claim_class: DERIVED

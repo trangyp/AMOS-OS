@@ -6,24 +6,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/canon-universe
-- canon-group/tech-ai
-- topic/canon
-- capability/canon
-- capability/flow_characterization
-- capability/bottleneck_identification
-- capability/leakage_detection
-- capability/flow_persistence_check
-- capability/dual_frame_test
-- capability/conversion_efficiency_analysis
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/T-topology
-- rscf/type-concept
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-flow-canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,7 +40,14 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
+description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion
+  under limits, bottleneck/leakage/queue dynamics. Use when analyzing how power/energy/capital/information
+  moves through a system, when throughput needs structural characterization, when identifying bottlenecks
+  or leakage, or when flow is asserted but not structurally characterized. Use whenever the user mentions
+  flow, throughput, transmission, conversion, bottlenecks, queues, or power movement — even without explicitly
+  asking for 'flow canon'.
 ---
+
 
 
 

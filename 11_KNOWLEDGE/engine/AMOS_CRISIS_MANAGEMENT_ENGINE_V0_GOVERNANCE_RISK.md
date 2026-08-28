@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: engine_specification
-
 ---
 # AMOS CRISIS MANAGEMENT ENGINE V0 GOVERNANCE RISK
 

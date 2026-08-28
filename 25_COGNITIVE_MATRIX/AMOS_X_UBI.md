@@ -1,28 +1,16 @@
 ---
 title: "AMOS × UBI"
-
 type: note
-
 source: 25_COGNITIVE_MATRIX
-
 artifact: "AMOS_X_UBI.md"
-
 artifact_id: "amos_25_cognitive_matrix_amos_x_ubi"
-
 origin_architect: "Trang Phan"
-
 steward: "Trang Phan"
-
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
-
 segment: "25_COGNITIVE_MATRIX"
-
 artifact_kind: "ARTIFACT"
-
 path: "25_COGNITIVE_MATRIX/AMOS_X_UBI.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -46,88 +34,50 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-
 version: "1.1.0"
-
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
-
 epistemic_class: "AMOS_MODEL"
-
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
-
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
-
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
-
   provenance:
     - UBI_OFFICIAL_MANUAL
     - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
     - AMOS_CORPUS
-
   scope:
     - BIOLOGICAL_INTELLIGENCE
     - COGNITIVE_MATRIX
     - SOURCE_DEFINED_UBI_MODEL
-
 framework_binding:
-
   primary:
-
     name: "Unified Biological Intelligence™"
-
     acronym: "UBI"
-
     role: BIOLOGICAL_INTELLIGENCE_ARCHITECTURE
-
   paired_framework:
-
     name: "Universal Biological Framework™"
-
     acronym: "UBF"
-
     role: EXTERNAL_BIOLOGICAL_GOVERNANCE
-
   matrix_conjunction:
-
     name: "AMOS × UBI Matrix"
-
     artifact: "[[AMOS_X_UBI_MATRIX]]"
-
 epistemic_boundary:
-
   source_presence: VERIFIED_SOURCE_PRESENCE
-
   framework_structure: VERIFIED_SOURCE_STRUCTURE
-
   domain_models: SOURCE_DEFINED_MODEL
-
   integration_function: SOURCE_DEFINED_AS_UNRESOLVED_FUNCTION
-
   geometric_mean_alignment: AMOS_DERIVED_NOT_NATIVE_ESTABLISHED
-
   effectiveness_equation: SOURCE_DEFINED_FRAMEWORK_CLAIM
-
   clinical_fact: NOT_ESTABLISHED
-
   construct_validity: NOT_INDEPENDENTLY_ESTABLISHED
-
   causal_validity: NOT_INDEPENDENTLY_ESTABLISHED
-
   universal_biological_truth: NOT_ESTABLISHED_GLOBALLY
-
   runtime_enforcement: NOT_ESTABLISHED
 ---
 

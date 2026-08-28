@@ -8,37 +8,25 @@ artifact_type: kernel_plane_entrypoint
 status: SOURCE_CLAIM
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 domain: kernel
 scope: AMOS_OS
 authority_scope: kernel-plane-definition
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/framework, kernel/readme, kernel/contracts, kernel/invariants, kernel/deterministic, kernel/rscf, kernel/hml, kernel/provenance, kernel/causal-lineage, kernel/epistemic-regime, kernel/dependency, kernel/persistence, kernel/concurrency, kernel/atomicity, kernel/finality, kernel/recovery, kernel/evolution, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/kernel, topic/kernel-architecture, topic/deterministic-logic]
-
 aliases: "- AMOS Kernel
   - AMOS OS Kernel
   - Kernel Plane..."---
-
-
 # AMOS OS Kernel
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  
 > **Status:** `SOURCE_CLAIM`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `02_KERNEL` is the deterministic semantic-contract plane of AMOS OS.
-
 It converts applicable canonical laws and invariants into typed operators and state-transition contracts that downstream governance and execution layers can use.
-
 ```text
 CANON
 ↓
@@ -48,15 +36,10 @@ CONTROL PLANE
 ↓
 RUNTIME
 ```
-
 The kernel answers:
-
 > **Given explicit inputs, state, scope, regime, dependencies, and applicable rules, what transformations are semantically valid?**
-
 It does **not** answer:
-
 > **Who is authorized to perform them?**
-
 That belongs to the control plane.
 rscf:
   state: DERIVED

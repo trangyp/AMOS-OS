@@ -3,9 +3,8 @@ title: SKILL — Amos Formally Verified Migration Rscf
 type: skill
 source: 07_SKILLS/amos-formally-verified-migration-rscf
 name: amos-formally-verified-migration-rscf
-description: Formally Verified Migration — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability.
+description: Formally Verified Migration — audit and repair capability. Use when auditing, failure analysis,
+  gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -14,22 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/audit-repair
-- canon-group/tech-ai
-- topic/quality-assurance
-- capability/formal-verification
-- capability/migration
-- capability/audit
-- capability/repair
-- rscf/epistemic
-- rscf/M-memory
-- rscf/C-constraint
-- rscf/P-repair
-- rscf/μ-mutation
-- rscf/type-process
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-formally-verified-migration-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -59,6 +46,7 @@ law_compliance:
 - L18
 - L22
 ---
+
 
 
 

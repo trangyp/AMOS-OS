@@ -11,7 +11,6 @@ plane: "01_CANON"
 segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "CANON"
 path: "01_CANON/01_CORE_LAWS/RULE_OF_2_CANON.md"
-
 tags:
   - 01_canon
   - 01_core_laws
@@ -24,10 +23,8 @@ tags:
   - rule_of_2_canon.md
   - universe
   - placeholder_expanded
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
@@ -35,7 +32,6 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

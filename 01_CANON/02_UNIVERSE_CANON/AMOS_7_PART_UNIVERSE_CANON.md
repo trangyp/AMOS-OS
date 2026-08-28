@@ -4,37 +4,26 @@ source: 01_CANON/02_UNIVERSE_CANON
 artifact_id: AMOS-7-PART-UNIVERSE-CANON
 name: AMOS_7_PART_UNIVERSE_CANON
 title: "AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model"
-
 document_version: "2.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: tech-ai
 canon_type: universe-canon
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, seven-part-universe, architecture, system-boundary, decomposition, integration, authority, provenance, state, cognition, execution, environment, governance, rscf, hml, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-7-part-universe]
-
 aliases: "- AMOS 7-Part Universe
   - AMOS Seven-Part Universe
   - AMOS Universe Canon
   - AMOS Universal Parti..."
 related: "see body"---
-
-
 # AMOS 7-Part Universe Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

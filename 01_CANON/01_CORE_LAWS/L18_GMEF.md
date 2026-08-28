@@ -19,7 +19,6 @@ tags:
   - digest
   - provenance
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

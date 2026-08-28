@@ -8,29 +8,23 @@ document_version: "2.0.0"
 component_version: "1.0.0"
 runtime_contract_version: "1.0.0"
 amos_core_target: "v4.4"
-
 created: "2026-08-25"
 updated: "2026-08-25"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 system: "SENSE_SYSTEM"
 category: "agents"
 component: "EnvironmentScan_Agent"
-
 canon-group: tech-ai
 canon-type: component
 rscf-state: source-claim
 conclusion_class: "SOURCE_CLAIM / STRUCTURAL_MODEL"
 implementation_state: "REGISTERED_STUB"
 runtime_state: "NON_DESTRUCTIVE_TRACE_ONLY"
-
 aliases: "- EnvironmentScan Agent
   - AMOS Environment Scan Agent
   - Sense System Environment Scanner..."
 tags: [agents, knowledge, vault, canon-group/tech-ai, canon/component, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/environment-scan-agent, topic/sense-system, topic/agent-runtime, topic/context-observation]
-
 governing_law: "integrity > completeness > fluency > speed > token savings"
 rscf:
   state: SOURCE_CLAIM

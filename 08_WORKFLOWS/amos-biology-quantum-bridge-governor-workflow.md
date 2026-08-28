@@ -5,34 +5,18 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-biology-quantum-bridge-governor
 Agent: amos-biology-quantum-bridge-governor-agent
-Trigger: When bridging biological and quantum reasoning domains, or when mapping biological
-  concepts to quantum-mechanical analogues, or when validating that quantum-biological
-  mappings preserve the anti-overclaim firewall, or when detecting overclaim in quantum-biological
-  reasoning, or when amos-c04-bio-neuro-master routes to cross-domain biology-quantum
-  bridge governance
+Trigger: When bridging biological and quantum reasoning domains, or when mapping biological concepts to
+  quantum-mechanical analogues, or when validating that quantum-biological mappings preserve the anti-overclaim
+  firewall, or when detecting overclaim in quantum-biological reasoning, or when amos-c04-bio-neuro-master
+  routes to cross-domain biology-quantum bridge governance
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/governance
-- capability/workflow
-- capability/biology
-- capability/preconditions
-- capability/orchestration_pattern
-- capability/evaluation_gates
-- capability/monitoring
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/B-boundary
-- rscf/M-memory
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -63,6 +47,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

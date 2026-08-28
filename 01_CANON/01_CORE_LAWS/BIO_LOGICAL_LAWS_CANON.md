@@ -11,12 +11,10 @@ plane: "01_CANON"
 segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "LOG"
 path: "01_CANON/01_CORE_LAWS/BIO_LOGICAL_LAWS_CANON.md"
-
 canon_group: amos_core
 schema_family: RSCF
 schema_role: CANON_RSCF
 schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
-
 tags:
   - amos_os
   - canon
@@ -40,10 +38,8 @@ tags:
   - rscf
   - canon/universe
   - placeholder_expanded
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
@@ -54,7 +50,6 @@ biological_validation_status: "NOT_ESTABLISHED"
 mathematical_validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 overclaim_risk: true
 overclaim_note: >
   "Bio-Logical Laws" is presently an addressable AMOS framework family,
@@ -62,7 +57,6 @@ overclaim_note: >
   equation, mechanism, biological interpretation, cross-scale mapping,
   or universal claim requires native-canon provenance and, where it
   concerns the empirical world, appropriately typed independent evidence.
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

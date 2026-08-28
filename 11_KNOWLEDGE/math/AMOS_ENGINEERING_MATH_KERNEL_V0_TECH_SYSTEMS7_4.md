@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: mathematical_model
-
 ---
 # AMOS ENGINEERING MATH KERNEL V0 TECH SYSTEMS7 4
 

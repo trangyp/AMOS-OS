@@ -3,9 +3,8 @@ title: SKILL — Amos C01 Meta Logic Master
 type: skill
 source: 07_SKILLS/amos-c01-meta-logic-master
 name: amos-c01-meta-logic-master
-description: 'AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs,
-  5 Pattern Families. Law of Law, Rule of 2, Rule of 4. Use for logic reasoning, decomposition,
-  or meta-law validation.'
+description: 'AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs, 5 Pattern Families.
+  Law of Law, Rule of 2, Rule of 4. Use for logic reasoning, decomposition, or meta-law validation.'
 parent_skill: none
 domain: c01
 origin_architect: Trang Phan
@@ -14,21 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/meta-logic
-- canon-group/tech-ai
-- topic/logic
-- capability/ast
-- capability/reasoning
-- capability/decomposition
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/M-memory
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_canon
 - amos_os
-- amos-c01-meta-logic-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +45,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

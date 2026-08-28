@@ -8,38 +8,26 @@ artifact_type: kernel_topology_map
 status: SOURCE_CLAIM
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 domain: kernel
 scope: AMOS_OS
 authority_scope: kernel-structure-and-contract-topology
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/framework, kernel/map, kernel/topology, kernel/contracts, kernel/invariants, kernel/deterministic, kernel/rscf, kernel/hml, kernel/provenance, kernel/causal-lineage, kernel/epistemic-regime, kernel/persistence, kernel/concurrency, kernel/finality, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/kernel-map, topic/kernel-architecture, topic/deterministic-logic, topic/dependency-closure, topic/atomic-reasoning, topic/governed-evolution]
-
 aliases: "- AMOS Kernel Map
   - AMOS OS Kernel Map
   - Kernel Topology
   - Kernel Contract Map..."---
-
-
 # AMOS OS Kernel Map
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`  
 > **Status:** `SOURCE_CLAIM`
-
 ## 1. Purpose
-
 `KERNEL_MAP.md` defines the canonical topology of the AMOS OS kernel plane.
-
 The kernel is the deterministic contract layer between canonical law and governed system operation.
-
 ```text
 CANON
 ↓
@@ -49,11 +37,8 @@ CONTROL PLANE
 ↓
 RUNTIME
 ```
-
 Its purpose is to map the smallest deterministic operators, invariants, typed state-transition contracts, reasoning primitives, provenance constraints, and integrity gates required by higher AMOS OS layers.
-
 This map describes architecture and expected contracts.
-
 It does **not** assert that every mapped kernel is currently implemented, formally verified, distributed, persistent, or production-ready.
 rscf:
   state: DERIVED

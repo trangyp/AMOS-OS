@@ -26,7 +26,6 @@ tags:
   - coordination_avoidance
   - provenance
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

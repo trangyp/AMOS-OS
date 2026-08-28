@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # AMOS OPERATIONAL RISK KERNEL V0 GOVERNANCE RISK7 3
 

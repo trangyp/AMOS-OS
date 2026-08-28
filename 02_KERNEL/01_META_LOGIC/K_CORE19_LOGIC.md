@@ -5,24 +5,19 @@ artifact_id: "AMOS-OS-K-CORE19-LOGIC"
 artifact: "K_CORE19_LOGIC.md"
 artifact_type: "kernel_logic_contract"
 type: "logic"
-
 system: "AMOS OS"
 amos_core_target: "v4.4"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 plane: "02_KERNEL"
 plane_name: "KERNEL"
 kernel_family: "FOUNDATION"
 segment: "02_KERNEL/01_META_LOGIC"
 domain: "deterministic-logic"
 scope: "AMOS_OS"
-
 status: "AMOS_MODEL"
 epistemic_class: "AMOS_MODEL"
 conclusion_class: "AMOS_MODEL"
-
 canonical_status: "CANON_CANDIDATE / LINEAGE_UNVERIFIED"
 historical_identity_status: "NOT_ESTABLISHED"
 implementation_status: "UNKNOWN/GAP"
@@ -30,10 +25,8 @@ validation_status: "NOT_ESTABLISHED"
 runtime_enforcement: "NOT_ESTABLISHED"
 authority_status: "NON_AUTHORITATIVE_MODEL"
 executable_binding: "NOT_ESTABLISHED"
-
 created: "2026-08-25"
 updated: "2026-08-27"
-
 tags:
   - amos-os
   - kernel
@@ -61,13 +54,11 @@ tags:
   - rscf/state/model
   - topic/core19
   - topic/deterministic-logic
-
 aliases:
   - "CORE19 Logic"
   - "K CORE19 LOGIC"
   - "AMOS CORE19 Logic Kernel"
   - "CORE19 Deterministic Logic Kernel"
-
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
@@ -76,7 +67,6 @@ rscf:
   regime: AMOS_v4_4_kernel_model
   confidence_ceiling: AMOS_MODEL
   canonical_lineage: UNKNOWN/GAP
-
 integrity:
   fail_closed_on_unknown: true
   preserve_competing: true

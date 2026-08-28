@@ -4,39 +4,28 @@ source: 00_ROOT
 artifact_id: AMOS-OS-ROADMAP
 name: AMOS_OS_ROADMAP
 title: "AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational Maturity Plan"
-
 document_version: "2.0.0"
 roadmap_version: "1.0.0"
 amos_core_target: "v4.4"
-
 status: ACTIVE_ROADMAP
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: tech-ai
 canon_type: roadmap
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 scope: "see body"
 tags: [amos, amos_os, root, amos-os, roadmap, architecture-roadmap, system-evolution, implementation, validation, promotion, lifecycle, canon, kernel, control-plane, runtime, cognition, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, provenance, observability, security, tests, operations, domains, modes, research, archive, cognitive-matrix, rscf, gmef, hml, dependency-closure, failure-recovery, migration, regression, governance, authority, canon-group/tech-ai, canon/roadmap, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/roadmap, topic/system-promotion, topic/operational-maturity]
-
 aliases: "- AMOS Roadmap
   - AMOS OS Roadmap
   - AMOS Implementation Roadmap
   - AMOS Promotion Roadmap
   - AM..."
 related: "see body"---
-
-
 # AMOS OS Roadmap
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_ROADMAP`  
 > **Roadmap version:** `1.0.0`  
 > **AMOS_CORE target:** `v4.4`  

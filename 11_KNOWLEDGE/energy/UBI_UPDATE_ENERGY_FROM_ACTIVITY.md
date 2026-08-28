@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: energy_system
-
 ---
 # UBI UPDATE ENERGY FROM ACTIVITY
 

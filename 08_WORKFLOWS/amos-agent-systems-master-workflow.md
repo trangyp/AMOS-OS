@@ -5,32 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-agent-systems-master
 Agent: amos-agent-systems-agent
-Trigger: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors,
-  agent economy governance, agent-to-agent protocols. Use for agent design, delegation
-  reasoning, or multi-agent govern
+Trigger: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy
+  governance, agent-to-agent protocols. Use for agent design, delegation reasoning, or multi-agent govern
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/agent-systems
-- canon-group/tech-ai
-- topic/multi-agent
-- capability/agent-design
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-system
-- orchestration/orchestrator-worker
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -61,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

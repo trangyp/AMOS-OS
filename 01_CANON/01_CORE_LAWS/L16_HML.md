@@ -15,7 +15,6 @@ tags:
   - no_level_skipping
   - epistemic_governance
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

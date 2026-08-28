@@ -8,43 +8,29 @@ artifact_type: kernel_context_state_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_family: STATE
 domain: context-state
 scope: AMOS_OS
-
 updated: 2026-08-26
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/context, kernel/context-state, kernel/state, kernel/dependency, kernel/provenance, kernel/scope, kernel/regime, kernel/freshness, kernel/invalidation, kernel/concurrency, kernel/validation, rscf/context, rscf/state/model, topic/context-state, topic/state-management, topic/dependency-closure]
-
 aliases: "- AMOS Context State Kernel
   - Context State Kernel
   - K Context State
   - K_CONTEXT_STATE..."---
-
-
 # K CONTEXT STATE
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_CONTEXT_STATE` defines the kernel-level model for representing, reading, updating, validating, and invalidating the bounded context used by AMOS reasoning and execution.
-
 Context is not an untyped container of information.
-
 It is a governed state projection containing only the information relevant to a bounded reasoning or execution scope.
-
 The central distinction is:
-
 ```text
 CONTEXT != GLOBAL STATE
 CONTEXT != MEMORY
@@ -53,7 +39,6 @@ CONTEXT != CANON
 CONTEXT != AUTHORITY
 CONTEXT != PROVENANCE
 ```
-
 Context may reference all of these, but it does not replace them.
 rscf:
   state: DERIVED

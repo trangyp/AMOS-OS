@@ -3,9 +3,8 @@ title: SKILL — Amos Fx Macro Differential Mapper
 type: skill
 source: 07_SKILLS/amos-fx-macro-differential-mapper
 name: amos-fx-macro-differential-mapper
-description: Macro Differential Mapper — forex and finance capability. Use when forex
-  analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master
-  routes to this specialized capability.
+description: Macro Differential Mapper — forex and finance capability. Use when forex analysis, currency
+  trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
@@ -14,20 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/econ-finance
-- canon-group/tech-ai
-- topic/finance
-- capability/forex
-- topic/forex
-- rscf/epistemic
-- rscf/S-state
-- rscf/X-cross-scale
-- rscf/E-entropy
-- rscf/G-relation
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-fx-macro-differential-mapper
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +43,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

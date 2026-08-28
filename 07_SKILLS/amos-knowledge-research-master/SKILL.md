@@ -3,9 +3,8 @@ title: SKILL — Amos Knowledge Research Master
 type: skill
 source: 07_SKILLS/amos-knowledge-research-master
 name: amos-knowledge-research-master
-description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research,
-  knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning
-  brain. Use for knowledge management, researc...
+description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing,
+  curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc...
 parent_skill: none
 domain: knowledge
 origin_architect: Trang Phan
@@ -14,25 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/knowledge-research
-- canon-group/tech-ai
-- topic/knowledge-management
-- capability/knowledge
-- capability/research
-- capability/ast
-- capability/indexing
-- capability/search
-- capability/reasoning
-- capability/integration
-- rscf/epistemic
-- rscf/D-distinction
-- rscf/M-memory
-- rscf/G-relation
-- rscf/K-compression
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_canon
 - amos_os
-- amos-knowledge-research-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +41,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

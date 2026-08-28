@@ -8,79 +8,58 @@ artifact_type: kernel_semantic_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_family: FOUNDATION
 domain: distinction-relation-constraint
 scope: AMOS_OS
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/foundation, kernel/distinction, kernel/relation, kernel/constraint, kernel/identity, kernel/semantics, kernel/invariants, kernel/dependency, kernel/provenance, kernel/scope, kernel/regime, kernel/validation, rscf/claim, rscf/provenance, rscf/state/model, topic/distinction-relation-constraint]
-
 aliases: "- DRC Kernel
   - Distinction Relation Constraint
   - K DRC
   - AMOS Distinction Relation Constraint ..."---
-
-
 # K_DISTINCTION_RELATION_CONSTRAINT
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_DISTINCTION_RELATION_CONSTRAINT` defines the foundational semantic primitives by which AMOS OS can represent:
-
 ```text
 WHAT SOMETHING IS
 WHAT SOMETHING IS NOT
 HOW THINGS RELATE
 WHAT LIMITS THOSE RELATIONS
 ```
-
 The kernel is organized around three primitive operations:
-
 ```text
 DISTINCTION
 RELATION
 CONSTRAINT
 ```
-
 abbreviated:
-
 ```text
 D
 R
 C
 ```
-
 Conceptually:
-
 ```text
 DISTINCTION
 ↓
 IDENTIFIABLE ENTITIES / STATES / CLAIMS
-
 RELATION
 ↓
 TYPED CONNECTIONS BETWEEN THEM
-
 CONSTRAINT
 ↓
 BOUNDARIES ON VALID ENTITIES, RELATIONS, AND TRANSITIONS
 ```
-
 The DRC kernel provides semantic structure.
-
 It does not independently establish empirical truth, canon authority, execution permission, or external effects.
 rscf:
   state: DERIVED

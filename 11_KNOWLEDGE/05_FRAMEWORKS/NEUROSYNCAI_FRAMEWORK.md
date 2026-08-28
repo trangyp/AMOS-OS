@@ -11,7 +11,6 @@ plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "FRAMEWORK"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK.md"
-
 tags:
   - amos_os
   - knowledge
@@ -26,20 +25,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -50,7 +45,6 @@ rscf:
     - KNOWLEDGE_FRAMEWORKS
     - ADAPTIVE_AI_ARCHITECTURE
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
   primary:
     name: "NeurosyncAI™ Framework"
@@ -62,7 +56,6 @@ framework_binding:
   cognitive_matrix_binding:
     artifact: "[[AMOS_X_NEUROSYNCAI]]"
     matrix: "[[AMOS_X_NEUROSYNCAI_MATRIX]]"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

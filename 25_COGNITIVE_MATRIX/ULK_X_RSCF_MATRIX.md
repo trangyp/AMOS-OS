@@ -5,35 +5,27 @@ aliases:
   - "ULK x RSCF Matrix"
   - "ULK RSCF Matrix"
   - "ULK RSCF Cross-Plane Matrix Table"
-
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-
 artifact: "ULK_X_RSCF_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_ulk_x_rscf_matrix"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX_TABLE"
 path: "25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md"
-
 version: "2.0.0"
 updated: "2026-08-28"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "PASSED_CONSTITUTIONAL_TESTS"
 executable_binding: "ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -91,30 +83,21 @@ tags:
   - canon/cognitive-matrix
   - canon/ulk
   - canon/rscf
-
 framework_binding:
-
   matrix_spec:
     artifact: "[[ULK_X_RSCF]]"
-
   ulk:
     artifact: "[[ULK_LOGIC_KERNEL]]"
-
   cognitive_matrix:
     artifact: "[[25_COGNITIVE_MATRIX_MOC]]"
-
 rscf:
-
   state: SOURCE_CLAIM
-
   claim_class: AMOS_MODEL
-
   provenance:
     - "25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md"
     - "[[ULK_X_RSCF]]"
     - "[[ULK_LOGIC_KERNEL]]"
     - "AMOS_CORPUS"
-
   scope:
     - COGNITIVE_MATRIX
     - ULK_RSCF_INTEGRATION
@@ -122,33 +105,23 @@ rscf:
     - VERIFICATION
     - FAIL_CLOSED_GOVERNANCE
     - SOURCE_DEFINED_MODEL
-
 epistemic_boundary:
-
   artifact_presence:
     VERIFIED_SOURCE_PRESENCE
-
   matrix_rows:
     VERIFIED_SOURCE_STRUCTURE
-
   alu_operator_mapping:
     SOURCE_DEFINED_MODEL
-
   generated_rscf_sections:
     SOURCE_BLANK_UNRESOLVED
-
   verification_checks:
     SOURCE_DEFINED_MODEL
-
   fail_closed_fallbacks:
     SOURCE_DEFINED_MODEL
-
   runtime_implementation:
     NOT_INDEPENDENTLY_VERIFIED
-
   mathematical_completeness:
     NOT_ESTABLISHED_BY_THIS_ARTIFACT
-
   executable_binding:
     SOURCE_DECLARED_ESTABLISHED_NOT_INDEPENDENTLY_REVALIDATED
 ---

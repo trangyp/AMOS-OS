@@ -8,7 +8,6 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-
 ---
 # FULL CORE PATTERN BASIS NON FLAT IRREDUCIBLE SET
 

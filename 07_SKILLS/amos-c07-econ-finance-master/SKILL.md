@@ -3,9 +3,9 @@ title: SKILL — Amos C07 Econ Finance Master
 type: skill
 source: 07_SKILLS/amos-c07-econ-finance-master
 name: amos-c07-econ-finance-master
-description: 'AMOS C07 Econ & Finance — unit economics, forex, investment, wealth,
-  business analysis, market dynamics, trade. BizFin Engine: unit economics first,
-  then scale. Use for financial analysis, economic...'
+description: 'AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis,
+  market dynamics, trade. BizFin Engine: unit economics first, then scale. Use for financial analysis,
+  economic...'
 parent_skill: none
 domain: c07
 origin_architect: Trang Phan
@@ -14,20 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/econ-finance
-- canon-group/tech-ai
-- topic/finance
-- capability/ast
-- capability/trading
-- rscf/epistemic
-- rscf/S-state
-- rscf/X-cross-scale
-- rscf/E-entropy
-- rscf/G-relation
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_canon
 - amos_os
-- amos-c07-econ-finance-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

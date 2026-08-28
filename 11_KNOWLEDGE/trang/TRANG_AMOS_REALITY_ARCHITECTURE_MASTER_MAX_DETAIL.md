@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # TRANG AMOS REALITY ARCHITECTURE MASTER MAX DETAIL
 

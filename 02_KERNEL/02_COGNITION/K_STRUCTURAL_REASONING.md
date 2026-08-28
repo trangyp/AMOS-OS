@@ -8,40 +8,28 @@ artifact_type: kernel_reasoning_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_domain: reasoning
 scope: AMOS_OS
 authority_domain: structural_reasoning
 authority_level: deterministic_kernel_contract
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning, kernel/structural-reasoning, reasoning, reasoning/structure, reasoning/decomposition, reasoning/dependency, reasoning/constraint, reasoning/invariant, reasoning/hml, reasoning/rscf, dependency/closure, provenance, provenance/independence, epistemic-regime, competing-hypotheses, causal-firewall, scope-firewall, validation, recovery, rscf/state/model, topic/structural-reasoning]
-
 aliases: "- K Structural Reasoning
   - Structural Reasoning Kernel
   - AMOS Structural Reasoning
   - K_STRUCTU..."---
-
-
 # K STRUCTURAL REASONING
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_STRUCTURAL_REASONING` defines the kernel-level contract for reasoning about the structure of a problem before attempting substantive resolution.
-
 Structural reasoning asks:
-
 ```text
 WHAT EXISTS?
 WHAT IS DISTINCT?
@@ -52,13 +40,10 @@ WHAT IS INSIDE OR OUTSIDE SCOPE?
 WHAT IS LOAD-BEARING?
 WHAT IS UNKNOWN?
 ```
-
 before asking:
-
 ```text
 WHAT SHOULD WE CONCLUDE?
 ```
-
 Its purpose is to prevent fluent reasoning from silently crossing missing distinctions, dependencies, scopes, regimes, or evidence boundaries.
 rscf:
   state: DERIVED

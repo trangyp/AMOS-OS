@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # AMOS POLICY DESIGN KERNEL V0 GOVERNANCE RISK
 

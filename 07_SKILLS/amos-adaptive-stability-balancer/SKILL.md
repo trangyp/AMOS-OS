@@ -3,18 +3,15 @@ title: SKILL — Amos Adaptive Stability Balancer
 type: skill
 source: 07_SKILLS/amos-adaptive-stability-balancer
 name: amos-adaptive-stability-balancer
-description: Balance stability-preserving operation against adaptation, scaling, exploration,
-  mutation, and recovery in AMOS runtimes. Use when a system risks collapse from excessive
-  load, recursion, concurrency, memory pressure, dependency degradation, operational
-  pressure, oscillation, uncontrolled adaptation, or excessive rigidity; when deciding
-  whether to freeze, contain, degrade gracefully, maintain, recover, cautiously adapt,
-  scale, or resume normal operation; when resource headroom, observability, resilience,
-  dependency health, damping, saturation, collapse thresholds, or recovery capacity
-  matter; or when amos-os-runtime-master routes a runtime stability decision. Preserve
-  hard safety boundaries, hardware/environment scope, H/M/L coupling, bounded resources,
-  reversibility, provenance, regime validity, and selective recovery. Stability does
-  not mean immobility, and adaptation is never allowed to consume the reserves required
-  for survival.
+description: Balance stability-preserving operation against adaptation, scaling, exploration, mutation,
+  and recovery in AMOS runtimes. Use when a system risks collapse from excessive load, recursion, concurrency,
+  memory pressure, dependency degradation, operational pressure, oscillation, uncontrolled adaptation,
+  or excessive rigidity; when deciding whether to freeze, contain, degrade gracefully, maintain, recover,
+  cautiously adapt, scale, or resume normal operation; when resource headroom, observability, resilience,
+  dependency health, damping, saturation, collapse thresholds, or recovery capacity matter; or when amos-os-runtime-master
+  routes a runtime stability decision. Preserve hard safety boundaries, hardware/environment scope, H/M/L
+  coupling, bounded resources, reversibility, provenance, regime validity, and selective recovery. Stability
+  does not mean immobility, and adaptation is never allowed to consume the reserves required for survival.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
@@ -23,21 +20,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/B-boundary
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-adaptive-stability-balancer
-- capability/recovery
-- capability/adaptation
-- capability/collapse
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -67,6 +53,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

@@ -8,42 +8,29 @@ artifact_type: kernel_causal_hierarchy_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_family: CAUSAL
 domain: causal-hierarchy
 scope: AMOS_OS
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/causal, kernel/causal-hierarchy, kernel/causal-closure, kernel/causal-epoch, kernel/dependency, kernel/provenance, kernel/regime, kernel/scope, kernel/multi-hypothesis, kernel/validation, rscf/state/model, causal/hierarchy, causal/mechanism, causal/confounding, causal/mediation, causal/feedback, causal/effect, topic/causal-hierarchy, topic/causal-inference]
-
 aliases: "- AMOS Causal Hierarchy Kernel
   - Causal Hierarchy Kernel
   - K Causal Hierarchy
   - K_CAUSAL_HIERA..."---
-
-
 # K CAUSAL HIERARCHY
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_CAUSAL_HIERARCHY` defines the AMOS kernel contract for distinguishing levels and types of causal knowledge.
-
 Its central purpose is to prevent weaker evidence from being silently promoted into stronger causal claims.
-
 The governing rule is:
-
 ```text
 OBSERVATION
 !=
@@ -61,9 +48,7 @@ INTERVENTIONAL EFFECT
 !=
 COUNTERFACTUAL EFFECT
 ```
-
 A claim may move upward in the causal hierarchy only when evidence appropriate to the stronger causal class is available.
-
 Structural similarity, sequence, repetition, authority, model confidence, or fluent explanation cannot substitute for causal evidence.
 rscf:
   state: DERIVED

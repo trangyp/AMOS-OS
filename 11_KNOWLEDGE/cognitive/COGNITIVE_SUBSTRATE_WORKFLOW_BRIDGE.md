@@ -1,5 +1,4 @@
 ---
-
 title: "Cognitive Substrate Workflow Bridge"
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Cognitive/*.json"
@@ -15,7 +14,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: cognitive_model
-
 ---
 
 

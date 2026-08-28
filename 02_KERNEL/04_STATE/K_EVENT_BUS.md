@@ -8,43 +8,29 @@ artifact_type: kernel_event_bus_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_family: EVENT
 domain: event-bus
 scope: AMOS_OS
-
 updated: 2026-08-26
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/event, kernel/event-bus, kernel/messaging, kernel/state, kernel/causality, kernel/provenance, kernel/dependency, kernel/concurrency, kernel/idempotency, kernel/replay, kernel/validation, rscf/event, rscf/provenance, rscf/state/model, topic/event-driven-architecture, topic/event-routing, topic/causal-lineage]
-
 aliases: "- AMOS Event Bus Kernel
   - Event Bus Kernel
   - K Event Bus
   - K_EVENT_BUS..."---
-
-
 # K EVENT BUS
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_EVENT_BUS` defines the kernel-level semantic contract for representing, publishing, routing, consuming, validating, replaying, and tracing events across AMOS OS.
-
 The Event Bus provides a governed information-transfer substrate between otherwise separated components.
-
 It does **not** grant authority, execute arbitrary effects, establish truth, or convert messages into canonical state merely because they were emitted.
-
 Core firewall:
-
 ```text
 EVENT != COMMAND
 EVENT != CLAIM
@@ -53,7 +39,6 @@ EVENT != AUTHORITY
 EVENT != COMMIT
 EVENT != STATE
 EVENT != PROOF
-
 DELIVERY != ACCEPTANCE
 ACCEPTANCE != VALIDATION
 VALIDATION != COMMIT

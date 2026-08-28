@@ -10,10 +10,7 @@ status: "active"
 provenance: "VERIFIED"
 confidence: "VERIFIED"
 sources: "see body"---
-
-
 # AMOS Brain Engine Specs
-
 Ingest summary of key AMOS brain engine specs from Google Drive (`_00_AMOS_CANON/Core/`).  
 All specs authored by **Trang Phan**.
 rscf:

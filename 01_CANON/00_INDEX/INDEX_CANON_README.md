@@ -4,24 +4,18 @@ source: 01_CANON/00_INDEX
 artifact_id: AMOS-OS-CANON-README
 name: AMOS_OS_CANON_README
 title: "AMOS OS Canon — Authoritative Definitions, Laws, Lineage, and Governance"
-
 document_version: "2.0.0"
 canon_plane_version: "1.0.0"
 amos_core_target: "v4.4"
-
 status: ACTIVE_ROOT
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: tech-ai
 canon_type: canon-root
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 scope: "- AMOS_OS
   - canon
   - canonical_definitions
@@ -29,19 +23,14 @@ scope: "- AMOS_OS
   - canonical_models
   - provenance..."
 tags: [amos, canon, universe, amos-os, canon-root, canonical-authority, canonical-definitions, canonical-laws, canonical-models, provenance, provenance-topology, rscf, gmef, hml, dependency-closure, lineage, supersession, promotion, deprecation, archive, scope, regime, freshness, epistemic-class, competing-hypotheses, causal-firewall, canon-group/tech-ai, canon/root, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/canon, topic/canonical-authority]
-
 aliases: "- AMOS Canon
   - AMOS OS Canon
   - AMOS Canon Root
   - AMOS Canon Plane
   - AMOS Canonical Authority..."
 related: "see body"---
-
-
 # AMOS OS Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_ROOT`  
 > **AMOS_CORE target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

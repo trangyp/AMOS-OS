@@ -3,9 +3,8 @@ title: SKILL — Amos Growth Graph
 type: skill
 source: 07_SKILLS/amos-growth-graph
 name: amos-growth-graph
-description: Growth Graph — society and culture capability. Use when social analysis,
-  cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master
-  routes to this specialized capability.
+description: Growth Graph — society and culture capability. Use when social analysis, cultural reasoning,
+  or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
@@ -14,19 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/society-culture
-- canon-group/human-system
-- topic/sociology
-- rscf/epistemic
-- rscf/T-topology
-- rscf/M-memory
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-growth-graph
-- capability/reasoning
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +44,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

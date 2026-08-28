@@ -8,7 +8,6 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-
 ---
 # PURPOSE SHIFTING FROM WHY TO HOW 20470
 

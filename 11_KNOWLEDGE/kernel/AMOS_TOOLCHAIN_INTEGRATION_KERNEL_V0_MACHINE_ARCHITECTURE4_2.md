@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # AMOS TOOLCHAIN INTEGRATION KERNEL V0 MACHINE ARCHITECTURE4 2
 

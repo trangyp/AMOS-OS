@@ -2,7 +2,6 @@
 type: control-plane
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags: [amos, cognitive-matrix, l04, object-entity-formation, control-plane, rscf, provenance, governance, canon/cognitive-matrix]
-
 title: "L04_OBJECT_ENTITY_FORMATION — Control Planes"
 origin_architect: "Trang Phan"
 status: "MODEL_CONTROL_PLANE_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

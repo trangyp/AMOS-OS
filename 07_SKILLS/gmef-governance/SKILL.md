@@ -3,9 +3,9 @@ title: SKILL — Gmef Governance
 type: skill
 source: 07_SKILLS/gmef-governance
 name: gmef-governance
-description: Gmef Governance — strategy and game theory capability. Use when strategic
-  analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master
-  routes to this specialized capability.
+description: Gmef Governance — strategy and game theory capability. Use when strategic analysis, game
+  theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized
+  capability.
 parent_skill: amos-c08-strategy-game-master
 domain: c08
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/strategy-game
-- canon-group/human-system
-- topic/strategy
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/T-topology
-- rscf/S-state
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- gmef-governance
-- capability/governance
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

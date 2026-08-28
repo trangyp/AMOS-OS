@@ -3,9 +3,8 @@ title: SKILL — Amos Agent Economy Constitutional Governance Rscf
 type: skill
 source: 07_SKILLS/amos-agent-economy-constitutional-governance-rscf
 name: amos-agent-economy-constitutional-governance-rscf
-description: Agent Economy Constitutional Governance — econ capability. Use when executing
-  the core capability within this domain. Use when amos-c07-econ-finance-master routes
-  to this specialized capability.
+description: Agent Economy Constitutional Governance — econ capability. Use when executing the core capability
+  within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
@@ -14,20 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/econ-finance
-- canon-group/tech-ai
-- topic/finance
-- capability/agent-design
-- capability/provenance
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/E-entropy
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-agent-economy-constitutional-governance-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +43,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

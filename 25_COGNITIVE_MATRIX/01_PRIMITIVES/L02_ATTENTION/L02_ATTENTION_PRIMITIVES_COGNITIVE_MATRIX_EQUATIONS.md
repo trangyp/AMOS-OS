@@ -2,7 +2,6 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags: [amos, cognitive-matrix, l02, attention, equations, rscf, hml, canon/cognitive-matrix]
-
 title: "L02_ATTENTION — Equations"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / UNVALIDATED"

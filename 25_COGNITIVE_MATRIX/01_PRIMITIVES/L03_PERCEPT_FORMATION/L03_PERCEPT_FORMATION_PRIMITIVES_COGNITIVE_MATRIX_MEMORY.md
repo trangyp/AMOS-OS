@@ -2,7 +2,6 @@
 type: memory
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags: [amos, cognitive-matrix, l03, percept-formation, memory, rscf, provenance, governance, canon/cognitive-matrix]
-
 title: "L03_PERCEPT_FORMATION — Memory"
 origin_architect: "Trang Phan"
 status: "MODEL_MEMORY_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

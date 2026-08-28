@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # AMOS TECH ARCHITECTURE KERNEL V0 TECH SYSTEMS7 4
 

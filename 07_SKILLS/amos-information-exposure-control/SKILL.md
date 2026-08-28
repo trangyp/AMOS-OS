@@ -3,9 +3,8 @@ title: SKILL — Amos Information Exposure Control
 type: skill
 source: 07_SKILLS/amos-information-exposure-control
 name: amos-information-exposure-control
-description: Information Exposure Control — info capability. Use when executing the
-  core capability within this domain. Use when amos-information-theory-master routes
-  to this specialized capability.
+description: Information Exposure Control — info capability. Use when executing the core capability within
+  this domain. Use when amos-information-theory-master routes to this specialized capability.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
@@ -14,17 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/information-theory
-- canon-group/tech-ai
-- topic/information
-- rscf/epistemic
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-information-exposure-control
-- capability/execution
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -49,6 +41,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

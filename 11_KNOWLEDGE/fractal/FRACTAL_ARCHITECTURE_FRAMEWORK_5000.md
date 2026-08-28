@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: fractal_system
-
 ---
 # FRACTAL ARCHITECTURE FRAMEWORK 5000
 

@@ -11,7 +11,6 @@ plane: "01_CANON"
 segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "CORE_LAW_SPECIFICATION"
 path: "01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING.md"
-
 tags:
   - amos_os
   - canon
@@ -27,19 +26,15 @@ tags:
   - rollback
   - rscf
   - canon/core
-
 version: "1.0.0"
 updated: "2026-08-28"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "SOURCE_BOUND"
 executable_binding: "KERNEL_REFERENCE_DECLARED"
-
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL

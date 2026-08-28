@@ -5,7 +5,6 @@ version_date: 2026-08-22
 language: en
 type: architecture
 source: 11_KNOWLEDGE/amos-general
-
 tags:
   - canon-group/tech-ai
   - canon/os-module
@@ -26,21 +25,17 @@ tags:
   - rscf/state/source-claim
   - topic/00-amos-full-brain-os-architecture
   - amos-general
-
 canon-group: tech-ai
 canon_type: os-module
 architecture_type: multi-dimensional-cognitive-operating-architecture
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_architecture
   unresolved_boundaries_preserved: true
-
 supersedes:
   - "universal Kernel → Engine → Agent → Control Plane hierarchy"
-
 anti_regression:
   preserve_full_brain_hierarchy: true
   preserve_engine_identity: true

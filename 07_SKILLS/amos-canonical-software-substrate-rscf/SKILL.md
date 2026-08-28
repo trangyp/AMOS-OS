@@ -3,9 +3,9 @@ title: SKILL — Amos Canonical Software Substrate Rscf
 type: skill
 source: 07_SKILLS/amos-canonical-software-substrate-rscf
 name: amos-canonical-software-substrate-rscf
-description: Canonical Software Substrate — canon and universe capability. Use when
-  canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master
-  routes to this specialized capability.
+description: Canonical Software Substrate — canon and universe capability. Use when canon reasoning, universe-level
+  analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized
+  capability.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -14,21 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/canon-universe
-- canon-group/tech-ai
-- topic/canon
-- capability/canon
-- capability/software
-- capability/reasoning
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-concept
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-canonical-software-substrate-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -59,6 +48,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

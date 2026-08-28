@@ -3,9 +3,9 @@ title: SKILL — Amos Memory Execution Graph Attribution Rscf
 type: skill
 source: 07_SKILLS/amos-memory-execution-graph-attribution-rscf
 name: amos-memory-execution-graph-attribution-rscf
-description: Memory Execution Graph Attribution — memory systems capability. Use when
-  memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master
-  routes to this specialized capability.
+description: Memory Execution Graph Attribution — memory systems capability. Use when memory management,
+  context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this
+  specialized capability.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
@@ -14,20 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/memory-systems
-- canon-group/tech-ai
-- topic/memory
-- capability/memory
-- capability/execution
-- rscf/epistemic
-- rscf/T-topology
-- rscf/M-memory
-- rscf/B-boundary
-- rscf/C-constraint
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-memory-execution-graph-attribution-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -52,6 +42,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

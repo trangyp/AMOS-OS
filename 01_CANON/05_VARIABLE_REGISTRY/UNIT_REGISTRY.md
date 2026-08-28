@@ -4,37 +4,26 @@ source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-UNIT-REGISTRY
 name: UNIT_REGISTRY
 title: "AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics"
-
 document_version: "1.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: meta
 canon_type: registry
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, unit-registry, units, dimensions, measurement, quantities, scales, normalization, conversion, dimensional-analysis, uncertainty, provenance, precision, computational-units, physical-units, semantic-units, rscf, canon-group/meta, canon/registry, rscf/claim, rscf/provenance, rscf/state/derived, topic/unit-registry]
-
 aliases: "- AMOS Unit Registry
   - Unit Registry
   - AMOS Measurement Registry
   - AMOS Quantity and Dimension..."
 related: "see body"---
-
-
 # AMOS Unit Registry
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

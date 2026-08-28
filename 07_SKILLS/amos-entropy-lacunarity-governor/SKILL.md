@@ -3,9 +3,8 @@ title: SKILL — Amos Entropy Lacunarity Governor
 type: skill
 source: 07_SKILLS/amos-entropy-lacunarity-governor
 name: amos-entropy-lacunarity-governor
-description: Entropy Lacunarity Governor — info capability. Use when executing the
-  core capability within this domain. Use when amos-information-theory-master routes
-  to this specialized capability.
+description: Entropy Lacunarity Governor — info capability. Use when executing the core capability within
+  this domain. Use when amos-information-theory-master routes to this specialized capability.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
@@ -14,20 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/information-theory
-- canon-group/tech-ai
-- topic/information
-- capability/governance
-- capability/execution
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/E-entropy
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-entropy-lacunarity-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -52,6 +41,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

@@ -3,9 +3,9 @@ title: SKILL — Amos 7 Part Universe Canon Full
 type: skill
 source: 07_SKILLS/amos-7-part-universe-canon-full
 name: amos-7-part-universe-canon-full
-description: 7 Part Universe Canon Full — canon and universe capability. Use when
-  canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master
-  routes to this specialized capability.
+description: 7 Part Universe Canon Full — canon and universe capability. Use when canon reasoning, universe-level
+  analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized
+  capability.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/canon-universe
-- canon-group/tech-ai
-- topic/canon
-- capability/canon
-- capability/universe
-- capability/cosmo_brain_vault_content
-- capability/reasoning
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-7-part-universe-canon-full
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -60,6 +48,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

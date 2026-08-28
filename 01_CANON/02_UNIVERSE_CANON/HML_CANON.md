@@ -4,37 +4,26 @@ source: 01_CANON/02_UNIVERSE_CANON
 artifact_id: AMOS-HML-CANON
 name: HML_CANON
 title: "AMOS H/M/L Canon — Fractal Knowledge Resolution and Retrieval Architecture"
-
 document_version: "2.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: tech-ai
 canon_type: knowledge-architecture-canon
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, hml, fractal-knowledge, knowledge-resolution, retrieval, dependency-closure, rscf, provenance, epistemic-regime, scope, freshness, uncertainty, progressive-disclosure, context-management, evidence, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/hml-canon]
-
 aliases: "- AMOS HML Canon
   - H/M/L Canon
   - AMOS H/M/L Architecture
   - AMOS Fractal Knowledge Resolution C..."
 related: "see body"---
-
-
 # AMOS H/M/L Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

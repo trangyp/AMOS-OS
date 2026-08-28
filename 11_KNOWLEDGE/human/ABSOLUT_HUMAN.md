@@ -8,7 +8,6 @@ rscf:
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: human_alignment
-
 ---
 
 

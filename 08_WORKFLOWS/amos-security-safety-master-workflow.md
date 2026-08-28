@@ -5,32 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-security-safety-master
 Agent: amos-security-safety-agent
-Trigger: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls,
-  immune systems, drift alignment. Use for security analysis, safety verification,
-  or adversarial defense.
+Trigger: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift
+  alignment. Use for security analysis, safety verification, or adversarial defense.
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/security-safety
-- canon-group/tech-ai
-- topic/security
-- capability/security
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/B-boundary
-- rscf/T-topology
-- rscf/G-relation
-- rscf/type-system
-- orchestration/pipeline
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -61,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

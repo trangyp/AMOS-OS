@@ -4,36 +4,25 @@ source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-AUTHORITY-CANON
 name: AUTHORITY_CANON
 title: "AMOS Authority Canon — Decision Rights, Permission, Commit, and Governance Law"
-
 document_version: "2.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: governance
 canon_type: authority-canon
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, authority, governance, decision-rights, permissions, authorization, control-plane, commit, proposal, provenance, state, mvcc, cas, rscf, causal-lineage, recovery, security, canon-group/governance, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/authority-canon]
-
 aliases: "- AMOS Authority Canon
   - Authority Canon
   - AMOS Decision Rights Canon
   - AMOS Governance Author..."---
-
-
 # AMOS Authority Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

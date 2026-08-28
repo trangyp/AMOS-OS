@@ -11,7 +11,6 @@ plane: "01_CANON"
 segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "CANON_SPECIFICATION"
 path: "01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK_CANON.md"
-
 tags:
   - amos_os
   - canon
@@ -27,21 +26,16 @@ tags:
   - provenance
   - rscf
   - canon/universe
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "SOURCE_REPORTED_PARTIAL"
 validation_status: "SOURCE_REPORTED_NOT_INDEPENDENTLY_REVALIDATED"
 executable_binding: "SOURCE_REPORTED_PARTIAL"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL

@@ -3,9 +3,9 @@ title: SKILL — Amos Risk Constraint Governor
 type: skill
 source: 07_SKILLS/amos-risk-constraint-governor
 name: amos-risk-constraint-governor
-description: Risk Constraint Governor — organization, law and policy capability. Use
-  when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master
-  routes to this specialized capability.
+description: Risk Constraint Governor — organization, law and policy capability. Use when governance design,
+  legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized
+  capability.
 parent_skill: amos-c09-org-law-policy-master
 domain: c09
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/org-law-policy
-- canon-group/human-system
-- topic/governance
-- capability/governance
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-risk-constraint-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

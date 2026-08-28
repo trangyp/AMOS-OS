@@ -4,37 +4,26 @@ source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-COGNITION-CANON
 name: COGNITION_CANON
 title: "AMOS Cognition Canon — Governed Reasoning, Epistemic Integrity, and Adaptive Intelligence"
-
 document_version: "2.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: tech-ai
 canon_type: cognition-canon
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, cognition, cognition-canon, reasoning, epistemics, rscf, hml, gmef, proof-capsule, competing-hypotheses, causal-firewall, scope-firewall, regime-firewall, provenance, uncertainty, sensitivity, adaptive-complexity, governed-evolution, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/cognition-canon]
-
 aliases: "- AMOS Cognition Canon
   - Cognition Canon
   - AMOS Reasoning Canon
   - AMOS Cognitive Integrity Can..."
 related: "see body"---
-
-
 # AMOS Cognition Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

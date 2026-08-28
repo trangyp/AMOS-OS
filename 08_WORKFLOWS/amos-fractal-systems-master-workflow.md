@@ -5,32 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-fractal-systems-master
 Agent: amos-fractal-systems-agent
-Trigger: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity,
-  scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal
-  database. Use for fractal analysis, scale r
+Trigger: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L
+  fractal integrity levels. 500,000-entry quantum fractal database. Use for fractal analysis, scale r
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/fractal-systems
-- canon-group/tech-ai
-- topic/fractals
-- capability/fractal
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/T-topology
-- rscf/X-cross-scale
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/type-model
-- orchestration/pipeline
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -61,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

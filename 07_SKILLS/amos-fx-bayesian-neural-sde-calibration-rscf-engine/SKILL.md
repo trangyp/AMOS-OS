@@ -3,9 +3,9 @@ title: SKILL — Amos Fx Bayesian Neural Sde Calibration Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-bayesian-neural-sde-calibration-rscf-engine
 name: amos-fx-bayesian-neural-sde-calibration-rscf-engine
-description: Bayesian Neural Sde Calibration — forex and finance capability. Use when
-  forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master
-  routes to this specialized capability.
+description: Bayesian Neural Sde Calibration — forex and finance capability. Use when forex analysis,
+  currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized
+  capability.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/econ-finance
-- canon-group/tech-ai
-- topic/finance
-- capability/forex
-- topic/forex
-- capability/neural
-- capability/calibration
-- rscf/epistemic
-- rscf/S-state
-- rscf/E-entropy
-- rscf/G-relation
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-fx-bayesian-neural-sde-calibration-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,6 +44,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

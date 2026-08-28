@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: cognitive_model
-
 ---
 # AMOS COGNITIVE COMPRESSION KERNEL V0 META COGNITION4 2
 

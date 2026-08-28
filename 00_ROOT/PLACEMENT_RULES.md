@@ -7,62 +7,44 @@ title: "AMOS OS — Placement Rules"
 document_version: "2.0.0"
 architecture_contract_version: "1.0.0"
 amos_core_target: "v4.4"
-
 status: ACTIVE_ROOT
 conclusion_class: "AMOS_MODEL"
 rscf_state: "derived"
-
 canon_group: "tech-ai"
 canon_type: "root-architecture"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 created: "2026-08-25"
 updated: "2026-08-25"
-
 scope: "see body"
 tags: [amos, amos_os, root, amos-os, operating-system, cognitive-operating-system, system-architecture, infrastructure, canon, kernel, control-plane, runtime, cognition, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, provenance, rscf, gmef, hml, observability, security, tests, operations, domains, modes, research, archive, cognitive-matrix, governance, authority, provenance-topology, dependency-closure, failure-recovery, canon-group/tech-ai, canon/architecture, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/system-architecture, topic/cognitive-infrastructure]
-
 aliases: "- AMOS OS
   - AMOS Operating System
   - AMOS Cognitive Operating System
   - AMOS Universal Operating..."
 related: "see body"---
-
-
 # AMOS OS
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_ROOT`  
 > **AMOS_CORE target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
 AMOS OS is the governed infrastructure, cognition, knowledge, agent, skill, workflow, memory, control, runtime, and operations architecture of the AMOS ecosystem.
-
 It is intentionally separated into authoritative planes so that:
-
 ```text
 KNOWLEDGE
 does not become
 AUTHORITY
-
 CAPABILITY
 does not become
 PERMISSION
-
 RUNTIME
 does not become
 CANON
-
 MODEL
 does not become
 OBSERVATION
 ```
-
 The operating principle is:
-
 > **Integrity > completeness > fluency > speed > token savings.**
 rscf:
   state: SOURCE_CLAIM

@@ -8,7 +8,6 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-
 ---
 # ABSOLUTE TRANSCENDENT SYNTHESIS 20260219 214228
 

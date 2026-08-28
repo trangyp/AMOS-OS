@@ -1,54 +1,17 @@
 ---
 name: amos-c05-mind-behavior-master
-description: "AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for generic tasks outside c05 domain."
+description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine
+  v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use
+  when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group
+  dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social
+  dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for
+  generic tasks outside c05 domain.
 parent_skill: none
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 version: 1.1.0
 rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-title: "AMOS C05 — Mind & Behavior Master"
-type: mind
-source: 11_KNOWLEDGE
-tags:
-  - knowledge
-  - note
-  - canon/knowledge
-  - mind
-  - behavior
-  - emotion
-  - personality
-  - cognition
-  - motivation
-  - group_dynamics
-  - c05
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
-  canonical_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
-  node_id: amos_c05_mind_behavior_master_knowledge
-  node_type: note
 hml_level: H
 gmef_gates:
 - L0_integrity
@@ -68,7 +31,27 @@ law_compliance:
 - L16
 - L17
 - L18
+title: AMOS C05 — Mind & Behavior Master
+type: mind
+source: 11_KNOWLEDGE
+tags:
+- type/skill
+- canon/skill
+- domain/mind-behavior
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
+- amos_os
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: MODEL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+  canonical_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
+  node_id: amos_c05_mind_behavior_master_knowledge
+  node_type: note
 ---
+
 # AMOS C05 — Mind & Behavior Master Knowledge
 
 ## Identity

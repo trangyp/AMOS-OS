@@ -11,7 +11,6 @@ plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "REASONING"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI.md"
-
 tags:
   - amos_os
   - knowledge
@@ -27,20 +26,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -52,7 +47,6 @@ rscf:
     - KNOWLEDGE_FRAMEWORKS
     - FRACTAL_REASONING
     - SOURCE_DEFINED_FRAI_MODEL
-
 framework_binding:
   primary:
     name: "Trang FRAI (Fractal Reasoning AI)"
@@ -67,7 +61,6 @@ framework_binding:
     artifact: "[[TRANG_LMH_ARCHITECTURE]]"
   cognitive_matrix_binding:
     artifact: "[[25_COGNITIVE_MATRIX_MOC]]"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

@@ -3,9 +3,9 @@ title: SKILL — Amos Canon Universe Master
 type: skill
 source: 07_SKILLS/amos-canon-universe-master
 name: amos-canon-universe-master
-description: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants,
-  law hierarchy, universe-scale canonical structures. Use for canon reasoning, universe-level
-  analysis, or invariant ver...
+description: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy,
+  universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant
+  ver...
 parent_skill: none
 domain: canon
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/canon-universe
-- canon-group/tech-ai
-- topic/canon
-- capability/canon
-- capability/universe
-- capability/ast
-- capability/reasoning
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/T-topology
-- rscf/X-cross-scale
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_canon
 - amos_os
-- amos-canon-universe-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -60,6 +48,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

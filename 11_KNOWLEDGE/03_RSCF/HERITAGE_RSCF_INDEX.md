@@ -11,7 +11,6 @@ plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/03_RSCF"
 artifact_kind: "INDEX"
 path: "11_KNOWLEDGE/03_RSCF/HERITAGE_RSCF_INDEX.md"
-
 tags:
   - amos_os
   - knowledge
@@ -24,20 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -48,7 +43,6 @@ rscf:
     - KNOWLEDGE_RSCF
     - HERITAGE_RSCF_INDEX
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
   rscf_moc:
     artifact: "[[03_RSCF_MOC]]"
@@ -56,7 +50,6 @@ framework_binding:
     artifact: "[[HERITAGE_INTELLIGENCE_MASTER]]"
   claims_registry:
     artifact: "11_KNOWLEDGE/02_CLAIMS/HERITAGE_CLAIM_REGISTRY"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   index_structure: VERIFIED_SOURCE_STRUCTURE

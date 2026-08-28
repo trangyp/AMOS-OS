@@ -5,29 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-workflow-builder
 Agent: amos-workflow-builder-agent
-Trigger: When creating, updating, auditing, or packaging AMOS-aligned workflows with
-  validation gates and agent bindings
+Trigger: When creating, updating, auditing, or packaging AMOS-aligned workflows with validation gates
+  and agent bindings
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/workflow
-- capability/preconditions
-- capability/phases
-- capability/output
-- capability/failure_paths
-- capability/orchestration_pattern
-- rscf/epistemic
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -58,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

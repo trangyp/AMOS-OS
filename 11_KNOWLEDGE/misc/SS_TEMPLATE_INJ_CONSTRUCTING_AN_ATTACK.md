@@ -8,7 +8,6 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-
 ---
 
 # SS TEMPLATE INJ CONSTRUCTING AN ATTACK

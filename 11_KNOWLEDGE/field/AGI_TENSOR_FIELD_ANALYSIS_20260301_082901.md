@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: field_physics
-
 ---
 # AGI TENSOR FIELD ANALYSIS 20260301 082901
 

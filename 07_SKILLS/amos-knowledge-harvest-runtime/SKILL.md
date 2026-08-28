@@ -3,9 +3,9 @@ title: SKILL — Amos Knowledge Harvest Runtime
 type: skill
 source: 07_SKILLS/amos-knowledge-harvest-runtime
 name: amos-knowledge-harvest-runtime
-description: Knowledge Harvest Runtime — knowledge research capability. Use when knowledge
-  management, research, or Obsidian vault integration. Use when amos-knowledge-research-master
-  routes to this specialized capability.
+description: Knowledge Harvest Runtime — knowledge research capability. Use when knowledge management,
+  research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized
+  capability.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/knowledge-research
-- canon-group/tech-ai
-- topic/knowledge-management
-- capability/runtime
-- capability/knowledge
-- capability/search
-- capability/integration
-- rscf/epistemic
-- rscf/G-relation
-- rscf/S-state
-- rscf/M-memory
-- rscf/K-compression
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-knowledge-harvest-runtime
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +42,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

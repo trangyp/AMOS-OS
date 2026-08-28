@@ -4,16 +4,13 @@ type: heritage
 source: 25_COGNITIVE_MATRIX
 artifact: "HERITAGE_X_TRANG_ZERO.md"
 artifact_id: "amos_25_cognitive_matrix_heritage_x_trang_zero"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "ARTIFACT"
 path: "25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -44,101 +41,72 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 formal_verification_status: "NOT_ESTABLISHED"
 runtime_enforcement_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
-
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
-
   provenance:
     - TRANG_ZERO_FRAMEWORK_CANON
     - HERITAGE_INTELLIGENCE_CANON
     - AMOS_CORPUS
-
   scope:
     - FOUNDATIONAL_INVARIANTS
     - NULL_STATE_GOVERNANCE
     - DECISION_GOVERNANCE
     - ANTI_AUTOPOISONING
     - COGNITIVE_MATRIX
-
 framework_binding:
-
   heritage:
     name: "Heritage Decision Intelligence™"
     role: DECISION_INTELLIGENCE_AND_GOVERNANCE
-
   trang_zero:
     name: "Trang ∅ / Trang Zero Framework"
     role: ABSOLUTE_NULL_STATE_AND_INVARIANT_ROOT
-
   matrix_conjunction:
     name: "Heritage × TRANG Zero Matrix"
     artifact: "[[HERITAGE_X_TRANG_ZERO_MATRIX]]"
-
   heritage_tss:
     artifact: "[[HERITAGE_X_TSS]]"
-
   trang_reality:
     artifact: "[[AMOS_X_TRANG_REALITY]]"
-
   qls:
     artifact: "[[AMOS_X_QLS]]"
-
 epistemic_boundary:
-
   source_presence:
     VERIFIED_SOURCE_PRESENCE
-
   framework_structure:
     VERIFIED_SOURCE_STRUCTURE
-
   null_state_ground:
     SOURCE_DEFINED_MODEL
-
   invariant_root:
     SOURCE_DEFINED_MODEL
-
   zero_point_reset:
     SOURCE_DEFINED_MODEL
-
   anti_autopoisoning:
     SOURCE_DEFINED_MODEL
-
   decision_governance:
     SOURCE_DEFINED_MODEL
-
   ontological_boundary:
     SOURCE_DEFINED_MODEL
-
   physical_interpretation:
     NOT_ESTABLISHED
-
   runtime_enforcement:
     NOT_ESTABLISHED
-
   executable_reset:
     NOT_ESTABLISHED
-
   empirical_validation:
     NOT_ESTABLISHED
-
   formal_verification:
     NOT_ESTABLISHED
 ---

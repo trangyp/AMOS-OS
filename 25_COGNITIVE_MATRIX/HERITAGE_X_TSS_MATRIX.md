@@ -4,16 +4,13 @@ type: matrix
 source: 25_COGNITIVE_MATRIX
 artifact: "HERITAGE_X_TSS_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_heritage_x_tss_matrix"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX"
 path: "25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -45,86 +42,62 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 formal_verification_status: "NOT_ESTABLISHED"
 runtime_enforcement_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
-
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
-
   provenance:
     - HERITAGE_INTELLIGENCE_CANON
     - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
     - AMOS_CORPUS
-
   scope:
     - DECISION_ROUTING
     - MATRIX_TRAVERSAL
     - CYCLE_GOVERNANCE
     - RISK_LATTICE
     - COGNITIVE_MATRIX
-
 framework_binding:
-
   artifact:
     name: "Heritage × TSS"
     artifact_ref: "[[HERITAGE_X_TSS]]"
-
   heritage:
     name: "Heritage Decision Intelligence™"
     role: DECISION_INTELLIGENCE_AND_GOVERNANCE
-
   tss:
     name: "The Trang System™"
     role: CYCLE_AND_SYSTEM_STATE_FRAMEWORK
-
   role:
     MULTIDIMENSIONAL_DECISION_ROUTING_MATRIX
-
 epistemic_boundary:
-
   source_presence:
     VERIFIED_SOURCE_PRESENCE
-
   framework_structure:
     VERIFIED_SOURCE_STRUCTURE
-
   matrix_cells:
     SOURCE_DEFINED_MODEL
-
   traversal_protocol:
     SOURCE_DEFINED_MODEL
-
   decision_rules:
     SOURCE_DEFINED_MODEL
-
   cycle_diagnosis:
     SOURCE_DEFINED_MODEL
-
   risk_lattice:
     SOURCE_DEFINED_MODEL
-
   runtime_enforcement:
     NOT_ESTABLISHED
-
   empirical_validation:
     NOT_ESTABLISHED
-
   formal_verification:
     NOT_ESTABLISHED
 ---

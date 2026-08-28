@@ -5,31 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-active-inference-governor
 Agent: amos-active-inference-governor-agent
-Trigger: When active inference governance engine is needed within the c05 domain,
-  including perception-belief-action loop execution, governance gate validation, belief
-  state analysis, or inference drift detection.
+Trigger: When active inference governance engine is needed within the c05 domain, including perception-belief-action
+  loop execution, governance gate validation, belief state analysis, or inference drift detection.
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/governance
-- capability/workflow
-- capability/preconditions
-- capability/failure_paths
-- capability/output
-- capability/authority
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/T-topology
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -60,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

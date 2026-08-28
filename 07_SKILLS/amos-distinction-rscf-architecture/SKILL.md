@@ -3,9 +3,9 @@ title: SKILL — Amos Distinction Rscf Architecture
 type: skill
 source: 07_SKILLS/amos-distinction-rscf-architecture
 name: amos-distinction-rscf-architecture
-description: Distinction Rscf Architecture — Trang framework capability. Use when
-  Trang framework reasoning, cascade analysis, or reality architecture. Use when amos-trang-framework-master
-  routes to this specialized capability.
+description: Distinction Rscf Architecture — Trang framework capability. Use when Trang framework reasoning,
+  cascade analysis, or reality architecture. Use when amos-trang-framework-master routes to this specialized
+  capability.
 parent_skill: amos-trang-framework-master
 domain: trang
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/trang-framework
-- canon-group/tech-ai
-- topic/trang-framework
-- rscf/epistemic
-- rscf/D-distinction
-- rscf/S-state
-- rscf/T-topology
-- rscf/G-relation
-- rscf/type-concept
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-distinction-rscf-architecture
-- capability/provenance
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

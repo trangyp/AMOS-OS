@@ -10,25 +10,10 @@ Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/strategy-game
-- canon-group/human-system
-- topic/strategy
-- capability/mckinsey-strategy
-- topic/consulting
-- capability/workflow
-- capability/preconditions
-- capability/output
-- capability/failure_paths
-- capability/provenance
-- rscf/epistemic
-- rscf/P-repair
-- rscf/T-topology
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-process
-- orchestration/orchestrator-worker
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -59,6 +44,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

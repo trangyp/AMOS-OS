@@ -4,16 +4,13 @@ type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
 artifact: "HERITAGE_X_TRANG_ZERO_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_heritage_x_trang_zero_matrix"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX_TABLE"
 path: "25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -49,94 +46,66 @@ tags:
   - rscf
   - canon_candidate
   - canon/matrix
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 formal_verification_status: "NOT_ESTABLISHED"
 runtime_enforcement_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
-
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
-
   provenance:
     - 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO
     - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK
     - AMOS_CORPUS
-
   scope:
     - COGNITIVE_MATRIX
     - CROSS_PLANE_MATRIX_TABLE
     - HERITAGE_ZERO_ROUTING
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
-
   matrix_spec:
     artifact: "[[HERITAGE_X_TRANG_ZERO]]"
-
   zero_master:
     artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK"
-
   heritage_zero:
     artifact: "[[HERITAGE_ZERO_FRAMEWORK]]"
-
   cognitive_matrix:
     artifact: "[[25_COGNITIVE_MATRIX_MOC]]"
-
 epistemic_boundary:
-
   source_presence:
     VERIFIED_SOURCE_PRESENCE
-
   matrix_structure:
     VERIFIED_SOURCE_STRUCTURE
-
   routing_rows:
     VERIFIED_SOURCE_STRUCTURE
-
   cross_plane_routing:
     SOURCE_DEFINED_MODEL
-
   crisis_threshold_semantics:
     SOURCE_DEFINED_MODEL_WITH_UNRESOLVED_MEASUREMENT_BINDING
-
   historical_archetype_mapping:
     SOURCE_DEFINED_MODEL
-
   zero_reset_basins:
     SOURCE_DEFINED_MODEL
-
   anti_autopoisoning_actions:
     SOURCE_DEFINED_MODEL
-
   post_reset_reconstruction:
     SOURCE_DEFINED_MODEL
-
   runtime_enforcement:
     NOT_ESTABLISHED
-
   executable_reset:
     NOT_ESTABLISHED
-
   empirical_validation:
     NOT_ESTABLISHED
-
   historical_causal_validation:
     NOT_ESTABLISHED
-
   formal_verification:
     NOT_ESTABLISHED
 ---

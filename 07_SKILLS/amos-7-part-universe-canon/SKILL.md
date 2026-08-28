@@ -6,26 +6,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/canon-universe
-- canon-group/tech-ai
-- topic/canon
-- capability/canon
-- capability/universe
-- capability/seven_part_audit
-- capability/collapse_diagnosis
-- capability/structural_completeness_check
-- capability/law_stack_integration
-- capability/persistence_analysis
-- capability/enforcement_decay_detection
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/T-topology
-- rscf/X-cross-scale
-- rscf/type-concept
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-7-part-universe-canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,7 +40,14 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
+description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7
+  parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether
+  a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers,
+  identifying the Flow gap (Part II), or mapping persistence logic. Use whenever the user mentions 7-part
+  canon, persistence, structural completeness, system lifecycle, collapse, recovery, or universe canon
+  — even without explicitly asking for '7-part'.
 ---
+
 
 
 

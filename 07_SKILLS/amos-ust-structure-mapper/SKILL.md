@@ -3,9 +3,8 @@ title: SKILL — Amos Ust Structure Mapper
 type: skill
 source: 07_SKILLS/amos-ust-structure-mapper
 name: amos-ust-structure-mapper
-description: Ust Structure Mapper — runtime and OS capability. Use when runtime reasoning,
-  OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes
-  to this specialized capability.
+description: Ust Structure Mapper — runtime and OS capability. Use when runtime reasoning, OS kernel operations,
+  or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
@@ -14,19 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- rscf/epistemic
-- rscf/S-state
-- rscf/T-topology
-- rscf/μ-mutation
-- rscf/G-relation
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-ust-structure-mapper
-- capability/provenance
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,6 +46,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

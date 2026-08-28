@@ -2,7 +2,6 @@
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags: [amos, cognitive-matrix, l03, percept-formation, equations, mathematical-rigor, rscf, hml, provenance, canon/cognitive-matrix]
-
 title: "L03_PERCEPT_FORMATION — Equations"
 origin_architect: "Trang Phan"
 status: "MODEL_EQUATION_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

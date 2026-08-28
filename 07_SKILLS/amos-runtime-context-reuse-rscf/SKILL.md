@@ -3,9 +3,9 @@ title: SKILL — Amos Runtime Context Reuse Rscf
 type: skill
 source: 07_SKILLS/amos-runtime-context-reuse-rscf
 name: amos-runtime-context-reuse-rscf
-description: Runtime Context Reuse — boundary and scope capability. Use when evaluating
-  scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master
-  routes to this specialized capability.
+description: Runtime Context Reuse — boundary and scope capability. Use when evaluating scope boundaries,
+  context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized
+  capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
@@ -14,21 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/boundary-scope
-- canon-group/tech-ai
-- topic/scope-management
-- capability/context-management
-- capability/runtime
-- capability/provenance
-- rscf/epistemic
-- rscf/S-state
-- rscf/B-boundary
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-runtime-context-reuse-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

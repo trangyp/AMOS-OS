@@ -14,7 +14,6 @@ plane: KERNEL
 kernel_family: MEMORY
 scope: AMOS_OS
 updated: 2026-08-26
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, kernel/memory, kernel/memory-admission, kernel/provenance, kernel/epistemics, kernel/freshness, kernel/dependency, kernel/recovery, rscf/claim, rscf/provenance, topic/memory, topic/admission, topic/persistence, topic/knowledge-harvest, topic/invalidation, canon/kernel]
 rscf:
   state: DERIVED

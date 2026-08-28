@@ -15,7 +15,6 @@ tags:
   - bridge_governance
   - epistemic_governance
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

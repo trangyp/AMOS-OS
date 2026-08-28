@@ -3,9 +3,8 @@ title: SKILL — Amos Session Control Plane
 type: skill
 source: 07_SKILLS/amos-session-control-plane
 name: amos-session-control-plane
-description: Session Control Plane — runtime and OS capability. Use when runtime reasoning,
-  OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes
-  to this specialized capability.
+description: Session Control Plane — runtime and OS capability. Use when runtime reasoning, OS kernel
+  operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
@@ -14,21 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/session
-- capability/reasoning
-- capability/adaptation
-- rscf/epistemic
-- rscf/S-state
-- rscf/T-topology
-- rscf/μ-mutation
-- rscf/G-relation
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-session-control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -58,6 +46,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

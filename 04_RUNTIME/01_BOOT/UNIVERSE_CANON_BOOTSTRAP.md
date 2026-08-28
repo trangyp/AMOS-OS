@@ -11,7 +11,6 @@ plane: "04_RUNTIME"
 segment: "04_RUNTIME/01_BOOT"
 artifact_kind: "BOOTSTRAP_SPEC"
 path: "04_RUNTIME/01_BOOT/UNIVERSE_CANON_BOOTSTRAP.md"
-
 tags:
   - amos_os
   - runtime
@@ -23,20 +22,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/runtime
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -48,7 +43,6 @@ rscf:
     - RUNTIME_BOOT
     - UNIVERSE_BOOTSTRAP
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
   boot_moc:
     artifact: "04_RUNTIME/01_BOOT/01_BOOT_MOC"
@@ -56,7 +50,6 @@ framework_binding:
     artifact: "01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC"
   matrix_binding:
     artifact: "25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   spec_structure: VERIFIED_SOURCE_STRUCTURE

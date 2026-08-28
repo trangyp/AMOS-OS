@@ -3,9 +3,9 @@ title: SKILL — Amos Causal Hierarchy Governor
 type: skill
 source: 07_SKILLS/amos-causal-hierarchy-governor
 name: amos-causal-hierarchy-governor
-description: Causal Hierarchy Governor — causal reasoning capability. Use when causal
-  analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
-  routes to this specialized capability.
+description: Causal Hierarchy Governor — causal reasoning capability. Use when causal analysis, counterfactual
+  reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized
+  capability.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/causal-reasoning
-- canon-group/tech-ai
-- topic/causality
-- capability/causal-reasoning
-- capability/governance
-- capability/hierarchy
-- capability/reasoning
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/T-topology
-- rscf/S-state
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-causal-hierarchy-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -58,6 +46,7 @@ law_compliance:
 - L18
 - L24
 ---
+
 
 
 

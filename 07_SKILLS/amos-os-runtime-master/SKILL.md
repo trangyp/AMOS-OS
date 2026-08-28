@@ -13,23 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/runtime
-- capability/ast
-- capability/audit
-- capability/repair
-- capability/execution
-- rscf/epistemic
-- rscf/S-state
-- rscf/T-topology
-- rscf/M-memory
-- rscf/C-constraint
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_canon
 - amos_os
-- amos-os-runtime-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -59,6 +46,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

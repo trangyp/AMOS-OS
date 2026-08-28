@@ -20,20 +20,13 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/semantics, canon/termin
 aliases: "- AMOS Deprecated Terms
   - Deprecated Terminology Registry
   - AMOS Terminology Migration Registry..."---
-
-
 # AMOS OS Deprecated Terms
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** v4.4  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## 1. Purpose
-
 `DEPRECATED_TERMS.md` is the canonical lifecycle registry for terminology that should no longer be used as the preferred semantic identity in current AMOS OS artifacts.
-
 Deprecation preserves lineage rather than erasing history.
-
 ```text
 OLD TERM
 → DEPRECATION RECORD
@@ -41,9 +34,7 @@ OLD TERM
 → MIGRATION
 → PROVENANCE PRESERVED
 ```
-
 A deprecated term may remain visible in historical artifacts, aliases, citations, provenance records, migration tables, archived code, and supersession chains.
-
 It must not silently regain canonical status through repetition.
 rscf:
   state: DERIVED

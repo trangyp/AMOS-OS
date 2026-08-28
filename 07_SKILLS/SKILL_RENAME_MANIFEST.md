@@ -11,7 +11,6 @@ rscf:
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
-
 ---
 
 

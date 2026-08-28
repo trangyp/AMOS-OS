@@ -8,50 +8,35 @@ artifact_type: canonical_lineage_framework
 status: SOURCE_CLAIM
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 domain: canon
 scope: AMOS_OS
 authority_scope: source-ancestry-derivation-transformation-and-supersession-lineage
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/provenance, canon/lineage, canon/source-lineage, canon/supersession, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/source-lineage, topic/source-ancestry, topic/causal-lineage, topic/provenance-topology, topic/dependency-lineage, topic/version-lineage, topic/supersession, topic/sybil-hardening, topic/persistent-provenance]
-
 aliases: "- AMOS Source Lineage
   - AMOS OS Source Lineage
   - Source Ancestry
   - Canon Source Lineage..."---
-
-
 # AMOS OS Source Lineage
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`  
 > **Status:** `SOURCE_CLAIM`
-
 ## 1. Purpose
-
 `SOURCE_LINEAGE.md` defines how AMOS OS represents the ancestry, transformation, derivation, migration, consolidation, version evolution, and supersession of sources.
-
 Its central question is:
-
 ```text
 HOW DID THIS ARTIFACT,
 CLAIM,
 MODEL,
 DECISION,
 OR STATE
-
 GET HERE?
 ```
-
 Source lineage provides the path:
-
 ```text
 ORIGIN
 ↓
@@ -69,13 +54,10 @@ DEPENDENT CLAIMS
 ↓
 CURRENT STATE
 ```
-
 The governing law is:
-
 ```text
 NO LINEAGE
 → NO ASSUMED ANCESTRY
-
 UNKNOWN LINEAGE
 → UNKNOWN/GAP
 ```

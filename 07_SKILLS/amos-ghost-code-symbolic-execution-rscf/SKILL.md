@@ -3,9 +3,9 @@ title: SKILL — Amos Ghost Code Symbolic Execution Rscf
 type: skill
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf
 name: amos-ghost-code-symbolic-execution-rscf
-description: Ghost Code Symbolic Execution — formal verification capability. Use when
-  formal verification, symbolic execution, proof checking, or mathematical reasoning.
-  Use when amos-formal-engines-master routes to this specialized capability.
+description: Ghost Code Symbolic Execution — formal verification capability. Use when formal verification,
+  symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes
+  to this specialized capability.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
@@ -14,23 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/formal-engines
-- canon-group/tech-ai
-- topic/formal-verification
-- capability/code
-- capability/symbolic
-- capability/ghost-code
-- capability/execution
-- capability/reasoning
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-ghost-code-symbolic-execution-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -63,6 +50,7 @@ law_compliance:
 - L19
 - L22
 ---
+
 
 
 

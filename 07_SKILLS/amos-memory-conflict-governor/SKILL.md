@@ -3,9 +3,9 @@ title: SKILL — Amos Memory Conflict Governor
 type: skill
 source: 07_SKILLS/amos-memory-conflict-governor
 name: amos-memory-conflict-governor
-description: Memory Conflict Governor — memory systems capability. Use when memory
-  management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master
-  routes to this specialized capability.
+description: Memory Conflict Governor — memory systems capability. Use when memory management, context
+  continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized
+  capability.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/memory-systems
-- canon-group/tech-ai
-- topic/memory
-- capability/memory
-- capability/governance
-- capability/conflict-resolution
-- capability/context_management
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/M-memory
-- rscf/B-boundary
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-memory-conflict-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +42,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

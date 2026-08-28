@@ -22,33 +22,22 @@ aliases: "- AMOS Alias Registry
   - AMOS Identity Alias Registry
   - Canonical Alias Registry
   - Alias Resolu..."---
-
-
 # AMOS OS Alias Registry
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** v4.4  
 > **Conclusion class:** `AMOS_MODEL`  
 > **Authority:** canonical identity-resolution registry
-
 ## 1. Purpose
-
 The **AMOS OS Alias Registry** defines how alternate names, historical names, abbreviations, display labels, legacy identifiers, renamed artifacts, and compatibility identifiers resolve to canonical AMOS identities.
-
 Its purpose is to preserve **identity continuity without collapsing distinct concepts**.
-
 An alias may provide another route to an existing identity.
-
 It does **not** automatically create a new identity.
-
 ```text
 ALIAS
 → RESOLUTION
 → CANONICAL IDENTITY
 ```
-
 The governing distinction is:
-
 ```text
 NAME != IDENTITY
 ALIAS != CANON
@@ -58,7 +47,6 @@ DISPLAY LABEL != IDENTITY
 VERSION LABEL != IDENTITY
 SEMANTIC SIMILARITY != IDENTITY
 ```
-
 This registry exists because AMOS artifacts can evolve, move, be renamed, acquire abbreviations, or retain historical references while their canonical identity and provenance must remain recoverable.
 rscf:
   state: DERIVED

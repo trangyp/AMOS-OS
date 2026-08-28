@@ -3,9 +3,9 @@ title: SKILL — Amos Causal Closure Governor
 type: skill
 source: 07_SKILLS/amos-causal-closure-governor
 name: amos-causal-closure-governor
-description: Causal Closure Governor — causal reasoning capability. Use when causal
-  analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
-  routes to this specialized capability.
+description: Causal Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual
+  reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized
+  capability.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/causal-reasoning
-- canon-group/tech-ai
-- topic/causality
-- capability/causal-reasoning
-- capability/governance
-- capability/closure
-- capability/cosmo_brain_vault_content
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-causal-closure-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -58,6 +46,7 @@ law_compliance:
 - L18
 - L24
 ---
+
 
 
 

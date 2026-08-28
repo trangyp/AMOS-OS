@@ -4,24 +4,18 @@ source: 00_ROOT
 artifact_id: AMOS-OS-NEURAL-NETWORK
 name: AMOS_OS_NEURAL_NETWORK
 title: "AMOS Neural Network — Vault Graph Hub and Cross-Plane Connectivity Map"
-
 document_version: "2.0.0"
 network_map_version: "1.0.0"
 amos_core_target: "v4.4"
-
 status: ACTIVE_MAP
 conclusion_class: "AMOS_MODEL"
 rscf_state: "derived"
-
 canon_group: "tech-ai"
 canon_type: "navigation-map"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 created: "2026-08-25"
 updated: "2026-08-25"
-
 scope: "- AMOS_OS
   - vault_navigation
   - graph_connectivity
@@ -29,16 +23,12 @@ scope: "- AMOS_OS
   - obsidian_graph
   - n..."
 tags: [amos, amos_os, root, amos-os, neural-network, vault-network, knowledge-graph, graph-view, obsidian, navigation, topology, root-hub, canon, kernel, control-plane, runtime, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, observability, security, tests, operations, domains, modes, research, operating-model, archive, cognitive-matrix, rscf, gmef, hml, provenance, dependency-topology, canon-group/tech-ai, canon/navigation, canon/map, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/neural-network, topic/knowledge-graph, topic/vault-navigation]
-
 aliases: "- AMOS Neural Network
   - AMOS Vault Neural Network
   - AMOS Knowledge Graph Hub
   - AMOS OS Graph H..."
 related: "see body"---
-
-
 # AMOS Neural Network
-
 > **Status:** `ACTIVE_MAP`  
 > **AMOS_CORE target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

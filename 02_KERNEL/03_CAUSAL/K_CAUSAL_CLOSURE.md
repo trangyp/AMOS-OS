@@ -8,72 +8,52 @@ artifact_type: kernel_causal_closure_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_family: CAUSAL
 domain: causal-closure
 scope: AMOS_OS
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/causal, kernel/causal-closure, kernel/dependency, kernel/provenance, kernel/epistemic, kernel/scope, kernel/regime, kernel/freshness, kernel/rscf, kernel/counterfactual, kernel/multi-hypothesis, kernel/validation, kernel/recovery, provenance/topology, provenance/independence, causal/firewall, causal/lineage, causal/finality, rscf/claim, rscf/provenance, rscf/state/model, topic/causal-closure, topic/causal-lineage, topic/causal-dependency]
-
 aliases: "- AMOS Causal Closure Kernel
   - Causal Closure Kernel
   - K Causal Closure
   - K_CAUSAL_CLOSURE..."---
-
-
 # K CAUSAL CLOSURE
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_CAUSAL_CLOSURE` defines the AMOS kernel contract for determining the **smallest sufficient causal subgraph** required to support, challenge, invalidate, or update a causal conclusion.
-
 Its central question is:
-
 ```text
 FOR CLAIM C,
-
 WHICH CAUSAL NODES,
 EDGES,
 CONFOUNDERS,
 MEDIATORS,
 REGIME CONDITIONS,
 AND PROVENANCE ROOTS
-
 MUST BE VALID
 FOR C TO REMAIN VALID?
 ```
-
 The kernel exists to prevent both:
-
 ```text
 UNDER-CLOSURE
 =
 MISSING LOAD-BEARING CAUSAL DEPENDENCIES
 ```
-
 and:
-
 ```text
 OVER-CLOSURE
 =
 DRAGGING THE ENTIRE SYSTEM INTO EVERY CAUSAL QUERY
 ```
-
 The target is:
-
 ```text
 SMALLEST SUFFICIENT CAUSAL CLOSURE
 ```

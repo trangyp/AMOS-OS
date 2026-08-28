@@ -5,30 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c10-tech-engineering-master
 Agent: amos-c10-tech-engineering-agent
-Trigger: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps,
-  architecture, factory systems, production. Use for software development, engineering
-  design, or technical architecture.
+Trigger: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture,
+  factory systems, production. Use for software development, engineering design, or technical architecture.
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/tech-engineering
-- canon-group/tech-ai
-- topic/engineering
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/type-system
-- orchestration/orchestrator-worker
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -59,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

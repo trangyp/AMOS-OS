@@ -11,7 +11,6 @@ plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "INTELLIGENCE"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER.md"
-
 tags:
   - amos_os
   - knowledge
@@ -28,20 +27,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -53,7 +48,6 @@ rscf:
     - KNOWLEDGE_FRAMEWORKS
     - DECISION_INTELLIGENCE
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
   primary:
     name: "Heritage Decision Intelligence™"
@@ -66,7 +60,6 @@ framework_binding:
     matrix: "[[HERITAGE_X_TSS_MATRIX]]"
   null_state_coupling:
     artifact: "[[HERITAGE_TO_TRANG_ZERO_BINDING]]"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

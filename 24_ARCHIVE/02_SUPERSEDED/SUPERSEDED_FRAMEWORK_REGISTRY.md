@@ -11,12 +11,9 @@ plane: "24_ARCHIVE"
 segment: "24_ARCHIVE/02_SUPERSEDED"
 artifact_kind: "REGISTRY"
 path: "24_ARCHIVE/02_SUPERSEDED/SUPERSEDED_FRAMEWORK_REGISTRY.md"
-
 tags: [amos_os, archive, legacy, 24_archive, registry, canon_placeholder, rscf, canon/archive]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

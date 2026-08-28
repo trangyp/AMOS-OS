@@ -4,8 +4,7 @@ type: skill
 source: 07_SKILLS/amos-rscf-epistemic-master
 name: amos-rscf-epistemic-master
 description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence
-  ceiling. 6 state kinds. Use for epistemic classification, claim assessment, or evidence
-  validation.
+  ceiling. 6 state kinds. Use for epistemic classification, claim assessment, or evidence validation.
 parent_skill: none
 domain: rscf
 origin_architect: Trang Phan
@@ -14,23 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/rscf-epistemic
-- canon-group/tech-ai
-- topic/epistemology
-- capability/ast
-- capability/classification
-- capability/assessment
-- capability/falsification
-- capability/scope_management
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/S-state
-- rscf/M-memory
-- rscf/B-boundary
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_canon
 - amos_os
-- amos-rscf-epistemic-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -59,6 +45,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

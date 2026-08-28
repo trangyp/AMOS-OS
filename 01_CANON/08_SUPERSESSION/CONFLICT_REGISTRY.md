@@ -8,37 +8,25 @@ artifact_type: canonical_conflict_registry
 status: SOURCE_CLAIM
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 domain: canon
 scope: AMOS_OS
 authority_scope: conflict-identification-preservation-classification-resolution-and-invalidation
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/registry, canon/conflict-registry, canon/provenance, canon/lineage, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/conflict-registry, topic/contradiction, topic/competing-hypotheses, topic/evidence-topology, topic/provenance-topology, topic/source-independence, topic/regime, topic/scope, topic/invalidation, topic/adversarial-validation]
-
 aliases: "- AMOS Conflict Registry
   - AMOS OS Conflict Registry
   - Canon Conflict Registry..."---
-
-
 # AMOS OS Conflict Registry
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`  
 > **Status:** `SOURCE_CLAIM`
-
 ## 1. Purpose
-
 `CONFLICT_REGISTRY.md` defines the canonical AMOS OS contract for identifying, recording, preserving, classifying, testing, resolving, superseding, and auditing material conflicts.
-
 A conflict may exist between:
-
 ```text
 CLAIMS
 SOURCES
@@ -57,7 +45,6 @@ PROVENANCE RECORDS
 STATE RECORDS
 TEST RESULTS
 ```
-
 The registry exists so contradiction is never silently removed for fluency, convenience, majority agreement, or premature convergence.
 rscf:
   state: DERIVED

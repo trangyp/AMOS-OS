@@ -3,9 +3,9 @@ title: SKILL — Amos Semantic Token Flow Firewall Rscf
 type: skill
 source: 07_SKILLS/amos-semantic-token-flow-firewall-rscf
 name: amos-semantic-token-flow-firewall-rscf
-description: Semantic Token Flow Firewall — security and safety capability. Use when
-  security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master
-  routes to this specialized capability.
+description: Semantic Token Flow Firewall — security and safety capability. Use when security analysis,
+  safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized
+  capability.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
@@ -14,20 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/security-safety
-- canon-group/tech-ai
-- topic/security
-- capability/firewall
-- capability/firewall_enforcement
-- rscf/epistemic
-- rscf/B-boundary
-- rscf/C-constraint
-- rscf/T-topology
-- rscf/D-distinction
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-semantic-token-flow-firewall-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +47,7 @@ law_compliance:
 - L18
 - L23
 ---
+
 
 
 

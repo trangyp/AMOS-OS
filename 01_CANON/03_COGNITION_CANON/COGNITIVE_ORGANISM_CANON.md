@@ -4,37 +4,26 @@ source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-COGNITIVE-ORGANISM-CANON
 name: COGNITIVE_ORGANISM_CANON
 title: "AMOS Cognitive Organism Canon — Governed Cognitive Subsystem Architecture"
-
 document_version: "2.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: tech-ai
 canon_type: cognitive-organism-canon
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, cognition, cognitive-organism, cognitive-architecture, cognitive-organs, reasoning, perception, memory, learning, planning, decision, metacognition, rscf, hml, provenance, uncertainty, adaptive-complexity, governed-evolution, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/cognitive-organism-canon]
-
 aliases: "- AMOS Cognitive Organism Canon
   - Cognitive Organism Canon
   - AMOS Cognitive Organism
   - Cogniti..."
 related: "see body"---
-
-
 # AMOS Cognitive Organism Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

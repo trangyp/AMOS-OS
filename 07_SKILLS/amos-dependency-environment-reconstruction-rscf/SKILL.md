@@ -3,10 +3,9 @@ title: SKILL — Amos Dependency Environment Reconstruction Rscf
 type: skill
 source: 07_SKILLS/amos-dependency-environment-reconstruction-rscf
 name: amos-dependency-environment-reconstruction-rscf
-description: Dependency Environment Reconstruction — RSCF epistemic capability. Use
-  when classifying claims by epistemic state, validating outputs against epistemic
-  and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master
-  rou...
+description: Dependency Environment Reconstruction — RSCF epistemic capability. Use when classifying claims
+  by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence
+  structure. Use when amos-rscf-epistemic-master rou...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
@@ -15,20 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/rscf-epistemic
-- canon-group/tech-ai
-- topic/epistemology
-- rscf/epistemic
-- rscf/D-distinction
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-dependency-environment-reconstruction-rscf
-- capability/analysis
-- capability/classification
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +46,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

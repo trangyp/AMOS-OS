@@ -3,9 +3,9 @@ title: SKILL — Amos Information Boundary Governor
 type: skill
 source: 07_SKILLS/amos-information-boundary-governor
 name: amos-information-boundary-governor
-description: Information Boundary Governor — boundary and scope capability. Use when
-  evaluating scope boundaries, context continuity, or capability bounds. Use when
-  amos-boundary-scope-master routes to this specialized capability.
+description: Information Boundary Governor — boundary and scope capability. Use when evaluating scope
+  boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to
+  this specialized capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
@@ -14,21 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/boundary-scope
-- canon-group/tech-ai
-- topic/scope-management
-- capability/boundary
-- capability/governance
-- capability/provenance
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/B-boundary
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-information-boundary-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

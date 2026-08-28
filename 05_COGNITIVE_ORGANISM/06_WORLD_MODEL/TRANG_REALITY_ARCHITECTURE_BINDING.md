@@ -11,12 +11,9 @@ plane: "05_COGNITIVE_ORGANISM"
 segment: "05_COGNITIVE_ORGANISM/06_WORLD_MODEL"
 artifact_kind: "BINDING"
 path: "05_COGNITIVE_ORGANISM/06_WORLD_MODEL/TRANG_REALITY_ARCHITECTURE_BINDING.md"
-
 tags: [amos_os, cognitive, organism, 05_cognitive_organism, binding, canon_placeholder, rscf, canon/cognitive]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

@@ -13,7 +13,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: temporal_log
-
 ---
 
 

@@ -4,37 +4,26 @@ source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-FULL-BRAIN-OS-CANON
 name: FULL_BRAIN_OS_CANON
 title: "AMOS Full Brain OS Canon — Unified Cognitive Systems Architecture"
-
 document_version: "2.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: tech-ai
 canon_type: full-brain-os-canon
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, full-brain-os, cognitive-architecture, cognitive-organism, cognition, intelligence, reasoning, memory, knowledge, learning, agents, skills, workflows, models, rscf, hml, provenance, uncertainty, metacognition, adaptive-complexity, governed-evolution, canon-group/tech-ai, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/full-brain-os]
-
 aliases: "- AMOS Full Brain OS
   - Full Brain OS
   - AMOS Full Brain Architecture
   - AMOS Brain OS..."
 related: "see body"---
-
-
 # AMOS Full Brain OS Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

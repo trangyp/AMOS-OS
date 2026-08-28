@@ -3,12 +3,11 @@ title: SKILL — Amos Cross Domain Tensor Composition Governor
 type: skill
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor
 name: amos-cross-domain-tensor-composition-governor
-description: Cross-Domain Tensor Composition Governor — RSCF epistemic capability.
-  Governs when and how typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) from different
-  AMOS domains (C01-C12) can be composed. Enforces the tensor compatibility invariant,
-  epistemic class preservation across domain boundaries, the weakest-load-bearing-edge
-  confidence rule, and cross-domain provenance tracking. Use when composing claims,
-  evidence, or reasoning across two or more AMOS domains. Use when amos-rscf-epistemic-master
+description: Cross-Domain Tensor Composition Governor — RSCF epistemic capability. Governs when and how
+  typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) from different AMOS domains (C01-C12) can be composed.
+  Enforces the tensor compatibility invariant, epistemic class preservation across domain boundaries,
+  the weakest-load-bearing-edge confidence rule, and cross-domain provenance tracking. Use when composing
+  claims, evidence, or reasoning across two or more AMOS domains. Use when amos-rscf-epistemic-master
   routes to this specialized capability.
 parent_skill: amos-rscf-epistemic-master
 domain: cross-domain
@@ -17,22 +16,11 @@ epistemic_class: SOURCE_CLAIM
 tags:
 - type/skill
 - canon/skill
-- domain/rscf-epistemic
-- canon-group/tech-ai
-- topic/epistemology
-- capability/tensor
-- capability/governance
-- capability/enforcement
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/M-memory
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-cross-domain-tensor-composition-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -60,6 +48,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

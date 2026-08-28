@@ -4,56 +4,38 @@ source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-UNIVERSAL-VARIABLE-REGISTRY
 name: UNIVERSAL_VARIABLE_REGISTRY
 title: "AMOS Universal Variable Registry"
-
 document_version: "1.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
-
 canon_group: meta
 canon_type: registry
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, universal-variable-registry, variables, symbols, units, types, semantics, scope, provenance, epistemics, uncertainty, causality, state, cognition, rscf, hml, canon-group/meta, canon/registry, topic/variables, topic/semantic-identity]
-
 aliases: "- AMOS Universal Variable Registry
   - Universal Variable Registry
   - AMOS Variable Registry
   - AM..."
 related: "see body"---
-
-
 # AMOS Universal Variable Registry
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## 0. Purpose
-
 The **Universal Variable Registry (UVR)** defines the canonical identity, typing, scope, semantics, provenance, lifecycle, and interoperability rules for variables used throughout AMOS OS.
-
 It exists to prevent a variable from becoming meaningful merely because a symbol or field name exists.
-
 Core law:
-
 ```text
 VARIABLE NAME
 !=
 VARIABLE IDENTITY
 ```
-
 A variable is conceptually:
-
 ```text
 VARIABLE
 =
@@ -71,9 +53,7 @@ TEMPORAL VALIDITY
 +
 PROVENANCE
 ```
-
 with additional dimensions where applicable:
-
 ```text
 +
 UNIT
@@ -88,9 +68,7 @@ DEPENDENCIES
 +
 VERSION
 ```
-
 The registry is a semantic identity layer.
-
 It is not a store of all runtime values.
 rscf:
   state: DERIVED

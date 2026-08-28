@@ -5,32 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-memory-systems-master
 Agent: amos-memory-systems-agent
-Trigger: AMOS Memory Systems — 3 memory types, context compaction, memory conflict
-  resolution, memory immune system, action-memory firewall. Use for memory management,
-  context continuity, or memory conflict
+Trigger: AMOS Memory Systems — 3 memory types, context compaction, memory conflict resolution, memory
+  immune system, action-memory firewall. Use for memory management, context continuity, or memory conflict
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/memory-systems
-- canon-group/tech-ai
-- topic/memory
-- capability/memory
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/M-memory
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -61,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

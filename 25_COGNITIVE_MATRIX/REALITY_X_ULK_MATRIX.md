@@ -4,16 +4,13 @@ type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
 artifact: "REALITY_X_ULK_MATRIX.md"
 artifact_id: "amos_25_cognitive_matrix_reality_x_ulk_matrix"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "MATRIX_TABLE"
 path: "25_COGNITIVE_MATRIX/REALITY_X_ULK_MATRIX.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -32,60 +29,44 @@ tags:
   - rscf
   - canon_candidate
   - canon/matrix
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 formal_verification_status: "NOT_ESTABLISHED"
 runtime_enforcement_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
-
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
-
   provenance:
     - 25_COGNITIVE_MATRIX/REALITY_X_ULK
     - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
     - 02_KERNEL/01_ULK
     - AMOS_CORPUS
-
   scope:
     - COGNITIVE_MATRIX
     - CROSS_PLANE_MATRIX_TABLE
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
-
   matrix_spec:
     artifact: "[[REALITY_X_ULK]]"
-
   reality_master:
     artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE"
-
   ulk_moc:
     artifact: "02_KERNEL/01_ULK/01_ULK_MOC"
-
 epistemic_boundary:
-
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
   routing_assignments: VERIFIED_SOURCE_STRUCTURE
-
   cross_plane_routing: SOURCE_DEFINED_MODEL
   operator_semantics: SOURCE_DEFINED_MODEL
   transformation_contracts: SOURCE_DEFINED_MODEL
-
   ontological_truth: NOT_INDEPENDENTLY_ESTABLISHED
   mathematical_validity: NOT_INDEPENDENTLY_ESTABLISHED
   empirical_grounding: NOT_ESTABLISHED

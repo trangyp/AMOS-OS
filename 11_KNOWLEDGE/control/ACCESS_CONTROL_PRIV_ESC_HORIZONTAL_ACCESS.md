@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: control_plane
-
 ---
 
 # ACCESS CONTROL PRIV ESC HORIZONTAL ACCESS

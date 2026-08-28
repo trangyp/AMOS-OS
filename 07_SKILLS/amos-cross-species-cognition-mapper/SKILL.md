@@ -3,9 +3,9 @@ title: SKILL — Amos Cross Species Cognition Mapper
 type: skill
 source: 07_SKILLS/amos-cross-species-cognition-mapper
 name: amos-cross-species-cognition-mapper
-description: Cross Species Cognition Mapper — biology and neuroscience capability.
-  Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
-  routes to this specialized capability.
+description: Cross Species Cognition Mapper — biology and neuroscience capability. Use when biological
+  reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized
+  capability.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
@@ -14,20 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/bio-neuro
-- canon-group/biology
-- topic/neuroscience
-- capability/cognition
-- capability/provenance
-- rscf/epistemic
-- rscf/M-memory
-- rscf/S-state
-- rscf/G-relation
-- rscf/C-constraint
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-cross-species-cognition-mapper
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

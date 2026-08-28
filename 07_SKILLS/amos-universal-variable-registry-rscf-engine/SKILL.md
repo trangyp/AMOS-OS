@@ -3,9 +3,9 @@ title: SKILL — Amos Universal Variable Registry Rscf Engine
 type: skill
 source: 07_SKILLS/amos-universal-variable-registry-rscf-engine
 name: amos-universal-variable-registry-rscf-engine
-description: Universal Variable Registry — RSCF epistemic capability. Use when classifying
-  claims by epistemic state, validating outputs against epistemic and scope constraints,
-  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to thi...
+description: Universal Variable Registry — RSCF epistemic capability. Use when classifying claims by epistemic
+  state, validating outputs against epistemic and scope constraints, or analyzing evidence structure.
+  Use when amos-rscf-epistemic-master routes to thi...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/rscf-epistemic
-- canon-group/tech-ai
-- topic/epistemology
-- rscf/epistemic
-- rscf/D-distinction
-- rscf/M-memory
-- rscf/C-constraint
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-universal-variable-registry-rscf-engine
-- capability/analysis
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,6 +46,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

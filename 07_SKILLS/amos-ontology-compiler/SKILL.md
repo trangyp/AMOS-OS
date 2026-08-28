@@ -3,9 +3,9 @@ title: SKILL — Amos Ontology Compiler
 type: skill
 source: 07_SKILLS/amos-ontology-compiler
 name: amos-ontology-compiler
-description: Ontology Compiler — canon and universe capability. Use when canon reasoning,
-  universe-level analysis, or invariant verification. Use when amos-canon-universe-master
-  routes to this specialized capability.
+description: Ontology Compiler — canon and universe capability. Use when canon reasoning, universe-level
+  analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized
+  capability.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/canon-universe
-- canon-group/tech-ai
-- topic/canon
-- capability/compilation
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/M-memory
-- rscf/G-relation
-- rscf/type-process
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-ontology-compiler
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +48,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 

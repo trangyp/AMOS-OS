@@ -4,36 +4,25 @@ source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-SYMBOL-REGISTRY
 name: SYMBOL_REGISTRY
 title: "AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity"
-
 document_version: "1.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: meta
 canon_type: registry
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, symbol-registry, symbols, notation, operators, semantics, identity, types, states, rscf, gmef, hml, provenance, epistemic-regime, causal-lineage, mvcc, cas, finality, invariants, canon-group/meta, canon/registry, rscf/provenance, rscf/state/derived, topic/symbol-registry]
-
 aliases: "- AMOS Symbol Registry
   - Symbol Registry
   - AMOS Notation Registry
   - AMOS Semantic Symbol Table..."---
-
-
 # AMOS Symbol Registry
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

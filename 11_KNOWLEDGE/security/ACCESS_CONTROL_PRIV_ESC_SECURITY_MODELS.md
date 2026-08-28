@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: security_model
-
 ---
 
 # ACCESS CONTROL PRIV ESC SECURITY MODELS

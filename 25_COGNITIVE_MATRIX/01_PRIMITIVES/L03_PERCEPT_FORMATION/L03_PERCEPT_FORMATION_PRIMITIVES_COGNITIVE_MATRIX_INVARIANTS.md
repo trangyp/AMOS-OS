@@ -2,7 +2,6 @@
 type: invariant
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags: [amos, cognitive-matrix, l03, percept-formation, invariants, rscf, provenance, governance, canon/cognitive-matrix]
-
 title: "L03_PERCEPT_FORMATION — Invariants"
 origin_architect: "Trang Phan"
 status: "MODEL_INVARIANT_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

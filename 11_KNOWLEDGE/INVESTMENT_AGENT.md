@@ -9,17 +9,13 @@ component_version: "1.0.0"
 runtime_contract_version: "1.0.0"
 financial_model_version: "1.0.0"
 amos_core_target: "v4.4"
-
 created: "2026-08-25"
 updated: "2026-08-25"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 system: "MONEY_SYSTEM"
 category: "agents"
 component: "Investment_Agent"
-
 canon-group: tech-ai
 canon-type: component
 rscf-state: source-claim
@@ -27,15 +23,12 @@ conclusion_class: "SOURCE_CLAIM / AMOS_MODEL"
 implementation_state: "REGISTERED_STUB"
 runtime_state: "NON_DESTRUCTIVE_TRACE_ONLY"
 financial_authority_state: "NONE_IMPLEMENTED"
-
 topic: investment-agent
-
 aliases: "- Investment Agent
   - AMOS Investment Agent
   - Money System Investment Agent
   - Governed Investme..."
 tags: [agents, knowledge, vault, canon-group/tech-ai, canon/component, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/investment-agent, topic/money-system, topic/investment-analysis, topic/portfolio, topic/financial-governance]
-
 governing_law: "integrity > completeness > fluency > speed > token savings"
 rscf:
   state: SOURCE_CLAIM

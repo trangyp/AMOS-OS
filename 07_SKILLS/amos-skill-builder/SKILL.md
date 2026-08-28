@@ -3,15 +3,13 @@ title: SKILL — Amos Skill Builder
 type: skill
 source: 07_SKILLS/amos-skill-builder
 name: amos-skill-builder
-description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Skills
-  from capability gaps, source canon, existing Skills, engine/runtime specifications,
-  repositories, or research evidence. Use when creating a new AMOS-aligned Skill,
-  strengthening a thin or vault-dump Skill, converting an AMOS engine/spec into an
-  operational Skill, checking routing and parent integration, separating SOURCE_CANON/SOURCE_CLAIM
-  from AMOS_MODEL and empirical claims, adding RSCF/HML/provenance/governance controls,
-  validating progressive loading and anti-overreach, or preparing a complete installable
-  Skill bundle. This is the AMOS-specialized Skill factory; do not use it as a generic
-  replacement for ordinary non-AMOS Skill creation.
+description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Skills from capability
+  gaps, source canon, existing Skills, engine/runtime specifications, repositories, or research evidence.
+  Use when creating a new AMOS-aligned Skill, strengthening a thin or vault-dump Skill, converting an
+  AMOS engine/spec into an operational Skill, checking routing and parent integration, separating SOURCE_CANON/SOURCE_CLAIM
+  from AMOS_MODEL and empirical claims, adding RSCF/HML/provenance/governance controls, validating progressive
+  loading and anti-overreach, or preparing a complete installable Skill bundle. This is the AMOS-specialized
+  Skill factory; do not use it as a generic replacement for ordinary non-AMOS Skill creation.
 parent_skill: none
 domain: skill
 origin_architect: Trang Phan
@@ -19,24 +17,11 @@ epistemic_class: SOURCE_CANON
 tags:
 - type/skill
 - canon/skill
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/skill-design
-- capability/runtime
-- capability/orient
-- capability/audit
-- capability/search
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-process
-- sota/progressive-disclosure
-- sota/anti-patterns
+- domain/skill-systems
+- rscf/source_claim
+- hml/m
+- epistemic/source_canon
 - amos_os
-- amos-skill-builder
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -61,6 +46,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

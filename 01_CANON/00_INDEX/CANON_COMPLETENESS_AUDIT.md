@@ -11,12 +11,9 @@ plane: "01_CANON"
 segment: "01_CANON/00_INDEX"
 artifact_kind: "AUDIT"
 path: "01_CANON/00_INDEX/CANON_COMPLETENESS_AUDIT.md"
-
 tags: [amos_os, canon, universe, 01_canon, audit, canon_placeholder, rscf, canon/universe]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

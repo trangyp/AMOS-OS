@@ -5,30 +5,17 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-aibom-lifecycle-assurance-rscf
 Agent: amos-aibom-lifecycle-assurance-rscf-agent
-Trigger: When an AIBOM lifecycle claim must be classified, evidence validated, provenance
-  traced, confidence assessed, falsifier detected, lifecycle managed, drift detected,
-  or outputs validated; or when amos-rscf-epistemic-master routes to this capability
+Trigger: When an AIBOM lifecycle claim must be classified, evidence validated, provenance traced, confidence
+  assessed, falsifier detected, lifecycle managed, drift detected, or outputs validated; or when amos-rscf-epistemic-master
+  routes to this capability
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/workflow
-- capability/preconditions
-- capability/output
-- capability/failure_paths
-- capability/provenance
-- rscf/epistemic
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/D-distinction
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -59,6 +46,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

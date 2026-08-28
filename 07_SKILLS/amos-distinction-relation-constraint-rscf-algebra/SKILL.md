@@ -3,9 +3,9 @@ title: SKILL — Amos Distinction Relation Constraint Rscf Algebra
 type: skill
 source: 07_SKILLS/amos-distinction-relation-constraint-rscf-algebra
 name: amos-distinction-relation-constraint-rscf-algebra
-description: Distinction Relation Constraint Rscf Algebra — formal verification capability.
-  Use when formal verification, symbolic execution, proof checking, or mathematical
-  reasoning. Use when amos-formal-engines-master routes to this specialized capability.
+description: Distinction Relation Constraint Rscf Algebra — formal verification capability. Use when formal
+  verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master
+  routes to this specialized capability.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/formal-engines
-- canon-group/tech-ai
-- topic/formal-verification
-- rscf/epistemic
-- rscf/D-distinction
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-distinction-relation-constraint-rscf-algebra
-- capability/execution
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -59,6 +50,7 @@ law_compliance:
 - L19
 - L22
 ---
+
 
 
 

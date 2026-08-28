@@ -8,7 +8,6 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-
 ---
 # TASTE ETIQUETTE CIVILIZATIONS VN INTERNATIONAL 1000 EQUATIONS
 

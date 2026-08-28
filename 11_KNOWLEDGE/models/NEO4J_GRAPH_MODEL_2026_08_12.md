@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: model_specification
-
 ---
 # NEO4J GRAPH MODEL 2026 08 12
 

@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: epistemic_framework
-
 ---
 # MANIFEST MCKINSEY RSCF SUITE V2 ALL
 

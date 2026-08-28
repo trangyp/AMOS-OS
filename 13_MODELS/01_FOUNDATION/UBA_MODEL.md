@@ -11,7 +11,6 @@ plane: "13_MODELS"
 segment: "13_MODELS/01_FOUNDATION"
 artifact_kind: "MODEL"
 path: "13_MODELS/01_FOUNDATION/UBA_MODEL.md"
-
 tags:
   - 01_foundation
   - 13_models
@@ -24,10 +23,8 @@ tags:
   - specification
   - uba_model.md
   - placeholder_expanded
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
@@ -35,7 +32,6 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

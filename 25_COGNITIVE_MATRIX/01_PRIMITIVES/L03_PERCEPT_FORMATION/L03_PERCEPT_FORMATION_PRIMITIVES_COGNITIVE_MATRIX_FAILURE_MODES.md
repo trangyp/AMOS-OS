@@ -2,7 +2,6 @@
 type: failure-mode
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags: [amos, cognitive-matrix, l03, percept-formation, failure-modes, rscf, hml, provenance, repair, canon/cognitive-matrix]
-
 title: "L03_PERCEPT_FORMATION — Failure Modes"
 origin_architect: "Trang Phan"
 status: "MODEL_FAILURE_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

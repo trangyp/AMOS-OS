@@ -3,9 +3,9 @@ title: SKILL — Amos Context Orientation Cache Rscf
 type: skill
 source: 07_SKILLS/amos-context-orientation-cache-rscf
 name: amos-context-orientation-cache-rscf
-description: Context Orientation Cache — boundary and scope capability. Use when evaluating
-  scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master
-  routes to this specialized capability.
+description: Context Orientation Cache — boundary and scope capability. Use when evaluating scope boundaries,
+  context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized
+  capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/boundary-scope
-- canon-group/tech-ai
-- topic/scope-management
-- capability/context-management
-- rscf/epistemic
-- rscf/B-boundary
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-context-orientation-cache-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

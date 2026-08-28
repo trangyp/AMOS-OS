@@ -3,9 +3,9 @@ title: SKILL — Amos Instinct Pattern Governor
 type: skill
 source: 07_SKILLS/amos-instinct-pattern-governor
 name: amos-instinct-pattern-governor
-description: Instinct Pattern Governor — mind and behavior capability. Use when psychological
-  analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
-  routes to this specialized capability.
+description: Instinct Pattern Governor — mind and behavior capability. Use when psychological analysis,
+  behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized
+  capability.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/mind-behavior
-- canon-group/human-system
-- topic/cognition
-- capability/governance
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/M-memory
-- rscf/S-state
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-instinct-pattern-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -51,6 +42,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

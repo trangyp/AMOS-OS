@@ -11,7 +11,6 @@ plane: "01_CANON"
 segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "VALIDATION_RECEIPT"
 path: "01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT.md"
-
 tags:
   - amos_os
   - canon
@@ -25,10 +24,8 @@ tags:
   - rscf
   - validation_receipt
   - canon/core
-
 version: "0.2.0"
 updated: "2026-08-28"
-
 status: "RECEIPT_SLOT_DEFINED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "CONDITIONAL"
@@ -37,7 +34,6 @@ validation_status: "NOT_ESTABLISHED"
 receipt_status: "UNVERIFIED"
 execution_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

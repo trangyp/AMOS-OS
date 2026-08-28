@@ -5,31 +5,17 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-formal-engines-master
 Agent: amos-formal-engines-agent
-Trigger: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal
-  specifications, proof systems. 6 typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) with
-  5-check axis table. Use for formal re
+Trigger: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal specifications,
+  proof systems. 6 typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) with 5-check axis table. Use for formal
+  re
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/formal-engines
-- canon-group/tech-ai
-- topic/formal-verification
-- capability/formal-verification
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/T-topology
-- rscf/G-relation
-- rscf/type-model
-- orchestration/pipeline
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -60,6 +46,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

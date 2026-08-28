@@ -11,7 +11,6 @@ plane: "01_CANON"
 segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/02_UNIVERSE_CANON/OMEGA_ARCHITECTURE_CANON.md"
-
 tags:
   - amos_os
   - canon
@@ -26,20 +25,16 @@ tags:
   - fail_closed
   - rscf
   - canon/universe
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "ADD_ONLY"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

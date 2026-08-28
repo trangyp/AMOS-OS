@@ -8,63 +8,39 @@ artifact_type: canonical_source_registry
 status: SOURCE_CLAIM
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 domain: canon
 scope: AMOS_OS
 authority_scope: source-identification-classification-registration-and-resolution
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/registry, canon/source-registry, canon/provenance, canon/lineage, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/source-registry, topic/source-identity, topic/source-classification, topic/provenance-topology, topic/source-independence, topic/evidence-topology, topic/freshness, topic/sybil-hardening, topic/persistent-provenance]
-
 aliases: "- AMOS Source Registry
   - AMOS OS Source Registry
   - Canon Source Registry..."---
-
-
 # AMOS OS Source Registry
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`  
 > **Status:** `SOURCE_CLAIM`
-
 ## 1. Purpose
-
 `SOURCE_REGISTRY.md` defines the canonical AMOS OS contract for registering, identifying, classifying, resolving, and auditing sources used by canon, knowledge, RSCFs, models, agents, decisions, tests, and derived artifacts.
-
 The registry answers:
-
 ```text
 WHAT IS THE SOURCE?
-
 WHAT TYPE OF SOURCE IS IT?
-
 WHERE DID IT COME FROM?
-
 WHICH EXACT REVISION WAS USED?
-
 WHAT SCOPE DOES IT SUPPORT?
-
 HOW FRESH IS IT?
-
 WHAT IS ITS PROVENANCE?
-
 IS IT INDEPENDENT?
-
 WHAT DEPENDS ON IT?
-
 HAS IT BEEN SUPERSEDED?
-
 CAN IT STILL BE RELIED UPON?
 ```
-
 The registry is not a list of things believed to be true.
-
 It is a typed source-identity and provenance control structure.
 rscf:
   state: DERIVED

@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: economic_model
-
 ---
 # EXTRACTIVE ECONOMY
 

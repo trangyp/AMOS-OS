@@ -3,9 +3,8 @@ title: SKILL — Amos Causal Reasoning Master
 type: skill
 source: 07_SKILLS/amos-causal-reasoning-master
 name: amos-causal-reasoning-master
-description: AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual
-  reasoning, intervention analysis. 4 causal modes (Direct, Distributed, Delayed,
-  Cascading), 6 causal gates. Use for causal a...
+description: AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual reasoning, intervention
+  analysis. 4 causal modes (Direct, Distributed, Delayed, Cascading), 6 causal gates. Use for causal a...
 parent_skill: none
 domain: causal
 origin_architect: Trang Phan
@@ -14,21 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/causal-reasoning
-- canon-group/tech-ai
-- topic/causality
-- capability/causal-reasoning
-- capability/ast
-- capability/reasoning
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/S-state
-- rscf/T-topology
-- rscf/G-relation
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_canon
 - amos_os
-- amos-causal-reasoning-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +45,7 @@ law_compliance:
 - L18
 - L24
 ---
+
 
 
 

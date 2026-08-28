@@ -8,25 +8,19 @@ canon-status: active
 canon-scope: agent-architecture
 canon-layer: meta-agent
 canon-owner: Trang Phan
-
 artifact-id: AMOS-AGENT-TEMPLATES
 artifact-type: framework-registry
 artifact-class: agent-factory-architecture
-
 version: "2.0.0"
 schema-version: "1.0.0"
 protocol-version: "1.0.0"
 amos-core-target: "v4.4"
-
 rscf-state: source-claim
 rscf-class: STRUCTURAL_MODEL
 rscf-confidence-ceiling: source-bounded
 rscf-provenance-required: true
-
 topic: agent-templates
-
 tags: [canon-group/tech-ai, knowledge, vault, canon/framework, canon/agent, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/agent-templates, topic/agent-architecture, topic/agent-factory, agents]
-
 created: 2026-08-22
 updated: 2026-08-25
 origin-architect: Trang Phan

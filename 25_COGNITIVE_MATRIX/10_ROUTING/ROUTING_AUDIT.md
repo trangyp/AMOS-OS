@@ -11,7 +11,6 @@ plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX/10_ROUTING"
 artifact_kind: "NOTE"
 path: "25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_AUDIT.md"
-
 tags:
   - 10_routing
   - 25_cognitive_matrix
@@ -36,10 +35,8 @@ tags:
   - rscf
   - {'identity':-None}
   - placeholder_expanded
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
@@ -47,7 +44,6 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

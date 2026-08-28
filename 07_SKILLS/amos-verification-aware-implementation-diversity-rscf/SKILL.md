@@ -3,9 +3,9 @@ title: SKILL — Amos Verification Aware Implementation Diversity Rscf
 type: skill
 source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf
 name: amos-verification-aware-implementation-diversity-rscf
-description: Verification Aware Implementation Diversity — audit and repair capability.
-  Use when auditing, failure analysis, gap discovery, or repair allocation. Use when
-  amos-audit-repair-master routes to this specialized capability.
+description: Verification Aware Implementation Diversity — audit and repair capability. Use when auditing,
+  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this
+  specialized capability.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -14,20 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/audit-repair
-- canon-group/tech-ai
-- topic/quality-assurance
-- rscf/epistemic
-- rscf/M-memory
-- rscf/C-constraint
-- rscf/P-repair
-- rscf/Z-collapse
-- rscf/type-process
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-verification-aware-implementation-diversity-rscf
-- capability/audit
-- capability/repair
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +47,7 @@ law_compliance:
 - L18
 - L22
 ---
+
 
 
 

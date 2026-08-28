@@ -22,7 +22,6 @@ tags:
   - silent_decay
   - repair_capacity
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

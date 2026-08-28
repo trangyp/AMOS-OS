@@ -23,7 +23,6 @@ tags:
   - dependency_graph
   - proof_chain
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

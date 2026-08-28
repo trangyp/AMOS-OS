@@ -30,7 +30,6 @@ tags:
   - source_freshness
   - applicability
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

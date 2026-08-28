@@ -3,9 +3,9 @@ title: SKILL — Amos Tensor Network Contraction Sketch Rscf Engine
 type: skill
 source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine
 name: amos-tensor-network-contraction-sketch-rscf-engine
-description: Tensor Network Contraction Sketch — formal verification capability. Use
-  when formal verification, symbolic execution, proof checking, or mathematical reasoning.
-  Use when amos-formal-engines-master routes to this specialized capability.
+description: Tensor Network Contraction Sketch — formal verification capability. Use when formal verification,
+  symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes
+  to this specialized capability.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/formal-engines
-- canon-group/tech-ai
-- topic/formal-verification
-- capability/tensor
-- capability/sketching
-- capability/network
-- capability/execution
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/T-topology
-- rscf/G-relation
-- rscf/K-compression
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-tensor-network-contraction-sketch-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -62,6 +50,7 @@ law_compliance:
 - L19
 - L22
 ---
+
 
 
 

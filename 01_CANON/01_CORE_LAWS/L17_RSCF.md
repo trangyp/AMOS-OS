@@ -18,7 +18,6 @@ tags:
   - epistemic_governance
   - provenance
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

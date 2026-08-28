@@ -5,32 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c12-earth-ecology-master
 Agent: amos-c12-earth-ecology-agent
-Trigger: AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure,
-  electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental
-  analysis, energy system
+Trigger: AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical
+  power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/earth-ecology
-- canon-group/science
-- topic/ecology
-- capability/workflow
-- capability/ecology
-- capability/earth
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/M-memory
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/type-model
-- orchestration/pipeline
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -61,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

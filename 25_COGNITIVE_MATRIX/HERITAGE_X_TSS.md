@@ -4,16 +4,13 @@ type: heritage
 source: 25_COGNITIVE_MATRIX
 artifact: "HERITAGE_X_TSS.md"
 artifact_id: "amos_25_cognitive_matrix_heritage_x_tss"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "ARTIFACT"
 path: "25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -48,54 +45,40 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 formal_verification_status: "NOT_ESTABLISHED"
 runtime_enforcement_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
-
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
-
   provenance:
     - HERITAGE_INTELLIGENCE_CANON
     - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
     - AMOS_CORPUS
-
   scope:
     - DECISION_GOVERNANCE
     - SYSTEM_LIFECYCLES
     - COGNITIVE_MATRIX
-
 framework_binding:
-
   heritage:
     name: "Heritage Decision Intelligence™"
     role: DECISION_INTELLIGENCE_AND_GOVERNANCE
-
   tss:
     name: "The Trang System™"
     role: STRUCTURAL_SYSTEMS_DYNAMICS_AND_CYCLES
-
   matrix_conjunction:
     name: "Heritage × TSS Matrix"
     artifact: "[[HERITAGE_X_TSS_MATRIX]]"
-
 epistemic_boundary:
-
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   decision_rules: SOURCE_DEFINED_MODEL

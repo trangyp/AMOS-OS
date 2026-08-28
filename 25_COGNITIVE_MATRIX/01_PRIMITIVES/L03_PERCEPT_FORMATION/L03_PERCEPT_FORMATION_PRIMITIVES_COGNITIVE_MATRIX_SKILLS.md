@@ -2,7 +2,6 @@
 type: skill
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags: [amos, cognitive-matrix, l03, percept-formation, skills, rscf, provenance, governance, canon/cognitive-matrix]
-
 title: "L03_PERCEPT_FORMATION — Skills"
 origin_architect: "Trang Phan"
 status: "MODEL_SKILL_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

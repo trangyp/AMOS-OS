@@ -5,31 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c01-meta-logic-master
 Agent: amos-c01-meta-logic-agent
-Trigger: 'AMOS C01 Meta Logic — the irreducible logic core: 8 Atomic Logic Units (ALUs),
-  7 Universal Meta-Laws (UMLs), 6 Universal Operators (UOPs), 5 Universal Pattern
-  Families. Law of Law, Rule of 2, Rule'
+Trigger: 'AMOS C01 Meta Logic — the irreducible logic core: 8 Atomic Logic Units (ALUs), 7 Universal Meta-Laws
+  (UMLs), 6 Universal Operators (UOPs), 5 Universal Pattern Families. Law of Law, Rule of 2, Rule'
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/meta-logic
-- canon-group/tech-ai
-- topic/logic
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/M-memory
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/T-topology
-- rscf/type-model
-- orchestration/pipeline
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -60,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

@@ -6,24 +6,20 @@ aliases:
   - "AMOS Kernel Absolute Logic"
   - "Absolute Logic Kernel"
   - "Meta Logic · Absolute Logic"
-
 type: logic
 document_type: kernel-logic-artifact
 source: 02_KERNEL/01_META_LOGIC
 artifact: "K_ABSOLUTE_LOGIC.md"
 artifact_id: "amos_02_kernel_01_meta_logic_k_absolute_logic"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
-
 plane: "02_KERNEL"
 plane_role: "reasoning-kernel"
 segment: "02_KERNEL/01_META_LOGIC"
 segment_role: "meta-logic"
 artifact_kind: "LOG"
 path: "02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC.md"
-
 tags:
   - amos_os
   - amos-general
@@ -55,10 +51,8 @@ tags:
   - repair
   - uncertainty
   - epistemic-discipline
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 content_status: "UNPOPULATED_NATIVE_CANON"
 epistemic_class: "AMOS_MODEL"
@@ -72,14 +66,12 @@ empirical_validation_status: "NOT_APPLICABLE_UNLESS_CLAIMS_REQUIRE"
 ingestion_action: "ADD_ONLY"
 overwrite_policy: "NEVER_OVERWRITE_EXISTING_CANON"
 promotion_status: "BLOCKED_PENDING_NATIVE_CANON"
-
 integrity_priority:
   - integrity
   - completeness
   - fluency
   - speed
   - token_savings
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -106,7 +98,6 @@ rscf:
     - validation_receipt
     - dependency_resolution
     - canonical_precedence_resolution
-
 governance:
   fail_closed_on_unknown: true
   capability_is_authority: false
@@ -115,7 +106,6 @@ governance:
   canonicality_is_empirical_truth: false
   provenance_required: true
   rollback_required_for_consequential_mutation: true
-
 relations:
   indexed_by:
     - 00_HOME

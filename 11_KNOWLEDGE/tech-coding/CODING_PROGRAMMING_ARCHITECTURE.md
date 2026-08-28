@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: tech_engineering
-
 ---
 # CODING PROGRAMMING ARCHITECTURE
 

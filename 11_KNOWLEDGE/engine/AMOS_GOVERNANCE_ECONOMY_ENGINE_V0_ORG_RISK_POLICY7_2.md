@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: engine_specification
-
 ---
 # AMOS GOVERNANCE ECONOMY ENGINE V0 ORG RISK POLICY7 2
 

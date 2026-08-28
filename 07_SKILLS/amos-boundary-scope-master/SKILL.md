@@ -3,8 +3,8 @@ title: SKILL — Amos Boundary Scope Master
 type: skill
 source: 07_SKILLS/amos-boundary-scope-master
 name: amos-boundary-scope-master
-description: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity,
-  capability bounds. Use for scope analysis, boundary reasoning, or context management.
+description: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability
+  bounds. Use for scope analysis, boundary reasoning, or context management.
 parent_skill: none
 domain: boundary
 origin_architect: Trang Phan
@@ -13,25 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/boundary-scope
-- canon-group/tech-ai
-- topic/scope-management
-- capability/boundary
-- capability/scope
-- capability/ast
-- capability/provenance
-- capability/reasoning
-- capability/scope_management
-- capability/boundary_enforcement
-- rscf/epistemic
-- rscf/B-boundary
-- rscf/G-relation
-- rscf/S-state
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_canon
 - amos_os
-- amos-boundary-scope-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -59,6 +44,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

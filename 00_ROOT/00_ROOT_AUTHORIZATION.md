@@ -11,10 +11,8 @@ domain: "AUTHORIZATION / CONTROL PLANE"
 artifact_class: "ROOT_AUTHORIZATION_SPECIFICATION"
 version: "1.0.0"
 updated: "2026-08-26"
-
 status: "PROPOSED_SPECIFICATION"
 epistemic_class: "MODEL"
-
 canonical_status: "UNKNOWN/GAP"
 implementation_status: "UNKNOWN/GAP"
 validation_status: "UNKNOWN/GAP"

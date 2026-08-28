@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: governance_policy
-
 ---
 # AMOS CORE V4 8 CAPABILITY BOUND GOVERNANCE
 

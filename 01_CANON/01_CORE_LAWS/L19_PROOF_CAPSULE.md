@@ -17,7 +17,6 @@ tags:
   - provenance
   - dependency_invalidation
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

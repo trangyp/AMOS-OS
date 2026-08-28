@@ -14,7 +14,6 @@ plane: KERNEL
 kernel_family: RECOVERY
 scope: AMOS_OS
 updated: 2026-08-26
-
 tags: [amos-os, kernel, core, kernel/repair, kernel/priority, kernel/recovery, kernel/invariants, kernel/causal, kernel/provenance, kernel/homeostasis, kernel/repair-harm, rscf, topic/triage, topic/repair-order, topic/failure-containment, topic/reversibility, canon/kernel]
 rscf:
   state: DERIVED

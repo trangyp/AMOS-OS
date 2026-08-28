@@ -3,9 +3,8 @@ title: SKILL — Amos Arxiv Agent Memory Dynamics Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf
 name: amos-arxiv-agent-memory-dynamics-rscf
-description: Arxiv Agent Memory Dynamics — arxiv research capability. Use when arxiv
-  research, paper analysis, or literature review. Use when amos-knowledge-research-master
-  routes to this specialized capability.
+description: Arxiv Agent Memory Dynamics — arxiv research capability. Use when arxiv research, paper analysis,
+  or literature review. Use when amos-knowledge-research-master routes to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -14,22 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/knowledge-research
-- canon-group/tech-ai
-- topic/knowledge-management
-- capability/arxiv-research
-- topic/research
-- capability/memory
-- capability/search
-- rscf/epistemic
-- rscf/S-state
-- rscf/M-memory
-- rscf/K-compression
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-arxiv-agent-memory-dynamics-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +41,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

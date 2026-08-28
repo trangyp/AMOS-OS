@@ -11,12 +11,9 @@ plane: "00_ROOT"
 segment: "00_ROOT"
 artifact_kind: "ARTIFACT"
 path: "00_ROOT/AMOS_NATIVE_VS_EXTERNAL_KNOWLEDGE.md"
-
 tags: [amos_os, root, index, 00_root, artifact, canon_placeholder, rscf, canon/root]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

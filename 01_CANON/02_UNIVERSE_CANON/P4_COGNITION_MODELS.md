@@ -11,7 +11,6 @@ plane: "01_CANON"
 segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "UNIVERSE_PLANE"
 path: "01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS.md"
-
 tags:
   - amos_os
   - canon
@@ -31,20 +30,16 @@ tags:
   - rscf
   - p4_plane
   - canon/universe
-
 version: "0.2.0"
 updated: "2026-08-26"
-
 status: "PROPOSED_SPECIFICATION"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "CONDITIONAL"
 implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_NORMALIZATION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL

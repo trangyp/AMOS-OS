@@ -3,9 +3,8 @@ title: SKILL — Amos Semantic Grounding Auditor
 type: skill
 source: 07_SKILLS/amos-semantic-grounding-auditor
 name: amos-semantic-grounding-auditor
-description: Semantic Grounding Auditor — audit and repair capability. Use when auditing,
-  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability.
+description: Semantic Grounding Auditor — audit and repair capability. Use when auditing, failure analysis,
+  gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -14,20 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/audit-repair
-- canon-group/tech-ai
-- topic/quality-assurance
-- capability/audit
-- capability/repair
-- rscf/epistemic
-- rscf/M-memory
-- rscf/C-constraint
-- rscf/P-repair
-- rscf/Z-collapse
-- rscf/type-process
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-semantic-grounding-auditor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +46,7 @@ law_compliance:
 - L18
 - L22
 ---
+
 
 
 

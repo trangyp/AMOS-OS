@@ -3,9 +3,9 @@ title: SKILL — Amos Cli Failure Process Diagnostics Rscf
 type: skill
 source: 07_SKILLS/amos-cli-failure-process-diagnostics-rscf
 name: amos-cli-failure-process-diagnostics-rscf
-description: Cli Failure Process Diagnostics — technology and engineering capability.
-  Use when software development, engineering design, or technical architecture. Use
-  when amos-c10-tech-engineering-master routes to this specialized capability.
+description: Cli Failure Process Diagnostics — technology and engineering capability. Use when software
+  development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master
+  routes to this specialized capability.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/tech-engineering
-- canon-group/tech-ai
-- topic/engineering
-- rscf/epistemic
-- rscf/T-topology
-- rscf/M-memory
-- rscf/Z-collapse
-- rscf/P-repair
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-cli-failure-process-diagnostics-rscf
-- capability/diagnosis
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,6 +47,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

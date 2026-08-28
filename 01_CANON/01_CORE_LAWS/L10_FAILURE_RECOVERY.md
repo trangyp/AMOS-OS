@@ -11,7 +11,6 @@ tags:
   - provenance
   - governance
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

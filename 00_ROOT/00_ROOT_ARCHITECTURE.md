@@ -3,51 +3,39 @@ type: architecture
 source: 00_ROOT
 aliases:
 - ARCHITECTURE
-
 artifact_id: AMOS-OS-ROOT-ARCHITECTURE
 name: AMOS_OS_ARCHITECTURE
 title: "AMOS OS Architecture — Root System Architecture"
 document_version: "2.0.0"
 architecture_version: "1.0.0"
 amos_core_target: "v4.4"
-
 status: ACTIVE_ARCHITECTURE
 conclusion_class: "SOURCE_CLAIM / AMOS_MODEL"
 rscf_state: "derived"
 canon_group: "tech-ai"
 canon_type: "architecture"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 created: "2026-08-25"
 updated: "2026-08-25"
-
 scope: "- AMOS_OS
   - repository_architecture
   - runtime_architecture
   - cognition_architecture
   - govern..."
 tags: [amos, amos_os, root, amos-os, architecture, system-architecture, root-architecture, operating-system, cognitive-architecture, agent-architecture, runtime, kernel, control-plane, governance, provenance, rscf, gmef, hml, fractal-knowledge-network, memory, state, knowledge, skills, workflows, protocols, tools, models, observability, security, testing, operations, domains, cognitive-matrix, canon-group/tech-ai, canon/architecture, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/system-architecture, topic/cognitive-operating-system]
-
 aliases: "- AMOS OS Architecture
   - AMOS Root Architecture
   - AMOS System Architecture
   - AMOS Operating Ar..."
 related: "see body"---
-
-
 # AMOS OS Architecture
-
 > **Architecture state:** `ACTIVE_ARCHITECTURE`  
 > **AMOS_CORE target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Conclusion class:** `SOURCE_CLAIM / AMOS_MODEL`
-
 AMOS OS is organized as a **governed recursive operating architecture** rather than a single monolithic engine.
-
 Its root responsibility is to connect:
-
 ```text
 CANON
 ↓
@@ -69,13 +57,9 @@ OBSERVABILITY / SECURITY / TESTS / OPERATIONS
 ↓
 DOMAINS
 ```
-
 without collapsing their responsibilities into one layer.
-
 The architecture inherits the AMOS principle:
-
 > **Integrity > completeness > fluency > speed > token savings.**
-
 It also inherits AMOS_CORE v4.4's evolution spine: deterministic reasoning, recursive RSCF and H/M/L decomposition, governed evolution, causal lineage, epistemic regimes, competing hypotheses, provenance topology, persistent provenance, transactional state concepts, causal finality, shard-local reasoning, and proof-based coordination avoidance. These are architecture and reasoning patterns; they do not imply that every repository module literally implements a distributed transactional runtime.
 rscf:
   state: SOURCE_CLAIM

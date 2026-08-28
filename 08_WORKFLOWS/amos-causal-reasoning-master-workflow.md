@@ -5,32 +5,16 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-causal-reasoning-master
 Agent: amos-causal-reasoning-agent
-Trigger: AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual
-  reasoning, intervention analysis. 4 causal modes (Direct, Distributed, Delayed,
-  Cascading), 6 causal gates. Use for causal a
+Trigger: AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual reasoning, intervention
+  analysis. 4 causal modes (Direct, Distributed, Delayed, Cascading), 6 causal gates. Use for causal a
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/causal-reasoning
-- canon-group/tech-ai
-- topic/causality
-- capability/causal-reasoning
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/G-relation
-- rscf/S-state
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/type-process
-- orchestration/pipeline
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -61,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

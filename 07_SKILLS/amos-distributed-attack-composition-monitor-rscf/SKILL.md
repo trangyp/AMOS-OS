@@ -3,9 +3,9 @@ title: SKILL — Amos Distributed Attack Composition Monitor Rscf
 type: skill
 source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf
 name: amos-distributed-attack-composition-monitor-rscf
-description: Distributed Attack Composition Monitor — security and safety capability.
-  Use when security analysis, safety verification, or adversarial defense. Use when
-  amos-security-safety-master routes to this specialized capability.
+description: Distributed Attack Composition Monitor — security and safety capability. Use when security
+  analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to
+  this specialized capability.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/security-safety
-- canon-group/tech-ai
-- topic/security
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/B-boundary
-- rscf/G-relation
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-distributed-attack-composition-monitor-rscf
-- capability/monitoring
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -56,6 +47,7 @@ law_compliance:
 - L18
 - L23
 ---
+
 
 
 

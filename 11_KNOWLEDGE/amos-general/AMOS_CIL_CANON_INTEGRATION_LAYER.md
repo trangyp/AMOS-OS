@@ -14,7 +14,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_architecture
-
 ---
 
 

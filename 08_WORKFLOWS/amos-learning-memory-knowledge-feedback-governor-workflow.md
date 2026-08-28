@@ -5,35 +5,19 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-learning-memory-knowledge-feedback-governor
 Agent: amos-learning-memory-knowledge-feedback-governor-agent
-Trigger: When C05 inference outcomes need to be encoded into Memory Systems, when
-  memory entries need to be consolidated into the Knowledge Research vault, when indexed
-  knowledge needs to be retrieved to inform new C05 inference, when the full feedback
-  loop needs governance, when detecting knowledge drift, when validating epistemic
-  preservation across domain transitions, or when amos-knowledge-research-master routes
-  to cross-domain learning-memory-knowledge feedback governance
+Trigger: When C05 inference outcomes need to be encoded into Memory Systems, when memory entries need
+  to be consolidated into the Knowledge Research vault, when indexed knowledge needs to be retrieved to
+  inform new C05 inference, when the full feedback loop needs governance, when detecting knowledge drift,
+  when validating epistemic preservation across domain transitions, or when amos-knowledge-research-master
+  routes to cross-domain learning-memory-knowledge feedback governance
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/memory-systems
-- canon-group/tech-ai
-- topic/memory
-- capability/memory
-- capability/governance
-- capability/learning
-- capability/preconditions
-- capability/orchestration_pattern
-- capability/evaluation_gates
-- capability/monitoring
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/M-memory
-- rscf/μ-mutation
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -64,6 +48,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

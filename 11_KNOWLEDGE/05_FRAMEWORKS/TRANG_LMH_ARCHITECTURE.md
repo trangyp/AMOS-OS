@@ -11,7 +11,6 @@ plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/05_FRAMEWORKS"
 artifact_kind: "FRAMEWORK"
 path: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LMH_ARCHITECTURE.md"
-
 tags:
   - amos_os
   - knowledge
@@ -26,20 +25,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -51,7 +46,6 @@ rscf:
     - KNOWLEDGE_FRAMEWORKS
     - FRACTAL_ARCHITECTURE
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
   primary:
     name: "Trang LMH Tri-Layer Architecture"
@@ -60,7 +54,6 @@ framework_binding:
     artifact: "[[FRAI_FRACTAL_REASONING_AI]]"
   deterministic_base:
     artifact: "[[LDAI_LOGICALLY_DETERMINISTIC_AI]]"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

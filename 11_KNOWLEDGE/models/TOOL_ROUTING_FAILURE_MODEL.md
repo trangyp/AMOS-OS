@@ -8,7 +8,6 @@ rscf:
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: model_specification
-
 ---
 
 

@@ -2,7 +2,6 @@
 type: state
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION
 tags: [amos, cognitive-matrix, l03, percept-formation, state, rscf, provenance, governance, canon/cognitive-matrix]
-
 title: "L03_PERCEPT_FORMATION — State"
 origin_architect: "Trang Phan"
 status: "MODEL_STATE_CONTRACT / UNIMPLEMENTED / UNVALIDATED"

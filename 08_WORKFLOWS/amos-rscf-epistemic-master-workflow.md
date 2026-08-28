@@ -6,30 +6,15 @@ Type: Workflow
 Skill: amos-rscf-epistemic-master
 Agent: amos-rscf-epistemic-agent
 Trigger: 'AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/dependencies/competing
-  hypotheses/falsifiers/confidence ceiling. 6 state kinds: OBSERVATION, SOURCE_CLAIM,
-  DERI'
+  hypotheses/falsifiers/confidence ceiling. 6 state kinds: OBSERVATION, SOURCE_CLAIM, DERI'
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/rscf-epistemic
-- canon-group/tech-ai
-- topic/epistemology
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/D-distinction
-- rscf/type-concept
-- orchestration/pipeline
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -60,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

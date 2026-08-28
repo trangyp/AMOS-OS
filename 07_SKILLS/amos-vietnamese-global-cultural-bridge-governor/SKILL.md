@@ -3,16 +3,14 @@ title: SKILL — Amos Vietnamese Global Cultural Bridge Governor
 type: skill
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor
 name: amos-vietnamese-global-cultural-bridge-governor
-description: Vietnamese-Global Cultural Bridge Governor — cross-domain capability
-  bridging C06 Vietnamese-specific cultural systems (F07 Vietnam Regional, gia hệ
-  energy models) with C06 global frameworks (F01-F06, F08-F10). Governs bidirectional
-  translation preserving Vietnamese cultural specificity while enabling global comparison.
-  Enforces universalization firewall (no VN-specific claim universalized without cross-cultural
-  evidence) and cultural specificity preservation (no global model applied to VN context
-  without validation). Use when Vietnamese cultural claims need translation to global
-  framework terms, when global models need validation for Vietnamese context, or when
-  the bidirectional cultural bridge needs governance. Use when amos-c06-society-culture-master
-  routes to this specialized capability.
+description: Vietnamese-Global Cultural Bridge Governor — cross-domain capability bridging C06 Vietnamese-specific
+  cultural systems (F07 Vietnam Regional, gia hệ energy models) with C06 global frameworks (F01-F06, F08-F10).
+  Governs bidirectional translation preserving Vietnamese cultural specificity while enabling global comparison.
+  Enforces universalization firewall (no VN-specific claim universalized without cross-cultural evidence)
+  and cultural specificity preservation (no global model applied to VN context without validation). Use
+  when Vietnamese cultural claims need translation to global framework terms, when global models need
+  validation for Vietnamese context, or when the bidirectional cultural bridge needs governance. Use when
+  amos-c06-society-culture-master routes to this specialized capability.
 parent_skill: amos-c06-society-culture-master
 domain: cross-domain (C06 Vietnamese ↔ Global)
 origin_architect: Trang Phan
@@ -23,24 +21,11 @@ created: 2026-08-27
 tags:
 - type/skill
 - canon/skill
-- domain/society-culture
-- canon-group/human-system
-- topic/sociology
-- capability/governance
-- capability/vietnamese
-- capability/the_bridge
-- capability/enforcement
-- topic/vietnamese
-- rscf/epistemic
-- rscf/B-boundary
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-vietnamese-global-cultural-bridge-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -68,6 +53,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

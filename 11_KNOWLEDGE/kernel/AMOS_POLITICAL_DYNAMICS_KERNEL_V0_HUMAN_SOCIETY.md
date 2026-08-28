@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # AMOS POLITICAL DYNAMICS KERNEL V0 HUMAN SOCIETY
 

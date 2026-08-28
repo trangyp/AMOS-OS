@@ -11,12 +11,9 @@ plane: "13_MODELS"
 segment: "13_MODELS/01_FOUNDATION"
 artifact_kind: "MODEL"
 path: "13_MODELS/01_FOUNDATION/ABSOLUTE_OMNIVERSE_MODEL.md"
-
 tags: [amos_os, model, specification, 13_models, canon_placeholder, rscf, canon/model]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

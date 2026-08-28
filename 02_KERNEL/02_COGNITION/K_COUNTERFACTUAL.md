@@ -8,50 +8,35 @@ artifact_type: kernel_counterfactual_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_family: REASONING
 domain: counterfactual-reasoning
 scope: AMOS_OS
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning, kernel/counterfactual, kernel/causal, kernel/epistemic, kernel/provenance, kernel/dependency, kernel/scope, kernel/regime, kernel/sensitivity, kernel/uncertainty, kernel/simulation, kernel/validation, kernel/rscf, rscf/claim, rscf/provenance, rscf/state/model, topic/counterfactual-reasoning]
-
 aliases: "- AMOS Counterfactual Kernel
   - Counterfactual Kernel
   - K Counterfactual
   - K_COUNTERFACTUAL..."---
-
-
 # K_COUNTERFACTUAL
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_COUNTERFACTUAL` defines the AMOS kernel contract for reasoning about alternatives to an observed, assumed, modeled, or proposed state.
-
 Its central question is:
-
 ```text
 GIVEN ACTUAL / BASELINE STATE X
-
 WHAT WOULD FOLLOW
 IF
 A MATERIAL CONDITION WERE DIFFERENT?
 ```
-
 Counterfactual reasoning is used for:
-
 * causal discrimination
 * competing-hypothesis testing
 * sensitivity analysis
@@ -62,7 +47,6 @@ Counterfactual reasoning is used for:
 * falsifier construction
 * robustness testing
 * scenario discrimination
-
 It must never convert an imagined alternative into evidence that the alternative actually occurred.
 rscf:
   state: DERIVED

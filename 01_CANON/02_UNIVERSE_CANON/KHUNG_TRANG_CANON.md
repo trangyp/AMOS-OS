@@ -3,20 +3,16 @@ title: "Khung Trang Canon"
 canonical_name: "KHUNG_TRANG_CANON"
 type: canon
 source: "01_CANON/02_UNIVERSE_CANON"
-
 artifact: "KHUNG_TRANG_CANON.md"
 artifact_id: "amos_01_canon_02_universe_canon_khung_trang_canon"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 system: "AMOS OS"
 framework_family: "Trang Framework"
 plane: "01_CANON"
 segment: "01_CANON/02_UNIVERSE_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_CANON.md"
-
 native_source:
   file: "KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json"
   title: "KHUNG TRANG — MAX DETAIL ARCHITECTURE WITH FULL EQUATION REGISTRY"
@@ -26,9 +22,7 @@ native_source:
   parsed_sections: 870
   auto_equation_registry_entries: 958
   raw_source_preserved: true
-
 native_framework_title: "KHUNG TRANG — HỆ HÌNH THỨC ĐỘNG HÌNH ĐỆ QUY SINH TỒN"
-
 tags:
   - amos_os
   - canon
@@ -60,21 +54,16 @@ tags:
   - rscf
   - provenance
   - canon/universe
-
 version: "1.0.0-source-bound-canon-candidate"
 updated: "2026-08-27"
-
 status: "SOURCE_BOUND_CANON_CANDIDATE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_BOUND_CANON_CANDIDATE"
-
 implementation_status: "ARCHITECTURE_AND_EQUATION_SOURCE_PRESENT / EXECUTABLE_BINDING_NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "ADD_ONLY"
 overwrite_existing: false
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -84,7 +73,6 @@ rscf:
   scope: universe_canon
   regime: "Khung_Trang_UInfinity_full_source_preserved_v3"
   confidence_ceiling: SOURCE_CLAIM
-
 integrity:
   preserve_native_terminology: true
   preserve_equations: true

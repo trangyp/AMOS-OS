@@ -22,25 +22,16 @@ aliases: "- AMOS Canonical Glossary
   - AMOS OS Glossary
   - Canonical Terminology Registry
   - AMOS Semantic ..."---
-
-
 # AMOS OS Canonical Glossary
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** v4.4  
 > **Conclusion class:** `AMOS_MODEL`  
 > **Authority:** canonical terminology, semantic distinctions, and vocabulary resolution
-
 ## 1. Purpose
-
 The **AMOS OS Canonical Glossary** establishes the governed vocabulary used across AMOS OS.
-
 Its role is not merely to provide dictionary definitions.
-
 It protects semantic boundaries between concepts that may appear similar while performing materially different architectural, epistemic, causal, governance, or runtime roles.
-
 The governing law is:
-
 ```text
 TERM
 → DEFINITION
@@ -49,9 +40,7 @@ TERM
 → RELATIONS
 → PROVENANCE
 ```
-
 A term is not canonical merely because it appears frequently in code, notes, memory, research, or generated content.
-
 ```text
 USAGE != CANON
 POPULARITY != CANON

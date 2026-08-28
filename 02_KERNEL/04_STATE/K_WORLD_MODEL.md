@@ -14,7 +14,6 @@ plane: KERNEL
 kernel_family: WORLD_MODEL
 scope: AMOS_OS
 updated: 2026-08-26
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/world-model, kernel/state, kernel/causality, kernel/context, kernel/provenance, kernel/epistemics, kernel/multi-hypothesis, kernel/counterfactual, kernel/structural-reasoning, rscf/state/model, rscf/claim, rscf/provenance, topic/world-model, topic/epistemic-regime, topic/causal-model, topic/prediction, topic/simulation, topic/uncertainty]
 rscf:
   state: DERIVED

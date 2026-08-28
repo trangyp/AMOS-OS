@@ -8,7 +8,6 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: audit_report
-
 ---
 # ABSOLUTE VN 100000 REGISTRY ANALYSIS REPORT
 

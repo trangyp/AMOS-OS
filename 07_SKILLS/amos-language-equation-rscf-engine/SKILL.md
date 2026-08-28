@@ -3,9 +3,8 @@ title: SKILL — Amos Language Equation Rscf Engine
 type: skill
 source: 07_SKILLS/amos-language-equation-rscf-engine
 name: amos-language-equation-rscf-engine
-description: Language Equation — society and culture capability. Use when social analysis,
-  cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master
-  routes to this specialized capability.
+description: Language Equation — society and culture capability. Use when social analysis, cultural reasoning,
+  or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
@@ -14,20 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/society-culture
-- canon-group/human-system
-- topic/sociology
-- capability/language
-- capability/provenance
-- rscf/epistemic
-- rscf/M-memory
-- rscf/G-relation
-- rscf/S-state
-- rscf/C-constraint
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-language-equation-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,6 +44,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

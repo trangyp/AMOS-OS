@@ -11,13 +11,11 @@ plane: "01_CANON"
 segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "CANON"
 path: "01_CANON/01_CORE_LAWS/EPISTEMIC_INTEGRITY_CANON.md"
-
 canon_group: amos_core
 canon_family: EPISTEMIC_INTEGRITY
 schema_family: RSCF
 schema_role: EPISTEMIC_INTEGRITY_CANON_RSCF
 schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
-
 tags:
   - amos_os
   - canon
@@ -42,10 +40,8 @@ tags:
   - rscf
   - canon/universe
   - placeholder_expanded
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
@@ -53,7 +49,6 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 native_definition_status: "NOT_ESTABLISHED"
 native_law_status: "NOT_ESTABLISHED"
 native_integrity_definition_status: "NOT_ESTABLISHED"
@@ -70,7 +65,6 @@ native_causal_semantics_status: "NOT_ESTABLISHED"
 native_dependencies_status: "NOT_ESTABLISHED"
 native_precedence_status: "NOT_ESTABLISHED"
 native_supersession_status: "NOT_ESTABLISHED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

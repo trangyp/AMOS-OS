@@ -29,7 +29,6 @@ tags:
   - serializability
   - provenance
   - canon/universe
-
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT

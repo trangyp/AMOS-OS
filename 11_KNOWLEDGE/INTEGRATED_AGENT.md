@@ -8,27 +8,21 @@ document_version: "3.0.0"
 engine_version: "2.0.0"
 migration_contract_version: "1.0.0"
 amos_core_target: "v4.4"
-
 created: "2026-08-22"
 updated: "2026-08-25"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 canon-group: tech-ai
 canon-type: framework
 rscf-state: source-claim
 conclusion_class: "SOURCE_CLAIM / AMOS_MODEL"
 implementation_state: "SOURCE_IMPLEMENTATION"
 execution_risk: "MUTATING_FILESYSTEM"
-
 topic: integratedagent
-
 aliases: "- AMOS Universal Rename Engine
   - AMOS Namespace Migration Engine
   - AMOS Deterministic Rename Eng..."
 tags: [canon-group/tech-ai, knowledge, vault, canon/framework, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/integratedagent, topic/rename-engine, topic/namespace-migration, topic/repository-migration, agents]
-
 governing_law: "integrity > completeness > fluency > speed > token savings"
 rscf:
   state: SOURCE_CLAIM

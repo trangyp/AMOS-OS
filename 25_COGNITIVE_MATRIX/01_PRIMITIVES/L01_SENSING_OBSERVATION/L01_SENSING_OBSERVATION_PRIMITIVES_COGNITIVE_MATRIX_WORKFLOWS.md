@@ -2,7 +2,6 @@
 type: workflow
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags: [amos, cognitive-matrix, l01, sensing-observation, workflows, rscf, provenance, hml, control-plane, canon/cognitive-matrix]
-
 title: "L01_SENSING_OBSERVATION — Workflows"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / UNVALIDATED"

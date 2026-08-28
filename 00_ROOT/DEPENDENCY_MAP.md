@@ -8,39 +8,27 @@ artifact_type: dependency_topology_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: ROOT
 scope: AMOS_OS
 authority_domain: dependency_topology
 authority_level: root_architecture_contract
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, amos_os, root, canon-group/tech-ai, canon/model, architecture, architecture/dependency, dependency, dependency/closure, dependency/invalidation, dependency/topology, dependency/typed-edge, dependency/load-bearing, provenance, provenance/lineage, provenance/independence, state, governance, kernel, kernel/dependency, kernel/validation, kernel/recovery, rscf/state/model, topic/dependency-map, topic/dependency-closure, topic/invalidation, topic/failure-propagation]
-
 aliases: "- AMOS OS Dependency Map
   - Dependency Map
   - AMOS Dependency Topology
   - DEPENDENCY_MAP..."---
-
-
 # AMOS OS Dependency Map
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `DEPENDENCY_MAP` defines the root dependency topology for AMOS OS.
-
 Its purpose is to make explicit:
-
 - what depends on what,
 - why that dependency exists,
 - whether the dependency is load-bearing,
@@ -49,15 +37,12 @@ Its purpose is to make explicit:
 - how freshness is determined,
 - what happens when a dependency fails,
 - and how far invalidation is allowed to propagate.
-
 The central law is:
-
 ```text
 Invalid(p)
 →
 invalidate only dependent descendants(p)
 ```
-
 unless evidence establishes that the failure compromises a wider shared invariant.
 rscf:
   state: SOURCE_CLAIM

@@ -3,9 +3,9 @@ title: SKILL — Mckinsey Framework Navigator
 type: skill
 source: 07_SKILLS/mckinsey-framework-navigator
 name: mckinsey-framework-navigator
-description: Framework Navigator — McKinsey strategic capability. Use when strategic
-  analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master
-  routes to this specialized capability.
+description: Framework Navigator — McKinsey strategic capability. Use when strategic analysis, business
+  consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized
+  capability.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
@@ -14,21 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/strategy-game
-- canon-group/human-system
-- topic/strategy
-- capability/mckinsey-strategy
-- capability/provenance
-- topic/consulting
-- rscf/epistemic
-- rscf/T-topology
-- rscf/G-relation
-- rscf/S-state
-- rscf/C-constraint
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- mckinsey-framework-navigator
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -53,6 +42,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

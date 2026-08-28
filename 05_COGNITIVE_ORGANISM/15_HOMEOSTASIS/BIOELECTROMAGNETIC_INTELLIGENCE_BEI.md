@@ -11,12 +11,9 @@ plane: "05_COGNITIVE_ORGANISM"
 segment: "05_COGNITIVE_ORGANISM/15_HOMEOSTASIS"
 artifact_kind: "INTELLIGENCE"
 path: "05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/BIOELECTROMAGNETIC_INTELLIGENCE_BEI.md"
-
 tags: [amos_os, cognitive, organism, 05_cognitive_organism, intelligence, canon_placeholder, rscf, canon/cognitive]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

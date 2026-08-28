@@ -5,35 +5,19 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-vietnamese-global-cultural-bridge-governor
 Agent: amos-vietnamese-global-cultural-bridge-governor-agent
-Trigger: When bridging Vietnamese-specific cultural analysis with global sociological
-  frameworks, or when validating that global models apply to Vietnamese contexts,
-  or when translating Vietnamese-specific insights for global comparison, or when
-  detecting cultural context mismatch between Vietnamese and global claims, or when
-  amos-c06-society-culture-master routes to cross-domain Vietnamese-global cultural
-  bridge governance
+Trigger: When bridging Vietnamese-specific cultural analysis with global sociological frameworks, or when
+  validating that global models apply to Vietnamese contexts, or when translating Vietnamese-specific
+  insights for global comparison, or when detecting cultural context mismatch between Vietnamese and global
+  claims, or when amos-c06-society-culture-master routes to cross-domain Vietnamese-global cultural bridge
+  governance
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/governance
-- capability/workflow
-- capability/vietnamese
-- capability/preconditions
-- capability/orchestration_pattern
-- capability/evaluation_gates
-- capability/monitoring
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/B-boundary
-- rscf/T-topology
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -64,6 +48,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

@@ -11,7 +11,6 @@ plane: "11_KNOWLEDGE"
 segment: "11_KNOWLEDGE/02_CLAIMS"
 artifact_kind: "REGISTRY"
 path: "11_KNOWLEDGE/02_CLAIMS/FRAMEWORK_CLAIM_REGISTRY.md"
-
 tags:
   - amos_os
   - knowledge
@@ -23,20 +22,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -47,13 +42,11 @@ rscf:
     - KNOWLEDGE_CLAIMS
     - FRAMEWORK_CLAIMS
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
   claims_moc:
     artifact: "[[02_CLAIMS_MOC]]"
   frameworks_moc:
     artifact: "[[05_FRAMEWORKS_MOC]]"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   registry_structure: VERIFIED_SOURCE_STRUCTURE

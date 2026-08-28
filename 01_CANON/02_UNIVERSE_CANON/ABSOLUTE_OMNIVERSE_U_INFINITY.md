@@ -3,25 +3,19 @@ title: "Absolute Omniverse / U-Infinity"
 canonical_name: "ABSOLUTE_OMNIVERSE_U_INFINITY"
 type: note
 source: "01_CANON/02_UNIVERSE_CANON"
-
 artifact: "ABSOLUTE_OMNIVERSE_U_INFINITY.md"
 artifact_id: "amos_01_canon_02_universe_canon_absolute_omniverse_u_infinity"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 system: "AMOS OS"
 native_system: "AMOS / UNIVERSE_OS"
-
 plane: "01_CANON"
 plane_name: "CANON"
 segment: "01_CANON/02_UNIVERSE_CANON"
 segment_name: "02_UNIVERSE_CANON"
-
 artifact_kind: "ARTIFACT"
 functional_kind: "CONTENT_UNIVERSE"
 path: "01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY.md"
-
 native_framework:
   name: "ABSOLUTE OMNIVERSE U∞"
   version: "vInfinity"
@@ -31,19 +25,16 @@ native_framework:
     Complete multimodal content ontology for humans, animals,
     culture, crisis, symbols, tone, morality and interaction.
     Pure content only. No logic, no prediction, no rules.
-
 native_source:
   file: "ABSOLUTE OMNIVERSE U∞.txt"
   source_class: "AMOS_NATIVE_SOURCE"
   content_resolved: true
-
 anchors:
   - UBI_4_domain
   - TSS_7_cycle
   - TPE_prediction_layer
   - PSI_planetary_layer
   - PISync_final_interface_state
-
 tags:
   - amos_os
   - canon
@@ -71,22 +62,17 @@ tags:
   - rscf
   - provenance
   - canon/universe
-
 version: "1.0.0-canon-candidate"
 native_version: "vInfinity"
 updated: "2026-08-27"
-
 status: "SOURCE_BOUND_CANON_CANDIDATE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_BOUND_CANON_CANDIDATE"
-
 implementation_status: "CONTENT_SOURCE_PRESENT / EXECUTABLE_BINDING_NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "ADD_ONLY"
 overwrite_existing: false
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -96,7 +82,6 @@ rscf:
   scope: universe_canon
   regime: "U_INFINITY_vInfinity"
   confidence_ceiling: SOURCE_CLAIM
-
 integrity:
   preserve_native_scope: true
   preserve_native_content_only_boundary: true

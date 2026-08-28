@@ -10,22 +10,10 @@ Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/workflow
-- capability/pdf
-- capability/preconditions
-- capability/output
-- capability/failure_paths
-- capability/provenance
-- rscf/epistemic
-- rscf/G-relation
-- rscf/K-compression
-- rscf/type-process
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -56,6 +44,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

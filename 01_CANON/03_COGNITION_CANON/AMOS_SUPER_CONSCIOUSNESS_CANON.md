@@ -11,7 +11,6 @@ plane: "01_CANON"
 segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "CANON"
 path: "01_CANON/03_COGNITION_CANON/AMOS_SUPER_CONSCIOUSNESS_CANON.md"
-
 tags:
   - amos_os
   - canon
@@ -26,10 +25,8 @@ tags:
   - gmef
   - fractal_knowledge
   - canon/cognition
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "CANON_CANDIDATE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "CANDIDATE_PENDING_VALIDATION"
@@ -37,7 +34,6 @@ implementation_status: "PARTIAL_OR_NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL

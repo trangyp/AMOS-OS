@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_architecture
-
 ---
 # AMOS CORE V3 2 1 RSCF HML RECURSIVE RUNTIME
 

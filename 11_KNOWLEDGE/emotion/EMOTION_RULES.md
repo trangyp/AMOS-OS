@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: emotion_model
-
 ---
 # EMOTION RULES
 

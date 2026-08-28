@@ -4,24 +4,18 @@ source: 00_ROOT
 artifact_id: AMOS-OS-SYSTEM-MAP
 name: AMOS_OS_SYSTEM_MAP
 title: "AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship Map"
-
 document_version: "2.0.0"
 map_version: "1.0.0"
 amos_core_target: "v4.4"
-
 status: ACTIVE_MAP
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: tech-ai
 canon_type: system-map
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 scope: "- AMOS_OS
   - repository_topology
   - system_planes
@@ -29,19 +23,14 @@ scope: "- AMOS_OS
   - execution_topology
 ..."
 tags: [amos, amos_os, root, amos-os, system-map, architecture, topology, repository-topology, system-planes, plane-map, dependency-map, authority, provenance, canon, kernel, control-plane, runtime, cognition, cognitive-organism, agents, skills, workflows, protocols, memory, knowledge, state, models, tools, interfaces, schemas, observability, security, tests, operations, domains, research, operating-model, archive, cognitive-matrix, rscf, hml, governance, failure-recovery, canon-group/tech-ai, canon/system-map, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/system-map, topic/system-topology, topic/repository-architecture]
-
 aliases: "- AMOS System Map
   - AMOS OS System Map
   - AMOS Plane Map
   - AMOS Architecture Map
   - AMOS Repos..."
 related: "see body"---
-
-
 # AMOS OS System Map
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_MAP`  
 > **AMOS_CORE target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

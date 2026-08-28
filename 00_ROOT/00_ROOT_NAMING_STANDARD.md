@@ -3,41 +3,30 @@ type: naming
 source: 00_ROOT
 aliases:
 - NAMING_STANDARD
-
 artifact_id: AMOS-OS-NAMING-STANDARD
 name: AMOS_OS_NAMING_STANDARD
 title: "AMOS OS Naming Standard — Canonical Identity, Namespace, Versioning, and Rename Governance"
-
 document_version: "2.0.0"
 naming_standard_version: "1.0.0"
 namespace_contract_version: "1.0.0"
 amos_core_target: "v4.4"
-
 status: ACTIVE_STANDARD
 conclusion_class: "AMOS_MODEL"
 rscf_state: "derived"
-
 canon_group: "tech-ai"
 canon_type: "standard"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 created: "2026-08-25"
 updated: "2026-08-25"
-
 scope: "see body"
 tags: [amos, amos_os, root, amos-os, naming, naming-standard, namespace, identity, artifact-identity, versioning, semantic-versioning, repository, filesystem, registry, canon, kernel, agents, skills, workflows, protocols, modes, memory, knowledge, state, models, tools, schemas, provenance, rscf, migration, rename, compatibility, lineage, governance, canon-group/tech-ai, canon/standard, rscf/claim, rscf/provenance, rscf/state/derived, topic/amos-os, topic/naming-standard, topic/namespace-governance, topic/version-governance]
-
 aliases: "- AMOS Naming Standard
   - AMOS OS Naming Standard
   - AMOS Namespace Standard
   - AMOS Identity Sta..."
 related: "see body"---
-
-
 # AMOS OS Naming Standard
-
 > **Status:** `ACTIVE_STANDARD`  
 > **Standard version:** `1.0.0`  
 > **AMOS_CORE target:** `v4.4`  

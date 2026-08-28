@@ -5,30 +5,17 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: software-engineering-qa
 Agent: software-engineering-qa-agent
-Trigger: When repository-scale software diagnosis, repair, testing, architecture validation,
-  UI/accessibility QA, API/database QA, release validation, drift detection, provenance
-  tracing, claim assessment, gap escalation, or commit-time validation is needed.
+Trigger: When repository-scale software diagnosis, repair, testing, architecture validation, UI/accessibility
+  QA, API/database QA, release validation, drift detection, provenance tracing, claim assessment, gap
+  escalation, or commit-time validation is needed.
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/tech-engineering
-- canon-group/tech-ai
-- topic/engineering
-- capability/workflow
-- capability/software
-- capability/governing_repair_loop
-- capability/preconditions
-- capability/orchestration_pattern
-- capability/evaluation_gates
-- capability/monitoring
-- rscf/epistemic
-- rscf/G-relation
-- rscf/T-topology
-- rscf/type-process
-- orchestration/orchestrator-worker
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -59,6 +46,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

@@ -1,28 +1,16 @@
 ---
 title: "AMOS × TRANG Reality"
-
 type: trang-framework
-
 source: 25_COGNITIVE_MATRIX
-
 artifact: "AMOS_X_TRANG_REALITY.md"
-
 artifact_id: "amos_25_cognitive_matrix_amos_x_trang_reality"
-
 origin_architect: "Trang Phan"
-
 steward: "Trang Phan"
-
 system: "AMOS OS"
-
 plane: "25_COGNITIVE_MATRIX"
-
 segment: "25_COGNITIVE_MATRIX"
-
 artifact_kind: "ARTIFACT"
-
 path: "25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -50,84 +38,54 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-
 version: "1.0.0"
-
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
-
 epistemic_class: "AMOS_MODEL"
-
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
-
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
-
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
-
   provenance:
     - TRANG_REALITY_ARCHITECTURE_CORPUS
     - AMOS_CORPUS
-
   scope:
     - AMOS_REALITY_MODEL
     - REALITY_ARCHITECTURE
     - COGNITIVE_MATRIX
-
 framework_binding:
-
   artifact_name:
     "AMOS × TRANG Reality"
-
   native_source_family:
     "Trang Reality Architecture"
-
   relation:
     "FRAMEWORK_LEVEL_NORMALIZATION_OF_SOURCE_ARCHITECTURE"
-
   matrix_representation:
     "[[AMOS_X_TRANG_REALITY_MATRIX]]"
-
 epistemic_boundary:
-
   source_architecture_presence:
     VERIFIED_SOURCE_STRUCTURE
-
   framework_normalization:
     DERIVED
-
   ontology:
     AMOS_MODEL
-
   universal_reality_claim:
     NOT_ESTABLISHED
-
   physical_truth:
     NOT_ESTABLISHED
-
   biological_truth:
     NOT_ESTABLISHED_GLOBALLY
-
   consciousness_truth:
     NOT_ESTABLISHED
-
   mathematical_theoremhood:
     NOT_ESTABLISHED
-
   empirical_unification:
     NOT_ESTABLISHED
-
   runtime_enforcement:
     NOT_ESTABLISHED
 ---

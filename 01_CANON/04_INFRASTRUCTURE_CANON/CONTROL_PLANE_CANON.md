@@ -4,36 +4,25 @@ source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-CONTROL-PLANE-CANON
 name: CONTROL_PLANE_CANON
 title: "AMOS Control Plane Canon — Governance, Authority, Commit, Provenance, and Coordination"
-
 document_version: "2.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: governance
 canon_type: control-plane-canon
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, control-plane, governance, authority, policy, commit, provenance, coordination, state, mvcc, cas, causal-lineage, causal-epoch, finality, shard-local-finality, rscf, gmef, rollback, recovery, observability, security, canon-group/governance, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/control-plane-canon]
-
 aliases: "- AMOS Control Plane Canon
   - Control Plane Canon
   - AMOS Governance Control Plane
   - AMOS Commit..."---
-
-
 # AMOS Control Plane Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

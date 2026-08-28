@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # AMOS BEHAVIORAL ECONOMICS KERNEL V0 HUMAN SOCIETY4 2
 

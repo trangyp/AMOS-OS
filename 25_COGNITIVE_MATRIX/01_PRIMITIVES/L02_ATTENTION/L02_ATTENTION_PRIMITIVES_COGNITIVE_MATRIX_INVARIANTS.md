@@ -2,7 +2,6 @@
 type: invariant
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags: [amos, cognitive-matrix, l02, attention, invariants, rscf, governance, canon/cognitive-matrix]
-
 title: "L02_ATTENTION — Invariants"
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"

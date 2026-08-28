@@ -11,12 +11,9 @@ plane: "03_CONTROL_PLANE"
 segment: "03_CONTROL_PLANE/12_ROLLBACK"
 artifact_kind: "CANON"
 path: "03_CONTROL_PLANE/12_ROLLBACK/CANON_LOCAL_INVALIDATION.md"
-
 tags: [amos_os, control_plane, governance, 03_control_plane, canon, canon_placeholder, rscf, canon/control-plane]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

@@ -14,29 +14,20 @@ plane: KERNEL
 kernel_family: STATE
 scope: AMOS_OS
 updated: 2026-08-26
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/state, kernel/system-state, kernel/context, kernel/dependency, kernel/provenance, kernel/causality, kernel/concurrency, kernel/validation, rscf/state/model, rscf/provenance, topic/system-state, topic/mvcc, topic/cas, topic/atomicity, topic/recovery, topic/finality]
-
 aliases: "- AMOS System State Kernel
   - System State Kernel
   - K System State
   - K_SYSTEM_STATE..."---
-
-
 # K SYSTEM STATE
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_SYSTEM_STATE` defines the kernel-level model for representing, reading, transitioning, validating, committing, invalidating, recovering, and reasoning over AMOS OS system state.
-
 It establishes the distinction between:
-
 ```text
 SYSTEM
 STATE
@@ -53,9 +44,7 @@ WORKING STATE
 SHADOW STATE
 RECOVERY STATE
 ```
-
 The central firewall is:
-
 ```text
 SYSTEM != STATE
 STATE != CONTEXT

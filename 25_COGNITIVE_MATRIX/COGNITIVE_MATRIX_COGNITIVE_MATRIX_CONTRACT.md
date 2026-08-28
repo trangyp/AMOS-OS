@@ -11,7 +11,6 @@ plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX"
 artifact_kind: "CONTRACT"
 path: "25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_COGNITIVE_MATRIX_CONTRACT.md"
-
 tags:
   - amos_os
   - cognitive_matrix
@@ -19,10 +18,8 @@ tags:
   - governance
   - generators
   - canon/cognitive-matrix
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
@@ -30,7 +27,6 @@ implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL

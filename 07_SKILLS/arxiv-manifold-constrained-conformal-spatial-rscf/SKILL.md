@@ -3,9 +3,9 @@ title: SKILL — Arxiv Manifold Constrained Conformal Spatial Rscf
 type: skill
 source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf
 name: arxiv-manifold-constrained-conformal-spatial-rscf
-description: Manifold Constrained Conformal Spatial — arxiv research capability. Use
-  when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master
-  routes to this specialized capability.
+description: Manifold Constrained Conformal Spatial — arxiv research capability. Use when arxiv research,
+  paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized
+  capability.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/knowledge-research
-- canon-group/tech-ai
-- topic/knowledge-management
-- capability/arxiv-research
-- topic/research
-- capability/formal-verification
-- capability/search
-- rscf/epistemic
-- rscf/M-memory
-- rscf/K-compression
-- rscf/C-constraint
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- arxiv-manifold-constrained-conformal-spatial-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +42,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

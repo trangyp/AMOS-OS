@@ -11,7 +11,6 @@ plane: "25_COGNITIVE_MATRIX"
 segment: "25_COGNITIVE_MATRIX/12_GENERATORS"
 artifact_kind: "NOTE"
 path: "25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_CHANGE_LOG.md"
-
 tags:
   - 12-generators
   - 12_generators
@@ -25,10 +24,8 @@ tags:
   - note
   - rscf
   - placeholder_expanded
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
@@ -36,7 +33,6 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

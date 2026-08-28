@@ -3,9 +3,8 @@ title: SKILL — Amos Collapse Recovery
 type: skill
 source: 07_SKILLS/amos-collapse-recovery
 name: amos-collapse-recovery
-description: Collapse Recovery — Trang framework capability. Use when Trang framework
-  reasoning, cascade analysis, or reality architecture. Use when amos-trang-framework-master
-  routes to this specialized capability.
+description: Collapse Recovery — Trang framework capability. Use when Trang framework reasoning, cascade
+  analysis, or reality architecture. Use when amos-trang-framework-master routes to this specialized capability.
 parent_skill: amos-trang-framework-master
 domain: trang
 origin_architect: Trang Phan
@@ -14,20 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/trang-framework
-- canon-group/tech-ai
-- topic/trang-framework
-- rscf/epistemic
-- rscf/S-state
-- rscf/T-topology
-- rscf/P-repair
-- rscf/Z-collapse
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-collapse-recovery
-- capability/provenance
-- capability/recovery
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -55,6 +44,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

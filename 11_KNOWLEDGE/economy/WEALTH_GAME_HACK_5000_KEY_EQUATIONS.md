@@ -8,7 +8,6 @@ rscf:
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: economic_model
-
 ---
 # WEALTH GAME HACK 5000 KEY EQUATIONS
 

@@ -3,15 +3,13 @@ title: SKILL — Amos Workflow Builder
 type: skill
 source: 07_SKILLS/amos-workflow-builder
 name: amos-workflow-builder
-description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows
-  from capability gaps, existing skills, agent bindings, engine/runtime specifications,
-  or operational sequences. Use when creating a new AMOS-aligned Workflow, strengthening
-  a thin workflow, converting an AMOS engine/spec into an operational workflow, checking
-  agent-skill-workflow routing, separating operational steps from validation gates,
-  adding RSCF/HML/provenance/governance controls, validating step ordering and gate
-  enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized
-  Workflow factory; do not use it as a generic replacement for ordinary non-AMOS workflow
-  creation.
+description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability
+  gaps, existing skills, agent bindings, engine/runtime specifications, or operational sequences. Use
+  when creating a new AMOS-aligned Workflow, strengthening a thin workflow, converting an AMOS engine/spec
+  into an operational workflow, checking agent-skill-workflow routing, separating operational steps from
+  validation gates, adding RSCF/HML/provenance/governance controls, validating step ordering and gate
+  enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized Workflow
+  factory; do not use it as a generic replacement for ordinary non-AMOS workflow creation.
 parent_skill: none
 domain: workflow
 origin_architect: Trang Phan
@@ -20,23 +18,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/workflow
-- capability/runtime
-- capability/orient
-- capability/audit
-- capability/binding
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/S-state
-- rscf/M-memory
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_canon
 - amos_os
-- amos-workflow-builder
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -66,6 +51,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

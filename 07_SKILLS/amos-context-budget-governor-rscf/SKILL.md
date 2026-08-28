@@ -3,9 +3,9 @@ title: SKILL — Amos Context Budget Governor Rscf
 type: skill
 source: 07_SKILLS/amos-context-budget-governor-rscf
 name: amos-context-budget-governor-rscf
-description: Context Budget Governor — boundary and scope capability. Use when evaluating
-  scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master
-  routes to this specialized capability.
+description: Context Budget Governor — boundary and scope capability. Use when evaluating scope boundaries,
+  context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized
+  capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/boundary-scope
-- canon-group/tech-ai
-- topic/scope-management
-- capability/context-management
-- capability/governance
-- capability/budget
-- capability/provenance
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/B-boundary
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-context-budget-governor-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

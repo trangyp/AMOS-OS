@@ -6,24 +6,20 @@ aliases:
   - "AMOS Kernel Bio-Logical Computing"
   - "Bio-Logical Computing Kernel"
   - "Bio Logical Computing"
-
 type: logic
 document_type: kernel-logic-artifact
 source: 02_KERNEL/01_META_LOGIC
 artifact: "K_BIO_LOGICAL_COMPUTING.md"
 artifact_id: "amos_02_kernel_01_meta_logic_k_bio_logical_computing"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
-
 plane: "02_KERNEL"
 plane_role: "reasoning-kernel"
 segment: "02_KERNEL/01_META_LOGIC"
 segment_role: "meta-logic"
 artifact_kind: "LOG"
 path: "02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md"
-
 tags:
   - amos_os
   - amos-general
@@ -51,10 +47,8 @@ tags:
   - validation
   - rollback
   - uncertainty
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 content_status: "UNPOPULATED_NATIVE_CANON"
 epistemic_class: "AMOS_MODEL"
@@ -69,7 +63,6 @@ computational_validation_status: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 overwrite_policy: "NEVER_OVERWRITE_EXISTING_CANON"
 promotion_status: "BLOCKED_PENDING_NATIVE_CANON"
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -96,7 +89,6 @@ rscf:
     - typed_schema
     - implementation_binding
     - validation_receipt
-
 governance:
   fail_closed_on_unknown: true
   capability_is_authority: false
@@ -108,7 +100,6 @@ governance:
   structural_similarity_is_causation: false
   provenance_required: true
   rollback_required_for_consequential_mutation: true
-
 relations:
   indexed_by:
     - 00_HOME

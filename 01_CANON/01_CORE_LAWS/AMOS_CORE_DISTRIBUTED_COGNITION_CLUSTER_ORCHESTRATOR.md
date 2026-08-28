@@ -11,12 +11,10 @@ plane: "01_CANON"
 segment: "01_CANON/01_CORE_LAWS"
 artifact_kind: "ARCHITECTURE_KNOWLEDGE"
 path: "11_KNOWLEDGE/AMOS_CORE/AMOS_DISTRIBUTED_COGNITION_CLUSTER_ORCHESTRATOR.md"
-
 canon-group: amos-core
 schema_family: RSCF
 schema_role: KNOWLEDGE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
-
 tags:
   - amos_os
   - amos_core
@@ -38,10 +36,8 @@ tags:
   - epistemic_firewall
   - determinism
   - canon/universe
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "MODEL"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "CONDITIONAL"
@@ -52,14 +48,12 @@ security_validation_status: "UNKNOWN/GAP"
 determinism_validation_status: "UNKNOWN/GAP"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 overclaim_risk: true
 overclaim_note: >
   Architecture-level descriptions are retained as AMOS_MODEL.
   Runtime, determinism, security, latency, production-readiness,
   autonomous operation, and performance claims remain CONDITIONAL,
   SOURCE_CLAIM, or UNKNOWN/GAP unless independently validated.
-
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

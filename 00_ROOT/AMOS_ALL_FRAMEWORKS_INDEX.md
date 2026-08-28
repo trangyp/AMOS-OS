@@ -11,7 +11,6 @@ plane: "00_ROOT"
 segment: "00_ROOT/AMOS_ALL_FRAMEWORKS_INDEX.md"
 artifact_kind: "INDEX"
 path: "00_ROOT/AMOS_ALL_FRAMEWORKS_INDEX.md"
-
 tags:
   - 00_root
   - amos_all_frameworks_index.md
@@ -24,10 +23,8 @@ tags:
   - root
   - rscf
   - placeholder_expanded
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER_EXPANDED"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"
@@ -35,7 +32,6 @@ implementation_status: "NOT_ESTABLISHED"
 validation_status: "NOT_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

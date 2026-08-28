@@ -8,62 +8,45 @@ artifact_type: authoritative_state_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: STATE
 scope: AMOS_OS
 authority_domain: repository_state
 authority_level: root_state_record
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, amos_os, root, canon-group/tech-ai, canon/model, state, state/authoritative, state/epoch, state/lifecycle, state/validation, state/recovery, state/mvcc, state/cas, provenance, provenance/persistent, provenance/lineage, governance, governance/authority, governance/commit, kernel/dependency, kernel/atomicity, kernel/validation, rscf/state/model, topic/authoritative-state, topic/state-transition, topic/commit-integrity]
-
 aliases: "- AMOS OS Authoritative State
   - Authoritative State
   - AMOS Authoritative State
   - AUTHORITATIVE..."---
-
-
 # AMOS OS Authoritative State
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **State plane:** `12_STATE`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `AUTHORITATIVE_STATE` is the single root contract for determining which AMOS OS repository/vault state is currently accepted as authoritative.
-
 It exists to prevent:
-
 ```text
 NEWEST FILE
 =
 AUTHORITATIVE FILE
 ```
-
 or:
-
 ```text
 MOST COMPLETE-LOOKING COPY
 =
 CURRENT TRUTH
 ```
-
 or:
-
 ```text
 IMPLEMENTED
 =
 AUTHORIZED
 ```
-
 The authoritative state is established only through explicit identity, provenance, compatibility, validation, authority, and commit semantics.
 rscf:
   state: SOURCE_CLAIM

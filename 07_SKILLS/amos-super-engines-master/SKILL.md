@@ -3,9 +3,9 @@ title: SKILL — Amos Super Engines Master
 type: skill
 source: 07_SKILLS/amos-super-engines-master
 name: amos-super-engines-master
-description: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
-  engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine
-  reasoning, consciousness emulation, or...
+description: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants.
+  Cognition + Emotion + Consciousness triad. Use for super-engine reasoning, consciousness emulation,
+  or...
 parent_skill: none
 domain: super
 origin_architect: Trang Phan
@@ -14,23 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/super-engines
-- canon-group/human-system
-- topic/consciousness
-- capability/ast
-- capability/reasoning
-- capability/emotion_analysis
-- capability/cognition
-- capability/consciousness_analysis
-- rscf/epistemic
-- rscf/T-topology
-- rscf/S-state
-- rscf/X-cross-scale
-- rscf/G-relation
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_canon
 - amos_os
-- amos-super-engines-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -58,6 +45,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

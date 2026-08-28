@@ -3,9 +3,9 @@ title: SKILL — Amos Distinct Working Memory Rscf
 type: skill
 source: 07_SKILLS/amos-distinct-working-memory-rscf
 name: amos-distinct-working-memory-rscf
-description: Distinct Working Memory — memory systems capability. Use when memory
-  management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master
-  routes to this specialized capability.
+description: Distinct Working Memory — memory systems capability. Use when memory management, context
+  continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized
+  capability.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/memory-systems
-- canon-group/tech-ai
-- topic/memory
-- capability/memory
-- capability/system_architecture_overview
-- capability/working_guidelines
-- capability/context_management
-- rscf/epistemic
-- rscf/M-memory
-- rscf/B-boundary
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-distinct-working-memory-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +42,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

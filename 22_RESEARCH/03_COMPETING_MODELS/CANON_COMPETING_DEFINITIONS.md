@@ -11,7 +11,6 @@ plane: "22_RESEARCH"
 segment: "22_RESEARCH/03_COMPETING_MODELS"
 artifact_kind: "COMPETING_MODELS_ANALYSIS"
 path: "22_RESEARCH/03_COMPETING_MODELS/CANON_COMPETING_DEFINITIONS.md"
-
 tags:
   - amos_os
   - research
@@ -24,20 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/research
-
 version: "1.0.0"
 updated: "2026-08-27"
-
 status: "ACTIVE_REFERENCE"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
 implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
 validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
 executable_binding: "NOT_ESTABLISHED"
-
 ingestion_action: "NATIVE_CANON_INGESTION"
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -49,13 +44,11 @@ rscf:
     - RESEARCH_ANALYSIS
     - COMPETING_DEFINITIONS
     - SOURCE_DEFINED_MODEL
-
 framework_binding:
   competing_moc:
     artifact: "22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC"
   canon_moc:
     artifact: "01_CANON/01_CANON_MOC"
-
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   analysis_structure: VERIFIED_SOURCE_STRUCTURE

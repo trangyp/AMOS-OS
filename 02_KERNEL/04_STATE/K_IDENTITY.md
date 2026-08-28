@@ -15,29 +15,20 @@ kernel_family: IDENTITY
 domain: identity
 scope: AMOS_OS
 updated: 2026-08-26
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/identity, kernel/provenance, kernel/state, kernel/dependency, kernel/versioning, kernel/causality, kernel/validation, rscf/identity, rscf/provenance, rscf/state/model, topic/identity, topic/semantic-identity, topic/provenance-lineage]
-
 aliases: "- AMOS Identity Kernel
   - Identity Kernel
   - K Identity
   - K_IDENTITY..."---
-
-
 # K IDENTITY
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_IDENTITY` defines the kernel-level contract for determining, preserving, comparing, resolving, versioning, and invalidating identity across AMOS OS.
-
 Identity is foundational because provenance, dependency closure, state transitions, authority, event lineage, memory reuse, supersession, and causal reasoning all require AMOS to distinguish:
-
 ```text
 WHAT IS THIS?
 IS THIS THE SAME THING?
@@ -47,9 +38,7 @@ IS THIS A COPY?
 IS THIS DERIVED FROM SOMETHING ELSE?
 HAS ITS IDENTITY CHANGED?
 ```
-
 The central firewall is:
-
 ```text
 NAME != IDENTITY
 PATH != IDENTITY

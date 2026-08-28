@@ -8,40 +8,28 @@ artifact_type: kernel_causal_epoch_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_family: CAUSAL
 domain: causal-epoch
 scope: AMOS_OS
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/causal, kernel/causal-epoch, kernel/causal-finality, kernel/dependency, kernel/provenance, kernel/state, kernel/regime, kernel/freshness, kernel/concurrency, kernel/rscf, kernel/validation, kernel/recovery, causal/epoch, causal/lineage, causal/finality, causal/closure, provenance/topology, provenance/persistence, state/authoritative, rscf/state/model, topic/causal-epoch, topic/causal-finality, topic/epoch-boundary]
-
 aliases: "- AMOS Causal Epoch Kernel
   - Causal Epoch Kernel
   - K Causal Epoch
   - K_CAUSAL_EPOCH..."---
-
-
 # K CAUSAL EPOCH
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_CAUSAL_EPOCH` defines the AMOS kernel model for establishing, identifying, validating, finalizing, superseding, and recovering **bounded causal epochs**.
-
 A causal epoch is a validity interval in which a defined causal state may be treated as internally coherent under an explicit set of:
-
 ```text
 CAUSAL DEPENDENCIES
 PROVENANCE
@@ -52,13 +40,9 @@ POLICY / AUTHORITY CONDITIONS
 TEMPORAL ASSUMPTIONS
 VALIDATION CONDITIONS
 ```
-
 The epoch provides a boundary around causal conclusions.
-
 It does **not** make those conclusions universally or permanently true.
-
 Core distinction:
-
 ```text
 FINALIZED_FOR_EPOCH
 !=

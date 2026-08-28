@@ -2,26 +2,20 @@
 title: "META LOGIC KERNEL README"
 canonical_name: "META_LOGIC_KERNEL_README"
 type: kernel
-
 source: "02_KERNEL/01_META_LOGIC"
 artifact: "META_LOGIC_KERNEL_README.md"
 artifact_id: "amos_02_kernel_01_meta_logic_meta_logic_kernel_readme_md"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 system: "AMOS OS"
 amos_core_target: "v4.4"
-
 plane: "02_KERNEL"
 plane_name: "KERNEL"
 segment: "02_KERNEL/01_META_LOGIC"
 segment_name: "META_LOGIC"
 artifact_kind: "README"
 package_role: "KERNEL_SEGMENT_ORIENTATION_AND_INTEGRATION_MAP"
-
 path: "02_KERNEL/01_META_LOGIC/META_LOGIC_KERNEL_README.md"
-
 tags:
   - amos_os
   - kernel
@@ -45,20 +39,16 @@ tags:
   - validation
   - recovery
   - trang_framework
-
 version: "0.2.0"
 updated: "2026-08-27"
-
 status: "AMOS_MODEL"
 epistemic_class: "AMOS_MODEL"
 conclusion_class: "DERIVED"
-
 canonical_status: "PACKAGE_MAP / CANON_BOUND"
 implementation_status: "PARTIAL / NOT_FULLY_ESTABLISHED"
 validation_status: "PARTIAL / RECEIPT_DEPENDENT"
 executable_binding: "PARTIAL"
 runtime_enforcement: "NOT_ESTABLISHED_FOR_ALL_SIBLINGS"
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -66,7 +56,6 @@ rscf:
   scope: AMOS_general
   regime: AMOS_v4_4_kernel
   confidence_ceiling: DERIVED
-
 integrity:
   fail_closed_on_unknown: true
   preserve_competing: true

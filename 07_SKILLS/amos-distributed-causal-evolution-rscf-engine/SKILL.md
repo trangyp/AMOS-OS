@@ -3,9 +3,9 @@ title: SKILL — Amos Distributed Causal Evolution Rscf Engine
 type: skill
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine
 name: amos-distributed-causal-evolution-rscf-engine
-description: Distributed Causal Evolution — causal reasoning capability. Use when
-  causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
-  routes to this specialized capability.
+description: Distributed Causal Evolution — causal reasoning capability. Use when causal analysis, counterfactual
+  reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized
+  capability.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
@@ -14,22 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/causal-reasoning
-- canon-group/tech-ai
-- topic/causality
-- capability/causal-reasoning
-- capability/known_gap_at_this_version
-- capability/brain_adaptation
-- capability/benchmark_record
-- rscf/epistemic
-- rscf/μ-mutation
-- rscf/G-relation
-- rscf/S-state
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-distributed-causal-evolution-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -58,6 +46,7 @@ law_compliance:
 - L18
 - L24
 ---
+
 
 
 

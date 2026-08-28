@@ -11,12 +11,9 @@ plane: "01_CANON"
 segment: "01_CANON/08_SUPERSESSION"
 artifact_kind: "CANON"
 path: "01_CANON/08_SUPERSESSION/ACTIVE_VS_LEGACY_CANON.md"
-
 tags: [amos_os, canon, universe, 01_canon, canon_placeholder, rscf, canon/universe]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

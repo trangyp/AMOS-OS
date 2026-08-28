@@ -11,12 +11,9 @@ plane: "02_KERNEL"
 segment: "02_KERNEL/01_META_LOGIC"
 artifact_kind: "LOG"
 path: "02_KERNEL/01_META_LOGIC/K_UNIVERSE_LOGIC_KERNEL.md"
-
 tags: [amos_os, kernel, core, 02_kernel, log, canon_placeholder, rscf, canon/kernel]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

@@ -3,9 +3,8 @@ title: SKILL — Amos Morphogenesis Mapper
 type: skill
 source: 07_SKILLS/amos-morphogenesis-mapper
 name: amos-morphogenesis-mapper
-description: Morphogenesis Mapper — biology and neuroscience capability. Use when
-  biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
-  routes to this specialized capability.
+description: Morphogenesis Mapper — biology and neuroscience capability. Use when biological reasoning,
+  neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
@@ -14,19 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/bio-neuro
-- canon-group/biology
-- topic/neuroscience
-- rscf/epistemic
-- rscf/M-memory
-- rscf/G-relation
-- rscf/S-state
-- rscf/C-constraint
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-morphogenesis-mapper
-- capability/provenance
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +44,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

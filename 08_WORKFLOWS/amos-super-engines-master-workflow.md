@@ -5,30 +5,17 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-super-engines-master
 Agent: amos-super-engines-agent
-Trigger: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity
-  engine variants. Cognition + Emotion + Consciousness triad. Use for super-engine
-  reasoning, consciousness emulation, or
+Trigger: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants.
+  Cognition + Emotion + Consciousness triad. Use for super-engine reasoning, consciousness emulation,
+  or
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/super-engines
-- canon-group/human-system
-- topic/consciousness
-- capability/workflow
-- capability/ast
-- capability/preconditions
-- capability/failure_paths
-- capability/dependencies
-- capability/provenance
-- rscf/epistemic
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -59,6 +46,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

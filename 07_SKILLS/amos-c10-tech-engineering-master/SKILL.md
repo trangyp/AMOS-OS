@@ -3,9 +3,8 @@ title: SKILL — Amos C10 Tech Engineering Master
 type: skill
 source: 07_SKILLS/amos-c10-tech-engineering-master
 name: amos-c10-tech-engineering-master
-description: AMOS C10 Tech & Engineering — coding, software engineering, automation,
-  DevOps, architecture, factory systems, production. Use for software development,
-  engineering design, or technical architecture.
+description: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture,
+  factory systems, production. Use for software development, engineering design, or technical architecture.
 parent_skill: none
 domain: c10
 origin_architect: Trang Phan
@@ -14,17 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/tech-engineering
-- canon-group/tech-ai
-- topic/engineering
-- capability/ast
-- rscf/epistemic
-- rscf/T-topology
-- rscf/C-constraint
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_canon
 - amos_os
-- amos-c10-tech-engineering-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -54,6 +46,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

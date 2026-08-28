@@ -3,9 +3,8 @@ title: SKILL — Amos Full Brain Os
 type: skill
 source: 07_SKILLS/amos-full-brain-os
 name: amos-full-brain-os
-description: Full Brain Os — super engines capability. Use when super-engine reasoning,
-  consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master
-  routes to this specialized capability.
+description: Full Brain Os — super engines capability. Use when super-engine reasoning, consciousness
+  emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability.
 parent_skill: amos-super-engines-master
 domain: super
 origin_architect: Trang Phan
@@ -14,20 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/super-engines
-- canon-group/human-system
-- topic/consciousness
-- rscf/epistemic
-- rscf/S-state
-- rscf/X-cross-scale
-- rscf/G-relation
-- rscf/T-topology
-- rscf/type-system
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-full-brain-os
-- capability/reasoning
-- capability/consciousness_analysis
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,6 +44,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

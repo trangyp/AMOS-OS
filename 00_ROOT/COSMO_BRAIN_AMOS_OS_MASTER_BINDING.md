@@ -11,12 +11,9 @@ plane: "00_ROOT"
 segment: "00_ROOT"
 artifact_kind: "BINDING"
 path: "00_ROOT/COSMO_BRAIN_AMOS_OS_MASTER_BINDING.md"
-
 tags: [amos_os, root, index, 00_root, binding, canon_placeholder, rscf, canon/root]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

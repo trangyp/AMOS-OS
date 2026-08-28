@@ -8,40 +8,28 @@ artifact_type: kernel_governance_contract
 status: AMOS_MODEL
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 plane: KERNEL
 kernel_family: FOUNDATION
 domain: law-hierarchy
 scope: AMOS_OS
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/foundation, kernel/law-hierarchy, kernel/precedence, kernel/invariants, kernel/governance, kernel/authority, kernel/constraints, kernel/conflict-resolution, kernel/provenance, kernel/scope, kernel/regime, kernel/versioning, kernel/supersession, rscf/claim, rscf/provenance, rscf/state/model, topic/law-hierarchy]
-
 aliases: "- AMOS Law Hierarchy Kernel
   - Law Hierarchy Kernel
   - K Law Hierarchy
   - K_LAW_HIERARCHY..."---
-
-
 # K_LAW_HIERARCHY
-
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  
 > **Plane:** `02_KERNEL`  
 > **Status:** `AMOS_MODEL`  
 > **Conclusion class:** `AMOS_MODEL`
-
 ## Purpose
-
 `K_LAW_HIERARCHY` defines the deterministic precedence model used when multiple AMOS laws, invariants, constraints, policies, rules, or instructions are simultaneously applicable.
-
 Its central function is:
-
 ```text
 APPLICABLE RULES
 ↓
@@ -55,11 +43,8 @@ CONFLICT DETECTION
 ↓
 VALID RULE SET
 ```
-
 The kernel prevents arbitrary conflict resolution.
-
 It does **not** create authority.
-
 It evaluates authority and precedence already established through AMOS canon and governance structures.
 rscf:
   state: DERIVED

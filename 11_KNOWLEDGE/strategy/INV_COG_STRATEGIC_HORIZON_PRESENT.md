@@ -8,7 +8,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: strategy_game
-
 ---
 # INV COG STRATEGIC HORIZON PRESENT
 

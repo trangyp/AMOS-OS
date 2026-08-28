@@ -5,34 +5,18 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-emotion-cognition-decision-bridge-governor
 Agent: amos-emotion-cognition-decision-bridge-governor-agent
-Trigger: When a decision requires both emotional state awareness from C05 (mind/behavior)
-  and cognitive/technical rigor from C01 (meta-logic) or C10 (tech/engineering), or
-  when routing a query based on emotional state, or when validating that emotion influence
-  gating is preserved across domain boundaries, or when amos-c05-mind-behavior-master
+Trigger: When a decision requires both emotional state awareness from C05 (mind/behavior) and cognitive/technical
+  rigor from C01 (meta-logic) or C10 (tech/engineering), or when routing a query based on emotional state,
+  or when validating that emotion influence gating is preserved across domain boundaries, or when amos-c05-mind-behavior-master
   routes to cross-domain emotion-cognition-decision bridge governance
 Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/os-runtime
-- canon-group/tech-ai
-- topic/runtime
-- capability/governance
-- capability/emotion
-- capability/cognition
-- capability/preconditions
-- capability/orchestration_pattern
-- capability/evaluation_gates
-- capability/monitoring
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/G-relation
-- rscf/B-boundary
-- rscf/S-state
-- rscf/type-system
-- orchestration/event-driven
-- sota/evaluation-gates
-- sota/human-in-the-loop
+- domain/cross-domain
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
 rscf:
   state: AMOS_MODEL
@@ -63,6 +47,7 @@ law_compliance:
 - L17
 - L18
 ---
+
 
 
 

@@ -11,12 +11,9 @@ plane: "05_COGNITIVE_ORGANISM"
 segment: "05_COGNITIVE_ORGANISM"
 artifact_kind: "SPEC"
 path: "05_COGNITIVE_ORGANISM/CROSS_SPECIES_MODE_ENGINE.md"
-
 tags: [amos_os, cognitive, organism, 05_cognitive_organism, spec, canon_placeholder, rscf, canon/cognitive]
-
 version: "0.1.0"
 updated: "2026-08-27"
-
 status: "PLACEHOLDER"
 epistemic_class: "AMOS_MODEL"
 canonical_status: "UNKNOWN/GAP"

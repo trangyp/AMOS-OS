@@ -3,9 +3,9 @@ title: SKILL — Amos Repair Substrate Capture Resistance Rscf
 type: skill
 source: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf
 name: amos-repair-substrate-capture-resistance-rscf
-description: Repair Substrate Capture Resistance — audit and repair capability. Use
-  when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
-  routes to this specialized capability.
+description: Repair Substrate Capture Resistance — audit and repair capability. Use when auditing, failure
+  analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized
+  capability.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -14,20 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/audit-repair
-- canon-group/tech-ai
-- topic/quality-assurance
-- capability/repair
-- capability/audit
-- rscf/epistemic
-- rscf/M-memory
-- rscf/C-constraint
-- rscf/P-repair
-- rscf/Z-collapse
-- rscf/type-process
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-repair-substrate-capture-resistance-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +47,7 @@ law_compliance:
 - L18
 - L22
 ---
+
 
 
 

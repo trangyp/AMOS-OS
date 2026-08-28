@@ -8,7 +8,6 @@ rscf:
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
-
 ---
 # AMOS MEDICAL CLINICAL KERNEL V0 SCIENCE HEALTH7 4
 

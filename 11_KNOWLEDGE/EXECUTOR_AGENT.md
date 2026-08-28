@@ -8,30 +8,24 @@ document_version: "2.0.0"
 component_version: "1.0.0"
 runtime_contract_version: "1.0.0"
 amos_core_target: "v4.4"
-
 created: "2026-08-25"
 updated: "2026-08-25"
-
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
-
 system: "EXECUTION_SYSTEM"
 category: "agents"
 component: "Executor_Agent"
-
 canon-group: tech-ai
 canon-type: component
 rscf-state: source-claim
 conclusion_class: "SOURCE_CLAIM / STRUCTURAL_MODEL"
 implementation_state: "REGISTERED_STUB"
 runtime_state: "NON_DESTRUCTIVE_TRACE_ONLY"
-
 aliases: "- Executor Agent
   - AMOS Executor Agent
   - Execution System Executor
   - Governed Effect Executor..."
 tags: [agents, knowledge, vault, canon-group/tech-ai, canon/component, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/executor-agent, topic/execution-system, topic/effect-execution, topic/commit-governance, topic/agent-runtime]
-
 governing_law: "integrity > completeness > fluency > speed > token savings"
 rscf:
   state: SOURCE_CLAIM

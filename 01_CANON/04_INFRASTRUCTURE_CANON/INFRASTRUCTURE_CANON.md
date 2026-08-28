@@ -4,36 +4,25 @@ source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-INFRASTRUCTURE-CANON
 name: INFRASTRUCTURE_CANON
 title: "AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and Operational Foundations"
-
 document_version: "2.0.0"
 canon_version: "4.4"
 amos_core_target: "v4.4"
-
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
-
 canon_group: infrastructure
 canon_type: infrastructure-canon
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, infrastructure, substrate, compute, storage, network, deployment, runtime, resilience, availability, durability, resource-governance, topology, isolation, fault-domain, persistence, state, provenance, observability, security, recovery, rollback, rscf, causal-lineage, canon-group/infrastructure, canon/framework, canon/model, rscf/claim, rscf/provenance, rscf/state/derived, topic/infrastructure-canon]
-
 aliases: "- AMOS Infrastructure Canon
   - Infrastructure Canon
   - AMOS Infrastructure Foundation
   - AMOS Ope..."---
-
-
 # AMOS Infrastructure Canon
-
 **Origin architect / steward:** Trang Phan
-
 > **Status:** `ACTIVE_CANON_CANDIDATE`  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`

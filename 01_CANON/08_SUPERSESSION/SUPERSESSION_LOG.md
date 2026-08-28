@@ -8,37 +8,25 @@ artifact_type: canonical_supersession_ledger
 status: SOURCE_CLAIM
 conclusion_class: AMOS_MODEL
 amos_core_target: v4.4
-
 origin_architect: Trang Phan
 steward: Trang Phan
-
 domain: canon
 scope: AMOS_OS
 authority_scope: canonical-supersession-lineage-and-history
-
 created: 2026-08-25
 updated: 2026-08-25
-
 tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/registry, canon/supersession, canon/provenance, canon/lineage, rscf/claim, rscf/provenance, rscf/state/source-claim, topic/supersession, topic/version-lineage, topic/canon-evolution, topic/provenance, topic/invalidation, topic/rollback, topic/governed-evolution]
-
 aliases: "- AMOS Supersession Log
   - AMOS OS Supersession Log
   - Canon Supersession Log..."---
-
-
 # AMOS OS Supersession Log
-
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  
 > **Conclusion class:** `AMOS_MODEL`  
 > **Status:** `SOURCE_CLAIM`
-
 ## 1. Purpose
-
 `SUPERSESSION_LOG.md` defines the canonical AMOS OS contract for recording governed replacement of one canonical artifact, rule, definition, model, protocol, or other versioned semantic object by another.
-
 The log preserves:
-
 ```text
 WHAT CHANGED
 WHAT WAS REPLACED
@@ -51,9 +39,7 @@ WHAT BECAME INVALID
 WHAT DEPENDS ON THE CHANGE
 HOW TO RECOVER THE PRIOR STATE
 ```
-
 Supersession is an explicit lineage operation.
-
 It is not deletion.
 rscf:
   state: DERIVED

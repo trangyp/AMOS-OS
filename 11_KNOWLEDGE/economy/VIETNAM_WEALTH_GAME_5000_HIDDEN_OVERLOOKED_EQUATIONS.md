@@ -8,7 +8,6 @@ rscf:
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: economic_model
-
 ---
 # VIETNAM WEALTH GAME 5000 HIDDEN OVERLOOKED EQUATIONS
 

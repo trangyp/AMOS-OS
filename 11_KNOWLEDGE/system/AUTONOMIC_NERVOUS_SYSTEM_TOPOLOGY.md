@@ -14,7 +14,6 @@ rscf:
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: system_design
-
 ---
 
 

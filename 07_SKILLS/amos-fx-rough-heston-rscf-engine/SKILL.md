@@ -3,9 +3,8 @@ title: SKILL — Amos Fx Rough Heston Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-rough-heston-rscf-engine
 name: amos-fx-rough-heston-rscf-engine
-description: Rough Heston — forex and finance capability. Use when forex analysis,
-  currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes
-  to this specialized capability.
+description: Rough Heston — forex and finance capability. Use when forex analysis, currency trading, or
+  market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
@@ -14,21 +13,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/econ-finance
-- canon-group/tech-ai
-- topic/finance
-- capability/forex
-- capability/rscf_reasoning
-- topic/forex
-- rscf/epistemic
-- rscf/S-state
-- rscf/E-entropy
-- rscf/G-relation
-- rscf/T-topology
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
 - amos_os
-- amos-fx-rough-heston-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -55,6 +43,7 @@ law_compliance:
 - L16
 - L17
 ---
+
 
 
 

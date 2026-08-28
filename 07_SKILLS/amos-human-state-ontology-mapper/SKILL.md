@@ -3,9 +3,9 @@ title: SKILL — Amos Human State Ontology Mapper
 type: skill
 source: 07_SKILLS/amos-human-state-ontology-mapper
 name: amos-human-state-ontology-mapper
-description: Human State Ontology Mapper — canon and universe capability. Use when
-  canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master
-  routes to this specialized capability.
+description: Human State Ontology Mapper — canon and universe capability. Use when canon reasoning, universe-level
+  analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized
+  capability.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -14,19 +14,10 @@ tags:
 - type/skill
 - canon/skill
 - domain/canon-universe
-- canon-group/tech-ai
-- topic/canon
-- rscf/epistemic
-- rscf/C-constraint
-- rscf/D-distinction
-- rscf/S-state
-- rscf/M-memory
-- rscf/type-model
-- sota/progressive-disclosure
-- sota/anti-patterns
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
 - amos_os
-- amos-human-state-ontology-mapper
-- capability/reasoning
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -57,6 +48,7 @@ law_compliance:
 - L18
 - L19
 ---
+
 
 
 
