@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos C12 Earth Ecology Master
 type: skill
 source: 07_SKILLS/amos-c12-earth-ecology-master

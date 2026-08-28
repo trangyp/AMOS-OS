@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Natural Evidence Trail Reasoning Rscf
 type: skill
 source: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf

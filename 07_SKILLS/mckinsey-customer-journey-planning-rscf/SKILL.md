@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Mckinsey Customer Journey Planning Rscf
 type: skill
 source: 07_SKILLS/mckinsey-customer-journey-planning-rscf

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Self Regulated Simulative Planning Rscf
 type: skill
 source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf

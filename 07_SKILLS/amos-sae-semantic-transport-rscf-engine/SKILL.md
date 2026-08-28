@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Sae Semantic Transport Rscf Engine
 type: skill
 source: 07_SKILLS/amos-sae-semantic-transport-rscf-engine

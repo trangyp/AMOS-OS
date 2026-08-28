@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Arxiv Streaming Attention Sinks Rscf
 type: skill
 source: 07_SKILLS/arxiv-streaming-attention-sinks-rscf

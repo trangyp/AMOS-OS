@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Biology Quantum Bridge Governor
 type: skill
 source: 07_SKILLS/amos-biology-quantum-bridge-governor

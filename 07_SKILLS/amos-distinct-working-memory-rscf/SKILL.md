@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Distinct Working Memory Rscf
 type: skill
 source: 07_SKILLS/amos-distinct-working-memory-rscf

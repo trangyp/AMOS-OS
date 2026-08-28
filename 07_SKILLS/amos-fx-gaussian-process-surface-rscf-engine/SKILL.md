@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Fx Gaussian Process Surface Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-gaussian-process-surface-rscf-engine

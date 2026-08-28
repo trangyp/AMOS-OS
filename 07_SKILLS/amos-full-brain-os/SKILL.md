@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Full Brain Os
 type: skill
 source: 07_SKILLS/amos-full-brain-os

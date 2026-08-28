@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Formal Model Checking Orchestrator Rscf
 type: skill
 source: 07_SKILLS/amos-formal-model-checking-orchestrator-rscf

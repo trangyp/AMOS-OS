@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos C10 Tech Engineering Master
 type: skill
 source: 07_SKILLS/amos-c10-tech-engineering-master

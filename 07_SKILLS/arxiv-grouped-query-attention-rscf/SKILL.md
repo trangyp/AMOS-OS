@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Arxiv Grouped Query Attention Rscf
 type: skill
 source: 07_SKILLS/arxiv-grouped-query-attention-rscf

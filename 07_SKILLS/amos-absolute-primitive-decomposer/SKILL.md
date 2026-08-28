@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Absolute Primitive Decomposer
 type: skill
 source: 07_SKILLS/amos-absolute-primitive-decomposer

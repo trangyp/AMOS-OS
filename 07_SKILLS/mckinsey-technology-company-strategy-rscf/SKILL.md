@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Mckinsey Technology Company Strategy Rscf
 type: skill
 source: 07_SKILLS/mckinsey-technology-company-strategy-rscf

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos C04 Bio Neuro Master
 type: skill
 source: 07_SKILLS/amos-c04-bio-neuro-master

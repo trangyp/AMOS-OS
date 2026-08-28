@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Agent Systems Master
 type: skill
 source: 07_SKILLS/amos-agent-systems-master

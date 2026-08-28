@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Process Compliance Auditor Rscf
 type: skill
 source: 07_SKILLS/amos-process-compliance-auditor-rscf

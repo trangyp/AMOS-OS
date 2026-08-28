@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Agent Owner Attribution Rscf
 type: skill
 source: 07_SKILLS/amos-agent-owner-attribution-rscf

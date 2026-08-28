@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Mckinsey Credit Lending Rscf
 type: skill
 source: 07_SKILLS/mckinsey-credit-lending-rscf

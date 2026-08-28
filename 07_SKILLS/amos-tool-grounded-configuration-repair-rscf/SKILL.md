@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Tool Grounded Configuration Repair Rscf
 type: skill
 source: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Obsidian Plugin Auto Tag
 type: skill
 source: 07_SKILLS/obsidian-plugin-auto-tag
@@ -21,7 +22,7 @@ rscf:
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: 1.0.0
+version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
 gmef_gates:

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Human State Ontology Mapper
 type: skill
 source: 07_SKILLS/amos-human-state-ontology-mapper

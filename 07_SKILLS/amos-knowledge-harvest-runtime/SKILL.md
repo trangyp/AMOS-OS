@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Knowledge Harvest Runtime
 type: skill
 source: 07_SKILLS/amos-knowledge-harvest-runtime

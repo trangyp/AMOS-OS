@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos C03 Physics Cosmos Master
 type: skill
 source: 07_SKILLS/amos-c03-physics-cosmos-master

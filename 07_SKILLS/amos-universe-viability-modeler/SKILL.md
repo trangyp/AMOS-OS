@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Universe Viability Modeler
 type: skill
 source: 07_SKILLS/amos-universe-viability-modeler

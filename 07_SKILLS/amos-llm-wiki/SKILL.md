@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 name: amos-llm-wiki
 description: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained markdown wiki inside the AMOS Obsidian vault. Use when adding a new source to the wiki, answering questions from the wiki, running a wiki health check, or filing a synthesized answer back into 11_KNOWLEDGE/LLM_WIKI/. Do not use for generic note taking, non-AMOS vaults, or tasks outside the LLM_WIKI subsystem.
 license: MIT
@@ -6,7 +7,7 @@ parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
 epistemic_class: AMOS_MODEL
-version: 1.0.0
+version: 1.1.0
 rscf_state: DERIVED
 hml_level: M
 gmef_gates:

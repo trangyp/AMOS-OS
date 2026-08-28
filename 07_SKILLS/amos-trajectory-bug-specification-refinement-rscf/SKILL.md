@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Trajectory Bug Specification Refinement Rscf
 type: skill
 source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf

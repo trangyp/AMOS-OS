@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Arxiv Sparse Attention Scaling Rscf
 type: skill
 source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf

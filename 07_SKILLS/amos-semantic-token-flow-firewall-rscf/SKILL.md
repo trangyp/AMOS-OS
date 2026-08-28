@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Semantic Token Flow Firewall Rscf
 type: skill
 source: 07_SKILLS/amos-semantic-token-flow-firewall-rscf

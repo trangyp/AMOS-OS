@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Cross Species Cognition Mapper
 type: skill
 source: 07_SKILLS/amos-cross-species-cognition-mapper

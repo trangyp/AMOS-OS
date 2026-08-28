@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Bundle Manifold Concentration Rscf Engine
 type: skill
 source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine

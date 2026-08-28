@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Fx Typed Tensor Contract Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-typed-tensor-contract-rscf-engine

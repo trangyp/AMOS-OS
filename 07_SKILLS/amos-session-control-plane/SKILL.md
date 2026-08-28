@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Session Control Plane
 type: skill
 source: 07_SKILLS/amos-session-control-plane

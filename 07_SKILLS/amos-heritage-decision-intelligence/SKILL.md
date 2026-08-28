@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Heritage Decision Intelligence
 type: skill
 source: 07_SKILLS/amos-heritage-decision-intelligence

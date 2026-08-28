@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Mark Operator Rscf Engine
 type: skill
 source: 07_SKILLS/amos-mark-operator-rscf-engine

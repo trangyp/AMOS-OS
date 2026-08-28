@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Ast Control Dataflow Rscf Engine
 type: skill
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine

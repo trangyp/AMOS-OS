@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Cell Intelligence Mapper
 type: skill
 source: 07_SKILLS/amos-cell-intelligence-mapper

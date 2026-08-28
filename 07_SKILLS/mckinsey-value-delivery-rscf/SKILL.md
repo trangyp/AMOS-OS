@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Mckinsey Value Delivery Rscf
 type: skill
 source: 07_SKILLS/mckinsey-value-delivery-rscf

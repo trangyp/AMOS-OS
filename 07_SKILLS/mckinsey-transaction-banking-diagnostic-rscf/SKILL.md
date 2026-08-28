@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Mckinsey Transaction Banking Diagnostic Rscf
 type: skill
 source: 07_SKILLS/mckinsey-transaction-banking-diagnostic-rscf

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Mckinsey Commercial Due Diligence Rscf
 type: skill
 source: 07_SKILLS/mckinsey-commercial-due-diligence-rscf

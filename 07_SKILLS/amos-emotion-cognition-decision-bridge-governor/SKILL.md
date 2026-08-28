@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Emotion Cognition Decision Bridge Governor
 type: skill
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor

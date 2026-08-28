@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Arxiv Sparse Autoencoder Interpretability Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf

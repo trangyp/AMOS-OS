@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Tensor Network Contraction Sketch Rscf Engine
 type: skill
 source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Fx Options Implied Distribution
 type: skill
 source: 07_SKILLS/amos-fx-options-implied-distribution

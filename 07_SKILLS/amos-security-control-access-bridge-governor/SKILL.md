@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Security Control Access Bridge Governor
 type: skill
 source: 07_SKILLS/amos-security-control-access-bridge-governor

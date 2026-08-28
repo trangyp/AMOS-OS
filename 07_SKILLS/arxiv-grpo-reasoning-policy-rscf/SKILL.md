@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Arxiv Grpo Reasoning Policy Rscf
 type: skill
 source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf

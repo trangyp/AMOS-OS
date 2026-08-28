@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Bluebook Strategy System
 type: skill
 source: 07_SKILLS/bluebook-strategy-system

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Mckinsey Healthcare Strategy Rscf
 type: skill
 source: 07_SKILLS/mckinsey-healthcare-strategy-rscf

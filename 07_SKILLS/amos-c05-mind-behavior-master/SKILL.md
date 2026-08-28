@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 name: amos-c05-mind-behavior-master
 description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for generic tasks outside c05 domain.
 parent_skill: none

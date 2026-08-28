@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Managed Autonomy Escalation Rscf
 type: skill
 source: 07_SKILLS/amos-managed-autonomy-escalation-rscf

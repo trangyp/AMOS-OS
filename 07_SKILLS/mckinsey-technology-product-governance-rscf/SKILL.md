@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Mckinsey Technology Product Governance Rscf
 type: skill
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf

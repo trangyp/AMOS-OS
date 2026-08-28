@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Rscf Modeler
 type: skill
 source: 07_SKILLS/rscf-modeler

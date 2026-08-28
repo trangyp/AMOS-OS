@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos C02 Math Compute Master
 type: skill
 source: 07_SKILLS/amos-c02-math-compute-master

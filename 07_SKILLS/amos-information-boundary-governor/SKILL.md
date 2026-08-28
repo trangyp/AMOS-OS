@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Information Boundary Governor
 type: skill
 source: 07_SKILLS/amos-information-boundary-governor

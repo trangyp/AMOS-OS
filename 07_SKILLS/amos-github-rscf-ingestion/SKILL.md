@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Github Rscf Ingestion
 type: skill
 source: 07_SKILLS/amos-github-rscf-ingestion

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Gmef Governance
 type: skill
 source: 07_SKILLS/gmef-governance

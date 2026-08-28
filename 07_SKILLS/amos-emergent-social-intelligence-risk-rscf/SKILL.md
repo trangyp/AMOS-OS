@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Emergent Social Intelligence Risk Rscf
 type: skill
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Trust Formation Governor
 type: skill
 source: 07_SKILLS/amos-trust-formation-governor

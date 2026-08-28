@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Arxiv Activation Checkpointing Rscf
 type: skill
 source: 07_SKILLS/arxiv-activation-checkpointing-rscf

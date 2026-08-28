@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Reality Simulation Distinction
 type: skill
 source: 07_SKILLS/amos-reality-simulation-distinction

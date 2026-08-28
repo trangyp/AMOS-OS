@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 name: amos-7-part-universe-canon
 title: SKILL — Amos 7 Part Universe Canon
 type: note

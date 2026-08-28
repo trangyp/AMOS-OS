@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Structured Document Parsing Rscf
 type: skill
 source: 07_SKILLS/amos-structured-document-parsing-rscf

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Prompt Domain Control Rscf Engine
 type: skill
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Neural Ode Dynamics Rscf Engine
 type: skill
 source: 07_SKILLS/amos-neural-ode-dynamics-rscf-engine

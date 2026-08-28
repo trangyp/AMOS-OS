@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Law Hierarchy Resolver
 type: skill
 source: 07_SKILLS/amos-law-hierarchy-resolver

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Goal Plan Action Alignment Rscf
 type: skill
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf

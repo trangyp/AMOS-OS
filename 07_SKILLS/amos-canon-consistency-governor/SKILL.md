@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Canon Consistency Governor
 type: skill
 source: 07_SKILLS/amos-canon-consistency-governor

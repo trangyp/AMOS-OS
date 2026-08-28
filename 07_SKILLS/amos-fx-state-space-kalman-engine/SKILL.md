@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Fx State Space Kalman Engine
 type: skill
 source: 07_SKILLS/amos-fx-state-space-kalman-engine

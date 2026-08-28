@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Boundary Scope Master
 type: skill
 source: 07_SKILLS/amos-boundary-scope-master

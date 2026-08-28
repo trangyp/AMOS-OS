@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Fx Tensor Train Greeks Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine

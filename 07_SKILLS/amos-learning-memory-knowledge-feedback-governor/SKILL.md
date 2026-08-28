@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Learning Memory Knowledge Feedback Governor
 type: skill
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor

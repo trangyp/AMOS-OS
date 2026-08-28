@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Skill Creator
 type: skill
 source: 07_SKILLS/skill-creator

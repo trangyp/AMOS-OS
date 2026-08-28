@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Agency Consequence Governor
 type: skill
 source: 07_SKILLS/amos-agency-consequence-governor

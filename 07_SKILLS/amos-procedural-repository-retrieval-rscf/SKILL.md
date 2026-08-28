@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Procedural Repository Retrieval Rscf
 type: skill
 source: 07_SKILLS/amos-procedural-repository-retrieval-rscf

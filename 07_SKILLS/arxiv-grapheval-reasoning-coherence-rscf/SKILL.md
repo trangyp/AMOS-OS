@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Arxiv Grapheval Reasoning Coherence Rscf
 type: skill
 source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Ust Structure Mapper
 type: skill
 source: 07_SKILLS/amos-ust-structure-mapper

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Future Debt Option Value Governor
 type: skill
 source: 07_SKILLS/amos-future-debt-option-value-governor

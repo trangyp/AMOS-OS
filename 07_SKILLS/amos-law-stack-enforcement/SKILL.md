@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 name: amos-law-stack-enforcement
 title: SKILL — Amos Law Stack Enforcement
 type: note

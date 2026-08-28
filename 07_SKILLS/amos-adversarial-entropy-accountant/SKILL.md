@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Adversarial Entropy Accountant
 type: skill
 source: 07_SKILLS/amos-adversarial-entropy-accountant

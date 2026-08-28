@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos C11 Design Language Master
 type: skill
 source: 07_SKILLS/amos-c11-design-language-master

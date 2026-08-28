@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Counterfactual Selfhood Mapper
 type: skill
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper

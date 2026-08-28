@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Gradient Rscf Architecture
 type: skill
 source: 07_SKILLS/amos-gradient-rscf-architecture

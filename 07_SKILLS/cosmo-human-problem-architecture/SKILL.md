@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Cosmo Human Problem Architecture
 type: skill
 source: 07_SKILLS/cosmo-human-problem-architecture

@@ -1,4 +1,5 @@
 ---
+schema_version: "1.0"
 title: SKILL — Amos Context Orientation Cache Rscf
 type: skill
 source: 07_SKILLS/amos-context-orientation-cache-rscf
