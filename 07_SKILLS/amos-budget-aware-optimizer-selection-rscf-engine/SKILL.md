@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Budget Aware Optimizer Selection Rscf Engine
 type: skill
 source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine

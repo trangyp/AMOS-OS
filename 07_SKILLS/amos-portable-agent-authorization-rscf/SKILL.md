@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Portable Agent Authorization Rscf
 type: skill
 source: 07_SKILLS/amos-portable-agent-authorization-rscf

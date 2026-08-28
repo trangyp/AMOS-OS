@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Calibrated Feedback Control Rscf
 type: skill
 source: 07_SKILLS/amos-calibrated-feedback-control-rscf

@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Arxiv Flow Matching Generative Rscf
 type: skill
 source: 07_SKILLS/arxiv-flow-matching-generative-rscf

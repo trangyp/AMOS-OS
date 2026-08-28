@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Arxiv Embodied Runtime Rscf Engine
 type: skill
 source: 07_SKILLS/amos-arxiv-embodied-runtime-rscf-engine

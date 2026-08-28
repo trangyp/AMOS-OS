@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Arxiv Structured Gp Omics Uq Rscf
 type: skill
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf

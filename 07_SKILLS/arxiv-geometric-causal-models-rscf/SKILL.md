@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Arxiv Geometric Causal Models Rscf
 type: skill
 source: 07_SKILLS/arxiv-geometric-causal-models-rscf

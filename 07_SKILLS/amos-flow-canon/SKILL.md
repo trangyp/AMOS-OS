@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 name: amos-flow-canon
 title: SKILL — Amos Flow Canon
 type: note

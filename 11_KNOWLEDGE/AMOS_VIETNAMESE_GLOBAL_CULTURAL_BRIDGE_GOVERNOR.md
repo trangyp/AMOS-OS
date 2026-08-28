@@ -3431,7 +3431,3 @@ The governor exists to make the bridge possible **without collapsing the distinc
 ---
 
 **END — `AMOS_VIETNAMESE_GLOBAL_CULTURAL_BRIDGE_GOVERNOR.md`**
-
-```
-```
-

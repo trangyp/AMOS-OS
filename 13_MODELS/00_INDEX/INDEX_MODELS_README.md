@@ -1,33 +1,28 @@
 ---
-title: "INDEX MODELS README"
+title: INDEX MODELS README
 aliases:
   - "Models Index README"
   - "AMOS Models Index"
   - "13 Models Index"
   - "Models Navigation Index"
-
 type: index
 artifact_type: index_readme
 document_role: models_plane_navigation_index
-
-source: "13_MODELS/00_INDEX"
-path: "13_MODELS/00_INDEX/INDEX_MODELS_README.md"
-plane: "13_MODELS"
-segment: "13_MODELS/00_INDEX"
-
-system: "AMOS_OS"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-status: "ACTIVE_REFERENCE"
-canonical_status: "CONDITIONAL"
-epistemic_status: "AMOS_MODEL"
-implementation_status: "PARTIAL"
-runtime_enforcement: "PARTIAL"
-automated_link_integrity: "PARTIAL"
-artifact_specific_validation: "UNKNOWN/GAP"
-executable_binding: "NOT_ESTABLISHED"
-
+source: 13_MODELS/00_INDEX
+path: 13_MODELS/00_INDEX/INDEX_MODELS_README.md
+plane: 13_MODELS
+segment: 13_MODELS/00_INDEX
+system: AMOS_OS
+origin_architect: Trang Phan
+steward: Trang Phan
+status: ACTIVE_REFERENCE
+canonical_status: CONDITIONAL
+epistemic_status: AMOS_MODEL
+implementation_status: PARTIAL
+runtime_enforcement: PARTIAL
+automated_link_integrity: PARTIAL
+artifact_specific_validation: UNKNOWN/GAP
+executable_binding: NOT_ESTABLISHED
 scope:
   - "index_navigation"
   - "models_plane"
@@ -35,13 +30,11 @@ scope:
   - "model_resolution"
   - "model_navigation"
   - "model_orientation"
-
 resolution_policy:
-  local: "BASENAME_WITHIN_OWN_DIRECTORY"
+  local: BASENAME_WITHIN_OWN_DIRECTORY
   cross_plane:
     - "[[00_HOME]]"
     - "[[AMOS_RSCF_NODES]]"
-
 tags:
   - amos_os
   - 13_models
@@ -86,7 +79,6 @@ tags:
   - competing-models
   - epistemic-regime
   - canon/model
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -97,7 +89,6 @@ rscf:
   segment: 13_MODELS/00_INDEX
   canonical_status: CONDITIONAL
   implementation_status: PARTIAL
-
 gaps:
   automated_link_integrity: PARTIAL
   artifact_specific_validation_receipt: UNKNOWN/GAP

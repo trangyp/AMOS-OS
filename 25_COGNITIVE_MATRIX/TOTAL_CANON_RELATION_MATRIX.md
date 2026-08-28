@@ -2928,6 +2928,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `TOTAL_CANON_MATRIX.md`**
-
-```
-```

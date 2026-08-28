@@ -2166,6 +2166,3 @@ validation_status:
 ---
 
 00_ROOT_MOC|AMOS MOC
-
-```
-```

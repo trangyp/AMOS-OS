@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Deterministic Ai Control Plane
 type: skill
 source: 07_SKILLS/amos-deterministic-ai-control-plane

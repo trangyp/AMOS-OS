@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Genetic Stability Auditor
 type: skill
 source: 07_SKILLS/amos-genetic-stability-auditor

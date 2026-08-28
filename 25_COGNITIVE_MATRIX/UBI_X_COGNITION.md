@@ -4349,6 +4349,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `UBI_X_COGNITION.md`**
-
-```
-```

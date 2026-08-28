@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Ghost Code Symbolic Execution Rscf
 type: skill
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf

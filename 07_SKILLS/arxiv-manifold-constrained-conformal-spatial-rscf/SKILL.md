@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Arxiv Manifold Constrained Conformal Spatial Rscf
 type: skill
 source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf

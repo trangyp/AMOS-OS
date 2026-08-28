@@ -3690,6 +3690,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `TOTAL_FRAMEWORK_MATRIX.md`**
-
-```
-```

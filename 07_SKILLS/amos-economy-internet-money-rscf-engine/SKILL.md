@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Economy Internet Money Rscf Engine
 type: skill
 source: 07_SKILLS/amos-economy-internet-money-rscf-engine

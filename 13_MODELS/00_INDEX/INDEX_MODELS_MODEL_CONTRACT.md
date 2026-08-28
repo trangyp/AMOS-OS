@@ -1,48 +1,41 @@
 ---
-title: "INDEX MODELS MODEL CONTRACT"
+title: INDEX MODELS MODEL CONTRACT
 aliases:
   - Models Model Contract
   - Models Index Contract
   - Model Index Contract
   - AMOS Models Index Contract
   - 13 Models Model Contract
-
 type: index
 artifact_type: index_contract
 contract_type: model_index_contract
 document_role: navigation_and_model_governance_contract
-
-source: "13_MODELS/00_INDEX"
-path: "13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT.md"
-plane: "13_MODELS"
-segment: "13_MODELS/00_INDEX"
-
-system: "AMOS_OS"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-status: "ACTIVE_REFERENCE"
-canonical_status: "CONDITIONAL"
-epistemic_status: "AMOS_MODEL"
-implementation_status: "PARTIAL"
-runtime_enforcement: "PARTIAL"
-automated_link_integrity: "PARTIAL"
-artifact_specific_validation: "UNKNOWN/GAP"
-executable_binding: "NOT_ESTABLISHED"
-
+source: 13_MODELS/00_INDEX
+path: 13_MODELS/00_INDEX/INDEX_MODELS_MODEL_CONTRACT.md
+plane: 13_MODELS
+segment: 13_MODELS/00_INDEX
+system: AMOS_OS
+origin_architect: Trang Phan
+steward: Trang Phan
+status: ACTIVE_REFERENCE
+canonical_status: CONDITIONAL
+epistemic_status: AMOS_MODEL
+implementation_status: PARTIAL
+runtime_enforcement: PARTIAL
+automated_link_integrity: PARTIAL
+artifact_specific_validation: UNKNOWN/GAP
+executable_binding: NOT_ESTABLISHED
 scope:
   - "index_navigation"
   - "models_plane"
   - "model_discovery"
   - "model_resolution"
   - "model_relationship_navigation"
-
 resolution_policy:
-  local: "BASENAME_WITHIN_OWN_DIRECTORY"
+  local: BASENAME_WITHIN_OWN_DIRECTORY
   cross_plane:
     - "[[00_HOME]]"
     - "[[AMOS_RSCF_NODES]]"
-
 tags:
   - amos_os
   - 13_models
@@ -100,7 +93,6 @@ tags:
   - canon/model
   - conditional-canon
   - amos-model
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -112,7 +104,6 @@ rscf:
   canonical_status: CONDITIONAL
   implementation_status: PARTIAL
   confidence_ceiling: 0.95
-
 gaps:
   automated_link_integrity: PARTIAL
   artifact_specific_validation_receipt: UNKNOWN/GAP

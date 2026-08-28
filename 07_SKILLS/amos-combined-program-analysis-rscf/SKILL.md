@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Combined Program Analysis Rscf
 type: skill
 source: 07_SKILLS/amos-combined-program-analysis-rscf

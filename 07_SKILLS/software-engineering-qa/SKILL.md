@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Software Engineering Qa
 type: skill
 source: 07_SKILLS/software-engineering-qa

@@ -1,5 +1,5 @@
 ---
-title: "EPISTEMIC_REGIMES Classification Law"
+title: EPISTEMIC_REGIMES Classification Law
 aliases:
   - "EPISTEMIC_REGIMES"
   - "Epistemic Regimes"
@@ -26,7 +26,6 @@ tags:
   - core_laws
   - canon
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

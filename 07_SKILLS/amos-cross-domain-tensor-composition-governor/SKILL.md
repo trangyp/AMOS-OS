@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Cross Domain Tensor Composition Governor
 type: skill
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor

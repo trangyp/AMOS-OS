@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Mckinsey Recruiting Workforce Acquisition Rscf
 type: skill
 source: 07_SKILLS/mckinsey-recruiting-workforce-acquisition-rscf

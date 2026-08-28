@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos C09 Org Law Policy Master
 type: skill
 source: 07_SKILLS/amos-c09-org-law-policy-master

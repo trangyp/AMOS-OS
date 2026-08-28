@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Mckinsey Transformation Org Structure Rscf
 type: skill
 source: 07_SKILLS/mckinsey-transformation-org-structure-rscf

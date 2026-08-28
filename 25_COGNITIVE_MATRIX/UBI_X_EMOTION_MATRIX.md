@@ -3631,6 +3631,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `UBI_X_EMOTION_MATRIX.md`**
-
-```
-```

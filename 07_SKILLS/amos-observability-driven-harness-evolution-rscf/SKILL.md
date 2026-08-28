@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Observability Driven Harness Evolution Rscf
 type: skill
 source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf

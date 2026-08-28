@@ -3151,7 +3151,3 @@ Those sources can determine whether the current body is intentional, misplaced, 
 ---
 
 **END — `README — 11 Knowledge`**
-
-```
-```
-

@@ -4542,6 +4542,3 @@ confidence_ceiling:
 until authoritative distribution canon provides discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
-
-```
-```

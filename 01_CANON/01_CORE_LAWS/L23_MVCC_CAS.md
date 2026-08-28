@@ -3958,6 +3958,3 @@ scope:
 ```
 
 **Conclusion class: CANONICAL_INVARIANT within AMOS_CANON.**
-
-```
-```

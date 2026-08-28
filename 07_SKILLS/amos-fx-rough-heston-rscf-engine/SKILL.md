@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Fx Rough Heston Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-rough-heston-rscf-engine

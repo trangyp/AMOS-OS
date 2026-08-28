@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Mckinsey Technology Sales Excellence Rscf
 type: skill
 source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf

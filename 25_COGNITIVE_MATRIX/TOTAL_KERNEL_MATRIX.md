@@ -4433,6 +4433,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `TOTAL_KERNEL_MATRIX.md`**
-
-```
-```

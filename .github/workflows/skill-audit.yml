@@ -54,7 +54,7 @@ jobs:
 
       - name: Run structural validation (L1-L3)
         run: |
-          python3 scripts/validate.py --skills-dir 07_SKILLS 2>&1 | tee validate.log
+          python3 scripts/validate.py 2>&1 | tee validate.log
           # Fail if any P1 errors
           if grep -q "P1 errors: [1-9]" validate.log; then
             echo "::error::P1 validation errors found"
@@ -89,7 +89,7 @@ jobs:
 
       - name: Run security scanner (40 patterns, 17 categories)
         run: |
-          python3 scripts/skill_security_scanner.py --skills-dir 07_SKILLS 2>&1 | tee security.log
+          python3 scripts/skill_security_scanner.py 2>&1 | tee security.log
           # Fail if any critical findings
           if grep -q "critical  : [1-9]" security.log; then
             echo "::error::Critical security findings detected"
@@ -123,7 +123,7 @@ jobs:
 
       - name: Verify skill integrity lock file
         run: |
-          python3 scripts/skill_integrity_lock.py --skills-dir 07_SKILLS --lock-file skills-lock.json --verify 2>&1 | tee lock.log
+          python3 scripts/skill_integrity_lock.py --verify 2>&1 | tee lock.log
           # Fail if any mismatches
           if grep -q "Mismatched:.*[1-9]" lock.log; then
             echo "::error::Lock file mismatch — run skill_integrity_lock.py --output skills-lock.json"
@@ -147,7 +147,7 @@ jobs:
 
       - name: Run dependency graph analysis
         run: |
-          python3 scripts/skill_dependency_graph.py --skills-dir 07_SKILLS 2>&1 | tee deps.log
+          python3 scripts/skill_dependency_graph.py 2>&1 | tee deps.log
           # Fail if cycles detected
           if grep -qi "cycle" deps.log; then
             echo "::error::Dependency cycle detected"
@@ -170,7 +170,7 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Run token budget analyzer
-        run: python3 scripts/token_budget_analyzer.py --skills-dir 07_SKILLS 2>&1 | tee token-budget.log || true
+        run: python3 scripts/token_budget_analyzer.py 2>&1 | tee token-budget.log || true
 
       - name: Upload token budget report
         uses: actions/upload-artifact@v4
@@ -196,7 +196,7 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Generate eval scaffolding summary
-        run: python3 scripts/skill_eval_harness.py --skills-dir 07_SKILLS --summary 2>&1 | tee eval.log || true
+        run: python3 scripts/skill_eval_harness.py --summary 2>&1 | tee eval.log || true
 
   version-check:
     name: Version & Manifest Check
@@ -214,11 +214,11 @@ jobs:
           python-version: ${{ env.PYTHON_VERSION }}
 
       - name: Run version manager summary
-        run: python3 scripts/skill_version_manager.py --skills-dir 07_SKILLS --summary 2>&1 | tee version.log
+        run: python3 scripts/skill_version_manager.py --summary 2>&1 | tee version.log
 
       - name: Check for stale skills (version drift)
         run: |
-          python3 scripts/skill_version_manager.py --skills-dir 07_SKILLS --stale 2>&1 | tee stale.log
+          python3 scripts/skill_version_manager.py --stale 2>&1 | tee stale.log
           if grep -q "drift" stale.log | grep -v "None"; then
             echo "::warning::Stale skills detected — manifest version != frontmatter version"
           fi
@@ -242,7 +242,7 @@ jobs:
         run: |
           python3 -c "
           from pathlib import Path
-          boms = [str(f) for f in Path('07_SKILLS').rglob('*.md') if open(f,'rb').read(3) == b'\xef\xbb\xbf']
+          boms = [str(f) for f in Path('.devin/skills').rglob('*.md') if open(f,'rb').read(3) == b'\xef\xbb\xbf']
           if boms:
             print('::error::BOM characters found:')
             for b in boms:
@@ -268,7 +268,7 @@ jobs:
 
       - name: Run deterministic regression tests
         run: |
-          python3 scripts/skill_regression_harness.py --skills-dir 07_SKILLS 2>&1 | tee regression.log
+          python3 scripts/skill_regression_harness.py 2>&1 | tee regression.log
           # Fail if any tests failed
           if grep -q "Failed:       [1-9]" regression.log; then
             echo "::error::Regression test failures detected"
@@ -276,7 +276,7 @@ jobs:
           fi
 
       - name: Run trigger evaluation
-        run: python3 scripts/skill_regression_harness.py --skills-dir 07_SKILLS --trigger-eval --summary 2>&1 | tee triggers.log
+        run: python3 scripts/skill_regression_harness.py --trigger-eval --summary 2>&1 | tee triggers.log
 
       - name: Upload regression report
         uses: actions/upload-artifact@v4
@@ -305,7 +305,7 @@ jobs:
 
       - name: Run 1:1:1 binding check
         run: |
-          python3 scripts/skill_binding_checker.py --skills-dir 07_SKILLS 2>&1 | tee binding.log
+          python3 scripts/skill_binding_checker.py 2>&1 | tee binding.log
           # Fail if binding rate < 100%
           if grep -q "Fully bound.*[0-9][0-9]%" binding.log && ! grep -q "100.0%" binding.log; then
             echo "::error::Binding rate below 100%"
@@ -313,12 +313,49 @@ jobs:
           fi
 
       - name: Run composition graph analysis
-        run: python3 scripts/skill_composition_graph.py --skills-dir 07_SKILLS --summary 2>&1 | tee composition.log
+        run: python3 scripts/skill_composition_graph.py --summary 2>&1 | tee composition.log
+
+  guardrail-check:
+    name: Guardrail Check
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run guardrail check (OWASP Agentic Top 10)
+        run: |
+          python3 scripts/skill_guardrail_checker.py --skip-references 2>&1 | tee guardrail.log
+          # Fail if any CRITICAL findings
+          if grep -q "CRITICAL: [1-9]" guardrail.log; then
+            echo "::error::Critical guardrail findings detected"
+            exit 1
+          fi
+
+      - name: Generate skill catalog
+        run: python3 scripts/skill_catalog_generator.py --output skill-catalog.md --json skill-catalog-index.json
+
+      - name: Upload catalog
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: skill-catalog
+          path: |
+            skill-catalog.md
+            skill-catalog-index.json
+          retention-days: 30
 
   summary:
     name: Audit Summary
     runs-on: ubuntu-latest
-    needs: [validate, security, integrity, dependency-graph, token-budget, eval-harness, version-check, bom-check, regression-test, binding-check]
+    needs: [validate, security, integrity, dependency-graph, token-budget, eval-harness, version-check, bom-check, regression-test, binding-check, guardrail-check]
     if: always()
     timeout-minutes: 5
     permissions:
@@ -341,3 +378,4 @@ jobs:
           echo "| BOM Check | ${{ needs.bom-check.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Regression | ${{ needs.regression-test.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Binding | ${{ needs.binding-check.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Guardrail | ${{ needs.guardrail-check.result }} |" >> $GITHUB_STEP_SUMMARY

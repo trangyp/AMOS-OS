@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Distributed Causal Evolution Rscf Engine
 type: skill
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine

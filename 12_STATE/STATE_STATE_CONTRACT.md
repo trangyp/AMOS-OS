@@ -1,5 +1,5 @@
 ---
-title: "STATE STATE CONTRACT"
+title: STATE STATE CONTRACT
 aliases:
   - State State Contract
   - State Contract
@@ -7,7 +7,6 @@ aliases:
   - State Plane Contract
   - 12 STATE Contract
   - Authoritative State Contract
-
 type: state
 artifact_type: contract
 contract_type: state_plane_contract
@@ -15,11 +14,9 @@ document_role: normative_contract
 plane: 12_STATE
 source: 12_STATE
 path: 12_STATE/STATE_STATE_CONTRACT.md
-
 system: AMOS_OS
 origin_architect: Trang_Phan
 steward: Trang_Phan
-
 status: ACTIVE_REFERENCE
 canonical_status: CONDITIONAL
 epistemic_status: AMOS_MODEL
@@ -28,11 +25,9 @@ executable_binding: PARTIAL
 runtime_enforcement: UNKNOWN/GAP
 persistence_binding: UNKNOWN/GAP
 empirical_validation: UNKNOWN/GAP
-
 authority_class: STATE_PLANE_CONTRACT
 normative_scope: STATE_CONTRACT
 confidence_ceiling: 0.95
-
 tags:
   - amos
   - amos_os
@@ -196,7 +191,6 @@ tags:
   - amos-model
   - obsidian
   - moc/state
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -217,7 +211,6 @@ rscf:
     - F1_CANONICAL_SEMANTIC_CONTRADICTION
     - F2_EXECUTED_INVARIANT_FAILURE
     - F3_PROTECTED_FIREWALL_COLLAPSE
-
 gaps:
   runtime_enforcement: OPEN
   persistence_binding: OPEN

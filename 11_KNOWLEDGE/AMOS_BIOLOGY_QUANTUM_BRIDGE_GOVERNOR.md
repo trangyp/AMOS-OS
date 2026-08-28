@@ -1,45 +1,35 @@
 ---
-title: "AMOS BIOLOGY QUANTUM BRIDGE GOVERNOR"
+title: AMOS BIOLOGY QUANTUM BRIDGE GOVERNOR
 aliases:
   - "AMOS Biology-Quantum Bridge Governor"
   - "Biology Quantum Bridge Governor"
   - "BQ Bridge Governor"
   - "Bio-Quantum Anti-Overclaim Governor"
-
 type: quantum
 artifact_type: cross_domain_governor
 document_role: epistemic_bridge_governor
-
-source: "11_KNOWLEDGE"
-path: "11_KNOWLEDGE/AMOS_BIOLOGY_QUANTUM_BRIDGE_GOVERNOR.md"
-
+source: 11_KNOWLEDGE
+path: 11_KNOWLEDGE/AMOS_BIOLOGY_QUANTUM_BRIDGE_GOVERNOR.md
 created: 2026-08-27
-
-system: "AMOS_OS"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
+system: AMOS_OS
+origin_architect: Trang Phan
+steward: Trang Phan
 domain: cross-domain
-source_domain: "C04 Bio-Neuro"
-target_domain: "C03 Physics-Cosmos"
-
-parent_skill: "amos-c04-bio-neuro-master"
+source_domain: C04 Bio-Neuro
+target_domain: C03 Physics-Cosmos
+parent_skill: amos-c04-bio-neuro-master
 rscf_node_type: skill
-
 status: production_ready
-source_reported_status: "PRODUCTION_READY"
-implementation_verification: "NOT_INDEPENDENTLY_ESTABLISHED"
-qa_status: "SOURCE_CLAIM: all 10 QA gates pass"
-
+source_reported_status: PRODUCTION_READY
+implementation_verification: NOT_INDEPENDENTLY_ESTABLISHED
+qa_status: 'SOURCE_CLAIM: all 10 QA gates pass'
 epistemic_class: SOURCE_CLAIM
 claim_ceiling: 0.85
-claim_ceiling_scope: "AMOS bridge-governance claims only"
-empirical_quantum_biology_ceiling: "CONTESTED / REQUIRES EXTERNAL EVIDENCE"
-
-canonical_status: "SOURCE_GROUNDED_AMOS_MODEL"
-bridge_status: "GOVERNED"
-anti_overclaim_firewall: "REQUIRED"
-
+claim_ceiling_scope: AMOS bridge-governance claims only
+empirical_quantum_biology_ceiling: CONTESTED / REQUIRES EXTERNAL EVIDENCE
+canonical_status: SOURCE_GROUNDED_AMOS_MODEL
+bridge_status: GOVERNED
+anti_overclaim_firewall: REQUIRED
 tags:
   - amos_os
   - amos-os
@@ -122,7 +112,6 @@ tags:
   - topic/biology-quantum
   - topic/anti-overclaim-firewall
   - canon/knowledge
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

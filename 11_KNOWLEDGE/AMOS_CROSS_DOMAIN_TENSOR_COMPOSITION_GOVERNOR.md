@@ -1,33 +1,27 @@
 ---
-title: "MODEL MAP"
+title: MODEL MAP
 aliases:
   - "Models Map"
   - "AMOS Model Map"
   - "13 Models Map"
   - "Models Plane Index Map"
-
 type: map
 artifact_type: navigation_map
 document_role: models_plane_segment_map
-
-source: "13_MODELS/00_INDEX"
-path: "13_MODELS/00_INDEX/MODEL_MAP.md"
-
-system: "AMOS_OS"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-plane: "13_MODELS"
-segment: "13_MODELS/00_INDEX"
-
-status: "ACTIVE_REFERENCE"
-canonical_status: "CONDITIONAL"
-epistemic_status: "AMOS_MODEL"
-implementation_status: "PARTIAL"
-graph_validation_status: "PARTIAL"
-artifact_specific_validation: "UNKNOWN/GAP"
-executable_binding: "NOT_ESTABLISHED"
-
+source: 13_MODELS/00_INDEX
+path: 13_MODELS/00_INDEX/MODEL_MAP.md
+system: AMOS_OS
+origin_architect: Trang Phan
+steward: Trang Phan
+plane: 13_MODELS
+segment: 13_MODELS/00_INDEX
+status: ACTIVE_REFERENCE
+canonical_status: CONDITIONAL
+epistemic_status: AMOS_MODEL
+implementation_status: PARTIAL
+graph_validation_status: PARTIAL
+artifact_specific_validation: UNKNOWN/GAP
+executable_binding: NOT_ESTABLISHED
 scope:
   - "index_navigation"
   - "models_plane"
@@ -35,20 +29,17 @@ scope:
   - "local_model_navigation"
   - "artifact_discovery"
   - "contract_navigation"
-
 coverage:
-  directory: "13_MODELS/00_INDEX"
+  directory: 13_MODELS/00_INDEX
   recursive: false
   cross_segment: false
   exhaustive_models_plane: false
-
 navigation_contract:
-  orientation: "[[INDEX_MODELS_README]]"
-  normative_contract: "[[INDEX_MODELS_MODEL_CONTRACT]]"
+  orientation: [[INDEX_MODELS_README]]
+  normative_contract: [[INDEX_MODELS_MODEL_CONTRACT]]
   cross_segment:
     - "[[00_ROOT_MAP]]"
     - "[[AMOS_RSCF_NODES]]"
-
 tags:
   - amos_os
   - amos-os
@@ -102,7 +93,6 @@ tags:
   - competing-models
   - epistemic-regime
   - canon/model
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -113,7 +103,6 @@ rscf:
   segment: 13_MODELS/00_INDEX
   canonical_status: CONDITIONAL
   implementation_status: PARTIAL
-
 gaps:
   executable_graph_validation: PARTIAL
   artifact_specific_validation_receipt: UNKNOWN/GAP

@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Distinction Relation Constraint Rscf Algebra
 type: skill
 source: 07_SKILLS/amos-distinction-relation-constraint-rscf-algebra

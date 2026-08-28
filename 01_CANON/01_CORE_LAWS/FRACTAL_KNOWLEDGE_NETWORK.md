@@ -1,5 +1,5 @@
 ---
-title: "FRACTAL_KNOWLEDGE_NETWORK Specification"
+title: FRACTAL_KNOWLEDGE_NETWORK Specification
 aliases:
   - "FRACTAL_KNOWLEDGE_NETWORK"
   - "Fractal Knowledge Network"
@@ -25,7 +25,6 @@ tags:
   - context_efficiency
   - canon
   - canon/universe
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

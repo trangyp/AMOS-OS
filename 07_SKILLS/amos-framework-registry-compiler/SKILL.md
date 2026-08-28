@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Framework Registry Compiler
 type: skill
 source: 07_SKILLS/amos-framework-registry-compiler

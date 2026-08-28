@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Commit Time Authorization Rscf Engine
 type: skill
 source: 07_SKILLS/amos-commit-time-authorization-rscf-engine

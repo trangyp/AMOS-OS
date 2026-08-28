@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Human Biology Fractal Rscf Engine
 type: skill
 source: 07_SKILLS/amos-human-biology-fractal-rscf-engine

@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Mckinsey Framework Navigator
 type: skill
 source: 07_SKILLS/mckinsey-framework-navigator

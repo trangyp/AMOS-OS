@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Arxiv Spatial Speech Perception Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf

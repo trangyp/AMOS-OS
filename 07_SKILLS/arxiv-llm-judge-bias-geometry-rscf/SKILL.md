@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Arxiv Llm Judge Bias Geometry Rscf
 type: skill
 source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf

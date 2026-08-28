@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Cognitive Process Orchestrator
 type: skill
 source: 07_SKILLS/amos-cognitive-process-orchestrator

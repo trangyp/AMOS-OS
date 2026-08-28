@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Arxiv Cdfm Causal Discovery Foundation Rscf
 type: skill
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf

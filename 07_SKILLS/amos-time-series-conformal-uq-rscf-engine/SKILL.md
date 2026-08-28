@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Time Series Conformal Uq Rscf Engine
 type: skill
 source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine

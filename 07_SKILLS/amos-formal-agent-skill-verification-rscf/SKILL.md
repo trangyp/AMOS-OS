@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Formal Agent Skill Verification Rscf
 type: skill
 source: 07_SKILLS/amos-formal-agent-skill-verification-rscf

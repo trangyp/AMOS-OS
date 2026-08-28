@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Reality Meta Law Auditor
 type: skill
 source: 07_SKILLS/amos-reality-meta-law-auditor

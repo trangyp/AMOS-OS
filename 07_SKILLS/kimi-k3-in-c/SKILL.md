@@ -1,7 +1,7 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 name: kimi-k3-in-c
-description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine without the 1.56 TB checkpoint. Supports weightless tests and local model-free verification. Do not use for training, fine-tuning, non-C99 inference, or tasks outside the kimi-k3-in-c repository scope.
+description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine. Weightless tests need no checkpoint; full generation requires the 1.56 TB model. Do not use for training, fine-tuning, or non-C99 inference.
 license: MIT
 steward: Trang Phan
 version: 1.1.0

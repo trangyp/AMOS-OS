@@ -1,5 +1,5 @@
 ---
-title: "STATE README"
+title: STATE README
 aliases:
   - State README
   - AMOS State README
@@ -7,25 +7,21 @@ aliases:
   - State Plane
   - AMOS State Plane
   - 12 STATE
-
 type: state
 artifact_type: package_readme
 document_role: navigation_and_orientation
 plane: 12_STATE
 source: 12_STATE
 path: 12_STATE/STATE_README.md
-
 system: AMOS_OS
 origin_architect: Trang_Phan
 steward: Trang_Phan
-
 status: ACTIVE_REFERENCE
 canonical_status: SOURCE_GROUNDED_DERIVED
 implementation_status: PARTIAL
 executable_binding: PARTIAL
 empirical_status: NOT_APPLICABLE
 authority_class: ORIENTATION_NOT_NORMATIVE_CONTRACT
-
 tags:
   - amos
   - amos_os
@@ -156,7 +152,6 @@ tags:
   - vault
   - obsidian
   - moc/state
-
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -176,7 +171,6 @@ rscf:
     - superseding_state_canon
     - invalidated_provenance
     - executed_validation_failure
-
 gaps:
   executable_binding: PARTIAL
   runtime_validation: PARTIAL

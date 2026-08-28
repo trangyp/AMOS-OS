@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Strict Fractal Equation Rscf Registry
 type: skill
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry

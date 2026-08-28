@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Design Visual Rscf Engine
 type: skill
 source: 07_SKILLS/amos-design-visual-rscf-engine

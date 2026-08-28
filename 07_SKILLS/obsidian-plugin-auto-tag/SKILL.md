@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Obsidian Plugin Auto Tag
 type: skill
 source: 07_SKILLS/obsidian-plugin-auto-tag

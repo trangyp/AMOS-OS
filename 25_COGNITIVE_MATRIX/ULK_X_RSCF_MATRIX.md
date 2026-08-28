@@ -2924,6 +2924,3 @@ RSCF-RELATIONS:
 ---
 
 **END OF `ULK_X_RSCF_MATRIX.md`**
-
-```
-```

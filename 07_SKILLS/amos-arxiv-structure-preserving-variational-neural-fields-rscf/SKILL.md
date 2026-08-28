@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Arxiv Structure Preserving Variational Neural Fields Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-structure-preserving-variational-neural-fields-rscf

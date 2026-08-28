@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Super Engines Master
 type: skill
 source: 07_SKILLS/amos-super-engines-master

@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Mckinsey Digital Bank Value Proposition Rscf
 type: skill
 source: 07_SKILLS/mckinsey-digital-bank-value-proposition-rscf

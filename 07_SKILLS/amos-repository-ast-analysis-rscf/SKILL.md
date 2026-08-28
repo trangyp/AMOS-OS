@@ -1,5 +1,5 @@
 ---
-schema_version: "1.0"
+schema_version: 1.0
 title: SKILL — Amos Repository Ast Analysis Rscf
 type: skill
 source: 07_SKILLS/amos-repository-ast-analysis-rscf

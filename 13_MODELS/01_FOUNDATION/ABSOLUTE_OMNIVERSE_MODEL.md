@@ -5396,6 +5396,3 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[01_FOUNDATION_MOC]]
-
-```
-```
