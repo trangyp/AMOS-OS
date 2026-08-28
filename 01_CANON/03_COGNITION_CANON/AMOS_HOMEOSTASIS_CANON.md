@@ -1,4 +1,3 @@
-
 ---
 title: "AMOS Homeostasis Canon"
 type: canon
@@ -14,37 +13,39 @@ artifact_kind: "CANON"
 path: "01_CANON/03_COGNITION_CANON/AMOS_HOMEOSTASIS_CANON.md"
 
 tags:
-  - amos_os
-  - amos_homeostasis
-  - amos_homeostasis_canon
-  - homeostasis
-  - cognition
-  - cognition_canon
-  - regulation
-  - stability
-  - equilibrium
-  - adaptive_regulation
-  - canon
-  - universe
-  - 01_canon
-  - 03_cognition_canon
-  - canon_placeholder
-  - rscf
-  - provenance
-  - lineage
-  - epistemic_integrity
-  - scope
-  - regime
-  - temporal_validity
-  - causal_firewall
-  - validation
-  - governed_evolution
-  - competing_hypotheses
-  - canon/universe
+
+- amos_os
+- amos_homeostasis
+- amos_homeostasis_canon
+- homeostasis
+- cognition
+- cognition_canon
+- regulation
+- stability
+- equilibrium
+- adaptive_regulation
+- canon
+- universe
+- 01_canon
+- 03_cognition_canon
+- canon_placeholder
+- rscf
+- provenance
+- lineage
+- epistemic_integrity
+- scope
+- regime
+- temporal_validity
+- causal_firewall
+- validation
+- governed_evolution
+- competing_hypotheses
+- canon/universe
 
 aliases:
-  - "AMOS Homeostasis Canon"
-  - "AMOS Homeostasis"
+
+- "AMOS Homeostasis Canon"
+- "AMOS Homeostasis"
 
 version: "0.2.0"
 updated: "2026-08-27"
