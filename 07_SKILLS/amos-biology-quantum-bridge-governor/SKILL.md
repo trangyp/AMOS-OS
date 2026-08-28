@@ -77,13 +77,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c04-bio-neuro-master`
-- **Domain**: cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos)
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from C04, C03, and Cosmo brain biology-ubi/ and quantum/ directories)
-
-Bridges biological/neurological systems (C04) with quantum physics models (C03). C04 has a quantum-biological model with explicit mapping table (business elements to biological/quantum equivalents) and a hard anti-overclaim boundary. C03 has quantum mechanics, cosmology, and spacetime knowledge. This governor creates a governed translation layer that maps biological concepts to quantum-mechanical analogues while enforcing the critical firewall: all quantum-biological mappings are MODEL/METAPHOR, never physical predictions.
-
+Origin architect: **Trang Phan**. Domain: cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos). Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## The Problem This Skill Solves
 
 The `_00_Cosmo brain` exploration explicitly identified: *"Biology ↔ Quantum: Biological systems and quantum mechanics are separate domains without governed bridges that preserve the anti-overclaim firewall."*

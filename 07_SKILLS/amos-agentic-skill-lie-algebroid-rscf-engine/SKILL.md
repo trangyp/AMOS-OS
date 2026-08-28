@@ -67,13 +67,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-agent-systems-master`
-- **Domain**: agent
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Agent systems engine for Agentic Skill Lie Algebroid Rscf Engine
-
+Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When designing agent systems with delegation reasoning and multi-agent governance

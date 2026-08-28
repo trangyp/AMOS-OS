@@ -66,13 +66,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c07-econ-finance-master`
-- **Domain**: fx
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-FX market analysis engine for Fx Rough Heston Rscf Engine
-
+Origin architect: **Trang Phan**. Domain: fx. Parent: amos-c07-econ-finance-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When calibrating FX models: Bayesian neural SDEs, volatility surfaces

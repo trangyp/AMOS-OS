@@ -68,13 +68,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-rscf-epistemic-master`
-- **Domain**: rscf
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-RSCF epistemic engine for Sae Semantic Transport Rscf Engine
-
+Origin architect: **Trang Phan**. Domain: rscf. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When classifying claims by epistemic state (VERIFIED, DERIVED, MODEL, UNKNOWN/GAP)

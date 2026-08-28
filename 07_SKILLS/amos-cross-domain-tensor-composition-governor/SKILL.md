@@ -71,13 +71,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-rscf-epistemic-master`
-- **Domain**: cross-domain (meta-domain spanning C01-C12)
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS tensor contracts and 12 domain master knowledge files)
-
-Governs cross-domain tensor composition — the operation of combining typed tensors (Claim, Evidence, Relation, Governance, Memory, Fractal) originating from different AMOS domain engines (C01-C12) into a unified reasoning result, while preserving epistemic integrity, scope boundaries, and provenance chains across domain boundaries.
-
+Origin architect: **Trang Phan**. Domain: cross-domain. Parent: amos-rscf-epistemic-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## The Problem This Skill Solves
 
 The AMOS architecture has 12 domain engines (C01-C12), each with its own claim classes, evidence classes, scope/regime definitions, and epistemic boundaries. When a reasoning task requires knowledge from multiple domains (e.g., C04 biology + C05 mind + C09 governance for a bioethics decision), the tensors from each domain must be composed. The tensor contracts file states the critical invariant:

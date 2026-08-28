@@ -76,13 +76,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-knowledge-research-master`
-- **Domain**: cross-domain (C05 Mind & Behavior → Memory Systems → Knowledge Research)
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from C05, Memory, and Knowledge master knowledge files)
-
-Bridges the learning-memory-knowledge feedback loop across three AMOS domains. C05 produces inference and learning outcomes. Memory Systems provides encode, consolidate, and retrieve operations with working/episodic/semantic stores. Knowledge Research provides ingest, index, curate, and retrieve operations with the 68,979-note Obsidian vault. This governor ensures that learning flows to memory, memory consolidates to knowledge, and knowledge returns to inform new inference — with epistemic class preserved and provenance traced across every transition.
-
+Origin architect: **Trang Phan**. Domain: cross-domain (C05 → Memory → Knowledge). Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## The Problem This Skill Solves
 
 The `_00_Cosmo brain` exploration explicitly identified: *"Learning and Memory and Knowledge: Learning platforms, memory architecture, and knowledge indexes are separate domains without unified learning-memory-knowledge feedback loops."*

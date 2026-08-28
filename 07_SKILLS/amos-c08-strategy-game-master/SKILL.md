@@ -66,14 +66,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 31 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 31 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_C08_STRATEGY_GAME_MASTER_KNOWLEDGE.md` (content_hash: 4b676ad6f9ca020f)).
-
+Origin architect: **Trang Phan**. Domain: c08. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use for strategic analysi...

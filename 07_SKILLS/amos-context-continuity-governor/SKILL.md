@@ -66,13 +66,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-boundary-scope-master`
-- **Domain**: boundary
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Boundary and scope governance for Context Continuity Governor
-
+Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When boundary and scope governance for context continuity governor is needed within the boundary domain

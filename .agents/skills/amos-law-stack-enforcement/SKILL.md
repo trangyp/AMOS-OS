@@ -1,20 +1,53 @@
 ---
 name: amos-law-stack-enforcement
-description: "AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Use whenever the user mentions law stack, enforcement, invariants, rule hierarchy, LoL, R2, R4, or scale-transition validation — even without explicitly asking for 'law stack'."
+description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe
+  Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement
+  across scale transitions, UBI Score/ledger integrity. Use when validating whether
+  system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or
+  when a draft law short-circuits canonical order. Use whenever the user mentions
+  law stack, enforcement, invariants, rule hierarchy, LoL, R2, R4, or scale-transition
+  validation — even without explicitly asking for 'law stack'.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-version: "1.1.0"
+version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
-gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+gmef_gates:
+- L0_integrity
+- L1_epistemic
+- L2_provenance
+- L5_scope
+- L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
-law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
+law_compliance:
+- L0
+- L1
+- L2
+- L4
+- L5
+- L7
+- L16
+- L17
+- L18
+tags:
+- type/skill
+- canon/skill
+- domain/canon-universe
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
+- amos_os
 ---
 
+
 # AMOS Law Stack Enforcement
+
+## Identity
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 
 ## When to Use
 - When validating whether a system's rules hold across scale transitions

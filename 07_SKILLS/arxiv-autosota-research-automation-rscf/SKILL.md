@@ -65,13 +65,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-knowledge-research-master`
-- **Domain**: arxiv
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Arxiv research paper RSCF skill for Arxiv: autosota Research Automation Rscf
-
+Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When arxiv research paper rscf skill for arxiv: autosota research automation rscf is needed within the arxiv domain

@@ -61,12 +61,14 @@ domain: canon
 
 # AMOS Law Stack Enforcement
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 - When validating whether a system's rules hold across scale transitions
 - When checking if a proposed law adheres to the Law of Law™/Rule of 2™/Rule of 4™ hierarchy
 - When a draft law short-circuits the canonical order: LoL→R2→R4 (contradictory drafts fail gate)
 - When reasoning-shape ≠ authorization (integrity stack owns UBI Score/ledger, not output filter)
-
 ## Source
 Vault-generated from law stack enforcement research (2026-08-25)
 

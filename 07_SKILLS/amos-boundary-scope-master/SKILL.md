@@ -70,14 +70,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 2 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 2 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME.md`).
-
+Origin architect: **Trang Phan**. Domain: boundary. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 - When evaluating scope boundaries, context continuity, or capability bounds

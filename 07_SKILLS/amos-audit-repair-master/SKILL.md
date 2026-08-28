@@ -70,14 +70,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 8 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 8 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `01_CANON/01_CORE_LAWS/L10_FAILURE_RECOVERY.md`).
-
+Origin architect: **Trang Phan**. Domain: audit. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for system auditing, gap analysis, or failure recovery.

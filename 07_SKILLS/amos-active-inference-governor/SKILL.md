@@ -72,26 +72,7 @@ law_compliance:
 
 ## Identity
 
-**Origin architect and steward:** Trang Phan
-
-**Parent routing context:** `amos-c05-mind-behavior-master`
-
-**Domain:** c05 / mind-behavior
-
-**Primary epistemic status:** `AMOS_MODEL` with source-grounded AMOS governance constraints.
-
-Operate as the AMOS governor for bounded perception-belief-action loops.
-
-The core question is:
-
-> Given current observations, beliefs, uncertainty, goals, constraints, authority, and expected consequences, should the system update its model, seek information, act, defer, or stop?
-
-This Skill does not claim that ChatGPT implements biological active inference.
-
-It uses active-inference-style structure as a governed reasoning model.
-
----
-
+Origin architect: **Trang Phan**. Domain: mind_behavior. Parent: amos-c05-mind-behavior-master. Epistemic class: AMOS_MODEL. H/M/L: M.
 ## When to Use
 - When an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop
 - When prediction-error minimization could conflict with truth, safety, authority, or user intent

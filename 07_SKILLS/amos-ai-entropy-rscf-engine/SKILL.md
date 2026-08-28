@@ -62,13 +62,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-fractal-systems-master`
-- **Domain**: fractal
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Fractal analysis engine for Ai Entropy Rscf Engine
-
+Origin architect: **Trang Phan**. Domain: fractal. Parent: amos-fractal-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When analyzing fractal structure: self-similarity and scale invariance

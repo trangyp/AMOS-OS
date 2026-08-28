@@ -1,21 +1,44 @@
 ---
 name: amos-ubi-bio-reasoning
-description: >-
-  Executes Unified Biological Intelligence (UBI) reasoning across the 4 non-compensatory domains
-  (NBI, NEI, SI, BEI). Use when evaluating physiological telemetry, cognitive load, autonomic vagal
-  coherence, 40Hz multi-agent clock pacing, quadratic emergence (e = i^2), and substrate distress veto (tau < 0.2).
+description: Executes Unified Biological Intelligence (UBI) reasoning across the 4
+  non-compensatory domains (NBI, NEI, SI, BEI). Use when evaluating physiological
+  telemetry, cognitive load, autonomic vagal coherence, 40Hz multi-agent clock pacing,
+  quadratic emergence (e = i^2), and substrate distress veto (tau < 0.2).
 parent_skill: amos-c04-bio-neuro-master
 domain: bio
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-version: "1.1.0"
+version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
-gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+gmef_gates:
+- L0_integrity
+- L1_epistemic
+- L2_provenance
+- L5_scope
+- L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
-law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
+law_compliance:
+- L0
+- L1
+- L2
+- L4
+- L5
+- L7
+- L16
+- L17
+- L18
+tags:
+- type/skill
+- canon/skill
+- domain/bio-neuro
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
+- amos_os
 ---
+
 
 # AMOS Unified Biological Intelligence (UBI) Reasoning Skill
 

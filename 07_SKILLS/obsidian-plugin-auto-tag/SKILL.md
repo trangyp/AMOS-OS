@@ -64,14 +64,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-knowledge-research-master`
-- **Domain**: knowledge
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from GitHub CtrlAltFocus/obsidian-plugin-auto-tag)
-- **Tool source**: https://github.com/CtrlAltFocus/obsidian-plugin-auto-tag
-
-Auto-tagging utility for the AMOS Obsidian vault. Wraps the Obsidian community plugin to generate, preview, and insert frontmatter tags from note content using an OpenAI-powered tagger.
-
+Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When a note's `tags` frontmatter is missing, empty, or inconsistent with its content

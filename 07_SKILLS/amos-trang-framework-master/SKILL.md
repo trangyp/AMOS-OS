@@ -69,14 +69,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 15 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 15 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/KHUNG_TRANG_QUANTUM_ONTOLOGY_COMPUTABLE_DYNAMICS_RESEARCH_MODEL.md` (content_hash: 67043ceb80559ca1)).
-
+Origin architect: **Trang Phan**. Domain: trang. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 - When reasoning about cascade collapse-recovery patterns in complex systems

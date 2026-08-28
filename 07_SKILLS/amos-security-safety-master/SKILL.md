@@ -71,14 +71,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 2 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 2 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `18_SECURITY/SECURITY_README.md`).
-
+Origin architect: **Trang Phan**. Domain: security. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense.

@@ -66,13 +66,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c08-strategy-game-master`
-- **Domain**: mckinsey
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-McKinsey strategy framework for Mckinsey: architecture Reference Transfer Rscf
-
+Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When mckinsey strategy framework for mckinsey: architecture reference transfer rscf is needed within the mckinsey domain

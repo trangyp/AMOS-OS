@@ -68,13 +68,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-boundary-scope-master`
-- **Domain**: boundary
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Boundary and scope governance for Long Context Ci Repository Reasoning Rscf
-
+Origin architect: **Trang Phan**. Domain: boundary. Parent: amos-boundary-scope-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When boundary and scope governance for long context ci repository reasoning rscf is needed within the boundary domain

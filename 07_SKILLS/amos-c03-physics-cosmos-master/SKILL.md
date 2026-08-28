@@ -66,14 +66,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 98 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 98 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_C03_PHYSICS_COSMOS_MASTER_KNOWLEDGE.md` (content_hash: 4c2c6462c7ab1d23)).
-
+Origin architect: **Trang Phan**. Domain: c03. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r...

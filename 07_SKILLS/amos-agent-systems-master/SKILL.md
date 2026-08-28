@@ -70,14 +70,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 11 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 11 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `06_AGENTS/AGENTS_README.md`).
-
+Origin architect: **Trang Phan**. Domain: agent. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy governance, agent-to-agent protocols. Use for agent design, delegation reasoning, or multi-agent govern...

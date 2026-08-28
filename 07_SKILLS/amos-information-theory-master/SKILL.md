@@ -64,14 +64,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 3 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 3 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `01_CANON/01_CORE_LAWS/L6_UNCERTAINTY.md`).
-
+Origin architect: **Trang Phan**. Domain: information. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 - When performing information-theoretic analysis, entropy reasoning, or complexity measurement

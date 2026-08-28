@@ -66,12 +66,14 @@ domain: canon
 
 # AMOS 7-Part Universe Canon — Persistence Canon
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 - When auditing whether a theory, system, institution, or explanation is structurally complete (must answer all 7 parts)
 - When analyzing why a system emerges, operates, changes, survives, collapses, or recovers
 - When identifying the genuine gap (Part II — Flow) that no other canon first-class covers
 - When mapping a system's persistence logic (orthogonal to the 10-part UTC composition canon)
-
 ## Source
 `_00_Cosmo brain/2026-08-22 7-Part Universe Canon.md` (196 lines) + vault audit 2026-08-23
 

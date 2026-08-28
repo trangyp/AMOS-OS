@@ -65,6 +65,9 @@ law_compliance:
 # Collapse Recovery
 
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: trang. Parent: amos-trang-framework-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When recovering from system collapse: detect, diagnose, restore

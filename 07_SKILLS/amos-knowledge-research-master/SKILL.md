@@ -68,12 +68,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 143 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 143 separate shallow skills. **Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/11_KNOWLEDGE_MOC.md` (content_hash: 665f1b63068333a0)).
-
+Origin architect: **Trang Phan**. Domain: knowledge. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc...

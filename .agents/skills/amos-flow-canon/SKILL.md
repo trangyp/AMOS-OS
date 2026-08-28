@@ -1,20 +1,53 @@
 ---
 name: amos-flow-canon
-description: "AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion under limits, bottleneck/leakage/queue dynamics. Use when analyzing how power/energy/capital/information moves through a system, when throughput needs structural characterization, when identifying bottlenecks or leakage, or when flow is asserted but not structurally characterized. Use whenever the user mentions flow, throughput, transmission, conversion, bottlenecks, queues, or power movement — even without explicitly asking for 'flow canon'."
+description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained
+  throughput, conversion under limits, bottleneck/leakage/queue dynamics. Use when
+  analyzing how power/energy/capital/information moves through a system, when throughput
+  needs structural characterization, when identifying bottlenecks or leakage, or when
+  flow is asserted but not structurally characterized. Use whenever the user mentions
+  flow, throughput, transmission, conversion, bottlenecks, queues, or power movement
+  — even without explicitly asking for 'flow canon'.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-version: "1.1.0"
+version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
-gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+gmef_gates:
+- L0_integrity
+- L1_epistemic
+- L2_provenance
+- L5_scope
+- L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
-law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
+law_compliance:
+- L0
+- L1
+- L2
+- L4
+- L5
+- L7
+- L16
+- L17
+- L18
+tags:
+- type/skill
+- canon/skill
+- domain/canon-universe
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
+- amos_os
 ---
 
+
 # AMOS Flow Canon
+
+## Identity
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 
 ## When to Use
 - When analyzing how power moves through any system

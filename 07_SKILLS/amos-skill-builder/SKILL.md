@@ -72,8 +72,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
+Origin architect: **Trang Phan**. Domain: skill. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 Use this skill when creating, upgrading, auditing, or packaging AMOS/COSMO/Trang Skills. Covers skill frontmatter validation, epistemic firewall enforcement, H/M/L integrity levels, RSCF integration, parent/child routing, capability naming, content hash verification, and 1:1:1 binding (skill→agent→workflow). Use when filling placeholder skills, merging skills, or validating skill corpus integrity.

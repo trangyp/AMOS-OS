@@ -66,13 +66,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-super-engines-master`
-- **Domain**: super
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Super engine for Cost Aware Test Supervision Rscf
-
+Origin architect: **Trang Phan**. Domain: super. Parent: amos-super-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When supervising testing with cost-awareness: coverage vs cost

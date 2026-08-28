@@ -62,6 +62,9 @@ law_compliance:
 # Information Collapse Topology
 
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When measuring entropy and lacunarity: information content and gaps

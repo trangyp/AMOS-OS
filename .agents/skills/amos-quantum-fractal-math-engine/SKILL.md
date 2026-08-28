@@ -1,21 +1,44 @@
 ---
 name: amos-quantum-fractal-math-engine
-description: >-
-  Executes Quantum Logic Superposition (QLS), scale-invariant fractal decomposition (H/M/L),
-  and lacunarity texture analysis. Use when evaluating multi-state logic branches, fractal dimension
-  scaling, non-binary constraint satisfaction, and deterministic state collapse (M-hat).
+description: Executes Quantum Logic Superposition (QLS), scale-invariant fractal decomposition
+  (H/M/L), and lacunarity texture analysis. Use when evaluating multi-state logic
+  branches, fractal dimension scaling, non-binary constraint satisfaction, and deterministic
+  state collapse (M-hat).
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-version: "1.1.0"
+version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
-gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+gmef_gates:
+- L0_integrity
+- L1_epistemic
+- L2_provenance
+- L5_scope
+- L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
-law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
+law_compliance:
+- L0
+- L1
+- L2
+- L4
+- L5
+- L7
+- L16
+- L17
+- L18
+tags:
+- type/skill
+- canon/skill
+- domain/formal-engines
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
+- amos_os
 ---
+
 
 # AMOS Quantum Fractal Math Engine Skill
 

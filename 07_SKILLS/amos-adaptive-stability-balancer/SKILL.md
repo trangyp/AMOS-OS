@@ -78,8 +78,7 @@ law_compliance:
 
 ## Identity
 
-**Origin architect and steward:** Trang Phan
-
+Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 Use this skill when balancing system stability against adaptive change, detecting stability regime transitions (STABLE/ADAPTIVE/STRAINED/DEGRADED/RECOVERY/SAFE_MODE/CRITICAL/COLLAPSE_RISK/UNKNOWN), or governing resource/reserve/environment/stability/adaptation integrity across the AMOS runtime.

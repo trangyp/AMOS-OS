@@ -67,13 +67,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c10-tech-engineering-master`
-- **Domain**: c10
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Tech-engineering engine for Ssa Ir Compiler Rscf
-
+Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When analyzing software architecture: patterns, dependencies, coupling

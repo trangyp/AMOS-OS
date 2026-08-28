@@ -79,13 +79,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-security-safety-master`
-- **Domain**: cross-domain (C09 Org-Law-Policy → C10 Tech-Engineering → Runtime Enforcement)
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from C09, C10, and Runtime enforcement knowledge)
-
-Bridges the security-control-access pipeline across three layers. C09 defines organizational policy, compliance requirements, and legal obligations. C10 implements access control mechanisms, security architecture, and fail-closed design. Runtime Enforcement provides enforcement attestation (ERA/ETC), capability-bound governance, and audit trails. This governor ensures that policy flows to mechanism, mechanism flows to enforcement, and enforcement feeds back to policy — with no layer drift.
-
+Origin architect: **Trang Phan**. Domain: cross-domain (C09 → C10 → Runtime). Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## The Problem This Skill Solves
 
 The `_00_Cosmo brain` exploration identified: *"Security and Control and Access: Security policies, access control mechanisms, and runtime enforcement are separate layers without unified policy-to-enforcement pipelines."*

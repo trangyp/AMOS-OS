@@ -73,13 +73,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c05-mind-behavior-master`
-- **Domain**: cross-domain (C05 Mind & Behavior → C01 Meta-Logic → C10 Tech & Engineering)
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from C05, C01, C10 master knowledge files)
-
-Bridges the emotion-cognition-decision pipeline across three AMOS domains. C05 provides the 5-axis emotion state, personality traits, and behavior engine goal ordering. C01 provides meta-logic decision gates, reasoning mode selection, and uncertainty/risk assessment. C10 provides technical decision-making with diagnose-before-edit discipline. This governor ensures that emotional state informs cognitive mode selection and decision prioritization without violating the influence gating invariant.
-
+Origin architect: **Trang Phan**. Domain: cross-domain (C05→C01→C10). Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## The Problem This Skill Solves
 
 C05 defines a rich emotion-personality-behavior system with a critical invariant: *"Emotional axes may bias prioritization and tone, never facts or logic."* C01 defines meta-logic decision gates and reasoning mode governance. C10 defines technical decision-making with diagnose-before-edit. However, these three systems operate independently:

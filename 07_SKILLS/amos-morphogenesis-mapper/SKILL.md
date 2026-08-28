@@ -65,13 +65,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c04-bio-neuro-master`
-- **Domain**: c04
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Bio-neuro engine for Morphogenesis Mapper
-
+Origin architect: **Trang Phan**. Domain: c04. Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When mapping biological mechanisms: cellular, neural, developmental

@@ -65,13 +65,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-knowledge-research-master`
-- **Domain**: knowledge
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Knowledge-research engine for Knowledge Harvest Runtime
-
+Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When searching the corpus for relevant passages with provenance

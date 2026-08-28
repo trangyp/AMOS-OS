@@ -69,13 +69,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c01-meta-logic-master`
-- **Domain**: c01
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Logic and law engine for Law Hierarchy Resolver
-
+Origin architect: **Trang Phan**. Domain: c01. Parent: amos-c01-meta-logic-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When resolving conflicts between meta-laws, domain laws, and operational rules

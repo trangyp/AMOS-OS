@@ -65,13 +65,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c06-society-culture-master`
-- **Domain**: c06
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Society-culture engine for Growth Graph
-
+Origin architect: **Trang Phan**. Domain: c06. Parent: amos-c06-society-culture-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When modeling cognitive substrate memory graphs: field-level lineage, consolidation

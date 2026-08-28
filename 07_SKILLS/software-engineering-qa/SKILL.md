@@ -72,15 +72,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c10-tech-engineering-master`
-- **Domain**: c10 (Tech & Engineering)
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from C10 Tech & Engineering Master Knowledge)
-- **Implementation**: `cosmo-brain/amos_v1_production/software_engineering_qa_agent.py` (4546 lines, 14 capabilities, 17 QA phases)
-- **Claim ceiling**: 0.95
-
-Production software QA agent for repository understanding, debugging, repair, testing, architecture validation, responsive/UI QA, accessibility, APIs, databases, CI/CD, security, release validation, provenance, and regression safety.
-
+Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When diagnosing a repository failure mechanism before editing code

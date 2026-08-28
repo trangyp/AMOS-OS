@@ -65,13 +65,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c09-org-law-policy-master`
-- **Domain**: c09
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Governance, law and policy engine for Risk Constraint Governor
-
+Origin architect: **Trang Phan**. Domain: c09. Parent: amos-c09-org-law-policy-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When governing ethical decisions: principles, consequences, procedural fairness

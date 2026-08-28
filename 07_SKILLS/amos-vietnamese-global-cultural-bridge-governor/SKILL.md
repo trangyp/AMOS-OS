@@ -79,13 +79,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c06-society-culture-master`
-- **Domain**: cross-domain (C06 Vietnamese-Specific ↔ Global Frameworks)
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from C06 master knowledge and Vietnamese-specific vault content)
-
-Bridges Vietnamese-specific cultural systems with global frameworks. C06 F07 provides Vietnam Regional Society Systems (gia hệ energy models, Vietnamese language systems, regional analysis). C06 F01-F06, F08-F10 provide global frameworks (political dynamics, institutions, social networks, culture, conflict, ethics). C09 F06 provides VN/CN legal ecosystems. This governor ensures bidirectional translation preserves cultural specificity while enabling global comparison — with a universalization firewall preventing VN-specific claims from being universalized without cross-cultural evidence.
-
+Origin architect: **Trang Phan**. Domain: cross-domain (C06 Vietnamese ↔ Global). Parent: amos-c06-society-culture-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## The Problem This Skill Solves
 
 The `_00_Cosmo brain` exploration identified: *"Vietnamese-Specific and Global Models: Vietnamese-specific cultural, legal, and business models lack bridges to global frameworks."*

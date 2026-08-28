@@ -69,14 +69,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 8 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 8 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_COGNITIVE_ORGANISM_OS.md` (content_hash: 3c4ff0d94377f3fe)).
-
+Origin architect: **Trang Phan**. Domain: super. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 - When reasoning about super-engine architectures (Super Mind OS, Omega Infinity Stack)

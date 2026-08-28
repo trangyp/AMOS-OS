@@ -65,13 +65,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c08-strategy-game-master`
-- **Domain**: c08
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Strategy and game engine for Gmef Governance
-
+Origin architect: **Trang Phan**. Domain: c08. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When analyzing strategic position and competitive landscape

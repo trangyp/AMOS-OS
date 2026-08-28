@@ -65,13 +65,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-trang-framework-master`
-- **Domain**: trang
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Trang framework engine for Distinction Rscf Architecture
-
+Origin architect: **Trang Phan**. Domain: trang. Parent: amos-trang-framework-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When recovering from system collapse: detect, diagnose, restore

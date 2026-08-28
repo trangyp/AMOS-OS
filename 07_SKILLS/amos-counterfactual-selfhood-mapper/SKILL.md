@@ -67,13 +67,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-causal-reasoning-master`
-- **Domain**: causal
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Causal reasoning engine for Counterfactual Selfhood Mapper
-
+Origin architect: **Trang Phan**. Domain: causal. Parent: amos-causal-reasoning-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When validating causal abstraction across model levels

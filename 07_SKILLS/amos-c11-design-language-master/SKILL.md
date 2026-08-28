@@ -63,14 +63,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 16 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 16 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_C11_DESIGN_LANGUAGE_MASTER_KNOWLEDGE.md` (content_hash: 77e58712bc1835c9)).
-
+Origin architect: **Trang Phan**. Domain: c11. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 - When defining or evolving a design language for products, brands, interfaces, or systems

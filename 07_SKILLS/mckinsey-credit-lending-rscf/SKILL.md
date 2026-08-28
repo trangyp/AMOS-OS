@@ -64,13 +64,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c08-strategy-game-master`
-- **Domain**: mckinsey
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-McKinsey strategy framework for Mckinsey: credit Lending Rscf
-
+Origin architect: **Trang Phan**. Domain: mckinsey. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When mckinsey strategy framework for mckinsey: credit lending rscf is needed within the mckinsey domain

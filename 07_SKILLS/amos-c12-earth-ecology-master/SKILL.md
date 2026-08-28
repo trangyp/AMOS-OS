@@ -65,14 +65,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 29 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 29 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_C12_EARTH_ECOLOGY_MASTER_KNOWLEDGE.md` (content_hash: 5230c3adc3f51a91)).
-
+Origin architect: **Trang Phan**. Domain: c12. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system...

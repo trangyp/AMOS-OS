@@ -63,13 +63,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-c05-mind-behavior-master`
-- **Domain**: c05
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Mind-behavior engine for Attention Allocation Governor
-
+Origin architect: **Trang Phan**. Domain: c05. Parent: amos-c05-mind-behavior-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When modeling cognitive processes: attention, awareness, compression

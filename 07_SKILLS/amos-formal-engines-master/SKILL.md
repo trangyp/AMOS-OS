@@ -71,14 +71,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 24 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 24 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `02_KERNEL/01_META_LOGIC/K_META_LOGIC.md`).
-
+Origin architect: **Trang Phan**. Domain: formal. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 - When performing formal verification, symbolic execution, proof checking, or mathematical reasoning

@@ -65,14 +65,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 26 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 26 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `01_CANON/01_CORE_LAWS/L15_FRACTAL_KNOWLEDGE.md`).
-
+Origin architect: **Trang Phan**. Domain: fractal. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use for fractal analysis, scale r...

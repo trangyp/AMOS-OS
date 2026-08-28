@@ -1,21 +1,44 @@
 ---
 name: amos-workflow-runner
-description: >-
-  Executes, validates, and coordinates multi-step procedures from the 200+ AMOS workflows in .devin/workflows/.
-  Use when the user requests multi-step AMOS workflows (e.g. gap closure, epistemic audit, quantum fractal synthesis,
-  canon integration, verification pipelines, code refactoring).
+description: Executes, validates, and coordinates multi-step procedures from the 200+
+  AMOS workflows in .devin/workflows/. Use when the user requests multi-step AMOS
+  workflows (e.g. gap closure, epistemic audit, quantum fractal synthesis, canon integration,
+  verification pipelines, code refactoring).
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-version: "1.1.0"
+version: 1.1.0
 rscf_state: SOURCE_CLAIM
 hml_level: M
-gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+gmef_gates:
+- L0_integrity
+- L1_epistemic
+- L2_provenance
+- L5_scope
+- L7_authority
 collapse_class: reversible
 qfm_gate_set: QFM_v43
-law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
+law_compliance:
+- L0
+- L1
+- L2
+- L4
+- L5
+- L7
+- L16
+- L17
+- L18
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- rscf/source_claim
+- hml/m
+- epistemic/source_claim
+- amos_os
 ---
+
 
 # AMOS Workflow Runner
 

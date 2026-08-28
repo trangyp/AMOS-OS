@@ -71,13 +71,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-formal-engines-master`
-- **Domain**: formal
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Formal reasoning engine for Symbolic Path Reasoning Rscf
-
+Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When verifying formal proofs against axioms and inference rules

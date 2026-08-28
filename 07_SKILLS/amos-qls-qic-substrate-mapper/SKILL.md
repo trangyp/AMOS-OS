@@ -68,13 +68,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-os-runtime-master`
-- **Domain**: runtime
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Runtime and OS engine for Qls Qic Substrate Mapper
-
+Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When monitoring runtime stability: drift, oscillation, divergence

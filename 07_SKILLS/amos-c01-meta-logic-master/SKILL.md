@@ -68,14 +68,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 60 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 60 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_C01_META_LOGIC_MASTER_KNOWLEDGE.md` (content_hash: ff5575df755d7e25)).
-
+Origin architect: **Trang Phan**. Domain: c01. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 - When clarifying questions, cleaning concepts, detecting contradictions, or choosing correct frames

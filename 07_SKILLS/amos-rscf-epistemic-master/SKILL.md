@@ -70,14 +70,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 61 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 61 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `01_CANON/01_CORE_LAWS/L11_KNOWLEDGE_MEMORY.md`).
-
+Origin architect: **Trang Phan**. Domain: rscf. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/dependencies/competing hypotheses/falsifiers/confidence ceiling. 6 state kinds: OBSERVATION, SOURCE_CLAIM, DERI...

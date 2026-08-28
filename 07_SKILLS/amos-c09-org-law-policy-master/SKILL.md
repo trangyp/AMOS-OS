@@ -67,14 +67,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 29 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 29 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_C09_ORG_LAW_POLICY_MASTER_KNOWLEDGE.md` (content_hash: bead46b07fc02558)).
-
+Origin architect: **Trang Phan**. Domain: c09. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol...

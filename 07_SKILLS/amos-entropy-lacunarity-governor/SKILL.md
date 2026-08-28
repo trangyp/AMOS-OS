@@ -63,13 +63,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-information-theory-master`
-- **Domain**: info
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Information theory engine for Entropy Lacunarity Governor
-
+Origin architect: **Trang Phan**. Domain: info. Parent: amos-information-theory-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When measuring entropy and lacunarity: information content and gaps

@@ -67,14 +67,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 3 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 3 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `10_MEMORY/MEMORY_README.md`).
-
+Origin architect: **Trang Phan**. Domain: memory. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 AMOS Memory Systems — 3 memory types, context compaction, memory conflict resolution, memory immune system, action-memory firewall. Use for memory management, context continuity, or memory conflict...

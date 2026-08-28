@@ -69,13 +69,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-audit-repair-master`
-- **Domain**: audit
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Audit and verification engine for Target Of Repair Intelligence
-
+Origin architect: **Trang Phan**. Domain: audit. Parent: amos-audit-repair-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When auditing claims against evidence and provenance

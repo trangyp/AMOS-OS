@@ -70,13 +70,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-canon-universe-master`
-- **Domain**: canon
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Canon and universe engine for Canon Consistency Governor
-
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When compiling canonical structure from vault sources

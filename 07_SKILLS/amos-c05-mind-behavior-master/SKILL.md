@@ -66,14 +66,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 59 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 59 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md` (content_hash: e3ca4951a743518b)).
-
+Origin architect: **Trang Phan**. Domain: c05. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness, metacognition, thinking, reasoning, perception, attention. 5-axis Emotion Law, HIE/UMPL/UST/UIE/UEL super-consciousness emul...

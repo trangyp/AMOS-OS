@@ -64,12 +64,14 @@ domain: canon
 
 # AMOS Flow Canon
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 - When analyzing how power moves through any system
 - When a system's throughput, conversion, or transmission needs structural characterization
 - When identifying bottlenecks, leakage, or queue dynamics in a claimed system
 - When flow is asserted but not structurally characterized (the vault's genuine gap)
-
 ## Source
 Vault-generated from 7-Part Canon audit (2026-08-23) — identified Flow (Part II) as the only part absent from all 5 existing vault canon layers
 

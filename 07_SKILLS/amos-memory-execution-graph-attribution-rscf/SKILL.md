@@ -63,13 +63,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-memory-systems-master`
-- **Domain**: memory
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Memory system engine for Memory Execution Graph Attribution Rscf
-
+Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
 ## When to Use
 
 - When managing memory: storage, retrieval, decay, consolidation

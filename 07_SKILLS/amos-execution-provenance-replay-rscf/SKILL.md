@@ -69,13 +69,7 @@ law_compliance:
 
 ## Identity
 
-- **Origin architect and steward**: Trang Phan
-- **Parent skill**: `amos-security-safety-master`
-- **Domain**: security
-- **Epistemic class**: SOURCE_CLAIM (vault-sourced from AMOS framework)
-
-Security and trust engine for Execution Provenance Replay Rscf
-
+Origin architect: **Trang Phan**. Domain: security. Parent: amos-security-safety-master. Epistemic class: SOURCE_CLAIM. H/M/L: H.
 ## When to Use
 
 - When detecting adversarial activity: attacks, probes, manipulation

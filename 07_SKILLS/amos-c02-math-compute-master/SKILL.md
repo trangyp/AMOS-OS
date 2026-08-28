@@ -68,14 +68,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
-This is a **parent skill** that consolidates 100 sub-skills into a single domain master.
-Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
-A parent skill with clearly labeled sections is better than 100 separate shallow skills.
-
-**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/AMOS_C02_MATH_COMPUTE_MASTER_KNOWLEDGE.md` (content_hash: 7369abada641e374)).
-
+Origin architect: **Trang Phan**. Domain: c02. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
 ## When to Use
 
 AMOS C02 Math & Compute — 10 knowledge families: problem framing, numerical methods, probability/statistics, optimization, complexity, control systems, signal processing, simulation, meta-control, ...

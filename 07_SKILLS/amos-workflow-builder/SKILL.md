@@ -77,8 +77,7 @@ law_compliance:
 
 ## Identity
 
-Origin architect and steward: **Trang Phan**.
-
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: M.
 ## When to Use
 
 Use this skill when creating, updating, auditing, or packaging AMOS-aligned Workflows. Covers workflow step sequencing, validation gate enforcement (G1-G10), failure path specification, 1:1:1 binding (workflow→agent→skill), RSCF/HML/provenance/governance controls, trigger definition, and provenance recording. Use when converting engine specs into operational workflows or strengthening thin workflows.
