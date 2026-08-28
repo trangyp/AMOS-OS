@@ -45,6 +45,7 @@ law_compliance:
 - L17
 - L18
 license: MIT
+steward: Trang Phan
 ---
 
 # AMOS Full Brain OS — Rebuilt Architecture (2026-08-22)

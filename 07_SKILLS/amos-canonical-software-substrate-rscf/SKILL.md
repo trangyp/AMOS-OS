@@ -46,6 +46,7 @@ law_compliance:
 - L18
 - L19
 license: MIT
+steward: Trang Phan
 ---
 
 # Canonical Software Substrate Rscf

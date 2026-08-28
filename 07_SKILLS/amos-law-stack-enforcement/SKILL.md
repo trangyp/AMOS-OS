@@ -43,6 +43,7 @@ parent_skill: amos-canon-universe-master
 domain: canon
 description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Use whenever the user mentions law stack, enforcement, invariants, rule hierarchy, LoL, R2, R4, or scale-transition validation — even without explicitly asking for 'law stack'. Do not use for for generic tasks outside the declared amos domain.
 license: MIT
+steward: Trang Phan
 ---
 
 # AMOS Law Stack Enforcement

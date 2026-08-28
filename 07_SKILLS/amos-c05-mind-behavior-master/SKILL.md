@@ -46,6 +46,7 @@ rscf:
   node_id: amos_c05_mind_behavior_master_knowledge
   node_type: note
 license: MIT
+steward: Trang Phan
 ---
 
 # AMOS C05 — Mind & Behavior Master Knowledge

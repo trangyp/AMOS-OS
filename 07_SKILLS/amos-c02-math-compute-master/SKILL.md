@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 license: MIT
+steward: Trang Phan
 ---
 # AMOS C02 — Math & Compute Master Knowledge
 

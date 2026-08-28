@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 license: MIT
+steward: Trang Phan
 ---
 # AMOS C09 — Organization, Law & Policy Master Knowledge
 

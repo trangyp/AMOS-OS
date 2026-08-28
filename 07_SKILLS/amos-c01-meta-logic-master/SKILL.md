@@ -44,6 +44,7 @@ law_compliance:
 - L18
 - L19
 license: MIT
+steward: Trang Phan
 ---
 # AMOS C01 — Meta-Logic Master Knowledge
 

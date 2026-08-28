@@ -41,6 +41,7 @@ law_compliance:
 - L16
 - L17
 license: MIT
+steward: Trang Phan
 ---
 
 # AMOS C03 — Physics & Cosmos Master Knowledge

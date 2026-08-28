@@ -42,6 +42,7 @@ law_compliance:
 - L16
 - L17
 license: MIT
+steward: Trang Phan
 ---
 
 # Fx Realized Kernel Microstructure Rscf Engine

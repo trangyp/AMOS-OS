@@ -44,6 +44,7 @@ law_compliance:
 - L18
 - L19
 license: MIT
+steward: Trang Phan
 ---
 
 # Aibom Lifecycle Assurance Rscf

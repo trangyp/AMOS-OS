@@ -40,6 +40,7 @@ law_compliance:
 - L16
 - L17
 license: MIT
+steward: Trang Phan
 ---
 
 # L6 Uncertainty Laws

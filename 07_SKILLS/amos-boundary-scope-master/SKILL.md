@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 license: MIT
+steward: Trang Phan
 ---
 
 # L5 Scope, Regime, and Temporal Laws

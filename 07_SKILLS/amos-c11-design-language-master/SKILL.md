@@ -41,6 +41,7 @@ law_compliance:
 - L16
 - L17
 license: MIT
+steward: Trang Phan
 ---
 
 # AMOS C11 — Design & Language Master Knowledge

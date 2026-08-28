@@ -40,6 +40,7 @@ law_compliance:
 - L16
 - L17
 license: MIT
+steward: Trang Phan
 ---
 
 # Arxiv: grpo Reasoning Policy Rscf

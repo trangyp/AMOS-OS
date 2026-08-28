@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 license: MIT
+steward: Trang Phan
 ---
 # AMOS C06 — Society & Culture Master Knowledge
 

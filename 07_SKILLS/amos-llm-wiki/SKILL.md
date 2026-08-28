@@ -27,6 +27,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+steward: Trang Phan
 ---
 
 # AMOS LLM Wiki

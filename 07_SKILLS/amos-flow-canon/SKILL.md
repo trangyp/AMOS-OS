@@ -43,6 +43,7 @@ parent_skill: amos-canon-universe-master
 domain: canon
 description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion under limits, bottleneck/leakage/queue dynamics. Use when analyzing how power/energy/capital/information moves through a system, when throughput needs structural characterization, when identifying bottlenecks or leakage, or when flow is asserted but not structurally characterized. Use whenever the user mentions flow, throughput, transmission, conversion, bottlenecks, queues, or power movement — even without explicitly asking for 'flow canon'. Do not use for for generic tasks outside canon/universe domain (canon reasoning, universe-level analysis).
 license: MIT
+steward: Trang Phan
 ---
 
 # AMOS Flow Canon

@@ -45,6 +45,7 @@ law_compliance:
 - L17
 - L18
 license: MIT
+steward: Trang Phan
 ---
 
 # Trajectory Bug Specification Refinement Rscf

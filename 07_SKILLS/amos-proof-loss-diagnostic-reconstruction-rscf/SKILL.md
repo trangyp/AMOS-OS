@@ -48,6 +48,7 @@ law_compliance:
 - L19
 - L22
 license: MIT
+steward: Trang Phan
 ---
 
 # Proof Loss Diagnostic Reconstruction Rscf

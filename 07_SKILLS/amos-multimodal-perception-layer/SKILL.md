@@ -40,6 +40,7 @@ law_compliance:
 - L16
 - L17
 license: MIT
+steward: Trang Phan
 ---
 
 # Multimodal Perception Layer

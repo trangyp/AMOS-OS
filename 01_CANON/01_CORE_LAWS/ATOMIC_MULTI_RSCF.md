@@ -79,7 +79,7 @@ node_status:
 
   substantive_kernel_definition:
     location: K_ATOMIC_MULTI_RSCF
-````
+```
 
 The source establishes this node as a redirect.
 
@@ -1436,7 +1436,7 @@ The broader AMOS kernel map also places:
     K_ATOMIC_MULTI_RSCF.md
 ```
 
-inside the kernel hierarchy. 
+inside the kernel hierarchy.
 
 This corroborates the target's architectural placement.
 
@@ -1840,21 +1840,21 @@ gaps:
 
 The redirect interpretation is falsified or superseded if:
 
-### F1
+## F1
 
 Authoritative canon establishes a different canonical target.
 
-### F2
+## F2
 
 `ATOMIC_MULTI_RSCF` is promoted from redirect to substantive canonical
 kernel.
 
-### F3
+## F3
 
 `K_ATOMIC_MULTI_RSCF` is formally superseded and the redirect is
 retargeted.
 
-### F4
+## F4
 
 Authoritative RSCF topology establishes that the relationship is not a
 redirect.
