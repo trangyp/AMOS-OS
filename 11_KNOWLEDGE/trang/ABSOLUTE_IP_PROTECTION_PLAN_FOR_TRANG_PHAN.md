@@ -1,3 +1,14 @@
+---
+tags:
+- knowledge
+- trang
+- absolute
+- protection
+- plan
+- phan.md
+- phan
+---
+
 # ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN
 
 ## AMOS Canon · Scientific Law System · Operating System · Programming Paradigm · Frameworks · Algorithms · Equations

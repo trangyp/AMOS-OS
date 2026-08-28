@@ -1,3 +1,10 @@
+---
+tags:
+- knowledge
+- readme.md
+- readme
+---
+
 # 01_BRAIN
 
 ## Overview

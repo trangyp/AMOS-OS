@@ -1,3 +1,14 @@
+---
+tags:
+- knowledge
+- trang
+- cosmo
+- brain
+- reasoning
+- phan.md
+- phan
+---
+
 # Bridge to Cosmo Brain — Reasoning OS by Trang Phan
 
 ## Full Canonical Expansion · GAP-Preserving · Graph-Integrity Architecture · RSCF-Governed · Obsidian-Ready

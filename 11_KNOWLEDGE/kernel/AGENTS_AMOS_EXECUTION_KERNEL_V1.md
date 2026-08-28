@@ -1,3 +1,12 @@
+---
+tags:
+- knowledge
+- kernel
+- agents
+- execution
+- v1.md
+---
+
 # AGENTS AMOS EXECUTION KERNEL V1 — Full Canonical Expansion
 
 ## 0. Normalized Source Frontmatter

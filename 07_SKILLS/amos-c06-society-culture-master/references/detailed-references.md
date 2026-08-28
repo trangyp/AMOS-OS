@@ -1,3 +1,14 @@
+---
+tags:
+- skills
+- society
+- culture
+- master
+- references
+- detailed
+- references.md
+---
+
 ## Provenance
 
 - **Skill**: amos-c06-society-culture-master

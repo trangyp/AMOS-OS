@@ -1,3 +1,14 @@
+---
+tags:
+- knowledge
+- emotion
+- cognition
+- decision
+- bridge
+- governor.md
+- governor
+---
+
 # AMOS EMOTION COGNITION DECISION BRIDGE GOVERNOR
 
 ## Full Canonical Expansion · Source-Preserved · RSCF · Obsidian/Vault Architecture

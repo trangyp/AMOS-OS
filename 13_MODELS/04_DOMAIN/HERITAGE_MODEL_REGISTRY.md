@@ -1,3 +1,12 @@
+---
+tags:
+- models
+- domain
+- heritage
+- registry.md
+- registry
+---
+
 Below is the full expanded Obsidian-ready registry. I’m keeping the supplied artifact as the source nucleus and treating the expanded registry semantics as **AMOS_MODEL / normalized AMOS governance**, not inventing specific heritage-domain models that were not supplied or independently established.
 
 ````markdown

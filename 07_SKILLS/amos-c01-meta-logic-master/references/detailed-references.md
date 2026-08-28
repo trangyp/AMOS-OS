@@ -1,3 +1,14 @@
+---
+tags:
+- skills
+- meta
+- logic
+- master
+- references
+- detailed
+- references.md
+---
+
 ## Provenance
 
 - **Skill**: amos-c01-meta-logic-master

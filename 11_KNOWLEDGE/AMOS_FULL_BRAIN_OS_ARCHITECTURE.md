@@ -1,3 +1,12 @@
+---
+tags:
+- knowledge
+- full
+- brain
+- architecture.md
+- architecture
+---
+
 # AMOS FULL BRAIN OS ARCHITECTURE
 
 ## Full Canonical Content + Extended Tags + RSCF + Obsidian Integration

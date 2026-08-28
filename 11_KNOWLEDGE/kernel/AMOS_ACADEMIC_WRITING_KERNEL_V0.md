@@ -1,3 +1,12 @@
+---
+tags:
+- knowledge
+- kernel
+- academic
+- writing
+- v0.md
+---
+
 # AMOS ACADEMIC WRITING KERNEL V0
 
 ## Full Canonical Expansion · Source-Grounded · RSCF-Aware · Obsidian-Ready

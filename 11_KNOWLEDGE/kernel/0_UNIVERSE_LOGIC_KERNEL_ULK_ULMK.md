@@ -1,3 +1,14 @@
+---
+tags:
+- knowledge
+- kernel
+- universe
+- logic
+- ulk
+- ulmk.md
+- ulmk
+---
+
 # 0 UNIVERSE LOGIC KERNEL ULK ULMK
 
 ## Full Exhaustive Canonical Expansion · Source-Preserving · RSCF-Governed · Causal-Firewalled · Obsidian-Ready

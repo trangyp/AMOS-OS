@@ -1,3 +1,14 @@
+---
+tags:
+- skills
+- org
+- law
+- policy
+- master
+- references
+- detailed
+---
+
 ## AMOS Canon Grounding
 
 > This skill is governed by the AMOS constitutional law hierarchy. See `01_CANON/01_CORE_LAWS/AMOS_CORE_LAWS.md`.

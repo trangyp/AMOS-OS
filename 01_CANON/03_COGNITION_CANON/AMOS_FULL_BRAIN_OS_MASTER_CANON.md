@@ -1,4 +1,13 @@
 ---
+tags:
+- cognition
+- full
+- brain
+- master
+- canon.md
+---
+
+---
 title: AMOS Full Brain OS Master Canon
 type: canonsource: 01_CANON/03_COGNITION_CANON
 artifact: AMOS_FULL_BRAIN_OS_MASTER_CANON.md

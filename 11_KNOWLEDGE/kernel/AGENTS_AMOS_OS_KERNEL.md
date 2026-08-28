@@ -1,3 +1,11 @@
+---
+tags:
+- knowledge
+- kernel
+- agents
+- kernel.md
+---
+
 # AGENTS AMOS OS KERNEL — Full Canonical Expansion
 
 ## 0. Canonical Status

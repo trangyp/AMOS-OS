@@ -1,4 +1,14 @@
 ---
+tags:
+- core
+- laws
+- atomic
+- multi
+- rscf.md
+- rscf
+---
+
+---
 title: ATOMIC_MULTI_RSCF Law (Redirect)
 aliases:  - ATOMIC_MULTI_RSCF
   - Atomic Multi-RSCF Law

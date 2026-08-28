@@ -1,3 +1,11 @@
+---
+tags:
+- skill
+- registry
+- catalog.md
+- catalog
+---
+
 # AMOS Skill Registry Catalog
 
 Generated: 2026-08-28T09:36:28.282434+00:00

@@ -1,3 +1,12 @@
+---
+tags:
+- knowledge
+- obsidian
+- linking
+- plugins.md
+- plugins
+---
+
 # Domain MOC
 
 ## Canonical / Curated

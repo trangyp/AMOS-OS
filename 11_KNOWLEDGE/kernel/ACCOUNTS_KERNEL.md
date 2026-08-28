@@ -1,3 +1,11 @@
+---
+tags:
+- knowledge
+- kernel
+- accounts
+- kernel.md
+---
+
 # ACCOUNTS KERNEL
 
 ## Full Exhaustive Canonical Expansion · Source-Preserving · Runtime-Semantics Analysis · RSCF-Governed · Obsidian-Ready

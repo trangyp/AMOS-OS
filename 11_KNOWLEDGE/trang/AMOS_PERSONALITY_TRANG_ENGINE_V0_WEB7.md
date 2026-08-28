@@ -1,3 +1,13 @@
+---
+tags:
+- knowledge
+- trang
+- personality
+- engine
+- web7.md
+- web
+---
+
 # AMOS PERSONALITY TRANG ENGINE V0 WEB7
 
 ## Exhaustive Canonical Expansion · Maximum Detail · Source-Preserved · RSCF-Governed · Obsidian-Ready

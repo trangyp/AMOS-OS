@@ -1,3 +1,13 @@
+---
+tags:
+- knowledge
+- learning
+- memory
+- feedback
+- governor.md
+- governor
+---
+
 # AMOS LEARNING MEMORY KNOWLEDGE FEEDBACK GOVERNOR
 
 ## Full Canonical Content + Tags + RSCF + Obsidian Integration

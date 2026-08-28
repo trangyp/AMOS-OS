@@ -1,3 +1,12 @@
+---
+tags:
+- models
+- domain
+- neurosyncai
+- registry.md
+- registry
+---
+
 Below is the **full expanded Obsidian-ready `NEUROSYNCAI_MODEL_REGISTRY.md`**. The supplied seed establishes the registry slot, but it does **not** provide verified native NeuroSyncAI model definitions. Accordingly, the expansion defines the registry contract, neural-model epistemics, provenance, validation, safety, RSCF/H-M-L, lifecycle, and promotion semantics while keeping the actual NeuroSyncAI model inventory explicitly `UNKNOWN/GAP` rather than inventing it.
 
 ````markdown

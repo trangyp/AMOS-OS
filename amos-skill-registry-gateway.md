@@ -1,8 +1,14 @@
 ---
 name: amos-skill-registry
-description: Gateway skill for the AMOS skill registry. Use when searching for, discovering, or fetching AMOS skills on demand. Provides a catalog of 342 skills across 42 domains.
+description: Gateway skill for the AMOS skill registry. Use when searching for, discovering,
+  or fetching AMOS skills on demand. Provides a catalog of 342 skills across 42 domains.
 version: 1.0.0
 type: skill
+tags:
+- skill
+- registry
+- gateway.md
+- gateway
 ---
 
 # AMOS Skill Registry Gateway
