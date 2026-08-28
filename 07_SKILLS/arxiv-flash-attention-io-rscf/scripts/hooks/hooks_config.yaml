@@ -1,0 +1,20 @@
+# Hooks Configuration for arxiv-flash-attention-io-rscf
+# Per Skills-vs-MCP-vs-Hooks (claudeskills.info 2026):
+# Knowledge goes in skills, external access through MCP, guarantees in hooks.
+# Hooks are deterministic gates the model cannot skip.
+
+hooks:
+  PreToolUse:
+    command: "python3 scripts/hooks/pre_tool_use.py"
+    description: "Validate skill structure before execution"
+    block_on_failure: true
+    
+  PostToolUse:
+    command: "python3 scripts/hooks/post_tool_use.py"
+    description: "Validate output quality after execution"
+    block_on_failure: false  # Warn only
+    
+  Stop:
+    command: "python3 scripts/hooks/stop.py"
+    description: "Run validation before allowing turn to end"
+    block_on_failure: true

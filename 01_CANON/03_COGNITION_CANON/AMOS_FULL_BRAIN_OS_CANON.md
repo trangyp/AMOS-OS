@@ -112,7 +112,7 @@ IMPLEMENTED != VALIDATED
 LOGGED != APPROVED
 
 UNKNOWN/GAP != PASS
-````
+```
 
 Origin architect / steward:
 

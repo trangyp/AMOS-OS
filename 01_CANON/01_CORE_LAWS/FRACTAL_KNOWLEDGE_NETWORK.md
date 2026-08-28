@@ -75,7 +75,7 @@ status:
     - dependency_directed_retrieval
     - selective_detail_loading
     - provenance_preserving_navigation
-````
+```
 
 The supplied node directly establishes:
 

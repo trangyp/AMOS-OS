@@ -64,7 +64,7 @@ HIE governs:
 
 HIE requires:
     strict safety tone governance
-````
+```
 
 The exact authoritative definitions and names of all seven interaction layers are **not contained in the supplied source fragment**.
 
