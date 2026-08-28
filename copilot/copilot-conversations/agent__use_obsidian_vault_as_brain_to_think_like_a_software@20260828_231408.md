@@ -63,5 +63,65 @@ Let me look at the actual stub content more carefully. Most of these `PLACEHOLDE
 
 These are false positives in the audit because the check is too naive. However, a few deserve scrutiny. Let me check the ones that say "Proposed specification replacing placeholder" (`amos-audit-repair-master`, `amos-fractal-systems-master`, `amos-rscf-epistemic-master`). Let me look at those.
 
+I see. The "Proposed specification replacing placeholder" is a **status line** (documenting the skill's historical upgrade from a placeholder to a real spec). This is legitimate content, not an actual stub. The audit's naive `PLACEHOLDER` string match produces false positives.
+
+So the real findings need a sharper analysis. Let me identify which of these are genuine issues versus false positives. Let me refine my audit to distinguish legitimate epistemic-framework language from actual unwritten stub content.
+
+Let me update the audit script with a smarter stub detector and re-run, focusing on the actual vault planes. Let me also verify the cross-ref gaps more carefully (check whether agents exist under different names).
+
+Now I have a cleaner picture. Let me verify these 4-5 specific skills:
+
+1. **`amos-mdformat-obsidian`** — MISSING_SKILL_MD (skill dir with no SKILL.md) AND no agent AND no workflow
+2. **`obsidian-plugin-auto-tag`** — no agent, no workflow
+3. **`amos-flow-canon`** — no agent, no workflow
+4. **`amos-law-stack-enforcement`** — no agent, no workflow
+5. **`amos-7-part-universe-canon`** — no workflow (but has agent?)
+
+Let me investigate each of these directories/files to understand what exists and what's missing.
+
+Now I have a clear picture of real, fixable issues in the vault:
+
+1. **`amos-mdformat-obsidian`** — skill directory contains ONLY a `scripts/` subdir — no SKILL.md, no MANIFEST.yaml, no MOC, no references. This is a genuine broken/empty skill. It also has no agent and no workflow.
+
+2. **`obsidian-plugin-auto-tag`**, **`amos-flow-canon`**, **`amos-law-stack-enforcement`** — these have complete skills (SKILL.md, MANIFEST, MOC, references) but are missing their **matching agents** and **matching workflows**. The vault's contract (from AGENTS.md) is 1:1:1 binding (skill→agent→workflow).
+
+3. **`amos-7-part-universe-canon`** — has skill + agent but missing matching workflow.
+
+Let me check what exists for these skills in agents/workflows to be sure before creating.
+
+Interesting. So in the external `.devin/` project (the source-of-truth symlink), these agents **do exist** (`amos-flow-canon-agent.json`, `amos-law-stack-enforcement-agent.json`, `amos-mdformat-obsidian-agent.json`, `obsidian-plugin-auto-tag-agent.json`). But in the vault's `06_AGENTS/` plane (what's git-tracked in the vault), they are **missing**.
+
+This reveals the real state: the vault's `06_AGENTS/` plane is **incomplete/out of sync** with the canonical `.devin/` agents. But `.devin/` is gitignored and symlinked to an external dir, so the vault loses these agents.
+
+Let me check whether the vault's `06_AGENTS/` is supposed to be the canonical git-tracked home, and examine the syncing relationship. Let me check what exists in `.devin/agents/` vs `06_AGENTS/` — the vault is missing agents that exist in `.devin/`.
+
+Let me look at the agent and workflow files that exist in `.devin/` for these, and check whether the vault has their content elsewhere (like in the `law-stack-gate-agent` or `law-stack-enforcement-pipeline`).
+
+This confirms the situation. The vault's `06_AGENTS/`, `07_SKILLS/`, `08_WORKFLOWS/` planes are the git-tracked canonical home, but they are **out of sync** with the `.devin/` project (which is gitignored + symlinked). Specifically:
+
+- `amos-mdformat-obsidian-agent.json` exists in `.devin/` but NOT in vault `06_AGENTS/`
+- `amos-flow-canon-agent.json`, `amos-law-stack-enforcement-agent.json`, `obsidian-plugin-auto-tag-agent.json` exist in `.devin/` but NOT in vault `06_AGENTS/`
+- Same for workflows
+
+This is the **core fix**: sync these missing agents+workflows from `.devin/` into the vault's git-tracked planes, and fix the empty `amos-mdformat-obsidian` skill.
+
+Let me look at the source files in `.devin/` to understand their format, and check the vault's expected format for agents and workflows.
+
+I now understand the repo structure. These agents exist in the `.devin/` symlinked external project but are missing from the vault's git-tracked `06_AGENTS/` plane.
+
+The task is substantial. Let me step back and think about what's really valuable here versus just performing mechanical syncs. 
+
+Key insight: The vault's `06_AGENTS/`, `07_SKILLS/`, `08_WORKFLOWS/` are the git-tracked canonical planes, and they're **missing agents and workflows** that exist in the external `.devin/`. The cleanest high-value fix is:
+
+1. **Fix the empty `amos-mdformat-obsidian` skill** (create SKILL.md, MANIFEST.yaml, MOC, references)
+2. **Sync missing agents** into `06_AGENTS/` (flow-canon, law-stack-enforcement, mdformat-obsidian, obsidian-plugin-auto-tag)
+3. **Sync missing workflows** into `08_WORKFLOWS/` (flow-canon, law-stack-enforcement, mdformat-obsidian, obsidian-plugin-auto-tag, 7-part-universe-canon)
+
+Let me check the existing vault conventions for agents and workflows to match format exactly. Let me look at an existing agent in the vault that IS present, and the workflow format used in vault.
+
+Let me check the vault's own convention for how a SKILL↔AGENT↔WORKFLOW trio is structured. Let me look at how a skill in 07_SKILLS links to its agent in 06_AGENTS.
+
+Interesting — in the vault `06_AGENTS/`, some agents are stored as **directories** containing an `agent.json` file, while `.devin/` stores them as flat `.json` files. Let me understand the vault's agent storage convention more precisely. Let me check how many are dirs vs flat files.
+
 
 [Timestamp: 2026/08/28 23:14:08]
