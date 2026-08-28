@@ -1,4 +1,3 @@
-````markdown
 ---
 title: L25 SHARD LOCAL
 type: note
@@ -78,7 +77,7 @@ SL-2 GLOBAL FACTS GLOBAL
 SL-3 BOUNDARY CONTRACTS
 
 SL-4 MERGE DISCIPLINE
-````
+```
 
 The central invariant is:
 

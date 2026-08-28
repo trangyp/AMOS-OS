@@ -72,7 +72,7 @@ execution
 
 observation
 → accountability / repair
-````
+```
 
 P5 answers:
 

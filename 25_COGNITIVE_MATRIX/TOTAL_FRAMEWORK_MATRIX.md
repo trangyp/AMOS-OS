@@ -1,24 +1,3 @@
-# Total Framework Cross-Plane Matrix — Full Canon Expansion
-
-The supplied artifact defines the **source-grounded master convergence matrix for nine named core AMOS frameworks** across the 26-plane architecture:
-
-$$
-\boxed{
-Framework
-\rightarrow
-Architecture
-\rightarrow
-Invariant
-\rightarrow
-TargetPlane
-\rightarrow
-FailClosedFallback
-}
-$$
-
-A central epistemic distinction must be retained: `validation_status: PASSED_CONSTITUTIONAL_TESTS`, `executable_binding: ESTABLISHED`, and `runtime_enforcement: FAIL_CLOSED_GATED` are explicit **source assertions**. The supplied artifact does not itself contain the implementation, runtime traces, or constitutional-test evidence needed for independent verification.
-
-````markdown
 ---
 title: "Total Framework Cross-Plane Matrix"
 type: cognitive_matrix
@@ -120,125 +99,27 @@ epistemic_boundary:
     NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 ---
 
-# Total Framework Cross-Plane Convergence Matrix (v2.0.0)
+# Total Framework Cross-Plane Matrix — Full Canon Expansion
 
-`TOTAL_FRAMEWORK_MATRIX.md` is the source-defined master convergence table formalizing the operational integration of the named core AMOS architectural frameworks across the 26-plane architecture.
+The supplied artifact defines the **source-grounded master convergence matrix for nine named core AMOS frameworks** across the 26-plane architecture:
 
-Origin architect / steward:
-
-**Trang Phan**
-
-The canonical matrix relation is:
-
-\[
-Framework_i
-\mapsto
-(
-Architecture_i,
-Invariant_i,
-Target_i,
-Fallback_i
-)
-\]
-
----
-
-# 0. Epistemic Boundary
-
-## Source-grounded
-
-The supplied artifact establishes source presence and structure for:
-
-1. `TOTAL_FRAMEWORK_MATRIX.md`;
-2. version `2.0.0`;
-3. Trang Phan as origin architect and steward;
-4. AMOS OS as system;
-5. placement in `25_COGNITIVE_MATRIX`;
-6. nine named framework rows;
-7. each supplied framework architecture;
-8. each supplied mathematical formulation;
-9. each supplied target plane/layer;
-10. each supplied fail-closed fallback;
-11. the four-tier convergence topology;
-12. its supplied inter-plane connections;
-13. `AMOS_MODEL` epistemic classification;
-14. `SOURCE_GROUNDED_CANON_CANDIDATE`;
-15. `PASSED_CONSTITUTIONAL_TESTS`;
-16. `ESTABLISHED` executable binding;
-17. `FAIL_CLOSED_GATED` runtime enforcement.
-
-## Source status ≠ independent verification
-
-The artifact states:
-
-validation_status:
-  PASSED_CONSTITUTIONAL_TESTS
-
-executable_binding:
-  ESTABLISHED
-
-runtime_enforcement:
-  FAIL_CLOSED_GATED
-
-These must be preserved exactly.
-
-However:
-
-\[
+$$
 \boxed{
-SourceStatus
-\neq
-IndependentRuntimeObservation
+Framework
+\rightarrow
+Architecture
+\rightarrow
+Invariant
+\rightarrow
+TargetPlane
+\rightarrow
+FailClosedFallback
 }
-\]
+$$
 
-and:
+A central epistemic distinction must be retained: `validation_status: PASSED_CONSTITUTIONAL_TESTS`, `executable_binding: ESTABLISHED`, and `runtime_enforcement: FAIL_CLOSED_GATED` are explicit **source assertions**. The supplied artifact does not itself contain the implementation, runtime traces, or constitutional-test evidence needed for independent verification.
 
-\[
-\boxed{
-SourceTestStatus
-\neq
-IndependentTestReproduction
-}
-\]
 
-The artifact itself does not contain the underlying executable artifacts, complete tests, or runtime traces.
-
----
-
-# 1. Total Framework Convergence Table
-
-| Framework | Core Architecture | Primary Invariant / Formulation | Target Plane / Layer | Fail-Closed Fallback |
-|---|---|---|---|---|
-| **Trang ∅ Framework** | Ground-state reset & recovery basins | \(\lim_{uncertainty\to\infty}\mathcal R(S_t)=S_0=\emptyset\) | `00_ROOT` / `02_KERNEL` | Immediate Clean State Reset |
-| **Trang Reality Architecture (TRA)** | Pre-symbolic ontological progression | \(\mathcal P\to\mathcal D\to\mathcal R\to\mathcal C\to\mathcal F\to\mathcal M\) | `01_CANON` / `02_KERNEL` | Pre-Symbolic Boundary Veto |
-| **Khung Trang Master Canon** | Multiscale 26-plane universe topology | \(S_{t+1}=\mathcal C(\mathcal F(S_t,U_t)),\ \Lambda=\frac{\langle M^2\rangle}{\langle M\rangle^2}\) | `01_CANON` / `25_COGNITIVE_MATRIX` | Texture Invariant Halt |
-| **Unified Biological Intelligence (UBI)** | 4-domain bio alignment & emergence | \(i=(NBI\cdot NEI\cdot SI\cdot BEI)^{1/4},\ e=i^2\) | `05_COGNITIVE_ORGANISM` | Distress Veto \((\tau_{bio}<0.20)\) |
-| **The Trang System (TSS)** | 7-cycle macro-dynamics & structural forces | \(P_{collapse}\sim\frac{\Omega FS}{H\cdot Reserves},\ C_1\dots C_7\) | `12_STATE` / `13_MODELS` | Modular Decoupling \((\Omega\ge0.70)\) |
-| **Trang Prediction Engine (TPE)** | 7-layer predictive multi-horizon forecasting | \(TPE(H_k)\to PredictiveCone\land RiskLattice\) | `13_MODELS` | Defensive Stance Adjustment |
-| **Heritage Decision Intelligence** | 32-layer ancestral decision governance | \(N\times Descendant\equiv1\times Root\land Debt=0\) | `03_CONTROL_PLANE` | Sybil Quarantine & Rollback |
-| **Governed Mutation (GMEF v4.8)** | Non-compensatory debt & proof continuity | \(\mu(S_t)\xrightarrow{\Pi_{proof}}S_{t+1}\lor S_0,\ Debt=0\) | `03_CONTROL_PLANE` / `04_RUNTIME` | Mutation Reject & Revert |
-| **Universal Logic Kernel (ULK)** | 6 ALUs mapping ontology to logic operations | \(\emptyset\to S_0,\Delta,\otimes,\Pi_{\mathcal C},\tau,\mathcal H\) | `02_KERNEL` | Type & Logic Closure Halt |
-
----
-
-# 2. Canonical Framework Registry
-
-The supplied matrix contains exactly nine routed framework entries:
-
-```yaml
-ROUTED_FRAMEWORKS:
-
-  - trang_zero
-  - trang_reality_architecture
-  - khung_trang
-  - ubi
-  - tss
-  - tpe
-  - heritage_governance
-  - gmef_v4_8
-  - ulk
-````
 
 Within this artifact:
 

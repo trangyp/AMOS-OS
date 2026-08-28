@@ -145,7 +145,7 @@ This file does **not** validate any Generator merely by existing.
 ```text
 VALIDATION_CONTRACT_EXISTS
 != GENERATOR_VALIDATED
-````
+```
 
 ---
 
@@ -3135,7 +3135,7 @@ NON_AUTHORITATIVE
 READ_ONLY_BY_DEFAULT
 ```
 
-````
+```
 
 The central relationship should remain:
 
@@ -3154,7 +3154,7 @@ CONTROL PLANE / AUTHORITY
 
 WORKER
           ↓ performs bounded mutation
-````
+```
 
 That gives `12_GENERATORS` its own validation surface without duplicating the general-purpose `11_VALIDATION` subsystem.
 

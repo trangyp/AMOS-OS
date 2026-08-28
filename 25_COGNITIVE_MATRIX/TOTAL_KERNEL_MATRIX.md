@@ -1,26 +1,3 @@
-# Total Kernel Cross-Plane Matrix — Full Canon Expansion
-
-The supplied artifact defines the **source-grounded master convergence matrix for ten named AMOS kernel subsystems**, spanning logic transformation, topology, concurrency, atomic state transition, multi-RSCF coordination, recovery, causal admissibility, and deterministic compilation.
-
-Its compact architectural form is:
-
-$$
-\boxed{
-KernelSubsystem
-\rightarrow
-Operators/Architecture
-\rightarrow
-Invariant
-\rightarrow
-RuntimePlane
-\rightarrow
-FailClosedFallback
-}
-$$
-
-The artifact explicitly declares `PASSED_CONSTITUTIONAL_TESTS`, `executable_binding: ESTABLISHED`, and `FAIL_CLOSED_GATED`. Those are preserved as **source-defined statuses**; this artifact alone does not provide the executable bindings, complete test evidence, or runtime traces required to independently reproduce those claims.
-
-````markdown
 ---
 title: "Total Kernel Cross-Plane Matrix"
 type: cognitive_matrix
@@ -120,127 +97,29 @@ epistemic_boundary:
     NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 ---
 
-# Total Kernel Cross-Plane Routing Matrix Table (v2.0.0)
+# Total Kernel Cross-Plane Matrix — Full Canon Expansion
 
-`TOTAL_KERNEL_MATRIX.md` is the source-defined master operational convergence matrix routing the named AMOS kernel subsystems across the AMOS OS plane architecture.
+The supplied artifact defines the **source-grounded master convergence matrix for ten named AMOS kernel subsystems**, spanning logic transformation, topology, concurrency, atomic state transition, multi-RSCF coordination, recovery, causal admissibility, and deterministic compilation.
 
-Origin architect / steward:
+Its compact architectural form is:
 
-**Trang Phan**
-
-Its canonical routing relation is:
-
-\[
-Kernel_i
-\mapsto
-(
-Architecture_i,
-Invariant_i,
-Plane_i,
-Fallback_i
-)
-\]
-
----
-
-# 0. Epistemic Boundary
-
-## Source-grounded
-
-The supplied artifact establishes source presence and structure for:
-
-1. `TOTAL_KERNEL_MATRIX.md`;
-2. version `2.0.0`;
-3. Trang Phan as origin architect and steward;
-4. AMOS OS as system;
-5. placement in `25_COGNITIVE_MATRIX`;
-6. ten named kernel-subsystem rows;
-7. their supplied architectures/operators;
-8. their supplied invariants;
-9. their supplied runtime-plane targets;
-10. their supplied fail-closed fallbacks;
-11. the supplied Kernel Execution & Verification Mesh;
-12. its supplied inter-plane links;
-13. `AMOS_MODEL` epistemic class;
-14. `SOURCE_GROUNDED_CANON_CANDIDATE`;
-15. `PASSED_CONSTITUTIONAL_TESTS`;
-16. `ESTABLISHED` executable binding;
-17. `FAIL_CLOSED_GATED`.
-
-## Source status ≠ independent verification
-
-The artifact states:
-
-validation_status:
-  PASSED_CONSTITUTIONAL_TESTS
-
-executable_binding:
-  ESTABLISHED
-
-runtime_enforcement:
-  FAIL_CLOSED_GATED
-
-These statements are part of the source and must not be silently downgraded.
-
-However:
-
-\[
+$$
 \boxed{
-SourceDeclaredStatus
-\neq
-IndependentRuntimeObservation
+KernelSubsystem
+\rightarrow
+Operators/Architecture
+\rightarrow
+Invariant
+\rightarrow
+RuntimePlane
+\rightarrow
+FailClosedFallback
 }
-\]
+$$
 
-and:
+The artifact explicitly declares `PASSED_CONSTITUTIONAL_TESTS`, `executable_binding: ESTABLISHED`, and `FAIL_CLOSED_GATED`. Those are preserved as **source-defined statuses**; this artifact alone does not provide the executable bindings, complete test evidence, or runtime traces required to independently reproduce those claims.
 
-\[
-\boxed{
-SourceTestStatus
-\neq
-IndependentTestReproduction
-}
-\]
 
-The artifact itself does not contain the complete executable implementation, constitutional-test suite, test outputs, or runtime traces.
-
----
-
-# 1. Total Kernel Operational Convergence Grid
-
-| Kernel Subsystem | Core Operators / Architecture | Mathematical & Logic Invariant | Target Runtime Plane | Fail-Closed Fallback |
-|---|---|---|---|---|
-| **[[ULK_LOGIC_KERNEL]] (ALU 0–5)** | Null Gen \((\emptyset\to S_0)\), \(\Delta,\otimes,\Pi_{\mathcal C},\tau,\mathcal H\) | \(S_{t+1}=\tau(\Pi_{\mathcal C}(S_t\otimes U_t))\) | `02_KERNEL` / `04_RUNTIME` | Revert to Ground State \((S_0)\) |
-| **MURK 19×19 Topology** | Discrete cellular state matrix (361 nodes) | \(\sum Liberties(G)>0\land TerritoryDominance\) | `02_KERNEL` / `13_MODELS` | Boundary Contraction |
-| **Go Board 19×19 Engine** | Non-local liberty lattice & multi-branch tree | \(\hat{\mathcal M}(\Psi)\to DeterministicState\) | `02_KERNEL` / `12_STATE` | Dominance Pruning |
-| **[[K_MVCC]]** | Snapshot isolation & monotonic epoch clocks | \(t_{commit}>t_{read}\land SnapshotIsolated\) | `04_RUNTIME` | Transaction Conflict Abort |
-| **[[K_CAS]]** | Atomic compare-and-swap state transition | \(CAS(S_t,S_{expected},S_{new})\) | `04_RUNTIME` / `12_STATE` | State Mismatch Rejection |
-| **[[K_ATOMIC_MULTI_RSCF]]** | Multi-capsule cross-plane commit coordinator | \(\forall i,\ Validate(R_i)=1\iff Commit\) | `03_CONTROL_PLANE` / `16_SCHEMAS` | Atomic Rollback All |
-| **[[K_FAILURE_RECOVERY]]** | Deterministic crash recovery & reset basins | \(Fault(x)\implies Rollback(S_t)\lor S_0\) | `04_RUNTIME` | Immediate Fail-Closed Halt |
-| **Meta-Logic Kernel (CORE-19)** | 5 Canonical Laws + 4 Constants + 84 Laws | Signal Fidelity & Structural Integrity | `01_CANON` / `02_KERNEL` | Law Violation Veto |
-| **QCLA Causal Kernel** | 5 Causal Claims (K1–K5) & Admissibility Trees | \(C_{causal}(A\to B)\iff TemporalOrder\land NoCircularity\) | `11_KNOWLEDGE` | Epistemic Invalidation |
-| **DCP Deterministic Compiler** | Proof-before-commit bytecode synthesis | \(Compile(P)\implies VerifyAST(P)\land ReceiptSigned\) | `04_RUNTIME` | Compilation Abort |
-
----
-
-# 2. Canonical Kernel Registry
-
-The supplied RSCF contract contains ten routed kernel identifiers:
-
-```yaml
-ROUTED_KERNELS:
-
-  - ulk_alu_0_5
-  - murk_19x19
-  - go_board_19x19
-  - k_mvcc
-  - k_cas
-  - k_atomic_multi_rscf
-  - k_failure_recovery
-  - meta_logic
-  - qcla
-  - dcp_compiler
-````
 
 Therefore, within this artifact:
 

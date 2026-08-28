@@ -38,7 +38,7 @@ tags: [note]
 
 ```text
 25_COGNITIVE_MATRIX/12_GENERATORS/
-````
+```
 
 Its primary responsibility is to make the generator artifact topology visible and navigable without collapsing the distinct responsibilities of contracts, registries, seeds, templates, admission, falsification, validation, promotion, supersession, versioning, provenance, integration, tests, benchmarks, history, roadmap, and generated output.
 

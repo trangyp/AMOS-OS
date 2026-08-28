@@ -70,7 +70,7 @@ Therefore:
 ROOT_AUTHORIZATION_SPEC
 !=
 ROOT_AUTHORITY_GRANT
-````
+```
 
 ---
 

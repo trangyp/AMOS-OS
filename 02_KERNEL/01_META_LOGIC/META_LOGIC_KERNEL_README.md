@@ -100,7 +100,7 @@ integrity:
 ```text
 02_KERNEL/
 └── 01_META_LOGIC/
-````
+```
 
 Its purpose is to identify the role, boundaries, sibling contracts, integration surfaces, validation expectations, and navigation topology of the AMOS Meta Logic Kernel segment.
 

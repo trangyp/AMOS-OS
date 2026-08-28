@@ -100,7 +100,7 @@ GENERATION SPEED    < VALIDITY
 GENERATOR AGREEMENT < PROVENANCE INDEPENDENCE
 OPTIMIZATION        < GOVERNANCE
 COMPLETENESS        < ANTI-FABRICATION
-````
+```
 
 No implementation optimization may weaken this ordering.
 

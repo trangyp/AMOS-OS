@@ -39,7 +39,7 @@ Specifically, it records execution of the reference validator:
 
 ```text
 routing_policy_validator.py
-````
+```
 
 against the constitutional routing-policy test surface declared in `ROUTING_POLICY.md` §99 and selected adversarial probes declared in §100.
 

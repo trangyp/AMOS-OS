@@ -1,22 +1,4 @@
 ---
-title: "AMOS × TSS"
-type: matrix
-source: 25_COGNITIVE_MATRIX
-tags: [amos_os, cognitive_matrix, canon/cognitive-matrix]
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
-# AMOS × TSS
-
-I found the native TSS/TPE source family in the connected Drive: a dedicated **TSS × TPE multidimensional strategic analysis** artifact, plus separate **TSS Official Manual** and **TPE Official Manual** sources.   
-
-That is enough to reject the current placeholder premise: `AMOS × TSS/TPE Matrix` has direct source ancestry. However, the available evidence does **not** yet justify treating every detailed TSS/TPE construct as verified canon without deeper source extraction. The correct promotion is therefore `SOURCE_GROUNDED_CANON_CANDIDATE`, not final `CANONICAL`.
-
-````markdown
----
 title: "AMOS × TSS/TPE Matrix"
 
 type: matrix
@@ -134,18 +116,24 @@ epistemic_boundary:
     NOT_ESTABLISHED
 ---
 
-# AMOS × TSS/TPE Matrix
+---
+title: "AMOS × TSS"
+type: matrix
+source: 25_COGNITIVE_MATRIX
+tags: [amos_os, cognitive_matrix, canon/cognitive-matrix]
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+# AMOS × TSS
 
-## 0. Status
+I found the native TSS/TPE source family in the connected Drive: a dedicated **TSS × TPE multidimensional strategic analysis** artifact, plus separate **TSS Official Manual** and **TPE Official Manual** sources.   
 
-`AMOS_X_TSS_TPE_MATRIX.md` is the Cognitive Matrix integration node
-for the source-grounded framework family:
+That is enough to reject the current placeholder premise: `AMOS × TSS/TPE Matrix` has direct source ancestry. However, the available evidence does **not** yet justify treating every detailed TSS/TPE construct as verified canon without deeper source extraction. The correct promotion is therefore `SOURCE_GROUNDED_CANON_CANDIDATE`, not final `CANONICAL`.
 
-```text
-TSS
-×
-TPE
-````
+
 
 where the native corpus presently establishes three relevant source
 objects:
@@ -3668,7 +3656,7 @@ RSCF-RELATIONS:
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-````
+```
 
 The decisive source-state change is therefore:
 
@@ -3686,6 +3674,6 @@ TSS source located
 TPE source located
 +
 direct TSS × TPE composite source located
-````
+```
 
 The Drive results also show duplicate/variant copies of at least the TPE and composite material, so **lineage reconciliation remains a real promotion gate rather than a cosmetic one**.

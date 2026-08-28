@@ -1,32 +1,3 @@
-# UBI × Emotion Cross-Plane Matrix Table — Full Canon Expansion
-
-The supplied artifact defines the **source-specified cross-plane matrix coupling affective/biological conditions to cognitive control actions and enforcement guards across AMOS OS**.
-
-Its strongest supported architectural relation is:
-
-$$
-\boxed{
-Affective/Biological\ State
-\rightarrow
-Trigger
-\rightarrow
-Cognitive\ Impact
-\rightarrow
-Enforcement\ Guard
-}
-$$
-
-Three operating conditions are explicitly present:
-
-$$
-\boxed{
-High\ Threat/Anxiety,\quad Fatigue/Apathy,\quad Optimal\ Flow
-}
-$$
-
-A source-integrity issue is material: several variables and every visible **Target Plane** value are absent or corrupted in the supplied text. Those fields cannot safely be reconstructed from neighboring AMOS terminology alone. They remain explicit `UNRESOLVED_SOURCE_SYMBOL` / `UNRESOLVED_SOURCE_FIELD` gaps below.
-
-````markdown
 ---
 title: "UBI x Emotion Cross-Plane Matrix Table"
 type: cognitive_matrix
@@ -148,79 +119,35 @@ source_integrity:
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 ---
 
-# UBI × Emotion Cross-Plane Matrix Table (v2.0.0)
+# UBI × Emotion Cross-Plane Matrix Table — Full Canon Expansion
 
-`UBI_X_EMOTION_MATRIX.md` specifies the source-defined matrix routing between affective/biological conditions and cognitive control behavior across AMOS OS.
+The supplied artifact defines the **source-specified cross-plane matrix coupling affective/biological conditions to cognitive control actions and enforcement guards across AMOS OS**.
 
-Origin architect / steward:
+Its strongest supported architectural relation is:
 
-**Trang Phan**
-
-System:
-
-**AMOS OS**
-
-The matrix's normalized architecture is:
-
-\[
+$$
 \boxed{
-State
+Affective/Biological\ State
 \rightarrow
-TriggerPredicate
+Trigger
 \rightarrow
-CognitiveImpact
+Cognitive\ Impact
 \rightarrow
-TargetPlane
-\rightarrow
-EnforcementGuard
+Enforcement\ Guard
 }
-\]
+$$
 
-This normalization is **DERIVED** from the supplied table columns.
+Three operating conditions are explicitly present:
 
----
+$$
+\boxed{
+High\ Threat/Anxiety,\quad Fatigue/Apathy,\quad Optimal\ Flow
+}
+$$
 
-# 0. Epistemic Boundary
+A source-integrity issue is material: several variables and every visible **Target Plane** value are absent or corrupted in the supplied text. Those fields cannot safely be reconstructed from neighboring AMOS terminology alone. They remain explicit `UNRESOLVED_SOURCE_SYMBOL` / `UNRESOLVED_SOURCE_FIELD` gaps below.
 
-## Source-grounded
 
-The supplied artifact directly establishes:
-
-1. `UBI_X_EMOTION_MATRIX.md`;
-2. version `2.0.0`;
-3. Trang Phan as origin architect;
-4. Trang Phan as steward;
-5. AMOS OS as system;
-6. `25_COGNITIVE_MATRIX` placement;
-7. `MATRIX_TABLE` artifact kind;
-8. `AMOS_MODEL` epistemic class;
-9. `SOURCE_GROUNDED_CANON_CANDIDATE`;
-10. `CONCEPTUAL_SOURCE_DEFINED`;
-11. `PASSED_CONSTITUTIONAL_TESTS`;
-12. `ESTABLISHED` executable binding;
-13. three affective operating states;
-14. threshold predicates for those states, although some variable names are corrupted;
-15. three cognitive impacts;
-16. three enforcement guards;
-17. `[[UBI_X_EMOTION]]` as matrix specification;
-18. `[[UBI_EMOTION_BINDING]]` as knowledge binding;
-19. `[[25_COGNITIVE_MATRIX_MOC]]` as plane connection.
-
-The supplied text does **not** independently establish empirical psychological, physiological, clinical, or runtime validity.
-
----
-
-# 1. Source-Corruption Firewall
-
-The visible rows contain predicates structurally equivalent to:
-
-```text
-> 0.8, v_t < -0.5
-
-< 0.2, tau_bio < 0.4
-
-> 0.4, a_t ∈ [0.4, 0.7]
-````
 
 The variables preceding:
 

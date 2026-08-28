@@ -59,7 +59,7 @@ AMOS OS
 └── 01_CANON
     └── 01_CORE_LAWS
         └── ABSOLUTE_INTEGRITY_CANON.md
-````
+```
 
 Origin architect and steward:
 

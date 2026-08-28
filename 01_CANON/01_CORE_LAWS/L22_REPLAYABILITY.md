@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L22_REPLAYABILITY — Deterministic Replayability Law"
 type: core_law
@@ -61,7 +60,7 @@ DETERMINISTIC REPLAY
         ▼
 BIT-FOR-BIT
 IDENTICAL RESULT
-````
+```
 
 This is stronger than merely requiring that a transition be:
 

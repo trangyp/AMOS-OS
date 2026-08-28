@@ -58,7 +58,7 @@ AMOS OS
 └── 01_CANON
     └── 03_COGNITION_CANON
         └── AMOS_SUPER_CONSCIOUSNESS_CANON.md
-````
+```
 
 Origin architect and steward:
 

@@ -83,7 +83,7 @@ OBSERVATION
 EMPIRICAL_CLAIM
 DECISION
 UNKNOWN/GAP
-````
+```
 
 No symbolic result may be automatically promoted into an empirical fact.
 

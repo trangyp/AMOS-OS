@@ -41,7 +41,7 @@ V-1 Additive-First
 V-2 Bounded Mutation
 V-3 Anti-Regression
 V-4 Repair Over Growth
-````
+```
 
 and the supplied enforcement references:
 

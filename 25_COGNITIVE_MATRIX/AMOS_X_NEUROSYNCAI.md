@@ -38,7 +38,7 @@ The functional architecture asks:
 
 ```text
 What does NeuroSyncAI do?
-````
+```
 
 The infrastructure architecture asks:
 

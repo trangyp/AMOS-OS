@@ -156,7 +156,7 @@ Which artifact superseded it?
 Which scope/regime/freshness envelope applies?
 
 Which changes invalidate it?
-````
+```
 
 The provenance layer must make these answers recoverable rather than inferred.
 
@@ -3408,7 +3408,7 @@ UNKNOWN/GAP
 NON_AUTHORITATIVE
 ```
 
-````
+```
 
 The intended separation across `12_GENERATORS` is now:
 
@@ -3436,7 +3436,7 @@ CONTROL PLANE / AUTHORITY
 
 WORKER
 → bounded durable execution
-````
+```
 
 That makes provenance a durable infrastructure dimension rather than a decorative metadata field, while keeping the critical AMOS boundary intact: **traceability can support trust, but it does not manufacture truth, independence, authority, or canon.**
 

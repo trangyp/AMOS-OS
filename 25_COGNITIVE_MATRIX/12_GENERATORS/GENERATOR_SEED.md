@@ -61,7 +61,7 @@ initial structural priors
 mode binding
 capability binding
 freshness boundary
-````
+```
 
 The governing law is:
 

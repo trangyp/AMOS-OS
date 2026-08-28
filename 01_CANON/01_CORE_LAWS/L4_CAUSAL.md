@@ -56,7 +56,7 @@ WHAT MAY EXPLAIN WHAT
 WHAT CAUSES WHAT
         ↓
 WHAT AN INTERVENTION MAY CHANGE
-````
+```
 
 Each transition requires additional evidence.
 

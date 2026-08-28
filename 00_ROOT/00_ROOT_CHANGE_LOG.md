@@ -62,7 +62,7 @@ CHANGE AUTHORIZED
 CHANGE COMMITTED
 !=
 CHANGE CANONICAL
-````
+```
 
 A change-log entry records state transition evidence.
 

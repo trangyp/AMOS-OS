@@ -151,7 +151,7 @@ Control Plane
 Authority
 Recovery
 Finality
-````
+```
 
 This artifact does **not** assert that these integrations currently exist.
 
@@ -3869,7 +3869,7 @@ NON_AUTHORITATIVE
 * State Store
 * Control Plane
 
-````
+```
 
 The key architectural distinction here is:
 
@@ -3900,7 +3900,7 @@ State / Provenance
 
 Promotion / Canon / Finality
 → govern lifecycle elevation
-````
+```
 
 That keeps the Generator subsystem integrated with AMOS infrastructure without turning it into an all-purpose framework, authority engine, or direct execution layer.
 

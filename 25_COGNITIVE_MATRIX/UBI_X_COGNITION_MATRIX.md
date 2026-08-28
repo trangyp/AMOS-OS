@@ -1,24 +1,3 @@
-# UBI × Cognition Cross-Plane Matrix — Full Canon Expansion
-
-The supplied artifact defines a **source-grounded AMOS model for routing four biological-signal classes into cognitive control targets through threshold-triggered enforcement actions**.
-
-Its compact architecture is:
-
-$$
-\boxed{
-BiologicalSignal
-\rightarrow
-CognitiveTarget
-\rightarrow
-ThresholdPredicate
-\rightarrow
-EnforcementAction
-}
-$$
-
-The source explicitly declares `PASSED_CONSTITUTIONAL_TESTS` and `executable_binding: ESTABLISHED`. Those declarations should be preserved as source-defined statuses. The artifact itself, however, does not contain the underlying executable binding, validation suite, biological measurements, calibration evidence, or runtime traces needed to independently establish those claims.
-
-````markdown
 ---
 title: "UBI x Cognition Cross-Plane Matrix Table"
 type: cognitive_matrix
@@ -109,72 +88,27 @@ epistemic_boundary:
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 ---
 
-# UBI × Cognition Cross-Plane Matrix Table (v2.0.0)
+# UBI × Cognition Cross-Plane Matrix — Full Canon Expansion
 
-`UBI_X_COGNITION_MATRIX.md` defines the source-specified mapping from four UBI biological-signal classes into cognitive target engines and threshold-triggered enforcement actions.
+The supplied artifact defines a **source-grounded AMOS model for routing four biological-signal classes into cognitive control targets through threshold-triggered enforcement actions**.
 
-Origin architect / steward:
+Its compact architecture is:
 
-**Trang Phan**
-
-System:
-
-**AMOS OS**
-
-Its canonical matrix relation is:
-
-\[
+$$
 \boxed{
-B_i
-\mapsto
-(C_i,T_i,A_i)
+BiologicalSignal
+\rightarrow
+CognitiveTarget
+\rightarrow
+ThresholdPredicate
+\rightarrow
+EnforcementAction
 }
-\]
+$$
 
-where:
+The source explicitly declares `PASSED_CONSTITUTIONAL_TESTS` and `executable_binding: ESTABLISHED`. Those declarations should be preserved as source-defined statuses. The artifact itself, however, does not contain the underlying executable binding, validation suite, biological measurements, calibration evidence, or runtime traces needed to independently establish those claims.
 
-- \(B_i\) = biological signal class;
-- \(C_i\) = cognitive target engine;
-- \(T_i\) = operational threshold predicate;
-- \(A_i\) = enforcement action.
 
----
-
-# 0. Epistemic Boundary
-
-## Source-grounded
-
-The supplied artifact directly establishes source presence and structure for:
-
-1. `UBI_X_COGNITION_MATRIX.md`;
-2. version `2.0.0`;
-3. Trang Phan as origin architect;
-4. Trang Phan as steward;
-5. AMOS OS as system;
-6. placement in `25_COGNITIVE_MATRIX`;
-7. four biological-signal rows;
-8. four cognitive target engines;
-9. four operational threshold expressions;
-10. four corresponding enforcement actions;
-11. `[[UBI_X_COGNITION]]` as specification;
-12. `[[UBI_COGNITION_BINDING]]` as framework/knowledge binding;
-13. `SOURCE_GROUNDED_CANON_CANDIDATE`;
-14. `AMOS_MODEL`;
-15. `CONCEPTUAL_SOURCE_DEFINED`;
-16. `PASSED_CONSTITUTIONAL_TESTS`;
-17. `ESTABLISHED` executable binding.
-
-## Source declaration ≠ independent validation
-
-The artifact states:
-
-```yaml
-validation_status:
-  PASSED_CONSTITUTIONAL_TESTS
-
-executable_binding:
-  ESTABLISHED
-````
 
 These declarations are part of the source and should be preserved.
 

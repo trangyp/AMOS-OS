@@ -1,22 +1,4 @@
 ---
-title: "AMOS X UBI MATRIX"
-type: document
-source: 25_COGNITIVE_MATRIX
-tags: [amos_os, 25_COGNITIVE_MATRIX, canon/cognitive-matrix]
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
-# AMOS X UBI MATRIX
-
-The native UBI manual confirms the four-domain architecture—NBI, NEI, SI, and BEI—and explicitly describes them as interdependent biological systems with distinct functions and biological bases. It also directly binds UBI to `e = i²`, TSS, and TPE. 
-
-One correction is load-bearing: the native manual states **`i = f(NBI, NEI, SI, BEI)`**, not `i = (NBI * NEI * SI * BEI)^(1/4)`. The geometric-mean equation in the submitted matrix therefore cannot presently be labeled native UBI canon. It should remain `AMOS_DERIVED` unless another native source establishes it. 
-
-````markdown
----
 title: "AMOS × UBI Matrix"
 
 type: matrix
@@ -126,16 +108,24 @@ epistemic_boundary:
     NOT_ESTABLISHED
 ---
 
-# AMOS × UBI Matrix
+---
+title: "AMOS X UBI MATRIX"
+type: document
+source: 25_COGNITIVE_MATRIX
+tags: [amos_os, 25_COGNITIVE_MATRIX, canon/cognitive-matrix]
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+---
+# AMOS X UBI MATRIX
 
-## 0. Status
+The native UBI manual confirms the four-domain architecture—NBI, NEI, SI, and BEI—and explicitly describes them as interdependent biological systems with distinct functions and biological bases. It also directly binds UBI to `e = i²`, TSS, and TPE. 
 
-`AMOS_X_UBI_MATRIX.md` is the AMOS Cognitive Matrix normalization of:
+One correction is load-bearing: the native manual states **`i = f(NBI, NEI, SI, BEI)`**, not `i = (NBI * NEI * SI * BEI)^(1/4)`. The geometric-mean equation in the submitted matrix therefore cannot presently be labeled native UBI canon. It should remain `AMOS_DERIVED` unless another native source establishes it. 
 
-```text
-Unified Biological Intelligence™
-UBI
-````
+
 
 The native UBI source establishes a four-domain architecture:
 
@@ -3447,7 +3437,7 @@ RSCF-RELATIONS:
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-````
+```
 
 The strongest source-grounded change from your submitted version is therefore:
 
@@ -3457,7 +3447,7 @@ i = (NBI × NEI × SI × BEI)^(1/4)
 
 SOURCE-RECONCILED
 i = f(NBI, NEI, SI, BEI)
-````
+```
 
 while `e = i²` **is present in the native UBI manual as a framework relationship**. The same source also explicitly connects UBI to TSS and TPE. 
 

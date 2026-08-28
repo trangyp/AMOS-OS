@@ -361,6 +361,7 @@ rscf:
 - [[mckinsey-transformation-org-structure-rscf_MOC]] — mckinsey-transformation-org-structure-rscf
 - [[mckinsey-value-delivery-rscf_MOC]] — mckinsey-value-delivery-rscf
 - [[mckinsey-wealth-management-rscf_MOC]] — mckinsey-wealth-management-rscf
+- [[obsidian-plugin-auto-tag_MOC]] — obsidian-plugin-auto-tag
 - [[pdfs_MOC]] — pdfs
 - [[rscf-modeler_MOC]] — rscf-modeler
 - [[skill-creator_MOC]] — skill-creator

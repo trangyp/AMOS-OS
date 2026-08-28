@@ -88,7 +88,7 @@ WHAT OUTPUTS REQUIRE REVALIDATION?
 CAN THE TRANSITION BE REVERSED?
 
 WHAT WOULD FALSIFY THE SUPERSESSION DECISION?
-````
+```
 
 The artifact prevents generator evolution from becoming an untraceable sequence of replacements.
 

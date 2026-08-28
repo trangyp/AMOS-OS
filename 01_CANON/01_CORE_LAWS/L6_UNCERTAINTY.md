@@ -43,7 +43,7 @@ U-1 Typed Uncertainty
 U-2 Confidence Ceiling
 U-3 Ambiguity Preservation
 U-4 Unknown Propagation
-````
+```
 
 without claiming that every supporting operator, schema, threshold, validator, or runtime mechanism below is already final canon or fully implemented.
 

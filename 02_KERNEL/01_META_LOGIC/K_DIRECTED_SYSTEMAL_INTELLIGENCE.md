@@ -100,7 +100,7 @@ AMOS-model expansion of the canonical slot named:
 
 ```text
 Kernel · Directed Systemal Intelligence
-````
+```
 
 The supplied artifact establishes:
 

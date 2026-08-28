@@ -65,7 +65,7 @@ VERIFIED CLAIM
 CANON
 !=
 EMPIRICAL TRUTH
-````
+```
 
 ---
 

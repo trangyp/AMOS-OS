@@ -76,7 +76,7 @@ RESOLUTION
         │
         ▼
 GENERATION
-````
+```
 
 The governing distinction is:
 

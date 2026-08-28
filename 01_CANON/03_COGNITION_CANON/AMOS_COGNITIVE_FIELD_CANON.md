@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "AMOS Cognitive Field Canon"
 type: canon
@@ -89,7 +88,7 @@ rscf:
 
 ```text
 01_CANON/03_COGNITION_CANON
-````
+```
 
 for the framework family:
 

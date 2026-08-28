@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L23 — Multi-Version Concurrency Control & CAS Law"
 type: core_law
@@ -88,7 +87,7 @@ ENFORCEMENT-2
 ZERO DIRTY READS
 ZERO PHANTOM STATE
 MUTATIONS
-````
+```
 
 This v2.0.0 canon supersedes the earlier proposed L23 analogy-boundary specification wherever the two conflict.
 

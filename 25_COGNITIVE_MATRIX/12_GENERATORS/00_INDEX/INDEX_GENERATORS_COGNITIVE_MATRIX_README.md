@@ -83,7 +83,7 @@ This README is the canonical navigation and architectural entry point for:
 
 ```text
 25_COGNITIVE_MATRIX/10_ROUTING/
-````
+```
 
 Its purpose is to explain:
 

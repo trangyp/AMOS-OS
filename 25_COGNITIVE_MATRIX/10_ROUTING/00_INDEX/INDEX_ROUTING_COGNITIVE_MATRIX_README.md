@@ -43,7 +43,7 @@ It defines how a reader, resolver, validator, or governed mutation process shoul
 
 ```text
 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/
-````
+```
 
 This file provides:
 

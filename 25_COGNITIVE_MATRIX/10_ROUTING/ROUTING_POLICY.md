@@ -108,7 +108,7 @@ System: **AMOS OS**
 
 ---
 
-````md
+```md
 ---
 artifact_id: AMOS-CM-10-ROUTING-ROUTING-POLICY
 title: "10_ROUTING — Routing Policy"
@@ -339,7 +339,7 @@ BINDING
 VALIDATION
     ↓
 AUTHORITY / CONTROL PLANE
-````
+```
 
 Therefore:
 

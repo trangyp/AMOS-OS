@@ -128,7 +128,7 @@ for the source-grounded framework family:
 TSS
 ×
 TPE
-````
+```
 
 where the native corpus presently establishes three relevant source
 objects:
@@ -3651,7 +3651,7 @@ RSCF-RELATIONS:
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-````
+```
 
 The decisive source-state change is therefore:
 

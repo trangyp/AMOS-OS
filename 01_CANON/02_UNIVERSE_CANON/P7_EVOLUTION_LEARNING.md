@@ -41,7 +41,7 @@ without allowing the mechanism of change
 to corrupt the rules
 that distinguish improvement
 from regression?
-````
+```
 
 P7 therefore governs:
 

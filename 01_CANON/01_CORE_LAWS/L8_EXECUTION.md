@@ -41,7 +41,7 @@ E-1 Worker-Only Effects
 E-2 Commit-Time Revalidation
 E-3 Idempotency
 E-4 Effect Digests
-````
+```
 
 and the supplied enforcement references:
 

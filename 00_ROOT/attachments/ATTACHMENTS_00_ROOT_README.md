@@ -39,7 +39,7 @@ tags: [note]
 
 ```text
 01_CANON/
-````
+```
 
 The Canon plane governs the structures through which AMOS represents, distinguishes, validates, versions, relates, promotes, supersedes, and invalidates canonical system knowledge.
 

@@ -1,4 +1,3 @@
-````markdown id="fail-closed-governance-law"
 ---
 title: "FAIL_CLOSED_GOVERNANCE Law"
 type: core_law
@@ -86,7 +85,7 @@ The final empty parentheses in the supplied text:
 
 ```text
 ()
-````
+```
 
 do not define an executable symbol, function, exception, or state name.
 

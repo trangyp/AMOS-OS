@@ -64,7 +64,7 @@ the knowledge object
 
 I would strengthen the artifact with the following core contract:
 
-````markdown
+```markdown
 # 4. Canon × Knowledge Governing Law
 
 The Canon × Knowledge matrix binds applicable canonical constraints
@@ -106,7 +106,7 @@ VERIFIED
 CANONICAL
 !=
 EMPIRICAL_TRUTH
-````
+```
 
 The governing relationship is:
 

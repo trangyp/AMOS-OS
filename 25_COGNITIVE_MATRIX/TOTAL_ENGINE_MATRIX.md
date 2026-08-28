@@ -1,26 +1,3 @@
-# Total Engine Cross-Plane Matrix — Full Canon Expansion
-
-The supplied artifact defines the **source-grounded operational convergence matrix** for the 12 Canonical Domain Engines (`C01–C12`) plus four specialized super-engines (`LDAI`, `FRAI`, `ASEA`, `DCP`).
-
-The strongest warranted architectural compression is:
-
-$$
-\boxed{
-Domain
-\rightarrow
-Engine
-\rightarrow
-Invariant
-\rightarrow
-TargetPlane
-\rightarrow
-FailClosedFallback
-}
-$$
-
-A critical distinction in v2.0.0 is that the artifact now asserts both **`executable_binding: ESTABLISHED`** and **`runtime_enforcement: FAIL_CLOSED_GATED`**, while its top-level RSCF state remains `SOURCE_CLAIM`/`AMOS_MODEL`. Therefore those runtime properties are established **within the supplied AMOS source specification**, but the artifact alone does not independently demonstrate the underlying implementation or test execution.
-
-````markdown
 ---
 title: "Total Engine Cross-Plane Matrix"
 type: cognitive_matrix
@@ -121,80 +98,29 @@ epistemic_boundary:
     NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 ---
 
-# Total Engine Cross-Plane Routing Matrix Table (v2.0.0)
+# Total Engine Cross-Plane Matrix — Full Canon Expansion
 
-`TOTAL_ENGINE_MATRIX.md` formalizes the source-defined master operational convergence architecture for all **12 Canonical Domain Engines (C01–C12)** and four specialized computational super-engines across AMOS OS.
+The supplied artifact defines the **source-grounded operational convergence matrix** for the 12 Canonical Domain Engines (`C01–C12`) plus four specialized super-engines (`LDAI`, `FRAI`, `ASEA`, `DCP`).
 
-Origin architect / steward:
+The strongest warranted architectural compression is:
 
-**Trang Phan**
-
-The matrix establishes the source-defined routing form:
-
-\[
-Engine
+$$
+\boxed{
+Domain
 \rightarrow
-Function
+Engine
 \rightarrow
 Invariant
 \rightarrow
 TargetPlane
 \rightarrow
 FailClosedFallback
-\]
+}
+$$
 
-for C01–C12.
+A critical distinction in v2.0.0 is that the artifact now asserts both **`executable_binding: ESTABLISHED`** and **`runtime_enforcement: FAIL_CLOSED_GATED`**, while its top-level RSCF state remains `SOURCE_CLAIM`/`AMOS_MODEL`. Therefore those runtime properties are established **within the supplied AMOS source specification**, but the artifact alone does not independently demonstrate the underlying implementation or test execution.
 
-For specialized super-engines it establishes:
 
-\[
-SuperEngine
-\rightarrow
-ArchitecturalRole
-\rightarrow
-MathematicalFormulation
-\rightarrow
-EnforcementGate
-\]
-
----
-
-# 0. Epistemic Boundary
-
-## Source-grounded
-
-The supplied artifact establishes source presence and structure for:
-
-1. `TOTAL_ENGINE_MATRIX.md`;
-2. version `2.0.0`;
-3. Trang Phan as origin architect and steward;
-4. AMOS OS as system;
-5. placement in `25_COGNITIVE_MATRIX`;
-6. twelve named canonical domain-engine rows, C01–C12;
-7. four named specialized super-engine rows;
-8. each supplied core function and scope;
-9. each supplied invariant/formula;
-10. each supplied target plane;
-11. each supplied fail-closed fallback;
-12. each supplied super-engine role;
-13. each supplied super-engine enforcement gate;
-14. Control Plane binding;
-15. Domains MOC binding;
-16. Cognitive Matrix binding;
-17. the supplied `PASSED_CONSTITUTIONAL_TESTS` validation status;
-18. the supplied `ESTABLISHED` executable-binding status;
-19. the supplied `FAIL_CLOSED_GATED` runtime-enforcement status;
-20. `AMOS_MODEL` as epistemic class.
-
-## Critical status distinction
-
-The artifact simultaneously contains:
-
-```yaml
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: AMOS_MODEL
-````
 
 and:
 

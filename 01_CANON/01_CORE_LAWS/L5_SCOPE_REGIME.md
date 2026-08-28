@@ -53,7 +53,7 @@ L5 exists to prevent AMOS from silently transforming:
 
 ```text
 VALID HERE
-````
+```
 
 into:
 

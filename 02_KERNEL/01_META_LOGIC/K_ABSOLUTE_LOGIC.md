@@ -157,7 +157,7 @@ AMOS OS
 └── 02_KERNEL
     └── 01_META_LOGIC
         └── K_ABSOLUTE_LOGIC.md
-````
+```
 
 This file is deliberately **ADD-ONLY**.
 

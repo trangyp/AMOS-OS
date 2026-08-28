@@ -1,4 +1,3 @@
-````markdown id="amos-core-all-versions-fractal-knowledge-network"
 ---
 title: "AMOS Core All Versions Fractal Knowledge Network"
 type: core_law
@@ -109,7 +108,7 @@ v3.0
 → v4.2
 → v4.3
 → v4.4
-````
+```
 
 This yields **16 indexed runtime versions**.
 

@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "ATOMIC_MULTI_RSCF_REASONING Specification"
 type: core_law
@@ -67,7 +66,7 @@ The supplied source establishes the canonical kernel reference:
 See canonical kernel:
 
 [[K_ATOMIC_MULTI_RSCF]]
-````
+```
 
 Accordingly, this artifact defines the governing contract and delegates kernel-level semantics to `[[K_ATOMIC_MULTI_RSCF]]`.
 

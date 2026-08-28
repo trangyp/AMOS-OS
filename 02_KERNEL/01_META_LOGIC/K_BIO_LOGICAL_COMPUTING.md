@@ -153,7 +153,7 @@ AMOS OS
 └── 02_KERNEL
     └── 01_META_LOGIC
         └── K_BIO_LOGICAL_COMPUTING.md
-````
+```
 
 The artifact is deliberately **ADD-ONLY**.
 

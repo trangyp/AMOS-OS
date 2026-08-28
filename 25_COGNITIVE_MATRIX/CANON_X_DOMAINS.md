@@ -3805,7 +3805,7 @@ RSCF-RELATIONS:
 
 **MOC:** [[01_CORE_LAWS_MOC]]
 
-````
+```
 
 The key canon boundary is:
 
@@ -3823,6 +3823,6 @@ NOT YET ESTABLISHED
 E = I² as a universal empirical law
 or identical integrity mechanics across physics,
 biology, cognition, and civilization
-````
+```
 
 That separation is necessary because the native integrity document itself explicitly presents `E = I²` as measurable and universal and makes cross-scale claims from atoms through civilization, while those statements remain claims of that source rather than independent empirical verification.  The AMOS OS source gives a much firmer operational anchor for the actual core-law layer: internal consistency, explicit reasoning, traceability, governance hierarchy, and explicit uncertainty rather than fabricated confidence. 

@@ -186,7 +186,7 @@ ROADMAP_MILESTONE
 
 CURRENT_STATE
 != COMPLETE_HISTORY
-````
+```
 
 ---
 
@@ -3026,7 +3026,7 @@ NON_AUTHORITATIVE
 * Authoritative State
 * Provenance Manifest
 
-````
+```
 
 The important structural distinction is now:
 
@@ -3051,7 +3051,7 @@ TESTS.md
 
 GENERATOR_CONTRACT.md
 → Generator semantics
-````
+```
 
 That prevents `HISTORY.md` from becoming a retrospective roadmap or a fabricated chronology. Its strongest AMOS property is that **missing history stays missing until provenance-bearing evidence closes the gap**.
 

@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "AMOS Attention Canon"
 type: canon
@@ -97,7 +96,7 @@ rscf:
 
 ```text
 01_CANON/03_COGNITION_CANON
-````
+```
 
 It reserves the canonical slot for the framework family:
 

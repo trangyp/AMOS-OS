@@ -38,7 +38,7 @@ tags: [note]
 
 ```text
 01_CANON/04_INFRASTRUCTURE_CANON/CAS_CANON.md
-````
+```
 
 It reserves an infrastructure-canon slot named:
 

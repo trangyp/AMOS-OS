@@ -88,7 +88,7 @@ NEUROSYNCAI
     ├── causal epoch
     ├── commit
     └── rollback
-````
+```
 
 The matrix is therefore not merely a list of NeuroSyncAI concepts.
 

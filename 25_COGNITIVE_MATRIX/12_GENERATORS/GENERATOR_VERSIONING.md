@@ -156,7 +156,7 @@ Can prior evidence safely be reused?
 Can this version be rolled back?
 
 Has implementation drift occurred under an unchanged version?
-````
+```
 
 ---
 
@@ -3916,7 +3916,7 @@ NON_AUTHORITATIVE
 * Authoritative State
 * Provenance Manifest
 
-````
+```
 
 The clean ownership distinction is now:
 
@@ -3955,7 +3955,7 @@ HISTORY.md
 
 GENERATORS_CHANGE_LOG.md
 → individual recorded transitions
-````
+```
 
 The load-bearing AMOS rule for this artifact is:
 

@@ -1,28 +1,3 @@
-# UBI × Cognition Cognitive Matrix Specification — Full Canon Expansion
-
-The supplied artifact defines the **source-specified control contract coupling Unified Biological Intelligence (UBI) state to AMOS cognitive pacing, reasoning depth, verification stance, distress handling, and emergency behavior**.
-
-Its compact architectural relation is:
-
-$$
-\boxed{
-UBI\ Telemetry
-\rightarrow
-Biological\ State
-\rightarrow
-Cognitive\ Tier
-\rightarrow
-Reasoning\ Budget
-\rightarrow
-Verification/Recovery\ Policy
-}
-$$
-
-The artifact also introduces a scalar four-domain biological index, a quadratic emergence transform, a substrate-distress veto, and a source-defined 40 Hz multi-agent pacing mechanism.
-
-A critical source-integrity issue is visible in the supplied text: several mathematical symbols were lost or corrupted during rendering. Strings such as `48307`, bare `i`, `e`, missing variables before `\ge`, and the missing emergency-state symbol cannot safely be reconstructed from fluency alone. They are therefore preserved below as **SOURCE_CORRUPTED / UNRESOLVED_SYMBOL** rather than silently invented.
-
-````markdown
 ---
 title: "UBI x Cognition Cognitive Matrix Specification"
 type: cognitive_matrix
@@ -145,99 +120,31 @@ source_integrity:
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 ---
 
-# UBI × Cognition Cognitive Matrix Specification (v2.0.0)
+# UBI × Cognition Cognitive Matrix Specification — Full Canon Expansion
 
-`UBI_X_COGNITION.md` specifies the source-defined bi-directional coupling between Unified Biological Intelligence (UBI) telemetry and high-order cognitive reasoning loops across AMOS OS.
+The supplied artifact defines the **source-specified control contract coupling Unified Biological Intelligence (UBI) state to AMOS cognitive pacing, reasoning depth, verification stance, distress handling, and emergency behavior**.
 
-Origin architect / steward:
+Its compact architectural relation is:
 
-**Trang Phan**
-
-System:
-
-**AMOS OS**
-
-The specification governs the relationship:
-
-\[
+$$
 \boxed{
+UBI\ Telemetry
+\rightarrow
 Biological\ State
-\leftrightarrow
-Cognitive\ Control
+\rightarrow
+Cognitive\ Tier
+\rightarrow
+Reasoning\ Budget
+\rightarrow
+Verification/Recovery\ Policy
 }
-\]
+$$
 
-at the source-model level.
+The artifact also introduces a scalar four-domain biological index, a quadratic emergence transform, a substrate-distress veto, and a source-defined 40 Hz multi-agent pacing mechanism.
 
-The artifact's principal control path can be normalized as:
+A critical source-integrity issue is visible in the supplied text: several mathematical symbols were lost or corrupted during rendering. Strings such as `48307`, bare `i`, `e`, missing variables before `\ge`, and the missing emergency-state symbol cannot safely be reconstructed from fluency alone. They are therefore preserved below as **SOURCE_CORRUPTED / UNRESOLVED_SYMBOL** rather than silently invented.
 
-\[
-\boxed{
-UBI
-\rightarrow
-StateAssessment
-\rightarrow
-CognitiveTier
-\rightarrow
-DepthLimit
-\rightarrow
-VerificationStance
-\rightarrow
-DistressAction
-}
-\]
 
-This normalization is **DERIVED** from the supplied specification.
-
----
-
-# 0. Epistemic Boundary
-
-## Source-grounded
-
-The supplied artifact directly establishes source presence and structure for:
-
-1. `UBI_X_COGNITION.md`;
-2. version `2.0.0`;
-3. Trang Phan as origin architect;
-4. Trang Phan as steward;
-5. AMOS OS as system;
-6. `25_COGNITIVE_MATRIX` placement;
-7. `AMOS_MODEL` epistemic class;
-8. `SOURCE_GROUNDED_CANON_CANDIDATE`;
-9. `CONCEPTUAL_SOURCE_DEFINED`;
-10. `PASSED_CONSTITUTIONAL_TESTS`;
-11. `ESTABLISHED` executable binding;
-12. `CANON_SPEC` RSCF state;
-13. UBI cognition coupling;
-14. a four-domain metabolic/biological index;
-15. a quadratic emergence law;
-16. substrate-distress veto;
-17. 40 Hz multi-agent clock pacing;
-18. System 1 cognitive tier;
-19. System 2 cognitive tier;
-20. Emergency cognitive tier;
-21. biological preconditions;
-22. maximum reasoning-depth limits;
-23. verification stances;
-24. distress actions;
-25. `[[UBI_X_COGNITION_MATRIX]]`;
-26. `[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]`;
-27. `[[UBI_COGNITION_BINDING]]`;
-28. `[[AMOS_MIND_OS_FRAMEWORK]]`;
-29. `[[25_COGNITIVE_MATRIX_MOC]]`.
-
----
-
-# 1. Source-Corruption Firewall
-
-The supplied mathematical text contains malformed fragments such as:
-
-```text
-48307i = (...)^{1/4}48307
-48307e = i^248307
-48307 au_bio < 0.20 ... 48307
-````
 
 and the state-machine table contains missing variables before several inequalities.
 

@@ -1,22 +1,3 @@
-# Total Canon Cross-Plane Matrix — Full Canon Expansion
-
-The supplied artifact defines the **master source-level convergence matrix** connecting selected `01_CANON` laws and strata to named epistemic invariants and source-defined runtime enforcement gates across AMOS OS.
-
-Its strongest warranted architectural compression is:
-
-$$
-\boxed{
-Canon\ Law
-\rightarrow
-Epistemic\ Invariant
-\rightarrow
-Enforcement\ Gate
-}
-$$
-
-The decisive epistemic boundary must remain intact: the matrix verifies the **presence and structure of the source-defined routing model**, not the existence or successful runtime operation of the named hardware, cryptographic, recovery, or cosmological enforcement mechanisms.
-
-````markdown
 ---
 title: "Total Canon Cross-Plane Matrix"
 type: cognitive_matrix
@@ -120,161 +101,25 @@ epistemic_boundary:
   empirical_validation: NOT_ESTABLISHED
 ---
 
-# Total Canon Cross-Plane Matrix
+# Total Canon Cross-Plane Matrix — Full Canon Expansion
 
-`TOTAL_CANON_MATRIX.md` defines the source-grounded AMOS Cognitive Matrix specification for routing selected `01_CANON` laws, systems, and universal strata across named epistemic invariants and enforcement gates.
+The supplied artifact defines the **master source-level convergence matrix** connecting selected `01_CANON` laws and strata to named epistemic invariants and source-defined runtime enforcement gates across AMOS OS.
 
-Origin architect / steward:
+Its strongest warranted architectural compression is:
 
-**Trang Phan**
-
-The matrix establishes the source-defined relation:
-
-\[
-Canon
+$$
+\boxed{
+Canon\ Law
 \rightarrow
-Invariant
+Epistemic\ Invariant
 \rightarrow
-Gate
-\]
+Enforcement\ Gate
+}
+$$
 
-across five supplied canonical rows:
+The decisive epistemic boundary must remain intact: the matrix verifies the **presence and structure of the source-defined routing model**, not the existence or successful runtime operation of the named hardware, cryptographic, recovery, or cosmological enforcement mechanisms.
 
-1. L0 Integrity
-2. L1 Reality
-3. L2 Cognition
-4. L3 Governance
-5. 7-Part Universe
 
-The matrix is a **cross-plane convergence specification**.
-
-It is not, by itself, evidence that the named gates exist as executable runtime mechanisms.
-
----
-
-# 0. Epistemic Boundary
-
-## Source-grounded
-
-The supplied artifact establishes the source presence and structure of:
-
-1. `TOTAL_CANON_MATRIX.md`;
-2. the `Total Canon Cross-Plane Matrix` identity;
-3. Trang Phan as origin architect and steward;
-4. its placement in `25_COGNITIVE_MATRIX`;
-5. its role as a master convergence grid;
-6. the `L0 Integrity` row;
-7. the `L1 Reality` row;
-8. the `L2 Cognition` row;
-9. the `L3 Governance` row;
-10. the `7-Part Universe` row;
-11. each row's supplied primary statement;
-12. each row's supplied epistemic invariant;
-13. each row's supplied enforcement-gate label;
-14. the Canon Plane connection;
-15. the Core Laws connection;
-16. the Claims Registry connection;
-17. `AMOS_MODEL` as claim class;
-18. `SOURCE_CLAIM` as RSCF state;
-19. source-bound confidence;
-20. runtime enforcement as unknown/not established.
-
-## Not independently established
-
-The artifact does not independently establish:
-
-THAT EVERY 01_CANON LAW
-IS REPRESENTED BY THESE FIVE ROWS
-
-THAT EVERY AMOS PLANE
-IS EXECUTABLY ROUTED THROUGH THIS MATRIX
-
-THAT THE MATRIX ITSELF
-IS AN EXECUTABLE DISPATCHER
-
-THAT L0 STABILITY
-HAS BEEN EMPIRICALLY PROVEN
-
-THAT \(\mathcal C,\mathcal E,\mathcal F\)
-ARE FULLY DEFINED BY THIS ARTIFACT
-
-THAT THE L0 BICONDITIONAL
-HAS BEEN FORMALLY PROVEN
-
-THAT AN INVARIANT ASSERTION GATE
-IS IMPLEMENTED
-
-THAT A HARDWARE / ENERGY FIREWALL
-IS IMPLEMENTED
-
-THAT A NULL-STATE RECOVERY BASIN
-IS IMPLEMENTED
-
-THAT A CRYPTOGRAPHIC AUTHORITY GATE
-IS IMPLEMENTED
-
-THAT CRYPTOGRAPHIC KEYS,
-SIGNATURES,
-OR AUTHORIZATION PROTOCOLS
-EXIST
-
-THAT A COSMIC COLLAPSE LATTICE
-IS AN EXECUTABLE OR PHYSICAL MECHANISM
-
-THAT THE 7-PART UNIVERSE
-IS AN EMPIRICALLY VERIFIED
-COSMOLOGICAL MODEL
-
-THAT CROSS-PLANE ROUTING
-IS RUNTIME ENFORCED
-
-Therefore:
-
-\[
-SourceDefinedMatrix
-\neq
-ExecutableRuntimeMatrix
-\]
-
-and:
-
-\[
-CanonicalSourceClaim
-\neq
-IndependentEmpiricalValidation
-\]
-
----
-
-# 1. Canonical Routing Grid
-
-| Canon Law / Stratum | Primary Statement | Epistemic Invariant | Runtime Enforcement Gate |
-|---|---|---|---|
-| **L0 Integrity** | Stability \(\iff (\mathcal C,\mathcal E,\mathcal F)\) | Law of Law | Invariant Assertion Gate |
-| **L1 Reality** | Physical substrate cannot be overridden | Physical Conservation | Hardware / Energy Firewall |
-| **L2 Cognition** | Preserve null-state invariant (\(S_0\)) | Anti-Autopoisoning | Null-State Recovery Basin |
-| **L3 Governance** | Capability \(\neq\) Authority | Authority Envelopes | Cryptographic Authority Gate |
-| **7-Part Universe** | Multiscale cosmological layers | Structural Harmony | Cosmic Collapse Lattice |
-
-This table is the supplied canonical matrix structure.
-
----
-
-# 2. Matrix Semantics
-
-Each row has four source-defined dimensions:
-
-```yaml
-Canon_Row:
-
-  canon_law_or_stratum:
-
-  primary_statement:
-
-  epistemic_invariant:
-
-  runtime_enforcement_gate:
-````
 
 The matrix therefore maps:
 

@@ -54,7 +54,7 @@ This specification MUST preserve the distinction between:
 
 ```text
 SOURCE-DERIVED AMOS RULES
-````
+```
 
 and:
 

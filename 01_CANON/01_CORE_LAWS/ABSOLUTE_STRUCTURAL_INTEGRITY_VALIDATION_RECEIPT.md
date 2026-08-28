@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "Absolute Structural Integrity Validation Receipt"
 type: receipt
@@ -91,7 +90,7 @@ NOT_ESTABLISHED
 ABSOLUTE PASS
 =
 NOT ESTABLISHED
-````
+```
 
 The receipt MUST NOT self-certify merely because its title or source text declares a pass.
 

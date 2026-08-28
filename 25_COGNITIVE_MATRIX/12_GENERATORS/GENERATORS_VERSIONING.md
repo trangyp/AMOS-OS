@@ -161,7 +161,7 @@ GENERATION MANIFEST
 PROVENANCE
 +
 VALIDATION STATE
-````
+```
 
 The central problem addressed by this layer is:
 

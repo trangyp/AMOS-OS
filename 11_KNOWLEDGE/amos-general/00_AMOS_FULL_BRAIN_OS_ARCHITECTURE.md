@@ -73,7 +73,7 @@ Engine
 Agent
   ↓
 Control Plane
-````
+```
 
 is **REJECTED as a universal AMOS architecture**.
 

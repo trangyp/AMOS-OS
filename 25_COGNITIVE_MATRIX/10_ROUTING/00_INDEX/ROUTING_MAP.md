@@ -75,7 +75,7 @@ The local index segment is:
         ├── INDEX_ROUTING_COGNITIVE_MATRIX_README.md
         ├── ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT.md
         └── ROUTING_MAP.md
-````
+```
 
 The minimum canonical orientation path is therefore:
 

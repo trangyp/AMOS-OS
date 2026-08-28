@@ -126,7 +126,7 @@ Instead define a declared collapse-analysis space:
   geopolitical,
   behavioural
 }
-````
+```
 
 This is an:
 

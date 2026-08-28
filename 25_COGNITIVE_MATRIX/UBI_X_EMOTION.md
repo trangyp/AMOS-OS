@@ -1,35 +1,3 @@
-# UBI × Emotion Cognitive Matrix Specification — Canon Recovery
-
-This specification resolves several important gaps from the preceding matrix table. The strongest source-supported recovery is:
-
-$$
-\boxed{
-\vec E_t=\langle v_t,a_t,d_t\rangle
-\in[-1,1]\times[0,1]\times[-1,1]
-}
-$$
-
-with the intended component semantics recoverable from the supplied “Where” section despite rendering corruption:
-
-$$
-v_t=\text{Valence},\qquad
-a_t=\text{Arousal},\qquad
-d_t=\text{Dominance}
-$$
-
-The specification also directly adds two invariant guards:
-
-$$
-a_t>0.90\Rightarrow ActivateCoolingCircuit
-$$
-
-$$
-v_t<-0.70\Rightarrow EngageSubstrateRefusal
-$$
-
-This materially resolves the earlier uncertainty around \(v_t\) and \(a_t\), but **does not recover the matrix table's missing first trigger variables or Target Plane cells**.
-
-````markdown
 ---
 title: "UBI x Emotion Cognitive Matrix Specification"
 type: cognitive_matrix
@@ -101,134 +69,38 @@ source_integrity:
     DO_NOT_INVENT_MISSING_CANON
 ---
 
-# UBI × Emotion Cognitive Matrix Specification (v2.0.0)
+# UBI × Emotion Cognitive Matrix Specification — Canon Recovery
 
-`UBI_X_EMOTION.md` formalizes the source-defined mathematical
-integration between affective-state dynamics (NEI) and cognitive
-appraisal mechanisms across AMOS OS.
+This specification resolves several important gaps from the preceding matrix table. The strongest source-supported recovery is:
 
-Origin architect / steward:
-
-**Trang Phan**
-
-System:
-
-**AMOS OS**
-
----
-
-# 1. Epistemic Boundary
-
-This artifact is explicitly classified:
-
-`AMOS_MODEL`.
-
-Accordingly, the mathematical structure below is canonical at the
-AMOS corpus-model level.
-
-It does not by itself establish universal empirical neuroscience,
-psychology, physiology, or clinical thresholds.
-
----
-
-# 2. Affective State Vector
-
-The corrupted source is recoverable locally as:
-
-\[
+$$
 \boxed{
-\vec E_t=
-\langle
-v_t,
-a_t,
-d_t
-\rangle
+\vec E_t=\langle v_t,a_t,d_t\rangle
+\in[-1,1]\times[0,1]\times[-1,1]
 }
-\]
+$$
 
-with:
+with the intended component semantics recoverable from the supplied “Where” section despite rendering corruption:
 
-\[
-\boxed{
-\vec E_t
-\in
-[-1,1]\times[0,1]\times[-1,1]
-}
-\]
-
-Therefore the affective state is represented as a three-dimensional
-time-indexed vector.
-
----
-
-# 3. Component Semantics
-
-The supplied source's `Where:` section establishes:
-
-\[
-\boxed{
-v_t=\text{Valence}
-}
-\]
-
-described as:
-
-`Hedonic tone`
-
----
-
-\[
-\boxed{
-a_t=\text{Arousal}
-}
-\]
-
-described as:
-
-`Metabolic activation`
-
----
-
-\[
-\boxed{
+$$
+v_t=\text{Valence},\qquad
+a_t=\text{Arousal},\qquad
 d_t=\text{Dominance}
-}
-\]
+$$
 
-described as:
+The specification also directly adds two invariant guards:
 
-`Agency / Autonomy sense`
+$$
+a_t>0.90\Rightarrow ActivateCoolingCircuit
+$$
 
----
+$$
+v_t<-0.70\Rightarrow EngageSubstrateRefusal
+$$
 
-# 4. Canonical Vector Schema
+This materially resolves the earlier uncertainty around \(v_t\) and \(a_t\), but **does not recover the matrix table's missing first trigger variables or Target Plane cells**.
 
-```yaml
-AFFECTIVE_VECTOR:
 
-  symbol:
-    E_t
-
-  dimensions:
-
-    valence:
-      symbol: v_t
-      semantics: HEDONIC_TONE
-      domain:
-        [-1, 1]
-
-    arousal:
-      symbol: a_t
-      semantics: METABOLIC_ACTIVATION
-      domain:
-        [0, 1]
-
-    dominance:
-      symbol: d_t
-      semantics: AGENCY_AUTONOMY_SENSE
-      domain:
-        [-1, 1]
-````
 
 ---
 

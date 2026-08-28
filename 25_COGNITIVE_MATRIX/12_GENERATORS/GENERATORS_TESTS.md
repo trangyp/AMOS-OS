@@ -109,7 +109,7 @@ System: **AMOS OS**
 
 ---
 
-````md id="amos-generators-tests"
+```md id="amos-generators-tests"
 ---
 artifact_id: AMOS-CM-12-GENERATORS-TESTS
 title: "12 Generators Tests"
@@ -347,7 +347,7 @@ TEST_RUN
 
 TEST_PASS
 != UNIVERSAL_CORRECTNESS
-````
+```
 
 ---
 

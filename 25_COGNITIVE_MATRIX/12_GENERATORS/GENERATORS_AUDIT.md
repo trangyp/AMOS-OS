@@ -156,7 +156,7 @@ Recovery
 History
 Change Log
 Finality
-````
+```
 
 The audit should identify:
 
@@ -3717,7 +3717,7 @@ READ_ONLY_BY_DEFAULT
 * Policy Manifest
 * Authority Registry
 
-````
+```
 
 The ownership split across `12_GENERATORS` is now clean:
 
@@ -3751,7 +3751,7 @@ HISTORY.md
 
 GENERATORS_CHANGE_LOG.md
 → append-oriented change record
-````
+```
 
 The load-bearing addition here is that **Audit checks the integrity of the relationships between all of those artifacts and the runtime**, instead of simply becoming another test or validation document.
 

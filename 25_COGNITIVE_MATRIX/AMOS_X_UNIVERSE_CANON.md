@@ -1,27 +1,4 @@
 ---
-title: AMOS X UNIVERSE CANON
-type: note
-source: "25_COGNITIVE_MATRIX"
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
-tags: [note, 25-cognitive-matrix]
-canon-group: canon/cognitive-matrix
----
-# AMOS X UNIVERSE CANON
-
-The same **canon collision exists here**, and it is more fundamental than in the routing-table artifact.
-
-The current source anchor is `AMOS_7_PART_UNIVERSE_CANON.md`; Drive identifies that artifact directly, alongside its P7 child and supporting canon/provenance structures.   The submitted specification should therefore not canonize the four-strata `quantum substrate → biological mesh → cognitive apex → cosmic canon` representation as the 7-Part Universe Canon.
-
-Below is the full normalized replacement.
-
-````markdown
----
 title: "AMOS x Universe Canon Cognitive Matrix"
 
 type: cognitive_matrix
@@ -141,14 +118,29 @@ epistemic_boundary:
 
 ---
 
-# AMOS x Universe Canon Cognitive Matrix Specification
+---
+title: AMOS X UNIVERSE CANON
+type: note
+source: "25_COGNITIVE_MATRIX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
+tags: [note, 25-cognitive-matrix]
+canon-group: canon/cognitive-matrix
+---
+# AMOS X UNIVERSE CANON
 
-`AMOS_X_UNIVERSE_CANON.md` defines the Cognitive Matrix integration
-model between:
+The same **canon collision exists here**, and it is more fundamental than in the routing-table artifact.
 
-```text
-AMOS OS
-````
+The current source anchor is `AMOS_7_PART_UNIVERSE_CANON.md`; Drive identifies that artifact directly, alongside its P7 child and supporting canon/provenance structures.   The submitted specification should therefore not canonize the four-strata `quantum substrate → biological mesh → cognitive apex → cosmic canon` representation as the 7-Part Universe Canon.
+
+Below is the full normalized replacement.
+
+
 
 and the source-defined:
 

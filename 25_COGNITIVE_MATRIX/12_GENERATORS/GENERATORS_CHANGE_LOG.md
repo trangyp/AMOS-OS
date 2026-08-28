@@ -151,7 +151,7 @@ security constraints
 recovery semantics
 roadmap structure
 history corrections
-````
+```
 
 The Change Log is intended to be:
 
@@ -2862,7 +2862,7 @@ NON_AUTHORITATIVE
 * Authoritative State
 * Provenance Manifest
 
-````
+```
 
 The intended separation across the Generator records is:
 
@@ -2890,7 +2890,7 @@ HISTORY.md
 
 GENERATORS_CHANGE_LOG.md
 → append-oriented record of individual accepted/rejected/reverted changes
-````
+```
 
 That keeps the Change Log operational and auditable instead of allowing it to become a second History file or a narrative list of unsupported “updates.”
 

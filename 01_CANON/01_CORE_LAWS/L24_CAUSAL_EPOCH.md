@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "L24 — Causal Epoch Law"
 type: core_law
@@ -72,7 +71,7 @@ REQUIRE WITNESS RECEIPTS.
 
 UNLINKED CONSEQUENCES
 FAIL CLOSED.
-````
+```
 
 ---
 

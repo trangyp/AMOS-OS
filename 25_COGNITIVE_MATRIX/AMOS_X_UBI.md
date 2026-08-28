@@ -1,27 +1,4 @@
 ---
-title: AMOS X UBI
-type: note
-source: "25_COGNITIVE_MATRIX"
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
-tags: [note, 25-cognitive-matrix]
-canon-group: canon/cognitive-matrix
----
-# AMOS X UBI
-
-The submitted `AMOS_X_UBI.md` is **not ready for unchanged canon ingestion**. The same load-bearing issue identified in `AMOS_X_UBI_MATRIX.md` remains: the geometric-mean definition of `i` is being promoted from a derived candidate into a native UBI equation without source support established in the retrieved official-manual evidence.
-
-The Drive corpus does independently show a substantial UBI source lineage—including dedicated UBI works and separate UBI × NeuroSyncAI integration material—but those descendants should not be treated as independent confirmation of the native mathematical definition.  
-
-Below is the source-disciplined full normalization.
-
-````markdown
----
 title: "AMOS × UBI"
 
 type: note
@@ -165,17 +142,29 @@ epistemic_boundary:
     NOT_ESTABLISHED
 ---
 
-# AMOS × UBI
+---
+title: AMOS X UBI
+type: note
+source: "25_COGNITIVE_MATRIX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
+tags: [note, 25-cognitive-matrix]
+canon-group: canon/cognitive-matrix
+---
+# AMOS X UBI
 
-`AMOS_X_UBI.md` is the source-grounded Cognitive Matrix representation
-of:
+The submitted `AMOS_X_UBI.md` is **not ready for unchanged canon ingestion**. The same load-bearing issue identified in `AMOS_X_UBI_MATRIX.md` remains: the geometric-mean definition of `i` is being promoted from a derived candidate into a native UBI equation without source support established in the retrieved official-manual evidence.
 
-```text
-Unified Biological Intelligence™
+The Drive corpus does independently show a substantial UBI source lineage—including dedicated UBI works and separate UBI × NeuroSyncAI integration material—but those descendants should not be treated as independent confirmation of the native mathematical definition.  
 
-=
-UBI
-````
+Below is the source-disciplined full normalization.
+
+
 
 It replaces the former placeholder with a governed representation of
 the UBI source framework.
@@ -2950,7 +2939,7 @@ RSCF-RELATIONS:
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-````
+```
 
 The decisive correction is synchronized with the matrix artifact:
 
@@ -2961,6 +2950,6 @@ e = i²
 
 AMOS-DERIVED CANDIDATE
 i = (NBI × NEI × SI × BEI)^(1/4)
-````
+```
 
 That distinction should now be invariant across `AMOS_X_UBI.md` and `AMOS_X_UBI_MATRIX.md`. The corpus also contains separate UBI × NeuroSyncAI integration artifacts, including a recently updated copy dated August 26–27, 2026; those are useful cross-framework provenance but should remain separate from the native UBI-definition ancestry.

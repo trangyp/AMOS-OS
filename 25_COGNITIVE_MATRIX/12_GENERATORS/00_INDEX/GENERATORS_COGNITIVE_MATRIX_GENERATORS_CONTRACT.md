@@ -41,7 +41,7 @@ GENERATOR_EXECUTION ≠ VALIDATION
 GENERATOR_OUTPUT ≠ CANON
 GENERATOR_PROPOSAL ≠ COMMIT
 TEST_PASS ≠ TRUTH
-````
+```
 
 No generated artifact acquires authority merely because a generator produced it.
 

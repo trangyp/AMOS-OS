@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "AMOS Cross-Species Functional Mode Model"
 type: model
@@ -99,7 +98,7 @@ rscf:
 
 ```text
 01_CANON/03_COGNITION_CANON
-````
+```
 
 for the framework family:
 

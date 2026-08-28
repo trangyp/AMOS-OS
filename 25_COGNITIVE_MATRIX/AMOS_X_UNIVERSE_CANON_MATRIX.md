@@ -1,27 +1,4 @@
 ---
-title: AMOS X UNIVERSE CANON MATRIX
-type: note
-source: "25_COGNITIVE_MATRIX"
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
-tags: [note, 25-cognitive-matrix]
-canon-group: canon/cognitive-matrix
----
-# AMOS X UNIVERSE CANON MATRIX
-
-This matrix needs a **structural correction before canon ingestion**. The retrieved current `AMOS_7_PART_UNIVERSE_CANON.md` defines the canonical seven parts as **Reality → Sense → Knowledge → Cognition → Governance → Execution → Evolution**, not Physical Root → Pre-Symbolic → Biological → Logic → Cognitive → Governance → Civilizational Memory. The source itself identifies version `2.0.0`, AMOS Core target `v4.4`, status `ACTIVE_CANON_CANDIDATE`, and explicitly says the seven parts are semantic responsibility classes. 
-
-The corpus also contains multiple Universe-Canon artifacts—including the current canon file, a Full Architecture V2, a Refined variant, provenance registry, and migration engine—so those should be treated as a lineage requiring reconciliation, not independent confirmation.    
-
-The source-grounded full normalization is:
-
-````markdown
----
 title: "AMOS x Universe Canon Cross-Plane Matrix"
 
 type: cognitive_matrix
@@ -149,14 +126,29 @@ epistemic_boundary:
 
 ---
 
-# AMOS x Universe Canon Cross-Plane Matrix
+---
+title: AMOS X UNIVERSE CANON MATRIX
+type: note
+source: "25_COGNITIVE_MATRIX"
+rscf:
+  state: SOURCE_CLAIM
+  class: STRUCTURAL
+  provenance:
+    - internal
+  freshness: EVERGREEN
+  falsifiers: []
+tags: [note, 25-cognitive-matrix]
+canon-group: canon/cognitive-matrix
+---
+# AMOS X UNIVERSE CANON MATRIX
 
-`AMOS_X_UNIVERSE_CANON_MATRIX.md` provides the Cognitive Matrix
-cross-plane routing representation of the:
+This matrix needs a **structural correction before canon ingestion**. The retrieved current `AMOS_7_PART_UNIVERSE_CANON.md` defines the canonical seven parts as **Reality → Sense → Knowledge → Cognition → Governance → Execution → Evolution**, not Physical Root → Pre-Symbolic → Biological → Logic → Cognitive → Governance → Civilizational Memory. The source itself identifies version `2.0.0`, AMOS Core target `v4.4`, status `ACTIVE_CANON_CANDIDATE`, and explicitly says the seven parts are semantic responsibility classes. 
 
-```text
-AMOS 7-Part Universe Canon
-````
+The corpus also contains multiple Universe-Canon artifacts—including the current canon file, a Full Architecture V2, a Refined variant, provenance registry, and migration engine—so those should be treated as a lineage requiring reconciliation, not independent confirmation.    
+
+The source-grounded full normalization is:
+
+
 
 The current source-grounded seven-part architecture is:
 
@@ -3010,7 +3002,7 @@ RSCF-RELATIONS:
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-````
+```
 
 The decisive canon invariant should therefore be:
 
@@ -3024,7 +3016,7 @@ P4 COGNITION / MODELS
 P5 GOVERNANCE / AUTHORITY
 P6 EXECUTION / AGENCY
 P7 EVOLUTION / LEARNING
-````
+```
 
 while the submitted physical → pre-symbolic → biological → logic → cognitive → governance → civilizational sequence remains **COMPETING/HISTORICAL pending lineage reconciliation**, rather than being destroyed or silently merged. That preserves both the current source authority and any potentially meaningful earlier Universe architecture until its provenance can discriminate between supersession, parallel model, or taxonomy collision.
 

@@ -154,7 +154,7 @@ Can existing validation receipts be reused?
 Which conclusions remain UNKNOWN/GAP?
 
 Is the candidate eligible to proceed to Promotion Gates?
-````
+```
 
 It does **not** answer by itself:
 
@@ -3606,7 +3606,7 @@ READ_ONLY_BY_DEFAULT
 * Policy Manifest
 * Authority Registry
 
-````
+```
 
 The ownership distinction should remain:
 
@@ -3635,7 +3635,7 @@ CONTROL PLANE / AUTHORITY
 
 WORKER
 → bounded durable effect
-````
+```
 
 The load-bearing rule is therefore:
 
