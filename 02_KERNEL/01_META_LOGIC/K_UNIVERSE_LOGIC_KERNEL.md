@@ -1,236 +1,111 @@
 ---
-title: Kernel · Universe Logic Kernel
+title: K_UNIVERSE_LOGIC_KERNEL — Universe Logic Kernel
 type: kernel
 source: 02_KERNEL/01_META_LOGIC
-artifact: K_UNIVERSE_LOGIC_KERNEL.md
-artifact_id: amos_02_kernel_01_meta_logic_k_universe_logic_kernel
+artifact_id: AMOS-OS-K-UNIVERSE-LOGIC-KERNEL
+canonical_name: K_UNIVERSE_LOGIC_KERNEL
+artifact_type: kernel_logic_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/01_META_LOGIC
-artifact_kind: LOG
-path: 02_KERNEL/01_META_LOGIC/K_UNIVERSE_LOGIC_KERNEL.md
+kernel_family: META_LOGIC
+domain: universe-logic
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
 - core
-- 02_kernel
-- log
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- ulk
+- universe-logic-kernel
+- formal-algebra
+- 8-alu-engine
+- proof-capsules
+- rscf/claim
+- rscf/state/model
 - 01-meta-logic-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Universe Logic Kernel Contract
+- K_UNIVERSE_LOGIC_KERNEL
+- ULK Meta Logic Kernel
+- AMOS ULK Engine
 ---
 
-# Kernel · Universe Logic Kernel
+# K_UNIVERSE_LOGIC_KERNEL — Universe Logic Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/01_META_LOGIC`  
+> **Status:** `AMOS_MODEL`  
+> **Core Architecture:** 8 Arithmetic Logic Units (ALUs) $\times$ 6 Universal Meta-Logic Rules (UML)
 
-`K_UNIVERSE_LOGIC_KERNEL.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/01_META_LOGIC`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and Foundational Role
 
-The governing boundaries are:
+`K_UNIVERSE_LOGIC_KERNEL` is the formal deductive engine governing meta-reasoning, axiom transformation, and contradiction detection across the entire AMOS cognitive stack ($L_1 \dots L_6$). It translates natural language, structured code, and multi-modal propositions into unambiguous algebraic state transitions.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · Universe Logic Kernel** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                  UNIVERSE LOGIC KERNEL DEDUCTION ENGINE                 |
+|                                                                         |
+|  [ Inbound Proposition / Hypothesis ]                                   |
+|                   |                                                     |
+|                   v                                                     |
+|  ( ALU-1 Distinction: Extract Boundaries & Terms )                      |
+|                   |                                                     |
+|                   v                                                     |
+|  ( ALU-2 Relation: Build Tensor Coupling Network )                      |
+|                   |                                                     |
+|                   v                                                     |
+|  ( ALU-3 Constraint: Project onto Invariant Subspace )                  |
+|                   |                                                     |
+|                   v                                                     |
+|  ( ALU-4 Transformation: Execute State Transition Tau )                 |
+|                   |                                                     |
+|                   v                                                     |
+|  [ Verified Algebraic Proof / Signed RSCF Proof Capsule ]               |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. Formal ALU Specification
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+$$\text{State Evolution: } S_{t+1} = \Pi_{\mathcal{C}}\left( \tau\left( S_t \otimes U_t \right) \right)$$
 
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `02_KERNEL · LOG` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **ALU-0 ($\emptyset \to S_0$):** Instantiates an epistemic state from the ontological ground.
+2. **ALU-1 ($\Delta$):** Partitioning operator defining clear boundary predicates ($A \cap \neg A = \emptyset$).
+3. **ALU-2 ($\otimes$):** Relational tensor product binding independent knowledge nodes into composite systems.
+4. **ALU-3 ($\Pi_{\mathcal{C}}$):** Constraint projection filtering out propositions violating [[LAW_HIERARCHY]].
+5. **ALU-4 ($\tau$):** Time/state evolution operator computing deterministic next-states.
+6. **ALU-5 ($\mathcal{H}$):** Coherence and structural entropy evaluation metric.
+7. **ALU-6 ($\Psi$):** Multi-hypothesis superposition generator.
+8. **ALU-7 ($\kappa$):** Dominance collapse filter selecting verified conclusions.
 
 ---
 
-## 7. Promotion-gate checklist
+## 3. Contradiction Firewall & Proof Capsule Generation
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+When two competing hypotheses $H_A, H_B$ generate contradictory conclusions $C_A \land \neg C_A$:
+1. **Isolate Scope:** Halt global state propagation for the affected branch.
+2. **Trace Ancestry:** Traverse dependency closure back to the earliest divergent premise.
+3. **Evaluate Invariants:** Reject the premise that introduces greater structural entropy or violates higher-tier canon.
+4. **Emit Proof Capsule:** Generate a cryptographic receipt documenting the resolution.
 
 ---
 
-## 8. Cross-plane bindings (target)
+## 4. Cross-Plane Bindings
 
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- **Master Specifications:** [[0_UNIVERSE_LOGIC_KERNEL_ULK_ULMK]] · [[ULK_LOGIC_KERNEL]] · [[K_ABSOLUTE_LOGIC]]
+- **Quantum & Formal Logic:** [[K_QUANTUM_LOGIC_SYSTEM]] · [[K_QCLA]] · [[K_CORE19_LOGIC]]
+- **Laws & Invariants:** [[LAW_HIERARCHY]] · [[K_CORE_LAWS]] · [[K_FAIL_CLOSED]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[01_META_LOGIC_MOC]] · [[00_ROOT_MOC]]
 
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_01_meta_logic_k_universe_logic_kernel
-
-node_type: log
-
-path: 02_KERNEL/01_META_LOGIC/K_UNIVERSE_LOGIC_KERNEL.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[01_META_LOGIC_MOC]]
