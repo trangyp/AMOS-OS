@@ -1,34 +1,47 @@
 ---
-title: "AMOS Emotion Canon"
-type: canon
-source: 01_CANON/03_COGNITION_CANON
-artifact: "AMOS_EMOTION_CANON.md"
-artifact_id: "amos_01_canon_03_cognition_canon_amos_emotion_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/03_COGNITION_CANON"
-artifact_kind: "CANON"
-path: "01_CANON/03_COGNITION_CANON/AMOS_EMOTION_CANON.md"
-
-tags: [amos_os, canon, universe, 01_canon, canon_placeholder, rscf, canon/universe]
-
-version: "0.1.0"
-updated: "2026-08-27"
-
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+artifact: AMOS_EMOTION_CANON.md
+artifact_id: amos_01_canon_03_cognition_canon_amos_emotion_canon
+artifact_kind: CANON
+canonical_status: UNKNOWN/GAP
+epistemic_class: AMOS_MODEL
+executable_binding: NOT_ESTABLISHED
+implementation_status: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+origin_architect: Trang Phan
+path: 01_CANON/03_COGNITION_CANON/AMOS_EMOTION_CANON.md
+plane: 01_CANON
 rscf:
-  state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
+  state: DERIVED
+segment: 01_CANON/03_COGNITION_CANON
+source: 01_CANON/03_COGNITION_CANON
+status: PLACEHOLDER
+steward: Trang Phan
+system: AMOS OS
+tags:
+- amos_os
+- canon
+- cognition
+- emotion
+- 01_canon
+- 03_cognition_canon
+- canon_placeholder
+- rscf
+- rscf/C-constraint
+- rscf/D-distinction
+- rscf/S-state
+- rscf/type-model
+- provenance
+- scope
+- regime
+- validation
+title: AMOS Emotion Canon
+type: canon
+updated: 2026-08-27
+validation_status: NOT_ESTABLISHED
+version: 0.1.0
 ---
 
 
