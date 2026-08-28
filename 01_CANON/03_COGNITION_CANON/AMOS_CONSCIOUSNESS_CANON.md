@@ -27,6 +27,7 @@ tags:
   - 01_canon
   - 03_cognition_canon
   - canon_placeholder
+  - placeholder_expanded
   - rscf
   - provenance
   - scope
