@@ -1,5 +1,5 @@
 ---
-title: FRACTAL_KNOWLEDGE_NETWORK Specification
+title: "FRACTAL_KNOWLEDGE_NETWORK Specification"
 aliases:
   - "FRACTAL_KNOWLEDGE_NETWORK"
   - "Fractal Knowledge Network"
@@ -25,6 +25,7 @@ tags:
   - context_efficiency
   - canon
   - canon/universe
+
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -74,7 +75,7 @@ status:
     - dependency_directed_retrieval
     - selective_detail_loading
     - provenance_preserving_navigation
-```
+````
 
 The supplied node directly establishes:
 
