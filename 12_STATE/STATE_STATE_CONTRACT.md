@@ -14,6 +14,10 @@ document_role: normative_contract
 plane: 12_STATE
 source: 12_STATE
 path: 12_STATE/STATE_STATE_CONTRACT.md
+tags:
+- state
+- contract
+- state-plane
 system: AMOS_OS
 origin_architect: Trang_Phan
 steward: Trang_Phan
