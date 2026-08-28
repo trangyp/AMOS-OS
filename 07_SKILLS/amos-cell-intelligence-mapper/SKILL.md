@@ -3,8 +3,7 @@ title: SKILL — Amos Cell Intelligence Mapper
 type: skill
 source: 07_SKILLS/amos-cell-intelligence-mapper
 name: amos-cell-intelligence-mapper
-description: Cell Intelligence Mapper — biology and neuroscience capability. Use when biological reasoning,
-  neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability.
+description: Cell Intelligence Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability. Do not use for generic tasks outside c04 domain.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
@@ -186,6 +185,13 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic biological analysis outside the bio/neuro framework
+- To claim empirical validation of biological intelligence laws
+- As a substitute for domain-specific medical or neuroscience evidence
+- Outside biology/neuroscience domain reasoning
 
 ## References
 

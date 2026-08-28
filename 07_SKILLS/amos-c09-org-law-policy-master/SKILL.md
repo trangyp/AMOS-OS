@@ -3,8 +3,7 @@ title: SKILL — Amos C09 Org Law Policy Master
 type: skill
 source: 07_SKILLS/amos-c09-org-law-policy-master
 name: amos-c09-org-law-policy-master
-description: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional
-  governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol...
+description: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use when governance design, legal analysis, or pol. Do not use for generic tasks outside c09 domain.
 parent_skill: none
 domain: c09
 origin_architect: Trang Phan
@@ -178,6 +177,13 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic governance analysis outside the org/law/policy framework
+- To claim empirical validation of governance or legal theories
+- As a substitute for domain-specific legal or compliance evidence
+- Outside org/law/policy domain reasoning
 
 ## References
 

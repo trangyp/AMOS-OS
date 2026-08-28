@@ -3,8 +3,7 @@ title: SKILL — Amos Growth Graph
 type: skill
 source: 07_SKILLS/amos-growth-graph
 name: amos-growth-graph
-description: Growth Graph — society and culture capability. Use when social analysis, cultural reasoning,
-  or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability.
+description: Growth Graph — society and culture capability. Use when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability. Do not use for generic tasks outside c06 domain.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
@@ -205,6 +204,13 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic social analysis outside the society/culture framework
+- To claim empirical validation of civilizational survival laws
+- As a substitute for domain-specific historical or anthropological evidence
+- Outside society/culture domain reasoning
 
 ## References
 

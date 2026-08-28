@@ -3,9 +3,7 @@ title: SKILL — Amos Universe Viability Modeler
 type: skill
 source: 07_SKILLS/amos-universe-viability-modeler
 name: amos-universe-viability-modeler
-description: Universe Viability Modeler — canon and universe capability. Use when canon reasoning, universe-level
-  analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized
-  capability.
+description: Universe Viability Modeler — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -197,6 +195,13 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic structural analysis outside the canon framework
+- To claim empirical validation of consciousness or civilization theories
+- As a substitute for domain-specific historical or scientific evidence
+- Outside canon/universe domain reasoning
 
 ## References
 

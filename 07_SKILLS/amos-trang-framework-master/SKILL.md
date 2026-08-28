@@ -3,9 +3,7 @@ title: SKILL — Amos Trang Framework Master
 type: skill
 source: 07_SKILLS/amos-trang-framework-master
 name: amos-trang-framework-master
-description: AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal reasoning, LDAI
-  formalization, reality architecture, equation registry. Use for Trang framework reasoning or cascade
-  anal...
+description: AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal reasoning, LDAI formalization, reality architecture, equation registry. Use when Trang framework reasoning or cascade anal. Do not use for generic tasks outside trang domain.
 parent_skill: none
 domain: trang
 origin_architect: Trang Phan
@@ -179,6 +177,13 @@ Research model and source claim, NOT verified physics and NOT AMOS canon. Mathem
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic reality analysis outside the Trang framework
+- To claim empirical validation of cascade or collapse theories
+- As a substitute for domain-specific reality or ontology evidence
+- Outside Trang framework domain reasoning
 
 ## References
 

@@ -3,9 +3,7 @@ title: SKILL — Amos Semantic Token Flow Firewall Rscf
 type: skill
 source: 07_SKILLS/amos-semantic-token-flow-firewall-rscf
 name: amos-semantic-token-flow-firewall-rscf
-description: Semantic Token Flow Firewall — security and safety capability. Use when security analysis,
-  safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized
-  capability.
+description: Semantic Token Flow Firewall — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic tasks outside security domain.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
@@ -190,6 +188,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic security analysis outside the AMOS security framework
+- To claim empirical validation of adversarial defense theories
+- As a substitute for domain-specific security or safety evidence
+- Outside security/safety domain reasoning
 
 ## References
 

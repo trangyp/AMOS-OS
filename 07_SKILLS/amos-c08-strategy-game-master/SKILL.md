@@ -3,8 +3,7 @@ title: SKILL — Amos C08 Strategy Game Master
 type: skill
 source: 07_SKILLS/amos-c08-strategy-game-master
 name: amos-c08-strategy-game-master
-description: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria,
-  game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use for strategic analysi...
+description: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use when strategic analysi. Do not use for generic tasks outside c08 domain.
 parent_skill: none
 domain: c08
 origin_architect: Trang Phan
@@ -181,6 +180,13 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic strategic analysis outside the strategy/game framework
+- To claim empirical validation of evolutionary cycle laws
+- As a substitute for domain-specific market or competitive evidence
+- Outside strategy/game domain reasoning
 
 ## References
 

@@ -3,9 +3,7 @@ title: SKILL — Amos Reality Simulation Distinction
 type: skill
 source: 07_SKILLS/amos-reality-simulation-distinction
 name: amos-reality-simulation-distinction
-description: Reality Simulation Distinction — canon and universe capability. Use when canon reasoning,
-  universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this
-  specialized capability.
+description: Reality Simulation Distinction — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -191,6 +189,13 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic structural analysis outside the canon framework
+- To claim empirical validation of consciousness or civilization theories
+- As a substitute for domain-specific historical or scientific evidence
+- Outside canon/universe domain reasoning
 
 ## References
 

@@ -1,4 +1,5 @@
 ---
+name: amos-flow-canon
 title: SKILL — Amos Flow Canon
 type: note
 source: 07_SKILLS/amos-flow-canon
@@ -40,12 +41,7 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion
-  under limits, bottleneck/leakage/queue dynamics. Use when analyzing how power/energy/capital/information
-  moves through a system, when throughput needs structural characterization, when identifying bottlenecks
-  or leakage, or when flow is asserted but not structurally characterized. Use whenever the user mentions
-  flow, throughput, transmission, conversion, bottlenecks, queues, or power movement — even without explicitly
-  asking for 'flow canon'.
+description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion under limits, bottleneck/leakage/queue dynamics. Use when analyzing how power/energy/capital/information moves through a system, when throughput needs structural characterization, when identifying bottlenecks or leakage, or when flow is asserted but not structurally characterized. Use whenever the user mentions flow, throughput, transmission, conversion, bottlenecks, queues, or power movement — even without explicitly asking for 'flow canon'. Do not use for for generic tasks outside canon/universe domain (canon reasoning, universe-level analysis).
 ---
 
 # AMOS Flow Canon
@@ -87,6 +83,13 @@ This skill directly addresses the **genuine gap** identified in the 7-Part Canon
 ## Law Stack Bridge
 Flow (Part II) maps to the Law Stack's Rule of 2™ as the named binary attractor — dual-frame test with rejection rationale. Rubber-stamp fails. Flow persistence depends on enforcement mechanisms (Part IV) maintaining the dual-frame test passing.
 
+
+## Do not use
+
+- For generic tasks outside the declared AMOS domain
+- As a substitute for domain-specific analysis
+- For empirical claims without evidence
+- Outside the AMOS canon law hierarchy
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme

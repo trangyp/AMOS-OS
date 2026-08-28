@@ -191,6 +191,13 @@ Every equation class typed: SOURCE_CANON for established math, AMOS_MODEL for Tr
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic mathematical analysis outside the math/compute framework
+- To claim empirical validation of computational complexity laws
+- As a substitute for domain-specific mathematical or computational evidence
+- Outside math/compute domain reasoning
+
 ## References
 
 - `references/ancient_math.md` — loaded on demand

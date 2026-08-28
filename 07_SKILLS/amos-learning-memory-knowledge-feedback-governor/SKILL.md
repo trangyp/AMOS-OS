@@ -171,6 +171,13 @@ The loop has 4 transition types:
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic analysis outside the cross-domain framework
+- To claim empirical validation without domain-specific evidence
+- As a substitute for domain-specific evidence
+- Outside cross-domain domain reasoning
+
 ## References
 
 - `references/11k_learning_memory_knowledge_governor.md` — loaded on demand

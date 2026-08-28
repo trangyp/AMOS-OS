@@ -3,8 +3,7 @@ title: SKILL — Amos Economic Model
 type: skill
 source: 07_SKILLS/amos-economic-model
 name: amos-economic-model
-description: Economic Model — econ capability. Use when executing the core capability within this domain.
-  Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Economic Model — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside econ domain.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
@@ -183,6 +182,13 @@ Economic model is an AMOS_MODEL. It does not prove economic predictions are accu
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic economic analysis outside the econ/finance framework
+- To claim empirical validation of economic laws or market dynamics
+- As a substitute for domain-specific economic or financial evidence
+- Outside econ/finance domain reasoning
 
 ## References
 

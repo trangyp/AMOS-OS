@@ -183,6 +183,13 @@ The C12 Earth & Ecology domain is organized into 10 source families:
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic environmental analysis outside the earth/ecology framework
+- To claim empirical validation of climate or ecological theories
+- As a substitute for domain-specific environmental or energy evidence
+- Outside earth/ecology domain reasoning
+
 ## References
 
 - `references/c12_earth_ecology_super_full.md` — loaded on demand

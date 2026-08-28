@@ -3,8 +3,7 @@ title: SKILL — Amos Collapse Recovery
 type: skill
 source: 07_SKILLS/amos-collapse-recovery
 name: amos-collapse-recovery
-description: Collapse Recovery — Trang framework capability. Use when Trang framework reasoning, cascade
-  analysis, or reality architecture. Use when amos-trang-framework-master routes to this specialized capability.
+description: Collapse Recovery — Trang framework capability. Use when Trang framework reasoning, cascade analysis, or reality architecture. Use when amos-trang-framework-master routes to this specialized capability. Do not use for generic tasks outside trang domain.
 parent_skill: amos-trang-framework-master
 domain: trang
 origin_architect: Trang Phan
@@ -201,6 +200,13 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic reality analysis outside the Trang framework
+- To claim empirical validation of cascade or collapse theories
+- As a substitute for domain-specific reality or ontology evidence
+- Outside Trang framework domain reasoning
 
 ## References
 

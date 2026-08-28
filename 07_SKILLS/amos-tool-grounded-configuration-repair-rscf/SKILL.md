@@ -3,9 +3,7 @@ title: SKILL — Amos Tool Grounded Configuration Repair Rscf
 type: skill
 source: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf
 name: amos-tool-grounded-configuration-repair-rscf
-description: Tool Grounded Configuration Repair — audit and repair capability. Use when auditing, failure
-  analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized
-  capability.
+description: Tool Grounded Configuration Repair — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -190,6 +188,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic audit analysis outside the AMOS audit/repair framework
+- To claim empirical validation of repair or recovery theories
+- As a substitute for domain-specific audit or quality evidence
+- Outside audit/repair domain reasoning
 
 ## References
 

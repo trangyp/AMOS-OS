@@ -3,8 +3,7 @@ title: SKILL — Amos Security Safety Master
 type: skill
 source: 07_SKILLS/amos-security-safety-master
 name: amos-security-safety-master
-description: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems,
-  drift alignment. Use for security analysis, safety verification, or adversarial defense.
+description: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use when security analysis, safety verification, or adversarial defense. Do not use for generic tasks outside security domain.
 parent_skill: none
 domain: security
 origin_architect: Trang Phan
@@ -180,6 +179,13 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic security analysis outside the AMOS security framework
+- To claim empirical validation of adversarial defense theories
+- As a substitute for domain-specific security or safety evidence
+- Outside security/safety domain reasoning
 
 ## References
 

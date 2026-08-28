@@ -3,9 +3,7 @@ title: SKILL — Amos Runtime Context Reuse Rscf
 type: skill
 source: 07_SKILLS/amos-runtime-context-reuse-rscf
 name: amos-runtime-context-reuse-rscf
-description: Runtime Context Reuse — boundary and scope capability. Use when evaluating scope boundaries,
-  context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized
-  capability.
+description: Runtime Context Reuse — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability. Do not use for generic tasks outside boundary domain.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
@@ -190,6 +188,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic scope analysis outside the boundary/scope framework
+- To claim empirical validation of context continuity theories
+- As a substitute for domain-specific scope or boundary evidence
+- Outside boundary/scope domain reasoning
 
 ## References
 

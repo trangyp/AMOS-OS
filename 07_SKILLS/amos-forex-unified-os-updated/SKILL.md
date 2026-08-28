@@ -3,8 +3,7 @@ title: SKILL — Amos Forex Unified Os Updated
 type: skill
 source: 07_SKILLS/amos-forex-unified-os-updated
 name: amos-forex-unified-os-updated
-description: Forex Unified Os Updated — forex and finance capability. Use when forex analysis, currency
-  trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Forex Unified Os Updated — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
@@ -183,6 +182,13 @@ Forex Unified OS is an analytical framework. It does not prove profitable tradin
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic financial analysis outside the forex/engine framework
+- To claim empirical validation of market efficiency or pricing models
+- As a substitute for domain-specific financial or economic evidence
+- Outside forex/finance domain reasoning
 
 ## References
 

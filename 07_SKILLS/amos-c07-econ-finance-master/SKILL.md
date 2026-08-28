@@ -187,6 +187,13 @@ Hard boundary (non-negotiable): every output is ana
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic financial analysis outside the econ/finance framework
+- To claim empirical validation of economic laws or market dynamics
+- As a substitute for domain-specific financial or economic evidence
+- Outside econ/finance domain reasoning
+
 ## References
 
 - `references/11k_investment_agent.md` — loaded on demand

@@ -3,9 +3,7 @@ title: SKILL — Amos Scientific Closure Governor Rscf
 type: skill
 source: 07_SKILLS/amos-scientific-closure-governor-rscf
 name: amos-scientific-closure-governor-rscf
-description: Scientific Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual
-  reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized
-  capability.
+description: Scientific Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
@@ -186,6 +184,13 @@ Scientific closure is an epistemic governance construct. It does not prove absol
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic causal analysis outside the AMOS causal framework
+- To claim empirical validation of causal closure or hierarchy theories
+- As a substitute for domain-specific causal or counterfactual evidence
+- Outside causal reasoning domain reasoning
 
 ## References
 

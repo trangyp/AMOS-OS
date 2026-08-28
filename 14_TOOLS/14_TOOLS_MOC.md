@@ -23,6 +23,7 @@ rscf:
 
 - [[TOOLS_README]]
 - [[TOOLS_TOOL_CONTRACT]]
+- [[AMOS_LLM_WIKI_TOOL]] — LLM Wiki tooling guide
 
 ## Subdirectories
 

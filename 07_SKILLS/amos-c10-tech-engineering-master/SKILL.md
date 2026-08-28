@@ -3,8 +3,7 @@ title: SKILL — Amos C10 Tech Engineering Master
 type: skill
 source: 07_SKILLS/amos-c10-tech-engineering-master
 name: amos-c10-tech-engineering-master
-description: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture,
-  factory systems, production. Use for software development, engineering design, or technical architecture.
+description: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factory systems, production. Use when software development, engineering design, or technical architecture. Do not use for generic tasks outside c10 domain.
 parent_skill: none
 domain: c10
 origin_architect: Trang Phan
@@ -187,6 +186,13 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic engineering analysis outside the tech/engineering framework
+- To claim empirical validation of software engineering laws
+- As a substitute for domain-specific technical or engineering evidence
+- Outside tech/engineering domain reasoning
 
 ## References
 

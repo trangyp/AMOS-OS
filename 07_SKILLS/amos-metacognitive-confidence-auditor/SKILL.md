@@ -3,9 +3,7 @@ title: SKILL — Amos Metacognitive Confidence Auditor
 type: skill
 source: 07_SKILLS/amos-metacognitive-confidence-auditor
 name: amos-metacognitive-confidence-auditor
-description: Metacognitive Confidence Auditor — audit and repair capability. Use when auditing, failure
-  analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized
-  capability.
+description: Metacognitive Confidence Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -194,6 +192,13 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic audit analysis outside the AMOS audit/repair framework
+- To claim empirical validation of repair or recovery theories
+- As a substitute for domain-specific audit or quality evidence
+- Outside audit/repair domain reasoning
 
 ## References
 

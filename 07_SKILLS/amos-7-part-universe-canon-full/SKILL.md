@@ -3,9 +3,7 @@ title: SKILL — Amos 7 Part Universe Canon Full
 type: skill
 source: 07_SKILLS/amos-7-part-universe-canon-full
 name: amos-7-part-universe-canon-full
-description: 7 Part Universe Canon Full — canon and universe capability. Use when canon reasoning, universe-level
-  analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized
-  capability.
+description: 7 Part Universe Canon Full — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -188,6 +186,13 @@ The 7-part canon is an analytical framework. It does not prove the system has co
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic structural analysis outside the canon framework
+- To claim empirical validation of consciousness or civilization theories
+- As a substitute for domain-specific historical or scientific evidence
+- Outside canon/universe domain reasoning
 
 ## References
 

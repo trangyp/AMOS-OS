@@ -3,9 +3,7 @@ title: SKILL — Amos Fractal Systems Master
 type: skill
 source: 07_SKILLS/amos-fractal-systems-master
 name: amos-fractal-systems-master
-description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance,
-  H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use for fractal analysis, scale
-  r...
+description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use when fractal analysis, scale r. Do not use for generic tasks outside fractal domain.
 parent_skill: none
 domain: fractal
 origin_architect: Trang Phan
@@ -175,6 +173,13 @@ F1: recovered fractal canon defines diff
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic fractal analysis outside the fractal systems framework
+- To claim empirical validation of self-similarity or scale theories
+- As a substitute for domain-specific fractal or scale evidence
+- Outside fractal systems domain reasoning
 
 ## References
 

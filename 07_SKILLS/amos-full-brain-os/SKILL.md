@@ -3,8 +3,7 @@ title: SKILL — Amos Full Brain Os
 type: skill
 source: 07_SKILLS/amos-full-brain-os
 name: amos-full-brain-os
-description: Full Brain Os — super engines capability. Use when super-engine reasoning, consciousness
-  emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability.
+description: Full Brain Os — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability. Do not use for generic tasks outside super domain.
 parent_skill: amos-super-engines-master
 domain: super
 origin_architect: Trang Phan
@@ -200,6 +199,13 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic consciousness analysis outside the super-engine framework
+- To claim empirical validation of consciousness or mega-engine theories
+- As a substitute for domain-specific cognitive or consciousness evidence
+- Outside super-engine domain reasoning
 
 ## References
 

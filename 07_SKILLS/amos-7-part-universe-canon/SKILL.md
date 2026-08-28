@@ -1,4 +1,5 @@
 ---
+name: amos-7-part-universe-canon
 title: SKILL — Amos 7 Part Universe Canon
 type: note
 source: 07_SKILLS/amos-7-part-universe-canon
@@ -40,12 +41,7 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7
-  parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether
-  a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers,
-  identifying the Flow gap (Part II), or mapping persistence logic. Use whenever the user mentions 7-part
-  canon, persistence, structural completeness, system lifecycle, collapse, recovery, or universe canon
-  — even without explicitly asking for '7-part'.
+description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers, identifying the Flow gap (Part II), or mapping persistence logic. Use whenever the user mentions 7-part canon, persistence, structural completeness, system lifecycle, collapse, recovery, or universe canon — even without explicitly asking for '7-part'. Do not use for for generic tasks outside canon/universe domain (canon reasoning, universe-level analysis).
 ---
 
 # AMOS 7-Part Universe Canon — Persistence Canon
@@ -129,6 +125,13 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 - Rule of 2™ → Flow characterization enables dual-frame test
 - Rule of 4™ → Quadrant completeness after Flow + Structure + Enforcement are all first-class
 
+
+## Do not use
+
+- For generic tasks outside the declared AMOS domain
+- As a substitute for domain-specific analysis
+- For empirical claims without evidence
+- Outside the AMOS canon law hierarchy
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme

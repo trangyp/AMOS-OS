@@ -3,8 +3,7 @@ title: SKILL — Amos Future Debt Option Value Governor
 type: skill
 source: 07_SKILLS/amos-future-debt-option-value-governor
 name: amos-future-debt-option-value-governor
-description: Future Debt Option Value Governor — econ capability. Use when executing the core capability
-  within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Future Debt Option Value Governor — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside econ domain.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
@@ -195,6 +194,13 @@ Future debt option value governance is a decision-support construct. It does not
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic economic analysis outside the econ/finance framework
+- To claim empirical validation of economic laws or market dynamics
+- As a substitute for domain-specific economic or financial evidence
+- Outside econ/finance domain reasoning
 
 ## References
 

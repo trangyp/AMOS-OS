@@ -3,8 +3,7 @@ title: SKILL — Amos Fx Carry Differential Engine
 type: skill
 source: 07_SKILLS/amos-fx-carry-differential-engine
 name: amos-fx-carry-differential-engine
-description: Carry Differential Engine — forex and finance capability. Use when forex analysis, currency
-  trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Carry Differential Engine — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
@@ -193,6 +192,13 @@ FX carry differential engine is an AMOS_MODEL. It does not prove carry trades ar
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic financial analysis outside the forex/engine framework
+- To claim empirical validation of market efficiency or pricing models
+- As a substitute for domain-specific financial or economic evidence
+- Outside forex/finance domain reasoning
 
 ## References
 

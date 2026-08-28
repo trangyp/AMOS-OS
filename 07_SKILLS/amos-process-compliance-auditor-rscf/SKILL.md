@@ -3,8 +3,7 @@ title: SKILL — Amos Process Compliance Auditor Rscf
 type: skill
 source: 07_SKILLS/amos-process-compliance-auditor-rscf
 name: amos-process-compliance-auditor-rscf
-description: Process Compliance Auditor — audit and repair capability. Use when auditing, failure analysis,
-  gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
+description: Process Compliance Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -188,6 +187,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic audit analysis outside the AMOS audit/repair framework
+- To claim empirical validation of repair or recovery theories
+- As a substitute for domain-specific audit or quality evidence
+- Outside audit/repair domain reasoning
 
 ## References
 

@@ -3,8 +3,7 @@ title: SKILL — Amos C01 Meta Logic Master
 type: skill
 source: 07_SKILLS/amos-c01-meta-logic-master
 name: amos-c01-meta-logic-master
-description: 'AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs, 5 Pattern Families.
-  Law of Law, Rule of 2, Rule of 4. Use for logic reasoning, decomposition, or meta-law validation.'
+description: 'AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs, 5 Pattern Families. Law of Law, Rule of 2, Rule of 4. Use when logic reasoning, decomposition, or meta-law validation. Do not use for generic tasks outside c01 domain.'
 parent_skill: none
 domain: c01
 origin_architect: Trang Phan
@@ -257,6 +256,20 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 
 > **Reference**: See `references/logic_rule.md` (content_hash: 9133161a3bff15e6) for the Logic Rule (logic rule, logical rules, reasoning rules).
+
+## Validation Gates
+
+- **L0 Integrity**: All 8 ALUs and 7 UMLs accounted for; no part silently dropped
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope; no scope creep into domain-specific logic
+- **L7 Authority**: No autonomous action beyond authority boundary
+
+## Do not use
+
+- For generic tasks outside c01 domain (logic reasoning, decomposition, meta-law validation)
+- As a substitute for domain-specific logic (use domain master skills instead)
+- For empirical claims about logic without evidence
+- Outside the AMOS canon law hierarchy
 
 ## References
 

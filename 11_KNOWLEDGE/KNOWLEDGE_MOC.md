@@ -120,6 +120,7 @@ rscf:
 - [[trang_MOC]] — `trang` (Trang Master frameworks, TSS, TPE, ∅)
 - [[UNIVERSE-COSMOS_MOC]] — `universe-cosmos` (Universe Total Canon & physics)
 - [[vietnamese_MOC]] — `vietnamese` (Vietnamese strategic & cultural analysis)
+- [[LLM_WIKI_MOC]] — `llm-wiki` (LLM Wiki subsystem)
 
 ---
 

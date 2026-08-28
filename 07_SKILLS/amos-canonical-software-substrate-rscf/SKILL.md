@@ -3,9 +3,7 @@ title: SKILL — Amos Canonical Software Substrate Rscf
 type: skill
 source: 07_SKILLS/amos-canonical-software-substrate-rscf
 name: amos-canonical-software-substrate-rscf
-description: Canonical Software Substrate — canon and universe capability. Use when canon reasoning, universe-level
-  analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized
-  capability.
+description: Canonical Software Substrate — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -191,6 +189,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic structural analysis outside the canon framework
+- To claim empirical validation of consciousness or civilization theories
+- As a substitute for domain-specific historical or scientific evidence
+- Outside canon/universe domain reasoning
 
 ## References
 

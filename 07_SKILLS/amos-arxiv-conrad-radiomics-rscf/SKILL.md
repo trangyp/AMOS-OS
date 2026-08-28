@@ -3,8 +3,7 @@ title: SKILL — Amos Arxiv Conrad Radiomics Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-conrad-radiomics-rscf
 name: amos-arxiv-conrad-radiomics-rscf
-description: Arxiv Conrad Radiomics — arxiv research capability. Use when arxiv research, paper analysis,
-  or literature review. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Arxiv Conrad Radiomics — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -184,6 +183,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic document conversion outside arXiv/RSCF framework
+- To alter or fabricate scientific claims (source-faithful only)
+- As a substitute for domain-specific peer review or validation
+- Outside knowledge research domain reasoning
 
 ## References
 

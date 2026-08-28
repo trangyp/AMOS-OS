@@ -3,8 +3,7 @@ title: SKILL — Amos Entropy Lacunarity Governor
 type: skill
 source: 07_SKILLS/amos-entropy-lacunarity-governor
 name: amos-entropy-lacunarity-governor
-description: Entropy Lacunarity Governor — info capability. Use when executing the core capability within
-  this domain. Use when amos-information-theory-master routes to this specialized capability.
+description: Entropy Lacunarity Governor — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability. Do not use for generic tasks outside info domain.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
@@ -189,6 +188,13 @@ Entropy lacunarity governance is an AMOS_MODEL. It does not prove lacunarity pre
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic information analysis outside the information theory framework
+- To claim empirical validation of entropy or complexity theories
+- As a substitute for domain-specific information or complexity evidence
+- Outside information theory domain reasoning
 
 ## References
 

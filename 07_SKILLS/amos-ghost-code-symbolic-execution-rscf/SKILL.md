@@ -3,9 +3,7 @@ title: SKILL — Amos Ghost Code Symbolic Execution Rscf
 type: skill
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf
 name: amos-ghost-code-symbolic-execution-rscf
-description: Ghost Code Symbolic Execution — formal verification capability. Use when formal verification,
-  symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes
-  to this specialized capability.
+description: Ghost Code Symbolic Execution — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability. Do not use for generic tasks outside formal domain.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
@@ -201,6 +199,13 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic mathematical analysis outside the formal verification framework
+- To claim physical quantum mechanics predictions (AMOS_MODEL only)
+- As a substitute for domain-specific numerical or optimization evidence
+- Outside formal/math domain reasoning
 
 ## References
 

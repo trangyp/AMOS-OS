@@ -3,9 +3,7 @@ title: SKILL — Amos Adversarial Entropy Accountant
 type: skill
 source: 07_SKILLS/amos-adversarial-entropy-accountant
 name: amos-adversarial-entropy-accountant
-description: Adversarial Entropy Accountant — security and safety capability. Use when security analysis,
-  safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized
-  capability.
+description: Adversarial Entropy Accountant — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic tasks outside security domain.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
@@ -191,6 +189,13 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic security analysis outside the AMOS security framework
+- To claim empirical validation of adversarial defense theories
+- As a substitute for domain-specific security or safety evidence
+- Outside security/safety domain reasoning
 
 ## References
 

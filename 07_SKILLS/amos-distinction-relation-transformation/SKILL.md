@@ -3,9 +3,7 @@ title: SKILL — Amos Distinction Relation Transformation
 type: skill
 source: 07_SKILLS/amos-distinction-relation-transformation
 name: amos-distinction-relation-transformation
-description: Distinction Relation Transformation — super engines capability. Use when super-engine reasoning,
-  consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this
-  specialized capability.
+description: Distinction Relation Transformation — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability. Do not use for generic tasks outside super domain.
 parent_skill: amos-super-engines-master
 domain: super
 origin_architect: Trang Phan
@@ -187,6 +185,13 @@ DRT is an analytical framework. It does not prove all reality can be decomposed 
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic consciousness analysis outside the super-engine framework
+- To claim empirical validation of consciousness or mega-engine theories
+- As a substitute for domain-specific cognitive or consciousness evidence
+- Outside super-engine domain reasoning
 
 ## References
 

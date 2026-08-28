@@ -3,8 +3,7 @@ title: SKILL — Amos Measurement Integrity Auditor
 type: skill
 source: 07_SKILLS/amos-measurement-integrity-auditor
 name: amos-measurement-integrity-auditor
-description: Measurement Integrity Auditor — audit and repair capability. Use when auditing, failure analysis,
-  gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
+description: Measurement Integrity Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -193,6 +192,13 @@ Measurement integrity auditing is an operational governance construct. It does n
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic audit analysis outside the AMOS audit/repair framework
+- To claim empirical validation of repair or recovery theories
+- As a substitute for domain-specific audit or quality evidence
+- Outside audit/repair domain reasoning
 
 ## References
 

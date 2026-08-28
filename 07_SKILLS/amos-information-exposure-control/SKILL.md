@@ -3,8 +3,7 @@ title: SKILL — Amos Information Exposure Control
 type: skill
 source: 07_SKILLS/amos-information-exposure-control
 name: amos-information-exposure-control
-description: Information Exposure Control — info capability. Use when executing the core capability within
-  this domain. Use when amos-information-theory-master routes to this specialized capability.
+description: Information Exposure Control — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability. Do not use for generic tasks outside info domain.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
@@ -187,6 +186,13 @@ Information exposure control is a security construct. It does not prove all expo
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic information analysis outside the information theory framework
+- To claim empirical validation of entropy or complexity theories
+- As a substitute for domain-specific information or complexity evidence
+- Outside information theory domain reasoning
 
 ## References
 

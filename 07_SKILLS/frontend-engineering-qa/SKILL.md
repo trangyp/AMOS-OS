@@ -3,9 +3,7 @@ title: SKILL — Frontend Engineering Qa
 type: skill
 source: 07_SKILLS/frontend-engineering-qa
 name: frontend-engineering-qa
-description: Frontend Engineering Qa — technology and engineering capability. Use when software development,
-  engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this
-  specialized capability.
+description: Frontend Engineering Qa — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability. Do not use for generic tasks outside c10 domain.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
@@ -192,6 +190,13 @@ Frontend engineering QA is an engineering process. It does not prove the UI is p
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic engineering analysis outside the tech/engineering framework
+- To claim empirical validation of software engineering laws
+- As a substitute for domain-specific technical or engineering evidence
+- Outside tech/engineering domain reasoning
 
 ## References
 

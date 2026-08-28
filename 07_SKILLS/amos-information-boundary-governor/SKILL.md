@@ -3,9 +3,7 @@ title: SKILL — Amos Information Boundary Governor
 type: skill
 source: 07_SKILLS/amos-information-boundary-governor
 name: amos-information-boundary-governor
-description: Information Boundary Governor — boundary and scope capability. Use when evaluating scope
-  boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to
-  this specialized capability.
+description: Information Boundary Governor — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability. Do not use for generic tasks outside boundary domain.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
@@ -188,6 +186,13 @@ Information boundary governance is an architectural construct. It does not prove
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic scope analysis outside the boundary/scope framework
+- To claim empirical validation of context continuity theories
+- As a substitute for domain-specific scope or boundary evidence
+- Outside boundary/scope domain reasoning
 
 ## References
 

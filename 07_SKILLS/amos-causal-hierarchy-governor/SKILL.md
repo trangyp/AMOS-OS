@@ -3,9 +3,7 @@ title: SKILL — Amos Causal Hierarchy Governor
 type: skill
 source: 07_SKILLS/amos-causal-hierarchy-governor
 name: amos-causal-hierarchy-governor
-description: Causal Hierarchy Governor — causal reasoning capability. Use when causal analysis, counterfactual
-  reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized
-  capability.
+description: Causal Hierarchy Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
@@ -196,6 +194,13 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic causal analysis outside the AMOS causal framework
+- To claim empirical validation of causal closure or hierarchy theories
+- As a substitute for domain-specific causal or counterfactual evidence
+- Outside causal reasoning domain reasoning
 
 ## References
 

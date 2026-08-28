@@ -3,8 +3,7 @@ title: SKILL — Amos Knowledge Research Master
 type: skill
 source: 07_SKILLS/amos-knowledge-research-master
 name: amos-knowledge-research-master
-description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing,
-  curation, RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc...
+description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use when knowledge management, researc. Do not use for generic tasks outside knowledge domain.
 parent_skill: none
 domain: knowledge
 origin_architect: Trang Phan
@@ -199,6 +198,13 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic knowledge management outside the AMOS knowledge framework
+- To claim empirical validation of knowledge representation theories
+- As a substitute for domain-specific research or curatorial evidence
+- Outside knowledge research domain reasoning
 
 ## References
 

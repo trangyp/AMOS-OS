@@ -182,6 +182,13 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic physics analysis outside the physics/cosmos framework
+- To claim empirical validation of physical theories (AMOS_MODEL only)
+- As a substitute for domain-specific physics or cosmological evidence
+- Outside physics/cosmos domain reasoning
+
 ## References
 
 - `references/11k_quantum_library.md` — loaded on demand

@@ -3,9 +3,7 @@ title: SKILL — Amos Risk Constraint Governor
 type: skill
 source: 07_SKILLS/amos-risk-constraint-governor
 name: amos-risk-constraint-governor
-description: Risk Constraint Governor — organization, law and policy capability. Use when governance design,
-  legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized
-  capability.
+description: Risk Constraint Governor — organization, law and policy capability. Use when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized capability. Do not use for generic tasks outside c09 domain.
 parent_skill: amos-c09-org-law-policy-master
 domain: c09
 origin_architect: Trang Phan
@@ -193,6 +191,13 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic governance analysis outside the org/law/policy framework
+- To claim empirical validation of governance or legal theories
+- As a substitute for domain-specific legal or compliance evidence
+- Outside org/law/policy domain reasoning
 
 ## References
 

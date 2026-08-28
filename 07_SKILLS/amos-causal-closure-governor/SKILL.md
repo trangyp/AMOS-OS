@@ -3,9 +3,7 @@ title: SKILL — Amos Causal Closure Governor
 type: skill
 source: 07_SKILLS/amos-causal-closure-governor
 name: amos-causal-closure-governor
-description: Causal Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual
-  reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized
-  capability.
+description: Causal Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
@@ -192,6 +190,13 @@ Causal closure is an architectural principle, not a metaphysical claim. It does 
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic causal analysis outside the AMOS causal framework
+- To claim empirical validation of causal closure or hierarchy theories
+- As a substitute for domain-specific causal or counterfactual evidence
+- Outside causal reasoning domain reasoning
 
 ## References
 

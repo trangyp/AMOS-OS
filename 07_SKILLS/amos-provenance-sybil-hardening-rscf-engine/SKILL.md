@@ -3,9 +3,7 @@ title: SKILL — Amos Provenance Sybil Hardening Rscf Engine
 type: skill
 source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine
 name: amos-provenance-sybil-hardening-rscf-engine
-description: Provenance Sybil Hardening — security and safety capability. Use when security analysis,
-  safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized
-  capability.
+description: Provenance Sybil Hardening — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic tasks outside security domain.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
@@ -234,6 +232,13 @@ Status:
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic security analysis outside the AMOS security framework
+- To claim empirical validation of adversarial defense theories
+- As a substitute for domain-specific security or safety evidence
+- Outside security/safety domain reasoning
 
 ## References
 

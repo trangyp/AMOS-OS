@@ -3,8 +3,7 @@ title: SKILL — Amos Agent Systems Master
 type: skill
 source: 07_SKILLS/amos-agent-systems-master
 name: amos-agent-systems-master
-description: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy
-  governance, agent-to-agent protocols. Use for agent design, delegation reasoning, or multi-agent govern...
+description: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy governance, agent-to-agent protocols. Use when agent design, delegation reasoning, or multi-agent govern. Do not use for generic tasks outside agent domain.
 parent_skill: none
 domain: agent
 origin_architect: Trang Phan
@@ -186,6 +185,13 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic agent fabrication outside the AMOS agent framework
+- To claim empirical validation of multi-agent theories
+- As a substitute for domain-specific agent design or delegation evidence
+- Outside agent systems domain reasoning
 
 ## References
 

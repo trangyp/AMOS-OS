@@ -1,11 +1,6 @@
 ---
 name: amos-c05-mind-behavior-master
-description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine
-  v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use
-  when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group
-  dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social
-  dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for
-  generic tasks outside c05 domain.
+description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for generic tasks outside c05 domain.
 parent_skill: none
 domain: c05
 origin_architect: Trang Phan
@@ -228,6 +223,13 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 - **Domain boundary violation**: Flag and refuse cross-domain claims without bridge typing
 - **Clinical scope violation**: Refuse clinical diagnosis attempts, redirect to appropriate domain
 - **Cultural context missing**: Flag as context-dependent, do not assert universal norms
+
+## Do not use
+
+- For generic psychological analysis outside the mind/behavior framework
+- To claim empirical validation of consciousness or cognitive theories
+- As a substitute for domain-specific psychological or psychiatric evidence
+- Outside mind/behavior domain reasoning
 
 ## References
 

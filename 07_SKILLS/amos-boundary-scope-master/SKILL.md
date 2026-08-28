@@ -3,8 +3,7 @@ title: SKILL — Amos Boundary Scope Master
 type: skill
 source: 07_SKILLS/amos-boundary-scope-master
 name: amos-boundary-scope-master
-description: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability
-  bounds. Use for scope analysis, boundary reasoning, or context management.
+description: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Use when scope analysis, boundary reasoning, or context management. Do not use for generic tasks outside boundary domain.
 parent_skill: none
 domain: boundary
 origin_architect: Trang Phan
@@ -205,6 +204,13 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic scope analysis outside the boundary/scope framework
+- To claim empirical validation of context continuity theories
+- As a substitute for domain-specific scope or boundary evidence
+- Outside boundary/scope domain reasoning
 
 ## References
 

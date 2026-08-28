@@ -3,9 +3,7 @@ title: SKILL — Software Engineering Qa
 type: skill
 source: 07_SKILLS/software-engineering-qa
 name: software-engineering-qa
-description: Production software QA agent for repository understanding, debugging, repair, testing, architecture
-  validation, responsive/UI QA, accessibility, APIs, databases, CI/CD, security, release validation, provenance,
-  and regression safety. Use when performing software QA, debugging, testing, or release validation.
+description: Production software QA agent for repository understanding, debugging, repair, testing, architecture validation, responsive/UI QA, accessibility, APIs, databases, CI/CD, security, release validation, provenance, and regression safety. Use when performing software QA, debugging, testing, or release validation. Do not use for generic tasks outside c10 domain.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
@@ -177,6 +175,13 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic engineering analysis outside the tech/engineering framework
+- To claim empirical validation of software engineering laws
+- As a substitute for domain-specific technical or engineering evidence
+- Outside tech/engineering domain reasoning
 
 ## References
 

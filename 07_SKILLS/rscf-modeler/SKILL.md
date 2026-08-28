@@ -3,8 +3,7 @@ title: SKILL — Rscf Modeler
 type: skill
 source: 07_SKILLS/rscf-modeler
 name: rscf-modeler
-description: Rscf Modeler — agent systems capability. Use when agent design, delegation reasoning, or
-  multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability.
+description: Rscf Modeler — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability. Do not use for generic tasks outside agent domain.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
@@ -191,6 +190,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic agent fabrication outside the AMOS agent framework
+- To claim empirical validation of multi-agent theories
+- As a substitute for domain-specific agent design or delegation evidence
+- Outside agent systems domain reasoning
 
 ## References
 

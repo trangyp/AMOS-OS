@@ -3,8 +3,7 @@ title: SKILL — Amos C06 Society Culture Master
 type: skill
 source: 07_SKILLS/amos-c06-society-culture-master
 name: amos-c06-society-culture-master
-description: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional
-  analysis, linguistic patterns, anthropology. Use for social analysis, cultural reasoning, or Vietnamese...
+description: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic patterns, anthropology. Use when social analysis, cultural reasoning, or Vietnamese. Do not use for generic tasks outside c06 domain.
 parent_skill: none
 domain: c06
 origin_architect: Trang Phan
@@ -280,6 +279,20 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 
 > **Reference**: See `references/vn_labor_shortage_report.md` (content_hash: ee73008d6132e41d) for the Vietnam Labor Shortage Deep Report (labor shortage, workforce, Vietnamese).
+
+## Validation Gates
+
+- **L0 Integrity**: All cultural frameworks (F01-F10) accounted for; no part silently dropped
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope; no scope creep into domain-specific analysis
+- **L7 Authority**: No autonomous action beyond authority boundary
+
+## Do not use
+
+- For generic tasks outside c06 domain (social analysis, cultural reasoning, Vietnamese language)
+- As a substitute for domain-specific cultural analysis
+- For empirical claims about social dynamics without evidence
+- Outside the AMOS canon law hierarchy
 
 ## References
 

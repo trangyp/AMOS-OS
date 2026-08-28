@@ -3,9 +3,7 @@ title: SKILL — Amos C04 Bio Neuro Master
 type: skill
 source: 07_SKILLS/amos-c04-bio-neuro-master
 name: amos-c04-bio-neuro-master
-description: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence,
-  genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological
-  ...
+description: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use when biological . Do not use for generic tasks outside c04 domain.
 parent_skill: none
 domain: c04
 origin_architect: Trang Phan
@@ -193,6 +191,13 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic biological analysis outside the bio/neuro framework
+- To claim empirical validation of biological intelligence laws
+- As a substitute for domain-specific medical or neuroscience evidence
+- Outside biology/neuroscience domain reasoning
 
 ## References
 

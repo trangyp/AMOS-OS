@@ -1,4 +1,5 @@
 ---
+name: amos-law-stack-enforcement
 title: SKILL — Amos Law Stack Enforcement
 type: note
 source: 07_SKILLS/amos-law-stack-enforcement
@@ -40,12 +41,7 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates
-  Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger
-  integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4
-  hierarchy, or when a draft law short-circuits canonical order. Use whenever the user mentions law stack,
-  enforcement, invariants, rule hierarchy, LoL, R2, R4, or scale-transition validation — even without
-  explicitly asking for 'law stack'.
+description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Use whenever the user mentions law stack, enforcement, invariants, rule hierarchy, LoL, R2, R4, or scale-transition validation — even without explicitly asking for 'law stack'. Do not use for for generic tasks outside the declared amos domain.
 ---
 
 # AMOS Law Stack Enforcement
@@ -90,6 +86,13 @@ Vault-generated from law stack enforcement research (2026-08-25)
 ## Epistemic Boundary
 This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most-cited framework in the vault (official manual 743 lines) with ZERO executable enforcement previously. Created to fill the G3 'Law Stack' gate which had no defined checks. Contradictory drafts short-circuit: LoL→R2→R4 order must be preserved, and R4 quadrant completeness requires declared canonical family (UBI/TSS/PSI/QLS).
 
+
+## Do not use
+
+- For generic tasks outside the declared AMOS domain
+- As a substitute for domain-specific analysis
+- For empirical claims without evidence
+- Outside the AMOS canon law hierarchy
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme

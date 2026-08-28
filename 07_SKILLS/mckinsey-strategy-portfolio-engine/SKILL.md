@@ -3,9 +3,7 @@ title: SKILL — Mckinsey Strategy Portfolio Engine
 type: skill
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine
 name: mckinsey-strategy-portfolio-engine
-description: Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic analysis, business
-  consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized
-  capability.
+description: Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside mckinsey domain.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
@@ -184,6 +182,13 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic business analysis outside the McKinsey framework
+- To claim empirical validation of consulting methodologies
+- As a substitute for domain-specific industry or market evidence
+- Outside McKinsey/strategy domain reasoning
 
 ## References
 

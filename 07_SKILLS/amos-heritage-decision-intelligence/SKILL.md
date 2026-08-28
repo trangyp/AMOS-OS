@@ -3,9 +3,7 @@ title: SKILL — Amos Heritage Decision Intelligence
 type: skill
 source: 07_SKILLS/amos-heritage-decision-intelligence
 name: amos-heritage-decision-intelligence
-description: Heritage Decision Intelligence — society and culture capability. Use when social analysis,
-  cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this
-  specialized capability.
+description: Heritage Decision Intelligence — society and culture capability. Use when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability. Do not use for generic tasks outside c06 domain.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
@@ -191,6 +189,13 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic social analysis outside the society/culture framework
+- To claim empirical validation of civilizational survival laws
+- As a substitute for domain-specific historical or anthropological evidence
+- Outside society/culture domain reasoning
 
 ## References
 

@@ -190,6 +190,13 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic design analysis outside the design/language framework
+- To claim empirical validation of aesthetic or linguistic theories
+- As a substitute for domain-specific design or language evidence
+- Outside design/language domain reasoning
+
 ## References
 
 - `references/academic_writing_engine.md` — loaded on demand

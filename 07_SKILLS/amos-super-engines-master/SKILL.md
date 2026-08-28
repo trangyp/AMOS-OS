@@ -3,9 +3,7 @@ title: SKILL — Amos Super Engines Master
 type: skill
 source: 07_SKILLS/amos-super-engines-master
 name: amos-super-engines-master
-description: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants.
-  Cognition + Emotion + Consciousness triad. Use for super-engine reasoning, consciousness emulation,
-  or...
+description: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants. Cognition + Emotion + Consciousness triad. Use when super-engine reasoning, consciousness emulation, or. Do not use for generic tasks outside super domain.
 parent_skill: none
 domain: super
 origin_architect: Trang Phan
@@ -180,6 +178,13 @@ AMOS Cognitive Organism OS is an operational systems architecture. It does not p
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic consciousness analysis outside the super-engine framework
+- To claim empirical validation of consciousness or mega-engine theories
+- As a substitute for domain-specific cognitive or consciousness evidence
+- Outside super-engine domain reasoning
 
 ## References
 

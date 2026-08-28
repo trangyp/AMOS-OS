@@ -3,9 +3,7 @@ title: SKILL — Amos Symbolic Path Reasoning Rscf
 type: skill
 source: 07_SKILLS/amos-symbolic-path-reasoning-rscf
 name: amos-symbolic-path-reasoning-rscf
-description: Symbolic Path Reasoning — formal verification capability. Use when formal verification, symbolic
-  execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to
-  this specialized capability.
+description: Symbolic Path Reasoning — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability. Do not use for generic tasks outside formal domain.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
@@ -193,6 +191,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic mathematical analysis outside the formal verification framework
+- To claim physical quantum mechanics predictions (AMOS_MODEL only)
+- As a substitute for domain-specific numerical or optimization evidence
+- Outside formal/math domain reasoning
 
 ## References
 

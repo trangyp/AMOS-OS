@@ -3,9 +3,7 @@ title: SKILL — Amos Emergent Social Intelligence Risk Rscf
 type: skill
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf
 name: amos-emergent-social-intelligence-risk-rscf
-description: Emergent Social Intelligence Risk — society and culture capability. Use when social analysis,
-  cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this
-  specialized capability.
+description: Emergent Social Intelligence Risk — society and culture capability. Use when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability. Do not use for generic tasks outside c06 domain.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
@@ -190,6 +188,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic social analysis outside the society/culture framework
+- To claim empirical validation of civilizational survival laws
+- As a substitute for domain-specific historical or anthropological evidence
+- Outside society/culture domain reasoning
 
 ## References
 

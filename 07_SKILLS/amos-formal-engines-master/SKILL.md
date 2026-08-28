@@ -3,9 +3,7 @@ title: SKILL — Amos Formal Engines Master
 type: skill
 source: 07_SKILLS/amos-formal-engines-master
 name: amos-formal-engines-master
-description: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal specifications,
-  proof systems. 6 typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) with 5-check axis table. Use for formal
-  re...
+description: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal specifications, proof systems. 6 typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) with 5-check axis table. Use when formal re. Do not use for generic tasks outside formal domain.
 parent_skill: none
 domain: formal
 origin_architect: Trang Phan
@@ -195,6 +193,13 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic mathematical analysis outside the formal verification framework
+- To claim physical quantum mechanics predictions (AMOS_MODEL only)
+- As a substitute for domain-specific numerical or optimization evidence
+- Outside formal/math domain reasoning
 
 ## References
 

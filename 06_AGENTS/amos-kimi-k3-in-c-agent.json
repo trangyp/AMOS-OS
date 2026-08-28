@@ -1,0 +1,195 @@
+{
+  "name": "amos-kimi-k3-in-c-agent",
+  "display_name": "Kimi K3 in C",
+  "description": "AMOS agent for building, testing, and running the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Kimi K3 C inference engine build, test, and run operator.",
+  "skill_binding": {
+    "primary_skill": "kimi-k3-in-c",
+    "skill_path": ".devin/skills/kimi-k3-in-c/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "k3_in_c.build",
+      "description": "Compile the K3 C99 engine from source with or without OpenMP.",
+      "side_effect": "execute"
+    },
+    {
+      "name": "k3_in_c.test",
+      "description": "Run the weightless test suite and report gate results.",
+      "side_effect": "execute"
+    },
+    {
+      "name": "k3_in_c.run",
+      "description": "Execute bin/k3 with a local checkpoint and chosen preset.",
+      "side_effect": "execute"
+    },
+    {
+      "name": "k3_in_c.diagnose",
+      "description": "Run the k3-doctor script on Linux to check toolchain, storage, and RAM. On macOS use bin/k3 --list-presets and df -h.",
+      "side_effect": "execute"
+    },
+    {
+      "name": "k3_in_c.budget",
+      "description": "Compute memory budgets for a target preset and model directory containing .safetensors shards.",
+      "side_effect": "execute"
+    },
+    {
+      "name": "k3_in_c.info",
+      "description": "Show help, presets, version, and architecture notes.",
+      "side_effect": "read"
+    },
+    {
+      "name": "k3_in_c.preset",
+      "description": "Select or validate memory preset configurations.",
+      "side_effect": "read"
+    },
+    {
+      "name": "k3_in_c.verify",
+      "description": "Confirm downloaded checkpoint byte totals and shard sizes.",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    {
+      "step": 1,
+      "action": "Load the kimi-k3-in-c skill and verify the repository is present or can be cloned.",
+      "gate": "skill_loaded"
+    },
+    {
+      "step": 2,
+      "action": "Classify the request against k3_in_c capabilities.",
+      "gate": "capability_confirmed"
+    },
+    {
+      "step": 3,
+      "action": "Execute the matching capability, using OMP_CFLAGS= OMP_LDFLAGS= on macOS without libomp.",
+      "gate": "capability_executed"
+    },
+    {
+      "step": 4,
+      "action": "Validate output against expected pass/fail signals.",
+      "gate": "validation_passed"
+    },
+    {
+      "step": 5,
+      "action": "Return structured results with epistemic class and provenance.",
+      "gate": "output_validated"
+    }
+  ],
+  "integrity_requirements": [
+    "Do not claim the open-source engine is the official Moonshot Kimi K3 product.",
+    "Never download 1.56 TB checkpoints without user confirmation and storage check.",
+    "Use SOURCE_CLAIM for repository-provided figures and AMOS_MODEL for local build commands."
+  ],
+  "safety_constraints": [
+    "No claim beyond repository contents or explicitly labeled AMOS_MODEL.",
+    "Fail closed on missing checkpoint, missing libomp, or failed test gates."
+  ],
+  "depends_on_skills": [
+    "kimi-k3-in-c"
+  ],
+  "depends_on_workflows": [
+    "kimi-k3-in-c-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "c10-tech-engineering",
+    "risk_tier": "medium",
+    "observability": "structured_logs",
+    "approval_mode": "steward_review",
+    "promotion_state": "production"
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-kimi-k3-in-c-agent.json",
+    "class": null,
+    "executable": false
+  },
+  "content_hash": "3f8c0f139b55591f",
+  "version": "1.0.0",
+  "reasoning_pattern": "Plan-Execute-Validate",
+  "termination_criteria": {
+    "max_steps": 8,
+    "max_tokens": 4000,
+    "stop_on_confidence_below": 0.3,
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true,
+    "human_in_the_loop": false
+  },
+  "error_recovery": {
+    "on_timeout": "return partial result with GAP flag",
+    "on_scope_violation": "reject and route to parent",
+    "on_contradiction": "flag CRITICAL_GAP and halt",
+    "on_provenance_loss": "mark as UNKNOWN and request human review",
+    "on_drift": "trigger drift alignment governor"
+  },
+  "context_management": {
+    "strategy": "progressive_disclosure",
+    "max_context_tokens": 2000,
+    "compaction_threshold": 0.8,
+    "scratchpad_enabled": true
+  },
+  "evaluation_metrics": {
+    "success_rate_target": 0.9,
+    "false_positive_rate_max": 0.1,
+    "avg_steps_target": 3.0,
+    "provenance_coverage_target": 1.0
+  },
+  "composition_rules": {
+    "can_delegate_to": [],
+    "can_receive_from": [],
+    "max_chain_depth": 2,
+    "requires_orchestrator": false
+  },
+  "observability": {
+    "trace_level": "full",
+    "log_inputs": true,
+    "log_outputs": true,
+    "log_intermediate": true,
+    "metrics_enabled": true
+  },
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/c10-tech-engineering",
+    "rscf/source_claim",
+    "hml/m",
+    "epistemic/amos_model",
+    "amos_os"
+  ],
+  "origin_architect": "Trang Phan",
+  "rscf_state": "SOURCE_CLAIM",
+  "hml_level": "M",
+  "gmef_gates": [
+    "L0_integrity",
+    "L1_epistemic",
+    "L2_provenance",
+    "L5_scope",
+    "L7_authority"
+  ],
+  "collapse_class": "reversible",
+  "qfm_gate_set": "QFM_v43",
+  "law_compliance": [
+    "L0",
+    "L1",
+    "L2",
+    "L4",
+    "L5",
+    "L7",
+    "L16",
+    "L17",
+    "L18"
+  ],
+  "domain": "c10-tech-engineering"
+}

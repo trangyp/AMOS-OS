@@ -3,9 +3,7 @@ title: SKILL — Amos Human State Ontology Mapper
 type: skill
 source: 07_SKILLS/amos-human-state-ontology-mapper
 name: amos-human-state-ontology-mapper
-description: Human State Ontology Mapper — canon and universe capability. Use when canon reasoning, universe-level
-  analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized
-  capability.
+description: Human State Ontology Mapper — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability. Do not use for generic tasks outside canon domain.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
@@ -190,6 +188,13 @@ Human state ontology mapping is an analytical model. It does not prove all human
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic structural analysis outside the canon framework
+- To claim empirical validation of consciousness or civilization theories
+- As a substitute for domain-specific historical or scientific evidence
+- Outside canon/universe domain reasoning
 
 ## References
 

@@ -3,9 +3,7 @@ title: SKILL — Amos Canon Universe Master
 type: skill
 source: 07_SKILLS/amos-canon-universe-master
 name: amos-canon-universe-master
-description: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy,
-  universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant
-  ver...
+description: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, universe-scale canonical structures. Use when canon reasoning, universe-level analysis, or invariant ver. Do not use for generic tasks outside canon domain.
 parent_skill: none
 domain: canon
 origin_architect: Trang Phan
@@ -181,6 +179,13 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic structural analysis outside the canon framework
+- To claim empirical validation of consciousness or civilization theories
+- As a substitute for domain-specific historical or scientific evidence
+- Outside canon/universe domain reasoning
 
 ## References
 

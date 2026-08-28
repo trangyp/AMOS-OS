@@ -3,9 +3,7 @@ title: SKILL — Amos Awareness Inference Governor
 type: skill
 source: 07_SKILLS/amos-awareness-inference-governor
 name: amos-awareness-inference-governor
-description: Awareness Inference Governor — mind and behavior capability. Use when psychological analysis,
-  behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized
-  capability.
+description: Awareness Inference Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
@@ -183,6 +181,13 @@ Awareness inference governance is an epistemic construct. It does not prove the 
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic psychological analysis outside the mind/behavior framework
+- To claim empirical validation of consciousness or cognitive theories
+- As a substitute for domain-specific psychological or psychiatric evidence
+- Outside mind/behavior domain reasoning
 
 ## References
 

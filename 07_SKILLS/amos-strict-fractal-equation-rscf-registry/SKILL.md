@@ -3,9 +3,7 @@ title: SKILL — Amos Strict Fractal Equation Rscf Registry
 type: skill
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry
 name: amos-strict-fractal-equation-rscf-registry
-description: Strict Fractal Equation Rscf Registry — fractal systems capability. Use when fractal analysis,
-  scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized
-  capability.
+description: Strict Fractal Equation Rscf Registry — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized capability. Do not use for generic tasks outside fractal domain.
 parent_skill: amos-fractal-systems-master
 domain: fractal
 origin_architect: Trang Phan
@@ -185,6 +183,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic fractal analysis outside the fractal systems framework
+- To claim empirical validation of self-similarity or scale theories
+- As a substitute for domain-specific fractal or scale evidence
+- Outside fractal systems domain reasoning
 
 ## References
 

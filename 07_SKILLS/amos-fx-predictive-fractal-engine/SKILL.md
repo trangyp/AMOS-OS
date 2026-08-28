@@ -3,8 +3,7 @@ title: SKILL — Amos Fx Predictive Fractal Engine
 type: skill
 source: 07_SKILLS/amos-fx-predictive-fractal-engine
 name: amos-fx-predictive-fractal-engine
-description: Predictive Fractal Engine — forex and finance capability. Use when forex analysis, currency
-  trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Predictive Fractal Engine — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
@@ -185,6 +184,13 @@ FX predictive fractal engine is an analytical model. It does not prove fractal p
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic financial analysis outside the forex/engine framework
+- To claim empirical validation of market efficiency or pricing models
+- As a substitute for domain-specific financial or economic evidence
+- Outside forex/finance domain reasoning
 
 ## References
 

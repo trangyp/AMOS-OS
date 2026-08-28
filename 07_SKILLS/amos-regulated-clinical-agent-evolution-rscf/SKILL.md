@@ -3,9 +3,7 @@ title: SKILL — Amos Regulated Clinical Agent Evolution Rscf
 type: skill
 source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf
 name: amos-regulated-clinical-agent-evolution-rscf
-description: Regulated Clinical Agent Evolution — technology and engineering capability. Use when software
-  development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master
-  routes to this specialized capability.
+description: Regulated Clinical Agent Evolution — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability. Do not use for generic tasks outside c10 domain.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
@@ -189,6 +187,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic engineering analysis outside the tech/engineering framework
+- To claim empirical validation of software engineering laws
+- As a substitute for domain-specific technical or engineering evidence
+- Outside tech/engineering domain reasoning
 
 ## References
 

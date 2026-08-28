@@ -158,6 +158,13 @@ BELIEF_UPDA
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic analysis outside the mind_behavior framework
+- To claim empirical validation without domain-specific evidence
+- As a substitute for domain-specific evidence
+- Outside mind_behavior domain reasoning
+
 ## References
 
 - `references/pragmatic_action.md` — loaded on demand

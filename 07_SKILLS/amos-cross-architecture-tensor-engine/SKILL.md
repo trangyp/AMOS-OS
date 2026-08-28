@@ -3,9 +3,7 @@ title: SKILL — Amos Cross Architecture Tensor Engine
 type: skill
 source: 07_SKILLS/amos-cross-architecture-tensor-engine
 name: amos-cross-architecture-tensor-engine
-description: Cross Architecture Tensor Engine — formal verification capability. Use when formal verification,
-  symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes
-  to this specialized capability.
+description: Cross Architecture Tensor Engine — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability. Do not use for generic tasks outside formal domain.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
@@ -193,6 +191,13 @@ Cross-architecture tensor engine is an AMOS_MODEL. It does not prove all archite
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic mathematical analysis outside the formal verification framework
+- To claim physical quantum mechanics predictions (AMOS_MODEL only)
+- As a substitute for domain-specific numerical or optimization evidence
+- Outside formal/math domain reasoning
 
 ## References
 

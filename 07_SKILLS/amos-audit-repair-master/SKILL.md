@@ -3,8 +3,7 @@ title: SKILL — Amos Audit Repair Master
 type: skill
 source: 07_SKILLS/amos-audit-repair-master
 name: amos-audit-repair-master
-description: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates,
-  repair allocation. Use for system auditing, gap analysis, or failure recovery.
+description: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use when system auditing, gap analysis, or failure recovery. Do not use for generic tasks outside audit domain.
 parent_skill: none
 domain: audit
 origin_architect: Trang Phan
@@ -182,6 +181,13 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic audit analysis outside the AMOS audit/repair framework
+- To claim empirical validation of repair or recovery theories
+- As a substitute for domain-specific audit or quality evidence
+- Outside audit/repair domain reasoning
 
 ## References
 

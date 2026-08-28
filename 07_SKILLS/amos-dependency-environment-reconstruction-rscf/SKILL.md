@@ -3,9 +3,7 @@ title: SKILL — Amos Dependency Environment Reconstruction Rscf
 type: skill
 source: 07_SKILLS/amos-dependency-environment-reconstruction-rscf
 name: amos-dependency-environment-reconstruction-rscf
-description: Dependency Environment Reconstruction — RSCF epistemic capability. Use when classifying claims
-  by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence
-  structure. Use when amos-rscf-epistemic-master rou...
+description: Dependency Environment Reconstruction — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master rou. Do not use for generic tasks outside rscf domain.
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
@@ -188,6 +186,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic epistemic analysis outside the RSCF framework
+- To claim empirical validation of epistemic classification theories
+- As a substitute for domain-specific evidence or provenance validation
+- Outside RSCF epistemic domain reasoning
 
 ## References
 

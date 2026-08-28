@@ -3,13 +3,7 @@ title: SKILL — Amos Workflow Builder
 type: skill
 source: 07_SKILLS/amos-workflow-builder
 name: amos-workflow-builder
-description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability
-  gaps, existing skills, agent bindings, engine/runtime specifications, or operational sequences. Use
-  when creating a new AMOS-aligned Workflow, strengthening a thin workflow, converting an AMOS engine/spec
-  into an operational workflow, checking agent-skill-workflow routing, separating operational steps from
-  validation gates, adding RSCF/HML/provenance/governance controls, validating step ordering and gate
-  enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized Workflow
-  factory; do not use it as a generic replacement for ordinary non-AMOS workflow creation.
+description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability gaps, existing skills, agent bindings, engine/runtime specifications, or operational sequences. Use when creating a new AMOS-aligned Workflow, strengthening a thin workflow, converting an AMOS engine/spec into an operational workflow, checking agent-skill-workflow routing, separating operational steps from validation gates, adding RSCF/HML/provenance/governance controls, validating step ordering and gate enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized Workflow factory; do not use it as a generic replacement for ordinary non-AMOS workflow creation.
 parent_skill: none
 domain: workflow
 origin_architect: Trang Phan
@@ -211,6 +205,13 @@ Do not ask again for information already available from the request, source bund
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic analysis outside the workflow framework
+- To claim empirical validation without domain-specific evidence
+- As a substitute for domain-specific evidence
+- Outside workflow domain reasoning
 
 ## References
 

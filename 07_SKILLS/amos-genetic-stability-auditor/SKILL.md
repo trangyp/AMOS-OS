@@ -3,8 +3,7 @@ title: SKILL — Amos Genetic Stability Auditor
 type: skill
 source: 07_SKILLS/amos-genetic-stability-auditor
 name: amos-genetic-stability-auditor
-description: Genetic Stability Auditor — audit and repair capability. Use when auditing, failure analysis,
-  gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
+description: Genetic Stability Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -229,6 +228,13 @@ Every system has Input gain (G_i) and Damping coefficient (D).
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic audit analysis outside the AMOS audit/repair framework
+- To claim empirical validation of repair or recovery theories
+- As a substitute for domain-specific audit or quality evidence
+- Outside audit/repair domain reasoning
 
 ## References
 

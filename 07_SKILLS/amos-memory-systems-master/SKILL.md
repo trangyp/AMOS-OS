@@ -3,8 +3,7 @@ title: SKILL — Amos Memory Systems Master
 type: skill
 source: 07_SKILLS/amos-memory-systems-master
 name: amos-memory-systems-master
-description: AMOS Memory Systems — 3 memory types, context compaction, memory conflict resolution, memory
-  immune system, action-memory firewall. Use for memory management, context continuity, or memory conflict...
+description: AMOS Memory Systems — 3 memory types, context compaction, memory conflict resolution, memory immune system, action-memory firewall. Use when memory management, context continuity, or memory conflict. Do not use for generic tasks outside memory domain.
 parent_skill: none
 domain: memory
 origin_architect: Trang Phan
@@ -175,6 +174,13 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic memory analysis outside the AMOS memory framework
+- To claim empirical validation of memory consolidation theories
+- As a substitute for domain-specific memory or context evidence
+- Outside memory systems domain reasoning
 
 ## References
 

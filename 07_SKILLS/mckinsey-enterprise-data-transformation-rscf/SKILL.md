@@ -3,9 +3,7 @@ title: SKILL — Mckinsey Enterprise Data Transformation Rscf
 type: skill
 source: 07_SKILLS/mckinsey-enterprise-data-transformation-rscf
 name: mckinsey-enterprise-data-transformation-rscf
-description: Enterprise Data Transformation — McKinsey strategic capability. Use when strategic analysis,
-  business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes
-  to this specialized capability.
+description: Enterprise Data Transformation — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside mckinsey domain.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
@@ -183,6 +181,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic business analysis outside the McKinsey framework
+- To claim empirical validation of consulting methodologies
+- As a substitute for domain-specific industry or market evidence
+- Outside McKinsey/strategy domain reasoning
 
 ## References
 

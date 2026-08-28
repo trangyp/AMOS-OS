@@ -3,8 +3,7 @@ title: SKILL — Amos Os Runtime Master
 type: skill
 source: 07_SKILLS/amos-os-runtime-master
 name: amos-os-runtime-master
-description: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize),
-  infrastructure control plane, deployment. Use for runtime reasoning,...
+description: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use when runtime reasoning,. Do not use for generic tasks outside runtime domain.
 parent_skill: none
 domain: runtime
 origin_architect: Trang Phan
@@ -175,6 +174,13 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic runtime analysis outside the AMOS OS/runtime framework
+- To claim empirical validation of OS or runtime theories
+- As a substitute for domain-specific runtime or infrastructure evidence
+- Outside runtime/OS domain reasoning
 
 ## References
 

@@ -3,9 +3,7 @@ title: SKILL — Amos Memory Conflict Governor
 type: skill
 source: 07_SKILLS/amos-memory-conflict-governor
 name: amos-memory-conflict-governor
-description: Memory Conflict Governor — memory systems capability. Use when memory management, context
-  continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized
-  capability.
+description: Memory Conflict Governor — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability. Do not use for generic tasks outside memory domain.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
@@ -194,6 +192,13 @@ Memory conflict governance is an operational construct. It does not prove all co
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic memory analysis outside the AMOS memory framework
+- To claim empirical validation of memory consolidation theories
+- As a substitute for domain-specific memory or context evidence
+- Outside memory systems domain reasoning
 
 ## References
 

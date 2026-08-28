@@ -3,9 +3,7 @@ title: SKILL — Amos Absolute Primitive Decomposer
 type: skill
 source: 07_SKILLS/amos-absolute-primitive-decomposer
 name: amos-absolute-primitive-decomposer
-description: Absolute Primitive Decomposer — runtime and OS capability. Use when runtime reasoning, OS
-  kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized
-  capability.
+description: Absolute Primitive Decomposer — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability. Do not use for generic tasks outside runtime domain.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
@@ -191,6 +189,13 @@ Absolute primitive decomposition is an analytical method. It does not prove the 
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic runtime analysis outside the AMOS OS/runtime framework
+- To claim empirical validation of OS or runtime theories
+- As a substitute for domain-specific runtime or infrastructure evidence
+- Outside runtime/OS domain reasoning
 
 ## References
 

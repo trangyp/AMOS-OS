@@ -3,9 +3,7 @@ title: SKILL — Amos Knowledge Harvest Runtime
 type: skill
 source: 07_SKILLS/amos-knowledge-harvest-runtime
 name: amos-knowledge-harvest-runtime
-description: Knowledge Harvest Runtime — knowledge research capability. Use when knowledge management,
-  research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized
-  capability.
+description: Knowledge Harvest Runtime — knowledge research capability. Use when knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside knowledge domain.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
@@ -187,6 +185,13 @@ Knowledge harvest runtime is an operational construct. It does not prove all kno
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic knowledge management outside the AMOS knowledge framework
+- To claim empirical validation of knowledge representation theories
+- As a substitute for domain-specific research or curatorial evidence
+- Outside knowledge research domain reasoning
 
 ## References
 

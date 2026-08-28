@@ -3,8 +3,7 @@ title: SKILL — Amos Agent Memory Dynamics Rscf Engine
 type: skill
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine
 name: amos-agent-memory-dynamics-rscf-engine
-description: Agent Memory Dynamics — memory systems capability. Use when memory management, context continuity,
-  or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability.
+description: Agent Memory Dynamics — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability. Do not use for generic tasks outside memory domain.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
@@ -202,6 +201,13 @@ AMOS has 36 agents organized into 7 canonical systems. This
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic memory analysis outside the AMOS memory framework
+- To claim empirical validation of memory consolidation theories
+- As a substitute for domain-specific memory or context evidence
+- Outside memory systems domain reasoning
 
 ## References
 

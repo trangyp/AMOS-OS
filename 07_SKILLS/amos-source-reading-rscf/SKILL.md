@@ -3,8 +3,7 @@ title: SKILL — Amos Source Reading Rscf
 type: skill
 source: 07_SKILLS/amos-source-reading-rscf
 name: amos-source-reading-rscf
-description: Source Reading — knowledge research capability. Use when knowledge management, research,
-  or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Source Reading — knowledge research capability. Use when knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside knowledge domain.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
@@ -184,6 +183,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic knowledge management outside the AMOS knowledge framework
+- To claim empirical validation of knowledge representation theories
+- As a substitute for domain-specific research or curatorial evidence
+- Outside knowledge research domain reasoning
 
 ## References
 

@@ -3,9 +3,7 @@ title: SKILL — Amos Translation Rscf Architecture
 type: skill
 source: 07_SKILLS/amos-translation-rscf-architecture
 name: amos-translation-rscf-architecture
-description: Translation Rscf Architecture — Trang framework capability. Use when Trang framework reasoning,
-  cascade analysis, or reality architecture. Use when amos-trang-framework-master routes to this specialized
-  capability.
+description: Translation Rscf Architecture — Trang framework capability. Use when Trang framework reasoning, cascade analysis, or reality architecture. Use when amos-trang-framework-master routes to this specialized capability. Do not use for generic tasks outside trang domain.
 parent_skill: amos-trang-framework-master
 domain: trang
 origin_architect: Trang Phan
@@ -190,6 +188,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic reality analysis outside the Trang framework
+- To claim empirical validation of cascade or collapse theories
+- As a substitute for domain-specific reality or ontology evidence
+- Outside Trang framework domain reasoning
 
 ## References
 

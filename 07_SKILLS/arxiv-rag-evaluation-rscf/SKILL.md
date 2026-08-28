@@ -3,8 +3,7 @@ title: SKILL — Arxiv Rag Evaluation Rscf
 type: skill
 source: 07_SKILLS/arxiv-rag-evaluation-rscf
 name: arxiv-rag-evaluation-rscf
-description: Rag Evaluation — arxiv research capability. Use when arxiv research, paper analysis, or literature
-  review. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Rag Evaluation — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -181,6 +180,13 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic document conversion outside arXiv/RSCF framework
+- To alter or fabricate scientific claims (source-faithful only)
+- As a substitute for domain-specific peer review or validation
+- Outside knowledge research domain reasoning
 
 ## References
 

@@ -3,9 +3,7 @@ title: SKILL — Obsidian Plugin Auto Tag
 type: skill
 source: 07_SKILLS/obsidian-plugin-auto-tag
 name: obsidian-plugin-auto-tag
-description: Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing,
-  or reconciling tags and frontmatter metadata in the Obsidian vault. Use when amos-knowledge-research-master
-  routes to this tool capability.
+description: Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing, or reconciling tags and frontmatter metadata in the Obsidian vault. Use when amos-knowledge-research-master routes to this tool capability. Do not use for for generic tasks outside the declared amos domain.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
@@ -125,6 +123,13 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 - **Origin architect**: Trang Phan
 - **External source**: https://github.com/CtrlAltFocus/obsidian-plugin-auto-tag
 
+
+## Do not use
+
+- For generic tasks outside the declared AMOS domain
+- As a substitute for domain-specific analysis
+- For empirical claims without evidence
+- Outside the AMOS canon law hierarchy
 ## References
 
 - `references/vault_domain_knowledge.md` — full plugin documentation and integration notes

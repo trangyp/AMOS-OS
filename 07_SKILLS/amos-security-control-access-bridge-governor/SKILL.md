@@ -174,6 +174,13 @@ The pipeline has 4 transition types:
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic analysis outside the cross-domain framework
+- To claim empirical validation without domain-specific evidence
+- As a substitute for domain-specific evidence
+- Outside cross-domain domain reasoning
+
 ## References
 
 - `references/references_MOC.md` — loaded on demand

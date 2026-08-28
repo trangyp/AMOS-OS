@@ -3,8 +3,7 @@ title: SKILL — Amos Law Hierarchy Resolver
 type: skill
 source: 07_SKILLS/amos-law-hierarchy-resolver
 name: amos-law-hierarchy-resolver
-description: Law Hierarchy Resolver — meta logic capability. Use when logic reasoning, decomposition,
-  or meta-law validation. Use when amos-c01-meta-logic-master routes to this specialized capability.
+description: Law Hierarchy Resolver — meta logic capability. Use when logic reasoning, decomposition, or meta-law validation. Use when amos-c01-meta-logic-master routes to this specialized capability. Do not use for generic tasks outside c01 domain.
 parent_skill: amos-c01-meta-logic-master
 domain: c01
 origin_architect: Trang Phan
@@ -197,6 +196,13 @@ Defines the structural quadrants that govern all higher-order system behavior.
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic logic analysis outside the meta-logic framework
+- To claim empirical validation of logical laws
+- As a substitute for domain-specific mathematical or logical evidence
+- Outside meta-logic domain reasoning
 
 ## References
 

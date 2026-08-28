@@ -3,8 +3,7 @@ title: SKILL — Amos Rscf Epistemic Master
 type: skill
 source: 07_SKILLS/amos-rscf-epistemic-master
 name: amos-rscf-epistemic-master
-description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence
-  ceiling. 6 state kinds. Use for epistemic classification, claim assessment, or evidence validation.
+description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence ceiling. 6 state kinds. Use when epistemic classification, claim assessment, or evidence validation. Do not use for generic tasks outside rscf domain.
 parent_skill: none
 domain: rscf
 origin_architect: Trang Phan
@@ -182,6 +181,13 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic epistemic analysis outside the RSCF framework
+- To claim empirical validation of epistemic classification theories
+- As a substitute for domain-specific evidence or provenance validation
+- Outside RSCF epistemic domain reasoning
 
 ## References
 

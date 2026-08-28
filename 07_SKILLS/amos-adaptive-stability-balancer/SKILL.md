@@ -188,6 +188,13 @@ within current constraints.
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
+## Do not use
+
+- For generic runtime analysis outside the AMOS OS/runtime framework
+- To claim empirical validation of OS or runtime theories
+- As a substitute for domain-specific runtime or infrastructure evidence
+- Outside runtime/OS domain reasoning
+
 ## References
 
 - `references/references_MOC.md` — loaded on demand

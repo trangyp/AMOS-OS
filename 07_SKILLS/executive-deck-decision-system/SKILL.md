@@ -3,9 +3,7 @@ title: SKILL — Executive Deck Decision System
 type: skill
 source: 07_SKILLS/executive-deck-decision-system
 name: executive-deck-decision-system
-description: Executive Deck Decision System — strategy and game theory capability. Use when strategic
-  analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this
-  specialized capability.
+description: Executive Deck Decision System — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside c08 domain.
 parent_skill: amos-c08-strategy-game-master
 domain: c08
 origin_architect: Trang Phan
@@ -191,6 +189,13 @@ The executive deck decision system is a communication tool. It does not prove th
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic strategic analysis outside the strategy/game framework
+- To claim empirical validation of evolutionary cycle laws
+- As a substitute for domain-specific market or competitive evidence
+- Outside strategy/game domain reasoning
 
 ## References
 

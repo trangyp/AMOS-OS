@@ -3,8 +3,7 @@ title: SKILL — Amos Prediction Governance
 type: skill
 source: 07_SKILLS/amos-prediction-governance
 name: amos-prediction-governance
-description: Prediction Governance — runtime and OS capability. Use when runtime reasoning, OS kernel
-  operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
+description: Prediction Governance — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability. Do not use for generic tasks outside runtime domain.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
@@ -194,6 +193,13 @@ Prediction governance is an epistemic construct. It does not prove predictions a
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic runtime analysis outside the AMOS OS/runtime framework
+- To claim empirical validation of OS or runtime theories
+- As a substitute for domain-specific runtime or infrastructure evidence
+- Outside runtime/OS domain reasoning
 
 ## References
 

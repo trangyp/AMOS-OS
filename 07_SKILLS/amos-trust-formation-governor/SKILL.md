@@ -3,9 +3,7 @@ title: SKILL — Amos Trust Formation Governor
 type: skill
 source: 07_SKILLS/amos-trust-formation-governor
 name: amos-trust-formation-governor
-description: Trust Formation Governor — organization, law and policy capability. Use when governance design,
-  legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized
-  capability.
+description: Trust Formation Governor — organization, law and policy capability. Use when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized capability. Do not use for generic tasks outside c09 domain.
 parent_skill: amos-c09-org-law-policy-master
 domain: c09
 origin_architect: Trang Phan
@@ -188,6 +186,13 @@ Trust formation governance is a social model. It does not prove trust is always 
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic governance analysis outside the org/law/policy framework
+- To claim empirical validation of governance or legal theories
+- As a substitute for domain-specific legal or compliance evidence
+- Outside org/law/policy domain reasoning
 
 ## References
 

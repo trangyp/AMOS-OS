@@ -3,8 +3,7 @@ title: SKILL — Amos Agent Economy Constitutional Governance Rscf
 type: skill
 source: 07_SKILLS/amos-agent-economy-constitutional-governance-rscf
 name: amos-agent-economy-constitutional-governance-rscf
-description: Agent Economy Constitutional Governance — econ capability. Use when executing the core capability
-  within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Agent Economy Constitutional Governance — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside econ domain.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
@@ -188,6 +187,13 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic economic analysis outside the econ/finance framework
+- To claim empirical validation of economic laws or market dynamics
+- As a substitute for domain-specific economic or financial evidence
+- Outside econ/finance domain reasoning
 
 ## References
 

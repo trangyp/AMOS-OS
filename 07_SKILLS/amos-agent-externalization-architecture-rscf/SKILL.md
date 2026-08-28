@@ -3,9 +3,7 @@ title: SKILL — Amos Agent Externalization Architecture Rscf
 type: skill
 source: 07_SKILLS/amos-agent-externalization-architecture-rscf
 name: amos-agent-externalization-architecture-rscf
-description: Agent Externalization Architecture — agent systems capability. Use when agent design, delegation
-  reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized
-  capability.
+description: Agent Externalization Architecture — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability. Do not use for generic tasks outside agent domain.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
@@ -214,6 +212,13 @@ AMOS Quantum Brain (416.349 performance score)
 - **On provenance loss**: Mark output as UNKNOWN and require human review
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
+
+## Do not use
+
+- For generic agent fabrication outside the AMOS agent framework
+- To claim empirical validation of multi-agent theories
+- As a substitute for domain-specific agent design or delegation evidence
+- Outside agent systems domain reasoning
 
 ## References
 
