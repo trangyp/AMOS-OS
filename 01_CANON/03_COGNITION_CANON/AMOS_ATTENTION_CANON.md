@@ -730,22 +730,22 @@ CANON PROMOTION
 
 This artifact MUST NOT be used to claim:
 
-* universal laws of attention;
-* neuroscience of attention;
-* biological attention mechanisms;
-* psychological laws;
-* conscious awareness;
-* machine consciousness;
-* transformer attention architecture;
-* human attentional capacity;
-* attentional bottlenecks;
-* optimal focus;
-* empirical salience functions;
-* mathematical theoremhood;
-* causal effects of attention;
-* runtime attention routing;
-* validated cognitive architecture;
-* or empirical truth.
+- universal laws of attention;
+- neuroscience of attention;
+- biological attention mechanisms;
+- psychological laws;
+- conscious awareness;
+- machine consciousness;
+- transformer attention architecture;
+- human attentional capacity;
+- attentional bottlenecks;
+- optimal focus;
+- empirical salience functions;
+- mathematical theoremhood;
+- causal effects of attention;
+- runtime attention routing;
+- validated cognitive architecture;
+- or empirical truth.
 
 ---
 
@@ -4105,51 +4105,51 @@ These target references do not establish executable bindings.
 
 Before promotion:
 
-* [ ] verified native Attention Canon source recovered;
-* [ ] framework identity matched;
-* [ ] source version resolved;
-* [ ] provenance ancestry resolved;
-* [ ] historical/current standing resolved;
-* [ ] native attention definition extracted;
-* [ ] attention object ontology established;
-* [ ] attention state ontology established;
-* [ ] selection semantics established if native;
-* [ ] salience semantics established if native;
-* [ ] priority semantics established if native;
-* [ ] focus semantics established if native;
-* [ ] filtering semantics established if native;
-* [ ] allocation semantics established if native;
-* [ ] capacity semantics established if native;
-* [ ] competition semantics established if native;
-* [ ] switching semantics established if native;
-* [ ] persistence semantics established if native;
-* [ ] inhibition semantics established if native;
-* [ ] attention/perception relationship established if native;
-* [ ] attention/memory relationship established if native;
-* [ ] attention/agency relationship established if native;
-* [ ] attention/reasoning relationship established if native;
-* [ ] cognition binding established;
-* [ ] RSCF binding established if native;
-* [ ] H/M/L binding established if native;
-* [ ] scope envelope established;
-* [ ] regime envelope established;
-* [ ] temporal validity established;
-* [ ] freshness semantics established;
-* [ ] dependency topology established;
-* [ ] provenance independence assessed;
-* [ ] negative cases executed;
-* [ ] salience/truth confusion rejected;
-* [ ] priority/confidence confusion rejected;
-* [ ] attention/authority confusion rejected;
-* [ ] low-salience load-bearing evidence retained;
-* [ ] correlated sources not treated as independent;
-* [ ] rollback basin demonstrated;
-* [ ] receipts persisted;
-* [ ] executable binding established if enforcement is claimed;
-* [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
-* [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] verified native Attention Canon source recovered;
+- [ ] framework identity matched;
+- [ ] source version resolved;
+- [ ] provenance ancestry resolved;
+- [ ] historical/current standing resolved;
+- [ ] native attention definition extracted;
+- [ ] attention object ontology established;
+- [ ] attention state ontology established;
+- [ ] selection semantics established if native;
+- [ ] salience semantics established if native;
+- [ ] priority semantics established if native;
+- [ ] focus semantics established if native;
+- [ ] filtering semantics established if native;
+- [ ] allocation semantics established if native;
+- [ ] capacity semantics established if native;
+- [ ] competition semantics established if native;
+- [ ] switching semantics established if native;
+- [ ] persistence semantics established if native;
+- [ ] inhibition semantics established if native;
+- [ ] attention/perception relationship established if native;
+- [ ] attention/memory relationship established if native;
+- [ ] attention/agency relationship established if native;
+- [ ] attention/reasoning relationship established if native;
+- [ ] cognition binding established;
+- [ ] RSCF binding established if native;
+- [ ] H/M/L binding established if native;
+- [ ] scope envelope established;
+- [ ] regime envelope established;
+- [ ] temporal validity established;
+- [ ] freshness semantics established;
+- [ ] dependency topology established;
+- [ ] provenance independence assessed;
+- [ ] negative cases executed;
+- [ ] salience/truth confusion rejected;
+- [ ] priority/confidence confusion rejected;
+- [ ] attention/authority confusion rejected;
+- [ ] low-salience load-bearing evidence retained;
+- [ ] correlated sources not treated as independent;
+- [ ] rollback basin demonstrated;
+- [ ] receipts persisted;
+- [ ] executable binding established if enforcement is claimed;
+- [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
+- [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
 ---
 
@@ -4916,23 +4916,23 @@ native_dependencies_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* TARGET_INTERACTS_WITH: [[KERNEL_README]]
+- TARGET_INTERACTS_WITH: [[KERNEL_README]]
 
-* TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
+- TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
 
-* TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
+- TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* TARGET_RECOVERED_BY: [[OPERATIONS_README]]
+- TARGET_RECOVERED_BY: [[OPERATIONS_README]]
 
-* TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 
@@ -5020,4 +5020,3 @@ RSCF-RELATIONS:
 
 The decisive integrity boundary is that this source establishes the **Attention Canon slot and its governance contract**, but not an AMOS-native theory of attention. In particular, `attention`, `salience`, `selection`, `priority`, `focus`, `filtering`, and `allocation` remain **UNKNOWN/GAP** rather than being silently imported from psychology, neuroscience, transformer architectures, or generic cognition models.
 ```
-

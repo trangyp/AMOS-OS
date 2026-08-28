@@ -324,7 +324,7 @@ $$
 \forall c_i \in C,\quad Validate(c_i)=PASS
 $$
 
-If the complete set \(C\) is not identified, the claim:
+If the complete set (C) is not identified, the claim:
 
 ```text
 ALL CONSTRAINTS PASS
@@ -610,7 +610,7 @@ A higher-level pass must not be inferred solely from a lower-level sample.
 
 # 14. Recursive Integrity
 
-For a parent structure \(R\) with descendants:
+For a parent structure (R) with descendants:
 
 $$
 Desc(R)=\{r_1,\ldots,r_n\}
@@ -1169,24 +1169,24 @@ For stronger claims, adversarial or independently implemented validation may als
 
 The receipt may be promoted to a scoped `PASS` only when:
 
-* [ ] validation target is uniquely identified;
-* [ ] artifact version is bound;
-* [ ] immutable hash or equivalent identity is recorded;
-* [ ] complete applicable constraint registry exists;
-* [ ] validator implementation is identified;
-* [ ] validators have actually executed;
-* [ ] every applicable constraint has a recorded result;
-* [ ] every load-bearing constraint passes;
-* [ ] no critical result remains `UNKNOWN`;
-* [ ] negative cases have been exercised where applicable;
-* [ ] provenance is recoverable;
-* [ ] correlation between validation paths is known;
-* [ ] scope and regime are explicit;
-* [ ] validation epoch is explicit;
-* [ ] freshness is valid;
-* [ ] contradictory receipts have been resolved or preserved visibly;
-* [ ] rollback/repair behavior is validated where consequential;
-* [ ] an execution-specific receipt hash is issued.
+- [ ] validation target is uniquely identified;
+- [ ] artifact version is bound;
+- [ ] immutable hash or equivalent identity is recorded;
+- [ ] complete applicable constraint registry exists;
+- [ ] validator implementation is identified;
+- [ ] validators have actually executed;
+- [ ] every applicable constraint has a recorded result;
+- [ ] every load-bearing constraint passes;
+- [ ] no critical result remains `UNKNOWN`;
+- [ ] negative cases have been exercised where applicable;
+- [ ] provenance is recoverable;
+- [ ] correlation between validation paths is known;
+- [ ] scope and regime are explicit;
+- [ ] validation epoch is explicit;
+- [ ] freshness is valid;
+- [ ] contradictory receipts have been resolved or preserved visibly;
+- [ ] rollback/repair behavior is validated where consequential;
+- [ ] an execution-specific receipt hash is issued.
 
 Until these gates pass:
 
@@ -1500,34 +1500,34 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* INDEXED_BY: [[01_CORE_LAWS_MOC]]
+- INDEXED_BY: [[01_CORE_LAWS_MOC]]
 
-* RELATED_TO: [[AMOS_CORE]]
+- RELATED_TO: [[AMOS_CORE]]
 
-* VALIDATES_TARGET:
+- VALIDATES_TARGET:
   UNKNOWN/GAP
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* RELATED_TO: [[AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK]]
+- RELATED_TO: [[AMOS_CORE_ALL_VERSIONS_FRACTAL_KNOWLEDGE_NETWORK]]
 
-* REQUIRES:
+- REQUIRES:
   VALIDATION_TARGET_BINDING
 
-* REQUIRES:
+- REQUIRES:
   STRUCTURAL_INTEGRITY_CONSTRAINT_REGISTRY
 
-* REQUIRES:
+- REQUIRES:
   EXECUTED_VALIDATION_EVIDENCE
 
-* REQUIRES:
+- REQUIRES:
   PROVENANCE_RECOVERY
 
-* REQUIRES:
+- REQUIRES:
   FRESHNESS_VALIDATION
 
 ---

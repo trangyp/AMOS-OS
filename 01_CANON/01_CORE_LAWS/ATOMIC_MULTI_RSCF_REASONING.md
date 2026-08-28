@@ -65,10 +65,10 @@ The supplied source establishes the canonical kernel reference:
 ```text
 See canonical kernel:
 
-[[K_ATOMIC_MULTI_RSCF]]
+K_ATOMIC_MULTI_RSCF
 ```
 
-Accordingly, this artifact defines the governing contract and delegates kernel-level semantics to `[[K_ATOMIC_MULTI_RSCF]]`.
+Accordingly, this artifact defines the governing contract and delegates kernel-level semantics to `K_ATOMIC_MULTI_RSCF`.
 
 Where the kernel contains more specific requirements, the kernel governs.
 
@@ -104,7 +104,7 @@ ATOMIC REASONING SCOPE
 
 # 2. Core Law
 
-For a reasoning operation \(T\) over a set of load-bearing RSCF structures:
+For a reasoning operation (T) over a set of load-bearing RSCF structures:
 
 $$
 R_T=\{R_1,R_2,\ldots,R_n\}
@@ -170,7 +170,7 @@ $$
 D(C)
 $$
 
-denote the dependency closure of conclusion \(C\).
+denote the dependency closure of conclusion (C).
 
 Then the target reasoning set is conceptually:
 
@@ -351,7 +351,7 @@ Confidence(C)
 Confidence(R_i)
 $$
 
-for load-bearing premises \(L(C)\), unless the weak premise is independently revalidated.
+for load-bearing premises (L(C)), unless the weak premise is independently revalidated.
 
 ---
 
@@ -613,7 +613,7 @@ $$
 R_A\rightarrow R_B\rightarrow C
 $$
 
-and \(R_A\) becomes invalid, then descendants depending materially on \(R_A\) must be reconsidered.
+and (R_A) becomes invalid, then descendants depending materially on (R_A) must be reconsidered.
 
 But an unrelated node:
 
@@ -815,7 +815,7 @@ $$
 E_a \prec E_b
 $$
 
-and `RSCF_B` depends on a mutation introduced at \(E_b\), a state from \(E_a\) cannot be treated as if it already incorporated that mutation.
+and `RSCF_B` depends on a mutation introduced at (E_b), a state from (E_a) cannot be treated as if it already incorporated that mutation.
 
 Causal ordering must remain visible.
 
@@ -939,7 +939,7 @@ as appropriate.
 
 The atomic set should prioritize the smallest premise capable of flipping the result.
 
-Let conclusion \(C\) depend on:
+Let conclusion (C) depend on:
 
 $$
 P=\{p_1,\ldots,p_n\}
@@ -956,7 +956,7 @@ p^*
 \}
 $$
 
-Testing \(p^*\) first can reduce unnecessary traversal while preserving integrity.
+Testing (p^\*) first can reduce unnecessary traversal while preserving integrity.
 
 ---
 
@@ -1041,7 +1041,7 @@ $$
 R=\{R_1,\ldots,R_n\}
 $$
 
-be the selected atomic RSCF set and \(C\) the proposed conclusion.
+be the selected atomic RSCF set and (C) the proposed conclusion.
 
 Define:
 
@@ -1225,7 +1225,7 @@ GLOBAL LOCKING ALWAYS
 This artifact explicitly delegates canonical kernel detail to:
 
 ```text
-[[K_ATOMIC_MULTI_RSCF]]
+K_ATOMIC_MULTI_RSCF
 ```
 
 Therefore any semantics in this specification that are not explicitly supported by the kernel must remain:
@@ -1268,7 +1268,7 @@ TAGS:
 rscf, atomic, reasoning
 
 CANONICAL REFERENCE:
-[[K_ATOMIC_MULTI_RSCF]]
+K_ATOMIC_MULTI_RSCF
 ```
 
 It does not independently provide the contents of `K_ATOMIC_MULTI_RSCF`.
@@ -1306,7 +1306,7 @@ PROOF_CAPSULE:
     supplied_ATOMIC_MULTI_RSCF_REASONING_specification
 
   evidence:
-    - "See canonical kernel: [[K_ATOMIC_MULTI_RSCF]]."
+    - "See canonical kernel: K_ATOMIC_MULTI_RSCF."
 
   scope:
     - 01_CANON
@@ -1468,7 +1468,7 @@ The authoritative dependency remains:
 
 $$
 \boxed{
-[[K\_ATOMIC\_MULTI\_RSCF]]
+K_ATOMIC_MULTI_RSCF
 }
 $$
 
@@ -1508,17 +1508,17 @@ SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* INDEXED_BY: [[01_CORE_LAWS_MOC]]
+- INDEXED_BY: [[01_CORE_LAWS_MOC]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* KERNEL_BINDING: [[K_ATOMIC_MULTI_RSCF]]
+- KERNEL_BINDING: K_ATOMIC_MULTI_RSCF
 
-* RELATED_TO: [[AMOS_CORE]]
+- RELATED_TO: [[AMOS_CORE]]
 
 ---
 
@@ -1526,7 +1526,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:** [[K_ATOMIC_MULTI_RSCF]] · [[AMOS_CORE]] · [[01_CORE_LAWS_MOC]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:** K_ATOMIC_MULTI_RSCF · [[AMOS_CORE]] · [[01_CORE_LAWS_MOC]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
 
 ---
 
@@ -1538,5 +1538,5 @@ RSCF-RELATIONS:
 
 ```
 
-The key gap remains explicit: the source you supplied establishes the `[[K_ATOMIC_MULTI_RSCF]]` binding, but not that kernel's actual contents. Therefore the kernel reference is **SOURCE_GROUNDED**, while any expanded semantics not directly recovered from that kernel remain **AMOS_MODEL** rather than being silently promoted to kernel canon.
+The key gap remains explicit: the source you supplied establishes the `K_ATOMIC_MULTI_RSCF` binding, but not that kernel's actual contents. Therefore the kernel reference is **SOURCE_GROUNDED**, while any expanded semantics not directly recovered from that kernel remain **AMOS_MODEL** rather than being silently promoted to kernel canon.
 ```

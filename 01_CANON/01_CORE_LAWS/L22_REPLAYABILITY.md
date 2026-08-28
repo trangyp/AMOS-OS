@@ -32,8 +32,8 @@ rscf:
 
 # L22_REPLAYABILITY — Deterministic Replayability Law
 
-**STATUS:** CANON_LAW  
-**claim_class:** CANONICAL_INVARIANT  
+**STATUS:** CANON_LAW\
+**claim_class:** CANONICAL_INVARIANT\
 **provenance:** AMOS_CANON
 
 ---
@@ -64,11 +64,11 @@ IDENTICAL RESULT
 
 This is stronger than merely requiring that a transition be:
 
-* understandable,
-* approximately reproducible,
-* semantically similar,
-* logically defensible,
-* or capable of producing an equivalent conclusion.
+- understandable,
+- approximately reproducible,
+- semantically similar,
+- logically defensible,
+- or capable of producing an equivalent conclusion.
 
 The canonical requirement is explicitly:
 
@@ -144,10 +144,10 @@ ORIGINAL TRANSITION
 
 Let:
 
-* \(T\) be a valid state transition,
-* \(R_T\) be its logged transaction receipt,
-* \(I_T\) be its root inputs,
-* \(Replay\) be the deterministic replay operation.
+- (T) be a valid state transition,
+- (R_T) be its logged transaction receipt,
+- (I_T) be its root inputs,
+- (Replay) be the deterministic replay operation.
 
 Then the source can be normalized as:
 
@@ -187,7 +187,7 @@ $$
 
 across repeated executions.
 
-More usefully, for any two replay executions \(r_1,r_2\):
+More usefully, for any two replay executions (r_1,r_2):
 
 $$
 \boxed{
@@ -315,7 +315,7 @@ The receipt is part of the canonical replay basis.
 
 # 8. Receipt Requirement
 
-For transition \(T\):
+For transition (T):
 
 $$
 Valid(T)
@@ -323,7 +323,7 @@ Valid(T)
 \exists R_T
 $$
 
-such that \(R_T\) is the logged transaction receipt required to replay \(T\).
+such that (R_T) is the logged transaction receipt required to replay (T).
 
 ---
 
@@ -339,14 +339,14 @@ This establishes that the receipt must exist as a replay artifact rather than be
 
 However, the source does not specify:
 
-* storage medium,
-* database,
-* file format,
-* log service,
-* retention period,
-* durability mechanism,
-* cryptographic format,
-* or physical persistence architecture.
+- storage medium,
+- database,
+- file format,
+- log service,
+- retention period,
+- durability mechanism,
+- cryptographic format,
+- or physical persistence architecture.
 
 Therefore:
 
@@ -422,8 +422,8 @@ A critical derived requirement follows from deterministic replay:
 
 If an outcome-changing input is omitted from both:
 
-* root inputs, and
-* transaction receipt,
+- root inputs, and
+- transaction receipt,
 
 then replay cannot be guaranteed to reproduce the transition.
 
@@ -437,7 +437,7 @@ ReplayBasis(T)
 R_T \cup I_T
 $$
 
-must contain or deterministically identify every dependency required to reconstruct \(T\).
+must contain or deterministically identify every dependency required to reconstruct (T).
 
 This is **DERIVED**, not separately stated by the supplied source.
 
@@ -599,14 +599,14 @@ THE COMPARISON TARGET?
 
 Possibilities include:
 
-* serialized state,
-* transaction object,
-* state hash preimage,
-* committed state representation,
-* canonical RSCF encoding,
-* receipt bytes,
-* memory representation,
-* or another canonical artifact.
+- serialized state,
+- transaction object,
+- state hash preimage,
+- committed state representation,
+- canonical RSCF encoding,
+- receipt bytes,
+- memory representation,
+- or another canonical artifact.
 
 This is a **CRITICAL implementation-level gap** for literal conformance testing.
 
@@ -812,14 +812,14 @@ For literal bit-for-bit replay, root identity should normally be exact.
 
 The source does not specify whether root inputs are identified by:
 
-* byte equality,
-* content hash,
-* object ID,
-* version,
-* epoch,
-* immutable reference,
-* provenance node,
-* or another identity mechanism.
+- byte equality,
+- content hash,
+- object ID,
+- version,
+- epoch,
+- immutable reference,
+- provenance node,
+- or another identity mechanism.
 
 Therefore:
 
@@ -903,7 +903,7 @@ This aligns with L24's no-time-travel boundary.
 
 # 34. Replay ≠ New Historical Verdict
 
-If a transition occurred in causal epoch \(e_k\), replaying it later should not silently rewrite its historical occurrence into the later epoch.
+If a transition occurred in causal epoch (e_k), replaying it later should not silently rewrite its historical occurrence into the later epoch.
 
 Conceptually:
 
@@ -969,9 +969,9 @@ However, the exact transaction-receipt schema linking L22 and L23 is not provide
 
 If the original transition depends on a particular L23 snapshot, then deterministic replay must either:
 
-* reproduce that snapshot,
-* reconstruct it from root inputs,
-* or identify all state necessary to reproduce its effect.
+- reproduce that snapshot,
+- reconstruct it from root inputs,
+- or identify all state necessary to reproduce its effect.
 
 Otherwise later state could contaminate replay.
 
@@ -1038,11 +1038,11 @@ The source does not specify whether replay must suppress external side effects.
 
 This matters because literal re-execution of a transition could otherwise duplicate:
 
-* writes,
-* messages,
-* payments,
-* external API calls,
-* irreversible actions.
+- writes,
+- messages,
+- payments,
+- external API calls,
+- irreversible actions.
 
 Therefore side-effect handling is a **CRITICAL governance gap** for operational replay.
 
@@ -1121,11 +1121,11 @@ Therefore the relevant time value must be captured or deterministically reconstr
 
 A transition using randomness cannot be deterministically replayed unless the replay basis captures sufficient information such as:
 
-* random seed,
-* random stream,
-* generated value,
-* deterministic generator state,
-* or equivalent replay material.
+- random seed,
+- random stream,
+- generated value,
+- deterministic generator state,
+- or equivalent replay material.
 
 The source does not specify which.
 
@@ -1145,17 +1145,17 @@ This is a MODEL-level consequence of the source's strict requirement.
 
 A transition can depend on:
 
-* runtime version,
-* library version,
-* instruction set,
-* numeric implementation,
-* locale,
-* timezone,
-* environment variable,
-* configuration,
-* schema,
-* feature flag,
-* model version.
+- runtime version,
+- library version,
+- instruction set,
+- numeric implementation,
+- locale,
+- timezone,
+- environment variable,
+- configuration,
+- schema,
+- feature flag,
+- model version.
 
 If any can alter output, they become replay-relevant dependencies.
 
@@ -1247,11 +1247,11 @@ Thus canonical bit-level replay requires schema stability or deterministic migra
 
 Floating-point computation can vary across:
 
-* hardware,
-* compiler,
-* execution order,
-* math libraries,
-* precision modes.
+- hardware,
+- compiler,
+- execution order,
+- math libraries,
+- precision modes.
 
 Therefore bit-for-bit replay may require pinned numerical semantics.
 
@@ -1605,12 +1605,12 @@ VALID NOW
 
 Current reuse still requires checking:
 
-* dependencies,
-* scope,
-* regime,
-* freshness,
-* supersession,
-* governance state.
+- dependencies,
+- scope,
+- regime,
+- freshness,
+- supersession,
+- governance state.
 
 ---
 
@@ -1970,7 +1970,7 @@ It does not independently verify the truth of the root inputs.
 
 # 98. Root Input Truth
 
-If root input \(I\) is false:
+If root input (I) is false:
 
 ```text
 FALSE INPUT I
@@ -2634,12 +2634,12 @@ MISMATCH
 
 Examples:
 
-* one omitted input,
-* one version mismatch,
-* one random seed,
-* one timestamp,
-* one ordering edge,
-* one serialization rule.
+- one omitted input,
+- one version mismatch,
+- one random seed,
+- one timestamp,
+- one ordering edge,
+- one serialization rule.
 
 The replay result is fragile until those dependencies are resolved.
 
@@ -2684,37 +2684,37 @@ No stronger implementation claim should be attributed directly to this source.
 
 The supplied note does **not** establish:
 
-* exact transaction receipt schema,
-* exact root-input schema,
-* receipt hashing,
-* receipt signing,
-* cryptographic algorithm,
-* canonical serialization format,
-* byte-order rules,
-* endianness,
-* floating-point mode,
-* runtime version format,
-* algorithm version format,
-* schema version format,
-* deterministic scheduler,
-* random-seed format,
-* clock-capture format,
-* external API capture method,
-* replay sandbox,
-* side-effect suppression mechanism,
-* replay storage engine,
-* replay retention period,
-* transaction log storage backend,
-* snapshot reconstruction algorithm,
-* cross-shard replay protocol,
-* causal epoch/replay mapping,
-* replay authorization policy,
-* replay governance policy,
-* recovery algorithm,
-* full reasoning-chain exposure,
-* formal proof of determinism,
-* hardware-independent determinism,
-* literal ChatGPT runtime replayability.
+- exact transaction receipt schema,
+- exact root-input schema,
+- receipt hashing,
+- receipt signing,
+- cryptographic algorithm,
+- canonical serialization format,
+- byte-order rules,
+- endianness,
+- floating-point mode,
+- runtime version format,
+- algorithm version format,
+- schema version format,
+- deterministic scheduler,
+- random-seed format,
+- clock-capture format,
+- external API capture method,
+- replay sandbox,
+- side-effect suppression mechanism,
+- replay storage engine,
+- replay retention period,
+- transaction log storage backend,
+- snapshot reconstruction algorithm,
+- cross-shard replay protocol,
+- causal epoch/replay mapping,
+- replay authorization policy,
+- replay governance policy,
+- recovery algorithm,
+- full reasoning-chain exposure,
+- formal proof of determinism,
+- hardware-independent determinism,
+- literal ChatGPT runtime replayability.
 
 ---
 
@@ -3270,7 +3270,7 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[PROOF_BASED_COORDINATION_AVOIDANCE]]
 
-  - RELATED_TO: [[FAILURE_RECOVERY]]
+  - RELATED_TO: FAILURE_RECOVERY
 ```
 
 ---

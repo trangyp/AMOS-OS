@@ -61,29 +61,21 @@ epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
 
-  biological_signal_classes:
-    SOURCE_DEFINED_MODEL
+  biological_signal_classes: SOURCE_DEFINED_MODEL
 
-  cognitive_routing:
-    SOURCE_DEFINED_MODEL
+  cognitive_routing: SOURCE_DEFINED_MODEL
 
-  threshold_values:
-    SOURCE_DEFINED_MODEL
+  threshold_values: SOURCE_DEFINED_MODEL
 
-  enforcement_actions:
-    SOURCE_DEFINED_MODEL
+  enforcement_actions: SOURCE_DEFINED_MODEL
 
-  validation_status_claim:
-    SOURCE_ESTABLISHED
+  validation_status_claim: SOURCE_ESTABLISHED
 
-  executable_binding_claim:
-    SOURCE_ESTABLISHED
+  executable_binding_claim: SOURCE_ESTABLISHED
 
-  independent_biological_validation:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_biological_validation: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 
-  independent_runtime_verification:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 ---
@@ -107,8 +99,6 @@ EnforcementAction
 $$
 
 The source explicitly declares `PASSED_CONSTITUTIONAL_TESTS` and `executable_binding: ESTABLISHED`. Those declarations should be preserved as source-defined statuses. The artifact itself, however, does not contain the underlying executable binding, validation suite, biological measurements, calibration evidence, or runtime traces needed to independently establish those claims.
-
-
 
 These declarations are part of the source and should be preserved.
 
@@ -140,10 +130,10 @@ The supplied artifact does not itself contain the relevant implementation, tests
 
 | Biological Signal            | Cognitive Target Engine       | Operational Threshold     | Enforcement Action                      |
 | ---------------------------- | ----------------------------- | ------------------------- | --------------------------------------- |
-| **NBI (Neurobiological)**    | Working Memory Allocator      | \(\text{Load}>0.85\)      | Context Compaction & Cache Eviction     |
-| **NEI (Neuroemotional)**     | Tone & Communication Filter   | \(\text{Valence}<-0.60\)  | P3 Safety Communication Mask Activation |
-| **SI (Somatic)**             | Execution Throttle            | \(\text{Fatigue}>0.75\)   | Batch Rate Limiting & Queue Delay       |
-| **BEI (Bioelectromagnetic)** | 40Hz Gamma Clock Synchronizer | \(\text{Coherence}<0.70\) | Agent Resynchronization Pulse           |
+| **NBI (Neurobiological)**    | Working Memory Allocator      | (\\text{Load}>0.85)       | Context Compaction & Cache Eviction     |
+| **NEI (Neuroemotional)**     | Tone & Communication Filter   | (\\text{Valence}\<-0.60)  | P3 Safety Communication Mask Activation |
+| **SI (Somatic)**             | Execution Throttle            | (\\text{Fatigue}>0.75)    | Batch Rate Limiting & Queue Delay       |
+| **BEI (Bioelectromagnetic)** | 40Hz Gamma Clock Synchronizer | (\\text{Coherence}\<0.70) | Agent Resynchronization Pulse           |
 
 ---
 
@@ -218,7 +208,7 @@ $$
 
 This is a **DERIVED formalization** of the table structure.
 
-The artifact does not explicitly define a function named \(\mathcal R_{UBI\to COG}\).
+The artifact does not explicitly define a function named (\\mathcal R\_{UBI\\to COG}).
 
 ---
 
@@ -326,10 +316,10 @@ The operational meaning of the threshold remains dependent on the corresponding 
 
 Nothing in this artifact independently establishes that:
 
-* `0.85` is a validated neurobiological cutoff;
-* `-0.60` is a validated neuroemotional cutoff;
-* `0.75` is a validated somatic cutoff;
-* `0.70` is a validated bioelectromagnetic cutoff.
+- `0.85` is a validated neurobiological cutoff;
+- `-0.60` is a validated neuroemotional cutoff;
+- `0.75` is a validated somatic cutoff;
+- `0.70` is a validated bioelectromagnetic cutoff.
 
 They are source-defined AMOS model thresholds unless external empirical validation is supplied.
 
@@ -339,13 +329,13 @@ They are source-defined AMOS model thresholds unless external empirical validati
 
 The numerical values suggest normalized variables, but the artifact does not explicitly provide:
 
-* domain;
-* units;
-* scale;
-* normalization method;
-* baseline;
-* calibration;
-* measurement window.
+- domain;
+- units;
+- scale;
+- normalization method;
+- baseline;
+- calibration;
+- measurement window.
 
 Therefore do not silently assume:
 
@@ -478,12 +468,12 @@ The action explicitly contains:
 
 The artifact does not specify:
 
-* compaction algorithm;
-* compression ratio;
-* semantic retention requirements;
-* priority policy;
-* reversible restoration;
-* provenance preservation.
+- compaction algorithm;
+- compression ratio;
+- semantic retention requirements;
+- priority policy;
+- reversible restoration;
+- provenance preservation.
 
 Those are lower-level dependencies.
 
@@ -497,11 +487,11 @@ The source additionally requires:
 
 The artifact does not define:
 
-* which cache;
-* eviction ordering;
-* eviction granularity;
-* persistence policy;
-* restoration behavior.
+- which cache;
+- eviction ordering;
+- eviction granularity;
+- persistence policy;
+- restoration behavior.
 
 Therefore exact implementation remains unresolved.
 
@@ -592,10 +582,10 @@ The source uses a variable named `Valence`.
 
 It does not establish that this is:
 
-* a clinical mood score;
-* a psychiatric assessment;
-* an emotion diagnosis;
-* a validated human biomarker.
+- a clinical mood score;
+- a psychiatric assessment;
+- an emotion diagnosis;
+- a validated human biomarker.
 
 Those interpretations would exceed the artifact.
 
@@ -634,12 +624,12 @@ The phrase `Safety Communication Mask` establishes a source-defined communicatio
 
 It does not specify:
 
-* censorship;
-* refusal;
-* omission;
-* emotional neutralization;
-* message blocking;
-* tone transformation.
+- censorship;
+- refusal;
+- omission;
+- emotional neutralization;
+- message blocking;
+- tone transformation.
 
 Exact semantics require its authoritative specification.
 
@@ -717,11 +707,11 @@ EXECUTION THROTTLE
 
 The matrix does not establish whether `Fatigue` represents:
 
-* subjective human fatigue;
-* physiological fatigue;
-* computational load;
-* a composite UBI state;
-* a modeled proxy.
+- subjective human fatigue;
+- physiological fatigue;
+- computational load;
+- a composite UBI state;
+- a modeled proxy.
 
 Its exact semantics belong to the UBI specification/binding.
 
@@ -847,10 +837,10 @@ Therefore `40Hz` is part of the source-defined model.
 
 But the artifact does not independently establish that:
 
-* AMOS has a physical 40 Hz oscillator;
-* biological gamma synchrony controls AMOS runtime;
-* 40 Hz is an empirically optimal cognition frequency;
-* external neural oscillation causes agent synchronization.
+- AMOS has a physical 40 Hz oscillator;
+- biological gamma synchrony controls AMOS runtime;
+- 40 Hz is an empirically optimal cognition frequency;
+- external neural oscillation causes agent synchronization.
 
 Those would require separately typed evidence.
 
@@ -878,13 +868,13 @@ Possible mathematical meanings must not be invented.
 
 Required details include:
 
-* signal inputs;
-* calculation;
-* window;
-* frequency band;
-* normalization;
-* baseline;
-* noise handling.
+- signal inputs;
+- calculation;
+- window;
+- frequency band;
+- normalization;
+- baseline;
+- noise handling.
 
 ---
 
@@ -894,11 +884,11 @@ Required details include:
 
 The artifact does not establish whether `pulse` means:
 
-* software event;
-* scheduler signal;
-* logical synchronization event;
-* timing reset;
-* physical signal.
+- software event;
+- scheduler signal;
+- logical synchronization event;
+- timing reset;
+- physical signal.
 
 Preserve the term without inventing implementation semantics.
 
@@ -968,10 +958,10 @@ The four rows are structurally distinct.
 
 That does not establish statistical or causal independence between:
 
-* Load;
-* Valence;
-* Fatigue;
-* Coherence.
+- Load;
+- Valence;
+- Fatigue;
+- Coherence.
 
 $$
 DistinctVariables
@@ -1081,11 +1071,11 @@ Therefore near-boundary classifications are potentially fragile unless measureme
 
 # 47. Measurement Error Gap
 
-Suppose a metric has uncertainty \(\epsilon\).
+Suppose a metric has uncertainty (\\epsilon).
 
-Then near a threshold \(T\), a robust trigger requires sufficient separation from \(T\).
+Then near a threshold (T), a robust trigger requires sufficient separation from (T).
 
-The artifact supplies no \(\epsilon\).
+The artifact supplies no (\\epsilon).
 
 Therefore exact robustness near threshold remains **UNKNOWN/GAP**.
 
@@ -1105,10 +1095,10 @@ This matters because noisy signals near a threshold could otherwise produce repe
 
 The source does not state whether a threshold must persist for:
 
-* one sample;
-* multiple samples;
-* a time interval;
-* a rolling average.
+- one sample;
+- multiple samples;
+- a time interval;
+- a rolling average.
 
 Therefore temporal debounce semantics remain unresolved.
 
@@ -1149,11 +1139,11 @@ $$
 
 If multiple thresholds cross simultaneously, the artifact does not state whether actions execute:
 
-* sequentially;
-* concurrently;
-* atomically;
-* by priority;
-* through arbitration.
+- sequentially;
+- concurrently;
+- atomically;
+- by priority;
+- through arbitration.
 
 This is a material integration gap.
 
@@ -1177,7 +1167,7 @@ $$
 \{A_i\mid T_i(x_i)=TRUE\}
 $$
 
-where multiple \(A_i\) may coexist.
+where multiple (A_i) may coexist.
 
 This is **DERIVED** and requires the binding to determine actual runtime semantics.
 
@@ -1199,8 +1189,8 @@ $$
 
 the source rows independently map to:
 
-* Context Compaction & Cache Eviction;
-* Batch Rate Limiting & Queue Delay.
+- Context Compaction & Cache Eviction;
+- Batch Rate Limiting & Queue Delay.
 
 The artifact does not define whether these actions conflict or compose.
 
@@ -1222,8 +1212,8 @@ $$
 
 the source rows map to:
 
-* P3 Safety Communication Mask;
-* Execution Throttling.
+- P3 Safety Communication Mask;
+- Execution Throttling.
 
 Again, no arbitration rule is supplied.
 
@@ -1269,10 +1259,10 @@ The matrix does not specify what happens if one action affects the input or exec
 
 For example:
 
-* context compaction could affect cognitive load;
-* throttling could alter queue timing;
-* synchronization could affect agent timing;
-* communication filtering could affect outputs.
+- context compaction could affect cognitive load;
+- throttling could alter queue timing;
+- synchronization could affect agent timing;
+- communication filtering could affect outputs.
 
 Cross-action dependencies must not be invented.
 
@@ -1314,10 +1304,10 @@ $$
 
 A threshold action might:
 
-* reduce the triggering metric;
-* leave it unchanged;
-* increase it;
-* affect another metric.
+- reduce the triggering metric;
+- leave it unchanged;
+- increase it;
+- affect another metric.
 
 The source does not specify the response function.
 
@@ -1387,10 +1377,10 @@ from this artifact alone.
 
 It may be tempting to associate:
 
-* cache eviction with runtime kernels;
-* throttling with concurrency kernels;
-* resynchronization with epoch clocks;
-* communication safety with canon/control.
+- cache eviction with runtime kernels;
+- throttling with concurrency kernels;
+- resynchronization with epoch clocks;
+- communication safety with canon/control.
 
 Those are plausible architectural hypotheses.
 
@@ -1426,11 +1416,11 @@ as:
 
 This should be the preferred source for resolving:
 
-* signal-to-engine wiring;
-* runtime implementation;
-* cross-plane dependencies;
-* multi-trigger arbitration;
-* enforcement semantics.
+- signal-to-engine wiring;
+- runtime implementation;
+- cross-plane dependencies;
+- multi-trigger arbitration;
+- enforcement semantics.
 
 ---
 
@@ -1558,13 +1548,13 @@ ENFORCEMENT_REGISTRY:
 
 Two rows specify paired actions:
 
-* NBI → two named actions;
-* SI → two named actions.
+- NBI → two named actions;
+- SI → two named actions.
 
 Two rows specify a single named action:
 
-* NEI;
-* BEI.
+- NEI;
+- BEI.
 
 Thus the source contains six named action components if compound phrases are decomposed at `&`.
 
@@ -1840,11 +1830,11 @@ That remains an implementation gap.
 
 A threshold calibrated for one:
 
-* subject;
-* system;
-* environment;
-* measurement method;
-* runtime version;
+- subject;
+- system;
+- environment;
+- measurement method;
+- runtime version;
 
 must not automatically be generalized to another.
 
@@ -1876,11 +1866,11 @@ The artifact is explicitly:
 
 It should not be promoted into:
 
-* medical diagnosis;
-* medical monitoring;
-* treatment recommendation;
-* clinical neurophysiology;
-* validated biomarker system;
+- medical diagnosis;
+- medical monitoring;
+- treatment recommendation;
+- clinical neurophysiology;
+- validated biomarker system;
 
 without independent evidence.
 
@@ -1979,11 +1969,11 @@ The number appears in the target engine's source-defined name.
 Without measurement definitions and calibration evidence, confidence in a threshold-trigger decision cannot exceed confidence in:
 
 1. signal identity;
-2. measurement validity;
-3. scale interpretation;
-4. calibration;
-5. freshness;
-6. threshold applicability.
+1. measurement validity;
+1. scale interpretation;
+1. calibration;
+1. freshness;
+1. threshold applicability.
 
 Formally:
 
@@ -2084,7 +2074,7 @@ $$
 Valence<-0.60
 $$
 
-Near \(-0.60\), measurement uncertainty becomes load-bearing.
+Near (-0.60), measurement uncertainty becomes load-bearing.
 
 ---
 
@@ -2943,11 +2933,11 @@ $$
 
 to determine whether the implementation:
 
-* triggers;
-* delays;
-* marks uncertainty;
-* applies hysteresis;
-* requires repeated samples.
+- triggers;
+- delays;
+- marks uncertainty;
+- applies hysteresis;
+- requires repeated samples.
 
 The matrix does not define the expected policy.
 
@@ -2958,85 +2948,85 @@ The matrix does not define the expected policy.
 This artifact MUST NOT by itself be used to claim:
 
 1. NBI is an independently validated neurobiological biomarker.
-2. NEI is an independently validated neuroemotional biomarker.
-3. SI is an independently validated somatic biomarker.
-4. BEI is an independently validated bioelectromagnetic biomarker.
-5. These four classes exhaust all possible UBI signals.
-6. `Load` has a known unit from this artifact.
-7. `Load` is necessarily normalized to `[0,1]`.
-8. `Valence` is necessarily normalized to `[-1,1]`.
-9. `Fatigue` is necessarily normalized to `[0,1]`.
-10. `Coherence` is necessarily normalized to `[0,1]`.
-11. The four threshold values are clinical cutoffs.
-12. The four threshold values are universally calibrated.
-13. The four threshold values apply to every person.
-14. The four threshold values apply to every runtime environment.
-15. Threshold equality activates a row.
-16. `Load = 0.85` triggers NBI.
-17. `Valence = -0.60` triggers NEI.
-18. `Fatigue = 0.75` triggers SI.
-19. `Coherence = 0.70` triggers BEI.
-20. High NBI load proves biological damage.
-21. Low NEI valence proves psychiatric distress.
-22. High SI fatigue proves medical fatigue.
-23. Low BEI coherence proves abnormal neural gamma.
-24. `40Hz` proves physical neural synchronization.
-25. 40 Hz improves cognition.
-26. 40 Hz causes agent synchronization.
-27. `Gamma Clock Synchronizer` is a literal biological oscillator.
-28. `Agent Resynchronization Pulse` is a physical electromagnetic pulse.
-29. `P3` has a known meaning from this artifact.
-30. P3 necessarily means a specific universal safety level.
-31. Safety Communication Mask means censorship.
-32. Safety Communication Mask means refusal.
-33. Safety Communication Mask means suppression.
-34. Context Compaction deletes evidence.
-35. Cache Eviction permanently deletes knowledge.
-36. Execution Throttle halts execution.
-37. Queue Delay cancels tasks.
-38. Enforcement actions are fail-closed fallbacks.
-39. UBI threshold crossing causes \(S_0\) reset.
-40. UBI threshold crossing causes rollback.
-41. UBI threshold crossing causes system halt.
-42. The four signals are statistically independent.
-43. The four signals are causally independent.
-44. The four signals have independent provenance.
-45. Simultaneous threshold crossings are independent confirmation.
-46. Table order defines trigger priority.
-47. Table order defines execution order.
-48. Multiple enforcement actions are atomic.
-49. Multiple enforcement actions are conflict-free.
-50. All sixteen Boolean trigger states are physically reachable.
-51. The matrix specifies hysteresis.
-52. The matrix specifies debounce.
-53. The matrix specifies sampling frequency.
-54. All signals are sampled at 40 Hz.
-55. The matrix specifies deactivation thresholds.
-56. The matrix specifies recovery behavior.
-57. The matrix specifies signal dynamics.
-58. The matrix proves controller stability.
-59. The matrix proves absence of oscillation.
-60. Threshold crossing proves causation.
-61. Biological naming proves biological mechanism.
-62. Operational routing proves empirical validity.
-63. `PASSED_CONSTITUTIONAL_TESTS` proves biological validity.
-64. `PASSED_CONSTITUTIONAL_TESTS` independently proves runtime correctness.
-65. `ESTABLISHED` executable binding independently proves implementation.
-66. Source presence proves empirical truth.
-67. Source-defined thresholds prove measurement validity.
-68. A precise numeric value proves a precise biological state.
-69. Working Memory Allocator is identical to human working memory.
-70. Neuroemotional means psychiatric.
-71. Somatic means clinically measured physiology.
-72. Bioelectromagnetic means independently verified electromagnetic causation.
-73. The matrix defines the exact low-level kernel executing each action.
-74. Cache eviction is definitely K_MVCC behavior.
-75. Resynchronization is definitely an epoch-clock operation.
-76. P3 is definitely a Canon-plane operation.
-77. Multi-trigger enforcement definitely uses K_ATOMIC_MULTI_RSCF.
-78. Cross-plane routing implies cross-plane atomicity.
-79. Runtime implementation automatically validates the biological model.
-80. Biological validation automatically validates the runtime implementation.
+1. NEI is an independently validated neuroemotional biomarker.
+1. SI is an independently validated somatic biomarker.
+1. BEI is an independently validated bioelectromagnetic biomarker.
+1. These four classes exhaust all possible UBI signals.
+1. `Load` has a known unit from this artifact.
+1. `Load` is necessarily normalized to `[0,1]`.
+1. `Valence` is necessarily normalized to `[-1,1]`.
+1. `Fatigue` is necessarily normalized to `[0,1]`.
+1. `Coherence` is necessarily normalized to `[0,1]`.
+1. The four threshold values are clinical cutoffs.
+1. The four threshold values are universally calibrated.
+1. The four threshold values apply to every person.
+1. The four threshold values apply to every runtime environment.
+1. Threshold equality activates a row.
+1. `Load = 0.85` triggers NBI.
+1. `Valence = -0.60` triggers NEI.
+1. `Fatigue = 0.75` triggers SI.
+1. `Coherence = 0.70` triggers BEI.
+1. High NBI load proves biological damage.
+1. Low NEI valence proves psychiatric distress.
+1. High SI fatigue proves medical fatigue.
+1. Low BEI coherence proves abnormal neural gamma.
+1. `40Hz` proves physical neural synchronization.
+1. 40 Hz improves cognition.
+1. 40 Hz causes agent synchronization.
+1. `Gamma Clock Synchronizer` is a literal biological oscillator.
+1. `Agent Resynchronization Pulse` is a physical electromagnetic pulse.
+1. `P3` has a known meaning from this artifact.
+1. P3 necessarily means a specific universal safety level.
+1. Safety Communication Mask means censorship.
+1. Safety Communication Mask means refusal.
+1. Safety Communication Mask means suppression.
+1. Context Compaction deletes evidence.
+1. Cache Eviction permanently deletes knowledge.
+1. Execution Throttle halts execution.
+1. Queue Delay cancels tasks.
+1. Enforcement actions are fail-closed fallbacks.
+1. UBI threshold crossing causes (S_0) reset.
+1. UBI threshold crossing causes rollback.
+1. UBI threshold crossing causes system halt.
+1. The four signals are statistically independent.
+1. The four signals are causally independent.
+1. The four signals have independent provenance.
+1. Simultaneous threshold crossings are independent confirmation.
+1. Table order defines trigger priority.
+1. Table order defines execution order.
+1. Multiple enforcement actions are atomic.
+1. Multiple enforcement actions are conflict-free.
+1. All sixteen Boolean trigger states are physically reachable.
+1. The matrix specifies hysteresis.
+1. The matrix specifies debounce.
+1. The matrix specifies sampling frequency.
+1. All signals are sampled at 40 Hz.
+1. The matrix specifies deactivation thresholds.
+1. The matrix specifies recovery behavior.
+1. The matrix specifies signal dynamics.
+1. The matrix proves controller stability.
+1. The matrix proves absence of oscillation.
+1. Threshold crossing proves causation.
+1. Biological naming proves biological mechanism.
+1. Operational routing proves empirical validity.
+1. `PASSED_CONSTITUTIONAL_TESTS` proves biological validity.
+1. `PASSED_CONSTITUTIONAL_TESTS` independently proves runtime correctness.
+1. `ESTABLISHED` executable binding independently proves implementation.
+1. Source presence proves empirical truth.
+1. Source-defined thresholds prove measurement validity.
+1. A precise numeric value proves a precise biological state.
+1. Working Memory Allocator is identical to human working memory.
+1. Neuroemotional means psychiatric.
+1. Somatic means clinically measured physiology.
+1. Bioelectromagnetic means independently verified electromagnetic causation.
+1. The matrix defines the exact low-level kernel executing each action.
+1. Cache eviction is definitely K_MVCC behavior.
+1. Resynchronization is definitely an epoch-clock operation.
+1. P3 is definitely a Canon-plane operation.
+1. Multi-trigger enforcement definitely uses K_ATOMIC_MULTI_RSCF.
+1. Cross-plane routing implies cross-plane atomicity.
+1. Runtime implementation automatically validates the biological model.
+1. Biological validation automatically validates the runtime implementation.
 
 ---
 
@@ -3267,7 +3257,7 @@ RSCF_RELATIONS:
       - "[[K_RSCF]]"
       - "[[K_HML]]"
       - "[[K_PROVENANCE]]"
-      - "[[K_CAUSAL_FIREWALL]]"
+      - "K_CAUSAL_FIREWALL"
       - "[[K_FAIL_CLOSED]]"
       - "[[K_GOVERNED_EVOLUTION]]"
 
@@ -3605,7 +3595,7 @@ The decisive integrity boundaries are:
 
 **ENFORCEMENT ACTIONS ARE NOT AUTOMATICALLY FAIL-CLOSED FALLBACKS.**
 
-**NO ROW AUTHORIZES AN \(S_0\) RESET, GLOBAL ROLLBACK, OR SYSTEM HALT BY ITSELF.**
+**NO ROW AUTHORIZES AN (S_0) RESET, GLOBAL ROLLBACK, OR SYSTEM HALT BY ITSELF.**
 
 **CROSS-PLANE ROUTING DOES NOT AUTOMATICALLY IMPLY CROSS-PLANE TRANSACTIONAL ATOMICITY.**
 
@@ -3733,7 +3723,7 @@ The matrix can therefore function canonically as a **UBI-to-cognition routing mo
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[UBI_X_COGNITION]] · [[UBI_COGNITION_BINDING]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[TOTAL_KERNEL_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_PROVENANCE]] · [[K_CAUSAL_FIREWALL]] · [[K_FAIL_CLOSED]] · [[K_GOVERNED_EVOLUTION]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[UBI_X_COGNITION]] · [[UBI_COGNITION_BINDING]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[TOTAL_KERNEL_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[K_FAIL_CLOSED]] · [[K_GOVERNED_EVOLUTION]]
 
 ---
 
@@ -3759,53 +3749,53 @@ executable_binding: ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
 
-* SPECIFIED_BY: [[UBI_X_COGNITION]]
+- SPECIFIED_BY: [[UBI_X_COGNITION]]
 
-* BOUND_BY: [[UBI_COGNITION_BINDING]]
+- BOUND_BY: [[UBI_COGNITION_BINDING]]
 
-* DEFINES: UBI_TO_COGNITION_THRESHOLD_ROUTING
+- DEFINES: UBI_TO_COGNITION_THRESHOLD_ROUTING
 
-* ROUTES: NBI_TO_WORKING_MEMORY_ALLOCATOR
+- ROUTES: NBI_TO_WORKING_MEMORY_ALLOCATOR
 
-* ROUTES: NEI_TO_TONE_COMMUNICATION_FILTER
+- ROUTES: NEI_TO_TONE_COMMUNICATION_FILTER
 
-* ROUTES: SI_TO_EXECUTION_THROTTLE
+- ROUTES: SI_TO_EXECUTION_THROTTLE
 
-* ROUTES: BEI_TO_GAMMA_40HZ_CLOCK_SYNCHRONIZER
+- ROUTES: BEI_TO_GAMMA_40HZ_CLOCK_SYNCHRONIZER
 
-* ENFORCES: NBI_CONTEXT_COMPACTION_CACHE_EVICTION
+- ENFORCES: NBI_CONTEXT_COMPACTION_CACHE_EVICTION
 
-* ENFORCES: NEI_P3_SAFETY_COMMUNICATION_MASK
+- ENFORCES: NEI_P3_SAFETY_COMMUNICATION_MASK
 
-* ENFORCES: SI_BATCH_RATE_LIMITING_QUEUE_DELAY
+- ENFORCES: SI_BATCH_RATE_LIMITING_QUEUE_DELAY
 
-* ENFORCES: BEI_AGENT_RESYNCHRONIZATION
+- ENFORCES: BEI_AGENT_RESYNCHRONIZATION
 
-* RELATED_TO: [[TOTAL_FRAMEWORK_MATRIX]]
+- RELATED_TO: [[TOTAL_FRAMEWORK_MATRIX]]
 
-* RELATED_TO: [[TOTAL_KERNEL_MATRIX]]
+- RELATED_TO: [[TOTAL_KERNEL_MATRIX]]
 
-* RELATED_TO: [[TOTAL_CANON_MATRIX]]
+- RELATED_TO: [[TOTAL_CANON_MATRIX]]
 
-* RELATED_TO: [[K_RSCF]]
+- RELATED_TO: [[K_RSCF]]
 
-* RELATED_TO: [[K_HML]]
+- RELATED_TO: [[K_HML]]
 
-* RELATED_TO: [[K_PROVENANCE]]
+- RELATED_TO: [[K_PROVENANCE]]
 
-* RELATED_TO: [[K_CAUSAL_FIREWALL]]
+- RELATED_TO: K_CAUSAL_FIREWALL
 
-* RELATED_TO: [[K_FAIL_CLOSED]]
+- RELATED_TO: [[K_FAIL_CLOSED]]
 
-* RELATED_TO: [[K_GOVERNED_EVOLUTION]]
+- RELATED_TO: [[K_GOVERNED_EVOLUTION]]
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+- LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 
 ---
 

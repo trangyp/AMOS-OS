@@ -1,3 +1,40 @@
+---
+title: "UNIVERSE X OMEGA"
+type: cognitive_matrix
+source: "25_COGNITIVE_MATRIX"
+artifact: "UNIVERSE_X_OMEGA.md"
+artifact_id: "amos_25_cognitive_matrix_universe_x_omega"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+plane: "25_COGNITIVE_MATRIX"
+segment: "25_COGNITIVE_MATRIX"
+artifact_kind: "MATRIX"
+path: "25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA.md"
+tags:
+  - amos_os
+  - cognitive_matrix
+  - canon/matrix
+  - rscf
+  - provenance
+version: "1.0.0"
+updated: "2026-08-28"
+status: "CANON_CANDIDATE"
+epistemic_class: "AMOS_MODEL"
+canonical_status: "CANDIDATE_PENDING_VALIDATION"
+implementation_status: "CONCEPTUAL"
+validation_status: "NOT_ESTABLISHED"
+executable_binding: "NOT_ESTABLISHED"
+ingestion_action: "ADD_ONLY"
+rscf:
+  state: DERIVED
+  claim_class: AMOS_MODEL
+  provenance: AMOS_corpus
+  scope: AMOS_cognitive_matrix
+  confidence_ceiling: "SOURCE_DEPENDENT"
+  regime: "AMOS_OS_MODEL"
+---
+
 # `UNIVERSE_X_OMEGA.md` — Full Canonical Content with Tags
 
 Source recovery note: the central equation is recoverable as \(P_{\text{collapse}}\sim\frac{\Omega F S}{H\cdot Reserves}\). The prose definitions clearly preserve \(\Omega\) and \(H\), while the source has lost the variable glyphs preceding “Structural Fragmentation” and “External Shock Intensity.” Because the numerator visibly contains `F · S`, the strongest reconstruction is **F = Structural Fragmentation** and **S = External Shock Intensity**, but those assignments are marked **DERIVED_FROM_EQUATION_ORDER**, not silently upgraded to source-verbatim fact. The stray `48307` tokens are treated as rendering corruption, not canonical constants.
@@ -4090,8 +4127,7 @@ Do not load the full canon merely to answer a local variable question.
        ┌────┼──────────────┐
        │    │              │
        ▼    ▼              ▼
- Omega   Universe      [[KHUNG_
- Model    Canon         TRANG_MASTER]]
+ Omega   Universe
        │    │
        │    ▼
        │ [[02_UNIVERSE_CANON_MOC]]

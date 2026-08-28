@@ -95,7 +95,7 @@ SPEED
 TOKEN SAVINGS
 ```
 
----
+______________________________________________________________________
 
 # 1. Cognition Is Not Authority
 
@@ -140,7 +140,7 @@ RECOMMENDATION != DECISION
 DECISION != COMMIT
 ```
 
----
+______________________________________________________________________
 
 # 2. Cognition Is Not Runtime
 
@@ -168,7 +168,7 @@ RUNTIME != COGNITION
 
 A scheduler running a cognitive process does not itself become the reasoning model.
 
----
+______________________________________________________________________
 
 # 3. Cognition Is Not an Agent
 
@@ -194,7 +194,7 @@ AGENT
 ROLE + OBJECTIVE + CAPABILITY + BOUNDARY + AUTHORITY ENVELOPE
 ```
 
----
+______________________________________________________________________
 
 # 4. Canonical Cognitive Cycle
 
@@ -230,7 +230,7 @@ OUTPUT
 
 This cycle is adaptive rather than mechanically exhaustive.
 
----
+______________________________________________________________________
 
 # 5. Smallest Sufficient Proof Scope
 
@@ -254,7 +254,7 @@ UNDER-VALIDATED
 
 Compression is permitted only when integrity is preserved.
 
----
+______________________________________________________________________
 
 # 6. Fractal Knowledge Runtime
 
@@ -280,7 +280,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 The reasoning system should traverse only dependencies capable of materially changing the answer.
 
----
+______________________________________________________________________
 
 # 7. H/M/L Law
 
@@ -307,7 +307,7 @@ and:
 HIGHER LEVEL != MORE TRUE
 ```
 
----
+______________________________________________________________________
 
 # 8. H Layer
 
@@ -324,7 +324,7 @@ AVOID IRRELEVANT DESCENT
 
 H should not silently replace detailed evidence.
 
----
+______________________________________________________________________
 
 # 9. M Layer
 
@@ -341,7 +341,7 @@ CONFLICT LOCALIZATION
 
 M is the bridge between high-level framing and detailed proof.
 
----
+______________________________________________________________________
 
 # 10. L Layer
 
@@ -362,7 +362,7 @@ IMPLEMENTATION DETAILS
 
 L is loaded when H/M abstraction is insufficient for the required conclusion.
 
----
+______________________________________________________________________
 
 # 11. Raw Evidence
 
@@ -395,7 +395,7 @@ PROVENANCE
 
 where material.
 
----
+______________________________________________________________________
 
 # 12. RSCF
 
@@ -427,7 +427,7 @@ rscf:
 
 An RSCF exists to preserve the dependency structure behind a conclusion.
 
----
+______________________________________________________________________
 
 # 13. Recursive RSCF
 
@@ -444,7 +444,7 @@ RSCF A
 
 This produces recursive reasoning without requiring global recomputation.
 
----
+______________________________________________________________________
 
 # 14. Local Invalidation
 
@@ -470,7 +470,7 @@ Hard law:
 LOCAL FAILURE != GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
 # 15. GMEF
 
@@ -488,7 +488,7 @@ GMEF IMPLEMENTATION DETAIL
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 # 16. Evidence Types
 
@@ -505,7 +505,7 @@ UNKNOWN
 
 These types must not be flattened into generic "facts."
 
----
+______________________________________________________________________
 
 # 17. Source Claim
 
@@ -527,7 +527,7 @@ Therefore:
 SOURCE_CLAIM != VERIFIED FACT
 ```
 
----
+______________________________________________________________________
 
 # 18. Observation
 
@@ -547,7 +547,7 @@ observation:
 
 Observation remains measurement-dependent.
 
----
+______________________________________________________________________
 
 # 19. Derived Claim
 
@@ -577,7 +577,7 @@ MIN(
 
 subject to independent revalidation.
 
----
+______________________________________________________________________
 
 # 20. Model
 
@@ -589,7 +589,7 @@ MODEL != EMPIRICAL FACT
 
 Cross-domain mappings remain models unless independently validated.
 
----
+______________________________________________________________________
 
 # 21. Decision
 
@@ -603,7 +603,7 @@ UNIVERSAL TRUTH
 
 A decision may be appropriate despite unresolved uncertainty.
 
----
+______________________________________________________________________
 
 # 22. Unknown
 
@@ -629,7 +629,7 @@ Hard boundary:
 UNKNOWN/GAP != PASS
 ```
 
----
+______________________________________________________________________
 
 # 23. Conclusion Classes
 
@@ -646,7 +646,7 @@ UNKNOWN/GAP
 
 The system must not promote a conclusion merely to make an answer appear complete.
 
----
+______________________________________________________________________
 
 # 24. Verified
 
@@ -670,7 +670,7 @@ VERIFIED HERE
 VERIFIED EVERYWHERE
 ```
 
----
+______________________________________________________________________
 
 # 25. Conditional
 
@@ -686,7 +686,7 @@ THEN C
 
 If A or B is unresolved, C remains conditional.
 
----
+______________________________________________________________________
 
 # 26. Competing
 
@@ -700,7 +700,7 @@ when incompatible hypotheses remain genuinely supported and available evidence c
 
 AMOS must not force convergence for stylistic neatness.
 
----
+______________________________________________________________________
 
 # 27. Competing Hypothesis Set
 
@@ -724,7 +724,7 @@ hypothesis_set:
   state: COMPETING
 ```
 
----
+______________________________________________________________________
 
 # 28. Discriminating Evidence
 
@@ -740,7 +740,7 @@ over accumulating redundant evidence.
 
 This optimizes uncertainty reduction rather than evidence volume.
 
----
+______________________________________________________________________
 
 # 29. Evidence Topology
 
@@ -761,7 +761,7 @@ Canonical law:
 REPETITION != INDEPENDENCE
 ```
 
----
+______________________________________________________________________
 
 # 30. Provenance Independence
 
@@ -782,7 +782,7 @@ SUMMARY ANCESTRY
 
 when independence is load-bearing.
 
----
+______________________________________________________________________
 
 # 31. Sybil Hardening
 
@@ -800,7 +800,7 @@ ARTICLE D
 
 B, C, and D must not automatically count as independent confirmation.
 
----
+______________________________________________________________________
 
 # 32. Provenance Topology
 
@@ -818,7 +818,7 @@ ENVIRONMENT
 
 This topology is part of epistemic integrity.
 
----
+______________________________________________________________________
 
 # 33. Causal Firewall
 
@@ -839,7 +839,7 @@ CAUSAL EFFECT
 
 These are not interchangeable.
 
----
+______________________________________________________________________
 
 # 34. Structural Similarity Firewall
 
@@ -867,7 +867,7 @@ SEQUENCE
 CAUSAL PROOF
 ```
 
----
+______________________________________________________________________
 
 # 35. Cross-Domain Mapping
 
@@ -891,7 +891,7 @@ not automatically:
 VERIFIED CAUSAL LAW
 ```
 
----
+______________________________________________________________________
 
 # 36. Scope Firewall
 
@@ -912,7 +912,7 @@ scope:
 
 Cognition must not silently generalize outside this envelope.
 
----
+______________________________________________________________________
 
 # 37. Regime Firewall
 
@@ -941,7 +941,7 @@ PHYSICAL CONDITIONS
 INSTITUTIONAL CONTEXT
 ```
 
----
+______________________________________________________________________
 
 # 38. Regime Shift
 
@@ -961,7 +961,7 @@ INVALIDATE
 
 A previously strong conclusion can become stale without being historically wrong.
 
----
+______________________________________________________________________
 
 # 39. Freshness
 
@@ -979,7 +979,7 @@ EXPIRES_AT
 
 Recent publication does not necessarily mean recent underlying evidence.
 
----
+______________________________________________________________________
 
 # 40. Proof Capsule
 
@@ -1009,7 +1009,7 @@ proof_capsule:
 
 This enables safe reuse.
 
----
+______________________________________________________________________
 
 # 41. Proof Capsule Reuse
 
@@ -1035,7 +1035,7 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 # 42. Fast Path
 
@@ -1059,7 +1059,7 @@ NON-CONFLICT
 
 are sufficient for the conclusion.
 
----
+______________________________________________________________________
 
 # 43. Fast Path Escalation
 
@@ -1079,7 +1079,7 @@ WEAK EVIDENCE
 
 Fast path must never trade correctness for speed.
 
----
+______________________________________________________________________
 
 # 44. Adversarial Validation
 
@@ -1103,7 +1103,7 @@ CAUSAL OVERREACH
 STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
 # 45. Challenge Independence
 
@@ -1120,7 +1120,7 @@ PROVENANCE
 CAUSAL EXPLANATION
 ```
 
----
+______________________________________________________________________
 
 # 46. Challenge Outcomes
 
@@ -1142,7 +1142,7 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 # 47. Sensitivity
 
@@ -1158,7 +1158,7 @@ CAPABLE OF FLIPPING THE RESULT
 
 Test that first.
 
----
+______________________________________________________________________
 
 # 48. Fragility
 
@@ -1174,7 +1174,7 @@ where appropriate.
 
 A robust conclusion should survive plausible changes to noncritical assumptions.
 
----
+______________________________________________________________________
 
 # 49. Uncertainty Vector
 
@@ -1192,7 +1192,7 @@ PROVENANCE-INDEPENDENCE UNCERTAINTY
 
 A single confidence score may conceal important distinctions.
 
----
+______________________________________________________________________
 
 # 50. Uncertainty Budget
 
@@ -1207,7 +1207,7 @@ COST OF ADDITIONAL REASONING
 
 This prevents exhaustive but decision-irrelevant analysis.
 
----
+______________________________________________________________________
 
 # 51. Adaptive Complexity
 
@@ -1223,7 +1223,7 @@ C4 — MAXIMUM
 
 Start at the lowest sufficient level.
 
----
+______________________________________________________________________
 
 # 52. Complexity Escalation
 
@@ -1244,7 +1244,7 @@ LOW TRUST
 EXPLICIT DEEP-ANALYSIS REQUEST
 ```
 
----
+______________________________________________________________________
 
 # 53. Complexity De-Escalation
 
@@ -1256,7 +1256,7 @@ DE-ESCALATE
 
 Do not continue reasoning merely because additional reasoning is possible.
 
----
+______________________________________________________________________
 
 # 54. Execution Sufficiency
 
@@ -1270,19 +1270,19 @@ ACTION SUFFICIENCY
 
 This is not equivalent to complete knowledge.
 
----
+______________________________________________________________________
 
 # 55. Claim Sufficiency
 
 Claim sufficiency means the conclusion is supported strongly enough for the requested epistemic class.
 
----
+______________________________________________________________________
 
 # 56. Decision Sufficiency
 
 Decision sufficiency means remaining uncertainty is unlikely to alter the selected decision materially.
 
----
+______________________________________________________________________
 
 # 57. Action Sufficiency
 
@@ -1298,7 +1298,7 @@ TOTAL EXPLANATORY COMPLETENESS
 
 so exhaustive knowledge is unnecessary.
 
----
+______________________________________________________________________
 
 # 58. Gap Classification
 
@@ -1313,7 +1313,7 @@ COSMETIC
 
 Resolve in that order.
 
----
+______________________________________________________________________
 
 # 59. Critical Gap
 
@@ -1327,7 +1327,7 @@ RETURN UNKNOWN/GAP
 
 and identify the minimum missing information.
 
----
+______________________________________________________________________
 
 # 60. Decision-Relevant Gap
 
@@ -1335,7 +1335,7 @@ A decision-relevant gap may flip the decision.
 
 It should normally be investigated before committing to a recommendation.
 
----
+______________________________________________________________________
 
 # 61. Explanatory Gap
 
@@ -1343,7 +1343,7 @@ An explanatory gap reduces understanding but does not materially change the deci
 
 It may remain unresolved if further investigation has low value.
 
----
+______________________________________________________________________
 
 # 62. Cosmetic Gap
 
@@ -1351,7 +1351,7 @@ A cosmetic gap affects presentation rather than validity.
 
 It should never consume reasoning resources ahead of critical uncertainty.
 
----
+______________________________________________________________________
 
 # 63. Anti-Fabrication
 
@@ -1373,7 +1373,7 @@ AUTHORITY != INDEPENDENT CONFIRMATION
 BENCHMARK SUCCESS != UNIVERSAL VALIDITY
 ```
 
----
+______________________________________________________________________
 
 # 64. Benchmark Firewall
 
@@ -1399,7 +1399,7 @@ TIME
 
 where relevant.
 
----
+______________________________________________________________________
 
 # 65. Simulation Firewall
 
@@ -1413,7 +1413,7 @@ REAL-WORLD VALIDATION
 
 unless empirically linked to the target system.
 
----
+______________________________________________________________________
 
 # 66. Formal Proof Firewall
 
@@ -1435,7 +1435,7 @@ UNIVERSAL DISTRIBUTED-SYSTEM PROOF
 
 unless an appropriate proof actually exists.
 
----
+______________________________________________________________________
 
 # 67. Deterministic Reasoning
 
@@ -1455,7 +1455,7 @@ SAME LOGICAL RESULT
 
 This does not claim every natural-language output will be byte-identical.
 
----
+______________________________________________________________________
 
 # 68. Determinism Firewall
 
@@ -1474,7 +1474,7 @@ TIME
 
 then differing outputs do not necessarily violate deterministic logical structure.
 
----
+______________________________________________________________________
 
 # 69. Causal Lineage
 
@@ -1489,7 +1489,7 @@ WHAT CHANGED WHEN THE CONCLUSION CHANGED
 
 This enables selective invalidation.
 
----
+______________________________________________________________________
 
 # 70. Persistent Cognition
 
@@ -1509,7 +1509,7 @@ CONFLICTS
 
 Persisting only final prose is insufficient for high-integrity reuse.
 
----
+______________________________________________________________________
 
 # 71. Atomic Multi-RSCF Reasoning
 
@@ -1533,7 +1533,7 @@ PARTIAL VALIDATION
 VALIDATION OF D
 ```
 
----
+______________________________________________________________________
 
 # 72. Cognitive Dependency Closure
 
@@ -1547,7 +1547,7 @@ DEPENDENCY CLOSURE
 
 Closure is conclusion-relative, not necessarily global.
 
----
+______________________________________________________________________
 
 # 73. Proof-Based Coordination Avoidance
 
@@ -1566,7 +1566,7 @@ then local reasoning may proceed.
 
 Independence must be demonstrated.
 
----
+______________________________________________________________________
 
 # 74. Cognitive Finality
 
@@ -1586,7 +1586,7 @@ DECISION-CHANGING UNCERTAINTY ACCEPTABLE
 
 Finality is purpose-relative.
 
----
+______________________________________________________________________
 
 # 75. Cognitive Finality != Canon Finality
 
@@ -1608,7 +1608,7 @@ DERIVED
 
 rather than canon.
 
----
+______________________________________________________________________
 
 # 76. Action Governance
 
@@ -1635,7 +1635,7 @@ OBSERVABLE
 
 actions.
 
----
+______________________________________________________________________
 
 # 77. Reversibility Principle
 
@@ -1648,7 +1648,7 @@ REVERSIBLE ACTION
 
 when it preserves decision value without materially increasing risk.
 
----
+______________________________________________________________________
 
 # 78. Known / Inferred / Action Separation
 
@@ -1664,7 +1664,7 @@ SAFE ACTION
 
 when doing so materially improves decision integrity.
 
----
+______________________________________________________________________
 
 # 79. Cognitive Evolution
 
@@ -1688,7 +1688,7 @@ GOVERNANCE
 PROMOTION
 ```
 
----
+______________________________________________________________________
 
 # 80. Governed Evolution
 
@@ -1710,7 +1710,7 @@ If it does:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
 # 81. Anti-Regression
 
@@ -1726,7 +1726,7 @@ OLD METHOD
 
 for all load-bearing integrity properties, or trade-offs must be explicitly governed.
 
----
+______________________________________________________________________
 
 # 82. Knowledge Harvest
 
@@ -1742,7 +1742,7 @@ VALIDATED KNOWLEDGE
 
 Promotion must preserve provenance.
 
----
+______________________________________________________________________
 
 # 83. Documentation Firewall
 
@@ -1756,7 +1756,7 @@ unless independently validated.
 
 A project's own description is evidence of what the project claims, not automatic evidence that the implementation satisfies that description.
 
----
+______________________________________________________________________
 
 # 84. Cognitive Memory
 
@@ -1772,7 +1772,7 @@ MEMORY != VERIFIED FACT
 
 Memory should not silently override current evidence.
 
----
+______________________________________________________________________
 
 # 85. Cognitive State
 
@@ -1792,7 +1792,7 @@ INVALIDATED CAPSULES
 
 This state is operational context, not automatically canon.
 
----
+______________________________________________________________________
 
 # 86. Failure Recovery
 
@@ -1812,7 +1812,7 @@ REVALIDATE
 
 Do not repeat the failed path unless evidence or assumptions change.
 
----
+______________________________________________________________________
 
 # 87. No Blind Retry
 
@@ -1830,7 +1830,7 @@ DO NOT BLINDLY REPEAT
 
 A retry requires changed information, method, or hypothesis.
 
----
+______________________________________________________________________
 
 # 88. Global Recomputation
 
@@ -1848,7 +1848,7 @@ OR
 LOCALIZATION FAILS
 ```
 
----
+______________________________________________________________________
 
 # 89. Cognitive Integrity Invariants
 
@@ -1914,7 +1914,7 @@ COG-029 IRREVERSIBILITY INCREASES VALIDATION REQUIREMENTS
 COG-030 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 # 90. Cognitive Validation Matrix
 
@@ -1936,7 +1936,7 @@ COG-030 OPTIMIZATION MUST NOT WEAKEN INTEGRITY
 | Reversibility | Can the proposed action be safely reversed?           |
 | Gaps          | What unresolved information could change the outcome? |
 
----
+______________________________________________________________________
 
 # 91. Cognitive Test Families
 
@@ -1968,7 +1968,7 @@ ANTI-REGRESSION
 ACTION GOVERNANCE
 ```
 
----
+______________________________________________________________________
 
 # 92. Adversarial Test Cases
 
@@ -1998,7 +1998,7 @@ FAST PATH USED DESPITE CROSS-DEPENDENCY
 LOCAL FAILURE CAUSING UNNECESSARY GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
 # 93. Canonical Reasoning Template
 
@@ -2020,7 +2020,7 @@ LOCAL FAILURE CAUSING UNNECESSARY GLOBAL RESET
 15. RETURN CONCISE, GAP-VISIBLE OUTPUT
 ```
 
----
+______________________________________________________________________
 
 # 94. Canonical Failure Template
 
@@ -2042,7 +2042,7 @@ REVALIDATE
 UPDATE CONCLUSION CLASS
 ```
 
----
+______________________________________________________________________
 
 # 95. Cognitive Output Contract
 
@@ -2061,7 +2061,7 @@ NEXT ACTION
 
 Internal reasoning machinery need not be exposed to produce an auditable result.
 
----
+______________________________________________________________________
 
 # 96. Explainability Boundary
 
@@ -2080,7 +2080,7 @@ where useful.
 
 It need not expose private implementation internals or hidden reasoning traces.
 
----
+______________________________________________________________________
 
 # 97. Implementation Firewall
 
@@ -2116,7 +2116,7 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
 # 98. Promotion Gate
 
@@ -2130,35 +2130,35 @@ ACTIVE_CANON
 
 requires canonical review of at least:
 
-* cognition boundary;
-* cognition versus runtime;
-* cognition versus agent;
-* H/M/L semantics;
-* RSCF semantics;
-* GMEF source binding;
-* epistemic types;
-* conclusion classes;
-* provenance topology;
-* independence requirements;
-* competing hypotheses;
-* causal firewall;
-* scope firewall;
-* regime firewall;
-* freshness;
-* proof capsules;
-* fast path;
-* adversarial validation;
-* sensitivity;
-* uncertainty vector;
-* adaptive complexity;
-* failure recovery;
-* governed evolution;
-* action governance;
-* implementation boundaries.
+- cognition boundary;
+- cognition versus runtime;
+- cognition versus agent;
+- H/M/L semantics;
+- RSCF semantics;
+- GMEF source binding;
+- epistemic types;
+- conclusion classes;
+- provenance topology;
+- independence requirements;
+- competing hypotheses;
+- causal firewall;
+- scope firewall;
+- regime firewall;
+- freshness;
+- proof capsules;
+- fast path;
+- adversarial validation;
+- sensitivity;
+- uncertainty vector;
+- adaptive complexity;
+- failure recovery;
+- governed evolution;
+- action governance;
+- implementation boundaries.
 
 Unresolved GMEF semantics should remain explicitly `UNKNOWN/GAP` rather than being invented during promotion.
 
----
+______________________________________________________________________
 
 # 99. RSCF Node
 
@@ -2217,7 +2217,7 @@ does_not_establish:
   - literal implementation of every distributed v4.4 coordination concept
 ```
 
----
+______________________________________________________________________
 
 # 100. Changelog
 
@@ -2227,50 +2227,50 @@ Expanded the cognition placeholder into an AMOS v4.4-aligned canon candidate.
 
 Added:
 
-* cognition boundary;
-* cognition/runtime/agent separation;
-* canonical cognitive cycle;
-* smallest-sufficient-proof rule;
-* fractal H/M/L retrieval;
-* recursive RSCF;
-* GMEF gap boundary;
-* evidence typing;
-* conclusion classes;
-* confidence ceiling;
-* provenance topology;
-* Sybil hardening;
-* competing hypotheses;
-* discriminating evidence;
-* causal firewall;
-* scope/regime/freshness firewalls;
-* proof capsules;
-* v4.4 fast path;
-* adversarial validation;
-* sensitivity analysis;
-* uncertainty vector;
-* adaptive complexity C0–C4;
-* claim/decision/action sufficiency;
-* gap classification;
-* anti-fabrication;
-* benchmark/simulation/formal-proof firewalls;
-* deterministic reasoning boundary;
-* causal lineage;
-* atomic multi-RSCF reasoning;
-* proof-based coordination avoidance;
-* cognitive finality;
-* action governance;
-* governed evolution;
-* anti-regression;
-* failure recovery;
-* validation matrix;
-* adversarial test families;
-* implementation firewall.
+- cognition boundary;
+- cognition/runtime/agent separation;
+- canonical cognitive cycle;
+- smallest-sufficient-proof rule;
+- fractal H/M/L retrieval;
+- recursive RSCF;
+- GMEF gap boundary;
+- evidence typing;
+- conclusion classes;
+- confidence ceiling;
+- provenance topology;
+- Sybil hardening;
+- competing hypotheses;
+- discriminating evidence;
+- causal firewall;
+- scope/regime/freshness firewalls;
+- proof capsules;
+- v4.4 fast path;
+- adversarial validation;
+- sensitivity analysis;
+- uncertainty vector;
+- adaptive complexity C0–C4;
+- claim/decision/action sufficiency;
+- gap classification;
+- anti-fabrication;
+- benchmark/simulation/formal-proof firewalls;
+- deterministic reasoning boundary;
+- causal lineage;
+- atomic multi-RSCF reasoning;
+- proof-based coordination avoidance;
+- cognitive finality;
+- action governance;
+- governed evolution;
+- anti-regression;
+- failure recovery;
+- validation matrix;
+- adversarial test families;
+- implementation firewall.
 
 ## v1.0.0 — 2026-08-25
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
 # 101. Canonical Summary
 
@@ -2361,18 +2361,18 @@ AND NEVER MAKE THE ANSWER
 STRONGER THAN THE EVIDENCE.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · NEURAL_NETWORK|AMOS Neural Network · AMOS Canon · CANON_MAP|Canon Map · AMOS_CORE_LAWS|AMOS Core Laws · INVARIANT_REGISTRY|Invariant Registry · LAW_HIERARCHY|Law Hierarchy · HML_CANON|H/M/L Canon · PERSISTENCE_CANON|Persistence Canon · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · RUNTIME_MAP|Runtime Map · COGNITIVE_ORGANISM_MAP|Cognitive Organism Map · AGENT_MAP|Agent Map · WORKFLOW_MAP|Workflow Map · MEMORY_MEMORY_MAP|Memory Map · Knowledge Map · STATE_STATE_MAP|State Map · MODEL_MAP|Model Map · SCHEMA_MAP|Schema Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · TEST_MAP|Test Map · COGNITIVE_MATRIX_ARCHITECTURE|Cognitive Matrix
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 RSCF-NODE
 node_id: cognition_canon
 node_type: note
@@ -2382,5 +2382,5 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
----
+______________________________________________________________________
 **MOC:** [[03_COGNITION_CANON_MOC]]

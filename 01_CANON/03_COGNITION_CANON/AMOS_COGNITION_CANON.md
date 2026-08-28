@@ -752,25 +752,25 @@ CANON PROMOTION
 
 This artifact MUST NOT be used to claim:
 
-* universal laws of cognition;
-* biological cognition;
-* neuroscience;
-* psychology;
-* human consciousness;
-* machine consciousness;
-* AGI;
-* sentience;
-* subjective experience;
-* neural mechanisms;
-* cognitive capacity limits;
-* validated reasoning laws;
-* validated memory laws;
-* validated attention laws;
-* validated perception laws;
-* mathematical theoremhood;
-* causal effects of cognition;
-* runtime cognitive enforcement;
-* or empirical truth.
+- universal laws of cognition;
+- biological cognition;
+- neuroscience;
+- psychology;
+- human consciousness;
+- machine consciousness;
+- AGI;
+- sentience;
+- subjective experience;
+- neural mechanisms;
+- cognitive capacity limits;
+- validated reasoning laws;
+- validated memory laws;
+- validated attention laws;
+- validated perception laws;
+- mathematical theoremhood;
+- causal effects of cognition;
+- runtime cognitive enforcement;
+- or empirical truth.
 
 ---
 
@@ -4217,49 +4217,49 @@ These references do not establish executable bindings.
 
 Before promotion:
 
-* [ ] verified native Cognition Canon source recovered;
-* [ ] framework identity matched;
-* [ ] source version resolved;
-* [ ] provenance ancestry resolved;
-* [ ] historical/current standing resolved;
-* [ ] native cognition definition extracted;
-* [ ] cognitive entity ontology established;
-* [ ] cognitive state ontology established;
-* [ ] cognitive process ontology established;
-* [ ] cognitive transition semantics established;
-* [ ] representation semantics established;
-* [ ] reasoning binding established if native;
-* [ ] attention binding established if native;
-* [ ] memory binding established if native;
-* [ ] perception binding established if native;
-* [ ] learning binding established if native;
-* [ ] inference binding established if native;
-* [ ] decision binding established if native;
-* [ ] agency binding established if native;
-* [ ] emotion binding established if native;
-* [ ] metacognition binding established if native;
-* [ ] RSCF binding established if native;
-* [ ] H/M/L binding established if native;
-* [ ] scope envelope established;
-* [ ] regime envelope established;
-* [ ] temporal validity established;
-* [ ] freshness semantics established;
-* [ ] dependency topology established;
-* [ ] provenance independence assessed;
-* [ ] negative cases executed;
-* [ ] model/observation confusion rejected;
-* [ ] inference/verification confusion rejected;
-* [ ] cognition/consciousness confusion rejected;
-* [ ] cognition/authority confusion rejected;
-* [ ] correlated sources not treated as independent;
-* [ ] causal overreach rejected;
-* [ ] rollback basin demonstrated;
-* [ ] receipts persisted;
-* [ ] executable binding established if enforcement is claimed;
-* [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
-* [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] verified native Cognition Canon source recovered;
+- [ ] framework identity matched;
+- [ ] source version resolved;
+- [ ] provenance ancestry resolved;
+- [ ] historical/current standing resolved;
+- [ ] native cognition definition extracted;
+- [ ] cognitive entity ontology established;
+- [ ] cognitive state ontology established;
+- [ ] cognitive process ontology established;
+- [ ] cognitive transition semantics established;
+- [ ] representation semantics established;
+- [ ] reasoning binding established if native;
+- [ ] attention binding established if native;
+- [ ] memory binding established if native;
+- [ ] perception binding established if native;
+- [ ] learning binding established if native;
+- [ ] inference binding established if native;
+- [ ] decision binding established if native;
+- [ ] agency binding established if native;
+- [ ] emotion binding established if native;
+- [ ] metacognition binding established if native;
+- [ ] RSCF binding established if native;
+- [ ] H/M/L binding established if native;
+- [ ] scope envelope established;
+- [ ] regime envelope established;
+- [ ] temporal validity established;
+- [ ] freshness semantics established;
+- [ ] dependency topology established;
+- [ ] provenance independence assessed;
+- [ ] negative cases executed;
+- [ ] model/observation confusion rejected;
+- [ ] inference/verification confusion rejected;
+- [ ] cognition/consciousness confusion rejected;
+- [ ] cognition/authority confusion rejected;
+- [ ] correlated sources not treated as independent;
+- [ ] causal overreach rejected;
+- [ ] rollback basin demonstrated;
+- [ ] receipts persisted;
+- [ ] executable binding established if enforcement is claimed;
+- [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
+- [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
 ---
 
@@ -5041,23 +5041,23 @@ native_dependencies_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* TARGET_INTERACTS_WITH: [[KERNEL_README]]
+- TARGET_INTERACTS_WITH: [[KERNEL_README]]
 
-* TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
+- TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
 
-* TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
+- TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* TARGET_RECOVERED_BY: [[OPERATIONS_README]]
+- TARGET_RECOVERED_BY: [[OPERATIONS_README]]
 
-* TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 
@@ -5139,4 +5139,3 @@ RSCF-RELATIONS:
 
 The decisive boundary is the same one the source itself requires: this artifact establishes the **AMOS Cognition Canon slot, identity, provenance class, ingestion discipline, and canon-mutation governance contract**. It does **not** yet establish what cognition means natively in AMOS, what its states/processes are, or how cognition binds to attention, memory, perception, reasoning, learning, decision, agency, emotion, RSCF, or H/M/L. Those remain `UNKNOWN/GAP` until a provenance-linked native source supplies them.
 ```
-

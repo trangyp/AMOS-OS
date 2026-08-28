@@ -108,63 +108,40 @@ framework_binding:
 
 epistemic_boundary:
 
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
+  source_presence: VERIFIED_SOURCE_PRESENCE
 
-  framework_structure:
-    VERIFIED_SOURCE_STRUCTURE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
 
-  domain_models:
-    SOURCE_DEFINED_MODEL
+  domain_models: SOURCE_DEFINED_MODEL
 
-  integration_function:
-    SOURCE_DEFINED_AS_UNRESOLVED_FUNCTION
+  integration_function: SOURCE_DEFINED_AS_UNRESOLVED_FUNCTION
 
-  geometric_mean_alignment:
-    AMOS_DERIVED_NOT_NATIVE_ESTABLISHED
+  geometric_mean_alignment: AMOS_DERIVED_NOT_NATIVE_ESTABLISHED
 
-  effectiveness_equation:
-    SOURCE_DEFINED_FRAMEWORK_CLAIM
+  effectiveness_equation: SOURCE_DEFINED_FRAMEWORK_CLAIM
 
-  clinical_fact:
-    NOT_ESTABLISHED
+  clinical_fact: NOT_ESTABLISHED
 
-  construct_validity:
-    NOT_INDEPENDENTLY_ESTABLISHED
+  construct_validity: NOT_INDEPENDENTLY_ESTABLISHED
 
-  causal_validity:
-    NOT_INDEPENDENTLY_ESTABLISHED
+  causal_validity: NOT_INDEPENDENTLY_ESTABLISHED
 
-  universal_biological_truth:
-    NOT_ESTABLISHED_GLOBALLY
+  universal_biological_truth: NOT_ESTABLISHED_GLOBALLY
 
-  runtime_enforcement:
-    NOT_ESTABLISHED
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 ---
-title: AMOS X UBI
-type: note
-source: "25_COGNITIVE_MATRIX"
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
-tags: [note, 25-cognitive-matrix]
-canon-group: canon/cognitive-matrix
----
+
+## title: AMOS X UBI type: note source: "25_COGNITIVE_MATRIX" rscf: state: SOURCE_CLAIM class: STRUCTURAL provenance: - internal freshness: EVERGREEN falsifiers: [] tags: [note, 25-cognitive-matrix] canon-group: canon/cognitive-matrix
+
 # AMOS X UBI
 
 The submitted `AMOS_X_UBI.md` is **not ready for unchanged canon ingestion**. The same load-bearing issue identified in `AMOS_X_UBI_MATRIX.md` remains: the geometric-mean definition of `i` is being promoted from a derived candidate into a native UBI equation without source support established in the retrieved official-manual evidence.
 
-The Drive corpus does independently show a substantial UBI source lineage—including dedicated UBI works and separate UBI × NeuroSyncAI integration material—but those descendants should not be treated as independent confirmation of the native mathematical definition.  
+The Drive corpus does independently show a substantial UBI source lineage—including dedicated UBI works and separate UBI × NeuroSyncAI integration material—but those descendants should not be treated as independent confirmation of the native mathematical definition.
 
 Below is the source-disciplined full normalization.
-
-
 
 It replaces the former placeholder with a governed representation of
 the UBI source framework.
@@ -2403,57 +2380,57 @@ until new provenance changes that classification.
 
 # 78. Canon Promotion Gate
 
-* [x] native UBI source located
-* [x] UBI identity located
-* [x] four-domain structure located
-* [x] NBI located
-* [x] NEI located
-* [x] SI located
-* [x] BEI located
-* [x] interdependence located
-* [x] measurement modalities located
-* [x] `i = f(NBI, NEI, SI, BEI)` located
-* [x] `e = i²` framework relationship located
-* [x] TSS relationship located
-* [x] TPE relationship located
-* [x] UBF relationship located
-* [ ] all source variants lineage-reconciled
-* [ ] source-version hierarchy established
-* [ ] conflicting formulations reconciled or retained as COMPETING
-* [ ] final canon-promotion receipt
+- [x] native UBI source located
+- [x] UBI identity located
+- [x] four-domain structure located
+- [x] NBI located
+- [x] NEI located
+- [x] SI located
+- [x] BEI located
+- [x] interdependence located
+- [x] measurement modalities located
+- [x] `i = f(NBI, NEI, SI, BEI)` located
+- [x] `e = i²` framework relationship located
+- [x] TSS relationship located
+- [x] TPE relationship located
+- [x] UBF relationship located
+- [ ] all source variants lineage-reconciled
+- [ ] source-version hierarchy established
+- [ ] conflicting formulations reconciled or retained as COMPETING
+- [ ] final canon-promotion receipt
 
 ---
 
 # 79. Mathematical Promotion Gate
 
-* [ ] operational definition of NBI
-* [ ] operational definition of NEI
-* [ ] operational definition of SI
-* [ ] operational definition of BEI
-* [ ] compatible scales
-* [ ] normalization protocol
-* [ ] explicit native definition of `f`
-* [ ] validation of `f`
-* [ ] units / semantics of `i`
-* [ ] units / semantics of `e`
-* [ ] independent validation of `e = i²`
+- [ ] operational definition of NBI
+- [ ] operational definition of NEI
+- [ ] operational definition of SI
+- [ ] operational definition of BEI
+- [ ] compatible scales
+- [ ] normalization protocol
+- [ ] explicit native definition of `f`
+- [ ] validation of `f`
+- [ ] units / semantics of `i`
+- [ ] units / semantics of `e`
+- [ ] independent validation of `e = i²`
 
 ---
 
 # 80. Runtime Promotion Gate
 
-* [ ] executable typed schema
-* [ ] domain state implemented
-* [ ] measurement provenance persisted
-* [ ] scope enforcement implemented
-* [ ] regime enforcement implemented
-* [ ] freshness enforcement implemented
-* [ ] missing-domain handling implemented
-* [ ] uncertainty retained
-* [ ] local invalidation implemented
-* [ ] health-action governance implemented
-* [ ] rollback demonstrated
-* [ ] runtime validation receipt
+- [ ] executable typed schema
+- [ ] domain state implemented
+- [ ] measurement provenance persisted
+- [ ] scope enforcement implemented
+- [ ] regime enforcement implemented
+- [ ] freshness enforcement implemented
+- [ ] missing-domain handling implemented
+- [ ] uncertainty retained
+- [ ] local invalidation implemented
+- [ ] health-action governance implemented
+- [ ] rollback demonstrated
+- [ ] runtime validation receipt
 
 ---
 
@@ -2915,31 +2892,31 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* EXPANDED_BY: [[AMOS_X_UBI_MATRIX]]
+- EXPANDED_BY: [[AMOS_X_UBI_MATRIX]]
 
-* RELATED_TO: [[AMOS_X_TSS]]
+- RELATED_TO: [[AMOS_X_TSS]]
 
-* RELATED_TO: [[AMOS_X_TPE]]
+- RELATED_TO: [[AMOS_X_TPE]]
 
-* RELATED_TO: [[AMOS_X_NEUROSYNCAI]]
+- RELATED_TO: [[AMOS_X_NEUROSYNCAI]]
 
-* RELATED_TO: [[AMOS_X_QLS]]
+- RELATED_TO: [[AMOS_X_QLS]]
 
-* RELATED_TO: [[AMOS_X_TRANG_REALITY]]
+- RELATED_TO: [[AMOS_X_TRANG_REALITY]]
 
-* INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-```
+````
 
 The decisive correction is synchronized with the matrix artifact:
 
@@ -2950,8 +2927,9 @@ e = i²
 
 AMOS-DERIVED CANDIDATE
 i = (NBI × NEI × SI × BEI)^(1/4)
-```
+````
 
 That distinction should now be invariant across `AMOS_X_UBI.md` and `AMOS_X_UBI_MATRIX.md`. The corpus also contains separate UBI × NeuroSyncAI integration artifacts, including a recently updated copy dated August 26–27, 2026; those are useful cross-framework provenance but should remain separate from the native UBI-definition ancestry.
 
+```
 ```

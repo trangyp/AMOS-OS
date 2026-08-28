@@ -799,26 +799,26 @@ PROMOTION
 
 This placeholder MUST NOT be used to claim:
 
-* final cognition canon;
-* universal cognition laws;
-* master authority;
-* global authority;
-* automatic precedence;
-* automatic supersession;
-* automatic aggregation;
-* automatic composition;
-* biological cognition;
-* human cognition;
-* consciousness;
-* neuroscience;
-* psychological truth;
-* machine consciousness;
-* AGI;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement;
-* validated cognitive implementation;
-* or empirical truth.
+- final cognition canon;
+- universal cognition laws;
+- master authority;
+- global authority;
+- automatic precedence;
+- automatic supersession;
+- automatic aggregation;
+- automatic composition;
+- biological cognition;
+- human cognition;
+- consciousness;
+- neuroscience;
+- psychological truth;
+- machine consciousness;
+- AGI;
+- mathematical theoremhood;
+- philosophical certainty;
+- runtime enforcement;
+- validated cognitive implementation;
+- or empirical truth.
 
 ---
 
@@ -3681,48 +3681,48 @@ These are target references, not validated executable bindings.
 
 Before promotion:
 
-* [ ] verified native Master Canon source recovered;
-* [ ] framework identity matched;
-* [ ] source version resolved;
-* [ ] provenance ancestry resolved;
-* [ ] native meaning of `Master` established;
-* [ ] relation to `AMOS_COGNITION_CANON` established;
-* [ ] aggregation semantics established or explicitly absent;
-* [ ] composition semantics established or explicitly absent;
-* [ ] precedence semantics established or explicitly absent;
-* [ ] supersession semantics established or explicitly absent;
-* [ ] native cognition definition extracted;
-* [ ] native cognition architecture extracted if present;
-* [ ] native cognition laws extracted if present;
-* [ ] native registries extracted if present;
-* [ ] native schemas extracted if present;
-* [ ] subsystem bindings extracted if present;
-* [ ] RSCF binding established if native;
-* [ ] H/M/L binding established if native;
-* [ ] scope envelope established;
-* [ ] regime envelope established;
-* [ ] temporal validity established;
-* [ ] freshness semantics established;
-* [ ] dependency topology established;
-* [ ] provenance independence assessed;
-* [ ] historical sources preserved;
-* [ ] competing native interpretations preserved;
-* [ ] external research remains external evidence;
-* [ ] negative cases executed;
-* [ ] master/authority confusion rejected;
-* [ ] master/precedence confusion rejected;
-* [ ] master/aggregation confusion rejected;
-* [ ] master/supersession confusion rejected;
-* [ ] model/observation confusion rejected;
-* [ ] correlated provenance not treated as independence;
-* [ ] causal overreach rejected;
-* [ ] rollback basin demonstrated;
-* [ ] receipts persisted;
-* [ ] executable binding established if enforcement is claimed;
-* [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
-* [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] verified native Master Canon source recovered;
+- [ ] framework identity matched;
+- [ ] source version resolved;
+- [ ] provenance ancestry resolved;
+- [ ] native meaning of `Master` established;
+- [ ] relation to `AMOS_COGNITION_CANON` established;
+- [ ] aggregation semantics established or explicitly absent;
+- [ ] composition semantics established or explicitly absent;
+- [ ] precedence semantics established or explicitly absent;
+- [ ] supersession semantics established or explicitly absent;
+- [ ] native cognition definition extracted;
+- [ ] native cognition architecture extracted if present;
+- [ ] native cognition laws extracted if present;
+- [ ] native registries extracted if present;
+- [ ] native schemas extracted if present;
+- [ ] subsystem bindings extracted if present;
+- [ ] RSCF binding established if native;
+- [ ] H/M/L binding established if native;
+- [ ] scope envelope established;
+- [ ] regime envelope established;
+- [ ] temporal validity established;
+- [ ] freshness semantics established;
+- [ ] dependency topology established;
+- [ ] provenance independence assessed;
+- [ ] historical sources preserved;
+- [ ] competing native interpretations preserved;
+- [ ] external research remains external evidence;
+- [ ] negative cases executed;
+- [ ] master/authority confusion rejected;
+- [ ] master/precedence confusion rejected;
+- [ ] master/aggregation confusion rejected;
+- [ ] master/supersession confusion rejected;
+- [ ] model/observation confusion rejected;
+- [ ] correlated provenance not treated as independence;
+- [ ] causal overreach rejected;
+- [ ] rollback basin demonstrated;
+- [ ] receipts persisted;
+- [ ] executable binding established if enforcement is claimed;
+- [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
+- [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
 ---
 
@@ -4345,26 +4345,26 @@ native_dependencies_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* RELATION_TO: [[AMOS_COGNITION_CANON]]
+- RELATION_TO: [[AMOS_COGNITION_CANON]]
   relation_status: UNKNOWN/GAP
 
-* TARGET_INTERACTS_WITH: [[KERNEL_README]]
+- TARGET_INTERACTS_WITH: [[KERNEL_README]]
 
-* TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
+- TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
 
-* TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
+- TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* TARGET_RECOVERED_BY: [[OPERATIONS_README]]
+- TARGET_RECOVERED_BY: [[OPERATIONS_README]]
 
-* TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 
@@ -4442,4 +4442,3 @@ RSCF-RELATIONS:
 
 The decisive new gap here is **not cognition itself but the semantics of “Master.”** The source establishes that the Master Canon artifact exists as a reserved ADD-ONLY slot, but it provides no evidence that `MASTER` means aggregator, authority, parent, latest version, superseding canon, or final canon. In particular, the relationship between `AMOS_COGNITION_MASTER_CANON.md` and `AMOS_COGNITION_CANON.md` must remain `UNKNOWN/GAP` until native provenance or lineage explicitly types that edge.
 ```
-

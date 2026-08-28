@@ -103,52 +103,32 @@ framework_binding:
 
 epistemic_boundary:
 
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
+  source_presence: VERIFIED_SOURCE_PRESENCE
 
-  seven_part_structure:
-    VERIFIED_SOURCE_STRUCTURE
+  seven_part_structure: VERIFIED_SOURCE_STRUCTURE
 
-  cross_plane_routing:
-    AMOS_DERIVED_MAPPING
+  cross_plane_routing: AMOS_DERIVED_MAPPING
 
-  subsystem_bindings:
-    REQUIRE_INDIVIDUAL_PROVENANCE
+  subsystem_bindings: REQUIRE_INDIVIDUAL_PROVENANCE
 
-  physical_cosmology_mapping:
-    NOT_ESTABLISHED_BY_CURRENT_SEVEN_PART_CANON
+  physical_cosmology_mapping: NOT_ESTABLISHED_BY_CURRENT_SEVEN_PART_CANON
 
-  biological_mapping:
-    NOT_ESTABLISHED_AS_PART_3_IDENTITY
+  biological_mapping: NOT_ESTABLISHED_AS_PART_3_IDENTITY
 
-  runtime_enforcement:
-    NOT_ESTABLISHED
-
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 ---
-title: AMOS X UNIVERSE CANON MATRIX
-type: note
-source: "25_COGNITIVE_MATRIX"
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
-tags: [note, 25-cognitive-matrix]
-canon-group: canon/cognitive-matrix
----
+
+## title: AMOS X UNIVERSE CANON MATRIX type: note source: "25_COGNITIVE_MATRIX" rscf: state: SOURCE_CLAIM class: STRUCTURAL provenance: - internal freshness: EVERGREEN falsifiers: [] tags: [note, 25-cognitive-matrix] canon-group: canon/cognitive-matrix
+
 # AMOS X UNIVERSE CANON MATRIX
 
-This matrix needs a **structural correction before canon ingestion**. The retrieved current `AMOS_7_PART_UNIVERSE_CANON.md` defines the canonical seven parts as **Reality → Sense → Knowledge → Cognition → Governance → Execution → Evolution**, not Physical Root → Pre-Symbolic → Biological → Logic → Cognitive → Governance → Civilizational Memory. The source itself identifies version `2.0.0`, AMOS Core target `v4.4`, status `ACTIVE_CANON_CANDIDATE`, and explicitly says the seven parts are semantic responsibility classes. 
+This matrix needs a **structural correction before canon ingestion**. The retrieved current `AMOS_7_PART_UNIVERSE_CANON.md` defines the canonical seven parts as **Reality → Sense → Knowledge → Cognition → Governance → Execution → Evolution**, not Physical Root → Pre-Symbolic → Biological → Logic → Cognitive → Governance → Civilizational Memory. The source itself identifies version `2.0.0`, AMOS Core target `v4.4`, status `ACTIVE_CANON_CANDIDATE`, and explicitly says the seven parts are semantic responsibility classes.
 
-The corpus also contains multiple Universe-Canon artifacts—including the current canon file, a Full Architecture V2, a Refined variant, provenance registry, and migration engine—so those should be treated as a lineage requiring reconciliation, not independent confirmation.    
+The corpus also contains multiple Universe-Canon artifacts—including the current canon file, a Full Architecture V2, a Refined variant, provenance registry, and migration engine—so those should be treated as a lineage requiring reconciliation, not independent confirmation.
 
 The source-grounded full normalization is:
-
-
 
 The current source-grounded seven-part architecture is:
 
@@ -2658,36 +2638,36 @@ PROOF_CAPSULE:
 
 # 87. Canon Promotion Gate
 
-* [x] current seven-part source located
-* [x] current seven-part identities located
-* [x] semantic-responsibility interpretation located
-* [x] separation laws located
-* [x] recursive architecture located
-* [x] smallest-sufficient-path principle located
-* [x] provenance / epistemic firewalls located
-* [ ] alternative seven-strata lineage reconciled
-* [ ] Full Architecture V2 reconciled
-* [ ] Refined variant reconciled
-* [ ] migration-engine lineage reconciled
-* [ ] exact framework-to-part routes reconciled
-* [ ] final governance promotion receipt
+- [x] current seven-part source located
+- [x] current seven-part identities located
+- [x] semantic-responsibility interpretation located
+- [x] separation laws located
+- [x] recursive architecture located
+- [x] smallest-sufficient-path principle located
+- [x] provenance / epistemic firewalls located
+- [ ] alternative seven-strata lineage reconciled
+- [ ] Full Architecture V2 reconciled
+- [ ] Refined variant reconciled
+- [ ] migration-engine lineage reconciled
+- [ ] exact framework-to-part routes reconciled
+- [ ] final governance promotion receipt
 
 ---
 
 # 88. Runtime Promotion Gate
 
-* [ ] executable cross-plane router
-* [ ] typed transition schema
-* [ ] provenance persistence
-* [ ] authority enforcement
-* [ ] epistemic-type enforcement
-* [ ] scope enforcement
-* [ ] regime enforcement
-* [ ] freshness enforcement
-* [ ] local invalidation
-* [ ] rollback
-* [ ] transition receipts
-* [ ] runtime validation
+- [ ] executable cross-plane router
+- [ ] typed transition schema
+- [ ] provenance persistence
+- [ ] authority enforcement
+- [ ] epistemic-type enforcement
+- [ ] scope enforcement
+- [ ] regime enforcement
+- [ ] freshness enforcement
+- [ ] local invalidation
+- [ ] rollback
+- [ ] transition receipts
+- [ ] runtime validation
 
 ---
 
@@ -2980,29 +2960,29 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* EXPANDED_BY: [[AMOS_X_UNIVERSE_CANON]]
+- EXPANDED_BY: [[AMOS_X_UNIVERSE_CANON]]
 
-* ROUTES_TO: [[AMOS_X_UBI]]
+- ROUTES_TO: [[AMOS_X_UBI]]
 
-* ROUTES_TO: [[AMOS_X_TSS]]
+- ROUTES_TO: [[AMOS_X_TSS]]
 
-* ROUTES_TO: [[AMOS_X_TPE]]
+- ROUTES_TO: [[AMOS_X_TPE]]
 
-* ROUTES_TO: [[AMOS_X_QLS]]
+- ROUTES_TO: [[AMOS_X_QLS]]
 
-* INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-```
+````
 
 The decisive canon invariant should therefore be:
 
@@ -3016,7 +2996,7 @@ P4 COGNITION / MODELS
 P5 GOVERNANCE / AUTHORITY
 P6 EXECUTION / AGENCY
 P7 EVOLUTION / LEARNING
-```
+````
 
 while the submitted physical → pre-symbolic → biological → logic → cognitive → governance → civilizational sequence remains **COMPETING/HISTORICAL pending lineage reconciliation**, rather than being destroyed or silently merged. That preserves both the current source authority and any potentially meaningful earlier Universe architecture until its provenance can discriminate between supersession, parallel model, or taxonomy collision.
 
@@ -3024,4 +3004,5 @@ while the submitted physical → pre-symbolic → biological → logic → cogni
 
 **Related:** [[25_COGNITIVE_MATRIX_MOC]]
 
+```
 ```

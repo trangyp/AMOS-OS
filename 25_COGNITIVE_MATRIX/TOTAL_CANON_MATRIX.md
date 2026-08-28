@@ -119,8 +119,6 @@ $$
 
 The decisive epistemic boundary must remain intact: the matrix verifies the **presence and structure of the source-defined routing model**, not the existence or successful runtime operation of the named hardware, cryptographic, recovery, or cosmological enforcement mechanisms.
 
-
-
 The matrix therefore maps:
 
 $$
@@ -131,10 +129,10 @@ $$
 
 where:
 
-* \(L_i\) = canon law or stratum;
-* \(P_i\) = primary statement;
-* \(I_i\) = epistemic invariant;
-* \(G_i\) = named enforcement gate.
+- (L_i) = canon law or stratum;
+- (P_i) = primary statement;
+- (I_i) = epistemic invariant;
+- (G_i) = named enforcement gate.
 
 This notation is **DERIVED**, not a supplied canonical equation.
 
@@ -186,9 +184,9 @@ The phrase `mapping all 01_CANON laws` must not be converted into a verified com
 
 To establish literal completeness, compare the matrix against:
 
-* `01_CANON/01_CANON_MOC`;
-* `01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC`;
-* `CANON_CLAIM_REGISTRY`.
+- `01_CANON/01_CANON_MOC`;
+- `01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC`;
+- `CANON_CLAIM_REGISTRY`.
 
 Until then:
 
@@ -303,11 +301,11 @@ This phrase should be preserved exactly as source terminology unless the Core La
 
 Do not infer that `Law of Law` means:
 
-* a legal statute;
-* Gödelian metatheory;
-* a universal physical law;
-* a specific formal-logic axiom;
-* a runtime kernel invariant
+- a legal statute;
+- Gödelian metatheory;
+- a universal physical law;
+- a specific formal-logic axiom;
+- a runtime kernel invariant
 
 without source evidence.
 
@@ -327,12 +325,12 @@ At the weakest warranted level, this is a named source-defined enforcement gate 
 
 The artifact does not establish:
 
-* programming language;
-* assertion syntax;
-* proof engine;
-* execution environment;
-* failure semantics;
-* rollback semantics.
+- programming language;
+- assertion syntax;
+- proof engine;
+- execution environment;
+- failure semantics;
+- rollback semantics.
 
 ---
 
@@ -406,10 +404,10 @@ Its precise relationship to standard conservation laws in physics is not defined
 
 Do not silently equate `Physical Conservation` with any particular combination of:
 
-* conservation of energy;
-* conservation of momentum;
-* conservation of charge;
-* thermodynamic laws.
+- conservation of energy;
+- conservation of momentum;
+- conservation of charge;
+- thermodynamic laws.
 
 The source may use the term at a broader architectural level.
 
@@ -429,12 +427,12 @@ This is source-defined terminology.
 
 The artifact does not establish that this is:
 
-* firmware;
-* a power-management controller;
-* a physical interlock;
-* an operating-system mechanism;
-* a cryptographic hardware root;
-* an actual energy-control system.
+- firmware;
+- a power-management controller;
+- a physical interlock;
+- an operating-system mechanism;
+- a cryptographic hardware root;
+- an actual energy-control system.
 
 ---
 
@@ -494,7 +492,7 @@ described here as the null-state invariant.
 
 ---
 
-# 28. \(S_0\) Semantic Boundary
+# 28. (S_0) Semantic Boundary
 
 This artifact does not provide a complete formal definition of:
 
@@ -504,17 +502,17 @@ $$
 
 Therefore do not automatically equate it with:
 
-* factory state;
-* genesis state;
-* previous state;
-* empty cognition;
-* zero vector;
-* safe mode;
-* last-known-good state.
+- factory state;
+- genesis state;
+- previous state;
+- empty cognition;
+- zero vector;
+- safe mode;
+- last-known-good state.
 
 ---
 
-# 29. Cross-Artifact \(S_0\) Alignment
+# 29. Cross-Artifact (S_0) Alignment
 
 The RSCF × GMEF matrix also uses:
 
@@ -526,17 +524,17 @@ for anti-autopoisoning rollback.
 
 This creates a **source-level structural correspondence**.
 
-It does not, by itself, prove that both artifacts use \(S_0\) with exactly identical operational semantics.
+It does not, by itself, prove that both artifacts use (S_0) with exactly identical operational semantics.
 
 ---
 
-# 30. \(S_0\) Discriminating Requirement
+# 30. (S_0) Discriminating Requirement
 
 If exact equivalence matters, retrieve:
 
 1. Core Laws definition of L2;
-2. GMEF definition of \(S_0\);
-3. Control Plane recovery semantics.
+1. GMEF definition of (S_0);
+1. Control Plane recovery semantics.
 
 Until then:
 
@@ -729,13 +727,13 @@ The named enforcement gate is:
 
 The presence of the word `Cryptographic` does not establish:
 
-* public-key infrastructure;
-* signature algorithms;
-* key storage;
-* threshold signatures;
-* certificates;
-* hardware security modules;
-* verified cryptographic enforcement.
+- public-key infrastructure;
+- signature algorithms;
+- key storage;
+- threshold signatures;
+- certificates;
+- hardware security modules;
+- verified cryptographic enforcement.
 
 ---
 
@@ -841,12 +839,12 @@ The artifact does not provide its mathematical definition.
 
 Do not equate structural harmony with:
 
-* physical equilibrium;
-* thermodynamic equilibrium;
-* mathematical symmetry;
-* resonance;
-* information-theoretic optimality;
-* cosmological fine-tuning
+- physical equilibrium;
+- thermodynamic equilibrium;
+- mathematical symmetry;
+- resonance;
+- information-theoretic optimality;
+- cosmological fine-tuning
 
 without source evidence.
 
@@ -987,7 +985,7 @@ This functions conceptually as a reality firewall for higher-level cognition and
 
 # 65. L2 as Cognitive Recovery
 
-L2 associates cognition with preservation/recovery around \(S_0\).
+L2 associates cognition with preservation/recovery around (S_0).
 
 This gives cognition an explicit anti-autopoisoning constraint.
 
@@ -1161,7 +1159,7 @@ H-level retrieval is sufficient:
 
 For:
 
-> What exactly are \(\mathcal C,\mathcal E,\mathcal F\)?
+> What exactly are (\\mathcal C,\\mathcal E,\\mathcal F)?
 
 Current artifact:
 
@@ -1175,7 +1173,7 @@ Retrieve the Core Laws source.
 
 For:
 
-> What exactly is \(S_0\)?
+> What exactly is (S_0)?
 
 Current artifact:
 
@@ -2117,32 +2115,32 @@ For executable interpretation, the most important unresolved gaps are:
 
 **CRITICAL**
 
-* \(\mathcal C,\mathcal E,\mathcal F\) definitions;
-* \(S_0\) definition;
-* Authority Envelope semantics;
-* executable gate definitions;
-* gate failure/recovery semantics.
+- (\\mathcal C,\\mathcal E,\\mathcal F) definitions;
+- (S_0) definition;
+- Authority Envelope semantics;
+- executable gate definitions;
+- gate failure/recovery semantics.
 
 **DECISION-RELEVANT**
 
-* cross-plane routing semantics;
-* claims-registry bindings;
-* versioning;
-* provenance;
-* cryptographic implementation;
-* universe-strata definitions.
+- cross-plane routing semantics;
+- claims-registry bindings;
+- versioning;
+- provenance;
+- cryptographic implementation;
+- universe-strata definitions.
 
 **EXPLANATORY**
 
-* exact meaning of `Law of Law`;
-* `Structural Harmony`;
-* `Cosmic Collapse Lattice`.
+- exact meaning of `Law of Law`;
+- `Structural Harmony`;
+- `Cosmic Collapse Lattice`.
 
 **COSMETIC**
 
-* visualization;
-* formatting;
-* naming aliases.
+- visualization;
+- formatting;
+- naming aliases.
 
 ---
 
@@ -2151,55 +2149,55 @@ For executable interpretation, the most important unresolved gaps are:
 This artifact MUST NOT by itself be used to claim:
 
 1. Every AMOS canon law has been exhaustively verified in this matrix.
-2. The five displayed rows prove literal corpus completeness.
-3. The matrix is executable.
-4. Cross-plane routing is implemented.
-5. Runtime enforcement is implemented.
-6. L0 has been formally proven.
-7. \(\mathcal C,\mathcal E,\mathcal F\) are defined here.
-8. `Law of Law` has a universally accepted external meaning.
-9. An Invariant Assertion Gate is executable.
-10. The L1 statement is newly verified physical evidence.
-11. `Physical Conservation` is identical to a specific standard conservation law.
-12. A Hardware / Energy Firewall is implemented.
-13. Software can override physical substrate constraints.
-14. \(S_0\) is fully defined here.
-15. \(S_0\) necessarily means factory state.
-16. \(S_0\) necessarily means genesis state.
-17. \(S_0\) necessarily means last-known-good state.
-18. L2 \(S_0\) is proven identical to GMEF \(S_0\).
-19. Anti-Autopoisoning is executable.
-20. A Null-State Recovery Basin is implemented.
-21. `Recovery Basin` is formally a dynamical-system attractor.
-22. Capability confers authority.
-23. Authority Envelopes are fully defined here.
-24. A Cryptographic Authority Gate is implemented.
-25. Cryptographic keys exist.
-26. Cryptographic signatures exist.
-27. Cryptographic enforcement has been security-audited.
-28. The 7-Part Universe is L4.
-29. The seven universe strata are enumerated here.
-30. The 7-Part Universe is empirically established cosmology.
-31. Structural Harmony has a formal metric here.
-32. Cosmic Collapse Lattice is an observed physical structure.
-33. Cosmic Collapse Lattice is an executable runtime mechanism.
-34. Software literally governs cosmic collapse.
-35. Cross-plane structural similarity proves causation.
-36. Cross-plane structural similarity proves ontology.
-37. Canonical authority equals empirical truth.
-38. Registry presence equals independent verification.
-39. Multiple descendants of one canonical source equal independent confirmation.
-40. Mathematical notation implies formal proof.
-41. Named enforcement implies implemented enforcement.
-42. Named cryptography implies verified cryptography.
-43. Named physical concepts imply empirical validation.
-44. Named cosmological concepts imply scientific validation.
-45. Absence of contradiction proves the matrix correct.
-46. Runtime success would prove cosmological truth.
-47. Cosmological analogy would prove runtime architecture.
-48. L0–L3 numbering establishes runtime execution order.
-49. The table establishes causal hierarchy.
-50. The matrix erases epistemic differences between planes.
+1. The five displayed rows prove literal corpus completeness.
+1. The matrix is executable.
+1. Cross-plane routing is implemented.
+1. Runtime enforcement is implemented.
+1. L0 has been formally proven.
+1. (\\mathcal C,\\mathcal E,\\mathcal F) are defined here.
+1. `Law of Law` has a universally accepted external meaning.
+1. An Invariant Assertion Gate is executable.
+1. The L1 statement is newly verified physical evidence.
+1. `Physical Conservation` is identical to a specific standard conservation law.
+1. A Hardware / Energy Firewall is implemented.
+1. Software can override physical substrate constraints.
+1. (S_0) is fully defined here.
+1. (S_0) necessarily means factory state.
+1. (S_0) necessarily means genesis state.
+1. (S_0) necessarily means last-known-good state.
+1. L2 (S_0) is proven identical to GMEF (S_0).
+1. Anti-Autopoisoning is executable.
+1. A Null-State Recovery Basin is implemented.
+1. `Recovery Basin` is formally a dynamical-system attractor.
+1. Capability confers authority.
+1. Authority Envelopes are fully defined here.
+1. A Cryptographic Authority Gate is implemented.
+1. Cryptographic keys exist.
+1. Cryptographic signatures exist.
+1. Cryptographic enforcement has been security-audited.
+1. The 7-Part Universe is L4.
+1. The seven universe strata are enumerated here.
+1. The 7-Part Universe is empirically established cosmology.
+1. Structural Harmony has a formal metric here.
+1. Cosmic Collapse Lattice is an observed physical structure.
+1. Cosmic Collapse Lattice is an executable runtime mechanism.
+1. Software literally governs cosmic collapse.
+1. Cross-plane structural similarity proves causation.
+1. Cross-plane structural similarity proves ontology.
+1. Canonical authority equals empirical truth.
+1. Registry presence equals independent verification.
+1. Multiple descendants of one canonical source equal independent confirmation.
+1. Mathematical notation implies formal proof.
+1. Named enforcement implies implemented enforcement.
+1. Named cryptography implies verified cryptography.
+1. Named physical concepts imply empirical validation.
+1. Named cosmological concepts imply scientific validation.
+1. Absence of contradiction proves the matrix correct.
+1. Runtime success would prove cosmological truth.
+1. Cosmological analogy would prove runtime architecture.
+1. L0–L3 numbering establishes runtime execution order.
+1. The table establishes causal hierarchy.
+1. The matrix erases epistemic differences between planes.
 
 ---
 
@@ -2768,11 +2766,11 @@ The decisive integrity boundaries are:
 
 **CANONICAL AUTHORITY DETERMINES WHAT THE AMOS SOURCE MODEL SAYS; IT DOES NOT BY ITSELF ESTABLISH EXTERNAL EMPIRICAL TRUTH.**
 
-**L0'S \(\mathcal C,\mathcal E,\mathcal F\) MUST NOT BE INVENTED WHEN THEIR DEFINITIONS ARE ABSENT.**
+**L0'S (\\mathcal C,\\mathcal E,\\mathcal F) MUST NOT BE INVENTED WHEN THEIR DEFINITIONS ARE ABSENT.**
 
 **L1'S PHYSICAL LANGUAGE MUST NOT BE PROMOTED FROM AMOS MODEL TO VERIFIED PHYSICS WITHOUT INDEPENDENT EVIDENCE.**
 
-**L2'S \(S_0\) MUST REMAIN SOURCE-BOUND UNTIL ITS EXACT SEMANTICS ARE RETRIEVED.**
+**L2'S (S_0) MUST REMAIN SOURCE-BOUND UNTIL ITS EXACT SEMANTICS ARE RETRIEVED.**
 
 **THE SHARED `S₀` / `ANTI-AUTOPOISONING` LANGUAGE BETWEEN TOTAL CANON AND RSCF × GMEF ESTABLISHES STRUCTURAL ALIGNMENT, NOT AUTOMATICALLY IDENTICAL RUNTIME MECHANISMS.**
 
@@ -2880,67 +2878,67 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
 
-* GROUNDED_BY: 01_CANON/01_CANON_MOC
+- GROUNDED_BY: 01_CANON/01_CANON_MOC
 
-* GROUNDED_BY: 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
+- GROUNDED_BY: 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
 
-* CONNECTS_TO: [[CANON_CLAIM_REGISTRY]]
+- CONNECTS_TO: [[CANON_CLAIM_REGISTRY]]
 
-* DEFINES: MASTER_CANON_CONVERGENCE_GRID
+- DEFINES: MASTER_CANON_CONVERGENCE_GRID
 
-* ROUTES: L0_INTEGRITY
+- ROUTES: L0_INTEGRITY
 
-* ROUTES: L1_REALITY
+- ROUTES: L1_REALITY
 
-* ROUTES: L2_COGNITION
+- ROUTES: L2_COGNITION
 
-* ROUTES: L3_GOVERNANCE
+- ROUTES: L3_GOVERNANCE
 
-* ROUTES: SEVEN_PART_UNIVERSE
+- ROUTES: SEVEN_PART_UNIVERSE
 
-* MAPS: CANON_LAW_TO_EPISTEMIC_INVARIANT
+- MAPS: CANON_LAW_TO_EPISTEMIC_INVARIANT
 
-* MAPS: EPISTEMIC_INVARIANT_TO_ENFORCEMENT_GATE
+- MAPS: EPISTEMIC_INVARIANT_TO_ENFORCEMENT_GATE
 
-* MODELS: INVARIANT_ASSERTION_GATE
+- MODELS: INVARIANT_ASSERTION_GATE
 
-* MODELS: HARDWARE_ENERGY_FIREWALL
+- MODELS: HARDWARE_ENERGY_FIREWALL
 
-* MODELS: NULL_STATE_RECOVERY_BASIN
+- MODELS: NULL_STATE_RECOVERY_BASIN
 
-* MODELS: CRYPTOGRAPHIC_AUTHORITY_GATE
+- MODELS: CRYPTOGRAPHIC_AUTHORITY_GATE
 
-* MODELS: COSMIC_COLLAPSE_LATTICE
+- MODELS: COSMIC_COLLAPSE_LATTICE
 
-* RELATED_TO: [[K_RSCF]]
+- RELATED_TO: [[K_RSCF]]
 
-* RELATED_TO: [[K_HML]]
+- RELATED_TO: [[K_HML]]
 
-* RELATED_TO: [[K_CANON]]
+- RELATED_TO: [[K_CANON]]
 
-* RELATED_TO: [[K_CORE_LAWS]]
+- RELATED_TO: [[K_CORE_LAWS]]
 
-* RELATED_TO: [[K_PROVENANCE]]
+- RELATED_TO: [[K_PROVENANCE]]
 
-* RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
+- RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
 
-* RELATED_TO: [[K_ANTI_AUTOPOISONING]]
+- RELATED_TO: [[K_ANTI_AUTOPOISONING]]
 
-* RELATED_TO: [[K_AUTHORITY]]
+- RELATED_TO: [[K_AUTHORITY]]
 
-* RELATED_TO: [[K_GOVERNANCE]]
+- RELATED_TO: [[K_GOVERNANCE]]
 
-* RELATED_TO: [[K_REALITY]]
+- RELATED_TO: [[K_REALITY]]
 
-* RELATED_TO: [[K_UNIVERSE_STRATA]]
+- RELATED_TO: [[K_UNIVERSE_STRATA]]
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+- LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 
 ---
 

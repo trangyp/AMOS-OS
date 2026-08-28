@@ -31,9 +31,9 @@ rscf:
 
 # L24 — Causal Epoch Law
 
-**VERSION:** 2.0.0  
-**STATUS:** CANON_LAW  
-**claim_class:** CANONICAL_INVARIANT  
+**VERSION:** 2.0.0\
+**STATUS:** CANON_LAW\
+**claim_class:** CANONICAL_INVARIANT\
 **provenance:** AMOS_CANON
 
 ---
@@ -177,7 +177,7 @@ EPOCH REQUIRED
 
 ## CE-3 — Causal Lineage Closure
 
-For every consequence \(C\):
+For every consequence (C):
 
 $$
 \forall C,\;
@@ -279,20 +279,20 @@ THAN CURRENT EPOCH.
 
 # 5. Epoch Identity
 
-The source establishes ordered epochs \(e_k\), but does not specify their physical representation.
+The source establishes ordered epochs (e_k), but does not specify their physical representation.
 
 It does **not** establish whether an epoch identifier is:
 
-* an integer,
-* logical clock,
-* timestamp,
-* Lamport clock,
-* vector-clock component,
-* transaction identifier,
-* cryptographic sequence,
-* consensus round,
-* causal generation,
-* or another encoding.
+- an integer,
+- logical clock,
+- timestamp,
+- Lamport clock,
+- vector-clock component,
+- transaction identifier,
+- cryptographic sequence,
+- consensus round,
+- causal generation,
+- or another encoding.
 
 Therefore:
 
@@ -431,9 +431,9 @@ $$
 
 Crossing this boundary becomes especially important for:
 
-* supersession,
-* causal lineage,
-* and witness enforcement.
+- supersession,
+- causal lineage,
+- and witness enforcement.
 
 ---
 
@@ -461,7 +461,7 @@ e_{k+1} > e_k
 
 # 13. No Time Travel Law
 
-The second canonical invariant states that verdicts at \(e_k\):
+The second canonical invariant states that verdicts at (e_k):
 
 ```text
 cannot be silently rewritten
@@ -664,13 +664,13 @@ The source does not define the exact representation of an explicit transition.
 
 Potential implementations might include:
 
-* transition records,
-* provenance edges,
-* version records,
-* signed receipts,
-* event logs,
-* RSCF lineage,
-* or other structures.
+- transition records,
+- provenance edges,
+- version records,
+- signed receipts,
+- event logs,
+- RSCF lineage,
+- or other structures.
 
 Only the requirement for explicit epoch transition is canonical here.
 
@@ -912,11 +912,11 @@ unless another canonical law imposes uniqueness.
 
 The existence of a causal predecessor does not establish that the predecessor is:
 
-* sufficient,
-* necessary,
-* exclusive,
-* dominant,
-* or the sole mechanism.
+- sufficient,
+- necessary,
+- exclusive,
+- dominant,
+- or the sole mechanism.
 
 L24 establishes lineage existence and temporal admissibility, not the full causal type.
 
@@ -1025,17 +1025,17 @@ The source establishes the existence requirement.
 
 It does **not** specify:
 
-* receipt schema,
-* signer identity,
-* signature algorithm,
-* key management,
-* trust root,
-* threshold signatures,
-* quorum requirements,
-* receipt expiry,
-* verification protocol,
-* storage format,
-* or revocation.
+- receipt schema,
+- signer identity,
+- signature algorithm,
+- key management,
+- trust root,
+- threshold signatures,
+- quorum requirements,
+- receipt expiry,
+- verification protocol,
+- storage format,
+- or revocation.
 
 Those remain unspecified.
 
@@ -1190,13 +1190,13 @@ execution halts
 
 but does not define whether the halt is:
 
-* local to a reasoning branch,
-* local to an RSCF,
-* transaction-local,
-* shard-local,
-* workflow-wide,
-* process-wide,
-* or system-wide.
+- local to a reasoning branch,
+- local to an RSCF,
+- transaction-local,
+- shard-local,
+- workflow-wide,
+- process-wide,
+- or system-wide.
 
 Therefore the **halt requirement** is canonical, while the exact halt scope remains unspecified.
 
@@ -1693,13 +1693,13 @@ The exact number or structure of required receipts is unspecified.
 
 L24 does not establish whether witness receipts bind:
 
-* individual causal edges,
-* entire chains,
-* epoch transitions,
-* transactions,
-* verdict transitions,
-* RSCF groups,
-* or another unit.
+- individual causal edges,
+- entire chains,
+- epoch transitions,
+- transactions,
+- verdict transitions,
+- RSCF groups,
+- or another unit.
 
 This is a decision-relevant implementation gap.
 
@@ -1744,11 +1744,11 @@ The signature requirement alone does not define trust semantics.
 
 The source does not define:
 
-* receipt lifetime,
-* expiry,
-* revocation,
-* epoch validity,
-* or replay prevention.
+- receipt lifetime,
+- expiry,
+- revocation,
+- epoch validity,
+- or replay prevention.
 
 These require additional canon.
 
@@ -2275,11 +2275,11 @@ For simple same-epoch reasoning, extensive epoch machinery may not need to be su
 
 Escalation becomes material when:
 
-* conclusions supersede earlier verdicts,
-* causal chains cross epochs,
-* historical replay matters,
-* lineage is disputed,
-* or consequences lack clear causes.
+- conclusions supersede earlier verdicts,
+- causal chains cross epochs,
+- historical replay matters,
+- lineage is disputed,
+- or consequences lack clear causes.
 
 This is operational guidance, not a new canonical law.
 
@@ -3080,40 +3080,40 @@ These are SOURCE_CLAIM statements about the supplied AMOS canonical note; within
 
 The supplied L24 note does **not** establish:
 
-* physical epoch representation,
-* global clock implementation,
-* wall-clock mapping,
-* timestamp semantics,
-* fixed epoch increment,
-* distributed clock algorithm,
-* Lamport-clock semantics,
-* vector-clock semantics,
-* epoch-allocation authority,
-* epoch-transition transaction protocol,
-* witness-receipt schema,
-* signer identity,
-* signer authorization,
-* signature algorithm,
-* cryptographic trust root,
-* threshold requirements,
-* quorum requirements,
-* witness independence,
-* receipt expiry,
-* receipt revocation,
-* receipt replay protection,
-* witness granularity,
-* exact failure-halt scope,
-* exact classification of missing witness receipts,
-* storage architecture,
-* MVCC/CAS mapping,
-* shard-finality semantics,
-* complete causal-epoch finality protocol,
-* replay algorithm,
-* selective invalidation algorithm,
-* proof-capsule serialization,
-* RSCF epoch serialization,
-* empirical causal validity of arbitrary lineage edges,
-* or literal distributed runtime implementation.
+- physical epoch representation,
+- global clock implementation,
+- wall-clock mapping,
+- timestamp semantics,
+- fixed epoch increment,
+- distributed clock algorithm,
+- Lamport-clock semantics,
+- vector-clock semantics,
+- epoch-allocation authority,
+- epoch-transition transaction protocol,
+- witness-receipt schema,
+- signer identity,
+- signer authorization,
+- signature algorithm,
+- cryptographic trust root,
+- threshold requirements,
+- quorum requirements,
+- witness independence,
+- receipt expiry,
+- receipt revocation,
+- receipt replay protection,
+- witness granularity,
+- exact failure-halt scope,
+- exact classification of missing witness receipts,
+- storage architecture,
+- MVCC/CAS mapping,
+- shard-finality semantics,
+- complete causal-epoch finality protocol,
+- replay algorithm,
+- selective invalidation algorithm,
+- proof-capsule serialization,
+- RSCF epoch serialization,
+- empirical causal validity of arbitrary lineage edges,
+- or literal distributed runtime implementation.
 
 These remain MODEL or UNKNOWN/GAP unless established by other canon.
 
@@ -3542,13 +3542,13 @@ The canonical law describes AMOS causal semantics.
 
 It does not by itself prove a literal implementation of:
 
-* cryptographic witness infrastructure,
-* globally synchronized causal clocks,
-* distributed epoch consensus,
-* append-only storage,
-* transactional supersession,
-* replicated causal logs,
-* or formal distributed finality.
+- cryptographic witness infrastructure,
+- globally synchronized causal clocks,
+- distributed epoch consensus,
+- append-only storage,
+- transactional supersession,
+- replicated causal logs,
+- or formal distributed finality.
 
 Independent implementation evidence is required for those claims.
 
@@ -3732,7 +3732,7 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[L25_SHARD_LOCAL]]
 
-  - RELATED_TO: [[PROOF_CAPSULE]]
+  - RELATED_TO: PROOF_CAPSULE
 
   - RELATED_TO: [[PERSISTENT_PROVENANCE]]
 
@@ -3746,13 +3746,13 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[SHARD_LOCAL_FINALIZATION]]
 
-  - RELATED_TO: [[EPISTEMIC_REGIME]]
+  - RELATED_TO: EPISTEMIC_REGIME
 
   - RELATED_TO: [[COMPETING_HYPOTHESES]]
 
   - RELATED_TO: [[SCOPE_REGIME_FIREWALL]]
 
-  - RELATED_TO: [[FAILURE_RECOVERY]]
+  - RELATED_TO: FAILURE_RECOVERY
 ```
 
 ---

@@ -52,22 +52,22 @@ Given an operation touching `COGNITION CANON CANON README` within the Canon plan
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 RSCF-NODE
 node_id: amos_01_canon_03_cognition_canon_cognition_canon_canon_readme_md
 node_type: note
 path: 01_CANON/03_COGNITION_CANON/COGNITION_CANON_CANON_README.md
 claim_class: AMOS_MODEL
 
----
+______________________________________________________________________
 **MOC:** [[03_COGNITION_CANON_MOC]]
 
----
+______________________________________________________________________
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]

@@ -934,25 +934,25 @@ PROMOTION
 
 This placeholder MUST NOT be used to claim:
 
-* universal cross-species laws;
-* biological universality;
-* cognitive universality;
-* behavioral universality;
-* evolutionary homology;
-* convergent evolution;
-* shared neural mechanisms;
-* shared consciousness;
-* equivalent subjective experience;
-* species-independent cognition;
-* species-independent functional architecture;
-* validated species mappings;
-* validated comparative cognition;
-* biological truth;
-* scientific proof;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement;
-* or validated cross-species implementation.
+- universal cross-species laws;
+- biological universality;
+- cognitive universality;
+- behavioral universality;
+- evolutionary homology;
+- convergent evolution;
+- shared neural mechanisms;
+- shared consciousness;
+- equivalent subjective experience;
+- species-independent cognition;
+- species-independent functional architecture;
+- validated species mappings;
+- validated comparative cognition;
+- biological truth;
+- scientific proof;
+- mathematical theoremhood;
+- philosophical certainty;
+- runtime enforcement;
+- or validated cross-species implementation.
 
 ---
 
@@ -5038,77 +5038,77 @@ These are target references, not validated executable bindings.
 
 Before promotion:
 
-* [ ] verified native Cross-Species Functional Mode source recovered;
-* [ ] framework identity matched;
-* [ ] source version resolved;
-* [ ] provenance ancestry resolved;
-* [ ] native meaning of `species` established;
-* [ ] native meaning of `cross-species` established;
-* [ ] native meaning of `function` established;
-* [ ] native meaning of `functional mode` established;
-* [ ] entity carrying a functional mode established;
-* [ ] species registry extracted if native;
-* [ ] functional-mode registry extracted if native;
-* [ ] comparison unit established;
-* [ ] comparison schema established;
-* [ ] mapping types established;
-* [ ] mapping rules established;
-* [ ] similarity semantics established;
-* [ ] equivalence semantics established;
-* [ ] homology semantics established if claimed;
-* [ ] analogy semantics established if claimed;
-* [ ] convergence semantics established if claimed;
-* [ ] phylogenetic dependence handled if material;
-* [ ] measurement model established;
-* [ ] measurement invariance tested;
-* [ ] variables extracted if present;
-* [ ] equations extracted if present;
-* [ ] mode dynamics extracted if present;
-* [ ] behavioral semantics established if present;
-* [ ] cognitive semantics established if present;
-* [ ] biological semantics established if present;
-* [ ] neural semantics established if present;
-* [ ] evolutionary semantics established if present;
-* [ ] consciousness relation established if present;
-* [ ] causal semantics established if present;
-* [ ] causal transport conditions established if claimed;
-* [ ] individual/population/species scope distinguished;
-* [ ] developmental scope established where material;
-* [ ] ecological/environmental scope established;
-* [ ] task scope established;
-* [ ] RSCF semantic binding established if native;
-* [ ] H/M/L binding established if native;
-* [ ] regime envelope established;
-* [ ] temporal validity established;
-* [ ] freshness semantics established;
-* [ ] dependency topology established;
-* [ ] provenance independence assessed;
-* [ ] historical sources preserved;
-* [ ] competing interpretations preserved;
-* [ ] external comparative research remains external evidence;
-* [ ] behavioral similarity/cognitive equivalence conflation rejected;
-* [ ] functional similarity/homology conflation rejected;
-* [ ] similarity/equivalence conflation rejected;
-* [ ] task-specific/global-equivalence conflation rejected;
-* [ ] functional/consciousness equivalence conflation rejected;
-* [ ] individual/species generalization rejected;
-* [ ] sample/species-universal generalization rejected;
-* [ ] laboratory/ecological generalization checked;
-* [ ] absence-of-observation/absence-of-function conflation rejected;
-* [ ] anthropomorphic inference checked;
-* [ ] anthropocentric inference checked;
-* [ ] species ranking not invented;
-* [ ] evolutionary-progress assumptions rejected;
-* [ ] correlation/causation conflation rejected;
-* [ ] cross-species causal transport independently justified;
-* [ ] negative cases executed;
-* [ ] rollback basin demonstrated;
-* [ ] receipts persisted;
-* [ ] executable binding established if enforcement is claimed;
-* [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
-* [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
-* [ ] artifact-specific validation receipt executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] verified native Cross-Species Functional Mode source recovered;
+- [ ] framework identity matched;
+- [ ] source version resolved;
+- [ ] provenance ancestry resolved;
+- [ ] native meaning of `species` established;
+- [ ] native meaning of `cross-species` established;
+- [ ] native meaning of `function` established;
+- [ ] native meaning of `functional mode` established;
+- [ ] entity carrying a functional mode established;
+- [ ] species registry extracted if native;
+- [ ] functional-mode registry extracted if native;
+- [ ] comparison unit established;
+- [ ] comparison schema established;
+- [ ] mapping types established;
+- [ ] mapping rules established;
+- [ ] similarity semantics established;
+- [ ] equivalence semantics established;
+- [ ] homology semantics established if claimed;
+- [ ] analogy semantics established if claimed;
+- [ ] convergence semantics established if claimed;
+- [ ] phylogenetic dependence handled if material;
+- [ ] measurement model established;
+- [ ] measurement invariance tested;
+- [ ] variables extracted if present;
+- [ ] equations extracted if present;
+- [ ] mode dynamics extracted if present;
+- [ ] behavioral semantics established if present;
+- [ ] cognitive semantics established if present;
+- [ ] biological semantics established if present;
+- [ ] neural semantics established if present;
+- [ ] evolutionary semantics established if present;
+- [ ] consciousness relation established if present;
+- [ ] causal semantics established if present;
+- [ ] causal transport conditions established if claimed;
+- [ ] individual/population/species scope distinguished;
+- [ ] developmental scope established where material;
+- [ ] ecological/environmental scope established;
+- [ ] task scope established;
+- [ ] RSCF semantic binding established if native;
+- [ ] H/M/L binding established if native;
+- [ ] regime envelope established;
+- [ ] temporal validity established;
+- [ ] freshness semantics established;
+- [ ] dependency topology established;
+- [ ] provenance independence assessed;
+- [ ] historical sources preserved;
+- [ ] competing interpretations preserved;
+- [ ] external comparative research remains external evidence;
+- [ ] behavioral similarity/cognitive equivalence conflation rejected;
+- [ ] functional similarity/homology conflation rejected;
+- [ ] similarity/equivalence conflation rejected;
+- [ ] task-specific/global-equivalence conflation rejected;
+- [ ] functional/consciousness equivalence conflation rejected;
+- [ ] individual/species generalization rejected;
+- [ ] sample/species-universal generalization rejected;
+- [ ] laboratory/ecological generalization checked;
+- [ ] absence-of-observation/absence-of-function conflation rejected;
+- [ ] anthropomorphic inference checked;
+- [ ] anthropocentric inference checked;
+- [ ] species ranking not invented;
+- [ ] evolutionary-progress assumptions rejected;
+- [ ] correlation/causation conflation rejected;
+- [ ] cross-species causal transport independently justified;
+- [ ] negative cases executed;
+- [ ] rollback basin demonstrated;
+- [ ] receipts persisted;
+- [ ] executable binding established if enforcement is claimed;
+- [ ] `ROUTING_POLICY_VALIDATION_RECEIPT` resolved;
+- [ ] `AUTHZ_ENGINE_VALIDATION_RECEIPT` resolved;
+- [ ] artifact-specific validation receipt executed;
+- [ ] unresolved critical gaps remain visible.
 
 ---
 
@@ -6017,35 +6017,35 @@ native_dependencies_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* RELATION_TO: [[AMOS_COGNITION_CANON]]
+- RELATION_TO: [[AMOS_COGNITION_CANON]]
   relation_status: UNKNOWN/GAP
 
-* RELATION_TO: [[AMOS_CONSCIOUSNESS_CANON]]
+- RELATION_TO: [[AMOS_CONSCIOUSNESS_CANON]]
   relation_status: UNKNOWN/GAP
 
-* RELATION_TO: [[AMOS_COGNITIVE_FIELD_CANON]]
+- RELATION_TO: [[AMOS_COGNITIVE_FIELD_CANON]]
   relation_status: UNKNOWN/GAP
 
-* RELATION_TO: [[AMOS_COGNITION_MASTER_CANON]]
+- RELATION_TO: [[AMOS_COGNITION_MASTER_CANON]]
   relation_status: UNKNOWN/GAP
 
-* TARGET_INTERACTS_WITH: [[KERNEL_README]]
+- TARGET_INTERACTS_WITH: [[KERNEL_README]]
 
-* TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
+- TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
 
-* TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
+- TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* TARGET_RECOVERED_BY: [[OPERATIONS_README]]
+- TARGET_RECOVERED_BY: [[OPERATIONS_README]]
 
-* TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 

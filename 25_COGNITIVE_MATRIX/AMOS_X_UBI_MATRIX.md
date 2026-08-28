@@ -84,48 +84,32 @@ framework_binding:
     name: "AMOS × UBI"
     artifact_ref: "[[AMOS_X_UBI]]"
 
-  role:
-    BIOLOGICAL_DOMAINS_AND_SYSTEMIC_PERFORMANCE_MATRIX
+  role: BIOLOGICAL_DOMAINS_AND_SYSTEMIC_PERFORMANCE_MATRIX
 
 epistemic_boundary:
 
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
+  source_presence: VERIFIED_SOURCE_PRESENCE
 
-  four_domain_structure:
-    VERIFIED_SOURCE_STRUCTURE
+  four_domain_structure: VERIFIED_SOURCE_STRUCTURE
 
-  effectiveness_function:
-    SOURCE_CLAIM
+  effectiveness_function: SOURCE_CLAIM
 
-  geometric_mean_alignment_formula:
-    AMOS_DERIVED_NOT_NATIVE_ESTABLISHED
+  geometric_mean_alignment_formula: AMOS_DERIVED_NOT_NATIVE_ESTABLISHED
 
-  empirical_biological_validity:
-    NOT_INDEPENDENTLY_ESTABLISHED
+  empirical_biological_validity: NOT_INDEPENDENTLY_ESTABLISHED
 
-  runtime_enforcement:
-    NOT_ESTABLISHED
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 ---
-title: "AMOS X UBI MATRIX"
-type: document
-source: 25_COGNITIVE_MATRIX
-tags: [amos_os, 25_COGNITIVE_MATRIX, canon/cognitive-matrix]
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+
+## title: "AMOS X UBI MATRIX" type: document source: 25_COGNITIVE_MATRIX tags: [amos_os, 25_COGNITIVE_MATRIX, canon/cognitive-matrix] rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
+
 # AMOS X UBI MATRIX
 
-The native UBI manual confirms the four-domain architecture—NBI, NEI, SI, and BEI—and explicitly describes them as interdependent biological systems with distinct functions and biological bases. It also directly binds UBI to `e = i²`, TSS, and TPE. 
+The native UBI manual confirms the four-domain architecture—NBI, NEI, SI, and BEI—and explicitly describes them as interdependent biological systems with distinct functions and biological bases. It also directly binds UBI to `e = i²`, TSS, and TPE.
 
-One correction is load-bearing: the native manual states **`i = f(NBI, NEI, SI, BEI)`**, not `i = (NBI * NEI * SI * BEI)^(1/4)`. The geometric-mean equation in the submitted matrix therefore cannot presently be labeled native UBI canon. It should remain `AMOS_DERIVED` unless another native source establishes it. 
-
-
+One correction is load-bearing: the native manual states **`i = f(NBI, NEI, SI, BEI)`**, not `i = (NBI * NEI * SI * BEI)^(1/4)`. The geometric-mean equation in the submitted matrix therefore cannot presently be labeled native UBI canon. It should remain `AMOS_DERIVED` unless another native source establishes it.
 
 The native UBI source establishes a four-domain architecture:
 
@@ -2859,67 +2843,67 @@ EmpiricalStatus:
 
 # 107. Promotion Gate — Native Canon
 
-* [x] native UBI manual located
-* [x] four UBI domains located
-* [x] native functional descriptions located
-* [x] biological-basis descriptions located
-* [x] measurement claims located
-* [x] `i = f(NBI, NEI, SI, BEI)` located
-* [x] `e = i²` relationship located
-* [x] TSS relationship located
-* [x] TPE relationship located
-* [x] UBF relationship located
-* [ ] all UBI source variants lineage-reconciled
-* [ ] exact source version hierarchy established
-* [ ] conflicting UBI definitions reconciled or preserved
-* [ ] final canon-promotion receipt
+- [x] native UBI manual located
+- [x] four UBI domains located
+- [x] native functional descriptions located
+- [x] biological-basis descriptions located
+- [x] measurement claims located
+- [x] `i = f(NBI, NEI, SI, BEI)` located
+- [x] `e = i²` relationship located
+- [x] TSS relationship located
+- [x] TPE relationship located
+- [x] UBF relationship located
+- [ ] all UBI source variants lineage-reconciled
+- [ ] exact source version hierarchy established
+- [ ] conflicting UBI definitions reconciled or preserved
+- [ ] final canon-promotion receipt
 
 ---
 
 # 108. Promotion Gate — Mathematics
 
-* [ ] exact operational definition of `NBI`
-* [ ] exact operational definition of `NEI`
-* [ ] exact operational definition of `SI`
-* [ ] exact operational definition of `BEI`
-* [ ] compatible measurement scales
-* [ ] normalization protocol
-* [ ] explicit definition of `f`
-* [ ] empirical validation of `f`
-* [ ] explicit units/semantics for `i`
-* [ ] explicit units/semantics for `e`
-* [ ] independent validation of `e = i²`
+- [ ] exact operational definition of `NBI`
+- [ ] exact operational definition of `NEI`
+- [ ] exact operational definition of `SI`
+- [ ] exact operational definition of `BEI`
+- [ ] compatible measurement scales
+- [ ] normalization protocol
+- [ ] explicit definition of `f`
+- [ ] empirical validation of `f`
+- [ ] explicit units/semantics for `i`
+- [ ] explicit units/semantics for `e`
+- [ ] independent validation of `e = i²`
 
 ---
 
 # 109. Promotion Gate — Empirical
 
-* [ ] measurement reliability established
-* [ ] convergent validity established
-* [ ] discriminant validity established
-* [ ] predictive validity established
-* [ ] causal claims separately tested
-* [ ] independent replication
-* [ ] population bounds established
-* [ ] regime bounds established
-* [ ] failure cases retained
-* [ ] external validation receipt
+- [ ] measurement reliability established
+- [ ] convergent validity established
+- [ ] discriminant validity established
+- [ ] predictive validity established
+- [ ] causal claims separately tested
+- [ ] independent replication
+- [ ] population bounds established
+- [ ] regime bounds established
+- [ ] failure cases retained
+- [ ] external validation receipt
 
 ---
 
 # 110. Promotion Gate — Runtime
 
-* [ ] typed executable schema
-* [ ] domain identity implemented
-* [ ] measurement provenance persisted
-* [ ] freshness implemented
-* [ ] scope/regime checking implemented
-* [ ] missing-domain handling implemented
-* [ ] uncertainty retained
-* [ ] local invalidation implemented
-* [ ] health-action governance implemented
-* [ ] rollback demonstrated
-* [ ] artifact-specific runtime validation receipt
+- [ ] typed executable schema
+- [ ] domain identity implemented
+- [ ] measurement provenance persisted
+- [ ] freshness implemented
+- [ ] scope/regime checking implemented
+- [ ] missing-domain handling implemented
+- [ ] uncertainty retained
+- [ ] local invalidation implemented
+- [ ] health-action governance implemented
+- [ ] rollback demonstrated
+- [ ] artifact-specific runtime validation receipt
 
 ---
 
@@ -3417,27 +3401,27 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* NORMALIZES: [[AMOS_X_UBI]]
+- NORMALIZES: [[AMOS_X_UBI]]
 
-* RELATED_TO: [[AMOS_X_TSS]]
+- RELATED_TO: [[AMOS_X_TSS]]
 
-* RELATED_TO: [[AMOS_X_TPE]]
+- RELATED_TO: [[AMOS_X_TPE]]
 
-* RELATED_TO: [[AMOS_X_NEUROSYNCAI]]
+- RELATED_TO: [[AMOS_X_NEUROSYNCAI]]
 
-* INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
 
 **MOC:** [[25_COGNITIVE_MATRIX_MOC]]
 
-```
+````
 
 The strongest source-grounded change from your submitted version is therefore:
 
@@ -3447,10 +3431,11 @@ i = (NBI × NEI × SI × BEI)^(1/4)
 
 SOURCE-RECONCILED
 i = f(NBI, NEI, SI, BEI)
-```
+````
 
-while `e = i²` **is present in the native UBI manual as a framework relationship**. The same source also explicitly connects UBI to TSS and TPE. 
+while `e = i²` **is present in the native UBI manual as a framework relationship**. The same source also explicitly connects UBI to TSS and TPE.
 
 The Drive search independently located the dedicated `Unified Biological Intelligence™ (UBI) – Official.md` artifact and also surfaced UBI/NeuroSyncAI integration material; that latter material should remain separate provenance rather than being silently merged into the native UBI definition.
 
+```
 ```

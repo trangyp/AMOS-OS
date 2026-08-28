@@ -127,7 +127,7 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 - `references/vault_domain_knowledge.md` — full plugin documentation and integration notes
 - `[[obsidian-plugin-auto-tag_MOC]]` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[obsidian-plugin-auto-tag-workflow]]` — corresponding workflow
+- `obsidian-plugin-auto-tag-workflow` — corresponding workflow
 - `obsidian-plugin-auto-tag-agent` — corresponding agent
 
 ---

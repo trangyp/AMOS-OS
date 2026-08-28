@@ -70,52 +70,37 @@ framework_binding:
 
 epistemic_boundary:
 
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
+  source_presence: VERIFIED_SOURCE_PRESENCE
 
-  specification_structure:
-    VERIFIED_SOURCE_STRUCTURE
+  specification_structure: VERIFIED_SOURCE_STRUCTURE
 
-  ubi_cognition_coupling:
-    SOURCE_DEFINED_AMOS_MODEL
+  ubi_cognition_coupling: SOURCE_DEFINED_AMOS_MODEL
 
-  cognitive_tiers:
-    SOURCE_DEFINED_AMOS_MODEL
+  cognitive_tiers: SOURCE_DEFINED_AMOS_MODEL
 
-  distress_veto:
-    SOURCE_DEFINED_AMOS_MODEL
+  distress_veto: SOURCE_DEFINED_AMOS_MODEL
 
-  reasoning_depth_limits:
-    SOURCE_DEFINED_AMOS_MODEL
+  reasoning_depth_limits: SOURCE_DEFINED_AMOS_MODEL
 
-  verification_stances:
-    SOURCE_DEFINED_AMOS_MODEL
+  verification_stances: SOURCE_DEFINED_AMOS_MODEL
 
-  40hz_pacing:
-    SOURCE_DEFINED_AMOS_MODEL
+  40hz_pacing: SOURCE_DEFINED_AMOS_MODEL
 
-  validation_status_claim:
-    SOURCE_ESTABLISHED
+  validation_status_claim: SOURCE_ESTABLISHED
 
-  executable_binding_claim:
-    SOURCE_ESTABLISHED
+  executable_binding_claim: SOURCE_ESTABLISHED
 
-  independent_runtime_verification:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 
-  empirical_biological_validation:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  empirical_biological_validation: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 
 source_integrity:
 
-  mathematical_rendering:
-    PARTIALLY_CORRUPTED_IN_SUPPLIED_TEXT
+  mathematical_rendering: PARTIALLY_CORRUPTED_IN_SUPPLIED_TEXT
 
-  unresolved_symbols:
-    PRESERVE_AS_GAPS
+  unresolved_symbols: PRESERVE_AS_GAPS
 
-  reconstruction_policy:
-    DO_NOT_INVENT_MISSING_CANON
+  reconstruction_policy: DO_NOT_INVENT_MISSING_CANON
 
 raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
 ---
@@ -144,8 +129,6 @@ The artifact also introduces a scalar four-domain biological index, a quadratic 
 
 A critical source-integrity issue is visible in the supplied text: several mathematical symbols were lost or corrupted during rendering. Strings such as `48307`, bare `i`, `e`, missing variables before `\ge`, and the missing emergency-state symbol cannot safely be reconstructed from fluency alone. They are therefore preserved below as **SOURCE_CORRUPTED / UNRESOLVED_SYMBOL** rather than silently invented.
 
-
-
 and the state-machine table contains missing variables before several inequalities.
 
 These cannot safely be normalized into exact canonical equations without an authoritative intact source.
@@ -169,9 +152,9 @@ The known mathematical relations can be preserved structurally while unresolved 
 The supplied source defines four elements:
 
 1. 4-Domain Metabolic Index;
-2. Quadratic Emergence Law;
-3. Substrate Distress Veto;
-4. 40Hz Multi-Agent Clock Pacing.
+1. Quadratic Emergence Law;
+1. Substrate Distress Veto;
+1. 40Hz Multi-Agent Clock Pacing.
 
 Together they form the specification's biological-cognitive coupling layer.
 
@@ -202,7 +185,7 @@ I_{4D}
 }
 $$
 
-where \(I_{4D}\) is a **DERIVED placeholder notation**, not asserted as the source's exact variable name.
+where (I\_{4D}) is a **DERIVED placeholder notation**, not asserted as the source's exact variable name.
 
 ---
 
@@ -295,11 +278,11 @@ Multiplication of the four domains is only semantically meaningful if their sour
 
 The artifact does not independently provide:
 
-* units;
-* normalization;
-* calibration;
-* transformation;
-* measurement method.
+- units;
+- normalization;
+- calibration;
+- transformation;
+- measurement method.
 
 Therefore those details must be retrieved from:
 
@@ -329,7 +312,7 @@ E=I^2
 }
 $$
 
-where \(E\) and \(I\) are **placeholder normalization symbols** until the authoritative source confirms the original notation.
+where (E) and (I) are **placeholder normalization symbols** until the authoritative source confirms the original notation.
 
 ---
 
@@ -379,12 +362,12 @@ Possible meanings must not be invented.
 
 Required authoritative details include:
 
-* scale;
-* units;
-* interpretation;
-* range;
-* calibration;
-* role in cognitive-tier selection.
+- scale;
+- units;
+- interpretation;
+- range;
+- calibration;
+- role in cognitive-tier selection.
 
 ---
 
@@ -470,11 +453,11 @@ It does not fully define the operational semantics of `VETO`.
 
 Do not automatically equate it with:
 
-* global halt;
-* process kill;
-* rollback;
-* refusal;
-* emergency reset.
+- global halt;
+- process kill;
+- rollback;
+- refusal;
+- emergency reset.
 
 The exact semantics require the framework binding.
 
@@ -490,11 +473,11 @@ This establishes reduction/governance of reasoning depth under substrate distres
 
 It does not independently specify:
 
-* decrement size;
-* minimum depth;
-* transition timing;
-* hysteresis;
-* recovery condition.
+- decrement size;
+- minimum depth;
+- transition timing;
+- hysteresis;
+- recovery condition.
 
 ---
 
@@ -606,9 +589,9 @@ COGNITIVE_TIERS:
 Each row governs four dimensions:
 
 1. biological precondition;
-2. maximum reasoning depth;
-3. verification stance;
-4. action on substrate distress.
+1. maximum reasoning depth;
+1. verification stance;
+1. action on substrate distress.
 
 ---
 
@@ -682,7 +665,7 @@ X_{S1}\ge0.50
 }
 $$
 
-with \(X_{S1}\) explicitly marked as a placeholder, not canonical notation.
+with (X\_{S1}) explicitly marked as a placeholder, not canonical notation.
 
 ---
 
@@ -786,12 +769,12 @@ $$
 
 is only a placeholder normalization.
 
-Do not silently infer whether \(X_{S2}\) is:
+Do not silently infer whether (X\_{S2}) is:
 
-* the four-domain index;
-* emergence;
-* coherence;
-* another UBI variable.
+- the four-domain index;
+- emergence;
+- coherence;
+- another UBI variable.
 
 ---
 
@@ -819,11 +802,11 @@ That is source terminology.
 
 The artifact does not independently establish:
 
-* theorem-prover implementation;
-* proof calculus;
-* soundness theorem;
-* completeness theorem;
-* machine-checked proof certificates.
+- theorem-prover implementation;
+- proof calculus;
+- soundness theorem;
+- completeness theorem;
+- machine-checked proof certificates.
 
 Those require executable artifacts.
 
@@ -849,12 +832,12 @@ This is distinct from immediate rollback.
 
 The artifact does not specify:
 
-* checkpoint format;
-* persistence;
-* versioning;
-* hash;
-* state coverage;
-* resumption protocol.
+- checkpoint format;
+- persistence;
+- versioning;
+- hash;
+- state coverage;
+- resumption protocol.
 
 These remain lower-level implementation dependencies.
 
@@ -864,11 +847,11 @@ These remain lower-level implementation dependencies.
 
 The source establishes an Emergency tier with:
 
-* a first biological metric `< 0.30`;
-* OR \(\tau_{bio}<0.20\);
-* maximum reasoning depth `0 steps`;
-* `Halt & Null-State Reset`;
-* `Full Rollback to [missing state symbol]`.
+- a first biological metric `< 0.30`;
+- OR (\\tau\_{bio}\<0.20);
+- maximum reasoning depth `0 steps`;
+- `Halt & Null-State Reset`;
+- `Full Rollback to [missing state symbol]`.
 
 ---
 
@@ -884,7 +867,7 @@ X_E<0.30
 }
 $$
 
-where \(X_E\) is explicitly **UNRESOLVED**.
+where (X_E) is explicitly **UNRESOLVED**.
 
 ---
 
@@ -953,7 +936,7 @@ EMERGENCY_ROLLBACK:
 
 # 46. Do Not Invent S0
 
-It may be tempting to infer that the missing rollback target is \(S_0\), especially given broader AMOS ground-state terminology.
+It may be tempting to infer that the missing rollback target is (S_0), especially given broader AMOS ground-state terminology.
 
 The supplied artifact does not preserve that symbol.
 
@@ -973,11 +956,11 @@ Retrieve the authoritative source before canonicalizing the target.
 
 # 47. State-Machine Table
 
-| Cognitive Tier      | Biological Precondition               | Max Reasoning Depth | Verification Stance       | Action on \(\tau_{bio}<0.20\)                |
-| ------------------- | ------------------------------------- | ------------------: | ------------------------- | -------------------------------------------- |
-| **System 1 (Fast)** | \(X_{S1}\ge0.50,\;\tau_{bio}\ge0.40\) |             3 steps | Heuristic / Pattern Match | Fallback to Safe Mode                        |
-| **System 2 (Deep)** | \(X_{S2}\ge0.70,\;\tau_{bio}\ge0.60\) |            10 steps | Formal Theorem Prover     | Suspend Proof & Emit Checkpoint              |
-| **Emergency**       | \(X_E<0.30\lor\tau_{bio}<0.20\)       |             0 steps | Halt & Null-State Reset   | Full Rollback to **UNRESOLVED_SOURCE_STATE** |
+| Cognitive Tier      | Biological Precondition                 | Max Reasoning Depth | Verification Stance       | Action on (\\tau\_{bio}\<0.20)               |
+| ------------------- | --------------------------------------- | ------------------: | ------------------------- | -------------------------------------------- |
+| **System 1 (Fast)** | (X\_{S1}\\ge0.50,;\\tau\_{bio}\\ge0.40) |             3 steps | Heuristic / Pattern Match | Fallback to Safe Mode                        |
+| **System 2 (Deep)** | (X\_{S2}\\ge0.70,;\\tau\_{bio}\\ge0.60) |            10 steps | Formal Theorem Prover     | Suspend Proof & Emit Checkpoint              |
+| **Emergency**       | (X_E\<0.30\\lor\\tau\_{bio}\<0.20)      |             0 steps | Halt & Null-State Reset   | Full Rollback to **UNRESOLVED_SOURCE_STATE** |
 
 `X_S1`, `X_S2`, and `X_E` are placeholders for missing source symbols and MUST NOT be promoted to canonical variable names.
 
@@ -1076,11 +1059,11 @@ But because variable identity is unresolved, this is a **CONDITIONAL potential g
 
 # 52. Tau-Bio Intermediate Regions
 
-Visible \(\tau_{bio}\) thresholds are:
+Visible (\\tau\_{bio}) thresholds are:
 
-* Emergency below `0.20`;
-* System 1 requires at least `0.40`;
-* System 2 requires at least `0.60`.
+- Emergency below `0.20`;
+- System 1 requires at least `0.40`;
+- System 2 requires at least `0.60`.
 
 Thus the interval:
 
@@ -1088,7 +1071,7 @@ $$
 0.20\le\tau_{bio}<0.40
 $$
 
-does not satisfy the displayed \(\tau_{bio}\) precondition for System 1 or System 2 and does not satisfy the emergency tau predicate.
+does not satisfy the displayed (\\tau\_{bio}) precondition for System 1 or System 2 and does not satisfy the emergency tau predicate.
 
 No explicit state is provided for that region in this excerpt.
 
@@ -1186,8 +1169,8 @@ Therefore emergency dominance is architecturally plausible but should remain **M
 
 The table has both:
 
-* biological preconditions for entering a tier;
-* an action when \(\tau_{bio}<0.20\).
+- biological preconditions for entering a tier;
+- an action when (\\tau\_{bio}\<0.20).
 
 For System 1 and System 2, their entry preconditions require:
 
@@ -1260,8 +1243,8 @@ Therefore the specification asserts more than a one-way telemetry-to-cognition r
 
 At minimum, the source intends interaction between:
 
-* biological telemetry;
-* cognitive reasoning loops.
+- biological telemetry;
+- cognitive reasoning loops.
 
 However, the excerpt provides much more explicit detail for:
 
@@ -1389,11 +1372,11 @@ The source explicitly provides rollback/reset behavior, implying a recovery-orie
 
 The artifact does not define whether this means:
 
-* clearing working state;
-* returning to a logical baseline;
-* invalidating cognitive context;
-* resetting agents;
-* resetting all AMOS state.
+- clearing working state;
+- returning to a logical baseline;
+- invalidating cognitive context;
+- resetting agents;
+- resetting all AMOS state.
 
 Do not generalize beyond the source phrase.
 
@@ -1493,10 +1476,10 @@ as its matrix counterpart.
 
 That artifact provides per-signal threshold routing:
 
-* NBI → Working Memory Allocator;
-* NEI → Tone & Communication Filter;
-* SI → Execution Throttle;
-* BEI → 40Hz Gamma Clock Synchronizer.
+- NBI → Working Memory Allocator;
+- NEI → Tone & Communication Filter;
+- SI → Execution Throttle;
+- BEI → 40Hz Gamma Clock Synchronizer.
 
 This specification provides higher-order aggregate cognitive governance.
 
@@ -1623,7 +1606,7 @@ $$
 
 by assumption.
 
-This is a **CRITICAL GAP** because tier transitions depend on \(\tau_{bio}\).
+This is a **CRITICAL GAP** because tier transitions depend on (\\tau\_{bio}).
 
 ---
 
@@ -1820,9 +1803,9 @@ Therefore freshness policy remains a binding-level gap.
 The artifact does not specify whether:
 
 1. local UBI thresholds are evaluated first;
-2. aggregate biological state is computed first;
-3. tier selection occurs first;
-4. all are evaluated atomically.
+1. aggregate biological state is computed first;
+1. tier selection occurs first;
+1. all are evaluated atomically.
 
 This is material to runtime semantics.
 
@@ -1832,13 +1815,13 @@ This is material to runtime semantics.
 
 The artifact does not state how frequently:
 
-* NBI;
-* NEI;
-* SI;
-* BEI;
-* the aggregate index;
-* \(\tau_{bio}\);
-* tier eligibility
+- NBI;
+- NEI;
+- SI;
+- BEI;
+- the aggregate index;
+- (\\tau\_{bio});
+- tier eligibility
 
 are recomputed.
 
@@ -2018,10 +2001,10 @@ The scope of halt is not.
 
 It may mean:
 
-* halt current reasoning;
-* halt current proof;
-* halt cognitive loop;
-* halt broader runtime.
+- halt current reasoning;
+- halt current proof;
+- halt cognitive loop;
+- halt broader runtime.
 
 Only the first three are plausible interpretations; none should be canonized without source support.
 
@@ -2193,12 +2176,12 @@ Therefore the model couples biological state not only to computational depth but
 
 The runtime verification stance must not be confused with conclusion classes such as:
 
-* VERIFIED;
-* DERIVED;
-* MODEL;
-* CONDITIONAL;
-* COMPETING;
-* UNKNOWN/GAP.
+- VERIFIED;
+- DERIVED;
+- MODEL;
+- CONDITIONAL;
+- COMPETING;
+- UNKNOWN/GAP.
 
 A System 2 computation does not automatically make its conclusion VERIFIED.
 
@@ -2292,11 +2275,11 @@ Do not automatically infer validated physiological measurement channels.
 
 Nothing in this specification alone supports diagnosing a person's:
 
-* neurological state;
-* emotional disorder;
-* fatigue disorder;
-* electromagnetic physiology;
-* cognitive impairment.
+- neurological state;
+- emotional disorder;
+- fatigue disorder;
+- electromagnetic physiology;
+- cognitive impairment.
 
 Human-health use requires independently validated measurement and governance.
 
@@ -2426,10 +2409,10 @@ The counterpart matrix supplies local triggers while this specification supplies
 
 The binding must determine whether:
 
-* local actions occur before tier transitions;
-* global tier transitions suppress local actions;
-* both execute concurrently;
-* emergency overrides all local actions.
+- local actions occur before tier transitions;
+- global tier transitions suppress local actions;
+- both execute concurrently;
+- emergency overrides all local actions.
 
 This is a decision-relevant runtime gap.
 
@@ -2463,9 +2446,9 @@ Joint semantics require authoritative binding.
 
 A resynchronization pulse during a halt/reset state may be:
 
-* required;
-* irrelevant;
-* prohibited.
+- required;
+- irrelevant;
+- prohibited.
 
 The source excerpt does not resolve this.
 
@@ -2485,14 +2468,14 @@ Therefore no such implementation claim should be made.
 
 For consequential tier transitions, provenance should conceptually preserve:
 
-* telemetry origin;
-* timestamp;
-* calibration;
-* threshold version;
-* active state;
-* transition cause;
-* action taken;
-* checkpoint/rollback target.
+- telemetry origin;
+- timestamp;
+- calibration;
+- threshold version;
+- active state;
+- transition cause;
+- action taken;
+- checkpoint/rollback target.
 
 This is a **DERIVED governance requirement**.
 
@@ -2627,12 +2610,12 @@ This is strongly supported by the supplied structure.
 That conclusion must be bounded because:
 
 1. several mathematical symbols are corrupted;
-2. \(\tau_{bio}\) is undefined in the excerpt;
-3. first-tier variables are missing;
-4. emergency rollback target is missing;
-5. reverse bi-directional coupling is underspecified;
-6. implementation evidence is absent;
-7. empirical biological validation is absent.
+1. (\\tau\_{bio}) is undefined in the excerpt;
+1. first-tier variables are missing;
+1. emergency rollback target is missing;
+1. reverse bi-directional coupling is underspecified;
+1. implementation evidence is absent;
+1. empirical biological validation is absent.
 
 Therefore the architecture is source-grounded, but several exact runtime semantics remain unresolved.
 
@@ -3383,7 +3366,7 @@ AT SYSTEM 2 THRESHOLD
 ABOVE SYSTEM 2 THRESHOLD
 ```
 
-with cross-products against \(\tau_{bio}\).
+with cross-products against (\\tau\_{bio}).
 
 ---
 
@@ -3428,11 +3411,11 @@ The exact ordering between row-specific distress behavior and Emergency activati
 Runtime validation of the source-defined clock claim would require evidence that:
 
 1. the synchronizer operates at the intended cadence;
-2. participating agents bind to it;
-3. synchronization error is measured;
-4. resynchronization behavior exists;
-5. runaway desynchronization is operationally defined;
-6. the control actually satisfies its specified prevention property.
+1. participating agents bind to it;
+1. synchronization error is measured;
+1. resynchronization behavior exists;
+1. runaway desynchronization is operationally defined;
+1. the control actually satisfies its specified prevention property.
 
 The current artifact supplies none of those traces.
 
@@ -3443,75 +3426,75 @@ The current artifact supplies none of those traces.
 This artifact MUST NOT by itself be used to claim:
 
 1. the corrupted source symbols have been definitively reconstructed;
-2. the four-domain index's exact source variable name is known;
-3. the emergence variable's exact source name is known;
-4. the first System 1 metric is known;
-5. the first System 2 metric is known;
-6. the first Emergency metric is known;
-7. the emergency rollback target is \(S_0\);
-8. \(\tau_{bio}\) equals the four-domain index;
-9. \(\tau_{bio}\) equals emergence;
-10. the missing tier variable equals the four-domain index;
-11. the missing tier variable equals emergence;
-12. all UBI metrics use `[0,1]`;
-13. all thresholds are clinical cutoffs;
-14. the four-domain formula is a universal biological law;
-15. the quadratic emergence law is empirically universal;
-16. UBI domains are validated biomarkers;
-17. System 1 is identical to an external psychological System 1 theory;
-18. System 2 is identical to an external psychological System 2 theory;
-19. `3 steps` exposes literal ChatGPT chain-of-thought;
-20. `10 steps` exposes literal ChatGPT chain-of-thought;
-21. System 2 outputs are automatically formally proven;
-22. a Formal Theorem Prover is independently implemented;
-23. System 1 permits fabrication;
-24. System 2 guarantees truth;
-25. deeper reasoning guarantees higher confidence;
-26. 40Hz is an empirically validated AMOS hardware clock;
-27. 40Hz is a physical neural oscillator;
-28. 40Hz improves human cognition;
-29. gamma synchronization causally prevents all desynchronization;
-30. BEI proves electromagnetic causation;
-31. local UBI triggers automatically imply global Emergency;
-32. global Emergency requires all four local triggers;
-33. System 2 always has priority over System 1;
-34. Emergency priority semantics are fully defined here;
-35. Safe Mode is defined here;
-36. Null-State Reset means \(S_0\);
-37. Null-State Reset means global AMOS reset;
-38. Full Rollback uses MVCC;
-39. Full Rollback uses CAS;
-40. Full Rollback has a known target;
-41. every rollback is lossless;
-42. every rollback has a checkpoint;
-43. the 40Hz clock is a causal epoch;
-44. reasoning depth equals H/M/L retrieval depth;
-45. cognitive tiers equal C0-C4 complexity classes;
-46. the reverse cognition-to-UBI mapping is fully specified;
-47. local/global trigger ordering is known;
-48. all telemetry is sampled at 40Hz;
-49. hysteresis is defined;
-50. debounce is defined;
-51. freshness bounds are defined;
-52. measurement uncertainty is defined;
-53. tier transitions are atomic;
-54. tier transitions use multi-RSCF atomicity;
-55. multiple local actions are conflict-free;
-56. the `0.20–0.40` tau region has a known state;
-57. state-machine coverage is complete;
-58. state-machine predicates are mutually exclusive;
-59. the model proves biological causation;
-60. source-declared validation equals independent empirical validation;
-61. source-declared executable binding equals independent runtime proof;
-62. `PASSED_CONSTITUTIONAL_TESTS` proves medical validity;
-63. `ESTABLISHED` proves physical biological implementation;
-64. source provenance nodes are independent confirmations;
-65. AMOS corpus repetition establishes independent evidence;
-66. the model applies universally across subjects;
-67. the model applies universally across environments;
-68. threshold calibration is timeless;
-69. stale telemetry can safely govern current cognition;
-70. precise telemetry values imply precise biological truth.
+1. the four-domain index's exact source variable name is known;
+1. the emergence variable's exact source name is known;
+1. the first System 1 metric is known;
+1. the first System 2 metric is known;
+1. the first Emergency metric is known;
+1. the emergency rollback target is (S_0);
+1. (\\tau\_{bio}) equals the four-domain index;
+1. (\\tau\_{bio}) equals emergence;
+1. the missing tier variable equals the four-domain index;
+1. the missing tier variable equals emergence;
+1. all UBI metrics use `[0,1]`;
+1. all thresholds are clinical cutoffs;
+1. the four-domain formula is a universal biological law;
+1. the quadratic emergence law is empirically universal;
+1. UBI domains are validated biomarkers;
+1. System 1 is identical to an external psychological System 1 theory;
+1. System 2 is identical to an external psychological System 2 theory;
+1. `3 steps` exposes literal ChatGPT chain-of-thought;
+1. `10 steps` exposes literal ChatGPT chain-of-thought;
+1. System 2 outputs are automatically formally proven;
+1. a Formal Theorem Prover is independently implemented;
+1. System 1 permits fabrication;
+1. System 2 guarantees truth;
+1. deeper reasoning guarantees higher confidence;
+1. 40Hz is an empirically validated AMOS hardware clock;
+1. 40Hz is a physical neural oscillator;
+1. 40Hz improves human cognition;
+1. gamma synchronization causally prevents all desynchronization;
+1. BEI proves electromagnetic causation;
+1. local UBI triggers automatically imply global Emergency;
+1. global Emergency requires all four local triggers;
+1. System 2 always has priority over System 1;
+1. Emergency priority semantics are fully defined here;
+1. Safe Mode is defined here;
+1. Null-State Reset means (S_0);
+1. Null-State Reset means global AMOS reset;
+1. Full Rollback uses MVCC;
+1. Full Rollback uses CAS;
+1. Full Rollback has a known target;
+1. every rollback is lossless;
+1. every rollback has a checkpoint;
+1. the 40Hz clock is a causal epoch;
+1. reasoning depth equals H/M/L retrieval depth;
+1. cognitive tiers equal C0-C4 complexity classes;
+1. the reverse cognition-to-UBI mapping is fully specified;
+1. local/global trigger ordering is known;
+1. all telemetry is sampled at 40Hz;
+1. hysteresis is defined;
+1. debounce is defined;
+1. freshness bounds are defined;
+1. measurement uncertainty is defined;
+1. tier transitions are atomic;
+1. tier transitions use multi-RSCF atomicity;
+1. multiple local actions are conflict-free;
+1. the `0.20–0.40` tau region has a known state;
+1. state-machine coverage is complete;
+1. state-machine predicates are mutually exclusive;
+1. the model proves biological causation;
+1. source-declared validation equals independent empirical validation;
+1. source-declared executable binding equals independent runtime proof;
+1. `PASSED_CONSTITUTIONAL_TESTS` proves medical validity;
+1. `ESTABLISHED` proves physical biological implementation;
+1. source provenance nodes are independent confirmations;
+1. AMOS corpus repetition establishes independent evidence;
+1. the model applies universally across subjects;
+1. the model applies universally across environments;
+1. threshold calibration is timeless;
+1. stale telemetry can safely govern current cognition;
+1. precise telemetry values imply precise biological truth.
 
 ---
 
@@ -3769,7 +3752,7 @@ RSCF_RELATIONS:
       - "[[K_RSCF]]"
       - "[[K_HML]]"
       - "[[K_PROVENANCE]]"
-      - "[[K_CAUSAL_FIREWALL]]"
+      - "K_CAUSAL_FIREWALL"
       - "[[K_FAIL_CLOSED]]"
       - "[[K_GOVERNED_EVOLUTION]]"
 
@@ -4063,7 +4046,7 @@ I_{4D}
 }
 $$
 
-where \(I_{4D}\) is a placeholder for the corrupted original source symbol;
+where (I\_{4D}) is a placeholder for the corrupted original source symbol;
 
 a quadratic emergence relation structurally equivalent to:
 
@@ -4166,9 +4149,9 @@ The decisive integrity boundaries are:
 
 **THE FIRST BIOLOGICAL VARIABLE IN THE SYSTEM 1, SYSTEM 2, AND EMERGENCY PRECONDITIONS IS MISSING FROM THE SUPPLIED TEXT.**
 
-**THE EMERGENCY ROLLBACK TARGET SYMBOL IS MISSING. IT MUST NOT BE SILENTLY RECONSTRUCTED AS \(S_0\).**
+**THE EMERGENCY ROLLBACK TARGET SYMBOL IS MISSING. IT MUST NOT BE SILENTLY RECONSTRUCTED AS (S_0).**
 
-**\(\tau_{bio}\) IS SOURCE-DEFINED BUT NOT SEMANTICALLY DEFINED IN THIS EXCERPT. IT MUST NOT BE ASSUMED EQUAL TO THE FOUR-DOMAIN INDEX OR EMERGENCE QUANTITY.**
+**(\\tau\_{bio}) IS SOURCE-DEFINED BUT NOT SEMANTICALLY DEFINED IN THIS EXCERPT. IT MUST NOT BE ASSUMED EQUAL TO THE FOUR-DOMAIN INDEX OR EMERGENCE QUANTITY.**
 
 **THE SOURCE DEFINES SYSTEM 1 MAXIMUM REASONING DEPTH AS 3, SYSTEM 2 AS 10, AND EMERGENCY AS 0. THESE ARE AMOS MODEL BUDGETS, NOT DISCLOSURES OF THIS ASSISTANT'S HIDDEN CHAIN-OF-THOUGHT.**
 
@@ -4176,9 +4159,9 @@ The decisive integrity boundaries are:
 
 **SYSTEM 2'S `FORMAL THEOREM PROVER` LABEL DOES NOT MAKE EVERY SYSTEM 2 OUTPUT A FORMALLY VERIFIED THEOREM.**
 
-**THE SOURCE DEFINES \(\tau_{bio}<0.20\) AS A DISTRESS/EMERGENCY CONDITION USING A STRICT INEQUALITY.**
+**THE SOURCE DEFINES (\\tau\_{bio}\<0.20) AS A DISTRESS/EMERGENCY CONDITION USING A STRICT INEQUALITY.**
 
-**THE SOURCE'S VISIBLE \(\tau_{bio}\) CONDITIONS LEAVE THE REGION \(0.20\le\tau_{bio}<0.40\) WITHOUT AN EXPLICIT NORMAL TIER IN THIS EXCERPT.**
+**THE SOURCE'S VISIBLE (\\tau\_{bio}) CONDITIONS LEAVE THE REGION (0.20\\le\\tau\_{bio}\<0.40) WITHOUT AN EXPLICIT NORMAL TIER IN THIS EXCERPT.**
 
 **SYSTEM 1 AND SYSTEM 2 MAY HAVE OVERLAPPING ELIGIBILITY IF THEIR MISSING FIRST VARIABLES ARE IDENTICAL. THE SOURCE EXCERPT DOES NOT DEFINE TIER PRECEDENCE.**
 
@@ -4188,7 +4171,7 @@ The decisive integrity boundaries are:
 
 **40HZ MULTI-AGENT PACING MUST NOT BE SILENTLY IDENTIFIED WITH AMOS CAUSAL-EPOCH FINALITY.**
 
-**NULL-STATE RESET MUST NOT BE SILENTLY IDENTIFIED WITH \(S_0\).**
+**NULL-STATE RESET MUST NOT BE SILENTLY IDENTIFIED WITH (S_0).**
 
 **FULL ROLLBACK MUST NOT BE SILENTLY IDENTIFIED WITH MVCC/CAS IMPLEMENTATION.**
 
@@ -4204,7 +4187,7 @@ The decisive integrity boundaries are:
 
 **THE SOURCE DECLARES `executable_binding: ESTABLISHED`; INDEPENDENT RUNTIME VERIFICATION REQUIRES THE EXECUTABLE BINDING AND TRACES.**
 
-**THE CHEAPEST HIGH-INFORMATION NEXT RETRIEVAL IS THE INTACT `[[UBI_COGNITION_BINDING]]` / `[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]` SOURCE PATH, BECAUSE IT CAN RESOLVE THE MISSING TIER VARIABLE, \(\tau_{bio}\), AND EMERGENCY ROLLBACK SEMANTICS WITHOUT SPECULATIVE RECONSTRUCTION.**
+**THE CHEAPEST HIGH-INFORMATION NEXT RETRIEVAL IS THE INTACT `[[UBI_COGNITION_BINDING]]` / `[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]` SOURCE PATH, BECAUSE IT CAN RESOLVE THE MISSING TIER VARIABLE, (\\tau\_{bio}), AND EMERGENCY ROLLBACK SEMANTICS WITHOUT SPECULATIVE RECONSTRUCTION.**
 
 Operational compression:
 
@@ -4308,7 +4291,7 @@ IndependentlyVerifiedRuntime
 }
 $$
 
-The specification can therefore function canonically as the **AMOS UBI-to-cognitive-governance contract**, while the corrupted source symbols, \(\tau_{bio}\) semantics, tier precedence, emergency rollback target, reverse coupling, and executable/empirical verification remain explicit dependencies rather than being filled with invented canon.
+The specification can therefore function canonically as the **AMOS UBI-to-cognitive-governance contract**, while the corrupted source symbols, (\\tau\_{bio}) semantics, tier precedence, emergency rollback target, reverse coupling, and executable/empirical verification remain explicit dependencies rather than being filled with invented canon.
 
 ---
 
@@ -4316,7 +4299,7 @@ The specification can therefore function canonically as the **AMOS UBI-to-cognit
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[UBI_X_COGNITION_MATRIX]] · [[UBI_COGNITION_BINDING]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[AMOS_MIND_OS_FRAMEWORK]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[TOTAL_KERNEL_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_PROVENANCE]] · [[K_CAUSAL_FIREWALL]] · [[K_FAIL_CLOSED]] · [[K_GOVERNED_EVOLUTION]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[UBI_X_COGNITION_MATRIX]] · [[UBI_COGNITION_BINDING]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[AMOS_MIND_OS_FRAMEWORK]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[TOTAL_KERNEL_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[K_FAIL_CLOSED]] · [[K_GOVERNED_EVOLUTION]]
 
 ---
 
@@ -4342,55 +4325,55 @@ executable_binding: ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
 
-* COUNTERPART_OF: [[UBI_X_COGNITION_MATRIX]]
+- COUNTERPART_OF: [[UBI_X_COGNITION_MATRIX]]
 
-* BOUND_BY: [[UBI_COGNITION_BINDING]]
+- BOUND_BY: [[UBI_COGNITION_BINDING]]
 
-* DERIVES_BIOLOGICAL_MODEL_FROM: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- DERIVES_BIOLOGICAL_MODEL_FROM: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
-* CONNECTS_TO: [[AMOS_MIND_OS_FRAMEWORK]]
+- CONNECTS_TO: [[AMOS_MIND_OS_FRAMEWORK]]
 
-* DEFINES: UBI_COGNITIVE_PACING
+- DEFINES: UBI_COGNITIVE_PACING
 
-* DEFINES: UBI_REASONING_DEPTH_GOVERNANCE
+- DEFINES: UBI_REASONING_DEPTH_GOVERNANCE
 
-* DEFINES: UBI_DISTRESS_VETO
+- DEFINES: UBI_DISTRESS_VETO
 
-* DEFINES: UBI_COGNITIVE_STATE_MACHINE
+- DEFINES: UBI_COGNITIVE_STATE_MACHINE
 
-* DEFINES: UBI_40HZ_MULTI_AGENT_PACING
+- DEFINES: UBI_40HZ_MULTI_AGENT_PACING
 
-* GOVERNS: SYSTEM_1_FAST
+- GOVERNS: SYSTEM_1_FAST
 
-* GOVERNS: SYSTEM_2_DEEP
+- GOVERNS: SYSTEM_2_DEEP
 
-* GOVERNS: EMERGENCY_STATE
+- GOVERNS: EMERGENCY_STATE
 
-* RELATED_TO: [[TOTAL_FRAMEWORK_MATRIX]]
+- RELATED_TO: [[TOTAL_FRAMEWORK_MATRIX]]
 
-* RELATED_TO: [[TOTAL_KERNEL_MATRIX]]
+- RELATED_TO: [[TOTAL_KERNEL_MATRIX]]
 
-* RELATED_TO: [[TOTAL_CANON_MATRIX]]
+- RELATED_TO: [[TOTAL_CANON_MATRIX]]
 
-* RELATED_TO: [[K_RSCF]]
+- RELATED_TO: [[K_RSCF]]
 
-* RELATED_TO: [[K_HML]]
+- RELATED_TO: [[K_HML]]
 
-* RELATED_TO: [[K_PROVENANCE]]
+- RELATED_TO: [[K_PROVENANCE]]
 
-* RELATED_TO: [[K_CAUSAL_FIREWALL]]
+- RELATED_TO: K_CAUSAL_FIREWALL
 
-* RELATED_TO: [[K_FAIL_CLOSED]]
+- RELATED_TO: [[K_FAIL_CLOSED]]
 
-* RELATED_TO: [[K_GOVERNED_EVOLUTION]]
+- RELATED_TO: [[K_GOVERNED_EVOLUTION]]
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+- LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 
 ---
 

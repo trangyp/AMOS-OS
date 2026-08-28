@@ -35,7 +35,7 @@ F1: authoritative proof canon defines different coordination model.
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L19_PROOF_CAPSULE]] · [[L22_REPLAYABILITY]] · [[L23_MVCC_CAS]] · [[L24_CAUSAL_EPOCH]] · [[L25_SHARD_LOCAL]] · [[ATOMIC_MULTI_RSCF]] · [[PROOF_CAPSULE]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L19_PROOF_CAPSULE]] · [[L22_REPLAYABILITY]] · [[L23_MVCC_CAS]] · [[L24_CAUSAL_EPOCH]] · [[L25_SHARD_LOCAL]] · [[ATOMIC_MULTI_RSCF]] · PROOF_CAPSULE
 
 ---
 RSCF-NODE

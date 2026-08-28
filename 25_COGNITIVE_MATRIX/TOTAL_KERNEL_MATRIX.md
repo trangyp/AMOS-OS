@@ -90,11 +90,9 @@ epistemic_boundary:
   validation_status_claim: SOURCE_ESTABLISHED
   executable_binding_claim: SOURCE_ESTABLISHED
 
-  independent_runtime_verification:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 
-  independent_test_reproduction:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_test_reproduction: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 ---
 
 # Total Kernel Cross-Plane Matrix — Full Canon Expansion
@@ -118,8 +116,6 @@ FailClosedFallback
 $$
 
 The artifact explicitly declares `PASSED_CONSTITUTIONAL_TESTS`, `executable_binding: ESTABLISHED`, and `FAIL_CLOSED_GATED`. Those are preserved as **source-defined statuses**; this artifact alone does not provide the executable bindings, complete test evidence, or runtime traces required to independently reproduce those claims.
-
-
 
 Therefore, within this artifact:
 
@@ -159,11 +155,11 @@ $$
 
 where:
 
-* \(K_i\) = kernel subsystem;
-* \(A_i\) = architecture/operators;
-* \(I_i\) = invariant;
-* \(P_i\) = target runtime plane(s);
-* \(G_i\) = fail-closed fallback.
+- (K_i) = kernel subsystem;
+- (A_i) = architecture/operators;
+- (I_i) = invariant;
+- (P_i) = target runtime plane(s);
+- (G_i) = fail-closed fallback.
 
 This notation is **DERIVED normalization**.
 
@@ -259,20 +255,20 @@ The supplied architecture contains three principal regions:
 
 The diagram explicitly names:
 
-* ULK;
-* MURK;
-* QLS;
-* K_MVCC;
-* K_CAS;
-* K_ATOMIC_MULTI_RSCF;
-* K_FAILURE_RECOVERY.
+- ULK;
+- MURK;
+- QLS;
+- K_MVCC;
+- K_CAS;
+- K_ATOMIC_MULTI_RSCF;
+- K_FAILURE_RECOVERY.
 
 The table additionally contains:
 
-* Go Board 19×19 Engine;
-* Meta-Logic Kernel;
-* QCLA Causal Kernel;
-* DCP Deterministic Compiler.
+- Go Board 19×19 Engine;
+- Meta-Logic Kernel;
+- QCLA Causal Kernel;
+- DCP Deterministic Compiler.
 
 Conversely, the diagram names **QLS Multi-State Superposition**, which is not a standalone row in the ten-row table.
 
@@ -298,10 +294,10 @@ Therefore its exact status is unresolved by this artifact alone.
 
 Possible interpretations include:
 
-* an internal operator/subsystem of a listed kernel;
-* an omitted table row;
-* a conceptual layer rather than routed kernel;
-* a dependency represented elsewhere.
+- an internal operator/subsystem of a listed kernel;
+- an omitted table row;
+- a conceptual layer rather than routed kernel;
+- a dependency represented elsewhere.
 
 Correct classification:
 
@@ -439,11 +435,11 @@ $$
 
 as:
 
-* deletion;
-* erased memory;
-* process termination;
-* zero;
-* physical nothingness.
+- deletion;
+- erased memory;
+- process termination;
+- zero;
+- physical nothingness.
 
 Its exact ontology remains ULK/Trang ∅ dependent.
 
@@ -457,7 +453,7 @@ $$
 Revert\ to\ Ground\ State\ (S_0)
 $$
 
-This gives \(S_0\) an explicit recovery role inside the kernel matrix.
+This gives (S_0) an explicit recovery role inside the kernel matrix.
 
 ---
 
@@ -493,8 +489,8 @@ Framework Matrix ULK target:
 
 Kernel Matrix ULK targets:
 
-* `02_KERNEL`;
-* `04_RUNTIME`.
+- `02_KERNEL`;
+- `04_RUNTIME`.
 
 Thus the kernel matrix supplies a more operational routing envelope.
 
@@ -583,13 +579,13 @@ The invariant explicitly uses conjunction.
 
 The matrix does not define:
 
-* \(G\);
-* `Liberties`;
-* `TerritoryDominance`;
-* neighborhood topology;
-* boundary semantics;
-* update rule;
-* contraction algorithm.
+- (G);
+- `Liberties`;
+- `TerritoryDominance`;
+- neighborhood topology;
+- boundary semantics;
+- update rule;
+- contraction algorithm.
 
 Those remain L-level dependencies.
 
@@ -599,9 +595,9 @@ Those remain L-level dependencies.
 
 The terminology:
 
-* 19×19;
-* liberties;
-* territory;
+- 19×19;
+- liberties;
+- territory;
 
 strongly resembles Go.
 
@@ -619,11 +615,11 @@ MURK's fallback is:
 
 The artifact does not specify:
 
-* contraction radius;
-* convergence condition;
-* preservation rules;
-* loss semantics;
-* whether contraction is reversible.
+- contraction radius;
+- convergence condition;
+- preservation rules;
+- loss semantics;
+- whether contraction is reversible.
 
 These remain unresolved.
 
@@ -660,7 +656,7 @@ $$
 DeterministicState
 $$
 
-This indicates source-defined transformation from \(\Psi\) through \(\hat{\mathcal M}\) toward a deterministic state.
+This indicates source-defined transformation from (\\Psi) through (\\hat{\\mathcal M}) toward a deterministic state.
 
 ---
 
@@ -688,16 +684,16 @@ But their supplied roles differ:
 
 MURK:
 
-* cellular state matrix;
-* territory dominance;
-* boundary contraction.
+- cellular state matrix;
+- territory dominance;
+- boundary contraction.
 
 Go Board Engine:
 
-* non-local liberty lattice;
-* multi-branch tree;
-* deterministic-state transformation;
-* dominance pruning.
+- non-local liberty lattice;
+- multi-branch tree;
+- deterministic-state transformation;
+- dominance pruning.
 
 Therefore:
 
@@ -827,11 +823,11 @@ The architecture explicitly names monotonic epoch clocks.
 
 The artifact does not provide:
 
-* clock implementation;
-* epoch-width semantics;
-* wraparound behavior;
-* distributed synchronization;
-* causal epoch finality semantics.
+- clock implementation;
+- epoch-width semantics;
+- wraparound behavior;
+- distributed synchronization;
+- causal epoch finality semantics.
 
 Those require lower-level sources.
 
@@ -984,7 +980,7 @@ Therefore do not silently weaken the invariant to one-way implication.
 
 # 47. Atomic Multi-RSCF Meaning
 
-At source-model level, commit is tied to successful validation of all relevant \(R_i\).
+At source-model level, commit is tied to successful validation of all relevant (R_i).
 
 A conservative representation is:
 
@@ -1012,14 +1008,14 @@ Therefore the source-defined contract rejects partial multi-capsule success.
 
 The artifact does not itself prove behavior under:
 
-* crash during commit;
-* network partition;
-* Byzantine participant;
-* stale epoch;
-* duplicated receipt;
-* partial storage failure;
-* concurrent conflicting transaction;
-* coordinator loss.
+- crash during commit;
+- network partition;
+- Byzantine participant;
+- stale epoch;
+- duplicated receipt;
+- partial storage failure;
+- concurrent conflicting transaction;
+- coordinator loss.
 
 Those require implementation and failure-injection evidence.
 
@@ -1070,7 +1066,7 @@ $$
 This establishes two source-defined recovery branches:
 
 1. rollback;
-2. ground-state recovery.
+1. ground-state recovery.
 
 ---
 
@@ -1176,7 +1172,7 @@ and:
 
 `Immediate Clean State Reset`.
 
-The Kernel Matrix uses \(S_0\) in both ULK and K_FAILURE_RECOVERY.
+The Kernel Matrix uses (S_0) in both ULK and K_FAILURE_RECOVERY.
 
 This creates strong cross-matrix structural continuity:
 
@@ -1228,9 +1224,9 @@ META_LOGIC_CORE_19:
 
 The source explicitly states:
 
-* 5 Canonical Laws;
-* 4 Constants;
-* 84 Laws.
+- 5 Canonical Laws;
+- 4 Constants;
+- 84 Laws.
 
 The artifact does not enumerate them.
 
@@ -1244,10 +1240,10 @@ Therefore their individual identities remain L-level dependencies.
 
 The artifact does not state that `19` means:
 
-* nineteen laws;
-* version 19;
-* nineteen operators;
-* 19×19 topology.
+- nineteen laws;
+- version 19;
+- nineteen operators;
+- 19×19 topology.
 
 Do not infer the meaning from the number alone.
 
@@ -1401,10 +1397,10 @@ QCLA's fallback is:
 
 This is categorically different from:
 
-* runtime rollback;
-* transaction abort;
-* state mismatch rejection;
-* compilation abort.
+- runtime rollback;
+- transaction abort;
+- state mismatch rejection;
+- compilation abort.
 
 It acts at the claim/knowledge-validity level.
 
@@ -1484,13 +1480,13 @@ Therefore do not convert the implication into a biconditional.
 
 The artifact does not define:
 
-* signer identity;
-* signing authority;
-* cryptographic algorithm;
-* key management;
-* receipt schema;
-* replay protection;
-* verification protocol.
+- signer identity;
+- signing authority;
+- cryptographic algorithm;
+- key management;
+- receipt schema;
+- replay protection;
+- verification protocol.
 
 Those remain implementation dependencies.
 
@@ -1558,11 +1554,11 @@ The artifact does not explicitly state that every signed state-transition receip
 
 `04_RUNTIME` receives five displayed kernels:
 
-* ULK;
-* K_MVCC;
-* K_CAS;
-* K_FAILURE_RECOVERY;
-* DCP.
+- ULK;
+- K_MVCC;
+- K_CAS;
+- K_FAILURE_RECOVERY;
+- DCP.
 
 Therefore:
 
@@ -1582,10 +1578,10 @@ This is a **DERIVED structural count**.
 
 `02_KERNEL` receives:
 
-* ULK;
-* MURK;
-* Go Board Engine;
-* Meta-Logic Kernel.
+- ULK;
+- MURK;
+- Go Board Engine;
+- Meta-Logic Kernel.
 
 Therefore:
 
@@ -1603,8 +1599,8 @@ within the table.
 
 `12_STATE` receives:
 
-* Go Board Engine;
-* K_CAS.
+- Go Board Engine;
+- K_CAS.
 
 Thus:
 
@@ -1768,9 +1764,9 @@ $$
 
 especially at:
 
-* `02_KERNEL`;
-* `04_RUNTIME`;
-* `12_STATE`.
+- `02_KERNEL`;
+- `04_RUNTIME`;
+- `12_STATE`.
 
 This is a central convergence property.
 
@@ -1849,8 +1845,8 @@ $$
 
 The matrix places both within concurrency/state-transition architecture:
 
-* MVCC → snapshot isolation and epoch ordering;
-* CAS → atomic expected-state transition.
+- MVCC → snapshot isolation and epoch ordering;
+- CAS → atomic expected-state transition.
 
 A plausible derived relation is:
 
@@ -1919,11 +1915,11 @@ Rollback may interact with epoch/snapshot state.
 
 The matrix does not specify whether rollback:
 
-* rewinds epochs;
-* creates a new epoch;
-* preserves read snapshots;
-* invalidates snapshots;
-* restores a prior version.
+- rewinds epochs;
+- creates a new epoch;
+- preserves read snapshots;
+- invalidates snapshots;
+- restores a prior version.
 
 Do not invent those semantics.
 
@@ -1941,8 +1937,8 @@ Exact invalidation behavior requires implementation evidence.
 
 Proof-before-commit compilation and CAS operate at different layers:
 
-* DCP: verified executable/proof artifact;
-* CAS: state-transition atomicity.
+- DCP: verified executable/proof artifact;
+- CAS: state-transition atomicity.
 
 A verified program does not automatically guarantee a successful state transition.
 
@@ -2036,7 +2032,7 @@ S_{t+1}
 \tau(\Pi_{\mathcal C}(S_t\otimes U_t))
 $$
 
-does not itself prove that the current mutable state remains \(S_t\) when commit occurs.
+does not itself prove that the current mutable state remains (S_t) when commit occurs.
 
 CAS can provide a separate state-match gate.
 
@@ -2148,10 +2144,10 @@ Atomicity is typed and scoped.
 
 Several source claims may descend from:
 
-* `02_KERNEL_MOC`;
-* `ULK_LOGIC_KERNEL`;
-* `REALITY_X_ULK`;
-* AMOS corpus.
+- `02_KERNEL_MOC`;
+- `ULK_LOGIC_KERNEL`;
+- `REALITY_X_ULK`;
+- AMOS corpus.
 
 Repeated appearance across descendant documents is not independent confirmation.
 
@@ -2257,7 +2253,7 @@ This classification is **DERIVED**.
 
 # 120. Failure ≠ Same Recovery Action
 
-A failed QCLA causal claim should not automatically trigger an \(S_0\) runtime reset.
+A failed QCLA causal claim should not automatically trigger an (S_0) runtime reset.
 
 A CAS mismatch should not automatically imply epistemic invalidation.
 
@@ -2313,9 +2309,9 @@ This is **DERIVED** from the source's rollback/reset architecture and AMOS recov
 
 # 123. Ground-State Escalation
 
-\(S_0\) should be treated as a stronger recovery basin than local rollback when the source-defined recovery path requires it.
+(S_0) should be treated as a stronger recovery basin than local rollback when the source-defined recovery path requires it.
 
-Do not default every local error to \(S_0\) unless dependency closure makes local repair unsafe.
+Do not default every local error to (S_0) unless dependency closure makes local repair unsafe.
 
 ---
 
@@ -2323,17 +2319,17 @@ Do not default every local error to \(S_0\) unless dependency closure makes loca
 
 The named fallbacks do not independently prove:
 
-* no fail-open path;
-* zero data loss;
-* perfect rollback;
-* perfect crash recovery;
-* serializability;
-* linearizability;
-* Byzantine tolerance;
-* formal soundness;
-* causal validity;
-* compiler correctness;
-* cryptographic security.
+- no fail-open path;
+- zero data loss;
+- perfect rollback;
+- perfect crash recovery;
+- serializability;
+- linearizability;
+- Byzantine tolerance;
+- formal soundness;
+- causal validity;
+- compiler correctness;
+- cryptographic security.
 
 Those require appropriately typed evidence.
 
@@ -2343,12 +2339,12 @@ Those require appropriately typed evidence.
 
 MVCC/CAS behavior can depend on:
 
-* contention;
-* transaction duration;
-* epoch model;
-* state partitioning;
-* retry policy;
-* failure model.
+- contention;
+- transaction duration;
+- epoch model;
+- state partitioning;
+- retry policy;
+- failure model.
 
 A conclusion under one concurrency regime should not be silently generalized to another.
 
@@ -2358,12 +2354,12 @@ A conclusion under one concurrency regime should not be silently generalized to 
 
 Nothing in this matrix alone establishes behavior under:
 
-* distributed network partition;
-* asynchronous message delay;
-* Byzantine actors;
-* multi-shard commit;
-* replica divergence;
-* leader failure.
+- distributed network partition;
+- asynchronous message delay;
+- Byzantine actors;
+- multi-shard commit;
+- replica divergence;
+- leader failure.
 
 Those are separate execution regimes.
 
@@ -2381,11 +2377,11 @@ Claims about external causation require appropriately typed empirical evidence a
 
 DCP's proof-before-commit model does not automatically transfer across:
 
-* compiler versions;
-* bytecode targets;
-* AST schemas;
-* signing keys;
-* runtime versions.
+- compiler versions;
+- bytecode targets;
+- AST schemas;
+- signing keys;
+- runtime versions.
 
 Version compatibility is load-bearing.
 
@@ -2395,12 +2391,12 @@ Version compatibility is load-bearing.
 
 MURK and Go Board invariants may depend on:
 
-* board dimensions;
-* topology;
-* boundary conditions;
-* liberty definitions;
-* territory definitions;
-* branch rules.
+- board dimensions;
+- topology;
+- boundary conditions;
+- liberty definitions;
+- territory definitions;
+- branch rules.
 
 Do not generalize 19×19 results to arbitrary topology without validation.
 
@@ -2532,12 +2528,12 @@ subject to authoritative runtime semantics.
 
 If independent proof capsules establish:
 
-* disjoint mutable state;
-* compatible epochs;
-* no shared authority dependency;
-* no cross-capsule invariant;
-* no causal coupling;
-* no schema coupling;
+- disjoint mutable state;
+- compatible epochs;
+- no shared authority dependency;
+- no cross-capsule invariant;
+- no causal coupling;
+- no schema coupling;
 
 then local reasoning may avoid unnecessary coordination.
 
@@ -2588,10 +2584,10 @@ Therefore kernel atomicity should not be promoted into Byzantine security.
 
 When a kernel operation becomes authority-sensitive or provenance-sensitive, the kernel matrix may need escalation to framework/governance dependencies such as:
 
-* Heritage Decision Intelligence;
-* GMEF;
-* Control Plane;
-* provenance topology.
+- Heritage Decision Intelligence;
+- GMEF;
+- Control Plane;
+- provenance topology.
 
 This is a cross-matrix dependency, not evidence that the kernel itself performs those governance functions.
 
@@ -2601,7 +2597,7 @@ This is a cross-matrix dependency, not evidence that the kernel itself performs 
 
 | Framework   | Kernel Relation                                           | Status                                |
 | ----------- | --------------------------------------------------------- | ------------------------------------- |
-| Trang ∅     | ULK / K_FAILURE_RECOVERY via \(S_0\)                      | Strong structural correspondence      |
+| Trang ∅     | ULK / K_FAILURE_RECOVERY via (S_0)                        | Strong structural correspondence      |
 | TRA         | ULK / Meta-Logic via Canon + Kernel                       | Structural correspondence             |
 | Khung Trang | MURK / topology family                                    | Plausible structural correspondence   |
 | UBI         | No explicit dedicated kernel row here                     | GAP / external dependency             |
@@ -2691,26 +2687,26 @@ Do not fabricate that protocol from conventional database knowledge.
 
 That source should govern exact:
 
-* rollback semantics;
-* reset basins;
-* zero-loss claim;
-* crash recovery;
-* fail-closed halt.
+- rollback semantics;
+- reset basins;
+- zero-loss claim;
+- crash recovery;
+- fail-closed halt.
 
 ---
 
 # 147. Kernel Matrix × Atomic Multi-RSCF
 
-`[[K_ATOMIC_MULTI_RSCF]]` is explicitly linked.
+`K_ATOMIC_MULTI_RSCF` is explicitly linked.
 
 That source should govern exact:
 
-* capsule membership;
-* validation order;
-* commit semantics;
-* rollback scope;
-* cross-plane atomicity;
-* coordination behavior.
+- capsule membership;
+- validation order;
+- commit semantics;
+- rollback scope;
+- cross-plane atomicity;
+- coordination behavior.
 
 ---
 
@@ -3439,85 +3435,85 @@ FAILURE-INJECTION RESULTS
 This artifact MUST NOT by itself be used to claim:
 
 1. All ten kernel rows are independently observed runtime processes.
-2. These are every kernel artifact anywhere in AMOS.
-3. QLS is definitely an eleventh standalone kernel.
-4. QLS is definitely part of MURK.
-5. QLS is definitely part of ULK.
-6. `PASSED_CONSTITUTIONAL_TESTS` embeds reproducible test evidence.
-7. `ESTABLISHED` executable binding independently proves execution.
-8. `FAIL_CLOSED_GATED` proves no fail-open defect exists.
-9. ULK's symbols have conventional mathematical meanings.
-10. \(\emptyset\) means deletion.
-11. \(S_0\) means literal physical nothingness.
-12. ULK's state transition is externally empirically validated.
-13. ULK's fallback always restores state without loss.
-14. MURK is identical to conventional Go.
-15. MURK's liberties have conventional Go semantics.
-16. `TerritoryDominance` is independently defined here.
-17. Boundary Contraction is lossless.
-18. Go Board Engine is identical to MURK.
-19. \(\Psi\) has quantum-mechanical meaning merely from notation.
-20. \(\hat{\mathcal M}\) is a conventional measurement operator.
-21. DeterministicState implies real-world determinism.
-22. Dominance Pruning preserves every optimal branch.
-23. MVCC has every conventional database guarantee.
-24. Snapshot isolation implies serializability.
-25. Monotonic epochs establish causal epoch finality.
-26. MVCC is linearizable.
-27. CAS's exact return semantics are supplied here.
-28. CAS atomicity implies transaction atomicity.
-29. CAS atomicity implies system-wide atomicity.
-30. Multi-RSCF atomicity is independently proven under crashes.
-31. Multi-RSCF atomicity is independently proven under network partitions.
-32. Multi-RSCF atomicity is Byzantine fault tolerant.
-33. Multi-RSCF atomicity requires global coordination for every operation.
-34. Atomic Rollback All has been independently observed.
-35. Failure recovery guarantees zero data loss.
-36. Every fault requires ground-state reset.
-37. Every fault requires global recomputation.
-38. `Zero-Loss Rollback` is independently proven.
-39. CORE-19 contains nineteen laws.
-40. The meaning of `CORE-19` is defined here.
-41. The 5 Canonical Laws are enumerated here.
-42. The 4 Constants are enumerated here.
-43. The 84 Laws are enumerated here.
-44. Signal Fidelity has a quantitative definition here.
-45. Structural Integrity has a quantitative definition here.
-46. Law Violation Veto is independently implemented.
-47. QCLA's K1–K5 are defined here.
-48. Temporal order alone proves causation.
-49. Temporal order plus non-circularity proves real-world causation.
-50. QCLA excludes all confounding.
-51. QCLA is a universally valid causal calculus.
-52. DCP proof-before-commit proves compiler correctness.
-53. VerifyAST proves canonical-law compliance.
-54. VerifyAST proves causal validity.
-55. ReceiptSigned proves secure key management.
-56. ReceiptSigned proves non-repudiation.
-57. DCP's signature algorithm is known from this artifact.
-58. DCP compilation success implies runtime commit.
-59. Table order equals execution order.
-60. Diagram order equals universal execution order.
-61. Shared target plane proves shared mutable state.
-62. Shared target plane proves kernel independence.
-63. Shared notation proves shared semantics.
-64. Shared source descendants count as independent confirmation.
-65. MURK topology proves causation.
-66. Go branch dominance proves causation.
-67. A valid ULK next state implies CAS success.
-68. A valid snapshot implies CAS success.
-69. Individual CAS success implies multi-RSCF commit.
-70. Compilation validity implies causal validity.
-71. Causal validity implies compilation validity.
-72. Kernel validity implies framework validity.
-73. Framework validity implies kernel validity.
-74. Canon validity implies runtime execution correctness.
-75. Runtime execution correctness implies empirical truth.
-76. Architectural convergence permits epistemic collapse.
-77. Kernel atomicity automatically implements the full v4.4 distributed mechanisms in ChatGPT.
-78. Source-code concepts imply literal execution by this conversational system.
-79. Proof terminology alone establishes formal soundness.
-80. Deterministic terminology alone establishes hardware-independent determinism.
+1. These are every kernel artifact anywhere in AMOS.
+1. QLS is definitely an eleventh standalone kernel.
+1. QLS is definitely part of MURK.
+1. QLS is definitely part of ULK.
+1. `PASSED_CONSTITUTIONAL_TESTS` embeds reproducible test evidence.
+1. `ESTABLISHED` executable binding independently proves execution.
+1. `FAIL_CLOSED_GATED` proves no fail-open defect exists.
+1. ULK's symbols have conventional mathematical meanings.
+1. (\\emptyset) means deletion.
+1. (S_0) means literal physical nothingness.
+1. ULK's state transition is externally empirically validated.
+1. ULK's fallback always restores state without loss.
+1. MURK is identical to conventional Go.
+1. MURK's liberties have conventional Go semantics.
+1. `TerritoryDominance` is independently defined here.
+1. Boundary Contraction is lossless.
+1. Go Board Engine is identical to MURK.
+1. (\\Psi) has quantum-mechanical meaning merely from notation.
+1. (\\hat{\\mathcal M}) is a conventional measurement operator.
+1. DeterministicState implies real-world determinism.
+1. Dominance Pruning preserves every optimal branch.
+1. MVCC has every conventional database guarantee.
+1. Snapshot isolation implies serializability.
+1. Monotonic epochs establish causal epoch finality.
+1. MVCC is linearizable.
+1. CAS's exact return semantics are supplied here.
+1. CAS atomicity implies transaction atomicity.
+1. CAS atomicity implies system-wide atomicity.
+1. Multi-RSCF atomicity is independently proven under crashes.
+1. Multi-RSCF atomicity is independently proven under network partitions.
+1. Multi-RSCF atomicity is Byzantine fault tolerant.
+1. Multi-RSCF atomicity requires global coordination for every operation.
+1. Atomic Rollback All has been independently observed.
+1. Failure recovery guarantees zero data loss.
+1. Every fault requires ground-state reset.
+1. Every fault requires global recomputation.
+1. `Zero-Loss Rollback` is independently proven.
+1. CORE-19 contains nineteen laws.
+1. The meaning of `CORE-19` is defined here.
+1. The 5 Canonical Laws are enumerated here.
+1. The 4 Constants are enumerated here.
+1. The 84 Laws are enumerated here.
+1. Signal Fidelity has a quantitative definition here.
+1. Structural Integrity has a quantitative definition here.
+1. Law Violation Veto is independently implemented.
+1. QCLA's K1–K5 are defined here.
+1. Temporal order alone proves causation.
+1. Temporal order plus non-circularity proves real-world causation.
+1. QCLA excludes all confounding.
+1. QCLA is a universally valid causal calculus.
+1. DCP proof-before-commit proves compiler correctness.
+1. VerifyAST proves canonical-law compliance.
+1. VerifyAST proves causal validity.
+1. ReceiptSigned proves secure key management.
+1. ReceiptSigned proves non-repudiation.
+1. DCP's signature algorithm is known from this artifact.
+1. DCP compilation success implies runtime commit.
+1. Table order equals execution order.
+1. Diagram order equals universal execution order.
+1. Shared target plane proves shared mutable state.
+1. Shared target plane proves kernel independence.
+1. Shared notation proves shared semantics.
+1. Shared source descendants count as independent confirmation.
+1. MURK topology proves causation.
+1. Go branch dominance proves causation.
+1. A valid ULK next state implies CAS success.
+1. A valid snapshot implies CAS success.
+1. Individual CAS success implies multi-RSCF commit.
+1. Compilation validity implies causal validity.
+1. Causal validity implies compilation validity.
+1. Kernel validity implies framework validity.
+1. Framework validity implies kernel validity.
+1. Canon validity implies runtime execution correctness.
+1. Runtime execution correctness implies empirical truth.
+1. Architectural convergence permits epistemic collapse.
+1. Kernel atomicity automatically implements the full v4.4 distributed mechanisms in ChatGPT.
+1. Source-code concepts imply literal execution by this conversational system.
+1. Proof terminology alone establishes formal soundness.
+1. Deterministic terminology alone establishes hardware-independent determinism.
 
 ---
 
@@ -3835,14 +3831,14 @@ RSCF_RELATIONS:
       - "[[K_RSCF]]"
       - "[[K_HML]]"
       - "[[K_CANON]]"
-      - "[[K_KERNEL]]"
+      - "K_KERNEL"
       - "[[K_MVCC]]"
       - "[[K_CAS]]"
-      - "[[K_ATOMIC_MULTI_RSCF]]"
+      - "K_ATOMIC_MULTI_RSCF"
       - "[[K_FAILURE_RECOVERY]]"
       - "[[K_FAIL_CLOSED]]"
       - "[[K_PROVENANCE]]"
-      - "[[K_CAUSAL_FIREWALL]]"
+      - "K_CAUSAL_FIREWALL"
       - "[[K_GOVERNED_EVOLUTION]]"
 
   - LINEAGE_TARGET:
@@ -4212,7 +4208,7 @@ The decisive integrity boundaries are:
 
 **FAILURES SHOULD REMAIN LOCAL AND TYPED WHEN DEPENDENCY CLOSURE ALLOWS; GLOBAL RESET IS NOT THE DEFAULT FOR EVERY LOCAL ERROR.**
 
-**GROUND-STATE \(S_0\) IS A SOURCE-DEFINED RECOVERY BASIN, NOT A LICENSE TO INVENT ITS ONTOLOGICAL OR IMPLEMENTATION SEMANTICS.**
+**GROUND-STATE (S_0) IS A SOURCE-DEFINED RECOVERY BASIN, NOT A LICENSE TO INVENT ITS ONTOLOGICAL OR IMPLEMENTATION SEMANTICS.**
 
 Operationally:
 
@@ -4351,7 +4347,7 @@ AMOS can therefore represent a unified kernel execution mesh while preserving **
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[02_KERNEL_MOC]] · [[ULK_LOGIC_KERNEL]] · [[K_MVCC]] · [[K_CAS]] · [[MVCC_CAS]] · [[K_ATOMIC_MULTI_RSCF]] · [[K_FAILURE_RECOVERY]] · [[REALITY_X_ULK_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_CANON]] · [[K_KERNEL]] · [[K_FAIL_CLOSED]] · [[K_PROVENANCE]] · [[K_CAUSAL_FIREWALL]] · [[K_GOVERNED_EVOLUTION]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[02_KERNEL_MOC]] · [[ULK_LOGIC_KERNEL]] · [[K_MVCC]] · [[K_CAS]] · [[MVCC_CAS]] · K_ATOMIC_MULTI_RSCF · [[K_FAILURE_RECOVERY]] · [[REALITY_X_ULK_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_CANON]] · K_KERNEL · [[K_FAIL_CLOSED]] · [[K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[K_GOVERNED_EVOLUTION]]
 
 ---
 
@@ -4379,75 +4375,75 @@ runtime_enforcement: FAIL_CLOSED_GATED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
 
-* GROUNDED_BY: [[02_KERNEL_MOC]]
+- GROUNDED_BY: [[02_KERNEL_MOC]]
 
-* GROUNDED_BY: [[ULK_LOGIC_KERNEL]]
+- GROUNDED_BY: [[ULK_LOGIC_KERNEL]]
 
-* GROUNDED_BY: [[REALITY_X_ULK_MATRIX]]
+- GROUNDED_BY: [[REALITY_X_ULK_MATRIX]]
 
-* DEFINES: MASTER_KERNEL_CONVERGENCE_GRID
+- DEFINES: MASTER_KERNEL_CONVERGENCE_GRID
 
-* ROUTES: ULK_ALU_0_5
+- ROUTES: ULK_ALU_0_5
 
-* ROUTES: MURK_19X19
+- ROUTES: MURK_19X19
 
-* ROUTES: GO_BOARD_19X19
+- ROUTES: GO_BOARD_19X19
 
-* ROUTES: K_MVCC
+- ROUTES: K_MVCC
 
-* ROUTES: K_CAS
+- ROUTES: K_CAS
 
-* ROUTES: K_ATOMIC_MULTI_RSCF
+- ROUTES: K_ATOMIC_MULTI_RSCF
 
-* ROUTES: K_FAILURE_RECOVERY
+- ROUTES: K_FAILURE_RECOVERY
 
-* ROUTES: META_LOGIC_CORE_19
+- ROUTES: META_LOGIC_CORE_19
 
-* ROUTES: QCLA
+- ROUTES: QCLA
 
-* ROUTES: DCP_COMPILER
+- ROUTES: DCP_COMPILER
 
-* CONTAINS_DIAGRAM_REFERENCE: QLS_MULTI_STATE_SUPERPOSITION
+- CONTAINS_DIAGRAM_REFERENCE: QLS_MULTI_STATE_SUPERPOSITION
 
-* ENFORCES: FAIL_CLOSED_GATED
+- ENFORCES: FAIL_CLOSED_GATED
 
-* CONNECTS_TO: [[MVCC_CAS]]
+- CONNECTS_TO: [[MVCC_CAS]]
 
-* CONNECTS_TO: [[TOTAL_CANON_MATRIX]]
+- CONNECTS_TO: [[TOTAL_CANON_MATRIX]]
 
-* RELATED_TO: [[TOTAL_FRAMEWORK_MATRIX]]
+- RELATED_TO: [[TOTAL_FRAMEWORK_MATRIX]]
 
-* RELATED_TO: [[K_RSCF]]
+- RELATED_TO: [[K_RSCF]]
 
-* RELATED_TO: [[K_HML]]
+- RELATED_TO: [[K_HML]]
 
-* RELATED_TO: [[K_CANON]]
+- RELATED_TO: [[K_CANON]]
 
-* RELATED_TO: [[K_KERNEL]]
+- RELATED_TO: K_KERNEL
 
-* RELATED_TO: [[K_MVCC]]
+- RELATED_TO: [[K_MVCC]]
 
-* RELATED_TO: [[K_CAS]]
+- RELATED_TO: [[K_CAS]]
 
-* RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
+- RELATED_TO: K_ATOMIC_MULTI_RSCF
 
-* RELATED_TO: [[K_FAILURE_RECOVERY]]
+- RELATED_TO: [[K_FAILURE_RECOVERY]]
 
-* RELATED_TO: [[K_FAIL_CLOSED]]
+- RELATED_TO: [[K_FAIL_CLOSED]]
 
-* RELATED_TO: [[K_PROVENANCE]]
+- RELATED_TO: [[K_PROVENANCE]]
 
-* RELATED_TO: [[K_CAUSAL_FIREWALL]]
+- RELATED_TO: K_CAUSAL_FIREWALL
 
-* RELATED_TO: [[K_GOVERNED_EVOLUTION]]
+- RELATED_TO: [[K_GOVERNED_EVOLUTION]]
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+- LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 
 ---
 

@@ -91,11 +91,9 @@ epistemic_boundary:
   executable_binding_claim: SOURCE_ESTABLISHED
   constitutional_test_claim: SOURCE_ESTABLISHED
 
-  independent_runtime_verification:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 
-  independent_test_verification:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_test_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 ---
 
 # Total Engine Cross-Plane Matrix — Full Canon Expansion
@@ -119,8 +117,6 @@ FailClosedFallback
 $$
 
 A critical distinction in v2.0.0 is that the artifact now asserts both **`executable_binding: ESTABLISHED`** and **`runtime_enforcement: FAIL_CLOSED_GATED`**, while its top-level RSCF state remains `SOURCE_CLAIM`/`AMOS_MODEL`. Therefore those runtime properties are established **within the supplied AMOS source specification**, but the artifact alone does not independently demonstrate the underlying implementation or test execution.
-
-
 
 and:
 
@@ -155,31 +151,31 @@ No contradiction needs to be forced. These fields operate at different epistemic
 
 # 1. Total 12 Domain Engines Routing Grid
 
-| ID      | Domain Engine                 | Core Function                                 | Master Invariant / Formula                                       | Target Plane             | Fail-Closed Fallback              |
-| ------- | ----------------------------- | --------------------------------------------- | ---------------------------------------------------------------- | ------------------------ | --------------------------------- |
-| **C01** | **Meta-Logic Engine**         | Axiomatic truth verification & law cascades   | \(\mathrm{LawOfLaw}(\mathcal C,\mathcal E,\mathcal F)\)          | `01_CANON` / `02_KERNEL` | Invariant Veto                    |
-| **C02** | **Math & Compute Engine**     | Formal arithmetic, tensor algebra & proofs    | \(\nabla\cdot\mathbf T=0\land\mathrm{DimensionalConsistency}\)   | `02_KERNEL`              | Proof Invalidation                |
-| **C03** | **Physics & Cosmos Engine**   | Physical substrate modeling & conservation    | \(\Delta E_{\mathrm{net}}\ge0\land\mathrm{ThermodynamicBounds}\) | `09_COSMOLOGICAL`        | Substrate Lock                    |
-| **C04** | **Bio & Neuro Engine**        | UBI 4-domain alignment & vagal telemetry      | \(i=(NBI\cdot NEI\cdot SI\cdot BEI)^{1/4},\ e=i^2\)              | `05_COGNITIVE_ORGANISM`  | Distress Veto \((\tau<0.20)\)     |
-| **C05** | **Mind & Behavior Engine**    | Cognitive load balancing & emotion vectors    | \(\vec E=\langle Arousal,Valence,Dominance\rangle\)              | `05_COGNITIVE_ORGANISM`  | Emotional Throttle                |
-| **C06** | **Society & Culture Engine**  | Multi-agent coordination & cultural norms     | \(\mathrm{Mask}_{H3}(Internal)\to LocalizedSemantic\)            | `21_DOMAINS`             | Protocol Boundary Reject          |
-| **C07** | **Econ & Finance Engine**     | TSS structural force tracking & solvency      | \(P_{collapse}\sim\frac{\Omega FS}{H\cdot Reserves}\)            | `21_DOMAINS`             | Defensive Reserve Lock            |
-| **C08** | **Strategy & Game Engine**    | TPE 7-layer foresight & multi-horizon Nash    | \(TPE(Horizon_k)\to ParetoOptimalPath\)                          | `13_MODELS`              | Decouple Gate \((\Omega\ge0.70)\) |
-| **C09** | **Org, Law & Policy Engine**  | Authority envelopes & compliance auditing     | \(Capability(A)\not\implies Authority(A)\)                       | `03_CONTROL_PLANE`       | Cryptographic Warrant Veto        |
-| **C10** | **Tech & Engineering Engine** | AST slicing, repository reasoning & patches   | \(Patch(\mu)\implies PassUnitTests\land Debt=0\)                 | `04_RUNTIME`             | Rollback Patch                    |
-| **C11** | **Design & Language Engine**  | Rich UX aesthetic tokens & formal semantics   | \(DesignTokens\land NoPlaceholderInvariant\)                     | `15_INTERFACES`          | UI Quality Reject                 |
-| **C12** | **Earth & Ecology Engine**    | PSI planetary telemetry & carrying capacities | \(EcologicalStress\le BiosphereThreshold\)                       | `08_PLANETARY`           | Planetary Reserve Mode            |
+| ID      | Domain Engine                 | Core Function                                 | Master Invariant / Formula                                           | Target Plane             | Fail-Closed Fallback              |
+| ------- | ----------------------------- | --------------------------------------------- | -------------------------------------------------------------------- | ------------------------ | --------------------------------- |
+| **C01** | **Meta-Logic Engine**         | Axiomatic truth verification & law cascades   | (\\mathrm{LawOfLaw}(\\mathcal C,\\mathcal E,\\mathcal F))            | `01_CANON` / `02_KERNEL` | Invariant Veto                    |
+| **C02** | **Math & Compute Engine**     | Formal arithmetic, tensor algebra & proofs    | (\\nabla\\cdot\\mathbf T=0\\land\\mathrm{DimensionalConsistency})    | `02_KERNEL`              | Proof Invalidation                |
+| **C03** | **Physics & Cosmos Engine**   | Physical substrate modeling & conservation    | (\\Delta E\_{\\mathrm{net}}\\ge0\\land\\mathrm{ThermodynamicBounds}) | `09_COSMOLOGICAL`        | Substrate Lock                    |
+| **C04** | **Bio & Neuro Engine**        | UBI 4-domain alignment & vagal telemetry      | (i=(NBI\\cdot NEI\\cdot SI\\cdot BEI)^{1/4},\\ e=i^2)                | `05_COGNITIVE_ORGANISM`  | Distress Veto ((\\tau\<0.20))     |
+| **C05** | **Mind & Behavior Engine**    | Cognitive load balancing & emotion vectors    | (\\vec E=\\langle Arousal,Valence,Dominance\\rangle)                 | `05_COGNITIVE_ORGANISM`  | Emotional Throttle                |
+| **C06** | **Society & Culture Engine**  | Multi-agent coordination & cultural norms     | (\\mathrm{Mask}\_{H3}(Internal)\\to LocalizedSemantic)               | `21_DOMAINS`             | Protocol Boundary Reject          |
+| **C07** | **Econ & Finance Engine**     | TSS structural force tracking & solvency      | (P\_{collapse}\\sim\\frac{\\Omega FS}{H\\cdot Reserves})             | `21_DOMAINS`             | Defensive Reserve Lock            |
+| **C08** | **Strategy & Game Engine**    | TPE 7-layer foresight & multi-horizon Nash    | (TPE(Horizon_k)\\to ParetoOptimalPath)                               | `13_MODELS`              | Decouple Gate ((\\Omega\\ge0.70)) |
+| **C09** | **Org, Law & Policy Engine**  | Authority envelopes & compliance auditing     | (Capability(A)\\not\\implies Authority(A))                           | `03_CONTROL_PLANE`       | Cryptographic Warrant Veto        |
+| **C10** | **Tech & Engineering Engine** | AST slicing, repository reasoning & patches   | (Patch(\\mu)\\implies PassUnitTests\\land Debt=0)                    | `04_RUNTIME`             | Rollback Patch                    |
+| **C11** | **Design & Language Engine**  | Rich UX aesthetic tokens & formal semantics   | (DesignTokens\\land NoPlaceholderInvariant)                          | `15_INTERFACES`          | UI Quality Reject                 |
+| **C12** | **Earth & Ecology Engine**    | PSI planetary telemetry & carrying capacities | (EcologicalStress\\le BiosphereThreshold)                            | `08_PLANETARY`           | Planetary Reserve Mode            |
 
 ---
 
 # 2. Specialized Cognitive Super-Engines
 
-| Super-Engine | Architectural Role         | Source Formulation                                                                         | Enforcement Gate                             |
-| ------------ | -------------------------- | ------------------------------------------------------------------------------------------ | -------------------------------------------- |
-| **LDAI**     | Logically Deterministic AI | \(\mathrm{Proof}\vdash\Delta S_{t+1}\)                                                     | Syntax & Logic Closure Gate                  |
-| **FRAI**     | Fractal Reasoning AI       | \(FRAI=\langle\mathcal D,\mathcal S,\mathcal R,\mathcal I,\mathcal A,\mathcal T_2\rangle\) | Multi-Scale Consistency Gate                 |
-| **ASEA**     | Adaptive Self-Evolution AI | \(ASEA(t+1)=\sigma(\mu(ASEA(t)))\)                                                         | Non-Compensatory Debt Invariant \((Debt=0)\) |
-| **DCP**      | Domain Canon Programming   | \(DCP(Spec)\implies VerifiedBytecode\)                                                     | Deterministic AST Verification Gate          |
+| Super-Engine | Architectural Role         | Source Formulation                                                                               | Enforcement Gate                           |
+| ------------ | -------------------------- | ------------------------------------------------------------------------------------------------ | ------------------------------------------ |
+| **LDAI**     | Logically Deterministic AI | (\\mathrm{Proof}\\vdash\\Delta S\_{t+1})                                                         | Syntax & Logic Closure Gate                |
+| **FRAI**     | Fractal Reasoning AI       | (FRAI=\\langle\\mathcal D,\\mathcal S,\\mathcal R,\\mathcal I,\\mathcal A,\\mathcal T_2\\rangle) | Multi-Scale Consistency Gate               |
+| **ASEA**     | Adaptive Self-Evolution AI | (ASEA(t+1)=\\sigma(\\mu(ASEA(t))))                                                               | Non-Compensatory Debt Invariant ((Debt=0)) |
+| **DCP**      | Domain Canon Programming   | (DCP(Spec)\\implies VerifiedBytecode)                                                            | Deterministic AST Verification Gate        |
 
 ---
 
@@ -211,12 +207,12 @@ $$
 
 where:
 
-* \(C_i\) = engine identifier;
-* \(D_i\) = domain identity;
-* \(F_i\) = core function;
-* \(I_i\) = invariant/formula;
-* \(P_i\) = target plane;
-* \(G_i\) = fail-closed fallback.
+- (C_i) = engine identifier;
+- (D_i) = domain identity;
+- (F_i) = core function;
+- (I_i) = invariant/formula;
+- (P_i) = target plane;
+- (G_i) = fail-closed fallback.
 
 This notation is **DERIVED normalization**, not a supplied canonical equation.
 
@@ -242,13 +238,13 @@ The formulas in the engine grid have heterogeneous epistemic roles.
 
 They include:
 
-* logical constraints;
-* mathematical conditions;
-* model equations;
-* vector representations;
-* governance relations;
-* engineering requirements;
-* ecological thresholds.
+- logical constraints;
+- mathematical conditions;
+- model equations;
+- vector representations;
+- governance relations;
+- engineering requirements;
+- ecological thresholds.
 
 Therefore they must not be flattened into one epistemic category.
 
@@ -300,13 +296,13 @@ This is the matrix's strongest shared operational invariant.
 
 A named fail-closed fallback does not itself prove:
 
-* detection completeness;
-* zero bypasses;
-* correct thresholding;
-* absence of deadlocks;
-* absence of false vetoes;
-* successful rollback;
-* safety under every failure mode.
+- detection completeness;
+- zero bypasses;
+- correct thresholding;
+- absence of deadlocks;
+- absence of false vetoes;
+- successful rollback;
+- safety under every failure mode.
 
 Those require runtime evidence.
 
@@ -430,7 +426,7 @@ $$
 DimensionalConsistency
 $$
 
-The artifact does not define \(\mathbf T\).
+The artifact does not define (\\mathbf T).
 
 Therefore its exact mathematical or physical semantics remain source-dependent.
 
@@ -564,9 +560,9 @@ The meanings and measurement procedures for NBI, NEI, SI, and BEI require the UB
 
 References to:
 
-* vagal telemetry;
-* distress;
-* biological intelligence
+- vagal telemetry;
+- distress;
+- biological intelligence
 
 must not be silently promoted into clinically validated health measures.
 
@@ -584,7 +580,7 @@ $$
 
 for `Distress Veto`.
 
-The artifact does not define the units, calibration, population, or measurement procedure for \(\tau\).
+The artifact does not define the units, calibration, population, or measurement procedure for (\\tau).
 
 Therefore threshold interpretation remains source-bound.
 
@@ -687,9 +683,9 @@ C06:
 
 The artifact does not define:
 
-* `Mask_H3`;
-* `Internal`;
-* `LocalizedSemantic`.
+- `Mask_H3`;
+- `Internal`;
+- `LocalizedSemantic`.
 
 Their semantics must be retrieved from the relevant source when needed.
 
@@ -757,11 +753,11 @@ This formula is an AMOS/TSS model expression.
 
 The artifact alone does not establish:
 
-* predictive calibration;
-* probability normalization;
-* financial-market validity;
-* causal interpretation;
-* investment performance.
+- predictive calibration;
+- probability normalization;
+- financial-market validity;
+- causal interpretation;
+- investment performance.
 
 ---
 
@@ -836,7 +832,7 @@ $$
 
 for the `Decouple Gate`.
 
-The exact meaning and calibration of \(\Omega\) are not supplied by this artifact.
+The exact meaning and calibration of (\\Omega) are not supplied by this artifact.
 
 ---
 
@@ -1315,11 +1311,11 @@ This is a source-defined specification.
 
 The artifact does not independently supply:
 
-* compiler implementation;
-* bytecode format;
-* verifier;
-* proof object;
-* test traces.
+- compiler implementation;
+- bytecode format;
+- verifier;
+- proof object;
+- test traces.
 
 ---
 
@@ -1463,12 +1459,12 @@ Separate rows do not establish full operational independence.
 
 Two engines may share:
 
-* state;
-* data;
-* provenance;
-* target planes;
-* thresholds;
-* upstream models.
+- state;
+- data;
+- provenance;
+- target planes;
+- thresholds;
+- upstream models.
 
 Independence must be demonstrated.
 
@@ -1498,13 +1494,13 @@ This is a **derived AMOS v4.4 integration principle**.
 
 A single-engine path is warranted only when:
 
-* dependency closure is local;
-* no cross-engine conflict exists;
-* provenance is sufficiently independent;
-* scope matches;
-* regime matches;
-* freshness is adequate;
-* stakes do not require escalation.
+- dependency closure is local;
+- no cross-engine conflict exists;
+- provenance is sufficiently independent;
+- scope matches;
+- regime matches;
+- freshness is adequate;
+- stakes do not require escalation.
 
 ---
 
@@ -1548,7 +1544,7 @@ Capability(C_i)
 Authority(C_i)
 $$
 
-for any engine \(C_i\), as a derived application of the supplied C09 invariant.
+for any engine (C_i), as a derived application of the supplied C09 invariant.
 
 ---
 
@@ -1598,7 +1594,7 @@ Pass(C_a)+Fail(C_b)
 GlobalPass
 $$
 
-when \(C_b\) is load-bearing.
+when (C_b) is load-bearing.
 
 ---
 
@@ -1613,7 +1609,7 @@ GlobalCommit
 Pass(C_i)
 $$
 
-where \(L\) is the set of load-bearing engines for the decision.
+where (L) is the set of load-bearing engines for the decision.
 
 This is **DERIVED**, not explicitly supplied by the matrix.
 
@@ -1775,7 +1771,7 @@ The artifact explicitly connects:
 
 `[[TPE_TRANG_PREDICTION_ENGINE]]`.
 
-Retrieve it for exact C08 horizon, Nash, Pareto, and \(\Omega\) semantics.
+Retrieve it for exact C08 horizon, Nash, Pareto, and (\\Omega) semantics.
 
 ---
 
@@ -2448,10 +2444,10 @@ This follows the non-compensatory fail-closed architecture as a derived model.
 
 Different engines may produce conclusions that are:
 
-* compatible;
-* conditionally compatible;
-* incomparable;
-* contradictory.
+- compatible;
+- conditionally compatible;
+- incomparable;
+- contradictory.
 
 Do not force convergence when the difference is outcome-relevant.
 
@@ -2473,12 +2469,12 @@ Neither automatically dominates the other.
 
 A discriminating decision may depend on:
 
-* solvency constraints;
-* authority;
-* horizon;
-* reversibility;
-* uncertainty;
-* regime.
+- solvency constraints;
+- authority;
+- horizon;
+- reversibility;
+- uncertainty;
+- regime.
 
 ---
 
@@ -2536,10 +2532,10 @@ These are separate dimensions.
 
 Repeated claims across:
 
-* Total Engine Matrix;
-* domain MOCs;
-* Control Plane;
-* knowledge artifacts
+- Total Engine Matrix;
+- domain MOCs;
+- Control Plane;
+- knowledge artifacts
 
 must be checked for ancestry before being counted as independent support.
 
@@ -2783,12 +2779,12 @@ updated:
 
 Any later authoritative version should trigger revalidation of:
 
-* engine identities;
-* formulas;
-* target planes;
-* fallback gates;
-* super-engine contracts;
-* runtime status.
+- engine identities;
+- formulas;
+- target planes;
+- fallback gates;
+- super-engine contracts;
+- runtime status.
 
 ---
 
@@ -2867,7 +2863,7 @@ Retrieve constitutional test definitions/results.
 
 For:
 
-> Is \(\tau<0.20\) biologically validated?
+> Is (\\tau\<0.20) biologically validated?
 
 The matrix alone is insufficient.
 
@@ -3012,65 +3008,65 @@ REPRODUCIBILITY
 This artifact MUST NOT by itself be used to claim:
 
 1. The twelve engines are independently observed runtime processes.
-2. Every domain engine has been independently empirically validated.
-3. `PASSED_CONSTITUTIONAL_TESTS` supplies the underlying test evidence.
-4. `ESTABLISHED` executable binding proves implementation without inspection.
-5. Fail-closed gating can never fail.
-6. Every fallback is implemented exactly as named.
-7. C01 formally proves all truth.
-8. \(\mathcal C,\mathcal E,\mathcal F\) are defined here.
-9. C02's \(\mathbf T\) has a specific meaning not supplied here.
-10. C02 proves all mathematical propositions.
-11. C03's energy formula is a universal law of physics.
-12. `Substrate Lock` is a physical mechanism.
-13. C04's UBI equation is clinically validated.
-14. Vagal telemetry is medically diagnostic.
-15. \(\tau\) has known units or calibration here.
-16. C05 exhaustively models human emotion.
-17. C06's `Mask_H3` is defined here.
-18. C07's collapse model is a calibrated real-world probability.
-19. C07 constitutes financial advice.
-20. C07 \(\Omega\) equals C08 \(\Omega\).
-21. TPE always finds Pareto-optimal strategies.
-22. Nash equilibrium and Pareto optimality are equivalent.
-23. C08's 0.70 threshold is empirically calibrated.
-24. Capability implies authority.
-25. C09's cryptographic warrant system is independently security-verified.
-26. `Cryptographic Warrant Veto` equals `Cryptographic Authority Gate`.
-27. Passing unit tests proves universal correctness.
-28. `Debt=0` has a fully defined metric here.
-29. C10 debt equals ASEA debt without further evidence.
-30. `Rollback Patch` is guaranteed to succeed.
-31. C11's no-placeholder rule applies universally.
-32. C12 controls physical planetary systems.
-33. `BiosphereThreshold` is numerically defined here.
-34. LDAI establishes physical determinism.
-35. FRAI tuple components may be invented from their letters.
-36. ASEA permits unrestricted self-evolution.
-37. \(\sigma\) and \(\mu\) have definitions supplied here.
-38. DCP actually emits verified bytecode without implementation evidence.
-39. C10 \(\mu\) equals ASEA \(\mu\).
-40. C01–C12 numbering establishes execution order.
-41. Target plane means exclusive plane.
-42. Shared target plane means identical engine.
-43. Shared symbols imply shared semantics.
-44. Shared formulas imply common provenance independence.
-45. Multiple corpus artifacts equal independent confirmation.
-46. Cross-plane routing proves causation.
-47. Mathematical consistency proves physical truth.
-48. Strategy optimality overrides governance.
-49. Technical capability overrides authority.
-50. One engine's strong output may compensate for violation of a hard invariant.
-51. Every cross-engine operation is automatically atomic.
-52. Every engine is operationally independent.
-53. The matrix is exhaustive of every specialized engine in the entire corpus beyond the stated scope.
-54. Source-grounded canon status equals external empirical truth.
-55. A source test-status field equals independently reproduced testing.
-56. A runtime status field equals observed runtime behavior.
-57. Cosmological modeling grants cosmological control.
-58. Biological modeling grants medical authority.
-59. Financial modeling grants predictive certainty.
-60. Governance modeling grants legal authority outside its defined scope.
+1. Every domain engine has been independently empirically validated.
+1. `PASSED_CONSTITUTIONAL_TESTS` supplies the underlying test evidence.
+1. `ESTABLISHED` executable binding proves implementation without inspection.
+1. Fail-closed gating can never fail.
+1. Every fallback is implemented exactly as named.
+1. C01 formally proves all truth.
+1. (\\mathcal C,\\mathcal E,\\mathcal F) are defined here.
+1. C02's (\\mathbf T) has a specific meaning not supplied here.
+1. C02 proves all mathematical propositions.
+1. C03's energy formula is a universal law of physics.
+1. `Substrate Lock` is a physical mechanism.
+1. C04's UBI equation is clinically validated.
+1. Vagal telemetry is medically diagnostic.
+1. (\\tau) has known units or calibration here.
+1. C05 exhaustively models human emotion.
+1. C06's `Mask_H3` is defined here.
+1. C07's collapse model is a calibrated real-world probability.
+1. C07 constitutes financial advice.
+1. C07 (\\Omega) equals C08 (\\Omega).
+1. TPE always finds Pareto-optimal strategies.
+1. Nash equilibrium and Pareto optimality are equivalent.
+1. C08's 0.70 threshold is empirically calibrated.
+1. Capability implies authority.
+1. C09's cryptographic warrant system is independently security-verified.
+1. `Cryptographic Warrant Veto` equals `Cryptographic Authority Gate`.
+1. Passing unit tests proves universal correctness.
+1. `Debt=0` has a fully defined metric here.
+1. C10 debt equals ASEA debt without further evidence.
+1. `Rollback Patch` is guaranteed to succeed.
+1. C11's no-placeholder rule applies universally.
+1. C12 controls physical planetary systems.
+1. `BiosphereThreshold` is numerically defined here.
+1. LDAI establishes physical determinism.
+1. FRAI tuple components may be invented from their letters.
+1. ASEA permits unrestricted self-evolution.
+1. (\\sigma) and (\\mu) have definitions supplied here.
+1. DCP actually emits verified bytecode without implementation evidence.
+1. C10 (\\mu) equals ASEA (\\mu).
+1. C01–C12 numbering establishes execution order.
+1. Target plane means exclusive plane.
+1. Shared target plane means identical engine.
+1. Shared symbols imply shared semantics.
+1. Shared formulas imply common provenance independence.
+1. Multiple corpus artifacts equal independent confirmation.
+1. Cross-plane routing proves causation.
+1. Mathematical consistency proves physical truth.
+1. Strategy optimality overrides governance.
+1. Technical capability overrides authority.
+1. One engine's strong output may compensate for violation of a hard invariant.
+1. Every cross-engine operation is automatically atomic.
+1. Every engine is operationally independent.
+1. The matrix is exhaustive of every specialized engine in the entire corpus beyond the stated scope.
+1. Source-grounded canon status equals external empirical truth.
+1. A source test-status field equals independently reproduced testing.
+1. A runtime status field equals observed runtime behavior.
+1. Cosmological modeling grants cosmological control.
+1. Biological modeling grants medical authority.
+1. Financial modeling grants predictive certainty.
+1. Governance modeling grants legal authority outside its defined scope.
 
 ---
 
@@ -3652,9 +3648,9 @@ The decisive integrity boundaries are:
 
 **SHARED SYMBOLS DO NOT PROVE SHARED SEMANTICS.**
 
-**C07 \(\Omega\) AND C08 \(\Omega\) MUST NOT BE EQUATED WITHOUT AUTHORITATIVE DEFINITIONS.**
+**C07 (\\Omega) AND C08 (\\Omega) MUST NOT BE EQUATED WITHOUT AUTHORITATIVE DEFINITIONS.**
 
-**C10 \(\mu\) AND ASEA \(\mu\) MUST NOT BE EQUATED WITHOUT AUTHORITATIVE DEFINITIONS.**
+**C10 (\\mu) AND ASEA (\\mu) MUST NOT BE EQUATED WITHOUT AUTHORITATIVE DEFINITIONS.**
 
 **C10 AND ASEA BOTH USE `DEBT=0`, BUT METRIC IDENTITY REQUIRES SOURCE EVIDENCE.**
 
@@ -3803,87 +3799,87 @@ runtime_enforcement: FAIL_CLOSED_GATED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
 
-* GROUNDED_BY: [[03_CONTROL_PLANE_MOC]]
+- GROUNDED_BY: [[03_CONTROL_PLANE_MOC]]
 
-* GROUNDED_BY: [[21_DOMAINS_MOC]]
+- GROUNDED_BY: [[21_DOMAINS_MOC]]
 
-* GROUNDED_BY: [[11_KNOWLEDGE_MOC]]
+- GROUNDED_BY: [[11_KNOWLEDGE_MOC]]
 
-* CONNECTS_TO: [[TOTAL_CANON_MATRIX]]
+- CONNECTS_TO: [[TOTAL_CANON_MATRIX]]
 
-* CONNECTS_TO: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- CONNECTS_TO: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
-* CONNECTS_TO: [[TSS_THE_TRANG_SYSTEM]]
+- CONNECTS_TO: [[TSS_THE_TRANG_SYSTEM]]
 
-* CONNECTS_TO: [[TPE_TRANG_PREDICTION_ENGINE]]
+- CONNECTS_TO: [[TPE_TRANG_PREDICTION_ENGINE]]
 
-* DEFINES: MASTER_ENGINE_CONVERGENCE_GRID
+- DEFINES: MASTER_ENGINE_CONVERGENCE_GRID
 
-* ROUTES: C01_META_LOGIC
+- ROUTES: C01_META_LOGIC
 
-* ROUTES: C02_MATH_COMPUTE
+- ROUTES: C02_MATH_COMPUTE
 
-* ROUTES: C03_PHYSICS_COSMOS
+- ROUTES: C03_PHYSICS_COSMOS
 
-* ROUTES: C04_BIO_NEURO
+- ROUTES: C04_BIO_NEURO
 
-* ROUTES: C05_MIND_BEHAVIOR
+- ROUTES: C05_MIND_BEHAVIOR
 
-* ROUTES: C06_SOCIETY_CULTURE
+- ROUTES: C06_SOCIETY_CULTURE
 
-* ROUTES: C07_ECON_FINANCE
+- ROUTES: C07_ECON_FINANCE
 
-* ROUTES: C08_STRATEGY_GAME
+- ROUTES: C08_STRATEGY_GAME
 
-* ROUTES: C09_ORG_LAW_POLICY
+- ROUTES: C09_ORG_LAW_POLICY
 
-* ROUTES: C10_TECH_ENGINEERING
+- ROUTES: C10_TECH_ENGINEERING
 
-* ROUTES: C11_DESIGN_LANGUAGE
+- ROUTES: C11_DESIGN_LANGUAGE
 
-* ROUTES: C12_EARTH_ECOLOGY
+- ROUTES: C12_EARTH_ECOLOGY
 
-* SPECIALIZES: LDAI
+- SPECIALIZES: LDAI
 
-* SPECIALIZES: FRAI
+- SPECIALIZES: FRAI
 
-* SPECIALIZES: ASEA
+- SPECIALIZES: ASEA
 
-* SPECIALIZES: DCP
+- SPECIALIZES: DCP
 
-* ENFORCES: FAIL_CLOSED_GATED
+- ENFORCES: FAIL_CLOSED_GATED
 
-* RELATED_TO: [[K_RSCF]]
+- RELATED_TO: [[K_RSCF]]
 
-* RELATED_TO: [[K_HML]]
+- RELATED_TO: [[K_HML]]
 
-* RELATED_TO: [[K_CANON]]
+- RELATED_TO: [[K_CANON]]
 
-* RELATED_TO: [[K_CONTROL_PLANE]]
+- RELATED_TO: [[K_CONTROL_PLANE]]
 
-* RELATED_TO: [[K_DOMAINS]]
+- RELATED_TO: [[K_DOMAINS]]
 
-* RELATED_TO: [[K_PROVENANCE]]
+- RELATED_TO: [[K_PROVENANCE]]
 
-* RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
+- RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
 
-* RELATED_TO: [[K_FAIL_CLOSED]]
+- RELATED_TO: [[K_FAIL_CLOSED]]
 
-* RELATED_TO: [[K_AUTHORITY]]
+- RELATED_TO: [[K_AUTHORITY]]
 
-* RELATED_TO: [[K_GOVERNANCE]]
+- RELATED_TO: [[K_GOVERNANCE]]
 
-* RELATED_TO: [[K_ANTI_AUTOPOISONING]]
+- RELATED_TO: [[K_ANTI_AUTOPOISONING]]
 
-* RELATED_TO: [[K_GOVERNED_EVOLUTION]]
+- RELATED_TO: [[K_GOVERNED_EVOLUTION]]
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+- LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 
 ---
 

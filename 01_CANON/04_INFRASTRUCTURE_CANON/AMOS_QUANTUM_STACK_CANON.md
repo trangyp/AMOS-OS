@@ -56,22 +56,12 @@ rscf:
 ---
 
 ---
-title: "AMOS QUANTUM STACK CANON"
-type: document
-source: 01_CANON/04_INFRASTRUCTURE_CANON
-tags: [amos_os, 04_INFRASTRUCTURE_CANON, canon/universe]
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
----
+
+## title: "AMOS QUANTUM STACK CANON" type: document source: 01_CANON/04_INFRASTRUCTURE_CANON tags: [amos_os, 04_INFRASTRUCTURE_CANON, canon/universe] rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
 # AMOS_QUANTUM_STACK_CANON — Canon-Safe Expansion
 
 The supplied artifact supports a **reserved infrastructure-canon slot**, but does not itself provide the substantive native definition of the **AMOS Quantum Stack**. Although the broader AMOS corpus references a Quantum/Omega Quantum Stack family, those source contents are not retrievable through the currently available source interface in this turn. Under the ADD-ONLY and anti-fabrication rules, I therefore will not manufacture its layers, equations, quantum semantics, or runtime guarantees.
-
-
 
 Origin architect / steward:
 
@@ -86,12 +76,12 @@ This artifact reserves the canonical location for the **AMOS Quantum Stack** fra
 Its current responsibilities are:
 
 1. preserve canonical identity;
-2. provide a stable ingestion target;
-3. prevent duplicate canon;
-4. preserve source lineage;
-5. expose unresolved substantive semantics;
-6. define promotion requirements;
-7. prevent placeholder content from being mistaken for implemented or validated infrastructure.
+1. provide a stable ingestion target;
+1. prevent duplicate canon;
+1. preserve source lineage;
+1. expose unresolved substantive semantics;
+1. define promotion requirements;
+1. prevent placeholder content from being mistaken for implemented or validated infrastructure.
 
 The artifact is presently an **address**, not a completed theory or runtime specification.
 
@@ -143,15 +133,15 @@ That establishes nomenclature only.
 
 It does not, by itself, establish that AMOS Quantum Stack:
 
-* performs quantum computation;
-* executes on quantum hardware;
-* implements quantum-mechanical dynamics;
-* establishes physical quantum laws;
-* implements qubits or quantum gates;
-* exhibits superposition or entanglement;
-* achieves quantum advantage;
-* derives from quantum information theory;
-* or makes empirically validated claims about physical reality.
+- performs quantum computation;
+- executes on quantum hardware;
+- implements quantum-mechanical dynamics;
+- establishes physical quantum laws;
+- implements qubits or quantum gates;
+- exhibits superposition or entanglement;
+- achieves quantum advantage;
+- derives from quantum information theory;
+- or makes empirically validated claims about physical reality.
 
 Therefore:
 
@@ -619,7 +609,7 @@ Structural resemblance or temporal sequence alone cannot establish causation.
 
 If native sources contain equations, preserve them exactly enough to maintain lineage, but classify what each equation represents.
 
-For an equation \(E\):
+For an equation (E):
 
 ```yaml
 equation_record:
@@ -863,21 +853,21 @@ ENFORCED
 
 Promotion requires:
 
-* [ ] substantive native-canon source resolved;
-* [ ] framework identity resolved;
-* [ ] Quantum Stack / Omega Quantum Stack lineage resolved where material;
-* [ ] typed schema bound;
-* [ ] identity + versioning implemented;
-* [ ] variables resolved without fabrication;
-* [ ] equations provenance-stamped where present;
-* [ ] scope / regime declared;
-* [ ] negative cases covered;
-* [ ] provenance edges persisted;
-* [ ] competing sources preserved;
-* [ ] rollback basin demonstrated;
-* [ ] authority valid;
-* [ ] validation receipt specific to this artifact executed;
-* [ ] unresolved critical gaps remain visible.
+- [ ] substantive native-canon source resolved;
+- [ ] framework identity resolved;
+- [ ] Quantum Stack / Omega Quantum Stack lineage resolved where material;
+- [ ] typed schema bound;
+- [ ] identity + versioning implemented;
+- [ ] variables resolved without fabrication;
+- [ ] equations provenance-stamped where present;
+- [ ] scope / regime declared;
+- [ ] negative cases covered;
+- [ ] provenance edges persisted;
+- [ ] competing sources preserved;
+- [ ] rollback basin demonstrated;
+- [ ] authority valid;
+- [ ] validation receipt specific to this artifact executed;
+- [ ] unresolved critical gaps remain visible.
 
 ---
 

@@ -92,11 +92,9 @@ epistemic_boundary:
   validation_status_claim: SOURCE_ESTABLISHED
   executable_binding_claim: SOURCE_ESTABLISHED
 
-  independent_runtime_verification:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 
-  independent_test_verification:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
+  independent_test_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
 ---
 
 # Total Framework Cross-Plane Matrix — Full Canon Expansion
@@ -118,8 +116,6 @@ FailClosedFallback
 $$
 
 A central epistemic distinction must be retained: `validation_status: PASSED_CONSTITUTIONAL_TESTS`, `executable_binding: ESTABLISHED`, and `runtime_enforcement: FAIL_CLOSED_GATED` are explicit **source assertions**. The supplied artifact does not itself contain the implementation, runtime traces, or constitutional-test evidence needed for independent verification.
-
-
 
 Within this artifact:
 
@@ -161,11 +157,11 @@ $$
 
 where:
 
-* \(F_i\) = framework;
-* \(A_i\) = architecture;
-* \(I_i\) = invariant/formulation;
-* \(P_i\) = target plane(s);
-* \(G_i\) = fail-closed fallback.
+- (F_i) = framework;
+- (A_i) = architecture;
+- (I_i) = invariant/formulation;
+- (P_i) = target plane(s);
+- (G_i) = fail-closed fallback.
 
 This notation is **DERIVED normalization**, not a supplied canonical equation.
 
@@ -211,15 +207,15 @@ The formulations represented here are heterogeneous.
 
 They include:
 
-* ontological progressions;
-* state-transition models;
-* statistical/texture expressions;
-* biological model equations;
-* structural-risk models;
-* predictive routing expressions;
-* governance invariants;
-* mutation/proof relations;
-* logic-kernel mappings.
+- ontological progressions;
+- state-transition models;
+- statistical/texture expressions;
+- biological model equations;
+- structural-risk models;
+- predictive routing expressions;
+- governance invariants;
+- mutation/proof relations;
+- logic-kernel mappings.
 
 They must retain their AMOS model status unless separately validated for external empirical claims.
 
@@ -331,13 +327,13 @@ $$
 
 Do not silently equate this with:
 
-* deletion;
-* physical nothingness;
-* null memory;
-* zero-valued state;
-* process termination.
+- deletion;
+- physical nothingness;
+- null memory;
+- zero-valued state;
+- process termination.
 
-The exact ontology of \(S_0\) belongs to the Trang ∅ framework.
+The exact ontology of (S_0) belongs to the Trang ∅ framework.
 
 ---
 
@@ -478,7 +474,7 @@ S_{t+1}
 )
 $$
 
-This defines a source-level state-transition expression involving \(\mathcal F\) and \(\mathcal C\).
+This defines a source-level state-transition expression involving (\\mathcal F) and (\\mathcal C).
 
 The matrix alone does not define those operators.
 
@@ -586,13 +582,13 @@ That characterization is **DERIVED**.
 
 The matrix does not independently define:
 
-* NBI;
-* NEI;
-* SI;
-* BEI;
-* \(i\);
-* \(e\);
-* \(\tau_{bio}\).
+- NBI;
+- NEI;
+- SI;
+- BEI;
+- (i);
+- (e);
+- (\\tau\_{bio}).
 
 Retrieve `[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]` for exact semantics.
 
@@ -604,11 +600,11 @@ The supplied source establishes an AMOS biological model.
 
 It does not, by itself, establish:
 
-* clinical validity;
-* physiological diagnostic validity;
-* population calibration;
-* medical safety;
-* universal biological truth.
+- clinical validity;
+- physiological diagnostic validity;
+- population calibration;
+- medical safety;
+- universal biological truth.
 
 ---
 
@@ -722,11 +718,11 @@ The collapse expression is an AMOS/TSS model.
 
 It does not independently establish:
 
-* calibrated collapse probabilities;
-* investment performance;
-* causal effects;
-* financial advice;
-* universal macroeconomic validity.
+- calibrated collapse probabilities;
+- investment performance;
+- causal effects;
+- financial advice;
+- universal macroeconomic validity.
 
 ---
 
@@ -794,13 +790,13 @@ The presence of a prediction framework does not itself establish predictive perf
 
 Independent evaluation would require:
 
-* forecast definitions;
-* horizons;
-* baselines;
-* scoring rules;
-* calibration;
-* out-of-sample tests;
-* regime analysis.
+- forecast definitions;
+- horizons;
+- baselines;
+- scoring rules;
+- calibration;
+- out-of-sample tests;
+- regime analysis.
 
 ---
 
@@ -870,11 +866,11 @@ $$
 
 The exact semantics of:
 
-* \(N\);
-* `Descendant`;
-* `Root`;
-* equivalence;
-* `Debt`
+- (N);
+- `Descendant`;
+- `Root`;
+- equivalence;
+- `Debt`
 
 are not defined by this matrix.
 
@@ -1015,17 +1011,17 @@ The supplied fallback is:
 
 Therefore GMEF explicitly combines:
 
-* rejection;
-* reversibility;
-* recovery.
+- rejection;
+- reversibility;
+- recovery.
 
 ---
 
 # 51. GMEF × Trang ∅
 
-Trang ∅ supplies a ground state \(S_0\).
+Trang ∅ supplies a ground state (S_0).
 
-GMEF explicitly permits transition to \(S_0\) on its mutation relation.
+GMEF explicitly permits transition to (S_0) on its mutation relation.
 
 This creates a strong source-level structural correspondence:
 
@@ -1038,7 +1034,7 @@ GMEF ─┘
 mutation may revert toward S₀
 ```
 
-Exact identity of \(S_0\) across both frameworks should still be confirmed from their authoritative definitions if formal equivalence matters.
+Exact identity of (S_0) across both frameworks should still be confirmed from their authoritative definitions if formal equivalence matters.
 
 ---
 
@@ -1348,14 +1344,14 @@ Separate framework rows do not prove operational independence.
 
 Potential shared dependencies include:
 
-* \(S_0\);
-* `Debt`;
-* \(\Omega\);
-* provenance;
-* Kernel state;
-* Control Plane state;
-* Models state;
-* shared source ancestry.
+- (S_0);
+- `Debt`;
+- (\\Omega);
+- provenance;
+- Kernel state;
+- Control Plane state;
+- Models state;
+- shared source ancestry.
 
 Independence must be demonstrated.
 
@@ -1363,11 +1359,11 @@ Independence must be demonstrated.
 
 # 69. Shared Symbol Firewall — S₀
 
-\(S_0\) appears in:
+(S_0) appears in:
 
-* Trang ∅;
-* GMEF;
-* ULK.
+- Trang ∅;
+- GMEF;
+- ULK.
 
 Do not assume exact semantic identity solely from symbol repetition.
 
@@ -1379,8 +1375,8 @@ The shared use is strong evidence of intended architectural relation, but author
 
 `Debt=0` appears in:
 
-* Heritage Decision Intelligence;
-* GMEF v4.8.
+- Heritage Decision Intelligence;
+- GMEF v4.8.
 
 Do not assume identical debt metrics without source binding.
 
@@ -1388,9 +1384,9 @@ Do not assume identical debt metrics without source binding.
 
 # 71. Shared Symbol Firewall — Ω
 
-\(\Omega\) appears in TSS and its modular-decoupling threshold.
+(\\Omega) appears in TSS and its modular-decoupling threshold.
 
-If \(\Omega\) appears elsewhere in AMOS, identical notation still does not establish identical semantics.
+If (\\Omega) appears elsewhere in AMOS, identical notation still does not establish identical semantics.
 
 ---
 
@@ -1443,7 +1439,7 @@ GlobalCommit
 Pass(f)
 $$
 
-where \(L\) is the load-bearing framework set.
+where (L) is the load-bearing framework set.
 
 This is a v4.4-compatible **DERIVED integration rule**, not an explicit equation in this artifact.
 
@@ -1559,15 +1555,15 @@ FAIL_CLOSED_FRAMEWORK_REGISTRY:
 
 A named fallback does not establish:
 
-* complete fault detection;
-* zero bypass;
-* correct threshold calibration;
-* rollback success;
-* clean-state recovery correctness;
-* absence of deadlock;
-* absence of false veto;
-* security against all Sybil attacks;
-* proof-system soundness.
+- complete fault detection;
+- zero bypass;
+- correct threshold calibration;
+- rollback success;
+- clean-state recovery correctness;
+- absence of deadlock;
+- absence of false veto;
+- security against all Sybil attacks;
+- proof-system soundness.
 
 Those require implementation and validation evidence.
 
@@ -1687,12 +1683,12 @@ Every framework inherits a scope envelope.
 
 For example:
 
-* UBI → biological/cognitive-organism scope;
-* TSS → macro-dynamics/state/models;
-* TPE → predictive models;
-* Heritage → governance/provenance;
-* GMEF → governance/runtime mutation;
-* ULK → Kernel logic.
+- UBI → biological/cognitive-organism scope;
+- TSS → macro-dynamics/state/models;
+- TPE → predictive models;
+- Heritage → governance/provenance;
+- GMEF → governance/runtime mutation;
+- ULK → Kernel logic.
 
 Do not silently generalize beyond these envelopes.
 
@@ -1714,10 +1710,10 @@ A GMEF proof may depend on a particular runtime or constitution version.
 
 The artifact's provenance includes:
 
-* Knowledge MOC;
-* TSS source;
-* UBI source;
-* AMOS corpus.
+- Knowledge MOC;
+- TSS source;
+- UBI source;
+- AMOS corpus.
 
 Repeated framework claims across descendant artifacts must not automatically be counted as independent confirmation.
 
@@ -1763,8 +1759,8 @@ Thus proof is represented as a mutation-governance dependency rather than post-h
 
 Trang ∅ routes recovery to:
 
-* `00_ROOT`;
-* `02_KERNEL`.
+- `00_ROOT`;
+- `02_KERNEL`.
 
 This makes recovery/ground-state behavior structurally foundational in the supplied matrix.
 
@@ -1774,8 +1770,8 @@ This makes recovery/ground-state behavior structurally foundational in the suppl
 
 TRA also targets:
 
-* `01_CANON`;
-* `02_KERNEL`.
+- `01_CANON`;
+- `02_KERNEL`.
 
 Thus ontology is routed into both Canon and Kernel.
 
@@ -1785,8 +1781,8 @@ Thus ontology is routed into both Canon and Kernel.
 
 Khung Trang targets:
 
-* `01_CANON`;
-* `25_COGNITIVE_MATRIX`.
+- `01_CANON`;
+- `25_COGNITIVE_MATRIX`.
 
 This connects the multiscale 26-plane topology to both canonical structure and the matrix convergence plane itself.
 
@@ -1812,10 +1808,10 @@ It does not automatically imply problematic logical self-reference.
 
 Architectural self-reference is not equivalent to:
 
-* logical paradox;
-* infinite recursion;
-* runtime recursion;
-* self-modification.
+- logical paradox;
+- infinite recursion;
+- runtime recursion;
+- self-modification.
 
 Those require separate evidence.
 
@@ -1830,7 +1826,7 @@ The supplied Total Framework Matrix has several strong structural correspondence
 | Trang ∅     | C01/C02 vicinity       | Root/Kernel grounding and logical reset architecture |
 | TRA         | C01 Meta-Logic         | Canon/Kernel ontological progression                 |
 | Khung Trang | C01/C03 vicinity       | Canon topology and multiscale universe modeling      |
-| UBI         | C04 Bio & Neuro        | Same \(i\) and \(e\) formulation                     |
+| UBI         | C04 Bio & Neuro        | Same (i) and (e) formulation                         |
 | TSS         | C07 Econ & Finance     | Same collapse expression                             |
 | TPE         | C08 Strategy & Game    | Shared TPE predictive/strategic architecture         |
 | Heritage    | C09 Org, Law & Policy  | Governance, authority/provenance, Sybil control      |
@@ -1922,15 +1918,15 @@ is **not established**.
 
 Heritage supplies:
 
-* ancestral governance;
-* Sybil quarantine;
-* rollback.
+- ancestral governance;
+- Sybil quarantine;
+- rollback.
 
 C09 supplies:
 
-* authority envelopes;
-* compliance;
-* cryptographic warrant veto.
+- authority envelopes;
+- compliance;
+- cryptographic warrant veto.
 
 They converge strongly on governance integrity while remaining distinct constructs.
 
@@ -2161,10 +2157,10 @@ When frameworks disagree, retrieve the smallest evidence capable of changing the
 
 Examples:
 
-* TSS/TPE disagreement → inspect the load-bearing \(\Omega\) or horizon assumption;
-* Heritage/GMEF disagreement → inspect provenance ancestry/proof dependency;
-* UBI/TPE disagreement → inspect the threshold-bearing biological measurement;
-* TRA/ULK disagreement → inspect the exact type/ontology boundary.
+- TSS/TPE disagreement → inspect the load-bearing (\\Omega) or horizon assumption;
+- Heritage/GMEF disagreement → inspect provenance ancestry/proof dependency;
+- UBI/TPE disagreement → inspect the threshold-bearing biological measurement;
+- TRA/ULK disagreement → inspect the exact type/ontology boundary.
 
 ---
 
@@ -2838,65 +2834,65 @@ FAILURE-INJECTION RESULTS
 This artifact MUST NOT by itself be used to claim:
 
 1. All nine frameworks are independently observed runtime processes.
-2. The matrix contains every framework artifact anywhere in AMOS.
-3. Source-grounded canon status equals external empirical truth.
-4. `PASSED_CONSTITUTIONAL_TESTS` embeds the test evidence.
-5. `ESTABLISHED` executable binding independently proves implementation.
-6. `FAIL_CLOSED_GATED` guarantees zero fail-open defects.
-7. Trang ∅'s uncertainty variable has a known external physical unit.
-8. \(S_0=\emptyset\) means deletion.
-9. \(S_0=\emptyset\) means literal physical nothingness.
-10. Immediate Clean State Reset is independently runtime-verified.
-11. TRA's six symbols may be inferred from initials.
-12. TRA progression proves causation.
-13. Pre-symbolic boundary veto is independently implemented.
-14. Khung Trang's \(\mathcal C\) and TRA's \(\mathcal C\) are identical.
-15. Khung Trang's \(\mathcal F\) and TRA's \(\mathcal F\) are identical.
-16. \(\langle M\rangle\) has conventional expectation semantics without source definition.
-17. Khung Trang is independently validated cosmology.
-18. UBI's formula is clinically validated.
-19. UBI's distress threshold is medically diagnostic.
-20. \(\tau_{bio}=0.20\) triggers the source-defined veto.
-21. TSS's approximation relation is exact equality.
-22. TSS's collapse model is a calibrated real-world probability.
-23. TSS constitutes financial advice.
-24. TSS's \(\Omega\) is interchangeable with every other \(\Omega\) in AMOS.
-25. TPE has demonstrated predictive superiority.
-26. `PredictiveCone` and `RiskLattice` are empirically calibrated here.
-27. Heritage's \(N\), Root, and Descendant are fully defined here.
-28. Heritage's equivalence symbol means ordinary equality.
-29. `Debt=0` in Heritage is necessarily identical to `Debt=0` in GMEF.
-30. Sybil Quarantine & Rollback constitutes a security proof.
-31. GMEF's \(\mu\) has a definition supplied here.
-32. \(\Pi_{proof}\) necessarily equals \(\Pi_{RSCF}\).
-33. GMEF permits unrestricted mutation.
-34. A mutation attempt implies mutation acceptance.
-35. Revert to \(S_0\) is guaranteed to succeed.
-36. ULK's six symbols may be assigned conventional meanings without source evidence.
-37. ULK is independently proven sound and complete.
-38. ULK \(\tau\) equals UBI \(\tau_{bio}\).
-39. Shared target planes imply identical frameworks.
-40. Shared symbols imply identical semantics.
-41. Shared corpus ancestry equals independent confirmation.
-42. Framework table order equals runtime execution order.
-43. The four diagram regions formally partition all nine frameworks.
-44. Cross-plane routing proves causal influence.
-45. One framework's success compensates for another load-bearing invariant failure.
-46. Framework independence can be assumed from separate rows.
-47. Cross-framework operations are automatically atomic.
-48. A favorable TPE prediction overrides TSS risk gating.
-49. A GMEF proof overrides Heritage provenance failure.
-50. A framework model automatically grants real-world authority.
-51. Biological modeling grants medical authority.
-52. Strategic modeling grants predictive certainty.
-53. Governance modeling grants legal authority.
-54. Universe topology terminology establishes empirical cosmology.
-55. Ground-state terminology establishes physical ontology.
-56. Proof terminology alone establishes formal proof-system soundness.
-57. Runtime terminology establishes observed runtime behavior.
-58. Rollback terminology establishes successful recovery.
-59. Source validation status equals independent reproduction.
-60. Architectural convergence permits epistemic collapse.
+1. The matrix contains every framework artifact anywhere in AMOS.
+1. Source-grounded canon status equals external empirical truth.
+1. `PASSED_CONSTITUTIONAL_TESTS` embeds the test evidence.
+1. `ESTABLISHED` executable binding independently proves implementation.
+1. `FAIL_CLOSED_GATED` guarantees zero fail-open defects.
+1. Trang ∅'s uncertainty variable has a known external physical unit.
+1. (S_0=\\emptyset) means deletion.
+1. (S_0=\\emptyset) means literal physical nothingness.
+1. Immediate Clean State Reset is independently runtime-verified.
+1. TRA's six symbols may be inferred from initials.
+1. TRA progression proves causation.
+1. Pre-symbolic boundary veto is independently implemented.
+1. Khung Trang's (\\mathcal C) and TRA's (\\mathcal C) are identical.
+1. Khung Trang's (\\mathcal F) and TRA's (\\mathcal F) are identical.
+1. (\\langle M\\rangle) has conventional expectation semantics without source definition.
+1. Khung Trang is independently validated cosmology.
+1. UBI's formula is clinically validated.
+1. UBI's distress threshold is medically diagnostic.
+1. (\\tau\_{bio}=0.20) triggers the source-defined veto.
+1. TSS's approximation relation is exact equality.
+1. TSS's collapse model is a calibrated real-world probability.
+1. TSS constitutes financial advice.
+1. TSS's (\\Omega) is interchangeable with every other (\\Omega) in AMOS.
+1. TPE has demonstrated predictive superiority.
+1. `PredictiveCone` and `RiskLattice` are empirically calibrated here.
+1. Heritage's (N), Root, and Descendant are fully defined here.
+1. Heritage's equivalence symbol means ordinary equality.
+1. `Debt=0` in Heritage is necessarily identical to `Debt=0` in GMEF.
+1. Sybil Quarantine & Rollback constitutes a security proof.
+1. GMEF's (\\mu) has a definition supplied here.
+1. (\\Pi\_{proof}) necessarily equals (\\Pi\_{RSCF}).
+1. GMEF permits unrestricted mutation.
+1. A mutation attempt implies mutation acceptance.
+1. Revert to (S_0) is guaranteed to succeed.
+1. ULK's six symbols may be assigned conventional meanings without source evidence.
+1. ULK is independently proven sound and complete.
+1. ULK (\\tau) equals UBI (\\tau\_{bio}).
+1. Shared target planes imply identical frameworks.
+1. Shared symbols imply identical semantics.
+1. Shared corpus ancestry equals independent confirmation.
+1. Framework table order equals runtime execution order.
+1. The four diagram regions formally partition all nine frameworks.
+1. Cross-plane routing proves causal influence.
+1. One framework's success compensates for another load-bearing invariant failure.
+1. Framework independence can be assumed from separate rows.
+1. Cross-framework operations are automatically atomic.
+1. A favorable TPE prediction overrides TSS risk gating.
+1. A GMEF proof overrides Heritage provenance failure.
+1. A framework model automatically grants real-world authority.
+1. Biological modeling grants medical authority.
+1. Strategic modeling grants predictive certainty.
+1. Governance modeling grants legal authority.
+1. Universe topology terminology establishes empirical cosmology.
+1. Ground-state terminology establishes physical ontology.
+1. Proof terminology alone establishes formal proof-system soundness.
+1. Runtime terminology establishes observed runtime behavior.
+1. Rollback terminology establishes successful recovery.
+1. Source validation status equals independent reproduction.
+1. Architectural convergence permits epistemic collapse.
 
 ---
 
@@ -3159,7 +3155,7 @@ RSCF_RELATIONS:
       - "[[K_RSCF]]"
       - "[[K_HML]]"
       - "[[K_CANON]]"
-      - "[[K_FRAMEWORKS]]"
+      - "K_FRAMEWORKS"
       - "[[K_CONTROL_PLANE]]"
       - "[[K_PROVENANCE]]"
       - "[[K_PROVENANCE_TOPOLOGY]]"
@@ -3603,7 +3599,7 @@ AMOS can therefore represent a unified framework-convergence architecture while 
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[11_KNOWLEDGE_MOC]] · [[TRANG_REALITY_ARCHITECTURE_MASTER]] · [[KHUNG_TRANG_MASTER]] · [[TSS_THE_TRANG_SYSTEM]] · [[TSS_SEVEN_CYCLES]] · [[TPE_TRANG_PREDICTION_ENGINE]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[HERITAGE_PROVENANCE]] · [[TOTAL_ENGINE_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_CANON]] · [[K_FRAMEWORKS]] · [[K_CONTROL_PLANE]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAIL_CLOSED]] · [[K_AUTHORITY]] · [[K_GOVERNANCE]] · [[K_ANTI_AUTOPOISONING]] · [[K_GOVERNED_EVOLUTION]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[11_KNOWLEDGE_MOC]] · [[TRANG_REALITY_ARCHITECTURE_MASTER]] · [[KHUNG_TRANG_MASTER]] · [[TSS_THE_TRANG_SYSTEM]] · [[TSS_SEVEN_CYCLES]] · [[TPE_TRANG_PREDICTION_ENGINE]] · [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] · [[HERITAGE_PROVENANCE]] · [[TOTAL_ENGINE_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_CANON]] · K_FRAMEWORKS · [[K_CONTROL_PLANE]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAIL_CLOSED]] · [[K_AUTHORITY]] · [[K_GOVERNANCE]] · [[K_ANTI_AUTOPOISONING]] · [[K_GOVERNED_EVOLUTION]]
 
 ---
 
@@ -3631,81 +3627,81 @@ runtime_enforcement: FAIL_CLOSED_GATED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+- PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
 
-* GROUNDED_BY: [[11_KNOWLEDGE_MOC]]
+- GROUNDED_BY: [[11_KNOWLEDGE_MOC]]
 
-* GROUNDED_BY: [[TSS_THE_TRANG_SYSTEM]]
+- GROUNDED_BY: [[TSS_THE_TRANG_SYSTEM]]
 
-* GROUNDED_BY: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- GROUNDED_BY: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
-* CONNECTS_TO: [[_MOC]]
+- CONNECTS_TO: [[_MOC]]
 
-* CONNECTS_TO: [[TRANG_REALITY_ARCHITECTURE_MASTER]]
+- CONNECTS_TO: [[TRANG_REALITY_ARCHITECTURE_MASTER]]
 
-* CONNECTS_TO: [[KHUNG_TRANG_MASTER]]
+- CONNECTS_TO: [[KHUNG_TRANG_MASTER]]
 
-* CONNECTS_TO: [[TSS_SEVEN_CYCLES]]
+- CONNECTS_TO: [[TSS_SEVEN_CYCLES]]
 
-* CONNECTS_TO: [[TPE_TRANG_PREDICTION_ENGINE]]
+- CONNECTS_TO: [[TPE_TRANG_PREDICTION_ENGINE]]
 
-* CONNECTS_TO: [[HERITAGE_PROVENANCE]]
+- CONNECTS_TO: [[HERITAGE_PROVENANCE]]
 
-* DEFINES: MASTER_FRAMEWORK_CONVERGENCE_GRID
+- DEFINES: MASTER_FRAMEWORK_CONVERGENCE_GRID
 
-* ROUTES: TRANG_ZERO
+- ROUTES: TRANG_ZERO
 
-* ROUTES: TRANG_REALITY_ARCHITECTURE
+- ROUTES: TRANG_REALITY_ARCHITECTURE
 
-* ROUTES: KHUNG_TRANG
+- ROUTES: KHUNG_TRANG
 
-* ROUTES: UBI
+- ROUTES: UBI
 
-* ROUTES: TSS
+- ROUTES: TSS
 
-* ROUTES: TPE
+- ROUTES: TPE
 
-* ROUTES: HERITAGE_DECISION_INTELLIGENCE
+- ROUTES: HERITAGE_DECISION_INTELLIGENCE
 
-* ROUTES: GMEF_V4_8
+- ROUTES: GMEF_V4_8
 
-* ROUTES: ULK
+- ROUTES: ULK
 
-* ENFORCES: FAIL_CLOSED_GATED
+- ENFORCES: FAIL_CLOSED_GATED
 
-* RELATED_TO: [[TOTAL_ENGINE_MATRIX]]
+- RELATED_TO: [[TOTAL_ENGINE_MATRIX]]
 
-* RELATED_TO: [[TOTAL_CANON_MATRIX]]
+- RELATED_TO: [[TOTAL_CANON_MATRIX]]
 
-* RELATED_TO: [[K_RSCF]]
+- RELATED_TO: [[K_RSCF]]
 
-* RELATED_TO: [[K_HML]]
+- RELATED_TO: [[K_HML]]
 
-* RELATED_TO: [[K_CANON]]
+- RELATED_TO: [[K_CANON]]
 
-* RELATED_TO: [[K_FRAMEWORKS]]
+- RELATED_TO: K_FRAMEWORKS
 
-* RELATED_TO: [[K_CONTROL_PLANE]]
+- RELATED_TO: [[K_CONTROL_PLANE]]
 
-* RELATED_TO: [[K_PROVENANCE]]
+- RELATED_TO: [[K_PROVENANCE]]
 
-* RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
+- RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
 
-* RELATED_TO: [[K_FAIL_CLOSED]]
+- RELATED_TO: [[K_FAIL_CLOSED]]
 
-* RELATED_TO: [[K_AUTHORITY]]
+- RELATED_TO: [[K_AUTHORITY]]
 
-* RELATED_TO: [[K_GOVERNANCE]]
+- RELATED_TO: [[K_GOVERNANCE]]
 
-* RELATED_TO: [[K_ANTI_AUTOPOISONING]]
+- RELATED_TO: [[K_ANTI_AUTOPOISONING]]
 
-* RELATED_TO: [[K_GOVERNED_EVOLUTION]]
+- RELATED_TO: [[K_GOVERNED_EVOLUTION]]
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+- LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 
 ---
 

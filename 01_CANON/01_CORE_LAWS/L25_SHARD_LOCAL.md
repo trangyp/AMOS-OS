@@ -40,9 +40,9 @@ rscf:
 
 # L25 Shard-Local Law
 
-**STATUS:** PROPOSED_SPECIFICATION  
-**epistemic_class:** AMOS_MODEL  
-**canonical_status:** CONDITIONAL  
+**STATUS:** PROPOSED_SPECIFICATION\
+**epistemic_class:** AMOS_MODEL\
+**canonical_status:** CONDITIONAL\
 **updated:** 2026-08-26
 
 ---
@@ -380,13 +380,13 @@ UNVALIDATED
 
 A shard-local decision can still require:
 
-* local evidence,
-* local invariants,
-* local authorization,
-* provenance,
-* version checks,
-* causal validity,
-* or other governing constraints.
+- local evidence,
+- local invariants,
+- local authorization,
+- provenance,
+- version checks,
+- causal validity,
+- or other governing constraints.
 
 L25 only removes the requirement for **global consensus** when the fact is genuinely local.
 
@@ -813,15 +813,15 @@ coordination
 
 but does not define:
 
-* consensus algorithm,
-* quorum size,
-* transaction protocol,
-* message ordering,
-* lock protocol,
-* leader election,
-* commit protocol,
-* proof exchange,
-* synchronization mechanism.
+- consensus algorithm,
+- quorum size,
+- transaction protocol,
+- message ordering,
+- lock protocol,
+- leader election,
+- commit protocol,
+- proof exchange,
+- synchronization mechanism.
 
 Therefore:
 
@@ -1204,15 +1204,15 @@ shard interfaces
 
 but does not define whether an interface is:
 
-* an API,
-* schema,
-* contract document,
-* type boundary,
-* proof boundary,
-* message protocol,
-* ownership declaration,
-* RSCF relation,
-* or another structure.
+- an API,
+- schema,
+- contract document,
+- type boundary,
+- proof boundary,
+- message protocol,
+- ownership declaration,
+- RSCF relation,
+- or another structure.
 
 Exact representation remains unspecified.
 
@@ -1627,18 +1627,18 @@ but does not define the protocol family.
 
 It does not establish:
 
-* CRDT semantics,
-* three-way merge,
-* operational transformation,
-* vector clocks,
-* Lamport clocks,
-* causal trees,
-* consensus,
-* human arbitration,
-* deterministic tie-breaking,
-* rejection,
-* rollback,
-* custom semantic merge.
+- CRDT semantics,
+- three-way merge,
+- operational transformation,
+- vector clocks,
+- Lamport clocks,
+- causal trees,
+- consensus,
+- human arbitration,
+- deterministic tie-breaking,
+- rejection,
+- rollback,
+- custom semantic merge.
 
 These remain unspecified.
 
@@ -1984,11 +1984,11 @@ FINALIZATION
 
 SL-4 is related but does not define:
 
-* when a shard history becomes final,
-* whether final histories can merge,
-* rollback after finality,
-* cross-shard finality,
-* proof of finality.
+- when a shard history becomes final,
+- whether final histories can merge,
+- rollback after finality,
+- cross-shard finality,
+- proof of finality.
 
 These remain outside direct L25 support.
 
@@ -3396,16 +3396,16 @@ L25 is an AMOS model-level specification.
 
 It must not be represented as proof that ChatGPT literally implements:
 
-* data shards,
-* distributed consensus,
-* quorum systems,
-* replicated state machines,
-* cross-shard transactions,
-* CRDTs,
-* vector clocks,
-* CAS loops,
-* shard finalization,
-* or distributed merge engines.
+- data shards,
+- distributed consensus,
+- quorum systems,
+- replicated state machines,
+- cross-shard transactions,
+- CRDTs,
+- vector clocks,
+- CAS loops,
+- shard finalization,
+- or distributed merge engines.
 
 Those require independent implementation evidence.
 
@@ -3453,43 +3453,43 @@ These are SOURCE_CLAIM statements about the supplied AMOS corpus note.
 
 The supplied L25 note does **not** establish:
 
-* formal shard construction,
-* shard ownership rules,
-* shard key design,
-* physical vs logical sharding,
-* exact locality predicate,
-* dependency-closure algorithm,
-* exact meaning of global consensus,
-* exact coordination protocol,
-* consensus algorithm,
-* quorum semantics,
-* leader election,
-* transaction protocol,
-* cross-shard commit protocol,
-* message ordering,
-* locking,
-* global broadcast requirements,
-* centralized authority,
-* boundary-contract schema,
-* boundary-contract versioning,
-* boundary-contract authority,
-* contract conflict resolution,
-* default classification for undeclared facts,
-* concurrency detection algorithm,
-* causal clock semantics,
-* vector clocks,
-* Lamport clocks,
-* CRDTs,
-* operational transformation,
-* exact merge algorithm,
-* exact conflict-resolution protocol,
-* whether LWW is allowed when explicitly declared,
-* shard-local finality,
-* causal epoch finality,
-* rollback semantics,
-* proof-based coordination avoidance mechanics,
-* distributed performance guarantees,
-* literal runtime implementation.
+- formal shard construction,
+- shard ownership rules,
+- shard key design,
+- physical vs logical sharding,
+- exact locality predicate,
+- dependency-closure algorithm,
+- exact meaning of global consensus,
+- exact coordination protocol,
+- consensus algorithm,
+- quorum semantics,
+- leader election,
+- transaction protocol,
+- cross-shard commit protocol,
+- message ordering,
+- locking,
+- global broadcast requirements,
+- centralized authority,
+- boundary-contract schema,
+- boundary-contract versioning,
+- boundary-contract authority,
+- contract conflict resolution,
+- default classification for undeclared facts,
+- concurrency detection algorithm,
+- causal clock semantics,
+- vector clocks,
+- Lamport clocks,
+- CRDTs,
+- operational transformation,
+- exact merge algorithm,
+- exact conflict-resolution protocol,
+- whether LWW is allowed when explicitly declared,
+- shard-local finality,
+- causal epoch finality,
+- rollback semantics,
+- proof-based coordination avoidance mechanics,
+- distributed performance guarantees,
+- literal runtime implementation.
 
 These remain MODEL or UNKNOWN/GAP.
 
@@ -4434,7 +4434,7 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[L24_CAUSAL_EPOCH]]
 
-  - RELATED_TO: [[BOUNDARY_CONTRACTS]]
+  - RELATED_TO: BOUNDARY_CONTRACTS
 
   - RELATED_TO: [[PROVENANCE_TOPOLOGY]]
 

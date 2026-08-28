@@ -5,6 +5,23 @@ source: 01_CANON/02_UNIVERSE_CANON
 tags: [ust, structure_tree, universe_canon]
 ---
 
+
 # UST Structure Tree
 
-Hierarchical universal state tree governing multi-level ontological nesting.
+## Overview
+
+The Universal Structure Tree (UST) defines the hierarchical organization of the AMOS universe canon.
+
+## Structure
+
+```text
+AMOS OS
+└── 01_CANON
+    └── 02_UNIVERSE_CANON
+        └── UST_STRUCTURE_TREE.md
+```
+
+## Related
+
+- [[02_UNIVERSE_CANON_MOC]] — Universe canon MOC
+- [[ABSOLUTE_OMNIVERSE_U_INFINITY_CANON]] — Omniverse canon

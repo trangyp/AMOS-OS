@@ -107,7 +107,7 @@ LEARNING / ADAPTATION
 
 The Full Brain OS is therefore a **systems integration model for governed cognition**, not evidence that every described subsystem is already implemented.
 
----
+______________________________________________________________________
 
 # 1. Architectural Position
 
@@ -135,7 +135,7 @@ The Full Brain OS spans and coordinates cognitive concerns across these planes.
 
 It does **not** erase their boundaries.
 
----
+______________________________________________________________________
 
 # 2. Cross-Cutting Substrates
 
@@ -163,7 +163,7 @@ FULL BRAIN
 ONE MONOLITHIC SUBSYSTEM
 ```
 
----
+______________________________________________________________________
 
 # 3. Core Identity
 
@@ -201,7 +201,7 @@ AUTHORITY
 
 constraints.
 
----
+______________________________________________________________________
 
 # 4. Hard Boundaries
 
@@ -243,7 +243,7 @@ UNKNOWN/GAP != PASS
 
 These boundaries are load-bearing.
 
----
+______________________________________________________________________
 
 # 5. Full Brain Functional Layers
 
@@ -273,7 +273,7 @@ Each M-level subsystem may recursively decompose into L-level components.
 
 Exact production decomposition must remain bound to authoritative AMOS implementation artifacts.
 
----
+______________________________________________________________________
 
 # 6. H/M/L Cognitive Decomposition
 
@@ -306,7 +306,7 @@ H/M/L provides decomposition and retrieval structure.
 
 It does not establish empirical truth.
 
----
+______________________________________________________________________
 
 # 7. Fractal Knowledge Runtime
 
@@ -334,7 +334,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 This supports efficient reasoning without weakening provenance requirements.
 
----
+______________________________________________________________________
 
 # 8. Sensing
 
@@ -362,7 +362,7 @@ INPUT RECEIVED
 INPUT VERIFIED
 ```
 
----
+______________________________________________________________________
 
 # 9. Perception
 
@@ -389,7 +389,7 @@ UNKNOWN
 
 Perception must preserve source identity where material.
 
----
+______________________________________________________________________
 
 # 10. Attention
 
@@ -420,7 +420,7 @@ and:
 SALIENCE != TRUTH
 ```
 
----
+______________________________________________________________________
 
 # 11. Context
 
@@ -440,7 +440,7 @@ DELIVERABLE
 
 Context should be parsed once where possible and reused while valid.
 
----
+______________________________________________________________________
 
 # 12. Memory Architecture
 
@@ -466,7 +466,7 @@ MEMORY != CANON
 
 A remembered statement retains its epistemic status.
 
----
+______________________________________________________________________
 
 # 13. Memory Retrieval Firewall
 
@@ -498,7 +498,7 @@ REMEMBERED
 CURRENT
 ```
 
----
+______________________________________________________________________
 
 # 14. Knowledge Architecture
 
@@ -520,7 +520,7 @@ Knowledge objects remain typed.
 
 A framework model does not become an empirical fact merely because it is stored in the knowledge plane.
 
----
+______________________________________________________________________
 
 # 15. RSCF
 
@@ -543,7 +543,7 @@ CLAIM
 
 RSCFs may recursively depend on other RSCFs.
 
----
+______________________________________________________________________
 
 # 16. Recursive Reasoning
 
@@ -561,7 +561,7 @@ RSCF-H
 
 Failure should propagate only through actual dependency edges.
 
----
+______________________________________________________________________
 
 # 17. Multi-RSCF Composition
 
@@ -579,7 +579,7 @@ COMPOSITE CONCLUSION
 
 If each is load-bearing, validity requires each required dependency to remain valid within scope and regime.
 
----
+______________________________________________________________________
 
 # 18. Proof Capsules
 
@@ -609,7 +609,7 @@ proof_capsule:
 
 Proof capsules support bounded reuse.
 
----
+______________________________________________________________________
 
 # 19. Proof Reuse
 
@@ -635,7 +635,7 @@ Otherwise:
 REVALIDATE
 ```
 
----
+______________________________________________________________________
 
 # 20. Confidence Ceiling
 
@@ -651,7 +651,7 @@ MIN(CONFIDENCE(LOAD_BEARING_PREMISES))
 
 This prevents reasoning depth from manufacturing certainty.
 
----
+______________________________________________________________________
 
 # 21. Reasoning
 
@@ -677,7 +677,7 @@ WHAT REMAINS UNKNOWN
 
 Fluent synthesis must never erase these distinctions.
 
----
+______________________________________________________________________
 
 # 22. Causal Firewall
 
@@ -714,7 +714,7 @@ CO-OCCURRENCE != CAUSATION
 ANALOGY != CAUSATION
 ```
 
----
+______________________________________________________________________
 
 # 23. Hypothesis Engine
 
@@ -731,7 +731,7 @@ H3
 
 The Full Brain should preserve genuinely competing hypotheses.
 
----
+______________________________________________________________________
 
 # 24. Competing Hypotheses
 
@@ -750,7 +750,7 @@ CORRELATED
 INSUFFICIENT
 ```
 
----
+______________________________________________________________________
 
 # 25. Discriminating Evidence
 
@@ -764,7 +764,7 @@ that could change the outcome.
 
 This is preferable to accumulating redundant evidence from the same provenance family.
 
----
+______________________________________________________________________
 
 # 26. Provenance Topology
 
@@ -790,7 +790,7 @@ REPETITION
 INDEPENDENT CONFIRMATION
 ```
 
----
+______________________________________________________________________
 
 # 27. Sybil Hardening
 
@@ -808,7 +808,7 @@ N INDEPENDENT SOURCES
 
 Independence must be demonstrated where it matters.
 
----
+______________________________________________________________________
 
 # 28. Scope Firewall
 
@@ -828,7 +828,7 @@ scope:
 
 No silent generalization outside this envelope.
 
----
+______________________________________________________________________
 
 # 29. Regime Firewall
 
@@ -846,7 +846,7 @@ REGIME R2
 
 without compatibility validation.
 
----
+______________________________________________________________________
 
 # 30. Temporal Firewall
 
@@ -866,7 +866,7 @@ DEPENDENCY CHANGE
 
 A once-valid conclusion may become stale.
 
----
+______________________________________________________________________
 
 # 31. Uncertainty Vector
 
@@ -887,7 +887,7 @@ U =
 
 One aggregate confidence score should not erase decision-relevant structure.
 
----
+______________________________________________________________________
 
 # 32. Sensitivity
 
@@ -910,7 +910,7 @@ CONCLUSION = CONDITIONAL
 
 where appropriate.
 
----
+______________________________________________________________________
 
 # 33. Simulation
 
@@ -941,7 +941,7 @@ SIMULATION SUCCESS
 EMPIRICAL VALIDATION
 ```
 
----
+______________________________________________________________________
 
 # 34. Planning
 
@@ -971,7 +971,7 @@ PROPOSAL
 
 until governed otherwise.
 
----
+______________________________________________________________________
 
 # 35. Decision Support
 
@@ -992,7 +992,7 @@ The Full Brain may support decisions.
 
 It does not silently grant itself decision rights.
 
----
+______________________________________________________________________
 
 # 36. Metacognition
 
@@ -1014,7 +1014,7 @@ DEPENDENCY CHECK
 CONFIDENCE CHECK
 ```
 
----
+______________________________________________________________________
 
 # 37. Adversarial Validation
 
@@ -1047,7 +1047,7 @@ CAUSAL OVERREACH
 STRONGER ALTERNATIVE
 ```
 
----
+______________________________________________________________________
 
 # 38. Learning
 
@@ -1065,7 +1065,7 @@ VALIDATED KNOWLEDGE
 
 This transition must preserve provenance.
 
----
+______________________________________________________________________
 
 # 39. Knowledge Harvest
 
@@ -1092,7 +1092,7 @@ SOURCE_CLAIM
 
 until separately validated.
 
----
+______________________________________________________________________
 
 # 40. Governed Learning
 
@@ -1114,7 +1114,7 @@ GOVERNANCE
 PROMOTE / REJECT / QUARANTINE
 ```
 
----
+______________________________________________________________________
 
 # 41. Adaptation
 
@@ -1133,7 +1133,7 @@ CHANGE VALIDATION DEPTH
 
 Adaptation must never weaken integrity requirements.
 
----
+______________________________________________________________________
 
 # 42. Adaptive Complexity
 
@@ -1151,7 +1151,7 @@ Start at the lowest sufficient level.
 
 Escalate when decision-relevant uncertainty demands it.
 
----
+______________________________________________________________________
 
 # 43. Escalation Conditions
 
@@ -1173,7 +1173,7 @@ LOW TRUST
 AMBIGUOUS DEPENDENCIES
 ```
 
----
+______________________________________________________________________
 
 # 44. v4.4 Fast Path
 
@@ -1195,7 +1195,7 @@ NO MATERIAL CONFLICT
 
 are established.
 
----
+______________________________________________________________________
 
 # 45. Fast Path Escalation
 
@@ -1220,7 +1220,7 @@ FAST
 LOWER INTEGRITY
 ```
 
----
+______________________________________________________________________
 
 # 46. Cognitive Organism Integration
 
@@ -1252,7 +1252,7 @@ COGNITIVE ORGANISM
 
 Specific implemented organs remain repository-bound.
 
----
+______________________________________________________________________
 
 # 47. Agent Integration
 
@@ -1286,7 +1286,7 @@ and:
 COGNITIVE ORGAN != AGENT
 ```
 
----
+______________________________________________________________________
 
 # 48. Skill Integration
 
@@ -1304,7 +1304,7 @@ The Full Brain may select or invoke skills through agents/workflows.
 SKILL != COGNITIVE ORGAN
 ```
 
----
+______________________________________________________________________
 
 # 49. Workflow Integration
 
@@ -1320,7 +1320,7 @@ The Full Brain may generate, evaluate, or participate in workflows.
 
 It does not collapse cognition into orchestration.
 
----
+______________________________________________________________________
 
 # 50. Model Integration
 
@@ -1343,7 +1343,7 @@ Hard law:
 MODEL != AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 # 51. Tool Integration
 
@@ -1357,7 +1357,7 @@ TOOL != PERMISSION
 
 Tool availability does not grant execution authority.
 
----
+______________________________________________________________________
 
 # 52. Action Governance
 
@@ -1383,7 +1383,7 @@ EXTERNAL EFFECT
 
 The Full Brain must not silently bypass this path.
 
----
+______________________________________________________________________
 
 # 53. Capability Firewall
 
@@ -1411,7 +1411,7 @@ CAN PROPOSE CHANGE
 CAN COMMIT CHANGE
 ```
 
----
+______________________________________________________________________
 
 # 54. State
 
@@ -1426,7 +1426,7 @@ RECOVERY STATE
 
 These states must not be silently conflated.
 
----
+______________________________________________________________________
 
 # 55. Persistent Provenance
 
@@ -1450,7 +1450,7 @@ FRESHNESS
 
 when those fields are load-bearing.
 
----
+______________________________________________________________________
 
 # 56. MVCC / CAS Alignment
 
@@ -1472,7 +1472,7 @@ COMMIT / REVALIDATE
 
 This is an architectural alignment pattern, not an assertion that every Full Brain subsystem literally implements MVCC/CAS.
 
----
+______________________________________________________________________
 
 # 57. Atomic Multi-RSCF Reasoning
 
@@ -1494,7 +1494,7 @@ ALL REQUIRED RSCFs VALID
 COMPOSITE RESULT ELIGIBLE
 ```
 
----
+______________________________________________________________________
 
 # 58. Local Failure
 
@@ -1516,7 +1516,7 @@ LOCAL FAILURE
 GLOBAL RESET
 ```
 
----
+______________________________________________________________________
 
 # 59. Recovery
 
@@ -1534,7 +1534,7 @@ REVALIDATE AFFECTED DESCENDANTS
 
 Global recomputation is last resort.
 
----
+______________________________________________________________________
 
 # 60. No Blind Retry
 
@@ -1550,7 +1550,7 @@ SAME FAILURE CONDITIONS
 NEW VALIDATION
 ```
 
----
+______________________________________________________________________
 
 # 61. Cognitive Sharding
 
@@ -1573,7 +1573,7 @@ PROVENANCE
 CONCLUSION CLASS
 ```
 
----
+______________________________________________________________________
 
 # 62. Shard-Local Finalization
 
@@ -1587,7 +1587,7 @@ GLOBAL FINALITY
 
 Cross-shard dependencies must still be validated before composite finality.
 
----
+______________________________________________________________________
 
 # 63. Proof-Based Coordination Avoidance
 
@@ -1609,7 +1609,7 @@ LOCAL PROGRESS PERMITTED
 
 This is a reasoning architecture principle, not a claim that ChatGPT literally implements distributed consensus.
 
----
+______________________________________________________________________
 
 # 64. Causal Epoch Finality
 
@@ -1631,7 +1631,7 @@ COMPATIBILITY / REVALIDATION
 
 Exact runtime semantics require binding to authoritative AMOS Core v4.4 implementation.
 
----
+______________________________________________________________________
 
 # 65. Observability
 
@@ -1654,7 +1654,7 @@ COMMIT RESULT
 
 Observability must preserve security and privacy boundaries.
 
----
+______________________________________________________________________
 
 # 66. Security
 
@@ -1677,7 +1677,7 @@ COGNITIVE NEED
 ACCESS AUTHORITY
 ```
 
----
+______________________________________________________________________
 
 # 67. Safety and Stakes
 
@@ -1695,7 +1695,7 @@ DOWNSTREAM DEPENDENCY
 
 Prefer staged and reversible action under unresolved uncertainty.
 
----
+______________________________________________________________________
 
 # 68. Anti-Regression
 
@@ -1719,7 +1719,7 @@ If it does:
 ROLL BACK
 ```
 
----
+______________________________________________________________________
 
 # 69. Full Brain Lifecycle
 
@@ -1753,7 +1753,7 @@ LEARN
 PERSIST ELIGIBLE KNOWLEDGE
 ```
 
----
+______________________________________________________________________
 
 # 70. Stopping Rule
 
@@ -1771,7 +1771,7 @@ are achieved.
 
 More computation is not automatically better cognition.
 
----
+______________________________________________________________________
 
 # 71. Gap Classification
 
@@ -1794,7 +1794,7 @@ RETURN MINIMUM MISSING INFORMATION
 
 rather than fabricate completion.
 
----
+______________________________________________________________________
 
 # 72. Conclusion Classes
 
@@ -1811,7 +1811,7 @@ UNKNOWN/GAP
 
 A sophisticated architecture does not justify stronger epistemic status.
 
----
+______________________________________________________________________
 
 # 73. Core Full Brain Invariants
 
@@ -1867,7 +1867,7 @@ FB-024  WORKFLOW != PROTOCOL
 FB-025  FULL_BRAIN_OS != MONOLITH
 ```
 
----
+______________________________________________________________________
 
 # 74. Minimum Full Brain Validation Contract
 
@@ -1898,7 +1898,7 @@ A production Full Brain implementation should eventually demonstrate:
 | Tests         | Verification evidence                    |
 | Evolution     | Provenance/supersession process          |
 
----
+______________________________________________________________________
 
 # 75. Test Families
 
@@ -1934,7 +1934,7 @@ OBSERVABILITY TESTS
 ANTI-REGRESSION TESTS
 ```
 
----
+______________________________________________________________________
 
 # 76. Adversarial Tests
 
@@ -1968,7 +1968,7 @@ LEARNING DIRECTLY MUTATING CANON
 STALE STATE USED FOR IRREVERSIBLE COMMIT
 ```
 
----
+______________________________________________________________________
 
 # 77. Repository Integration
 
@@ -2003,7 +2003,7 @@ The Full Brain canon should connect at minimum to:
 
 It should not duplicate these planes.
 
----
+______________________________________________________________________
 
 # 78. Full Brain Architecture Map
 
@@ -2046,7 +2046,7 @@ FULL BRAIN OS
 
 This is an architectural model, not an implementation-completeness claim.
 
----
+______________________________________________________________________
 
 # 79. Implementation Firewall
 
@@ -2104,7 +2104,7 @@ UNKNOWN/GAP
 
 as appropriate.
 
----
+______________________________________________________________________
 
 # 80. Promotion Gate
 
@@ -2148,7 +2148,7 @@ Unresolved elements remain explicitly:
 UNKNOWN/GAP
 ```
 
----
+______________________________________________________________________
 
 # 81. RSCF Node
 
@@ -2219,7 +2219,7 @@ does_not_establish:
   - universal intelligence
 ```
 
----
+______________________________________________________________________
 
 # 82. Changelog
 
@@ -2229,45 +2229,45 @@ Expanded the placeholder into an AMOS Core v4.4-aligned Full Brain OS canon cand
 
 Added:
 
-* Full Brain architectural identity;
-* authoritative-plane boundaries;
-* H/M/L decomposition;
-* fractal knowledge retrieval;
-* sensing/perception/attention/context;
-* memory and knowledge architecture;
-* recursive RSCF;
-* proof capsules;
-* provenance topology;
-* Sybil hardening;
-* causal firewall;
-* competing hypotheses;
-* simulation and planning;
-* decision support;
-* metacognition;
-* governed learning;
-* adaptive complexity;
-* v4.4 fast path;
-* cognitive organism integration;
-* agent/skill/workflow/model/tool boundaries;
-* action governance;
-* persistent provenance;
-* MVCC/CAS alignment;
-* atomic multi-RSCF reasoning;
-* localized failure and recovery;
-* cognitive sharding;
-* causal epoch alignment;
-* observability;
-* security;
-* anti-regression;
-* validation and adversarial test contracts;
-* implementation firewall;
-* canon promotion gate.
+- Full Brain architectural identity;
+- authoritative-plane boundaries;
+- H/M/L decomposition;
+- fractal knowledge retrieval;
+- sensing/perception/attention/context;
+- memory and knowledge architecture;
+- recursive RSCF;
+- proof capsules;
+- provenance topology;
+- Sybil hardening;
+- causal firewall;
+- competing hypotheses;
+- simulation and planning;
+- decision support;
+- metacognition;
+- governed learning;
+- adaptive complexity;
+- v4.4 fast path;
+- cognitive organism integration;
+- agent/skill/workflow/model/tool boundaries;
+- action governance;
+- persistent provenance;
+- MVCC/CAS alignment;
+- atomic multi-RSCF reasoning;
+- localized failure and recovery;
+- cognitive sharding;
+- causal epoch alignment;
+- observability;
+- security;
+- anti-regression;
+- validation and adversarial test contracts;
+- implementation firewall;
+- canon promotion gate.
 
 ## v1.0.0 — 2026-08-25
 
 Initial placeholder reserved the canonical AMOS OS location.
 
----
+______________________________________________________________________
 
 # 83. Canonical Summary
 
@@ -2433,21 +2433,21 @@ TO SILENTLY BECOME
 UNGOVERNED AUTHORITY.
 ```
 
----
+______________________________________________________________________
 
 **Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · NEURAL_NETWORK|AMOS Neural Network · AMOS Canon · CANON_MAP|Canon Map · AMOS_CORE_LAWS|AMOS Core Laws · INVARIANT_REGISTRY|Invariant Registry · LAW_HIERARCHY|Law Hierarchy · AMOS_7_PART_UNIVERSE_CANON|AMOS 7 Part Universe Canon · HML_CANON|H/M/L Canon · PERSISTENCE_CANON|Persistence Canon · COGNITION_CANON|Cognition Canon · COGNITIVE_ORGANISM_CANON|Cognitive Organism Canon · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · RUNTIME_MAP|Runtime Map · COGNITIVE_ORGANISM_MAP|Cognitive Organism Map · AGENT_MAP|Agent Map · SKILL_MAP|Skill Map · WORKFLOW_MAP|Workflow Map · PROTOCOL_MAP|Protocol Map · MEMORY_MEMORY_MAP|Memory Map · Knowledge Map · AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture · STATE_STATE_MAP|State Map · MODEL_MAP|Model Map · TOOL_MAP|Tool Map · INTERFACE_MAP|Interface Map · SCHEMA_MAP|Schema Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · SECURITY_MAP|Security Map · TEST_MAP|Test Map · OPERATIONS_MAP|Operations Map · DOMAIN_ALIAS_MAP|Domain Map · INDEX_RESEARCH_README|Research · OPERATING_MODEL|Operating Model · COGNITIVE_MATRIX_ARCHITECTURE|Cognitive Matrix
 
 ```
 ```
 
----
+______________________________________________________________________
 
 00_ROOT_MOC|AMOS MOC
 
----
+______________________________________________________________________
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
----
+______________________________________________________________________
 RSCF-NODE
 node_id: full_brain_os_canon
 node_type: note
@@ -2457,5 +2457,5 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
----
+______________________________________________________________________
 **MOC:** [[03_COGNITION_CANON_MOC]]

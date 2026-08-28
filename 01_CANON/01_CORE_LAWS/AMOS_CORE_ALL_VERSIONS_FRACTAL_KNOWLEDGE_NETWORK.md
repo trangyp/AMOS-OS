@@ -87,7 +87,7 @@ rscf:
 It has two distinct functions:
 
 1. **Lineage function** — preserve each AMOS Core revision as an independently addressable causal/version node.
-2. **Fractal knowledge function** — expose the full knowledge field through a capsule-first H/M/L network rather than requiring raw-source scanning.
+1. **Fractal knowledge function** — expose the full knowledge field through a capsule-first H/M/L network rather than requiring raw-source scanning.
 
 The strongest native lineage presently supported by the source artifact is:
 
@@ -821,10 +821,10 @@ FORCE ONE WINNER
 
 When incompatible models have:
 
-* equal support;
-* incomparable support;
-* correlated support;
-* insufficient evidence;
+- equal support;
+- incomparable support;
+- correlated support;
+- insufficient evidence;
 
 the correct state may remain:
 
@@ -1244,7 +1244,7 @@ $$
 Final(C,E)
 $$
 
-means that \(C\) satisfies the finalization rules for epoch \(E\).
+means that (C) satisfies the finalization rules for epoch (E).
 
 It does not imply:
 
@@ -1366,14 +1366,14 @@ DEMONSTRATED INDEPENDENCE
 
 Escalation is required when:
 
-* evidence shares ancestry;
-* claims conflict;
-* premises are stale;
-* reasoning crosses regimes;
-* causal coupling exists;
-* governance is affected;
-* irreversible effects are possible;
-* dependencies are ambiguous.
+- evidence shares ancestry;
+- claims conflict;
+- premises are stale;
+- reasoning crosses regimes;
+- causal coupling exists;
+- governance is affected;
+- irreversible effects are possible;
+- dependencies are ambiguous.
 
 ---
 
@@ -2807,20 +2807,20 @@ FKN_GAPS:
 
 Promotion of this artifact from `SOURCE_GROUNDED_CANON_CANDIDATE` to stronger canonical status requires:
 
-* [ ] all intended runtime versions identified;
-* [ ] pre-v3.0 lineage sourced if included;
-* [ ] post-v4.4 lineage sourced if included;
-* [ ] parent map validated;
-* [ ] each version identity and source hash preserved;
-* [ ] source-to-version provenance edges persisted;
-* [ ] benchmark claims bound to exact test scope;
-* [ ] formal proofs distinguished from empirical tests;
-* [ ] H/M/L indexes validated;
-* [ ] raw-source pointers recoverable;
-* [ ] competing historical claims preserved;
-* [ ] version supersession semantics explicit;
-* [ ] artifact-specific validation receipt available for the network structure;
-* [ ] no unresolved critical lineage gap hidden by the title.
+- [ ] all intended runtime versions identified;
+- [ ] pre-v3.0 lineage sourced if included;
+- [ ] post-v4.4 lineage sourced if included;
+- [ ] parent map validated;
+- [ ] each version identity and source hash preserved;
+- [ ] source-to-version provenance edges persisted;
+- [ ] benchmark claims bound to exact test scope;
+- [ ] formal proofs distinguished from empirical tests;
+- [ ] H/M/L indexes validated;
+- [ ] raw-source pointers recoverable;
+- [ ] competing historical claims preserved;
+- [ ] version supersession semantics explicit;
+- [ ] artifact-specific validation receipt available for the network structure;
+- [ ] no unresolved critical lineage gap hidden by the title.
 
 ---
 
@@ -3392,46 +3392,46 @@ v1.0_to_v5.8
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* INDEXED_BY: [[01_CORE_LAWS_MOC]]
+- INDEXED_BY: [[01_CORE_LAWS_MOC]]
 
-* RELATED_TO: [[AMOS_CORE]]
+- RELATED_TO: [[AMOS_CORE]]
 
-* DEFINES_LINEAGE_FOR: [[AMOS_CORE]]
+- DEFINES_LINEAGE_FOR: [[AMOS_CORE]]
 
-* CONTAINS_FRAMEWORK: [[RSCF]]
+- CONTAINS_FRAMEWORK: [[RSCF]]
 
-* CONTAINS_FRAMEWORK: [[GMEF]]
+- CONTAINS_FRAMEWORK: [[GMEF]]
 
-* CONTAINS_RUNTIME_FIELD: [[AMOS_CORE_RUNTIME_LINEAGE]]
+- CONTAINS_RUNTIME_FIELD: AMOS_CORE_RUNTIME_LINEAGE
 
-* CONTAINS_KNOWLEDGE_FIELD: [[AMOS_FRACTAL_KNOWLEDGE_NETWORK]]
+- CONTAINS_KNOWLEDGE_FIELD: AMOS_FRACTAL_KNOWLEDGE_NETWORK
 
-* GOVERNS:
+- GOVERNS:
   VERSION_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   CAUSAL_LINEAGE
 
-* GOVERNS:
+- GOVERNS:
   PROVENANCE_PRESERVATION
 
-* GOVERNS:
+- GOVERNS:
   CAPSULE_FIRST_RETRIEVAL
 
-* GOVERNS:
+- GOVERNS:
   HML_RECURSIVE_RETRIEVAL
 
-* GOVERNS:
+- GOVERNS:
   SELECTIVE_INVALIDATION
 
-* GOVERNS:
+- GOVERNS:
   RAW_SOURCE_COLD_STORAGE
 
-* RELATED_FRAMEWORK:
+- RELATED_FRAMEWORK:
   [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
@@ -3440,7 +3440,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:** [[AMOS_CORE]] · [[01_CORE_LAWS_MOC]] · [[AMOS_RSCF_NODES]] · [[RSCF]] · [[GMEF]] · [[AMOS_FRACTAL_KNOWLEDGE_NETWORK]] · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Related:** [[AMOS_CORE]] · [[01_CORE_LAWS_MOC]] · [[AMOS_RSCF_NODES]] · [[RSCF]] · [[GMEF]] · AMOS_FRACTAL_KNOWLEDGE_NETWORK · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 

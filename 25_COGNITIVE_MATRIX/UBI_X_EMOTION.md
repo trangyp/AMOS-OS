@@ -52,21 +52,17 @@ framework_binding:
 
 source_integrity:
 
-  equation_rendering:
-    PARTIALLY_CORRUPTED
+  equation_rendering: PARTIALLY_CORRUPTED
 
-  recoverable_equation:
-    "E_t = <v_t, a_t, d_t> ∈ [-1,1] × [0,1] × [-1,1]"
+  recoverable_equation: "E_t = <v_t, a_t, d_t> ∈ [-1,1] × [0,1] × [-1,1]"
 
-  component_semantics:
-    RECOVERABLE_FROM_LOCAL_SOURCE_CONTEXT
+  component_semantics: RECOVERABLE_FROM_LOCAL_SOURCE_CONTEXT
 
   unresolved_matrix_fields:
     - FIRST_TRIGGER_VARIABLES
     - TARGET_PLANES
 
-  reconstruction_policy:
-    DO_NOT_INVENT_MISSING_CANON
+  reconstruction_policy: DO_NOT_INVENT_MISSING_CANON
 ---
 
 # UBI × Emotion Cognitive Matrix Specification — Canon Recovery
@@ -98,9 +94,7 @@ $$
 v_t<-0.70\Rightarrow EngageSubstrateRefusal
 $$
 
-This materially resolves the earlier uncertainty around \(v_t\) and \(a_t\), but **does not recover the matrix table's missing first trigger variables or Target Plane cells**.
-
-
+This materially resolves the earlier uncertainty around (v_t) and (a_t), but **does not recover the matrix table's missing first trigger variables or Target Plane cells**.
 
 ---
 
@@ -164,7 +158,7 @@ and is source-described as:
 
 `Metabolic activation`.
 
-This resolves the earlier matrix-table ambiguity around \(a_t\).
+This resolves the earlier matrix-table ambiguity around (a_t).
 
 ---
 
@@ -249,14 +243,14 @@ The source establishes the control action:
 
 It does not establish within this artifact:
 
-* implementation mechanism;
-* duration;
-* release threshold;
-* hysteresis;
-* pacing function;
-* biological substrate;
-* target plane;
-* relationship to Metabolic Pacing.
+- implementation mechanism;
+- duration;
+- release threshold;
+- hysteresis;
+- pacing function;
+- biological substrate;
+- target plane;
+- relationship to Metabolic Pacing.
 
 Those remain dependencies.
 
@@ -535,8 +529,8 @@ This is a mathematically VERIFIED consequence of the supplied source.
 
 That disjointness applies specifically to:
 
-* the Optimal Flow row's \(a_t\) component; and
-* the Cooling Circuit invariant.
+- the Optimal Flow row's (a_t) component; and
+- the Cooling Circuit invariant.
 
 It does not prove that all aspects of Optimal Flow and cooling are
 globally mutually exclusive under every future specification.
@@ -575,7 +569,7 @@ $$
 d_t=\text{Dominance}
 $$
 
-but supplies no invariant threshold involving \(d_t\).
+but supplies no invariant threshold involving (d_t).
 
 Therefore:
 
@@ -784,9 +778,9 @@ The earlier matrix can now be safely strengthened to:
 
 | State                 | Source-visible condition      | Resolved semantics                    | Impact                                             | Guard                |
 | --------------------- | ----------------------------- | ------------------------------------- | -------------------------------------------------- | -------------------- |
-| High Threat / Anxiety | \(X_H>0.8,\;v_t<-0.5\)        | \(v_t=\) Valence                      | Prune speculative branches; tighten safety margins | Refusal Firewall     |
-| Fatigue / Apathy      | \(X_F<0.2,\;\tau_{bio}<0.4\)  | \(\tau_{bio}\) still externally bound | Reduce reasoning horizon; queue non-critical tasks | Metabolic Pacing     |
-| Optimal Flow          | \(X_O>0.4,\;a_t\in[0.4,0.7]\) | \(a_t=\) Arousal                      | Authorize complex multi-agent proofs               | Gamma Coherence Lock |
+| High Threat / Anxiety | (X_H>0.8,;v_t\<-0.5)          | (v_t=) Valence                        | Prune speculative branches; tighten safety margins | Refusal Firewall     |
+| Fatigue / Apathy      | (X_F\<0.2,;\\tau\_{bio}\<0.4) | (\\tau\_{bio}) still externally bound | Reduce reasoning horizon; queue non-critical tasks | Metabolic Pacing     |
+| Optimal Flow          | (X_O>0.4,;a_t\\in[0.4,0.7])   | (a_t=) Arousal                        | Authorize complex multi-agent proofs               | Gamma Coherence Lock |
 
 where:
 
@@ -895,7 +889,7 @@ retrieval target.
 
 That dependency is now available.
 
-It resolves \(v_t\) and \(a_t\), but not the missing matrix variables
+It resolves (v_t) and (a_t), but not the missing matrix variables
 or target planes.
 
 Therefore the next smallest sufficient retrieval target becomes:
@@ -1234,16 +1228,16 @@ This remains `COMPETING`.
 
 # 48. Dominance Discrimination Test
 
-Because \(d_t\) is defined but absent from the visible matrix rows, a
+Because (d_t) is defined but absent from the visible matrix rows, a
 high-information question for `UBI_EMOTION_BINDING` is whether
 dominance affects:
 
-* appraisal;
-* target-plane routing;
-* guard arbitration;
-* refusal;
-* autonomy;
-* state transitions.
+- appraisal;
+- target-plane routing;
+- guard arbitration;
+- refusal;
+- autonomy;
+- state transitions.
 
 No answer should be invented before retrieval.
 
@@ -1307,30 +1301,30 @@ This is **DERIVED** as an implementation-oriented representation.
 This specification MUST NOT by itself be used to claim:
 
 1. NEI's full expansion is known;
-2. NEI is empirically validated neuroscience;
-3. \(v_t\), \(a_t\), and \(d_t\) are directly measurable biological quantities;
-4. their numerical scales correspond to a standard external affective instrument;
-5. the scales are universally calibrated;
-6. `-1` valence has a universal empirical meaning;
-7. `1` dominance has a universal empirical meaning;
-8. \(a_t>0.90\) is a clinical threshold;
-9. \(v_t<-0.70\) is a clinical threshold;
-10. Cooling Circuit is a literal physiological cooling mechanism;
-11. Substrate Refusal is a literal biological refusal mechanism;
-12. Substrate Refusal equals Refusal Firewall;
-13. Cooling Circuit equals Metabolic Pacing;
-14. Gamma Coherence Lock is part of Cooling Circuit;
-15. dominance has an unspecified threshold;
-16. the complete affective transition equation is known;
-17. the cognitive appraisal function is known;
-18. the matrix's missing first trigger variables are recovered;
-19. the matrix's Target Plane values are recovered;
-20. the three matrix states are mutually exclusive;
-21. all invariant rules have precedence over all matrix rules;
-22. the model applies universally to humans;
-23. the model applies universally to AI systems;
-24. affective values determine epistemic truth;
-25. the source's constitutional-test status equals independent empirical validation.
+1. NEI is empirically validated neuroscience;
+1. (v_t), (a_t), and (d_t) are directly measurable biological quantities;
+1. their numerical scales correspond to a standard external affective instrument;
+1. the scales are universally calibrated;
+1. `-1` valence has a universal empirical meaning;
+1. `1` dominance has a universal empirical meaning;
+1. (a_t>0.90) is a clinical threshold;
+1. (v_t\<-0.70) is a clinical threshold;
+1. Cooling Circuit is a literal physiological cooling mechanism;
+1. Substrate Refusal is a literal biological refusal mechanism;
+1. Substrate Refusal equals Refusal Firewall;
+1. Cooling Circuit equals Metabolic Pacing;
+1. Gamma Coherence Lock is part of Cooling Circuit;
+1. dominance has an unspecified threshold;
+1. the complete affective transition equation is known;
+1. the cognitive appraisal function is known;
+1. the matrix's missing first trigger variables are recovered;
+1. the matrix's Target Plane values are recovered;
+1. the three matrix states are mutually exclusive;
+1. all invariant rules have precedence over all matrix rules;
+1. the model applies universally to humans;
+1. the model applies universally to AI systems;
+1. affective values determine epistemic truth;
+1. the source's constitutional-test status equals independent empirical validation.
 
 ---
 
@@ -1382,7 +1376,7 @@ RSCF_RELATIONS:
 
   - RELATED_TO: "[[K_PROVENANCE]]"
 
-  - RELATED_TO: "[[K_CAUSAL_FIREWALL]]"
+  - RELATED_TO: "K_CAUSAL_FIREWALL"
 
   - RELATED_TO: "[[K_FAIL_CLOSED]]"
 
@@ -1702,8 +1696,8 @@ EngageSubstrateRefusal
 }
 $$
 
-This specification **resolves the semantic identity of \(v_t\) and
-\(a_t\)** from the preceding `UBI_X_EMOTION_MATRIX`.
+This specification **resolves the semantic identity of (v_t) and
+(a_t)** from the preceding `UBI_X_EMOTION_MATRIX`.
 
 Consequently:
 
@@ -1754,7 +1748,7 @@ $$
 
 are disjoint. Therefore the visible Optimal-Flow arousal condition and
 the Cooling Circuit condition cannot simultaneously hold for the same
-\(a_t\).
+(a_t).
 
 The specification **does not resolve** the three missing first trigger
 variables or the three missing Target Plane cells in

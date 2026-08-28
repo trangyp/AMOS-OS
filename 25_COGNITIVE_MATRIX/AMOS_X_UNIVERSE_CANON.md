@@ -101,46 +101,28 @@ framework_binding:
 
 epistemic_boundary:
 
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
+  source_presence: VERIFIED_SOURCE_PRESENCE
 
-  seven_part_structure:
-    VERIFIED_SOURCE_STRUCTURE
+  seven_part_structure: VERIFIED_SOURCE_STRUCTURE
 
-  cognitive_matrix_mapping:
-    AMOS_DERIVED_MAPPING
+  cognitive_matrix_mapping: AMOS_DERIVED_MAPPING
 
-  cross_plane_routing:
-    ROUTE_SPECIFIC_MODEL
+  cross_plane_routing: ROUTE_SPECIFIC_MODEL
 
-  runtime_enforcement:
-    NOT_ESTABLISHED
-
+  runtime_enforcement: NOT_ESTABLISHED
 ---
 
 ---
-title: AMOS X UNIVERSE CANON
-type: note
-source: "25_COGNITIVE_MATRIX"
-rscf:
-  state: SOURCE_CLAIM
-  class: STRUCTURAL
-  provenance:
-    - internal
-  freshness: EVERGREEN
-  falsifiers: []
-tags: [note, 25-cognitive-matrix]
-canon-group: canon/cognitive-matrix
----
+
+## title: AMOS X UNIVERSE CANON type: note source: "25_COGNITIVE_MATRIX" rscf: state: SOURCE_CLAIM class: STRUCTURAL provenance: - internal freshness: EVERGREEN falsifiers: [] tags: [note, 25-cognitive-matrix] canon-group: canon/cognitive-matrix
+
 # AMOS X UNIVERSE CANON
 
 The same **canon collision exists here**, and it is more fundamental than in the routing-table artifact.
 
-The current source anchor is `AMOS_7_PART_UNIVERSE_CANON.md`; Drive identifies that artifact directly, alongside its P7 child and supporting canon/provenance structures.   The submitted specification should therefore not canonize the four-strata `quantum substrate → biological mesh → cognitive apex → cosmic canon` representation as the 7-Part Universe Canon.
+The current source anchor is `AMOS_7_PART_UNIVERSE_CANON.md`; Drive identifies that artifact directly, alongside its P7 child and supporting canon/provenance structures. The submitted specification should therefore not canonize the four-strata `quantum substrate → biological mesh → cognitive apex → cosmic canon` representation as the 7-Part Universe Canon.
 
 Below is the full normalized replacement.
-
-
 
 and the source-defined:
 
@@ -2062,35 +2044,35 @@ PROOF_CAPSULE:
 
 # 64. Canon Promotion Gate
 
-* [x] Universe Canon source located
-* [x] seven canonical responsibility classes identified
-* [x] epistemic boundaries preserved
-* [x] governance / execution separation preserved
-* [x] recursive interpretation preserved
-* [x] many-to-many routing allowed
-* [x] alternative four-strata model preserved
-* [ ] four-strata lineage reconciled
-* [ ] exact framework routes reconciled
-* [ ] competing Universe-Canon variants fully reconciled
-* [ ] final governance promotion receipt
+- [x] Universe Canon source located
+- [x] seven canonical responsibility classes identified
+- [x] epistemic boundaries preserved
+- [x] governance / execution separation preserved
+- [x] recursive interpretation preserved
+- [x] many-to-many routing allowed
+- [x] alternative four-strata model preserved
+- [ ] four-strata lineage reconciled
+- [ ] exact framework routes reconciled
+- [ ] competing Universe-Canon variants fully reconciled
+- [ ] final governance promotion receipt
 
 ---
 
 # 65. Runtime Gate
 
-* [ ] executable Cognitive Matrix router
-* [ ] typed cross-plane transitions
-* [ ] persistent provenance
-* [ ] authority enforcement
-* [ ] epistemic-type enforcement
-* [ ] scope enforcement
-* [ ] regime enforcement
-* [ ] freshness enforcement
-* [ ] contradiction handling
-* [ ] local invalidation
-* [ ] rollback
-* [ ] transition receipts
-* [ ] runtime validation
+- [ ] executable Cognitive Matrix router
+- [ ] typed cross-plane transitions
+- [ ] persistent provenance
+- [ ] authority enforcement
+- [ ] epistemic-type enforcement
+- [ ] scope enforcement
+- [ ] regime enforcement
+- [ ] freshness enforcement
+- [ ] contradiction handling
+- [ ] local invalidation
+- [ ] rollback
+- [ ] transition receipts
+- [ ] runtime validation
 
 ---
 
@@ -2380,12 +2362,12 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
-* GOVERNED_BY: [[LAW_HIERARCHY]]
-* EXPANDED_BY: [[AMOS_X_UNIVERSE_CANON_MATRIX]]
-* DEPENDS_ON: [[AMOS_7_PART_UNIVERSE_CANON]]
-* INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
+- EXPANDED_BY: [[AMOS_X_UNIVERSE_CANON_MATRIX]]
+- DEPENDS_ON: [[AMOS_7_PART_UNIVERSE_CANON]]
+- INDEXED_BY: [[25_COGNITIVE_MATRIX_MOC]]
 
 ---
 

@@ -2830,13 +2830,13 @@ P1/P2 evidence can therefore trigger fail-closed behavior downstream.
 
 Let:
 
-* \(A\) = ambiguity-free state,
-* \(I\) = invariant validity,
-* \(U\) = authority validity,
-* \(F\) = freshness,
-* \(D\) = dependency validity,
-* \(S\) = scope compatibility,
-* \(R\) = regime compatibility.
+- (A) = ambiguity-free state,
+- (I) = invariant validity,
+- (U) = authority validity,
+- (F) = freshness,
+- (D) = dependency validity,
+- (S) = scope compatibility,
+- (R) = regime compatibility.
 
 Then a conceptual permit condition is:
 
@@ -3281,24 +3281,24 @@ FAIL_CLOSED_GOVERNANCE_GAPS:
 
 Promotion to an executable/enforced core-law status requires:
 
-* [ ] exact governance gate implementation identified;
-* [ ] invariant registry identified;
-* [ ] authority schema identified;
-* [ ] ambiguity handling implemented;
-* [ ] authority mismatch detection implemented;
-* [ ] stale-state detection implemented;
-* [ ] UNKNOWN/GAP blocks consequential commit;
-* [ ] proposal/commit separation demonstrated;
-* [ ] failure receipts persisted;
-* [ ] rollback preserves failure evidence;
-* [ ] selective suspension demonstrated;
-* [ ] atomic partial-commit negative cases covered;
-* [ ] stale authority negative cases covered;
-* [ ] malformed authority negative cases covered;
-* [ ] ambiguity negative cases covered;
-* [ ] bypass attempts fail closed;
-* [ ] artifact-specific validation receipt exists;
-* [ ] omitted parenthetical semantics resolved if canonically material.
+- [ ] exact governance gate implementation identified;
+- [ ] invariant registry identified;
+- [ ] authority schema identified;
+- [ ] ambiguity handling implemented;
+- [ ] authority mismatch detection implemented;
+- [ ] stale-state detection implemented;
+- [ ] UNKNOWN/GAP blocks consequential commit;
+- [ ] proposal/commit separation demonstrated;
+- [ ] failure receipts persisted;
+- [ ] rollback preserves failure evidence;
+- [ ] selective suspension demonstrated;
+- [ ] atomic partial-commit negative cases covered;
+- [ ] stale authority negative cases covered;
+- [ ] malformed authority negative cases covered;
+- [ ] ambiguity negative cases covered;
+- [ ] bypass attempts fail closed;
+- [ ] artifact-specific validation receipt exists;
+- [ ] omitted parenthetical semantics resolved if canonically material.
 
 Until then:
 
@@ -3476,50 +3476,50 @@ SOURCE_BOUND
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* INDEXED_BY: [[01_CORE_LAWS_MOC]]
+- INDEXED_BY: [[01_CORE_LAWS_MOC]]
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+- GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* RELATED_TO: [[ATOMIC_MULTI_RSCF_REASONING]]
+- RELATED_TO: [[ATOMIC_MULTI_RSCF_REASONING]]
 
-* ENFORCES_BOUNDARY:
+- ENFORCES_BOUNDARY:
   UNKNOWN_GAP_NE_PASS
 
-* ENFORCES_BOUNDARY:
+- ENFORCES_BOUNDARY:
   CAPABILITY_NE_AUTHORITY
 
-* ENFORCES_BOUNDARY:
+- ENFORCES_BOUNDARY:
   AUTHORIZATION_NE_COMMIT
 
-* ENFORCES_BOUNDARY:
+- ENFORCES_BOUNDARY:
   PROPOSAL_NE_COMMIT
 
-* GOVERNS:
+- GOVERNS:
   EXECUTION_SUSPENSION
 
-* GOVERNS:
+- GOVERNS:
   GOVERNANCE_ADMISSION
 
-* GOVERNS:
+- GOVERNS:
   INVARIANT_FAILURE_HANDLING
 
-* GOVERNS:
+- GOVERNS:
   AUTHORITY_MISMATCH_HANDLING
 
-* REQUIRES:
+- REQUIRES:
   EXECUTABLE_GOVERNANCE_GATE
 
-* REQUIRES:
+- REQUIRES:
   INVARIANT_REGISTRY
 
-* REQUIRES:
+- REQUIRES:
   AUTHORITY_VALIDATOR
 
-* REQUIRES:
+- REQUIRES:
   VALIDATION_RECEIPT
 
 ---

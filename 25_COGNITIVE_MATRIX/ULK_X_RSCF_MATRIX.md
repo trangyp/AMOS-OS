@@ -2802,10 +2802,10 @@ within the supplied AMOS model matrix.
 ## Functional Connections
 
 * **RSCF:** [[RSCF]]
-* **Scope Firewall:** [[K_SCOPE_FIREWALL]]
+* **Scope Firewall:** K_SCOPE_FIREWALL
 * **Fail-Closed Governance:** [[K_FAIL_CLOSED]]
 * **Provenance:** [[K_PROVENANCE]]
-* **Causal Firewall:** [[K_CAUSAL_FIREWALL]]
+* **Causal Firewall:** K_CAUSAL_FIREWALL
 
 > [!note]
 > Functional links beyond the three source-supplied connections are vault navigation candidates. They should not be treated as source-defined dependency edges unless their respective canonical artifacts confirm the relationship.
@@ -2928,7 +2928,7 @@ RSCF-RELATIONS:
 
   - FAIL_CLOSED_GOVERNED_BY: "[[K_FAIL_CLOSED]]"
 
-  - CAUSAL_FIREWALL: "[[K_CAUSAL_FIREWALL]]"
+  - CAUSAL_FIREWALL: "K_CAUSAL_FIREWALL"
 
   - LINEAGE_TARGET: "[[AMOS_CORE_v4_4]]"
 ```

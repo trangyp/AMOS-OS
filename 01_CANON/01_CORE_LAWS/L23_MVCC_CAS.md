@@ -41,9 +41,9 @@ rscf:
 
 # L23 — Multi-Version Concurrency Control & CAS Law
 
-**VERSION:** 2.0.0  
-**STATUS:** CANON_LAW  
-**claim_class:** CANONICAL_INVARIANT  
+**VERSION:** 2.0.0\
+**STATUS:** CANON_LAW\
+**claim_class:** CANONICAL_INVARIANT\
 **provenance:** AMOS_CANON
 
 ---
@@ -209,7 +209,7 @@ ATOMIC CAS
 
 ## 2.1 Snapshot Isolation Invariant
 
-For every transaction-like reasoning loop \(Tx_k\):
+For every transaction-like reasoning loop (Tx_k):
 
 $$
 \boxed{
@@ -360,13 +360,13 @@ TRANSITION UNIT
 
 whose behavior is constrained by:
 
-* start time,
-* snapshot,
-* read set,
-* expected state,
-* proposed state,
-* conflict outcome,
-* and commit time.
+- start time,
+- snapshot,
+- read set,
+- expected state,
+- proposed state,
+- conflict outcome,
+- and commit time.
 
 The source does not define a complete transaction object schema.
 
@@ -489,7 +489,7 @@ Exact representation is not canonical from this source.
 
 # 10. Snapshot Membership
 
-For every read object \(r\):
+For every read object (r):
 
 $$
 r \in ReadSet(Tx_k)
@@ -587,14 +587,14 @@ The exact physical pinning mechanism is not specified.
 
 The source does not define whether a snapshot is represented by:
 
-* version number,
-* epoch,
-* content hash,
-* transaction sequence number,
-* immutable object graph,
-* commit identifier,
-* logical timestamp,
-* or another mechanism.
+- version number,
+- epoch,
+- content hash,
+- transaction sequence number,
+- immutable object graph,
+- commit identifier,
+- logical timestamp,
+- or another mechanism.
 
 Therefore:
 
@@ -906,13 +906,13 @@ A successful state comparison establishes the CAS precondition.
 
 It does not automatically establish:
 
-* factual correctness,
-* authorization,
-* safety,
-* causal validity,
-* scope validity,
-* governance approval,
-* or empirical truth.
+- factual correctness,
+- authorization,
+- safety,
+- causal validity,
+- scope validity,
+- governance approval,
+- or empirical truth.
 
 Therefore:
 
@@ -1133,12 +1133,12 @@ A safe epoch is a state/causal point judged suitable as a recovery target.
 
 However, L23 does not define:
 
-* how `e_safe` is selected,
-* whether it is transaction-local,
-* whether it is globally finalized,
-* whether it maps directly to L24 epochs,
-* who certifies it,
-* or how rollback is physically executed.
+- how `e_safe` is selected,
+- whether it is transaction-local,
+- whether it is globally finalized,
+- whether it maps directly to L24 epochs,
+- who certifies it,
+- or how rollback is physically executed.
 
 Therefore:
 
@@ -1458,12 +1458,12 @@ may denote an aggregate state.
 
 It does not specify whether atomic CAS operates on:
 
-* one object,
-* one RSCF node,
-* a state bundle,
-* an entire registry,
-* multiple shards,
-* or another unit.
+- one object,
+- one RSCF node,
+- a state bundle,
+- an entire registry,
+- multiple shards,
+- or another unit.
 
 This is a decision-relevant gap.
 
@@ -2008,12 +2008,12 @@ CURRENT FOREVER
 
 A committed decision can later become stale due to:
 
-* new evidence,
-* new epoch,
-* changed scope,
-* changed regime,
-* supersession,
-* changed dependencies.
+- new evidence,
+- new epoch,
+- changed scope,
+- changed regime,
+- supersession,
+- changed dependencies.
 
 L23 governs concurrency integrity, not eternal truth.
 
@@ -2256,11 +2256,11 @@ The canonical isolation level is explicitly named.
 
 What remains unspecified is whether snapshot isolation applies to:
 
-* one RSCF,
-* one registry,
-* one shard,
-* all runtime memory,
-* or globally across all state objects.
+- one RSCF,
+- one registry,
+- one shard,
+- all runtime memory,
+- or globally across all state objects.
 
 The opening statement says:
 
@@ -3050,44 +3050,44 @@ These are SOURCE_CLAIM statements about the supplied canonical AMOS note; the no
 
 The supplied L23 note does **not** establish:
 
-* a database vendor,
-* a literal database engine,
-* physical MVCC tuple layout,
-* physical row versions,
-* transaction-ID encoding,
-* garbage collection,
-* WAL,
-* redo/undo logs,
-* lock manager,
-* physical snapshot implementation,
-* CPU CAS instructions,
-* hardware memory barriers,
-* compare-exchange instruction use,
-* global consensus,
-* Raft,
-* Paxos,
-* Byzantine consensus,
-* cross-shard commit protocol,
-* two-phase commit,
-* three-phase commit,
-* quorum semantics,
-* leader election,
-* complete ACID semantics,
-* durability guarantees,
-* formal serializability proof,
-* opacity proof,
-* strict serializability proof,
-* linearizability proof,
-* exact snapshot identifier,
-* exact transaction identifier,
-* exact safe-epoch selection algorithm,
-* exact rollback mechanism,
-* exact retry algorithm,
-* exact conflict graph algorithm,
-* exact phantom-mutation detector,
-* exact dirty-read detector,
-* exact multi-object CAS scope,
-* literal ChatGPT internal runtime implementation.
+- a database vendor,
+- a literal database engine,
+- physical MVCC tuple layout,
+- physical row versions,
+- transaction-ID encoding,
+- garbage collection,
+- WAL,
+- redo/undo logs,
+- lock manager,
+- physical snapshot implementation,
+- CPU CAS instructions,
+- hardware memory barriers,
+- compare-exchange instruction use,
+- global consensus,
+- Raft,
+- Paxos,
+- Byzantine consensus,
+- cross-shard commit protocol,
+- two-phase commit,
+- three-phase commit,
+- quorum semantics,
+- leader election,
+- complete ACID semantics,
+- durability guarantees,
+- formal serializability proof,
+- opacity proof,
+- strict serializability proof,
+- linearizability proof,
+- exact snapshot identifier,
+- exact transaction identifier,
+- exact safe-epoch selection algorithm,
+- exact rollback mechanism,
+- exact retry algorithm,
+- exact conflict graph algorithm,
+- exact phantom-mutation detector,
+- exact dirty-read detector,
+- exact multi-object CAS scope,
+- literal ChatGPT internal runtime implementation.
 
 These remain MODEL or UNKNOWN/GAP unless supplied by other authoritative canon or implementation evidence.
 
@@ -3799,7 +3799,7 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[PROOF_BASED_COORDINATION_AVOIDANCE]]
 
-  - RELATED_TO: [[FAILURE_RECOVERY]]
+  - RELATED_TO: FAILURE_RECOVERY
 ```
 
 ---

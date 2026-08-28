@@ -19,7 +19,7 @@ Certifies atomic multi-capsule transaction guarantees.
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[ATOMIC_MULTI_RSCF]] · [[ATOMIC_MULTI_RSCF_REASONING]] · [[K_ATOMIC_MULTI_RSCF]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[ATOMIC_MULTI_RSCF]] · [[ATOMIC_MULTI_RSCF_REASONING]] · K_ATOMIC_MULTI_RSCF
 
 **MOC:** [[01_CORE_LAWS_MOC]]
 
