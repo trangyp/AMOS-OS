@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "FRACTAL_KNOWLEDGE_NETWORK Specification"
 aliases:
@@ -5592,6 +5591,3 @@ RSCF-RELATIONS:
 ---
 
 00_ROOT_MOC|AMOS MOC
-
-```
-```

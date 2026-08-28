@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "INDEX MODELS README"
 aliases:
@@ -4365,6 +4364,3 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[00_INDEX_MOC]]
-
-```
-```
