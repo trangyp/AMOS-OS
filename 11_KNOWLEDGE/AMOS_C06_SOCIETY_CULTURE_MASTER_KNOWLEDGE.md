@@ -2,19 +2,17 @@
 type: note
 source: 11_KNOWLEDGE
 id: AMOS-C06-SOCIETY-CULTURE-MASTER-KNOWLEDGE
-title: "AMOS C06 — Society & Culture Master Knowledge"
-origin_architect: "Trang Phan"
-artifact_type: "domain_master_knowledge"
-domain: "C06_SOCIETY_CULTURE"
-conclusion_class: "MIXED"
-evidence_policy: "typed_per_node"
-canon_status: "DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES"
-language: "en"
-architecture: "HML_fractal_single_file"
-placeholder_status: "NONE"
-version: "1.0"
-source_lineage: "see body"
-source_family_mapping: "see body"
+title: AMOS C06 — Society & Culture Master Knowledge
+origin_architect: Trang Phan
+artifact_type: domain_master_knowledge
+domain: C06_SOCIETY_CULTURE
+conclusion_class: MIXED
+evidence_policy: typed_per_node
+canon_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
+language: en
+architecture: HML_fractal_single_file
+placeholder_status: NONE
+version: '1.0'
 tags:
 - knowledge
 - note
@@ -25,6 +23,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # AMOS C06 — Society & Culture Master Knowledge

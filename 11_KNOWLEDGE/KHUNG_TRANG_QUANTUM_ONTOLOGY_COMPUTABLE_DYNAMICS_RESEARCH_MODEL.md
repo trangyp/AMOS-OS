@@ -2,28 +2,21 @@
 type: quantum
 source: 11_KNOWLEDGE
 id: TRA-RESEARCH-QUANTUM-ONTOLOGY-COMPUTABLE-DYNAMICS
-title: "Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics"
-origin_architect: "Trang Phan"
-source_name: "Khung trang"
-artifact_type: "research_model"
-conclusion_class: "MODEL"
-evidence_class: "SOURCE_CLAIM"
-canon_status: "NON_CANONICAL"
-validation_status: "UNVALIDATED"
-research_status: "OPEN"
-language: "vi"
-domains: "- quantum_systems
-  - ontology
-  - emergence
-  - causal_dynamics
-  - complex_systems
-  - cognition
- ..."
-frameworks: "- Trang_Framework
-  - HML
-  - recursive_survival_dynamics..."
-proposed_location: "22_RESEARCH/03_COMPETING_MODELS"
-cross_links: "see body"
+title: Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
+origin_architect: Trang Phan
+source_name: Khung trang
+artifact_type: research_model
+conclusion_class: MODEL
+evidence_class: SOURCE_CLAIM
+canon_status: NON_CANONICAL
+validation_status: UNVALIDATED
+research_status: OPEN
+language: vi
+domains:
+- quantum_systems - ontology - emergence - causal_dynamics - complex_systems - cognition
+frameworks:
+- Trang_Framework - HML - recursive_survival_dynamics
+proposed_location: 22_RESEARCH/03_COMPETING_MODELS
 tags:
 - knowledge
 - note
@@ -34,6 +27,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics

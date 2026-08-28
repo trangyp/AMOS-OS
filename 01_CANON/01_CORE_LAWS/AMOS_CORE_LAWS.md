@@ -3,10 +3,10 @@ type: law
 source: 01_CANON/01_CORE_LAWS
 artifact_id: AMOS-CORE-LAWS
 name: AMOS_CORE_LAWS
-title: "AMOS Core Laws — Constitutional Invariants of AMOS OS"
-document_version: "2.0.0"
-law_set_version: "4.4"
-amos_core_target: "v4.4"
+title: AMOS Core Laws — Constitutional Invariants of AMOS OS
+document_version: 2.0.0
+law_set_version: '4.4'
+amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
@@ -16,7 +16,6 @@ origin_architect: Trang Phan
 steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
-scope: "see body"
 tags:
 - amos
 - canon
@@ -53,13 +52,10 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/amos-core-laws
-aliases: "- AMOS Core Laws
-  - AMOS Constitutional Laws
-  - AMOS Integrity Laws
-  - AMOS Core Invariants
-  - A..."
-related: "see body"
+aliases:
+- AMOS Core Laws - AMOS Constitutional Laws - AMOS Integrity Laws - AMOS Core Invariants - A
 ---
+
 # AMOS Core Laws
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

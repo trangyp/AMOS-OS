@@ -34,10 +34,10 @@ tags:
 - topic/semantic-migration
 - topic/lineage
 - topic/provenance
-aliases: "- AMOS Deprecated Terms
-  - Deprecated Terminology Registry
-  - AMOS Terminology Migration Registry..."
+aliases:
+- AMOS Deprecated Terms - Deprecated Terminology Registry - AMOS Terminology Migration Registry
 ---
+
 # AMOS OS Deprecated Terms
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** v4.4  

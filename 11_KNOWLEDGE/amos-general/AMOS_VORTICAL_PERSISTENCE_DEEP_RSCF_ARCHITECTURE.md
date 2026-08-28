@@ -1,16 +1,16 @@
 ---
-title: "AMOS Vortical Persistence — Deep RSCF Architecture"
+title: AMOS Vortical Persistence — Deep RSCF Architecture
 type: architecture
 source: 11_KNOWLEDGE/amos-general
-subtitle: "Solar magnetic activity, Saturn's hexagon, tornadoes, and tropical cyclones as persistence/dissolution systems"
-origin_architect: "Trang Phan"
-source_lineage: "Refined from uploaded Trang ∅ vortex comparison note"
-document_role: "AMOS domain capsule + research specification"
-epistemic_default: "AMOS_MODEL"
-empirical_boundary: "DOMAIN_EMPIRICAL claims require independent source validation"
-amos_runtime_alignment: "see body"
-updated: "2026-08-25"
-status: "CONDITIONAL_RESEARCH_CAPSULE"
+subtitle: Solar magnetic activity, Saturn's hexagon, tornadoes, and tropical cyclones as persistence/dissolution
+  systems
+origin_architect: Trang Phan
+source_lineage: Refined from uploaded Trang ∅ vortex comparison note
+document_role: AMOS domain capsule + research specification
+epistemic_default: AMOS_MODEL
+empirical_boundary: DOMAIN_EMPIRICAL claims require independent source validation
+updated: '2026-08-25'
+status: CONDITIONAL_RESEARCH_CAPSULE
 tags:
 - amos-general
 - amos
@@ -22,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_architecture
 ---
+
 
 
 # AMOS Vortical Persistence — Deep RSCF Architecture

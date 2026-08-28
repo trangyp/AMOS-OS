@@ -1,8 +1,8 @@
 ---
-title: "AMOS Brain Engine Specs"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Core/"
-origin_architect: "Trang Phan"
+title: AMOS Brain Engine Specs
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Core/
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/brain
 tags:
@@ -13,11 +13,11 @@ tags:
 - rscf/state/observation
 - topic/amos-brain-engine-specs
 - brain
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-sources: "see body"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 ---
+
 # AMOS Brain Engine Specs
 Ingest summary of key AMOS brain engine specs from Google Drive (`_00_AMOS_CANON/Core/`).  
 All specs authored by **Trang Phan**.

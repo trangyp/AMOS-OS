@@ -43,10 +43,10 @@ tags:
 - topic/kernel
 - topic/kernel-architecture
 - topic/deterministic-logic
-aliases: "- AMOS Kernel
-  - AMOS OS Kernel
-  - Kernel Plane..."
+aliases:
+- AMOS Kernel - AMOS OS Kernel - Kernel Plane
 ---
+
 # AMOS OS Kernel
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

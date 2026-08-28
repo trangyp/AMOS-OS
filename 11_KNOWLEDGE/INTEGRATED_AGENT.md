@@ -3,25 +3,24 @@ type: agent
 source: 11_KNOWLEDGE
 artifact_id: AMOS-UNIVERSAL-RENAME-ENGINE
 name: amos-universal-rename-engine
-title: "AMOS Universal Rename Engine — Governed Deterministic Namespace Migration"
-document_version: "3.0.0"
-engine_version: "2.0.0"
-migration_contract_version: "1.0.0"
-amos_core_target: "v4.4"
-created: "2026-08-22"
-updated: "2026-08-25"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
+title: AMOS Universal Rename Engine — Governed Deterministic Namespace Migration
+document_version: 3.0.0
+engine_version: 2.0.0
+migration_contract_version: 1.0.0
+amos_core_target: v4.4
+created: '2026-08-22'
+updated: '2026-08-25'
+origin_architect: Trang Phan
+steward: Trang Phan
 canon-group: tech-ai
 canon-type: framework
 rscf-state: source-claim
-conclusion_class: "SOURCE_CLAIM / AMOS_MODEL"
-implementation_state: "SOURCE_IMPLEMENTATION"
-execution_risk: "MUTATING_FILESYSTEM"
+conclusion_class: SOURCE_CLAIM / AMOS_MODEL
+implementation_state: SOURCE_IMPLEMENTATION
+execution_risk: MUTATING_FILESYSTEM
 topic: integratedagent
-aliases: "- AMOS Universal Rename Engine
-  - AMOS Namespace Migration Engine
-  - AMOS Deterministic Rename Eng..."
+aliases:
+- AMOS Universal Rename Engine - AMOS Namespace Migration Engine - AMOS Deterministic Rename Eng
 tags:
 - canon-group/tech-ai
 - knowledge
@@ -35,13 +34,14 @@ tags:
 - topic/namespace-migration
 - topic/repository-migration
 - agents
-governing_law: "integrity > completeness > fluency > speed > token savings"
+governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # AMOS Universal Rename Engine

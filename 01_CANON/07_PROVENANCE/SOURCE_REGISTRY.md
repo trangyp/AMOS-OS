@@ -37,10 +37,10 @@ tags:
 - topic/freshness
 - topic/sybil-hardening
 - topic/persistent-provenance
-aliases: "- AMOS Source Registry
-  - AMOS OS Source Registry
-  - Canon Source Registry..."
+aliases:
+- AMOS Source Registry - AMOS OS Source Registry - Canon Source Registry
 ---
+
 # AMOS OS Source Registry
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

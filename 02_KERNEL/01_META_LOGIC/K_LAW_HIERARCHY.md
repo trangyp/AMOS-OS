@@ -39,11 +39,10 @@ tags:
 - rscf/provenance
 - rscf/state/model
 - topic/law-hierarchy
-aliases: "- AMOS Law Hierarchy Kernel
-  - Law Hierarchy Kernel
-  - K Law Hierarchy
-  - K_LAW_HIERARCHY..."
+aliases:
+- AMOS Law Hierarchy Kernel - Law Hierarchy Kernel - K Law Hierarchy - K_LAW_HIERARCHY
 ---
+
 # K_LAW_HIERARCHY
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

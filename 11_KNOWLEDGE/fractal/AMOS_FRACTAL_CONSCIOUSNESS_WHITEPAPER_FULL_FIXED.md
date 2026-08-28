@@ -14,7 +14,6 @@ status: active
 conclusion_class: AMOS_MODEL
 source_language: vi
 epistemic_mode: source_preserving_with_amos_firewalls
-description: "see body"
 tags:
 - fractal
 - math
@@ -26,6 +25,7 @@ rscf:
   provenance: AMOS_corpus
   scope: fractal_system
 ---
+
 
 
 # AMOS ALIGNMENT LAYER

@@ -38,11 +38,10 @@ tags:
 - topic/event-driven-architecture
 - topic/event-routing
 - topic/causal-lineage
-aliases: "- AMOS Event Bus Kernel
-  - Event Bus Kernel
-  - K Event Bus
-  - K_EVENT_BUS..."
+aliases:
+- AMOS Event Bus Kernel - Event Bus Kernel - K Event Bus - K_EVENT_BUS
 ---
+
 # K EVENT BUS
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

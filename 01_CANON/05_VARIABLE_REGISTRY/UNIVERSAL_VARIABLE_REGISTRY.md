@@ -3,10 +3,10 @@ type: variable
 source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-UNIVERSAL-VARIABLE-REGISTRY
 name: UNIVERSAL_VARIABLE_REGISTRY
-title: "AMOS Universal Variable Registry"
-document_version: "1.0.0"
-canon_version: "4.4"
-amos_core_target: "v4.4"
+title: AMOS Universal Variable Registry
+document_version: 1.0.0
+canon_version: '4.4'
+amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 canon_group: meta
@@ -42,12 +42,10 @@ tags:
 - canon/registry
 - topic/variables
 - topic/semantic-identity
-aliases: "- AMOS Universal Variable Registry
-  - Universal Variable Registry
-  - AMOS Variable Registry
-  - AM..."
-related: "see body"
+aliases:
+- AMOS Universal Variable Registry - Universal Variable Registry - AMOS Variable Registry - AM
 ---
+
 # AMOS Universal Variable Registry
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

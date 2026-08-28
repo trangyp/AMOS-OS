@@ -3,10 +3,10 @@ type: map
 source: 00_ROOT
 artifact_id: AMOS-OS-SYSTEM-MAP
 name: AMOS_OS_SYSTEM_MAP
-title: "AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship Map"
-document_version: "2.0.0"
-map_version: "1.0.0"
-amos_core_target: "v4.4"
+title: AMOS OS System Map — Authoritative Plane Topology and Cross-System Relationship Map
+document_version: 2.0.0
+map_version: 1.0.0
+amos_core_target: v4.4
 status: ACTIVE_MAP
 conclusion_class: AMOS_MODEL
 rscf_state: derived
@@ -16,12 +16,8 @@ origin_architect: Trang Phan
 steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
-scope: "- AMOS_OS
-  - repository_topology
-  - system_planes
-  - authority_boundaries
-  - execution_topology
-..."
+scope:
+- AMOS_OS - repository_topology - system_planes - authority_boundaries - execution_topology
 tags:
 - amos
 - amos_os
@@ -75,13 +71,10 @@ tags:
 - topic/system-map
 - topic/system-topology
 - topic/repository-architecture
-aliases: "- AMOS System Map
-  - AMOS OS System Map
-  - AMOS Plane Map
-  - AMOS Architecture Map
-  - AMOS Repos..."
-related: "see body"
+aliases:
+- AMOS System Map - AMOS OS System Map - AMOS Plane Map - AMOS Architecture Map - AMOS Repos
 ---
+
 # AMOS OS System Map
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_MAP`  

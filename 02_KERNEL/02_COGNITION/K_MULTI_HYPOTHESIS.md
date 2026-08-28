@@ -44,11 +44,10 @@ tags:
 - topic/multi-hypothesis
 - topic/competing-hypotheses
 - topic/discriminating-evidence
-aliases: "- AMOS Multi Hypothesis Kernel
-  - Multi Hypothesis Kernel
-  - K Multi Hypothesis
-  - K_MULTI_HYPOTH..."
+aliases:
+- AMOS Multi Hypothesis Kernel - Multi Hypothesis Kernel - K Multi Hypothesis - K_MULTI_HYPOTH
 ---
+
 # K_MULTI_HYPOTHESIS
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

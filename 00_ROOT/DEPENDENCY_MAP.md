@@ -44,11 +44,10 @@ tags:
 - topic/dependency-closure
 - topic/invalidation
 - topic/failure-propagation
-aliases: "- AMOS OS Dependency Map
-  - Dependency Map
-  - AMOS Dependency Topology
-  - DEPENDENCY_MAP..."
+aliases:
+- AMOS OS Dependency Map - Dependency Map - AMOS Dependency Topology - DEPENDENCY_MAP
 ---
+
 # AMOS OS Dependency Map
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

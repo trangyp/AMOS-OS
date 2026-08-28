@@ -3,31 +3,29 @@ type: agent
 source: 11_KNOWLEDGE
 artifact_id: AMOS-INVESTMENT-AGENT
 name: Investment_Agent
-title: "AMOS Investment Agent — Governed Money-System Component"
-document_version: "2.0.0"
-component_version: "1.0.0"
-runtime_contract_version: "1.0.0"
-financial_model_version: "1.0.0"
-amos_core_target: "v4.4"
-created: "2026-08-25"
-updated: "2026-08-25"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "MONEY_SYSTEM"
-category: "agents"
-component: "Investment_Agent"
+title: AMOS Investment Agent — Governed Money-System Component
+document_version: 2.0.0
+component_version: 1.0.0
+runtime_contract_version: 1.0.0
+financial_model_version: 1.0.0
+amos_core_target: v4.4
+created: '2026-08-25'
+updated: '2026-08-25'
+origin_architect: Trang Phan
+steward: Trang Phan
+system: MONEY_SYSTEM
+category: agents
+component: Investment_Agent
 canon-group: tech-ai
 canon-type: component
 rscf-state: source-claim
-conclusion_class: "SOURCE_CLAIM / AMOS_MODEL"
-implementation_state: "REGISTERED_STUB"
-runtime_state: "NON_DESTRUCTIVE_TRACE_ONLY"
-financial_authority_state: "NONE_IMPLEMENTED"
+conclusion_class: SOURCE_CLAIM / AMOS_MODEL
+implementation_state: REGISTERED_STUB
+runtime_state: NON_DESTRUCTIVE_TRACE_ONLY
+financial_authority_state: NONE_IMPLEMENTED
 topic: investment-agent
-aliases: "- Investment Agent
-  - AMOS Investment Agent
-  - Money System Investment Agent
-  - Governed Investme..."
+aliases:
+- Investment Agent - AMOS Investment Agent - Money System Investment Agent - Governed Investme
 tags:
 - agents
 - knowledge
@@ -42,13 +40,14 @@ tags:
 - topic/investment-analysis
 - topic/portfolio
 - topic/financial-governance
-governing_law: "integrity > completeness > fluency > speed > token savings"
+governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # AMOS Investment Agent

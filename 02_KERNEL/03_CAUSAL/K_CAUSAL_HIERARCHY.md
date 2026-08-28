@@ -41,11 +41,10 @@ tags:
 - causal/effect
 - topic/causal-hierarchy
 - topic/causal-inference
-aliases: "- AMOS Causal Hierarchy Kernel
-  - Causal Hierarchy Kernel
-  - K Causal Hierarchy
-  - K_CAUSAL_HIERA..."
+aliases:
+- AMOS Causal Hierarchy Kernel - Causal Hierarchy Kernel - K Causal Hierarchy - K_CAUSAL_HIERA
 ---
+
 # K CAUSAL HIERARCHY
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

@@ -2,30 +2,24 @@
 type: trang-framework
 source: 11_KNOWLEDGE
 id: TRA-RESEARCH-RECURSIVE-ONTOLOGY-DYNAMICS
-title: "Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics"
-origin_architect: "Trang Phan"
-source_name: "Trang Framework"
-artifact_type: "research_model"
-conclusion_class: "MODEL"
-evidence_class: "SOURCE_CLAIM"
-canon_status: "NON_CANONICAL"
-validation_status: "UNVALIDATED"
-research_status: "OPEN"
-language: "en"
-domains: "- foundational_ontology
-  - quantum_systems
-  - thermodynamics
-  - complex_systems
-  - emergence
-  -..."
-frameworks: "- Trang_Framework
-  - HML
-  - recursive_survival_dynamics..."
-proposed_location: "22_RESEARCH/03_COMPETING_MODELS"
-cross_links: "see body"
-epistemic_regime: "THEORETICAL_RESEARCH"
-scope: "cross-scale recursive systems modeling"
-freshness_policy: "REVALIDATE_ON_DEPENDENCY_CHANGE"
+title: Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics
+origin_architect: Trang Phan
+source_name: Trang Framework
+artifact_type: research_model
+conclusion_class: MODEL
+evidence_class: SOURCE_CLAIM
+canon_status: NON_CANONICAL
+validation_status: UNVALIDATED
+research_status: OPEN
+language: en
+domains:
+- foundational_ontology - quantum_systems - thermodynamics - complex_systems - emergence -
+frameworks:
+- Trang_Framework - HML - recursive_survival_dynamics
+proposed_location: 22_RESEARCH/03_COMPETING_MODELS
+epistemic_regime: THEORETICAL_RESEARCH
+scope: cross-scale recursive systems modeling
+freshness_policy: REVALIDATE_ON_DEPENDENCY_CHANGE
 tags:
 - knowledge
 - note
@@ -36,6 +30,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics

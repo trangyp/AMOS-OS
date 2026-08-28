@@ -37,11 +37,10 @@ tags:
 - topic/context-state
 - topic/state-management
 - topic/dependency-closure
-aliases: "- AMOS Context State Kernel
-  - Context State Kernel
-  - K Context State
-  - K_CONTEXT_STATE..."
+aliases:
+- AMOS Context State Kernel - Context State Kernel - K Context State - K_CONTEXT_STATE
 ---
+
 # K CONTEXT STATE
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

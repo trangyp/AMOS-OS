@@ -38,10 +38,10 @@ tags:
 - topic/scope
 - topic/invalidation
 - topic/adversarial-validation
-aliases: "- AMOS Conflict Registry
-  - AMOS OS Conflict Registry
-  - Canon Conflict Registry..."
+aliases:
+- AMOS Conflict Registry - AMOS OS Conflict Registry - Canon Conflict Registry
 ---
+
 # AMOS OS Conflict Registry
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

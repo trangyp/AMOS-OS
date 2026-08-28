@@ -36,11 +36,10 @@ tags:
 - topic/causal-lineage
 - topic/sybil-hardening
 - topic/persistent-provenance
-aliases: "- AMOS Canon Provenance
-  - Canon Provenance Registry
-  - AMOS Canon Lineage Registry
-  - Canon Sour..."
+aliases:
+- AMOS Canon Provenance - Canon Provenance Registry - AMOS Canon Lineage Registry - Canon Sour
 ---
+
 # AMOS OS Canon Provenance
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

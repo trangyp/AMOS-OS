@@ -1,24 +1,20 @@
 ---
-title: "AMOS GIANT VALUE CREATION OS — Strategic Commercial Architecture"
+title: AMOS GIANT VALUE CREATION OS — Strategic Commercial Architecture
 type: value
 source: 11_KNOWLEDGE/amos-general
-origin_architect: "Trang Phan"
-source_artifact: "⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY PLAN)"
-artifact_type: "AMOS commercial operating architecture"
-status: "governed strategic model"
-runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 reasoning pattern"
-governance_layer: "AMOS infrastructure/control plane"
-economic_model: "segment → paid problem → value proposition → pricing → offer → purchase → delivery → retention → contribution margin → strategic fit → scale/iterate/stop"
-epistemic_classes: "- SOURCE_CLAIM
-  - OBSERVATION
-  - DERIVED
-  - AMOS_MODEL
-  - DECISION
-  - COMPETING
-  - UNKNOWN_GAP..."
-conclusion_class: "CONDITIONAL"
-version: "2.0-deep"
-date: "2026-08-25"
+origin_architect: Trang Phan
+source_artifact: ⭐ KẾ HOẠCH TẠO GIÁ TRỊ KHỔNG LỒ (THE GIANT MONEY PLAN)
+artifact_type: AMOS commercial operating architecture
+status: governed strategic model
+runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 reasoning pattern
+governance_layer: AMOS infrastructure/control plane
+economic_model: segment → paid problem → value proposition → pricing → offer → purchase → delivery → retention
+  → contribution margin → strategic fit → scale/iterate/stop
+epistemic_classes:
+- SOURCE_CLAIM - OBSERVATION - DERIVED - AMOS_MODEL - DECISION - COMPETING - UNKNOWN_GAP
+conclusion_class: CONDITIONAL
+version: 2.0-deep
+date: '2026-08-25'
 tags:
 - amos-general
 - amos
@@ -30,6 +26,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_architecture
 ---
+
 
 
 # ⭐ AMOS GIANT VALUE CREATION OS

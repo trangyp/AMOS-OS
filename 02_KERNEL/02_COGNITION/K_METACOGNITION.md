@@ -37,11 +37,10 @@ tags:
 - rscf/provenance
 - rscf/state/model
 - topic/metacognition
-aliases: "- AMOS Metacognition Kernel
-  - Metacognition Kernel
-  - K Metacognition
-  - K_METACOGNITION..."
+aliases:
+- AMOS Metacognition Kernel - Metacognition Kernel - K Metacognition - K_METACOGNITION
 ---
+
 # K_METACOGNITION
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

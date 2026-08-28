@@ -34,11 +34,10 @@ tags:
 - topic/identity
 - topic/semantic-identity
 - topic/provenance-lineage
-aliases: "- AMOS Identity Kernel
-  - Identity Kernel
-  - K Identity
-  - K_IDENTITY..."
+aliases:
+- AMOS Identity Kernel - Identity Kernel - K Identity - K_IDENTITY
 ---
+
 # K IDENTITY
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

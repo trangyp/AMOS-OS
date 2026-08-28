@@ -3,20 +3,19 @@ type: rule
 source: 00_ROOT
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
-title: "AMOS OS — Placement Rules"
-document_version: "2.0.0"
-architecture_contract_version: "1.0.0"
-amos_core_target: "v4.4"
+title: AMOS OS — Placement Rules
+document_version: 2.0.0
+architecture_contract_version: 1.0.0
+amos_core_target: v4.4
 status: ACTIVE_ROOT
-conclusion_class: "AMOS_MODEL"
-rscf_state: "derived"
-canon_group: "tech-ai"
-canon_type: "root-architecture"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-created: "2026-08-25"
-updated: "2026-08-25"
-scope: "see body"
+conclusion_class: AMOS_MODEL
+rscf_state: derived
+canon_group: tech-ai
+canon_type: root-architecture
+origin_architect: Trang Phan
+steward: Trang Phan
+created: '2026-08-25'
+updated: '2026-08-25'
 tags:
 - amos
 - amos_os
@@ -69,12 +68,10 @@ tags:
 - topic/amos-os
 - topic/system-architecture
 - topic/cognitive-infrastructure
-aliases: "- AMOS OS
-  - AMOS Operating System
-  - AMOS Cognitive Operating System
-  - AMOS Universal Operating..."
-related: "see body"
+aliases:
+- AMOS OS - AMOS Operating System - AMOS Cognitive Operating System - AMOS Universal Operating
 ---
+
 # AMOS OS
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_ROOT`  

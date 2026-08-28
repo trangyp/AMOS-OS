@@ -3,10 +3,10 @@ type: note
 source: 00_ROOT
 artifact_id: AMOS-OS-ROOT
 name: AMOS_OS
-title: "AMOS OS — Governed Cognitive Operating Architecture (README)"
-document_version: "2.1.0"
-architecture_contract_version: "1.1.0"
-amos_core_target: "v4.4"
+title: AMOS OS — Governed Cognitive Operating Architecture (README)
+document_version: 2.1.0
+architecture_contract_version: 1.1.0
+amos_core_target: v4.4
 status: ACTIVE_ROOT
 conclusion_class: AMOS_MODEL
 rscf_state: derived
@@ -16,7 +16,6 @@ origin_architect: Trang Phan
 steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
-scope: "see body"
 tags:
 - amos
 - amos_os
@@ -67,12 +66,10 @@ tags:
 - rscf/state/derived
 - topic/amos-os
 - topic/system-architecture
-aliases: "- AMOS OS
-  - AMOS Operating System
-  - AMOS Cognitive Operating System
-  - AMOS System Root..."
-related: "see body"
+aliases:
+- AMOS OS - AMOS Operating System - AMOS Cognitive Operating System - AMOS System Root
 ---
+
 # AMOS OS
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_ROOT`  

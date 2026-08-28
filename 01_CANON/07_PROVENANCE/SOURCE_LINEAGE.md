@@ -37,11 +37,10 @@ tags:
 - topic/supersession
 - topic/sybil-hardening
 - topic/persistent-provenance
-aliases: "- AMOS Source Lineage
-  - AMOS OS Source Lineage
-  - Source Ancestry
-  - Canon Source Lineage..."
+aliases:
+- AMOS Source Lineage - AMOS OS Source Lineage - Source Ancestry - Canon Source Lineage
 ---
+
 # AMOS OS Source Lineage
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

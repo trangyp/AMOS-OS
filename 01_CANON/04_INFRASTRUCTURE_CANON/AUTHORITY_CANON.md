@@ -3,10 +3,10 @@ type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-AUTHORITY-CANON
 name: AUTHORITY_CANON
-title: "AMOS Authority Canon — Decision Rights, Permission, Commit, and Governance Law"
-document_version: "2.0.0"
-canon_version: "4.4"
-amos_core_target: "v4.4"
+title: AMOS Authority Canon — Decision Rights, Permission, Commit, and Governance Law
+document_version: 2.0.0
+canon_version: '4.4'
+amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
 rscf_state: derived
@@ -46,11 +46,10 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/authority-canon
-aliases: "- AMOS Authority Canon
-  - Authority Canon
-  - AMOS Decision Rights Canon
-  - AMOS Governance Author..."
+aliases:
+- AMOS Authority Canon - Authority Canon - AMOS Decision Rights Canon - AMOS Governance Author
 ---
+
 # AMOS Authority Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

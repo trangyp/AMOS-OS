@@ -45,11 +45,10 @@ tags:
 - topic/causal-epoch
 - topic/causal-finality
 - topic/epoch-boundary
-aliases: "- AMOS Causal Epoch Kernel
-  - Causal Epoch Kernel
-  - K Causal Epoch
-  - K_CAUSAL_EPOCH..."
+aliases:
+- AMOS Causal Epoch Kernel - Causal Epoch Kernel - K Causal Epoch - K_CAUSAL_EPOCH
 ---
+
 # K CAUSAL EPOCH
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

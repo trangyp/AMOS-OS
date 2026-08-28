@@ -3,22 +3,22 @@ type: agent
 source: 11_KNOWLEDGE
 artifact_id: AMOS-AGENT-SCHEMA
 name: amos-agent-schema-full
-title: "AMOS Agent Schema — Full Governed Specification"
-document_version: "3.0.0"
-schema_version: "3.0.0"
-supersedes_schema: "2.0.0-full"
-amos_core_target: "v4.4"
-created: "2026-08-22"
-updated: "2026-08-25"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
+title: AMOS Agent Schema — Full Governed Specification
+document_version: 3.0.0
+schema_version: 3.0.0
+supersedes_schema: 2.0.0-full
+amos_core_target: v4.4
+created: '2026-08-22'
+updated: '2026-08-25'
+origin_architect: Trang Phan
+steward: Trang Phan
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
 topic: agent-schema-full
 status: active
-conclusion_class: "AMOS_MODEL"
-source_status: "SOURCE_CLAIM"
+conclusion_class: AMOS_MODEL
+source_status: SOURCE_CLAIM
 tags:
 - canon-group/tech-ai
 - knowledge
@@ -28,16 +28,16 @@ tags:
 - rscf/provenance
 - rscf/state/observation
 - topic/agent-schema-full
-aliases: "- AGENT_SCHEMA
-  - AMOS Agent Schema
-  - Unified Agent Construction Schema..."
-governing_law: "integrity > completeness > fluency > speed > token savings"
+aliases:
+- AGENT_SCHEMA - AMOS Agent Schema - Unified Agent Construction Schema
+governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # AMOS Agent Schema — Full Governed Specification

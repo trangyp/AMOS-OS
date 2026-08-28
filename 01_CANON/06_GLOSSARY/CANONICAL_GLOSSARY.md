@@ -34,11 +34,10 @@ tags:
 - topic/identity
 - topic/provenance
 - topic/epistemics
-aliases: "- AMOS Canonical Glossary
-  - AMOS OS Glossary
-  - Canonical Terminology Registry
-  - AMOS Semantic ..."
+aliases:
+- AMOS Canonical Glossary - AMOS OS Glossary - Canonical Terminology Registry - AMOS Semantic
 ---
+
 # AMOS OS Canonical Glossary
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** v4.4  

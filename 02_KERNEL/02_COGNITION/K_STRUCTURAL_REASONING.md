@@ -44,11 +44,10 @@ tags:
 - recovery
 - rscf/state/model
 - topic/structural-reasoning
-aliases: "- K Structural Reasoning
-  - Structural Reasoning Kernel
-  - AMOS Structural Reasoning
-  - K_STRUCTU..."
+aliases:
+- K Structural Reasoning - Structural Reasoning Kernel - AMOS Structural Reasoning - K_STRUCTU
 ---
+
 # K STRUCTURAL REASONING
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

@@ -35,10 +35,10 @@ tags:
 - topic/invalidation
 - topic/rollback
 - topic/governed-evolution
-aliases: "- AMOS Supersession Log
-  - AMOS OS Supersession Log
-  - Canon Supersession Log..."
+aliases:
+- AMOS Supersession Log - AMOS OS Supersession Log - Canon Supersession Log
 ---
+
 # AMOS OS Supersession Log
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

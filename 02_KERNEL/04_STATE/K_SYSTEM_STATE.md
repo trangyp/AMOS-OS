@@ -36,11 +36,10 @@ tags:
 - topic/atomicity
 - topic/recovery
 - topic/finality
-aliases: "- AMOS System State Kernel
-  - System State Kernel
-  - K System State
-  - K_SYSTEM_STATE..."
+aliases:
+- AMOS System State Kernel - System State Kernel - K System State - K_SYSTEM_STATE
 ---
+
 # K SYSTEM STATE
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

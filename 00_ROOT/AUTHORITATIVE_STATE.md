@@ -43,11 +43,10 @@ tags:
 - topic/authoritative-state
 - topic/state-transition
 - topic/commit-integrity
-aliases: "- AMOS OS Authoritative State
-  - Authoritative State
-  - AMOS Authoritative State
-  - AUTHORITATIVE..."
+aliases:
+- AMOS OS Authoritative State - Authoritative State - AMOS Authoritative State - AUTHORITATIVE
 ---
+
 # AMOS OS Authoritative State
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

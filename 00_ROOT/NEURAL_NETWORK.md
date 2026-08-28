@@ -3,25 +3,21 @@ type: neural
 source: 00_ROOT
 artifact_id: AMOS-OS-NEURAL-NETWORK
 name: AMOS_OS_NEURAL_NETWORK
-title: "AMOS Neural Network — Vault Graph Hub and Cross-Plane Connectivity Map"
-document_version: "2.0.0"
-network_map_version: "1.0.0"
-amos_core_target: "v4.4"
+title: AMOS Neural Network — Vault Graph Hub and Cross-Plane Connectivity Map
+document_version: 2.0.0
+network_map_version: 1.0.0
+amos_core_target: v4.4
 status: ACTIVE_MAP
-conclusion_class: "AMOS_MODEL"
-rscf_state: "derived"
-canon_group: "tech-ai"
-canon_type: "navigation-map"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-created: "2026-08-25"
-updated: "2026-08-25"
-scope: "- AMOS_OS
-  - vault_navigation
-  - graph_connectivity
-  - cross_plane_links
-  - obsidian_graph
-  - n..."
+conclusion_class: AMOS_MODEL
+rscf_state: derived
+canon_group: tech-ai
+canon_type: navigation-map
+origin_architect: Trang Phan
+steward: Trang Phan
+created: '2026-08-25'
+updated: '2026-08-25'
+scope:
+- AMOS_OS - vault_navigation - graph_connectivity - cross_plane_links - obsidian_graph - n
 tags:
 - amos
 - amos_os
@@ -76,12 +72,10 @@ tags:
 - topic/neural-network
 - topic/knowledge-graph
 - topic/vault-navigation
-aliases: "- AMOS Neural Network
-  - AMOS Vault Neural Network
-  - AMOS Knowledge Graph Hub
-  - AMOS OS Graph H..."
-related: "see body"
+aliases:
+- AMOS Neural Network - AMOS Vault Neural Network - AMOS Knowledge Graph Hub - AMOS OS Graph H
 ---
+
 # AMOS Neural Network
 > **Status:** `ACTIVE_MAP`  
 > **AMOS_CORE target:** `v4.4`  

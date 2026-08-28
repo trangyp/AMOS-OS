@@ -39,11 +39,10 @@ tags:
 - rscf/provenance
 - rscf/state/model
 - topic/counterfactual-reasoning
-aliases: "- AMOS Counterfactual Kernel
-  - Counterfactual Kernel
-  - K Counterfactual
-  - K_COUNTERFACTUAL..."
+aliases:
+- AMOS Counterfactual Kernel - Counterfactual Kernel - K Counterfactual - K_COUNTERFACTUAL
 ---
+
 # K_COUNTERFACTUAL
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

@@ -43,11 +43,10 @@ tags:
 - topic/dependency-closure
 - topic/atomic-reasoning
 - topic/governed-evolution
-aliases: "- AMOS Kernel Map
-  - AMOS OS Kernel Map
-  - Kernel Topology
-  - Kernel Contract Map..."
+aliases:
+- AMOS Kernel Map - AMOS OS Kernel Map - Kernel Topology - Kernel Contract Map
 ---
+
 # AMOS OS Kernel Map
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

@@ -46,11 +46,10 @@ tags:
 - topic/causal-closure
 - topic/causal-lineage
 - topic/causal-dependency
-aliases: "- AMOS Causal Closure Kernel
-  - Causal Closure Kernel
-  - K Causal Closure
-  - K_CAUSAL_CLOSURE..."
+aliases:
+- AMOS Causal Closure Kernel - Causal Closure Kernel - K Causal Closure - K_CAUSAL_CLOSURE
 ---
+
 # K CAUSAL CLOSURE
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

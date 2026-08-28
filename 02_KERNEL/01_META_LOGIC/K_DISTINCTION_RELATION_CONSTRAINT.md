@@ -38,11 +38,10 @@ tags:
 - rscf/provenance
 - rscf/state/model
 - topic/distinction-relation-constraint
-aliases: "- DRC Kernel
-  - Distinction Relation Constraint
-  - K DRC
-  - AMOS Distinction Relation Constraint ..."
+aliases:
+- DRC Kernel - Distinction Relation Constraint - K DRC - AMOS Distinction Relation Constraint
 ---
+
 # K_DISTINCTION_RELATION_CONSTRAINT
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

@@ -42,11 +42,10 @@ tags:
 - rscf/provenance
 - rscf/state/model
 - topic/meta-logic
-aliases: "- AMOS Meta Logic Kernel
-  - Meta Logic Kernel
-  - K Meta Logic
-  - K_META_LOGIC..."
+aliases:
+- AMOS Meta Logic Kernel - Meta Logic Kernel - K Meta Logic - K_META_LOGIC
 ---
+
 # K_META_LOGIC
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

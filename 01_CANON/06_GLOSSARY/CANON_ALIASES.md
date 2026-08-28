@@ -31,11 +31,10 @@ tags:
 - topic/identity-resolution
 - topic/naming
 - topic/provenance
-aliases: "- AMOS Alias Registry
-  - AMOS Identity Alias Registry
-  - Canonical Alias Registry
-  - Alias Resolu..."
+aliases:
+- AMOS Alias Registry - AMOS Identity Alias Registry - Canonical Alias Registry - Alias Resolu
 ---
+
 # AMOS OS Alias Registry
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** v4.4  
