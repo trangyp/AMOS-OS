@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Ghost Code Symbolic Execution Rscf
 
 ## Identity

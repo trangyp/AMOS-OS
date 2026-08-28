@@ -20,7 +20,8 @@ tags: [amos-os, amos_os, root, canon-group/tech-ai, canon/model, state, state/au
 aliases: "- AMOS OS Authoritative State
   - Authoritative State
   - AMOS Authoritative State
-  - AUTHORITATIVE..."---
+  - AUTHORITATIVE..."
+---
 # AMOS OS Authoritative State
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

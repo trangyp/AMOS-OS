@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Provenance Sybil Hardening Rscf Engine
 
 ## Identity

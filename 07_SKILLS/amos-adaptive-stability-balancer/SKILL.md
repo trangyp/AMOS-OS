@@ -54,13 +54,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS Adaptive Stability Balancer
 
 ## Identity

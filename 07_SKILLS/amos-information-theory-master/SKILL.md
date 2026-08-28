@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # L6 Uncertainty Laws
 
 ## Identity

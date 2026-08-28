@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Sae Semantic Transport Rscf Engine
 
 ## Identity

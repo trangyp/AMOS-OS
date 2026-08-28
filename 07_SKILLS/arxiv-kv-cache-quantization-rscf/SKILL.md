@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: kv Cache Quantization Rscf
 
 ## Identity

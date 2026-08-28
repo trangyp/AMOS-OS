@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Agentic Skill Lie Algebroid Rscf Engine
 
 ## Identity

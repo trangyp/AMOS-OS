@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: influence Guided Symbolic Regression Rscf
 
 ## Identity

@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Fx State Space Kalman Engine
 
 ## Identity

@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # AMOS C03 — Physics & Cosmos Master Knowledge
 
 ## Identity

@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Mckinsey: value Delivery Rscf
 
 ## Identity

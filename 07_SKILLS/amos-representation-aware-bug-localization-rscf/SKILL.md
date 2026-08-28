@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Representation Aware Bug Localization Rscf
 
 ## Identity

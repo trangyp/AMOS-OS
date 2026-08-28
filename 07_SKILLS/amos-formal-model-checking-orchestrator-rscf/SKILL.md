@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Formal Model Checking Orchestrator Rscf
 
 ## Identity

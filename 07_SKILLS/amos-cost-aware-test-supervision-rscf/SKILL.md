@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Cost Aware Test Supervision Rscf
 
 ## Identity

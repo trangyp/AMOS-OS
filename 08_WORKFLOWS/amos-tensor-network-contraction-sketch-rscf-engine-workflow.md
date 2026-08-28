@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Tensor Network Contraction Sketch Rscf Engine
 
 ## Identity

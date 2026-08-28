@@ -46,13 +46,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # AMOS C01 — Meta-Logic Master Knowledge
 
 ## Identity

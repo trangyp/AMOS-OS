@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Bounded Code Facts Rscf
 
 ## Identity

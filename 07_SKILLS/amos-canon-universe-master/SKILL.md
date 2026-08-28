@@ -49,13 +49,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # AMOS 7-Part Universe Canon
 
 ## Identity

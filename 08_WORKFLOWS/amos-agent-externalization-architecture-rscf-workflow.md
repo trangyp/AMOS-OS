@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Agent Externalization Architecture Rscf
 
 ## Identity

@@ -47,13 +47,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # L10 Failure & Recovery Laws
 
 ## Identity

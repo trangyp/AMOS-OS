@@ -43,12 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
 # Obsidian Plugin Auto Tag
 
 ## Identity

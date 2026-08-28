@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Fx Tensor Train Greeks Rscf Engine
 
 ## Identity

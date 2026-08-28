@@ -46,12 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
 # Workflow: 7 Part Universe Canon Full
 
 ## Identity

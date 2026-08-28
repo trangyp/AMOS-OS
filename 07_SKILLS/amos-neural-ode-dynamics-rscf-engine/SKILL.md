@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Neural Ode Dynamics Rscf Engine
 
 ## Identity

@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Human Biology Fractal Rscf Engine
 
 ## Identity

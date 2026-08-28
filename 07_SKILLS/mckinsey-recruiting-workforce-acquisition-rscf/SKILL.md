@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Mckinsey: recruiting Workforce Acquisition Rscf
 
 ## Identity

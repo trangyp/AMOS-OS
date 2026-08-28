@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Agency Consequence Governor
 
 ## Identity

@@ -20,7 +20,8 @@ tags: [amos-os, amos_os, root, canon-group/tech-ai, canon/model, architecture, a
 aliases: "- AMOS OS Dependency Map
   - Dependency Map
   - AMOS Dependency Topology
-  - DEPENDENCY_MAP..."---
+  - DEPENDENCY_MAP..."
+---
 # AMOS OS Dependency Map
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

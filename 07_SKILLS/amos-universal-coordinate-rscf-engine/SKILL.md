@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Universal Coordinate Rscf Engine
 
 ## Identity

@@ -49,13 +49,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Emotion-Cognition-Decision Bridge Governor
 
 ## Identity

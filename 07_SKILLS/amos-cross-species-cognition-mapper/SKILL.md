@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Cross Species Cognition Mapper
 
 ## Identity

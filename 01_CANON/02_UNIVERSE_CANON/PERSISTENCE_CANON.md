@@ -21,7 +21,8 @@ aliases: "- AMOS Persistence Canon
   - Persistence Canon
   - AMOS Durable State Canon
   - AMOS Persistent Prov..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Persistence Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

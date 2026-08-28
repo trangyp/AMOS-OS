@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS C06 — Society & Culture Master Knowledge
 
 ## Identity

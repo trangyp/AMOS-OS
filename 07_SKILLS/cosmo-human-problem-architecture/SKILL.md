@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Cosmo Human Problem Architecture
 
 ## Identity

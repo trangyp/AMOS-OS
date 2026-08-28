@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Budget Aware Optimizer Selection Rscf Engine
 
 ## Identity

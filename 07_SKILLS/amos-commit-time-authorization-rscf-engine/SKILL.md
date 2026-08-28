@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Commit Time Authorization Rscf Engine
 
 ## Identity

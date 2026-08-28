@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Cross Architecture Tensor Engine
 
 ## Identity

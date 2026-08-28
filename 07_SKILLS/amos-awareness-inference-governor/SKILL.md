@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Awareness Inference Governor
 
 ## Identity

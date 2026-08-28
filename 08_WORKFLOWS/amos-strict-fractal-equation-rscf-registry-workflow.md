@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Strict Fractal Equation Rscf Registry
 
 ## Identity

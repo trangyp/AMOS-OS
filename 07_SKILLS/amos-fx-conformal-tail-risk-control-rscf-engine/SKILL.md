@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Fx Conformal Tail Risk Control Rscf Engine
 
 ## Identity

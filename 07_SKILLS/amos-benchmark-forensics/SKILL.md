@@ -47,13 +47,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Benchmark Forensics
 
 ## Identity

@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Fractal Math
 
 ## Identity

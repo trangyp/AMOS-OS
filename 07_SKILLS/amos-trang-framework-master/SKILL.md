@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
 
 ## Identity

@@ -48,13 +48,6 @@ law_compliance:
 - L23
 ---
 
-
-
-
-
-
-
-
 # Provenance Sybil Hardening Rscf Engine
 
 ## Identity

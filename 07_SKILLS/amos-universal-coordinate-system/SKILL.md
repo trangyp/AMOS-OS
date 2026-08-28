@@ -47,13 +47,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Universal Coordinate System
 
 ## Identity

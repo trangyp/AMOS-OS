@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: time Series Bootstrap Conformal Rscf
 
 ## Identity

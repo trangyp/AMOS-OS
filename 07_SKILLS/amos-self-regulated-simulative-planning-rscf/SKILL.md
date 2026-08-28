@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Self Regulated Simulative Planning Rscf
 
 ## Identity

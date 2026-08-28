@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Self Regulated Simulative Planning Rscf
 
 ## Identity

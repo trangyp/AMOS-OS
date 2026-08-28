@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Distinct Working Memory Rscf
 
 ## Identity

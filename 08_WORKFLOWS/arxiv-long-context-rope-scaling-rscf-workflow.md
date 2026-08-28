@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Arxiv: long Context Rope Scaling Rscf
 
 ## Identity

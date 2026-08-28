@@ -21,7 +21,8 @@ aliases: "- AMOS HML Canon
   - H/M/L Canon
   - AMOS H/M/L Architecture
   - AMOS Fractal Knowledge Resolution C..."
-related: "see body"---
+related: "see body"
+---
 # AMOS H/M/L Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Source Reading Rscf Engine
 
 ## Identity

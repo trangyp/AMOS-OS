@@ -28,7 +28,8 @@ aliases: "- AMOS System Map
   - AMOS Plane Map
   - AMOS Architecture Map
   - AMOS Repos..."
-related: "see body"---
+related: "see body"
+---
 # AMOS OS System Map
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_MAP`  

@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Arxiv: time Series Bootstrap Conformal Rscf
 
 ## Identity

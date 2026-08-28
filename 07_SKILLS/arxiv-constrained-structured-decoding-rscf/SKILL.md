@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: constrained Structured Decoding Rscf
 
 ## Identity

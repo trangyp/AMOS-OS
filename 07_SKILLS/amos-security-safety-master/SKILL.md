@@ -47,13 +47,6 @@ law_compliance:
 - L23
 ---
 
-
-
-
-
-
-
-
 # SECURITY README
 
 ## Identity

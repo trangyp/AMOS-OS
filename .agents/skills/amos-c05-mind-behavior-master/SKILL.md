@@ -1,54 +1,17 @@
 ---
 name: amos-c05-mind-behavior-master
-description: "AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for generic tasks outside c05 domain."
+description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine
+  v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use
+  when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group
+  dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social
+  dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for
+  generic tasks outside c05 domain.
 parent_skill: none
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
 version: 1.1.0
 rscf_state: SOURCE_CLAIM
-hml_level: M
-gmef_gates:
-- L0_integrity
-- L1_epistemic
-- L2_provenance
-- L5_scope
-- L7_authority
-collapse_class: reversible
-qfm_gate_set: QFM_v43
-law_compliance:
-- L0
-- L1
-- L2
-- L4
-- L5
-- L7
-- L16
-- L17
-- L18
-title: "AMOS C05 — Mind & Behavior Master"
-type: mind
-source: 11_KNOWLEDGE
-tags:
-  - knowledge
-  - note
-  - canon/knowledge
-  - mind
-  - behavior
-  - emotion
-  - personality
-  - cognition
-  - motivation
-  - group_dynamics
-  - c05
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: MODEL
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
-  canonical_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
-  node_id: amos_c05_mind_behavior_master_knowledge
-  node_type: note
 hml_level: H
 gmef_gates:
 - L0_integrity
@@ -68,7 +31,27 @@ law_compliance:
 - L16
 - L17
 - L18
+title: AMOS C05 — Mind & Behavior Master
+type: mind
+source: 11_KNOWLEDGE
+tags:
+- type/skill
+- canon/skill
+- domain/mind-behavior
+- rscf/source_claim
+- hml/h
+- epistemic/source_claim
+- amos_os
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: MODEL
+  provenance: AMOS_corpus
+  scope: AMOS_knowledge
+  canonical_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
+  node_id: amos_c05_mind_behavior_master_knowledge
+  node_type: note
 ---
+
 # AMOS C05 — Mind & Behavior Master Knowledge
 
 ## Identity
@@ -208,6 +191,36 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 - **Scenario**: User says "Why does my friend keep avoiding conflict?"
   - **Input**: Personality pattern inquiry
   - **Output**: Personality Engine v0 trait analysis (avoidance pattern as MODEL), behavioral recommendations with culture/timescale flags, no clinical diagnosis
+
+## Anti-Patterns
+
+- **Do not** diagnose clinical conditions — this is a modeling skill, not a clinical tool
+- **Do not** assert personality traits as fixed — use Personality Engine v0 with timescale flags
+- **Do not** collapse emotion, cognition, and behavior into one axis — they are distinct H-level domains
+- **Do not** apply group dynamics frameworks to individuals without individual-level data
+- **Do not** ignore cultural context — emotion expression and personality norms are culture-dependent
+
+## Composition
+
+- **With C04 Bio-Neuro**: UBI substrate distress veto feeds into emotion/cognition evaluation
+- **With C03 Physics-Cosmos**: Cross-domain bridge for coupled human-Earth behavior modeling
+- **With C12 Earth-Ecology**: Bidirectional bridge for ecological behavior patterns
+- **With C06 Society-Culture**: Cultural context for emotion/personality interpretation
+- **With C09 Org-Law-Policy**: Group dynamics feeding into governance and policy reasoning
+
+## Evaluation
+
+- **Epistemic class tagging**: All outputs tagged SOURCE_CLAIM, DERIVED, or AMOS_MODEL
+- **Confidence ceiling**: Personality/emotion models capped at AMOS_MODEL unless empirically validated
+- **Falsifiability**: Each hypothesis must have declared falsification conditions
+- **Cross-domain boundary**: Domain-specific claims must not leak across domain boundaries without explicit bridge typing
+
+## Error Handling
+
+- **Insufficient data**: Return UNKNOWN/GAP, do not fabricate personality assessments
+- **Domain boundary violation**: Flag and refuse cross-domain claims without bridge typing
+- **Clinical scope violation**: Refuse clinical diagnosis attempts, redirect to appropriate domain
+- **Cultural context missing**: Flag as context-dependent, do not assert universal norms
 
 ## References
 

@@ -47,13 +47,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Prompt Domain Control Rscf Engine
 
 ## Identity

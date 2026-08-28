@@ -52,13 +52,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Learning-Memory-Knowledge Feedback Governor
 
 ## Identity

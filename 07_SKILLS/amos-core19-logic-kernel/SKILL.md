@@ -47,13 +47,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Core19 Logic Kernel
 
 ## Identity

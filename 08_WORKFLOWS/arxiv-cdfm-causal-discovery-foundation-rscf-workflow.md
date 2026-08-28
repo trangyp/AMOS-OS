@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Arxiv: cdfm Causal Discovery Foundation Rscf
 
 ## Identity

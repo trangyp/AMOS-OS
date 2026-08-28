@@ -49,13 +49,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # 7 Part Universe Canon Full
 
 ## Identity

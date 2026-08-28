@@ -19,7 +19,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/identity,
 aliases: "- AMOS Identity Kernel
   - Identity Kernel
   - K Identity
-  - K_IDENTITY..."---
+  - K_IDENTITY..."
+---
 # K IDENTITY
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

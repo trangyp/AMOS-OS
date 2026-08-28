@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Trajectory Bug Specification Refinement Rscf
 
 ## Identity

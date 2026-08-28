@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Context Compaction Recoverability Rscf
 
 ## Identity

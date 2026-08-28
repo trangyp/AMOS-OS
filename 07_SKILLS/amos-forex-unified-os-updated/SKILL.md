@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Forex Unified Os Updated
 
 ## Identity

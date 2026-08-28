@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS C09 — Organization, Law & Policy Master Knowledge
 
 ## Identity

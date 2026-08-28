@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Mckinsey: value Delivery Rscf
 
 ## Identity

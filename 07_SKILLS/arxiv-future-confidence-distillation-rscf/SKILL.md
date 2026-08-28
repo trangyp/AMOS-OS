@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: future Confidence Distillation Rscf
 
 ## Identity

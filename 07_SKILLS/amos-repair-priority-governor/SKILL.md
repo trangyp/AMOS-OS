@@ -47,13 +47,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Repair Priority Governor
 
 ## Identity

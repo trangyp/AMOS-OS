@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # L5 Scope, Regime, and Temporal Laws
 
 ## Identity

@@ -21,7 +21,8 @@ aliases: "- AMOS Cognition Canon
   - Cognition Canon
   - AMOS Reasoning Canon
   - AMOS Cognitive Integrity Can..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Cognition Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

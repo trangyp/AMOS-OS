@@ -49,13 +49,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Cross-Domain Tensor Composition Governor
 
 ## Identity

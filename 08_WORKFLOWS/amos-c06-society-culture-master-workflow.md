@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: AMOS C06 — Society & Culture Master
 
 ## Identity

@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Mckinsey: technology Sales Excellence Rscf
 
 ## Identity

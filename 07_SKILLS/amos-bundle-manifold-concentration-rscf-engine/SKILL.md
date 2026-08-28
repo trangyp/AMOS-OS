@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Bundle Manifold Concentration Rscf Engine
 
 ## Identity

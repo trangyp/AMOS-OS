@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # AMOS C12 — Earth & Ecology Master Knowledge
 
 ## Identity

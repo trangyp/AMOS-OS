@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Heterogeneous Exploration Cohort Rscf
 
 ## Identity

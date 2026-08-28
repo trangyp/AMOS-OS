@@ -49,13 +49,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Canon Compiler
 
 ## Identity

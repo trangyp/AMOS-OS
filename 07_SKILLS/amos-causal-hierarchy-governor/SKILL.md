@@ -47,13 +47,6 @@ law_compliance:
 - L24
 ---
 
-
-
-
-
-
-
-
 # Causal Hierarchy Governor
 
 ## Identity

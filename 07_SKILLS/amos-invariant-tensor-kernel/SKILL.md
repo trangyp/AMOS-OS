@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Invariant Tensor Kernel
 
 ## Identity

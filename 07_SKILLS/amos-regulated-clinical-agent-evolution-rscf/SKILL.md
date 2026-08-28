@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Regulated Clinical Agent Evolution Rscf
 
 ## Identity

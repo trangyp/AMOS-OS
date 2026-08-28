@@ -48,13 +48,6 @@ description: AMOS 7-Part Universe Canon — Persistence Canon auditing structura
   — even without explicitly asking for '7-part'.
 ---
 
-
-
-
-
-
-
-
 # AMOS 7-Part Universe Canon — Persistence Canon
 
 ## Identity

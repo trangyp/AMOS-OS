@@ -46,13 +46,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Law Hierarchy Resolver
 
 ## Identity

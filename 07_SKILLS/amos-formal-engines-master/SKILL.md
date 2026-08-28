@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # L02_ATTENTION — Purpose
 
 ## Identity

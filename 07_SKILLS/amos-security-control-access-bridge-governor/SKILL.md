@@ -54,13 +54,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Security-Control-Access Bridge Governor
 
 ## Identity

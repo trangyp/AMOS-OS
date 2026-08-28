@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS C08 — Strategy, Game Theory & Negotiation Master Knowledge
 
 ## Identity

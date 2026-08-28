@@ -47,13 +47,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Ai Drift Alignment Governor
 
 ## Identity

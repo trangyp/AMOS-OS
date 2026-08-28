@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Arxiv: influence Guided Symbolic Regression Rscf
 
 ## Identity

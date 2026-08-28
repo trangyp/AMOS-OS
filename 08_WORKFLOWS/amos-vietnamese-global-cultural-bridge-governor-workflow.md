@@ -49,13 +49,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Vietnamese-Global Cultural Bridge Governor
 
 ## Identity

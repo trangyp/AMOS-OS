@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Runtime Context Reuse Rscf
 
 ## Identity

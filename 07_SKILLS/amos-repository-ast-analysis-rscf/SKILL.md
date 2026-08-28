@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Repository Ast Analysis Rscf
 
 ## Identity

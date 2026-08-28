@@ -48,13 +48,6 @@ law_compliance:
 - L23
 ---
 
-
-
-
-
-
-
-
 # Semantic Token Flow Firewall Rscf
 
 ## Identity

@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Formal Model Checking Orchestrator Rscf
 
 ## Identity

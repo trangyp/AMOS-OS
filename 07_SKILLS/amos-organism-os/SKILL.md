@@ -48,13 +48,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Organism Os
 
 ## Identity

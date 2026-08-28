@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Long Context Ci Repository Reasoning Rscf
 
 ## Identity

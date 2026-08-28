@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Observability Driven Harness Evolution Rscf
 
 ## Identity

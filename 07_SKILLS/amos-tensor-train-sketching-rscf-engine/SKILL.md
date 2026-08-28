@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Tensor Train Sketching Rscf Engine
 
 ## Identity

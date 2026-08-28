@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS C02 — Math & Compute Master Knowledge
 
 ## Identity

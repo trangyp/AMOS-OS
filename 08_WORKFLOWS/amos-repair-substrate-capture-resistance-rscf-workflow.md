@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Repair Substrate Capture Resistance Rscf
 
 ## Identity

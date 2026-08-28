@@ -22,7 +22,8 @@ aliases: "- AMOS OS
   - AMOS Operating System
   - AMOS Cognitive Operating System
   - AMOS System Root..."
-related: "see body"---
+related: "see body"
+---
 # AMOS OS
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_ROOT`  

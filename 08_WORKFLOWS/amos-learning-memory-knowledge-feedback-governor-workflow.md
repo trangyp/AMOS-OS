@@ -49,13 +49,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Learning-Memory-Knowledge Feedback Governor
 
 ## Identity

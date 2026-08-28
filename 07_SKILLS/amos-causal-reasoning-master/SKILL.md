@@ -46,13 +46,6 @@ law_compliance:
 - L24
 ---
 
-
-
-
-
-
-
-
 # K CAUSAL HIERARCHY
 
 ## Identity

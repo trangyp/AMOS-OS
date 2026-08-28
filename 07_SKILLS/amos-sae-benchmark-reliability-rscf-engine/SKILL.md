@@ -47,13 +47,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Sae Benchmark Reliability Rscf Engine
 
 ## Identity

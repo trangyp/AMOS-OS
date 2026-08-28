@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Fx Realized Garch Autoencoder Rscf Engine
 
 ## Identity

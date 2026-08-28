@@ -19,7 +19,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/framework, kernel/map, 
 aliases: "- AMOS Kernel Map
   - AMOS OS Kernel Map
   - Kernel Topology
-  - Kernel Contract Map..."---
+  - Kernel Contract Map..."
+---
 # AMOS OS Kernel Map
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

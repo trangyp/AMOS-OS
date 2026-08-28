@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Agent Storage Footprint Rscf
 
 ## Identity

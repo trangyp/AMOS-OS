@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: spectral Latent Treatment Effects Rscf
 
 ## Identity

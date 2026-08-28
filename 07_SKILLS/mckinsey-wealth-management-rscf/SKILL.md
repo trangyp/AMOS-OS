@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Mckinsey: wealth Management Rscf
 
 ## Identity

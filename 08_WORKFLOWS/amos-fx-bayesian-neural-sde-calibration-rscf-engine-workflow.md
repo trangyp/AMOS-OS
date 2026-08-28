@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Fx Bayesian Neural Sde Calibration Rscf Engine
 
 ## Identity

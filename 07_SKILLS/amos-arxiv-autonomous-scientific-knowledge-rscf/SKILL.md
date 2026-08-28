@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: autonomous Scientific Knowledge Rscf
 
 ## Identity

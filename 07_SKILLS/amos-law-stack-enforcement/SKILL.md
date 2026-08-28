@@ -48,13 +48,6 @@ description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part 
   explicitly asking for 'law stack'.
 ---
 
-
-
-
-
-
-
-
 # AMOS Law Stack Enforcement
 
 ## Identity

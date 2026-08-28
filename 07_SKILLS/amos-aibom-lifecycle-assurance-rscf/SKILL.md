@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Aibom Lifecycle Assurance Rscf
 
 ## Identity

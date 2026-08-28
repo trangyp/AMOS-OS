@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Dependency Environment Reconstruction Rscf
 
 ## Identity

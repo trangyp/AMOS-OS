@@ -21,7 +21,8 @@ aliases: "- AMOS Unit Registry
   - Unit Registry
   - AMOS Measurement Registry
   - AMOS Quantity and Dimension..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Unit Registry
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

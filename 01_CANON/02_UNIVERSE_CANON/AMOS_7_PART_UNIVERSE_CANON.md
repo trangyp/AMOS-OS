@@ -21,7 +21,8 @@ aliases: "- AMOS 7-Part Universe
   - AMOS Seven-Part Universe
   - AMOS Universe Canon
   - AMOS Universal Parti..."
-related: "see body"---
+related: "see body"
+---
 # AMOS 7-Part Universe Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

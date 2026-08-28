@@ -52,13 +52,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS Workflow Builder
 
 ## Identity

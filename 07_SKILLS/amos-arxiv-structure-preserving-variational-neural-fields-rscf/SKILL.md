@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: structure Preserving Variational Neural Fields Rscf
 
 ## Identity

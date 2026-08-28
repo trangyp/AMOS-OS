@@ -20,7 +20,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/foundatio
 aliases: "- DRC Kernel
   - Distinction Relation Constraint
   - K DRC
-  - AMOS Distinction Relation Constraint ..."---
+  - AMOS Distinction Relation Constraint ..."
+---
 # K_DISTINCTION_RELATION_CONSTRAINT
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

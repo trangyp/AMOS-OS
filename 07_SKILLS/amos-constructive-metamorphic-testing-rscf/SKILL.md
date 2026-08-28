@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Constructive Metamorphic Testing Rscf
 
 ## Identity

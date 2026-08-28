@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Agent Native Research Artifact Rscf
 
 ## Identity

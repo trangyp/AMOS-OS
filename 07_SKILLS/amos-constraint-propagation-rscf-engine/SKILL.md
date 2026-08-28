@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Constraint Propagation Rscf Engine
 
 ## Identity

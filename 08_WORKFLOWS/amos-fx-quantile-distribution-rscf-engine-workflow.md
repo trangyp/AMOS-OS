@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Fx Quantile Distribution Rscf Engine
 
 ## Identity

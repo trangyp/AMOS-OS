@@ -19,7 +19,8 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/framework, canon/proven
 aliases: "- AMOS Source Lineage
   - AMOS OS Source Lineage
   - Source Ancestry
-  - Canon Source Lineage..."---
+  - Canon Source Lineage..."
+---
 # AMOS OS Source Lineage
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

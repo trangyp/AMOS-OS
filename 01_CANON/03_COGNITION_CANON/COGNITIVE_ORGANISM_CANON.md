@@ -21,7 +21,8 @@ aliases: "- AMOS Cognitive Organism Canon
   - Cognitive Organism Canon
   - AMOS Cognitive Organism
   - Cogniti..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Cognitive Organism Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Fx Typed Tensor Contract Rscf Engine
 
 ## Identity

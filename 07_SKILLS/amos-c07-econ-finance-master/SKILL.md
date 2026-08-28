@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS C07 — Economics & Finance Master Knowledge
 
 ## Identity

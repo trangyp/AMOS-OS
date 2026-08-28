@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Emergent Social Intelligence Risk Rscf
 
 ## Identity

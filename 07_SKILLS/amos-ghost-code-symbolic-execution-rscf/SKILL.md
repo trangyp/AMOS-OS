@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Ghost Code Symbolic Execution Rscf
 
 ## Identity

@@ -27,7 +27,8 @@ aliases: "- AMOS Neural Network
   - AMOS Vault Neural Network
   - AMOS Knowledge Graph Hub
   - AMOS OS Graph H..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Neural Network
 > **Status:** `ACTIVE_MAP`  
 > **AMOS_CORE target:** `v4.4`  

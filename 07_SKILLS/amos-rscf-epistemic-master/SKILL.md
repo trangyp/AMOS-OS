@@ -46,13 +46,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # L11 Knowledge & Memory Laws
 
 ## Identity

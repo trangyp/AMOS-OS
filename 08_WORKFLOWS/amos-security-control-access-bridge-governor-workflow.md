@@ -49,13 +49,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Security-Control-Access Bridge Governor
 
 ## Identity

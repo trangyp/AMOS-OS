@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Observability Driven Harness Evolution Rscf
 
 ## Identity

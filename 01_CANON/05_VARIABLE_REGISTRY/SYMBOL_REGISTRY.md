@@ -20,7 +20,8 @@ tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, registry, symb
 aliases: "- AMOS Symbol Registry
   - Symbol Registry
   - AMOS Notation Registry
-  - AMOS Semantic Symbol Table..."---
+  - AMOS Semantic Symbol Table..."
+---
 # AMOS Symbol Registry
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Ai Entropy Rscf Engine
 
 ## Identity

@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Fx Vecm Cointegration Rscf Engine
 
 ## Identity

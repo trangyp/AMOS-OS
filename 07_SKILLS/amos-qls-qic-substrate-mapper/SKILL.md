@@ -47,13 +47,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Qls Qic Substrate Mapper
 
 ## Identity

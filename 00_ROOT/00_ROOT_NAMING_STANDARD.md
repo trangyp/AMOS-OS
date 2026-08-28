@@ -25,7 +25,8 @@ aliases: "- AMOS Naming Standard
   - AMOS OS Naming Standard
   - AMOS Namespace Standard
   - AMOS Identity Sta..."
-related: "see body"---
+related: "see body"
+---
 # AMOS OS Naming Standard
 > **Status:** `ACTIVE_STANDARD`  
 > **Standard version:** `1.0.0`  

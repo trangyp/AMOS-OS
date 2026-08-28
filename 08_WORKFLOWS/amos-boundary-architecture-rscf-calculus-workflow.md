@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Boundary Architecture Rscf Calculus
 
 ## Identity

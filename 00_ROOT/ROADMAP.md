@@ -23,7 +23,8 @@ aliases: "- AMOS Roadmap
   - AMOS Implementation Roadmap
   - AMOS Promotion Roadmap
   - AM..."
-related: "see body"---
+related: "see body"
+---
 # AMOS OS Roadmap
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_ROADMAP`  

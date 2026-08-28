@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: grpo Reasoning Policy Rscf
 
 ## Identity

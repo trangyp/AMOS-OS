@@ -20,7 +20,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning
 aliases: "- AMOS Multi Hypothesis Kernel
   - Multi Hypothesis Kernel
   - K Multi Hypothesis
-  - K_MULTI_HYPOTH..."---
+  - K_MULTI_HYPOTH..."
+---
 # K_MULTI_HYPOTHESIS
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

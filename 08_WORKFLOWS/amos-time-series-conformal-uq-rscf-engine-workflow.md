@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Time Series Conformal Uq Rscf Engine
 
 ## Identity

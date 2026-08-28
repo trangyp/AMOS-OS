@@ -21,7 +21,8 @@ aliases: "- AMOS Law Hierarchy
   - AMOS Canon Law Hierarchy
   - AMOS Authority Hierarchy
   - AMOS Precedence M..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Law Hierarchy
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

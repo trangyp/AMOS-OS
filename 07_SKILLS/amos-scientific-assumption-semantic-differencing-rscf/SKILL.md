@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Scientific Assumption Semantic Differencing Rscf
 
 ## Identity

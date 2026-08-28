@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: ttstack Sketching Rscf Engine
 
 ## Identity

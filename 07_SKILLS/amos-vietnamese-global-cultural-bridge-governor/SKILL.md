@@ -54,13 +54,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Vietnamese-Global Cultural Bridge Governor
 
 ## Identity

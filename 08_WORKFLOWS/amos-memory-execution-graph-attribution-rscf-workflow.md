@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Memory Execution Graph Attribution Rscf
 
 ## Identity

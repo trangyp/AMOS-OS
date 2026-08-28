@@ -48,13 +48,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Verification Aware Implementation Diversity Rscf
 
 ## Identity

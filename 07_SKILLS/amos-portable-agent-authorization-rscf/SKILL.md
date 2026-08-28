@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Portable Agent Authorization Rscf
 
 ## Identity

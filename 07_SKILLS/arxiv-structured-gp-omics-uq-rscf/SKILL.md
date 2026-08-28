@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: structured Gp Omics Uq Rscf
 
 ## Identity

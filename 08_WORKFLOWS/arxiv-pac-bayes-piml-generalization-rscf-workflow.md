@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Arxiv: pac Bayes Piml Generalization Rscf
 
 ## Identity

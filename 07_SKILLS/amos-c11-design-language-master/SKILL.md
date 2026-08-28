@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # AMOS C11 — Design & Language Master Knowledge
 
 ## Identity

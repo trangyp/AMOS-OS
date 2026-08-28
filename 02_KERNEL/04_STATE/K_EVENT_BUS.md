@@ -19,7 +19,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/event, ke
 aliases: "- AMOS Event Bus Kernel
   - Event Bus Kernel
   - K Event Bus
-  - K_EVENT_BUS..."---
+  - K_EVENT_BUS..."
+---
 # K EVENT BUS
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

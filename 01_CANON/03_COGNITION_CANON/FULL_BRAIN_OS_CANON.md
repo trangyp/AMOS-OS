@@ -21,7 +21,8 @@ aliases: "- AMOS Full Brain OS
   - Full Brain OS
   - AMOS Full Brain Architecture
   - AMOS Brain OS..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Full Brain OS Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

@@ -47,13 +47,6 @@ law_compliance:
 - L24
 ---
 
-
-
-
-
-
-
-
 # Causal Closure Governor
 
 ## Identity

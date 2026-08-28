@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Semantic Workflow Persistence Rscf
 
 ## Identity

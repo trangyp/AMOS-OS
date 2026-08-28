@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Fx Typed Tensor Contract Rscf Engine
 
 ## Identity

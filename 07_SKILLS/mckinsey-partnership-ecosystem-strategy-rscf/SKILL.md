@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Mckinsey: partnership Ecosystem Strategy Rscf
 
 ## Identity

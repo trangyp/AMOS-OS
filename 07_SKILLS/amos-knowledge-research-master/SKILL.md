@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # 11_KNOWLEDGE MOC
 
 ## Identity

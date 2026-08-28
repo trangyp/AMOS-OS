@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Tensor Network Contraction Sketch Rscf Engine
 
 ## Identity

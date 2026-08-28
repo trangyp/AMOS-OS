@@ -18,7 +18,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/state, ke
 aliases: "- AMOS System State Kernel
   - System State Kernel
   - K System State
-  - K_SYSTEM_STATE..."---
+  - K_SYSTEM_STATE..."
+---
 # K SYSTEM STATE
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

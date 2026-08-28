@@ -47,13 +47,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Aibom Lifecycle Assurance Rscf
 
 ## Identity

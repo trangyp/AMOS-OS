@@ -49,13 +49,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Canonical Software Substrate Rscf
 
 ## Identity

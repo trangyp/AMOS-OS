@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Symbolic Path Reasoning Rscf
 
 ## Identity

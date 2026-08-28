@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Sae Benchmark Reliability Rscf Engine
 
 ## Identity

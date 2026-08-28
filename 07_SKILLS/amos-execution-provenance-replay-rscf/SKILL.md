@@ -48,13 +48,6 @@ law_compliance:
 - L23
 ---
 
-
-
-
-
-
-
-
 # Execution Provenance Replay Rscf
 
 ## Identity

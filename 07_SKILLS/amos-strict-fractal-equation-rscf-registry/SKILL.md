@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Strict Fractal Equation Rscf Registry
 
 ## Identity

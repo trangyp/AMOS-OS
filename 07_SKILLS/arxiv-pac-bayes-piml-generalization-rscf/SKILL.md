@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: pac Bayes Piml Generalization Rscf
 
 ## Identity

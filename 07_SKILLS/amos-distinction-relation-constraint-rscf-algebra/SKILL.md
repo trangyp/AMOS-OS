@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Distinction Relation Constraint Rscf Algebra
 
 ## Identity

@@ -20,7 +20,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning
 aliases: "- AMOS Metacognition Kernel
   - Metacognition Kernel
   - K Metacognition
-  - K_METACOGNITION..."---
+  - K_METACOGNITION..."
+---
 # K_METACOGNITION
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

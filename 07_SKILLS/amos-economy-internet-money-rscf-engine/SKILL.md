@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Economy Internet Money Rscf Engine
 
 ## Identity

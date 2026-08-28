@@ -48,13 +48,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Formal Agent Skill Verification Rscf
 
 ## Identity

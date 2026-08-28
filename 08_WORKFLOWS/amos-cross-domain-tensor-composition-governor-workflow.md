@@ -47,13 +47,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Cross-Domain Tensor Composition Governor
 
 ## Identity

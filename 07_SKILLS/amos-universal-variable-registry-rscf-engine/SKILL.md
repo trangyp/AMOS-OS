@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Universal Variable Registry Rscf Engine
 
 ## Identity

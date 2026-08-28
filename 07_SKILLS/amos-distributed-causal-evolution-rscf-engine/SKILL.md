@@ -47,13 +47,6 @@ law_compliance:
 - L24
 ---
 
-
-
-
-
-
-
-
 # Distributed Causal Evolution Rscf Engine
 
 ## Identity

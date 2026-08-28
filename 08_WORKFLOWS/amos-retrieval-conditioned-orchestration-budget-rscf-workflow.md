@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Retrieval Conditioned Orchestration Budget Rscf
 
 ## Identity

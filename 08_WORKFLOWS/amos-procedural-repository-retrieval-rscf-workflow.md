@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Procedural Repository Retrieval Rscf
 
 ## Identity

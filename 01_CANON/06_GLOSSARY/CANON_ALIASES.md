@@ -21,7 +21,8 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/registry, canon/identit
 aliases: "- AMOS Alias Registry
   - AMOS Identity Alias Registry
   - Canonical Alias Registry
-  - Alias Resolu..."---
+  - Alias Resolu..."
+---
 # AMOS OS Alias Registry
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** v4.4  

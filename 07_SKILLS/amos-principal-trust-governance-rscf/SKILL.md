@@ -48,13 +48,6 @@ law_compliance:
 - L23
 ---
 
-
-
-
-
-
-
-
 # Principal Trust Governance Rscf
 
 ## Identity

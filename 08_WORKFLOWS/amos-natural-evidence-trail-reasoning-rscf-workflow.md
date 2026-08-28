@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Natural Evidence Trail Reasoning Rscf
 
 ## Identity

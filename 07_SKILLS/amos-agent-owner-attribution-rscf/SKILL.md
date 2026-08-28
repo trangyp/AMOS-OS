@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Agent Owner Attribution Rscf
 
 ## Identity

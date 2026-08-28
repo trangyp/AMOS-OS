@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS C04 — Biology & Neuro Master Knowledge
 
 ## Identity

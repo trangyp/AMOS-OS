@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: llm Judge Bias Geometry Rscf
 
 ## Identity

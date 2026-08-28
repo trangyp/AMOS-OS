@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Agent Economy Constitutional Governance Rscf
 
 ## Identity

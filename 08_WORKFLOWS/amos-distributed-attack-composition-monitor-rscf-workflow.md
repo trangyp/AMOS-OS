@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Distributed Attack Composition Monitor Rscf
 
 ## Identity

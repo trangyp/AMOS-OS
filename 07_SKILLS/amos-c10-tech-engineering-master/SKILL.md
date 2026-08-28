@@ -47,13 +47,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS C10 — Tech & Engineering Master Knowledge
 
 ## Identity

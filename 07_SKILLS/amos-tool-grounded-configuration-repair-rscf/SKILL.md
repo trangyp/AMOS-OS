@@ -48,13 +48,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Tool Grounded Configuration Repair Rscf
 
 ## Identity

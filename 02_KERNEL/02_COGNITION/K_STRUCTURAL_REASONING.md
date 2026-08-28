@@ -21,7 +21,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/reasoning
 aliases: "- K Structural Reasoning
   - Structural Reasoning Kernel
   - AMOS Structural Reasoning
-  - K_STRUCTU..."---
+  - K_STRUCTU..."
+---
 # K STRUCTURAL REASONING
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

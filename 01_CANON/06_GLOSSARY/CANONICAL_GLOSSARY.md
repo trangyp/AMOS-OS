@@ -21,7 +21,8 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/glossary, canon/semanti
 aliases: "- AMOS Canonical Glossary
   - AMOS OS Glossary
   - Canonical Terminology Registry
-  - AMOS Semantic ..."---
+  - AMOS Semantic ..."
+---
 # AMOS OS Canonical Glossary
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** v4.4  

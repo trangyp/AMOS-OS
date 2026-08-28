@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Ai Architecture Factory Rscf Engine
 
 ## Identity

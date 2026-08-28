@@ -23,7 +23,8 @@ aliases: "- AMOS Core Laws
   - AMOS Integrity Laws
   - AMOS Core Invariants
   - A..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Core Laws
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

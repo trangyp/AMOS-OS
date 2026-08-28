@@ -48,13 +48,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Governed Executable Knowledge Repair Rscf
 
 ## Identity

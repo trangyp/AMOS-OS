@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # AMOS COGNITIVE ORGANISM OS
 
 ## Identity

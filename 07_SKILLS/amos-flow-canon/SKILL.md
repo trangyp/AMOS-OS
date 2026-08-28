@@ -48,13 +48,6 @@ description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Co
   asking for 'flow canon'.
 ---
 
-
-
-
-
-
-
-
 # AMOS Flow Canon
 
 ## Identity

@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Temporal Multiscale Rscf Engine
 
 ## Identity

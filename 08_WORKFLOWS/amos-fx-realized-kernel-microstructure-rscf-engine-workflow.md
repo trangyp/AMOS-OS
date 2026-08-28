@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Fx Realized Kernel Microstructure Rscf Engine
 
 ## Identity

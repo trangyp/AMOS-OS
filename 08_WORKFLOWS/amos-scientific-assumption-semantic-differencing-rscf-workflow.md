@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Scientific Assumption Semantic Differencing Rscf
 
 ## Identity

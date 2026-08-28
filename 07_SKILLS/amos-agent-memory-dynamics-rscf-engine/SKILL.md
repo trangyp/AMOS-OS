@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Agent Memory Dynamics Rscf Engine
 
 ## Identity

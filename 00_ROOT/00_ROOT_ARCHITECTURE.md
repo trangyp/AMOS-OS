@@ -28,7 +28,8 @@ aliases: "- AMOS OS Architecture
   - AMOS Root Architecture
   - AMOS System Architecture
   - AMOS Operating Ar..."
-related: "see body"---
+related: "see body"
+---
 # AMOS OS Architecture
 > **Architecture state:** `ACTIVE_ARCHITECTURE`  
 > **AMOS_CORE target:** `v4.4`  

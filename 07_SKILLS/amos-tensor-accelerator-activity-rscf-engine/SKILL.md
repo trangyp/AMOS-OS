@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Tensor Accelerator Activity Rscf Engine
 
 ## Identity

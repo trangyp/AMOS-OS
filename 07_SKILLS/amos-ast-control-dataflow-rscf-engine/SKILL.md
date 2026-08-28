@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Ast Control Dataflow Rscf Engine
 
 ## Identity

@@ -51,13 +51,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Proof Loss Diagnostic Reconstruction Rscf
 
 ## Identity

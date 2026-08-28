@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # L15 Fractal Knowledge Laws
 
 ## Identity

@@ -47,13 +47,6 @@ law_compliance:
 - L24
 ---
 
-
-
-
-
-
-
-
 # Causal Abstraction Validity Rscf Engine
 
 ## Identity

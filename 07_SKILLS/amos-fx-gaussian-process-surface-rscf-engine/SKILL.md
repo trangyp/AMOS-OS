@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Fx Gaussian Process Surface Rscf Engine
 
 ## Identity

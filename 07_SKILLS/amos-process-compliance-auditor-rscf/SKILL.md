@@ -47,13 +47,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Process Compliance Auditor Rscf
 
 ## Identity

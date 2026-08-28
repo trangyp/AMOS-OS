@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Managed Autonomy Escalation Rscf
 
 ## Identity

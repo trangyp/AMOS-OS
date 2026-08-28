@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Formal Agent Skill Verification Rscf
 
 ## Identity

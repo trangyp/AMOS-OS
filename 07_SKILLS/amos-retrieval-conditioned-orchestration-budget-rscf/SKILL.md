@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Retrieval Conditioned Orchestration Budget Rscf
 
 ## Identity

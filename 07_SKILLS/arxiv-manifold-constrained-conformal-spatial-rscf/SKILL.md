@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: manifold Constrained Conformal Spatial Rscf
 
 ## Identity

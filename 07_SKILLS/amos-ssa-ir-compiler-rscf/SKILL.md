@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Ssa Ir Compiler Rscf
 
 ## Identity

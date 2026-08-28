@@ -28,7 +28,8 @@ aliases: "- AMOS Canon Map
   - AMOS OS Canon Map
   - Canon Authority Map
   - Canon Lineage Map..."
-related: "see body"---
+related: "see body"
+---
 # AMOS OS Canon Map
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_MAP`  

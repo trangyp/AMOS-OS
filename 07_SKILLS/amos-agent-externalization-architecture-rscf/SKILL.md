@@ -46,13 +46,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Agent Externalization Architecture Rscf
 
 ## Identity

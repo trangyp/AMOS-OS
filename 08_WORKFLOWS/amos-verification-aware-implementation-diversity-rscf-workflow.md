@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Verification Aware Implementation Diversity Rscf
 
 ## Identity

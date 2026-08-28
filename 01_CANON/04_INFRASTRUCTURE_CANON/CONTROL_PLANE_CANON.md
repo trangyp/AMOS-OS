@@ -20,7 +20,8 @@ tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, control-plane,
 aliases: "- AMOS Control Plane Canon
   - Control Plane Canon
   - AMOS Governance Control Plane
-  - AMOS Commit..."---
+  - AMOS Commit..."
+---
 # AMOS Control Plane Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

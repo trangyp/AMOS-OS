@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Budget Aware Optimizer Selection Rscf Engine
 
 ## Identity

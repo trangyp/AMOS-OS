@@ -20,7 +20,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/causal, k
 aliases: "- AMOS Causal Hierarchy Kernel
   - Causal Hierarchy Kernel
   - K Causal Hierarchy
-  - K_CAUSAL_HIERA..."---
+  - K_CAUSAL_HIERA..."
+---
 # K CAUSAL HIERARCHY
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

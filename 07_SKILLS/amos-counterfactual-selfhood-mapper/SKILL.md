@@ -47,13 +47,6 @@ law_compliance:
 - L24
 ---
 
-
-
-
-
-
-
-
 # Counterfactual Selfhood Mapper
 
 ## Identity

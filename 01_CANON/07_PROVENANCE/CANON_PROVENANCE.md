@@ -20,7 +20,8 @@ tags: [amos-os, canon, universe, canon-group/meta, canon/provenance, canon/linea
 aliases: "- AMOS Canon Provenance
   - Canon Provenance Registry
   - AMOS Canon Lineage Registry
-  - Canon Sour..."---
+  - Canon Sour..."
+---
 # AMOS OS Canon Provenance
 > **Origin architect / steward:** Trang Phan  
 > **AMOS Core target:** `v4.4`  

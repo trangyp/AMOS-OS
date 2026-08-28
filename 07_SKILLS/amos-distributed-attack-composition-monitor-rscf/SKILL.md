@@ -48,13 +48,6 @@ law_compliance:
 - L23
 ---
 
-
-
-
-
-
-
-
 # Distributed Attack Composition Monitor Rscf
 
 ## Identity

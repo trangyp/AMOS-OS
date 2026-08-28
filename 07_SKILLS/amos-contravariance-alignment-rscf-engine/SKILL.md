@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Contravariance Alignment Rscf Engine
 
 ## Identity

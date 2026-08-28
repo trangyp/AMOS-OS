@@ -48,13 +48,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Repair Substrate Capture Resistance Rscf
 
 ## Identity

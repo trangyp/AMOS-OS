@@ -20,7 +20,8 @@ aliases: "- AMOS Universal Variable Registry
   - Universal Variable Registry
   - AMOS Variable Registry
   - AM..."
-related: "see body"---
+related: "see body"
+---
 # AMOS Universal Variable Registry
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

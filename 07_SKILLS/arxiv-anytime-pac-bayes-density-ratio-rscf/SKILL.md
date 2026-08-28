@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: anytime Pac Bayes Density Ratio Rscf
 
 ## Identity

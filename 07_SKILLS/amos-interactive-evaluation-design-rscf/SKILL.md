@@ -48,13 +48,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Interactive Evaluation Design Rscf
 
 ## Identity

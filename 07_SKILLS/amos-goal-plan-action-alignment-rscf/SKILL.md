@@ -47,13 +47,6 @@ law_compliance:
 - L19
 ---
 
-
-
-
-
-
-
-
 # Goal Plan Action Alignment Rscf
 
 ## Identity

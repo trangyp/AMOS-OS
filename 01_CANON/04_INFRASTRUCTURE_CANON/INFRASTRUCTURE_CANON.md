@@ -20,7 +20,8 @@ tags: [amos, canon, universe, amos-os, amos-core, amos-core-v4-4, infrastructure
 aliases: "- AMOS Infrastructure Canon
   - Infrastructure Canon
   - AMOS Infrastructure Foundation
-  - AMOS Ope..."---
+  - AMOS Ope..."
+---
 # AMOS Infrastructure Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_CANON_CANDIDATE`  

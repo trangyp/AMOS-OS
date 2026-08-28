@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: grapheval Reasoning Coherence Rscf
 
 ## Identity

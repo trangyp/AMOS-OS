@@ -20,7 +20,8 @@ tags: [amos-os, kernel, core, canon-group/tech-ai, canon/model, kernel/foundatio
 aliases: "- AMOS Law Hierarchy Kernel
   - Law Hierarchy Kernel
   - K Law Hierarchy
-  - K_LAW_HIERARCHY..."---
+  - K_LAW_HIERARCHY..."
+---
 # K_LAW_HIERARCHY
 > **AMOS Core target:** `v4.4`  
 > **Origin architect / steward:** Trang Phan  

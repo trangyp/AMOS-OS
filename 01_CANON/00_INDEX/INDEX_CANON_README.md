@@ -28,7 +28,8 @@ aliases: "- AMOS Canon
   - AMOS Canon Root
   - AMOS Canon Plane
   - AMOS Canonical Authority..."
-related: "see body"---
+related: "see body"
+---
 # AMOS OS Canon
 **Origin architect / steward:** Trang Phan
 > **Status:** `ACTIVE_ROOT`  

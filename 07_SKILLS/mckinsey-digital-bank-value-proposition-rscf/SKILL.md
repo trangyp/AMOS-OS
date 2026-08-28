@@ -43,13 +43,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Mckinsey: digital Bank Value Proposition Rscf
 
 ## Identity

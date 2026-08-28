@@ -48,13 +48,6 @@ law_compliance:
 - L22
 ---
 
-
-
-
-
-
-
-
 # Metacognitive Confidence Auditor
 
 ## Identity

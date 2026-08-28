@@ -47,13 +47,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # AMOS Skill Builder
 
 ## Identity

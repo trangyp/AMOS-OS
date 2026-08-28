@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Fx Tensor Train Greeks Rscf Engine
 
 ## Identity

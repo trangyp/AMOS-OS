@@ -45,13 +45,6 @@ law_compliance:
 - L18
 ---
 
-
-
-
-
-
-
-
 # Workflow: Universal Variable Registry Rscf Engine
 
 ## Identity

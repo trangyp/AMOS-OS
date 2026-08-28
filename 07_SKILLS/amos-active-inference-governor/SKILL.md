@@ -49,13 +49,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # AMOS Active Inference Governor
 
 ## Identity

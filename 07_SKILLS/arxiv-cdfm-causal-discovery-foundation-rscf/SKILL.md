@@ -42,13 +42,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Arxiv: cdfm Causal Discovery Foundation Rscf
 
 ## Identity

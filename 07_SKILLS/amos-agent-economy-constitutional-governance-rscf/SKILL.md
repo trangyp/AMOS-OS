@@ -44,13 +44,6 @@ law_compliance:
 - L17
 ---
 
-
-
-
-
-
-
-
 # Agent Economy Constitutional Governance Rscf
 
 ## Identity
