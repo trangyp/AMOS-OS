@@ -17,6 +17,9 @@ tags:
 - canon-group/tech-ai
 - topic/memory
 - capability/memory
+- capability/system_architecture_overview
+- capability/working_guidelines
+- capability/context_management
 - rscf/epistemic
 - rscf/M-memory
 - rscf/B-boundary
@@ -34,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

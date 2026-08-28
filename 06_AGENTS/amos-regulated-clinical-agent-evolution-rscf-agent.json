@@ -154,6 +154,7 @@
     "topic/multi-agent",
     "capability/agent-design",
     "capability/clinical",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/μ-mutation",
     "rscf/T-topology",

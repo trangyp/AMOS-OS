@@ -16,6 +16,10 @@ tags:
 - capability/context-management
 - capability/workflow
 - capability/drift-detection
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/B-boundary
 - rscf/E-entropy
@@ -32,6 +36,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

@@ -18,6 +18,7 @@ tags:
 - canon-group/tech-ai
 - topic/epistemology
 - capability/sparse-autoencoder
+- capability/analysis
 - rscf/epistemic
 - rscf/D-distinction
 - rscf/C-constraint
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

@@ -26,6 +26,7 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-source-reading-rscf-engine
+- capability/search
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,6 +34,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

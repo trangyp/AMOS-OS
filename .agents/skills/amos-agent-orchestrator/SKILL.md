@@ -4,6 +4,17 @@ description: >-
   Orchestrates, queries, and assumes roles from the 678 AMOS canonical agents in .devin/agents/.
   Use when the user asks to run an AMOS agent, execute specialized reasoning (quantum fractal math,
   logic kernel, RSCF proofs, governance, biology, finance, legal), or inspect agent capabilities.
+parent_skill: amos-agent-systems-master
+domain: agent
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+version: "1.1.0"
+rscf_state: SOURCE_CLAIM
+hml_level: M
+gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+collapse_class: reversible
+qfm_gate_set: QFM_v43
+law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 ---
 
 # AMOS Agent Orchestrator

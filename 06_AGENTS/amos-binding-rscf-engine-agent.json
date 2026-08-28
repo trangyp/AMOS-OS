@@ -168,6 +168,8 @@
     "canon-group/tech-ai",
     "topic/multi-agent",
     "capability/agent-design",
+    "capability/binding",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/G-relation",
     "rscf/S-state",

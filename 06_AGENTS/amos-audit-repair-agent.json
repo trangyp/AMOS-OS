@@ -175,6 +175,7 @@
     "capability/repair",
     "capability/audit",
     "capability/agent-design",
+    "capability/recovery",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/M-memory",

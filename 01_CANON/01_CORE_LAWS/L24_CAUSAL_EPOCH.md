@@ -139,7 +139,7 @@ THAN THE PRIOR EPOCH.
 ## CE-2 — No Time Travel
 
 $$
-\operatorname{Verdicts}\(e_k\)
+\operatorname{Verdicts}(e_k)
 \text{ cannot be silently rewritten.}
 $$
 
@@ -182,11 +182,11 @@ For every consequence \(C\):
 $$
 \forall C,\;
 \exists A:
-\operatorname{Cause}\(A\)
+\operatorname{Cause}(A)
 \land
-\operatorname{Epoch}\(A\)
+\operatorname{Epoch}(A)
 \le
-\operatorname{Epoch}\(C\)
+\operatorname{Epoch}(C)
 $$
 
 Canonical meaning:
@@ -729,13 +729,13 @@ The third canonical invariant requires every consequence to possess causal ances
 Source equation:
 
 $$
-\forall \operatorname{Consequence}\(C\),
+\forall \operatorname{Consequence}(C),
 \;
-\exists \operatorname{Cause}\(A\)
+\exists \operatorname{Cause}(A)
 \land
-\operatorname{Epoch}\(A\)
+\operatorname{Epoch}(A)
 \le
-\operatorname{Epoch}\(C\)
+\operatorname{Epoch}(C)
 $$
 
 This establishes:

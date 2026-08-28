@@ -17,6 +17,10 @@ tags:
 - canon-group/tech-ai
 - topic/epistemology
 - capability/ast
+- capability/classification
+- capability/assessment
+- capability/falsification
+- capability/scope_management
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/S-state
@@ -34,6 +38,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

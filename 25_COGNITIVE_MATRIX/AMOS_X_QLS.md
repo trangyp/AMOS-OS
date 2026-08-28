@@ -3861,7 +3861,7 @@ QLS_CANONICAL_CAPSULE:
 # 153. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     text: >

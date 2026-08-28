@@ -18,6 +18,8 @@ tags:
 - topic/canon
 - capability/canon
 - capability/universe
+- capability/cosmo_brain_vault_content
+- capability/reasoning
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/D-distinction
@@ -35,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

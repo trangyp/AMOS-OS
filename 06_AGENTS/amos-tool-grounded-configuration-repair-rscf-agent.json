@@ -169,6 +169,8 @@
     "topic/multi-agent",
     "capability/repair",
     "capability/agent-design",
+    "capability/audit",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/M-memory",

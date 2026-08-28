@@ -17,6 +17,9 @@ tags:
 - canon-group/tech-ai
 - topic/runtime
 - capability/structured-execution
+- capability/scope
+- capability/execution
+- capability/reasoning
 - rscf/epistemic
 - rscf/S-state
 - rscf/T-topology
@@ -34,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

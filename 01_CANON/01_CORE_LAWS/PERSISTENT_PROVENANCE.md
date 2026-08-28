@@ -14,7 +14,7 @@ rscf:
 PERSISTENT_PROVENANCE mandates that all derived claims, state transitions, and evolutionary mutations maintain an immutable, tamper-evident lineage back to independent root observations.
 
 ## Invariant
-$$\forall K_t, \; \text{Lineage}\(K_t\) = \langle R_0, T_1, T_2, \dots, T_t \rangle \; \text{is strictly verifiable}.$$
+$$\forall K_t, \; \text{Lineage}(K_t) = \langle R_0, T_1, T_2, \dots, T_t \rangle \; \text{is strictly verifiable}.$$
 
 ---
 

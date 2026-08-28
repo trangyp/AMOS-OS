@@ -19,6 +19,7 @@ tags:
 - capability/mckinsey-strategy
 - topic/consulting
 - capability/design
+- capability/reasoning
 - rscf/epistemic
 - rscf/T-topology
 - rscf/G-relation
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

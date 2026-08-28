@@ -18,6 +18,7 @@ tags:
 - topic/causality
 - capability/causal-reasoning
 - capability/ast
+- capability/reasoning
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/S-state
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

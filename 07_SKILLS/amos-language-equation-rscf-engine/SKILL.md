@@ -17,6 +17,7 @@ tags:
 - canon-group/human-system
 - topic/sociology
 - capability/language
+- capability/provenance
 - rscf/epistemic
 - rscf/M-memory
 - rscf/G-relation
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

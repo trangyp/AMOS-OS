@@ -17,6 +17,9 @@ tags:
 - canon-group/tech-ai
 - topic/logic
 - capability/hierarchy
+- capability/failur
+- capability/resolution
+- capability/reasoning
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -34,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

@@ -17,6 +17,7 @@ tags:
 - canon-group/tech-ai
 - topic/causality
 - capability/counterfactual
+- capability/reasoning
 - rscf/epistemic
 - rscf/G-relation
 - rscf/S-state
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

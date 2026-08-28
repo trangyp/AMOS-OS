@@ -18,6 +18,7 @@ tags:
 - topic/fractals
 - capability/fractal
 - capability/biology
+- capability/detection
 - rscf/epistemic
 - rscf/T-topology
 - rscf/X-cross-scale
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

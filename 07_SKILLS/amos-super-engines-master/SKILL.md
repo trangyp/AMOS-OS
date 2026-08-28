@@ -17,6 +17,10 @@ tags:
 - canon-group/human-system
 - topic/consciousness
 - capability/ast
+- capability/reasoning
+- capability/emotion_analysis
+- capability/cognition
+- capability/consciousness_analysis
 - rscf/epistemic
 - rscf/T-topology
 - rscf/S-state
@@ -34,6 +38,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

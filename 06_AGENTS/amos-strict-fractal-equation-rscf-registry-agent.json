@@ -149,6 +149,8 @@
     "topic/multi-agent",
     "capability/fractal",
     "capability/agent-design",
+    "capability/fractal_analysis",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/D-distinction",
     "rscf/M-memory",

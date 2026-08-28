@@ -150,6 +150,7 @@
     "capability/memory",
     "capability/governance",
     "capability/agent-design",
+    "capability/memory_management",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

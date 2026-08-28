@@ -17,6 +17,9 @@ tags:
 - canon-group/tech-ai
 - topic/quality-assurance
 - capability/benchmarking
+- capability/markdown_brain_adaptation
+- capability/historical_gap
+- capability/benchmark_boundary
 - rscf/epistemic
 - rscf/M-memory
 - rscf/C-constraint
@@ -34,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

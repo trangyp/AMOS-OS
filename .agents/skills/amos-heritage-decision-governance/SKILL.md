@@ -4,6 +4,17 @@ description: >-
   Executes 32-layer ancestral decision intelligence, civilizational shock-damping heuristics,
   polycentric village topology modeling, and source-independence provenance auditing. Use when evaluating
   historical survival invariants, hydrological buffering architectures, and immutable decision receipts.
+parent_skill: amos-c06-society-culture-master
+domain: society
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+version: "1.1.0"
+rscf_state: SOURCE_CLAIM
+hml_level: M
+gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+collapse_class: reversible
+qfm_gate_set: QFM_v43
+law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 ---
 
 # AMOS Heritage Decision Governance Skill

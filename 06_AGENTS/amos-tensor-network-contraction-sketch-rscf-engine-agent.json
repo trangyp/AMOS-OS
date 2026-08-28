@@ -170,6 +170,8 @@
     "capability/tensor",
     "capability/agent-design",
     "capability/sketching",
+    "capability/reasoning",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/G-relation",

@@ -9,6 +9,12 @@ tags:
 - canon-group/tech-ai
 - topic/canon
 - capability/canon
+- capability/flow_characterization
+- capability/bottleneck_identification
+- capability/leakage_detection
+- capability/flow_persistence_check
+- capability/dual_frame_test
+- capability/conversion_efficiency_analysis
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/D-distinction
@@ -25,6 +31,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

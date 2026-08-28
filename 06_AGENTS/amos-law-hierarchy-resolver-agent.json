@@ -169,6 +169,7 @@
     "topic/multi-agent",
     "capability/agent-design",
     "capability/hierarchy",
+    "capability/resolution",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/S-state",

@@ -17,6 +17,7 @@ tags:
 - canon-group/biology
 - topic/neuroscience
 - capability/ast
+- capability/translation
 - rscf/epistemic
 - rscf/T-topology
 - rscf/M-memory
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

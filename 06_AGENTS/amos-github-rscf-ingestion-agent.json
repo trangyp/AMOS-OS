@@ -168,6 +168,8 @@
     "canon-group/tech-ai",
     "topic/multi-agent",
     "capability/agent-design",
+    "capability/ingestion",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/C-constraint",

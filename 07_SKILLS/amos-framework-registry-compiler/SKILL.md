@@ -17,6 +17,9 @@ tags:
 - canon-group/tech-ai
 - topic/engineering
 - capability/compilation
+- capability/name
+- capability/family
+- capability/scope
 - rscf/epistemic
 - rscf/D-distinction
 - rscf/M-memory
@@ -34,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

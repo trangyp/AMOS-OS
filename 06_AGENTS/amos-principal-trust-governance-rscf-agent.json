@@ -154,6 +154,8 @@
     "topic/security",
     "capability/trust",
     "capability/agent-design",
+    "capability/governance",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

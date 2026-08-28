@@ -3860,7 +3860,7 @@ QCLA_CAPSULE:
 # 140. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     text: >

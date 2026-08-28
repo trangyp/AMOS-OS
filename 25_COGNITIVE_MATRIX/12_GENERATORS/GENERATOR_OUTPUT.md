@@ -171,7 +171,7 @@ Output MUST remain associated with the generator version that created it.
 
 If:
 
-$$O = G_{v_1}\(X\)$$
+$$O = G_{v_1}(X)$$
 
 then later existence of:
 

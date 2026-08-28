@@ -2196,7 +2196,7 @@ until validated.
 Important conclusions traversing the Fractal Knowledge Network should conceptually carry:
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
 

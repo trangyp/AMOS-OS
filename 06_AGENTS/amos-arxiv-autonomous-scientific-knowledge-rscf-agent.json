@@ -150,6 +150,8 @@
     "capability/arxiv-research",
     "topic/research",
     "capability/knowledge",
+    "capability/search",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/K-compression",

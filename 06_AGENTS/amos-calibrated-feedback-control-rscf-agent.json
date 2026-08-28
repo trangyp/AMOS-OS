@@ -155,6 +155,7 @@
     "capability/agent-design",
     "capability/calibration",
     "capability/feedback-control",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/T-topology",

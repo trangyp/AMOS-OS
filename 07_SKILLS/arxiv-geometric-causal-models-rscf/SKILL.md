@@ -19,6 +19,9 @@ tags:
 - capability/arxiv-research
 - topic/research
 - capability/causal-reasoning
+- capability/markdown_brain_adaptation
+- capability/historical_gap
+- capability/benchmark_boundary
 - rscf/epistemic
 - rscf/T-topology
 - rscf/M-memory
@@ -36,6 +39,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

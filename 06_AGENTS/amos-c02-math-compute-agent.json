@@ -183,6 +183,7 @@
     "topic/multi-agent",
     "capability/agent-design",
     "capability/mathematics",
+    "capability/optimization",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/C-constraint",

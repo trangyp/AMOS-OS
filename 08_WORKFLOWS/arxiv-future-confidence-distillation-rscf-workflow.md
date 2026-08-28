@@ -16,6 +16,10 @@ tags:
 - capability/arxiv-research
 - topic/research
 - capability/workflow
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/K-compression
 - rscf/M-memory
@@ -32,6 +36,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

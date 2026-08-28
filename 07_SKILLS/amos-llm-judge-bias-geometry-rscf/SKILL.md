@@ -18,8 +18,8 @@ tags:
 - canon-group/tech-ai
 - topic/epistemology
 - capability/llm
-- capability/evaluation
 - capability/bias-detection
+- capability/analysis
 - rscf/epistemic
 - rscf/D-distinction
 - rscf/C-constraint
@@ -37,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

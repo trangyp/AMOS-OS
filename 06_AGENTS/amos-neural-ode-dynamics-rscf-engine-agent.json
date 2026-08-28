@@ -160,6 +160,7 @@
     "capability/agent-design",
     "capability/neural",
     "capability/dynamics",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/T-topology",

@@ -164,6 +164,8 @@
     "topic/multi-agent",
     "capability/agent-design",
     "capability/heritage",
+    "capability/tagging",
+    "capability/decision_making",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/C-constraint",

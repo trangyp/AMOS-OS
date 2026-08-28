@@ -150,6 +150,8 @@
     "capability/arxiv-research",
     "topic/research",
     "capability/runtime",
+    "capability/search",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/X-cross-scale",

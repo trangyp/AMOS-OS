@@ -17,6 +17,7 @@ tags:
 - canon-group/tech-ai
 - topic/knowledge-management
 - capability/knowledge
+- capability/search
 - rscf/epistemic
 - rscf/G-relation
 - rscf/M-memory
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

@@ -170,6 +170,7 @@
     "capability/runtime",
     "capability/knowledge",
     "capability/agent-design",
+    "capability/search",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/M-memory",

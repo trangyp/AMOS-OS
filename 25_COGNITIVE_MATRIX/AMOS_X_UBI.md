@@ -2648,7 +2648,7 @@ subject to exact canonical node-name reconciliation.
 # 87. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
 
@@ -2870,7 +2870,7 @@ executable binding.
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] ·
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · 
 [[AMOS_X_UBI_MATRIX]] · [[AMOS_X_TSS]] · [[AMOS_X_TPE]] ·
 [[AMOS_X_NEUROSYNCAI]] · [[AMOS_X_QLS]] · [[AMOS_X_TRANG_REALITY]]
 

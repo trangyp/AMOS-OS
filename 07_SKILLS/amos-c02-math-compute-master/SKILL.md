@@ -18,6 +18,8 @@ tags:
 - topic/mathematics
 - capability/mathematics
 - capability/ast
+- capability/optimization
+- capability/reasoning
 - rscf/epistemic
 - rscf/G-relation
 - rscf/S-state
@@ -35,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

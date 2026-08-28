@@ -155,6 +155,8 @@
     "capability/agent-design",
     "capability/workflow",
     "capability/persistence",
+    "capability/rscf_reasoning",
+    "capability/flow_characterization",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/T-topology",

@@ -165,6 +165,7 @@
     "capability/kernel",
     "capability/cognition",
     "capability/agent-design",
+    "capability/compression",
     "rscf/epistemic",
     "rscf/K-compression",
     "rscf/S-state",

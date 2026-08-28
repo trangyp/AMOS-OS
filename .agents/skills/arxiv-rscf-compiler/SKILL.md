@@ -2,6 +2,17 @@
 name: arxiv-rscf-compiler
 description: >-
   Transforms arXiv/scientific papers into compact, source-faithful AMOS RSCF knowledge objects (AMOS_KNOWLEDGE_OBJECT) designed for extremely low downstream retrieval-token cost. Trigger whenever asked to: reformat an arXiv paper, convert a paper to AMOS RSCF, normalize research papers, compile papers into H/M/L knowledge objects, ingest scientific literature into AMOS knowledge, or create theorem/equation knowledge nodes.
+parent_skill: amos-knowledge-research-master
+domain: knowledge
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+version: "1.1.0"
+rscf_state: SOURCE_CLAIM
+hml_level: M
+gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+collapse_class: reversible
+qfm_gate_set: QFM_v43
+law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 ---
 
 # arXiv-RSCF Knowledge Compiler

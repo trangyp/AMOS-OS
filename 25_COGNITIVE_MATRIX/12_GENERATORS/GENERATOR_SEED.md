@@ -274,7 +274,7 @@ creates a new generation condition.
 
 Thus:
 
-$$G_{v_1}\(S\) \not\equiv G_{v_2}\(S\)$$
+$$G_{v_1}(S) \not\equiv G_{v_2}(S)$$
 
 unless equivalence is independently established.
 

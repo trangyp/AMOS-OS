@@ -1292,7 +1292,7 @@ The detailed formulation above is therefore a normalized AMOS-model specificatio
 # 33. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

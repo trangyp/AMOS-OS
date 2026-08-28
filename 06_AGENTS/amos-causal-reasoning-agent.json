@@ -184,6 +184,7 @@
     "topic/multi-agent",
     "capability/causal-reasoning",
     "capability/agent-design",
+    "capability/reasoning",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/S-state",

@@ -150,6 +150,8 @@
     "capability/arxiv-research",
     "topic/research",
     "capability/agent-design",
+    "capability/search",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/T-topology",

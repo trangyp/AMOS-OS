@@ -289,7 +289,7 @@ constraint topology
 
 Formally:
 
-$$G_{structure}\(X\) \rightarrow S_X$$
+$$G_{structure}(X) \rightarrow S_X$$
 
 where $S_X$ is a candidate representation.
 

@@ -150,6 +150,7 @@
     "capability/forex",
     "topic/forex",
     "capability/tensor",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/E-entropy",

@@ -17,6 +17,10 @@ tags:
 - topic/runtime
 - capability/governance
 - capability/workflow
+- capability/preconditions
+- capability/failure_paths
+- capability/output
+- capability/authority
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -33,6 +37,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

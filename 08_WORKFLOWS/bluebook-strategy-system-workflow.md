@@ -14,6 +14,10 @@ tags:
 - canon-group/human-system
 - topic/strategy
 - capability/workflow
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/T-topology
 - rscf/G-relation
@@ -30,6 +34,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

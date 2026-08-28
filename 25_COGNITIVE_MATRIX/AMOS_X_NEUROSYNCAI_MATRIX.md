@@ -3897,7 +3897,7 @@ NEUROSYNCAI_MATRIX_CAPSULE:
 # 149. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
 

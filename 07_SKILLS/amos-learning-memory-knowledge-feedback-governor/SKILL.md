@@ -26,6 +26,8 @@ tags:
 - capability/memory
 - capability/governance
 - capability/learning
+- capability/the_feedback_loop
+- capability/validation
 - rscf/epistemic
 - rscf/D-distinction
 - rscf/M-memory
@@ -43,6 +45,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

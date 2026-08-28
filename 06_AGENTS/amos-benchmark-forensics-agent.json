@@ -169,6 +169,7 @@
     "topic/multi-agent",
     "capability/benchmarking",
     "capability/agent-design",
+    "capability/audit",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/C-constraint",

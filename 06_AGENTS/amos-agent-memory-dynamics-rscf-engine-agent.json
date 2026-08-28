@@ -165,6 +165,8 @@
     "capability/memory",
     "capability/agent-design",
     "capability/dynamics",
+    "capability/memory_management",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/M-memory",

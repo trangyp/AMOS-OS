@@ -150,6 +150,8 @@
     "capability/mckinsey-strategy",
     "topic/consulting",
     "capability/agent-design",
+    "capability/transformation",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/μ-mutation",
     "rscf/T-topology",

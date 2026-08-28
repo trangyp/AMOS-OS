@@ -22,6 +22,7 @@ tags:
 - topic/epistemology
 - capability/tensor
 - capability/governance
+- capability/enforcement
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -39,6 +40,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

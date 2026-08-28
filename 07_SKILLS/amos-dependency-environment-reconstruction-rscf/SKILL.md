@@ -27,6 +27,8 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-dependency-environment-reconstruction-rscf
+- capability/analysis
+- capability/classification
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -34,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

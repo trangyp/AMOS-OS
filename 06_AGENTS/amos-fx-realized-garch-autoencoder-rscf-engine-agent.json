@@ -150,6 +150,7 @@
     "capability/forex",
     "topic/forex",
     "capability/agent-design",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/E-entropy",
     "rscf/S-state",

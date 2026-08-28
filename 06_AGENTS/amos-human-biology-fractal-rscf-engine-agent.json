@@ -165,6 +165,8 @@
     "capability/fractal",
     "capability/agent-design",
     "capability/biology",
+    "capability/fractal_analysis",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/X-cross-scale",

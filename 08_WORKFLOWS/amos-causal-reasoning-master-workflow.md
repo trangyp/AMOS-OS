@@ -18,6 +18,10 @@ tags:
 - capability/causal-reasoning
 - capability/workflow
 - capability/ast
+- capability/preconditions
+- capability/failure_paths
+- capability/dependencies
+- capability/provenance
 - rscf/epistemic
 - rscf/G-relation
 - rscf/S-state
@@ -34,6 +38,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

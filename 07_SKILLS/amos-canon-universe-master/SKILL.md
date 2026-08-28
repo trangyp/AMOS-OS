@@ -19,6 +19,7 @@ tags:
 - capability/canon
 - capability/universe
 - capability/ast
+- capability/reasoning
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/D-distinction
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

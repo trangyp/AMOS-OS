@@ -27,6 +27,10 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-contravariance-alignment-rscf-engine
+- capability/epistemic_classes
+- capability/core_amos_firewalls
+- capability/master_state
+- capability/claim_admission
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -34,6 +38,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

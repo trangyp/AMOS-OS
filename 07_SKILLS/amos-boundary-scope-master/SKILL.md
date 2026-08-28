@@ -18,6 +18,10 @@ tags:
 - capability/boundary
 - capability/scope
 - capability/ast
+- capability/provenance
+- capability/reasoning
+- capability/scope_management
+- capability/boundary_enforcement
 - rscf/epistemic
 - rscf/B-boundary
 - rscf/G-relation
@@ -35,6 +39,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

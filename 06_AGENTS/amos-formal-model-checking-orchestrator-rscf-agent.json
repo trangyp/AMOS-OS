@@ -170,6 +170,8 @@
     "capability/formal-verification",
     "capability/orchestration",
     "capability/agent-design",
+    "capability/reasoning",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/G-relation",
     "rscf/S-state",

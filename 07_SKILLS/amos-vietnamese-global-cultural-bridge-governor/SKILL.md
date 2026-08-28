@@ -28,6 +28,8 @@ tags:
 - topic/sociology
 - capability/governance
 - capability/vietnamese
+- capability/the_bridge
+- capability/enforcement
 - topic/vietnamese
 - rscf/epistemic
 - rscf/B-boundary
@@ -46,6 +48,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

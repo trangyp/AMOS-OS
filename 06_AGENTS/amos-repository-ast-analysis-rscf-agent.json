@@ -155,6 +155,7 @@
     "capability/agent-design",
     "capability/repository",
     "capability/ast",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/C-constraint",

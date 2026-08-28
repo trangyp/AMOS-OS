@@ -19,6 +19,8 @@ tags:
 - capability/formal-verification
 - capability/agent-design
 - capability/skill-design
+- capability/audit
+- capability/repair
 - rscf/epistemic
 - rscf/M-memory
 - rscf/C-constraint
@@ -36,6 +38,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

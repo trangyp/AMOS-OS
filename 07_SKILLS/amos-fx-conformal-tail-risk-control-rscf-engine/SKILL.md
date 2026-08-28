@@ -19,6 +19,7 @@ tags:
 - capability/forex
 - topic/forex
 - capability/formal-verification
+- capability/rscf_reasoning
 - rscf/epistemic
 - rscf/S-state
 - rscf/E-entropy
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

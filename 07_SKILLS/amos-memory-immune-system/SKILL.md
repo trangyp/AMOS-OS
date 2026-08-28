@@ -18,6 +18,8 @@ tags:
 - topic/memory
 - capability/memory
 - capability/immune-system
+- capability/context_management
+- capability/memory_management
 - rscf/epistemic
 - rscf/M-memory
 - rscf/B-boundary
@@ -35,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

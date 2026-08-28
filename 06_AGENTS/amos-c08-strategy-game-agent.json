@@ -177,6 +177,7 @@
     "canon-group/tech-ai",
     "topic/multi-agent",
     "capability/agent-design",
+    "capability/decomposition",
     "rscf/epistemic",
     "rscf/G-relation",
     "rscf/T-topology",

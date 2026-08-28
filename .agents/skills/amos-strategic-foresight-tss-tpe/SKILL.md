@@ -4,6 +4,17 @@ description: >-
   Executes multi-dimensional strategic lifecycle state tracking (TSS) and 7-layer predictive foresight
   (TPE). Use when evaluating systemic risk vectors (Omega, H, F, S), 7-cycle evolutionary transitions
   (C1..C7), modular decoupling gates (Omega > 0.7), and multi-horizon intervention planning.
+parent_skill: amos-c08-strategy-game-master
+domain: strategy
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+version: "1.1.0"
+rscf_state: SOURCE_CLAIM
+hml_level: M
+gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+collapse_class: reversible
+qfm_gate_set: QFM_v43
+law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 ---
 
 # AMOS Strategic Foresight (TSS × TPE) Reasoning Skill

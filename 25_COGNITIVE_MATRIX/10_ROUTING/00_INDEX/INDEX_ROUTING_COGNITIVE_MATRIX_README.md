@@ -615,7 +615,7 @@ $$D(O)$$
 
 Then evaluate:
 
-$$D^*\(O\) \subseteq D(O)$$
+$$D^*(O) \subseteq D(O)$$
 
 where $D^*\(O\)$ is the **smallest result-changing closure**.
 

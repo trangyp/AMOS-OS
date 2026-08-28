@@ -18,6 +18,7 @@ tags:
 - topic/engineering
 - capability/knowledge
 - capability/repository
+- capability/rscf_reasoning
 - rscf/epistemic
 - rscf/T-topology
 - rscf/M-memory
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

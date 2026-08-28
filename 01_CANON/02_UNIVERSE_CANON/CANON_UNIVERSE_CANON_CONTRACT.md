@@ -546,7 +546,7 @@ denote the dependency closure for conclusion \(C\).
 Reasoning should traverse:
 
 $$
-D^*\(C\)
+D^*(C)
 $$
 
 where \(D^*\(C\)\) is the **smallest result-changing closure**, not the entire knowledge graph.
@@ -2954,7 +2954,7 @@ claims:
 # 125. RSCF Proof Capsule
 
 ```yaml
-RSCF_[[L19_PROOF_CAPSULE]]:
+RSCF_PROOF_CAPSULE:
 
   claim:
     id: CUCC-PC-001

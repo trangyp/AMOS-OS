@@ -18,6 +18,10 @@ tags:
 - capability/repair
 - capability/audit
 - capability/workflow
+- capability/preconditions
+- capability/failure_paths
+- capability/dependencies
+- capability/provenance
 - rscf/epistemic
 - rscf/M-memory
 - rscf/C-constraint
@@ -34,6 +38,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

@@ -18,6 +18,8 @@ tags:
 - topic/cognition
 - capability/kernel
 - capability/cognition
+- capability/reasoning
+- capability/compression
 - rscf/epistemic
 - rscf/M-memory
 - rscf/K-compression
@@ -35,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

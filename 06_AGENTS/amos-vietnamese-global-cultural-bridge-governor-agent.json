@@ -208,6 +208,8 @@
     "capability/governance",
     "capability/agent-design",
     "capability/vietnamese",
+    "capability/translation",
+    "capability/bridging",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

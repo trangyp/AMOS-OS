@@ -875,7 +875,7 @@ G2 ───────┘
 
 For generator $G$:
 
-$$D(G) = D_{direct}\(G\) \cup D_{material-transitive}\(G\)$$
+$$D(G) = D_{direct}(G) \cup D_{material-transitive}(G)$$
 
 Only material dependency closure needs to be traversed for a given decision.
 

@@ -154,6 +154,7 @@
     "topic/multi-agent",
     "capability/repair",
     "capability/agent-design",
+    "capability/audit",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/C-constraint",

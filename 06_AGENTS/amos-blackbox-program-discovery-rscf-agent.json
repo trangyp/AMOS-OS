@@ -170,6 +170,7 @@
     "capability/agent-design",
     "capability/programming",
     "capability/blackbox",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/C-constraint",

@@ -18,6 +18,7 @@ tags:
 - topic/security
 - capability/trust
 - capability/firewall
+- capability/firewall_enforcement
 - rscf/epistemic
 - rscf/B-boundary
 - rscf/C-constraint
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

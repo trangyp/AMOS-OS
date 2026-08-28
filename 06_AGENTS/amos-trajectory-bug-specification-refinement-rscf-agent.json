@@ -154,6 +154,7 @@
     "topic/multi-agent",
     "capability/agent-design",
     "capability/bug-detection",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/C-constraint",

@@ -235,7 +235,7 @@ No cognitive optimization may weaken:
 Formally:
 
 $$
-\operatorname{Accept}\(O\)
+\operatorname{Accept}(O)
 \iff
 \Delta I \ge 0
 \land
@@ -720,7 +720,7 @@ Conceptually:
 $$
 E_{\text{effective}}
 =
-f(E,\operatorname{independence}\(E\))
+f(E,\operatorname{independence}(E))
 $$
 
 not merely:

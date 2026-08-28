@@ -2356,7 +2356,7 @@ HOLD
 A governance proof capsule may conceptually carry:
 
 ```yaml
-GOVERNANCE_[[L19_PROOF_CAPSULE]]:
+GOVERNANCE_PROOF_CAPSULE:
 
   claim:
     "operation may commit"
@@ -2988,7 +2988,7 @@ FAIL_CLOSED_GOVERNANCE:
 # 104. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

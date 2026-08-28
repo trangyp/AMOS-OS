@@ -24,6 +24,7 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-information-geometry-mapper
+- capability/execution
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -31,6 +32,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

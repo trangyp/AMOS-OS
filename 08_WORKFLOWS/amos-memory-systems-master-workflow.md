@@ -18,6 +18,10 @@ tags:
 - capability/memory
 - capability/workflow
 - capability/ast
+- capability/preconditions
+- capability/failure_paths
+- capability/dependencies
+- capability/provenance
 - rscf/epistemic
 - rscf/M-memory
 - rscf/T-topology
@@ -34,6 +38,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

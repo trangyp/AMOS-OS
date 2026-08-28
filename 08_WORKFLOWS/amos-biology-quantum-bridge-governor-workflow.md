@@ -20,6 +20,10 @@ tags:
 - capability/governance
 - capability/workflow
 - capability/biology
+- capability/preconditions
+- capability/orchestration_pattern
+- capability/evaluation_gates
+- capability/monitoring
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -36,6 +40,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

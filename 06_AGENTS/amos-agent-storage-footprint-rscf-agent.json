@@ -169,6 +169,8 @@
     "topic/multi-agent",
     "capability/agent-design",
     "capability/rag",
+    "capability/search",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/K-compression",

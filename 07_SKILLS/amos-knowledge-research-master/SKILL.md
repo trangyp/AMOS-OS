@@ -19,6 +19,10 @@ tags:
 - capability/knowledge
 - capability/research
 - capability/ast
+- capability/indexing
+- capability/search
+- capability/reasoning
+- capability/integration
 - rscf/epistemic
 - rscf/D-distinction
 - rscf/M-memory
@@ -36,6 +40,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

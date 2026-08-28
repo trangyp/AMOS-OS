@@ -1533,7 +1533,7 @@ RSCF:
 # 94. Cross-Plane Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim: >
     TOTAL_CANON_MATRIX.md source-defines an AMOS Cognitive Matrix

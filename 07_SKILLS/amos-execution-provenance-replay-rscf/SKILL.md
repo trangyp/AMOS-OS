@@ -26,6 +26,9 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-execution-provenance-replay-rscf
+- capability/markdown_brain_adaptation
+- capability/historical_gap
+- capability/benchmark_boundary
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

@@ -18,6 +18,8 @@ tags:
 - topic/scope-management
 - capability/context-management
 - capability/drift-detection
+- capability/scope_management
+- capability/boundary_enforcement
 - rscf/epistemic
 - rscf/B-boundary
 - rscf/E-entropy
@@ -35,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

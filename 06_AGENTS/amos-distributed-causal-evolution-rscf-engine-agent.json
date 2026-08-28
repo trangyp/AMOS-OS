@@ -164,6 +164,8 @@
     "topic/multi-agent",
     "capability/causal-reasoning",
     "capability/agent-design",
+    "capability/reasoning",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/μ-mutation",
     "rscf/G-relation",

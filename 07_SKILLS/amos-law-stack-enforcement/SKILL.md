@@ -9,6 +9,10 @@ tags:
 - canon-group/tech-ai
 - topic/runtime
 - capability/stack
+- capability/lol_check
+- capability/canonical_order_enforcement
+- capability/gate_failure_flagging
+- capability/emergency_policy_rejection
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/T-topology
@@ -24,6 +28,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

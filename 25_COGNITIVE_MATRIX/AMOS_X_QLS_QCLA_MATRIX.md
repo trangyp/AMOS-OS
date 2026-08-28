@@ -3232,7 +3232,7 @@ QLS_QCLA_MATRIX_CAPSULE:
 # 114. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     text: >

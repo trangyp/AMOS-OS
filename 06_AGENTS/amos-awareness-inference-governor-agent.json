@@ -149,6 +149,8 @@
     "topic/multi-agent",
     "capability/governance",
     "capability/agent-design",
+    "capability/inference",
+    "capability/consciousness_analysis",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

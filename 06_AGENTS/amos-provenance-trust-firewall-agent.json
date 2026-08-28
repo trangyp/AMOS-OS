@@ -170,6 +170,7 @@
     "capability/trust",
     "capability/firewall",
     "capability/agent-design",
+    "capability/firewall_enforcement",
     "rscf/epistemic",
     "rscf/B-boundary",
     "rscf/C-constraint",

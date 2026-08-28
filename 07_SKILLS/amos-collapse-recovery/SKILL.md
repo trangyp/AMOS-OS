@@ -26,6 +26,8 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-collapse-recovery
+- capability/provenance
+- capability/recovery
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
@@ -33,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

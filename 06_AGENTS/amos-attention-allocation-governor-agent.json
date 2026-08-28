@@ -150,6 +150,7 @@
     "capability/governance",
     "capability/agent-design",
     "capability/attention",
+    "capability/attention_allocation",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

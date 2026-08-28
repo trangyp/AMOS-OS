@@ -16,6 +16,10 @@ tags:
 - capability/canon
 - capability/workflow
 - capability/software
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/D-distinction
@@ -32,6 +36,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

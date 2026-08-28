@@ -2629,7 +2629,7 @@ RSCF:
 # 123. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

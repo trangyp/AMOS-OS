@@ -17,6 +17,11 @@ tags:
 - topic/engineering
 - capability/workflow
 - capability/software
+- capability/governing_repair_loop
+- capability/preconditions
+- capability/orchestration_pattern
+- capability/evaluation_gates
+- capability/monitoring
 - rscf/epistemic
 - rscf/G-relation
 - rscf/T-topology
@@ -31,6 +36,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

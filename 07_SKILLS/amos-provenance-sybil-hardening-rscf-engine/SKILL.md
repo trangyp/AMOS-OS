@@ -26,6 +26,9 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-provenance-sybil-hardening-rscf-engine
+- capability/known_gap_at_this_version
+- capability/brain_adaptation
+- capability/benchmark_record
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

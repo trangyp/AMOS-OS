@@ -18,6 +18,10 @@ tags:
 - canon-group/tech-ai
 - topic/engineering
 - capability/software
+- capability/core_invariants
+- capability/repair
+- capability/debugging
+- capability/testing
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/B-boundary
@@ -35,6 +39,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

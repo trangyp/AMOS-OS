@@ -170,6 +170,7 @@
     "capability/repair",
     "capability/governance",
     "capability/agent-design",
+    "capability/audit",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

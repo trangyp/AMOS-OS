@@ -285,9 +285,9 @@ WRITE ANYWAY
 
 $$
 \boxed{
-t_{commit}\(Tx_k\)
+t_{commit}(Tx_k)
 >
-t_{start}\(Tx_k\)
+t_{start}(Tx_k)
 }
 $$
 
@@ -1287,9 +1287,9 @@ Again, serialization is not canonical from this source.
 The third invariant states:
 
 $$
-t_{commit}\(Tx_k\)
+t_{commit}(Tx_k)
 >
-t_{start}\(Tx_k\)
+t_{start}(Tx_k)
 $$
 
 This prohibits:
@@ -1359,9 +1359,9 @@ Therefore the invariant can be interpreted as an ordering constraint without ass
 Important boundary:
 
 $$
-t_{commit}\(Tx_k\)
+t_{commit}(Tx_k)
 >
-t_{start}\(Tx_k\)
+t_{start}(Tx_k)
 $$
 
 for each transaction does not, by itself, formally prove that all transactions are globally serializable.
@@ -3446,7 +3446,7 @@ $$
 \forall Tx_k,\;
 ReadSet(Tx_k)
 \subseteq
-Snapshot(t_{start}\(Tx_k\))
+Snapshot(t_{start}(Tx_k))
 }
 $$
 
@@ -3472,9 +3472,9 @@ $$
 
 $$
 \boxed{
-t_{commit}\(Tx_k\)
+t_{commit}(Tx_k)
 >
-t_{start}\(Tx_k\)
+t_{start}(Tx_k)
 }
 $$
 

@@ -19,6 +19,7 @@ tags:
 - capability/repair
 - capability/audit
 - capability/ast
+- capability/recovery
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/M-memory
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

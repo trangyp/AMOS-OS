@@ -1662,7 +1662,7 @@ PROOF_CAPSULE_ALU_5:
 # 49. Matrix-Level Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

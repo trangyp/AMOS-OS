@@ -17,6 +17,7 @@ tags:
 - canon-group/tech-ai
 - topic/security
 - capability/firewall
+- capability/firewall_enforcement
 - rscf/epistemic
 - rscf/B-boundary
 - rscf/C-constraint
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

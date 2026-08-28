@@ -19,6 +19,9 @@ tags:
 - capability/memory
 - capability/agent-design
 - capability/dynamics
+- capability/defect_found
+- capability/repair
+- capability/context_management
 - rscf/epistemic
 - rscf/S-state
 - rscf/M-memory
@@ -36,6 +39,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

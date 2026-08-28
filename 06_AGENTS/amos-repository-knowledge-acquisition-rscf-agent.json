@@ -155,6 +155,7 @@
     "capability/knowledge",
     "capability/agent-design",
     "capability/repository",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/T-topology",

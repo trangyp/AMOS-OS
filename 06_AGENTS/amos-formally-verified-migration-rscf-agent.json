@@ -170,6 +170,8 @@
     "capability/formal-verification",
     "capability/agent-design",
     "capability/migration",
+    "capability/audit",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/C-constraint",

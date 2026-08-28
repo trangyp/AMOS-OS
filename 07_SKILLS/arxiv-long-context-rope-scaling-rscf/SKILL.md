@@ -19,6 +19,7 @@ tags:
 - capability/arxiv-research
 - topic/research
 - capability/context-management
+- capability/search
 - rscf/epistemic
 - rscf/M-memory
 - rscf/B-boundary
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

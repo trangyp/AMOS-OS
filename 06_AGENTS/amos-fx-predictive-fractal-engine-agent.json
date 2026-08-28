@@ -150,6 +150,8 @@
     "capability/forex",
     "topic/forex",
     "capability/fractal",
+    "capability/prediction",
+    "capability/fractal_analysis",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/X-cross-scale",

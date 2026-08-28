@@ -153,6 +153,7 @@
     "canon-group/tech-ai",
     "topic/multi-agent",
     "capability/agent-design",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/D-distinction",
     "rscf/M-memory",

@@ -943,7 +943,7 @@ should be revalidated against the binding.
 # 42. Cross-Plane Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

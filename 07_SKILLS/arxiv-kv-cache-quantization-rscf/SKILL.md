@@ -19,6 +19,8 @@ tags:
 - capability/arxiv-research
 - topic/research
 - capability/kv-cache
+- capability/exploiting_design_flaws_general
+- capability/search
 - rscf/epistemic
 - rscf/M-memory
 - rscf/K-compression
@@ -36,6 +38,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

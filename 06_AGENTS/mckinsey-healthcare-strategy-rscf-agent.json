@@ -165,6 +165,7 @@
     "capability/mckinsey-strategy",
     "topic/consulting",
     "capability/agent-design",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/P-repair",
     "rscf/T-topology",

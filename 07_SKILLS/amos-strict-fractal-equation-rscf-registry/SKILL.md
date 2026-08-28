@@ -17,6 +17,7 @@ tags:
 - canon-group/tech-ai
 - topic/fractals
 - capability/fractal
+- capability/detection
 - rscf/epistemic
 - rscf/D-distinction
 - rscf/M-memory
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

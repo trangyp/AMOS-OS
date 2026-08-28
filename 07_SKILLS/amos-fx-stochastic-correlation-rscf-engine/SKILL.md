@@ -19,6 +19,7 @@ tags:
 - capability/forex
 - topic/forex
 - capability/stochastic
+- capability/rscf_reasoning
 - rscf/epistemic
 - rscf/G-relation
 - rscf/S-state
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

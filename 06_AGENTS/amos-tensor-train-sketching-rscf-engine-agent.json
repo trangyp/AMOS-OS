@@ -155,6 +155,8 @@
     "capability/tensor",
     "capability/agent-design",
     "capability/sketching",
+    "capability/reasoning",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/K-compression",
     "rscf/G-relation",

@@ -16,6 +16,10 @@ tags:
 - capability/memory
 - capability/workflow
 - capability/immune-system
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/M-memory
 - rscf/B-boundary
@@ -32,6 +36,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

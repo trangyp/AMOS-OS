@@ -18,6 +18,7 @@ tags:
 - topic/formal-verification
 - capability/tensor
 - capability/kernel
+- capability/execution
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

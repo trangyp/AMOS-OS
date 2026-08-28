@@ -143,6 +143,8 @@
     "canon-group/tech-ai",
     "topic/multi-agent",
     "capability/agent-design",
+    "capability/trang_framework",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/D-distinction",
     "rscf/T-topology",

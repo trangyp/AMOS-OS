@@ -168,6 +168,7 @@
     "canon-group/tech-ai",
     "topic/multi-agent",
     "capability/agent-design",
+    "capability/audit",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/C-constraint",

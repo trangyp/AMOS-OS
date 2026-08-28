@@ -155,6 +155,8 @@
     "capability/orchestration",
     "capability/agent-design",
     "capability/budget",
+    "capability/search",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/G-relation",
     "rscf/M-memory",

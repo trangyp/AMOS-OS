@@ -150,6 +150,7 @@
     "capability/forex",
     "topic/forex",
     "capability/kernel",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/X-cross-scale",

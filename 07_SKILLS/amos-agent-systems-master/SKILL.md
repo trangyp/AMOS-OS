@@ -18,6 +18,10 @@ tags:
 - topic/multi-agent
 - capability/agent-design
 - capability/ast
+- capability/sibling_artifacts
+- capability/worked_semantics
+- capability/governance
+- capability/reasoning
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -35,6 +39,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

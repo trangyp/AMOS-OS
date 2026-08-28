@@ -204,6 +204,7 @@
     "topic/multi-agent",
     "capability/governance",
     "capability/agent-design",
+    "capability/inference",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

@@ -177,6 +177,8 @@
     "canon-group/tech-ai",
     "topic/multi-agent",
     "capability/agent-design",
+    "capability/governance",
+    "capability/reasoning",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

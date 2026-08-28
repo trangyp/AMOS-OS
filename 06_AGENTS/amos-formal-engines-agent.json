@@ -184,6 +184,7 @@
     "topic/multi-agent",
     "capability/formal-verification",
     "capability/agent-design",
+    "capability/proof_generation",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

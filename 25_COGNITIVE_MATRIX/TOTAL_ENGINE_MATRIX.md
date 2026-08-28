@@ -2177,7 +2177,7 @@ If the corpus defines precedence between frontmatter and embedded RSCF contracts
 # 98. Validation Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim: >
     TOTAL_ENGINE_MATRIX.md v2.0.0 source-defines the master

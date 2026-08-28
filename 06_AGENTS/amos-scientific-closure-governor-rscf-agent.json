@@ -165,6 +165,7 @@
     "capability/governance",
     "capability/agent-design",
     "capability/closure",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

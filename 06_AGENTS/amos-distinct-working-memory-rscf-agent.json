@@ -164,6 +164,8 @@
     "topic/memory",
     "capability/memory",
     "capability/agent-design",
+    "capability/memory_management",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/T-topology",

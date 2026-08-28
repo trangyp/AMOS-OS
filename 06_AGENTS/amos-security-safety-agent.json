@@ -174,6 +174,7 @@
     "topic/security",
     "capability/security",
     "capability/agent-design",
+    "capability/firewall_enforcement",
     "rscf/epistemic",
     "rscf/B-boundary",
     "rscf/C-constraint",

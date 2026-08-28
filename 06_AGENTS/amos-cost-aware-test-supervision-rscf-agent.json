@@ -144,6 +144,7 @@
     "topic/multi-agent",
     "capability/agent-design",
     "capability/testing",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/T-topology",

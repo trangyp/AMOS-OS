@@ -17,6 +17,7 @@ tags:
 - canon-group/human-system
 - topic/strategy
 - capability/ast
+- capability/decomposition
 - rscf/epistemic
 - rscf/G-relation
 - rscf/T-topology
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

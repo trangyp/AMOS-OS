@@ -17,6 +17,7 @@ tags:
 - canon-group/tech-ai
 - topic/quality-assurance
 - capability/audit
+- capability/repair
 - rscf/epistemic
 - rscf/M-memory
 - rscf/C-constraint
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

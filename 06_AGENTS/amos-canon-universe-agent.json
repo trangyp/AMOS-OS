@@ -185,6 +185,7 @@
     "capability/canon",
     "capability/universe",
     "capability/agent-design",
+    "capability/reasoning",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/D-distinction",

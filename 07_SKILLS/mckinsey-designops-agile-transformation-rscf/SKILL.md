@@ -19,6 +19,7 @@ tags:
 - capability/mckinsey-strategy
 - topic/consulting
 - capability/design
+- capability/transformation
 - rscf/epistemic
 - rscf/μ-mutation
 - rscf/T-topology
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

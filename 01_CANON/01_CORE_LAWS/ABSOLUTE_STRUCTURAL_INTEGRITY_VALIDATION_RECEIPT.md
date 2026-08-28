@@ -1249,7 +1249,7 @@ This example MUST NOT itself be treated as evidence.
 # 34. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

@@ -16,6 +16,10 @@ tags:
 - capability/tensor
 - capability/workflow
 - capability/sketching
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/K-compression
 - rscf/T-topology
@@ -32,6 +36,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

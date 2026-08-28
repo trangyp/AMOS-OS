@@ -18,6 +18,7 @@ tags:
 - topic/scope-management
 - capability/context-management
 - capability/compaction
+- capability/recovery
 - rscf/epistemic
 - rscf/B-boundary
 - rscf/T-topology
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

@@ -17,6 +17,7 @@ tags:
 - canon-group/tech-ai
 - topic/scope-management
 - capability/context-management
+- capability/provenance
 - rscf/epistemic
 - rscf/S-state
 - rscf/B-boundary
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

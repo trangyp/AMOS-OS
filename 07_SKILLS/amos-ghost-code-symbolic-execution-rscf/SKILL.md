@@ -19,6 +19,8 @@ tags:
 - capability/code
 - capability/symbolic
 - capability/ghost-code
+- capability/execution
+- capability/reasoning
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -36,6 +38,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

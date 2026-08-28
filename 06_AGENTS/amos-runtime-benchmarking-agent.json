@@ -155,6 +155,7 @@
     "capability/benchmarking",
     "capability/runtime",
     "capability/agent-design",
+    "capability/audit",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/M-memory",

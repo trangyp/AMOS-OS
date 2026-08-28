@@ -23,6 +23,10 @@ tags:
 - canon-group/tech-ai
 - topic/runtime
 - capability/workflow
+- capability/runtime
+- capability/orient
+- capability/audit
+- capability/binding
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -40,6 +44,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

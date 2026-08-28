@@ -26,6 +26,8 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-full-brain-os
+- capability/reasoning
+- capability/consciousness_analysis
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

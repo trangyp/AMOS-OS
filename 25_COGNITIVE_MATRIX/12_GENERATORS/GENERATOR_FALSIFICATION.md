@@ -433,7 +433,7 @@ INDEPENDENCE = NOT_ESTABLISHED
 
 Suppose twelve generators produce similar outputs:
 
-$$G_1(E),G_2(E),...,G_{12}\(E\)$$
+$$G_1(E),G_2(E),...,G_{12}(E)$$
 
 The falsifier MUST challenge the proposition:
 

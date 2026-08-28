@@ -150,6 +150,7 @@
     "capability/counterfactual",
     "capability/governance",
     "capability/agent-design",
+    "capability/reasoning",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

@@ -153,6 +153,7 @@
     "canon-group/tech-ai",
     "topic/multi-agent",
     "capability/agent-design",
+    "capability/repair",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/P-repair",

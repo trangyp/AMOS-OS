@@ -17,6 +17,10 @@ tags:
 - topic/finance
 - capability/workflow
 - capability/ast
+- capability/preconditions
+- capability/failure_paths
+- capability/dependencies
+- capability/provenance
 - rscf/epistemic
 - rscf/S-state
 - rscf/E-entropy
@@ -33,6 +37,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

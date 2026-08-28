@@ -19,6 +19,7 @@ tags:
 - capability/arxiv-research
 - topic/research
 - capability/neural
+- capability/search
 - rscf/epistemic
 - rscf/S-state
 - rscf/T-topology
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

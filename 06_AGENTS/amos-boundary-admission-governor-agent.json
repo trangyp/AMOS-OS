@@ -155,6 +155,7 @@
     "capability/boundary",
     "capability/governance",
     "capability/agent-design",
+    "capability/boundary_enforcement",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

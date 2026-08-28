@@ -27,6 +27,7 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-hourglass-induction-rscf
+- capability/analysis
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

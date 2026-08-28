@@ -19,6 +19,7 @@ tags:
 - capability/causal-reasoning
 - capability/governance
 - capability/closure
+- capability/cosmo_brain_vault_content
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

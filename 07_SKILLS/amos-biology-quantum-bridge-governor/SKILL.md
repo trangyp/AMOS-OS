@@ -27,6 +27,8 @@ tags:
 - capability/governance
 - capability/biology
 - capability/quantum
+- capability/prediction
+- capability/enforcement
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/B-boundary
@@ -44,6 +46,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

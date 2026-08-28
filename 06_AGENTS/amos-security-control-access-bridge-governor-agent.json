@@ -208,6 +208,8 @@
     "capability/security",
     "capability/governance",
     "capability/agent-design",
+    "capability/enforcement",
+    "capability/bridging",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/G-relation",

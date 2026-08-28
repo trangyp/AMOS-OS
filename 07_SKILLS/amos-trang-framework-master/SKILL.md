@@ -17,6 +17,10 @@ tags:
 - canon-group/tech-ai
 - topic/trang-framework
 - capability/ast
+- capability/recovery
+- capability/reasoning
+- capability/collapse
+- capability/fractal_analysis
 - rscf/epistemic
 - rscf/D-distinction
 - rscf/M-memory
@@ -34,6 +38,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

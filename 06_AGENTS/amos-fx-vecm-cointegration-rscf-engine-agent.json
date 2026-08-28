@@ -150,6 +150,8 @@
     "capability/forex",
     "topic/forex",
     "capability/agent-design",
+    "capability/integration",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/G-relation",
     "rscf/S-state",

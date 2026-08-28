@@ -18,6 +18,8 @@ tags:
 - topic/memory
 - capability/firewall
 - capability/memory
+- capability/cosmo_brain_vault_content
+- capability/firewall_enforcement
 - rscf/epistemic
 - rscf/B-boundary
 - rscf/C-constraint
@@ -35,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

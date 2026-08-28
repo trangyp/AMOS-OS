@@ -2569,7 +2569,7 @@ RSCF:
 # 86. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
 
@@ -2937,7 +2937,7 @@ COSMOLOGICAL TAXONOMY.
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] ·
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · 
 [[AMOS_X_UNIVERSE_CANON]] · [[UNIVERSE_RSCF_INDEX]] ·
 [[AMOS_X_UBI]] · [[AMOS_X_TSS]] · [[AMOS_X_TPE]] ·
 [[AMOS_X_QLS]]

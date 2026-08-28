@@ -16,6 +16,10 @@ tags:
 - capability/fractal
 - capability/workflow
 - capability/biology
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/T-topology
 - rscf/X-cross-scale
@@ -32,6 +36,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

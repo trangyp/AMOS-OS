@@ -17,6 +17,7 @@ tags:
 - canon-group/human-system
 - topic/strategy
 - capability/mckinsey-strategy
+- capability/reasoning
 - topic/consulting
 - rscf/epistemic
 - rscf/M-memory
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

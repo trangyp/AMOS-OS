@@ -28,6 +28,9 @@ tags:
 - topic/security
 - capability/security
 - capability/governance
+- capability/the_pipeline
+- capability/audit
+- capability/validation
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/G-relation
@@ -45,6 +48,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

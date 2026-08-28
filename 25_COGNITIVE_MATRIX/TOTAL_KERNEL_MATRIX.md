@@ -450,7 +450,7 @@ Its exact ontology remains ULK/Trang ∅ dependent.
 ULK's fail-closed fallback is:
 
 $$
-Revert\ to\ Ground\ State\ \(S_0\)
+Revert\ to\ Ground\ State\ (S_0)
 $$
 
 This gives \(S_0\) an explicit recovery role inside the kernel matrix.
@@ -928,7 +928,7 @@ unless explicitly bound.
 # 44. [[K_ATOMIC_MULTI_RSCF]]
 
 ```yaml
-[[K_ATOMIC_MULTI_RSCF]]:
+K_ATOMIC_MULTI_RSCF:
 
   architecture:
     MULTI_CAPSULE_CROSS_PLANE_COMMIT_COORDINATOR
@@ -2977,7 +2977,7 @@ TOTAL_KERNEL_MATRIX:
       fallback:
         STATE_MISMATCH_REJECTION
 
-    [[K_ATOMIC_MULTI_RSCF]]:
+    K_ATOMIC_MULTI_RSCF:
       targets:
         - 03_CONTROL_PLANE
         - 16_SCHEMAS
@@ -3120,7 +3120,7 @@ RSCF_STATE_TOPOLOGY:
 # 154. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

@@ -19,6 +19,7 @@ tags:
 - topic/epistemology
 - capability/budget
 - capability/optimization
+- capability/analysis
 - rscf/epistemic
 - rscf/D-distinction
 - rscf/C-constraint
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

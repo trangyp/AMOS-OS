@@ -26,6 +26,8 @@ tags:
 - sota/anti-patterns
 - amos_os
 - amos-qls-qic-substrate-mapper
+- capability/valid
+- capability/reasoning
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -33,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

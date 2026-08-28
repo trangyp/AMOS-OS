@@ -170,6 +170,8 @@
     "capability/benchmarking",
     "capability/agent-design",
     "capability/sparse-autoencoder",
+    "capability/audit",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/C-constraint",

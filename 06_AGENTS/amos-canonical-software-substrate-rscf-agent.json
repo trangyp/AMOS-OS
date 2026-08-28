@@ -155,6 +155,7 @@
     "capability/canon",
     "capability/agent-design",
     "capability/software",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/C-constraint",
     "rscf/D-distinction",

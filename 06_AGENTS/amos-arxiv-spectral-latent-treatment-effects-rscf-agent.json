@@ -165,6 +165,8 @@
     "capability/arxiv-research",
     "topic/research",
     "capability/agent-design",
+    "capability/search",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/M-memory",

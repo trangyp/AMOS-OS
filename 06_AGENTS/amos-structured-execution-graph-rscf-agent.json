@@ -169,6 +169,8 @@
     "topic/multi-agent",
     "capability/agent-design",
     "capability/structured-execution",
+    "capability/execution",
+    "capability/rscf_reasoning",
     "rscf/epistemic",
     "rscf/S-state",
     "rscf/T-topology",

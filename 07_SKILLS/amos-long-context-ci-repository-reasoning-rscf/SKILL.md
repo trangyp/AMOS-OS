@@ -19,6 +19,7 @@ tags:
 - capability/context-management
 - capability/repository
 - capability/long-context
+- capability/reasoning
 - rscf/epistemic
 - rscf/B-boundary
 - rscf/G-relation
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

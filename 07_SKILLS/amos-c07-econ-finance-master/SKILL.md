@@ -17,6 +17,7 @@ tags:
 - canon-group/tech-ai
 - topic/finance
 - capability/ast
+- capability/trading
 - rscf/epistemic
 - rscf/S-state
 - rscf/X-cross-scale
@@ -34,6 +35,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

@@ -10,6 +10,12 @@ tags:
 - topic/canon
 - capability/canon
 - capability/universe
+- capability/seven_part_audit
+- capability/collapse_diagnosis
+- capability/structural_completeness_check
+- capability/law_stack_integration
+- capability/persistence_analysis
+- capability/enforcement_decay_detection
 - rscf/epistemic
 - rscf/C-constraint
 - rscf/D-distinction
@@ -27,6 +33,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

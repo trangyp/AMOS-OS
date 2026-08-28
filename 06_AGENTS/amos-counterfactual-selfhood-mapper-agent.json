@@ -149,6 +149,7 @@
     "topic/multi-agent",
     "capability/counterfactual",
     "capability/agent-design",
+    "capability/reasoning",
     "rscf/epistemic",
     "rscf/G-relation",
     "rscf/S-state",

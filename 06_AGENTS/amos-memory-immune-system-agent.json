@@ -170,6 +170,7 @@
     "capability/memory",
     "capability/agent-design",
     "capability/immune-system",
+    "capability/memory_management",
     "rscf/epistemic",
     "rscf/M-memory",
     "rscf/B-boundary",

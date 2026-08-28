@@ -17,6 +17,9 @@ tags:
 - canon-group/tech-ai
 - topic/causality
 - capability/causal-reasoning
+- capability/known_gap_at_this_version
+- capability/brain_adaptation
+- capability/benchmark_record
 - rscf/epistemic
 - rscf/μ-mutation
 - rscf/G-relation
@@ -34,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

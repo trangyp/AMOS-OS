@@ -29,6 +29,7 @@ tags:
 - tagging
 - auto-tag
 - metadata
+- capability/provenance
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -36,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.0.0
 ---
+
+
 
 
 

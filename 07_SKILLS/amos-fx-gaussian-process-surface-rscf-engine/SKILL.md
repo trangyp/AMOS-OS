@@ -17,6 +17,7 @@ tags:
 - canon-group/tech-ai
 - topic/finance
 - capability/forex
+- capability/rscf_reasoning
 - topic/forex
 - rscf/epistemic
 - rscf/S-state
@@ -35,6 +36,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

@@ -14,6 +14,10 @@ tags:
 - canon-group/tech-ai
 - topic/runtime
 - capability/workflow
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/G-relation
 - rscf/T-topology
@@ -30,6 +34,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 

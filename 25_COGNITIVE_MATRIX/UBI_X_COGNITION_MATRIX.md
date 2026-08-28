@@ -193,7 +193,7 @@ This notation is **DERIVED normalization**.
 The matrix can be represented structurally as:
 
 $$
-\mathcal R_{UBI\to COG}\(B_i\)
+\mathcal R_{UBI\to COG}(B_i)
 =
 (C_i,T_i,A_i)
 $$
@@ -1591,19 +1591,19 @@ should not automatically be upgraded to transactional atomicity.
 A normalized predicate set is:
 
 $$
-T_{NBI}\(L\)=[L>0.85]
+T_{NBI}(L)=[L>0.85]
 $$
 
 $$
-T_{NEI}\(V\)=[V<-0.60]
+T_{NEI}(V)=[V<-0.60]
 $$
 
 $$
-T_{SI}\(F\)=[F>0.75]
+T_{SI}(F)=[F>0.75]
 $$
 
 $$
-T_{BEI}\(C\)=[C<0.70]
+T_{BEI}(C)=[C<0.70]
 $$
 
 This is a **DERIVED mathematical normalization**.
@@ -1617,10 +1617,10 @@ The complete trigger state can be represented:
 $$
 \mathbf z=
 \begin{bmatrix}
-T_{NBI}\(L\)\\
-T_{NEI}\(V\)\\
-T_{SI}\(F\)\\
-T_{BEI}\(C\)
+T_{NBI}(L)\\
+T_{NEI}(V)\\
+T_{SI}(F)\\
+T_{BEI}(C)
 \end{bmatrix}
 $$
 
@@ -2557,7 +2557,7 @@ RSCF:
 # 117. Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

@@ -154,6 +154,7 @@
     "topic/multi-agent",
     "capability/tensor",
     "capability/agent-design",
+    "capability/reasoning",
     "rscf/epistemic",
     "rscf/T-topology",
     "rscf/G-relation",

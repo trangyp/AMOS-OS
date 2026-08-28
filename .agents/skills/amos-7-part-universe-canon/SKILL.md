@@ -1,6 +1,17 @@
 ---
 name: amos-7-part-universe-canon
 description: "AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers, identifying the Flow gap (Part II), or mapping persistence logic. Use whenever the user mentions 7-part canon, persistence, structural completeness, system lifecycle, collapse, recovery, or universe canon — even without explicitly asking for '7-part'."
+parent_skill: amos-canon-universe-master
+domain: canon
+origin_architect: Trang Phan
+epistemic_class: SOURCE_CLAIM
+version: "1.1.0"
+rscf_state: SOURCE_CLAIM
+hml_level: M
+gmef_gates: [L0_integrity, L1_epistemic, L2_provenance, L5_scope, L7_authority]
+collapse_class: reversible
+qfm_gate_set: QFM_v43
+law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 ---
 
 # AMOS 7-Part Universe Canon — Persistence Canon

@@ -18,6 +18,8 @@ tags:
 - topic/physics
 - capability/physics
 - capability/ast
+- capability/reasoning
+- capability/quantum_reasoning
 - rscf/epistemic
 - rscf/M-memory
 - rscf/G-relation
@@ -35,6 +37,8 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
+
 
 
 

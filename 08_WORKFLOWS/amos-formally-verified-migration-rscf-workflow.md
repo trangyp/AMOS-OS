@@ -16,6 +16,10 @@ tags:
 - capability/formal-verification
 - capability/workflow
 - capability/migration
+- capability/preconditions
+- capability/output
+- capability/failure_paths
+- capability/provenance
 - rscf/epistemic
 - rscf/μ-mutation
 - rscf/C-constraint
@@ -32,6 +36,8 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
+
 
 
 
