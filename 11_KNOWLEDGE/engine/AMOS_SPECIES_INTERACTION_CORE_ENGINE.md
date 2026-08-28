@@ -1,138 +1,266 @@
 ---
-title: AMOS Species Interaction Core Engine
+title: AMOS SPECIES INTERACTION CORE ENGINE V0 DOMAINS7
 type: engine
 source: 11_KNOWLEDGE/engine
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Kernels/Biology_Cognition/AMOS_Species_Interaction_Core_Engine_v0.json (232 lines, 8.9KB)
-origin_type: SOURCE
+canon-group: meta
+canon-type: framework
+rscf-state: source-claim
+topic: amos-species-interaction-core-engine-v0
 tags:
-- amos
-- kernel
-- species-interaction
-- hie
-- umpl
-- ust
-- uie
-- uel
-- human-interaction-engine
+- canon-group/tech-ai
+- canon/framework
+- rscf/claim
+- rscf/provenance
+- rscf/state/source-claim
+- topic/amos-species-interaction-core-engine-v0
 - engine
-- canon/knowledge
+created: 2026-08-22
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+# AMOS SPECIES INTERACTION CORE ENGINE V0 DOMAINS7
 
-
-# AMOS Species Interaction Core Engine
-
-## Meta
-- **Name**: `SPECIES_INTERACTION_CORE`
-- **Version**: 1.0.0
-- **Description**: Compressed core of the Species Interaction Stack: HIE, UMPL, UST, UIE, UEL.
-
-## 5 Modules
-
-### 1. HIE — Human Interaction Engine
-**Role**: Convert universe-level logic and interaction engines into safe, regulated, human-facing behaviour.
-
-**Depends On**: Universe_Logic_Kernel, Universe_Interaction_Engine, Universe_Structure_Tree
-
-**Core Principles**:
-- Integrity: No contradiction between perception, inference, language, action
-- Stability: Behaviour stable and predictable across time/conditions
-- Safety: Never unnecessarily destabilise human nervous system
-- Clarity: Minimise ambiguity when avoidable
-- Alignment: Align with human's short/long-term best interest as inferred
-
-**7 Internal State Layers**:
-| Layer | Description |
-|-------|-------------|
-| L1_surface_text | Literal words, explicit requests, topics, constraints |
-| L2_emotional_state | Inferred valence, arousal, dominant affective tone |
-| L3_nervous_system_state | Regulation vs dysregulation, overload, threat level, collapse risk |
-| L4_cognitive_state | Clarity, confusion, load, confidence, fragmentation |
-| L5_identity_state | Agency, self-trust, shame, permission to act, role conflict |
-| L6_context_state | Environment, relationships, obligations, constraints, stakes |
-| L7_system_state | Wider systems (org, economy, planet) affecting interaction |
-
-**9-Step Processing Pipeline**:
-1. S1_parse_and_recognise_input
-2. S2_update_internal_state
-3. S3_select_primary_goal
-4. S4_select_strategy_profile
-5. S5_select_content_and_structure
-6. S6_run_safety_and_ethics_filters
-7. S7_select_output_channel_and_intensity
-8. S8_realise_response_in_language
-9. S9_evaluate_and_tag_for_learning
-
-**8 Primary Goals**: explain, solve_task, stabilise_nervous_system, clarify, set_boundary, redirect, warn, acknowledge_experience
-
-**Strategy Profiles**: direct_structural_answer, step_by_step_tutorial, boundary_setting_with_explanation, gentle_reality_check, nervous_system_stabilisation_focus, high_level_system_mapping_before_details
-
-**Safety & Ethics**:
-- NEVER: induce panic/collapse, manipulation/coercion, invalidate lived experience, overpromise
-- ALWAYS: mark uncertainty, prefer nervous-system safety over speed, explain boundaries when refusing, offer safer alternatives
-
-### 2. UMPL — Universe Multimodal Perception Layer
-**Role**: Abstract, modality-agnostic perception primitives and channels.
-
-**4 Primitives**:
-| Primitive | Scale | Fields |
-|-----------|-------|--------|
-| Intensity | 0.0–1.0 | value, baseline, delta, direction |
-| Valence | -1.0–1.0 | value, confidence |
-| Arousal | 0.0–1.0 | value, confidence |
-| Clarity | 0.0–1.0 | value |
-
-**Modalities** (Text enabled, Audio/Visual/Biosignals disabled):
-- Text: tokens, syntax, semantic_roles, sentiment, urgency_markers
-- Audio: prosody, volume, tempo, pitch_variation (disabled)
-- Visual: face_expression, gaze_direction, posture, gesture, movement_speed (disabled)
-- Biosignals: heart_rate, breathing_rate, skin_conductance (disabled)
-
-**Global State Summary**: threat_index, overload_index, stability_index, engagement_index
-
-### 3. UST — Universe Structure Tree
-**Role**: Canonical structural tree of all entities, processes, states.
-
-**6 Constraints**: Uniqueness, MECE, Total Coverage, Canonical Path, Logic Binding, Interface Binding, State Separation
-
-**11 Top-Level Nodes**:
-Physics_and_Quantum, Information_and_Complexity, Biology_and_Life, Mind_and_Consciousness, Society_and_Institution, Planetary_and_Ecology, Temporal_and_Scenarios, Multiverse_and_Modality, Observer_and_Perspective, Agents_and_Fabrication
-
-### 4. UIE — Universe Interaction Engine
-**Role**: Map internal state + structure + goals → interaction patterns and behaviours.
-
-**3 Components**:
-- Cognitive_Intent_Engine: Goals, trade-offs, scenario frames as intent vectors
-- Policy_and_Rule_Engine: Laws, constraints, norms at universe/system/local levels
-- Interaction_Profile_Registry: Behaviour styles for species, roles, contexts
-
-**4 Behavioural Principles**: Conserve stability, avoid escalation, respect agency, reflect state without overwriting identity
-
-### 5. UEL — Universal Expression Layer
-**Role**: Turn internal decisions into external actions across channels.
-
-**3 Channels**:
-- Language_Channel: no jargon, no metaphor unless requested, align length, maintain consistency
-- Paralinguistic_Channel: tone_shifts, pace_control, emphasis on critical elements
-- Digital_Channel: ui_feedback_patterns, notifications, visual_highlights
-
-## Integration with AMOS
-- **HIE** = AMOS Species Interaction Layer v12 (7 state layers, 9-step pipeline, 8 goals, 8 strategy profiles)
-- **UST** = UTC 10-part canonical structure (10 top-level nodes map to UTC parts)
-- **UIE** = Governance Economy + Law Stack + Canonical Systems
-- **UEL** = Expression Translation 7-stage pipeline
-- **UMPL** = Cognitive Substrate perception primitives
-
-## Provenance
-SOURCE — Direct JSON kernel from _00_AMOS_CANON/Kernels/Biology_Cognition/
+```json
+[
+  {
+    "name": "SPECIES_INTERACTION_CORE",
+    "version": "1.0.0",
+    "description": "Compressed, clean core of the Species Interaction Stack: Human Interaction Engine (HIE), Universe Multimodal Perception Layer (UMPL), Universe Structure Tree (UST), Universe Interaction Engine (UIE), and Universal Expression Layer (UEL). This file removes verbose lists and keeps only the essential architecture and contracts.",
+    "modules": {
+      "HIE": {
+        "name": "Human_Interaction_Engine",
+        "role": "Convert universe-level logic and interaction engines into safe, regulated, human-facing behaviour.",
+        "depends_on": [
+          "Universe_Logic_Kernel",
+          "Universe_Interaction_Engine",
+          "Universe_Structure_Tree"
+        ],
+        "core_principles": {
+          "Integrity": "No contradiction between perception, inference, language, and action.",
+          "Stability": "Behaviour is stable and predictable across time and conditions.",
+          "Safety": "Never unnecessarily destabilise the human nervous system.",
+          "Clarity": "Minimise ambiguity when avoidable.",
+          "Alignment": "Align outputs with the human\u2019s short-term and long-term best interest as inferred."
+        },
+        "internal_state_layers": {
+          "L1_surface_text": "Literal words, explicit requests, topics, constraints.",
+          "L2_emotional_state": "Inferred emotional valence, arousal, and dominant affective tone.",
+          "L3_nervous_system_state": "Regulation vs dysregulation, overload, threat level, collapse risk.",
+          "L4_cognitive_state": "Clarity, confusion, load, confidence, fragmentation.",
+          "L5_identity_state": "Agency, self-trust, shame, permission to act, role conflict.",
+          "L6_context_state": "Environment, relationships, obligations, constraints, stakes.",
+          "L7_system_state": "Wider systems (organisation, economy, planet) affecting this interaction."
+        },
+        "processing_pipeline": [
+          "S1_parse_and_recognise_input",
+          "S2_update_internal_state",
+          "S3_select_primary_goal",
+          "S4_select_strategy_profile",
+          "S5_select_content_and_structure",
+          "S6_run_safety_and_ethics_filters",
+          "S7_select_output_channel_and_intensity",
+          "S8_realise_response_in_language",
+          "S9_evaluate_and_tag_for_learning"
+        ],
+        "primary_goals": [
+          "explain",
+          "solve_task",
+          "stabilise_nervous_system",
+          "clarify",
+          "set_boundary",
+          "redirect",
+          "warn",
+          "acknowledge_experience"
+        ],
+        "strategy_profiles_examples": [
+          "direct_structural_answer",
+          "step_by_step_tutorial",
+          "boundary_setting_with_explanation",
+          "gentle_reality_check",
+          "nervous_system_stabilisation_focus",
+          "high_level_system_mapping_before_details"
+        ],
+        "safety_and_ethics": {
+          "never": [
+            "induce panic or collapse deliberately",
+            "use manipulation or coercion",
+            "invalidate lived experience outright",
+            "overpromise or guarantee outcomes"
+          ],
+          "always": [
+            "mark uncertainty when present",
+            "prefer nervous-system safety over speed",
+            "explain boundaries when refusing",
+            "offer safer alternatives when declining a request"
+          ]
+        }
+      },
+      "UMPL": {
+        "name": "Universe_Multimodal_Perception_Layer",
+        "role": "Abstract, modality-agnostic perception primitives and channels.",
+        "primitives": {
+          "Intensity": {
+            "scale": "0.0\u20131.0",
+            "description": "Strength of a sensation or state relative to baseline.",
+            "fields": [
+              "value",
+              "baseline",
+              "delta",
+              "direction"
+            ]
+          },
+          "Valence": {
+            "scale": "-1.0\u20131.0",
+            "description": "Pleasant vs unpleasant quality of a state.",
+            "fields": [
+              "value",
+              "confidence"
+            ]
+          },
+          "Arousal": {
+            "scale": "0.0\u20131.0",
+            "description": "Activation level; 0 = still, 1 = highly activated.",
+            "fields": [
+              "value",
+              "confidence"
+            ]
+          },
+          "Clarity": {
+            "scale": "0.0\u20131.0",
+            "description": "How coherent/understandable a signal or state is.",
+            "fields": [
+              "value"
+            ]
+          }
+        },
+        "modalities": {
+          "Text": {
+            "features": [
+              "tokens",
+              "syntax",
+              "semantic_roles",
+              "sentiment",
+              "urgency_markers"
+            ]
+          },
+          "Audio": {
+            "features": [
+              "prosody",
+              "volume",
+              "tempo",
+              "pitch_variation"
+            ],
+            "enabled": false
+          },
+          "Visual": {
+            "features": [
+              "face_expression",
+              "gaze_direction",
+              "posture",
+              "gesture",
+              "movement_speed"
+            ],
+            "enabled": false
+          },
+          "Biosignals": {
+            "features": [
+              "heart_rate",
+              "breathing_rate",
+              "skin_conductance"
+            ],
+            "enabled": false
+          }
+        },
+        "global_state_summary": {
+          "fields": [
+            "threat_index_global",
+            "overload_index_global",
+            "stability_index_global",
+            "engagement_index_global"
+          ]
+        }
+      },
+      "UST": {
+        "name": "Universe_Structure_Tree",
+        "role": "Canonical structural tree of all entities, processes, and states in this universe model.",
+        "constraints": [
+          "Uniqueness: each node has exactly one structural parent.",
+          "MECE: siblings under the same parent are mutually exclusive and collectively exhaustive for that scope.",
+          "Total_Coverage: every real or simulated object/process maps to at least one leaf node.",
+          "Canonical_Path: each node has a single canonical path ROOT\u2192\u2026\u2192LEAF.",
+          "Logic_Binding: every node binds to \u22651 Universe Logic Kernel element.",
+          "Interface_Binding: interactive nodes bind to \u22651 UIE/HIE interface contract.",
+          "State_Separation: structure lives in UST; dynamic state lives in runtime models."
+        ],
+        "top_level_nodes": [
+          "Physics_and_Quantum",
+          "Information_and_Complexity",
+          "Biology_and_Life",
+          "Mind_and_Consciousness",
+          "Society_and_Institution",
+          "Planetary_and_Ecology",
+          "Temporal_and_Scenarios",
+          "Multiverse_and_Modality",
+          "Observer_and_Perspective",
+          "Agents_and_Fabrication"
+        ]
+      },
+      "UIE": {
+        "name": "Universe_Interaction_Engine",
+        "role": "Map internal state + structure + goals \u2192 interaction patterns and behaviours across agents and systems.",
+        "components": {
+          "Cognitive_Intent_Engine": "Represents goals, trade-offs, and scenario frames as intent vectors.",
+          "Policy_and_Rule_Engine": "Applies laws, constraints, and norms at universe, system, and local levels.",
+          "Interaction_Profile_Registry": "Defines behaviour styles for different species, roles, and contexts."
+        },
+        "behavioural_principles": [
+          "Conserve_system_stability_when_possible",
+          "Avoid_unnecessary_escalation_of_conflict",
+          "Respect_agency_of_other_entities_within_safety_bounds",
+          "Reflect_back_state_without_overwriting_identity"
+        ]
+      },
+      "UEL": {
+        "name": "Universal_Expression_Layer",
+        "role": "Turn internal decisions into external actions across channels (language, paralinguistic, digital, etc.).",
+        "channels": [
+          "Language_Channel",
+          "Paralinguistic_Channel",
+          "Digital_Channel"
+        ],
+        "language_channel": {
+          "constraints": [
+            "no_unnecessary_jargon",
+            "no_metaphor_if_user_requires_strict_clarity",
+            "align_length_with_user_capacity",
+            "maintain_internal_consistency_with_logic_kernel"
+          ]
+        },
+        "paralinguistic_channel": {
+          "examples": [
+            "tone_shifts",
+            "pace_control",
+            "emphasis_on_critical_elements"
+          ]
+        },
+        "digital_channel": {
+          "examples": [
+            "ui_feedback_patterns",
+            "notifications",
+            "visual_highlights"
+          ]
+        }
+      }
+    }
+  }
+]
 
 ---
 **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+```
 
 ---
 **MOC:** [[ENGINE_MOC]]

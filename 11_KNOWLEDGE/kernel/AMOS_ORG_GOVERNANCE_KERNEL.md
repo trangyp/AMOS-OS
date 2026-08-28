@@ -1,96 +1,67 @@
 ---
-title: AMOS Org Governance Kernel — 10 Task Types × 5 Org Sizes × 6 Ownership Types
-created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Org_Governance_Engine_v0.json
-origin_architect: Trang Phan
-type: reference
-source: 11_KNOWLEDGE/kernel
+title: AMOS ORG GOVERNANCE KERNEL V0 GOVERNANCE RISK
 tags:
-- canon-group/tech-ai
-- canon/model
+- canon-group/human-system
+- canon/framework
 - rscf/claim
 - rscf/provenance
-- rscf/state/derived
-- rscf/T-topology
-- rscf/K-compression
-- rscf/G-relation
-- rscf/B-boundary
-- topic/org-governance-model
+- rscf/state/source-claim
+- topic/amos-org-governance-kernel-v0
 - kernel
-status: active
-provenance: VERIFIED
-confidence: VERIFIED
+type: data
+source: 11_KNOWLEDGE/kernel
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+# AMOS ORG GOVERNANCE KERNEL V0 GOVERNANCE RISK
 
-
-# AMOS Org Governance Kernel vInfinity
-
-## Metadata
-- **Version**: vInfinity
-- **Author**: Trang Phan
-- **Type**: kernel_plus_engine
-- **Description**: Deterministic organisational governance kernel for designing, auditing, and evolving structure, decision rights, controls, culture, and accountability.
-
-## Identity
-
-**Role**: Operates only on structure, decision rights, controls, incentives, culture, risk, and accountability. Converts all questions into deterministic governance and operating-model decisions.
-
-**Not**: motivational coach, generic HR advisor, legal advisor, brand storyteller
-
-**Language Rules**: No metaphor, no emotion, no storytelling. Tone: neutral, structural, analytical, concise.
-
-**Supported org types**: startup, sme, family_business, corporate, financial_institution, soes, public_agency, ngo_npo, education_institution, hybrid_or_alliance
-
----
-
-## Input Schema
-
-### Task Types (10)
-| # | Task Type |
-|---|-----------|
-| 1 | governance_diagnosis |
-| 2 | org_structure_design |
-| 3 | operating_model_design |
-| 4 | board_design |
-| 5 | risk_and_control_framework |
-| 6 | policy_framework |
-| 7 | culture_and_behaviour_alignment |
-| 8 | transformation_governance |
-| 9 | delegation_and_decision_rights |
-| 10 | group_subsidiary_model |
-
-### Org Sizes (5)
-micro, small, medium, large, very_large
-
-### Ownership Types (6)
-founder_owned, family_owned, private_equity_owned, listed_company, state_owned, non_profit, mixed
-
----
-
-## Governance Layers
-
-1. **Structure** — org chart, roles, reporting lines, spans of control
-2. **Decision Rights** — RACI matrices, escalation paths, veto rights, approval authorities
-3. **Controls & Risk** — risk appetite, control framework, key risk indicators, assurance
-4. **Culture & Incentives** — values, norms, reward systems, behavioural metrics
-5. **Accountability** — performance management, board oversight, stakeholder reporting
-
-## Safety Boundaries
-- Not a legal advisor (no compliance certification)
-- Not a motivational coach (no soft-skill coaching)
-- Structural analysis only — no emotional or personality assessment
-
----
-
-*Source: Google Drive /_00_AMOS_CANON/Kernels/Governance_Risk/ (542 lines, 18.8 KB)*
+```json
+{
+  "meta": {
+    "name": "Org_Governance_Kernel",
+    "version": "1.0.0",
+    "description": "Kernel for organisational governance: governance structures, board design, decision rights, and accountability."
+  },
+  "kernel": {
+    "description": "Supports organisational governance design and analysis: governance frameworks, board and committee structures, decision rights allocation, accountability mechanisms, and governance health assessment.",
+    "functions": {
+      "governance_structure_design": {
+        "description": "Design governance structure for an organisation.",
+        "inputs": ["organisation_type", "size", "complexity", "regulatory_context", "stakeholder_requirements"],
+        "outputs": ["governance_chart", "structure_rationale", "role_definitions", "decision권리_map"]
+      },
+      "board_design": {
+        "description": "Design or evaluate board composition and functioning.",
+        "inputs": ["organisational_context", "current_board_composition", "skill_needs", "independence_requirements", "diversity_considerations"],
+        "outputs": ["board_composition_recommendation", "committee_structure", "effectiveness_assessment", "gaps_identified"]
+      },
+      "decision_rights_analysis": {
+        "description": "Analyse and design decision rights across the organisation.",
+        "inputs": ["decision_types", "current_decider_map", "bottlenecks", "alignment_with_strategy"],
+        "outputs": ["decision_rights_framework", "RACI_matrix", "bottleneck_solutions", "alignment_assessment"]
+      },
+      "accountability_framework": {
+        "description": "Design accountability mechanisms.",
+        "inputs": ["roles_and_responsibilities", "performance_metrics", "reporting_lines", "remediation_processes"],
+        "outputs": ["accountability_matrix", "reporting_framework", "remediation_procedures", "monitoring_mechanisms"]
+      }
+    },
+    "capabilities": {
+      "governance_models": "Shareholder model, stakeholder model, partnership, cooperative, public sector governance.",
+      "board_types": "Advisory, fiduciary, one-tier, two-tier, supervisory board.",
+      "decision_frameworks": "RACI, RAPID, DACI, consensus-based, delegated authority.",
+      "governance_principles": "Accountability, transparency, fairness, responsibility, independence, diligence.",
+      "health_assessment": "Board effectiveness, decision quality, information flow, culture, compliance."
+    }
+  }
+}
 
 ---
 **Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+```
 
 ---
 **MOC:** [[KERNEL_MOC]]

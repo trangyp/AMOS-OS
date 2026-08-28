@@ -1,18 +1,18 @@
 ---
-title: AMOS SUPER CONSCIOUSNESS ENGINE
+title: AMOS SUPER CONSCIOUSNESS ENGINE VINFINITY MAX H3
 type: consciousness
 source: 11_KNOWLEDGE/engine
 canon-group: meta
 canon-type: framework
 rscf-state: source-claim
-topic: amos-super-consciousness-engine
+topic: amos-super-consciousness-engine-vinfinity-max-h3
 tags:
 - canon-group/biology
 - canon/framework
 - rscf/claim
 - rscf/provenance
 - rscf/state/source-claim
-- topic/amos-super-consciousness-engine
+- topic/amos-super-consciousness-engine-vinfinit
 - engine
 created: 2026-08-22
 rscf:
@@ -21,7 +21,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-# AMOS SUPER CONSCIOUSNESS ENGINE
+# AMOS SUPER CONSCIOUSNESS ENGINE VINFINITY MAX H3
 
 ```json
 {
