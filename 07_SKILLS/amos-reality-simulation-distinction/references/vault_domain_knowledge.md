@@ -88,7 +88,7 @@ What distinctions must be preserved? What is mutating them? What is degrading co
 
 > Path: `trang/Trang Reality Architecture.md` | Size: 501109 chars | Match score: 10
 
-﻿Trang Reality Architecture
+Trang Reality Architecture
 Ontological Foundation
 Trang Reality Architecture begins from the position that reality is not fundamentally a collection of isolated objects, but a continuously evolving structure of distinctions, relations, constraints, transformations, and recursive memory. Before mathematics, language, geometry, or symbolic abstraction, the architecture places pre-symbolic operations: potential becoming distinction, distinction producing relation, relation creating constraint, and constraint stabilizing form. Topology precedes geometry; connection, separation, transformation, and persistence exist before measurement. Mathematics is therefore treated not as ultimate reality itself, but as observer-generated compression of recurring relational structures. Morphogenesis becomes a universal process in which fields generate gradients, gradients produce constraints, constraints create boundaries, boundaries guide flow, and stabilized flow becomes form. This root ontology forms the deepest layer beneath cosmology, biology, cognition, civilization, AI, and governance.
 ________________
@@ -108,7 +108,7 @@ At the substrate level, reality is modeled through QIC units interacting through
 
 > Path: `misc/D/Distinction–Mutation–Entropy–Repair.md` | Size: 33401 chars | Match score: 10
 
-﻿canon-group: tech-ai
+canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
 topic: amos-ai-relevance-architecture

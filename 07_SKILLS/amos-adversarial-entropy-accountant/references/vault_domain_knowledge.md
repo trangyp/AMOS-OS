@@ -64,7 +64,7 @@ B1 RG↔fractals (DERIVED structural) · B2 Rényi S_q ↔ D_q (family, not valu
 
 > Path: `misc/D/Distinction–Mutation–Entropy–Repair.md` | Size: 33401 chars | Match score: 10
 
-﻿canon-group: tech-ai
+canon-group: tech-ai
 canon-type: architecture
 rscf-state: model
 topic: amos-ai-relevance-architecture
