@@ -48,9 +48,9 @@ aliases:
 ---
 
 # AMOS OS Kernel
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** `v4.4`  
-> **Status:** `SOURCE_CLAIM`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** `v4.4`
+> **Status:** `SOURCE_CLAIM`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `02_KERNEL` is the deterministic semantic-contract plane of AMOS OS.

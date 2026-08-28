@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Legal Kernel vInfinity"
+title: AMOS Legal Kernel vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Legal_Kernel_v0.json (433 lines, 15KB)"
 origin_type: "SOURCE"

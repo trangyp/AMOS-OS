@@ -28,10 +28,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Control Planes
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTROL_PLANE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `CONTROL_PLANES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTROL_PLANE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `CONTROL_PLANES.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 > **Canon boundary:** This artifact defines a source-bounded AMOS control-plane contract for percept formation. The governing infrastructure pattern is supported by the AMOS Infrastructure Control Plane: domain/cognitive workers produce typed evidence and proposals; infrastructure validates evidence, observed read sets, semantic transactions, constraints, provenance, authority, observability, and finalization. Detailed L03-specific object names, thresholds, topology, and implementation remain `AMOS_MODEL` unless independently recovered from direct canon or executable runtime evidence.
@@ -130,7 +130,7 @@ Environment
 → Commit / Action
 ```
 
-and requires control-plane handling of typed contracts, evidence bundles, observed read sets, semantic transactions, authorization, constraints, observability, authority witnesses, and commit results. 
+and requires control-plane handling of typed contracts, evidence bundles, observed read sets, semantic transactions, authorization, constraints, observability, authority witnesses, and commit results.
 
 ## 1.2 L03 mapping
 
@@ -368,7 +368,7 @@ Epoch_t     = validation/state epoch
 Repair_t    = repair state
 ```
 
-Where mutable state identity should not rely solely on an unqualified scalar version if relevant state can change independently. The infrastructure control-plane contract instead uses precise observed read sets and version/hash identity for decision-forming resources. 
+Where mutable state identity should not rely solely on an unqualified scalar version if relevant state can change independently. The infrastructure control-plane contract instead uses precise observed read sets and version/hash identity for decision-forming resources.
 
 ---
 
@@ -393,7 +393,7 @@ EFFECT_INTENT
 COMMIT_RESULT
 ```
 
-These object families are source-aligned with the AMOS Infrastructure Control Plane. 
+These object families are source-aligned with the AMOS Infrastructure Control Plane.
 
 Candidate L03 projections:
 
@@ -514,7 +514,7 @@ L03-CP-INV-020
 Hard invariant failure is non-compensatory.
 ```
 
-The fine-grained read-set behavior aligns with the infrastructure rule that unread-object changes should not invalidate a decision, while changes to actually read resources invalidate only dependent conclusions. 
+The fine-grained read-set behavior aligns with the infrastructure rule that unread-object changes should not invalidate a decision, while changes to actually read resources invalidate only dependent conclusions.
 
 ---
 
@@ -643,7 +643,7 @@ revalidation
 auditability
 ```
 
-For consequential downstream effects, the broader infrastructure control plane additionally requires commit-time rechecks of intent, policy, tool-catalog context, authority, semantic lineage, and observability. 
+For consequential downstream effects, the broader infrastructure control plane additionally requires commit-time rechecks of intent, policy, tool-catalog context, authority, semantic lineage, and observability.
 
 ---
 
@@ -757,7 +757,7 @@ FINAL REVALIDATION
 COMMIT OR BLOCK
 ```
 
-For durable effects, the source control-plane architecture explicitly requires commit-time rechecking rather than trusting a previously computed PASS. 
+For durable effects, the source control-plane architecture explicitly requires commit-time rechecking rather than trusting a previously computed PASS.
 
 ---
 
@@ -841,7 +841,7 @@ PerceptCommitProvenance:
   commit_result: null
 ```
 
-The actual execution/provenance graph must remain separate from the authorization specification; the infrastructure control-plane contract explicitly requires this separation. 
+The actual execution/provenance graph must remain separate from the authorization specification; the infrastructure control-plane contract explicitly requires this separation.
 
 ---
 
@@ -878,7 +878,7 @@ AND NoForbiddenLabelFlow
 AND AuthorizationSpecClean
 ```
 
-which the infrastructure recomputes at commit rather than trusting a caller-supplied PASS. 
+which the infrastructure recomputes at commit rather than trusting a caller-supplied PASS.
 
 ---
 
@@ -909,7 +909,7 @@ TELEMETRY EXISTS
 CRITICAL-PATH OBSERVABILITY
 ```
 
-This follows the infrastructure requirement that named telemetry channels or span counts do not prove observability coverage. 
+This follows the infrastructure requirement that named telemetry channels or span counts do not prove observability coverage.
 
 ---
 

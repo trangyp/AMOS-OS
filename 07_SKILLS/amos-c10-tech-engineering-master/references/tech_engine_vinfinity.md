@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Tech Engine V∞ — Universal Technical Reasoning Kernel"
+title: AMOS Tech Engine V∞ — Universal Technical Reasoning Kernel
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Tech Engine .txt"
 origin_architect: "Trang Phan"

@@ -42,7 +42,7 @@ rscf:
 
 # AMOS Unipower Engines
 
-Full inventory of 20 Unipower engine files from `_00_AMOS_CANON/Unipower/`.  
+Full inventory of 20 Unipower engine files from `_00_AMOS_CANON/Unipower/`.
 Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 ---

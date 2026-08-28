@@ -27,10 +27,10 @@ rscf:
 
 # L02_ATTENTION — Control Planes
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTROL_PLANE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `CONTROL_PLANES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTROL_PLANE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `CONTROL_PLANES.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Integrity boundary:** recovered L02 material supports the primitive role of attention allocation over scarce reasoning/observation resources, but does not establish a canonical L02-specific control-plane implementation. Therefore the contracts below are an AMOS control-plane-aligned model, not recovered canon.

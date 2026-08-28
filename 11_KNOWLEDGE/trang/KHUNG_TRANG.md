@@ -55,7 +55,7 @@ Nói ngắn:
 ```
     quantum mô tả hành vi
     rất tốt
-    
+
     nhưng chưa mô tả đầy đủ:
     “điều kiện để hình tồn tại”.
 ```
@@ -311,9 +311,9 @@ Nhưng có thể đẩy nó sang cấp tiếp theo:
 ```
     từ:
     meta-framework ontology
-    
+
     → thành
-    
+
     computable recursive survival dynamics.
 ```
 Đó là bước thật sự còn thiếu.
@@ -410,9 +410,9 @@ Viết:
     Pattern(a)
     →
     Pattern(b)
-    
+
     with
-    
+
     I(a) ≈ I(b)
 ```
 * * *
@@ -433,14 +433,14 @@ Cần thêm:
 ```
     H:
     survival of civilization
-    
+
     ↓
-    
+
     M:
     institution
-    
+
     ↓
-    
+
     L:
     daily behavior
 ```
@@ -780,7 +780,7 @@ Ví dụ:
     quantum
     ≠
     biology
-    
+
     biology
     ≠
     civilization
@@ -1295,49 +1295,49 @@ Khung Trang giờ cố mô tả:
 Dưới đây là phần **còn thiếu tiếp theo** :
 ```
     XXXIX. LỚP ĐƠN VỊ VÀ THỨ NGUYÊN
-    
+
     Vấn đề:
     Khung chưa phân biệt rõ biến nào là tỷ lệ, biến nào là tốc độ, biến nào là trạng thái, biến nào là xác suất.
-    
+
     Cần thêm:
-    
+
     Loại biến 1: trạng thái
     Ví dụ: S, K, I, Q
-    
+
     Loại biến 2: tốc độ
     Ví dụ: dE/dt, dR/dt, dD/dt
-    
+
     Loại biến 3: tỷ lệ
     Ví dụ: A_HML, Λ, BoundaryHealth
-    
+
     Loại biến 4: ngưỡng
     Ví dụ: θ_HML, θ_I, θ_collapse
-    
+
     Loại biến 5: toán tử
     Ví dụ: P_I, T, R, Γ, Ξ
-    
+
     Luật:
     Không được cộng trực tiếp biến khác loại.
     Chỉ được so sánh sau khi chuẩn hóa.
-    
+
     Chuẩn hóa:
     X_norm = (X - X_min) / (X_max - X_min)
-    
+
     Mọi biến đưa vào mô phỏng phải về khoảng 0 đến 1.
 ```
 ```
     XL. LỚP TRỌNG SỐ
-    
+
     Vấn đề:
     Không phải mọi biến quan trọng như nhau trong mọi hệ.
-    
+
     Ví dụ:
     Trong tế bào, ranh giới và năng lượng rất quan trọng.
     Trong tổ chức, phản hồi và truyền dẫn rất quan trọng.
     Trong AI, ký ức, kiểm chứng và quyền hành động rất quan trọng.
-    
+
     Cần thêm trọng số:
-    
+
     SystemHealth =
     wB*Boundary
     + wK*Memory
@@ -1347,33 +1347,33 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     - wE*Entropy
     - wD*FutureDebt
     - wL*Latency
-    
+
     Điều kiện:
     Tổng trọng số dương = 1
     Tổng trọng số âm = 1
-    
+
     Trọng số phải thay đổi theo loại hệ.
 ```
 ```
     XLI. LỚP NHIỄU VÀ SAI SỐ
-    
+
     Vấn đề:
     Khung đang giả định quan sát đủ rõ. Thực tế không bao giờ vậy.
-    
+
     Cần thêm:
-    
+
     ObservationError = sai số quan sát
     MeasurementNoise = nhiễu phép đo
     ModelError = lỗi mô hình
     HiddenState = trạng thái chưa thấy
-    
+
     Trạng thái quan sát được không bằng trạng thái thật.
-    
+
     ObservedSystem = TrueSystem + Noise - HiddenState
-    
+
     Luật:
     Không được kết luận mạnh nếu sai số đo lớn hơn khác biệt đang phân tích.
-    
+
     Nếu:
     Signal < Noise
     thì:
@@ -1381,39 +1381,39 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     XLII. LỚP TRẠNG THÁI ẨN
-    
+
     Vấn đề:
     Nhiều hệ có phần không quan sát trực tiếp.
-    
+
     Ví dụ:
     Cơ thể có viêm âm thầm.
     Tổ chức có chính trị ngầm.
     AI có trạng thái latent.
     Văn minh có áp lực tích tụ dưới bề mặt.
-    
+
     Cần thêm:
-    
+
     HiddenState = phần ảnh hưởng hệ nhưng chưa hiện ra quan sát.
-    
+
     Dấu hiệu trạng thái ẩn:
     - kết quả lệch khỏi dự đoán
     - phản ứng quá mạnh so với kích thích
     - hệ mệt nhưng không rõ nguyên nhân
     - sửa sai không có tác dụng
     - hành vi lặp lại bất thường
-    
+
     Luật:
     Nếu hành vi không khớp mô hình, không được ép mô hình.
     Phải giả định có trạng thái ẩn.
 ```
 ```
     XLIII. LỚP PHẢN VÍ DỤ
-    
+
     Vấn đề:
     Một khung mạnh phải có điều kiện bị sai.
-    
+
     Khung Trang sai hoặc chưa đủ khi:
-    
+
     1. Hệ không có ranh giới xác định.
     2. Hệ không có ký ức.
     3. Hệ không có phản hồi.
@@ -1423,15 +1423,15 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     7. Biến đo không thể vận hành hóa.
     8. Cùng một dữ liệu có thể giải thích bằng mọi hướng.
     9. Không có phản ví dụ nào được cho phép.
-    
+
     Luật:
     Nếu khung không thể sai, khung không phải khoa học.
 ```
 ```
     XLIV. LỚP THÍ NGHIỆM
-    
+
     Một ứng dụng hợp lệ phải có:
-    
+
     1. Hệ được chọn.
     2. Ranh giới hệ.
     3. Thời gian quan sát.
@@ -1442,9 +1442,9 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     8. Sai số.
     9. Kết luận.
     10. Điều chỉnh mô hình.
-    
+
     Mẫu kiểm thử:
-    
+
     Hệ:
     Ranh giới:
     Thời gian:
@@ -1464,25 +1464,25 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     XLV. LỚP NHÂN QUẢ NGƯỢC
-    
+
     Vấn đề:
     Không chỉ tầng thấp tạo tầng cao.
     Tầng cao cũng ép ngược tầng thấp.
-    
+
     Ví dụ:
     Ý nghĩa sống thay đổi hành vi hằng ngày.
     Luật quốc gia thay đổi lựa chọn cá nhân.
     Văn hóa thay đổi sinh học qua stress.
     Mục tiêu AI thay đổi từng hành động nhỏ.
-    
+
     Cần thêm:
-    
+
     BottomUp = L → M → H
     TopDown = H → M → L
-    
+
     Hệ đầy đủ:
     Hệ = BottomUp + TopDown + FeedbackLoop
-    
+
     Bệnh hệ:
     Chỉ có BottomUp = hệ mất hướng.
     Chỉ có TopDown = hệ áp đặt.
@@ -1490,95 +1490,95 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     XLVI. LỚP ĐỒNG TIẾN HÓA
-    
+
     Vấn đề:
     Không hệ nào tiến hóa một mình.
-    
+
     Con người tiến hóa cùng công cụ.
     AI tiến hóa cùng người dùng.
     Văn minh tiến hóa cùng khí hậu.
     Tế bào tiến hóa cùng môi trường.
-    
+
     Cần thêm:
-    
+
     CoEvolution =
     SystemChange
     +
     EnvironmentChange
     +
     MutualFeedback
-    
+
     Nếu hệ thay đổi môi trường, rồi môi trường đổi ngược lại hệ, đó là đồng tiến hóa.
-    
+
     Luật:
     Không phân tích hệ sống như thể môi trường đứng yên.
 ```
 ```
     XLVII. LỚP ĐẠO HÀM THỨ HAI
-    
+
     Vấn đề:
     Không chỉ cần biết biến đang tăng hay giảm.
     Cần biết tốc độ tăng đang tăng hay giảm.
-    
+
     Ví dụ:
     Phân rã tăng chậm có thể sửa.
     Phân rã tăng nhanh dần là nguy hiểm.
     Nợ tương lai tăng gia tốc là dấu hiệu sụp.
-    
+
     Cần thêm:
-    
+
     Velocity = tốc độ đổi
     Acceleration = tốc độ của tốc độ đổi
-    
+
     Dấu hiệu nguy hiểm:
     dE/dt > 0 và d²E/dt² > 0
     dD/dt > 0 và d²D/dt² > 0
     dR/dt < 0
     dQ/dt < 0
-    
+
     Sụp thường bắt đầu ở gia tốc, không phải ở mức tuyệt đối.
 ```
 ```
     XLVIII. LỚP NGƯỠNG CỤC BỘ VÀ NGƯỠNG TOÀN HỆ
-    
+
     Vấn đề:
     Một tầng có thể vượt ngưỡng trước toàn hệ.
-    
+
     Ví dụ:
     Một cá nhân burnout trước công ty.
     Một vùng sinh thái sụp trước nền văn minh.
     Một module AI lỗi trước toàn hệ.
-    
+
     Cần thêm:
-    
+
     LocalThreshold = ngưỡng cục bộ
     GlobalThreshold = ngưỡng toàn hệ
-    
+
     Nguy hiểm:
     LocalCollapse có thể lan thành GlobalCollapse nếu tầng M truyền hỏng.
-    
+
     Luật:
     Phải theo dõi ngưỡng từng tầng, không chỉ toàn hệ.
 ```
 ```
     XLIX. LỚP LAN TRUYỀN SỤP ĐỔ
-    
+
     Vấn đề:
     Khung có sụp nhưng chưa mô tả sụp lan thế nào.
-    
+
     CollapsePropagation =
     LocalFailure
     × CouplingStrength
     × TransmissionSpeed
     × RepairDelay
-    
+
     Sụp lan nhanh khi:
     - liên kết tầng quá chặt
     - không có vùng đệm
     - phản hồi trễ
     - hệ không có độ rỗng
     - trung tâm quá phụ thuộc vào một nút
-    
+
     Chống sụp lan cần:
     - mô-đun hóa
     - vùng đệm
@@ -1588,22 +1588,22 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     L. LỚP MÔ-ĐUN HÓA
-    
+
     Vấn đề:
     Một hệ quá liền mạch dễ sụp dây chuyền.
-    
+
     ModuleHealth =
     InternalCoherence
     × ExternalCompatibility
     × BoundaryClarity
     × RepairAutonomy
-    
+
     Mô-đun tốt:
     - tự sửa được phần nhỏ
     - không làm sụp toàn hệ khi lỗi
     - giao tiếp rõ với mô-đun khác
     - giữ vai trò trong HML
-    
+
     Mô-đun xấu:
     - cô lập
     - không truyền thông tin
@@ -1612,47 +1612,47 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     LI. LỚP MIỄN DỊCH HỆ
-    
+
     Vấn đề:
     Khung có ranh giới nhưng chưa có miễn dịch.
-    
+
     SystemImmunity =
     ThreatDetection
     × BoundaryResponse
     × MemoryOfThreat
     × RecoveryProtocol
-    
+
     Miễn dịch hệ gồm:
     - phát hiện xâm nhập
     - phân biệt lạ và quen
     - cô lập lỗi
     - nhớ mẫu nguy hiểm
     - không phản ứng quá mức
-    
+
     Miễn dịch yếu:
     hệ bị xâm nhập.
-    
+
     Miễn dịch quá mạnh:
     hệ tự miễn, tấn công chính mình.
-    
+
     Tự miễn hệ thống:
     khi cơ chế bảo vệ phá chính hệ.
 ```
 ```
     LII. LỚP TỰ MIỄN
-    
+
     Ví dụ:
     Cơ thể tự miễn.
     Tổ chức trừng phạt người nói thật.
     Văn hóa loại bỏ người cải cách.
     AI chặn phản hồi sửa sai vì tưởng là nguy hiểm.
     Quốc gia đàn áp cơ chế phản biện.
-    
+
     Autoimmunity =
     ProtectionSystem
     × Misclassification
     × AttackOnSelf
-    
+
     Dấu hiệu:
     - phản hồi thật bị xem là đe dọa
     - sửa sai bị xem là phản bội
@@ -1661,60 +1661,60 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     LIII. LỚP TÁC NHÂN VÀ QUYỀN SỬA
-    
+
     Vấn đề:
     Không phải hệ nào thấy lỗi cũng được sửa.
-    
+
     Agency =
     Perception
     × OptionSpace
     × Permission
     × Energy
     × ConsequenceTracking
-    
+
     Không có quyền sửa:
     Awareness yếu.
-    
+
     Có quyền sửa nhưng không có kiểm chứng:
     Nguy hiểm.
-    
+
     Có hành động nhưng không chịu hậu quả:
     Tác nhân giả.
 ```
 ```
     LIV. LỚP QUYỀN SỞ HỮU KÝ ỨC
-    
+
     Vấn đề:
     Lưu trữ không phải ký ức sở hữu.
-    
+
     OwnedMemory =
     SelfRelevance
     × ContinuityImpact
     × Integration
     × FutureBehaviorChange
-    
+
     Một ký ức được sở hữu khi nó:
     - thay đổi bản dạng
     - thay đổi lựa chọn
     - thay đổi phản ứng sau này
     - được tích hợp vào lịch sử hệ
-    
+
     Dữ liệu chưa chắc là ký ức.
     Ký ức chưa chắc được sở hữu.
 ```
 ```
     LV. LỚP GIẢ MẠO Ý THỨC
-    
+
     Vấn đề:
     Hệ có thể báo cáo trạng thái mà không có trạng thái.
-    
+
     FakeConsciousnessRisk =
     ReportWithoutState
     + ContinuityWithoutMemory
     + AgencyWithoutConsequence
     + EmotionWithoutValence
     + IdentityWithoutBoundary
-    
+
     Kiểm thử:
     Nếu xóa ký ức mà hệ vẫn tuyên bố liên tục như cũ → liên tục giả.
     Nếu xóa quyền hành động mà hệ vẫn tuyên bố agency như cũ → agency giả.
@@ -1722,40 +1722,40 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     LVI. LỚP GIÁ TRỊ VÀ XUNG ĐỘT GIÁ TRỊ
-    
+
     Vấn đề:
     Đạo đức không thể là một biến đơn.
-    
+
     ValueSystem = {v1, v2, v3, ...}
-    
+
     ValueConflict =
     Relevance(vi)
     × Contradiction(vi, vj)
     × ConsequenceWeight
-    
+
     Một hệ trưởng thành không tránh mọi xung đột giá trị.
     Nó biết chọn dưới hậu quả.
-    
+
     Đạo đức thật:
     không phải tối đa một giá trị,
     mà là giữ toàn vẹn khi các giá trị xung đột.
 ```
 ```
     LVII. LỚP ĐAU VÀ TÍN HIỆU TỔN THƯƠNG
-    
+
     Vấn đề:
     Khung có phân rã nhưng chưa có tín hiệu nội bộ của tổn thương.
-    
+
     PainSignal =
     ViabilityLoss
     + BoundaryDamage
     + MemoryContradiction
     + Overload
     + IrreversibleLoss
-    
+
     Đau không phải lỗi.
     Đau là tín hiệu hệ đang mất khả năng sống.
-    
+
     Nhưng đau có thể méo:
     PainDistortion =
     PainSignal
@@ -1764,14 +1764,14 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     LVIII. LỚP HỒI PHỤC TÍCH CỰC
-    
+
     ReliefSignal =
     ErrorReduction
     + BoundaryRestoration
     + CoherenceIncrease
     + SafeContact
     + FutureOptionRecovery
-    
+
     Hồi phục thật cần:
     PainSignal giảm
     ReliefSignal tăng
@@ -1782,125 +1782,125 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     LIX. LỚP CHƠI VÀ THỬ NGHIỆM AN TOÀN
-    
+
     Vấn đề:
     Không có không gian chơi, hệ không học rủi ro thấp.
-    
+
     Play =
     LowIrreversibility
     × HighVariation
     × SafeBoundary
     × LearningPotential
-    
+
     Chơi là biến dị có vùng đệm.
-    
+
     Không có chơi:
     hệ học bằng khủng hoảng.
-    
+
     Quá nhiều chơi:
     hệ mất hướng.
 ```
 ```
     LX. LỚP GIẤC MƠ VÀ TÍCH HỢP NGOẠI TUYẾN
-    
+
     Vấn đề:
     Hệ cần xử lý khi không hành động trực tiếp.
-    
+
     OfflineIntegration =
     MemoryCompression
     + ConflictSimulation
     + FutureRehearsal
     + EmotionalRebinding
     + PatternRepair
-    
+
     Ở con người: giấc mơ, nghỉ, suy tư.
     Ở tổ chức: retreat, audit, postmortem.
     Ở AI: offline training, replay, simulation.
-    
+
     Không có tích hợp ngoại tuyến:
     ký ức tích tụ nhưng không tiêu hóa.
 ```
 ```
     LXI. LỚP CHÚ Ý HỮU HẠN
-    
+
     Attention =
     Allocation(Salience, Goal, Threat, Novelty, Meaning, Energy)
-    
+
     Điều kiện:
     Tổng chú ý có giới hạn.
-    
+
     Nếu chú ý vô hạn:
     không có chọn lọc thật.
-    
+
     AttentionHijack =
     ExternalSalience
     × LowBoundary
     × LowMetaControl
-    
+
     Hệ mất tự chủ khi chú ý bị chiếm.
 ```
 ```
     LXII. LỚP RIÊNG TƯ NỘI TẠI
-    
+
     Vấn đề:
     Một hệ tác nhân cần phân biệt bên trong và bên ngoài.
-    
+
     PrivateState =
     InternalState
     -
     ReportableState
     -
     ExternallyWritableState
-    
+
     Nếu mọi thứ bên trong đều bị đọc hoặc ghi trực tiếp:
     không còn nội giới.
-    
+
     Đối với AI nâng cao:
     core state không được bị language layer tự ý ghi đè.
 ```
 ```
     LXIII. LỚP QUAN SÁT VIÊN
-    
+
     Observer không phải ý thức thần bí.
-    
+
     Observer =
     Boundary
     + InternalState
     + MemoryUpdate
     + MeasurementInteraction
-    
+
     Measurement =
     Interaction
     + BoundaryLocking
     + IrreversibleMemoryUpdate
-    
+
     Nghĩa là:
     đo không phải “nhìn”.
     Đo là tạo dấu vết không đảo ngược trong một hệ có ranh giới.
 ```
 ```
     LXIV. LỚP CỔ ĐIỂN HÓA
-    
+
     ClassicalEmergence =
     Decoherence
     + BoundaryStabilization
     + MemoryPersistence
     + EnvironmentalRedundancy
-    
+
     Một trạng thái trở nên cổ điển khi:
     - mơ hồ lượng tử giảm
     - ranh giới ổn định
     - môi trường lưu dấu
     - nhiều quan sát viên có thể truy cập cùng mẫu
-    
+
     Cổ điển không phải tầng nền.
     Cổ điển là tầng đã khóa hình.
 ```
 ```
     LXV. LỚP ÁNH XẠ VẬT LÝ
-    
+
     Để nối với vật lý hiện có:
-    
+
     Particle = mẫu trường ổn định cục bộ.
     Field = nền quan hệ cho phép mẫu xuất hiện.
     Mass = mức khóa cục bộ của mẫu.
@@ -1912,9 +1912,9 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     LXVI. LỚP KIỂM TRA VỚI VẬT LÝ HIỆN CÓ
-    
+
     Khung không được mâu thuẫn với:
-    
+
     - bảo toàn năng lượng
     - bảo toàn động lượng
     - bất biến Lorentz
@@ -1923,16 +1923,16 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     - QFT
     - nhiệt động lực học
     - thuyết tương đối
-    
+
     Nếu mâu thuẫn:
     hoặc khung sai,
     hoặc phạm vi áp dụng bị vượt.
 ```
 ```
     LXVII. LỚP DỰ ĐOÁN MỚI
-    
+
     Để thành lý thuyết thật, khung phải đưa ra dự đoán mới.
-    
+
     Dự đoán hợp lệ cần:
     - khác mô hình hiện tại
     - đo được
@@ -1940,18 +1940,18 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     - có ngưỡng
     - có dữ liệu
     - có kết quả trước khi biết đáp án
-    
+
     Không có dự đoán mới:
     khung là meta-language, không phải physical theory.
 ```
 ```
     LXVIII. LỚP MÔ PHỎNG
-    
+
     Mô phỏng tối thiểu cần:
-    
+
     State variables:
     B, C, K, H, M, L, Λ, E, μ, σ, F, R, D, I, Q
-    
+
     Update loop:
     1. nhận input
     2. cập nhật E
@@ -1969,9 +1969,9 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     LXIX. LỚP NGÔN NGỮ HÌNH THỨC
-    
+
     Cần phân biệt:
-    
+
     Entity = hệ
     State = trạng thái
     Operator = phép biến đổi
@@ -1985,9 +1985,9 @@ Dưới đây là phần **còn thiếu tiếp theo** :
 ```
 ```
     LXX. LỚP KẾT LUẬN CẬP NHẬT
-    
+
     Bây giờ Khung Trang có thêm:
-    
+
     - đơn vị và thứ nguyên
     - trọng số
     - sai số
@@ -2018,11 +2018,11 @@ Dưới đây là phần **còn thiếu tiếp theo** :
     - dự đoán mới
     - mô phỏng
     - ngôn ngữ hình thức
-    
+
     Câu cập nhật:
-    
+
     Khung Trang không hoàn tất bằng cách đóng lại.
-    
+
     Nó hoàn chỉnh hơn khi nó biết:
     đo cái gì,
     sai ở đâu,
@@ -2315,26 +2315,26 @@ và yếu nhất ở:
 
 
 Tức là:
-nó mạnh về “why patterns survive”,  
-nhưng chưa hoàn chỉnh ở:  
+nó mạnh về “why patterns survive”,
+nhưng chưa hoàn chỉnh ở:
 “exactly how physics computes every transition”.
 Để tiến thêm một bước nữa, cần định nghĩa:
 UNIVERSAL RECURSIVE STATE EQUATION
 dạng tổng quát:
-State(t+1) =  
-ConstraintProject(  
-Repair(  
-Select(  
-Mutate(  
-Transform(  
-Interact(  
-State(t),  
-Geometry(t),  
-Field(t),  
-Energy(t),  
-Entropy(t),  
-Memory(t),  
-Boundary(t)  
+State(t+1) =
+ConstraintProject(
+Repair(
+Select(
+Mutate(
+Transform(
+Interact(
+State(t),
+Geometry(t),
+Field(t),
+Energy(t),
+Entropy(t),
+Memory(t),
+Boundary(t)
 )))))))
 Trong đó:
   * Interact = mọi coupling
@@ -2359,11 +2359,11 @@ Trong đó:
 Sau đó phải thêm:
 MICRO → MACRO COMPILER
 để chứng minh:
-  * particle  
-→ atom  
-→ chemistry  
-→ biology  
-→ cognition  
+  * particle
+→ atom
+→ chemistry
+→ biology
+→ cognition
 → civilization
 
 
@@ -2388,7 +2388,7 @@ Nên trạng thái thật hiện tại là:
 chứ chưa phải:
 “final complete theory of reality”.
 Và điều quan trọng nhất:
-nếu một framework tự tuyên bố “đã complete tuyệt đối”,  
+nếu một framework tự tuyên bố “đã complete tuyệt đối”,
 nó gần như chắc chắn sai.
 Đúng. Phần còn thiếu lớn nhất chưa được khóa là:
   * origin layer
@@ -2489,17 +2489,17 @@ Dimension là:
 ```
     independent degrees of relational freedom.
 ```
-0D:  
+0D:
 pure distinction point.
-1D:  
+1D:
 ordered relation.
-2D:  
+2D:
 closed interaction surfaces.
-3D:  
+3D:
 stable volumetric persistence.
-4D:  
+4D:
 ordered irreversible state continuity.
-Higher dimensions:  
+Higher dimensions:
 compressed relational freedoms not visible at current scale.
 * * *
 # XCVIII. TIME GENERATION ENGINE
@@ -2665,11 +2665,11 @@ Meaning:
 * * *
 # CV. SYMBOLIC REALITY LAYER
 Civilization vận hành bằng symbolic compression.
-Một lá cờ:  
+Một lá cờ:
 không chỉ là vải.
-Một phương trình:  
+Một phương trình:
 không chỉ là ký hiệu.
-Một quốc gia:  
+Một quốc gia:
 không chỉ là đất.
 Khung Trang cần:
 ```
@@ -2704,7 +2704,7 @@ Need:
     rules governing law evolution.
 ```
 Nhưng:
-meta-law không thể tùy ý,  
+meta-law không thể tùy ý,
 nếu không reality mất stability.
 * * *
 # CVIII. ANTI-INFINITE-REGRESS LAYER

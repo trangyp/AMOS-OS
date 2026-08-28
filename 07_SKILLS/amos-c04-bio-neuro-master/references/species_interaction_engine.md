@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Species Interaction Core Engine"
+title: AMOS Species Interaction Core Engine
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Biology_Cognition/AMOS_Species_Interaction_Core_Engine_v0.json (232 lines, 8.9KB)"
 origin_type: "SOURCE"

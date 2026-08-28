@@ -77,9 +77,9 @@ aliases:
 ---
 
 # AMOS Neural Network
-> **Status:** `ACTIVE_MAP`  
-> **AMOS_CORE target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
+> **Status:** `ACTIVE_MAP`
+> **AMOS_CORE target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
 > **Conclusion class:** `AMOS_MODEL`
 rscf:
   state: SOURCE_CLAIM
@@ -127,7 +127,7 @@ KNOWLEDGE GRAPH
 BIOLOGICAL NEURAL NETWORK
 ```
 
-The AMOS Full Brain OS source should be used as a structural orchestration model rather than proof of literal consciousness or biological cognition. 
+The AMOS Full Brain OS source should be used as a structural orchestration model rather than proof of literal consciousness or biological cognition.
 
 ---
 
@@ -444,7 +444,7 @@ MODELS
 MODES
 ```
 
-The Full Brain OS source permits using cognition-related constructs as orchestration/model layers while retaining explicit capability limits. 
+The Full Brain OS source permits using cognition-related constructs as orchestration/model layers while retaining explicit capability limits.
 
 ---
 
@@ -920,7 +920,7 @@ DOMAIN ROUTER
 
 Only activate domain branches that can materially change an answer.
 
-The Full Brain OS skill explicitly instructs selective domain activation rather than loading every nested engine. 
+The Full Brain OS skill explicitly instructs selective domain activation rather than loading every nested engine.
 
 ---
 
@@ -1127,7 +1127,7 @@ RAW EVIDENCE
 
 Raw evidence should be loaded only when it can materially affect the conclusion.
 
-This matches the AMOS Full Brain OS instruction to use the smallest source-defined layer required for the task. 
+This matches the AMOS Full Brain OS instruction to use the smallest source-defined layer required for the task.
 
 ---
 

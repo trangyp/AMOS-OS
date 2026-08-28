@@ -50,31 +50,31 @@ logger = logging.getLogger(__name__)
 
 class AMOSContinuationEngine:
     """Strongest AMOS Brain continuation with tensor field governance"""
-    
+
     def __init__(self):
         self.session_id = hashlib.sha256(f"continuation_{datetime.now().isoformat()}".encode()).hexdigest()[:16]
         self.evidence_integrity = 0.72  # H2 classification
         self.hallucination_risk = "ACKNOWLEDGED"
         self.hypothesis_class = "H2"
         self.fixes_applied = []
-        
+
         logger.info(f"🧠 AMOS BRAIN SUPREME - CONTINUATION ENGINE")
         logger.info(f"📅 Session: {self.session_id}")
         logger.info(f"⚠️  Hallucination Risk: {self.hallucination_risk}")
         logger.info(f"🔍 Evidence Integrity: {self.evidence_integrity}")
         logger.info(f"📋 Hypothesis Class: {self.hypothesis_class}")
         logger.info("=" * 60)
-    
+
     def fix_critical_syntax_errors(self):
         """Fix critical syntax errors blocking system operation"""
         logger.info("🔧 Fixing critical syntax errors...")
-        
+
         critical_files = [
             "/Users/trangphan/AMOS/07_METABOLISM/code_intel/test_writer_simple.py",
             "/Users/trangphan/AMOS/01_KERNEL/kernel.py",
             "/Users/trangphan/AMOS/03_IMMUNE/main_immune.py"
         ]
-        
+
         for file_path in critical_files:
             path = Path(file_path)
             if path.exists():
@@ -84,13 +84,13 @@ class AMOSContinuationEngine:
                     logger.info(f"✅ Fixed syntax errors in {path.name}")
                 except Exception as e:
                     logger.error(f"❌ Failed to fix {path.name}: {e}")
-    
+
     def _fix_syntax_errors(self, file_path: Path):
         """Fix syntax errors in a file"""
         try:
             with open(file_path, 'r', encoding='utf-8') as f:
                 content = f.read()
-            
+
             # Fix common syntax errors
             fixes = [
                 # Fix missing colons in function definitions
@@ -115,17 +115,17 @@ class AMOSContinuationEngine:
                 (";\n", "\n"),
                 ("; ", "\n"),
             ]
-            
+
             modified = False
             for error, fix in fixes:
                 if error in content:
                     content = content.replace(error, fix)
                     modified = True
-            
+
             if modified:
                 with open(file_path, 'w', encoding='utf-8') as f:
                     f.write(content)
-        
+
         except Exception as e:
             logger.error(f"Error fixing syntax in {file_path}: {e}")
 

@@ -26,10 +26,10 @@ rscf:
 
 # L02_ATTENTION — Definition
 
-**Class:** `COGNITIVE_PRIMITIVE_DEFINITION_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `DEFINITION.md`  
+**Class:** `COGNITIVE_PRIMITIVE_DEFINITION_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `DEFINITION.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Integrity boundary:** available L02 material supports attention as an allocation function over scarce reasoning/observation resources. The detailed typed architecture below completes the contract as an AMOS model. It must not be represented as recovered canonical implementation unless direct source material establishes that status.

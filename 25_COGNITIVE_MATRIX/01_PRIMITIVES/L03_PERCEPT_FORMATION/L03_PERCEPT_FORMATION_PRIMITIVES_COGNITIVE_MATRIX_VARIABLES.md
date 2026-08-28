@@ -27,10 +27,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Variables
 
-**Class:** `COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `VARIABLES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `VARIABLES.md`
 **Status:** `AMOS_MODEL / UNVALIDATED`
 
 ## 0. Purpose

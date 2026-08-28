@@ -190,7 +190,7 @@ The family now has seven named gates covering the corpus's characteristic failur
       "formula": "R=I_reflected/I_incident",
       "layer": "reflection"
     },
- 
+
 
 ---
 

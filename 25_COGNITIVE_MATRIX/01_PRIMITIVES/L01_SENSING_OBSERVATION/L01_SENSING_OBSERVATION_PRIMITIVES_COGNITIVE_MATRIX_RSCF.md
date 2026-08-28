@@ -18,12 +18,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — RSCF
 
-**Class:** `COGNITIVE_PRIMITIVE_RSCF_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `RSCF.md`  
-**Role:** `EVIDENCE / CLAIM / DEPENDENCY / UNCERTAINTY / PROVENANCE GOVERNANCE`  
+**Class:** `COGNITIVE_PRIMITIVE_RSCF_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `RSCF.md`
+**Role:** `EVIDENCE / CLAIM / DEPENDENCY / UNCERTAINTY / PROVENANCE GOVERNANCE`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this artifact defines the proposed RSCF contract for `L01_SENSING_OBSERVATION`. RSCF organizes what is observed, supported, derived, modeled, competing, or unknown. Structural completion of an RSCF does not make an observation or proposition empirically true.

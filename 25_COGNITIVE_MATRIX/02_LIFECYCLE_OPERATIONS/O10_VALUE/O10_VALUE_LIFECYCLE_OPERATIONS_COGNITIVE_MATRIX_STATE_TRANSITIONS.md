@@ -16,10 +16,10 @@ rscf:
 
 # O10 — State Transitions
 
-**Package:** `O10_VALUE`  
-**Class:** `COGNITIVE_MATRIX_CONTRACT`  
-**Epistemic class:** `DERIVED / MODEL EXTENSION`  
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Package:** `O10_VALUE`
+**Class:** `COGNITIVE_MATRIX_CONTRACT`
+**Epistemic class:** `DERIVED / MODEL EXTENSION`
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
 **Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
 ## Scope

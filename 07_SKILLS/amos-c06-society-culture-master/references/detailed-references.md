@@ -169,7 +169,7 @@ Per `01_CANON/01_CORE_LAWS/L17_RSCF.md`:
 Per `01_CANON/01_CORE_LAWS/L16_HML.md`:
 
 - **H (High)**: Constitutional reasoning, irreversible actions, cross-domain claims → full proof capsule required
-- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required  
+- **M (Medium)**: Domain policy, reversible transformations → evidence + provenance required
 - **L (Low)**: Mechanical checks, local operations → type/format check sufficient
 - **No level skipping**: H-level decision cannot be validated by L-level check
 - **Strictness inheritance**: Dependent claims inherit the highest rigor of their premises

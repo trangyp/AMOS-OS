@@ -26,10 +26,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Memory
 
-**Class:** `COGNITIVE_PRIMITIVE_MEMORY_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `MEMORY.md`  
+**Class:** `COGNITIVE_PRIMITIVE_MEMORY_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `MEMORY.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose

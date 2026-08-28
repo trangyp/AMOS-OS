@@ -1098,7 +1098,7 @@ related:
 # <% tp.file.title %>
 
 > [!info] Epistemic State
-> **Class:** MODEL  
+> **Class:** MODEL
 > **Confidence:** DERIVED
 
 ## Purpose
@@ -2893,7 +2893,7 @@ For stronger RSCF compatibility:
 created: "<% tp.date.now("YYYY-MM-DD") %>"
 updated: "<% tp.date.now("YYYY-MM-DD") %>"
 
-title: "<% tp.file.title %>"
+title: <% tp.file.title %>
 type: note
 status: draft
 
@@ -2917,7 +2917,6 @@ related:
   - "[[00_ROOT_MOC]]"
   - "[[00_HOME]]"
   - "[[KNOWLEDGE_MOC]]"
-
 rscf:
   state: MODEL
   claim_class: MODEL
@@ -2928,8 +2927,8 @@ rscf:
 # <% tp.file.title %>
 
 > [!abstract] Epistemic Receipt
-> **Class:** MODEL  
-> **Confidence:** DERIVED  
+> **Class:** MODEL
+> **Confidence:** DERIVED
 > **Status:** draft
 
 ## Purpose

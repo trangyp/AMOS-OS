@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Tech Quantum Engine vInfinity"
+title: AMOS Tech Quantum Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Quantum_Engine_v0.json (5,389 lines, 196KB)"
 origin_type: "SOURCE"

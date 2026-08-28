@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "TRANG ∅ / AMOS FOREX FRACTAL FIELD ENGINE"
+title: TRANG ∅ / AMOS FOREX FRACTAL FIELD ENGINE
 subtitle: "Deep Canon-to-Empirical Architecture for Hexagon, Spiral, Entropy, Lacunarity, Cascade, Tát 2 and XAUUSD/FX"
 origin_architect: "Trang Phan"
 runtime_target: "AMOS_CORE v4.4 lineage + AMOS Forex Unified OS"

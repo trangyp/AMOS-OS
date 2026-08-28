@@ -25,10 +25,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — Skills
 
-**Class:** `COGNITIVE_PRIMITIVE_SKILL_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `SKILLS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_SKILL_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `SKILLS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose
@@ -37,7 +37,7 @@ Define the governed capability contract for Skills addressable by `L04_OBJECT_EN
 
 Within this contract, a Skill is a reusable capability bundle that may provide instructions, workflows, reference material, deterministic scripts, or tool/connector guidance for a bounded task. A Skill's existence establishes that a capability is addressable; it does not establish that the capability is implemented in L04, empirically validated, authorized for a particular action, or permitted to commit state.
 
-Canonical ChatGPT Skill structure distinguishes the `SKILL.md` entrypoint from optional scripts, references, and assets, and uses progressive loading so supporting resources are loaded only when relevant. 
+Canonical ChatGPT Skill structure distinguishes the `SKILL.md` entrypoint from optional scripts, references, and assets, and uses progressive loading so supporting resources are loaded only when relevant.
 
 For L04:
 
@@ -90,7 +90,7 @@ It does **not** establish an authoritative L04-specific Skill registry.
 
 ## 1.2 RSCF governance
 
-AMOS RSCF requires claims and derived results to preserve typed evidence, dependencies, scope/regime, provenance, competing hypotheses, falsifiers, and confidence ceilings. Trust remains local and freshness-bounded; multiple descendants of one source are not independent confirmation. 
+AMOS RSCF requires claims and derived results to preserve typed evidence, dependencies, scope/regime, provenance, competing hypotheses, falsifiers, and confidence ceilings. Trust remains local and freshness-bounded; multiple descendants of one source are not independent confirmation.
 
 Therefore every consequential Skill result entering L04 must be treated as evidence or proposal with explicit provenance—not as truth merely because a Skill produced it.
 

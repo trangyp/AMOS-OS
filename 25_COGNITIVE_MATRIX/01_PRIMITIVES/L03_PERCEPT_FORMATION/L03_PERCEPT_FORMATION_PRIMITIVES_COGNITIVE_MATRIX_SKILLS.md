@@ -26,10 +26,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Skills
 
-**Class:** `COGNITIVE_PRIMITIVE_SKILL_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `SKILLS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_SKILL_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `SKILLS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose
@@ -38,7 +38,7 @@ Define the AMOS Skill contract for `L03_PERCEPT_FORMATION`.
 
 The L03 Skill layer specifies which bounded reasoning capabilities may participate in percept formation, how they are invoked, what typed state they may consume or produce, which invariants they must preserve, and what authority they do **not** acquire merely by being available.
 
-A Skill in this contract is treated as a governed executable reasoning capability rather than an unstructured instruction bundle. The AMOS Skill Builder explicitly requires Skills to preserve epistemic types, dependency structure, provenance, hard invariants, execution evidence, falsifiers, verification, repair, and packaging boundaries. 
+A Skill in this contract is treated as a governed executable reasoning capability rather than an unstructured instruction bundle. The AMOS Skill Builder explicitly requires Skills to preserve epistemic types, dependency structure, provenance, hard invariants, execution evidence, falsifiers, verification, repair, and packaging boundaries.
 
 Core boundary:
 

@@ -27,10 +27,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Agents
 
-**Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `AGENTS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `AGENTS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 > **Canon boundary:** this artifact defines an AMOS-aligned agent architecture for `L03_PERCEPT_FORMATION`. It preserves the distinction between observed inputs, derived percepts, model interpretations, confidence, and downstream decisions. Agent names, role partitions, message types, algorithms, thresholds, and runtime topology below remain `AMOS_MODEL` unless independently recovered from direct Trang/AMOS canon or executable runtime evidence.

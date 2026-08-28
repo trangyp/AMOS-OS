@@ -24,12 +24,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Repair
 
-**Class:** `COGNITIVE_PRIMITIVE_REPAIR_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `REPAIR.md`  
-**Role:** `FAILURE CONTAINMENT / REOBSERVATION / RECOVERY / SELECTIVE INVALIDATION`  
+**Class:** `COGNITIVE_PRIMITIVE_REPAIR_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `REPAIR.md`
+**Role:** `FAILURE CONTAINMENT / REOBSERVATION / RECOVERY / SELECTIVE INVALIDATION`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this artifact defines a proposed repair and recovery contract for `L01_SENSING_OBSERVATION`. It does not establish that the repair mechanisms described here are implemented, executable, canonically complete, formally verified, or empirically validated.

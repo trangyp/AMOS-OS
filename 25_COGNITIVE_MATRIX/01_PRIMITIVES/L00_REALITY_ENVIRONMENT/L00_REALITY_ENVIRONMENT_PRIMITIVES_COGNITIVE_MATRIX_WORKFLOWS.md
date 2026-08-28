@@ -33,13 +33,13 @@ rscf:
 
 # L00_REALITY_ENVIRONMENT — Workflows
 
-**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L00_REALITY_ENVIRONMENT`  
-**Artifact:** `WORKFLOWS.md`  
-**Role:** `REALITY-CONTACT ORCHESTRATION / ENVIRONMENT STATE ACQUISITION / VALIDATION / GOVERNED UPDATE / RECOVERY`  
-**Status:** `STRUCTURAL WORKFLOW CONTRACT / SOURCE-GAP BOUNDED`  
+**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L00_REALITY_ENVIRONMENT`
+**Artifact:** `WORKFLOWS.md`
+**Role:** `REALITY-CONTACT ORCHESTRATION / ENVIRONMENT STATE ACQUISITION / VALIDATION / GOVERNED UPDATE / RECOVERY`
+**Status:** `STRUCTURAL WORKFLOW CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `MODEL / CONDITIONAL`
 
 > **Canon boundary:** direct authoritative L00 workflow canon is not established by the supplied placeholder alone. The workflows below are therefore conservative AMOS architectural models derived from the established L00 reality/environment, state, variable, provenance, RSCF, control-plane, test, and repair contracts. They must not be represented as recovered source canon without direct source evidence.

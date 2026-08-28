@@ -25,10 +25,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `README.md`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `README.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Source / Canon Boundary
@@ -41,9 +41,9 @@ identity resolution
 entity persistence
 ```
 
-The same artifact explicitly identifies itself as a **non-canonical placeholder** and states that it reserves the architectural location and contract surface without inventing missing canon, equations, thresholds, empirical claims, or implementation status. 
+The same artifact explicitly identifies itself as a **non-canonical placeholder** and states that it reserves the architectural location and contract surface without inventing missing canon, equations, thresholds, empirical claims, or implementation status.
 
-It requires, before promotion, definition/scope, purpose/non-purpose, state/variables, operators, invariants, H/M/L applicability, interfaces, dependencies/provenance, failure/repair, tests/falsifiers, RSCF/GMEF links where applicable, governance/authority boundaries, freshness/regime validity, and supersession/version lineage. 
+It requires, before promotion, definition/scope, purpose/non-purpose, state/variables, operators, invariants, H/M/L applicability, interfaces, dependencies/provenance, failure/repair, tests/falsifiers, RSCF/GMEF links where applicable, governance/authority boundaries, freshness/regime validity, and supersession/version lineage.
 
 The recovered source further establishes:
 

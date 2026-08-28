@@ -53,14 +53,14 @@ rscf:
 # AMOS Investment Agent
 ## Governed Money-System Component
 
-> **System:** `MONEY_SYSTEM`  
-> **Component:** `Investment_Agent`  
-> **Document version:** `2.0.0`  
-> **Component version:** `1.0.0`  
-> **Financial model version:** `1.0.0`  
-> **AMOS_CORE target:** `v4.4`  
-> **Current implementation:** `REGISTERED_STUB`  
-> **Current behavior:** append trace → return context unchanged  
+> **System:** `MONEY_SYSTEM`
+> **Component:** `Investment_Agent`
+> **Document version:** `2.0.0`
+> **Component version:** `1.0.0`
+> **Financial model version:** `1.0.0`
+> **AMOS_CORE target:** `v4.4`
+> **Current implementation:** `REGISTERED_STUB`
+> **Current behavior:** append trace → return context unchanged
 > **Trading / transaction authority:** `NONE_IMPLEMENTED`
 
 ---

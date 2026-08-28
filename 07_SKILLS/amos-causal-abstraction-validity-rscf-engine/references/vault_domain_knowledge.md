@@ -166,7 +166,7 @@ class Formula:
         t = self.node_type
         if t == NodeType.ATOM:
             pred, args = self.atom or ("?", ())
-            args_str = ", ".join(repr(a) for a in 
+            args_str = ", ".join(repr(a) for a in
 
 ---
 

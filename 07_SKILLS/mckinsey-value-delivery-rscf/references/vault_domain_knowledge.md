@@ -84,7 +84,7 @@ Tools and dashboards used in TCJ
 How to operationalize the dashboards
 
 Sample dashboards generated in DevOps toolings
-How do we 
+How do we
 Sample tools for measuring Sustainability
 ensure
 program is
@@ -135,11 +135,11 @@ Cooperation enhanceme
 # AMOS GIANT VALUE CREATION OS
 ## Hệ điều hành tạo giá trị quy mô lớn — bản kiến trúc thương mại cấp hệ thống
 
-> **Origin architect / steward:** Trang Phan 
-> **Source lineage:** phát triển từ *THE GIANT MONEY PLAN*; bản này không xóa tham vọng ban đầu mà chuyển nó thành một hệ thống AMOS có thể kiểm định, vận hành, học, sửa và scale. 
-> **Core law:** `integrity > completeness > fluency > speed`. 
-> **Commercial law:** `possible revenue != validated business model`. 
-> **Authority law:** Full Brain OS, Skills và Agents có thể phân tích / dự báo / đề xuất; **AMOS Infrastructure** sở hữu admission, authority, durable state, commit, release và rollback. 
+> **Origin architect / steward:** Trang Phan
+> **Source lineage:** phát triển từ *THE GIANT MONEY PLAN*; bản này không xóa tham vọng ban đầu mà chuyển nó thành một hệ thống AMOS có thể kiểm định, vận hành, học, sửa và scale.
+> **Core law:** `integrity > completeness > fluency > speed`.
+> **Commercial law:** `possible revenue != validated business model`.
+> **Authority law:** Full Brain OS, Skills và Agents có thể phân tích / dự báo / đề xuất; **AMOS Infrastructure** sở hữu admission, authority, durable state, commit, release và rollback.
 > **Prediction firewall:** TSS/TPE/UBI/QLS/AMOS là `AMOS_MODEL / SOURCE_CLAIM` trừ khi phần cụ thể có external validation độc lập.
 
 ---

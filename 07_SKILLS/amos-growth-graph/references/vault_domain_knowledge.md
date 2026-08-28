@@ -36,7 +36,7 @@ rscf:
 The System Completion Auditor explicitly treats completeness as **scoped and structural** rather than proof of truth. It requires closure over:
 
 - Objects
-- Interfaces  
+- Interfaces
 - Dependencies
 - Failure paths
 - Boundary conditions

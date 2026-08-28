@@ -59,8 +59,8 @@ aliases:
 
 # AMOS Core Laws
 **Origin architect / steward:** Trang Phan
-> **Status:** `ACTIVE_CANON_CANDIDATE`  
-> **Law-set target:** `AMOS_CORE v4.4`  
+> **Status:** `ACTIVE_CANON_CANDIDATE`
+> **Law-set target:** `AMOS_CORE v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 rscf:
   state: SOURCE_CLAIM

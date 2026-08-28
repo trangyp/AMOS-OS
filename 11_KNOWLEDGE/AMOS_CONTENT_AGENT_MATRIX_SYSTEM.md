@@ -28,12 +28,12 @@ rscf:
 # AMOS Content Agent Matrix
 ## Governed Multi-Agent Content Operating System
 
-> **Document:** `v3.0.0`  
-> **Protocol:** `v2.0.0`  
-> **Domain Model:** `v1.0.0`  
-> **AMOS_CORE target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Primary source:** “HƯỚNG DẪN XÂY DỰNG HỆ THỐNG MA TRẬN CONTENT AGENT VỚI CLAUDE”  
+> **Document:** `v3.0.0`
+> **Protocol:** `v2.0.0`
+> **Domain Model:** `v1.0.0`
+> **AMOS_CORE target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Primary source:** “HƯỚNG DẪN XÂY DỰNG HỆ THỐNG MA TRẬN CONTENT AGENT VỚI CLAUDE”
 > **Epistemic class:** `AMOS_MODEL / SOURCE_CLAIM`
 
 ---

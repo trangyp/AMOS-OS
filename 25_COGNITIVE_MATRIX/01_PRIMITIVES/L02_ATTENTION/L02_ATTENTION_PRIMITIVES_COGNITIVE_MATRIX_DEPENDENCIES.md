@@ -26,10 +26,10 @@ rscf:
 
 # L02_ATTENTION — Dependencies
 
-**Class:** `COGNITIVE_PRIMITIVE_DEPENDENCY_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `DEPENDENCIES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_DEPENDENCY_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `DEPENDENCIES.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Integrity boundary:** L02 is source-supported as an attention-allocation primitive over scarce reasoning/observation resources. The exact canonical dependency graph, required upstream/downstream modules, edge types, ordering constraints, and runtime dependency enforcement are not established by the placeholder alone. Those structures below are therefore `AMOS_MODEL` unless separately source-supported.

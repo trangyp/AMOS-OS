@@ -26,10 +26,10 @@ rscf:
 
 # L02_ATTENTION — Purpose
 
-**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `PURPOSE.md`  
+**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `PURPOSE.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** available source material identifies `L02_ATTENTION` as the primitive concerned with **attention allocation and budgeting scarce reasoning/observation resources**. The expanded architectural purpose, AI application model, interfaces, operators, governance rules, H/M/L mapping, and runtime behavior below are `AMOS_MODEL` unless independently supported by direct canon or executable evidence.

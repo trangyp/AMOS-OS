@@ -59,8 +59,8 @@ aliases:
 
 # AMOS OS Canon
 **Origin architect / steward:** Trang Phan
-> **Status:** `ACTIVE_ROOT`  
-> **AMOS_CORE target:** `v4.4`  
+> **Status:** `ACTIVE_ROOT`
+> **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 rscf:
   state: DERIVED

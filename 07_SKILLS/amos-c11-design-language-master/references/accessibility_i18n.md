@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Accessibility I18n"
+title: AMOS Accessibility I18n
 created: "2026-08-22"
 type: "note"
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-accessibility-i18n, dated, dated/2026-08-22]

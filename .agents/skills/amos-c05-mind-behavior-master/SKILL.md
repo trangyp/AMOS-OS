@@ -251,4 +251,3 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 - **L1 Epistemic**: Every psychological claim tagged with epistemic class
 - **L5 Scope**: Analysis confined to mind/behavior domain
 - **L7 Authority**: No autonomous action beyond authority boundary
-

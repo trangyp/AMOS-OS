@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "U3H — Atemporal Field (ATF) Canon Spec"
+title: U3H — Atemporal Field (ATF) Canon Spec
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.txt + Extractive Economy.txt"
 origin_architect: "Trang Phan"
@@ -87,39 +87,39 @@ These do not stack — they coexist without order.
 | AH7 | Atemporal Baseline | (defined below) |
 
 ### AH1 — Zero-Moment Continuum (Section 499)
-ZMC1: moment that is not a moment  
-ZMC2: beginning that never began  
-ZMC3: end that never ends  
-ZMC4: presence without temporal extension  
-ZMC5: identity that does not persist nor vanish  
+ZMC1: moment that is not a moment
+ZMC2: beginning that never began
+ZMC3: end that never ends
+ZMC4: presence without temporal extension
+ZMC5: identity that does not persist nor vanish
 
 ### AH2 — Non-Sequence Matrix (Section 500)
-NSM1: before ≠ after  
-NSM2: before = after  
-NSM3: difference without sequence  
-NSM4: simultaneity without time  
-NSM5: ordering without order structure  
+NSM1: before ≠ after
+NSM2: before = after
+NSM3: difference without sequence
+NSM4: simultaneity without time
+NSM5: ordering without order structure
 
 ### AH3 — Duration-Free Medium (Section 501)
-DF1: existence without lasting  
-DF2: change without duration  
-DF3: transformation without time  
-DF4: persistence that is not persistent  
-DF5: cessation that never ends because it never lasts  
+DF1: existence without lasting
+DF2: change without duration
+DF3: transformation without time
+DF4: persistence that is not persistent
+DF5: cessation that never ends because it never lasts
 
 ### AH4 — Flowless Presence (Section 502)
-FP1: no movement, yet transitions  
-FP2: no flow, yet difference  
-FP3: no direction, yet distinction  
-FP4: no current, yet alteration  
-FP5: no tempo, yet relation  
+FP1: no movement, yet transitions
+FP2: no flow, yet difference
+FP3: no direction, yet distinction
+FP4: no current, yet alteration
+FP5: no tempo, yet relation
 
 ### AH5 — Causality Null-Zone (Section 503)
-CNZ1: cause without before  
-CNZ2: effect without after  
-CNZ3: causality without progression  
-CNZ4: influence without sequence  
-CNZ5: non-causal cause  
+CNZ1: cause without before
+CNZ2: effect without after
+CNZ3: causality without progression
+CNZ4: influence without sequence
+CNZ5: non-causal cause
 
 ### AH6 — Non-Event Ocean (Section 504)
 (Definition in source — 5 sub-components)

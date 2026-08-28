@@ -2140,7 +2140,7 @@ must not be flattened into:
 Kernel → Engine → Agent
 ```
 
-when source canon explicitly rejects that representation. 
+when source canon explicitly rejects that representation.
 
 ---
 

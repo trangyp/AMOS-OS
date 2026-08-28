@@ -41,7 +41,6 @@ tags:
   - topic/feedback-loop
   - topic/epistemic-preservation
   - canon/knowledge
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

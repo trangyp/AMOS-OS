@@ -117,7 +117,7 @@ rscf:
         {
           "cluster_id": "HSC_EXPANDED",
           "name": "Expanded / Non_Ordinary",
-       
+
 
 ---
 
@@ -216,7 +216,7 @@ rscf:
         {
           "cluster_id": "HSC_EXPANDED",
           "name": "Expanded / Non_Ordinary",
-       
+
 
 ---
 

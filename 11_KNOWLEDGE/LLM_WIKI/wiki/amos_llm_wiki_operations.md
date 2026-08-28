@@ -26,8 +26,8 @@ The `LLM_WIKI` subsystem is maintained through four canonical operations. Each o
 5. Update `[[LLM_WIKI_INDEX]]`.
 6. Append a timestamped entry to `[[LLM_WIKI_LOG]]`.
 
-**Skill capability**: `llmwiki.ingest`  
-**Bound workflow**: `amos-llm-wiki-workflow.md`  
+**Skill capability**: `llmwiki.ingest`
+**Bound workflow**: `amos-llm-wiki-workflow.md`
 **Bound agent**: `amos-llm-wiki-agent.json`
 
 ## 2. Query
@@ -53,7 +53,7 @@ The `LLM_WIKI` subsystem is maintained through four canonical operations. Each o
 2. Place the markdown in `raw/`.
 3. Trigger `llmwiki.ingest`.
 
-**Skill capability**: `llmwiki.clip`  
+**Skill capability**: `llmwiki.clip`
 **Supporting tool**: `[[AMOS_LLM_WIKI_TOOL]]`
 
 ## Canonical AMOS bindings

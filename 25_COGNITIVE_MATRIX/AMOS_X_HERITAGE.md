@@ -14,11 +14,11 @@ rscf:
 ---
 # AMOS X HERITAGE
 
-Agreed. The previous version was too skeletal. The Drive source is much richer: the primary `heritage_intelligence.md` alone is ~464 KB, and there are multiple Heritage-lineage artifacts, including a ~650 KB `HERITAGE INTELLIGENCE.md`, a ~448 KB `HERITAGE INTELLIGENCE™.md`, and the Heritage ∅ corpus.   
+Agreed. The previous version was too skeletal. The Drive source is much richer: the primary `heritage_intelligence.md` alone is ~464 KB, and there are multiple Heritage-lineage artifacts, including a ~650 KB `HERITAGE INTELLIGENCE.md`, a ~448 KB `HERITAGE INTELLIGENCE™.md`, and the Heritage ∅ corpus.
 
 ```md
 ---
-title: "AMOS × Heritage"
+title: AMOS × Heritage
 artifact: "AMOS_X_HERITAGE.md"
 artifact_id: "amos_25_cognitive_matrix_amos_x_heritage"
 

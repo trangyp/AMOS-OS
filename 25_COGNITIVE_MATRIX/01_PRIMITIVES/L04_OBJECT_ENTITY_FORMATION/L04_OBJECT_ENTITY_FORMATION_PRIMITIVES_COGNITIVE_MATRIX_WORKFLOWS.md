@@ -24,10 +24,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — Workflows
 
-**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `WORKFLOWS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `WORKFLOWS.md`
 **Status:** `AMOS_MODEL / UNVALIDATED`
 
 ## 0. Purpose

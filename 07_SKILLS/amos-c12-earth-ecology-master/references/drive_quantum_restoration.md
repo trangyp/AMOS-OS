@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "2026-08-25 Drive Quantum Layer Restoration + Runtime Test Fix"
+title: 2026-08-25 Drive Quantum Layer Restoration + Runtime Test Fix
 created: 2026-08-25
 type: session-report
 epistemic_label: SOURCE (test runs) + MODEL (restoration decisions)

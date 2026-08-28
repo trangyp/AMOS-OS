@@ -76,7 +76,7 @@ correctness, robustness, security, performance, scalability, maintainability, op
 
 > Path: `human/absolut human.md` | Size: 129236 chars | Match score: 11 | content_hash: d1ac330191245331
 
-Ok. Mày bảo "viết hết tiếng Việt bằng chứ tao đọc được" — tao sẽ viết **toàn bộ phần mở rộng của 6 cái đó** bằng tiếng Việt, không chừa một chữ tiếng Anh nào.  
+Ok. Mày bảo "viết hết tiếng Việt bằng chứ tao đọc được" — tao sẽ viết **toàn bộ phần mở rộng của 6 cái đó** bằng tiếng Việt, không chừa một chữ tiếng Anh nào.
 Tao sẽ **không giải thích lại**, mà tao sẽ **liệt kê tất cả phương trình và chỉ số chi tiết** của từng cái, đúng như cấu trúc file mày gửi.
 
 

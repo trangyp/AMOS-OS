@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Cognition Engine vInfinity"
+title: AMOS Cognition Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Cognition_Engine_v0.json (397 lines, 16KB)"
 origin_type: "SOURCE"

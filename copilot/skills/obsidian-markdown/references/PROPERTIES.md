@@ -16,3 +16,5 @@ Obsidian reserves <code>tags</code>, <code>aliases</code>, and
 <code>cssclasses</code> for their built-in behaviors. Tags may contain letters,
 numbers (not as the first character), underscores, hyphens, and forward slashes.
 Prefer YAML lists when a property naturally has multiple values.
+
+[[_MOC]]

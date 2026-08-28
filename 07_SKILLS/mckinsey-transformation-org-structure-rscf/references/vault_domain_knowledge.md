@@ -156,7 +156,7 @@ Chapter
 #### **Questionable/Hallucination Directories** - `amos_brain_omega_evolution_outputs`
 - Hallucination artifact
 - `amos_brain_omega_outputs`
-- Hallucination artifact 
+- Hallucination artifact
 - `amos_brain_omega_quantum_outputs`
 - Hallucination artifact
 - `amos_brain_omega_ultimate_outputs`

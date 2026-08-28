@@ -71,7 +71,6 @@ tags:
   - rscf/state/source-claim
   - topic/cosmo-brain-reasoning-os-by-trang-phan
   - trang
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

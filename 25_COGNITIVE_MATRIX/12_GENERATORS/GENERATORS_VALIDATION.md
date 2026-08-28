@@ -885,7 +885,7 @@ based solely on generation success.
 
 # 20. Source/canon validation
 
-The canonical source for this Full Brain OS Skill is `AMOS_FULL_BRAIN_OS.json`. Preservation of its framework does not establish that a generated derivative is validated, implemented, or empirically true. 
+The canonical source for this Full Brain OS Skill is `AMOS_FULL_BRAIN_OS.json`. Preservation of its framework does not establish that a generated derivative is validated, implemented, or empirically true.
 
 Generator validation should distinguish:
 
@@ -2523,7 +2523,7 @@ source_canon:
     status: UNKNOWN/GAP
 ```
 
-The source corpus provides the structural orchestration frame; it does not by itself prove that this exact Generator validation subsystem has been implemented or validated. 
+The source corpus provides the structural orchestration frame; it does not by itself prove that this exact Generator validation subsystem has been implemented or validated.
 
 ---
 

@@ -39,9 +39,9 @@ aliases:
 ---
 
 # AMOS OS Canonical Glossary
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** v4.4  
-> **Conclusion class:** `AMOS_MODEL`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** v4.4
+> **Conclusion class:** `AMOS_MODEL`
 > **Authority:** canonical terminology, semantic distinctions, and vocabulary resolution
 ## 1. Purpose
 The **AMOS OS Canonical Glossary** establishes the governed vocabulary used across AMOS OS.

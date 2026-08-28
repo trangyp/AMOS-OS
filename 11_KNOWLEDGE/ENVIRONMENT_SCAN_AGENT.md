@@ -49,12 +49,12 @@ rscf:
 # AMOS EnvironmentScan Agent
 ## Governed Sense-System Component
 
-> **System:** `SENSE_SYSTEM`  
-> **Component:** `EnvironmentScan_Agent`  
-> **Document version:** `2.0.0`  
-> **Component version:** `1.0.0`  
-> **AMOS_CORE target:** `v4.4`  
-> **Current implementation class:** `REGISTERED_STUB`  
+> **System:** `SENSE_SYSTEM`
+> **Component:** `EnvironmentScan_Agent`
+> **Document version:** `2.0.0`
+> **Component version:** `1.0.0`
+> **AMOS_CORE target:** `v4.4`
+> **Current implementation class:** `REGISTERED_STUB`
 > **Current execution behavior:** append trace → return context unchanged
 
 ---

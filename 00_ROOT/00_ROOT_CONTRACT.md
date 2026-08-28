@@ -18,7 +18,7 @@ rscf:
 
 ```yaml
 ---
-title: "AMOS OS Root Contract"
+title: AMOS OS Root Contract
 artifact: "00_ROOT_CONTRACT.md"
 artifact_id: "AMOS_ROOT_CONTRACT_000"
 origin_architect: "Trang Phan"

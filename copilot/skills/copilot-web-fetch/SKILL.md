@@ -48,4 +48,3 @@ Self-Host search providers do not provide a common full-page fetch contract. If
 the script reports that Self-Host mode is active, never use an agent-native web
 fetch tool. Use `copilot-web-search` when search results can answer the request;
 otherwise tell the user that fetching the page is unavailable.
-

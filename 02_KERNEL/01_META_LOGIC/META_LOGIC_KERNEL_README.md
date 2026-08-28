@@ -71,13 +71,13 @@ integrity:
 
 # META LOGIC KERNEL README
 
-> **Package:** `02_KERNEL/01_META_LOGIC`  
-> **Plane:** `02_KERNEL · KERNEL`  
-> **Segment:** `01_META_LOGIC`  
-> **System:** `AMOS OS`  
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** **Trang Phan**  
-> **Artifact role:** package orientation · integration map · contract navigation  
+> **Package:** `02_KERNEL/01_META_LOGIC`
+> **Plane:** `02_KERNEL · KERNEL`
+> **Segment:** `01_META_LOGIC`
+> **System:** `AMOS OS`
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** **Trang Phan**
+> **Artifact role:** package orientation · integration map · contract navigation
 > **RSCF state:** `DERIVED`
 
 ---
@@ -4276,7 +4276,3 @@ NOT ESTABLISHED
 ```
 
 **Promotion rule:** package documentation can orient, index, constrain interpretation, and expose expected contracts; only resolved contracts, executable bindings, tests, provenance, state evidence, authority evidence, and executed validation receipts can support promotion to stronger implementation or enforcement states.
-
-```
-
-```

@@ -16,10 +16,10 @@ rscf:
 
 # L12 — Protocols
 
-**Package:** `L12_COUNTERFACTUAL_SIMULATION`  
-**Class:** `COGNITIVE_MATRIX_CONTRACT`  
-**Epistemic class:** `DERIVED / MODEL EXTENSION`  
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Package:** `L12_COUNTERFACTUAL_SIMULATION`
+**Class:** `COGNITIVE_MATRIX_CONTRACT`
+**Epistemic class:** `DERIVED / MODEL EXTENSION`
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
 **Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
 ## Scope

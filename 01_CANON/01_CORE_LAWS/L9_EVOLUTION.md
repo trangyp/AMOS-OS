@@ -31,11 +31,11 @@ rscf:
 
 # L9 Evolution Laws
 
-**Origin architect / steward:** Trang Phan  
-**Layer:** `01_CANON / 01_CORE_LAWS / L9_EVOLUTION`  
-**Artifact class:** `CORE_LAW_CONTRACT`  
-**Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`  
-**Canonical status:** `CONDITIONAL`  
+**Origin architect / steward:** Trang Phan
+**Layer:** `01_CANON / 01_CORE_LAWS / L9_EVOLUTION`
+**Artifact class:** `CORE_LAW_CONTRACT`
+**Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`
+**Canonical status:** `CONDITIONAL`
 **Implementation status:** `LOGIC_EXECUTABLE_IN_PART`
 
 > L9 governs how AMOS may change without destroying the integrity, provenance, authority, validated behavior, repairability, or recoverability that made the pre-change system admissible.

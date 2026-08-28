@@ -49,10 +49,10 @@ aliases:
 ---
 
 # K_MULTI_HYPOTHESIS
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_MULTI_HYPOTHESIS` defines the AMOS kernel contract for maintaining, comparing, challenging, discriminating, updating, and resolving multiple plausible explanations or predictions without forcing premature convergence.

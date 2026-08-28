@@ -143,9 +143,9 @@ The L00 agent layer exists to preserve these boundaries.
 
 # 2. Source / Canon References
 
-This contract is structurally aligned with the supplied AMOS Full Brain OS source, whose governing Skill explicitly requires separation of observation, source claim, derivation, model, decision, and unknown states, while also forbidding claims of unavailable embodiment or autonomous world access. 
+This contract is structurally aligned with the supplied AMOS Full Brain OS source, whose governing Skill explicitly requires separation of observation, source claim, derivation, model, decision, and unknown states, while also forbidding claims of unavailable embodiment or autonomous world access.
 
-The canonical Full Brain OS Skill identifies `AMOS_FULL_BRAIN_OS.json` as its primary source and explicitly states that preservation of an AMOS architecture does not establish its external empirical validity. 
+The canonical Full Brain OS Skill identifies `AMOS_FULL_BRAIN_OS.json` as its primary source and explicitly states that preservation of an AMOS architecture does not establish its external empirical validity.
 
 Relevant AMOS architecture families include:
 
@@ -165,7 +165,7 @@ AMOS H/M/L
 AMOS GMEF
 ```
 
-The Drive Cognitive Matrix currently contains `PRIMITIVE_REGISTRY.md` alongside architecture and lifecycle/control-plane registries, establishing `L00` inside a broader primitive-registry structure rather than as an isolated agent file. 
+The Drive Cognitive Matrix currently contains `PRIMITIVE_REGISTRY.md` alongside architecture and lifecycle/control-plane registries, establishing `L00` inside a broader primitive-registry structure rather than as an isolated agent file.
 
 ---
 
@@ -226,7 +226,7 @@ L00 must never invent an observation channel.
 
 # 5. Embodiment Boundary
 
-AMOS Full Brain OS explicitly preserves the limitation that structural architecture is not proof of literal embodiment or autonomous world action. 
+AMOS Full Brain OS explicitly preserves the limitation that structural architecture is not proof of literal embodiment or autonomous world action.
 
 Therefore:
 
@@ -923,7 +923,7 @@ Could measurement error explain the result?
 Is there a stronger competing explanation?
 ```
 
-This implements the AMOS requirement to challenge consequential conclusions through a genuinely different path. 
+This implements the AMOS requirement to challenge consequential conclusions through a genuinely different path.
 
 ---
 

@@ -48,10 +48,10 @@ aliases:
 ---
 
 # AMOS OS Authoritative State
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **State plane:** `12_STATE`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **State plane:** `12_STATE`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `AUTHORITATIVE_STATE` is the single root contract for determining which AMOS OS repository/vault state is currently accepted as authoritative.

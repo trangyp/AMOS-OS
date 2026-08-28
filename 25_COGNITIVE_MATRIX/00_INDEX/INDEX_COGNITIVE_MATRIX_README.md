@@ -17,7 +17,7 @@ rscf:
 
 # AMOS Cognitive Matrix
 
-**Origin architect / steward:** Trang Phan  
+**Origin architect / steward:** Trang Phan
 **Class:** AMOS architecture / matrix runtime specification
 
 This package turns the AMOS Cognitive Architecture Matrix into an addressable OS coordinate system.

@@ -26,10 +26,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Provenance
 
-**Class:** `COGNITIVE_PRIMITIVE_PROVENANCE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `PROVENANCE.md`  
+**Class:** `COGNITIVE_PRIMITIVE_PROVENANCE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `PROVENANCE.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ---

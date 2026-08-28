@@ -27,9 +27,9 @@ tags: [reference-stub]
 
 > [!info] Reference File Moved
 > This file was **6MB** and has been moved to reduce Obsidian indexing load.
-> 
+>
 > **Original location**: `_reference/engine/A/AMOS_Ubi_Engine_v0_Ubi7.md`
-> 
+>
 > To view the full content, open the file from the `_reference/` directory directly in your file manager or text editor.
 
 ## Link

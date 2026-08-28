@@ -39,7 +39,7 @@ Below is a full Obsidian-ready, heavily tagged version that preserves the suppli
 
 ```markdown
 ---
-title: "UBI x NeuroSyncAI Cognitive Matrix Specification"
+title: UBI x NeuroSyncAI Cognitive Matrix Specification
 aliases:
   - "UBI × NeuroSyncAI"
   - "UBI x NeuroSyncAI"
@@ -3733,8 +3733,5 @@ RSCF-RELATIONS:
 ---
 
 **END OF `UBI_X_NEUROSYNCAI.md`**
-
-```
-```
 
 ```

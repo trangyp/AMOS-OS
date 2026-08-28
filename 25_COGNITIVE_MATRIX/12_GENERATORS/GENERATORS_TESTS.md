@@ -109,8 +109,7 @@ System: **AMOS OS**
 ```md id="amos-generators-tests"
 ---
 artifact_id: AMOS-CM-12-GENERATORS-TESTS
-title: "12 Generators Tests"
-
+title: 12 Generators Tests
 path_target: "25_COGNITIVE_MATRIX/12_GENERATORS/TESTS.md"
 
 artifact_class: MATRIX_INFRASTRUCTURE_PLACEHOLDER
@@ -3090,7 +3089,7 @@ source_canon:
     status: UNKNOWN/GAP
 ```
 
-The AMOS Full Brain OS source defines structural orchestration constraints and explicitly requires missing implementation or validation evidence to remain visible rather than invented. It does not by itself establish that these tests are implemented or passing.  The canonical Skill source is `AMOS_FULL_BRAIN_OS.json`; preserving that architecture is distinct from externally verified implementation or empirical validity. 
+The AMOS Full Brain OS source defines structural orchestration constraints and explicitly requires missing implementation or validation evidence to remain visible rather than invented. It does not by itself establish that these tests are implemented or passing.  The canonical Skill source is `AMOS_FULL_BRAIN_OS.json`; preserving that architecture is distinct from externally verified implementation or empirical validity.
 
 ---
 
@@ -3717,4 +3716,3 @@ claim_class: AMOS_MODEL
 ---
 
 **Related:** [[25_COGNITIVE_MATRIX_MOC]]
-

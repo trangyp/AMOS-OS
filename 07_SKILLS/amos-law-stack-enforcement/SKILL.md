@@ -42,7 +42,7 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Use whenever the user mentions law stack, enforcement, invariants, rule hierarchy, LoL, R2, R4, or scale-transition validation — even without explicitly asking for 'law stack'. Do not use for for generic tasks outside the declared amos domain.
+description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Do not use for generic tasks outside the declared amos domain.
 license: MIT
 steward: Trang Phan
 ---
@@ -56,12 +56,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - When validating whether a system's rules hold across scale transitions
 - When checking if a proposed law adheres to the Law of Law™/Rule of 2™/Rule of 4™ hierarchy
 - When a draft law short-circuits the canonical order: LoL→R2→R4 (contradictory drafts fail gate)
-- When reasoning-shape ≠ authorization (integrity stack owns UBI Score/ledger, not output filter)## Capabilities
+- When reasoning-shape ≠ authorization (integrity stack owns UBI Score/ledger, not output filter)
+
+## Capabilities
 
 - **canon_audit**: Audit structural completeness across the 7-Part Universe Canon
 - **canon_validate**: Validate system against canon invariants
 - **canon_map**: Map system elements to canon parts
-
 
 ## Source
 Vault-generated from law stack enforcement research (2026-08-25)

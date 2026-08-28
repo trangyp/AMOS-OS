@@ -22,12 +22,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Memory
 
-**Class:** `COGNITIVE_PRIMITIVE_MEMORY_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `MEMORY.md`  
-**Role:** `OBSERVATION MEMORY / EVIDENCE RETENTION BOUNDARY`  
+**Class:** `COGNITIVE_PRIMITIVE_MEMORY_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `MEMORY.md`
+**Role:** `OBSERVATION MEMORY / EVIDENCE RETENTION BOUNDARY`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this document defines the proposed memory contract for `L01_SENSING_OBSERVATION`. It specifies how observation records may be retained, retrieved, updated, superseded, invalidated, and passed downstream without converting remembered observations into current observations or verified reality. Exact L01 memory semantics remain subject to direct-canon confirmation and executable validation.

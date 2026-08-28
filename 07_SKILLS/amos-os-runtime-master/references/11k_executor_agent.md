@@ -22,7 +22,7 @@ rscf:
 ---
 artifact_id: AMOS-EXECUTOR-AGENT
 name: Executor_Agent
-title: "AMOS Executor Agent — Governed Execution-System Component"
+title: AMOS Executor Agent — Governed Execution-System Component
 document_version: "2.0.0"
 component_version: "1.0.0"
 runtime_contract_version: "1.0.0"
@@ -70,13 +70,13 @@ governing_law: "integrity > completeness > fluency > speed > token savings"
 # AMOS Executor Agent
 ## Governed Execution-System Component
 
-> **System:** `EXECUTION_SYSTEM`  
-> **Component:** `Executor_Agent`  
-> **Document version:** `2.0.0`  
-> **Component version:** `1.0.0`  
-> **AMOS_CORE target:** `v4.4`  
-> **Current implementation state:** `REGISTERED_STUB`  
-> **Current runtime behavior:** trace append → context return  
+> **System:** `EXECUTION_SYSTEM`
+> **Component:** `Executor_Agent`
+> **Document version:** `2.0.0`
+> **Component version:** `1.0.0`
+> **AMOS_CORE target:** `v4.4`
+> **Current implementation state:** `REGISTERED_STUB`
+> **Current runtime behavior:** trace append → context return
 > **Effect authority:** `NONE_IMPLEMENTED`
 
 ---

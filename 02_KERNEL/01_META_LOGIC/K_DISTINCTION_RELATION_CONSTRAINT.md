@@ -43,10 +43,10 @@ aliases:
 ---
 
 # K_DISTINCTION_RELATION_CONSTRAINT
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_DISTINCTION_RELATION_CONSTRAINT` defines the foundational semantic primitives by which AMOS OS can represent:

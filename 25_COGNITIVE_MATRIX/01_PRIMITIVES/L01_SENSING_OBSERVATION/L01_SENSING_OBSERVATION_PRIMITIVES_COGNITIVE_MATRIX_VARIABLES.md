@@ -24,12 +24,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Variables
 
-**Class:** `COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `VARIABLES.md`  
-**Role:** `TYPED VARIABLE / STATE / INTERFACE CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `VARIABLES.md`
+**Role:** `TYPED VARIABLE / STATE / INTERFACE CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this artifact defines a proposed typed variable contract for `L01_SENSING_OBSERVATION`. Variable definition does not establish runtime implementation, sensor availability, empirical validity, canonical adoption, or deployment authority.

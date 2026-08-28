@@ -206,7 +206,7 @@ The system should also:
 - preserve author/steward provenance;
 - bind derived outputs back to semantic origins;
 - permit legitimate declassification;
-- permit reproducible validation without revealing unnecessary 
+- permit reproducible validation without revealing unnecessary
 
 ---
 
@@ -217,7 +217,7 @@ The system should also:
 # THE UNCOPYABLE TRAINING ARCHITECTURE
 ## AMOS Governed Edition v2.0.0 · CORE target v4.4
 
-> **Canonical status:** governed derivative of the source architecture. 
+> **Canonical status:** governed derivative of the source architecture.
 > **Security status:** `CONDITIONAL`; no absolute non-copyability or jailbreak-immunity claim is promoted without executed evidence.
 
 # 0. VERSION / LINEAGE CONTROL

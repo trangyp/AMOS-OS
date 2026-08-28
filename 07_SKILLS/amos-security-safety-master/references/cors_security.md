@@ -52,17 +52,17 @@ OPTIONS /data HTTP/1.1
    Origin: https://normal-website.com
    Access-Control-Request-Method: PUT
    Access-Control-Request-Headers: Special-Request-Header
-   
+
  ---- RESPONDS WITH ----
- 
+
  HTTP/1.1 204 No Content
    ...
    Access-Control-Allow-Origin: https://normal-website.com
    Access-Control-Allow-Methods: PUT, POST, OPTIONS
    Access-Control-Allow-Headers: Special-Request-Header
    Access-Control-Allow-Credentials: true
-   Access-Control-Max-Age: 240  
-   
+   Access-Control-Max-Age: 240
+
 Does CORS protect against CSRF?
 * Doesn't!!!
 * Common misconception

@@ -41,9 +41,9 @@ aliases:
 ---
 
 # AMOS OS Canon Provenance
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** `v4.4`  
-> **Conclusion class:** `AMOS_MODEL`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** `v4.4`
+> **Conclusion class:** `AMOS_MODEL`
 > **Authority:** canon provenance, lineage, ancestry, supersession, and evidence topology
 # 1. Purpose
 `CANON_PROVENANCE.md` defines the canonical provenance contract for AMOS OS canon.

@@ -25,10 +25,10 @@ rscf:
 
 # L02_ATTENTION — Equations
 
-**Class:** `COGNITIVE_PRIMITIVE_EQUATION_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `EQUATIONS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_EQUATION_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `EQUATIONS.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** Available L02 material establishes attention allocation over scarce reasoning/observation resources. It does not, from the currently resolved evidence, establish a canonical mathematical attention equation. Accordingly, equations introduced specifically to formalize L02 below are `AMOS_MODEL` unless explicitly marked otherwise.

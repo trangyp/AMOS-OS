@@ -18,7 +18,7 @@ rscf:
 # AUTHORITY_WITNESS.md
 
 ---
-title: "AMOS Authority Witness"
+title: AMOS Authority Witness
 artifact: "AUTHORITY_WITNESS.md"
 origin_architect: "Trang Phan"
 steward: "Trang Phan"

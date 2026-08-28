@@ -16,7 +16,7 @@ rscf:
 ---
 # MODE CONFLICT REGISTRY
 
-`MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim. 
+`MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim.
 
 ---
 artifact_id: AMOS-OS-MODE-CONFLICT-REGISTRY

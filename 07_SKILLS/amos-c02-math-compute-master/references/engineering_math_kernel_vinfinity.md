@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Engineering Math Kernel vInfinity"
+title: AMOS Engineering Math Kernel vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Engineering_Math_Kernel_v0.json (257 lines, 7KB)"
 origin_type: "SOURCE"

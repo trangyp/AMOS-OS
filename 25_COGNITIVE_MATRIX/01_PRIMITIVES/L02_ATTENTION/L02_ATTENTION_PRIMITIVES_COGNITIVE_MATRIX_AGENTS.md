@@ -28,12 +28,12 @@ rscf:
 
 # L02_ATTENTION — Agents
 
-**Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `AGENTS.md`  
-**Role:** `ATTENTION ALLOCATION / PRIORITIZATION / RESOURCE-BUDGET AGENT CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `AGENTS.md`
+**Role:** `ATTENTION ALLOCATION / PRIORITIZATION / RESOURCE-BUDGET AGENT CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Source boundary:** the recoverable `L02_ATTENTION` source identifies this primitive as **attention allocation** whose role is to **budget scarce reasoning/observation resources**. The source is explicitly a non-canonical placeholder and prohibits invention of missing canon, equations, thresholds, empirical claims, or implementation status.
@@ -561,7 +561,7 @@ AttentionCandidate:
 
 # 8. Attention Budget
 
-The recovered source explicitly establishes that L02 budgets scarce reasoning/observation resources. 
+The recovered source explicitly establishes that L02 budgets scarce reasoning/observation resources.
 
 Candidate budget object:
 
@@ -2976,7 +2976,7 @@ IMPLEMENTED != VALIDATED
 PLACEHOLDER
 ```
 
-The recovered source explicitly identifies L02 as an attention-allocation primitive for budgeting scarce reasoning/observation resources, while retaining `UNKNOWN/GAP` status. 
+The recovered source explicitly identifies L02 as an attention-allocation primitive for budgeting scarce reasoning/observation resources, while retaining `UNKNOWN/GAP` status.
 
 ## Internal L01/L02 References
 

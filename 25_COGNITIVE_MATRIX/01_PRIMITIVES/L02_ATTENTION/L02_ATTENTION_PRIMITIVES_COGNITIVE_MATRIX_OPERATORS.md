@@ -16,7 +16,7 @@ rscf:
 ---
 # L02 ATTENTION PRIMITIVES COGNITIVE MATRIX OPERATORS
 
-The source placeholder explicitly defines L02 as **“attention allocation; budget scarce reasoning/observation resources”** and requires operators/kernels, invariants, H/M/L, interfaces, dependencies, provenance, repair, tests, governance, freshness, and version lineage before promotion. It also explicitly prohibits inventing missing canon or implementation status. 
+The source placeholder explicitly defines L02 as **“attention allocation; budget scarce reasoning/observation resources”** and requires operators/kernels, invariants, H/M/L, interfaces, dependencies, provenance, repair, tests, governance, freshness, and version lineage before promotion. It also explicitly prohibits inventing missing canon or implementation status.
 
 ---
 tags:
@@ -30,7 +30,7 @@ tags:
   - hml
   - governance
 
-title: "L02_ATTENTION — Operators"
+title: L02_ATTENTION — Operators
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"
 epistemic_class: "MODEL"
@@ -39,10 +39,10 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 # L02_ATTENTION — Operators
 
-**Class:** `COGNITIVE_PRIMITIVE_OPERATOR_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `OPERATORS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_OPERATOR_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `OPERATORS.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** the recovered L02 source establishes the primitive role as attention allocation over scarce reasoning/observation resources and explicitly requires an operator/kernel contract before promotion. It does not currently provide a canonical named L02 operator registry. Therefore operator names, signatures, transition equations, kernels, and protocols in this artifact are `AMOS_MODEL` unless independently recovered from direct canon or executable runtime evidence.

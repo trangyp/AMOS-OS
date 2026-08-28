@@ -29,7 +29,7 @@ What is it?
 * Various styles:
 
 Programmatic access control
-* matrix of user privledges stored in DB applied programmaticly, 
+* matrix of user privledges stored in DB applied programmaticly,
 * Includes roles, groups, individual users, collections, workflows, processes
 * Granular
 

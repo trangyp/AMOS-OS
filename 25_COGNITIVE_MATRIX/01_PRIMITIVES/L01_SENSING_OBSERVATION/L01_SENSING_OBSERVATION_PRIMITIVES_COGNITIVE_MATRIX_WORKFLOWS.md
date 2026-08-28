@@ -27,10 +27,10 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Workflows
 
-**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `WORKFLOWS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `WORKFLOWS.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Source boundary:** the currently recoverable Drive artifact defines L01 as the sensing/observation primitive whose role includes distinguishing observations from source claims and derived state. It explicitly remains a non-canonical placeholder and requires workflows/interfaces, provenance, failure/repair, tests, governance, freshness, regime validity, and version lineage before promotion.
@@ -95,7 +95,7 @@ No workflow step may silently collapse those classes.
 
 ## 1.1 Direct Recoverable Source
 
-Drive currently contains an `L01_SENSING_OBSERVATION` architectural folder and a `PLACEHOLDER.md` artifact. 
+Drive currently contains an `L01_SENSING_OBSERVATION` architectural folder and a `PLACEHOLDER.md` artifact.
 
 The placeholder establishes:
 
@@ -108,7 +108,7 @@ observation
 != derived state
 ```
 
-It also explicitly says the file is non-canonical and must not invent missing canon, equations, thresholds, empirical claims, or implementation status. 
+It also explicitly says the file is non-canonical and must not invent missing canon, equations, thresholds, empirical claims, or implementation status.
 
 Its promotion requirements include:
 
@@ -530,7 +530,7 @@ L01-WF-INV-020
 Repair preserves failure lineage.
 ```
 
-These align with the source placeholder's explicit requirement that governance, provenance, testing, failure handling, freshness, regime validity, and supersession be established before promotion. 
+These align with the source placeholder's explicit requirement that governance, provenance, testing, failure handling, freshness, regime validity, and supersession be established before promotion.
 
 ---
 
@@ -560,7 +560,7 @@ L01_TESTS
 L01_GAP_MATRIX
 ```
 
-The Drive placeholder itself identifies dependencies/provenance and interfaces as required completion surfaces. 
+The Drive placeholder itself identifies dependencies/provenance and interfaces as required completion surfaces.
 
 ---
 
@@ -1487,7 +1487,7 @@ TEST_L01_WF_020
 Retry after failure requires changed evidence, state, or operator.
 ```
 
-These tests remain proposed and unexecuted. The recovered source itself requires tests/falsifiers before promotion. 
+These tests remain proposed and unexecuted. The recovered source itself requires tests/falsifiers before promotion.
 
 ---
 
@@ -1948,7 +1948,7 @@ IMPLEMENTED != VALIDATED
 PLACEHOLDER
 ```
 
-The recovered artifact remains explicitly `UNKNOWN/GAP` and states that content must come from recoverable AMOS/Trang lineage or explicitly approved new specification. 
+The recovered artifact remains explicitly `UNKNOWN/GAP` and states that content must come from recoverable AMOS/Trang lineage or explicitly approved new specification.
 
 ## Internal L01 References
 

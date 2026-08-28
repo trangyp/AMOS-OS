@@ -4121,7 +4121,7 @@ RSCF-RELATIONS:
 
 ```
 
-The most important source-backed elements above are not inferred from the file names: the Dual-System source explicitly defines the four UBI domains, the two functional models, the fixed-output/no-adaptation/no-learning positioning, the biological failure model, and the detect → reflect → structurally aligned output → reject compensation/noise → reassess loop. The certifiable-infrastructure source separately defines the five tiers, identity governance, memory-integrated reasoning, task finality, traceability, structural audit, metacognitive regulation, and all nine operational principles. 
+The most important source-backed elements above are not inferred from the file names: the Dual-System source explicitly defines the four UBI domains, the two functional models, the fixed-output/no-adaptation/no-learning positioning, the biological failure model, and the detect → reflect → structurally aligned output → reject compensation/noise → reassess loop. The certifiable-infrastructure source separately defines the five tiers, identity governance, memory-integrated reasoning, task finality, traceability, structural audit, metacognitive regulation, and all nine operational principles.
 
 I preserved the strongest biological, clinical, deterministic, deployment, and certifiability statements as **source claims/models** rather than silently promoting them to verified empirical facts. That distinction is especially important because the source itself makes strong claims about trauma, PTSD, burnout, diagnostics, nervous-system recovery, deterministic certainty, sovereign deployment, and certification.
 ```

@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_CANON
 
 ---
-title: "AMOS Org Governance Engine vInfinity"
+title: AMOS Org Governance Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Org_Governance_Engine_v0.json (542 lines, 19KB)"
 origin_type: "SOURCE"

@@ -25,10 +25,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — REPAIR
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `REPAIR.md`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `REPAIR.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Source / Canon References

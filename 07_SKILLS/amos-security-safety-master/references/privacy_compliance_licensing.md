@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Privacy Compliance Licensing"
+title: AMOS Privacy Compliance Licensing
 created: "2026-08-22"
 type: "note"
 tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, rscf/state/observation, topic/amos-privacy-compliance, dated, dated/2026-08-22]

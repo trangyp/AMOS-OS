@@ -4586,8 +4586,7 @@ The following are recommended **derived indexing tags**, not source metadata:
 
 ```yaml
 ---
-title: "TENSOR CONTRACTS"
-
+title: TENSOR CONTRACTS
 aliases:
   - "Typed Tensor Contracts"
   - "AMOS Tensor Contracts"

@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Risk Compliance Engine vInfinity"
+title: AMOS Risk Compliance Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Risk_Compliance_Engine_v0.json (280 lines, 8KB)"
 origin_type: "SOURCE"

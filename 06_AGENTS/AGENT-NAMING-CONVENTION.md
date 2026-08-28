@@ -61,7 +61,7 @@ amos-{domain}-{function}-{qualifier}-agent.json
 ## Migration Rule
 
 - **New agents**: use function-first names.
-- **Existing arXiv agents**: now renamed to function-first names.  
+- **Existing arXiv agents**: now renamed to function-first names.
   ArXiv IDs retained only as JSON metadata (`source_id`, `arxiv_id`).
 - **Skill + workflow names**: match the agent name; rename together.
 

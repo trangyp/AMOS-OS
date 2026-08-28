@@ -23,13 +23,13 @@ tags: [note]
 
 # 12 Generators Map
 
-**STATUS:** DERIVED REFERENCE MAP  
-**Artifact Type:** Generator Subsystem Map / Navigation Index / Dependency Surface  
-**System:** AMOS OS  
-**Path:** `25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP.md`  
-**Canon Group:** `reference`  
-**RSCF State:** `derived`  
-**Claim Class:** `AMOS_MODEL`  
+**STATUS:** DERIVED REFERENCE MAP
+**Artifact Type:** Generator Subsystem Map / Navigation Index / Dependency Surface
+**System:** AMOS OS
+**Path:** `25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX/GENERATORS_MAP.md`
+**Canon Group:** `reference`
+**RSCF State:** `derived`
+**Claim Class:** `AMOS_MODEL`
 **Origin Architect / Steward:** Trang Phan
 
 ---

@@ -25,10 +25,10 @@ rscf:
 
 # L02_ATTENTION — Invariants
 
-**Class:** `COGNITIVE_PRIMITIVE_INVARIANT_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `INVARIANTS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_INVARIANT_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `INVARIANTS.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** the available L02 material supports attention as allocation of scarce reasoning/observation resources. The invariant system below formalizes that primitive inside AMOS governance. Unless independently traced to direct L02 canon, individual invariant IDs and equations are `AMOS_MODEL`, not recovered canonical laws.

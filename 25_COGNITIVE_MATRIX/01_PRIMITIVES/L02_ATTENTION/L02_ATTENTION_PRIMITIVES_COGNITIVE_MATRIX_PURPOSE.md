@@ -46,10 +46,10 @@ aliases:
 ---
 
 # K_META_LOGIC
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_META_LOGIC` defines the kernel-level rules governing **how AMOS reasons about reasoning itself**.

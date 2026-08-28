@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "OS Agent Model"
+title: OS Agent Model
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "note"

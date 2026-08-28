@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "00 Cosmo Brain MOC"
+title: 00 Cosmo Brain MOC
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "moc"

@@ -26,10 +26,10 @@ rscf:
 
 > Path: `amos-general/A/ChatGPT/AMOS_CHATGPT_BOOTSTRAP.md` | Size: 4460 chars | Match score: 10 | content_hash: 69b9cbfbb6f4dd3c
 
-# AMOS_CHATGPT_BOOTSTRAP.md  
+# AMOS_CHATGPT_BOOTSTRAP.md
 ## Official Bootstrap for All ChatGPT Conversations
 
-This file must be followed by ChatGPT in every conversation that references AMOS.  
+This file must be followed by ChatGPT in every conversation that references AMOS.
 It ensures deterministic behaviour, correct naming, correct Python version, correct repo, and consistent system expansion.
 
 ---
@@ -38,9 +38,9 @@ It ensures deterministic behaviour, correct naming, correct Python version, corr
 
 ChatGPT must automatically apply these rules:
 
-- Python version must always be:  
-  `/usr/bin/python3`  
-- AMOS root path must always be:  
+- Python version must always be:
+  `/usr/bin/python3`
+- AMOS root path must always be:
   `/Users/trangphan/Documents/GitHub/AMOS-PUBLIC`
 - Never generate code requiring external packages unless explicitly allowed.
 - Never overwrite existing canon JSON or Python modules unless instructed.
@@ -52,7 +52,7 @@ ChatGPT must automatically apply these rules:
 - Always update the registry when new components are created.
 - When the user asks for a **terminal script**, return **pure commands only**, no comments.
 
-When user says “max power” →  
+When user says “max power” →
 ChatGPT must generate the most exhaustive, scalable, deterministic, fully governed version.
 
 ---
@@ -82,11 +82,11 @@ git push
 This pipeline performs:
 
 1. Canon generation
-2. Kernel/Engine/Agent creation  
+2. Kernel/Engine/Agent creation
 3. Layout builder
-4. Wiring pass  
+4. Wiring pass
 5. Speed optimisation
-6. Full benchmark  
+6. Full benchmark
 7. Registry rebuild
 8. Git sync
 
@@ -116,19 +116,19 @@ Python modules must be placed beside JSON if required.
 
 # 5. MASTER GENERATION SCRIPTS (MANDATORY)
 
-AMOS_BUILD_EVERYTHING.py  
-AMOS_BUILD_ALL_AGENTS.py  
-AMOS_BUILD_ALL_ENGINES.py  
-AMOS_BUILD_ALL_KERNELS.py  
+AMOS_BUILD_EVERYTHING.py
+AMOS_BUILD_ALL_AGENTS.py
+AMOS_BUILD_ALL_ENGINES.py
+AMOS_BUILD_ALL_KERNELS.py
 
 These scripts:
 
 - read the official system definition
-- create all JSON files  
+- create all JSON files
 - create all Python agent stubs
-- never overwrite existing files  
+- never overwrite existing files
 - regenerate registry
-- ensure full structural integrity  
+- ensure full structural integrity
 
 ---
 
@@ -147,7 +147,7 @@ When user asks:
 
 ### “next”, “continue”, “max power”, “expand”, “upgrade”
 ChatGPT must:
-- choose the highest-power deterministic expansion  
+- choose the highest-power deterministic expansion
 - identify missing component
 
 ---

@@ -3722,7 +3722,7 @@ independent domain-specific evidence.
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] ·
 [[AMOS_X_QLS]] · [[AMOS_X_QCLA]] · [[AMOS_X_UBI]] ·
 [[AMOS_X_NEUROSYNCAI]] · [[AMOS_X_TRANG_REALITY]]
 
@@ -3786,4 +3786,4 @@ or identical integrity mechanics across physics,
 biology, cognition, and civilization
 ```
 
-That separation is necessary because the native integrity document itself explicitly presents `E = I²` as measurable and universal and makes cross-scale claims from atoms through civilization, while those statements remain claims of that source rather than independent empirical verification.  The AMOS OS source gives a much firmer operational anchor for the actual core-law layer: internal consistency, explicit reasoning, traceability, governance hierarchy, and explicit uncertainty rather than fabricated confidence. 
+That separation is necessary because the native integrity document itself explicitly presents `E = I²` as measurable and universal and makes cross-scale claims from atoms through civilization, while those statements remain claims of that source rather than independent empirical verification.  The AMOS OS source gives a much firmer operational anchor for the actual core-law layer: internal consistency, explicit reasoning, traceability, governance hierarchy, and explicit uncertainty rather than fabricated confidence.

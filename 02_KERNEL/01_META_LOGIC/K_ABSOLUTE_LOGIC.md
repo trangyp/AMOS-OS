@@ -125,16 +125,16 @@ relations:
 
 # Kernel · Absolute Logic
 
-> **Artifact:** `K_ABSOLUTE_LOGIC.md`  
-> **Canonical address:** `02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC.md`  
-> **System:** AMOS OS  
-> **Plane:** `02_KERNEL`  
-> **Segment:** `01_META_LOGIC`  
-> **Artifact class:** `LOG`  
-> **Origin architect / steward:** **Trang Phan**  
-> **Current status:** `PLACEHOLDER`  
-> **Canonical status:** `UNKNOWN/GAP`  
-> **Implementation:** `NOT_ESTABLISHED`  
+> **Artifact:** `K_ABSOLUTE_LOGIC.md`
+> **Canonical address:** `02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC.md`
+> **System:** AMOS OS
+> **Plane:** `02_KERNEL`
+> **Segment:** `01_META_LOGIC`
+> **Artifact class:** `LOG`
+> **Origin architect / steward:** **Trang Phan**
+> **Current status:** `PLACEHOLDER`
+> **Canonical status:** `UNKNOWN/GAP`
+> **Implementation:** `NOT_ESTABLISHED`
 > **Validation:** `NOT_ESTABLISHED`
 
 ---

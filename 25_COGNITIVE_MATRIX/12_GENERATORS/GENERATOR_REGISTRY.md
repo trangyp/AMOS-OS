@@ -23,16 +23,16 @@ tags: [note]
 
 # Generator Registry
 
-**STATUS:** CANDIDATE_CANON — SUBSTANTIVE SPECIFICATION  
-**Artifact Type:** Generator Registry Contract / Generator Identity Authority  
-**System:** AMOS OS  
-**Path:** `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY.md`  
-**Lineage Compatibility:** AMOS_CORE v3.0 → v4.4  
-**Origin Architect / Steward:** Trang Phan  
-**Claim Class:** `AMOS_MODEL`  
-**Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT  
-**Population Status:** NOT ESTABLISHED BY THIS DOCUMENT  
-**Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT  
+**STATUS:** CANDIDATE_CANON — SUBSTANTIVE SPECIFICATION
+**Artifact Type:** Generator Registry Contract / Generator Identity Authority
+**System:** AMOS OS
+**Path:** `25_COGNITIVE_MATRIX/12_GENERATORS/GENERATOR_REGISTRY.md`
+**Lineage Compatibility:** AMOS_CORE v3.0 → v4.4
+**Origin Architect / Steward:** Trang Phan
+**Claim Class:** `AMOS_MODEL`
+**Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT
+**Population Status:** NOT ESTABLISHED BY THIS DOCUMENT
+**Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
 
 ---

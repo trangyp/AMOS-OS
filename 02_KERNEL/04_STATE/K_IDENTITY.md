@@ -39,10 +39,10 @@ aliases:
 ---
 
 # K IDENTITY
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_IDENTITY` defines the kernel-level contract for determining, preserving, comparing, resolving, versioning, and invalidating identity across AMOS OS.

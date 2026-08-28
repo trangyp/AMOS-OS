@@ -143,7 +143,7 @@ rscf:
         "rollback_plan"
       ]
     },
-   
+
 
 ---
 
@@ -193,27 +193,27 @@ def cmd_generate(args: argparse.Namespace) -> int:
     print(f"Goal: {args.goal}")
     print(f"Generating up to {args.count} architectures...")
     print("-" * 60)
-    
+
     # Create generator
     ontology = GoalOntology(args.ontology) if args.ontology else GoalOntology()
     generator = GoalDrivenGenerator(ontology)
-    
+
     # Classify and explain
     goal_type = generator.parser.parse(args.goal)
     print(f"Classified as: {goal_type.value.upper()}")
-    
+
     taxonomy = ontology.get_goal_taxonomy(goal_type)
     if taxonomy:
         print(f"Description: {taxonomy.get('description', 'N/A')}")
         print(f"Required layers: {', '.join(taxonomy.get('required_layers', []))}")
-    
+
     print("-" * 60)
-    
+
     # Generate
     architectures = generator.generate(args.goal, args.count)
-    
+
     print(f"\nGenerated {len(architectures)} architectures")
-    
+
     # Show first few
     for arch in architectures[:3]:
         print(f"\n  {arch.id}")
@@ -221,12 +221,12 @@ def cmd_generate(args: argparse.Namespace) -> int:
         print(f"    Constraint: {arch.constraint.value}")
         print(f"    Layers: {len(arch.layers)}")
         print(f"    Signature: {arch.structural_signature}")
-    
+
     # Export if requested
     if args.output:
         generator.export_to_json(architectures, args.output)
         print(f"\nExported to: {args.output}")
-    
+
     return 0
 
 
@@ -234,10 +234,10 @@ def cmd_explain(args: argparse.Namespace) -> int:
     """Explain goal classification."""
     print(f"Goal: {args.goal}")
     print("=" * 60)
-    
+
     ontology = GoalOntology(args.ontology) if args.ontology else GoalOntology()
     parser = GoalParser(ontology)
-    
+
     explanation = parser.explain_classi
 
 ---

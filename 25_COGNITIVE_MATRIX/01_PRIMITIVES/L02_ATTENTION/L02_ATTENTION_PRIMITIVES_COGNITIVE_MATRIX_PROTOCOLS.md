@@ -110,7 +110,7 @@ System: **AMOS OS**
 
 # L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 
-Drive inspection confirms that the `L02_ATTENTION` folder currently contains only `PLACEHOLDER.md`; there is no recovered canonical `PROTOCOLS.md`.  The placeholder defines L02 as attention allocation over scarce reasoning/observation resources, but explicitly forbids inventing missing canon, equations, thresholds, empirical claims, or implementation status. 
+Drive inspection confirms that the `L02_ATTENTION` folder currently contains only `PLACEHOLDER.md`; there is no recovered canonical `PROTOCOLS.md`.  The placeholder defines L02 as attention allocation over scarce reasoning/observation resources, but explicitly forbids inventing missing canon, equations, thresholds, empirical claims, or implementation status.
 
 ---
 tags:
@@ -123,7 +123,7 @@ tags:
   - hml
   - governance
 
-title: "L02_ATTENTION — Protocols"
+title: L02_ATTENTION — Protocols
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"
 epistemic_class: "MODEL"
@@ -132,10 +132,10 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 # L02_ATTENTION — Protocols
 
-**Class:** `COGNITIVE_PRIMITIVE_PROTOCOL_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `PROTOCOLS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_PROTOCOL_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `PROTOCOLS.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** recovered source establishes L02 as the primitive for attention allocation and budgeting scarce reasoning/observation resources. No canonical L02 protocol registry, message schema, handshake, state machine, timeout policy, or wire/runtime protocol has yet been recovered. Protocol structures below are therefore `AMOS_MODEL` unless independently recovered from AMOS/Trang canon or executable runtime evidence.
@@ -3161,4 +3161,3 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[L02_ATTENTION_MOC]]
-

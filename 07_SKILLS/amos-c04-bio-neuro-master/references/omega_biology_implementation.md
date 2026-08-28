@@ -27,14 +27,14 @@ tags: [reports]
 
 ### SYSTEM STATUS: STRUCTURAL ENGINE OPERATIONAL
 
-**SYSTEM ID**: c66d1037545def14  
+**SYSTEM ID**: c66d1037545def14
 **MODE**: STRUCTURAL • INVARIANT-FIRST • PROOF-OR-HYPOTHESIS • NO VIBES • NO UNSOURCED CLAIMS
 
 ### HARD GATES SATISFIED
 
 **B0 NO UNSOURCED FACT**: All claims sourced or marked HYP-
 - Gibbs free energy: NCBI Bookshelf verification
-- Kleiber's law: Wikipedia verification  
+- Kleiber's law: Wikipedia verification
 - Second law: Thermodynamic principles
 - All quantum claims: HYP- with confidence ≤ 0.3
 

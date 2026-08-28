@@ -21,7 +21,7 @@ rscf:
 
 ---
 
-title: "amos-personality-engine-layer"
+title: amos-personality-engine-layer
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "bridge"

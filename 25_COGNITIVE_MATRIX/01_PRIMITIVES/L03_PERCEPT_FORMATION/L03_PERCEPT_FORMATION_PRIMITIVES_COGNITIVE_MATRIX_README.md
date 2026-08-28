@@ -27,10 +27,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — README
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Layer:** `COGNITIVE_MATRIX`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Layer:** `COGNITIVE_MATRIX`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ---

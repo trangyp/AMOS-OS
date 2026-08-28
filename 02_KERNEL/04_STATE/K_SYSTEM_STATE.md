@@ -41,10 +41,10 @@ aliases:
 ---
 
 # K SYSTEM STATE
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_SYSTEM_STATE` defines the kernel-level model for representing, reading, transitioning, validating, committing, invalidating, recovering, and reasoning over AMOS OS system state.

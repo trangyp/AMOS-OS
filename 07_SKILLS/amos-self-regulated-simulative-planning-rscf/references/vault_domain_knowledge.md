@@ -130,9 +130,9 @@ Activity Initial analysis based on internal and external Build collective unders
 
 
 ```
-Input tokens/observation → Intent detection → Signal extraction → 
-MURK transformation (19×19 kernel) → Brain model state update (67 layers) → 
-Tool mediation (search/files/terminal/memory) → Observation → 
+Input tokens/observation → Intent detection → Signal extraction →
+MURK transformation (19×19 kernel) → Brain model state update (67 layers) →
+Tool mediation (search/files/terminal/memory) → Observation →
 Audit → Output/action
 ```
 

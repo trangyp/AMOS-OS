@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "ABSOLUTE-HUMAN — 27 Archetypes, 54 Risks, 196 Process Risks"
+title: ABSOLUTE-HUMAN — 27 Archetypes, 54 Risks, 196 Process Risks
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Absolute-Human (final version).txt"
 origin_architect: "Trang Phan"
@@ -49,32 +49,32 @@ A single omnistructural logic layer representing all humans, behaviors, cognitiv
 ---
 
 ## 27 Archetypes (Human Modes)
-1. The Builder  
-2. The Breaker  
-3. The Connector  
-4. The Withdrawer  
-5. The Manipulator  
-6. The Guardian  
-7. The Nomad  
-8. The Controller  
-9. The Catalyst  
-10. The Absorber  
-11. The Reflector  
-12. The Shadow  
-13. The Signal  
-14. The Anchor  
-15. The Wanderer  
-16. The Strategist  
-17. The Instinctive  
-18. The Rational  
-19. The Emotional  
-20. The Hyperlogical  
-21. The Tribal  
-22. The Universalist  
-23. The Survivor  
-24. The Disruptor  
-25. The Purist  
-26. The Hybrid  
+1. The Builder
+2. The Breaker
+3. The Connector
+4. The Withdrawer
+5. The Manipulator
+6. The Guardian
+7. The Nomad
+8. The Controller
+9. The Catalyst
+10. The Absorber
+11. The Reflector
+12. The Shadow
+13. The Signal
+14. The Anchor
+15. The Wanderer
+16. The Strategist
+17. The Instinctive
+18. The Rational
+19. The Emotional
+20. The Hyperlogical
+21. The Tribal
+22. The Universalist
+23. The Survivor
+24. The Disruptor
+25. The Purist
+26. The Hybrid
 27. The Observer
 
 ## Archetype Fields

@@ -23,12 +23,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Provenance
 
-**Class:** `COGNITIVE_PRIMITIVE_PROVENANCE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `PROVENANCE.md`  
-**Role:** `OBSERVATION ORIGIN / LINEAGE / TRANSFORMATION / TRUST-BOUNDARY CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_PROVENANCE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `PROVENANCE.md`
+**Role:** `OBSERVATION ORIGIN / LINEAGE / TRANSFORMATION / TRUST-BOUNDARY CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this document defines the proposed provenance contract for `L01_SENSING_OBSERVATION`. It preserves the distinction between reality, source, observer, sensor, observation, transformation, validation, derived state, and downstream use. Exact canonical L01 provenance schemas, identifiers, trust rules, cryptographic mechanisms, storage implementations, and runtime behavior remain subject to direct-canon confirmation and executable validation.

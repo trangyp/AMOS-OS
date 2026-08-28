@@ -44,10 +44,10 @@ aliases:
 ---
 
 # K_COUNTERFACTUAL
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_COUNTERFACTUAL` defines the AMOS kernel contract for reasoning about alternatives to an observed, assumed, modeled, or proposed state.

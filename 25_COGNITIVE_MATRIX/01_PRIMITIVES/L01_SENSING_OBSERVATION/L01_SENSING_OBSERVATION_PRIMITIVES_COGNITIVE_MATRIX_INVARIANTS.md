@@ -18,12 +18,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Invariants
 
-**Class:** `COGNITIVE_PRIMITIVE_INVARIANT_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `INVARIANTS.md`  
-**Role:** `SENSING / OBSERVATION INTEGRITY GATE`  
+**Class:** `COGNITIVE_PRIMITIVE_INVARIANT_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `INVARIANTS.md`
+**Role:** `SENSING / OBSERVATION INTEGRITY GATE`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this document defines the proposed invariant contract for `L01_SENSING_OBSERVATION`. It formalizes integrity conditions for observations entering AMOS reasoning. Unless explicitly bound to direct source canon, these invariants are AMOS MODEL reconstructions and must not be represented as empirically universal laws or already implemented runtime guarantees.

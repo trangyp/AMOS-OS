@@ -40,7 +40,7 @@ rscf:
 Source recovery note: the central equation is recoverable as \(P_{\text{collapse}}\sim\frac{\Omega F S}{H\cdot Reserves}\). The prose definitions clearly preserve \(\Omega\) and \(H\), while the source has lost the variable glyphs preceding “Structural Fragmentation” and “External Shock Intensity.” Because the numerator visibly contains `F · S`, the strongest reconstruction is **F = Structural Fragmentation** and **S = External Shock Intensity**, but those assignments are marked **DERIVED_FROM_EQUATION_ORDER**, not silently upgraded to source-verbatim fact. The stray `48307` tokens are treated as rendering corruption, not canonical constants.
 
 ---
-title: "Universe x Omega Cognitive Matrix Specification"
+title: Universe x Omega Cognitive Matrix Specification
 aliases:
   - "Universe × Omega Cognitive Matrix Specification"
   - "Universe x Omega"

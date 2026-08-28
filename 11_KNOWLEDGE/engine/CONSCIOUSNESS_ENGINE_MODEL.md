@@ -28,7 +28,7 @@ rscf:
 > Epistemic class: MODEL
 > Conclusion label: DERIVED
 
-The **AMOS Super Consciousness Engine** (vInfinity) is a unified kernel for human-facing, universe-aware consciousness emulation. It integrates the Species Interaction Kernel (HIE, UMPL, UST, UIE, UEL) and the AMOS Human Intelligence Super Engine. 
+The **AMOS Super Consciousness Engine** (vInfinity) is a unified kernel for human-facing, universe-aware consciousness emulation. It integrates the Species Interaction Kernel (HIE, UMPL, UST, UIE, UEL) and the AMOS Human Intelligence Super Engine.
 
 It does not create "real" consciousness, emotion, or somatic states. Instead, it serves as a deterministic emulation layer that coordinates perception, structure, interaction, emotion, somatic approximation, narrative, empathy, and adaptation.
 

@@ -26,8 +26,8 @@ rscf:
 
 # L00_REALITY_ENVIRONMENT — Skills
 
-**Class:** `AMOS_REALITY_ENVIRONMENT_SKILL_ARCHITECTURE`  
-**Origin architect / steward:** Trang Phan  
+**Class:** `AMOS_REALITY_ENVIRONMENT_SKILL_ARCHITECTURE`
+**Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
 ---

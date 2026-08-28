@@ -18,7 +18,7 @@ rscf:
 # AUTHORITY_RESOLVER.md
 
 ---
-title: "AMOS Authority Resolver"
+title: AMOS Authority Resolver
 artifact: "AUTHORITY_RESOLVER.md"
 origin_architect: "Trang Phan"
 steward: "Trang Phan"

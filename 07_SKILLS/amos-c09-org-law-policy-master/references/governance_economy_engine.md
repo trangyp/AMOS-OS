@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Governance Economy Engine vInfinity"
+title: AMOS Governance Economy Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Governance_Economy_Engine_v0.json (750 lines, 27KB)"
 origin_type: "SOURCE"

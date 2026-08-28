@@ -158,7 +158,7 @@ kernel. This is intentional — catastrophic risks should block execution.
 | 14 | governance_strength | Governance strength |
 | 15 | assurance_coverage | Assurance coverage |
 | 16 | remediation_progress | Remediation progress |
-| 
+|
 
 ---
 

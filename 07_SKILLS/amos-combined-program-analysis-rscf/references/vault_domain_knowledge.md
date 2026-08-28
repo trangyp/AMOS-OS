@@ -135,7 +135,7 @@ rscf:
       "formula": "E=w1*hidden_state+w2*fake_api+w3*broken_flow+w4*missing_validation+w5*complexity",
       "layer": "entropy"
     },
-   
+
 
 ---
 
@@ -153,7 +153,7 @@ rscf:
 The System Completion Auditor explicitly treats completeness as **scoped and structural** rather than proof of truth. It requires closure over:
 
 - Objects
-- Interfaces  
+- Interfaces
 - Dependencies
 - Failure paths
 - Boundary conditions

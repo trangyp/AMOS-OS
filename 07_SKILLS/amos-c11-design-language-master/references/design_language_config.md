@@ -58,7 +58,7 @@ Define and govern the full design language for products, systems, brands, interf
 - **DL02_visual_primitives**: Visual Primitives & Shape Grammar — Defines the basic building blocks of the visual language – shapes, strokes, radii, icon grid, densit
 - **DL03_spatial_composition**: Spatial Systems & Layout Composition — Governs grids, spacing, alignment, composition, and spatial rhythm across all surfaces.
 - **DL04_typography**: Typographic Systems & Information Rhythm — Defines typeface stacks, hierarchy, rhythm, and text handling across languages and densities.
-- **DL05_color_and_material**: Color, Material, and Contrast Systems — Defines color palettes, states, contrast rules, and material depth (elevation, borders, shadows) as 
+- **DL05_color_and_material**: Color, Material, and Contrast Systems — Defines color palettes, states, contrast rules, and material depth (elevation, borders, shadows) as
 - **DL06_motion_and_temporal**: Motion, Timing, and Temporal Language — Governs how elements move, transition, and respond over time, connecting motion to meaning and nervo
 - **DL07_information_structure**: Information Architecture & Visual Hierarchy — Maps the logic of information structure into a stable, navigable visual hierarchy.
 - **DL08_interaction_patterns**: Interaction Patterns & Control Semantics — Defines how controls behave, how users act on the system, and how feedback is presented.

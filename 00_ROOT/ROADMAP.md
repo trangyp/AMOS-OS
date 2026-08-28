@@ -79,9 +79,9 @@ aliases:
 
 # AMOS OS Roadmap
 **Origin architect / steward:** Trang Phan
-> **Status:** `ACTIVE_ROADMAP`  
-> **Roadmap version:** `1.0.0`  
-> **AMOS_CORE target:** `v4.4`  
+> **Status:** `ACTIVE_ROADMAP`
+> **Roadmap version:** `1.0.0`
+> **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 rscf:
   state: SOURCE_CLAIM

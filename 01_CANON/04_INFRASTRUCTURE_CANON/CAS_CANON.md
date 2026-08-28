@@ -23,13 +23,13 @@ tags: [note]
 
 # CAS Canon
 
-> **Artifact:** `CAS_CANON.md`  
-> **Plane:** `01_CANON · CANON`  
-> **Segment:** `04_INFRASTRUCTURE_CANON`  
-> **System:** `AMOS OS`  
-> **Origin architect / steward:** **Trang Phan**  
-> **Artifact state:** `PLACEHOLDER`  
-> **Canonical status:** `UNKNOWN/GAP`  
+> **Artifact:** `CAS_CANON.md`
+> **Plane:** `01_CANON · CANON`
+> **Segment:** `04_INFRASTRUCTURE_CANON`
+> **System:** `AMOS OS`
+> **Origin architect / steward:** **Trang Phan**
+> **Artifact state:** `PLACEHOLDER`
+> **Canonical status:** `UNKNOWN/GAP`
 > **Executable binding:** `NOT_ESTABLISHED`
 
 ---
@@ -3014,7 +3014,3 @@ NOT_ESTABLISHED
 ```
 
 **Promotion rule:** the next valid step is not to invent the missing CAS theory. It is to resolve a native AMOS source that explicitly defines `CAS`, establish its identity/version/lineage, normalize that material into this ADD-ONLY slot, preserve competing sources where necessary, and only then evaluate promotion from `PLACEHOLDER` toward populated canon.
-
-```
-
-```

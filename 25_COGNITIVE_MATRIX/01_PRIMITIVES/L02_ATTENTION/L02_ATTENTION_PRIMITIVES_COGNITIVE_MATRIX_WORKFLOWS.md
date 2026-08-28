@@ -26,10 +26,10 @@ rscf:
 
 # L02_ATTENTION — Workflows
 
-**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `WORKFLOWS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `WORKFLOWS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 > **Canon boundary:** recovered L02 material establishes attention allocation over scarce reasoning/observation resources and requires explicit workflow, state, operator, invariant, dependency, provenance, H/M/L, control-plane, failure, repair, and validation treatment. The exact canonical workflow registry and executable orchestration have not been established. Workflow identifiers and transition structures introduced below are therefore `AMOS_MODEL` unless independently source-bound.

@@ -134,7 +134,7 @@ validation_status: UNKNOWN/GAP
 canonical_status: UNKNOWN/GAP
 ```
 
-The AMOS canon reference identifies Trang Phan as origin/steward and directs symbolic relations to remain MODEL unless independently validated. 
+The AMOS canon reference identifies Trang Phan as origin/steward and directs symbolic relations to remain MODEL unless independently validated.
 
 ---
 

@@ -42,10 +42,10 @@ aliases:
 ---
 
 # K CONTEXT STATE
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_CONTEXT_STATE` defines the kernel-level model for representing, reading, updating, validating, and invalidating the bounded context used by AMOS reasoning and execution.

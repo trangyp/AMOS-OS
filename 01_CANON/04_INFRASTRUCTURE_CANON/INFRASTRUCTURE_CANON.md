@@ -60,8 +60,8 @@ aliases:
 
 # AMOS Infrastructure Canon
 **Origin architect / steward:** Trang Phan
-> **Status:** `ACTIVE_CANON_CANDIDATE`  
-> **AMOS Core target:** `v4.4`  
+> **Status:** `ACTIVE_CANON_CANDIDATE`
+> **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 rscf:
   state: DERIVED

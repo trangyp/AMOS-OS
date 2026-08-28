@@ -27,11 +27,11 @@ rscf:
 # AMOS COGNITIVE ORGANISM OS
 ## Maximum-Detail Unified Cognitive-Life Architecture
 
-**Origin architect / steward:** Trang Phan  
-**Framework family:** AMOS / Trang Architecture  
-**System class:** Governed Cognitive Organism Architecture  
-**Epistemic class:** `SOURCE_ARCHITECTURE + DERIVED + AMOS_MODEL`  
-**Runtime alignment:** AMOS Full Brain OS + AMOS_CORE v4.4 infrastructure/control-plane lineage  
+**Origin architect / steward:** Trang Phan
+**Framework family:** AMOS / Trang Architecture
+**System class:** Governed Cognitive Organism Architecture
+**Epistemic class:** `SOURCE_ARCHITECTURE + DERIVED + AMOS_MODEL`
+**Runtime alignment:** AMOS Full Brain OS + AMOS_CORE v4.4 infrastructure/control-plane lineage
 **Purpose:** Define a complete persistent cognitive-organism operating architecture spanning perception, cognition, emotion-modeling, memory, identity, motivation, planning, agency, action, learning, reflection, homeostasis, adaptation, repair, lifecycle, governance, provenance, and recovery.
 
 ---
@@ -1179,11 +1179,11 @@ safety_est
 
 ### Maximum-Detail Unified Cognitive-Life Architecture
 
-**Origin architect / steward:** Trang Phan  
-**Framework family:** AMOS / Trang Architecture  
-**System class:** Governed Cognitive Organism Architecture  
-**Epistemic class:** `SOURCE_ARCHITECTURE + DERIVED + AMOS_MODEL`  
-**Runtime alignment:** AMOS Full Brain OS + AMOS_CORE v4.4 infrastructure/control-plane lineage  
+**Origin architect / steward:** Trang Phan
+**Framework family:** AMOS / Trang Architecture
+**System class:** Governed Cognitive Organism Architecture
+**Epistemic class:** `SOURCE_ARCHITECTURE + DERIVED + AMOS_MODEL`
+**Runtime alignment:** AMOS Full Brain OS + AMOS_CORE v4.4 infrastructure/control-plane lineage
 **Purpose:** Define a complete persistent cognitive-organism operating architecture spanning perception, cognition, emotion-modeling, memory, identity, motivation, planning, agency, action, learning, reflection, homeostasis, adaptation, repair, lifecycle, governance, provenance, and recovery.
 
 ---

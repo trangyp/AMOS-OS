@@ -24,12 +24,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — HML
 
-**Class:** `COGNITIVE_PRIMITIVE_HML_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `HML.md`  
-**Role:** `H/M/L SENSING / OBSERVATION SCALE CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_HML_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `HML.md`
+**Role:** `H/M/L SENSING / OBSERVATION SCALE CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this document defines the proposed H/M/L contract for `L01_SENSING_OBSERVATION`. H/M/L is used as an AMOS multiscale reasoning architecture. It does not establish that every empirical sensing system naturally decomposes into exactly three levels, nor that aggregation across those levels preserves meaning, identity, causality, or completeness.

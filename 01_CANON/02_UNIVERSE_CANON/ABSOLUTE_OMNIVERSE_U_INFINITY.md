@@ -102,12 +102,12 @@ integrity:
 
 # Absolute Omniverse / U-Infinity
 
-> **Native framework:** `ABSOLUTE OMNIVERSE U∞`  
-> **Native version:** `vInfinity`  
-> **Author / origin architect:** **Trang Phan**  
-> **Native system:** `AMOS / UNIVERSE_OS`  
-> **Native layer type:** `content_universe`  
-> **Canonical plane:** `01_CANON/02_UNIVERSE_CANON`  
+> **Native framework:** `ABSOLUTE OMNIVERSE U∞`
+> **Native version:** `vInfinity`
+> **Author / origin architect:** **Trang Phan**
+> **Native system:** `AMOS / UNIVERSE_OS`
+> **Native layer type:** `content_universe`
+> **Canonical plane:** `01_CANON/02_UNIVERSE_CANON`
 > **Current status:** `SOURCE_BOUND_CANON_CANDIDATE`
 
 ---

@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "Brain_Consistency_Auditor_Agent"
+title: Brain_Consistency_Auditor_Agent
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "bridge"

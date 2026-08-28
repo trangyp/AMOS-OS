@@ -199,7 +199,7 @@ axiom A_evolve_def :
     t1 <ₜ t2 →
     ( Evolve x t1 t2 ↔
       (Info x t1 ≠ Info x t2 ∨
-    
+
 
 ---
 

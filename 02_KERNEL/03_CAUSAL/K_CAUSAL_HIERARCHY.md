@@ -46,10 +46,10 @@ aliases:
 ---
 
 # K CAUSAL HIERARCHY
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_CAUSAL_HIERARCHY` defines the AMOS kernel contract for distinguishing levels and types of causal knowledge.

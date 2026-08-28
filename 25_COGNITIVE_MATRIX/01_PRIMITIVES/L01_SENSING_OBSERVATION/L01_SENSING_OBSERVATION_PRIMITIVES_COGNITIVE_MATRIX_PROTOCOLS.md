@@ -22,12 +22,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Protocols
 
-**Class:** `COGNITIVE_PRIMITIVE_PROTOCOL_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `PROTOCOLS.md`  
-**Role:** `OBSERVATION EXCHANGE / VALIDATION / ROUTING / STATE-TRANSITION CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_PROTOCOL_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `PROTOCOLS.md`
+**Role:** `OBSERVATION EXCHANGE / VALIDATION / ROUTING / STATE-TRANSITION CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this document defines the proposed protocol contract for `L01_SENSING_OBSERVATION`. It specifies how sensing requests, observation candidates, validation results, provenance, uncertainty, conflicts, reobservation requests, routing decisions, and state-transition proposals may move between L01 components and adjacent AMOS layers. Exact canonical L01 protocol names, message schemas, state machines, transport semantics, and runtime implementations remain subject to direct-canon confirmation and executable validation.

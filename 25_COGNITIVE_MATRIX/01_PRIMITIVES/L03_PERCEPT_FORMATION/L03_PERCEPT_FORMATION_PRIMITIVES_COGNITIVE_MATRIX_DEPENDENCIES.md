@@ -28,10 +28,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Dependencies
 
-**Class:** `COGNITIVE_PRIMITIVE_DEPENDENCY_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `DEPENDENCIES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_DEPENDENCY_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `DEPENDENCIES.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 > **Canon boundary:** AMOS perception architecture requires H/M/L structure, typed invariants/tensors, RSCF, equation provenance, falsifiers, repair, competing hypotheses, confidence ceilings, and provenance. Hard invariants are non-compensatory, and source-defined constructs must not be confused with external empirical validation.  The detailed L03 dependency graph below is therefore an AMOS model completion unless direct canonical L03 dependencies or executable runtime evidence independently establish it.

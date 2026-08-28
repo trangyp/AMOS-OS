@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Vietnam Omnistructure Model"
+title: AMOS Vietnam Omnistructure Model
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "brain_model"

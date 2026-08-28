@@ -18,13 +18,13 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Agents
 
-**Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `AGENTS.md`  
-**Role:** `OBSERVATION ACQUISITION / SENSOR MEDIATION / MEASUREMENT / EPISTEMIC TYPING / PROVENANCE PRESERVATION`  
-**Status:** `STRUCTURAL AGENT CONTRACT / SOURCE-GAP BOUNDED`  
+**Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `AGENTS.md`
+**Role:** `OBSERVATION ACQUISITION / SENSOR MEDIATION / MEASUREMENT / EPISTEMIC TYPING / PROVENANCE PRESERVATION`
+**Status:** `STRUCTURAL AGENT CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `MODEL / CONDITIONAL`
 
 > **Canon boundary:** direct authoritative `L01_SENSING_OBSERVATION` agent canon is not established by the supplied placeholder alone. The agent architecture below is a conservative AMOS model constrained by the supplied L01 contract, the L00 reality/environment boundary, and AMOS control-plane, provenance, RSCF, authority, uncertainty, and recovery principles. It must not be represented as recovered source canon until direct source evidence establishes that status.

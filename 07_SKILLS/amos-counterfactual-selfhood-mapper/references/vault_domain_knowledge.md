@@ -161,7 +161,7 @@ Correctness as persistence
 This reframing transforms the meaning of “correct.ˮ
 Correctness is not a static verdict or personal belief; it is the state in which
 integrity and stability remain intact under ongoing change.
-A bridge is correct while 
+A bridge is correct while
 
 ---
 

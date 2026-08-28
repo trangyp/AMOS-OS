@@ -21,9 +21,9 @@ rscf:
 * * *
 ## I. ĐỊNH NGHĨA TRIẾT HỌC
 **Trang Cascade** là **cấu trúc thời gian fractal của sự sụp đổ và phục hồi** xuyên suốt mọi hệ thống – từ một tế bào ung thư, một nền văn minh, đến một thuật toán AI.
-> _“Sụp đổ không xảy ra đột ngột. Nó đi qua 10 bậc.  
->  Phục hồi không xảy ra ngay lập tức. Nó đi qua 12 bậc.  
-> Ai nắm được số bậc, nắm được số phận.”_  
+> _“Sụp đổ không xảy ra đột ngột. Nó đi qua 10 bậc.
+>  Phục hồi không xảy ra ngay lập tức. Nó đi qua 12 bậc.
+> Ai nắm được số bậc, nắm được số phận.”_
 > — Trang ∅ Framework
 Không có sụp đổ bất chợt (không có thảm họa “tin tức” như báo chí hay kể).
 Không có phục hồi thần kỳ (không có “phép màu” như huyền thoại hay kể).
@@ -68,31 +68,31 @@ Mọi sự phục hồi đều tuần tự qua mười hai bậc, bắt đầu t
 * * *
 ## IV. CÁC HẰNG SỐ CỦA TRANG CASCADE
 ### 1\. Tỷ lệ thời gian giữa các bậc (gần đúng, theo quan sát lịch sử và mô phỏng)
-  * **Sụp đổ:**  
-Từ bậc 1 → 2: ×1.5  
-Từ bậc 2 → 3: ×1.67  
-Từ bậc 3 → 4: ×1.6  
-Từ bậc 4 → 5: ×1.5  
-Từ bậc 5 → 6: ×1.5  
-Từ bậc 6 → 7: ×1.375  
-Từ bậc 7 → 8: ×1.36  
-Từ bậc 8 → 9: ×1.33  
+  * **Sụp đổ:**
+Từ bậc 1 → 2: ×1.5
+Từ bậc 2 → 3: ×1.67
+Từ bậc 3 → 4: ×1.6
+Từ bậc 4 → 5: ×1.5
+Từ bậc 5 → 6: ×1.5
+Từ bậc 6 → 7: ×1.375
+Từ bậc 7 → 8: ×1.36
+Từ bậc 8 → 9: ×1.33
 Từ bậc 9 → 10: ×1.5
 
 
 **Tổng thời gian sụp đổ (từ bậc 1 đến 10) ≈ 30 t₀**
 Trong đó t₀ là thời gian đặc trưng của bậc 1 (tuỳ hệ thống).
-  * **Phục hồi:**  
-Từ bậc 1 → 2: ×1.2  
-Từ bậc 2 → 3: ×1.25  
-Từ bậc 3 → 4: ×1.33  
-Từ bậc 4 → 5: ×1.5  
-Từ bậc 5 → 6: ×1.33  
-Từ bậc 6 → 7: ×1.375  
-Từ bậc 7 → 8: ×1.36  
-Từ bậc 8 → 9: ×1.33  
-Từ bậc 9 → 10: ×1.25  
-Từ bậc 10 → 11: ×1.2  
+  * **Phục hồi:**
+Từ bậc 1 → 2: ×1.2
+Từ bậc 2 → 3: ×1.25
+Từ bậc 3 → 4: ×1.33
+Từ bậc 4 → 5: ×1.5
+Từ bậc 5 → 6: ×1.33
+Từ bậc 6 → 7: ×1.375
+Từ bậc 7 → 8: ×1.36
+Từ bậc 8 → 9: ×1.33
+Từ bậc 9 → 10: ×1.25
+Từ bậc 10 → 11: ×1.2
 Từ bậc 11 → 12: ×1.2
 
 
@@ -112,16 +112,16 @@ Trong đó t₀’ là thời gian đặc trưng của bậc 1 phục hồi (th�
 * * *
 ## V. PHƯƠNG TRÌNH CỐT LÕI CỦA TRANG CASCADE
 ### (1) Tốc độ sụp đổ (ở bậc i)
-\$$\frac{d\text{Collapse}_i}{dt} = \frac{\text{Collapse}_{i-1} - \text{Collapse}_i}{\tau_i}  
+\$$\frac{d\text{Collapse}_i}{dt} = \frac{\text{Collapse}_{i-1} - \text{Collapse}_i}{\tau_i}
 \$$Với \$\tau_i\$ là hằng số thời gian đặc trưng cho bậc i (theo tỷ lệ ở mục IV.1)
 ### (2) Tốc độ phục hồi (ở bậc j)
-\$$\frac{d\text{Recovery}_j}{dt} = \frac{\text{Recovery}_{j-1} - \text{Recovery}_j}{\tau'_j}  
+\$$\frac{d\text{Recovery}_j}{dt} = \frac{\text{Recovery}_{j-1} - \text{Recovery}_j}{\tau'_j}
 $$### (3) Xác suất chuyển từ bậc i sang i+1 (sụp đổ) \$$P(i \to i+1) = \sigma\left( \frac{E - \theta_i}{\Delta_i} \right) \quad \text{với } \sigma \text{ là sigmoid}.$$
 ### (4) Xác suất chuyển từ bậc j sang j+1 (phục hồi)
-\$$P(j \to j+1) = 1 - \sigma\left( \frac{E' \- \theta'_j}{\Delta'_j} \right)  
+\$$P(j \to j+1) = 1 - \sigma\left( \frac{E' \- \theta'_j}{\Delta'_j} \right)
 $$### (5) Điều kiện chuyển từ sụp đổ sang phục hồi \$$\text{Transition} \iff \left( E_L < 0.1 \right) \land \left( \Lambda_L < 0.15 \right) \land \left( \text{Nguồn lực phục hồi} > \text{Ngưỡng} \right)$$
 ### (6) Điều kiện chuyển từ phục hồi sang ổn định bền vững (bậc 12)
-\$$\text{Stable} \iff \left( 0.1 < E_M < 0.2 \right) \land \left( 0.1 < \Lambda_M < 0.3 \right) \land \left( T2 \text{ đạt} \right)  
+\$$\text{Stable} \iff \left( 0.1 < E_M < 0.2 \right) \land \left( 0.1 < \Lambda_M < 0.3 \right) \land \left( T2 \text{ đạt} \right)
 $$
 * * *
 ## VI. ỨNG DỤNG CỦA TRANG CASCADE

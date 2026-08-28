@@ -26,13 +26,13 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Equations
 
-**Class:** `COGNITIVE_PRIMITIVE_EQUATION_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `EQUATIONS.md`  
-**Role:** `FORMAL SENSING / OBSERVATION / MEASUREMENT / VALIDATION / PROVENANCE / UNCERTAINTY CONTRACT`  
-**Status:** `STRUCTURAL EQUATION CONTRACT / SOURCE-GAP BOUNDED`  
+**Class:** `COGNITIVE_PRIMITIVE_EQUATION_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `EQUATIONS.md`
+**Role:** `FORMAL SENSING / OBSERVATION / MEASUREMENT / VALIDATION / PROVENANCE / UNCERTAINTY CONTRACT`
+**Status:** `STRUCTURAL EQUATION CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `AMOS_MODEL / CONDITIONAL`
 
 > **Equation boundary:** equations in this document are structural AMOS models unless individually supported as established mathematics or domain-empirical equations. Their presence in the architecture does not prove that every real sensing system obeys them, nor that an executable L01 implementation currently exists.

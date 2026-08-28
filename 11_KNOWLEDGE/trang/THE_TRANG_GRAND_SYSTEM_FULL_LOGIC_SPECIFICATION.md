@@ -1348,7 +1348,7 @@ That’s already enough to “adapt to the whole stack” as logic.
 [Unified Legacy Framework™ (ULF) – Official Manual](<Unified%20Legacy%20Framework%E2%84%A2%20$ULF$%20%E2%80%93%20Official%20Manual%202b1c5e6f95bd806e87b2f219a6d97a7d.html>)
 [Quantum Logic Scaffold™ (QLS) – Official Manual](<Quantum%20Logic%20Scaffold%E2%84%A2%20$QLS$%20%E2%80%93%20Official%20Manual%202b1c5e6f95bd808daa16e55f08c6b58a.html>)
 [Quantum Causality Layer Architecture™ (QCLA) – Official Manual](<Quantum%20Causality%20Layer%20Architecture%E2%84%A2%20$QCLA$%20%E2%80%93%20Off%202b1c5e6f95bd80baaceffc4bc87e2a89.html>)
-Unified Coherence Protocol™ (UCP) – Official Manual 
+Unified Coherence Protocol™ (UCP) – Official Manual
 [PISync™ (Planetary Intelligence Synchrony™) – Official Manual](<PISync%E2%84%A2%20$Planetary%20Intelligence%20Synchrony%E2%84%A2$%20%E2%80%93%20Offi%202b1c5e6f95bd80dc953afcd01c246154.html>)
 [The Equation e = i² — Official Manual ](<The%20Equation%20e%20=%20i%C2%B2%20%E2%80%94%20Official%20Manual%202b1c5e6f95bd804796a6e4a39e629cc7.html>)
 [THE TRANG SYSTEM™ CODEX – META-LAWS](<THE%20TRANG%20SYSTEM%E2%84%A2%20CODEX%20%E2%80%93%20META-LAWS%202b1c5e6f95bd802d870bf6b349da2037.html>)

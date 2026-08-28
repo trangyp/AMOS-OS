@@ -100,7 +100,7 @@ A value that cannot be established from repository evidence stays explicitly unr
 
 ### Quality pass 2 (2026-08-26)
 - Added slugify_cap() for clean capability names
-- Added is_rscf_metadata() filter to exclude metadata from capabilities  
+- Added is_rscf_metadata() filter to exclude metadata from capabilities
 - Stop replacing "placeholder" as template token (legitimate content)
 - Agent count grew from 834 to 851 (17 new arxiv/quantum agents)
 - All 851 agents VERIFIED, 851/851 validation pass

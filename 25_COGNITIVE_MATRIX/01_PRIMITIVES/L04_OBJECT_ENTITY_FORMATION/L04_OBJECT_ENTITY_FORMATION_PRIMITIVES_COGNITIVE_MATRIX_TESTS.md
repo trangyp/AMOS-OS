@@ -25,10 +25,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — Tests
 
-**Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `TESTS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `TESTS.md`
 **Status:** `AMOS_MODEL / UNEXECUTED / UNVALIDATED`
 
 ## 0. Purpose

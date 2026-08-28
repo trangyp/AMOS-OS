@@ -26,10 +26,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Invariants
 
-**Class:** `COGNITIVE_PRIMITIVE_INVARIANT_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `INVARIANTS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_INVARIANT_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `INVARIANTS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose

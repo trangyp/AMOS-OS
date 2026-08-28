@@ -28,10 +28,10 @@ rscf:
 
 # K CONSTRAINT PROPAGATION
 
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Canonical location:** `02_KERNEL/K_CONSTRAINT_PROPAGATION.md`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Canonical location:** `02_KERNEL/K_CONSTRAINT_PROPAGATION.md`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `MODEL`
 
 ## Purpose

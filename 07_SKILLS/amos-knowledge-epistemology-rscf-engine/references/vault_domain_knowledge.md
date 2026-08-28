@@ -55,7 +55,7 @@ rscf:
 >
 > **Precision issues:** 6 vague claims identified. See Memory — The Complete Human System for improved equation forms.
 >
-> **Coverage gaps filled (2026-08-22 audit):** Brodmann area table , Polyvagal hierarchy , Clinical correlates , Distinction operationalization , Void model cross-link , Schizophrenia model cross-link , Social_Pain phrasing fixed 
+> **Coverage gaps filled (2026-08-22 audit):** Brodmann area table , Polyvagal hierarchy , Clinical correlates , Distinction operationalization , Void model cross-link , Schizophrenia model cross-link , Social_Pain phrasing fixed
 
 ## Core Architecture
 

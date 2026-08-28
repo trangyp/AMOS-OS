@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS UBI Super Engine vInfinity — Full Stack"
+title: AMOS UBI Super Engine vInfinity — Full Stack
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/Ubi/AMOS_Ubi_Engine_v0.json"
 origin_architect: "Trang Phan"

@@ -218,7 +218,7 @@ does not imply
 100% system correctness
 ```
 
-The AMOS_CORE lineage explicitly preserves benchmark scope and warns against silent generalization beyond tested operationalization. 
+The AMOS_CORE lineage explicitly preserves benchmark scope and warns against silent generalization beyond tested operationalization.
 
 ---
 
@@ -3277,4 +3277,3 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[11_VALIDATION_MOC]]
-

@@ -3,7 +3,7 @@
 ## AMOS Canon · Scientific Law System · Operating System · Programming Paradigm · Frameworks · Algorithms · Equations
 
 > [!important] Epistemic and legal boundary
-> This expansion preserves the uploaded AMOS corpus artifact as **SOURCE_CLAIM**. It is an IP-governance model and planning document, **not jurisdiction-specific legal advice**. Statements in the source such as “strongest shield,” “highest possible protection,” company-location superiority, automatic coverage, patentability, export-control applicability, and comparisons with named organizations require independent legal/factual verification before action. The uploaded source itself is the controlling basis for this expansion. 
+> This expansion preserves the uploaded AMOS corpus artifact as **SOURCE_CLAIM**. It is an IP-governance model and planning document, **not jurisdiction-specific legal advice**. Statements in the source such as “strongest shield,” “highest possible protection,” company-location superiority, automatic coverage, patentability, export-control applicability, and comparisons with named organizations require independent legal/factual verification before action. The uploaded source itself is the controlling basis for this expansion.
 
 ---
 
@@ -141,7 +141,7 @@ Its protected-asset universe includes, according to the source:
 * kernels;
 * enterprise architectures;
 * national-scale system designs;
-* associated documentation and commercial implementations. 
+* associated documentation and commercial implementations.
 
 ---
 
@@ -297,7 +297,7 @@ The source asserts:
 * quantum-to-civilizational models;
 * cognition kernels;
 * emotional and behavioral state machines;
-* prediction and synchronization models. 
+* prediction and synchronization models.
 
 These numerical counts are **SOURCE_CLAIM**.
 
@@ -384,7 +384,7 @@ The source identifies:
 * world-model fusion;
 * workflow automation;
 * routing and entanglement graph engine;
-* OS kernel logic. 
+* OS kernel logic.
 
 Within this IP artifact, these are **claimed protected assets**.
 
@@ -432,7 +432,7 @@ Source examples include:
 * Directed Systemic Intelligence;
 * emotional mathematics;
 * somatic collapse models;
-* governance and national-risk systems. 
+* governance and national-risk systems.
 
 The source claims a library of more than 100 frameworks.
 
@@ -525,7 +525,7 @@ for:
 * algorithms;
 * kernels;
 * equations;
-* methods. 
+* methods.
 
 This should be interpreted as the source's strategic recommendation, not a universal legal ranking.
 
@@ -544,7 +544,7 @@ The artifact proposes:
 * strict NDAs;
 * compartmentalization;
 * access audit logs;
-* secure operator environment. 
+* secure operator environment.
 
 ---
 
@@ -920,7 +920,7 @@ The source recommends copyright protection for:
 * OS design;
 * documentation;
 * code;
-* architecture specifications. 
+* architecture specifications.
 
 It references Australia, the United States, the European Union, and Berne Convention coverage.
 
@@ -1098,7 +1098,7 @@ Candidates named include:
 * cognition kernel and routing engine;
 * biological-computational programming paradigm;
 * entanglement graph routing;
-* multi-domain inference engine. 
+* multi-domain inference engine.
 
 These are **patent candidates**, not patentability conclusions.
 
@@ -1336,7 +1336,7 @@ The source lists:
 * Bio-Logical Intelligence Systems;
 * Unified Biological Intelligence;
 * Somatic Intelligence;
-* Directed Systemic Intelligence. 
+* Directed Systemic Intelligence.
 
 These are candidate marks, not proof of registrability, availability, ownership, or registration.
 
@@ -1417,7 +1417,7 @@ The source proposes:
 * isolated VM;
 * separation of commercial and scientific layers;
 * restricted mathematics-engine access;
-* OS-level identity boundaries. 
+* OS-level identity boundaries.
 
 ---
 
@@ -1618,7 +1618,7 @@ or Singapore
 or Delaware
 ```
 
-and states that a Vietnamese entity should not own core IP but license it. 
+and states that a Vietnamese entity should not own core IP but license it.
 
 This is a consequential legal/tax recommendation and must remain:
 
@@ -1785,7 +1785,7 @@ The artifact proposes four levels:
 1. Research License
 2. Enterprise License
 3. National License
-4. Strategic Alliance License. 
+4. Strategic Alliance License.
 
 ---
 
@@ -2011,7 +2011,7 @@ The artifact states that the AI OS may be dual-use and references:
 
 * Australian Defence Trade Controls legislation;
 * US EAR restrictions;
-* EU dual-use regulation. 
+* EU dual-use regulation.
 
 This is correctly treated as a **risk flag**, not a conclusion that AMOS is legally controlled.
 
@@ -2105,7 +2105,7 @@ The source requests:
 * licensing agreements;
 * JDA;
 * Research Collaboration Agreement;
-* Consultant Restrictions Agreement. 
+* Consultant Restrictions Agreement.
 
 ---
 
@@ -2397,7 +2397,7 @@ Source actions include:
 * begin copyright-related work;
 * begin trademark registrations;
 * establish private Git and vault;
-* prepare NDAs. 
+* prepare NDAs.
 
 A safer ordering is:
 
@@ -2483,7 +2483,7 @@ Source:
 * licensing framework;
 * enterprise/national license models;
 * commercial documentation;
-* investor/legal data room. 
+* investor/legal data room.
 
 ---
 
@@ -3313,7 +3313,7 @@ This should not be elevated into canonical verified fact.
 
 The strongest supportable conclusion from the artifact is:
 
-> The source proposes a comprehensive defense-in-depth strategy for protecting the AMOS corpus through a combination of trade-secret governance, copyright, selective patenting, trademark protection, technical security, controlled corporate ownership, layered licensing, export-control review, and contractual instruments. 
+> The source proposes a comprehensive defense-in-depth strategy for protecting the AMOS corpus through a combination of trade-secret governance, copyright, selective patenting, trademark protection, technical security, controlled corporate ownership, layered licensing, export-control review, and contractual instruments.
 
 Class:
 

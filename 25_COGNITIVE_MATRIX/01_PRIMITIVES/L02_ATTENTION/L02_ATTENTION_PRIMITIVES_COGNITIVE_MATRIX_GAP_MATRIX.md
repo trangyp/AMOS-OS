@@ -26,10 +26,10 @@ rscf:
 
 # L02_ATTENTION — Gap Matrix
 
-**Class:** `COGNITIVE_PRIMITIVE_GAP_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `GAP_MATRIX.md`  
+**Class:** `COGNITIVE_PRIMITIVE_GAP_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `GAP_MATRIX.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** `L02_ATTENTION` is source-supported at the primitive level as attention allocation over scarce reasoning/observation resources. This artifact records what is established, modeled, unresolved, or validation-blocked. A populated matrix does not convert a gap into implementation or validation.

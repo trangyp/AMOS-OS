@@ -19,6 +19,9 @@ tags:
   - epistemic_regime
   - scope_control
   - interface_layer
+  - rscf/C-constraint
+  - rscf/B-boundary
+  - rscf/type-process
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

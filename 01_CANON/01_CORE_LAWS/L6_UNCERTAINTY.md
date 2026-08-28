@@ -28,11 +28,11 @@ rscf:
 
 # L6 Uncertainty Laws
 
-**Origin architect / steward:** Trang Phan  
-**Layer:** `01_CANON / 01_CORE_LAWS / L6_UNCERTAINTY`  
-**Artifact class:** `CORE_LAW_CONTRACT`  
-**Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`  
-**Canonical status:** `CONDITIONAL`  
+**Origin architect / steward:** Trang Phan
+**Layer:** `01_CANON / 01_CORE_LAWS / L6_UNCERTAINTY`
+**Artifact class:** `CORE_LAW_CONTRACT`
+**Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`
+**Canonical status:** `CONDITIONAL`
 **Implementation status:** `LOGIC_EXECUTABLE_IN_PART`
 
 > L6 governs how AMOS represents, propagates, constrains, compares, reduces, preserves, and invalidates uncertainty.

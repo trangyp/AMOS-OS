@@ -2691,7 +2691,7 @@ process.
 
 ```
 
-This version is deliberately stricter than the earlier draft: it does **not** pretend the twelve exact generator identities were recovered from Drive, because the canonical folder currently exposes only the builder script in the available listing. The twelve named slots above are therefore functional contract slots pending authoritative registry/version evidence. 
+This version is deliberately stricter than the earlier draft: it does **not** pretend the twelve exact generator identities were recovered from Drive, because the canonical folder currently exposes only the builder script in the available listing. The twelve named slots above are therefore functional contract slots pending authoritative registry/version evidence.
 ```
 
 ---
@@ -2713,6 +2713,3 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
-```
-
-```

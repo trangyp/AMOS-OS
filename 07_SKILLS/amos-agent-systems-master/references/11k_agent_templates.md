@@ -63,12 +63,12 @@ steward: Trang Phan
 
 # AMOS Agent Templates
 
-> **Version:** `2.0.0`  
-> **Schema Version:** `1.0.0`  
-> **Protocol Version:** `1.0.0`  
-> **AMOS_CORE Target:** `v4.4`  
-> **Origin Architect:** Trang Phan  
-> **Classification:** `STRUCTURAL_MODEL`  
+> **Version:** `2.0.0`
+> **Schema Version:** `1.0.0`
+> **Protocol Version:** `1.0.0`
+> **AMOS_CORE Target:** `v4.4`
+> **Origin Architect:** Trang Phan
+> **Classification:** `STRUCTURAL_MODEL`
 > **RSCF State:** `SOURCE_CLAIM`
 
 ---

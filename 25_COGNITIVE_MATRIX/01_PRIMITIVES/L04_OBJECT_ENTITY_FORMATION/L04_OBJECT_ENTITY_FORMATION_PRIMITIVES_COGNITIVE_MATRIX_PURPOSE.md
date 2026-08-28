@@ -25,10 +25,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — Purpose
 
-**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `PURPOSE.md`  
+**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `PURPOSE.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Source / Canon Boundary
@@ -41,9 +41,9 @@ identity resolution;
 entity persistence.
 ```
 
-It explicitly identifies the current L04 material as a **non-canonical placeholder**, says it must not invent missing canon, equations, thresholds, empirical claims, or implementation status, and requires definition/scope, purpose/non-purpose, state, operators, invariants, H/M/L applicability, interfaces, dependencies/provenance, failure/repair, tests/falsifiers, governance, freshness/regime validity, and version lineage before promotion. 
+It explicitly identifies the current L04 material as a **non-canonical placeholder**, says it must not invent missing canon, equations, thresholds, empirical claims, or implementation status, and requires definition/scope, purpose/non-purpose, state, operators, invariants, H/M/L applicability, interfaces, dependencies/provenance, failure/repair, tests/falsifiers, governance, freshness/regime validity, and version lineage before promotion.
 
-It further states that current content remains `UNKNOWN/GAP` until filled from recoverable AMOS/Trang lineage or explicitly approved new specification, and must not be promoted to `CANON`, `VERIFIED`, or implementation-complete status until dependencies, provenance, scope, regime, tests, and authority are established. 
+It further states that current content remains `UNKNOWN/GAP` until filled from recoverable AMOS/Trang lineage or explicitly approved new specification, and must not be promoted to `CANON`, `VERIFIED`, or implementation-complete status until dependencies, provenance, scope, regime, tests, and authority are established.
 
 Therefore:
 

@@ -26,9 +26,9 @@ rscf:
 
 # L4 Causal Laws
 
-**Origin architect / steward:** Trang Phan  
-**Layer:** `01_CANON / 01_CORE_LAWS / L4_CAUSAL`  
-**Artifact class:** `CORE_LAW_CONTRACT`  
+**Origin architect / steward:** Trang Phan
+**Layer:** `01_CANON / 01_CORE_LAWS / L4_CAUSAL`
+**Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `AMOS_MODEL — requires canon approval / provenance validation`
 
 > L4 governs what AMOS is permitted to claim, infer, preserve, invalidate, or act upon as a causal relationship.

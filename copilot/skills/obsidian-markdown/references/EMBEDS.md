@@ -25,3 +25,5 @@ Obsidian query block:
 tag:#project status:done
 ~~~
 ~~~~
+
+[[_MOC]]

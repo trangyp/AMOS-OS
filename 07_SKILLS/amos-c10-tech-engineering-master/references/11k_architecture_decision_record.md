@@ -36,7 +36,7 @@ This document captures all significant architectural decisions made during the C
 
 **Decision**: Use monorepo with turbo for task orchestration and npm workspaces for package management.
 
-**Rationale**: 
+**Rationale**:
 - Enables shared `packages/domain`, `packages/audio`, `packages/art-engine`
 - Single source of truth for types and tokens
 - Unified testing and type checking

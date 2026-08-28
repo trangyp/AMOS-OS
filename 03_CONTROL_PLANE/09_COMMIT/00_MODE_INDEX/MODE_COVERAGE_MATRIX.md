@@ -16,7 +16,7 @@ rscf:
 ---
 # MODE COVERAGE MATRIX
 
-`MODE_COVERAGE_MATRIX.md` in Drive is currently only the generic placeholder, so there is no substantive canonical matrix to reproduce verbatim. 
+`MODE_COVERAGE_MATRIX.md` in Drive is currently only the generic placeholder, so there is no substantive canonical matrix to reproduce verbatim.
 
 ---
 artifact_id: AMOS-OS-MODE-COVERAGE-MATRIX

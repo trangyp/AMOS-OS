@@ -25,12 +25,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — State
 
-**Class:** `COGNITIVE_PRIMITIVE_STATE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `STATE.md`  
-**Role:** `OBSERVATION STATE / TRANSITION / VALIDITY / LIFECYCLE CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_STATE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `STATE.md`
+**Role:** `OBSERVATION STATE / TRANSITION / VALIDITY / LIFECYCLE CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this artifact defines the proposed state architecture for `L01_SENSING_OBSERVATION`. It specifies how sensing and observation state is represented, transitioned, validated, versioned, invalidated, superseded, quarantined, and propagated. Exact canonical L01 state names, transition rules, runtime schemas, synchronization semantics, and implementation remain subject to direct-canon confirmation and executable validation.

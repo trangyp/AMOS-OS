@@ -23,7 +23,7 @@ rscf:
 **Status:** `STRUCTURAL CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `MODEL / CONDITIONAL`
 
-> **Critical provenance boundary:** the current Primitive Registry explicitly marks `L00 — REALITY_ENVIRONMENT` source maturity as `missing`. Therefore this document defines a conservative AMOS state contract derived from higher-order AMOS architecture and invariants. It must not be represented as recovered L00 source canon. 
+> **Critical provenance boundary:** the current Primitive Registry explicitly marks `L00 — REALITY_ENVIRONMENT` source maturity as `missing`. Therefore this document defines a conservative AMOS state contract derived from higher-order AMOS architecture and invariants. It must not be represented as recovered L00 source canon.
 
 ---
 

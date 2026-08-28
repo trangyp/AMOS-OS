@@ -32,7 +32,7 @@ rscf:
 ## Executive Summary
 
 
-### Key Achievements **Multi-Scale Tensor Field**: 8-dimensional tensor field representation **Agent Modeling**: Complete agent representation with A_i = (resources, incentives, constraints, network, information, enforcementExposure, leverage, entropyPosition) **Gradient Analysis**: ∇S tensor field gradient computation **Eigenvalue Decomposition**: Interaction matrix eigenanalysis **Asymmetry Detection**: M_{ij} asymmetry tensor anomaly detection **Structural Invariants**: ∂S/∂t = 0 invariant discovery **Exploitation Analysis**: E = f(Ambiguity, LowPenalty, NetworkAsymmetry, RecourseCapture, EnforcementLag, EntropyGradient) **Deterministic Risk Scoring**: R = ∑ w_k X_k with validated tensor deltas 
+### Key Achievements **Multi-Scale Tensor Field**: 8-dimensional tensor field representation **Agent Modeling**: Complete agent representation with A_i = (resources, incentives, constraints, network, information, enforcementExposure, leverage, entropyPosition) **Gradient Analysis**: ∇S tensor field gradient computation **Eigenvalue Decomposition**: Interaction matrix eigenanalysis **Asymmetry Detection**: M_{ij} asymmetry tensor anomaly detection **Structural Invariants**: ∂S/∂t = 0 invariant discovery **Exploitation Analysis**: E = f(Ambiguity, LowPenalty, NetworkAsymmetry, RecourseCapture, EnforcementLag, EntropyGradient) **Deterministic Risk Scoring**: R = ∑ w_k X_k with validated tensor deltas
 
 ---
 
@@ -48,7 +48,7 @@ S_t = T(Agents, Signals, Power, Incentives, Enforcement, Information, Constraint
 
 #### Tensor Field Dimensions
 - **Agents**: 20-dimensional agent space
-- **Signals**: 10-dimensional signal space 
+- **Signals**: 10-dimensional signal space
 - **Power**: 8-dimensional power distribution
 - **Incentives**: 6-dimensional incentive structure
 - **Total Shape**: (20, 10, 8, 6) = 9,600 tensor elements

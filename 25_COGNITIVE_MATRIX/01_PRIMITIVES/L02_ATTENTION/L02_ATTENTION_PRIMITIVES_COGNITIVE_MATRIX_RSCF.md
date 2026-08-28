@@ -16,7 +16,7 @@ rscf:
 ---
 # L02 ATTENTION PRIMITIVES COGNITIVE MATRIX RSCF
 
-The direct `L02_ATTENTION` source currently exposes only the placeholder: it defines L02 as **attention allocation / budgeting scarce reasoning-observation resources** and explicitly requires **RSCF/GMEF links, provenance, repair, tests, governance, freshness, and version lineage** before promotion. No canonical `RSCF.md` was recovered, so the detailed capsule below is intentionally classified as `AMOS_MODEL`, with unresolved canon/runtime fields left visible. 
+The direct `L02_ATTENTION` source currently exposes only the placeholder: it defines L02 as **attention allocation / budgeting scarce reasoning-observation resources** and explicitly requires **RSCF/GMEF links, provenance, repair, tests, governance, freshness, and version lineage** before promotion. No canonical `RSCF.md` was recovered, so the detailed capsule below is intentionally classified as `AMOS_MODEL`, with unresolved canon/runtime fields left visible.
 
 ---
 tags:
@@ -29,7 +29,7 @@ tags:
   - provenance
   - governance
 
-title: "L02_ATTENTION — RSCF"
+title: L02_ATTENTION — RSCF
 origin_architect: "Trang Phan"
 status: "MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED"
 epistemic_class: "MODEL"
@@ -38,10 +38,10 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 # L02_ATTENTION — RSCF
 
-**Class:** `COGNITIVE_PRIMITIVE_RSCF_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `RSCF.md`  
+**Class:** `COGNITIVE_PRIMITIVE_RSCF_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `RSCF.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** direct L02 source currently supports the primitive role—attention allocation and budgeting scarce reasoning/observation resources—and requires an RSCF integration surface before promotion. The detailed RSCF graph, node IDs, equations, confidence rules, reuse semantics, and runtime mappings below are an AMOS model completion unless independently recovered from direct canon or executable evidence.

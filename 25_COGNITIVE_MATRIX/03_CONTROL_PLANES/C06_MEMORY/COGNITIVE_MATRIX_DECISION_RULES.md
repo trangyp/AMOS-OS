@@ -16,10 +16,10 @@ rscf:
 
 # C06 — Decision Rules
 
-**Package:** `C06_MEMORY`  
-**Class:** `COGNITIVE_MATRIX_CONTRACT`  
-**Epistemic class:** `DERIVED / MODEL EXTENSION`  
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Package:** `C06_MEMORY`
+**Class:** `COGNITIVE_MATRIX_CONTRACT`
+**Epistemic class:** `DERIVED / MODEL EXTENSION`
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
 **Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
 ## Scope

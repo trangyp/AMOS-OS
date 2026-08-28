@@ -27,10 +27,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Protocols
 
-**Class:** `COGNITIVE_PRIMITIVE_PROTOCOL_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `PROTOCOLS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_PROTOCOL_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `PROTOCOLS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ---

@@ -49,9 +49,9 @@ aliases:
 ---
 
 # K STRUCTURAL REASONING
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_STRUCTURAL_REASONING` defines the kernel-level contract for reasoning about the structure of a problem before attempting substantive resolution.

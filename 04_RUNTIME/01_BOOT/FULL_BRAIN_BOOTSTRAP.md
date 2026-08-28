@@ -66,7 +66,7 @@ epistemic_boundary:
 # 1. 7-Stage Bootstrap Sequence
 
 ```text
-  Stage 0: Null-State Root ($S_0$) 
+  Stage 0: Null-State Root ($S_0$)
      │ (Conserves energy and invariant baseline)
      ▼
   Stage 1: Reality Gate Licensing ($P \to D \to R$)

@@ -25,10 +25,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — State
 
-**Class:** `COGNITIVE_PRIMITIVE_STATE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `STATE.md`  
+**Class:** `COGNITIVE_PRIMITIVE_STATE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `STATE.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose
@@ -37,7 +37,7 @@ Define the governed state contract for `L04_OBJECT_ENTITY_FORMATION`.
 
 L04 state represents the minimum typed information required to transform admitted perceptual material into provisional object/entity representations while preserving distinction, boundary, relation, binding, continuity, identity hypotheses, provenance, uncertainty, competing interpretations, and governance state.
 
-The AMOS kernel requires nontrivial reasoning to preserve typed state, proof/dependency structure, provenance, authority, scope/regime/freshness boundaries, competing hypotheses, and selective invalidation rather than relying on free-form conclusions. 
+The AMOS kernel requires nontrivial reasoning to preserve typed state, proof/dependency structure, provenance, authority, scope/regime/freshness boundaries, competing hypotheses, and selective invalidation rather than relying on free-form conclusions.
 
 This document therefore defines a **candidate AMOS state model**. It does not establish that the state structure is canonically specified, implemented, or empirically validated.
 

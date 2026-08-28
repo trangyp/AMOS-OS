@@ -16,10 +16,10 @@ rscf:
 
 # AMOS Cognitive Matrix Placeholder Seed Status
 
-**Origin architect / steward:** Trang Phan  
-**Artifact class:** `STRUCTURAL_SEED_STATUS`  
-**Current status:** `PARTIAL_STRUCTURAL_SEED`  
-**Epistemic class:** `DERIVED`  
+**Origin architect / steward:** Trang Phan
+**Artifact class:** `STRUCTURAL_SEED_STATUS`
+**Current status:** `PARTIAL_STRUCTURAL_SEED`
+**Epistemic class:** `DERIVED`
 **Updated:** `2026-08-25`
 
 ---

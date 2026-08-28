@@ -3772,7 +3772,7 @@ no autonomous world action
 without external executor
 ```
 
-as a capability boundary. 
+as a capability boundary.
 
 Therefore:
 
@@ -5654,11 +5654,8 @@ claim_class: AMOS_MODEL
 
 ```
 
-**Conclusion class:** `DERIVED / CONDITIONAL`. P5 now functions as the full **governance, authority, delegation, approval, commitment, execution-control, revocation, accountability, and audit plane** after P4. The decisive AMOS boundary remains that architectural capability or model intelligence never independently grants execution authority; the Full Brain source explicitly preserves the lack of autonomous world action without an external executor. 
+**Conclusion class:** `DERIVED / CONDITIONAL`. P5 now functions as the full **governance, authority, delegation, approval, commitment, execution-control, revocation, accountability, and audit plane** after P4. The decisive AMOS boundary remains that architectural capability or model intelligence never independently grants execution authority; the Full Brain source explicitly preserves the lack of autonomous world action without an external executor.
 ```
 
 ---
 **MOC:** [[02_UNIVERSE_CANON_MOC]]
-```
-
-```

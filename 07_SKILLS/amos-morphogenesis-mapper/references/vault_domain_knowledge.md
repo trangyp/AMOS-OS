@@ -238,7 +238,7 @@ Its role is to:
 
 The wearable therefore acts as an **observation substrate**, while Omnis OS remains the higher-order state, trajectory, pattern, forecasting, memory, and governance layer.
 
-The source corpus describes Omnis around system-state forecasting, C–V–P–T dynamics, TTS temporal reasoning, SLC-7 cycles, biometrics, environmental/context signals, recovery mapping, resilience forecasting, and non-medical product positioning. 
+The source corpus describes Omnis around system-state forecasting, C–V–P–T dynamics, TTS temporal reasoning, SLC-7 cycles, biometrics, environmental/context signals, recovery mapping, resilience forecasting, and non-medical product positioning.
 
 ---
 

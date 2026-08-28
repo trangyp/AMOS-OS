@@ -25,10 +25,10 @@ rscf:
 
 # L02_ATTENTION — Failure Modes
 
-**Class:** `COGNITIVE_PRIMITIVE_FAILURE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `FAILURE_MODES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_FAILURE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `FAILURE_MODES.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** The recovered L02 source supports attention as allocation of scarce reasoning/observation resources. The detailed failure taxonomy below is a governed `AMOS_MODEL` completion unless a failure mode is explicitly traceable to source canon or a governing AMOS invariant.

@@ -233,7 +233,7 @@ Tools and dashboards used in TCJ
 How to operationalize the dashboards
 
 Sample dashboards generated in DevOps toolings
-How do we 
+How do we
 Sample tools for measuring Sustainability
 ensure
 program is

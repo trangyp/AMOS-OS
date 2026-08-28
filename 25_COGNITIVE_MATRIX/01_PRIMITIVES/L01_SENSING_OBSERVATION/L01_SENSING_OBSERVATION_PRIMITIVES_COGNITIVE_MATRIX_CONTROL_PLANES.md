@@ -38,12 +38,12 @@ tags:
 
 # L01_SENSING_OBSERVATION — Control Planes
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTROL_PLANE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `CONTROL_PLANES.md`  
-**Status:** `STRUCTURAL CONTROL-PLANE CONTRACT / SOURCE-GAP BOUNDED`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTROL_PLANE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `CONTROL_PLANES.md`
+**Status:** `STRUCTURAL CONTROL-PLANE CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `MODEL / CONDITIONAL`
 
 > **Canon boundary:** The supplied placeholder establishes the required contract surface and hard boundaries but does not itself establish an authoritative executable L01 control-plane implementation. The architecture below conservatively applies AMOS control-plane, provenance, authority, evidence, freshness, RSCF, selective-invalidation, and commit-gating principles to L01 sensing and observation. It must not be represented as verified runtime behavior until implementation and executable validation evidence exist.

@@ -41,7 +41,6 @@ tags:
   - c01
   - c10
   - canon/knowledge
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

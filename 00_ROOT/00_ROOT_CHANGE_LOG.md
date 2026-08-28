@@ -1470,14 +1470,14 @@ Recommended human-readable entry:
 ```markdown
 ## AMOS-CHG-YYYY-NNNNNN — <title>
 
-**State:** PROPOSED | VALIDATED | AUTHORIZED | COMMITTED | REJECTED | REVERTED  
-**Class:** <change class>  
-**Target:** <artifact/subsystem>  
-**Prior version:** <version>  
-**New version:** <version>  
-**Proposer:** <principal>  
-**Authority:** <authority reference>  
-**Risk:** <risk class>  
+**State:** PROPOSED | VALIDATED | AUTHORIZED | COMMITTED | REJECTED | REVERTED
+**Class:** <change class>
+**Target:** <artifact/subsystem>
+**Prior version:** <version>
+**New version:** <version>
+**Proposer:** <principal>
+**Authority:** <authority reference>
+**Risk:** <risk class>
 **Reversibility:** <class>
 
 ### Reason

@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Canon Integration Layer (CIL) Model"
+title: AMOS Canon Integration Layer (CIL) Model
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "brain_model"
@@ -42,7 +42,7 @@ The Canon Integration Layer (CIL) is the orchestration fabric that binds togethe
 ### Key Components
 
 #### 1. Cross-Canon Mapping
-Defines the translation protocols when moving data between distinct engines. 
+Defines the translation protocols when moving data between distinct engines.
 - Example: Translating a biological pathology risk (from the Biology & Cognition Engine) into an organizational systemic risk (in the Org Governance Engine).
 
 #### 2. Conflict Resolution

@@ -17,14 +17,14 @@ rscf:
 # AMOS Infrastructure, Full Brain OS, Agents & Skills Architecture
 ## Round 11 — Governed Architecture Summary
 
-**Origin architect / steward:** Trang Phan  
-**Document type:** Architecture synthesis and implementation-status report  
-**Conclusion class:** **DERIVED**  
-**Governed AMOS_CORE baseline:** **v4.4** unless a later candidate is explicitly admitted  
+**Origin architect / steward:** Trang Phan
+**Document type:** Architecture synthesis and implementation-status report
+**Conclusion class:** **DERIVED**
+**Governed AMOS_CORE baseline:** **v4.4** unless a later candidate is explicitly admitted
 **Package basis:** `final_skill_package_amos_infrastructure_round11/skill.zip`
 
-> This document summarizes the current AMOS infrastructure model encoded in the validated Skill package.  
-> AMOS/Trang corpus statements are preserved as **SOURCE_CLAIM / MODEL** unless separately supported by executable or external evidence.  
+> This document summarizes the current AMOS infrastructure model encoded in the validated Skill package.
+> AMOS/Trang corpus statements are preserved as **SOURCE_CLAIM / MODEL** unless separately supported by executable or external evidence.
 > Open-source systems are implementation analogues, not AMOS canon.
 
 ---
@@ -1036,40 +1036,40 @@ The A2A/MCP-style contracts need actual network/runtime enforcement to become de
 
 ## 26. Recommended Next Engineering Sequence
 
-1. **Runtime schema package**  
+1. **Runtime schema package**
    Define machine-readable schemas for Task, Agent, Grant, Evidence, Artifact, Checkpoint, PolicyDecision, and EffectReceipt.
 
-2. **Persistent task service**  
+2. **Persistent task service**
    Implement task state, leases, fencing epochs, cancellation, joins, retry policies, and budget accounting.
 
-3. **Capability service**  
+3. **Capability service**
    Implement grant issuance, attenuation, delegation, revocation, expiry, and commit-time checks.
 
-4. **Agent registry**  
+4. **Agent registry**
    Register agent roles, versions, schemas, capabilities, dependencies, and failure modes.
 
-5. **Skill registry**  
+5. **Skill registry**
    Treat Skills as versioned deployable capability modules with compatibility and authority metadata.
 
-6. **Provenance/evidence graph**  
+6. **Provenance/evidence graph**
    Store evidence identity, ancestry, contradictions, freshness, regimes, falsifiers, and derivations.
 
-7. **Typed memory fabric**  
+7. **Typed memory fabric**
    Separate operational, working, evidence, and canonical memory.
 
-8. **Policy decision service**  
+8. **Policy decision service**
    Move consequential governance into deterministic policy evaluation where practical.
 
-9. **Effect gateway**  
+9. **Effect gateway**
    Bind actual API/DB/GitHub/cloud effects to fresh capability and policy decisions.
 
-10. **Durable orchestration**  
+10. **Durable orchestration**
     Add resumable, crash-safe long-running workflows.
 
-11. **Observability**  
+11. **Observability**
     Trace request → Full Brain → agent → Skill → policy → effect → receipt.
 
-12. **Adversarial evaluation**  
+12. **Adversarial evaluation**
     Continue property, mutation, concurrency, replay, stale-state, authorization, and protocol compatibility testing.
 
 ---

@@ -29,11 +29,11 @@ rscf:
 
 # L7 Authority Boundary Laws
 
-**Origin architect / steward:** Trang Phan  
-**Layer:** `01_CANON / 01_CORE_LAWS / L7_AUTHORITY`  
-**Artifact class:** `CORE_LAW_CONTRACT`  
-**Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`  
-**Canonical status:** `CONDITIONAL`  
+**Origin architect / steward:** Trang Phan
+**Layer:** `01_CANON / 01_CORE_LAWS / L7_AUTHORITY`
+**Artifact class:** `CORE_LAW_CONTRACT`
+**Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`
+**Canonical status:** `CONDITIONAL`
 **Implementation status:** `LOGIC_EXECUTABLE_IN_PART`
 
 > L7 governs who or what may authorize an AMOS action, which authority is valid for which effect, how authority is delegated and attenuated, when authority expires or is revoked, and what evidence must exist before a proposed effect may become a commitment.

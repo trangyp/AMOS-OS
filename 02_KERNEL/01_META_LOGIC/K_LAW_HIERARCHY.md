@@ -44,10 +44,10 @@ aliases:
 ---
 
 # K_LAW_HIERARCHY
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_LAW_HIERARCHY` defines the deterministic precedence model used when multiple AMOS laws, invariants, constraints, policies, rules, or instructions are simultaneously applicable.

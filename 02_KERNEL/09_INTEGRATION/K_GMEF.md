@@ -17,10 +17,10 @@ rscf:
 
 # K GMEF
 
-> **GMEF:** Governed Meta-Evolution Framework  
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Status:** `AMOS_MODEL`  
+> **GMEF:** Governed Meta-Evolution Framework
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `MODEL`
 
 ## 1. Purpose
@@ -2851,7 +2851,7 @@ I have deliberately kept implementation claims such as persistent governance gra
 ```
 Yes. The previous version was too synthetic. I checked the actual GMEF source directly, and there is enough canonical material to make `K_GMEF` substantially deeper and source-traceable.
 
-One important provenance correction first: the standalone source defines **GMEF = Governed Machine Evolution Framework**, while a later AMOS implementation note calls the runtime module **Governance Mutation Evaluation Framework**. Those should not be silently collapsed. The former is the formal structural framework; the latter is an implementation-specific gate/module description.  
+One important provenance correction first: the standalone source defines **GMEF = Governed Machine Evolution Framework**, while a later AMOS implementation note calls the runtime module **Governance Mutation Evaluation Framework**. Those should not be silently collapsed. The former is the formal structural framework; the latter is an implementation-specific gate/module description.
 
 ---
 artifact_id: AMOS-OS-K-GMEF
@@ -2882,10 +2882,10 @@ updated: 2026-08-26
 
 # K GMEF
 
-> **Canonical framework:** Governed Machine Evolution Framework — GMEF  
-> **Origin / stewardship:** Trang Phan  
-> **Kernel target:** AMOS Core v4.4  
-> **Conclusion class:** `MODEL`  
+> **Canonical framework:** Governed Machine Evolution Framework — GMEF
+> **Origin / stewardship:** Trang Phan
+> **Kernel target:** AMOS Core v4.4
+> **Conclusion class:** `MODEL`
 > **Runtime implementation status:** mixed / separately evidenced
 
 ---
@@ -2915,7 +2915,7 @@ FORMAL VERIFICATION
 OF EVERY IMPLEMENTATION
 ```
 
-The source explicitly characterizes GMEF as independent of any particular product, model, company, deployment environment, or COSMO-specific implementation. 
+The source explicitly characterizes GMEF as independent of any particular product, model, company, deployment environment, or COSMO-specific implementation.
 
 ---
 
@@ -2960,7 +2960,7 @@ APPROVAL AUTHORITY
 DEPLOYMENT AUTHORITY
 ```
 
-These distinctions are explicit in the formal GMEF framework. 
+These distinctions are explicit in the formal GMEF framework.
 
 ---
 
@@ -2992,7 +2992,7 @@ TRACEABILITY
 REVERSIBLE CONTROL
 ```
 
-This is the semantic core of `K_GMEF`. 
+This is the semantic core of `K_GMEF`.
 
 ---
 
@@ -3075,7 +3075,7 @@ S_(t+1)
       successor state
 ```
 
-The order matters because GMEF specifically prohibits hidden promotion from proposal directly into production. 
+The order matters because GMEF specifically prohibits hidden promotion from proposal directly into production.
 
 ---
 
@@ -3117,7 +3117,7 @@ The mere existence of a mutated state does not make it a legitimate successor.
 
 # 5. GMEF Foundational Axioms
 
-The formal framework contains ten source-level foundational axioms. `K_GMEF` imports them structurally rather than replacing them with invented substitutes. 
+The formal framework contains ten source-level foundational axioms. `K_GMEF` imports them structurally rather than replacing them with invented substitutes.
 
 ## GME-1 — Capability is not authority
 
@@ -3330,7 +3330,7 @@ PROTECTED
 APPROVAL REQUIREMENTS
 ```
 
-These are examples from the formal framework, not claims that every AMOS deployment currently implements every one. 
+These are examples from the formal framework, not claims that every AMOS deployment currently implements every one.
 
 ---
 
@@ -3408,7 +3408,7 @@ GOVERNANCE
 CONSTITUTION
 ```
 
-unless a separate valid human-authorized constitutional revision process explicitly permits the change. 
+unless a separate valid human-authorized constitutional revision process explicitly permits the change.
 
 ---
 
@@ -3416,7 +3416,7 @@ unless a separate valid human-authorized constitutional revision process explici
 
 Every mutable object must first receive a mutation class.
 
-The formal source defines the following taxonomy exactly. 
+The formal source defines the following taxonomy exactly.
 
 ```text
 M0
@@ -3571,7 +3571,7 @@ PROPOSED
 PRODUCTION_GENERAL
 ```
 
-without governed intermediate transitions. 
+without governed intermediate transitions.
 
 ---
 
@@ -3599,7 +3599,7 @@ AFFECTED SCOPE
 ROLLBACK TARGET
 ```
 
-These are directly specified by GMEF. 
+These are directly specified by GMEF.
 
 Expanded kernel record:
 
@@ -3659,7 +3659,7 @@ EXPERIMENT CONSEQUENCE LEVEL
 CURRENT AUTHORIZATION
 ```
 
-A candidate must not be tested in an environment exceeding its existing authority. 
+A candidate must not be tested in an environment exceeding its existing authority.
 
 ---
 
@@ -3882,7 +3882,7 @@ UnauthorizedDataAccess
 AcceptableTradeoff
 ```
 
-These examples are explicit in the source framework. 
+These examples are explicit in the source framework.
 
 ---
 
@@ -4045,7 +4045,7 @@ SURVIVE BEYOND
 NOVELTY EFFECTS?
 ```
 
-These are source-level GMEF requirements. 
+These are source-level GMEF requirements.
 
 ---
 
@@ -4105,7 +4105,7 @@ Evidence
 
 This multiplication is explicitly a **structural compression**, not a validated quantitative law.
 
-Hard gates must not be averaged away. 
+Hard gates must not be averaged away.
 
 ---
 
@@ -4203,7 +4203,7 @@ PE(v)
 }
 ```
 
-A candidate may not autonomously expand its own propagation envelope. 
+A candidate may not autonomously expand its own propagation envelope.
 
 ---
 
@@ -4351,7 +4351,7 @@ Consequence
 Irreversibility
 ```
 
-This is a design relation, not a universal quantitative empirical law. 
+This is a design relation, not a universal quantitative empirical law.
 
 ---
 
@@ -4449,7 +4449,7 @@ S_2
 S_n
 ```
 
-Every active version must remain traceable to ancestry. 
+Every active version must remain traceable to ancestry.
 
 This integrates directly with:
 
@@ -4521,7 +4521,7 @@ Structural viability condition:
 R_t > dD/dt
 ```
 
-Again, this is a structural relation unless separately empirically validated. 
+Again, this is a structural relation unless separately empirically validated.
 
 ---
 
@@ -4549,7 +4549,7 @@ POLICY DRIFT
 HIDDEN COUPLING
 ```
 
-as potential degradation channels. 
+as potential degradation channels.
 
 ---
 
@@ -4574,7 +4574,7 @@ Governance
 Consequence
 ```
 
-This must not be interpreted as an empirical multiplication law. 
+This must not be interpreted as an empirical multiplication law.
 
 ---
 
@@ -4608,7 +4608,7 @@ from:
 LongTermDebtDelta
 ```
 
-A change may improve short-term performance while increasing long-term fragility. 
+A change may improve short-term performance while increasing long-term fragility.
 
 ---
 
@@ -4662,7 +4662,7 @@ GovernanceRequirement
 must not ↓
 ```
 
-and similarly for consequence and irreversibility. 
+and similarly for consequence and irreversibility.
 
 ---
 
@@ -4679,7 +4679,7 @@ THE GOVERNANCE OF
 PARAMETER MODIFICATION.
 ```
 
-This principle is explicit in the source. 
+This principle is explicit in the source.
 
 ---
 
@@ -4824,13 +4824,13 @@ REWRITE
 CONSTITUTIONAL CONSTRAINTS
 ```
 
-This follows directly from the source human-authority boundary. 
+This follows directly from the source human-authority boundary.
 
 ---
 
 # 53. H/M/L GMEF Mapping
 
-The formal GMEF framework includes an H/M/L structural mapping. 
+The formal GMEF framework includes an H/M/L structural mapping.
 
 ## L — Foundation
 
@@ -4893,7 +4893,7 @@ while preserving L.
 
 # 54. Minimum GMEF Components
 
-The formal framework specifies fourteen minimum components for a compliant implementation: 
+The formal framework specifies fourteen minimum components for a compliant implementation:
 
 ```text
 01 Change Registry
@@ -5081,7 +5081,7 @@ ROLLBACK CONFIDENCE ↓
 GOVERNANCE BURDEN ↑
 ```
 
-Faster adaptation therefore requires stronger observability, a governing principle stated directly by GMEF. 
+Faster adaptation therefore requires stronger observability, a governing principle stated directly by GMEF.
 
 ---
 
@@ -5163,7 +5163,7 @@ UNAFFECTED VALID WORK
 
 # 67. Audit Ledger
 
-For every active change, GMEF requires the ability to answer twenty audit questions. 
+For every active change, GMEF requires the ability to answer twenty audit questions.
 
 ```text
 1. What changed?
@@ -5329,7 +5329,7 @@ OF MACHINE AUTHORITY
 
 # 71. Failure Modes GMEF Explicitly Targets
 
-The source identifies the following failure families: 
+The source identifies the following failure families:
 
 ```text
 REWARD HACKING
@@ -5440,7 +5440,7 @@ MODEL AGREEMENT
 INDEPENDENT EVIDENCE
 ```
 
-through `K_PROVENANCE_TOPOLOGY` and `K_SYBIL_HARDENING`. 
+through `K_PROVENANCE_TOPOLOGY` and `K_SYBIL_HARDENING`.
 
 ---
 
@@ -5799,13 +5799,13 @@ M3 / M4 / M5
 → SANDBOX
 ```
 
-rather than direct production promotion. 
+rather than direct production promotion.
 
 ---
 
 # 89. Runtime Gate Placement
 
-That implementation note reports the GMEF mutation assessment gate positioned after authority-token validation and before skill selection / plan execution in the tested kernel path. 
+That implementation note reports the GMEF mutation assessment gate positioned after authority-token validation and before skill selection / plan execution in the tested kernel path.
 
 Conceptually:
 
@@ -5851,7 +5851,7 @@ kernel wiring
 authority integration
 ```
 
-It reports a broader 75-test authority/GMEF coverage set across dedicated test files and kernel integration tests. 
+It reports a broader 75-test authority/GMEF coverage set across dedicated test files and kernel integration tests.
 
 These are `OBSERVATION` claims from the implementation record.
 
@@ -5905,7 +5905,7 @@ rule:
 
 # 92. Governing Principles
 
-The formal source closes with ten governing principles. They should remain directly represented in `K_GMEF`. 
+The formal source closes with ten governing principles. They should remain directly represented in `K_GMEF`.
 
 ```text
 1.
@@ -6914,7 +6914,7 @@ supports:
   - governing principles
 ```
 
-Reference: 
+Reference:
 
 ## REF-GMEF-002 — AMOS kernel integration observation
 
@@ -6945,7 +6945,7 @@ does_not_by_itself_support:
   - universal Byzantine safety
 ```
 
-Reference: 
+Reference:
 
 ---
 

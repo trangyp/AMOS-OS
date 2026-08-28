@@ -132,14 +132,14 @@ Engine's confidence and constraints.
 
 ## Processing Pipeline — 9 Steps
 
-S1: Parse and recognise input  
-S2: Update internal state  
-S3: Select primary goal  
-S4: Select strategy profile  
-S5: Generate response plan  
-S6: Select tone and format  
-S7: Apply safety and boundaries  
-S8: Realise response in language  
+S1: Parse and recognise input
+S2: Update internal state
+S3: Select primary goal
+S4: Select strategy profile
+S5: Generate response plan
+S6: Select tone and format
+S7: Apply safety and boundaries
+S8: Realise response in language
 S9: Evaluate and tag for learning
 
 **S1 functions**: detect_language, extract_intent, extract_entities, detect_constraints, detect_emotion_signals_textual, detect_urgency_markers

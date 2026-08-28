@@ -70,10 +70,10 @@ tags:
 ---
 
 # AMOS OS Naming Standard
-> **Status:** `ACTIVE_STANDARD`  
-> **Standard version:** `1.0.0`  
-> **AMOS_CORE target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
+> **Status:** `ACTIVE_STANDARD`
+> **Standard version:** `1.0.0`
+> **AMOS_CORE target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
 > **Conclusion class:** `AMOS_MODEL`
 rscf:
   state: SOURCE_CLAIM
@@ -767,7 +767,7 @@ Executable schema version should appear in metadata:
 
 ```yaml
 schema_name: AGENT_SCHEMA
-schema_version: "2.0.0"
+schema_version: 2.0.0
 ```
 
 not be inferred from:
@@ -901,7 +901,7 @@ Example:
 ```yaml
 artifact_id: AMOS-OS-NAMING-STANDARD
 name: AMOS_OS_NAMING_STANDARD
-title: "AMOS OS Naming Standard — Canonical Identity and Namespace Governance"
+title: AMOS OS Naming Standard — Canonical Identity and Namespace Governance
 ```
 
 These may coexist because they serve different roles.
@@ -934,7 +934,7 @@ Example:
 ```yaml
 document_version: "2.0.0"
 component_version: "1.4.0"
-schema_version: "3.0.0"
+schema_version: 3.0.0
 amos_core_target: "v4.4"
 ```
 

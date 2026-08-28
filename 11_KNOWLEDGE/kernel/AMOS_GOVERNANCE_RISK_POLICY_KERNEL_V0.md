@@ -22,9 +22,9 @@ rscf:
 
 ## Kernel Metadata
 
-**Kernel Name:** AMOS_Governance_Risk_Policy_Kernel  
-**Version:** 1.0.0  
-**Category:** Governance_Risk  
+**Kernel Name:** AMOS_Governance_Risk_Policy_Kernel
+**Version:** 1.0.0
+**Category:** Governance_Risk
 **Source:** md/Kernels/Governance_Risk/AMOS_Governance_Risk_Policy_Kernel_v0.md
 
 ---

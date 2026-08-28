@@ -18,7 +18,7 @@ rscf:
 
 ```yaml
 ---
-title: "AMOS OS CANON Contract"
+title: AMOS OS CANON Contract
 artifact: "CANON_CONTRACT.md"
 artifact_id: "AMOS_CANON_CONTRACT_000"
 origin_architect: "Trang Phan"

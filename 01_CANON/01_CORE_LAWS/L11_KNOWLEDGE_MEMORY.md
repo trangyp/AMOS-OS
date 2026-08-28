@@ -26,9 +26,9 @@ rscf:
 
 # L11 Knowledge & Memory Laws
 
-**STATUS:** PROPOSED_SPECIFICATION  
-**epistemic_class:** AMOS_MODEL  
-**canonical_status:** CONDITIONAL  
+**STATUS:** PROPOSED_SPECIFICATION
+**epistemic_class:** AMOS_MODEL
+**canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
 ---

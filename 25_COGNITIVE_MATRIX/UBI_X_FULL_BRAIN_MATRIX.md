@@ -401,10 +401,10 @@ That gives a cross-matrix correspondence:
 
 $$
 \begin{aligned}
-UBI\times Cognition &: 
+UBI\times Cognition &:
 Load>0.85
 \rightarrow ContextCompaction\\
-UBI\times FullBrain &: 
+UBI\times FullBrain &:
 MemoryCapacity
 \rightarrow ContextCompaction
 \end{aligned}

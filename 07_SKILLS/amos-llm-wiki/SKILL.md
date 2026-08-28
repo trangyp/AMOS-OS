@@ -35,7 +35,7 @@ steward: Trang Phan
 
 ## Identity
 
-Origin architect: **Trang Phan**.  
+Origin architect: **Trang Phan**.
 Skill for maintaining an LLM-managed, compounding knowledge wiki inside the AMOS Obsidian vault, adapted from Karpathy's LLM Wiki pattern.
 
 **Epistemic class**: AMOS_MODEL (operational wiki-maintenance workflow).
@@ -57,13 +57,13 @@ Skill for maintaining an LLM-managed, compounding knowledge wiki inside the AMOS
 
 ## Examples
 
-- **User says:** "Ingest this PDF into the LLM Wiki"  
+- **User says:** "Ingest this PDF into the LLM Wiki"
   → Place it in `11_KNOWLEDGE/LLM_WIKI/raw/`, write a source-summary, update concept/entity pages, update `LLM_WIKI_INDEX`, and append `LLM_WIKI_LOG`.
 
-- **User says:** "What does the wiki say about X?"  
+- **User says:** "What does the wiki say about X?"
   → Read `LLM_WIKI_INDEX`, collect relevant pages, synthesize an answer with citations, optionally file the result into the wiki.
 
-- **User says:** "Lint the LLM Wiki"  
+- **User says:** "Lint the LLM Wiki"
   → Scan for orphans, broken wikilinks, stale claims, and missing concept pages; append findings to `LLM_WIKI_LOG`.
 
 ## Capabilities

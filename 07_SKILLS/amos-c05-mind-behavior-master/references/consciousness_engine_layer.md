@@ -21,7 +21,7 @@ rscf:
 
 ---
 
-title: "amos-consciousness-engine-layer"
+title: amos-consciousness-engine-layer
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "bridge"

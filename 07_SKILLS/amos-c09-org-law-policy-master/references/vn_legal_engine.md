@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS VN Legal Engine vInfinity"
+title: AMOS VN Legal Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_VN_Legal_Engine_v0.json (469 lines, 19.7KB)"
 origin_type: "SOURCE"

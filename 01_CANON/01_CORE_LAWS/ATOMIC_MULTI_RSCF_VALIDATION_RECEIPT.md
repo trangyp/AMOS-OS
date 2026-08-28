@@ -26,6 +26,8 @@ tags:
   - core_laws
   - canon
   - canon/universe
+  - rscf/type-evidence
+  - rscf/P-repair
 rscf:
   state: SOURCE_CLAIM
   claim_class: VALIDATION_RECEIPT

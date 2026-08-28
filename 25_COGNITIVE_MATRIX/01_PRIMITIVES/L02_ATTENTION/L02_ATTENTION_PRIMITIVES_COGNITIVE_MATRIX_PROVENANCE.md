@@ -19,7 +19,7 @@ rscf:
 # L02_ATTENTION — Provenance
 
 **Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Origin architect / steward:** Trang Phan  
+**Origin architect / steward:** Trang Phan
 **Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
 **Filled by:** governed normalization pass · **Date:** `2026-08-26`
 
@@ -37,9 +37,9 @@ Current source basis:
 * AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 * sibling L02 contracts where explicitly established
 
-The recovered L02 placeholder identifies the primitive as attention allocation over scarce reasoning/observation resources. 
+The recovered L02 placeholder identifies the primitive as attention allocation over scarce reasoning/observation resources.
 
-No canonical `PROVENANCE.md` has yet been recovered from the inspected `L02_ATTENTION` folder. The folder currently exposes the L02 placeholder rather than an independently validated provenance specification. 
+No canonical `PROVENANCE.md` has yet been recovered from the inspected `L02_ATTENTION` folder. The folder currently exposes the L02 placeholder rather than an independently validated provenance specification.
 
 Therefore:
 

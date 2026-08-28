@@ -26,10 +26,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Workflows
 
-**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `WORKFLOWS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `WORKFLOWS.md`
 **Status:** `AMOS_MODEL / UNVALIDATED`
 
 ## 0. Purpose

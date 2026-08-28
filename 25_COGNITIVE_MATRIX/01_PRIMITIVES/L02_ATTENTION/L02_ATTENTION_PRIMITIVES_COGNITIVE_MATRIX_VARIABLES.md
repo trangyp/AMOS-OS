@@ -27,10 +27,10 @@ rscf:
 
 # L02_ATTENTION — Variables
 
-**Class:** `COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `VARIABLES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `VARIABLES.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 > **Canon boundary:** available L02 source material supports attention allocation as the primitive role and identifies scarce reasoning/observation resources as its concern. The source also requires variables, dependencies, provenance, H/M/L, failure/repair, tests/falsifiers, and governance boundaries before promotion. A canonical L02 variable registry has not been recovered. Therefore variable identifiers, tensors, domains, update functions, thresholds, and equations introduced below are `AMOS_MODEL` unless separately source-bound.

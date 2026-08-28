@@ -42,9 +42,9 @@ aliases:
 ---
 
 # AMOS OS Source Lineage
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** `v4.4`  
-> **Conclusion class:** `AMOS_MODEL`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** `v4.4`
+> **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
 ## 1. Purpose
 `SOURCE_LINEAGE.md` defines how AMOS OS represents the ancestry, transformation, derivation, migration, consolidation, version evolution, and supersession of sources.

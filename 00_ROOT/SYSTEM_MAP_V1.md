@@ -77,8 +77,8 @@ aliases:
 
 # AMOS OS System Map
 **Origin architect / steward:** Trang Phan
-> **Status:** `ACTIVE_MAP`  
-> **AMOS_CORE target:** `v4.4`  
+> **Status:** `ACTIVE_MAP`
+> **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 rscf:
   state: SOURCE_CLAIM

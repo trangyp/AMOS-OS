@@ -15,7 +15,7 @@ rscf:
 ---
 
 
-# Trangs Legacy 
+# Trangs Legacy
 Under a 1000-year horizon, the objective changes completely.
 It is no longer:
   * max tax optimization
@@ -163,7 +163,7 @@ This is how dynastic institutions persist.
       Holds IP + governance         HK IPO / VN Tech / Products
             │                           │
       Funds the Institute           Generates cashflows
-    
+
 ```
 * * *
 # Money Logic Under 1000-Year Horizon
@@ -406,7 +406,7 @@ Institutions survive because rules are invariant.
                          │
                  IP + KNOWLEDGE VAULT
               (Non-saleable crown asset)
-    
+
 ```
 * * *
 # Where “Max Power” Comes From

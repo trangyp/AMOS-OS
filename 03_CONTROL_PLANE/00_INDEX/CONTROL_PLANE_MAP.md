@@ -18,7 +18,7 @@ rscf:
 Yes. Paste the following over the incorrect placeholder.
 
 ---
-title: "AMOS Control Plane Map"
+title: AMOS Control Plane Map
 artifact_id: "AMOS_OS/03_CONTROL_PLANE/00_INDEX/CONTROL_PLANE_MAP.md"
 origin_architect: "Trang Phan"
 artifact_class: "CONTROL_PLANE_INDEX"

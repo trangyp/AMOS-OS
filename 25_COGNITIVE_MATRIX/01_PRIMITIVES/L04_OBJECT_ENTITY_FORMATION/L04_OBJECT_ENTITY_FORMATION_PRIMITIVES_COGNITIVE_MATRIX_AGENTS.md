@@ -26,10 +26,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — Agents
 
-**Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `AGENTS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_AGENT_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `AGENTS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose

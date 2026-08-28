@@ -43,10 +43,10 @@ aliases:
 ---
 
 # K EVENT BUS
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_EVENT_BUS` defines the kernel-level semantic contract for representing, publishing, routing, consuming, validating, replaying, and tracing events across AMOS OS.

@@ -31,3 +31,5 @@
 | bug | — |
 | example | — |
 | quote | cite |
+
+[[_MOC]]

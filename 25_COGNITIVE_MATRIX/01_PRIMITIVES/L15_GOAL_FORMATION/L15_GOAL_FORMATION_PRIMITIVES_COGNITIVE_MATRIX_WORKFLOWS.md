@@ -16,10 +16,10 @@ rscf:
 
 # L15 — Workflows
 
-**Package:** `L15_GOAL_FORMATION`  
-**Class:** `COGNITIVE_MATRIX_CONTRACT`  
-**Epistemic class:** `DERIVED / MODEL EXTENSION`  
-**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`  
+**Package:** `L15_GOAL_FORMATION`
+**Class:** `COGNITIVE_MATRIX_CONTRACT`
+**Epistemic class:** `DERIVED / MODEL EXTENSION`
+**Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
 **Filled by:** governed generator `fill_matrix.py` · **Date:** `2026-08-26`
 
 ## Scope

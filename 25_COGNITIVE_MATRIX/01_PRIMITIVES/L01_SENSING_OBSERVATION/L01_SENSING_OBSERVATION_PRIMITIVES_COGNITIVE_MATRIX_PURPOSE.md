@@ -27,12 +27,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Purpose
 
-**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `PURPOSE.md`  
-**Role:** `REALITY-CONTACT / OBSERVATION-FORMATION / EVIDENCE-ENTRY PURPOSE CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `PURPOSE.md`
+**Role:** `REALITY-CONTACT / OBSERVATION-FORMATION / EVIDENCE-ENTRY PURPOSE CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this document defines the proposed purpose contract for `L01_SENSING_OBSERVATION`. It specifies why the primitive exists, what responsibilities belong within its declared scope, what must remain outside that scope, and what conditions must hold before L01 outputs may be consumed downstream. It does not establish that any sensing capability, observation mechanism, agent, workflow, validator, or control plane has been implemented or empirically validated.

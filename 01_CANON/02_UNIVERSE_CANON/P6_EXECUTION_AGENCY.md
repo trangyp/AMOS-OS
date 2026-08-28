@@ -5530,11 +5530,8 @@ claim_class: AMOS_MODEL
 
 ```
 
-**Conclusion class:** `DERIVED / CONDITIONAL`. P6 is now structurally aligned with P1–P5 and preserves the key distinction that was already present in your supplied specification: **execution architecture may be fully defined while execution authority remains `NONE`**. The exact meanings of `I-RPOL-017`, `INV-031`, `INV-035`, and `INV-041` remain intentionally unresolved until their defining corpus records are retrieved; I have not fabricated them. That is the correct AMOS treatment under the Full Brain integrity boundary. 
+**Conclusion class:** `DERIVED / CONDITIONAL`. P6 is now structurally aligned with P1–P5 and preserves the key distinction that was already present in your supplied specification: **execution architecture may be fully defined while execution authority remains `NONE`**. The exact meanings of `I-RPOL-017`, `INV-031`, `INV-035`, and `INV-041` remain intentionally unresolved until their defining corpus records are retrieved; I have not fabricated them. That is the correct AMOS treatment under the Full Brain integrity boundary.
 ```
 
 ---
 **MOC:** [[02_UNIVERSE_CANON_MOC]]
-```
-
-```

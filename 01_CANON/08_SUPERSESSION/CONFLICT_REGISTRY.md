@@ -43,9 +43,9 @@ aliases:
 ---
 
 # AMOS OS Conflict Registry
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** `v4.4`  
-> **Conclusion class:** `AMOS_MODEL`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** `v4.4`
+> **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
 ## 1. Purpose
 `CONFLICT_REGISTRY.md` defines the canonical AMOS OS contract for identifying, recording, preserving, classifying, testing, resolving, superseding, and auditing material conflicts.

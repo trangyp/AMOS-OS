@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS SUPER KERNEL & SUPER ENGINE — Unified Meta Operating System"
+title: AMOS SUPER KERNEL & SUPER ENGINE — Unified Meta Operating System
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Dsc/"
 origin_architect: "Trang Phan"

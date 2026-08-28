@@ -26,13 +26,13 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Gap Matrix
 
-**Class:** `COGNITIVE_PRIMITIVE_GAP_MATRIX_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `GAP_MATRIX.md`  
-**Role:** `STRUCTURAL COMPLETENESS / GAP CLASSIFICATION / PROMOTION READINESS / DEPENDENCY CLOSURE`  
-**Status:** `STRUCTURAL GAP CONTRACT / SOURCE-GAP BOUNDED`  
+**Class:** `COGNITIVE_PRIMITIVE_GAP_MATRIX_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `GAP_MATRIX.md`
+**Role:** `STRUCTURAL COMPLETENESS / GAP CLASSIFICATION / PROMOTION READINESS / DEPENDENCY CLOSURE`
+**Status:** `STRUCTURAL GAP CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `AMOS_MODEL / CONDITIONAL`
 
 > **Completeness boundary:** completeness in this document means completeness relative to a declared L01 architectural scope. It does not mean empirical truth, universal sensing completeness, runtime implementation, operational validation, or proof that all real sensing systems obey the proposed structure.

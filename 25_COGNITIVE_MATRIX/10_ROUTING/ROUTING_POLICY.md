@@ -108,8 +108,7 @@ System: **AMOS OS**
 ```md
 ---
 artifact_id: AMOS-CM-10-ROUTING-ROUTING-POLICY
-title: "10_ROUTING — Routing Policy"
-
+title: 10_ROUTING — Routing Policy
 path_target: "25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md"
 
 artifact_class: MATRIX_INFRASTRUCTURE_PLACEHOLDER
@@ -377,7 +376,7 @@ integrity
 
 in alignment with AMOS core law.
 
-The Full Brain OS source explicitly requires routing only to materially relevant domains rather than activating every nested engine by default, and it requires gaps to remain exposed rather than invented. 
+The Full Brain OS source explicitly requires routing only to materially relevant domains rather than activating every nested engine by default, and it requires gaps to remain exposed rather than invented.
 
 ---
 
@@ -2690,7 +2689,7 @@ source_canon:
     status: UNKNOWN/GAP
 ```
 
-The Full Brain OS source is the primary canon source for this Skill, but preserving its architecture does not establish external empirical validity or prove that this exact routing-policy runtime is implemented. 
+The Full Brain OS source is the primary canon source for this Skill, but preserving its architecture does not establish external empirical validity or prove that this exact routing-policy runtime is implemented.
 
 ---
 
@@ -3147,4 +3146,3 @@ claim_class: AMOS_MODEL
 ---
 
 **Related:** [[25_COGNITIVE_MATRIX_MOC]]
-

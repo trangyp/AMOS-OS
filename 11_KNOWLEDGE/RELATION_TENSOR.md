@@ -20,7 +20,7 @@ rscf:
 
 The **Relation Tensor** represents a relation between two AMOS objects as a typed, directed, confidence-bounded, provenance-aware state.
 
-The source corpus places **relation** early in the structural spine—after distinction and before constraint—and explicitly treats relation as a foundational component of the architecture.  The broader corpus likewise describes reality through distinctions, relations, constraints, transformations, and recursive memory. 
+The source corpus places **relation** early in the structural spine—after distinction and before constraint—and explicitly treats relation as a foundational component of the architecture.  The broader corpus likewise describes reality through distinctions, relations, constraints, transformations, and recursive memory.
 
 The canonical tensor proposed here is:
 
@@ -123,7 +123,7 @@ CausalRelation
 }
 ]
 
-The AMOS_CORE lineage reinforces this separation through explicit causal lineage, epistemic regimes, competing hypotheses, and provenance topology rather than allowing relational similarity alone to settle causal questions. 
+The AMOS_CORE lineage reinforces this separation through explicit causal lineage, epistemic regimes, competing hypotheses, and provenance topology rather than allowing relational similarity alone to settle causal questions.
 
 # 2. Relation Classes
 
@@ -447,7 +447,7 @@ R^{causal}*{ij}
 
 Causal promotion requires suitable causal evidence.
 
-The source framework itself preserves a scientific boundary around symbolic/formal hypotheses rather than treating architectural resemblance as empirical proof. 
+The source framework itself preserves a scientific boundary around symbolic/formal hypotheses rather than treating architectural resemblance as empirical proof.
 
 # 11. Causal Promotion Gate
 
@@ -552,7 +552,7 @@ COMPETING
 }
 ]
 
-This is consistent with the AMOS_CORE lineage's explicit introduction of competing hypotheses rather than forced convergence. 
+This is consistent with the AMOS_CORE lineage's explicit introduction of competing hypotheses rather than forced convergence.
 
 # 14. Temporal Lag
 
@@ -681,7 +681,7 @@ Sel(i\rightarrow j)
 
 where (i) affects which states of (j) remain admissible.
 
-This connects to the corpus's mutation-selection-repair architecture, which places mutation, selection, repair, inheritance, and recursion in the system's operational spine. 
+This connects to the corpus's mutation-selection-repair architecture, which places mutation, selection, repair, inheritance, and recursion in the system's operational spine.
 
 # 19. Observer Relation
 
@@ -813,7 +813,7 @@ cross-scale
 same-scale
 ```
 
-The Trang framework explicitly uses recursive L/M/H decomposition as a modeling architecture. 
+The Trang framework explicitly uses recursive L/M/H decomposition as a modeling architecture.
 
 But:
 
@@ -913,7 +913,7 @@ provenance:
   regime:
 ```
 
-The AMOS_CORE lineage explicitly evolves from evidence provenance topology through Sybil hardening, persistent provenance, MVCC/CAS, atomic multi-RSCF reasoning, and later finalization mechanisms. 
+The AMOS_CORE lineage explicitly evolves from evidence provenance topology through Sybil hardening, persistent provenance, MVCC/CAS, atomic multi-RSCF reasoning, and later finalization mechanisms.
 
 # 27. Relation Provenance Invariant
 

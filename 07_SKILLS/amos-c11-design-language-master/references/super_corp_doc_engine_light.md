@@ -27,9 +27,9 @@ tags: [reference-stub]
 
 > [!info] Reference File Moved
 > This file was **38MB** and has been moved to reduce Obsidian indexing load.
-> 
+>
 > **Original location**: `_reference/engine/A/AMOS_SUPER_Corp_Doc_Engine_Light.md`
-> 
+>
 > To view the full content, open the file from the `_reference/` directory directly in your file manager or text editor.
 
 ## Link

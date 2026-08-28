@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Brain Engine Specs"
+title: AMOS Brain Engine Specs
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/"
 origin_architect: "Trang Phan"
@@ -41,56 +41,56 @@ sources:
 
 # AMOS Brain Engine Specs
 
-Ingest summary of key AMOS brain engine specs from Google Drive (`_00_AMOS_CANON/Core/`).  
+Ingest summary of key AMOS brain engine specs from Google Drive (`_00_AMOS_CANON/Core/`).
 All specs authored by **Trang Phan**.
 
 ---
 
 ## 1. AMOS_Cognition_Engine_v0 (AMOS_COGNITION_INFINITY_KERNEL)
 
-**Version**: 1.0.0  
-**Role**: Unified cognition-only kernel for reasoning, without coding or execution clusters.  
-**Scope**: meta_logic, structural_reasoning, multi_domain_thinking, measurement_and_evaluation, integration_with_external_engines  
+**Version**: 1.0.0
+**Role**: Unified cognition-only kernel for reasoning, without coding or execution clusters.
+**Scope**: meta_logic, structural_reasoning, multi_domain_thinking, measurement_and_evaluation, integration_with_external_engines
 **Exclusions**: direct_code_generation, ui_visual_design, backend_system_architecture_details, infrastructure_provisioning, low_level_api_or_sdk_specs
 
 ### 6-Layer Architecture
 
-**Layer 1 — Meta Logic Kernel**  
-Core laws: Law of Law, Rule of 2, Rule of 4, Signal Fidelity Preservation, Absolute Structural Integrity  
+**Layer 1 — Meta Logic Kernel**
+Core laws: Law of Law, Rule of 2, Rule of 4, Signal Fidelity Preservation, Absolute Structural Integrity
 Meta-capabilities: multi-threaded thought (max 8 threads), framework interpreter, equation and law registry
 
-**Layer 2 — Structural Reasoning Engine**  
+**Layer 2 — Structural Reasoning Engine**
 Problem decomposition (MECE), scenario engine, risk and collapse lattice
 
-**Layer 3 — Cognitive Infrastructure**  
-Memory architecture: working memory (capacity 16), canonical memory (stable laws/frameworks), case memory (patterns)  
+**Layer 3 — Cognitive Infrastructure**
+Memory architecture: working memory (capacity 16), canonical memory (stable laws/frameworks), case memory (patterns)
 Process orchestration: 5 reasoning modes, mode switching rules, attention allocation policy
 
-**Layer 4 — Quantum Reasoning Layer**  
+**Layer 4 — Quantum Reasoning Layer**
 Superposition mechanism (hold multiple candidate models), entanglement model (non-classical correlations)
 
-**Layer 5 — Biological Logic Layer**  
-4 UBI domains: neurobiological, neuroemotional, somatic, bioelectromagnetic  
+**Layer 5 — Biological Logic Layer**
+4 UBI domains: neurobiological, neuroemotional, somatic, bioelectromagnetic
 Human processing limits: attention, stress impairs executive function, sleep/nutrition affect decisions
 
-**Layer 6 — Integration Kernel**  
+**Layer 6 — Integration Kernel**
 7-step integration pipeline, quality checks, interfaces to coding/design/scientific engines
 
 ---
 
 ## 2. AMOS_Mind_Os_v0 (AMOS_SUPER_MIND_OS)
 
-**Version**: 1.0.0  
-**Role**: Integrated cognition + emotion + consciousness stack for AMOS.  
+**Version**: 1.0.0
+**Role**: Integrated cognition + emotion + consciousness stack for AMOS.
 **Components**: cognition (AMOS_COGNITION_INFINITY_KERNEL), emotion (AMOS_MEGA_HUMAN_ENGINE), consciousness (AMOS_SUPER_CONSCIOUSNESS_ENGINE_vInfinity)
 
 ---
 
 ## 3. AMOS_Emotion_Engine_v0 (AMOS_MEGA_HUMAN_ENGINE)
 
-**Version**: vOmega.Infinity  
-**Role**: Unified affective–somatic–instinct engine for AMOS OS  
-**Creator**: Trang Phan  
+**Version**: vOmega.Infinity
+**Role**: Unified affective–somatic–instinct engine for AMOS OS
+**Creator**: Trang Phan
 **Coverage targets**:
 - Emotional signal detection (text): 0.99
 - Empathy and validation patterns: 0.99

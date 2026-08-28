@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Cognitive Architecture Matrix Governance (gaps 321-339)"
+title: AMOS Cognitive Architecture Matrix Governance (gaps 321-339)
 created: "2026-08-22"
 origin: "Hermes ↔ Cosmo Brain"
 origin_architect: "Trang Phan"

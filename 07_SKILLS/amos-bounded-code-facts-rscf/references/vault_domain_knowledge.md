@@ -107,7 +107,7 @@ rscf:
             "outputs": [
               "test_case_catalog",
               "coverage_matrix",
-      
+
 
 ---
 

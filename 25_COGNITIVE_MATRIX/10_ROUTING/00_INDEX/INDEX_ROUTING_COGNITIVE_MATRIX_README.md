@@ -23,16 +23,16 @@ tags: [note]
 
 # INDEX ROUTING COGNITIVE MATRIX README
 
-**STATUS:** DERIVED_REFERENCE_SPECIFICATION  
-**epistemic_class:** AMOS_MODEL  
-**canonical_status:** CONDITIONAL  
+**STATUS:** DERIVED_REFERENCE_SPECIFICATION
+**epistemic_class:** AMOS_MODEL
+**canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
-**System:** AMOS OS  
-**Plane:** Cognitive Matrix  
-**Subsystem:** Routing  
-**Segment:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX`  
-**Canonical Path:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README.md`  
+**System:** AMOS OS
+**Plane:** Cognitive Matrix
+**Subsystem:** Routing
+**Segment:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX`
+**Canonical Path:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README.md`
 **Origin Architect / Steward:** Trang Phan
 
 ---

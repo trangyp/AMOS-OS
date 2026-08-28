@@ -23,15 +23,15 @@ tags: [note]
 
 # Cognitive Matrix Routing — README
 
-**STATUS:** CANDIDATE_CANON — SUBSTANTIVE SPECIFICATION  
-**Artifact Type:** Routing Index / Navigation Contract / Routing Architecture Entry Point  
-**System:** AMOS OS  
-**Path:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README.md`  
-**Lineage Compatibility:** AMOS_CORE v3.0 → v4.4  
-**Origin Architect / Steward:** Trang Phan  
-**Claim Class:** `AMOS_MODEL`  
-**Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT  
-**Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT  
+**STATUS:** CANDIDATE_CANON — SUBSTANTIVE SPECIFICATION
+**Artifact Type:** Routing Index / Navigation Contract / Routing Architecture Entry Point
+**System:** AMOS OS
+**Path:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/INDEX_ROUTING_COGNITIVE_MATRIX_README.md`
+**Lineage Compatibility:** AMOS_CORE v3.0 → v4.4
+**Origin Architect / Steward:** Trang Phan
+**Claim Class:** `AMOS_MODEL`
+**Implementation Status:** NOT ESTABLISHED BY THIS DOCUMENT
+**Empirical Validation Status:** NOT ESTABLISHED BY THIS DOCUMENT
 **Final Canon Status:** NOT ESTABLISHED BY THIS DOCUMENT
 
 ---

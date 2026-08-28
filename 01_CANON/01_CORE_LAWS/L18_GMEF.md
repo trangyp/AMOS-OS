@@ -32,9 +32,9 @@ rscf:
 
 # L18 GMEF Gate Laws
 
-**STATUS:** PROPOSED_SPECIFICATION  
-**epistemic_class:** AMOS_MODEL  
-**canonical_status:** CONDITIONAL  
+**STATUS:** PROPOSED_SPECIFICATION
+**epistemic_class:** AMOS_MODEL
+**canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
 ---

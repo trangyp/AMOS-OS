@@ -39,7 +39,7 @@ Below is the expanded **Obsidian-native canonical candidate**. I preserve the so
 
 ```markdown
 ---
-title: "ULK x RSCF Cognitive Matrix Specification"
+title: ULK x RSCF Cognitive Matrix Specification
 aliases:
   - "ULK × RSCF Cognitive Matrix Specification"
   - "ULK x RSCF"
@@ -4765,8 +4765,5 @@ $$
 ---
 
 **END OF `ULK_X_RSCF.md`**
-
-```
-```
 
 ```

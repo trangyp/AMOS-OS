@@ -26,10 +26,10 @@ rscf:
 
 # L02_ATTENTION — README
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `README.md`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `README.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** the available L02 material supports an attention primitive concerned with allocation/budgeting of scarce reasoning or observation resources. This README organizes that semantic core into an AMOS contract. Detailed interfaces, operators, equations, agents, workflows, thresholds, and runtime behavior remain `AMOS_MODEL` unless separately grounded in direct canon or executable evidence.

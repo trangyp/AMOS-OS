@@ -44,7 +44,7 @@ I have successfully implemented the **complete AMOS Nervous System Framework** f
 
 **Link Tensor**: `L_t[i,j,k]` where:
 - **i**: source node
-- **j**: target node  
+- **j**: target node
 - **k**: link type (9 types: causal, semantic, temporal, structural, goal_relevant, risk_related, contradiction, analogy, dependency)
 
 **Link Strength**: `L_{ijk} = strength of relation between i and j under type k`

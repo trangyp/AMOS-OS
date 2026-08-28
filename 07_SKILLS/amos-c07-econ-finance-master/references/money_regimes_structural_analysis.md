@@ -26,7 +26,7 @@ tags: [economy]
 
 ## PROOF
 [PROOF] Wikipedia. "Gold Standard" - https://en.wikipedia.org/wiki/Gold_standard
-[PROOF] Wikipedia. "Bretton Woods system" - https://en.wikipedia.org/wiki/Bretton_Woods_system  
+[PROOF] Wikipedia. "Bretton Woods system" - https://en.wikipedia.org/wiki/Bretton_Woods_system
 [PROOF] Federal Reserve History. "Creation of the Bretton Woods System" - https://www.federalreservehistory.org/essays/bretton-woods-created
 [PROOF] Winton. "The history of the modern international monetary system" - https://www.winton.com/news/the-history-of-the-modern-international-monetary-system
 [PROOF] Cleveland Fed. "A Brief History of Central Banks" - https://www.clevelandfed.org/publications/economic-commentary/2007/ec-20071201-a-brief-history-of-central-banks
@@ -37,7 +37,7 @@ tags: [economy]
 ## SYMBOLS
 
 - **GS**: Gold Standard
-- **BW**: Bretton Woods System  
+- **BW**: Bretton Woods System
 - **FIAT**: Fiat Money Regime
 - **CB**: Central Bank
 - **FX**: Foreign Exchange
@@ -102,7 +102,7 @@ Policy_Rate_Effectiveness = f(CBDC_Design, Market_Penetration)
 
 ### Civilisation Monetary Loop
 1. **EXPANSION**: Credit growth → Investment → Economic growth → Trade imbalances
-2. **LEVERAGE**: Rising debt-to-GDP ratios → Financial innovation → Risk accumulation  
+2. **LEVERAGE**: Rising debt-to-GDP ratios → Financial innovation → Risk accumulation
 3. **CRISIS**: Balance sheet stress → Confidence collapse → Currency attacks
 4. **CONSOLIDATION**: Debt restructuring → Policy reform → New regime foundation
 5. **REFORM**: Institutional changes → New monetary framework → Return to expansion

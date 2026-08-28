@@ -33,12 +33,12 @@ tags:
 
 # L01_SENSING_OBSERVATION — README
 
-**Class:** `COGNITIVE_PRIMITIVE_INTEGRATION_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `README.md`  
-**Role:** `PRIMITIVE ENTRYPOINT / INTEGRATION MAP / CONTRACT INDEX`  
+**Class:** `COGNITIVE_PRIMITIVE_INTEGRATION_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `README.md`
+**Role:** `PRIMITIVE ENTRYPOINT / INTEGRATION MAP / CONTRACT INDEX`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this README defines the proposed integration contract for `L01_SENSING_OBSERVATION`. It organizes the primitive's purpose, boundaries, interfaces, state, dependencies, governance, evidence requirements, failure handling, and sibling artifacts. It does not establish that L01 has been implemented, executed, formally verified, empirically validated, or canonically completed.

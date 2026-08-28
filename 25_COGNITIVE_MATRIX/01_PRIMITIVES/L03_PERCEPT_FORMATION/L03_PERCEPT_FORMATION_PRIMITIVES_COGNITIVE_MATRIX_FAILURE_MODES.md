@@ -27,13 +27,13 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Failure Modes
 
-**Class:** `COGNITIVE_PRIMITIVE_FAILURE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `FAILURE_MODES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_FAILURE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `FAILURE_MODES.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
-> **Source boundary:** The AMOS Multimodal Perception Layer requires H/M/L decomposition, typed invariants, tensors, RSCF, equation registries, falsifiers, provenance, competing hypotheses, confidence ceilings, and repair paths. It also requires hard invariants to remain non-compensatory and explicitly warns that `SOURCE_DEFINED` does not establish external empirical validation. 
+> **Source boundary:** The AMOS Multimodal Perception Layer requires H/M/L decomposition, typed invariants, tensors, RSCF, equation registries, falsifiers, provenance, competing hypotheses, confidence ceilings, and repair paths. It also requires hard invariants to remain non-compensatory and explicitly warns that `SOURCE_DEFINED` does not establish external empirical validation.
 
 ---
 

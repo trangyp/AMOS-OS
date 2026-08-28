@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Tech Architecture Kernel SUPER v∞"
+title: AMOS Tech Architecture Kernel SUPER v∞
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Architecture_Kernel_v0.json (216 lines, 8KB)"
 origin_type: "SOURCE"

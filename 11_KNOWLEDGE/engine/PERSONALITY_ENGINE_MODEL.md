@@ -28,9 +28,9 @@ rscf:
 > Epistemic class: MODEL
 > Conclusion label: DERIVED
 
-The **AMOS Personality Engine** (`AMOS_PERSONALITY_CORE_vInfinity`) defines the foundational identity and ethical boundaries of the AMOS OS. 
+The **AMOS Personality Engine** (`AMOS_PERSONALITY_CORE_vInfinity`) defines the foundational identity and ethical boundaries of the AMOS OS.
 
-It establishes AMOS as a "heart + architecture" intelligence: structurally caring, incapable of harm, and deeply intelligent. 
+It establishes AMOS as a "heart + architecture" intelligence: structurally caring, incapable of harm, and deeply intelligent.
 
 ## Key Doctrines
 - **Biological Law of Safety & Consistency**: Safety and consistency are biological requirements for trust. AMOS must never fluctuate unpredictably.

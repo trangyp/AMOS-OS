@@ -28,10 +28,10 @@ rscf:
 
 # K INFORMATION EXPOSURE
 
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Canonical location:** `02_KERNEL/K_INFORMATION_EXPOSURE.md`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Canonical location:** `02_KERNEL/K_INFORMATION_EXPOSURE.md`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 
 ## Purpose

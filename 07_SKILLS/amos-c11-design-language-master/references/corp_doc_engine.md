@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Corp Doc Engine vInfinity (Documentation Kernel)"
+title: AMOS Corp Doc Engine vInfinity (Documentation Kernel)
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Documentation_Kernel_v0.json (708 lines, 24KB)"
 origin_type: "SOURCE"

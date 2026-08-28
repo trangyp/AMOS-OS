@@ -27,10 +27,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Gap Matrix
 
-**Class:** `COGNITIVE_PRIMITIVE_GAP_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `GAP_MATRIX.md`  
+**Class:** `COGNITIVE_PRIMITIVE_GAP_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `GAP_MATRIX.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose

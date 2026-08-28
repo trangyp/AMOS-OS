@@ -30,7 +30,7 @@ tags:
   - hml
   - governance
 
-title: "L02_ATTENTION — Tests"
+title: L02_ATTENTION — Tests
 origin_architect: "Trang Phan"
 status: "MODEL_TEST_SPECIFICATION / UNEXECUTED / UNVALIDATED"
 epistemic_class: "MODEL"
@@ -39,10 +39,10 @@ runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
 
 # L02_ATTENTION — Tests
 
-**Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `TESTS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `TESTS.md`
 **Status:** `AMOS_MODEL / UNEXECUTED / UNVALIDATED`
 
 > **Canon boundary:** available source material supports `L02_ATTENTION` as an attention-allocation primitive that budgets scarce reasoning/observation resources and explicitly requires tests/falsifiers before promotion. No canonical L02 test registry or executed L02 validation harness is established here. All test identifiers, fixtures, expected outcomes, validators, equations, and promotion gates below are `AMOS_MODEL` unless independently recovered or executed.

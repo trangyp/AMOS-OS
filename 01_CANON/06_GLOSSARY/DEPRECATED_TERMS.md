@@ -39,8 +39,8 @@ aliases:
 ---
 
 # AMOS OS Deprecated Terms
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** v4.4  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** v4.4
 > **Conclusion class:** `AMOS_MODEL`
 ## 1. Purpose
 `DEPRECATED_TERMS.md` is the canonical lifecycle registry for terminology that should no longer be used as the preferred semantic identity in current AMOS OS artifacts.

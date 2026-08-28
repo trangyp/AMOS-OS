@@ -25,10 +25,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — RSCF
 
-**Class:** `COGNITIVE_PRIMITIVE_RSCF_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `RSCF.md`  
+**Class:** `COGNITIVE_PRIMITIVE_RSCF_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `RSCF.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose
@@ -52,7 +52,7 @@ WEAKEST LOAD-BEARING PREMISE
 unless independently revalidated
 ```
 
-RSCF canon further requires trust to remain local, typed, scoped, provenance-aware, regime-aware, and freshness-bounded; unresolved contradictions and genuine competing hypotheses must be preserved; structural similarity cannot establish causation; and raw evidence defaults to `DO_NOT_LOAD_UNLESS_REQUIRED`. 
+RSCF canon further requires trust to remain local, typed, scoped, provenance-aware, regime-aware, and freshness-bounded; unresolved contradictions and genuine competing hypotheses must be preserved; structural similarity cannot establish causation; and raw evidence defaults to `DO_NOT_LOAD_UNLESS_REQUIRED`.
 
 For L04, the RSCF layer governs the path:
 
@@ -96,7 +96,7 @@ falsifiers / invalidation conditions
 confidence ceiling
 ```
 
-A proof capsule may be reused only while dependencies, scope, regime, provenance independence, and freshness remain valid. Failure of one premise invalidates only dependent conclusions. 
+A proof capsule may be reused only while dependencies, scope, regime, provenance independence, and freshness remain valid. Failure of one premise invalidates only dependent conclusions.
 
 Canonical knowledge-node types are:
 
@@ -451,7 +451,7 @@ L04RSCFEdge:
     type: string | null
 ```
 
-Causal typing must remain explicit because structural similarity or temporal sequence alone does not establish causation. 
+Causal typing must remain explicit because structural similarity or temporal sequence alone does not establish causation.
 
 ---
 
@@ -489,7 +489,7 @@ Scope_t,Reg_t,Fresh_t,Fals_t,Gap_t,Conf_t,Inv_t,Q_t)
 
 # 8. L04 H/M/L RSCF Map
 
-Canonical RSCF uses H/M/L recursive addressing. 
+Canonical RSCF uses H/M/L recursive addressing.
 
 For L04 MODEL specialization:
 
@@ -634,7 +634,7 @@ UNKNOWN/GAP != PASS.
 
 # 10. Confidence Ceiling
 
-Canonical RSCF states that derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated. 
+Canonical RSCF states that derived confidence cannot exceed the weakest load-bearing premise unless independently revalidated.
 
 For L04:
 
@@ -675,7 +675,7 @@ weakly supported entity conclusion
 
 # 11. Competing Hypotheses
 
-Canonical RSCF requires preservation of `COMPETING` whenever incompatible hypotheses remain equal, incomparable, correlated, or insufficiently discriminated. 
+Canonical RSCF requires preservation of `COMPETING` whenever incompatible hypotheses remain equal, incomparable, correlated, or insufficiently discriminated.
 
 Typical L04 competing sets:
 
@@ -715,7 +715,7 @@ IDENTIFY CHEAPEST DISCRIMINATING TEST
 
 # 12. Cheapest Discriminating Test
 
-Canonical RSCF recommends testing the cheapest high-information premise rather than accumulating redundant support. 
+Canonical RSCF recommends testing the cheapest high-information premise rather than accumulating redundant support.
 
 For L04, candidate discriminators include:
 
@@ -767,7 +767,7 @@ measurement method
 assumptions
 ```
 
-This is canonical RSCF behavior. 
+This is canonical RSCF behavior.
 
 For example:
 
@@ -843,7 +843,7 @@ multiple independent confirmations
 
 # 15. Selective Invalidation
 
-Canonical capsule reuse requires selective invalidation when a premise fails. 
+Canonical capsule reuse requires selective invalidation when a premise fails.
 
 Conceptually:
 
@@ -1215,7 +1215,7 @@ L04RSCFCapsule:
   downstream_reuse_conditions: []
 ```
 
-This matches the default RSCF proof-capsule semantics. 
+This matches the default RSCF proof-capsule semantics.
 
 ---
 

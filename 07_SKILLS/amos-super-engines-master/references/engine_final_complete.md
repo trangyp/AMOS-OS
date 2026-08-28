@@ -100,7 +100,7 @@ output = await engine.process_input(sample_input)
 
 # Real output with:
 # - System diagnosis
-# - Behavior predictions  
+# - Behavior predictions
 # - Scenario comparisons
 # - Recommended interventions
 # - Risk assessments

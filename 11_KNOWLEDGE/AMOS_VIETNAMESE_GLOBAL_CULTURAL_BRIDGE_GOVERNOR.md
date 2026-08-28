@@ -137,10 +137,10 @@ rscf:
 > [!abstract] RSCF Node
 > **RSCF-NODE** · `skill` · `cross-domain` · C06 Vietnamese-Specific ↔ Global Frameworks
 >
-> **Origin architect / steward:** Trang Phan  
-> **Parent skill:** `amos-c06-society-culture-master`  
-> **Epistemic class:** `SOURCE_CLAIM`  
-> **Claim ceiling:** `0.90`  
+> **Origin architect / steward:** Trang Phan
+> **Parent skill:** `amos-c06-society-culture-master`
+> **Epistemic class:** `SOURCE_CLAIM`
+> **Claim ceiling:** `0.90`
 > **Declared status:** `PRODUCTION_READY`
 >
 > `PRODUCTION_READY` and “all 10 QA gates pass” are preserved as corpus/source assertions. This artifact does not itself include the executed QA receipts needed to independently verify that operational claim.

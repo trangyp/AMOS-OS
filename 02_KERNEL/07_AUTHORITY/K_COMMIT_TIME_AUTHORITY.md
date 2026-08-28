@@ -28,10 +28,10 @@ rscf:
 
 # K COMMIT TIME AUTHORITY
 
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Canonical location:** `02_KERNEL/K_COMMIT_TIME_AUTHORITY.md`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Canonical location:** `02_KERNEL/K_COMMIT_TIME_AUTHORITY.md`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 
 ## Purpose

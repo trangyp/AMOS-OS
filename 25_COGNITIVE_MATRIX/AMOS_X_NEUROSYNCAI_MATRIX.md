@@ -4163,7 +4163,7 @@ RSCF-RELATIONS:
 
 ```
 
-A material correction from the earlier draft: **P9 is no longer a gap.** The source explicitly names it **“Self-Auditing Before Output”** and says every response must pass an internal compliance check before delivery; its own summary associates principle 9 with preventing non-compliant or misaligned output.  
+A material correction from the earlier draft: **P9 is no longer a gap.** The source explicitly names it **“Self-Auditing Before Output”** and says every response must pass an internal compliance check before delivery; its own summary associates principle 9 with preventing non-compliant or misaligned output.
 
 The source also explicitly describes the five tiers as Interface Infrastructure, Trainer Identity Embedding, Internal System Logic, Structural Audit Layer, and Metacognitive Loop™, with biological analogies and claimed failure modes each tier is meant to address. The separate dual-system source defines the four UBI domains and the detection → reflection → structurally aligned output → reject compensation/noise → reassess → repeat loop.
 ```

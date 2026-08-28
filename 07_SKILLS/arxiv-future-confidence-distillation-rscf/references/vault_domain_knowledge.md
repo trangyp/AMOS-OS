@@ -51,7 +51,7 @@ For Vietnam, creativity has not only been a means of survival in the face of nat
 
 GenAI systems (GPT-4, Claude, Gemini) operate on **probabilistic inference**, not deterministic logic. They cannot:
 - Guarantee same output for same input
-- Prevent emotional manipulation or role misalignment  
+- Prevent emotional manipulation or role misalignment
 - Ensure continuity across reasoning chains
 - Meet certifiability standards (ISO, NIST, EU AI Act)
 

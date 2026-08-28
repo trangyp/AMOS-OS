@@ -18,13 +18,13 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Failure Modes
 
-**Class:** `COGNITIVE_PRIMITIVE_FAILURE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `FAILURE_MODES.md`  
-**Role:** `SENSING / OBSERVATION / MEASUREMENT / PROVENANCE / VALIDATION / FAILURE / RECOVERY CONTRACT`  
-**Status:** `STRUCTURAL FAILURE CONTRACT / SOURCE-GAP BOUNDED`  
+**Class:** `COGNITIVE_PRIMITIVE_FAILURE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `FAILURE_MODES.md`
+**Role:** `SENSING / OBSERVATION / MEASUREMENT / PROVENANCE / VALIDATION / FAILURE / RECOVERY CONTRACT`
+**Status:** `STRUCTURAL FAILURE CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `AMOS_MODEL / CONDITIONAL`
 
 > **Epistemic boundary:** this document defines a governed AMOS failure taxonomy for `L01_SENSING_OBSERVATION`. It does not establish that every listed failure has an executable detector, validated runtime implementation, calibrated probability model, or universal empirical applicability.

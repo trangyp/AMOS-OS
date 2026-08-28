@@ -25,12 +25,12 @@ tags: [note]
 
 > **AMOS OS Canon Plane — orientation, authority boundaries, admission semantics, lineage, provenance, supersession, and canonical-state governance.**
 
-**Origin architect / steward:** Trang Phan  
-**AMOS Core target:** `v4.4`  
-**Plane:** `01_CANON`  
-**Artifact class:** `PLANE_README`  
-**Conclusion class:** `MODEL`  
-**Normative authority:** `FALSE`  
+**Origin architect / steward:** Trang Phan
+**AMOS Core target:** `v4.4`
+**Plane:** `01_CANON`
+**Artifact class:** `PLANE_README`
+**Conclusion class:** `MODEL`
+**Normative authority:** `FALSE`
 **Executable binding:** `PARTIAL unless demonstrated by executed validation receipts`
 
 ---

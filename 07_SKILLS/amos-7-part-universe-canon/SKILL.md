@@ -42,7 +42,7 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers, identifying the Flow gap (Part II), or mapping persistence logic. Use whenever the user mentions 7-part canon, persistence, structural completeness, system lifecycle, collapse, recovery, or universe canon — even without explicitly asking for '7-part'. Do not use for for generic tasks outside canon/universe domain (canon reasoning, universe-level analysis).
+description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers, or mapping persistence logic. Do not use for generic tasks outside canon/universe domain.
 license: MIT
 steward: Trang Phan
 ---
@@ -56,12 +56,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - When auditing whether a theory, system, institution, or explanation is structurally complete (must answer all 7 parts)
 - When analyzing why a system emerges, operates, changes, survives, collapses, or recovers
 - When identifying the genuine gap (Part II — Flow) that no other canon first-class covers
-- When mapping a system's persistence logic (orthogonal to the 10-part UTC composition canon)## Capabilities
+- When mapping a system's persistence logic (orthogonal to the 10-part UTC composition canon)
+
+## Capabilities
 
 - **canon_audit**: Audit structural completeness across the 7-Part Universe Canon
 - **canon_validate**: Validate system against canon invariants
 - **canon_map**: Map system elements to canon parts
-
 
 ## Source
 `_00_Cosmo brain/2026-08-22 7-Part Universe Canon.md` (196 lines) + vault audit 2026-08-23

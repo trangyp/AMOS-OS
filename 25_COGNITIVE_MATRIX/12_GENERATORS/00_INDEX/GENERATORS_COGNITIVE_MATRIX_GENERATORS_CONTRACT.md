@@ -25,10 +25,10 @@ tags: [note]
 
 ## 0. Status
 
-**STATUS:** PROPOSED_SPECIFICATION  
-**epistemic_class:** AMOS_MODEL  
-**canonical_status:** CONDITIONAL  
-**implementation_status:** PARTIAL  
+**STATUS:** PROPOSED_SPECIFICATION
+**epistemic_class:** AMOS_MODEL
+**canonical_status:** CONDITIONAL
+**implementation_status:** PARTIAL
 **updated:** 2026-08-26
 
 This artifact defines the subsystem contract for generators within the AMOS Cognitive Matrix plane.

@@ -135,7 +135,7 @@ rscf:
       "formula": "E=w1*hidden_state+w2*fake_api+w3*broken_flow+w4*missing_validation+w5*complexity",
       "layer": "entropy"
     },
-   
+
 
 ---
 

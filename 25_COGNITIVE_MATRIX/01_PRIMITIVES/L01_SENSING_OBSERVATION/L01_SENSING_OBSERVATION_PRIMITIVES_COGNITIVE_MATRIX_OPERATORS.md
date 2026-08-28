@@ -18,12 +18,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Operators
 
-**Class:** `COGNITIVE_PRIMITIVE_OPERATOR_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `OPERATORS.md`  
-**Role:** `OBSERVATION TRANSFORMATION / VALIDATION / ROUTING CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_OPERATOR_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `OPERATORS.md`
+**Role:** `OBSERVATION TRANSFORMATION / VALIDATION / ROUTING CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this document defines the proposed operator contract for `L01_SENSING_OBSERVATION`. It specifies admissible transformations over sensing and observation state while preserving provenance, scope, time, regime, uncertainty, H/M/L scale, epistemic class, and control-plane authority. Exact canonical L01 operator names, signatures, ordering, and implementation semantics remain subject to direct-canon confirmation and executable validation.

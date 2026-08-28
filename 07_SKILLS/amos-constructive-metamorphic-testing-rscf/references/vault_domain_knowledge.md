@@ -93,7 +93,7 @@ rscf:
             "green_and_transition_skills",
             "apprenticeships_and_vet",
             "higher_education_alignment_with_industry",
-  
+
 
 ---
 

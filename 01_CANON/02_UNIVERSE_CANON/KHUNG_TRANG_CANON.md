@@ -91,11 +91,11 @@ integrity:
 
 # Khung Trang Canon
 
-> **Native title:** `KHUNG TRANG — HỆ HÌNH THỨC ĐỘNG HÌNH ĐỆ QUY SINH TỒN`  
-> **Source master:** `KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json`  
-> **Native source version:** `U∞_full_source_preserved_v3`  
-> **Origin architect / steward:** **Trang Phan**  
-> **Canonical plane:** `01_CANON/02_UNIVERSE_CANON`  
+> **Native title:** `KHUNG TRANG — HỆ HÌNH THỨC ĐỘNG HÌNH ĐỆ QUY SINH TỒN`
+> **Source master:** `KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json`
+> **Native source version:** `U∞_full_source_preserved_v3`
+> **Origin architect / steward:** **Trang Phan**
+> **Canonical plane:** `01_CANON/02_UNIVERSE_CANON`
 > **Current state:** `SOURCE_BOUND_CANON_CANDIDATE`
 
 ---

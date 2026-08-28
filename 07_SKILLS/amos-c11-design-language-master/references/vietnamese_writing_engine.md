@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Vietnamese Writing Engine vInfinity"
+title: AMOS Vietnamese Writing Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Logic/AMOS_Vietnamese_Writing_Engine_v0.json (177KB, 8 major phases + TRANG_VN_PRO + AMOS_VN_EXEC_WRITING_REASONING_ENGINE)"
 origin_type: "SOURCE"

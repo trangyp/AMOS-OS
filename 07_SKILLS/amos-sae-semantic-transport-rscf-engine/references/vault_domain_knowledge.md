@@ -213,7 +213,7 @@ u_x := named symbol only iff no differential or vector semantics are declared
 ```
 Parse(u_x) = {
  ∂u/∂x if calculus/PDE regime
- (u)_x if vector regime 
+ (u)_x if vector regime
  symbol label ux if code/name regime
 }
 ```

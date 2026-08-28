@@ -47,12 +47,12 @@ rscf:
 # AMOS Universal Rename Engine
 ## Governed Deterministic Namespace Migration
 
-> **Document version:** `3.0.0`  
-> **Engine version:** `2.0.0`  
-> **Migration contract:** `1.0.0`  
-> **AMOS_CORE target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Current source class:** `SOURCE_IMPLEMENTATION`  
+> **Document version:** `3.0.0`
+> **Engine version:** `2.0.0`
+> **Migration contract:** `1.0.0`
+> **AMOS_CORE target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Current source class:** `SOURCE_IMPLEMENTATION`
 > **Primary risk:** repository-wide filesystem mutation
 
 ---

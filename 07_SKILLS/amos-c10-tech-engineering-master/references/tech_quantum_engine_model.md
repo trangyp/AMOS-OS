@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Tech Quantum Engine Model"
+title: AMOS Tech Quantum Engine Model
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "brain_model"

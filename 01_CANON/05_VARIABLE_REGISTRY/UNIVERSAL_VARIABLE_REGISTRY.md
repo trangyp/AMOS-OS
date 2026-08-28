@@ -49,8 +49,8 @@ aliases:
 
 # AMOS Universal Variable Registry
 **Origin architect / steward:** Trang Phan
-> **Status:** `ACTIVE_CANON_CANDIDATE`  
-> **AMOS Core target:** `v4.4`  
+> **Status:** `ACTIVE_CANON_CANDIDATE`
+> **AMOS Core target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 ## 0. Purpose
 The **Universal Variable Registry (UVR)** defines the canonical identity, typing, scope, semantics, provenance, lifecycle, and interoperability rules for variables used throughout AMOS OS.

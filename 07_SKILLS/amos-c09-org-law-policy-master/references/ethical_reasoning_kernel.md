@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "amos-ethical-reasoning-kernel"
+title: amos-ethical-reasoning-kernel
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "bridge"

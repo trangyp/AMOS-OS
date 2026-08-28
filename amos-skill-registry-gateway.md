@@ -99,3 +99,5 @@ This registry supports installation to multiple agent platforms:
 - **Registry generated**: 2026-08-28T09:36:28.282434+00:00
 - **Source**: AMOS_OS Obsidian vault
 - **Steward**: Trang Phan
+
+[[_MOC]]

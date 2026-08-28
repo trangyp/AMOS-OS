@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "amos-documentation-engine-layer"
+title: amos-documentation-engine-layer
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "bridge"

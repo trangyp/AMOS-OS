@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS HIE — Human Interaction Engine (Full Interface Spec)"
+title: AMOS HIE — Human Interaction Engine (Full Interface Spec)
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/3.Spicies_Interaction_Engine-HIE.uiface.txt"
 origin_architect: "Trang Phan"

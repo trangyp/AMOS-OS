@@ -105,7 +105,7 @@ Successfully implemented neural network-enhanced FX structural engine with advan
 
 ### Neural Agents
 - **CTA**: Transformer architecture, 12-layer depth
-- **Real Money**: Graph Neural Network, 8-layer depth 
+- **Real Money**: Graph Neural Network, 8-layer depth
 - **Bank**: Neural Tensor, 10-rank processing
 - **Neural Coherence**: 0.94-0.98 across all agents
 - **Neural Signatures**: 128-dimensional vectors

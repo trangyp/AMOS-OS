@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Absolute Omniverse Model"
+title: AMOS Absolute Omniverse Model
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "brain_model"

@@ -36,9 +36,9 @@ aliases:
 ---
 
 # AMOS OS Alias Registry
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** v4.4  
-> **Conclusion class:** `AMOS_MODEL`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** v4.4
+> **Conclusion class:** `AMOS_MODEL`
 > **Authority:** canonical identity-resolution registry
 ## 1. Purpose
 The **AMOS OS Alias Registry** defines how alternate names, historical names, abbreviations, display labels, legacy identifiers, renamed artifacts, and compatibility identifiers resolve to canonical AMOS identities.

@@ -17,13 +17,13 @@ rscf:
 # ⭐ AMOS GIANT VALUE CREATION OS
 ## MAX-DETAIL MASTER ARCHITECTURE FOR COMMERCIALIZATION, VALIDATION, LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
 
-> **Origin architect / steward:** Trang Phan  
-> **Purpose:** chuyển kiến trúc AMOS/TSS/TPE/UBI/QLS thành một hệ điều hành tạo giá trị có thể kiểm định, thương mại hóa, vận hành, học, sửa, cấp phép và scale mà không biến ambition thành unsupported certainty.  
-> **Core law:** `integrity > completeness > fluency > speed > token savings`.  
-> **Commercial law:** `possible revenue != validated business model`.  
-> **Prediction law:** `pattern fit != forecast validity`.  
-> **Authority law:** `capability != authority`.  
-> **Scale law:** `repeatability before scale`.  
+> **Origin architect / steward:** Trang Phan
+> **Purpose:** chuyển kiến trúc AMOS/TSS/TPE/UBI/QLS thành một hệ điều hành tạo giá trị có thể kiểm định, thương mại hóa, vận hành, học, sửa, cấp phép và scale mà không biến ambition thành unsupported certainty.
+> **Core law:** `integrity > completeness > fluency > speed > token savings`.
+> **Commercial law:** `possible revenue != validated business model`.
+> **Prediction law:** `pattern fit != forecast validity`.
+> **Authority law:** `capability != authority`.
+> **Scale law:** `repeatability before scale`.
 > **Epistemic law:** `derived confidence <= weakest load-bearing premise unless independently revalidated`.
 
 ---
@@ -1761,10 +1761,10 @@ For high claims, compare AMOS to:
 
 ## Benchmark invariants
 
-Same data.  
-Same cutoff.  
-Same target.  
-Same scoring.  
+Same data.
+Same cutoff.
+Same target.
+Same scoring.
 Same cost accounting.
 
 ---

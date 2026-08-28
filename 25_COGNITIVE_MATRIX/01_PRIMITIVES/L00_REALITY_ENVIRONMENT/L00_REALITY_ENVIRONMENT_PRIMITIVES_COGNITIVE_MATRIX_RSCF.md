@@ -28,8 +28,8 @@ rscf:
 
 # L00_REALITY_ENVIRONMENT — RSCF
 
-**Class:** `AMOS_REALITY_ENVIRONMENT_RSCF_ARCHITECTURE`  
-**Origin architect / steward:** Trang Phan  
+**Class:** `AMOS_REALITY_ENVIRONMENT_RSCF_ARCHITECTURE`
+**Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
 ---

@@ -27,9 +27,9 @@ rscf:
 # Universe Canon Contract Validation Receipt
 
 > [!important] Epistemic Status
-> **STATUS:** VALIDATION_RECEIPT_SPECIFICATION  
-> **EPISTEMIC CLASS:** AMOS_MODEL  
-> **CANONICAL STATUS:** CONDITIONAL  
+> **STATUS:** VALIDATION_RECEIPT_SPECIFICATION
+> **EPISTEMIC CLASS:** AMOS_MODEL
+> **CANONICAL STATUS:** CONDITIONAL
 >
 > This note defines the receipt structure for cryptographically verifying compliance of all seven cosmological layers with the **Universe Canon Contract**.
 >

@@ -74,7 +74,7 @@ A de...
 The supplied metadata identifies the artifact as:
 
 ```yaml
-title: "README — 11 Knowledge"
+title: README — 11 Knowledge
 source: "11_KNOWLEDGE/root"
 type: document
 ````
@@ -2609,8 +2609,7 @@ These properties should not be confused with source metadata.
 
 ```yaml
 ---
-title: "README — 11 Knowledge"
-
+title: README — 11 Knowledge
 aliases:
   - "README 11 Knowledge"
   - "11 Knowledge README"

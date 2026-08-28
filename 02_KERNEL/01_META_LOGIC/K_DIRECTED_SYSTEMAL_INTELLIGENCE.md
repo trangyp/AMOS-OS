@@ -71,12 +71,12 @@ integrity:
 
 # Kernel · Directed Systemal Intelligence
 
-> **Canonical name:** `K_DIRECTED_SYSTEMAL_INTELLIGENCE`  
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** **Trang Phan**  
-> **Plane:** `02_KERNEL`  
-> **Segment:** `02_KERNEL/01_META_LOGIC`  
-> **Domain:** `directed-systemal-intelligence`  
+> **Canonical name:** `K_DIRECTED_SYSTEMAL_INTELLIGENCE`
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** **Trang Phan**
+> **Plane:** `02_KERNEL`
+> **Segment:** `02_KERNEL/01_META_LOGIC`
+> **Domain:** `directed-systemal-intelligence`
 > **Current class:** `AMOS_MODEL`
 
 ---
@@ -2792,4 +2792,3 @@ NOT_ESTABLISHED
 **Promotion principle:**
 
 > Preserve the substantive DSI model as a canon candidate, while keeping its historical identity explicitly unresolved. Native source recovery—not architectural plausibility—is the gate for canonical promotion.
-

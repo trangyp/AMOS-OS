@@ -25,10 +25,10 @@ rscf:
 
 # L02_ATTENTION — HML
 
-**Class:** `COGNITIVE_PRIMITIVE_HML_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `HML.md`  
+**Class:** `COGNITIVE_PRIMITIVE_HML_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `HML.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** available L02 material supports attention as allocation of scarce reasoning/observation resources. The detailed H/M/L decomposition below is an AMOS architectural model unless a direct L02 canon reference independently establishes the same mapping.

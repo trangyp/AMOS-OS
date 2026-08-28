@@ -26,8 +26,8 @@ rscf:
 
 # L00_REALITY_ENVIRONMENT — Provenance
 
-**Class:** `AMOS_REALITY_PROVENANCE_ARCHITECTURE`  
-**Origin architect / steward:** Trang Phan  
+**Class:** `AMOS_REALITY_PROVENANCE_ARCHITECTURE`
+**Origin architect / steward:** Trang Phan
 **Status:** `ARCHITECTURE CONTRACT / IMPLEMENTATION-DEPENDENT`
 
 ---

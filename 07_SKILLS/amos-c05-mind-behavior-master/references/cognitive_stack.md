@@ -21,7 +21,7 @@ rscf:
 
 ---
 
-title: "amos-cognitive-stack"
+title: amos-cognitive-stack
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "bridge"

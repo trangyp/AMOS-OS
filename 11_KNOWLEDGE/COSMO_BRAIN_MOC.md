@@ -204,7 +204,7 @@ answer the question, expand only when outcome-changing uncertainty remains.
 ### 4-quadrant routing framework (from cognitive stack)
 
 - **Individual**: Personal quantum reasoning, individual fractal analysis
-- **Organisation**: Team quantum/fractal projects, org-level math architecture  
+- **Organisation**: Team quantum/fractal projects, org-level math architecture
 - **System**: AMOS OS integration, system-level coordination
 - **Planet**: Cross-domain synthesis, planetary-scale intelligence
 

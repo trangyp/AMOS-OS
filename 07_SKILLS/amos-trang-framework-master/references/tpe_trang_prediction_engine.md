@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "TPE — Trang Prediction Engine Official Manual"
+title: TPE — Trang Prediction Engine Official Manual
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/training/TPE_Official_Manual.pdf"
 origin_architect: "Trang Phan"

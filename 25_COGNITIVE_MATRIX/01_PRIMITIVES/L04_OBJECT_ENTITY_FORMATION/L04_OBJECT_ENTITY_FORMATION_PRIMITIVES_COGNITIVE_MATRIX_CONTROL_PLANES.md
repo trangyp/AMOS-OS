@@ -26,10 +26,10 @@ rscf:
 
 # L04_OBJECT_ENTITY_FORMATION — Control Planes
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTROL_PLANE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L04_OBJECT_ENTITY_FORMATION`  
-**Artifact:** `CONTROL_PLANES.md`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTROL_PLANE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L04_OBJECT_ENTITY_FORMATION`
+**Artifact:** `CONTROL_PLANES.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose

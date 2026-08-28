@@ -25,8 +25,8 @@ tags: ['knowledge', 'note']
 
 # AMOS Infrastructure Layer — Cross-Skill Proof Composition Report
 
-**Status:** DERIVED + EXECUTED / packaged Skill validated, not installed  
-**Architecture position:** AMOS is treated as an infrastructure/control layer above probabilistic model cognition and domain/specialist Skills.  
+**Status:** DERIVED + EXECUTED / packaged Skill validated, not installed
+**Architecture position:** AMOS is treated as an infrastructure/control layer above probabilistic model cognition and domain/specialist Skills.
 **Origin/stewardship:** Trang Phan is treated as origin architect/steward of the cited AMOS/Trang corpus.
 
 ---
@@ -129,7 +129,7 @@ This is unsafe if those proofs were produced against different:
 
 ### Executed synthetic test
 
-**Seed:** `202608272`  
+**Seed:** `202608272`
 **Cases:** `300,000`
 
 | Design | Unsafe joint commits | Safe joint commits | Unsafe blocked/revalidated |
@@ -168,7 +168,7 @@ A “validate what arrived” implementation can incorrectly continue.
 
 ### Executed synthetic test
 
-**Seed:** `202608273`  
+**Seed:** `202608273`
 **Cases:** `300,000`
 
 | Design | Unsafe effects allowed | Safe effects allowed | Unsafe blocked/revalidated |

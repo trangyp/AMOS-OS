@@ -37,7 +37,7 @@ AUTO-GENERATED index — 8 extracted/archive notes. Non-curated mirror data; do 
 - f27cc831-ed1e-4764-896c-24b01ebe2302 THE TRANG SYSTEM CODEX  META-LAWS
 - f49f022f-cda1-4783-817b-9a6c86732371 THE TRANG GRAND SYSTEM   FULL LOGIC SPECIFICATION
 - 24460756-ce99-4f01-a86d-05d3f7cfbca7 New law
-- 87dd08a9-0edd-419e-9928-3afb1e99a739 Cross-Civilizational Intelligence (CCI)  Official Manual 
+- 87dd08a9-0edd-419e-9928-3afb1e99a739 Cross-Civilizational Intelligence (CCI)  Official Manual
 - cc982116-f9b3-4fa5-b9ea-31fa41b20f73 Redefining Logic
 
 ---

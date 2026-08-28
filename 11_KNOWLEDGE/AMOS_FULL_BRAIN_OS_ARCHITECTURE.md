@@ -30,7 +30,6 @@ tags:
   - rscf/provenance
   - rscf/state/source-claim
   - topic/00-amos-full-brain-os-architecture
-
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

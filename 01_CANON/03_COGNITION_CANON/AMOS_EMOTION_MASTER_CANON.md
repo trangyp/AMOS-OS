@@ -57,16 +57,16 @@ rscf:
 #amos_os #amos_emotion #amos_emotion_master_canon #emotion #emotion_canon #cognition #cognition_canon #canon #master_canon #rscf #epistemic_integrity
 
 > [!abstract] Canon identity
-> **Artifact:** `AMOS_EMOTION_MASTER_CANON.md`  
-> **System:** AMOS OS  
-> **Plane:** 01_CANON  
-> **Segment:** [[03_COGNITION_CANON_MOC|03 Cognition Canon]]  
-> **Kind:** `CANON`  
-> **Status:** `PLACEHOLDER`  
-> **Canonical status:** `UNKNOWN/GAP`  
-> **Implementation:** `NOT_ESTABLISHED`  
-> **Validation:** `NOT_ESTABLISHED`  
-> **Executable binding:** `NOT_ESTABLISHED`  
+> **Artifact:** `AMOS_EMOTION_MASTER_CANON.md`
+> **System:** AMOS OS
+> **Plane:** 01_CANON
+> **Segment:** [[03_COGNITION_CANON_MOC|03 Cognition Canon]]
+> **Kind:** `CANON`
+> **Status:** `PLACEHOLDER`
+> **Canonical status:** `UNKNOWN/GAP`
+> **Implementation:** `NOT_ESTABLISHED`
+> **Validation:** `NOT_ESTABLISHED`
+> **Executable binding:** `NOT_ESTABLISHED`
 > **Origin architect / steward:** **Trang Phan**
 
 ---

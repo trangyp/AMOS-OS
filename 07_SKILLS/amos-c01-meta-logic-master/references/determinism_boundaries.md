@@ -24,8 +24,8 @@ tags: [dated, dated/2026-08-23]
 ---
 # AMOS Determinism Boundaries — Enhanced Documentation
 
-**Version:** 2.0.0  
-**Date:** 2026-08-23  
+**Version:** 2.0.0
+**Date:** 2026-08-23
 **Status:** Enhanced — based on verified implementation and 41/41 test passage
 
 ## Overview
@@ -46,8 +46,8 @@ Maps where deterministic code ends and non-deterministic LLM calls begin, with v
 
 ## Layer 1: Executable Brain Model (DETERMINISTIC)
 
-**File:** `cosmo-brain/executable_brain_model.py`  
-**Method:** `ExecutableBrainModel.step(user_input) -> Dict[str, Any]`  
+**File:** `cosmo-brain/executable_brain_model.py`
+**Method:** `ExecutableBrainModel.step(user_input) -> Dict[str, Any]`
 **Total Layers:** 67 (v0 through v22)
 
 The `step()` method runs 67 layers in sequence, each a pure function of state:

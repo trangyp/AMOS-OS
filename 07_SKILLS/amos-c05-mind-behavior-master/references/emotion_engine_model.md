@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "Emotion Engine Model"
+title: Emotion Engine Model
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "note"

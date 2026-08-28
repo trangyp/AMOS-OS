@@ -142,7 +142,7 @@ rscf:
   },
   "pillars": {
     "P1_structure_and_topology": [
-   
+
 
 ---
 

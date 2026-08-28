@@ -26,10 +26,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Purpose
 
-**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `PURPOSE.md`  
+**Class:** `COGNITIVE_PRIMITIVE_PURPOSE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `PURPOSE.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 ## 0. Purpose

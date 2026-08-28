@@ -1528,4 +1528,4 @@ RELATED_TO → MODE_DEPENDENCY_GRAPH
 
 ---
 
-**Epistemic boundary:** the above is the supplied AMOS artifact content/model. It establishes source presence and the documented generator-governance structure; it does **not** independently establish runtime implementation, empirical validity, or enforcement. 
+**Epistemic boundary:** the above is the supplied AMOS artifact content/model. It establishes source presence and the documented generator-governance structure; it does **not** independently establish runtime implementation, empirical validity, or enforcement.

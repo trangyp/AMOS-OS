@@ -669,7 +669,7 @@ Target distinction:
 
 ```text
 X ─────────→ Y
- \          
+ \
   → M →────→ Y
 ```
 

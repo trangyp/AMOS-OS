@@ -25,12 +25,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Tests
 
-**Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `TESTS.md`  
-**Role:** `VALIDATION / FALSIFICATION / REGRESSION / ADVERSARIAL TEST CONTRACT`  
+**Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `TESTS.md`
+**Role:** `VALIDATION / FALSIFICATION / REGRESSION / ADVERSARIAL TEST CONTRACT`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
 > **Epistemic boundary:** this artifact defines the proposed test and validation contract for `L01_SENSING_OBSERVATION`. A test specification is not evidence that the test has been implemented, executed, passed, independently reproduced, or empirically validated.

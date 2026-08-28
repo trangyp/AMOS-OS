@@ -26,12 +26,12 @@ rscf:
 
 class AmosDistinctWorkingMemoryRscf:
     """RSCF engine for amos-distinct-working-memory-rscf."""
-    
+
     def __init__(self):
         self.state = {}
         self.evidence = []
         self.confidence = 0.0
-    
+
     def assess(self, claim: str) -> dict:
         """Assess a claim against RSCF criteria."""
         result = {
@@ -42,16 +42,16 @@ class AmosDistinctWorkingMemoryRscf:
             "confidence": self._compute_confidence(),
         }
         return result
-    
+
     def _classify(self, claim: str) -> str:
         return "SOURCE_DERIVED"
-    
+
     def _extract_premises(self, claim: str) -> list:
         return []
-    
+
     def _gather_evidence(self, claim: str) -> list:
         return []
-    
+
     def _compute_confidence(self) -> float:
         if not self.evidence:
             return 0.0

@@ -38,7 +38,7 @@ AMK = P∘R∘O∘S⃗G∘V
 ```
 Where:
 - **P** = Parse mathematics
-- **R** = Resolve symbol semantics 
+- **R** = Resolve symbol semantics
 - **O** = Build operator graph
 - **S** = Select reasoning or solver path
 - **G** = Generate code, proof steps, or simulation plan
@@ -92,7 +92,7 @@ Input ∈ {Equation, Formula, Spec, Code, System, Description}
 ```
 Where:
 - **X** = variables, functions, fields
-- **Ω** = operators and relations 
+- **Ω** = operators and relations
 - **C** = constraints, domains, assumptions
 - **T** = target task (solve, simulate, prove, generate_code, classify, optimize)
 

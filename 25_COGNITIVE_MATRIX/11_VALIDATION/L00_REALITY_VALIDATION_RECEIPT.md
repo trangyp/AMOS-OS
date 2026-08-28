@@ -23,10 +23,10 @@ tags: [note]
 
 # L00_REALITY_ENVIRONMENT Validation Receipt
 
-**STATUS:** EXECUTED_VALIDATION_RECEIPT  
-**epistemic_class:** AMOS_DERIVED  
-**conclusion_class:** PARTIAL  
-**canonical_status:** CONDITIONAL  
+**STATUS:** EXECUTED_VALIDATION_RECEIPT
+**epistemic_class:** AMOS_DERIVED
+**conclusion_class:** PARTIAL
+**canonical_status:** CONDITIONAL
 **updated:** 2026-08-26
 
 ---

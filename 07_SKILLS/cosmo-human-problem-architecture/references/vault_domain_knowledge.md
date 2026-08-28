@@ -89,7 +89,7 @@ GOOD: Approximately 80% of the ~100,000 vagal fibers are afferent (Body → Brai
 BAD:  Social_Pain = Physical_Pain (same ACC/insula network)
 GOOD: Social pain activates overlapping neural substrates in dorsal anterior cingulate
       cortex and anterior insula, as demonstrated by Eisenberger et al. (2003) and
-  
+
 
 ---
 

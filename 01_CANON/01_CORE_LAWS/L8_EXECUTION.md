@@ -30,11 +30,11 @@ rscf:
 
 # L8 Execution Laws
 
-**Origin architect / steward:** Trang Phan  
-**Layer:** `01_CANON / 01_CORE_LAWS / L8_EXECUTION`  
-**Artifact class:** `CORE_LAW_CONTRACT`  
-**Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`  
-**Canonical status:** `CONDITIONAL`  
+**Origin architect / steward:** Trang Phan
+**Layer:** `01_CANON / 01_CORE_LAWS / L8_EXECUTION`
+**Artifact class:** `CORE_LAW_CONTRACT`
+**Status:** `PROPOSED_SPECIFICATION / AMOS_MODEL`
+**Canonical status:** `CONDITIONAL`
 **Implementation status:** `LOGIC_EXECUTABLE_IN_PART`
 
 > L8 governs the transition from an approved intention into an actual system effect.

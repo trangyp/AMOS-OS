@@ -24,7 +24,7 @@ tags: [control]
 ---
 # Access Control/Priv Esc
 What is it?
-* Application of constraints on who/what actions can be performed 
+* Application of constraints on who/what actions can be performed
 * Access control is dependent on authentication and session management.
 * Authentication: identifies and confirms user
 * Session Management: identifies which HTTP requests are made by same user

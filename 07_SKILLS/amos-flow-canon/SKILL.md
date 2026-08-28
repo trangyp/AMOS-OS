@@ -42,7 +42,7 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion under limits, bottleneck/leakage/queue dynamics. Use when analyzing how power/energy/capital/information moves through a system, when throughput needs structural characterization, when identifying bottlenecks or leakage, or when flow is asserted but not structurally characterized. Use whenever the user mentions flow, throughput, transmission, conversion, bottlenecks, queues, or power movement — even without explicitly asking for 'flow canon'. Do not use for for generic tasks outside canon/universe domain (canon reasoning, universe-level analysis).
+description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion under limits, bottleneck/leakage/queue dynamics. Use when analyzing how power/energy/capital/information moves through a system, when throughput needs structural characterization, or when identifying bottlenecks or leakage. Do not use for generic tasks outside canon/universe domain.
 license: MIT
 steward: Trang Phan
 ---
@@ -56,12 +56,13 @@ Origin architect: **Trang Phan**. Domain: canon. Parent: amos-canon-universe-mas
 - When analyzing how power moves through any system
 - When a system's throughput, conversion, or transmission needs structural characterization
 - When identifying bottlenecks, leakage, or queue dynamics in a claimed system
-- When flow is asserted but not structurally characterized (the vault's genuine gap)## Capabilities
+- When flow is asserted but not structurally characterized (the vault's genuine gap)
+
+## Capabilities
 
 - **canon_audit**: Audit structural completeness across the 7-Part Universe Canon
 - **canon_validate**: Validate system against canon invariants
 - **canon_map**: Map system elements to canon parts
-
 
 ## Source
 Vault-generated from 7-Part Canon audit (2026-08-23) — identified Flow (Part II) as the only part absent from all 5 existing vault canon layers

@@ -51,10 +51,10 @@ aliases:
 ---
 
 # K CAUSAL CLOSURE
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_CAUSAL_CLOSURE` defines the AMOS kernel contract for determining the **smallest sufficient causal subgraph** required to support, challenge, invalidate, or update a causal conclusion.

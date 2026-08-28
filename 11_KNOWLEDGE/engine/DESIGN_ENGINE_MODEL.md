@@ -28,7 +28,7 @@ rscf:
 **Version:** 1.0.0
 **Source:** `AMOS_Design_Kernel_v0.json`
 
-The **Unified Design Kernel** provides a 96-cluster, 20-dimension virtual expansion space mapping every form of design—from UI/UX to service blueprints, business models, and planetary constraints. 
+The **Unified Design Kernel** provides a 96-cluster, 20-dimension virtual expansion space mapping every form of design—from UI/UX to service blueprints, business models, and planetary constraints.
 
 ## The 20 Design Dimensions
 

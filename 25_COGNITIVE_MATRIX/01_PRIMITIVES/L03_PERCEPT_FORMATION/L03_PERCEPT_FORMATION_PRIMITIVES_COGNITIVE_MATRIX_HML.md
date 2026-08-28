@@ -27,13 +27,13 @@ rscf:
 
 # L03_PERCEPT_FORMATION — HML
 
-**Class:** `COGNITIVE_PRIMITIVE_HML_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `HML.md`  
+**Class:** `COGNITIVE_PRIMITIVE_HML_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `HML.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
-> **Source boundary:** The AMOS Cross-Scale RSCF Tensor Engine defines the governing H/M/L model through typed cross-scale tensors, upward aggregation, downward constraint, explicit transformation edges, confidence ceilings, selective invalidation, scope/regime/observer propagation, sensitivity testing, and RSCF-bound tensor cells. It explicitly states that aggregation does not prove identity, local correlation does not prove macro causation, macro stability can coexist with local collapse, and downward constraint must remain distinct from downward causation. 
+> **Source boundary:** The AMOS Cross-Scale RSCF Tensor Engine defines the governing H/M/L model through typed cross-scale tensors, upward aggregation, downward constraint, explicit transformation edges, confidence ceilings, selective invalidation, scope/regime/observer propagation, sensitivity testing, and RSCF-bound tensor cells. It explicitly states that aggregation does not prove identity, local correlation does not prove macro causation, macro stability can coexist with local collapse, and downward constraint must remain distinct from downward causation.
 
 ---
 

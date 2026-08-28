@@ -24,7 +24,7 @@ rscf:
 ## AMOS Emotion Engine vInfinity
 
 ---
-title: "AMOS Emotion Engine vInfinity (AMOS_MEGA_HUMAN_ENGINE)"
+title: AMOS Emotion Engine vInfinity (AMOS_MEGA_HUMAN_ENGINE)
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Emotion_Engine_v0.json (439 lines, 15KB)"
 origin_type: "SOURCE"
@@ -66,7 +66,7 @@ valence, arousal, safety_estimate, agency_level, cognitive_capacity, load_level,
 ## AMOS Consciousness Engine vInfinity
 
 ---
-title: "AMOS Consciousness Engine vInfinity"
+title: AMOS Consciousness Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Consciousness_Engine_v0.json (632 lines, 27KB)"
 origin_type: "SOURCE"
@@ -109,7 +109,7 @@ tags: [amos, consciousness, engine, v-infinity, hie, human-interaction, emotiona
 ## AMOS Cognition Engine vInfinity
 
 ---
-title: "AMOS Cognition Engine vInfinity"
+title: AMOS Cognition Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Cognition_Engine_v0.json (397 lines, 16KB)"
 origin_type: "SOURCE"

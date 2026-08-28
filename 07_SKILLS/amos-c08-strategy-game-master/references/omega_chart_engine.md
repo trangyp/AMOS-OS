@@ -71,7 +71,7 @@ class PriceData:
     low: float
     close: float
     volume: int = 0
-    
+
 @dataclass
 class ChartOverlay:
     """Chart overlay configuration"""
@@ -108,20 +108,20 @@ class ChartConfiguration:
 
 class AMOSOmegaChartEngine:
     """AMOS OMEGA Live Chart Engine"""
-    
+
     def __init__(self):
         self.price_data: Dict[str, deque] = {}
         self.volatility_data: Dict[str, deque] = {}
         self.regime_data: Dict[str, deque] = {}
         self.shock_events: List[ShockEvent] = []
-        
+
         # Chart configuration
         self.default_config = ChartConfiguration(
             symbol="EURUSD",
             timeframe=Timeframe.H1,
             chart_type=ChartType.CANDLESTICK
         )
-        
+
         # Technical indicators
         self.indicators = {
             "sma_20": {"period": 20, "type": "sma"},
@@ -132,7 +132,7 @@ class AMOSOmegaChartEngine:
             "bollinger_lower": {"period": 20, "std": 2, "type": "bollinger"},
             "atr": {"period": 14, "type": "atr"}
         }
-        
+
         # Regime colors
         self.regime_colors = {
             "stable": "#10b981",      # Green
@@ -141,20 +141,20 @@ class AMOSOmegaChartEngine:
             "stressed": "#f97316",     # Dark Orange
             "crisis": "#991b1b"        # Dark Red
         }
-        
+
         # Initialize data storage
         self.max_data_points = 10000
         self._initialize_data_storage()
-    
+
     def _initialize_data_storage(self):
         """Initialize data storage for common symbols"""
         common_symbols = ["EURUSD", "GBPUSD", "USDJPY", "AUDUSD", "USDCAD"]
-        
+
         for symbol in common_symbols:
             self.price_data[symbol] = deque(maxlen=self.max_data_points)
             self.volatility_data[symbol] = deque(maxlen=self.max_data_points)
             self.regime_data[symbol] = deque(maxlen=self.max_data_points)
-    
+
     def add_price_data(self, symbol: str, data: PriceData) -> bool:
         """Add price data point"""
         try:

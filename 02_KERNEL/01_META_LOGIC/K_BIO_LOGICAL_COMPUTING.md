@@ -119,17 +119,17 @@ relations:
 
 # Kernel · Bio-Logical Computing
 
-> **Artifact:** `K_BIO_LOGICAL_COMPUTING.md`  
-> **Artifact ID:** `amos_02_kernel_01_meta_logic_k_bio_logical_computing`  
-> **Canonical address:** `02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md`  
-> **System:** AMOS OS  
-> **Plane:** `02_KERNEL`  
-> **Segment:** `01_META_LOGIC`  
-> **Artifact class:** `LOG`  
-> **Origin architect / steward:** **Trang Phan**  
-> **Status:** `PLACEHOLDER`  
-> **Canonical status:** `UNKNOWN/GAP`  
-> **Implementation:** `NOT_ESTABLISHED`  
+> **Artifact:** `K_BIO_LOGICAL_COMPUTING.md`
+> **Artifact ID:** `amos_02_kernel_01_meta_logic_k_bio_logical_computing`
+> **Canonical address:** `02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md`
+> **System:** AMOS OS
+> **Plane:** `02_KERNEL`
+> **Segment:** `01_META_LOGIC`
+> **Artifact class:** `LOG`
+> **Origin architect / steward:** **Trang Phan**
+> **Status:** `PLACEHOLDER`
+> **Canonical status:** `UNKNOWN/GAP`
+> **Implementation:** `NOT_ESTABLISHED`
 > **Validation:** `NOT_ESTABLISHED`
 
 ---

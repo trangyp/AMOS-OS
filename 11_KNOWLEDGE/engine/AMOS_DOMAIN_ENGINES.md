@@ -35,7 +35,7 @@ rscf:
 
 # AMOS Domain Engines
 
-Full inventory of domain engines from `_00_AMOS_CANON/Domains/`.  
+Full inventory of domain engines from `_00_AMOS_CANON/Domains/`.
 Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 ---

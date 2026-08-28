@@ -352,10 +352,37 @@ jobs:
             skill-catalog-index.json
           retention-days: 30
 
+  quality-score:
+    name: Quality Score
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run quality scorer
+        run: |
+          python3 scripts/skill_quality_scorer.py --report skill-quality-report.md --min-score 80 2>&1 | tee quality.log
+
+      - name: Upload quality report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: skill-quality-report
+          path: skill-quality-report.md
+          retention-days: 30
+
   summary:
     name: Audit Summary
     runs-on: ubuntu-latest
-    needs: [validate, security, integrity, dependency-graph, token-budget, eval-harness, version-check, bom-check, regression-test, binding-check, guardrail-check]
+    needs: [validate, security, integrity, dependency-graph, token-budget, eval-harness, version-check, bom-check, regression-test, binding-check, guardrail-check, quality-score]
     if: always()
     timeout-minutes: 5
     permissions:
@@ -379,3 +406,4 @@ jobs:
           echo "| Regression | ${{ needs.regression-test.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Binding | ${{ needs.binding-check.result }} |" >> $GITHUB_STEP_SUMMARY
           echo "| Guardrail | ${{ needs.guardrail-check.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Quality Score | ${{ needs.quality-score.result }} |" >> $GITHUB_STEP_SUMMARY

@@ -813,7 +813,7 @@ WHAT IT SUPERSEDES
 WHAT SUPERSEDES IT
 ```
 
-The source reference currently available for the canon-governance architecture attributes origin/stewardship to Trang Phan and identifies the master source as a draft canon rather than independently verified empirical truth. 
+The source reference currently available for the canon-governance architecture attributes origin/stewardship to Trang Phan and identifies the master source as a draft canon rather than independently verified empirical truth.
 
 ---
 

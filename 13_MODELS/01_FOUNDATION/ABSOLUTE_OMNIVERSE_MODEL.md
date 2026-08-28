@@ -2,7 +2,7 @@ The placeholder can now be populated from the native `ABSOLUTE OMNIVERSE U∞` c
 
 ````markdown
 ---
-title: "Absolute Omniverse Model"
+title: Absolute Omniverse Model
 aliases:
   - "Absolute Omniverse"
   - "Absolute Omniverse U∞"
@@ -132,7 +132,6 @@ tags:
   - add_only
   - native_canon_ingestion
   - canon/model
-
 rscf:
   state: DERIVED
   claim_class: DERIVED

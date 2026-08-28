@@ -224,8 +224,8 @@ gaps:
 > [!abstract] Contract
 > `STATE STATE CONTRACT` defines the State-plane contract governing authoritative state records and state-versioned artifacts as they bear on `STATE CONTRACT`.
 >
-> **Epistemic status:** `AMOS_MODEL`  
-> **Canonical status:** `CONDITIONAL`  
+> **Epistemic status:** `AMOS_MODEL`
+> **Canonical status:** `CONDITIONAL`
 > **Implementation:** `PARTIAL`
 >
 > This contract must not be represented as fully executed or empirically validated until its open runtime, persistence, and artifact-specific validation gaps are closed.

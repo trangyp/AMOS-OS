@@ -114,8 +114,8 @@ rscf:
 
 **Origin architect / steward:** Trang Phan
 
-> **Status:** `ACTIVE_MOC`  
-> **AMOS_CORE target:** `v4.4`  
+> **Status:** `ACTIVE_MOC`
+> **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `SOURCE_CLAIM / AMOS_MODEL`
 
 ---
@@ -175,7 +175,7 @@ FAILURE
 RECOVERY
 ```
 
-The Full Brain OS source is treated as a structural orchestration specification, not evidence of literal consciousness, embodiment, or autonomous authority. 
+The Full Brain OS source is treated as a structural orchestration specification, not evidence of literal consciousness, embodiment, or autonomous authority.
 
 ---
 
@@ -557,7 +557,7 @@ identity continuity models
 expression coordination
 ```
 
-AMOS Full Brain OS should be interpreted structurally; its declared biological, emotional, somatic, and consciousness-adjacent layers are model lenses unless separately validated. 
+AMOS Full Brain OS should be interpreted structurally; its declared biological, emotional, somatic, and consciousness-adjacent layers are model lenses unless separately validated.
 
 ---
 
@@ -1137,7 +1137,7 @@ design
 ecology
 ```
 
-AMOS Full Brain OS describes broad coverage across these types of domains, but availability does not mean automatic activation. 
+AMOS Full Brain OS describes broad coverage across these types of domains, but availability does not mean automatic activation.
 
 Hard routing rule:
 
@@ -1877,11 +1877,11 @@ RSCF_NODE_INDEX
 
 # 45. Source Boundary
 
-The primary AMOS Full Brain OS source defines a structural orchestration system and explicitly requires uncertainty, explicit assumptions, conservative conclusions, and truthfulness about limits. 
+The primary AMOS Full Brain OS source defines a structural orchestration system and explicitly requires uncertainty, explicit assumptions, conservative conclusions, and truthfulness about limits.
 
-Its operationalization as an AMOS Skill preserves the same boundary: biological, emotional, somatic, and bioelectromagnetic structures should be treated as model lenses unless independently validated. 
+Its operationalization as an AMOS Skill preserves the same boundary: biological, emotional, somatic, and bioelectromagnetic structures should be treated as model lenses unless independently validated.
 
-The associated canon note explicitly states that preservation of an AMOS framework, equation, ontology, target, or architecture does not establish external empirical validity. 
+The associated canon note explicitly states that preservation of an AMOS framework, equation, ontology, target, or architecture does not establish external empirical validity.
 
 ---
 

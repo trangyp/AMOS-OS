@@ -48,9 +48,9 @@ aliases:
 ---
 
 # AMOS OS Kernel Map
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** `v4.4`  
-> **Conclusion class:** `AMOS_MODEL`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** `v4.4`
+> **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
 ## 1. Purpose
 `KERNEL_MAP.md` defines the canonical topology of the AMOS OS kernel plane.

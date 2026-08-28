@@ -50,10 +50,10 @@ aliases:
 ---
 
 # K CAUSAL EPOCH
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Plane:** `02_KERNEL`  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Plane:** `02_KERNEL`
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `K_CAUSAL_EPOCH` defines the AMOS kernel model for establishing, identifying, validating, finalizing, superseding, and recovering **bounded causal epochs**.

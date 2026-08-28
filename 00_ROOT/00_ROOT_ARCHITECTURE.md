@@ -69,9 +69,9 @@ tags:
 ---
 
 # AMOS OS Architecture
-> **Architecture state:** `ACTIVE_ARCHITECTURE`  
-> **AMOS_CORE target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
+> **Architecture state:** `ACTIVE_ARCHITECTURE`
+> **AMOS_CORE target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
 > **Conclusion class:** `SOURCE_CLAIM / AMOS_MODEL`
 AMOS OS is organized as a **governed recursive operating architecture** rather than a single monolithic engine.
 Its root responsibility is to connect:
@@ -125,7 +125,7 @@ Its functions are:
 9. expose observability, validation, security, and lifecycle state;
 10. permit expansion without weakening structural integrity.
 
-AMOS Full Brain OS itself is defined as a structural container joining brain-core, omni-kernel, omniverse, personality, and expression layers while explicitly preserving capability limits. 
+AMOS Full Brain OS itself is defined as a structural container joining brain-core, omni-kernel, omniverse, personality, and expression layers while explicitly preserving capability limits.
 
 ---
 
@@ -144,7 +144,7 @@ perfect prediction
 empirical proof of every AMOS model
 ```
 
-The Full Brain OS corpus explicitly distinguishes its structural architecture from real embodiment, real consciousness, autonomous world action, and private-data access outside supplied context or tools. 
+The Full Brain OS corpus explicitly distinguishes its structural architecture from real embodiment, real consciousness, autonomous world action, and private-data access outside supplied context or tools.
 
 Therefore:
 
@@ -199,7 +199,7 @@ AMOS_OS/
 └── 25_COGNITIVE_MATRIX
 ```
 
-This root map is already represented in `SYSTEM_MAP.md`; `FULL_TREE.md` carries the more detailed placement tree.  
+This root map is already represented in `SYSTEM_MAP.md`; `FULL_TREE.md` carries the more detailed placement tree.
 
 ---
 
@@ -279,7 +279,7 @@ routing primitives
 dependency evaluation
 ```
 
-AMOS_CORE lineage places deterministic reasoning at the base and progressively adds recursive RSCF, H/M/L, provenance, regime handling, transactional concepts, and coordination avoidance through v4.4. 
+AMOS_CORE lineage places deterministic reasoning at the base and progressively adds recursive RSCF, H/M/L, provenance, regime handling, transactional concepts, and coordination avoidance through v4.4.
 
 Hard rule:
 
@@ -311,7 +311,7 @@ execution permission
 lifecycle transitions
 ```
 
-The AMOS Omega stack describes this general orchestration role through request parsing, domain scoping, constraint locking, routing, coordinated execution, synthesis, and validation. 
+The AMOS Omega stack describes this general orchestration role through request parsing, domain scoping, constraint locking, routing, coordinated execution, synthesis, and validation.
 
 Hard rule:
 
@@ -373,7 +373,7 @@ identity continuity models
 expression coordination
 ```
 
-AMOS cognition sources separate higher-order laws, structural reasoning, cognitive infrastructure, multi-hypothesis reasoning, biological-model constraints, and integration. 
+AMOS cognition sources separate higher-order laws, structural reasoning, cognitive infrastructure, multi-hypothesis reasoning, biological-model constraints, and integration.
 
 This layer is a **structural cognitive architecture** and must not be treated as proof of literal biological cognition.
 
@@ -499,7 +499,7 @@ negative memory
 authority-sensitive memory
 ```
 
-The cognition corpus distinguishes working, canonical, and case memory classes. 
+The cognition corpus distinguishes working, canonical, and case memory classes.
 
 Hard rule:
 
@@ -748,7 +748,7 @@ performance
 compatibility
 ```
 
-Reported AMOS_CORE benchmark success is scoped to its tested corpus and must not be generalized into universal correctness. 
+Reported AMOS_CORE benchmark success is scoped to its tested corpus and must not be generalized into universal correctness.
 
 ---
 
@@ -778,7 +778,7 @@ Domain-specific knowledge and capability families.
 
 Domain routing should occur only when materially relevant.
 
-The Full Brain OS source declares broad domains spanning meta-logic, mathematics, physics, biology, cognition, society, economics, strategy, law, technology, design, and ecology. 
+The Full Brain OS source declares broad domains spanning meta-logic, mathematics, physics, biology, cognition, society, economics, strategy, law, technology, design, and ecology.
 
 Hard rule:
 
@@ -883,7 +883,7 @@ M = system body / mediator / institution / translation layer
 L = local event / cell / action / token / move
 ```
 
-and emphasizes that M mediates H and L. 
+and emphasizes that M mediates H and L.
 
 For AMOS OS:
 
@@ -1025,7 +1025,7 @@ OPTIONAL EFFECT
 OBSERVATION / RECEIPT
 ```
 
-This is consistent with AMOS meta-orchestration patterns in the source corpus. 
+This is consistent with AMOS meta-orchestration patterns in the source corpus.
 
 ---
 
@@ -1067,7 +1067,7 @@ unless the premise has been independently revalidated.
 
 # 10. Competing Hypotheses
 
-AMOS_CORE introduced explicit preservation of competing hypotheses in the v3.6 lineage after earlier premature-collapse failures. 
+AMOS_CORE introduced explicit preservation of competing hypotheses in the v3.6 lineage after earlier premature-collapse failures.
 
 Therefore:
 
@@ -1196,7 +1196,7 @@ L detail
 raw evidence
 ```
 
-and a default policy that raw source evidence should not be loaded unless required. 
+and a default policy that raw source evidence should not be loaded unless required.
 
 Canonical retrieval flow:
 
@@ -1239,7 +1239,7 @@ Otherwise escalate.
 
 # 16. Fast Path — v4.4
 
-AMOS_CORE v4.4 adds proof-based coordination avoidance as the latest preserved lineage step. 
+AMOS_CORE v4.4 adds proof-based coordination avoidance as the latest preserved lineage step.
 
 Architecture interpretation:
 
@@ -1320,9 +1320,9 @@ AMOS contains many formal, symbolic, biological, cognitive, quantum-like, and un
 
 These should remain classed appropriately.
 
-The Universal Field Architecture explicitly states that its architecture is a conceptual runtime specification and does not prove consciousness. 
+The Universal Field Architecture explicitly states that its architecture is a conceptual runtime specification and does not prove consciousness.
 
-The Trang ∅ framework similarly marks itself as a theory framework rather than empirical proof. 
+The Trang ∅ framework similarly marks itself as a theory framework rather than empirical proof.
 
 Therefore:
 
@@ -1443,7 +1443,7 @@ personality
 expression_translation
 ```
 
-with broad domain coverage and UBI-oriented model lenses. 
+with broad domain coverage and UBI-oriented model lenses.
 
 Within AMOS OS, these should be treated as composable architectural subsystems rather than one inseparable runtime block.
 
@@ -1473,7 +1473,7 @@ expression
 
 but human-like state models remain structural models.
 
-The human-intelligence source explicitly says these layers approximate human-facing patterns and are not biological persons or real subjective states. 
+The human-intelligence source explicitly says these layers approximate human-facing patterns and are not biological persons or real subjective states.
 
 ---
 
@@ -1780,7 +1780,7 @@ QUARANTINED
 
 # 34. Atomicity Boundary
 
-AMOS_CORE v4.1 introduces transactional multi-RSCF atomicity as a runtime concept in its preserved lineage. 
+AMOS_CORE v4.1 introduces transactional multi-RSCF atomicity as a runtime concept in its preserved lineage.
 
 Architecture interpretation:
 
@@ -1804,7 +1804,7 @@ Do not claim transactional guarantees where no executable transaction layer exis
 
 # 35. Temporal / Epoch Boundary
 
-AMOS_CORE v4.2 and v4.3 introduce causal epoch finality and hardened shard-local finalization concepts. 
+AMOS_CORE v4.2 and v4.3 introduce causal epoch finality and hardened shard-local finalization concepts.
 
 At architecture level:
 
@@ -1962,7 +1962,7 @@ Claims such as:
 
 must always retain their tested scope.
 
-The AMOS_CORE archive explicitly warns that benchmark results and latency figures are scoped reports rather than universal guarantees. 
+The AMOS_CORE archive explicitly warns that benchmark results and latency figures are scoped reports rather than universal guarantees.
 
 ---
 

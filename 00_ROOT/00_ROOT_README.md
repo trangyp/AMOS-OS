@@ -72,8 +72,8 @@ aliases:
 
 # AMOS OS
 **Origin architect / steward:** Trang Phan
-> **Status:** `ACTIVE_ROOT`  
-> **AMOS_CORE target:** `v4.4`  
+> **Status:** `ACTIVE_ROOT`
+> **AMOS_CORE target:** `v4.4`
 > **Conclusion class:** `AMOS_MODEL`
 AMOS OS is the governed infrastructure, cognition, knowledge, agent, skill, workflow, protocol, memory, state, control, runtime, tool, model, security, validation, and operations architecture of the AMOS ecosystem.
 It is intentionally decomposed into authoritative planes so that semantic authority, computation, execution, knowledge, capability, and external effects remain distinguishable.

@@ -27,7 +27,7 @@ rscf:
 ```markdown
 ---
 tags: ['canon', 'core_laws', 'scope', 'regime', 'temporal', 'freshness', 'applicability', 'rscf', 'governance']
-title: "L5 Scope, Regime, and Temporal Laws"
+title: L5 Scope, Regime, and Temporal Laws
 origin_architect: "Trang Phan"
 status: "AMOS_MODEL"
 canon_status: "PROPOSED_CANON_CONTENT"
@@ -36,9 +36,9 @@ epistemic_class: "AMOS_MODEL"
 
 # L5 Scope, Regime, and Temporal Laws
 
-**Origin architect / steward:** Trang Phan  
-**Layer:** `01_CANON / 01_CORE_LAWS / L5_SCOPE_REGIME`  
-**Artifact class:** `CORE_LAW_CONTRACT`  
+**Origin architect / steward:** Trang Phan
+**Layer:** `01_CANON / 01_CORE_LAWS / L5_SCOPE_REGIME`
+**Artifact class:** `CORE_LAW_CONTRACT`
 **Status:** `AMOS_MODEL — requires canon approval / provenance validation`
 
 > L5 governs **where, when, under which conditions, and for how long** an AMOS claim, rule, dependency, causal relation, model, decision, capability, or proof capsule remains applicable.

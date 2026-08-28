@@ -49,9 +49,9 @@ aliases:
 ---
 
 # AMOS OS Dependency Map
-> **AMOS Core target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
-> **Status:** `AMOS_MODEL`  
+> **AMOS Core target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
+> **Status:** `AMOS_MODEL`
 > **Conclusion class:** `AMOS_MODEL`
 ## Purpose
 `DEPENDENCY_MAP` defines the root dependency topology for AMOS OS.

@@ -25,10 +25,10 @@ rscf:
 
 # L02_ATTENTION — Memory
 
-**Class:** `COGNITIVE_PRIMITIVE_MEMORY_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `MEMORY.md`  
+**Class:** `COGNITIVE_PRIMITIVE_MEMORY_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `MEMORY.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** Drive evidence confirms that AMOS treats `MEMORY` as an explicit cognitive-cell concern, while the primitive registry separately identifies `L07 — MEMORY` with only partial source maturity. Therefore this artifact defines **memory used by L02 attention**, not the canonical semantics of the dedicated L07 memory primitive.
@@ -95,7 +95,7 @@ REVALIDATION
 
 ## 1.1 Direct Drive evidence
 
-The AMOS cognitive-cell registry contains explicit `MEMORY` cells and marks durable-memory binding as requiring control-plane treatment rather than treating addressability as validation. 
+The AMOS cognitive-cell registry contains explicit `MEMORY` cells and marks durable-memory binding as requiring control-plane treatment rather than treating addressability as validation.
 
 The primitive registry separately lists:
 
@@ -103,11 +103,11 @@ The primitive registry separately lists:
 L07 — MEMORY — source maturity partial
 ```
 
-which establishes an important namespace boundary: memory is itself a dedicated primitive elsewhere in the cognitive architecture. 
+which establishes an important namespace boundary: memory is itself a dedicated primitive elsewhere in the cognitive architecture.
 
 ## 1.2 L02 source basis
 
-Available AMOS corpus search also identifies the large `AMOS_CORE - FULL.md` lineage artifact as a relevant source candidate for attention semantics, but the search result alone does not establish a canonical L02 memory contract. 
+Available AMOS corpus search also identifies the large `AMOS_CORE - FULL.md` lineage artifact as a relevant source candidate for attention semantics, but the search result alone does not establish a canonical L02 memory contract.
 
 Therefore:
 
@@ -645,7 +645,7 @@ CONTROL PLANE:
   DELETE
 ```
 
-Drive evidence supports the general need to distinguish memory addressability from durable control-plane validation. 
+Drive evidence supports the general need to distinguish memory addressability from durable control-plane validation.
 
 ---
 

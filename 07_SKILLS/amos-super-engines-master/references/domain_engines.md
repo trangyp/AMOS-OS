@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Domain Engines — Full Inventory"
+title: AMOS Domain Engines — Full Inventory
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Domains/"
 origin_architect: "Trang Phan"
@@ -34,7 +34,7 @@ source: "Google Drive /_00_AMOS_CANON/Domains/ (4 subfolders, 15 engine JSON fil
 
 # AMOS Domain Engines
 
-Full inventory of domain engines from `_00_AMOS_CANON/Domains/`.  
+Full inventory of domain engines from `_00_AMOS_CANON/Domains/`.
 Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 ---

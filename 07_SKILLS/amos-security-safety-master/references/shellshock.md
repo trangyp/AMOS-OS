@@ -33,7 +33,7 @@ How CGI's Work (Common Gateway Interface)
 * When you call it, server starts process to run CGI
    	* Maybe that is a bash process to run CGI script
 * Server passes info to CGI Script
-   	* Uses envrionmental variables 
+   	* Uses envrionmental variables
    	* allows server to send headers to CGI
    	* e.g. http header “abc” is an EV called HTTP_ABC
 

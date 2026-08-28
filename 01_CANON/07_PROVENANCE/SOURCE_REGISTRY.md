@@ -42,9 +42,9 @@ aliases:
 ---
 
 # AMOS OS Source Registry
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** `v4.4`  
-> **Conclusion class:** `AMOS_MODEL`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** `v4.4`
+> **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
 ## 1. Purpose
 `SOURCE_REGISTRY.md` defines the canonical AMOS OS contract for registering, identifying, classifying, resolving, and auditing sources used by canon, knowledge, RSCFs, models, agents, decisions, tests, and derived artifacts.

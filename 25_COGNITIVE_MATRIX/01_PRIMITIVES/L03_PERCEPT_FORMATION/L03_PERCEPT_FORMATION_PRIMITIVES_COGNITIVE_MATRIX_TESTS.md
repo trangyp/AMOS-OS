@@ -27,10 +27,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Tests
 
-**Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `TESTS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_TEST_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `TESTS.md`
 **Status:** `AMOS_MODEL / UNEXECUTED / UNVALIDATED`
 
 ## 0. Purpose

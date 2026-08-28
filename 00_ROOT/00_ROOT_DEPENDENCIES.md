@@ -18,7 +18,7 @@ rscf:
 
 ```yaml
 ---
-title: "AMOS OS Root Dependencies"
+title: AMOS OS Root Dependencies
 artifact: "00_ROOT_DEPENDENCIES.md"
 artifact_id: "AMOS_ROOT_DEPENDENCIES_000"
 origin_architect: "Trang Phan"

@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Academic Writing Engine vInfinity"
+title: AMOS Academic Writing Engine vInfinity
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Kernels/Logic/AMOS_Academic_Writing_Kernal_Engine_v0.json (75KB, massive multi-layer engine)"
 origin_type: "SOURCE"

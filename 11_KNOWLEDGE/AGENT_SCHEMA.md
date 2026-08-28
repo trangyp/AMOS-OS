@@ -42,10 +42,10 @@ rscf:
 
 # AMOS Agent Schema — Full Governed Specification
 
-> **Schema version:** `3.0.0`  
-> **Supersedes:** `2.0.0-full`  
-> **AMOS_CORE target:** `v4.4`  
-> **Origin architect / steward:** Trang Phan  
+> **Schema version:** `3.0.0`
+> **Supersedes:** `2.0.0-full`
+> **AMOS_CORE target:** `v4.4`
+> **Origin architect / steward:** Trang Phan
 > **Conclusion class:** `AMOS_MODEL`
 
 The AMOS Agent Schema is the canonical construction contract for defining an agent inside the AMOS / Unified OS ecosystem.

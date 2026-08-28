@@ -23,12 +23,12 @@ rscf:
 
 # L01_SENSING_OBSERVATION — Definition
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`  
-**Primitive:** `L01_SENSING_OBSERVATION`  
-**Artifact:** `DEFINITION.md`  
-**Status:** `STRUCTURAL CONTRACT / SOURCE-GAP BOUNDED`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Architecture:** `AMOS_OS / COGNITIVE_MATRIX`
+**Primitive:** `L01_SENSING_OBSERVATION`
+**Artifact:** `DEFINITION.md`
+**Status:** `STRUCTURAL CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `MODEL / CONDITIONAL`
 
 > **Canon boundary:** The supplied placeholder establishes that `L01_SENSING_OBSERVATION` is an addressable AMOS cognitive primitive and specifies the required completion surface. It does not, by itself, establish a complete canonical definition or an implemented sensing runtime. The contract below conservatively defines the primitive using the supplied L00/L01 structure and AMOS evidence, provenance, epistemic, H/M/L, RSCF, and control-plane principles. Direct source-canon claims remain bounded by available evidence.

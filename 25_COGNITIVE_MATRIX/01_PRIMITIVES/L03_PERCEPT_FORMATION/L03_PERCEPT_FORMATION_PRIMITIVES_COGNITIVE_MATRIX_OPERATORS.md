@@ -27,13 +27,13 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Operators
 
-**Class:** `COGNITIVE_PRIMITIVE_OPERATOR_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `OPERATORS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_OPERATOR_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `OPERATORS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
-> **Source boundary:** The AMOS Information Operator Engine treats information operators as structural transformations unless a domain-specific mechanism is independently established. Its source-aligned workflow requires explicit input state, target state, representation, minimal operator selection, ordered application, invariant tracking, information-loss/reversibility tracking, invalid-composition detection, and an explicit operator trace with output state and failure conditions. 
+> **Source boundary:** The AMOS Information Operator Engine treats information operators as structural transformations unless a domain-specific mechanism is independently established. Its source-aligned workflow requires explicit input state, target state, representation, minimal operator selection, ordered application, invariant tracking, information-loss/reversibility tracking, invalid-composition detection, and an explicit operator trace with output state and failure conditions.
 
 ---
 

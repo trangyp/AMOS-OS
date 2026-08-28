@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Grand Cannon Mobility Model"
+title: AMOS Grand Cannon Mobility Model
 created: "2026-08-22"
 origin_architect: "Trang Phan"
 type: "brain_model"
@@ -49,7 +49,7 @@ A multi-dimensional table mapping structure:
 - **Product Mapping**: Aligning EV and mobility solutions with market needs and social realities in Vietnam.
 
 #### 2. Deterministic Fact/Rule Queries
-Unlike narrative engines, the Grand Cannon provides strict, queryable facts and rules. 
+Unlike narrative engines, the Grand Cannon provides strict, queryable facts and rules.
 - *If [Driver Segment X] faces [Risk Condition Y], then [Reward Transition Z] is required.*
 
 #### 3. Vietnam Context Integration

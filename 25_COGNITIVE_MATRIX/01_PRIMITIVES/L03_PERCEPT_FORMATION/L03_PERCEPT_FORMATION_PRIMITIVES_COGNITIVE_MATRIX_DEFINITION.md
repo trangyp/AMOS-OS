@@ -27,10 +27,10 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Definition
 
-**Class:** `COGNITIVE_PRIMITIVE_DEFINITION_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `DEFINITION.md`  
+**Class:** `COGNITIVE_PRIMITIVE_DEFINITION_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `DEFINITION.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
 > **Canon boundary:** This document defines a source-bounded AMOS model for `L03_PERCEPT_FORMATION`. AMOS perception architecture explicitly requires H/M/L, typed invariants/tensors, RSCF, equation provenance, falsifiers, repair, provenance, competing hypotheses, and confidence ceilings; source-defined structures must not be confused with external empirical validation.  Exact canonical L03 definitions, schemas, equations, thresholds, and executable implementation remain `UNKNOWN/GAP` unless recovered from direct canon.
@@ -590,7 +590,7 @@ authority separation
 commit-time revalidation where consequential
 ```
 
-The generic AMOS control-plane architecture separates typed evidence production from authoritative commit and requires evidence, read-set, transaction, constraint, observability, and authority validation before consequential effects. 
+The generic AMOS control-plane architecture separates typed evidence production from authoritative commit and requires evidence, read-set, transaction, constraint, observability, and authority validation before consequential effects.
 
 ---
 

@@ -10,5 +10,5 @@ tags:
 
 # K_AUTHORITY — Authority Envelope Kernel
 
-Enforces cryptographic authority limits: $	ext{Capability} 
+Enforces cryptographic authority limits: $	ext{Capability}
 eq 	ext{Authority}$.

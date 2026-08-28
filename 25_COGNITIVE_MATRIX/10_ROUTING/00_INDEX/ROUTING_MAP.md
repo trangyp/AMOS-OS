@@ -23,15 +23,15 @@ tags: [note]
 
 # ROUTING MAP
 
-**STATUS:** ACTIVE_REFERENCE_MAP  
-**epistemic_class:** AMOS_MODEL  
-**canonical_status:** CONDITIONAL  
-**updated:** 2026-08-26  
+**STATUS:** ACTIVE_REFERENCE_MAP
+**epistemic_class:** AMOS_MODEL
+**canonical_status:** CONDITIONAL
+**updated:** 2026-08-26
 
-**System:** AMOS OS  
-**Plane:** Cognitive Matrix  
-**Subsystem:** Routing  
-**Segment:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX`  
+**System:** AMOS OS
+**Plane:** Cognitive Matrix
+**Subsystem:** Routing
+**Segment:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX`
 **Canonical Path:** `25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX/ROUTING_MAP.md`
 
 ---

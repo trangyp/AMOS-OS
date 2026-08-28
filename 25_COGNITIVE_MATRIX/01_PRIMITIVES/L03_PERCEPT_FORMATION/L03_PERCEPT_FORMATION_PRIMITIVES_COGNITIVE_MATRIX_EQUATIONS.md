@@ -27,13 +27,13 @@ rscf:
 
 # L03_PERCEPT_FORMATION — Equations
 
-**Class:** `COGNITIVE_PRIMITIVE_EQUATION_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L03_PERCEPT_FORMATION`  
-**Artifact:** `EQUATIONS.md`  
+**Class:** `COGNITIVE_PRIMITIVE_EQUATION_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L03_PERCEPT_FORMATION`
+**Artifact:** `EQUATIONS.md`
 **Status:** `AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED`
 
-> **Equation boundary:** The AMOS Mathematical Rigor RSCF Kernel requires equations to carry identity, expression, type, variables, units/types, assumptions, scope, provenance, validation status, falsifier, and implementation mapping. It explicitly requires framework equations to remain `AMOS_MODEL` unless independently established, separates numerical evidence from symbolic proof, blocks proof promotion for undefined variables or type/unit mismatch, and propagates confidence/invalidation through load-bearing dependencies. 
+> **Equation boundary:** The AMOS Mathematical Rigor RSCF Kernel requires equations to carry identity, expression, type, variables, units/types, assumptions, scope, provenance, validation status, falsifier, and implementation mapping. It explicitly requires framework equations to remain `AMOS_MODEL` unless independently established, separates numerical evidence from symbolic proof, blocks proof promotion for undefined variables or type/unit mismatch, and propagates confidence/invalidation through load-bearing dependencies.
 
 ---
 

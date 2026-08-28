@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "UBI Official Manual — 4 Biological Intelligence Domains"
+title: UBI Official Manual — 4 Biological Intelligence Domains
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/training/UBI_Official_Manual.pdf"
 origin_architect: "Trang Phan"

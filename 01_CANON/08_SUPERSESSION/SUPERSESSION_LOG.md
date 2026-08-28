@@ -40,9 +40,9 @@ aliases:
 ---
 
 # AMOS OS Supersession Log
-> **Origin architect / steward:** Trang Phan  
-> **AMOS Core target:** `v4.4`  
-> **Conclusion class:** `AMOS_MODEL`  
+> **Origin architect / steward:** Trang Phan
+> **AMOS Core target:** `v4.4`
+> **Conclusion class:** `AMOS_MODEL`
 > **Status:** `SOURCE_CLAIM`
 ## 1. Purpose
 `SUPERSESSION_LOG.md` defines the canonical AMOS OS contract for recording governed replacement of one canonical artifact, rule, definition, model, protocol, or other versioned semantic object by another.

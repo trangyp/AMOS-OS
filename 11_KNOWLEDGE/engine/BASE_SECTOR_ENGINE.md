@@ -41,7 +41,7 @@ class BaseSectorEngine(ABC):
     @abstractmethod
     def assess_current_state(self, ctx: OmegaContext) -> Dict[str, Any]:
         """Assess current state of the sector.
-        
+
         Returns a structured assessment of the current state.
         """
         pass
@@ -49,7 +49,7 @@ class BaseSectorEngine(ABC):
     @abstractmethod
     def define_target_state(self, ctx: OmegaContext) -> Dict[str, Any]:
         """Define target state for the sector.
-        
+
         Returns a structured definition of the target state.
         """
         pass
@@ -57,7 +57,7 @@ class BaseSectorEngine(ABC):
     @abstractmethod
     def plan_transition(self, ctx: OmegaContext) -> Dict[str, Any]:
         """Plan transition from current to target state.
-        
+
         Returns a structured transition plan.
         """
         pass
@@ -69,19 +69,19 @@ class BaseSectorEngine(ABC):
         task_metadata: Optional[Dict[str, Any]] = None,
     ) -> OmegaContext:
         """Orchestrate domain engines for sector transformation.
-        
+
         This is a default implementation that can be overridden.
         """
         # Add domains to context
         for domain_id in domain_ids:
             ctx.add_domain(domain_id)
-        
+
         ctx.note(f"Sector {self.sector_id} orchestrating domains: {domain_ids}")
         return ctx
 
     def synthesise_output(self, ctx: OmegaContext) -> Dict[str, Any]:
         """Synthesise final output from sector transformation.
-        
+
         Returns a structured output summary.
         """
         return {

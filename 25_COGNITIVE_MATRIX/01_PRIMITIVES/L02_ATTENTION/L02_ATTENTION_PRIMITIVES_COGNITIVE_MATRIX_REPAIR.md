@@ -27,10 +27,10 @@ rscf:
 
 # L02_ATTENTION — Repair
 
-**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`  
-**Origin architect / steward:** Trang Phan  
-**Primitive:** `L02_ATTENTION`  
-**Artifact:** `REPAIR.md`  
+**Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
+**Origin architect / steward:** Trang Phan
+**Primitive:** `L02_ATTENTION`
+**Artifact:** `REPAIR.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
 > **Canon boundary:** available L02 material supports attention allocation and budgeting of scarce reasoning/observation resources. The repair architecture below is an AMOS-aligned model for restoring corrupted attention-allocation state. It is not asserted as recovered canonical L02 repair logic or as an implemented runtime.

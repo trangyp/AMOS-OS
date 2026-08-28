@@ -16,7 +16,7 @@ rscf:
 
 # AMOS OS — Cognitive Matrix Integration
 
-**Origin architect / steward:** Trang Phan  
+**Origin architect / steward:** Trang Phan
 **System role:** Cognitive coordinate layer inside AMOS OS
 
 ## Canonical placement

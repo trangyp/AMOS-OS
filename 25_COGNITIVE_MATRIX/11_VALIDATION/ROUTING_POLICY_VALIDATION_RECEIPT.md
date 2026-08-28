@@ -23,10 +23,10 @@ tags: [note]
 
 # Routing Policy Validator — Execution Receipt
 
-**STATUS:** EXECUTED_VALIDATION_EVIDENCE  
-**Conclusion:** PARTIAL  
-**Epistemic class:** DERIVED  
-**Artifact class:** VALIDATION_EVIDENCE  
+**STATUS:** EXECUTED_VALIDATION_EVIDENCE
+**Conclusion:** PARTIAL
+**Epistemic class:** DERIVED
+**Artifact class:** VALIDATION_EVIDENCE
 **Contract class:** EXECUTED_VALIDATION_RECEIPT
 
 ---

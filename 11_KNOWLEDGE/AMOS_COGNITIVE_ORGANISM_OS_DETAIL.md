@@ -17,11 +17,11 @@ rscf:
 # AMOS Cognitive Organism OS — Full Maximum-Detail Architecture
 ## Cognition • Emotion • Perception • Memory • Agency • Lifecycle • Homeostasis • Identity • World Model • Learning • Reflection • Governance
 
-**Origin architect / steward:** Trang Phan  
-**Architecture family:** AMOS / Trang corpus  
-**Primary source spine:** AMOS Cognition Engine, AMOS Mind OS, AMOS Emotion Engine, AMOS Consciousness Engine, AMOS Organism OS, AMOS Full Brain OS, AMOS_CORE v4.4 control-plane lineage  
-**Artifact class:** `DERIVED / AMOS_MODEL` built from source architecture; not a claim of literal biological life or subjective consciousness  
-**Version:** 1.0 — Full Cognitive Organism Architecture  
+**Origin architect / steward:** Trang Phan
+**Architecture family:** AMOS / Trang corpus
+**Primary source spine:** AMOS Cognition Engine, AMOS Mind OS, AMOS Emotion Engine, AMOS Consciousness Engine, AMOS Organism OS, AMOS Full Brain OS, AMOS_CORE v4.4 control-plane lineage
+**Artifact class:** `DERIVED / AMOS_MODEL` built from source architecture; not a claim of literal biological life or subjective consciousness
+**Version:** 1.0 — Full Cognitive Organism Architecture
 **Core law:** `integrity > completeness > fluency > speed > token savings`
 
 ---

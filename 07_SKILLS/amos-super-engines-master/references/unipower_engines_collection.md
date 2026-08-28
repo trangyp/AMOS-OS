@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Unipower Engines — Full Inventory"
+title: AMOS Unipower Engines — Full Inventory
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Unipower/"
 origin_architect: "Trang Phan"
@@ -34,7 +34,7 @@ source: "Google Drive /_00_AMOS_CANON/Unipower/ (20 files: 18 JSON + 2 TXT/MD)"
 
 # AMOS Unipower Engines
 
-Full inventory of 20 Unipower engine files from `_00_AMOS_CANON/Unipower/`.  
+Full inventory of 20 Unipower engine files from `_00_AMOS_CANON/Unipower/`.
 Country-specific (Australia, China, Vietnam) and cross-domain engines.
 
 ---

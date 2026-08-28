@@ -24,7 +24,7 @@ rscf:
 **Status:** `STRUCTURAL TEST CONTRACT / SOURCE-GAP BOUNDED`
 **Conclusion class:** `MODEL / CONDITIONAL`
 
-> **Critical provenance boundary:** the available L00 material treats direct L00 test canon as missing. This document therefore defines a conservative AMOS test architecture. It must not be represented as recovered or empirically validated L00 source canon. 
+> **Critical provenance boundary:** the available L00 material treats direct L00 test canon as missing. This document therefore defines a conservative AMOS test architecture. It must not be represented as recovered or empirically validated L00 source canon.
 
 ---
 

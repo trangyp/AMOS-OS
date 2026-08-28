@@ -19,7 +19,7 @@ rscf:
 # L02_ATTENTION — Skills
 
 **Class:** `COGNITIVE_MATRIX_CONTRACT`
-**Origin architect / steward:** Trang Phan  
+**Origin architect / steward:** Trang Phan
 **Status:** `CONTRACT_FILLED / NOT_IMPLEMENTED / NOT_VALIDATED`
 **Filled by:** governed normalization pass · **Date:** `2026-08-26`
 
@@ -33,9 +33,9 @@ This artifact specifies how **Skills may support attention allocation** without 
 
 ## Source / canon references
 
-Current L02 source material identifies the primitive as **attention allocation / budgeting scarce reasoning-observation resources** and requires explicit treatment of RSCF/GMEF links, provenance, repair/rollback, tests/falsifiers, governance/authority, freshness, and lineage before promotion. 
+Current L02 source material identifies the primitive as **attention allocation / budgeting scarce reasoning-observation resources** and requires explicit treatment of RSCF/GMEF links, provenance, repair/rollback, tests/falsifiers, governance/authority, freshness, and lineage before promotion.
 
-The AMOS RSCF contract further requires typed knowledge nodes, explicit dependencies, applicability envelopes, provenance ancestry, competing hypotheses, falsifiers, gap classification, and weakest-premise confidence ceilings.  
+The AMOS RSCF contract further requires typed knowledge nodes, explicit dependencies, applicability envelopes, provenance ancestry, competing hypotheses, falsifiers, gap classification, and weakest-premise confidence ceilings.
 
 No direct canonical `L02_ATTENTION/SKILLS.md` implementation has been recovered in the available source evidence. Therefore, the detailed Skill architecture below remains `AMOS_MODEL`.
 

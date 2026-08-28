@@ -20,7 +20,7 @@ rscf:
 > Epistemic class: SOURCE_DERIVED
 
 ---
-title: "AMOS Brain Engine Specs (Cognitive + Domains)"
+title: AMOS Brain Engine Specs (Cognitive + Domains)
 created: "2026-08-22"
 origin: "Google Drive — _00_AMOS_CANON/Cognitive/ + Domains/ + Kernels/"
 origin_architect: "Trang Phan"
