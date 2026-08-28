@@ -30,6 +30,34 @@ from typing import Dict, Set, Optional
 from datetime import datetime, timezone
 
 
+# Plane-level metadata / navigation files that are NOT content entries for binding.
+# These appear at each plane root (e.g. 06_AGENTS_MOC.md, SKILLS_README.md,
+# WORKFLOWS_WORKFLOW_CONTRACT.md) and must never be counted as a skill/agent/workflow.
+_NON_CONTENT_STEMS = {
+    "MOC", "README", "CONTRACT",
+    # Workflow-plane navigation artifacts
+    "08_WORKFLOWS_MOC", "WORKFLOWS_README", "WORKFLOWS_WORKFLOW_CONTRACT",
+    # Agent/skill-plane audit & rename logs (not binding entries)
+    "AGENT-NAMING-CONVENTION", "AGENT_FIX_REASONING_BRAIN",
+    "AGENT_NAMING_AUDIT", "AGENT_RENAME_PASS", "SKILL_NAMING_AUDIT",
+    "CLOUD_SKILL_RENAME_AUDIT", "CLOUD_SKILL_RENAME_MANIFEST",
+    "SKILL_RENAME_LOG", "AGENT_MAP", "SKILL_MAP", "WORKFLOW_MAP",
+    "INDEX_AGENTS_AGENT_CONTRACT", "INDEX_AGENTS_README",
+    "INDEX_SKILLS_SKILL_CONTRACT", "INDEX_SKILLS_README",
+    "INDEX_WORKFLOWS_WORKFLOW_CONTRACT", "INDEX_WORKFLOWS_README",
+}
+
+
+def _is_non_content(stem: str) -> bool:
+    """True if a root file is plane metadata/navigation rather than binding content."""
+    up = stem.upper()
+    if up in {s.upper() for s in _NON_CONTENT_STEMS}:
+        return True
+    # e.g. <PLANE>_MOC.md, *_README.md, *_WORKFLOW_CONTRACT.md, *_SKILL_CONTRACT.md
+    return up.endswith("_MOC") or up.endswith("README") or up.endswith(
+        "_CONTRACT") or up.endswith("_MAP")
+
+
 def load_skills(skills_dir: Path) -> Set[str]:
     """Load all skill directory names that have a SKILL.md."""
     skills = set()
@@ -48,6 +76,8 @@ def load_agents(agents_dir: Path) -> Dict[str, Path]:
         return agents
     for f in sorted(agents_dir.glob("*.json")):
         base = f.stem.removesuffix("-agent")
+        if _is_non_content(base):
+            continue
         agents[base] = f
     return agents
 
@@ -59,6 +89,8 @@ def load_workflows(workflows_dir: Path) -> Dict[str, Path]:
         return workflows
     for f in sorted(workflows_dir.glob("*.md")):
         base = f.stem.removesuffix("-workflow")
+        if _is_non_content(base):
+            continue
         workflows[base] = f
     return workflows
 
