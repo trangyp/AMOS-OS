@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Scientific Closure Governor Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-scientific-closure-governor-rscf` skill exists and is loaded.

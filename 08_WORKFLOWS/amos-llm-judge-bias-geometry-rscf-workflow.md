@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Llm Judge Bias Geometry Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-llm-judge-bias-geometry-rscf` skill exists and is loaded.

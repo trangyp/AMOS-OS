@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: autosota Research Automation Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-autosota-research-automation-rscf` skill exists and is loaded.

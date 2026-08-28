@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Fx Rough Heston Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-fx-rough-heston-rscf-engine` skill exists and is loaded.

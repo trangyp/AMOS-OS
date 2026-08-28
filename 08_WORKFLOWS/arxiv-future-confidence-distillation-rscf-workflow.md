@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: future Confidence Distillation Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-future-confidence-distillation-rscf` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: long Context Rope Scaling Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-long-context-rope-scaling-rscf` skill exists and is loaded.

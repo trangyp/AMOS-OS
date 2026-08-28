@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: pac Bayes Piml Generalization Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-pac-bayes-piml-generalization-rscf` skill exists and is loaded.

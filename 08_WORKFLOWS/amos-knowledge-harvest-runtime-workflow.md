@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Knowledge Harvest Runtime
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-knowledge-harvest-runtime` skill exists and is loaded.

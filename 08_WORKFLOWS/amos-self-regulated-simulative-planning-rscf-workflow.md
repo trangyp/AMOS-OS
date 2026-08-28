@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Self Regulated Simulative Planning Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-self-regulated-simulative-planning-rscf` skill exists and is loaded.

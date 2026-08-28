@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Emergent Social Intelligence Risk Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-emergent-social-intelligence-risk-rscf` skill exists and is loaded.

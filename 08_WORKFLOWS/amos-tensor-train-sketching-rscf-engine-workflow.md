@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Tensor Train Sketching Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-tensor-train-sketching-rscf-engine` skill exists and is loaded.

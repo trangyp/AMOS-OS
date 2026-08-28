@@ -65,6 +65,11 @@ law_compliance:
 
 # Workflow: Universal Coordinate System
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-universal-coordinate-system` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: commercial Due Diligence Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-commercial-due-diligence-rscf` skill exists and is loaded.

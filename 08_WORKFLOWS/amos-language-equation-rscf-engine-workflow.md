@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Language Equation Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-language-equation-rscf-engine` skill exists and is loaded.

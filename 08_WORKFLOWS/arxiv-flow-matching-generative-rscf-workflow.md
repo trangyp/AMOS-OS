@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: flow Matching Generative Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-flow-matching-generative-rscf` skill exists and is loaded.

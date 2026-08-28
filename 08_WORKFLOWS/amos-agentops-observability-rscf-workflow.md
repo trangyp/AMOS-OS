@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Agentops Observability Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-agentops-observability-rscf` skill exists and is loaded.

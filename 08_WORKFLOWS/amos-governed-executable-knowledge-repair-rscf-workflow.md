@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Governed Executable Knowledge Repair Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-governed-executable-knowledge-repair-rscf` skill exists and is loaded.

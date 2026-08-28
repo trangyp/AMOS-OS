@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Canonical Software Substrate Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-canonical-software-substrate-rscf` skill exists and is loaded.

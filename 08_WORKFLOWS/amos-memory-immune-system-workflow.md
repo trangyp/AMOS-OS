@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Memory Immune System
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-memory-immune-system` skill exists and is loaded.

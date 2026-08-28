@@ -73,6 +73,11 @@ law_compliance:
 
 # Workflow: Vietnamese-Global Cultural Bridge Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-vietnamese-global-cultural-bridge-governor` skill exists and is loaded.

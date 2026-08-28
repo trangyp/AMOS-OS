@@ -69,6 +69,11 @@ law_compliance:
 
 # Workflow: AMOS Trang Framework Master
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 
 ## Preconditions
 

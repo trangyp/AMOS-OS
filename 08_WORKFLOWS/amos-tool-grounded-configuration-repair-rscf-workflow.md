@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Tool Grounded Configuration Repair Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-tool-grounded-configuration-repair-rscf` skill exists and is loaded.

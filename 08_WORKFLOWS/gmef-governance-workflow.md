@@ -64,6 +64,11 @@ law_compliance:
 
 # Workflow: Gmef Governance
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `gmef-governance` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: grpo Reasoning Policy Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-grpo-reasoning-policy-rscf` skill exists and is loaded.

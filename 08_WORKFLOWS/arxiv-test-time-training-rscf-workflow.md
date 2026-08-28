@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: test Time Training Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-test-time-training-rscf` skill exists and is loaded.

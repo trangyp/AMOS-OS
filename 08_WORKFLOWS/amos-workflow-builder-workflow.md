@@ -67,6 +67,11 @@ law_compliance:
 
 # AMOS Workflow Builder Workflow
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-workflow-builder` skill exists and is loaded.

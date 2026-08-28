@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Counterfactual Reasoning Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-counterfactual-reasoning-governor` skill exists and is loaded.

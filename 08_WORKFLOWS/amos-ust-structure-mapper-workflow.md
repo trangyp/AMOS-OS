@@ -65,6 +65,11 @@ law_compliance:
 
 # Workflow: Ust Structure Mapper
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-ust-structure-mapper` skill exists and is loaded.

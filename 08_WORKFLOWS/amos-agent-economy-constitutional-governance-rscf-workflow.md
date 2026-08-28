@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Agent Economy Constitutional Governance Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-agent-economy-constitutional-governance-rscf` skill exists and is loaded.

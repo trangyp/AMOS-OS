@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Constructive Metamorphic Testing Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-constructive-metamorphic-testing-rscf` skill exists and is loaded.

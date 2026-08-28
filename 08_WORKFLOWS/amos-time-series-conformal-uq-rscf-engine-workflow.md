@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Time Series Conformal Uq Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-time-series-conformal-uq-rscf-engine` skill exists and is loaded.

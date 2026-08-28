@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Distinct Working Memory Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-distinct-working-memory-rscf` skill exists and is loaded.

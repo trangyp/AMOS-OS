@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Proof Loss Diagnostic Reconstruction Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-proof-loss-diagnostic-reconstruction-rscf` skill exists and is loaded.

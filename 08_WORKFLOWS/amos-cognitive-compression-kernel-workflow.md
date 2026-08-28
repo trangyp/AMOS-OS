@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Cognitive Compression Kernel
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-cognitive-compression-kernel` skill exists and is loaded.

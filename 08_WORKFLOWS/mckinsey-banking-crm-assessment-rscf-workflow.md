@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: banking Crm Assessment Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-banking-crm-assessment-rscf` skill exists and is loaded.

@@ -65,6 +65,11 @@ law_compliance:
 
 # Workflow: Economic Model
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-economic-model` skill exists and is loaded.

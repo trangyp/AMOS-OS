@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Managed Autonomy Escalation Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-managed-autonomy-escalation-rscf` skill exists and is loaded.

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Ssa Ir Compiler Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-ssa-ir-compiler-rscf` skill exists and is loaded.

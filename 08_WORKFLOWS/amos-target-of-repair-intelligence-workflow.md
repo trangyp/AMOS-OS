@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Target Of Repair Intelligence
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-target-of-repair-intelligence` skill exists and is loaded.

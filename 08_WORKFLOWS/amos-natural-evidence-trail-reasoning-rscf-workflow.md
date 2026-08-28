@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Natural Evidence Trail Reasoning Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-natural-evidence-trail-reasoning-rscf` skill exists and is loaded.

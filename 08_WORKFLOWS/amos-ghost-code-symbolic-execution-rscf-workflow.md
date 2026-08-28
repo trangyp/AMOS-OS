@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Ghost Code Symbolic Execution Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-ghost-code-symbolic-execution-rscf` skill exists and is loaded.

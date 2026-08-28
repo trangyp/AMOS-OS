@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: designops Agile Transformation Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-designops-agile-transformation-rscf` skill exists and is loaded.

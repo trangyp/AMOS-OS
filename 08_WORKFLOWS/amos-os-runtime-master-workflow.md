@@ -69,6 +69,11 @@ law_compliance:
 
 # Workflow: AMOS OS & Runtime Master
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-os-runtime-master` skill exists and is loaded.

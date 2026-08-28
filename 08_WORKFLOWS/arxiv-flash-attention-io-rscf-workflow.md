@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: flash Attention Io Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-flash-attention-io-rscf` skill exists and is loaded.

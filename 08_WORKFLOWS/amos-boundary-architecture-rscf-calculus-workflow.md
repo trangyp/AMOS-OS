@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Boundary Architecture Rscf Calculus
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-boundary-architecture-rscf-calculus` skill exists and is loaded.

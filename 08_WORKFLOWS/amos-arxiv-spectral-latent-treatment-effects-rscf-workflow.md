@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: spectral Latent Treatment Effects Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-arxiv-spectral-latent-treatment-effects-rscf` skill exists and is loaded.

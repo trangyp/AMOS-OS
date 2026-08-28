@@ -65,6 +65,11 @@ law_compliance:
 
 # Workflow: Claim Verifier
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-claim-verifier` skill exists and is loaded.

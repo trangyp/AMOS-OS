@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Budget Aware Optimizer Selection Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-budget-aware-optimizer-selection-rscf-engine` skill exists and is loaded.

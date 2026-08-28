@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Agent Owner Attribution Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-agent-owner-attribution-rscf` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Future Debt Option Value Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-future-debt-option-value-governor` skill exists and is loaded.

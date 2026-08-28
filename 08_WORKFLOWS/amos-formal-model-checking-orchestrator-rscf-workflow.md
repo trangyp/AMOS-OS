@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Formal Model Checking Orchestrator Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-formal-model-checking-orchestrator-rscf` skill exists and is loaded.

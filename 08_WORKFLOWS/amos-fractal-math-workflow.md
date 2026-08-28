@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Fractal Math
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-fractal-math` skill exists and is loaded.

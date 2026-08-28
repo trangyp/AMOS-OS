@@ -70,6 +70,11 @@ law_compliance:
 
 # Workflow: Cross-Domain Tensor Composition Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-cross-domain-tensor-composition-governor` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: credit Lending Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-credit-lending-rscf` skill exists and is loaded.

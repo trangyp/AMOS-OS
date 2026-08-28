@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Agent Native Research Artifact Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-agent-native-research-artifact-rscf` skill exists and is loaded.

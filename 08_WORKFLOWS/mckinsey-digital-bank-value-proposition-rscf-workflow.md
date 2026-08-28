@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: digital Bank Value Proposition Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-digital-bank-value-proposition-rscf` skill exists and is loaded.

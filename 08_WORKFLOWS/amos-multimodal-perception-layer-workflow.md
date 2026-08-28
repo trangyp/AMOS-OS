@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Multimodal Perception Layer
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-multimodal-perception-layer` skill exists and is loaded.

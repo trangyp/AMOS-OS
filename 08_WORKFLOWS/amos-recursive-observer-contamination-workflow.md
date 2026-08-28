@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Recursive Observer Contamination
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-recursive-observer-contamination` skill exists and is loaded.

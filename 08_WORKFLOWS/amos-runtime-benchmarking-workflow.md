@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Runtime Benchmarking
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-runtime-benchmarking` skill exists and is loaded.

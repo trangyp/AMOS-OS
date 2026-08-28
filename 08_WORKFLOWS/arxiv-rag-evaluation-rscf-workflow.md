@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: rag Evaluation Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-rag-evaluation-rscf` skill exists and is loaded.

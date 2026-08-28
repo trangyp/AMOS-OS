@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Cli Failure Process Diagnostics Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-cli-failure-process-diagnostics-rscf` skill exists and is loaded.

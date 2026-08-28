@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Human State Ontology Mapper
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-human-state-ontology-mapper` skill exists and is loaded.

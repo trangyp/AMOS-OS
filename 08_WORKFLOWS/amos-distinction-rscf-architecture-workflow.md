@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Distinction Rscf Architecture
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-distinction-rscf-architecture` skill exists and is loaded.

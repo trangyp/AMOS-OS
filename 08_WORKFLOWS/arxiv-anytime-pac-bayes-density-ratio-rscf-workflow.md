@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: anytime Pac Bayes Density Ratio Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-anytime-pac-bayes-density-ratio-rscf` skill exists and is loaded.

@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Neural Computation Mapper
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-neural-computation-mapper` skill exists and is loaded.

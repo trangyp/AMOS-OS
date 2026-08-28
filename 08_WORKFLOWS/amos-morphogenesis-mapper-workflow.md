@@ -65,6 +65,11 @@ law_compliance:
 
 # Workflow: Morphogenesis Mapper
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-morphogenesis-mapper` skill exists and is loaded.

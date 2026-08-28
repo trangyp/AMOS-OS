@@ -65,6 +65,11 @@ law_compliance:
 
 # Workflow: Absolute Primitive Decomposer
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-absolute-primitive-decomposer` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: human Centered Design Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-human-centered-design-rscf` skill exists and is loaded.

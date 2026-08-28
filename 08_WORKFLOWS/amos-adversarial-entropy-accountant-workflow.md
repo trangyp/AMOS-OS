@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Adversarial Entropy Accountant
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-adversarial-entropy-accountant` skill exists and is loaded.

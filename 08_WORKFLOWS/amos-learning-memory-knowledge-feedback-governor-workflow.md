@@ -73,6 +73,11 @@ law_compliance:
 
 # Workflow: Learning-Memory-Knowledge Feedback Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-learning-memory-knowledge-feedback-governor` skill exists and is loaded.

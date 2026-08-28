@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Invariant Tensor Kernel
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-invariant-tensor-kernel` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Tensor Network Contraction Sketch Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-tensor-network-contraction-sketch-rscf-engine` skill exists and is loaded.

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Cross Species Cognition Mapper
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-cross-species-cognition-mapper` skill exists and is loaded.

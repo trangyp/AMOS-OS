@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: AMOS C06 — Society & Culture Master
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 
 ## Preconditions
 

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Artistic Expression Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-artistic-expression-governor` skill exists and is loaded.

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Observability Driven Harness Evolution Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-observability-driven-harness-evolution-rscf` skill exists and is loaded.

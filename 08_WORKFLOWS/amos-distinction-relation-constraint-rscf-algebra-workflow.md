@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Distinction Relation Constraint Rscf Algebra
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-distinction-relation-constraint-rscf-algebra` skill exists and is loaded.

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Representation Aware Bug Localization Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-representation-aware-bug-localization-rscf` skill exists and is loaded.

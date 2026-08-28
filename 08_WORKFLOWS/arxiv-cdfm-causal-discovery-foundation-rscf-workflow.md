@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: cdfm Causal Discovery Foundation Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-cdfm-causal-discovery-foundation-rscf` skill exists and is loaded.

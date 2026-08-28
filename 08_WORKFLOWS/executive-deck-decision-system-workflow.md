@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Executive Deck Decision System
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `executive-deck-decision-system` skill exists and is loaded.

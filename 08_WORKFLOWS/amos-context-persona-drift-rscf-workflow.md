@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Context Persona Drift Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-context-persona-drift-rscf` skill exists and is loaded.

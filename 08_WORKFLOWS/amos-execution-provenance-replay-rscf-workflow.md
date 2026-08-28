@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Execution Provenance Replay Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-execution-provenance-replay-rscf` skill exists and is loaded.

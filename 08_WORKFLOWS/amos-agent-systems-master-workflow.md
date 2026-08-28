@@ -70,6 +70,11 @@ law_compliance:
 
 # Workflow: AMOS Agent Systems Master
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 
 ## Preconditions
 

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Universe Viability Modeler
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-universe-viability-modeler` skill exists and is loaded.

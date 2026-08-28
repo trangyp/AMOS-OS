@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Cross Architecture Tensor Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-cross-architecture-tensor-engine` skill exists and is loaded.

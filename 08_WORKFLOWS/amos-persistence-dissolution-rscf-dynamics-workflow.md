@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Persistence Dissolution Rscf Dynamics
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-persistence-dissolution-rscf-dynamics` skill exists and is loaded.

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Semantic Grounding Auditor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-semantic-grounding-auditor` skill exists and is loaded.

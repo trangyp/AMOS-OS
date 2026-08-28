@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Gradient Rscf Architecture
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-gradient-rscf-architecture` skill exists and is loaded.

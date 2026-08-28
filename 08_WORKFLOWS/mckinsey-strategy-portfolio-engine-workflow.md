@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Mckinsey: strategy Portfolio Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-strategy-portfolio-engine` skill exists and is loaded.

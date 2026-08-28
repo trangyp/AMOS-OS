@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Information Boundary Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-information-boundary-governor` skill exists and is loaded.

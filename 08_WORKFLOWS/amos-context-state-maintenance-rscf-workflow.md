@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Context State Maintenance Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-context-state-maintenance-rscf` skill exists and is loaded.

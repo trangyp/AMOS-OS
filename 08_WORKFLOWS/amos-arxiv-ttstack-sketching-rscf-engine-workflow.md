@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: ttstack Sketching Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-arxiv-ttstack-sketching-rscf-engine` skill exists and is loaded.

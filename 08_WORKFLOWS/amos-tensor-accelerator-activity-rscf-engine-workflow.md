@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Tensor Accelerator Activity Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-tensor-accelerator-activity-rscf-engine` skill exists and is loaded.

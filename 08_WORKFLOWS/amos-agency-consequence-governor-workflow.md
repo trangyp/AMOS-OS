@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Agency Consequence Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-agency-consequence-governor` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Attention Allocation Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-attention-allocation-governor` skill exists and is loaded.

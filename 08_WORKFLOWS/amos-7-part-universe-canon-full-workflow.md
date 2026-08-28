@@ -71,6 +71,11 @@ law_compliance:
 
 # Workflow: 7 Part Universe Canon Full
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The bound skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: conrad Radiomics Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-arxiv-conrad-radiomics-rscf` skill exists and is loaded.

@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Verification Aware Implementation Diversity Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-verification-aware-implementation-diversity-rscf` skill exists and is loaded.

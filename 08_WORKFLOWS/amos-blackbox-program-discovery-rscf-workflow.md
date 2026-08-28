@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Blackbox Program Discovery Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-blackbox-program-discovery-rscf` skill exists and is loaded.

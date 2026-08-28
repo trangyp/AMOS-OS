@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Fx Typed Tensor Contract Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-fx-typed-tensor-contract-rscf-engine` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Fx Tensor Train Greeks Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-fx-tensor-train-greeks-rscf-engine` skill exists and is loaded.

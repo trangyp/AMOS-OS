@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Dependency Environment Reconstruction Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-dependency-environment-reconstruction-rscf` skill exists and is loaded.

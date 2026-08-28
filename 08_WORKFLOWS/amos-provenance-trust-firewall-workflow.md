@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Provenance Trust Firewall
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-provenance-trust-firewall` skill exists and is loaded.

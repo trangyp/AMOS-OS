@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: autonomous Scientific Knowledge Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-arxiv-autonomous-scientific-knowledge-rscf` skill exists and is loaded.

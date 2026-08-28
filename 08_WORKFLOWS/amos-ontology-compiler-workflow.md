@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Ontology Compiler
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-ontology-compiler` skill exists and is loaded.

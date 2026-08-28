@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Repair Substrate Capture Resistance Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-repair-substrate-capture-resistance-rscf` skill exists and is loaded.

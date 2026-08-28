@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Bounded Code Facts Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-bounded-code-facts-rscf` skill exists and is loaded.

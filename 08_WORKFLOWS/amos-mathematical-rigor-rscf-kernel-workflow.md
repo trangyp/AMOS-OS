@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mathematical Rigor Rscf Kernel
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-mathematical-rigor-rscf-kernel` skill exists and is loaded.

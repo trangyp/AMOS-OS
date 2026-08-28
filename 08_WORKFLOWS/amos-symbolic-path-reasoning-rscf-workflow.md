@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Symbolic Path Reasoning Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-symbolic-path-reasoning-rscf` skill exists and is loaded.

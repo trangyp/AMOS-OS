@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Agent Storage Footprint Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-agent-storage-footprint-rscf` skill exists and is loaded.

@@ -69,6 +69,11 @@ law_compliance:
 
 # Workflow: Active Inference Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## 10-Step Governed Loop
 
 ```

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Infrastructure Control Plane
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-infrastructure-control-plane` skill exists and is loaded.

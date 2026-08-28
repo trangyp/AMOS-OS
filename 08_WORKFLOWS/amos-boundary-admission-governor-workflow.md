@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Boundary Admission Governor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-boundary-admission-governor` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: time Series Bootstrap Conformal Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-arxiv-time-series-bootstrap-conformal-rscf` skill exists and is loaded.

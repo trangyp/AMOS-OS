@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Deterministic Ai Control Plane
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-deterministic-ai-control-plane` skill exists and is loaded.

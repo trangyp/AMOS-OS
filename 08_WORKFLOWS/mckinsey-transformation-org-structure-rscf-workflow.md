@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: transformation Org Structure Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-transformation-org-structure-rscf` skill exists and is loaded.

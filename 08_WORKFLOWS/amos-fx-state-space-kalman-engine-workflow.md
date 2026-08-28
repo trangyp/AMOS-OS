@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Fx State Space Kalman Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-fx-state-space-kalman-engine` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: agent Memory Dynamics Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-arxiv-agent-memory-dynamics-rscf` skill exists and is loaded.

@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Session Control Plane
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-session-control-plane` skill exists and is loaded.

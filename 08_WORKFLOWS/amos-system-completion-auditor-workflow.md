@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: System Completion Auditor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-system-completion-auditor` skill exists and is loaded.

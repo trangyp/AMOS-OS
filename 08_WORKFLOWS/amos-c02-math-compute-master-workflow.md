@@ -69,6 +69,11 @@ law_compliance:
 
 # Workflow: AMOS C02 — Math & Compute Master
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 
 ## Preconditions
 

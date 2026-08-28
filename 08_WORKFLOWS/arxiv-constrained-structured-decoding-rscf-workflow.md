@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: constrained Structured Decoding Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-constrained-structured-decoding-rscf` skill exists and is loaded.

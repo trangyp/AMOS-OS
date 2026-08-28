@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: public Sector Transformation Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-public-sector-transformation-rscf` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Repair Harm Auditor
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-repair-harm-auditor` skill exists and is loaded.

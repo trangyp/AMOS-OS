@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Runtime Context Reuse Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-runtime-context-reuse-rscf` skill exists and is loaded.

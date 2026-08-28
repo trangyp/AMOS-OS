@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: continual Interference Geometry Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-arxiv-continual-interference-geometry-rscf` skill exists and is loaded.

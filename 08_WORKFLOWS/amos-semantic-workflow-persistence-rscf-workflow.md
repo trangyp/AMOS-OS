@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Semantic Workflow Persistence Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-semantic-workflow-persistence-rscf` skill exists and is loaded.

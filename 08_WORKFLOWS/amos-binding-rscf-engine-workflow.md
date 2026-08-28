@@ -66,6 +66,11 @@ law_compliance:
 
 # Workflow: Binding Rscf Engine
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-binding-rscf-engine` skill exists and is loaded.

@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: sparse Autoencoder Interpretability Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-arxiv-sparse-autoencoder-interpretability-rscf` skill exists and is loaded.

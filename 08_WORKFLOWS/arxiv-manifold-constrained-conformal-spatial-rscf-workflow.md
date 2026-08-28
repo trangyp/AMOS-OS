@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Arxiv: manifold Constrained Conformal Spatial Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `arxiv-manifold-constrained-conformal-spatial-rscf` skill exists and is loaded.

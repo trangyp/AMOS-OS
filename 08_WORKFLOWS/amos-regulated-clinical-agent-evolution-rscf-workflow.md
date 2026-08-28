@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Regulated Clinical Agent Evolution Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-regulated-clinical-agent-evolution-rscf` skill exists and is loaded.

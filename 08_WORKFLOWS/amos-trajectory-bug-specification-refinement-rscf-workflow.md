@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Trajectory Bug Specification Refinement Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-trajectory-bug-specification-refinement-rscf` skill exists and is loaded.

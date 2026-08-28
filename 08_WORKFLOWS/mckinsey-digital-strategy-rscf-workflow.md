@@ -68,6 +68,11 @@ law_compliance:
 
 # Workflow: Mckinsey: digital Strategy Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `mckinsey-digital-strategy-rscf` skill exists and is loaded.

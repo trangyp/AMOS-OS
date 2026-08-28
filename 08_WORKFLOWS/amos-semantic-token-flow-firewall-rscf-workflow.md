@@ -67,6 +67,11 @@ law_compliance:
 
 # Workflow: Semantic Token Flow Firewall Rscf
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+
 ## Preconditions
 
 - The `amos-semantic-token-flow-firewall-rscf` skill exists and is loaded.
