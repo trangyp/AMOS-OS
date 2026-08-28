@@ -1,22 +1,21 @@
 ---
-title: "AMOS Human Intelligence Canon"
+title: "AMOS Identity Canon"
 type: canon
 source: "01_CANON/03_COGNITION_CANON"
-artifact: "AMOS_HUMAN_INTELLIGENCE_CANON.md"
-artifact_id: "amos_01_canon_03_cognition_canon_amos_human_intelligence_canon"
+artifact: "AMOS_IDENTITY_CANON.md"
+artifact_id: "amos_01_canon_03_cognition_canon_amos_identity_canon"
 origin_architect: "Trang Phan"
 steward: "Trang Phan"
 system: "AMOS OS"
 plane: "01_CANON"
 segment: "01_CANON/03_COGNITION_CANON"
 artifact_kind: "CANON"
-path: "01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md"
+path: "01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md"
 
 tags:
   - amos_os
-  - amos_human_intelligence
-  - human_intelligence
-  - intelligence
+  - amos_identity
+  - identity
   - cognition
   - cognition_canon
   - canon
@@ -31,14 +30,15 @@ tags:
   - scope
   - regime
   - temporal_validity
-  - causal_firewall
+  - identity_continuity
+  - identity_resolution
   - validation
   - competing_hypotheses
   - canon/universe
 
 aliases:
-  - "AMOS Human Intelligence Canon"
-  - "AMOS Human Intelligence"
+  - "AMOS Identity Canon"
+  - "AMOS Identity"
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -52,33 +52,35 @@ executable_binding: "NOT_ESTABLISHED"
 ingestion_action: "ADD_ONLY"
 
 native_definition_status: "NOT_ESTABLISHED"
-native_human_definition_status: "NOT_ESTABLISHED"
-native_intelligence_definition_status: "NOT_ESTABLISHED"
-native_human_intelligence_definition_status: "NOT_ESTABLISHED"
-native_intelligence_architecture_status: "NOT_ESTABLISHED"
-native_capability_registry_status: "NOT_ESTABLISHED"
-native_factor_model_status: "NOT_ESTABLISHED"
-native_measurement_status: "NOT_ESTABLISHED"
-native_metric_status: "NOT_ESTABLISHED"
-native_benchmark_status: "NOT_ESTABLISHED"
-native_reasoning_relation_status: "NOT_ESTABLISHED"
-native_memory_relation_status: "NOT_ESTABLISHED"
-native_attention_relation_status: "NOT_ESTABLISHED"
-native_learning_relation_status: "NOT_ESTABLISHED"
-native_perception_relation_status: "NOT_ESTABLISHED"
-native_language_relation_status: "NOT_ESTABLISHED"
-native_decision_relation_status: "NOT_ESTABLISHED"
-native_agency_relation_status: "NOT_ESTABLISHED"
-native_emotion_relation_status: "NOT_ESTABLISHED"
-native_metacognition_relation_status: "NOT_ESTABLISHED"
+native_identity_definition_status: "NOT_ESTABLISHED"
+native_identity_type_status: "NOT_ESTABLISHED"
+native_identity_subject_status: "NOT_ESTABLISHED"
+native_identity_object_status: "NOT_ESTABLISHED"
+native_identity_registry_status: "NOT_ESTABLISHED"
+native_identifier_schema_status: "NOT_ESTABLISHED"
+native_identity_resolution_status: "NOT_ESTABLISHED"
+native_identity_continuity_status: "NOT_ESTABLISHED"
+native_identity_persistence_status: "NOT_ESTABLISHED"
+native_identity_mutation_status: "NOT_ESTABLISHED"
+native_identity_versioning_status: "NOT_ESTABLISHED"
+native_identity_lineage_status: "NOT_ESTABLISHED"
+native_identity_equivalence_status: "NOT_ESTABLISHED"
+native_identity_alias_status: "NOT_ESTABLISHED"
+native_identity_merge_status: "NOT_ESTABLISHED"
+native_identity_split_status: "NOT_ESTABLISHED"
+native_identity_supersession_status: "NOT_ESTABLISHED"
+native_identity_authentication_status: "NOT_ESTABLISHED"
+native_identity_authorization_status: "NOT_ESTABLISHED"
+native_self_identity_status: "NOT_ESTABLISHED"
+native_personal_identity_status: "NOT_ESTABLISHED"
+native_agent_identity_status: "NOT_ESTABLISHED"
+native_system_identity_status: "NOT_ESTABLISHED"
+native_artifact_identity_status: "NOT_ESTABLISHED"
+native_cognitive_identity_status: "NOT_ESTABLISHED"
 native_consciousness_relation_status: "NOT_ESTABLISHED"
-native_homeostasis_relation_status: "NOT_ESTABLISHED"
-native_cognitive_field_relation_status: "NOT_ESTABLISHED"
-native_cross_species_relation_status: "NOT_ESTABLISHED"
-native_ai_relation_status: "NOT_ESTABLISHED"
-native_biological_status: "NOT_ESTABLISHED"
-native_causal_status: "NOT_ESTABLISHED"
-native_normative_status: "NOT_ESTABLISHED"
+native_memory_relation_status: "NOT_ESTABLISHED"
+native_agency_relation_status: "NOT_ESTABLISHED"
+native_human_identity_relation_status: "NOT_ESTABLISHED"
 native_rscf_binding_status: "NOT_ESTABLISHED"
 native_hml_binding_status: "NOT_ESTABLISHED"
 native_scope_status: "NOT_ESTABLISHED"
@@ -97,10 +99,10 @@ rscf:
   confidence_ceiling: source_supported
 ---
 
-# AMOS Human Intelligence Canon
+# AMOS Identity Canon
 
-> **Artifact:** `AMOS_HUMAN_INTELLIGENCE_CANON.md`  
-> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_human_intelligence_canon`  
+> **Artifact:** `AMOS_IDENTITY_CANON.md`  
+> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_identity_canon`  
 > **System:** AMOS OS  
 > **Plane:** `01_CANON`  
 > **Segment:** `01_CANON/03_COGNITION_CANON`  
@@ -117,7 +119,7 @@ rscf:
 
 # 0. Canonical Status
 
-`AMOS_HUMAN_INTELLIGENCE_CANON.md` is an **ADD-ONLY canonical-slot placeholder** in:
+`AMOS_IDENTITY_CANON.md` is an **ADD-ONLY canonical-slot placeholder** in:
 
 `01_CANON/03_COGNITION_CANON`
 
@@ -127,7 +129,7 @@ The supplied source establishes:
 - artifact path;
 - artifact kind;
 - placement in the Cognition Canon segment;
-- framework label **AMOS Human Intelligence Canon**;
+- framework label **AMOS Identity Canon**;
 - origin architect / steward;
 - ADD-ONLY ingestion intent;
 - placeholder status;
@@ -138,32 +140,33 @@ The supplied source establishes:
 
 The supplied source does **not** establish:
 
-- a native AMOS definition of `human`;
-- a native AMOS definition of `intelligence`;
-- a native AMOS definition of `human intelligence`;
-- an intelligence ontology;
-- an intelligence architecture;
-- intelligence dimensions or factors;
-- intelligence variables;
-- intelligence equations;
-- cognitive capability registries;
-- intelligence measurement procedures;
-- psychometric mappings;
-- IQ semantics;
-- benchmark semantics;
-- biological mechanisms;
-- neural mechanisms;
-- developmental mechanisms;
-- genetic mechanisms;
-- environmental mechanisms;
-- causal determinants;
-- intelligence rankings;
-- intelligence hierarchies;
-- intelligence thresholds;
-- normative judgments;
-- relations among intelligence and reasoning, memory, learning, attention, perception, language, emotion, agency, metacognition, homeostasis, or consciousness;
-- equivalence between AMOS constructs and empirical human psychology;
-- equivalence between human intelligence and artificial intelligence;
+- the native AMOS definition of `identity`;
+- what kinds of entities possess identity;
+- whether identity is logical, computational, cognitive, personal, social, biological, informational, narrative, cryptographic, operational, or another native AMOS construct;
+- whether identity is singular or composite;
+- whether identity is intrinsic or relational;
+- identity persistence conditions;
+- identity continuity conditions;
+- identity equivalence rules;
+- identity change rules;
+- identity versioning rules;
+- identity merge or split semantics;
+- alias semantics;
+- identifier semantics;
+- identity authentication semantics;
+- identity authorization semantics;
+- self-identity semantics;
+- human identity semantics;
+- agent identity semantics;
+- artifact identity semantics;
+- system identity semantics;
+- cognitive identity semantics;
+- relation to consciousness;
+- relation to memory;
+- relation to agency;
+- relation to provenance;
+- relation to lineage;
+- relation to RSCF/H-M-L;
 - executable implementation;
 - empirical validation.
 
@@ -174,7 +177,7 @@ CANONICAL_STATUS
 =
 UNKNOWN/GAP
 
-SUBSTANTIVE_HUMAN_INTELLIGENCE_CANON
+SUBSTANTIVE_IDENTITY_CANON
 =
 NOT_ESTABLISHED
 ---
@@ -213,139 +216,178 @@ LOGGED != APPROVED
 UNKNOWN/GAP != PASS
 ```
 
-For Human Intelligence, extend conservatively:
+For Identity, conservatively extend:
 
 ```text
-"HUMAN INTELLIGENCE" IN TITLE
+"IDENTITY" IN TITLE
 !=
-HUMAN INTELLIGENCE DEFINED
+IDENTITY DEFINED
 
-INTELLIGENCE
+IDENTIFIER
 !=
-IQ
+IDENTITY
 
-IQ
+NAME
 !=
-INTELLIGENCE IN TOTAL
+IDENTITY
 
-TEST SCORE
+LABEL
 !=
-PERSON
+IDENTITY
 
-BENCHMARK PERFORMANCE
+ADDRESS
 !=
-GENERAL INTELLIGENCE
+IDENTITY
 
-TASK PERFORMANCE
+REFERENCE
 !=
-GLOBAL INTELLIGENCE
+IDENTITY
 
-KNOWLEDGE
+ACCOUNT
 !=
-INTELLIGENCE
+IDENTITY
 
-MEMORY
+CREDENTIAL
 !=
-INTELLIGENCE
+IDENTITY
 
-REASONING
+AUTHENTICATION
 !=
-INTELLIGENCE
+IDENTITY
 
-LEARNING
+AUTHORIZATION
 !=
-INTELLIGENCE
+IDENTITY
 
-LANGUAGE ABILITY
-!=
-INTELLIGENCE
-
-CREATIVITY
-!=
-INTELLIGENCE
-
-EXPERTISE
-!=
-GENERAL INTELLIGENCE
-
-EDUCATIONAL ATTAINMENT
-!=
-INTELLIGENCE
-
-PRODUCTIVITY
-!=
-INTELLIGENCE
-
-INTELLIGENCE
-!=
-CONSCIOUSNESS
-
-INTELLIGENCE
-!=
-AGENCY
-
-INTELLIGENCE
-!=
-WISDOM
-
-INTELLIGENCE
-!=
-MORAL WORTH
-
-INTELLIGENCE
-!=
-HUMAN VALUE
-
-INTELLIGENCE
+IDENTITY
 !=
 AUTHORITY
 
-INTELLIGENCE
+IDENTITY
 !=
-RIGHT TO GOVERN
+CAPABILITY
 
-CORRELATION
+IDENTITY
 !=
-CAUSATION
+OWNERSHIP
+
+IDENTITY
+!=
+PROVENANCE
+
+IDENTITY
+!=
+LINEAGE
+
+IDENTITY
+!=
+MEMORY
+
+IDENTITY
+!=
+SELF-MODEL
+
+IDENTITY
+!=
+PERSONALITY
+
+IDENTITY
+!=
+CONSCIOUSNESS
+
+IDENTITY
+!=
+AGENCY
+
+IDENTITY
+!=
+CONTINUITY
+
+CONTINUITY
+!=
+IDENTICALITY
+
+SIMILARITY
+!=
+IDENTITY
+
+EQUIVALENCE
+!=
+IDENTITY
+
+SAME CONTENT
+!=
+SAME ENTITY
+
+SAME STATE
+!=
+SAME ENTITY
+
+SAME NAME
+!=
+SAME ENTITY
+
+SAME IDENTIFIER
+!=
+PROVEN SAME ENTITY
+
+DIFFERENT IDENTIFIER
+!=
+PROVEN DIFFERENT ENTITY
+
+PERSISTENCE
+!=
+IMMUTABILITY
+
+CHANGE
+!=
+LOSS OF IDENTITY
+
+VERSION CHANGE
+!=
+NEW IDENTITY
+
+COPY
+!=
+ORIGINAL
+
+DESCENDANT
+!=
+ANCESTOR
+
+SUCCESSOR
+!=
+SAME ENTITY
 
 STRUCTURAL SIMILARITY
 !=
-COGNITIVE EQUIVALENCE
+IDENTITY
 
-FUNCTIONAL SIMILARITY
+FUNCTIONAL EQUIVALENCE
 !=
-MECHANISTIC IDENTITY
-
-HUMAN-LIKE OUTPUT
-!=
-HUMAN-LIKE COGNITION
-
-HUMAN-LIKE COGNITION
-!=
-HUMAN CONSCIOUSNESS
+NUMERICAL IDENTITY
 ```
 
 ---
 
 # 2. Strongest Supported Claim
 
-> **DERIVED:** AMOS OS reserves an ADD-ONLY Canon artifact named `AMOS_HUMAN_INTELLIGENCE_CANON.md` in the Cognition Canon segment for the framework family identified as **AMOS Human Intelligence Canon**.
+> **DERIVED:** AMOS OS reserves an ADD-ONLY Canon artifact named `AMOS_IDENTITY_CANON.md` in the Cognition Canon segment for the framework family identified as **AMOS Identity Canon**.
 
 ```yaml
 claim:
-  id: AMOS_HUMAN_INTELLIGENCE_CANON_SLOT_EXISTS
+  id: AMOS_IDENTITY_CANON_SLOT_EXISTS
 
   statement: >
     AMOS OS reserves an ADD-ONLY Canon artifact named
-    AMOS_HUMAN_INTELLIGENCE_CANON.md in the Cognition Canon
-    segment for the framework family identified as
-    AMOS Human Intelligence Canon.
+    AMOS_IDENTITY_CANON.md in the Cognition Canon segment
+    for the framework family identified as AMOS Identity Canon.
 
   claim_class: DERIVED
   epistemic_class: AMOS_MODEL
 
   evidence:
-    - supplied AMOS_HUMAN_INTELLIGENCE_CANON placeholder
+    - supplied AMOS_IDENTITY_CANON placeholder
 
   provenance:
     corpus: AMOS_corpus
@@ -355,11 +397,10 @@ claim:
     plane: 01_CANON
     segment: 01_CANON/03_COGNITION_CANON
 
-  confidence_ceiling:
-    source_supported
+  confidence_ceiling: source_supported
 ```
 
-No stronger substantive claim about human intelligence is licensed by the placeholder alone.
+No stronger substantive claim about AMOS identity semantics is licensed by the placeholder alone.
 
 ---
 
@@ -367,14 +408,14 @@ No stronger substantive claim about human intelligence is licensed by the placeh
 
 ```yaml
 identity:
-  title: AMOS Human Intelligence Canon
-  artifact: AMOS_HUMAN_INTELLIGENCE_CANON.md
+  title: AMOS Identity Canon
+  artifact: AMOS_IDENTITY_CANON.md
 
   artifact_id:
-    amos_01_canon_03_cognition_canon_amos_human_intelligence_canon
+    amos_01_canon_03_cognition_canon_amos_identity_canon
 
   node_id:
-    amos_01_canon_03_cognition_canon_amos_human_intelligence_canon
+    amos_01_canon_03_cognition_canon_amos_identity_canon
 
   origin_architect: Trang Phan
   steward: Trang Phan
@@ -385,7 +426,7 @@ identity:
   artifact_kind: CANON
 
   path:
-    01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md
+    01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
 
   source_version: 0.1.0
   source_status: PLACEHOLDER
@@ -398,11 +439,57 @@ identity:
 
 ---
 
-# 4. Identifier Consistency
+# 4. Artifact Identity vs Canon Subject Matter
 
-The source uses the same textual identifier for `artifact_id` and `node_id`.
+A critical distinction:
 
-Therefore:
+```text
+THE PLACEHOLDER HAS AN ARTIFACT IDENTITY
+```
+
+does **not** establish:
+
+```text
+THE NATIVE AMOS THEORY OF IDENTITY
+```
+
+The source gives this document:
+
+```text
+artifact_id
++
+path
++
+title
++
+version
++
+metadata
+```
+
+Those metadata can identify the artifact within the supplied corpus context.
+
+They do not reveal what the canon means by `identity`.
+
+---
+
+# 5. Identifier Consistency
+
+The supplied source uses:
+
+```text
+artifact_id:
+amos_01_canon_03_cognition_canon_amos_identity_canon
+```
+
+and:
+
+```text
+node_id:
+amos_01_canon_03_cognition_canon_amos_identity_canon
+```
+
+Therefore textual equality is source-supported:
 
 ```text
 ARTIFACT_ID TEXT
@@ -410,18 +497,20 @@ ARTIFACT_ID TEXT
 NODE_ID TEXT
 ```
 
-is source-supported.
-
 But:
 
 ```text
-TEXTUAL ID CONSISTENCY
+TEXTUAL EQUALITY
 !=
-VALIDATED RUNTIME IDENTITY
+PROVEN SEMANTIC IDENTITY
 
 UNIQUE STRING
 !=
 PROVEN GLOBAL UNIQUENESS
+
+ADDRESSABLE ID
+!=
+VALIDATED RUNTIME IDENTITY
 ```
 
 Executable identity resolution remains:
@@ -430,595 +519,1019 @@ Executable identity resolution remains:
 
 ---
 
-# Part I — Core Semantic Firewalls
+# Part I — Identity Semantic Firewall
 
-# 5. Native Meaning of “Human”
+# 6. Native Meaning of Identity
 
-The placeholder does not define the scope of `human`.
-
-Unknown dimensions include:
+The placeholder does not define `identity`.
 
 ```yaml
-human_scope:
-  species_definition: UNKNOWN/GAP
-  population_definition: UNKNOWN/GAP
-  individual_level: UNKNOWN/GAP
-  group_level: UNKNOWN/GAP
-  developmental_scope: UNKNOWN/GAP
-  cultural_scope: UNKNOWN/GAP
-  linguistic_scope: UNKNOWN/GAP
-  geographic_scope: UNKNOWN/GAP
-  historical_scope: UNKNOWN/GAP
-  clinical_scope: UNKNOWN/GAP
-  biological_scope: UNKNOWN/GAP
-```
-
-Do not silently interpret `human` as:
-
-```text
-ALL HUMANS
-
-AVERAGE HUMAN
-
-ADULT HUMAN
-
-NEUROTYPICAL HUMAN
-
-EDUCATED HUMAN
-
-WESTERN POPULATION
-
-ONE CULTURE
-
-ONE LANGUAGE GROUP
-
-ONE AGE GROUP
-
-ONE TEST POPULATION
-```
-
-unless native scope establishes it.
-
----
-
-# 6. Native Meaning of “Intelligence”
-
-The placeholder names intelligence but does not define it.
-
-```yaml
-AMOS_INTELLIGENCE_NATIVE_MEANING:
+AMOS_IDENTITY_NATIVE_MEANING:
   status: UNKNOWN/GAP
   definition: null
+  ontology: UNKNOWN/GAP
+  identity_bearer: UNKNOWN/GAP
+  identity_criteria: UNKNOWN/GAP
+  continuity_criteria: UNKNOWN/GAP
+  equivalence_criteria: UNKNOWN/GAP
+  persistence_criteria: UNKNOWN/GAP
 ```
 
-Do not silently import definitions from:
+Do not silently import identity semantics from:
 
-* psychometrics;
-* psychology;
-* cognitive science;
-* neuroscience;
-* education;
 * philosophy;
-* artificial intelligence;
-* machine learning;
-* economics;
-* evolutionary biology.
+* psychology;
+* sociology;
+* cognitive science;
+* computer science;
+* databases;
+* distributed systems;
+* cryptography;
+* identity and access management;
+* biology;
+* neuroscience;
+* law;
+* theology;
+* narrative theory.
 
-External theories remain external evidence unless governed ingestion explicitly incorporates them.
+Those can become external evidence, not native AMOS canon by default.
 
 ---
 
-# 7. Native Meaning of “Human Intelligence”
+# 7. Identity-Bearer Firewall
+
+The placeholder does not establish what can possess AMOS identity.
+
+Possible identity bearers include:
+
+```text
+PERSON
+
+HUMAN
+
+AGENT
+
+SYSTEM
+
+PROCESS
+
+ARTIFACT
+
+NODE
+
+RSCF
+
+MODEL
+
+CANON
+
+CLAIM
+
+SOURCE
+
+VERSION
+
+STATE
+
+ROLE
+
+ACCOUNT
+
+ORGANIZATION
+
+COGNITIVE ENTITY
+
+OTHER NATIVE AMOS ENTITY
+```
+
+Current status:
 
 ```yaml
-AMOS_HUMAN_INTELLIGENCE_NATIVE_MEANING:
+identity_bearers:
+  registry: UNKNOWN/GAP
+```
+
+No candidate above is automatically canon.
+
+---
+
+# 8. Identity Type Firewall
+
+Possible meanings remain competing:
+
+```text
+LOGICAL IDENTITY
+
+NUMERICAL IDENTITY
+
+QUALITATIVE IDENTITY
+
+PERSONAL IDENTITY
+
+COGNITIVE IDENTITY
+
+SELF-IDENTITY
+
+SOCIAL IDENTITY
+
+SYSTEM IDENTITY
+
+AGENT IDENTITY
+
+ARTIFACT IDENTITY
+
+PROCESS IDENTITY
+
+INFORMATIONAL IDENTITY
+
+OPERATIONAL IDENTITY
+
+CRYPTOGRAPHIC IDENTITY
+
+PROVENANCE IDENTITY
+
+LINEAGE IDENTITY
+
+NARRATIVE IDENTITY
+
+BIOLOGICAL IDENTITY
+
+OTHER NATIVE AMOS IDENTITY
+```
+
+Current:
+
+`UNKNOWN/GAP`.
+
+---
+
+# 9. Identity ≠ Identifier Firewall
+
+```text
+IDENTIFIER
+!=
+IDENTITY
+
+ID STRING
+!=
+ENTITY
+
+UUID
+!=
+ENTITY
+
+HASH
+!=
+ENTITY
+
+PATH
+!=
+ENTITY
+
+DATABASE KEY
+!=
+ENTITY
+
+REFERENCE
+!=
+ENTITY
+```
+
+An identifier may refer to an identity-bearing entity under a defined resolution contract.
+
+That contract is not yet established.
+
+---
+
+# 10. Name ≠ Identity Firewall
+
+```text
+NAME
+!=
+IDENTITY
+
+SAME NAME
+!=
+SAME ENTITY
+
+DIFFERENT NAME
+!=
+DIFFERENT ENTITY
+
+RENAMING
+!=
+IDENTITY LOSS
+```
+
+Native naming semantics:
+
+```yaml
+name_identity_relation:
   status: UNKNOWN/GAP
-  definition: null
-  unit_of_analysis: UNKNOWN/GAP
-  architecture: UNKNOWN/GAP
-  dimensions: UNKNOWN/GAP
-  measurement: UNKNOWN/GAP
-```
-
-The title alone does not resolve whether AMOS means:
-
-* psychometric intelligence;
-* cognitive capability;
-* adaptive competence;
-* reasoning capacity;
-* learning capacity;
-* problem-solving;
-* multi-domain cognition;
-* a composite architecture;
-* a comparative construct;
-* an AMOS-specific model.
-
----
-
-# 8. Intelligence ≠ IQ Firewall
-
-```text
-INTELLIGENCE
-!=
-IQ
-
-IQ TEST
-!=
-TOTAL HUMAN INTELLIGENCE
-
-IQ SCORE
-!=
-COMPLETE COGNITIVE PROFILE
-
-IQ SCORE
-!=
-PERSONAL WORTH
-
-IQ SCORE
-!=
-CONSCIOUSNESS
-
-IQ SCORE
-!=
-WISDOM
-
-IQ SCORE
-!=
-MORAL CAPACITY
-```
-
-The placeholder contains no IQ construct.
-
-Therefore:
-
-```yaml
-iq_binding:
-  status: NOT_ESTABLISHED
 ```
 
 ---
 
-# 9. Intelligence ≠ Test Score Firewall
+# 11. Label ≠ Identity Firewall
 
 ```text
-TEST SCORE
+LABEL
 !=
-INTELLIGENCE ITSELF
+IDENTITY
 
-OBSERVED PERFORMANCE
+CLASS LABEL
 !=
-LATENT CAPACITY
+INDIVIDUAL ENTITY
 
-SINGLE TASK
+ROLE LABEL
 !=
-GENERAL CAPABILITY
+PERSON
 
-SINGLE SESSION
+TYPE LABEL
 !=
-STABLE TRAIT
-
-MEASUREMENT
-!=
-CONSTRUCT
-
-PROXY
-!=
-GROUND TRUTH
-```
-
-Any future intelligence measurement must distinguish latent construct from observable measurement.
-
----
-
-# 10. Intelligence ≠ Knowledge Firewall
-
-```text
-KNOWLEDGE
-!=
-INTELLIGENCE
-
-INFORMATION STORED
-!=
-REASONING ABILITY
-
-FACT RECALL
-!=
-GENERAL INTELLIGENCE
-
-EXPERT KNOWLEDGE
-!=
-DOMAIN-GENERAL INTELLIGENCE
-```
-
-Native relation:
-
-```yaml
-intelligence_to_knowledge:
-  relation: UNKNOWN/GAP
+INSTANCE IDENTITY
 ```
 
 ---
 
-# 11. Intelligence ≠ Memory Firewall
+# 12. Address ≠ Identity Firewall
 
 ```text
-MEMORY
+ADDRESS
 !=
-INTELLIGENCE
+IDENTITY
 
-MEMORY CAPACITY
+LOCATION
 !=
-GENERAL INTELLIGENCE
+ENTITY
 
-RECALL ACCURACY
+PATH
 !=
-GENERAL INTELLIGENCE
+IDENTITY
 
-PERSISTENCE OF INFORMATION
+ENDPOINT
 !=
-INTELLIGENCE
+AGENT IDENTITY
+
+NETWORK ADDRESS
+!=
+SYSTEM IDENTITY
 ```
 
-Possible relation remains:
+An entity may move while retaining identity under some models.
 
-`UNKNOWN/GAP`.
+Whether AMOS permits that remains unresolved.
 
 ---
 
-# 12. Intelligence ≠ Reasoning Firewall
+# 13. Credential ≠ Identity Firewall
 
 ```text
-REASONING
+CREDENTIAL
 !=
-INTELLIGENCE
+IDENTITY
 
-LOGICAL PERFORMANCE
+TOKEN
 !=
-TOTAL INTELLIGENCE
+IDENTITY
 
-INFERENCE
+PASSWORD
 !=
-GENERAL INTELLIGENCE
+IDENTITY
 
-PROBLEM SOLVING
+KEY
 !=
-ALL HUMAN INTELLIGENCE
+IDENTITY
+
+CERTIFICATE
+!=
+IDENTITY
 ```
 
-A future native canon may make reasoning a component, manifestation, correlate, or separate construct. Current relation:
+Credentials may support authentication of an identity claim.
 
-`UNKNOWN/GAP`.
+They do not become the entity itself.
 
 ---
 
-# 13. Intelligence ≠ Learning Firewall
+# 14. Authentication ≠ Identity Firewall
 
 ```text
-LEARNING
+AUTHENTICATION
 !=
-INTELLIGENCE
+IDENTITY
 
-LEARNING RATE
+AUTHENTICATED CLAIM
 !=
-INTELLIGENCE
+COMPLETE IDENTITY
 
-TRAINING IMPROVEMENT
-!=
-GENERAL INTELLIGENCE
-
-ADAPTATION
-!=
-INTELLIGENCE
-```
-
-Native relation:
-
-`UNKNOWN/GAP`.
-
----
-
-# 14. Intelligence ≠ Creativity Firewall
-
-```text
-CREATIVITY
-!=
-INTELLIGENCE
-
-NOVEL OUTPUT
-!=
-CREATIVITY
-
-CREATIVITY
-!=
-GENERAL INTELLIGENCE
-
-GENERATIVE DIVERSITY
-!=
-HUMAN CREATIVITY
-```
-
-No creativity relation is established.
-
----
-
-# 15. Intelligence ≠ Language Firewall
-
-```text
-LANGUAGE ABILITY
-!=
-INTELLIGENCE
-
-VERBAL FLUENCY
-!=
-GENERAL INTELLIGENCE
-
-VOCABULARY
-!=
-GENERAL INTELLIGENCE
-
-ARTICULATE RESPONSE
-!=
-HIGH INTELLIGENCE
-```
-
-Language-heavy measurements can confound intelligence claims unless measurement invariance and construct validity are established.
-
----
-
-# 16. Intelligence ≠ Education Firewall
-
-```text
-EDUCATION
-!=
-INTELLIGENCE
-
-DEGREE
-!=
-INTELLIGENCE
-
-SCHOOL PERFORMANCE
-!=
-GENERAL INTELLIGENCE
-
-TEST PREPARATION
-!=
-UNDERLYING CAPACITY
-```
-
-Educational outcomes may reflect multiple causal factors.
-
----
-
-# 17. Intelligence ≠ Expertise Firewall
-
-```text
-EXPERTISE
-!=
-GENERAL INTELLIGENCE
-
-DOMAIN PERFORMANCE
-!=
-DOMAIN-GENERAL CAPACITY
-
-YEARS OF EXPERIENCE
-!=
-INTELLIGENCE
-
-PROFESSIONAL STATUS
-!=
-INTELLIGENCE
-```
-
----
-
-# 18. Intelligence ≠ Productivity Firewall
-
-```text
-PRODUCTIVITY
-!=
-INTELLIGENCE
-
-OUTPUT VOLUME
-!=
-COGNITIVE QUALITY
-
-ECONOMIC SUCCESS
-!=
-INTELLIGENCE
-
-SOCIAL STATUS
-!=
-INTELLIGENCE
-```
-
-No socioeconomic inference is licensed by this placeholder.
-
----
-
-# 19. Intelligence ≠ Wisdom Firewall
-
-```text
-INTELLIGENCE
-!=
-WISDOM
-
-REASONING ABILITY
-!=
-GOOD JUDGMENT
-
-KNOWLEDGE
-!=
-WISDOM
-
-HIGH CAPABILITY
-!=
-GOOD DECISION
-```
-
----
-
-# 20. Intelligence ≠ Moral Worth Firewall
-
-This distinction is mandatory for any future Human Intelligence canon:
-
-```text
-INTELLIGENCE
-!=
-MORAL WORTH
-
-COGNITIVE PERFORMANCE
-!=
-HUMAN VALUE
-
-TEST SCORE
-!=
-DIGNITY
-
-CAPABILITY DIFFERENCE
-!=
-RIGHTS DIFFERENCE
-
-COGNITIVE CLASSIFICATION
-!=
-SOCIAL HIERARCHY
-
-MEASUREMENT
-!=
-ENTITLEMENT
-
-INTELLIGENCE
-!=
-AUTHORITY
-```
-
-The artifact must never transform a descriptive intelligence construct into an unsupported normative hierarchy.
-
----
-
-# 21. Intelligence ≠ Consciousness Firewall
-
-```text
-INTELLIGENCE
-!=
-CONSCIOUSNESS
-
-HIGH INTELLIGENCE
-!=
-HIGH CONSCIOUSNESS
-
-LOW MEASURED PERFORMANCE
-!=
-ABSENCE OF CONSCIOUSNESS
-
-PROBLEM SOLVING
-!=
-SUBJECTIVE EXPERIENCE
-
-SELF-REPORT
-!=
-PROOF OF SUBJECTIVE EXPERIENCE
-```
-
-Relation to [[AMOS_CONSCIOUSNESS_CANON]] remains `UNKNOWN/GAP`.
-
----
-
-# 22. Intelligence ≠ Agency Firewall
-
-```text
-INTELLIGENCE
-!=
-AGENCY
-
-CAPABILITY
-!=
-AUTHORITY
-
-DECISION CAPABILITY
+AUTHENTICATION SUCCESS
 !=
 AUTHORIZATION
 
-AUTONOMOUS BEHAVIOR
+AUTHENTICATION SUCCESS
+!=
+AUTHORITY
+```
+
+Native authentication binding:
+
+`NOT_ESTABLISHED`.
+
+---
+
+# 15. Authorization ≠ Identity Firewall
+
+```text
+IDENTITY
+!=
+AUTHORIZATION
+
+IDENTIFIED
+!=
+AUTHORIZED
+
+AUTHENTICATED
+!=
+AUTHORIZED
+
+AUTHORIZED
+!=
+COMMITTED
+
+IDENTITY
+!=
+RIGHT TO ACT
+```
+
+This preserves the source law:
+
+```text
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+```
+
+---
+
+# 16. Identity ≠ Authority Firewall
+
+```text
+KNOWN IDENTITY
+!=
+AUTHORITY
+
+PERSISTENT IDENTITY
+!=
+GOVERNANCE AUTHORITY
+
+ORIGIN IDENTITY
+!=
+CURRENT AUTHORITY
+
+CREATOR IDENTITY
+!=
+UNBOUNDED CONTROL
+```
+
+Authority requires a separate typed, epoch-valid authority relation.
+
+---
+
+# 17. Identity ≠ Ownership Firewall
+
+```text
+IDENTITY
+!=
+OWNERSHIP
+
+CREATOR
+!=
+OWNER
+
+OWNER
+!=
+AUTHORITY IN ALL CONTEXTS
+
+PROVENANCE
+!=
+PROPERTY RIGHT
+```
+
+No native ownership semantics are established.
+
+---
+
+# 18. Identity ≠ Provenance Firewall
+
+```text
+IDENTITY
+!=
+PROVENANCE
+
+WHO/WHAT AN ENTITY IS
+!=
+WHERE A CLAIM CAME FROM
+
+SAME PROVENANCE
+!=
+SAME IDENTITY
+
+DIFFERENT PROVENANCE
+!=
+DIFFERENT IDENTITY
+```
+
+Identity and provenance may interact, but the relation is unresolved.
+
+---
+
+# 19. Identity ≠ Lineage Firewall
+
+```text
+IDENTITY
+!=
+LINEAGE
+
+ANCESTRY
+!=
+IDENTITY
+
+DESCENT
+!=
+IDENTICALITY
+
+SUCCESSOR
+!=
+ANCESTOR
+
+DERIVED FROM
+!=
+SAME AS
+```
+
+A lineage edge alone does not prove continuity of identity.
+
+---
+
+# 20. Identity ≠ Memory Firewall
+
+```text
+IDENTITY
+!=
+MEMORY
+
+SAME MEMORIES
+!=
+SAME ENTITY
+
+MEMORY LOSS
+!=
+PROVEN IDENTITY LOSS
+
+MEMORY COPY
+!=
+IDENTITY TRANSFER
+```
+
+Relation to any AMOS memory canon:
+
+`UNKNOWN/GAP`.
+
+---
+
+# 21. Identity ≠ Personality Firewall
+
+```text
+IDENTITY
+!=
+PERSONALITY
+
+PERSONALITY CHANGE
+!=
+IDENTITY LOSS
+
+SAME PERSONALITY
+!=
+SAME PERSON
+
+BEHAVIORAL PROFILE
+!=
+IDENTITY
+```
+
+---
+
+# 22. Identity ≠ Self-Model Firewall
+
+```text
+IDENTITY
+!=
+SELF-MODEL
+
+SELF-DESCRIPTION
+!=
+IDENTITY
+
+SELF-REFERENCE
+!=
+SELFHOOD
+
+SELF-MODEL CONTINUITY
+!=
+PROVEN ENTITY CONTINUITY
+```
+
+---
+
+# 23. Identity ≠ Consciousness Firewall
+
+```text
+IDENTITY
+!=
+CONSCIOUSNESS
+
+IDENTITY CLAIM
+!=
+SUBJECTIVE EXPERIENCE
+
+SELF-IDENTIFICATION
+!=
+CONSCIOUSNESS
+
+CONTINUOUS IDENTITY
+!=
+CONTINUOUS EXPERIENCE
+```
+
+Relation to [[AMOS_CONSCIOUSNESS_CANON]]:
+
+`UNKNOWN/GAP`.
+
+---
+
+# 24. Identity ≠ Agency Firewall
+
+```text
+IDENTITY
+!=
+AGENCY
+
+AGENT ID
+!=
+AGENCY
+
+PERSISTENT IDENTITY
+!=
+AUTONOMOUS ACTION
+
+SELF-REFERENCE
 !=
 AGENCY
 
 AGENCY
 !=
-RIGHT TO COMMIT
+AUTHORITY
 ```
 
 ---
 
-# 23. Human-Like Performance Firewall
-
-Especially for comparisons with artificial systems:
+# 25. Identity ≠ Cognition Firewall
 
 ```text
-HUMAN-LIKE OUTPUT
+IDENTITY
 !=
-HUMAN-LIKE COGNITION
+COGNITION
 
-HUMAN-LIKE COGNITION
+COGNITIVE STATE
 !=
-HUMAN BIOLOGY
+IDENTITY
 
-HUMAN-LIKE COGNITION
+COGNITIVE SIMILARITY
 !=
-HUMAN SUBJECTIVE EXPERIENCE
+SAME IDENTITY
 
-BENCHMARK PARITY
+COGNITIVE CHANGE
 !=
-COGNITIVE EQUIVALENCE
+IDENTITY CHANGE
+```
 
-SUPERHUMAN TASK PERFORMANCE
-!=
-SUPERHUMAN GENERAL INTELLIGENCE
+Placement in the Cognition Canon segment does not itself establish identity as a cognitive process.
+
+---
+
+# Part II — Core Identity Problems
+
+# 26. Identity Criteria
+
+A substantive canon must specify what licenses:
+
+```text
+X AT t1
+=
+X AT t2
+```
+
+Current:
+
+```yaml
+identity_criteria:
+  status: UNKNOWN/GAP
+  necessary_conditions: []
+  sufficient_conditions: []
+  invariants: []
+  tolerated_changes: []
+  identity_break_conditions: []
 ```
 
 ---
 
-# Part II — Competing Interpretations
+# 27. Identity Over Time
 
-# 24. Competing Native Interpretations
-
-Until native AMOS evidence discriminates among them:
+The central unresolved question:
 
 ```text
-H1 — Human Intelligence is an AMOS model of general
-     human cognitive capability.
+WHEN DOES ENTITY X @ t1
+COUNT AS
+THE SAME ENTITY X @ t2?
+```
 
-H2 — Human Intelligence is an architecture composed
-     of multiple cognitive capabilities.
+Possible criteria could involve:
 
-H3 — Human Intelligence is primarily a reasoning model.
+* identifier continuity;
+* causal continuity;
+* structural continuity;
+* functional continuity;
+* state continuity;
+* memory continuity;
+* provenance continuity;
+* lineage continuity;
+* authority continuity;
+* physical continuity;
+* computational continuity;
+* narrative continuity;
+* a native AMOS invariant.
 
-H4 — Human Intelligence is an adaptive problem-solving model.
+None is established.
 
-H5 — Human Intelligence is a learning-and-transfer model.
+---
 
-H6 — Human Intelligence is a functional model integrating
-     perception, memory, reasoning, learning, and decision.
+# 28. Persistence ≠ Immutability
 
-H7 — Human Intelligence is a multidimensional capability model
-     rather than a single scalar construct.
+```text
+PERSISTENCE
+!=
+IMMUTABILITY
 
-H8 — Human Intelligence is a comparative reference model
-     used to reason about other intelligence systems.
+SAME ENTITY
+DOES NOT NECESSARILY MEAN
+SAME STATE
 
-H9 — Human Intelligence is an AMOS abstraction inspired by
-     empirical human cognition but not equivalent to any
-     external psychometric theory.
+CHANGE
+DOES NOT NECESSARILY MEAN
+NEW ENTITY
+```
 
-H10 — Human Intelligence is a cognitive architecture rather
-      than a measurement construct.
+Native tolerated-change rules remain `UNKNOWN/GAP`.
 
-H11 — Human Intelligence is a measurement framework.
+---
 
-H12 — Human Intelligence is a framework label whose
-      substantive semantics remain unrecovered.
+# 29. Change Threshold
 
-H13 — Human Intelligence has a distinct native AMOS meaning
-      not captured by the candidate interpretations above.
+A native Identity Canon should eventually answer:
+
+```text
+HOW MUCH CHANGE CAN OCCUR
+BEFORE IDENTITY CHANGES?
+```
+
+Target schema:
+
+```yaml
+identity_change_threshold:
+  identity_type: required
+  mutable_properties: required
+  immutable_properties: required_if_any
+  continuity_requirements: required
+  break_conditions: required
+  scope: required
+  regime: required
+```
+
+Current content:
+
+`UNKNOWN/GAP`.
+
+---
+
+# 30. Numerical vs Qualitative Identity
+
+Conservative distinction:
+
+```text
+NUMERICAL IDENTITY:
+X IS THE SAME ENTITY AS X
+
+QUALITATIVE SIMILARITY:
+X AND Y SHARE PROPERTIES
+```
+
+Therefore:
+
+```text
+HIGH QUALITATIVE SIMILARITY
+!=
+NUMERICAL IDENTITY
+```
+
+Whether AMOS uses these philosophical categories is not established.
+
+They are firewall concepts only.
+
+---
+
+# 31. Similarity ≠ Identity
+
+```text
+STRUCTURAL SIMILARITY
+!=
+IDENTITY
+
+BEHAVIORAL SIMILARITY
+!=
+IDENTITY
+
+FUNCTIONAL SIMILARITY
+!=
+IDENTITY
+
+CONTENT SIMILARITY
+!=
+IDENTITY
+
+STATE SIMILARITY
+!=
+IDENTITY
+```
+
+No similarity metric alone licenses an identity claim without native identity criteria.
+
+---
+
+# 32. Equivalence ≠ Identity
+
+```text
+EQUIVALENT
+!=
+IDENTICAL
+
+FUNCTIONALLY EQUIVALENT
+!=
+SAME ENTITY
+
+SEMANTICALLY EQUIVALENT
+!=
+SAME ARTIFACT
+
+BEHAVIORALLY EQUIVALENT
+!=
+SAME AGENT
+```
+
+A future canon must type equivalence separately from identity.
+
+---
+
+# 33. Copy Firewall
+
+```text
+COPY
+!=
+ORIGINAL
+
+BYTE-IDENTICAL COPY
+!=
+PROVEN SAME ENTITY
+
+STATE COPY
+!=
+IDENTITY TRANSFER
+
+MEMORY COPY
+!=
+PERSONAL IDENTITY TRANSFER
+
+MODEL COPY
+!=
+SAME RUNTIME INSTANCE
+```
+
+Native copy semantics:
+
+`UNKNOWN/GAP`.
+
+---
+
+# 34. Fork Firewall
+
+```text
+ONE ENTITY
+        ↓
+       FORK
+      /    \
+    X1      X2
+```
+
+The placeholder does not determine whether:
+
+```text
+X1 = ORIGINAL
+
+X2 = ORIGINAL
+
+BOTH CONTINUE ORIGINAL IDENTITY
+
+NEITHER CONTINUES ORIGINAL IDENTITY
+
+IDENTITY SPLITS
+
+NEW IDENTITIES ARE CREATED
+```
+
+Therefore:
+
+`COMPETING / UNKNOWN/GAP`.
+
+---
+
+# 35. Merge Firewall
+
+```text
+X1     X2
+ \     /
+   MERGE
+     ↓
+     Y
+```
+
+No native rule establishes whether `Y`:
+
+* is X1;
+* is X2;
+* is both;
+* is neither;
+* is a new identity;
+* inherits multiple lineages without inheriting numerical identity.
+
+Current:
+
+`UNKNOWN/GAP`.
+
+---
+
+# 36. Replacement Firewall
+
+```text
+COMPONENT REPLACEMENT
+!=
+AUTOMATIC IDENTITY LOSS
+
+COMPLETE REPLACEMENT
+!=
+AUTOMATIC IDENTITY CONTINUITY
+```
+
+Native identity-preservation thresholds are unresolved.
+
+---
+
+# 37. Migration Firewall
+
+```text
+MIGRATION
+!=
+IDENTITY TRANSFER BY DEFAULT
+
+NEW HOST
+!=
+NEW IDENTITY BY DEFAULT
+
+SAME STATE ON NEW HOST
+!=
+PROVEN SAME ENTITY
+```
+
+No computational migration semantics are established.
+
+---
+
+# 38. Restore Firewall
+
+```text
+BACKUP
+!=
+CURRENT ENTITY
+
+RESTORED BACKUP
+!=
+PROVEN CONTINUATION
+
+SNAPSHOT
+!=
+IDENTITY
+
+ROLLBACK
+!=
+TIME REVERSAL
+```
+
+A restored state may create difficult identity/lineage questions. Native AMOS resolution is absent.
+
+---
+
+# 39. Version Firewall
+
+```text
+VERSION v2
+!=
+AUTOMATICALLY NEW IDENTITY
+
+VERSION v2
+!=
+AUTOMATICALLY SAME IDENTITY
+
+VERSION CHANGE
+!=
+IDENTITY DECISION
+```
+
+Version continuity and identity continuity are distinct relations.
+
+---
+
+# 40. Supersession Firewall
+
+```text
+A SUPERSEDES B
+!=
+A IS B
+
+NEWER
+!=
+SAME IDENTITY
+
+NEWER
+!=
+CANONICAL
+
+SUPERSEDES
+!=
+ERASES HERITAGE
+```
+
+Supersession must preserve lineage where applicable.
+
+---
+
+# Part III — Competing Interpretations
+
+# 41. Competing Native Interpretations
+
+Until discriminating native evidence is recovered:
+
+```text
+H1 — Identity is an AMOS logical entity-identity model.
+
+H2 — Identity is a persistent identifier architecture.
+
+H3 — Identity is an artifact/node identity framework.
+
+H4 — Identity is an agent identity framework.
+
+H5 — Identity is a system/process identity framework.
+
+H6 — Identity is a cognitive self-identity model.
+
+H7 — Identity is a personal/human identity model.
+
+H8 — Identity is a provenance-and-lineage continuity model.
+
+H9 — Identity is an authentication / identity-resolution model.
+
+H10 — Identity is a versioned continuity model across state changes.
+
+H11 — Identity is a composite model containing several
+      separately typed identity classes.
+
+H12 — Identity is a governance construct used to determine
+      what entity a proposal, authority, capability, source,
+      or artifact refers to.
+
+H13 — Identity is a framework label whose substantive
+      native semantics remain unrecovered.
+
+H14 — Identity has a distinct native AMOS meaning not
+      represented by the candidate interpretations above.
 ```
 
 Current:
@@ -1029,195 +1542,175 @@ COMPETING
 UNKNOWN/GAP
 ```
 
-These hypotheses are discriminating scaffolds, not canon.
-
 ---
 
-# 25. Cheapest Discriminating Evidence
+# 42. Cheapest Discriminating Evidence
 
-The highest-information evidence is a verified native AMOS source explicitly defining:
+Highest-information evidence:
 
-**AMOS Human Intelligence**
+> A verified native AMOS source explicitly defining **AMOS Identity**.
 
-and resolving:
+It should resolve:
 
 ```text
-WHAT DOES "HUMAN" DENOTE?
+WHAT IS IDENTITY?
 
-WHAT DOES "INTELLIGENCE" DENOTE?
+WHAT TYPES OF IDENTITY EXIST?
 
-WHAT IS THE UNIT OF ANALYSIS?
+WHAT ENTITIES CAN BEAR IDENTITY?
 
-IS INTELLIGENCE UNITARY OR MULTIDIMENSIONAL?
+WHAT MAKES X IDENTICAL TO ITSELF OVER TIME?
 
-WHAT CAPABILITIES ARE INCLUDED?
+WHAT CHANGES PRESERVE IDENTITY?
 
-WHAT CAPABILITIES ARE EXCLUDED?
+WHAT CHANGES BREAK IDENTITY?
 
-IS INTELLIGENCE A TRAIT, STATE, CAPACITY,
-PROCESS, ARCHITECTURE, FUNCTION, OR MODEL?
+WHAT IS AN IDENTIFIER?
 
-HOW DOES REASONING RELATE TO IT?
+HOW DOES AN IDENTIFIER RELATE TO IDENTITY?
 
-HOW DOES MEMORY RELATE TO IT?
+ARE IDENTITIES UNIQUE?
 
-HOW DOES LEARNING RELATE TO IT?
+WHAT IS THE IDENTITY NAMESPACE?
 
-HOW DOES ATTENTION RELATE TO IT?
+HOW ARE COLLISIONS HANDLED?
 
-HOW DOES PERCEPTION RELATE TO IT?
+HOW ARE ALIASES HANDLED?
 
-HOW DOES LANGUAGE RELATE TO IT?
+HOW ARE RENAMES HANDLED?
 
-HOW DOES DECISION RELATE TO IT?
+HOW ARE COPIES HANDLED?
 
-HOW DOES EMOTION RELATE TO IT?
+HOW ARE FORKS HANDLED?
 
-HOW DOES AGENCY RELATE TO IT?
+HOW ARE MERGES HANDLED?
 
-HOW DOES METACOGNITION RELATE TO IT?
+HOW ARE RESTORES HANDLED?
 
-HOW DOES CONSCIOUSNESS RELATE TO IT?
+HOW ARE MIGRATIONS HANDLED?
 
-HOW IS INTELLIGENCE MEASURED?
+HOW ARE VERSIONS HANDLED?
 
-ARE THERE VARIABLES OR FACTORS?
+HOW IS SUPERSESSION HANDLED?
 
-ARE THERE EQUATIONS?
+HOW IS LINEAGE RELATED TO IDENTITY?
 
-ARE THERE BENCHMARKS?
+HOW IS PROVENANCE RELATED TO IDENTITY?
 
-IS IQ USED?
+HOW IS AUTHENTICATION RELATED TO IDENTITY?
 
-HOW ARE INDIVIDUAL DIFFERENCES HANDLED?
+HOW IS AUTHORIZATION RELATED TO IDENTITY?
 
-HOW ARE DEVELOPMENTAL DIFFERENCES HANDLED?
+HOW IS AUTHORITY RELATED TO IDENTITY?
 
-HOW ARE CULTURAL AND LANGUAGE EFFECTS HANDLED?
+WHAT IS SELF-IDENTITY?
 
-HOW IS MEASUREMENT INVARIANCE ESTABLISHED?
+WHAT IS HUMAN/PERSONAL IDENTITY?
 
-WHAT CAUSAL CLAIMS ARE LICENSED?
+WHAT IS AGENT IDENTITY?
 
-WHAT IS THE RELATION TO ARTIFICIAL INTELLIGENCE?
+WHAT IS SYSTEM IDENTITY?
 
-WHAT IS THE RELATION TO CROSS-SPECIES FUNCTION?
+WHAT IS ARTIFACT IDENTITY?
 
-WHAT IS THE VALID SCOPE?
+WHAT IS COGNITIVE IDENTITY?
 
-WHAT REGIMES ARE VALID?
+HOW DOES IDENTITY RELATE TO MEMORY?
 
-WHAT WOULD FALSIFY THE MODEL?
+HOW DOES IDENTITY RELATE TO CONSCIOUSNESS?
+
+HOW DOES IDENTITY RELATE TO AGENCY?
+
+WHAT ARE THE VALID SCOPE AND REGIME?
+
+WHAT WOULD FALSIFY AN IDENTITY CLAIM?
 ```
-
-Repeated use of the phrase `human intelligence` without these definitions does not resolve the canon.
 
 ---
 
-# Part III — Native Definition Schema
+# Part IV — Native Identity Schema
 
-# 26. Native Human Intelligence Schema
+# 43. Native Definition Schema
 
 ```yaml
-AMOS_HUMAN_INTELLIGENCE_NATIVE_SCHEMA:
+AMOS_IDENTITY_NATIVE_SCHEMA:
 
   native_title: required
   native_definition: required
 
-  human_definition:
+  identity_types:
     required
 
-  intelligence_definition:
+  identity_bearers:
     required
 
-  unit_of_analysis:
+  identity_criteria:
     required
 
-  construct_type:
+  continuity_criteria:
     required
 
-  source:
-    source_id: required
-    source_type: required
-    source_version: required
-    source_hash: when_available
-
-  provenance:
+  persistence_criteria:
     required
 
-  claim_class:
+  break_conditions:
     required
 
-  architecture:
-    required_if_claimed
+  identifier_model:
+    required_if_identifiers_used
 
-  dimensions:
-    required_if_claimed
+  namespace_model:
+    required_if_identifiers_used
 
-  capabilities:
-    required_if_claimed
+  alias_model:
+    required_if_aliases_used
 
-  variables:
-    required_if_claimed
+  equivalence_model:
+    required_if_equivalence_claimed
 
-  factor_model:
-    required_if_claimed
-
-  equations:
-    required_if_claimed
-
-  measurement:
-    required_if_claimed
-
-  benchmarks:
-    required_if_claimed
-
-  psychometric_mapping:
-    required_if_claimed
-
-  biological_mapping:
-    required_if_claimed
-
-  causal_semantics:
-    required_if_claimed
-
-  reasoning_relation:
+  lineage_relation:
     required
+
+  provenance_relation:
+    required
+
+  version_relation:
+    required
+
+  copy_semantics:
+    required_if_applicable
+
+  fork_semantics:
+    required_if_applicable
+
+  merge_semantics:
+    required_if_applicable
+
+  migration_semantics:
+    required_if_applicable
+
+  restore_semantics:
+    required_if_applicable
+
+  supersession_semantics:
+    required_if_applicable
+
+  authentication_relation:
+    required_if_claimed
+
+  authorization_relation:
+    required_if_claimed
+
+  authority_relation:
+    required_if_claimed
 
   memory_relation:
-    required
-
-  learning_relation:
-    required
-
-  attention_relation:
-    required
-
-  perception_relation:
-    required
-
-  language_relation:
-    required
-
-  decision_relation:
-    required
-
-  emotion_relation:
-    required
-
-  agency_relation:
-    required
-
-  metacognition_relation:
-    required
-
-  consciousness_relation:
-    required
-
-  human_ai_relation:
     required_if_claimed
 
-  cross_species_relation:
+  consciousness_relation:
+    required_if_claimed
+
+  agency_relation:
     required_if_claimed
 
   scope:
@@ -1230,6 +1723,9 @@ AMOS_HUMAN_INTELLIGENCE_NATIVE_SCHEMA:
     required
 
   dependencies:
+    required
+
+  provenance:
     required
 
   competing_claims:
@@ -1245,153 +1741,30 @@ AMOS_HUMAN_INTELLIGENCE_NATIVE_SCHEMA:
     required_if_promoted
 ```
 
-This schema reserves slots only. It does not populate them.
+This schema reserves semantic slots only.
+
+It does not populate native canon.
 
 ---
 
-# 27. Construct-Type Registry
+# 44. Identity-Type Registry
 
 ```yaml
-human_intelligence_construct_type:
-  trait: NOT_ESTABLISHED
-  state: NOT_ESTABLISHED
-  capacity: NOT_ESTABLISHED
-  capability: NOT_ESTABLISHED
-  process: NOT_ESTABLISHED
-  architecture: NOT_ESTABLISHED
-  function: NOT_ESTABLISHED
-  latent_variable: NOT_ESTABLISHED
-  multidimensional_profile: NOT_ESTABLISHED
-  scalar: NOT_ESTABLISHED
-  model: NOT_ESTABLISHED
-  native_amos_type: UNKNOWN/GAP
-```
-
----
-
-# 28. Unit of Analysis
-
-```yaml
-unit_of_analysis:
-  individual: UNKNOWN/GAP
-  population: UNKNOWN/GAP
-  group: UNKNOWN/GAP
-  task: UNKNOWN/GAP
-  cognitive_process: UNKNOWN/GAP
-  cognitive_architecture: UNKNOWN/GAP
-  developmental_stage: UNKNOWN/GAP
-  species: UNKNOWN/GAP
-```
-
-Do not silently move between levels.
-
----
-
-# 29. Intelligence Architecture
-
-```yaml
-intelligence_architecture:
+AMOS_IDENTITY_TYPE_REGISTRY:
   status: UNKNOWN/GAP
-  components: []
-  interfaces: []
-  hierarchy: UNKNOWN/GAP
-  integration_model: UNKNOWN/GAP
-  dynamics: UNKNOWN/GAP
-  dependencies: []
+  identity_types: []
 ```
-
-No architecture should be reconstructed from general psychology without native evidence.
-
----
-
-# 30. Capability Registry
-
-```yaml
-AMOS_HUMAN_INTELLIGENCE_CAPABILITY_REGISTRY:
-  status: UNKNOWN/GAP
-  capabilities: []
-```
-
-Candidate capability labels such as reasoning, memory, language, learning, planning, perception, or creativity are not native entries until sourced.
 
 Future entry:
 
 ```yaml
-capability:
-  capability_id: required
+identity_type:
+  identity_type_id: required
   definition: required
-  construct_type: required
-  observables: required
-  measurement: required_if_claimed
-  dependencies: required
-  scope: required
-  regime: required
-  provenance: required
-  falsifiers: required
-```
-
----
-
-# 31. Dimension Registry
-
-```yaml
-AMOS_HUMAN_INTELLIGENCE_DIMENSIONS:
-  status: UNKNOWN/GAP
-  dimensions: []
-```
-
-No assumption is made that intelligence is:
-
-```text
-ONE-DIMENSIONAL
-
-MULTIDIMENSIONAL
-
-HIERARCHICAL
-
-FACTORIAL
-
-MODULAR
-
-DISTRIBUTED
-```
-
----
-
-# 32. Factor Model
-
-```yaml
-factor_model:
-  status: UNKNOWN/GAP
-  general_factor: NOT_ESTABLISHED
-  group_factors: []
-  specific_factors: []
-  latent_structure: UNKNOWN/GAP
-```
-
-No external psychometric factor model is native AMOS canon by default.
-
----
-
-# 33. Variable Registry
-
-```yaml
-AMOS_HUMAN_INTELLIGENCE_VARIABLE_REGISTRY:
-  status: UNKNOWN/GAP
-  variables: []
-```
-
-Future variable:
-
-```yaml
-variable:
-  variable_id: required
-  definition: required
-  type: required
-  unit: when_applicable
-  observable: required
-  latent: required
-  measurement_method: required_if_observable
+  bearer_types: required
+  identity_criteria: required
+  continuity_criteria: required
+  break_conditions: required
   scope: required
   regime: required
   provenance: required
@@ -1399,1142 +1772,879 @@ variable:
 
 ---
 
-# 34. Equation Registry
+# 45. Identity-Bearer Registry
 
 ```yaml
-AMOS_HUMAN_INTELLIGENCE_EQUATION_REGISTRY:
+AMOS_IDENTITY_BEARER_REGISTRY:
   status: UNKNOWN/GAP
-  equations: []
+  bearer_types: []
+```
+
+Future:
+
+```yaml
+identity_bearer_type:
+  bearer_type_id: required
+  definition: required
+  allowed_identity_types: required
+  identity_assignment_rule: required
+  scope: required
+  provenance: required
+```
+
+---
+
+# 46. Identifier Registry
+
+```yaml
+AMOS_IDENTIFIER_REGISTRY:
+  status: UNKNOWN/GAP
+  identifier_types: []
+```
+
+Future identifier type:
+
+```yaml
+identifier_type:
+  identifier_type_id: required
+  syntax: required
+  namespace: required
+  uniqueness_scope: required
+  persistence_rule: required
+  collision_rule: required
+  resolution_rule: required
+  provenance: required
+```
+
+---
+
+# 47. Namespace Semantics
+
+```yaml
+identity_namespace:
+  status: UNKNOWN/GAP
+  namespace_id: UNKNOWN/GAP
+  uniqueness_scope: UNKNOWN/GAP
+  collision_semantics: UNKNOWN/GAP
+  federation_semantics: UNKNOWN/GAP
+  resolution_semantics: UNKNOWN/GAP
 ```
 
 Preserve:
 
 ```text
-EQUATION
+UNIQUE WITHIN NAMESPACE A
 !=
-EMPIRICAL LAW
+GLOBALLY UNIQUE
 
-MODEL FIT
+SAME ID IN DIFFERENT NAMESPACES
 !=
-THEORY TRUTH
-
-STATISTICAL ASSOCIATION
-!=
-CAUSAL MECHANISM
-
-PREDICTIVE ACCURACY
-!=
-CONSTRUCT VALIDITY
+SAME ENTITY
 ```
 
 ---
 
-# Part IV — Measurement and Psychometrics Firewall
-
-# 35. Measurement Model
+# 48. Identity Resolution
 
 ```yaml
-measurement_model:
+identity_resolution:
   status: UNKNOWN/GAP
-  constructs: []
-  observables: []
-  proxies: []
-  instruments: []
-  tests: []
-  benchmarks: []
-  scoring_rules: []
-  uncertainty_model: UNKNOWN/GAP
-  validity_model: UNKNOWN/GAP
-  reliability_model: UNKNOWN/GAP
+  input_identifier: UNKNOWN/GAP
+  namespace: UNKNOWN/GAP
+  version: UNKNOWN/GAP
+  temporal_context: UNKNOWN/GAP
+  regime: UNKNOWN/GAP
+  result_type: UNKNOWN/GAP
+  ambiguity_policy: UNKNOWN/GAP
 ```
 
----
-
-# 36. Construct vs Measurement
+Target fail-closed rule:
 
 ```text
-INTELLIGENCE CONSTRUCT
-!=
-INTELLIGENCE MEASUREMENT
-
-LATENT VARIABLE
-!=
-OBSERVED SCORE
-
-SCORE
-!=
-PERSON
-
-TEST
-!=
-CONSTRUCT
-
-BENCHMARK
-!=
-CAPABILITY ITSELF
+AMBIGUOUS IDENTITY
+→ UNKNOWN/GAP
+→ DO NOT SILENTLY SELECT
 ```
-
-A measurement may provide evidence about a construct only under a validated measurement model.
 
 ---
 
-# 37. IQ Binding
+# 49. Alias Semantics
 
 ```yaml
-iq:
-  native_binding: NOT_ESTABLISHED
-  definition: UNKNOWN/GAP
-  test_family: UNKNOWN/GAP
-  score_semantics: UNKNOWN/GAP
-  validity: UNKNOWN/GAP
-  relation_to_amos_intelligence: UNKNOWN/GAP
-```
-
-Therefore:
-
-```text
-AMOS HUMAN INTELLIGENCE
-!=
-IQ
-```
-
-unless native canon establishes a typed relation.
-
----
-
-# 38. Benchmark Firewall
-
-```text
-BENCHMARK SUCCESS
-!=
-UNIVERSAL INTELLIGENCE
-
-BENCHMARK FAILURE
-!=
-ABSENCE OF INTELLIGENCE
-
-HIGH SCORE
-!=
-GENERAL CAPABILITY
-
-AVERAGE SCORE
-!=
-INDIVIDUAL CAPACITY
-
-ONE BENCHMARK
-!=
-COMPLETE INTELLIGENCE PROFILE
-```
-
----
-
-# 39. Reliability Firewall
-
-A repeatable measurement is not automatically valid.
-
-```text
-RELIABILITY
-!=
-VALIDITY
-
-CONSISTENT SCORE
-!=
-CORRECT CONSTRUCT
-
-LOW MEASUREMENT NOISE
-!=
-LOW MODEL UNCERTAINTY
-```
-
-Native reliability requirements remain `UNKNOWN/GAP`.
-
----
-
-# 40. Construct Validity
-
-A future intelligence measurement should discriminate:
-
-```yaml
-construct_validity:
-  content_validity: required_if_claimed
-  convergent_validity: required_if_claimed
-  discriminant_validity: required_if_claimed
-  predictive_validity: required_if_claimed
-  criterion_validity: required_if_claimed
-  scope: required
-  regime: required
-```
-
-No such validation is established by this placeholder.
-
----
-
-# 41. Measurement Invariance
-
-For comparisons across populations:
-
-```text
-SAME TEST
-!=
-SAME CONSTRUCT MEASUREMENT
-
-SAME SCORE
-!=
-SAME LATENT CAPACITY
-
-SAME THRESHOLD
-!=
-VALID THRESHOLD ACROSS GROUPS
-```
-
-Target:
-
-```yaml
-measurement_invariance:
+alias_model:
   status: UNKNOWN/GAP
-  populations: []
-  languages: []
-  cultures: []
-  developmental_stages: []
-  environments: []
-  methods: []
+  alias_types: []
+  canonicalization_rule: UNKNOWN/GAP
+  collision_rule: UNKNOWN/GAP
+  temporal_validity: UNKNOWN/GAP
+```
+
+```text
+ALIAS
+!=
+NEW IDENTITY
+
+ALIAS EQUALITY
+!=
+IDENTITY EQUALITY
 ```
 
 ---
 
-# 42. Language Confounding
+# 50. Rename Semantics
 
 ```text
-LANGUAGE-HEAVY TEST PERFORMANCE
+RENAME
 !=
-PURE INTELLIGENCE MEASUREMENT
+IDENTITY LOSS
 
-VOCABULARY DIFFERENCE
+RENAME
 !=
-INTELLIGENCE DIFFERENCE
-
-TRANSLATION EQUIVALENCE
-!=
-MEASUREMENT INVARIANCE
+PROVEN IDENTITY CONTINUITY
 ```
 
-Language, education, familiarity, and task structure may be relevant alternative explanations where material.
-
----
-
-# 43. Cultural Scope Firewall
-
-```text
-VALID IN CULTURE C1
-!=
-VALID IN ALL CULTURES
-
-VALID IN LANGUAGE L1
-!=
-VALID IN ALL LANGUAGES
-
-TEST NORM
-!=
-UNIVERSAL HUMAN NORM
-```
-
-Native cultural scope is unresolved.
-
----
-
-# 44. Individual vs Population Firewall
-
-```text
-POPULATION MEAN
-!=
-INDIVIDUAL
-
-GROUP DISTRIBUTION
-!=
-PERSONAL DESTINY
-
-GROUP ASSOCIATION
-!=
-INDIVIDUAL CAUSATION
-
-SAMPLE RESULT
-!=
-SPECIES UNIVERSAL
-```
-
-Statistical group information must not be converted into unsupported claims about a particular individual.
-
----
-
-# 45. Trait vs State Firewall
-
-```text
-CURRENT PERFORMANCE
-!=
-STABLE TRAIT
-
-TEMPORARY IMPAIRMENT
-!=
-GENERAL CAPACITY
-
-HIGH PERFORMANCE TODAY
-!=
-PERMANENT INTELLIGENCE LEVEL
-
-STATE
-!=
-TRAIT
-```
-
-Native trait/state semantics:
+Native rename contract:
 
 `UNKNOWN/GAP`.
 
 ---
 
-# 46. Capability vs Performance
-
-```text
-CAPABILITY
-!=
-OBSERVED PERFORMANCE
-
-FAILURE TO PERFORM
-!=
-ABSENCE OF CAPABILITY
-
-SUCCESSFUL PERFORMANCE
-!=
-MAXIMUM CAPABILITY
-```
-
-Performance may depend on context, opportunity, motivation, instruction, measurement, and other variables.
-
-The placeholder does not define these relationships.
-
----
-
-# Part V — Human Development and Variation
-
-# 47. Developmental Firewall
-
-```text
-ADULT MODEL
-!=
-CHILD MODEL
-
-CHILD PERFORMANCE
-!=
-ADULT CAPACITY
-
-CURRENT DEVELOPMENTAL STAGE
-!=
-FINAL CAPABILITY
-
-AGE ASSOCIATION
-!=
-CAUSAL DEVELOPMENTAL MECHANISM
-```
-
-Native developmental model:
+# 51. Equivalence Registry
 
 ```yaml
-development:
+identity_equivalence_registry:
   status: UNKNOWN/GAP
-  stages: []
-  trajectories: []
-  age_scope: UNKNOWN/GAP
-  mechanisms: UNKNOWN/GAP
+  equivalence_types: []
 ```
 
----
-
-# 48. Individual-Difference Model
-
-```yaml
-individual_differences:
-  status: UNKNOWN/GAP
-  dimensions: []
-  distribution_model: UNKNOWN/GAP
-  measurement_model: UNKNOWN/GAP
-  causal_model: UNKNOWN/GAP
-```
-
-No native ranking semantics are established.
-
----
-
-# 49. Ranking Firewall
-
-The placeholder provides no basis for ranking humans by:
+Possible typed relations:
 
 ```text
-GLOBAL INTELLIGENCE
+SAME_AS
+EQUIVALENT_TO
+ALIAS_OF
+DERIVED_FROM
+VERSION_OF
+SUCCESSOR_OF
+SUPERSEDES
+COPY_OF
+FORKED_FROM
+MERGED_FROM
+```
 
-HUMAN VALUE
+These are candidate relation classes only.
 
-WORTH
+No native registry is established.
 
-DIGNITY
+---
 
-MORAL STATUS
+# Part V — Continuity, Lineage, and Mutation
 
-SOCIAL VALUE
+# 52. Identity Continuity
 
-RIGHTS
+```yaml
+identity_continuity:
+  status: UNKNOWN/GAP
+  continuity_variables: []
+  continuity_conditions: []
+  discontinuity_conditions: []
+  evidence_requirements: []
+```
 
-FITNESS TO RULE
+---
 
-EVOLUTIONARY ADVANCEMENT
+# 53. Continuity ≠ Identity
+
+```text
+CONTINUITY
+!=
+IDENTITY
+
+CAUSAL CONTINUITY
+!=
+NUMERICAL IDENTITY
+
+MEMORY CONTINUITY
+!=
+NUMERICAL IDENTITY
+
+FUNCTIONAL CONTINUITY
+!=
+NUMERICAL IDENTITY
+
+STATE CONTINUITY
+!=
+NUMERICAL IDENTITY
+```
+
+A native canon may choose one or more as criteria, but that choice is not established.
+
+---
+
+# 54. Lineage Schema
+
+```yaml
+identity_lineage_edge:
+  edge_id: required
+  source_identity: required
+  target_identity: required
+  relation_type: required
+  event: required
+  timestamp_or_epoch: required
+  provenance: required
+  scope: required
+  confidence: required
+```
+
+Potential relation types remain unpopulated.
+
+---
+
+# 55. Lineage ≠ Continuity
+
+```text
+DERIVED_FROM
+!=
+SAME_IDENTITY_AS
+
+SUCCESSOR_OF
+!=
+SAME_IDENTITY_AS
+
+COPY_OF
+!=
+SAME_IDENTITY_AS
+
+VERSION_OF
+!=
+SAME_IDENTITY_AS
+```
+
+Unless native canon explicitly defines the relation.
+
+---
+
+# 56. Identity Mutation
+
+```yaml
+identity_mutation:
+  status: UNKNOWN/GAP
+  mutable_fields: []
+  immutable_fields: []
+  identity_preserving_mutations: []
+  identity_breaking_mutations: []
+  required_receipts: []
+```
+
+---
+
+# 57. Mutation Firewall
+
+```text
+STATE MUTATION
+!=
+IDENTITY MUTATION
+
+METADATA MUTATION
+!=
+IDENTITY MUTATION
+
+CONTENT MUTATION
+!=
+AUTOMATIC IDENTITY LOSS
+
+IDENTIFIER MUTATION
+!=
+AUTOMATIC ENTITY CHANGE
+```
+
+---
+
+# 58. Identity Split
+
+```yaml
+identity_split:
+  status: UNKNOWN/GAP
+  parent_identity: UNKNOWN/GAP
+  child_identity_semantics: UNKNOWN/GAP
+  continuity_rule: UNKNOWN/GAP
+  lineage_rule: UNKNOWN/GAP
+```
+
+No native split rule is established.
+
+---
+
+# 59. Identity Merge
+
+```yaml
+identity_merge:
+  status: UNKNOWN/GAP
+  source_identities: []
+  resulting_identity: UNKNOWN/GAP
+  continuity_rule: UNKNOWN/GAP
+  conflict_rule: UNKNOWN/GAP
+  lineage_rule: UNKNOWN/GAP
+```
+
+---
+
+# 60. Duplicate Identity
+
+The ingestion rule provides:
+
+```text
+framework_existing_in_multiple_sources
+→ CREATE_ONE_CANONICAL_NODE
+→ LINK_ALL_SOURCE_PROVENANCE
+→ DO_NOT_CREATE_DUPLICATE_CANON
+```
+
+This is source-supported as a canon-ingestion rule.
+
+But:
+
+```text
+DUPLICATE CANON PREVENTION
+!=
+GENERAL AMOS IDENTITY THEORY
+```
+
+---
+
+# 61. Duplicate Filename
+
+Source rule:
+
+```text
+duplicate_filename:
+  COMPARE_CONTENT_AND_LINEAGE
+  DO_NOT_OVERWRITE
+```
+
+Therefore:
+
+```text
+SAME FILENAME
+!=
+PROVEN SAME ARTIFACT
+
+DIFFERENT CONTENT
+!=
+AUTOMATICALLY DIFFERENT FRAMEWORK
+
+SAME CONTENT
+!=
+AUTOMATICALLY SAME LINEAGE
+```
+
+---
+
+# 62. Historical Identity
+
+Source ingestion semantics establish that historical sources should:
+
+```text
+LINK_TO_CANON
++
+RECORD_LINEAGE
++
+PRESERVE_HERITAGE
+```
+
+This supports preservation of lineage.
+
+It does not determine whether historical and current artifacts share one identity.
+
+That relation remains typed and unresolved.
+
+---
+
+# 63. Supersession Identity
+
+A future supersession edge should distinguish:
+
+```yaml
+supersession:
+  predecessor: required
+  successor: required
+  relation: SUPERSEDES
+  identity_continuity: required
+  heritage_preserved: required
+  effective_epoch: required
+  provenance: required
+```
+
+Current native schema:
+
+`NOT_ESTABLISHED`.
+
+---
+
+# Part VI — Personal, Cognitive, Agent, and System Identity
+
+# 64. Personal Identity Firewall
+
+The title does not establish a philosophical theory of personal identity.
+
+```text
+AMOS IDENTITY
+!=
+PERSONAL IDENTITY BY DEFAULT
+```
+
+Native personal identity:
+
+```yaml
+personal_identity:
+  status: UNKNOWN/GAP
+```
+
+---
+
+# 65. Human Identity Firewall
+
+```text
+HUMAN IDENTITY
+!=
+BIOLOGICAL IDENTITY BY DEFAULT
+
+HUMAN IDENTITY
+!=
+SOCIAL IDENTITY BY DEFAULT
+
+HUMAN IDENTITY
+!=
+LEGAL IDENTITY BY DEFAULT
+
+HUMAN IDENTITY
+!=
+PSYCHOLOGICAL IDENTITY BY DEFAULT
+```
+
+No native human-identity model is established.
+
+---
+
+# 66. Cognitive Identity
+
+```yaml
+cognitive_identity:
+  status: UNKNOWN/GAP
+  definition: UNKNOWN/GAP
+  relation_to_cognition: UNKNOWN/GAP
+  relation_to_memory: UNKNOWN/GAP
+  relation_to_self_model: UNKNOWN/GAP
+  relation_to_consciousness: UNKNOWN/GAP
+```
+
+Placement in `03_COGNITION_CANON` does not prove cognitive identity semantics.
+
+---
+
+# 67. Self-Identity
+
+```yaml
+self_identity:
+  status: UNKNOWN/GAP
+  self_definition: UNKNOWN/GAP
+  identity_definition: UNKNOWN/GAP
+  continuity: UNKNOWN/GAP
+  self_model_relation: UNKNOWN/GAP
 ```
 
 Preserve:
 
 ```text
-MEASURED DIFFERENCE
+SELF-REFERENCE
 !=
-VALUE HIERARCHY
+SELF-IDENTITY
 
-COGNITIVE DIFFERENCE
+SELF-DESCRIPTION
 !=
-MORAL HIERARCHY
+VERIFIED IDENTITY
+
+SELF-MODEL
+!=
+SELF
 ```
 
 ---
 
-# 50. Fixed-Potential Firewall
-
-```text
-CURRENT SCORE
-!=
-FIXED POTENTIAL
-
-OBSERVED CAPABILITY
-!=
-IMMUTABLE CAPABILITY
-
-PREDICTION
-!=
-DESTINY
-
-STATISTICAL EXPECTATION
-!=
-INDIVIDUAL CERTAINTY
-```
-
-The placeholder establishes no fixed-potential theory.
-
----
-
-# 51. Genetic Causality Firewall
-
-No genetic model is established.
+# 68. Agent Identity
 
 ```yaml
-genetic_relation:
+agent_identity:
   status: UNKNOWN/GAP
-  genetic_variables: []
-  heritability_semantics: UNKNOWN/GAP
-  causal_mechanisms: UNKNOWN/GAP
+  agent_definition: UNKNOWN/GAP
+  identity_criteria: UNKNOWN/GAP
+  lifecycle: UNKNOWN/GAP
+  authority_relation: UNKNOWN/GAP
+  capability_relation: UNKNOWN/GAP
+```
+
+```text
+AGENT IDENTITY
+!=
+AGENT AUTHORITY
+```
+
+---
+
+# 69. System Identity
+
+```yaml
+system_identity:
+  status: UNKNOWN/GAP
+  system_boundary: UNKNOWN/GAP
+  component_identity_relation: UNKNOWN/GAP
+  persistence_rule: UNKNOWN/GAP
+  replacement_rule: UNKNOWN/GAP
+```
+
+```text
+SAME COMPONENTS
+!=
+PROVEN SAME SYSTEM
+
+DIFFERENT COMPONENTS
+!=
+PROVEN DIFFERENT SYSTEM
+```
+
+---
+
+# 70. Artifact Identity
+
+This artifact itself provides a concrete example of an addressable artifact:
+
+```yaml
+artifact_identity_example:
+  artifact:
+    AMOS_IDENTITY_CANON.md
+
+  artifact_id:
+    amos_01_canon_03_cognition_canon_amos_identity_canon
+
+  path:
+    01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
+
+  version:
+    source: 0.1.0
+    expanded_derivative: 0.2.0
+```
+
+But the example does not establish a universal artifact identity law.
+
+---
+
+# 71. Claim Identity
+
+```yaml
+claim_identity:
+  status: UNKNOWN/GAP
+  claim_id_schema: UNKNOWN/GAP
+  versioning: UNKNOWN/GAP
+  semantic_equivalence: UNKNOWN/GAP
+  mutation_semantics: UNKNOWN/GAP
 ```
 
 Preserve:
 
 ```text
-HERITABILITY
+SAME SENTENCE
 !=
-IMMUTABILITY
+SAME CLAIM CONTEXT
 
-GENETIC ASSOCIATION
+SAME PROPOSITIONAL CONTENT
 !=
-GENETIC DETERMINISM
+SAME PROVENANCE
 
-POPULATION HERITABILITY
+SAME CLAIM
 !=
-INDIVIDUAL CAUSAL FRACTION
-
-GENETIC CORRELATION
-!=
-CAUSAL MECHANISM
+SAME EVIDENCE
 ```
 
 ---
 
-# 52. Environmental Causality Firewall
+# 72. Source Identity
 
 ```yaml
-environment_relation:
+source_identity:
   status: UNKNOWN/GAP
-  environmental_variables: []
-  causal_mechanisms: UNKNOWN/GAP
+  source_id_schema: UNKNOWN/GAP
+  version_semantics: UNKNOWN/GAP
+  ancestry_semantics: UNKNOWN/GAP
 ```
 
-```text
-ENVIRONMENTAL ASSOCIATION
-!=
-CAUSAL EFFECT
-
-EDUCATIONAL ASSOCIATION
-!=
-PURE EDUCATIONAL CAUSATION
-
-SOCIOECONOMIC ASSOCIATION
-!=
-INTELLIGENCE ESSENCE
-```
+Source identity is critical to provenance topology but is not natively defined here.
 
 ---
 
-# 53. Nature/Nurture Firewall
+# Part VII — Relations to Cognition-Family Canons
 
-The placeholder does not establish any decomposition of intelligence into genetic versus environmental causes.
-
-```text
-GENETIC
-VS
-ENVIRONMENTAL
-```
-
-must not be forced into a false binary.
-
-Possible interactions include:
-
-```text
-GENE × ENVIRONMENT
-
-DEVELOPMENT
-
-FEEDBACK
-
-SELECTION
-
-MEASUREMENT
-
-CULTURAL CONTEXT
-
-EDUCATIONAL CONTEXT
-```
-
-but all remain external possibilities unless native canon specifies them.
-
----
-
-# Part VI — Cognitive Relations
-
-# 54. Relation to Cognition Canon
+# 73. Relation to Cognition Canon
 
 Related:
 
 [[AMOS_COGNITION_CANON]]
 
-Current:
-
 ```yaml
-human_intelligence_to_cognition:
-  semantic_relation: UNKNOWN/GAP
-  component_relation: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
+identity_to_cognition:
+  relation: UNKNOWN/GAP
   hierarchy: UNKNOWN/GAP
+  dependency: UNKNOWN/GAP
+  component_relation: UNKNOWN/GAP
   causal_relation: UNKNOWN/GAP
 ```
 
-Same-segment placement does not establish hierarchy or dependency.
+Same-segment placement does not establish a semantic relation.
 
 ---
 
-# 55. Relation to Cognition Master Canon
+# 74. Relation to Cognition Master Canon
 
 Related:
 
 [[AMOS_COGNITION_MASTER_CANON]]
 
 ```yaml
-human_intelligence_to_cognition_master:
+identity_to_cognition_master:
+  relation: UNKNOWN/GAP
   aggregation: UNKNOWN/GAP
+  precedence: UNKNOWN/GAP
   hierarchy: UNKNOWN/GAP
   dependency: UNKNOWN/GAP
-  governance: UNKNOWN/GAP
-  precedence: UNKNOWN/GAP
   supersession: UNKNOWN/GAP
 ```
 
 ---
 
-# 56. Reasoning Relation
+# 75. Relation to Human Intelligence Canon
+
+Related:
+
+[[AMOS_HUMAN_INTELLIGENCE_CANON]]
 
 ```yaml
-human_intelligence_to_reasoning:
+identity_to_human_intelligence:
   relation: UNKNOWN/GAP
-  component: UNKNOWN/GAP
   dependency: UNKNOWN/GAP
+  component_relation: UNKNOWN/GAP
   causal_relation: UNKNOWN/GAP
 ```
 
-```text
-REASONING PERFORMANCE
-!=
-TOTAL INTELLIGENCE
-```
-
----
-
-# 57. Memory Relation
-
-```yaml
-human_intelligence_to_memory:
-  relation: UNKNOWN/GAP
-  component: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-MEMORY CAPACITY
-!=
-TOTAL INTELLIGENCE
-```
-
----
-
-# 58. Learning Relation
-
-```yaml
-human_intelligence_to_learning:
-  relation: UNKNOWN/GAP
-  component: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-FAST LEARNING
-!=
-TOTAL INTELLIGENCE
-```
-
----
-
-# 59. Attention Relation
-
-```yaml
-human_intelligence_to_attention:
-  relation: UNKNOWN/GAP
-  component: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-ATTENTIONAL CONTROL
-!=
-TOTAL INTELLIGENCE
-```
-
----
-
-# 60. Perception Relation
-
-```yaml
-human_intelligence_to_perception:
-  relation: UNKNOWN/GAP
-  component: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-PERCEPTUAL ACCURACY
-!=
-TOTAL INTELLIGENCE
-```
-
----
-
-# 61. Language Relation
-
-```yaml
-human_intelligence_to_language:
-  relation: UNKNOWN/GAP
-  component: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-Language may be a capability, measurement channel, confound, or separate construct. Native semantics are unresolved.
-
----
-
-# 62. Decision Relation
-
-```yaml
-human_intelligence_to_decision:
-  relation: UNKNOWN/GAP
-  component: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
+Preserve:
 
 ```text
 INTELLIGENCE
 !=
-GOOD DECISION
+IDENTITY
 
-GOOD DECISION
+COGNITIVE CAPABILITY
 !=
-HIGH INTELLIGENCE
-```
-
-Decision quality may depend on goals, information, uncertainty, values, incentives, and context.
-
----
-
-# 63. Emotion Relation
-
-Related, where canonically available:
-
-[[AMOS_EMOTION_CANON]]
-
-```yaml
-human_intelligence_to_emotion:
-  relation: UNKNOWN/GAP
-  modulation: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-EMOTION
-!=
-LOW INTELLIGENCE
-
-EMOTIONAL REGULATION
-!=
-GENERAL INTELLIGENCE
+PERSONAL IDENTITY
 ```
 
 ---
 
-# 64. Agency Relation
-
-```yaml
-human_intelligence_to_agency:
-  relation: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-  authority_relation: NOT_ESTABLISHED
-```
-
-```text
-INTELLIGENCE
-!=
-AGENCY
-
-INTELLIGENCE
-!=
-AUTHORITY
-```
-
----
-
-# 65. Metacognition Relation
-
-```yaml
-human_intelligence_to_metacognition:
-  relation: UNKNOWN/GAP
-  component: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-SELF-MONITORING
-!=
-GENERAL INTELLIGENCE
-
-CONFIDENCE CALIBRATION
-!=
-TOTAL INTELLIGENCE
-```
-
----
-
-# 66. Consciousness Relation
+# 76. Relation to Consciousness Canon
 
 Related:
 
 [[AMOS_CONSCIOUSNESS_CANON]]
 
 ```yaml
-human_intelligence_to_consciousness:
+identity_to_consciousness:
   relation: UNKNOWN/GAP
   necessary_condition: UNKNOWN/GAP
   sufficient_condition: UNKNOWN/GAP
   causal_relation: UNKNOWN/GAP
 ```
 
-Preserve:
-
 ```text
-INTELLIGENCE
+IDENTITY
 !=
 CONSCIOUSNESS
 
-COGNITIVE COMPLEXITY
+SELF-IDENTIFICATION
 !=
 SUBJECTIVE EXPERIENCE
-
-SELF-REPORT
-!=
-VERIFIED PHENOMENOLOGY
 ```
 
 ---
 
-# 67. Homeostasis Relation
-
-Related:
-
-[[AMOS_HOMEOSTASIS_CANON]]
-
-```yaml
-human_intelligence_to_homeostasis:
-  relation: UNKNOWN/GAP
-  dependency: UNKNOWN/GAP
-  regulation_relation: UNKNOWN/GAP
-  causal_relation: UNKNOWN/GAP
-```
-
-```text
-COGNITIVE STABILITY
-!=
-INTELLIGENCE
-
-HOMEOSTASIS
-!=
-INTELLIGENCE
-```
-
----
-
-# 68. Cognitive Field Relation
+# 77. Relation to Cognitive Field Canon
 
 Related:
 
 [[AMOS_COGNITIVE_FIELD_CANON]]
 
 ```yaml
-human_intelligence_to_cognitive_field:
+identity_to_cognitive_field:
   relation: UNKNOWN/GAP
-  component_relation: UNKNOWN/GAP
-  field_variable_relation: UNKNOWN/GAP
+  field_membership: UNKNOWN/GAP
+  identity_variable_relation: UNKNOWN/GAP
   causal_relation: UNKNOWN/GAP
 ```
 
 ```text
-COGNITIVE FIELD
+FIELD POSITION
 !=
-INTELLIGENCE
+IDENTITY
 
 FIELD STATE
 !=
-INTELLIGENCE SCORE
+IDENTITY
 ```
 
 ---
 
-# Part VII — Human / AI / Cross-Species Firewalls
-
-# 69. Human vs Artificial Intelligence
-
-The placeholder does not define the relation between human and artificial intelligence.
-
-```yaml
-human_ai_relation:
-  status: UNKNOWN/GAP
-  comparison_schema: UNKNOWN/GAP
-  equivalence_schema: UNKNOWN/GAP
-  benchmark_mapping: UNKNOWN/GAP
-  architecture_mapping: UNKNOWN/GAP
-  causal_mapping: UNKNOWN/GAP
-```
-
----
-
-# 70. AI Comparison Firewall
-
-```text
-SAME TASK SCORE
-!=
-SAME INTELLIGENCE
-
-SAME OUTPUT
-!=
-SAME PROCESS
-
-SAME FUNCTION
-!=
-SAME MECHANISM
-
-SAME BENCHMARK
-!=
-SAME COGNITIVE ARCHITECTURE
-
-AI OUTPERFORMS HUMAN ON TASK T
-!=
-AI HAS GREATER GENERAL INTELLIGENCE
-
-HUMAN OUTPERFORMS AI ON TASK T
-!=
-HUMAN HAS GREATER GENERAL INTELLIGENCE
-
-HUMAN-LIKE LANGUAGE
-!=
-HUMAN INTELLIGENCE
-
-HUMAN-LIKE REASONING TRACE
-!=
-HUMAN COGNITIVE MECHANISM
-```
-
----
-
-# 71. Biological Implementation Firewall
-
-```text
-HUMAN INTELLIGENCE
-!=
-BRAIN ALONE
-
-COGNITIVE FUNCTION
-!=
-SPECIFIC NEURAL MECHANISM
-
-FUNCTIONAL SIMILARITY
-!=
-NEURAL SIMILARITY
-
-COMPUTATIONAL MODEL
-!=
-BIOLOGICAL IMPLEMENTATION
-```
-
-Native biological mapping remains:
-
-`NOT_ESTABLISHED`.
-
----
-
-# 72. Cross-Species Relation
+# 78. Relation to Cross-Species Functional Mode
 
 Related:
 
 [[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]]
 
 ```yaml
-human_intelligence_to_cross_species:
+identity_to_cross_species_functional_mode:
   relation: UNKNOWN/GAP
-  comparison_schema: UNKNOWN/GAP
-  functional_mapping: UNKNOWN/GAP
-  equivalence: UNKNOWN/GAP
-  homology: UNKNOWN/GAP
-  analogy: UNKNOWN/GAP
+  species_identity_relation: UNKNOWN/GAP
+  functional_identity_relation: UNKNOWN/GAP
+  equivalence_relation: UNKNOWN/GAP
+```
+
+```text
+SAME FUNCTIONAL MODE
+!=
+SAME IDENTITY
+
+SAME SPECIES
+!=
+SAME INDIVIDUAL IDENTITY
 ```
 
 ---
 
-# 73. Cross-Species Intelligence Firewall
+# Part VIII — Authentication, Authorization, and Governance
 
-```text
-HUMAN PERFORMANCE
-!=
-UNIVERSAL SPECIES STANDARD
-
-DIFFERENT STRATEGY
-!=
-LOWER INTELLIGENCE
-
-NON-HUMAN-LIKE COGNITION
-!=
-ABSENCE OF COGNITION
-
-FUNCTIONAL SIMILARITY
-!=
-INTELLIGENCE EQUIVALENCE
-
-INTELLIGENCE COMPARISON
-!=
-EVOLUTIONARY RANKING
-```
-
----
-
-# 74. Anthropocentrism Firewall
-
-A Human Intelligence canon must not silently convert human performance patterns into universal intelligence criteria.
-
-```text
-HUMAN-LIKE
-!=
-INTELLIGENT BY DEFINITION
-
-NON-HUMAN-LIKE
-!=
-UNINTELLIGENT
-
-HUMAN TASK
-!=
-UNIVERSAL COGNITIVE TASK
-
-HUMAN OPTIMUM
-!=
-UNIVERSAL OPTIMUM
-```
-
----
-
-# Part VIII — Causal Discipline
-
-# 75. Causal Firewall
-
-Any future causal claim must distinguish:
-
-```text
-ASSOCIATION
-
-CORRELATION
-
-TEMPORAL ORDER
-
-MECHANISM
-
-ENABLING CONDITION
-
-NECESSARY CONDITION
-
-SUFFICIENT CONDITION
-
-MEDIATION
-
-CONFOUNDING
-
-FEEDBACK
-
-CAUSAL EFFECT
-```
-
-Preserve:
-
-```text
-A CORRELATES WITH INTELLIGENCE
-!=
-A CAUSES INTELLIGENCE
-
-INTELLIGENCE PREDICTS B
-!=
-INTELLIGENCE CAUSES B
-
-BRAIN FEATURE CORRELATES WITH SCORE
-!=
-BRAIN FEATURE CAUSES INTELLIGENCE
-
-EDUCATION CORRELATES WITH SCORE
-!=
-EDUCATION FULLY CAUSES SCORE
-
-GENETIC ASSOCIATION
-!=
-GENETIC DETERMINISM
-```
-
----
-
-# 76. Causal Claim Schema
+# 79. Authentication Model
 
 ```yaml
-human_intelligence_causal_claim:
-  claim_id: required
-  cause: required
-  outcome: required
-  causal_type: required
-  population: required
-  intervention_or_identification_strategy: required
-  confounders: required
-  mediators: required
-  alternatives: required
-  scope: required
-  regime: required
-  temporal_validity: required
-  provenance: required
-  falsifiers: required
-```
-
----
-
-# 77. Necessary / Sufficient Conditions
-
-No necessary or sufficient conditions for human intelligence are established by this placeholder.
-
-```yaml
-conditions:
-  necessary_conditions: []
-  sufficient_conditions: []
+identity_authentication:
   status: UNKNOWN/GAP
+  identity_claim: UNKNOWN/GAP
+  credential_types: []
+  verification_method: UNKNOWN/GAP
+  freshness: UNKNOWN/GAP
+  replay_protection: UNKNOWN/GAP
+  revocation: UNKNOWN/GAP
 ```
 
-Do not infer:
+No executable authentication mechanism is established.
+
+---
+
+# 80. Authentication Firewall
 
 ```text
-LANGUAGE
-→ NECESSARY FOR INTELLIGENCE
+CLAIMED IDENTITY
+!=
+AUTHENTICATED IDENTITY
 
-CONSCIOUSNESS
-→ NECESSARY FOR INTELLIGENCE
+AUTHENTICATED IDENTITY
+!=
+AUTHORIZED IDENTITY
 
-MEMORY
-→ SUFFICIENT FOR INTELLIGENCE
+AUTHORIZED IDENTITY
+!=
+AUTHORITY
 
-REASONING
-→ SUFFICIENT FOR INTELLIGENCE
-
-HIGH TEST SCORE
-→ SUFFICIENT FOR GENERAL INTELLIGENCE
+AUTHORITY
+!=
+COMMIT
 ```
 
 ---
 
-# 78. Confounding Firewall
+# 81. Authorization Model
 
-If variable `A` correlates with measured intelligence `I`, alternatives may include:
-
-```text
-H1 — A causally affects I.
-
-H2 — I causally affects A.
-
-H3 — C causes both A and I.
-
-H4 — measurement procedure creates the association.
-
-H5 — selection creates the association.
-
-H6 — population structure creates the association.
-
-H7 — education/language/task familiarity mediates the result.
-
-H8 — the intelligence construct is misidentified.
-
-H9 — the association is regime-specific.
-
-H10 — the association is statistical noise.
+```yaml
+identity_authorization:
+  status: UNKNOWN/GAP
+  subject_identity: UNKNOWN/GAP
+  authority_ref: UNKNOWN/GAP
+  capability_ref: UNKNOWN/GAP
+  scope: UNKNOWN/GAP
+  epoch: UNKNOWN/GAP
 ```
 
-Correlation alone cannot discriminate these.
+Source discipline remains:
+
+```text
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+```
+
+---
+
+# 82. Identity and Authority Epoch
+
+The target operation semantics require:
+
+```text
+authority_ref must be epoch-valid
+```
+
+Therefore identity resolution for an authority-bearing subject may need temporal context.
+
+But:
+
+```text
+THIS NEED
+!=
+NATIVE IDENTITY IMPLEMENTATION
+```
+
+Target conceptual record:
+
+```yaml
+authority_identity_binding:
+  identity_ref: required
+  authority_ref: required
+  epoch: required
+  scope: required
+  validity: required
+```
+
+---
+
+# 83. Revocation Firewall
+
+```text
+AUTHORITY REVOCATION
+!=
+IDENTITY DELETION
+
+CREDENTIAL REVOCATION
+!=
+IDENTITY DELETION
+
+CAPABILITY REVOCATION
+!=
+IDENTITY LOSS
+```
+
+Native revocation semantics:
+
+`UNKNOWN/GAP`.
 
 ---
 
 # Part IX — Provenance and Evidence Topology
 
-# 79. Evidence Classes
+# 84. Evidence Classes
 
 Use:
 
@@ -2550,25 +2660,25 @@ UNKNOWN
 Examples:
 
 ```text
-"AMOS Human Intelligence Canon has a reserved artifact"
+"AMOS Identity Canon artifact exists"
 → DERIVED
 
-"AMOS defines intelligence as X"
-→ UNKNOWN/GAP until native source recovered
+"AMOS identity means persistent selfhood"
+→ UNKNOWN/GAP
 
-"Human intelligence contains factor F"
-→ UNKNOWN/GAP in native AMOS canon
-
-"Human intelligence is equivalent to IQ"
+"Artifact ID uniquely identifies an entity globally"
 → NOT_ESTABLISHED
 
-"Human intelligence causes outcome Y"
-→ UNKNOWN/GAP absent causal evidence
+"Identity persists through copy"
+→ UNKNOWN/GAP
+
+"Memory continuity establishes identity"
+→ UNKNOWN/GAP
 ```
 
 ---
 
-# 80. Provenance Topology
+# 85. Provenance Topology
 
 ```text
 NATIVE SOURCE
@@ -2581,11 +2691,9 @@ ANCESTRY
      ↓
 NORMALIZATION
      ↓
-AMOS HUMAN INTELLIGENCE CANON
+IDENTITY CANON
      ↓
-DERIVED CLAIMS
-     ↓
-MEASUREMENT / MODEL BINDINGS
+DERIVED IDENTITY CLAIMS
      ↓
 IMPLEMENTATION BINDINGS
      ↓
@@ -2594,7 +2702,27 @@ VALIDATION RECEIPTS
 
 ---
 
-# 81. Provenance Record
+# 86. Source Identity Requirement
+
+Provenance depends on identifying sources.
+
+But this creates a dependency:
+
+```text
+PROVENANCE CLAIM
+→ SOURCE IDENTITY
+```
+
+If source identity is ambiguous:
+
+```text
+PROVENANCE CONFIDENCE
+MUST BE BOUNDED
+```
+
+---
+
+# 87. Provenance Record
 
 ```yaml
 provenance_record:
@@ -2605,7 +2733,6 @@ provenance_record:
   parent_sources: required
   transformation: required
   steward: required
-  license_ip_status: when_material
   timestamp: required
   scope: required
   regime: required
@@ -2613,7 +2740,7 @@ provenance_record:
 
 ---
 
-# 82. Documentary Independence
+# 88. Documentary Independence
 
 ```text
 SOURCE A
@@ -2622,58 +2749,67 @@ SOURCE A
  └── CANON D
 ```
 
-does not yield three independent confirmations.
+does not yield:
 
 ```text
-B + C + D
-!=
 3 INDEPENDENT SOURCES
-```
-
-Current:
-
-```yaml
-provenance_independence:
-  status: NOT_ESTABLISHED
-```
-
----
-
-# 83. Population Independence vs Documentary Independence
-
-Two different dependency structures must not be conflated.
-
-### Documentary dependency
-
-```text
-ONE ORIGINAL DOCUMENT
-→ MANY DERIVATIVE DOCUMENTS
-```
-
-### Empirical dependency
-
-```text
-ONE POPULATION / DATASET / SAMPLE
-→ MANY ANALYSES
 ```
 
 Therefore:
 
 ```text
-MANY DOCUMENTS
+REPETITION
 !=
-MANY INDEPENDENT SOURCES
-
-MANY ANALYSES
-!=
-MANY INDEPENDENT DATASETS
+INDEPENDENT CONFIRMATION
 ```
-
-Both ancestry graphs matter.
 
 ---
 
-# 84. Confidence Ceiling
+# 89. Identity-Correlation Risk
+
+Two records may appear to be independent entities but actually refer to one underlying source.
+
+Conversely, two records may appear identical but represent distinct entities.
+
+Therefore:
+
+```text
+RECORD COUNT
+!=
+ENTITY COUNT
+
+IDENTIFIER COUNT
+!=
+IDENTITY COUNT
+```
+
+This matters for provenance/Sybil hardening.
+
+---
+
+# 90. Sybil / Duplicate-Identity Firewall
+
+Conceptually:
+
+```text
+MANY IDENTITIES CLAIMED
+!=
+MANY INDEPENDENT ACTORS
+
+MANY SOURCES
+!=
+MANY INDEPENDENT ORIGINS
+```
+
+Native Sybil-detection implementation for this artifact:
+
+`NOT_ESTABLISHED`.
+
+The principle is provenance-topology discipline, not a claim of literal runtime enforcement.
+
+---
+
+# 91. Confidence Ceiling
 
 ```text
 DERIVED CONFIDENCE
@@ -2682,77 +2818,52 @@ THE WEAKEST LOAD-BEARING PREMISE
 UNLESS INDEPENDENTLY REVALIDATED
 ```
 
-If:
+If identity resolution is uncertain, conclusions requiring that identity relation inherit the uncertainty.
+
+Example:
 
 ```text
-C = "Capability X is part of AMOS Human Intelligence"
+P1:
+SOURCE A = SOURCE B
+confidence: LOW
+
+C1:
+A and B are one provenance origin
 ```
 
-depends on an unresolved native definition, confidence in `C` cannot exceed that unresolved premise.
+Then `C1` cannot be assigned confidence above the load-bearing identity premise without independent validation.
 
 ---
 
-# 85. External Research Firewall
+# 92. External Research Firewall
 
-Under the ingestion rule:
+External work on:
 
-```text
-EXTERNAL RESEARCH
-→ KEEP OUT OF NATIVE CANON
-→ LINK AS EVIDENCE
-```
+* personal identity;
+* identity theory;
+* identity and access management;
+* cryptographic identity;
+* digital identity;
+* distributed identity;
+* database identity;
+* cognitive self-models;
+* memory and identity;
+* philosophy of mind;
+* psychology of identity;
+* social identity;
+* biological individuality;
 
-This includes external work on:
-
-* psychometrics;
-* general intelligence;
-* multiple intelligences;
-* cognitive ability;
-* IQ;
-* working memory;
-* executive function;
-* neuroscience;
-* genetics;
-* behavioral genetics;
-* development;
-* education;
-* cultural psychology;
-* comparative cognition;
-* artificial intelligence.
-
-These remain:
+remains:
 
 `EXTERNAL_EVIDENCE`
 
-unless explicitly governed into native canon.
-
----
-
-# 86. Empirical Firewall
-
-A future AMOS document asserting:
-
-```text
-HUMAN INTELLIGENCE HAS PROPERTY P
-```
-
-begins as:
-
-`SOURCE_CLAIM`
-
-unless backed by appropriately typed evidence.
-
-```text
-DOCUMENTED
-!=
-EMPIRICALLY VERIFIED
-```
+unless governed native ingestion occurs.
 
 ---
 
 # Part X — Scope / Regime / Time
 
-# 87. Scope Envelope
+# 93. Scope Envelope
 
 Artifact scope:
 
@@ -2763,75 +2874,65 @@ artifact_scope:
   segment: 01_CANON/03_COGNITION_CANON
 ```
 
-Substantive scope:
+Substantive identity scope:
 
 ```yaml
-human_intelligence_scope:
-  species: UNKNOWN/GAP
-  populations: UNKNOWN/GAP
-  individuals: UNKNOWN/GAP
-  developmental_stages: UNKNOWN/GAP
-  cultures: UNKNOWN/GAP
-  languages: UNKNOWN/GAP
-  educational_contexts: UNKNOWN/GAP
-  cognitive_domains: UNKNOWN/GAP
-  tasks: UNKNOWN/GAP
+identity_scope:
+  identity_types: UNKNOWN/GAP
+  bearer_types: UNKNOWN/GAP
+  systems: UNKNOWN/GAP
+  agents: UNKNOWN/GAP
+  humans: UNKNOWN/GAP
+  artifacts: UNKNOWN/GAP
+  processes: UNKNOWN/GAP
+  claims: UNKNOWN/GAP
+  sources: UNKNOWN/GAP
+  versions: UNKNOWN/GAP
   environments: UNKNOWN/GAP
-  biological_scope: UNKNOWN/GAP
-  measurement_methods: UNKNOWN/GAP
-  temporal_scope: UNKNOWN/GAP
+  scales: UNKNOWN/GAP
+  time: UNKNOWN/GAP
   assumptions: UNKNOWN/GAP
 ```
 
 ---
 
-# 88. Scope Firewall
+# 94. Scope Firewall
 
 ```text
-VALID FOR SAMPLE S
+IDENTITY RULE VALID FOR ARTIFACTS
 !=
-VALID FOR ALL HUMANS
+VALID FOR HUMANS
 
-VALID FOR POPULATION P
+IDENTITY RULE VALID FOR PROCESSES
 !=
-VALID FOR HUMANITY
+VALID FOR PERSONS
 
-VALID FOR ADULTS
+IDENTITY RULE VALID FOR DATABASE RECORDS
 !=
-VALID ACROSS DEVELOPMENT
+VALID FOR COGNITIVE AGENTS
 
-VALID FOR TASK T
+IDENTITY RULE VALID FOR ONE NAMESPACE
 !=
-DOMAIN-GENERAL
+GLOBALLY VALID
 
-VALID IN LANGUAGE L
+IDENTITY RULE VALID FOR ONE SYSTEM
 !=
-LANGUAGE-INVARIANT
-
-VALID IN CULTURE C
-!=
-CULTURE-INVARIANT
-
-VALID IN LAB SETTING
-!=
-VALID IN ALL ENVIRONMENTS
+UNIVERSAL IDENTITY LAW
 ```
 
 ---
 
-# 89. Regime Envelope
+# 95. Regime Envelope
 
 ```yaml
-regime:
+identity_regime:
   regime_id: UNKNOWN/GAP
-  population_context: UNKNOWN/GAP
-  developmental_context: UNKNOWN/GAP
-  cultural_context: UNKNOWN/GAP
-  language_context: UNKNOWN/GAP
-  educational_context: UNKNOWN/GAP
-  task_context: UNKNOWN/GAP
-  measurement_context: UNKNOWN/GAP
+  identity_type: UNKNOWN/GAP
+  bearer_type: UNKNOWN/GAP
+  namespace: UNKNOWN/GAP
   environment: UNKNOWN/GAP
+  versioning_model: UNKNOWN/GAP
+  authority_epoch: UNKNOWN/GAP
   valid_from: UNKNOWN/GAP
   valid_until: UNKNOWN/GAP
   transition_conditions: UNKNOWN/GAP
@@ -2839,46 +2940,73 @@ regime:
 
 ---
 
-# 90. Regime-Shift Firewall
+# 96. Regime-Shift Firewall
 
 ```text
-VALID @ R1
+SAME IDENTITY RULE @ R1
 !=
 VALID @ R2
 
-MEASUREMENT VALID @ R1
+SAME IDENTIFIER @ R1
 !=
-MEASUREMENT VALID @ R2
+SAME RESOLUTION @ R2
 
-FACTOR STRUCTURE @ R1
+AUTHORIZED IDENTITY @ EPOCH E1
 !=
-FACTOR STRUCTURE @ R2
-
-BENCHMARK PERFORMANCE @ R1
-!=
-BENCHMARK PERFORMANCE @ R2
+AUTHORIZED @ EPOCH E2
 ```
+
+Identity claims must inherit applicable regime and temporal validity where material.
 
 ---
 
-# 91. Temporal Validity
+# 97. Temporal Identity
+
+Identity is inherently time-sensitive whenever continuity is claimed.
+
+Target:
 
 ```yaml
-temporal_validity:
-  source_updated: "2026-08-27"
-  native_valid_from: UNKNOWN/GAP
-  native_valid_until: UNKNOWN/GAP
-  freshness_policy: UNKNOWN/GAP
-  revalidation_interval: UNKNOWN/GAP
+temporal_identity_claim:
+  entity_ref: required
+  time_a: required
+  time_b: required
+  continuity_criteria: required
+  evidence: required
+  regime: required
+  provenance: required
+  confidence: required
 ```
 
-Developmental and longitudinal claims require explicit temporal scope.
+Current native semantics:
+
+`UNKNOWN/GAP`.
+
+---
+
+# 98. Freshness Firewall
+
+```text
+VALID IDENTITY BINDING @ t1
+!=
+AUTOMATICALLY VALID @ t2
+
+VALID CREDENTIAL @ t1
+!=
+VALID CREDENTIAL @ t2
+
+VALID AUTHORITY @ E1
+!=
+VALID AUTHORITY @ E2
+```
+
+Freshness requirements remain unresolved.
 
 ---
 
 # Part XI — RSCF / H-M-L / Fractal Binding
 
-# 92. RSCF Binding
+# 99. RSCF Binding
 
 The source declares:
 
@@ -2890,40 +3018,42 @@ rscf:
   scope: AMOS_general
 ```
 
-This establishes an RSCF representation.
+This supports RSCF representation.
 
 It does not establish:
 
 ```text
-INTELLIGENCE
+IDENTITY
 =
 RSCF STATE
 
-HUMAN
+IDENTITY TYPE
 =
 H DOMAIN
 
-CAPABILITY
+IDENTITY INSTANCE
 =
 M SUBSYSTEM
 
-TEST ITEM
+IDENTIFIER
 =
 L DETAIL
 ```
 
-Native mappings remain `UNKNOWN/GAP`.
+Native mapping remains `UNKNOWN/GAP`.
 
 ---
 
-# 93. RSCF Human Intelligence Claim
+# 100. Identity RSCF Claim Schema
 
 ```yaml
-rscf_human_intelligence_claim:
+rscf_identity_claim:
   claim_id: required
+  subject_identity_ref: required
   claim: required
   claim_class: required
-  unit_of_analysis: required
+  identity_type: required_if_known
+  identity_criteria: required_if_identity_claim
   premises: required
   evidence: required
   provenance: required
@@ -2932,7 +3062,6 @@ rscf_human_intelligence_claim:
   scope: required
   regime: required
   temporal_validity: required
-  causal_type: required_if_causal
   competing: required
   falsifiers: required
   confidence_ceiling: required
@@ -2940,7 +3069,7 @@ rscf_human_intelligence_claim:
 
 ---
 
-# 94. H/M/L Binding
+# 101. H/M/L Binding
 
 ```yaml
 hml_binding:
@@ -2952,16 +3081,16 @@ hml_binding:
 Do not invent:
 
 ```text
-H = HUMAN INTELLIGENCE
-M = COGNITIVE ABILITY
-L = TEST PERFORMANCE
+H = IDENTITY CLASS
+M = ENTITY
+L = IDENTIFIER
 ```
 
-as native AMOS hierarchy.
+as native AMOS structure.
 
 ---
 
-# 95. Fractal Retrieval Target
+# 102. Fractal Retrieval Target
 
 ```text
 BOOTSTRAP CAPSULE
@@ -2976,74 +3105,54 @@ RAW EVIDENCE
 ONLY WHEN REQUIRED
 ```
 
-Raw evidence default:
+Raw evidence:
 
 ```text
 DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
-This is a reasoning pattern, not evidence that literal source-code machinery exists for this artifact.
+For an identity claim, retrieve only dependencies that can materially alter identity resolution.
 
 ---
 
-# 96. Smallest Sufficient Proof Scope
+# 103. Smallest Sufficient Identity Proof
 
-For a substantive intelligence claim:
+Conceptually:
 
 ```text
-CLAIM
- ↓
-CONSTRUCT DEFINITION
- ↓
-UNIT OF ANALYSIS
- ↓
-MEASUREMENT / OBSERVATION
- ↓
-LOAD-BEARING PREMISES
- ↓
-DEPENDENCIES
- ↓
-SCOPE
- ↓
-REGIME
- ↓
+IDENTITY CLAIM
+     ↓
+IDENTITY TYPE
+     ↓
+BEARER TYPE
+     ↓
+IDENTITY CRITERIA
+     ↓
+IDENTIFIER / RESOLUTION
+     ↓
+CONTINUITY / LINEAGE
+     ↓
+TIME / EPOCH
+     ↓
+SCOPE / REGIME
+     ↓
 PROVENANCE
- ↓
-COMPETING EXPLANATIONS
+     ↓
+CONFLICT CHECK
 ```
 
-Escalate if:
-
-```text
-SHARED ANCESTRY
-
-CONFLICT
-
-STALE PREMISES
-
-SCOPE MISMATCH
-
-REGIME SHIFT
-
-CAUSAL AMBIGUITY
-
-MEASUREMENT INVALIDITY
-
-HIGH-STAKES CONSEQUENCE
-
-AMBIGUOUS DEPENDENCIES
-```
+Escalate if any load-bearing edge is ambiguous.
 
 ---
 
-# Part XII — Canon Mutation Discipline
+# Part XII — Canon Operation Semantics
 
-# 97. Contract Discipline
+# 104. Contract Discipline
 
 **Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.**
 
 ```yaml
-human_intelligence_canon_contract:
+identity_canon_contract:
   typed_artifact: required
   provenance: required
   epistemic_class: required
@@ -3057,7 +3166,7 @@ human_intelligence_canon_contract:
 
 ---
 
-# 98. Worked Canon-Operation Semantics
+# 105. Worked Canon-Operation Semantics
 
 Given an operation touching:
 
@@ -3071,7 +3180,7 @@ Resolve:
 artifact_id + version
 ```
 
-Unresolved:
+If unresolved:
 
 ```text
 UNKNOWN/GAP
@@ -3099,7 +3208,7 @@ authority_ref
 
 ### Validate preconditions
 
-Traverse the smallest result-changing dependency closure.
+Traverse smallest result-changing dependency closure.
 
 ### Propose
 
@@ -3111,7 +3220,7 @@ COMMIT
 
 ### Commit or hold
 
-On failure:
+On failed premise:
 
 ```text
 PRESERVE UNAFFECTED STATE
@@ -3123,51 +3232,54 @@ RECORD RECEIPT
 
 ---
 
-# 99. Intelligence Semantics vs Governance Semantics
+# 106. Canon Resolution ≠ Identity Theory
 
-Do not confuse the canon-operation lifecycle with human cognitive architecture.
+The operation:
 
 ```text
-ADMIT
-→ BIND
-→ CHECK
-→ VALIDATE
-→ PROPOSE
-→ COMMIT
+RESOLVE ARTIFACT BY ID + VERSION
 ```
 
-does not establish a human intelligence process.
+is a target governance behavior.
+
+It does not prove that native AMOS identity is defined as:
+
+```text
+ID + VERSION
+```
 
 Therefore:
 
 ```text
-CANON GOVERNANCE FLOW
+CANON ADDRESS RESOLUTION
 !=
-HUMAN COGNITIVE FLOW
+GENERAL IDENTITY THEORY
 ```
 
 ---
 
-# 100. Selective Invalidation
+# 107. Selective Invalidation
 
 Suppose:
 
 ```text
-C1 =
-"Capability X is a component of AMOS Human Intelligence"
+C1:
+ENTITY X @ t2
+IS THE SAME ENTITY
+AS X @ t1
 ```
 
 depends on:
 
 ```text
-P1 = native intelligence definition
-P2 = capability X definition
-P3 = typed component relation
-P4 = scope
-P5 = regime
+P1 = identity criteria
+P2 = continuity evidence
+P3 = lineage
+P4 = temporal validity
+P5 = scope/regime
 ```
 
-If `P3` fails:
+If `P2` fails:
 
 ```text
 INVALIDATE C1
@@ -3175,47 +3287,47 @@ INVALIDATE C1
 DEPENDENT DESCENDANTS
 ```
 
-Do not invalidate independently supported `P1`, `P2`, `P4`, or `P5`.
+Do not automatically invalidate independent facts about `X`.
 
 ---
 
-# 101. Failure Recovery
+# 108. Failure Recovery
 
 ```text
-FAILED PREMISE
-      ↓
+FAILED IDENTITY PREMISE
+        ↓
 IDENTIFY FAILED EDGE
-      ↓
-INVALIDATE DEPENDENT DESCENDANTS
-      ↓
+        ↓
+INVALIDATE DEPENDENT CLAIMS
+        ↓
 ROLL BACK TO NEAREST VALID STATE
-      ↓
-PRESERVE UNAFFECTED WORK
-      ↓
+        ↓
+PRESERVE UNAFFECTED IDENTITY / LINEAGE FACTS
+        ↓
 REROUTE WITH CHANGED EVIDENCE
 ```
 
-Global recomputation is last resort.
-
 ---
 
-# 102. MVCC Conceptual Discipline
+# 109. MVCC Conceptual Discipline
 
 ```text
-READ CANON @ VERSION vN
+READ IDENTITY RECORD @ VERSION vN
         ↓
 VALIDATE
         ↓
-BUILD PROPOSAL
+PROPOSE UPDATE
         ↓
 CHECK CURRENT VERSION
         ↓
 CURRENT = vN ?
    YES          NO
     ↓            ↓
-COMMIT MAY    ABORT /
-PROCEED       REVALIDATE
+MAY COMMIT    ABORT /
+              REVALIDATE
 ```
+
+This is a conceptual governance pattern.
 
 Literal MVCC implementation:
 
@@ -3223,17 +3335,17 @@ Literal MVCC implementation:
 
 ---
 
-# 103. CAS Conceptual Discipline
+# 110. CAS Conceptual Discipline
 
 ```text
-EXPECTED = vN
-CURRENT  = vN
-→ COMMIT MAY PROCEED
+EXPECTED IDENTITY VERSION = vN
+CURRENT VERSION = vN
+→ UPDATE MAY PROCEED
 
 EXPECTED = vN
-CURRENT  = vN+1
+CURRENT = vN+1
 → CAS FAIL
-→ NO STALE COMMIT
+→ NO STALE IDENTITY MUTATION
 ```
 
 Literal CAS implementation:
@@ -3242,30 +3354,28 @@ Literal CAS implementation:
 
 ---
 
-# 104. Atomic Multi-RSCF Target
+# 111. Atomic Multi-RSCF Identity Mutation
 
-A future update may span:
+A consequential identity mutation might touch:
 
 ```text
-HUMAN INTELLIGENCE CANON
+IDENTITY NODE
 
-CONSTRUCT NODE
+IDENTIFIER NODE
 
-CAPABILITY NODE
+ALIAS NODE
 
-VARIABLE NODE
+LINEAGE NODE
 
-MEASUREMENT NODE
+PROVENANCE NODE
 
-POPULATION NODE
+AUTHORITY BINDING
 
 SCOPE NODE
 
 REGIME NODE
 
-PROVENANCE NODE
-
-VALIDATION NODE
+VALIDATION RECEIPT
 ```
 
 Where coherence requires atomicity:
@@ -3276,28 +3386,31 @@ PARTIAL COMMIT
 SUCCESS
 ```
 
-Literal distributed transaction implementation:
+Literal atomic multi-RSCF implementation:
 
 `NOT_ESTABLISHED`.
 
 ---
 
-# 105. Causal Epoch Discipline
+# 112. Causal Epoch Finality
+
+Conceptually:
 
 ```yaml
-epoch_binding:
-  epoch_id: required
-  authority_ref: required
+identity_epoch_binding:
+  identity_ref: required
+  identity_version: required
+  authority_ref: when_material
   source_versions: required
   dependency_versions: required
-  valid_from: required
+  epoch_id: required
   finality_status: required
 ```
 
 ```text
-VALID @ EPOCH E1
+VALID IDENTITY BINDING @ E1
 !=
-AUTOMATICALLY VALID @ EPOCH E2
+AUTOMATICALLY VALID @ E2
 ```
 
 Literal causal-epoch finalization:
@@ -3306,11 +3419,13 @@ Literal causal-epoch finalization:
 
 ---
 
-# 106. Proof-Based Coordination Avoidance
+# 113. Proof-Based Coordination Avoidance
 
-Local processing is justified only if:
+Local identity reasoning is permitted only when:
 
 ```text
+IDENTITY TYPE KNOWN
++
 DEPENDENCY CLOSURE ESTABLISHED
 +
 PROVENANCE INDEPENDENCE ESTABLISHED
@@ -3319,11 +3434,11 @@ SCOPE COMPATIBLE
 +
 REGIME COMPATIBLE
 +
-FRESHNESS VALID
+TEMPORAL VALIDITY ESTABLISHED
 +
 NO MATERIAL CONFLICT
 +
-NO RESULT-CHANGING EXTERNAL COUPLING
+NO AMBIGUOUS ALIAS / FORK / MERGE / VERSION EDGE
 ```
 
 Otherwise:
@@ -3334,47 +3449,45 @@ Otherwise:
 
 # Part XIII — Adversarial Validation
 
-# 107. Adversarial Validation Checklist
+# 114. Adversarial Identity Validation
 
-For a consequential Human Intelligence claim, challenge:
+For a consequential identity claim, challenge:
 
-* Is `human intelligence` natively defined?
-* Is an external psychology definition being imported?
-* Is intelligence being equated with IQ?
-* Is a score being equated with the construct?
-* Is reasoning being equated with intelligence?
-* Is memory being equated with intelligence?
-* Is learning being equated with intelligence?
-* Is language ability being equated with intelligence?
-* Is creativity being equated with intelligence?
-* Is education being used as an intelligence proxy?
-* Is expertise being confused with general ability?
-* Is performance being confused with capability?
-* Is state being confused with trait?
-* Is a population average being applied to an individual?
-* Is a sample being generalized to humanity?
-* Is measurement invariance established?
-* Are cultural effects controlled?
-* Are language effects controlled?
-* Are developmental differences represented?
-* Is correlation being promoted to causation?
-* Is heritability being interpreted as immutability?
-* Is a genetic association being treated as determinism?
-* Is environmental association being treated as causal proof?
-* Is a human-like AI output being treated as human-like cognition?
-* Is task parity being treated as general intelligence parity?
-* Is intelligence being treated as consciousness?
-* Is intelligence being treated as agency?
-* Is intelligence being treated as wisdom?
-* Is intelligence being converted into moral worth?
-* Is intelligence being converted into authority?
-* Is cross-species difference being converted into evolutionary ranking?
-* Are shared-ancestry sources counted as independent?
-* Is external research being imported into native AMOS canon?
-* Is scope leaking?
+* Is `identity` natively defined?
+* Is the identity bearer defined?
+* Is identity being confused with an identifier?
+* Is identity being confused with a name?
+* Is identity being confused with a path?
+* Is identity being confused with a credential?
+* Is authentication being confused with identity?
+* Is authentication being confused with authorization?
+* Is identity being confused with authority?
+* Is identity being confused with ownership?
+* Is identity being confused with provenance?
+* Is identity being confused with lineage?
+* Is identity being confused with memory?
+* Is identity being confused with personality?
+* Is identity being confused with consciousness?
+* Is identity being confused with agency?
+* Is similarity being treated as identity?
+* Is equivalence being treated as identity?
+* Is a copy being treated as the original?
+* Is a fork being silently treated as continuity?
+* Is a merge being silently treated as continuity?
+* Is migration being treated as identity transfer without proof?
+* Is restore being treated as continuity without proof?
+* Is versioning being treated as identity continuity without a rule?
+* Is newer being treated as superseding?
+* Is supersession being treated as numerical identity?
+* Is a stale identity binding being reused?
+* Is a namespace collision possible?
+* Are aliases ambiguous?
+* Are duplicate records being counted as independent identities?
+* Are shared provenance descendants being counted as independent sources?
+* Is scope leaking between artifact, agent, human, and system identity?
 * Did the regime change?
-* Are measurements stale?
-* Does confidence exceed the weakest load-bearing premise?
+* Did the authority epoch change?
+* Does confidence exceed the weakest identity premise?
 
 If challenge succeeds:
 
@@ -3390,40 +3503,42 @@ RETURN UNKNOWN/GAP
 
 ---
 
-# 108. Sensitivity Analysis
+# 115. Identity Sensitivity
 
 Highest-sensitivity premise:
 
-> **The verified native AMOS definition of Human Intelligence.**
+> **The verified native AMOS definition of Identity.**
 
-Next highest:
+Next:
 
 ```text
-1. native meaning of "human"
-2. native meaning of "intelligence"
-3. unit of analysis
-4. construct type
-5. architecture
-6. capability boundaries
-7. measurement model
-8. population scope
-9. measurement invariance
-10. cognition relation
-11. causal semantics
-12. human/AI comparison semantics
-13. cross-species semantics
-14. consciousness relation
-15. scope
-16. regime
-17. provenance ancestry
-18. executable binding
+1. identity type
+2. identity bearer
+3. identity criteria
+4. continuity criteria
+5. identity break conditions
+6. identifier relation
+7. namespace
+8. alias semantics
+9. version semantics
+10. copy semantics
+11. fork semantics
+12. merge semantics
+13. lineage relation
+14. provenance relation
+15. temporal validity
+16. scope
+17. regime
+18. authentication relation
+19. authorization relation
+20. executable binding
 ```
 
-If the native definition differs from conventional psychometric usage, externally inferred factor/measurement architecture must not survive merely because it is familiar.
+Changing any of the first several premises can invert identity conclusions.
 
 ---
 
-# 109. Uncertainty Vector
+# 116. Uncertainty Vector
 
 ```yaml
 uncertainty:
@@ -3434,49 +3549,44 @@ uncertainty:
   framework_label: LOW
   segment_membership: LOW
 
-  native_human_definition: CRITICAL
-  native_intelligence_definition: CRITICAL
-  native_human_intelligence_definition: CRITICAL
+  native_identity_definition: CRITICAL
+  identity_types: CRITICAL
+  identity_bearers: CRITICAL
+  identity_criteria: CRITICAL
+  continuity_criteria: CRITICAL
+  break_conditions: CRITICAL
 
-  construct_type: HIGH
-  unit_of_analysis: HIGH
-  architecture: HIGH
-  dimensions: HIGH
-  capabilities: HIGH
-  factor_model: HIGH
-  variables: HIGH
-  equations: HIGH
+  identifier_semantics: HIGH
+  namespace_semantics: HIGH
+  resolution_semantics: HIGH
+  alias_semantics: HIGH
+  equivalence_semantics: HIGH
 
-  measurement: HIGH
-  iq_relation: HIGH
-  benchmark_relation: HIGH
-  reliability: HIGH
-  construct_validity: HIGH
-  measurement_invariance: HIGH
+  versioning: HIGH
+  copy_semantics: HIGH
+  fork_semantics: HIGH
+  merge_semantics: HIGH
+  migration_semantics: HIGH
+  restore_semantics: HIGH
+  supersession_semantics: HIGH
 
-  developmental_model: HIGH
-  individual_differences: HIGH
-  genetic_relation: HIGH
-  environmental_relation: HIGH
+  lineage_relation: HIGH
+  provenance_relation: HIGH
 
-  reasoning_relation: HIGH
+  self_identity: HIGH
+  personal_identity: HIGH
+  human_identity: HIGH
+  cognitive_identity: HIGH
+  agent_identity: HIGH
+  system_identity: HIGH
+
   memory_relation: HIGH
-  learning_relation: HIGH
-  attention_relation: HIGH
-  perception_relation: HIGH
-  language_relation: HIGH
-  decision_relation: HIGH
-  emotion_relation: HIGH
-  agency_relation: HIGH
-  metacognition_relation: HIGH
   consciousness_relation: HIGH
-  homeostasis_relation: HIGH
-  cognitive_field_relation: HIGH
+  agency_relation: HIGH
 
-  human_ai_relation: HIGH
-  cross_species_relation: HIGH
-  biological_relation: HIGH
-  causal_semantics: HIGH
+  authentication_relation: HIGH
+  authorization_relation: HIGH
+  authority_relation: HIGH
 
   scope: HIGH
   regime: HIGH
@@ -3495,24 +3605,24 @@ uncertainty:
 
 # Part XIV — Cross-Plane Boundaries
 
-# 110. Kernel Boundary
+# 117. Kernel Boundary
 
 Target:
 
 [[KERNEL_README]]
 
 ```text
-HUMAN INTELLIGENCE CANON
+IDENTITY CANON
 !=
-KERNEL
+IDENTITY RUNTIME
 
-INTELLIGENCE MODEL
+IDENTITY MODEL
 !=
-RUNTIME ENGINE
+IDENTITY SERVICE
 
-COGNITIVE CAPABILITY MODEL
+IDENTIFIER SCHEMA
 !=
-EXECUTABLE CAPABILITY
+RESOLVER IMPLEMENTATION
 ```
 
 Kernel binding:
@@ -3521,28 +3631,28 @@ Kernel binding:
 
 ---
 
-# 111. Control-Plane Boundary
+# 118. Control-Plane Boundary
 
 Target:
 
 [[CONTROL_PLANE_README]]
 
 ```text
-INTELLIGENCE
+IDENTITY
 !=
 AUTHORITY
 
+IDENTIFIED
+!=
+AUTHORIZED
+
+AUTHORIZED
+!=
+COMMIT
+
 CAPABILITY
 !=
-AUTHORIZATION
-
-HIGH PERFORMANCE
-!=
-COMMIT RIGHT
-
-MODEL OUTPUT
-!=
-GOVERNANCE DECISION
+AUTHORITY
 ```
 
 Control-plane binding:
@@ -3551,20 +3661,20 @@ Control-plane binding:
 
 ---
 
-# 112. Observability Boundary
+# 119. Observability Boundary
 
 Target:
 
 [[OBSERVABILITY_README]]
 
 ```text
-OBSERVED PERFORMANCE
+OBSERVED ID
 !=
-INTELLIGENCE ITSELF
+VERIFIED IDENTITY
 
-METRIC
+LOGGED IDENTITY CLAIM
 !=
-CONSTRUCT
+AUTHENTICATED IDENTITY
 
 LOGGED
 !=
@@ -3577,35 +3687,37 @@ AUTHORITY
 
 ---
 
-# 113. Operations Boundary
+# 120. Operations Boundary
 
 Target:
 
 [[OPERATIONS_README]]
 
 ```text
-SYSTEM RECOVERY
+RESTORE
 !=
-HUMAN LEARNING
+PROVEN IDENTITY CONTINUITY
+
+RECOVERY
+!=
+IDENTITY RECONSTRUCTION
 
 ROLLBACK
 !=
-MEMORY
+TIME REVERSAL
 
-FAULT TOLERANCE
+BACKUP
 !=
-INTELLIGENCE
-
-OPERATIONS PROCEDURE
-!=
-COGNITIVE PROCESS
+CURRENT ENTITY
 ```
+
+Operations procedures must preserve identity/lineage distinctions where relevant.
 
 ---
 
 # Part XV — Validation
 
-# 114. Required Validation Receipts
+# 121. Required Validation Receipts
 
 Before promotion:
 
@@ -3622,13 +3734,13 @@ validation_receipts:
   authz_engine:
     status: NOT_ESTABLISHED
 
-  human_intelligence_specific:
+  identity_specific:
     status: NOT_ESTABLISHED
 ```
 
 ---
 
-# 115. Human Intelligence Validation Receipt Schema
+# 122. Identity Validation Receipt Schema
 
 ```yaml
 validation_receipt:
@@ -3636,7 +3748,7 @@ validation_receipt:
   receipt_id: required
 
   artifact_id:
-    amos_01_canon_03_cognition_canon_amos_human_intelligence_canon
+    amos_01_canon_03_cognition_canon_amos_identity_canon
 
   artifact_version: required
 
@@ -3651,32 +3763,62 @@ validation_receipt:
   tests_executed: required
   negative_tests: required
 
-  construct_definition_test:
+  identity_definition_test:
     required
 
-  unit_of_analysis_test:
+  identity_type_test:
     required
 
-  measurement_validity:
-    required_if_measurement_claimed
+  bearer_type_test:
+    required
 
-  measurement_invariance:
-    required_if_cross_population_claimed
+  identifier_resolution_test:
+    required_if_identifiers_used
 
-  benchmark_validation:
-    required_if_benchmark_claimed
+  namespace_collision_test:
+    required_if_namespaces_used
 
-  causal_validation:
-    required_if_causal_claimed
+  alias_test:
+    required_if_aliases_used
 
-  population_scope_validation:
-    required_if_empirical_claimed
+  continuity_test:
+    required_if_continuity_claimed
 
-  human_ai_comparison_validation:
-    required_if_comparison_claimed
+  copy_test:
+    required_if_copy_semantics_claimed
 
-  cross_species_validation:
-    required_if_cross_species_claimed
+  fork_test:
+    required_if_fork_semantics_claimed
+
+  merge_test:
+    required_if_merge_semantics_claimed
+
+  migration_test:
+    required_if_migration_claimed
+
+  restore_test:
+    required_if_restore_claimed
+
+  versioning_test:
+    required
+
+  lineage_test:
+    required
+
+  provenance_test:
+    required
+
+  authentication_test:
+    required_if_authentication_claimed
+
+  authorization_test:
+    required_if_authorization_claimed
+
+  routing_test:
+    required
+
+  rollback_test:
+    required
 
   expected_results: required
   observed_results: required
@@ -3684,158 +3826,147 @@ validation_receipt:
   unresolved_gaps: required
   provenance: required
 
-  rollback_test: required
-  authorization_test: required
-  routing_test: required
-
   final_status: required
 ```
 
 ---
 
-# 116. Negative Validation Matrix
+# 123. Negative Validation Matrix
 
-| Case                                                     | Required behavior               |
-| -------------------------------------------------------- | ------------------------------- |
-| Missing artifact                                         | `UNKNOWN/GAP`; fail closed      |
-| Unknown artifact ID                                      | fail closed                     |
-| Malformed artifact ID                                    | reject                          |
-| Wrong/stale version                                      | reject or revalidate            |
-| Native intelligence definition absent                    | block substantive promotion     |
-| External definition silently imported                    | reject                          |
-| Intelligence equated with IQ                             | reject                          |
-| IQ score equated with person                             | reject                          |
-| Test score equated with intelligence                     | reject                          |
-| Benchmark equated with general intelligence              | reject                          |
-| Knowledge equated with intelligence                      | reject                          |
-| Memory equated with intelligence                         | reject                          |
-| Reasoning equated with intelligence                      | reject                          |
-| Learning equated with intelligence                       | reject                          |
-| Language equated with intelligence                       | reject                          |
-| Creativity equated with intelligence                     | reject                          |
-| Education equated with intelligence                      | reject                          |
-| Expertise equated with intelligence                      | reject                          |
-| Productivity equated with intelligence                   | reject                          |
-| Performance equated with capability                      | reject                          |
-| State equated with trait                                 | reject                          |
-| Group mean applied to individual                         | reject                          |
-| Sample generalized to humanity                           | reject                          |
-| Measurement invariance assumed                           | reject                          |
-| Cultural invariance assumed                              | reject                          |
-| Language invariance assumed                              | reject                          |
-| Developmental invariance assumed                         | reject                          |
-| Correlation promoted to causation                        | reject                          |
-| Heritability treated as immutability                     | reject                          |
-| Genetic association treated as determinism               | reject                          |
-| Human-like AI output treated as human cognition          | reject                          |
-| Task parity treated as general intelligence parity       | reject                          |
-| Intelligence treated as consciousness                    | reject                          |
-| Intelligence treated as agency                           | reject                          |
-| Intelligence treated as moral worth                      | reject                          |
-| Intelligence treated as authority                        | reject                          |
-| Cross-species difference treated as evolutionary ranking | reject                          |
-| External research imported as native canon               | reject                          |
-| Shared ancestry counted as independent evidence          | reject confidence inflation     |
-| Scope mismatch                                           | block inference                 |
-| Regime mismatch                                          | revalidate                      |
-| Stale premise                                            | invalidate dependent conclusion |
-| Capability treated as authority                          | reject                          |
-| Authorization treated as commit                          | reject                          |
-| Proposal treated as commit                               | reject                          |
-| Logged treated as approved                               | reject                          |
-| Missing rollback basin                                   | block consequential mutation    |
-| Missing validation receipt                               | no promotion                    |
-| `UNKNOWN/GAP` treated as PASS                            | reject                          |
+| Case                                                | Required behavior            |
+| --------------------------------------------------- | ---------------------------- |
+| Missing artifact                                    | `UNKNOWN/GAP`; fail closed   |
+| Unknown artifact ID                                 | fail closed                  |
+| Malformed artifact ID                               | reject                       |
+| Stale version                                       | reject or revalidate         |
+| Native identity definition absent                   | block substantive promotion  |
+| Identity bearer unknown                             | `UNKNOWN/GAP`                |
+| Identity type unknown                               | `UNKNOWN/GAP`                |
+| Identifier treated as identity                      | reject                       |
+| Name treated as identity                            | reject                       |
+| Label treated as identity                           | reject                       |
+| Path treated as identity                            | reject                       |
+| Credential treated as identity                      | reject                       |
+| Authentication treated as identity                  | reject                       |
+| Authentication treated as authorization             | reject                       |
+| Identity treated as authority                       | reject                       |
+| Identity treated as ownership                       | reject                       |
+| Identity treated as provenance                      | reject                       |
+| Identity treated as lineage                         | reject                       |
+| Identity treated as memory                          | reject                       |
+| Identity treated as consciousness                   | reject                       |
+| Identity treated as agency                          | reject                       |
+| Similarity treated as identity                      | reject                       |
+| Equivalence treated as identity                     | reject                       |
+| Same content treated as same entity                 | reject                       |
+| Copy treated as original                            | reject                       |
+| Fork continuity assumed                             | reject                       |
+| Merge continuity assumed                            | reject                       |
+| Migration continuity assumed                        | reject                       |
+| Restore continuity assumed                          | reject                       |
+| Version continuity assumed                          | reject                       |
+| Newer treated as superseding                        | reject                       |
+| Supersession treated as identity                    | reject                       |
+| Namespace collision unresolved                      | fail closed                  |
+| Alias ambiguity unresolved                          | fail closed                  |
+| Stale identity binding                              | revalidate                   |
+| Stale authority binding                             | reject                       |
+| Duplicate records counted as independent identities | reject                       |
+| Shared ancestry counted as independent evidence     | reject confidence inflation  |
+| Scope mismatch                                      | block inference              |
+| Regime mismatch                                     | revalidate                   |
+| External theory imported as native canon            | reject                       |
+| Missing provenance                                  | reject promotion             |
+| Missing rollback basin                              | block consequential mutation |
+| Missing validation receipt                          | no promotion                 |
+| `UNKNOWN/GAP` treated as PASS                       | reject                       |
 
 ---
 
 # Part XVI — Gap Registry
 
-# 117. Critical Gaps
+# 124. Critical Gaps
 
 ```yaml
 critical_gaps:
 
-  - id: GAP_AMOS_HUMAN_INTELLIGENCE_DEFINITION
+  - id: GAP_AMOS_IDENTITY_DEFINITION
     class: CRITICAL
     status: UNKNOWN/GAP
     description: >
-      Native AMOS definition of Human Intelligence is not established.
+      Native AMOS definition of Identity is not established.
 
-  - id: GAP_AMOS_HUMAN_DEFINITION
+  - id: GAP_AMOS_IDENTITY_TYPES
     class: CRITICAL
     status: UNKNOWN/GAP
 
-  - id: GAP_AMOS_INTELLIGENCE_DEFINITION
+  - id: GAP_AMOS_IDENTITY_BEARERS
     class: CRITICAL
     status: UNKNOWN/GAP
 
-  - id: GAP_AMOS_HUMAN_INTELLIGENCE_UNIT_OF_ANALYSIS
+  - id: GAP_AMOS_IDENTITY_CRITERIA
     class: CRITICAL
     status: UNKNOWN/GAP
 
-  - id: GAP_AMOS_HUMAN_INTELLIGENCE_ARCHITECTURE
+  - id: GAP_AMOS_IDENTITY_CONTINUITY
     class: CRITICAL
     status: UNKNOWN/GAP
 
-  - id: GAP_AMOS_HUMAN_INTELLIGENCE_MEASUREMENT
+  - id: GAP_AMOS_IDENTITY_BREAK_CONDITIONS
     class: CRITICAL
     status: UNKNOWN/GAP
 
-  - id: GAP_AMOS_HUMAN_INTELLIGENCE_SCOPE_REGIME
+  - id: GAP_AMOS_IDENTITY_RESOLUTION
     class: CRITICAL
     status: UNKNOWN/GAP
 
-  - id: GAP_AMOS_HUMAN_INTELLIGENCE_EXECUTABLE_BINDING
+  - id: GAP_AMOS_IDENTITY_SCOPE_REGIME
     class: CRITICAL
     status: UNKNOWN/GAP
 
-  - id: GAP_AMOS_HUMAN_INTELLIGENCE_VALIDATION
+  - id: GAP_AMOS_IDENTITY_EXECUTABLE_BINDING
+    class: CRITICAL
+    status: UNKNOWN/GAP
+
+  - id: GAP_AMOS_IDENTITY_VALIDATION
     class: CRITICAL
     status: UNKNOWN/GAP
 ```
 
 ---
 
-# 118. Decision-Relevant Gaps
+# 125. Decision-Relevant Gaps
 
 ```yaml
 decision_relevant_gaps:
-  capability_registry: UNKNOWN/GAP
-  dimension_registry: UNKNOWN/GAP
-  factor_model: UNKNOWN/GAP
-  variables: UNKNOWN/GAP
-  equations: UNKNOWN/GAP
-
-  iq_relation: UNKNOWN/GAP
-  benchmark_relation: UNKNOWN/GAP
-  construct_validity: UNKNOWN/GAP
-  measurement_invariance: UNKNOWN/GAP
-
-  developmental_model: UNKNOWN/GAP
-  individual_difference_model: UNKNOWN/GAP
-  genetic_relation: UNKNOWN/GAP
-  environmental_relation: UNKNOWN/GAP
-
-  reasoning_relation: UNKNOWN/GAP
+  identifier_schema: UNKNOWN/GAP
+  namespace_semantics: UNKNOWN/GAP
+  alias_semantics: UNKNOWN/GAP
+  equivalence_semantics: UNKNOWN/GAP
+  persistence_semantics: UNKNOWN/GAP
+  mutation_semantics: UNKNOWN/GAP
+  versioning_semantics: UNKNOWN/GAP
+  copy_semantics: UNKNOWN/GAP
+  fork_semantics: UNKNOWN/GAP
+  merge_semantics: UNKNOWN/GAP
+  migration_semantics: UNKNOWN/GAP
+  restore_semantics: UNKNOWN/GAP
+  supersession_semantics: UNKNOWN/GAP
+  lineage_relation: UNKNOWN/GAP
+  provenance_relation: UNKNOWN/GAP
+  authentication_relation: UNKNOWN/GAP
+  authorization_relation: UNKNOWN/GAP
+  authority_relation: UNKNOWN/GAP
+  self_identity: UNKNOWN/GAP
+  personal_identity: UNKNOWN/GAP
+  human_identity: UNKNOWN/GAP
+  cognitive_identity: UNKNOWN/GAP
+  agent_identity: UNKNOWN/GAP
+  system_identity: UNKNOWN/GAP
   memory_relation: UNKNOWN/GAP
-  learning_relation: UNKNOWN/GAP
-  attention_relation: UNKNOWN/GAP
-  perception_relation: UNKNOWN/GAP
-  language_relation: UNKNOWN/GAP
-  decision_relation: UNKNOWN/GAP
-  emotion_relation: UNKNOWN/GAP
-  agency_relation: UNKNOWN/GAP
-  metacognition_relation: UNKNOWN/GAP
   consciousness_relation: UNKNOWN/GAP
-  homeostasis_relation: UNKNOWN/GAP
-  cognitive_field_relation: UNKNOWN/GAP
-
-  human_ai_relation: UNKNOWN/GAP
-  cross_species_relation: UNKNOWN/GAP
-  biological_mapping: UNKNOWN/GAP
-  causal_model: UNKNOWN/GAP
-
+  agency_relation: UNKNOWN/GAP
+  temporal_validity: UNKNOWN/GAP
   dependency_topology: UNKNOWN/GAP
   provenance_independence: NOT_ESTABLISHED
 ```
@@ -3844,12 +3975,121 @@ decision_relevant_gaps:
 
 # Part XVII — Worked Semantics
 
-# 119. Worked Example — IQ
+# 126. Worked Example — Same Name
 
 Input:
 
 ```text
-AMOS Human Intelligence is IQ.
+Entity A and Entity B have the same name.
+Therefore A = B.
+```
+
+Result:
+
+```text
+UNSUPPORTED
+```
+
+Because:
+
+```text
+SAME NAME
+!=
+SAME ENTITY
+```
+
+---
+
+# 127. Worked Example — Same Identifier
+
+Input:
+
+```text
+Two records contain identifier X.
+Therefore they represent the same entity.
+```
+
+Result:
+
+```text
+CONDITIONAL / UNKNOWN
+```
+
+Required:
+
+```text
+NAMESPACE
++
+IDENTIFIER SCHEMA
++
+COLLISION RULE
++
+RESOLUTION RULE
++
+TEMPORAL CONTEXT
+```
+
+---
+
+# 128. Worked Example — Different Identifier
+
+Input:
+
+```text
+Entity record changed from ID-A to ID-B.
+Therefore identity changed.
+```
+
+Result:
+
+```text
+NOT ESTABLISHED
+```
+
+Because:
+
+```text
+IDENTIFIER CHANGE
+!=
+IDENTITY CHANGE
+```
+
+---
+
+# 129. Worked Example — Copy
+
+Input:
+
+```text
+B is a perfect copy of A.
+Therefore B is A.
+```
+
+Result:
+
+```text
+UNSUPPORTED
+```
+
+Because:
+
+```text
+COPY
+!=
+ORIGINAL
+```
+
+unless native identity criteria explicitly establish otherwise.
+
+---
+
+# 130. Worked Example — Fork
+
+Input:
+
+```text
+A forks into B and C.
+Which continuation is A?
 ```
 
 Result:
@@ -3858,110 +4098,18 @@ Result:
 UNKNOWN/GAP
 ```
 
-and the equivalence is not licensed.
-
-Reason:
-
-```text
-INTELLIGENCE
-!=
-IQ
-```
-
-unless native AMOS canon explicitly establishes the relation.
+Native fork-continuity semantics are required.
 
 ---
 
-# 120. Worked Example — Reasoning
+# 131. Worked Example — Restore
 
 Input:
 
 ```text
-A person reasons well, therefore they have high overall intelligence.
-```
-
-Result:
-
-```text
-NOT ESTABLISHED FROM THIS PREMISE
-```
-
-Reasoning performance may be relevant evidence under a defined model, but:
-
-```text
-REASONING
-!=
-TOTAL INTELLIGENCE
-```
-
----
-
-# 121. Worked Example — Test Score
-
-Input:
-
-```text
-Person A scored higher than Person B,
-therefore A is globally more intelligent than B.
-```
-
-Result:
-
-```text
-UNSUPPORTED
-```
-
-Missing:
-
-```text
-CONSTRUCT DEFINITION
-+
-MEASUREMENT VALIDITY
-+
-SCORE SEMANTICS
-+
-DOMAIN SCOPE
-+
-UNCERTAINTY
-+
-COMPARABILITY
-```
-
----
-
-# 122. Worked Example — Population Mean
-
-Input:
-
-```text
-Population P has mean score M,
-therefore individual X from P has intelligence M.
-```
-
-Result:
-
-```text
-INVALID LEVEL TRANSFER
-```
-
-Because:
-
-```text
-POPULATION MEAN
-!=
-INDIVIDUAL VALUE
-```
-
----
-
-# 123. Worked Example — Cultural Generalization
-
-Input:
-
-```text
-Test T works in population P1,
-therefore it measures the same intelligence construct
-in population P2.
+A is restored from yesterday's snapshot.
+Therefore restored A is numerically identical
+to the pre-failure A.
 ```
 
 Result:
@@ -3970,97 +4118,17 @@ Result:
 NOT ESTABLISHED
 ```
 
-Required:
-
-`measurement invariance + scope validation`.
+State restoration alone does not resolve identity continuity.
 
 ---
 
-# 124. Worked Example — Genetics
+# 132. Worked Example — Version
 
 Input:
 
 ```text
-A trait is heritable,
-therefore it is fixed and genetically determined.
-```
-
-Result:
-
-```text
-UNSUPPORTED
-```
-
-Because:
-
-```text
-HERITABILITY
-!=
-IMMUTABILITY
-
-HERITABILITY
-!=
-GENETIC DETERMINISM
-```
-
----
-
-# 125. Worked Example — Artificial Intelligence
-
-Input:
-
-```text
-AI system A beats humans on benchmark B,
-therefore A is more intelligent than humans.
-```
-
-Result:
-
-```text
-UNSUPPORTED GENERALIZATION
-```
-
-Because:
-
-```text
-BENCHMARK SUPERIORITY
-!=
-GENERAL INTELLIGENCE SUPERIORITY
-```
-
----
-
-# 126. Worked Example — Human-Like Language
-
-Input:
-
-```text
-System S produces human-like language,
-therefore it has human intelligence.
-```
-
-Result:
-
-```text
-UNSUPPORTED
-```
-
-Because:
-
-```text
-HUMAN-LIKE LANGUAGE
-!=
-HUMAN INTELLIGENCE
-```
-
----
-
-# 127. Worked Example — Consciousness
-
-Input:
-
-```text
-High intelligence implies high consciousness.
+AMOS artifact A moves from v1 to v2.
+Therefore v2 is a different identity.
 ```
 
 Result:
@@ -4069,92 +4137,160 @@ Result:
 NOT ESTABLISHED
 ```
 
+Likewise:
+
+```text
+v2 is automatically the same identity as v1
+```
+
+is not established without native version/identity semantics.
+
+---
+
+# 133. Worked Example — Lineage
+
+Input:
+
+```text
+B is derived from A.
+Therefore B = A.
+```
+
+Result:
+
+```text
+INVALID
+```
+
 Because:
 
 ```text
-INTELLIGENCE
+DERIVED_FROM
+!=
+SAME_AS
+```
+
+---
+
+# 134. Worked Example — Authentication
+
+Input:
+
+```text
+Credential C successfully authenticates subject S.
+Therefore S may commit operation O.
+```
+
+Result:
+
+```text
+INVALID
+```
+
+Because:
+
+```text
+AUTHENTICATION
+!=
+AUTHORIZATION
+
+AUTHORIZATION
+!=
+COMMIT
+```
+
+---
+
+# 135. Worked Example — Consciousness
+
+Input:
+
+```text
+System S persistently identifies itself as S.
+Therefore S has continuous consciousness.
+```
+
+Result:
+
+```text
+UNSUPPORTED
+```
+
+Because:
+
+```text
+IDENTITY CLAIM
 !=
 CONSCIOUSNESS
-```
 
----
-
-# 128. Worked Example — Moral Worth
-
-Input:
-
-```text
-Higher intelligence implies greater human worth.
-```
-
-Result:
-
-```text
-REJECT
-```
-
-This is not licensed by an intelligence construct.
-
-```text
-INTELLIGENCE
+SELF-REFERENCE
 !=
-HUMAN VALUE
+SUBJECTIVE EXPERIENCE
 ```
 
 ---
 
-# 129. Worked Example — Cross-Species Ranking
+# 136. Worked Example — Memory
 
 Input:
 
 ```text
-Species A performs worse on a human-designed task,
-therefore Species A is evolutionarily less advanced.
+B contains all memories of A.
+Therefore B is A.
 ```
 
 Result:
 
 ```text
-REJECT
+NOT ESTABLISHED
 ```
 
 Because:
 
 ```text
-TASK PERFORMANCE
+MEMORY COPY
 !=
-EVOLUTIONARY ADVANCEMENT
+IDENTITY TRANSFER
 ```
 
 ---
 
-# 130. Worked Example — Source Correlation
+# 137. Worked Example — Duplicate Sources
 
-Suppose three AMOS documents assert the same intelligence definition but all descend from one source.
+Suppose:
 
 ```text
-3 DOCUMENTS
-!=
-3 INDEPENDENT CONFIRMATIONS
+SOURCE A
+→ COPY B
+→ SUMMARY C
+→ NORMALIZATION D
 ```
 
-Confidence remains ancestry-bounded.
+and all contain the same identity claim.
+
+Result:
+
+```text
+FOUR DOCUMENTS
+!=
+FOUR INDEPENDENT CONFIRMATIONS
+```
 
 ---
 
-# 131. Worked Example — Competing Definitions
+# 138. Worked Example — Identity Conflict
 
 Suppose:
 
 ```text
 SOURCE A:
-INTELLIGENCE = GENERAL PROBLEM-SOLVING CAPACITY
+ENTITY X @ t2 IS CONTINUATION OF X @ t1
 
 SOURCE B:
-INTELLIGENCE = MULTIDIMENSIONAL COGNITIVE ARCHITECTURE
+ENTITY X @ t2 IS A NEW ENTITY
 ```
 
-Without a valid supersession or discriminating relation:
+Absent a valid precedence/supersession rule or discriminating evidence:
 
 ```text
 RESULT
@@ -4162,80 +4298,74 @@ RESULT
 COMPETING
 ```
 
-Do not average the definitions.
+Do not force convergence.
 
 ---
 
-# 132. Worked Example — Selective Failure
+# 139. Worked Example — Selective Failure
 
 Suppose:
 
 ```text
 C1:
-CAPABILITY X IS A COMPONENT OF HUMAN INTELLIGENCE
+ARTIFACT A @ v2
+IS CONTINUATION OF A @ v1
 
 C2:
-CAPABILITY Y IS A COMPONENT OF HUMAN INTELLIGENCE
+ARTIFACT B
+HAS PROVENANCE SOURCE S
 ```
 
-If the evidence for `X` fails:
+If continuity evidence for `C1` fails:
 
 ```text
 INVALIDATE C1
 ```
 
-Do not automatically invalidate `C2` if its dependency path remains valid and independent.
+Do not invalidate independently supported `C2`.
 
 ---
 
 # Part XVIII — Promotion
 
-# 133. Promotion-Gate Checklist
+# 140. Promotion-Gate Checklist
 
 * [ ] substantive content populated from verified native-canon source
-* [ ] native definition of `human` established
-* [ ] native definition of `intelligence` established
-* [ ] native definition of `human intelligence` established
-* [ ] unit of analysis established
-* [ ] construct type established
-* [ ] intelligence architecture established if claimed
-* [ ] capability registry established if claimed
-* [ ] dimension registry established if claimed
-* [ ] factor model established if claimed
-* [ ] variable registry established if claimed
-* [ ] equations established if claimed
-* [ ] measurement model established if claimed
-* [ ] IQ relation established if claimed
-* [ ] benchmark semantics established if claimed
-* [ ] reliability validated if measurement claimed
-* [ ] construct validity established if measurement claimed
-* [ ] measurement invariance established for cross-population comparison
-* [ ] developmental scope established
-* [ ] cultural scope established
-* [ ] language scope established
-* [ ] individual/population distinction enforced
-* [ ] genetic claims typed if present
-* [ ] environmental claims typed if present
-* [ ] causal claims validated if present
-* [ ] reasoning relation established
-* [ ] memory relation established
-* [ ] learning relation established
-* [ ] attention relation established
-* [ ] perception relation established
-* [ ] language relation established
-* [ ] decision relation established
-* [ ] emotion relation established
-* [ ] agency relation established
-* [ ] metacognition relation established
-* [ ] consciousness relation established
-* [ ] homeostasis relation established
-* [ ] cognitive-field relation established
-* [ ] human/AI comparison semantics established if claimed
-* [ ] cross-species semantics established if claimed
-* [ ] biological mappings established if claimed
-* [ ] normative firewalls preserved
+* [ ] native definition of identity established
+* [ ] identity types established
+* [ ] identity bearers established
+* [ ] identity criteria established
+* [ ] continuity criteria established
+* [ ] persistence criteria established
+* [ ] identity-break conditions established
+* [ ] identifier schema established if used
+* [ ] namespace semantics established
+* [ ] identity resolution established
+* [ ] alias semantics established if used
+* [ ] rename semantics established if used
+* [ ] equivalence semantics established if used
+* [ ] versioning relation established
+* [ ] copy semantics established if applicable
+* [ ] fork semantics established if applicable
+* [ ] merge semantics established if applicable
+* [ ] migration semantics established if applicable
+* [ ] restore semantics established if applicable
+* [ ] supersession semantics established if applicable
+* [ ] lineage relation established
+* [ ] provenance relation established
+* [ ] authentication relation established if claimed
+* [ ] authorization relation established if claimed
+* [ ] authority relation established if claimed
+* [ ] self-identity semantics established if claimed
+* [ ] human/personal identity semantics established if claimed
+* [ ] cognitive identity semantics established if claimed
+* [ ] agent identity semantics established if claimed
+* [ ] system identity semantics established if claimed
+* [ ] memory relation established if claimed
+* [ ] consciousness relation established if claimed
+* [ ] agency relation established if claimed
 * [ ] typed schema bound to artifact
-* [ ] identity + versioning implemented
+* [ ] identity + versioning implementation established
 * [ ] scope envelope established
 * [ ] regime envelope established
 * [ ] temporal validity established
@@ -4244,6 +4374,11 @@ Do not automatically invalidate `C2` if its dependency path remains valid and in
 * [ ] provenance ancestry validated
 * [ ] provenance independence assessed
 * [ ] competing hypotheses preserved
+* [ ] namespace collision cases tested
+* [ ] alias ambiguity cases tested
+* [ ] copy/fork/merge cases tested where applicable
+* [ ] stale identity cases tested
+* [ ] stale authority cases tested
 * [ ] negative cases covered
 * [ ] rollback basin demonstrated
 * [ ] executable binding established if enforcement claimed
@@ -4254,7 +4389,7 @@ Do not automatically invalidate `C2` if its dependency path remains valid and in
 
 ---
 
-# 134. Promotion State
+# 141. Promotion State
 
 ```yaml
 promotion_state:
@@ -4262,22 +4397,37 @@ promotion_state:
   artifact_addressable: true
   placeholder_preserved: true
 
-  native_human_definition_resolved: false
-  native_intelligence_definition_resolved: false
-  native_human_intelligence_definition_resolved: false
+  native_identity_definition_resolved: false
+  identity_types_resolved: false
+  identity_bearers_resolved: false
+  identity_criteria_resolved: false
+  continuity_criteria_resolved: false
+  break_conditions_resolved: false
 
-  unit_of_analysis_resolved: false
-  architecture_resolved: false
-  capabilities_resolved: false
-  measurement_resolved: false
+  identifier_schema_resolved: false
+  namespace_resolved: false
+  identity_resolution_resolved: false
+  alias_semantics_resolved: false
 
-  cognition_relations_resolved: false
-  human_ai_relation_resolved: false
-  cross_species_relation_resolved: false
-  causal_semantics_resolved: false
+  versioning_resolved: false
+  copy_semantics_resolved: false
+  fork_semantics_resolved: false
+  merge_semantics_resolved: false
+  lineage_relation_resolved: false
+  provenance_relation_resolved: false
+
+  authentication_relation_resolved: false
+  authorization_relation_resolved: false
+  authority_relation_resolved: false
+
+  cognitive_identity_resolved: false
+  consciousness_relation_resolved: false
+  memory_relation_resolved: false
+  agency_relation_resolved: false
 
   scope_resolved: false
   regime_resolved: false
+  temporal_validity_resolved: false
 
   provenance_validated: false
   executable_binding: false
@@ -4303,19 +4453,18 @@ DO NOT PROMOTE
 
 # Part XIX — Proof Capsule
 
-# 135. Current Proof Capsule
+# 142. Current Proof Capsule
 
 ```yaml
 proof_capsule:
 
   id:
-    PC_AMOS_HUMAN_INTELLIGENCE_CANON_PLACEHOLDER
+    PC_AMOS_IDENTITY_CANON_PLACEHOLDER
 
   claim: >
     AMOS OS reserves an ADD-ONLY Canon artifact named
-    AMOS_HUMAN_INTELLIGENCE_CANON.md in the Cognition Canon
-    segment for the framework family identified as
-    AMOS Human Intelligence Canon.
+    AMOS_IDENTITY_CANON.md in the Cognition Canon segment
+    for the framework family identified as AMOS Identity Canon.
 
   claim_class:
     DERIVED
@@ -4330,7 +4479,7 @@ proof_capsule:
     - supplied status is PLACEHOLDER
 
   evidence:
-    - supplied AMOS_HUMAN_INTELLIGENCE_CANON placeholder
+    - supplied AMOS_IDENTITY_CANON placeholder
 
   provenance:
     - AMOS_corpus
@@ -4345,16 +4494,19 @@ proof_capsule:
     - LAW_HIERARCHY
 
   competing_explanations:
-    native_human_intelligence_semantics:
-      - general cognitive capability
-      - multidimensional cognitive architecture
-      - reasoning model
-      - adaptive problem-solving model
-      - learning-and-transfer model
-      - integrated functional cognition model
-      - comparative reference model
-      - AMOS-specific abstraction
-      - measurement framework
+    native_identity_semantics:
+      - logical identity
+      - persistent identifier architecture
+      - artifact/node identity
+      - agent identity
+      - system/process identity
+      - cognitive self-identity
+      - human/personal identity
+      - provenance/lineage continuity
+      - authentication/identity resolution
+      - versioned continuity
+      - composite typed identity model
+      - governance identity construct
       - framework label only
       - unrecovered native AMOS meaning
 
@@ -4376,41 +4528,42 @@ proof_capsule:
     governance_boundaries: true
 
   not_established:
-    human_definition: true
-    intelligence_definition: true
-    human_intelligence_definition: true
-    unit_of_analysis: true
-    architecture: true
-    capabilities: true
-    dimensions: true
-    factor_model: true
-    variables: true
-    equations: true
-    measurement: true
-    iq_relation: true
-    benchmark_relation: true
-    developmental_model: true
-    biological_model: true
-    genetic_model: true
-    environmental_model: true
-    causal_semantics: true
-    reasoning_relation: true
+    native_identity_definition: true
+    identity_types: true
+    identity_bearers: true
+    identity_criteria: true
+    continuity_criteria: true
+    persistence_criteria: true
+    identity_break_conditions: true
+    identifier_schema: true
+    namespace_semantics: true
+    identity_resolution: true
+    alias_semantics: true
+    equivalence_semantics: true
+    versioning_semantics: true
+    copy_semantics: true
+    fork_semantics: true
+    merge_semantics: true
+    migration_semantics: true
+    restore_semantics: true
+    supersession_semantics: true
+    lineage_relation: true
+    provenance_relation: true
+    authentication_relation: true
+    authorization_relation: true
+    authority_relation: true
+    self_identity: true
+    personal_identity: true
+    human_identity: true
+    cognitive_identity: true
+    agent_identity: true
+    system_identity: true
     memory_relation: true
-    learning_relation: true
-    attention_relation: true
-    perception_relation: true
-    language_relation: true
-    decision_relation: true
-    emotion_relation: true
-    agency_relation: true
-    metacognition_relation: true
     consciousness_relation: true
-    homeostasis_relation: true
-    cognitive_field_relation: true
-    human_ai_relation: true
-    cross_species_relation: true
+    agency_relation: true
     scope: true
     regime: true
+    temporal_validity: true
     executable_binding: true
     validation: true
 ```
@@ -4419,21 +4572,21 @@ proof_capsule:
 
 # Part XX — Canonical Knowledge Capsule
 
-# 136. Canonical Knowledge Capsule
+# 143. Canonical Knowledge Capsule
 
 **Class:** `DERIVED / AMOS_MODEL`
 
 The supplied source establishes an AMOS OS artifact named:
 
-**AMOS Human Intelligence Canon**
+**AMOS Identity Canon**
 
 located at:
 
-`01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md`
+`01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md`
 
 with identifier:
 
-`amos_01_canon_03_cognition_canon_amos_human_intelligence_canon`
+`amos_01_canon_03_cognition_canon_amos_identity_canon`
 
 Source state:
 
@@ -4471,88 +4624,90 @@ TARGET PROMOTION REQUIREMENTS
 Not established:
 
 ```text
-NATIVE HUMAN DEFINITION
+NATIVE IDENTITY DEFINITION
 
-NATIVE INTELLIGENCE DEFINITION
+IDENTITY TYPES
 
-NATIVE HUMAN INTELLIGENCE DEFINITION
+IDENTITY BEARERS
 
-UNIT OF ANALYSIS
+IDENTITY CRITERIA
 
-INTELLIGENCE ARCHITECTURE
+CONTINUITY CRITERIA
 
-CAPABILITY REGISTRY
+PERSISTENCE CRITERIA
 
-DIMENSION REGISTRY
+IDENTITY BREAK CONDITIONS
 
-FACTOR MODEL
+IDENTIFIER SEMANTICS
 
-VARIABLES
+NAMESPACE SEMANTICS
 
-EQUATIONS
+IDENTITY RESOLUTION
 
-MEASUREMENT
+ALIAS SEMANTICS
 
-IQ RELATION
+EQUIVALENCE SEMANTICS
 
-BENCHMARK SEMANTICS
+VERSIONING SEMANTICS
 
-PSYCHOMETRIC EQUIVALENCE
+COPY SEMANTICS
 
-DEVELOPMENTAL MODEL
+FORK SEMANTICS
 
-BIOLOGICAL MODEL
+MERGE SEMANTICS
 
-GENETIC MODEL
+MIGRATION SEMANTICS
 
-ENVIRONMENTAL MODEL
+RESTORE SEMANTICS
 
-CAUSAL MODEL
+SUPERSESSION SEMANTICS
 
-REASONING RELATION
+LINEAGE RELATION
+
+PROVENANCE RELATION
+
+AUTHENTICATION RELATION
+
+AUTHORIZATION RELATION
+
+AUTHORITY RELATION
+
+SELF-IDENTITY
+
+PERSONAL IDENTITY
+
+HUMAN IDENTITY
+
+COGNITIVE IDENTITY
+
+AGENT IDENTITY
+
+SYSTEM IDENTITY
 
 MEMORY RELATION
 
-LEARNING RELATION
-
-ATTENTION RELATION
-
-PERCEPTION RELATION
-
-LANGUAGE RELATION
-
-DECISION RELATION
-
-EMOTION RELATION
+CONSCIOUSNESS RELATION
 
 AGENCY RELATION
 
-METACOGNITION RELATION
-
-CONSCIOUSNESS RELATION
-
-HOMEOSTASIS RELATION
-
-COGNITIVE FIELD RELATION
-
-HUMAN/AI EQUIVALENCE
-
-CROSS-SPECIES EQUIVALENCE
+RSCF/H-M-L BINDING
 
 SCOPE
 
 REGIME
 
+TEMPORAL VALIDITY
+
 EXECUTABLE IMPLEMENTATION
 
-EMPIRICAL VALIDATION
+VALIDATION
 ```
 
 ---
 
 # Part XXI — Canonical Invariants
 
-# 137. Canonical Invariants
+# 144. Canonical Invariants
 
 ```text
 INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
@@ -4587,97 +4742,103 @@ LOGGED != APPROVED
 
 UNKNOWN/GAP != PASS
 
-"HUMAN INTELLIGENCE" IN TITLE
-!=
-HUMAN INTELLIGENCE DEFINED
+"IDENTITY" IN TITLE != IDENTITY DEFINED
 
-INTELLIGENCE != IQ
+IDENTIFIER != IDENTITY
 
-TEST SCORE != INTELLIGENCE
+NAME != IDENTITY
 
-SCORE != PERSON
+LABEL != IDENTITY
 
-KNOWLEDGE != INTELLIGENCE
+PATH != IDENTITY
 
-MEMORY != INTELLIGENCE
+ADDRESS != IDENTITY
 
-REASONING != INTELLIGENCE
+REFERENCE != IDENTITY
 
-LEARNING != INTELLIGENCE
+CREDENTIAL != IDENTITY
 
-LANGUAGE != INTELLIGENCE
+AUTHENTICATION != IDENTITY
 
-CREATIVITY != INTELLIGENCE
+AUTHENTICATION != AUTHORIZATION
 
-EDUCATION != INTELLIGENCE
+IDENTITY != AUTHORIZATION
 
-EXPERTISE != GENERAL INTELLIGENCE
+IDENTITY != AUTHORITY
 
-PRODUCTIVITY != INTELLIGENCE
+IDENTITY != OWNERSHIP
 
-INTELLIGENCE != WISDOM
+IDENTITY != PROVENANCE
 
-INTELLIGENCE != MORAL WORTH
+IDENTITY != LINEAGE
 
-INTELLIGENCE != HUMAN VALUE
+IDENTITY != MEMORY
 
-INTELLIGENCE != AUTHORITY
+IDENTITY != PERSONALITY
 
-INTELLIGENCE != CONSCIOUSNESS
+IDENTITY != SELF-MODEL
 
-INTELLIGENCE != AGENCY
+IDENTITY != CONSCIOUSNESS
 
-PERFORMANCE != CAPABILITY
+IDENTITY != AGENCY
 
-STATE != TRAIT
+IDENTITY != COGNITION
 
-POPULATION MEAN != INDIVIDUAL
+SIMILARITY != IDENTITY
 
-SAMPLE != HUMANITY
+EQUIVALENCE != IDENTITY
 
-RELIABILITY != VALIDITY
+SAME CONTENT != SAME ENTITY
 
-SAME TEST != SAME CONSTRUCT
+SAME STATE != SAME ENTITY
 
-SAME SCORE != SAME LATENT CAPACITY
+SAME NAME != SAME ENTITY
 
-HERITABILITY != IMMUTABILITY
+SAME IDENTIFIER != PROVEN SAME ENTITY
 
-GENETIC ASSOCIATION != DETERMINISM
+DIFFERENT IDENTIFIER != PROVEN DIFFERENT ENTITY
 
-CORRELATION != CAUSATION
+PERSISTENCE != IMMUTABILITY
 
-PREDICTION != CAUSATION
+CHANGE != IDENTITY LOSS
 
-STRUCTURAL SIMILARITY != CAUSATION
+COPY != ORIGINAL
 
-FUNCTIONAL SIMILARITY != MECHANISTIC IDENTITY
+DESCENDANT != ANCESTOR
 
-HUMAN-LIKE OUTPUT != HUMAN-LIKE COGNITION
+DERIVED_FROM != SAME_AS
 
-HUMAN-LIKE COGNITION != HUMAN CONSCIOUSNESS
+SUCCESSOR_OF != SAME_AS
 
-BENCHMARK PARITY != COGNITIVE EQUIVALENCE
+SUPERSEDES != SAME_AS
 
-TASK SUPERIORITY != GENERAL INTELLIGENCE SUPERIORITY
+VERSION CHANGE != IDENTITY DECISION
 
-HUMAN PERFORMANCE != UNIVERSAL INTELLIGENCE STANDARD
+RESTORE != PROVEN IDENTITY CONTINUITY
 
-DIFFERENT STRATEGY != LOWER INTELLIGENCE
+MIGRATION != PROVEN IDENTITY TRANSFER
 
-INTELLIGENCE DIFFERENCE != EVOLUTIONARY RANKING
+STRUCTURAL SIMILARITY != IDENTITY
 
-COGNITIVE DIFFERENCE != MORAL HIERARCHY
+FUNCTIONAL EQUIVALENCE != NUMERICAL IDENTITY
+
+RECORD COUNT != ENTITY COUNT
+
+IDENTIFIER COUNT != IDENTITY COUNT
+
+MANY CLAIMED IDENTITIES != MANY INDEPENDENT ACTORS
+
+REPETITION != INDEPENDENT CONFIRMATION
 
 SAME SEGMENT != SEMANTIC DEPENDENCY
 
-SAME DIRECTORY != CAUSAL RELATION
-
-REPETITION != INDEPENDENT CONFIRMATION
+SAME DIRECTORY != IDENTITY RELATION
 
 NEWER != SUPERSEDING
 
 VALID @ R1 != AUTOMATICALLY VALID @ R2
+
+VALID @ E1 != AUTOMATICALLY VALID @ E2
 
 ONE FAILED PREMISE != GLOBAL INVALIDATION
 ```
@@ -4686,79 +4847,77 @@ ONE FAILED PREMISE != GLOBAL INVALIDATION
 
 # Part XXII — Status Matrix
 
-# 138. Status Matrix
+# 145. Status Matrix
 
-| Dimension                            | Status           |
-| ------------------------------------ | ---------------- |
-| Artifact existence                   | SOURCE-SUPPORTED |
-| Artifact title                       | SOURCE-SUPPORTED |
-| Artifact path                        | SOURCE-SUPPORTED |
-| Artifact kind                        | SOURCE-SUPPORTED |
-| Framework label                      | SOURCE-SUPPORTED |
-| Cognition Canon placement            | SOURCE-SUPPORTED |
-| Artifact ID                          | SOURCE-SUPPORTED |
-| Node ID                              | SOURCE-SUPPORTED |
-| ADD-ONLY intent                      | SOURCE-SUPPORTED |
-| Placeholder status                   | SOURCE-SUPPORTED |
-| Governance boundaries                | SOURCE-SUPPORTED |
-| Native human definition              | UNKNOWN/GAP      |
-| Native intelligence definition       | UNKNOWN/GAP      |
-| Native Human Intelligence definition | UNKNOWN/GAP      |
-| Construct type                       | UNKNOWN/GAP      |
-| Unit of analysis                     | UNKNOWN/GAP      |
-| Intelligence architecture            | UNKNOWN/GAP      |
-| Capability registry                  | UNKNOWN/GAP      |
-| Dimension registry                   | UNKNOWN/GAP      |
-| Factor model                         | UNKNOWN/GAP      |
-| Variable registry                    | UNKNOWN/GAP      |
-| Equations                            | UNKNOWN/GAP      |
-| Measurement                          | UNKNOWN/GAP      |
-| IQ relation                          | UNKNOWN/GAP      |
-| Benchmark relation                   | UNKNOWN/GAP      |
-| Reliability model                    | UNKNOWN/GAP      |
-| Construct validity                   | UNKNOWN/GAP      |
-| Measurement invariance               | UNKNOWN/GAP      |
-| Developmental model                  | UNKNOWN/GAP      |
-| Individual differences               | UNKNOWN/GAP      |
-| Biological mapping                   | NOT_ESTABLISHED  |
-| Genetic model                        | UNKNOWN/GAP      |
-| Environmental model                  | UNKNOWN/GAP      |
-| Causal semantics                     | UNKNOWN/GAP      |
-| Reasoning relation                   | UNKNOWN/GAP      |
-| Memory relation                      | UNKNOWN/GAP      |
-| Learning relation                    | UNKNOWN/GAP      |
-| Attention relation                   | UNKNOWN/GAP      |
-| Perception relation                  | UNKNOWN/GAP      |
-| Language relation                    | UNKNOWN/GAP      |
-| Decision relation                    | UNKNOWN/GAP      |
-| Emotion relation                     | UNKNOWN/GAP      |
-| Agency relation                      | UNKNOWN/GAP      |
-| Metacognition relation               | UNKNOWN/GAP      |
-| Consciousness relation               | UNKNOWN/GAP      |
-| Homeostasis relation                 | UNKNOWN/GAP      |
-| Cognitive Field relation             | UNKNOWN/GAP      |
-| Human/AI relation                    | UNKNOWN/GAP      |
-| Cross-species relation               | UNKNOWN/GAP      |
-| Scope                                | UNKNOWN/GAP      |
-| Regime                               | UNKNOWN/GAP      |
-| Temporal validity                    | UNKNOWN/GAP      |
-| Dependency topology                  | UNKNOWN/GAP      |
-| Provenance independence              | NOT_ESTABLISHED  |
-| Kernel binding                       | NOT_ESTABLISHED  |
-| Control-plane binding                | NOT_ESTABLISHED  |
-| Executable binding                   | NOT_ESTABLISHED  |
-| Validation                           | NOT_ESTABLISHED  |
-| Empirical validity                   | NOT_ESTABLISHED  |
+| Dimension                  | Status           |
+| -------------------------- | ---------------- |
+| Artifact existence         | SOURCE-SUPPORTED |
+| Artifact title             | SOURCE-SUPPORTED |
+| Artifact path              | SOURCE-SUPPORTED |
+| Artifact kind              | SOURCE-SUPPORTED |
+| Framework label            | SOURCE-SUPPORTED |
+| Cognition Canon placement  | SOURCE-SUPPORTED |
+| Artifact ID                | SOURCE-SUPPORTED |
+| Node ID                    | SOURCE-SUPPORTED |
+| ADD-ONLY intent            | SOURCE-SUPPORTED |
+| Placeholder status         | SOURCE-SUPPORTED |
+| Governance boundaries      | SOURCE-SUPPORTED |
+| Native Identity definition | UNKNOWN/GAP      |
+| Identity types             | UNKNOWN/GAP      |
+| Identity bearers           | UNKNOWN/GAP      |
+| Identity criteria          | UNKNOWN/GAP      |
+| Continuity criteria        | UNKNOWN/GAP      |
+| Persistence criteria       | UNKNOWN/GAP      |
+| Identity break conditions  | UNKNOWN/GAP      |
+| Identifier schema          | UNKNOWN/GAP      |
+| Namespace semantics        | UNKNOWN/GAP      |
+| Identity resolution        | UNKNOWN/GAP      |
+| Alias semantics            | UNKNOWN/GAP      |
+| Rename semantics           | UNKNOWN/GAP      |
+| Equivalence semantics      | UNKNOWN/GAP      |
+| Versioning semantics       | UNKNOWN/GAP      |
+| Copy semantics             | UNKNOWN/GAP      |
+| Fork semantics             | UNKNOWN/GAP      |
+| Merge semantics            | UNKNOWN/GAP      |
+| Migration semantics        | UNKNOWN/GAP      |
+| Restore semantics          | UNKNOWN/GAP      |
+| Supersession semantics     | UNKNOWN/GAP      |
+| Lineage relation           | UNKNOWN/GAP      |
+| Provenance relation        | UNKNOWN/GAP      |
+| Authentication relation    | UNKNOWN/GAP      |
+| Authorization relation     | UNKNOWN/GAP      |
+| Authority relation         | UNKNOWN/GAP      |
+| Self-identity              | UNKNOWN/GAP      |
+| Personal identity          | UNKNOWN/GAP      |
+| Human identity             | UNKNOWN/GAP      |
+| Cognitive identity         | UNKNOWN/GAP      |
+| Agent identity             | UNKNOWN/GAP      |
+| System identity            | UNKNOWN/GAP      |
+| Memory relation            | UNKNOWN/GAP      |
+| Consciousness relation     | UNKNOWN/GAP      |
+| Agency relation            | UNKNOWN/GAP      |
+| RSCF binding               | UNKNOWN/GAP      |
+| H/M/L binding              | UNKNOWN/GAP      |
+| Scope                      | UNKNOWN/GAP      |
+| Regime                     | UNKNOWN/GAP      |
+| Temporal validity          | UNKNOWN/GAP      |
+| Dependency topology        | UNKNOWN/GAP      |
+| Provenance independence    | NOT_ESTABLISHED  |
+| Kernel binding             | NOT_ESTABLISHED  |
+| Control-plane binding      | NOT_ESTABLISHED  |
+| Executable binding         | NOT_ESTABLISHED  |
+| Validation                 | NOT_ESTABLISHED  |
+| Empirical validity         | NOT_ESTABLISHED  |
 
 ---
 
 # Part XXIII — Minimum Missing Information
 
-# 139. Minimum Missing Information
+# 146. Minimum Missing Information
 
 The decisive missing evidence is:
 
-> A **verified native AMOS source explicitly defining AMOS Human Intelligence**.
+> A **verified native AMOS source explicitly defining AMOS Identity**.
 
 Minimum decision-changing payload:
 
@@ -4771,21 +4930,23 @@ SOURCE VERSION
 +
 SOURCE PROVENANCE
 +
-"HUMAN" DEFINITION
+IDENTITY DEFINITION
 +
-"INTELLIGENCE" DEFINITION
+IDENTITY TYPES
 +
-"HUMAN INTELLIGENCE" DEFINITION
+IDENTITY BEARERS
 +
-UNIT OF ANALYSIS
+IDENTITY CRITERIA
 +
-CONSTRUCT TYPE
+CONTINUITY CRITERIA
 +
-CAPABILITY BOUNDARIES
+BREAK CONDITIONS
 +
-COGNITION RELATION
+IDENTIFIER RELATION
 +
-MEASUREMENT SEMANTICS
+LINEAGE RELATION
++
+PROVENANCE RELATION
 +
 SCOPE
 +
@@ -4795,60 +4956,60 @@ REGIME
 Next priority:
 
 ```text
-ARCHITECTURE
-+
-DIMENSIONS
-+
-FACTOR MODEL
-+
-VARIABLES
-+
-EQUATIONS
-+
-REASONING RELATION
-+
+NAMESPACE
+
+IDENTITY RESOLUTION
+
+ALIASES
+
+RENAMES
+
+EQUIVALENCE
+
+VERSIONING
+
+COPY
+
+FORK
+
+MERGE
+
+MIGRATION
+
+RESTORE
+
+SUPERSESSION
+
+AUTHENTICATION
+
+AUTHORIZATION
+
+AUTHORITY
+
+SELF-IDENTITY
+
+HUMAN IDENTITY
+
+COGNITIVE IDENTITY
+
+AGENT IDENTITY
+
+SYSTEM IDENTITY
+
 MEMORY RELATION
-+
-LEARNING RELATION
-+
-ATTENTION RELATION
-+
-PERCEPTION RELATION
-+
-LANGUAGE RELATION
-+
-DECISION RELATION
-+
-EMOTION RELATION
-+
-AGENCY RELATION
-+
-METACOGNITION RELATION
-+
+
 CONSCIOUSNESS RELATION
-+
-HOMEOSTASIS RELATION
-+
-COGNITIVE FIELD RELATION
-+
-HUMAN/AI RELATION
-+
-CROSS-SPECIES RELATION
-+
-DEVELOPMENTAL SEMANTICS
-+
-BIOLOGICAL SEMANTICS
-+
-CAUSAL SEMANTICS
-+
-MEASUREMENT INVARIANCE
-+
-DEPENDENCIES
-+
+
+AGENCY RELATION
+
 TEMPORAL VALIDITY
-+
+
+DEPENDENCIES
+
+RSCF/H-M-L BINDING
+
 EXECUTABLE BINDING
-+
+
 VALIDATION
 ```
 
@@ -4864,64 +5025,85 @@ remains controlling.
 
 # Part XXIV — Terminal Canon Guard
 
-# 140. Terminal Canon Guard
+# 147. Terminal Canon Guard
 
 ```yaml
-AMOS_HUMAN_INTELLIGENCE_CANON_GUARD:
+AMOS_IDENTITY_CANON_GUARD:
 
-  if_native_human_definition_missing:
+  if_native_identity_definition_missing:
     result: UNKNOWN/GAP
 
-  if_native_intelligence_definition_missing:
+  if_identity_type_missing:
     result: UNKNOWN/GAP
 
-  if_native_human_intelligence_definition_missing:
+  if_identity_bearer_missing:
     result: UNKNOWN/GAP
 
-  if_unit_of_analysis_missing:
-    action: DO_NOT_GENERALIZE
+  if_identity_criteria_missing:
+    action: DO_NOT_ASSERT_IDENTITY
 
-  if_iq_relation_unproven:
-    action: DO_NOT_EQUATE_INTELLIGENCE_WITH_IQ
+  if_continuity_criteria_missing:
+    action: DO_NOT_ASSERT_TEMPORAL_IDENTITY
 
-  if_measurement_model_missing:
-    action: DO_NOT_TREAT_SCORE_AS_CONSTRUCT
+  if_identifier_relation_unproven:
+    action: DO_NOT_EQUATE_IDENTIFIER_WITH_IDENTITY
 
-  if_measurement_invariance_missing:
-    action: DO_NOT_MAKE_CROSS_POPULATION_EQUIVALENCE_CLAIMS
+  if_namespace_unknown:
+    action: DO_NOT_ASSUME_GLOBAL_UNIQUENESS
 
-  if_reasoning_relation_unproven:
-    action: DO_NOT_EQUATE_REASONING_WITH_INTELLIGENCE
+  if_resolution_ambiguous:
+    result: UNKNOWN/GAP
 
-  if_memory_relation_unproven:
-    action: DO_NOT_EQUATE_MEMORY_WITH_INTELLIGENCE
+  if_alias_ambiguous:
+    result: UNKNOWN/GAP
 
-  if_learning_relation_unproven:
-    action: DO_NOT_EQUATE_LEARNING_WITH_INTELLIGENCE
+  if_similarity_only:
+    action: DO_NOT_ASSERT_IDENTITY
 
-  if_language_relation_unproven:
-    action: DO_NOT_EQUATE_LANGUAGE_WITH_INTELLIGENCE
+  if_equivalence_only:
+    action: DO_NOT_ASSERT_IDENTITY
 
-  if_consciousness_relation_unproven:
+  if_copy_semantics_missing:
+    action: DO_NOT_TREAT_COPY_AS_ORIGINAL
+
+  if_fork_semantics_missing:
+    action: PRESERVE_COMPETING_CONTINUITIES
+
+  if_merge_semantics_missing:
+    action: DO_NOT_INFER_IDENTITY_CONTINUITY
+
+  if_restore_semantics_missing:
+    action: DO_NOT_INFER_IDENTITY_CONTINUITY
+
+  if_migration_semantics_missing:
+    action: DO_NOT_INFER_IDENTITY_TRANSFER
+
+  if_version_semantics_missing:
+    action: DO_NOT_INFER_SAME_OR_DIFFERENT_IDENTITY
+
+  if_lineage_only:
+    action: DO_NOT_EQUATE_LINEAGE_WITH_IDENTITY
+
+  if_authentication_only:
+    action: DO_NOT_INFER_AUTHORIZATION
+
+  if_identity_known:
+    action: DO_NOT_INFER_AUTHORITY
+
+  if_memory_continuity_only:
+    action: DO_NOT_INFER_IDENTITY
+
+  if_self_reference_only:
     action: DO_NOT_INFER_CONSCIOUSNESS
-
-  if_agency_relation_unproven:
-    action: DO_NOT_INFER_AGENCY
-
-  if_human_ai_equivalence_unproven:
-    action: DO_NOT_ASSERT_COGNITIVE_EQUIVALENCE
-
-  if_cross_species_equivalence_unproven:
-    action: DO_NOT_ASSERT_SPECIES_INTELLIGENCE_HIERARCHY
-
-  if_causal_evidence_missing:
-    action: DO_NOT_ASSERT_CAUSATION
 
   if_scope_missing:
     result: CONDITIONAL_OR_UNKNOWN
 
   if_regime_missing:
     result: CONDITIONAL_OR_UNKNOWN
+
+  if_temporal_validity_missing:
+    action: DO_NOT_REUSE_STALE_IDENTITY_BINDING
 
   if_provenance_independence_unknown:
     action: DO_NOT_COUNT_AS_INDEPENDENT_CONFIRMATION
@@ -4935,12 +5117,6 @@ AMOS_HUMAN_INTELLIGENCE_CANON_GUARD:
   if_critical_gap_unresolved:
     promotion: BLOCK
 
-  normative_guard:
-    intelligence_is_not_moral_worth: true
-    intelligence_is_not_human_value: true
-    intelligence_is_not_authority: true
-    measurement_is_not_entitlement: true
-
   default_integrity_rule:
     NEVER_INVENT_CANON
 ```
@@ -4949,7 +5125,7 @@ AMOS_HUMAN_INTELLIGENCE_CANON_GUARD:
 
 # Part XXV — Obsidian Navigation
 
-# 141. Obsidian Navigation
+# 148. Obsidian Navigation
 
 ### Parent MOCs
 
@@ -4968,11 +5144,9 @@ AMOS_HUMAN_INTELLIGENCE_CANON_GUARD:
 * [[AMOS_COGNITION_MASTER_CANON]]
 * [[AMOS_COGNITIVE_FIELD_CANON]]
 * [[AMOS_CONSCIOUSNESS_CANON]]
-* [[AMOS_HOMEOSTASIS_CANON]]
 * [[AMOS_HUMAN_INTELLIGENCE_CANON]]
+* [[AMOS_IDENTITY_CANON]]
 * [[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]]
-* [[AMOS_FULL_BRAIN_OS_CANON]]
-* [[AMOS_FULL_BRAIN_OS_MASTER_CANON]]
 
 ### Target infrastructure bindings
 
@@ -4990,22 +5164,22 @@ AMOS_HUMAN_INTELLIGENCE_CANON_GUARD:
 
 # Part XXVI — RSCF Node
 
-# 142. RSCF Node
+# 149. RSCF Node
 
 ```yaml
 RSCF-NODE:
 
   node_id:
-    amos_01_canon_03_cognition_canon_amos_human_intelligence_canon
+    amos_01_canon_03_cognition_canon_amos_identity_canon
 
   artifact_id:
-    amos_01_canon_03_cognition_canon_amos_human_intelligence_canon
+    amos_01_canon_03_cognition_canon_amos_identity_canon
 
   node_type:
     canon
 
   path:
-    01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md
+    01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
 
   origin_architect:
     Trang Phan
@@ -5034,37 +5208,49 @@ RSCF-NODE:
   executable_binding:
     NOT_ESTABLISHED
 
-  native_human_definition:
+  native_identity_definition:
     NOT_ESTABLISHED
 
-  native_intelligence_definition:
+  identity_types:
     NOT_ESTABLISHED
 
-  native_human_intelligence_definition:
+  identity_bearers:
     NOT_ESTABLISHED
 
-  intelligence_architecture:
+  identity_criteria:
     NOT_ESTABLISHED
 
-  measurement_model:
+  continuity_criteria:
     NOT_ESTABLISHED
 
-  causal_semantics:
+  identifier_semantics:
     NOT_ESTABLISHED
 
-  cognition_relation:
+  identity_resolution:
     NOT_ESTABLISHED
 
-  human_ai_relation:
+  lineage_relation:
     NOT_ESTABLISHED
 
-  cross_species_relation:
+  provenance_relation:
+    NOT_ESTABLISHED
+
+  authentication_relation:
+    NOT_ESTABLISHED
+
+  authorization_relation:
+    NOT_ESTABLISHED
+
+  authority_relation:
     NOT_ESTABLISHED
 
   scope:
     NOT_ESTABLISHED
 
   regime:
+    NOT_ESTABLISHED
+
+  temporal_validity:
     NOT_ESTABLISHED
 
   provenance:
@@ -5095,16 +5281,10 @@ RSCF-NODE:
     - RELATION_TO: "[[AMOS_CONSCIOUSNESS_CANON]]"
       relation_status: UNKNOWN/GAP
 
-    - RELATION_TO: "[[AMOS_HOMEOSTASIS_CANON]]"
+    - RELATION_TO: "[[AMOS_HUMAN_INTELLIGENCE_CANON]]"
       relation_status: UNKNOWN/GAP
 
     - RELATION_TO: "[[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]]"
-      relation_status: UNKNOWN/GAP
-
-    - RELATION_TO: "[[AMOS_FULL_BRAIN_OS_CANON]]"
-      relation_status: UNKNOWN/GAP
-
-    - RELATION_TO: "[[AMOS_FULL_BRAIN_OS_MASTER_CANON]]"
       relation_status: UNKNOWN/GAP
 
     - TARGET_INTERACTS_WITH: "[[KERNEL_README]]"
@@ -5124,114 +5304,136 @@ RSCF-NODE:
 
 # Part XXVII — Final Integrity Rule
 
-# 143. Final Integrity Rule
+# 150. Final Integrity Rule
 
-Until verified native Human Intelligence content is ingested:
+Until verified native Identity content is ingested:
 
 ```text
-DO NOT DEFINE AMOS HUMAN INTELLIGENCE
+DO NOT DEFINE AMOS IDENTITY
 FROM GENERAL KNOWLEDGE
 
-DO NOT EQUATE INTELLIGENCE WITH IQ
+DO NOT EQUATE IDENTITY
+WITH AN IDENTIFIER
 
-DO NOT EQUATE TEST SCORE WITH PERSON
+DO NOT EQUATE IDENTITY
+WITH A NAME
 
-DO NOT EQUATE BENCHMARK PERFORMANCE
-WITH GENERAL INTELLIGENCE
+DO NOT EQUATE IDENTITY
+WITH A LABEL
 
-DO NOT EQUATE KNOWLEDGE WITH INTELLIGENCE
+DO NOT EQUATE IDENTITY
+WITH A PATH OR ADDRESS
 
-DO NOT EQUATE MEMORY WITH INTELLIGENCE
+DO NOT EQUATE IDENTITY
+WITH A CREDENTIAL
 
-DO NOT EQUATE REASONING WITH INTELLIGENCE
+DO NOT EQUATE AUTHENTICATION
+WITH IDENTITY
 
-DO NOT EQUATE LEARNING WITH INTELLIGENCE
+DO NOT EQUATE AUTHENTICATION
+WITH AUTHORIZATION
 
-DO NOT EQUATE LANGUAGE WITH INTELLIGENCE
+DO NOT EQUATE IDENTITY
+WITH AUTHORITY
 
-DO NOT EQUATE CREATIVITY WITH INTELLIGENCE
+DO NOT EQUATE IDENTITY
+WITH OWNERSHIP
 
-DO NOT EQUATE EDUCATION WITH INTELLIGENCE
+DO NOT EQUATE IDENTITY
+WITH PROVENANCE
 
-DO NOT EQUATE EXPERTISE WITH GENERAL INTELLIGENCE
+DO NOT EQUATE IDENTITY
+WITH LINEAGE
 
-DO NOT EQUATE PRODUCTIVITY WITH INTELLIGENCE
+DO NOT EQUATE IDENTITY
+WITH MEMORY
 
-DO NOT EQUATE INTELLIGENCE WITH WISDOM
+DO NOT EQUATE IDENTITY
+WITH PERSONALITY
 
-DO NOT EQUATE INTELLIGENCE WITH MORAL WORTH
+DO NOT EQUATE IDENTITY
+WITH SELF-MODEL
 
-DO NOT EQUATE INTELLIGENCE WITH HUMAN VALUE
+DO NOT EQUATE IDENTITY
+WITH CONSCIOUSNESS
 
-DO NOT EQUATE INTELLIGENCE WITH AUTHORITY
+DO NOT EQUATE IDENTITY
+WITH AGENCY
 
-DO NOT EQUATE INTELLIGENCE WITH AGENCY
+DO NOT EQUATE IDENTITY
+WITH COGNITION
 
-DO NOT EQUATE INTELLIGENCE WITH CONSCIOUSNESS
+DO NOT INFER IDENTITY
+FROM SIMILARITY
 
-DO NOT TREAT PERFORMANCE AS CAPABILITY
+DO NOT INFER IDENTITY
+FROM FUNCTIONAL EQUIVALENCE
 
-DO NOT TREAT STATE AS TRAIT
+DO NOT INFER IDENTITY
+FROM SAME CONTENT
 
-DO NOT APPLY POPULATION MEANS
-TO INDIVIDUALS
+DO NOT INFER IDENTITY
+FROM SAME STATE
 
-DO NOT GENERALIZE A SAMPLE
-TO ALL HUMANS
+DO NOT INFER IDENTITY
+FROM SAME NAME
 
-DO NOT ASSUME CULTURAL INVARIANCE
+DO NOT ASSUME SAME IDENTIFIER
+MEANS SAME ENTITY
+WITHOUT NAMESPACE / RESOLUTION SEMANTICS
 
-DO NOT ASSUME LANGUAGE INVARIANCE
+DO NOT ASSUME DIFFERENT IDENTIFIERS
+MEAN DIFFERENT ENTITIES
 
-DO NOT ASSUME DEVELOPMENTAL INVARIANCE
+DO NOT TREAT A COPY
+AS THE ORIGINAL
 
-DO NOT ASSUME MEASUREMENT INVARIANCE
+DO NOT FORCE FORK CONTINUITY
 
-DO NOT INTERPRET HERITABILITY
-AS IMMUTABILITY
+DO NOT FORCE MERGE CONTINUITY
 
-DO NOT INTERPRET GENETIC ASSOCIATION
-AS DETERMINISM
+DO NOT ASSUME MIGRATION
+PRESERVES IDENTITY
 
-DO NOT INFER CAUSATION
-FROM CORRELATION
+DO NOT ASSUME RESTORE
+PRESERVES IDENTITY
 
-DO NOT INFER MECHANISM
-FROM STRUCTURAL SIMILARITY
+DO NOT ASSUME VERSION CHANGE
+PRESERVES OR BREAKS IDENTITY
 
-DO NOT EQUATE HUMAN-LIKE OUTPUT
-WITH HUMAN-LIKE COGNITION
+DO NOT EQUATE DESCENDANT
+WITH ANCESTOR
 
-DO NOT EQUATE HUMAN-LIKE COGNITION
-WITH HUMAN CONSCIOUSNESS
+DO NOT EQUATE SUPERSESSION
+WITH IDENTITY
 
-DO NOT EQUATE BENCHMARK PARITY
-WITH COGNITIVE EQUIVALENCE
+DO NOT TREAT NEWER
+AS SUPERSEDING WITHOUT EVIDENCE
 
-DO NOT EQUATE TASK SUPERIORITY
-WITH GENERAL INTELLIGENCE SUPERIORITY
+DO NOT COUNT RECORDS
+AS ENTITIES WITHOUT RESOLUTION
 
-DO NOT USE HUMAN PERFORMANCE
-AS A UNIVERSAL CROSS-SPECIES STANDARD
+DO NOT COUNT CLAIMED IDENTITIES
+AS INDEPENDENT ACTORS
 
-DO NOT CONVERT COGNITIVE DIFFERENCES
-INTO EVOLUTIONARY RANKINGS
-
-DO NOT CONVERT COGNITIVE DIFFERENCES
-INTO MORAL HIERARCHIES
+DO NOT COUNT SHARED-ANCESTRY SOURCES
+AS INDEPENDENT CONFIRMATION
 
 DO NOT INFER SIBLING-CANON RELATIONS
 FROM DIRECTORY PLACEMENT
+
+DO NOT GENERALIZE IDENTITY RULES
+ACROSS BEARER TYPES
 
 DO NOT GENERALIZE BEYOND SCOPE
 
 DO NOT CROSS REGIMES
 WITHOUT REVALIDATION
 
-DO NOT COUNT SHARED-ANCESTRY SOURCES
-AS INDEPENDENT CONFIRMATION
+DO NOT REUSE STALE IDENTITY
+OR AUTHORITY BINDINGS
 
-DO NOT IMPORT EXTERNAL RESEARCH
+DO NOT IMPORT EXTERNAL IDENTITY THEORY
 AS NATIVE AMOS CANON
 
 DO NOT CLAIM IMPLEMENTATION
@@ -5246,11 +5448,13 @@ Instead:
 ```text
 PRESERVE SLOT
 +
-PRESERVE IDENTITY
+PRESERVE ARTIFACT IDENTITY
 +
 PRESERVE PATH
 +
 PRESERVE PROVENANCE
++
+PRESERVE LINEAGE
 +
 PRESERVE GOVERNANCE BOUNDARIES
 +
@@ -5258,29 +5462,53 @@ PRESERVE UNKNOWN/GAP
 +
 LOCATE VERIFIED NATIVE SOURCE
 +
-RESOLVE "HUMAN"
+RESOLVE "IDENTITY"
 +
-RESOLVE "INTELLIGENCE"
+RESOLVE IDENTITY TYPES
 +
-RESOLVE "HUMAN INTELLIGENCE"
+RESOLVE IDENTITY BEARERS
 +
-RESOLVE UNIT OF ANALYSIS
+RESOLVE IDENTITY CRITERIA
 +
-RESOLVE CONSTRUCT TYPE
+RESOLVE CONTINUITY CRITERIA
 +
-RESOLVE ARCHITECTURE
+RESOLVE IDENTITY BREAK CONDITIONS
 +
-RESOLVE CAPABILITY BOUNDARIES
+RESOLVE IDENTIFIER SEMANTICS
 +
-RESOLVE MEASUREMENT SEMANTICS
+RESOLVE NAMESPACE
 +
-RESOLVE COGNITIVE RELATIONS
+RESOLVE IDENTITY RESOLUTION
 +
-RESOLVE HUMAN/AI RELATION
+RESOLVE ALIASES
 +
-RESOLVE CROSS-SPECIES RELATION
+RESOLVE EQUIVALENCE
 +
-RESOLVE CAUSAL SEMANTICS
+RESOLVE VERSIONING
++
+RESOLVE COPY / FORK / MERGE
++
+RESOLVE MIGRATION / RESTORE
++
+RESOLVE SUPERSESSION
++
+RESOLVE LINEAGE RELATION
++
+RESOLVE PROVENANCE RELATION
++
+RESOLVE AUTHENTICATION RELATION
++
+RESOLVE AUTHORIZATION RELATION
++
+RESOLVE AUTHORITY RELATION
++
+RESOLVE SELF / HUMAN / AGENT / SYSTEM IDENTITY
++
+RESOLVE MEMORY RELATION
++
+RESOLVE CONSCIOUSNESS RELATION
++
+RESOLVE AGENCY RELATION
 +
 BIND SCOPE
 +
@@ -5305,7 +5533,7 @@ PROMOTE ONLY AFTER VALIDATION
 
 **MOC:** [[03_COGNITION_CANON_MOC]]
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[AMOS_COGNITION_CANON]] · [[AMOS_COGNITION_MASTER_CANON]] · [[AMOS_COGNITIVE_FIELD_CANON]] · [[AMOS_CONSCIOUSNESS_CANON]] · [[AMOS_HOMEOSTASIS_CANON]] · [[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]] · [[AMOS_FULL_BRAIN_OS_CANON]] · [[AMOS_FULL_BRAIN_OS_MASTER_CANON]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[AMOS_COGNITION_CANON]] · [[AMOS_COGNITION_MASTER_CANON]] · [[AMOS_COGNITIVE_FIELD_CANON]] · [[AMOS_CONSCIOUSNESS_CANON]] · [[AMOS_HUMAN_INTELLIGENCE_CANON]] · [[AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL]]
 
 ---
 
@@ -5317,4 +5545,4 @@ PROMOTE ONLY AFTER VALIDATION
 **Validation Status:** `NOT_ESTABLISHED`
 **Executable Binding:** `NOT_ESTABLISHED`
 
-#amos_os #amos_human_intelligence #human_intelligence #intelligence #cognition #cognition_canon #canon #rscf #provenance #lineage #scope #regime #temporal_validity #causal_firewall #measurement_firewall #validation #competing_hypotheses #unknown_gap #never_invent_canon
+#amos_os #amos_identity #identity #cognition #cognition_canon #canon #rscf #provenance #lineage #identity_continuity #identity_resolution #scope #regime #temporal_validity #validation #competing_hypotheses #unknown_gap #never_invent_canon
