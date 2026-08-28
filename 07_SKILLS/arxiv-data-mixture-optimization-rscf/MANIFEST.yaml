@@ -1,0 +1,23 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "SKILL.md"
+  - path: "arxiv-data-mixture-optimization-rscf_MOC.md"
+  - path: "references/references_MOC.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

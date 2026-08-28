@@ -1,0 +1,43 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-fractal-systems-master_MOC.md"
+  - path: "references/chaos_diagnostics.md"
+  - path: "references/forex_fractal_geometry_research.md"
+  - path: "references/fractal_architecture_reality.md"
+  - path: "references/fractal_cognitive_architecture_equations.md"
+  - path: "references/fractal_cognitive_architecture_requirements.md"
+  - path: "references/fractal_cognitive_architecture_rules.md"
+  - path: "references/fractal_ips.md"
+  - path: "references/fractal_math_core.md"
+  - path: "references/fractal_state_skill.md"
+  - path: "references/generative_family_validation.md"
+  - path: "references/heritage_12_fractal_types.md"
+  - path: "references/hexagonal_fractal_mars_pineapple.md"
+  - path: "references/lacunarity_in_brain.md"
+  - path: "references/language_fractal_architecture.md"
+  - path: "references/lmh_structure.md"
+  - path: "references/multifractal_hurst_diagnostics.md"
+  - path: "references/references_MOC.md"
+  - path: "references/rg_fractal_bridge.md"
+  - path: "references/scaling_law_diagnostics.md"
+  - path: "references/ubi_fractal_entropy_correction.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

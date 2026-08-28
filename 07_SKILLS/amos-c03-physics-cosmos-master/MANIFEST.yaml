@@ -1,0 +1,59 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c03-physics-cosmos-master_MOC.md"
+  - path: "references/11k_quantum_library.md"
+  - path: "references/brain_quantum_enhancement_complete.md"
+  - path: "references/brain_quantum_omega_complete.md"
+  - path: "references/brain_quantum_omega_final.md"
+  - path: "references/brain_supreme_quantum_complete.md"
+  - path: "references/coherence_energy_law.md"
+  - path: "references/domain_config.md"
+  - path: "references/final_quantum_cosmic_enhancement.md"
+  - path: "references/final_universe.md"
+  - path: "references/max_power_universe_os.md"
+  - path: "references/omega_quantum_structural_living.md"
+  - path: "references/physics_cosmos_engine_cognitive.md"
+  - path: "references/physics_cosmos_engine_layer.md"
+  - path: "references/physics_cosmos_model.md"
+  - path: "references/physics_cosmos_super_x3000.md"
+  - path: "references/quantum_component_enhancement.md"
+  - path: "references/quantum_enhanced_complete.md"
+  - path: "references/quantum_enhancement_mission.md"
+  - path: "references/quantum_enhancement_progress_v2.md"
+  - path: "references/quantum_enhancement_ultimate.md"
+  - path: "references/quantum_field_theory_mapping.md"
+  - path: "references/quantum_honesty_cycle.md"
+  - path: "references/quantum_integrity_stack.md"
+  - path: "references/quantum_logic_scaffold_qls.md"
+  - path: "references/quantum_logic_system_qls.md"
+  - path: "references/quantum_os.md"
+  - path: "references/quantum_speed_systems_thinking.md"
+  - path: "references/quantum_stack_core3.md"
+  - path: "references/quantum_stack_core5.md"
+  - path: "references/quantum_structural_complete.md"
+  - path: "references/quantum_supremacy_integration.md"
+  - path: "references/quantum_thermodynamics_cycle.md"
+  - path: "references/references_MOC.md"
+  - path: "references/tech_quantum_engine.md"
+  - path: "references/u3h_atemporal_field.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

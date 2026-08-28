@@ -1,0 +1,37 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-formal-engines-master_MOC.md"
+  - path: "references/11k_murk_audit.md"
+  - path: "references/amatrix_dynamics.md"
+  - path: "references/constraint_engine.md"
+  - path: "references/equation_firewall.md"
+  - path: "references/murk_engine_expansion.md"
+  - path: "references/omega_advanced_tensor_analysis.md"
+  - path: "references/qfm_adversarial_hardening.md"
+  - path: "references/qfm_architecture_refinement.md"
+  - path: "references/qfm_consolidation.md"
+  - path: "references/qfm_five_layer_architecture.md"
+  - path: "references/qfm_max_power_consolidation.md"
+  - path: "references/references_MOC.md"
+  - path: "references/tensor_composition_governance.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

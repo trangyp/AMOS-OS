@@ -1,0 +1,49 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c06-society-culture-master_MOC.md"
+  - path: "references/cci_official_manual.md"
+  - path: "references/china_engines_model.md"
+  - path: "references/cultural_bifurcation_emotion_logic.md"
+  - path: "references/detailed-references.md"
+  - path: "references/dignity.md"
+  - path: "references/domain_config.md"
+  - path: "references/humanity_ice_age_to_present.md"
+  - path: "references/marketing_gtm_kernel.md"
+  - path: "references/references_MOC.md"
+  - path: "references/society_culture_engine_cognitive.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "references/vietnam_engine_layer.md"
+  - path: "references/vietnam_engines_model.md"
+  - path: "references/vietnam_environment_report.md"
+  - path: "references/vietnamese_fractal_logic_analysis.md"
+  - path: "references/vietnamese_writing_engine.md"
+  - path: "references/vietnamese_writing_model.md"
+  - path: "references/vn_absolute_architecture.md"
+  - path: "references/vn_governance_politics_pack.md"
+  - path: "references/vn_labor_shortage_report.md"
+  - path: "references/vn_marketing_strategy.md"
+  - path: "references/vn_omnistructure_clean_engine.md"
+  - path: "references/vn_omnistructure_engine.md"
+  - path: "references/vn_omnistructure_model.md"
+  - path: "references/vn_trust_marketplace_strategy.md"
+  - path: "references/when_humanity_began.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

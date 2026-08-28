@@ -1,0 +1,52 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c11-design-language-master_MOC.md"
+  - path: "references/academic_writing_engine.md"
+  - path: "references/academic_writing_kernel_engine.md"
+  - path: "references/accessibility_i18n.md"
+  - path: "references/architecture_of_architecture.md"
+  - path: "references/atomic_to_living_design.md"
+  - path: "references/beauty_emptiness_finality.md"
+  - path: "references/corp_doc_engine.md"
+  - path: "references/corp_doc_engine_super.md"
+  - path: "references/design_engine_layer.md"
+  - path: "references/design_engine_model.md"
+  - path: "references/design_engine_tech.md"
+  - path: "references/design_language_config.md"
+  - path: "references/design_language_engine_cognitive.md"
+  - path: "references/design_language_engine_layer.md"
+  - path: "references/design_language_model.md"
+  - path: "references/doc_super_engine.md"
+  - path: "references/documentation_engine_layer.md"
+  - path: "references/domain_config.md"
+  - path: "references/human_centered_design_drift.md"
+  - path: "references/monogram_engine.md"
+  - path: "references/monogram_kernel_engine.md"
+  - path: "references/references_MOC.md"
+  - path: "references/strategic_document_engine_layer.md"
+  - path: "references/super_corp_doc_engine.md"
+  - path: "references/super_corp_doc_engine_light.md"
+  - path: "references/tech_design_engine.md"
+  - path: "references/tech_expanded_design_engine.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "references/vietnamese_writing_engine.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

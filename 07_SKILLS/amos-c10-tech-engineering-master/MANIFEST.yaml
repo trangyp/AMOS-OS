@@ -1,0 +1,64 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c10-tech-engineering-master_MOC.md"
+  - path: "references/11k_architecture_decision_record.md"
+  - path: "references/11k_component_map.md"
+  - path: "references/architecture_of_architecture.md"
+  - path: "references/automation_engine_layer.md"
+  - path: "references/automation_engine_v1.md"
+  - path: "references/automation_super_engine.md"
+  - path: "references/cloud_platform_kernel.md"
+  - path: "references/coding_engine.md"
+  - path: "references/coding_engine_gpt.md"
+  - path: "references/coding_engine_layer.md"
+  - path: "references/coding_engine_ultra.md"
+  - path: "references/coding_engine_vinfinity.md"
+  - path: "references/cpu_ram_optimization.md"
+  - path: "references/data_engineering_kernel.md"
+  - path: "references/deployment_guide.md"
+  - path: "references/design_kernel.md"
+  - path: "references/fabrication_engine.md"
+  - path: "references/implementation_manifest.md"
+  - path: "references/kernels_tech.md"
+  - path: "references/load_map.md"
+  - path: "references/mechanical_structural_engine_cognitive.md"
+  - path: "references/mechanical_structural_engine_layer.md"
+  - path: "references/ml_engineering_kernel.md"
+  - path: "references/omega_thinking_engine.md"
+  - path: "references/omni_factory_engine.md"
+  - path: "references/references_MOC.md"
+  - path: "references/super_factory_engine_v2.md"
+  - path: "references/tech_architecture_kernel.md"
+  - path: "references/tech_architecture_model.md"
+  - path: "references/tech_design_engine.md"
+  - path: "references/tech_engine_model.md"
+  - path: "references/tech_engine_unipower.md"
+  - path: "references/tech_engine_vinfinity.md"
+  - path: "references/tech_partner_audit.md"
+  - path: "references/tech_quantum_engine_domains.md"
+  - path: "references/tech_quantum_engine_model.md"
+  - path: "references/tech_super_engine.md"
+  - path: "references/total_technical_engine_model.md"
+  - path: "references/total_technical_engine_universe.md"
+  - path: "references/unix_automated_tools.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

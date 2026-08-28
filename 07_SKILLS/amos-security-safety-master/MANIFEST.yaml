@@ -1,0 +1,52 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-security-safety-master_MOC.md"
+  - path: "references/access_control.md"
+  - path: "references/access_control_priv_esc.md"
+  - path: "references/access_control_security_models.md"
+  - path: "references/adversarial_robustness_governance.md"
+  - path: "references/adversarial_validation.md"
+  - path: "references/beyond_blockchain_bio_security.md"
+  - path: "references/blockchain_hackable_security.md"
+  - path: "references/bounded_intelligence_security.md"
+  - path: "references/cors_security.md"
+  - path: "references/crisis_management_engine.md"
+  - path: "references/defense_security_civil_protection.md"
+  - path: "references/horizontal_access_control.md"
+  - path: "references/institutional_digital_security.md"
+  - path: "references/ios_reverse_engineering.md"
+  - path: "references/language_overlay_ip_security.md"
+  - path: "references/ldap_security.md"
+  - path: "references/oauth_openid_connect.md"
+  - path: "references/omega_crypto_internet.md"
+  - path: "references/omega_crypto_structural_engine.md"
+  - path: "references/privacy_compliance_licensing.md"
+  - path: "references/references_MOC.md"
+  - path: "references/risk_compliance_engine.md"
+  - path: "references/risk_compliance_engine_layer.md"
+  - path: "references/risk_compliance_engine_v0.md"
+  - path: "references/risk_compliance_kernel.md"
+  - path: "references/security_architecture_kernel.md"
+  - path: "references/shellshock.md"
+  - path: "references/tech_safe_honest_societies.md"
+  - path: "references/web_cache_poisoning.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

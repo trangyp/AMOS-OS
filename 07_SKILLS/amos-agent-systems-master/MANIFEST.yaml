@@ -1,0 +1,33 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-agent-systems-master_MOC.md"
+  - path: "references/11k_agent_templates.md"
+  - path: "references/11k_environment_scan_agent.md"
+  - path: "references/agent_registry.md"
+  - path: "references/agent_working_instructions_v2.md"
+  - path: "references/ai_workforce_layer.md"
+  - path: "references/architecture_guardian_agent.md"
+  - path: "references/fabrication_engine.md"
+  - path: "references/fabrication_engine_layer.md"
+  - path: "references/os_agent_model.md"
+  - path: "references/references_MOC.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

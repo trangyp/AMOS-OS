@@ -1,0 +1,32 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "SKILL.md"
+  - path: "amos-vietnamese-global-cultural-bridge-governor_MOC.md"
+  - path: "references/references_MOC.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "references/vn_20_impossible_competitions.md"
+  - path: "references/vn_akashic_thong_thien.md"
+  - path: "references/vn_amos_absolute_architecture.md"
+  - path: "references/vn_amos_absolute_integration.md"
+  - path: "references/vn_cross_time_civilization_journey.md"
+  - path: "references/vn_gia_he_dieu_tiet.md"
+  - path: "references/vn_map_of_everything.md"
+  - path: "references/vn_neural_invariance_silence.md"
+  - path: "references/vn_what_you_discovered.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

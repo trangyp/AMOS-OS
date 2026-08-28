@@ -1,0 +1,57 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c04-bio-neuro-master_MOC.md"
+  - path: "references/bci_intelligence_biological.md"
+  - path: "references/bei_engine_v0.md"
+  - path: "references/biocurrency_monetary_architecture.md"
+  - path: "references/biological_computing.md"
+  - path: "references/biology_cognition_engine.md"
+  - path: "references/biometrics_to_bio_intelligence.md"
+  - path: "references/biometrics_to_bio_intelligence_v2.md"
+  - path: "references/brain_superxc_ubi_cognitive_max.md"
+  - path: "references/domain_config.md"
+  - path: "references/evolutionary_adaptive_systems_v2.md"
+  - path: "references/id_exchange_ubi_neurosyncai.md"
+  - path: "references/kernels_biology_cognition.md"
+  - path: "references/nbi_engine.md"
+  - path: "references/nei_engine.md"
+  - path: "references/nervous_system_framework.md"
+  - path: "references/nervous_system_states.md"
+  - path: "references/neuroplasticity_unified_biological.md"
+  - path: "references/neurosync_quantum_aligned.md"
+  - path: "references/omega_biology_implementation.md"
+  - path: "references/quantum_chemical_logic_qcla.md"
+  - path: "references/references_MOC.md"
+  - path: "references/si_engine.md"
+  - path: "references/species_interaction_engine.md"
+  - path: "references/ubi_baseline_rule.md"
+  - path: "references/ubi_core_engine_biology.md"
+  - path: "references/ubi_engine_v0.md"
+  - path: "references/ubi_equations.md"
+  - path: "references/ubi_neurosyncai_consentx.md"
+  - path: "references/ubi_neurosyncai_integration.md"
+  - path: "references/ubi_neurosyncai_ratpak.md"
+  - path: "references/ubi_official_manual.md"
+  - path: "references/ubi_operators.md"
+  - path: "references/unified_biological_governance.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

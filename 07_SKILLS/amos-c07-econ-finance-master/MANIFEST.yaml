@@ -1,0 +1,57 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c07-econ-finance-master_MOC.md"
+  - path: "references/11k_investment_agent.md"
+  - path: "references/australia_economy_engine.md"
+  - path: "references/australia_engine_layer.md"
+  - path: "references/bizfin_engine_sector_packs.md"
+  - path: "references/bizfin_kernel.md"
+  - path: "references/bizfin_super_engine.md"
+  - path: "references/business_finance_super_engine.md"
+  - path: "references/coercion_economy.md"
+  - path: "references/consulting_bizfin_engine.md"
+  - path: "references/datapoint_economic_role_mapping.md"
+  - path: "references/easy_fractal_money.md"
+  - path: "references/econ_finance_engine_cognitive.md"
+  - path: "references/econ_finance_engine_layer.md"
+  - path: "references/floating_economy_market.md"
+  - path: "references/fractal_economy.md"
+  - path: "references/global_signal_economy_masterplan.md"
+  - path: "references/innovative_private_sector_solutions.md"
+  - path: "references/market_econ_kernel.md"
+  - path: "references/money_regimes_structural_analysis.md"
+  - path: "references/references_MOC.md"
+  - path: "references/revenue_architecture_kernel.md"
+  - path: "references/sector_rotation_engine.md"
+  - path: "references/signal_economy_investor_pitch.md"
+  - path: "references/signal_economy_planetary_consent.md"
+  - path: "references/signal_economy_rollout_playbook.md"
+  - path: "references/signal_economy_trust_study.md"
+  - path: "references/subscription_agent.md"
+  - path: "references/ubi_super_engine.md"
+  - path: "references/uni_market_engine.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "references/vn_business_model_criteria.md"
+  - path: "references/vn_vscci_investment_proposal.md"
+  - path: "references/wealth_game_hack_5000.md"
+  - path: "references/wealth_game_hack_50000.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

@@ -1,0 +1,56 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-trang-framework-master_MOC.md"
+  - path: "references/cosmo_brain_reasoning_os.md"
+  - path: "references/detailed-content.md"
+  - path: "references/first_principle_reasoning_trang.md"
+  - path: "references/full_phuong_phap_trang.md"
+  - path: "references/full_phuong_phap_trang_v2.md"
+  - path: "references/khung_trang.md"
+  - path: "references/khung_trang_architecture.md"
+  - path: "references/khung_trang_formalization.md"
+  - path: "references/khung_trang_language.md"
+  - path: "references/khung_trang_language_v2.md"
+  - path: "references/kien_truc_trang.md"
+  - path: "references/kien_truc_trang_v2.md"
+  - path: "references/phuong_phap_trang_restructure.md"
+  - path: "references/phuong_phap_trang_restructure_v2.md"
+  - path: "references/reality_grammar_equation.md"
+  - path: "references/references_MOC.md"
+  - path: "references/seven_cycles_trang_system.md"
+  - path: "references/tpe_official_manual.md"
+  - path: "references/tpe_trang_prediction_engine.md"
+  - path: "references/trang_cascade.md"
+  - path: "references/trang_dsc_submission_portfolio.md"
+  - path: "references/trang_empty_framework.md"
+  - path: "references/trang_empty_framework_complete.md"
+  - path: "references/trang_grand_system_codex.md"
+  - path: "references/trang_grand_system_logic_spec.md"
+  - path: "references/trang_master_equation_registry.md"
+  - path: "references/trang_reality_architecture_corpus.md"
+  - path: "references/trang_system_codex_meta_laws.md"
+  - path: "references/trang_system_codex_meta_laws_v2.md"
+  - path: "references/trangs_legacy.md"
+  - path: "references/tss_official_manual.md"
+  - path: "references/uap_trang_empty_framework.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

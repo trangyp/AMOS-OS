@@ -1,0 +1,73 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-os-runtime-master_MOC.md"
+  - path: "references/11k_executor_agent.md"
+  - path: "references/advanced_system_enhancement.md"
+  - path: "references/ai_integration_layer.md"
+  - path: "references/brain_2026_ultimate_enhancement.md"
+  - path: "references/brain_advanced_ai_complete.md"
+  - path: "references/brain_complete_integration_report.md"
+  - path: "references/brain_enhancement_completion.md"
+  - path: "references/brain_taskengine_integration.md"
+  - path: "references/complete_system_integration.md"
+  - path: "references/continuation_engine.md"
+  - path: "references/continuous_evolution.md"
+  - path: "references/core_v44_coordination_avoidance.md"
+  - path: "references/emergency_crash_prevention.md"
+  - path: "references/error_recovery.md"
+  - path: "references/final_system_integration_report.md"
+  - path: "references/full_brain_os_test_fix.md"
+  - path: "references/golden_ratio_diagnostics.md"
+  - path: "references/next_gen_system_evolution.md"
+  - path: "references/omega_precision_core.md"
+  - path: "references/operating_systems_survival.md"
+  - path: "references/operational_status.md"
+  - path: "references/phase2_completion.md"
+  - path: "references/phase7_completion.md"
+  - path: "references/phase8_completion.md"
+  - path: "references/production_deployment_report.md"
+  - path: "references/references_MOC.md"
+  - path: "references/resilience_vs_control.md"
+  - path: "references/resource_optimization_final.md"
+  - path: "references/speed_engine_root.md"
+  - path: "references/speed_governor.md"
+  - path: "references/speed_moral_decision.md"
+  - path: "references/system_architecture_report_v2.md"
+  - path: "references/system_integration_complete.md"
+  - path: "references/system_interfaces.md"
+  - path: "references/system_optimization_complete.md"
+  - path: "references/system_optimization_mission.md"
+  - path: "references/system_schema.md"
+  - path: "references/system_status.md"
+  - path: "references/system_status_march16.md"
+  - path: "references/system_status_march17.md"
+  - path: "references/system_status_summary.md"
+  - path: "references/system_status_summary_v2.md"
+  - path: "references/system_status_summary_v3.md"
+  - path: "references/systems_core_engine.md"
+  - path: "references/tool_routing_failure_model.md"
+  - path: "references/uni_system_operations_engine.md"
+  - path: "references/uni_system_operations_model.md"
+  - path: "references/v43_shard_local_finalization.md"
+  - path: "references/v44_coordination_avoidance_detailed.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

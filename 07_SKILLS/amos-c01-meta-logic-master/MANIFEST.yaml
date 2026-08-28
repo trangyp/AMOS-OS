@@ -1,0 +1,41 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c01-meta-logic-master_MOC.md"
+  - path: "references/absolute_protocol_synthesis.md"
+  - path: "references/architecture_beneath_science.md"
+  - path: "references/business_logic_vulns.md"
+  - path: "references/detailed-references.md"
+  - path: "references/determinism_boundaries.md"
+  - path: "references/deterministic_logic_law_engine.md"
+  - path: "references/deterministic_logic_law_engine_cognitive.md"
+  - path: "references/kernels_logic.md"
+  - path: "references/logic_architecture_human_reality.md"
+  - path: "references/logic_archive_amos2.md"
+  - path: "references/logic_core_engine.md"
+  - path: "references/logic_rule.md"
+  - path: "references/mathematics_of_dao.md"
+  - path: "references/meta_logic_config.md"
+  - path: "references/references_MOC.md"
+  - path: "references/trang_fpr.md"
+  - path: "references/universal_reasoning_framework.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

@@ -1,0 +1,45 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c08-strategy-game-master_MOC.md"
+  - path: "references/architecture_of_war.md"
+  - path: "references/architecture_of_war_and_peace.md"
+  - path: "references/c08_strategy_game_super.md"
+  - path: "references/consulting_engine.md"
+  - path: "references/consulting_engine_super.md"
+  - path: "references/consulting_super_engine.md"
+  - path: "references/directed_systemic_intelligence.md"
+  - path: "references/domain_config.md"
+  - path: "references/grand_cannon_mobility_model.md"
+  - path: "references/hse_ceo_engine_model.md"
+  - path: "references/mbb_consulting_kernel.md"
+  - path: "references/military_strategy.md"
+  - path: "references/omega_chart_engine.md"
+  - path: "references/omega_civilization_grade.md"
+  - path: "references/opportunity_agent.md"
+  - path: "references/policy_geostrategy_engine.md"
+  - path: "references/policy_geostrategy_engine_layer.md"
+  - path: "references/references_MOC.md"
+  - path: "references/strategic_analysis_report.md"
+  - path: "references/strategic_partners_list.md"
+  - path: "references/strategy_game_engine_cognitive.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

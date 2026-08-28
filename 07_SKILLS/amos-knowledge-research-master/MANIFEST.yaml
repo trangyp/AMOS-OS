@@ -1,0 +1,39 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-knowledge-research-master_MOC.md"
+  - path: "references/11k_cosmo_brain_bridge_index.md"
+  - path: "references/11k_cosmo_brain_moc.md"
+  - path: "references/auto_extracted_archive_index.md"
+  - path: "references/brain_router_detailed.md"
+  - path: "references/index_arxiv.md"
+  - path: "references/index_daily.md"
+  - path: "references/index_hash_prefixed.md"
+  - path: "references/index_main.md"
+  - path: "references/index_openclaw.md"
+  - path: "references/index_root_misc.md"
+  - path: "references/master_non_overlap_index.md"
+  - path: "references/references_MOC.md"
+  - path: "references/rscf_brain_router.md"
+  - path: "references/science_engine_sector_packs.md"
+  - path: "references/scientific_engine_layer.md"
+  - path: "references/scientific_engine_vinfinity.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"

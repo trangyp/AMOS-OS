@@ -1,0 +1,72 @@
+bundle_version: 1.1.0
+bundle_date: 2026-08-28
+schema_version: "1.0"
+compatible_with:
+  - claude-code
+  - claude-chat
+  - codex
+  - gemini-cli
+  - copilot
+dependencies: []
+security_verdict: pass
+epistemic_class: SOURCE_CLAIM
+steward: Trang Phan
+license: MIT
+files:
+  - path: "AGENT_TEMPLATE.md"
+  - path: "SKILL.md"
+  - path: "agents/openai.yaml"
+  - path: "amos-c09-org-law-policy-master_MOC.md"
+  - path: "references/advanced_governance_report.md"
+  - path: "references/bio_data_ownership_charter.md"
+  - path: "references/bio_data_ownership_legal_tech.md"
+  - path: "references/bod_engine_v0.md"
+  - path: "references/brain_governance_ssot_report.md"
+  - path: "references/change_management_engine.md"
+  - path: "references/chinese_legal_engine.md"
+  - path: "references/core_v47_hardened_governance.md"
+  - path: "references/crisis_management_kernel.md"
+  - path: "references/detailed-content.md"
+  - path: "references/deterministic_organisation_governance.md"
+  - path: "references/domain_config.md"
+  - path: "references/ethical_reasoning_kernel.md"
+  - path: "references/ethics_as_infrastructure.md"
+  - path: "references/global_legal_engine.md"
+  - path: "references/global_legal_engine_layer.md"
+  - path: "references/global_legal_engine_model.md"
+  - path: "references/gov_engine_sector_packs.md"
+  - path: "references/governance_economy_engine.md"
+  - path: "references/governance_politics_pack_au.md"
+  - path: "references/governance_tensor.md"
+  - path: "references/hse_ceo_engine_layer.md"
+  - path: "references/kernels_governance_risk.md"
+  - path: "references/law_stack_enforcement.md"
+  - path: "references/legal_check_agent.md"
+  - path: "references/legal_engine_layer_v2.md"
+  - path: "references/legal_kernel.md"
+  - path: "references/legal_kernel_org_risk.md"
+  - path: "references/legal_risk_agent.md"
+  - path: "references/legal_super_engine.md"
+  - path: "references/omega_governance_ssot.md"
+  - path: "references/org_engine.md"
+  - path: "references/org_governance_engine.md"
+  - path: "references/org_governance_engine_layer.md"
+  - path: "references/org_governance_engine_v0.md"
+  - path: "references/policy_design_engine.md"
+  - path: "references/references_MOC.md"
+  - path: "references/trang_ip_protection_plan.md"
+  - path: "references/ubi_law_families.md"
+  - path: "references/uni_power_strategic_governance.md"
+  - path: "references/unified_org_systems_engine.md"
+  - path: "references/vault_domain_knowledge.md"
+  - path: "references/vn_legal_engine.md"
+  - path: "references/vn_legal_engine_domains.md"
+  - path: "references/vn_legal_engine_v0_domains.md"
+  - path: "references/vn_legal_engine_vinfinity.md"
+  - path: "references/vn_nab_legal_audit_report.md"
+  - path: "references/vn_shareholder_board_report.md"
+  - path: "references/vn_technical_legal_terms.md"
+  - path: "scripts/hooks/hooks_config.yaml"
+  - path: "scripts/hooks/post_tool_use.py"
+  - path: "scripts/hooks/pre_tool_use.py"
+  - path: "scripts/hooks/stop.py"
