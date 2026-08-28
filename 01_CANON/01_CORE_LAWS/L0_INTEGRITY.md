@@ -75,24 +75,24 @@ The L0 layer answers:
 
 L0 therefore governs preservation of:
 
-* epistemic distinctions;
-* provenance;
-* source identity;
-* canonical identity;
-* scope;
-* regime;
-* dependency integrity;
-* authority boundaries;
-* policy boundaries;
-* contradiction visibility;
-* uncertainty;
-* version lineage;
-* supersession lineage;
-* transaction integrity;
-* commit boundaries;
-* auditability;
-* reversibility;
-* and repairability.
+- epistemic distinctions;
+- provenance;
+- source identity;
+- canonical identity;
+- scope;
+- regime;
+- dependency integrity;
+- authority boundaries;
+- policy boundaries;
+- contradiction visibility;
+- uncertainty;
+- version lineage;
+- supersession lineage;
+- transaction integrity;
+- commit boundaries;
+- auditability;
+- reversibility;
+- and repairability.
 
 L0 does not guarantee correctness.
 
@@ -104,15 +104,15 @@ It defines conditions under which downstream claims or actions are not allowed t
 
 L0 Integrity Laws MUST NOT be used to claim:
 
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the rules are well specified.
+- universal laws of reality;
+- scientific proof;
+- biological truth;
+- mathematical theoremhood;
+- philosophical certainty;
+- runtime enforcement that has not been implemented;
+- final canonical status;
+- authority merely from architectural importance;
+- or successful validation merely because the rules are well specified.
 
 L0 is a governance and reasoning integrity layer.
 
@@ -278,17 +278,17 @@ PASS
 
 This rule applies to:
 
-* evidence;
-* source provenance;
-* authority;
-* policy applicability;
-* dependency resolution;
-* validation;
-* version status;
-* supersession;
-* scope;
-* regime;
-* causal status.
+- evidence;
+- source provenance;
+- authority;
+- policy applicability;
+- dependency resolution;
+- validation;
+- version status;
+- supersession;
+- scope;
+- regime;
+- causal status.
 
 ---
 
@@ -1049,14 +1049,14 @@ Valid(A ⊕ B)
 
 This applies to:
 
-* permissions;
-* Skills;
-* agents;
-* evidence;
-* disclosures;
-* policies;
-* transactions;
-* workflows.
+- permissions;
+- Skills;
+- agents;
+- evidence;
+- disclosures;
+- policies;
+- transactions;
+- workflows.
 
 Composition requires separate validation when interaction matters.
 
@@ -2091,21 +2091,21 @@ Transformed confidential information remains governed by origin constraints unle
 
 This L0 specification should be revised if authoritative AMOS canon establishes materially different integrity laws for:
 
-* epistemic classification;
-* confidence propagation;
-* provenance;
-* authority;
-* policy;
-* dependency semantics;
-* scope;
-* regime;
-* H/M/L;
-* versioning;
-* supersession;
-* transaction semantics;
-* memory;
-* rollback;
-* or repair.
+- epistemic classification;
+- confidence propagation;
+- provenance;
+- authority;
+- policy;
+- dependency semantics;
+- scope;
+- regime;
+- H/M/L;
+- versioning;
+- supersession;
+- transaction semantics;
+- memory;
+- rollback;
+- or repair.
 
 It should also be downgraded if this document is later shown to conflict with higher valid AMOS canon.
 
@@ -2498,17 +2498,17 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: AMOS_RSCF_NODES
 
-* GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
+- GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
 
-* MAPPED_BY: CORE_LAWS_MAP
+- MAPPED_BY: CORE_LAWS_MAP
 
-* DEPENDS_ON: [[00_ROOT_MOC]]
+- DEPENDS_ON: [[00_ROOT_MOC]]
 
-* BELONGS_TO: 01_CANON/01_CORE_LAWS
+- BELONGS_TO: 01_CANON/01_CORE_LAWS
 
 claim_class: AMOS_MODEL
 

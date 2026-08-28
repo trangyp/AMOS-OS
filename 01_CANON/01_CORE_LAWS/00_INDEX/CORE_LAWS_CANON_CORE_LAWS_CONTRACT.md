@@ -75,22 +75,22 @@ The purpose of the Core Laws Contract is to define the minimum structural, epist
 
 The contract establishes:
 
-* what qualifies as a Core Law object;
-* what metadata a law must carry;
-* how law identity is preserved;
-* how source and derived material are distinguished;
-* how applicability is bounded;
-* how dependencies are represented;
-* how competing or contradictory laws are handled;
-* how precedence may be resolved;
-* how authority is separated from capability;
-* how amendments are proposed;
-* how supersession occurs;
-* how dependent objects are invalidated;
-* how laws interact with H/M/L reasoning;
-* how runtime consumers may use laws;
-* how failures are contained;
-* and what remains `UNKNOWN/GAP`.
+- what qualifies as a Core Law object;
+- what metadata a law must carry;
+- how law identity is preserved;
+- how source and derived material are distinguished;
+- how applicability is bounded;
+- how dependencies are represented;
+- how competing or contradictory laws are handled;
+- how precedence may be resolved;
+- how authority is separated from capability;
+- how amendments are proposed;
+- how supersession occurs;
+- how dependent objects are invalidated;
+- how laws interact with H/M/L reasoning;
+- how runtime consumers may use laws;
+- how failures are contained;
+- and what remains `UNKNOWN/GAP`.
 
 The contract is a governance boundary.
 
@@ -102,19 +102,19 @@ It is not a declaration that every law represented in the repository is valid, i
 
 This contract does **not**:
 
-* invent missing AMOS Core Laws;
-* establish scientific truth by declaration;
-* authorize agents to create canon autonomously;
-* convert models into observations;
-* grant write access;
-* grant commit authority;
-* automatically resolve contradictions;
-* automatically establish law precedence;
-* infer canonical status from directory location;
-* infer canonical status from naming;
-* infer implementation from documentation;
-* infer validation from tests that have not been executed;
-* or erase historical versions when a law changes.
+- invent missing AMOS Core Laws;
+- establish scientific truth by declaration;
+- authorize agents to create canon autonomously;
+- convert models into observations;
+- grant write access;
+- grant commit authority;
+- automatically resolve contradictions;
+- automatically establish law precedence;
+- infer canonical status from directory location;
+- infer canonical status from naming;
+- infer implementation from documentation;
+- infer validation from tests that have not been executed;
+- or erase historical versions when a law changes.
 
 ---
 
@@ -213,14 +213,14 @@ identity:
 
 `law_id` SHOULD remain stable across:
 
-* formatting changes;
-* file relocation;
-* filename changes;
-* aliases;
-* summaries;
-* translations;
-* representation changes;
-* compatible metadata extensions.
+- formatting changes;
+- file relocation;
+- filename changes;
+- aliases;
+- summaries;
+- translations;
+- representation changes;
+- compatible metadata extensions.
 
 Therefore:
 
@@ -1157,14 +1157,14 @@ unless dependency uncertainty makes safe selective invalidation impossible.
 
 A candidate law SHOULD NOT become canonical solely because:
 
-* a file was created;
-* a human or model wrote it;
-* it appears plausible;
-* it matches existing terminology;
-* it is referenced by other files;
-* it passes syntax validation;
-* it passes implementation tests;
-* or no contradiction has yet been found.
+- a file was created;
+- a human or model wrote it;
+- it appears plausible;
+- it matches existing terminology;
+- it is referenced by other files;
+- it passes syntax validation;
+- it passes implementation tests;
+- or no contradiction has yet been found.
 
 A canon admission decision SHOULD be explicit.
 
@@ -1382,17 +1382,17 @@ GENERALIZE_SCOPE_WITHOUT_SUPPORT
 
 Skills MAY support:
 
-* source reading;
-* canon consistency;
-* claim verification;
-* RSCF construction;
-* provenance hardening;
-* dependency analysis;
-* law hierarchy resolution;
-* system completion auditing;
-* change governance;
-* rollback planning;
-* validation.
+- source reading;
+- canon consistency;
+- claim verification;
+- RSCF construction;
+- provenance hardening;
+- dependency analysis;
+- law hierarchy resolution;
+- system completion auditing;
+- change governance;
+- rollback planning;
+- validation.
 
 Skill invocation MUST preserve:
 
@@ -2228,19 +2228,19 @@ Implemented candidate remains noncanonical until admitted.
 
 This contract MUST be revised, downgraded, or superseded if authoritative AMOS source canon establishes a materially different rule for:
 
-* Core Law identity;
-* law classification;
-* provenance;
-* authority;
-* hierarchy;
-* dependency handling;
-* H/M/L inheritance;
-* conflict resolution;
-* versioning;
-* supersession;
-* rollback;
-* canon admission;
-* or runtime enforcement.
+- Core Law identity;
+- law classification;
+- provenance;
+- authority;
+- hierarchy;
+- dependency handling;
+- H/M/L inheritance;
+- conflict resolution;
+- versioning;
+- supersession;
+- rollback;
+- canon admission;
+- or runtime enforcement.
 
 Additional falsifiers include:
 
@@ -2948,23 +2948,23 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: AMOS_RSCF_NODES
 
-* GOVERNED_BY: CANON_CONTRACT
+- GOVERNED_BY: CANON_CONTRACT
 
-* DEFINES_CONTRACT_FOR: CORE_LAWS
+- DEFINES_CONTRACT_FOR: CORE_LAWS
 
-* RELATED_TO: CORE_LAWS_CANON_README
+- RELATED_TO: CORE_LAWS_CANON_README
 
-* DEPENDS_ON: [[00_ROOT_MOC]]
+- DEPENDS_ON: [[00_ROOT_MOC]]
 
-* DEPENDS_ON: PROVENANCE
+- DEPENDS_ON: PROVENANCE
 
-* DEPENDS_ON: AUTHORITY
+- DEPENDS_ON: AUTHORITY
 
-* DEPENDS_ON: RSCF
+- DEPENDS_ON: RSCF
 
 claim_class: AMOS_MODEL
 

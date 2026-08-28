@@ -587,13 +587,13 @@ must not automatically be treated as three independent confirmations.
 
 This includes:
 
-* copied articles;
-* summaries;
-* mirrors;
-* syndicated reports;
-* derivative datasets;
-* LLM summaries;
-* citations sharing the same primary source.
+- copied articles;
+- summaries;
+- mirrors;
+- syndicated reports;
+- derivative datasets;
+- LLM summaries;
+- citations sharing the same primary source.
 
 ---
 
@@ -2788,13 +2788,13 @@ This L1 specification should be revised or rejected where authoritative AMOS sou
 
 Material falsifiers include authoritative evidence that:
 
-* AMOS uses a different epistemic class system;
-* the stated confidence constraint conflicts with canonical rules;
-* provenance independence is defined differently;
-* H/M/L propagation follows different canonical semantics;
-* contradiction handling differs materially;
-* canonical causal rules supersede these rules;
-* or a higher canonical law explicitly replaces this artifact.
+- AMOS uses a different epistemic class system;
+- the stated confidence constraint conflicts with canonical rules;
+- provenance independence is defined differently;
+- H/M/L propagation follows different canonical semantics;
+- contradiction handling differs materially;
+- canonical causal rules supersede these rules;
+- or a higher canonical law explicitly replaces this artifact.
 
 ---
 
@@ -3263,19 +3263,19 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: AMOS_RSCF_NODES
 
-* GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
+- GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
 
-* MAPPED_BY: CORE_LAWS_MAP
+- MAPPED_BY: CORE_LAWS_MAP
 
-* DEPENDS_ON: L0_INTEGRITY
+- DEPENDS_ON: L0_INTEGRITY
 
-* DEPENDS_ON: [[00_ROOT_MOC]]
+- DEPENDS_ON: [[00_ROOT_MOC]]
 
-* BELONGS_TO: 01_CANON/01_CORE_LAWS
+- BELONGS_TO: 01_CANON/01_CORE_LAWS
 
 claim_class: AMOS_MODEL
 

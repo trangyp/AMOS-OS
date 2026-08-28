@@ -117,14 +117,14 @@ IMPLY AUTHORITY
 
 An AMOS component may possess:
 
-* knowledge;
-* reasoning ability;
-* credentials;
-* tools;
-* network access;
-* write access;
-* executable code;
-* a valid plan;
+- knowledge;
+- reasoning ability;
+- credentials;
+- tools;
+- network access;
+- write access;
+- executable code;
+- a valid plan;
 
 while still lacking authority to perform a particular effect.
 
@@ -208,15 +208,15 @@ CAN THIS PRINCIPAL OR COMPONENT PERFORM THIS OPERATION?
 
 Capability MAY arise from:
 
-* tool access;
-* executable code;
-* credentials;
-* network reachability;
-* API availability;
-* model competence;
-* file permissions;
-* runtime configuration;
-* delegated technical capability.
+- tool access;
+- executable code;
+- credentials;
+- network reachability;
+- API availability;
+- model competence;
+- file permissions;
+- runtime configuration;
+- delegated technical capability.
 
 Capability is a technical property.
 
@@ -242,15 +242,15 @@ IS THIS PRINCIPAL ENTITLED TO CAUSE THIS EFFECT?
 
 Authority MUST be:
 
-* typed;
-* scoped;
-* attributable;
-* temporally valid;
-* epoch-bound where applicable;
-* revocable;
-* provenance-bound;
-* non-self-issued;
-* inspectable before consequential commitment.
+- typed;
+- scoped;
+- attributable;
+- temporally valid;
+- epoch-bound where applicable;
+- revocable;
+- provenance-bound;
+- non-self-issued;
+- inspectable before consequential commitment.
 
 Conceptually:
 
@@ -440,13 +440,13 @@ if authority state changed between epochs.
 
 An epoch provides a boundary for changes such as:
 
-* grant;
-* delegation;
-* revocation;
-* policy change;
-* principal state change;
-* role change;
-* constraint change.
+- grant;
+- delegation;
+- revocation;
+- policy change;
+- principal state change;
+- role change;
+- constraint change.
 
 ---
 
@@ -559,11 +559,11 @@ CREATE ITS OWN ROOT AUTHORITY
 
 An agent may:
 
-* request authority;
-* propose a grant;
-* evaluate a grant;
-* validate a grant;
-* consume delegated authority;
+- request authority;
+- propose a grant;
+- evaluate a grant;
+- validate a grant;
+- consume delegated authority;
 
 but MUST NOT transform:
 
@@ -696,19 +696,19 @@ uses the full depth, Agent B MUST NOT further delegate if that would exceed the 
 
 Delegated authority MAY be narrowed by:
 
-* action type;
-* resource;
-* recipient;
-* duration;
-* amount;
-* environment;
-* tool;
-* purpose;
-* data class;
-* delegation depth;
-* required approval;
-* reversibility;
-* consequence class.
+- action type;
+- resource;
+- recipient;
+- duration;
+- amount;
+- environment;
+- tool;
+- purpose;
+- data class;
+- delegation depth;
+- required approval;
+- reversibility;
+- consequence class.
 
 Delegation MUST NOT silently remove parent constraints.
 
@@ -1057,18 +1057,18 @@ AUTHORIZATION_SPEC
 
 An authorization specification SHOULD define:
 
-* principals;
-* authority types;
-* scopes;
-* resources;
-* actions;
-* constraints;
-* delegation rules;
-* revocation rules;
-* witness requirements;
-* freshness;
-* commitment requirements;
-* failure behavior.
+- principals;
+- authority types;
+- scopes;
+- resources;
+- actions;
+- constraints;
+- delegation rules;
+- revocation rules;
+- witness requirements;
+- freshness;
+- commitment requirements;
+- failure behavior.
 
 This is a governance contract.
 
@@ -1105,14 +1105,14 @@ A commitment is the transition where an effect becomes durable, externally conse
 
 Examples may include:
 
-* sending a message;
-* writing persistent state;
-* deleting a file;
-* changing permissions;
-* executing a trade;
-* publishing content;
-* transferring funds;
-* modifying production state.
+- sending a message;
+- writing persistent state;
+- deleting a file;
+- changing permissions;
+- executing a trade;
+- publishing content;
+- transferring funds;
+- modifying production state.
 
 The exact commitment boundary is domain-specific.
 
@@ -1519,12 +1519,12 @@ by default.
 
 Ownership may remain constrained by:
 
-* law;
-* policy;
-* shared rights;
-* organizational governance;
-* safety constraints;
-* delegation limits.
+- law;
+- policy;
+- shared rights;
+- organizational governance;
+- safety constraints;
+- delegation limits.
 
 ---
 
@@ -1592,12 +1592,12 @@ user previously allowed X
 
 cannot automatically authorize a new consequential action unless the stored grant:
 
-* remains valid;
-* applies to the current action;
-* applies to current scope;
-* has not expired;
-* has not been revoked;
-* is permitted to persist.
+- remains valid;
+- applies to the current action;
+- applies to current scope;
+- has not expired;
+- has not been revoked;
+- is permitted to persist.
 
 Therefore:
 
@@ -1726,12 +1726,12 @@ and consequential commitment SHOULD fail closed until discriminating evidence re
 
 H-level authority includes:
 
-* root authority;
-* constitutional constraints;
-* canonical governance;
-* organization-wide policy;
-* global revocation;
-* institutional control.
+- root authority;
+- constitutional constraints;
+- canonical governance;
+- organization-wide policy;
+- global revocation;
+- institutional control.
 
 H-level authority constrains lower levels.
 
@@ -1741,12 +1741,12 @@ H-level authority constrains lower levels.
 
 M-level authority includes:
 
-* workflow authority;
-* service authority;
-* repository authority;
-* department authority;
-* agent-group authority;
-* environment-specific delegation.
+- workflow authority;
+- service authority;
+- repository authority;
+- department authority;
+- agent-group authority;
+- environment-specific delegation.
 
 M authority cannot exceed governing H authority.
 
@@ -1756,12 +1756,12 @@ M authority cannot exceed governing H authority.
 
 L-level authority includes:
 
-* specific tool call;
-* specific file mutation;
-* individual transaction;
-* single message;
-* single database update;
-* single execution effect.
+- specific tool call;
+- specific file mutation;
+- individual transaction;
+- single message;
+- single database update;
+- single execution effect.
 
 L-level action must remain within H and M constraints.
 
@@ -2394,15 +2394,15 @@ Restoring correct authority state does not automatically reverse the unauthorize
 
 Recovery may require:
 
-* rollback;
-* compensation;
-* notification;
-* containment;
-* audit;
-* escalation;
-* revocation;
-* credential rotation;
-* policy repair.
+- rollback;
+- compensation;
+- notification;
+- containment;
+- audit;
+- escalation;
+- revocation;
+- credential rotation;
+- policy repair.
 
 Domain rules determine the actual recovery.
 
@@ -3520,25 +3520,25 @@ path: 01_CANON/01_CORE_LAWS/L7_AUTHORITY.md
 
 RSCF-RELATIONS:
 
-* CHILD_OF: LAW_HIERARCHY
-* DEPENDS_ON: L0_INTEGRITY
-* DEPENDS_ON: L1_EPISTEMIC
-* DEPENDS_ON: L2_PROVENANCE
-* DEPENDS_ON: L3_DEPENDENCY
-* DEPENDS_ON: L4_CAUSAL
-* DEPENDS_ON: L5_SCOPE_REGIME
-* DEPENDS_ON: L6_UNCERTAINTY
-* GOVERNS: [[00_ROOT_AUTHORIZATION]]
-* GOVERNS: AUTHORIZATION_SPEC
-* GOVERNS: AUTHORITY_RESOLVER
-* GOVERNS: AUTHORITY_WITNESS
-* GOVERNS: DELEGATION
-* GOVERNS: REVOCATION
-* CONSTRAINS: POLICY_ENGINE
-* CONSTRAINS: CAPABILITY_CONTRACT
-* CONSTRAINS: CAPABILITY_MANIFEST
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: AMOS_RSCF_NODES
+- CHILD_OF: LAW_HIERARCHY
+- DEPENDS_ON: L0_INTEGRITY
+- DEPENDS_ON: L1_EPISTEMIC
+- DEPENDS_ON: L2_PROVENANCE
+- DEPENDS_ON: L3_DEPENDENCY
+- DEPENDS_ON: L4_CAUSAL
+- DEPENDS_ON: L5_SCOPE_REGIME
+- DEPENDS_ON: L6_UNCERTAINTY
+- GOVERNS: [[00_ROOT_AUTHORIZATION]]
+- GOVERNS: AUTHORIZATION_SPEC
+- GOVERNS: AUTHORITY_RESOLVER
+- GOVERNS: AUTHORITY_WITNESS
+- GOVERNS: DELEGATION
+- GOVERNS: REVOCATION
+- CONSTRAINS: POLICY_ENGINE
+- CONSTRAINS: CAPABILITY_CONTRACT
+- CONSTRAINS: CAPABILITY_MANIFEST
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: AMOS_RSCF_NODES
 
 claim_class: AMOS_MODEL
 

@@ -1725,36 +1725,36 @@ Promoted the original placeholder into the AMOS OS canon-plane root specificatio
 
 Added:
 
-* canon-plane identity and versioning;
-* canonical authority boundary;
-* canonical artifact classes;
-* law/definition/model/framework separation;
-* evidence and conclusion classes;
-* promotion lifecycle;
-* provenance topology;
-* provenance-independence firewall;
-* dependency closure;
-* selective invalidation;
-* confidence ceiling;
-* scope/regime/freshness boundaries;
-* causal firewall;
-* competing hypotheses;
-* conflict taxonomy and resolution;
-* adversarial validation;
-* sensitivity;
-* supersession and retraction;
-* rollback and repairability;
-* relationships to Knowledge, Research, Memory, Kernel, Control Plane, Runtime, Models, State, Schemas, Tests, Archive;
-* AMOS_CORE v4.4 lineage;
-* proof-based fast path;
-* canonical artifact contract;
-* proof-capsule contract;
-* proposed canon registry/index/lineage structure;
-* failure registry;
-* hard canon invariants;
-* canon audit checklist;
-* explicit implementation boundary;
-* RSCF root node.
+- canon-plane identity and versioning;
+- canonical authority boundary;
+- canonical artifact classes;
+- law/definition/model/framework separation;
+- evidence and conclusion classes;
+- promotion lifecycle;
+- provenance topology;
+- provenance-independence firewall;
+- dependency closure;
+- selective invalidation;
+- confidence ceiling;
+- scope/regime/freshness boundaries;
+- causal firewall;
+- competing hypotheses;
+- conflict taxonomy and resolution;
+- adversarial validation;
+- sensitivity;
+- supersession and retraction;
+- rollback and repairability;
+- relationships to Knowledge, Research, Memory, Kernel, Control Plane, Runtime, Models, State, Schemas, Tests, Archive;
+- AMOS_CORE v4.4 lineage;
+- proof-based fast path;
+- canonical artifact contract;
+- proof-capsule contract;
+- proposed canon registry/index/lineage structure;
+- failure registry;
+- hard canon invariants;
+- canon audit checklist;
+- explicit implementation boundary;
+- RSCF root node.
 
 ## v1.0.0 — 2026-08-25
 

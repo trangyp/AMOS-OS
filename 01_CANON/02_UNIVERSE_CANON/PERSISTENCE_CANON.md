@@ -2533,27 +2533,27 @@ ACTIVE_CANON
 
 requires review of at least:
 
-* persistent object identity;
-* state classes;
-* provenance persistence;
-* causal lineage;
-* revision semantics;
-* MVCC/CAS conceptual boundaries;
-* atomic multi-RSCF semantics;
-* commit and finality;
-* causal epoch semantics;
-* shard-local finalization;
-* proof-based coordination avoidance;
-* dependency invalidation;
-* supersession;
-* tombstones;
-* conflict persistence;
-* checkpoints and replay;
-* rollback and compensation;
-* external effect reconciliation;
-* schema evolution;
-* test requirements;
-* implementation boundaries.
+- persistent object identity;
+- state classes;
+- provenance persistence;
+- causal lineage;
+- revision semantics;
+- MVCC/CAS conceptual boundaries;
+- atomic multi-RSCF semantics;
+- commit and finality;
+- causal epoch semantics;
+- shard-local finalization;
+- proof-based coordination avoidance;
+- dependency invalidation;
+- supersession;
+- tombstones;
+- conflict persistence;
+- checkpoints and replay;
+- rollback and compensation;
+- external effect reconciliation;
+- schema evolution;
+- test requirements;
+- implementation boundaries.
 
 Until promotion, this artifact remains an AMOS architectural model.
 
@@ -2626,51 +2626,51 @@ Expanded the persistence placeholder into an AMOS v4.4-aligned canon candidate.
 
 Added:
 
-* semantic persistence definition;
-* state classes;
-* identity firewall;
-* persistent provenance;
-* causal lineage;
-* revision model;
-* immutable history;
-* supersession;
-* tombstones;
-* MVCC concepts;
-* CAS concepts;
-* stale-write prevention;
-* atomic persistence;
-* atomic multi-RSCF state;
-* commit records;
-* authority firewall;
-* epoch model;
-* causal epoch finality;
-* shard-local finalization;
-* proof-based coordination avoidance;
-* dependency-scoped invalidation;
-* persistent RSCFs;
-* proof capsule persistence;
-* scope/regime/freshness persistence;
-* persistent contradictions;
-* branch and merge semantics;
-* checkpoints;
-* journals and replay;
-* idempotence;
-* duplicate-effect protection;
-* recovery and rollback;
-* compensation;
-* external-effect reconciliation;
-* corruption and hash firewalls;
-* provenance independence;
-* cache/memory/canon boundaries;
-* schema migration;
-* persistent unknowns;
-* H/M/L persistence;
-* uncertainty/falsifier persistence;
-* event-time and clock firewalls;
-* deterministic replay requirements;
-* validation matrix;
-* failure injection requirements;
-* implementation firewall.
+- semantic persistence definition;
+- state classes;
+- identity firewall;
+- persistent provenance;
+- causal lineage;
+- revision model;
+- immutable history;
+- supersession;
+- tombstones;
+- MVCC concepts;
+- CAS concepts;
+- stale-write prevention;
+- atomic persistence;
+- atomic multi-RSCF state;
+- commit records;
+- authority firewall;
+- epoch model;
+- causal epoch finality;
+- shard-local finalization;
+- proof-based coordination avoidance;
+- dependency-scoped invalidation;
+- persistent RSCFs;
+- proof capsule persistence;
+- scope/regime/freshness persistence;
+- persistent contradictions;
+- branch and merge semantics;
+- checkpoints;
+- journals and replay;
+- idempotence;
+- duplicate-effect protection;
+- recovery and rollback;
+- compensation;
+- external-effect reconciliation;
+- corruption and hash firewalls;
+- provenance independence;
+- cache/memory/canon boundaries;
+- schema migration;
+- persistent unknowns;
+- H/M/L persistence;
+- uncertainty/falsifier persistence;
+- event-time and clock firewalls;
+- deterministic replay requirements;
+- validation matrix;
+- failure injection requirements;
+- implementation firewall.
 
 ## v1.0.0 — 2026-08-25
 

@@ -89,9 +89,9 @@ R(aᵢ) → C
 
 where:
 
-* `aᵢ` is an alias,
-* `C` is the canonical identity,
-* `R` is the governed alias-resolution function.
+- `aᵢ` is an alias,
+- `C` is the canonical identity,
+- `R` is the governed alias-resolution function.
 
 The reverse relation is not identity equivalence:
 
@@ -470,12 +470,12 @@ DETECT
 
 Never resolve a collision based solely on:
 
-* popularity,
-* file modification time,
-* directory order,
-* lexical similarity,
-* number of inbound links,
-* model confidence.
+- popularity,
+- file modification time,
+- directory order,
+- lexical similarity,
+- number of inbound links,
+- model confidence.
 
 ---
 

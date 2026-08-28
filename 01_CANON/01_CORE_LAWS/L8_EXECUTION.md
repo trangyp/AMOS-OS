@@ -331,16 +331,16 @@ EFFECT
 
 Infrastructure governance SHOULD determine:
 
-* worker eligibility;
-* route eligibility;
-* authority validity;
-* policy compatibility;
-* resource identity;
-* execution constraints;
-* idempotency requirements;
-* commit eligibility;
-* receipt requirements;
-* ledger requirements.
+- worker eligibility;
+- route eligibility;
+- authority validity;
+- policy compatibility;
+- resource identity;
+- execution constraints;
+- idempotency requirements;
+- commit eligibility;
+- receipt requirements;
+- ledger requirements.
 
 Domain workers SHOULD remain separate from infrastructure authority.
 
@@ -1045,14 +1045,14 @@ The effect digest binds the intended or committed effect to a stable representat
 
 An effect digest SHOULD support:
 
-* effect identity;
-* mutation detection;
-* receipt matching;
-* transaction matching;
-* replay detection;
-* audit;
-* ledger integrity;
-* retry reconciliation.
+- effect identity;
+- mutation detection;
+- receipt matching;
+- transaction matching;
+- replay detection;
+- audit;
+- ledger integrity;
+- retry reconciliation.
 
 It is not itself proof that the effect occurred.
 
@@ -2068,13 +2068,13 @@ FAILURE
 
 H-level execution concerns:
 
-* global execution invariants;
-* root routing policy;
-* commit semantics;
-* ledger requirements;
-* authority boundaries;
-* systemic retry policy;
-* infrastructure governance.
+- global execution invariants;
+- root routing policy;
+- commit semantics;
+- ledger requirements;
+- authority boundaries;
+- systemic retry policy;
+- infrastructure governance.
 
 ---
 
@@ -2082,13 +2082,13 @@ H-level execution concerns:
 
 M-level execution concerns:
 
-* worker pools;
-* queues;
-* service routing;
-* transaction coordinators;
-* domain execution engines;
-* subsystem receipts;
-* subsystem reconciliation.
+- worker pools;
+- queues;
+- service routing;
+- transaction coordinators;
+- domain execution engines;
+- subsystem receipts;
+- subsystem reconciliation.
 
 ---
 
@@ -2096,12 +2096,12 @@ M-level execution concerns:
 
 L-level execution concerns:
 
-* one tool call;
-* one file write;
-* one message;
-* one transaction;
-* one API mutation;
-* one database commit.
+- one tool call;
+- one file write;
+- one message;
+- one transaction;
+- one API mutation;
+- one database commit.
 
 Every L-level consequential effect MUST remain within applicable H/M governance.
 
@@ -3618,26 +3618,26 @@ path: 01_CANON/01_CORE_LAWS/L8_EXECUTION.md
 
 RSCF-RELATIONS:
 
-* CHILD_OF: LAW_HIERARCHY
-* DEPENDS_ON: L0_INTEGRITY
-* DEPENDS_ON: L1_EPISTEMIC
-* DEPENDS_ON: L2_PROVENANCE
-* DEPENDS_ON: L3_DEPENDENCY
-* DEPENDS_ON: L4_CAUSAL
-* DEPENDS_ON: L5_SCOPE_REGIME
-* DEPENDS_ON: L6_UNCERTAINTY
-* DEPENDS_ON: L7_AUTHORITY
-* GOVERNS: ROUTING_POLICY
-* GOVERNS: WORKER_CONTRACT
-* GOVERNS: COMMIT_GATE
-* GOVERNS: IDEMPOTENCY_REGISTRY
-* GOVERNS: EFFECT_DIGEST
-* GOVERNS: RECEIPT
-* GOVERNS: EXECUTION_LEDGER
-* GOVERNS: RECONCILIATION
-* CONSTRAINS: 03_CONTROL_PLANE
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: AMOS_RSCF_NODES
+- CHILD_OF: LAW_HIERARCHY
+- DEPENDS_ON: L0_INTEGRITY
+- DEPENDS_ON: L1_EPISTEMIC
+- DEPENDS_ON: L2_PROVENANCE
+- DEPENDS_ON: L3_DEPENDENCY
+- DEPENDS_ON: L4_CAUSAL
+- DEPENDS_ON: L5_SCOPE_REGIME
+- DEPENDS_ON: L6_UNCERTAINTY
+- DEPENDS_ON: L7_AUTHORITY
+- GOVERNS: ROUTING_POLICY
+- GOVERNS: WORKER_CONTRACT
+- GOVERNS: COMMIT_GATE
+- GOVERNS: IDEMPOTENCY_REGISTRY
+- GOVERNS: EFFECT_DIGEST
+- GOVERNS: RECEIPT
+- GOVERNS: EXECUTION_LEDGER
+- GOVERNS: RECONCILIATION
+- CONSTRAINS: 03_CONTROL_PLANE
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: AMOS_RSCF_NODES
 
 claim_class: AMOS_MODEL
 

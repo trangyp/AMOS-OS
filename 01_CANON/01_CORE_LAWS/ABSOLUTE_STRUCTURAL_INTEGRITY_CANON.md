@@ -71,16 +71,16 @@ This artifact defines an **AMOS structural-integrity model**.
 
 It does not, by itself, establish:
 
-* a universal law of physical structure;
-* mathematical theoremhood;
-* scientific proof;
-* biological truth;
-* philosophical certainty;
-* correctness of every AMOS architecture;
-* implementation of every mechanism described here;
-* runtime enforcement;
-* final canonical promotion;
-* or empirical truth merely because a structure is canonical.
+- a universal law of physical structure;
+- mathematical theoremhood;
+- scientific proof;
+- biological truth;
+- philosophical certainty;
+- correctness of every AMOS architecture;
+- implementation of every mechanism described here;
+- runtime enforcement;
+- final canonical promotion;
+- or empirical truth merely because a structure is canonical.
 
 The governing distinction is:
 
@@ -121,22 +121,22 @@ CREATED
 
 It governs integrity across:
 
-* artifact identity;
-* schema;
-* hierarchy;
-* dependency topology;
-* RSCF graphs;
-* H/M/L composition;
-* provenance;
-* lineage;
-* scope;
-* regime;
-* version state;
-* cross-plane bindings;
-* atomic reasoning structures;
-* causal epochs;
-* rollback structures;
-* canon evolution.
+- artifact identity;
+- schema;
+- hierarchy;
+- dependency topology;
+- RSCF graphs;
+- H/M/L composition;
+- provenance;
+- lineage;
+- scope;
+- regime;
+- version state;
+- cross-plane bindings;
+- atomic reasoning structures;
+- causal epochs;
+- rollback structures;
+- canon evolution.
 
 The objective is not structural rigidity.
 
@@ -216,13 +216,13 @@ VALID_STATE
 
 The word **Absolute** means that structural integrity constraints cannot be silently weakened for:
 
-* speed;
-* convenience;
-* compression;
-* optimization;
-* aesthetic simplicity;
-* implementation ease;
-* narrative coherence.
+- speed;
+- convenience;
+- compression;
+- optimization;
+- aesthetic simplicity;
+- implementation ease;
+- narrative coherence.
 
 It does not mean that AMOS possesses an infallible model of every possible structure.
 
@@ -583,13 +583,13 @@ CANON
 
 An invariant is load-bearing when its violation can materially alter:
 
-* interpretation;
-* reasoning;
-* authority;
-* recoverability;
-* dependency correctness;
-* canonical meaning;
-* runtime behavior.
+- interpretation;
+- reasoning;
+- authority;
+- recoverability;
+- dependency correctness;
+- canonical meaning;
+- runtime behavior.
 
 Canonical strategy:
 
@@ -712,14 +712,14 @@ DEPENDENCY CLOSURE.
 
 A dependency edge is structurally valid only when:
 
-* source exists;
-* target exists or is explicitly unresolved;
-* relation type is valid;
-* versions are compatible;
-* scope is compatible;
-* regime is compatible where relevant;
-* no forbidden cycle is created;
-* provenance is preserved.
+- source exists;
+- target exists or is explicitly unresolved;
+- relation type is valid;
+- versions are compatible;
+- scope is compatible;
+- regime is compatible where relevant;
+- no forbidden cycle is created;
+- provenance is preserved.
 
 ---
 
@@ -786,8 +786,8 @@ $$
 
 where:
 
-* \(V\) = structural nodes;
-* \(E\) = typed relations.
+- \(V\) = structural nodes;
+- \(E\) = typed relations.
 
 Graph integrity requires valid nodes and valid relation semantics.
 
@@ -1064,11 +1064,11 @@ L
 
 Each descent SHOULD retain:
 
-* source node;
-* parent relation;
-* scope;
-* version;
-* provenance.
+- source node;
+- parent relation;
+- scope;
+- version;
+- provenance.
 
 ---
 
@@ -1175,13 +1175,13 @@ V1
 
 Each transition SHOULD preserve:
 
-* predecessor;
-* successor;
-* transformation;
-* reason;
-* timestamp;
-* validation state;
-* supersession status.
+- predecessor;
+- successor;
+- transformation;
+- reason;
+- timestamp;
+- validation state;
+- supersession status.
 
 ---
 
@@ -1411,11 +1411,11 @@ causal_epoch:
 
 Crossing an epoch boundary may invalidate assumptions about:
 
-* versions;
-* dependencies;
-* authority;
-* freshness;
-* regime.
+- versions;
+- dependencies;
+- authority;
+- freshness;
+- regime.
 
 Therefore:
 
@@ -2178,21 +2178,21 @@ Compression is admissible only if load-bearing structural information survives.
 
 May compress:
 
-* redundant labels;
-* nonessential presentation;
-* derivable indexing.
+- redundant labels;
+- nonessential presentation;
+- derivable indexing.
 
 Must preserve when load-bearing:
 
-* identity;
-* dependency;
-* provenance;
-* version;
-* scope;
-* regime;
-* contradictions;
-* authority;
-* rollback.
+- identity;
+- dependency;
+- provenance;
+- version;
+- scope;
+- regime;
+- contradictions;
+- authority;
+- rollback.
 
 ---
 
@@ -2424,18 +2424,18 @@ Preference is not structural resolution.
 
 For consequential structures, challenge the candidate through an independent reasoning path seeking:
 
-* missing dependency;
-* stale binding;
-* duplicate identity;
-* hidden cycle;
-* broken provenance;
-* scope leakage;
-* regime leakage;
-* incompatible version;
-* false independence;
-* partial commit risk;
-* rollback failure;
-* unauthorized mutation.
+- missing dependency;
+- stale binding;
+- duplicate identity;
+- hidden cycle;
+- broken provenance;
+- scope leakage;
+- regime leakage;
+- incompatible version;
+- false independence;
+- partial commit risk;
+- rollback failure;
+- unauthorized mutation.
 
 ---
 
@@ -2475,11 +2475,11 @@ A structure is robust when plausible noncritical variation does not violate its 
 
 A structure is fragile when minor variation can cause:
 
-* invalid dependency;
-* orphaning;
-* scope leakage;
-* version conflict;
-* inconsistent commit.
+- invalid dependency;
+- orphaning;
+- scope leakage;
+- version conflict;
+- inconsistent commit.
 
 ---
 
@@ -3121,32 +3121,32 @@ FAILED NODE / EDGE
 
 Before `ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md` may be promoted beyond candidate status:
 
-* [ ] authoritative native-canon source identified
-* [ ] historical structural-integrity lineage reconciled
-* [ ] relationship to [[ABSOLUTE_INTEGRITY_CANON]] established
-* [ ] relationship to [[ABSOLUTE_LOGIC_CANON]] established
-* [ ] exact [[LAW_HIERARCHY]] position established
-* [ ] canonical structural schema bound
-* [ ] RSCF structural schema reconciled
-* [ ] relation-type registry reconciled
-* [ ] identity/version contract implemented
-* [ ] provenance persistence validated
-* [ ] lineage persistence validated
-* [ ] duplicate-identity cases tested
-* [ ] dangling-dependency cases tested
-* [ ] cycle-policy cases tested
-* [ ] scope/regime cases tested
-* [ ] stale-version cases tested
-* [ ] MVCC/CAS conflict cases tested where applicable
-* [ ] atomic multi-RSCF mutation tested where applicable
-* [ ] selective invalidation tested
-* [ ] rollback/compensation tested
-* [ ] shard-local finalization safety tested where applicable
-* [ ] proof-based coordination avoidance tested where applicable
-* [ ] authorization boundary tested
-* [ ] artifact-specific executed validation receipt attached
-* [ ] unresolved critical gaps remain visible
-* [ ] steward approval recorded where required
+- [ ] authoritative native-canon source identified
+- [ ] historical structural-integrity lineage reconciled
+- [ ] relationship to [[ABSOLUTE_INTEGRITY_CANON]] established
+- [ ] relationship to [[ABSOLUTE_LOGIC_CANON]] established
+- [ ] exact [[LAW_HIERARCHY]] position established
+- [ ] canonical structural schema bound
+- [ ] RSCF structural schema reconciled
+- [ ] relation-type registry reconciled
+- [ ] identity/version contract implemented
+- [ ] provenance persistence validated
+- [ ] lineage persistence validated
+- [ ] duplicate-identity cases tested
+- [ ] dangling-dependency cases tested
+- [ ] cycle-policy cases tested
+- [ ] scope/regime cases tested
+- [ ] stale-version cases tested
+- [ ] MVCC/CAS conflict cases tested where applicable
+- [ ] atomic multi-RSCF mutation tested where applicable
+- [ ] selective invalidation tested
+- [ ] rollback/compensation tested
+- [ ] shard-local finalization safety tested where applicable
+- [ ] proof-based coordination avoidance tested where applicable
+- [ ] authorization boundary tested
+- [ ] artifact-specific executed validation receipt attached
+- [ ] unresolved critical gaps remain visible
+- [ ] steward approval recorded where required
 
 ---
 
@@ -3830,12 +3830,12 @@ The strongest conclusion licensed by this artifact is:
 
 This artifact does not independently establish:
 
-* universal structural laws;
-* formal mathematical completeness;
-* empirical truth;
-* runtime implementation;
-* runtime enforcement;
-* or final canonical authority.
+- universal structural laws;
+- formal mathematical completeness;
+- empirical truth;
+- runtime implementation;
+- runtime enforcement;
+- or final canonical authority.
 
 Its current epistemic class remains:
 

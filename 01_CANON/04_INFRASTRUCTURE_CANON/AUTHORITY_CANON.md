@@ -2207,30 +2207,30 @@ Expanded placeholder into an AMOS Core v4.4-aligned Authority Canon candidate.
 
 Added:
 
-* capability/authority firewall;
-* authority envelope;
-* authority classes;
-* proposal/decision/commit separation;
-* agent, skill, workflow, model, tool boundaries;
-* scoped and regime-aware authority;
-* delegation and non-amplification;
-* authority provenance and lineage;
-* state-version binding;
-* MVCC/CAS alignment;
-* competing authority handling;
-* revocation and propagation;
-* separation of duties;
-* self-authorization firewall;
-* emergency/break-glass model;
-* failure locality and recovery;
-* causal epoch alignment;
-* local finality;
-* proof-based coordination avoidance;
-* observability and audit;
-* authority tests;
-* adversarial validation cases;
-* implementation firewall;
-* canon promotion gate.
+- capability/authority firewall;
+- authority envelope;
+- authority classes;
+- proposal/decision/commit separation;
+- agent, skill, workflow, model, tool boundaries;
+- scoped and regime-aware authority;
+- delegation and non-amplification;
+- authority provenance and lineage;
+- state-version binding;
+- MVCC/CAS alignment;
+- competing authority handling;
+- revocation and propagation;
+- separation of duties;
+- self-authorization firewall;
+- emergency/break-glass model;
+- failure locality and recovery;
+- causal epoch alignment;
+- local finality;
+- proof-based coordination avoidance;
+- observability and audit;
+- authority tests;
+- adversarial validation cases;
+- implementation firewall;
+- canon promotion gate.
 
 ## v1.0.0 — 2026-08-25
 

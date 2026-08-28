@@ -2146,41 +2146,41 @@ Expanded the original placeholder into a versioned AMOS Core v4.4 constitutional
 
 Added:
 
-* integrity hierarchy;
-* epistemic typing;
-* conclusion classes;
-* confidence ceiling;
-* competing-hypothesis preservation;
-* provenance topology;
-* independence/Sybil firewall;
-* dependency closure;
-* selective invalidation;
-* proof-capsule reuse;
-* causal firewall;
-* scope/regime/freshness firewalls;
-* uncertainty vector;
-* sensitivity rules;
-* capability/authority separation;
-* proposal/commit separation;
-* execution fast path;
-* mandatory escalation conditions;
-* anti-regression;
-* recovery semantics;
-* knowledge harvest;
-* fractal H/M/L retrieval;
-* RSCF/GMEF boundaries;
-* adversarial validation;
-* atomic multi-RSCF reasoning;
-* MVCC/CAS conceptual boundary;
-* causal epoch finality;
-* shard-local finalization;
-* proof-based coordination avoidance;
-* gap classification;
-* AMOS plane laws;
-* identity/version/supersession laws;
-* failure registry;
-* proof and action gates;
-* v3.0→v4.4 evolution spine.
+- integrity hierarchy;
+- epistemic typing;
+- conclusion classes;
+- confidence ceiling;
+- competing-hypothesis preservation;
+- provenance topology;
+- independence/Sybil firewall;
+- dependency closure;
+- selective invalidation;
+- proof-capsule reuse;
+- causal firewall;
+- scope/regime/freshness firewalls;
+- uncertainty vector;
+- sensitivity rules;
+- capability/authority separation;
+- proposal/commit separation;
+- execution fast path;
+- mandatory escalation conditions;
+- anti-regression;
+- recovery semantics;
+- knowledge harvest;
+- fractal H/M/L retrieval;
+- RSCF/GMEF boundaries;
+- adversarial validation;
+- atomic multi-RSCF reasoning;
+- MVCC/CAS conceptual boundary;
+- causal epoch finality;
+- shard-local finalization;
+- proof-based coordination avoidance;
+- gap classification;
+- AMOS plane laws;
+- identity/version/supersession laws;
+- failure registry;
+- proof and action gates;
+- v3.0→v4.4 evolution spine.
 
 ### v1.0.0 — 2026-08-25
 

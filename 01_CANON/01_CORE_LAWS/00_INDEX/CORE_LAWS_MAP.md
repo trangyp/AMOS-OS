@@ -71,18 +71,18 @@ The Core Laws Map provides the navigational, dependency, governance, provenance,
 
 Its function is to answer:
 
-* what the Core Laws domain contains;
-* how Core Law objects are organized;
-* how objects relate to one another;
-* which objects define law versus metadata about law;
-* where provenance enters;
-* where authority enters;
-* how dependencies propagate;
-* how H/M/L applicability is represented;
-* how conflicts and competing laws remain visible;
-* how laws connect to policy, protocols, workflows, agents, Skills, and runtime controls;
-* how law changes propagate downstream;
-* and where unresolved canonical gaps remain.
+- what the Core Laws domain contains;
+- how Core Law objects are organized;
+- how objects relate to one another;
+- which objects define law versus metadata about law;
+- where provenance enters;
+- where authority enters;
+- how dependencies propagate;
+- how H/M/L applicability is represented;
+- how conflicts and competing laws remain visible;
+- how laws connect to policy, protocols, workflows, agents, Skills, and runtime controls;
+- how law changes propagate downstream;
+- and where unresolved canonical gaps remain.
 
 The map is therefore not merely a file index.
 
@@ -110,13 +110,13 @@ This map describes the AMOS Core Laws architecture.
 
 It does **not** claim:
 
-* that every mapped object currently exists;
-* that every mapped relationship has been canonically approved;
-* that every Core Law has been recovered from source;
-* that every dependency is complete;
-* that every runtime projection is implemented;
-* that every validator exists;
-* or that every referenced control plane is operational.
+- that every mapped object currently exists;
+- that every mapped relationship has been canonically approved;
+- that every Core Law has been recovered from source;
+- that every dependency is complete;
+- that every runtime projection is implemented;
+- that every validator exists;
+- or that every referenced control plane is operational.
 
 Accordingly:
 
@@ -2252,21 +2252,21 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: AMOS_RSCF_NODES
 
-* GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
+- GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
 
-* MAPS: CORE_LAWS
+- MAPS: CORE_LAWS
 
-* DEPENDS_ON: [[00_ROOT_MOC]]
+- DEPENDS_ON: [[00_ROOT_MOC]]
 
-* DEPENDS_ON: PROVENANCE
+- DEPENDS_ON: PROVENANCE
 
-* DEPENDS_ON: AUTHORITY
+- DEPENDS_ON: AUTHORITY
 
-* DEPENDS_ON: RSCF
+- DEPENDS_ON: RSCF
 
 claim_class: AMOS_MODEL
 

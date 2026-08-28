@@ -69,19 +69,19 @@ The `00_INDEX` package is the entry and orientation surface for the AMOS Core La
 
 Its purpose is to provide a stable place from which humans, agents, Skills, validators, control planes, and future runtime components can determine:
 
-* what the Core Laws domain is;
-* what artifacts belong to its index layer;
-* where authoritative law definitions should be resolved;
-* how law identities are distinguished from files and aliases;
-* how dependencies are traversed;
-* how provenance is recovered;
-* how canonical status is determined;
-* how conflicts and competing laws remain visible;
-* how versions and supersession are handled;
-* how authority boundaries apply;
-* how H/M/L applicability is represented;
-* how Core Laws connect to policy and execution;
-* and which parts of the Core Laws architecture remain unresolved.
+- what the Core Laws domain is;
+- what artifacts belong to its index layer;
+- where authoritative law definitions should be resolved;
+- how law identities are distinguished from files and aliases;
+- how dependencies are traversed;
+- how provenance is recovered;
+- how canonical status is determined;
+- how conflicts and competing laws remain visible;
+- how versions and supersession are handled;
+- how authority boundaries apply;
+- how H/M/L applicability is represented;
+- how Core Laws connect to policy and execution;
+- and which parts of the Core Laws architecture remain unresolved.
 
 The index is therefore an **orientation and resolution surface**, not a substitute for the underlying canon.
 
@@ -127,18 +127,18 @@ VALIDATED(x)
 
 This README is not:
 
-* the complete Core Laws canon;
-* the authoritative text of every Core Law;
-* proof that every referenced law exists;
-* proof that every referenced artifact has been materialized;
-* a policy engine;
-* an authorization engine;
-* an authority witness;
-* a law resolver implementation;
-* a dependency resolver implementation;
-* a validation report;
-* an empirical scientific claim;
-* or permission to modify canon.
+- the complete Core Laws canon;
+- the authoritative text of every Core Law;
+- proof that every referenced law exists;
+- proof that every referenced artifact has been materialized;
+- a policy engine;
+- an authorization engine;
+- an authority witness;
+- a law resolver implementation;
+- a dependency resolver implementation;
+- a validation report;
+- an empirical scientific claim;
+- or permission to modify canon.
 
 The index layer MUST NOT become a hidden authority layer.
 
@@ -209,12 +209,12 @@ The `00_INDEX` layer SHOULD distinguish the following responsibilities.
 
 Provides:
 
-* package orientation;
-* index semantics;
-* navigation;
-* governance boundaries;
-* integration expectations;
-* unresolved gaps.
+- package orientation;
+- index semantics;
+- navigation;
+- governance boundaries;
+- integration expectations;
+- unresolved gaps.
 
 ## 6.2 Contract
 
@@ -278,11 +278,11 @@ README
 
 The map answers structural questions such as:
 
-* what depends on what;
-* what supersedes what;
-* where authority enters;
-* what law constrains which policy;
-* and what downstream components may require revalidation.
+- what depends on what;
+- what supersedes what;
+- where authority enters;
+- what law constrains which policy;
+- and what downstream components may require revalidation.
 
 The README should not duplicate the complete map.
 
@@ -777,11 +777,11 @@ The index SHOULD expose both.
 
 It must not select one merely because:
 
-* it appears newer;
-* it is repeated more often;
-* it has more descendants;
-* it is easier to implement;
-* or it produces a more fluent answer.
+- it appears newer;
+- it is repeated more often;
+- it has more descendants;
+- it is easier to implement;
+- or it produces a more fluent answer.
 
 ---
 
@@ -1022,15 +1022,15 @@ An agent may only perform authority-bearing operations when separately authorize
 
 Skills may provide reusable procedures for:
 
-* canon parsing;
-* law resolution;
-* provenance verification;
-* dependency analysis;
-* contradiction detection;
-* RSCF construction;
-* change impact analysis;
-* validation;
-* repair planning.
+- canon parsing;
+- law resolution;
+- provenance verification;
+- dependency analysis;
+- contradiction detection;
+- RSCF construction;
+- change impact analysis;
+- validation;
+- repair planning.
 
 But:
 
@@ -1182,18 +1182,18 @@ Otherwise resolution should escalate.
 
 Escalation is required when material uncertainty exists around:
 
-* source identity;
-* provenance ancestry;
-* law identity;
-* alias collisions;
-* scope;
-* regime;
-* freshness;
-* dependencies;
-* conflict;
-* supersession;
-* authority;
-* or irreversible downstream effects.
+- source identity;
+- provenance ancestry;
+- law identity;
+- alias collisions;
+- scope;
+- regime;
+- freshness;
+- dependencies;
+- conflict;
+- supersession;
+- authority;
+- or irreversible downstream effects.
 
 ---
 
@@ -1485,15 +1485,15 @@ An unresolved answer must not silently become `true`.
 
 This specification should be revised if authoritative AMOS material establishes:
 
-* a materially different Core Laws index architecture;
-* a different identity model;
-* a different law lifecycle;
-* a different H/M/L meaning;
-* different provenance requirements;
-* different authority semantics;
-* different dependency semantics;
-* different supersession semantics;
-* or a superseding canonical README.
+- a materially different Core Laws index architecture;
+- a different identity model;
+- a different law lifecycle;
+- a different H/M/L meaning;
+- different provenance requirements;
+- different authority semantics;
+- different dependency semantics;
+- different supersession semantics;
+- or a superseding canonical README.
 
 ---
 
@@ -1785,17 +1785,17 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: AMOS_RSCF_NODES
 
-* GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
+- GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
 
-* MAPS_TO: CORE_LAWS_MAP
+- MAPS_TO: CORE_LAWS_MAP
 
-* DEPENDS_ON: [[00_ROOT_MOC]]
+- DEPENDS_ON: [[00_ROOT_MOC]]
 
-* BELONGS_TO: 01_CANON/01_CORE_LAWS
+- BELONGS_TO: 01_CANON/01_CORE_LAWS
 
 claim_class: AMOS_MODEL
 

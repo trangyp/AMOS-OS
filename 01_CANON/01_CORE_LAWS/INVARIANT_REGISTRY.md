@@ -58,12 +58,12 @@ WHAT HAPPENS WHEN IT FAILS?
 
 An invariant is not merely:
 
-* a recommendation;
-* documentation prose;
-* an architectural preference;
-* a naming convention;
-* an implementation detail;
-* a test result.
+- a recommendation;
+- documentation prose;
+- an architectural preference;
+- a naming convention;
+- an implementation detail;
+- a test result.
 
 An AMOS invariant represents a condition whose violation can invalidate a governed state, conclusion, transition, or operation within its declared scope.
 
@@ -2035,34 +2035,34 @@ Expanded placeholder into an AMOS v4.4 invariant registry architecture.
 
 Added:
 
-* invariant record contract;
-* lifecycle states;
-* invariant classes;
-* integrity invariants;
-* epistemic invariants;
-* provenance topology invariants;
-* dependency invariants;
-* causal invariants;
-* scope/regime/freshness invariants;
-* uncertainty and sensitivity invariants;
-* authority and governance invariants;
-* state and atomic multi-RSCF invariants;
-* fast-path invariants;
-* proof-based coordination avoidance;
-* causal epoch and shard-local finality boundaries;
-* governed evolution and anti-regression;
-* failure and recovery invariants;
-* knowledge/memory firewalls;
-* security invariants;
-* observability/audit invariants;
-* invariant evaluation records;
-* severity model;
-* enforcement modes;
-* dependency graph semantics;
-* override and promotion rules;
-* failure registry;
-* registry self-integrity constraints;
-* versioning and supersession contracts.
+- invariant record contract;
+- lifecycle states;
+- invariant classes;
+- integrity invariants;
+- epistemic invariants;
+- provenance topology invariants;
+- dependency invariants;
+- causal invariants;
+- scope/regime/freshness invariants;
+- uncertainty and sensitivity invariants;
+- authority and governance invariants;
+- state and atomic multi-RSCF invariants;
+- fast-path invariants;
+- proof-based coordination avoidance;
+- causal epoch and shard-local finality boundaries;
+- governed evolution and anti-regression;
+- failure and recovery invariants;
+- knowledge/memory firewalls;
+- security invariants;
+- observability/audit invariants;
+- invariant evaluation records;
+- severity model;
+- enforcement modes;
+- dependency graph semantics;
+- override and promotion rules;
+- failure registry;
+- registry self-integrity constraints;
+- versioning and supersession contracts.
 
 ## v1.0.0 — 2026-08-25
 

@@ -69,15 +69,15 @@ This artifact defines an **AMOS governance and reasoning law model**.
 
 It does not, by itself, establish:
 
-* a universal law of physical reality;
-* mathematical theoremhood;
-* philosophical certainty;
-* scientific proof;
-* biological truth;
-* implementation in any particular runtime;
-* successful runtime enforcement;
-* final canonical promotion;
-* or empirical truth merely because the rule is canonical within AMOS.
+- a universal law of physical reality;
+- mathematical theoremhood;
+- philosophical certainty;
+- scientific proof;
+- biological truth;
+- implementation in any particular runtime;
+- successful runtime enforcement;
+- final canonical promotion;
+- or empirical truth merely because the rule is canonical within AMOS.
 
 The governing distinction is:
 
@@ -104,22 +104,22 @@ CANDIDATE_PENDING_VALIDATION
 
 Absolute Integrity defines the highest-order AMOS constraint governing:
 
-* knowledge;
-* reasoning;
-* evidence;
-* provenance;
-* uncertainty;
-* causality;
-* scope;
-* contradiction;
-* decisions;
-* actions;
-* mutations;
-* optimization;
-* learning;
-* evolution;
-* canon promotion;
-* runtime governance.
+- knowledge;
+- reasoning;
+- evidence;
+- provenance;
+- uncertainty;
+- causality;
+- scope;
+- contradiction;
+- decisions;
+- actions;
+- mutations;
+- optimization;
+- learning;
+- evolution;
+- canon promotion;
+- runtime governance.
 
 Its governing principle is:
 
@@ -151,9 +151,9 @@ $$
 
 where:
 
-* \(S_t\) is the valid pre-operation state;
-* \(O\) is a reasoning, knowledge, governance, or execution operation;
-* \(S_{t+1}\) is the proposed resulting state.
+- \(S_t\) is the valid pre-operation state;
+- \(O\) is a reasoning, knowledge, governance, or execution operation;
+- \(S_{t+1}\) is the proposed resulting state.
 
 An operation is integrity-admissible only if all applicable integrity invariants remain satisfied.
 
@@ -432,9 +432,9 @@ $$
 
 where:
 
-* \(E\) = evidence;
-* \(A\) = assumptions;
-* \(M\) = model/reasoning method.
+- \(E\) = evidence;
+- \(A\) = assumptions;
+- \(M\) = model/reasoning method.
 
 Therefore:
 
@@ -593,11 +593,11 @@ Independence MUST be demonstrated where it materially affects confidence.
 
 It MUST NOT be assumed merely because:
 
-* sources have different names;
-* different websites repeat a claim;
-* different models produce the same wording;
-* multiple documents quote the same origin;
-* multiple databases ingest the same upstream feed.
+- sources have different names;
+- different websites repeat a claim;
+- different models produce the same wording;
+- multiple documents quote the same origin;
+- multiple databases ingest the same upstream feed.
 
 If independence cannot be established:
 
@@ -628,12 +628,12 @@ $$
 
 the reasoning chain MUST preserve:
 
-* premise identity;
-* premise validity;
-* dependency structure;
-* scope;
-* assumptions;
-* inference type.
+- premise identity;
+- premise validity;
+- dependency structure;
+- scope;
+- assumptions;
+- inference type.
 
 Missing logical links MUST NOT be replaced with plausible prose.
 
@@ -1070,12 +1070,12 @@ There is no unrestricted global trust inheritance.
 
 A previously trusted artifact may require revalidation when:
 
-* its source changes;
-* its environment changes;
-* its scope changes;
-* its regime changes;
-* its dependencies change;
-* its freshness window expires.
+- its source changes;
+- its environment changes;
+- its scope changes;
+- its regime changes;
+- its dependencies change;
+- its freshness window expires.
 
 ---
 
@@ -1100,13 +1100,13 @@ $$
 
 where:
 
-* \(U_e\) = evidence uncertainty;
-* \(U_m\) = model uncertainty;
-* \(U_s\) = scope uncertainty;
-* \(U_t\) = temporal uncertainty;
-* \(U_c\) = causal uncertainty;
-* \(U_x\) = execution uncertainty;
-* \(U_p\) = provenance-independence uncertainty.
+- \(U_e\) = evidence uncertainty;
+- \(U_m\) = model uncertainty;
+- \(U_s\) = scope uncertainty;
+- \(U_t\) = temporal uncertainty;
+- \(U_c\) = causal uncertainty;
+- \(U_x\) = execution uncertainty;
+- \(U_p\) = provenance-independence uncertainty.
 
 Do not compress materially different uncertainty types into a misleading single confidence number.
 
@@ -1581,11 +1581,11 @@ Authority MUST come from an appropriate governance source.
 
 An authorization MUST be:
 
-* valid;
-* scoped;
-* current;
-* applicable to the requested action;
-* applicable to the relevant epoch where epochs are used.
+- valid;
+- scoped;
+- current;
+- applicable to the requested action;
+- applicable to the relevant epoch where epochs are used.
 
 Therefore:
 
@@ -1701,10 +1701,10 @@ $$
 
 where:
 
-* \(S\) = stakes;
-* \(I_r\) = irreversibility;
-* \(D\) = downstream dependency;
-* \(U\) = uncertainty.
+- \(S\) = stakes;
+- \(I_r\) = irreversibility;
+- \(D\) = downstream dependency;
+- \(U\) = uncertainty.
 
 This is an AMOS governance model, not a universal physical equation.
 
@@ -1938,11 +1938,11 @@ IMPLEMENTED
 
 Implementation evidence may include:
 
-* executable code;
-* runtime behavior;
-* integration tests;
-* traces;
-* deployed bindings.
+- executable code;
+- runtime behavior;
+- integration tests;
+- traces;
+- deployed bindings.
 
 ---
 
@@ -2018,14 +2018,14 @@ FAILED_ROLLBACK
 
 Canon artifacts MUST preserve:
 
-* identity;
-* version;
-* provenance;
-* lineage;
-* supersession;
-* epistemic status;
-* scope;
-* unresolved gaps.
+- identity;
+- version;
+- provenance;
+- lineage;
+- supersession;
+- epistemic status;
+- scope;
+- unresolved gaps.
 
 Canonical importance does not grant empirical truth.
 
@@ -2139,11 +2139,11 @@ DIFFERENT_FRAMEWORK
 
 External evidence MAY:
 
-* support AMOS canon;
-* challenge AMOS canon;
-* falsify empirical interpretations;
-* create competing models;
-* trigger revalidation.
+- support AMOS canon;
+- challenge AMOS canon;
+- falsify empirical interpretations;
+- create competing models;
+- trigger revalidation.
 
 It MUST NOT silently become native canon.
 
@@ -2343,14 +2343,14 @@ UNIVERSAL_VALIDITY
 
 Benchmark results SHOULD preserve:
 
-* benchmark identity;
-* dataset/version;
-* environment;
-* hardware;
-* software version;
-* configuration;
-* measurement method;
-* date.
+- benchmark identity;
+- dataset/version;
+- environment;
+- hardware;
+- software version;
+- configuration;
+- measurement method;
+- date.
 
 ---
 
@@ -2582,11 +2582,11 @@ Decision Sufficiency is reached when unresolved uncertainty is unlikely to chang
 
 Action Sufficiency is reached when:
 
-* the decision is supported;
-* authority exists;
-* preconditions are valid;
-* relevant risks are acceptable;
-* rollback or recovery is adequate where required.
+- the decision is supported;
+- authority exists;
+- preconditions are valid;
+- relevant risks are acceptable;
+- rollback or recovery is adequate where required.
 
 ---
 
@@ -3158,24 +3158,24 @@ failure_recovery_contract:
 
 Before `ABSOLUTE_INTEGRITY_CANON.md` may be promoted beyond candidate status:
 
-* [ ] authoritative native-canon source identified
-* [ ] source provenance linked
-* [ ] overlapping Absolute Integrity definitions reconciled
-* [ ] lineage from historical AMOS versions preserved
-* [ ] invariant registry reviewed against governing Core Laws
-* [ ] typed schema bound to artifact
-* [ ] identity/version semantics implemented
-* [ ] negative cases executed
-* [ ] provenance topology validation executed
-* [ ] causal firewall validation executed
-* [ ] scope/regime validation executed
-* [ ] contradiction preservation validation executed
-* [ ] authority/proposal/commit boundaries validated
-* [ ] rollback basin demonstrated
-* [ ] anti-regression suite executed
-* [ ] artifact-specific validation receipt attached
-* [ ] unresolved critical gaps visible
-* [ ] steward approval recorded where required
+- [ ] authoritative native-canon source identified
+- [ ] source provenance linked
+- [ ] overlapping Absolute Integrity definitions reconciled
+- [ ] lineage from historical AMOS versions preserved
+- [ ] invariant registry reviewed against governing Core Laws
+- [ ] typed schema bound to artifact
+- [ ] identity/version semantics implemented
+- [ ] negative cases executed
+- [ ] provenance topology validation executed
+- [ ] causal firewall validation executed
+- [ ] scope/regime validation executed
+- [ ] contradiction preservation validation executed
+- [ ] authority/proposal/commit boundaries validated
+- [ ] rollback basin demonstrated
+- [ ] anti-regression suite executed
+- [ ] artifact-specific validation receipt attached
+- [ ] unresolved critical gaps visible
+- [ ] steward approval recorded where required
 
 Until then:
 

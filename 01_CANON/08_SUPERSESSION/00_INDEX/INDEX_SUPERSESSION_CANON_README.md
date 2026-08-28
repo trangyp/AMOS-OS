@@ -18,14 +18,14 @@ rscf:
 
 Its purpose is to make supersession artifacts:
 
-* addressable,
-* discoverable,
-* dependency-visible,
-* provenance-linked,
-* version-aware,
-* scope-aware,
-* auditable,
-* and safely resolvable.
+- addressable,
+- discoverable,
+- dependency-visible,
+- provenance-linked,
+- version-aware,
+- scope-aware,
+- auditable,
+- and safely resolvable.
 
 This artifact does **not** itself supersede another artifact.
 
@@ -122,28 +122,28 @@ The precise executable schema remains dependent on the sibling normative contrac
 
 Primary sibling artifacts:
 
-* [[SUPERSESSION_CANON_SUPERSESSION_CONTRACT]]
-* [[SUPERSESSION_MAP]]
+- [[SUPERSESSION_CANON_SUPERSESSION_CONTRACT]]
+- [[SUPERSESSION_MAP]]
 
 Supporting canonical infrastructure:
 
-* [[LAW_HIERARCHY]]
-* [[AMOS_RSCF_NODES]]
-* [[00_HOME]]
-* [[HML_CANON]]
-* [[PERSISTENCE_CANON]]
+- [[LAW_HIERARCHY]]
+- [[AMOS_RSCF_NODES]]
+- [[00_HOME]]
+- [[HML_CANON]]
+- [[PERSISTENCE_CANON]]
 
 Operational and governance dependencies:
 
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
+- [[KERNEL_README]]
+- [[CONTROL_PLANE_README]]
+- [[OBSERVABILITY_README]]
+- [[OPERATIONS_README]]
 
 Validation references:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+- [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+- [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 These links provide navigation.
 
@@ -236,30 +236,30 @@ This index covers canonical resolution of supersession artifacts under:
 
 Its scope includes:
 
-* supersession contracts,
-* supersession maps,
-* predecessor/successor discovery,
-* canonical lineage navigation,
-* supersession status discovery,
-* version transition references,
-* provenance references,
-* affected dependency discovery,
-* historical-state discovery,
-* supersession validation references,
-* rollback references,
-* and cross-plane navigation.
+- supersession contracts,
+- supersession maps,
+- predecessor/successor discovery,
+- canonical lineage navigation,
+- supersession status discovery,
+- version transition references,
+- provenance references,
+- affected dependency discovery,
+- historical-state discovery,
+- supersession validation references,
+- rollback references,
+- and cross-plane navigation.
 
 It does not independently govern:
 
-* runtime execution,
-* authorization,
-* identity issuance,
-* evidence creation,
-* validation execution,
-* storage implementation,
-* distributed consensus,
-* physical effects,
-* or external-world truth.
+- runtime execution,
+- authorization,
+- identity issuance,
+- evidence creation,
+- validation execution,
+- storage implementation,
+- distributed consensus,
+- physical effects,
+- or external-world truth.
 
 Those remain responsibilities of their respective planes and contracts.
 
@@ -766,31 +766,31 @@ The supersession index participates across AMOS fractal resolution levels.
 
 Determines:
 
-* which canonical plane owns the artifact,
-* whether the supersession crosses domains,
-* which high-level authority governs the transition.
+- which canonical plane owns the artifact,
+- whether the supersession crosses domains,
+- which high-level authority governs the transition.
 
 ### M — Subsystem level
 
 Determines:
 
-* supersession subsystem rules,
-* contract dependencies,
-* lineage topology,
-* validation and control-plane requirements.
+- supersession subsystem rules,
+- contract dependencies,
+- lineage topology,
+- validation and control-plane requirements.
 
 ### L — Detail level
 
 Determines:
 
-* exact artifact identity,
-* version,
-* digest,
-* edge,
-* receipt,
-* changed field,
-* dependency impact,
-* falsifier.
+- exact artifact identity,
+- version,
+- digest,
+- edge,
+- receipt,
+- changed field,
+- dependency impact,
+- falsifier.
 
 Default traversal:
 
@@ -1155,13 +1155,13 @@ Do not load unrelated evidence.
 
 Check for:
 
-* contradictory successor claims,
-* correlated provenance,
-* stale evidence,
-* scope leakage,
-* hidden dependencies,
-* invalid authority,
-* stronger competing candidates.
+- contradictory successor claims,
+- correlated provenance,
+- stale evidence,
+- scope leakage,
+- hidden dependencies,
+- invalid authority,
+- stronger competing candidates.
 
 ### 30.6 Propose
 
@@ -1543,20 +1543,20 @@ depending on severity.
 
 A claim that a supersession is valid is falsified or invalidated by evidence such as:
 
-* predecessor identity mismatch,
-* successor identity mismatch,
-* invalid or revoked authority,
-* failed required validation,
-* stale validation base,
-* scope incompatibility,
-* regime incompatibility,
-* provenance corruption,
-* unresolved competing successor,
-* broken required dependency,
-* invalid transition epoch,
-* failed atomicity requirement,
-* missing mandatory receipt,
-* or evidence that the purported commit never occurred.
+- predecessor identity mismatch,
+- successor identity mismatch,
+- invalid or revoked authority,
+- failed required validation,
+- stale validation base,
+- scope incompatibility,
+- regime incompatibility,
+- provenance corruption,
+- unresolved competing successor,
+- broken required dependency,
+- invalid transition epoch,
+- failed atomicity requirement,
+- missing mandatory receipt,
+- or evidence that the purported commit never occurred.
 
 Falsification should invalidate the dependent supersession conclusion, not unrelated canonical state.
 
@@ -1697,12 +1697,12 @@ AUTHZ_ENGINE_VALIDATION_RECEIPT
 
 must not be interpreted merely from their names as proof that:
 
-* they exist,
-* they executed,
-* they passed,
-* they cover this exact artifact,
-* they remain fresh,
-* or they remain valid in the current regime.
+- they exist,
+- they executed,
+- they passed,
+- they cover this exact artifact,
+- they remain fresh,
+- or they remain valid in the current regime.
 
 Until an applicable executed receipt is inspected and validated, executable binding remains conditional.
 
@@ -1712,29 +1712,29 @@ Until an applicable executed receipt is inspected and validated, executable bind
 
 Before this artifact or its executable bindings are promoted beyond conditional model status:
 
-* [ ] typed schema bound to this artifact
-* [ ] stable artifact identity implemented
-* [ ] explicit versioning implemented
-* [ ] basename ambiguity detection implemented
-* [ ] predecessor/successor resolution implemented
-* [ ] supersession state machine validated
-* [ ] scope applicability validated
-* [ ] regime applicability validated
-* [ ] epoch semantics validated
-* [ ] authority checks validated
-* [ ] provenance edges persisted
-* [ ] dependency impact traversal validated
-* [ ] competing-successor handling validated
-* [ ] stale-base rejection demonstrated
-* [ ] rollback basin demonstrated
-* [ ] lineage-cycle rejection demonstrated
-* [ ] negative cases executed
-* [ ] cross-plane link integrity executed
-* [ ] required receipts persisted
-* [ ] executed validation receipt specific to this artifact exists
-* [ ] critical gaps explicitly registered
-* [ ] `UNKNOWN/GAP` fails closed
-* [ ] predecessor remains historically recoverable
+- [ ] typed schema bound to this artifact
+- [ ] stable artifact identity implemented
+- [ ] explicit versioning implemented
+- [ ] basename ambiguity detection implemented
+- [ ] predecessor/successor resolution implemented
+- [ ] supersession state machine validated
+- [ ] scope applicability validated
+- [ ] regime applicability validated
+- [ ] epoch semantics validated
+- [ ] authority checks validated
+- [ ] provenance edges persisted
+- [ ] dependency impact traversal validated
+- [ ] competing-successor handling validated
+- [ ] stale-base rejection demonstrated
+- [ ] rollback basin demonstrated
+- [ ] lineage-cycle rejection demonstrated
+- [ ] negative cases executed
+- [ ] cross-plane link integrity executed
+- [ ] required receipts persisted
+- [ ] executed validation receipt specific to this artifact exists
+- [ ] critical gaps explicitly registered
+- [ ] `UNKNOWN/GAP` fails closed
+- [ ] predecessor remains historically recoverable
 
 ---
 

@@ -371,17 +371,17 @@ requires evidence supporting transfer.
 
 A proposed expansion SHOULD evaluate:
 
-* population compatibility;
-* environmental compatibility;
-* measurement compatibility;
-* mechanism stability;
-* regime compatibility;
-* temporal compatibility;
-* scale compatibility;
-* provenance;
-* assumptions;
-* known exclusions;
-* distribution shift.
+- population compatibility;
+- environmental compatibility;
+- measurement compatibility;
+- mechanism stability;
+- regime compatibility;
+- temporal compatibility;
+- scale compatibility;
+- provenance;
+- assumptions;
+- known exclusions;
+- distribution shift.
 
 Therefore:
 
@@ -569,19 +569,19 @@ A regime shift occurs when one or more validity-relevant conditions change suffi
 
 Potential triggers include:
 
-* policy change;
-* structural break;
-* market transition;
-* software deployment;
-* architecture change;
-* model update;
-* population shift;
-* sensor change;
-* environmental change;
-* authority change;
-* dependency change;
-* adversarial event;
-* failure or recovery state.
+- policy change;
+- structural break;
+- market transition;
+- software deployment;
+- architecture change;
+- model update;
+- population shift;
+- sensor change;
+- environmental change;
+- authority change;
+- dependency change;
+- adversarial event;
+- failure or recovery state.
 
 Regime shift does not automatically invalidate everything.
 
@@ -712,11 +712,11 @@ validity_window:
 
 A validity window may be:
 
-* source-defined;
-* policy-defined;
-* model-derived;
-* event-triggered;
-* unknown.
+- source-defined;
+- policy-defined;
+- model-derived;
+- event-triggered;
+- unknown.
 
 AMOS MUST preserve which one applies.
 
@@ -878,10 +878,10 @@ Scope may change over time.
 
 Examples:
 
-* a policy expands to new jurisdictions;
-* software deployment reaches more users;
-* an experiment moves to another population;
-* a model's supported domain changes.
+- a policy expands to new jurisdictions;
+- software deployment reaches more users;
+- an experiment moves to another population;
+- a model's supported domain changes.
 
 Therefore scope SHOULD be versioned or temporally bound when material.
 
@@ -1146,13 +1146,13 @@ CONTEXT_STRIPPING = INTEGRITY_RISK
 
 At H, L5 governs:
 
-* global system boundaries;
-* institution-wide regimes;
-* ecosystem conditions;
-* strategic horizons;
-* policy eras;
-* broad authority domains;
-* systemic regime transitions.
+- global system boundaries;
+- institution-wide regimes;
+- ecosystem conditions;
+- strategic horizons;
+- policy eras;
+- broad authority domains;
+- systemic regime transitions.
 
 Example:
 
@@ -1169,12 +1169,12 @@ may constitute an H-level regime shift.
 
 At M, L5 governs:
 
-* subsystem operating modes;
-* workflow regimes;
-* service boundaries;
-* team or component scopes;
-* model deployment contexts;
-* intermediate time horizons.
+- subsystem operating modes;
+- workflow regimes;
+- service boundaries;
+- team or component scopes;
+- model deployment contexts;
+- intermediate time horizons.
 
 A subsystem may enter a different regime while the H-level system remains nominal.
 
@@ -1184,13 +1184,13 @@ A subsystem may enter a different regime while the H-level system remains nomina
 
 At L, L5 governs:
 
-* individual observations;
-* transactions;
-* requests;
-* local states;
-* sensor readings;
-* single actions;
-* short-lived evidence.
+- individual observations;
+- transactions;
+- requests;
+- local states;
+- sensor readings;
+- single actions;
+- short-lived evidence.
 
 L-level evidence can become stale rapidly even while H-level structural conditions remain stable.
 
@@ -1615,12 +1615,12 @@ unless compatibility is established.
 
 They may represent:
 
-* legitimate extension;
-* conflicting evidence;
-* different regimes;
-* different measurements;
-* different populations;
-* provenance duplication.
+- legitimate extension;
+- conflicting evidence;
+- different regimes;
+- different measurements;
+- different populations;
+- provenance duplication.
 
 ---
 
@@ -1773,11 +1773,11 @@ where appropriate.
 
 Quarantine preserves:
 
-* history;
-* provenance;
-* replay;
-* comparison;
-* regime reconstruction.
+- history;
+- provenance;
+- replay;
+- comparison;
+- regime reconstruction.
 
 But quarantined evidence MUST NOT silently support current high-confidence conclusions.
 
@@ -2153,12 +2153,12 @@ L0 supplies the governing requirement that validity context cannot be discarded 
 
 L5 operationalizes that requirement across:
 
-* scope;
-* regime;
-* time;
-* scale;
-* observer;
-* measurement.
+- scope;
+- regime;
+- time;
+- scale;
+- observer;
+- measurement.
 
 If fluency requires removing qualifiers that are load-bearing to correctness:
 
@@ -2202,13 +2202,13 @@ L2 establishes origin and ancestry.
 
 L5 uses that provenance to determine:
 
-* evidence date;
-* measurement context;
-* source scope;
-* source regime;
-* supersession;
-* retraction;
-* version.
+- evidence date;
+- measurement context;
+- source scope;
+- source regime;
+- supersession;
+- retraction;
+- version.
 
 Without provenance, applicability may become impossible to reconstruct.
 
@@ -2242,11 +2242,11 @@ L4 determines whether causal strength is warranted.
 
 L5 determines whether the causal conclusion applies to the requested:
 
-* population;
-* environment;
-* regime;
-* time;
-* scale.
+- population;
+- environment;
+- regime;
+- time;
+- scale.
 
 Therefore:
 
@@ -2374,11 +2374,11 @@ Otherwise memory introduces scope pollution.
 
 Canon statements may themselves have:
 
-* version scope;
-* subsystem scope;
-* effective date;
-* supersession date;
-* applicability conditions.
+- version scope;
+- subsystem scope;
+- effective date;
+- supersession date;
+- applicability conditions.
 
 A later canon revision MUST NOT silently rewrite historical canon provenance.
 
@@ -2469,15 +2469,15 @@ until compatibility is demonstrated.
 
 Benchmark evidence is scoped to:
 
-* benchmark definition;
-* dataset;
-* model/system version;
-* harness;
-* environment;
-* seed where applicable;
-* evaluation protocol;
-* time;
-* metric.
+- benchmark definition;
+- dataset;
+- model/system version;
+- harness;
+- environment;
+- seed where applicable;
+- evaluation protocol;
+- time;
+- metric.
 
 Therefore:
 
@@ -3107,11 +3107,11 @@ L5 SCOPE / REGIME / TEMPORAL
 
 L5 relies particularly on:
 
-* L0 for integrity;
-* L1 for epistemic typing;
-* L2 for provenance and freshness reconstruction;
-* L3 for applicability propagation through dependencies;
-* L4 for preserving the applicability envelope of causal conclusions.
+- L0 for integrity;
+- L1 for epistemic typing;
+- L2 for provenance and freshness reconstruction;
+- L3 for applicability propagation through dependencies;
+- L4 for preserving the applicability envelope of causal conclusions.
 
 L5 MUST NOT weaken earlier laws.
 
@@ -3143,17 +3143,17 @@ A downstream transformation that discards these fields must either prove they ar
 
 L5 does NOT:
 
-* claim that every system has discrete regimes;
-* impose one universal freshness threshold;
-* establish universal time constants;
-* prove that H/M/L mappings are empirical laws;
-* guarantee transfer between populations;
-* replace domain-specific external validity analysis;
-* replace statistical distribution-shift analysis;
-* replace temporal causal inference;
-* grant authority;
-* execute actions;
-* convert placeholders into implementation.
+- claim that every system has discrete regimes;
+- impose one universal freshness threshold;
+- establish universal time constants;
+- prove that H/M/L mappings are empirical laws;
+- guarantee transfer between populations;
+- replace domain-specific external validity analysis;
+- replace statistical distribution-shift analysis;
+- replace temporal causal inference;
+- grant authority;
+- execute actions;
+- convert placeholders into implementation.
 
 ---
 
@@ -3365,13 +3365,13 @@ path: 01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME.md
 
 RSCF-RELATIONS:
 
-* DEPENDS_ON: L0_INTEGRITY
-* DEPENDS_ON: L1_EPISTEMIC
-* DEPENDS_ON: L2_PROVENANCE
-* DEPENDS_ON: L3_DEPENDENCY
-* DEPENDS_ON: L4_CAUSAL
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: AMOS_RSCF_NODES
+- DEPENDS_ON: L0_INTEGRITY
+- DEPENDS_ON: L1_EPISTEMIC
+- DEPENDS_ON: L2_PROVENANCE
+- DEPENDS_ON: L3_DEPENDENCY
+- DEPENDS_ON: L4_CAUSAL
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: AMOS_RSCF_NODES
 
 claim_class: AMOS_MODEL
 

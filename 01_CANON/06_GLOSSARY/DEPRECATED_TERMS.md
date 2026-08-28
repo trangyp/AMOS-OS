@@ -114,14 +114,14 @@ Term lifecycle and claim validity are separate dimensions.
 
 AMOS preserves deprecated terminology because deletion can destroy:
 
-* provenance
-* historical searchability
-* version lineage
-* old RSCF references
-* archived dependency resolution
-* migration understanding
-* supersession evidence
-* semantic-change history
+- provenance
+- historical searchability
+- version lineage
+- old RSCF references
+- archived dependency resolution
+- migration understanding
+- supersession evidence
+- semantic-change history
 
 Therefore:
 
@@ -1345,17 +1345,17 @@ provenance
 
 Review a term when:
 
-* its meaning changes across versions
-* it collides with another canonical identity
-* it encodes misleading authority
-* it implies unsupported completeness
-* it obscures architectural boundaries
-* it conflates epistemic classes
-* it causes causal overreach
-* it breaks provenance
-* it becomes redundant after a governed merge
-* its domain-specific meaning leaks into root canon
-* a newer term more precisely preserves the intended semantics
+- its meaning changes across versions
+- it collides with another canonical identity
+- it encodes misleading authority
+- it implies unsupported completeness
+- it obscures architectural boundaries
+- it conflates epistemic classes
+- it causes causal overreach
+- it breaks provenance
+- it becomes redundant after a governed merge
+- its domain-specific meaning leaks into root canon
+- a newer term more precisely preserves the intended semantics
 
 ---
 

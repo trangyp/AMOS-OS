@@ -98,25 +98,25 @@ L9 answers:
 
 Its purpose is to govern:
 
-* additions;
-* modifications;
-* deletions;
-* migrations;
-* refactors;
-* policy evolution;
-* skill evolution;
-* model evolution;
-* architecture evolution;
-* dependency evolution;
-* memory evolution;
-* control-plane evolution;
-* runtime evolution;
-* canon evolution;
-* experimental changes;
-* promotion;
-* rollback;
-* repair;
-* supersession.
+- additions;
+- modifications;
+- deletions;
+- migrations;
+- refactors;
+- policy evolution;
+- skill evolution;
+- model evolution;
+- architecture evolution;
+- dependency evolution;
+- memory evolution;
+- control-plane evolution;
+- runtime evolution;
+- canon evolution;
+- experimental changes;
+- promotion;
+- rollback;
+- repair;
+- supersession.
 
 The central L9 principle is:
 
@@ -249,13 +249,13 @@ This does not mean additive changes are always optimal.
 
 It means destructive mutation carries a higher governance burden because it can erase:
 
-* provenance;
-* historical behavior;
-* rollback paths;
-* compatibility;
-* negative evidence;
-* earlier canon;
-* dependent assumptions.
+- provenance;
+- historical behavior;
+- rollback paths;
+- compatibility;
+- negative evidence;
+- earlier canon;
+- dependent assumptions.
 
 ---
 
@@ -301,15 +301,15 @@ AUTOMATICALLY SAFE
 
 Additions can still introduce:
 
-* dependency conflicts;
-* authority expansion;
-* new attack surfaces;
-* memory pollution;
-* policy contradictions;
-* performance degradation;
-* ambiguity;
-* duplicated canon;
-* hidden coupling.
+- dependency conflicts;
+- authority expansion;
+- new attack surfaces;
+- memory pollution;
+- policy contradictions;
+- performance degradation;
+- ambiguity;
+- duplicated canon;
+- hidden coupling.
 
 Therefore additive changes still require validation.
 
@@ -564,8 +564,8 @@ depending on dependency direction.
 
 Examples:
 
-* changing a low-level schema may break many subsystems;
-* changing a high-level policy may invalidate many local actions.
+- changing a low-level schema may break many subsystems;
+- changing a high-level policy may invalidate many local actions.
 
 Blast-radius analysis must preserve H/M/L direction.
 
@@ -2484,14 +2484,14 @@ UNKNOWN/GAP
 
 A mutation SHOULD enter quarantine when:
 
-* evidence is contradictory;
-* provenance is ambiguous;
-* regression occurs;
-* authority is unclear;
-* rollback is unavailable;
-* hidden blast radius is discovered;
-* policy conflict exists;
-* candidate behavior cannot be reproduced.
+- evidence is contradictory;
+- provenance is ambiguous;
+- regression occurs;
+- authority is unclear;
+- rollback is unavailable;
+- hidden blast radius is discovered;
+- policy conflict exists;
+- candidate behavior cannot be reproduced.
 
 Quarantine means:
 
@@ -2789,12 +2789,12 @@ unless retention rules explicitly require deletion.
 
 H-level mutation includes:
 
-* canon changes;
-* constitutional policies;
-* root authority changes;
-* core architecture;
-* global execution semantics;
-* organization-wide deployment rules.
+- canon changes;
+- constitutional policies;
+- root authority changes;
+- core architecture;
+- global execution semantics;
+- organization-wide deployment rules.
 
 These carry the largest governance burden.
 
@@ -2804,13 +2804,13 @@ These carry the largest governance burden.
 
 M-level mutation includes:
 
-* control-plane modules;
-* Skills;
-* agent subsystems;
-* policy engines;
-* routing logic;
-* memory subsystems;
-* workflow engines.
+- control-plane modules;
+- Skills;
+- agent subsystems;
+- policy engines;
+- routing logic;
+- memory subsystems;
+- workflow engines.
 
 ---
 
@@ -2818,12 +2818,12 @@ M-level mutation includes:
 
 L-level mutation includes:
 
-* helper functions;
-* local prompts;
-* individual configuration;
-* isolated files;
-* local validators;
-* bounded bug fixes.
+- helper functions;
+- local prompts;
+- individual configuration;
+- isolated files;
+- local validators;
+- bounded bug fixes.
 
 A local mutation MAY still have H/M consequences if dependency fan-out is large.
 
@@ -4433,23 +4433,23 @@ path: 01_CANON/01_CORE_LAWS/L9_EVOLUTION.md
 
 RSCF-RELATIONS:
 
-* CHILD_OF: LAW_HIERARCHY
-* DEPENDS_ON: L0_INTEGRITY
-* DEPENDS_ON: L1_EPISTEMIC
-* DEPENDS_ON: L2_PROVENANCE
-* DEPENDS_ON: L3_DEPENDENCY
-* DEPENDS_ON: L4_CAUSAL
-* DEPENDS_ON: L5_SCOPE_REGIME
-* DEPENDS_ON: L6_UNCERTAINTY
-* DEPENDS_ON: L7_AUTHORITY
-* DEPENDS_ON: L8_EXECUTION
-* GOVERNED_BY: GMEF
-* USES: 01_CANON/08_SUPERSESSION
-* USES: VALIDATION_RECEIPT
-* USES: ROLLBACK
-* USES: REPAIR
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: AMOS_RSCF_NODES
+- CHILD_OF: LAW_HIERARCHY
+- DEPENDS_ON: L0_INTEGRITY
+- DEPENDS_ON: L1_EPISTEMIC
+- DEPENDS_ON: L2_PROVENANCE
+- DEPENDS_ON: L3_DEPENDENCY
+- DEPENDS_ON: L4_CAUSAL
+- DEPENDS_ON: L5_SCOPE_REGIME
+- DEPENDS_ON: L6_UNCERTAINTY
+- DEPENDS_ON: L7_AUTHORITY
+- DEPENDS_ON: L8_EXECUTION
+- GOVERNED_BY: GMEF
+- USES: 01_CANON/08_SUPERSESSION
+- USES: VALIDATION_RECEIPT
+- USES: ROLLBACK
+- USES: REPAIR
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: AMOS_RSCF_NODES
 
 claim_class: AMOS_MODEL
 

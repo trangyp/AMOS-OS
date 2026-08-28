@@ -131,19 +131,19 @@ Within AMOS OS, a **Core Law** is a high-order canonical constraint governing th
 
 A Core Law SHOULD have a stable identity and explicit:
 
-* statement;
-* meaning;
-* scope;
-* non-scope;
-* provenance;
-* version;
-* dependencies;
-* precedence relationships;
-* applicability conditions;
-* exceptions where permitted;
-* supersession lineage;
-* validation state;
-* and governance authority.
+- statement;
+- meaning;
+- scope;
+- non-scope;
+- provenance;
+- version;
+- dependencies;
+- precedence relationships;
+- applicability conditions;
+- exceptions where permitted;
+- supersession lineage;
+- validation state;
+- and governance authority.
 
 A Core Law is not merely an important sentence.
 
@@ -924,23 +924,23 @@ ADMIT LAW
 
 Agents MAY:
 
-* search;
-* extract;
-* compare;
-* normalize;
-* identify conflicts;
-* map dependencies;
-* generate candidate specifications;
-* propose repairs;
-* generate tests.
+- search;
+- extract;
+- compare;
+- normalize;
+- identify conflicts;
+- map dependencies;
+- generate candidate specifications;
+- propose repairs;
+- generate tests.
 
 Agents MUST NOT automatically:
 
-* self-admit generated laws;
-* grant themselves canon authority;
-* erase conflicting source material;
-* rewrite provenance;
-* silently supersede source canon.
+- self-admit generated laws;
+- grant themselves canon authority;
+- erase conflicting source material;
+- rewrite provenance;
+- silently supersede source canon.
 
 ---
 
@@ -1033,23 +1033,23 @@ A prose description is not itself an executable protocol.
 
 A mature Core Law control plane SHOULD be able to:
 
-* resolve law identity;
-* resolve aliases;
-* retrieve applicable laws;
-* evaluate scope;
-* evaluate regime;
-* resolve versions;
-* detect conflicts;
-* resolve precedence where authorized;
-* evaluate exceptions;
-* check supersession;
-* map dependencies;
-* detect stale canonical state;
-* enforce authority;
-* preserve provenance;
-* trigger selective revalidation;
-* record canon decisions;
-* support rollback and recovery.
+- resolve law identity;
+- resolve aliases;
+- retrieve applicable laws;
+- evaluate scope;
+- evaluate regime;
+- resolve versions;
+- detect conflicts;
+- resolve precedence where authorized;
+- evaluate exceptions;
+- check supersession;
+- map dependencies;
+- detect stale canonical state;
+- enforce authority;
+- preserve provenance;
+- trigger selective revalidation;
+- record canon decisions;
+- support rollback and recovery.
 
 This README specifies those requirements conceptually.
 
@@ -1487,14 +1487,14 @@ Rollback preserves failed-version provenance.
 
 This README's proposed governance contract should be rejected or revised if authoritative AMOS canon establishes that:
 
-* Core Laws are intentionally unversioned;
-* law provenance is intentionally irrelevant;
-* supersession need not preserve lineage;
-* lower-level rules may override higher laws without explicit authority;
-* `UNKNOWN/GAP` is intentionally equivalent to approval;
-* canonical status automatically establishes empirical truth;
-* generated agents possess independent canon authority;
-* or a materially different authoritative Core Law governance architecture supersedes this model.
+- Core Laws are intentionally unversioned;
+- law provenance is intentionally irrelevant;
+- supersession need not preserve lineage;
+- lower-level rules may override higher laws without explicit authority;
+- `UNKNOWN/GAP` is intentionally equivalent to approval;
+- canonical status automatically establishes empirical truth;
+- generated agents possess independent canon authority;
+- or a materially different authoritative Core Law governance architecture supersedes this model.
 
 Any such evidence requires reclassification and dependency revalidation.
 
@@ -1664,21 +1664,21 @@ confidence_ceiling: 0
 
 Before this README or its proposed organization is promoted to admitted canonical status, establish or approve:
 
-* authoritative source references;
-* complete Core Law inventory for the declared scope;
-* canonical law identifiers;
-* alias mapping;
-* hierarchy;
-* precedence;
-* dependencies;
-* exceptions;
-* supersession lineage;
-* amendment authority;
-* admission authority;
-* validation requirements;
-* runtime integration contract;
-* revalidation rules;
-* and canon version.
+- authoritative source references;
+- complete Core Law inventory for the declared scope;
+- canonical law identifiers;
+- alias mapping;
+- hierarchy;
+- precedence;
+- dependencies;
+- exceptions;
+- supersession lineage;
+- amendment authority;
+- admission authority;
+- validation requirements;
+- runtime integration contract;
+- revalidation rules;
+- and canon version.
 
 ---
 
@@ -1856,21 +1856,21 @@ canonical_status: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: AMOS_RSCF_NODES
 
-* GOVERNED_BY: CANON_CONTRACT
+- GOVERNED_BY: CANON_CONTRACT
 
-* CONTRACTED_BY: CORE_LAWS_CONTRACT
+- CONTRACTED_BY: CORE_LAWS_CONTRACT
 
-* DEPENDS_ON: [[00_ROOT_MOC]]
+- DEPENDS_ON: [[00_ROOT_MOC]]
 
-* DEPENDS_ON: PROVENANCE
+- DEPENDS_ON: PROVENANCE
 
-* DEPENDS_ON: AUTHORITY
+- DEPENDS_ON: AUTHORITY
 
-* RELATED_TO: AMOS_RSCF_NODES
+- RELATED_TO: AMOS_RSCF_NODES
 
 claim_class: AMOS_MODEL
 

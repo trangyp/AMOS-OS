@@ -156,15 +156,15 @@ It may not infer that reality conforms to those models merely because the models
 
 P1 concerns:
 
-* external environmental constraints;
-* finite resources;
-* irreducible uncertainty;
-* observational contact;
-* environmental novelty;
-* model/world disagreement;
-* falsification opportunities;
-* scope and regime boundaries;
-* externally imposed consequences.
+- external environmental constraints;
+- finite resources;
+- irreducible uncertainty;
+- observational contact;
+- environmental novelty;
+- model/world disagreement;
+- falsification opportunities;
+- scope and regime boundaries;
+- externally imposed consequences.
 
 P1 therefore acts as the outer epistemic constraint surface of downstream AMOS planes.
 
@@ -174,16 +174,16 @@ P1 therefore acts as the outer epistemic constraint surface of downstream AMOS p
 
 P1 does **not**, by itself, establish:
 
-* universal physical laws;
-* a complete ontology of reality;
-* metaphysical realism as proven fact;
-* any specific interpretation of quantum mechanics;
-* thermodynamic equations beyond independently supported scope;
-* biological truth;
-* cosmological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* or the empirical correctness of the AMOS Universe Canon.
+- universal physical laws;
+- a complete ontology of reality;
+- metaphysical realism as proven fact;
+- any specific interpretation of quantum mechanics;
+- thermodynamic equations beyond independently supported scope;
+- biological truth;
+- cosmological truth;
+- mathematical theoremhood;
+- philosophical certainty;
+- or the empirical correctness of the AMOS Universe Canon.
 
 Where such claims are introduced, they require their own evidence and applicability envelope.
 
@@ -615,14 +615,14 @@ $$
 
 because discrepancy can arise from:
 
-* measurement failure;
-* wrong environmental assumptions;
-* regime transition;
-* incorrect scope;
-* hidden confounders;
-* stale evidence;
-* implementation error;
-* model error.
+- measurement failure;
+- wrong environmental assumptions;
+- regime transition;
+- incorrect scope;
+- hidden confounders;
+- stale evidence;
+- implementation error;
+- model error.
 
 Therefore unexpected evidence opens a contradiction-resolution path rather than forcing a predetermined conclusion.
 
@@ -1212,17 +1212,17 @@ PROPOSED_SPECIFICATION
 
 requires at minimum:
 
-* [ ] typed schema bound to P1;
-* [ ] identity/version semantics established;
-* [ ] observation/source distinction enforced;
-* [ ] provenance ancestry preserved;
-* [ ] scope/regime checking implemented;
-* [ ] environmental contradiction remains visible;
-* [ ] negative cases executed;
-* [ ] downstream constraint inheritance demonstrated;
-* [ ] selective invalidation demonstrated;
-* [ ] artifact-specific validation receipt recorded;
-* [ ] unresolved critical gaps remain visible.
+- [ ] typed schema bound to P1;
+- [ ] identity/version semantics established;
+- [ ] observation/source distinction enforced;
+- [ ] provenance ancestry preserved;
+- [ ] scope/regime checking implemented;
+- [ ] environmental contradiction remains visible;
+- [ ] negative cases executed;
+- [ ] downstream constraint inheritance demonstrated;
+- [ ] selective invalidation demonstrated;
+- [ ] artifact-specific validation receipt recorded;
+- [ ] unresolved critical gaps remain visible.
 
 Until then:
 

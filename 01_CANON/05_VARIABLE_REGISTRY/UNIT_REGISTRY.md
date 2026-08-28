@@ -3782,41 +3782,41 @@ Expanded the original placeholder into an AMOS Core v4.4-aligned Unit Registry c
 
 Added:
 
-* canonical quantity identity model;
-* unit record schema;
-* physical, computational, temporal, count, ratio, rate, normalized, logarithmic, and domain-local unit classes;
-* base and derived physical unit references;
-* dimensional vectors;
-* dimensional/semantic firewall;
-* exact and approximate conversions;
-* affine conversions;
-* scale classes;
-* typed counts;
-* percentage and probability rules;
-* confidence/probability firewall;
-* normalized AMOS quantities;
-* rate, throughput, and latency units;
-* timestamps, durations, epochs, and step distinctions;
-* decimal/binary data units;
-* token semantics;
-* 19×19 coordinate/count semantics;
-* graph count typing;
-* scores and index versioning;
-* measurement method and calibration;
-* precision/accuracy/resolution distinctions;
-* uncertainty and interval semantics;
-* missing/zero/undefined firewall;
-* dimensional-analysis gates;
-* currency and cost units;
-* infrastructure quantity semantics;
-* schema/API/storage/logging unit safety;
-* provenance-aware conversion;
-* freshness, regime, and scope requirements;
-* unit invariants;
-* test families;
-* adversarial tests;
-* anti-fabrication rules;
-* promotion gate.
+- canonical quantity identity model;
+- unit record schema;
+- physical, computational, temporal, count, ratio, rate, normalized, logarithmic, and domain-local unit classes;
+- base and derived physical unit references;
+- dimensional vectors;
+- dimensional/semantic firewall;
+- exact and approximate conversions;
+- affine conversions;
+- scale classes;
+- typed counts;
+- percentage and probability rules;
+- confidence/probability firewall;
+- normalized AMOS quantities;
+- rate, throughput, and latency units;
+- timestamps, durations, epochs, and step distinctions;
+- decimal/binary data units;
+- token semantics;
+- 19×19 coordinate/count semantics;
+- graph count typing;
+- scores and index versioning;
+- measurement method and calibration;
+- precision/accuracy/resolution distinctions;
+- uncertainty and interval semantics;
+- missing/zero/undefined firewall;
+- dimensional-analysis gates;
+- currency and cost units;
+- infrastructure quantity semantics;
+- schema/API/storage/logging unit safety;
+- provenance-aware conversion;
+- freshness, regime, and scope requirements;
+- unit invariants;
+- test families;
+- adversarial tests;
+- anti-fabrication rules;
+- promotion gate.
 
 ---
 

@@ -1844,37 +1844,37 @@ Expanded the placeholder into an AMOS v4.4-aligned seven-part architectural cano
 
 Added:
 
-* seven semantic universe parts;
-* hard separation laws;
-* Reality / Environment layer;
-* Sense / Evidence layer;
-* Knowledge / Memory layer;
-* Cognition / Models layer;
-* Governance / Authority layer;
-* Execution / Agency layer;
-* Evolution / Learning layer;
-* RSCF integration;
-* H/M/L recursion;
-* epistemic classes;
-* competing hypotheses;
-* causal firewall;
-* authority firewall;
-* execution firewall;
-* evolution firewall;
-* anti-regression;
-* provenance topology;
-* Sybil hardening;
-* scope/regime/freshness controls;
-* confidence ceilings;
-* adaptive complexity;
-* v4.4 fast path;
-* proof-based coordination avoidance;
-* causal epoch finality;
-* local failure recovery;
-* typed gap handling;
-* repository-plane mapping;
-* minimum seven-part invariant set;
-* explicit empirical/canon boundary.
+- seven semantic universe parts;
+- hard separation laws;
+- Reality / Environment layer;
+- Sense / Evidence layer;
+- Knowledge / Memory layer;
+- Cognition / Models layer;
+- Governance / Authority layer;
+- Execution / Agency layer;
+- Evolution / Learning layer;
+- RSCF integration;
+- H/M/L recursion;
+- epistemic classes;
+- competing hypotheses;
+- causal firewall;
+- authority firewall;
+- execution firewall;
+- evolution firewall;
+- anti-regression;
+- provenance topology;
+- Sybil hardening;
+- scope/regime/freshness controls;
+- confidence ceilings;
+- adaptive complexity;
+- v4.4 fast path;
+- proof-based coordination avoidance;
+- causal epoch finality;
+- local failure recovery;
+- typed gap handling;
+- repository-plane mapping;
+- minimum seven-part invariant set;
+- explicit empirical/canon boundary.
 
 ## v1.0.0 — 2026-08-25
 

@@ -5361,4 +5361,3 @@ RSCF-RELATIONS:
 ```
 
 The main additional integrity issue in this artifact is the identifier asymmetry: the frontmatter gives `artifact_id: 01_canon_01_core_laws_feedback_canon`, while the RSCF block gives `node_id: amos_01_canon_01_core_laws_feedback_canon`. Both are preserved rather than silently merged; their equivalence or namespace relationship remains `UNKNOWN/GAP` pending the native identity/versioning rule.
-

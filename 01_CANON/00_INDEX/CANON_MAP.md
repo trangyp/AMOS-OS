@@ -1934,30 +1934,30 @@ Promoted the original structural placeholder into an AMOS v4.4-aligned canon top
 
 Added:
 
-* canonical authority boundary;
-* conclusion and evidence classes;
-* provenance topology;
-* source-independence firewall;
-* dependency closure;
-* confidence ceiling;
-* scope/regime/freshness firewalls;
-* causal firewall;
-* competing-hypothesis preservation;
-* promotion lifecycle;
-* supersession and rollback;
-* AMOS_CORE lineage;
-* v4.4 local-proof fast path;
-* adversarial validation;
-* sensitivity;
-* gap classification;
-* conflict taxonomy;
-* canon/knowledge/research/memory/kernel/control-plane/runtime relationships;
-* version-identity firewall;
-* anti-regression gate;
-* failure registry;
-* hard canon invariants;
-* integrity audit checklist;
-* RSCF canon-map node.
+- canonical authority boundary;
+- conclusion and evidence classes;
+- provenance topology;
+- source-independence firewall;
+- dependency closure;
+- confidence ceiling;
+- scope/regime/freshness firewalls;
+- causal firewall;
+- competing-hypothesis preservation;
+- promotion lifecycle;
+- supersession and rollback;
+- AMOS_CORE lineage;
+- v4.4 local-proof fast path;
+- adversarial validation;
+- sensitivity;
+- gap classification;
+- conflict taxonomy;
+- canon/knowledge/research/memory/kernel/control-plane/runtime relationships;
+- version-identity firewall;
+- anti-regression gate;
+- failure registry;
+- hard canon invariants;
+- integrity audit checklist;
+- RSCF canon-map node.
 
 ## v1.0.0 — 2026-08-25
 

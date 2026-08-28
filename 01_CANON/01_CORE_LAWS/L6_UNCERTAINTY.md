@@ -63,18 +63,18 @@ The supplied `0.95` hard confidence ceiling is retained as part of the proposed 
 
 L6 exists to make uncertainty:
 
-* explicit;
-* typed;
-* scoped;
-* dependency-aware;
-* provenance-aware;
-* regime-aware;
-* temporally bounded;
-* non-collapsible;
-* selectively reducible;
-* propagatable through RSCF;
-* auditable by validators;
-* actionable without fabrication.
+- explicit;
+- typed;
+- scoped;
+- dependency-aware;
+- provenance-aware;
+- regime-aware;
+- temporally bounded;
+- non-collapsible;
+- selectively reducible;
+- propagatable through RSCF;
+- auditable by validators;
+- actionable without fabrication.
 
 The primary law is:
 
@@ -233,12 +233,12 @@ unless a specific calibrated statistical interpretation has been established.
 
 When alternatives are:
 
-* incompatible;
-* incomparable;
-* differently scoped;
-* supported by correlated evidence;
-* insufficiently discriminated;
-* approximately equally supported;
+- incompatible;
+- incomparable;
+- differently scoped;
+- supported by correlated evidence;
+- insufficiently discriminated;
+- approximately equally supported;
 
 AMOS MUST preserve them as:
 
@@ -382,15 +382,15 @@ MORE_REASONING != MORE_EVIDENCE
 
 Legitimate reduction requires something such as:
 
-* new evidence;
-* stronger provenance;
-* successful validation;
-* discriminating observation;
-* resolved dependency;
-* narrowed scope;
-* better measurement;
-* successful execution test;
-* formal proof where applicable.
+- new evidence;
+- stronger provenance;
+- successful validation;
+- discriminating observation;
+- resolved dependency;
+- narrowed scope;
+- better measurement;
+- successful execution test;
+- formal proof where applicable.
 
 ---
 
@@ -477,14 +477,14 @@ Evidence uncertainty concerns the quality and completeness of evidence supportin
 
 Sources include:
 
-* missing observations;
-* small samples;
-* noisy measurements;
-* incomplete records;
-* conflicting observations;
-* measurement error;
-* unverified reports;
-* indirect evidence.
+- missing observations;
+- small samples;
+- noisy measurements;
+- incomplete records;
+- conflicting observations;
+- measurement error;
+- unverified reports;
+- indirect evidence.
 
 Example:
 
@@ -505,13 +505,13 @@ Model uncertainty concerns whether the selected representation or explanatory mo
 
 Examples:
 
-* model misspecification;
-* omitted variables;
-* competing models;
-* unstable parameters;
-* approximation error;
-* extrapolation;
-* unvalidated assumptions.
+- model misspecification;
+- omitted variables;
+- competing models;
+- unstable parameters;
+- approximation error;
+- extrapolation;
+- unvalidated assumptions.
 
 Therefore:
 
@@ -558,12 +558,12 @@ not universal applicability.
 
 Temporal uncertainty concerns:
 
-* unknown evidence age;
-* uncertain event ordering;
-* uncertain freshness;
-* uncertain validity duration;
-* delayed observations;
-* possible regime transition.
+- unknown evidence age;
+- uncertain event ordering;
+- uncertain freshness;
+- uncertain validity duration;
+- delayed observations;
+- possible regime transition.
 
 Example:
 
@@ -583,16 +583,16 @@ Temporal uncertainty does not necessarily invalidate historical claims but may i
 
 Causal uncertainty concerns uncertainty over whether observed relationships represent:
 
-* association;
-* correlation;
-* enabling condition;
-* mediator;
-* confounder;
-* feedback;
-* mechanism;
-* necessary condition;
-* sufficient condition;
-* causal effect.
+- association;
+- correlation;
+- enabling condition;
+- mediator;
+- confounder;
+- feedback;
+- mechanism;
+- necessary condition;
+- sufficient condition;
+- causal effect.
 
 L6 MUST NOT resolve causal uncertainty merely through confidence language.
 
@@ -612,14 +612,14 @@ Execution uncertainty concerns whether a proposed operation will actually produc
 
 It includes:
 
-* runtime uncertainty;
-* environmental uncertainty;
-* tool availability;
-* dependency state;
-* external-state mutation;
-* concurrency;
-* commit failure;
-* implementation mismatch.
+- runtime uncertainty;
+- environmental uncertainty;
+- tool availability;
+- dependency state;
+- external-state mutation;
+- concurrency;
+- commit failure;
+- implementation mismatch.
 
 Therefore:
 
@@ -944,11 +944,11 @@ A critical gap prevents a safe or justified conclusion.
 
 Examples:
 
-* unknown authority for irreversible action;
-* missing load-bearing evidence;
-* unknown target identity;
-* unresolved safety constraint;
-* unknown regime where decision depends on regime.
+- unknown authority for irreversible action;
+- missing load-bearing evidence;
+- unknown target identity;
+- unresolved safety constraint;
+- unknown regime where decision depends on regime.
 
 Required response:
 
@@ -988,12 +988,12 @@ It SHOULD remain visible but need not block action when action sufficiency is ot
 
 A cosmetic gap does not materially alter:
 
-* validity;
-* decision;
-* authority;
-* execution;
-* provenance;
-* safety.
+- validity;
+- decision;
+- authority;
+- execution;
+- provenance;
+- safety.
 
 It has lowest repair priority.
 
@@ -1099,13 +1099,13 @@ competing:
 
 AMOS SHOULD preserve:
 
-* independent support;
-* shared evidence;
-* contradictory evidence;
-* provenance ancestry;
-* scope;
-* regime;
-* falsifiers.
+- independent support;
+- shared evidence;
+- contradictory evidence;
+- provenance ancestry;
+- scope;
+- regime;
+- falsifiers.
 
 ---
 
@@ -1127,9 +1127,9 @@ P(H1) + P(H2) + P(H3) = 1
 
 unless the hypotheses are demonstrably:
 
-* mutually exclusive;
-* collectively exhaustive;
-* represented within a valid probabilistic model.
+- mutually exclusive;
+- collectively exhaustive;
+- represented within a valid probabilistic model.
 
 Therefore:
 
@@ -1143,11 +1143,11 @@ COMPETING_SET != PROBABILITY_DISTRIBUTION
 
 Some alternatives cannot be ranked because they:
 
-* answer different questions;
-* operate at different scales;
-* rely on incompatible measurements;
-* belong to different regimes;
-* have non-comparable evidence.
+- answer different questions;
+- operate at different scales;
+- rely on incompatible measurements;
+- belong to different regimes;
+- have non-comparable evidence.
 
 Such hypotheses SHOULD remain:
 
@@ -1240,16 +1240,16 @@ AUTHORITY WITHOUT EVIDENCE
 
 Uncertainty SHOULD increase or confidence SHOULD decrease when:
 
-* contradiction appears;
-* provenance becomes ambiguous;
-* source is retracted;
-* regime shifts;
-* evidence becomes stale;
-* model assumptions fail;
-* dependency changes;
-* execution diverges from prediction;
-* independent challenge succeeds;
-* measurement reliability degrades.
+- contradiction appears;
+- provenance becomes ambiguous;
+- source is retracted;
+- regime shifts;
+- evidence becomes stale;
+- model assumptions fail;
+- dependency changes;
+- execution diverges from prediction;
+- independent challenge succeeds;
+- measurement reliability degrades.
 
 Thus confidence is reversible.
 
@@ -1291,13 +1291,13 @@ CONFLICT
 
 The system SHOULD investigate:
 
-* scope mismatch;
-* regime mismatch;
-* temporal mismatch;
-* source ancestry;
-* measurement mismatch;
-* version mismatch;
-* actual logical contradiction.
+- scope mismatch;
+- regime mismatch;
+- temporal mismatch;
+- source ancestry;
+- measurement mismatch;
+- version mismatch;
+- actual logical contradiction.
 
 Until resolved:
 
@@ -1311,12 +1311,12 @@ CONFLICT != CONSENSUS
 
 A system MUST NOT hide contradiction by:
 
-* averaging confidence;
-* deleting minority evidence;
-* choosing the newest source automatically;
-* choosing the most authoritative source automatically;
-* choosing the most fluent explanation;
-* merging incompatible claims.
+- averaging confidence;
+- deleting minority evidence;
+- choosing the newest source automatically;
+- choosing the most authoritative source automatically;
+- choosing the most fluent explanation;
+- merging incompatible claims.
 
 Contradiction remains visible until legitimately resolved.
 
@@ -1326,12 +1326,12 @@ Contradiction remains visible until legitimately resolved.
 
 Source uncertainty concerns whether the originating source itself is:
 
-* authentic;
-* complete;
-* accurately represented;
-* current;
-* correctly attributed;
-* within scope.
+- authentic;
+- complete;
+- accurately represented;
+- current;
+- correctly attributed;
+- within scope.
 
 Example:
 
@@ -1349,13 +1349,13 @@ uncertainty:
 
 Derived uncertainty arises through transformations such as:
 
-* inference;
-* aggregation;
-* compression;
-* translation;
-* abstraction;
-* cross-scale mapping;
-* causal interpretation.
+- inference;
+- aggregation;
+- compression;
+- translation;
+- abstraction;
+- cross-scale mapping;
+- causal interpretation.
 
 A transformation may introduce uncertainty even when inputs are reliable.
 
@@ -1600,12 +1600,12 @@ L6 prevents predicted execution confidence from masquerading as implementation e
 
 At H, uncertainty may concern:
 
-* system objectives;
-* governing constraints;
-* institutional environment;
-* strategic regime;
-* system-wide causal structure;
-* global dependency state.
+- system objectives;
+- governing constraints;
+- institutional environment;
+- strategic regime;
+- system-wide causal structure;
+- global dependency state.
 
 H-level uncertainty may constrain many downstream conclusions.
 
@@ -1615,12 +1615,12 @@ H-level uncertainty may constrain many downstream conclusions.
 
 At M, uncertainty may concern:
 
-* subsystem state;
-* workflow;
-* component interaction;
-* policy interpretation;
-* model selection;
-* intermediate dependencies.
+- subsystem state;
+- workflow;
+- component interaction;
+- policy interpretation;
+- model selection;
+- intermediate dependencies.
 
 M uncertainty may propagate upward or downward depending on dependency structure.
 
@@ -1630,12 +1630,12 @@ M uncertainty may propagate upward or downward depending on dependency structure
 
 At L, uncertainty may concern:
 
-* observation;
-* transaction;
-* measurement;
-* tool result;
-* local state;
-* individual execution.
+- observation;
+- transaction;
+- measurement;
+- tool result;
+- local state;
+- individual execution.
 
 Local uncertainty does not automatically imply system-wide uncertainty.
 
@@ -1939,12 +1939,12 @@ This prevents unnecessary paralysis.
 
 Required certainty SHOULD increase as:
 
-* stakes rise;
-* reversibility falls;
-* downstream dependency grows;
-* safety exposure rises;
-* financial/legal consequences rise;
-* institutional impact increases.
+- stakes rise;
+- reversibility falls;
+- downstream dependency grows;
+- safety exposure rises;
+- financial/legal consequences rise;
+- institutional impact increases.
 
 Conceptually:
 
@@ -2055,15 +2055,15 @@ Consequential conclusions SHOULD be challenged using a genuinely different path.
 
 The challenge seeks:
 
-* contradiction;
-* hidden dependency;
-* correlated provenance;
-* stale evidence;
-* scope leakage;
-* regime leakage;
-* causal overreach;
-* stronger competing explanation;
-* execution assumption failure.
+- contradiction;
+- hidden dependency;
+- correlated provenance;
+- stale evidence;
+- scope leakage;
+- regime leakage;
+- causal overreach;
+- stronger competing explanation;
+- execution assumption failure.
 
 If challenge succeeds:
 
@@ -2083,11 +2083,11 @@ Multiple agents agreeing does not necessarily reduce uncertainty.
 
 If all agents share:
 
-* same prompt;
-* same model;
-* same source;
-* same retrieval;
-* same hidden assumption;
+- same prompt;
+- same model;
+- same source;
+- same retrieval;
+- same hidden assumption;
 
 their agreement may be correlated.
 
@@ -2105,10 +2105,10 @@ INDEPENDENT_CONFIRMATION
 
 Agent or model ensembles MAY provide useful evidence only when:
 
-* diversity is material;
-* independence is evaluated;
-* shared ancestry is known;
-* aggregation semantics are justified.
+- diversity is material;
+- independence is evaluated;
+- shared ancestry is known;
+- aggregation semantics are justified.
 
 Otherwise ensemble consensus must remain a weak signal.
 
@@ -2178,11 +2178,11 @@ CREATE CERTAINTY
 
 Translation across:
 
-* languages;
-* schemas;
-* abstractions;
-* scales;
-* domains;
+- languages;
+- schemas;
+- abstractions;
+- scales;
+- domains;
 
 may introduce uncertainty.
 
@@ -3423,15 +3423,15 @@ path: 01_CANON/01_CORE_LAWS/L6_UNCERTAINTY.md
 
 RSCF-RELATIONS:
 
-* CHILD_OF: LAW_HIERARCHY
-* DEPENDS_ON: L0_INTEGRITY
-* DEPENDS_ON: L1_EPISTEMIC
-* DEPENDS_ON: L2_PROVENANCE
-* DEPENDS_ON: L3_DEPENDENCY
-* DEPENDS_ON: L4_CAUSAL
-* DEPENDS_ON: L5_SCOPE_REGIME
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: AMOS_RSCF_NODES
+- CHILD_OF: LAW_HIERARCHY
+- DEPENDS_ON: L0_INTEGRITY
+- DEPENDS_ON: L1_EPISTEMIC
+- DEPENDS_ON: L2_PROVENANCE
+- DEPENDS_ON: L3_DEPENDENCY
+- DEPENDS_ON: L4_CAUSAL
+- DEPENDS_ON: L5_SCOPE_REGIME
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: AMOS_RSCF_NODES
 
 claim_class: AMOS_MODEL
 

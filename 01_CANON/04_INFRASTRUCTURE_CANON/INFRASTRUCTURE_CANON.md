@@ -3174,39 +3174,39 @@ Expanded the infrastructure placeholder into an AMOS Core v4.4-aligned canon can
 
 Added:
 
-* infrastructure authority firewall;
-* H/M/L infrastructure decomposition;
-* compute, storage, and network substrates;
-* resource identity and provenance;
-* isolation and trust boundaries;
-* authoritative-state storage separation;
-* persistence and durability boundaries;
-* MVCC/CAS infrastructure support concepts;
-* atomicity scope;
-* multi-RSCF persistence requirements;
-* fault-domain and correlated-failure topology;
-* configuration and environment governance;
-* deployment and rollout architecture;
-* rollback and recovery;
-* dependency closure;
-* health, liveness, and readiness distinctions;
-* capacity and scaling;
-* resource governance and backpressure;
-* availability and resilience;
-* replication, backup, and restore distinctions;
-* security substrate;
-* external dependency firewall;
-* RSCF evidence typing;
-* freshness and regime awareness;
-* causal firewall;
-* causal epoch integration;
-* proof-based coordination avoidance;
-* lifecycle and topology registries;
-* infrastructure invariants;
-* test families and adversarial tests;
-* proof obligations;
-* implementation firewall;
-* promotion gate.
+- infrastructure authority firewall;
+- H/M/L infrastructure decomposition;
+- compute, storage, and network substrates;
+- resource identity and provenance;
+- isolation and trust boundaries;
+- authoritative-state storage separation;
+- persistence and durability boundaries;
+- MVCC/CAS infrastructure support concepts;
+- atomicity scope;
+- multi-RSCF persistence requirements;
+- fault-domain and correlated-failure topology;
+- configuration and environment governance;
+- deployment and rollout architecture;
+- rollback and recovery;
+- dependency closure;
+- health, liveness, and readiness distinctions;
+- capacity and scaling;
+- resource governance and backpressure;
+- availability and resilience;
+- replication, backup, and restore distinctions;
+- security substrate;
+- external dependency firewall;
+- RSCF evidence typing;
+- freshness and regime awareness;
+- causal firewall;
+- causal epoch integration;
+- proof-based coordination avoidance;
+- lifecycle and topology registries;
+- infrastructure invariants;
+- test families and adversarial tests;
+- proof obligations;
+- implementation firewall;
+- promotion gate.
 
 ## v1.0.0 — 2026-08-25
 

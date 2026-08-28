@@ -1379,13 +1379,13 @@ A passing test suite does not automatically establish that every production exec
 
 Required:
 
-* [ ] substantive CAS content exists;
-* [ ] source is native AMOS canon lineage or is otherwise explicitly authorized for native-canon ingestion;
-* [ ] source identity is resolved;
-* [ ] source version is resolved;
-* [ ] source provenance is preserved;
-* [ ] canonical intent is established;
-* [ ] semantic meaning of `CAS` is explicit.
+- [ ] substantive CAS content exists;
+- [ ] source is native AMOS canon lineage or is otherwise explicitly authorized for native-canon ingestion;
+- [ ] source identity is resolved;
+- [ ] source version is resolved;
+- [ ] source provenance is preserved;
+- [ ] canonical intent is established;
+- [ ] semantic meaning of `CAS` is explicit.
 
 Until these pass:
 
@@ -1399,14 +1399,14 @@ canonical_status = UNKNOWN/GAP
 
 Required:
 
-* [ ] typed schema bound;
-* [ ] artifact identity implemented;
-* [ ] version represented;
-* [ ] source lineage represented;
-* [ ] claim classes represented;
-* [ ] applicability represented;
-* [ ] dependencies represented;
-* [ ] invalidation conditions represented.
+- [ ] typed schema bound;
+- [ ] artifact identity implemented;
+- [ ] version represented;
+- [ ] source lineage represented;
+- [ ] claim classes represented;
+- [ ] applicability represented;
+- [ ] dependencies represented;
+- [ ] invalidation conditions represented.
 
 ---
 
@@ -1414,18 +1414,18 @@ Required:
 
 Required negative cases include:
 
-* [ ] missing source;
-* [ ] malformed source;
-* [ ] duplicate source;
-* [ ] conflicting source;
-* [ ] unknown version;
-* [ ] stale version;
-* [ ] broken provenance;
-* [ ] unauthorized mutation;
-* [ ] stale authority;
-* [ ] ambiguous CAS identity;
-* [ ] unresolved dependency;
-* [ ] rollback failure.
+- [ ] missing source;
+- [ ] malformed source;
+- [ ] duplicate source;
+- [ ] conflicting source;
+- [ ] unknown version;
+- [ ] stale version;
+- [ ] broken provenance;
+- [ ] unauthorized mutation;
+- [ ] stale authority;
+- [ ] ambiguous CAS identity;
+- [ ] unresolved dependency;
+- [ ] rollback failure.
 
 ---
 
@@ -1433,13 +1433,13 @@ Required negative cases include:
 
 Required:
 
-* [ ] provenance edges persisted;
-* [ ] ancestry recoverable;
-* [ ] duplicate ancestry detectable;
-* [ ] historical sources retained;
-* [ ] supersession edges represented;
-* [ ] external evidence remains externally typed;
-* [ ] native-canon provenance remains distinguishable.
+- [ ] provenance edges persisted;
+- [ ] ancestry recoverable;
+- [ ] duplicate ancestry detectable;
+- [ ] historical sources retained;
+- [ ] supersession edges represented;
+- [ ] external evidence remains externally typed;
+- [ ] native-canon provenance remains distinguishable.
 
 ---
 
@@ -1447,12 +1447,12 @@ Required:
 
 Required:
 
-* [ ] rollback basin exists;
-* [ ] prior version recoverable;
-* [ ] failure evidence preserved;
-* [ ] partial promotion cannot silently corrupt canonical state;
-* [ ] unaffected canon remains unchanged;
-* [ ] recovery receipt generated.
+- [ ] rollback basin exists;
+- [ ] prior version recoverable;
+- [ ] failure evidence preserved;
+- [ ] partial promotion cannot silently corrupt canonical state;
+- [ ] unaffected canon remains unchanged;
+- [ ] recovery receipt generated.
 
 ---
 

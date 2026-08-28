@@ -66,19 +66,19 @@ The purpose is not merely hierarchical organization.
 
 H/M/L provides a governed mechanism for:
 
-* progressive knowledge retrieval;
-* context minimization;
-* dependency-directed traversal;
-* provenance preservation;
-* uncertainty-directed escalation;
-* RSCF resolution;
-* evidence loading;
-* contradiction localization;
-* scope and regime control;
-* freshness checking;
-* selective invalidation;
-* proof reuse;
-* efficient reasoning without integrity loss.
+- progressive knowledge retrieval;
+- context minimization;
+- dependency-directed traversal;
+- provenance preservation;
+- uncertainty-directed escalation;
+- RSCF resolution;
+- evidence loading;
+- contradiction localization;
+- scope and regime control;
+- freshness checking;
+- selective invalidation;
+- proof reuse;
+- efficient reasoning without integrity loss.
 
 The canonical retrieval law is:
 
@@ -2271,25 +2271,25 @@ ACTIVE_CANON
 
 requires canonical review of:
 
-* exact H/M/L definitions;
-* recursive semantics;
-* node identity;
-* RSCF relationship;
-* provenance topology;
-* retrieval rules;
-* dependency closure;
-* scope inheritance;
-* regime handling;
-* freshness semantics;
-* contradiction preservation;
-* competing-hypothesis behavior;
-* raw-evidence escalation;
-* fast-path conditions;
-* proof reuse;
-* invalidation behavior;
-* version/supersession behavior;
-* repository mappings;
-* implementation/test evidence where implementation claims are made.
+- exact H/M/L definitions;
+- recursive semantics;
+- node identity;
+- RSCF relationship;
+- provenance topology;
+- retrieval rules;
+- dependency closure;
+- scope inheritance;
+- regime handling;
+- freshness semantics;
+- contradiction preservation;
+- competing-hypothesis behavior;
+- raw-evidence escalation;
+- fast-path conditions;
+- proof reuse;
+- invalidation behavior;
+- version/supersession behavior;
+- repository mappings;
+- implementation/test evidence where implementation claims are made.
 
 Until then, this document remains an AMOS architectural model.
 
@@ -2393,46 +2393,46 @@ Expanded the placeholder into an AMOS v4.4-aligned H/M/L canon candidate.
 
 Added:
 
-* formal H/M/L definitions;
-* raw-evidence layer;
-* recursive/fractal semantics;
-* contextual resolution roles;
-* identity firewall;
-* smallest-sufficient retrieval;
-* dependency-directed traversal;
-* bootstrap capsules;
-* RSCF integration;
-* proof capsule reuse;
-* provenance preservation;
-* provenance topology and Sybil hardening;
-* scope/regime/freshness inheritance;
-* contradiction handling;
-* competing hypotheses;
-* causal firewall;
-* authority/canon/memory firewalls;
-* adaptive complexity;
-* claim/decision/action sufficiency;
-* sensitivity-directed retrieval;
-* uncertainty-directed retrieval;
-* v4.4 fast-path conditions;
-* atomic multi-RSCF retrieval;
-* cross-H dependency closure;
-* proof-based coordination avoidance;
-* persistent provenance alignment;
-* MVCC/CAS conceptual alignment;
-* supersession/versioning;
-* lifecycle semantics;
-* placeholder firewall;
-* local failure recovery;
-* 7-Part Universe mapping;
-* node contracts;
-* retrieval trace;
-* adversarial validation;
-* confidence ceilings;
-* compression invariants;
-* canonical retrieval algorithm;
-* anti-patterns;
-* validation requirements.
+- formal H/M/L definitions;
+- raw-evidence layer;
+- recursive/fractal semantics;
+- contextual resolution roles;
+- identity firewall;
+- smallest-sufficient retrieval;
+- dependency-directed traversal;
+- bootstrap capsules;
+- RSCF integration;
+- proof capsule reuse;
+- provenance preservation;
+- provenance topology and Sybil hardening;
+- scope/regime/freshness inheritance;
+- contradiction handling;
+- competing hypotheses;
+- causal firewall;
+- authority/canon/memory firewalls;
+- adaptive complexity;
+- claim/decision/action sufficiency;
+- sensitivity-directed retrieval;
+- uncertainty-directed retrieval;
+- v4.4 fast-path conditions;
+- atomic multi-RSCF retrieval;
+- cross-H dependency closure;
+- proof-based coordination avoidance;
+- persistent provenance alignment;
+- MVCC/CAS conceptual alignment;
+- supersession/versioning;
+- lifecycle semantics;
+- placeholder firewall;
+- local failure recovery;
+- 7-Part Universe mapping;
+- node contracts;
+- retrieval trace;
+- adversarial validation;
+- confidence ceilings;
+- compression invariants;
+- canonical retrieval algorithm;
+- anti-patterns;
+- validation requirements.
 
 ## v1.0.0 — 2026-08-25
 

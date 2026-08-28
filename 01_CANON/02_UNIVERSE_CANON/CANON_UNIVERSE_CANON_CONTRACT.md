@@ -2530,28 +2530,28 @@ unregistered supersession
 
 Before promotion beyond the present `AMOS_MODEL / CONDITIONAL` state:
 
-* [ ] typed schema bound to this artifact
-* [ ] artifact identity implemented
-* [ ] version resolution implemented
-* [ ] scope binding implemented
-* [ ] regime binding implemented
-* [ ] authority reference contract implemented
-* [ ] policy-epoch validation implemented
-* [ ] causal-epoch validation implemented where applicable
-* [ ] provenance-epoch validation implemented
-* [ ] dependency closure implemented
-* [ ] provenance edges persisted
-* [ ] provenance independence validated
-* [ ] competing hypotheses preserved
-* [ ] stale evidence rejected or revalidated
-* [ ] proposal/commit separation enforced
-* [ ] consequential receipts persisted
-* [ ] rollback basin demonstrated
-* [ ] selective invalidation demonstrated
-* [ ] negative cases covered
-* [ ] supersession lineage demonstrated
-* [ ] artifact-specific validation receipt executed
-* [ ] unresolved critical gaps remain visibly `UNKNOWN/GAP`
+- [ ] typed schema bound to this artifact
+- [ ] artifact identity implemented
+- [ ] version resolution implemented
+- [ ] scope binding implemented
+- [ ] regime binding implemented
+- [ ] authority reference contract implemented
+- [ ] policy-epoch validation implemented
+- [ ] causal-epoch validation implemented where applicable
+- [ ] provenance-epoch validation implemented
+- [ ] dependency closure implemented
+- [ ] provenance edges persisted
+- [ ] provenance independence validated
+- [ ] competing hypotheses preserved
+- [ ] stale evidence rejected or revalidated
+- [ ] proposal/commit separation enforced
+- [ ] consequential receipts persisted
+- [ ] rollback basin demonstrated
+- [ ] selective invalidation demonstrated
+- [ ] negative cases covered
+- [ ] supersession lineage demonstrated
+- [ ] artifact-specific validation receipt executed
+- [ ] unresolved critical gaps remain visibly `UNKNOWN/GAP`
 
 ---
 

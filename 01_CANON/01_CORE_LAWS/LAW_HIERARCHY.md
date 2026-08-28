@@ -2012,33 +2012,33 @@ Expanded placeholder into an AMOS v4.4 law-hierarchy model.
 
 Added:
 
-* constitutional authority stack;
-* L0–L9 hierarchy;
-* typed authority;
-* scoped authority;
-* precedence semantics;
-* conflict-resolution protocol;
-* specificity and specialization rules;
-* exception contracts;
-* override contracts;
-* supersession semantics;
-* semantic identity firewall;
-* version and temporal precedence;
-* regime and scope firewalls;
-* provenance topology;
-* plane authority boundaries;
-* RSCF law binding;
-* multi-RSCF authority;
-* fast-path governance;
-* proof-based coordination avoidance;
-* causal epoch finality;
-* promotion/demotion;
-* selective invalidation;
-* rollback;
-* anti-regression;
-* law-change proposal and commit gates;
-* authoritative-state separation;
-* minimum hierarchy-law registry.
+- constitutional authority stack;
+- L0–L9 hierarchy;
+- typed authority;
+- scoped authority;
+- precedence semantics;
+- conflict-resolution protocol;
+- specificity and specialization rules;
+- exception contracts;
+- override contracts;
+- supersession semantics;
+- semantic identity firewall;
+- version and temporal precedence;
+- regime and scope firewalls;
+- provenance topology;
+- plane authority boundaries;
+- RSCF law binding;
+- multi-RSCF authority;
+- fast-path governance;
+- proof-based coordination avoidance;
+- causal epoch finality;
+- promotion/demotion;
+- selective invalidation;
+- rollback;
+- anti-regression;
+- law-change proposal and commit gates;
+- authoritative-state separation;
+- minimum hierarchy-law registry.
 
 ## v1.0.0 — 2026-08-25
 

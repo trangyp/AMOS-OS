@@ -2449,33 +2449,33 @@ Expanded placeholder into an AMOS Core v4.4-aligned Control Plane Canon candidat
 
 Added:
 
-* canonical control-plane boundary;
-* proposal/commit firewall;
-* policy and authority resolution;
-* state validation;
-* MVCC/CAS conceptual gates;
-* persistent provenance;
-* provenance topology and Sybil hardening;
-* dependency closure;
-* v4.4 fast-path eligibility;
-* proof-based coordination avoidance;
-* atomic multi-RSCF reasoning;
-* competing hypothesis preservation;
-* causal and scope firewalls;
-* regime and freshness gates;
-* causal epoch finality;
-* hardened shard-local finalization;
-* scoped finality;
-* commit records and supersession;
-* revocation;
-* failure locality;
-* rollback and recovery;
-* adaptive validation;
-* runtime/cognition/agent/skill/workflow/tool/model firewalls;
-* observability and audit requirements;
-* adversarial test cases;
-* implementation firewall;
-* promotion gate.
+- canonical control-plane boundary;
+- proposal/commit firewall;
+- policy and authority resolution;
+- state validation;
+- MVCC/CAS conceptual gates;
+- persistent provenance;
+- provenance topology and Sybil hardening;
+- dependency closure;
+- v4.4 fast-path eligibility;
+- proof-based coordination avoidance;
+- atomic multi-RSCF reasoning;
+- competing hypothesis preservation;
+- causal and scope firewalls;
+- regime and freshness gates;
+- causal epoch finality;
+- hardened shard-local finalization;
+- scoped finality;
+- commit records and supersession;
+- revocation;
+- failure locality;
+- rollback and recovery;
+- adaptive validation;
+- runtime/cognition/agent/skill/workflow/tool/model firewalls;
+- observability and audit requirements;
+- adversarial test cases;
+- implementation firewall;
+- promotion gate.
 
 ## v1.0.0 — 2026-08-25
 

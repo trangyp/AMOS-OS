@@ -546,14 +546,14 @@ A BEFORE B != A CAUSED B
 
 A temporal sequence may reflect:
 
-* common causes;
-* scheduling;
-* dependency;
-* coincidence;
-* delayed observation;
-* measurement latency;
-* feedback;
-* hidden intermediate states.
+- common causes;
+- scheduling;
+- dependency;
+- coincidence;
+- delayed observation;
+- measurement latency;
+- feedback;
+- hidden intermediate states.
 
 Observation time and event time SHOULD therefore remain distinct.
 
@@ -569,11 +569,11 @@ Depends(B,A) != Causes(A,B)
 
 Examples include:
 
-* software module dependencies;
-* logical premise dependencies;
-* data dependencies;
-* documentation references;
-* organizational reporting relationships.
+- software module dependencies;
+- logical premise dependencies;
+- data dependencies;
+- documentation references;
+- organizational reporting relationships.
 
 Such edges can influence propagation without constituting empirical causal effects.
 
@@ -597,14 +597,14 @@ A causes B
 
 Predictive utility may arise from:
 
-* proxy variables;
-* common causes;
-* leakage;
-* temporal structure;
-* confounding;
-* measurement artifacts;
-* stable correlations;
-* reverse causation.
+- proxy variables;
+- common causes;
+- leakage;
+- temporal structure;
+- confounding;
+- measurement artifacts;
+- stable correlations;
+- reverse causation.
 
 Therefore:
 
@@ -676,13 +676,13 @@ Interventional and observational conditioning are not interchangeable by default
 
 Counterfactual reasoning MUST declare:
 
-* intervention;
-* baseline;
-* preserved conditions;
-* changed conditions;
-* causal assumptions;
-* model dependence;
-* uncertainty.
+- intervention;
+- baseline;
+- preserved conditions;
+- changed conditions;
+- causal assumptions;
+- model dependence;
+- uncertainty.
 
 Unsupported counterfactuals remain `MODEL`.
 
@@ -751,11 +751,11 @@ A → M → B
 
 AMOS SHOULD distinguish:
 
-* total effect;
-* direct effect;
-* mediated effect;
-* interaction/moderation;
-* unsupported decomposition.
+- total effect;
+- direct effect;
+- mediated effect;
+- interaction/moderation;
+- unsupported decomposition.
 
 The existence of correlations among A, M, and B does not establish mediation.
 
@@ -807,12 +807,12 @@ Therefore AMOS MUST NOT assume every causal system is a static DAG unless the ap
 
 Feedback analysis SHOULD preserve:
 
-* direction;
-* lag;
-* gain/strength where known;
-* stabilizing versus amplifying effects;
-* regime dependence;
-* observation interval.
+- direction;
+- lag;
+- gain/strength where known;
+- stabilizing versus amplifying effects;
+- regime dependence;
+- observation interval.
 
 ---
 
@@ -859,35 +859,35 @@ Absent this support, the mapping remains `MODEL`.
 
 At H, L4 evaluates:
 
-* system-wide causal architecture;
-* governing constraints;
-* systemic feedback;
-* large dependency cascades;
-* policy/intervention effects;
-* regime-level causes;
-* cross-domain propagation.
+- system-wide causal architecture;
+- governing constraints;
+- systemic feedback;
+- large dependency cascades;
+- policy/intervention effects;
+- regime-level causes;
+- cross-domain propagation.
 
 ### M — Subsystem/Mechanism Scale
 
 At M, L4 evaluates:
 
-* subsystem interactions;
-* mechanisms;
-* mediators;
-* intermediate transformations;
-* organizational/process causal chains;
-* component interactions.
+- subsystem interactions;
+- mechanisms;
+- mediators;
+- intermediate transformations;
+- organizational/process causal chains;
+- component interactions.
 
 ### L — Local/Event Scale
 
 At L, L4 evaluates:
 
-* individual observations;
-* local interventions;
-* events;
-* variable transitions;
-* direct measurements;
-* specific causal edges.
+- individual observations;
+- local interventions;
+- events;
+- variable transitions;
+- direct measurements;
+- specific causal edges.
 
 No scale automatically dominates another.
 
@@ -1127,13 +1127,13 @@ Valid(c, R1) does not imply Valid(c, R2)
 
 Causal evidence can become stale when:
 
-* system architecture changes;
-* policy changes;
-* environment changes;
-* population changes;
-* instrumentation changes;
-* dependencies change;
-* causal mechanisms themselves change.
+- system architecture changes;
+- policy changes;
+- environment changes;
+- population changes;
+- instrumentation changes;
+- dependencies change;
+- causal mechanisms themselves change.
 
 Freshness is therefore part of causal validity.
 
@@ -1241,15 +1241,15 @@ PROPOSAL != COMMIT
 
 Before execution, relevant control planes must evaluate:
 
-* authority;
-* permissions;
-* constraints;
-* reversibility;
-* risk;
-* current state;
-* stale evidence;
-* affected stakeholders;
-* commit-time validity.
+- authority;
+- permissions;
+- constraints;
+- reversibility;
+- risk;
+- current state;
+- stale evidence;
+- affected stakeholders;
+- commit-time validity.
 
 ---
 
@@ -1380,14 +1380,14 @@ Do not erase unaffected knowledge.
 
 A causal edge SHOULD enter quarantine when:
 
-* provenance is unresolved;
-* evidence is contradictory;
-* scope is unclear;
-* regime compatibility is unknown;
-* dependency closure fails;
-* causal identification is insufficient;
-* source independence cannot be established;
-* falsifying evidence appears.
+- provenance is unresolved;
+- evidence is contradictory;
+- scope is unclear;
+- regime compatibility is unknown;
+- dependency closure fails;
+- causal identification is insufficient;
+- source independence cannot be established;
+- falsifying evidence appears.
 
 Quarantine means:
 
@@ -2015,15 +2015,15 @@ Repairing a symptom while preserving the actual cause may create recurring failu
 
 A causal architecture is incomplete for a declared scope if it requires causal conclusions but lacks mechanisms for:
 
-* relation typing;
-* provenance;
-* competing hypotheses;
-* falsification;
-* scope;
-* regime;
-* temporal ordering;
-* dependency propagation;
-* causal invalidation.
+- relation typing;
+- provenance;
+- competing hypotheses;
+- falsification;
+- scope;
+- regime;
+- temporal ordering;
+- dependency propagation;
+- causal invalidation.
 
 However:
 
@@ -2039,14 +2039,14 @@ A perfectly specified causal subsystem can still contain false causal hypotheses
 
 L4 is NOT intended to:
 
-* prove that AMOS has discovered universal causal laws;
-* replace domain-specific causal inference;
-* replace experimental design;
-* replace statistical methodology;
-* declare philosophical theories of causation universally correct;
-* infer causation from narrative coherence;
-* authorize interventions;
-* convert AMOS structural analogies into empirical causal facts.
+- prove that AMOS has discovered universal causal laws;
+- replace domain-specific causal inference;
+- replace experimental design;
+- replace statistical methodology;
+- declare philosophical theories of causation universally correct;
+- infer causation from narrative coherence;
+- authorize interventions;
+- convert AMOS structural analogies into empirical causal facts.
 
 ---
 
@@ -2234,12 +2234,12 @@ path: 01_CANON/01_CORE_LAWS/L4_CAUSAL.md
 
 RSCF-RELATIONS:
 
-* DEPENDS_ON: [[L0_INTEGRITY]]
-* DEPENDS_ON: [[L1_EPISTEMIC]]
-* DEPENDS_ON: [[L2_PROVENANCE]]
-* DEPENDS_ON: [[L3_DEPENDENCY]]
-* INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+- DEPENDS_ON: [[L0_INTEGRITY]]
+- DEPENDS_ON: [[L1_EPISTEMIC]]
+- DEPENDS_ON: [[L2_PROVENANCE]]
+- DEPENDS_ON: [[L3_DEPENDENCY]]
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
 claim_class: AMOS_MODEL
 

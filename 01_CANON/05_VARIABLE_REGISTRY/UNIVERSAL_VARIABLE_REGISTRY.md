@@ -4511,36 +4511,36 @@ Expanded the placeholder into an AMOS Core v4.4-aligned Universal Variable Regis
 
 Added:
 
-* canonical variable identity model;
-* variable/symbol/unit/value firewalls;
-* semantic variable classes;
-* H/M/L scope;
-* epistemic typing;
-* conclusion-class integration;
-* provenance and ancestry semantics;
-* dependency closure;
-* confidence ceiling;
-* uncertainty vector;
-* causal variable typing;
-* scope/regime/freshness rules;
-* authority/capability separation;
-* proposal/commit separation;
-* state/persistence boundaries;
-* MVCC/CAS conceptual variables;
-* causal epoch/finality concepts;
-* atomic multi-RSCF variable semantics;
-* cognitive and memory variables;
-* RSCF/GMEF boundaries;
-* competing hypotheses and falsifiers;
-* semantic collisions and aliases;
-* variable versioning and supersession;
-* normalization/mapping rules;
-* machine-readable record patterns;
-* validation gates;
-* adversarial tests;
-* failure recovery;
-* anti-fabrication rules;
-* canon promotion requirements.
+- canonical variable identity model;
+- variable/symbol/unit/value firewalls;
+- semantic variable classes;
+- H/M/L scope;
+- epistemic typing;
+- conclusion-class integration;
+- provenance and ancestry semantics;
+- dependency closure;
+- confidence ceiling;
+- uncertainty vector;
+- causal variable typing;
+- scope/regime/freshness rules;
+- authority/capability separation;
+- proposal/commit separation;
+- state/persistence boundaries;
+- MVCC/CAS conceptual variables;
+- causal epoch/finality concepts;
+- atomic multi-RSCF variable semantics;
+- cognitive and memory variables;
+- RSCF/GMEF boundaries;
+- competing hypotheses and falsifiers;
+- semantic collisions and aliases;
+- variable versioning and supersession;
+- normalization/mapping rules;
+- machine-readable record patterns;
+- validation gates;
+- adversarial tests;
+- failure recovery;
+- anti-fabrication rules;
+- canon promotion requirements.
 
 ---
 
