@@ -1,16 +1,16 @@
 ---
-title: "UBI x Emotion Cross-Plane Matrix Table"
+title: UBI x Emotion Cross-Plane Matrix Table
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "UBI_X_EMOTION_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_ubi_x_emotion_matrix"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX_TABLE"
-path: "25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX.md"
+artifact: UBI_X_EMOTION_MATRIX.md
+artifact_id: amos_25_cognitive_matrix_ubi_x_emotion_matrix
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX_TABLE
+path: 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -27,19 +27,19 @@ tags:
   - gamma_coherence
   - rscf
   - canon_candidate
-version: "2.0.0"
-updated: "2026-08-28"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "PASSED_CONSTITUTIONAL_TESTS"
-executable_binding: "ESTABLISHED"
+version: 2.0.0
+updated: '2026-08-28'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: PASSED_CONSTITUTIONAL_TESTS
+executable_binding: ESTABLISHED
 framework_binding:
   matrix_spec:
-    artifact: "[[UBI_X_EMOTION]]"
+    artifact: [[UBI_X_EMOTION]]
   knowledge_binding:
-    artifact: "[[UBI_EMOTION_BINDING]]"
+    artifact: [[UBI_EMOTION_BINDING]]
 rscf:
   state: CANON_MATRIX
   claim_class: AMOS_MODEL
@@ -69,7 +69,7 @@ source_integrity:
   target_plane_rendering: MISSING_OR_EMPTY_IN_SUPPLIED_TEXT
   unresolved_symbols: PRESERVE_AS_GAPS
   reconstruction_policy: DO_NOT_INVENT_MISSING_CANON
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ---
 
 # UBI × Emotion Cross-Plane Matrix Table — Full Canon Expansion

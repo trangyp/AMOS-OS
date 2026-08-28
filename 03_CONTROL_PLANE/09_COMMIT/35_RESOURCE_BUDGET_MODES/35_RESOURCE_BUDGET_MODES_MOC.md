@@ -1,5 +1,5 @@
 ---
-title: "35 Resource Budget Modes MOC"
+title: 35 Resource Budget Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/35_RESOURCE_BUDGET_MODES
 tags:

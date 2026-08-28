@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L00 Reality Environment / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L00 Reality Environment / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT/00_INDEX
 tags:

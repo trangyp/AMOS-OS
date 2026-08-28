@@ -1,5 +1,5 @@
 ---
-title: "16 Schemas MOC"
+title: 16 Schemas MOC
 type: moc
 source: 16_SCHEMAS
 tags:

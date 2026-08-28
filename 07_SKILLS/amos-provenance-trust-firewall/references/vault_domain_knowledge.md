@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Provenance Trust Firewall"
+title: Vault Domain Knowledge — Amos Provenance Trust Firewall
 type: reference
 source: 07_SKILLS/amos-provenance-trust-firewall/references
 tags:

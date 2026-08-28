@@ -10,11 +10,11 @@ tags:
 - rscf
 - governance
 - canon/universe
-title: "L5 Scope, Regime, and Temporal Laws"
-origin_architect: "Trang Phan"
-status: "AMOS_MODEL"
-canon_status: "PROPOSED_CANON_CONTENT"
-epistemic_class: "AMOS_MODEL"
+title: L5 Scope, Regime, and Temporal Laws
+origin_architect: Trang Phan
+status: AMOS_MODEL
+canon_status: PROPOSED_CANON_CONTENT
+epistemic_class: AMOS_MODEL
 type: document
 source: 01_CANON/01_CORE_LAWS
 rscf:

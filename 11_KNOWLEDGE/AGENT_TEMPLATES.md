@@ -11,7 +11,7 @@ canon-owner: Trang Phan
 artifact-id: AMOS-AGENT-TEMPLATES
 artifact-type: framework-registry
 artifact-class: agent-factory-architecture
-version: "2.0.0"
+version: 2.0.0
 schema-version: "1.0.0"
 protocol-version: "1.0.0"
 amos-core-target: "v4.4"

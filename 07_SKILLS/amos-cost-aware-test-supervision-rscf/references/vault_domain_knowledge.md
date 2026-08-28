@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Cost Aware Test Supervision Rscf"
+title: Vault Domain Knowledge — Amos Cost Aware Test Supervision Rscf
 type: reference
 source: 07_SKILLS/amos-cost-aware-test-supervision-rscf/references
 tags:

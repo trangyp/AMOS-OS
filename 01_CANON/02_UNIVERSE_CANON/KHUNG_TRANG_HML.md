@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang H/M/L Scale Partitioning"
+title: Khung Trang H/M/L Scale Partitioning
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

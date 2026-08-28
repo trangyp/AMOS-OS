@@ -1,7 +1,7 @@
 ---
-title: "Antigravity Wired"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: Antigravity Wired
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: note
 source: 11_KNOWLEDGE/misc
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/observation
 - topic/antigravity-wired
 - misc
-status: "active"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
+status: active
+provenance: OBSERVATION
+confidence: VERIFIED
 rscf:
   state: DERIVED
   claim_class: DERIVED

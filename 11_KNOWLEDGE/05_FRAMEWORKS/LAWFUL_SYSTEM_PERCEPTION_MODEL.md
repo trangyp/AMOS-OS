@@ -1,16 +1,16 @@
 ---
-title: "Lawful System Perception Model"
+title: Lawful System Perception Model
 type: perception
 source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: "LAWFUL_SYSTEM_PERCEPTION_MODEL.md"
-artifact_id: "amos_11_knowledge_05_frameworks_lawful_system_perception_model"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "11_KNOWLEDGE"
-segment: "11_KNOWLEDGE/05_FRAMEWORKS"
-artifact_kind: "MODEL"
-path: "11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL.md"
+artifact: LAWFUL_SYSTEM_PERCEPTION_MODEL.md
+artifact_id: amos_11_knowledge_05_frameworks_lawful_system_perception_model
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 11_KNOWLEDGE
+segment: 11_KNOWLEDGE/05_FRAMEWORKS
+artifact_kind: MODEL
+path: 11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL.md
 tags:
   - amos_os
   - knowledge
@@ -24,16 +24,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -47,11 +47,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   structural_integrity:
-    artifact: "[[ABSOLUTE_STRUCTURAL_INTEGRITY]]"
+    artifact: [[ABSOLUTE_STRUCTURAL_INTEGRITY]]
   cognitive_systems:
-    artifact: "[[COGNITIVE_SYSTEMS_ARCHITECTURE]]"
+    artifact: [[COGNITIVE_SYSTEMS_ARCHITECTURE]]
   psi_framework:
-    artifact: "[[PSI_FRAMEWORK]]"
+    artifact: [[PSI_FRAMEWORK]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

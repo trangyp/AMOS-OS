@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Session Control Plane"
+title: Vault Domain Knowledge — Amos Session Control Plane
 type: reference
 source: 07_SKILLS/amos-session-control-plane/references
 tags:
@@ -12,7 +12,7 @@ rscf:
   provenance: AMOS_corpus
   scope: skill_reference
 overclaim_risk: true
-overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 
 

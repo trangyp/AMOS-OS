@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Llm Judge Bias Geometry Rscf"
+title: Vault Domain Knowledge — Arxiv Llm Judge Bias Geometry Rscf
 type: reference
 source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf/references
 tags:

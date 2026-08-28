@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Representation Aware Bug Localization Rscf"
+title: Vault Domain Knowledge — Amos Representation Aware Bug Localization Rscf
 type: reference
 source: 07_SKILLS/amos-representation-aware-bug-localization-rscf/references
 tags:

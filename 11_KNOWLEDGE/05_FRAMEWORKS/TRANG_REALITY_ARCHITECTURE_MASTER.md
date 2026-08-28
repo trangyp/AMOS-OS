@@ -1,5 +1,5 @@
 ---
-title: "Trang Reality Architecture Master"
+title: Trang Reality Architecture Master
 type: framework_master
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 tags:

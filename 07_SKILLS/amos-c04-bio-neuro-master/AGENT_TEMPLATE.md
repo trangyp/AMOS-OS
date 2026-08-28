@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C04 Bio Neuro Master"
+title: AGENT TEMPLATE — Amos C04 Bio Neuro Master
 type: note
 source: 07_SKILLS/amos-c04-bio-neuro-master
 tags:

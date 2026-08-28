@@ -1,5 +1,5 @@
 ---
-title: "08 Effects MOC"
+title: 08 Effects MOC
 type: moc
 source: 03_CONTROL_PLANE/08_EFFECTS
 tags:

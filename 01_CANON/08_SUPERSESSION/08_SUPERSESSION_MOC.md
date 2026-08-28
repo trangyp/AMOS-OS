@@ -1,5 +1,5 @@
 ---
-title: "08 Supersession MOC"
+title: 08 Supersession MOC
 type: moc
 source: 01_CANON/08_SUPERSESSION
 tags:

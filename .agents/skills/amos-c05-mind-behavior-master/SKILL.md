@@ -244,3 +244,11 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 - **Vault source**: `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md`
 - **Origin architect**: Trang Phan
 - **H-level owners**: H1 Emotion Law, H2 Personality Engine, H3 Behavior Engine, H4 Mind-Behavior Bridge, H5 Cognitive/Motivational Structure (F1-F7), H6 Social/Change Dynamics (F8-F12), H7 Group Dynamics, H8 Micro-State Spectrum & UEE, H9 AMOS/Trang Research Bridge
+
+## Validation Gates
+
+- **L0 Integrity**: All emotion/personality/behavior engines accounted for
+- **L1 Epistemic**: Every psychological claim tagged with epistemic class
+- **L5 Scope**: Analysis confined to mind/behavior domain
+- **L7 Authority**: No autonomous action beyond authority boundary
+

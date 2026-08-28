@@ -1,5 +1,5 @@
 ---
-title: "SCOPE_REGIME_FIREWALL — Epistemic Regime Boundary Law"
+title: SCOPE_REGIME_FIREWALL — Epistemic Regime Boundary Law
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:

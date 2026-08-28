@@ -1,5 +1,5 @@
 ---
-title: "24 Archive MOC"
+title: 24 Archive MOC
 type: moc
 source: 24_ARCHIVE
 tags:

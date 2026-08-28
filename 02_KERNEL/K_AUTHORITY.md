@@ -1,5 +1,5 @@
 ---
-title: "K_AUTHORITY — Authority Envelope Kernel"
+title: K_AUTHORITY — Authority Envelope Kernel
 type: kernel
 source: 02_KERNEL
 tags:

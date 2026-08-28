@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Selective-State-Space-Rscf MOC"
+title: Arxiv-Selective-State-Space-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-selective-state-space-rscf
 tags:

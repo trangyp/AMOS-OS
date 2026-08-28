@@ -1,5 +1,5 @@
 ---
-title: "14 Composite Modes MOC"
+title: 14 Composite Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/14_COMPOSITE_MODES
 tags:

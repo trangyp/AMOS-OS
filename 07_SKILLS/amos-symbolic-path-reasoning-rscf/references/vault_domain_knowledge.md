@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Symbolic Path Reasoning Rscf"
+title: Vault Domain Knowledge — Amos Symbolic Path Reasoning Rscf
 type: reference
 source: 07_SKILLS/amos-symbolic-path-reasoning-rscf/references
 tags:

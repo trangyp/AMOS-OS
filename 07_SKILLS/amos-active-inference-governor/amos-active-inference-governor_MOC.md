@@ -1,5 +1,5 @@
 ---
-title: "Amos-Active-Inference-Governor MOC"
+title: Amos-Active-Inference-Governor MOC
 type: moc
 source: 07_SKILLS/amos-active-inference-governor
 tags:

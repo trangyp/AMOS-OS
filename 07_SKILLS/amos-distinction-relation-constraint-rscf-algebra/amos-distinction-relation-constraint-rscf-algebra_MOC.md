@@ -1,5 +1,5 @@
 ---
-title: "Amos-Distinction-Relation-Constraint-Rscf-Algebra MOC"
+title: Amos-Distinction-Relation-Constraint-Rscf-Algebra MOC
 type: moc
 source: 07_SKILLS/amos-distinction-relation-constraint-rscf-algebra
 tags:

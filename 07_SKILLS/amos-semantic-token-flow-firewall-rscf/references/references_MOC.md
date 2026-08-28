@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Semantic Token Flow Firewall Rscf"
+title: References MOC — References — Amos Semantic Token Flow Firewall Rscf
 type: moc
 source: 07_SKILLS/amos-semantic-token-flow-firewall-rscf/references
 tags:

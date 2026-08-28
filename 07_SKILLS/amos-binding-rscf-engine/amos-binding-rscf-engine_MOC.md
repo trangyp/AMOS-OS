@@ -1,5 +1,5 @@
 ---
-title: "Amos-Binding-Rscf-Engine MOC"
+title: Amos-Binding-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-binding-rscf-engine
 tags:

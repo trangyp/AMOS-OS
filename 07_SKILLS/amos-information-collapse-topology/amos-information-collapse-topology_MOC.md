@@ -1,5 +1,5 @@
 ---
-title: "Amos-Information-Collapse-Topology MOC"
+title: Amos-Information-Collapse-Topology MOC
 type: moc
 source: 07_SKILLS/amos-information-collapse-topology
 tags:

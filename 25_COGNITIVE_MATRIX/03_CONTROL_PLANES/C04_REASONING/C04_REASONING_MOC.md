@@ -1,5 +1,5 @@
 ---
-title: "C04 Reasoning MOC"
+title: C04 Reasoning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING
 tags:

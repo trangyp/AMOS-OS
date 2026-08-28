@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Context State Maintenance Rscf"
+title: References MOC — References — Amos Context State Maintenance Rscf
 type: moc
 source: 07_SKILLS/amos-context-state-maintenance-rscf/references
 tags:

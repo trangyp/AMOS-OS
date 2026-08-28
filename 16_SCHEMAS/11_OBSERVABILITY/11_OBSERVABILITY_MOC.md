@@ -1,5 +1,5 @@
 ---
-title: "11 Observability MOC"
+title: 11 Observability MOC
 type: moc
 source: 16_SCHEMAS/11_OBSERVABILITY
 tags:

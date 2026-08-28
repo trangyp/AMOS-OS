@@ -1,8 +1,8 @@
 ---
-title: "HSE VN Engine — Human Systems Engine (Vietnam)"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf + HSE_CEO_Enginev.txt"
-origin_architect: "Trang Phan"
+title: HSE VN Engine — Human Systems Engine (Vietnam)
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf + HSE_CEO_Enginev.txt
+origin_architect: Trang Phan
 type: engine-spec
 source: 11_KNOWLEDGE/engine
 tags:
@@ -19,9 +19,9 @@ tags:
 - 1-36-month
 - engine
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -1,7 +1,7 @@
 ---
-title: "AMOS Extractive Economy Model"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: AMOS Extractive Economy Model
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: brain-model
 source: 11_KNOWLEDGE/economy
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/derived
 - topic/extractive-economy-model
 - economy
-status: "active"
-provenance: "Extractive Economy.txt"
-confidence: "STRUCTURAL"
+status: active
+provenance: Extractive Economy.txt
+confidence: STRUCTURAL
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

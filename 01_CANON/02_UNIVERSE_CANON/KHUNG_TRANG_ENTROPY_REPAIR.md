@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang Entropy Repair Dynamics"
+title: Khung Trang Entropy Repair Dynamics
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

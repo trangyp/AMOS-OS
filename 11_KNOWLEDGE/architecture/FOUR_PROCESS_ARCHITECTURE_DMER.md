@@ -1,12 +1,12 @@
 ---
-title: "Four-Process Architecture — D/M/E/R as Canonical Adaptive Model"
-created: "2026-08-23"
-origin: "User-supplied canonical architecture (Four-Process Architecture of Adaptive Systems)"
-origin_type: "SOURCE"
+title: Four-Process Architecture — D/M/E/R as Canonical Adaptive Model
+created: '2026-08-23'
+origin: User-supplied canonical architecture (Four-Process Architecture of Adaptive Systems)
+origin_type: SOURCE
 type: canon-entry
 source: 11_KNOWLEDGE/architecture
-status: "validated"
-confidence: "STRUCTURAL"
+status: validated
+confidence: STRUCTURAL
 tags:
 - amos
 - canon/law

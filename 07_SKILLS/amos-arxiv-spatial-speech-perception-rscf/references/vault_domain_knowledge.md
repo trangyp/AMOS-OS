@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Arxiv Spatial Speech Perception Rscf"
+title: Vault Domain Knowledge — Amos Arxiv Spatial Speech Perception Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf/references
 tags:

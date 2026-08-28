@@ -1,5 +1,5 @@
 ---
-title: "41 Decision Modes MOC"
+title: 41 Decision Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/41_DECISION_MODES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx Quantile Distribution Rscf Engine"
+title: Vault Domain Knowledge — Amos Fx Quantile Distribution Rscf Engine
 type: reference
 source: 07_SKILLS/amos-fx-quantile-distribution-rscf-engine/references
 tags:

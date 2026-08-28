@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Prediction Governance"
+title: Vault Domain Knowledge — Amos Prediction Governance
 type: reference
 source: 07_SKILLS/amos-prediction-governance/references
 tags:

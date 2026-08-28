@@ -1,5 +1,5 @@
 ---
-title: "ULK Logic Kernel (Universal Logic Kernel)"
+title: ULK Logic Kernel (Universal Logic Kernel)
 type: kernel
 source: 02_KERNEL
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Distinction Relation Transformation"
+title: Vault Domain Knowledge — Amos Distinction Relation Transformation
 type: reference
 source: 07_SKILLS/amos-distinction-relation-transformation/references
 tags:

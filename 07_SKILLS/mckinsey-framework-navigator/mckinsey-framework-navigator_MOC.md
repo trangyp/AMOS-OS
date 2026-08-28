@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Framework-Navigator MOC"
+title: Mckinsey-Framework-Navigator MOC
 type: moc
 source: 07_SKILLS/mckinsey-framework-navigator
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Causal-Closure-Governor MOC"
+title: Amos-Causal-Closure-Governor MOC
 type: moc
 source: 07_SKILLS/amos-causal-closure-governor
 tags:

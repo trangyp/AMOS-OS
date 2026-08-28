@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Autosota-Research-Automation-Rscf MOC"
+title: Arxiv-Autosota-Research-Automation-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-autosota-research-automation-rscf
 tags:

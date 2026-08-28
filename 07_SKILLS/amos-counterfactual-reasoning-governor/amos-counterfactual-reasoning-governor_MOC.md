@@ -1,5 +1,5 @@
 ---
-title: "Amos-Counterfactual-Reasoning-Governor MOC"
+title: Amos-Counterfactual-Reasoning-Governor MOC
 type: moc
 source: 07_SKILLS/amos-counterfactual-reasoning-governor
 tags:

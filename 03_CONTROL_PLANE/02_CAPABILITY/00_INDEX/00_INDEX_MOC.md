@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Control Plane / Capability / Index"
+title: Index MOC — Control Plane / Capability / Index
 type: moc
 source: 03_CONTROL_PLANE/02_CAPABILITY/00_INDEX
 tags:

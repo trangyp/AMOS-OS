@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Credit Lending Rscf"
+title: Vault Domain Knowledge — Mckinsey Credit Lending Rscf
 type: reference
 source: 07_SKILLS/mckinsey-credit-lending-rscf/references
 tags:

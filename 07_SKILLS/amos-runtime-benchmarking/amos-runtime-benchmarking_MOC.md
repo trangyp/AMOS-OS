@@ -1,5 +1,5 @@
 ---
-title: "Amos-Runtime-Benchmarking MOC"
+title: Amos-Runtime-Benchmarking MOC
 type: moc
 source: 07_SKILLS/amos-runtime-benchmarking
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "09 Finance MOC"
+title: 09 Finance MOC
 type: moc
 source: 21_DOMAINS/09_FINANCE
 tags:

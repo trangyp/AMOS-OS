@@ -1,16 +1,16 @@
 ---
-title: "UBI x Emotion Cognitive Matrix Specification"
+title: UBI x Emotion Cognitive Matrix Specification
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "UBI_X_EMOTION.md"
-artifact_id: "amos_25_cognitive_matrix_ubi_x_emotion"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX_SPEC"
-path: "25_COGNITIVE_MATRIX/UBI_X_EMOTION.md"
+artifact: UBI_X_EMOTION.md
+artifact_id: amos_25_cognitive_matrix_ubi_x_emotion
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX_SPEC
+path: 25_COGNITIVE_MATRIX/UBI_X_EMOTION.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -27,22 +27,22 @@ tags:
   - cooling_circuit
   - substrate_refusal
   - rscf
-version: "2.0.0"
-updated: "2026-08-28"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "PASSED_CONSTITUTIONAL_TESTS"
-executable_binding: "ESTABLISHED"
+version: 2.0.0
+updated: '2026-08-28'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: PASSED_CONSTITUTIONAL_TESTS
+executable_binding: ESTABLISHED
 framework_binding:
   matrix_counterpart:
-    artifact: "[[UBI_X_EMOTION_MATRIX]]"
+    artifact: [[UBI_X_EMOTION_MATRIX]]
   knowledge_binding:
-    artifact: "[[UBI_EMOTION_BINDING]]"
+    artifact: [[UBI_EMOTION_BINDING]]
 source_integrity:
   equation_rendering: PARTIALLY_CORRUPTED
-  recoverable_equation: "E_t = <v_t, a_t, d_t> ∈ [-1,1] × [0,1] × [-1,1]"
+  recoverable_equation: E_t = <v_t, a_t, d_t> ∈ [-1,1] × [0,1] × [-1,1]
   component_semantics: RECOVERABLE_FROM_LOCAL_SOURCE_CONTEXT
   unresolved_matrix_fields:
     - FIRST_TRIGGER_VARIABLES

@@ -1,16 +1,16 @@
 ---
-title: "PROMOTION GATES"
+title: PROMOTION GATES
 type: note
-source: "25_COGNITIVE_MATRIX/11_VALIDATION"
-artifact: "PROMOTION_GATES.md"
-artifact_id: "25_cognitive_matrix_11_validation_promotion_gates"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX/11_VALIDATION"
-artifact_kind: "NOTE"
-path: "25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES.md"
+source: 25_COGNITIVE_MATRIX/11_VALIDATION
+artifact: PROMOTION_GATES.md
+artifact_id: 25_cognitive_matrix_11_validation_promotion_gates
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX/11_VALIDATION
+artifact_kind: NOTE
+path: 25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES.md
 tags:
   - 11_validation
   - 25_cognitive_matrix
@@ -25,15 +25,15 @@ tags:
   - rscf
   - validation
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

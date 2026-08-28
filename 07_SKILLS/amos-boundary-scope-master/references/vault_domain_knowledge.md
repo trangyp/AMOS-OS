@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Boundary Scope Master"
+title: Vault Domain Knowledge — Amos Boundary Scope Master
 type: reference
 source: 07_SKILLS/amos-boundary-scope-master/references
 tags:

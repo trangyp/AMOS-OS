@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Quantum Systems / Index"
+title: Index MOC — Domains / Quantum Systems / Index
 type: moc
 source: 21_DOMAINS/41_QUANTUM_SYSTEMS/00_INDEX
 tags:

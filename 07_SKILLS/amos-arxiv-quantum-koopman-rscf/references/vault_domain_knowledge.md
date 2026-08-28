@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Arxiv Quantum Koopman Rscf"
+title: Vault Domain Knowledge — Amos Arxiv Quantum Koopman Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf/references
 tags:

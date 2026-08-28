@@ -1,16 +1,16 @@
 ---
-title: "Kernel · QCLA"
+title: Kernel · QCLA
 type: note
-source: "02_KERNEL/01_META_LOGIC"
-artifact: "K_QCLA.md"
-artifact_id: "02_kernel_01_meta_logic_k_qcla"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "02_KERNEL"
-segment: "02_KERNEL/01_META_LOGIC"
-artifact_kind: "NOTE"
-path: "02_KERNEL/01_META_LOGIC/K_QCLA.md"
+source: 02_KERNEL/01_META_LOGIC
+artifact: K_QCLA.md
+artifact_id: 02_kernel_01_meta_logic_k_qcla
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 02_KERNEL
+segment: 02_KERNEL/01_META_LOGIC
+artifact_kind: NOTE
+path: 02_KERNEL/01_META_LOGIC/K_QCLA.md
 tags:
   - 01_meta_logic
   - 02_kernel
@@ -26,15 +26,15 @@ tags:
   - qcla
   - rscf
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

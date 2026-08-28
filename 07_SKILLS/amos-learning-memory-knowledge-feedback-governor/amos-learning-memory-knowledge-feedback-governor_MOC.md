@@ -1,5 +1,5 @@
 ---
-title: "Amos-Learning-Memory-Knowledge-Feedback-Governor MOC"
+title: Amos-Learning-Memory-Knowledge-Feedback-Governor MOC
 type: moc
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor
 tags:

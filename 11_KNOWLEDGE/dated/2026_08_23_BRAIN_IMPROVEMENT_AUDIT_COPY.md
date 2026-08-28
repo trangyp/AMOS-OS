@@ -1,12 +1,12 @@
 ---
-title: "2026-08-23 Brain Improvement Audit — Vault Structural Repairs (Copy)"
-created: "2026-08-23"
-origin: "Self-audit of vault structural integrity"
-origin_type: "MODEL"
+title: 2026-08-23 Brain Improvement Audit — Vault Structural Repairs (Copy)
+created: '2026-08-23'
+origin: Self-audit of vault structural integrity
+origin_type: MODEL
 type: audit-note
 source: 11_KNOWLEDGE/dated
-status: "validated"
-confidence: "STRUCTURAL"
+status: validated
+confidence: STRUCTURAL
 tags:
 - amos
 - brain-improvement

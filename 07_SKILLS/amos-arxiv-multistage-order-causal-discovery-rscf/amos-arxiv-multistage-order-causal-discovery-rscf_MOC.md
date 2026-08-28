@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Multistage-Order-Causal-Discovery-Rscf MOC"
+title: Amos-Arxiv-Multistage-Order-Causal-Discovery-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf
 tags:

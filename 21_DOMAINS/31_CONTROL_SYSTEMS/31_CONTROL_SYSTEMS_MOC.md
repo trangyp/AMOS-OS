@@ -1,5 +1,5 @@
 ---
-title: "31 Control Systems MOC"
+title: 31 Control Systems MOC
 type: moc
 source: 21_DOMAINS/31_CONTROL_SYSTEMS
 tags:

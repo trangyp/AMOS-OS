@@ -1,5 +1,5 @@
 ---
-title: "K_FAIL_CLOSED — Fail-Closed Enforcement Kernel"
+title: K_FAIL_CLOSED — Fail-Closed Enforcement Kernel
 type: kernel
 source: 02_KERNEL
 tags:

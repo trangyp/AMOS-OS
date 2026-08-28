@@ -1,8 +1,8 @@
 ---
-title: "NeuroSyncAI Deterministic Architecture — 5-Tier OS for Intelligence"
-created: "2026-08-22"
-origin: "Google Drive — A_Deterministic_Architecture_for_HumanMachine_Alignment.pdf"
-origin_architect: "Trang Phan"
+title: NeuroSyncAI Deterministic Architecture — 5-Tier OS for Intelligence
+created: '2026-08-22'
+origin: Google Drive — A_Deterministic_Architecture_for_HumanMachine_Alignment.pdf
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/architecture
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/B-boundary
 - topic/deterministic-architecture
 - architecture
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

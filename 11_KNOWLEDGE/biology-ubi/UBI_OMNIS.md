@@ -1,5 +1,5 @@
 ---
-title: "UBI OMNIS — Biology Ubi"
+title: UBI OMNIS — Biology Ubi
 type: note
 source: 11_KNOWLEDGE/biology-ubi
 canon-group: ubi

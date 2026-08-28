@@ -1,16 +1,16 @@
 ---
-title: "Universe Behaviour Engine"
+title: Universe Behaviour Engine
 type: behavior
 source: 01_CANON/02_UNIVERSE_CANON
-artifact: "UNIVERSE_BEHAVIOUR_ENGINE.md"
-artifact_id: "amos_01_canon_02_universe_canon_universe_behaviour_engine"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/02_UNIVERSE_CANON"
-artifact_kind: "ENGINE"
-path: "01_CANON/02_UNIVERSE_CANON/UNIVERSE_BEHAVIOUR_ENGINE.md"
+artifact: UNIVERSE_BEHAVIOUR_ENGINE.md
+artifact_id: amos_01_canon_02_universe_canon_universe_behaviour_engine
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/02_UNIVERSE_CANON
+artifact_kind: ENGINE
+path: 01_CANON/02_UNIVERSE_CANON/UNIVERSE_BEHAVIOUR_ENGINE.md
 tags:
 - amos_os
 - canon
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

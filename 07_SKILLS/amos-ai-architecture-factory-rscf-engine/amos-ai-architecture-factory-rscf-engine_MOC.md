@@ -1,5 +1,5 @@
 ---
-title: "Amos-Ai-Architecture-Factory-Rscf-Engine MOC"
+title: Amos-Ai-Architecture-Factory-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-ai-architecture-factory-rscf-engine
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Software-Engineering-Qa MOC"
+title: Software-Engineering-Qa MOC
 type: moc
 source: 07_SKILLS/software-engineering-qa
 tags:

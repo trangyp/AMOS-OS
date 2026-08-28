@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Language Equation Rscf Engine"
+title: References MOC — References — Amos Language Equation Rscf Engine
 type: moc
 source: 07_SKILLS/amos-language-equation-rscf-engine/references
 tags:

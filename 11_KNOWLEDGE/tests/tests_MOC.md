@@ -1,5 +1,5 @@
 ---
-title: "Tests MOC"
+title: Tests MOC
 type: moc
 source: 11_KNOWLEDGE/tests
 tags:

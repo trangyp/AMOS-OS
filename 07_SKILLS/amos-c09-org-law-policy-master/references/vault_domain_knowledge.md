@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos C09 Org Law Policy Master"
+title: Vault Domain Knowledge — Amos C09 Org Law Policy Master
 type: reference
 source: 07_SKILLS/amos-c09-org-law-policy-master/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Design Visual Rscf Engine"
+title: Vault Domain Knowledge — Amos Design Visual Rscf Engine
 type: reference
 source: 07_SKILLS/amos-design-visual-rscf-engine/references
 tags:
@@ -12,7 +12,7 @@ rscf:
   provenance: AMOS_corpus
   scope: skill_reference
 overclaim_risk: true
-overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 
 

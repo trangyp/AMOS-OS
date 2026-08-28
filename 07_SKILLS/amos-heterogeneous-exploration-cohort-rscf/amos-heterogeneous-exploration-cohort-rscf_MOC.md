@@ -1,5 +1,5 @@
 ---
-title: "Amos-Heterogeneous-Exploration-Cohort-Rscf MOC"
+title: Amos-Heterogeneous-Exploration-Cohort-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf
 tags:

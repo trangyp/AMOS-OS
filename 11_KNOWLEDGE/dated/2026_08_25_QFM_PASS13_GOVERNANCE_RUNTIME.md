@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 13 — Governance & Runtime Cluster Closure"
+title: 2026-08-25 QFM Pass 13 — Governance & Runtime Cluster Closure
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

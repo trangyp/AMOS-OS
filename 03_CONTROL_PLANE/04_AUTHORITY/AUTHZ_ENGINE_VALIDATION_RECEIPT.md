@@ -2,7 +2,7 @@
 type: authority
 source: 03_CONTROL_PLANE/04_AUTHORITY
 artifact_id: AMOS-CP-04-AUTHZ-ENGINE-RECEIPT
-title: "AUTHZ Invariant Engine — Execution Receipt"
+title: AUTHZ Invariant Engine — Execution Receipt
 artifact_class: VALIDATION_EVIDENCE
 subsystem: 03_CONTROL_PLANE/04_AUTHORITY
 executor: Hermes agent (ox-alpha)

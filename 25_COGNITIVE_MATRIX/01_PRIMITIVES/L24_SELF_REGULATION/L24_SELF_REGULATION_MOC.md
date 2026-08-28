@@ -1,5 +1,5 @@
 ---
-title: "L24 Self Regulation MOC"
+title: L24 Self Regulation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION
 tags:

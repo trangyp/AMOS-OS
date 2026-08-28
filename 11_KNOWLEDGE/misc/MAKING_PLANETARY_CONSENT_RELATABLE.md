@@ -1,8 +1,8 @@
 ---
-title: "Making Planetary Consent Infrastructure Relatable"
-created: "2026-08-22"
-origin: "Google Drive — new troy/Public Messaging - Making Consent Infrastructure Relatable.pdf"
-origin_architect: "Quynh Trang Phan"
+title: Making Planetary Consent Infrastructure Relatable
+created: '2026-08-22'
+origin: Google Drive — new troy/Public Messaging - Making Consent Infrastructure Relatable.pdf
+origin_architect: Quynh Trang Phan
 type: framework
 source: 11_KNOWLEDGE/misc
 tags:
@@ -17,9 +17,9 @@ tags:
 - community-engagement
 - misc
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: DERIVED
   claim_class: DERIVED

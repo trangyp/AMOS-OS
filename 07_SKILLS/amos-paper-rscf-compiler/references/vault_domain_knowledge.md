@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Paper Rscf Compiler"
+title: Vault Domain Knowledge — Amos Paper Rscf Compiler
 type: reference
 source: 07_SKILLS/amos-paper-rscf-compiler/references
 tags:

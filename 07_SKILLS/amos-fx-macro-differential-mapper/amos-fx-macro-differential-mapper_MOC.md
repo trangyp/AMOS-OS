@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Macro-Differential-Mapper MOC"
+title: Amos-Fx-Macro-Differential-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-fx-macro-differential-mapper
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Ethics Os Governor"
+title: Vault Domain Knowledge — Amos Ethics Os Governor
 type: reference
 source: 07_SKILLS/amos-ethics-os-governor/references
 tags:

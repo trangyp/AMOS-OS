@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Credit-Lending-Rscf MOC"
+title: Mckinsey-Credit-Lending-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-credit-lending-rscf
 tags:

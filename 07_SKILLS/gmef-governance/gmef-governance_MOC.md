@@ -1,5 +1,5 @@
 ---
-title: "Gmef-Governance MOC"
+title: Gmef-Governance MOC
 type: moc
 source: 07_SKILLS/gmef-governance
 tags:

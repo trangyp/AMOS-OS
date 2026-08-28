@@ -1,5 +1,5 @@
 ---
-title: "K_MVCC — Multi-Version Concurrency Control Kernel"
+title: K_MVCC — Multi-Version Concurrency Control Kernel
 type: kernel
 source: 02_KERNEL
 tags:

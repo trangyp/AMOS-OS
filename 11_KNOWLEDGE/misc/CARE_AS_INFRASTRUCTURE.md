@@ -1,5 +1,5 @@
 ---
-title: "CARE AS INFRASTRUCTURE"
+title: CARE AS INFRASTRUCTURE
 type: infrastructure
 source: 11_KNOWLEDGE/misc
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "AMOS Claim Tensor Architecture"
+title: AMOS Claim Tensor Architecture
 type: tensor
 source: 11_KNOWLEDGE
 tags:

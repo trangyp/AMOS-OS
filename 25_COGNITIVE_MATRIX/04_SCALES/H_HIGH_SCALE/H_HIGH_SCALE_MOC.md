@@ -1,5 +1,5 @@
 ---
-title: "H High Scale MOC"
+title: H High Scale MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/H_HIGH_SCALE
 tags:

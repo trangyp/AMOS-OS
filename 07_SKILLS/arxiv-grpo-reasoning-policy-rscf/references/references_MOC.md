@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Grpo Reasoning Policy Rscf"
+title: References MOC — References — Arxiv Grpo Reasoning Policy Rscf
 type: moc
 source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf/references
 tags:

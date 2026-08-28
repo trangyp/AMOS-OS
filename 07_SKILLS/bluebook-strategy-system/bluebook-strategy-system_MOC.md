@@ -1,5 +1,5 @@
 ---
-title: "Bluebook-Strategy-System MOC"
+title: Bluebook-Strategy-System MOC
 type: moc
 source: 07_SKILLS/bluebook-strategy-system
 tags:

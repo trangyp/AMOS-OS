@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Emotion Cognition Decision Bridge Governor"
+title: References MOC — References — Amos Emotion Cognition Decision Bridge Governor
 type: moc
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/references
 tags:

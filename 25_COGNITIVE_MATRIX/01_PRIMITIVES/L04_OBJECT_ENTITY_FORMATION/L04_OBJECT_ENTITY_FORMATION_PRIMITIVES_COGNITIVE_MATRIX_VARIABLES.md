@@ -1,13 +1,13 @@
 ---
-title: "L04_OBJECT_ENTITY_FORMATION — Variables"
+title: L04_OBJECT_ENTITY_FORMATION — Variables
 type: variable
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
-origin_architect: "Trang Phan"
-class: "COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT"
-status: "AMOS_MODEL / UNVALIDATED"
-epistemic_class: "MODEL"
-primitive: "L04_OBJECT_ENTITY_FORMATION"
-artifact: "VARIABLES.md"
+origin_architect: Trang Phan
+class: COGNITIVE_PRIMITIVE_VARIABLE_CONTRACT
+status: AMOS_MODEL / UNVALIDATED
+epistemic_class: MODEL
+primitive: L04_OBJECT_ENTITY_FORMATION
+artifact: VARIABLES.md
 tags:
 - cognitive_matrix
 - primitives

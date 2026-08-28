@@ -2,17 +2,17 @@
 type: architecture
 source: 11_KNOWLEDGE/amos-general
 artifact_id: AMOS-UTA
-title: "The Uncopyable Training Architecture — AMOS Governed Edition"
-document_version: "2.0.0"
-amos_core_target: "v4.4"
-compatibility_floor: "v3.0"
-release_channel: "governed"
-release_date: "2026-08-25"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-epistemic_status: "AMOS_MODEL / CONDITIONAL"
-supersedes: "AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v4_4.md"
-governing_law: "integrity > completeness > fluency > speed > token savings"
+title: The Uncopyable Training Architecture — AMOS Governed Edition
+document_version: 2.0.0
+amos_core_target: v4.4
+compatibility_floor: v3.0
+release_channel: governed
+release_date: 2026-08-25
+origin_architect: Trang Phan
+steward: Trang Phan
+epistemic_status: AMOS_MODEL / CONDITIONAL
+supersedes: AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v4_4.md
+governing_law: integrity > completeness > fluency > speed > token savings
 tags:
 - amos-general
 - amos

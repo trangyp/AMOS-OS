@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Control Planes / C05 Representation / Index"
+title: Index MOC — Cognitive Matrix / Control Planes / C05 Representation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C05_REPRESENTATION/00_INDEX
 tags:

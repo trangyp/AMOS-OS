@@ -1,38 +1,38 @@
 ---
-title: "UNIVERSE X OMEGA"
+title: UNIVERSE X OMEGA
 type: cognitive_matrix
-source: "25_COGNITIVE_MATRIX"
-artifact: "UNIVERSE_X_OMEGA.md"
-artifact_id: "amos_25_cognitive_matrix_universe_x_omega"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA.md"
+source: 25_COGNITIVE_MATRIX
+artifact: UNIVERSE_X_OMEGA.md
+artifact_id: amos_25_cognitive_matrix_universe_x_omega
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA.md
 tags:
   - amos_os
   - cognitive_matrix
   - canon/matrix
   - rscf
   - provenance
-version: "1.0.0"
-updated: "2026-08-28"
-status: "CANON_CANDIDATE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CANDIDATE_PENDING_VALIDATION"
-implementation_status: "CONCEPTUAL"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 1.0.0
+updated: '2026-08-28'
+status: CANON_CANDIDATE
+epistemic_class: AMOS_MODEL
+canonical_status: CANDIDATE_PENDING_VALIDATION
+implementation_status: CONCEPTUAL
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: AMOS_cognitive_matrix
-  confidence_ceiling: "SOURCE_DEPENDENT"
-  regime: "AMOS_OS_MODEL"
+  confidence_ceiling: SOURCE_DEPENDENT
+  regime: AMOS_OS_MODEL
 ---
 
 # `UNIVERSE_X_OMEGA.md` — Full Canonical Content with Tags

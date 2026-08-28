@@ -1,5 +1,5 @@
 ---
-title: "L14 Valuation MOC"
+title: L14 Valuation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION
 tags:

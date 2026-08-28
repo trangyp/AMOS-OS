@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Conrad-Radiomics-Rscf MOC"
+title: Amos-Arxiv-Conrad-Radiomics-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-conrad-radiomics-rscf
 tags:

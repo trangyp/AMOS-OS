@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Flash Attention Io Rscf"
+title: Vault Domain Knowledge — Arxiv Flash Attention Io Rscf
 type: reference
 source: 07_SKILLS/arxiv-flash-attention-io-rscf/references
 tags:

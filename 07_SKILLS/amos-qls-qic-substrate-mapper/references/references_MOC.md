@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Qls Qic Substrate Mapper"
+title: References MOC — References — Amos Qls Qic Substrate Mapper
 type: moc
 source: 07_SKILLS/amos-qls-qic-substrate-mapper/references
 tags:

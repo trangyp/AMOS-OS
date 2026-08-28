@@ -1,8 +1,8 @@
 ---
-title: "AMOS Absolute Logic DB v1.0 — 19 Primitives, Tri-Domain"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/LOGIC.txt (277 KB, 8647 lines)"
-origin_architect: "Trang Phan"
+title: AMOS Absolute Logic DB v1.0 — 19 Primitives, Tri-Domain
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/LOGIC.txt (277 KB, 8647 lines)
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/amos-general
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/B-boundary
 - topic/absolute-logic-model
 - amos-general
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

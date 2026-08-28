@@ -1,5 +1,5 @@
 ---
-title: "08 Workflows MOC"
+title: 08 Workflows MOC
 type: moc
 source: 08_WORKFLOWS
 tags:

@@ -16,7 +16,7 @@ tags:
 - topic/neurotransmitter-map-complete-human-syst
 - system
 date: 2026-08-22
-source_title: "The Complete Human System — Chapter 8: The Neurochemical System"
+source_title: 'The Complete Human System — Chapter 8: The Neurochemical System'
 source_type: book-manuscript
 source_url: local-ingestion
 rscf:
@@ -25,6 +25,7 @@ rscf:
   provenance: AMOS_corpus
   scope: system_design
 ---
+
 
 
 # Neurotransmitter Map — Complete Human System

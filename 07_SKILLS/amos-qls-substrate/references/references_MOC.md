@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Qls Substrate"
+title: References MOC — References — Amos Qls Substrate
 type: moc
 source: 07_SKILLS/amos-qls-substrate/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Budget Aware Optimizer Selection Rscf Engine"
+title: References MOC — References — Amos Budget Aware Optimizer Selection Rscf Engine
 type: moc
 source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine/references
 tags:

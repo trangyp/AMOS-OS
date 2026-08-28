@@ -1,5 +1,5 @@
 ---
-title: "domain config — References — Amos C03 Physics Cosmos Master"
+title: domain config — References — Amos C03 Physics Cosmos Master
 type: reference
 source: 07_SKILLS/amos-c03-physics-cosmos-master/references
 tags:

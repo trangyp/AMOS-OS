@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Infrastructure Control Plane"
+title: References MOC — References — Amos Infrastructure Control Plane
 type: moc
 source: 07_SKILLS/amos-infrastructure-control-plane/references
 tags:

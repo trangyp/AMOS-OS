@@ -1,7 +1,7 @@
 ---
-title: "00 Cosmo Brain MOC"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: 00 Cosmo Brain MOC
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: moc
 source: 11_KNOWLEDGE
 tags:
@@ -13,9 +13,9 @@ tags:
 - topic/00-cosmo-brain-moc
 - moc
 - index
-status: "living"
-provenance: "MODEL"
-confidence: "DERIVED"
+status: living
+provenance: MODEL
+confidence: DERIVED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

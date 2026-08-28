@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Organizational Behavior / Index"
+title: Index MOC — Domains / Organizational Behavior / Index
 type: moc
 source: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR/00_INDEX
 tags:

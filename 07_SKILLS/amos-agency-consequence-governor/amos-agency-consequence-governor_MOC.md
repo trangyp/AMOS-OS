@@ -1,5 +1,5 @@
 ---
-title: "Amos-Agency-Consequence-Governor MOC"
+title: Amos-Agency-Consequence-Governor MOC
 type: moc
 source: 07_SKILLS/amos-agency-consequence-governor
 tags:

@@ -1,16 +1,16 @@
 ---
-title: "Proof-Based Coordination Avoidance — 04 Infrastructure Canon"
+title: Proof-Based Coordination Avoidance — 04 Infrastructure Canon
 type: proof
 source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: "PROOF_BASED_COORDINATION_AVOIDANCE.md"
-artifact_id: "amos_01_canon_04_infrastructure_canon_proof_based_coordination_avoidance"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/04_INFRASTRUCTURE_CANON"
-artifact_kind: "ARTIFACT"
-path: "01_CANON/04_INFRASTRUCTURE_CANON/PROOF_BASED_COORDINATION_AVOIDANCE.md"
+artifact: PROOF_BASED_COORDINATION_AVOIDANCE.md
+artifact_id: amos_01_canon_04_infrastructure_canon_proof_based_coordination_avoidance
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/04_INFRASTRUCTURE_CANON
+artifact_kind: ARTIFACT
+path: 01_CANON/04_INFRASTRUCTURE_CANON/PROOF_BASED_COORDINATION_AVOIDANCE.md
 tags:
 - amos_os
 - canon
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

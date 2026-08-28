@@ -1,5 +1,5 @@
 ---
-title: "01 Canon MOC"
+title: 01 Canon MOC
 type: moc
 source: 01_CANON
 tags:

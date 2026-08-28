@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Agent Memory Dynamics Rscf"
+title: References MOC — References — Amos Arxiv Agent Memory Dynamics Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf/references
 tags:

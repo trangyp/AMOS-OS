@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Bounded Code Facts Rscf"
+title: References MOC — References — Amos Bounded Code Facts Rscf
 type: moc
 source: 07_SKILLS/amos-bounded-code-facts-rscf/references
 tags:

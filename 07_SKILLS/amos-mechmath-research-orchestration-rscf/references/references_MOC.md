@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Mechmath Research Orchestration Rscf"
+title: References MOC — References — Amos Mechmath Research Orchestration Rscf
 type: moc
 source: 07_SKILLS/amos-mechmath-research-orchestration-rscf/references
 tags:

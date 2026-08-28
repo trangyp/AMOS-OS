@@ -199,7 +199,7 @@
   "tags": [
     "type/agent",
     "canon/agent",
-    "domain/cross-domain",
+    "domain/mind-behavior",
     "rscf/source_claim",
     "hml/m",
     "epistemic/amos_model",
@@ -227,5 +227,6 @@
     "L16",
     "L17",
     "L18"
-  ]
+  ],
+  "domain": "mind_behavior"
 }

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Causal Reasoning Master"
+title: Vault Domain Knowledge — Amos Causal Reasoning Master
 type: reference
 source: 07_SKILLS/amos-causal-reasoning-master/references
 tags:

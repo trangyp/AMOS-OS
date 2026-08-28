@@ -1,16 +1,16 @@
 ---
-title: "Framework Ancestry Graph"
+title: Framework Ancestry Graph
 type: graph
 source: 01_CANON/07_PROVENANCE
-artifact: "FRAMEWORK_ANCESTRY_GRAPH.md"
-artifact_id: "amos_01_canon_07_provenance_framework_ancestry_graph"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/07_PROVENANCE"
-artifact_kind: "FRAMEWORK"
-path: "01_CANON/07_PROVENANCE/FRAMEWORK_ANCESTRY_GRAPH.md"
+artifact: FRAMEWORK_ANCESTRY_GRAPH.md
+artifact_id: amos_01_canon_07_provenance_framework_ancestry_graph
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/07_PROVENANCE
+artifact_kind: FRAMEWORK
+path: 01_CANON/07_PROVENANCE/FRAMEWORK_ANCESTRY_GRAPH.md
 tags:
 - amos_os
 - canon
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

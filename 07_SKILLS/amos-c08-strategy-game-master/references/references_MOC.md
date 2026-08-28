@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos C08 Strategy Game Master"
+title: References MOC — References — Amos C08 Strategy Game Master
 type: moc
 source: 07_SKILLS/amos-c08-strategy-game-master/references
 tags:

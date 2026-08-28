@@ -1,5 +1,5 @@
 ---
-title: "Models MOC"
+title: Models MOC
 type: moc
 source: 11_KNOWLEDGE/models
 tags:

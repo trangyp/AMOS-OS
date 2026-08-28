@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Provenance Trust Firewall"
+title: References MOC — References — Amos Provenance Trust Firewall
 type: moc
 source: 07_SKILLS/amos-provenance-trust-firewall/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Morphogenesis Mapper"
+title: Vault Domain Knowledge — Amos Morphogenesis Mapper
 type: reference
 source: 07_SKILLS/amos-morphogenesis-mapper/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Operating Model / Service Levels / Index"
+title: Index MOC — Operating Model / Service Levels / Index
 type: moc
 source: 23_OPERATING_MODEL/05_SERVICE_LEVELS/00_INDEX
 tags:

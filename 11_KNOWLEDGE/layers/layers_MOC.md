@@ -1,5 +1,5 @@
 ---
-title: "Layers MOC"
+title: Layers MOC
 type: moc
 source: 11_KNOWLEDGE/layers
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "RSCF STRUCTURAL TAG MIGRATION"
+title: RSCF STRUCTURAL TAG MIGRATION
 type: rscf
 source: 11_KNOWLEDGE/rscf
 tags:

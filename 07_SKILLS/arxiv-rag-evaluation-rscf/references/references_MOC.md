@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Rag Evaluation Rscf"
+title: References MOC — References — Arxiv Rag Evaluation Rscf
 type: moc
 source: 07_SKILLS/arxiv-rag-evaluation-rscf/references
 tags:

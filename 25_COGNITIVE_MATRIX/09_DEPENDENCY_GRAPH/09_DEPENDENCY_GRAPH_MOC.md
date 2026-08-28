@@ -1,5 +1,5 @@
 ---
-title: "09 Dependency Graph MOC"
+title: 09 Dependency Graph MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH
 tags:

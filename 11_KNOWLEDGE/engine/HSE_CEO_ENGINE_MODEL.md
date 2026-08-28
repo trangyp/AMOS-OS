@@ -1,7 +1,7 @@
 ---
-title: "AMOS HSE CEO Engine Model"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: AMOS HSE CEO Engine Model
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: brain-model
 source: 11_KNOWLEDGE/engine
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/derived
 - topic/hse-ceo-engine-model
 - engine
-status: "active"
-provenance: "HSE_CEO_Enginev.txt"
-confidence: "STRUCTURAL"
+status: active
+provenance: HSE_CEO_Enginev.txt
+confidence: STRUCTURAL
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

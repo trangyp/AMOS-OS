@@ -1,5 +1,5 @@
 ---
-title: "AMOS Vault MOC"
+title: AMOS Vault MOC
 type: moc
 source: .
 tags:

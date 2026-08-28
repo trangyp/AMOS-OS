@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Information Boundary Governor"
+title: References MOC — References — Amos Information Boundary Governor
 type: moc
 source: 07_SKILLS/amos-information-boundary-governor/references
 tags:

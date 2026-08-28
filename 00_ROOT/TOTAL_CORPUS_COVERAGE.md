@@ -1,16 +1,16 @@
 ---
-title: "Total Corpus Coverage"
+title: Total Corpus Coverage
 type: coverage
-source: "00_ROOT"
-artifact: "TOTAL_CORPUS_COVERAGE.md"
-artifact_id: "00_root_total_corpus_coverage"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "00_ROOT"
-segment: "00_ROOT/TOTAL_CORPUS_COVERAGE.md"
-artifact_kind: "COVERAGE"
-path: "00_ROOT/TOTAL_CORPUS_COVERAGE.md"
+source: 00_ROOT
+artifact: TOTAL_CORPUS_COVERAGE.md
+artifact_id: 00_root_total_corpus_coverage
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 00_ROOT
+segment: 00_ROOT/TOTAL_CORPUS_COVERAGE.md
+artifact_kind: COVERAGE
+path: 00_ROOT/TOTAL_CORPUS_COVERAGE.md
 tags:
   - 00_root
   - amos_os
@@ -24,15 +24,15 @@ tags:
   - rscf
   - total_corpus_coverage.md
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

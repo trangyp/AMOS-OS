@@ -1,5 +1,5 @@
 ---
-title: "Amos-Session-Control-Plane MOC"
+title: Amos-Session-Control-Plane MOC
 type: moc
 source: 07_SKILLS/amos-session-control-plane
 tags:

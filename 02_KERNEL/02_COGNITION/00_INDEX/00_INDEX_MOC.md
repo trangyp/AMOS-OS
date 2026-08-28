@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Kernel / Cognition / Index"
+title: Index MOC — Kernel / Cognition / Index
 type: moc
 source: 02_KERNEL/02_COGNITION/00_INDEX
 tags:

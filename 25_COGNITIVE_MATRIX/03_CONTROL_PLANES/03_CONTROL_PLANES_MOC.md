@@ -1,5 +1,5 @@
 ---
-title: "03 Control Planes MOC"
+title: 03 Control Planes MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES
 tags:

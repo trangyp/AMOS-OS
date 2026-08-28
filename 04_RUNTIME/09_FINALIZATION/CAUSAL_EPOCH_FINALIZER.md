@@ -1,16 +1,16 @@
 ---
-title: "Causal Epoch Finalizer Specification"
+title: Causal Epoch Finalizer Specification
 type: runtime
 source: 04_RUNTIME/09_FINALIZATION
-artifact: "CAUSAL_EPOCH_FINALIZER.md"
-artifact_id: "amos_04_runtime_09_finalization_causal_epoch_finalizer"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "04_RUNTIME"
-segment: "04_RUNTIME/09_FINALIZATION"
-artifact_kind: "FINALIZER_SPEC"
-path: "04_RUNTIME/09_FINALIZATION/CAUSAL_EPOCH_FINALIZER.md"
+artifact: CAUSAL_EPOCH_FINALIZER.md
+artifact_id: amos_04_runtime_09_finalization_causal_epoch_finalizer
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 04_RUNTIME
+segment: 04_RUNTIME/09_FINALIZATION
+artifact_kind: FINALIZER_SPEC
+path: 04_RUNTIME/09_FINALIZATION/CAUSAL_EPOCH_FINALIZER.md
 tags:
   - amos_os
   - runtime
@@ -23,16 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/runtime
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -46,9 +46,9 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   finalization_moc:
-    artifact: "04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC"
+    artifact: 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
   law_of_law:
-    artifact: "01_CANON/01_CORE_LAWS/L0_INTEGRITY"
+    artifact: 01_CANON/01_CORE_LAWS/L0_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   spec_structure: VERIFIED_SOURCE_STRUCTURE

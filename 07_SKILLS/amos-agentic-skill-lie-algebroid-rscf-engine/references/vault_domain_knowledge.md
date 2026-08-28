@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Agentic Skill Lie Algebroid Rscf Engine"
+title: Vault Domain Knowledge — Amos Agentic Skill Lie Algebroid Rscf Engine
 type: reference
 source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine/references
 tags:

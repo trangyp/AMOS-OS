@@ -1,5 +1,5 @@
 ---
-title: "Tech-Coding MOC"
+title: Tech-Coding MOC
 type: moc
 source: 11_KNOWLEDGE/tech-coding
 tags:

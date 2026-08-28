@@ -1,5 +1,5 @@
 ---
-title: "Control MOC"
+title: Control MOC
 type: moc
 source: 11_KNOWLEDGE/control
 tags:

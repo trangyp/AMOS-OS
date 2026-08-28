@@ -1,5 +1,5 @@
 ---
-title: "L01 Sensing Observation MOC"
+title: L01 Sensing Observation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Causal-Abstraction-Validity-Rscf-Engine MOC"
+title: Amos-Causal-Abstraction-Validity-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-causal-abstraction-validity-rscf-engine
 tags:

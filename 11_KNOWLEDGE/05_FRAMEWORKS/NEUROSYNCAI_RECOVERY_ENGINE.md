@@ -1,16 +1,16 @@
 ---
-title: "NeurosyncAI Recovery Engine"
+title: NeurosyncAI Recovery Engine
 type: neurosyncai
 source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: "NEUROSYNCAI_RECOVERY_ENGINE.md"
-artifact_id: "amos_11_knowledge_05_frameworks_neurosyncai_recovery_engine"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "11_KNOWLEDGE"
-segment: "11_KNOWLEDGE/05_FRAMEWORKS"
-artifact_kind: "ENGINE"
-path: "11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE.md"
+artifact: NEUROSYNCAI_RECOVERY_ENGINE.md
+artifact_id: amos_11_knowledge_05_frameworks_neurosyncai_recovery_engine
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 11_KNOWLEDGE
+segment: 11_KNOWLEDGE/05_FRAMEWORKS
+artifact_kind: ENGINE
+path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE.md
 tags:
   - amos_os
   - knowledge
@@ -24,16 +24,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -47,11 +47,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   master:
-    artifact: "[[NEUROSYNCAI_MASTER]]"
+    artifact: [[NEUROSYNCAI_MASTER]]
   framework:
-    artifact: "[[NEUROSYNCAI_FRAMEWORK]]"
+    artifact: [[NEUROSYNCAI_FRAMEWORK]]
   entropy_correction:
-    artifact: "[[UBI_ENTROPY_CORRECTION]]"
+    artifact: [[UBI_ENTROPY_CORRECTION]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

@@ -1,5 +1,5 @@
 ---
-title: "31 Multi Agent Modes MOC"
+title: 31 Multi Agent Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/31_MULTI_AGENT_MODES
 tags:

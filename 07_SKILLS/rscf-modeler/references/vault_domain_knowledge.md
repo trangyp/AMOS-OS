@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Rscf Modeler"
+title: Vault Domain Knowledge — Rscf Modeler
 type: reference
 source: 07_SKILLS/rscf-modeler/references
 tags:

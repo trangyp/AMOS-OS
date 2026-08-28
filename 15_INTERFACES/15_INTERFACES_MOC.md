@@ -1,5 +1,5 @@
 ---
-title: "15 Interfaces MOC"
+title: 15 Interfaces MOC
 type: moc
 source: 15_INTERFACES
 tags:

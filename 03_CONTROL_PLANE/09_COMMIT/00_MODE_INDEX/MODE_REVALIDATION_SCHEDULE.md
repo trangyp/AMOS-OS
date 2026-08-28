@@ -1,16 +1,16 @@
 ---
-title: "AMOS OS Mode Revalidation Schedule"
+title: AMOS OS Mode Revalidation Schedule
 type: validation
-source: "03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX"
-artifact: "MODE_REVALIDATION_SCHEDULE.md"
-artifact_id: "03_control_plane_09_commit_00_mode_index_mode_revalidation_schedule"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "03_CONTROL_PLANE"
-segment: "03_CONTROL_PLANE/09_COMMIT"
-artifact_kind: "VALIDATION"
-path: "03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_REVALIDATION_SCHEDULE.md"
+source: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX
+artifact: MODE_REVALIDATION_SCHEDULE.md
+artifact_id: 03_control_plane_09_commit_00_mode_index_mode_revalidation_schedule
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 03_CONTROL_PLANE
+segment: 03_CONTROL_PLANE/09_COMMIT
+artifact_kind: VALIDATION
+path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_REVALIDATION_SCHEDULE.md
 tags:
   - 00_mode_index
   - 03_control_plane
@@ -28,15 +28,15 @@ tags:
   - schedule
   - validation
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

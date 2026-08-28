@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Law Hierarchy Resolver"
+title: Vault Domain Knowledge — Amos Law Hierarchy Resolver
 type: reference
 source: 07_SKILLS/amos-law-hierarchy-resolver/references
 tags:

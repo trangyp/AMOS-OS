@@ -1,8 +1,8 @@
 ---
-title: "Cognitive Substrate Workflow Bridge"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Cognitive/*.json"
-origin_architect: "Trang Phan"
+title: Cognitive Substrate Workflow Bridge
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Cognitive/*.json
+origin_architect: Trang Phan
 type: reference
 tags:
 - canon-group/human-system
@@ -11,10 +11,10 @@ tags:
 - rscf/state/observation
 - topic/amos-cognitive-stack-engines
 - cognitive
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-source: "Google Drive /_00_AMOS_CANON/Cognitive/ (13 engine JSON files)"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
+source: Google Drive /_00_AMOS_CANON/Cognitive/ (13 engine JSON files)
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

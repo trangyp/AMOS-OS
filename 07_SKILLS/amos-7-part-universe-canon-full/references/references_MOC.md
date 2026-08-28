@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos 7 Part Universe Canon Full"
+title: References MOC — References — Amos 7 Part Universe Canon Full
 type: moc
 source: 07_SKILLS/amos-7-part-universe-canon-full/references
 tags:

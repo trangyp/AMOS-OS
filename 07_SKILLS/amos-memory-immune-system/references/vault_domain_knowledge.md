@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Memory Immune System"
+title: Vault Domain Knowledge — Amos Memory Immune System
 type: reference
 source: 07_SKILLS/amos-memory-immune-system/references
 tags:

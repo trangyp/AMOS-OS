@@ -1,5 +1,5 @@
 ---
-title: "22 Research MOC"
+title: 22 Research MOC
 type: moc
 source: 22_RESEARCH
 tags:

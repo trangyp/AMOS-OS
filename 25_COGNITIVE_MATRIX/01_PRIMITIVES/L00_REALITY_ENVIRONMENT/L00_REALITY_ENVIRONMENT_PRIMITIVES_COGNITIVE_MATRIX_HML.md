@@ -1,5 +1,5 @@
 ---
-title: "L00_REALITY_ENVIRONMENT — H/M/L Architecture"
+title: L00_REALITY_ENVIRONMENT — H/M/L Architecture
 type: cognitive
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:

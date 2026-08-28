@@ -3,7 +3,7 @@ title: 2026 08 22 THE HUMAN SYSTEM EPISTEMIC AUDIT V2
 type: epistemic-audit
 created: 2026-08-22
 updated: 2026-08-22
-source: "\"The Complete Human System\" — second-pass epistemic audit (tags: [canon-group/human-system, epistemic-audit, falsifiability, dimensional-analysis, neuroscience-cross-check, precision-correction, v2, canon/framework, rscf/state/observation, rscf/claim, rscf/provenance, topic/2026-08-22-the-complete-human-system-epistemic-audit-v2] v2]"
+source: '\"The Complete Human System\" — second-pass epistemic audit (tags: [canon-group/human-system, epistemic-audit, falsifiability, dimensional-analysis, neuroscience-cross-check, precision-correction, v2, canon/framework, rscf/state/observation, rscf/claim, rscf/provenance, topic/2026-08-22-the-complete-human-system-epistemic-audit-v2] v2]'
 provenance: second-pass-analysis
 byte_count_note: 21776
 byte_count_books: 15137
@@ -18,6 +18,7 @@ rscf:
   provenance: AMOS_corpus
   scope: temporal_log
 ---
+
 
 
 # The Complete Human System — Epistemic Audit v2 (2026-08-22)

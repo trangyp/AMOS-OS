@@ -1,5 +1,5 @@
 ---
-title: "Vietnamese Writing Engine — Amos C06 Society Culture Master"
+title: Vietnamese Writing Engine — Amos C06 Society Culture Master
 type: reference
 source: 07_SKILLS/amos-c06-society-culture-master/references
 tags:

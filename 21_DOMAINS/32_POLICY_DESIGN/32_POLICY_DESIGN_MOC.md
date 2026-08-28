@@ -1,5 +1,5 @@
 ---
-title: "32 Policy Design MOC"
+title: 32 Policy Design MOC
 type: moc
 source: 21_DOMAINS/32_POLICY_DESIGN
 tags:

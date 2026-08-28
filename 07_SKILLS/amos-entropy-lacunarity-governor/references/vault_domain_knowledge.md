@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Entropy Lacunarity Governor"
+title: Vault Domain Knowledge — Amos Entropy Lacunarity Governor
 type: reference
 source: 07_SKILLS/amos-entropy-lacunarity-governor/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Workflow Builder"
+title: References MOC — References — Amos Workflow Builder
 type: moc
 source: 07_SKILLS/amos-workflow-builder/references
 tags:

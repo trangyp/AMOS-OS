@@ -1,5 +1,5 @@
 ---
-title: "02 Router MOC"
+title: 02 Router MOC
 type: moc
 source: 04_RUNTIME/02_ROUTER
 tags:

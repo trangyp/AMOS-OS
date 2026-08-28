@@ -1,5 +1,5 @@
 ---
-title: "O15 Observation MOC"
+title: O15 Observation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION
 tags:

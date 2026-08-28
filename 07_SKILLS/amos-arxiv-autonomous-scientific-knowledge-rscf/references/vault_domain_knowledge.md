@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Arxiv Autonomous Scientific Knowledge Rscf"
+title: Vault Domain Knowledge — Amos Arxiv Autonomous Scientific Knowledge Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/references
 tags:

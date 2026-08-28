@@ -1,16 +1,16 @@
 ---
-title: "GENERATORS TESTS"
+title: GENERATORS TESTS
 type: test
-source: "25_COGNITIVE_MATRIX/12_GENERATORS"
-artifact: "GENERATORS_TESTS.md"
-artifact_id: "25_cognitive_matrix_12_generators_generators_tests"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX/12_GENERATORS"
-artifact_kind: "TEST"
-path: "25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS.md"
+source: 25_COGNITIVE_MATRIX/12_GENERATORS
+artifact: GENERATORS_TESTS.md
+artifact_id: 25_cognitive_matrix_12_generators_generators_tests
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX/12_GENERATORS
+artifact_kind: TEST
+path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS.md
 tags:
   - 12_generators
   - 25_cognitive_matrix
@@ -25,15 +25,15 @@ tags:
   - test
   - tests
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

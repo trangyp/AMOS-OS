@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Formal Engines Master"
+title: Vault Domain Knowledge — Amos Formal Engines Master
 type: reference
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:

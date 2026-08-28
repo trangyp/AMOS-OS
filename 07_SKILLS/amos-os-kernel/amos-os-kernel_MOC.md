@@ -1,5 +1,5 @@
 ---
-title: "Amos-Os-Kernel MOC"
+title: Amos-Os-Kernel MOC
 type: moc
 source: 07_SKILLS/amos-os-kernel
 tags:

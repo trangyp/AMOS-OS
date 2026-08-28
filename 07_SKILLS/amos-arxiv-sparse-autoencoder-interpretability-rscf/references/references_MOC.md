@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Sparse Autoencoder Interpretability Rscf"
+title: References MOC — References — Amos Arxiv Sparse Autoencoder Interpretability Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf/references
 tags:

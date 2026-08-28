@@ -1,5 +1,5 @@
 ---
-title: "03 Control Plane MOC"
+title: 03 Control Plane MOC
 type: moc
 source: 03_CONTROL_PLANE
 tags:

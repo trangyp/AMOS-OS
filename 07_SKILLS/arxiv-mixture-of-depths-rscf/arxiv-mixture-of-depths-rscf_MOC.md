@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Mixture-Of-Depths-Rscf MOC"
+title: Arxiv-Mixture-Of-Depths-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-mixture-of-depths-rscf
 tags:

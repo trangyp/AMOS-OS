@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 8 — Generator Wave Absorption (23 empties → 0)"
+title: 2026-08-25 QFM Pass 8 — Generator Wave Absorption (23 empties → 0)
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

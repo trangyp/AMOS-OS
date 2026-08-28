@@ -1,5 +1,5 @@
 ---
-title: "AMOS Cognitive Matrix Placeholder Seed Status"
+title: AMOS Cognitive Matrix Placeholder Seed Status
 type: status
 source: 25_COGNITIVE_MATRIX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Repository Ast Analysis Rscf"
+title: Vault Domain Knowledge — Amos Repository Ast Analysis Rscf
 type: reference
 source: 07_SKILLS/amos-repository-ast-analysis-rscf/references
 tags:
@@ -12,7 +12,7 @@ rscf:
   provenance: AMOS_corpus
   scope: skill_reference
 overclaim_risk: true
-overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 
 

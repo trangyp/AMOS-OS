@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Mark Operator Rscf Engine"
+title: References MOC — References — Amos Mark Operator Rscf Engine
 type: moc
 source: 07_SKILLS/amos-mark-operator-rscf-engine/references
 tags:

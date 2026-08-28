@@ -1,5 +1,5 @@
 ---
-title: "Amos-Economy-Internet-Money-Rscf-Engine MOC"
+title: Amos-Economy-Internet-Money-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-economy-internet-money-rscf-engine
 tags:

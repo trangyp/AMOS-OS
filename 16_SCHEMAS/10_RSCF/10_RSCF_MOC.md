@@ -1,5 +1,5 @@
 ---
-title: "10 Rscf MOC"
+title: 10 Rscf MOC
 type: moc
 source: 16_SCHEMAS/10_RSCF
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Archive / Experimental / Index"
+title: Index MOC — Archive / Experimental / Index
 type: moc
 source: 24_ARCHIVE/03_EXPERIMENTAL/00_INDEX
 tags:

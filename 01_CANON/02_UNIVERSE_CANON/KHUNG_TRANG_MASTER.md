@@ -1,16 +1,16 @@
 ---
-title: "Khung Trang Master"
+title: Khung Trang Master
 type: trang-framework
-source: "01_CANON/02_UNIVERSE_CANON"
-artifact: "KHUNG_TRANG_MASTER.md"
-artifact_id: "amos_01_canon_02_universe_canon_khung_trang_master"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/02_UNIVERSE_CANON"
-artifact_kind: "CANON_SPECIFICATION"
-path: "01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER.md"
+source: 01_CANON/02_UNIVERSE_CANON
+artifact: KHUNG_TRANG_MASTER.md
+artifact_id: amos_01_canon_02_universe_canon_khung_trang_master
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/02_UNIVERSE_CANON
+artifact_kind: CANON_SPECIFICATION
+path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER.md
 tags:
   - amos_os
   - canon
@@ -34,16 +34,16 @@ tags:
   - rscf
   - provenance
   - canon/universe
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "SOURCE_VALIDATED_RUNTIME_VERIFIED"
-executable_binding: "ESTABLISHED_VIA_VALIDATION_SUITE"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: SOURCE_VALIDATED_RUNTIME_VERIFIED
+executable_binding: ESTABLISHED_VIA_VALIDATION_SUITE
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL

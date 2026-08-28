@@ -1,18 +1,18 @@
 ---
-title: "AMOS Quantum Stack Canon"
-canonical_name: "AMOS_QUANTUM_STACK_CANON"
+title: AMOS Quantum Stack Canon
+canonical_name: AMOS_QUANTUM_STACK_CANON
 type: canon
-source: "01_CANON/04_INFRASTRUCTURE_CANON"
-artifact: "AMOS_QUANTUM_STACK_CANON.md"
-artifact_id: "amos_01_canon_04_infrastructure_canon_amos_quantum_stack_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/04_INFRASTRUCTURE_CANON"
-artifact_kind: "CANON_PLACEHOLDER"
-package_role: "RESERVED_INFRASTRUCTURE_CANON_SLOT"
-path: "01_CANON/04_INFRASTRUCTURE_CANON/AMOS_QUANTUM_STACK_CANON.md"
+source: 01_CANON/04_INFRASTRUCTURE_CANON
+artifact: AMOS_QUANTUM_STACK_CANON.md
+artifact_id: amos_01_canon_04_infrastructure_canon_amos_quantum_stack_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/04_INFRASTRUCTURE_CANON
+artifact_kind: CANON_PLACEHOLDER
+package_role: RESERVED_INFRASTRUCTURE_CANON_SLOT
+path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_QUANTUM_STACK_CANON.md
 tags:
   - amos_os
   - canon
@@ -25,15 +25,15 @@ tags:
   - provenance
   - lineage
   - unknown_gap
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 overwrite_existing: false
 native_canon_source_resolved: false
 substantive_semantics_present: false

@@ -1,5 +1,5 @@
 ---
-title: "42 Sector Value Chain MOC"
+title: 42 Sector Value Chain MOC
 type: moc
 source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN
 tags:

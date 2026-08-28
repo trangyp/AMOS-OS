@@ -1,16 +1,16 @@
 ---
-title: "TSS Seven Cycles"
+title: TSS Seven Cycles
 type: trang-framework
 source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: "TSS_SEVEN_CYCLES.md"
-artifact_id: "amos_11_knowledge_05_frameworks_tss_seven_cycles"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "11_KNOWLEDGE"
-segment: "11_KNOWLEDGE/05_FRAMEWORKS"
-artifact_kind: "FRAMEWORK"
-path: "11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES.md"
+artifact: TSS_SEVEN_CYCLES.md
+artifact_id: amos_11_knowledge_05_frameworks_tss_seven_cycles
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 11_KNOWLEDGE
+segment: 11_KNOWLEDGE/05_FRAMEWORKS
+artifact_kind: FRAMEWORK
+path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES.md
 tags:
   - amos_os
   - knowledge
@@ -30,16 +30,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -53,12 +53,12 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   parent_framework:
-    name: "The Trang System™"
-    acronym: "TSS"
-    artifact: "[[TSS_THE_TRANG_SYSTEM]]"
+    name: The Trang System™
+    acronym: TSS
+    artifact: [[TSS_THE_TRANG_SYSTEM]]
   cognitive_matrix_binding:
-    artifact: "[[AMOS_X_TSS]]"
-    matrix: "[[AMOS_X_TSS_TPE_MATRIX]]"
+    artifact: [[AMOS_X_TSS]]
+    matrix: [[AMOS_X_TSS_TPE_MATRIX]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

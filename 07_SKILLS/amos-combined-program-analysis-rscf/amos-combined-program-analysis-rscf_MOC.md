@@ -1,5 +1,5 @@
 ---
-title: "Amos-Combined-Program-Analysis-Rscf MOC"
+title: Amos-Combined-Program-Analysis-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-combined-program-analysis-rscf
 tags:

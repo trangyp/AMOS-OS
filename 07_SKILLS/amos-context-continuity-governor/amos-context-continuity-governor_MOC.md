@@ -1,5 +1,5 @@
 ---
-title: "Amos-Context-Continuity-Governor MOC"
+title: Amos-Context-Continuity-Governor MOC
 type: moc
 source: 07_SKILLS/amos-context-continuity-governor
 tags:

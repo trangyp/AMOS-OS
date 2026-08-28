@@ -1,5 +1,5 @@
 ---
-title: "05 Policies MOC"
+title: 05 Policies MOC
 type: moc
 source: 20_OPERATIONS/05_POLICIES
 tags:

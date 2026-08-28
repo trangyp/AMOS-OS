@@ -1,5 +1,5 @@
 ---
-title: "11 Knowledge MOC"
+title: 11 Knowledge MOC
 type: moc
 source: 11_KNOWLEDGE
 tags:

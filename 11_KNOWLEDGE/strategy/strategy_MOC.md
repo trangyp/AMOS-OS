@@ -1,5 +1,5 @@
 ---
-title: "Strategy MOC"
+title: Strategy MOC
 type: moc
 source: 11_KNOWLEDGE/strategy
 tags:

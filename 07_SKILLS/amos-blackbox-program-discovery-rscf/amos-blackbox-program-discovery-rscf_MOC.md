@@ -1,5 +1,5 @@
 ---
-title: "Amos-Blackbox-Program-Discovery-Rscf MOC"
+title: Amos-Blackbox-Program-Discovery-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-blackbox-program-discovery-rscf
 tags:

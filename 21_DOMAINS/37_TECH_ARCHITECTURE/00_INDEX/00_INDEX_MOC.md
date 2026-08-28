@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Tech Architecture / Index"
+title: Index MOC — Domains / Tech Architecture / Index
 type: moc
 source: 21_DOMAINS/37_TECH_ARCHITECTURE/00_INDEX
 tags:

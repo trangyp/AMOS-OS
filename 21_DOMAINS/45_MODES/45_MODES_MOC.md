@@ -1,5 +1,5 @@
 ---
-title: "45 Modes MOC"
+title: 45 Modes MOC
 type: moc
 source: 21_DOMAINS/45_MODES
 tags:

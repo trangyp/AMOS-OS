@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Purpose Impact Rscf"
+title: References MOC — References — Mckinsey Purpose Impact Rscf
 type: moc
 source: 07_SKILLS/mckinsey-purpose-impact-rscf/references
 tags:

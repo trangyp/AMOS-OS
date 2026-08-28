@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Canon / Glossary / Index"
+title: Index MOC — Canon / Glossary / Index
 type: moc
 source: 01_CANON/06_GLOSSARY/00_INDEX
 tags:

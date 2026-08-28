@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Recursive Observer Contamination"
+title: References MOC — References — Amos Recursive Observer Contamination
 type: moc
 source: 07_SKILLS/amos-recursive-observer-contamination/references
 tags:

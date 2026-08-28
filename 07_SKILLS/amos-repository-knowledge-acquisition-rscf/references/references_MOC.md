@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Repository Knowledge Acquisition Rscf"
+title: References MOC — References — Amos Repository Knowledge Acquisition Rscf
 type: moc
 source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf/references
 tags:

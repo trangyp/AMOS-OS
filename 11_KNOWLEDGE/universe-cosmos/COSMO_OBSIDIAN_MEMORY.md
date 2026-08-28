@@ -1,7 +1,7 @@
 ---
-title: "cosmo-obsidian-memory"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: cosmo-obsidian-memory
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: bridge
 source: 11_KNOWLEDGE/universe-cosmos
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/observation
 - topic/cosmo-obsidian-memory
 - universe-cosmos
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
+status: index
+provenance: SOURCE_CLAIM
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

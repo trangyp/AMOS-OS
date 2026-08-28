@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Rscf Epistemic Master"
+title: References MOC — References — Amos Rscf Epistemic Master
 type: moc
 source: 07_SKILLS/amos-rscf-epistemic-master/references
 tags:

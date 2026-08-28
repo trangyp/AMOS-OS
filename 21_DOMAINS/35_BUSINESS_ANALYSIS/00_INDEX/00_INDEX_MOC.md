@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Business Analysis / Index"
+title: Index MOC — Domains / Business Analysis / Index
 type: moc
 source: 21_DOMAINS/35_BUSINESS_ANALYSIS/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "06 World Model MOC"
+title: 06 World Model MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/06_WORLD_MODEL
 tags:

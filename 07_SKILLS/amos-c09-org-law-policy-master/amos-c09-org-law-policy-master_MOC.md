@@ -1,5 +1,5 @@
 ---
-title: "Amos-C09-Org-Law-Policy-Master MOC"
+title: Amos-C09-Org-Law-Policy-Master MOC
 type: moc
 source: 07_SKILLS/amos-c09-org-law-policy-master
 tags:

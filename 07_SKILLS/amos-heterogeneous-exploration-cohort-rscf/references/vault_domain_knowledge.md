@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Heterogeneous Exploration Cohort Rscf"
+title: Vault Domain Knowledge — Amos Heterogeneous Exploration Cohort Rscf
 type: reference
 source: 07_SKILLS/amos-heterogeneous-exploration-cohort-rscf/references
 tags:

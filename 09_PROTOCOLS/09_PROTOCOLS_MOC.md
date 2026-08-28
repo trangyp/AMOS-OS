@@ -1,5 +1,5 @@
 ---
-title: "09 Protocols MOC"
+title: 09 Protocols MOC
 type: moc
 source: 09_PROTOCOLS
 tags:

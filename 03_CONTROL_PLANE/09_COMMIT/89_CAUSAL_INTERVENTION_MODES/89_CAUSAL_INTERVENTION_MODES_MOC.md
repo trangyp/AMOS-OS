@@ -1,5 +1,5 @@
 ---
-title: "89 Causal Intervention Modes MOC"
+title: 89 Causal Intervention Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/89_CAUSAL_INTERVENTION_MODES
 tags:

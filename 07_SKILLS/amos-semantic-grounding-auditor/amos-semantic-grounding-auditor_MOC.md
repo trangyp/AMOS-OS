@@ -1,5 +1,5 @@
 ---
-title: "Amos-Semantic-Grounding-Auditor MOC"
+title: Amos-Semantic-Grounding-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-semantic-grounding-auditor
 tags:

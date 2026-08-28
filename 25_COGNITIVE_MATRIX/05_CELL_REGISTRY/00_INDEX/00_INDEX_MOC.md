@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Cell Registry / Index"
+title: Index MOC — Cognitive Matrix / Cell Registry / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY/00_INDEX
 tags:

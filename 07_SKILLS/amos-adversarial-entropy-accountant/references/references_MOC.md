@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Adversarial Entropy Accountant"
+title: References MOC — References — Amos Adversarial Entropy Accountant
 type: moc
 source: 07_SKILLS/amos-adversarial-entropy-accountant/references
 tags:

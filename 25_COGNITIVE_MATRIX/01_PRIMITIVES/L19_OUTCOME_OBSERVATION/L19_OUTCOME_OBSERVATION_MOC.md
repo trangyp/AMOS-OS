@@ -1,5 +1,5 @@
 ---
-title: "L19 Outcome Observation MOC"
+title: L19 Outcome Observation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L19_OUTCOME_OBSERVATION
 tags:

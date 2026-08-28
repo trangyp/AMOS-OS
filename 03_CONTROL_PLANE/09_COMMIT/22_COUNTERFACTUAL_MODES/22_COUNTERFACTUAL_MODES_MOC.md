@@ -1,5 +1,5 @@
 ---
-title: "22 Counterfactual Modes MOC"
+title: 22 Counterfactual Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/22_COUNTERFACTUAL_MODES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "UEL Expression Layer"
+title: UEL Expression Layer
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

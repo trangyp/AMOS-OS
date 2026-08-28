@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Bundle Manifold Concentration Rscf Engine"
+title: References MOC — References — Amos Bundle Manifold Concentration Rscf Engine
 type: moc
 source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Proof Loss Diagnostic Reconstruction Rscf"
+title: Vault Domain Knowledge — Amos Proof Loss Diagnostic Reconstruction Rscf
 type: reference
 source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf/references
 tags:

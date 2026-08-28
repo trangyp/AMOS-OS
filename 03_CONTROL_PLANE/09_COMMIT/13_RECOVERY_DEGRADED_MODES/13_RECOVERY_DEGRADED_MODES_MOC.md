@@ -1,5 +1,5 @@
 ---
-title: "13 Recovery Degraded Modes MOC"
+title: 13 Recovery Degraded Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/13_RECOVERY_DEGRADED_MODES
 tags:

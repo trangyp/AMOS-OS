@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Cross Species Cognition Mapper"
+title: References MOC — References — Amos Cross Species Cognition Mapper
 type: moc
 source: 07_SKILLS/amos-cross-species-cognition-mapper/references
 tags:

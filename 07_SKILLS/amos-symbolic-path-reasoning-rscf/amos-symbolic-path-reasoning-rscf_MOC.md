@@ -1,5 +1,5 @@
 ---
-title: "Amos-Symbolic-Path-Reasoning-Rscf MOC"
+title: Amos-Symbolic-Path-Reasoning-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-symbolic-path-reasoning-rscf
 tags:

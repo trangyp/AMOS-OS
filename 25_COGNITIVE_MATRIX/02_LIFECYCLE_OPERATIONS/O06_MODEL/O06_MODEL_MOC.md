@@ -1,5 +1,5 @@
 ---
-title: "O06 Model MOC"
+title: O06 Model MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O06_MODEL
 tags:

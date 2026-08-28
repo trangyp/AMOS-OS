@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Tensor Accelerator Activity Rscf Engine"
+title: Vault Domain Knowledge — Amos Tensor Accelerator Activity Rscf Engine
 type: reference
 source: 07_SKILLS/amos-tensor-accelerator-activity-rscf-engine/references
 tags:

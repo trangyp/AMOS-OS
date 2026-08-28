@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Market Intelligence / Index"
+title: Index MOC — Domains / Market Intelligence / Index
 type: moc
 source: 21_DOMAINS/36_MARKET_INTELLIGENCE/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Biology Quantum Bridge Governor"
+title: References MOC — References — Amos Biology Quantum Bridge Governor
 type: moc
 source: 07_SKILLS/amos-biology-quantum-bridge-governor/references
 tags:

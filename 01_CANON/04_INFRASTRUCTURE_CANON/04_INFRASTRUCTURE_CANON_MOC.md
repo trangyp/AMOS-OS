@@ -1,5 +1,5 @@
 ---
-title: "04 Infrastructure Canon MOC"
+title: 04 Infrastructure Canon MOC
 type: moc
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 tags:

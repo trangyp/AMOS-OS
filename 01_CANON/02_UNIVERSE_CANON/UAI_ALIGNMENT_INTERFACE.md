@@ -1,5 +1,5 @@
 ---
-title: "UAI Alignment Interface"
+title: UAI Alignment Interface
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

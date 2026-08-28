@@ -1,5 +1,5 @@
 ---
-title: "AMOS C05 — Mind & Behavior Master Knowledge"
+title: AMOS C05 — Mind & Behavior Master Knowledge
 type: mind
 source: 11_KNOWLEDGE
 tags:

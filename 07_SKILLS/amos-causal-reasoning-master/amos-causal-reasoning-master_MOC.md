@@ -1,5 +1,5 @@
 ---
-title: "Amos-Causal-Reasoning-Master MOC"
+title: Amos-Causal-Reasoning-Master MOC
 type: moc
 source: 07_SKILLS/amos-causal-reasoning-master
 tags:

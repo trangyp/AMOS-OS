@@ -1,5 +1,5 @@
 ---
-title: "60 Collaboration Consensus Modes MOC"
+title: 60 Collaboration Consensus Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/60_COLLABORATION_CONSENSUS_MODES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Protocols / Index"
+title: Index MOC — Protocols / Index
 type: moc
 source: 09_PROTOCOLS/00_INDEX
 tags:

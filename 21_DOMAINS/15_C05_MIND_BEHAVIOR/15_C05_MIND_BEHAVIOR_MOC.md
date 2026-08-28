@@ -1,5 +1,5 @@
 ---
-title: "15 C05 Mind Behavior MOC"
+title: 15 C05 Mind Behavior MOC
 type: moc
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR
 tags:

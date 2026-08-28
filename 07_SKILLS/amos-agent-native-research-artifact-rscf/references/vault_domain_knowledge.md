@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Agent Native Research Artifact Rscf"
+title: Vault Domain Knowledge — Amos Agent Native Research Artifact Rscf
 type: reference
 source: 07_SKILLS/amos-agent-native-research-artifact-rscf/references
 tags:

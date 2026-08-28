@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fractal Systems Master"
+title: References MOC — References — Amos Fractal Systems Master
 type: moc
 source: 07_SKILLS/amos-fractal-systems-master/references
 tags:

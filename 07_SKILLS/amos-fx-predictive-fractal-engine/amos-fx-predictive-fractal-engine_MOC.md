@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Predictive-Fractal-Engine MOC"
+title: Amos-Fx-Predictive-Fractal-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-predictive-fractal-engine
 tags:

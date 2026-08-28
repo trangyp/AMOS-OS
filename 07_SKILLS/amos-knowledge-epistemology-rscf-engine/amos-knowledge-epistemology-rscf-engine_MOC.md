@@ -1,5 +1,5 @@
 ---
-title: "Amos-Knowledge-Epistemology-Rscf-Engine MOC"
+title: Amos-Knowledge-Epistemology-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine
 tags:

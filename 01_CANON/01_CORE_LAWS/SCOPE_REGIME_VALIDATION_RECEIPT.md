@@ -1,5 +1,5 @@
 ---
-title: "Scope Regime Validation Receipt"
+title: Scope Regime Validation Receipt
 type: receipt
 source: 01_CANON/01_CORE_LAWS
 tags:

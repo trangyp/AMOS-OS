@@ -1,5 +1,5 @@
 ---
-title: "L02 Attention MOC"
+title: L02 Attention MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
 tags:

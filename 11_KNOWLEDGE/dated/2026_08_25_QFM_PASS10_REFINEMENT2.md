@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 10 — Refinement Batch 2 + Logic Root Closure"
+title: 2026-08-25 QFM Pass 10 — Refinement Batch 2 + Logic Root Closure
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

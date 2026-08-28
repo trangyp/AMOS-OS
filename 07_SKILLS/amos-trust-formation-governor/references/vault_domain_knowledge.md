@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Trust Formation Governor"
+title: Vault Domain Knowledge — Amos Trust Formation Governor
 type: reference
 source: 07_SKILLS/amos-trust-formation-governor/references
 tags:

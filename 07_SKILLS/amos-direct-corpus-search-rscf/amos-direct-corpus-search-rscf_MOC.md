@@ -1,5 +1,5 @@
 ---
-title: "Amos-Direct-Corpus-Search-Rscf MOC"
+title: Amos-Direct-Corpus-Search-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-direct-corpus-search-rscf
 tags:

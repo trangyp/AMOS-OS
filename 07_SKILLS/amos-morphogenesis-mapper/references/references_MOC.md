@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Morphogenesis Mapper"
+title: References MOC — References — Amos Morphogenesis Mapper
 type: moc
 source: 07_SKILLS/amos-morphogenesis-mapper/references
 tags:

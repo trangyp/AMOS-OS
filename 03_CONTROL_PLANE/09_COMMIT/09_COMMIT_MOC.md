@@ -1,5 +1,5 @@
 ---
-title: "09 Commit MOC"
+title: 09 Commit MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT
 tags:

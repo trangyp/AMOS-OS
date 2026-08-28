@@ -1,5 +1,5 @@
 ---
-title: "Amos-Cognitive-Compression-Kernel MOC"
+title: Amos-Cognitive-Compression-Kernel MOC
 type: moc
 source: 07_SKILLS/amos-cognitive-compression-kernel
 tags:

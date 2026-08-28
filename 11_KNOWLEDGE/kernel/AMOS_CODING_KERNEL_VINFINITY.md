@@ -1,8 +1,8 @@
 ---
-title: "AMOS Coding Kernel vInfinity — 4 Layers"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Coding_Kernel_v0.json"
-origin_architect: "Trang Phan"
+title: AMOS Coding Kernel vInfinity — 4 Layers
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Coding_Kernel_v0.json
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/kernel
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/B-boundary
 - topic/coding-engine-model
 - kernel
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

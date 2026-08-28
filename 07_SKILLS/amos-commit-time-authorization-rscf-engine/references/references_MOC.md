@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Commit Time Authorization Rscf Engine"
+title: References MOC — References — Amos Commit Time Authorization Rscf Engine
 type: moc
 source: 07_SKILLS/amos-commit-time-authorization-rscf-engine/references
 tags:

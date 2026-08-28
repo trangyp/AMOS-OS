@@ -1,5 +1,5 @@
 ---
-title: "Amos-Neural-Ode-Dynamics-Rscf-Engine MOC"
+title: Amos-Neural-Ode-Dynamics-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-neural-ode-dynamics-rscf-engine
 tags:

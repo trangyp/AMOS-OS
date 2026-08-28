@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Llm Judge Bias Geometry Rscf"
+title: References MOC — References — Arxiv Llm Judge Bias Geometry Rscf
 type: moc
 source: 07_SKILLS/arxiv-llm-judge-bias-geometry-rscf/references
 tags:

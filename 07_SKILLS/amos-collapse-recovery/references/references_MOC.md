@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Collapse Recovery"
+title: References MOC — References — Amos Collapse Recovery
 type: moc
 source: 07_SKILLS/amos-collapse-recovery/references
 tags:

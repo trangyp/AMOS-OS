@@ -1,7 +1,7 @@
 ---
-title: "AMOS Canon Integration Layer (CIL) Model"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: AMOS Canon Integration Layer (CIL) Model
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: brain-model
 source: 11_KNOWLEDGE/models
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/derived
 - topic/canon-integration-layer-model
 - models
-status: "active"
-provenance: "4.Canon Integration Layer-CIL.ucil.txt"
-confidence: "STRUCTURAL"
+status: active
+provenance: 4.Canon Integration Layer-CIL.ucil.txt
+confidence: STRUCTURAL
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

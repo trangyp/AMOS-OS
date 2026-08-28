@@ -1,5 +1,5 @@
 ---
-title: "AMOS Tech Engine V∞ — Universal Technical Reasoning Kernel"
+title: AMOS Tech Engine V∞ — Universal Technical Reasoning Kernel
 type: reference
 source: 11_KNOWLEDGE/engine
 tags:

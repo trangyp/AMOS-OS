@@ -1,5 +1,5 @@
 ---
-title: "48 Negotiation Bargaining Modes MOC"
+title: 48 Negotiation Bargaining Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/48_NEGOTIATION_BARGAINING_MODES
 tags:

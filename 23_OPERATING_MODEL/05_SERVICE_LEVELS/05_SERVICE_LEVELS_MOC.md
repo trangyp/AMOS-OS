@@ -1,5 +1,5 @@
 ---
-title: "05 Service Levels MOC"
+title: 05 Service Levels MOC
 type: moc
 source: 23_OPERATING_MODEL/05_SERVICE_LEVELS
 tags:

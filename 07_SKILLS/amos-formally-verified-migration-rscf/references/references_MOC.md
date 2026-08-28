@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Formally Verified Migration Rscf"
+title: References MOC — References — Amos Formally Verified Migration Rscf
 type: moc
 source: 07_SKILLS/amos-formally-verified-migration-rscf/references
 tags:

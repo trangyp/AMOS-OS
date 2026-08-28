@@ -1,5 +1,5 @@
 ---
-title: "Amos-Distinction-Rscf-Architecture MOC"
+title: Amos-Distinction-Rscf-Architecture MOC
 type: moc
 source: 07_SKILLS/amos-distinction-rscf-architecture
 tags:

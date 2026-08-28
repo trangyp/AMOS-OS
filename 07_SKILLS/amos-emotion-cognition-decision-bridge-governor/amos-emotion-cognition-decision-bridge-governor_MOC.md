@@ -1,5 +1,5 @@
 ---
-title: "Amos-Emotion-Cognition-Decision-Bridge-Governor MOC"
+title: Amos-Emotion-Cognition-Decision-Bridge-Governor MOC
 type: moc
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor
 tags:

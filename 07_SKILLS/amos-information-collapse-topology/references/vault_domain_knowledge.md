@@ -1,7 +1,7 @@
 ---
-title: "Vault Domain Knowledge — Amos Information Collapse Topology"
+title: Vault Domain Knowledge — Amos Information Collapse Topology
 type: reference
-source: "07_SKILLS/amos-information-collapse-topology/references"
+source: 07_SKILLS/amos-information-collapse-topology/references
 rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL

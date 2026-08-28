@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Manifold Constrained Conformal Spatial Rscf"
+title: References MOC — References — Arxiv Manifold Constrained Conformal Spatial Rscf
 type: moc
 source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf/references
 tags:

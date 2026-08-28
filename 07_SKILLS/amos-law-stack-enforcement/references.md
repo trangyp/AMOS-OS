@@ -1,5 +1,5 @@
 ---
-title: "references — Amos Law Stack Enforcement"
+title: references — Amos Law Stack Enforcement
 type: note
 source: 07_SKILLS/amos-law-stack-enforcement
 tags:

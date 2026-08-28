@@ -1,5 +1,5 @@
 ---
-title: "Amos-Information-Exposure-Control MOC"
+title: Amos-Information-Exposure-Control MOC
 type: moc
 source: 07_SKILLS/amos-information-exposure-control
 tags:

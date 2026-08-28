@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Distinction Relation Transformation"
+title: References MOC — References — Amos Distinction Relation Transformation
 type: moc
 source: 07_SKILLS/amos-distinction-relation-transformation/references
 tags:

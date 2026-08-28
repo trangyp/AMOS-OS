@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Public Sector Transformation Rscf"
+title: References MOC — References — Mckinsey Public Sector Transformation Rscf
 type: moc
 source: 07_SKILLS/mckinsey-public-sector-transformation-rscf/references
 tags:

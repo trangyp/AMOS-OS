@@ -1,5 +1,5 @@
 ---
-title: "O07 Inference MOC"
+title: O07 Inference MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O07_INFERENCE
 tags:

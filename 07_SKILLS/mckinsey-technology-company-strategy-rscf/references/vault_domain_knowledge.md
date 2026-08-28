@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Technology Company Strategy Rscf"
+title: Vault Domain Knowledge — Mckinsey Technology Company Strategy Rscf
 type: reference
 source: 07_SKILLS/mckinsey-technology-company-strategy-rscf/references
 tags:

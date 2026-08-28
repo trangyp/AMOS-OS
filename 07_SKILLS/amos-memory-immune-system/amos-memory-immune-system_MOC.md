@@ -1,5 +1,5 @@
 ---
-title: "Amos-Memory-Immune-System MOC"
+title: Amos-Memory-Immune-System MOC
 type: moc
 source: 07_SKILLS/amos-memory-immune-system
 tags:

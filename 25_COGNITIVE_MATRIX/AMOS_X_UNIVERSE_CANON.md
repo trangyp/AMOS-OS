@@ -1,16 +1,16 @@
 ---
-title: "AMOS x Universe Canon Cognitive Matrix"
+title: AMOS x Universe Canon Cognitive Matrix
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "AMOS_X_UNIVERSE_CANON.md"
-artifact_id: "amos_25_cognitive_matrix_amos_x_universe_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON.md"
+artifact: AMOS_X_UNIVERSE_CANON.md
+artifact_id: amos_25_cognitive_matrix_amos_x_universe_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -32,16 +32,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/matrix
-version: "1.1.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.1.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -56,9 +56,9 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
-    artifact: "[[AMOS_X_UNIVERSE_CANON_MATRIX]]"
+    artifact: [[AMOS_X_UNIVERSE_CANON_MATRIX]]
   universe_canon:
-    artifact: "[[02_UNIVERSE_CANON_MOC]]"
+    artifact: [[02_UNIVERSE_CANON_MOC]]
   canonical_partition:
     P1: REALITY_ENVIRONMENT
     P2: SENSE_EVIDENCE

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Designer Os"
+title: References MOC — References — Amos Designer Os
 type: moc
 source: 07_SKILLS/amos-designer-os/references
 tags:

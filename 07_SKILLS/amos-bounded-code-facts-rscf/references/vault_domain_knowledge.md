@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Bounded Code Facts Rscf"
+title: Vault Domain Knowledge — Amos Bounded Code Facts Rscf
 type: reference
 source: 07_SKILLS/amos-bounded-code-facts-rscf/references
 tags:

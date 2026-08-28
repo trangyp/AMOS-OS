@@ -5,7 +5,7 @@ artifact_id: AMOS-UNIT-REGISTRY
 name: UNIT_REGISTRY
 title: AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics
 document_version: 1.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -49,6 +49,7 @@ tags:
 aliases:
 - AMOS Unit Registry - Unit Registry - AMOS Measurement Registry - AMOS Quantity and Dimension
 ---
+
 
 # AMOS Unit Registry
 **Origin architect / steward:** Trang Phan

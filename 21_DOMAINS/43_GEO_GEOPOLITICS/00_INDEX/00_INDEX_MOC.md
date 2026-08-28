@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Geo Geopolitics / Index"
+title: Index MOC — Domains / Geo Geopolitics / Index
 type: moc
 source: 21_DOMAINS/43_GEO_GEOPOLITICS/00_INDEX
 tags:

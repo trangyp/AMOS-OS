@@ -1,5 +1,5 @@
 ---
-title: "Kernel MOC"
+title: Kernel MOC
 type: moc
 source: 11_KNOWLEDGE/kernel
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Portable-Agent-Authorization-Rscf MOC"
+title: Amos-Portable-Agent-Authorization-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-portable-agent-authorization-rscf
 tags:

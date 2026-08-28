@@ -1,5 +1,5 @@
 ---
-title: "Amos-Adversarial-Entropy-Accountant MOC"
+title: Amos-Adversarial-Entropy-Accountant MOC
 type: moc
 source: 07_SKILLS/amos-adversarial-entropy-accountant
 tags:

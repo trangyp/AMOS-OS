@@ -1,5 +1,5 @@
 ---
-title: "Speed MOC"
+title: Speed MOC
 type: moc
 source: 11_KNOWLEDGE/speed
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "L18 Action MOC"
+title: L18 Action MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L18_ACTION
 tags:

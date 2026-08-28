@@ -1,16 +1,16 @@
 ---
-title: "Core x Control Plane Cross-Plane Matrix"
+title: Core x Control Plane Cross-Plane Matrix
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "CORE_X_CONTROL_PLANE_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_core_x_control_plane_matrix"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX_TABLE"
-path: "25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX.md"
+artifact: CORE_X_CONTROL_PLANE_MATRIX.md
+artifact_id: amos_25_cognitive_matrix_core_x_control_plane_matrix
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX_TABLE
+path: 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -49,18 +49,18 @@ tags:
   - proof_based_coordination_avoidance
   - canon_candidate
   - canon/matrix
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-formal_verification_status: "NOT_ESTABLISHED"
-runtime_enforcement_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+formal_verification_status: NOT_ESTABLISHED
+runtime_enforcement_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -77,13 +77,13 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
-    artifact: "[[CORE_X_CONTROL_PLANE]]"
+    artifact: [[CORE_X_CONTROL_PLANE]]
   cognitive_matrix:
-    artifact: "[[25_COGNITIVE_MATRIX_MOC]]"
+    artifact: [[25_COGNITIVE_MATRIX_MOC]]
   control_plane:
-    artifact: "03_CONTROL_PLANE/03_CONTROL_PLANE_MOC"
+    artifact: 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
   canon_plane:
-    artifact: "01_CANON/01_CANON_MOC"
+    artifact: 01_CANON/01_CANON_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

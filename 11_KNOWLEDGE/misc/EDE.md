@@ -1,5 +1,5 @@
 ---
-title: "EDE"
+title: EDE
 type: note
 source: 11_KNOWLEDGE/misc
 tags:

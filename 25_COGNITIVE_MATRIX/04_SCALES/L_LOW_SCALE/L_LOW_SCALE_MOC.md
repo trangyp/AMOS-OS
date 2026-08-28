@@ -1,5 +1,5 @@
 ---
-title: "L Low Scale MOC"
+title: L Low Scale MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/L_LOW_SCALE
 tags:

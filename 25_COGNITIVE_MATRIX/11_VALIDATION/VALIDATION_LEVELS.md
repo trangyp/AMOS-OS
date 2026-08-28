@@ -1,5 +1,5 @@
 ---
-title: "11_VALIDATION — Validation Levels"
+title: 11_VALIDATION — Validation Levels
 type: validation
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:

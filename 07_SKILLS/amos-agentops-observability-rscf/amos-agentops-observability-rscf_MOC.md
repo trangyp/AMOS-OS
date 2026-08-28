@@ -1,5 +1,5 @@
 ---
-title: "Amos-Agentops-Observability-Rscf MOC"
+title: Amos-Agentops-Observability-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agentops-observability-rscf
 tags:

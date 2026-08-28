@@ -1,5 +1,5 @@
 ---
-title: "03 Causal MOC"
+title: 03 Causal MOC
 type: moc
 source: 02_KERNEL/03_CAUSAL
 tags:

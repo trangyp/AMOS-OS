@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Universal Coordinate Rscf Engine"
+title: Vault Domain Knowledge — Amos Universal Coordinate Rscf Engine
 type: reference
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine/references
 tags:

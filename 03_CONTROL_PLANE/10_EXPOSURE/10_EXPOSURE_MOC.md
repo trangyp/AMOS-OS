@@ -1,5 +1,5 @@
 ---
-title: "10 Exposure MOC"
+title: 10 Exposure MOC
 type: moc
 source: 03_CONTROL_PLANE/10_EXPOSURE
 tags:

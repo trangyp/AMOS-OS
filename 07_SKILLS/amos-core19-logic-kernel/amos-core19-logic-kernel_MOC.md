@@ -1,5 +1,5 @@
 ---
-title: "Amos-Core19-Logic-Kernel MOC"
+title: Amos-Core19-Logic-Kernel MOC
 type: moc
 source: 07_SKILLS/amos-core19-logic-kernel
 tags:

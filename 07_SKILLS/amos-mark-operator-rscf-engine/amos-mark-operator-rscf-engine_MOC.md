@@ -1,5 +1,5 @@
 ---
-title: "Amos-Mark-Operator-Rscf-Engine MOC"
+title: Amos-Mark-Operator-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-mark-operator-rscf-engine
 tags:

@@ -1,6 +1,6 @@
 ---
-title: "7-Part Universe Canon"
-created: "2026-08-22"
+title: 7-Part Universe Canon
+created: '2026-08-22'
 origin_architect: user-supplied canon
 provenance: direct spec (user session)
 type: canon
@@ -14,8 +14,8 @@ tags:
 - topic/2026-08-22-7-part-universe-canon
 - dated
 - dated/2026-08-22
-status: "canon-bridge"
-confidence: "STRUCTURAL"
+status: canon-bridge
+confidence: STRUCTURAL
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -5,7 +5,7 @@ artifact_id: AMOS-7-PART-UNIVERSE-CANON
 name: AMOS_7_PART_UNIVERSE_CANON
 title: AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model
 document_version: 2.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -47,6 +47,7 @@ tags:
 aliases:
 - AMOS 7-Part Universe - AMOS Seven-Part Universe - AMOS Universe Canon - AMOS Universal Parti
 ---
+
 
 # AMOS 7-Part Universe Canon
 **Origin architect / steward:** Trang Phan

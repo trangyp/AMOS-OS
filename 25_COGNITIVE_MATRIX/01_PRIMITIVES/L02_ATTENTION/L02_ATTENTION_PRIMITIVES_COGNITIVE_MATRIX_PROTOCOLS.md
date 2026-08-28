@@ -1,16 +1,16 @@
 ---
-title: "L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS"
+title: L02 ATTENTION PRIMITIVES COGNITIVE MATRIX PROTOCOLS
 type: protocol
-source: "25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION"
-artifact: "L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md"
-artifact_id: "25_cognitive_matrix_01_primitives_l02_attention_l02_attention_primitives_cognitive_matrix_protocols"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX/01_PRIMITIVES"
-artifact_kind: "PROTOCOL"
-path: "25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md"
+source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION
+artifact: L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
+artifact_id: 25_cognitive_matrix_01_primitives_l02_attention_l02_attention_primitives_cognitive_matrix_protocols
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX/01_PRIMITIVES
+artifact_kind: PROTOCOL
+path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 tags:
   - 01_primitives
   - 25_cognitive_matrix
@@ -29,15 +29,15 @@ tags:
   - protocols
   - rscf
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

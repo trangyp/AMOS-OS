@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Counterfactual Selfhood Mapper"
+title: Vault Domain Knowledge — Amos Counterfactual Selfhood Mapper
 type: reference
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper/references
 tags:

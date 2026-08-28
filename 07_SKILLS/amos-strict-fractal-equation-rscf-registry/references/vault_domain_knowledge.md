@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Strict Fractal Equation Rscf Registry"
+title: Vault Domain Knowledge — Amos Strict Fractal Equation Rscf Registry
 type: reference
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry/references
 tags:

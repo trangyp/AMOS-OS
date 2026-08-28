@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Digital Strategy Rscf"
+title: Vault Domain Knowledge — Mckinsey Digital Strategy Rscf
 type: reference
 source: 07_SKILLS/mckinsey-digital-strategy-rscf/references
 tags:

@@ -1,11 +1,11 @@
 ---
-title: "AMOS Legal Kernel vInfinity"
+title: AMOS Legal Kernel vInfinity
 type: kernel
 source: 11_KNOWLEDGE/kernel
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Legal_Kernel_v0.json (433 lines, 15KB)"
-origin_type: "SOURCE"
-category: "kernel"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Legal_Kernel_v0.json (433 lines, 15KB)
+origin_type: SOURCE
+category: kernel
 tags:
 - amos
 - legal

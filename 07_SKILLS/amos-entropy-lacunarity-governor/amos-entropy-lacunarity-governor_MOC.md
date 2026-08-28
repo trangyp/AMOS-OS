@@ -1,5 +1,5 @@
 ---
-title: "Amos-Entropy-Lacunarity-Governor MOC"
+title: Amos-Entropy-Lacunarity-Governor MOC
 type: moc
 source: 07_SKILLS/amos-entropy-lacunarity-governor
 tags:

@@ -1,12 +1,12 @@
 ---
-title: "Quantum Omega — Cognitive Architecture Overview"
-created: "2026-08-23"
+title: Quantum Omega — Cognitive Architecture Overview
+created: '2026-08-23'
 origin_architect: QUANTUM OMEGA INTELLIGENCE AGENT
 provenance: self-analysis from 7-Part Canon application + AMOS Quantum Library v0.6.0 integration
 type: architecture
 source: 11_KNOWLEDGE/quantum
-status: "validated"
-confidence: "STRUCTURAL"
+status: validated
+confidence: STRUCTURAL
 tags:
 - canon-group/tech-ai
 - architecture

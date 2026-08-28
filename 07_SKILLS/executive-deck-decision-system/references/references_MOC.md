@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Executive Deck Decision System"
+title: References MOC — References — Executive Deck Decision System
 type: moc
 source: 07_SKILLS/executive-deck-decision-system/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Value-Delivery-Rscf MOC"
+title: Mckinsey-Value-Delivery-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-value-delivery-rscf
 tags:

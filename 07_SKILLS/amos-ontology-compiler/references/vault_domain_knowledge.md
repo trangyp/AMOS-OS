@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Ontology Compiler"
+title: Vault Domain Knowledge — Amos Ontology Compiler
 type: reference
 source: 07_SKILLS/amos-ontology-compiler/references
 tags:

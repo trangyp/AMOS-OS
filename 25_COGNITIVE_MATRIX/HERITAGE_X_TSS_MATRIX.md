@@ -1,16 +1,16 @@
 ---
-title: "Heritage × TSS Matrix"
+title: Heritage × TSS Matrix
 type: matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "HERITAGE_X_TSS_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_heritage_x_tss_matrix"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX.md"
+artifact: HERITAGE_X_TSS_MATRIX.md
+artifact_id: amos_25_cognitive_matrix_heritage_x_tss_matrix
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -42,18 +42,18 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-formal_verification_status: "NOT_ESTABLISHED"
-runtime_enforcement_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+formal_verification_status: NOT_ESTABLISHED
+runtime_enforcement_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -69,13 +69,13 @@ rscf:
     - COGNITIVE_MATRIX
 framework_binding:
   artifact:
-    name: "Heritage × TSS"
-    artifact_ref: "[[HERITAGE_X_TSS]]"
+    name: Heritage × TSS
+    artifact_ref: [[HERITAGE_X_TSS]]
   heritage:
-    name: "Heritage Decision Intelligence™"
+    name: Heritage Decision Intelligence™
     role: DECISION_INTELLIGENCE_AND_GOVERNANCE
   tss:
-    name: "The Trang System™"
+    name: The Trang System™
     role: CYCLE_AND_SYSTEM_STATE_FRAMEWORK
   role:
     MULTIDIMENSIONAL_DECISION_ROUTING_MATRIX

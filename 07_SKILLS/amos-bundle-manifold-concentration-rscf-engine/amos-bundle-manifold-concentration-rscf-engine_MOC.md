@@ -1,5 +1,5 @@
 ---
-title: "Amos-Bundle-Manifold-Concentration-Rscf-Engine MOC"
+title: Amos-Bundle-Manifold-Concentration-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine
 tags:

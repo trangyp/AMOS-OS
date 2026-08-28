@@ -1,5 +1,5 @@
 ---
-title: "Amos-Context-Budget-Governor-Rscf MOC"
+title: Amos-Context-Budget-Governor-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-context-budget-governor-rscf
 tags:

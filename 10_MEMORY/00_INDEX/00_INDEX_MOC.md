@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Memory / Index"
+title: Index MOC — Memory / Index
 type: moc
 source: 10_MEMORY/00_INDEX
 tags:

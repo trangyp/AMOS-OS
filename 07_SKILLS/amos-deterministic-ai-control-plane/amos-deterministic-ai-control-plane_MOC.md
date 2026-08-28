@@ -1,5 +1,5 @@
 ---
-title: "Amos-Deterministic-Ai-Control-Plane MOC"
+title: Amos-Deterministic-Ai-Control-Plane MOC
 type: moc
 source: 07_SKILLS/amos-deterministic-ai-control-plane
 tags:

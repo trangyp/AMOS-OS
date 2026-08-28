@@ -1,5 +1,5 @@
 ---
-title: "Amos-Agent-Externalization-Architecture-Rscf MOC"
+title: Amos-Agent-Externalization-Architecture-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agent-externalization-architecture-rscf
 tags:

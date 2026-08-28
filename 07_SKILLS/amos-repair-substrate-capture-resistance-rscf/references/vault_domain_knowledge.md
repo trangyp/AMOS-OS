@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Repair Substrate Capture Resistance Rscf"
+title: Vault Domain Knowledge — Amos Repair Substrate Capture Resistance Rscf
 type: reference
 source: 07_SKILLS/amos-repair-substrate-capture-resistance-rscf/references
 tags:

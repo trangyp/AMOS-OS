@@ -1,7 +1,7 @@
 ---
-title: "amos-npm-enotempty-recovery"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: amos-npm-enotempty-recovery
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: bridge
 source: 11_KNOWLEDGE/amos-general
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/observation
 - topic/amos-npm-enotempty-recovery
 - amos-general
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
+status: index
+provenance: SOURCE_CLAIM
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

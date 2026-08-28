@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Tensor Train Sketching Rscf Engine"
+title: Vault Domain Knowledge — Amos Tensor Train Sketching Rscf Engine
 type: reference
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine/references
 tags:

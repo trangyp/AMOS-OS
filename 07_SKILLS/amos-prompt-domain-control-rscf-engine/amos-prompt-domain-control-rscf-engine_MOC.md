@@ -1,5 +1,5 @@
 ---
-title: "Amos-Prompt-Domain-Control-Rscf-Engine MOC"
+title: Amos-Prompt-Domain-Control-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine
 tags:

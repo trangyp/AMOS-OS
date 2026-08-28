@@ -1,5 +1,5 @@
 ---
-title: "10 Memory MOC"
+title: 10 Memory MOC
 type: moc
 source: 10_MEMORY
 tags:

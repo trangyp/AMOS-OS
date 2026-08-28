@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Formal Model Checking Orchestrator Rscf"
+title: References MOC — References — Amos Formal Model Checking Orchestrator Rscf
 type: moc
 source: 07_SKILLS/amos-formal-model-checking-orchestrator-rscf/references
 tags:

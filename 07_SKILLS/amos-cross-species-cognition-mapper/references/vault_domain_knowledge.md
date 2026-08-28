@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Cross Species Cognition Mapper"
+title: Vault Domain Knowledge — Amos Cross Species Cognition Mapper
 type: reference
 source: 07_SKILLS/amos-cross-species-cognition-mapper/references
 tags:

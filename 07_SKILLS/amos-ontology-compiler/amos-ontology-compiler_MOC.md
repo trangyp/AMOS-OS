@@ -1,5 +1,5 @@
 ---
-title: "Amos-Ontology-Compiler MOC"
+title: Amos-Ontology-Compiler MOC
 type: moc
 source: 07_SKILLS/amos-ontology-compiler
 tags:

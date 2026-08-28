@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Control Plane / Observability / Index"
+title: Index MOC — Control Plane / Observability / Index
 type: moc
 source: 03_CONTROL_PLANE/07_OBSERVABILITY/00_INDEX
 tags:

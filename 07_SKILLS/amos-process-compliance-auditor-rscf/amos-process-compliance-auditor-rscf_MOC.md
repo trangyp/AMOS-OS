@@ -1,5 +1,5 @@
 ---
-title: "Amos-Process-Compliance-Auditor-Rscf MOC"
+title: Amos-Process-Compliance-Auditor-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-process-compliance-auditor-rscf
 tags:

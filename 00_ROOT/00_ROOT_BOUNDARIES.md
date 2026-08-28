@@ -1,21 +1,21 @@
 ---
-title: "AMOS OS Root Boundaries"
+title: AMOS OS Root Boundaries
 type: boundary
 source: 00_ROOT
-artifact: "00_ROOT_BOUNDARIES.md"
-artifact_id: "AMOS_ROOT_BOUNDARIES_000"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-domain: "ROOT GOVERNANCE / CONTROL PLANE"
-artifact_class: "ROOT_BOUNDARY_SPECIFICATION"
-version: "1.0.0"
-updated: "2026-08-26"
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "UNKNOWN/GAP"
-validation_status: "UNKNOWN/GAP"
+artifact: 00_ROOT_BOUNDARIES.md
+artifact_id: AMOS_ROOT_BOUNDARIES_000
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+domain: ROOT GOVERNANCE / CONTROL PLANE
+artifact_class: ROOT_BOUNDARY_SPECIFICATION
+version: 1.0.0
+updated: '2026-08-26'
+status: PROPOSED_SPECIFICATION
+epistemic_class: MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: UNKNOWN/GAP
+validation_status: UNKNOWN/GAP
 tags:
 - note
 - 00-root

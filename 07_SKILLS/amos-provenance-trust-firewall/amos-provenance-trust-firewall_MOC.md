@@ -1,5 +1,5 @@
 ---
-title: "Amos-Provenance-Trust-Firewall MOC"
+title: Amos-Provenance-Trust-Firewall MOC
 type: moc
 source: 07_SKILLS/amos-provenance-trust-firewall
 tags:

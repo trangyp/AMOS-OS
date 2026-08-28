@@ -1,5 +1,5 @@
 ---
-title: "27 Research Modes MOC"
+title: 27 Research Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/27_RESEARCH_MODES
 tags:

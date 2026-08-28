@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C10 Tech Engineering Master"
+title: AGENT TEMPLATE — Amos C10 Tech Engineering Master
 type: note
 source: 07_SKILLS/amos-c10-tech-engineering-master
 tags:

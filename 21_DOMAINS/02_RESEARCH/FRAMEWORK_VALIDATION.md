@@ -1,16 +1,16 @@
 ---
-title: "Framework Validation Domain Specification"
+title: Framework Validation Domain Specification
 type: domain
 source: 21_DOMAINS/02_RESEARCH
-artifact: "FRAMEWORK_VALIDATION.md"
-artifact_id: "amos_21_domains_02_research_framework_validation"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "21_DOMAINS"
-segment: "21_DOMAINS/02_RESEARCH"
-artifact_kind: "DOMAIN_VALIDATION"
-path: "21_DOMAINS/02_RESEARCH/FRAMEWORK_VALIDATION.md"
+artifact: FRAMEWORK_VALIDATION.md
+artifact_id: amos_21_domains_02_research_framework_validation
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 21_DOMAINS
+segment: 21_DOMAINS/02_RESEARCH
+artifact_kind: DOMAIN_VALIDATION
+path: 21_DOMAINS/02_RESEARCH/FRAMEWORK_VALIDATION.md
 tags:
   - amos_os
   - domain
@@ -23,16 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/domain
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "SYSTEM_INVARIANT"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: SYSTEM_INVARIANT
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
@@ -46,9 +46,9 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   validation_report:
-    artifact: "[[CROSS_FRAMEWORK_VALIDATION]]"
+    artifact: [[CROSS_FRAMEWORK_VALIDATION]]
   frameworks_moc:
-    artifact: "[[05_FRAMEWORKS_MOC]]"
+    artifact: [[05_FRAMEWORKS_MOC]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

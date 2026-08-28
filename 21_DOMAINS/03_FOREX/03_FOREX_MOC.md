@@ -1,5 +1,5 @@
 ---
-title: "03 Forex MOC"
+title: 03 Forex MOC
 type: moc
 source: 21_DOMAINS/03_FOREX
 tags:

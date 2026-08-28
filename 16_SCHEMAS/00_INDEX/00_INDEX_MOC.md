@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Schemas / Index"
+title: Index MOC — Schemas / Index
 type: moc
 source: 16_SCHEMAS/00_INDEX
 tags:

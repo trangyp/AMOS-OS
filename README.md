@@ -1,5 +1,5 @@
 ---
-title: "README — Readme"
+title: README — Readme
 type: note
 source: .
 tags:

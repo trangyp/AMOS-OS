@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C09 Org Law Policy Master"
+title: AGENT TEMPLATE — Amos C09 Org Law Policy Master
 type: note
 source: 07_SKILLS/amos-c09-org-law-policy-master
 tags:

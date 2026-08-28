@@ -1,5 +1,5 @@
 ---
-title: "34 Health Policy MOC"
+title: 34 Health Policy MOC
 type: moc
 source: 21_DOMAINS/34_HEALTH_POLICY
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "L25 Identity Continuity MOC"
+title: L25 Identity Continuity MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L25_IDENTITY_CONTINUITY
 tags:

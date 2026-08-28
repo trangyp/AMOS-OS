@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Hourglass Induction Rscf"
+title: Vault Domain Knowledge — Amos Hourglass Induction Rscf
 type: reference
 source: 07_SKILLS/amos-hourglass-induction-rscf/references
 tags:

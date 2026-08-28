@@ -1,5 +1,5 @@
 ---
-title: "04 Audit MOC"
+title: 04 Audit MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/04_AUDIT
 tags:

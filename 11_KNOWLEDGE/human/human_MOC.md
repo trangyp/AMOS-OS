@@ -1,5 +1,5 @@
 ---
-title: "Human MOC"
+title: Human MOC
 type: moc
 source: 11_KNOWLEDGE/human
 tags:

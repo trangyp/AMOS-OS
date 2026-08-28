@@ -1,5 +1,5 @@
 ---
-title: "47 Adversarial Red Team Modes MOC"
+title: 47 Adversarial Red Team Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/47_ADVERSARIAL_RED_TEAM_MODES
 tags:

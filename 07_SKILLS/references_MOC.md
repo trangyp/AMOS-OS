@@ -1,5 +1,5 @@
 ---
-title: "references MOC"
+title: references MOC
 type: moc
 source: 07_SKILLS
 tags:

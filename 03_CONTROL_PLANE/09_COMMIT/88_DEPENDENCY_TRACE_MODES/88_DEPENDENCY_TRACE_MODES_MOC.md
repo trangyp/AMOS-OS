@@ -1,5 +1,5 @@
 ---
-title: "88 Dependency Trace Modes MOC"
+title: 88 Dependency Trace Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/88_DEPENDENCY_TRACE_MODES
 tags:

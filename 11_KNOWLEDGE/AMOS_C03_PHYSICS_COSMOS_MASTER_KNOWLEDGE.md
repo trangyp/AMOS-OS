@@ -2,17 +2,17 @@
 type: physics
 source: 11_KNOWLEDGE
 id: AMOS-C03-PHYSICS-COSMOS-MASTER-KNOWLEDGE
-title: "AMOS C03 — Physics & Cosmos Master Knowledge"
-origin_architect: "Trang Phan"
-artifact_type: "domain_master_knowledge"
-domain: "C03_PHYSICS_COSMOS"
-conclusion_class: "MIXED"
-evidence_policy: "typed_per_node"
-canon_status: "DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES"
-language: "en"
-architecture: "HML_fractal_single_file"
-placeholder_status: "NONE"
-version: "1.0"
+title: AMOS C03 — Physics & Cosmos Master Knowledge
+origin_architect: Trang Phan
+artifact_type: domain_master_knowledge
+domain: C03_PHYSICS_COSMOS
+conclusion_class: MIXED
+evidence_policy: typed_per_node
+canon_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
+language: en
+architecture: HML_fractal_single_file
+placeholder_status: NONE
+version: 1.0
 tags:
 - knowledge
 - note

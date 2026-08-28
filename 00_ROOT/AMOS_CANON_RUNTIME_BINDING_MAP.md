@@ -1,16 +1,16 @@
 ---
-title: "AMOS Canon-Runtime Binding Map"
+title: AMOS Canon-Runtime Binding Map
 type: canon
-source: "00_ROOT"
-artifact: "AMOS_CANON_RUNTIME_BINDING_MAP.md"
-artifact_id: "00_root_amos_canon_runtime_binding_map"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "00_ROOT"
-segment: "00_ROOT/AMOS_CANON_RUNTIME_BINDING_MAP.md"
-artifact_kind: "CANON"
-path: "00_ROOT/AMOS_CANON_RUNTIME_BINDING_MAP.md"
+source: 00_ROOT
+artifact: AMOS_CANON_RUNTIME_BINDING_MAP.md
+artifact_id: 00_root_amos_canon_runtime_binding_map
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 00_ROOT
+segment: 00_ROOT/AMOS_CANON_RUNTIME_BINDING_MAP.md
+artifact_kind: CANON
+path: 00_ROOT/AMOS_CANON_RUNTIME_BINDING_MAP.md
 tags:
   - 00_root
   - amos_canon_runtime_binding_map.md
@@ -26,15 +26,15 @@ tags:
   - rscf
   - runtime
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

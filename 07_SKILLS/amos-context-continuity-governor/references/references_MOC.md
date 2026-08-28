@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Context Continuity Governor"
+title: References MOC — References — Amos Context Continuity Governor
 type: moc
 source: 07_SKILLS/amos-context-continuity-governor/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang Foundational Ontology"
+title: Khung Trang Foundational Ontology
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

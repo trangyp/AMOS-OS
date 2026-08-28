@@ -5,7 +5,7 @@ artifact_id: AMOS-PERSISTENCE-CANON
 name: PERSISTENCE_CANON
 title: AMOS Persistence Canon — Durable State, Provenance, Recovery, and Causal Continuity
 document_version: 2.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -51,6 +51,7 @@ tags:
 aliases:
 - AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent Prov
 ---
+
 
 # AMOS Persistence Canon
 **Origin architect / steward:** Trang Phan

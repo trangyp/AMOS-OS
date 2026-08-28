@@ -1,5 +1,5 @@
 ---
-title: "Amos-Workflow-Builder MOC"
+title: Amos-Workflow-Builder MOC
 type: moc
 source: 07_SKILLS/amos-workflow-builder
 tags:

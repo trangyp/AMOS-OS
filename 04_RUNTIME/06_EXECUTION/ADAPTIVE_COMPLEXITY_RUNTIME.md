@@ -1,16 +1,16 @@
 ---
-title: "Adaptive Complexity Runtime Specification"
+title: Adaptive Complexity Runtime Specification
 type: runtime
 source: 04_RUNTIME/06_EXECUTION
-artifact: "ADAPTIVE_COMPLEXITY_RUNTIME.md"
-artifact_id: "amos_04_runtime_06_execution_adaptive_complexity_runtime"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "04_RUNTIME"
-segment: "04_RUNTIME/06_EXECUTION"
-artifact_kind: "RUNTIME_SPEC"
-path: "04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME.md"
+artifact: ADAPTIVE_COMPLEXITY_RUNTIME.md
+artifact_id: amos_04_runtime_06_execution_adaptive_complexity_runtime
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 04_RUNTIME
+segment: 04_RUNTIME/06_EXECUTION
+artifact_kind: RUNTIME_SPEC
+path: 04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME.md
 tags:
   - amos_os
   - runtime
@@ -23,16 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/runtime
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -46,11 +46,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
-    artifact: "04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC"
+    artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
   frai_framework:
-    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI"
+    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
   matrix_binding:
-    artifact: "25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX"
+    artifact: 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   spec_structure: VERIFIED_SOURCE_STRUCTURE

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Temporal-Multiscale-Rscf-Engine MOC"
+title: Amos-Temporal-Multiscale-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine
 tags:

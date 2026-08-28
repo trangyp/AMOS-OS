@@ -1,16 +1,16 @@
 ---
-title: "AMOS Core v3 to v4.4 Lineage"
+title: AMOS Core v3 to v4.4 Lineage
 type: note
 source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: "AMOS_CORE_V3_TO_V4_4_LINEAGE.md"
-artifact_id: "amos_01_canon_04_infrastructure_canon_amos_core_v3_to_v4_4_lineage"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/04_INFRASTRUCTURE_CANON"
-artifact_kind: "LINEAGE"
-path: "01_CANON/04_INFRASTRUCTURE_CANON/AMOS_CORE_V3_TO_V4_4_LINEAGE.md"
+artifact: AMOS_CORE_V3_TO_V4_4_LINEAGE.md
+artifact_id: amos_01_canon_04_infrastructure_canon_amos_core_v3_to_v4_4_lineage
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/04_INFRASTRUCTURE_CANON
+artifact_kind: LINEAGE
+path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_CORE_V3_TO_V4_4_LINEAGE.md
 tags:
 - amos_os
 - canon
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,25 +1,25 @@
 ---
-title: "Kernel · Absolute Logic"
+title: Kernel · Absolute Logic
 aliases:
-  - "K Absolute Logic"
-  - "AMOS Absolute Logic"
-  - "AMOS Kernel Absolute Logic"
-  - "Absolute Logic Kernel"
-  - "Meta Logic · Absolute Logic"
+  - K Absolute Logic
+  - AMOS Absolute Logic
+  - AMOS Kernel Absolute Logic
+  - Absolute Logic Kernel
+  - Meta Logic · Absolute Logic
 type: logic
 document_type: kernel-logic-artifact
 source: 02_KERNEL/01_META_LOGIC
-artifact: "K_ABSOLUTE_LOGIC.md"
-artifact_id: "amos_02_kernel_01_meta_logic_k_absolute_logic"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "02_KERNEL"
-plane_role: "reasoning-kernel"
-segment: "02_KERNEL/01_META_LOGIC"
-segment_role: "meta-logic"
-artifact_kind: "LOG"
-path: "02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC.md"
+artifact: K_ABSOLUTE_LOGIC.md
+artifact_id: amos_02_kernel_01_meta_logic_k_absolute_logic
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 02_KERNEL
+plane_role: reasoning-kernel
+segment: 02_KERNEL/01_META_LOGIC
+segment_role: meta-logic
+artifact_kind: LOG
+path: 02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC.md
 tags:
   - amos_os
   - amos-general
@@ -51,21 +51,21 @@ tags:
   - repair
   - uncertainty
   - epistemic-discipline
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-content_status: "UNPOPULATED_NATIVE_CANON"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-runtime_enforcement: "NOT_ESTABLISHED"
-formal_proof_status: "NOT_ESTABLISHED"
-empirical_validation_status: "NOT_APPLICABLE_UNLESS_CLAIMS_REQUIRE"
-ingestion_action: "ADD_ONLY"
-overwrite_policy: "NEVER_OVERWRITE_EXISTING_CANON"
-promotion_status: "BLOCKED_PENDING_NATIVE_CANON"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+content_status: UNPOPULATED_NATIVE_CANON
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+runtime_enforcement: NOT_ESTABLISHED
+formal_proof_status: NOT_ESTABLISHED
+empirical_validation_status: NOT_APPLICABLE_UNLESS_CLAIMS_REQUIRE
+ingestion_action: ADD_ONLY
+overwrite_policy: NEVER_OVERWRITE_EXISTING_CANON
+promotion_status: BLOCKED_PENDING_NATIVE_CANON
 integrity_priority:
   - integrity
   - completeness
@@ -79,8 +79,8 @@ rscf:
   provenance_type: corpus-derived-placeholder
   scope: AMOS_general
   regime: AMOS_kernel_architecture
-  freshness: "2026-08-27"
-  confidence_ceiling: "UNKNOWN/GAP for substantive Absolute Logic canon"
+  freshness: 2026-08-27
+  confidence_ceiling: UNKNOWN/GAP for substantive Absolute Logic canon
   dependencies:
     - LAW_HIERARCHY
     - KERNEL_README
@@ -121,6 +121,7 @@ relations:
   recovery_binding:
     - OPERATIONS_README
 ---
+
 
 # Kernel · Absolute Logic
 

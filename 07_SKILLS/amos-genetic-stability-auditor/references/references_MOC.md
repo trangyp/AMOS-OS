@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Genetic Stability Auditor"
+title: References MOC — References — Amos Genetic Stability Auditor
 type: moc
 source: 07_SKILLS/amos-genetic-stability-auditor/references
 tags:

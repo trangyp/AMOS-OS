@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Software / Index"
+title: Index MOC — Domains / Software / Index
 type: moc
 source: 21_DOMAINS/01_SOFTWARE/00_INDEX
 tags:

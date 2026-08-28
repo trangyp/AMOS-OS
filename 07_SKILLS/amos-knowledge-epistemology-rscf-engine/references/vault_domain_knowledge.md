@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Knowledge Epistemology Rscf Engine"
+title: Vault Domain Knowledge — Amos Knowledge Epistemology Rscf Engine
 type: reference
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine/references
 tags:

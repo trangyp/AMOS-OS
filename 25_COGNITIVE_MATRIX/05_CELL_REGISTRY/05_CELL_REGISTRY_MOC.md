@@ -1,5 +1,5 @@
 ---
-title: "05 Cell Registry MOC"
+title: 05 Cell Registry MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/05_CELL_REGISTRY
 tags:

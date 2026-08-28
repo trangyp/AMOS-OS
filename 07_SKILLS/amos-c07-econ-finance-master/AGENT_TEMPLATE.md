@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C07 Econ Finance Master"
+title: AGENT TEMPLATE — Amos C07 Econ Finance Master
 type: note
 source: 07_SKILLS/amos-c07-econ-finance-master
 tags:

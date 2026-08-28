@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Ai Drift Alignment Governor"
+title: Vault Domain Knowledge — Amos Ai Drift Alignment Governor
 type: reference
 source: 07_SKILLS/amos-ai-drift-alignment-governor/references
 tags:

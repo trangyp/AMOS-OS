@@ -1,5 +1,5 @@
 ---
-title: "Amos-Regulated-Clinical-Agent-Evolution-Rscf MOC"
+title: Amos-Regulated-Clinical-Agent-Evolution-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf
 tags:

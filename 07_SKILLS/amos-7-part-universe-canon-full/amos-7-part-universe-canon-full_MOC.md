@@ -1,5 +1,5 @@
 ---
-title: "Amos-7-Part-Universe-Canon-Full MOC"
+title: Amos-7-Part-Universe-Canon-Full MOC
 type: moc
 source: 07_SKILLS/amos-7-part-universe-canon-full
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "08 Legal MOC"
+title: 08 Legal MOC
 type: moc
 source: 21_DOMAINS/08_LEGAL
 tags:

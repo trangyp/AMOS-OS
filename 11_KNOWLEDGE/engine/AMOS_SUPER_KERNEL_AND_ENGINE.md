@@ -1,8 +1,8 @@
 ---
-title: "AMOS SUPER KERNEL & SUPER ENGINE — Unified Meta Operating System"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Dsc/"
-origin_architect: "Trang Phan"
+title: AMOS SUPER KERNEL & SUPER ENGINE — Unified Meta Operating System
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Dsc/
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/engine
 tags:
@@ -20,9 +20,9 @@ tags:
 - 5-modes
 - engine
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

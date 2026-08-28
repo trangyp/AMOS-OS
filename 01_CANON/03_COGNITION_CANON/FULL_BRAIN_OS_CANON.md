@@ -5,7 +5,7 @@ artifact_id: AMOS-FULL-BRAIN-OS-CANON
 name: FULL_BRAIN_OS_CANON
 title: AMOS Full Brain OS Canon — Unified Cognitive Systems Architecture
 document_version: 2.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -53,6 +53,7 @@ tags:
 aliases:
 - AMOS Full Brain OS - Full Brain OS - AMOS Full Brain Architecture - AMOS Brain OS
 ---
+
 
 # AMOS Full Brain OS Canon
 **Origin architect / steward:** Trang Phan

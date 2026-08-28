@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Dependency Graph / Index"
+title: Index MOC — Cognitive Matrix / Dependency Graph / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/09_DEPENDENCY_GRAPH/00_INDEX
 tags:

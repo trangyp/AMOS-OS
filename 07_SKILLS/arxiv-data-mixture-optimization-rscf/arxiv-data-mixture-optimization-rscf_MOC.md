@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Data-Mixture-Optimization-Rscf MOC"
+title: Arxiv-Data-Mixture-Optimization-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Technology-Product-Governance-Rscf MOC"
+title: Mckinsey-Technology-Product-Governance-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf
 tags:

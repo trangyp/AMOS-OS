@@ -1,5 +1,5 @@
 ---
-title: "Amos-C12-Earth-Ecology-Master MOC"
+title: Amos-C12-Earth-Ecology-Master MOC
 type: moc
 source: 07_SKILLS/amos-c12-earth-ecology-master
 tags:

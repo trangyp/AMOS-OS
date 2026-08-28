@@ -1,5 +1,5 @@
 ---
-title: "32 Tool Use Modes MOC"
+title: 32 Tool Use Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/32_TOOL_USE_MODES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Transaction Banking Diagnostic Rscf"
+title: Vault Domain Knowledge — Mckinsey Transaction Banking Diagnostic Rscf
 type: reference
 source: 07_SKILLS/mckinsey-transaction-banking-diagnostic-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Research / Index"
+title: Index MOC — Domains / Research / Index
 type: moc
 source: 21_DOMAINS/02_RESEARCH/00_INDEX
 tags:

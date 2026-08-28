@@ -1,13 +1,13 @@
 ---
-title: "L04_OBJECT_ENTITY_FORMATION — Workflows"
+title: L04_OBJECT_ENTITY_FORMATION — Workflows
 type: workflow
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
-origin_architect: "Trang Phan"
-class: "COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT"
-status: "AMOS_MODEL / UNVALIDATED"
-epistemic_class: "MODEL"
-primitive: "L04_OBJECT_ENTITY_FORMATION"
-artifact: "WORKFLOWS.md"
+origin_architect: Trang Phan
+class: COGNITIVE_PRIMITIVE_WORKFLOW_CONTRACT
+status: AMOS_MODEL / UNVALIDATED
+epistemic_class: MODEL
+primitive: L04_OBJECT_ENTITY_FORMATION
+artifact: WORKFLOWS.md
 tags:
 - cognitive_matrix
 - primitives

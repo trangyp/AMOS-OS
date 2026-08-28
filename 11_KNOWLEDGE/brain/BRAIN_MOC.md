@@ -1,5 +1,5 @@
 ---
-title: "Brain MOC"
+title: Brain MOC
 type: moc
 source: 11_KNOWLEDGE/brain
 tags:

@@ -1,7 +1,7 @@
 ---
-title: "AMOS Canon & Cryptographic Infrastructure (Gaps 177-191)"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: AMOS Canon & Cryptographic Infrastructure (Gaps 177-191)
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: gap-closure-record
 source: 11_KNOWLEDGE/dated
 tags:
@@ -15,11 +15,11 @@ tags:
 - topic/gap-177-191
 - dated
 - dated/2026-08-22
-status: "living"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
-epistemic_class: "OBSERVATION"
-conclusion_label: "VERIFIED"
+status: living
+provenance: OBSERVATION
+confidence: VERIFIED
+epistemic_class: OBSERVATION
+conclusion_label: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

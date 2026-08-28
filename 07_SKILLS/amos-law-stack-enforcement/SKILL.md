@@ -112,6 +112,13 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
   - **Output**: Structured result with epistemic labels and provenance
 
 
+## Validation Gates
+
+- **L0 Integrity**: All 7 parts accounted for; no part silently dropped
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope; no scope creep
+- **L7 Authority**: No autonomous action beyond authority boundary
+
 ## Anti-Patterns
 
 - **Do not use** for tasks outside the  domain

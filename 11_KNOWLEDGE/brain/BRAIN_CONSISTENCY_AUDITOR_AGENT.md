@@ -1,7 +1,7 @@
 ---
-title: "Brain_Consistency_Auditor_Agent"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: Brain_Consistency_Auditor_Agent
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: bridge
 source: 11_KNOWLEDGE/brain
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/observation
 - topic/brain-consistency-auditor-agent
 - brain
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
+status: index
+provenance: SOURCE_CLAIM
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

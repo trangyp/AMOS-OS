@@ -1,5 +1,5 @@
 ---
-title: "Amos-Human-State-Ontology-Mapper MOC"
+title: Amos-Human-State-Ontology-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-human-state-ontology-mapper
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "55 Resilience Repair Modes MOC"
+title: 55 Resilience Repair Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/55_RESILIENCE_REPAIR_MODES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "25 Scope Regime Modes MOC"
+title: 25 Scope Regime Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/25_SCOPE_REGIME_MODES
 tags:

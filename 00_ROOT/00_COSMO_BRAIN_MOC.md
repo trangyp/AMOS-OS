@@ -1,5 +1,5 @@
 ---
-title: "00 Root MOC"
+title: 00 Root MOC
 type: moc
 source: 00_ROOT
 tags:

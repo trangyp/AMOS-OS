@@ -1,5 +1,5 @@
 ---
-title: "Amos-Cell-Intelligence-Mapper MOC"
+title: Amos-Cell-Intelligence-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-cell-intelligence-mapper
 tags:

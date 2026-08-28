@@ -1,5 +1,5 @@
 ---
-title: "07 Healthcare MOC"
+title: 07 Healthcare MOC
 type: moc
 source: 21_DOMAINS/07_HEALTHCARE
 tags:

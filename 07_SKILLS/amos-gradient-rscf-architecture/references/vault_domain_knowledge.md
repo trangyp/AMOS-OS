@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Gradient Rscf Architecture"
+title: Vault Domain Knowledge — Amos Gradient Rscf Architecture
 type: reference
 source: 07_SKILLS/amos-gradient-rscf-architecture/references
 tags:

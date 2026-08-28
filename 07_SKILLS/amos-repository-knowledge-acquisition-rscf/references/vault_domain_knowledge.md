@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Repository Knowledge Acquisition Rscf"
+title: Vault Domain Knowledge — Amos Repository Knowledge Acquisition Rscf
 type: reference
 source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf/references
 tags:

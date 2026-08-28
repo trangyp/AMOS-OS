@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Spreadsheets"
+title: Vault Domain Knowledge — Spreadsheets
 type: reference
 source: 07_SKILLS/spreadsheets/references
 tags:

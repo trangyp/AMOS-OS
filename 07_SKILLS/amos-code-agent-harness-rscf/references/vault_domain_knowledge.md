@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Code Agent Harness Rscf"
+title: Vault Domain Knowledge — Amos Code Agent Harness Rscf
 type: reference
 source: 07_SKILLS/amos-code-agent-harness-rscf/references
 tags:

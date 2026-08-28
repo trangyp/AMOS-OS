@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Continual-Interference-Geometry-Rscf MOC"
+title: Amos-Arxiv-Continual-Interference-Geometry-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-continual-interference-geometry-rscf
 tags:

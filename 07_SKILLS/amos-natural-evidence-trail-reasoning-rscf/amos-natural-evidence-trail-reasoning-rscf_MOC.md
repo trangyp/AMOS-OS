@@ -1,5 +1,5 @@
 ---
-title: "Amos-Natural-Evidence-Trail-Reasoning-Rscf MOC"
+title: Amos-Natural-Evidence-Trail-Reasoning-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf
 tags:

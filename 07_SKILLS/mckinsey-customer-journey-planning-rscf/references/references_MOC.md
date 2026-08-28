@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Customer Journey Planning Rscf"
+title: References MOC — References — Mckinsey Customer Journey Planning Rscf
 type: moc
 source: 07_SKILLS/mckinsey-customer-journey-planning-rscf/references
 tags:

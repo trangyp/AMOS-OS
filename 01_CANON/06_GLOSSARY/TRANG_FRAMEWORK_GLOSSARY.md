@@ -1,16 +1,16 @@
 ---
-title: "TRANG Framework Glossary"
+title: TRANG Framework Glossary
 type: glossary
 source: 01_CANON/06_GLOSSARY
-artifact: "TRANG_FRAMEWORK_GLOSSARY.md"
-artifact_id: "amos_01_canon_06_glossary_trang_framework_glossary"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/06_GLOSSARY"
-artifact_kind: "GLOSSARY"
-path: "01_CANON/06_GLOSSARY/TRANG_FRAMEWORK_GLOSSARY.md"
+artifact: TRANG_FRAMEWORK_GLOSSARY.md
+artifact_id: amos_01_canon_06_glossary_trang_framework_glossary
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/06_GLOSSARY
+artifact_kind: GLOSSARY
+path: 01_CANON/06_GLOSSARY/TRANG_FRAMEWORK_GLOSSARY.md
 tags:
 - amos_os
 - canon
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

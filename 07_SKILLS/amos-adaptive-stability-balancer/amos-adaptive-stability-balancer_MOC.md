@@ -1,5 +1,5 @@
 ---
-title: "Amos-Adaptive-Stability-Balancer MOC"
+title: Amos-Adaptive-Stability-Balancer MOC
 type: moc
 source: 07_SKILLS/amos-adaptive-stability-balancer
 tags:

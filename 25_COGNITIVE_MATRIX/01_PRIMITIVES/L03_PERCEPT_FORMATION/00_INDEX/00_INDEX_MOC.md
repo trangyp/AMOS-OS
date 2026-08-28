@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L03 Percept Formation / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L03 Percept Formation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L03_PERCEPT_FORMATION/00_INDEX
 tags:

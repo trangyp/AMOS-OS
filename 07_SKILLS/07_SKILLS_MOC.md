@@ -1,5 +1,5 @@
 ---
-title: "07 Skills MOC"
+title: 07 Skills MOC
 type: moc
 source: 07_SKILLS
 tags:

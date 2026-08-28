@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Arxiv Spectral Latent Treatment Effects Rscf"
+title: Vault Domain Knowledge — Amos Arxiv Spectral Latent Treatment Effects Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-spectral-latent-treatment-effects-rscf/references
 tags:

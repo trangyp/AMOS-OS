@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Grpo Reasoning Policy Rscf"
+title: Vault Domain Knowledge — Arxiv Grpo Reasoning Policy Rscf
 type: reference
 source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf/references
 tags:

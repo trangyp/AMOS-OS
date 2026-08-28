@@ -1,5 +1,5 @@
 ---
-title: "03 Cognition Canon MOC"
+title: 03 Cognition Canon MOC
 type: moc
 source: 01_CANON/03_COGNITION_CANON
 tags:

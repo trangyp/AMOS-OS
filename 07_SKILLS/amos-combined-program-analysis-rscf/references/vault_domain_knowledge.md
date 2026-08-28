@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Combined Program Analysis Rscf"
+title: Vault Domain Knowledge — Amos Combined Program Analysis Rscf
 type: reference
 source: 07_SKILLS/amos-combined-program-analysis-rscf/references
 tags:

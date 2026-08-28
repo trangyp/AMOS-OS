@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Arxiv Time Series Bootstrap Conformal Rscf"
+title: Vault Domain Knowledge — Amos Arxiv Time Series Bootstrap Conformal Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-time-series-bootstrap-conformal-rscf/references
 tags:

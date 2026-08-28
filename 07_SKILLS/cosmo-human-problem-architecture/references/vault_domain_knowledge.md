@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Cosmo Human Problem Architecture"
+title: Vault Domain Knowledge — Cosmo Human Problem Architecture
 type: reference
 source: 07_SKILLS/cosmo-human-problem-architecture/references
 tags:

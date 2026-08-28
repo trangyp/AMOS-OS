@@ -1,5 +1,5 @@
 ---
-title: "Amos-Cross-Domain-Tensor-Composition-Governor MOC"
+title: Amos-Cross-Domain-Tensor-Composition-Governor MOC
 type: moc
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor
 tags:

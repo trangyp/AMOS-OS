@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Blackbox Program Discovery Rscf"
+title: References MOC — References — Amos Blackbox Program Discovery Rscf
 type: moc
 source: 07_SKILLS/amos-blackbox-program-discovery-rscf/references
 tags:

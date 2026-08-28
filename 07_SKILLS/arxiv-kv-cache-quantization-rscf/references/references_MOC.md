@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Kv Cache Quantization Rscf"
+title: References MOC — References — Arxiv Kv Cache Quantization Rscf
 type: moc
 source: 07_SKILLS/arxiv-kv-cache-quantization-rscf/references
 tags:

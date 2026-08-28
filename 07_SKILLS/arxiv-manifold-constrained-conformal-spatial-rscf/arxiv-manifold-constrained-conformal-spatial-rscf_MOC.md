@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Manifold-Constrained-Conformal-Spatial-Rscf MOC"
+title: Arxiv-Manifold-Constrained-Conformal-Spatial-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-manifold-constrained-conformal-spatial-rscf
 tags:

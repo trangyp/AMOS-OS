@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Context Orientation Cache Rscf"
+title: References MOC — References — Amos Context Orientation Cache Rscf
 type: moc
 source: 07_SKILLS/amos-context-orientation-cache-rscf/references
 tags:

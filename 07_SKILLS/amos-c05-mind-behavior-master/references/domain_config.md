@@ -1,5 +1,5 @@
 ---
-title: "domain config — References — Amos C05 Mind Behavior Master"
+title: domain config — References — Amos C05 Mind Behavior Master
 type: reference
 source: 07_SKILLS/amos-c05-mind-behavior-master/references
 tags:

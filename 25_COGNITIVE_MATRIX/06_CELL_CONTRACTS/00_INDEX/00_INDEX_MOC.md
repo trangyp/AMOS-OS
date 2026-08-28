@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Cell Contracts / Index"
+title: Index MOC — Cognitive Matrix / Cell Contracts / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS/00_INDEX
 tags:

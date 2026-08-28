@@ -1,5 +1,5 @@
 ---
-title: "Amos-Design-Visual-Rscf-Engine MOC"
+title: Amos-Design-Visual-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-design-visual-rscf-engine
 tags:

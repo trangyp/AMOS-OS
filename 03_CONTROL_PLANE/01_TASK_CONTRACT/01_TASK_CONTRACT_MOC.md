@@ -1,5 +1,5 @@
 ---
-title: "01 Task Contract MOC"
+title: 01 Task Contract MOC
 type: moc
 source: 03_CONTROL_PLANE/01_TASK_CONTRACT
 tags:

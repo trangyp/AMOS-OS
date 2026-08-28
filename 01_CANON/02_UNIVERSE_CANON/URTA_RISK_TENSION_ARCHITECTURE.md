@@ -1,5 +1,5 @@
 ---
-title: "URTA Risk Tension Architecture"
+title: URTA Risk Tension Architecture
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

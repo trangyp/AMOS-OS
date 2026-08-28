@@ -1,5 +1,5 @@
 ---
-title: "Amos-General MOC"
+title: Amos-General MOC
 type: moc
 source: 11_KNOWLEDGE/amos-general
 tags:

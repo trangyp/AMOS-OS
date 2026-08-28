@@ -1,16 +1,16 @@
 ---
-title: "Origin Architect Authority"
+title: Origin Architect Authority
 type: authority
 source: 03_CONTROL_PLANE/04_AUTHORITY
-artifact: "ORIGIN_ARCHITECT_AUTHORITY.md"
-artifact_id: "amos_03_control_plane_04_authority_origin_architect_authority"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "03_CONTROL_PLANE"
-segment: "03_CONTROL_PLANE/04_AUTHORITY"
-artifact_kind: "ARTIFACT"
-path: "03_CONTROL_PLANE/04_AUTHORITY/ORIGIN_ARCHITECT_AUTHORITY.md"
+artifact: ORIGIN_ARCHITECT_AUTHORITY.md
+artifact_id: amos_03_control_plane_04_authority_origin_architect_authority
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 03_CONTROL_PLANE
+segment: 03_CONTROL_PLANE/04_AUTHORITY
+artifact_kind: ARTIFACT
+path: 03_CONTROL_PLANE/04_AUTHORITY/ORIGIN_ARCHITECT_AUTHORITY.md
 tags:
 - amos_os
 - control_plane
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/control-plane
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

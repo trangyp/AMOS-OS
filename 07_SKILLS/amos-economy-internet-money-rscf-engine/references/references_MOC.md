@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Economy Internet Money Rscf Engine"
+title: References MOC — References — Amos Economy Internet Money Rscf Engine
 type: moc
 source: 07_SKILLS/amos-economy-internet-money-rscf-engine/references
 tags:

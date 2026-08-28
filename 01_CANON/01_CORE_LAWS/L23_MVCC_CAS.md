@@ -1,5 +1,5 @@
 ---
-title: "L23 — Multi-Version Concurrency Control & CAS Law"
+title: L23 — Multi-Version Concurrency Control & CAS Law
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:

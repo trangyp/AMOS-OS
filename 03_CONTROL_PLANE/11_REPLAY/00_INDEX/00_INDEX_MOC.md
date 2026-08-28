@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Control Plane / Replay / Index"
+title: Index MOC — Control Plane / Replay / Index
 type: moc
 source: 03_CONTROL_PLANE/11_REPLAY/00_INDEX
 tags:

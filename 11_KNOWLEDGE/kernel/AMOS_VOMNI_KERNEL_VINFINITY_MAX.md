@@ -1,11 +1,11 @@
 ---
-title: "AMOS vOmni Kernel vInfinity_MAX"
+title: AMOS vOmni Kernel vInfinity_MAX
 type: kernel
 source: 11_KNOWLEDGE/kernel
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_vOmni_KERNEL_v0.json (167 lines, 6KB)"
-origin_type: "SOURCE"
-category: "kernel"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_vOmni_KERNEL_v0.json (167 lines, 6KB)
+origin_type: SOURCE
+category: kernel
 tags:
 - amos
 - vomni

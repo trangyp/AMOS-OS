@@ -1,5 +1,5 @@
 ---
-title: "README — References — Amos Flow Canon"
+title: README — References — Amos Flow Canon
 type: note
 source: 07_SKILLS/amos-flow-canon/references
 tags:

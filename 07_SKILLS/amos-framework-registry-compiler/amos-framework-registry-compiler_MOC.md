@@ -1,5 +1,5 @@
 ---
-title: "Amos-Framework-Registry-Compiler MOC"
+title: Amos-Framework-Registry-Compiler MOC
 type: moc
 source: 07_SKILLS/amos-framework-registry-compiler
 tags:

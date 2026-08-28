@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Biology Quantum Bridge Governor"
+title: Vault Domain Knowledge — Amos Biology Quantum Bridge Governor
 type: reference
 source: 07_SKILLS/amos-biology-quantum-bridge-governor/references
 tags:

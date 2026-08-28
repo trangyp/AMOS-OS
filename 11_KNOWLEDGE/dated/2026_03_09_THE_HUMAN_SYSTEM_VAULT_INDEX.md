@@ -3,7 +3,7 @@ title: 2026 03 09 THE HUMAN SYSTEM VAULT INDEX
 type: note
 created: 2026-03-09
 updated: 2026-03-09
-source: "The Complete Human System (book manuscript, two versions ingested)"
+source: The Complete Human System (book manuscript, two versions ingested)
 provenance: direct-ingestion
 byte_count_canonical: 21776
 byte_count_books: 15116

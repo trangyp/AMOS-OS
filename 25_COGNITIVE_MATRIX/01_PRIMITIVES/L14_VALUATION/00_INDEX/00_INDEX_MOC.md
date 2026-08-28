@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L14 Valuation / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L14 Valuation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L14_VALUATION/00_INDEX
 tags:

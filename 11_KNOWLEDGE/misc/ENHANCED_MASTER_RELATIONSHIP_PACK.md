@@ -1,8 +1,8 @@
 ---
-title: "Enhanced Master Relationship Pack — T4H Legal & Commercial Framework"
-created: "2026-08-22"
-origin: "Google Drive — new troy/Enhanced Master Relationship Pack.pdf + How The Floating Economy.pdf"
-origin_architect: "Tech 4 Humanity Pty Ltd (Troy Latter, CEO)"
+title: Enhanced Master Relationship Pack — T4H Legal & Commercial Framework
+created: '2026-08-22'
+origin: Google Drive — new troy/Enhanced Master Relationship Pack.pdf + How The Floating Economy.pdf
+origin_architect: Tech 4 Humanity Pty Ltd (Troy Latter, CEO)
 type: legal-template
 source: 11_KNOWLEDGE/misc
 tags:
@@ -22,9 +22,9 @@ tags:
 - floating-economy
 - misc
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: DERIVED
   claim_class: DERIVED

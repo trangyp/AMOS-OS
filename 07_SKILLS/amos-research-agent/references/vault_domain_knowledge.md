@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Research Agent"
+title: Vault Domain Knowledge — Amos Research Agent
 type: reference
 source: 07_SKILLS/amos-research-agent/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "02 Universe Canon MOC"
+title: 02 Universe Canon MOC
 type: moc
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

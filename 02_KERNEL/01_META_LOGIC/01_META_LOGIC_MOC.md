@@ -1,5 +1,5 @@
 ---
-title: "01 Meta Logic MOC"
+title: 01 Meta Logic MOC
 type: moc
 source: 02_KERNEL/01_META_LOGIC
 tags:

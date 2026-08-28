@@ -1,5 +1,5 @@
 ---
-title: "Provenance Topology Validation Receipt"
+title: Provenance Topology Validation Receipt
 type: receipt
 source: 01_CANON/01_CORE_LAWS
 tags:

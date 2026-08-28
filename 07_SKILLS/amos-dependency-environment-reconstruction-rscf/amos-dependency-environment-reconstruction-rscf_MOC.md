@@ -1,5 +1,5 @@
 ---
-title: "Amos-Dependency-Environment-Reconstruction-Rscf MOC"
+title: Amos-Dependency-Environment-Reconstruction-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-dependency-environment-reconstruction-rscf
 tags:

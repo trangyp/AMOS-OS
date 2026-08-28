@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Agent Memory Dynamics Rscf Engine"
+title: References MOC — References — Amos Agent Memory Dynamics Rscf Engine
 type: moc
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/references
 tags:

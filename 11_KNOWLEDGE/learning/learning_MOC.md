@@ -1,5 +1,5 @@
 ---
-title: "Learning MOC"
+title: Learning MOC
 type: moc
 source: 11_KNOWLEDGE/learning
 tags:

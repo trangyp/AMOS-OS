@@ -1,5 +1,5 @@
 ---
-title: "Amos-Representation-Aware-Bug-Localization-Rscf MOC"
+title: Amos-Representation-Aware-Bug-Localization-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-representation-aware-bug-localization-rscf
 tags:

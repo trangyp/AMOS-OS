@@ -1,5 +1,5 @@
 ---
-title: "Amos-Cognitive-Process-Orchestrator MOC"
+title: Amos-Cognitive-Process-Orchestrator MOC
 type: moc
 source: 07_SKILLS/amos-cognitive-process-orchestrator
 tags:

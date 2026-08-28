@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Threshold-Vecm-Rscf-Engine MOC"
+title: Amos-Fx-Threshold-Vecm-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-threshold-vecm-rscf-engine
 tags:

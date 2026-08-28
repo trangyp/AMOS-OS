@@ -1,5 +1,5 @@
 ---
-title: "Amos-Information-Boundary-Governor MOC"
+title: Amos-Information-Boundary-Governor MOC
 type: moc
 source: 07_SKILLS/amos-information-boundary-governor
 tags:

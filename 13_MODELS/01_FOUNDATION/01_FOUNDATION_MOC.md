@@ -1,5 +1,5 @@
 ---
-title: "01 Foundation MOC"
+title: 01 Foundation MOC
 type: moc
 source: 13_MODELS/01_FOUNDATION
 tags:

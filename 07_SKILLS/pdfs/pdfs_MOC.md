@@ -1,5 +1,5 @@
 ---
-title: "Pdfs MOC"
+title: Pdfs MOC
 type: moc
 source: 07_SKILLS/pdfs
 tags:

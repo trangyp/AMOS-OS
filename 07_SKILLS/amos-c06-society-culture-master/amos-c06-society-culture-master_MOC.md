@@ -1,5 +1,5 @@
 ---
-title: "Amos-C06-Society-Culture-Master MOC"
+title: Amos-C06-Society-Culture-Master MOC
 type: moc
 source: 07_SKILLS/amos-c06-society-culture-master
 tags:

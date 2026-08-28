@@ -1,5 +1,5 @@
 ---
-title: "01 Roles MOC"
+title: 01 Roles MOC
 type: moc
 source: 23_OPERATING_MODEL/01_ROLES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Ast Control Dataflow Rscf Engine"
+title: Vault Domain Knowledge — Amos Ast Control Dataflow Rscf Engine
 type: reference
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine/references
 tags:

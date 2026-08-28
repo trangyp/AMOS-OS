@@ -1,5 +1,5 @@
 ---
-title: "69 Perspective Observer Modes MOC"
+title: 69 Perspective Observer Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/69_PERSPECTIVE_OBSERVER_MODES
 tags:

@@ -5,7 +5,7 @@ artifact_id: AMOS-HML-CANON
 name: HML_CANON
 title: AMOS H/M/L Canon — Fractal Knowledge Resolution and Retrieval Architecture
 document_version: 2.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -47,6 +47,7 @@ tags:
 aliases:
 - AMOS HML Canon - H/M/L Canon - AMOS H/M/L Architecture - AMOS Fractal Knowledge Resolution C
 ---
+
 
 # AMOS H/M/L Canon
 **Origin architect / steward:** Trang Phan

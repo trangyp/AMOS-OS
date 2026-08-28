@@ -1,5 +1,5 @@
 ---
-title: "AMOS C02 — Math & Compute Master Knowledge"
+title: AMOS C02 — Math & Compute Master Knowledge
 type: math
 source: 11_KNOWLEDGE
 tags:

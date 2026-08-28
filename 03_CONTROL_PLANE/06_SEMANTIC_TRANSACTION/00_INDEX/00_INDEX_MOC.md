@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Control Plane / Semantic Transaction / Index"
+title: Index MOC — Control Plane / Semantic Transaction / Index
 type: moc
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Hierarchical-Stack-Orchestration-Rscf MOC"
+title: Amos-Hierarchical-Stack-Orchestration-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf
 tags:

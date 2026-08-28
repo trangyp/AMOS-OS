@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C08 Strategy Game Master"
+title: AGENT TEMPLATE — Amos C08 Strategy Game Master
 type: note
 source: 07_SKILLS/amos-c08-strategy-game-master
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "HIE Human Interaction Engine"
+title: HIE Human Interaction Engine
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

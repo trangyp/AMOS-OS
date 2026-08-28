@@ -1,5 +1,5 @@
 ---
-title: "18 Security MOC"
+title: 18 Security MOC
 type: moc
 source: 18_SECURITY
 tags:

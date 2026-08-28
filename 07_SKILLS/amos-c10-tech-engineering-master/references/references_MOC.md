@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos C10 Tech Engineering Master"
+title: References MOC — References — Amos C10 Tech Engineering Master
 type: moc
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:

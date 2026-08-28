@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Benchmark Forensics"
+title: References MOC — References — Amos Benchmark Forensics
 type: moc
 source: 07_SKILLS/amos-benchmark-forensics/references
 tags:

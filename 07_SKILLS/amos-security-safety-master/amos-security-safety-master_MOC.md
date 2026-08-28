@@ -1,5 +1,5 @@
 ---
-title: "Amos-Security-Safety-Master MOC"
+title: Amos-Security-Safety-Master MOC
 type: moc
 source: 07_SKILLS/amos-security-safety-master
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "09 Governance Modes MOC"
+title: 09 Governance Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/09_GOVERNANCE_MODES
 tags:

@@ -1,16 +1,16 @@
 ---
-title: "Seven Cycles Domain Model Specification"
+title: Seven Cycles Domain Model Specification
 type: domain
 source: 21_DOMAINS/04_STRATEGY
-artifact: "SEVEN_CYCLES_DOMAIN_MODEL.md"
-artifact_id: "amos_21_domains_04_strategy_seven_cycles_domain_model"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "21_DOMAINS"
-segment: "21_DOMAINS/04_STRATEGY"
-artifact_kind: "DOMAIN_MODEL"
-path: "21_DOMAINS/04_STRATEGY/SEVEN_CYCLES_DOMAIN_MODEL.md"
+artifact: SEVEN_CYCLES_DOMAIN_MODEL.md
+artifact_id: amos_21_domains_04_strategy_seven_cycles_domain_model
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 21_DOMAINS
+segment: 21_DOMAINS/04_STRATEGY
+artifact_kind: DOMAIN_MODEL
+path: 21_DOMAINS/04_STRATEGY/SEVEN_CYCLES_DOMAIN_MODEL.md
 tags:
   - amos_os
   - domain
@@ -23,16 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/domain
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -46,9 +46,9 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   seven_cycles_framework:
-    artifact: "[[TSS_SEVEN_CYCLES]]"
+    artifact: [[TSS_SEVEN_CYCLES]]
   tss_master:
-    artifact: "[[TSS_THE_TRANG_SYSTEM]]"
+    artifact: [[TSS_THE_TRANG_SYSTEM]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

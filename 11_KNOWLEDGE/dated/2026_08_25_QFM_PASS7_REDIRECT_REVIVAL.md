@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 7 — Redirect Revival & Live-Generator Convergence"
+title: 2026-08-25 QFM Pass 7 — Redirect Revival & Live-Generator Convergence
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

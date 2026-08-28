@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Semantic Workflow Persistence Rscf"
+title: Vault Domain Knowledge — Amos Semantic Workflow Persistence Rscf
 type: reference
 source: 07_SKILLS/amos-semantic-workflow-persistence-rscf/references
 tags:

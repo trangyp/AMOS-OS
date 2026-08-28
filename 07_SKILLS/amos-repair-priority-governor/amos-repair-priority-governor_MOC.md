@@ -1,5 +1,5 @@
 ---
-title: "Amos-Repair-Priority-Governor MOC"
+title: Amos-Repair-Priority-Governor MOC
 type: moc
 source: 07_SKILLS/amos-repair-priority-governor
 tags:

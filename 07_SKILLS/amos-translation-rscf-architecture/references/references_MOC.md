@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Translation Rscf Architecture"
+title: References MOC — References — Amos Translation Rscf Architecture
 type: moc
 source: 07_SKILLS/amos-translation-rscf-architecture/references
 tags:

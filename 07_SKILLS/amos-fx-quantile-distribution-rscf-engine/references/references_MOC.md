@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Quantile Distribution Rscf Engine"
+title: References MOC — References — Amos Fx Quantile Distribution Rscf Engine
 type: moc
 source: 07_SKILLS/amos-fx-quantile-distribution-rscf-engine/references
 tags:

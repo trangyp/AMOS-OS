@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Attention Allocation Governor"
+title: Vault Domain Knowledge — Amos Attention Allocation Governor
 type: reference
 source: 07_SKILLS/amos-attention-allocation-governor/references
 tags:

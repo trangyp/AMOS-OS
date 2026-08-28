@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Archive / Index"
+title: Index MOC — Archive / Index
 type: moc
 source: 24_ARCHIVE/00_INDEX
 tags:

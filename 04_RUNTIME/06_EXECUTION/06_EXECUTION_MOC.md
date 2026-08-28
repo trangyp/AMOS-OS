@@ -1,5 +1,5 @@
 ---
-title: "06 Execution MOC"
+title: 06 Execution MOC
 type: moc
 source: 04_RUNTIME/06_EXECUTION
 tags:

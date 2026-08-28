@@ -1,5 +1,5 @@
 ---
-title: "Amos-Program-Slicing-Taint-Rscf MOC"
+title: Amos-Program-Slicing-Taint-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-program-slicing-taint-rscf
 tags:

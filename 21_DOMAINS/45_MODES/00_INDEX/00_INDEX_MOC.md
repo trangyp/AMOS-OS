@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Modes / Index"
+title: Index MOC — Domains / Modes / Index
 type: moc
 source: 21_DOMAINS/45_MODES/00_INDEX
 tags:

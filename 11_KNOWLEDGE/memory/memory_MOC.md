@@ -1,5 +1,5 @@
 ---
-title: "Memory MOC"
+title: Memory MOC
 type: moc
 source: 11_KNOWLEDGE/memory
 tags:

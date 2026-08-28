@@ -1,5 +1,5 @@
 ---
-title: "ROLLBACK_AND_RECOVERY_BASINS Law"
+title: ROLLBACK_AND_RECOVERY_BASINS Law
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:

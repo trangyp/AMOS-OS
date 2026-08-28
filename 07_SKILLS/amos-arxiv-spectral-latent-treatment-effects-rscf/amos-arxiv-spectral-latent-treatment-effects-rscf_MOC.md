@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Spectral-Latent-Treatment-Effects-Rscf MOC"
+title: Amos-Arxiv-Spectral-Latent-Treatment-Effects-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-spectral-latent-treatment-effects-rscf
 tags:

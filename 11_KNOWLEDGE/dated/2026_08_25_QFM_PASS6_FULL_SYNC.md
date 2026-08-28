@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 6 — Full Sync Closure + Max-Power Pipeline"
+title: 2026-08-25 QFM Pass 6 — Full Sync Closure + Max-Power Pipeline
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

@@ -1,5 +1,5 @@
 ---
-title: "01 Identity MOC"
+title: 01 Identity MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/01_IDENTITY
 tags:

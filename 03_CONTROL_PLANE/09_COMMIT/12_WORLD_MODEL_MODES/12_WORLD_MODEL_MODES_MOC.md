@@ -1,5 +1,5 @@
 ---
-title: "12 World Model Modes MOC"
+title: 12 World Model Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/12_WORLD_MODEL_MODES
 tags:

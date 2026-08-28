@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Observability / Index"
+title: Index MOC — Observability / Index
 type: moc
 source: 17_OBSERVABILITY/00_INDEX
 tags:

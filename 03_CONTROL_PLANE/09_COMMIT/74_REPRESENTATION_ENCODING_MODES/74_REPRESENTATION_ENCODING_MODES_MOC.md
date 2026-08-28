@@ -1,5 +1,5 @@
 ---
-title: "74 Representation Encoding Modes MOC"
+title: 74 Representation Encoding Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/74_REPRESENTATION_ENCODING_MODES
 tags:

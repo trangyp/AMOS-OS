@@ -1,5 +1,5 @@
 ---
-title: "GENERATOR OUTPUT"
+title: GENERATOR OUTPUT
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:

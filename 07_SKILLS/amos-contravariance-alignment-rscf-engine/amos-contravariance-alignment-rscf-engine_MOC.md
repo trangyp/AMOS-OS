@@ -1,5 +1,5 @@
 ---
-title: "Amos-Contravariance-Alignment-Rscf-Engine MOC"
+title: Amos-Contravariance-Alignment-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-contravariance-alignment-rscf-engine
 tags:

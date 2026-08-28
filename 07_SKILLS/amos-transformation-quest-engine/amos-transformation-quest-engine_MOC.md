@@ -1,5 +1,5 @@
 ---
-title: "Amos-Transformation-Quest-Engine MOC"
+title: Amos-Transformation-Quest-Engine MOC
 type: moc
 source: 07_SKILLS/amos-transformation-quest-engine
 tags:

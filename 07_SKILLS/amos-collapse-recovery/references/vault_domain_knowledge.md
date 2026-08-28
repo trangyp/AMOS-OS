@@ -1,7 +1,7 @@
 ---
-title: "Vault Domain Knowledge — Amos Collapse Recovery"
+title: Vault Domain Knowledge — Amos Collapse Recovery
 type: reference
-source: "07_SKILLS/amos-collapse-recovery/references"
+source: 07_SKILLS/amos-collapse-recovery/references
 rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL

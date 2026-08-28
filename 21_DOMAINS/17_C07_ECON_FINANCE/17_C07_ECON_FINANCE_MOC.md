@@ -1,5 +1,5 @@
 ---
-title: "17 C07 Econ Finance MOC"
+title: 17 C07 Econ Finance MOC
 type: moc
 source: 21_DOMAINS/17_C07_ECON_FINANCE
 tags:

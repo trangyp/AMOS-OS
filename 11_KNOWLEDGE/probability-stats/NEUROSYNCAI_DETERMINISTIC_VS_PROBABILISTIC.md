@@ -1,8 +1,8 @@
 ---
-title: "NeuroSyncAI — Deterministic vs Probabilistic Intelligence"
-created: "2026-08-22"
-origin: "Google Drive — NeuroSyncAI_vs_GenAI.pdf (760KB) + Dual-System.pdf (925KB)"
-origin_architect: "Trang Phan"
+title: NeuroSyncAI — Deterministic vs Probabilistic Intelligence
+created: '2026-08-22'
+origin: Google Drive — NeuroSyncAI_vs_GenAI.pdf (760KB) + Dual-System.pdf (925KB)
+origin_architect: Trang Phan
 type: research-paper
 source: 11_KNOWLEDGE/probability-stats
 tags:
@@ -18,9 +18,9 @@ tags:
 - 5-gate-architecture
 - probability-stats
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

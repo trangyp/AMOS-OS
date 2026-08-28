@@ -1,5 +1,5 @@
 ---
-title: "Amos-Measurement-Integrity-Auditor MOC"
+title: Amos-Measurement-Integrity-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-measurement-integrity-auditor
 tags:

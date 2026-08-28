@@ -1,8 +1,8 @@
 ---
-title: "AMOS Super Engines — 5 Unified SUPER Engines"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Packs/Sector_Packs/"
-origin_architect: "Trang Phan"
+title: AMOS Super Engines — 5 Unified SUPER Engines
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Packs/Sector_Packs/
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/engine
 tags:
@@ -18,9 +18,9 @@ tags:
 - SEAs
 - engine
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

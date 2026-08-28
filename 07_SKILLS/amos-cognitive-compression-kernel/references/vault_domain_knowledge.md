@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Cognitive Compression Kernel"
+title: Vault Domain Knowledge — Amos Cognitive Compression Kernel
 type: reference
 source: 07_SKILLS/amos-cognitive-compression-kernel/references
 tags:

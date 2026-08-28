@@ -1,5 +1,5 @@
 ---
-title: "Math MOC"
+title: Math MOC
 type: moc
 source: 11_KNOWLEDGE/math
 tags:

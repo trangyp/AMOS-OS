@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Generators / Index"
+title: Index MOC — Cognitive Matrix / Generators / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/12_GENERATORS/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos Os Runtime Master"
+title: AGENT TEMPLATE — Amos Os Runtime Master
 type: note
 source: 07_SKILLS/amos-os-runtime-master
 tags:

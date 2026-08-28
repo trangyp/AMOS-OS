@@ -1,5 +1,5 @@
 ---
-title: "08 Provenance MOC"
+title: 08 Provenance MOC
 type: moc
 source: 02_KERNEL/08_PROVENANCE
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L05 Binding / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L05 Binding / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Invariant Tensor Kernel"
+title: References MOC — References — Amos Invariant Tensor Kernel
 type: moc
 source: 07_SKILLS/amos-invariant-tensor-kernel/references
 tags:

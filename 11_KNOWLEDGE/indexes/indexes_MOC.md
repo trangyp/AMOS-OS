@@ -1,5 +1,5 @@
 ---
-title: "Indexes MOC"
+title: Indexes MOC
 type: moc
 source: 11_KNOWLEDGE/indexes
 tags:

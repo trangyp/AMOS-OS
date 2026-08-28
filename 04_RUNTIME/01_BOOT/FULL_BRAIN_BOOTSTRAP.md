@@ -1,16 +1,16 @@
 ---
-title: "Full Brain Bootstrap Specification"
+title: Full Brain Bootstrap Specification
 type: runtime
 source: 04_RUNTIME/01_BOOT
-artifact: "FULL_BRAIN_BOOTSTRAP.md"
-artifact_id: "amos_04_runtime_01_boot_full_brain_bootstrap"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "04_RUNTIME"
-segment: "04_RUNTIME/01_BOOT"
-artifact_kind: "BOOTSTRAP_SPEC"
-path: "04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP.md"
+artifact: FULL_BRAIN_BOOTSTRAP.md
+artifact_id: amos_04_runtime_01_boot_full_brain_bootstrap
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 04_RUNTIME
+segment: 04_RUNTIME/01_BOOT
+artifact_kind: BOOTSTRAP_SPEC
+path: 04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP.md
 tags:
   - amos_os
   - runtime
@@ -22,16 +22,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/runtime
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -45,11 +45,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   boot_moc:
-    artifact: "04_RUNTIME/01_BOOT/01_BOOT_MOC"
+    artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC
   full_brain:
-    artifact: "11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE"
+    artifact: 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
   matrix_binding:
-    artifact: "25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN"
+    artifact: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   spec_structure: VERIFIED_SOURCE_STRUCTURE

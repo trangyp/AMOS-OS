@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos Knowledge Research Master"
+title: AGENT TEMPLATE — Amos Knowledge Research Master
 type: note
 source: 07_SKILLS/amos-knowledge-research-master
 tags:

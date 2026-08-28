@@ -1,11 +1,11 @@
 ---
-title: "AMOS Tech Design Engine vInfinity"
+title: AMOS Tech Design Engine vInfinity
 type: engine
 source: 11_KNOWLEDGE/engine
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Design_Engine_v0.json (5,363 lines, 196KB)"
-origin_type: "SOURCE"
-category: "kernel"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Design_Engine_v0.json (5,363 lines, 196KB)
+origin_type: SOURCE
+category: kernel
 tags:
 - amos
 - tech

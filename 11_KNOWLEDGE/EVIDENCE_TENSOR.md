@@ -1,5 +1,5 @@
 ---
-title: "AMOS Evidence Tensor Architecture"
+title: AMOS Evidence Tensor Architecture
 type: tensor
 source: 11_KNOWLEDGE
 tags:

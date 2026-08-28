@@ -1,5 +1,5 @@
 ---
-title: "Amos-Time-Series-Conformal-Uq-Rscf-Engine MOC"
+title: Amos-Time-Series-Conformal-Uq-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine
 tags:

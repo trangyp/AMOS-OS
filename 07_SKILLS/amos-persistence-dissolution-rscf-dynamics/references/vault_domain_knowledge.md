@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Persistence Dissolution Rscf Dynamics"
+title: Vault Domain Knowledge — Amos Persistence Dissolution Rscf Dynamics
 type: reference
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "05 Memory MOC"
+title: 05 Memory MOC
 type: moc
 source: 02_KERNEL/05_MEMORY
 tags:

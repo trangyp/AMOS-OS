@@ -16,7 +16,7 @@ tags:
 - topic/the-void-ego-dissolution-model
 - models
 date: 2026-08-22
-source_title: "The Complete Human System — Book Two: The Void"
+source_title: 'The Complete Human System — Book Two: The Void'
 source_type: book-manuscript
 source_url: local-ingestion
 rscf:
@@ -25,6 +25,7 @@ rscf:
   provenance: AMOS_corpus
   scope: model_specification
 ---
+
 
 
 # The Void — Ego Dissolution Model

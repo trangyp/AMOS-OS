@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx Options Implied Distribution"
+title: Vault Domain Knowledge — Amos Fx Options Implied Distribution
 type: reference
 source: 07_SKILLS/amos-fx-options-implied-distribution/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Semantic-Workflow-Persistence-Rscf MOC"
+title: Amos-Semantic-Workflow-Persistence-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-semantic-workflow-persistence-rscf
 tags:

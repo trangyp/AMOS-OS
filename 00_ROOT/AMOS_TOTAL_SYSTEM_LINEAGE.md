@@ -1,16 +1,16 @@
 ---
-title: "AMOS Total System Lineage"
+title: AMOS Total System Lineage
 type: system
-source: "00_ROOT"
-artifact: "AMOS_TOTAL_SYSTEM_LINEAGE.md"
-artifact_id: "00_root_amos_total_system_lineage"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "00_ROOT"
-segment: "00_ROOT/AMOS_TOTAL_SYSTEM_LINEAGE.md"
-artifact_kind: "SYSTEM"
-path: "00_ROOT/AMOS_TOTAL_SYSTEM_LINEAGE.md"
+source: 00_ROOT
+artifact: AMOS_TOTAL_SYSTEM_LINEAGE.md
+artifact_id: 00_root_amos_total_system_lineage
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 00_ROOT
+segment: 00_ROOT/AMOS_TOTAL_SYSTEM_LINEAGE.md
+artifact_kind: SYSTEM
+path: 00_ROOT/AMOS_TOTAL_SYSTEM_LINEAGE.md
 tags:
   - 00_root
   - amos_os
@@ -24,15 +24,15 @@ tags:
   - rscf
   - system
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

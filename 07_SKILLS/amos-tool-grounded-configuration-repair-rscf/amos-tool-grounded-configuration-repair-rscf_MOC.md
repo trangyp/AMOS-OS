@@ -1,5 +1,5 @@
 ---
-title: "Amos-Tool-Grounded-Configuration-Repair-Rscf MOC"
+title: Amos-Tool-Grounded-Configuration-Repair-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf
 tags:

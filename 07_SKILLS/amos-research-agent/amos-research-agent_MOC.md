@@ -1,5 +1,5 @@
 ---
-title: "Amos-Research-Agent MOC"
+title: Amos-Research-Agent MOC
 type: moc
 source: 07_SKILLS/amos-research-agent
 tags:

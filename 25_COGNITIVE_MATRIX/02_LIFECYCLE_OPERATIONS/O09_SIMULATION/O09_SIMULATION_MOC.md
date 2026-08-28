@@ -1,5 +1,5 @@
 ---
-title: "O09 Simulation MOC"
+title: O09 Simulation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION
 tags:

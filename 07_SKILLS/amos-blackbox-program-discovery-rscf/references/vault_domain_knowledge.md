@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Blackbox Program Discovery Rscf"
+title: Vault Domain Knowledge — Amos Blackbox Program Discovery Rscf
 type: reference
 source: 07_SKILLS/amos-blackbox-program-discovery-rscf/references
 tags:

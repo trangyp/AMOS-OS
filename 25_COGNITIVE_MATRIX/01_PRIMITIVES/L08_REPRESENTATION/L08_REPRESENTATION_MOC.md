@@ -1,5 +1,5 @@
 ---
-title: "L08 Representation MOC"
+title: L08 Representation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L08_REPRESENTATION
 tags:

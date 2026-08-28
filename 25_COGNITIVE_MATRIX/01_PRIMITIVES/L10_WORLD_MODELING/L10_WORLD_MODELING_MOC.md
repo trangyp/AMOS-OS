@@ -1,5 +1,5 @@
 ---
-title: "L10 World Modeling MOC"
+title: L10 World Modeling MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L10_WORLD_MODELING
 tags:

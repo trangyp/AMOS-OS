@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Reality Simulation Distinction"
+title: Vault Domain Knowledge — Amos Reality Simulation Distinction
 type: reference
 source: 07_SKILLS/amos-reality-simulation-distinction/references
 tags:

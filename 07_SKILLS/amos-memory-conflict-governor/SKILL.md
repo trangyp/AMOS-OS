@@ -143,6 +143,13 @@ Memory conflict governance is an operational construct. It does not prove all co
   - **Output**: Structured result with epistemic labels and provenance
 
 
+## Validation Gates
+
+- **L0 Integrity**: All structural elements accounted for; no silent gaps
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope and domain
+- **L7 Authority**: No autonomous action beyond authority boundary
+
 ## Anti-Patterns
 
 - **Do not use** for tasks outside the memory domain

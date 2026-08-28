@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Agent Native Research Artifact Rscf"
+title: References MOC — References — Amos Agent Native Research Artifact Rscf
 type: moc
 source: 07_SKILLS/amos-agent-native-research-artifact-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Vietnamese-Global-Cultural-Bridge-Governor MOC"
+title: Amos-Vietnamese-Global-Cultural-Bridge-Governor MOC
 type: moc
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor
 tags:

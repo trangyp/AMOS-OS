@@ -1,5 +1,5 @@
 ---
-title: "44 Analogy Transfer Modes MOC"
+title: 44 Analogy Transfer Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/44_ANALOGY_TRANSFER_MODES
 tags:

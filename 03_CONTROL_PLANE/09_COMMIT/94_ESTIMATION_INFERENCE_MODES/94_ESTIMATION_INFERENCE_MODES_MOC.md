@@ -1,5 +1,5 @@
 ---
-title: "94 Estimation Inference Modes MOC"
+title: 94 Estimation Inference Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/94_ESTIMATION_INFERENCE_MODES
 tags:

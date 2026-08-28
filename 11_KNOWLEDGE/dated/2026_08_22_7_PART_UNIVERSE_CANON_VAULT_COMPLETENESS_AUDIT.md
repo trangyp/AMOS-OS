@@ -1,6 +1,6 @@
 ---
-title: "7-Part Universe Canon — Vault Completeness Audit"
-created: "2026-08-22"
+title: 7-Part Universe Canon — Vault Completeness Audit
+created: '2026-08-22'
 origin_architect: user-supplied canon audit (Hermes session)
 provenance: derived from 5 vault canon layers + 7-part canon test
 type: canon-audit
@@ -14,8 +14,8 @@ tags:
 - topic/2026-08-22-7-part-universe-canon-vault-c
 - dated
 - dated/2026-08-22
-status: "completed"
-confidence: "STRUCTURAL"
+status: completed
+confidence: STRUCTURAL
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

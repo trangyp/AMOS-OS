@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Sae Semantic Transport Rscf Engine"
+title: References MOC — References — Amos Sae Semantic Transport Rscf Engine
 type: moc
 source: 07_SKILLS/amos-sae-semantic-transport-rscf-engine/references
 tags:

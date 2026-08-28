@@ -1,5 +1,5 @@
 ---
-title: "07 Provenance MOC"
+title: 07 Provenance MOC
 type: moc
 source: 01_CANON/07_PROVENANCE
 tags:

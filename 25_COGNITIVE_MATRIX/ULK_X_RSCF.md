@@ -1,38 +1,38 @@
 ---
-title: "ULK X RSCF"
+title: ULK X RSCF
 type: cognitive_matrix
-source: "25_COGNITIVE_MATRIX"
-artifact: "ULK_X_RSCF.md"
-artifact_id: "amos_25_cognitive_matrix_ulk_x_rscf"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/ULK_X_RSCF.md"
+source: 25_COGNITIVE_MATRIX
+artifact: ULK_X_RSCF.md
+artifact_id: amos_25_cognitive_matrix_ulk_x_rscf
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/ULK_X_RSCF.md
 tags:
   - amos_os
   - cognitive_matrix
   - canon/matrix
   - rscf
   - provenance
-version: "1.0.0"
-updated: "2026-08-28"
-status: "CANON_CANDIDATE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CANDIDATE_PENDING_VALIDATION"
-implementation_status: "CONCEPTUAL"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 1.0.0
+updated: '2026-08-28'
+status: CANON_CANDIDATE
+epistemic_class: AMOS_MODEL
+canonical_status: CANDIDATE_PENDING_VALIDATION
+implementation_status: CONCEPTUAL
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: AMOS_cognitive_matrix
-  confidence_ceiling: "SOURCE_DEPENDENT"
-  regime: "AMOS_OS_MODEL"
+  confidence_ceiling: SOURCE_DEPENDENT
+  regime: AMOS_OS_MODEL
 ---
 
 Below is the expanded **Obsidian-native canonical candidate**. I preserve the source-defined compiler invariant and Proof Conservation Law, while treating the visibly corrupted equation tokens conservatively. The recoverable structure is `∀ op ∈ {...}, ∃ Capsule = ⟨H(Intent), M(ProofSteps), L(Receipt)⟩`; the exact corrupted ALU-0/ALU-4 glyphs remain subordinate to `[[ULK_LOGIC_KERNEL]]`.

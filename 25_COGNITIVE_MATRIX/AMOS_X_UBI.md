@@ -1,16 +1,16 @@
 ---
-title: "AMOS × UBI"
+title: AMOS × UBI
 type: note
 source: 25_COGNITIVE_MATRIX
-artifact: "AMOS_X_UBI.md"
-artifact_id: "amos_25_cognitive_matrix_amos_x_ubi"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "ARTIFACT"
-path: "25_COGNITIVE_MATRIX/AMOS_X_UBI.md"
+artifact: AMOS_X_UBI.md
+artifact_id: amos_25_cognitive_matrix_amos_x_ubi
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: ARTIFACT
+path: 25_COGNITIVE_MATRIX/AMOS_X_UBI.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -34,16 +34,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-version: "1.1.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.1.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -57,16 +57,16 @@ rscf:
     - SOURCE_DEFINED_UBI_MODEL
 framework_binding:
   primary:
-    name: "Unified Biological Intelligence™"
-    acronym: "UBI"
+    name: Unified Biological Intelligence™
+    acronym: UBI
     role: BIOLOGICAL_INTELLIGENCE_ARCHITECTURE
   paired_framework:
-    name: "Universal Biological Framework™"
-    acronym: "UBF"
+    name: Universal Biological Framework™
+    acronym: UBF
     role: EXTERNAL_BIOLOGICAL_GOVERNANCE
   matrix_conjunction:
-    name: "AMOS × UBI Matrix"
-    artifact: "[[AMOS_X_UBI_MATRIX]]"
+    name: AMOS × UBI Matrix
+    artifact: [[AMOS_X_UBI_MATRIX]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

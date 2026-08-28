@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Observability Driven Harness Evolution Rscf"
+title: References MOC — References — Amos Observability Driven Harness Evolution Rscf
 type: moc
 source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf/references
 tags:

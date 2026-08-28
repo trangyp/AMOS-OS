@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 15 — Corpus Depth & Logic Root Completion"
+title: 2026-08-25 QFM Pass 15 — Corpus Depth & Logic Root Completion
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

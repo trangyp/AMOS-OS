@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Universal Variable Registry Rscf Engine"
+title: References MOC — References — Amos Universal Variable Registry Rscf Engine
 type: moc
 source: 07_SKILLS/amos-universal-variable-registry-rscf-engine/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Control Plane / Policy / Index"
+title: Index MOC — Control Plane / Policy / Index
 type: moc
 source: 03_CONTROL_PLANE/03_POLICY/00_INDEX
 tags:

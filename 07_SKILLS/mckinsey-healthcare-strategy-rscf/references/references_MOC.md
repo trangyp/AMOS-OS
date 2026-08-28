@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Healthcare Strategy Rscf"
+title: References MOC — References — Mckinsey Healthcare Strategy Rscf
 type: moc
 source: 07_SKILLS/mckinsey-healthcare-strategy-rscf/references
 tags:

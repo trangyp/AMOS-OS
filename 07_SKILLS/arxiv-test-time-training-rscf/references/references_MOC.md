@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Test Time Training Rscf"
+title: References MOC — References — Arxiv Test Time Training Rscf
 type: moc
 source: 07_SKILLS/arxiv-test-time-training-rscf/references
 tags:

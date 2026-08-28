@@ -1,6 +1,6 @@
 ---
-title: "AMOS Core Infrastructure Modules"
-created: "2026-08-22"
+title: AMOS Core Infrastructure Modules
+created: '2026-08-22'
 type: note
 source: 11_KNOWLEDGE/dated
 tags:
@@ -14,9 +14,9 @@ tags:
 - dated
 - dated/2026-08-22
 - canon/knowledge
-status: "verified"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
+status: verified
+provenance: OBSERVATION
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

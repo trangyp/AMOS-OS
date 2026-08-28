@@ -1,5 +1,5 @@
 ---
-title: "Amos-Invariant-Tensor-Kernel MOC"
+title: Amos-Invariant-Tensor-Kernel MOC
 type: moc
 source: 07_SKILLS/amos-invariant-tensor-kernel
 tags:

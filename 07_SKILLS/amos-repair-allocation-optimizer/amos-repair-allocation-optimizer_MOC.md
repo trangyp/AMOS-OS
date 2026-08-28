@@ -1,5 +1,5 @@
 ---
-title: "Amos-Repair-Allocation-Optimizer MOC"
+title: Amos-Repair-Allocation-Optimizer MOC
 type: moc
 source: 07_SKILLS/amos-repair-allocation-optimizer
 tags:

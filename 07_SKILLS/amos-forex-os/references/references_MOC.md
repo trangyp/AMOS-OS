@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Forex Os"
+title: References MOC — References — Amos Forex Os
 type: moc
 source: 07_SKILLS/amos-forex-os/references
 tags:

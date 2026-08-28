@@ -1,5 +1,5 @@
 ---
-title: "Amos-Flow-Canon MOC"
+title: Amos-Flow-Canon MOC
 type: moc
 source: 07_SKILLS/amos-flow-canon
 tags:

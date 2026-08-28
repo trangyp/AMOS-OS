@@ -196,6 +196,13 @@ proof_capsule:
   - **Input**: Multiple scientific papers
   - **Output**: Batch of normalized AMOS_KNOWLEDGE_OBJECTs, each with source-faithful content, equation status tags (ESTABLISHED_MATH/SOURCE_DERIVED/AMOS_MODEL), provenance to arXiv ID
 
+## Validation Gates
+
+- **L0 Integrity**: All structural elements accounted for; no silent gaps
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope and domain
+- **L7 Authority**: No autonomous action beyond authority boundary
+
 ## Do not use
 
 - For generic document conversion outside arXiv/RSCF framework

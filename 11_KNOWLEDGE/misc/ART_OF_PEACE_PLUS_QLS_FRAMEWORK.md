@@ -1,8 +1,8 @@
 ---
-title: "The Art of Peace — 12 Chapters + QLS Framework"
-created: "2026-08-22"
-origin: "Google Drive — The_Art_of_Peace.pdf (1.88MB) + quantum-logic-systems-qls.pdf (5.1MB)"
-origin_architect: "Quynh Trang Phan"
+title: The Art of Peace — 12 Chapters + QLS Framework
+created: '2026-08-22'
+origin: Google Drive — The_Art_of_Peace.pdf (1.88MB) + quantum-logic-systems-qls.pdf (5.1MB)
+origin_architect: Quynh Trang Phan
 type: book-summary
 source: 11_KNOWLEDGE/misc
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/mu-mutation
 - topic/art-of-peace
 - misc
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,5 +1,5 @@
 ---
-title: "01 Core Laws MOC"
+title: 01 Core Laws MOC
 type: moc
 source: 01_CANON/01_CORE_LAWS
 tags:

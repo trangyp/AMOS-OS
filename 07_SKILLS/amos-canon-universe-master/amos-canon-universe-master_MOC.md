@@ -1,5 +1,5 @@
 ---
-title: "Amos-Canon-Universe-Master MOC"
+title: Amos-Canon-Universe-Master MOC
 type: moc
 source: 07_SKILLS/amos-canon-universe-master
 tags:

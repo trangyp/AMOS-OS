@@ -1,5 +1,5 @@
 ---
-title: "Amos-Structured-Document-Parsing-Rscf MOC"
+title: Amos-Structured-Document-Parsing-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-structured-document-parsing-rscf
 tags:

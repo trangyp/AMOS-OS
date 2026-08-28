@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 18 — Refinement Batch 5 (Runtime Verification + Governance Economics)"
+title: 2026-08-25 QFM Pass 18 — Refinement Batch 5 (Runtime Verification + Governance Economics)
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

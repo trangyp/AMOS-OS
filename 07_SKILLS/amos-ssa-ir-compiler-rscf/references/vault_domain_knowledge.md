@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Ssa Ir Compiler Rscf"
+title: Vault Domain Knowledge — Amos Ssa Ir Compiler Rscf
 type: reference
 source: 07_SKILLS/amos-ssa-ir-compiler-rscf/references
 tags:

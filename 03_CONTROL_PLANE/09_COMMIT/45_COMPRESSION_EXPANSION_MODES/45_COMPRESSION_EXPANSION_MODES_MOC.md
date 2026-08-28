@@ -1,5 +1,5 @@
 ---
-title: "45 Compression Expansion Modes MOC"
+title: 45 Compression Expansion Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/45_COMPRESSION_EXPANSION_MODES
 tags:

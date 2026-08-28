@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Partnership Ecosystem Strategy Rscf"
+title: Vault Domain Knowledge — Mckinsey Partnership Ecosystem Strategy Rscf
 type: reference
 source: 07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Translation-Rscf-Architecture MOC"
+title: Amos-Translation-Rscf-Architecture MOC
 type: moc
 source: 07_SKILLS/amos-translation-rscf-architecture
 tags:

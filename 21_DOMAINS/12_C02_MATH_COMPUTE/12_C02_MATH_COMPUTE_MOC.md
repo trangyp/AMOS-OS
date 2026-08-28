@@ -1,5 +1,5 @@
 ---
-title: "12 C02 Math Compute MOC"
+title: 12 C02 Math Compute MOC
 type: moc
 source: 21_DOMAINS/12_C02_MATH_COMPUTE
 tags:

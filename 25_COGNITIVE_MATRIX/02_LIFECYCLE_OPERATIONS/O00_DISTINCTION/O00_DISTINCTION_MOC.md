@@ -1,5 +1,5 @@
 ---
-title: "O00 Distinction MOC"
+title: O00 Distinction MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION
 tags:

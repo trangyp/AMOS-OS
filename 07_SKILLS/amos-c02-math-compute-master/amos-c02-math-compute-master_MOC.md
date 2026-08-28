@@ -1,5 +1,5 @@
 ---
-title: "Amos-C02-Math-Compute-Master MOC"
+title: Amos-C02-Math-Compute-Master MOC
 type: moc
 source: 07_SKILLS/amos-c02-math-compute-master
 tags:

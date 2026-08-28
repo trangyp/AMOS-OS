@@ -1,5 +1,5 @@
 ---
-title: "09 Finalization MOC"
+title: 09 Finalization MOC
 type: moc
 source: 04_RUNTIME/09_FINALIZATION
 tags:

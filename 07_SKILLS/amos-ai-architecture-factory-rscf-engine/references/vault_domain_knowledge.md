@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Ai Architecture Factory Rscf Engine"
+title: Vault Domain Knowledge — Amos Ai Architecture Factory Rscf Engine
 type: reference
 source: 07_SKILLS/amos-ai-architecture-factory-rscf-engine/references
 tags:

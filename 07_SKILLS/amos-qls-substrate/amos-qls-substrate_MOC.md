@@ -1,5 +1,5 @@
 ---
-title: "Amos-Qls-Substrate MOC"
+title: Amos-Qls-Substrate MOC
 type: moc
 source: 07_SKILLS/amos-qls-substrate
 tags:

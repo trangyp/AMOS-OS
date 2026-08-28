@@ -1,5 +1,5 @@
 ---
-title: "04 Domain MOC"
+title: 04 Domain MOC
 type: moc
 source: 13_MODELS/04_DOMAIN
 tags:

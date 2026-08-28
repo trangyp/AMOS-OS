@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Cdfm-Causal-Discovery-Foundation-Rscf MOC"
+title: Arxiv-Cdfm-Causal-Discovery-Foundation-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf
 tags:

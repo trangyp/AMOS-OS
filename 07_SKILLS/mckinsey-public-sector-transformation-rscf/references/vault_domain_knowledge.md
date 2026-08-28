@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Public Sector Transformation Rscf"
+title: Vault Domain Knowledge — Mckinsey Public Sector Transformation Rscf
 type: reference
 source: 07_SKILLS/mckinsey-public-sector-transformation-rscf/references
 tags:

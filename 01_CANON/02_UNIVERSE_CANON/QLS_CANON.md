@@ -1,16 +1,16 @@
 ---
-title: "QLS Canon"
+title: QLS Canon
 type: canon
-source: "01_CANON/02_UNIVERSE_CANON"
-artifact: "QLS_CANON.md"
-artifact_id: "01_canon_02_universe_canon_qls_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/02_UNIVERSE_CANON"
-artifact_kind: "CANON"
-path: "01_CANON/02_UNIVERSE_CANON/QLS_CANON.md"
+source: 01_CANON/02_UNIVERSE_CANON
+artifact: QLS_CANON.md
+artifact_id: 01_canon_02_universe_canon_qls_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/02_UNIVERSE_CANON
+artifact_kind: CANON
+path: 01_CANON/02_UNIVERSE_CANON/QLS_CANON.md
 tags:
   - 01_canon
   - 02_universe_canon
@@ -22,15 +22,15 @@ tags:
   - rscf
   - universe
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

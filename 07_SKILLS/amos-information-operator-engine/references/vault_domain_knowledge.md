@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Information Operator Engine"
+title: Vault Domain Knowledge — Amos Information Operator Engine
 type: reference
 source: 07_SKILLS/amos-information-operator-engine/references
 tags:

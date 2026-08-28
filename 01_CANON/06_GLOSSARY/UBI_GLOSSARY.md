@@ -1,16 +1,16 @@
 ---
-title: "UBI Glossary"
+title: UBI Glossary
 type: glossary
-source: "01_CANON/06_GLOSSARY"
-artifact: "UBI_GLOSSARY.md"
-artifact_id: "01_canon_06_glossary_ubi_glossary"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/06_GLOSSARY"
-artifact_kind: "GLOSSARY"
-path: "01_CANON/06_GLOSSARY/UBI_GLOSSARY.md"
+source: 01_CANON/06_GLOSSARY
+artifact: UBI_GLOSSARY.md
+artifact_id: 01_canon_06_glossary_ubi_glossary
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/06_GLOSSARY
+artifact_kind: GLOSSARY
+path: 01_CANON/06_GLOSSARY/UBI_GLOSSARY.md
 tags:
   - 01_canon
   - 06_glossary
@@ -23,15 +23,15 @@ tags:
   - ubi_glossary.md
   - universe
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

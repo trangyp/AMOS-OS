@@ -1,5 +1,5 @@
 ---
-title: "Rollback Validation Receipt"
+title: Rollback Validation Receipt
 type: receipt
 source: 01_CANON/01_CORE_LAWS
 tags:

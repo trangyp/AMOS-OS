@@ -1,5 +1,5 @@
 ---
-title: "Amos-Persistence-Dissolution-Rscf-Dynamics MOC"
+title: Amos-Persistence-Dissolution-Rscf-Dynamics MOC
 type: moc
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics
 tags:

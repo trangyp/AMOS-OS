@@ -1,5 +1,5 @@
 ---
-title: "Amos-Information-Theory-Master MOC"
+title: Amos-Information-Theory-Master MOC
 type: moc
 source: 07_SKILLS/amos-information-theory-master
 tags:

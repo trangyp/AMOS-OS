@@ -164,7 +164,7 @@
   "tags": [
     "type/agent",
     "canon/agent",
-    "domain/cross-domain",
+    "domain/trang-framework",
     "rscf/source_claim",
     "hml/m",
     "epistemic/amos_model",
@@ -192,5 +192,6 @@
     "L16",
     "L17",
     "L18"
-  ]
+  ],
+  "domain": "trang"
 }

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Cross-Scale-Rscf-Tensor-Engine MOC"
+title: Amos-Cross-Scale-Rscf-Tensor-Engine MOC
 type: moc
 source: 07_SKILLS/amos-cross-scale-rscf-tensor-engine
 tags:

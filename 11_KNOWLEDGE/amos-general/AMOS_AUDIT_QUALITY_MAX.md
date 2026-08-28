@@ -1,8 +1,8 @@
 ---
-title: "AMOS Audit Quality MAX — COSO/ISO/TSS/TPE Integration"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/AMOS_Audit_Quality_Engine_v0.json"
-origin_architect: "Trang Phan"
+title: AMOS Audit Quality MAX — COSO/ISO/TSS/TPE Integration
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/AMOS_Audit_Quality_Engine_v0.json
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/amos-general
 tags:
@@ -18,9 +18,9 @@ tags:
 - rscf/repair
 - topic/audit-quality-model
 - amos-general
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

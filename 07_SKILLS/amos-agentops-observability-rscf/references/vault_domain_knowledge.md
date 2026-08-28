@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Agentops Observability Rscf"
+title: Vault Domain Knowledge — Amos Agentops Observability Rscf
 type: reference
 source: 07_SKILLS/amos-agentops-observability-rscf/references
 tags:

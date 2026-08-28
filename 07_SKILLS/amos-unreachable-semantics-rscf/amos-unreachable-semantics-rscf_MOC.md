@@ -1,5 +1,5 @@
 ---
-title: "Amos-Unreachable-Semantics-Rscf MOC"
+title: Amos-Unreachable-Semantics-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-unreachable-semantics-rscf
 tags:

@@ -21,7 +21,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 overclaim_risk: true
-overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 
 # AMOS SUPER FACTORY ENGINE V2 0 0

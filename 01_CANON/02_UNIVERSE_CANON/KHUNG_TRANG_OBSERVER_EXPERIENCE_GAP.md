@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang Observer Experience Gap Principle"
+title: Khung Trang Observer Experience Gap Principle
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

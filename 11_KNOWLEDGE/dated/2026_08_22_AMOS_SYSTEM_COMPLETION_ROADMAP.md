@@ -1,8 +1,8 @@
 ---
-title: "AMOS System Completion Roadmap"
-created: "2026-08-22"
-origin: "Hermes ↔ Cosmo Brain"
-origin_architect: "Trang Phan"
+title: AMOS System Completion Roadmap
+created: '2026-08-22'
+origin: Hermes ↔ Cosmo Brain
+origin_architect: Trang Phan
 type: note
 source: 11_KNOWLEDGE/dated
 tags:
@@ -16,9 +16,9 @@ tags:
 - dated
 - dated/2026-08-22
 - canon/knowledge
-status: "living"
-provenance: "DERIVED"
-confidence: "MODEL"
+status: living
+provenance: DERIVED
+confidence: MODEL
 rscf:
   state: SOURCE_CLAIM
   claim_class: DERIVED

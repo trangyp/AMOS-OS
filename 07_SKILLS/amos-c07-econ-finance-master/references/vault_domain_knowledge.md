@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos C07 Econ Finance Master"
+title: Vault Domain Knowledge — Amos C07 Econ Finance Master
 type: reference
 source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags:

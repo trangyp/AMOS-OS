@@ -1,5 +1,5 @@
 ---
-title: "L26 Social Cognition MOC"
+title: L26 Social Cognition MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L26_SOCIAL_COGNITION
 tags:

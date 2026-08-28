@@ -1,11 +1,11 @@
 ---
-title: "AMOS Policy Geostrategy Engine vInfinity"
+title: AMOS Policy Geostrategy Engine vInfinity
 type: strategy
 source: 11_KNOWLEDGE/engine
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Policy_Geostrategy_Engine_v0.json (257 lines, 7KB)"
-origin_type: "SOURCE"
-category: "kernel"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Policy_Geostrategy_Engine_v0.json (257 lines, 7KB)
+origin_type: SOURCE
+category: kernel
 tags:
 - amos
 - policy

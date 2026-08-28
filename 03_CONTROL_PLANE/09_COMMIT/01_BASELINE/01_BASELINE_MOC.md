@@ -1,5 +1,5 @@
 ---
-title: "01 Baseline MOC"
+title: 01 Baseline MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/01_BASELINE
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Vecm-Cointegration-Rscf-Engine MOC"
+title: Amos-Fx-Vecm-Cointegration-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-vecm-cointegration-rscf-engine
 tags:

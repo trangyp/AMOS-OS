@@ -1,5 +1,5 @@
 ---
-title: "C06 Memory MOC"
+title: C06 Memory MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY
 tags:

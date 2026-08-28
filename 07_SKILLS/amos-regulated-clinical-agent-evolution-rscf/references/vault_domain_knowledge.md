@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Regulated Clinical Agent Evolution Rscf"
+title: Vault Domain Knowledge — Amos Regulated Clinical Agent Evolution Rscf
 type: reference
 source: 07_SKILLS/amos-regulated-clinical-agent-evolution-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Prediction-Governance MOC"
+title: Amos-Prediction-Governance MOC
 type: moc
 source: 07_SKILLS/amos-prediction-governance
 tags:

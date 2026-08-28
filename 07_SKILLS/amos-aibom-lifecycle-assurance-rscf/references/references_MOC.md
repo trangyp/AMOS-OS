@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Aibom Lifecycle Assurance Rscf"
+title: References MOC — References — Amos Aibom Lifecycle Assurance Rscf
 type: moc
 source: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/references
 tags:

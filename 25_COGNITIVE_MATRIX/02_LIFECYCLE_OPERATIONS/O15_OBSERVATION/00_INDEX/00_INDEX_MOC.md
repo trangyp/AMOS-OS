@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Lifecycle Operations / O15 Observation / Index"
+title: Index MOC — Cognitive Matrix / Lifecycle Operations / O15 Observation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O15_OBSERVATION/00_INDEX
 tags:

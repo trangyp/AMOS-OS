@@ -1,5 +1,5 @@
 ---
-title: "Amos-Procedural-Repository-Retrieval-Rscf MOC"
+title: Amos-Procedural-Repository-Retrieval-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-procedural-repository-retrieval-rscf
 tags:

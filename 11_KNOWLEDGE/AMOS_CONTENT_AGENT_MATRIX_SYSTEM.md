@@ -1,5 +1,5 @@
 ---
-title: "AMOS Content Agent Matrix — Governed Multi-Agent Content Operating System"
+title: AMOS Content Agent Matrix — Governed Multi-Agent Content Operating System
 type: agent
 source: 11_KNOWLEDGE
 tags:

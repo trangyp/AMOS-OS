@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Technology Sales Excellence Rscf"
+title: Vault Domain Knowledge — Mckinsey Technology Sales Excellence Rscf
 type: reference
 source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf/references
 tags:

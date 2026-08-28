@@ -1,5 +1,5 @@
 ---
-title: "04 Authority MOC"
+title: 04 Authority MOC
 type: moc
 source: 03_CONTROL_PLANE/04_AUTHORITY
 tags:

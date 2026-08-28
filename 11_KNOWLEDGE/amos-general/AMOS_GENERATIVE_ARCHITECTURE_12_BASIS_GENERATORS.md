@@ -1,12 +1,12 @@
 ---
-title: "AMOS — Complete Generative Architecture: 12 Basis Generators + Expansion Rules"
-created: "2026-08-23"
+title: 'AMOS — Complete Generative Architecture: 12 Basis Generators + Expansion Rules'
+created: '2026-08-23'
 origin_architect: QUANTUM OMEGA INTELLIGENCE AGENT
 provenance: user-provided expansion + self-analysis from 7-part canon + AMOS Quantum Library v0.6.0 integration
 type: architecture
 source: 11_KNOWLEDGE/amos-general
-status: "validated"
-confidence: "STRUCTURAL"
+status: validated
+confidence: STRUCTURAL
 tags:
 - canon-group/tech-ai
 - architecture
@@ -26,6 +26,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_architecture
 ---
+
 
 
 # AMOS — Complete Generative Architecture

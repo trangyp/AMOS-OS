@@ -1,5 +1,5 @@
 ---
-title: "Amos-Canon-Compiler MOC"
+title: Amos-Canon-Compiler MOC
 type: moc
 source: 07_SKILLS/amos-canon-compiler
 tags:

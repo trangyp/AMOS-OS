@@ -1,5 +1,5 @@
 ---
-title: "02 Research MOC"
+title: 02 Research MOC
 type: moc
 source: 21_DOMAINS/02_RESEARCH
 tags:

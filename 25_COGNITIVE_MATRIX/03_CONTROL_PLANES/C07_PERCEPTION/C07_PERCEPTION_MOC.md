@@ -1,5 +1,5 @@
 ---
-title: "C07 Perception MOC"
+title: C07 Perception MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C07_PERCEPTION
 tags:

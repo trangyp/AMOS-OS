@@ -1,5 +1,5 @@
 ---
-title: "11_VALIDATION — Validation Evidence"
+title: 11_VALIDATION — Validation Evidence
 type: validation
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:

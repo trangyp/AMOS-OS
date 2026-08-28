@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Canon / Index"
+title: Index MOC — Canon / Index
 type: moc
 source: 01_CANON/00_INDEX
 tags:

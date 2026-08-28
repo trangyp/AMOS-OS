@@ -1,5 +1,5 @@
 ---
-title: "20 Operations MOC"
+title: 20 Operations MOC
 type: moc
 source: 20_OPERATIONS
 tags:

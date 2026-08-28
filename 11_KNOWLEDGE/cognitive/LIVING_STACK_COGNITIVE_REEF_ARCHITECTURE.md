@@ -1,8 +1,8 @@
 ---
-title: "The Living Stack — Cognitive Reef Architecture (Troy Project)"
-created: "2026-08-22"
-origin: "Google Drive — new troy/Troy/Living_Stack.pdf + Living_State_Monetisation.pdf + The_System.pdf"
-origin_architect: "Trang Phan"
+title: The Living Stack — Cognitive Reef Architecture (Troy Project)
+created: '2026-08-22'
+origin: Google Drive — new troy/Troy/Living_Stack.pdf + Living_State_Monetisation.pdf + The_System.pdf
+origin_architect: Trang Phan
 type: research-paper
 source: 11_KNOWLEDGE/cognitive
 tags:
@@ -22,9 +22,9 @@ tags:
 - state-monetisation
 - cognitive
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

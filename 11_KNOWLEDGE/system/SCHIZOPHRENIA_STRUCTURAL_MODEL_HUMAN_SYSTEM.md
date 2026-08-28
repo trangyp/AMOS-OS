@@ -16,7 +16,7 @@ tags:
 - topic/schizophrenia-structural-model-complete-
 - system
 date: 2026-08-22
-source_title: "The Complete Human System — Chapter 16: Schizophrenia — Complete Grounding"
+source_title: 'The Complete Human System — Chapter 16: Schizophrenia — Complete Grounding'
 source_type: book-manuscript
 source_url: local-ingestion
 rscf:
@@ -25,6 +25,7 @@ rscf:
   provenance: AMOS_corpus
   scope: system_design
 ---
+
 
 
 # Schizophrenia Structural Model — Complete Human System

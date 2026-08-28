@@ -1,16 +1,16 @@
 ---
-title: "Provenance Health Schema"
+title: Provenance Health Schema
 type: schema
 source: 16_SCHEMAS/11_OBSERVABILITY
-artifact: "provenance_health.schema.md"
-artifact_id: "amos_16_schemas_11_observability_provenance_health.schema"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "16_SCHEMAS"
-segment: "16_SCHEMAS/11_OBSERVABILITY"
-artifact_kind: "PROVENANCE"
-path: "16_SCHEMAS/11_OBSERVABILITY/provenance_health.schema.md"
+artifact: provenance_health.schema.md
+artifact_id: amos_16_schemas_11_observability_provenance_health.schema
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 16_SCHEMAS
+segment: 16_SCHEMAS/11_OBSERVABILITY
+artifact_kind: PROVENANCE
+path: 16_SCHEMAS/11_OBSERVABILITY/provenance_health.schema.md
 tags:
 - amos_os
 - schema
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/schema
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

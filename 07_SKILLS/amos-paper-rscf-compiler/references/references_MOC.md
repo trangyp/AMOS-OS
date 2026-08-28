@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Paper Rscf Compiler"
+title: References MOC — References — Amos Paper Rscf Compiler
 type: moc
 source: 07_SKILLS/amos-paper-rscf-compiler/references
 tags:

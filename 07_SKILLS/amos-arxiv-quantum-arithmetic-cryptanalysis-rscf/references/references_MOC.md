@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Quantum Arithmetic Cryptanalysis Rscf"
+title: References MOC — References — Amos Arxiv Quantum Arithmetic Cryptanalysis Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-quantum-arithmetic-cryptanalysis-rscf/references
 tags:

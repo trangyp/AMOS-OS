@@ -1,5 +1,5 @@
 ---
-title: "GENERATOR PROMOTION"
+title: GENERATOR PROMOTION
 type: generator
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:

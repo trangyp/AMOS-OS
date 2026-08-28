@@ -1,16 +1,16 @@
 ---
-title: "Proof-Based Coordination Avoidance — 09 Commit"
+title: Proof-Based Coordination Avoidance — 09 Commit
 type: proof
 source: 03_CONTROL_PLANE/09_COMMIT
-artifact: "PROOF_BASED_COORDINATION_AVOIDANCE.md"
-artifact_id: "amos_03_control_plane_09_commit_proof_based_coordination_avoidance"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "03_CONTROL_PLANE"
-segment: "03_CONTROL_PLANE/09_COMMIT"
-artifact_kind: "ARTIFACT"
-path: "03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md"
+artifact: PROOF_BASED_COORDINATION_AVOIDANCE.md
+artifact_id: amos_03_control_plane_09_commit_proof_based_coordination_avoidance
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 03_CONTROL_PLANE
+segment: 03_CONTROL_PLANE/09_COMMIT
+artifact_kind: ARTIFACT
+path: 03_CONTROL_PLANE/09_COMMIT/PROOF_BASED_COORDINATION_AVOIDANCE.md
 tags:
 - amos_os
 - control_plane
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/control-plane
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

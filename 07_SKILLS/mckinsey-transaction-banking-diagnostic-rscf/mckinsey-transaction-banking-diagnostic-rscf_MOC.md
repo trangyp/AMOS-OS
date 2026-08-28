@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Transaction-Banking-Diagnostic-Rscf MOC"
+title: Mckinsey-Transaction-Banking-Diagnostic-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-transaction-banking-diagnostic-rscf
 tags:

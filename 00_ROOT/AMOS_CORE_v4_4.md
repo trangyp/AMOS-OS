@@ -1,5 +1,5 @@
 ---
-title: "AMOS Core v4.4 Coordination-Avoidance Runtime Architecture"
+title: AMOS Core v4.4 Coordination-Avoidance Runtime Architecture
 type: core_spec
 source: 00_ROOT
 tags:

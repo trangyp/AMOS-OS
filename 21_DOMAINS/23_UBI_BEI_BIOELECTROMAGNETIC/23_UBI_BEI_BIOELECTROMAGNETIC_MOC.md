@@ -1,5 +1,5 @@
 ---
-title: "23 Ubi Bei Bioelectromagnetic MOC"
+title: 23 Ubi Bei Bioelectromagnetic MOC
 type: moc
 source: 21_DOMAINS/23_UBI_BEI_BIOELECTROMAGNETIC
 tags:

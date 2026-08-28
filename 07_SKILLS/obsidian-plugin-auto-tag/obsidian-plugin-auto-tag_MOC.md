@@ -1,5 +1,5 @@
 ---
-title: "obsidian-plugin-auto-tag MOC"
+title: obsidian-plugin-auto-tag MOC
 type: moc
 source: 07_SKILLS/obsidian-plugin-auto-tag
 tags:

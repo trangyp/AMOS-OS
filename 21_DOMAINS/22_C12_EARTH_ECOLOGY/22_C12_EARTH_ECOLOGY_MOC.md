@@ -1,5 +1,5 @@
 ---
-title: "22 C12 Earth Ecology MOC"
+title: 22 C12 Earth Ecology MOC
 type: moc
 source: 21_DOMAINS/22_C12_EARTH_ECOLOGY
 tags:

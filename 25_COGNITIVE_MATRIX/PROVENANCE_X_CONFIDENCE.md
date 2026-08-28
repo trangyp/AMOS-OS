@@ -1,16 +1,16 @@
 ---
-title: "Provenance x Confidence Cognitive Matrix"
+title: Provenance x Confidence Cognitive Matrix
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "PROVENANCE_X_CONFIDENCE.md"
-artifact_id: "amos_25_cognitive_matrix_provenance_x_confidence"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE.md"
+artifact: PROVENANCE_X_CONFIDENCE.md
+artifact_id: amos_25_cognitive_matrix_provenance_x_confidence
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/PROVENANCE_X_CONFIDENCE.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -42,18 +42,18 @@ tags:
   - rscf
   - canon_candidate
   - canon/matrix
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-formal_verification_status: "NOT_ESTABLISHED"
-runtime_enforcement_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+formal_verification_status: NOT_ESTABLISHED
+runtime_enforcement_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -67,11 +67,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   provenance_master:
-    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE"
+    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
   claims_moc:
-    artifact: "11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC"
+    artifact: 11_KNOWLEDGE/02_CLAIMS/02_CLAIMS_MOC
   integrity_law:
-    artifact: "01_CANON/01_CORE_LAWS/L0_INTEGRITY"
+    artifact: 01_CANON/01_CORE_LAWS/L0_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

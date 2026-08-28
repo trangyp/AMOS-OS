@@ -1,5 +1,5 @@
 ---
-title: "35 Business Analysis MOC"
+title: 35 Business Analysis MOC
 type: moc
 source: 21_DOMAINS/35_BUSINESS_ANALYSIS
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Slides"
+title: References MOC — References — Slides
 type: moc
 source: 07_SKILLS/slides/references
 tags:

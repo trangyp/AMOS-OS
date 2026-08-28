@@ -1,5 +1,5 @@
 ---
-title: "Field MOC"
+title: Field MOC
 type: moc
 source: 11_KNOWLEDGE/field
 tags:

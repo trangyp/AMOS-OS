@@ -1,5 +1,5 @@
 ---
-title: "02 Superseded MOC"
+title: 02 Superseded MOC
 type: moc
 source: 24_ARCHIVE/02_SUPERSEDED
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Engineering Math / Index"
+title: Index MOC — Domains / Engineering Math / Index
 type: moc
 source: 21_DOMAINS/28_ENGINEERING_MATH/00_INDEX
 tags:

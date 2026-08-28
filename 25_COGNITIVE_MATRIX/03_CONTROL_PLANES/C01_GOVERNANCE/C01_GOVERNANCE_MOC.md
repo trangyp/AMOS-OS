@@ -1,5 +1,5 @@
 ---
-title: "C01 Governance MOC"
+title: C01 Governance MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE
 tags:

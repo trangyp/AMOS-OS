@@ -1,5 +1,5 @@
 ---
-title: "L00_REALITY_ENVIRONMENT — Control Planes"
+title: L00_REALITY_ENVIRONMENT — Control Planes
 type: control-plane
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:

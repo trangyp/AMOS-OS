@@ -1,5 +1,5 @@
 ---
-title: "04 Validation MOC"
+title: 04 Validation MOC
 type: moc
 source: 22_RESEARCH/04_VALIDATION
 tags:

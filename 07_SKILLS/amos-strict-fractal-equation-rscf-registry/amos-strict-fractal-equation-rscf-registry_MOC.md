@@ -1,5 +1,5 @@
 ---
-title: "Amos-Strict-Fractal-Equation-Rscf-Registry MOC"
+title: Amos-Strict-Fractal-Equation-Rscf-Registry MOC
 type: moc
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry
 tags:

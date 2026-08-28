@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Repair Priority Governor"
+title: References MOC — References — Amos Repair Priority Governor
 type: moc
 source: 07_SKILLS/amos-repair-priority-governor/references
 tags:

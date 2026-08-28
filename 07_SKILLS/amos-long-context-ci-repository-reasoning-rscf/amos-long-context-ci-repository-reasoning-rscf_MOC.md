@@ -1,5 +1,5 @@
 ---
-title: "Amos-Long-Context-Ci-Repository-Reasoning-Rscf MOC"
+title: Amos-Long-Context-Ci-Repository-Reasoning-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-long-context-ci-repository-reasoning-rscf
 tags:

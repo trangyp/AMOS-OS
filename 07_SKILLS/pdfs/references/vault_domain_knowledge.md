@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Pdfs"
+title: Vault Domain Knowledge — Pdfs
 type: reference
 source: 07_SKILLS/pdfs/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "05 Provenance MOC"
+title: 05 Provenance MOC
 type: moc
 source: 03_CONTROL_PLANE/05_PROVENANCE
 tags:

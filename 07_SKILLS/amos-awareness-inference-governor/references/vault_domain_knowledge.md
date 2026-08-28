@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Awareness Inference Governor"
+title: Vault Domain Knowledge — Amos Awareness Inference Governor
 type: reference
 source: 07_SKILLS/amos-awareness-inference-governor/references
 tags:

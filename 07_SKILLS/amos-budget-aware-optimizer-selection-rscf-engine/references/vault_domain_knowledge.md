@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Budget Aware Optimizer Selection Rscf Engine"
+title: Vault Domain Knowledge — Amos Budget Aware Optimizer Selection Rscf Engine
 type: reference
 source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine/references
 tags:

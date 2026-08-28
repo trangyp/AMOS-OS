@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Risk Constraint Governor"
+title: Vault Domain Knowledge — Amos Risk Constraint Governor
 type: reference
 source: 07_SKILLS/amos-risk-constraint-governor/references
 tags:

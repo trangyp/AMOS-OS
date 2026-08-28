@@ -10,7 +10,7 @@ Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/cross-domain
+- domain/rscf-epistemic
 - rscf/source_claim
 - hml/m
 - epistemic/source_claim
@@ -43,7 +43,9 @@ law_compliance:
 - L16
 - L17
 - L18
+domain: rscf
 ---
+
 
 # Workflow: Hourglass Induction Rscf
 

@@ -1,16 +1,16 @@
 ---
-title: "11_VALIDATION — Validation Infrastructure Contract"
+title: 11_VALIDATION — Validation Infrastructure Contract
 type: cognitive
-source: "25_COGNITIVE_MATRIX/11_VALIDATION"
-artifact: "VALIDATION_COGNITIVE_MATRIX_README.md"
-artifact_id: "25_cognitive_matrix_11_validation_validation_cognitive_matrix_readme"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX/11_VALIDATION"
-artifact_kind: "COGNITIVE"
-path: "25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_COGNITIVE_MATRIX_README.md"
+source: 25_COGNITIVE_MATRIX/11_VALIDATION
+artifact: VALIDATION_COGNITIVE_MATRIX_README.md
+artifact_id: 25_cognitive_matrix_11_validation_validation_cognitive_matrix_readme
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX/11_VALIDATION
+artifact_kind: COGNITIVE
+path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_COGNITIVE_MATRIX_README.md
 tags:
   - 11_validation
   - 25_cognitive_matrix
@@ -34,15 +34,15 @@ tags:
   - validation_cognitive_matrix_readme.md
   - {'identity':-None}
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

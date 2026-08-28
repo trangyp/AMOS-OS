@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Runtime / Index"
+title: Index MOC — Runtime / Index
 type: moc
 source: 04_RUNTIME/00_INDEX
 tags:

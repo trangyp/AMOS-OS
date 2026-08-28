@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / C06 Society Culture / Index"
+title: Index MOC — Domains / C06 Society Culture / Index
 type: moc
 source: 21_DOMAINS/16_C06_SOCIETY_CULTURE/00_INDEX
 tags:

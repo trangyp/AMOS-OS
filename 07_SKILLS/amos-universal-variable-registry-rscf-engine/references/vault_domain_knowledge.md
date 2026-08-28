@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Universal Variable Registry Rscf Engine"
+title: Vault Domain Knowledge — Amos Universal Variable Registry Rscf Engine
 type: reference
 source: 07_SKILLS/amos-universal-variable-registry-rscf-engine/references
 tags:

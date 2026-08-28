@@ -1,25 +1,25 @@
 ---
-title: "Kernel · Bio-Logical Computing"
+title: Kernel · Bio-Logical Computing
 aliases:
-  - "K Bio-Logical Computing"
-  - "AMOS Bio-Logical Computing"
-  - "AMOS Kernel Bio-Logical Computing"
-  - "Bio-Logical Computing Kernel"
-  - "Bio Logical Computing"
+  - K Bio-Logical Computing
+  - AMOS Bio-Logical Computing
+  - AMOS Kernel Bio-Logical Computing
+  - Bio-Logical Computing Kernel
+  - Bio Logical Computing
 type: logic
 document_type: kernel-logic-artifact
 source: 02_KERNEL/01_META_LOGIC
-artifact: "K_BIO_LOGICAL_COMPUTING.md"
-artifact_id: "amos_02_kernel_01_meta_logic_k_bio_logical_computing"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "02_KERNEL"
-plane_role: "reasoning-kernel"
-segment: "02_KERNEL/01_META_LOGIC"
-segment_role: "meta-logic"
-artifact_kind: "LOG"
-path: "02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md"
+artifact: K_BIO_LOGICAL_COMPUTING.md
+artifact_id: amos_02_kernel_01_meta_logic_k_bio_logical_computing
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 02_KERNEL
+plane_role: reasoning-kernel
+segment: 02_KERNEL/01_META_LOGIC
+segment_role: meta-logic
+artifact_kind: LOG
+path: 02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md
 tags:
   - amos_os
   - amos-general
@@ -47,22 +47,22 @@ tags:
   - validation
   - rollback
   - uncertainty
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-content_status: "UNPOPULATED_NATIVE_CANON"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-runtime_enforcement: "NOT_ESTABLISHED"
-formal_proof_status: "NOT_ESTABLISHED"
-biological_validation_status: "NOT_ESTABLISHED"
-computational_validation_status: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-overwrite_policy: "NEVER_OVERWRITE_EXISTING_CANON"
-promotion_status: "BLOCKED_PENDING_NATIVE_CANON"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+content_status: UNPOPULATED_NATIVE_CANON
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+runtime_enforcement: NOT_ESTABLISHED
+formal_proof_status: NOT_ESTABLISHED
+biological_validation_status: NOT_ESTABLISHED
+computational_validation_status: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+overwrite_policy: NEVER_OVERWRITE_EXISTING_CANON
+promotion_status: BLOCKED_PENDING_NATIVE_CANON
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -70,8 +70,8 @@ rscf:
   provenance_type: corpus-derived-placeholder
   scope: AMOS_general
   regime: AMOS_kernel_architecture
-  freshness: "2026-08-27"
-  confidence_ceiling: "UNKNOWN/GAP for substantive Bio-Logical Computing canon"
+  freshness: 2026-08-27
+  confidence_ceiling: UNKNOWN/GAP for substantive Bio-Logical Computing canon
   dependencies:
     - LAW_HIERARCHY
     - KERNEL_README
@@ -115,6 +115,7 @@ relations:
   recovery_binding:
     - OPERATIONS_README
 ---
+
 
 # Kernel · Bio-Logical Computing
 

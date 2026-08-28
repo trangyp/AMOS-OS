@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Target Of Repair Intelligence"
+title: References MOC — References — Amos Target Of Repair Intelligence
 type: moc
 source: 07_SKILLS/amos-target-of-repair-intelligence/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Repair Harm Auditor"
+title: Vault Domain Knowledge — Amos Repair Harm Auditor
 type: reference
 source: 07_SKILLS/amos-repair-harm-auditor/references
 tags:

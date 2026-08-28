@@ -1,5 +1,5 @@
 ---
-title: "Amos-Consciousness-Candidate-Governor MOC"
+title: Amos-Consciousness-Candidate-Governor MOC
 type: moc
 source: 07_SKILLS/amos-consciousness-candidate-governor
 tags:

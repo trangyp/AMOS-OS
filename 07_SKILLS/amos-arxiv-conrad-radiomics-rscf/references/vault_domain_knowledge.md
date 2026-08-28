@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Arxiv Conrad Radiomics Rscf"
+title: Vault Domain Knowledge — Amos Arxiv Conrad Radiomics Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-conrad-radiomics-rscf/references
 tags:

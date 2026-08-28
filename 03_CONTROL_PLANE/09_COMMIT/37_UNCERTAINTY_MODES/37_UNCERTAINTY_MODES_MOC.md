@@ -1,5 +1,5 @@
 ---
-title: "37 Uncertainty Modes MOC"
+title: 37 Uncertainty Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/37_UNCERTAINTY_MODES
 tags:

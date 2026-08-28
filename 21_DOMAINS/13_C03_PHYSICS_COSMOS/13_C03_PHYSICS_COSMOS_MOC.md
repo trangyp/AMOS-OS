@@ -1,5 +1,5 @@
 ---
-title: "13 C03 Physics Cosmos MOC"
+title: 13 C03 Physics Cosmos MOC
 type: moc
 source: 21_DOMAINS/13_C03_PHYSICS_COSMOS
 tags:

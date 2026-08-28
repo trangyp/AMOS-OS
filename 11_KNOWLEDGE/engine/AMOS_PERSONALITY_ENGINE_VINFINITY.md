@@ -1,11 +1,11 @@
 ---
-title: "AMOS Personality Engine vInfinity (AMOS_PERSONALITY_CORE_vInfinity)"
+title: AMOS Personality Engine vInfinity (AMOS_PERSONALITY_CORE_vInfinity)
 type: engine
 source: 11_KNOWLEDGE/engine
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Personality_Engine_v0.json (109KB, massive personality specification)"
-origin_type: "SOURCE"
-category: "kernel"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Core/AMOS_Personality_Engine_v0.json (109KB, massive personality specification)
+origin_type: SOURCE
+category: kernel
 tags:
 - amos
 - personality

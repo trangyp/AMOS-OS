@@ -1,5 +1,5 @@
 ---
-title: "24 Causal Modes MOC"
+title: 24 Causal Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/24_CAUSAL_MODES
 tags:

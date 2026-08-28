@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 12 — Wave Sync + Refinements"
+title: 2026-08-25 QFM Pass 12 — Wave Sync + Refinements
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

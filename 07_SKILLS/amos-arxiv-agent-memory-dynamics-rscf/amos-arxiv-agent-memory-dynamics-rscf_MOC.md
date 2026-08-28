@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Agent-Memory-Dynamics-Rscf MOC"
+title: Amos-Arxiv-Agent-Memory-Dynamics-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-agent-memory-dynamics-rscf
 tags:

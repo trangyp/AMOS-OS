@@ -1,5 +1,5 @@
 ---
-title: "02 Lifecycle Operations MOC"
+title: 02 Lifecycle Operations MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS
 tags:

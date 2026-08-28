@@ -1,5 +1,5 @@
 ---
-title: "AMOS ABSOLUTE LOGIC CORE19 FULL"
+title: AMOS ABSOLUTE LOGIC CORE19 FULL
 name: amos-absolute-logic-core19-full
 version: 2.0.0
 created: 2026-08-25

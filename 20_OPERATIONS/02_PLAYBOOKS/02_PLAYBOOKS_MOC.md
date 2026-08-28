@@ -1,5 +1,5 @@
 ---
-title: "02 Playbooks MOC"
+title: 02 Playbooks MOC
 type: moc
 source: 20_OPERATIONS/02_PLAYBOOKS
 tags:

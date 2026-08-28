@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Structured Gp Omics Uq Rscf"
+title: References MOC — References — Arxiv Structured Gp Omics Uq Rscf
 type: moc
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf/references
 tags:

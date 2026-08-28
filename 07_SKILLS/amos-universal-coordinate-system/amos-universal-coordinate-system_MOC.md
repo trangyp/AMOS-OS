@@ -1,5 +1,5 @@
 ---
-title: "Amos-Universal-Coordinate-System MOC"
+title: Amos-Universal-Coordinate-System MOC
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-system
 tags:

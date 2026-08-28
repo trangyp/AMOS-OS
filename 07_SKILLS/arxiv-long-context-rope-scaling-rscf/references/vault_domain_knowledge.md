@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Long Context Rope Scaling Rscf"
+title: Vault Domain Knowledge — Arxiv Long Context Rope Scaling Rscf
 type: reference
 source: 07_SKILLS/arxiv-long-context-rope-scaling-rscf/references
 tags:

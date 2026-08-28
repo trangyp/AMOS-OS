@@ -1,5 +1,5 @@
 ---
-title: "18 Memory Modes MOC"
+title: 18 Memory Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/18_MEMORY_MODES
 tags:

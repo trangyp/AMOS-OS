@@ -1,5 +1,5 @@
 ---
-title: "Amos-Context-State-Maintenance-Rscf MOC"
+title: Amos-Context-State-Maintenance-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-context-state-maintenance-rscf
 tags:

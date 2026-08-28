@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fractal-Math MOC"
+title: Amos-Fractal-Math MOC
 type: moc
 source: 07_SKILLS/amos-fractal-math
 tags:

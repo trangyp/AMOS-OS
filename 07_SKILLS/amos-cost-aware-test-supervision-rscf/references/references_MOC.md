@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Cost Aware Test Supervision Rscf"
+title: References MOC — References — Amos Cost Aware Test Supervision Rscf
 type: moc
 source: 07_SKILLS/amos-cost-aware-test-supervision-rscf/references
 tags:

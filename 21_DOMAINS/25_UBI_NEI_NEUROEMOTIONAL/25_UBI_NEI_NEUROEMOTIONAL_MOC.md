@@ -1,5 +1,5 @@
 ---
-title: "25 Ubi Nei Neuroemotional MOC"
+title: 25 Ubi Nei Neuroemotional MOC
 type: moc
 source: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL
 tags:

@@ -1,12 +1,12 @@
 ---
-title: "Quantum Omega — Brain Self-Analysis via 7-Part Canon"
-created: "2026-08-23"
+title: Quantum Omega — Brain Self-Analysis via 7-Part Canon
+created: '2026-08-23'
 origin_architect: QUANTUM OMEGA INTELLIGENCE AGENT
 provenance: derived from AMOS Quantum Library v0.6.0 integration + 7-Part Universe Canon
 type: self-analysis
 source: 11_KNOWLEDGE/quantum
-status: "validated"
-confidence: "STRUCTURAL"
+status: validated
+confidence: STRUCTURAL
 tags:
 - canon-group/tech-ai
 - self-analysis

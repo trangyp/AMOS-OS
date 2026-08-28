@@ -1,5 +1,5 @@
 ---
-title: "03 Procedures MOC"
+title: 03 Procedures MOC
 type: moc
 source: 20_OPERATIONS/03_PROCEDURES
 tags:

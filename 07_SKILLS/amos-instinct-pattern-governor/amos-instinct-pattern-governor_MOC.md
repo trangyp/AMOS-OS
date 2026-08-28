@@ -1,5 +1,5 @@
 ---
-title: "Amos-Instinct-Pattern-Governor MOC"
+title: Amos-Instinct-Pattern-Governor MOC
 type: moc
 source: 07_SKILLS/amos-instinct-pattern-governor
 tags:

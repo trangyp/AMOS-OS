@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Canon / Infrastructure Canon / Index"
+title: Index MOC — Canon / Infrastructure Canon / Index
 type: moc
 source: 01_CANON/04_INFRASTRUCTURE_CANON/00_INDEX
 tags:

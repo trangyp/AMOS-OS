@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Digital Bank Value Proposition Rscf"
+title: Vault Domain Knowledge — Mckinsey Digital Bank Value Proposition Rscf
 type: reference
 source: 07_SKILLS/mckinsey-digital-bank-value-proposition-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Portable Agent Authorization Rscf"
+title: References MOC — References — Amos Portable Agent Authorization Rscf
 type: moc
 source: 07_SKILLS/amos-portable-agent-authorization-rscf/references
 tags:

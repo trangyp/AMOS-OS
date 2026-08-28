@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx Tensor Train Greeks Rscf Engine"
+title: Vault Domain Knowledge — Amos Fx Tensor Train Greeks Rscf Engine
 type: reference
 source: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine/references
 tags:

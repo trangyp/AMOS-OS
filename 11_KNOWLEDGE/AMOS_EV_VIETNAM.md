@@ -1,15 +1,15 @@
 ---
-title: "AMOS / TRANG — TOÀN CẢNH EV VIỆT NAM: MAX DETAIL MASTER"
+title: 'AMOS / TRANG — TOÀN CẢNH EV VIỆT NAM: MAX DETAIL MASTER'
 type: note
 source: 11_KNOWLEDGE
-subtitle: "UBI × ULF × PSI × QLS/QIC × QCLA × H/M/L × RSCF × Infrastructure Control Plane"
-origin_architect: "Trang Phan"
-source_artifact: "⭐ Toàn cảnh EV Việt Nam"
-runtime_alignment: "AMOS Full Brain OS + AMOS_CORE v4.4 reasoning lineage"
-version: "MAX_DETAIL_v1"
-date: "2026-08-25"
-language: "vi"
-status: "SOURCE_PRESERVED__AMOS_MODEL_OVERLAY__EMPIRICAL_FIREWALL_ACTIVE"
+subtitle: UBI × ULF × PSI × QLS/QIC × QCLA × H/M/L × RSCF × Infrastructure Control Plane
+origin_architect: Trang Phan
+source_artifact: ⭐ Toàn cảnh EV Việt Nam
+runtime_alignment: AMOS Full Brain OS + AMOS_CORE v4.4 reasoning lineage
+version: MAX_DETAIL_v1
+date: '2026-08-25'
+language: vi
+status: SOURCE_PRESERVED__AMOS_MODEL_OVERLAY__EMPIRICAL_FIREWALL_ACTIVE
 tags:
 - knowledge
 - note
@@ -20,6 +20,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # 0. Tuyên bố phạm vi và ranh giới bằng chứng

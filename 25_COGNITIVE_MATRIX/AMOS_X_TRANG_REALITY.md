@@ -1,16 +1,16 @@
 ---
-title: "AMOS × TRANG Reality"
+title: AMOS × TRANG Reality
 type: trang-framework
 source: 25_COGNITIVE_MATRIX
-artifact: "AMOS_X_TRANG_REALITY.md"
-artifact_id: "amos_25_cognitive_matrix_amos_x_trang_reality"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "ARTIFACT"
-path: "25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY.md"
+artifact: AMOS_X_TRANG_REALITY.md
+artifact_id: amos_25_cognitive_matrix_amos_x_trang_reality
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: ARTIFACT
+path: 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -38,16 +38,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

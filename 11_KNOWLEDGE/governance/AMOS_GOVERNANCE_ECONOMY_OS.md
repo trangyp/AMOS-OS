@@ -1,8 +1,8 @@
 ---
-title: "AMOS Governance Economy OS — Full Spec"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Governance Economy.txt"
-origin_architect: "Trang System"
+title: AMOS Governance Economy OS — Full Spec
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Governance Economy.txt
+origin_architect: Trang System
 type: reference
 tags:
 - canon-group/human-system
@@ -21,10 +21,10 @@ tags:
 - rscf/claim
 - rscf/provenance
 - topic/amos-governance-economy-os
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-source: "Google Drive /_00_AMOS_CANON/Governance Economy.txt (367 lines, JSON)"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
+source: Google Drive /_00_AMOS_CANON/Governance Economy.txt (367 lines, JSON)
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

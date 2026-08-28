@@ -149,6 +149,13 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme
 
+## Validation Gates
+
+- **L0 Integrity**: All 7 parts accounted for; no part silently dropped
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope; no scope creep
+- **L7 Authority**: No autonomous action beyond authority boundary
+
 ## Do not use
 
 - For generic structural analysis outside the 7-part canon framework

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Ssa-Ir-Compiler-Rscf MOC"
+title: Amos-Ssa-Ir-Compiler-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-ssa-ir-compiler-rscf
 tags:

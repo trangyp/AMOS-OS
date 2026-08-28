@@ -1,8 +1,8 @@
 ---
-title: "UBI Official Manual — 4 Biological Intelligence Domains"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/training/UBI_Official_Manual.pdf"
-origin_architect: "Trang Phan"
+title: UBI Official Manual — 4 Biological Intelligence Domains
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/training/UBI_Official_Manual.pdf
+origin_architect: Trang Phan
 type: training-manual
 source: 11_KNOWLEDGE/biology-ubi
 tags:
@@ -19,9 +19,9 @@ tags:
 - rscf/X-crossscale
 - topic/absolute-omniverse-model
 - biology-ubi
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

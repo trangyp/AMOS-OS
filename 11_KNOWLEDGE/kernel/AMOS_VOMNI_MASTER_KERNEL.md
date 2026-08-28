@@ -1,8 +1,8 @@
 ---
-title: "AMOS vOmni Master Kernel — All 33 Meta-Kernels"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_vOmni_KERNEL_v0.json"
-origin_architect: "Trang Phan"
+title: AMOS vOmni Master Kernel — All 33 Meta-Kernels
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_vOmni_KERNEL_v0.json
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/kernel
 tags:
@@ -18,9 +18,9 @@ tags:
 - rscf/X-crossscale
 - topic/vomni-kernel-model
 - kernel
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

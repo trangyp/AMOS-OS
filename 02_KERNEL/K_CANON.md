@@ -1,5 +1,5 @@
 ---
-title: "K_CANON — Canon Invariant Kernel"
+title: K_CANON — Canon Invariant Kernel
 type: kernel
 source: 02_KERNEL
 tags:

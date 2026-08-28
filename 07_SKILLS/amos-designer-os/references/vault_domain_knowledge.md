@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Designer Os"
+title: Vault Domain Knowledge — Amos Designer Os
 type: reference
 source: 07_SKILLS/amos-designer-os/references
 tags:

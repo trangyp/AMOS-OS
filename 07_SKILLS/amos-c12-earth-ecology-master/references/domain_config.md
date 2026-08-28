@@ -1,5 +1,5 @@
 ---
-title: "domain config — References — Amos C12 Earth Ecology Master"
+title: domain config — References — Amos C12 Earth Ecology Master
 type: reference
 source: 07_SKILLS/amos-c12-earth-ecology-master/references
 tags:

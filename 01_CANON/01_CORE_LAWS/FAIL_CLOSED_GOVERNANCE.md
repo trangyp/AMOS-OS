@@ -1,16 +1,16 @@
 ---
-title: "FAIL_CLOSED_GOVERNANCE Law"
+title: FAIL_CLOSED_GOVERNANCE Law
 type: core_law
-source: "01_CANON/01_CORE_LAWS"
-artifact: "FAIL_CLOSED_GOVERNANCE.md"
-artifact_id: "amos_01_canon_01_core_laws_fail_closed_governance"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/01_CORE_LAWS"
-artifact_kind: "CORE_LAW"
-path: "01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE.md"
+source: 01_CANON/01_CORE_LAWS
+artifact: FAIL_CLOSED_GOVERNANCE.md
+artifact_id: amos_01_canon_01_core_laws_fail_closed_governance
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/01_CORE_LAWS
+artifact_kind: CORE_LAW
+path: 01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE.md
 tags:
   - amos_os
   - canon
@@ -33,16 +33,16 @@ tags:
   - transactions
   - safety
   - canon/core
-version: "1.0.0"
-updated: "2026-08-28"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "SOURCE_BOUND"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_NORMALIZATION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-28'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: SOURCE_BOUND
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_NORMALIZATION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Sae Semantic Transport Rscf Engine"
+title: Vault Domain Knowledge — Amos Sae Semantic Transport Rscf Engine
 type: reference
 source: 07_SKILLS/amos-sae-semantic-transport-rscf-engine/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Heritage-Decision-Intelligence MOC"
+title: Amos-Heritage-Decision-Intelligence MOC
 type: moc
 source: 07_SKILLS/amos-heritage-decision-intelligence
 tags:

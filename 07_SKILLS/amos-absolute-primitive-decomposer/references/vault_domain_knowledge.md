@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Absolute Primitive Decomposer"
+title: Vault Domain Knowledge — Amos Absolute Primitive Decomposer
 type: reference
 source: 07_SKILLS/amos-absolute-primitive-decomposer/references
 tags:

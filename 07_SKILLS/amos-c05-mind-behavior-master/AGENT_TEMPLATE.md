@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C05 Mind Behavior Master"
+title: AGENT TEMPLATE — Amos C05 Mind Behavior Master
 type: note
 source: 07_SKILLS/amos-c05-mind-behavior-master
 tags:

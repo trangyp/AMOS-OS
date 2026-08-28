@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Tests / Index"
+title: Index MOC — Tests / Index
 type: moc
 source: 19_TESTS/00_INDEX
 tags:

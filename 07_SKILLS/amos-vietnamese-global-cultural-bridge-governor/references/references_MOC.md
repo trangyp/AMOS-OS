@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Vietnamese Global Cultural Bridge Governor"
+title: References MOC — References — Amos Vietnamese Global Cultural Bridge Governor
 type: moc
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
 tags:

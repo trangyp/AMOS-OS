@@ -1,16 +1,16 @@
 ---
-title: "ROUTING POLICY"
+title: ROUTING POLICY
 type: routing
-source: "25_COGNITIVE_MATRIX/10_ROUTING"
-artifact: "ROUTING_POLICY.md"
-artifact_id: "25_cognitive_matrix_10_routing_routing_policy"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX/10_ROUTING"
-artifact_kind: "ROUTING"
-path: "25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md"
+source: 25_COGNITIVE_MATRIX/10_ROUTING
+artifact: ROUTING_POLICY.md
+artifact_id: 25_cognitive_matrix_10_routing_routing_policy
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX/10_ROUTING
+artifact_kind: ROUTING
+path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
 tags:
   - 10_routing
   - 25_cognitive_matrix
@@ -24,15 +24,15 @@ tags:
   - routing_policy.md
   - rscf
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

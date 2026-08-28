@@ -1,5 +1,5 @@
 ---
-title: "UST Structure Tree"
+title: UST Structure Tree
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

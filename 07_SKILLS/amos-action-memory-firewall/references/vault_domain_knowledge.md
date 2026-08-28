@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Action Memory Firewall"
+title: Vault Domain Knowledge — Amos Action Memory Firewall
 type: reference
 source: 07_SKILLS/amos-action-memory-firewall/references
 tags:

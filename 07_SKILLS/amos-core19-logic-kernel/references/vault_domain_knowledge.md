@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Core19 Logic Kernel"
+title: Vault Domain Knowledge — Amos Core19 Logic Kernel
 type: reference
 source: 07_SKILLS/amos-core19-logic-kernel/references
 tags:

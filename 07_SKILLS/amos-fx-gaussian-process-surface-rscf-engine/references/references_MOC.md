@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Gaussian Process Surface Rscf Engine"
+title: References MOC — References — Amos Fx Gaussian Process Surface Rscf Engine
 type: moc
 source: 07_SKILLS/amos-fx-gaussian-process-surface-rscf-engine/references
 tags:

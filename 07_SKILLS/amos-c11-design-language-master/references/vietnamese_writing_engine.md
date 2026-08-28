@@ -1,5 +1,5 @@
 ---
-title: "Vietnamese Writing Engine — Amos C11 Design Language Master"
+title: Vietnamese Writing Engine — Amos C11 Design Language Master
 type: reference
 source: 07_SKILLS/amos-c11-design-language-master/references
 tags:

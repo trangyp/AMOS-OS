@@ -1,5 +1,5 @@
 ---
-title: "90 Anomaly Detection Modes MOC"
+title: 90 Anomaly Detection Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/90_ANOMALY_DETECTION_MODES
 tags:

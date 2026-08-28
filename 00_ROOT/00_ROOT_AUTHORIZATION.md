@@ -1,22 +1,22 @@
 ---
-title: "AMOS OS Root Authorization"
+title: AMOS OS Root Authorization
 type: note
 source: 00_ROOT
-artifact: "00_ROOT_AUTHORIZATION.md"
-artifact_id: "AMOS_AUTH_ROOT_000"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-domain: "AUTHORIZATION / CONTROL PLANE"
-artifact_class: "ROOT_AUTHORIZATION_SPECIFICATION"
-version: "1.0.0"
-updated: "2026-08-26"
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "UNKNOWN/GAP"
-validation_status: "UNKNOWN/GAP"
-active_root_authority: "UNBOUND"
+artifact: 00_ROOT_AUTHORIZATION.md
+artifact_id: AMOS_AUTH_ROOT_000
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+domain: AUTHORIZATION / CONTROL PLANE
+artifact_class: ROOT_AUTHORIZATION_SPECIFICATION
+version: 1.0.0
+updated: '2026-08-26'
+status: PROPOSED_SPECIFICATION
+epistemic_class: MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: UNKNOWN/GAP
+validation_status: UNKNOWN/GAP
+active_root_authority: UNBOUND
 tags:
 - note
 - 00-root

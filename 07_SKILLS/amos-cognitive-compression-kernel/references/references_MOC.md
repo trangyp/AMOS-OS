@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Cognitive Compression Kernel"
+title: References MOC — References — Amos Cognitive Compression Kernel
 type: moc
 source: 07_SKILLS/amos-cognitive-compression-kernel/references
 tags:

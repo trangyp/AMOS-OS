@@ -1,8 +1,8 @@
 ---
-title: "UBI vs AI — Biological vs Data-Driven Intelligence"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_Diagrams.pdf + The_Biological_Science_Behind_Buddhas_Teachings.pdf"
-origin_architect: "Trang Phan"
+title: UBI vs AI — Biological vs Data-Driven Intelligence
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_Diagrams.pdf + The_Biological_Science_Behind_Buddhas_Teachings.pdf
+origin_architect: Trang Phan
 type: comparison-reference
 source: 11_KNOWLEDGE/logic
 tags:
@@ -19,9 +19,9 @@ tags:
 - Buddhist-biology
 - logic
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

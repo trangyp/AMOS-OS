@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Frontend Engineering Qa"
+title: References MOC — References — Frontend Engineering Qa
 type: moc
 source: 07_SKILLS/frontend-engineering-qa/references
 tags:

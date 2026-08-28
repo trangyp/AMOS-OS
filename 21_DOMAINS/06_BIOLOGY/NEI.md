@@ -1,16 +1,16 @@
 ---
-title: "Neuroemotional Intelligence (NEI) Domain Engine"
+title: Neuroemotional Intelligence (NEI) Domain Engine
 type: domain
 source: 21_DOMAINS/06_BIOLOGY
-artifact: "NEI.md"
-artifact_id: "amos_21_domains_06_biology_nei"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "21_DOMAINS"
-segment: "21_DOMAINS/06_BIOLOGY"
-artifact_kind: "DOMAIN_ENGINE"
-path: "21_DOMAINS/06_BIOLOGY/NEI.md"
+artifact: NEI.md
+artifact_id: amos_21_domains_06_biology_nei
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 21_DOMAINS
+segment: 21_DOMAINS/06_BIOLOGY
+artifact_kind: DOMAIN_ENGINE
+path: 21_DOMAINS/06_BIOLOGY/NEI.md
 tags:
   - amos_os
   - domain
@@ -23,16 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/domain
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -46,11 +46,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   domain_knowledge:
-    artifact: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE"
+    artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE
   biological_master:
-    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE"
+    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
   matrix_binding:
-    artifact: "25_COGNITIVE_MATRIX/UBI_X_EMOTION"
+    artifact: 25_COGNITIVE_MATRIX/UBI_X_EMOTION
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

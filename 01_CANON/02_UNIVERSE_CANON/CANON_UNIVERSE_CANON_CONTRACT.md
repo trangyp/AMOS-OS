@@ -1,19 +1,19 @@
 ---
-title: "CANON UNIVERSE CANON CONTRACT"
-canonical_name: "CANON_UNIVERSE_CANON_CONTRACT"
+title: CANON UNIVERSE CANON CONTRACT
+canonical_name: CANON_UNIVERSE_CANON_CONTRACT
 type: canon
-source: "01_CANON/02_UNIVERSE_CANON"
-artifact: "CANON_UNIVERSE_CANON_CONTRACT.md"
-artifact_id: "amos_01_canon_02_universe_canon_canon_universe_canon_contract"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-plane_name: "CANON"
-segment: "01_CANON/02_UNIVERSE_CANON"
-segment_name: "02_UNIVERSE_CANON"
-artifact_kind: "CANON_CONTRACT"
-path: "01_CANON/02_UNIVERSE_CANON/CANON_UNIVERSE_CANON_CONTRACT.md"
+source: 01_CANON/02_UNIVERSE_CANON
+artifact: CANON_UNIVERSE_CANON_CONTRACT.md
+artifact_id: amos_01_canon_02_universe_canon_canon_universe_canon_contract
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+plane_name: CANON
+segment: 01_CANON/02_UNIVERSE_CANON
+segment_name: 02_UNIVERSE_CANON
+artifact_kind: CANON_CONTRACT
+path: 01_CANON/02_UNIVERSE_CANON/CANON_UNIVERSE_CANON_CONTRACT.md
 tags:
   - amos_os
   - canon
@@ -35,21 +35,21 @@ tags:
   - rscf
   - gmef
   - canon/universe
-version: "1.0.0-contract-candidate"
-updated: "2026-08-27"
-status: "CONDITIONAL"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CONDITIONAL"
-implementation_status: "PARTIAL"
-validation_status: "ARTIFACT_SPECIFIC_VALIDATION_NOT_ESTABLISHED"
-executable_binding: "PARTIAL_OR_NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 1.0.0-contract-candidate
+updated: '2026-08-27'
+status: CONDITIONAL
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+implementation_status: PARTIAL
+validation_status: ARTIFACT_SPECIFIC_VALIDATION_NOT_ESTABLISHED
+executable_binding: PARTIAL_OR_NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
-  provenance: "AMOS_corpus"
-  scope: "universe_canon"
-  regime: "CANON_UNIVERSE_CONTRACT"
+  provenance: AMOS_corpus
+  scope: universe_canon
+  regime: CANON_UNIVERSE_CONTRACT
   confidence_ceiling: 0.95
 governance:
   fail_closed_on_unknown_gap: true

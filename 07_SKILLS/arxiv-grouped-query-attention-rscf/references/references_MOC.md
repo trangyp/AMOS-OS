@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Grouped Query Attention Rscf"
+title: References MOC — References — Arxiv Grouped Query Attention Rscf
 type: moc
 source: 07_SKILLS/arxiv-grouped-query-attention-rscf/references
 tags:

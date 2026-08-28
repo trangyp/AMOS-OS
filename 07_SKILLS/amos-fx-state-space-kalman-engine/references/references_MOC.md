@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx State Space Kalman Engine"
+title: References MOC — References — Amos Fx State Space Kalman Engine
 type: moc
 source: 07_SKILLS/amos-fx-state-space-kalman-engine/references
 tags:

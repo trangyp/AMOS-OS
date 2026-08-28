@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos C05 Mind Behavior Master"
+title: Vault Domain Knowledge — Amos C05 Mind Behavior Master
 type: reference
 source: 07_SKILLS/amos-c05-mind-behavior-master/references
 tags:

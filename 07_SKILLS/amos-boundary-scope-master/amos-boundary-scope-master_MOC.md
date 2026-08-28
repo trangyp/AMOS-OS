@@ -1,5 +1,5 @@
 ---
-title: "Amos-Boundary-Scope-Master MOC"
+title: Amos-Boundary-Scope-Master MOC
 type: moc
 source: 07_SKILLS/amos-boundary-scope-master
 tags:

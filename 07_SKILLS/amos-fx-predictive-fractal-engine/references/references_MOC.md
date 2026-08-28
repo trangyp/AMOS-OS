@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Predictive Fractal Engine"
+title: References MOC — References — Amos Fx Predictive Fractal Engine
 type: moc
 source: 07_SKILLS/amos-fx-predictive-fractal-engine/references
 tags:

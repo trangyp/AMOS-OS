@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Tensor Train Greeks Rscf Engine"
+title: References MOC — References — Amos Fx Tensor Train Greeks Rscf Engine
 type: moc
 source: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine/references
 tags:

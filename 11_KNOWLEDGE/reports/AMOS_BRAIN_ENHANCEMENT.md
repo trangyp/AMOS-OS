@@ -1,5 +1,5 @@
 ---
-title: "AMOS BRAIN ENHANCEMENT — Reports"
+title: AMOS BRAIN ENHANCEMENT — Reports
 tags:
 - reports
 - report

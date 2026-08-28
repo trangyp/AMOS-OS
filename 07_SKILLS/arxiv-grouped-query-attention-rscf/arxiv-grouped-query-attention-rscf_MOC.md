@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Grouped-Query-Attention-Rscf MOC"
+title: Arxiv-Grouped-Query-Attention-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-grouped-query-attention-rscf
 tags:

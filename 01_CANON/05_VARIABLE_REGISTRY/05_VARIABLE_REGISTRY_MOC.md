@@ -1,5 +1,5 @@
 ---
-title: "05 Variable Registry MOC"
+title: 05 Variable Registry MOC
 type: moc
 source: 01_CANON/05_VARIABLE_REGISTRY
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "18 Lifecycle MOC"
+title: 18 Lifecycle MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/18_LIFECYCLE
 tags:

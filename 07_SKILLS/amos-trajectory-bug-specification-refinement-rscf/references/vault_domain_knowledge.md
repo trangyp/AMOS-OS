@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Trajectory Bug Specification Refinement Rscf"
+title: Vault Domain Knowledge — Amos Trajectory Bug Specification Refinement Rscf
 type: reference
 source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf/references
 tags:

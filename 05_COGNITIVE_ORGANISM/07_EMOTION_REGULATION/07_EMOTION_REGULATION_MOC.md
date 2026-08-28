@@ -1,5 +1,5 @@
 ---
-title: "07 Emotion Regulation MOC"
+title: 07 Emotion Regulation MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/07_EMOTION_REGULATION
 tags:

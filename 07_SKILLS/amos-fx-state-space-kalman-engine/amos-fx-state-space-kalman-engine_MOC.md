@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-State-Space-Kalman-Engine MOC"
+title: Amos-Fx-State-Space-Kalman-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-state-space-kalman-engine
 tags:

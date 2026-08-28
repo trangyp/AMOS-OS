@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Llm Judge Bias Geometry Rscf"
+title: References MOC — References — Amos Llm Judge Bias Geometry Rscf
 type: moc
 source: 07_SKILLS/amos-llm-judge-bias-geometry-rscf/references
 tags:

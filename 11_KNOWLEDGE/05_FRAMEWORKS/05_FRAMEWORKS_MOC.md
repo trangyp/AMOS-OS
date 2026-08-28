@@ -1,5 +1,5 @@
 ---
-title: "05 Frameworks MOC"
+title: 05 Frameworks MOC
 type: moc
 source: 11_KNOWLEDGE/05_FRAMEWORKS
 tags:

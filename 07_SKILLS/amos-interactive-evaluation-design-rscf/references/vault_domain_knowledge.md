@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Interactive Evaluation Design Rscf"
+title: Vault Domain Knowledge — Amos Interactive Evaluation Design Rscf
 type: reference
 source: 07_SKILLS/amos-interactive-evaluation-design-rscf/references
 tags:

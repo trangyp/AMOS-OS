@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Control Planes / C01 Governance / Index"
+title: Index MOC — Cognitive Matrix / Control Planes / C01 Governance / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C01_GOVERNANCE/00_INDEX
 tags:

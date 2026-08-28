@@ -1,5 +1,5 @@
 ---
-title: "06 Agents MOC"
+title: 06 Agents MOC
 type: moc
 source: 06_AGENTS
 tags:

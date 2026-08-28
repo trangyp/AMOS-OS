@@ -1,8 +1,8 @@
 ---
-title: "AMOS CIL — Canon Integration Layer"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/4.Canon Integration Layer-CIL.ucil.txt"
-origin_architect: "Trang Phan"
+title: AMOS CIL — Canon Integration Layer
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/4.Canon Integration Layer-CIL.ucil.txt
+origin_architect: Trang Phan
 type: reference
 tags:
 - canon-group/human-system
@@ -12,10 +12,10 @@ tags:
 - rscf/state/observation
 - topic/amos-cil-canon-integration-layer
 - amos-general
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-source: "Google Drive /_00_AMOS_CANON/4.Canon Integration Layer-CIL.ucil.txt"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
+source: Google Drive /_00_AMOS_CANON/4.Canon Integration Layer-CIL.ucil.txt
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

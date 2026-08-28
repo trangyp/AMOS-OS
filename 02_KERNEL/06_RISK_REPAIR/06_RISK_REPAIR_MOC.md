@@ -1,5 +1,5 @@
 ---
-title: "06 Risk Repair MOC"
+title: 06 Risk Repair MOC
 type: moc
 source: 02_KERNEL/06_RISK_REPAIR
 tags:

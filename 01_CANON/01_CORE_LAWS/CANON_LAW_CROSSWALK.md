@@ -1,20 +1,20 @@
 ---
-title: "Canon Law Crosswalk"
+title: Canon Law Crosswalk
 type: canon
 source: 01_CANON/01_CORE_LAWS
-artifact: "CANON_LAW_CROSSWALK.md"
-artifact_id: "amos_01_canon_01_core_laws_canon_law_crosswalk"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/01_CORE_LAWS"
-artifact_kind: "CROSSWALK"
-path: "01_CANON/01_CORE_LAWS/CANON_LAW_CROSSWALK.md"
+artifact: CANON_LAW_CROSSWALK.md
+artifact_id: amos_01_canon_01_core_laws_canon_law_crosswalk
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/01_CORE_LAWS
+artifact_kind: CROSSWALK
+path: 01_CANON/01_CORE_LAWS/CANON_LAW_CROSSWALK.md
 canon_group: amos_core
 schema_family: RSCF
 schema_role: CANON_CROSSWALK_RSCF
-schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
+schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
   - amos_os
   - canon
@@ -35,19 +35,19 @@ tags:
   - rscf
   - canon/universe
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-crosswalk_population_status: "PARTIAL_TARGET_MODEL"
-native_law_inventory_status: "NOT_ESTABLISHED"
-native_mapping_status: "NOT_ESTABLISHED"
-conflict_resolution_status: "NOT_ESTABLISHED"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+crosswalk_population_status: PARTIAL_TARGET_MODEL
+native_law_inventory_status: NOT_ESTABLISHED
+native_mapping_status: NOT_ESTABLISHED
+conflict_resolution_status: NOT_ESTABLISHED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

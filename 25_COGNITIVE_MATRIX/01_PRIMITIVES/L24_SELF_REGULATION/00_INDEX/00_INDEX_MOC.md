@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L24 Self Regulation / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L24 Self Regulation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L24_SELF_REGULATION/00_INDEX
 tags:

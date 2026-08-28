@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx Threshold Vecm Rscf Engine"
+title: Vault Domain Knowledge — Amos Fx Threshold Vecm Rscf Engine
 type: reference
 source: 07_SKILLS/amos-fx-threshold-vecm-rscf-engine/references
 tags:

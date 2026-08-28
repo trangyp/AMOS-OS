@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Information Geometry Mapper"
+title: Vault Domain Knowledge — Amos Information Geometry Mapper
 type: reference
 source: 07_SKILLS/amos-information-geometry-mapper/references
 tags:

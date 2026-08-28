@@ -1,11 +1,11 @@
 ---
-title: "AMOS Tech Quantum Engine vInfinity"
+title: AMOS Tech Quantum Engine vInfinity
 type: quantum
 source: 11_KNOWLEDGE/quantum
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Quantum_Engine_v0.json (5,389 lines, 196KB)"
-origin_type: "SOURCE"
-category: "kernel"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Tech/AMOS_Tech_Quantum_Engine_v0.json (5,389 lines, 196KB)
+origin_type: SOURCE
+category: kernel
 tags:
 - amos
 - tech

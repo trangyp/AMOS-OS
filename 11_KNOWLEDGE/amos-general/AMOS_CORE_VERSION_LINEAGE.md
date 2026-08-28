@@ -1,8 +1,8 @@
 ---
-title: "AMOS Core Version Lineage — Amos General"
-created: "2026-08-22"
-origin: "AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json"
-origin_architect: "Trang Phan"
+title: AMOS Core Version Lineage — Amos General
+created: '2026-08-22'
+origin: AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json
+origin_architect: Trang Phan
 type: reference
 tags:
 - canon-group/human-system
@@ -12,10 +12,10 @@ tags:
 - rscf/state/observation
 - topic/amos-core-version-lineage
 - amos-general
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-source: "Google Drive — AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json (compiled 2026-08-14)"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
+source: Google Drive — AMOS_CORE_ALL_VERSIONS_EXHAUSTIVE_MASTER.json (compiled 2026-08-14)
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

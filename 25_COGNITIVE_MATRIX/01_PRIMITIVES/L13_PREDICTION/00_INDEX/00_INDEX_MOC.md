@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L13 Prediction / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L13 Prediction / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L13_PREDICTION/00_INDEX
 tags:

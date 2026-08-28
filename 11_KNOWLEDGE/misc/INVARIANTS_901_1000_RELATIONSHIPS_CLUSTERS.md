@@ -1,8 +1,8 @@
 ---
-title: "Invariants 901–1000: Relationships & Clusters (with equations)"
-created: "2026-08-22"
-origin: "AMOS brain knowledge ingest — Google Drive / external formalization"
-origin_architect: "Trang Phan / AMOS"
+title: 'Invariants 901–1000: Relationships & Clusters (with equations)'
+created: '2026-08-22'
+origin: AMOS brain knowledge ingest — Google Drive / external formalization
+origin_architect: Trang Phan / AMOS
 type: reference
 tags:
 - canon-group/human-system
@@ -12,16 +12,17 @@ tags:
 - rscf/state/observation
 - topic/invariants-901-1000-relationships-cluste
 - misc
-status: "active"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
-source: "Ingest batch 2026-08-22"
+status: active
+provenance: OBSERVATION
+confidence: VERIFIED
+source: Ingest batch 2026-08-22
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 
 
 # Invariants 901–1000: Relationships & Clusters

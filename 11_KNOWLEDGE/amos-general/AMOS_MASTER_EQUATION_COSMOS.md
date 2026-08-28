@@ -1,8 +1,8 @@
 ---
-title: "AMOS Master Equation Cosmos — Ultimate Completion"
-created: "2026-08-22"
-origin: "Google Drive — Projects/01_BRAIN/AMOS_MASTER_EQUATION_COSMOS_COMPLETE.md"
-origin_architect: "Trang Phan"
+title: AMOS Master Equation Cosmos — Ultimate Completion
+created: '2026-08-22'
+origin: Google Drive — Projects/01_BRAIN/AMOS_MASTER_EQUATION_COSMOS_COMPLETE.md
+origin_architect: Trang Phan
 type: system-report
 source: 11_KNOWLEDGE/amos-general
 tags:
@@ -16,9 +16,9 @@ tags:
 - rscf/X-crossscale
 - topic/master-equation
 - amos-general
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

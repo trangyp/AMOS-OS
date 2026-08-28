@@ -1,5 +1,5 @@
 ---
-title: "02 Kernel MOC"
+title: 02 Kernel MOC
 type: moc
 source: 02_KERNEL
 tags:

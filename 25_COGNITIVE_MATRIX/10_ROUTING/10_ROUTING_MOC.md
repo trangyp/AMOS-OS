@@ -1,5 +1,5 @@
 ---
-title: "10 Routing MOC"
+title: 10 Routing MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/10_ROUTING
 tags:

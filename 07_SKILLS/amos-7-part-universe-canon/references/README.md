@@ -1,5 +1,5 @@
 ---
-title: "README — References — Amos 7 Part Universe Canon"
+title: README — References — Amos 7 Part Universe Canon
 type: note
 source: 07_SKILLS/amos-7-part-universe-canon/references
 tags:

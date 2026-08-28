@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Memory Conflict Governor"
+title: Vault Domain Knowledge — Amos Memory Conflict Governor
 type: reference
 source: 07_SKILLS/amos-memory-conflict-governor/references
 tags:

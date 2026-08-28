@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Autonomous-Scientific-Knowledge-Rscf MOC"
+title: Amos-Arxiv-Autonomous-Scientific-Knowledge-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf
 tags:

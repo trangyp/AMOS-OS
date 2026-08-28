@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Os Runtime Master"
+title: References MOC — References — Amos Os Runtime Master
 type: moc
 source: 07_SKILLS/amos-os-runtime-master/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Knowledge-Harvest-Runtime MOC"
+title: Amos-Knowledge-Harvest-Runtime MOC
 type: moc
 source: 07_SKILLS/amos-knowledge-harvest-runtime
 tags:

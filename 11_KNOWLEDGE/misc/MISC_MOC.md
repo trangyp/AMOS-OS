@@ -1,5 +1,5 @@
 ---
-title: "Misc MOC"
+title: Misc MOC
 type: moc
 source: 11_KNOWLEDGE/misc
 tags:

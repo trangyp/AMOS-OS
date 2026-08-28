@@ -1,8 +1,8 @@
 ---
-title: "AMOS ABI and IO Test Expansion"
-created: "2026-08-23"
-origin: "Hermes ↔ Cosmo Brain"
-origin_architect: "Trang Phan"
+title: AMOS ABI and IO Test Expansion
+created: '2026-08-23'
+origin: Hermes ↔ Cosmo Brain
+origin_architect: Trang Phan
 type: note
 source: 11_KNOWLEDGE/dated
 tags:
@@ -18,9 +18,9 @@ tags:
 - dated
 - dated/2026-08-23
 - canon/knowledge
-status: "verified"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
+status: verified
+provenance: OBSERVATION
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

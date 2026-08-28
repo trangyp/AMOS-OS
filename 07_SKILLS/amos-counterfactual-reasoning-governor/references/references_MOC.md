@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Counterfactual Reasoning Governor"
+title: References MOC — References — Amos Counterfactual Reasoning Governor
 type: moc
 source: 07_SKILLS/amos-counterfactual-reasoning-governor/references
 tags:

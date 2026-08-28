@@ -1,5 +1,5 @@
 ---
-title: "O03 Binding MOC"
+title: O03 Binding MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O03_BINDING
 tags:

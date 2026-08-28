@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Healthcare-Strategy-Rscf MOC"
+title: Mckinsey-Healthcare-Strategy-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-healthcare-strategy-rscf
 tags:

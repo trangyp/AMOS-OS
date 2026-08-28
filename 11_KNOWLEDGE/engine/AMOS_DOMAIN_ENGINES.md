@@ -1,8 +1,8 @@
 ---
-title: "AMOS Domain Engines — Full Inventory"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Domains/"
-origin_architect: "Trang Phan"
+title: AMOS Domain Engines — Full Inventory
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Domains/
+origin_architect: Trang Phan
 type: reference
 tags:
 - canon-group/tech-ai
@@ -21,10 +21,10 @@ tags:
 - vietnamese-writing
 - engine
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-source: "Google Drive /_00_AMOS_CANON/Domains/ (4 subfolders, 15 engine JSON files)"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
+source: Google Drive /_00_AMOS_CANON/Domains/ (4 subfolders, 15 engine JSON files)
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -1,5 +1,5 @@
 ---
-title: "39 Politics Power MOC"
+title: 39 Politics Power MOC
 type: moc
 source: 21_DOMAINS/39_POLITICS_POWER
 tags:

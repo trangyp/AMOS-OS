@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Reality Meta Law Auditor"
+title: Vault Domain Knowledge — Amos Reality Meta Law Auditor
 type: reference
 source: 07_SKILLS/amos-reality-meta-law-auditor/references
 tags:

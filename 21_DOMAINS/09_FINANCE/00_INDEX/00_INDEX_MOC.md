@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Finance / Index"
+title: Index MOC — Domains / Finance / Index
 type: moc
 source: 21_DOMAINS/09_FINANCE/00_INDEX
 tags:

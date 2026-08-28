@@ -1,5 +1,5 @@
 ---
-title: "C08 Execution MOC"
+title: C08 Execution MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION
 tags:

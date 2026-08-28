@@ -1,5 +1,5 @@
 ---
-title: "K_CAS — Compare-And-Swap State Transition Kernel"
+title: K_CAS — Compare-And-Swap State Transition Kernel
 type: kernel
 source: 02_KERNEL
 tags:

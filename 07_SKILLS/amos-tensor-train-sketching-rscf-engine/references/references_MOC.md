@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Tensor Train Sketching Rscf Engine"
+title: References MOC — References — Amos Tensor Train Sketching Rscf Engine
 type: moc
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine/references
 tags:

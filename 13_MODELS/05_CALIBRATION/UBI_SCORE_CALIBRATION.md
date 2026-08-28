@@ -1,16 +1,16 @@
 ---
-title: "UBI Score Calibration"
+title: UBI Score Calibration
 type: note
 source: 13_MODELS/05_CALIBRATION
-artifact: "UBI_SCORE_CALIBRATION.md"
-artifact_id: "amos_13_models_05_calibration_ubi_score_calibration"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "13_MODELS"
-segment: "13_MODELS/05_CALIBRATION"
-artifact_kind: "CALIBRATION"
-path: "13_MODELS/05_CALIBRATION/UBI_SCORE_CALIBRATION.md"
+artifact: UBI_SCORE_CALIBRATION.md
+artifact_id: amos_13_models_05_calibration_ubi_score_calibration
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 13_MODELS
+segment: 13_MODELS/05_CALIBRATION
+artifact_kind: CALIBRATION
+path: 13_MODELS/05_CALIBRATION/UBI_SCORE_CALIBRATION.md
 tags:
 - amos_os
 - model
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/model
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

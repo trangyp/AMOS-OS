@@ -1,5 +1,5 @@
 ---
-title: "10 Maintenance MOC"
+title: 10 Maintenance MOC
 type: moc
 source: 20_OPERATIONS/10_MAINTENANCE
 tags:

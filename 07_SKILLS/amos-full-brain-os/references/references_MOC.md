@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Full Brain Os"
+title: References MOC — References — Amos Full Brain Os
 type: moc
 source: 07_SKILLS/amos-full-brain-os/references
 tags:

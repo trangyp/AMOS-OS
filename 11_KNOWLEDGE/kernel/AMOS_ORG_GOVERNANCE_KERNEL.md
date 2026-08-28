@@ -1,8 +1,8 @@
 ---
-title: "AMOS Org Governance Kernel — 10 Task Types × 5 Org Sizes × 6 Ownership Types"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Org_Governance_Engine_v0.json"
-origin_architect: "Trang Phan"
+title: AMOS Org Governance Kernel — 10 Task Types × 5 Org Sizes × 6 Ownership Types
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Governance_Risk/AMOS_Org_Governance_Engine_v0.json
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/kernel
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/B-boundary
 - topic/org-governance-model
 - kernel
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

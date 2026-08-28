@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Workflows / Index"
+title: Index MOC — Workflows / Index
 type: moc
 source: 08_WORKFLOWS/00_INDEX
 tags:

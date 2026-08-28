@@ -1,5 +1,5 @@
 ---
-title: "30 Clinical Research MOC"
+title: 30 Clinical Research MOC
 type: moc
 source: 21_DOMAINS/30_CLINICAL_RESEARCH
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Flow Matching Generative Rscf"
+title: Vault Domain Knowledge — Arxiv Flow Matching Generative Rscf
 type: reference
 source: 07_SKILLS/arxiv-flow-matching-generative-rscf/references
 tags:

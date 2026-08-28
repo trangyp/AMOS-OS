@@ -1,7 +1,7 @@
 ---
 title: L3 DEPENDENCY
 type: note
-source: "01_CANON/01_CORE_LAWS"
+source: 01_CANON/01_CORE_LAWS
 rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL

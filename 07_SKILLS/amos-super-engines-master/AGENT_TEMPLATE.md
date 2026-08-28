@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos Super Engines Master"
+title: AGENT TEMPLATE — Amos Super Engines Master
 type: note
 source: 07_SKILLS/amos-super-engines-master
 tags:

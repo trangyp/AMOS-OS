@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Context Budget Governor Rscf"
+title: Vault Domain Knowledge — Amos Context Budget Governor Rscf
 type: reference
 source: 07_SKILLS/amos-context-budget-governor-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Autonomous Scientific Knowledge Rscf"
+title: References MOC — References — Amos Arxiv Autonomous Scientific Knowledge Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-autonomous-scientific-knowledge-rscf/references
 tags:

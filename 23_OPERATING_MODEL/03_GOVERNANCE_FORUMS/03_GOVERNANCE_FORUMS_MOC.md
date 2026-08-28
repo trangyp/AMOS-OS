@@ -1,5 +1,5 @@
 ---
-title: "03 Governance Forums MOC"
+title: 03 Governance Forums MOC
 type: moc
 source: 23_OPERATING_MODEL/03_GOVERNANCE_FORUMS
 tags:

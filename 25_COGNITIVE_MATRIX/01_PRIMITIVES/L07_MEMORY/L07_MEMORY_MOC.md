@@ -1,5 +1,5 @@
 ---
-title: "L07 Memory MOC"
+title: L07 Memory MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY
 tags:

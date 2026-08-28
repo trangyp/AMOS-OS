@@ -1,16 +1,16 @@
 ---
-title: "Bio-Logical Computing Canon"
+title: Bio-Logical Computing Canon
 type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
-artifact: "BIO_LOGICAL_COMPUTING_CANON.md"
-artifact_id: "amos_01_canon_04_infrastructure_canon_bio_logical_computing_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/04_INFRASTRUCTURE_CANON"
-artifact_kind: "LOG"
-path: "01_CANON/04_INFRASTRUCTURE_CANON/BIO_LOGICAL_COMPUTING_CANON.md"
+artifact: BIO_LOGICAL_COMPUTING_CANON.md
+artifact_id: amos_01_canon_04_infrastructure_canon_bio_logical_computing_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/04_INFRASTRUCTURE_CANON
+artifact_kind: LOG
+path: 01_CANON/04_INFRASTRUCTURE_CANON/BIO_LOGICAL_COMPUTING_CANON.md
 tags:
 - amos_os
 - canon
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

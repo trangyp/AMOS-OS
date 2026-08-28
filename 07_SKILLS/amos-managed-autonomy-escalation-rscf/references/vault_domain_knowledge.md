@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Managed Autonomy Escalation Rscf"
+title: Vault Domain Knowledge — Amos Managed Autonomy Escalation Rscf
 type: reference
 source: 07_SKILLS/amos-managed-autonomy-escalation-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Technology Product Governance Rscf"
+title: Vault Domain Knowledge — Mckinsey Technology Product Governance Rscf
 type: reference
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf/references
 tags:

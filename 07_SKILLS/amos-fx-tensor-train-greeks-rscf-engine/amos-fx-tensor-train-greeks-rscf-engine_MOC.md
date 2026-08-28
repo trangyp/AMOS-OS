@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Tensor-Train-Greeks-Rscf-Engine MOC"
+title: Amos-Fx-Tensor-Train-Greeks-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine
 tags:

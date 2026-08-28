@@ -1,16 +1,16 @@
 ---
-title: "Cosmo Brain to AMOS OS Binding"
+title: Cosmo Brain to AMOS OS Binding
 type: brain
 source: 00_ROOT
-artifact: "COSMO_BRAIN_TO_AMOS_OS_BINDING.md"
-artifact_id: "amos_00_root_cosmo_brain_to_amos_os_binding"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "00_ROOT"
-segment: "00_ROOT"
-artifact_kind: "BINDING"
-path: "00_ROOT/COSMO_BRAIN_TO_AMOS_OS_BINDING.md"
+artifact: COSMO_BRAIN_TO_AMOS_OS_BINDING.md
+artifact_id: amos_00_root_cosmo_brain_to_amos_os_binding
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 00_ROOT
+segment: 00_ROOT
+artifact_kind: BINDING
+path: 00_ROOT/COSMO_BRAIN_TO_AMOS_OS_BINDING.md
 tags:
 - amos_os
 - root
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/root
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

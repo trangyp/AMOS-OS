@@ -1,5 +1,5 @@
 ---
-title: "Amos-Repository-Knowledge-Acquisition-Rscf MOC"
+title: Amos-Repository-Knowledge-Acquisition-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-repository-knowledge-acquisition-rscf
 tags:

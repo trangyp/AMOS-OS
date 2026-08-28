@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Bluebook Strategy System"
+title: References MOC — References — Bluebook Strategy System
 type: moc
 source: 07_SKILLS/bluebook-strategy-system/references
 tags:

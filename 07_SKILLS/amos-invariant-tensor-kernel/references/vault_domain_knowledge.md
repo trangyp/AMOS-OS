@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Invariant Tensor Kernel"
+title: Vault Domain Knowledge — Amos Invariant Tensor Kernel
 type: reference
 source: 07_SKILLS/amos-invariant-tensor-kernel/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "08 Structural Gaps MOC"
+title: 08 Structural Gaps MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/08_STRUCTURAL_GAPS
 tags:

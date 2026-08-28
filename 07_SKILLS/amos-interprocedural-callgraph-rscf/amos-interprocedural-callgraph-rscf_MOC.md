@@ -1,5 +1,5 @@
 ---
-title: "Amos-Interprocedural-Callgraph-Rscf MOC"
+title: Amos-Interprocedural-Callgraph-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-interprocedural-callgraph-rscf
 tags:

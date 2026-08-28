@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Ai Entropy Rscf Engine"
+title: References MOC — References — Amos Ai Entropy Rscf Engine
 type: moc
 source: 07_SKILLS/amos-ai-entropy-rscf-engine/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "33 Organizational Behavior MOC"
+title: 33 Organizational Behavior MOC
 type: moc
 source: 21_DOMAINS/33_ORGANIZATIONAL_BEHAVIOR
 tags:

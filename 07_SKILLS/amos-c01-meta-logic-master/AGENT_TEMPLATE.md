@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C01 Meta Logic Master"
+title: AGENT TEMPLATE — Amos C01 Meta Logic Master
 type: note
 source: 07_SKILLS/amos-c01-meta-logic-master
 tags:

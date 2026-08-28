@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Human Biology Fractal Rscf Engine"
+title: References MOC — References — Amos Human Biology Fractal Rscf Engine
 type: moc
 source: 07_SKILLS/amos-human-biology-fractal-rscf-engine/references
 tags:

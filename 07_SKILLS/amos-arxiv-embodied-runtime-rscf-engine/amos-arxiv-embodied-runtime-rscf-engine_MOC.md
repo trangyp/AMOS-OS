@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Embodied-Runtime-Rscf-Engine MOC"
+title: Amos-Arxiv-Embodied-Runtime-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-embodied-runtime-rscf-engine
 tags:

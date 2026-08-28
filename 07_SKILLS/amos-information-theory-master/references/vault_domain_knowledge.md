@@ -9,13 +9,13 @@ tags:
 - rscf
 - governance
 - canon/skill
-title: "L6 Uncertainty Laws — References"
-origin_architect: "Trang Phan"
-updated: "2026-08-26"
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CONDITIONAL"
-implementation_status: "LOGIC_EXECUTABLE_IN_PART"
+title: L6 Uncertainty Laws — References
+origin_architect: Trang Phan
+updated: '2026-08-26'
+status: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+implementation_status: LOGIC_EXECUTABLE_IN_PART
 type: document
 source: 07_SKILLS/amos-information-theory-master/references
 rscf:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Mechmath-Research-Orchestration-Rscf MOC"
+title: Amos-Mechmath-Research-Orchestration-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-mechmath-research-orchestration-rscf
 tags:

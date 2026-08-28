@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L07 Memory / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L07 Memory / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY/00_INDEX
 tags:

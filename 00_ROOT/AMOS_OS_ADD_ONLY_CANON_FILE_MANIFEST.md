@@ -1,5 +1,5 @@
 ---
-title: "AMOS OS — ADD-ONLY Canon File Manifest"
+title: AMOS OS — ADD-ONLY Canon File Manifest
 type: canon
 source: 00_ROOT
 artifact: AMOS_OS_ADD_ONLY_CANON_FILE_MANIFEST.md

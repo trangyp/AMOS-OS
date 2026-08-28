@@ -1,5 +1,5 @@
 ---
-title: "O13 Decision MOC"
+title: O13 Decision MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O13_DECISION
 tags:

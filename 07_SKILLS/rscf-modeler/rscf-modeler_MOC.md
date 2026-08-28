@@ -1,5 +1,5 @@
 ---
-title: "Rscf-Modeler MOC"
+title: Rscf-Modeler MOC
 type: moc
 source: 07_SKILLS/rscf-modeler
 tags:

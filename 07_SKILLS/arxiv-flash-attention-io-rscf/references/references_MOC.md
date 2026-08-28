@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Flash Attention Io Rscf"
+title: References MOC — References — Arxiv Flash Attention Io Rscf
 type: moc
 source: 07_SKILLS/arxiv-flash-attention-io-rscf/references
 tags:

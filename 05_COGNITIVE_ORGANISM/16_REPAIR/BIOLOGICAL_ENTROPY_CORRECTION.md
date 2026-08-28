@@ -1,16 +1,16 @@
 ---
-title: "Biological Entropy Correction"
+title: Biological Entropy Correction
 type: biology
 source: 05_COGNITIVE_ORGANISM/16_REPAIR
-artifact: "BIOLOGICAL_ENTROPY_CORRECTION.md"
-artifact_id: "amos_05_cognitive_organism_16_repair_biological_entropy_correction"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "05_COGNITIVE_ORGANISM"
-segment: "05_COGNITIVE_ORGANISM/16_REPAIR"
-artifact_kind: "ARTIFACT"
-path: "05_COGNITIVE_ORGANISM/16_REPAIR/BIOLOGICAL_ENTROPY_CORRECTION.md"
+artifact: BIOLOGICAL_ENTROPY_CORRECTION.md
+artifact_id: amos_05_cognitive_organism_16_repair_biological_entropy_correction
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 05_COGNITIVE_ORGANISM
+segment: 05_COGNITIVE_ORGANISM/16_REPAIR
+artifact_kind: ARTIFACT
+path: 05_COGNITIVE_ORGANISM/16_REPAIR/BIOLOGICAL_ENTROPY_CORRECTION.md
 tags:
 - amos_os
 - cognitive
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/cognitive
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

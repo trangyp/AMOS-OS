@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Rag-Evaluation-Rscf MOC"
+title: Arxiv-Rag-Evaluation-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-rag-evaluation-rscf
 tags:

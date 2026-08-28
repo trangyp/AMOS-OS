@@ -1,5 +1,5 @@
 ---
-title: "Amos-Memory-Systems-Master MOC"
+title: Amos-Memory-Systems-Master MOC
 type: moc
 source: 07_SKILLS/amos-memory-systems-master
 tags:

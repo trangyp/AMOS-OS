@@ -1,5 +1,5 @@
 ---
-title: "Amos-Counterfactual-Selfhood-Mapper MOC"
+title: Amos-Counterfactual-Selfhood-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper
 tags:

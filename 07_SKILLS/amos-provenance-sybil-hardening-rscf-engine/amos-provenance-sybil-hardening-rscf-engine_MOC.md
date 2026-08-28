@@ -1,5 +1,5 @@
 ---
-title: "Amos-Provenance-Sybil-Hardening-Rscf-Engine MOC"
+title: Amos-Provenance-Sybil-Hardening-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine
 tags:

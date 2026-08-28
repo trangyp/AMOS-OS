@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Ttstack Sketching Rscf Engine"
+title: References MOC — References — Amos Arxiv Ttstack Sketching Rscf Engine
 type: moc
 source: 07_SKILLS/amos-arxiv-ttstack-sketching-rscf-engine/references
 tags:

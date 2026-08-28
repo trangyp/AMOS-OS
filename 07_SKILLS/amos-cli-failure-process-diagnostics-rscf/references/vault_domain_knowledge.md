@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Cli Failure Process Diagnostics Rscf"
+title: Vault Domain Knowledge — Amos Cli Failure Process Diagnostics Rscf
 type: reference
 source: 07_SKILLS/amos-cli-failure-process-diagnostics-rscf/references
 tags:

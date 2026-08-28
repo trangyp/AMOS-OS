@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L22 Consolidation / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L22 Consolidation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L22_CONSOLIDATION/00_INDEX
 tags:

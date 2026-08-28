@@ -1,5 +1,5 @@
 ---
-title: "Docx MOC"
+title: Docx MOC
 type: moc
 source: 07_SKILLS/docx
 tags:

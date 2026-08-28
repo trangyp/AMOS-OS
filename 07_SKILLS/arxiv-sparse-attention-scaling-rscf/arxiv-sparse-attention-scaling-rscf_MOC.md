@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Sparse-Attention-Scaling-Rscf MOC"
+title: Arxiv-Sparse-Attention-Scaling-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf
 tags:

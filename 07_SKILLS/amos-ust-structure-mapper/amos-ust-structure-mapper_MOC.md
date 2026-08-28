@@ -1,5 +1,5 @@
 ---
-title: "Amos-Ust-Structure-Mapper MOC"
+title: Amos-Ust-Structure-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-ust-structure-mapper
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Ast-Control-Dataflow-Rscf-Engine MOC"
+title: Amos-Ast-Control-Dataflow-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine
 tags:

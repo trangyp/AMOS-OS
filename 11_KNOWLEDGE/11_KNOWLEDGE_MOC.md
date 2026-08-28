@@ -1,5 +1,5 @@
 ---
-title: "11_KNOWLEDGE MOC (Knowledge Plane Map of Content)"
+title: 11_KNOWLEDGE MOC (Knowledge Plane Map of Content)
 type: moc
 source: 11_KNOWLEDGE
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Universal Coordinate System"
+title: Vault Domain Knowledge — Amos Universal Coordinate System
 type: reference
 source: 07_SKILLS/amos-universal-coordinate-system/references
 tags:

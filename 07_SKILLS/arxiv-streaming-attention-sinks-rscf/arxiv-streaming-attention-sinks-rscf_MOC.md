@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Streaming-Attention-Sinks-Rscf MOC"
+title: Arxiv-Streaming-Attention-Sinks-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-streaming-attention-sinks-rscf
 tags:

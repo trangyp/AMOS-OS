@@ -121,6 +121,13 @@ This skill governs the execution of structural lifecycle modeling and predictive
   - **Input**: Strategic direction decision
   - **Output**: TPE 7-layer foresight analysis, competing forecast branches (COMPETING, no forced convergence), falsification conditions per branch, signed playbook with rollback paths
 
+## Validation Gates
+
+- **L0 Integrity**: All structural elements accounted for; no silent gaps
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope and domain
+- **L7 Authority**: No autonomous action beyond authority boundary
+
 ## Do not use
 
 - For generic strategic analysis outside TSS/TPE framework

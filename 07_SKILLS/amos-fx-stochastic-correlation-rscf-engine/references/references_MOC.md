@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Stochastic Correlation Rscf Engine"
+title: References MOC — References — Amos Fx Stochastic Correlation Rscf Engine
 type: moc
 source: 07_SKILLS/amos-fx-stochastic-correlation-rscf-engine/references
 tags:

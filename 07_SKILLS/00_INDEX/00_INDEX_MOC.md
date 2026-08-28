@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Skills / Index"
+title: Index MOC — Skills / Index
 type: moc
 source: 07_SKILLS/00_INDEX
 tags:

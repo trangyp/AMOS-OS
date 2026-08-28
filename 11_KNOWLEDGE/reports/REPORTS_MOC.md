@@ -1,5 +1,5 @@
 ---
-title: "Reports MOC"
+title: Reports MOC
 type: moc
 source: 11_KNOWLEDGE/reports
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "06 Cell Contracts MOC"
+title: 06 Cell Contracts MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/06_CELL_CONTRACTS
 tags:

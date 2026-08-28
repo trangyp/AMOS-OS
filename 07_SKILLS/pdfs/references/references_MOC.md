@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Pdfs"
+title: References MOC — References — Pdfs
 type: moc
 source: 07_SKILLS/pdfs/references
 tags:

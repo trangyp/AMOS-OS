@@ -1,5 +1,5 @@
 ---
-title: "K_CORE_LAWS — Core Laws Dispatch Kernel"
+title: K_CORE_LAWS — Core Laws Dispatch Kernel
 type: kernel
 source: 02_KERNEL
 tags:

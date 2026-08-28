@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Learning Memory Knowledge Feedback Governor"
+title: References MOC — References — Amos Learning Memory Knowledge Feedback Governor
 type: moc
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references
 tags:

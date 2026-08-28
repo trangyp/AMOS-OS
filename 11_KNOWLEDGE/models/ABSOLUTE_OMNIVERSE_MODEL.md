@@ -1,7 +1,7 @@
 ---
-title: "AMOS Absolute Omniverse Model"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: AMOS Absolute Omniverse Model
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: brain-model
 source: 11_KNOWLEDGE/models
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/derived
 - topic/absolute-omniverse-model
 - models
-status: "active"
-provenance: "ABSOLUTE OMNIVERSE U∞.txt"
-confidence: "STRUCTURAL"
+status: active
+provenance: ABSOLUTE OMNIVERSE U∞.txt
+confidence: STRUCTURAL
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

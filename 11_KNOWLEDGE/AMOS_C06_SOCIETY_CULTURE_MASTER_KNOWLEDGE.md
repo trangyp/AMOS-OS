@@ -12,7 +12,7 @@ canon_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
 language: en
 architecture: HML_fractal_single_file
 placeholder_status: NONE
-version: '1.0'
+version: 1.0
 tags:
 - knowledge
 - note
@@ -23,6 +23,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Geometric-Causal-Models-Rscf MOC"
+title: Arxiv-Geometric-Causal-Models-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-geometric-causal-models-rscf
 tags:

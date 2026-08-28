@@ -1,5 +1,5 @@
 ---
-title: "26 Validation Modes MOC"
+title: 26 Validation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/26_VALIDATION_MODES
 tags:

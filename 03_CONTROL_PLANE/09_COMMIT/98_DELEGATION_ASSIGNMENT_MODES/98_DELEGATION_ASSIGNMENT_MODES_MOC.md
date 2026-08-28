@@ -1,5 +1,5 @@
 ---
-title: "98 Delegation Assignment Modes MOC"
+title: 98 Delegation Assignment Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/98_DELEGATION_ASSIGNMENT_MODES
 tags:

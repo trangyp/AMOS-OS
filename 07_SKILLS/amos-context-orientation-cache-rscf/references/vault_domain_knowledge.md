@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Context Orientation Cache Rscf"
+title: Vault Domain Knowledge — Amos Context Orientation Cache Rscf
 type: reference
 source: 07_SKILLS/amos-context-orientation-cache-rscf/references
 tags:

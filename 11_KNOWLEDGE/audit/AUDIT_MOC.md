@@ -1,5 +1,5 @@
 ---
-title: "Audit MOC"
+title: Audit MOC
 type: moc
 source: 11_KNOWLEDGE/audit
 tags:

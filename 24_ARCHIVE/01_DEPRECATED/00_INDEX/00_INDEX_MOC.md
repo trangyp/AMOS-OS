@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Archive / Deprecated / Index"
+title: Index MOC — Archive / Deprecated / Index
 type: moc
 source: 24_ARCHIVE/01_DEPRECATED/00_INDEX
 tags:

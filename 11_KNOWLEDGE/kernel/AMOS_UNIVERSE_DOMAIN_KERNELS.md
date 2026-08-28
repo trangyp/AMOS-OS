@@ -1,8 +1,8 @@
 ---
-title: "AMOS Universe Domain Kernels — Complete Catalog (24 Kernels)"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/_AMOS_UNIVERSE/Domains/"
-origin_architect: "Trang Phan"
+title: AMOS Universe Domain Kernels — Complete Catalog (24 Kernels)
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/_AMOS_UNIVERSE/Domains/
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/kernel
 tags:
@@ -17,9 +17,9 @@ tags:
 - x100k
 - kernel
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

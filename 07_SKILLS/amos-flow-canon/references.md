@@ -1,5 +1,5 @@
 ---
-title: "references — Amos Flow Canon"
+title: references — Amos Flow Canon
 type: note
 source: 07_SKILLS/amos-flow-canon
 tags:

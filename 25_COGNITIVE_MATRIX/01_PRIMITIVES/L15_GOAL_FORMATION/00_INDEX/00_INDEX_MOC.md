@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L15 Goal Formation / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L15 Goal Formation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION/00_INDEX
 tags:

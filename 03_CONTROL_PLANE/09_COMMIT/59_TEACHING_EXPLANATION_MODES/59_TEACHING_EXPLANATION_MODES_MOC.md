@@ -1,5 +1,5 @@
 ---
-title: "59 Teaching Explanation Modes MOC"
+title: 59 Teaching Explanation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/59_TEACHING_EXPLANATION_MODES
 tags:

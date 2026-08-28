@@ -1,5 +1,5 @@
 ---
-title: "12 Rollback MOC"
+title: 12 Rollback MOC
 type: moc
 source: 03_CONTROL_PLANE/12_ROLLBACK
 tags:

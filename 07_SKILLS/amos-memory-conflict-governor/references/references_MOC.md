@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Memory Conflict Governor"
+title: References MOC — References — Amos Memory Conflict Governor
 type: moc
 source: 07_SKILLS/amos-memory-conflict-governor/references
 tags:

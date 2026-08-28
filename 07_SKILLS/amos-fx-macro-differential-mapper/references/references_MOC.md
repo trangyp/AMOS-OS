@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Macro Differential Mapper"
+title: References MOC — References — Amos Fx Macro Differential Mapper
 type: moc
 source: 07_SKILLS/amos-fx-macro-differential-mapper/references
 tags:

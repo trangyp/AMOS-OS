@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Distinction Rscf Architecture"
+title: Vault Domain Knowledge — Amos Distinction Rscf Architecture
 type: reference
 source: 07_SKILLS/amos-distinction-rscf-architecture/references
 tags:

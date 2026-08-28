@@ -1,5 +1,5 @@
 ---
-title: "Amos-Forex-Os MOC"
+title: Amos-Forex-Os MOC
 type: moc
 source: 07_SKILLS/amos-forex-os
 tags:

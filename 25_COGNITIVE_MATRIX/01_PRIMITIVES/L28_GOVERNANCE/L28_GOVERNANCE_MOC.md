@@ -1,5 +1,5 @@
 ---
-title: "L28 Governance MOC"
+title: L28 Governance MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE
 tags:

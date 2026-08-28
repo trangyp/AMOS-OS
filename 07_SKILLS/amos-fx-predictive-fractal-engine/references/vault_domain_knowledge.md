@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx Predictive Fractal Engine"
+title: Vault Domain Knowledge — Amos Fx Predictive Fractal Engine
 type: reference
 source: 07_SKILLS/amos-fx-predictive-fractal-engine/references
 tags:

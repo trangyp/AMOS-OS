@@ -1,5 +1,5 @@
 ---
-title: "01 Papers MOC"
+title: 01 Papers MOC
 type: moc
 source: 22_RESEARCH/01_PAPERS
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Artistic Expression Governor"
+title: References MOC — References — Amos Artistic Expression Governor
 type: moc
 source: 07_SKILLS/amos-artistic-expression-governor/references
 tags:

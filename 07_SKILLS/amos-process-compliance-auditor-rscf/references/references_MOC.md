@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Process Compliance Auditor Rscf"
+title: References MOC — References — Amos Process Compliance Auditor Rscf
 type: moc
 source: 07_SKILLS/amos-process-compliance-auditor-rscf/references
 tags:

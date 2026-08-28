@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Clinical Research / Index"
+title: Index MOC — Domains / Clinical Research / Index
 type: moc
 source: 21_DOMAINS/30_CLINICAL_RESEARCH/00_INDEX
 tags:

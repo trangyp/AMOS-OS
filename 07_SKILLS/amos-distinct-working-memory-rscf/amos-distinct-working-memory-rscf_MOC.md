@@ -1,5 +1,5 @@
 ---
-title: "Amos-Distinct-Working-Memory-Rscf MOC"
+title: Amos-Distinct-Working-Memory-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-distinct-working-memory-rscf
 tags:

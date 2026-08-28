@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Lifecycle Operations / O09 Simulation / Index"
+title: Index MOC — Cognitive Matrix / Lifecycle Operations / O09 Simulation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O09_SIMULATION/00_INDEX
 tags:

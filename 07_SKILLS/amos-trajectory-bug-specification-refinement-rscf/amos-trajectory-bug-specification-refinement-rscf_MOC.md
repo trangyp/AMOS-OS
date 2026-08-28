@@ -1,5 +1,5 @@
 ---
-title: "Amos-Trajectory-Bug-Specification-Refinement-Rscf MOC"
+title: Amos-Trajectory-Bug-Specification-Refinement-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-trajectory-bug-specification-refinement-rscf
 tags:

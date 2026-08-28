@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx State Space Kalman Engine"
+title: Vault Domain Knowledge — Amos Fx State Space Kalman Engine
 type: reference
 source: 07_SKILLS/amos-fx-state-space-kalman-engine/references
 tags:

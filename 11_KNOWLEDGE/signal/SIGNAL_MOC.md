@@ -1,5 +1,5 @@
 ---
-title: "Signal MOC"
+title: Signal MOC
 type: moc
 source: 11_KNOWLEDGE/signal
 tags:

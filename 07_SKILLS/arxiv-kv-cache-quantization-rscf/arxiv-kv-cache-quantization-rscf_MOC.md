@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Kv-Cache-Quantization-Rscf MOC"
+title: Arxiv-Kv-Cache-Quantization-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-kv-cache-quantization-rscf
 tags:

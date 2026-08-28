@@ -1,5 +1,5 @@
 ---
-title: "07 Coverage MOC"
+title: 07 Coverage MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
 tags:

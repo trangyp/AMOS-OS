@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C11 Design Language Master"
+title: AGENT TEMPLATE — Amos C11 Design Language Master
 type: note
 source: 07_SKILLS/amos-c11-design-language-master
 tags:

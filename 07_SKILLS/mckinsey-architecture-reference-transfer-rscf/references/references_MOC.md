@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Architecture Reference Transfer Rscf"
+title: References MOC — References — Mckinsey Architecture Reference Transfer Rscf
 type: moc
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/references
 tags:

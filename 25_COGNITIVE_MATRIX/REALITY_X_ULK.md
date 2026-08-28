@@ -1,16 +1,16 @@
 ---
-title: "Reality x ULK Cognitive Matrix"
+title: Reality x ULK Cognitive Matrix
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "REALITY_X_ULK.md"
-artifact_id: "amos_25_cognitive_matrix_reality_x_ulk"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/REALITY_X_ULK.md"
+artifact: REALITY_X_ULK.md
+artifact_id: amos_25_cognitive_matrix_reality_x_ulk
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/REALITY_X_ULK.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -29,18 +29,18 @@ tags:
   - provenance
   - canon_candidate
   - canon/matrix
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-runtime_enforcement_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-formal_verification_status: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+runtime_enforcement_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+formal_verification_status: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -54,11 +54,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
-    artifact: "[[REALITY_X_ULK_MATRIX]]"
+    artifact: [[REALITY_X_ULK_MATRIX]]
   reality_master:
-    artifact: "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE"
+    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
   ulk_kernel:
-    artifact: "02_KERNEL/01_ULK/01_ULK_MOC"
+    artifact: 02_KERNEL/01_ULK/01_ULK_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

@@ -1,5 +1,5 @@
 ---
-title: "K_FAILURE_RECOVERY — Failure Recovery Kernel"
+title: K_FAILURE_RECOVERY — Failure Recovery Kernel
 type: kernel
 source: 02_KERNEL
 tags:

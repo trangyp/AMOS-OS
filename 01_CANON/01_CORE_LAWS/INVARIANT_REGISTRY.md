@@ -1,5 +1,5 @@
 ---
-title: "AMOS Invariant Registry — Constitutional and Runtime Integrity Constraints"
+title: AMOS Invariant Registry — Constitutional and Runtime Integrity Constraints
 type: invariant
 source: 01_CANON/01_CORE_LAWS
 tags:

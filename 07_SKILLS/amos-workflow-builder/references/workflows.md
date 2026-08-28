@@ -1,5 +1,5 @@
 ---
-title: "Workflows — Amos Workflow Builder"
+title: Workflows — Amos Workflow Builder
 type: reference
 source: 07_SKILLS/amos-workflow-builder/references
 tags:

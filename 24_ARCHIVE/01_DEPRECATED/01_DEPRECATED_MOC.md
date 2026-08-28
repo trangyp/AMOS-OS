@@ -1,5 +1,5 @@
 ---
-title: "01 Deprecated MOC"
+title: 01 Deprecated MOC
 type: moc
 source: 24_ARCHIVE/01_DEPRECATED
 tags:

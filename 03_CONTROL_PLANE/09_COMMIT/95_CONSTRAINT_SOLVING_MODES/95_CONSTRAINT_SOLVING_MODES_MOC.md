@@ -1,5 +1,5 @@
 ---
-title: "95 Constraint Solving Modes MOC"
+title: 95 Constraint Solving Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/95_CONSTRAINT_SOLVING_MODES
 tags:

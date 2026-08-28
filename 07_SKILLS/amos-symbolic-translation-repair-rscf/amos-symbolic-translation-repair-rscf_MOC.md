@@ -1,5 +1,5 @@
 ---
-title: "Amos-Symbolic-Translation-Repair-Rscf MOC"
+title: Amos-Symbolic-Translation-Repair-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-symbolic-translation-repair-rscf
 tags:

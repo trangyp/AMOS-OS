@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Causal Hierarchy Governor"
+title: References MOC — References — Amos Causal Hierarchy Governor
 type: moc
 source: 07_SKILLS/amos-causal-hierarchy-governor/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "obsidian-plugin-auto-tag — Vault Domain Knowledge"
+title: obsidian-plugin-auto-tag — Vault Domain Knowledge
 type: reference
 source: 07_SKILLS/obsidian-plugin-auto-tag/references
 tags:

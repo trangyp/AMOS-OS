@@ -1,5 +1,5 @@
 ---
-title: "AMOS CORE-19 v0.3 — Formal Specification (Lean-style)"
+title: AMOS CORE-19 v0.3 — Formal Specification (Lean-style)
 type: reference
 source: 11_KNOWLEDGE/amos-general
 tags:

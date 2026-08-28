@@ -1,5 +1,5 @@
 ---
-title: "93 Ranking Selection Modes MOC"
+title: 93 Ranking Selection Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/93_RANKING_SELECTION_MODES
 tags:

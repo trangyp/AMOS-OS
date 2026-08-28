@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Full Brain Os"
+title: Vault Domain Knowledge — Amos Full Brain Os
 type: reference
 source: 07_SKILLS/amos-full-brain-os/references
 tags:

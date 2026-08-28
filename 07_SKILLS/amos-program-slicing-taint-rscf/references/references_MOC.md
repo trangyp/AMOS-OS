@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Program Slicing Taint Rscf"
+title: References MOC — References — Amos Program Slicing Taint Rscf
 type: moc
 source: 07_SKILLS/amos-program-slicing-taint-rscf/references
 tags:

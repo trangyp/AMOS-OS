@@ -1,5 +1,5 @@
 ---
-title: "Amos-Agent-Economy-Constitutional-Governance-Rscf MOC"
+title: Amos-Agent-Economy-Constitutional-Governance-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agent-economy-constitutional-governance-rscf
 tags:

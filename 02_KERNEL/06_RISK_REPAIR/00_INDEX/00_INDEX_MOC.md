@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Kernel / Risk Repair / Index"
+title: Index MOC — Kernel / Risk Repair / Index
 type: moc
 source: 02_KERNEL/06_RISK_REPAIR/00_INDEX
 tags:

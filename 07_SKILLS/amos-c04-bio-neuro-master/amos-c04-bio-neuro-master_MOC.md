@@ -1,5 +1,5 @@
 ---
-title: "Amos-C04-Bio-Neuro-Master MOC"
+title: Amos-C04-Bio-Neuro-Master MOC
 type: moc
 source: 07_SKILLS/amos-c04-bio-neuro-master
 tags:

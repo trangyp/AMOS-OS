@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Scales / M Mid Scale / Index"
+title: Index MOC — Cognitive Matrix / Scales / M Mid Scale / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES/M_MID_SCALE/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Bundle Manifold Concentration Rscf Engine"
+title: Vault Domain Knowledge — Amos Bundle Manifold Concentration Rscf Engine
 type: reference
 source: 07_SKILLS/amos-bundle-manifold-concentration-rscf-engine/references
 tags:

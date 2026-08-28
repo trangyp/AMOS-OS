@@ -1,8 +1,8 @@
 ---
-title: "NeuroSyncAI Business Plan — Deterministic AI Infrastructure"
-created: "2026-08-22"
-origin: "Google Drive — Business_Plan_of_NeuroSyncAI.pdf (1.66MB)"
-origin_architect: "Trang Phan"
+title: NeuroSyncAI Business Plan — Deterministic AI Infrastructure
+created: '2026-08-22'
+origin: Google Drive — Business_Plan_of_NeuroSyncAI.pdf (1.66MB)
+origin_architect: Trang Phan
 type: business-plan
 source: 11_KNOWLEDGE/misc
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/X-crossscale
 - topic/business-plan
 - misc
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: DERIVED
   claim_class: DERIVED

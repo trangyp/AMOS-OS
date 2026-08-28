@@ -1,5 +1,5 @@
 ---
-title: "Amos-Emergent-Social-Intelligence-Risk-Rscf MOC"
+title: Amos-Emergent-Social-Intelligence-Risk-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf
 tags:

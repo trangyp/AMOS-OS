@@ -1,5 +1,5 @@
 ---
-title: "02 Decision Rights MOC"
+title: 02 Decision Rights MOC
 type: moc
 source: 23_OPERATING_MODEL/02_DECISION_RIGHTS
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Retrieval-Conditioned-Orchestration-Budget-Rscf MOC"
+title: Amos-Retrieval-Conditioned-Orchestration-Budget-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf
 tags:

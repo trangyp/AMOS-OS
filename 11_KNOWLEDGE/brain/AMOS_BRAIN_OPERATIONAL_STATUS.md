@@ -1,8 +1,8 @@
 ---
-title: "AMOS Brain Supreme — Operational Status Report"
-created: "2026-08-22"
-origin: "Google Drive — AMOS backup/01_BRAIN/OPERATIONAL_STATUS.md"
-origin_architect: "AMOS Brain Supreme system"
+title: AMOS Brain Supreme — Operational Status Report
+created: '2026-08-22'
+origin: Google Drive — AMOS backup/01_BRAIN/OPERATIONAL_STATUS.md
+origin_architect: AMOS Brain Supreme system
 type: system-report
 source: 11_KNOWLEDGE/brain
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/X-crossscale
 - topic/amos-brain-supreme-operational-status
 - brain
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

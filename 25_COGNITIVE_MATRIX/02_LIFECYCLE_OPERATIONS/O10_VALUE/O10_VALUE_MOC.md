@@ -1,5 +1,5 @@
 ---
-title: "O10 Value MOC"
+title: O10 Value MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O10_VALUE
 tags:

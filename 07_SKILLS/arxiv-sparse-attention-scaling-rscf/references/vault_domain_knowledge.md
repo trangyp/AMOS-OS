@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Sparse Attention Scaling Rscf"
+title: Vault Domain Knowledge — Arxiv Sparse Attention Scaling Rscf
 type: reference
 source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf/references
 tags:

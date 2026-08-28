@@ -1,5 +1,5 @@
 ---
-title: "Biology-Ubi MOC"
+title: Biology-Ubi MOC
 type: moc
 source: 11_KNOWLEDGE/biology-ubi
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Digital Strategy Rscf"
+title: References MOC — References — Mckinsey Digital Strategy Rscf
 type: moc
 source: 07_SKILLS/mckinsey-digital-strategy-rscf/references
 tags:

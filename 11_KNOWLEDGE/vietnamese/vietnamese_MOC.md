@@ -1,5 +1,5 @@
 ---
-title: "Vietnamese MOC"
+title: Vietnamese MOC
 type: moc
 source: 11_KNOWLEDGE/vietnamese
 tags:

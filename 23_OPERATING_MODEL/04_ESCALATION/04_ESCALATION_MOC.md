@@ -1,5 +1,5 @@
 ---
-title: "04 Escalation MOC"
+title: 04 Escalation MOC
 type: moc
 source: 23_OPERATING_MODEL/04_ESCALATION
 tags:

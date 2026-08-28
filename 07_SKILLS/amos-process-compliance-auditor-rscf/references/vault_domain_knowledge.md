@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Process Compliance Auditor Rscf"
+title: Vault Domain Knowledge — Amos Process Compliance Auditor Rscf
 type: reference
 source: 07_SKILLS/amos-process-compliance-auditor-rscf/references
 tags:

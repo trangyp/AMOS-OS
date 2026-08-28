@@ -1,14 +1,14 @@
 ---
-title: "L04_OBJECT_ENTITY_FORMATION — Skills"
+title: L04_OBJECT_ENTITY_FORMATION — Skills
 type: skill
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
-origin_architect: "Trang Phan"
-class: "COGNITIVE_PRIMITIVE_SKILL_CONTRACT"
-status: "AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED"
-epistemic_class: "MODEL"
-primitive: "L04_OBJECT_ENTITY_FORMATION"
-artifact: "SKILLS.md"
-runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+origin_architect: Trang Phan
+class: COGNITIVE_PRIMITIVE_SKILL_CONTRACT
+status: AMOS_MODEL / UNIMPLEMENTED / UNVALIDATED
+epistemic_class: MODEL
+primitive: L04_OBJECT_ENTITY_FORMATION
+artifact: SKILLS.md
+runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 tags:
 - cognitive_matrix
 - primitives

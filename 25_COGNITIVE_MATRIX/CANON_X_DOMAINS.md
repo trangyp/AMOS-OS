@@ -1,16 +1,16 @@
 ---
-title: "Absolute Structural Integrity Canon — Cognitive Matrix"
+title: Absolute Structural Integrity Canon — Cognitive Matrix
 type: canon
 source: 01_CANON/01_CORE_LAWS
-artifact: "ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md"
-artifact_id: "amos_01_canon_01_core_laws_absolute_structural_integrity_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/01_CORE_LAWS"
-artifact_kind: "CANON"
-path: "01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md"
+artifact: ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
+artifact_id: amos_01_canon_01_core_laws_absolute_structural_integrity_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/01_CORE_LAWS
+artifact_kind: CANON
+path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
 tags:
   - amos_os
   - canon
@@ -33,16 +33,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/core-laws
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "PARTIALLY_IMPLEMENTATION_COMPATIBLE_NOT_UNIVERSALLY_VALIDATED"
-executable_binding: "NOT_ESTABLISHED_AS_SINGLE_CANON_ENFORCER"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: PARTIALLY_IMPLEMENTATION_COMPATIBLE_NOT_UNIVERSALLY_VALIDATED
+executable_binding: NOT_ESTABLISHED_AS_SINGLE_CANON_ENFORCER
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -62,11 +62,11 @@ rscf:
     - EVOLUTION_INTEGRITY
 framework_binding:
   primary_law:
-    name: "Absolute Structural Integrity"
+    name: Absolute Structural Integrity
     role: TOP_LEVEL_STRUCTURAL_VALIDITY_CONSTRAINT
   parent_principle:
-    name: "Law of Law"
-    artifact: "[[LAW_HIERARCHY]]"
+    name: Law of Law
+    artifact: [[LAW_HIERARCHY]]
   related_frameworks:
     - "[[AMOS_X_QLS]]"
     - "[[AMOS_X_QCLA]]"

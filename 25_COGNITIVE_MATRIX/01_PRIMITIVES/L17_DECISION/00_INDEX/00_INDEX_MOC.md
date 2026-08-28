@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L17 Decision / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L17 Decision / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION/00_INDEX
 tags:

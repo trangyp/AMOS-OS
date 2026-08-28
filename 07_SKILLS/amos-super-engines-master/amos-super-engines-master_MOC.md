@@ -1,5 +1,5 @@
 ---
-title: "Amos-Super-Engines-Master MOC"
+title: Amos-Super-Engines-Master MOC
 type: moc
 source: 07_SKILLS/amos-super-engines-master
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Context State Maintenance Rscf"
+title: Vault Domain Knowledge — Amos Context State Maintenance Rscf
 type: reference
 source: 07_SKILLS/amos-context-state-maintenance-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "19 Learning Modes MOC"
+title: 19 Learning Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/19_LEARNING_MODES
 tags:

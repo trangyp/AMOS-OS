@@ -1,5 +1,5 @@
 ---
-title: "16 Mode Template MOC"
+title: 16 Mode Template MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/16_MODE_TEMPLATE
 tags:

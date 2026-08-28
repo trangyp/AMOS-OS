@@ -1,8 +1,8 @@
 ---
-title: "U3H — Atemporal Field (ATF) Canon Spec"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.txt + Extractive Economy.txt"
-origin_architect: "Trang Phan"
+title: U3H — Atemporal Field (ATF) Canon Spec
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/HSE_Enginev∞_AMOS_FORMAT_WITH_UCM.txt + Extractive Economy.txt
+origin_architect: Trang Phan
 type: canon-spec
 source: 11_KNOWLEDGE/field
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/X-crossscale
 - topic/atemporal-field
 - field
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

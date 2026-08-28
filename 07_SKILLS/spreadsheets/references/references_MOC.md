@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Spreadsheets"
+title: References MOC — References — Spreadsheets
 type: moc
 source: 07_SKILLS/spreadsheets/references
 tags:

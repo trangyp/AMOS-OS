@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Governed Executable Knowledge Repair Rscf"
+title: References MOC — References — Amos Governed Executable Knowledge Repair Rscf
 type: moc
 source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf/references
 tags:

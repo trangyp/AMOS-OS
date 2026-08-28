@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Structure-Preserving-Variational-Neural-Fields-Rscf MOC"
+title: Amos-Arxiv-Structure-Preserving-Variational-Neural-Fields-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-structure-preserving-variational-neural-fields-rscf
 tags:

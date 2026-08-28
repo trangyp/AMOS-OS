@@ -1,5 +1,5 @@
 ---
-title: "79 Coordination Independence Modes MOC"
+title: 79 Coordination Independence Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/79_COORDINATION_INDEPENDENCE_MODES
 tags:

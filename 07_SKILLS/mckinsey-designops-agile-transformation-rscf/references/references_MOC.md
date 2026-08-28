@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Designops Agile Transformation Rscf"
+title: References MOC — References — Mckinsey Designops Agile Transformation Rscf
 type: moc
 source: 07_SKILLS/mckinsey-designops-agile-transformation-rscf/references
 tags:

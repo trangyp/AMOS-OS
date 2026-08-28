@@ -1,5 +1,5 @@
 ---
-title: "L23 Metacognition MOC"
+title: L23 Metacognition MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L23_METACOGNITION
 tags:

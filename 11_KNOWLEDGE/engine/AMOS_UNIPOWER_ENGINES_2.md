@@ -1,8 +1,8 @@
 ---
-title: "AMOS Unipower Engines — Full Inventory"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Unipower/"
-origin_architect: "Trang Phan"
+title: AMOS Unipower Engines — Full Inventory
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Unipower/
+origin_architect: Trang Phan
 type: reference
 tags:
 - canon-group/tech-ai
@@ -27,16 +27,17 @@ tags:
 - omnistructure
 - engine
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
-source: "Google Drive /_00_AMOS_CANON/Unipower/ (20 files: 18 JSON + 2 TXT/MD)"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
+source: 'Google Drive /_00_AMOS_CANON/Unipower/ (20 files: 18 JSON + 2 TXT/MD)'
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS Unipower Engines

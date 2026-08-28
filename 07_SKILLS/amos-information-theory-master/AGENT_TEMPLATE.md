@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos Information Theory Master"
+title: AGENT TEMPLATE — Amos Information Theory Master
 type: note
 source: 07_SKILLS/amos-information-theory-master
 tags:

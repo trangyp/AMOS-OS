@@ -1,5 +1,5 @@
 ---
-title: "85 Interpretation Semantic Modes MOC"
+title: 85 Interpretation Semantic Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/85_INTERPRETATION_SEMANTIC_MODES
 tags:

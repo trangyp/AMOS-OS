@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 11 — Wave Absorption + Bridge Governance Cluster"
+title: 2026-08-25 QFM Pass 11 — Wave Absorption + Bridge Governance Cluster
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

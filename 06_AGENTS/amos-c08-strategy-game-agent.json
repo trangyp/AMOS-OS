@@ -173,7 +173,7 @@
   "tags": [
     "type/agent",
     "canon/agent",
-    "domain/cross-domain",
+    "domain/strategy-game",
     "rscf/source_claim",
     "hml/m",
     "epistemic/amos_model",
@@ -201,5 +201,6 @@
     "L16",
     "L17",
     "L18"
-  ]
+  ],
+  "domain": "c08"
 }

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Knowledge-Research-Master MOC"
+title: Amos-Knowledge-Research-Master MOC
 type: moc
 source: 07_SKILLS/amos-knowledge-research-master
 tags:

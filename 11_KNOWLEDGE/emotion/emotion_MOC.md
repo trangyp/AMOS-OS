@@ -1,5 +1,5 @@
 ---
-title: "Emotion MOC"
+title: Emotion MOC
 type: moc
 source: 11_KNOWLEDGE/emotion
 tags:

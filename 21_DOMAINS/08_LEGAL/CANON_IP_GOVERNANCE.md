@@ -1,16 +1,16 @@
 ---
-title: "Canon Intellectual Property Governance Specification"
+title: Canon Intellectual Property Governance Specification
 type: domain
 source: 21_DOMAINS/08_LEGAL
-artifact: "CANON_IP_GOVERNANCE.md"
-artifact_id: "amos_21_domains_08_legal_canon_ip_governance"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "21_DOMAINS"
-segment: "21_DOMAINS/08_LEGAL"
-artifact_kind: "DOMAIN_GOVERNANCE"
-path: "21_DOMAINS/08_LEGAL/CANON_IP_GOVERNANCE.md"
+artifact: CANON_IP_GOVERNANCE.md
+artifact_id: amos_21_domains_08_legal_canon_ip_governance
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 21_DOMAINS
+segment: 21_DOMAINS/08_LEGAL
+artifact_kind: DOMAIN_GOVERNANCE
+path: 21_DOMAINS/08_LEGAL/CANON_IP_GOVERNANCE.md
 tags:
   - amos_os
   - domain
@@ -23,16 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/domain
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "SYSTEM_INVARIANT"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: SYSTEM_INVARIANT
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
@@ -46,9 +46,9 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   law_of_law:
-    artifact: "[[L0_INTEGRITY]]"
+    artifact: [[L0_INTEGRITY]]
   legal_moc:
-    artifact: "[[08_LEGAL_MOC]]"
+    artifact: [[08_LEGAL_MOC]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

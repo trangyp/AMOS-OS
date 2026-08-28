@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos C08 Strategy Game Master"
+title: Vault Domain Knowledge — Amos C08 Strategy Game Master
 type: reference
 source: 07_SKILLS/amos-c08-strategy-game-master/references
 tags:

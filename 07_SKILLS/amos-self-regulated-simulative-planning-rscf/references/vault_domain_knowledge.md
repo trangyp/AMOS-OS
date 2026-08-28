@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Self Regulated Simulative Planning Rscf"
+title: Vault Domain Knowledge — Amos Self Regulated Simulative Planning Rscf
 type: reference
 source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf/references
 tags:

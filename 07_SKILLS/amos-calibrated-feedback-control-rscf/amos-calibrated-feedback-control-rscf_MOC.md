@@ -1,5 +1,5 @@
 ---
-title: "Amos-Calibrated-Feedback-Control-Rscf MOC"
+title: Amos-Calibrated-Feedback-Control-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-calibrated-feedback-control-rscf
 tags:

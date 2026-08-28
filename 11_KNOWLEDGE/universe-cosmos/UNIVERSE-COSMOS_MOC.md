@@ -1,5 +1,5 @@
 ---
-title: "Universe-Cosmos MOC"
+title: Universe-Cosmos MOC
 type: moc
 source: 11_KNOWLEDGE/universe-cosmos
 tags:

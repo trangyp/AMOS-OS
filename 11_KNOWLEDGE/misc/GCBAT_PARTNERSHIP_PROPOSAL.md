@@ -1,8 +1,8 @@
 ---
-title: "GCBAT Strategic Partnership Proposal — UBI + NeuroSyncAI IP"
-created: "2026-08-22"
-origin: "Google Drive — Strategic_Partnership_Proposal_to_GCBAT.pdf (836KB)"
-origin_architect: "Quynh Trang Phan"
+title: GCBAT Strategic Partnership Proposal — UBI + NeuroSyncAI IP
+created: '2026-08-22'
+origin: Google Drive — Strategic_Partnership_Proposal_to_GCBAT.pdf (836KB)
+origin_architect: Quynh Trang Phan
 type: business-proposal
 source: 11_KNOWLEDGE/misc
 tags:
@@ -17,16 +17,16 @@ tags:
 - rscf/X-crossscale
 - topic/partnership-proposal
 - misc
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 overclaim_risk: true
-overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 
 

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Tools / Index"
+title: Index MOC — Tools / Index
 type: moc
 source: 14_TOOLS/00_INDEX
 tags:

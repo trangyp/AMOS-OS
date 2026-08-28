@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Banking Crm Assessment Rscf"
+title: References MOC — References — Mckinsey Banking Crm Assessment Rscf
 type: moc
 source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf/references
 tags:

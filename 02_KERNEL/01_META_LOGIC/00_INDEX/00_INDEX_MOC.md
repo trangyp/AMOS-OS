@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Kernel / Meta Logic / Index"
+title: Index MOC — Kernel / Meta Logic / Index
 type: moc
 source: 02_KERNEL/01_META_LOGIC/00_INDEX
 tags:

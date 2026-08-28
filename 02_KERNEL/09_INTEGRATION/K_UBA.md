@@ -1,16 +1,16 @@
 ---
-title: "Kernel · UBA"
+title: Kernel · UBA
 type: note
-source: "02_KERNEL/09_INTEGRATION"
-artifact: "K_UBA.md"
-artifact_id: "02_kernel_09_integration_k_uba"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "02_KERNEL"
-segment: "02_KERNEL/09_INTEGRATION"
-artifact_kind: "NOTE"
-path: "02_KERNEL/09_INTEGRATION/K_UBA.md"
+source: 02_KERNEL/09_INTEGRATION
+artifact: K_UBA.md
+artifact_id: 02_kernel_09_integration_k_uba
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 02_KERNEL
+segment: 02_KERNEL/09_INTEGRATION
+artifact_kind: NOTE
+path: 02_KERNEL/09_INTEGRATION/K_UBA.md
 tags:
   - 02_kernel
   - 09_integration
@@ -25,15 +25,15 @@ tags:
   - note
   - rscf
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

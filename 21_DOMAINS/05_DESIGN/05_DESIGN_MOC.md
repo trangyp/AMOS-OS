@@ -1,5 +1,5 @@
 ---
-title: "05 Design MOC"
+title: 05 Design MOC
 type: moc
 source: 21_DOMAINS/05_DESIGN
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "97 Allocation Resource Modes MOC"
+title: 97 Allocation Resource Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/97_ALLOCATION_RESOURCE_MODES
 tags:

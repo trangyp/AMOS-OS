@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Runtime Context Reuse Rscf"
+title: Vault Domain Knowledge — Amos Runtime Context Reuse Rscf
 type: reference
 source: 07_SKILLS/amos-runtime-context-reuse-rscf/references
 tags:

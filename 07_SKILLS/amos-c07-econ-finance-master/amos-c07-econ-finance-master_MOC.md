@@ -1,5 +1,5 @@
 ---
-title: "Amos-C07-Econ-Finance-Master MOC"
+title: Amos-C07-Econ-Finance-Master MOC
 type: moc
 source: 07_SKILLS/amos-c07-econ-finance-master
 tags:

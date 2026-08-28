@@ -1,16 +1,16 @@
 ---
-title: "UBI x Cognition Cognitive Matrix Specification"
+title: UBI x Cognition Cognitive Matrix Specification
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "UBI_X_COGNITION.md"
-artifact_id: "amos_25_cognitive_matrix_ubi_x_cognition"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX_SPEC"
-path: "25_COGNITIVE_MATRIX/UBI_X_COGNITION.md"
+artifact: UBI_X_COGNITION.md
+artifact_id: amos_25_cognitive_matrix_ubi_x_cognition
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX_SPEC
+path: 25_COGNITIVE_MATRIX/UBI_X_COGNITION.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -26,14 +26,14 @@ tags:
   - 40hz
   - rscf
   - canon_candidate
-version: "2.0.0"
-updated: "2026-08-28"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "PASSED_CONSTITUTIONAL_TESTS"
-executable_binding: "ESTABLISHED"
+version: 2.0.0
+updated: '2026-08-28'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: PASSED_CONSTITUTIONAL_TESTS
+executable_binding: ESTABLISHED
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_MODEL
@@ -47,11 +47,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
-    artifact: "[[UBI_X_COGNITION_MATRIX]]"
+    artifact: [[UBI_X_COGNITION_MATRIX]]
   knowledge_binding:
-    artifact: "[[UBI_COGNITION_BINDING]]"
+    artifact: [[UBI_COGNITION_BINDING]]
   biological_master:
-    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   specification_structure: VERIFIED_SOURCE_STRUCTURE
@@ -69,7 +69,7 @@ source_integrity:
   mathematical_rendering: PARTIALLY_CORRUPTED_IN_SUPPLIED_TEXT
   unresolved_symbols: PRESERVE_AS_GAPS
   reconstruction_policy: DO_NOT_INVENT_MISSING_CANON
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ---
 
 # UBI × Cognition Cognitive Matrix Specification — Full Canon Expansion

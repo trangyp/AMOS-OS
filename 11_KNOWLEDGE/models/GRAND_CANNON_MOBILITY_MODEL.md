@@ -1,7 +1,7 @@
 ---
-title: "AMOS Grand Cannon Mobility Model"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: AMOS Grand Cannon Mobility Model
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: brain-model
 source: 11_KNOWLEDGE/models
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/derived
 - topic/grand-cannon-mobility-model
 - models
-status: "active"
-provenance: "Grand Cannon.txt"
-confidence: "STRUCTURAL"
+status: active
+provenance: Grand Cannon.txt
+confidence: STRUCTURAL
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

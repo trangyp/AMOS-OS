@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Agency Consequence Governor"
+title: Vault Domain Knowledge — Amos Agency Consequence Governor
 type: reference
 source: 07_SKILLS/amos-agency-consequence-governor/references
 tags:

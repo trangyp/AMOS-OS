@@ -1,8 +1,8 @@
 ---
-title: "AMOS UBI Super Engine vInfinity — Full Stack"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Core/Ubi/AMOS_Ubi_Engine_v0.json"
-origin_architect: "Trang Phan"
+title: AMOS UBI Super Engine vInfinity — Full Stack
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Core/Ubi/AMOS_Ubi_Engine_v0.json
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/engine
 tags:
@@ -18,9 +18,9 @@ tags:
 - rscf/mu-mutation
 - topic/absolute-omniverse-model
 - engine
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

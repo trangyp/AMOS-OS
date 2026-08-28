@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Strict Fractal Equation Rscf Registry"
+title: References MOC — References — Amos Strict Fractal Equation Rscf Registry
 type: moc
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Distinction-Relation-Transformation MOC"
+title: Amos-Distinction-Relation-Transformation MOC
 type: moc
 source: 07_SKILLS/amos-distinction-relation-transformation
 tags:

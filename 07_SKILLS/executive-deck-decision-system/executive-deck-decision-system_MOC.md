@@ -1,5 +1,5 @@
 ---
-title: "Executive-Deck-Decision-System MOC"
+title: Executive-Deck-Decision-System MOC
 type: moc
 source: 07_SKILLS/executive-deck-decision-system
 tags:

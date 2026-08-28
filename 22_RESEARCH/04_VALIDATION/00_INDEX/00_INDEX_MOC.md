@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Research / Validation / Index"
+title: Index MOC — Research / Validation / Index
 type: moc
 source: 22_RESEARCH/04_VALIDATION/00_INDEX
 tags:

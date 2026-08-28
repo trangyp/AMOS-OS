@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Forex / Index"
+title: Index MOC — Domains / Forex / Index
 type: moc
 source: 21_DOMAINS/03_FOREX/00_INDEX
 tags:

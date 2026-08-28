@@ -1,5 +1,5 @@
 ---
-title: "Versioning Validation Receipt"
+title: Versioning Validation Receipt
 type: receipt
 source: 01_CANON/01_CORE_LAWS
 tags:

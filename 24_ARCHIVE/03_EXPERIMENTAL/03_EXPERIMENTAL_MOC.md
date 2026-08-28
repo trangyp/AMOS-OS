@@ -1,5 +1,5 @@
 ---
-title: "03 Experimental MOC"
+title: 03 Experimental MOC
 type: moc
 source: 24_ARCHIVE/03_EXPERIMENTAL
 tags:

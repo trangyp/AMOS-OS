@@ -1,6 +1,6 @@
 ---
 title: MD 2026 08 23 AMOS ABSOLUTE INTEGRITY PASS
-origin_architect: "Trang Phan"
+origin_architect: Trang Phan
 type: note
 source: 11_KNOWLEDGE/amos-general
 tags:
@@ -14,9 +14,9 @@ tags:
 - topic/gap-closure
 - amos-general
 - canon/knowledge
-status: "complete"
-provenance: "OBSERVATION"
-confidence: "HIGH"
+status: complete
+provenance: OBSERVATION
+confidence: HIGH
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

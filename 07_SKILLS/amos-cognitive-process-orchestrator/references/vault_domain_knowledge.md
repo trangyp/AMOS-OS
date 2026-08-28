@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Cognitive Process Orchestrator"
+title: Vault Domain Knowledge — Amos Cognitive Process Orchestrator
 type: reference
 source: 07_SKILLS/amos-cognitive-process-orchestrator/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos C07 Econ Finance Master"
+title: References MOC — References — Amos C07 Econ Finance Master
 type: moc
 source: 07_SKILLS/amos-c07-econ-finance-master/references
 tags:

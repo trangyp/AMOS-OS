@@ -1,5 +1,5 @@
 ---
-title: "Amos-Distributed-Attack-Composition-Monitor-Rscf MOC"
+title: Amos-Distributed-Attack-Composition-Monitor-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf
 tags:

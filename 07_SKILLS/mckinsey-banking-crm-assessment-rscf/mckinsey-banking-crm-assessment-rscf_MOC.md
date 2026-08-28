@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Banking-Crm-Assessment-Rscf MOC"
+title: Mckinsey-Banking-Crm-Assessment-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf
 tags:

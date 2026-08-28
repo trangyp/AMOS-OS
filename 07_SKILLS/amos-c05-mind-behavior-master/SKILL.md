@@ -192,6 +192,13 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
   - **Input**: Personality pattern inquiry
   - **Output**: Personality Engine v0 trait analysis (avoidance pattern as MODEL), behavioral recommendations with culture/timescale flags, no clinical diagnosis
 
+## Validation Gates
+
+- **L0 Integrity**: All structural elements accounted for; no silent gaps
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope and domain
+- **L7 Authority**: No autonomous action beyond authority boundary
+
 ## Anti-Patterns
 
 - **Do not** diagnose clinical conditions — this is a modeling skill, not a clinical tool

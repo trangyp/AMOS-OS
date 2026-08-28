@@ -1,5 +1,5 @@
 ---
-title: "02 Capability MOC"
+title: 02 Capability MOC
 type: moc
 source: 03_CONTROL_PLANE/02_CAPABILITY
 tags:

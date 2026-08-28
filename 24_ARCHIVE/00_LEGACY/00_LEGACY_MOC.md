@@ -1,5 +1,5 @@
 ---
-title: "00 Legacy MOC"
+title: 00 Legacy MOC
 type: moc
 source: 24_ARCHIVE/00_LEGACY
 tags:

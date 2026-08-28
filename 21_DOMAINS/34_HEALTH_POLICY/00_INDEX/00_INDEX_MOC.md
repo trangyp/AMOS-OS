@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Health Policy / Index"
+title: Index MOC — Domains / Health Policy / Index
 type: moc
 source: 21_DOMAINS/34_HEALTH_POLICY/00_INDEX
 tags:

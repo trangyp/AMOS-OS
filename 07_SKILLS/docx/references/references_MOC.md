@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Docx"
+title: References MOC — References — Docx
 type: moc
 source: 07_SKILLS/docx/references
 tags:

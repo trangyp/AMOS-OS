@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Growth Graph"
+title: Vault Domain Knowledge — Amos Growth Graph
 type: reference
 source: 07_SKILLS/amos-growth-graph/references
 tags:

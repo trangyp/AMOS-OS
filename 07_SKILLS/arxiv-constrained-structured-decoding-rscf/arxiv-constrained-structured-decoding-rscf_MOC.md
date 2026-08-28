@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Constrained-Structured-Decoding-Rscf MOC"
+title: Arxiv-Constrained-Structured-Decoding-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-constrained-structured-decoding-rscf
 tags:

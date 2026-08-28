@@ -1,5 +1,5 @@
 ---
-title: "06 Domain Knowledge MOC"
+title: 06 Domain Knowledge MOC
 type: moc
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 tags:

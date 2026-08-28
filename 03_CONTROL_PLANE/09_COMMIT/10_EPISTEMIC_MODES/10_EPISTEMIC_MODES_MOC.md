@@ -1,5 +1,5 @@
 ---
-title: "10 Epistemic Modes MOC"
+title: 10 Epistemic Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/10_EPISTEMIC_MODES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Options-Implied-Distribution MOC"
+title: Amos-Fx-Options-Implied-Distribution MOC
 type: moc
 source: 07_SKILLS/amos-fx-options-implied-distribution
 tags:

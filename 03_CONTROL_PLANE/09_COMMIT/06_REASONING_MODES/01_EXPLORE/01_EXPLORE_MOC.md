@@ -1,5 +1,5 @@
 ---
-title: "01 Explore MOC"
+title: 01 Explore MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/01_EXPLORE
 tags:

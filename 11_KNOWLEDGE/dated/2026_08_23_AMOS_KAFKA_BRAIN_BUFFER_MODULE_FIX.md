@@ -1,8 +1,8 @@
 ---
-title: "AMOS Kafka Brain Buffer — Module Fix Progress (Updated)"
-created: "2026-08-23"
-origin: "Hermes ↔ Cosmo Brain"
-origin_architect: "Trang Phan"
+title: AMOS Kafka Brain Buffer — Module Fix Progress (Updated)
+created: '2026-08-23'
+origin: Hermes ↔ Cosmo Brain
+origin_architect: Trang Phan
 type: note
 source: 11_KNOWLEDGE/dated
 tags:
@@ -17,9 +17,9 @@ tags:
 - dated
 - dated/2026-08-23
 - canon/knowledge
-status: "complete"
-provenance: "OBSERVATION"
-confidence: "HIGH"
+status: complete
+provenance: OBSERVATION
+confidence: HIGH
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

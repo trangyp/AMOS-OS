@@ -1,5 +1,5 @@
 ---
-title: "Amos-Universal-Variable-Registry-Rscf-Engine MOC"
+title: Amos-Universal-Variable-Registry-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-universal-variable-registry-rscf-engine
 tags:

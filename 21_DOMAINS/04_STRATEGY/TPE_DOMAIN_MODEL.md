@@ -1,16 +1,16 @@
 ---
-title: "TPE Strategic Domain Model Specification"
+title: TPE Strategic Domain Model Specification
 type: domain
 source: 21_DOMAINS/04_STRATEGY
-artifact: "TPE_DOMAIN_MODEL.md"
-artifact_id: "amos_21_domains_04_strategy_tpe_domain_model"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "21_DOMAINS"
-segment: "21_DOMAINS/04_STRATEGY"
-artifact_kind: "DOMAIN_MODEL"
-path: "21_DOMAINS/04_STRATEGY/TPE_DOMAIN_MODEL.md"
+artifact: TPE_DOMAIN_MODEL.md
+artifact_id: amos_21_domains_04_strategy_tpe_domain_model
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 21_DOMAINS
+segment: 21_DOMAINS/04_STRATEGY
+artifact_kind: DOMAIN_MODEL
+path: 21_DOMAINS/04_STRATEGY/TPE_DOMAIN_MODEL.md
 tags:
   - amos_os
   - domain
@@ -23,16 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/domain
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -46,11 +46,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   tpe_master:
-    artifact: "[[TPE_TRANG_PREDICTION_ENGINE]]"
+    artifact: [[TPE_TRANG_PREDICTION_ENGINE]]
   strategy_moc:
-    artifact: "[[04_STRATEGY_MOC]]"
+    artifact: [[04_STRATEGY_MOC]]
   matrix_binding:
-    artifact: "[[AMOS_X_TPE]]"
+    artifact: [[AMOS_X_TPE]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

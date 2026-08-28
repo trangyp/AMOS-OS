@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Quantum-Koopman-Rscf MOC"
+title: Amos-Arxiv-Quantum-Koopman-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf
 tags:

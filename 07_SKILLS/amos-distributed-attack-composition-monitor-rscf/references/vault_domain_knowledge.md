@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Distributed Attack Composition Monitor Rscf"
+title: Vault Domain Knowledge — Amos Distributed Attack Composition Monitor Rscf
 type: reference
 source: 07_SKILLS/amos-distributed-attack-composition-monitor-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Canon MOC"
+title: Canon MOC
 type: moc
 source: 11_KNOWLEDGE/canon
 tags:

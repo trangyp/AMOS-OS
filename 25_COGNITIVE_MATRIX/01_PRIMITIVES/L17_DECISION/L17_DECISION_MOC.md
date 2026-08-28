@@ -1,5 +1,5 @@
 ---
-title: "L17 Decision MOC"
+title: L17 Decision MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L17_DECISION
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos C05 Mind Behavior Master"
+title: References MOC — References — Amos C05 Mind Behavior Master
 type: moc
 source: 07_SKILLS/amos-c05-mind-behavior-master/references
 tags:

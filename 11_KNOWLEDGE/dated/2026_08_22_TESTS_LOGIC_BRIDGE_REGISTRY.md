@@ -1,7 +1,7 @@
 ---
-title: "2026-08-22 Tests Logic Bridge Registry"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: 2026-08-22 Tests Logic Bridge Registry
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: note
 source: 11_KNOWLEDGE/dated
 tags:
@@ -13,9 +13,9 @@ tags:
 - topic/2026-08-22-tests-logic-bridge-registry
 - dated
 - dated/2026-08-22
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

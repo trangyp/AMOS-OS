@@ -146,7 +146,7 @@
   "tags": [
     "type/agent",
     "canon/agent",
-    "domain/cross-domain",
+    "domain/canon-universe",
     "rscf/source_claim",
     "hml/m",
     "epistemic/amos_model",
@@ -174,5 +174,6 @@
     "L16",
     "L17",
     "L18"
-  ]
+  ],
+  "domain": "canon"
 }

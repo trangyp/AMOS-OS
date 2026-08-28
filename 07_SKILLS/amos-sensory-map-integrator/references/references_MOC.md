@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Sensory Map Integrator"
+title: References MOC — References — Amos Sensory Map Integrator
 type: moc
 source: 07_SKILLS/amos-sensory-map-integrator/references
 tags:

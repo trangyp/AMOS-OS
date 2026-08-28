@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Conformal-Tail-Risk-Control-Rscf-Engine MOC"
+title: Amos-Fx-Conformal-Tail-Risk-Control-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-conformal-tail-risk-control-rscf-engine
 tags:

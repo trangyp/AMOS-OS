@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Human-Centered-Design-Rscf MOC"
+title: Mckinsey-Human-Centered-Design-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-human-centered-design-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos 7 Part Universe Canon Full"
+title: Vault Domain Knowledge — Amos 7 Part Universe Canon Full
 type: reference
 source: 07_SKILLS/amos-7-part-universe-canon-full/references
 tags:

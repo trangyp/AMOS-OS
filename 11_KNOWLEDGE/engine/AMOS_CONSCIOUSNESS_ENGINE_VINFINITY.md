@@ -1,11 +1,11 @@
 ---
-title: "AMOS Consciousness Engine vInfinity"
+title: AMOS Consciousness Engine vInfinity
 type: consciousness
 source: 11_KNOWLEDGE/engine
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Consciousness_Engine_v0.json (632 lines, 27KB)"
-origin_type: "SOURCE"
-category: "kernel"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Core/AMOS_Consciousness_Engine_v0.json (632 lines, 27KB)
+origin_type: SOURCE
+category: kernel
 tags:
 - amos
 - consciousness

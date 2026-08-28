@@ -1,5 +1,5 @@
 ---
-title: "Amos-Canon-Consistency-Governor MOC"
+title: Amos-Canon-Consistency-Governor MOC
 type: moc
 source: 07_SKILLS/amos-canon-consistency-governor
 tags:

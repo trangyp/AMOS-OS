@@ -1,7 +1,7 @@
 ---
-title: "AMOS Reasoning Kernel Model"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: AMOS Reasoning Kernel Model
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: brain-model
 source: 11_KNOWLEDGE/kernel
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/derived
 - topic/reasoning-kernel-model
 - kernel
-status: "active"
-provenance: "Reasoning kernel.txt"
-confidence: "STRUCTURAL"
+status: active
+provenance: Reasoning kernel.txt
+confidence: STRUCTURAL
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

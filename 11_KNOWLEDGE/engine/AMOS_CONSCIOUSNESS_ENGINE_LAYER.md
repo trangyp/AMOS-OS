@@ -1,7 +1,7 @@
 ---
-title: "amos-consciousness-engine-layer"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: amos-consciousness-engine-layer
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: bridge
 source: 11_KNOWLEDGE/engine
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/observation
 - topic/amos-consciousness-engine-layer
 - engine
-status: "index"
-provenance: "SOURCE_CLAIM"
-confidence: "VERIFIED"
+status: index
+provenance: SOURCE_CLAIM
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

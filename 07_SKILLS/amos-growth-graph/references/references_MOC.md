@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Growth Graph"
+title: References MOC — References — Amos Growth Graph
 type: moc
 source: 07_SKILLS/amos-growth-graph/references
 tags:

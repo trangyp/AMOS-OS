@@ -1,5 +1,5 @@
 ---
-title: "Amos-Boundary-Architecture-Rscf-Calculus MOC"
+title: Amos-Boundary-Architecture-Rscf-Calculus MOC
 type: moc
 source: 07_SKILLS/amos-boundary-architecture-rscf-calculus
 tags:

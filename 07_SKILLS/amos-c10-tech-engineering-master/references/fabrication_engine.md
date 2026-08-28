@@ -1,5 +1,5 @@
 ---
-title: "fabrication engine — References — Amos C10 Tech Engineering Master"
+title: fabrication engine — References — Amos C10 Tech Engineering Master
 type: reference
 source: 07_SKILLS/amos-c10-tech-engineering-master/references
 tags:

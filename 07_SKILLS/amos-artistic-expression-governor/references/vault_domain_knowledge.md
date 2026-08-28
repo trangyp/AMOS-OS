@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Artistic Expression Governor"
+title: Vault Domain Knowledge — Amos Artistic Expression Governor
 type: reference
 source: 07_SKILLS/amos-artistic-expression-governor/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Cognitive MOC"
+title: Cognitive MOC
 type: moc
 source: 11_KNOWLEDGE/cognitive
 tags:

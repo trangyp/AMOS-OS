@@ -1,5 +1,5 @@
 ---
-title: "Amos-Narrative-Integrity-Governor MOC"
+title: Amos-Narrative-Integrity-Governor MOC
 type: moc
 source: 07_SKILLS/amos-narrative-integrity-governor
 tags:

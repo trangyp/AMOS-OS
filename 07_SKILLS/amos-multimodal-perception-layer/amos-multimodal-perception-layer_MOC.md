@@ -1,5 +1,5 @@
 ---
-title: "Amos-Multimodal-Perception-Layer MOC"
+title: Amos-Multimodal-Perception-Layer MOC
 type: moc
 source: 07_SKILLS/amos-multimodal-perception-layer
 tags:

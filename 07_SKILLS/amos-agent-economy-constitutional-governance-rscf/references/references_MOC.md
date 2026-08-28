@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Agent Economy Constitutional Governance Rscf"
+title: References MOC — References — Amos Agent Economy Constitutional Governance Rscf
 type: moc
 source: 07_SKILLS/amos-agent-economy-constitutional-governance-rscf/references
 tags:

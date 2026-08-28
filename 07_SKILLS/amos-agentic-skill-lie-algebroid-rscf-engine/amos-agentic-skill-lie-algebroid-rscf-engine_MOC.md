@@ -1,5 +1,5 @@
 ---
-title: "Amos-Agentic-Skill-Lie-Algebroid-Rscf-Engine MOC"
+title: Amos-Agentic-Skill-Lie-Algebroid-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine
 tags:

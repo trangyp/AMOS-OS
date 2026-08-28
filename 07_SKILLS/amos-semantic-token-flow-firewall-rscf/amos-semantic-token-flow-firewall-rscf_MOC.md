@@ -1,5 +1,5 @@
 ---
-title: "Amos-Semantic-Token-Flow-Firewall-Rscf MOC"
+title: Amos-Semantic-Token-Flow-Firewall-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-semantic-token-flow-firewall-rscf
 tags:

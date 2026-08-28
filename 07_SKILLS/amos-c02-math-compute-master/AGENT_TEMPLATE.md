@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C02 Math Compute Master"
+title: AGENT TEMPLATE — Amos C02 Math Compute Master
 type: note
 source: 07_SKILLS/amos-c02-math-compute-master
 tags:

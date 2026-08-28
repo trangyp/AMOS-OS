@@ -1,5 +1,5 @@
 ---
-title: "04 Handbooks MOC"
+title: 04 Handbooks MOC
 type: moc
 source: 20_OPERATIONS/04_HANDBOOKS
 tags:

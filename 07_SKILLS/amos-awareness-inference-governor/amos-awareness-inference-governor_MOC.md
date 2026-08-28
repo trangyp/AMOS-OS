@@ -1,5 +1,5 @@
 ---
-title: "Amos-Awareness-Inference-Governor MOC"
+title: Amos-Awareness-Inference-Governor MOC
 type: moc
 source: 07_SKILLS/amos-awareness-inference-governor
 tags:

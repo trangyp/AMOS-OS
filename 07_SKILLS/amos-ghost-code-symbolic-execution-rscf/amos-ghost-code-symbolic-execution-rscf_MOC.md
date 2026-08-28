@@ -1,5 +1,5 @@
 ---
-title: "Amos-Ghost-Code-Symbolic-Execution-Rscf MOC"
+title: Amos-Ghost-Code-Symbolic-Execution-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf
 tags:

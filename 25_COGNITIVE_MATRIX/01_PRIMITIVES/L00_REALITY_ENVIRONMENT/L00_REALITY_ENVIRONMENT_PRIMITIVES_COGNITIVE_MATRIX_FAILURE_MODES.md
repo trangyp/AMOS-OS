@@ -1,5 +1,5 @@
 ---
-title: "L00_REALITY_ENVIRONMENT — Failure Modes"
+title: L00_REALITY_ENVIRONMENT — Failure Modes
 type: failure-mode
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:

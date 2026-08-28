@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Ontology Compiler"
+title: References MOC — References — Amos Ontology Compiler
 type: moc
 source: 07_SKILLS/amos-ontology-compiler/references
 tags:

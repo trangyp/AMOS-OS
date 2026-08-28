@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Commercial-Due-Diligence-Rscf MOC"
+title: Mckinsey-Commercial-Due-Diligence-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-commercial-due-diligence-rscf
 tags:

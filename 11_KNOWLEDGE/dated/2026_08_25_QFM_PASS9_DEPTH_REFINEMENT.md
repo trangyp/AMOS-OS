@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 9 — Depth Refinement of Thin Skills"
+title: 2026-08-25 QFM Pass 9 — Depth Refinement of Thin Skills
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

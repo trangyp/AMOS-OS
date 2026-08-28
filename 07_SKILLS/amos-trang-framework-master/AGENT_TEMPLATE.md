@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos Trang Framework Master"
+title: AGENT TEMPLATE — Amos Trang Framework Master
 type: note
 source: 07_SKILLS/amos-trang-framework-master
 tags:

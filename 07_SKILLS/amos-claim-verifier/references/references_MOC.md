@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Claim Verifier"
+title: References MOC — References — Amos Claim Verifier
 type: moc
 source: 07_SKILLS/amos-claim-verifier/references
 tags:

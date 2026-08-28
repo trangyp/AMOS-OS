@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Repair Allocation Optimizer"
+title: References MOC — References — Amos Repair Allocation Optimizer
 type: moc
 source: 07_SKILLS/amos-repair-allocation-optimizer/references
 tags:

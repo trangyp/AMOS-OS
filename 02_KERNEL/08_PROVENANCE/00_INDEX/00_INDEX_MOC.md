@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Kernel / Provenance / Index"
+title: Index MOC — Kernel / Provenance / Index
 type: moc
 source: 02_KERNEL/08_PROVENANCE/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Purpose Impact Rscf"
+title: Vault Domain Knowledge — Mckinsey Purpose Impact Rscf
 type: reference
 source: 07_SKILLS/mckinsey-purpose-impact-rscf/references
 tags:

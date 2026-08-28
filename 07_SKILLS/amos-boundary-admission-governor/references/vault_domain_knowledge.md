@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Boundary Admission Governor"
+title: Vault Domain Knowledge — Amos Boundary Admission Governor
 type: reference
 source: 07_SKILLS/amos-boundary-admission-governor/references
 tags:

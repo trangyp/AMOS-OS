@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Partnership-Ecosystem-Strategy-Rscf MOC"
+title: Mckinsey-Partnership-Ecosystem-Strategy-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-partnership-ecosystem-strategy-rscf
 tags:

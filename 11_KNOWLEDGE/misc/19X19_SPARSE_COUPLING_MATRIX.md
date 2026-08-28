@@ -1,8 +1,8 @@
 ---
-title: "19×19 Sparse Coupling Matrix (A-Matrix)"
-created: "2026-08-22"
-origin: "AMOS brain knowledge ingest"
-origin_architect: "AMOS"
+title: 19×19 Sparse Coupling Matrix (A-Matrix)
+created: '2026-08-22'
+origin: AMOS brain knowledge ingest
+origin_architect: AMOS
 type: reference
 tags:
 - canon-group/tech-ai
@@ -12,10 +12,10 @@ tags:
 - rscf/state/observation
 - topic/19x19-sparse-coupling-matrix
 - misc
-status: "active"
-provenance: "OBSERVATION"
-confidence: "DERIVED"
-source: "Ingest batch 2026-08-22"
+status: active
+provenance: OBSERVATION
+confidence: DERIVED
+source: Ingest batch 2026-08-22
 rscf:
   state: DERIVED
   claim_class: DERIVED

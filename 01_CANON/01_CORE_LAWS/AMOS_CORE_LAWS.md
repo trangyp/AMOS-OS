@@ -5,7 +5,7 @@ artifact_id: AMOS-CORE-LAWS
 name: AMOS_CORE_LAWS
 title: AMOS Core Laws — Constitutional Invariants of AMOS OS
 document_version: 2.0.0
-law_set_version: '4.4'
+law_set_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -55,6 +55,7 @@ tags:
 aliases:
 - AMOS Core Laws - AMOS Constitutional Laws - AMOS Integrity Laws - AMOS Core Invariants - A
 ---
+
 
 # AMOS Core Laws
 **Origin architect / steward:** Trang Phan

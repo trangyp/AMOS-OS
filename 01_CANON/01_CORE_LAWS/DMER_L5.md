@@ -1,5 +1,5 @@
 ---
-title: "DMER_L5 — Deterministic Multi-Epoch Recovery (Level 5)"
+title: DMER_L5 — Deterministic Multi-Epoch Recovery (Level 5)
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:

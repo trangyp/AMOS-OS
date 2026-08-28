@@ -1,6 +1,6 @@
 ---
-title: "AMOS Full Brain OS — Rebuilt Architecture"
-canonical_name: "AMOS Full Brain OS Architecture"
+title: AMOS Full Brain OS — Rebuilt Architecture
+canonical_name: AMOS Full Brain OS Architecture
 version_date: 2026-08-22
 language: en
 type: architecture
@@ -35,7 +35,7 @@ rscf:
   scope: AMOS_architecture
   unresolved_boundaries_preserved: true
 supersedes:
-  - "universal Kernel → Engine → Agent → Control Plane hierarchy"
+  - universal Kernel → Engine → Agent → Control Plane hierarchy
 anti_regression:
   preserve_full_brain_hierarchy: true
   preserve_engine_identity: true
@@ -44,6 +44,7 @@ anti_regression:
   preserve_omega_separation: true
   preserve_deployment_ontology_boundary: true
 ---
+
 
 
 # AMOS Full Brain OS — Rebuilt Architecture

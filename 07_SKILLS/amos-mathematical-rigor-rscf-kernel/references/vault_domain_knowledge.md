@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Mathematical Rigor Rscf Kernel"
+title: Vault Domain Knowledge — Amos Mathematical Rigor Rscf Kernel
 type: reference
 source: 07_SKILLS/amos-mathematical-rigor-rscf-kernel/references
 tags:

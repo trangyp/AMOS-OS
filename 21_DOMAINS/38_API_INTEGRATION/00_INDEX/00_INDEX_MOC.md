@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Api Integration / Index"
+title: Index MOC — Domains / Api Integration / Index
 type: moc
 source: 21_DOMAINS/38_API_INTEGRATION/00_INDEX
 tags:

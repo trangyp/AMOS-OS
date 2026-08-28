@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Distinction Rscf Architecture"
+title: References MOC — References — Amos Distinction Rscf Architecture
 type: moc
 source: 07_SKILLS/amos-distinction-rscf-architecture/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "L06 Working State MOC"
+title: L06 Working State MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE
 tags:

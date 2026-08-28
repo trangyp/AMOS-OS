@@ -1,16 +1,16 @@
 ---
-title: "Total Engine Cross-Plane Matrix"
+title: Total Engine Cross-Plane Matrix
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "TOTAL_ENGINE_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_total_engine_matrix"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX_TABLE"
-path: "25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md"
+artifact: TOTAL_ENGINE_MATRIX.md
+artifact_id: amos_25_cognitive_matrix_total_engine_matrix
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX_TABLE
+path: 25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -35,16 +35,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/matrix
-version: "2.0.0"
-updated: "2026-08-28"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "PASSED_CONSTITUTIONAL_TESTS"
-executable_binding: "ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 2.0.0
+updated: '2026-08-28'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: PASSED_CONSTITUTIONAL_TESTS
+executable_binding: ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -60,11 +60,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   control_plane:
-    artifact: "[[03_CONTROL_PLANE_MOC]]"
+    artifact: [[03_CONTROL_PLANE_MOC]]
   domains_moc:
-    artifact: "[[21_DOMAINS_MOC]]"
+    artifact: [[21_DOMAINS_MOC]]
   cognitive_matrix:
-    artifact: "[[25_COGNITIVE_MATRIX_MOC]]"
+    artifact: [[25_COGNITIVE_MATRIX_MOC]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

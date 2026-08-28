@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Unreachable Semantics Rscf"
+title: Vault Domain Knowledge — Amos Unreachable Semantics Rscf
 type: reference
 source: 07_SKILLS/amos-unreachable-semantics-rscf/references
 tags:

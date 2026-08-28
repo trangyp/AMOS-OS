@@ -1,5 +1,5 @@
 ---
-title: "Amos-Agent-Memory-Dynamics-Rscf-Engine MOC"
+title: Amos-Agent-Memory-Dynamics-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine
 tags:

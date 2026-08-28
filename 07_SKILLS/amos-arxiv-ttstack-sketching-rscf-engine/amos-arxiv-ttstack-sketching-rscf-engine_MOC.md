@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Ttstack-Sketching-Rscf-Engine MOC"
+title: Amos-Arxiv-Ttstack-Sketching-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-ttstack-sketching-rscf-engine
 tags:

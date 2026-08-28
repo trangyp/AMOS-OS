@@ -1,5 +1,5 @@
 ---
-title: "Amos-C01-Meta-Logic-Master MOC"
+title: Amos-C01-Meta-Logic-Master MOC
 type: moc
 source: 07_SKILLS/amos-c01-meta-logic-master
 tags:

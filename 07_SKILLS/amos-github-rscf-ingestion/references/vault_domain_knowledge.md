@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Github Rscf Ingestion"
+title: Vault Domain Knowledge — Amos Github Rscf Ingestion
 type: reference
 source: 07_SKILLS/amos-github-rscf-ingestion/references
 tags:

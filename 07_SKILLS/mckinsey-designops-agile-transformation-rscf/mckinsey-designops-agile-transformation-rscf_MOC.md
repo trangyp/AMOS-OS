@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Designops-Agile-Transformation-Rscf MOC"
+title: Mckinsey-Designops-Agile-Transformation-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-designops-agile-transformation-rscf
 tags:

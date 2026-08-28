@@ -1,5 +1,5 @@
 ---
-title: "Amos-Formal-Agent-Skill-Verification-Rscf MOC"
+title: Amos-Formal-Agent-Skill-Verification-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-formal-agent-skill-verification-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Risk-Constraint-Governor MOC"
+title: Amos-Risk-Constraint-Governor MOC
 type: moc
 source: 07_SKILLS/amos-risk-constraint-governor
 tags:

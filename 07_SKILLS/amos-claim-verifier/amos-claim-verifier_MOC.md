@@ -1,5 +1,5 @@
 ---
-title: "Amos-Claim-Verifier MOC"
+title: Amos-Claim-Verifier MOC
 type: moc
 source: 07_SKILLS/amos-claim-verifier
 tags:

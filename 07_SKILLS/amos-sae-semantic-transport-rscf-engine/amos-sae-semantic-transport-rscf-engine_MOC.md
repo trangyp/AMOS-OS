@@ -1,5 +1,5 @@
 ---
-title: "Amos-Sae-Semantic-Transport-Rscf-Engine MOC"
+title: Amos-Sae-Semantic-Transport-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-sae-semantic-transport-rscf-engine
 tags:

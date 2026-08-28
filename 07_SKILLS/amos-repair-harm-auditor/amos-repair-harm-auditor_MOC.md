@@ -1,5 +1,5 @@
 ---
-title: "Amos-Repair-Harm-Auditor MOC"
+title: Amos-Repair-Harm-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-repair-harm-auditor
 tags:

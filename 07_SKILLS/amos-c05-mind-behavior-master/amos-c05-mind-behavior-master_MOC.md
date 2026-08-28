@@ -1,5 +1,5 @@
 ---
-title: "Amos-C05-Mind-Behavior-Master MOC"
+title: Amos-C05-Mind-Behavior-Master MOC
 type: moc
 source: 07_SKILLS/amos-c05-mind-behavior-master
 tags:

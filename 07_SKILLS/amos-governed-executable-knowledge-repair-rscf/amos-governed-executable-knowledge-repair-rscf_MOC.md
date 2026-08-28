@@ -1,5 +1,5 @@
 ---
-title: "Amos-Governed-Executable-Knowledge-Repair-Rscf MOC"
+title: Amos-Governed-Executable-Knowledge-Repair-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-governed-executable-knowledge-repair-rscf
 tags:

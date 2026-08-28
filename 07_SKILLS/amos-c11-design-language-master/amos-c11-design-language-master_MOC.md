@@ -1,5 +1,5 @@
 ---
-title: "Amos-C11-Design-Language-Master MOC"
+title: Amos-C11-Design-Language-Master MOC
 type: moc
 source: 07_SKILLS/amos-c11-design-language-master
 tags:

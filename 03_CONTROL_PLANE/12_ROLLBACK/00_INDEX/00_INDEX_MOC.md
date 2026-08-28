@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Control Plane / Rollback / Index"
+title: Index MOC — Control Plane / Rollback / Index
 type: moc
 source: 03_CONTROL_PLANE/12_ROLLBACK/00_INDEX
 tags:

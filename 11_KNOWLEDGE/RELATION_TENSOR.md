@@ -1,5 +1,5 @@
 ---
-title: "AMOS Relation Tensor Architecture"
+title: AMOS Relation Tensor Architecture
 type: tensor
 source: 11_KNOWLEDGE
 tags:

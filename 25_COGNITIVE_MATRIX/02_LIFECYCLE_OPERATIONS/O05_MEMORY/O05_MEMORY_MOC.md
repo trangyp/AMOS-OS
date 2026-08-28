@@ -1,5 +1,5 @@
 ---
-title: "O05 Memory MOC"
+title: O05 Memory MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O05_MEMORY
 tags:

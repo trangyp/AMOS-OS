@@ -1,5 +1,5 @@
 ---
-title: "16 C06 Society Culture MOC"
+title: 16 C06 Society Culture MOC
 type: moc
 source: 21_DOMAINS/16_C06_SOCIETY_CULTURE
 tags:

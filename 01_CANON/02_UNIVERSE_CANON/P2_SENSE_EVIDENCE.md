@@ -1,16 +1,16 @@
 ---
-title: "P2 Sense & Evidence"
+title: P2 Sense & Evidence
 type: evidence
-source: "01_CANON/02_UNIVERSE_CANON"
-artifact: "P2_SENSE_EVIDENCE.md"
-artifact_id: "amos_01_canon_02_universe_canon_p2_sense_evidence"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/02_UNIVERSE_CANON"
-artifact_kind: "CANON_SPECIFICATION"
-path: "01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE.md"
+source: 01_CANON/02_UNIVERSE_CANON
+artifact: P2_SENSE_EVIDENCE.md
+artifact_id: amos_01_canon_02_universe_canon_p2_sense_evidence
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/02_UNIVERSE_CANON
+artifact_kind: CANON_SPECIFICATION
+path: 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE.md
 tags:
   - amos_os
   - canon
@@ -30,16 +30,16 @@ tags:
   - epistemic_boundary
   - rscf
   - canon/universe
-version: "1.0.0"
-updated: "2026-08-27"
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CONDITIONAL"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_NORMALIZATION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: PROPOSED_SPECIFICATION
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_NORMALIZATION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL

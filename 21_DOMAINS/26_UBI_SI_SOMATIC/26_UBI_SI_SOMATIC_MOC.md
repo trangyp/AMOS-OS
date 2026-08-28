@@ -1,5 +1,5 @@
 ---
-title: "26 Ubi Si Somatic MOC"
+title: 26 Ubi Si Somatic MOC
 type: moc
 source: 21_DOMAINS/26_UBI_SI_SOMATIC
 tags:

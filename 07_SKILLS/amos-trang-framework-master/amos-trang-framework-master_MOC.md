@@ -1,5 +1,5 @@
 ---
-title: "Amos-Trang-Framework-Master MOC"
+title: Amos-Trang-Framework-Master MOC
 type: moc
 source: 07_SKILLS/amos-trang-framework-master
 tags:

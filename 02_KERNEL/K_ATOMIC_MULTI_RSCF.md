@@ -1,5 +1,5 @@
 ---
-title: "K_ATOMIC_MULTI_RSCF — Atomic Multi-RSCF Transaction Kernel"
+title: K_ATOMIC_MULTI_RSCF — Atomic Multi-RSCF Transaction Kernel
 type: kernel
 source: 02_KERNEL
 tags:

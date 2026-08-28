@@ -1,5 +1,5 @@
 ---
-title: "Amos-Gradient-Rscf-Architecture MOC"
+title: Amos-Gradient-Rscf-Architecture MOC
 type: moc
 source: 07_SKILLS/amos-gradient-rscf-architecture
 tags:

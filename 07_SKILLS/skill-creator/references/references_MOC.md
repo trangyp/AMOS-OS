@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Skill Creator"
+title: References MOC — References — Skill Creator
 type: moc
 source: 07_SKILLS/skill-creator/references
 tags:

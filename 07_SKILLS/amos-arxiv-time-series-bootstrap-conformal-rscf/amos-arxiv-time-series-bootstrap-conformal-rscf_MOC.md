@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Time-Series-Bootstrap-Conformal-Rscf MOC"
+title: Amos-Arxiv-Time-Series-Bootstrap-Conformal-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-time-series-bootstrap-conformal-rscf
 tags:

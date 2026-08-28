@@ -1,16 +1,16 @@
 ---
-title: "TRANG Zero Framework — 02 Universe Canon"
+title: TRANG Zero Framework — 02 Universe Canon
 type: trang-framework
 source: 01_CANON/02_UNIVERSE_CANON
-artifact: "TRANG_ZERO_FRAMEWORK.md"
-artifact_id: "amos_01_canon_02_universe_canon_trang_zero_framework"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/02_UNIVERSE_CANON"
-artifact_kind: "FRAMEWORK"
-path: "01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK.md"
+artifact: TRANG_ZERO_FRAMEWORK.md
+artifact_id: amos_01_canon_02_universe_canon_trang_zero_framework
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/02_UNIVERSE_CANON
+artifact_kind: FRAMEWORK
+path: 01_CANON/02_UNIVERSE_CANON/TRANG_ZERO_FRAMEWORK.md
 tags:
 - amos_os
 - canon
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

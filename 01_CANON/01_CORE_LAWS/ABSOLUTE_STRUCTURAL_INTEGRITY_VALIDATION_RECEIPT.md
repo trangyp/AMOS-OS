@@ -1,16 +1,16 @@
 ---
-title: "Absolute Structural Integrity Validation Receipt"
+title: Absolute Structural Integrity Validation Receipt
 type: receipt
-source: "01_CANON/01_CORE_LAWS"
-artifact: "ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT.md"
-artifact_id: "amos_01_canon_01_core_laws_absolute_structural_integrity_validation_receipt"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/01_CORE_LAWS"
-artifact_kind: "VALIDATION_RECEIPT"
-path: "01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT.md"
+source: 01_CANON/01_CORE_LAWS
+artifact: ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT.md
+artifact_id: amos_01_canon_01_core_laws_absolute_structural_integrity_validation_receipt
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/01_CORE_LAWS
+artifact_kind: VALIDATION_RECEIPT
+path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT.md
 tags:
   - amos_os
   - canon
@@ -24,16 +24,16 @@ tags:
   - rscf
   - validation_receipt
   - canon/core
-version: "0.2.0"
-updated: "2026-08-28"
-status: "RECEIPT_SLOT_DEFINED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CONDITIONAL"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-receipt_status: "UNVERIFIED"
-execution_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
+version: 0.2.0
+updated: '2026-08-28'
+status: RECEIPT_SLOT_DEFINED
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+receipt_status: UNVERIFIED
+execution_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

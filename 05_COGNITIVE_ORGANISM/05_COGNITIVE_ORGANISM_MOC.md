@@ -1,5 +1,5 @@
 ---
-title: "05 Cognitive Organism MOC"
+title: 05 Cognitive Organism MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM
 tags:

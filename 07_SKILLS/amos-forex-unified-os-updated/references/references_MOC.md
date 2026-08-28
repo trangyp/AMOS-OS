@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Forex Unified Os Updated"
+title: References MOC — References — Amos Forex Unified Os Updated
 type: moc
 source: 07_SKILLS/amos-forex-unified-os-updated/references
 tags:

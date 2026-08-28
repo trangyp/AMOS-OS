@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Test Time Compute Scaling Rscf"
+title: Vault Domain Knowledge — Arxiv Test Time Compute Scaling Rscf
 type: reference
 source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf/references
 tags:

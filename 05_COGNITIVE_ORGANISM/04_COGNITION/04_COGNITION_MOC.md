@@ -1,5 +1,5 @@
 ---
-title: "04 Cognition MOC"
+title: 04 Cognition MOC
 type: moc
 source: 05_COGNITIVE_ORGANISM/04_COGNITION
 tags:

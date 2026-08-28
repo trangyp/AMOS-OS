@@ -1,5 +1,5 @@
 ---
-title: "Amos-Cli-Failure-Process-Diagnostics-Rscf MOC"
+title: Amos-Cli-Failure-Process-Diagnostics-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-cli-failure-process-diagnostics-rscf
 tags:

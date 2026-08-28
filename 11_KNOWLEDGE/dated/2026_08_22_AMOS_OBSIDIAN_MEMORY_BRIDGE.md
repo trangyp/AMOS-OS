@@ -6,7 +6,7 @@ origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_OBSIDIAN_MEMORY_BRIDGE.py
 confidence: 0.95
 epistemic_class: SOURCE_DERIVED
-conclusion_label: "VERIFIED_PRESENT"
+conclusion_label: VERIFIED_PRESENT
 tags:
 - canon-group/tech-ai
 - cosmo-brain

@@ -1,5 +1,5 @@
 ---
-title: "03 Policy MOC"
+title: 03 Policy MOC
 type: moc
 source: 03_CONTROL_PLANE/03_POLICY
 tags:

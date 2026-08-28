@@ -1,16 +1,16 @@
 ---
-title: "FPR — First Principle Reasoning"
+title: FPR — First Principle Reasoning
 type: reasoning
 source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: "FPR_FIRST_PRINCIPLE_REASONING.md"
-artifact_id: "amos_11_knowledge_05_frameworks_fpr_first_principle_reasoning"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "11_KNOWLEDGE"
-segment: "11_KNOWLEDGE/05_FRAMEWORKS"
-artifact_kind: "FRAMEWORK"
-path: "11_KNOWLEDGE/05_FRAMEWORKS/FPR_FIRST_PRINCIPLE_REASONING.md"
+artifact: FPR_FIRST_PRINCIPLE_REASONING.md
+artifact_id: amos_11_knowledge_05_frameworks_fpr_first_principle_reasoning
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 11_KNOWLEDGE
+segment: 11_KNOWLEDGE/05_FRAMEWORKS
+artifact_kind: FRAMEWORK
+path: 11_KNOWLEDGE/05_FRAMEWORKS/FPR_FIRST_PRINCIPLE_REASONING.md
 tags:
   - amos_os
   - knowledge
@@ -24,16 +24,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -46,9 +46,9 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   articulation:
-    artifact: "[[FIRST_PRINCIPLES_ARTICULATION]]"
+    artifact: [[FIRST_PRINCIPLES_ARTICULATION]]
   deterministic_logic:
-    artifact: "[[LDAI_LOGICALLY_DETERMINISTIC_AI]]"
+    artifact: [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

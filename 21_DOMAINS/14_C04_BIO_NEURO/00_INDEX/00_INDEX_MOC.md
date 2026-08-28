@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / C04 Bio Neuro / Index"
+title: Index MOC — Domains / C04 Bio Neuro / Index
 type: moc
 source: 21_DOMAINS/14_C04_BIO_NEURO/00_INDEX
 tags:

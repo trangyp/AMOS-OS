@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Agency Consequence Governor"
+title: References MOC — References — Amos Agency Consequence Governor
 type: moc
 source: 07_SKILLS/amos-agency-consequence-governor/references
 tags:

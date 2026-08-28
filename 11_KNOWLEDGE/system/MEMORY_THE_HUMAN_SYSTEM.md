@@ -3,7 +3,7 @@ title: MEMORY THE HUMAN SYSTEM
 type: memory
 created: 2026-08-22
 updated: 2026-08-22
-source: "The Complete Human System (book manuscript — two versions ingested)"
+source: The Complete Human System (book manuscript — two versions ingested)
 tags:
 - canon-group/human-system
 - canon/narrative

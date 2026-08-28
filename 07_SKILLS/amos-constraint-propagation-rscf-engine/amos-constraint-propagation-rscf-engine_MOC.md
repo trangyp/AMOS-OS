@@ -1,5 +1,5 @@
 ---
-title: "Amos-Constraint-Propagation-Rscf-Engine MOC"
+title: Amos-Constraint-Propagation-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-constraint-propagation-rscf-engine
 tags:

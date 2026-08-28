@@ -1,16 +1,16 @@
 ---
-title: "UBI Neuroemotional Intelligence (NEI)"
+title: UBI Neuroemotional Intelligence (NEI)
 type: biology
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
-artifact: "UBI_NEUROEMOTIONAL_INTELLIGENCE.md"
-artifact_id: "amos_11_knowledge_06_domain_knowledge_ubi_neuroemotional_intelligence"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "11_KNOWLEDGE"
-segment: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE"
-artifact_kind: "DOMAIN_KNOWLEDGE"
-path: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE.md"
+artifact: UBI_NEUROEMOTIONAL_INTELLIGENCE.md
+artifact_id: amos_11_knowledge_06_domain_knowledge_ubi_neuroemotional_intelligence
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 11_KNOWLEDGE
+segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
+artifact_kind: DOMAIN_KNOWLEDGE
+path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE.md
 tags:
   - amos_os
   - knowledge
@@ -27,16 +27,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -50,12 +50,12 @@ rscf:
     - SOURCE_DEFINED_NEI_MODEL
 framework_binding:
   parent_framework:
-    name: "Unified Biological Intelligence™"
-    acronym: "UBI"
-    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    name: Unified Biological Intelligence™
+    acronym: UBI
+    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
   matrix_binding:
-    artifact: "[[AMOS_X_UBI]]"
-    matrix: "[[AMOS_X_UBI_MATRIX]]"
+    artifact: [[AMOS_X_UBI]]
+    matrix: [[AMOS_X_UBI_MATRIX]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Memory-Conflict-Governor MOC"
+title: Amos-Memory-Conflict-Governor MOC
 type: moc
 source: 07_SKILLS/amos-memory-conflict-governor
 tags:

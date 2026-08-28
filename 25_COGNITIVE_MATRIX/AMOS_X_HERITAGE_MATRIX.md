@@ -1,5 +1,5 @@
 ---
-title: "AMOS × Heritage Matrix"
+title: AMOS × Heritage Matrix
 type: heritage
 source: 25_COGNITIVE_MATRIX
 tags:

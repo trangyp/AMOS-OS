@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Causal Closure Governor"
+title: Vault Domain Knowledge — Amos Causal Closure Governor
 type: reference
 source: 07_SKILLS/amos-causal-closure-governor/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Gmef Governance"
+title: References MOC — References — Gmef Governance
 type: moc
 source: 07_SKILLS/gmef-governance/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Vecm Cointegration Rscf Engine"
+title: References MOC — References — Amos Fx Vecm Cointegration Rscf Engine
 type: moc
 source: 07_SKILLS/amos-fx-vecm-cointegration-rscf-engine/references
 tags:

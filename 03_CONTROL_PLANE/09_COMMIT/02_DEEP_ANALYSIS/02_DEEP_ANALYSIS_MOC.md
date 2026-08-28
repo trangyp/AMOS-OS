@@ -1,5 +1,5 @@
 ---
-title: "02 Deep Analysis MOC"
+title: 02 Deep Analysis MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/02_DEEP_ANALYSIS
 tags:

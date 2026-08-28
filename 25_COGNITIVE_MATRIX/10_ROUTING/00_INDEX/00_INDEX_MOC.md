@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Routing / Index"
+title: Index MOC — Cognitive Matrix / Routing / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/10_ROUTING/00_INDEX
 tags:

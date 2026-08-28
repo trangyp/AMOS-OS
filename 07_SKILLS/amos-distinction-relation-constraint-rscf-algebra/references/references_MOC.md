@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Distinction Relation Constraint Rscf Algebra"
+title: References MOC — References — Amos Distinction Relation Constraint Rscf Algebra
 type: moc
 source: 07_SKILLS/amos-distinction-relation-constraint-rscf-algebra/references
 tags:

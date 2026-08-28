@@ -1,5 +1,5 @@
 ---
-title: "L20 Credit Assignment MOC"
+title: L20 Credit Assignment MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT
 tags:

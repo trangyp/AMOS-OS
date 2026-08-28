@@ -82,6 +82,13 @@ This skill allows Antigravity to parse and execute any of the 200+ canonical wor
   - **Input**: Audit pipeline request
   - **Output**: Sequential execution of audit workflow steps, gate enforcement at each checkpoint, failure-path activation if any gate fails, final audit report with confidence ceiling
 
+## Validation Gates
+
+- **L0 Integrity**: All 7 parts accounted for; no part silently dropped
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope; no scope creep
+- **L7 Authority**: No autonomous action beyond authority boundary
+
 ## Do not use
 
 - For generic task execution outside AMOS workflow framework

@@ -1,5 +1,5 @@
 ---
-title: "arxiv_md MOC"
+title: arxiv_md MOC
 type: moc
 source: 11_KNOWLEDGE/_arxiv_md
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Verification Aware Implementation Diversity Rscf"
+title: References MOC — References — Amos Verification Aware Implementation Diversity Rscf
 type: moc
 source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf/references
 tags:

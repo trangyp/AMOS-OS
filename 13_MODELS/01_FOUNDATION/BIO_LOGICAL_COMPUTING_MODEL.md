@@ -1,16 +1,16 @@
 ---
-title: "Bio-Logical Computing Model"
+title: Bio-Logical Computing Model
 type: model
 source: 13_MODELS/01_FOUNDATION
-artifact: "BIO_LOGICAL_COMPUTING_MODEL.md"
-artifact_id: "amos_13_models_01_foundation_bio_logical_computing_model"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "13_MODELS"
-segment: "13_MODELS/01_FOUNDATION"
-artifact_kind: "LOG"
-path: "13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL.md"
+artifact: BIO_LOGICAL_COMPUTING_MODEL.md
+artifact_id: amos_13_models_01_foundation_bio_logical_computing_model
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 13_MODELS
+segment: 13_MODELS/01_FOUNDATION
+artifact_kind: LOG
+path: 13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL.md
 tags:
 - amos_os
 - model
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/model
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

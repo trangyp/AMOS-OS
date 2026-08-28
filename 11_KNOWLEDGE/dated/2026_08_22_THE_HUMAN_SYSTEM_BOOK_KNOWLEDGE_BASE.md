@@ -17,7 +17,7 @@ tags:
 - dated
 - dated/2026-08-22
 date: 2026-08-22
-source_title: "The Complete Human System — A Unified Fractal Theory of Mind, Body, Civilization, and Suffering"
+source_title: The Complete Human System — A Unified Fractal Theory of Mind, Body, Civilization, and Suffering
 source_type: book-manuscript
 source_url: local-ingestion
 rscf:

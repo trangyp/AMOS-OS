@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Mixture Of Depths Rscf"
+title: Vault Domain Knowledge — Arxiv Mixture Of Depths Rscf
 type: reference
 source: 07_SKILLS/arxiv-mixture-of-depths-rscf/references
 tags:

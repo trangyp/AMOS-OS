@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Strategy-Portfolio-Engine MOC"
+title: Mckinsey-Strategy-Portfolio-Engine MOC
 type: moc
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine
 tags:

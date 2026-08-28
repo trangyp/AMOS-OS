@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Archive / Legacy / Index"
+title: Index MOC — Archive / Legacy / Index
 type: moc
 source: 24_ARCHIVE/00_LEGACY/00_INDEX
 tags:

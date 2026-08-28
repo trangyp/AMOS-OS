@@ -1,11 +1,11 @@
 ---
-title: "AMOS Emotion Engine vInfinity (AMOS_MEGA_HUMAN_ENGINE)"
+title: AMOS Emotion Engine vInfinity (AMOS_MEGA_HUMAN_ENGINE)
 type: emotion
 source: 11_KNOWLEDGE/engine
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Core/AMOS_Emotion_Engine_v0.json (439 lines, 15KB)"
-origin_type: "SOURCE"
-category: "kernel"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Core/AMOS_Emotion_Engine_v0.json (439 lines, 15KB)
+origin_type: SOURCE
+category: kernel
 tags:
 - amos
 - emotion

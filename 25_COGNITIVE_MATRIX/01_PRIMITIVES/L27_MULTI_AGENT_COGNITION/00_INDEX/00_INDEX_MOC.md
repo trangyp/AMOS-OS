@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L27 Multi Agent Cognition / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L27 Multi Agent Cognition / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L27_MULTI_AGENT_COGNITION/00_INDEX
 tags:

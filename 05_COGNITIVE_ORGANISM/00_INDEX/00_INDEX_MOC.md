@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Organism / Index"
+title: Index MOC — Cognitive Organism / Index
 type: moc
 source: 05_COGNITIVE_ORGANISM/00_INDEX
 tags:

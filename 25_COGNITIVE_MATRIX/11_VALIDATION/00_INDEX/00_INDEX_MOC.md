@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Validation / Index"
+title: Index MOC — Cognitive Matrix / Validation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/11_VALIDATION/00_INDEX
 tags:

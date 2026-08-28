@@ -1,5 +1,5 @@
 ---
-title: "L00_REALITY_ENVIRONMENT — Dependencies"
+title: L00_REALITY_ENVIRONMENT — Dependencies
 type: dependency
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:

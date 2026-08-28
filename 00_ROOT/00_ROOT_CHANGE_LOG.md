@@ -1,21 +1,21 @@
 ---
-title: "AMOS OS Root Change Log"
+title: AMOS OS Root Change Log
 type: changelog
 source: 00_ROOT
-artifact: "00_ROOT_CHANGE_LOG.md"
-artifact_id: "AMOS_ROOT_CHANGE_LOG_000"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-domain: "ROOT GOVERNANCE / CHANGE CONTROL / PROVENANCE"
-artifact_class: "ROOT_CHANGE_LEDGER_SPECIFICATION"
-version: "1.0.0"
-updated: "2026-08-26"
-status: "PROPOSED_SPECIFICATION"
-epistemic_class: "MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "UNKNOWN/GAP"
-validation_status: "UNKNOWN/GAP"
+artifact: 00_ROOT_CHANGE_LOG.md
+artifact_id: AMOS_ROOT_CHANGE_LOG_000
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+domain: ROOT GOVERNANCE / CHANGE CONTROL / PROVENANCE
+artifact_class: ROOT_CHANGE_LEDGER_SPECIFICATION
+version: 1.0.0
+updated: '2026-08-26'
+status: PROPOSED_SPECIFICATION
+epistemic_class: MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: UNKNOWN/GAP
+validation_status: UNKNOWN/GAP
 tags:
 - note
 - 00-root

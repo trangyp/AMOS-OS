@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Canon / Supersession / Index"
+title: Index MOC — Canon / Supersession / Index
 type: moc
 source: 01_CANON/08_SUPERSESSION/00_INDEX
 tags:

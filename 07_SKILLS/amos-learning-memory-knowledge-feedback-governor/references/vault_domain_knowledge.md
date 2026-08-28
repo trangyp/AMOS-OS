@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Learning Memory Knowledge Feedback Governor"
+title: Vault Domain Knowledge — Amos Learning Memory Knowledge Feedback Governor
 type: reference
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/references
 tags:

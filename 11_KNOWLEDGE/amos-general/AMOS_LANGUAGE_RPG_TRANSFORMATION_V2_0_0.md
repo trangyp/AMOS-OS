@@ -2,21 +2,21 @@
 type: transformation
 source: 11_KNOWLEDGE/amos-general
 artifact_id: AMOS-LRPG
-title: "Language RPG → Adaptive Communication Simulation OS"
-document_version: "2.0.0"
-architecture_version: "1.0.0"
-amos_core_target: "v4.4"
-created: "2026-08-25"
-updated: "2026-08-25"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-domain: "adaptive-communication-simulation"
-status: "integration"
-conclusion_class: "CONDITIONAL"
-completion_class: "COMPLETE_FOR_ARCHITECTURE_SCOPE"
-production_readiness: "NOT_YET_VERIFIED"
-source_status: "SOURCE_CLAIM + IMPLEMENTATION_SUMMARY"
-governing_law: "integrity > completeness > fluency > speed > token savings"
+title: Language RPG → Adaptive Communication Simulation OS
+document_version: 2.0.0
+architecture_version: 1.0.0
+amos_core_target: v4.4
+created: '2026-08-25'
+updated: '2026-08-25'
+origin_architect: Trang Phan
+steward: Trang Phan
+domain: adaptive-communication-simulation
+status: integration
+conclusion_class: CONDITIONAL
+completion_class: COMPLETE_FOR_ARCHITECTURE_SCOPE
+production_readiness: NOT_YET_VERIFIED
+source_status: SOURCE_CLAIM + IMPLEMENTATION_SUMMARY
+governing_law: integrity > completeness > fluency > speed > token savings
 tags:
 - amos-general
 - amos

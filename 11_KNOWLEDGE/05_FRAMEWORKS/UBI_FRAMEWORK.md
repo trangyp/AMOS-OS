@@ -1,16 +1,16 @@
 ---
-title: "UBI Framework"
+title: UBI Framework
 type: biology
 source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: "UBI_FRAMEWORK.md"
-artifact_id: "amos_11_knowledge_05_frameworks_ubi_framework"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "11_KNOWLEDGE"
-segment: "11_KNOWLEDGE/05_FRAMEWORKS"
-artifact_kind: "FRAMEWORK"
-path: "11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRAMEWORK.md"
+artifact: UBI_FRAMEWORK.md
+artifact_id: amos_11_knowledge_05_frameworks_ubi_framework
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 11_KNOWLEDGE
+segment: 11_KNOWLEDGE/05_FRAMEWORKS
+artifact_kind: FRAMEWORK
+path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRAMEWORK.md
 tags:
   - amos_os
   - knowledge
@@ -24,16 +24,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -47,12 +47,12 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
-    name: "Unified Biological Intelligence (UBI) Framework"
+    name: Unified Biological Intelligence (UBI) Framework
     role: FOUR_DOMAIN_BIOLOGICAL_INTELLIGENCE_FOUNDATION
   master_specification:
-    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
   ubi_master:
-    artifact: "[[UBI_MASTER]]"
+    artifact: [[UBI_MASTER]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

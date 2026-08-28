@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Policy Design / Index"
+title: Index MOC — Domains / Policy Design / Index
 type: moc
 source: 21_DOMAINS/32_POLICY_DESIGN/00_INDEX
 tags:

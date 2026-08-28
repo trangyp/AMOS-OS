@@ -1,5 +1,5 @@
 ---
-title: "91 Calibration Confidence Modes MOC"
+title: 91 Calibration Confidence Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/91_CALIBRATION_CONFIDENCE_MODES
 tags:

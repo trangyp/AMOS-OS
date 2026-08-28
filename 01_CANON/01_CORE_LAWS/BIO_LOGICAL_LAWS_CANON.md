@@ -1,20 +1,20 @@
 ---
-title: "Bio-Logical Laws Canon"
+title: Bio-Logical Laws Canon
 type: canon
 source: 01_CANON/01_CORE_LAWS
-artifact: "BIO_LOGICAL_LAWS_CANON.md"
-artifact_id: "amos_01_canon_01_core_laws_bio_logical_laws_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/01_CORE_LAWS"
-artifact_kind: "LOG"
-path: "01_CANON/01_CORE_LAWS/BIO_LOGICAL_LAWS_CANON.md"
+artifact: BIO_LOGICAL_LAWS_CANON.md
+artifact_id: amos_01_canon_01_core_laws_bio_logical_laws_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/01_CORE_LAWS
+artifact_kind: LOG
+path: 01_CANON/01_CORE_LAWS/BIO_LOGICAL_LAWS_CANON.md
 canon_group: amos_core
 schema_family: RSCF
 schema_role: CANON_RSCF
-schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
+schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
   - amos_os
   - canon
@@ -38,18 +38,18 @@ tags:
   - rscf
   - canon/universe
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-empirical_validation_status: "NOT_ESTABLISHED"
-biological_validation_status: "NOT_ESTABLISHED"
-mathematical_validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+empirical_validation_status: NOT_ESTABLISHED
+biological_validation_status: NOT_ESTABLISHED
+mathematical_validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 overclaim_risk: true
 overclaim_note: >
   "Bio-Logical Laws" is presently an addressable AMOS framework family,

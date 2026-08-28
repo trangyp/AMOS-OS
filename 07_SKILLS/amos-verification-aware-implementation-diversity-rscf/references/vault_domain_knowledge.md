@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Verification Aware Implementation Diversity Rscf"
+title: Vault Domain Knowledge — Amos Verification Aware Implementation Diversity Rscf
 type: reference
 source: 07_SKILLS/amos-verification-aware-implementation-diversity-rscf/references
 tags:

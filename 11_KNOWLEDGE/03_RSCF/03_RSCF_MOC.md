@@ -1,5 +1,5 @@
 ---
-title: "03 Rscf MOC"
+title: 03 Rscf MOC
 type: moc
 source: 11_KNOWLEDGE/03_RSCF
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "43 Geo Geopolitics MOC"
+title: 43 Geo Geopolitics MOC
 type: moc
 source: 21_DOMAINS/43_GEO_GEOPOLITICS
 tags:

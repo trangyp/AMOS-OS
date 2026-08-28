@@ -1,5 +1,5 @@
 ---
-title: "C02 Metacognitive MOC"
+title: C02 Metacognitive MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE
 tags:

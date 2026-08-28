@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Reality Meta Law Auditor"
+title: References MOC — References — Amos Reality Meta Law Auditor
 type: moc
 source: 07_SKILLS/amos-reality-meta-law-auditor/references
 tags:

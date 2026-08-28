@@ -1,5 +1,5 @@
 ---
-title: "AMOS BRAIN ENHANCEMENT — Brain"
+title: AMOS BRAIN ENHANCEMENT — Brain
 tags:
 - brain
 - cognitive

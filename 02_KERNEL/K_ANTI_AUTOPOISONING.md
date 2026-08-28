@@ -1,5 +1,5 @@
 ---
-title: "K_ANTI_AUTOPOISONING — Anti-Autopoisoning Kernel"
+title: K_ANTI_AUTOPOISONING — Anti-Autopoisoning Kernel
 type: kernel
 source: 02_KERNEL
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Templates MOC"
+title: Templates MOC
 type: moc
 source: Templates
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Canon Compiler"
+title: Vault Domain Knowledge — Amos Canon Compiler
 type: reference
 source: 07_SKILLS/amos-canon-compiler/references
 tags:

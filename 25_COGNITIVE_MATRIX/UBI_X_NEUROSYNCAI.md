@@ -1,38 +1,38 @@
 ---
-title: "UBI X NEUROSYNCAI"
+title: UBI X NEUROSYNCAI
 type: cognitive_matrix
-source: "25_COGNITIVE_MATRIX"
-artifact: "UBI_X_NEUROSYNCAI.md"
-artifact_id: "amos_25_cognitive_matrix_ubi_x_neurosyncai"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI.md"
+source: 25_COGNITIVE_MATRIX
+artifact: UBI_X_NEUROSYNCAI.md
+artifact_id: amos_25_cognitive_matrix_ubi_x_neurosyncai
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI.md
 tags:
   - amos_os
   - cognitive_matrix
   - canon/matrix
   - rscf
   - provenance
-version: "1.0.0"
-updated: "2026-08-28"
-status: "CANON_CANDIDATE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CANDIDATE_PENDING_VALIDATION"
-implementation_status: "CONCEPTUAL"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 1.0.0
+updated: '2026-08-28'
+status: CANON_CANDIDATE
+epistemic_class: AMOS_MODEL
+canonical_status: CANDIDATE_PENDING_VALIDATION
+implementation_status: CONCEPTUAL
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: AMOS_cognitive_matrix
-  confidence_ceiling: "SOURCE_DEPENDENT"
-  regime: "AMOS_OS_MODEL"
+  confidence_ceiling: SOURCE_DEPENDENT
+  regime: AMOS_OS_MODEL
 ---
 
 Below is a full Obsidian-ready, heavily tagged version that preserves the supplied source as the canonical load-bearing content while expanding its vault structure, RSCF representation, cross-plane relationships, epistemic boundaries, implementation contract, validation surfaces, and explicit gaps.

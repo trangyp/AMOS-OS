@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Flash-Attention-Io-Rscf MOC"
+title: Arxiv-Flash-Attention-Io-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-flash-attention-io-rscf
 tags:

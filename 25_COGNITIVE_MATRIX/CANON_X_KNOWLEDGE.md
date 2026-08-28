@@ -1,16 +1,16 @@
 ---
-title: "Canon x Knowledge"
+title: Canon x Knowledge
 type: cognitive_matrix
-source: "25_COGNITIVE_MATRIX"
-artifact: "CANON_X_KNOWLEDGE.md"
-artifact_id: "amos_25_cognitive_matrix_canon_x_knowledge"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md"
+source: 25_COGNITIVE_MATRIX
+artifact: CANON_X_KNOWLEDGE.md
+artifact_id: amos_25_cognitive_matrix_canon_x_knowledge
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -20,22 +20,22 @@ tags:
   - provenance
   - rscf
   - canon/matrix
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_CLAIM"
-implementation_status: "CONCEPTUAL"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_CLAIM
+implementation_status: CONCEPTUAL
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: AMOS_cognitive_matrix
-  confidence_ceiling: "SOURCE_DEPENDENT"
-  regime: "AMOS_OS_MODEL"
+  confidence_ceiling: SOURCE_DEPENDENT
+  regime: AMOS_OS_MODEL
 ---
 
 ## Canon x Knowledge — structural review

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Scientific Closure Governor Rscf"
+title: Vault Domain Knowledge — Amos Scientific Closure Governor Rscf
 type: reference
 source: 07_SKILLS/amos-scientific-closure-governor-rscf/references
 tags:

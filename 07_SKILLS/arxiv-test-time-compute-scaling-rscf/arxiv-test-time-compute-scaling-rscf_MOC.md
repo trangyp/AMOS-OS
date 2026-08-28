@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Test-Time-Compute-Scaling-Rscf MOC"
+title: Arxiv-Test-Time-Compute-Scaling-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-test-time-compute-scaling-rscf
 tags:

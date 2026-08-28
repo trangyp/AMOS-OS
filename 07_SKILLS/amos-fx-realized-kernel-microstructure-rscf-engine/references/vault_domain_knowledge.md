@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx Realized Kernel Microstructure Rscf Engine"
+title: Vault Domain Knowledge — Amos Fx Realized Kernel Microstructure Rscf Engine
 type: reference
 source: 07_SKILLS/amos-fx-realized-kernel-microstructure-rscf-engine/references
 tags:

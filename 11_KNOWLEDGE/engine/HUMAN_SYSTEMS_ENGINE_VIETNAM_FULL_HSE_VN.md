@@ -1,10 +1,10 @@
 ---
-title: "Human Systems Engine Vietnam — Full 4,412KB PDF (2,819 lines, 0 GAP)"
+title: Human Systems Engine Vietnam — Full 4,412KB PDF (2,819 lines, 0 GAP)
 type: engine
 source: 11_KNOWLEDGE/engine
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf"
-origin_type: "SOURCE"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/_Archive/Human_Systems_Engine_(HSE)_VN.pdf
+origin_type: SOURCE
 tags:
 - amos
 - hse

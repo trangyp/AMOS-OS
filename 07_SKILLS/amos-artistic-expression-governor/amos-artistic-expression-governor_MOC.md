@@ -1,5 +1,5 @@
 ---
-title: "Amos-Artistic-Expression-Governor MOC"
+title: Amos-Artistic-Expression-Governor MOC
 type: moc
 source: 07_SKILLS/amos-artistic-expression-governor
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "TPE Prediction Layer (Redirect)"
+title: TPE Prediction Layer (Redirect)
 type: redirect
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

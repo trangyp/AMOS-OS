@@ -1,5 +1,5 @@
 ---
-title: "AMOS MOC (Redirect)"
+title: AMOS MOC (Redirect)
 type: moc_redirect
 source: 00_ROOT
 tags:

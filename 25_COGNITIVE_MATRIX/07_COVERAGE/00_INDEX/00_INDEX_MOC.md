@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Coverage / Index"
+title: Index MOC — Cognitive Matrix / Coverage / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/07_COVERAGE/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Technology Product Governance Rscf"
+title: References MOC — References — Mckinsey Technology Product Governance Rscf
 type: moc
 source: 07_SKILLS/mckinsey-technology-product-governance-rscf/references
 tags:

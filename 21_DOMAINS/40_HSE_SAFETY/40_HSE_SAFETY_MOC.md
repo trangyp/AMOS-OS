@@ -1,5 +1,5 @@
 ---
-title: "40 Hse Safety MOC"
+title: 40 Hse Safety MOC
 type: moc
 source: 21_DOMAINS/40_HSE_SAFETY
 tags:

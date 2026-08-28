@@ -1,5 +1,5 @@
 ---
-title: "O01 Object MOC"
+title: O01 Object MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O01_OBJECT
 tags:

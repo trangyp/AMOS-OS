@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Strategy / Index"
+title: Index MOC — Domains / Strategy / Index
 type: moc
 source: 21_DOMAINS/04_STRATEGY/00_INDEX
 tags:

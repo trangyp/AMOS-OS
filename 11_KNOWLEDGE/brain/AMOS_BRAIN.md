@@ -1,5 +1,5 @@
 ---
-title: "AMOS BRAIN — Brain"
+title: AMOS BRAIN — Brain
 type: brain
 source: 11_KNOWLEDGE/brain
 canon-group: tech-ai

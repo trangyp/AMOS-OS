@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L01 Sensing Observation / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L01 Sensing Observation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L01_SENSING_OBSERVATION/00_INDEX
 tags:

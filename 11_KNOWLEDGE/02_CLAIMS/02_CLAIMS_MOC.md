@@ -1,5 +1,5 @@
 ---
-title: "02 Claims MOC"
+title: 02 Claims MOC
 type: moc
 source: 11_KNOWLEDGE/02_CLAIMS
 tags:

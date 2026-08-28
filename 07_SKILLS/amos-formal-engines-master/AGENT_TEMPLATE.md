@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos Formal Engines Master"
+title: AGENT TEMPLATE — Amos Formal Engines Master
 type: note
 source: 07_SKILLS/amos-formal-engines-master
 tags:

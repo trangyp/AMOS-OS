@@ -1,5 +1,5 @@
 ---
-title: "11 Validation MOC"
+title: 11 Validation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/11_VALIDATION
 tags:

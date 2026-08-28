@@ -1,5 +1,5 @@
 ---
-title: "29 Medical Clinical MOC"
+title: 29 Medical Clinical MOC
 type: moc
 source: 21_DOMAINS/29_MEDICAL_CLINICAL
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Politics Power / Index"
+title: Index MOC — Domains / Politics Power / Index
 type: moc
 source: 21_DOMAINS/39_POLITICS_POWER/00_INDEX
 tags:

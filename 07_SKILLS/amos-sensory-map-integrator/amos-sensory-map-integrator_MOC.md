@@ -1,5 +1,5 @@
 ---
-title: "Amos-Sensory-Map-Integrator MOC"
+title: Amos-Sensory-Map-Integrator MOC
 type: moc
 source: 07_SKILLS/amos-sensory-map-integrator
 tags:

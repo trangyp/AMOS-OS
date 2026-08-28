@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L20 Credit Assignment / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L20 Credit Assignment / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L20_CREDIT_ASSIGNMENT/00_INDEX
 tags:

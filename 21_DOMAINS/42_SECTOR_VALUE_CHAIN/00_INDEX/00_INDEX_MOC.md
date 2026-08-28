@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Sector Value Chain / Index"
+title: Index MOC — Domains / Sector Value Chain / Index
 type: moc
 source: 21_DOMAINS/42_SECTOR_VALUE_CHAIN/00_INDEX
 tags:

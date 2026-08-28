@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Gaussian-Process-Surface-Rscf-Engine MOC"
+title: Amos-Fx-Gaussian-Process-Surface-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-gaussian-process-surface-rscf-engine
 tags:

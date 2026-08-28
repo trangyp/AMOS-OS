@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos C04 Bio Neuro Master"
+title: Vault Domain Knowledge — Amos C04 Bio Neuro Master
 type: reference
 source: 07_SKILLS/amos-c04-bio-neuro-master/references
 tags:

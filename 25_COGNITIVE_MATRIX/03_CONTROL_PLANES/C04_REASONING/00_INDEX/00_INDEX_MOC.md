@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Control Planes / C04 Reasoning / Index"
+title: Index MOC — Cognitive Matrix / Control Planes / C04 Reasoning / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C04_REASONING/00_INDEX
 tags:

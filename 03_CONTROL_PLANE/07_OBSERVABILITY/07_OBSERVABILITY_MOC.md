@@ -1,5 +1,5 @@
 ---
-title: "07 Observability MOC"
+title: 07 Observability MOC
 type: moc
 source: 03_CONTROL_PLANE/07_OBSERVABILITY
 tags:

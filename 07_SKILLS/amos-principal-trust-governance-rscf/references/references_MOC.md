@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Principal Trust Governance Rscf"
+title: References MOC — References — Amos Principal Trust Governance Rscf
 type: moc
 source: 07_SKILLS/amos-principal-trust-governance-rscf/references
 tags:

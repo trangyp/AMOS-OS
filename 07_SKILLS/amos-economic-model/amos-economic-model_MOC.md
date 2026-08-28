@@ -1,5 +1,5 @@
 ---
-title: "Amos-Economic-Model MOC"
+title: Amos-Economic-Model MOC
 type: moc
 source: 07_SKILLS/amos-economic-model
 tags:

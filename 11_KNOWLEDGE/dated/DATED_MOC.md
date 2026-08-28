@@ -1,5 +1,5 @@
 ---
-title: "Dated MOC"
+title: Dated MOC
 type: moc
 source: 11_KNOWLEDGE/dated
 tags:

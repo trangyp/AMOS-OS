@@ -1,7 +1,7 @@
 ---
 title: INDEX CORE LAWS CANON README
 type: note
-source: "01_CANON/01_CORE_LAWS/00_INDEX"
+source: 01_CANON/01_CORE_LAWS/00_INDEX
 rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL

@@ -5,7 +5,7 @@ artifact_id: AMOS-AUTHORITY-CANON
 name: AUTHORITY_CANON
 title: AMOS Authority Canon — Decision Rights, Permission, Commit, and Governance Law
 document_version: 2.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -49,6 +49,7 @@ tags:
 aliases:
 - AMOS Authority Canon - Authority Canon - AMOS Decision Rights Canon - AMOS Governance Author
 ---
+
 
 # AMOS Authority Canon
 **Origin architect / steward:** Trang Phan

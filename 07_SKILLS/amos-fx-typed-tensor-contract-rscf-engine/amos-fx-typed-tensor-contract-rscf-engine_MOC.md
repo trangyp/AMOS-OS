@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Typed-Tensor-Contract-Rscf-Engine MOC"
+title: Amos-Fx-Typed-Tensor-Contract-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-typed-tensor-contract-rscf-engine
 tags:

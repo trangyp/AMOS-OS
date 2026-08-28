@@ -1,5 +1,5 @@
 ---
-title: "03 Coding MOC"
+title: 03 Coding MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/03_CODING
 tags:

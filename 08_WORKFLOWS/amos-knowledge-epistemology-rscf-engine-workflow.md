@@ -10,7 +10,7 @@ Version: 1.0.0
 tags:
 - type/workflow
 - canon/workflow
-- domain/cross-domain
+- domain/knowledge-research
 - rscf/source_claim
 - hml/m
 - epistemic/source_claim
@@ -43,7 +43,9 @@ law_compliance:
 - L16
 - L17
 - L18
+domain: knowledge
 ---
+
 
 # Workflow: Knowledge Epistemology Rscf Engine
 

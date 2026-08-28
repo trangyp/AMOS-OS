@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Hierarchical Stack Orchestration Rscf"
+title: Vault Domain Knowledge — Amos Hierarchical Stack Orchestration Rscf
 type: reference
 source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf/references
 tags:

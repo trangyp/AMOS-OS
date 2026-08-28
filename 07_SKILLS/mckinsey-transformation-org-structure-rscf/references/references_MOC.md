@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Transformation Org Structure Rscf"
+title: References MOC — References — Mckinsey Transformation Org Structure Rscf
 type: moc
 source: 07_SKILLS/mckinsey-transformation-org-structure-rscf/references
 tags:

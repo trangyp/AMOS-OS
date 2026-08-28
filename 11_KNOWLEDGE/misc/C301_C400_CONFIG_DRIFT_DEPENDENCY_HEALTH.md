@@ -1,8 +1,8 @@
 ---
-title: "C301–C400: Config Drift & Dependency Health (System Dynamics Constraints)"
-created: "2026-08-22"
-origin: "AMOS brain knowledge ingest"
-origin_architect: "AMOS"
+title: 'C301–C400: Config Drift & Dependency Health (System Dynamics Constraints)'
+created: '2026-08-22'
+origin: AMOS brain knowledge ingest
+origin_architect: AMOS
 type: reference
 tags:
 - canon-group/biology
@@ -12,16 +12,17 @@ tags:
 - rscf/state/observation
 - topic/c301-c400-config-drift-dependency-health
 - misc
-status: "active"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
-source: "Ingest batch 2026-08-22"
+status: active
+provenance: OBSERVATION
+confidence: VERIFIED
+source: Ingest batch 2026-08-22
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 
 
 # C301–C400: Config Drift & Dependency Health

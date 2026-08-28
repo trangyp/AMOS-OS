@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Hierarchical Stack Orchestration Rscf"
+title: References MOC — References — Amos Hierarchical Stack Orchestration Rscf
 type: moc
 source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf/references
 tags:

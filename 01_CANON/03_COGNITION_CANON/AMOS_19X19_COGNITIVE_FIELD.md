@@ -1,21 +1,21 @@
 ---
-title: "AMOS 19x19 Cognitive Field"
+title: AMOS 19x19 Cognitive Field
 type: cognitive
-source: "01_CANON/03_COGNITION_CANON"
-artifact: "AMOS_19X19_COGNITIVE_FIELD.md"
-artifact_id: "amos_01_canon_03_cognition_canon_amos_19x19_cognitive_field"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/03_COGNITION_CANON"
-artifact_kind: "ARTIFACT"
-path: "01_CANON/03_COGNITION_CANON/AMOS_19X19_COGNITIVE_FIELD.md"
+source: 01_CANON/03_COGNITION_CANON
+artifact: AMOS_19X19_COGNITIVE_FIELD.md
+artifact_id: amos_01_canon_03_cognition_canon_amos_19x19_cognitive_field
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/03_COGNITION_CANON
+artifact_kind: ARTIFACT
+path: 01_CANON/03_COGNITION_CANON/AMOS_19X19_COGNITIVE_FIELD.md
 canon_group: amos_cognition
 canon_family: AMOS_19X19_COGNITIVE_FIELD
 schema_family: RSCF
 schema_role: COGNITIVE_FIELD_RSCF
-schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
+schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
   - amos_os
   - canon
@@ -37,34 +37,34 @@ tags:
   - regime
   - validation
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-native_definition_status: "NOT_ESTABLISHED"
-native_19_status: "NOT_ESTABLISHED"
-native_19x19_semantics_status: "NOT_ESTABLISHED"
-native_axis_status: "NOT_ESTABLISHED"
-native_dimension_status: "NOT_ESTABLISHED"
-native_cell_status: "NOT_ESTABLISHED"
-native_coordinate_status: "NOT_ESTABLISHED"
-native_field_topology_status: "NOT_ESTABLISHED"
-native_operator_status: "NOT_ESTABLISHED"
-native_transition_status: "NOT_ESTABLISHED"
-native_composition_status: "NOT_ESTABLISHED"
-native_cognition_binding_status: "NOT_ESTABLISHED"
-native_rscf_binding_status: "NOT_ESTABLISHED"
-native_hml_binding_status: "NOT_ESTABLISHED"
-native_scope_status: "NOT_ESTABLISHED"
-native_regime_status: "NOT_ESTABLISHED"
-native_temporal_status: "NOT_ESTABLISHED"
-native_provenance_status: "PARTIALLY_SOURCE_SUPPORTED"
-native_dependencies_status: "NOT_ESTABLISHED"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+native_definition_status: NOT_ESTABLISHED
+native_19_status: NOT_ESTABLISHED
+native_19x19_semantics_status: NOT_ESTABLISHED
+native_axis_status: NOT_ESTABLISHED
+native_dimension_status: NOT_ESTABLISHED
+native_cell_status: NOT_ESTABLISHED
+native_coordinate_status: NOT_ESTABLISHED
+native_field_topology_status: NOT_ESTABLISHED
+native_operator_status: NOT_ESTABLISHED
+native_transition_status: NOT_ESTABLISHED
+native_composition_status: NOT_ESTABLISHED
+native_cognition_binding_status: NOT_ESTABLISHED
+native_rscf_binding_status: NOT_ESTABLISHED
+native_hml_binding_status: NOT_ESTABLISHED
+native_scope_status: NOT_ESTABLISHED
+native_regime_status: NOT_ESTABLISHED
+native_temporal_status: NOT_ESTABLISHED
+native_provenance_status: PARTIALLY_SOURCE_SUPPORTED
+native_dependencies_status: NOT_ESTABLISHED
 rscf:
   state: DERIVED
   claim_class: DERIVED

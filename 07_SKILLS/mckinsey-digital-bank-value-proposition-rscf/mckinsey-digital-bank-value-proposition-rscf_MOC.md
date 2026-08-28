@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Digital-Bank-Value-Proposition-Rscf MOC"
+title: Mckinsey-Digital-Bank-Value-Proposition-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-digital-bank-value-proposition-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "14 Tools MOC"
+title: 14 Tools MOC
 type: moc
 source: 14_TOOLS
 tags:

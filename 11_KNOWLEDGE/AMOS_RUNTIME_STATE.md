@@ -1,5 +1,5 @@
 ---
-title: "AMOS OS Runtime State Snapshot"
+title: AMOS OS Runtime State Snapshot
 type: state
 source: 11_KNOWLEDGE
 tags:

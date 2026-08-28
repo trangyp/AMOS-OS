@@ -1,5 +1,5 @@
 ---
-title: "08 Incident Response MOC"
+title: 08 Incident Response MOC
 type: moc
 source: 20_OPERATIONS/08_INCIDENT_RESPONSE
 tags:

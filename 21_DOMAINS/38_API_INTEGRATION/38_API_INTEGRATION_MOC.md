@@ -1,5 +1,5 @@
 ---
-title: "38 Api Integration MOC"
+title: 38 Api Integration MOC
 type: moc
 source: 21_DOMAINS/38_API_INTEGRATION
 tags:

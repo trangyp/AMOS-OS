@@ -1,5 +1,5 @@
 ---
-title: "12 State MOC"
+title: 12 State MOC
 type: moc
 source: 12_STATE
 tags:

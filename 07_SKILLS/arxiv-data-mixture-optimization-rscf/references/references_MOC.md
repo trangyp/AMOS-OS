@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Data Mixture Optimization Rscf"
+title: References MOC — References — Arxiv Data Mixture Optimization Rscf
 type: moc
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Spreadsheets MOC"
+title: Spreadsheets MOC
 type: moc
 source: 07_SKILLS/spreadsheets
 tags:

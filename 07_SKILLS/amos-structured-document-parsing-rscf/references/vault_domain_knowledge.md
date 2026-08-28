@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Structured Document Parsing Rscf"
+title: Vault Domain Knowledge — Amos Structured Document Parsing Rscf
 type: reference
 source: 07_SKILLS/amos-structured-document-parsing-rscf/references
 tags:

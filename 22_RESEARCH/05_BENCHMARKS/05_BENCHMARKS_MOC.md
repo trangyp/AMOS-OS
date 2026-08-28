@@ -1,5 +1,5 @@
 ---
-title: "05 Benchmarks MOC"
+title: 05 Benchmarks MOC
 type: moc
 source: 22_RESEARCH/05_BENCHMARKS
 tags:

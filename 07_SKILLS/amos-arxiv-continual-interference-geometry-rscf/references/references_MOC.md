@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Continual Interference Geometry Rscf"
+title: References MOC — References — Amos Arxiv Continual Interference Geometry Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-continual-interference-geometry-rscf/references
 tags:

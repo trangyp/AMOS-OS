@@ -19,22 +19,22 @@ moc_version: 1.0.0
 name: AMOS_OS_MOC
 origin_architect: Trang Phan
 related:
-- '[[00_HOME]]'
-- '[[ARCHITECTURE]]'
-- '[[FULL_TREE]]'
-- '[[SYSTEM_MAP]]'
-- '[[AUTHORITATIVE_STATE]]'
-- '[[DEPENDENCY_MAP]]'
-- 'NAMING_STANDARD'
-- '[[PLACEMENT_RULES]]'
-- '[[ROADMAP]]'
-- '[[RSCF_NODE_INDEX]]'
-- 'GMEF'
-- '[[HML_CANON]]'
-- 'COSMO_BRAIN_MOC|00 Cosmo Brain MOC'
-- 'KNOWLEDGE_MOC|11_KNOWLEDGE MOC'
-- '[[AMOS_OBSIDIAN_LINKING_PLUGINS]]'
-- '[[AMOS_LAYER_MAPS]]'
+- [[00_HOME]]
+- [[ARCHITECTURE]]
+- [[FULL_TREE]]
+- [[SYSTEM_MAP]]
+- [[AUTHORITATIVE_STATE]]
+- [[DEPENDENCY_MAP]]
+- NAMING_STANDARD
+- [[PLACEMENT_RULES]]
+- [[ROADMAP]]
+- [[RSCF_NODE_INDEX]]
+- GMEF
+- [[HML_CANON]]
+- COSMO_BRAIN_MOC|00 Cosmo Brain MOC
+- KNOWLEDGE_MOC|11_KNOWLEDGE MOC
+- [[AMOS_OBSIDIAN_LINKING_PLUGINS]]
+- [[AMOS_LAYER_MAPS]]
 rscf_state: derived
 scope:
 - AMOS_OS
@@ -107,6 +107,7 @@ rscf:
   provenance: AMOS_corpus
   scope: root_index
 ---
+
 
 
 # AMOS OS — Master Map of Content

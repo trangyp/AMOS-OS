@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Spatial Speech Perception Rscf"
+title: References MOC — References — Amos Arxiv Spatial Speech Perception Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf/references
 tags:

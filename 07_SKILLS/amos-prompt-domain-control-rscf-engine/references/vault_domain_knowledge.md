@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Prompt Domain Control Rscf Engine"
+title: Vault Domain Knowledge — Amos Prompt Domain Control Rscf Engine
 type: reference
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine/references
 tags:

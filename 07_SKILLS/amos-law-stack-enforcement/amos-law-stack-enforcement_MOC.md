@@ -1,5 +1,5 @@
 ---
-title: "Amos-Law-Stack-Enforcement MOC"
+title: Amos-Law-Stack-Enforcement MOC
 type: moc
 source: 07_SKILLS/amos-law-stack-enforcement
 tags:

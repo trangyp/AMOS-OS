@@ -5,7 +5,7 @@ artifact_id: AMOS-COGNITIVE-ORGANISM-CANON
 name: COGNITIVE_ORGANISM_CANON
 title: AMOS Cognitive Organism Canon — Governed Cognitive Subsystem Architecture
 document_version: 2.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -50,6 +50,7 @@ tags:
 aliases:
 - AMOS Cognitive Organism Canon - Cognitive Organism Canon - AMOS Cognitive Organism - Cogniti
 ---
+
 
 # AMOS Cognitive Organism Canon
 **Origin architect / steward:** Trang Phan

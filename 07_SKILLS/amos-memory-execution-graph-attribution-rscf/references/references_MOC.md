@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Memory Execution Graph Attribution Rscf"
+title: References MOC — References — Amos Memory Execution Graph Attribution Rscf
 type: moc
 source: 07_SKILLS/amos-memory-execution-graph-attribution-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Core19 Logic Kernel"
+title: References MOC — References — Amos Core19 Logic Kernel
 type: moc
 source: 07_SKILLS/amos-core19-logic-kernel/references
 tags:

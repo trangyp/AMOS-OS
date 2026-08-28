@@ -1,5 +1,5 @@
 ---
-title: "Amos-Proof-Loss-Diagnostic-Reconstruction-Rscf MOC"
+title: Amos-Proof-Loss-Diagnostic-Reconstruction-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf
 tags:

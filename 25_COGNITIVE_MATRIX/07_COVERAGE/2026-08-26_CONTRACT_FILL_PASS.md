@@ -1,5 +1,5 @@
 ---
-title: "2026-08-26 Cognitive Matrix Contract Fill Pass"
+title: 2026-08-26 Cognitive Matrix Contract Fill Pass
 type: note
 source: 25_COGNITIVE_MATRIX/07_COVERAGE
 epistemic_class: DERIVED

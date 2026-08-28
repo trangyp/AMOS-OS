@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Technology-Company-Strategy-Rscf MOC"
+title: Mckinsey-Technology-Company-Strategy-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-technology-company-strategy-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Executive Deck Decision System"
+title: Vault Domain Knowledge — Executive Deck Decision System
 type: reference
 source: 07_SKILLS/executive-deck-decision-system/references
 tags:

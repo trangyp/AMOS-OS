@@ -1,5 +1,5 @@
 ---
-title: "04 Scales MOC"
+title: 04 Scales MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/04_SCALES
 tags:

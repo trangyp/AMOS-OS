@@ -1,8 +1,8 @@
 ---
-title: "HSE CEO Engine v1 — Full Human Systems Engine Vietnam + U3H Atemporal Field"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/HSE_CEO_Enginev.txt (434KB, 13,389 lines)"
-origin_architect: "Trang Phan"
+title: HSE CEO Engine v1 — Full Human Systems Engine Vietnam + U3H Atemporal Field
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/HSE_CEO_Enginev.txt (434KB, 13,389 lines)
+origin_architect: Trang Phan
 type: engine-spec
 source: 11_KNOWLEDGE/engine
 tags:
@@ -37,9 +37,9 @@ tags:
 - 9-process-gaps
 - engine
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

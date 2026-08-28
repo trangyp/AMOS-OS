@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Prompt Domain Control Rscf Engine"
+title: References MOC — References — Amos Prompt Domain Control Rscf Engine
 type: moc
 source: 07_SKILLS/amos-prompt-domain-control-rscf-engine/references
 tags:

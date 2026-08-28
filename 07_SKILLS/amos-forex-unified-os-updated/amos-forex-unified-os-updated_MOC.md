@@ -1,5 +1,5 @@
 ---
-title: "Amos-Forex-Unified-Os-Updated MOC"
+title: Amos-Forex-Unified-Os-Updated MOC
 type: moc
 source: 07_SKILLS/amos-forex-unified-os-updated
 tags:

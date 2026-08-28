@@ -1,8 +1,8 @@
 ---
-title: "The Law of Law™ — Rule of 2™ — Rule of 4™ (Official Manual)"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/training/Law_of_Law_Rule_of_2_and_Rule_of_4.pdf"
-origin_architect: "Trang Phan / Trang System™"
+title: The Law of Law™ — Rule of 2™ — Rule of 4™ (Official Manual)
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/training/Law_of_Law_Rule_of_2_and_Rule_of_4.pdf
+origin_architect: Trang Phan / Trang System™
 type: training-manual
 source: 11_KNOWLEDGE/misc
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/B-boundary
 - topic/absolute-logic-model
 - misc
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: DERIVED
   claim_class: DERIVED

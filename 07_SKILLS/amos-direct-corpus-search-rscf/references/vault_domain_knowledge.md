@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Direct Corpus Search Rscf"
+title: Vault Domain Knowledge — Amos Direct Corpus Search Rscf
 type: reference
 source: 07_SKILLS/amos-direct-corpus-search-rscf/references
 tags:

@@ -1,8 +1,8 @@
 ---
-title: "AMOS Drive Ingest Summary"
-created: "2026-08-22"
-origin: "Hermes ↔ Google Drive ↔ Cosmo Brain"
-origin_architect: "Trang Phan"
+title: AMOS Drive Ingest Summary
+created: '2026-08-22'
+origin: Hermes ↔ Google Drive ↔ Cosmo Brain
+origin_architect: Trang Phan
 type: ingest-log
 source: 11_KNOWLEDGE/amos-general
 tags:
@@ -13,11 +13,11 @@ tags:
 - rscf/state/observation
 - topic/amos-drive-ingest-summary
 - amos-general
-status: "active"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
-source_drive: "phanqtrang@gmail.com"
-source_folder: "My Drive"
+status: active
+provenance: OBSERVATION
+confidence: VERIFIED
+source_drive: phanqtrang@gmail.com
+source_folder: My Drive
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

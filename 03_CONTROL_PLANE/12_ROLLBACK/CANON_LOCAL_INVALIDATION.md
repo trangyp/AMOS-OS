@@ -1,16 +1,16 @@
 ---
-title: "Canon Local Invalidation"
+title: Canon Local Invalidation
 type: canon
 source: 03_CONTROL_PLANE/12_ROLLBACK
-artifact: "CANON_LOCAL_INVALIDATION.md"
-artifact_id: "amos_03_control_plane_12_rollback_canon_local_invalidation"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "03_CONTROL_PLANE"
-segment: "03_CONTROL_PLANE/12_ROLLBACK"
-artifact_kind: "CANON"
-path: "03_CONTROL_PLANE/12_ROLLBACK/CANON_LOCAL_INVALIDATION.md"
+artifact: CANON_LOCAL_INVALIDATION.md
+artifact_id: amos_03_control_plane_12_rollback_canon_local_invalidation
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 03_CONTROL_PLANE
+segment: 03_CONTROL_PLANE/12_ROLLBACK
+artifact_kind: CANON
+path: 03_CONTROL_PLANE/12_ROLLBACK/CANON_LOCAL_INVALIDATION.md
 tags:
 - amos_os
 - control_plane
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/control-plane
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Formal Model Checking Orchestrator Rscf"
+title: Vault Domain Knowledge — Amos Formal Model Checking Orchestrator Rscf
 type: reference
 source: 07_SKILLS/amos-formal-model-checking-orchestrator-rscf/references
 tags:

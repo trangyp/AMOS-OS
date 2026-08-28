@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Knowledge Harvest Runtime"
+title: Vault Domain Knowledge — Amos Knowledge Harvest Runtime
 type: reference
 source: 07_SKILLS/amos-knowledge-harvest-runtime/references
 tags:

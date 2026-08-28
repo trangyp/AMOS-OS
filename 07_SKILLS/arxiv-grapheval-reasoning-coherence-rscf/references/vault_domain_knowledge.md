@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Grapheval Reasoning Coherence Rscf"
+title: Vault Domain Knowledge — Arxiv Grapheval Reasoning Coherence Rscf
 type: reference
 source: 07_SKILLS/arxiv-grapheval-reasoning-coherence-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "05 Calibration MOC"
+title: 05 Calibration MOC
 type: moc
 source: 13_MODELS/05_CALIBRATION
 tags:

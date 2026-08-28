@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Research / Competing Models / Index"
+title: Index MOC — Research / Competing Models / Index
 type: moc
 source: 22_RESEARCH/03_COMPETING_MODELS/00_INDEX
 tags:

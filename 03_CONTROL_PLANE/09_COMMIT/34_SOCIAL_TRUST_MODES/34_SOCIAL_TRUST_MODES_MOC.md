@@ -1,5 +1,5 @@
 ---
-title: "34 Social Trust Modes MOC"
+title: 34 Social Trust Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/34_SOCIAL_TRUST_MODES
 tags:

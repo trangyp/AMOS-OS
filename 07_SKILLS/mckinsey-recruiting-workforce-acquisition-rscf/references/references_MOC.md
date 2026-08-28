@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Recruiting Workforce Acquisition Rscf"
+title: References MOC — References — Mckinsey Recruiting Workforce Acquisition Rscf
 type: moc
 source: 07_SKILLS/mckinsey-recruiting-workforce-acquisition-rscf/references
 tags:

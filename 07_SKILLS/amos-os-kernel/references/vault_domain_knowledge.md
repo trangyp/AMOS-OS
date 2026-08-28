@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Os Kernel"
+title: Vault Domain Knowledge — Amos Os Kernel
 type: reference
 source: 07_SKILLS/amos-os-kernel/references
 tags:

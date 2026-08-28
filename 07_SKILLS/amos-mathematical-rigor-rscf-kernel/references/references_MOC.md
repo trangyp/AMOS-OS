@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Mathematical Rigor Rscf Kernel"
+title: References MOC — References — Amos Mathematical Rigor Rscf Kernel
 type: moc
 source: 07_SKILLS/amos-mathematical-rigor-rscf-kernel/references
 tags:

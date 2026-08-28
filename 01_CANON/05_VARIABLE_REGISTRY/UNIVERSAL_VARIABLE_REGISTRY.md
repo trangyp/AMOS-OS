@@ -5,7 +5,7 @@ artifact_id: AMOS-UNIVERSAL-VARIABLE-REGISTRY
 name: UNIVERSAL_VARIABLE_REGISTRY
 title: AMOS Universal Variable Registry
 document_version: 1.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -45,6 +45,7 @@ tags:
 aliases:
 - AMOS Universal Variable Registry - Universal Variable Registry - AMOS Variable Registry - AM
 ---
+
 
 # AMOS Universal Variable Registry
 **Origin architect / steward:** Trang Phan

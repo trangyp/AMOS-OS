@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / C05 Mind Behavior / Index"
+title: Index MOC — Domains / C05 Mind Behavior / Index
 type: moc
 source: 21_DOMAINS/15_C05_MIND_BEHAVIOR/00_INDEX
 tags:

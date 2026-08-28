@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Design Visual Rscf Engine"
+title: References MOC — References — Amos Design Visual Rscf Engine
 type: moc
 source: 07_SKILLS/amos-design-visual-rscf-engine/references
 tags:

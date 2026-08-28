@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos Rscf Epistemic Master"
+title: AGENT TEMPLATE — Amos Rscf Epistemic Master
 type: note
 source: 07_SKILLS/amos-rscf-epistemic-master
 tags:

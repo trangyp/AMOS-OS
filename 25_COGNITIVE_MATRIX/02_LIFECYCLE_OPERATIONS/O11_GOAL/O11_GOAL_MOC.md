@@ -1,5 +1,5 @@
 ---
-title: "O11 Goal MOC"
+title: O11 Goal MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O11_GOAL
 tags:

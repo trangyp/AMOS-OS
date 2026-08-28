@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Custom / Index"
+title: Index MOC — Domains / Custom / Index
 type: moc
 source: 21_DOMAINS/10_CUSTOM/00_INDEX
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Multistage Order Causal Discovery Rscf"
+title: References MOC — References — Amos Arxiv Multistage Order Causal Discovery Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf/references
 tags:

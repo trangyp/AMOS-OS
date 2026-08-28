@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Canon Universe Master"
+title: References MOC — References — Amos Canon Universe Master
 type: moc
 source: 07_SKILLS/amos-canon-universe-master/references
 tags:

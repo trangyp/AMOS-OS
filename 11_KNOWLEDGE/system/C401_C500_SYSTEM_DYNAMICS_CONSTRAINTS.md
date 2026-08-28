@@ -1,8 +1,8 @@
 ---
-title: "C401–C500: System Dynamics Constraints (Data Quality, Knowledge, Epistemics)"
-created: "2026-08-22"
-origin: "AMOS brain knowledge ingest"
-origin_architect: "AMOS"
+title: 'C401–C500: System Dynamics Constraints (Data Quality, Knowledge, Epistemics)'
+created: '2026-08-22'
+origin: AMOS brain knowledge ingest
+origin_architect: AMOS
 type: reference
 tags:
 - canon-group/tech-ai
@@ -12,16 +12,17 @@ tags:
 - rscf/state/observation
 - topic/c401-c500-system-dynamics-constraints
 - system
-status: "active"
-provenance: "OBSERVATION"
-confidence: "VERIFIED"
-source: "Ingest batch 2026-08-22"
+status: active
+provenance: OBSERVATION
+confidence: VERIFIED
+source: Ingest batch 2026-08-22
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: system_design
 ---
+
 
 
 # C401–C500: System Dynamics Constraints

@@ -1,5 +1,5 @@
 ---
-title: "50 Scenario Modes MOC"
+title: 50 Scenario Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/50_SCENARIO_MODES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Universal-Coordinate-Rscf-Engine MOC"
+title: Amos-Universal-Coordinate-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine
 tags:

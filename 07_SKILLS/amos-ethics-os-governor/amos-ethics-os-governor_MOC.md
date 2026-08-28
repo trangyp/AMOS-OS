@@ -1,5 +1,5 @@
 ---
-title: "Amos-Ethics-Os-Governor MOC"
+title: Amos-Ethics-Os-Governor MOC
 type: moc
 source: 07_SKILLS/amos-ethics-os-governor
 tags:

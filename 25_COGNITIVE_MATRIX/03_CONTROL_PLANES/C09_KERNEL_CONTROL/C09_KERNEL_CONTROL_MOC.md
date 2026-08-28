@@ -1,5 +1,5 @@
 ---
-title: "C09 Kernel Control MOC"
+title: C09 Kernel Control MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C09_KERNEL_CONTROL
 tags:

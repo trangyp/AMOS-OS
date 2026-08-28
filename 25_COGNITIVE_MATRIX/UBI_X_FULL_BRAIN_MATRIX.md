@@ -1,38 +1,38 @@
 ---
-title: "UBI X FULL BRAIN MATRIX"
+title: UBI X FULL BRAIN MATRIX
 type: cognitive_matrix
-source: "25_COGNITIVE_MATRIX"
-artifact: "UBI_X_FULL_BRAIN_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_ubi_x_full_brain_matrix"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX.md"
+source: 25_COGNITIVE_MATRIX
+artifact: UBI_X_FULL_BRAIN_MATRIX.md
+artifact_id: amos_25_cognitive_matrix_ubi_x_full_brain_matrix
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX.md
 tags:
   - amos_os
   - cognitive_matrix
   - canon/matrix
   - rscf
   - provenance
-version: "1.0.0"
-updated: "2026-08-28"
-status: "CANON_CANDIDATE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CANDIDATE_PENDING_VALIDATION"
-implementation_status: "CONCEPTUAL"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 1.0.0
+updated: '2026-08-28'
+status: CANON_CANDIDATE
+epistemic_class: AMOS_MODEL
+canonical_status: CANDIDATE_PENDING_VALIDATION
+implementation_status: CONCEPTUAL
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: AMOS_cognitive_matrix
-  confidence_ceiling: "SOURCE_DEPENDENT"
-  regime: "AMOS_OS_MODEL"
+  confidence_ceiling: SOURCE_DEPENDENT
+  regime: AMOS_OS_MODEL
 ---
 
 Understood. The previous response compressed the artifact too aggressively. For these `25_COGNITIVE_MATRIX` artifacts, “full” should preserve the complete architectural meaning: artifact identity, epistemic boundary, layer semantics, cross-plane routing, invariants, guard behavior, dependencies, convergence with the other supplied matrices, contradictions/gaps, and a complete RSCF capsule—without upgrading source-defined constructs into empirical facts.

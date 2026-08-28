@@ -1,8 +1,8 @@
 ---
-title: "UBI Infrastructure — Biological Foundation for Intelligence"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.pdf (140KB)"
-origin_architect: "Trang Phan"
+title: UBI Infrastructure — Biological Foundation for Intelligence
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Unified_Biological_Intelligence_(UBI)_A_New_Infrastructure_for_Intelligence.pdf (140KB)
+origin_architect: Trang Phan
 type: whitepaper
 source: 11_KNOWLEDGE/logic
 tags:
@@ -19,9 +19,9 @@ tags:
 - TCP/IP-for-intelligence
 - logic
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

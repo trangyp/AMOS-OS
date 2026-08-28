@@ -1,5 +1,5 @@
 ---
-title: "30 Observability Modes MOC"
+title: 30 Observability Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/30_OBSERVABILITY_MODES
 tags:

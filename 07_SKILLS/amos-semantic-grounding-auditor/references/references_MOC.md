@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Semantic Grounding Auditor"
+title: References MOC — References — Amos Semantic Grounding Auditor
 type: moc
 source: 07_SKILLS/amos-semantic-grounding-auditor/references
 tags:

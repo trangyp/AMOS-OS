@@ -1,5 +1,5 @@
 ---
-title: "Amos-Boundary-Admission-Governor MOC"
+title: Amos-Boundary-Admission-Governor MOC
 type: moc
 source: 07_SKILLS/amos-boundary-admission-governor
 tags:

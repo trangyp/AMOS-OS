@@ -1,5 +1,5 @@
 ---
-title: "05 Measure MOC"
+title: 05 Measure MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/06_REASONING_MODES/05_MEASURE
 tags:

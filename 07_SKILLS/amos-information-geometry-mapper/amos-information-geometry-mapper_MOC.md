@@ -1,5 +1,5 @@
 ---
-title: "Amos-Information-Geometry-Mapper MOC"
+title: Amos-Information-Geometry-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-information-geometry-mapper
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "PISYNC Final Interface State"
+title: PISYNC Final Interface State
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

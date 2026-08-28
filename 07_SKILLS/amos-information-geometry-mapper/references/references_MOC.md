@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Information Geometry Mapper"
+title: References MOC — References — Amos Information Geometry Mapper
 type: moc
 source: 07_SKILLS/amos-information-geometry-mapper/references
 tags:

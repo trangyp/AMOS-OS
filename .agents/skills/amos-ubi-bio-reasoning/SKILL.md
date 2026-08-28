@@ -114,6 +114,13 @@ This skill governs the execution of biological intelligence constraints, living-
   - **Input**: Team interaction telemetry
   - **Output**: UBI 4-domain analysis (NBI/NEI/SI/BEI), quadratic emergence check ($e = i^2$), emergence throttling recommendation, RSCF proof capsule
 
+## Validation Gates
+
+- **L0 Integrity**: All structural elements accounted for; no silent gaps
+- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
+- **L5 Scope**: Analysis confined to declared scope and domain
+- **L7 Authority**: No autonomous action beyond authority boundary
+
 ## Do not use
 
 - For generic biological analysis outside UBI 4-domain framework

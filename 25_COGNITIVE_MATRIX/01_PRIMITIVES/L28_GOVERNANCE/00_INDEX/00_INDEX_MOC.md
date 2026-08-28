@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L28 Governance / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L28 Governance / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L28_GOVERNANCE/00_INDEX
 tags:

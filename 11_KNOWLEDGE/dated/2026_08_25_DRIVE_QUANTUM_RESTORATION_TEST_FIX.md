@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 Drive Quantum Layer Restoration + Runtime Test Fix"
+title: 2026-08-25 Drive Quantum Layer Restoration + Runtime Test Fix
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

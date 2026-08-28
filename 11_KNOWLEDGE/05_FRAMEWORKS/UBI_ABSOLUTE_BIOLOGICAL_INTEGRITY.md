@@ -1,16 +1,16 @@
 ---
-title: "UBI Absolute Biological Integrity"
+title: UBI Absolute Biological Integrity
 type: biology
 source: 11_KNOWLEDGE/05_FRAMEWORKS
-artifact: "UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY.md"
-artifact_id: "amos_11_knowledge_05_frameworks_ubi_absolute_biological_integrity"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "11_KNOWLEDGE"
-segment: "11_KNOWLEDGE/05_FRAMEWORKS"
-artifact_kind: "FRAMEWORK"
-path: "11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY.md"
+artifact: UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY.md
+artifact_id: amos_11_knowledge_05_frameworks_ubi_absolute_biological_integrity
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 11_KNOWLEDGE
+segment: 11_KNOWLEDGE/05_FRAMEWORKS
+artifact_kind: FRAMEWORK
+path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY.md
 tags:
   - amos_os
   - knowledge
@@ -24,16 +24,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -47,9 +47,9 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
-    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
   structural_integrity:
-    artifact: "[[ABSOLUTE_STRUCTURAL_INTEGRITY]]"
+    artifact: [[ABSOLUTE_STRUCTURAL_INTEGRITY]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

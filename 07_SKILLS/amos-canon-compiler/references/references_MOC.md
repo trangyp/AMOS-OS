@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Canon Compiler"
+title: References MOC — References — Amos Canon Compiler
 type: moc
 source: 07_SKILLS/amos-canon-compiler/references
 tags:

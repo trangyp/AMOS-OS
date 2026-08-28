@@ -1,16 +1,16 @@
 ---
-title: "AMOS CORE DISTRIBUTED COGNITION CLUSTER ORCHESTRATOR"
+title: AMOS CORE DISTRIBUTED COGNITION CLUSTER ORCHESTRATOR
 type: note
 source: 01_CANON/01_CORE_LAWS
-artifact: "AMOS_DISTRIBUTED_COGNITION_CLUSTER_ORCHESTRATOR.md"
-artifact_id: "amos_distributed_cognition_cluster_orchestrator"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/01_CORE_LAWS"
-artifact_kind: "ARCHITECTURE_KNOWLEDGE"
-path: "11_KNOWLEDGE/AMOS_CORE/AMOS_DISTRIBUTED_COGNITION_CLUSTER_ORCHESTRATOR.md"
+artifact: AMOS_DISTRIBUTED_COGNITION_CLUSTER_ORCHESTRATOR.md
+artifact_id: amos_distributed_cognition_cluster_orchestrator
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/01_CORE_LAWS
+artifact_kind: ARCHITECTURE_KNOWLEDGE
+path: 11_KNOWLEDGE/AMOS_CORE/AMOS_DISTRIBUTED_COGNITION_CLUSTER_ORCHESTRATOR.md
 canon-group: amos-core
 schema_family: RSCF
 schema_role: KNOWLEDGE_RSCF
@@ -36,18 +36,18 @@ tags:
   - epistemic_firewall
   - determinism
   - canon/universe
-version: "1.0.0"
-updated: "2026-08-27"
-status: "MODEL"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CONDITIONAL"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-production_status: "UNKNOWN/GAP"
-security_validation_status: "UNKNOWN/GAP"
-determinism_validation_status: "UNKNOWN/GAP"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 1.0.0
+updated: '2026-08-27'
+status: MODEL
+epistemic_class: AMOS_MODEL
+canonical_status: CONDITIONAL
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+production_status: UNKNOWN/GAP
+security_validation_status: UNKNOWN/GAP
+determinism_validation_status: UNKNOWN/GAP
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 overclaim_risk: true
 overclaim_note: >
   Architecture-level descriptions are retained as AMOS_MODEL.

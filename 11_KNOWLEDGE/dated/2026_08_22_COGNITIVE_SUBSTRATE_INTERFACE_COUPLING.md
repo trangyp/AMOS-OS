@@ -6,7 +6,7 @@ origin_architect: Trang Phan
 provenance: cosmo-brain/AMOS_COGNITIVE_SUBSTRATE_INTERFACE.py
 confidence: 0.9
 epistemic_class: DERIVED
-conclusion_label: "VERIFIED"
+conclusion_label: VERIFIED
 tags:
 - canon-group/tech-ai
 - cosmo-brain

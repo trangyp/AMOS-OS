@@ -1,5 +1,5 @@
 ---
-title: "21 Domains MOC"
+title: 21 Domains MOC
 type: moc
 source: 21_DOMAINS
 tags:

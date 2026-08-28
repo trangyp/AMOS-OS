@@ -1,5 +1,5 @@
 ---
-title: "AMOS C10 — Tech & Engineering Master Knowledge"
+title: AMOS C10 — Tech & Engineering Master Knowledge
 type: engine
 source: 11_KNOWLEDGE
 tags:

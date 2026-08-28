@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Causal Abstraction Validity Rscf Engine"
+title: References MOC — References — Amos Causal Abstraction Validity Rscf Engine
 type: moc
 source: 07_SKILLS/amos-causal-abstraction-validity-rscf-engine/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Activation Checkpointing Rscf"
+title: Vault Domain Knowledge — Arxiv Activation Checkpointing Rscf
 type: reference
 source: 07_SKILLS/arxiv-activation-checkpointing-rscf/references
 tags:

@@ -2,7 +2,7 @@
 artifact_id: AMOS-TEMPLATE-LINKED-NOTE
 conclusion_class: DECISION / AMOS_MODEL
 confidence: DERIVED
-created: "<% tp.date.now('YYYY-MM-DD') %>"
+created: <% tp.date.now('YYYY-MM-DD') %>
 name: linked-note
 origin_architect: Trang Phan
 provenance: USER_REQUEST / AMOS_Obsidian_Linking_Plugins

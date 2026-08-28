@@ -1,5 +1,5 @@
 ---
-title: "Frontend-Engineering-Qa MOC"
+title: Frontend-Engineering-Qa MOC
 type: moc
 source: 07_SKILLS/frontend-engineering-qa
 tags:

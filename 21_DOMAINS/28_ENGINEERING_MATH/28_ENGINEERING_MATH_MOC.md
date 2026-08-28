@@ -1,5 +1,5 @@
 ---
-title: "28 Engineering Math MOC"
+title: 28 Engineering Math MOC
 type: moc
 source: 21_DOMAINS/28_ENGINEERING_MATH
 tags:

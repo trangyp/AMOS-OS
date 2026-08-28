@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Boundary Scope Master"
+title: References MOC — References — Amos Boundary Scope Master
 type: moc
 source: 07_SKILLS/amos-boundary-scope-master/references
 tags:

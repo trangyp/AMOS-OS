@@ -1,7 +1,7 @@
 ---
-title: "Personality Engine Model"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: Personality Engine Model
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: note
 source: 11_KNOWLEDGE/engine
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/derived
 - topic/personality-engine-model
 - engine
-status: "active"
-provenance: "MODEL"
-confidence: "DERIVED"
+status: active
+provenance: MODEL
+confidence: DERIVED
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

@@ -1,5 +1,5 @@
 ---
-title: "44 Ev Infrastructure MOC"
+title: 44 Ev Infrastructure MOC
 type: moc
 source: 21_DOMAINS/44_EV_INFRASTRUCTURE
 tags:

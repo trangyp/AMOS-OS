@@ -1,5 +1,5 @@
 ---
-title: "Pipelines MOC"
+title: Pipelines MOC
 type: moc
 source: 11_KNOWLEDGE/pipelines
 tags:

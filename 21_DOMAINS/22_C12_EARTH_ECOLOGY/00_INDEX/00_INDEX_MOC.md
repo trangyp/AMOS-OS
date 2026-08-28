@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / C12 Earth Ecology / Index"
+title: Index MOC — Domains / C12 Earth Ecology / Index
 type: moc
 source: 21_DOMAINS/22_C12_EARTH_ECOLOGY/00_INDEX
 tags:

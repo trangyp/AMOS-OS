@@ -1,5 +1,5 @@
 ---
-title: "2026-08-25 QFM Pass 4 — Runtime Cells, QFT Mapping, Canon & Full Sync"
+title: 2026-08-25 QFM Pass 4 — Runtime Cells, QFT Mapping, Canon & Full Sync
 created: 2026-08-25
 type: session-report
 source: 11_KNOWLEDGE/dated

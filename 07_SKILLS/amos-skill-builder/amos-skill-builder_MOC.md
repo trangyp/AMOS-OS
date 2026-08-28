@@ -1,5 +1,5 @@
 ---
-title: "Amos-Skill-Builder MOC"
+title: Amos-Skill-Builder MOC
 type: moc
 source: 07_SKILLS/amos-skill-builder
 tags:

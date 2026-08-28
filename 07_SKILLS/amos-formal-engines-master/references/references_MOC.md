@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Formal Engines Master"
+title: References MOC — References — Amos Formal Engines Master
 type: moc
 source: 07_SKILLS/amos-formal-engines-master/references
 tags:

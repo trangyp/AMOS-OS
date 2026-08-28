@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang Canon Validation Receipt"
+title: Khung Trang Canon Validation Receipt
 type: receipt
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

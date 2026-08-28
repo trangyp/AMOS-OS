@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Target Of Repair Intelligence"
+title: Vault Domain Knowledge — Amos Target Of Repair Intelligence
 type: reference
 source: 07_SKILLS/amos-target-of-repair-intelligence/references
 tags:

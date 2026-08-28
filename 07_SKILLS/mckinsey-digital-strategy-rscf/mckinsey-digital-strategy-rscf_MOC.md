@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Digital-Strategy-Rscf MOC"
+title: Mckinsey-Digital-Strategy-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-digital-strategy-rscf
 tags:

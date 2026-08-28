@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L06 Working State / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L06 Working State / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L06_WORKING_STATE/00_INDEX
 tags:

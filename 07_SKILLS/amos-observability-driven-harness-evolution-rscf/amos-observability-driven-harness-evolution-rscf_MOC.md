@@ -1,5 +1,5 @@
 ---
-title: "Amos-Observability-Driven-Harness-Evolution-Rscf MOC"
+title: Amos-Observability-Driven-Harness-Evolution-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-observability-driven-harness-evolution-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "10 Custom MOC"
+title: 10 Custom MOC
 type: moc
 source: 21_DOMAINS/10_CUSTOM
 tags:

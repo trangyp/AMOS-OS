@@ -1,5 +1,5 @@
 ---
-title: "Amos-Commit-Time-Authorization-Rscf-Engine MOC"
+title: Amos-Commit-Time-Authorization-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-commit-time-authorization-rscf-engine
 tags:

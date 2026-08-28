@@ -1,8 +1,8 @@
 ---
-title: "ABSOLUTE-HUMAN — 27 Archetypes, 54 Risks, 196 Process Risks"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Absolute-Human (final version).txt"
-origin_architect: "Trang Phan"
+title: ABSOLUTE-HUMAN — 27 Archetypes, 54 Risks, 196 Process Risks
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Absolute-Human (final version).txt
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/human
 tags:
@@ -18,9 +18,9 @@ tags:
 - structural-risks
 - human
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

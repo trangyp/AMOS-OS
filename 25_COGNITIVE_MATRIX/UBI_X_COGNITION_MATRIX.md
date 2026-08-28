@@ -1,16 +1,16 @@
 ---
-title: "UBI x Cognition Cross-Plane Matrix Table"
+title: UBI x Cognition Cross-Plane Matrix Table
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "UBI_X_COGNITION_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_ubi_x_cognition_matrix"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX_TABLE"
-path: "25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX.md"
+artifact: UBI_X_COGNITION_MATRIX.md
+artifact_id: amos_25_cognitive_matrix_ubi_x_cognition_matrix
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX_TABLE
+path: 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -33,19 +33,19 @@ tags:
   - rscf
   - canon_candidate
   - canon/matrix
-version: "2.0.0"
-updated: "2026-08-28"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "PASSED_CONSTITUTIONAL_TESTS"
-executable_binding: "ESTABLISHED"
+version: 2.0.0
+updated: '2026-08-28'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: PASSED_CONSTITUTIONAL_TESTS
+executable_binding: ESTABLISHED
 framework_binding:
   matrix_spec:
-    artifact: "[[UBI_X_COGNITION]]"
+    artifact: [[UBI_X_COGNITION]]
   knowledge_binding:
-    artifact: "[[UBI_COGNITION_BINDING]]"
+    artifact: [[UBI_COGNITION_BINDING]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE
@@ -57,7 +57,7 @@ epistemic_boundary:
   executable_binding_claim: SOURCE_ESTABLISHED
   independent_biological_validation: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
   independent_runtime_verification: NOT_ESTABLISHED_BY_THIS_ARTIFACT_ALONE
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ---
 
 # UBI × Cognition Cross-Plane Matrix — Full Canon Expansion

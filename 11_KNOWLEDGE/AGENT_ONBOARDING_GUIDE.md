@@ -3,20 +3,20 @@ type: agent
 source: 11_KNOWLEDGE
 artifact_id: AMOS-AGENT-ONBOARDING
 name: amos-agent-onboarding-guide
-title: "AMOS Agent Onboarding Guide — Governed Runtime Edition"
-document_version: "3.0.0"
-onboarding_protocol_version: "2.0.0"
-amos_core_target: "v4.4"
-supersedes: "QUANTUM_SUPREMACY_ENHANCED onboarding guide"
-source_created: "2026-03-16T21:37:00+07:00"
-updated: "2026-08-25"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-status: "active-governed"
-priority: "mandatory"
-conclusion_class: "AMOS_MODEL / CONDITIONAL"
-source_status: "SOURCE_CLAIM"
-validation_status: "REQUIRES_RUNTIME_REVALIDATION"
+title: AMOS Agent Onboarding Guide — Governed Runtime Edition
+document_version: 3.0.0
+onboarding_protocol_version: 2.0.0
+amos_core_target: v4.4
+supersedes: QUANTUM_SUPREMACY_ENHANCED onboarding guide
+source_created: 2026-03-16T21:37:00+07:00
+updated: '2026-08-25'
+origin_architect: Trang Phan
+steward: Trang Phan
+status: active-governed
+priority: mandatory
+conclusion_class: AMOS_MODEL / CONDITIONAL
+source_status: SOURCE_CLAIM
+validation_status: REQUIRES_RUNTIME_REVALIDATION
 tags:
 - agents
 - knowledge
@@ -28,7 +28,7 @@ tags:
 - topic/agent-onboarding
 - topic/runtime-governance
 - topic/amos-core
-governing_law: "integrity > completeness > fluency > speed > token savings"
+governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

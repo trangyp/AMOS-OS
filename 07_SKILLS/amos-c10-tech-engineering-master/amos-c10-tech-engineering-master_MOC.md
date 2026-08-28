@@ -1,5 +1,5 @@
 ---
-title: "Amos-C10-Tech-Engineering-Master MOC"
+title: Amos-C10-Tech-Engineering-Master MOC
 type: moc
 source: 07_SKILLS/amos-c10-tech-engineering-master
 tags:

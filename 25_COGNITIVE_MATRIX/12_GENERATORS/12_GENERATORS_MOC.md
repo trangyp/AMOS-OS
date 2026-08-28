@@ -1,5 +1,5 @@
 ---
-title: "12 Generators MOC"
+title: 12 Generators MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/12_GENERATORS
 tags:

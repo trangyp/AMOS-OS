@@ -1,8 +1,8 @@
 ---
-title: "AMOS Designer OS — Standalone Shell (5 Files)"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/AMOS_DESIGNER_OS/"
-origin_architect: "Trang Phan"
+title: AMOS Designer OS — Standalone Shell (5 Files)
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/AMOS_DESIGNER_OS/
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/amos-general
 tags:
@@ -17,9 +17,9 @@ tags:
 - 7-layer-brain-model
 - amos-general
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

@@ -1,5 +1,5 @@
 ---
-title: "14 C04 Bio Neuro MOC"
+title: 14 C04 Bio Neuro MOC
 type: moc
 source: 21_DOMAINS/14_C04_BIO_NEURO
 tags:

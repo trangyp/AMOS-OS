@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Boundary Architecture Rscf Calculus"
+title: Vault Domain Knowledge — Amos Boundary Architecture Rscf Calculus
 type: reference
 source: 07_SKILLS/amos-boundary-architecture-rscf-calculus/references
 tags:

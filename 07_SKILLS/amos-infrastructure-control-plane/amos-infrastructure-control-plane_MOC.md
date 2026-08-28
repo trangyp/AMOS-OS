@@ -1,5 +1,5 @@
 ---
-title: "Amos-Infrastructure-Control-Plane MOC"
+title: Amos-Infrastructure-Control-Plane MOC
 type: moc
 source: 07_SKILLS/amos-infrastructure-control-plane
 tags:

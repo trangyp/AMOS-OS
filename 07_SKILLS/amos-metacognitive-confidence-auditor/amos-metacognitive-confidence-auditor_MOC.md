@@ -1,5 +1,5 @@
 ---
-title: "Amos-Metacognitive-Confidence-Auditor MOC"
+title: Amos-Metacognitive-Confidence-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-metacognitive-confidence-auditor
 tags:

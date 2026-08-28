@@ -1,5 +1,5 @@
 ---
-title: "Amos-Runtime-Context-Reuse-Rscf MOC"
+title: Amos-Runtime-Context-Reuse-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-runtime-context-reuse-rscf
 tags:

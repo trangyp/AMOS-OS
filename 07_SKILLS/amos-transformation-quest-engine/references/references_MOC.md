@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Transformation Quest Engine"
+title: References MOC — References — Amos Transformation Quest Engine
 type: moc
 source: 07_SKILLS/amos-transformation-quest-engine/references
 tags:

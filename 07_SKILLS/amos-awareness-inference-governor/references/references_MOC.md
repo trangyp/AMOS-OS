@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Awareness Inference Governor"
+title: References MOC — References — Amos Awareness Inference Governor
 type: moc
 source: 07_SKILLS/amos-awareness-inference-governor/references
 tags:

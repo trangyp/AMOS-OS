@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Wealth-Management-Rscf MOC"
+title: Mckinsey-Wealth-Management-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-wealth-management-rscf
 tags:

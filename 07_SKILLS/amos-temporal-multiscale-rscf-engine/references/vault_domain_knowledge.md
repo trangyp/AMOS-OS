@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Temporal Multiscale Rscf Engine"
+title: Vault Domain Knowledge — Amos Temporal Multiscale Rscf Engine
 type: reference
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine/references
 tags:

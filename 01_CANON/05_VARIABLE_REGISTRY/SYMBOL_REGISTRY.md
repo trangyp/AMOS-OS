@@ -5,7 +5,7 @@ artifact_id: AMOS-SYMBOL-REGISTRY
 name: SYMBOL_REGISTRY
 title: AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity
 document_version: 1.0.0
-canon_version: '4.4'
+canon_version: 4.4
 amos_core_target: v4.4
 status: ACTIVE_CANON_CANDIDATE
 conclusion_class: AMOS_MODEL
@@ -50,6 +50,7 @@ tags:
 aliases:
 - AMOS Symbol Registry - Symbol Registry - AMOS Notation Registry - AMOS Semantic Symbol Table
 ---
+
 
 # AMOS Symbol Registry
 **Origin architect / steward:** Trang Phan

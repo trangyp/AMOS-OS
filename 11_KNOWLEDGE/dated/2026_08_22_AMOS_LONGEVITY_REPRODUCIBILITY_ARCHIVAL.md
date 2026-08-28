@@ -1,6 +1,6 @@
 ---
-title: "AMOS Longevity Reproducibility Archival"
-created: "2026-08-22"
+title: AMOS Longevity Reproducibility Archival
+created: '2026-08-22'
 type: note
 source: 11_KNOWLEDGE/dated
 tags:
@@ -12,9 +12,9 @@ tags:
 - topic/amos-longevity-reproducibility
 - dated
 - dated/2026-08-22
-status: "living"
-provenance: "MODEL"
-confidence: "VERIFIED"
+status: living
+provenance: MODEL
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

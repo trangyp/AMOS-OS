@@ -1,16 +1,16 @@
 ---
-title: "Universe Canon Bootstrap Specification"
+title: Universe Canon Bootstrap Specification
 type: runtime
 source: 04_RUNTIME/01_BOOT
-artifact: "UNIVERSE_CANON_BOOTSTRAP.md"
-artifact_id: "amos_04_runtime_01_boot_universe_canon_bootstrap"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "04_RUNTIME"
-segment: "04_RUNTIME/01_BOOT"
-artifact_kind: "BOOTSTRAP_SPEC"
-path: "04_RUNTIME/01_BOOT/UNIVERSE_CANON_BOOTSTRAP.md"
+artifact: UNIVERSE_CANON_BOOTSTRAP.md
+artifact_id: amos_04_runtime_01_boot_universe_canon_bootstrap
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 04_RUNTIME
+segment: 04_RUNTIME/01_BOOT
+artifact_kind: BOOTSTRAP_SPEC
+path: 04_RUNTIME/01_BOOT/UNIVERSE_CANON_BOOTSTRAP.md
 tags:
   - amos_os
   - runtime
@@ -22,16 +22,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/runtime
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -45,11 +45,11 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   boot_moc:
-    artifact: "04_RUNTIME/01_BOOT/01_BOOT_MOC"
+    artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC
   universe_canon:
-    artifact: "01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC"
+    artifact: 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
   matrix_binding:
-    artifact: "25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON"
+    artifact: 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   spec_structure: VERIFIED_SOURCE_STRUCTURE

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Forex Os"
+title: Vault Domain Knowledge — Amos Forex Os
 type: reference
 source: 07_SKILLS/amos-forex-os/references
 tags:

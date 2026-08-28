@@ -1,8 +1,8 @@
 ---
-title: "AI Sweet Spots — Differential Cognitive Effects Across Populations"
-created: "2026-08-22"
-origin: "Google Drive — new troy/Enhanced AI Sweet Spots Research Paper.pdf"
-origin_architect: "Research paper"
+title: AI Sweet Spots — Differential Cognitive Effects Across Populations
+created: '2026-08-22'
+origin: Google Drive — new troy/Enhanced AI Sweet Spots Research Paper.pdf
+origin_architect: Research paper
 type: research-paper
 source: 11_KNOWLEDGE/misc
 tags:
@@ -20,9 +20,9 @@ tags:
 - differential-optimization
 - misc
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Formally Verified Migration Rscf"
+title: Vault Domain Knowledge — Amos Formally Verified Migration Rscf
 type: reference
 source: 07_SKILLS/amos-formally-verified-migration-rscf/references
 tags:

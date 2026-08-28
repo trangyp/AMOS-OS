@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Persistence Dissolution Rscf Dynamics"
+title: References MOC — References — Amos Persistence Dissolution Rscf Dynamics
 type: moc
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics/references
 tags:

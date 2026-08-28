@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Deterministic Ai Control Plane"
+title: References MOC — References — Amos Deterministic Ai Control Plane
 type: moc
 source: 07_SKILLS/amos-deterministic-ai-control-plane/references
 tags:

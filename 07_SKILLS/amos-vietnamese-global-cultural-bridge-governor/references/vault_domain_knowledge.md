@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Vietnamese Global Cultural Bridge Governor"
+title: Vault Domain Knowledge — Amos Vietnamese Global Cultural Bridge Governor
 type: reference
 source: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Canon / Universe Canon / Index"
+title: Index MOC — Canon / Universe Canon / Index
 type: moc
 source: 01_CANON/02_UNIVERSE_CANON/00_INDEX
 tags:

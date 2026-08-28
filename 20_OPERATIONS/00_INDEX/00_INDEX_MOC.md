@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Operations / Index"
+title: Index MOC — Operations / Index
 type: moc
 source: 20_OPERATIONS/00_INDEX
 tags:

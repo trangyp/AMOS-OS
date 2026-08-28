@@ -1,5 +1,5 @@
 ---
-title: "AMOS C12 — Earth & Ecology Master Knowledge"
+title: AMOS C12 — Earth & Ecology Master Knowledge
 type: log
 source: 11_KNOWLEDGE
 tags:

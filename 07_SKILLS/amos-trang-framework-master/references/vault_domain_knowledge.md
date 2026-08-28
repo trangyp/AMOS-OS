@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Trang Framework Master"
+title: Vault Domain Knowledge — Amos Trang Framework Master
 type: reference
 source: 07_SKILLS/amos-trang-framework-master/references
 tags:

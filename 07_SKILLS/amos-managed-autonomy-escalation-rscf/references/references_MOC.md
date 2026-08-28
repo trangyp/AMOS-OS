@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Managed Autonomy Escalation Rscf"
+title: References MOC — References — Amos Managed Autonomy Escalation Rscf
 type: moc
 source: 07_SKILLS/amos-managed-autonomy-escalation-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Organism-Os MOC"
+title: Amos-Organism-Os MOC
 type: moc
 source: 07_SKILLS/amos-organism-os
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "76 Contradiction Resolution Modes MOC"
+title: 76 Contradiction Resolution Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/76_CONTRADICTION_RESOLUTION_MODES
 tags:

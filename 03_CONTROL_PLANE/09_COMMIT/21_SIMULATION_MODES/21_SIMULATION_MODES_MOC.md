@@ -1,5 +1,5 @@
 ---
-title: "21 Simulation Modes MOC"
+title: 21 Simulation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/21_SIMULATION_MODES
 tags:

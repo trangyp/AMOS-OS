@@ -1,5 +1,5 @@
 ---
-title: "Engine MOC"
+title: Engine MOC
 type: moc
 source: 11_KNOWLEDGE/engine
 tags:

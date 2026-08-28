@@ -1,5 +1,5 @@
 ---
-title: "Logic MOC"
+title: Logic MOC
 type: moc
 source: 11_KNOWLEDGE/logic
 tags:

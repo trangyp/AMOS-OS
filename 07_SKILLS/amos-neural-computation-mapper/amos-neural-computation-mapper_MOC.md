@@ -1,5 +1,5 @@
 ---
-title: "Amos-Neural-Computation-Mapper MOC"
+title: Amos-Neural-Computation-Mapper MOC
 type: moc
 source: 07_SKILLS/amos-neural-computation-mapper
 tags:

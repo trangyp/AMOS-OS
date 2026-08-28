@@ -1,5 +1,5 @@
 ---
-title: "Amos-Cross-Architecture-Tensor-Engine MOC"
+title: Amos-Cross-Architecture-Tensor-Engine MOC
 type: moc
 source: 07_SKILLS/amos-cross-architecture-tensor-engine
 tags:

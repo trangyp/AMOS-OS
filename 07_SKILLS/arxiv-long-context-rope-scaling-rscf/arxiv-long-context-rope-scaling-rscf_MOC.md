@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Long-Context-Rope-Scaling-Rscf MOC"
+title: Arxiv-Long-Context-Rope-Scaling-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-long-context-rope-scaling-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Causal Hierarchy Governor"
+title: Vault Domain Knowledge — Amos Causal Hierarchy Governor
 type: reference
 source: 07_SKILLS/amos-causal-hierarchy-governor/references
 tags:

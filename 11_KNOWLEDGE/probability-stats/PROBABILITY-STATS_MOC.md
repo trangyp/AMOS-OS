@@ -1,5 +1,5 @@
 ---
-title: "Probability-Stats MOC"
+title: Probability-Stats MOC
 type: moc
 source: 11_KNOWLEDGE/probability-stats
 tags:

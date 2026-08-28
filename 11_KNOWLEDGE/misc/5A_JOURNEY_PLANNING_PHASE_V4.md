@@ -21,7 +21,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 overclaim_risk: true
-overclaim_note: "Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation."
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
 ---
 # 5A JOURNEY PLANNING PHASE V4
 

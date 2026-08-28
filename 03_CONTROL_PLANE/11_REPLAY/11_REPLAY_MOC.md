@@ -1,5 +1,5 @@
 ---
-title: "11 Replay MOC"
+title: 11 Replay MOC
 type: moc
 source: 03_CONTROL_PLANE/11_REPLAY
 tags:

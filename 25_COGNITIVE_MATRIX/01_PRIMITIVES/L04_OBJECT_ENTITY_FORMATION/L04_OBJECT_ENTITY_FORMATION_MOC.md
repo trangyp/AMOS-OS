@@ -1,5 +1,5 @@
 ---
-title: "L04 Object Entity Formation MOC"
+title: L04 Object Entity Formation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION
 tags:

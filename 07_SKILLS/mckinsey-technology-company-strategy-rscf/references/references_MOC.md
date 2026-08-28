@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Mckinsey Technology Company Strategy Rscf"
+title: References MOC — References — Mckinsey Technology Company Strategy Rscf
 type: moc
 source: 07_SKILLS/mckinsey-technology-company-strategy-rscf/references
 tags:

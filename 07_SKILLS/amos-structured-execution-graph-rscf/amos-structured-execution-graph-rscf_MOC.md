@@ -1,5 +1,5 @@
 ---
-title: "Amos-Structured-Execution-Graph-Rscf MOC"
+title: Amos-Structured-Execution-Graph-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-structured-execution-graph-rscf
 tags:

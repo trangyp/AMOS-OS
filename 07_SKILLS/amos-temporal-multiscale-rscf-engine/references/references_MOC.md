@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Temporal Multiscale Rscf Engine"
+title: References MOC — References — Amos Temporal Multiscale Rscf Engine
 type: moc
 source: 07_SKILLS/amos-temporal-multiscale-rscf-engine/references
 tags:

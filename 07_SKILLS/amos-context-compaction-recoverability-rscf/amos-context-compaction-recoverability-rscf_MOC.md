@@ -1,5 +1,5 @@
 ---
-title: "Amos-Context-Compaction-Recoverability-Rscf MOC"
+title: Amos-Context-Compaction-Recoverability-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-context-compaction-recoverability-rscf
 tags:

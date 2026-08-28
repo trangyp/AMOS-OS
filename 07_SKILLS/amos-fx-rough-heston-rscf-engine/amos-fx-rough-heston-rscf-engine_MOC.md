@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Rough-Heston-Rscf-Engine MOC"
+title: Amos-Fx-Rough-Heston-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-rough-heston-rscf-engine
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "07 Monitoring MOC"
+title: 07 Monitoring MOC
 type: moc
 source: 20_OPERATIONS/07_MONITORING
 tags:

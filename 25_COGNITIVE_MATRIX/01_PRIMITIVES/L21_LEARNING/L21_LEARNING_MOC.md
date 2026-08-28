@@ -1,5 +1,5 @@
 ---
-title: "L21 Learning MOC"
+title: L21 Learning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L21_LEARNING
 tags:

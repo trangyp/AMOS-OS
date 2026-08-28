@@ -1,5 +1,5 @@
 ---
-title: "Amos-C08-Strategy-Game-Master MOC"
+title: Amos-C08-Strategy-Game-Master MOC
 type: moc
 source: 07_SKILLS/amos-c08-strategy-game-master
 tags:

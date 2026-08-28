@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Goal Plan Action Alignment Rscf"
+title: References MOC — References — Amos Goal Plan Action Alignment Rscf
 type: moc
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf/references
 tags:

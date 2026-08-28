@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Research / Index"
+title: Index MOC — Research / Index
 type: moc
 source: 22_RESEARCH/00_INDEX
 tags:

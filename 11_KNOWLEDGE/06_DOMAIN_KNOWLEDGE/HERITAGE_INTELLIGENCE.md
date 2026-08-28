@@ -1,16 +1,16 @@
 ---
-title: "Heritage Intelligence"
+title: Heritage Intelligence
 type: heritage
 source: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
-artifact: "HERITAGE_INTELLIGENCE.md"
-artifact_id: "amos_11_knowledge_06_domain_knowledge_heritage_intelligence"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "11_KNOWLEDGE"
-segment: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE"
-artifact_kind: "DOMAIN_KNOWLEDGE"
-path: "11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_INTELLIGENCE.md"
+artifact: HERITAGE_INTELLIGENCE.md
+artifact_id: amos_11_knowledge_06_domain_knowledge_heritage_intelligence
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 11_KNOWLEDGE
+segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
+artifact_kind: DOMAIN_KNOWLEDGE
+path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_INTELLIGENCE.md
 tags:
   - amos_os
   - knowledge
@@ -25,16 +25,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/knowledge
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -47,14 +47,14 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   parent_framework:
-    name: "Heritage Decision Intelligence™ Master"
-    artifact: "[[HERITAGE_INTELLIGENCE_MASTER]]"
+    name: Heritage Decision Intelligence™ Master
+    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
   matrix_binding:
-    artifact: "[[AMOS_X_HERITAGE]]"
-    matrix: "[[AMOS_X_HERITAGE_MATRIX]]"
+    artifact: [[AMOS_X_HERITAGE]]
+    matrix: [[AMOS_X_HERITAGE_MATRIX]]
   tss_coupling:
-    artifact: "[[HERITAGE_X_TSS]]"
-    matrix: "[[HERITAGE_X_TSS_MATRIX]]"
+    artifact: [[HERITAGE_X_TSS]]
+    matrix: [[HERITAGE_X_TSS_MATRIX]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

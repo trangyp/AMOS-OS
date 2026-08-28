@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Closed Loop Learning Governor"
+title: References MOC — References — Amos Closed Loop Learning Governor
 type: moc
 source: 07_SKILLS/amos-closed-loop-learning-governor/references
 tags:

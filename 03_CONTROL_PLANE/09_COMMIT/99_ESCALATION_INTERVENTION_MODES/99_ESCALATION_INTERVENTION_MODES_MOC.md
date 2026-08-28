@@ -1,5 +1,5 @@
 ---
-title: "99 Escalation Intervention Modes MOC"
+title: 99 Escalation Intervention Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/99_ESCALATION_INTERVENTION_MODES
 tags:

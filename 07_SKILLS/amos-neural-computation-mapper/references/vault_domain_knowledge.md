@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Neural Computation Mapper"
+title: Vault Domain Knowledge — Amos Neural Computation Mapper
 type: reference
 source: 07_SKILLS/amos-neural-computation-mapper/references
 tags:

@@ -1,16 +1,16 @@
 ---
-title: "UBI Historical Index"
+title: UBI Historical Index
 type: index
 source: 24_ARCHIVE/00_LEGACY
-artifact: "UBI_HISTORICAL_INDEX.md"
-artifact_id: "amos_24_archive_00_legacy_ubi_historical_index"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "24_ARCHIVE"
-segment: "24_ARCHIVE/00_LEGACY"
-artifact_kind: "INDEX"
-path: "24_ARCHIVE/00_LEGACY/UBI_HISTORICAL_INDEX.md"
+artifact: UBI_HISTORICAL_INDEX.md
+artifact_id: amos_24_archive_00_legacy_ubi_historical_index
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 24_ARCHIVE
+segment: 24_ARCHIVE/00_LEGACY
+artifact_kind: INDEX
+path: 24_ARCHIVE/00_LEGACY/UBI_HISTORICAL_INDEX.md
 tags:
 - amos_os
 - archive
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/archive
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

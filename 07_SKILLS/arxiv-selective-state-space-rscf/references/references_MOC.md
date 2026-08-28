@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Selective State Space Rscf"
+title: References MOC — References — Arxiv Selective State Space Rscf
 type: moc
 source: 07_SKILLS/arxiv-selective-state-space-rscf/references
 tags:

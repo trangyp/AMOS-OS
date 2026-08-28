@@ -1,5 +1,5 @@
 ---
-title: "Quantum MOC"
+title: Quantum MOC
 type: moc
 source: 11_KNOWLEDGE/quantum
 tags:

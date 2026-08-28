@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Research Agent"
+title: References MOC — References — Amos Research Agent
 type: moc
 source: 07_SKILLS/amos-research-agent/references
 tags:

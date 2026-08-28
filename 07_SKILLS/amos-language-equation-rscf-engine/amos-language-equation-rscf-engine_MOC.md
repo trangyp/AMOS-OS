@@ -1,5 +1,5 @@
 ---
-title: "Amos-Language-Equation-Rscf-Engine MOC"
+title: Amos-Language-Equation-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-language-equation-rscf-engine
 tags:

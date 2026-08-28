@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Sensory Map Integrator"
+title: Vault Domain Knowledge — Amos Sensory Map Integrator
 type: reference
 source: 07_SKILLS/amos-sensory-map-integrator/references
 tags:

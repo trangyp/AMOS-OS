@@ -1,16 +1,16 @@
 ---
-title: "Universe Canon Supersession"
+title: Universe Canon Supersession
 type: canon
 source: 01_CANON/08_SUPERSESSION
-artifact: "UNIVERSE_CANON_SUPERSESSION.md"
-artifact_id: "amos_01_canon_08_supersession_universe_canon_supersession"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/08_SUPERSESSION"
-artifact_kind: "SUPERSESSION"
-path: "01_CANON/08_SUPERSESSION/UNIVERSE_CANON_SUPERSESSION.md"
+artifact: UNIVERSE_CANON_SUPERSESSION.md
+artifact_id: amos_01_canon_08_supersession_universe_canon_supersession
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/08_SUPERSESSION
+artifact_kind: SUPERSESSION
+path: 01_CANON/08_SUPERSESSION/UNIVERSE_CANON_SUPERSESSION.md
 tags:
 - amos_os
 - canon
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -1,5 +1,5 @@
 ---
-title: "84 Freshness Revalidation Modes MOC"
+title: 84 Freshness Revalidation Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/84_FRESHNESS_REVALIDATION_MODES
 tags:

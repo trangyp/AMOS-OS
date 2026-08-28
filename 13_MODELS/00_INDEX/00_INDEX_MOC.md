@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Models / Index"
+title: Index MOC — Models / Index
 type: moc
 source: 13_MODELS/00_INDEX
 tags:

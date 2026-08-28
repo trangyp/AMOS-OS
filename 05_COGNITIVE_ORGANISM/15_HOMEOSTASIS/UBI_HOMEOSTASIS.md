@@ -1,16 +1,16 @@
 ---
-title: "UBI Homeostasis — 15 Homeostasis"
+title: UBI Homeostasis — 15 Homeostasis
 type: note
 source: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
-artifact: "UBI_HOMEOSTASIS.md"
-artifact_id: "amos_05_cognitive_organism_15_homeostasis_ubi_homeostasis"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "05_COGNITIVE_ORGANISM"
-segment: "05_COGNITIVE_ORGANISM/15_HOMEOSTASIS"
-artifact_kind: "ARTIFACT"
-path: "05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/UBI_HOMEOSTASIS.md"
+artifact: UBI_HOMEOSTASIS.md
+artifact_id: amos_05_cognitive_organism_15_homeostasis_ubi_homeostasis
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 05_COGNITIVE_ORGANISM
+segment: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS
+artifact_kind: ARTIFACT
+path: 05_COGNITIVE_ORGANISM/15_HOMEOSTASIS/UBI_HOMEOSTASIS.md
 tags:
 - amos_os
 - cognitive
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/cognitive
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

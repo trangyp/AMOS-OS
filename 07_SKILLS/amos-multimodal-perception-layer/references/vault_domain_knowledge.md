@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Multimodal Perception Layer"
+title: Vault Domain Knowledge — Amos Multimodal Perception Layer
 type: reference
 source: 07_SKILLS/amos-multimodal-perception-layer/references
 tags:

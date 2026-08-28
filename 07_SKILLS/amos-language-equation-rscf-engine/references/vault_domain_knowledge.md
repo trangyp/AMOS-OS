@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Language Equation Rscf Engine"
+title: Vault Domain Knowledge — Amos Language Equation Rscf Engine
 type: reference
 source: 07_SKILLS/amos-language-equation-rscf-engine/references
 tags:

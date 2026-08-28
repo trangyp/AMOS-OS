@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Control Planes / C06 Memory / Index"
+title: Index MOC — Cognitive Matrix / Control Planes / C06 Memory / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/00_INDEX
 tags:

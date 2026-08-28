@@ -1,5 +1,5 @@
 ---
-title: "AMOS × Omega"
+title: AMOS × Omega
 type: cognitive-matrix
 tags:
 - amos_os

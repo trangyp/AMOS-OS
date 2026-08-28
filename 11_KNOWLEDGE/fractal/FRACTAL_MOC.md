@@ -1,5 +1,5 @@
 ---
-title: "Fractal MOC"
+title: Fractal MOC
 type: moc
 source: 11_KNOWLEDGE/fractal
 tags:

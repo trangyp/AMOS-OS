@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx Carry Differential Engine"
+title: Vault Domain Knowledge — Amos Fx Carry Differential Engine
 type: reference
 source: 07_SKILLS/amos-fx-carry-differential-engine/references
 tags:

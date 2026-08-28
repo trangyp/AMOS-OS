@@ -1,5 +1,5 @@
 ---
-title: "Amos-Law-Hierarchy-Resolver MOC"
+title: Amos-Law-Hierarchy-Resolver MOC
 type: moc
 source: 07_SKILLS/amos-law-hierarchy-resolver
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos C02 Math Compute Master"
+title: References MOC — References — Amos C02 Math Compute Master
 type: moc
 source: 07_SKILLS/amos-c02-math-compute-master/references
 tags:

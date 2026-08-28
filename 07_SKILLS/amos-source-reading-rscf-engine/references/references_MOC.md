@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Source Reading Rscf Engine"
+title: References MOC — References — Amos Source Reading Rscf Engine
 type: moc
 source: 07_SKILLS/amos-source-reading-rscf-engine/references
 tags:

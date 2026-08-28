@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Runtime Benchmarking"
+title: References MOC — References — Amos Runtime Benchmarking
 type: moc
 source: 07_SKILLS/amos-runtime-benchmarking/references
 tags:

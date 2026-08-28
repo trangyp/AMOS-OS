@@ -1,5 +1,5 @@
 ---
-title: "Amos-Arxiv-Spatial-Speech-Perception-Rscf MOC"
+title: Amos-Arxiv-Spatial-Speech-Perception-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-arxiv-spatial-speech-perception-rscf
 tags:

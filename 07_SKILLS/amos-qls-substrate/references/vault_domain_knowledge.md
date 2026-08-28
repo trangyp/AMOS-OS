@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Qls Substrate"
+title: Vault Domain Knowledge — Amos Qls Substrate
 type: reference
 source: 07_SKILLS/amos-qls-substrate/references
 tags:

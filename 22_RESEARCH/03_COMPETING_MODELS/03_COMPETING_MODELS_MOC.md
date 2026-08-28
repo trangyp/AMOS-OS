@@ -1,5 +1,5 @@
 ---
-title: "03 Competing Models MOC"
+title: 03 Competing Models MOC
 type: moc
 source: 22_RESEARCH/03_COMPETING_MODELS
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Code-Agent-Harness-Rscf MOC"
+title: Amos-Code-Agent-Harness-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-code-agent-harness-rscf
 tags:

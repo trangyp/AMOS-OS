@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Activation-Checkpointing-Rscf MOC"
+title: Arxiv-Activation-Checkpointing-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-activation-checkpointing-rscf
 tags:

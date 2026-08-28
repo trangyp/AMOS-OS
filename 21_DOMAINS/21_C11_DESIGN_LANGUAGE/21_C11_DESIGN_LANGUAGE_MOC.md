@@ -1,5 +1,5 @@
 ---
-title: "21 C11 Design Language MOC"
+title: 21 C11 Design Language MOC
 type: moc
 source: 21_DOMAINS/21_C11_DESIGN_LANGUAGE
 tags:

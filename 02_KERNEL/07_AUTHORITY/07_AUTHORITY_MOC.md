@@ -1,5 +1,5 @@
 ---
-title: "07 Authority MOC"
+title: 07 Authority MOC
 type: moc
 source: 02_KERNEL/07_AUTHORITY
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "01 Software MOC"
+title: 01 Software MOC
 type: moc
 source: 21_DOMAINS/01_SOFTWARE
 tags:

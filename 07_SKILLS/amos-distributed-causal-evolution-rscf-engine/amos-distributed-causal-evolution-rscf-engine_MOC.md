@@ -1,5 +1,5 @@
 ---
-title: "Amos-Distributed-Causal-Evolution-Rscf-Engine MOC"
+title: Amos-Distributed-Causal-Evolution-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine
 tags:

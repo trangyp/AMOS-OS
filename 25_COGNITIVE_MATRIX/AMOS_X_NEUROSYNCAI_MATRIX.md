@@ -1,7 +1,7 @@
 ---
 title: AMOS X NEUROSYNCAI MATRIX
 type: note
-source: "25_COGNITIVE_MATRIX"
+source: 25_COGNITIVE_MATRIX
 rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL

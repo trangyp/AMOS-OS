@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Arxiv Sparse Autoencoder Interpretability Rscf"
+title: Vault Domain Knowledge — Amos Arxiv Sparse Autoencoder Interpretability Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-sparse-autoencoder-interpretability-rscf/references
 tags:

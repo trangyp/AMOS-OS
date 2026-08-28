@@ -1,16 +1,16 @@
 ---
-title: "COGNITIVE MATRIX README"
+title: COGNITIVE MATRIX README
 type: cognitive
-source: "25_COGNITIVE_MATRIX"
-artifact: "COGNITIVE_MATRIX_README.md"
-artifact_id: "amos_25_cognitive_matrix_cognitive_matrix_readme"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "COGNITIVE_ARCHITECTURE"
-path: "25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README.md"
+source: 25_COGNITIVE_MATRIX
+artifact: COGNITIVE_MATRIX_README.md
+artifact_id: amos_25_cognitive_matrix_cognitive_matrix_readme
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: COGNITIVE_ARCHITECTURE
+path: 25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -45,17 +45,17 @@ tags:
   - anti_regression
   - canon_candidate
   - canon/cognitive-matrix
-version: "1.0.0"
-updated: "2026-08-27"
-status: "DERIVED_CANDIDATE_CANON"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CANON_CANDIDATE"
-implementation_status: "NOT_ESTABLISHED_BY_THIS_ARTIFACT"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-formal_verification_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: DERIVED_CANDIDATE_CANON
+epistemic_class: AMOS_MODEL
+canonical_status: CANON_CANDIDATE
+implementation_status: NOT_ESTABLISHED_BY_THIS_ARTIFACT
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+formal_verification_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
@@ -77,7 +77,7 @@ epistemic_boundary:
   runtime_enforcement: NOT_ESTABLISHED
   distributed_system_mechanisms: REASONING_PATTERNS_NOT_RUNTIME_CLAIMS
 lineage:
-  lineage_target: "AMOS_CORE_v4_4"
+  lineage_target: AMOS_CORE_v4_4
   spine:
     - deterministic_logic
     - recursive_rscf_hml

@@ -1,5 +1,5 @@
 ---
-title: "Governance MOC"
+title: Governance MOC
 type: moc
 source: 11_KNOWLEDGE/governance
 tags:

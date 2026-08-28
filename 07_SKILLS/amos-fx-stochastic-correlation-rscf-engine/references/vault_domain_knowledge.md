@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Fx Stochastic Correlation Rscf Engine"
+title: Vault Domain Knowledge — Amos Fx Stochastic Correlation Rscf Engine
 type: reference
 source: 07_SKILLS/amos-fx-stochastic-correlation-rscf-engine/references
 tags:

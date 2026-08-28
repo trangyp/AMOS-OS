@@ -1,5 +1,5 @@
 ---
-title: "Vault Orphan-Closure Pass — 2026-08-23"
+title: Vault Orphan-Closure Pass — 2026-08-23
 type: thinking
 source: 11_KNOWLEDGE/dated
 status: active

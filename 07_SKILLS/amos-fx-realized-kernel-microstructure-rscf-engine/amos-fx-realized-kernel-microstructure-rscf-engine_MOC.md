@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Realized-Kernel-Microstructure-Rscf-Engine MOC"
+title: Amos-Fx-Realized-Kernel-Microstructure-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-realized-kernel-microstructure-rscf-engine
 tags:

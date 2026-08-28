@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Cognitive Process Orchestrator"
+title: References MOC — References — Amos Cognitive Process Orchestrator
 type: moc
 source: 07_SKILLS/amos-cognitive-process-orchestrator/references
 tags:

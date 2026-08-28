@@ -1,7 +1,7 @@
 ---
 title: CAS CANON
 type: note
-source: "01_CANON/04_INFRASTRUCTURE_CANON"
+source: 01_CANON/04_INFRASTRUCTURE_CANON
 rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL

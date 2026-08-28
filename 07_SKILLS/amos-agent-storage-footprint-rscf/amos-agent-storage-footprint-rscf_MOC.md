@@ -1,5 +1,5 @@
 ---
-title: "Amos-Agent-Storage-Footprint-Rscf MOC"
+title: Amos-Agent-Storage-Footprint-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-agent-storage-footprint-rscf
 tags:

@@ -1,8 +1,8 @@
 ---
-title: "NEW PROCESS — 7-Phase Transformation Framework"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/_Archive/NEW PROCESS/*.pdf"
-origin_architect: "McKinsey & Company (AMOS adaptation)"
+title: NEW PROCESS — 7-Phase Transformation Framework
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/_Archive/NEW PROCESS/*.pdf
+origin_architect: McKinsey & Company (AMOS adaptation)
 type: framework
 source: 11_KNOWLEDGE/misc
 tags:
@@ -22,9 +22,9 @@ tags:
 - McKinsey
 - misc
 - canon/knowledge
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: DERIVED
   claim_class: DERIVED

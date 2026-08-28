@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Quantile-Distribution-Rscf-Engine MOC"
+title: Amos-Fx-Quantile-Distribution-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-quantile-distribution-rscf-engine
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Kernel / Authority / Index"
+title: Index MOC — Kernel / Authority / Index
 type: moc
 source: 02_KERNEL/07_AUTHORITY/00_INDEX
 tags:

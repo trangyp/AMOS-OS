@@ -1,5 +1,5 @@
 ---
-title: "61 Reflection Metacognition Modes MOC"
+title: 61 Reflection Metacognition Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/61_REFLECTION_METACOGNITION_MODES
 tags:

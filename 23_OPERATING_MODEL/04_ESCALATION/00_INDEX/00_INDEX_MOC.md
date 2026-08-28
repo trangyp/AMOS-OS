@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Operating Model / Escalation / Index"
+title: Index MOC — Operating Model / Escalation / Index
 type: moc
 source: 23_OPERATING_MODEL/04_ESCALATION/00_INDEX
 tags:

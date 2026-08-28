@@ -1,5 +1,5 @@
 ---
-title: "33 Interaction Expression Modes MOC"
+title: 33 Interaction Expression Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/33_INTERACTION_EXPRESSION_MODES
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Distinction Relation Constraint Rscf Algebra"
+title: Vault Domain Knowledge — Amos Distinction Relation Constraint Rscf Algebra
 type: reference
 source: 07_SKILLS/amos-distinction-relation-constraint-rscf-algebra/references
 tags:

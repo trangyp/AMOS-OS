@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Portable Agent Authorization Rscf"
+title: Vault Domain Knowledge — Amos Portable Agent Authorization Rscf
 type: reference
 source: 07_SKILLS/amos-portable-agent-authorization-rscf/references
 tags:

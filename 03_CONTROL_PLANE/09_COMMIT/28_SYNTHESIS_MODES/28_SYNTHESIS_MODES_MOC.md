@@ -1,5 +1,5 @@
 ---
-title: "28 Synthesis Modes MOC"
+title: 28 Synthesis Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/28_SYNTHESIS_MODES
 tags:

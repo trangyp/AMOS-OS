@@ -1,8 +1,8 @@
 ---
-title: "DSc/ScD Portfolio — Three-Canon Deterministic Architecture"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/_Archive/doctpr.pdf (3.7MB, 3,235 lines, full PDF extracted)"
-origin_architect: "Trang Phan"
+title: DSc/ScD Portfolio — Three-Canon Deterministic Architecture
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/_Archive/doctpr.pdf (3.7MB, 3,235 lines, full PDF extracted)
+origin_architect: Trang Phan
 type: reference
 source: 11_KNOWLEDGE/architecture
 tags:

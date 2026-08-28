@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Canon Consistency Governor"
+title: Vault Domain Knowledge — Amos Canon Consistency Governor
 type: reference
 source: 07_SKILLS/amos-canon-consistency-governor/references
 tags:

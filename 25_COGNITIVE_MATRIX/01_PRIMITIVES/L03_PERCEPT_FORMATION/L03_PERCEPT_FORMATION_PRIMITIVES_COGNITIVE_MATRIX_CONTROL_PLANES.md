@@ -13,11 +13,11 @@ tags:
 - hml
 - governance
 - canon/cognitive-matrix
-title: "L03_PERCEPT_FORMATION — Control Planes"
-origin_architect: "Trang Phan"
-status: "MODEL_CONTROL_PLANE_CONTRACT / UNIMPLEMENTED / UNVALIDATED"
-epistemic_class: "MODEL"
-runtime_alignment: "AMOS Full Brain OS / AMOS_CORE v4.4 lineage"
+title: L03_PERCEPT_FORMATION — Control Planes
+origin_architect: Trang Phan
+status: MODEL_CONTROL_PLANE_CONTRACT / UNIMPLEMENTED / UNVALIDATED
+epistemic_class: MODEL
+runtime_alignment: AMOS Full Brain OS / AMOS_CORE v4.4 lineage
 rscf:
   state: DERIVED
   claim_class: DERIVED

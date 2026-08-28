@@ -1,5 +1,5 @@
 ---
-title: "Arxiv-Grpo-Reasoning-Policy-Rscf MOC"
+title: Arxiv-Grpo-Reasoning-Policy-Rscf MOC
 type: moc
 source: 07_SKILLS/arxiv-grpo-reasoning-policy-rscf
 tags:

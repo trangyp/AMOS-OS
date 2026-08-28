@@ -1,5 +1,5 @@
 ---
-title: "Law-Stack-Enforcement-Pipeline MOC"
+title: Law-Stack-Enforcement-Pipeline MOC
 type: moc
 source: 08_WORKFLOWS/law-stack-enforcement-pipeline
 tags:

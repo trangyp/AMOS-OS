@@ -1,16 +1,16 @@
 ---
-title: "Framework Authority Registry"
+title: Framework Authority Registry
 type: authority
 source: 03_CONTROL_PLANE/04_AUTHORITY
-artifact: "FRAMEWORK_AUTHORITY_REGISTRY.md"
-artifact_id: "amos_03_control_plane_04_authority_framework_authority_registry"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "03_CONTROL_PLANE"
-segment: "03_CONTROL_PLANE/04_AUTHORITY"
-artifact_kind: "REGISTRY"
-path: "03_CONTROL_PLANE/04_AUTHORITY/FRAMEWORK_AUTHORITY_REGISTRY.md"
+artifact: FRAMEWORK_AUTHORITY_REGISTRY.md
+artifact_id: amos_03_control_plane_04_authority_framework_authority_registry
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 03_CONTROL_PLANE
+segment: 03_CONTROL_PLANE/04_AUTHORITY
+artifact_kind: REGISTRY
+path: 03_CONTROL_PLANE/04_AUTHORITY/FRAMEWORK_AUTHORITY_REGISTRY.md
 tags:
 - amos_os
 - control_plane
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/control-plane
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

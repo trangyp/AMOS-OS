@@ -1,5 +1,5 @@
 ---
-title: "Security MOC"
+title: Security MOC
 type: moc
 source: 11_KNOWLEDGE/security
 tags:

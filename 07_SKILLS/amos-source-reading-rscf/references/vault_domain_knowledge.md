@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Source Reading Rscf"
+title: Vault Domain Knowledge — Amos Source Reading Rscf
 type: reference
 source: 07_SKILLS/amos-source-reading-rscf/references
 tags:

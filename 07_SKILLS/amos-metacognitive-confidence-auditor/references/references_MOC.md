@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Metacognitive Confidence Auditor"
+title: References MOC — References — Amos Metacognitive Confidence Auditor
 type: moc
 source: 07_SKILLS/amos-metacognitive-confidence-auditor/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "02 Cognition MOC"
+title: 02 Cognition MOC
 type: moc
 source: 02_KERNEL/02_COGNITION
 tags:

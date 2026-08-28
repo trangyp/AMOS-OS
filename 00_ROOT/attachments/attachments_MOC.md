@@ -1,5 +1,5 @@
 ---
-title: "Attachments MOC"
+title: Attachments MOC
 type: moc
 source: 00_ROOT/attachments
 tags:

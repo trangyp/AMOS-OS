@@ -1,5 +1,5 @@
 ---
-title: "L16 Planning MOC"
+title: L16 Planning MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING
 tags:

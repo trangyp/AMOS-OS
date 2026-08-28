@@ -1,5 +1,5 @@
 ---
-title: "O08 Prediction MOC"
+title: O08 Prediction MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O08_PREDICTION
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "System MOC"
+title: System MOC
 type: moc
 source: 11_KNOWLEDGE/system
 tags:

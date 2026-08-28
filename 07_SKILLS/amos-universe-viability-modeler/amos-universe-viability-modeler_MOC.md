@@ -1,5 +1,5 @@
 ---
-title: "Amos-Universe-Viability-Modeler MOC"
+title: Amos-Universe-Viability-Modeler MOC
 type: moc
 source: 07_SKILLS/amos-universe-viability-modeler
 tags:

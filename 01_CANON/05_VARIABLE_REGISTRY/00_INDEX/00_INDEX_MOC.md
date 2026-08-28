@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Canon / Variable Registry / Index"
+title: Index MOC — Canon / Variable Registry / Index
 type: moc
 source: 01_CANON/05_VARIABLE_REGISTRY/00_INDEX
 tags:

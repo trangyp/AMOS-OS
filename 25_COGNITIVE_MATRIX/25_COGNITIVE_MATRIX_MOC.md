@@ -1,5 +1,5 @@
 ---
-title: "25 Cognitive Matrix MOC"
+title: 25 Cognitive Matrix MOC
 type: moc
 source: 25_COGNITIVE_MATRIX
 tags:

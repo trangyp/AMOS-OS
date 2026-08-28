@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Github Rscf Ingestion"
+title: References MOC — References — Amos Github Rscf Ingestion
 type: moc
 source: 07_SKILLS/amos-github-rscf-ingestion/references
 tags:

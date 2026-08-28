@@ -1,5 +1,5 @@
 ---
-title: "L11 Causal Modeling MOC"
+title: L11 Causal Modeling MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L11_CAUSAL_MODELING
 tags:

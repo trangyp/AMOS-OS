@@ -1,5 +1,5 @@
 ---
-title: "06 Biology MOC"
+title: 06 Biology MOC
 type: moc
 source: 21_DOMAINS/06_BIOLOGY
 tags:

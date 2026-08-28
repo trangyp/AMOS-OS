@@ -1,5 +1,5 @@
 ---
-title: "09 Integration MOC"
+title: 09 Integration MOC
 type: moc
 source: 02_KERNEL/09_INTEGRATION
 tags:

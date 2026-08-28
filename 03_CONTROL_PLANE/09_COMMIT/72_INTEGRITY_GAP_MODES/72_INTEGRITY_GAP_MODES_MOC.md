@@ -1,5 +1,5 @@
 ---
-title: "72 Integrity Gap Modes MOC"
+title: 72 Integrity Gap Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/72_INTEGRITY_GAP_MODES
 tags:

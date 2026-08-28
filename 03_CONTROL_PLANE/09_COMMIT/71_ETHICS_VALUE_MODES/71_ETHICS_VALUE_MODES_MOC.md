@@ -1,5 +1,5 @@
 ---
-title: "71 Ethics Value Modes MOC"
+title: 71 Ethics Value Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/71_ETHICS_VALUE_MODES
 tags:

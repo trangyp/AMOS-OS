@@ -1,5 +1,5 @@
 ---
-title: "09 Backups MOC"
+title: 09 Backups MOC
 type: moc
 source: 20_OPERATIONS/09_BACKUPS
 tags:

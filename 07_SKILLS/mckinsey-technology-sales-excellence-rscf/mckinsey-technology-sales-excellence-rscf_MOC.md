@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Technology-Sales-Excellence-Rscf MOC"
+title: Mckinsey-Technology-Sales-Excellence-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-technology-sales-excellence-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos Causal Reasoning Master"
+title: AGENT TEMPLATE — Amos Causal Reasoning Master
 type: note
 source: 07_SKILLS/amos-causal-reasoning-master
 tags:

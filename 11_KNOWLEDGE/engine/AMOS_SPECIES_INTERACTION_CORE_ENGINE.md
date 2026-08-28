@@ -1,10 +1,10 @@
 ---
-title: "AMOS Species Interaction Core Engine"
+title: AMOS Species Interaction Core Engine
 type: engine
 source: 11_KNOWLEDGE/engine
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/Kernels/Biology_Cognition/AMOS_Species_Interaction_Core_Engine_v0.json (232 lines, 8.9KB)"
-origin_type: "SOURCE"
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/Kernels/Biology_Cognition/AMOS_Species_Interaction_Core_Engine_v0.json (232 lines, 8.9KB)
+origin_type: SOURCE
 tags:
 - amos
 - kernel

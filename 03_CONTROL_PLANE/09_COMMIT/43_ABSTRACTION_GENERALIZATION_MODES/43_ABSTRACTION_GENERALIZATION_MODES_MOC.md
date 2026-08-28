@@ -1,5 +1,5 @@
 ---
-title: "43 Abstraction Generalization Modes MOC"
+title: 43 Abstraction Generalization Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/43_ABSTRACTION_GENERALIZATION_MODES
 tags:

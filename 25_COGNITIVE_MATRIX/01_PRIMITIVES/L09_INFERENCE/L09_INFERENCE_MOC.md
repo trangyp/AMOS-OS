@@ -1,5 +1,5 @@
 ---
-title: "L09 Inference MOC"
+title: L09 Inference MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L09_INFERENCE
 tags:

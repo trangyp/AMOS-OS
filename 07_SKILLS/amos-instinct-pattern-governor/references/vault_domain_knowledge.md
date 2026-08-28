@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Instinct Pattern Governor"
+title: Vault Domain Knowledge — Amos Instinct Pattern Governor
 type: reference
 source: 07_SKILLS/amos-instinct-pattern-governor/references
 tags:

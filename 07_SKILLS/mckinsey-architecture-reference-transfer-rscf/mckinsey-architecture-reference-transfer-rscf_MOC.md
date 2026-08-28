@@ -1,5 +1,5 @@
 ---
-title: "Mckinsey-Architecture-Reference-Transfer-Rscf MOC"
+title: Mckinsey-Architecture-Reference-Transfer-Rscf MOC
 type: moc
 source: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf
 tags:

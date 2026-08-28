@@ -1,5 +1,5 @@
 ---
-title: "23 Operating Model MOC"
+title: 23 Operating Model MOC
 type: moc
 source: 23_OPERATING_MODEL
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Arxiv Influence Guided Symbolic Regression Rscf"
+title: Vault Domain Knowledge — Amos Arxiv Influence Guided Symbolic Regression Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-influence-guided-symbolic-regression-rscf/references
 tags:

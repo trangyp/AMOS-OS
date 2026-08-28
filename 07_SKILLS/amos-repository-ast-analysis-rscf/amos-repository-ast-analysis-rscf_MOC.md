@@ -1,5 +1,5 @@
 ---
-title: "Amos-Repository-Ast-Analysis-Rscf MOC"
+title: Amos-Repository-Ast-Analysis-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-repository-ast-analysis-rscf
 tags:

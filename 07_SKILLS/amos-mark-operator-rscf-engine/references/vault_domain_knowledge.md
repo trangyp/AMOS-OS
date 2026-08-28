@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Mark Operator Rscf Engine"
+title: Vault Domain Knowledge — Amos Mark Operator Rscf Engine
 type: reference
 source: 07_SKILLS/amos-mark-operator-rscf-engine/references
 tags:

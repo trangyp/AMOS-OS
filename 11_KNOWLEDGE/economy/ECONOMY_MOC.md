@@ -1,5 +1,5 @@
 ---
-title: "Economy MOC"
+title: Economy MOC
 type: moc
 source: 11_KNOWLEDGE/economy
 tags:

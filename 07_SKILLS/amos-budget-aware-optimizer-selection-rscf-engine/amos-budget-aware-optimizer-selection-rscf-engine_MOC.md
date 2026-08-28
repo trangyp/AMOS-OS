@@ -1,5 +1,5 @@
 ---
-title: "Amos-Budget-Aware-Optimizer-Selection-Rscf-Engine MOC"
+title: Amos-Budget-Aware-Optimizer-Selection-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-budget-aware-optimizer-selection-rscf-engine
 tags:

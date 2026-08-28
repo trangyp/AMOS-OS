@@ -1,5 +1,5 @@
 ---
-title: "Slides MOC"
+title: Slides MOC
 type: moc
 source: 07_SKILLS/slides
 tags:

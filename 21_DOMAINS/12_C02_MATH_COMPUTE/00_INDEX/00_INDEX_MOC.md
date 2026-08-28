@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / C02 Math Compute / Index"
+title: Index MOC — Domains / C02 Math Compute / Index
 type: moc
 source: 21_DOMAINS/12_C02_MATH_COMPUTE/00_INDEX
 tags:

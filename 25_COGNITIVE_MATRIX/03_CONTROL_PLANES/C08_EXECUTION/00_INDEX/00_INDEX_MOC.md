@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Control Planes / C08 Execution / Index"
+title: Index MOC — Cognitive Matrix / Control Planes / C08 Execution / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C08_EXECUTION/00_INDEX
 tags:

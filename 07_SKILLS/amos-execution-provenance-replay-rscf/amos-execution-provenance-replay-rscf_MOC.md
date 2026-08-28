@@ -1,5 +1,5 @@
 ---
-title: "Amos-Execution-Provenance-Replay-Rscf MOC"
+title: Amos-Execution-Provenance-Replay-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-execution-provenance-replay-rscf
 tags:

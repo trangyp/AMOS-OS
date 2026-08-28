@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Absolute Primitive Decomposer"
+title: References MOC — References — Amos Absolute Primitive Decomposer
 type: moc
 source: 07_SKILLS/amos-absolute-primitive-decomposer/references
 tags:

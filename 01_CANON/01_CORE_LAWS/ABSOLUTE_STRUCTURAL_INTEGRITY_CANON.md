@@ -1,16 +1,16 @@
 ---
-title: "Absolute Structural Integrity Canon"
+title: Absolute Structural Integrity Canon
 type: canon
-source: "01_CANON/01_CORE_LAWS"
-artifact: "ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md"
-artifact_id: "amos_01_canon_01_core_laws_absolute_structural_integrity_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/01_CORE_LAWS"
-artifact_kind: "CANON"
-path: "01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md"
+source: 01_CANON/01_CORE_LAWS
+artifact: ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
+artifact_id: amos_01_canon_01_core_laws_absolute_structural_integrity_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/01_CORE_LAWS
+artifact_kind: CANON
+path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
 tags:
   - amos_os
   - canon
@@ -28,22 +28,22 @@ tags:
   - governed_evolution
   - rollback
   - canon/core_laws
-version: "1.0.0"
-updated: "2026-08-27"
-status: "CANON_CANDIDATE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CANDIDATE_PENDING_VALIDATION"
-implementation_status: "PARTIAL_OR_NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 1.0.0
+updated: '2026-08-27'
+status: CANON_CANDIDATE
+epistemic_class: AMOS_MODEL
+canonical_status: CANDIDATE_PENDING_VALIDATION
+implementation_status: PARTIAL_OR_NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: AMOS_core_laws
-  confidence_ceiling: "SOURCE_DEPENDENT"
-  regime: "AMOS_OS_MODEL"
+  confidence_ceiling: SOURCE_DEPENDENT
+  regime: AMOS_OS_MODEL
 ---
 
 # Absolute Structural Integrity Canon

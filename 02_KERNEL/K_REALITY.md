@@ -1,5 +1,5 @@
 ---
-title: "K_REALITY — Reality Substrate Kernel"
+title: K_REALITY — Reality Substrate Kernel
 type: kernel
 source: 02_KERNEL
 tags:

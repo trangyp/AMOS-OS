@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Future Confidence Distillation Rscf"
+title: References MOC — References — Arxiv Future Confidence Distillation Rscf
 type: moc
 source: 07_SKILLS/arxiv-future-confidence-distillation-rscf/references
 tags:

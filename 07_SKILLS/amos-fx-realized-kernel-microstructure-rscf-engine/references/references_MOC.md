@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Realized Kernel Microstructure Rscf Engine"
+title: References MOC — References — Amos Fx Realized Kernel Microstructure Rscf Engine
 type: moc
 source: 07_SKILLS/amos-fx-realized-kernel-microstructure-rscf-engine/references
 tags:

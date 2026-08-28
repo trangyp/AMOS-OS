@@ -1,5 +1,5 @@
 ---
-title: "AGENT TEMPLATE — Amos C12 Earth Ecology Master"
+title: AGENT TEMPLATE — Amos C12 Earth Ecology Master
 type: note
 source: 07_SKILLS/amos-c12-earth-ecology-master
 tags:

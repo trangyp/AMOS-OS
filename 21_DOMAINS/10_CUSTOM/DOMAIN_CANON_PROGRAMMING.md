@@ -1,16 +1,16 @@
 ---
-title: "Domain Canon Programming (DCP) Engine"
+title: Domain Canon Programming (DCP) Engine
 type: domain
 source: 21_DOMAINS/10_CUSTOM
-artifact: "DOMAIN_CANON_PROGRAMMING.md"
-artifact_id: "amos_21_domains_10_custom_domain_canon_programming"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "21_DOMAINS"
-segment: "21_DOMAINS/10_CUSTOM"
-artifact_kind: "DOMAIN_ENGINE"
-path: "21_DOMAINS/10_CUSTOM/DOMAIN_CANON_PROGRAMMING.md"
+artifact: DOMAIN_CANON_PROGRAMMING.md
+artifact_id: amos_21_domains_10_custom_domain_canon_programming
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 21_DOMAINS
+segment: 21_DOMAINS/10_CUSTOM
+artifact_kind: DOMAIN_ENGINE
+path: 21_DOMAINS/10_CUSTOM/DOMAIN_CANON_PROGRAMMING.md
 tags:
   - amos_os
   - domain
@@ -23,16 +23,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/domain
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "SYSTEM_INVARIANT"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: SYSTEM_INVARIANT
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
@@ -46,9 +46,9 @@ rscf:
     - SOURCE_DEFINED_MODEL
 framework_binding:
   dcp_framework:
-    artifact: "[[DOMAIN_CANON_PROGRAMMING]]"
+    artifact: [[DOMAIN_CANON_PROGRAMMING]]
   law_of_law:
-    artifact: "[[L0_INTEGRITY]]"
+    artifact: [[L0_INTEGRITY]]
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

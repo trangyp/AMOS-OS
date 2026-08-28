@@ -3,7 +3,7 @@ title: CHEAT SHEET MANIPULATION COMPRESSION
 type: cheat-sheet
 created: 2026-08-22
 updated: 2026-08-22
-source: "The Complete Human System — Book Three: Manipulation + Book Four: Addiction"
+source: 'The Complete Human System — Book Three: Manipulation + Book Four: Addiction'
 tags:
 - canon-group/human-system
 - canon/narrative
@@ -18,6 +18,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 
 
 # Manipulation Compression — Practical Cheat Sheet

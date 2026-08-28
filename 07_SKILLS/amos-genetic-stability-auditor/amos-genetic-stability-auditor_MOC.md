@@ -1,5 +1,5 @@
 ---
-title: "Amos-Genetic-Stability-Auditor MOC"
+title: Amos-Genetic-Stability-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-genetic-stability-auditor
 tags:

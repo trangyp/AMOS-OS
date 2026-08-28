@@ -1,5 +1,5 @@
 ---
-title: "L15 Goal Formation MOC"
+title: L15 Goal Formation MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L15_GOAL_FORMATION
 tags:

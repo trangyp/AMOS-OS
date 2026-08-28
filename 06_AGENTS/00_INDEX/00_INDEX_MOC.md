@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Agents / Index"
+title: Index MOC — Agents / Index
 type: moc
 source: 06_AGENTS/00_INDEX
 tags:

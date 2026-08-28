@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Os Kernel"
+title: References MOC — References — Amos Os Kernel
 type: moc
 source: 07_SKILLS/amos-os-kernel/references
 tags:

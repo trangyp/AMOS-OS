@@ -1,5 +1,5 @@
 ---
-title: "Amos-Agent-Systems-Master MOC"
+title: Amos-Agent-Systems-Master MOC
 type: moc
 source: 07_SKILLS/amos-agent-systems-master
 tags:

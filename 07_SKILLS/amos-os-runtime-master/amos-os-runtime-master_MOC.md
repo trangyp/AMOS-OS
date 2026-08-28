@@ -1,5 +1,5 @@
 ---
-title: "Amos-Os-Runtime-Master MOC"
+title: Amos-Os-Runtime-Master MOC
 type: moc
 source: 07_SKILLS/amos-os-runtime-master
 tags:

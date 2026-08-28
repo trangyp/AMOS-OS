@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Operating Model / Roles / Index"
+title: Index MOC — Operating Model / Roles / Index
 type: moc
 source: 23_OPERATING_MODEL/01_ROLES/00_INDEX
 tags:

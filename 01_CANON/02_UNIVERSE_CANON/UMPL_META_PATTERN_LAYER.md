@@ -1,5 +1,5 @@
 ---
-title: "UMPL Meta Pattern Layer"
+title: UMPL Meta Pattern Layer
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

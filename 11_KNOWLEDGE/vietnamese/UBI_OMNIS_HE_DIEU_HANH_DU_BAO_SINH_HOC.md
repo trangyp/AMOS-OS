@@ -1,5 +1,5 @@
 ---
-title: "UBI Omnis™ — AMOS Biological Forecasting & Resilience Intelligence Architecture"
+title: UBI Omnis™ — AMOS Biological Forecasting & Resilience Intelligence Architecture
 type: note
 source: 11_KNOWLEDGE/vietnamese
 tags:

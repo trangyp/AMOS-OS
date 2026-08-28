@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Biology / Index"
+title: Index MOC — Domains / Biology / Index
 type: moc
 source: 21_DOMAINS/06_BIOLOGY/00_INDEX
 tags:

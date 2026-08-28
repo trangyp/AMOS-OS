@@ -1,5 +1,5 @@
 ---
-title: "01 Primitives MOC"
+title: 01 Primitives MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES
 tags:

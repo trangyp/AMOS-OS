@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / C09 Org Law Policy / Index"
+title: Index MOC — Domains / C09 Org Law Policy / Index
 type: moc
 source: 21_DOMAINS/19_C09_ORG_LAW_POLICY/00_INDEX
 tags:

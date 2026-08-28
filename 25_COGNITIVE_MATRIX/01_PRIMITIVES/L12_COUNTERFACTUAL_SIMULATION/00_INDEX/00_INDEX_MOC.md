@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L12 Counterfactual Simulation / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L12 Counterfactual Simulation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L12_COUNTERFACTUAL_SIMULATION/00_INDEX
 tags:

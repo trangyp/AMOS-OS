@@ -1,5 +1,5 @@
 ---
-title: "K_CONTROL_PLANE — Control Plane Dispatch Kernel"
+title: K_CONTROL_PLANE — Control Plane Dispatch Kernel
 type: kernel
 source: 02_KERNEL
 tags:

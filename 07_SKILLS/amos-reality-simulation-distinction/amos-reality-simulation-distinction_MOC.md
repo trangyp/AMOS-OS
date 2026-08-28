@@ -1,5 +1,5 @@
 ---
-title: "Amos-Reality-Simulation-Distinction MOC"
+title: Amos-Reality-Simulation-Distinction MOC
 type: moc
 source: 07_SKILLS/amos-reality-simulation-distinction
 tags:

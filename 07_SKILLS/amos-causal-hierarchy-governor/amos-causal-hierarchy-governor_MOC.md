@@ -1,5 +1,5 @@
 ---
-title: "Amos-Causal-Hierarchy-Governor MOC"
+title: Amos-Causal-Hierarchy-Governor MOC
 type: moc
 source: 07_SKILLS/amos-causal-hierarchy-governor
 tags:

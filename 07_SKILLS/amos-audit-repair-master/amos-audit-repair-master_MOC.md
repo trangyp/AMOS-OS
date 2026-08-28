@@ -1,5 +1,5 @@
 ---
-title: "Amos-Audit-Repair-Master MOC"
+title: Amos-Audit-Repair-Master MOC
 type: moc
 source: 07_SKILLS/amos-audit-repair-master
 tags:

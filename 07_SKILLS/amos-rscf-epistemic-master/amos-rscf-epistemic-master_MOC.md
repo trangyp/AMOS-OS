@@ -1,5 +1,5 @@
 ---
-title: "Amos-Rscf-Epistemic-Master MOC"
+title: Amos-Rscf-Epistemic-Master MOC
 type: moc
 source: 07_SKILLS/amos-rscf-epistemic-master
 tags:

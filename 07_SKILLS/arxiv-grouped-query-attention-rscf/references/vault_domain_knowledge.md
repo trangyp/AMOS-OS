@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Grouped Query Attention Rscf"
+title: Vault Domain Knowledge — Arxiv Grouped Query Attention Rscf
 type: reference
 source: 07_SKILLS/arxiv-grouped-query-attention-rscf/references
 tags:

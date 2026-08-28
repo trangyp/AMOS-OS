@@ -1,5 +1,5 @@
 ---
-title: "66 Deployment Operational Modes MOC"
+title: 66 Deployment Operational Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/66_DEPLOYMENT_OPERATIONAL_MODES
 tags:

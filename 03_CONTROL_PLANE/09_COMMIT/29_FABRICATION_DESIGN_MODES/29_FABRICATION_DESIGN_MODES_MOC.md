@@ -1,5 +1,5 @@
 ---
-title: "29 Fabrication Design Modes MOC"
+title: 29 Fabrication Design Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/29_FABRICATION_DESIGN_MODES
 tags:

@@ -1,16 +1,16 @@
 ---
-title: "Shard-Local Finalization"
+title: Shard-Local Finalization
 type: note
 source: 03_CONTROL_PLANE/09_COMMIT
-artifact: "SHARD_LOCAL_FINALIZATION.md"
-artifact_id: "amos_03_control_plane_09_commit_shard_local_finalization"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "03_CONTROL_PLANE"
-segment: "03_CONTROL_PLANE/09_COMMIT"
-artifact_kind: "FINALIZATION"
-path: "03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION.md"
+artifact: SHARD_LOCAL_FINALIZATION.md
+artifact_id: amos_03_control_plane_09_commit_shard_local_finalization
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 03_CONTROL_PLANE
+segment: 03_CONTROL_PLANE/09_COMMIT
+artifact_kind: FINALIZATION
+path: 03_CONTROL_PLANE/09_COMMIT/SHARD_LOCAL_FINALIZATION.md
 tags:
 - amos_os
 - control_plane
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/control-plane
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

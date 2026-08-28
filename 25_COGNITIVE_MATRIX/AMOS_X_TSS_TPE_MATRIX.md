@@ -1,16 +1,16 @@
 ---
-title: "AMOS × TSS/TPE Matrix"
+title: AMOS × TSS/TPE Matrix
 type: matrix
 source: 25_COGNITIVE_MATRIX
-artifact: "AMOS_X_TSS_TPE_MATRIX.md"
-artifact_id: "amos_25_cognitive_matrix_amos_x_tss_tpe_matrix"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "25_COGNITIVE_MATRIX"
-segment: "25_COGNITIVE_MATRIX"
-artifact_kind: "MATRIX"
-path: "25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX.md"
+artifact: AMOS_X_TSS_TPE_MATRIX.md
+artifact_id: amos_25_cognitive_matrix_amos_x_tss_tpe_matrix
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 25_COGNITIVE_MATRIX
+segment: 25_COGNITIVE_MATRIX
+artifact_kind: MATRIX
+path: 25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX.md
 tags:
   - amos_os
   - cognitive_matrix
@@ -31,16 +31,16 @@ tags:
   - rscf
   - canon_candidate
   - canon/cognitive-matrix
-version: "1.0.0"
-updated: "2026-08-27"
-status: "ACTIVE_REFERENCE"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "SOURCE_GROUNDED_CANON_CANDIDATE"
-implementation_status: "CONCEPTUAL_SOURCE_DEFINED"
-validation_status: "NOT_INDEPENDENTLY_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "NATIVE_CANON_INGESTION"
-raw_source_policy: "DO_NOT_LOAD_UNLESS_REQUIRED"
+version: 1.0.0
+updated: '2026-08-27'
+status: ACTIVE_REFERENCE
+epistemic_class: AMOS_MODEL
+canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
+implementation_status: CONCEPTUAL_SOURCE_DEFINED
+validation_status: NOT_INDEPENDENTLY_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: NATIVE_CANON_INGESTION
+raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
@@ -56,13 +56,13 @@ rscf:
     - TSS_X_TPE
 source_bindings:
   tss:
-    title: "The Trang System™ (TSS) – Official Manual"
+    title: The Trang System™ (TSS) – Official Manual
     source_status: LOCATED
   tpe:
-    title: "The Trang Prediction Engine™ (TPE) – Official Manual"
+    title: The Trang Prediction Engine™ (TPE) – Official Manual
     source_status: LOCATED
   tss_x_tpe:
-    title: "PHÂN TÍCH CHIẾN LƯỢC ĐA CHIỀU (TSS × TPE)"
+    title: PHÂN TÍCH CHIẾN LƯỢC ĐA CHIỀU (TSS × TPE)
     source_status: LOCATED
 epistemic_boundary:
   source_family_presence:

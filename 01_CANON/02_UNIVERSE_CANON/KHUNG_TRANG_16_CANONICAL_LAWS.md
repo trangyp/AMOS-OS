@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang 16 Canonical Laws"
+title: Khung Trang 16 Canonical Laws
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

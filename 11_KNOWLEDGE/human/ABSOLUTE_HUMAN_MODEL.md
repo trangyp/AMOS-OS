@@ -1,7 +1,7 @@
 ---
-title: "AMOS Absolute Human Model"
-created: "2026-08-22"
-origin_architect: "Trang Phan"
+title: AMOS Absolute Human Model
+created: '2026-08-22'
+origin_architect: Trang Phan
 type: brain-model
 source: 11_KNOWLEDGE/human
 tags:
@@ -12,9 +12,9 @@ tags:
 - rscf/state/derived
 - topic/absolute-human-model
 - human
-status: "active"
-provenance: "Absolute-Human (final version).txt"
-confidence: "STRUCTURAL"
+status: active
+provenance: Absolute-Human (final version).txt
+confidence: STRUCTURAL
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

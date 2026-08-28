@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L16 Planning / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L16 Planning / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L16_PLANNING/00_INDEX
 tags:

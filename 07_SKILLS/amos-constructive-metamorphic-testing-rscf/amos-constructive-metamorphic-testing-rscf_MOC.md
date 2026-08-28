@@ -1,5 +1,5 @@
 ---
-title: "Amos-Constructive-Metamorphic-Testing-Rscf MOC"
+title: Amos-Constructive-Metamorphic-Testing-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-constructive-metamorphic-testing-rscf
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Tensor-Train-Sketching-Rscf-Engine MOC"
+title: Amos-Tensor-Train-Sketching-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine
 tags:

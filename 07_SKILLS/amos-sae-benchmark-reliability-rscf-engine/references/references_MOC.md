@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Sae Benchmark Reliability Rscf Engine"
+title: References MOC — References — Amos Sae Benchmark Reliability Rscf Engine
 type: moc
 source: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/references
 tags:

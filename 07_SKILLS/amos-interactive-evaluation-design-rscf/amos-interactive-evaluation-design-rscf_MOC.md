@@ -1,5 +1,5 @@
 ---
-title: "Amos-Interactive-Evaluation-Design-Rscf MOC"
+title: Amos-Interactive-Evaluation-Design-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-interactive-evaluation-design-rscf
 tags:

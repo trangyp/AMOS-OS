@@ -1,5 +1,5 @@
 ---
-title: "L05 Binding MOC"
+title: L05 Binding MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L05_BINDING
 tags:

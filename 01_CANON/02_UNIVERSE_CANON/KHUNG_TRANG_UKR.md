@@ -1,5 +1,5 @@
 ---
-title: "Khung Trang Universal Knowledge Representation (UKR)"
+title: Khung Trang Universal Knowledge Representation (UKR)
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:

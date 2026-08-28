@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Fx Carry Differential Engine"
+title: References MOC — References — Amos Fx Carry Differential Engine
 type: moc
 source: 07_SKILLS/amos-fx-carry-differential-engine/references
 tags:

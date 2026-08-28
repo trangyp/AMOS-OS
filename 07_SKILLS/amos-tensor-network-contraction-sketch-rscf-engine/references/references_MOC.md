@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Tensor Network Contraction Sketch Rscf Engine"
+title: References MOC — References — Amos Tensor Network Contraction Sketch Rscf Engine
 type: moc
 source: 07_SKILLS/amos-tensor-network-contraction-sketch-rscf-engine/references
 tags:

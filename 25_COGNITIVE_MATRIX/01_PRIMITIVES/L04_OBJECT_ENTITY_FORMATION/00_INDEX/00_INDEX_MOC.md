@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Primitives / L04 Object Entity Formation / Index"
+title: Index MOC — Cognitive Matrix / Primitives / L04 Object Entity Formation / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L04_OBJECT_ENTITY_FORMATION/00_INDEX
 tags:

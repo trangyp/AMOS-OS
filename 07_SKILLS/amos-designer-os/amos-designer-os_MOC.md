@@ -1,5 +1,5 @@
 ---
-title: "Amos-Designer-Os MOC"
+title: Amos-Designer-Os MOC
 type: moc
 source: 07_SKILLS/amos-designer-os
 tags:

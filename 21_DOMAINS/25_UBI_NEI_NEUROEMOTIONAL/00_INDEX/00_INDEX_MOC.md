@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Ubi Nei Neuroemotional / Index"
+title: Index MOC — Domains / Ubi Nei Neuroemotional / Index
 type: moc
 source: 21_DOMAINS/25_UBI_NEI_NEUROEMOTIONAL/00_INDEX
 tags:

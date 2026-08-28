@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Source Reading Rscf Engine"
+title: Vault Domain Knowledge — Amos Source Reading Rscf Engine
 type: reference
 source: 07_SKILLS/amos-source-reading-rscf-engine/references
 tags:

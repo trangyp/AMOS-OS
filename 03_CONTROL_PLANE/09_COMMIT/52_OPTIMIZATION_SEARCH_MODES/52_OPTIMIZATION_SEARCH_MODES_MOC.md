@@ -1,5 +1,5 @@
 ---
-title: "52 Optimization Search Modes MOC"
+title: 52 Optimization Search Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/52_OPTIMIZATION_SEARCH_MODES
 tags:

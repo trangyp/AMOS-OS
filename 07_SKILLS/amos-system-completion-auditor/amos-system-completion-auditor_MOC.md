@@ -1,5 +1,5 @@
 ---
-title: "Amos-System-Completion-Auditor MOC"
+title: Amos-System-Completion-Auditor MOC
 type: moc
 source: 07_SKILLS/amos-system-completion-auditor
 tags:

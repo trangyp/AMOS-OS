@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Counterfactual Reasoning Governor"
+title: Vault Domain Knowledge — Amos Counterfactual Reasoning Governor
 type: reference
 source: 07_SKILLS/amos-counterfactual-reasoning-governor/references
 tags:

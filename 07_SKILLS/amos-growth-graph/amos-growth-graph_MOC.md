@@ -1,5 +1,5 @@
 ---
-title: "Amos-Growth-Graph MOC"
+title: Amos-Growth-Graph MOC
 type: moc
 source: 07_SKILLS/amos-growth-graph
 tags:

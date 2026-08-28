@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Constraint Propagation Rscf Engine"
+title: Vault Domain Knowledge — Amos Constraint Propagation Rscf Engine
 type: reference
 source: 07_SKILLS/amos-constraint-propagation-rscf-engine/references
 tags:

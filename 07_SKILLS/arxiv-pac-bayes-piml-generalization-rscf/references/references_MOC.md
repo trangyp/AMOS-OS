@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Pac Bayes Piml Generalization Rscf"
+title: References MOC — References — Arxiv Pac Bayes Piml Generalization Rscf
 type: moc
 source: 07_SKILLS/arxiv-pac-bayes-piml-generalization-rscf/references
 tags:

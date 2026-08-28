@@ -1,5 +1,5 @@
 ---
-title: "Amos-Memory-Execution-Graph-Attribution-Rscf MOC"
+title: Amos-Memory-Execution-Graph-Attribution-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-memory-execution-graph-attribution-rscf
 tags:

@@ -1,21 +1,21 @@
 ---
-title: "AMOS Agency Canon"
+title: AMOS Agency Canon
 type: canon
-source: "01_CANON/03_COGNITION_CANON"
-artifact: "AMOS_AGENCY_CANON.md"
-artifact_id: "amos_01_canon_03_cognition_canon_amos_agency_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/03_COGNITION_CANON"
-artifact_kind: "CANON"
-path: "01_CANON/03_COGNITION_CANON/AMOS_AGENCY_CANON.md"
+source: 01_CANON/03_COGNITION_CANON
+artifact: AMOS_AGENCY_CANON.md
+artifact_id: amos_01_canon_03_cognition_canon_amos_agency_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/03_COGNITION_CANON
+artifact_kind: CANON
+path: 01_CANON/03_COGNITION_CANON/AMOS_AGENCY_CANON.md
 canon_group: amos_cognition
 canon_family: AMOS_AGENCY_CANON
 schema_family: RSCF
 schema_role: AGENCY_CANON_RSCF
-schema_version: "AMOS_CORE_v4.4-compatible-conceptual"
+schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
   - amos_os
   - canon
@@ -37,41 +37,41 @@ tags:
   - validation
   - canon/universe
   - placeholder_expanded
-version: "0.2.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-native_definition_status: "NOT_ESTABLISHED"
-native_agency_definition_status: "NOT_ESTABLISHED"
-native_agent_definition_status: "NOT_ESTABLISHED"
-native_action_definition_status: "NOT_ESTABLISHED"
-native_intent_definition_status: "NOT_ESTABLISHED"
-native_goal_definition_status: "NOT_ESTABLISHED"
-native_choice_definition_status: "NOT_ESTABLISHED"
-native_decision_definition_status: "NOT_ESTABLISHED"
-native_capability_definition_status: "NOT_ESTABLISHED"
-native_authority_definition_status: "PARTIALLY_SOURCE_SUPPORTED"
-native_authorization_definition_status: "PARTIALLY_SOURCE_SUPPORTED"
-native_proposal_commit_status: "PARTIALLY_SOURCE_SUPPORTED"
-native_constraint_definition_status: "NOT_ESTABLISHED"
-native_responsibility_definition_status: "NOT_ESTABLISHED"
-native_accountability_definition_status: "NOT_ESTABLISHED"
-native_delegation_definition_status: "NOT_ESTABLISHED"
-native_autonomy_definition_status: "NOT_ESTABLISHED"
-native_causal_agency_status: "NOT_ESTABLISHED"
-native_cognition_binding_status: "NOT_ESTABLISHED"
-native_rscf_binding_status: "NOT_ESTABLISHED"
-native_hml_binding_status: "NOT_ESTABLISHED"
-native_scope_status: "NOT_ESTABLISHED"
-native_regime_status: "NOT_ESTABLISHED"
-native_temporal_status: "NOT_ESTABLISHED"
-native_provenance_status: "PARTIALLY_SOURCE_SUPPORTED"
-native_dependencies_status: "NOT_ESTABLISHED"
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+native_definition_status: NOT_ESTABLISHED
+native_agency_definition_status: NOT_ESTABLISHED
+native_agent_definition_status: NOT_ESTABLISHED
+native_action_definition_status: NOT_ESTABLISHED
+native_intent_definition_status: NOT_ESTABLISHED
+native_goal_definition_status: NOT_ESTABLISHED
+native_choice_definition_status: NOT_ESTABLISHED
+native_decision_definition_status: NOT_ESTABLISHED
+native_capability_definition_status: NOT_ESTABLISHED
+native_authority_definition_status: PARTIALLY_SOURCE_SUPPORTED
+native_authorization_definition_status: PARTIALLY_SOURCE_SUPPORTED
+native_proposal_commit_status: PARTIALLY_SOURCE_SUPPORTED
+native_constraint_definition_status: NOT_ESTABLISHED
+native_responsibility_definition_status: NOT_ESTABLISHED
+native_accountability_definition_status: NOT_ESTABLISHED
+native_delegation_definition_status: NOT_ESTABLISHED
+native_autonomy_definition_status: NOT_ESTABLISHED
+native_causal_agency_status: NOT_ESTABLISHED
+native_cognition_binding_status: NOT_ESTABLISHED
+native_rscf_binding_status: NOT_ESTABLISHED
+native_hml_binding_status: NOT_ESTABLISHED
+native_scope_status: NOT_ESTABLISHED
+native_regime_status: NOT_ESTABLISHED
+native_temporal_status: NOT_ESTABLISHED
+native_provenance_status: PARTIALLY_SOURCE_SUPPORTED
+native_dependencies_status: NOT_ESTABLISHED
 rscf:
   state: DERIVED
   claim_class: DERIVED

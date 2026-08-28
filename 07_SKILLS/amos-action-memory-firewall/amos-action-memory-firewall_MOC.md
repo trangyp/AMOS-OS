@@ -1,5 +1,5 @@
 ---
-title: "Amos-Action-Memory-Firewall MOC"
+title: Amos-Action-Memory-Firewall MOC
 type: moc
 source: 07_SKILLS/amos-action-memory-firewall
 tags:

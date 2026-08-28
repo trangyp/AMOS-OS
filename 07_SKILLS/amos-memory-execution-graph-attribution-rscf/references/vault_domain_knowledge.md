@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Memory Execution Graph Attribution Rscf"
+title: Vault Domain Knowledge — Amos Memory Execution Graph Attribution Rscf
 type: reference
 source: 07_SKILLS/amos-memory-execution-graph-attribution-rscf/references
 tags:

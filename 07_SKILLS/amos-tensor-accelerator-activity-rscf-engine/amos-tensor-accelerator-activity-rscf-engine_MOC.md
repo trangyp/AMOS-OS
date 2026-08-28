@@ -1,5 +1,5 @@
 ---
-title: "Amos-Tensor-Accelerator-Activity-Rscf-Engine MOC"
+title: Amos-Tensor-Accelerator-Activity-Rscf-Engine MOC
 type: moc
 source: 07_SKILLS/amos-tensor-accelerator-activity-rscf-engine
 tags:

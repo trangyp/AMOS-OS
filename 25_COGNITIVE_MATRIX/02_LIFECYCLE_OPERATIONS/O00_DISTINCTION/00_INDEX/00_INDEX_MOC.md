@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Lifecycle Operations / O00 Distinction / Index"
+title: Index MOC — Cognitive Matrix / Lifecycle Operations / O00 Distinction / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O00_DISTINCTION/00_INDEX
 tags:

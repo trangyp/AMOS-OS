@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Control Planes / C02 Metacognitive / Index"
+title: Index MOC — Cognitive Matrix / Control Planes / C02 Metacognitive / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C02_METACOGNITIVE/00_INDEX
 tags:

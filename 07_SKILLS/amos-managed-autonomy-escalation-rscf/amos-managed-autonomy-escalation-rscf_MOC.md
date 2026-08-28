@@ -1,5 +1,5 @@
 ---
-title: "Amos-Managed-Autonomy-Escalation-Rscf MOC"
+title: Amos-Managed-Autonomy-Escalation-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-managed-autonomy-escalation-rscf
 tags:

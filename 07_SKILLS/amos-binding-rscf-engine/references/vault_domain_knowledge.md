@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Binding Rscf Engine"
+title: Vault Domain Knowledge — Amos Binding Rscf Engine
 type: reference
 source: 07_SKILLS/amos-binding-rscf-engine/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-C03-Physics-Cosmos-Master MOC"
+title: Amos-C03-Physics-Cosmos-Master MOC
 type: moc
 source: 07_SKILLS/amos-c03-physics-cosmos-master
 tags:

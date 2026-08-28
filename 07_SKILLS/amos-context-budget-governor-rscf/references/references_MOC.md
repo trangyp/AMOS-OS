@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Context Budget Governor Rscf"
+title: References MOC — References — Amos Context Budget Governor Rscf
 type: moc
 source: 07_SKILLS/amos-context-budget-governor-rscf/references
 tags:

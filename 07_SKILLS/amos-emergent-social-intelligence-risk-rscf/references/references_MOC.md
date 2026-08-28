@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Emergent Social Intelligence Risk Rscf"
+title: References MOC — References — Amos Emergent Social Intelligence Risk Rscf
 type: moc
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf/references
 tags:

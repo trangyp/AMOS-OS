@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Mckinsey Recruiting Workforce Acquisition Rscf"
+title: Vault Domain Knowledge — Mckinsey Recruiting Workforce Acquisition Rscf
 type: reference
 source: 07_SKILLS/mckinsey-recruiting-workforce-acquisition-rscf/references
 tags:

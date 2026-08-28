@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Sparse Attention Scaling Rscf"
+title: References MOC — References — Arxiv Sparse Attention Scaling Rscf
 type: moc
 source: 07_SKILLS/arxiv-sparse-attention-scaling-rscf/references
 tags:

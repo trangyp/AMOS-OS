@@ -1,5 +1,5 @@
 ---
-title: "Amos-Formal-Model-Checking-Orchestrator-Rscf MOC"
+title: Amos-Formal-Model-Checking-Orchestrator-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-formal-model-checking-orchestrator-rscf
 tags:

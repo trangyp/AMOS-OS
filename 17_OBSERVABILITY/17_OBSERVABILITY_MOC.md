@@ -1,5 +1,5 @@
 ---
-title: "17 Observability MOC"
+title: 17 Observability MOC
 type: moc
 source: 17_OBSERVABILITY
 tags:

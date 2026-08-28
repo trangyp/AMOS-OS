@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Arxiv Flow Matching Generative Rscf"
+title: References MOC — References — Arxiv Flow Matching Generative Rscf
 type: moc
 source: 07_SKILLS/arxiv-flow-matching-generative-rscf/references
 tags:

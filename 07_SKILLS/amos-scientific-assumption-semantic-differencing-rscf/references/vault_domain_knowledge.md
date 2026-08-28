@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Scientific Assumption Semantic Differencing Rscf"
+title: Vault Domain Knowledge — Amos Scientific Assumption Semantic Differencing Rscf
 type: reference
 source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf/references
 tags:

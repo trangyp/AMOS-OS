@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Amos Canon Universe Master"
+title: Vault Domain Knowledge — Amos Canon Universe Master
 type: reference
 source: 07_SKILLS/amos-canon-universe-master/references
 tags:

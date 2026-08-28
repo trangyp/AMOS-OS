@@ -1,5 +1,5 @@
 ---
-title: "L00 Reality Environment MOC"
+title: L00 Reality Environment MOC
 type: moc
 source: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L00_REALITY_ENVIRONMENT
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Goal-Plan-Action-Alignment-Rscf MOC"
+title: Amos-Goal-Plan-Action-Alignment-Rscf MOC
 type: moc
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf
 tags:

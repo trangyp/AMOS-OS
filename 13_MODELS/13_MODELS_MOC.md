@@ -1,5 +1,5 @@
 ---
-title: "13 Models MOC"
+title: 13 Models MOC
 type: moc
 source: 13_MODELS
 tags:

@@ -1,16 +1,16 @@
 ---
-title: "First-Principles Reasoning"
+title: First-Principles Reasoning
 type: reasoning
 source: 05_COGNITIVE_ORGANISM/04_COGNITION
-artifact: "FIRST_PRINCIPLES_REASONING.md"
-artifact_id: "amos_05_cognitive_organism_04_cognition_first_principles_reasoning"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "05_COGNITIVE_ORGANISM"
-segment: "05_COGNITIVE_ORGANISM/04_COGNITION"
-artifact_kind: "REASONING"
-path: "05_COGNITIVE_ORGANISM/04_COGNITION/FIRST_PRINCIPLES_REASONING.md"
+artifact: FIRST_PRINCIPLES_REASONING.md
+artifact_id: amos_05_cognitive_organism_04_cognition_first_principles_reasoning
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 05_COGNITIVE_ORGANISM
+segment: 05_COGNITIVE_ORGANISM/04_COGNITION
+artifact_kind: REASONING
+path: 05_COGNITIVE_ORGANISM/04_COGNITION/FIRST_PRINCIPLES_REASONING.md
 tags:
 - amos_os
 - cognitive
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/cognitive
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

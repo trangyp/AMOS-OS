@@ -233,7 +233,7 @@
   "tags": [
     "type/agent",
     "canon/agent",
-    "domain/cross-domain",
+    "domain/tech-engineering",
     "rscf/source_claim",
     "hml/m",
     "epistemic/derived",
@@ -261,5 +261,6 @@
     "L16",
     "L17",
     "L18"
-  ]
+  ],
+  "domain": "c10"
 }

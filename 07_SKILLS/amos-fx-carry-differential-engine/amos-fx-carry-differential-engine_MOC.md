@@ -1,5 +1,5 @@
 ---
-title: "Amos-Fx-Carry-Differential-Engine MOC"
+title: Amos-Fx-Carry-Differential-Engine MOC
 type: moc
 source: 07_SKILLS/amos-fx-carry-differential-engine
 tags:

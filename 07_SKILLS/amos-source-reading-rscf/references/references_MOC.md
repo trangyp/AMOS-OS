@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Source Reading Rscf"
+title: References MOC — References — Amos Source Reading Rscf
 type: moc
 source: 07_SKILLS/amos-source-reading-rscf/references
 tags:

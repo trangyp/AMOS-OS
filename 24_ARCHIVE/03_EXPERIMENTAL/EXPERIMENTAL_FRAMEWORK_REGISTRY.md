@@ -1,16 +1,16 @@
 ---
-title: "Experimental Framework Registry"
+title: Experimental Framework Registry
 type: experimental
 source: 24_ARCHIVE/03_EXPERIMENTAL
-artifact: "EXPERIMENTAL_FRAMEWORK_REGISTRY.md"
-artifact_id: "amos_24_archive_03_experimental_experimental_framework_registry"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "24_ARCHIVE"
-segment: "24_ARCHIVE/03_EXPERIMENTAL"
-artifact_kind: "REGISTRY"
-path: "24_ARCHIVE/03_EXPERIMENTAL/EXPERIMENTAL_FRAMEWORK_REGISTRY.md"
+artifact: EXPERIMENTAL_FRAMEWORK_REGISTRY.md
+artifact_id: amos_24_archive_03_experimental_experimental_framework_registry
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 24_ARCHIVE
+segment: 24_ARCHIVE/03_EXPERIMENTAL
+artifact_kind: REGISTRY
+path: 24_ARCHIVE/03_EXPERIMENTAL/EXPERIMENTAL_FRAMEWORK_REGISTRY.md
 tags:
 - amos_os
 - archive
@@ -20,15 +20,15 @@ tags:
 - canon_placeholder
 - rscf
 - canon/archive
-version: "0.1.0"
-updated: "2026-08-27"
-status: "PLACEHOLDER"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
+version: 0.1.0
+updated: '2026-08-27'
+status: PLACEHOLDER
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 rscf:
   state: DERIVED
   claim_class: DERIVED

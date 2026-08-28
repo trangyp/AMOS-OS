@@ -1,5 +1,5 @@
 ---
-title: "62 Sensemaking Modes MOC"
+title: 62 Sensemaking Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/62_SENSEMAKING_MODES
 tags:

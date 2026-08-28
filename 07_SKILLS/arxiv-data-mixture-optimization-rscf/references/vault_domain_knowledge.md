@@ -1,5 +1,5 @@
 ---
-title: "Vault Domain Knowledge — Arxiv Data Mixture Optimization Rscf"
+title: Vault Domain Knowledge — Arxiv Data Mixture Optimization Rscf
 type: reference
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf/references
 tags:

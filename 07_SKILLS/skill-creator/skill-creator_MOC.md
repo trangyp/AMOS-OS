@@ -1,5 +1,5 @@
 ---
-title: "Skill-Creator MOC"
+title: Skill-Creator MOC
 type: moc
 source: 07_SKILLS/skill-creator
 tags:

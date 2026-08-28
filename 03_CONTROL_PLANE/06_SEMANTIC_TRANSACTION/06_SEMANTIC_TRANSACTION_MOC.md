@@ -1,5 +1,5 @@
 ---
-title: "06 Semantic Transaction MOC"
+title: 06 Semantic Transaction MOC
 type: moc
 source: 03_CONTROL_PLANE/06_SEMANTIC_TRANSACTION
 tags:

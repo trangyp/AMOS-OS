@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Arxiv Influence Guided Symbolic Regression Rscf"
+title: References MOC — References — Amos Arxiv Influence Guided Symbolic Regression Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-influence-guided-symbolic-regression-rscf/references
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Domains / Hse Safety / Index"
+title: Index MOC — Domains / Hse Safety / Index
 type: moc
 source: 21_DOMAINS/40_HSE_SAFETY/00_INDEX
 tags:

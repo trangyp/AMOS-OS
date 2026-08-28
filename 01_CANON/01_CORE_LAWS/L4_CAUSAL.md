@@ -11,11 +11,11 @@ tags:
 - rscf
 - governance
 - canon/universe
-title: "L4 Causal Laws"
-origin_architect: "Trang Phan"
-status: "AMOS_MODEL"
-canon_status: "PROPOSED_CANON_CONTENT"
-epistemic_class: "AMOS_MODEL"
+title: L4 Causal Laws
+origin_architect: Trang Phan
+status: AMOS_MODEL
+canon_status: PROPOSED_CANON_CONTENT
+epistemic_class: AMOS_MODEL
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

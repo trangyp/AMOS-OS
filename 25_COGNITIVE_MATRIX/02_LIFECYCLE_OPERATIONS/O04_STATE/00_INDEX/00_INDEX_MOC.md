@@ -1,5 +1,5 @@
 ---
-title: "Index MOC — Cognitive Matrix / Lifecycle Operations / O04 State / Index"
+title: Index MOC — Cognitive Matrix / Lifecycle Operations / O04 State / Index
 type: moc
 source: 25_COGNITIVE_MATRIX/02_LIFECYCLE_OPERATIONS/O04_STATE/00_INDEX
 tags:

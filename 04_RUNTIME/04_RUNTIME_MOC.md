@@ -1,5 +1,5 @@
 ---
-title: "04 Runtime MOC"
+title: 04 Runtime MOC
 type: moc
 source: 04_RUNTIME
 tags:

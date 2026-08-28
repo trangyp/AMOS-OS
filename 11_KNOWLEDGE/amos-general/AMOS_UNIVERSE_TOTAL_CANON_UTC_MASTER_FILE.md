@@ -1,8 +1,8 @@
 ---
-title: "AMOS Universe Total Canon (UTC) — Master File Structure"
-created: "2026-08-22"
-origin: "Google Drive — _00_AMOS_CANON/_AMOS_OS_MasterFile.uos copy.txt"
-origin_architect: "Trang Phan"
+title: AMOS Universe Total Canon (UTC) — Master File Structure
+created: '2026-08-22'
+origin: Google Drive — _00_AMOS_CANON/_AMOS_OS_MasterFile.uos copy.txt
+origin_architect: Trang Phan
 type: canon-spec
 source: 11_KNOWLEDGE/amos-general
 tags:
@@ -17,9 +17,9 @@ tags:
 - rscf/X-crossscale
 - topic/universe-total-canon
 - amos-general
-status: "active"
-provenance: "VERIFIED"
-confidence: "VERIFIED"
+status: active
+provenance: VERIFIED
+confidence: VERIFIED
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

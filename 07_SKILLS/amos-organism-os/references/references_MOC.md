@@ -1,5 +1,5 @@
 ---
-title: "References MOC — References — Amos Organism Os"
+title: References MOC — References — Amos Organism Os
 type: moc
 source: 07_SKILLS/amos-organism-os/references
 tags:

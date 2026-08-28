@@ -1,5 +1,5 @@
 ---
-title: "19 Tests MOC"
+title: 19 Tests MOC
 type: moc
 source: 19_TESTS
 tags:

@@ -1,5 +1,5 @@
 ---
-title: "Amos-Security-Control-Access-Bridge-Governor MOC"
+title: Amos-Security-Control-Access-Bridge-Governor MOC
 type: moc
 source: 07_SKILLS/amos-security-control-access-bridge-governor
 tags:

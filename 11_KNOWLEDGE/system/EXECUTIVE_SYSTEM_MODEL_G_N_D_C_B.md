@@ -1,8 +1,8 @@
 ---
-title: "Executive System Model — G–N–D–C–B Dynamical Architecture"
-created: "2026-08-22"
-origin: "AMOS brain knowledge ingest"
-origin_architect: "AMOS"
+title: Executive System Model — G–N–D–C–B Dynamical Architecture
+created: '2026-08-22'
+origin: AMOS brain knowledge ingest
+origin_architect: AMOS
 type: reference
 tags:
 - canon-group/tech-ai
@@ -12,10 +12,10 @@ tags:
 - rscf/state/source-claim
 - topic/executive-system-model-g-n-d-c-b
 - system
-status: "active"
-provenance: "OBSERVATION"
-confidence: "DERIVED"
-source: "Ingest batch 2026-08-22"
+status: active
+provenance: OBSERVATION
+confidence: DERIVED
+source: Ingest batch 2026-08-22
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

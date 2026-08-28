@@ -1,5 +1,5 @@
 ---
-title: "58 Compliance Policy Modes MOC"
+title: 58 Compliance Policy Modes MOC
 type: moc
 source: 03_CONTROL_PLANE/09_COMMIT/58_COMPLIANCE_POLICY_MODES
 tags:
