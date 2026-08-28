@@ -18,7 +18,7 @@ rscf:
 ---
 artifact_id: AMOS-OS-CONTROL-PLANE-README
 title: AMOS OS Control Plane
-canonical_name: CONTROL_PLANE_README
+canonical_name: [[CONTROL_PLANE_README]]
 
 artifact_class: INDEX_GUIDE
 plane: CONTROL_PLANE
@@ -32,7 +32,7 @@ conclusion_class: DERIVED
 
 parent_layer: 03_CONTROL_PLANE
 sibling_index:
-  - CONTROL_PLANE_MAP.md
+  - [[CONTROL_PLANE_MAP]].md
 
 upstream:
   - 00_ROOT
@@ -3541,7 +3541,7 @@ This version is aligned to the actual `03_CONTROL_PLANE` tree in `FULL_TREE.md`,
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

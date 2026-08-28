@@ -378,7 +378,7 @@ node_type: doc
 domain: DOC
 path: README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: P1
   - RELATED_TO: AMOS_quantum_library_v0.1.0
   - RELATED_TO: PRIVACY_POLICY
 claim_class: AMOS_MODEL

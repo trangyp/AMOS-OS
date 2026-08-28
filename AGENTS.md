@@ -429,7 +429,7 @@ Select specialized skills only when relevant:
 - `amos-neurosync-deterministic-architecture`: 5-tier deterministic AI alignment (Interface Conditions, Trainer Profile, Operational Principles, Audit Anchors, Metacognitive Loop™). Use when designing deterministic AI systems.
 - `amos-certifiable-intelligence-infrastructure`: 4 GenAI failure modes, 4 deterministic enforcement functions, biological blueprint. Use for certifiable AI deployment in mission-critical environments.
 - `amos-planetary-consent-infrastructure`: 67 actor types, 98 consent types, 60 lifecycle phases, 6 ecosystems, 308+ trillion daily decisions. Use for planetary-scale consent governance.
-- `amos-living-stack-architecture`: Cognitive Reef — tasks as signals, role mutation, 6 integrated frameworks (RATPAK, NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX). Use for outcome-driven orchestration.
+- `amos-living-stack-architecture`: Cognitive Reef — tasks as signals, role mutation, 6 integrated frameworks ([[RATPAK]], NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX). Use for outcome-driven orchestration.
 - `amos-vietnamese-root-language`: 7-tone phonemic structure as multisensory compression algorithm, 5 scientific properties, gốc từ as bio-cognitive packets. Use for Vietnamese linguistic/biological reasoning.
 - `amos-biological-science-buddha`: Buddha's teachings translated into UBI — peace as nervous system function, trauma as reversible biological loop, Metacognitive Loop™. Use for biological-spiritual bridge reasoning.
 - `amos-human-systems-engine`: 8-layer HSE (human→team→org→market→infra→power→risk→prediction), 27 archetypes, A/B/C/D types, Vietnam-specific risks. Use for human systems analysis.
@@ -1035,7 +1035,7 @@ node_type: doc
 domain: DOC
 path: AGENTS.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: P1
   - RELATED_TO: AMOS_quantum_library_v0.1.0
   - RELATED_TO: PRIVACY_POLICY
 claim_class: AMOS_MODEL

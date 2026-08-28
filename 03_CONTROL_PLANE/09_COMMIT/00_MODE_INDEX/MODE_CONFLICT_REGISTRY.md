@@ -36,29 +36,29 @@ source_state:
   recovered_substantive_implementation: false
 
 related_artifacts:
-  - MODE_ADMISSION_QUEUE.md
-  - MODE_COMPOSITION_REGISTRY.md
-  - TASK_CONTRACT.md
-  - TASK_RESOLVER.md
-  - CAPABILITY_RESOLVER.md
-  - K_SYSTEM_STATE
-  - K_GMEF
-  - K_RSCF
-  - K_HML
-  - K_BINDING
-  - K_CONSTRAINT_PROPAGATION
-  - K_CAPABILITY_AUTHORIZATION
-  - K_RISK_CONSTRAINT
-  - K_EFFECT_CLASSIFICATION
-  - K_INFORMATION_EXPOSURE
-  - K_PROVENANCE
-  - K_PROVENANCE_TOPOLOGY
-  - K_SYBIL_HARDENING
-  - K_COMMIT_TIME_AUTHORITY
-  - K_COLLAPSE_RECOVERY
-  - K_HOMEOSTASIS
-  - K_REPAIR_HARM
-  - K_REPAIR_PRIORITY
+  - [[MODE_ADMISSION_QUEUE]].md
+  - [[MODE_COMPOSITION_REGISTRY]].md
+  - [[TASK_CONTRACT]].md
+  - [[TASK_RESOLVER]].md
+  - [[CAPABILITY_RESOLVER]].md
+  - [[K_SYSTEM_STATE]]
+  - [[K_GMEF]]
+  - [[K_RSCF]]
+  - [[K_HML]]
+  - [[K_BINDING]]
+  - [[K_CONSTRAINT_PROPAGATION]]
+  - [[K_CAPABILITY_AUTHORIZATION]]
+  - [[K_RISK_CONSTRAINT]]
+  - [[K_EFFECT_CLASSIFICATION]]
+  - [[K_INFORMATION_EXPOSURE]]
+  - [[K_PROVENANCE]]
+  - [[K_PROVENANCE_TOPOLOGY]]
+  - [[K_SYBIL_HARDENING]]
+  - [[K_COMMIT_TIME_AUTHORITY]]
+  - [[K_COLLAPSE_RECOVERY]]
+  - [[K_HOMEOSTASIS]]
+  - [[K_REPAIR_HARM]]
+  - [[K_REPAIR_PRIORITY]]
 
 implementation_status: SPECIFICATION
 formal_verification_status: NOT_CLAIMED
@@ -2537,7 +2537,7 @@ CAUSAL MODEL FAILURE
 
 ---
 
-# 132. RSCF INTEGRATION
+# 132. RSCF [[INTEGRATION]]
 
 ```yaml
 ModeConflictRSCF:
@@ -2603,7 +2603,7 @@ load-bearing RSCFs against a coherent state where material.
 
 ---
 
-# 135. GMEF INTEGRATION
+# 135. GMEF [[INTEGRATION]]
 
 A conflict resolution that changes canonical mode relationships may constitute
 governed evolution.
@@ -2626,7 +2626,7 @@ Such changes require appropriate evolution governance.
 
 ---
 
-# 136. H/M/L INTEGRATION
+# 136. H/M/L [[INTEGRATION]]
 
 Suggested retrieval:
 
@@ -4067,7 +4067,7 @@ This should be treated as `DERIVED / CANDIDATE_CANON`, not recovered original ca
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

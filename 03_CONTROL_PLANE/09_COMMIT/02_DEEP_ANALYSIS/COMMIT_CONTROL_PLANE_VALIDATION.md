@@ -941,7 +941,7 @@ Counterfactual confidence MUST NOT be inflated by duplicated ancestry.
 
 ---
 
-# 30. RSCF INTEGRATION
+# 30. RSCF [[INTEGRATION]]
 
 Counterfactual reasoning operates recursively across AMOS RSCF structures.
 
@@ -1008,7 +1008,7 @@ Global recomputation is a last resort.
 
 ---
 
-# 32. GMEF INTEGRATION
+# 32. GMEF [[INTEGRATION]]
 
 `K COUNTERFACTUAL` interoperates with GMEF for governed model/evidence
 reasoning.
@@ -2675,7 +2675,7 @@ This is intentionally much deeper than the placeholder, but it keeps the critica
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

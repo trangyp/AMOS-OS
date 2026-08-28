@@ -157,7 +157,7 @@ It is not the final effect-release state.
 
 ---
 
-# 3. Relationship to POLICY_REGISTRY.md
+# 3. Relationship to [[POLICY_REGISTRY]].md
 
 `POLICY_REGISTRY.md` answers:
 
@@ -196,7 +196,7 @@ A policy decision MUST preserve references to the policy versions from which it 
 
 ---
 
-# 4. Relationship to CAPABILITY_MANIFEST.md
+# 4. Relationship to [[CAPABILITY_MANIFEST]].md
 
 Capability resolution answers:
 
@@ -4188,7 +4188,7 @@ Integrity remains prior to completeness, fluency, speed, and optimization.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

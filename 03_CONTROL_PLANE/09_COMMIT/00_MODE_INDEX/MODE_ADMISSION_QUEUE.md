@@ -37,17 +37,17 @@ source_state:
 
 related_artifacts:
   - 25_CANON_ADMISSION_MODE.md
-  - K_GMEF
-  - K_RSCF
-  - K_HML
-  - K_PROVENANCE
-  - K_PROVENANCE_TOPOLOGY
-  - K_SYBIL_HARDENING
-  - K_CONSTRAINT_PROPAGATION
-  - K_COMMIT_TIME_AUTHORITY
-  - K_EVENT_BUS
-  - K_SYSTEM_STATE
-  - K_CONTEXT_STATE
+  - [[K_GMEF]]
+  - [[K_RSCF]]
+  - [[K_HML]]
+  - [[K_PROVENANCE]]
+  - [[K_PROVENANCE_TOPOLOGY]]
+  - [[K_SYBIL_HARDENING]]
+  - [[K_CONSTRAINT_PROPAGATION]]
+  - [[K_COMMIT_TIME_AUTHORITY]]
+  - [[K_EVENT_BUS]]
+  - [[K_SYSTEM_STATE]]
+  - [[K_CONTEXT_STATE]]
 
 implementation_status: SPECIFICATION
 formal_verification_status: NOT_CLAIMED
@@ -1517,7 +1517,7 @@ authority:
 
 ---
 
-# 67. DELEGATION
+# 67. [[DELEGATION]]
 
 Admission authority may be delegated only within its valid scope.
 
@@ -1529,7 +1529,7 @@ DELEGATOR_AUTHORITY
 
 ---
 
-# 68. REVOCATION
+# 68. [[REVOCATION]]
 
 If admission authority is revoked before final admission:
 
@@ -2066,7 +2066,7 @@ when load-bearing mechanisms differ.
 
 ---
 
-# 100. EVENT BUS INTEGRATION
+# 100. EVENT BUS [[INTEGRATION]]
 
 Candidate admission events:
 
@@ -2499,7 +2499,7 @@ under governance.
 
 ---
 
-# 119. RSCF INTEGRATION
+# 119. RSCF [[INTEGRATION]]
 
 Admission reasoning may use an RSCF:
 
@@ -2559,7 +2559,7 @@ against a coherent state snapshot.
 
 ---
 
-# 122. GMEF INTEGRATION
+# 122. GMEF [[INTEGRATION]]
 
 New mode admission may constitute governed system evolution.
 
@@ -2601,7 +2601,7 @@ HIGH BLAST RADIUS
 
 ---
 
-# 124. H/M/L INTEGRATION
+# 124. H/M/L [[INTEGRATION]]
 
 Retrieve admission knowledge via:
 
@@ -4169,7 +4169,7 @@ The main provenance limit is important: this specification is **derived from AMO
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

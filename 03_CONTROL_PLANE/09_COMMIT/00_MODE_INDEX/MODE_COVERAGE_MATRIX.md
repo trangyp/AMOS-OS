@@ -37,34 +37,34 @@ source_state:
   recovered_substantive_implementation: false
 
 related_artifacts:
-  - MODE_ADMISSION_QUEUE.md
-  - MODE_COMPOSITION_REGISTRY.md
-  - MODE_CONFLICT_REGISTRY.md
-  - TASK_CONTRACT.md
-  - TASK_RESOLVER.md
-  - CAPABILITY_RESOLVER.md
-  - K_SYSTEM_STATE
-  - K_CONTEXT_STATE
-  - K_WORLD_MODEL
-  - K_EVENT_BUS
-  - K_IDENTITY
-  - K_BINDING
-  - K_CONSTRAINT_PROPAGATION
-  - K_RSCF
-  - K_GMEF
-  - K_HML
-  - K_PROVENANCE
-  - K_PROVENANCE_TOPOLOGY
-  - K_SYBIL_HARDENING
-  - K_RISK_CONSTRAINT
-  - K_CAPABILITY_AUTHORIZATION
-  - K_EFFECT_CLASSIFICATION
-  - K_INFORMATION_EXPOSURE
-  - K_COMMIT_TIME_AUTHORITY
-  - K_COLLAPSE_RECOVERY
-  - K_HOMEOSTASIS
-  - K_REPAIR_HARM
-  - K_REPAIR_PRIORITY
+  - [[MODE_ADMISSION_QUEUE]].md
+  - [[MODE_COMPOSITION_REGISTRY]].md
+  - [[MODE_CONFLICT_REGISTRY]].md
+  - [[TASK_CONTRACT]].md
+  - [[TASK_RESOLVER]].md
+  - [[CAPABILITY_RESOLVER]].md
+  - [[K_SYSTEM_STATE]]
+  - [[K_CONTEXT_STATE]]
+  - [[K_WORLD_MODEL]]
+  - [[K_EVENT_BUS]]
+  - [[K_IDENTITY]]
+  - [[K_BINDING]]
+  - [[K_CONSTRAINT_PROPAGATION]]
+  - [[K_RSCF]]
+  - [[K_GMEF]]
+  - [[K_HML]]
+  - [[K_PROVENANCE]]
+  - [[K_PROVENANCE_TOPOLOGY]]
+  - [[K_SYBIL_HARDENING]]
+  - [[K_RISK_CONSTRAINT]]
+  - [[K_CAPABILITY_AUTHORIZATION]]
+  - [[K_EFFECT_CLASSIFICATION]]
+  - [[K_INFORMATION_EXPOSURE]]
+  - [[K_COMMIT_TIME_AUTHORITY]]
+  - [[K_COLLAPSE_RECOVERY]]
+  - [[K_HOMEOSTASIS]]
+  - [[K_REPAIR_HARM]]
+  - [[K_REPAIR_PRIORITY]]
 
 implementation_status: SPECIFICATION
 formal_verification_status: NOT_CLAIMED
@@ -2009,7 +2009,7 @@ PROVENANCE COLLAPSE IS SYSTEMIC
 
 ---
 
-# 98. TASK CONTRACT INTEGRATION
+# 98. TASK CONTRACT [[INTEGRATION]]
 
 Given Task Contract `T`, the matrix should derive required coverage vector:
 
@@ -2069,7 +2069,7 @@ THE TASK DECISION.
 
 ---
 
-# 101. CAPABILITY RESOLVER INTEGRATION
+# 101. CAPABILITY RESOLVER [[INTEGRATION]]
 
 The matrix may answer:
 
@@ -2090,7 +2090,7 @@ LIVE CAPABILITY AVAILABILITY
 
 ---
 
-# 102. MODE COMPOSITION REGISTRY INTEGRATION
+# 102. MODE COMPOSITION REGISTRY [[INTEGRATION]]
 
 When coverage requires multiple modes:
 
@@ -2106,7 +2106,7 @@ valid / invalid / conditional
 
 ---
 
-# 103. MODE CONFLICT REGISTRY INTEGRATION
+# 103. MODE CONFLICT REGISTRY [[INTEGRATION]]
 
 If overlapping coverage is contradictory:
 
@@ -2120,7 +2120,7 @@ The matrix should not resolve the conflict silently.
 
 ---
 
-# 104. MODE ADMISSION INTEGRATION
+# 104. MODE ADMISSION [[INTEGRATION]]
 
 Coverage claims for non-admitted modes should be marked accordingly.
 
@@ -2596,7 +2596,7 @@ through GMEF as appropriate.
 
 ---
 
-# 136. GMEF INTEGRATION
+# 136. GMEF [[INTEGRATION]]
 
 Coverage analysis can supply evidence to governed evolution.
 
@@ -2616,7 +2616,7 @@ COVERAGE REVALIDATION
 
 ---
 
-# 137. RSCF INTEGRATION
+# 137. RSCF [[INTEGRATION]]
 
 A coverage claim may be represented as:
 
@@ -2680,7 +2680,7 @@ They must be evaluated against compatible scope, regime, and state.
 
 ---
 
-# 140. H/M/L INTEGRATION
+# 140. H/M/L [[INTEGRATION]]
 
 Suggested retrieval:
 
@@ -4538,7 +4538,7 @@ This is `DERIVED / CANDIDATE_CANON`, not recovered original canon. The actual Dr
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
