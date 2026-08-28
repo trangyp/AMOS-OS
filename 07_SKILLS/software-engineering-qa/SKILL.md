@@ -19,6 +19,11 @@ tags:
 - topic/engineering
 - capability/software
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/B-boundary
+- rscf/T-topology
+- rscf/M-memory
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -30,6 +35,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

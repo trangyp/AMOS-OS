@@ -227,7 +227,7 @@ tags:
     - GMEF
     - HML
     - FRACTAL_KNOWLEDGE_NETWORK
-    - PROOF_CAPSULE
+    - [[L19_PROOF_CAPSULE]]
     - ADAPTIVE_COMPLEXITY
     - COMPETING_HYPOTHESES
     - UNCERTAINTY_VECTOR
@@ -3132,7 +3132,7 @@ This version makes `ROUTING_POLICY.md` the **policy layer above route selection 
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

@@ -20,6 +20,11 @@ tags:
 - capability/persistence
 - capability/dynamics
 - rscf/epistemic
+- rscf/D-distinction
+- rscf/C-constraint
+- rscf/S-state
+- rscf/T-topology
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

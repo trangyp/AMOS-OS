@@ -129,10 +129,10 @@ $$
 
 where:
 
-- (L_i) = canon law or stratum;
-- (P_i) = primary statement;
-- (I_i) = epistemic invariant;
-- (G_i) = named enforcement gate.
+- \(L_i\) = canon law or stratum;
+- \(P_i\) = primary statement;
+- \(I_i\) = epistemic invariant;
+- \(G_i\) = named enforcement gate.
 
 This notation is **DERIVED**, not a supplied canonical equation.
 
@@ -492,7 +492,7 @@ described here as the null-state invariant.
 
 ---
 
-# 28. (S_0) Semantic Boundary
+# 28. \(S_0\) Semantic Boundary
 
 This artifact does not provide a complete formal definition of:
 
@@ -512,7 +512,7 @@ Therefore do not automatically equate it with:
 
 ---
 
-# 29. Cross-Artifact (S_0) Alignment
+# 29. Cross-Artifact \(S_0\) Alignment
 
 The RSCF × GMEF matrix also uses:
 
@@ -524,16 +524,16 @@ for anti-autopoisoning rollback.
 
 This creates a **source-level structural correspondence**.
 
-It does not, by itself, prove that both artifacts use (S_0) with exactly identical operational semantics.
+It does not, by itself, prove that both artifacts use \(S_0\) with exactly identical operational semantics.
 
 ---
 
-# 30. (S_0) Discriminating Requirement
+# 30. \(S_0\) Discriminating Requirement
 
 If exact equivalence matters, retrieve:
 
 1. Core Laws definition of L2;
-1. GMEF definition of (S_0);
+1. GMEF definition of \(S_0\);
 1. Control Plane recovery semantics.
 
 Until then:
@@ -985,7 +985,7 @@ This functions conceptually as a reality firewall for higher-level cognition and
 
 # 65. L2 as Cognitive Recovery
 
-L2 associates cognition with preservation/recovery around (S_0).
+L2 associates cognition with preservation/recovery around \(S_0\).
 
 This gives cognition an explicit anti-autopoisoning constraint.
 
@@ -1173,7 +1173,7 @@ Retrieve the Core Laws source.
 
 For:
 
-> What exactly is (S_0)?
+> What exactly is \(S_0\)?
 
 Current artifact:
 
@@ -1533,7 +1533,7 @@ RSCF:
 # 94. Cross-Plane Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim: >
     TOTAL_CANON_MATRIX.md source-defines an AMOS Cognitive Matrix
@@ -2116,7 +2116,7 @@ For executable interpretation, the most important unresolved gaps are:
 **CRITICAL**
 
 - (\\mathcal C,\\mathcal E,\\mathcal F) definitions;
-- (S_0) definition;
+- \(S_0\) definition;
 - Authority Envelope semantics;
 - executable gate definitions;
 - gate failure/recovery semantics.
@@ -2161,11 +2161,11 @@ This artifact MUST NOT by itself be used to claim:
 1. `Physical Conservation` is identical to a specific standard conservation law.
 1. A Hardware / Energy Firewall is implemented.
 1. Software can override physical substrate constraints.
-1. (S_0) is fully defined here.
-1. (S_0) necessarily means factory state.
-1. (S_0) necessarily means genesis state.
-1. (S_0) necessarily means last-known-good state.
-1. L2 (S_0) is proven identical to GMEF (S_0).
+1. \(S_0\) is fully defined here.
+1. \(S_0\) necessarily means factory state.
+1. \(S_0\) necessarily means genesis state.
+1. \(S_0\) necessarily means last-known-good state.
+1. L2 \(S_0\) is proven identical to GMEF \(S_0\).
 1. Anti-Autopoisoning is executable.
 1. A Null-State Recovery Basin is implemented.
 1. `Recovery Basin` is formally a dynamical-system attractor.
@@ -2770,7 +2770,7 @@ The decisive integrity boundaries are:
 
 **L1'S PHYSICAL LANGUAGE MUST NOT BE PROMOTED FROM AMOS MODEL TO VERIFIED PHYSICS WITHOUT INDEPENDENT EVIDENCE.**
 
-**L2'S (S_0) MUST REMAIN SOURCE-BOUND UNTIL ITS EXACT SEMANTICS ARE RETRIEVED.**
+**L2'S \(S_0\) MUST REMAIN SOURCE-BOUND UNTIL ITS EXACT SEMANTICS ARE RETRIEVED.**
 
 **THE SHARED `S₀` / `ANTI-AUTOPOISONING` LANGUAGE BETWEEN TOTAL CANON AND RSCF × GMEF ESTABLISHES STRUCTURAL ALIGNMENT, NOT AUTOMATICALLY IDENTICAL RUNTIME MECHANISMS.**
 

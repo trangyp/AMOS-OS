@@ -658,7 +658,7 @@ Repair restores the uncertainty vector.
 
 # 17. FM-L03-011 — Scope Leakage
 
-A percept valid for scope (S_1) is silently reused in (S_2).
+A percept valid for scope \(S_1\) is silently reused in \(S_2\).
 
 Candidate failure:
 
@@ -990,7 +990,7 @@ Invalid(d)
 Invalidate(X)
 ]
 
-for nodes (X) not dependent on (d).
+for nodes \(X\) not dependent on (d).
 
 Repair principle:
 
@@ -1892,7 +1892,7 @@ gap_status:
 
 # 60. Competing Failure Hypotheses
 
-For any failed percept (P), preserve at minimum:
+For any failed percept \(P\), preserve at minimum:
 
 ```text
 H1 — upstream observation failure

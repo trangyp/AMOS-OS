@@ -6130,7 +6130,7 @@ RSCF:
       - HML
       - RSCF
       - GMEF
-      - PROOF_CAPSULE
+      - [[L19_PROOF_CAPSULE]]
       - PROVENANCE_TOPOLOGY
       - SYBIL_HARDENING
       - CONTRADICTION_MATRIX
@@ -6185,7 +6185,7 @@ RSCF:
 # 199. MATRIX PROOF CAPSULE
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     text: >

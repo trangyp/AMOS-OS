@@ -20,6 +20,11 @@ tags:
 - topic/research
 - capability/grpo
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/M-memory
+- rscf/K-compression
+- rscf/G-relation
+- rscf/type-process
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

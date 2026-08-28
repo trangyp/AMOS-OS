@@ -1213,7 +1213,7 @@ Confidence(C)
 \min(Confidence(P_i))
 ]
 
-for load-bearing premises (P_i), unless independent revalidation justifies a higher ceiling.
+for load-bearing premises \(P_i\), unless independent revalidation justifies a higher ceiling.
 
 ---
 
@@ -3584,7 +3584,7 @@ READ_ONLY_BY_DEFAULT
 
 ---
 
-**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ## Related Generator artifacts
 

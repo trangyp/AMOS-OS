@@ -144,10 +144,10 @@ ORIGINAL TRANSITION
 
 Let:
 
-- (T) be a valid state transition,
-- (R_T) be its logged transaction receipt,
-- (I_T) be its root inputs,
-- (Replay) be the deterministic replay operation.
+- \(T\) be a valid state transition,
+- \(R_T\) be its logged transaction receipt,
+- \(I_T\) be its root inputs,
+- \(Replay\) be the deterministic replay operation.
 
 Then the source can be normalized as:
 
@@ -187,7 +187,7 @@ $$
 
 across repeated executions.
 
-More usefully, for any two replay executions (r_1,r_2):
+More usefully, for any two replay executions \(r_1,r_2\):
 
 $$
 \boxed{
@@ -315,7 +315,7 @@ The receipt is part of the canonical replay basis.
 
 # 8. Receipt Requirement
 
-For transition (T):
+For transition \(T\):
 
 $$
 Valid(T)
@@ -323,7 +323,7 @@ Valid(T)
 \exists R_T
 $$
 
-such that (R_T) is the logged transaction receipt required to replay (T).
+such that \(R_T\) is the logged transaction receipt required to replay \(T\).
 
 ---
 
@@ -437,7 +437,7 @@ ReplayBasis(T)
 R_T \cup I_T
 $$
 
-must contain or deterministically identify every dependency required to reconstruct (T).
+must contain or deterministically identify every dependency required to reconstruct \(T\).
 
 This is **DERIVED**, not separately stated by the supplied source.
 
@@ -903,7 +903,7 @@ This aligns with L24's no-time-travel boundary.
 
 # 34. Replay ≠ New Historical Verdict
 
-If a transition occurred in causal epoch (e_k), replaying it later should not silently rewrite its historical occurrence into the later epoch.
+If a transition occurred in causal epoch \(e_k\), replaying it later should not silently rewrite its historical occurrence into the later epoch.
 
 Conceptually:
 
@@ -1970,7 +1970,7 @@ It does not independently verify the truth of the root inputs.
 
 # 98. Root Input Truth
 
-If root input (I) is false:
+If root input \(I\) is false:
 
 ```text
 FALSE INPUT I

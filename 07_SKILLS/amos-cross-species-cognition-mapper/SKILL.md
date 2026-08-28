@@ -18,6 +18,11 @@ tags:
 - topic/neuroscience
 - capability/cognition
 - rscf/epistemic
+- rscf/M-memory
+- rscf/S-state
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -29,6 +34,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

@@ -1135,7 +1135,7 @@ Semantic validation may require corpus references, not only code.
 
 # 23. Dependency validation
 
-For a target (T):
+For a target \(T\):
 
 [
 Deps(T)={d_1,\dots,d_n}

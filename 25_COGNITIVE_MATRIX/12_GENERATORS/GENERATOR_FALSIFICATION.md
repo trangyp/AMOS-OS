@@ -146,7 +146,7 @@ CONDITIONAL
 DECISION
 PLAN
 GENERATOR_OUTPUT
-PROOF_CAPSULE
+[[L19_PROOF_CAPSULE]]
 DEPENDENCY_EDGE
 CAUSAL_EDGE
 SCOPE_ASSERTION
@@ -433,7 +433,7 @@ INDEPENDENCE = NOT_ESTABLISHED
 
 Suppose twelve generators produce similar outputs:
 
-$$G_1(E),G_2(E),...,G_{12}(E)$$
+$$G_1(E),G_2(E),...,G_{12}\(E\)$$
 
 The falsifier MUST challenge the proposition:
 

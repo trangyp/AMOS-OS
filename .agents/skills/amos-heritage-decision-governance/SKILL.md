@@ -14,6 +14,17 @@ This skill governs the execution of multi-century ancestral decision intelligenc
 
 ## 1. Core Principles & Governance Rules
 
+## Capabilities
+
+- **ancestral_decision_evaluation**: 32-layer evaluation of decision intelligence across ancestral systems
+- **shock_damping_analysis**: Civilizational shock-damping heuristic evaluation
+- **polycentric_topology_modeling**: Model polycentric village topology and single-point-of-failure detection
+- **hydrological_buffering_assessment**: Assess hydrological buffering architectures for resilience
+- **source_independence_audit**: Audit provenance source-independence for decision receipts
+- **decision_receipt_generation**: Generate immutable decision receipts with rollback paths
+
+## 1. Core Principles & Governance Rules
+
 1. **Source Independence Invariant:**
    $$\text{Source Count} \neq \text{Independent Provenance}$$
    * Multiple citations sharing a common root count as 1 independent data point.
@@ -67,3 +78,10 @@ This skill governs the execution of multi-century ancestral decision intelligenc
 - **Scenario**: User says "Is this governance model resilient to civilizational shock?"
   - **Input**: Governance resilience inquiry
   - **Output**: Polycentric village topology analysis, single-point-of-failure check, shock-damping heuristic evaluation, decision receipt with rollback paths
+
+## Do not use
+
+- For generic governance analysis outside the heritage decision framework
+- To claim empirical validation of civilizational survival laws
+- As a substitute for domain-specific historical or anthropological evidence
+- Outside society/culture domain reasoning

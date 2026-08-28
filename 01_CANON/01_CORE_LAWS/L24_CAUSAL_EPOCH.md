@@ -139,7 +139,7 @@ THAN THE PRIOR EPOCH.
 ## CE-2 — No Time Travel
 
 $$
-\operatorname{Verdicts}(e_k)
+\operatorname{Verdicts}\(e_k\)
 \text{ cannot be silently rewritten.}
 $$
 
@@ -177,16 +177,16 @@ EPOCH REQUIRED
 
 ## CE-3 — Causal Lineage Closure
 
-For every consequence (C):
+For every consequence \(C\):
 
 $$
 \forall C,\;
 \exists A:
-\operatorname{Cause}(A)
+\operatorname{Cause}\(A\)
 \land
-\operatorname{Epoch}(A)
+\operatorname{Epoch}\(A\)
 \le
-\operatorname{Epoch}(C)
+\operatorname{Epoch}\(C\)
 $$
 
 Canonical meaning:
@@ -279,7 +279,7 @@ THAN CURRENT EPOCH.
 
 # 5. Epoch Identity
 
-The source establishes ordered epochs (e_k), but does not specify their physical representation.
+The source establishes ordered epochs \(e_k\), but does not specify their physical representation.
 
 It does **not** establish whether an epoch identifier is:
 
@@ -461,7 +461,7 @@ e_{k+1} > e_k
 
 # 13. No Time Travel Law
 
-The second canonical invariant states that verdicts at (e_k):
+The second canonical invariant states that verdicts at \(e_k\):
 
 ```text
 cannot be silently rewritten
@@ -729,13 +729,13 @@ The third canonical invariant requires every consequence to possess causal ances
 Source equation:
 
 $$
-\forall \operatorname{Consequence}(C),
+\forall \operatorname{Consequence}\(C\),
 \;
-\exists \operatorname{Cause}(A)
+\exists \operatorname{Cause}\(A\)
 \land
-\operatorname{Epoch}(A)
+\operatorname{Epoch}\(A\)
 \le
-\operatorname{Epoch}(C)
+\operatorname{Epoch}\(C\)
 $$
 
 This establishes:
@@ -3732,7 +3732,7 @@ RSCF-RELATIONS:
 
   - RELATED_TO: [[L25_SHARD_LOCAL]]
 
-  - RELATED_TO: PROOF_CAPSULE
+  - RELATED_TO: [[L19_PROOF_CAPSULE]]
 
   - RELATED_TO: [[PERSISTENT_PROVENANCE]]
 

@@ -974,7 +974,7 @@ uncertainty:
 
 # 21. Confidence Ceiling
 
-For any L02 conclusion (C):
+For any L02 conclusion \(C\):
 
 [
 Conf(C)

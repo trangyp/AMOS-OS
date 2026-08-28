@@ -1274,7 +1274,7 @@ Where safe rollback cannot exist, governance requirements increase with irrevers
 # 31. Omega Proof Capsule
 
 ```yaml
-OMEGA_QUANTUM_PROOF_CAPSULE:
+OMEGA_QUANTUM_[[L19_PROOF_CAPSULE]]:
 
   claim:
 

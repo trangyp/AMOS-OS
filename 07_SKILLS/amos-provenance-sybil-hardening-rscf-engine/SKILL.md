@@ -17,6 +17,11 @@ tags:
 - canon-group/tech-ai
 - topic/security
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/B-boundary
+- rscf/M-memory
+- rscf/T-topology
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -28,6 +33,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

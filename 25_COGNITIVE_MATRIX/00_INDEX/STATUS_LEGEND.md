@@ -2871,7 +2871,7 @@ unless its formula is explicit.
 
 # 108. Coverage Equations
 
-For total addressable cells (N):
+For total addressable cells \(N\):
 
 [
 Coverage_{implemented}

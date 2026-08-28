@@ -20,6 +20,11 @@ tags:
 - capability/sketching
 - capability/network
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/T-topology
+- rscf/G-relation
+- rscf/K-compression
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

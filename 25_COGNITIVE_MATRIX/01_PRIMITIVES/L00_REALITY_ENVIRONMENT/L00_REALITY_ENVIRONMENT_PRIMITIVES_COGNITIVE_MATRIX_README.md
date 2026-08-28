@@ -134,16 +134,16 @@ L00 is the foundational reality-contact layer beneath higher AMOS reasoning, mem
 
 Let:
 
-* (W_t) = external environment state;
-* (O_t) = observation;
-* (M_t) = measurement;
-* (X_t) = internal representation;
-* (B_t) = belief/model state;
-* (C_t) = claim state;
-* (D_t) = decision;
-* (P_t) = action proposal;
-* (A_t) = authorized action;
-* (E_t) = external effect.
+* \(W_t\) = external environment state;
+* \(O_t\) = observation;
+* \(M_t\) = measurement;
+* \(X_t\) = internal representation;
+* \(B_t\) = belief/model state;
+* \(C_t\) = claim state;
+* \(D_t\) = decision;
+* \(P_t\) = action proposal;
+* \(A_t\) = authorized action;
+* \(E_t\) = external effect.
 
 Then the L00 interaction architecture is:
 
@@ -651,7 +651,7 @@ The purpose is to prevent heavily transformed internal representations from bein
 
 # 17. Grounding Condition
 
-For claim (C):
+For claim \(C\):
 
 [
 \boxed{
@@ -1947,13 +1947,13 @@ U_P
 
 where:
 
-* (U_E) = evidence uncertainty;
-* (U_M) = model uncertainty;
-* (U_S) = scope uncertainty;
-* (U_T) = temporal uncertainty;
-* (U_C) = causal uncertainty;
-* (U_X) = execution uncertainty;
-* (U_P) = provenance/independence uncertainty.
+* \(U_E\) = evidence uncertainty;
+* \(U_M\) = model uncertainty;
+* \(U_S\) = scope uncertainty;
+* \(U_T\) = temporal uncertainty;
+* \(U_C\) = causal uncertainty;
+* \(U_X\) = execution uncertainty;
+* \(U_P\) = provenance/independence uncertainty.
 
 ---
 
@@ -2227,10 +2227,10 @@ Preserve(x)
 
 Let:
 
-* (S_V) = unaffected valid state;
-* (S_F) = failed state;
-* (R_F) = repaired state;
-* (D_F) = dependent state.
+* \(S_V\) = unaffected valid state;
+* \(S_F\) = failed state;
+* \(R_F\) = repaired state;
+* \(D_F\) = dependent state.
 
 Then:
 
@@ -3004,7 +3004,7 @@ EffectIntegrity
 
 # 97. Canonical Grounded AI Equation
 
-For AI claim (C):
+For AI claim \(C\):
 
 [
 \boxed{
@@ -3033,7 +3033,7 @@ It does not guarantee truth.
 
 # 98. Canonical Grounded Action Equation
 
-For action (A):
+For action \(A\):
 
 [
 \boxed{
@@ -3385,7 +3385,7 @@ The governing architectural principle is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]]
 
 ```
 ```

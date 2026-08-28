@@ -74,7 +74,7 @@ Origin architect / steward:
 
 **Trang Phan**
 
-______________________________________________________________________
+---
 
 ## 1. Purpose
 
@@ -82,7 +82,7 @@ This artifact reserves the **AMOS World Model Canon** slot within the Canon plan
 
 Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
 
-______________________________________________________________________
+---
 
 ## 2. Non-Purpose
 
@@ -98,7 +98,7 @@ This placeholder MUST NOT be used to claim:
 - authority merely from architectural importance;
 - or successful validation merely because the slot is addressable.
 
-______________________________________________________________________
+---
 
 ## 3. Ingestion Rule
 
@@ -137,19 +137,19 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
-______________________________________________________________________
+---
 
 ## 4. Contract discipline
 
 Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
 
-______________________________________________________________________
+---
 
 ## 5. Gaps
 
 Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
 
-______________________________________________________________________
+---
 
 ## 6. Worked semantics (target)
 
@@ -161,7 +161,7 @@ Given an operation touching `01_CANON · CANON` within the Canon plane:
 5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
 6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
 
-______________________________________________________________________
+---
 
 ## 7. Promotion-gate checklist
 
@@ -174,7 +174,7 @@ ______________________________________________________________________
 - [ ] executed validation receipt specific to this artifact
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
-______________________________________________________________________
+---
 
 ## 8. Cross-plane bindings (target)
 
@@ -184,15 +184,15 @@ ______________________________________________________________________
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 
-______________________________________________________________________
+---
 
 00_ROOT_MOC|AMOS MOC
 
-______________________________________________________________________
+---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
-______________________________________________________________________
+---
 
 RSCF-NODE
 
@@ -216,5 +216,5 @@ RSCF-RELATIONS:
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
-______________________________________________________________________
+---
 **MOC:** [[03_COGNITION_CANON_MOC]]

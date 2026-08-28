@@ -711,7 +711,7 @@ UNKNOWN/GAP
 
 # 17. Backward compatibility
 
-Version (V_2) is backward compatible with (V_1) only if supported workloads/contracts accepted by (V_1) remain valid under (V_2) within the declared scope.
+Version \(V_2\) is backward compatible with \(V_1\) only if supported workloads/contracts accepted by \(V_1\) remain valid under \(V_2\) within the declared scope.
 
 Conceptually:
 
@@ -3897,7 +3897,7 @@ NON_AUTHORITATIVE
 
 ---
 
-**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ## Related Generator artifacts
 

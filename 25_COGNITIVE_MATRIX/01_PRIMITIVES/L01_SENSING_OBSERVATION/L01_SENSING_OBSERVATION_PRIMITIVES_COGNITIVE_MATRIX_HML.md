@@ -738,17 +738,17 @@ The generic AMOS multiscale structure is:
 
 [
 \boxed{
-O_M=A_{L\rightarrow M}(O_L)
+O_M=A_{L\rightarrow M}\(O_L\)
 }
 ]
 
 [
 \boxed{
-O_H=A_{M\rightarrow H}(O_M)
+O_H=A_{M\rightarrow H}\(O_M\)
 }
 ]
 
-where each (A) is typed.
+where each \(A\) is typed.
 
 An aggregation operator should bind:
 
@@ -783,7 +783,7 @@ validation state
 If:
 
 [
-O_M=A_{L\rightarrow M}(O_L)
+O_M=A_{L\rightarrow M}\(O_L\)
 ]
 
 then generally:
@@ -797,7 +797,7 @@ unless `O_M` is independently observed at M scale.
 Similarly:
 
 [
-O_H=A_{M\rightarrow H}(O_M)
+O_H=A_{M\rightarrow H}\(O_M\)
 ]
 
 generally yields:
@@ -1035,7 +1035,7 @@ ScaleTransform:
 
 # 24. Scope Propagation
 
-If evidence has scope (S_L), aggregation must not silently produce broader scope (S_H).
+If evidence has scope \(S_L\), aggregation must not silently produce broader scope \(S_H\).
 
 [
 \boxed{
@@ -1523,7 +1523,7 @@ AUTOMATICALLY REDUCE UNCERTAINTY
 
 # 41. Confidence Ceiling
 
-For a derived cross-scale conclusion (C):
+For a derived cross-scale conclusion \(C\):
 
 [
 \boxed{

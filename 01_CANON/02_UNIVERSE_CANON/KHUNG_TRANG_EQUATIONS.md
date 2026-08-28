@@ -1649,7 +1649,7 @@ No interpretation is promoted solely because it appears intuitively plausible.
 Every consequential equation use SHOULD carry:
 
 ```yaml
-EQUATION_PROOF_CAPSULE:
+EQUATION_[[L19_PROOF_CAPSULE]]:
 
   equation_id:
   equation_version:

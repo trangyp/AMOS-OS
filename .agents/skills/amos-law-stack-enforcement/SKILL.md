@@ -11,6 +11,15 @@ description: "AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part
 - When a draft law short-circuits the canonical order: LoL→R2→R4 (contradictory drafts fail gate)
 - When reasoning-shape ≠ authorization (integrity stack owns UBI Score/ledger, not output filter)
 
+## Capabilities
+
+- **lol_check**: Law of Law — verify no internal contradictions in draft rules
+- **r2_binary_contrast**: Rule of 2 — verify thesis/antithesis dual-frame test with rejection rationale
+- **r4_quadrant_completeness**: Rule of 4 — verify quadrant completeness with declared canonical family
+- **canonical_order_enforcement**: Enforce non-negotiable LoL→R2→R4 evaluation order
+- **gate_failure_flagging**: Flag specific gate violations with actionable diagnostics
+- **emergency_policy_rejection**: Reject bypass attempts even for emergency policies
+
 ## Source
 Vault-generated from law stack enforcement research (2026-08-25)
 
@@ -56,3 +65,10 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme
+
+## Do not use
+
+- For generic legal analysis outside AMOS law hierarchy
+- To bypass or weaken the LoL→R2→R4 canonical order
+- As a substitute for domain-specific legal or compliance evidence
+- Outside canon/meta-logic domain reasoning

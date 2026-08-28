@@ -248,7 +248,7 @@ Route(q,ctx)
 {P_1,P_2,\ldots,P_n}
 ]
 
-where each (P_i) is a possible valid path.
+where each \(P_i\) is a possible valid path.
 
 A second operation resolves or preserves competition:
 
@@ -1382,7 +1382,7 @@ Evidence routing must not silently treat all retrieved content as equivalent.
 
 # 44. Provenance-aware evidence routing
 
-For evidence set (E):
+For evidence set \(E\):
 
 [
 Roots(E)=

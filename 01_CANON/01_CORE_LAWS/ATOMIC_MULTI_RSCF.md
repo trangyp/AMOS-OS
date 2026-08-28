@@ -15,11 +15,11 @@ rscf:
 
 # ATOMIC_MULTI_RSCF Law
 
-See canonical kernel: K_ATOMIC_MULTI_RSCF.
+See canonical kernel: [[K_ATOMIC_MULTI_RSCF]].
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[ATOMIC_MULTI_RSCF_REASONING]] · K_ATOMIC_MULTI_RSCF
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[ATOMIC_MULTI_RSCF_REASONING]] · [[K_ATOMIC_MULTI_RSCF]]
 
 **MOC:** [[01_CORE_LAWS_MOC]]
 

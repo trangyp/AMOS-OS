@@ -10,6 +10,15 @@ description: >-
 
 This skill allows Antigravity to parse and execute any of the 200+ canonical workflows in `.devin/workflows/`.
 
+## Capabilities
+
+- **workflow_discovery**: Search and list workflows by domain, trigger, or step count
+- **workflow_execution**: Execute workflow steps in sequence with gate enforcement
+- **workflow_validation**: Perform promotion-gate checklists and invariant checks between steps
+- **workflow_failure_handling**: Activate failure paths and rollback when gates fail
+- **workflow_state_tracking**: Track workflow progress, receipts, and provenance
+- **workflow_binding_resolution**: Resolve workflow-to-agent and workflow-to-skill bindings
+
 ## Execution Lifecycle
 
 1. **Trigger & Preconditions**: Verify inputs, required permissions, and prerequisites.
@@ -27,3 +36,10 @@ This skill allows Antigravity to parse and execute any of the 200+ canonical wor
 - **Scenario**: User says "Execute the epistemic audit pipeline"
   - **Input**: Audit pipeline request
   - **Output**: Sequential execution of audit workflow steps, gate enforcement at each checkpoint, failure-path activation if any gate fails, final audit report with confidence ceiling
+
+## Do not use
+
+- For generic task execution outside AMOS workflow framework
+- To create or modify workflows (use amos-workflow-builder instead)
+- As a substitute for the domain skill that the workflow invokes
+- Outside workflow orchestration domain reasoning

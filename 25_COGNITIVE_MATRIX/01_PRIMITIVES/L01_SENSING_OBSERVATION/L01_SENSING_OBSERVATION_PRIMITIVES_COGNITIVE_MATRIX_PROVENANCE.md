@@ -242,7 +242,7 @@ Uncertainty
 }
 ]
 
-where (O) is an observation-bearing state.
+where \(O\) is an observation-bearing state.
 
 More generally:
 
@@ -1154,7 +1154,7 @@ domain
 task
 ```
 
-An observation valid for scope (C_1) cannot silently become evidence for broader scope (C_2).
+An observation valid for scope \(C_1\) cannot silently become evidence for broader scope \(C_2\).
 
 ---
 
@@ -1565,7 +1565,7 @@ SOURCE B
 
 # 47. Ancestry Preservation Invariant
 
-For derived object (D):
+For derived object \(D\):
 
 [
 \boxed{
@@ -1786,7 +1786,7 @@ Exact persistence semantics belong to the implementation/control plane.
 
 # 58. Commit-Time Provenance Validation
 
-Before a durable effect depending on observation (O):
+Before a durable effect depending on observation \(O\):
 
 ```text
 check source status
@@ -2285,7 +2285,7 @@ The repair must propagate through dependent lineage.
 
 # 73. Selective Invalidation
 
-For provenance graph (G_P), if node (v) fails:
+For provenance graph \(G_P\), if node (v) fails:
 
 [
 Affected(v)

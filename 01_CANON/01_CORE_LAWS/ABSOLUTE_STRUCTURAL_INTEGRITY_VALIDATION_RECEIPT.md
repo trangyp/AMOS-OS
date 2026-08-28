@@ -324,7 +324,7 @@ $$
 \forall c_i \in C,\quad Validate(c_i)=PASS
 $$
 
-If the complete set (C) is not identified, the claim:
+If the complete set \(C\) is not identified, the claim:
 
 ```text
 ALL CONSTRAINTS PASS
@@ -610,7 +610,7 @@ A higher-level pass must not be inferred solely from a lower-level sample.
 
 # 14. Recursive Integrity
 
-For a parent structure (R) with descendants:
+For a parent structure \(R\) with descendants:
 
 $$
 Desc(R)=\{r_1,\ldots,r_n\}
@@ -1249,7 +1249,7 @@ This example MUST NOT itself be treated as evidence.
 # 34. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >

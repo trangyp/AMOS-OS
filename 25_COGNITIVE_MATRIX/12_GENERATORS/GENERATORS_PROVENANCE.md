@@ -880,7 +880,7 @@ This allows local invalidation.
 
 # 27. Dependency closure provenance
 
-For artifact (A):
+For artifact \(A\):
 
 [
 Closure(A)

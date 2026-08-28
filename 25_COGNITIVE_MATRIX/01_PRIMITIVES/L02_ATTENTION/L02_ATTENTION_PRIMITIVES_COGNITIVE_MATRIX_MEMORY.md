@@ -181,13 +181,13 @@ X_t
 
 where:
 
-* (A_t) = active attention state,
-* (H_t) = relevant attention history,
-* (D_t) = deferred/unresolved items,
-* (G_t) = gap/contradiction state,
-* (P_t) = provenance/dependency references,
-* (F_t) = freshness/applicability state,
-* (X_t) = invalidation/recovery state.
+* \(A_t\) = active attention state,
+* \(H_t\) = relevant attention history,
+* \(D_t\) = deferred/unresolved items,
+* \(G_t\) = gap/contradiction state,
+* \(P_t\) = provenance/dependency references,
+* \(F_t\) = freshness/applicability state,
+* \(X_t\) = invalidation/recovery state.
 
 This equation is `AMOS_MODEL`, not recovered canon.
 

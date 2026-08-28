@@ -19,6 +19,11 @@ tags:
 - capability/governance
 - capability/learning
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/S-state
+- rscf/μ-mutation
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -30,6 +35,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

@@ -14,6 +14,17 @@ This skill governs the execution of structural lifecycle modeling and predictive
 
 ## 1. Core Mathematical Formulations
 
+## Capabilities
+
+- **tss_state_tracking**: Track strategic lifecycle state vectors ($\Omega, H, F, S$)
+- **tpe_foresight_analysis**: 7-layer predictive foresight with competing forecast branches
+- **cycle_phase_mapping**: Map current evolutionary cycle ($C_1 \dots C_7$)
+- **decoupling_gate_check**: Verify modular decoupling gate ($\Omega \ge 0.7$)
+- **multi_horizon_planning**: Generate multi-horizon intervention plans with rollback paths
+- **falsification_condition_tagging**: Tag each forecast branch with falsification conditions
+
+## 1. Core Mathematical Formulations
+
 1. **Strategic State Alignment Index (TSS):**
    $$i_{\text{TSS}} = [H(1-\Omega)(1-F)(1-S)]^{1/4}, \quad e = i_{\text{TSS}}^2$$
    * $\Omega \in [0, 1]$: Structural fragility / systemic capture.
@@ -66,3 +77,10 @@ This skill governs the execution of structural lifecycle modeling and predictive
 - **Scenario**: User says "When should we pivot vs. persevere?"
   - **Input**: Strategic direction decision
   - **Output**: TPE 7-layer foresight analysis, competing forecast branches (COMPETING, no forced convergence), falsification conditions per branch, signed playbook with rollback paths
+
+## Do not use
+
+- For generic strategic analysis outside TSS/TPE framework
+- To claim empirical validation of evolutionary cycle laws
+- As a substitute for domain-specific market or competitive evidence
+- Outside strategy/game domain reasoning

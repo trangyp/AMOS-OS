@@ -1809,7 +1809,7 @@ Irreversible transformations require stronger governance when source data cannot
 
 # 65. Information-Loss Boundary
 
-For transformation (O):
+For transformation \(O\):
 
 [
 \boxed{
@@ -2680,7 +2680,7 @@ No unsupported numeric uncertainty should be invented.
 
 # 99. Confidence Ceiling
 
-For output (Y) produced from load-bearing inputs (X_i):
+For output \(Y\) produced from load-bearing inputs \(X_i\):
 
 [
 \boxed{
@@ -2859,7 +2859,7 @@ AffectedDependencyClosure
 
 # 103. Operator Substitution
 
-If operator (O_a) fails, substitution with (O_b) is allowed only when:
+If operator \(O_a\) fails, substitution with \(O_b\) is allowed only when:
 
 ```text
 input contract compatible

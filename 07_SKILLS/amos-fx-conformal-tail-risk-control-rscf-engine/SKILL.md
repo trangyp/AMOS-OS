@@ -20,6 +20,11 @@ tags:
 - topic/forex
 - capability/formal-verification
 - rscf/epistemic
+- rscf/S-state
+- rscf/E-entropy
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

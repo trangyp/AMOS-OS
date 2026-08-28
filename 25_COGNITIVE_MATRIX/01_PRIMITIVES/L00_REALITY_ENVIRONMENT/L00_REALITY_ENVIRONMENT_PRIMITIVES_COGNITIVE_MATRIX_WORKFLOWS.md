@@ -97,14 +97,14 @@ W =
 
 where:
 
-* (N) = workflow nodes / steps;
-* (E) = transition edges;
-* (C) = constraints;
-* (S) = workflow state;
-* (P) = provenance;
-* (G) = governance state;
-* (V) = validation state;
-* (R) = recovery paths.
+* \(N\) = workflow nodes / steps;
+* \(E\) = transition edges;
+* \(C\) = constraints;
+* \(S\) = workflow state;
+* \(P\) = provenance;
+* \(G\) = governance state;
+* \(V\) = validation state;
+* \(R\) = recovery paths.
 
 A workflow is therefore more than a list of actions.
 
@@ -970,7 +970,7 @@ R_t \neq R_{t+1}
 Revalidate(D_R)
 ]
 
-where (D_R) is the regime-dependent state set.
+where \(D_R\) is the regime-dependent state set.
 
 ---
 
@@ -2279,7 +2279,7 @@ These must not be collapsed.
 
 # 61. Workflow Confidence Ceiling
 
-For workflow conclusion (C_W):
+For workflow conclusion \(C_W\):
 
 [
 \boxed{

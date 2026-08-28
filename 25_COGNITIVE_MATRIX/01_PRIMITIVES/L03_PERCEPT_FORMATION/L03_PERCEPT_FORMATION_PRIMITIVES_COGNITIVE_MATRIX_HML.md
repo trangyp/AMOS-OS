@@ -101,11 +101,11 @@ field/context
 It provides source-aligned upward transforms:
 
 [
-X_M=A_{L\rightarrow M}(X_L)
+X_M=A_{L\rightarrow M}\(X_L\)
 ]
 
 [
-X_H=A_{M\rightarrow H}(X_M)
+X_H=A_{M\rightarrow H}\(X_M\)
 ]
 
 and downward constraints:
@@ -575,7 +575,7 @@ Canonical operator names remain `UNKNOWN/GAP`.
 Source-aligned form:
 
 [
-X_M=A_{L\rightarrow M}(X_L)
+X_M=A_{L\rightarrow M}\(X_L\)
 ]
 
 L03 specialization:
@@ -633,7 +633,7 @@ This directly follows the source invariant that aggregation does not prove ident
 Source-aligned form:
 
 [
-X_H=A_{M\rightarrow H}(X_M)
+X_H=A_{M\rightarrow H}\(X_M\)
 ]
 
 L03 specialization:
@@ -783,7 +783,7 @@ may constrain M and L
 but propagation is dependency-specific
 ```
 
-No universal numeric form for (T), (u_s), or (d_s) is asserted.
+No universal numeric form for \(T\), \(u_s\), or \(d_s\) is asserted.
 
 ---
 
@@ -1178,7 +1178,7 @@ M PERCEPT
 H PERCEPT
 ```
 
-For H node (H_i):
+For H node \(H_i\):
 
 [
 Anc(H_i)

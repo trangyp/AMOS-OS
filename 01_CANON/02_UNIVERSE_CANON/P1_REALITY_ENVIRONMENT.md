@@ -1072,7 +1072,7 @@ rather than automatic admission.
 # 29. P1 Proof Capsule
 
 ```yaml
-P1_PROOF_CAPSULE:
+P1_[[L19_PROOF_CAPSULE]]:
 
   claim:
 

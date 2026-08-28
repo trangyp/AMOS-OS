@@ -20,6 +20,11 @@ tags:
 - capability/orchestration
 - capability/stack
 - rscf/epistemic
+- rscf/D-distinction
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/S-state
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

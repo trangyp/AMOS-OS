@@ -2928,7 +2928,7 @@ This document therefore replaces the placeholder as a substantive **Core Laws go
 
 ---
 
-**Related:** [[00_HOME]] · AMOS_RSCF_NODES · CORE_LAWS_CANON_README
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[CORE_LAWS_CANON_README]]
 
 ---
 

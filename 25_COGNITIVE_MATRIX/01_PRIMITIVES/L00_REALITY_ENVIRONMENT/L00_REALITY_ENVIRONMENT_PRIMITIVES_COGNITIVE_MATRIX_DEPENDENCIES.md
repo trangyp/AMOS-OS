@@ -356,8 +356,8 @@ G_D=(V,E_D)
 
 where:
 
-* (V) = typed AMOS objects;
-* (E_D) = typed dependency edges.
+* \(V\) = typed AMOS objects;
+* \(E_D\) = typed dependency edges.
 
 Possible nodes include:
 
@@ -715,7 +715,7 @@ where the expression represents logical dependency rather than a universal numer
 
 # 19. Confidence Dependency
 
-For load-bearing premises (p_i):
+For load-bearing premises \(p_i\):
 
 [
 \boxed{
@@ -805,7 +805,7 @@ and:
 E_2 \leftarrow S
 ]
 
-Then (E_1) and (E_2) share ancestry.
+Then \(E_1\) and \(E_2\) share ancestry.
 
 Therefore:
 
@@ -1466,8 +1466,8 @@ W
 
 where:
 
-* (V_W) = workflow states or operations;
-* (E_W) = prerequisite or transition dependencies.
+* \(V_W\) = workflow states or operations;
+* \(E_W\) = prerequisite or transition dependencies.
 
 Example:
 
@@ -3170,7 +3170,7 @@ The purpose of `L00_REALITY_ENVIRONMENT / DEPENDENCIES` is to ensure that every 
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Provenance_Topology · AMOS_Context_State_Maintenance · AMOS_Constraint_Propagation · AMOS_Information_Boundary_Governor · AMOS_Execution_Provenance_Replay · AMOS_Infrastructure_Control_Plane · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Provenance_Topology · AMOS_Context_State_Maintenance · AMOS_Constraint_Propagation · AMOS_Information_Boundary_Governor · AMOS_Execution_Provenance_Replay · AMOS_Infrastructure_Control_Plane · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

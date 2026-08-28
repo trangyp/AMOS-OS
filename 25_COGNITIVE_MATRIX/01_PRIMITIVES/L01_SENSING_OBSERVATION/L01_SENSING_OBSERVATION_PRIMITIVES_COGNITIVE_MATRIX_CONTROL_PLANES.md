@@ -1271,7 +1271,7 @@ BLOCK_SCOPE
 
 # 29. Regime Gate
 
-An observation valid in regime (R_1) is not automatically valid in (R_2).
+An observation valid in regime \(R_1\) is not automatically valid in \(R_2\).
 
 [
 Valid(O,R_1)
@@ -2315,7 +2315,7 @@ Model-derived control-plane design is not automatically source canon.
 
 # 56. Confidence Ceiling
 
-For a control-plane-approved observation (O):
+For a control-plane-approved observation \(O\):
 
 [
 \boxed{

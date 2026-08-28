@@ -19,6 +19,11 @@ tags:
 - capability/universe
 - capability/workflow
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/D-distinction
+- rscf/T-topology
+- rscf/G-relation
+- rscf/type-concept
 - orchestration/pipeline
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -29,6 +34,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

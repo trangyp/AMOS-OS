@@ -20,6 +20,11 @@ tags:
 - topic/research
 - capability/neural
 - rscf/epistemic
+- rscf/S-state
+- rscf/T-topology
+- rscf/M-memory
+- rscf/K-compression
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

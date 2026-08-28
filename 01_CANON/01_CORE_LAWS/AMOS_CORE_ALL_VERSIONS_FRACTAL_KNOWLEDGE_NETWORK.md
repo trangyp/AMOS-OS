@@ -1244,7 +1244,7 @@ $$
 Final(C,E)
 $$
 
-means that (C) satisfies the finalization rules for epoch (E).
+means that \(C\) satisfies the finalization rules for epoch \(E\).
 
 It does not imply:
 
@@ -2196,7 +2196,7 @@ until validated.
 Important conclusions traversing the Fractal Knowledge Network should conceptually carry:
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
 
@@ -3406,9 +3406,9 @@ RSCF-RELATIONS:
 
 - CONTAINS_FRAMEWORK: [[GMEF]]
 
-- CONTAINS_RUNTIME_FIELD: AMOS_CORE_RUNTIME_LINEAGE
+- CONTAINS_RUNTIME_FIELD: [[RUNTIME_LINEAGE]]
 
-- CONTAINS_KNOWLEDGE_FIELD: AMOS_FRACTAL_KNOWLEDGE_NETWORK
+- CONTAINS_KNOWLEDGE_FIELD: [[FRACTAL_KNOWLEDGE_NETWORK]]
 
 - GOVERNS:
   VERSION_PRESERVATION
@@ -3440,7 +3440,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:** [[AMOS_CORE]] · [[01_CORE_LAWS_MOC]] · [[AMOS_RSCF_NODES]] · [[RSCF]] · [[GMEF]] · AMOS_FRACTAL_KNOWLEDGE_NETWORK · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Related:** [[AMOS_CORE]] · [[01_CORE_LAWS_MOC]] · [[AMOS_RSCF_NODES]] · [[RSCF]] · [[GMEF]] · [[FRACTAL_KNOWLEDGE_NETWORK]] · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
 ---
 

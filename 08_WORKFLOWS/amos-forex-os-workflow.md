@@ -17,6 +17,11 @@ tags:
 - topic/forex
 - capability/workflow
 - rscf/epistemic
+- rscf/S-state
+- rscf/E-entropy
+- rscf/G-relation
+- rscf/T-topology
+- rscf/type-model
 - orchestration/pipeline
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -27,6 +32,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

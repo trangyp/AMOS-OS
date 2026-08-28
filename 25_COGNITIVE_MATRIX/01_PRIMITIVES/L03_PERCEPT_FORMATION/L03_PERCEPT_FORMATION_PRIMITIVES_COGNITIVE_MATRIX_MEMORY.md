@@ -145,11 +145,11 @@ C_t
 
 where:
 
-* (O_t) = current observations;
-* (A_t) = attention state;
-* (M_t) = admissible retrieved memory;
-* (C_t) = contextual constraints;
-* (P_t) = percept candidate.
+* \(O_t\) = current observations;
+* \(A_t\) = attention state;
+* \(M_t\) = admissible retrieved memory;
+* \(C_t\) = contextual constraints;
+* \(P_t\) = percept candidate.
 
 `AMOS_MODEL`.
 
@@ -558,7 +558,7 @@ Observer-dependent historical percepts remain observer-dependent after retrieval
 
 ## MEM-INV-014 — Confidence Ceiling
 
-For percept (P) depending materially on memory (M_i):
+For percept \(P\) depending materially on memory \(M_i\):
 
 [
 Conf(P)

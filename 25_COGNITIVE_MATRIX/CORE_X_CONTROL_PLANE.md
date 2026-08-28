@@ -3585,7 +3585,7 @@ RSCF_RELATIONS:
 # 116. Proof Capsule — Artifact Status
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   artifact:
     CORE_X_CONTROL_PLANE.md
@@ -4859,7 +4859,7 @@ RSCF:
 # 151. Final Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim: >
     CORE_X_CONTROL_PLANE.md defines the AMOS Cognitive

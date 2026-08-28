@@ -537,7 +537,7 @@ R_t
 X_M
 ===
 
-A_{L\rightarrow M}(X_L)
+A_{L\rightarrow M}\(X_L\)
 ]
 
 ## 8.3 Middle to high aggregation
@@ -546,7 +546,7 @@ A_{L\rightarrow M}(X_L)
 X_H
 ===
 
-A_{M\rightarrow H}(X_M)
+A_{M\rightarrow H}\(X_M\)
 ]
 
 ## 8.4 Downward constraint

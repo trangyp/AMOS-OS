@@ -447,16 +447,16 @@ P_t
 
 where:
 
-* (Q_t) = task state,
-* (C_t) = resolved capability contract,
-* (E_t) = validated evidence state,
-* (R_t) = observed read set,
-* (X_t) = semantic transaction,
-* (A_t) = authority state,
-* (O_t) = observability state,
-* (L_t) = effect-release ledger state,
-* (Y_t) = receiver/effect completion state,
-* (P_t) = provenance state.
+* \(Q_t\) = task state,
+* \(C_t\) = resolved capability contract,
+* \(E_t\) = validated evidence state,
+* \(R_t\) = observed read set,
+* \(X_t\) = semantic transaction,
+* \(A_t\) = authority state,
+* \(O_t\) = observability state,
+* \(L_t\) = effect-release ledger state,
+* \(Y_t\) = receiver/effect completion state,
+* \(P_t\) = provenance state.
 
 ---
 
@@ -1252,15 +1252,15 @@ L
 
 where:
 
-* (T) = task valid,
-* (C) = capability contract valid,
-* (E) = evidence valid,
-* (R) = authoritative reads fresh,
-* (X) = semantic transaction valid,
-* (A) = authority current,
-* (K) = constraints current,
-* (O) = observability sufficient,
-* (L) = release state safe.
+* \(T\) = task valid,
+* \(C\) = capability contract valid,
+* \(E\) = evidence valid,
+* \(R\) = authoritative reads fresh,
+* \(X\) = semantic transaction valid,
+* \(A\) = authority current,
+* \(K\) = constraints current,
+* \(O\) = observability sufficient,
+* \(L\) = release state safe.
 
 If any required hard term is false:
 
@@ -2609,7 +2609,7 @@ with provenance, authority, freshness, reversibility, and recovery preserved acr
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Infrastructure_Control_Plane · AMOS_Deterministic_AI_Control_Plane · AMOS_Commit_Time_Authorization · AMOS_Execution_Provenance_Replay · AMOS_Semantic_Workflow_Persistence · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Infrastructure_Control_Plane · AMOS_Deterministic_AI_Control_Plane · AMOS_Commit_Time_Authorization · AMOS_Execution_Provenance_Replay · AMOS_Semantic_Workflow_Persistence · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

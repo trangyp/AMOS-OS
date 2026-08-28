@@ -1412,7 +1412,7 @@ This is a structural AMOS model, not a claim of empirical universality.
 
 # 36. Variable Mutation Rule
 
-For current state (V_t) and proposed delta (\Delta V):
+For current state \(V_t\) and proposed delta (\Delta V):
 
 [
 V_{t+1}
@@ -1435,7 +1435,7 @@ V_{t+1}
 
 # 37. Selective Invalidation
 
-If variable (v_i) becomes invalid:
+If variable \(v_i\) becomes invalid:
 
 [
 Invalid(v_i)

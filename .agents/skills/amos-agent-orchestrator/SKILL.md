@@ -10,6 +10,15 @@ description: >-
 
 This skill allows Antigravity to discover, configure, and operate any of the 678 canonical AMOS agents located in `.devin/agents/`.
 
+## Capabilities
+
+- **agent_discovery**: Search and list agents by system, role, or capability
+- **agent_inspection**: Load and display agent JSON structure, capabilities, and bindings
+- **agent_role_assumption**: Adopt an agent's role for task execution
+- **agent_capability_check**: Verify agent capabilities match task requirements
+- **agent_workflow_binding**: Map agents to their bound workflows and skills
+- **agent_system_routing**: Route requests to the correct system (BRAIN, EXECUTION, MONEY, LEGAL, LIFE, SENSE, WORLD_MODEL, GOVERNANCE)
+
 ## Agent Architecture
 
 All canonical AMOS agents are defined as JSON structures with:
@@ -36,3 +45,10 @@ All canonical AMOS agents are defined as JSON structures with:
 - **Scenario**: User says "What agents do we have for governance?"
   - **Input**: Agent discovery query
   - **Output**: List governance-domain agents (amos-ethics-os-governor, amos-trust-formation-governor, amos-risk-constraint-governor) with their capabilities and bound workflows
+
+## Do not use
+
+- For generic agent fabrication (use amos-agent-systems-master instead)
+- To modify agent JSON structures (use amos-skill-builder or manual editing)
+- As a substitute for executing the actual domain skill
+- Outside agent systems domain reasoning

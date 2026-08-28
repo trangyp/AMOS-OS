@@ -828,7 +828,7 @@ FORECAST
 
 A prediction is only as strong as its load-bearing inputs.
 
-For load-bearing premises (P_i):
+For load-bearing premises \(P_i\):
 
 $$
 Conf(F)
@@ -3346,7 +3346,7 @@ RSCF:
 # 140. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
 

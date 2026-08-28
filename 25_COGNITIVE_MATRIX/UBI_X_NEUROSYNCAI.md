@@ -2237,7 +2237,7 @@ PROOF_CAPSULE_BIO_COHERENT_SYNC:
 # 59. Specification-Level Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >

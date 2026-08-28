@@ -18,6 +18,11 @@ tags:
 - topic/knowledge-management
 - capability/knowledge
 - rscf/epistemic
+- rscf/G-relation
+- rscf/M-memory
+- rscf/K-compression
+- rscf/T-topology
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -29,6 +34,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

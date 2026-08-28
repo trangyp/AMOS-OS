@@ -370,11 +370,11 @@ C_t
 
 where:
 
-* (E_t) = available environment/reality-contact state;
-* (M_t) = sensing modality or interface;
-* (B_t) = observer/sensor state;
-* (C_t) = contextual conditions;
-* (O_t) = resulting observation state.
+* \(E_t\) = available environment/reality-contact state;
+* \(M_t\) = sensing modality or interface;
+* \(B_t\) = observer/sensor state;
+* \(C_t\) = contextual conditions;
+* \(O_t\) = resulting observation state.
 
 This is an AMOS MODEL equation, not a claim of universal sensing mathematics.
 
@@ -1593,13 +1593,13 @@ The sensing failure must be addressed or the observation invalidated.
 
 # 49. Selective Invalidation
 
-If observation (O_i) fails:
+If observation \(O_i\) fails:
 
 [
 Affected(O_i)
 =============
 
-Descendants_{load-bearing}(O_i)
+Descendants_{load-bearing}\(O_i\)
 ]
 
 Only materially dependent downstream objects should require invalidation or revalidation.

@@ -462,7 +462,7 @@ FAIL
 UNKNOWN
 ```
 
-For blocking invariant set (B):
+For blocking invariant set \(B\):
 
 [
 \boxed{
@@ -649,7 +649,7 @@ treated as trusted
 
 # 14. L01-INV-005 — Provenance Preservation
 
-For every observation (O):
+For every observation \(O\):
 
 [
 \boxed{
@@ -907,7 +907,7 @@ merely because a transformation completed.
 
 # 25. L01-INV-016 — Confidence Ceiling
 
-For a conclusion (C) depending on load-bearing premises (P_i):
+For a conclusion \(C\) depending on load-bearing premises \(P_i\):
 
 [
 \boxed{
@@ -985,13 +985,13 @@ unless a valid mapping explicitly relates them.
 For:
 
 [
-O_M=A_{L\rightarrow M}(O_L)
+O_M=A_{L\rightarrow M}\(O_L\)
 ]
 
 and:
 
 [
-O_H=A_{M\rightarrow H}(O_M)
+O_H=A_{M\rightarrow H}\(O_M\)
 ]
 
 aggregation must preserve:
@@ -1190,7 +1190,7 @@ Do not invent one globally.
 
 A derived observation state remains reusable only while its load-bearing dependencies remain valid.
 
-If premise (P) fails:
+If premise \(P\) fails:
 
 [
 P\rightarrow D_1\rightarrow D_2
@@ -1795,7 +1795,7 @@ A validator should not compress all of these into a single vague confidence valu
 
 # 57. Confidence Ceiling
 
-For invariant-dependent claim (C):
+For invariant-dependent claim \(C\):
 
 [
 \boxed{

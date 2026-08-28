@@ -1400,7 +1400,7 @@ Stale premises cannot support current runtime commitments without revalidation w
 # 39. Proof Capsule Template
 
 ```yaml
-OMEGA_PROOF_CAPSULE:
+OMEGA_[[L19_PROOF_CAPSULE]]:
 
   claim:
 

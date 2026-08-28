@@ -18,6 +18,11 @@ tags:
 - topic/consciousness
 - capability/testing
 - rscf/epistemic
+- rscf/S-state
+- rscf/X-cross-scale
+- rscf/G-relation
+- rscf/T-topology
+- rscf/type-concept
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -29,6 +34,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

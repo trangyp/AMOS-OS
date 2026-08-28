@@ -2242,7 +2242,7 @@ UNKNOWN/GAP
 
 ---
 
-**Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · AUTHORITATIVE_STATE|Authoritative State · PLACEMENT_RULES|Placement Rules · AMOS Canon · CANON_MAP|Canon Map · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · RUNTIME_MAP|Runtime Map · COGNITIVE_ORGANISM_MAP|Cognitive Organism Map · MEMORY_MEMORY_MAP|Memory Map · AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture · STATE_STATE_MAP|State Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · SECURITY_MAP|Security Map · TEST_MAP|Tests · LEGACY_ARCHIVE_README|Archive
+**Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · AUTHORITATIVE_STATE|Authoritative State · PLACEMENT_RULES|Placement Rules · AMOS Canon · CANON_MAP|Canon Map · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · RUNTIME_MAP|Runtime Map · COGNITIVE_ORGANISM_MAP|Cognitive Organism Map · MEMORY_MEMORY_MAP|Memory Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · STATE_STATE_MAP|State Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · SECURITY_MAP|Security Map · TEST_MAP|Tests · LEGACY_ARCHIVE_README|Archive
 
 ---
 

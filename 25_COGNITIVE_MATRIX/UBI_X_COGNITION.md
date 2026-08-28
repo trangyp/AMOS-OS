@@ -312,7 +312,7 @@ E=I^2
 }
 $$
 
-where (E) and (I) are **placeholder normalization symbols** until the authoritative source confirms the original notation.
+where \(E\) and \(I\) are **placeholder normalization symbols** until the authoritative source confirms the original notation.
 
 ---
 
@@ -867,7 +867,7 @@ X_E<0.30
 }
 $$
 
-where (X_E) is explicitly **UNRESOLVED**.
+where \(X_E\) is explicitly **UNRESOLVED**.
 
 ---
 
@@ -936,7 +936,7 @@ EMERGENCY_ROLLBACK:
 
 # 46. Do Not Invent S0
 
-It may be tempting to infer that the missing rollback target is (S_0), especially given broader AMOS ground-state terminology.
+It may be tempting to infer that the missing rollback target is \(S_0\), especially given broader AMOS ground-state terminology.
 
 The supplied artifact does not preserve that symbol.
 
@@ -2458,7 +2458,7 @@ The source excerpt does not resolve this.
 
 Because multiple cognitive/biological states may interact, atomic multi-RSCF reasoning concepts may become relevant at the AMOS architectural level.
 
-But this specification does not explicitly bind its state transitions to `K_ATOMIC_MULTI_RSCF`.
+But this specification does not explicitly bind its state transitions to `[[K_ATOMIC_MULTI_RSCF]]`.
 
 Therefore no such implementation claim should be made.
 
@@ -3211,7 +3211,7 @@ RSCF:
 # 157. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >
@@ -3431,7 +3431,7 @@ This artifact MUST NOT by itself be used to claim:
 1. the first System 1 metric is known;
 1. the first System 2 metric is known;
 1. the first Emergency metric is known;
-1. the emergency rollback target is (S_0);
+1. the emergency rollback target is \(S_0\);
 1. (\\tau\_{bio}) equals the four-domain index;
 1. (\\tau\_{bio}) equals emergence;
 1. the missing tier variable equals the four-domain index;
@@ -3460,7 +3460,7 @@ This artifact MUST NOT by itself be used to claim:
 1. System 2 always has priority over System 1;
 1. Emergency priority semantics are fully defined here;
 1. Safe Mode is defined here;
-1. Null-State Reset means (S_0);
+1. Null-State Reset means \(S_0\);
 1. Null-State Reset means global AMOS reset;
 1. Full Rollback uses MVCC;
 1. Full Rollback uses CAS;
@@ -4149,7 +4149,7 @@ The decisive integrity boundaries are:
 
 **THE FIRST BIOLOGICAL VARIABLE IN THE SYSTEM 1, SYSTEM 2, AND EMERGENCY PRECONDITIONS IS MISSING FROM THE SUPPLIED TEXT.**
 
-**THE EMERGENCY ROLLBACK TARGET SYMBOL IS MISSING. IT MUST NOT BE SILENTLY RECONSTRUCTED AS (S_0).**
+**THE EMERGENCY ROLLBACK TARGET SYMBOL IS MISSING. IT MUST NOT BE SILENTLY RECONSTRUCTED AS \(S_0\).**
 
 **(\\tau\_{bio}) IS SOURCE-DEFINED BUT NOT SEMANTICALLY DEFINED IN THIS EXCERPT. IT MUST NOT BE ASSUMED EQUAL TO THE FOUR-DOMAIN INDEX OR EMERGENCE QUANTITY.**
 
@@ -4171,7 +4171,7 @@ The decisive integrity boundaries are:
 
 **40HZ MULTI-AGENT PACING MUST NOT BE SILENTLY IDENTIFIED WITH AMOS CAUSAL-EPOCH FINALITY.**
 
-**NULL-STATE RESET MUST NOT BE SILENTLY IDENTIFIED WITH (S_0).**
+**NULL-STATE RESET MUST NOT BE SILENTLY IDENTIFIED WITH \(S_0\).**
 
 **FULL ROLLBACK MUST NOT BE SILENTLY IDENTIFIED WITH MVCC/CAS IMPLEMENTATION.**
 

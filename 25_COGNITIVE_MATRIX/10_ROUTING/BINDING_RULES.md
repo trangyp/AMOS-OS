@@ -211,7 +211,7 @@ R(q,C)
 where:
 
 * (q) = request/query/task;
-* (C) = candidate component set.
+* \(C\) = candidate component set.
 
 Define binding:
 

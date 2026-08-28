@@ -18,6 +18,9 @@ tags:
 - capability/workflow
 - capability/software
 - rscf/epistemic
+- rscf/G-relation
+- rscf/T-topology
+- rscf/type-process
 - orchestration/orchestrator-worker
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -28,6 +31,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

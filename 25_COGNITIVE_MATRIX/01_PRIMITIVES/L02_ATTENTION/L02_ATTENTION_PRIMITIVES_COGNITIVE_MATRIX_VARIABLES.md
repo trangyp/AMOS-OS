@@ -465,7 +465,7 @@ where a reserve policy exists.
 a_{i,t}
 ]
 
-represents attention allocated to candidate (c_i).
+represents attention allocated to candidate \(c_i\).
 
 Domain:
 
@@ -672,7 +672,7 @@ G_t:
 g_{i,t}
 ]
 
-represents candidate relevance to (G_t).
+represents candidate relevance to \(G_t\).
 
 Important distinction:
 
@@ -824,7 +824,7 @@ Attention does not transform an evidence class by itself.
 ## 14.1 Confidence ceiling
 
 [
-Conf^{max}(C)
+Conf^{max}\(C\)
 ]
 
 For load-bearing premises:
@@ -843,14 +843,14 @@ This is aligned with the governing AMOS confidence rule.
 
 ## 14.2 Attention-confidence firewall
 
-For an attention-only operation (T_A):
+For an attention-only operation \(T_A\):
 
 [
 Conf(T_A(C))
 \le Conf(C)
 ]
 
-unless (T_A) also acquires genuinely new admissible evidence.
+unless \(T_A\) also acquires genuinely new admissible evidence.
 
 Thus:
 
@@ -949,7 +949,7 @@ k_i
 
 Candidate interpretation:
 
-how strongly candidate (c_i) can alter downstream conclusions.
+how strongly candidate \(c_i\) can alter downstream conclusions.
 
 ---
 
@@ -1257,7 +1257,7 @@ Candidate model:
 DV_i
 ]
 
-represents expected value of resolving candidate (c_i) for the governing decision.
+represents expected value of resolving candidate \(c_i\) for the governing decision.
 
 Potential factors:
 

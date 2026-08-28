@@ -17,6 +17,11 @@ tags:
 - capability/budget
 - capability/optimization
 - rscf/epistemic
+- rscf/T-topology
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/D-distinction
+- rscf/type-system
 - orchestration/event-driven
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -27,6 +32,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

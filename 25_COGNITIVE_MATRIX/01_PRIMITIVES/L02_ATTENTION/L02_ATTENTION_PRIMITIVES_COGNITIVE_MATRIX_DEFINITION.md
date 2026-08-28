@@ -1585,7 +1585,7 @@ Attention should preferentially reduce uncertainty that can change the decision.
 
 # 43. Confidence Ceiling
 
-For an attention conclusion (C):
+For an attention conclusion \(C\):
 
 [
 Conf(C)
@@ -1593,7 +1593,7 @@ Conf(C)
 \min_i Conf(P_i)
 ]
 
-where (P_i) are load-bearing premises.
+where \(P_i\) are load-bearing premises.
 
 Example:
 

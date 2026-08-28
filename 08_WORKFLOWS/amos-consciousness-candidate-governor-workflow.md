@@ -17,6 +17,11 @@ tags:
 - capability/consciousness
 - capability/workflow
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/S-state
+- rscf/X-cross-scale
+- rscf/type-system
 - orchestration/event-driven
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -27,6 +32,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

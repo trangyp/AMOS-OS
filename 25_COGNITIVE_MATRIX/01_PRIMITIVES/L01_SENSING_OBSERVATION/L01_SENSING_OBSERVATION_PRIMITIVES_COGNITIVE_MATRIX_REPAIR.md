@@ -629,14 +629,14 @@ L01-REP-INV-020  Repair success does not establish empirical truth.
 
 ## 11.1 Selective Invalidation
 
-For failed observation (O_i):
+For failed observation \(O_i\):
 
 [
 \boxed{
 Affected(O_i)
 =============
 
-Descendants_{load-bearing}(O_i)
+Descendants_{load-bearing}\(O_i\)
 }
 ]
 
@@ -707,7 +707,7 @@ for load-bearing premises.
 
 ## 11.4 Reobservation Identity
 
-If a new reality-contact event occurs at (t_2):
+If a new reality-contact event occurs at \(t_2\):
 
 [
 \boxed{
@@ -724,7 +724,7 @@ not:
 O_1 := O_2
 ]
 
-Historical (O_1) remains traceable.
+Historical \(O_1\) remains traceable.
 
 ---
 
@@ -1283,7 +1283,7 @@ unless new evidence supports expansion.
 
 # 27. Regime Repair
 
-An observation valid in regime (G_1) may not remain applicable in (G_2).
+An observation valid in regime \(G_1\) may not remain applicable in \(G_2\).
 
 Repair should detect:
 

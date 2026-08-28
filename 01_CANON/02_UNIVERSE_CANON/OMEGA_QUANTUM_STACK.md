@@ -1441,7 +1441,7 @@ Irreversible operations require stronger governance than reversible operations.
 Important Omega conclusions should carry:
 
 ```yaml
-OMEGA_PROOF_CAPSULE:
+OMEGA_[[L19_PROOF_CAPSULE]]:
 
   claim:
 

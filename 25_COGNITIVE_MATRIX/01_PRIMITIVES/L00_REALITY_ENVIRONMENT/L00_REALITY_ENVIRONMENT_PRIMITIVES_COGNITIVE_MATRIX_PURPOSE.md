@@ -119,13 +119,13 @@ L00 therefore closes the loop between reasoning and external state without claim
 
 Let:
 
-* (W_t) = external world/environment state at time (t);
-* (O_t) = observation acquired from the environment;
-* (M_t) = measurement produced from observation;
-* (X_t) = internal representation;
-* (B_t) = current belief/model state;
-* (D_t) = decision;
-* (A_t) = authorized action;
+* \(W_t\) = external world/environment state at time (t);
+* \(O_t\) = observation acquired from the environment;
+* \(M_t\) = measurement produced from observation;
+* \(X_t\) = internal representation;
+* \(B_t\) = current belief/model state;
+* \(D_t\) = decision;
+* \(A_t\) = authorized action;
 * (W_{t+1}) = subsequent environment state.
 
 The basic L00 interaction chain is:
@@ -481,13 +481,13 @@ It does not imply that direct observations are always more accurate than careful
 
 # 14. Grounding Equation
 
-For claim (C), let:
+For claim \(C\), let:
 
-* (E(C)) = evidence supporting the claim;
-* (P(C)) = provenance integrity;
-* (S(C)) = scope compatibility;
-* (R(C)) = regime compatibility;
-* (T(C)) = temporal validity.
+* \(E(C)\) = evidence supporting the claim;
+* \(P(C)\) = provenance integrity;
+* \(S(C)\) = scope compatibility;
+* \(R(C)\) = regime compatibility;
+* \(T(C)\) = temporal validity.
 
 Then an AMOS grounding gate may be represented as:
 
@@ -880,8 +880,8 @@ U_t,
 
 where:
 
-* (A_t) = AMOS-controlled action;
-* (U_t) = external influences;
+* \(A_t\) = AMOS-controlled action;
+* \(U_t\) = external influences;
 * (\epsilon_t) = unresolved disturbance/model error.
 
 This explicitly prevents AMOS from assuming that every observed change was caused by its own action.
@@ -965,7 +965,7 @@ These must not be collapsed into a single operation.
 
 # 32. State Freshness
 
-For mutable state (S):
+For mutable state \(S\):
 
 [
 \boxed{
@@ -1258,7 +1258,7 @@ uncertainty
 
 # 43. Provenance Equation
 
-For observation (O):
+For observation \(O\):
 
 [
 \boxed{
@@ -1580,7 +1580,7 @@ R
 }
 ]
 
-where (M) is the model and (R) the regime assumptions.
+where \(M\) is the model and \(R\) the regime assumptions.
 
 Hard boundary:
 
@@ -2151,20 +2151,20 @@ U
 
 where:
 
-* (D_R) = reality/representation distinction;
-* (D_O) = observation distinction;
-* (D_M) = measurement distinction;
-* (P) = provenance integrity;
-* (S) = scope integrity;
-* (R) = regime integrity;
-* (T) = temporal integrity;
-* (U) = uncertainty preservation.
+* \(D_R\) = reality/representation distinction;
+* \(D_O\) = observation distinction;
+* \(D_M\) = measurement distinction;
+* \(P\) = provenance integrity;
+* \(S\) = scope integrity;
+* \(R\) = regime integrity;
+* \(T\) = temporal integrity;
+* \(U\) = uncertainty preservation.
 
 ---
 
 # 72. Grounded AI Condition
 
-For an AI claim (C):
+For an AI claim \(C\):
 
 [
 \boxed{
@@ -2193,7 +2193,7 @@ It defines a minimum architecture for evidence-grounded claim formation.
 
 # 73. Grounded Action Condition
 
-For external action (A):
+For external action \(A\):
 
 [
 \boxed{
@@ -2457,7 +2457,7 @@ The governing architectural principle is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture
 
 ```
 

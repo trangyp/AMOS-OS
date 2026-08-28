@@ -3011,7 +3011,7 @@ NON_AUTHORITATIVE
 
 ---
 
-**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]]
 
 ## Related Generator artifacts
 

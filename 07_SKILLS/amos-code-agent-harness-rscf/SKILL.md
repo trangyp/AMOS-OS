@@ -20,6 +20,11 @@ tags:
 - capability/code
 - capability/harness
 - rscf/epistemic
+- rscf/T-topology
+- rscf/M-memory
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

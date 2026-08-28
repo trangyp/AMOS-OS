@@ -529,7 +529,7 @@ ANTI-AUTOPOISONING
 Prohibited:
 
 ```text
-CONTEXT HALLUCINATION (S_0)
+CONTEXT HALLUCINATION \(S_0\)
 ```
 
 ## 7.2 Architectural Meaning
@@ -3529,7 +3529,7 @@ RSCF_RELATIONS:
 # 113. Proof Capsule — Artifact Status
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   artifact:
     CORE_X_CONTROL_PLANE_MATRIX.md

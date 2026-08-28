@@ -525,7 +525,7 @@ Invalid(o_j)
 Revalidate(P_i)
 ]
 
-and if (o_j) is load-bearing:
+and if \(o_j\) is load-bearing:
 
 [
 Invalid(o_j)
@@ -959,7 +959,7 @@ It is not empirical proof.
 
 # 22. Confidence Dependencies
 
-For percept (P) with load-bearing dependencies (d_i):
+For percept \(P\) with load-bearing dependencies \(d_i\):
 
 [
 Conf(P)
@@ -1373,7 +1373,7 @@ assuming no hidden shared dependency exists.
 
 # 32. Dependency Closure
 
-For percept (P), define dependency closure:
+For percept \(P\), define dependency closure:
 
 [
 Closure(P)

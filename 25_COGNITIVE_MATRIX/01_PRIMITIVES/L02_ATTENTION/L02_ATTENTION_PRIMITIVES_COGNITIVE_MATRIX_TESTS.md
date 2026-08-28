@@ -1510,7 +1510,7 @@ a_i \ge 0
 
 ## PROP-L02-003 — Provenance Preservation
 
-For every admissible transformation (T):
+For every admissible transformation \(T\):
 
 [
 Origin(T(x))
@@ -1525,9 +1525,9 @@ must remain recoverable when origin is decision-relevant.
 For every attention-only transformation:
 
 [
-Conf_{after}(C)
+Conf_{after}\(C\)
 \le
-Conf_{before}(C)
+Conf_{before}\(C\)
 ]
 
 unless new independent evidence enters.

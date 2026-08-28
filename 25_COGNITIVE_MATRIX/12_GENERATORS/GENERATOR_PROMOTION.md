@@ -610,7 +610,7 @@ Dependencies MAY themselves have dependencies.
 
 Therefore:
 
-$$D(G) = D_{direct}(G) \cup D_{transitive}(G)$$
+$$D(G) = D_{direct}\(G\) \cup D_{transitive}\(G\)$$
 
 but only dependencies capable of materially changing the promotion decision need full traversal.
 

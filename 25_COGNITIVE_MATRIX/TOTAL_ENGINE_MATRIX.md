@@ -207,12 +207,12 @@ $$
 
 where:
 
-- (C_i) = engine identifier;
-- (D_i) = domain identity;
-- (F_i) = core function;
-- (I_i) = invariant/formula;
-- (P_i) = target plane;
-- (G_i) = fail-closed fallback.
+- \(C_i\) = engine identifier;
+- \(D_i\) = domain identity;
+- \(F_i\) = core function;
+- \(I_i\) = invariant/formula;
+- \(P_i\) = target plane;
+- \(G_i\) = fail-closed fallback.
 
 This notation is **DERIVED normalization**, not a supplied canonical equation.
 
@@ -1544,7 +1544,7 @@ Capability(C_i)
 Authority(C_i)
 $$
 
-for any engine (C_i), as a derived application of the supplied C09 invariant.
+for any engine \(C_i\), as a derived application of the supplied C09 invariant.
 
 ---
 
@@ -1594,7 +1594,7 @@ Pass(C_a)+Fail(C_b)
 GlobalPass
 $$
 
-when (C_b) is load-bearing.
+when \(C_b\) is load-bearing.
 
 ---
 
@@ -1609,7 +1609,7 @@ GlobalCommit
 Pass(C_i)
 $$
 
-where (L) is the set of load-bearing engines for the decision.
+where \(L\) is the set of load-bearing engines for the decision.
 
 This is **DERIVED**, not explicitly supplied by the matrix.
 
@@ -2177,7 +2177,7 @@ If the corpus defines precedence between frontmatter and embedded RSCF contracts
 # 98. Validation Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim: >
     TOTAL_ENGINE_MATRIX.md v2.0.0 source-defines the master

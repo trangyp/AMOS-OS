@@ -5061,7 +5061,7 @@ RSCF-NODE:
     note
 
   path:
-    01_CANON/01_CORE_LAWS/L19_PROOF_CAPSULE.md
+    01_CANON/01_CORE_LAWS/L19_[[L19_PROOF_CAPSULE]].md
 
   epistemic_class:
     AMOS_MODEL

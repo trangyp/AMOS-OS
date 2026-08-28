@@ -1924,7 +1924,7 @@ Unknown uncertainty must not silently become zero.
 
 # 47. Confidence Ceiling
 
-For state (S):
+For state \(S\):
 
 [
 \boxed{

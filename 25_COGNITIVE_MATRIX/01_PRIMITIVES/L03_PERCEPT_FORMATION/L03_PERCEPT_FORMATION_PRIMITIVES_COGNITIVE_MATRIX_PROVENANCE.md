@@ -843,7 +843,7 @@ PERCEPT VERIFIED
 
 # 19. Confidence Ceiling
 
-For a percept candidate (P):
+For a percept candidate \(P\):
 
 [
 Conf(P)
@@ -851,7 +851,7 @@ Conf(P)
 \min_i Conf(L_i)
 ]
 
-for load-bearing premises (L_i), unless independent revalidation changes the evidence state.
+for load-bearing premises \(L_i\), unless independent revalidation changes the evidence state.
 
 Additional provenance rule:
 
@@ -1793,7 +1793,7 @@ must remain.
 
 # 44. Selective Invalidation
 
-Given dependency graph (G_D), if provenance premise (p) fails:
+Given dependency graph \(G_D\), if provenance premise (p) fails:
 
 [
 Invalidate(p)

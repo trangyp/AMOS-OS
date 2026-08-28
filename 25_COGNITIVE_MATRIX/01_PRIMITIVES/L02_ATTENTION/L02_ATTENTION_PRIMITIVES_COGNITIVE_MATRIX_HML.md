@@ -145,9 +145,9 @@ A =
 
 where:
 
-* (A_H) = governing/system-level attention state,
-* (A_M) = subsystem/task-level attention allocation,
-* (A_L) = local candidate/event-level attention decision.
+* \(A_H\) = governing/system-level attention state,
+* \(A_M\) = subsystem/task-level attention allocation,
+* \(A_L\) = local candidate/event-level attention decision.
 
 This is a **typed architectural decomposition**, not a claim that biological or artificial cognition universally contains exactly three attention levels.
 
@@ -612,7 +612,7 @@ Conceptually:
 
 [
 M^{prior}*t =
-\Pi*{H\rightarrow M}(H_t)
+\Pi*{H\rightarrow M}\(H_t\)
 ]
 
 Required preservation:
@@ -1393,7 +1393,7 @@ identify decision-changing L/M result
 
 # 32. Selective Invalidation
 
-If local premise (L_k) fails:
+If local premise \(L_k\) fails:
 
 [
 Invalid(L_k)

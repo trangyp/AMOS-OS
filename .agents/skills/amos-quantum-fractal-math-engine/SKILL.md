@@ -14,6 +14,17 @@ This skill governs high-dimensional quantum-analogous logical reasoning, multi-s
 
 ## 1. Core Mathematical Primitives
 
+## Capabilities
+
+- **qls_superposition**: Quantum Logic Superposition — evaluate multi-state logic branches simultaneously
+- **fractal_decomposition**: Scale-invariant fractal decomposition across H/M/L levels
+- **lacunarity_analysis**: Lacunarity texture analysis $\Lambda$ for self-similarity detection
+- **deterministic_collapse**: Collapse superposition to verified solution via $\hat{\mathcal{M}}$
+- **rscf_proof_generation**: Generate RSCF proof capsule for collapsed solution
+- **non_binary_constraint_satisfaction**: Solve non-binary constraint satisfaction problems
+
+## 1. Core Mathematical Primitives
+
 1. **Quantum Logic Superposition (QLS):**
    * Extends binary truth values to complex probability amplitudes $\psi \in \mathbb{C}$ where $|\psi|^2 \in [0, 1]$.
    * Evaluates multiple competing hypotheses simultaneously in coherent superposition.
@@ -50,3 +61,10 @@ This skill governs high-dimensional quantum-analogous logical reasoning, multi-s
 - **Scenario**: User says "What's the fractal dimension of this reasoning structure?"
   - **Input**: Reasoning graph structure
   - **Output**: Scale-invariant fractal decomposition (H/M/L levels), lacunarity texture analysis $\Lambda$, self-similarity detection tagged AMOS_MODEL
+
+## Do not use
+
+- For generic mathematical analysis outside QLS/fractal framework
+- To claim physical quantum mechanics predictions (AMOS_MODEL only)
+- As a substitute for domain-specific numerical or optimization evidence
+- Outside formal/math domain reasoning

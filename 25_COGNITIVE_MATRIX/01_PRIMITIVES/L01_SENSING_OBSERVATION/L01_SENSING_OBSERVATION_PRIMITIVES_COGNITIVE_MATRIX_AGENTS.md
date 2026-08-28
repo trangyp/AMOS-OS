@@ -419,8 +419,8 @@ O_c = Adapt(O_s, Schema_s \rightarrow Schema_c)
 
 where:
 
-* (O_s) = source-format observation;
-* (O_c) = canonicalized observation.
+* \(O_s\) = source-format observation;
+* \(O_c\) = canonicalized observation.
 
 Invariant:
 
@@ -918,7 +918,7 @@ Fusion must not double-count shared source ancestry.
 
 # 22. Fusion Equation
 
-For compatible observations (O_i):
+For compatible observations \(O_i\):
 
 [
 F =
@@ -2137,7 +2137,7 @@ The vector should remain decomposed where the dimensions can change downstream d
 
 # 56. Confidence Ceiling
 
-For observation conclusion (C):
+For observation conclusion \(C\):
 
 [
 \boxed{
@@ -2499,12 +2499,12 @@ RESTORE ELIGIBLE DEPENDENTS
 
 # 64. Selective Invalidation
 
-If observation (O) fails:
+If observation \(O\) fails:
 
 [
 Invalid(O)
 \Rightarrow
-Invalidate(Desc_{LB}(O))
+Invalidate(Desc_{LB}\(O\))
 ]
 
 But:

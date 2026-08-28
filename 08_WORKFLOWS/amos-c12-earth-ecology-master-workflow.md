@@ -19,6 +19,11 @@ tags:
 - capability/ecology
 - capability/earth
 - rscf/epistemic
+- rscf/M-memory
+- rscf/T-topology
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/type-model
 - orchestration/pipeline
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -29,6 +34,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

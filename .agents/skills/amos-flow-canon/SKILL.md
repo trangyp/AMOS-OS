@@ -11,6 +11,15 @@ description: "AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. C
 - When identifying bottlenecks, leakage, or queue dynamics in a claimed system
 - When flow is asserted but not structurally characterized (the vault's genuine gap)
 
+## Capabilities
+
+- **flow_characterization**: Map input→transformation→output stages with conversion efficiency
+- **bottleneck_identification**: Identify decision approval queues and throughput-limiting stages
+- **leakage_detection**: Detect unrecorded side-channels and power dissipation points
+- **flow_persistence_check**: Verify flow persistence depends on enforcement mechanisms
+- **dual_frame_test**: Apply Rule of 2 binary contrast to flow characterization
+- **conversion_efficiency_analysis**: Calculate input→output ratio and identify waste
+
 ## Source
 Vault-generated from 7-Part Canon audit (2026-08-23) — identified Flow (Part II) as the only part absent from all 5 existing vault canon layers
 
@@ -53,3 +62,10 @@ Flow (Part II) maps to the Law Stack's Rule of 2™ as the named binary attracto
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme
+
+## Do not use
+
+- For generic flow analysis outside the canon framework
+- To claim empirical validation of organizational power dynamics
+- As a substitute for domain-specific throughput or supply chain evidence
+- Outside canon/universe domain reasoning

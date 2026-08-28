@@ -181,11 +181,11 @@ C_t
 
 where:
 
-* (E_t) = available environment state;
-* (M_t) = sensing modality/interface;
-* (B_t) = observer or sensor state;
-* (C_t) = contextual conditions;
-* (O_t) = observation state.
+* \(E_t\) = available environment state;
+* \(M_t\) = sensing modality/interface;
+* \(B_t\) = observer or sensor state;
+* \(C_t\) = contextual conditions;
+* \(O_t\) = observation state.
 
 This is an `AMOS_MODEL` equation.
 
@@ -1431,16 +1431,16 @@ The repair target should be the earliest material failure, not merely its latest
 
 # 32. Selective Invalidation
 
-If observation (O_i) fails:
+If observation \(O_i\) fails:
 
 [
 Affected(O_i)
 =============
 
-Descendants_{load-bearing}(O_i)
+Descendants_{load-bearing}\(O_i\)
 ]
 
-Only downstream objects materially dependent upon (O_i) should be invalidated or revalidated.
+Only downstream objects materially dependent upon \(O_i\) should be invalidated or revalidated.
 
 Therefore:
 

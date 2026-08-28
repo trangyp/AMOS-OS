@@ -16,6 +16,11 @@ tags:
 - capability/fractal
 - capability/workflow
 - rscf/epistemic
+- rscf/D-distinction
+- rscf/M-memory
+- rscf/T-topology
+- rscf/X-cross-scale
+- rscf/type-system
 - orchestration/event-driven
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -26,6 +31,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

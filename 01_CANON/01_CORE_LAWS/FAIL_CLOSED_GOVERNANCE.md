@@ -2356,7 +2356,7 @@ HOLD
 A governance proof capsule may conceptually carry:
 
 ```yaml
-GOVERNANCE_PROOF_CAPSULE:
+GOVERNANCE_[[L19_PROOF_CAPSULE]]:
 
   claim:
     "operation may commit"
@@ -2830,13 +2830,13 @@ P1/P2 evidence can therefore trigger fail-closed behavior downstream.
 
 Let:
 
-- (A) = ambiguity-free state,
-- (I) = invariant validity,
-- (U) = authority validity,
-- (F) = freshness,
-- (D) = dependency validity,
-- (S) = scope compatibility,
-- (R) = regime compatibility.
+- \(A\) = ambiguity-free state,
+- \(I\) = invariant validity,
+- \(U\) = authority validity,
+- \(F\) = freshness,
+- \(D\) = dependency validity,
+- \(S\) = scope compatibility,
+- \(R\) = regime compatibility.
 
 Then a conceptual permit condition is:
 
@@ -2988,7 +2988,7 @@ FAIL_CLOSED_GOVERNANCE:
 # 104. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >

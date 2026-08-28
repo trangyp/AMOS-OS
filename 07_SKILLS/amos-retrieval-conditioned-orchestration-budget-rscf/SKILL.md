@@ -19,6 +19,11 @@ tags:
 - capability/orchestration
 - capability/budget
 - rscf/epistemic
+- rscf/G-relation
+- rscf/M-memory
+- rscf/K-compression
+- rscf/T-topology
+- rscf/type-process
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -30,6 +35,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

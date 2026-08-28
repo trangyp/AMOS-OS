@@ -5624,7 +5624,7 @@ DO NOT COMMIT.
 
 ---
 
-**Related:** [[00_HOME]] · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
 
 ---
 

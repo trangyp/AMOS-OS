@@ -2175,7 +2175,7 @@ message B
 message C
 ```
 
-all descend from source (S):
+all descend from source \(S\):
 
 [
 IndependentEvidenceCount

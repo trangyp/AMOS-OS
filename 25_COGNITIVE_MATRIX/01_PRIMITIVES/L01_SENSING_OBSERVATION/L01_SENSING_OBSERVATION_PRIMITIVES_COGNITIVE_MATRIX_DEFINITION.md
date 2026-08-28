@@ -2224,7 +2224,7 @@ RESTORE / QUARANTINE / REJECT
 
 # 54. Selective Invalidation
 
-If observation (O_i) fails:
+If observation \(O_i\) fails:
 
 [
 Failure(O_i)

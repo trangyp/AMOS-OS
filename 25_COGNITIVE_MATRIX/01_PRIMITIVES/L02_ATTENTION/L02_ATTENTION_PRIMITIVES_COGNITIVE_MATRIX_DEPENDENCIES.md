@@ -509,7 +509,7 @@ Model:
 Priority(x \mid G)
 ]
 
-where (G) is the governing objective.
+where \(G\) is the governing objective.
 
 Therefore:
 
@@ -940,7 +940,7 @@ High graph degree alone does not prove criticality.
 
 # 26. Load-Bearing Dependency
 
-A dependency (d) is load-bearing for claim (C) when:
+A dependency (d) is load-bearing for claim \(C\) when:
 
 [
 Invalid(d)
@@ -1158,7 +1158,7 @@ C = PRESERVED
 
 # 33. Confidence Propagation
 
-For conclusion (C) with load-bearing premises (P_i):
+For conclusion \(C\) with load-bearing premises \(P_i\):
 
 [
 Conf(C)

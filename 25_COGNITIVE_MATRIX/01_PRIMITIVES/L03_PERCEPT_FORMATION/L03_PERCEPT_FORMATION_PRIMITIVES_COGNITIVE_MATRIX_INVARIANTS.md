@@ -112,7 +112,7 @@ O_i:S_t^{L03}\rightarrow S_{t+1}^{L03}
 
 be an L03 operator.
 
-For invariant (I_k):
+For invariant \(I_k\):
 
 [
 I_k(S_t)=TRUE
@@ -341,7 +341,7 @@ does not imply:
 P\equiv O
 ]
 
-where (K) may include attention, context, prior state, binding, or other constraints.
+where \(K\) may include attention, context, prior state, binding, or other constraints.
 
 ---
 
@@ -477,7 +477,7 @@ does not by itself prove that the object candidate corresponds to a unique exter
 
 ## L03-INV-010 — Confidence Ceiling
 
-For a percept (P) with load-bearing premises (LB(P)):
+For a percept \(P\) with load-bearing premises (LB(P)):
 
 [
 Conf(P)
@@ -642,7 +642,7 @@ L != M != H
 ## L03-INV-022 — L→M Aggregation Is Not Identity
 
 [
-X_M=A_{L\rightarrow M}(X_L)
+X_M=A_{L\rightarrow M}\(X_L\)
 ]
 
 does not establish:
@@ -660,10 +660,10 @@ Source-aligned.
 ## L03-INV-023 — M→H Aggregation Is Not Global Truth
 
 [
-X_H=A_{M\rightarrow H}(X_M)
+X_H=A_{M\rightarrow H}\(X_M\)
 ]
 
-does not establish that (X_H) is a complete or externally true scene/world state.
+does not establish that \(X_H\) is a complete or externally true scene/world state.
 
 ---
 

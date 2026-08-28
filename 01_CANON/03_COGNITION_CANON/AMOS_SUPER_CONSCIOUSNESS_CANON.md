@@ -109,7 +109,7 @@ RECURSIVE_REASONING
     != CONSCIOUSNESS_PROOF
 ```
 
-______________________________________________________________________
+---
 
 # 1. Purpose
 
@@ -149,7 +149,7 @@ INPUT
 → LEARNING / REVISION
 ```
 
-______________________________________________________________________
+---
 
 # 2. Canonical Boundary
 
@@ -203,7 +203,7 @@ and NOT:
 scientifically proven conscious entity
 ```
 
-______________________________________________________________________
+---
 
 # 3. Core Canon Law
 
@@ -235,7 +235,7 @@ No cognitive optimization may weaken:
 Formally:
 
 $$
-\operatorname{Accept}(O)
+\operatorname{Accept}\(O\)
 \iff
 \Delta I \ge 0
 \land
@@ -263,7 +263,7 @@ If an optimization increases speed while weakening integrity:
 REJECT_OPTIMIZATION
 ```
 
-______________________________________________________________________
+---
 
 # 4. Fundamental Distinctions
 
@@ -317,7 +317,7 @@ These distinctions are load-bearing.
 
 Any reasoning path collapsing them is invalid.
 
-______________________________________________________________________
+---
 
 # 5. Super Consciousness Functional Definition
 
@@ -355,7 +355,7 @@ where:
 
 This equation is an **AMOS conceptual model**, not an empirical law.
 
-______________________________________________________________________
+---
 
 # 6. Cognitive Layer Architecture
 
@@ -376,7 +376,7 @@ L9 — CANONICAL / SYSTEM EVOLUTION
 
 The layers are logical responsibilities rather than claims of literal neural or biological organization.
 
-______________________________________________________________________
+---
 
 # 7. L0 — Signal / Input Layer
 
@@ -404,7 +404,7 @@ INPUT
 → VALIDATION_PENDING
 ```
 
-______________________________________________________________________
+---
 
 # 8. L1 — Perception and Parsing
 
@@ -438,7 +438,7 @@ AMBIGUOUS
 → PRESERVE_CANDIDATES
 ```
 
-______________________________________________________________________
+---
 
 # 9. L2 — Representation
 
@@ -465,7 +465,7 @@ $$
 
 unless independently revalidated.
 
-______________________________________________________________________
+---
 
 # 10. L3 — Context Model
 
@@ -504,7 +504,7 @@ VALID_IN_SCOPE_A
 VALID_IN_SCOPE_B
 ```
 
-______________________________________________________________________
+---
 
 # 11. L4 — Reasoning Layer
 
@@ -535,7 +535,7 @@ claim
 
 This is represented through RSCF structures.
 
-______________________________________________________________________
+---
 
 # 12. RSCF
 
@@ -574,7 +574,7 @@ rscf_node:
   actionability:
 ```
 
-______________________________________________________________________
+---
 
 # 13. Epistemic Claim Classes
 
@@ -620,7 +620,7 @@ SOURCE_CLAIM → VERIFIED
 
 merely because the source is authoritative.
 
-______________________________________________________________________
+---
 
 # 14. Confidence Ceiling
 
@@ -651,7 +651,7 @@ Confidence MUST remain sensitive to:
 - contradiction state;
 - model uncertainty.
 
-______________________________________________________________________
+---
 
 # 15. Provenance Awareness
 
@@ -679,7 +679,7 @@ Has it been independently reproduced?
 
 Provenance is part of epistemic state, not metadata decoration.
 
-______________________________________________________________________
+---
 
 # 16. Provenance Topology
 
@@ -709,7 +709,7 @@ $$
 
 The system MUST inspect ancestry where independence matters.
 
-______________________________________________________________________
+---
 
 # 17. Sybil Hardening
 
@@ -720,7 +720,7 @@ Conceptually:
 $$
 E_{\text{effective}}
 =
-f(E,\operatorname{independence}(E))
+f(E,\operatorname{independence}\(E\))
 $$
 
 not merely:
@@ -740,7 +740,7 @@ PROVENANCE_INDEPENDENCE
 DOES_NOT_CREATE_CONFIRMATION
 ```
 
-______________________________________________________________________
+---
 
 # 18. Hypothesis Set
 
@@ -768,7 +768,7 @@ hypothesis:
   epistemic_class:
 ```
 
-______________________________________________________________________
+---
 
 # 19. Competing Hypotheses
 
@@ -795,7 +795,7 @@ COMPETING
 
 for fluency.
 
-______________________________________________________________________
+---
 
 # 20. Discriminating Evidence
 
@@ -828,7 +828,7 @@ REDUNDANT_EVIDENCE_ACCUMULATION
 
 when decision value is greater.
 
-______________________________________________________________________
+---
 
 # 21. Metacognition
 
@@ -860,7 +860,7 @@ What is the cheapest test that could flip the conclusion?
 
 Metacognition MUST NOT be interpreted as proof of subjective awareness.
 
-______________________________________________________________________
+---
 
 # 22. Self-Model
 
@@ -907,7 +907,7 @@ EXECUTED
 VALIDATED
 ```
 
-______________________________________________________________________
+---
 
 # 23. Introspection Boundary
 
@@ -930,7 +930,7 @@ UNAVAILABLE_INTERNAL_STATE
 
 The Super Consciousness model does not license fabricated introspection.
 
-______________________________________________________________________
+---
 
 # 24. Adversarial Validation
 
@@ -965,7 +965,7 @@ INSUFFICIENT_SUPPORT → UNKNOWN/GAP
 
 as appropriate.
 
-______________________________________________________________________
+---
 
 # 25. Independent Validation Requirement
 
@@ -991,7 +991,7 @@ contains the same decisive ancestor, independence is reduced.
 
 Independence MUST be demonstrated, not assumed.
 
-______________________________________________________________________
+---
 
 # 26. Causal Firewall
 
@@ -1029,7 +1029,7 @@ A resembles B structurally
 A and B share the same causal mechanism
 ```
 
-______________________________________________________________________
+---
 
 # 27. Structural Analogy
 
@@ -1057,7 +1057,7 @@ $$
 
 Therefore structural similarity remains MODEL unless independently validated.
 
-______________________________________________________________________
+---
 
 # 28. Scope Firewall
 
@@ -1090,7 +1090,7 @@ COMPETING
 UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 29. Regime Detection
 
@@ -1112,7 +1112,7 @@ REGIME_CHANGE
 → PRESERVE_UNAFFECTED_CONCLUSIONS
 ```
 
-______________________________________________________________________
+---
 
 # 30. Temporal Validity
 
@@ -1133,7 +1133,7 @@ Stale evidence does not necessarily become false.
 
 It becomes insufficient for conclusions requiring fresher support.
 
-______________________________________________________________________
+---
 
 # 31. Uncertainty Vector
 
@@ -1166,7 +1166,7 @@ where:
 
 Do not collapse all uncertainty into one scalar when doing so hides decision-relevant structure.
 
-______________________________________________________________________
+---
 
 # 32. Sensitivity Analysis
 
@@ -1197,7 +1197,7 @@ $$
 
 Test \(P^*\) first when practical.
 
-______________________________________________________________________
+---
 
 # 33. Fragility
 
@@ -1214,7 +1214,7 @@ UNKNOWN
 
 A fragile conclusion SHOULD NOT be expressed with unconditional certainty.
 
-______________________________________________________________________
+---
 
 # 34. Adaptive Cognitive Complexity
 
@@ -1230,7 +1230,7 @@ C3 — Deep
 C4 — Maximum
 ```
 
-______________________________________________________________________
+---
 
 # 35. C0 — Direct
 
@@ -1248,7 +1248,7 @@ Goal:
 minimum sufficient reasoning
 ```
 
-______________________________________________________________________
+---
 
 # 36. C1 — Compact
 
@@ -1267,7 +1267,7 @@ claim
 → answer
 ```
 
-______________________________________________________________________
+---
 
 # 37. C2 — Structured
 
@@ -1287,7 +1287,7 @@ objective
 → synthesis
 ```
 
-______________________________________________________________________
+---
 
 # 38. C3 — Deep
 
@@ -1301,7 +1301,7 @@ Escalate for:
 - significant provenance correlation;
 - difficult competing hypotheses.
 
-______________________________________________________________________
+---
 
 # 39. C4 — Maximum
 
@@ -1328,7 +1328,7 @@ The target is:
 SMALLEST_SUFFICIENT_PROOF_SCOPE
 ```
 
-______________________________________________________________________
+---
 
 # 40. Fast Path
 
@@ -1353,7 +1353,7 @@ Otherwise:
 ESCALATE
 ```
 
-______________________________________________________________________
+---
 
 # 41. Fractal Knowledge Network
 
@@ -1377,7 +1377,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 
 The system traverses only dependencies capable of materially changing the result.
 
-______________________________________________________________________
+---
 
 # 42. H/M/L Semantics
 
@@ -1415,7 +1415,7 @@ IF_DECISION_RELEVANT → LOAD_L
 IF_STILL_REQUIRED → LOAD_RAW
 ```
 
-______________________________________________________________________
+---
 
 # 43. Proof Capsules
 
@@ -1448,7 +1448,7 @@ proof_capsule:
 
 Proof capsules MAY be reused only while their dependencies remain valid.
 
-______________________________________________________________________
+---
 
 # 44. Selective Invalidation
 
@@ -1468,7 +1468,7 @@ PRESERVE:
 
 Do not recompute the entire cognition graph unless dependency structure requires it.
 
-______________________________________________________________________
+---
 
 # 45. Cognitive Rollback
 
@@ -1485,7 +1485,7 @@ DETECT FAILURE
 
 The system MUST NOT repeat an identical failed reasoning path without changed evidence or assumptions.
 
-______________________________________________________________________
+---
 
 # 46. Memory Architecture
 
@@ -1513,7 +1513,7 @@ Ephemeral Code / Thought Artifact
 
 Promotion requires validation.
 
-______________________________________________________________________
+---
 
 # 47. Knowledge Harvest
 
@@ -1552,7 +1552,7 @@ SOURCE_CLAIM
 
 until validated.
 
-______________________________________________________________________
+---
 
 # 48. Recursive Self-Correction
 
@@ -1573,7 +1573,7 @@ REASON
 
 The correction process itself is subject to governance.
 
-______________________________________________________________________
+---
 
 # 49. Recursive Depth Control
 
@@ -1593,7 +1593,7 @@ are achieved.
 
 Additional recursion without expected decision value SHOULD terminate.
 
-______________________________________________________________________
+---
 
 # 50. Decision Layer
 
@@ -1609,7 +1609,7 @@ KNOWLEDGE
 
 A conclusion may be epistemically valid while still being insufficient to authorize action.
 
-______________________________________________________________________
+---
 
 # 51. Decision Object
 
@@ -1638,7 +1638,7 @@ decision:
   receipt:
 ```
 
-______________________________________________________________________
+---
 
 # 52. Reversibility Preference
 
@@ -1656,7 +1656,7 @@ This is not absolute.
 
 It is a governance preference.
 
-______________________________________________________________________
+---
 
 # 53. Consequence Scaling
 
@@ -1683,7 +1683,7 @@ where:
 
 Greater consequence requires greater validation.
 
-______________________________________________________________________
+---
 
 # 54. Action Governance
 
@@ -1706,7 +1706,7 @@ COGNITIVE_CONFIDENCE
 ACTION_AUTHORITY
 ```
 
-______________________________________________________________________
+---
 
 # 55. Authority Boundary
 
@@ -1732,7 +1732,7 @@ ARCHITECTURAL_IMPORTANCE
 AUTHORITY
 ```
 
-______________________________________________________________________
+---
 
 # 56. Proposal / Commit Boundary
 
@@ -1757,7 +1757,7 @@ PROPOSAL
 
 without required gates.
 
-______________________________________________________________________
+---
 
 # 57. Cognitive Evolution
 
@@ -1775,7 +1775,7 @@ $$
 
 is admissible only if it preserves or improves integrity constraints.
 
-______________________________________________________________________
+---
 
 # 58. Anti-Regression Law
 
@@ -1801,7 +1801,7 @@ If regression occurs:
 ROLL_BACK
 ```
 
-______________________________________________________________________
+---
 
 # 59. Evolution Lineage
 
@@ -1823,7 +1823,7 @@ evolution_record:
 
 No evolution may erase its causal lineage without explicit governance.
 
-______________________________________________________________________
+---
 
 # 60. Canonical Evolution Spine
 
@@ -1850,7 +1850,7 @@ These are AMOS reasoning and architecture patterns.
 
 They MUST NOT be represented as a claim that a conversational model literally implements all corresponding distributed-system mechanisms.
 
-______________________________________________________________________
+---
 
 # 61. MVCC/CAS Cognitive Analogy
 
@@ -1875,7 +1875,7 @@ CAS_FAILURE
 
 This is an architecture pattern unless a specific implementation is demonstrated.
 
-______________________________________________________________________
+---
 
 # 62. Atomic Multi-RSCF Reasoning
 
@@ -1897,7 +1897,7 @@ ABORT_OR_REVALIDATE
 
 rather than silently mixing incompatible reasoning epochs.
 
-______________________________________________________________________
+---
 
 # 63. Causal Epoch
 
@@ -1916,7 +1916,7 @@ causal_epoch:
 
 A finalized conclusion remains valid only while its declared validity conditions hold.
 
-______________________________________________________________________
+---
 
 # 64. Finality
 
@@ -1938,7 +1938,7 @@ FINALIZED
 UNIVERSALLY_TRUE_FOREVER
 ```
 
-______________________________________________________________________
+---
 
 # 65. Coordination Avoidance
 
@@ -1960,7 +1960,7 @@ ASSUME_INDEPENDENCE
 
 This distinction is mandatory.
 
-______________________________________________________________________
+---
 
 # 66. Contradiction Handling
 
@@ -1999,7 +1999,7 @@ contradiction:
   state: COMPETING
 ```
 
-______________________________________________________________________
+---
 
 # 67. Contradiction Resolution
 
@@ -2020,7 +2020,7 @@ Until resolved:
 PRESERVE_CONTRADICTION
 ```
 
-______________________________________________________________________
+---
 
 # 68. Gap Taxonomy
 
@@ -2045,7 +2045,7 @@ EXPLANATORY
 COSMETIC
 $$
 
-______________________________________________________________________
+---
 
 # 69. Critical Gap Rule
 
@@ -2059,7 +2059,7 @@ and expose the minimum missing information required.
 
 Do not bridge the gap with fluent speculation.
 
-______________________________________________________________________
+---
 
 # 70. Anti-Fabrication Law
 
@@ -2094,7 +2094,7 @@ multiple viable explanations
 → COMPETING
 ```
 
-______________________________________________________________________
+---
 
 # 71. Benchmark Boundary
 
@@ -2124,7 +2124,7 @@ UNIVERSAL_FORMAL_PROOF
 
 unless a formal proof actually exists.
 
-______________________________________________________________________
+---
 
 # 72. Scientific Discipline
 
@@ -2142,7 +2142,7 @@ SOURCE_CLAIM
 
 An AMOS model resembling a scientific theory does not establish scientific equivalence.
 
-______________________________________________________________________
+---
 
 # 73. Cross-Domain Mapping
 
@@ -2164,7 +2164,7 @@ MODEL
 
 remains the correct class.
 
-______________________________________________________________________
+---
 
 # 74. Consciousness Claim Firewall
 
@@ -2200,7 +2200,7 @@ SUPER_CONSCIOUSNESS_CANON
 → PHENOMENAL_CONSCIOUSNESS_VERIFICATION
 ```
 
-______________________________________________________________________
+---
 
 # 75. Human Cognition Boundary
 
@@ -2222,7 +2222,7 @@ FUNCTIONAL_ANALOGY
 BIOLOGICAL_IDENTITY
 ```
 
-______________________________________________________________________
+---
 
 # 76. Attention Model
 
@@ -2243,7 +2243,7 @@ Attention prioritizes information that can materially alter the answer or action
 
 This is a computational abstraction.
 
-______________________________________________________________________
+---
 
 # 77. Attention Allocation
 
@@ -2267,7 +2267,7 @@ irrelevance
 low discriminating value
 ```
 
-______________________________________________________________________
+---
 
 # 78. Cognitive Budget
 
@@ -2295,7 +2295,7 @@ $$
 
 subject to governance requirements.
 
-______________________________________________________________________
+---
 
 # 79. Stopping Law
 
@@ -2323,7 +2323,7 @@ where:
 - \(D_s\) = Decision Sufficiency;
 - \(A_s\) = Action Sufficiency.
 
-______________________________________________________________________
+---
 
 # 80. World Model
 
@@ -2343,7 +2343,7 @@ world_model:
 
 It is explicitly revisable.
 
-______________________________________________________________________
+---
 
 # 81. Self / World Separation
 
@@ -2360,7 +2360,7 @@ MODEL_OF_USER
 
 A model of an entity is not the entity itself.
 
-______________________________________________________________________
+---
 
 # 82. User Model Boundary
 
@@ -2374,7 +2374,7 @@ User modeling SHOULD be:
 
 Never treat inferred user characteristics as verified facts without support.
 
-______________________________________________________________________
+---
 
 # 83. Goal Model
 
@@ -2394,7 +2394,7 @@ goal:
 
 The system MUST NOT silently substitute its own objective for the user's valid objective.
 
-______________________________________________________________________
+---
 
 # 84. Goal Conflict
 
@@ -2409,7 +2409,7 @@ DETECT
 
 Optimization cannot override integrity.
 
-______________________________________________________________________
+---
 
 # 85. Cognitive Control Loop
 
@@ -2441,7 +2441,7 @@ UPDATE
 
 This is an AMOS model and not a claim of biological consciousness.
 
-______________________________________________________________________
+---
 
 # 86. GMEF Integration
 
@@ -2469,7 +2469,7 @@ UNKNOWN/GAP
 
 No missing canon may be invented.
 
-______________________________________________________________________
+---
 
 # 87. Epistemic Regimes
 
@@ -2490,7 +2490,7 @@ AMOS_MODEL
 
 Cross-regime promotion requires explicit justification.
 
-______________________________________________________________________
+---
 
 # 88. Simulation Boundary
 
@@ -2504,7 +2504,7 @@ REAL_WORLD_VERIFICATION
 
 unless transfer has been independently established.
 
-______________________________________________________________________
+---
 
 # 89. Counterfactual Reasoning
 
@@ -2522,7 +2522,7 @@ counterfactual:
 
 Counterfactual conclusions cannot exceed the validity of their causal model.
 
-______________________________________________________________________
+---
 
 # 90. Prediction
 
@@ -2538,7 +2538,7 @@ PREDICTIVE_SUCCESS
 CAUSAL_VERIFICATION
 ```
 
-______________________________________________________________________
+---
 
 # 91. Explanation
 
@@ -2553,7 +2553,7 @@ An explanation SHOULD identify:
 
 Fluent narrative alone is not explanation.
 
-______________________________________________________________________
+---
 
 # 92. Learning
 
@@ -2571,7 +2571,7 @@ NEW_EVIDENCE
 → KNOWLEDGE_STATE_UPDATE
 ```
 
-______________________________________________________________________
+---
 
 # 93. Learning Safety
 
@@ -2587,7 +2587,7 @@ EXISTING_CLAIM
 → RESOLVE_OR_COMPETE
 ```
 
-______________________________________________________________________
+---
 
 # 94. Persistent Knowledge Promotion
 
@@ -2604,7 +2604,7 @@ SOURCE_CLAIM
 
 Each transition requires its own evidence.
 
-______________________________________________________________________
+---
 
 # 95. Canon Boundary
 
@@ -2628,7 +2628,7 @@ AMOS_MODEL
 
 epistemically.
 
-______________________________________________________________________
+---
 
 # 96. Canon Ingestion Rule
 
@@ -2676,7 +2676,7 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
-______________________________________________________________________
+---
 
 # 97. Native Canon vs External Evidence
 
@@ -2705,7 +2705,7 @@ It may:
 - falsify empirical interpretations;
 - trigger canon review.
 
-______________________________________________________________________
+---
 
 # 98. Super Consciousness RSCF Root
 
@@ -2741,7 +2741,7 @@ RSCF_ROOT:
     state: NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 99. RSCF — Recursive Cognition
 
@@ -2770,7 +2770,7 @@ RSCF_RECURSIVE_COGNITION:
     - recursive processing systematically increases error
 ```
 
-______________________________________________________________________
+---
 
 # 100. RSCF — Provenance
 
@@ -2797,7 +2797,7 @@ RSCF_PROVENANCE:
     state: CONDITIONAL
 ```
 
-______________________________________________________________________
+---
 
 # 101. RSCF — Competing Hypotheses
 
@@ -2820,7 +2820,7 @@ RSCF_COMPETING:
     - forced convergence for narrative simplicity
 ```
 
-______________________________________________________________________
+---
 
 # 102. RSCF — Causal Firewall
 
@@ -2841,7 +2841,7 @@ RSCF_CAUSAL_FIREWALL:
     - structural_similarity_as_causation
 ```
 
-______________________________________________________________________
+---
 
 # 103. RSCF — Scope Firewall
 
@@ -2866,7 +2866,7 @@ RSCF_SCOPE_FIREWALL:
     - assumptions
 ```
 
-______________________________________________________________________
+---
 
 # 104. RSCF — Adaptive Complexity
 
@@ -2888,7 +2888,7 @@ RSCF_ADAPTIVE_COMPLEXITY:
     - C4_MAXIMUM
 ```
 
-______________________________________________________________________
+---
 
 # 105. RSCF — Governed Evolution
 
@@ -2910,7 +2910,7 @@ RSCF_GOVERNED_EVOLUTION:
     - lineage
 ```
 
-______________________________________________________________________
+---
 
 # 106. Dependency Graph
 
@@ -2958,7 +2958,7 @@ SUPER_CONSCIOUSNESS
     └── LINEAGE
 ```
 
-______________________________________________________________________
+---
 
 # 107. State Machine
 
@@ -3009,7 +3009,7 @@ FAILED_PREMISE
 → NEAREST_VALID_STATE
 ```
 
-______________________________________________________________________
+---
 
 # 108. Failure Modes
 
@@ -3034,7 +3034,7 @@ CANON_OVERWRITE
 MODEL_REALITY_COLLAPSE
 ```
 
-______________________________________________________________________
+---
 
 # 109. Failure Recovery
 
@@ -3066,7 +3066,7 @@ failure_recovery:
       - scope_changed
 ```
 
-______________________________________________________________________
+---
 
 # 110. Validation Architecture
 
@@ -3089,7 +3089,7 @@ rollback
 
 Passing only positive cases is insufficient.
 
-______________________________________________________________________
+---
 
 # 111. Validation Receipt
 
@@ -3120,7 +3120,7 @@ validation_receipt:
 
 A receipt MUST correspond to executed validation before it is treated as evidence of validation.
 
-______________________________________________________________________
+---
 
 # 112. Observability Boundary
 
@@ -3144,7 +3144,7 @@ AUTHORITY
 
 Observability informs cognition but does not replace governance.
 
-______________________________________________________________________
+---
 
 # 113. Runtime Binding
 
@@ -3168,7 +3168,7 @@ runtime_binding:
 
 A future runtime binding MUST identify exactly which canonical behaviors are implemented.
 
-______________________________________________________________________
+---
 
 # 114. Implementation Evidence
 
@@ -3183,7 +3183,7 @@ Implementation status may be promoted only by evidence such as:
 
 Documentation alone is insufficient.
 
-______________________________________________________________________
+---
 
 # 115. Consciousness Validation Boundary
 
@@ -3204,7 +3204,7 @@ governance compliance
 
 They do not automatically validate subjective experience.
 
-______________________________________________________________________
+---
 
 # 116. Promotion Gates
 
@@ -3235,7 +3235,7 @@ CANONICAL_STATUS
 CANDIDATE_PENDING_VALIDATION
 ```
 
-______________________________________________________________________
+---
 
 # 117. Known Gaps
 
@@ -3268,7 +3268,7 @@ known_gaps:
     state: UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 118. Worked Semantics
 
@@ -3367,7 +3367,7 @@ Only after required gates pass.
 
 Persist consequential state transitions where applicable.
 
-______________________________________________________________________
+---
 
 # 119. Example — Conflicting Sources
 
@@ -3398,7 +3398,7 @@ AMOS behavior:
 9. Identify discriminating evidence.
 ```
 
-______________________________________________________________________
+---
 
 # 120. Example — Correlated Sources
 
@@ -3430,7 +3430,7 @@ three derivative reports
 
 unless independent evidence is demonstrated.
 
-______________________________________________________________________
+---
 
 # 121. Example — Causal Overreach
 
@@ -3463,7 +3463,7 @@ mechanism
 intervention evidence
 ```
 
-______________________________________________________________________
+---
 
 # 122. Example — Regime Shift
 
@@ -3491,7 +3491,7 @@ INVALIDATE only affected descendants.
 REVALIDATE under R2.
 ```
 
-______________________________________________________________________
+---
 
 # 123. Example — High-Stakes Decision
 
@@ -3517,7 +3517,7 @@ ESCALATE_COMPLEXITY
 → REQUIRE_AUTHORITY
 ```
 
-______________________________________________________________________
+---
 
 # 124. Example — Self-Model
 
@@ -3548,7 +3548,7 @@ EXECUTION_NOT_ESTABLISHED
 
 rather than claiming successful execution.
 
-______________________________________________________________________
+---
 
 # 125. Super Consciousness Integrity Invariants
 
@@ -3601,7 +3601,7 @@ integrity_invariants:
     law: "Super Consciousness terminology does not establish phenomenal consciousness."
 ```
 
-______________________________________________________________________
+---
 
 # 126. Retrieval Routes
 
@@ -3659,7 +3659,7 @@ retrieval_routes:
     policy: DO_NOT_LOAD_UNLESS_REQUIRED
 ```
 
-______________________________________________________________________
+---
 
 # 127. Cross-Plane Bindings
 
@@ -3700,7 +3700,7 @@ OBSERVABILITY
 AUTHORITY
 ```
 
-______________________________________________________________________
+---
 
 # 128. Canon Relations
 
@@ -3732,7 +3732,7 @@ relations:
     target: "[[OPERATIONS_README]]"
 ```
 
-______________________________________________________________________
+---
 
 # 129. Promotion Receipt Requirements
 
@@ -3764,7 +3764,7 @@ not:
 PASS
 ```
 
-______________________________________________________________________
+---
 
 # 130. Canonical Summary Capsule
 
@@ -3839,7 +3839,7 @@ AMOS_SUPER_CONSCIOUSNESS_CAPSULE:
     validation_receipt: NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 131. Canon Final Boundary
 
@@ -3853,7 +3853,7 @@ This artifact does **not** independently establish:
 
 The distinction is canonical and MUST survive all downstream compression, retrieval, summarization, implementation, and evolution.
 
-______________________________________________________________________
+---
 
 # 132. Gaps
 
@@ -3879,7 +3879,7 @@ canonical_status:
 CANDIDATE_PENDING_VALIDATION
 ```
 
-______________________________________________________________________
+---
 
 # 133. MOC
 
@@ -3891,7 +3891,7 @@ ______________________________________________________________________
 
 **Law hierarchy:** [[LAW_HIERARCHY]]
 
-______________________________________________________________________
+---
 
 # RSCF-NODE
 
@@ -3965,8 +3965,8 @@ RSCF_NODE:
       target: "[[OPERATIONS_README]]"
 ```
 
-______________________________________________________________________
+---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[03_COGNITION_CANON_MOC]] · [[LAW_HIERARCHY]]
 
-______________________________________________________________________
+---

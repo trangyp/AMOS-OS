@@ -2832,7 +2832,7 @@ Undefined foundational terms block formal closure.
 
 # 91. Gap Propagation
 
-If gap (g) is load-bearing for claim (C):
+If gap (g) is load-bearing for claim \(C\):
 
 [
 \boxed{
@@ -3374,7 +3374,7 @@ testing_gaps:
 
 # 108. Gap Prioritization Equation
 
-Let gap (g_i) have:
+Let gap \(g_i\) have:
 
 ```text
 I_i = decision impact
@@ -3732,7 +3732,7 @@ gap closure preserves version lineage
 
 # 116. Completion Equation
 
-For declared scope (S), let required load-bearing requirements be (R_S).
+For declared scope \(S\), let required load-bearing requirements be \(R_S\).
 
 Then:
 

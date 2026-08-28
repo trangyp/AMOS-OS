@@ -17,6 +17,11 @@ tags:
 - canon-group/tech-ai
 - topic/knowledge-management
 - rscf/epistemic
+- rscf/M-memory
+- rscf/K-compression
+- rscf/T-topology
+- rscf/C-constraint
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.0.0
 ---
+
 
 
 # Obsidian Plugin Auto Tag

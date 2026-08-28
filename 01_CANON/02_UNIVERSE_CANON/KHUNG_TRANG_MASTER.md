@@ -2383,7 +2383,7 @@ Promotion beyond source-grounded AMOS_MODEL status requires:
 
 # 53. Worked Semantics — Ontological Admission
 
-Given candidate semantic claim \(M^\*\):
+Given candidate semantic claim \(M^*\):
 
 ### Step 1 — Resolve perception basis
 
@@ -2440,7 +2440,7 @@ only within valid constraints and authority.
 Candidate:
 
 $$
-M^\*
+M^*
 $$
 
 is admissible only if it remains compatible with the load-bearing constraint closure.
@@ -2448,7 +2448,7 @@ is admissible only if it remains compatible with the load-bearing constraint clo
 Thus:
 
 $$
-M^\*
+M^*
 \not\models C
 \Rightarrow
 REJECT/HOLD
@@ -2697,7 +2697,7 @@ Until discriminating evidence exists, incompatible interpretations remain `COMPE
 # 59. Proof Capsule
 
 ```yaml
-KHUNG_TRANG_MASTER_PROOF_CAPSULE:
+KHUNG_TRANG_MASTER_[[L19_PROOF_CAPSULE]]:
 
   claim:
 

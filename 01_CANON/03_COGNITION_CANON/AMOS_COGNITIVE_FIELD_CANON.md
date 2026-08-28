@@ -181,7 +181,7 @@ System:
 
 **AMOS OS**
 
-______________________________________________________________________
+---
 
 # 1. Governing Integrity Boundary
 
@@ -261,7 +261,7 @@ POPULATED COGNITIVE FIELD CANON
 
 These field-specific distinctions are integrity-preserving derived constraints pending native-canon evidence.
 
-______________________________________________________________________
+---
 
 # 2. Strongest Supported Claim
 
@@ -306,7 +306,7 @@ UNKNOWN/GAP
 
 beyond its presence in the framework/artifact name.
 
-______________________________________________________________________
+---
 
 # 3. Artifact Identity
 
@@ -353,7 +353,7 @@ amos_cognitive_field_canon_identity:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 4. Identifier Consistency
 
@@ -404,7 +404,7 @@ TEXTUAL IDENTIFIER MATCH
 VALIDATED CANON IDENTITY RESOLUTION
 ```
 
-______________________________________________________________________
+---
 
 # 5. Cognitive-Field Term Firewall
 
@@ -454,7 +454,7 @@ Current native meaning:
 UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 6. Field-vs-Physical-Field Firewall
 
@@ -476,7 +476,7 @@ PHYSICAL ONTOLOGY
 
 A physical-field interpretation requires appropriately typed independent evidence.
 
-______________________________________________________________________
+---
 
 # 7. Field-vs-Mathematical-Field Firewall
 
@@ -508,7 +508,7 @@ ALGEBRAIC FIELD
 
 or any other formal structure merely from terminology.
 
-______________________________________________________________________
+---
 
 # 8. Field-vs-Neural-Field Firewall
 
@@ -524,7 +524,7 @@ or equivalence to neural-field theories.
 
 That would require separate native and empirical evidence.
 
-______________________________________________________________________
+---
 
 # 9. Field-vs-Consciousness Firewall
 
@@ -544,7 +544,7 @@ COGNITION
 CONSCIOUSNESS
 ```
 
-______________________________________________________________________
+---
 
 # 10. Field-vs-Information Firewall
 
@@ -560,7 +560,7 @@ unless native canon defines it that way.
 
 Structural or semantic resemblance is insufficient.
 
-______________________________________________________________________
+---
 
 # 11. Field-vs-State-Space Firewall
 
@@ -584,7 +584,7 @@ STATE SPACE S
 
 Representation and ontology must remain distinct.
 
-______________________________________________________________________
+---
 
 # 12. Purpose
 
@@ -634,7 +634,7 @@ VALIDATION
 PROMOTION
 ```
 
-______________________________________________________________________
+---
 
 # 13. Non-Purpose
 
@@ -663,7 +663,7 @@ This placeholder MUST NOT be used to claim:
 - runtime enforcement;
 - or validated implementation.
 
-______________________________________________________________________
+---
 
 # 14. Canon-Ingestion Rule
 
@@ -713,7 +713,7 @@ AMOS_CANON_INGESTION_RULE:
       - NEVER_INVENT_CANON
 ```
 
-______________________________________________________________________
+---
 
 # 15. Contract Discipline
 
@@ -756,7 +756,7 @@ cognitive_field_contract:
     ROLLBACK_BASIN_REQUIRED
 ```
 
-______________________________________________________________________
+---
 
 # 16. Native Cognitive Field Definition Schema
 
@@ -856,7 +856,7 @@ native_statement = UNKNOWN/GAP
 field_type = UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 17. Field-Type Slot
 
@@ -894,7 +894,7 @@ cognitive_field_type:
     NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 18. Competing Field Interpretations
 
@@ -936,7 +936,7 @@ Current state:
 COMPETING / UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 19. Cheapest Discriminating Evidence
 
@@ -974,7 +974,7 @@ WHAT IS ITS RELATION TO
 AMOS COGNITION MASTER CANON?
 ```
 
-______________________________________________________________________
+---
 
 # 20. Native Field Ontology Slot
 
@@ -1014,7 +1014,7 @@ cognitive_field_ontology:
 
 No ontology is established.
 
-______________________________________________________________________
+---
 
 # 21. Boundary Slot
 
@@ -1046,7 +1046,7 @@ cognitive_field_boundary:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 22. State Slot
 
@@ -1078,7 +1078,7 @@ cognitive_field_state:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 23. Variable Registry Slot
 
@@ -1115,7 +1115,7 @@ cognitive_field_variables:
 
 No field variable may be invented merely to complete the schema.
 
-______________________________________________________________________
+---
 
 # 24. Equation Slot
 
@@ -1150,7 +1150,7 @@ cognitive_field_equations:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 25. Equation Firewall
 
@@ -1178,7 +1178,7 @@ MODEL EQUATION
 UNIVERSAL LAW
 ```
 
-______________________________________________________________________
+---
 
 # 26. Dynamics Slot
 
@@ -1215,7 +1215,7 @@ cognitive_field_dynamics:
 
 No dynamics are established by the placeholder.
 
-______________________________________________________________________
+---
 
 # 27. Dynamics Firewall
 
@@ -1259,7 +1259,7 @@ GRADIENT
 
 unless native definitions explicitly establish these concepts.
 
-______________________________________________________________________
+---
 
 # 28. Interaction Slot
 
@@ -1291,7 +1291,7 @@ cognitive_field_interactions:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 29. Interaction Firewall
 
@@ -1319,7 +1319,7 @@ CORRELATED
 CAUSAL
 ```
 
-______________________________________________________________________
+---
 
 # 30. Measurement Slot
 
@@ -1354,7 +1354,7 @@ cognitive_field_measurement:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 31. Measurement Firewall
 
@@ -1382,7 +1382,7 @@ INTERNAL SCORE
 PHYSICAL QUANTITY
 ```
 
-______________________________________________________________________
+---
 
 # 32. Causal Slot
 
@@ -1417,7 +1417,7 @@ cognitive_field_causality:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 33. Causal Firewall
 
@@ -1447,7 +1447,7 @@ CAUSAL EFFECT
 
 Structural similarity, temporal sequence, shared terminology, or co-occurrence alone do not license causal inference.
 
-______________________________________________________________________
+---
 
 # 34. Cognition Binding Slot
 
@@ -1479,7 +1479,7 @@ cognitive_field_to_cognition:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 35. Cognition-Binding Firewall
 
@@ -1509,7 +1509,7 @@ COGNITION
 
 without native causal evidence.
 
-______________________________________________________________________
+---
 
 # 36. Relation to AMOS Cognition Canon
 
@@ -1566,7 +1566,7 @@ cognitive_field_to_cognition_canon:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 37. Relation to AMOS Cognition Master Canon
 
@@ -1614,7 +1614,7 @@ cognitive_field_to_cognition_master:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 38. Relation Firewall
 
@@ -1642,7 +1642,7 @@ DEPENDENCY
 PARENT OF THIS ARTIFACT
 ```
 
-______________________________________________________________________
+---
 
 # 39. Framework Identity Test
 
@@ -1690,7 +1690,7 @@ COMPETING
 UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 40. Duplicate-Canon Firewall
 
@@ -1714,7 +1714,7 @@ DO_NOT_CREATE_DUPLICATE_CANON
 
 only after framework identity is established.
 
-______________________________________________________________________
+---
 
 # 41. Historical Preservation
 
@@ -1730,7 +1730,7 @@ PRESERVE HERITAGE
 
 A newer field model must not erase historical variants merely because it is newer.
 
-______________________________________________________________________
+---
 
 # 42. Supersession Firewall
 
@@ -1758,7 +1758,7 @@ MORE COMPLEX
 MORE CANONICAL
 ```
 
-______________________________________________________________________
+---
 
 # 43. Source-Class Discipline
 
@@ -1784,7 +1784,7 @@ UNKNOWN_SOURCE
 
 Do not silently promote source classes.
 
-______________________________________________________________________
+---
 
 # 44. External-Research Firewall
 
@@ -1826,7 +1826,7 @@ PSYCHOLOGY
 
 unless explicitly incorporated through canon governance.
 
-______________________________________________________________________
+---
 
 # 45. Empirical Firewall
 
@@ -1850,7 +1850,7 @@ It does not automatically establish:
 EMPIRICALLY VERIFIED FIELD EXISTS IN REALITY
 ```
 
-______________________________________________________________________
+---
 
 # 46. Physical-Claim Validation Boundary
 
@@ -1876,7 +1876,7 @@ FALSIFIERS
 
 The placeholder provides none of these.
 
-______________________________________________________________________
+---
 
 # 47. Biological-Claim Validation Boundary
 
@@ -1890,7 +1890,7 @@ AMOS MODEL
 BIOLOGICAL MECHANISM
 ```
 
-______________________________________________________________________
+---
 
 # 48. Mathematical-Claim Validation Boundary
 
@@ -1902,7 +1902,7 @@ FORMULA-LIKE NOTATION
 MATHEMATICAL THEOREM
 ```
 
-______________________________________________________________________
+---
 
 # 49. Representation Firewall
 
@@ -1924,7 +1924,7 @@ SIMULATION OF FIELD
 EMPIRICAL FIELD
 ```
 
-______________________________________________________________________
+---
 
 # 50. Confidence Ceiling
 
@@ -1937,7 +1937,7 @@ UNLESS INDEPENDENTLY REVALIDATED
 
 Therefore a highly detailed field model built on an uncertain native definition remains bounded by that uncertainty.
 
-______________________________________________________________________
+---
 
 # 51. Provenance Topology
 
@@ -1972,7 +1972,7 @@ AMOS COGNITIVE FIELD CANON
 
 This is a target schema, not recovered substantive canon.
 
-______________________________________________________________________
+---
 
 # 52. Provenance Independence
 
@@ -2000,7 +2000,7 @@ MULTIPLE FIELD DOCUMENTS
 MULTIPLE INDEPENDENT CONFIRMATIONS
 ```
 
-______________________________________________________________________
+---
 
 # 53. Repetition Firewall
 
@@ -2012,7 +2012,7 @@ INDEPENDENT VALIDATION
 
 Especially where files descend from a common master source.
 
-______________________________________________________________________
+---
 
 # 54. Competing Native Definitions
 
@@ -2026,7 +2026,7 @@ until discriminating lineage, scope, regime, or validation evidence exists.
 
 Do not average incompatible ontologies into fluent synthesis.
 
-______________________________________________________________________
+---
 
 # 55. Scope Slot
 
@@ -2067,7 +2067,7 @@ cognitive_field_scope:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 56. Scope Firewall
 
@@ -2095,7 +2095,7 @@ FIELD-LIKE MODEL AT ONE LEVEL
 PHYSICAL FIELD ACROSS LEVELS
 ```
 
-______________________________________________________________________
+---
 
 # 57. Regime Slot
 
@@ -2130,7 +2130,7 @@ cognitive_field_regime:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 58. Regime Firewall
 
@@ -2142,7 +2142,7 @@ VALID @ R2
 
 A field equation or interpretation valid in one AMOS regime cannot silently cross into another.
 
-______________________________________________________________________
+---
 
 # 59. Temporal Slot
 
@@ -2171,7 +2171,7 @@ cognitive_field_temporal_semantics:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 60. Temporal Firewall
 
@@ -2183,7 +2183,7 @@ ARTIFACT TIME
 FIELD TIME
 ```
 
-______________________________________________________________________
+---
 
 # 61. Dependency Slot
 
@@ -2221,7 +2221,7 @@ cognitive_field_dependencies:
     UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 62. Dependency Firewall
 
@@ -2255,7 +2255,7 @@ OBSERVED_BY
 AUTHORIZED_BY
 ```
 
-______________________________________________________________________
+---
 
 # 63. RSCF Binding
 
@@ -2285,7 +2285,7 @@ or:
 EXECUTABLE RSCF FIELD ENGINE EXISTS
 ```
 
-______________________________________________________________________
+---
 
 # 64. H/M/L Binding
 
@@ -2315,7 +2315,7 @@ Current mapping:
 UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 65. Canon-Operation Target Semantics
 
@@ -2345,7 +2345,7 @@ COGNITIVE FIELD DYNAMICS
 
 without native evidence.
 
-______________________________________________________________________
+---
 
 # 66. Admit
 
@@ -2363,7 +2363,7 @@ UNKNOWN/GAP
 FAIL CLOSED
 ```
 
-______________________________________________________________________
+---
 
 # 67. Bind Scope
 
@@ -2383,7 +2383,7 @@ Field-specific values remain:
 UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 68. Authority Check
 
@@ -2407,7 +2407,7 @@ ABILITY TO COMPUTE A FIELD MODEL
 AUTHORITY TO COMMIT CANON
 ```
 
-______________________________________________________________________
+---
 
 # 69. Preconditions
 
@@ -2421,7 +2421,7 @@ before mutation.
 
 A field definition is load-bearing for claims about field variables, dynamics, or equations.
 
-______________________________________________________________________
+---
 
 # 70. Proposal
 
@@ -2439,7 +2439,7 @@ PROPOSED FIELD MODEL
 COMMITTED CANON
 ```
 
-______________________________________________________________________
+---
 
 # 71. Commit or Hold
 
@@ -2453,7 +2453,7 @@ INVALIDATE DEPENDENT DESCENDANTS ONLY
 RECORD RECEIPT
 ```
 
-______________________________________________________________________
+---
 
 # 72. Selective Invalidation
 
@@ -2482,7 +2482,7 @@ AND DESCENDANTS DEPENDENT ON V
 
 Do not invalidate unrelated cognition canon.
 
-______________________________________________________________________
+---
 
 # 73. Failure Recovery
 
@@ -2500,7 +2500,7 @@ PRESERVE UNAFFECTED WORK
 REROUTE WITH CHANGED EVIDENCE
 ```
 
-______________________________________________________________________
+---
 
 # 74. Version Slot
 
@@ -2529,7 +2529,7 @@ cognitive_field_version:
     required
 ```
 
-______________________________________________________________________
+---
 
 # 75. Version Firewall
 
@@ -2553,7 +2553,7 @@ IMPROVED FIELD EQUATION
 
 without validation.
 
-______________________________________________________________________
+---
 
 # 76. MVCC Concept
 
@@ -2585,7 +2585,7 @@ Literal implementation:
 NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 77. CAS Concept
 
@@ -2602,7 +2602,7 @@ NO STALE FIELD-CANON COMMIT
 
 This is an architectural reasoning pattern only.
 
-______________________________________________________________________
+---
 
 # 78. Atomic Multi-RSCF Concept
 
@@ -2636,7 +2636,7 @@ SUCCESS
 
 Literal implementation is not established.
 
-______________________________________________________________________
+---
 
 # 79. Causal Epoch Concept
 
@@ -2658,7 +2658,7 @@ FIELD CANON STATE@E+1
 
 No literal causal-epoch runtime is asserted.
 
-______________________________________________________________________
+---
 
 # 80. Proof-Based Coordination Avoidance
 
@@ -2682,7 +2682,7 @@ NO RESULT-CHANGING EXTERNAL COUPLING
 
 Otherwise escalate.
 
-______________________________________________________________________
+---
 
 # 81. Adversarial Validation
 
@@ -2732,7 +2732,7 @@ OR
 RETURN UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 82. Sensitivity
 
@@ -2765,7 +2765,7 @@ PHYSICALITY
 
 are fragile or unsupported.
 
-______________________________________________________________________
+---
 
 # 83. Uncertainty Vector
 
@@ -2836,7 +2836,7 @@ uncertainty:
     HIGH
 ```
 
-______________________________________________________________________
+---
 
 # 84. Observability Boundary
 
@@ -2864,7 +2864,7 @@ LOGGED
 APPROVED
 ```
 
-______________________________________________________________________
+---
 
 # 85. Kernel Boundary
 
@@ -2888,7 +2888,7 @@ Current:
 NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 86. Control-Plane Boundary
 
@@ -2906,7 +2906,7 @@ TARGET CONTROL-PLANE GATE
 EXECUTABLE FIELD-CANON ENFORCEMENT
 ```
 
-______________________________________________________________________
+---
 
 # 87. Operations Boundary
 
@@ -2924,7 +2924,7 @@ TARGET RECOVERY PATH
 VALIDATED RECOVERY IMPLEMENTATION
 ```
 
-______________________________________________________________________
+---
 
 # 88. Routing Validation Boundary
 
@@ -2940,7 +2940,7 @@ Current:
 NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 89. Authorization Validation Boundary
 
@@ -2956,7 +2956,7 @@ Current:
 NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 90. Promotion Validation Contract
 
@@ -3014,7 +3014,7 @@ RECEIPTS
 EXECUTABLE BINDING IF CLAIMED
 ```
 
-______________________________________________________________________
+---
 
 # 91. Negative Validation Matrix
 
@@ -3096,7 +3096,7 @@ MISSING RECEIPT
 COMPETING FIELD DEFINITIONS HIDDEN
 ```
 
-______________________________________________________________________
+---
 
 # 92. Validation Receipt Target
 
@@ -3212,7 +3212,7 @@ Current:
 NOT_ESTABLISHED
 ```
 
-______________________________________________________________________
+---
 
 # 93. Critical Gap — Native Field Definition
 
@@ -3239,7 +3239,7 @@ gap:
     - native_field_definition
 ```
 
-______________________________________________________________________
+---
 
 # 94. Critical Gap — Field Type
 
@@ -3261,7 +3261,7 @@ gap:
     physical, biological, or other AMOS-native construct.
 ```
 
-______________________________________________________________________
+---
 
 # 95. Critical Gap — Field Architecture
 
@@ -3282,7 +3282,7 @@ gap:
     dynamics, interactions, or equations are established.
 ```
 
-______________________________________________________________________
+---
 
 # 96. Critical Gap — Cognition Relation
 
@@ -3304,7 +3304,7 @@ gap:
     cognition canon family is not established.
 ```
 
-______________________________________________________________________
+---
 
 # 97. Critical Gap — Master Canon Relation
 
@@ -3326,7 +3326,7 @@ gap:
     is established.
 ```
 
-______________________________________________________________________
+---
 
 # 98. Critical Gap — Scope / Regime
 
@@ -3347,7 +3347,7 @@ gap:
     of the Cognitive Field model are not established.
 ```
 
-______________________________________________________________________
+---
 
 # 99. Critical Gap — Executable Binding
 
@@ -3368,7 +3368,7 @@ gap:
     enforcement mechanism is established.
 ```
 
-______________________________________________________________________
+---
 
 # 100. Critical Gap — Validation
 
@@ -3389,7 +3389,7 @@ gap:
     establishes substantive Cognitive Field Canon.
 ```
 
-______________________________________________________________________
+---
 
 # 101. Worked Semantics — Field Label
 
@@ -3418,7 +3418,7 @@ Native field semantics:
 UNKNOWN/GAP
 ```
 
-______________________________________________________________________
+---
 
 # 102. Worked Semantics — Equation
 
@@ -3449,7 +3449,7 @@ F IS UNIVERSAL
 F CAUSES COGNITION
 ```
 
-______________________________________________________________________
+---
 
 # 103. Worked Semantics — Variable
 
@@ -3473,7 +3473,7 @@ EMPIRICALLY MEASURED PHYSICAL QUANTITY
 
 unless measurement evidence exists.
 
-______________________________________________________________________
+---
 
 # 104. Worked Semantics — Similarity
 
@@ -3492,7 +3492,7 @@ AMOS COGNITIVE FIELD
 IS A NEURAL FIELD
 ```
 
-______________________________________________________________________
+---
 
 # 105. Worked Semantics — Causal Claim
 
@@ -3506,7 +3506,7 @@ ASSOCIATION / CORRELATION
 
 unless intervention or appropriately typed causal evidence establishes more.
 
-______________________________________________________________________
+---
 
 # 106. Worked Semantics — Master Canon
 
@@ -3527,7 +3527,7 @@ BOTH ARTIFACTS EXIST IN THE COGNITION CANON FAMILY.
 THEIR SEMANTIC EDGE REQUIRES NATIVE EVIDENCE.
 ```
 
-______________________________________________________________________
+---
 
 # 107. Worked Semantics — Source Correlation
 
@@ -3547,7 +3547,7 @@ ONE ROOT PROVENANCE
 TEN DESCENDANTS.
 ```
 
-______________________________________________________________________
+---
 
 # 108. Worked Semantics — Competing Definitions
 
@@ -3573,7 +3573,7 @@ COMPETING
 
 until discriminating evidence exists.
 
-______________________________________________________________________
+---
 
 # 109. Worked Semantics — Mutation
 
@@ -3589,7 +3589,7 @@ HOLD
 
 not commit.
 
-______________________________________________________________________
+---
 
 # 110. Worked Semantics — Selective Failure
 
@@ -3610,7 +3610,7 @@ AND DEPENDENT DESCENDANTS
 
 Do not invalidate unrelated cognition canon.
 
-______________________________________________________________________
+---
 
 # 111. Cross-Plane Bindings
 
@@ -3648,7 +3648,7 @@ Target integration:
 
 These are target references, not validated executable bindings.
 
-______________________________________________________________________
+---
 
 # 112. Promotion Gate
 
@@ -3697,7 +3697,7 @@ Before promotion:
 - [ ] artifact-specific validation receipt executed;
 - [ ] unresolved critical gaps remain visible.
 
-______________________________________________________________________
+---
 
 # 113. Current Proof Capsule
 
@@ -3818,7 +3818,7 @@ proof_capsule:
     false
 ```
 
-______________________________________________________________________
+---
 
 # 114. Canonical Knowledge Capsule
 
@@ -3925,7 +3925,7 @@ NOT_ESTABLISHED
 
 as appropriate.
 
-______________________________________________________________________
+---
 
 # 115. Canonical Invariants
 
@@ -4041,7 +4041,7 @@ ARTIFACT TIME != FIELD TIME
 ONE FAILED FIELD PREMISE != ALL COGNITION CANON INVALID
 ```
 
-______________________________________________________________________
+---
 
 # 116. Status Matrix
 
@@ -4086,7 +4086,7 @@ ______________________________________________________________________
 | Artifact validation                | NOT_ESTABLISHED            | executed validation receipt      |
 | Empirical validity                 | NOT_ESTABLISHED            | appropriately typed evidence     |
 
-______________________________________________________________________
+---
 
 # 117. Minimum Missing Information
 
@@ -4150,7 +4150,7 @@ NEVER_INVENT_CANON
 
 remains controlling.
 
-______________________________________________________________________
+---
 
 # 118. Final Integrity Rule
 
@@ -4272,15 +4272,15 @@ EXECUTE RECEIPTS
 PROMOTE ONLY AFTER VALIDATION
 ```
 
-______________________________________________________________________
+---
 
 00_ROOT_MOC|AMOS MOC
 
-______________________________________________________________________
+---
 
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[AMOS_COGNITION_CANON]] · [[AMOS_COGNITION_MASTER_CANON]]
 
-______________________________________________________________________
+---
 
 RSCF-NODE
 
@@ -4380,11 +4380,11 @@ RSCF-RELATIONS:
 
 - TARGET_VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-______________________________________________________________________
+---
 
 **MOC:** [[03_COGNITION_CANON_MOC]]
 
-______________________________________________________________________
+---
 
 **Origin Architect / Steward:** Trang Phan
 

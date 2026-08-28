@@ -87,11 +87,11 @@ S_{AMOS}
 
 where:
 
-* (E) = environment state,
-* (O) = observation,
-* (O_t) = typed observation,
-* (O_p) = provenance-bound observation,
-* (O_v) = validated/admissible observation,
+* \(E\) = environment state,
+* \(O\) = observation,
+* \(O_t\) = typed observation,
+* \(O_p\) = provenance-bound observation,
+* \(O_v\) = validated/admissible observation,
 * (S_{AMOS}) = admitted AMOS state.
 
 This equation is an **AMOS MODEL** of the grounding pipeline.
@@ -355,7 +355,7 @@ Conceptually:
 O_t = Observe(E_t,C)
 ]
 
-where (C) identifies the actual observation channel.
+where \(C\) identifies the actual observation channel.
 
 Observation output:
 
@@ -1273,12 +1273,12 @@ I
 
 where:
 
-* (A) = channel availability,
-* (P) = provenance quality,
-* (F) = freshness,
-* (S) = scope compatibility,
-* (V) = validation,
-* (I) = independence.
+* \(A\) = channel availability,
+* \(P\) = provenance quality,
+* \(F\) = freshness,
+* \(S\) = scope compatibility,
+* \(V\) = validation,
+* \(I\) = independence.
 
 This is a diagnostic **AMOS MODEL**, not an empirical universal law.
 
@@ -2283,7 +2283,7 @@ cannot return UNKNOWN/GAP when observation is unavailable
 
 # 67. Confidence Ceiling
 
-For an environment conclusion (C_E):
+For an environment conclusion \(C_E\):
 
 [
 Conf(C_E)

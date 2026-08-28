@@ -18,6 +18,11 @@ tags:
 - topic/canon
 - capability/compilation
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/D-distinction
+- rscf/M-memory
+- rscf/G-relation
+- rscf/type-process
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -29,6 +34,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

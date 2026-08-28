@@ -713,7 +713,7 @@ If transformation `T` changes representation but not semantic authority:
 ```text
 A(H)
   ↓ T(L)
-A'(H)
+A'\(H\)
 ```
 
 The operation can be L while the artifact remains H-applicable.
@@ -3614,7 +3614,7 @@ Copying an H artifact does not downgrade it.
 ```text
 A(H)
 → copy
-→ A'(H)
+→ A'\(H\)
 ```
 
 However, provenance should record the ancestry:

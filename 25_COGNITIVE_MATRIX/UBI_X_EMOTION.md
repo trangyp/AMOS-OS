@@ -94,7 +94,7 @@ $$
 v_t<-0.70\Rightarrow EngageSubstrateRefusal
 $$
 
-This materially resolves the earlier uncertainty around (v_t) and (a_t), but **does not recover the matrix table's missing first trigger variables or Target Plane cells**.
+This materially resolves the earlier uncertainty around \(v_t\) and \(a_t\), but **does not recover the matrix table's missing first trigger variables or Target Plane cells**.
 
 ---
 
@@ -158,7 +158,7 @@ and is source-described as:
 
 `Metabolic activation`.
 
-This resolves the earlier matrix-table ambiguity around (a_t).
+This resolves the earlier matrix-table ambiguity around \(a_t\).
 
 ---
 
@@ -529,7 +529,7 @@ This is a mathematically VERIFIED consequence of the supplied source.
 
 That disjointness applies specifically to:
 
-- the Optimal Flow row's (a_t) component; and
+- the Optimal Flow row's \(a_t\) component; and
 - the Cooling Circuit invariant.
 
 It does not prove that all aspects of Optimal Flow and cooling are
@@ -569,7 +569,7 @@ $$
 d_t=\text{Dominance}
 $$
 
-but supplies no invariant threshold involving (d_t).
+but supplies no invariant threshold involving \(d_t\).
 
 Therefore:
 
@@ -889,7 +889,7 @@ retrieval target.
 
 That dependency is now available.
 
-It resolves (v_t) and (a_t), but not the missing matrix variables
+It resolves \(v_t\) and \(a_t\), but not the missing matrix variables
 or target planes.
 
 Therefore the next smallest sufficient retrieval target becomes:
@@ -943,7 +943,7 @@ should be revalidated against the binding.
 # 42. Cross-Plane Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >
@@ -1228,7 +1228,7 @@ This remains `COMPETING`.
 
 # 48. Dominance Discrimination Test
 
-Because (d_t) is defined but absent from the visible matrix rows, a
+Because \(d_t\) is defined but absent from the visible matrix rows, a
 high-information question for `UBI_EMOTION_BINDING` is whether
 dominance affects:
 
@@ -1302,7 +1302,7 @@ This specification MUST NOT by itself be used to claim:
 
 1. NEI's full expansion is known;
 1. NEI is empirically validated neuroscience;
-1. (v_t), (a_t), and (d_t) are directly measurable biological quantities;
+1. \(v_t\), \(a_t\), and \(d_t\) are directly measurable biological quantities;
 1. their numerical scales correspond to a standard external affective instrument;
 1. the scales are universally calibrated;
 1. `-1` valence has a universal empirical meaning;
@@ -1696,8 +1696,8 @@ EngageSubstrateRefusal
 }
 $$
 
-This specification **resolves the semantic identity of (v_t) and
-(a_t)** from the preceding `UBI_X_EMOTION_MATRIX`.
+This specification **resolves the semantic identity of \(v_t\) and
+\(a_t\)** from the preceding `UBI_X_EMOTION_MATRIX`.
 
 Consequently:
 
@@ -1748,7 +1748,7 @@ $$
 
 are disjoint. Therefore the visible Optimal-Flow arousal condition and
 the Cooling Circuit condition cannot simultaneously hold for the same
-(a_t).
+\(a_t\).
 
 The specification **does not resolve** the three missing first trigger
 variables or the three missing Target Plane cells in

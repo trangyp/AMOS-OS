@@ -18,6 +18,11 @@ tags:
 - topic/sociology
 - capability/language
 - rscf/epistemic
+- rscf/M-memory
+- rscf/G-relation
+- rscf/S-state
+- rscf/C-constraint
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -29,6 +34,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

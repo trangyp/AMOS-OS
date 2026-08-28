@@ -1268,7 +1268,7 @@ uncertainty:
     level: null
 ```
 
-For a percept (P) depending on premises (p_i):
+For a percept \(P\) depending on premises \(p_i\):
 
 [
 Conf(P)

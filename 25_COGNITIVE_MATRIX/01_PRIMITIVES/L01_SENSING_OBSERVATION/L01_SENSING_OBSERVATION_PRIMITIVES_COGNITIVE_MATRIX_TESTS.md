@@ -1016,7 +1016,7 @@ test_uncertainty:
 
 # 22. Confidence Ceiling
 
-For test result (R):
+For test result \(R\):
 
 [
 \boxed{

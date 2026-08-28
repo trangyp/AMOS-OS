@@ -942,7 +942,7 @@ UNKNOWN/GAP
 For operation \(O\):
 
 $$
-Closure^*(O)
+Closure^*\(O\)
 =
 \text{smallest dependency set capable of changing O's validity}
 $$

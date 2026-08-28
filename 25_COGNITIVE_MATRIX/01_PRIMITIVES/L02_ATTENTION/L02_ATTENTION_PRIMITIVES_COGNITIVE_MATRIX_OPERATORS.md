@@ -1649,7 +1649,7 @@ K_{L02}
 O_n\circ O_{n-1}\circ\dots\circ O_1
 ]
 
-where each (O_i) is an admissible L02 operator.
+where each \(O_i\) is an admissible L02 operator.
 
 Kernel validity requires:
 
@@ -2233,7 +2233,7 @@ CURRENT VALID RESULT
 
 # 60. Confidence Ceiling
 
-For operator result (R_O):
+For operator result \(R_O\):
 
 [
 Conf(R_O)
@@ -2241,7 +2241,7 @@ Conf(R_O)
 \min_i Conf(P_i)
 ]
 
-for load-bearing premises (P_i).
+for load-bearing premises \(P_i\).
 
 An operator's deterministic execution does not prove the validity of its inputs.
 

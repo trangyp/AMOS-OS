@@ -157,11 +157,11 @@ $$
 
 where:
 
-- (F_i) = framework;
-- (A_i) = architecture;
-- (I_i) = invariant/formulation;
-- (P_i) = target plane(s);
-- (G_i) = fail-closed fallback.
+- \(F_i\) = framework;
+- \(A_i\) = architecture;
+- \(I_i\) = invariant/formulation;
+- \(P_i\) = target plane(s);
+- \(G_i\) = fail-closed fallback.
 
 This notation is **DERIVED normalization**, not a supplied canonical equation.
 
@@ -333,7 +333,7 @@ Do not silently equate this with:
 - zero-valued state;
 - process termination.
 
-The exact ontology of (S_0) belongs to the Trang ∅ framework.
+The exact ontology of \(S_0\) belongs to the Trang ∅ framework.
 
 ---
 
@@ -866,7 +866,7 @@ $$
 
 The exact semantics of:
 
-- (N);
+- \(N\);
 - `Descendant`;
 - `Root`;
 - equivalence;
@@ -1019,9 +1019,9 @@ Therefore GMEF explicitly combines:
 
 # 51. GMEF × Trang ∅
 
-Trang ∅ supplies a ground state (S_0).
+Trang ∅ supplies a ground state \(S_0\).
 
-GMEF explicitly permits transition to (S_0) on its mutation relation.
+GMEF explicitly permits transition to \(S_0\) on its mutation relation.
 
 This creates a strong source-level structural correspondence:
 
@@ -1034,7 +1034,7 @@ GMEF ─┘
 mutation may revert toward S₀
 ```
 
-Exact identity of (S_0) across both frameworks should still be confirmed from their authoritative definitions if formal equivalence matters.
+Exact identity of \(S_0\) across both frameworks should still be confirmed from their authoritative definitions if formal equivalence matters.
 
 ---
 
@@ -1344,7 +1344,7 @@ Separate framework rows do not prove operational independence.
 
 Potential shared dependencies include:
 
-- (S_0);
+- \(S_0\);
 - `Debt`;
 - (\\Omega);
 - provenance;
@@ -1359,7 +1359,7 @@ Independence must be demonstrated.
 
 # 69. Shared Symbol Firewall — S₀
 
-(S_0) appears in:
+\(S_0\) appears in:
 
 - Trang ∅;
 - GMEF;
@@ -1439,7 +1439,7 @@ GlobalCommit
 Pass(f)
 $$
 
-where (L) is the load-bearing framework set.
+where \(L\) is the load-bearing framework set.
 
 This is a v4.4-compatible **DERIVED integration rule**, not an explicit equation in this artifact.
 
@@ -2541,7 +2541,7 @@ RSCF_STATE_TOPOLOGY:
 # 120. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >
@@ -2859,7 +2859,7 @@ This artifact MUST NOT by itself be used to claim:
 1. TSS's (\\Omega) is interchangeable with every other (\\Omega) in AMOS.
 1. TPE has demonstrated predictive superiority.
 1. `PredictiveCone` and `RiskLattice` are empirically calibrated here.
-1. Heritage's (N), Root, and Descendant are fully defined here.
+1. Heritage's \(N\), Root, and Descendant are fully defined here.
 1. Heritage's equivalence symbol means ordinary equality.
 1. `Debt=0` in Heritage is necessarily identical to `Debt=0` in GMEF.
 1. Sybil Quarantine & Rollback constitutes a security proof.
@@ -2867,7 +2867,7 @@ This artifact MUST NOT by itself be used to claim:
 1. (\\Pi\_{proof}) necessarily equals (\\Pi\_{RSCF}).
 1. GMEF permits unrestricted mutation.
 1. A mutation attempt implies mutation acceptance.
-1. Revert to (S_0) is guaranteed to succeed.
+1. Revert to \(S_0\) is guaranteed to succeed.
 1. ULK's six symbols may be assigned conventional meanings without source evidence.
 1. ULK is independently proven sound and complete.
 1. ULK (\\tau) equals UBI (\\tau\_{bio}).

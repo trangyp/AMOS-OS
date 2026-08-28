@@ -756,7 +756,7 @@ Loss of a load-bearing provenance edge reduces the confidence ceiling.
 
 # 14. Provenance Ancestry
 
-For evidence objects (E_1) and (E_2):
+For evidence objects \(E_1\) and \(E_2\):
 
 [
 SharedAncestor(E_1,E_2)
@@ -1400,7 +1400,7 @@ It preserves why the observation is or is not trustworthy.
 
 # 33. Claim Dependency
 
-A downstream claim (C) may depend on observation set:
+A downstream claim \(C\) may depend on observation set:
 
 [
 C
@@ -1417,7 +1417,7 @@ O_i
 C
 ]
 
-so that failure of (O_i) can selectively invalidate (C) where (O_i) is load-bearing.
+so that failure of \(O_i\) can selectively invalidate \(C\) where \(O_i\) is load-bearing.
 
 ---
 
@@ -1616,7 +1616,7 @@ B
 C
 ]
 
-if (C) relies on (B), and (B) relies on (A), then (A) may become a transitive dependency of (C).
+if \(C\) relies on \(B\), and \(B\) relies on \(A\), then \(A\) may become a transitive dependency of \(C\).
 
 [
 A\rightarrow B
@@ -1632,7 +1632,7 @@ But transitive dependency does not automatically imply direct causation.
 
 # 40. Dependency Closure
 
-For a conclusion (C), define dependency closure:
+For a conclusion \(C\), define dependency closure:
 
 [
 Closure(C)
@@ -1752,7 +1752,7 @@ A version change may require selective revalidation.
 
 # 44. Dependency Mutation
 
-If dependency (D_i) changes:
+If dependency \(D_i\) changes:
 
 [
 D_i^{(v)}
@@ -1785,7 +1785,7 @@ O_j
 C_k
 ]
 
-if (D_i) fails and is load-bearing:
+if \(D_i\) fails and is load-bearing:
 
 [
 Failure(D_i)
@@ -2357,7 +2357,7 @@ RESTORE OR QUARANTINE
 
 # 60. Dependency Replacement
 
-Replacing dependency (D_a) with (D_b) requires:
+Replacing dependency \(D_a\) with \(D_b\) requires:
 
 [
 Replace(D_a,D_b)

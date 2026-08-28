@@ -208,17 +208,17 @@ where:
 
 | Symbol     | Meaning                       |
 | ---------- | ----------------------------- |
-| (E_t)      | represented environment state |
-| (O_t)      | observations                  |
-| (M_t)      | measurements                  |
-| (C_t)      | source claims / conflicts     |
-| (P_t)      | provenance topology           |
-| (T_t)      | temporal coordinates          |
+| \(E_t\)      | represented environment state |
+| \(O_t\)      | observations                  |
+| \(M_t\)      | measurements                  |
+| \(C_t\)      | source claims / conflicts     |
+| \(P_t\)      | provenance topology           |
+| \(T_t\)      | temporal coordinates          |
 | (\Sigma_t) | applicability scope           |
-| (R_t)      | regime                        |
-| (U_t)      | uncertainty vector            |
-| (V_t)      | validity/admission state      |
-| (D_t)      | dependency structure          |
+| \(R_t\)      | regime                        |
+| \(U_t\)      | uncertainty vector            |
+| \(V_t\)      | validity/admission state      |
+| \(D_t\)      | dependency structure          |
 
 This is an AMOS architectural equation, not an empirical law.
 
@@ -841,7 +841,7 @@ Existence of a value does not license transition to `CURRENT`.
 
 # 14. Observation Update Equation
 
-For a new observation (o_t):
+For a new observation \(o_t\):
 
 [
 S_{t+1}
@@ -1302,7 +1302,7 @@ A scalar confidence score must not erase a critical uncertainty dimension.
 
 # 25. Confidence Ceiling
 
-For state element (s_i):
+For state element \(s_i\):
 
 [
 Conf(s_i)

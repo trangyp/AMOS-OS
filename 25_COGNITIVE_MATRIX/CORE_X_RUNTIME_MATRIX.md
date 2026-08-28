@@ -1115,7 +1115,7 @@ Execution_Route:
     SYNTAX_INVARIANT_LOGIC_CLOSURE
 
   failure_action:
-    EMIT_ERROR_PROOF_CAPSULE
+    EMIT_ERROR_[[L19_PROOF_CAPSULE]]
 
   source_status:
     SOURCE_DEFINED_MODEL
@@ -1543,7 +1543,7 @@ Core_X_Runtime_Matrix:
       SYNTAX_INVARIANT_LOGIC_CLOSURE
 
     failure_action:
-      EMIT_ERROR_PROOF_CAPSULE
+      EMIT_ERROR_[[L19_PROOF_CAPSULE]]
 
   09_FINALIZATION:
 
@@ -1905,7 +1905,7 @@ RSCF:
       SYNTAX_INVARIANT_LOGIC_CLOSURE
 
     failure_action:
-      EMIT_ERROR_PROOF_CAPSULE
+      EMIT_ERROR_[[L19_PROOF_CAPSULE]]
 
   confidence_ceiling:
 
@@ -4634,7 +4634,7 @@ Core_X_Runtime_Matrix:
         SYNTAX_INVARIANT_LOGIC_CLOSURE
 
       failure_action:
-        EMIT_ERROR_PROOF_CAPSULE
+        EMIT_ERROR_[[L19_PROOF_CAPSULE]]
 
       source_status:
         SOURCE_DEFINED
@@ -4717,7 +4717,7 @@ Runtime_Stage_Registry:
 # 174. Proof Capsule — Artifact Status
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   artifact:
     CORE_X_RUNTIME_MATRIX.md
@@ -4973,7 +4973,7 @@ RSCF:
         invariant:
           SYNTAX_INVARIANT_LOGIC_CLOSURE
         failure:
-          EMIT_ERROR_PROOF_CAPSULE
+          EMIT_ERROR_[[L19_PROOF_CAPSULE]]
 
       finalization_stage:
         stage:
@@ -5065,7 +5065,7 @@ RSCF_RELATIONS:
       - "[[K_CAUSAL_EPOCH]]"
       - "[[K_MVCC]]"
       - "[[K_CAS]]"
-      - "K_ATOMIC_MULTI_RSCF"
+      - "[[K_ATOMIC_MULTI_RSCF]]"
 
   - LINEAGE_TARGET:
       "[[AMOS_CORE_v4_4]]"
@@ -5578,7 +5578,7 @@ RSCF:
         invariant:
           SYNTAX_INVARIANT_LOGIC_CLOSURE
         failure_action:
-          EMIT_ERROR_PROOF_CAPSULE
+          EMIT_ERROR_[[L19_PROOF_CAPSULE]]
 
       - id:
           09_FINALIZATION
@@ -5631,7 +5631,7 @@ RSCF:
 # 192. Final Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim: >
     CORE_X_RUNTIME_MATRIX.md defines a source-level
@@ -5859,7 +5859,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_RUNTIME]] · `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC` · [[AMOS_RSCF_NODES]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · K_ATOMIC_MULTI_RSCF
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_RUNTIME]] · `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC` · [[AMOS_RSCF_NODES]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]]
 
 ---
 
@@ -5917,7 +5917,7 @@ RSCF-RELATIONS:
 
 * RELATED_TO: [[K_CAS]]
 
-* RELATED_TO: K_ATOMIC_MULTI_RSCF
+* RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
 
 * LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 

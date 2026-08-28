@@ -1836,7 +1836,7 @@ This artifact therefore replaces the empty structural placeholder but does **not
 
 ---
 
-**Related:** [[00_HOME]] · AMOS_RSCF_NODES · CORE_LAWS_CONTRACT
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · CORE_LAWS_CONTRACT
 
 ---
 

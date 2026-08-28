@@ -16,6 +16,11 @@ tags:
 - capability/causal-reasoning
 - capability/workflow
 - rscf/epistemic
+- rscf/K-compression
+- rscf/G-relation
+- rscf/T-topology
+- rscf/C-constraint
+- rscf/type-process
 - orchestration/event-driven
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -26,6 +31,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

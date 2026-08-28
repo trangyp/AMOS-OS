@@ -16,6 +16,11 @@ tags:
 - capability/proof
 - capability/workflow
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/T-topology
+- rscf/G-relation
+- rscf/D-distinction
+- rscf/type-evidence
 - orchestration/event-driven
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -26,6 +31,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

@@ -351,7 +351,7 @@ If:
 Proxy(X)\rightarrow Measurement
 ]
 
-fails, AMOS invalidates claims dependent on the proxy rather than asserting failure of (X).
+fails, AMOS invalidates claims dependent on the proxy rather than asserting failure of \(X\).
 
 ---
 
@@ -379,7 +379,7 @@ evidence incompletely extracted
 
 # 11. Evidence Revocation
 
-For evidence (E_i):
+For evidence \(E_i\):
 
 [
 \boxed{
@@ -679,7 +679,7 @@ M
 }
 ]
 
-with respect to assumptions inherited from (M).
+with respect to assumptions inherited from \(M\).
 
 ---
 
@@ -850,7 +850,7 @@ For:
 C\leftarrow P_1,P_2,\ldots,P_n
 ]
 
-if load-bearing premise (P_k) fails:
+if load-bearing premise \(P_k\) fails:
 
 [
 \boxed{
@@ -1263,7 +1263,7 @@ STALE
 
 # 51. Constraint Failure
 
-For hard constraint (c_h):
+For hard constraint \(c_h\):
 
 [
 \boxed{
@@ -1580,7 +1580,7 @@ This is one of the most important L00 failure boundaries.
 
 A model becomes epistemically unsafe when no possible observation can lower confidence in its empirical claims.
 
-For empirically falsifiable model (M):
+For empirically falsifiable model \(M\):
 
 [
 \boxed{
@@ -1831,8 +1831,8 @@ G_F=(V_F,E_F)
 
 where:
 
-* (V_F) = states, claims, evidence, models, actions;
-* (E_F) = material dependency edges.
+* \(V_F\) = states, claims, evidence, models, actions;
+* \(E_F\) = material dependency edges.
 
 Affected state:
 
@@ -2388,7 +2388,7 @@ This prevents diagnosis from outrunning evidence.
 
 # 101. Competing Root Causes
 
-For observed failure (F):
+For observed failure \(F\):
 
 [
 \boxed{
@@ -3302,7 +3302,7 @@ The central L00 failure principle is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Provenance_Topology · AMOS_Constraint_Propagation · Cosmo_Brain_BRIDGE_INDEX · AMOS_Repair_Priority_Governor · AMOS_Repair_Harm_Auditor · AMOS_Collapse_Recovery · AMOS_Infrastructure_Control_Plane · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Provenance_Topology · AMOS_Constraint_Propagation · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Repair_Priority_Governor · AMOS_Repair_Harm_Auditor · AMOS_Collapse_Recovery · AMOS_Infrastructure_Control_Plane · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

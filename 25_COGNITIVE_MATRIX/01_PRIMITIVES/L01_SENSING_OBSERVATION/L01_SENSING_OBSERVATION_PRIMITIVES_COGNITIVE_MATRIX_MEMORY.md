@@ -919,7 +919,7 @@ This distinction must remain explicit.
 
 # 21. Provenance Preservation
 
-For memory record (M_O):
+For memory record \(M_O\):
 
 [
 \boxed{
@@ -1971,7 +1971,7 @@ No numerical values should be invented when unsupported.
 
 # 59. Confidence Ceiling
 
-For memory-dependent conclusion (C):
+For memory-dependent conclusion \(C\):
 
 [
 \boxed{

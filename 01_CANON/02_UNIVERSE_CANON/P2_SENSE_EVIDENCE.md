@@ -1944,7 +1944,7 @@ This is a runtime pattern, not a claim that P2 currently implements a database C
 # 59. P2 Proof Capsule
 
 ```yaml
-P2_PROOF_CAPSULE:
+P2_[[L19_PROOF_CAPSULE]]:
 
   claim:
 

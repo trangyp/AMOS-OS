@@ -2072,7 +2072,7 @@ Transport is not independent validation.
 
 # 57. Provenance Preservation Invariant
 
-For message (M) derived from observation (O):
+For message \(M\) derived from observation \(O\):
 
 [
 \boxed{
@@ -2124,7 +2124,7 @@ local observation
 
 # 60. Regime Preservation Invariant
 
-A message valid in regime (R_1) does not automatically become valid in regime (R_2).
+A message valid in regime \(R_1\) does not automatically become valid in regime \(R_2\).
 
 ---
 

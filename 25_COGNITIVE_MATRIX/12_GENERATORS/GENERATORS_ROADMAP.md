@@ -3135,7 +3135,7 @@ The key distinction is that `ROADMAP.md` should now own **sequencing, maturity, 
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

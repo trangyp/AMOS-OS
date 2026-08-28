@@ -20,6 +20,11 @@ tags:
 - capability/governance
 - capability/conflict-resolution
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/M-memory
+- rscf/B-boundary
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -31,6 +36,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

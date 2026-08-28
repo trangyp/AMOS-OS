@@ -1114,7 +1114,7 @@ commit
 
 # 29. Confidence Ceiling
 
-For control decision (D):
+For control decision \(D\):
 
 [
 Conf(D)

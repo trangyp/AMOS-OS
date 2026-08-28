@@ -19,6 +19,11 @@ tags:
 - capability/mckinsey-strategy
 - topic/consulting
 - rscf/epistemic
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/M-memory
+- rscf/T-topology
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -30,6 +35,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

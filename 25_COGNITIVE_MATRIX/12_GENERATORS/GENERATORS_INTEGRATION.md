@@ -783,7 +783,7 @@ Skill invocation
 
 # 17. Skill invariant composition
 
-For Skill (S) and Generator (G):
+For Skill \(S\) and Generator \(G\):
 
 [
 I_{effective}

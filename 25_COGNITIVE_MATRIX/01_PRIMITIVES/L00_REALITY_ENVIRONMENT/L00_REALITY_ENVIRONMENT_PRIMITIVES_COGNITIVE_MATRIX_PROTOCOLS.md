@@ -270,10 +270,10 @@ E_t
 
 where:
 
-* (M_t) = received message;
-* (C_t) = constraints/context;
-* (A_t) = authority state;
-* (E_t) = evidence state.
+* \(M_t\) = received message;
+* \(C_t\) = constraints/context;
+* \(A_t\) = authority state;
+* \(E_t\) = evidence state.
 
 ---
 
@@ -1944,7 +1944,7 @@ It may not silently weaken an applicable higher-level hard constraint.
 
 # 62. Dependency Invalidation Protocol
 
-If premise (P) fails:
+If premise \(P\) fails:
 
 [
 \boxed{
@@ -2015,13 +2015,13 @@ U_P
 
 where:
 
-* (U_E) = evidence uncertainty;
-* (U_M) = model uncertainty;
-* (U_S) = scope uncertainty;
-* (U_T) = temporal uncertainty;
-* (U_C) = causal uncertainty;
-* (U_X) = execution uncertainty;
-* (U_P) = provenance-independence uncertainty.
+* \(U_E\) = evidence uncertainty;
+* \(U_M\) = model uncertainty;
+* \(U_S\) = scope uncertainty;
+* \(U_T\) = temporal uncertainty;
+* \(U_C\) = causal uncertainty;
+* \(U_X\) = execution uncertainty;
+* \(U_P\) = provenance-independence uncertainty.
 
 ---
 
@@ -2093,10 +2093,10 @@ When a protocol fails:
 
 Let:
 
-* (S_V) = unaffected valid state;
-* (S_F) = failed state;
-* (D_F) = dependent state;
-* (R_F) = repaired state.
+* \(S_V\) = unaffected valid state;
+* \(S_F\) = failed state;
+* \(D_F\) = dependent state;
+* \(R_F\) = repaired state.
 
 Then:
 
@@ -3411,7 +3411,7 @@ The central architectural rule is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Infrastructure_Control_Plane · AMOS_Commit_Time_Authorization · AMOS_Constraint_Propagation
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Infrastructure_Control_Plane · AMOS_Commit_Time_Authorization · AMOS_Constraint_Propagation
 
 ---
 

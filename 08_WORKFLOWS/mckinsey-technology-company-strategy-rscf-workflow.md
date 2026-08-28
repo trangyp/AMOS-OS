@@ -17,6 +17,11 @@ tags:
 - topic/consulting
 - capability/workflow
 - rscf/epistemic
+- rscf/M-memory
+- rscf/T-topology
+- rscf/G-relation
+- rscf/S-state
+- rscf/type-model
 - orchestration/orchestrator-worker
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -27,6 +32,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

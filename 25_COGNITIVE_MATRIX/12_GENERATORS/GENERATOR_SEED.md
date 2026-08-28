@@ -274,7 +274,7 @@ creates a new generation condition.
 
 Thus:
 
-$$G_{v_1}(S) \not\equiv G_{v_2}(S)$$
+$$G_{v_1}\(S\) \not\equiv G_{v_2}\(S\)$$
 
 unless equivalence is independently established.
 
@@ -2617,7 +2617,7 @@ When any load-bearing component is unknown, AMOS preserves the gap rather than i
 
 ---
 
-**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · GENERATOR_REGISTRY · GENERATOR_OUTPUT · GENERATOR_FALSIFICATION · GENERATOR_PROMOTION · TASK_CONTRACT · TASK_RESOLVER · CAPABILITY_RESOLVER
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]] · 12_GENERATORS_CONTRACT · 12_GENERATORS_VERSIONING · [[GENERATOR_REGISTRY]] · [[GENERATOR_OUTPUT]] · [[GENERATOR_FALSIFICATION]] · [[GENERATOR_PROMOTION]] · [[TASK_CONTRACT]] · [[TASK_RESOLVER]] · [[CAPABILITY_RESOLVER]]
 
 ---
 

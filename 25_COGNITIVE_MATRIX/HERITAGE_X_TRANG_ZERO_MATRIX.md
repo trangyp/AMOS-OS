@@ -143,7 +143,7 @@ epistemic_boundary:
 
 # Heritage x Trang Zero Cross-Plane Routing Matrix Table
 
-`HERITAGE_X_TRANG_ZERO_MATRIX.md` is the source-defined AMOS Cognitive Matrix routing table connecting historical survival and decision-intelligence archetypes to the **Trang ∅ Null-State Invariant Anchor \((S_0)\)**.
+`HERITAGE_X_TRANG_ZERO_MATRIX.md` is the source-defined AMOS Cognitive Matrix routing table connecting historical survival and decision-intelligence archetypes to the **Trang ∅ Null-State Invariant Anchor \(\(S_0\)\)**.
 
 The source defines three explicit crisis-routing rows:
 
@@ -355,7 +355,7 @@ EPISTEMIC HALLUCINATION
         ↓
 HISTORICAL FALSE CONSENSUS
         ↓
-EPISTEMIC NULL (E_0)
+EPISTEMIC NULL \(E_0\)
         ↓
 PURGES UNGROUNDED PROMPT CONTEXT
         ↓
@@ -777,7 +777,7 @@ SYSTEMIC FRAGMENTATION (F > 0.8)
         ↓
 VILLAGE AUTONOMY DECOUPLING
         ↓
-MODULAR NULL (M_0)
+MODULAR NULL \(M_0\)
         ↓
 ISOLATES FAILING SUBSYSTEMS
         ↓
@@ -1265,7 +1265,7 @@ SEVERE SHOCKS (S > 0.9)
         ↓
 ASYMMETRIC DEFENSE RESET
         ↓
-SUBSTRATE GROUND (S_0)
+SUBSTRATE GROUND \(S_0\)
         ↓
 SUSPENDS NON-ESSENTIAL SERVICES
         ↓
@@ -1458,7 +1458,7 @@ Substrate Ground
 and identifies the broader matrix as routing to the:
 
 ```text
-Trang ∅ Null-State Invariant Anchor (S_0)
+Trang ∅ Null-State Invariant Anchor \(S_0\)
 ```
 
 The exact relationship between the general invariant anchor \(S_0\) and this row's Substrate Ground \(S_0\) should be resolved through the Trang Zero framework.
@@ -1482,7 +1482,7 @@ $$
 and separately names the:
 
 ```text
-Trang ∅ Null-State Invariant Anchor (S_0)
+Trang ∅ Null-State Invariant Anchor \(S_0\)
 ```
 
 This supports a source-level identity association.
@@ -1809,7 +1809,7 @@ Such relationships require the Trang Zero framework.
 The artifact explicitly identifies:
 
 ```text
-Trang ∅ Null-State Invariant Anchor (S_0)
+Trang ∅ Null-State Invariant Anchor \(S_0\)
 ```
 
 as the larger destination concept.
@@ -5335,7 +5335,7 @@ RSCF_RELATIONS:
       - "[[K_CAUSAL_EPOCH]]"
       - "[[K_MVCC]]"
       - "[[K_CAS]]"
-      - "K_ATOMIC_MULTI_RSCF"
+      - "[[K_ATOMIC_MULTI_RSCF]]"
 
   - LINEAGE_TARGET:
       "[[AMOS_CORE_v4_4]]"
@@ -5846,19 +5846,19 @@ Decision and action remain separately governed.
 ```text
 EPISTEMIC HALLUCINATION
 → Historical False Consensus
-→ Epistemic Null (E_0)
+→ Epistemic Null \(E_0\)
 → Purges ungrounded prompt context
 → Re-anchors to primary sources
 
 SYSTEMIC FRAGMENTATION (F > 0.8)
 → Village Autonomy Decoupling
-→ Modular Null (M_0)
+→ Modular Null \(M_0\)
 → Isolates failing subsystems
 → Rebuilds along polycentric nodes
 
 SEVERE SHOCKS (S > 0.9)
 → Asymmetric Defense Reset
-→ Substrate Ground (S_0)
+→ Substrate Ground \(S_0\)
 → Suspends non-essential services
 → Restores core metabolic baseline
 ```
@@ -6077,7 +6077,7 @@ RSCF:
 # 202. Final Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim: >
     HERITAGE_X_TRANG_ZERO_MATRIX.md source-defines three
@@ -6173,7 +6173,7 @@ EPISTEMIC HALLUCINATION
         ↓
 HISTORICAL FALSE CONSENSUS
         ↓
-EPISTEMIC NULL (E_0)
+EPISTEMIC NULL \(E_0\)
         ↓
 PURGES UNGROUNDED PROMPT CONTEXT
         ↓
@@ -6185,7 +6185,7 @@ SYSTEMIC FRAGMENTATION (F > 0.8)
         ↓
 VILLAGE AUTONOMY DECOUPLING
         ↓
-MODULAR NULL (M_0)
+MODULAR NULL \(M_0\)
         ↓
 ISOLATES FAILING SUBSYSTEMS
         ↓
@@ -6197,7 +6197,7 @@ SEVERE SHOCKS (S > 0.9)
         ↓
 ASYMMETRIC DEFENSE RESET
         ↓
-SUBSTRATE GROUND (S_0)
+SUBSTRATE GROUND \(S_0\)
         ↓
 SUSPENDS NON-ESSENTIAL SERVICES
         ↓
@@ -6469,7 +6469,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[HERITAGE_X_TRANG_ZERO]] · [[TRANG_ZERO_FRAMEWORK]] · [[HERITAGE_ZERO_FRAMEWORK]] · [[AMOS_RSCF_NODES]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · K_ATOMIC_MULTI_RSCF
+**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[HERITAGE_X_TRANG_ZERO]] · [[TRANG_ZERO_FRAMEWORK]] · [[HERITAGE_ZERO_FRAMEWORK]] · [[AMOS_RSCF_NODES]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]]
 
 ---
 
@@ -6531,7 +6531,7 @@ RSCF-RELATIONS:
 
 * RELATED_TO: [[K_CAS]]
 
-* RELATED_TO: K_ATOMIC_MULTI_RSCF
+* RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
 
 * LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 

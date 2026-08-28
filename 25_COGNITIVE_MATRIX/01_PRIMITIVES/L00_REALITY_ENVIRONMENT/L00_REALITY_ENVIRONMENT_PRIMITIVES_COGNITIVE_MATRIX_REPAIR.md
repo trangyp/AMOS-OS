@@ -228,10 +228,10 @@ A repair target is a hypothesis until sufficient evidence supports it.
 
 Let:
 
-* (F) = observed failure;
-* (T) = candidate repair target;
-* (R) = repair transformation;
-* (S) = system state.
+* \(F\) = observed failure;
+* \(T\) = candidate repair target;
+* \(R\) = repair transformation;
+* \(S\) = system state.
 
 Then:
 
@@ -849,7 +849,7 @@ Boundary repair must restore selective permeability rather than merely closing o
 
 # 27. Scope Repair
 
-If claim (C) was applied outside valid scope:
+If claim \(C\) was applied outside valid scope:
 
 [
 \boxed{
@@ -868,7 +868,7 @@ Repair should not modify the evidence itself unless the evidence is also defecti
 
 # 28. Regime Repair
 
-If regime shifts from (R_1) to (R_2):
+If regime shifts from \(R_1\) to \(R_2\):
 
 [
 \boxed{
@@ -1237,7 +1237,7 @@ No numerical timing claim should be inferred without domain evidence.
 
 # 43. Repair Sensitivity
 
-For repair decision (R):
+For repair decision \(R\):
 
 [
 \boxed{
@@ -1548,10 +1548,10 @@ G_R
 
 where:
 
-* (V_F) = failures;
-* (V_T) = candidate targets;
-* (V_R) = repairs;
-* (E_R) = causal/dependency/validation relations.
+* \(V_F\) = failures;
+* \(V_T\) = candidate targets;
+* \(V_R\) = repairs;
+* \(E_R\) = causal/dependency/validation relations.
 
 Edge classes:
 
@@ -1759,10 +1759,10 @@ monitoring
 
 Let:
 
-* (S_V) = unaffected valid state;
-* (S_F) = failed state;
-* (R_F) = repaired state;
-* (D_F) = dependent descendants.
+* \(S_V\) = unaffected valid state;
+* \(S_F\) = failed state;
+* \(R_F\) = repaired state;
+* \(D_F\) = dependent descendants.
 
 Then:
 

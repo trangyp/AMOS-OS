@@ -703,7 +703,7 @@ and:
 P_2 \leftarrow E_4,E_5
 ]
 
-Then the load-bearing closure for (C) includes (P_2,E_4,E_5) if failure of that branch can change (C).
+Then the load-bearing closure for \(C\) includes (P_2,E_4,E_5) if failure of that branch can change \(C\).
 
 L02 attention should preferentially inspect dependency nodes that can change the root decision.
 
@@ -822,7 +822,7 @@ Only decision-relevant branches need expansion.
 
 # 15. H/M/L Confidence Propagation
 
-For H claim (C_H) depending on M claims:
+For H claim \(C_H\) depending on M claims:
 
 [
 Conf(C_H)
@@ -830,7 +830,7 @@ Conf(C_H)
 \min_j Conf(C_{M_j})
 ]
 
-for load-bearing (M_j).
+for load-bearing \(M_j\).
 
 For M claim depending on L claims:
 
@@ -840,7 +840,7 @@ Conf(C_M)
 \min_k Conf(C_{L_k})
 ]
 
-for load-bearing (L_k).
+for load-bearing \(L_k\).
 
 Aggregation itself cannot increase confidence.
 
@@ -1089,7 +1089,7 @@ Independence must be established, not presumed.
 
 # 22. Confidence Ceiling
 
-For claim (C):
+For claim \(C\):
 
 [
 Conf(C)
@@ -1117,7 +1117,7 @@ Attention allocation does not change the ceiling unless it actually obtains new 
 
 # 23. Sensitivity
 
-For consequential claim (C), identify the smallest premise/threshold capable of flipping its conclusion.
+For consequential claim \(C\), identify the smallest premise/threshold capable of flipping its conclusion.
 
 Candidate:
 

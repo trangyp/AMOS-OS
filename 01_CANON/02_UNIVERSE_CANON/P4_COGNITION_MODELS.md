@@ -1307,7 +1307,7 @@ Adversarial validation must not manufacture objections unsupported by evidence.
 Important P4 conclusions should conceptually carry:
 
 ```yaml
-P4_PROOF_CAPSULE:
+P4_[[L19_PROOF_CAPSULE]]:
 
   claim:
 

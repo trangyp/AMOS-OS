@@ -361,8 +361,8 @@ G_P=(V_P,E_P)
 
 where:
 
-* (V_P) = provenance-bearing objects;
-* (E_P) = lineage relations.
+* \(V_P\) = provenance-bearing objects;
+* \(E_P\) = lineage relations.
 
 Typical edges:
 
@@ -541,13 +541,13 @@ Independence depends on ancestry and load-bearing information paths.
 
 # 21. Effective Corroboration
 
-Let (R_L(C)) be the distinct load-bearing provenance roots supporting claim (C).
+Let (R_L(C)) be the distinct load-bearing provenance roots supporting claim \(C\).
 
 Then:
 
 [
 \boxed{
-Support_{eff}(C)
+Support_{eff}\(C\)
 \leq
 |R_L(C)|
 }
@@ -864,7 +864,7 @@ TTL(E,C,R)
 }
 ]
 
-where a TTL has been defined for claim (C) under regime (R).
+where a TTL has been defined for claim \(C\) under regime \(R\).
 
 ---
 
@@ -1994,7 +1994,7 @@ Admit(x)
 }
 ]
 
-where the required invariants (I_i) depend on the object's class and intended use.
+where the required invariants \(I_i\) depend on the object's class and intended use.
 
 Possible states:
 
@@ -2250,7 +2250,7 @@ This is an AMOS MODEL construct.
 
 # 85. Provenance Completeness
 
-For required provenance fields (F_R):
+For required provenance fields \(F_R\):
 
 [
 \boxed{
@@ -2311,7 +2311,7 @@ RequiredLineagePresent(x,D)
 }
 ]
 
-where (D) is the downstream decision or claim.
+where \(D\) is the downstream decision or claim.
 
 Provenance sufficiency is therefore decision-relative.
 
@@ -2885,7 +2885,7 @@ where each term applies to the claim.
 
 # 104. Provenance-Adjusted Evidence Equation
 
-For evidence set (E_C) supporting claim (C):
+For evidence set \(E_C\) supporting claim \(C\):
 
 [
 \boxed{
@@ -3323,7 +3323,7 @@ The governing architectural principle is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]]
 
 ```
 

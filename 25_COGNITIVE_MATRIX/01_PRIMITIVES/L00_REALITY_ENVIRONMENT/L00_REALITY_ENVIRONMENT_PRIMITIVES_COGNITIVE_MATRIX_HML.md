@@ -77,7 +77,7 @@ The same object may occupy different H/M/L roles depending on the declared analy
 
 Scale is relational.
 
-For system (S):
+For system \(S\):
 
 [
 \boxed{
@@ -459,7 +459,7 @@ Low-scale state may be aggregated into middle-scale state:
 X_M
 ===
 
-A_{L\rightarrow M}(X_L)
+A_{L\rightarrow M}\(X_L\)
 }
 ]
 
@@ -470,11 +470,11 @@ Middle-scale state may be aggregated into high-scale state:
 X_H
 ===
 
-A_{M\rightarrow H}(X_M)
+A_{M\rightarrow H}\(X_M\)
 }
 ]
 
-where (A) is an explicitly declared aggregation operator.
+where \(A\) is an explicitly declared aggregation operator.
 
 ---
 
@@ -505,7 +505,7 @@ AGGREGATE STATE != SOURCE OBSERVATION
 Even when:
 
 [
-X_H=A_{M\rightarrow H}(X_M)
+X_H=A_{M\rightarrow H}\(X_M\)
 ]
 
 it does not follow that:
@@ -1104,7 +1104,7 @@ If:
 E_1,E_2,E_3
 ]
 
-share the same ancestor (A), then:
+share the same ancestor \(A\), then:
 
 [
 \boxed{
@@ -3086,7 +3086,7 @@ The central architectural rule is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · AMOS_Infrastructure_Control_Plane · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · AMOS_Infrastructure_Control_Plane · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

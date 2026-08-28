@@ -17,6 +17,11 @@ tags:
 - canon-group/tech-ai
 - topic/trang-framework
 - rscf/epistemic
+- rscf/D-distinction
+- rscf/S-state
+- rscf/T-topology
+- rscf/G-relation
+- rscf/type-concept
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -28,6 +33,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

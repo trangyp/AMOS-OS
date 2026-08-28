@@ -19,6 +19,11 @@ tags:
 - capability/physics
 - capability/ast
 - rscf/epistemic
+- rscf/M-memory
+- rscf/G-relation
+- rscf/S-state
+- rscf/T-topology
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -30,6 +35,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

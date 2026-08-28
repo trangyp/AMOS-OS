@@ -188,7 +188,7 @@ R_t
 }
 ]
 
-where (R_t) denotes the relevant external state within a declared scope.
+where \(R_t\) denotes the relevant external state within a declared scope.
 
 AMOS does not assume that the complete state of reality is observable.
 
@@ -258,13 +258,13 @@ X_t,
 
 where:
 
-* (R_t) = prior environment state;
-* (U_t) = system actions/interventions;
-* (X_t) = relevant exogenous conditions;
+* \(R_t\) = prior environment state;
+* \(U_t\) = system actions/interventions;
+* \(X_t\) = relevant exogenous conditions;
 * (\epsilon_t) = unresolved or unmodeled influences;
-* (F_R) = domain-specific transition operator.
+* \(F_R\) = domain-specific transition operator.
 
-AMOS does not assume (F_R) is fully known.
+AMOS does not assume \(F_R\) is fully known.
 
 ---
 
@@ -321,10 +321,10 @@ C_t
 
 where:
 
-* (R_t) = environment state;
-* (A_t) = observer/access configuration;
-* (M_t) = measurement method;
-* (C_t) = observation context;
+* \(R_t\) = environment state;
+* \(A_t\) = observer/access configuration;
+* \(M_t\) = measurement method;
+* \(C_t\) = observation context;
 * (\epsilon_t^{obs}) = observation uncertainty/error.
 
 This equation encodes partial access.
@@ -377,10 +377,10 @@ E_t
 
 where:
 
-* (Q_t) = target quantity;
-* (I_t) = instrument;
-* (K_t) = calibration/method state;
-* (E_t) = relevant environmental conditions.
+* \(Q_t\) = target quantity;
+* \(I_t\) = instrument;
+* \(K_t\) = calibration/method state;
+* \(E_t\) = relevant environmental conditions.
 
 ---
 
@@ -442,7 +442,7 @@ Unavailable observations must not be fabricated.
 
 # 14. Observation Coverage
 
-For relevant reality dimensions (D_R):
+For relevant reality dimensions \(D_R\):
 
 [
 \boxed{
@@ -487,10 +487,10 @@ F_t
 
 where:
 
-* (P_t) = provenance;
-* (S_t) = scope;
-* (G_t) = regime;
-* (F_t) = freshness.
+* \(P_t\) = provenance;
+* \(S_t\) = scope;
+* \(G_t\) = regime;
+* \(F_t\) = freshness.
 
 ---
 
@@ -557,7 +557,7 @@ instead.
 
 # 18. Evidence Freshness
 
-For evidence (E_i):
+For evidence \(E_i\):
 
 [
 \boxed{
@@ -776,9 +776,9 @@ A_j
 
 where:
 
-* (P_j) = premises;
-* (E_j) = supporting evidence;
-* (A_j) = assumptions.
+* \(P_j\) = premises;
+* \(E_j\) = supporting evidence;
+* \(A_j\) = assumptions.
 
 ---
 
@@ -842,7 +842,7 @@ Valid(C\mid G)
 }
 ]
 
-means claim (C) is valid only under regime (G).
+means claim \(C\) is valid only under regime \(G\).
 
 If:
 
@@ -858,7 +858,7 @@ Revalidate(C)
 }
 ]
 
-when (C) depends materially on that regime.
+when \(C\) depends materially on that regime.
 
 ---
 
@@ -1168,13 +1168,13 @@ U_P
 
 where:
 
-* (U_E) = evidence uncertainty;
-* (U_M) = model uncertainty;
-* (U_S) = scope uncertainty;
-* (U_T) = temporal uncertainty;
-* (U_C) = causal uncertainty;
-* (U_X) = execution uncertainty;
-* (U_P) = provenance-independence uncertainty.
+* \(U_E\) = evidence uncertainty;
+* \(U_M\) = model uncertainty;
+* \(U_S\) = scope uncertainty;
+* \(U_T\) = temporal uncertainty;
+* \(U_C\) = causal uncertainty;
+* \(U_X\) = execution uncertainty;
+* \(U_P\) = provenance-independence uncertainty.
 
 These dimensions should not automatically collapse into one scalar.
 
@@ -1258,7 +1258,7 @@ LogicalConflict
 
 # 44. Boundary Equation
 
-Let system boundary (B) partition:
+Let system boundary \(B\) partition:
 
 [
 \boxed{
@@ -1365,7 +1365,7 @@ Admissible(x)=FALSE
 
 # 47. Constraint Propagation
 
-If higher-level constraint (C_H) applies to lower-level object (L):
+If higher-level constraint \(C_H\) applies to lower-level object \(L\):
 
 [
 \boxed{
@@ -1401,9 +1401,9 @@ L_t
 
 where:
 
-* (H_t) = governing/system state;
-* (M_t) = subsystem state;
-* (L_t) = local/detail state.
+* \(H_t\) = governing/system state;
+* \(M_t\) = subsystem state;
+* \(L_t\) = local/detail state.
 
 ---
 
@@ -1518,10 +1518,10 @@ R_t
 
 where:
 
-* (W_t) = candidate writes;
-* (I_t) = invalidations;
-* (Q_t) = quarantines;
-* (R_t) = revalidations.
+* \(W_t\) = candidate writes;
+* \(I_t\) = invalidations;
+* \(Q_t\) = quarantines;
+* \(R_t\) = revalidations.
 
 ---
 
@@ -1573,7 +1573,7 @@ MEMORY != CURRENT REALITY
 
 # 55. Memory Influence Equation
 
-For reasoning state (X_t):
+For reasoning state \(X_t\):
 
 [
 \boxed{
@@ -1611,7 +1611,7 @@ G_t
 where:
 
 * (h) = prediction horizon;
-* (G_t) = regime/context.
+* \(G_t\) = regime/context.
 
 Prediction remains:
 
@@ -1821,7 +1821,7 @@ RS_a
 ====
 
 {
-(x_i,v_i)
+\(x_i,v_i\)
 }_{i=1}^{n}
 }
 ]
@@ -2090,7 +2090,7 @@ These remain competing hypotheses until discriminated.
 
 # 75. Drift Equation
 
-For internal representation (X_t) and newly grounded state (X_t^*):
+For internal representation \(X_t\) and newly grounded state (X_t^*):
 
 [
 \boxed{
@@ -2459,7 +2459,7 @@ AMOS should preserve this vector when scalar collapse would hide decision-releva
 
 # 90. Weakest-Premise Law
 
-For conclusion (C):
+For conclusion \(C\):
 
 [
 \boxed{
@@ -2709,7 +2709,7 @@ GENERATED != VERIFIED
 
 # 100. AI Grounding Equation
 
-For AI claim (C):
+For AI claim \(C\):
 
 [
 \boxed{
@@ -2755,7 +2755,7 @@ Support(C)=Incompatible
 
 This identifies insufficient grounding.
 
-It does not independently establish that (C) is false.
+It does not independently establish that \(C\) is false.
 
 ---
 
@@ -2928,13 +2928,13 @@ I
 
 where:
 
-* (D) = dependency closure sufficient;
-* (P) = provenance sufficient;
-* (S) = scope compatible;
-* (G) = regime compatible;
-* (F) = freshness adequate;
-* (N) = no blocking conflict;
-* (I) = required independence demonstrated.
+* \(D\) = dependency closure sufficient;
+* \(P\) = provenance sufficient;
+* \(S\) = scope compatible;
+* \(G\) = regime compatible;
+* \(F\) = freshness adequate;
+* \(N\) = no blocking conflict;
+* \(I\) = required independence demonstrated.
 
 If:
 
@@ -2977,7 +2977,7 @@ but may not weaken integrity requirements.
 
 # 109. Compression Equation
 
-For compression operator (K):
+For compression operator \(K\):
 
 [
 \boxed{
@@ -3208,7 +3208,7 @@ subject to evidence admission, provenance, and governance constraints.
 
 A model must permit evidence capable of lowering its own confidence.
 
-For model (M):
+For model \(M\):
 
 [
 \boxed{
@@ -3227,7 +3227,7 @@ If no conceivable observation can reduce confidence, the claim is not functionin
 
 # 117. Falsifier Equation
 
-For claim (C):
+For claim \(C\):
 
 [
 \boxed{
@@ -3241,7 +3241,7 @@ e\ would\ materially\ weaken\ or\ invalidate\ C
 }
 ]
 
-Important claims should preserve (F(C)) where meaningful.
+Important claims should preserve \(F(C)\) where meaningful.
 
 ---
 
@@ -3348,7 +3348,7 @@ FEEDBACK EQUATION
 
 # 121. Equation Dependency Invariant
 
-If equation (E_j) requires output of (E_i):
+If equation \(E_j\) requires output of \(E_i\):
 
 [
 \boxed{
@@ -4354,7 +4354,7 @@ The central requirement is therefore:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Universal_Variable_Registry · AMOS_Mathematical_Rigor_RSCF_Kernel · AMOS_Provenance_Topology · AMOS_Constraint_Propagation · AMOS_Execution_Provenance_Replay · AMOS_Infrastructure_Control_Plane · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Universal_Variable_Registry · AMOS_Mathematical_Rigor_RSCF_Kernel · AMOS_Provenance_Topology · AMOS_Constraint_Propagation · AMOS_Execution_Provenance_Replay · AMOS_Infrastructure_Control_Plane · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

@@ -17,6 +17,11 @@ tags:
 - capability/firewall
 - capability/workflow
 - rscf/epistemic
+- rscf/B-boundary
+- rscf/C-constraint
+- rscf/M-memory
+- rscf/T-topology
+- rscf/type-system
 - orchestration/pipeline
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -27,6 +32,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

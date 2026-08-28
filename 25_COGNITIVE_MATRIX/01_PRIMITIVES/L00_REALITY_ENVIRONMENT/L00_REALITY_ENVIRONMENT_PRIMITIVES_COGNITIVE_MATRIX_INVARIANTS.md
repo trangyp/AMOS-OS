@@ -55,7 +55,7 @@ ProposedTransition
 }
 ]
 
-where (I_i) is every load-bearing invariant applicable to the transition.
+where \(I_i\) is every load-bearing invariant applicable to the transition.
 
 If any hard invariant fails:
 
@@ -255,7 +255,7 @@ REALITY_CONTACT
 A hard invariant defines an inadmissible state.
 
 [
-\neg I_{hard}(X)
+\neg I_{hard}\(X\)
 \Rightarrow
 Reject(X)
 ]
@@ -580,13 +580,13 @@ unless relevant independence exists after the shared ancestor.
 
 # 25. INV-P06 — Revocation Propagation
 
-If source (E) is revoked or invalidated:
+If source \(E\) is revoked or invalidated:
 
 [
 \boxed{
 Invalidate(E)
 \Rightarrow
-Revalidate(Desc_{LB}(E))
+Revalidate(Desc_{LB}\(E\))
 }
 ]
 
@@ -2127,7 +2127,7 @@ Without this distinction, an AI can recursively validate itself using its own ou
 
 # 121. Recursive Contamination Invariant
 
-If AI output (O_t) becomes future input (I_{t+k}):
+If AI output \(O_t\) becomes future input (I_{t+k}):
 
 [
 \boxed{
@@ -2243,7 +2243,7 @@ Valid state requires:
 
 [
 \boxed{
-I_{valid}(X)
+I_{valid}\(X\)
 ============
 
 I_A(X)
@@ -2319,7 +2319,7 @@ provenance
 
 # 128. Invariant Validation Function
 
-For state (X):
+For state \(X\):
 
 [
 \boxed{
@@ -3185,7 +3185,7 @@ The central architectural rule is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · Cosmo_Brain_BRIDGE_INDEX · AMOS_Infrastructure_Control_Plane
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Cross_Scale_RSCF_Tensor_Engine · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · AMOS_Provenance_Topology · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Infrastructure_Control_Plane
 
 ---
 

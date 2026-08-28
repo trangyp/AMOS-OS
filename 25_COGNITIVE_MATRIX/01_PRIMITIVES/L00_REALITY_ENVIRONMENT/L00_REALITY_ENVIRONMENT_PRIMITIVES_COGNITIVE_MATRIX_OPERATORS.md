@@ -202,10 +202,10 @@ S'_i
 
 where:
 
-* (X_i) = typed inputs;
-* (S_i) = pre-operation state;
-* (C_i) = operating context;
-* (Y_i) = typed outputs;
+* \(X_i\) = typed inputs;
+* \(S_i\) = pre-operation state;
+* \(C_i\) = operating context;
+* \(Y_i\) = typed outputs;
 * (S'_i) = post-operation state.
 
 ---
@@ -449,7 +449,7 @@ Classification is a representation operation, not ontological proof.
 [
 \boxed{
 O_R:
-(x_i,x_j)
+\(x_i,x_j\)
 \rightarrow
 R_{ij}
 }
@@ -1595,7 +1595,7 @@ Idempotence must not be assumed globally.
 
 # 50. Operator Reversibility
 
-For reversible operator (O):
+For reversible operator \(O\):
 
 [
 \boxed{
@@ -1667,7 +1667,7 @@ where each dimension is applicable to the operator.
 
 # 53. State Transition Equation
 
-Let environment state be (S_t).
+Let environment state be \(S_t\).
 
 [
 \boxed{
@@ -2740,7 +2740,7 @@ Successful execution becomes proof of correctness.
 
 # 92. Failure Recovery
 
-When operator (O_i) fails:
+When operator \(O_i\) fails:
 
 ```text
 1. identify failed operator;
@@ -2772,10 +2772,10 @@ When operator (O_i) fails:
 
 Let:
 
-* (S_V) = unaffected valid state;
-* (S_F) = failed state;
-* (D_F) = dependent state;
-* (R_F) = repaired state.
+* \(S_V\) = unaffected valid state;
+* \(S_F\) = failed state;
+* \(D_F\) = dependent state;
+* \(R_F\) = repaired state.
 
 Then:
 
@@ -3570,7 +3570,7 @@ The central architectural rule is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · Cosmo_Brain_BRIDGE_INDEX · AMOS_Infrastructure_Control_Plane
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Constraint_Propagation · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Infrastructure_Control_Plane
 
 ---
 

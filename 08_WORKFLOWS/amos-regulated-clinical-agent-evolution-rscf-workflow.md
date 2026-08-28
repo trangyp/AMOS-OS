@@ -17,6 +17,11 @@ tags:
 - capability/workflow
 - capability/clinical
 - rscf/epistemic
+- rscf/μ-mutation
+- rscf/T-topology
+- rscf/C-constraint
+- rscf/G-relation
+- rscf/type-process
 - orchestration/orchestrator-worker
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -27,6 +32,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

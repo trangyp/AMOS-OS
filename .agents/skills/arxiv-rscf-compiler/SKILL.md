@@ -14,6 +14,18 @@ This is **not** an extractive summarizer or text condenser. It is a **semantic k
 
 ## Non-Negotiable Core Principle: Model-Side Semantic Intelligence
 
+## Capabilities
+
+- **paper_normalization**: Transform arXiv papers into source-faithful AMOS_KNOWLEDGE_OBJECTs
+- **hml_tiering**: Tier content into H/M/L levels for low retrieval-token cost
+- **equation_status_tagging**: Tag equations as ESTABLISHED_MATH/SOURCE_DERIVED/AMOS_MODEL
+- **theorem_scope_boundary**: Define theorem scope boundaries with falsifiers
+- **provenance_binding**: Bind knowledge objects to arXiv IDs with full provenance
+- **batch_ingestion**: Ingest multiple papers into normalized knowledge capsules
+- **rscf_schema_compliance**: Ensure 22-section schema compliance for knowledge objects
+
+## Non-Negotiable Core Principle: Model-Side Semantic Intelligence
+
 ```text
 RAW SCIENTIFIC PAPER
         │
@@ -136,3 +148,10 @@ proof_capsule:
 - **Scenario**: User says "Ingest this scientific literature into AMOS knowledge"
   - **Input**: Multiple scientific papers
   - **Output**: Batch of normalized AMOS_KNOWLEDGE_OBJECTs, each with source-faithful content, equation status tags (ESTABLISHED_MATH/SOURCE_DERIVED/AMOS_MODEL), provenance to arXiv ID
+
+## Do not use
+
+- For generic document conversion outside arXiv/RSCF framework
+- To alter or fabricate scientific claims (source-faithful only)
+- As a substitute for domain-specific peer review or validation
+- Outside knowledge research domain reasoning

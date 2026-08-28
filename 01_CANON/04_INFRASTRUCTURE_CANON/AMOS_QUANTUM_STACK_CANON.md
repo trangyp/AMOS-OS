@@ -609,7 +609,7 @@ Structural resemblance or temporal sequence alone cannot establish causation.
 
 If native sources contain equations, preserve them exactly enough to maintain lineage, but classify what each equation represents.
 
-For an equation (E):
+For an equation \(E\):
 
 ```yaml
 equation_record:

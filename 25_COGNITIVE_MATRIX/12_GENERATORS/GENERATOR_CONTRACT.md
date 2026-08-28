@@ -289,7 +289,7 @@ constraint topology
 
 Formally:
 
-$$G_{structure}(X) \rightarrow S_X$$
+$$G_{structure}\(X\) \rightarrow S_X$$
 
 where $S_X$ is a candidate representation.
 
@@ -2695,7 +2695,7 @@ This version is deliberately stricter than the earlier draft: it does **not** pr
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

@@ -374,7 +374,7 @@ Admit(O_i)
 \bigwedge_{j=1}^{n} I_j(O_i)
 ]
 
-where (I_j) are mandatory admission invariants.
+where \(I_j\) are mandatory admission invariants.
 
 Possible invariants:
 
@@ -486,7 +486,7 @@ F_i
 IndependentEvidence(O_i)
 ]
 
-when (F_i) is derived solely from (O_i).
+when \(F_i\) is derived solely from \(O_i\).
 
 ---
 
@@ -609,7 +609,7 @@ of source-aligned hard-gate logic
 
 # 13. L03-EQ-007 — Confidence Ceiling
 
-For percept (P_i):
+For percept \(P_i\):
 
 [
 Q(P_i)
@@ -651,7 +651,7 @@ Candidate:
 U(P)
 ====
 
-(u_e,u_m,u_s,u_t,u_c,u_x,u_p)
+\(u_e,u_m,u_s,u_t,u_c,u_x,u_p\)
 ]
 
 where:
@@ -976,7 +976,7 @@ AMOS_MODEL
 
 # 23. L03-EQ-017 — Evidence Independence
 
-Suppose evidence items (e_i,e_j) share ancestry.
+Suppose evidence items \(e_i,e_j\) share ancestry.
 
 Candidate independence indicator:
 
@@ -1099,7 +1099,7 @@ I(M,H)
 I(L,H)
 ]
 
-where (I) represents explicit compatibility checks.
+where \(I\) represents explicit compatibility checks.
 
 A high-level percept inconsistent with its load-bearing lower-level state must not silently overwrite that lower-level evidence.
 
@@ -1162,7 +1162,7 @@ Invalid(O_i)
 \Rightarrow
 Invalidate
 \left(
-Desc_{L03}(O_i)
+Desc_{L03}\(O_i\)
 \right)
 ]
 
@@ -1174,7 +1174,7 @@ Invalid(O_i)
 Invalidate(P_j)
 ]
 
-when (P_j) has no dependency path from (O_i).
+when \(P_j\) has no dependency path from \(O_i\).
 
 Classification:
 
@@ -1186,7 +1186,7 @@ source rule + AMOS_MODEL specialization
 
 # 29. L03-EQ-023 — Dependency Closure
 
-For percept (P):
+For percept \(P\):
 
 [
 Closure(P)
@@ -1198,7 +1198,7 @@ Closure(P)
 The smallest sufficient proof scope is:
 
 [
-Closure^*(P)
+Closure^*\(P\)
 ============
 
 \min_{\subseteq}
@@ -1271,7 +1271,7 @@ Freshness_{t_1}
 )
 ]
 
-A previous validation at (t_0) does not imply validation at (t_1).
+A previous validation at \(t_0\) does not imply validation at \(t_1\).
 
 ---
 
@@ -1324,7 +1324,7 @@ Commit(P)
 Commit eligibility:
 
 [
-Eligible_{commit}(P)
+Eligible_{commit}\(P\)
 ====================
 
 Valid(P)
@@ -1339,7 +1339,7 @@ ConstraintValid(P)
 But:
 
 [
-Eligible_{commit}(P)=1
+Eligible_{commit}\(P\)=1
 ]
 
 still represents eligibility, not evidence that commit occurred.
@@ -1509,7 +1509,7 @@ AMOS_MODEL
 
 # 38. L03-EQ-032 — Sensitivity
 
-For conclusion/percept (P), define candidate sensitivity to premise (d_i):
+For conclusion/percept \(P\), define candidate sensitivity to premise \(d_i\):
 
 [
 Sens(P,d_i)

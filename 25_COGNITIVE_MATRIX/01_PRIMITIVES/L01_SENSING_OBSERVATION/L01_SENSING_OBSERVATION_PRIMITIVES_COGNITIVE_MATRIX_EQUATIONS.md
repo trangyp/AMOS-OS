@@ -162,26 +162,26 @@ NoProofPromotion
 
 | Symbol              | Meaning                                 | Type              |
 | ------------------- | --------------------------------------- | ----------------- |
-| (E_t)               | environment or source state at time (t) | environment state |
-| (A_t)               | observing agent or sensing system       | observer          |
-| (C_t)               | sensing channel                         | channel           |
-| (M_t)               | measurement/acquisition method          | method            |
-| (I_t)               | sensing instrument or tool              | instrument        |
+| \(E_t\)               | environment or source state at time (t) | environment state |
+| \(A_t\)               | observing agent or sensing system       | observer          |
+| \(C_t\)               | sensing channel                         | channel           |
+| \(M_t\)               | measurement/acquisition method          | method            |
+| \(I_t\)               | sensing instrument or tool              | instrument        |
 | (O_t^{raw})         | raw observation                         | observation       |
-| (O_t)               | normalized typed observation            | observation       |
-| (Y_t)               | measured value                          | measurement       |
-| (P_t)               | provenance state                        | provenance        |
-| (Q_t)               | quality state                           | quality           |
-| (U_t)               | uncertainty state                       | uncertainty       |
-| (F_t)               | freshness state                         | freshness         |
+| \(O_t\)               | normalized typed observation            | observation       |
+| \(Y_t\)               | measured value                          | measurement       |
+| \(P_t\)               | provenance state                        | provenance        |
+| \(Q_t\)               | quality state                           | quality           |
+| \(U_t\)               | uncertainty state                       | uncertainty       |
+| \(F_t\)               | freshness state                         | freshness         |
 | (\Sigma_t)          | scope                                   | scope             |
-| (R_t)               | regime                                  | regime            |
-| (V_t)               | validation state                        | validation        |
-| (D_t)               | dependency state                        | dependency graph  |
+| \(R_t\)               | regime                                  | regime            |
+| \(V_t\)               | validation state                        | validation        |
+| \(D_t\)               | dependency state                        | dependency graph  |
 | (Auth_t)            | authority state                         | governance        |
 | (H_t,M_t^{HML},L_t) | H/M/L scale states                      | scale state       |
 
-The use of (M_t) for acquisition method and `M` for middle H/M/L scale should not occur in the same implementation without namespace disambiguation.
+The use of \(M_t\) for acquisition method and `M` for middle H/M/L scale should not occur in the same implementation without namespace disambiguation.
 
 Preferred implementation notation:
 
@@ -390,7 +390,7 @@ L_{\mathcal{T}}
 
 Loss(
 O,
-\mathcal{T}(O)
+\mathcal{T}\(O\)
 )
 }
 ]
@@ -748,7 +748,7 @@ OBSERVATION
 
 # 21. Source Claim Equation
 
-If a document or source states claim (C):
+If a document or source states claim \(C\):
 
 [
 \boxed{
@@ -791,7 +791,7 @@ then:
 Class(D)=DERIVED
 ]
 
-unless an independent direct observation establishes (D).
+unless an independent direct observation establishes \(D\).
 
 ---
 
@@ -917,7 +917,7 @@ when observation availability is load-bearing.
 
 # 27. Missingness Equation
 
-Let (m_i) indicate missingness:
+Let \(m_i\) indicate missingness:
 
 [
 m_i
@@ -1034,7 +1034,7 @@ t-t_o
 }
 ]
 
-when (t_o) is the applicable observation timestamp.
+when \(t_o\) is the applicable observation timestamp.
 
 ---
 
@@ -1125,7 +1125,7 @@ exclusion
 
 # 34. Scope Compatibility
 
-For observation (O) and claim (C):
+For observation \(O\) and claim \(C\):
 
 [
 \boxed{
@@ -1216,7 +1216,7 @@ Revalidate(D_R)
 }
 ]
 
-where (D_R) is the set of regime-dependent observations and descendants.
+where \(D_R\) is the set of regime-dependent observations and descendants.
 
 ---
 
@@ -1243,7 +1243,7 @@ HML
 
 # 40. Resolution Constraint
 
-For conclusion (C):
+For conclusion \(C\):
 
 [
 \boxed{
@@ -1339,7 +1339,7 @@ For transformation (\mathcal{T}):
 
 [
 \boxed{
-U(\mathcal{T}(O))
+U(\mathcal{T}\(O\))
 \ge
 ResidualUncertainty(O,\mathcal{T})
 }
@@ -1351,7 +1351,7 @@ This means transformations may reduce some uncertainties but cannot silently era
 
 # 45. Confidence Ceiling Equation
 
-For observation-dependent conclusion (C):
+For observation-dependent conclusion \(C\):
 
 [
 \boxed{
@@ -1440,7 +1440,7 @@ For transformation:
 O'
 ==
 
-\mathcal{T}(O)
+\mathcal{T}\(O\)
 ]
 
 then:
@@ -1467,7 +1467,7 @@ G_P=(V_P,E_P)
 
 be a provenance ancestry graph.
 
-For evidence items (e_i,e_j):
+For evidence items \(e_i,e_j\):
 
 [
 SharedRoot(e_i,e_j)=TRUE
@@ -1800,7 +1800,7 @@ No direct inference from tool availability to permission is valid.
 
 # 61. Proposal / Commit Equation
 
-For observation admission proposal (P_O):
+For observation admission proposal \(P_O\):
 
 [
 \boxed{
@@ -1833,7 +1833,7 @@ where relevant.
 
 # 62. Read-Set Equation
 
-For consequential observation decision (C):
+For consequential observation decision \(C\):
 
 [
 \boxed{
@@ -2014,7 +2014,7 @@ E_{ij}
 (parent_i,child_j,type,loadBearing)
 ]
 
-The dependency closure of claim (C) is:
+The dependency closure of claim \(C\) is:
 
 [
 \boxed{
@@ -2372,7 +2372,7 @@ where `Do` denotes an explicit intervention conceptually, not necessarily Pearl'
 
 # 85. Sampling Equation
 
-For sampled environment (E):
+For sampled environment \(E\):
 
 [
 \boxed{
@@ -2650,7 +2650,7 @@ AND_i\ I_i(O)
 }
 ]
 
-for mandatory invariants (I_i).
+for mandatory invariants \(I_i\).
 
 This is the primary formal enforcement form.
 
@@ -2706,7 +2706,7 @@ IrrecoverableFailure
 
 # 99. Agent Equation
 
-For sensing agent (A_i):
+For sensing agent \(A_i\):
 
 [
 \boxed{
@@ -2771,7 +2771,7 @@ Independence depends on provenance topology.
 
 # 101. Skill Invocation Equation
 
-For skill (K):
+For skill \(K\):
 
 [
 \boxed{
@@ -2856,7 +2856,7 @@ Observation protocol payloads should preserve type and provenance across the tra
 
 # 104. Evidence Dependency Equation
 
-For claim (C):
+For claim \(C\):
 
 [
 \boxed{
@@ -2901,7 +2901,7 @@ Confidence aggregation should occur across genuinely distinguishable support pat
 
 # 106. Falsifier Equation
 
-For claim (C), define falsifier set:
+For claim \(C\), define falsifier set:
 
 [
 \boxed{
@@ -3233,7 +3233,7 @@ Consistency must not automatically be interpreted as truth because repeated obse
 
 # 121. Correlated Error Equation
 
-If multiple observations share mechanism (S):
+If multiple observations share mechanism \(S\):
 
 [
 \boxed{
@@ -3253,7 +3253,7 @@ Therefore independent confidence aggregation is invalid unless correlation assum
 
 # 122. Revocation Equation
 
-If evidence or source (E) becomes revoked:
+If evidence or source \(E\) becomes revoked:
 
 [
 \boxed{
@@ -3286,7 +3286,7 @@ Quarantine differs from deletion.
 
 # 124. Repair-State Equation
 
-For failed observation state (S_f):
+For failed observation state \(S_f\):
 
 [
 \boxed{
@@ -3313,7 +3313,7 @@ V(O,e)
 }
 ]
 
-If load-bearing policy or state changes from epoch (e_1) to (e_2):
+If load-bearing policy or state changes from epoch \(e_1\) to \(e_2\):
 
 [
 e_1\neq e_2

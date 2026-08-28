@@ -155,11 +155,11 @@ $$
 
 where:
 
-- (K_i) = kernel subsystem;
-- (A_i) = architecture/operators;
-- (I_i) = invariant;
-- (P_i) = target runtime plane(s);
-- (G_i) = fail-closed fallback.
+- \(K_i\) = kernel subsystem;
+- \(A_i\) = architecture/operators;
+- \(I_i\) = invariant;
+- \(P_i\) = target runtime plane(s);
+- \(G_i\) = fail-closed fallback.
 
 This notation is **DERIVED normalization**.
 
@@ -237,7 +237,7 @@ The supplied architecture contains three principal regions:
                  │                                 │
           ULK ALUs 0–5                         K_MVCC
           MURK 19×19                           K_CAS
-          QLS multi-state              K_ATOMIC_MULTI_RSCF
+          QLS multi-state              [[K_ATOMIC_MULTI_RSCF]]
                  │                                 │
                  └────────────────┬────────────────┘
                                   │
@@ -260,7 +260,7 @@ The diagram explicitly names:
 - QLS;
 - K_MVCC;
 - K_CAS;
-- K_ATOMIC_MULTI_RSCF;
+- [[K_ATOMIC_MULTI_RSCF]];
 - K_FAILURE_RECOVERY.
 
 The table additionally contains:
@@ -450,10 +450,10 @@ Its exact ontology remains ULK/Trang ∅ dependent.
 ULK's fail-closed fallback is:
 
 $$
-Revert\ to\ Ground\ State\ (S_0)
+Revert\ to\ Ground\ State\ \(S_0\)
 $$
 
-This gives (S_0) an explicit recovery role inside the kernel matrix.
+This gives \(S_0\) an explicit recovery role inside the kernel matrix.
 
 ---
 
@@ -579,7 +579,7 @@ The invariant explicitly uses conjunction.
 
 The matrix does not define:
 
-- (G);
+- \(G\);
 - `Liberties`;
 - `TerritoryDominance`;
 - neighborhood topology;
@@ -911,7 +911,7 @@ Independent implementation verification would require evidence that no observabl
 
 K_CAS concerns an atomic state transition.
 
-K_ATOMIC_MULTI_RSCF concerns a multi-capsule cross-plane commit.
+[[K_ATOMIC_MULTI_RSCF]] concerns a multi-capsule cross-plane commit.
 
 Therefore:
 
@@ -925,10 +925,10 @@ unless explicitly bound.
 
 ---
 
-# 44. K_ATOMIC_MULTI_RSCF
+# 44. [[K_ATOMIC_MULTI_RSCF]]
 
 ```yaml
-K_ATOMIC_MULTI_RSCF:
+[[K_ATOMIC_MULTI_RSCF]]:
 
   architecture:
     MULTI_CAPSULE_CROSS_PLANE_COMMIT_COORDINATOR
@@ -980,7 +980,7 @@ Therefore do not silently weaken the invariant to one-way implication.
 
 # 47. Atomic Multi-RSCF Meaning
 
-At source-model level, commit is tied to successful validation of all relevant (R_i).
+At source-model level, commit is tied to successful validation of all relevant \(R_i\).
 
 A conservative representation is:
 
@@ -1021,7 +1021,7 @@ Those require implementation and failure-injection evidence.
 
 ---
 
-# 50. K_ATOMIC_MULTI_RSCF × v4.4 Reasoning
+# 50. [[K_ATOMIC_MULTI_RSCF]] × v4.4 Reasoning
 
 The kernel row strongly corresponds to the AMOS v4.4 reasoning pattern of **atomic multi-RSCF reasoning**.
 
@@ -1172,7 +1172,7 @@ and:
 
 `Immediate Clean State Reset`.
 
-The Kernel Matrix uses (S_0) in both ULK and K_FAILURE_RECOVERY.
+The Kernel Matrix uses \(S_0\) in both ULK and K_FAILURE_RECOVERY.
 
 This creates strong cross-matrix structural continuity:
 
@@ -1526,7 +1526,7 @@ Exact dependency remains source-dependent.
 
 DCP verifies a program/proof artifact before compilation.
 
-K_ATOMIC_MULTI_RSCF validates multiple RSCF capsules before commit.
+[[K_ATOMIC_MULTI_RSCF]] validates multiple RSCF capsules before commit.
 
 Both therefore implement source-defined pre-commit validation patterns at different objects/scopes.
 
@@ -1620,7 +1620,7 @@ This connects discrete topology to the Models plane.
 
 # 84. Control Plane
 
-`03_CONTROL_PLANE` receives K_ATOMIC_MULTI_RSCF.
+`03_CONTROL_PLANE` receives [[K_ATOMIC_MULTI_RSCF]].
 
 This routes cross-capsule commit coordination into governance/control architecture.
 
@@ -1628,7 +1628,7 @@ This routes cross-capsule commit coordination into governance/control architectu
 
 # 85. Schemas Plane
 
-`16_SCHEMAS` receives K_ATOMIC_MULTI_RSCF.
+`16_SCHEMAS` receives [[K_ATOMIC_MULTI_RSCF]].
 
 This is significant because multi-RSCF atomicity is therefore not represented solely as runtime behavior; it also crosses schema structure.
 
@@ -2032,7 +2032,7 @@ S_{t+1}
 \tau(\Pi_{\mathcal C}(S_t\otimes U_t))
 $$
 
-does not itself prove that the current mutable state remains (S_t) when commit occurs.
+does not itself prove that the current mutable state remains \(S_t\) when commit occurs.
 
 CAS can provide a separate state-match gate.
 
@@ -2105,7 +2105,7 @@ SINGLE TRANSITION SCOPE
       │
       ▼
 MULTI-CAPSULE SCOPE
-   K_ATOMIC_MULTI_RSCF
+   [[K_ATOMIC_MULTI_RSCF]]
       │
       ▼
 RECOVERY SCOPE
@@ -2253,7 +2253,7 @@ This classification is **DERIVED**.
 
 # 120. Failure ≠ Same Recovery Action
 
-A failed QCLA causal claim should not automatically trigger an (S_0) runtime reset.
+A failed QCLA causal claim should not automatically trigger an \(S_0\) runtime reset.
 
 A CAS mismatch should not automatically imply epistemic invalidation.
 
@@ -2309,9 +2309,9 @@ This is **DERIVED** from the source's rollback/reset architecture and AMOS recov
 
 # 123. Ground-State Escalation
 
-(S_0) should be treated as a stronger recovery basin than local rollback when the source-defined recovery path requires it.
+\(S_0\) should be treated as a stronger recovery basin than local rollback when the source-defined recovery path requires it.
 
-Do not default every local error to (S_0) unless dependency closure makes local repair unsafe.
+Do not default every local error to \(S_0\) unless dependency closure makes local repair unsafe.
 
 ---
 
@@ -2508,7 +2508,7 @@ The local fast path is only valid if capsules are genuinely independent with res
 
 # 134. Coordination Avoidance Boundary
 
-The existence of K_ATOMIC_MULTI_RSCF does not mean every operation requires global coordination.
+The existence of [[K_ATOMIC_MULTI_RSCF]] does not mean every operation requires global coordination.
 
 Conversely, coordination should not be avoided when atomic multi-capsule closure is load-bearing.
 
@@ -2597,13 +2597,13 @@ This is a cross-matrix dependency, not evidence that the kernel itself performs 
 
 | Framework   | Kernel Relation                                           | Status                                |
 | ----------- | --------------------------------------------------------- | ------------------------------------- |
-| Trang ∅     | ULK / K_FAILURE_RECOVERY via (S_0)                        | Strong structural correspondence      |
+| Trang ∅     | ULK / K_FAILURE_RECOVERY via \(S_0\)                        | Strong structural correspondence      |
 | TRA         | ULK / Meta-Logic via Canon + Kernel                       | Structural correspondence             |
 | Khung Trang | MURK / topology family                                    | Plausible structural correspondence   |
 | UBI         | No explicit dedicated kernel row here                     | GAP / external dependency             |
 | TSS         | MURK/Models may be relevant, but no explicit binding      | GAP unless sourced                    |
 | TPE         | MURK/Go topology may be relevant, but no explicit binding | GAP unless sourced                    |
-| Heritage    | K_ATOMIC_MULTI_RSCF governance adjacency                  | Structural, not identity              |
+| Heritage    | [[K_ATOMIC_MULTI_RSCF]] governance adjacency                  | Structural, not identity              |
 | GMEF        | DCP / CAS / Multi-RSCF / Recovery                         | Strong operational correspondence     |
 | ULK         | ULK ALU 0–5                                               | Direct naming/operator correspondence |
 
@@ -2697,7 +2697,7 @@ That source should govern exact:
 
 # 147. Kernel Matrix × Atomic Multi-RSCF
 
-`K_ATOMIC_MULTI_RSCF` is explicitly linked.
+`[[K_ATOMIC_MULTI_RSCF]]` is explicitly linked.
 
 That source should govern exact:
 
@@ -2977,7 +2977,7 @@ TOTAL_KERNEL_MATRIX:
       fallback:
         STATE_MISMATCH_REJECTION
 
-    K_ATOMIC_MULTI_RSCF:
+    [[K_ATOMIC_MULTI_RSCF]]:
       targets:
         - 03_CONTROL_PLANE
         - 16_SCHEMAS
@@ -3120,7 +3120,7 @@ RSCF_STATE_TOPOLOGY:
 # 154. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >
@@ -3444,7 +3444,7 @@ This artifact MUST NOT by itself be used to claim:
 1. `FAIL_CLOSED_GATED` proves no fail-open defect exists.
 1. ULK's symbols have conventional mathematical meanings.
 1. (\\emptyset) means deletion.
-1. (S_0) means literal physical nothingness.
+1. \(S_0\) means literal physical nothingness.
 1. ULK's state transition is externally empirically validated.
 1. ULK's fallback always restores state without loss.
 1. MURK is identical to conventional Go.
@@ -3600,7 +3600,7 @@ CAS(S_t,S_expected,S_new)
 
 STATE MISMATCH REJECTION
 
-K_ATOMIC_MULTI_RSCF
+[[K_ATOMIC_MULTI_RSCF]]
 
 MULTI-CAPSULE CROSS-PLANE COMMIT
 
@@ -3800,7 +3800,7 @@ RSCF_RELATIONS:
       K_CAS
 
   - ROUTES:
-      K_ATOMIC_MULTI_RSCF
+      [[K_ATOMIC_MULTI_RSCF]]
 
   - ROUTES:
       K_FAILURE_RECOVERY
@@ -3834,7 +3834,7 @@ RSCF_RELATIONS:
       - "K_KERNEL"
       - "[[K_MVCC]]"
       - "[[K_CAS]]"
-      - "K_ATOMIC_MULTI_RSCF"
+      - "[[K_ATOMIC_MULTI_RSCF]]"
       - "[[K_FAILURE_RECOVERY]]"
       - "[[K_FAIL_CLOSED]]"
       - "[[K_PROVENANCE]]"
@@ -3881,7 +3881,7 @@ TOTAL_KERNEL_MATRIX_INGESTION:
       - PRESERVE_GO_BOARD_19X19
       - PRESERVE_K_MVCC
       - PRESERVE_K_CAS
-      - PRESERVE_K_ATOMIC_MULTI_RSCF
+      - PRESERVE_[[K_ATOMIC_MULTI_RSCF]]
       - PRESERVE_K_FAILURE_RECOVERY
       - PRESERVE_META_LOGIC_CORE_19
       - PRESERVE_QCLA
@@ -4035,7 +4035,7 @@ EXPECTED STATE
 MULTI-CAPSULE VALIDATION
    │
    ▼
-K_ATOMIC_MULTI_RSCF
+[[K_ATOMIC_MULTI_RSCF]]
    │
    ▼
 COMMIT / ROLLBACK
@@ -4208,7 +4208,7 @@ The decisive integrity boundaries are:
 
 **FAILURES SHOULD REMAIN LOCAL AND TYPED WHEN DEPENDENCY CLOSURE ALLOWS; GLOBAL RESET IS NOT THE DEFAULT FOR EVERY LOCAL ERROR.**
 
-**GROUND-STATE (S_0) IS A SOURCE-DEFINED RECOVERY BASIN, NOT A LICENSE TO INVENT ITS ONTOLOGICAL OR IMPLEMENTATION SEMANTICS.**
+**GROUND-STATE \(S_0\) IS A SOURCE-DEFINED RECOVERY BASIN, NOT A LICENSE TO INVENT ITS ONTOLOGICAL OR IMPLEMENTATION SEMANTICS.**
 
 Operationally:
 
@@ -4347,7 +4347,7 @@ AMOS can therefore represent a unified kernel execution mesh while preserving **
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[02_KERNEL_MOC]] · [[ULK_LOGIC_KERNEL]] · [[K_MVCC]] · [[K_CAS]] · [[MVCC_CAS]] · K_ATOMIC_MULTI_RSCF · [[K_FAILURE_RECOVERY]] · [[REALITY_X_ULK_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_CANON]] · K_KERNEL · [[K_FAIL_CLOSED]] · [[K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[K_GOVERNED_EVOLUTION]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[02_KERNEL_MOC]] · [[ULK_LOGIC_KERNEL]] · [[K_MVCC]] · [[K_CAS]] · [[MVCC_CAS]] · [[K_ATOMIC_MULTI_RSCF]] · [[K_FAILURE_RECOVERY]] · [[REALITY_X_ULK_MATRIX]] · [[TOTAL_CANON_MATRIX]] · [[TOTAL_FRAMEWORK_MATRIX]] · [[K_RSCF]] · [[K_HML]] · [[K_CANON]] · K_KERNEL · [[K_FAIL_CLOSED]] · [[K_PROVENANCE]] · K_CAUSAL_FIREWALL · [[K_GOVERNED_EVOLUTION]]
 
 ---
 
@@ -4399,7 +4399,7 @@ RSCF-RELATIONS:
 
 - ROUTES: K_CAS
 
-- ROUTES: K_ATOMIC_MULTI_RSCF
+- ROUTES: [[K_ATOMIC_MULTI_RSCF]]
 
 - ROUTES: K_FAILURE_RECOVERY
 
@@ -4431,7 +4431,7 @@ RSCF-RELATIONS:
 
 - RELATED_TO: [[K_CAS]]
 
-- RELATED_TO: K_ATOMIC_MULTI_RSCF
+- RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
 
 - RELATED_TO: [[K_FAILURE_RECOVERY]]
 

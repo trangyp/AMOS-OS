@@ -2116,7 +2116,7 @@ PASS
 
 ---
 
-**Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · AUTHORITATIVE_STATE|Authoritative State · PLACEMENT_RULES|Placement Rules · 00_ROOT_NAMING_STANDARD|Naming Standard · AMOS Canon · CANON_MAP|Canon Map · AMOS_CORE_LAWS|AMOS Core Laws · INVARIANT_REGISTRY|Invariant Registry · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · RUNTIME_MAP|Runtime Map · MEMORY_MEMORY_MAP|Memory Map · AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture · STATE_STATE_MAP|State Map · SCHEMA_MAP|Schema Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · SECURITY_MAP|Security Map · TEST_MAP|Tests · OPERATIONS_MAP|Operations
+**Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · AUTHORITATIVE_STATE|Authoritative State · PLACEMENT_RULES|Placement Rules · 00_ROOT_NAMING_STANDARD|Naming Standard · AMOS Canon · CANON_MAP|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · INVARIANT_REGISTRY|Invariant Registry · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · RUNTIME_MAP|Runtime Map · MEMORY_MEMORY_MAP|Memory Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · STATE_STATE_MAP|State Map · SCHEMA_MAP|Schema Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · SECURITY_MAP|Security Map · TEST_MAP|Tests · OPERATIONS_MAP|Operations
 
 ```
 ```

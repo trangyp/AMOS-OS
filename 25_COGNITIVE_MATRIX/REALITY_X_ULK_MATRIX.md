@@ -343,7 +343,7 @@ Each row should be treated as an atomic semantic bundle.
 
 For example:
 
-Potential (P)
+Potential \(P\)
 +
 ALU-0
 +

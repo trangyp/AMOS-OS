@@ -239,7 +239,7 @@ tags:
     - RSCF
     - GMEF
     - HML
-    - PROOF_CAPSULE
+    - [[L19_PROOF_CAPSULE]]
     - COMPETING_HYPOTHESES
     - UNCERTAINTY_VECTOR
     - FRACTAL_KNOWLEDGE_NETWORK
@@ -3702,7 +3702,7 @@ This makes `TESTS.md` the executable-assurance specification beside `GENERATOR_C
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · GENERATORS_MAP · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

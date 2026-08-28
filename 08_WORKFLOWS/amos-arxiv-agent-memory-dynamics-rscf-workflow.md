@@ -17,6 +17,11 @@ tags:
 - topic/research
 - capability/memory
 - rscf/epistemic
+- rscf/S-state
+- rscf/M-memory
+- rscf/K-compression
+- rscf/T-topology
+- rscf/type-system
 - orchestration/pipeline
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -27,6 +32,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

@@ -219,7 +219,7 @@ Validate(G,I,A,C)
 Result
 ]
 
-where (C) is the complete declared validation context.
+where \(C\) is the complete declared validation context.
 
 ---
 
@@ -1039,7 +1039,7 @@ Only load-bearing dependencies determine hard validation ceiling.
 
 # 28. Dependency closure
 
-For generated artifact (A):
+For generated artifact \(A\):
 
 [
 Closure(A)=

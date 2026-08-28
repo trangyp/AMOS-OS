@@ -723,7 +723,7 @@ B_{available}
 
 where:
 
-* (b_i) = attention assigned to target (i),
+* \(b_i\) = attention assigned to target (i),
 * (B_{available}) = available budget.
 
 Candidate output states:
@@ -1984,7 +1984,7 @@ attention_uncertainty:
 
 # 52. Confidence Ceiling
 
-For an allocation proposal (A):
+For an allocation proposal \(A\):
 
 [
 \boxed{
@@ -1994,7 +1994,7 @@ Conf(A)
 }
 ]
 
-for load-bearing premises (P_i).
+for load-bearing premises \(P_i\).
 
 Candidate expansion:
 

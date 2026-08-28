@@ -193,7 +193,7 @@ This notation is **DERIVED normalization**.
 The matrix can be represented structurally as:
 
 $$
-\mathcal R_{UBI\to COG}(B_i)
+\mathcal R_{UBI\to COG}\(B_i\)
 =
 (C_i,T_i,A_i)
 $$
@@ -1073,7 +1073,7 @@ Therefore near-boundary classifications are potentially fragile unless measureme
 
 Suppose a metric has uncertainty (\\epsilon).
 
-Then near a threshold (T), a robust trigger requires sufficient separation from (T).
+Then near a threshold \(T\), a robust trigger requires sufficient separation from \(T\).
 
 The artifact supplies no (\\epsilon).
 
@@ -1167,7 +1167,7 @@ $$
 \{A_i\mid T_i(x_i)=TRUE\}
 $$
 
-where multiple (A_i) may coexist.
+where multiple \(A_i\) may coexist.
 
 This is **DERIVED** and requires the binding to determine actual runtime semantics.
 
@@ -1349,7 +1349,7 @@ Exact source/target plane identifiers beyond `25_COGNITIVE_MATRIX` are not enume
 
 The presence of a cross-plane mapping does not establish atomic transaction semantics.
 
-That would require a binding to mechanisms such as `K_ATOMIC_MULTI_RSCF` or another authoritative protocol.
+That would require a binding to mechanisms such as `[[K_ATOMIC_MULTI_RSCF]]` or another authoritative protocol.
 
 No such binding is explicitly supplied here.
 
@@ -1591,19 +1591,19 @@ should not automatically be upgraded to transactional atomicity.
 A normalized predicate set is:
 
 $$
-T_{NBI}(L)=[L>0.85]
+T_{NBI}\(L\)=[L>0.85]
 $$
 
 $$
-T_{NEI}(V)=[V<-0.60]
+T_{NEI}\(V\)=[V<-0.60]
 $$
 
 $$
-T_{SI}(F)=[F>0.75]
+T_{SI}\(F\)=[F>0.75]
 $$
 
 $$
-T_{BEI}(C)=[C<0.70]
+T_{BEI}\(C\)=[C<0.70]
 $$
 
 This is a **DERIVED mathematical normalization**.
@@ -1617,10 +1617,10 @@ The complete trigger state can be represented:
 $$
 \mathbf z=
 \begin{bmatrix}
-T_{NBI}(L)\\
-T_{NEI}(V)\\
-T_{SI}(F)\\
-T_{BEI}(C)
+T_{NBI}\(L\)\\
+T_{NEI}\(V\)\\
+T_{SI}\(F\)\\
+T_{BEI}\(C\)
 \end{bmatrix}
 $$
 
@@ -2557,7 +2557,7 @@ RSCF:
 # 117. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >
@@ -2985,7 +2985,7 @@ This artifact MUST NOT by itself be used to claim:
 1. Execution Throttle halts execution.
 1. Queue Delay cancels tasks.
 1. Enforcement actions are fail-closed fallbacks.
-1. UBI threshold crossing causes (S_0) reset.
+1. UBI threshold crossing causes \(S_0\) reset.
 1. UBI threshold crossing causes rollback.
 1. UBI threshold crossing causes system halt.
 1. The four signals are statistically independent.
@@ -3023,7 +3023,7 @@ This artifact MUST NOT by itself be used to claim:
 1. Cache eviction is definitely K_MVCC behavior.
 1. Resynchronization is definitely an epoch-clock operation.
 1. P3 is definitely a Canon-plane operation.
-1. Multi-trigger enforcement definitely uses K_ATOMIC_MULTI_RSCF.
+1. Multi-trigger enforcement definitely uses [[K_ATOMIC_MULTI_RSCF]].
 1. Cross-plane routing implies cross-plane atomicity.
 1. Runtime implementation automatically validates the biological model.
 1. Biological validation automatically validates the runtime implementation.
@@ -3595,7 +3595,7 @@ The decisive integrity boundaries are:
 
 **ENFORCEMENT ACTIONS ARE NOT AUTOMATICALLY FAIL-CLOSED FALLBACKS.**
 
-**NO ROW AUTHORIZES AN (S_0) RESET, GLOBAL ROLLBACK, OR SYSTEM HALT BY ITSELF.**
+**NO ROW AUTHORIZES AN \(S_0\) RESET, GLOBAL ROLLBACK, OR SYSTEM HALT BY ITSELF.**
 
 **CROSS-PLANE ROUTING DOES NOT AUTOMATICALLY IMPLY CROSS-PLANE TRANSACTIONAL ATOMICITY.**
 

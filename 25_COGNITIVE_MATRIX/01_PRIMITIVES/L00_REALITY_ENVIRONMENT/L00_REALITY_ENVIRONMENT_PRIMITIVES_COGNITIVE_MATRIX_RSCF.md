@@ -696,8 +696,8 @@ G_R
 
 where:
 
-* (V_R) = RSCF nodes;
-* (E_R) = typed dependency relations.
+* \(V_R\) = RSCF nodes;
+* \(E_R\) = typed dependency relations.
 
 Possible edges:
 
@@ -719,7 +719,7 @@ REQUIRES
 
 # 23. Load-Bearing Premises
 
-For claim (C), define:
+For claim \(C\), define:
 
 [
 LB(C)
@@ -772,7 +772,7 @@ This is an AMOS optimization model rather than a universal theorem.
 
 # 25. Confidence Ceiling
 
-For claim (C):
+For claim \(C\):
 
 [
 \boxed{
@@ -815,7 +815,7 @@ Let:
 A(E_i)
 ]
 
-denote the ancestry of evidence (E_i).
+denote the ancestry of evidence \(E_i\).
 
 Then substantial ancestry overlap creates correlation risk:
 
@@ -893,7 +893,7 @@ A claim cannot silently escape this envelope.
 
 # 30. Scope Compatibility
 
-For evidence (E) and claim (C):
+For evidence \(E\) and claim \(C\):
 
 [
 \boxed{
@@ -1198,7 +1198,7 @@ A strong RSCF states what evidence would cause downgrade, invalidation, or rejec
 
 # 42. Invalidation Condition
 
-For claim (C):
+For claim \(C\):
 
 [
 \boxed{
@@ -2993,21 +2993,21 @@ G
 
 where:
 
-* (C) = claim;
-* (P) = premises;
-* (E) = evidence;
+* \(C\) = claim;
+* \(P\) = premises;
+* \(E\) = evidence;
 * (Prov) = provenance;
-* (S) = scope;
-* (R) = regime;
-* (T) = temporal validity;
+* \(S\) = scope;
+* \(R\) = regime;
+* \(T\) = temporal validity;
 * (Cause) = causal level;
-* (D) = dependencies;
-* (H) = competing hypotheses;
-* (F) = falsifiers;
-* (U) = uncertainty;
+* \(D\) = dependencies;
+* \(H\) = competing hypotheses;
+* \(F\) = falsifiers;
+* \(U\) = uncertainty;
 * (Conf) = confidence ceiling;
-* (K) = consequence;
-* (G) = governance.
+* \(K\) = consequence;
+* \(G\) = governance.
 
 ---
 
@@ -3549,7 +3549,7 @@ The governing architectural principle is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · RSCF Modeler · Cosmo_Brain_BRIDGE_INDEX · AMOS Provenance Sybil Hardening · AMOS Causal Hierarchy Governor · Cosmo_Brain_BRIDGE_INDEX
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]] · RSCF Modeler · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS Provenance Sybil Hardening · AMOS Causal Hierarchy Governor · [[Cosmo_Brain_BRIDGE_INDEX]]
 
 ```
 ```

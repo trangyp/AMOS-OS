@@ -1020,7 +1020,7 @@ one benchmark → general capability
 
 ## FM-L02-030 — Regime Leakage
 
-Priority evidence from regime (R_1) is applied in (R_2) without compatibility validation.
+Priority evidence from regime \(R_1\) is applied in \(R_2\) without compatibility validation.
 
 ---
 

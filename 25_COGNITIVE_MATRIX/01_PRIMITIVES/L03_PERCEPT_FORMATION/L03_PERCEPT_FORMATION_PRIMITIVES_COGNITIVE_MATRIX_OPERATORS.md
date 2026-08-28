@@ -480,7 +480,7 @@ NORMALIZE(O,R_s,R_t)
 O'
 ]
 
-where (R_s) and (R_t) are source and target representations.
+where \(R_s\) and \(R_t\) are source and target representations.
 
 Invariant:
 
@@ -1176,7 +1176,7 @@ Purpose:
 Signature:
 
 [
-A_{L\rightarrow M}(X_L)
+A_{L\rightarrow M}\(X_L\)
 \rightarrow
 X_M
 ]
@@ -1201,7 +1201,7 @@ Purpose:
 Signature:
 
 [
-A_{M\rightarrow H}(X_M)
+A_{M\rightarrow H}\(X_M\)
 \rightarrow
 X_H
 ]

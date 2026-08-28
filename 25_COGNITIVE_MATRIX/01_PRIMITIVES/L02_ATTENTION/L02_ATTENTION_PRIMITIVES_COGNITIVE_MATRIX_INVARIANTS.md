@@ -164,7 +164,7 @@ A_{t+1}
 
 denote application of an attention operator (o).
 
-For invariant (I_k):
+For invariant \(I_k\):
 
 [
 I_k(A_t)=true
@@ -578,7 +578,7 @@ Claim-class promotion requires appropriate evidence.
 
 ## L02-INV-017 — Confidence Ceiling Preservation
 
-If conclusion (C) depends on load-bearing premises (p_1...p_n):
+If conclusion \(C\) depends on load-bearing premises (p_1...p_n):
 
 [
 Conf(C)
@@ -747,7 +747,7 @@ must not be silently merged.
 
 ## L02-INV-029 — Regime Shift Requires Revalidation
 
-If applicability depends on regime (G_a) and the system moves to (G_b):
+If applicability depends on regime \(G_a\) and the system moves to \(G_b\):
 
 [
 G_a \neq G_b

@@ -482,12 +482,12 @@ U
 
 where:
 
-* (O) = observational support,
-* (P) = provenance integrity,
-* (F) = freshness,
-* (S) = scope compatibility,
-* (G) = regime compatibility,
-* (U) = uncertainty.
+* \(O\) = observational support,
+* \(P\) = provenance integrity,
+* \(F\) = freshness,
+* \(S\) = scope compatibility,
+* \(G\) = regime compatibility,
+* \(U\) = uncertainty.
 
 `RC` is an AMOS architectural construct, not a universal empirical metric unless a domain supplies a validated operationalization.
 
@@ -508,8 +508,8 @@ O_t
 
 where:
 
-* (R_t) = environmental state,
-* (O_t) = observation produced from that state.
+* \(R_t\) = environmental state,
+* \(O_t\) = observation produced from that state.
 
 In general:
 
@@ -534,7 +534,7 @@ X_t
 }
 ]
 
-where (X_t) is an internal representation.
+where \(X_t\) is an internal representation.
 
 Therefore:
 
@@ -542,7 +542,7 @@ Therefore:
 X_t
 ===
 
-\mathcal{R}(\mathcal{O}(R_t))
+\mathcal{R}(\mathcal{O}\(R_t\))
 ]
 
 and not:
@@ -603,7 +603,7 @@ R_{t+1}
 
 where:
 
-* (A_t) = AMOS or agent action,
+* \(A_t\) = AMOS or agent action,
 * (\Xi_t) = external influences not controlled by AMOS.
 
 Therefore:
@@ -678,7 +678,7 @@ O_{t+1}
 }
 ]
 
-where (D_t) is a governed decision state.
+where \(D_t\) is a governed decision state.
 
 ---
 
@@ -828,7 +828,7 @@ operational_state
 ]
 ]
 
-A conclusion valid under (G_1) does not automatically transfer to (G_2).
+A conclusion valid under \(G_1\) does not automatically transfer to \(G_2\).
 
 [
 \boxed{
@@ -1167,7 +1167,7 @@ until externally validated.
 
 # 33. Digital Twin Boundary
 
-A digital twin (D_t) is a representation:
+A digital twin \(D_t\) is a representation:
 
 [
 D_t
@@ -1394,14 +1394,14 @@ P_t
 
 where:
 
-* (E_t) = environment state,
-* (O_t) = observation state,
-* (X_t) = internal representation,
-* (C_t) = active constraints,
-* (G_t) = regime,
-* (B_t) = boundary state,
-* (A_t) = action/effect state,
-* (P_t) = provenance state.
+* \(E_t\) = environment state,
+* \(O_t\) = observation state,
+* \(X_t\) = internal representation,
+* \(C_t\) = active constraints,
+* \(G_t\) = regime,
+* \(B_t\) = boundary state,
+* \(A_t\) = action/effect state,
+* \(P_t\) = provenance state.
 
 ---
 
@@ -2225,9 +2225,9 @@ G
 
 where:
 
-* (P) = provenance,
-* (U) = uncertainty,
-* (G) = regime.
+* \(P\) = provenance,
+* \(U\) = uncertainty,
+* \(G\) = regime.
 
 New observation should update only dependent internal state.
 
@@ -2268,7 +2268,7 @@ d(R_{t_1},R_{t_2})
 
 for a domain-valid distance (d).
 
-Large drift may invalidate assumptions made at (t_1).
+Large drift may invalidate assumptions made at \(t_1\).
 
 However:
 
@@ -2914,12 +2914,12 @@ O_{t+1}
 
 where:
 
-* (R_t) = external/environment state,
-* (O_t) = observation,
-* (X_t) = internal representation,
-* (E_t) = admitted evidence,
-* (P_t) = proposal,
-* (A_t) = governed action.
+* \(R_t\) = external/environment state,
+* \(O_t\) = observation,
+* \(X_t\) = internal representation,
+* \(E_t\) = admitted evidence,
+* \(P_t\) = proposal,
+* \(A_t\) = governed action.
 
 The architecture must preserve the type of every state transition.
 
@@ -2955,7 +2955,7 @@ The architectural purpose of `L00_REALITY_ENVIRONMENT` is therefore to keep AMOS
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Measurement_Integrity · AMOS_Information_Boundary_Governor · Cosmo_Brain_BRIDGE_INDEX · AMOS_Execution_Provenance_Replay · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · AMOS_Measurement_Integrity · AMOS_Information_Boundary_Governor · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Execution_Provenance_Replay · [[AMOS_Simulation_Kernel_v0_Math_Foundations]] · system_scan_agent · automation_profiles
 
 ---
 

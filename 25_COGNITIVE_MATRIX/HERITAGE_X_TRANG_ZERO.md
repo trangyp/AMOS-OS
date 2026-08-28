@@ -326,7 +326,7 @@ The source states that when:
 ```text
 systemic overload (Ω)
 
-fragmentation (F)
+fragmentation \(F\)
 
 or model hallucination
 ```
@@ -1475,7 +1475,7 @@ The source names three degradation classes:
 ```text
 SYSTEMIC OVERLOAD (Ω)
 
-FRAGMENTATION (F)
+FRAGMENTATION \(F\)
 
 MODEL HALLUCINATION
 ```
@@ -2303,7 +2303,7 @@ SYSTEMIC OVERLOAD (Ω)
 with:
 
 ```text
-SEVERE SHOCKS (S)
+SEVERE SHOCKS \(S\)
 ```
 
 They are differently named source concepts.
@@ -4617,7 +4617,7 @@ RSCF_RELATIONS:
       - "[[K_CAUSAL_EPOCH]]"
       - "[[K_MVCC]]"
       - "[[K_CAS]]"
-      - "K_ATOMIC_MULTI_RSCF"
+      - "[[K_ATOMIC_MULTI_RSCF]]"
 
   - LINEAGE_TARGET:
       "[[AMOS_CORE_v4_4]]"
@@ -5792,7 +5792,7 @@ RSCF:
 # 200. Final Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim: >
     HERITAGE_X_TRANG_ZERO.md source-defines the conjunction
@@ -6243,7 +6243,7 @@ UNKNOWN/GAP.
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[HERITAGE_X_TRANG_ZERO_MATRIX]] · [[HERITAGE_X_TSS]] · [[AMOS_X_TRANG_REALITY]] · [[AMOS_X_QLS]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · K_ATOMIC_MULTI_RSCF
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[HERITAGE_X_TRANG_ZERO_MATRIX]] · [[HERITAGE_X_TSS]] · [[AMOS_X_TRANG_REALITY]] · [[AMOS_X_QLS]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]]
 
 ---
 
@@ -6307,7 +6307,7 @@ RSCF-RELATIONS:
 
 * RELATED_TO: [[K_CAS]]
 
-* RELATED_TO: K_ATOMIC_MULTI_RSCF
+* RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
 
 * LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
 

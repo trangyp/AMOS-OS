@@ -89,7 +89,7 @@ R restores viable integrity, not historical identity. Repair quality depends on 
 
 When a cascading fault spans epochs E_1 → E_2 → ... → E_n, single-epoch rollback is insufficient. DMER_L5 requires:
 
-1. **Fault Propagation Map**: Trace which distinctions (D) were mutated (M) in which epoch
+1. **Fault Propagation Map**: Trace which distinctions \(D\) were mutated \(M\) in which epoch
 2. **Entropy Origin Analysis**: Determine whether E accumulated locally or propagated from a prior epoch
 3. **Rewind Boundary Selection**: Identify the earliest epoch where the fault originated, not just where it manifested
 4. **Coordinated Rollback**: Rewind all dependent state across epochs simultaneously, not independently

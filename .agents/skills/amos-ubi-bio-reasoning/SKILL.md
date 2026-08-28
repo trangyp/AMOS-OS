@@ -14,6 +14,18 @@ This skill governs the execution of biological intelligence constraints, living-
 
 ## 1. Core Mathematical Primitives
 
+## Capabilities
+
+- **nbi_assessment**: Neurobiological Intelligence — cognitive load assessment
+- **nei_assessment**: Neuro-Emotional Intelligence — autonomic vagal coherence analysis
+- **si_assessment**: Social Intelligence — team interaction telemetry analysis
+- **bei_assessment**: Body-Element Intelligence — substrate distress evaluation
+- **quadratic_emergence_check**: Verify emergence condition ($e = i^2$)
+- **substrate_distress_veto**: Activate veto if $\tau_{\text{bio}} < 0.2$
+- **clock_pacing_recommendation**: 40Hz multi-agent clock pacing
+
+## 1. Core Mathematical Primitives
+
 1. **Non-Compensatory Alignment Formulation:**
    $$i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI})^{1/4}$$
    * If any single domain drops to zero ($x_k \to 0$), total alignment collapses ($i_{\text{UBI}} \to 0$).
@@ -58,3 +70,10 @@ This skill governs the execution of biological intelligence constraints, living-
 - **Scenario**: User says "Is this team's collective intelligence emerging?"
   - **Input**: Team interaction telemetry
   - **Output**: UBI 4-domain analysis (NBI/NEI/SI/BEI), quadratic emergence check ($e = i^2$), emergence throttling recommendation, RSCF proof capsule
+
+## Do not use
+
+- For generic biological analysis outside UBI 4-domain framework
+- To claim empirical validation of biological intelligence laws
+- As a substitute for domain-specific medical or neuroscience evidence
+- Outside biology/neuroscience domain reasoning

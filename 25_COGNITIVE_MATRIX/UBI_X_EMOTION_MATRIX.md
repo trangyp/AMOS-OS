@@ -250,7 +250,7 @@ $$
 X_H>0.8,\qquad v_t<-0.5
 $$
 
-where (X_H) is a placeholder for the missing source variable.
+where \(X_H\) is a placeholder for the missing source variable.
 
 The comma strongly suggests both conditions belong to the same row predicate, but the supplied source does not preserve an explicit logical operator.
 
@@ -310,9 +310,9 @@ does not satisfy that displayed predicate.
 
 ---
 
-# 8. Meaning of (v_t)
+# 8. Meaning of \(v_t\)
 
-The notation (v_t) plausibly denotes a time-indexed valence variable.
+The notation \(v_t\) plausibly denotes a time-indexed valence variable.
 
 However, that semantic expansion is not explicitly present in this artifact.
 
@@ -493,7 +493,7 @@ $$
 X_F<0.2,\qquad\tau_{bio}<0.4
 $$
 
-where (X_F) is a placeholder for the missing source variable.
+where \(X_F\) is a placeholder for the missing source variable.
 
 Do not infer the missing variable from the row label alone.
 
@@ -760,7 +760,7 @@ $$
 X_O>0.4,\qquad a_t\in[0.4,0.7]
 $$
 
-where (X_O) is a placeholder for the missing source variable.
+where \(X_O\) is a placeholder for the missing source variable.
 
 ---
 
@@ -808,13 +808,13 @@ both satisfy the interval condition.
 
 ---
 
-# 33. Meaning of (a_t)
+# 33. Meaning of \(a_t\)
 
-The symbol (a_t) plausibly represents a time-indexed affective variable such as arousal.
+The symbol \(a_t\) plausibly represents a time-indexed affective variable such as arousal.
 
 That semantic mapping is not explicitly defined in this artifact.
 
-Therefore preserve (a_t) as a source symbol until the knowledge binding is retrieved.
+Therefore preserve \(a_t\) as a source symbol until the knowledge binding is retrieved.
 
 ---
 
@@ -1337,7 +1337,7 @@ This could resolve all three missing variables and the missing target-plane rout
 
 ---
 
-# 66. (v_t) and (a_t) Relationship Gap
+# 66. \(v_t\) and \(a_t\) Relationship Gap
 
 The source uses both:
 
@@ -1373,7 +1373,7 @@ It does not establish:
 
 # 68. Temporal Freshness
 
-Because affective state can vary over time, stale values of (v_t), (a_t), (\\tau\_{bio}), or the missing first metric may invalidate current routing.
+Because affective state can vary over time, stale values of \(v_t\), \(a_t\), (\\tau\_{bio}), or the missing first metric may invalidate current routing.
 
 The artifact provides no freshness bound.
 
@@ -1657,7 +1657,7 @@ Preserve the relation as **CONDITIONAL** pending authoritative binding.
 
 # 88. Threat and Optimal Flow Could Conflict
 
-Because the missing first metrics are unresolved and (v_t) and (a_t) are distinct, the supplied table does not prove that High Threat and Optimal Flow are mutually exclusive.
+Because the missing first metrics are unresolved and \(v_t\) and \(a_t\) are distinct, the supplied table does not prove that High Threat and Optimal Flow are mutually exclusive.
 
 If both predicates can coexist, the system needs guard arbitration.
 
@@ -2184,7 +2184,7 @@ It must be bounded because:
 1. three trigger variables are missing;
 1. all Target Plane values are absent;
 1. conjunction semantics are not explicitly rendered;
-1. (v_t) and (a_t) are undefined here;
+1. \(v_t\) and \(a_t\) are undefined here;
 1. multi-state arbitration is unspecified;
 1. interaction with cognition Emergency is unspecified;
 1. guard implementation is unspecified;
@@ -2629,7 +2629,7 @@ RSCF:
 # 123. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >
@@ -2870,8 +2870,8 @@ This artifact MUST NOT by itself be used to claim:
 1. the missing Optimal-Flow trigger variable is known;
 1. all three missing variables are identical;
 1. all three missing variables are different;
-1. (v_t) definitively means valence;
-1. (a_t) definitively means arousal;
+1. \(v_t\) definitively means valence;
+1. \(a_t\) definitively means arousal;
 1. (\\tau\_{bio}) is defined by this matrix;
 1. all metrics use `[0,1]`;
 1. the thresholds are clinical thresholds;
@@ -2920,8 +2920,8 @@ This artifact MUST NOT by itself be used to claim:
 1. debounce exists;
 1. transition latency is known;
 1. measurement uncertainty is negligible;
-1. (v_t) and (a_t) are independent;
-1. (v_t) and (a_t) are orthogonal;
+1. \(v_t\) and \(a_t\) are independent;
+1. \(v_t\) and \(a_t\) are orthogonal;
 1. the model is empirically validated psychology;
 1. the model is empirically validated neuroscience;
 1. the model is clinically validated;
@@ -3436,7 +3436,7 @@ and enforcement through:
 
 `Gamma Coherence Lock`.
 
-Here (X_H), (X_F), and (X_O) are **noncanonical placeholders** for source variables missing from the supplied rendering.
+Here \(X_H\), \(X_F\), and \(X_O\) are **noncanonical placeholders** for source variables missing from the supplied rendering.
 
 The decisive integrity boundaries are:
 
@@ -3448,7 +3448,7 @@ The decisive integrity boundaries are:
 
 **THE COMMA-SEPARATED CONDITIONS APPEAR TO FORM COMPOUND ROW PREDICATES, BUT THE ORIGINAL LOGICAL CONNECTIVE IS NOT EXPLICITLY PRESERVED.**
 
-**(v_t), (a_t), AND (\\tau\_{bio}) MUST RETAIN THEIR SOURCE SYMBOLS UNTIL THEIR AUTHORITATIVE SEMANTICS ARE RECOVERED.**
+**\(v_t\), \(a_t\), AND (\\tau\_{bio}) MUST RETAIN THEIR SOURCE SYMBOLS UNTIL THEIR AUTHORITATIVE SEMANTICS ARE RECOVERED.**
 
 **`HIGH THREAT / ANXIETY`, `FATIGUE / APATHY`, AND `OPTIMAL FLOW` ARE AMOS MODEL STATES; THEY MUST NOT BE SILENTLY PROMOTED TO CLINICAL DIAGNOSES OR UNIVERSAL PSYCHOLOGICAL STATES.**
 

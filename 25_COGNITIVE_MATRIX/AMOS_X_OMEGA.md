@@ -3111,7 +3111,7 @@ RSCF:
 # 124. Omega Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     text: >

@@ -2648,7 +2648,7 @@ subject to exact canonical node-name reconciliation.
 # 87. Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
 

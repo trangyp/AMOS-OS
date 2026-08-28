@@ -18,6 +18,11 @@ tags:
 - topic/information
 - capability/ast
 - rscf/epistemic
+- rscf/T-topology
+- rscf/M-memory
+- rscf/E-entropy
+- rscf/Z-collapse
+- rscf/type-model
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -29,6 +34,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

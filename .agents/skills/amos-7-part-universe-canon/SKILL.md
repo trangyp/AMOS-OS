@@ -11,6 +11,15 @@ description: "AMOS 7-Part Universe Canon — Persistence Canon auditing structur
 - When identifying the genuine gap (Part II — Flow) that no other canon first-class covers
 - When mapping a system's persistence logic (orthogonal to the 10-part UTC composition canon)
 
+## Capabilities
+
+- **seven_part_audit**: Evaluate completeness across all 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination)
+- **collapse_diagnosis**: Map historical collapse events to 7-part lifecycle failures
+- **structural_completeness_check**: Identify which parts are present, missing, or decaying
+- **law_stack_integration**: Connect 7-part audit to LoL→R2→R4 canonical order enforcement
+- **persistence_analysis**: Analyze system persistence across temporal epochs
+- **enforcement_decay_detection**: Identify enforcement mechanism decay as root cause of failure
+
 ## Source
 `_00_Cosmo brain/2026-08-22 7-Part Universe Canon.md` (196 lines) + vault audit 2026-08-23
 
@@ -95,3 +104,10 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme
+
+## Do not use
+
+- For generic structural analysis outside the 7-part canon framework
+- To claim empirical validation of consciousness or civilization theories
+- As a substitute for domain-specific historical or scientific evidence
+- Outside canon/universe domain reasoning

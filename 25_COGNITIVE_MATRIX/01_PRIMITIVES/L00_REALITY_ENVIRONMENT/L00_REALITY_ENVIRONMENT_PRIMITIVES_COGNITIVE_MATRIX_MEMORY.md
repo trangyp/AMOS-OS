@@ -698,7 +698,7 @@ Global memory deletion is not the default response to local failure.
 
 # 20. Supersession Operator
 
-For newer memory (m_2) superseding (m_1):
+For newer memory \(m_2\) superseding \(m_1\):
 
 [
 \boxed{
@@ -783,7 +783,7 @@ for all load-bearing dimensions.
 
 # 23. Memory Merge Operator
 
-For memories (m_1,m_2):
+For memories \(m_1,m_2\):
 
 [
 \boxed{
@@ -1058,11 +1058,11 @@ This is an AMOS model variable, not a universal empirical decay law.
 
 Let:
 
-* (C_m) = consequence if memory is wrong;
-* (D_m) = dependency fan-out;
-* (F_m) = freshness risk;
-* (R_m) = regime-shift risk;
-* (U_m) = unresolved uncertainty.
+* \(C_m\) = consequence if memory is wrong;
+* \(D_m\) = dependency fan-out;
+* \(F_m\) = freshness risk;
+* \(R_m\) = regime-shift risk;
+* \(U_m\) = unresolved uncertainty.
 
 A conceptual priority function is:
 
@@ -1342,7 +1342,7 @@ version
 scope
 ```
 
-Tool output from time (t_0) must not automatically represent current external state at (t_1).
+Tool output from time \(t_0\) must not automatically represent current external state at \(t_1\).
 
 ---
 
@@ -2195,10 +2195,10 @@ until discriminating evidence is available.
 
 Let:
 
-* (M_V) = unaffected valid memory;
-* (M_F) = failed memory;
-* (D_F) = dependent descendants;
-* (R_F) = repaired state.
+* \(M_V\) = unaffected valid memory;
+* \(M_F\) = failed memory;
+* \(D_F\) = dependent descendants;
+* \(R_F\) = repaired state.
 
 Then:
 
@@ -2314,7 +2314,7 @@ This supports the AMOS smallest-sufficient-proof principle.
 
 Let memory candidates be (m_1,...,m_n).
 
-Under finite context budget (B):
+Under finite context budget \(B\):
 
 [
 \boxed{
@@ -2425,7 +2425,7 @@ Different filenames, agents, embeddings, or summaries do not prove independence.
 
 # 80. Memory Contradiction Matrix
 
-For memories (m_i,m_j):
+For memories \(m_i,m_j\):
 
 [
 \boxed{
@@ -2642,14 +2642,14 @@ the system must not count `D` as independent external confirmation of `C` if anc
 
 # 89. Test — Forecast Integrity
 
-Prediction stored at (t_0):
+Prediction stored at \(t_0\):
 
 ```yaml
 forecast: UP
 probability: 0.62
 ```
 
-After outcome at (t_1):
+After outcome at \(t_1\):
 
 ```yaml
 forecast: UP
@@ -3137,7 +3137,7 @@ The central architectural rule is:
 
 ---
 
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · Cosmo_Brain_BRIDGE_INDEX · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · Cosmo_Brain_BRIDGE_INDEX · Cosmo_Brain_BRIDGE_INDEX · AMOS_Context_Continuity_Governor · AMOS_Information_Boundary_Governor
+**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]] · AMOS_Typed_Tensor_Contracts · AMOS_Evidence_Tensor_Architecture · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Relation_Tensor_Architecture · AMOS_Reality_Simulation_Distinction · [[Cosmo_Brain_BRIDGE_INDEX]] · [[Cosmo_Brain_BRIDGE_INDEX]] · AMOS_Context_Continuity_Governor · AMOS_Information_Boundary_Governor
 
 ---
 

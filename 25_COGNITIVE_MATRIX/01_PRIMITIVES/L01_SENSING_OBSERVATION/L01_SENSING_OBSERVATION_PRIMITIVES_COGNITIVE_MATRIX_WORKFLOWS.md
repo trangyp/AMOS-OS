@@ -195,8 +195,8 @@ W_{L01}
 
 where:
 
-* (S_i) = typed workflow state,
-* (O_i) = permitted operator,
+* \(S_i\) = typed workflow state,
+* \(O_i\) = permitted operator,
 * each transition is constrained by invariants,
 * provenance is preserved across transitions,
 * downstream admission requires validation.
@@ -838,7 +838,7 @@ P(normalized)
 P(raw)
 ]
 
-where (P) denotes recoverable provenance.
+where \(P\) denotes recoverable provenance.
 
 ---
 

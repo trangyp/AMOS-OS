@@ -1962,14 +1962,14 @@ REOBSERVE
 
 # 42. Selective Invalidation
 
-If premise (P) fails:
+If premise \(P\) fails:
 
 [
 \boxed{
 Invalidate(P)
 =============
 
-Descendants_{dependent}(P)
+Descendants_{dependent}\(P\)
 }
 ]
 

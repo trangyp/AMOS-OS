@@ -18,6 +18,11 @@ tags:
 - capability/runtime
 - capability/ast
 - rscf/epistemic
+- rscf/S-state
+- rscf/T-topology
+- rscf/M-memory
+- rscf/C-constraint
+- rscf/type-system
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -29,6 +34,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

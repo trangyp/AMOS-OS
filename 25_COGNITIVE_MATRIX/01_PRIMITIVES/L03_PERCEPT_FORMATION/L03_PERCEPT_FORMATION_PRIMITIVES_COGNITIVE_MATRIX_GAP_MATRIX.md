@@ -449,7 +449,7 @@ unless transfer evidence exists.
 
 ## INV-L03-GAP-010 — Confidence Obeys Load-Bearing Gaps
 
-For conclusion (C):
+For conclusion \(C\):
 
 [
 Conf(C)

@@ -19,6 +19,11 @@ tags:
 - capability/calibration
 - capability/feedback-control
 - rscf/epistemic
+- rscf/S-state
+- rscf/μ-mutation
+- rscf/G-relation
+- rscf/C-constraint
+- rscf/type-process
 - sota/progressive-disclosure
 - sota/anti-patterns
 - amos_os
@@ -30,6 +35,7 @@ rscf:
   scope: AMOS_general
 version: 1.1.0
 ---
+
 
 
 

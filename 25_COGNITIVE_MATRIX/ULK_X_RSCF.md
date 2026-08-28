@@ -1918,7 +1918,7 @@ applicability_envelope:
     ULK_ALU
 
   output_domain:
-    RSCF_PROOF_CAPSULE
+    RSCF_[[L19_PROOF_CAPSULE]]
 
   runtime_boundary:
     AMOS_RUNTIME_PLANE
@@ -3520,7 +3520,7 @@ ULK_X_RSCF:
       ULK_ALU_TRANSFORMATION
 
     output:
-      RSCF_PROOF_CAPSULE
+      RSCF_[[L19_PROOF_CAPSULE]]
 
 
   operator_domain:
@@ -3563,7 +3563,7 @@ ULK_X_RSCF:
 
     runtime_admission_requires:
 
-      - RSCF_PROOF_CAPSULE
+      - RSCF_[[L19_PROOF_CAPSULE]]
       - CRYPTOGRAPHIC_SIGNATURE
       - ALU5_VERIFICATION
 
@@ -3690,7 +3690,7 @@ L:
 # 104. Artifact Proof Capsule
 
 ```yaml
-PROOF_CAPSULE:
+[[L19_PROOF_CAPSULE]]:
 
   claim:
     >
@@ -4524,7 +4524,7 @@ RSCF-NODE:
       ULK_ALU_TRANSFORMATION
 
     output:
-      RSCF_PROOF_CAPSULE
+      RSCF_[[L19_PROOF_CAPSULE]]
 
     capsule_structure:
 
@@ -4590,7 +4590,7 @@ RSCF-RELATIONS:
       ULK_ALU_TRANSFORMATION
 
   - COMPILES_TO:
-      RSCF_PROOF_CAPSULE
+      RSCF_[[L19_PROOF_CAPSULE]]
 
   - CAPSULE_H:
       INTENT

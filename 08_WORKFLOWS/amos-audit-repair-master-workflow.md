@@ -19,6 +19,11 @@ tags:
 - capability/audit
 - capability/workflow
 - rscf/epistemic
+- rscf/M-memory
+- rscf/C-constraint
+- rscf/P-repair
+- rscf/T-topology
+- rscf/type-process
 - orchestration/pipeline
 - sota/evaluation-gates
 - sota/human-in-the-loop
@@ -29,6 +34,7 @@ rscf:
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 

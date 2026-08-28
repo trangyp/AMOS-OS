@@ -183,7 +183,7 @@ Each candidate may be represented as:
 
 [
 x_i =
-(o_i,g_i,u_i,c_i,d_i,p_i,t_i,r_i,h_i)
+\(o_i,g_i,u_i,c_i,d_i,p_i,t_i,r_i,h_i\)
 ]
 
 where:
@@ -369,7 +369,7 @@ F = attention-priority function
 
 **Type:** `AMOS_MODEL`
 
-This intentionally leaves (F) unspecified.
+This intentionally leaves \(F\) unspecified.
 
 Why:
 
@@ -968,7 +968,7 @@ where (\leadsto) denotes dependency reachability.
 
 # 31. Attention Reallocation
 
-If candidate (x_k) becomes invalid:
+If candidate \(x_k\) becomes invalid:
 
 ### EQ-L02-026
 
