@@ -1,236 +1,98 @@
 ---
-title: Kernel · Cross-Scale Causality
-type: scale
+title: K_CROSS_SCALE_CAUSALITY — Cross-Scale Causality Kernel
+type: kernel
 source: 02_KERNEL/03_CAUSAL
-artifact: K_CROSS_SCALE_CAUSALITY.md
-artifact_id: amos_02_kernel_03_causal_k_cross_scale_causality
+artifact_id: AMOS-OS-K-CROSS-SCALE-CAUSALITY
+canonical_name: K_CROSS_SCALE_CAUSALITY
+artifact_type: kernel_causality_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/03_CAUSAL
-artifact_kind: ARTIFACT
-path: 02_KERNEL/03_CAUSAL/K_CROSS_SCALE_CAUSALITY.md
+kernel_family: CAUSAL
+domain: cross-scale-causality
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
-- core
-- 02_kernel
-- artifact
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- causality
+- cross-scale-causality
+- renormalization-group
+- multiscale-coupling
+- downward-causation
+- rscf/claim
+- rscf/state/model
 - 03-causal-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Cross-Scale Causality Kernel
+- Multiscale Causality Kernel
+- K_CROSS_SCALE_CAUSALITY
+- AMOS Multiscale Causal Contract
 ---
 
-# Kernel · Cross-Scale Causality
+# K_CROSS_SCALE_CAUSALITY — Cross-Scale Causality Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/03_CAUSAL`  
+> **Status:** `AMOS_MODEL`  
+> **Scale Range:** Quantum ($10^{-35}\text{m}$) $\to$ Molecular ($10^{-9}\text{m}$) $\to$ Cellular $\to$ Organismic $\to$ Planetary $\to$ Cosmological ($10^{26}\text{m}$)
 
-`K_CROSS_SCALE_CAUSALITY.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/03_CAUSAL`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and Multiscale Emergence
 
-The governing boundaries are:
+`K_CROSS_SCALE_CAUSALITY` governs the transmission, amplification, and dampening of causal signals across disparate spatial, temporal, and organizational scales. It models **Renormalization Group (RG) coarse-graining (bottom-up emergence)** alongside **boundary-condition constraints (top-down downward causation)**.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · Cross-Scale Causality** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                  CROSS-SCALE CAUSAL TENSOR INTERACTION                  |
+|                                                                         |
+|  [ Macro-Scale Constraints: Governance, Ecology, Architecture ]         |
+|                                 |                                       |
+|             ( Top-Down Boundary Condition Projection )                  |
+|                                 v                                       |
+|  [ Meso-Scale Networks: Cognitive, Cellular, Software Modules ]         |
+|                                 |                                       |
+|             ( Bottom-Up Renormalization & Coarse-Graining )             |
+|                                 v                                       |
+|  [ Micro-Scale Dynamics: Quantum, Transistor States, Molecular ]        |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. Invariant Laws of Cross-Scale Causality
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+1. **Information Horizon Invariant:** High-frequency microscopic fluctuations average out at macro scales under the Central Limit Theorem and RG flow: $\lim_{k \to 0} \hat{\phi}(k) = \langle \phi \rangle$.
+2. **Downward Constraint Law:** Microscopic phase space volume is strictly constrained by macroscopic organizational invariants: $\Omega_{\text{micro}}^{\text{allowed}} \subset \Omega_{\text{micro}}^{\text{free}}$.
+3. **Scale Decoupling Floor:** Changes at scale $L_i$ cannot propagate instantaneously to scale $L_{i+k}$ without traversing intermediate scale bridges.
 
 ---
 
-## 6. Worked semantics (target)
+## 3. Renormalization Group Causal Flow Formulation
 
-Given an operation touching `02_KERNEL · ARTIFACT` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+Let $\mathcal{H}[\phi]$ be the effective action at scale $\ell$. The causal flow under scale transformation $\ell \to \ell + d\ell$ is governed by:
+
+$$\frac{\partial \mathcal{H}_\ell}{\partial \ell} = \beta(\mathcal{H}_\ell) + \mathcal{D}_{\text{downward}}(\mathbf{C}_{\text{macro}})$$
+
+Where $\beta$ captures bottom-up statistical coarse-graining and $\mathcal{D}_{\text{downward}}$ injects macroscopic boundary constraints.
 
 ---
 
-## 7. Promotion-gate checklist
+## 4. Cross-Plane Bindings
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_03_causal_k_cross_scale_causality
-
-node_type: artifact
-
-path: 02_KERNEL/03_CAUSAL/K_CROSS_SCALE_CAUSALITY.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+- **Universe Strata:** [[K_UNIVERSE_STRATA]] · [[K_REALITY]] · [[K_REALITY_CAUSALITY]]
+- **Causal Architecture:** [[K_CAUSAL_CLOSURE]] · [[K_BIOLOGICAL_CAUSALITY]] · [[K_QUANTUM_CAUSALITY]]
+- **Governance & Integrity:** [[K_GOVERNANCE]] · [[K_FAIL_CLOSED]] · [[LAW_HIERARCHY]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[03_CAUSAL_MOC]] · [[00_ROOT_MOC]]
 
 ---
 **MOC:** [[03_CAUSAL_MOC]]

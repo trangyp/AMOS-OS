@@ -1,17 +1,8 @@
 ---
 name: amos-skill-registry
-description: Gateway skill for the AMOS skill registry. Use when searching for, discovering,
-  or fetching AMOS skills on demand. Provides a catalog of 342 skills across 42 domains.
+description: Gateway skill for the AMOS skill registry. Use when searching for, discovering, or fetching AMOS skills on demand. Provides a catalog of 343 skills across 42 domains.
 version: 1.0.0
 type: skill
-tags:
-- skill
-- registry
-- gateway.md
-- gateway
-- moc
-- 00-root-moc
-- 00-home
 ---
 
 # AMOS Skill Registry Gateway
@@ -24,7 +15,7 @@ tags:
 
 ## Registry Summary
 
-- **Total skills**: 342
+- **Total skills**: 343
 - **Total domains**: 42
 - **Registry version**: 1.0.0
 
@@ -63,7 +54,7 @@ tags:
 | fx | 20 |
 | info | 5 |
 | information | 1 |
-| knowledge | 13 |
+| knowledge | 14 |
 | mckinsey | 24 |
 | memory | 7 |
 | mind_behavior | 1 |
@@ -105,12 +96,6 @@ This registry supports installation to multiple agent platforms:
 
 ## Provenance
 
-- **Registry generated**: 2026-08-28T09:36:28.282434+00:00
+- **Registry generated**: 2026-08-28T16:37:10.995191+00:00
 - **Source**: AMOS_OS Obsidian vault
 - **Steward**: Trang Phan
-
-[[_MOC]]
-
----
-
-**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

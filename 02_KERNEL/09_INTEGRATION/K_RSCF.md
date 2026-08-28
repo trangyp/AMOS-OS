@@ -1,95 +1,107 @@
 ---
-title: K RSCF
-type: rscf
+title: K_RSCF — Reality State and Causality Framework (RSCF) Integration Kernel
+type: kernel
 source: 02_KERNEL/09_INTEGRATION
+artifact_id: AMOS-OS-K-RSCF
+canonical_name: K_RSCF
+artifact_type: kernel_rscf_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
+origin_architect: Trang Phan
+steward: Trang Phan
+plane: 02_KERNEL
+segment: 02_KERNEL/09_INTEGRATION
+kernel_family: INTEGRATION
+domain: rscf-integration
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
-- 02_kernel
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- amos-os
+- kernel
+- integration
+- rscf
+- reality-state-causality-framework
+- proof-capsules
+- confidence-ceilings
+- epistemic-typing
+- rscf/claim
+- rscf/state/model
 - 09-integration-moc
-- trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- RSCF Integration Kernel
+- Reality State Framework Kernel
+- K_RSCF
+- AMOS RSCF Protocol Engine
 ---
 
-# K RSCF
+# K_RSCF — Reality State and Causality Framework (RSCF) Integration Kernel
 
-## 0. Status
-Kernel-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
-
-## 1. Purpose
-`K RSCF` defines typed artifact specification, serving the Kernel plane's obligation: kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
-
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
-
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
-
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
-
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `K RSCF` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/09_INTEGRATION`  
+> **Status:** `AMOS_MODEL`  
+> **Epistemic Standard:** Typed Claims $\times$ Strict Confidence Ceilings ($C_{\text{max}} = 0.95$) $\times$ Signed Proof Capsules
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+
+## 1. Purpose and Epistemic Typing
+
+`K_RSCF` is the universal evidentiary and typing framework of AMOS OS. It mandates that every assertion, document, data model, and conclusion emitted by the system carry explicit provenance tags, an epistemic state declaration, confidence metrics, and a cryptographically verifiable proof capsule.
+
+```
++-------------------------------------------------------------------------+
+|                  RSCF PROOF CAPSULE PIPELINE                            |
+|                                                                         |
+|  [ Inbound Claim / Evidence / Invariant ]                               |
+|                     |                                                   |
+|                     v                                                   |
+|  ( Step 1: Assign Epistemic Class: EMPIRICAL | MODEL | DERIVED | HYP )  |
+|                     |                                                   |
+|                     v                                                   |
+|  ( Step 2: Compute Confidence Score C <= min(Premises, 0.95) )          |
+|                     |                                                   |
+|                     v                                                   |
+|  ( Step 3: Check Boundary Invariants & Falsifiers )                     |
+|                     |                                                   |
+|                     v                                                   |
+|  [ Emit Signed RSCF Proof Capsule & Persist Dependency Edges ]          |
++-------------------------------------------------------------------------+
+```
 
 ---
-RSCF-NODE
-node_id: amos_02_kernel_09_integration_k_rscf_md
-node_type: note
-path: 02_KERNEL/09_INTEGRATION/K_RSCF.md
-claim_class: AMOS_MODEL
+
+## 2. Invariant Laws of RSCF
+
+1. **Confidence Ceiling Invariant:** Empirical/synthetic conclusions can never claim certainty ($C \le 0.95$). Total confidence is bounded by the weakest premise: $C_{\text{conclusion}} \le \min_{i}(C_{\text{premise}_i})$.
+2. **Epistemic Class Separation:** `OBSERVATION != MODEL`, `SOURCE_CLAIM != VERIFIED`, `CAPABILITY != AUTHORITY`.
+3. **No Unfalsifiable Claims:** Every formal RSCF claim must declare at least one explicit empirical or logical condition ($F_1 \dots F_k$) that would invalidate it.
 
 ---
-**MOC:** [[09_INTEGRATION_MOC]]
+
+## 3. Proof Capsule Schema Definition
+
+```yaml
+RSCF_PROOF_CAPSULE:
+  capsule_id: string (UUIDv4)
+  claim_node: string (Wikilink / URI)
+  epistemic_class: [EMPIRICAL, AMOS_MODEL, DERIVED, HYPOTHESIS, GAP]
+  confidence: float (0.00 .. 0.95)
+  premises: list of string (Capsule IDs or verified Source URIs)
+  falsifiers: list of string (Explicit falsification tests)
+  authorizing_epoch: string (Epoch hash)
+  signature: string (Ed25519 hash)
+```
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+## 4. Cross-Plane Bindings
+
+- **Canon & Proofs:** [[K_CANON]] · [[K_CIL]] · [[K_CORE_LAWS]]
+- **Schemas:** [[PROOF_CAPSULE_SCHEMA]] · [[RSCF_TRANSACTION_SCHEMA]]
+- **Authority & Audit:** [[K_AUTHORITY]] · [[K_FAIL_CLOSED]] · [[LAW_HIERARCHY]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[09_INTEGRATION_MOC]] · [[00_ROOT_MOC]]
+

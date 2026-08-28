@@ -1,236 +1,97 @@
 ---
-title: Kernel · UBI Binding
-type: note
+title: K_UBI_BINDING — Universal Biological Intelligence (UBI) Binding Kernel
+type: kernel
 source: 02_KERNEL/09_INTEGRATION
-artifact: K_UBI_BINDING.md
-artifact_id: amos_02_kernel_09_integration_k_ubi_binding
+artifact_id: AMOS-OS-K-UBI-BINDING
+canonical_name: K_UBI_BINDING
+artifact_type: kernel_integration_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/09_INTEGRATION
-artifact_kind: BINDING
-path: 02_KERNEL/09_INTEGRATION/K_UBI_BINDING.md
+kernel_family: INTEGRATION
+domain: ubi-binding
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
-- core
-- 02_kernel
-- binding
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- integration
+- ubi
+- universal-biological-intelligence
+- 4-domain-binding
+- nbi-nei-si-bei
+- rscf/claim
+- rscf/state/model
 - 09-integration-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- UBI Binding Kernel
+- Biological Intelligence Binding Kernel
+- K_UBI_BINDING
+- AMOS UBI Integration Contract
 ---
 
-# Kernel · UBI Binding
+# K_UBI_BINDING — Universal Biological Intelligence (UBI) Binding Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/09_INTEGRATION`  
+> **Status:** `AMOS_MODEL`  
+> **Domain Synthesis:** $\text{NBI} \otimes \text{NEI} \otimes \text{SI} \otimes \text{BEI} \longrightarrow \text{Unified Biological State}$
 
-`K_UBI_BINDING.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/09_INTEGRATION`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and 4-Domain Biological Synthesis
 
-The governing boundaries are:
+`K_UBI_BINDING` unifies the 4 foundational biological intelligence domains into a synchronized runtime vector within AMOS OS:
+1. **NBI (Neurobiological Intelligence):** [[K_COGNITION_NBI]] — Bandwidth ceiling and cognitive graph navigation.
+2. **NEI (Neuroemotional Intelligence):** [[K_EMOTION_NEI]] — 5-axis emotional state vector and alignment.
+3. **SI (Somatic Intelligence):** [[K_SOMATIC_SI]] — Metabolic energy limits and embodied grounding.
+4. **BEI (Bioelectromagnetic Intelligence):** [[K_BIOELECTROMAGNETIC_BEI]] — Phase synchronization and field coherence.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · UBI Binding** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                  UBI 4-DOMAIN UNIFIED COUPLING MESH                     |
+|                                                                         |
+|  [ NBI Vector ]   [ NEI Vector ]   [ SI Vector ]   [ BEI Vector ]       |
+|         \               \               /               /               |
+|          \               \             /               /                |
+|           v               v           v               v                 |
+|  ( Step 1: Compute Cross-Domain Coupling Tensor Psi_UBI )               |
+|                                   |                                     |
+|                                   v                                     |
+|  ( Step 2: Evaluate Allostatic Strain & Biological Feasibility Gate )   |
+|                                   |                                     |
+|                                   v                                     |
+|  [ Injected into OS Context for Bio-Centric Decision Optimization ]     |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. Invariant Laws of UBI Binding
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+1. **4-Domain Orthogonality & Coupling:** Each domain maintains independent internal dynamics but couples non-linearly to form the holistic biological state $\Psi_{\text{UBI}}$.
+2. **Subordination to Somatic Viability:** If somatic metabolic energy $E_{\text{SI}}$ falls below critical reserve threshold $E_{\text{crit}}$, NBI cognitive load is throttled to conserve survival vitality.
+3. **Emotional Stability Floor:** Synthetic reasoning outputs that would induce high-entropy emotional collapse in host interactions are suppressed by the NEI alignment gate.
 
 ---
 
-## 6. Worked semantics (target)
+## 3. Unified Biological Coupling Vector
 
-Given an operation touching `02_KERNEL · BINDING` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\Psi_{\text{UBI}}(t) = \mathbf{w}_{\text{NBI}} \mathbf{v}_{\text{NBI}}(t) \oplus \mathbf{w}_{\text{NEI}} \mathbf{v}_{\text{NEI}}(t) \oplus \mathbf{w}_{\text{SI}} \mathbf{v}_{\text{SI}}(t) \oplus \mathbf{w}_{\text{BEI}} \mathbf{v}_{\text{BEI}}(t)$$
 
 ---
 
-## 7. Promotion-gate checklist
+## 4. Cross-Plane Bindings
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+- **Biological Kernels:** [[K_COGNITION_NBI]] · [[K_EMOTION_NEI]] · [[K_SOMATIC_SI]] · [[K_BIOELECTROMAGNETIC_BEI]]
+- **Homeostasis & Integrity:** [[K_UBI_HOMEOSTASIS]] · [[K_ABSOLUTE_BIOLOGICAL_INTEGRITY]] · [[K_UBA]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[09_INTEGRATION_MOC]] · [[00_ROOT_MOC]]
 
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_09_integration_k_ubi_binding
-
-node_type: binding
-
-path: 02_KERNEL/09_INTEGRATION/K_UBI_BINDING.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[09_INTEGRATION_MOC]]

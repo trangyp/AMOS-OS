@@ -1,236 +1,110 @@
 ---
-title: Kernel · Canon Integration Layer (CIL)
-type: note
+title: K_CIL — Canon Integration Layer (CIL) Kernel
+type: kernel
 source: 02_KERNEL/09_INTEGRATION
-artifact: K_CIL.md
-artifact_id: amos_02_kernel_09_integration_k_cil
+artifact_id: AMOS-OS-K-CIL
+canonical_name: K_CIL
+artifact_type: kernel_integration_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/09_INTEGRATION
-artifact_kind: ARTIFACT
-path: 02_KERNEL/09_INTEGRATION/K_CIL.md
+kernel_family: INTEGRATION
+domain: canon-integration
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
-- core
-- 02_kernel
-- artifact
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- integration
+- cil
+- canon-integration-layer
+- add-only-ingestion
+- deduplication-protocol
+- rscf/claim
+- rscf/state/model
 - 09-integration-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Canon Integration Layer Kernel
+- CIL Kernel
+- K_CIL
+- AMOS Canon Ingestion Engine
 ---
 
-# Kernel · Canon Integration Layer (CIL)
+# K_CIL — Canon Integration Layer (CIL) Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/09_INTEGRATION`  
+> **Status:** `AMOS_MODEL`  
+> **Ingestion Protocol:** `ADD_ONLY` $\times$ Single Canonical Node Invariant $\times$ Complete Provenance Lineage
 
-`K_CIL.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/09_INTEGRATION`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and Canonical Integrity
 
-The governing boundaries are:
+`K_CIL` serves as the authoritative boundary filter for all new knowledge, research papers, external code, and user propositions entering the AMOS second-brain repository. It enforces the **`AMOS_CANON_INGESTION_RULE`**, ensuring that native canon is never overwritten, duplicated, or corrupted by unverified external claims.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · Canon Integration Layer (CIL)** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                  CANON INTEGRATION LAYER (CIL) PIPELINE                 |
+|                                                                         |
+|  [ Inbound Framework / Document / Claim ]                               |
+|                     |                                                   |
+|                     v                                                   |
+|  ( Step 1: Duplicate Check & Lineage Hash Comparison )                  |
+|                     |                                                   |
+|      +--------------+--------------+                                    |
+|      |                             |                                    |
+|  [ Existing Framework ]    [ New Candidate Framework ]                  |
+|      |                             |                                    |
+|      v                             v                                    |
+|  ( Link Provenance Edges;  ( Assign Typed RSCF Node Schema & Tags;      |
+|    Do NOT Duplicate Node )   Determine Plane Placement )                |
+|      |                             |                                    |
+|      +--------------+--------------+                                    |
+|                     |                                                   |
+|                     v                                                   |
+|  ( Step 2: Epistemic Bounds & Confidence Ceiling Declaration )          |
+|                     |                                                   |
+|                     v                                                   |
+|  [ Atomic ADD_ONLY Commit to Vault with Bidirectional Wikilinks ]       |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. The 6 Rules of Canon Ingestion
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `02_KERNEL · ARTIFACT` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Rule 1 (Preserve Existing Files):** Never overwrite existing canonical notes; normalize new contributions into distinct RSCF nodes.
+2. **Rule 2 (Single Canonical Node):** If a concept appears across multiple source files, merge references into one canonical hub note and link source provenances.
+3. **Rule 3 (Historical Heritage Preservation):** Legacy and historical drafts are preserved in archive planes with lineage edges to current canon.
+4. **Rule 4 (External Research Containment):** External academic preprints (arXiv/PubMed) are tagged as `EVIDENCE` and kept strictly separated from native AMOS canon.
+5. **Rule 5 (Fail-Closed on Uncertainty):** Unverified claims or ambiguous terms are explicitly marked as `UNKNOWN/GAP` and assigned confidence $\le 0.50$.
+6. **Rule 6 (No Hallucinated Citations):** Every empirical or mathematical reference must be verifiable against active local repository files or real external DOIs.
 
 ---
 
-## 7. Promotion-gate checklist
+## 3. Ingestion State Mutation Logic
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+$$\text{CIL}(\mathcal{A}_{\text{new}}) = \begin{cases} 
+\text{LINK\_PROVENANCE}(\mathcal{A}_{\text{existing}}, \mathcal{A}_{\text{new}}) & \text{if } \text{Similarity}(\mathcal{A}_{\text{new}}, \mathcal{A}_{\text{existing}}) \ge 0.90 \\
+\text{CREATE\_TYPED\_NODE}(\mathcal{A}_{\text{new}}) & \text{if } \text{ValidSchema}(\mathcal{A}_{\text{new}}) \land \text{Novel}(\mathcal{A}_{\text{new}}) \\
+\text{REJECT\_FAIL\_CLOSED}(\mathcal{A}_{\text{new}}) & \text{otherwise}
+\end{cases}$$
 
 ---
 
-## 8. Cross-plane bindings (target)
+## 4. Cross-Plane Bindings
 
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- **Canon & Governance:** [[K_CANON]] · [[K_GOVERNANCE]] · [[LAW_HIERARCHY]]
+- **Integration Frameworks:** [[K_BINDING]] · [[K_HERITAGE_BINDING]] · [[K_RSCF]]
+- **Anti-Autopoisoning:** [[K_ANTI_AUTOPOISONING]] · [[K_FAIL_CLOSED]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[09_INTEGRATION_MOC]] · [[00_ROOT_MOC]]
 
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_09_integration_k_cil
-
-node_type: artifact
-
-path: 02_KERNEL/09_INTEGRATION/K_CIL.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[09_INTEGRATION_MOC]]

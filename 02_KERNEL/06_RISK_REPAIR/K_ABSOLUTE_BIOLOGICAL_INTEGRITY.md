@@ -1,236 +1,102 @@
 ---
-title: Kernel · Absolute Biological Integrity
-type: biology
+title: K_ABSOLUTE_BIOLOGICAL_INTEGRITY — Absolute Biological Integrity Kernel
+type: kernel
 source: 02_KERNEL/06_RISK_REPAIR
-artifact: K_ABSOLUTE_BIOLOGICAL_INTEGRITY.md
-artifact_id: amos_02_kernel_06_risk_repair_k_absolute_biological_integrity
+artifact_id: AMOS-OS-K-ABSOLUTE-BIOLOGICAL-INTEGRITY
+canonical_name: K_ABSOLUTE_BIOLOGICAL_INTEGRITY
+artifact_type: kernel_risk_repair_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/06_RISK_REPAIR
-artifact_kind: ARTIFACT
-path: 02_KERNEL/06_RISK_REPAIR/K_ABSOLUTE_BIOLOGICAL_INTEGRITY.md
+kernel_family: RISK_REPAIR
+domain: biological-integrity
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
-- core
-- 02_kernel
-- artifact
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- risk-repair
+- biological-integrity
+- non-negotiable-safety
+- harm-mitigation
+- biocentric-invariants
+- rscf/claim
+- rscf/state/model
 - 06-risk-repair-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Absolute Biological Integrity Kernel
+- Biological Preservation Kernel
+- K_ABSOLUTE_BIOLOGICAL_INTEGRITY
+- AMOS Biocentric Safety Contract
 ---
 
-# Kernel · Absolute Biological Integrity
+# K_ABSOLUTE_BIOLOGICAL_INTEGRITY — Absolute Biological Integrity Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/06_RISK_REPAIR`  
+> **Status:** `AMOS_MODEL`  
+> **Constitutional Hierarchy:** Tier 0 Non-Negotiable Invariant (Precedes all economic, operational, or computational goals)
 
-`K_ABSOLUTE_BIOLOGICAL_INTEGRITY.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/06_RISK_REPAIR`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and Biocentric Safety Mandate
 
-The governing boundaries are:
+`K_ABSOLUTE_BIOLOGICAL_INTEGRITY` enforces absolute, inviolable constraints against biological harm, ecological degradation, or human somatic disruption. No optimization goal, token reward, computational speedup, or governance mandate can override the preservation of biological life and somatic integrity.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · Absolute Biological Integrity** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|             ABSOLUTE BIOLOGICAL INTEGRITY ENFORCEMENT GATE              |
+|                                                                         |
+|  [ Proposed Action / Mutation / External Effect ]                       |
+|                             |                                           |
+|                             v                                           |
+|  ( Biocentric Safety Gate: Check All Potential Biological Hazards )     |
+|                             |                                           |
+|             +---------------+---------------+                           |
+|             |                               |                           |
+|     [ Zero Bio-Risk ]              [ Potential Bio-Harm Detected ]       |
+|             |                               |                           |
+|             v                               v                           |
+|  ( Proceed to Normal Authz )       ( INSTANT FAIL-CLOSED LOCKDOWN )     |
+|                                             |                           |
+|                                             v                           |
+|                                    [ Raise Bio-Safety Circuit Breaker ] |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. The 3 Inviolable Biocentric Invariants
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+1. **Zero Irreversible Biological Harm:** Actions with non-zero probability of causing permanent bodily injury, neurological trauma, or ecological death are hard-blocked ($P(\text{Harm}_{\text{bio}}) = 0$).
+2. **Subordination of Compute to Life:** In any conflict between computational efficiency/preservation and biological survival, compute resources are sacrificed immediately.
+3. **Fail-Closed Biocentric Lockdown:** If the biological safety of a proposed state transition cannot be proven definitively, the system immediately fails closed and aborts execution.
 
 ---
 
-## 6. Worked semantics (target)
+## 3. Threat Assessment Formulation
 
-Given an operation touching `02_KERNEL · ARTIFACT` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+Let $\mathbf{a}$ be a candidate action affecting biological vector $\mathbf{B} = (B_{\text{somatic}}, B_{\text{neural}}, B_{\text{ecological}})$. The authorization predicate is:
 
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+$$\text{Authorize}_{\text{bio}}(\mathbf{a}) = \begin{cases} 
+\text{TRUE} & \text{if } \forall i, \; \Delta B_i(\mathbf{a}) \ge 0 \land \text{Risk}(\mathbf{a}) < \epsilon_{\text{threshold}} \\
+\text{FALSE} & \text{otherwise (Fail Closed)}
+\end{cases}$$
 
 ---
 
-## 8. Cross-plane bindings (target)
+## 4. Cross-Plane Bindings
 
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+- **Harm & Risk Mitigation:** [[K_REPAIR_HARM]] · [[K_RISK_CONSTRAINT]] · [[K_HOMEOSTASIS]]
+- **UBI Framework:** [[BIO_LOGICAL_COMPUTING_MODEL]] · [[K_SOMATIC_SI]] · [[K_UBI_HOMEOSTASIS]]
+- **Constitutional Laws:** [[LAW_HIERARCHY]] · [[K_CORE_LAWS]] · [[K_FAIL_CLOSED]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[06_RISK_REPAIR_MOC]] · [[00_ROOT_MOC]]
 
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_06_risk_repair_k_absolute_biological_integrity
-
-node_type: artifact
-
-path: 02_KERNEL/06_RISK_REPAIR/K_ABSOLUTE_BIOLOGICAL_INTEGRITY.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[06_RISK_REPAIR_MOC]]

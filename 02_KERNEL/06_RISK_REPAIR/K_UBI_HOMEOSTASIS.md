@@ -1,236 +1,99 @@
 ---
-title: Kernel · UBI Homeostasis
-type: note
+title: K_UBI_HOMEOSTASIS — UBI Homeostasis Kernel
+type: kernel
 source: 02_KERNEL/06_RISK_REPAIR
-artifact: K_UBI_HOMEOSTASIS.md
-artifact_id: amos_02_kernel_06_risk_repair_k_ubi_homeostasis
+artifact_id: AMOS-OS-K-UBI-HOMEOSTASIS
+canonical_name: K_UBI_HOMEOSTASIS
+artifact_type: kernel_risk_repair_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/06_RISK_REPAIR
-artifact_kind: ARTIFACT
-path: 02_KERNEL/06_RISK_REPAIR/K_UBI_HOMEOSTASIS.md
+kernel_family: RISK_REPAIR
+domain: ubi-homeostasis
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
-- core
-- 02_kernel
-- artifact
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- risk-repair
+- ubi
+- homeostasis
+- biological-equilibrium
+- 4-domain-setpoints
+- rscf/claim
+- rscf/state/model
 - 06-risk-repair-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- UBI Homeostasis Kernel
+- Biological Homeostasis Kernel
+- K_UBI_HOMEOSTASIS
+- AMOS UBI Equilibrium Regulator
 ---
 
-# Kernel · UBI Homeostasis
+# K_UBI_HOMEOSTASIS — UBI Homeostasis Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/06_RISK_REPAIR`  
+> **Status:** `AMOS_MODEL`  
+> **Regulation Target:** 4-Domain UBI Equilibrium (NBI, NEI, SI, BEI) $\times$ Dynamic Setpoint Control
 
-`K_UBI_HOMEOSTASIS.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/06_RISK_REPAIR`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and Homeostatic Regulation
 
-The governing boundaries are:
+`K_UBI_HOMEOSTASIS` continuously monitors and stabilizes the 4 biological intelligence domains within the **Unified Biological Intelligence™ (UBI)** framework. When cognitive load (NBI), affective arousal (NEI), physical fatigue (SI), or bioelectromagnetic desynchronosis (BEI) drifts beyond nominal setpoints, this kernel activates proportional-integral-derivative (PID) negative feedback loops to restore equilibrium.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · UBI Homeostasis** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                  4-DOMAIN UBI HOMEOSTASIS CONTROL MESH                  |
+|                                                                         |
+|  [ Domain Sensors: NBI Load, NEI Emotion, SI Fatigue, BEI Resonance ]   |
+|                               |                                         |
+|                               v                                         |
+|     ( Compute Error Vector: e(t) = Setpoints - Current_Vector )         |
+|                               |                                         |
+|                +--------------+--------------+                          |
+|                |                             |                          |
+|        [ ||e(t)|| <= Bound ]         [ ||e(t)|| > Critical ]            |
+|                |                             |                          |
+|                v                             v                          |
+|       ( Stable Operation )         ( Apply Homeostatic Actuation )      |
+|                                              |                          |
+|                                              v                          |
+|                             [ Throttle Load / Restore Phase / Cool ]    |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. Invariant Laws of UBI Homeostasis
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+1. **Equilibrium Boundedness Invariant:** Systemic state vector $\mathbf{x}_{\text{UBI}}(t)$ must remain within the compact set $\mathcal{K}_{\text{viable}}$ for all $t > 0$.
+2. **Negative Feedback Dominance:** Destabilizing positive feedback cascades are detected within 1 step and suppressed by dominant negative feedback counter-forces.
+3. **Allostatic Recovery Floor:** When chronic allostatic load $\mathcal{A}_{\text{load}} > \mathcal{A}_{\text{max}}$, mandatory system cooldown and compaction are enforced.
 
 ---
 
-## 6. Worked semantics (target)
+## 3. Mathematical Homeostatic Controller
 
-Given an operation touching `02_KERNEL · ARTIFACT` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\mathbf{u}_{\text{homeo}}(t) = K_p \mathbf{e}(t) + K_i \int_0^t \mathbf{e}(\tau) d\tau + K_d \frac{d\mathbf{e}(t)}{dt}$$
+
+Where $\mathbf{e}(t) = \mathbf{S}^* - \mathbf{S}(t)$ represents deviation from the ideal 4-domain biological setpoint $\mathbf{S}^* = (S^*_{\text{NBI}}, S^*_{\text{NEI}}, S^*_{\text{SI}}, S^*_{\text{BEI}})$.
 
 ---
 
-## 7. Promotion-gate checklist
+## 4. Cross-Plane Bindings
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+- **UBI Domain Kernels:** [[K_COGNITION_NBI]] · [[K_EMOTION_NEI]] · [[K_SOMATIC_SI]] · [[K_BIOELECTROMAGNETIC_BEI]]
+- **Entropy & Collapse Recovery:** [[K_UBI_ENTROPY_CORRECTION]] · [[K_COLLAPSE_RECOVERY]] · [[K_HOMEOSTASIS]]
+- **Constitutional Guardrails:** [[K_ABSOLUTE_BIOLOGICAL_INTEGRITY]] · [[K_FAIL_CLOSED]] · [[LAW_HIERARCHY]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[06_RISK_REPAIR_MOC]] · [[00_ROOT_MOC]]
 
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_06_risk_repair_k_ubi_homeostasis
-
-node_type: artifact
-
-path: 02_KERNEL/06_RISK_REPAIR/K_UBI_HOMEOSTASIS.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[06_RISK_REPAIR_MOC]]

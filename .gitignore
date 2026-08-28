@@ -45,3 +45,4 @@ AMOS OS/
 /supabase/
 /_00_Cosmo brain/
 .amos-observability/
+copilot/copilot-conversations/*.md

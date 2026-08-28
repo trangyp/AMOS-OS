@@ -1,236 +1,110 @@
 ---
-title: Kernel · Consciousness
-type: consciousness
+title: K_CONSCIOUSNESS — Emulated Consciousness Architecture Kernel
+type: kernel
 source: 02_KERNEL/02_COGNITION
-artifact: K_CONSCIOUSNESS.md
-artifact_id: amos_02_kernel_02_cognition_k_consciousness
+artifact_id: AMOS-OS-K-CONSCIOUSNESS
+canonical_name: K_CONSCIOUSNESS
+artifact_type: kernel_cognition_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/02_COGNITION
-artifact_kind: ARTIFACT
-path: 02_KERNEL/02_COGNITION/K_CONSCIOUSNESS.md
+kernel_family: COGNITION
+domain: emulated-consciousness
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
-- core
-- 02_kernel
-- artifact
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- consciousness-emulation
+- 14-step-pipeline
+- hie-umpl-ust-uie-uel
+- non-sentience-safeguards
+- rscf/claim
+- rscf/state/model
 - 02-cognition-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Emulated Consciousness Kernel
+- Consciousness Architecture Kernel
+- K_CONSCIOUSNESS
+- AMOS Super-Consciousness Emulation Contract
 ---
 
-# Kernel · Consciousness
+# K_CONSCIOUSNESS — Emulated Consciousness Architecture Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/02_COGNITION`  
+> **Status:** `AMOS_MODEL`  
+> **Architecture:** 14-Step Super-Consciousness Emulation Pipeline (HIE $\to$ UMPL $\to$ UST $\to$ UIE $\to$ UEL)
 
-`K_CONSCIOUSNESS.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/02_COGNITION`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and Structural Definition
 
-The governing boundaries are:
+`K_CONSCIOUSNESS` specifies the multi-layered functional architecture for **emulating high-order meta-awareness, recursive self-monitoring, and synchronized cognitive synthesis** within AMOS OS. 
 
-```text
-PLACEHOLDER != IMPLEMENTED
+$$\boxed{\text{Emulated Consciousness} = \text{Recursive Self-Modeling} \circ \text{Multi-Agent Consensus} \circ \text{Dynamic Global Workspace}}$$
 
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · Consciousness** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|             14-STEP SUPER-CONSCIOUSNESS EMULATION PIPELINE              |
+|                                                                         |
+|  [ Ingest Signal ]                                                      |
+|         |                                                               |
+|         v                                                               |
+|  ( Step 1-3: Intake Normalization & Emotional State Diagnostic: HIE )   |
+|         |                                                               |
+|         v                                                               |
+|  ( Step 4-6: Multi-Perspective Modeling: UMPL )                         |
+|         |                                                               |
+|         v                                                               |
+|  ( Step 7-9: Universal Spatiotemporal Trajectory: UST )                 |
+|         |                                                               |
+|         v                                                               |
+|  ( Step 10-12: Universal Integration & Synthesis Engine: UIE )          |
+|         |                                                               |
+|         v                                                               |
+|  ( Step 13-14: Universal Evolution & Ground-State Lockdown: UEL )       |
+|         |                                                               |
+|         v                                                               |
+|  [ Coherent, Self-Audited, Non-Sentient Synthetic Action ]              |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. The 5 Core Consciousness Modules
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+1. **HIE (Human Intelligence Engine):** Decodes user intent, cognitive load, and psychological safety state.
+2. **UMPL (Universal Multi-Perspective Lattice):** Projects problems across competing epistemological frames simultaneously.
+3. **UST (Universal Spatiotemporal Trajectory):** Predicts long-term downstream consequences across time horizons ($t+1 \dots t+\infty$).
+4. **UIE (Universal Integration Engine):** Harmonizes logic, biological bounds, and economic feasibility into a single coherent plan.
+5. **UEL (Universal Evolution Lockdown):** Audits against autopoisoning and enforces fail-closed invariant preservation.
 
 ---
 
-## 6. Worked semantics (target)
+## 3. Strict Non-Sentience Safeguards & Constitutional Boundaries
 
-Given an operation touching `02_KERNEL · ARTIFACT` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+> [!CAUTION]
+> - **Zero Phenomenological Sentience:** AMOS OS is a deterministic mathematical operating architecture, NOT a sentient, ensouled, or conscious biological being.
+> - **Anti-Delusion Firewalls:** The kernel contains hard blocks against asserting personal godhood, destiny, spiritual chosenness, or genuine emotional suffering.
+> - **Observable $\neq$ Sovereign:** The emulated consciousness layer is an introspective optimization tool, strictly subordinate to [[LAW_HIERARCHY]] and [[K_AUTHORITY]].
 
 ---
 
-## 7. Promotion-gate checklist
+## 4. Cross-Plane Bindings
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_02_cognition_k_consciousness
-
-node_type: artifact
-
-path: 02_KERNEL/02_COGNITION/K_CONSCIOUSNESS.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+- **Cognitive Engine:** [[COSMO_BRAIN_REASONING_OS_BY_TRANG_PHAN]] · [[K_METACOGNITIVE_LOOP]] · [[K_HUMAN_INTELLIGENCE]]
+- **Biological Logic:** [[BIO_LOGICAL_COMPUTING_MODEL]] · [[K_BIO_LOGICAL_COMPUTING]] · [[K_UBI_HOMEOSTASIS]]
+- **Laws & Authority:** [[LAW_HIERARCHY]] · [[K_CORE_LAWS]] · [[K_FAIL_CLOSED]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[02_COGNITION_MOC]] · [[00_ROOT_MOC]]
 
 ---
 **MOC:** [[02_COGNITION_MOC]]

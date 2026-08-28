@@ -1,95 +1,100 @@
 ---
-title: K TRANSLATION
-type: translation
+title: K_TRANSLATION — Expression Translation Gateway Kernel
+type: kernel
 source: 02_KERNEL/09_INTEGRATION
+artifact_id: AMOS-OS-K-TRANSLATION
+canonical_name: K_TRANSLATION
+artifact_type: kernel_integration_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
+origin_architect: Trang Phan
+steward: Trang Phan
+plane: 02_KERNEL
+segment: 02_KERNEL/09_INTEGRATION
+kernel_family: INTEGRATION
+domain: expression-translation
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
-- 02_kernel
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- amos-os
+- kernel
+- integration
+- translation-gateway
+- modal-mapping
+- ip-protection
+- representation-translation
+- rscf/claim
+- rscf/state/model
 - 09-integration-moc
-- trang-framework-recursive-ontology-dynamics
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Expression Translation Gateway Kernel
+- Translation Kernel
+- K_TRANSLATION
+- AMOS Translation Gateway
 ---
 
-# K TRANSLATION
+# K_TRANSLATION — Expression Translation Gateway Kernel
 
-## 0. Status
-Kernel-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
-
-## 1. Purpose
-`K TRANSLATION` defines typed artifact specification, serving the Kernel plane's obligation: kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-## 2. Semantics
-- Every load-bearing field is typed; unknown values are recorded as `UNKNOWN/GAP`, never invented.
-- Scope and regime are declared on every claim; cross-regime transfer requires an explicit bridge.
-- Confidence ceiling 0.95; conclusion confidence ≤ weakest load-bearing premise.
-
-## 3. Failure modes guarded
-STALE_READ · SCOPE_LEAK · REGIME_DRIFT · CONFIDENCE_INFLATION · AUTHORITY_ESCALATION · PROVENANCE_LOSS · SILENT_PARTIAL_COMMIT · UNKNOWN_AS_VALID.
-
-## 4. Validation
-No artifact-specific executor yet; executed OS validators exist as pattern ([[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]). Required tests before promotion: identity, type-contract, negative-case (missing/malformed/stale input), authority boundary, rollback.
-
-## 5. Gaps
-Implementation binding, empirical validation, and cross-artifact consistency checks remain OPEN (UNKNOWN/GAP).
-
-## 6. Falsifiers
-F1: canonical source contradicts declared semantics. F2: executed test violates a stated invariant. F3: artifact promotes UNKNOWN to PASS.
-## Worked semantics
-Given an operation touching `K TRANSLATION` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
-## Promotion-gate checklist
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
-## Cross-plane bindings
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/09_INTEGRATION`  
+> **Status:** `AMOS_MODEL`  
+> **Translation Stack:** Natural Language $\iff$ Algebraic Formalism $\iff$ AST Code Trees $\iff$ Tensor Vectors
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+
+## 1. Purpose and Multi-Modal Semantic Mapping
+
+`K_TRANSLATION` serves as the universal translation layer connecting heterogeneous semantic representations. It translates human natural language queries into formal algebraic/AST representations for kernel processing, and conversely projects complex mathematical state graphs back into clear, structured, IP-safe natural language responses.
+
+```
++-------------------------------------------------------------------------+
+|                  EXPRESSION TRANSLATION GATEWAY                         |
+|                                                                         |
+|  [ Inbound Multi-Modal Expression: NL, Code, Math, Audio ]              |
+|                               |                                         |
+|                               v                                         |
+|  ( Step 1: Normalize Syntax & Extract Core Semantic Primitives )        |
+|                               |                                         |
+|                               v                                         |
+|  ( Step 2: Map to Formal Algebraic State Graph S_t )                    |
+|                               |                                         |
+|                               v                                         |
+|  ( Step 3: Kernel Plane Processing & Theorem Verification )             |
+|                               |                                         |
+|                               v                                         |
+|  ( Step 4: IP-Safe De-Obfuscation & Persona Projection: H3 Mask )       |
+|                               |                                         |
+|                               v                                         |
+|  [ Outbound Natural Language Explanation / Verifiable Code Artifact ]   |
++-------------------------------------------------------------------------+
+```
 
 ---
-RSCF-NODE
-node_id: amos_02_kernel_09_integration_k_translation_md
-node_type: note
-path: 02_KERNEL/09_INTEGRATION/K_TRANSLATION.md
-claim_class: AMOS_MODEL
+
+## 2. Invariant Laws of Translation
+
+1. **Semantic Invariant Preservation:** A translation $T: \mathcal{A} \to \mathcal{B}$ must preserve the logical truth values and causal invariants of the source proposition: $\text{Truth}(T(\phi)) \iff \text{Truth}(\phi)$.
+2. **IP-Safe Abstraction:** Private cryptographic keys, internal weight vectors, and proprietary core seeds are masked or abstracted into public interface contracts prior to outbound emission.
+3. **Round-Trip Fidelity Check:** Critical mathematical equations and code blocks must satisfy round-trip idempotence: $T^{-1}(T(x)) \equiv x$.
 
 ---
-**MOC:** [[09_INTEGRATION_MOC]]
+
+## 3. Mathematical Translation Operator
+
+$$\mathcal{T}_{A \to B}(x) = \text{ArgMin}_{y \in \mathcal{B}} \; d_{\text{semantic}}\left( \mathbf{E}_A(x), \mathbf{E}_B(y) \right) + \lambda \cdot \mathcal{R}_{\text{invariants}}(y)$$
+
+Where $\mathbf{E}_A, \mathbf{E}_B$ are domain embeddings and $\mathcal{R}_{\text{invariants}}$ penalizes any loss of constitutional constraints.
 
 ---
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+## 4. Cross-Plane Bindings
+
+- **Communication & Personas:** [[K_PERSONALITY]] · [[K_HUMAN_INTELLIGENCE]] · [[COSMO_BRAIN_REASONING_OS_BY_TRANG_PHAN]]
+- **Integration Layer:** [[K_DCP]] · [[K_RSCF]] · [[K_CIL]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[09_INTEGRATION_MOC]] · [[00_ROOT_MOC]]
+

@@ -1,6 +1,6 @@
 {
-  "generated": "2026-08-28T09:46:01.967171+00:00",
-  "total_skills": 342,
+  "generated": "2026-08-28T16:32:42.679986+00:00",
+  "total_skills": 343,
   "total_domains": 42,
   "total_parents": 23,
   "domains": {
@@ -307,6 +307,7 @@
       "amos-knowledge-harvest-runtime",
       "amos-knowledge-research-master",
       "amos-llm-wiki",
+      "amos-mdformat-obsidian",
       "amos-mechmath-research-orchestration-rscf",
       "amos-research-agent",
       "amos-retrieval-conditioned-orchestration-budget-rscf",
@@ -680,6 +681,7 @@
       "amos-knowledge-harvest-runtime",
       "amos-learning-memory-knowledge-feedback-governor",
       "amos-llm-wiki",
+      "amos-mdformat-obsidian",
       "amos-mechmath-research-orchestration-rscf",
       "amos-research-agent",
       "amos-retrieval-conditioned-orchestration-budget-rscf",
@@ -795,19 +797,20 @@
     {
       "name": "amos-7-part-universe-canon",
       "title": "SKILL — Amos 7 Part Universe Canon",
-      "description": "AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Constraint, Flow, Str...",
+      "description": "AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",
       "path": "amos-7-part-universe-canon",
-      "section_count": 15,
+      "section_count": 16,
       "capability_count": 52,
       "file_count": 11,
       "sections": [
         "Identity",
         "When to Use",
+        "Capabilities",
         "Source",
         "7-Part Mapping",
         "The 7 Parts (from the canon)",
@@ -826,7 +829,7 @@
     {
       "name": "amos-7-part-universe-canon-full",
       "title": "SKILL — Amos 7 Part Universe Canon Full",
-      "description": "7 Part Universe Canon Full — canon and universe capability. Use when canon reasoning, universe-level analysis, or inv...",
+      "description": "7 Part Universe Canon Full — canon and universe capability. Use when",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -856,7 +859,7 @@
     {
       "name": "amos-absolute-primitive-decomposer",
       "title": "SKILL — Amos Absolute Primitive Decomposer",
-      "description": "Absolute Primitive Decomposer — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adapt...",
+      "description": "Absolute Primitive Decomposer — runtime and OS capability. Use when runtime",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -886,7 +889,7 @@
     {
       "name": "amos-action-memory-firewall",
       "title": "SKILL — Amos Action Memory Firewall",
-      "description": "Action Memory Firewall — memory systems capability. Use when memory management, context continuity, or memory conflic...",
+      "description": "Action Memory Firewall — memory systems capability. Use when memory management,",
       "domain": "memory",
       "parent_skill": "amos-memory-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -916,7 +919,7 @@
     {
       "name": "amos-active-inference-governor",
       "title": "SKILL — Amos Active Inference Governor",
-      "description": "Govern active-inference-style perception-belief-action loops inside AMOS by separating observations, latent-state bel...",
+      "description": "Govern active-inference-style perception-belief-action loops inside AMOS",
       "domain": "mind_behavior",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "AMOS_MODEL",
@@ -944,7 +947,7 @@
     {
       "name": "amos-adaptive-stability-balancer",
       "title": "SKILL — Amos Adaptive Stability Balancer",
-      "description": "Balance stability-preserving operation against adaptation, scaling, exploration, mutation, and recovery in AMOS runti...",
+      "description": "Balance stability-preserving operation against adaptation, scaling, exploration,",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -972,7 +975,7 @@
     {
       "name": "amos-adversarial-entropy-accountant",
       "title": "SKILL — Amos Adversarial Entropy Accountant",
-      "description": "Adversarial Entropy Accountant — security and safety capability. Use when security analysis, safety verification, or ...",
+      "description": "Adversarial Entropy Accountant — security and safety capability. Use",
       "domain": "security",
       "parent_skill": "amos-security-safety-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1002,7 +1005,7 @@
     {
       "name": "amos-agency-consequence-governor",
       "title": "SKILL — Amos Agency Consequence Governor",
-      "description": "Agency Consequence Governor — agent systems capability. Use when agent design, delegation reasoning, or multi-agent g...",
+      "description": "Agency Consequence Governor — agent systems capability. Use when agent",
       "domain": "agent",
       "parent_skill": "amos-agent-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1032,7 +1035,7 @@
     {
       "name": "amos-agent-economy-constitutional-governance-rscf",
       "title": "SKILL — Amos Agent Economy Constitutional Governance Rscf",
-      "description": "Agent Economy Constitutional Governance — econ capability. Use when executing the core capability within this domain....",
+      "description": "Agent Economy Constitutional Governance — econ capability. Use when executing",
       "domain": "econ",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1063,7 +1066,7 @@
     {
       "name": "amos-agent-externalization-architecture-rscf",
       "title": "SKILL — Amos Agent Externalization Architecture Rscf",
-      "description": "Agent Externalization Architecture — agent systems capability. Use when agent design, delegation reasoning, or multi-...",
+      "description": "Agent Externalization Architecture — agent systems capability. Use when",
       "domain": "agent",
       "parent_skill": "amos-agent-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1079,7 +1082,7 @@
         "Capabilities",
         "11_KNOWLEDGE Vault Content",
         "PRE-WORK REQUIREMENTS",
-        "SYSTEM ARCHITECTURE OVERVIEW",
+        "SYSTEM [[ARCHITECTURE]] OVERVIEW",
         "Related",
         "Examples",
         "Validation Gates",
@@ -1094,7 +1097,7 @@
     {
       "name": "amos-agent-memory-dynamics-rscf-engine",
       "title": "SKILL — Amos Agent Memory Dynamics Rscf Engine",
-      "description": "Agent Memory Dynamics — memory systems capability. Use when memory management, context continuity, or memory conflict...",
+      "description": "Agent Memory Dynamics — memory systems capability. Use when memory management,",
       "domain": "memory",
       "parent_skill": "amos-memory-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1126,7 +1129,7 @@
     {
       "name": "amos-agent-native-research-artifact-rscf",
       "title": "SKILL — Amos Agent Native Research Artifact Rscf",
-      "description": "Agent Native Research Artifact — knowledge research capability. Use when knowledge management, research, or Obsidian ...",
+      "description": "Agent Native Research Artifact — knowledge research capability. Use when",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1156,7 +1159,7 @@
     {
       "name": "amos-agent-owner-attribution-rscf",
       "title": "SKILL — Amos Agent Owner Attribution Rscf",
-      "description": "Agent Owner Attribution — agent systems capability. Use when agent design, delegation reasoning, or multi-agent gover...",
+      "description": "Agent Owner Attribution — agent systems capability. Use when agent design,",
       "domain": "agent",
       "parent_skill": "amos-agent-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1172,7 +1175,7 @@
         "Capabilities",
         "11_KNOWLEDGE Vault Content",
         "PRE-WORK REQUIREMENTS",
-        "SYSTEM ARCHITECTURE OVERVIEW",
+        "SYSTEM [[ARCHITECTURE]] OVERVIEW",
         "Related",
         "Examples",
         "Validation Gates",
@@ -1187,7 +1190,7 @@
     {
       "name": "amos-agent-storage-footprint-rscf",
       "title": "SKILL — Amos Agent Storage Footprint Rscf",
-      "description": "Agent Storage Footprint — knowledge research capability. Use when knowledge management, research, or Obsidian vault i...",
+      "description": "Agent Storage Footprint — knowledge research capability. Use when knowledge",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1218,7 +1221,7 @@
     {
       "name": "amos-agent-systems-master",
       "title": "SKILL — Amos Agent Systems Master",
-      "description": "AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy governance, agent-to-ag...",
+      "description": "AMOS Agent Systems — agent fabrication, delegation, agency-consequence",
       "domain": "agent",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -1254,7 +1257,7 @@
     {
       "name": "amos-agentic-skill-lie-algebroid-rscf-engine",
       "title": "SKILL — Amos Agentic Skill Lie Algebroid Rscf Engine",
-      "description": "Agentic Skill Lie Algebroid — agent systems capability. Use when agent design, delegation reasoning, or multi-agent g...",
+      "description": "Agentic Skill Lie Algebroid — agent systems capability. Use when agent",
       "domain": "agent",
       "parent_skill": "amos-agent-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1284,7 +1287,7 @@
     {
       "name": "amos-agentops-observability-rscf",
       "title": "SKILL — Amos Agentops Observability Rscf",
-      "description": "Agentops Observability — agent systems capability. Use when agent design, delegation reasoning, or multi-agent govern...",
+      "description": "Agentops Observability — agent systems capability. Use when agent design,",
       "domain": "agent",
       "parent_skill": "amos-agent-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1314,7 +1317,7 @@
     {
       "name": "amos-ai-architecture-factory-rscf-engine",
       "title": "SKILL — Amos Ai Architecture Factory Rscf Engine",
-      "description": "Ai Architecture Factory — technology and engineering capability. Use when software development, engineering design, o...",
+      "description": "Ai Architecture Factory — technology and engineering capability. Use",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1344,7 +1347,7 @@
     {
       "name": "amos-ai-drift-alignment-governor",
       "title": "SKILL — Amos Ai Drift Alignment Governor",
-      "description": "Ai Drift Alignment Governor — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptiv...",
+      "description": "Ai Drift Alignment Governor — runtime and OS capability. Use when runtime",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1374,7 +1377,7 @@
     {
       "name": "amos-ai-entropy-rscf-engine",
       "title": "SKILL — Amos Ai Entropy Rscf Engine",
-      "description": "Ai Entropy — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Us...",
+      "description": "Ai Entropy — fractal systems capability. Use when fractal analysis, scale",
       "domain": "fractal",
       "parent_skill": "amos-fractal-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1405,7 +1408,7 @@
     {
       "name": "amos-aibom-lifecycle-assurance-rscf",
       "title": "SKILL — Amos Aibom Lifecycle Assurance Rscf",
-      "description": "AIBOM Lifecycle Assurance — RSCF epistemic capability. Use when classifying claims by epistemic state, validating out...",
+      "description": "AIBOM Lifecycle Assurance — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1436,7 +1439,7 @@
     {
       "name": "amos-artistic-expression-governor",
       "title": "SKILL — Amos Artistic Expression Governor",
-      "description": "Artistic Expression Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, o...",
+      "description": "Artistic Expression Governor — mind and behavior capability. Use when",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1466,7 +1469,7 @@
     {
       "name": "amos-arxiv-agent-memory-dynamics-rscf",
       "title": "SKILL — Amos Arxiv Agent Memory Dynamics Rscf",
-      "description": "Arxiv Agent Memory Dynamics — arxiv research capability. Use when arxiv research, paper analysis, or literature revie...",
+      "description": "Arxiv Agent Memory Dynamics — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1496,7 +1499,7 @@
     {
       "name": "amos-arxiv-autonomous-scientific-knowledge-rscf",
       "title": "SKILL — Amos Arxiv Autonomous Scientific Knowledge Rscf",
-      "description": "Arxiv Autonomous Scientific Knowledge — arxiv research capability. Use when arxiv research, paper analysis, or litera...",
+      "description": "Arxiv Autonomous Scientific Knowledge — arxiv research capability. Use",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1526,7 +1529,7 @@
     {
       "name": "amos-arxiv-conrad-radiomics-rscf",
       "title": "SKILL — Amos Arxiv Conrad Radiomics Rscf",
-      "description": "Arxiv Conrad Radiomics — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Us...",
+      "description": "Arxiv Conrad Radiomics — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1557,7 +1560,7 @@
     {
       "name": "amos-arxiv-continual-interference-geometry-rscf",
       "title": "SKILL — Amos Arxiv Continual Interference Geometry Rscf",
-      "description": "Arxiv Continual Interference Geometry — arxiv research capability. Use when arxiv research, paper analysis, or litera...",
+      "description": "Arxiv Continual Interference Geometry — arxiv research capability. Use",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1587,7 +1590,7 @@
     {
       "name": "amos-arxiv-embodied-runtime-rscf-engine",
       "title": "SKILL — Amos Arxiv Embodied Runtime Rscf Engine",
-      "description": "Arxiv Embodied Runtime — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Us...",
+      "description": "Arxiv Embodied Runtime — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1617,7 +1620,7 @@
     {
       "name": "amos-arxiv-influence-guided-symbolic-regression-rscf",
       "title": "SKILL — Amos Arxiv Influence Guided Symbolic Regression Rscf",
-      "description": "Arxiv Influence Guided Symbolic Regression — arxiv research capability. Use when arxiv research, paper analysis, or l...",
+      "description": "Arxiv Influence Guided Symbolic Regression — arxiv research capability.",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1647,7 +1650,7 @@
     {
       "name": "amos-arxiv-multistage-order-causal-discovery-rscf",
       "title": "SKILL — Amos Arxiv Multistage Order Causal Discovery Rscf",
-      "description": "Arxiv Multistage Order Causal Discovery — arxiv research capability. Use when arxiv research, paper analysis, or lite...",
+      "description": "Arxiv Multistage Order Causal Discovery — arxiv research capability.",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1680,7 +1683,7 @@
     {
       "name": "amos-arxiv-quantum-arithmetic-cryptanalysis-rscf",
       "title": "SKILL — Amos Arxiv Quantum Arithmetic Cryptanalysis Rscf",
-      "description": "Arxiv Quantum Arithmetic Cryptanalysis — arxiv research capability. Use when arxiv research, paper analysis, or liter...",
+      "description": "Arxiv Quantum Arithmetic Cryptanalysis — arxiv research capability. Use",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1710,7 +1713,7 @@
     {
       "name": "amos-arxiv-quantum-koopman-rscf",
       "title": "SKILL — Amos Arxiv Quantum Koopman Rscf",
-      "description": "Arxiv Quantum Koopman — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use...",
+      "description": "Arxiv Quantum Koopman — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1741,7 +1744,7 @@
     {
       "name": "amos-arxiv-sparse-autoencoder-interpretability-rscf",
       "title": "SKILL — Amos Arxiv Sparse Autoencoder Interpretability Rscf",
-      "description": "Arxiv Sparse Autoencoder Interpretability — arxiv research capability. Use when arxiv research, paper analysis, or li...",
+      "description": "Arxiv Sparse Autoencoder Interpretability — arxiv research capability.",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1771,7 +1774,7 @@
     {
       "name": "amos-arxiv-spatial-speech-perception-rscf",
       "title": "SKILL — Amos Arxiv Spatial Speech Perception Rscf",
-      "description": "Arxiv Spatial Speech Perception — arxiv research capability. Use when arxiv research, paper analysis, or literature r...",
+      "description": "Arxiv Spatial Speech Perception — arxiv research capability. Use when",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1801,7 +1804,7 @@
     {
       "name": "amos-arxiv-spectral-latent-treatment-effects-rscf",
       "title": "SKILL — Amos Arxiv Spectral Latent Treatment Effects Rscf",
-      "description": "Arxiv Spectral Latent Treatment Effects — arxiv research capability. Use when arxiv research, paper analysis, or lite...",
+      "description": "Arxiv Spectral Latent Treatment Effects — arxiv research capability.",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1831,7 +1834,7 @@
     {
       "name": "amos-arxiv-structure-preserving-variational-neural-fields-rscf",
       "title": "SKILL — Amos Arxiv Structure Preserving Variational Neural Fields Rscf",
-      "description": "Arxiv Structure Preserving Variational Neural Fields — arxiv research capability. Use when arxiv research, paper anal...",
+      "description": "Arxiv Structure Preserving Variational Neural Fields — arxiv research",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1861,7 +1864,7 @@
     {
       "name": "amos-arxiv-time-series-bootstrap-conformal-rscf",
       "title": "SKILL — Amos Arxiv Time Series Bootstrap Conformal Rscf",
-      "description": "Arxiv Time Series Bootstrap Conformal — arxiv research capability. Use when arxiv research, paper analysis, or litera...",
+      "description": "Arxiv Time Series Bootstrap Conformal — arxiv research capability. Use",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1891,7 +1894,7 @@
     {
       "name": "amos-arxiv-ttstack-sketching-rscf-engine",
       "title": "SKILL — Amos Arxiv Ttstack Sketching Rscf Engine",
-      "description": "Arxiv Ttstack Sketching — arxiv research capability. Use when arxiv research, paper analysis, or literature review. U...",
+      "description": "Arxiv Ttstack Sketching — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1921,7 +1924,7 @@
     {
       "name": "amos-ast-control-dataflow-rscf-engine",
       "title": "SKILL — Amos Ast Control Dataflow Rscf Engine",
-      "description": "Ast Control Dataflow — technology and engineering capability. Use when software development, engineering design, or t...",
+      "description": "Ast Control Dataflow — technology and engineering capability. Use when",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1951,7 +1954,7 @@
     {
       "name": "amos-attention-allocation-governor",
       "title": "SKILL — Amos Attention Allocation Governor",
-      "description": "Attention Allocation Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, ...",
+      "description": "Attention Allocation Governor — mind and behavior capability. Use when",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -1981,7 +1984,7 @@
     {
       "name": "amos-audit-repair-master",
       "title": "SKILL — Amos Audit Repair Master",
-      "description": "AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use whe...",
+      "description": "AMOS Audit & Repair — failure recovery, gap discovery, quality auditing,",
       "domain": "audit",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2012,7 +2015,7 @@
     {
       "name": "amos-awareness-inference-governor",
       "title": "SKILL — Amos Awareness Inference Governor",
-      "description": "Awareness Inference Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, o...",
+      "description": "Awareness Inference Governor — mind and behavior capability. Use when",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2042,7 +2045,7 @@
     {
       "name": "amos-benchmark-forensics",
       "title": "SKILL — Amos Benchmark Forensics",
-      "description": "Benchmark Forensics — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allo...",
+      "description": "Benchmark Forensics — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2076,7 +2079,7 @@
     {
       "name": "amos-binding-rscf-engine",
       "title": "SKILL — Amos Binding Rscf Engine",
-      "description": "Binding — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epist...",
+      "description": "Binding — RSCF epistemic capability. Use when classifying claims by epistemic",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2106,7 +2109,7 @@
     {
       "name": "amos-biology-quantum-bridge-governor",
       "title": "SKILL — Amos Biology Quantum Bridge Governor",
-      "description": "Biology-Quantum Bridge Governor — biology and neuroscience capability. Bridges C04 biological/neurological systems wi...",
+      "description": "Biology-Quantum Bridge Governor — biology and neuroscience capability.",
       "domain": "cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos)",
       "parent_skill": "amos-c04-bio-neuro-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2135,7 +2138,7 @@
     {
       "name": "amos-blackbox-program-discovery-rscf",
       "title": "SKILL — Amos Blackbox Program Discovery Rscf",
-      "description": "Blackbox Program Discovery — technology and engineering capability. Use when software development, engineering design...",
+      "description": "Blackbox Program Discovery — technology and engineering capability. Use",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2165,7 +2168,7 @@
     {
       "name": "amos-boundary-admission-governor",
       "title": "SKILL — Amos Boundary Admission Governor",
-      "description": "Boundary Admission Governor — boundary and scope capability. Use when evaluating scope boundaries, context continuity...",
+      "description": "Boundary Admission Governor — boundary and scope capability. Use when",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2195,7 +2198,7 @@
     {
       "name": "amos-boundary-architecture-rscf-calculus",
       "title": "SKILL — Amos Boundary Architecture Rscf Calculus",
-      "description": "Boundary Architecture Rscf Calculus — boundary and scope capability. Use when evaluating scope boundaries, context co...",
+      "description": "Boundary Architecture Rscf Calculus — boundary and scope capability.",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2225,7 +2228,7 @@
     {
       "name": "amos-boundary-scope-master",
       "title": "SKILL — Amos Boundary Scope Master",
-      "description": "AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Use when scope anal...",
+      "description": "AMOS Boundary & Scope — scope regimes, boundary admission, context continuity,",
       "domain": "boundary",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2255,7 +2258,7 @@
     {
       "name": "amos-bounded-code-facts-rscf",
       "title": "SKILL — Amos Bounded Code Facts Rscf",
-      "description": "Bounded Code Facts — technology and engineering capability. Use when software development, engineering design, or tec...",
+      "description": "Bounded Code Facts — technology and engineering capability. Use when",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2285,7 +2288,7 @@
     {
       "name": "amos-budget-aware-optimizer-selection-rscf-engine",
       "title": "SKILL — Amos Budget Aware Optimizer Selection Rscf Engine",
-      "description": "Budget Aware Optimizer Selection — RSCF epistemic capability. Use when classifying claims by epistemic state, validat...",
+      "description": "Budget Aware Optimizer Selection — RSCF epistemic capability. Use when",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2315,7 +2318,7 @@
     {
       "name": "amos-bundle-manifold-concentration-rscf-engine",
       "title": "SKILL — Amos Bundle Manifold Concentration Rscf Engine",
-      "description": "Bundle Manifold Concentration — RSCF epistemic capability. Use when classifying claims by epistemic state, validating...",
+      "description": "Bundle Manifold Concentration — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2345,7 +2348,7 @@
     {
       "name": "amos-c01-meta-logic-master",
       "title": "SKILL — Amos C01 Meta Logic Master",
-      "description": "AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs, 5 Pattern Families. Law of Law, Rule of 2, Rule...",
+      "description": "AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs,",
       "domain": "c01",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2369,7 +2372,7 @@
     {
       "name": "amos-c02-math-compute-master",
       "title": "SKILL — Amos C02 Math Compute Master",
-      "description": "AMOS C02 Math & Compute — 10 families: problem framing, numerical methods, probability, optimization, complexity, con...",
+      "description": "AMOS C02 Math & Compute — 10 families: problem framing, numerical methods,",
       "domain": "c02",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2378,7 +2381,7 @@
       "path": "amos-c02-math-compute-master",
       "section_count": 17,
       "capability_count": 65,
-      "file_count": 25,
+      "file_count": 24,
       "sections": [
         "Identity",
         "When to Use",
@@ -2402,7 +2405,7 @@
     {
       "name": "amos-c03-physics-cosmos-master",
       "title": "SKILL — Amos C03 Physics Cosmos Master",
-      "description": "AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reas...",
+      "description": "AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime,",
       "domain": "c03",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2431,7 +2434,7 @@
     {
       "name": "amos-c04-bio-neuro-master",
       "title": "SKILL — Amos C04 Bio Neuro Master",
-      "description": "AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biolo...",
+      "description": "AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI,",
       "domain": "c04",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2460,7 +2463,7 @@
     {
       "name": "amos-c05-mind-behavior-master",
       "title": "AMOS C05 — Mind & Behavior Master",
-      "description": "AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), behavior (Behavior E...",
+      "description": "AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality",
       "domain": "c05",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2492,7 +2495,7 @@
     {
       "name": "amos-c06-society-culture-master",
       "title": "SKILL — Amos C06 Society Culture Master",
-      "description": "AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic pa...",
+      "description": "AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese",
       "domain": "c06",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2517,7 +2520,7 @@
     {
       "name": "amos-c07-econ-finance-master",
       "title": "SKILL — Amos C07 Econ Finance Master",
-      "description": "AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFi...",
+      "description": "AMOS C07 Econ & Finance — unit economics, forex, investment, wealth,",
       "domain": "c07",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2545,7 +2548,7 @@
     {
       "name": "amos-c08-strategy-game-master",
       "title": "SKILL — Amos C08 Strategy Game Master",
-      "description": "AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulti...",
+      "description": "AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation,",
       "domain": "c08",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2574,7 +2577,7 @@
     {
       "name": "amos-c09-org-law-policy-master",
       "title": "SKILL — Amos C09 Org Law Policy Master",
-      "description": "AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, leg...",
+      "description": "AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory",
       "domain": "c09",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2608,7 +2611,7 @@
     {
       "name": "amos-c10-tech-engineering-master",
       "title": "SKILL — Amos C10 Tech Engineering Master",
-      "description": "AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factory systems, produc...",
+      "description": "AMOS C10 Tech & Engineering — coding, software engineering, automation,",
       "domain": "c10",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2636,7 +2639,7 @@
     {
       "name": "amos-c11-design-language-master",
       "title": "SKILL — Amos C11 Design Language Master",
-      "description": "AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presen...",
+      "description": "AMOS C11 Design & Language — content creation, corporate documentation,",
       "domain": "c11",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2665,7 +2668,7 @@
     {
       "name": "amos-c12-earth-ecology-master",
       "title": "SKILL — Amos C12 Earth Ecology Master",
-      "description": "AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery...",
+      "description": "AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure,",
       "domain": "c12",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2674,7 +2677,7 @@
       "path": "amos-c12-earth-ecology-master",
       "section_count": 18,
       "capability_count": 75,
-      "file_count": 42,
+      "file_count": 41,
       "sections": [
         "Identity",
         "When to Use",
@@ -2699,7 +2702,7 @@
     {
       "name": "amos-calibrated-feedback-control-rscf",
       "title": "SKILL — Amos Calibrated Feedback Control Rscf",
-      "description": "Calibrated Feedback Control — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptiv...",
+      "description": "Calibrated Feedback Control — runtime and OS capability. Use when runtime",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2729,7 +2732,7 @@
     {
       "name": "amos-canon-compiler",
       "title": "SKILL — Amos Canon Compiler",
-      "description": "Canon Compiler — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verif...",
+      "description": "Canon Compiler — canon and universe capability. Use when canon reasoning,",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2759,7 +2762,7 @@
     {
       "name": "amos-canon-consistency-governor",
       "title": "SKILL — Amos Canon Consistency Governor",
-      "description": "Canon Consistency Governor — canon and universe capability. Use when canon reasoning, universe-level analysis, or inv...",
+      "description": "Canon Consistency Governor — canon and universe capability. Use when",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2789,7 +2792,7 @@
     {
       "name": "amos-canon-universe-master",
       "title": "SKILL — Amos Canon Universe Master",
-      "description": "AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, universe-scale canonica...",
+      "description": "AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants,",
       "domain": "canon",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2818,7 +2821,7 @@
     {
       "name": "amos-canonical-software-substrate-rscf",
       "title": "SKILL — Amos Canonical Software Substrate Rscf",
-      "description": "Canonical Software Substrate — canon and universe capability. Use when canon reasoning, universe-level analysis, or i...",
+      "description": "Canonical Software Substrate — canon and universe capability. Use when",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2848,7 +2851,7 @@
     {
       "name": "amos-causal-abstraction-validity-rscf-engine",
       "title": "SKILL — Amos Causal Abstraction Validity Rscf Engine",
-      "description": "Causal Abstraction Validity — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or int...",
+      "description": "Causal Abstraction Validity — causal reasoning capability. Use when causal",
       "domain": "causal",
       "parent_skill": "amos-causal-reasoning-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2878,7 +2881,7 @@
     {
       "name": "amos-causal-closure-governor",
       "title": "SKILL — Amos Causal Closure Governor",
-      "description": "Causal Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or interve...",
+      "description": "Causal Closure Governor — causal reasoning capability. Use when causal",
       "domain": "causal",
       "parent_skill": "amos-causal-reasoning-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2908,7 +2911,7 @@
     {
       "name": "amos-causal-hierarchy-governor",
       "title": "SKILL — Amos Causal Hierarchy Governor",
-      "description": "Causal Hierarchy Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or inter...",
+      "description": "Causal Hierarchy Governor — causal reasoning capability. Use when causal",
       "domain": "causal",
       "parent_skill": "amos-causal-reasoning-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2938,7 +2941,7 @@
     {
       "name": "amos-causal-reasoning-master",
       "title": "SKILL — Amos Causal Reasoning Master",
-      "description": "AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual reasoning, intervention analysis. 4 causal m...",
+      "description": "AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual",
       "domain": "causal",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -2966,7 +2969,7 @@
     {
       "name": "amos-cell-intelligence-mapper",
       "title": "SKILL — Amos Cell Intelligence Mapper",
-      "description": "Cell Intelligence Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medic...",
+      "description": "Cell Intelligence Mapper — biology and neuroscience capability. Use when",
       "domain": "c04",
       "parent_skill": "amos-c04-bio-neuro-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -2996,7 +2999,7 @@
     {
       "name": "amos-claim-verifier",
       "title": "SKILL — Amos Claim Verifier",
-      "description": "Claim Verifier — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocatio...",
+      "description": "Claim Verifier — audit and repair capability. Use when auditing, failure",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3026,7 +3029,7 @@
     {
       "name": "amos-cli-failure-process-diagnostics-rscf",
       "title": "SKILL — Amos Cli Failure Process Diagnostics Rscf",
-      "description": "Cli Failure Process Diagnostics — technology and engineering capability. Use when software development, engineering d...",
+      "description": "Cli Failure Process Diagnostics — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3056,7 +3059,7 @@
     {
       "name": "amos-closed-loop-learning-governor",
       "title": "SKILL — Amos Closed Loop Learning Governor",
-      "description": "Closed Loop Learning Governor — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adapt...",
+      "description": "Closed Loop Learning Governor — runtime and OS capability. Use when runtime",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3086,7 +3089,7 @@
     {
       "name": "amos-code-agent-harness-rscf",
       "title": "SKILL — Amos Code Agent Harness Rscf",
-      "description": "Code Agent Harness — technology and engineering capability. Use when software development, engineering design, or tec...",
+      "description": "Code Agent Harness — technology and engineering capability. Use when",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3116,7 +3119,7 @@
     {
       "name": "amos-cognitive-compression-kernel",
       "title": "SKILL — Amos Cognitive Compression Kernel",
-      "description": "Cognitive Compression Kernel — mind and behavior capability. Use when psychological analysis, behavioral reasoning, o...",
+      "description": "Cognitive Compression Kernel — mind and behavior capability. Use when",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3145,7 +3148,7 @@
     {
       "name": "amos-cognitive-process-orchestrator",
       "title": "SKILL — Amos Cognitive Process Orchestrator",
-      "description": "Cognitive Process Orchestrator — mind and behavior capability. Use when psychological analysis, behavioral reasoning,...",
+      "description": "Cognitive Process Orchestrator — mind and behavior capability. Use when",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3175,7 +3178,7 @@
     {
       "name": "amos-collapse-recovery",
       "title": "SKILL — Amos Collapse Recovery",
-      "description": "Collapse Recovery — Trang framework capability. Use when Trang framework reasoning, cascade analysis, or reality arch...",
+      "description": "Collapse Recovery — Trang framework capability. Use when Trang framework",
       "domain": "trang",
       "parent_skill": "amos-trang-framework-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3206,7 +3209,7 @@
     {
       "name": "amos-combined-program-analysis-rscf",
       "title": "SKILL — Amos Combined Program Analysis Rscf",
-      "description": "Combined Program Analysis — technology and engineering capability. Use when software development, engineering design,...",
+      "description": "Combined Program Analysis — technology and engineering capability. Use",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3236,7 +3239,7 @@
     {
       "name": "amos-commit-time-authorization-rscf-engine",
       "title": "SKILL — Amos Commit Time Authorization Rscf Engine",
-      "description": "Commit Time Authorization — RSCF epistemic capability. Use when classifying claims by epistemic state, validating out...",
+      "description": "Commit Time Authorization — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3266,7 +3269,7 @@
     {
       "name": "amos-consciousness-candidate-governor",
       "title": "SKILL — Amos Consciousness Candidate Governor",
-      "description": "Consciousness Candidate Governor — mind and behavior capability. Use when psychological analysis, behavioral reasonin...",
+      "description": "Consciousness Candidate Governor — mind and behavior capability. Use",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3296,7 +3299,7 @@
     {
       "name": "amos-constraint-propagation-rscf-engine",
       "title": "SKILL — Amos Constraint Propagation Rscf Engine",
-      "description": "Constraint Propagation — formal verification capability. Use when formal verification, symbolic execution, proof chec...",
+      "description": "Constraint Propagation — formal verification capability. Use when formal",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3326,7 +3329,7 @@
     {
       "name": "amos-constructive-metamorphic-testing-rscf",
       "title": "SKILL — Amos Constructive Metamorphic Testing Rscf",
-      "description": "Constructive Metamorphic Testing — technology and engineering capability. Use when software development, engineering ...",
+      "description": "Constructive Metamorphic Testing — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3356,7 +3359,7 @@
     {
       "name": "amos-context-budget-governor-rscf",
       "title": "SKILL — Amos Context Budget Governor Rscf",
-      "description": "Context Budget Governor — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or...",
+      "description": "Context Budget Governor — boundary and scope capability. Use when evaluating",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3387,7 +3390,7 @@
     {
       "name": "amos-context-compaction-recoverability-rscf",
       "title": "SKILL — Amos Context Compaction Recoverability Rscf",
-      "description": "Context Compaction Recoverability — boundary and scope capability. Use when evaluating scope boundaries, context cont...",
+      "description": "Context Compaction Recoverability — boundary and scope capability. Use",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3417,7 +3420,7 @@
     {
       "name": "amos-context-continuity-governor",
       "title": "SKILL — Amos Context Continuity Governor",
-      "description": "Context Continuity Governor — boundary and scope capability. Use when evaluating scope boundaries, context continuity...",
+      "description": "Context Continuity Governor — boundary and scope capability. Use when",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3447,7 +3450,7 @@
     {
       "name": "amos-context-orientation-cache-rscf",
       "title": "SKILL — Amos Context Orientation Cache Rscf",
-      "description": "Context Orientation Cache — boundary and scope capability. Use when evaluating scope boundaries, context continuity, ...",
+      "description": "Context Orientation Cache — boundary and scope capability. Use when evaluating",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3477,7 +3480,7 @@
     {
       "name": "amos-context-persona-drift-rscf",
       "title": "SKILL — Amos Context Persona Drift Rscf",
-      "description": "Context Persona Drift — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or c...",
+      "description": "Context Persona Drift — boundary and scope capability. Use when evaluating",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3507,7 +3510,7 @@
     {
       "name": "amos-context-state-maintenance-rscf",
       "title": "SKILL — Amos Context State Maintenance Rscf",
-      "description": "Context State Maintenance — boundary and scope capability. Use when evaluating scope boundaries, context continuity, ...",
+      "description": "Context State Maintenance — boundary and scope capability. Use when evaluating",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3538,7 +3541,7 @@
     {
       "name": "amos-contravariance-alignment-rscf-engine",
       "title": "SKILL — Amos Contravariance Alignment Rscf Engine",
-      "description": "Contravariance Alignment — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outp...",
+      "description": "Contravariance Alignment — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3573,7 +3576,7 @@
     {
       "name": "amos-core19-logic-kernel",
       "title": "SKILL — Amos Core19 Logic Kernel",
-      "description": "Core19 Logic Kernel — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stabil...",
+      "description": "Core19 Logic Kernel — runtime and OS capability. Use when runtime reasoning,",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3603,7 +3606,7 @@
     {
       "name": "amos-cost-aware-test-supervision-rscf",
       "title": "SKILL — Amos Cost Aware Test Supervision Rscf",
-      "description": "Cost Aware Test Supervision — super engines capability. Use when super-engine reasoning, consciousness emulation, or ...",
+      "description": "Cost Aware Test Supervision — super engines capability. Use when super-engine",
       "domain": "super",
       "parent_skill": "amos-super-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3634,7 +3637,7 @@
     {
       "name": "amos-counterfactual-reasoning-governor",
       "title": "SKILL — Amos Counterfactual Reasoning Governor",
-      "description": "Counterfactual Reasoning Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, ...",
+      "description": "Counterfactual Reasoning Governor — causal reasoning capability. Use",
       "domain": "causal",
       "parent_skill": "amos-causal-reasoning-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3663,7 +3666,7 @@
     {
       "name": "amos-counterfactual-selfhood-mapper",
       "title": "SKILL — Amos Counterfactual Selfhood Mapper",
-      "description": "Counterfactual Selfhood Mapper — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or ...",
+      "description": "Counterfactual Selfhood Mapper — causal reasoning capability. Use when",
       "domain": "causal",
       "parent_skill": "amos-causal-reasoning-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3693,7 +3696,7 @@
     {
       "name": "amos-cross-architecture-tensor-engine",
       "title": "SKILL — Amos Cross Architecture Tensor Engine",
-      "description": "Cross Architecture Tensor Engine — formal verification capability. Use when formal verification, symbolic execution, ...",
+      "description": "Cross Architecture Tensor Engine — formal verification capability. Use",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3723,7 +3726,7 @@
     {
       "name": "amos-cross-domain-tensor-composition-governor",
       "title": "SKILL — Amos Cross Domain Tensor Composition Governor",
-      "description": "Cross-Domain Tensor Composition Governor — RSCF epistemic capability. Governs when and how typed tensors (T_R, T_F, T...",
+      "description": "Cross-Domain Tensor Composition Governor — RSCF epistemic capability.",
       "domain": "cross-domain",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3752,7 +3755,7 @@
     {
       "name": "amos-cross-scale-rscf-tensor-engine",
       "title": "SKILL — Amos Cross Scale Rscf Tensor Engine",
-      "description": "Cross Scale Rscf Tensor Engine — formal verification capability. Use when formal verification, symbolic execution, pr...",
+      "description": "Cross Scale Rscf Tensor Engine — formal verification capability. Use",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3782,7 +3785,7 @@
     {
       "name": "amos-cross-species-cognition-mapper",
       "title": "SKILL — Amos Cross Species Cognition Mapper",
-      "description": "Cross Species Cognition Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or...",
+      "description": "Cross Species Cognition Mapper — biology and neuroscience capability.",
       "domain": "c04",
       "parent_skill": "amos-c04-bio-neuro-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3813,7 +3816,7 @@
     {
       "name": "amos-dependency-environment-reconstruction-rscf",
       "title": "SKILL — Amos Dependency Environment Reconstruction Rscf",
-      "description": "Dependency Environment Reconstruction — RSCF epistemic capability. Use when classifying claims by epistemic state, va...",
+      "description": "Dependency Environment Reconstruction — RSCF epistemic capability. Use",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3843,7 +3846,7 @@
     {
       "name": "amos-design-visual-rscf-engine",
       "title": "SKILL — Amos Design Visual Rscf Engine",
-      "description": "Design Visual — technology and engineering capability. Use when software development, engineering design, or technica...",
+      "description": "Design Visual — technology and engineering capability. Use when software",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3873,7 +3876,7 @@
     {
       "name": "amos-designer-os",
       "title": "SKILL — Amos Designer Os",
-      "description": "Designer Os — technology and engineering capability. Use when software development, engineering design, or technical ...",
+      "description": "Designer Os — technology and engineering capability. Use when software",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3903,7 +3906,7 @@
     {
       "name": "amos-deterministic-ai-control-plane",
       "title": "SKILL — Amos Deterministic Ai Control Plane",
-      "description": "Deterministic Ai Control Plane — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adap...",
+      "description": "Deterministic Ai Control Plane — runtime and OS capability. Use when",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3933,7 +3936,7 @@
     {
       "name": "amos-direct-corpus-search-rscf",
       "title": "SKILL — Amos Direct Corpus Search Rscf",
-      "description": "Direct Corpus Search — knowledge research capability. Use when knowledge management, research, or Obsidian vault inte...",
+      "description": "Direct Corpus Search — knowledge research capability. Use when knowledge",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3963,7 +3966,7 @@
     {
       "name": "amos-distinct-working-memory-rscf",
       "title": "SKILL — Amos Distinct Working Memory Rscf",
-      "description": "Distinct Working Memory — memory systems capability. Use when memory management, context continuity, or memory confli...",
+      "description": "Distinct Working Memory — memory systems capability. Use when memory",
       "domain": "memory",
       "parent_skill": "amos-memory-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -3979,7 +3982,7 @@
         "Capabilities",
         "Vault-Sourced Content",
         "PRE-WORK REQUIREMENTS",
-        "SYSTEM ARCHITECTURE OVERVIEW",
+        "SYSTEM [[ARCHITECTURE]] OVERVIEW",
         "WORKING GUIDELINES",
         "Related",
         "Examples",
@@ -3995,7 +3998,7 @@
     {
       "name": "amos-distinction-relation-constraint-rscf-algebra",
       "title": "SKILL — Amos Distinction Relation Constraint Rscf Algebra",
-      "description": "Distinction Relation Constraint Rscf Algebra — formal verification capability. Use when formal verification, symbolic...",
+      "description": "Distinction Relation Constraint Rscf Algebra — formal verification capability.",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4025,7 +4028,7 @@
     {
       "name": "amos-distinction-relation-transformation",
       "title": "SKILL — Amos Distinction Relation Transformation",
-      "description": "Distinction Relation Transformation — super engines capability. Use when super-engine reasoning, consciousness emulat...",
+      "description": "Distinction Relation Transformation — super engines capability. Use when",
       "domain": "super",
       "parent_skill": "amos-super-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4055,7 +4058,7 @@
     {
       "name": "amos-distinction-rscf-architecture",
       "title": "SKILL — Amos Distinction Rscf Architecture",
-      "description": "Distinction Rscf Architecture — Trang framework capability. Use when Trang framework reasoning, cascade analysis, or ...",
+      "description": "Distinction Rscf Architecture — Trang framework capability. Use when",
       "domain": "trang",
       "parent_skill": "amos-trang-framework-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4086,7 +4089,7 @@
     {
       "name": "amos-distributed-attack-composition-monitor-rscf",
       "title": "SKILL — Amos Distributed Attack Composition Monitor Rscf",
-      "description": "Distributed Attack Composition Monitor — security and safety capability. Use when security analysis, safety verificat...",
+      "description": "Distributed Attack Composition Monitor — security and safety capability.",
       "domain": "security",
       "parent_skill": "amos-security-safety-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4116,7 +4119,7 @@
     {
       "name": "amos-distributed-causal-evolution-rscf-engine",
       "title": "SKILL — Amos Distributed Causal Evolution Rscf Engine",
-      "description": "Distributed Causal Evolution — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or in...",
+      "description": "Distributed Causal Evolution — causal reasoning capability. Use when",
       "domain": "causal",
       "parent_skill": "amos-causal-reasoning-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4149,7 +4152,7 @@
     {
       "name": "amos-economic-model",
       "title": "SKILL — Amos Economic Model",
-      "description": "Economic Model — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-f...",
+      "description": "Economic Model — econ capability. Use when executing the core capability",
       "domain": "econ",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4179,7 +4182,7 @@
     {
       "name": "amos-economy-internet-money-rscf-engine",
       "title": "SKILL — Amos Economy Internet Money Rscf Engine",
-      "description": "Economy Internet Money — econ capability. Use when executing the core capability within this domain. Use when amos-c0...",
+      "description": "Economy Internet Money — econ capability. Use when executing the core",
       "domain": "econ",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4210,7 +4213,7 @@
     {
       "name": "amos-emergent-social-intelligence-risk-rscf",
       "title": "SKILL — Amos Emergent Social Intelligence Risk Rscf",
-      "description": "Emergent Social Intelligence Risk — society and culture capability. Use when social analysis, cultural reasoning, or ...",
+      "description": "Emergent Social Intelligence Risk — society and culture capability. Use",
       "domain": "c06",
       "parent_skill": "amos-c06-society-culture-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4241,7 +4244,7 @@
     {
       "name": "amos-emotion-cognition-decision-bridge-governor",
       "title": "SKILL — Amos Emotion Cognition Decision Bridge Governor",
-      "description": "Emotion-Cognition-Decision Bridge Governor — mind and behavior capability. Bridges C05 emotion/personality/behavior e...",
+      "description": "Emotion-Cognition-Decision Bridge Governor — mind and behavior capability.",
       "domain": "cross-domain (C05→C01→C10)",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4270,7 +4273,7 @@
     {
       "name": "amos-entropy-lacunarity-governor",
       "title": "SKILL — Amos Entropy Lacunarity Governor",
-      "description": "Entropy Lacunarity Governor — info capability. Use when executing the core capability within this domain. Use when am...",
+      "description": "Entropy Lacunarity Governor — info capability. Use when executing the",
       "domain": "info",
       "parent_skill": "amos-information-theory-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4300,7 +4303,7 @@
     {
       "name": "amos-ethics-os-governor",
       "title": "SKILL — Amos Ethics Os Governor",
-      "description": "Ethics Os Governor — organization, law and policy capability. Use when governance design, legal analysis, or policy r...",
+      "description": "Ethics Os Governor — organization, law and policy capability. Use when",
       "domain": "c09",
       "parent_skill": "amos-c09-org-law-policy-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4330,7 +4333,7 @@
     {
       "name": "amos-execution-provenance-replay-rscf",
       "title": "SKILL — Amos Execution Provenance Replay Rscf",
-      "description": "Execution Provenance Replay — security and safety capability. Use when security analysis, safety verification, or adv...",
+      "description": "Execution Provenance Replay — security and safety capability. Use when",
       "domain": "security",
       "parent_skill": "amos-security-safety-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4365,19 +4368,20 @@
     {
       "name": "amos-flow-canon",
       "title": "SKILL — Amos Flow Canon",
-      "description": "AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion under limits, bottl...",
+      "description": "AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",
       "path": "amos-flow-canon",
-      "section_count": 15,
+      "section_count": 16,
       "capability_count": 33,
       "file_count": 11,
       "sections": [
         "Identity",
         "When to Use",
+        "Capabilities",
         "Source",
         "7-Part Mapping",
         "Part Details",
@@ -4396,7 +4400,7 @@
     {
       "name": "amos-forex-os",
       "title": "SKILL — Amos Forex Os",
-      "description": "Forex Os — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos...",
+      "description": "Forex Os — forex and finance capability. Use when forex analysis, currency",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4426,7 +4430,7 @@
     {
       "name": "amos-forex-unified-os",
       "title": "SKILL — Amos Forex Unified Os",
-      "description": "Forex Unified Os — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use w...",
+      "description": "Forex Unified Os — forex and finance capability. Use when forex analysis,",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4456,7 +4460,7 @@
     {
       "name": "amos-forex-unified-os-updated",
       "title": "SKILL — Amos Forex Unified Os Updated",
-      "description": "Forex Unified Os Updated — forex and finance capability. Use when forex analysis, currency trading, or market dynamic...",
+      "description": "Forex Unified Os Updated — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4486,7 +4490,7 @@
     {
       "name": "amos-formal-agent-skill-verification-rscf",
       "title": "SKILL — Amos Formal Agent Skill Verification Rscf",
-      "description": "Formal Agent Skill Verification — audit and repair capability. Use when auditing, failure analysis, gap discovery, or...",
+      "description": "Formal Agent Skill Verification — audit and repair capability. Use when",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4516,7 +4520,7 @@
     {
       "name": "amos-formal-engines-master",
       "title": "SKILL — Amos Formal Engines Master",
-      "description": "AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal specifications, proof systems. 6 typed t...",
+      "description": "AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition,",
       "domain": "formal",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -4544,7 +4548,7 @@
     {
       "name": "amos-formal-model-checking-orchestrator-rscf",
       "title": "SKILL — Amos Formal Model Checking Orchestrator Rscf",
-      "description": "Formal Model Checking Orchestrator — formal verification capability. Use when formal verification, symbolic execution...",
+      "description": "Formal Model Checking Orchestrator — formal verification capability.",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4574,7 +4578,7 @@
     {
       "name": "amos-formally-verified-migration-rscf",
       "title": "SKILL — Amos Formally Verified Migration Rscf",
-      "description": "Formally Verified Migration — audit and repair capability. Use when auditing, failure analysis, gap discovery, or rep...",
+      "description": "Formally Verified Migration — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4604,7 +4608,7 @@
     {
       "name": "amos-fractal-math",
       "title": "SKILL — Amos Fractal Math",
-      "description": "Fractal Math — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. ...",
+      "description": "Fractal Math — fractal systems capability. Use when fractal analysis,",
       "domain": "fractal",
       "parent_skill": "amos-fractal-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4635,7 +4639,7 @@
     {
       "name": "amos-fractal-systems-master",
       "title": "SKILL — Amos Fractal Systems Master",
-      "description": "AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity l...",
+      "description": "AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity,",
       "domain": "fractal",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -4667,7 +4671,7 @@
     {
       "name": "amos-framework-registry-compiler",
       "title": "SKILL — Amos Framework Registry Compiler",
-      "description": "Framework Registry Compiler — technology and engineering capability. Use when software development, engineering desig...",
+      "description": "Framework Registry Compiler — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4697,7 +4701,7 @@
     {
       "name": "amos-full-brain-os",
       "title": "SKILL — Amos Full Brain Os",
-      "description": "Full Brain Os — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine an...",
+      "description": "Full Brain Os — super engines capability. Use when super-engine reasoning,",
       "domain": "super",
       "parent_skill": "amos-super-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4726,7 +4730,7 @@
     {
       "name": "amos-future-debt-option-value-governor",
       "title": "SKILL — Amos Future Debt Option Value Governor",
-      "description": "Future Debt Option Value Governor — econ capability. Use when executing the core capability within this domain. Use w...",
+      "description": "Future Debt Option Value Governor — econ capability. Use when executing",
       "domain": "econ",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4756,7 +4760,7 @@
     {
       "name": "amos-fx-bayesian-neural-sde-calibration-rscf-engine",
       "title": "SKILL — Amos Fx Bayesian Neural Sde Calibration Rscf Engine",
-      "description": "Bayesian Neural Sde Calibration — forex and finance capability. Use when forex analysis, currency trading, or market ...",
+      "description": "Bayesian Neural Sde Calibration — forex and finance capability. Use when",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4786,7 +4790,7 @@
     {
       "name": "amos-fx-carry-differential-engine",
       "title": "SKILL — Amos Fx Carry Differential Engine",
-      "description": "Carry Differential Engine — forex and finance capability. Use when forex analysis, currency trading, or market dynami...",
+      "description": "Carry Differential Engine — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4816,7 +4820,7 @@
     {
       "name": "amos-fx-conformal-tail-risk-control-rscf-engine",
       "title": "SKILL — Amos Fx Conformal Tail Risk Control Rscf Engine",
-      "description": "Conformal Tail Risk Control — forex and finance capability. Use when forex analysis, currency trading, or market dyna...",
+      "description": "Conformal Tail Risk Control — forex and finance capability. Use when",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4846,7 +4850,7 @@
     {
       "name": "amos-fx-gaussian-process-surface-rscf-engine",
       "title": "SKILL — Amos Fx Gaussian Process Surface Rscf Engine",
-      "description": "Gaussian Process Surface — forex and finance capability. Use when forex analysis, currency trading, or market dynamic...",
+      "description": "Gaussian Process Surface — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4876,7 +4880,7 @@
     {
       "name": "amos-fx-macro-differential-mapper",
       "title": "SKILL — Amos Fx Macro Differential Mapper",
-      "description": "Macro Differential Mapper — forex and finance capability. Use when forex analysis, currency trading, or market dynami...",
+      "description": "Macro Differential Mapper — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4906,7 +4910,7 @@
     {
       "name": "amos-fx-options-implied-distribution",
       "title": "SKILL — Amos Fx Options Implied Distribution",
-      "description": "Options Implied Distribution — forex and finance capability. Use when forex analysis, currency trading, or market dyn...",
+      "description": "Options Implied Distribution — forex and finance capability. Use when",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4936,7 +4940,7 @@
     {
       "name": "amos-fx-predictive-fractal-engine",
       "title": "SKILL — Amos Fx Predictive Fractal Engine",
-      "description": "Predictive Fractal Engine — forex and finance capability. Use when forex analysis, currency trading, or market dynami...",
+      "description": "Predictive Fractal Engine — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4967,7 +4971,7 @@
     {
       "name": "amos-fx-quantile-distribution-rscf-engine",
       "title": "SKILL — Amos Fx Quantile Distribution Rscf Engine",
-      "description": "Quantile Distribution — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. ...",
+      "description": "Quantile Distribution — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -4997,7 +5001,7 @@
     {
       "name": "amos-fx-realized-garch-autoencoder-rscf-engine",
       "title": "SKILL — Amos Fx Realized Garch Autoencoder Rscf Engine",
-      "description": "Realized Garch Autoencoder — forex and finance capability. Use when forex analysis, currency trading, or market dynam...",
+      "description": "Realized Garch Autoencoder — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5027,7 +5031,7 @@
     {
       "name": "amos-fx-realized-kernel-microstructure-rscf-engine",
       "title": "SKILL — Amos Fx Realized Kernel Microstructure Rscf Engine",
-      "description": "Realized Kernel Microstructure — forex and finance capability. Use when forex analysis, currency trading, or market d...",
+      "description": "Realized Kernel Microstructure — forex and finance capability. Use when",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5057,7 +5061,7 @@
     {
       "name": "amos-fx-rough-heston-rscf-engine",
       "title": "SKILL — Amos Fx Rough Heston Rscf Engine",
-      "description": "Rough Heston — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when ...",
+      "description": "Rough Heston — forex and finance capability. Use when forex analysis,",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5087,7 +5091,7 @@
     {
       "name": "amos-fx-state-space-kalman-engine",
       "title": "SKILL — Amos Fx State Space Kalman Engine",
-      "description": "State Space Kalman Engine — forex and finance capability. Use when forex analysis, currency trading, or market dynami...",
+      "description": "State Space Kalman Engine — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5118,7 +5122,7 @@
     {
       "name": "amos-fx-stochastic-correlation-rscf-engine",
       "title": "SKILL — Amos Fx Stochastic Correlation Rscf Engine",
-      "description": "Stochastic Correlation — forex and finance capability. Use when forex analysis, currency trading, or market dynamics....",
+      "description": "Stochastic Correlation — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5148,7 +5152,7 @@
     {
       "name": "amos-fx-tensor-train-greeks-rscf-engine",
       "title": "SKILL — Amos Fx Tensor Train Greeks Rscf Engine",
-      "description": "Tensor Train Greeks — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Us...",
+      "description": "Tensor Train Greeks — forex and finance capability. Use when forex analysis,",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5178,7 +5182,7 @@
     {
       "name": "amos-fx-threshold-vecm-rscf-engine",
       "title": "SKILL — Amos Fx Threshold Vecm Rscf Engine",
-      "description": "Threshold Vecm — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use whe...",
+      "description": "Threshold Vecm — forex and finance capability. Use when forex analysis,",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5208,7 +5212,7 @@
     {
       "name": "amos-fx-typed-tensor-contract-rscf-engine",
       "title": "SKILL — Amos Fx Typed Tensor Contract Rscf Engine",
-      "description": "Typed Tensor Contract — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. ...",
+      "description": "Typed Tensor Contract — forex and finance capability. Use when forex",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5238,7 +5242,7 @@
     {
       "name": "amos-fx-vecm-cointegration-rscf-engine",
       "title": "SKILL — Amos Fx Vecm Cointegration Rscf Engine",
-      "description": "Vecm Cointegration — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use...",
+      "description": "Vecm Cointegration — forex and finance capability. Use when forex analysis,",
       "domain": "fx",
       "parent_skill": "amos-c07-econ-finance-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5268,7 +5272,7 @@
     {
       "name": "amos-genetic-stability-auditor",
       "title": "SKILL — Amos Genetic Stability Auditor",
-      "description": "Genetic Stability Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repai...",
+      "description": "Genetic Stability Auditor — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5302,7 +5306,7 @@
     {
       "name": "amos-ghost-code-symbolic-execution-rscf",
       "title": "SKILL — Amos Ghost Code Symbolic Execution Rscf",
-      "description": "Ghost Code Symbolic Execution — formal verification capability. Use when formal verification, symbolic execution, pro...",
+      "description": "Ghost Code Symbolic Execution — formal verification capability. Use when",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5332,7 +5336,7 @@
     {
       "name": "amos-github-rscf-ingestion",
       "title": "SKILL — Amos Github Rscf Ingestion",
-      "description": "Github Rscf Ingestion — technology and engineering capability. Use when software development, engineering design, or ...",
+      "description": "Github Rscf Ingestion — technology and engineering capability. Use when",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5362,7 +5366,7 @@
     {
       "name": "amos-goal-plan-action-alignment-rscf",
       "title": "SKILL — Amos Goal Plan Action Alignment Rscf",
-      "description": "Goal Plan Action Alignment — RSCF epistemic capability. Use when classifying claims by epistemic state, validating ou...",
+      "description": "Goal Plan Action Alignment — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5392,7 +5396,7 @@
     {
       "name": "amos-governed-executable-knowledge-repair-rscf",
       "title": "SKILL — Amos Governed Executable Knowledge Repair Rscf",
-      "description": "Governed Executable Knowledge Repair — audit and repair capability. Use when auditing, failure analysis, gap discover...",
+      "description": "Governed Executable Knowledge Repair — audit and repair capability. Use",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5422,7 +5426,7 @@
     {
       "name": "amos-gradient-rscf-architecture",
       "title": "SKILL — Amos Gradient Rscf Architecture",
-      "description": "Gradient Rscf Architecture — RSCF epistemic capability. Use when classifying claims by epistemic state, validating ou...",
+      "description": "Gradient Rscf Architecture — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5452,7 +5456,7 @@
     {
       "name": "amos-growth-graph",
       "title": "SKILL — Amos Growth Graph",
-      "description": "Growth Graph — society and culture capability. Use when social analysis, cultural reasoning, or anthropological study...",
+      "description": "Growth Graph — society and culture capability. Use when social analysis,",
       "domain": "c06",
       "parent_skill": "amos-c06-society-culture-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5482,7 +5486,7 @@
     {
       "name": "amos-heritage-decision-intelligence",
       "title": "SKILL — Amos Heritage Decision Intelligence",
-      "description": "Heritage Decision Intelligence — society and culture capability. Use when social analysis, cultural reasoning, or ant...",
+      "description": "Heritage Decision Intelligence — society and culture capability. Use",
       "domain": "c06",
       "parent_skill": "amos-c06-society-culture-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5512,7 +5516,7 @@
     {
       "name": "amos-heterogeneous-exploration-cohort-rscf",
       "title": "SKILL — Amos Heterogeneous Exploration Cohort Rscf",
-      "description": "Heterogeneous Exploration Cohort — RSCF epistemic capability. Use when classifying claims by epistemic state, validat...",
+      "description": "Heterogeneous Exploration Cohort — RSCF epistemic capability. Use when",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5542,7 +5546,7 @@
     {
       "name": "amos-hierarchical-stack-orchestration-rscf",
       "title": "SKILL — Amos Hierarchical Stack Orchestration Rscf",
-      "description": "Hierarchical Stack Orchestration — RSCF epistemic capability. Use when classifying claims by epistemic state, validat...",
+      "description": "Hierarchical Stack Orchestration — RSCF epistemic capability. Use when",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5572,7 +5576,7 @@
     {
       "name": "amos-hourglass-induction-rscf",
       "title": "SKILL — Amos Hourglass Induction Rscf",
-      "description": "Hourglass Induction — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs a...",
+      "description": "Hourglass Induction — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5602,7 +5606,7 @@
     {
       "name": "amos-human-biology-fractal-rscf-engine",
       "title": "SKILL — Amos Human Biology Fractal Rscf Engine",
-      "description": "Human Biology Fractal — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity de...",
+      "description": "Human Biology Fractal — fractal systems capability. Use when fractal",
       "domain": "fractal",
       "parent_skill": "amos-fractal-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5632,7 +5636,7 @@
     {
       "name": "amos-human-state-ontology-mapper",
       "title": "SKILL — Amos Human State Ontology Mapper",
-      "description": "Human State Ontology Mapper — canon and universe capability. Use when canon reasoning, universe-level analysis, or in...",
+      "description": "Human State Ontology Mapper — canon and universe capability. Use when",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5662,7 +5666,7 @@
     {
       "name": "amos-information-boundary-governor",
       "title": "SKILL — Amos Information Boundary Governor",
-      "description": "Information Boundary Governor — boundary and scope capability. Use when evaluating scope boundaries, context continui...",
+      "description": "Information Boundary Governor — boundary and scope capability. Use when",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5693,7 +5697,7 @@
     {
       "name": "amos-information-collapse-topology",
       "title": "SKILL — Amos Information Collapse Topology",
-      "description": "Information Collapse Topology — info capability. Use when executing the core capability within this domain. Use when ...",
+      "description": "Information Collapse Topology — info capability. Use when executing the",
       "domain": "info",
       "parent_skill": "amos-information-theory-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5723,7 +5727,7 @@
     {
       "name": "amos-information-exposure-control",
       "title": "SKILL — Amos Information Exposure Control",
-      "description": "Information Exposure Control — info capability. Use when executing the core capability within this domain. Use when a...",
+      "description": "Information Exposure Control — info capability. Use when executing the",
       "domain": "info",
       "parent_skill": "amos-information-theory-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5753,7 +5757,7 @@
     {
       "name": "amos-information-geometry-mapper",
       "title": "SKILL — Amos Information Geometry Mapper",
-      "description": "Information Geometry Mapper — info capability. Use when executing the core capability within this domain. Use when am...",
+      "description": "Information Geometry Mapper — info capability. Use when executing the",
       "domain": "info",
       "parent_skill": "amos-information-theory-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5783,7 +5787,7 @@
     {
       "name": "amos-information-operator-engine",
       "title": "SKILL — Amos Information Operator Engine",
-      "description": "Information Operator Engine — info capability. Use when executing the core capability within this domain. Use when am...",
+      "description": "Information Operator Engine — info capability. Use when executing the",
       "domain": "info",
       "parent_skill": "amos-information-theory-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5813,7 +5817,7 @@
     {
       "name": "amos-information-theory-master",
       "title": "SKILL — Amos Information Theory Master",
-      "description": "AMOS Information Theory — entropy, complexity, information boundaries, information collapse topology, exposure contro...",
+      "description": "AMOS Information Theory — entropy, complexity, information boundaries,",
       "domain": "information",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -5842,7 +5846,7 @@
     {
       "name": "amos-infrastructure-control-plane",
       "title": "SKILL — Amos Infrastructure Control Plane",
-      "description": "Infrastructure Control Plane — technology and engineering capability. Use when software development, engineering desi...",
+      "description": "Infrastructure Control Plane — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5872,7 +5876,7 @@
     {
       "name": "amos-instinct-pattern-governor",
       "title": "SKILL — Amos Instinct Pattern Governor",
-      "description": "Instinct Pattern Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or c...",
+      "description": "Instinct Pattern Governor — mind and behavior capability. Use when psychological",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5902,7 +5906,7 @@
     {
       "name": "amos-interactive-evaluation-design-rscf",
       "title": "SKILL — Amos Interactive Evaluation Design Rscf",
-      "description": "Interactive Evaluation Design — technology and engineering capability. Use when software development, engineering des...",
+      "description": "Interactive Evaluation Design — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5932,7 +5936,7 @@
     {
       "name": "amos-interprocedural-callgraph-rscf",
       "title": "SKILL — Amos Interprocedural Callgraph Rscf",
-      "description": "Interprocedural Callgraph — technology and engineering capability. Use when software development, engineering design,...",
+      "description": "Interprocedural Callgraph — technology and engineering capability. Use",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5962,7 +5966,7 @@
     {
       "name": "amos-invariant-tensor-kernel",
       "title": "SKILL — Amos Invariant Tensor Kernel",
-      "description": "Invariant Tensor Kernel — formal verification capability. Use when formal verification, symbolic execution, proof che...",
+      "description": "Invariant Tensor Kernel — formal verification capability. Use when formal",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -5992,7 +5996,7 @@
     {
       "name": "amos-knowledge-epistemology-rscf-engine",
       "title": "SKILL — Amos Knowledge Epistemology Rscf Engine",
-      "description": "Knowledge Epistemology — knowledge research capability. Use when knowledge management, research, or Obsidian vault in...",
+      "description": "Knowledge Epistemology — knowledge research capability. Use when knowledge",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6022,7 +6026,7 @@
     {
       "name": "amos-knowledge-harvest-runtime",
       "title": "SKILL — Amos Knowledge Harvest Runtime",
-      "description": "Knowledge Harvest Runtime — knowledge research capability. Use when knowledge management, research, or Obsidian vault...",
+      "description": "Knowledge Harvest Runtime — knowledge research capability. Use when knowledge",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6052,7 +6056,7 @@
     {
       "name": "amos-knowledge-research-master",
       "title": "SKILL — Amos Knowledge Research Master",
-      "description": "AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practi...",
+      "description": "AMOS Knowledge & Research — Obsidian vault integration, arxiv research,",
       "domain": "knowledge",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -6094,7 +6098,7 @@
     {
       "name": "amos-language-equation-rscf-engine",
       "title": "SKILL — Amos Language Equation Rscf Engine",
-      "description": "Language Equation — society and culture capability. Use when social analysis, cultural reasoning, or anthropological ...",
+      "description": "Language Equation — society and culture capability. Use when social analysis,",
       "domain": "c06",
       "parent_skill": "amos-c06-society-culture-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6125,7 +6129,7 @@
     {
       "name": "amos-law-hierarchy-resolver",
       "title": "SKILL — Amos Law Hierarchy Resolver",
-      "description": "Law Hierarchy Resolver — meta logic capability. Use when logic reasoning, decomposition, or meta-law validation. Use ...",
+      "description": "Law Hierarchy Resolver — meta logic capability. Use when logic reasoning,",
       "domain": "c01",
       "parent_skill": "amos-c01-meta-logic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6155,19 +6159,20 @@
     {
       "name": "amos-law-stack-enforcement",
       "title": "SKILL — Amos Law Stack Enforcement",
-      "description": "AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / R...",
+      "description": "AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",
       "path": "amos-law-stack-enforcement",
-      "section_count": 14,
+      "section_count": 15,
       "capability_count": 37,
       "file_count": 11,
       "sections": [
         "Identity",
         "When to Use",
+        "Capabilities",
         "Source",
         "7-Part Mapping",
         "Part Details",
@@ -6185,7 +6190,7 @@
     {
       "name": "amos-learning-memory-knowledge-feedback-governor",
       "title": "SKILL — Amos Learning Memory Knowledge Feedback Governor",
-      "description": "Learning-Memory-Knowledge Feedback Governor — cross-domain capability bridging C05 Mind & Behavior (inference/learnin...",
+      "description": "Learning-Memory-Knowledge Feedback Governor — cross-domain capability",
       "domain": "cross-domain (C05 → Memory → Knowledge)",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6215,7 +6220,7 @@
     {
       "name": "amos-llm-judge-bias-geometry-rscf",
       "title": "SKILL — Amos Llm Judge Bias Geometry Rscf",
-      "description": "Llm Judge Bias Geometry — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outpu...",
+      "description": "Llm Judge Bias Geometry — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6245,7 +6250,7 @@
     {
       "name": "amos-llm-wiki",
       "title": "amos-llm-wiki",
-      "description": "AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained markdown wiki inside the AMOS Obsidian...",
+      "description": "AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "AMOS_MODEL",
@@ -6270,7 +6275,7 @@
     {
       "name": "amos-long-context-ci-repository-reasoning-rscf",
       "title": "SKILL — Amos Long Context Ci Repository Reasoning Rscf",
-      "description": "Long Context Ci Repository Reasoning — boundary and scope capability. Use when evaluating scope boundaries, context c...",
+      "description": "Long Context Ci Repository Reasoning — boundary and scope capability.",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6300,7 +6305,7 @@
     {
       "name": "amos-managed-autonomy-escalation-rscf",
       "title": "SKILL — Amos Managed Autonomy Escalation Rscf",
-      "description": "Managed Autonomy Escalation — RSCF epistemic capability. Use when classifying claims by epistemic state, validating o...",
+      "description": "Managed Autonomy Escalation — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6330,7 +6335,7 @@
     {
       "name": "amos-mark-operator-rscf-engine",
       "title": "SKILL — Amos Mark Operator Rscf Engine",
-      "description": "Mark Operator — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against...",
+      "description": "Mark Operator — RSCF epistemic capability. Use when classifying claims",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6360,7 +6365,7 @@
     {
       "name": "amos-mathematical-rigor-rscf-kernel",
       "title": "SKILL — Amos Mathematical Rigor Rscf Kernel",
-      "description": "Mathematical Rigor Rscf Kernel — formal verification capability. Use when formal verification, symbolic execution, pr...",
+      "description": "Mathematical Rigor Rscf Kernel — formal verification capability. Use",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6388,9 +6393,45 @@
       ]
     },
     {
+      "name": "amos-mdformat-obsidian",
+      "title": "amos-mdformat-obsidian",
+      "description": "AMOS mdformat-obsidian — Obsidian vault Markdown formatting using mdformat-obsidian and related plugins. Use when for...",
+      "domain": "knowledge",
+      "parent_skill": "amos-knowledge-research-master",
+      "epistemic_class": "AMOS_MODEL",
+      "version": "1.1.0",
+      "origin_architect": "",
+      "path": "amos-mdformat-obsidian",
+      "section_count": 20,
+      "capability_count": 34,
+      "file_count": 9,
+      "sections": [
+        "Description## Description",
+        "Identity## Identity",
+        "When to Use## When to Use",
+        "Validation Gates## Validation Gates",
+        "Do not use## Do not use",
+        "Examples## Examples",
+        "Prerequisites## Prerequisites",
+        "Capabilities## Capabilities",
+        "Operations## Operations",
+        "Formatting Workflow## Formatting Workflow",
+        "Canon File Tag Mapping## Canon File Tag Mapping",
+        "Vault Health Verification## Vault Health Verification",
+        "Important Notes## Important Notes",
+        "Reference## Reference",
+        "Provenance## Provenance",
+        "SOTA Data Trustworthiness (2026)## SOTA Data Trustworthiness (2026)",
+        "SOTA Evaluation Contract (2026)## SOTA Evaluation Contract (2026)",
+        "SOTA Regression Prevention (2026)",
+        "SOTA Grounding Support (2026)",
+        "References"
+      ]
+    },
+    {
       "name": "amos-measurement-integrity-auditor",
       "title": "SKILL — Amos Measurement Integrity Auditor",
-      "description": "Measurement Integrity Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or r...",
+      "description": "Measurement Integrity Auditor — audit and repair capability. Use when",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6420,7 +6461,7 @@
     {
       "name": "amos-mechmath-research-orchestration-rscf",
       "title": "SKILL — Amos Mechmath Research Orchestration Rscf",
-      "description": "Mechmath Research Orchestration — knowledge research capability. Use when knowledge management, research, or Obsidian...",
+      "description": "Mechmath Research Orchestration — knowledge research capability. Use",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6450,7 +6491,7 @@
     {
       "name": "amos-memory-conflict-governor",
       "title": "SKILL — Amos Memory Conflict Governor",
-      "description": "Memory Conflict Governor — memory systems capability. Use when memory management, context continuity, or memory confl...",
+      "description": "Memory Conflict Governor — memory systems capability. Use when memory",
       "domain": "memory",
       "parent_skill": "amos-memory-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6480,7 +6521,7 @@
     {
       "name": "amos-memory-execution-graph-attribution-rscf",
       "title": "SKILL — Amos Memory Execution Graph Attribution Rscf",
-      "description": "Memory Execution Graph Attribution — memory systems capability. Use when memory management, context continuity, or me...",
+      "description": "Memory Execution Graph Attribution — memory systems capability. Use when",
       "domain": "memory",
       "parent_skill": "amos-memory-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6510,7 +6551,7 @@
     {
       "name": "amos-memory-immune-system",
       "title": "SKILL — Amos Memory Immune System",
-      "description": "Memory Immune System — memory systems capability. Use when memory management, context continuity, or memory conflict ...",
+      "description": "Memory Immune System — memory systems capability. Use when memory management,",
       "domain": "memory",
       "parent_skill": "amos-memory-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6540,7 +6581,7 @@
     {
       "name": "amos-memory-systems-master",
       "title": "SKILL — Amos Memory Systems Master",
-      "description": "AMOS Memory Systems — 3 memory types, context compaction, memory conflict resolution, memory immune system, action-me...",
+      "description": "AMOS Memory Systems — 3 memory types, context compaction, memory conflict",
       "domain": "memory",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -6576,7 +6617,7 @@
     {
       "name": "amos-metacognitive-confidence-auditor",
       "title": "SKILL — Amos Metacognitive Confidence Auditor",
-      "description": "Metacognitive Confidence Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, o...",
+      "description": "Metacognitive Confidence Auditor — audit and repair capability. Use when",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6606,7 +6647,7 @@
     {
       "name": "amos-morphogenesis-mapper",
       "title": "SKILL — Amos Morphogenesis Mapper",
-      "description": "Morphogenesis Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical a...",
+      "description": "Morphogenesis Mapper — biology and neuroscience capability. Use when",
       "domain": "c04",
       "parent_skill": "amos-c04-bio-neuro-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6637,7 +6678,7 @@
     {
       "name": "amos-multimodal-perception-layer",
       "title": "SKILL — Amos Multimodal Perception Layer",
-      "description": "Multimodal Perception Layer — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or...",
+      "description": "Multimodal Perception Layer — mind and behavior capability. Use when",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6667,7 +6708,7 @@
     {
       "name": "amos-narrative-integrity-governor",
       "title": "SKILL — Amos Narrative Integrity Governor",
-      "description": "Narrative Integrity Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, o...",
+      "description": "Narrative Integrity Governor — mind and behavior capability. Use when",
       "domain": "c05",
       "parent_skill": "amos-c05-mind-behavior-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6697,7 +6738,7 @@
     {
       "name": "amos-natural-evidence-trail-reasoning-rscf",
       "title": "SKILL — Amos Natural Evidence Trail Reasoning Rscf",
-      "description": "Natural Evidence Trail Reasoning — RSCF epistemic capability. Use when classifying claims by epistemic state, validat...",
+      "description": "Natural Evidence Trail Reasoning — RSCF epistemic capability. Use when",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6727,7 +6768,7 @@
     {
       "name": "amos-neural-computation-mapper",
       "title": "SKILL — Amos Neural Computation Mapper",
-      "description": "Neural Computation Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medi...",
+      "description": "Neural Computation Mapper — biology and neuroscience capability. Use",
       "domain": "c04",
       "parent_skill": "amos-c04-bio-neuro-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6758,7 +6799,7 @@
     {
       "name": "amos-neural-ode-dynamics-rscf-engine",
       "title": "SKILL — Amos Neural Ode Dynamics Rscf Engine",
-      "description": "Neural Ode Dynamics — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical an...",
+      "description": "Neural Ode Dynamics — biology and neuroscience capability. Use when biological",
       "domain": "c04",
       "parent_skill": "amos-c04-bio-neuro-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6789,7 +6830,7 @@
     {
       "name": "amos-observability-driven-harness-evolution-rscf",
       "title": "SKILL — Amos Observability Driven Harness Evolution Rscf",
-      "description": "Observability Driven Harness Evolution — technology and engineering capability. Use when software development, engine...",
+      "description": "Observability Driven Harness Evolution — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6819,7 +6860,7 @@
     {
       "name": "amos-ontology-compiler",
       "title": "SKILL — Amos Ontology Compiler",
-      "description": "Ontology Compiler — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant ve...",
+      "description": "Ontology Compiler — canon and universe capability. Use when canon reasoning,",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6849,7 +6890,7 @@
     {
       "name": "amos-organism-os",
       "title": "SKILL — Amos Organism Os",
-      "description": "Organism Os — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verifica...",
+      "description": "Organism Os — canon and universe capability. Use when canon reasoning,",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6879,7 +6920,7 @@
     {
       "name": "amos-os-kernel",
       "title": "SKILL — Amos Os Kernel",
-      "description": "Os Kernel — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use w...",
+      "description": "Os Kernel — runtime and OS capability. Use when runtime reasoning, OS",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6937,7 +6978,7 @@
     {
       "name": "amos-paper-rscf-compiler",
       "title": "SKILL — Amos Paper Rscf Compiler",
-      "description": "Paper Rscf Compiler — technology and engineering capability. Use when software development, engineering design, or te...",
+      "description": "Paper Rscf Compiler — technology and engineering capability. Use when",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6967,7 +7008,7 @@
     {
       "name": "amos-persistence-dissolution-rscf-dynamics",
       "title": "SKILL — Amos Persistence Dissolution Rscf Dynamics",
-      "description": "Persistence Dissolution Rscf Dynamics — RSCF epistemic capability. Use when classifying claims by epistemic state, va...",
+      "description": "Persistence Dissolution Rscf Dynamics — RSCF epistemic capability. Use",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -6997,7 +7038,7 @@
     {
       "name": "amos-portable-agent-authorization-rscf",
       "title": "SKILL — Amos Portable Agent Authorization Rscf",
-      "description": "Portable Agent Authorization — agent systems capability. Use when agent design, delegation reasoning, or multi-agent ...",
+      "description": "Portable Agent Authorization — agent systems capability. Use when agent",
       "domain": "agent",
       "parent_skill": "amos-agent-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7027,7 +7068,7 @@
     {
       "name": "amos-prediction-governance",
       "title": "SKILL — Amos Prediction Governance",
-      "description": "Prediction Governance — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stab...",
+      "description": "Prediction Governance — runtime and OS capability. Use when runtime reasoning,",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7057,7 +7098,7 @@
     {
       "name": "amos-principal-trust-governance-rscf",
       "title": "SKILL — Amos Principal Trust Governance Rscf",
-      "description": "Principal Trust Governance — security and safety capability. Use when security analysis, safety verification, or adve...",
+      "description": "Principal Trust Governance — security and safety capability. Use when",
       "domain": "security",
       "parent_skill": "amos-security-safety-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7087,7 +7128,7 @@
     {
       "name": "amos-procedural-repository-retrieval-rscf",
       "title": "SKILL — Amos Procedural Repository Retrieval Rscf",
-      "description": "Procedural Repository Retrieval — technology and engineering capability. Use when software development, engineering d...",
+      "description": "Procedural Repository Retrieval — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7117,7 +7158,7 @@
     {
       "name": "amos-process-compliance-auditor-rscf",
       "title": "SKILL — Amos Process Compliance Auditor Rscf",
-      "description": "Process Compliance Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repa...",
+      "description": "Process Compliance Auditor — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7147,7 +7188,7 @@
     {
       "name": "amos-program-slicing-taint-rscf",
       "title": "SKILL — Amos Program Slicing Taint Rscf",
-      "description": "Program Slicing Taint — technology and engineering capability. Use when software development, engineering design, or ...",
+      "description": "Program Slicing Taint — technology and engineering capability. Use when",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7177,7 +7218,7 @@
     {
       "name": "amos-prompt-domain-control-rscf-engine",
       "title": "SKILL — Amos Prompt Domain Control Rscf Engine",
-      "description": "Prompt Domain Control — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stab...",
+      "description": "Prompt Domain Control — runtime and OS capability. Use when runtime reasoning,",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7207,7 +7248,7 @@
     {
       "name": "amos-proof-loss-diagnostic-reconstruction-rscf",
       "title": "SKILL — Amos Proof Loss Diagnostic Reconstruction Rscf",
-      "description": "Proof Loss Diagnostic Reconstruction — formal verification capability. Use when formal verification, symbolic executi...",
+      "description": "Proof Loss Diagnostic Reconstruction — formal verification capability.",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7237,7 +7278,7 @@
     {
       "name": "amos-provenance-sybil-hardening-rscf-engine",
       "title": "SKILL — Amos Provenance Sybil Hardening Rscf Engine",
-      "description": "Provenance Sybil Hardening — security and safety capability. Use when security analysis, safety verification, or adve...",
+      "description": "Provenance Sybil Hardening — security and safety capability. Use when",
       "domain": "security",
       "parent_skill": "amos-security-safety-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7275,7 +7316,7 @@
     {
       "name": "amos-provenance-trust-firewall",
       "title": "SKILL — Amos Provenance Trust Firewall",
-      "description": "Provenance Trust Firewall — security and safety capability. Use when security analysis, safety verification, or adver...",
+      "description": "Provenance Trust Firewall — security and safety capability. Use when",
       "domain": "security",
       "parent_skill": "amos-security-safety-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7305,7 +7346,7 @@
     {
       "name": "amos-qls-qic-substrate-mapper",
       "title": "SKILL — Amos Qls Qic Substrate Mapper",
-      "description": "Qls Qic Substrate Mapper — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive s...",
+      "description": "Qls Qic Substrate Mapper — runtime and OS capability. Use when runtime",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7336,7 +7377,7 @@
     {
       "name": "amos-qls-substrate",
       "title": "SKILL — Amos Qls Substrate",
-      "description": "Qls Substrate — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. U...",
+      "description": "Qls Substrate — runtime and OS capability. Use when runtime reasoning,",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7366,7 +7407,7 @@
     {
       "name": "amos-reality-meta-law-auditor",
       "title": "SKILL — Amos Reality Meta Law Auditor",
-      "description": "Reality Meta Law Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair...",
+      "description": "Reality Meta Law Auditor — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7396,7 +7437,7 @@
     {
       "name": "amos-reality-simulation-distinction",
       "title": "SKILL — Amos Reality Simulation Distinction",
-      "description": "Reality Simulation Distinction — canon and universe capability. Use when canon reasoning, universe-level analysis, or...",
+      "description": "Reality Simulation Distinction — canon and universe capability. Use when",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7426,7 +7467,7 @@
     {
       "name": "amos-recursive-observer-contamination",
       "title": "SKILL — Amos Recursive Observer Contamination",
-      "description": "Recursive Observer Contamination — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or ad...",
+      "description": "Recursive Observer Contamination — runtime and OS capability. Use when",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7456,7 +7497,7 @@
     {
       "name": "amos-regulated-clinical-agent-evolution-rscf",
       "title": "SKILL — Amos Regulated Clinical Agent Evolution Rscf",
-      "description": "Regulated Clinical Agent Evolution — technology and engineering capability. Use when software development, engineerin...",
+      "description": "Regulated Clinical Agent Evolution — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7486,7 +7527,7 @@
     {
       "name": "amos-repair-allocation-optimizer",
       "title": "SKILL — Amos Repair Allocation Optimizer",
-      "description": "Repair Allocation Optimizer — audit and repair capability. Use when auditing, failure analysis, gap discovery, or rep...",
+      "description": "Repair Allocation Optimizer — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7516,7 +7557,7 @@
     {
       "name": "amos-repair-harm-auditor",
       "title": "SKILL — Amos Repair Harm Auditor",
-      "description": "Repair Harm Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allo...",
+      "description": "Repair Harm Auditor — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7546,7 +7587,7 @@
     {
       "name": "amos-repair-priority-governor",
       "title": "SKILL — Amos Repair Priority Governor",
-      "description": "Repair Priority Governor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair...",
+      "description": "Repair Priority Governor — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7577,7 +7618,7 @@
     {
       "name": "amos-repair-substrate-capture-resistance-rscf",
       "title": "SKILL — Amos Repair Substrate Capture Resistance Rscf",
-      "description": "Repair Substrate Capture Resistance — audit and repair capability. Use when auditing, failure analysis, gap discovery...",
+      "description": "Repair Substrate Capture Resistance — audit and repair capability. Use",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7607,7 +7648,7 @@
     {
       "name": "amos-repository-ast-analysis-rscf",
       "title": "SKILL — Amos Repository Ast Analysis Rscf",
-      "description": "Repository Ast Analysis — technology and engineering capability. Use when software development, engineering design, o...",
+      "description": "Repository Ast Analysis — technology and engineering capability. Use",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7637,7 +7678,7 @@
     {
       "name": "amos-repository-knowledge-acquisition-rscf",
       "title": "SKILL — Amos Repository Knowledge Acquisition Rscf",
-      "description": "Repository Knowledge Acquisition — technology and engineering capability. Use when software development, engineering ...",
+      "description": "Repository Knowledge Acquisition — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7667,7 +7708,7 @@
     {
       "name": "amos-representation-aware-bug-localization-rscf",
       "title": "SKILL — Amos Representation Aware Bug Localization Rscf",
-      "description": "Representation Aware Bug Localization — technology and engineering capability. Use when software development, enginee...",
+      "description": "Representation Aware Bug Localization — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7697,7 +7738,7 @@
     {
       "name": "amos-research-agent",
       "title": "SKILL — Amos Research Agent",
-      "description": "Research Agent — knowledge research capability. Use when knowledge management, research, or Obsidian vault integratio...",
+      "description": "Research Agent — knowledge research capability. Use when knowledge management,",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7727,7 +7768,7 @@
     {
       "name": "amos-retrieval-conditioned-orchestration-budget-rscf",
       "title": "SKILL — Amos Retrieval Conditioned Orchestration Budget Rscf",
-      "description": "Retrieval Conditioned Orchestration Budget — knowledge research capability. Use when knowledge management, research, ...",
+      "description": "Retrieval Conditioned Orchestration Budget — knowledge research capability.",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7757,7 +7798,7 @@
     {
       "name": "amos-risk-constraint-governor",
       "title": "SKILL — Amos Risk Constraint Governor",
-      "description": "Risk Constraint Governor — organization, law and policy capability. Use when governance design, legal analysis, or po...",
+      "description": "Risk Constraint Governor — organization, law and policy capability. Use",
       "domain": "c09",
       "parent_skill": "amos-c09-org-law-policy-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7787,7 +7828,7 @@
     {
       "name": "amos-rscf-epistemic-master",
       "title": "SKILL — Amos Rscf Epistemic Master",
-      "description": "AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence ceiling. ...",
+      "description": "AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence",
       "domain": "rscf",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -7818,7 +7859,7 @@
     {
       "name": "amos-runtime-benchmarking",
       "title": "SKILL — Amos Runtime Benchmarking",
-      "description": "Runtime Benchmarking — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair all...",
+      "description": "Runtime Benchmarking — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7848,7 +7889,7 @@
     {
       "name": "amos-runtime-context-reuse-rscf",
       "title": "SKILL — Amos Runtime Context Reuse Rscf",
-      "description": "Runtime Context Reuse — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or c...",
+      "description": "Runtime Context Reuse — boundary and scope capability. Use when evaluating",
       "domain": "boundary",
       "parent_skill": "amos-boundary-scope-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7879,7 +7920,7 @@
     {
       "name": "amos-sae-benchmark-reliability-rscf-engine",
       "title": "SKILL — Amos Sae Benchmark Reliability Rscf Engine",
-      "description": "Sae Benchmark Reliability — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repai...",
+      "description": "Sae Benchmark Reliability — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7913,7 +7954,7 @@
     {
       "name": "amos-sae-semantic-transport-rscf-engine",
       "title": "SKILL — Amos Sae Semantic Transport Rscf Engine",
-      "description": "Sae Semantic Transport — RSCF epistemic capability. Use when classifying claims by epistemic state, validating output...",
+      "description": "Sae Semantic Transport — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7943,7 +7984,7 @@
     {
       "name": "amos-scientific-assumption-semantic-differencing-rscf",
       "title": "SKILL — Amos Scientific Assumption Semantic Differencing Rscf",
-      "description": "Scientific Assumption Semantic Differencing — RSCF epistemic capability. Use when classifying claims by epistemic sta...",
+      "description": "Scientific Assumption Semantic Differencing — RSCF epistemic capability.",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -7973,7 +8014,7 @@
     {
       "name": "amos-scientific-closure-governor-rscf",
       "title": "SKILL — Amos Scientific Closure Governor Rscf",
-      "description": "Scientific Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or int...",
+      "description": "Scientific Closure Governor — causal reasoning capability. Use when causal",
       "domain": "causal",
       "parent_skill": "amos-causal-reasoning-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8003,7 +8044,7 @@
     {
       "name": "amos-security-control-access-bridge-governor",
       "title": "SKILL — Amos Security Control Access Bridge Governor",
-      "description": "Security-Control-Access Bridge Governor — cross-domain capability bridging C09 Org-Law-Policy (policy definition), C1...",
+      "description": "Security-Control-Access Bridge Governor — cross-domain capability bridging",
       "domain": "cross-domain (C09 → C10 → Runtime)",
       "parent_skill": "amos-security-safety-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8033,7 +8074,7 @@
     {
       "name": "amos-security-safety-master",
       "title": "SKILL — Amos Security Safety Master",
-      "description": "AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use when...",
+      "description": "AMOS Security & Safety — adversarial robustness, privacy, safety firewalls,",
       "domain": "security",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -8069,7 +8110,7 @@
     {
       "name": "amos-self-regulated-simulative-planning-rscf",
       "title": "SKILL — Amos Self Regulated Simulative Planning Rscf",
-      "description": "Self Regulated Simulative Planning — RSCF epistemic capability. Use when classifying claims by epistemic state, valid...",
+      "description": "Self Regulated Simulative Planning — RSCF epistemic capability. Use when",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8099,7 +8140,7 @@
     {
       "name": "amos-semantic-grounding-auditor",
       "title": "SKILL — Amos Semantic Grounding Auditor",
-      "description": "Semantic Grounding Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repa...",
+      "description": "Semantic Grounding Auditor — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8129,7 +8170,7 @@
     {
       "name": "amos-semantic-token-flow-firewall-rscf",
       "title": "SKILL — Amos Semantic Token Flow Firewall Rscf",
-      "description": "Semantic Token Flow Firewall — security and safety capability. Use when security analysis, safety verification, or ad...",
+      "description": "Semantic Token Flow Firewall — security and safety capability. Use when",
       "domain": "security",
       "parent_skill": "amos-security-safety-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8159,7 +8200,7 @@
     {
       "name": "amos-semantic-workflow-persistence-rscf",
       "title": "SKILL — Amos Semantic Workflow Persistence Rscf",
-      "description": "Semantic Workflow Persistence — RSCF epistemic capability. Use when classifying claims by epistemic state, validating...",
+      "description": "Semantic Workflow Persistence — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8189,7 +8230,7 @@
     {
       "name": "amos-sensory-map-integrator",
       "title": "SKILL — Amos Sensory Map Integrator",
-      "description": "Sensory Map Integrator — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical...",
+      "description": "Sensory Map Integrator — biology and neuroscience capability. Use when",
       "domain": "c04",
       "parent_skill": "amos-c04-bio-neuro-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8219,7 +8260,7 @@
     {
       "name": "amos-session-control-plane",
       "title": "SKILL — Amos Session Control Plane",
-      "description": "Session Control Plane — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stab...",
+      "description": "Session Control Plane — runtime and OS capability. Use when runtime reasoning,",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8249,7 +8290,7 @@
     {
       "name": "amos-skill-builder",
       "title": "SKILL — Amos Skill Builder",
-      "description": "Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Skills from capability gaps, source canon, existi...",
+      "description": "Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Skills",
       "domain": "skill",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -8280,7 +8321,7 @@
     {
       "name": "amos-source-reading-rscf",
       "title": "SKILL — Amos Source Reading Rscf",
-      "description": "Source Reading — knowledge research capability. Use when knowledge management, research, or Obsidian vault integratio...",
+      "description": "Source Reading — knowledge research capability. Use when knowledge management,",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8310,7 +8351,7 @@
     {
       "name": "amos-source-reading-rscf-engine",
       "title": "SKILL — Amos Source Reading Rscf Engine",
-      "description": "Source Reading — knowledge research capability. Use when knowledge management, research, or Obsidian vault integratio...",
+      "description": "Source Reading — knowledge research capability. Use when knowledge management,",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8340,7 +8381,7 @@
     {
       "name": "amos-ssa-ir-compiler-rscf",
       "title": "SKILL — Amos Ssa Ir Compiler Rscf",
-      "description": "Ssa Ir Compiler — technology and engineering capability. Use when software development, engineering design, or techni...",
+      "description": "Ssa Ir Compiler — technology and engineering capability. Use when software",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8370,7 +8411,7 @@
     {
       "name": "amos-strict-fractal-equation-rscf-registry",
       "title": "SKILL — Amos Strict Fractal Equation Rscf Registry",
-      "description": "Strict Fractal Equation Rscf Registry — fractal systems capability. Use when fractal analysis, scale reasoning, or se...",
+      "description": "Strict Fractal Equation Rscf Registry — fractal systems capability. Use",
       "domain": "fractal",
       "parent_skill": "amos-fractal-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8400,7 +8441,7 @@
     {
       "name": "amos-structured-document-parsing-rscf",
       "title": "SKILL — Amos Structured Document Parsing Rscf",
-      "description": "Structured Document Parsing — technology and engineering capability. Use when software development, engineering desig...",
+      "description": "Structured Document Parsing — technology and engineering capability.",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8430,7 +8471,7 @@
     {
       "name": "amos-structured-execution-graph-rscf",
       "title": "SKILL — Amos Structured Execution Graph Rscf",
-      "description": "Structured Execution Graph — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive...",
+      "description": "Structured Execution Graph — runtime and OS capability. Use when runtime",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8460,7 +8501,7 @@
     {
       "name": "amos-super-engines-master",
       "title": "SKILL — Amos Super Engines Master",
-      "description": "AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants. Cognition + Emotion + ...",
+      "description": "AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity",
       "domain": "super",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -8469,7 +8510,7 @@
       "path": "amos-super-engines-master",
       "section_count": 18,
       "capability_count": 66,
-      "file_count": 43,
+      "file_count": 42,
       "sections": [
         "Identity",
         "When to Use",
@@ -8494,7 +8535,7 @@
     {
       "name": "amos-symbolic-path-reasoning-rscf",
       "title": "SKILL — Amos Symbolic Path Reasoning Rscf",
-      "description": "Symbolic Path Reasoning — formal verification capability. Use when formal verification, symbolic execution, proof che...",
+      "description": "Symbolic Path Reasoning — formal verification capability. Use when formal",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8524,7 +8565,7 @@
     {
       "name": "amos-symbolic-translation-repair-rscf",
       "title": "SKILL — Amos Symbolic Translation Repair Rscf",
-      "description": "Symbolic Translation Repair — audit and repair capability. Use when auditing, failure analysis, gap discovery, or rep...",
+      "description": "Symbolic Translation Repair — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8554,7 +8595,7 @@
     {
       "name": "amos-system-completion-auditor",
       "title": "SKILL — Amos System Completion Auditor",
-      "description": "System Completion Auditor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repai...",
+      "description": "System Completion Auditor — audit and repair capability. Use when auditing,",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8584,7 +8625,7 @@
     {
       "name": "amos-target-of-repair-intelligence",
       "title": "SKILL — Amos Target Of Repair Intelligence",
-      "description": "Target Of Repair Intelligence — audit and repair capability. Use when auditing, failure analysis, gap discovery, or r...",
+      "description": "Target Of Repair Intelligence — audit and repair capability. Use when",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8615,7 +8656,7 @@
     {
       "name": "amos-temporal-multiscale-rscf-engine",
       "title": "SKILL — Amos Temporal Multiscale Rscf Engine",
-      "description": "Temporal Multiscale — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs a...",
+      "description": "Temporal Multiscale — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8645,7 +8686,7 @@
     {
       "name": "amos-tensor-accelerator-activity-rscf-engine",
       "title": "SKILL — Amos Tensor Accelerator Activity Rscf Engine",
-      "description": "Tensor Accelerator Activity — formal verification capability. Use when formal verification, symbolic execution, proof...",
+      "description": "Tensor Accelerator Activity — formal verification capability. Use when",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8675,7 +8716,7 @@
     {
       "name": "amos-tensor-network-contraction-sketch-rscf-engine",
       "title": "SKILL — Amos Tensor Network Contraction Sketch Rscf Engine",
-      "description": "Tensor Network Contraction Sketch — formal verification capability. Use when formal verification, symbolic execution,...",
+      "description": "Tensor Network Contraction Sketch — formal verification capability. Use",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8705,7 +8746,7 @@
     {
       "name": "amos-tensor-train-sketching-rscf-engine",
       "title": "SKILL — Amos Tensor Train Sketching Rscf Engine",
-      "description": "Tensor Train Sketching — formal verification capability. Use when formal verification, symbolic execution, proof chec...",
+      "description": "Tensor Train Sketching — formal verification capability. Use when formal",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8735,7 +8776,7 @@
     {
       "name": "amos-time-series-conformal-uq-rscf-engine",
       "title": "SKILL — Amos Time Series Conformal Uq Rscf Engine",
-      "description": "Time Series Conformal Uq — formal verification capability. Use when formal verification, symbolic execution, proof ch...",
+      "description": "Time Series Conformal Uq — formal verification capability. Use when formal",
       "domain": "formal",
       "parent_skill": "amos-formal-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8765,7 +8806,7 @@
     {
       "name": "amos-tool-grounded-configuration-repair-rscf",
       "title": "SKILL — Amos Tool Grounded Configuration Repair Rscf",
-      "description": "Tool Grounded Configuration Repair — audit and repair capability. Use when auditing, failure analysis, gap discovery,...",
+      "description": "Tool Grounded Configuration Repair — audit and repair capability. Use",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8795,7 +8836,7 @@
     {
       "name": "amos-trajectory-bug-specification-refinement-rscf",
       "title": "SKILL — Amos Trajectory Bug Specification Refinement Rscf",
-      "description": "Trajectory Bug Specification Refinement — technology and engineering capability. Use when software development, engin...",
+      "description": "Trajectory Bug Specification Refinement — technology and engineering",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8825,7 +8866,7 @@
     {
       "name": "amos-trang-framework-master",
       "title": "SKILL — Amos Trang Framework Master",
-      "description": "AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal reasoning, LDAI formalization, reality ar...",
+      "description": "AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal",
       "domain": "trang",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -8834,7 +8875,7 @@
       "path": "amos-trang-framework-master",
       "section_count": 18,
       "capability_count": 66,
-      "file_count": 43,
+      "file_count": 42,
       "sections": [
         "Identity",
         "When to Use",
@@ -8859,7 +8900,7 @@
     {
       "name": "amos-transformation-quest-engine",
       "title": "SKILL — Amos Transformation Quest Engine",
-      "description": "Transformation Quest Engine — super engines capability. Use when super-engine reasoning, consciousness emulation, or ...",
+      "description": "Transformation Quest Engine — super engines capability. Use when super-engine",
       "domain": "super",
       "parent_skill": "amos-super-engines-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8890,7 +8931,7 @@
     {
       "name": "amos-translation-rscf-architecture",
       "title": "SKILL — Amos Translation Rscf Architecture",
-      "description": "Translation Rscf Architecture — Trang framework capability. Use when Trang framework reasoning, cascade analysis, or ...",
+      "description": "Translation Rscf Architecture — Trang framework capability. Use when",
       "domain": "trang",
       "parent_skill": "amos-trang-framework-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8921,7 +8962,7 @@
     {
       "name": "amos-trust-formation-governor",
       "title": "SKILL — Amos Trust Formation Governor",
-      "description": "Trust Formation Governor — organization, law and policy capability. Use when governance design, legal analysis, or po...",
+      "description": "Trust Formation Governor — organization, law and policy capability. Use",
       "domain": "c09",
       "parent_skill": "amos-c09-org-law-policy-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8951,7 +8992,7 @@
     {
       "name": "amos-universal-coordinate-rscf-engine",
       "title": "SKILL — Amos Universal Coordinate Rscf Engine",
-      "description": "Universal Coordinate — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs ...",
+      "description": "Universal Coordinate — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -8981,7 +9022,7 @@
     {
       "name": "amos-universal-coordinate-system",
       "title": "SKILL — Amos Universal Coordinate System",
-      "description": "Universal Coordinate System — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptiv...",
+      "description": "Universal Coordinate System — runtime and OS capability. Use when runtime",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9011,7 +9052,7 @@
     {
       "name": "amos-universal-variable-registry-rscf-engine",
       "title": "SKILL — Amos Universal Variable Registry Rscf Engine",
-      "description": "Universal Variable Registry — RSCF epistemic capability. Use when classifying claims by epistemic state, validating o...",
+      "description": "Universal Variable Registry — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9041,7 +9082,7 @@
     {
       "name": "amos-universe-viability-modeler",
       "title": "SKILL — Amos Universe Viability Modeler",
-      "description": "Universe Viability Modeler — canon and universe capability. Use when canon reasoning, universe-level analysis, or inv...",
+      "description": "Universe Viability Modeler — canon and universe capability. Use when",
       "domain": "canon",
       "parent_skill": "amos-canon-universe-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9071,7 +9112,7 @@
     {
       "name": "amos-unreachable-semantics-rscf",
       "title": "SKILL — Amos Unreachable Semantics Rscf",
-      "description": "Unreachable Semantics — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs...",
+      "description": "Unreachable Semantics — RSCF epistemic capability. Use when classifying",
       "domain": "rscf",
       "parent_skill": "amos-rscf-epistemic-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9101,7 +9142,7 @@
     {
       "name": "amos-ust-structure-mapper",
       "title": "SKILL — Amos Ust Structure Mapper",
-      "description": "Ust Structure Mapper — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stabi...",
+      "description": "Ust Structure Mapper — runtime and OS capability. Use when runtime reasoning,",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9132,7 +9173,7 @@
     {
       "name": "amos-verification-aware-implementation-diversity-rscf",
       "title": "SKILL — Amos Verification Aware Implementation Diversity Rscf",
-      "description": "Verification Aware Implementation Diversity — audit and repair capability. Use when auditing, failure analysis, gap d...",
+      "description": "Verification Aware Implementation Diversity — audit and repair capability.",
       "domain": "audit",
       "parent_skill": "amos-audit-repair-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9162,7 +9203,7 @@
     {
       "name": "amos-vietnamese-global-cultural-bridge-governor",
       "title": "SKILL — Amos Vietnamese Global Cultural Bridge Governor",
-      "description": "Vietnamese-Global Cultural Bridge Governor — cross-domain capability bridging C06 Vietnamese-specific cultural system...",
+      "description": "Vietnamese-Global Cultural Bridge Governor — cross-domain capability",
       "domain": "cross-domain (C06 Vietnamese ↔ Global)",
       "parent_skill": "amos-c06-society-culture-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9192,7 +9233,7 @@
     {
       "name": "amos-workflow-builder",
       "title": "SKILL — Amos Workflow Builder",
-      "description": "Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability gaps, existing skills, ...",
+      "description": "Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows",
       "domain": "workflow",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CANON",
@@ -9222,7 +9263,7 @@
     {
       "name": "arxiv-activation-checkpointing-rscf",
       "title": "SKILL — Arxiv Activation Checkpointing Rscf",
-      "description": "Activation Checkpointing — arxiv research capability. Use when arxiv research, paper analysis, or literature review. ...",
+      "description": "Activation Checkpointing — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9252,7 +9293,7 @@
     {
       "name": "arxiv-anytime-pac-bayes-density-ratio-rscf",
       "title": "SKILL — Arxiv Anytime Pac Bayes Density Ratio Rscf",
-      "description": "Anytime Pac Bayes Density Ratio — arxiv research capability. Use when arxiv research, paper analysis, or literature r...",
+      "description": "Anytime Pac Bayes Density Ratio — arxiv research capability. Use when",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9282,7 +9323,7 @@
     {
       "name": "arxiv-autosota-research-automation-rscf",
       "title": "SKILL — Arxiv Autosota Research Automation Rscf",
-      "description": "Autosota Research Automation — arxiv research capability. Use when arxiv research, paper analysis, or literature revi...",
+      "description": "Autosota Research Automation — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9312,7 +9353,7 @@
     {
       "name": "arxiv-cdfm-causal-discovery-foundation-rscf",
       "title": "SKILL — Arxiv Cdfm Causal Discovery Foundation Rscf",
-      "description": "Cdfm Causal Discovery Foundation — arxiv research capability. Use when arxiv research, paper analysis, or literature ...",
+      "description": "Cdfm Causal Discovery Foundation — arxiv research capability. Use when",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9343,7 +9384,7 @@
     {
       "name": "arxiv-constrained-structured-decoding-rscf",
       "title": "SKILL — Arxiv Constrained Structured Decoding Rscf",
-      "description": "Constrained Structured Decoding — arxiv research capability. Use when arxiv research, paper analysis, or literature r...",
+      "description": "Constrained Structured Decoding — arxiv research capability. Use when",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9373,7 +9414,7 @@
     {
       "name": "arxiv-data-mixture-optimization-rscf",
       "title": "SKILL — Arxiv Data Mixture Optimization Rscf",
-      "description": "Data Mixture Optimization — arxiv research capability. Use when arxiv research, paper analysis, or literature review....",
+      "description": "Data Mixture Optimization — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9404,7 +9445,7 @@
     {
       "name": "arxiv-flash-attention-io-rscf",
       "title": "SKILL — Arxiv Flash Attention Io Rscf",
-      "description": "Flash Attention Io — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use wh...",
+      "description": "Flash Attention Io — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9435,7 +9476,7 @@
     {
       "name": "arxiv-flow-matching-generative-rscf",
       "title": "SKILL — Arxiv Flow Matching Generative Rscf",
-      "description": "Flow Matching Generative — arxiv research capability. Use when arxiv research, paper analysis, or literature review. ...",
+      "description": "Flow Matching Generative — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9466,7 +9507,7 @@
     {
       "name": "arxiv-future-confidence-distillation-rscf",
       "title": "SKILL — Arxiv Future Confidence Distillation Rscf",
-      "description": "Future Confidence Distillation — arxiv research capability. Use when arxiv research, paper analysis, or literature re...",
+      "description": "Future Confidence Distillation — arxiv research capability. Use when",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9496,7 +9537,7 @@
     {
       "name": "arxiv-geometric-causal-models-rscf",
       "title": "SKILL — Arxiv Geometric Causal Models Rscf",
-      "description": "Geometric Causal Models — arxiv research capability. Use when arxiv research, paper analysis, or literature review. U...",
+      "description": "Geometric Causal Models — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9531,7 +9572,7 @@
     {
       "name": "arxiv-grapheval-reasoning-coherence-rscf",
       "title": "SKILL — Arxiv Grapheval Reasoning Coherence Rscf",
-      "description": "Grapheval Reasoning Coherence — arxiv research capability. Use when arxiv research, paper analysis, or literature rev...",
+      "description": "Grapheval Reasoning Coherence — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9561,7 +9602,7 @@
     {
       "name": "arxiv-grouped-query-attention-rscf",
       "title": "SKILL — Arxiv Grouped Query Attention Rscf",
-      "description": "Grouped Query Attention — arxiv research capability. Use when arxiv research, paper analysis, or literature review. U...",
+      "description": "Grouped Query Attention — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9592,7 +9633,7 @@
     {
       "name": "arxiv-grpo-reasoning-policy-rscf",
       "title": "SKILL — Arxiv Grpo Reasoning Policy Rscf",
-      "description": "Grpo Reasoning Policy — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use...",
+      "description": "Grpo Reasoning Policy — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9623,7 +9664,7 @@
     {
       "name": "arxiv-kv-cache-quantization-rscf",
       "title": "SKILL — Arxiv Kv Cache Quantization Rscf",
-      "description": "Kv Cache Quantization — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use...",
+      "description": "Kv Cache Quantization — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9655,7 +9696,7 @@
     {
       "name": "arxiv-llm-judge-bias-geometry-rscf",
       "title": "SKILL — Arxiv Llm Judge Bias Geometry Rscf",
-      "description": "Llm Judge Bias Geometry — arxiv research capability. Use when arxiv research, paper analysis, or literature review. U...",
+      "description": "Llm Judge Bias Geometry — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9685,7 +9726,7 @@
     {
       "name": "arxiv-long-context-rope-scaling-rscf",
       "title": "SKILL — Arxiv Long Context Rope Scaling Rscf",
-      "description": "Long Context Rope Scaling — arxiv research capability. Use when arxiv research, paper analysis, or literature review....",
+      "description": "Long Context Rope Scaling — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9715,7 +9756,7 @@
     {
       "name": "arxiv-manifold-constrained-conformal-spatial-rscf",
       "title": "SKILL — Arxiv Manifold Constrained Conformal Spatial Rscf",
-      "description": "Manifold Constrained Conformal Spatial — arxiv research capability. Use when arxiv research, paper analysis, or liter...",
+      "description": "Manifold Constrained Conformal Spatial — arxiv research capability. Use",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9745,7 +9786,7 @@
     {
       "name": "arxiv-mixture-of-depths-rscf",
       "title": "SKILL — Arxiv Mixture Of Depths Rscf",
-      "description": "Mixture Of Depths — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use whe...",
+      "description": "Mixture Of Depths — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9776,7 +9817,7 @@
     {
       "name": "arxiv-pac-bayes-piml-generalization-rscf",
       "title": "SKILL — Arxiv Pac Bayes Piml Generalization Rscf",
-      "description": "Pac Bayes Piml Generalization — arxiv research capability. Use when arxiv research, paper analysis, or literature rev...",
+      "description": "Pac Bayes Piml Generalization — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9806,7 +9847,7 @@
     {
       "name": "arxiv-rag-evaluation-rscf",
       "title": "SKILL — Arxiv Rag Evaluation Rscf",
-      "description": "Rag Evaluation — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when a...",
+      "description": "Rag Evaluation — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9837,7 +9878,7 @@
     {
       "name": "arxiv-selective-state-space-rscf",
       "title": "SKILL — Arxiv Selective State Space Rscf",
-      "description": "Selective State Space — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use...",
+      "description": "Selective State Space — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9868,7 +9909,7 @@
     {
       "name": "arxiv-sparse-attention-scaling-rscf",
       "title": "SKILL — Arxiv Sparse Attention Scaling Rscf",
-      "description": "Sparse Attention Scaling — arxiv research capability. Use when arxiv research, paper analysis, or literature review. ...",
+      "description": "Sparse Attention Scaling — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9898,7 +9939,7 @@
     {
       "name": "arxiv-streaming-attention-sinks-rscf",
       "title": "SKILL — Arxiv Streaming Attention Sinks Rscf",
-      "description": "Streaming Attention Sinks — arxiv research capability. Use when arxiv research, paper analysis, or literature review....",
+      "description": "Streaming Attention Sinks — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9928,7 +9969,7 @@
     {
       "name": "arxiv-structured-gp-omics-uq-rscf",
       "title": "SKILL — Arxiv Structured Gp Omics Uq Rscf",
-      "description": "Structured Gp Omics Uq — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Us...",
+      "description": "Structured Gp Omics Uq — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9959,7 +10000,7 @@
     {
       "name": "arxiv-test-time-compute-scaling-rscf",
       "title": "SKILL — Arxiv Test Time Compute Scaling Rscf",
-      "description": "Test Time Compute Scaling — arxiv research capability. Use when arxiv research, paper analysis, or literature review....",
+      "description": "Test Time Compute Scaling — arxiv research capability. Use when arxiv",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -9990,7 +10031,7 @@
     {
       "name": "arxiv-test-time-training-rscf",
       "title": "SKILL — Arxiv Test Time Training Rscf",
-      "description": "Test Time Training — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use wh...",
+      "description": "Test Time Training — arxiv research capability. Use when arxiv research,",
       "domain": "arxiv",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10021,7 +10062,7 @@
     {
       "name": "bluebook-strategy-system",
       "title": "SKILL — Bluebook Strategy System",
-      "description": "Strategy System — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reaso...",
+      "description": "Strategy System — strategy and game theory capability. Use when strategic",
       "domain": "c08",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10052,7 +10093,7 @@
     {
       "name": "cosmo-human-problem-architecture",
       "title": "SKILL — Cosmo Human Problem Architecture",
-      "description": "Cosmo Human Problem Architecture — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or ad...",
+      "description": "Cosmo Human Problem Architecture — runtime and OS capability. Use when",
       "domain": "runtime",
       "parent_skill": "amos-os-runtime-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10082,7 +10123,7 @@
     {
       "name": "docx",
       "title": "SKILL — Docx",
-      "description": "Docx — technology and engineering capability. Use when software development, engineering design, or technical archite...",
+      "description": "Docx — technology and engineering capability. Use when software development,",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10113,7 +10154,7 @@
     {
       "name": "executive-deck-decision-system",
       "title": "SKILL — Executive Deck Decision System",
-      "description": "Executive Deck Decision System — strategy and game theory capability. Use when strategic analysis, game theory, or co...",
+      "description": "Executive Deck Decision System — strategy and game theory capability.",
       "domain": "c08",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10144,7 +10185,7 @@
     {
       "name": "frontend-engineering-qa",
       "title": "SKILL — Frontend Engineering Qa",
-      "description": "Frontend Engineering Qa — technology and engineering capability. Use when software development, engineering design, o...",
+      "description": "Frontend Engineering Qa — technology and engineering capability. Use",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10175,7 +10216,7 @@
     {
       "name": "gmef-governance",
       "title": "SKILL — Gmef Governance",
-      "description": "Gmef Governance — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reaso...",
+      "description": "Gmef Governance — strategy and game theory capability. Use when strategic",
       "domain": "c08",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10205,15 +10246,15 @@
     {
       "name": "kimi-k3-in-c",
       "title": "kimi-k3-in-c",
-      "description": "Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine without the 1.56 TB checkpoint. Sup...",
+      "description": "Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference",
       "domain": "",
       "parent_skill": "none",
       "epistemic_class": "SOURCE_CLAIM",
       "version": "1.1.0",
       "origin_architect": "Trang Phan",
       "path": "kimi-k3-in-c",
-      "section_count": 10,
-      "capability_count": 15,
+      "section_count": 11,
+      "capability_count": 18,
       "file_count": 8,
       "sections": [
         "Identity",
@@ -10225,13 +10266,14 @@
         "Notes",
         "Validation Gates",
         "Do not use",
-        "Provenance"
+        "Provenance",
+        "Related resources"
       ]
     },
     {
       "name": "mckinsey-architecture-reference-transfer-rscf",
       "title": "SKILL — Mckinsey Architecture Reference Transfer Rscf",
-      "description": "Architecture Reference Transfer — McKinsey strategic capability. Use when strategic analysis, business consulting, or...",
+      "description": "Architecture Reference Transfer — McKinsey strategic capability. Use",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10263,7 +10305,7 @@
     {
       "name": "mckinsey-banking-crm-assessment-rscf",
       "title": "SKILL — Mckinsey Banking Crm Assessment Rscf",
-      "description": "Banking Crm Assessment — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey...",
+      "description": "Banking Crm Assessment — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10293,7 +10335,7 @@
     {
       "name": "mckinsey-commercial-due-diligence-rscf",
       "title": "SKILL — Mckinsey Commercial Due Diligence Rscf",
-      "description": "Commercial Due Diligence — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKins...",
+      "description": "Commercial Due Diligence — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10323,7 +10365,7 @@
     {
       "name": "mckinsey-credit-lending-rscf",
       "title": "SKILL — Mckinsey Credit Lending Rscf",
-      "description": "Credit Lending — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framewo...",
+      "description": "Credit Lending — McKinsey strategic capability. Use when strategic analysis,",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10354,7 +10396,7 @@
     {
       "name": "mckinsey-customer-journey-planning-rscf",
       "title": "SKILL — Mckinsey Customer Journey Planning Rscf",
-      "description": "Customer Journey Planning — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKin...",
+      "description": "Customer Journey Planning — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10384,7 +10426,7 @@
     {
       "name": "mckinsey-designops-agile-transformation-rscf",
       "title": "SKILL — Mckinsey Designops Agile Transformation Rscf",
-      "description": "Designops Agile Transformation — McKinsey strategic capability. Use when strategic analysis, business consulting, or ...",
+      "description": "Designops Agile Transformation — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10414,7 +10456,7 @@
     {
       "name": "mckinsey-digital-bank-value-proposition-rscf",
       "title": "SKILL — Mckinsey Digital Bank Value Proposition Rscf",
-      "description": "Digital Bank Value Proposition — McKinsey strategic capability. Use when strategic analysis, business consulting, or ...",
+      "description": "Digital Bank Value Proposition — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10444,7 +10486,7 @@
     {
       "name": "mckinsey-digital-strategy-rscf",
       "title": "SKILL — Mckinsey Digital Strategy Rscf",
-      "description": "Digital Strategy — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-frame...",
+      "description": "Digital Strategy — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10474,7 +10516,7 @@
     {
       "name": "mckinsey-enterprise-data-transformation-rscf",
       "title": "SKILL — Mckinsey Enterprise Data Transformation Rscf",
-      "description": "Enterprise Data Transformation — McKinsey strategic capability. Use when strategic analysis, business consulting, or ...",
+      "description": "Enterprise Data Transformation — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10504,7 +10546,7 @@
     {
       "name": "mckinsey-framework-navigator",
       "title": "SKILL — Mckinsey Framework Navigator",
-      "description": "Framework Navigator — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-fr...",
+      "description": "Framework Navigator — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10535,7 +10577,7 @@
     {
       "name": "mckinsey-healthcare-strategy-rscf",
       "title": "SKILL — Mckinsey Healthcare Strategy Rscf",
-      "description": "Healthcare Strategy — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-fr...",
+      "description": "Healthcare Strategy — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10565,7 +10607,7 @@
     {
       "name": "mckinsey-human-centered-design-rscf",
       "title": "SKILL — Mckinsey Human Centered Design Rscf",
-      "description": "Human Centered Design — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-...",
+      "description": "Human Centered Design — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10595,7 +10637,7 @@
     {
       "name": "mckinsey-partnership-ecosystem-strategy-rscf",
       "title": "SKILL — Mckinsey Partnership Ecosystem Strategy Rscf",
-      "description": "Partnership Ecosystem Strategy — McKinsey strategic capability. Use when strategic analysis, business consulting, or ...",
+      "description": "Partnership Ecosystem Strategy — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10625,7 +10667,7 @@
     {
       "name": "mckinsey-public-sector-transformation-rscf",
       "title": "SKILL — Mckinsey Public Sector Transformation Rscf",
-      "description": "Public Sector Transformation — McKinsey strategic capability. Use when strategic analysis, business consulting, or Mc...",
+      "description": "Public Sector Transformation — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10655,7 +10697,7 @@
     {
       "name": "mckinsey-purpose-impact-rscf",
       "title": "SKILL — Mckinsey Purpose Impact Rscf",
-      "description": "Purpose Impact — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framewo...",
+      "description": "Purpose Impact — McKinsey strategic capability. Use when strategic analysis,",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10686,7 +10728,7 @@
     {
       "name": "mckinsey-recruiting-workforce-acquisition-rscf",
       "title": "SKILL — Mckinsey Recruiting Workforce Acquisition Rscf",
-      "description": "Recruiting Workforce Acquisition — McKinsey strategic capability. Use when strategic analysis, business consulting, o...",
+      "description": "Recruiting Workforce Acquisition — McKinsey strategic capability. Use",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10716,7 +10758,7 @@
     {
       "name": "mckinsey-strategy-portfolio-engine",
       "title": "SKILL — Mckinsey Strategy Portfolio Engine",
-      "description": "Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKin...",
+      "description": "Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10747,7 +10789,7 @@
     {
       "name": "mckinsey-technology-company-strategy-rscf",
       "title": "SKILL — Mckinsey Technology Company Strategy Rscf",
-      "description": "Technology Company Strategy — McKinsey strategic capability. Use when strategic analysis, business consulting, or McK...",
+      "description": "Technology Company Strategy — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10777,7 +10819,7 @@
     {
       "name": "mckinsey-technology-product-governance-rscf",
       "title": "SKILL — Mckinsey Technology Product Governance Rscf",
-      "description": "Technology Product Governance — McKinsey strategic capability. Use when strategic analysis, business consulting, or M...",
+      "description": "Technology Product Governance — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10807,7 +10849,7 @@
     {
       "name": "mckinsey-technology-sales-excellence-rscf",
       "title": "SKILL — Mckinsey Technology Sales Excellence Rscf",
-      "description": "Technology Sales Excellence — McKinsey strategic capability. Use when strategic analysis, business consulting, or McK...",
+      "description": "Technology Sales Excellence — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10837,7 +10879,7 @@
     {
       "name": "mckinsey-transaction-banking-diagnostic-rscf",
       "title": "SKILL — Mckinsey Transaction Banking Diagnostic Rscf",
-      "description": "Transaction Banking Diagnostic — McKinsey strategic capability. Use when strategic analysis, business consulting, or ...",
+      "description": "Transaction Banking Diagnostic — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10867,7 +10909,7 @@
     {
       "name": "mckinsey-transformation-org-structure-rscf",
       "title": "SKILL — Mckinsey Transformation Org Structure Rscf",
-      "description": "Transformation Org Structure — McKinsey strategic capability. Use when strategic analysis, business consulting, or Mc...",
+      "description": "Transformation Org Structure — McKinsey strategic capability. Use when",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10897,7 +10939,7 @@
     {
       "name": "mckinsey-value-delivery-rscf",
       "title": "SKILL — Mckinsey Value Delivery Rscf",
-      "description": "Value Delivery — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framewo...",
+      "description": "Value Delivery — McKinsey strategic capability. Use when strategic analysis,",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10928,7 +10970,7 @@
     {
       "name": "mckinsey-wealth-management-rscf",
       "title": "SKILL — Mckinsey Wealth Management Rscf",
-      "description": "Wealth Management — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-fram...",
+      "description": "Wealth Management — McKinsey strategic capability. Use when strategic",
       "domain": "mckinsey",
       "parent_skill": "amos-c08-strategy-game-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10959,7 +11001,7 @@
     {
       "name": "obsidian-plugin-auto-tag",
       "title": "SKILL — Obsidian Plugin Auto Tag",
-      "description": "Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing, or reconciling tags and...",
+      "description": "Auto Tag — AMOS knowledge-management utility. Use when automatically",
       "domain": "knowledge",
       "parent_skill": "amos-knowledge-research-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -10990,7 +11032,7 @@
     {
       "name": "pdfs",
       "title": "SKILL — Pdfs",
-      "description": "Pdfs — technology and engineering capability. Use when software development, engineering design, or technical archite...",
+      "description": "Pdfs — technology and engineering capability. Use when software development,",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -11021,7 +11063,7 @@
     {
       "name": "rscf-modeler",
       "title": "SKILL — Rscf Modeler",
-      "description": "Rscf Modeler — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use ...",
+      "description": "Rscf Modeler — agent systems capability. Use when agent design, delegation",
       "domain": "agent",
       "parent_skill": "amos-agent-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -11052,7 +11094,7 @@
     {
       "name": "skill-creator",
       "title": "SKILL — Skill Creator",
-      "description": "Skill Creator — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use...",
+      "description": "Skill Creator — agent systems capability. Use when agent design, delegation",
       "domain": "agent",
       "parent_skill": "amos-agent-systems-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -11082,7 +11124,7 @@
     {
       "name": "slides",
       "title": "SKILL — Slides",
-      "description": "Slides — technology and engineering capability. Use when software development, engineering design, or technical archi...",
+      "description": "Slides — technology and engineering capability. Use when software development,",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -11113,7 +11155,7 @@
     {
       "name": "software-engineering-qa",
       "title": "SKILL — Software Engineering Qa",
-      "description": "Production software QA agent for repository understanding, debugging, repair, testing, architecture validation, respo...",
+      "description": "Production software QA agent for repository understanding, debugging,",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",
@@ -11143,7 +11185,7 @@
     {
       "name": "spreadsheets",
       "title": "SKILL — Spreadsheets",
-      "description": "Spreadsheets — technology and engineering capability. Use when software development, engineering design, or technical...",
+      "description": "Spreadsheets — technology and engineering capability. Use when software",
       "domain": "c10",
       "parent_skill": "amos-c10-tech-engineering-master",
       "epistemic_class": "SOURCE_CLAIM",

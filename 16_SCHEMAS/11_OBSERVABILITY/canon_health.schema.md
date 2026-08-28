@@ -1,236 +1,145 @@
 ---
-title: Canon Health Schema
+title: Canon Health Observability Schema
 type: schema
 source: 16_SCHEMAS/11_OBSERVABILITY
-artifact: canon_health.schema.md
-artifact_id: amos_16_schemas_11_observability_canon_health.schema
+artifact_id: AMOS-SCHEMA-CANON-HEALTH
+canonical_name: CANON_HEALTH_SCHEMA
+artifact_type: json_yaml_schema_contract
+status: CANONICAL
+conclusion_class: CANONICAL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 16_SCHEMAS
 segment: 16_SCHEMAS/11_OBSERVABILITY
-artifact_kind: CANON
-path: 16_SCHEMAS/11_OBSERVABILITY/canon_health.schema.md
+schema_family: OBSERVABILITY
+domain: canon-health
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - schema
-- specification
-- 16_schemas
-- canon
-- canon_placeholder
-- rscf
-- canon/schema
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- observability
+- canon-health
+- broken-link-detection
+- drift-auditing
+- health-metrics
+- rscf/claim
+- rscf/state/canonical
 - 11-observability-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 16-schemas-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Canon Health Schema
+- Vault Observability Health Contract
+- canon_health.schema
+- AMOS Canon Health Telemetry
 ---
 
-# Canon Health Schema
+# Canon Health Observability Schema
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `16_SCHEMAS/11_OBSERVABILITY`  
+> **Status:** `CANONICAL`  
+> **Observability Boundary:** Read-Only Audit Telemetry $\times$ Non-Authoritative $\times$ Continuous Link/Invariant Verification
 
-`canon_health.schema.md` is an **ADD-ONLY placeholder** for the **Schemas** plane segment at `16_SCHEMAS/11_OBSERVABILITY`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Schema Purpose
 
-The governing boundaries are:
+`CANON_HEALTH_SCHEMA` specifies the reporting telemetry for automated health checks (such as `scripts/obsidian-health-check.sh`, Vitest test runners, and link scrapers). It aggregates metrics regarding broken wikilinks, unindexed files, invalid frontmatter, confidence anomalies, and canonical drift.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Canon Health Schema** slot within the Schemas plane. The Schemas plane governs typed artifact schemas and compatibility rules.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                    CANON HEALTH OBSERVABILITY REPORT                    |
+|                                                                         |
+|  [ Periodic Scanner / Health Check Suite ]                              |
+|                         |                                               |
+|                         v                                               |
+|  ( Step 1: Scan 18 Planes for Broken Wikilinks & Frontmatter Schema )   |
+|                         |                                               |
+|                         v                                               |
+|  ( Step 2: Compute Structural Health Score H_canon in [0.0 .. 1.0] )    |
+|                         |                                               |
+|                         v                                               |
+|  [ Emit Typed Health Receipt: NO Execution Authority / Audit Only ]     |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. Formal JSON Schema Specification
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+```json
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://amos-os.org/schemas/observability/canon_health.schema.json",
+  "title": "AMOS_Canon_Health_Report",
+  "type": "object",
+  "required": [
+    "report_id",
+    "timestamp",
+    "total_nodes",
+    "broken_links_count",
+    "invalid_frontmatter_count",
+    "unindexed_nodes",
+    "overall_health_score",
+    "status"
+  ],
+  "properties": {
+    "report_id": {
+      "type": "string",
+      "format": "uuid"
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time"
+    },
+    "total_nodes": {
+      "type": "integer",
+      "minimum": 1
+    },
+    "broken_links_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "invalid_frontmatter_count": {
+      "type": "integer",
+      "minimum": 0
+    },
+    "unindexed_nodes": {
+      "type": "array",
+      "items": { "type": "string" }
+    },
+    "overall_health_score": {
+      "type": "number",
+      "minimum": 0.0,
+      "maximum": 1.0
+    },
+    "status": {
+      "type": "string",
+      "enum": ["HEALTHY", "DEGRADED", "CRITICAL_GAPS"]
+    }
+  },
+  "additionalProperties": false
+}
+```
+
+---
+
+## 3. Invariant Validation Rules
+
+1. **Non-Authority Law:** Health telemetry is purely descriptive (`OBSERVED != AUTHORIZED`) and cannot execute writes or mutations directly.
+2. **Degraded Threshold:** If $\text{broken\_links\_count} > 0 \lor \text{invalid\_frontmatter\_count} > 0$, $\text{status} \ne \text{"HEALTHY"}$.
+3. **Health Score Calculation:** $\text{overall\_health\_score} = 1.0 - \frac{\text{broken\_links} + \text{invalid\_frontmatter}}{\text{total\_nodes}}$.
 
 ---
 
-## 5. Gaps
+## 4. Cross-Plane Bindings
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+- **Health Check Scripts:** `scripts/obsidian-health-check.sh` · [[K_ANTI_AUTOPOISONING]] · [[LAW_HIERARCHY]]
+- **Related Schemas:** [[PROVENANCE_HEALTH_SCHEMA]] · [[FRAMEWORK_NODE_SCHEMA]]
+- **Navigation:** [[00_HOME]] · [[16_SCHEMAS_MOC]] · [[11_OBSERVABILITY_MOC]] · [[00_ROOT_MOC]]
 
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `16_SCHEMAS · CANON` within the Schemas plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_16_schemas_11_observability_canon_health.schema
-
-node_type: canon
-
-path: 16_SCHEMAS/11_OBSERVABILITY/canon_health.schema.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[11_OBSERVABILITY_MOC]]

@@ -1,0 +1,316 @@
+{
+  "name": "amos-mdformat-obsidian-agent",
+  "display_name": "Mdformat Obsidian",
+  "description": "Mdformat Obsidian — Obsidian vault Markdown formatting engine. Bound to knowledge domain. Use when formatting Obsidian-flavored Markdown files, fixing broken YAML frontmatter, or normalizing vault content.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "Mdformat Obsidian — Obsidian vault Markdown formatting engine within the knowledge domain.",
+  "skill_binding": {
+    "primary_skill": "amos-mdformat-obsidian",
+    "skill_path": ".devin/skills/amos-mdformat-obsidian/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "knowledge.run_mdformat_obsidian",
+      "description": "Execute the Mdformat Obsidian core function: Mdformat Obsidian — Obsidian vault Markdown formatting engine. Bound to knowledge domain. Use when formatting Obsidian-flavored Markdown files, fixing broken YAML frontmatter, or normalizing vault content.",
+      "side_effect": "write"
+    },
+    {
+      "name": "knowledge.validate_mdformat_obsidian",
+      "description": "Validate Mdformat Obsidian outputs against epistemic class, scope regime, provenance chain, claim ceiling, and domain-specific invariants.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowledge.analyze_mdformat_obsidian",
+      "description": "Analyze Mdformat Obsidian structure, dependencies, state, claims, gaps, and system-completion sufficiency.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowledge.trace_mdformat_obsidian_provenance",
+      "description": "Trace Mdformat Obsidian outputs to source evidence, execution history, dependency lineage, and RSCF provenance chain.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowledge.assess_mdformat_obsidian_claim",
+      "description": "Assess Mdformat Obsidian claims for epistemic class, evidence strength, scope, regime, freshness, falsifiers, and confidence ceiling.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowledge.manage_mdformat_obsidian_lifecycle",
+      "description": "Manage Mdformat Obsidian lifecycle: initialize, execute, checkpoint, recover from failure, and finalize with provenance.",
+      "side_effect": "write"
+    },
+    {
+      "name": "knowledge.detect_mdformat_obsidian_drift",
+      "description": "Detect drift in Mdformat Obsidian: model drift, data drift, scope drift, provenance drift, and confidence decay over time.",
+      "side_effect": "read"
+    },
+    {
+      "name": "knowledge.escalate_mdformat_obsidian_gaps",
+      "description": "Escalate Mdformat Obsidian UNKNOWN/GAP states: flag gaps, downgrade confidence, classify severity, and trigger bounded repair.",
+      "side_effect": "write"
+    }
+  ],
+  "operations": [
+    "format_file",
+    "format_directory",
+    "fix_frontmatter",
+    "normalize_tags",
+    "validate_wikilinks",
+    "audit_drift"
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the skill's scope",
+    "Epistemic class: all claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL",
+    "Provenance: source path recorded for every formatting change",
+    "Reversibility: all formatting changes are reversible via git"
+  ],
+  "safety_constraints": [
+    "No claim beyond established evidence or explicitly labeled AMOS_MODEL",
+    "Fail closed on UNKNOWN/GAP: do not fabricate to remove placeholders",
+    "Never delete content during formatting — only restructure whitespace and syntax",
+    "Preserve all wikilink targets and frontmatter fields during normalization"
+  ],
+  "depends_on_skills": [
+    "amos-mdformat-obsidian"
+  ],
+  "depends_on_workflows": [
+    "amos-mdformat-obsidian-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "knowledge",
+    "risk_tier": "low",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production",
+    "gates": [
+      "L0_integrity",
+      "L1_epistemic",
+      "L5_scope"
+    ]
+  },
+  "implementation": {
+    "type": "json",
+    "file": "amos-mdformat-obsidian-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "reasoning_pattern": "Plan-Execute",
+  "termination_criteria": {
+    "max_steps": 10,
+    "max_tokens": 8000,
+    "stop_on_confidence_below": 0.3,
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true,
+    "human_in_the_loop": false
+  },
+  "error_recovery": {
+    "on_parse_error": "skip_file_and_log",
+    "on_frontmatter_error": "preserve_original_and_flag",
+    "on_wikilink_break": "revert_and_escalate",
+    "max_retries": 3
+  },
+  "context_management": {
+    "load_strategy": "on_demand",
+    "max_context_files": 10,
+    "cache_references": true
+  },
+  "evaluation_metrics": [
+    "files_formatted_correctly",
+    "frontmatter_validated",
+    "wikilinks_preserved",
+    "tags_migrated_to_rscf",
+    "formatting_drift_eliminated"
+  ],
+  "composition_rules": [
+    "Can be invoked by amos-knowledge-research-master for vault maintenance",
+    "Can be composed with amos-c11-design-language-master for content style",
+    "Cannot override epistemic class labels during formatting"
+  ],
+  "orchestration": {
+    "can_delegate_to": [],
+    "can_be_delegated_by": [
+      "amos-knowledge-research-master-agent"
+    ],
+    "parallel_safe": true,
+    "max_concurrent": 5
+  },
+  "evaluation": {
+    "self_check": "verify all formatted files parse as valid Markdown",
+    "external_check": "diff against original to confirm only formatting changes",
+    "gate_check": "all wikilinks resolve, all frontmatter parses"
+  },
+  "amos_canon_wiring": {
+    "law_compliance": [
+      "L0",
+      "L1",
+      "L5"
+    ],
+    "gmef_gates": [
+      "L0_integrity",
+      "L1_epistemic",
+      "L5_scope"
+    ],
+    "rscf_state": "DERIVED",
+    "hml_level": "L",
+    "collapse_class": "reversible",
+    "qfm_gate_set": "QFM_v43"
+  },
+  "agent_card": {
+    "protocol": "A2A-v1.0",
+    "name": "Mdformat Obsidian",
+    "description": "Mdformat Obsidian — Obsidian vault Markdown formatting engine. Bound to knowledge domain. Use when formatting Obsidian-flavored Markdown files, fixing broken YAML frontmatter, or normalizing vault content.",
+    "version": "1.1.0",
+    "capabilities_url": "amoss://agents/amos-mdformat-obsidian-agent/capabilities",
+    "default_input_modes": [
+      "text/markdown",
+      "application/json"
+    ],
+    "default_output_modes": [
+      "text/markdown",
+      "application/json"
+    ],
+    "skill_refs": [
+      "amos-mdformat-obsidian"
+    ]
+  },
+  "guardrails": {
+    "input_guardrails": [
+      "Reject requests outside declared domain scope",
+      "Reject requests that fabricate canon or promote AMOS_MODEL to SOURCE"
+    ],
+    "output_guardrails": [
+      "All outputs must carry epistemic_class label",
+      "All outputs must carry provenance chain",
+      "Confidence must not exceed claim_ceiling"
+    ]
+  },
+  "routing_confidence": {
+    "base_score": 0.85,
+    "boost_keywords": [],
+    "decay_on_miss": 0.15
+  },
+  "version": "1.1.0",
+  "tags": [
+    "type/agent",
+    "AMOS"
+  ],
+  "created": "2026-08-28T14:52:08.096220+00:00",
+  "telemetry": {
+    "schema": "AMOS_telemetry_v1",
+    "spans": {
+      "enabled": true,
+      "exporter": "amos-k-event-bus",
+      "sample_rate": "H=1.0 M=0.5 L=0.1"
+    },
+    "metrics": [
+      {
+        "name": "agent.invocation.count",
+        "type": "counter"
+      },
+      {
+        "name": "agent.invocation.latency_ms",
+        "type": "histogram"
+      },
+      {
+        "name": "agent.guardrail.trip.count",
+        "type": "counter"
+      },
+      {
+        "name": "agent.routing.confidence",
+        "type": "gauge"
+      }
+    ],
+    "logs": {
+      "level": "INFO",
+      "structured": true,
+      "redact_secrets": true
+    },
+    "traces": {
+      "enabled": true,
+      "propagate_trace_id": true
+    },
+    "provenance": {
+      "record_content_hash": true,
+      "record_skill_binding": true
+    },
+    "sota_source": "Harbor/agentops/observra"
+  },
+  "memory": {
+    "schema": "AMOS_memory_v1",
+    "store": "amos-k-memory-admission",
+    "types": [
+      "working",
+      "episodic",
+      "semantic"
+    ],
+    "admission_gate": "amos-k-memory-admission",
+    "retrieval_gate": "amos-k-memory-retrieval",
+    "conflict_resolver": "amos-memory-conflict-governor",
+    "firewall": "amos-action-memory-firewall",
+    "immune": "amos-memory-immune-system",
+    "compaction": {
+      "enabled": true,
+      "policy": "amos-context-compaction-recoverability-rscf"
+    },
+    "sota_source": "SimpleMem"
+  },
+  "anp_description": {
+    "schema": "ANP_v1.1",
+    "did": "did:amos:agent:amos-mdformat-obsidian-agent",
+    "discovery": "/.well-known/anp/amos-mdformat-obsidian-agent.json",
+    "capabilities_endpoint": "/anp/amos-mdformat-obsidian-agent/capabilities",
+    "protocol": "ANP/1.1",
+    "authentication": {
+      "type": "did-jwt",
+      "issuer": "did:amos:agent:amos-mdformat-obsidian-agent"
+    },
+    "sota_source": "Agent Network Protocol"
+  },
+  "agents_json_manifest": {
+    "schema": "agents.json/v1",
+    "manifest_path": "/.well-known/agents.json#amos-mdformat-obsidian-agent",
+    "role": "specialist",
+    "tools": [],
+    "input_schema": {
+      "type": "object",
+      "properties": {
+        "query": {
+          "type": "string"
+        },
+        "context": {
+          "type": "object"
+        }
+      },
+      "required": [
+        "query"
+      ]
+    },
+    "output_schema": {
+      "type": "object",
+      "properties": {
+        "result": {
+          "type": "string"
+        },
+        "provenance": {
+          "type": "object"
+        },
+        "rscf_state": {
+          "type": "string"
+        }
+      }
+    },
+    "sota_source": "Wildcard agents.json"
+  },
+  "content_hash": "c3e0f403d2353615"
+}

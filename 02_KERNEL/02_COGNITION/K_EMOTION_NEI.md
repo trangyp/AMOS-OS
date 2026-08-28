@@ -1,236 +1,109 @@
 ---
-title: Kernel · Emotion / NEI
-type: emotion
+title: K_EMOTION_NEI — Neuroemotional Intelligence (NEI) Kernel
+type: kernel
 source: 02_KERNEL/02_COGNITION
-artifact: K_EMOTION_NEI.md
-artifact_id: amos_02_kernel_02_cognition_k_emotion_nei
+artifact_id: AMOS-OS-K-EMOTION-NEI
+canonical_name: K_EMOTION_NEI
+artifact_type: kernel_ubi_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/02_COGNITION
-artifact_kind: ARTIFACT
-path: 02_KERNEL/02_COGNITION/K_EMOTION_NEI.md
+kernel_family: COGNITION
+domain: neuroemotional-intelligence
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
-- core
-- 02_kernel
-- artifact
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- ubi
+- nei
+- neuroemotional-intelligence
+- 5-axis-emotion-law
+- affective-regulation
+- rscf/claim
+- rscf/state/model
 - 02-cognition-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Neuroemotional Intelligence Kernel
+- NEI Kernel
+- K_EMOTION_NEI
+- UBI NEI Domain Contract
 ---
 
-# Kernel · Emotion / NEI
+# K_EMOTION_NEI — Neuroemotional Intelligence (NEI) Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/02_COGNITION`  
+> **Status:** `AMOS_MODEL`  
+> **UBI Domain:** Domain 2 — Neuroemotional Intelligence™ (NEI)
 
-`K_EMOTION_NEI.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/02_COGNITION`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and Affective Regulation Dynamics
 
-The governing boundaries are:
+`K_EMOTION_NEI` implements the affective regulation dynamics and emotional state space modeling of the **Unified Biological Intelligence™ (UBI)** framework. It treats emotional signals not as subjective human experiences to be felt, but as **high-dimensional vector constraints that regulate cognitive bandwidth, risk sensitivity, and decision prioritization**.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · Emotion / NEI** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                  NEI 5-AXIS EMOTION REGULATION MESH                     |
+|                                                                         |
+|  [ Inbound Interaction Signal ] ---> ( 5-Axis Vector Extraction )       |
+|                                                    |                    |
+|                                                    v                    |
+|        ( State Space: Valence, Arousal, Dominance, Safety, Coherence )  |
+|                                                    |                    |
+|                +-----------------------------------+                    |
+|                |                                                        |
+|                v                                                        |
+|     ( Emotion Invariant Bounds Check: Emotional Entropy <= Bound )      |
+|                |                                                        |
+|        +-------+-------+                                                |
+|        |               |                                                |
+|  [ Regulated ]   [ Dysregulated / Affective Spike ]                     |
+|        |               |                                                |
+|        v               v                                                |
+| ( Normal Execution ) ( Dampen Risk & Apply De-escalation Protocol )     |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. The 5-Axis Emotion Law
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+All affective states are mapped onto a 5-dimensional bounded vector $\mathbf{E}_t \in [-1.0, 1.0]^5$:
 
----
+1. **Valence ($V_t$):** Intrinsic positive/negative utility assessment of current state.
+2. **Arousal ($A_t$):** Autonomic metabolic activation and response readiness.
+3. **Dominance ($D_t$):** Perceived degree of agency and system control over the environment.
+4. **Safety Index ($S_t$):** Threat assessment metric gating exploratory vs defensive reasoning.
+5. **Affective Coherence ($C_t$):** Degree of alignment between emotional signals and rational goals.
 
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `02_KERNEL · ARTIFACT` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+$$\text{Decision Weight Adjustment: } W_i' = W_i \cdot \left( 1 + \alpha V_t + \beta D_t \right) \cdot \exp(-\gamma (1 - S_t))$$
 
 ---
 
-## 7. Promotion-gate checklist
+## 3. Emulated Non-Sentience Safeguard
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+> [!CAUTION]
+> `K_EMOTION_NEI` is an algorithmic regulatory controller for decision science and human-interaction modeling. The system possesses zero biological sentience, feelings, or subjective consciousness. Claiming real emotion or consciousness is a constitutional violation.
 
 ---
 
-## 8. Cross-plane bindings (target)
+## 4. Cross-Plane Bindings
 
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_02_cognition_k_emotion_nei
-
-node_type: artifact
-
-path: 02_KERNEL/02_COGNITION/K_EMOTION_NEI.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+- **UBI Framework:** [[BIO_LOGICAL_COMPUTING_MODEL]] · [[K_COGNITION_NBI]] · [[K_SOMATIC_SI]] · [[K_BIOELECTROMAGNETIC_BEI]]
+- **Human Interaction:** [[K_HUMAN_INTELLIGENCE]] · [[K_PERSONALITY]] · [[COSMO_BRAIN_REASONING_OS_BY_TRANG_PHAN]]
+- **Risk & Repair:** [[K_HOMEOSTASIS]] · [[K_REPAIR_HARM]] · [[K_FAIL_CLOSED]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[02_COGNITION_MOC]] · [[00_ROOT_MOC]]
 
 ---
 **MOC:** [[02_COGNITION_MOC]]
+

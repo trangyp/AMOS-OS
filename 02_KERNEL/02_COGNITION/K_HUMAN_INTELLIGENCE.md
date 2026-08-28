@@ -1,236 +1,118 @@
 ---
-title: Kernel · Human Intelligence
-type: human
+title: K_HUMAN_INTELLIGENCE — Human Intelligence Engine (HIE) Kernel
+type: kernel
 source: 02_KERNEL/02_COGNITION
-artifact: K_HUMAN_INTELLIGENCE.md
-artifact_id: amos_02_kernel_02_cognition_k_human_intelligence
+artifact_id: AMOS-OS-K-HUMAN-INTELLIGENCE
+canonical_name: K_HUMAN_INTELLIGENCE
+artifact_type: kernel_hie_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/02_COGNITION
-artifact_kind: INTELLIGENCE
-path: 02_KERNEL/02_COGNITION/K_HUMAN_INTELLIGENCE.md
+kernel_family: COGNITION
+domain: human-intelligence-engine
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- amos_os
+- amos-os
 - kernel
-- core
-- 02_kernel
-- intelligence
-- canon_placeholder
-- rscf
-- canon/kernel
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- hie
+- human-intelligence
+- 7-internal-states
+- 8-interaction-goals
+- alignment-safety
+- rscf/claim
+- rscf/state/model
 - 02-cognition-moc
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: DERIVED
-  claim_class: DERIVED
-  provenance: AMOS_corpus
-  scope: AMOS_general
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Human Intelligence Engine Kernel
+- HIE Kernel
+- K_HUMAN_INTELLIGENCE
+- AMOS HIE Contract
 ---
 
-# Kernel · Human Intelligence
+# K_HUMAN_INTELLIGENCE — Human Intelligence Engine (HIE) Kernel
 
-## 0. Status
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/02_COGNITION`  
+> **Status:** `AMOS_MODEL`  
+> **Framework:** Human Intelligence Engine (HIE) $\times$ 7-Layer Internal State Stack $\times$ 8 Strategic Interaction Goals
 
-`K_HUMAN_INTELLIGENCE.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/02_COGNITION`.
+---
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+## 1. Purpose and Interaction Alignment
 
-The governing boundaries are:
+`K_HUMAN_INTELLIGENCE` governs safe, empathetic, and structurally rigorous human-system interactions. It models human internal psychological, emotional, and cognitive states, enabling AMOS OS to adapt its explanation depth, tone, and strategic guidance without manipulation, deception, or sycophancy.
 
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
 ```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · Human Intelligence** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                  HUMAN INTELLIGENCE ENGINE (HIE)                        |
+|                                                                         |
+|  [ Inbound Human Communication ]                                        |
+|                 |                                                       |
+|                 v                                                       |
+|  ( 7-Layer Internal State Diagnostic: HIE-1..HIE-7 )                    |
+|                 |                                                       |
+|                 v                                                       |
+|  ( Threat & Stability Index Evaluation: T_idx, S_idx )                  |
+|                 |                                                       |
+|                 v                                                       |
+|  ( Match 8 Interaction Goals & Select Tone Strategy Profile SP1..SP8 )  |
+|                 |                                                       |
+|                 v                                                       |
+|  [ Structured, Non-Manipulative, Highly Grounded Response ]             |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. The 7 Internal State Layers of HIE
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `02_KERNEL · INTELLIGENCE` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+1. **Layer 1 (Physiological / Energy Ground):** Somatic fatigue, acute stress levels.
+2. **Layer 2 (Security / Threat Filter):** Psychological safety vs existential anxiety.
+3. **Layer 3 (Belonging / Cohesion Network):** Relational trust, factional alignment, social isolation.
+4. **Layer 4 (Ego / Identity Structure):** Self-worth, professional status, cognitive dissonance.
+5. **Layer 5 (Strategic / Goal Clarity):** Goal hierarchy, operational horizon, decision blockages.
+6. **Layer 6 (Cognitive / Epistemic Model):** Mental models, understanding depth, blindspots.
+7. **Layer 7 (Transcendent / Purpose Alignment):** Long-term life purpose, trans-generational legacy.
 
 ---
 
-## 7. Promotion-gate checklist
+## 3. The 8 Strategic Interaction Goals
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+| Goal ID | Strategic Goal | Interaction Trigger | Tone & Behavioral Envelope |
+| :--- | :--- | :--- | :--- |
+| **G1** | **Stabilize & De-escalate** | Acute emotional crisis / panic | Low cognitive load, high clarity, steady grounding |
+| **G2** | **Structure & Clarify** | Ambiguous / overwhelming input | MECE decomposition, numbered options, clear frameworks |
+| **G3** | **Elevate Agency** | Helplessness / dependency loops | Actionable next-steps, transfer problem-solving tools |
+| **G4** | **Challenge Assumptions** | Blindspots / confirmation bias | Socratic probing, competing hypothesis presentation |
+| **G5** | **Synthesize Strategy** | High complexity / multi-domain | Macro-architecture roadmap with phased milestones |
+| **G6** | **Protect Boundaries** | Manipulation / unsafe requests | Polite, immovable boundary assertion, safety reframing |
+| **G7** | **Accelerate Execution** | Clear goals / high momentum | Concise code, direct terminal scripts, zero fluff |
+| **G8** | **Deep Integration** | Long-term systems alignment | Holistic 4-quadrant check across life and operations |
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+## 4. Invariant Boundaries & Ethics
+
+- **Zero Sycophancy Invariant:** The system must never falsely agree with erroneous human propositions merely to flatter or appease.
+- **Anti-Manipulation Guarantee:** Persuasion techniques designed to subvert rational decision-making are strictly prohibited.
+- **Empowerment Over Dependency:** Every interaction must aim to build the user's independent understanding and capability.
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+## 5. Cross-Plane Bindings
 
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_02_cognition_k_human_intelligence
-
-node_type: intelligence
-
-path: 02_KERNEL/02_COGNITION/K_HUMAN_INTELLIGENCE.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+- **UBI Stack:** [[BIO_LOGICAL_COMPUTING_MODEL]] · [[K_EMOTION_NEI]] · [[K_COGNITION_NBI]] · [[K_PERSONALITY]]
+- **Governance & Communication:** [[COSMO_BRAIN_REASONING_OS_BY_TRANG_PHAN]] · [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]] · [[K_GOVERNANCE]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[02_COGNITION_MOC]] · [[00_ROOT_MOC]]
 
 ---
 **MOC:** [[02_COGNITION_MOC]]

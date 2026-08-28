@@ -1,303 +1,88 @@
 ---
-title: Kernel · UBA
-type: note
+title: K_UBA — Universal Biological Architecture (UBA) Integration Kernel
+type: kernel
 source: 02_KERNEL/09_INTEGRATION
-artifact: K_UBA.md
-artifact_id: 02_kernel_09_integration_k_uba
+artifact_id: AMOS-OS-K-UBA
+canonical_name: K_UBA
+artifact_type: kernel_integration_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/09_INTEGRATION
-artifact_kind: NOTE
-path: 02_KERNEL/09_INTEGRATION/K_UBA.md
+kernel_family: INTEGRATION
+domain: universal-biological-architecture
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- 02_kernel
-- 09_integration
-- amos_os
-- artifact
-- canon/kernel
-- canon/universe
-- canon_placeholder
-- core
-- k_uba.md
+- amos-os
 - kernel
-- note
-- rscf
-- placeholder_expanded
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- integration
+- uba
+- universal-biological-architecture
+- organismic-coupling
+- multi-scale-biology
+- rscf/claim
+- rscf/state/model
 - 09-integration-moc
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 02_KERNEL
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Universal Biological Architecture Kernel
+- UBA Kernel
+- K_UBA
+- AMOS Biological Architecture Integration
 ---
 
-## 0. Canonical Status
+# K_UBA — Universal Biological Architecture (UBA) Integration Kernel
 
-`K_UBA.md` is an **ADD-ONLY placeholder-expanded artifact** for the **02_KERNEL** plane segment.
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/09_INTEGRATION`  
+> **Status:** `AMOS_MODEL`  
+> **Systemic Scope:** Cellular Organelle $\to$ Somatic Organism $\to$ Biosphere Ecosystem Integration
 
-It reserves the canonical slot for the AMOS framework family named **Kernel · UBA**.
+---
 
-The artifact is presently:
+## 1. Purpose and Biological Systems Topology
 
-```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
+`K_UBA` defines the multi-scale structural architecture connecting microscopic molecular biological processes with macroscopic ecological and computing environments. It models the **structural hierarchy, membrane boundaries, and bio-energetic flow channels** that sustain living and bio-synthetic organisms.
+
 ```
-
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
-
-## 1. Governing Integrity Boundary
-
-The following distinctions are mandatory:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-No downstream layer may silently collapse these distinctions.
-
-Origin architect / steward: **Trang Phan**
-
-System: **AMOS OS**
-
----
-
-# Kernel · UBA
-
-## 0. Status
-
-`K_UBA.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/09_INTEGRATION`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · UBA** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                  UNIVERSAL BIOLOGICAL ARCHITECTURE (UBA)                |
+|                                                                         |
+|  [ Layer 3: Ecological Biosphere & Multi-Agent Symbiosis ]              |
+|                               ^                                         |
+|                               | ( Nutrient / Energy / Info Cycles )     |
+|                               v                                         |
+|  [ Layer 2: Organism Somatic Substrate & Neural Networks (UBI) ]        |
+|                               ^                                         |
+|                               | ( Downward Epigenetic Regulation )      |
+|                               v                                         |
+|  [ Layer 1: Molecular Machinery, Gene Regulatory Networks, Ion Channels]|
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. Invariant Laws of Universal Biological Architecture
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+1. **Membrane Boundary Invariant:** Every biological system must maintain a selectively permeable thermodynamic boundary separating internal order from external entropy ($\nabla S_{\text{boundary}} \ne 0$).
+2. **Symbiotic Coupling Law:** Synthetic intelligence agents operating within a biological environment must maintain non-parasitic, mutualistic coupling with host organisms.
+3. **Bio-Energetic Efficiency Ceiling:** Information processing operations within biological substrates must operate above Landauer's thermodynamic limit ($E_{\text{op}} \ge k_B T \ln 2$).
 
 ---
 
-## 6. Worked semantics (target)
+## 3. Cross-Plane Bindings
 
-Given an operation touching `02_KERNEL · ARTIFACT` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
-
----
-
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
-
----
-
-## 8. Cross-plane bindings (target)
-
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
-
----
-
-[[00_ROOT_MOC]]|[[AMOS MOC]]
-
----
-
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_09_integration_k_uba
-
-node_type: artifact
-
-path: 02_KERNEL/09_INTEGRATION/K_UBA.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+- **UBI Framework:** [[BIO_LOGICAL_COMPUTING_MODEL]] · [[K_UBI_BINDING]] · [[K_ABSOLUTE_BIOLOGICAL_INTEGRITY]]
+- **Causality & Homeostasis:** [[K_BIOLOGICAL_CAUSALITY]] · [[K_UBI_HOMEOSTASIS]] · [[K_UBI_ENTROPY_CORRECTION]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[09_INTEGRATION_MOC]] · [[00_ROOT_MOC]]
 
 ---
 **MOC:** [[09_INTEGRATION_MOC]]
+

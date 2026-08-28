@@ -1,19 +1,8 @@
----
-tags:
-- skill
-- registry
-- catalog.md
-- catalog
-- moc
-- 00-root-moc
-- 00-home
----
-
 # AMOS Skill Registry Catalog
 
-Generated: 2026-08-28T09:36:28.282434+00:00
-Total skills: 342
-Total size: 11,702,299 bytes (11.2 MB)
+Generated: 2026-08-28T16:37:10.995191+00:00
+Total skills: 343
+Total size: 11,989,174 bytes (11.4 MB)
 
 ## Domain Index
 
@@ -343,7 +332,7 @@ Total size: 11,702,299 bytes (11.2 MB)
 
 - `amos-information-theory-master`
 
-### knowledge (13 skills)
+### knowledge (14 skills)
 
 - `amos-agent-native-research-artifact-rscf`
 - `amos-agent-storage-footprint-rscf`
@@ -352,6 +341,7 @@ Total size: 11,702,299 bytes (11.2 MB)
 - `amos-knowledge-harvest-runtime`
 - `amos-knowledge-research-master`
 - `amos-llm-wiki`
+- `amos-mdformat-obsidian`
 - `amos-mechmath-research-orchestration-rscf`
 - `amos-research-agent`
 - `amos-retrieval-conditioned-orchestration-budget-rscf`
@@ -488,2024 +478,2034 @@ Total size: 11,702,299 bytes (11.2 MB)
 ## Skill Details
 
 ### amos-7-part-universe-canon
-- **Description**: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Cons...
+- **Description**: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 11
-- **Size**: 17,423 bytes
-- **SHA-256**: `e542955f3ea14b7e...`
+- **Size**: 18,013 bytes
+- **SHA-256**: `f299dc0cc3e31d69...`
 
 ### amos-7-part-universe-canon-full
-- **Description**: 7 Part Universe Canon Full — canon and universe capability. Use when canon reasoning, universe-level...
+- **Description**: 7 Part Universe Canon Full — canon and universe capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,103 bytes
-- **SHA-256**: `a344c9c148787719...`
+- **Size**: 27,616 bytes
+- **SHA-256**: `1a1ff6244f8879be...`
 
 ### amos-absolute-primitive-decomposer
-- **Description**: Absolute Primitive Decomposer — runtime and OS capability. Use when runtime reasoning, OS kernel ope...
+- **Description**: Absolute Primitive Decomposer — runtime and OS capability. Use when runtime...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,218 bytes
-- **SHA-256**: `93520eb872d0f823...`
+- **Size**: 25,665 bytes
+- **SHA-256**: `502b826e16c1bd42...`
 
 ### amos-action-memory-firewall
-- **Description**: Action Memory Firewall — memory systems capability. Use when memory management, context continuity, ...
+- **Description**: Action Memory Firewall — memory systems capability. Use when memory management,...
 - **Version**: 1.1.0
 - **Domain**: memory
 - **Parent**: amos-memory-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,431 bytes
-- **SHA-256**: `60b5394eecb1da31...`
+- **Size**: 28,055 bytes
+- **SHA-256**: `778a1651eaa0ec7e...`
 
 ### amos-active-inference-governor
-- **Description**: Govern active-inference-style perception-belief-action loops inside AMOS by separating observations,...
+- **Description**: Govern active-inference-style perception-belief-action loops inside AMOS...
 - **Version**: 1.1.0
 - **Domain**: mind_behavior
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: AMOS_MODEL
 - **Files**: 10
-- **Size**: 30,563 bytes
-- **SHA-256**: `9d99b26a5aa8cead...`
+- **Size**: 30,922 bytes
+- **SHA-256**: `613c1e2c1dd0a66b...`
 
 ### amos-adaptive-stability-balancer
-- **Description**: Balance stability-preserving operation against adaptation, scaling, exploration, mutation, and recov...
+- **Description**: Balance stability-preserving operation against adaptation, scaling, exploration,...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 41,923 bytes
-- **SHA-256**: `f38f1fe652eafa60...`
+- **Size**: 42,377 bytes
+- **SHA-256**: `0a3fa1ab2231811f...`
 
 ### amos-adversarial-entropy-accountant
-- **Description**: Adversarial Entropy Accountant — security and safety capability. Use when security analysis, safety ...
+- **Description**: Adversarial Entropy Accountant — security and safety capability. Use...
 - **Version**: 1.1.0
 - **Domain**: security
 - **Parent**: amos-security-safety-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,346 bytes
-- **SHA-256**: `751c10cbea2d1f9b...`
+- **Size**: 26,787 bytes
+- **SHA-256**: `b63b1766276d4784...`
 
 ### amos-agency-consequence-governor
-- **Description**: Agency Consequence Governor — agent systems capability. Use when agent design, delegation reasoning,...
+- **Description**: Agency Consequence Governor — agent systems capability. Use when agent...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: amos-agent-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,600 bytes
-- **SHA-256**: `b4c6866b062028a5...`
+- **Size**: 27,045 bytes
+- **SHA-256**: `f74e4b2d06c31f13...`
 
 ### amos-agent-economy-constitutional-governance-rscf
-- **Description**: Agent Economy Constitutional Governance — econ capability. Use when executing the core capability wi...
+- **Description**: Agent Economy Constitutional Governance — econ capability. Use when executing...
 - **Version**: 1.1.0
 - **Domain**: econ
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,650 bytes
-- **SHA-256**: `3fe5a381de2113c9...`
+- **Size**: 26,979 bytes
+- **SHA-256**: `a412cf5e7da93a97...`
 
 ### amos-agent-externalization-architecture-rscf
-- **Description**: Agent Externalization Architecture — agent systems capability. Use when agent design, delegation rea...
+- **Description**: Agent Externalization Architecture — agent systems capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: amos-agent-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,959 bytes
-- **SHA-256**: `eda5bfd4ba3b341c...`
+- **Size**: 19,438 bytes
+- **SHA-256**: `fbf54b6a459ccf15...`
 
 ### amos-agent-memory-dynamics-rscf-engine
-- **Description**: Agent Memory Dynamics — memory systems capability. Use when memory management, context continuity, o...
+- **Description**: Agent Memory Dynamics — memory systems capability. Use when memory management,...
 - **Version**: 1.1.0
 - **Domain**: memory
 - **Parent**: amos-memory-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,710 bytes
-- **SHA-256**: `56b617378cba38cd...`
+- **Size**: 19,160 bytes
+- **SHA-256**: `fa1d6040a79b7252...`
 
 ### amos-agent-native-research-artifact-rscf
-- **Description**: Agent Native Research Artifact — knowledge research capability. Use when knowledge management, resea...
+- **Description**: Agent Native Research Artifact — knowledge research capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,381 bytes
-- **SHA-256**: `fa36592bba1e8c9d...`
+- **Size**: 25,822 bytes
+- **SHA-256**: `4d51f1fa07a95e6e...`
 
 ### amos-agent-owner-attribution-rscf
-- **Description**: Agent Owner Attribution — agent systems capability. Use when agent design, delegation reasoning, or ...
+- **Description**: Agent Owner Attribution — agent systems capability. Use when agent design,...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: amos-agent-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,556 bytes
-- **SHA-256**: `bb4ed7845c0b0400...`
+- **Size**: 19,024 bytes
+- **SHA-256**: `db555b116d2ccbfc...`
 
 ### amos-agent-storage-footprint-rscf
-- **Description**: Agent Storage Footprint — knowledge research capability. Use when knowledge management, research, or...
+- **Description**: Agent Storage Footprint — knowledge research capability. Use when knowledge...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,569 bytes
-- **SHA-256**: `0e445030de7db251...`
+- **Size**: 19,014 bytes
+- **SHA-256**: `a78a5fe033a2224d...`
 
 ### amos-agent-systems-master
-- **Description**: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy govern...
+- **Description**: AMOS Agent Systems — agent fabrication, delegation, agency-consequence...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 20
-- **Size**: 55,178 bytes
-- **SHA-256**: `c5b87cb730044757...`
+- **Size**: 57,281 bytes
+- **SHA-256**: `8e4ed04f01627329...`
 
 ### amos-agentic-skill-lie-algebroid-rscf-engine
-- **Description**: Agentic Skill Lie Algebroid — agent systems capability. Use when agent design, delegation reasoning,...
+- **Description**: Agentic Skill Lie Algebroid — agent systems capability. Use when agent...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: amos-agent-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,030 bytes
-- **SHA-256**: `39f09723667102fb...`
+- **Size**: 27,514 bytes
+- **SHA-256**: `af248b8491f26eb4...`
 
 ### amos-agentops-observability-rscf
-- **Description**: Agentops Observability — agent systems capability. Use when agent design, delegation reasoning, or m...
+- **Description**: Agentops Observability — agent systems capability. Use when agent design,...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: amos-agent-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,062 bytes
-- **SHA-256**: `68239f3616c25860...`
+- **Size**: 26,503 bytes
+- **SHA-256**: `5d70be92480893d1...`
 
 ### amos-ai-architecture-factory-rscf-engine
-- **Description**: Ai Architecture Factory — technology and engineering capability. Use when software development, engi...
+- **Description**: Ai Architecture Factory — technology and engineering capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,972 bytes
-- **SHA-256**: `f9b271f681117def...`
+- **Size**: 27,354 bytes
+- **SHA-256**: `94a90950ecad5dca...`
 
 ### amos-ai-drift-alignment-governor
-- **Description**: Ai Drift Alignment Governor — runtime and OS capability. Use when runtime reasoning, OS kernel opera...
+- **Description**: Ai Drift Alignment Governor — runtime and OS capability. Use when runtime...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,534 bytes
-- **SHA-256**: `baf895471da4988a...`
+- **Size**: 25,979 bytes
+- **SHA-256**: `7db519132fb36fbe...`
 
 ### amos-ai-entropy-rscf-engine
-- **Description**: Ai Entropy — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similar...
+- **Description**: Ai Entropy — fractal systems capability. Use when fractal analysis, scale...
 - **Version**: 1.1.0
 - **Domain**: fractal
 - **Parent**: amos-fractal-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,519 bytes
-- **SHA-256**: `7ce4d5b3e921c2f8...`
+- **Size**: 26,886 bytes
+- **SHA-256**: `3eeba3608255e571...`
 
 ### amos-aibom-lifecycle-assurance-rscf
-- **Description**: AIBOM Lifecycle Assurance — RSCF epistemic capability. Use when classifying claims by epistemic stat...
+- **Description**: AIBOM Lifecycle Assurance — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 19,038 bytes
-- **SHA-256**: `32a8d08f38c64068...`
+- **Size**: 19,473 bytes
+- **SHA-256**: `5332e41e7c673114...`
 
 ### amos-artistic-expression-governor
-- **Description**: Artistic Expression Governor — mind and behavior capability. Use when psychological analysis, behavi...
+- **Description**: Artistic Expression Governor — mind and behavior capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,826 bytes
-- **SHA-256**: `bd1f1090993997cf...`
+- **Size**: 24,267 bytes
+- **SHA-256**: `4555ca5efdb2a27b...`
 
 ### amos-arxiv-agent-memory-dynamics-rscf
-- **Description**: Arxiv Agent Memory Dynamics — arxiv research capability. Use when arxiv research, paper analysis, or...
+- **Description**: Arxiv Agent Memory Dynamics — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,382 bytes
-- **SHA-256**: `4c85f34fcba89da9...`
+- **Size**: 27,093 bytes
+- **SHA-256**: `159ee4dbe703fe61...`
 
 ### amos-arxiv-autonomous-scientific-knowledge-rscf
-- **Description**: Arxiv Autonomous Scientific Knowledge — arxiv research capability. Use when arxiv research, paper an...
+- **Description**: Arxiv Autonomous Scientific Knowledge — arxiv research capability. Use...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,972 bytes
-- **SHA-256**: `d3d094d881093942...`
+- **Size**: 27,268 bytes
+- **SHA-256**: `0dddd63dc8bb2259...`
 
 ### amos-arxiv-conrad-radiomics-rscf
-- **Description**: Arxiv Conrad Radiomics — arxiv research capability. Use when arxiv research, paper analysis, or lite...
+- **Description**: Arxiv Conrad Radiomics — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,234 bytes
-- **SHA-256**: `30f2d9c724ff03c8...`
+- **Size**: 26,943 bytes
+- **SHA-256**: `2b2704d3e8555d08...`
 
 ### amos-arxiv-continual-interference-geometry-rscf
-- **Description**: Arxiv Continual Interference Geometry — arxiv research capability. Use when arxiv research, paper an...
+- **Description**: Arxiv Continual Interference Geometry — arxiv research capability. Use...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,594 bytes
-- **SHA-256**: `7e73fe9c456cc983...`
+- **Size**: 24,197 bytes
+- **SHA-256**: `a8c16b122c58779e...`
 
 ### amos-arxiv-embodied-runtime-rscf-engine
-- **Description**: Arxiv Embodied Runtime — arxiv research capability. Use when arxiv research, paper analysis, or lite...
+- **Description**: Arxiv Embodied Runtime — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,014 bytes
-- **SHA-256**: `7bba091b3ee51c1f...`
+- **Size**: 26,771 bytes
+- **SHA-256**: `6f7e3323280b7033...`
 
 ### amos-arxiv-influence-guided-symbolic-regression-rscf
-- **Description**: Arxiv Influence Guided Symbolic Regression — arxiv research capability. Use when arxiv research, pap...
+- **Description**: Arxiv Influence Guided Symbolic Regression — arxiv research capability....
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,728 bytes
-- **SHA-256**: `10d6f0ad96c2ea63...`
+- **Size**: 24,051 bytes
+- **SHA-256**: `165b752780822b71...`
 
 ### amos-arxiv-multistage-order-causal-discovery-rscf
-- **Description**: Arxiv Multistage Order Causal Discovery — arxiv research capability. Use when arxiv research, paper ...
+- **Description**: Arxiv Multistage Order Causal Discovery — arxiv research capability....
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,662 bytes
-- **SHA-256**: `d2b8ee8ab49cfe5e...`
+- **Size**: 19,004 bytes
+- **SHA-256**: `f26e53b9b0618347...`
 
 ### amos-arxiv-quantum-arithmetic-cryptanalysis-rscf
-- **Description**: Arxiv Quantum Arithmetic Cryptanalysis — arxiv research capability. Use when arxiv research, paper a...
+- **Description**: Arxiv Quantum Arithmetic Cryptanalysis — arxiv research capability. Use...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,623 bytes
-- **SHA-256**: `5391184e86f246bc...`
+- **Size**: 24,224 bytes
+- **SHA-256**: `a6a85f3b88f10e09...`
 
 ### amos-arxiv-quantum-koopman-rscf
-- **Description**: Arxiv Quantum Koopman — arxiv research capability. Use when arxiv research, paper analysis, or liter...
+- **Description**: Arxiv Quantum Koopman — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,204 bytes
-- **SHA-256**: `60dc4b9bdce35477...`
+- **Size**: 26,913 bytes
+- **SHA-256**: `172f3647140f9041...`
 
 ### amos-arxiv-sparse-autoencoder-interpretability-rscf
-- **Description**: Arxiv Sparse Autoencoder Interpretability — arxiv research capability. Use when arxiv research, pape...
+- **Description**: Arxiv Sparse Autoencoder Interpretability — arxiv research capability....
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,791 bytes
-- **SHA-256**: `af82d7051bc6cc62...`
+- **Size**: 27,388 bytes
+- **SHA-256**: `26a987b0e144a9bf...`
 
 ### amos-arxiv-spatial-speech-perception-rscf
-- **Description**: Arxiv Spatial Speech Perception — arxiv research capability. Use when arxiv research, paper analysis...
+- **Description**: Arxiv Spatial Speech Perception — arxiv research capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,420 bytes
-- **SHA-256**: `453464087a787ca4...`
+- **Size**: 24,131 bytes
+- **SHA-256**: `42832fd770a923de...`
 
 ### amos-arxiv-spectral-latent-treatment-effects-rscf
-- **Description**: Arxiv Spectral Latent Treatment Effects — arxiv research capability. Use when arxiv research, paper ...
+- **Description**: Arxiv Spectral Latent Treatment Effects — arxiv research capability....
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,566 bytes
-- **SHA-256**: `e6036904f27129db...`
+- **Size**: 26,184 bytes
+- **SHA-256**: `dec3a6587eaa0296...`
 
 ### amos-arxiv-structure-preserving-variational-neural-fields-rscf
-- **Description**: Arxiv Structure Preserving Variational Neural Fields — arxiv research capability. Use when arxiv res...
+- **Description**: Arxiv Structure Preserving Variational Neural Fields — arxiv research...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,866 bytes
-- **SHA-256**: `bc2765c0f199bbb2...`
+- **Size**: 27,137 bytes
+- **SHA-256**: `2b4d5cd660fa0501...`
 
 ### amos-arxiv-time-series-bootstrap-conformal-rscf
-- **Description**: Arxiv Time Series Bootstrap Conformal — arxiv research capability. Use when arxiv research, paper an...
+- **Description**: Arxiv Time Series Bootstrap Conformal — arxiv research capability. Use...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,078 bytes
-- **SHA-256**: `fa805a8fd0306aec...`
+- **Size**: 24,389 bytes
+- **SHA-256**: `d2ebf3e119b86a43...`
 
 ### amos-arxiv-ttstack-sketching-rscf-engine
-- **Description**: Arxiv Ttstack Sketching — arxiv research capability. Use when arxiv research, paper analysis, or lit...
+- **Description**: Arxiv Ttstack Sketching — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,471 bytes
-- **SHA-256**: `c34213552986795d...`
+- **Size**: 27,180 bytes
+- **SHA-256**: `49ea06e521041657...`
 
 ### amos-ast-control-dataflow-rscf-engine
-- **Description**: Ast Control Dataflow — technology and engineering capability. Use when software development, enginee...
+- **Description**: Ast Control Dataflow — technology and engineering capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,763 bytes
-- **SHA-256**: `3ea8c369f4903c0a...`
+- **Size**: 24,204 bytes
+- **SHA-256**: `c12b41a2c71c3453...`
 
 ### amos-attention-allocation-governor
-- **Description**: Attention Allocation Governor — mind and behavior capability. Use when psychological analysis, behav...
+- **Description**: Attention Allocation Governor — mind and behavior capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,725 bytes
-- **SHA-256**: `4d8428139ed54bf1...`
+- **Size**: 27,176 bytes
+- **SHA-256**: `e54051c4673650ae...`
 
 ### amos-audit-repair-master
-- **Description**: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair al...
+- **Description**: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 27
-- **Size**: 88,195 bytes
-- **SHA-256**: `7bceb556a3b35d41...`
+- **Size**: 91,226 bytes
+- **SHA-256**: `04d68200bda016c1...`
 
 ### amos-awareness-inference-governor
-- **Description**: Awareness Inference Governor — mind and behavior capability. Use when psychological analysis, behavi...
+- **Description**: Awareness Inference Governor — mind and behavior capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,603 bytes
-- **SHA-256**: `2735023f7d7cd0fe...`
+- **Size**: 27,063 bytes
+- **SHA-256**: `386f45cbd7dc8a39...`
 
 ### amos-benchmark-forensics
-- **Description**: Benchmark Forensics — audit and repair capability. Use when auditing, failure analysis, gap discover...
+- **Description**: Benchmark Forensics — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,149 bytes
-- **SHA-256**: `810ccb597d4f0f10...`
+- **Size**: 21,595 bytes
+- **SHA-256**: `dd4a7bfb7b157bcd...`
 
 ### amos-binding-rscf-engine
-- **Description**: Binding — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outp...
+- **Description**: Binding — RSCF epistemic capability. Use when classifying claims by epistemic...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,038 bytes
-- **SHA-256**: `f51e83cd04c9e5db...`
+- **Size**: 25,479 bytes
+- **SHA-256**: `fdc006485288158f...`
 
 ### amos-biology-quantum-bridge-governor
-- **Description**: Biology-Quantum Bridge Governor — biology and neuroscience capability. Bridges C04 biological/neurol...
+- **Description**: Biology-Quantum Bridge Governor — biology and neuroscience capability....
 - **Version**: 1.1.0
 - **Domain**: cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos)
 - **Parent**: amos-c04-bio-neuro-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,831 bytes
-- **SHA-256**: `b9bc5ccdee88bbdf...`
+- **Size**: 28,284 bytes
+- **SHA-256**: `7570db89847232a0...`
 
 ### amos-blackbox-program-discovery-rscf
-- **Description**: Blackbox Program Discovery — technology and engineering capability. Use when software development, e...
+- **Description**: Blackbox Program Discovery — technology and engineering capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,841 bytes
-- **SHA-256**: `f445488269404b73...`
+- **Size**: 25,279 bytes
+- **SHA-256**: `07bbf2837e7358f9...`
 
 ### amos-boundary-admission-governor
-- **Description**: Boundary Admission Governor — boundary and scope capability. Use when evaluating scope boundaries, c...
+- **Description**: Boundary Admission Governor — boundary and scope capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,778 bytes
-- **SHA-256**: `414c83435964bb78...`
+- **Size**: 27,219 bytes
+- **SHA-256**: `55d9d21619208bfa...`
 
 ### amos-boundary-architecture-rscf-calculus
-- **Description**: Boundary Architecture Rscf Calculus — boundary and scope capability. Use when evaluating scope bound...
+- **Description**: Boundary Architecture Rscf Calculus — boundary and scope capability....
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,408 bytes
-- **SHA-256**: `0701e6f0e533cf71...`
+- **Size**: 26,849 bytes
+- **SHA-256**: `2421700a80bc6eb3...`
 
 ### amos-boundary-scope-master
-- **Description**: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity, capability bounds. Us...
+- **Description**: AMOS Boundary & Scope — scope regimes, boundary admission, context continuity,...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 13
-- **Size**: 43,887 bytes
-- **SHA-256**: `79e74be894f6607e...`
+- **Size**: 44,703 bytes
+- **SHA-256**: `5c44e6b7d4fa5392...`
 
 ### amos-bounded-code-facts-rscf
-- **Description**: Bounded Code Facts — technology and engineering capability. Use when software development, engineeri...
+- **Description**: Bounded Code Facts — technology and engineering capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,012 bytes
-- **SHA-256**: `2dff649818c81922...`
+- **Size**: 24,447 bytes
+- **SHA-256**: `d1438a7a72c3eaa2...`
 
 ### amos-budget-aware-optimizer-selection-rscf-engine
-- **Description**: Budget Aware Optimizer Selection — RSCF epistemic capability. Use when classifying claims by epistem...
+- **Description**: Budget Aware Optimizer Selection — RSCF epistemic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,153 bytes
-- **SHA-256**: `46aafbdff6792770...`
+- **Size**: 24,482 bytes
+- **SHA-256**: `1be19cefdf8c1c37...`
 
 ### amos-bundle-manifold-concentration-rscf-engine
-- **Description**: Bundle Manifold Concentration — RSCF epistemic capability. Use when classifying claims by epistemic ...
+- **Description**: Bundle Manifold Concentration — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,780 bytes
-- **SHA-256**: `733f130fa668bdfb...`
+- **Size**: 27,221 bytes
+- **SHA-256**: `4d6a49285191b23a...`
 
 ### amos-c01-meta-logic-master
-- **Description**: AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs, 5 Pattern Families. Law of Law...
+- **Description**: AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs,...
 - **Version**: 1.1.0
 - **Domain**: c01
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 28
-- **Size**: 143,975 bytes
-- **SHA-256**: `81c99ec6ed3dae9e...`
+- **Size**: 146,838 bytes
+- **SHA-256**: `d468d22045a11478...`
 
 ### amos-c02-math-compute-master
-- **Description**: AMOS C02 Math & Compute — 10 families: problem framing, numerical methods, probability, optimization...
+- **Description**: AMOS C02 Math & Compute — 10 families: problem framing, numerical methods,...
 - **Version**: 1.1.0
 - **Domain**: c02
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
-- **Files**: 25
-- **Size**: 119,299 bytes
-- **SHA-256**: `3229e60ee47e45e6...`
+- **Files**: 24
+- **Size**: 118,078 bytes
+- **SHA-256**: `f6bfe7c4f5f842d0...`
 
 ### amos-c03-physics-cosmos-master
-- **Description**: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum a...
+- **Description**: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime,...
 - **Version**: 1.1.0
 - **Domain**: c03
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 46
-- **Size**: 206,728 bytes
-- **SHA-256**: `41c3d9f3a5c4e9bd...`
+- **Size**: 212,803 bytes
+- **SHA-256**: `64c36c222fee9e9e...`
 
 ### amos-c04-bio-neuro-master
-- **Description**: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics...
+- **Description**: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI,...
 - **Version**: 1.1.0
 - **Domain**: c04
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 44
-- **Size**: 183,320 bytes
-- **SHA-256**: `8a78500a6398bbb7...`
+- **Size**: 189,001 bytes
+- **SHA-256**: `e96344189d24f703...`
 
 ### amos-c05-mind-behavior-master
-- **Description**: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), beh...
+- **Description**: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: none
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 66
-- **Size**: 300,356 bytes
-- **SHA-256**: `4a487b4a59cb5743...`
+- **Size**: 309,888 bytes
+- **SHA-256**: `1c51e554c42a75f9...`
 
 ### amos-c06-society-culture-master
-- **Description**: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analys...
+- **Description**: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese...
 - **Version**: 1.1.0
 - **Domain**: c06
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 36
-- **Size**: 171,395 bytes
-- **SHA-256**: `1a28ee9a7092513c...`
+- **Size**: 175,759 bytes
+- **SHA-256**: `9d90223e0e47131c...`
 
 ### amos-c07-econ-finance-master
-- **Description**: AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynam...
+- **Description**: AMOS C07 Econ & Finance — unit economics, forex, investment, wealth,...
 - **Version**: 1.1.0
 - **Domain**: c07
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 44
-- **Size**: 185,427 bytes
-- **SHA-256**: `674caec219186a1c...`
+- **Size**: 191,208 bytes
+- **SHA-256**: `2930c74dfe55a357...`
 
 ### amos-c08-strategy-game-master
-- **Description**: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game...
+- **Description**: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation,...
 - **Version**: 1.1.0
 - **Domain**: c08
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 32
-- **Size**: 122,213 bytes
-- **SHA-256**: `fbe7e25ef1758f95...`
+- **Size**: 125,977 bytes
+- **SHA-256**: `df1a39d9c4290c2f...`
 
 ### amos-c09-org-law-policy-master
-- **Description**: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutiona...
+- **Description**: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory...
 - **Version**: 1.1.0
 - **Domain**: c09
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 59
-- **Size**: 279,580 bytes
-- **SHA-256**: `d4e4e5baca433c86...`
+- **Size**: 287,930 bytes
+- **SHA-256**: `51d46f5bf12eff29...`
 
 ### amos-c10-tech-engineering-master
-- **Description**: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture, factor...
+- **Description**: AMOS C10 Tech & Engineering — coding, software engineering, automation,...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 51
-- **Size**: 216,212 bytes
-- **SHA-256**: `54e33e6801ccd0c1...`
+- **Size**: 223,775 bytes
+- **SHA-256**: `53829445ad112b0d...`
 
 ### amos-c11-design-language-master
-- **Description**: AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic e...
+- **Description**: AMOS C11 Design & Language — content creation, corporate documentation,...
 - **Version**: 1.1.0
 - **Domain**: c11
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 39
-- **Size**: 152,288 bytes
-- **SHA-256**: `1b95c7c0748be79d...`
+- **Size**: 157,030 bytes
+- **SHA-256**: `d6edf04b4ee0a981...`
 
 ### amos-c12-earth-ecology-master
-- **Description**: AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, ...
+- **Description**: AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure,...
 - **Version**: 1.1.0
 - **Domain**: c12
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
-- **Files**: 42
-- **Size**: 186,736 bytes
-- **SHA-256**: `58957d9b4db08393...`
+- **Files**: 41
+- **Size**: 188,137 bytes
+- **SHA-256**: `7260378987fd61b3...`
 
 ### amos-calibrated-feedback-control-rscf
-- **Description**: Calibrated Feedback Control — runtime and OS capability. Use when runtime reasoning, OS kernel opera...
+- **Description**: Calibrated Feedback Control — runtime and OS capability. Use when runtime...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,020 bytes
-- **SHA-256**: `d549770ef0d13887...`
+- **Size**: 27,461 bytes
+- **SHA-256**: `9df11c2692b96035...`
 
 ### amos-canon-compiler
-- **Description**: Canon Compiler — canon and universe capability. Use when canon reasoning, universe-level analysis, o...
+- **Description**: Canon Compiler — canon and universe capability. Use when canon reasoning,...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,760 bytes
-- **SHA-256**: `87135b7ad1af8717...`
+- **Size**: 27,208 bytes
+- **SHA-256**: `62293e213bcc43f7...`
 
 ### amos-canon-consistency-governor
-- **Description**: Canon Consistency Governor — canon and universe capability. Use when canon reasoning, universe-level...
+- **Description**: Canon Consistency Governor — canon and universe capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,120 bytes
-- **SHA-256**: `b5bf95101e49491a...`
+- **Size**: 27,580 bytes
+- **SHA-256**: `c416e98104d57322...`
 
 ### amos-canon-universe-master
-- **Description**: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy, univer...
+- **Description**: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants,...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 25
-- **Size**: 101,820 bytes
-- **SHA-256**: `699d16a74a70b17f...`
+- **Size**: 104,516 bytes
+- **SHA-256**: `9277ea82640c6f3c...`
 
 ### amos-canonical-software-substrate-rscf
-- **Description**: Canonical Software Substrate — canon and universe capability. Use when canon reasoning, universe-lev...
+- **Description**: Canonical Software Substrate — canon and universe capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,835 bytes
-- **SHA-256**: `3193b91cb6e5819c...`
+- **Size**: 27,412 bytes
+- **SHA-256**: `2e181ff97c341501...`
 
 ### amos-causal-abstraction-validity-rscf-engine
-- **Description**: Causal Abstraction Validity — causal reasoning capability. Use when causal analysis, counterfactual ...
+- **Description**: Causal Abstraction Validity — causal reasoning capability. Use when causal...
 - **Version**: 1.1.0
 - **Domain**: causal
 - **Parent**: amos-causal-reasoning-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,989 bytes
-- **SHA-256**: `b663546ec0a50dac...`
+- **Size**: 25,429 bytes
+- **SHA-256**: `27bf8c621f6395df...`
 
 ### amos-causal-closure-governor
-- **Description**: Causal Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual reas...
+- **Description**: Causal Closure Governor — causal reasoning capability. Use when causal...
 - **Version**: 1.1.0
 - **Domain**: causal
 - **Parent**: amos-causal-reasoning-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,286 bytes
-- **SHA-256**: `86028771eacf1a43...`
+- **Size**: 22,726 bytes
+- **SHA-256**: `484436892b9d1e03...`
 
 ### amos-causal-hierarchy-governor
-- **Description**: Causal Hierarchy Governor — causal reasoning capability. Use when causal analysis, counterfactual re...
+- **Description**: Causal Hierarchy Governor — causal reasoning capability. Use when causal...
 - **Version**: 1.1.0
 - **Domain**: causal
 - **Parent**: amos-causal-reasoning-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,916 bytes
-- **SHA-256**: `299aebc1a3657733...`
+- **Size**: 25,356 bytes
+- **SHA-256**: `347ca481722b486f...`
 
 ### amos-causal-reasoning-master
-- **Description**: AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual reasoning, intervention ana...
+- **Description**: AMOS Causal Reasoning — causal closure, causal hierarchy, counterfactual...
 - **Version**: 1.1.0
 - **Domain**: causal
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 14
-- **Size**: 46,519 bytes
-- **SHA-256**: `0f9d92dba99a3868...`
+- **Size**: 47,467 bytes
+- **SHA-256**: `8a5d423e64e49476...`
 
 ### amos-cell-intelligence-mapper
-- **Description**: Cell Intelligence Mapper — biology and neuroscience capability. Use when biological reasoning, neuro...
+- **Description**: Cell Intelligence Mapper — biology and neuroscience capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c04
 - **Parent**: amos-c04-bio-neuro-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,259 bytes
-- **SHA-256**: `eb0b9135474d1906...`
+- **Size**: 26,700 bytes
+- **SHA-256**: `8de7056374143cb1...`
 
 ### amos-claim-verifier
-- **Description**: Claim Verifier — audit and repair capability. Use when auditing, failure analysis, gap discovery, or...
+- **Description**: Claim Verifier — audit and repair capability. Use when auditing, failure...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,203 bytes
-- **SHA-256**: `c9d1153d3db210d2...`
+- **Size**: 24,644 bytes
+- **SHA-256**: `12c1947c229e9b2d...`
 
 ### amos-cli-failure-process-diagnostics-rscf
-- **Description**: Cli Failure Process Diagnostics — technology and engineering capability. Use when software developme...
+- **Description**: Cli Failure Process Diagnostics — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,646 bytes
-- **SHA-256**: `984b5de63ffb0d2c...`
+- **Size**: 26,087 bytes
+- **SHA-256**: `ac858b7b0f39648e...`
 
 ### amos-closed-loop-learning-governor
-- **Description**: Closed Loop Learning Governor — runtime and OS capability. Use when runtime reasoning, OS kernel ope...
+- **Description**: Closed Loop Learning Governor — runtime and OS capability. Use when runtime...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,738 bytes
-- **SHA-256**: `172d4b2345699a36...`
+- **Size**: 27,185 bytes
+- **SHA-256**: `3e0b9740e97786c9...`
 
 ### amos-code-agent-harness-rscf
-- **Description**: Code Agent Harness — technology and engineering capability. Use when software development, engineeri...
+- **Description**: Code Agent Harness — technology and engineering capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,120 bytes
-- **SHA-256**: `6e1cc871e9b73c89...`
+- **Size**: 24,693 bytes
+- **SHA-256**: `48d0fcdce9d6cf70...`
 
 ### amos-cognitive-compression-kernel
-- **Description**: Cognitive Compression Kernel — mind and behavior capability. Use when psychological analysis, behavi...
+- **Description**: Cognitive Compression Kernel — mind and behavior capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,578 bytes
-- **SHA-256**: `707ebdfb5b59550d...`
+- **Size**: 26,054 bytes
+- **SHA-256**: `831976309b5473dc...`
 
 ### amos-cognitive-process-orchestrator
-- **Description**: Cognitive Process Orchestrator — mind and behavior capability. Use when psychological analysis, beha...
+- **Description**: Cognitive Process Orchestrator — mind and behavior capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,132 bytes
-- **SHA-256**: `58e93a3ec1296dc4...`
+- **Size**: 25,608 bytes
+- **SHA-256**: `6c0a3b435fc80c3c...`
 
 ### amos-collapse-recovery
-- **Description**: Collapse Recovery — Trang framework capability. Use when Trang framework reasoning, cascade analysis...
+- **Description**: Collapse Recovery — Trang framework capability. Use when Trang framework...
 - **Version**: 1.1.0
 - **Domain**: trang
 - **Parent**: amos-trang-framework-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,513 bytes
-- **SHA-256**: `dd1ff0be9c3a217d...`
+- **Size**: 22,952 bytes
+- **SHA-256**: `5c34da251016d03c...`
 
 ### amos-combined-program-analysis-rscf
-- **Description**: Combined Program Analysis — technology and engineering capability. Use when software development, en...
+- **Description**: Combined Program Analysis — technology and engineering capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,813 bytes
-- **SHA-256**: `2985c61b3ae33702...`
+- **Size**: 25,249 bytes
+- **SHA-256**: `20de589826c970b3...`
 
 ### amos-commit-time-authorization-rscf-engine
-- **Description**: Commit Time Authorization — RSCF epistemic capability. Use when classifying claims by epistemic stat...
+- **Description**: Commit Time Authorization — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,990 bytes
-- **SHA-256**: `578083a84d528f4c...`
+- **Size**: 27,429 bytes
+- **SHA-256**: `843328306d9d36ec...`
 
 ### amos-consciousness-candidate-governor
-- **Description**: Consciousness Candidate Governor — mind and behavior capability. Use when psychological analysis, be...
+- **Description**: Consciousness Candidate Governor — mind and behavior capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,984 bytes
-- **SHA-256**: `f8a89329cdcf65f8...`
+- **Size**: 27,419 bytes
+- **SHA-256**: `6672058bd3387a4b...`
 
 ### amos-constraint-propagation-rscf-engine
-- **Description**: Constraint Propagation — formal verification capability. Use when formal verification, symbolic exec...
+- **Description**: Constraint Propagation — formal verification capability. Use when formal...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,102 bytes
-- **SHA-256**: `02d59eac8e62198a...`
+- **Size**: 24,543 bytes
+- **SHA-256**: `a56df7bba5a50f92...`
 
 ### amos-constructive-metamorphic-testing-rscf
-- **Description**: Constructive Metamorphic Testing — technology and engineering capability. Use when software developm...
+- **Description**: Constructive Metamorphic Testing — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,468 bytes
-- **SHA-256**: `4abf4ec44e4fe938...`
+- **Size**: 27,907 bytes
+- **SHA-256**: `a72c9ba327c39fbc...`
 
 ### amos-context-budget-governor-rscf
-- **Description**: Context Budget Governor — boundary and scope capability. Use when evaluating scope boundaries, conte...
+- **Description**: Context Budget Governor — boundary and scope capability. Use when evaluating...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,691 bytes
-- **SHA-256**: `e647fb10b2108404...`
+- **Size**: 25,132 bytes
+- **SHA-256**: `bd952894a9cd72e7...`
 
 ### amos-context-compaction-recoverability-rscf
-- **Description**: Context Compaction Recoverability — boundary and scope capability. Use when evaluating scope boundar...
+- **Description**: Context Compaction Recoverability — boundary and scope capability. Use...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,986 bytes
-- **SHA-256**: `87bf6cb913c9b7f1...`
+- **Size**: 25,427 bytes
+- **SHA-256**: `196c10e040389c37...`
 
 ### amos-context-continuity-governor
-- **Description**: Context Continuity Governor — boundary and scope capability. Use when evaluating scope boundaries, c...
+- **Description**: Context Continuity Governor — boundary and scope capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,979 bytes
-- **SHA-256**: `9c46405375480024...`
+- **Size**: 25,420 bytes
+- **SHA-256**: `8db5e690619c8a18...`
 
 ### amos-context-orientation-cache-rscf
-- **Description**: Context Orientation Cache — boundary and scope capability. Use when evaluating scope boundaries, con...
+- **Description**: Context Orientation Cache — boundary and scope capability. Use when evaluating...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,752 bytes
-- **SHA-256**: `5ec9666d824e631e...`
+- **Size**: 22,249 bytes
+- **SHA-256**: `1975541dc3d68be6...`
 
 ### amos-context-persona-drift-rscf
-- **Description**: Context Persona Drift — boundary and scope capability. Use when evaluating scope boundaries, context...
+- **Description**: Context Persona Drift — boundary and scope capability. Use when evaluating...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 19,764 bytes
-- **SHA-256**: `fdaa9116111a6fd3...`
+- **Size**: 20,312 bytes
+- **SHA-256**: `b0288ca4130d03a7...`
 
 ### amos-context-state-maintenance-rscf
-- **Description**: Context State Maintenance — boundary and scope capability. Use when evaluating scope boundaries, con...
+- **Description**: Context State Maintenance — boundary and scope capability. Use when evaluating...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,322 bytes
-- **SHA-256**: `3e7d2e6b9d076fe3...`
+- **Size**: 25,812 bytes
+- **SHA-256**: `07f0f33a9a518361...`
 
 ### amos-contravariance-alignment-rscf-engine
-- **Description**: Contravariance Alignment — RSCF epistemic capability. Use when classifying claims by epistemic state...
+- **Description**: Contravariance Alignment — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,339 bytes
-- **SHA-256**: `9d48db81fc0fac68...`
+- **Size**: 18,875 bytes
+- **SHA-256**: `18eb41d82e4c2ac3...`
 
 ### amos-core19-logic-kernel
-- **Description**: Core19 Logic Kernel — runtime and OS capability. Use when runtime reasoning, OS kernel operations, o...
+- **Description**: Core19 Logic Kernel — runtime and OS capability. Use when runtime reasoning,...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,141 bytes
-- **SHA-256**: `88677d2e0cbb1284...`
+- **Size**: 25,737 bytes
+- **SHA-256**: `2287bb7ae550d6f8...`
 
 ### amos-cost-aware-test-supervision-rscf
-- **Description**: Cost Aware Test Supervision — super engines capability. Use when super-engine reasoning, consciousne...
+- **Description**: Cost Aware Test Supervision — super engines capability. Use when super-engine...
 - **Version**: 1.1.0
 - **Domain**: super
 - **Parent**: amos-super-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,135 bytes
-- **SHA-256**: `b18d7f898ae7147c...`
+- **Size**: 26,576 bytes
+- **SHA-256**: `44474cb8e61c71ba...`
 
 ### amos-counterfactual-reasoning-governor
-- **Description**: Counterfactual Reasoning Governor — causal reasoning capability. Use when causal analysis, counterfa...
+- **Description**: Counterfactual Reasoning Governor — causal reasoning capability. Use...
 - **Version**: 1.1.0
 - **Domain**: causal
 - **Parent**: amos-causal-reasoning-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,993 bytes
-- **SHA-256**: `d8a684926e853959...`
+- **Size**: 27,480 bytes
+- **SHA-256**: `87b4683f7027da89...`
 
 ### amos-counterfactual-selfhood-mapper
-- **Description**: Counterfactual Selfhood Mapper — causal reasoning capability. Use when causal analysis, counterfactu...
+- **Description**: Counterfactual Selfhood Mapper — causal reasoning capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: causal
 - **Parent**: amos-causal-reasoning-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,979 bytes
-- **SHA-256**: `852d68c3448b39e3...`
+- **Size**: 27,419 bytes
+- **SHA-256**: `3918a1406482a931...`
 
 ### amos-cross-architecture-tensor-engine
-- **Description**: Cross Architecture Tensor Engine — formal verification capability. Use when formal verification, sym...
+- **Description**: Cross Architecture Tensor Engine — formal verification capability. Use...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,854 bytes
-- **SHA-256**: `7fa5cbb279013c46...`
+- **Size**: 26,314 bytes
+- **SHA-256**: `88545c338b4fde12...`
 
 ### amos-cross-domain-tensor-composition-governor
-- **Description**: Cross-Domain Tensor Composition Governor — RSCF epistemic capability. Governs when and how typed ten...
+- **Description**: Cross-Domain Tensor Composition Governor — RSCF epistemic capability....
 - **Version**: 1.1.0
 - **Domain**: cross-domain
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,581 bytes
-- **SHA-256**: `dd59a8214bd724ff...`
+- **Size**: 27,075 bytes
+- **SHA-256**: `54d0aca40cdd49c6...`
 
 ### amos-cross-scale-rscf-tensor-engine
-- **Description**: Cross Scale Rscf Tensor Engine — formal verification capability. Use when formal verification, symbo...
+- **Description**: Cross Scale Rscf Tensor Engine — formal verification capability. Use...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,126 bytes
-- **SHA-256**: `8425aab21270d154...`
+- **Size**: 25,586 bytes
+- **SHA-256**: `81b832e715b91bf2...`
 
 ### amos-cross-species-cognition-mapper
-- **Description**: Cross Species Cognition Mapper — biology and neuroscience capability. Use when biological reasoning,...
+- **Description**: Cross Species Cognition Mapper — biology and neuroscience capability....
 - **Version**: 1.1.0
 - **Domain**: c04
 - **Parent**: amos-c04-bio-neuro-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,630 bytes
-- **SHA-256**: `eccede05e8d8c4a3...`
+- **Size**: 27,071 bytes
+- **SHA-256**: `09df8b170863fdc4...`
 
 ### amos-dependency-environment-reconstruction-rscf
-- **Description**: Dependency Environment Reconstruction — RSCF epistemic capability. Use when classifying claims by ep...
+- **Description**: Dependency Environment Reconstruction — RSCF epistemic capability. Use...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,794 bytes
-- **SHA-256**: `723edc37be264c86...`
+- **Size**: 27,127 bytes
+- **SHA-256**: `88456bdd3c15e73c...`
 
 ### amos-design-visual-rscf-engine
-- **Description**: Design Visual — technology and engineering capability. Use when software development, engineering de...
+- **Description**: Design Visual — technology and engineering capability. Use when software...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,702 bytes
-- **SHA-256**: `5b0b5f6a2e23f6af...`
+- **Size**: 27,163 bytes
+- **SHA-256**: `721cf032fa8e4281...`
 
 ### amos-designer-os
-- **Description**: Designer Os — technology and engineering capability. Use when software development, engineering desi...
+- **Description**: Designer Os — technology and engineering capability. Use when software...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,765 bytes
-- **SHA-256**: `4178cf5379ab6858...`
+- **Size**: 23,171 bytes
+- **SHA-256**: `cb439fcb1403305b...`
 
 ### amos-deterministic-ai-control-plane
-- **Description**: Deterministic Ai Control Plane — runtime and OS capability. Use when runtime reasoning, OS kernel op...
+- **Description**: Deterministic Ai Control Plane — runtime and OS capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,512 bytes
-- **SHA-256**: `80c78d9b325f1157...`
+- **Size**: 23,951 bytes
+- **SHA-256**: `af6c7ca1df14a8fe...`
 
 ### amos-direct-corpus-search-rscf
-- **Description**: Direct Corpus Search — knowledge research capability. Use when knowledge management, research, or Ob...
+- **Description**: Direct Corpus Search — knowledge research capability. Use when knowledge...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,656 bytes
-- **SHA-256**: `e7850bc2c765fae4...`
+- **Size**: 27,097 bytes
+- **SHA-256**: `cbf490d0b9acf66f...`
 
 ### amos-distinct-working-memory-rscf
-- **Description**: Distinct Working Memory — memory systems capability. Use when memory management, context continuity,...
+- **Description**: Distinct Working Memory — memory systems capability. Use when memory...
 - **Version**: 1.1.0
 - **Domain**: memory
 - **Parent**: amos-memory-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,553 bytes
-- **SHA-256**: `7801a31e90bb2f7b...`
+- **Size**: 19,021 bytes
+- **SHA-256**: `ad3be37ade155c5d...`
 
 ### amos-distinction-relation-constraint-rscf-algebra
-- **Description**: Distinction Relation Constraint Rscf Algebra — formal verification capability. Use when formal verif...
+- **Description**: Distinction Relation Constraint Rscf Algebra — formal verification capability....
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,339 bytes
-- **SHA-256**: `80a5fb02540234d5...`
+- **Size**: 27,668 bytes
+- **SHA-256**: `19502609014d0c11...`
 
 ### amos-distinction-relation-transformation
-- **Description**: Distinction Relation Transformation — super engines capability. Use when super-engine reasoning, con...
+- **Description**: Distinction Relation Transformation — super engines capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: super
 - **Parent**: amos-super-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,671 bytes
-- **SHA-256**: `7e7eb094d3b44e81...`
+- **Size**: 26,125 bytes
+- **SHA-256**: `bd3b912c3e14f758...`
 
 ### amos-distinction-rscf-architecture
-- **Description**: Distinction Rscf Architecture — Trang framework capability. Use when Trang framework reasoning, casc...
+- **Description**: Distinction Rscf Architecture — Trang framework capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: trang
 - **Parent**: amos-trang-framework-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,525 bytes
-- **SHA-256**: `b2ba86246c680591...`
+- **Size**: 26,966 bytes
+- **SHA-256**: `0a4265834a1ddc80...`
 
 ### amos-distributed-attack-composition-monitor-rscf
-- **Description**: Distributed Attack Composition Monitor — security and safety capability. Use when security analysis,...
+- **Description**: Distributed Attack Composition Monitor — security and safety capability....
 - **Version**: 1.1.0
 - **Domain**: security
 - **Parent**: amos-security-safety-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,408 bytes
-- **SHA-256**: `a0636b5d0712617b...`
+- **Size**: 22,738 bytes
+- **SHA-256**: `dd8b4deba08cbdf4...`
 
 ### amos-distributed-causal-evolution-rscf-engine
-- **Description**: Distributed Causal Evolution — causal reasoning capability. Use when causal analysis, counterfactual...
+- **Description**: Distributed Causal Evolution — causal reasoning capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: causal
 - **Parent**: amos-causal-reasoning-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,191 bytes
-- **SHA-256**: `f13dc77a99ff1a5c...`
+- **Size**: 18,645 bytes
+- **SHA-256**: `8e9d9ba0f4d579db...`
 
 ### amos-economic-model
-- **Description**: Economic Model — econ capability. Use when executing the core capability within this domain. Use whe...
+- **Description**: Economic Model — econ capability. Use when executing the core capability...
 - **Version**: 1.1.0
 - **Domain**: econ
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,146 bytes
-- **SHA-256**: `f46b27c327a8a699...`
+- **Size**: 23,614 bytes
+- **SHA-256**: `3594273a4c186869...`
 
 ### amos-economy-internet-money-rscf-engine
-- **Description**: Economy Internet Money — econ capability. Use when executing the core capability within this domain....
+- **Description**: Economy Internet Money — econ capability. Use when executing the core...
 - **Version**: 1.1.0
 - **Domain**: econ
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,396 bytes
-- **SHA-256**: `ac8b3d737042d037...`
+- **Size**: 26,835 bytes
+- **SHA-256**: `0777f6506c8d3389...`
 
 ### amos-emergent-social-intelligence-risk-rscf
-- **Description**: Emergent Social Intelligence Risk — society and culture capability. Use when social analysis, cultur...
+- **Description**: Emergent Social Intelligence Risk — society and culture capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c06
 - **Parent**: amos-c06-society-culture-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,670 bytes
-- **SHA-256**: `63b69a90921d634f...`
+- **Size**: 26,108 bytes
+- **SHA-256**: `133d79ad88c536dc...`
 
 ### amos-emotion-cognition-decision-bridge-governor
-- **Description**: Emotion-Cognition-Decision Bridge Governor — mind and behavior capability. Bridges C05 emotion/perso...
+- **Description**: Emotion-Cognition-Decision Bridge Governor — mind and behavior capability....
 - **Version**: 1.1.0
 - **Domain**: cross-domain (C05→C01→C10)
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,837 bytes
-- **SHA-256**: `2b2e8304fb08c87d...`
+- **Size**: 26,180 bytes
+- **SHA-256**: `6780a3d265562faf...`
 
 ### amos-entropy-lacunarity-governor
-- **Description**: Entropy Lacunarity Governor — info capability. Use when executing the core capability within this do...
+- **Description**: Entropy Lacunarity Governor — info capability. Use when executing the...
 - **Version**: 1.1.0
 - **Domain**: info
 - **Parent**: amos-information-theory-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,197 bytes
-- **SHA-256**: `ae54ac0858f15279...`
+- **Size**: 23,636 bytes
+- **SHA-256**: `9cf0ba75310c16b5...`
 
 ### amos-ethics-os-governor
-- **Description**: Ethics Os Governor — organization, law and policy capability. Use when governance design, legal anal...
+- **Description**: Ethics Os Governor — organization, law and policy capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c09
 - **Parent**: amos-c09-org-law-policy-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,448 bytes
-- **SHA-256**: `47feb39b896ac3aa...`
+- **Size**: 26,021 bytes
+- **SHA-256**: `bb2b984a467ac550...`
 
 ### amos-execution-provenance-replay-rscf
-- **Description**: Execution Provenance Replay — security and safety capability. Use when security analysis, safety ver...
+- **Description**: Execution Provenance Replay — security and safety capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: security
 - **Parent**: amos-security-safety-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,264 bytes
-- **SHA-256**: `013742fcb640499a...`
+- **Size**: 18,720 bytes
+- **SHA-256**: `d7c831255b3d369a...`
 
 ### amos-flow-canon
-- **Description**: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion un...
+- **Description**: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 11
-- **Size**: 14,913 bytes
-- **SHA-256**: `b6b39dd06bd4536f...`
+- **Size**: 15,451 bytes
+- **SHA-256**: `b638063c17d429a5...`
 
 ### amos-forex-os
-- **Description**: Forex Os — forex and finance capability. Use when forex analysis, currency trading, or market dynami...
+- **Description**: Forex Os — forex and finance capability. Use when forex analysis, currency...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,501 bytes
-- **SHA-256**: `c24adb2503103c3c...`
+- **Size**: 24,893 bytes
+- **SHA-256**: `290442bf8e73d735...`
 
 ### amos-forex-unified-os
-- **Description**: Forex Unified Os — forex and finance capability. Use when forex analysis, currency trading, or marke...
+- **Description**: Forex Unified Os — forex and finance capability. Use when forex analysis,...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 11
-- **Size**: 30,513 bytes
-- **SHA-256**: `14e1bc33aac4ec8d...`
+- **Size**: 31,101 bytes
+- **SHA-256**: `210128e6de904463...`
 
 ### amos-forex-unified-os-updated
-- **Description**: Forex Unified Os Updated — forex and finance capability. Use when forex analysis, currency trading, ...
+- **Description**: Forex Unified Os Updated — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,635 bytes
-- **SHA-256**: `b59958c67060df17...`
+- **Size**: 26,074 bytes
+- **SHA-256**: `5e641bdca9162e0f...`
 
 ### amos-formal-agent-skill-verification-rscf
-- **Description**: Formal Agent Skill Verification — audit and repair capability. Use when auditing, failure analysis, ...
+- **Description**: Formal Agent Skill Verification — audit and repair capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,973 bytes
-- **SHA-256**: `ed2ce60e947c9a6d...`
+- **Size**: 27,439 bytes
+- **SHA-256**: `df490b6e85520b53...`
 
 ### amos-formal-engines-master
-- **Description**: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal specifications, proof s...
+- **Description**: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition,...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 24
-- **Size**: 89,273 bytes
-- **SHA-256**: `718e3bdbaa1bc1ac...`
+- **Size**: 92,720 bytes
+- **SHA-256**: `636c7dca6ff8d49d...`
 
 ### amos-formal-model-checking-orchestrator-rscf
-- **Description**: Formal Model Checking Orchestrator — formal verification capability. Use when formal verification, s...
+- **Description**: Formal Model Checking Orchestrator — formal verification capability....
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,202 bytes
-- **SHA-256**: `65adc49075c08cee...`
+- **Size**: 22,643 bytes
+- **SHA-256**: `7cda446ff362ce66...`
 
 ### amos-formally-verified-migration-rscf
-- **Description**: Formally Verified Migration — audit and repair capability. Use when auditing, failure analysis, gap ...
+- **Description**: Formally Verified Migration — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,544 bytes
-- **SHA-256**: `aa189688e238fe2b...`
+- **Size**: 26,113 bytes
+- **SHA-256**: `ef20b7033e693c49...`
 
 ### amos-fractal-math
-- **Description**: Fractal Math — fractal systems capability. Use when fractal analysis, scale reasoning, or self-simil...
+- **Description**: Fractal Math — fractal systems capability. Use when fractal analysis,...
 - **Version**: 1.1.0
 - **Domain**: fractal
 - **Parent**: amos-fractal-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,326 bytes
-- **SHA-256**: `aa15ccfc1aca3a6f...`
+- **Size**: 21,767 bytes
+- **SHA-256**: `9fb4171b7bbdb96d...`
 
 ### amos-fractal-systems-master
-- **Description**: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fr...
+- **Description**: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity,...
 - **Version**: 1.1.0
 - **Domain**: fractal
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 30
-- **Size**: 96,790 bytes
-- **SHA-256**: `dd4f7657d536fd3f...`
+- **Size**: 100,543 bytes
+- **SHA-256**: `8cc5ba99de9bde96...`
 
 ### amos-framework-registry-compiler
-- **Description**: Framework Registry Compiler — technology and engineering capability. Use when software development, ...
+- **Description**: Framework Registry Compiler — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,941 bytes
-- **SHA-256**: `8a66185497666f7f...`
+- **Size**: 24,382 bytes
+- **SHA-256**: `4f2c362f478bbfa9...`
 
 ### amos-full-brain-os
-- **Description**: Full Brain Os — super engines capability. Use when super-engine reasoning, consciousness emulation, ...
+- **Description**: Full Brain Os — super engines capability. Use when super-engine reasoning,...
 - **Version**: 1.1.0
 - **Domain**: super
 - **Parent**: amos-super-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,453 bytes
-- **SHA-256**: `aa6c988a3d5be440...`
+- **Size**: 26,962 bytes
+- **SHA-256**: `bcbbcdecfec080d3...`
 
 ### amos-future-debt-option-value-governor
-- **Description**: Future Debt Option Value Governor — econ capability. Use when executing the core capability within t...
+- **Description**: Future Debt Option Value Governor — econ capability. Use when executing...
 - **Version**: 1.1.0
 - **Domain**: econ
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,889 bytes
-- **SHA-256**: `a58ad9135f4e1235...`
+- **Size**: 27,327 bytes
+- **SHA-256**: `dcf966f06682316d...`
 
 ### amos-fx-bayesian-neural-sde-calibration-rscf-engine
-- **Description**: Bayesian Neural Sde Calibration — forex and finance capability. Use when forex analysis, currency tr...
+- **Description**: Bayesian Neural Sde Calibration — forex and finance capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,342 bytes
-- **SHA-256**: `07f1ea9c30d86883...`
+- **Size**: 26,766 bytes
+- **SHA-256**: `d0f929ed398f62b9...`
 
 ### amos-fx-carry-differential-engine
-- **Description**: Carry Differential Engine — forex and finance capability. Use when forex analysis, currency trading,...
+- **Description**: Carry Differential Engine — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,639 bytes
-- **SHA-256**: `39ea58b727cee115...`
+- **Size**: 27,078 bytes
+- **SHA-256**: `4edd979274a9ace1...`
 
 ### amos-fx-conformal-tail-risk-control-rscf-engine
-- **Description**: Conformal Tail Risk Control — forex and finance capability. Use when forex analysis, currency tradin...
+- **Description**: Conformal Tail Risk Control — forex and finance capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,838 bytes
-- **SHA-256**: `e045982542346276...`
+- **Size**: 27,245 bytes
+- **SHA-256**: `62c442f78e7b1100...`
 
 ### amos-fx-gaussian-process-surface-rscf-engine
-- **Description**: Gaussian Process Surface — forex and finance capability. Use when forex analysis, currency trading, ...
+- **Description**: Gaussian Process Surface — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,231 bytes
-- **SHA-256**: `6565672546b6ce2f...`
+- **Size**: 27,670 bytes
+- **SHA-256**: `910387552d3a0cf0...`
 
 ### amos-fx-macro-differential-mapper
-- **Description**: Macro Differential Mapper — forex and finance capability. Use when forex analysis, currency trading,...
+- **Description**: Macro Differential Mapper — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,946 bytes
-- **SHA-256**: `429d7f52e0e3d238...`
+- **Size**: 25,385 bytes
+- **SHA-256**: `120627af53dbb888...`
 
 ### amos-fx-options-implied-distribution
-- **Description**: Options Implied Distribution — forex and finance capability. Use when forex analysis, currency tradi...
+- **Description**: Options Implied Distribution — forex and finance capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,047 bytes
-- **SHA-256**: `a48bcfe720daca86...`
+- **Size**: 27,486 bytes
+- **SHA-256**: `4319057e18160148...`
 
 ### amos-fx-predictive-fractal-engine
-- **Description**: Predictive Fractal Engine — forex and finance capability. Use when forex analysis, currency trading,...
+- **Description**: Predictive Fractal Engine — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,634 bytes
-- **SHA-256**: `91372ccb52f4e643...`
+- **Size**: 27,073 bytes
+- **SHA-256**: `1e1170580e5330c6...`
 
 ### amos-fx-quantile-distribution-rscf-engine
-- **Description**: Quantile Distribution — forex and finance capability. Use when forex analysis, currency trading, or ...
+- **Description**: Quantile Distribution — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,869 bytes
-- **SHA-256**: `32679c27481a7243...`
+- **Size**: 27,308 bytes
+- **SHA-256**: `dfa981620775eafe...`
 
 ### amos-fx-realized-garch-autoencoder-rscf-engine
-- **Description**: Realized Garch Autoencoder — forex and finance capability. Use when forex analysis, currency trading...
+- **Description**: Realized Garch Autoencoder — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,009 bytes
-- **SHA-256**: `9bb6940374d97633...`
+- **Size**: 27,448 bytes
+- **SHA-256**: `1e7dad11414ea334...`
 
 ### amos-fx-realized-kernel-microstructure-rscf-engine
-- **Description**: Realized Kernel Microstructure — forex and finance capability. Use when forex analysis, currency tra...
+- **Description**: Realized Kernel Microstructure — forex and finance capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,121 bytes
-- **SHA-256**: `e76537d8e9a791a3...`
+- **Size**: 27,446 bytes
+- **SHA-256**: `c6e264aa332ec265...`
 
 ### amos-fx-rough-heston-rscf-engine
-- **Description**: Rough Heston — forex and finance capability. Use when forex analysis, currency trading, or market dy...
+- **Description**: Rough Heston — forex and finance capability. Use when forex analysis,...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,581 bytes
-- **SHA-256**: `113ba26b84cfa0e9...`
+- **Size**: 27,038 bytes
+- **SHA-256**: `b3584d58cef33178...`
 
 ### amos-fx-state-space-kalman-engine
-- **Description**: State Space Kalman Engine — forex and finance capability. Use when forex analysis, currency trading,...
+- **Description**: State Space Kalman Engine — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,323 bytes
-- **SHA-256**: `6ac916fa07369630...`
+- **Size**: 27,811 bytes
+- **SHA-256**: `c783f7a911297f14...`
 
 ### amos-fx-stochastic-correlation-rscf-engine
-- **Description**: Stochastic Correlation — forex and finance capability. Use when forex analysis, currency trading, or...
+- **Description**: Stochastic Correlation — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,897 bytes
-- **SHA-256**: `1789c40f38bc30b2...`
+- **Size**: 27,336 bytes
+- **SHA-256**: `72aa13e096cf50ac...`
 
 ### amos-fx-tensor-train-greeks-rscf-engine
-- **Description**: Tensor Train Greeks — forex and finance capability. Use when forex analysis, currency trading, or ma...
+- **Description**: Tensor Train Greeks — forex and finance capability. Use when forex analysis,...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,153 bytes
-- **SHA-256**: `d8e8374cc1f30451...`
+- **Size**: 26,590 bytes
+- **SHA-256**: `525188fcbe4cb278...`
 
 ### amos-fx-threshold-vecm-rscf-engine
-- **Description**: Threshold Vecm — forex and finance capability. Use when forex analysis, currency trading, or market ...
+- **Description**: Threshold Vecm — forex and finance capability. Use when forex analysis,...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,667 bytes
-- **SHA-256**: `c9e490031ea22e7e...`
+- **Size**: 27,106 bytes
+- **SHA-256**: `09b071613d3881c1...`
 
 ### amos-fx-typed-tensor-contract-rscf-engine
-- **Description**: Typed Tensor Contract — forex and finance capability. Use when forex analysis, currency trading, or ...
-- **Version**: 1.1.0
-- **Domain**: fx
-- **Parent**: amos-c07-econ-finance-master
-- **Epistemic class**: SOURCE_CLAIM
-- **Files**: 10
-- **Size**: 26,325 bytes
-- **SHA-256**: `256a312174c6d13b...`
-
-### amos-fx-vecm-cointegration-rscf-engine
-- **Description**: Vecm Cointegration — forex and finance capability. Use when forex analysis, currency trading, or mar...
+- **Description**: Typed Tensor Contract — forex and finance capability. Use when forex...
 - **Version**: 1.1.0
 - **Domain**: fx
 - **Parent**: amos-c07-econ-finance-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
 - **Size**: 26,783 bytes
-- **SHA-256**: `fd7ad1cf6935ba46...`
+- **SHA-256**: `0ddfbe0c0c3d19e0...`
+
+### amos-fx-vecm-cointegration-rscf-engine
+- **Description**: Vecm Cointegration — forex and finance capability. Use when forex analysis,...
+- **Version**: 1.1.0
+- **Domain**: fx
+- **Parent**: amos-c07-econ-finance-master
+- **Epistemic class**: SOURCE_CLAIM
+- **Files**: 10
+- **Size**: 27,222 bytes
+- **SHA-256**: `0ee074564eb2fd68...`
 
 ### amos-genetic-stability-auditor
-- **Description**: Genetic Stability Auditor — audit and repair capability. Use when auditing, failure analysis, gap di...
+- **Description**: Genetic Stability Auditor — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,978 bytes
-- **SHA-256**: `832f77d763607223...`
+- **Size**: 19,444 bytes
+- **SHA-256**: `3f6c15de0299ec9c...`
 
 ### amos-ghost-code-symbolic-execution-rscf
-- **Description**: Ghost Code Symbolic Execution — formal verification capability. Use when formal verification, symbol...
+- **Description**: Ghost Code Symbolic Execution — formal verification capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,378 bytes
-- **SHA-256**: `d5fefad92f7d17be...`
+- **Size**: 24,817 bytes
+- **SHA-256**: `917b03f05c5db324...`
 
 ### amos-github-rscf-ingestion
-- **Description**: Github Rscf Ingestion — technology and engineering capability. Use when software development, engine...
+- **Description**: Github Rscf Ingestion — technology and engineering capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,330 bytes
-- **SHA-256**: `3ad534b5e6bca8d6...`
+- **Size**: 21,768 bytes
+- **SHA-256**: `114f4046a55730c4...`
 
 ### amos-goal-plan-action-alignment-rscf
-- **Description**: Goal Plan Action Alignment — RSCF epistemic capability. Use when classifying claims by epistemic sta...
+- **Description**: Goal Plan Action Alignment — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,845 bytes
-- **SHA-256**: `5b28a0ddb47ce7bb...`
+- **Size**: 27,286 bytes
+- **SHA-256**: `5ea81711fc95212b...`
 
 ### amos-governed-executable-knowledge-repair-rscf
-- **Description**: Governed Executable Knowledge Repair — audit and repair capability. Use when auditing, failure analy...
+- **Description**: Governed Executable Knowledge Repair — audit and repair capability. Use...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,280 bytes
-- **SHA-256**: `ec31a5833463d6e2...`
+- **Size**: 26,586 bytes
+- **SHA-256**: `fe55829883e8ebb9...`
 
 ### amos-gradient-rscf-architecture
-- **Description**: Gradient Rscf Architecture — RSCF epistemic capability. Use when classifying claims by epistemic sta...
+- **Description**: Gradient Rscf Architecture — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,351 bytes
-- **SHA-256**: `b1620eb7e3e7cb19...`
+- **Size**: 26,792 bytes
+- **SHA-256**: `98d9fd1e9571d443...`
 
 ### amos-growth-graph
-- **Description**: Growth Graph — society and culture capability. Use when social analysis, cultural reasoning, or anth...
+- **Description**: Growth Graph — society and culture capability. Use when social analysis,...
 - **Version**: 1.1.0
 - **Domain**: c06
 - **Parent**: amos-c06-society-culture-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,693 bytes
-- **SHA-256**: `20f07779f98b77c4...`
+- **Size**: 27,268 bytes
+- **SHA-256**: `70275393262d9d9a...`
 
 ### amos-heritage-decision-intelligence
-- **Description**: Heritage Decision Intelligence — society and culture capability. Use when social analysis, cultural ...
+- **Description**: Heritage Decision Intelligence — society and culture capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c06
 - **Parent**: amos-c06-society-culture-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,727 bytes
-- **SHA-256**: `f0aeefc0c8e9b808...`
+- **Size**: 27,168 bytes
+- **SHA-256**: `5eed16752185e385...`
 
 ### amos-heterogeneous-exploration-cohort-rscf
-- **Description**: Heterogeneous Exploration Cohort — RSCF epistemic capability. Use when classifying claims by epistem...
+- **Description**: Heterogeneous Exploration Cohort — RSCF epistemic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,185 bytes
-- **SHA-256**: `e8973f3d83c562c9...`
+- **Size**: 24,626 bytes
+- **SHA-256**: `24c4e4a1df10a8c6...`
 
 ### amos-hierarchical-stack-orchestration-rscf
-- **Description**: Hierarchical Stack Orchestration — RSCF epistemic capability. Use when classifying claims by epistem...
+- **Description**: Hierarchical Stack Orchestration — RSCF epistemic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,466 bytes
-- **SHA-256**: `50b8b61f1535bd36...`
+- **Size**: 26,921 bytes
+- **SHA-256**: `9d4053576d431efd...`
 
 ### amos-hourglass-induction-rscf
-- **Description**: Hourglass Induction — RSCF epistemic capability. Use when classifying claims by epistemic state, val...
+- **Description**: Hourglass Induction — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,293 bytes
-- **SHA-256**: `dea94d3ef9eabdbc...`
+- **Size**: 26,734 bytes
+- **SHA-256**: `2550d805852d6193...`
 
 ### amos-human-biology-fractal-rscf-engine
-- **Description**: Human Biology Fractal — fractal systems capability. Use when fractal analysis, scale reasoning, or s...
+- **Description**: Human Biology Fractal — fractal systems capability. Use when fractal...
 - **Version**: 1.1.0
 - **Domain**: fractal
 - **Parent**: amos-fractal-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,895 bytes
-- **SHA-256**: `6cd677f45025d67e...`
+- **Size**: 24,335 bytes
+- **SHA-256**: `a80978b4918ce444...`
 
 ### amos-human-state-ontology-mapper
-- **Description**: Human State Ontology Mapper — canon and universe capability. Use when canon reasoning, universe-leve...
+- **Description**: Human State Ontology Mapper — canon and universe capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,968 bytes
-- **SHA-256**: `be8664afd38902e5...`
+- **Size**: 23,438 bytes
+- **SHA-256**: `aa917573617bd000...`
 
 ### amos-information-boundary-governor
-- **Description**: Information Boundary Governor — boundary and scope capability. Use when evaluating scope boundaries,...
+- **Description**: Information Boundary Governor — boundary and scope capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,025 bytes
-- **SHA-256**: `ded071ccce694dec...`
+- **Size**: 26,465 bytes
+- **SHA-256**: `0ce90284b4aff419...`
 
 ### amos-information-collapse-topology
-- **Description**: Information Collapse Topology — info capability. Use when executing the core capability within this ...
+- **Description**: Information Collapse Topology — info capability. Use when executing the...
 - **Version**: 1.1.0
 - **Domain**: info
 - **Parent**: amos-information-theory-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 19,877 bytes
-- **SHA-256**: `5093627d91896deb...`
+- **Size**: 20,315 bytes
+- **SHA-256**: `31dfd83842003315...`
 
 ### amos-information-exposure-control
-- **Description**: Information Exposure Control — info capability. Use when executing the core capability within this d...
+- **Description**: Information Exposure Control — info capability. Use when executing the...
 - **Version**: 1.1.0
 - **Domain**: info
 - **Parent**: amos-information-theory-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,392 bytes
-- **SHA-256**: `2c0555532c686cf8...`
+- **Size**: 26,831 bytes
+- **SHA-256**: `d6da71c01d975911...`
 
 ### amos-information-geometry-mapper
-- **Description**: Information Geometry Mapper — info capability. Use when executing the core capability within this do...
+- **Description**: Information Geometry Mapper — info capability. Use when executing the...
 - **Version**: 1.1.0
 - **Domain**: info
 - **Parent**: amos-information-theory-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,227 bytes
-- **SHA-256**: `a3e2c9a0b9075a4d...`
+- **Size**: 23,666 bytes
+- **SHA-256**: `931169d92f964723...`
 
 ### amos-information-operator-engine
-- **Description**: Information Operator Engine — info capability. Use when executing the core capability within this do...
+- **Description**: Information Operator Engine — info capability. Use when executing the...
 - **Version**: 1.1.0
 - **Domain**: info
 - **Parent**: amos-information-theory-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,428 bytes
-- **SHA-256**: `cff03b466bba93e2...`
+- **Size**: 26,867 bytes
+- **SHA-256**: `c1f5ef9e1e87f561...`
 
 ### amos-information-theory-master
-- **Description**: AMOS Information Theory — entropy, complexity, information boundaries, information collapse topology...
+- **Description**: AMOS Information Theory — entropy, complexity, information boundaries,...
 - **Version**: 1.1.0
 - **Domain**: information
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 18
-- **Size**: 67,190 bytes
-- **SHA-256**: `40b58e0c38358b7c...`
+- **Size**: 68,684 bytes
+- **SHA-256**: `287e2e192f20efc2...`
 
 ### amos-infrastructure-control-plane
-- **Description**: Infrastructure Control Plane — technology and engineering capability. Use when software development,...
+- **Description**: Infrastructure Control Plane — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,084 bytes
-- **SHA-256**: `5d48ae57199a76af...`
+- **Size**: 25,527 bytes
+- **SHA-256**: `42071dd486a24b78...`
 
 ### amos-instinct-pattern-governor
-- **Description**: Instinct Pattern Governor — mind and behavior capability. Use when psychological analysis, behaviora...
+- **Description**: Instinct Pattern Governor — mind and behavior capability. Use when psychological...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,098 bytes
-- **SHA-256**: `1efce8662379d02b...`
+- **Size**: 23,557 bytes
+- **SHA-256**: `4fc07f81c44b8e70...`
 
 ### amos-interactive-evaluation-design-rscf
-- **Description**: Interactive Evaluation Design — technology and engineering capability. Use when software development...
+- **Description**: Interactive Evaluation Design — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,922 bytes
-- **SHA-256**: `d71a145c369b4a00...`
+- **Size**: 27,375 bytes
+- **SHA-256**: `4bc392cf12688575...`
 
 ### amos-interprocedural-callgraph-rscf
-- **Description**: Interprocedural Callgraph — technology and engineering capability. Use when software development, en...
+- **Description**: Interprocedural Callgraph — technology and engineering capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,706 bytes
-- **SHA-256**: `85b783eb15118f9b...`
+- **Size**: 24,147 bytes
+- **SHA-256**: `741d2aa06f6446c9...`
 
 ### amos-invariant-tensor-kernel
-- **Description**: Invariant Tensor Kernel — formal verification capability. Use when formal verification, symbolic exe...
+- **Description**: Invariant Tensor Kernel — formal verification capability. Use when formal...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,805 bytes
-- **SHA-256**: `6f2631ba103e700b...`
+- **Size**: 26,279 bytes
+- **SHA-256**: `7210083c2e00b206...`
 
 ### amos-knowledge-epistemology-rscf-engine
-- **Description**: Knowledge Epistemology — knowledge research capability. Use when knowledge management, research, or ...
+- **Description**: Knowledge Epistemology — knowledge research capability. Use when knowledge...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,181 bytes
-- **SHA-256**: `e003adc848b7a768...`
+- **Size**: 26,519 bytes
+- **SHA-256**: `2e1c1b20cfb0dd7c...`
 
 ### amos-knowledge-harvest-runtime
-- **Description**: Knowledge Harvest Runtime — knowledge research capability. Use when knowledge management, research, ...
+- **Description**: Knowledge Harvest Runtime — knowledge research capability. Use when knowledge...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,775 bytes
-- **SHA-256**: `869a1b35c686573c...`
+- **Size**: 25,215 bytes
+- **SHA-256**: `058d0392bcd77320...`
 
 ### amos-knowledge-research-master
-- **Description**: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation...
+- **Description**: AMOS Knowledge & Research — Obsidian vault integration, arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 26
-- **Size**: 72,408 bytes
-- **SHA-256**: `f10acb287ce9808b...`
+- **Size**: 76,444 bytes
+- **SHA-256**: `0299190a0d0434a8...`
 
 ### amos-language-equation-rscf-engine
-- **Description**: Language Equation — society and culture capability. Use when social analysis, cultural reasoning, or...
+- **Description**: Language Equation — society and culture capability. Use when social analysis,...
 - **Version**: 1.1.0
 - **Domain**: c06
 - **Parent**: amos-c06-society-culture-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,644 bytes
-- **SHA-256**: `88753c7c4010149a...`
+- **Size**: 26,097 bytes
+- **SHA-256**: `074f4393593c7da9...`
 
 ### amos-law-hierarchy-resolver
-- **Description**: Law Hierarchy Resolver — meta logic capability. Use when logic reasoning, decomposition, or meta-law...
+- **Description**: Law Hierarchy Resolver — meta logic capability. Use when logic reasoning,...
 - **Version**: 1.1.0
 - **Domain**: c01
 - **Parent**: amos-c01-meta-logic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,317 bytes
-- **SHA-256**: `e95b51aa09e14f0c...`
+- **Size**: 26,755 bytes
+- **SHA-256**: `de8cda581d000a72...`
 
 ### amos-law-stack-enforcement
-- **Description**: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of La...
+- **Description**: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 11
-- **Size**: 15,194 bytes
-- **SHA-256**: `932d64e401f213df...`
+- **Size**: 15,874 bytes
+- **SHA-256**: `ac2df039ea3a9cd3...`
 
 ### amos-learning-memory-knowledge-feedback-governor
-- **Description**: Learning-Memory-Knowledge Feedback Governor — cross-domain capability bridging C05 Mind & Behavior (...
+- **Description**: Learning-Memory-Knowledge Feedback Governor — cross-domain capability...
 - **Version**: 1.1.0
 - **Domain**: cross-domain (C05 → Memory → Knowledge)
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 13
-- **Size**: 40,432 bytes
-- **SHA-256**: `628e1cb9325fd9f0...`
+- **Size**: 41,146 bytes
+- **SHA-256**: `0a47359ae1f9ccc4...`
 
 ### amos-llm-judge-bias-geometry-rscf
-- **Description**: Llm Judge Bias Geometry — RSCF epistemic capability. Use when classifying claims by epistemic state,...
+- **Description**: Llm Judge Bias Geometry — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,586 bytes
-- **SHA-256**: `033305493d84b6d4...`
+- **Size**: 24,027 bytes
+- **SHA-256**: `37c194ea16faf4fa...`
 
 ### amos-llm-wiki
-- **Description**: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained markdown wiki inside ...
+- **Description**: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: AMOS_MODEL
 - **Files**: 8
-- **Size**: 9,092 bytes
-- **SHA-256**: `9a46547e360fc6ea...`
+- **Size**: 9,213 bytes
+- **SHA-256**: `2cb3225a25b5ceca...`
 
 ### amos-long-context-ci-repository-reasoning-rscf
-- **Description**: Long Context Ci Repository Reasoning — boundary and scope capability. Use when evaluating scope boun...
+- **Description**: Long Context Ci Repository Reasoning — boundary and scope capability....
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,255 bytes
-- **SHA-256**: `77402a142a2081dc...`
+- **Size**: 27,786 bytes
+- **SHA-256**: `967287d9812aa07a...`
 
 ### amos-managed-autonomy-escalation-rscf
-- **Description**: Managed Autonomy Escalation — RSCF epistemic capability. Use when classifying claims by epistemic st...
+- **Description**: Managed Autonomy Escalation — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,413 bytes
-- **SHA-256**: `ef5a3090e3e2539d...`
+- **Size**: 26,854 bytes
+- **SHA-256**: `dc8c32ba1953a86e...`
 
 ### amos-mark-operator-rscf-engine
-- **Description**: Mark Operator — RSCF epistemic capability. Use when classifying claims by epistemic state, validatin...
+- **Description**: Mark Operator — RSCF epistemic capability. Use when classifying claims...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,219 bytes
-- **SHA-256**: `8e29ed78e66f747f...`
+- **Size**: 25,678 bytes
+- **SHA-256**: `494f97a42dd43acd...`
 
 ### amos-mathematical-rigor-rscf-kernel
-- **Description**: Mathematical Rigor Rscf Kernel — formal verification capability. Use when formal verification, symbo...
+- **Description**: Mathematical Rigor Rscf Kernel — formal verification capability. Use...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,633 bytes
-- **SHA-256**: `171797feea687afc...`
+- **Size**: 27,070 bytes
+- **SHA-256**: `2f74c01a6d4bad54...`
+
+### amos-mdformat-obsidian
+- **Description**: AMOS mdformat-obsidian — Obsidian vault Markdown formatting using mdformat-obsidian and related plug...
+- **Version**: 1.1.0
+- **Domain**: knowledge
+- **Parent**: amos-knowledge-research-master
+- **Epistemic class**: AMOS_MODEL
+- **Files**: 9
+- **Size**: 35,457 bytes
+- **SHA-256**: `34a65f63fb42fb61...`
 
 ### amos-measurement-integrity-auditor
-- **Description**: Measurement Integrity Auditor — audit and repair capability. Use when auditing, failure analysis, ga...
+- **Description**: Measurement Integrity Auditor — audit and repair capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,595 bytes
-- **SHA-256**: `64189bfb3cd56340...`
+- **Size**: 27,048 bytes
+- **SHA-256**: `b408d1dc5a745923...`
 
 ### amos-mechmath-research-orchestration-rscf
-- **Description**: Mechmath Research Orchestration — knowledge research capability. Use when knowledge management, rese...
+- **Description**: Mechmath Research Orchestration — knowledge research capability. Use...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,616 bytes
-- **SHA-256**: `29563ea895cc8989...`
+- **Size**: 27,057 bytes
+- **SHA-256**: `e1613438f9f35f39...`
 
 ### amos-memory-conflict-governor
-- **Description**: Memory Conflict Governor — memory systems capability. Use when memory management, context continuity...
+- **Description**: Memory Conflict Governor — memory systems capability. Use when memory...
 - **Version**: 1.1.0
 - **Domain**: memory
 - **Parent**: amos-memory-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,829 bytes
-- **SHA-256**: `06008a3eea5880ec...`
+- **Size**: 27,427 bytes
+- **SHA-256**: `8ff8fa3e0cc517e1...`
 
 ### amos-memory-execution-graph-attribution-rscf
-- **Description**: Memory Execution Graph Attribution — memory systems capability. Use when memory management, context ...
+- **Description**: Memory Execution Graph Attribution — memory systems capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: memory
 - **Parent**: amos-memory-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,970 bytes
-- **SHA-256**: `c2259aaa3f1f0f35...`
+- **Size**: 27,547 bytes
+- **SHA-256**: `1d6df4b501b909d2...`
 
 ### amos-memory-immune-system
-- **Description**: Memory Immune System — memory systems capability. Use when memory management, context continuity, or...
+- **Description**: Memory Immune System — memory systems capability. Use when memory management,...
 - **Version**: 1.1.0
 - **Domain**: memory
 - **Parent**: amos-memory-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,738 bytes
-- **SHA-256**: `1191c19fb60add3a...`
+- **Size**: 27,336 bytes
+- **SHA-256**: `e6edf12463adf1a3...`
 
 ### amos-memory-systems-master
-- **Description**: AMOS Memory Systems — 3 memory types, context compaction, memory conflict resolution, memory immune ...
+- **Description**: AMOS Memory Systems — 3 memory types, context compaction, memory conflict...
 - **Version**: 1.1.0
 - **Domain**: memory
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 18
-- **Size**: 40,995 bytes
-- **SHA-256**: `de8ec02c13b7dae3...`
+- **Size**: 42,837 bytes
+- **SHA-256**: `51320eefab518208...`
 
 ### amos-metacognitive-confidence-auditor
-- **Description**: Metacognitive Confidence Auditor — audit and repair capability. Use when auditing, failure analysis,...
+- **Description**: Metacognitive Confidence Auditor — audit and repair capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,101 bytes
-- **SHA-256**: `c50fd92746ba8ba6...`
+- **Size**: 23,542 bytes
+- **SHA-256**: `c8f259a8447c7990...`
 
 ### amos-morphogenesis-mapper
-- **Description**: Morphogenesis Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscie...
+- **Description**: Morphogenesis Mapper — biology and neuroscience capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c04
 - **Parent**: amos-c04-bio-neuro-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,958 bytes
-- **SHA-256**: `6e04e1b21d891c7e...`
+- **Size**: 27,413 bytes
+- **SHA-256**: `2fc3a76f245f398c...`
 
 ### amos-multimodal-perception-layer
-- **Description**: Multimodal Perception Layer — mind and behavior capability. Use when psychological analysis, behavio...
+- **Description**: Multimodal Perception Layer — mind and behavior capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,981 bytes
-- **SHA-256**: `5d5e669ad7dd7e75...`
+- **Size**: 26,434 bytes
+- **SHA-256**: `4527bab90577bf15...`
 
 ### amos-narrative-integrity-governor
-- **Description**: Narrative Integrity Governor — mind and behavior capability. Use when psychological analysis, behavi...
+- **Description**: Narrative Integrity Governor — mind and behavior capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c05
 - **Parent**: amos-c05-mind-behavior-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,547 bytes
-- **SHA-256**: `33c94a0d3ae5b1c0...`
+- **Size**: 27,000 bytes
+- **SHA-256**: `094bc8f16a7ed536...`
 
 ### amos-natural-evidence-trail-reasoning-rscf
-- **Description**: Natural Evidence Trail Reasoning — RSCF epistemic capability. Use when classifying claims by epistem...
+- **Description**: Natural Evidence Trail Reasoning — RSCF epistemic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,482 bytes
-- **SHA-256**: `a410add158a19d99...`
+- **Size**: 25,965 bytes
+- **SHA-256**: `6767f3fbc3644b99...`
 
 ### amos-neural-computation-mapper
-- **Description**: Neural Computation Mapper — biology and neuroscience capability. Use when biological reasoning, neur...
+- **Description**: Neural Computation Mapper — biology and neuroscience capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c04
 - **Parent**: amos-c04-bio-neuro-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,431 bytes
-- **SHA-256**: `26e29449aa0be19c...`
+- **Size**: 25,890 bytes
+- **SHA-256**: `0a1dd823b7ea2057...`
 
 ### amos-neural-ode-dynamics-rscf-engine
-- **Description**: Neural Ode Dynamics — biology and neuroscience capability. Use when biological reasoning, neuroscien...
+- **Description**: Neural Ode Dynamics — biology and neuroscience capability. Use when biological...
 - **Version**: 1.1.0
 - **Domain**: c04
 - **Parent**: amos-c04-bio-neuro-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,824 bytes
-- **SHA-256**: `416ba33074b665d1...`
+- **Size**: 24,282 bytes
+- **SHA-256**: `962f0bfda2c55269...`
 
 ### amos-observability-driven-harness-evolution-rscf
-- **Description**: Observability Driven Harness Evolution — technology and engineering capability. Use when software de...
+- **Description**: Observability Driven Harness Evolution — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,224 bytes
-- **SHA-256**: `45e2056becc257ea...`
+- **Size**: 27,473 bytes
+- **SHA-256**: `9afc3e50b00ca783...`
 
 ### amos-ontology-compiler
-- **Description**: Ontology Compiler — canon and universe capability. Use when canon reasoning, universe-level analysis...
+- **Description**: Ontology Compiler — canon and universe capability. Use when canon reasoning,...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,329 bytes
-- **SHA-256**: `38647708262c7771...`
+- **Size**: 26,756 bytes
+- **SHA-256**: `b57315eab883c638...`
 
 ### amos-organism-os
-- **Description**: Organism Os — canon and universe capability. Use when canon reasoning, universe-level analysis, or i...
+- **Description**: Organism Os — canon and universe capability. Use when canon reasoning,...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 20,636 bytes
-- **SHA-256**: `a2c780cabaeb1621...`
+- **Size**: 21,083 bytes
+- **SHA-256**: `ec165ac03ba0c5e8...`
 
 ### amos-os-kernel
-- **Description**: Os Kernel — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive...
+- **Description**: Os Kernel — runtime and OS capability. Use when runtime reasoning, OS...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,294 bytes
-- **SHA-256**: `8df23ed6264028ab...`
+- **Size**: 25,768 bytes
+- **SHA-256**: `fe572d11f50af09d...`
 
 ### amos-os-runtime-master
 - **Description**: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Obs...
@@ -2514,288 +2514,288 @@ Total size: 11,702,299 bytes (11.2 MB)
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 60
-- **Size**: 258,781 bytes
-- **SHA-256**: `3957f275eedc9610...`
+- **Size**: 267,229 bytes
+- **SHA-256**: `82d566970db7f784...`
 
 ### amos-paper-rscf-compiler
-- **Description**: Paper Rscf Compiler — technology and engineering capability. Use when software development, engineer...
+- **Description**: Paper Rscf Compiler — technology and engineering capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,387 bytes
-- **SHA-256**: `83f1639bf77ff4cd...`
+- **Size**: 23,828 bytes
+- **SHA-256**: `19e4ea5b46bcb290...`
 
 ### amos-persistence-dissolution-rscf-dynamics
-- **Description**: Persistence Dissolution Rscf Dynamics — RSCF epistemic capability. Use when classifying claims by ep...
+- **Description**: Persistence Dissolution Rscf Dynamics — RSCF epistemic capability. Use...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,137 bytes
-- **SHA-256**: `9e38eb87bcd0ab89...`
+- **Size**: 27,594 bytes
+- **SHA-256**: `86c78ec79f55d68e...`
 
 ### amos-portable-agent-authorization-rscf
-- **Description**: Portable Agent Authorization — agent systems capability. Use when agent design, delegation reasoning...
+- **Description**: Portable Agent Authorization — agent systems capability. Use when agent...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: amos-agent-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,272 bytes
-- **SHA-256**: `f8d130c918bc44b7...`
+- **Size**: 26,713 bytes
+- **SHA-256**: `f7b38c7a6ab89877...`
 
 ### amos-prediction-governance
-- **Description**: Prediction Governance — runtime and OS capability. Use when runtime reasoning, OS kernel operations,...
+- **Description**: Prediction Governance — runtime and OS capability. Use when runtime reasoning,...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,705 bytes
-- **SHA-256**: `899847a88b1011e0...`
+- **Size**: 27,142 bytes
+- **SHA-256**: `f87212fe7d39a602...`
 
 ### amos-principal-trust-governance-rscf
-- **Description**: Principal Trust Governance — security and safety capability. Use when security analysis, safety veri...
+- **Description**: Principal Trust Governance — security and safety capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: security
 - **Parent**: amos-security-safety-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,137 bytes
-- **SHA-256**: `ba14697613afe09d...`
+- **Size**: 26,578 bytes
+- **SHA-256**: `5df51b0c36f6c9e3...`
 
 ### amos-procedural-repository-retrieval-rscf
-- **Description**: Procedural Repository Retrieval — technology and engineering capability. Use when software developme...
+- **Description**: Procedural Repository Retrieval — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,926 bytes
-- **SHA-256**: `e59bb347a4ab4f12...`
+- **Size**: 26,384 bytes
+- **SHA-256**: `e0b8323f69eadd16...`
 
 ### amos-process-compliance-auditor-rscf
-- **Description**: Process Compliance Auditor — audit and repair capability. Use when auditing, failure analysis, gap d...
+- **Description**: Process Compliance Auditor — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,705 bytes
-- **SHA-256**: `da5a78dd0ceb3ffd...`
+- **Size**: 24,146 bytes
+- **SHA-256**: `ee17984b1926959b...`
 
 ### amos-program-slicing-taint-rscf
-- **Description**: Program Slicing Taint — technology and engineering capability. Use when software development, engine...
+- **Description**: Program Slicing Taint — technology and engineering capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,261 bytes
-- **SHA-256**: `e5c8638e7e619351...`
+- **Size**: 23,699 bytes
+- **SHA-256**: `e6e99cc1f046633f...`
 
 ### amos-prompt-domain-control-rscf-engine
-- **Description**: Prompt Domain Control — runtime and OS capability. Use when runtime reasoning, OS kernel operations,...
+- **Description**: Prompt Domain Control — runtime and OS capability. Use when runtime reasoning,...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,383 bytes
-- **SHA-256**: `637ecd98d9ab4f34...`
+- **Size**: 23,822 bytes
+- **SHA-256**: `dcfddca6ccdb5db6...`
 
 ### amos-proof-loss-diagnostic-reconstruction-rscf
-- **Description**: Proof Loss Diagnostic Reconstruction — formal verification capability. Use when formal verification,...
+- **Description**: Proof Loss Diagnostic Reconstruction — formal verification capability....
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,739 bytes
-- **SHA-256**: `87d77451f5a522c7...`
+- **Size**: 26,332 bytes
+- **SHA-256**: `591860ce0ddfcae0...`
 
 ### amos-provenance-sybil-hardening-rscf-engine
-- **Description**: Provenance Sybil Hardening — security and safety capability. Use when security analysis, safety veri...
+- **Description**: Provenance Sybil Hardening — security and safety capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: security
 - **Parent**: amos-security-safety-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,313 bytes
-- **SHA-256**: `465e336cf83ab1ca...`
+- **Size**: 18,764 bytes
+- **SHA-256**: `39437af339bfb060...`
 
 ### amos-provenance-trust-firewall
-- **Description**: Provenance Trust Firewall — security and safety capability. Use when security analysis, safety verif...
+- **Description**: Provenance Trust Firewall — security and safety capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: security
 - **Parent**: amos-security-safety-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,021 bytes
-- **SHA-256**: `86d42d1625c4b942...`
+- **Size**: 25,461 bytes
+- **SHA-256**: `ffdf9555d30f98b8...`
 
 ### amos-qls-qic-substrate-mapper
-- **Description**: Qls Qic Substrate Mapper — runtime and OS capability. Use when runtime reasoning, OS kernel operatio...
+- **Description**: Qls Qic Substrate Mapper — runtime and OS capability. Use when runtime...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,907 bytes
-- **SHA-256**: `9d642bb93e6c3501...`
+- **Size**: 27,484 bytes
+- **SHA-256**: `45466a329fb04c95...`
 
 ### amos-qls-substrate
-- **Description**: Qls Substrate — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adap...
+- **Description**: Qls Substrate — runtime and OS capability. Use when runtime reasoning,...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,368 bytes
-- **SHA-256**: `443b2a9de7a3df62...`
+- **Size**: 26,807 bytes
+- **SHA-256**: `42e47425c19572d6...`
 
 ### amos-reality-meta-law-auditor
-- **Description**: Reality Meta Law Auditor — audit and repair capability. Use when auditing, failure analysis, gap dis...
+- **Description**: Reality Meta Law Auditor — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,724 bytes
-- **SHA-256**: `41fb70786da669c8...`
+- **Size**: 27,165 bytes
+- **SHA-256**: `406a70a56d3aa88c...`
 
 ### amos-reality-simulation-distinction
-- **Description**: Reality Simulation Distinction — canon and universe capability. Use when canon reasoning, universe-l...
+- **Description**: Reality Simulation Distinction — canon and universe capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,749 bytes
-- **SHA-256**: `b3909d043c813f9b...`
+- **Size**: 27,189 bytes
+- **SHA-256**: `b1077f37d118a506...`
 
 ### amos-recursive-observer-contamination
-- **Description**: Recursive Observer Contamination — runtime and OS capability. Use when runtime reasoning, OS kernel ...
+- **Description**: Recursive Observer Contamination — runtime and OS capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,897 bytes
-- **SHA-256**: `8f4cba85426d59f4...`
+- **Size**: 25,337 bytes
+- **SHA-256**: `3c9c037ea2573690...`
 
 ### amos-regulated-clinical-agent-evolution-rscf
-- **Description**: Regulated Clinical Agent Evolution — technology and engineering capability. Use when software develo...
+- **Description**: Regulated Clinical Agent Evolution — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,052 bytes
-- **SHA-256**: `f4871d2aead8ed30...`
+- **Size**: 27,491 bytes
+- **SHA-256**: `76ae264970acad1d...`
 
 ### amos-repair-allocation-optimizer
-- **Description**: Repair Allocation Optimizer — audit and repair capability. Use when auditing, failure analysis, gap ...
+- **Description**: Repair Allocation Optimizer — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,043 bytes
-- **SHA-256**: `12f65f44eac9c4b5...`
+- **Size**: 25,484 bytes
+- **SHA-256**: `757b063d6822a660...`
 
 ### amos-repair-harm-auditor
-- **Description**: Repair Harm Auditor — audit and repair capability. Use when auditing, failure analysis, gap discover...
+- **Description**: Repair Harm Auditor — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,795 bytes
-- **SHA-256**: `230395f0d1bd64af...`
+- **Size**: 25,236 bytes
+- **SHA-256**: `628f99068eb3ebaa...`
 
 ### amos-repair-priority-governor
-- **Description**: Repair Priority Governor — audit and repair capability. Use when auditing, failure analysis, gap dis...
+- **Description**: Repair Priority Governor — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,956 bytes
-- **SHA-256**: `28942cd15c4a59a9...`
+- **Size**: 25,397 bytes
+- **SHA-256**: `157bc027ce5ca2f1...`
 
 ### amos-repair-substrate-capture-resistance-rscf
-- **Description**: Repair Substrate Capture Resistance — audit and repair capability. Use when auditing, failure analys...
+- **Description**: Repair Substrate Capture Resistance — audit and repair capability. Use...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,136 bytes
-- **SHA-256**: `4b4b9f67bf85dba5...`
+- **Size**: 27,623 bytes
+- **SHA-256**: `0e71e6db506f7fc2...`
 
 ### amos-repository-ast-analysis-rscf
-- **Description**: Repository Ast Analysis — technology and engineering capability. Use when software development, engi...
+- **Description**: Repository Ast Analysis — technology and engineering capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,056 bytes
-- **SHA-256**: `d1ac97eb63f95e23...`
+- **Size**: 27,504 bytes
+- **SHA-256**: `acc26a7e20f38dd5...`
 
 ### amos-repository-knowledge-acquisition-rscf
-- **Description**: Repository Knowledge Acquisition — technology and engineering capability. Use when software developm...
+- **Description**: Repository Knowledge Acquisition — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,187 bytes
-- **SHA-256**: `dc8ebc873602a0e1...`
+- **Size**: 27,593 bytes
+- **SHA-256**: `8df2077c80b4cb01...`
 
 ### amos-representation-aware-bug-localization-rscf
-- **Description**: Representation Aware Bug Localization — technology and engineering capability. Use when software dev...
+- **Description**: Representation Aware Bug Localization — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,397 bytes
-- **SHA-256**: `352c1c2ef8bef480...`
+- **Size**: 26,844 bytes
+- **SHA-256**: `c9aa3df7710e2b9e...`
 
 ### amos-research-agent
-- **Description**: Research Agent — knowledge research capability. Use when knowledge management, research, or Obsidian...
+- **Description**: Research Agent — knowledge research capability. Use when knowledge management,...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,785 bytes
-- **SHA-256**: `fc7fca5dd9eeb9db...`
+- **Size**: 24,514 bytes
+- **SHA-256**: `d00f8673f17f842f...`
 
 ### amos-retrieval-conditioned-orchestration-budget-rscf
-- **Description**: Retrieval Conditioned Orchestration Budget — knowledge research capability. Use when knowledge manag...
+- **Description**: Retrieval Conditioned Orchestration Budget — knowledge research capability....
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,514 bytes
-- **SHA-256**: `072db5d734ac6601...`
+- **Size**: 27,858 bytes
+- **SHA-256**: `93aeb8eba6c3a71f...`
 
 ### amos-risk-constraint-governor
-- **Description**: Risk Constraint Governor — organization, law and policy capability. Use when governance design, lega...
+- **Description**: Risk Constraint Governor — organization, law and policy capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c09
 - **Parent**: amos-c09-org-law-policy-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,664 bytes
-- **SHA-256**: `e0b9727cf763780c...`
+- **Size**: 27,104 bytes
+- **SHA-256**: `0ad53de5c06e0d3f...`
 
 ### amos-rscf-epistemic-master
 - **Description**: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/con...
@@ -2804,1111 +2804,1105 @@ Total size: 11,702,299 bytes (11.2 MB)
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 21
-- **Size**: 49,402 bytes
-- **SHA-256**: `256b1c5484fb70a1...`
+- **Size**: 51,595 bytes
+- **SHA-256**: `db464be307356d88...`
 
 ### amos-runtime-benchmarking
-- **Description**: Runtime Benchmarking — audit and repair capability. Use when auditing, failure analysis, gap discove...
+- **Description**: Runtime Benchmarking — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,478 bytes
-- **SHA-256**: `b5582607b96fa04d...`
+- **Size**: 26,917 bytes
+- **SHA-256**: `22ae9464d96f25fd...`
 
 ### amos-runtime-context-reuse-rscf
-- **Description**: Runtime Context Reuse — boundary and scope capability. Use when evaluating scope boundaries, context...
+- **Description**: Runtime Context Reuse — boundary and scope capability. Use when evaluating...
 - **Version**: 1.1.0
 - **Domain**: boundary
 - **Parent**: amos-boundary-scope-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,367 bytes
-- **SHA-256**: `9ee797f84deef30e...`
+- **Size**: 26,911 bytes
+- **SHA-256**: `09b5b8ba2aef0f39...`
 
 ### amos-sae-benchmark-reliability-rscf-engine
-- **Description**: Sae Benchmark Reliability — audit and repair capability. Use when auditing, failure analysis, gap di...
+- **Description**: Sae Benchmark Reliability — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,647 bytes
-- **SHA-256**: `623668078b00e645...`
+- **Size**: 22,095 bytes
+- **SHA-256**: `51ac8e2537860f6f...`
 
 ### amos-sae-semantic-transport-rscf-engine
-- **Description**: Sae Semantic Transport — RSCF epistemic capability. Use when classifying claims by epistemic state, ...
+- **Description**: Sae Semantic Transport — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,808 bytes
-- **SHA-256**: `93552e038ca11fe4...`
+- **Size**: 27,248 bytes
+- **SHA-256**: `60ce11beeaddc208...`
 
 ### amos-scientific-assumption-semantic-differencing-rscf
-- **Description**: Scientific Assumption Semantic Differencing — RSCF epistemic capability. Use when classifying claims...
+- **Description**: Scientific Assumption Semantic Differencing — RSCF epistemic capability....
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,392 bytes
-- **SHA-256**: `19be40a78287fca3...`
+- **Size**: 27,715 bytes
+- **SHA-256**: `1a584ea44dca3996...`
 
 ### amos-scientific-closure-governor-rscf
-- **Description**: Scientific Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual ...
+- **Description**: Scientific Closure Governor — causal reasoning capability. Use when causal...
 - **Version**: 1.1.0
 - **Domain**: causal
 - **Parent**: amos-causal-reasoning-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,239 bytes
-- **SHA-256**: `71e520ed5ebcc5ed...`
+- **Size**: 25,680 bytes
+- **SHA-256**: `8de1dfc554c2eccc...`
 
 ### amos-security-control-access-bridge-governor
-- **Description**: Security-Control-Access Bridge Governor — cross-domain capability bridging C09 Org-Law-Policy (polic...
+- **Description**: Security-Control-Access Bridge Governor — cross-domain capability bridging...
 - **Version**: 1.1.0
 - **Domain**: cross-domain (C09 → C10 → Runtime)
 - **Parent**: amos-security-safety-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,139 bytes
-- **SHA-256**: `77948c44f2c761d5...`
+- **Size**: 25,594 bytes
+- **SHA-256**: `aec86e5a80922a21...`
 
 ### amos-security-safety-master
-- **Description**: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift al...
+- **Description**: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls,...
 - **Version**: 1.1.0
 - **Domain**: security
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 39
-- **Size**: 125,836 bytes
-- **SHA-256**: `b0ad149ca9cb5fb6...`
+- **Size**: 131,784 bytes
+- **SHA-256**: `c9451606ba5f3a68...`
 
 ### amos-self-regulated-simulative-planning-rscf
-- **Description**: Self Regulated Simulative Planning — RSCF epistemic capability. Use when classifying claims by epist...
+- **Description**: Self Regulated Simulative Planning — RSCF epistemic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,805 bytes
-- **SHA-256**: `5d29dc8ab46f9fda...`
+- **Size**: 27,243 bytes
+- **SHA-256**: `e7aa07a8b9c86ef5...`
 
 ### amos-semantic-grounding-auditor
-- **Description**: Semantic Grounding Auditor — audit and repair capability. Use when auditing, failure analysis, gap d...
+- **Description**: Semantic Grounding Auditor — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,125 bytes
-- **SHA-256**: `2703bbf19322ec6d...`
+- **Size**: 23,566 bytes
+- **SHA-256**: `689c246ce2b04a4c...`
 
 ### amos-semantic-token-flow-firewall-rscf
-- **Description**: Semantic Token Flow Firewall — security and safety capability. Use when security analysis, safety ve...
+- **Description**: Semantic Token Flow Firewall — security and safety capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: security
 - **Parent**: amos-security-safety-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,000 bytes
-- **SHA-256**: `958960c8244ae21e...`
+- **Size**: 22,441 bytes
+- **SHA-256**: `59dbe38f2c5b106e...`
 
 ### amos-semantic-workflow-persistence-rscf
-- **Description**: Semantic Workflow Persistence — RSCF epistemic capability. Use when classifying claims by epistemic ...
+- **Description**: Semantic Workflow Persistence — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,927 bytes
-- **SHA-256**: `97d3afacff1eb1fa...`
+- **Size**: 27,398 bytes
+- **SHA-256**: `56b3cde21cef7f0e...`
 
 ### amos-sensory-map-integrator
-- **Description**: Sensory Map Integrator — biology and neuroscience capability. Use when biological reasoning, neurosc...
+- **Description**: Sensory Map Integrator — biology and neuroscience capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: c04
 - **Parent**: amos-c04-bio-neuro-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,924 bytes
-- **SHA-256**: `6044dd1be63db6df...`
+- **Size**: 27,365 bytes
+- **SHA-256**: `211c039c20d0f02f...`
 
 ### amos-session-control-plane
-- **Description**: Session Control Plane — runtime and OS capability. Use when runtime reasoning, OS kernel operations,...
+- **Description**: Session Control Plane — runtime and OS capability. Use when runtime reasoning,...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,128 bytes
-- **SHA-256**: `94d442642e3ff40a...`
+- **Size**: 26,569 bytes
+- **SHA-256**: `66584a8a88b8c2a3...`
 
 ### amos-skill-builder
-- **Description**: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Skills from capability gaps, sou...
+- **Description**: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Skills...
 - **Version**: 1.1.0
 - **Domain**: skill
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 14
-- **Size**: 29,080 bytes
-- **SHA-256**: `dfdcef81522e2008...`
+- **Size**: 30,091 bytes
+- **SHA-256**: `1fe95ae722c9f696...`
 
 ### amos-source-reading-rscf
-- **Description**: Source Reading — knowledge research capability. Use when knowledge management, research, or Obsidian...
+- **Description**: Source Reading — knowledge research capability. Use when knowledge management,...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,182 bytes
-- **SHA-256**: `f55745ae9bba625d...`
+- **Size**: 26,638 bytes
+- **SHA-256**: `84104751e1c19957...`
 
 ### amos-source-reading-rscf-engine
-- **Description**: Source Reading — knowledge research capability. Use when knowledge management, research, or Obsidian...
+- **Description**: Source Reading — knowledge research capability. Use when knowledge management,...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,385 bytes
-- **SHA-256**: `8b212f94da67aba8...`
+- **Size**: 26,841 bytes
+- **SHA-256**: `11091c348248dc18...`
 
 ### amos-ssa-ir-compiler-rscf
-- **Description**: Ssa Ir Compiler — technology and engineering capability. Use when software development, engineering ...
+- **Description**: Ssa Ir Compiler — technology and engineering capability. Use when software...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,416 bytes
-- **SHA-256**: `feb9729b00dcbde5...`
+- **Size**: 23,857 bytes
+- **SHA-256**: `adc6e12aa2459406...`
 
 ### amos-strict-fractal-equation-rscf-registry
-- **Description**: Strict Fractal Equation Rscf Registry — fractal systems capability. Use when fractal analysis, scale...
+- **Description**: Strict Fractal Equation Rscf Registry — fractal systems capability. Use...
 - **Version**: 1.1.0
 - **Domain**: fractal
 - **Parent**: amos-fractal-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,868 bytes
-- **SHA-256**: `6677c8ef01ec0488...`
+- **Size**: 27,227 bytes
+- **SHA-256**: `fc68f04f87eded32...`
 
 ### amos-structured-document-parsing-rscf
-- **Description**: Structured Document Parsing — technology and engineering capability. Use when software development, ...
+- **Description**: Structured Document Parsing — technology and engineering capability....
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,494 bytes
-- **SHA-256**: `0d3e25f19366e095...`
+- **Size**: 24,929 bytes
+- **SHA-256**: `68cd9547b2dd46ec...`
 
 ### amos-structured-execution-graph-rscf
-- **Description**: Structured Execution Graph — runtime and OS capability. Use when runtime reasoning, OS kernel operat...
+- **Description**: Structured Execution Graph — runtime and OS capability. Use when runtime...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 20,659 bytes
-- **SHA-256**: `866d7d5f0e71a0da...`
+- **Size**: 21,067 bytes
+- **SHA-256**: `9b9b08bf44c4d062...`
 
 ### amos-super-engines-master
-- **Description**: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity engine variants. Cogni...
+- **Description**: AMOS Super Engines — Super Mind OS, Omega Infinity Stack, ultra/mega/infinity...
 - **Version**: 1.1.0
 - **Domain**: super
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
-- **Files**: 43
-- **Size**: 204,040 bytes
-- **SHA-256**: `c76682a4c24d6bc2...`
+- **Files**: 42
+- **Size**: 205,723 bytes
+- **SHA-256**: `4f8895803f36bc1b...`
 
 ### amos-symbolic-path-reasoning-rscf
-- **Description**: Symbolic Path Reasoning — formal verification capability. Use when formal verification, symbolic exe...
+- **Description**: Symbolic Path Reasoning — formal verification capability. Use when formal...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,587 bytes
-- **SHA-256**: `06c2c9d6d65ea65f...`
+- **Size**: 27,088 bytes
+- **SHA-256**: `dc737de6fa8309d4...`
 
 ### amos-symbolic-translation-repair-rscf
-- **Description**: Symbolic Translation Repair — audit and repair capability. Use when auditing, failure analysis, gap ...
+- **Description**: Symbolic Translation Repair — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,999 bytes
-- **SHA-256**: `bda9c8e619ef9a89...`
+- **Size**: 27,456 bytes
+- **SHA-256**: `8ef7c54394baac33...`
 
 ### amos-system-completion-auditor
-- **Description**: System Completion Auditor — audit and repair capability. Use when auditing, failure analysis, gap di...
+- **Description**: System Completion Auditor — audit and repair capability. Use when auditing,...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,625 bytes
-- **SHA-256**: `7c3ecde72cc8101d...`
+- **Size**: 27,178 bytes
+- **SHA-256**: `d1bd416a9ca78b79...`
 
 ### amos-target-of-repair-intelligence
-- **Description**: Target Of Repair Intelligence — audit and repair capability. Use when auditing, failure analysis, ga...
+- **Description**: Target Of Repair Intelligence — audit and repair capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,242 bytes
-- **SHA-256**: `c3814c4d0d4cee06...`
+- **Size**: 26,680 bytes
+- **SHA-256**: `cc361ef8a012e477...`
 
 ### amos-temporal-multiscale-rscf-engine
-- **Description**: Temporal Multiscale — RSCF epistemic capability. Use when classifying claims by epistemic state, val...
+- **Description**: Temporal Multiscale — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,782 bytes
-- **SHA-256**: `3ad56c08faa77b8f...`
+- **Size**: 23,231 bytes
+- **SHA-256**: `e6b1db56c9ab28aa...`
 
 ### amos-tensor-accelerator-activity-rscf-engine
-- **Description**: Tensor Accelerator Activity — formal verification capability. Use when formal verification, symbolic...
+- **Description**: Tensor Accelerator Activity — formal verification capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,019 bytes
-- **SHA-256**: `90bf6cae2b11a518...`
+- **Size**: 26,479 bytes
+- **SHA-256**: `681f9ce4d864c0cc...`
 
 ### amos-tensor-network-contraction-sketch-rscf-engine
-- **Description**: Tensor Network Contraction Sketch — formal verification capability. Use when formal verification, sy...
+- **Description**: Tensor Network Contraction Sketch — formal verification capability. Use...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,261 bytes
-- **SHA-256**: `2a227c9f834b7b6b...`
+- **Size**: 25,607 bytes
+- **SHA-256**: `3e6e6d451e2b5601...`
 
 ### amos-tensor-train-sketching-rscf-engine
-- **Description**: Tensor Train Sketching — formal verification capability. Use when formal verification, symbolic exec...
+- **Description**: Tensor Train Sketching — formal verification capability. Use when formal...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,410 bytes
-- **SHA-256**: `98268c8e762da559...`
+- **Size**: 26,883 bytes
+- **SHA-256**: `42b5d3e1aa49af99...`
 
 ### amos-time-series-conformal-uq-rscf-engine
-- **Description**: Time Series Conformal Uq — formal verification capability. Use when formal verification, symbolic ex...
+- **Description**: Time Series Conformal Uq — formal verification capability. Use when formal...
 - **Version**: 1.1.0
 - **Domain**: formal
 - **Parent**: amos-formal-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 20,403 bytes
-- **SHA-256**: `7cdc737cf52eef8b...`
+- **Size**: 20,860 bytes
+- **SHA-256**: `72b7cffc2ca1eaf4...`
 
 ### amos-tool-grounded-configuration-repair-rscf
-- **Description**: Tool Grounded Configuration Repair — audit and repair capability. Use when auditing, failure analysi...
+- **Description**: Tool Grounded Configuration Repair — audit and repair capability. Use...
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,599 bytes
-- **SHA-256**: `57160578bfcfb7f2...`
+- **Size**: 23,040 bytes
+- **SHA-256**: `4500a52fb3a24c03...`
 
 ### amos-trajectory-bug-specification-refinement-rscf
-- **Description**: Trajectory Bug Specification Refinement — technology and engineering capability. Use when software d...
+- **Description**: Trajectory Bug Specification Refinement — technology and engineering...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,151 bytes
-- **SHA-256**: `46741e41ec77483f...`
+- **Size**: 27,559 bytes
+- **SHA-256**: `ba4be916396cc140...`
 
 ### amos-trang-framework-master
-- **Description**: AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal reasoning, LDAI formaliz...
+- **Description**: AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal...
 - **Version**: 1.1.0
 - **Domain**: trang
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
-- **Files**: 43
-- **Size**: 192,846 bytes
-- **SHA-256**: `37873c38ae6672bc...`
+- **Files**: 42
+- **Size**: 194,249 bytes
+- **SHA-256**: `0281df56b7152771...`
 
 ### amos-transformation-quest-engine
-- **Description**: Transformation Quest Engine — super engines capability. Use when super-engine reasoning, consciousne...
+- **Description**: Transformation Quest Engine — super engines capability. Use when super-engine...
 - **Version**: 1.1.0
 - **Domain**: super
 - **Parent**: amos-super-engines-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,581 bytes
-- **SHA-256**: `8bc5c7fd70f74c21...`
+- **Size**: 23,022 bytes
+- **SHA-256**: `8a17517c8e8fe76c...`
 
 ### amos-translation-rscf-architecture
-- **Description**: Translation Rscf Architecture — Trang framework capability. Use when Trang framework reasoning, casc...
+- **Description**: Translation Rscf Architecture — Trang framework capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: trang
 - **Parent**: amos-trang-framework-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,525 bytes
-- **SHA-256**: `2933d146aca81e0d...`
+- **Size**: 26,966 bytes
+- **SHA-256**: `b7977379b93c7636...`
 
 ### amos-trust-formation-governor
-- **Description**: Trust Formation Governor — organization, law and policy capability. Use when governance design, lega...
+- **Description**: Trust Formation Governor — organization, law and policy capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c09
 - **Parent**: amos-c09-org-law-policy-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,657 bytes
-- **SHA-256**: `04893fe968bb874a...`
+- **Size**: 22,098 bytes
+- **SHA-256**: `cc1cc59c050f27fb...`
 
 ### amos-universal-coordinate-rscf-engine
-- **Description**: Universal Coordinate — RSCF epistemic capability. Use when classifying claims by epistemic state, va...
+- **Description**: Universal Coordinate — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,755 bytes
-- **SHA-256**: `51fbf16b284db36e...`
+- **Size**: 27,196 bytes
+- **SHA-256**: `cafaddf7dfd59a90...`
 
 ### amos-universal-coordinate-system
-- **Description**: Universal Coordinate System — runtime and OS capability. Use when runtime reasoning, OS kernel opera...
+- **Description**: Universal Coordinate System — runtime and OS capability. Use when runtime...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,598 bytes
-- **SHA-256**: `825bedd06a236852...`
+- **Size**: 27,039 bytes
+- **SHA-256**: `3fc6511096721113...`
 
 ### amos-universal-variable-registry-rscf-engine
-- **Description**: Universal Variable Registry — RSCF epistemic capability. Use when classifying claims by epistemic st...
+- **Description**: Universal Variable Registry — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,954 bytes
-- **SHA-256**: `af40eb3a5501488d...`
+- **Size**: 27,395 bytes
+- **SHA-256**: `35a8ce44a0a4e643...`
 
 ### amos-universe-viability-modeler
-- **Description**: Universe Viability Modeler — canon and universe capability. Use when canon reasoning, universe-level...
+- **Description**: Universe Viability Modeler — canon and universe capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: canon
 - **Parent**: amos-canon-universe-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,981 bytes
-- **SHA-256**: `9232bf3e4378945a...`
+- **Size**: 26,422 bytes
+- **SHA-256**: `b4d9dde847b806cb...`
 
 ### amos-unreachable-semantics-rscf
-- **Description**: Unreachable Semantics — RSCF epistemic capability. Use when classifying claims by epistemic state, v...
+- **Description**: Unreachable Semantics — RSCF epistemic capability. Use when classifying...
 - **Version**: 1.1.0
 - **Domain**: rscf
 - **Parent**: amos-rscf-epistemic-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,271 bytes
-- **SHA-256**: `790965fed37f0f0c...`
+- **Size**: 26,710 bytes
+- **SHA-256**: `35ba96ba940dd10d...`
 
 ### amos-ust-structure-mapper
-- **Description**: Ust Structure Mapper — runtime and OS capability. Use when runtime reasoning, OS kernel operations, ...
+- **Description**: Ust Structure Mapper — runtime and OS capability. Use when runtime reasoning,...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,896 bytes
-- **SHA-256**: `65f08d025626c903...`
+- **Size**: 25,337 bytes
+- **SHA-256**: `1e00b71ca7a8b43a...`
 
 ### amos-verification-aware-implementation-diversity-rscf
-- **Description**: Verification Aware Implementation Diversity — audit and repair capability. Use when auditing, failur...
+- **Description**: Verification Aware Implementation Diversity — audit and repair capability....
 - **Version**: 1.1.0
 - **Domain**: audit
 - **Parent**: amos-audit-repair-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,046 bytes
-- **SHA-256**: `ec8886dc2a519195...`
+- **Size**: 27,400 bytes
+- **SHA-256**: `2d47ed02ccc7667a...`
 
 ### amos-vietnamese-global-cultural-bridge-governor
-- **Description**: Vietnamese-Global Cultural Bridge Governor — cross-domain capability bridging C06 Vietnamese-specifi...
+- **Description**: Vietnamese-Global Cultural Bridge Governor — cross-domain capability...
 - **Version**: 1.1.0
 - **Domain**: cross-domain (C06 Vietnamese ↔ Global)
 - **Parent**: amos-c06-society-culture-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 19
-- **Size**: 72,071 bytes
-- **SHA-256**: `79ea0394d8634e59...`
+- **Size**: 73,774 bytes
+- **SHA-256**: `0ff16b35aafbd7bf...`
 
 ### amos-workflow-builder
-- **Description**: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability gaps, ...
+- **Description**: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows...
 - **Version**: 1.1.0
 - **Domain**: workflow
 - **Parent**: none
 - **Epistemic class**: SOURCE_CANON
 - **Files**: 12
-- **Size**: 25,350 bytes
-- **SHA-256**: `ef31ed4ca43ef378...`
+- **Size**: 26,059 bytes
+- **SHA-256**: `3b4f8b8aa1d3e941...`
 
 ### arxiv-activation-checkpointing-rscf
-- **Description**: Activation Checkpointing — arxiv research capability. Use when arxiv research, paper analysis, or li...
+- **Description**: Activation Checkpointing — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,321 bytes
-- **SHA-256**: `f4f12f8dea805029...`
+- **Size**: 27,032 bytes
+- **SHA-256**: `700af65b01817fad...`
 
 ### arxiv-anytime-pac-bayes-density-ratio-rscf
-- **Description**: Anytime Pac Bayes Density Ratio — arxiv research capability. Use when arxiv research, paper analysis...
+- **Description**: Anytime Pac Bayes Density Ratio — arxiv research capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,251 bytes
-- **SHA-256**: `4e1fcb52ddfeba6b...`
+- **Size**: 27,692 bytes
+- **SHA-256**: `1b71cc89f05c20ed...`
 
 ### arxiv-autosota-research-automation-rscf
-- **Description**: Autosota Research Automation — arxiv research capability. Use when arxiv research, paper analysis, o...
+- **Description**: Autosota Research Automation — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,287 bytes
-- **SHA-256**: `276b7c5c4c8c15b5...`
+- **Size**: 26,728 bytes
+- **SHA-256**: `197f43cb0309b27e...`
 
 ### arxiv-cdfm-causal-discovery-foundation-rscf
-- **Description**: Cdfm Causal Discovery Foundation — arxiv research capability. Use when arxiv research, paper analysi...
+- **Description**: Cdfm Causal Discovery Foundation — arxiv research capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,464 bytes
-- **SHA-256**: `3fb898827ba9d0f8...`
+- **Size**: 18,911 bytes
+- **SHA-256**: `9197f9cb2626eaa9...`
 
 ### arxiv-constrained-structured-decoding-rscf
-- **Description**: Constrained Structured Decoding — arxiv research capability. Use when arxiv research, paper analysis...
+- **Description**: Constrained Structured Decoding — arxiv research capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,678 bytes
-- **SHA-256**: `4f79a55fb64bc3b9...`
+- **Size**: 24,118 bytes
+- **SHA-256**: `f42add9a4eb4ac29...`
 
 ### arxiv-data-mixture-optimization-rscf
-- **Description**: Data Mixture Optimization — arxiv research capability. Use when arxiv research, paper analysis, or l...
+- **Description**: Data Mixture Optimization — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,670 bytes
-- **SHA-256**: `de6a630853f41f0b...`
+- **Size**: 26,167 bytes
+- **SHA-256**: `0c1c1886c8aac096...`
 
 ### arxiv-flash-attention-io-rscf
-- **Description**: Flash Attention Io — arxiv research capability. Use when arxiv research, paper analysis, or literatu...
+- **Description**: Flash Attention Io — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,546 bytes
-- **SHA-256**: `309505b0968f0dfb...`
+- **Size**: 27,047 bytes
+- **SHA-256**: `5ccf8ad1399b3a8f...`
 
 ### arxiv-flow-matching-generative-rscf
-- **Description**: Flow Matching Generative — arxiv research capability. Use when arxiv research, paper analysis, or li...
+- **Description**: Flow Matching Generative — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,342 bytes
-- **SHA-256**: `71410798d42e71ec...`
+- **Size**: 22,783 bytes
+- **SHA-256**: `ae35bf4d5b2d18e3...`
 
 ### arxiv-future-confidence-distillation-rscf
-- **Description**: Future Confidence Distillation — arxiv research capability. Use when arxiv research, paper analysis,...
+- **Description**: Future Confidence Distillation — arxiv research capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,873 bytes
-- **SHA-256**: `660f281cc9f49839...`
+- **Size**: 25,312 bytes
+- **SHA-256**: `de06faa4df047dbb...`
 
 ### arxiv-geometric-causal-models-rscf
-- **Description**: Geometric Causal Models — arxiv research capability. Use when arxiv research, paper analysis, or lit...
+- **Description**: Geometric Causal Models — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,249 bytes
-- **SHA-256**: `5e293133d5e76281...`
+- **Size**: 18,699 bytes
+- **SHA-256**: `ab4be5b93c475379...`
 
 ### arxiv-grapheval-reasoning-coherence-rscf
-- **Description**: Grapheval Reasoning Coherence — arxiv research capability. Use when arxiv research, paper analysis, ...
+- **Description**: Grapheval Reasoning Coherence — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,080 bytes
-- **SHA-256**: `d659bdd02c02e7e5...`
+- **Size**: 27,521 bytes
+- **SHA-256**: `8a94565edd3bc548...`
 
 ### arxiv-grouped-query-attention-rscf
-- **Description**: Grouped Query Attention — arxiv research capability. Use when arxiv research, paper analysis, or lit...
+- **Description**: Grouped Query Attention — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,360 bytes
-- **SHA-256**: `62ad89584d1606dd...`
+- **Size**: 27,069 bytes
+- **SHA-256**: `d384a131e28a966f...`
 
 ### arxiv-grpo-reasoning-policy-rscf
-- **Description**: Grpo Reasoning Policy — arxiv research capability. Use when arxiv research, paper analysis, or liter...
+- **Description**: Grpo Reasoning Policy — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,733 bytes
-- **SHA-256**: `9d52f91571377b8c...`
+- **Size**: 27,172 bytes
+- **SHA-256**: `1fad10ebd330d16e...`
 
 ### arxiv-kv-cache-quantization-rscf
-- **Description**: Kv Cache Quantization — arxiv research capability. Use when arxiv research, paper analysis, or liter...
+- **Description**: Kv Cache Quantization — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 20,253 bytes
-- **SHA-256**: `b7ac04dbcc357e0d...`
+- **Size**: 20,805 bytes
+- **SHA-256**: `f4395e4a4ac12fdd...`
 
 ### arxiv-llm-judge-bias-geometry-rscf
-- **Description**: Llm Judge Bias Geometry — arxiv research capability. Use when arxiv research, paper analysis, or lit...
+- **Description**: Llm Judge Bias Geometry — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,213 bytes
-- **SHA-256**: `ea3b9c040ba17598...`
+- **Size**: 23,922 bytes
+- **SHA-256**: `ccf71d013bf1a76e...`
 
 ### arxiv-long-context-rope-scaling-rscf
-- **Description**: Long Context Rope Scaling — arxiv research capability. Use when arxiv research, paper analysis, or l...
+- **Description**: Long Context Rope Scaling — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,980 bytes
-- **SHA-256**: `595b30f2066cf916...`
+- **Size**: 22,469 bytes
+- **SHA-256**: `b32c9ead295a917e...`
 
 ### arxiv-manifold-constrained-conformal-spatial-rscf
-- **Description**: Manifold Constrained Conformal Spatial — arxiv research capability. Use when arxiv research, paper a...
+- **Description**: Manifold Constrained Conformal Spatial — arxiv research capability. Use...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,733 bytes
-- **SHA-256**: `89b8b0369d9d0be4...`
+- **Size**: 27,334 bytes
+- **SHA-256**: `69cb092d4322bbed...`
 
 ### arxiv-mixture-of-depths-rscf
-- **Description**: Mixture Of Depths — arxiv research capability. Use when arxiv research, paper analysis, or literatur...
+- **Description**: Mixture Of Depths — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,114 bytes
-- **SHA-256**: `155a72ed68160b02...`
+- **Size**: 26,823 bytes
+- **SHA-256**: `6da0a41ed03c6de0...`
 
 ### arxiv-pac-bayes-piml-generalization-rscf
-- **Description**: Pac Bayes Piml Generalization — arxiv research capability. Use when arxiv research, paper analysis, ...
+- **Description**: Pac Bayes Piml Generalization — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,491 bytes
-- **SHA-256**: `8dbf1324d4ebd617...`
+- **Size**: 22,945 bytes
+- **SHA-256**: `3a6aa0a3cb7b40a4...`
 
 ### arxiv-rag-evaluation-rscf
-- **Description**: Rag Evaluation — arxiv research capability. Use when arxiv research, paper analysis, or literature r...
+- **Description**: Rag Evaluation — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 18,273 bytes
-- **SHA-256**: `a6da9c8ddc1316e6...`
+- **Size**: 18,813 bytes
+- **SHA-256**: `d1d8f446140ca2d3...`
 
 ### arxiv-selective-state-space-rscf
-- **Description**: Selective State Space — arxiv research capability. Use when arxiv research, paper analysis, or liter...
+- **Description**: Selective State Space — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,196 bytes
-- **SHA-256**: `538b7326521ecdb7...`
+- **Size**: 25,684 bytes
+- **SHA-256**: `afb3602fcdfb4061...`
 
 ### arxiv-sparse-attention-scaling-rscf
-- **Description**: Sparse Attention Scaling — arxiv research capability. Use when arxiv research, paper analysis, or li...
+- **Description**: Sparse Attention Scaling — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,493 bytes
-- **SHA-256**: `0439d80af242e7fc...`
+- **Size**: 27,220 bytes
+- **SHA-256**: `2f515abce42f7d67...`
 
 ### arxiv-streaming-attention-sinks-rscf
-- **Description**: Streaming Attention Sinks — arxiv research capability. Use when arxiv research, paper analysis, or l...
+- **Description**: Streaming Attention Sinks — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,352 bytes
-- **SHA-256**: `b1e88c7b751bc6e5...`
+- **Size**: 27,063 bytes
+- **SHA-256**: `54d5184cbef5378c...`
 
 ### arxiv-structured-gp-omics-uq-rscf
-- **Description**: Structured Gp Omics Uq — arxiv research capability. Use when arxiv research, paper analysis, or lite...
+- **Description**: Structured Gp Omics Uq — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,322 bytes
-- **SHA-256**: `4b112558525a7b12...`
+- **Size**: 24,849 bytes
+- **SHA-256**: `a5750307752344cb...`
 
 ### arxiv-test-time-compute-scaling-rscf
-- **Description**: Test Time Compute Scaling — arxiv research capability. Use when arxiv research, paper analysis, or l...
+- **Description**: Test Time Compute Scaling — arxiv research capability. Use when arxiv...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,926 bytes
-- **SHA-256**: `3193f4f721d2c14b...`
+- **Size**: 26,685 bytes
+- **SHA-256**: `9afbfd797c245112...`
 
 ### arxiv-test-time-training-rscf
-- **Description**: Test Time Training — arxiv research capability. Use when arxiv research, paper analysis, or literatu...
+- **Description**: Test Time Training — arxiv research capability. Use when arxiv research,...
 - **Version**: 1.1.0
 - **Domain**: arxiv
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,716 bytes
-- **SHA-256**: `69fb446ec20b3974...`
+- **Size**: 26,473 bytes
+- **SHA-256**: `aabd54529b9d4e9c...`
 
 ### bluebook-strategy-system
-- **Description**: Strategy System — strategy and game theory capability. Use when strategic analysis, game theory, or ...
+- **Description**: Strategy System — strategy and game theory capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: c08
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,409 bytes
-- **SHA-256**: `70b263046b9f3e34...`
+- **Size**: 22,850 bytes
+- **SHA-256**: `32d15ac7efedee4f...`
 
 ### cosmo-human-problem-architecture
-- **Description**: Cosmo Human Problem Architecture — runtime and OS capability. Use when runtime reasoning, OS kernel ...
+- **Description**: Cosmo Human Problem Architecture — runtime and OS capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: runtime
 - **Parent**: amos-os-runtime-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,781 bytes
-- **SHA-256**: `22c942687b927977...`
+- **Size**: 27,224 bytes
+- **SHA-256**: `776121f16fadcba8...`
 
 ### docx
-- **Description**: Docx — technology and engineering capability. Use when software development, engineering design, or ...
+- **Description**: Docx — technology and engineering capability. Use when software development,...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,140 bytes
-- **SHA-256**: `68026faf9e1db30b...`
+- **Size**: 23,558 bytes
+- **SHA-256**: `0aa994efe4703332...`
 
 ### executive-deck-decision-system
-- **Description**: Executive Deck Decision System — strategy and game theory capability. Use when strategic analysis, g...
+- **Description**: Executive Deck Decision System — strategy and game theory capability....
 - **Version**: 1.1.0
 - **Domain**: c08
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,078 bytes
-- **SHA-256**: `9f87911823c5a96c...`
+- **Size**: 27,519 bytes
+- **SHA-256**: `d2cf7ca1165abbab...`
 
 ### frontend-engineering-qa
-- **Description**: Frontend Engineering Qa — technology and engineering capability. Use when software development, engi...
+- **Description**: Frontend Engineering Qa — technology and engineering capability. Use...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,355 bytes
-- **SHA-256**: `5de46a1361c44187...`
+- **Size**: 23,796 bytes
+- **SHA-256**: `4f1183627c130871...`
 
 ### gmef-governance
-- **Description**: Gmef Governance — strategy and game theory capability. Use when strategic analysis, game theory, or ...
+- **Description**: Gmef Governance — strategy and game theory capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: c08
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 12
-- **Size**: 34,261 bytes
-- **SHA-256**: `40ba434ed51b836c...`
+- **Size**: 35,005 bytes
+- **SHA-256**: `80ad04711770c865...`
 
 ### kimi-k3-in-c
-- **Description**: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine without the 1.56 T...
+- **Description**: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference...
 - **Version**: 1.1.0
-- **Domain**:
+- **Domain**: 
 - **Parent**: none
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 8
-- **Size**: 8,330 bytes
-- **SHA-256**: `12c7de7fe43a5b0c...`
+- **Size**: 9,120 bytes
+- **SHA-256**: `f7e8d0ec45faeb5f...`
 
 ### mckinsey-architecture-reference-transfer-rscf
-- **Description**: Architecture Reference Transfer — McKinsey strategic capability. Use when strategic analysis, busine...
+- **Description**: Architecture Reference Transfer — McKinsey strategic capability. Use...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 19,083 bytes
-- **SHA-256**: `26c4719132610fdb...`
+- **Size**: 19,426 bytes
+- **SHA-256**: `3be962d415eae835...`
 
 ### mckinsey-banking-crm-assessment-rscf
-- **Description**: Banking Crm Assessment — McKinsey strategic capability. Use when strategic analysis, business consul...
+- **Description**: Banking Crm Assessment — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,574 bytes
-- **SHA-256**: `06d3a2209eaa2075...`
+- **Size**: 27,014 bytes
+- **SHA-256**: `70b72f6b5d86f295...`
 
 ### mckinsey-commercial-due-diligence-rscf
-- **Description**: Commercial Due Diligence — McKinsey strategic capability. Use when strategic analysis, business cons...
+- **Description**: Commercial Due Diligence — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 17,875 bytes
-- **SHA-256**: `5bc99ddb5dd7d5cf...`
+- **Size**: 18,327 bytes
+- **SHA-256**: `1bd0ac82cb7f53fa...`
 
 ### mckinsey-credit-lending-rscf
-- **Description**: Credit Lending — McKinsey strategic capability. Use when strategic analysis, business consulting, or...
+- **Description**: Credit Lending — McKinsey strategic capability. Use when strategic analysis,...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,686 bytes
-- **SHA-256**: `9c94f25f549f86ad...`
+- **Size**: 25,127 bytes
+- **SHA-256**: `8d3ac71dc03933dd...`
 
 ### mckinsey-customer-journey-planning-rscf
-- **Description**: Customer Journey Planning — McKinsey strategic capability. Use when strategic analysis, business con...
+- **Description**: Customer Journey Planning — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,368 bytes
-- **SHA-256**: `4001427e627c2aab...`
+- **Size**: 25,808 bytes
+- **SHA-256**: `b01cb9a09a783bdf...`
 
 ### mckinsey-designops-agile-transformation-rscf
-- **Description**: Designops Agile Transformation — McKinsey strategic capability. Use when strategic analysis, busines...
+- **Description**: Designops Agile Transformation — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,555 bytes
-- **SHA-256**: `b89cab23a9a4e6f0...`
+- **Size**: 24,996 bytes
+- **SHA-256**: `2743f791cb4f93ec...`
 
 ### mckinsey-digital-bank-value-proposition-rscf
-- **Description**: Digital Bank Value Proposition — McKinsey strategic capability. Use when strategic analysis, busines...
+- **Description**: Digital Bank Value Proposition — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,730 bytes
-- **SHA-256**: `0e2d5952c47e3d74...`
+- **Size**: 26,170 bytes
+- **SHA-256**: `025da7baedc901de...`
 
 ### mckinsey-digital-strategy-rscf
-- **Description**: Digital Strategy — McKinsey strategic capability. Use when strategic analysis, business consulting, ...
+- **Description**: Digital Strategy — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,672 bytes
-- **SHA-256**: `55e0d48b7f40b250...`
+- **Size**: 23,113 bytes
+- **SHA-256**: `231a4da8f5a9a2aa...`
 
 ### mckinsey-enterprise-data-transformation-rscf
-- **Description**: Enterprise Data Transformation — McKinsey strategic capability. Use when strategic analysis, busines...
+- **Description**: Enterprise Data Transformation — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 25,897 bytes
-- **SHA-256**: `7362b0ec619c7d01...`
+- **Size**: 26,338 bytes
+- **SHA-256**: `785ad3b7eee6d9fe...`
 
 ### mckinsey-framework-navigator
-- **Description**: Framework Navigator — McKinsey strategic capability. Use when strategic analysis, business consultin...
+- **Description**: Framework Navigator — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,003 bytes
-- **SHA-256**: `86c8f85c85678951...`
+- **Size**: 27,446 bytes
+- **SHA-256**: `868edf2659d55aed...`
 
 ### mckinsey-healthcare-strategy-rscf
-- **Description**: Healthcare Strategy — McKinsey strategic capability. Use when strategic analysis, business consultin...
+- **Description**: Healthcare Strategy — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,761 bytes
-- **SHA-256**: `6b8827ecb1af4f28...`
+- **Size**: 23,202 bytes
+- **SHA-256**: `e3e6f7fa362c911e...`
 
 ### mckinsey-human-centered-design-rscf
-- **Description**: Human Centered Design — McKinsey strategic capability. Use when strategic analysis, business consult...
+- **Description**: Human Centered Design — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,222 bytes
-- **SHA-256**: `e045f74afeadc51a...`
+- **Size**: 24,673 bytes
+- **SHA-256**: `ff8fc1972959a93d...`
 
 ### mckinsey-partnership-ecosystem-strategy-rscf
-- **Description**: Partnership Ecosystem Strategy — McKinsey strategic capability. Use when strategic analysis, busines...
+- **Description**: Partnership Ecosystem Strategy — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 27,172 bytes
-- **SHA-256**: `84652554971af30c...`
+- **Size**: 27,610 bytes
+- **SHA-256**: `e6b66b5a88ca7abe...`
 
 ### mckinsey-public-sector-transformation-rscf
-- **Description**: Public Sector Transformation — McKinsey strategic capability. Use when strategic analysis, business ...
+- **Description**: Public Sector Transformation — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,975 bytes
-- **SHA-256**: `e269e81bb3a1014c...`
+- **Size**: 27,429 bytes
+- **SHA-256**: `769bc951eebd0c80...`
 
 ### mckinsey-purpose-impact-rscf
-- **Description**: Purpose Impact — McKinsey strategic capability. Use when strategic analysis, business consulting, or...
+- **Description**: Purpose Impact — McKinsey strategic capability. Use when strategic analysis,...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,490 bytes
-- **SHA-256**: `df4cdc3a95e051cf...`
+- **Size**: 22,931 bytes
+- **SHA-256**: `71d0a6e13df09263...`
 
 ### mckinsey-recruiting-workforce-acquisition-rscf
-- **Description**: Recruiting Workforce Acquisition — McKinsey strategic capability. Use when strategic analysis, busin...
+- **Description**: Recruiting Workforce Acquisition — McKinsey strategic capability. Use...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,656 bytes
-- **SHA-256**: `1dd28f233edc4750...`
+- **Size**: 27,126 bytes
+- **SHA-256**: `892393ddef4269ef...`
 
 ### mckinsey-strategy-portfolio-engine
-- **Description**: Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic analysis, business con...
+- **Description**: Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,749 bytes
-- **SHA-256**: `33e367c4c6561587...`
+- **Size**: 22,190 bytes
+- **SHA-256**: `fb752d38c37a85a9...`
 
 ### mckinsey-technology-company-strategy-rscf
-- **Description**: Technology Company Strategy — McKinsey strategic capability. Use when strategic analysis, business c...
+- **Description**: Technology Company Strategy — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,000 bytes
-- **SHA-256**: `1e688ed6151ef454...`
+- **Size**: 23,441 bytes
+- **SHA-256**: `9f0dda6f9a66b4de...`
 
 ### mckinsey-technology-product-governance-rscf
-- **Description**: Technology Product Governance — McKinsey strategic capability. Use when strategic analysis, business...
+- **Description**: Technology Product Governance — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,903 bytes
-- **SHA-256**: `f672bba9c836ada6...`
+- **Size**: 27,343 bytes
+- **SHA-256**: `c1bf2a5a805eb47d...`
 
 ### mckinsey-technology-sales-excellence-rscf
-- **Description**: Technology Sales Excellence — McKinsey strategic capability. Use when strategic analysis, business c...
+- **Description**: Technology Sales Excellence — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 22,065 bytes
-- **SHA-256**: `bfcc34967fd89df2...`
+- **Size**: 22,506 bytes
+- **SHA-256**: `2fcd73e21ba933fb...`
 
 ### mckinsey-transaction-banking-diagnostic-rscf
-- **Description**: Transaction Banking Diagnostic — McKinsey strategic capability. Use when strategic analysis, busines...
+- **Description**: Transaction Banking Diagnostic — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,402 bytes
-- **SHA-256**: `d17f7e2f620e0c8d...`
+- **Size**: 24,843 bytes
+- **SHA-256**: `c29e96ca41700688...`
 
 ### mckinsey-transformation-org-structure-rscf
-- **Description**: Transformation Org Structure — McKinsey strategic capability. Use when strategic analysis, business ...
+- **Description**: Transformation Org Structure — McKinsey strategic capability. Use when...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 24,799 bytes
-- **SHA-256**: `8f3533d91b6e6697...`
+- **Size**: 25,239 bytes
+- **SHA-256**: `5e0f6948547da77a...`
 
 ### mckinsey-value-delivery-rscf
-- **Description**: Value Delivery — McKinsey strategic capability. Use when strategic analysis, business consulting, or...
+- **Description**: Value Delivery — McKinsey strategic capability. Use when strategic analysis,...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,827 bytes
-- **SHA-256**: `95d09192e6e74d85...`
+- **Size**: 27,310 bytes
+- **SHA-256**: `bbfe1e13bce0d774...`
 
 ### mckinsey-wealth-management-rscf
-- **Description**: Wealth Management — McKinsey strategic capability. Use when strategic analysis, business consulting,...
+- **Description**: Wealth Management — McKinsey strategic capability. Use when strategic...
 - **Version**: 1.1.0
 - **Domain**: mckinsey
 - **Parent**: amos-c08-strategy-game-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,460 bytes
-- **SHA-256**: `b0293e67fb7dc1f6...`
+- **Size**: 21,900 bytes
+- **SHA-256**: `5988fd8471689866...`
 
 ### obsidian-plugin-auto-tag
-- **Description**: Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing, or rec...
+- **Description**: Auto Tag — AMOS knowledge-management utility. Use when automatically...
 - **Version**: 1.1.0
 - **Domain**: knowledge
 - **Parent**: amos-knowledge-research-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 16,270 bytes
-- **SHA-256**: `2a47c64ca889ffc3...`
+- **Size**: 16,834 bytes
+- **SHA-256**: `163b28e8825e22d1...`
 
 ### pdfs
-- **Description**: Pdfs — technology and engineering capability. Use when software development, engineering design, or ...
+- **Description**: Pdfs — technology and engineering capability. Use when software development,...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,140 bytes
-- **SHA-256**: `a1cd3fc743dbfaef...`
+- **Size**: 23,558 bytes
+- **SHA-256**: `81ffb70ae3258eb5...`
 
 ### rscf-modeler
-- **Description**: Rscf Modeler — agent systems capability. Use when agent design, delegation reasoning, or multi-agent...
+- **Description**: Rscf Modeler — agent systems capability. Use when agent design, delegation...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: amos-agent-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,471 bytes
-- **SHA-256**: `af28957cd9881898...`
+- **Size**: 26,862 bytes
+- **SHA-256**: `5d96113bdaba51c1...`
 
 ### skill-creator
-- **Description**: Skill Creator — agent systems capability. Use when agent design, delegation reasoning, or multi-agen...
+- **Description**: Skill Creator — agent systems capability. Use when agent design, delegation...
 - **Version**: 1.1.0
 - **Domain**: agent
 - **Parent**: amos-agent-systems-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 26,479 bytes
-- **SHA-256**: `77988d1ae4212f73...`
+- **Size**: 26,949 bytes
+- **SHA-256**: `0038c9fcd5ff414c...`
 
 ### slides
-- **Description**: Slides — technology and engineering capability. Use when software development, engineering design, o...
+- **Description**: Slides — technology and engineering capability. Use when software development,...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 21,703 bytes
-- **SHA-256**: `e7e63ec864aaf4fd...`
+- **Size**: 22,119 bytes
+- **SHA-256**: `7d7549da0a60c0d7...`
 
 ### software-engineering-qa
-- **Description**: Production software QA agent for repository understanding, debugging, repair, testing, architecture ...
+- **Description**: Production software QA agent for repository understanding, debugging,...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 19,481 bytes
-- **SHA-256**: `6dc5f4f0ab2b67f4...`
+- **Size**: 19,924 bytes
+- **SHA-256**: `a6c9942bd9b321d7...`
 
 ### spreadsheets
-- **Description**: Spreadsheets — technology and engineering capability. Use when software development, engineering des...
+- **Description**: Spreadsheets — technology and engineering capability. Use when software...
 - **Version**: 1.1.0
 - **Domain**: c10
 - **Parent**: amos-c10-tech-engineering-master
 - **Epistemic class**: SOURCE_CLAIM
 - **Files**: 10
-- **Size**: 23,369 bytes
-- **SHA-256**: `7ffc81038b9f020b...`
-
-[[_MOC]]
-
----
-
-**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]
+- **Size**: 23,779 bytes
+- **SHA-256**: `06920740a57f97cb...`
