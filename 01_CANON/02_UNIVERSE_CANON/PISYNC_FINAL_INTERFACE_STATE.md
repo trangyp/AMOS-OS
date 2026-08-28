@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "PISYNC Final Interface State"
 aliases:
@@ -49,7 +48,7 @@ source_established:
     Final interface state model governing synchronous cross-modal
     feedback across perception, cognition, and external actuary
     interfaces.
-````
+---
 
 The source does **not** provide:
 
@@ -5494,7 +5493,4 @@ tags:
 # PISYNC Final Interface State
 
 Final interface state model governing synchronous cross-modal feedback across perception, cognition, and external actuary interfaces.
-```
-
-```
 ```

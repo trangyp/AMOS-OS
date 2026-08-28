@@ -681,8 +681,10 @@ class CognitiveMatrixEngine:
         trace["L29"] = self.L29_evolve_gate(
             anchor, self._digest(self.state.epoch), integrity_ok).value
 
-        # L17 commit happens only under L28 authorization
-        if trace["L28"] == Verdict.PASS.value and decision.authorized:
+        # L17 commit happens only under L28 authorization AND a clean reality
+        # gate (a failed L00 must never yield a consequential commit).
+        if (trace["L28"] == Verdict.PASS.value and decision.authorized
+                and trace["L00"] == Verdict.PASS.value):
             decision.committed = True
             self.state.stats["decisions_committed"] += 1
             trace["L17_COMMIT"] = Verdict.PASS.value

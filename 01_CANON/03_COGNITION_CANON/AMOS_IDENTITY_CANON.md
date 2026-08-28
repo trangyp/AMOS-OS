@@ -1,4 +1,3 @@
-````markdown
 ---
 title: AMOS Identity Canon
 type: canon
@@ -52,7 +51,7 @@ rscf:
 
 ```text
 01_CANON/03_COGNITION_CANON
-````
+---
 
 It reserves the canonical location for the framework family:
 
@@ -4652,6 +4651,3 @@ RSCF-RELATIONS:
 **Version:** `0.1.0`
 
 **Final status:** `PLACEHOLDER · AMOS_MODEL · UNKNOWN/GAP`
-
-```
-```
