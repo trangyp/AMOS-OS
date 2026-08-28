@@ -83,6 +83,15 @@ The AMOS vault is already a structured knowledge base. This schema adds a dedica
 - `qmd` (local hybrid search) when the wiki grows beyond a few hundred pages.
 - Dataview for dynamic tables over YAML frontmatter.
 
+## AMOS canonical bindings
+
+The LLM Wiki is operationalized through AMOS canonical skill/workflow/agent bindings:
+
+- Skill: `.devin/skills/amos-llm-wiki/SKILL.md` — runtime capability
+- Workflow: `.devin/workflows/amos-llm-wiki-workflow.md` — operational sequence
+- Agent: `.devin/agents/amos-llm-wiki-agent.json` — execution contract
+- Tools: `14_TOOLS/AMOS_LLM_WIKI_TOOL.md` — supporting tooling
+
 ## Related
 
 - [[_MOC]]

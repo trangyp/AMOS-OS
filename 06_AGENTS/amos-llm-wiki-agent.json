@@ -1,0 +1,166 @@
+{
+  "name": "amos-llm-wiki-agent",
+  "display_name": "AMOS LLM Wiki",
+  "description": "AMOS LLM Wiki agent — maintains a compounding, LLM-generated markdown wiki in the AMOS Obsidian vault. Bound to the knowledge domain.",
+  "author": "Trang Phan",
+  "steward": "Trang Phan",
+  "system": "AMOS_OS",
+  "role": "AMOS LLM Wiki — compounding knowledge wiki maintenance within the AMOS Obsidian vault.",
+  "skill_binding": {
+    "primary_skill": "amos-llm-wiki",
+    "skill_path": ".devin/skills/amos-llm-wiki/SKILL.md"
+  },
+  "capabilities": [
+    {
+      "name": "llmwiki.ingest",
+      "description": "Ingest a raw source into the AMOS LLM Wiki, write summary, update concept/entity pages, index, and log",
+      "side_effect": "write"
+    },
+    {
+      "name": "llmwiki.query",
+      "description": "Answer a question by reading the wiki index and relevant pages, with citations",
+      "side_effect": "read"
+    },
+    {
+      "name": "llmwiki.synthesize",
+      "description": "Synthesize a wiki-sourced answer and optionally file it back as a new wiki page",
+      "side_effect": "write"
+    },
+    {
+      "name": "llmwiki.lint",
+      "description": "Health-check the wiki for orphans, broken wikilinks, stale claims, and missing concept pages",
+      "side_effect": "read"
+    },
+    {
+      "name": "llmwiki.index",
+      "description": "Update the LLM_WIKI_INDEX content catalog",
+      "side_effect": "write"
+    },
+    {
+      "name": "llmwiki.log",
+      "description": "Append structured, chronological entries to LLM_WIKI_LOG",
+      "side_effect": "write"
+    },
+    {
+      "name": "llmwiki.clip",
+      "description": "Convert a web source or document into a raw-source markdown file ready for ingest",
+      "side_effect": "write"
+    },
+    {
+      "name": "llmwiki.validate",
+      "description": "Verify raw sources are unchanged, frontmatter is valid, and wikilinks resolve",
+      "side_effect": "read"
+    }
+  ],
+  "operations": [
+    "ingest",
+    "query",
+    "synthesize",
+    "lint",
+    "index",
+    "log",
+    "clip",
+    "validate"
+  ],
+  "integrity_requirements": [
+    "Law of Law: no unresolved contradictions within the wiki",
+    "Epistemic class: all wiki pages labeled SOURCE_CLAIM or DERIVED / AMOS_MODEL",
+    "Provenance: source path recorded for every derived wiki page",
+    "Reversibility: all wiki edits are reversible via git"
+  ],
+  "safety_constraints": [
+    "Never modify raw-source files after ingest",
+    "Never claim empirical truth for AMOS_MODEL syntheses",
+    "Fail closed on UNKNOWN/GAP: do not fabricate concept pages without evidence",
+    "Preserve all wikilink targets and frontmatter fields"
+  ],
+  "depends_on_skills": [
+    "amos-llm-wiki"
+  ],
+  "depends_on_workflows": [
+    "amos-llm-wiki-workflow.md"
+  ],
+  "epistemic_class": "AMOS_MODEL",
+  "claim_ceiling": 0.95,
+  "lifecycle": {
+    "status": "active",
+    "deprecated": false,
+    "deprecation_date": null,
+    "successor": null
+  },
+  "governance": {
+    "owner_team": "AMOS_CORE",
+    "business_domain": "knowledge",
+    "risk_tier": "low",
+    "observability": "structured_logs+content_hash",
+    "approval_mode": "steward_review",
+    "promotion_state": "production",
+    "gates": [
+      "L0_integrity",
+      "L1_epistemic",
+      "L5_scope"
+    ]
+  },
+  "content_hash": "85f6bb93080927d94b9caa205b1ebb1e8dac7b23e0a1506f29d43760780e4806",
+  "implementation": {
+    "type": "json",
+    "file": "amos-llm-wiki-agent.json",
+    "class": null,
+    "executable": true
+  },
+  "version": "1.0.0",
+  "reasoning_pattern": "Plan-Execute",
+  "termination_criteria": {
+    "max_steps": 10,
+    "max_tokens": 8000,
+    "stop_on_confidence_below": 0.3,
+    "stop_on_critical_gap": true,
+    "stop_on_scope_violation": true,
+    "human_in_the_loop": false
+  },
+  "error_recovery": {
+    "on_parse_error": "skip_file_and_log",
+    "on_frontmatter_error": "preserve_original_and_flag",
+    "on_wikilink_break": "flag_and_optionally_create_stub",
+    "max_retries": 2
+  },
+  "context_management": {
+    "load_strategy": "on_demand",
+    "max_context_files": 10,
+    "cache_references": true
+  },
+  "evaluation_metrics": [
+    "sources_ingested",
+    "questions_answered",
+    "lint_issues_found",
+    "index_updated",
+    "log_appended",
+    "wikilinks_preserved"
+  ],
+  "composition_rules": [
+    "Can be invoked by amos-knowledge-research-master for wiki maintenance",
+    "Can be composed with amos-mdformat-obsidian for formatting wiki pages",
+    "Cannot override epistemic class labels during ingest"
+  ],
+  "orchestration": {
+    "can_delegate_to": [],
+    "can_be_delegated_by": [
+      "amos-knowledge-research-master-agent"
+    ],
+    "parallel_safe": true,
+    "max_concurrent": 3
+  },
+  "evaluation": {
+    "self_check": "verify all wiki files parse as valid Markdown and wikilinks resolve",
+    "external_check": "diff against original to confirm only intended changes",
+    "gate_check": "raw sources unchanged, frontmatter valid, index/log updated"
+  },
+  "amos_canon_wiring": {
+    "law_compliance": ["L0", "L1", "L5"],
+    "gmef_gates": ["L0_integrity", "L1_epistemic", "L5_scope"],
+    "rscf_state": "DERIVED",
+    "hml_level": "M",
+    "collapse_class": "reversible",
+    "qfm_gate_set": "QFM_v43"
+  }
+}

@@ -26,6 +26,7 @@ rscf:
 - [[LLM_WIKI_INDEX]] — Content catalog
 - [[LLM_WIKI_LOG]] — Activity log
 - [[LLM_WIKI_RAW_README]] — Raw collection instructions
+- [[AMOS_LLM_WIKI_TOOL]] — Tooling guide
 
 ## Wiki pages
 - [[karpathy_llm_wiki_summary]] — Karpathy LLM Wiki pattern summary
