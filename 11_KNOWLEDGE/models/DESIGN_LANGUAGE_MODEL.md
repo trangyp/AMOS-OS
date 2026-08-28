@@ -2,7 +2,9 @@
 title: DESIGN LANGUAGE MODEL
 type: model
 source: 11_KNOWLEDGE/models
-aliases: [Design & Language Engine, AMOS_Design_Language]
+aliases:
+- Design & Language Engine
+- AMOS_Design_Language
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: model_specification
 ---
+
 
 
 # AMOS Design & Language Engine

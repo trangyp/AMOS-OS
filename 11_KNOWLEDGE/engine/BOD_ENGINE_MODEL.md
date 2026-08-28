@@ -2,7 +2,9 @@
 title: BOD ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
-aliases: [BOD Engine, AMOS_Bod_Engine]
+aliases:
+- BOD Engine
+- AMOS_Bod_Engine
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS BOD Engine

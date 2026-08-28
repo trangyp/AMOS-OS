@@ -4,8 +4,11 @@ type: pointer
 status: active
 confidence: SOURCE
 created: 2026-08-23
-aliases: ["AMOS Universe Structure Tree", "UST canonical tree", "Universe Structure Tree"]
-source: "AMOS Universe Total Canon UTC Master File.md"
+aliases:
+- AMOS Universe Structure Tree
+- UST canonical tree
+- Universe Structure Tree
+source: AMOS Universe Total Canon UTC Master File.md
 tags:
 - universe
 - ust
@@ -19,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_architecture
 ---
+
 
 
 # AMOS Universe Structure Tree (UST)

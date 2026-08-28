@@ -2,7 +2,9 @@
 title: LEGAL ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
-aliases: [Legal Engine Kernel, AMOS_Legal_Engine]
+aliases:
+- Legal Engine Kernel
+- AMOS_Legal_Engine
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS Legal Engine Kernel

@@ -2,7 +2,9 @@
 title: SCIENTIFIC ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
-aliases: [Scientific Engine Kernel, AMOS_Scientific_Engine]
+aliases:
+- Scientific Engine Kernel
+- AMOS_Scientific_Engine
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS Scientific Engine Kernel

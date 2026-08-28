@@ -2,7 +2,9 @@
 title: PHYSICS COSMOS MODEL
 type: physics
 source: 11_KNOWLEDGE/universe-cosmos
-aliases: [Physics & Cosmos Engine, AMOS_Physics_Cosmos]
+aliases:
+- Physics & Cosmos Engine
+- AMOS_Physics_Cosmos
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: universe_cosmos
 ---
+
 
 
 # AMOS Physics & Cosmos Engine

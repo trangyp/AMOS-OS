@@ -2,7 +2,11 @@
 title: CODING ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
-aliases: [Unified Coding Engine, AMOS_Coding_Engine, Coding Kernel, Tech Engine vInfinity]
+aliases:
+- Unified Coding Engine
+- AMOS_Coding_Engine
+- Coding Kernel
+- Tech Engine vInfinity
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +21,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS Unified Coding Engine

@@ -2,7 +2,9 @@
 title: ELECTRICAL POWER MODEL
 type: model
 source: 11_KNOWLEDGE/models
-aliases: [Electrical Power Engine, AMOS_Electrical_Power]
+aliases:
+- Electrical Power Engine
+- AMOS_Electrical_Power
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: model_specification
 ---
+
 
 
 # AMOS Electrical Power Engine

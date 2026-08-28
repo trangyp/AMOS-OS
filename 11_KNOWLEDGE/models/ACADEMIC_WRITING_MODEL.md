@@ -2,7 +2,10 @@
 title: ACADEMIC WRITING MODEL
 type: model
 source: 11_KNOWLEDGE/models
-aliases: [Academic Writing Engine, AMOS_Academic_Writing, Academic Kernel]
+aliases:
+- Academic Writing Engine
+- AMOS_Academic_Writing
+- Academic Kernel
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +20,7 @@ rscf:
   provenance: AMOS_corpus
   scope: model_specification
 ---
+
 
 
 # AMOS Academic Writing Engine

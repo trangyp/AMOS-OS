@@ -2,7 +2,10 @@
 title: EV KERNEL MODEL
 type: kernel
 source: 11_KNOWLEDGE/kernel
-aliases: [EV Kernel, AMOS_EV_Kernel, Unified_EV_Kernel]
+aliases:
+- EV Kernel
+- AMOS_EV_Kernel
+- Unified_EV_Kernel
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +20,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # AMOS EV Kernel

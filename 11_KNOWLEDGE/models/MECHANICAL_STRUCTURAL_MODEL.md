@@ -2,7 +2,9 @@
 title: MECHANICAL STRUCTURAL MODEL
 type: model
 source: 11_KNOWLEDGE/models
-aliases: [Mechanical & Structural Engine, AMOS_Mechanical_Structural]
+aliases:
+- Mechanical & Structural Engine
+- AMOS_Mechanical_Structural
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: model_specification
 ---
+
 
 
 # AMOS Mechanical & Structural Engine

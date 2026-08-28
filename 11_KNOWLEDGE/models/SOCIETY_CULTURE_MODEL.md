@@ -2,7 +2,9 @@
 title: SOCIETY CULTURE MODEL
 type: model
 source: 11_KNOWLEDGE/models
-aliases: [Society & Culture Engine, AMOS_Society_Culture]
+aliases:
+- Society & Culture Engine
+- AMOS_Society_Culture
 tags:
 - canon-group/human-system
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: model_specification
 ---
+
 
 
 # AMOS Society & Culture Engine

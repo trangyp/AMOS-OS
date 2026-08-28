@@ -2,7 +2,9 @@
 title: GOVERNANCE ECONOMY MODEL
 type: economy
 source: 11_KNOWLEDGE/governance
-aliases: [Governance Economy Engine, AMOS_Governance_Economy]
+aliases:
+- Governance Economy Engine
+- AMOS_Governance_Economy
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: governance_policy
 ---
+
 
 
 # AMOS Governance Economy Engine

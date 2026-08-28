@@ -2,7 +2,9 @@
 title: SIGNAL PROCESSING MODEL
 type: model
 source: 11_KNOWLEDGE/signal
-aliases: [Signal Processing Engine, AMOS_Signal_Processing]
+aliases:
+- Signal Processing Engine
+- AMOS_Signal_Processing
 tags:
 - canon-group/biology
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 
 
 # AMOS Signal Processing Engine

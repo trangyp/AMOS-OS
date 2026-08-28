@@ -2,7 +2,10 @@
 title: DESIGN ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
-aliases: [Unified Design Kernel, AMOS_Design_Engine, Design Kernel]
+aliases:
+- Unified Design Kernel
+- AMOS_Design_Engine
+- Design Kernel
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +20,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS Unified Design Engine

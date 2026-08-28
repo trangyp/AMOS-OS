@@ -2,7 +2,10 @@
 title: DOCUMENTATION ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
-aliases: [Corporate Documentation Engine, AMOS_Documentation, Corp Doc Engine]
+aliases:
+- Corporate Documentation Engine
+- AMOS_Documentation
+- Corp Doc Engine
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +20,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS Corporate Documentation Engine

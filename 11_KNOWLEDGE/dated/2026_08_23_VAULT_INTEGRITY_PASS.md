@@ -1,5 +1,5 @@
 ---
-title: "Vault Integrity Pass — 2026-08-23 (Canon-Cluster Closure)"
+title: Vault Integrity Pass — 2026-08-23 (Canon-Cluster Closure)
 type: thinking
 source: 11_KNOWLEDGE/dated
 status: active
@@ -14,13 +14,15 @@ tags:
 - dated
 - dated/2026-08-23
 - canon/knowledge
-aliases: ["2026-08-23 Vault Integrity Pass"]
+aliases:
+- 2026-08-23 Vault Integrity Pass
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: temporal_log
 ---
+
 
 
 # Vault Integrity Pass — 2026-08-23

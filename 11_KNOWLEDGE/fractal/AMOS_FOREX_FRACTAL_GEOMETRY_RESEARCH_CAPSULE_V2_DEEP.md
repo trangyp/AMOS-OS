@@ -1,13 +1,23 @@
 ---
-title: "TRANG ∅ / AMOS FOREX FRACTAL FIELD ENGINE"
+title: TRANG ∅ / AMOS FOREX FRACTAL FIELD ENGINE
 type: fractal
 source: 11_KNOWLEDGE/fractal
-subtitle: "Deep Canon-to-Empirical Architecture for Hexagon, Spiral, Entropy, Lacunarity, Cascade, Tát 2 and XAUUSD/FX"
-origin_architect: "Trang Phan"
-runtime_target: "AMOS_CORE v4.4 lineage + AMOS Forex Unified OS"
-version: "2.0-deep"
-status: "SOURCE_CANON_PRESERVED__EMPIRICAL_FIREWALL_ACTIVE"
-epistemic_classes: [SOURCE_CANON, SOURCE_CLAIM, OBSERVATION, DERIVED, AMOS_MODEL, CONDITIONAL, COMPETING, VERIFIED, UNKNOWN]
+subtitle: Deep Canon-to-Empirical Architecture for Hexagon, Spiral, Entropy, Lacunarity, Cascade, Tát
+  2 and XAUUSD/FX
+origin_architect: Trang Phan
+runtime_target: AMOS_CORE v4.4 lineage + AMOS Forex Unified OS
+version: 2.0-deep
+status: SOURCE_CANON_PRESERVED__EMPIRICAL_FIREWALL_ACTIVE
+epistemic_classes:
+- SOURCE_CANON
+- SOURCE_CLAIM
+- OBSERVATION
+- DERIVED
+- AMOS_MODEL
+- CONDITIONAL
+- COMPETING
+- VERIFIED
+- UNKNOWN
 tags:
 - fractal
 - math
@@ -19,6 +29,7 @@ rscf:
   provenance: AMOS_corpus
   scope: fractal_system
 ---
+
 
 
 # 0. MASTER POSITION

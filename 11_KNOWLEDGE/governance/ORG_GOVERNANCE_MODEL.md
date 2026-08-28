@@ -2,7 +2,9 @@
 title: ORG GOVERNANCE MODEL
 type: model
 source: 11_KNOWLEDGE/governance
-aliases: [Org Governance Engine, AMOS_Org_Governance]
+aliases:
+- Org Governance Engine
+- AMOS_Org_Governance
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: governance_policy
 ---
+
 
 
 # AMOS Org Governance Engine

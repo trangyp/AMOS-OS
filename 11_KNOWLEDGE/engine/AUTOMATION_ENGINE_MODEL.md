@@ -2,7 +2,10 @@
 title: AUTOMATION ENGINE MODEL
 type: model
 source: 11_KNOWLEDGE/engine
-aliases: [Automation Engine, AMOS_Automation, Unified Automation OS]
+aliases:
+- Automation Engine
+- AMOS_Automation
+- Unified Automation OS
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +20,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS Automation Engine

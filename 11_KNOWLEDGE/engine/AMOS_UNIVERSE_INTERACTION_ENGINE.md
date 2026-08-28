@@ -4,8 +4,11 @@ type: pointer
 status: active
 confidence: SOURCE
 created: 2026-08-23
-aliases: ["AMOS Universe Interaction Engine", "UIE", "Universe Interaction Engine"]
-source: "AMOS Universe Total Canon UTC Master File.md"
+aliases:
+- AMOS Universe Interaction Engine
+- UIE
+- Universe Interaction Engine
+source: AMOS Universe Total Canon UTC Master File.md
 tags:
 - universe
 - uie
@@ -19,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 
 
 # AMOS Universe Interaction Engine (UIE)

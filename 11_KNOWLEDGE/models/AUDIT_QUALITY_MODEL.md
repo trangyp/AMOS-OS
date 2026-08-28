@@ -2,7 +2,10 @@
 title: AUDIT QUALITY MODEL
 type: model
 source: 11_KNOWLEDGE/models
-aliases: [Audit Quality Engine, AMOS_Audit_Quality, Quality Kernel]
+aliases:
+- Audit Quality Engine
+- AMOS_Audit_Quality
+- Quality Kernel
 tags:
 - canon-group/tech-ai
 - canon/model
@@ -17,6 +20,7 @@ rscf:
   provenance: AMOS_corpus
   scope: model_specification
 ---
+
 
 
 # AMOS Audit Quality Engine

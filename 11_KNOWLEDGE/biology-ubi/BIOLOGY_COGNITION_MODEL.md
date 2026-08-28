@@ -2,7 +2,9 @@
 title: BIOLOGY COGNITION MODEL
 type: biology
 source: 11_KNOWLEDGE/biology-ubi
-aliases: [Biology & Cognition Engine, AMOS_Biology_Cognition]
+aliases:
+- Biology & Cognition Engine
+- AMOS_Biology_Cognition
 tags:
 - canon-group/biology
 - canon/model
@@ -17,6 +19,7 @@ rscf:
   provenance: AMOS_corpus
   scope: biology_neuroscience
 ---
+
 
 
 # AMOS Biology & Cognition Engine
