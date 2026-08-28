@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos C05 Mind Behavior Master"
+title: SKILL — Amos C05 Mind Behavior Master
 type: skill
 source: 07_SKILLS/amos-c05-mind-behavior-master
 name: amos-c05-mind-behavior-master
-description: "AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness, metacognition. 5-axis Emotion Law, HIE/UMPL/UST super-consciousness. Use for psychological analysis or behavioral reasoning."
+description: AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness,
+  metacognition. 5-axis Emotion Law, HIE/UMPL/UST super-consciousness. Use for psychological
+  analysis or behavioral reasoning.
 parent_skill: none
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c05-mind-behavior-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/mind-behavior
+- canon-group/human-system
+- topic/cognition
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-c05-mind-behavior-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS C05 — Mind & Behavior Master Knowledge

@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Canon Consistency Governor"
+title: SKILL — Amos Canon Consistency Governor
 type: skill
 source: 07_SKILLS/amos-canon-consistency-governor
 name: amos-canon-consistency-governor
-description: Canon Consistency Governor — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability.
+description: Canon Consistency Governor — canon and universe capability. Use when
+  canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master
+  routes to this specialized capability.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-canon-consistency-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/canon-universe
+- canon-group/tech-ai
+- topic/canon
+- capability/governance
+- capability/canon
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-canon-consistency-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Canon Consistency Governor

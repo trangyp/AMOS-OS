@@ -169,5 +169,20 @@
     "log_outputs": true,
     "log_intermediate": true,
     "metrics_enabled": true
-  }
+  },
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/agent-systems",
+    "canon-group/tech-ai",
+    "topic/multi-agent",
+    "capability/agent-design",
+    "capability/ecology",
+    "capability/earth",
+    "rscf/epistemic",
+    "reasoning/plan-execute",
+    "sota/termination-criteria",
+    "sota/error-recovery",
+    "amos_os"
+  ]
 }

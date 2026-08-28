@@ -140,5 +140,20 @@
     "log_outputs": true,
     "log_intermediate": true,
     "metrics_enabled": true
-  }
+  },
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/knowledge-research",
+    "canon-group/tech-ai",
+    "topic/knowledge-management",
+    "capability/arxiv-research",
+    "topic/research",
+    "capability/agent-design",
+    "rscf/epistemic",
+    "reasoning/react",
+    "sota/termination-criteria",
+    "sota/error-recovery",
+    "amos_os"
+  ]
 }

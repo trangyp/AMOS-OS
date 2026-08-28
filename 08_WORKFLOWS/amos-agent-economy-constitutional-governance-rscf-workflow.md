@@ -7,13 +7,26 @@ Skill: amos-agent-economy-constitutional-governance-rscf
 Agent: amos-agent-economy-constitutional-governance-rscf-agent
 Trigger: When economic model engine is needed within the econ domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/agent-design
+- capability/workflow
+- rscf/epistemic
+- orchestration/orchestrator-worker
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Agent Economy Constitutional Governance Rscf

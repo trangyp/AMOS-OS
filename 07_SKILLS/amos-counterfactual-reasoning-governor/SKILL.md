@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Counterfactual Reasoning Governor"
+title: SKILL — Amos Counterfactual Reasoning Governor
 type: skill
 source: 07_SKILLS/amos-counterfactual-reasoning-governor
 name: amos-counterfactual-reasoning-governor
-description: Counterfactual Reasoning Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability.
+description: Counterfactual Reasoning Governor — causal reasoning capability. Use
+  when causal analysis, counterfactual reasoning, or intervention design. Use when
+  amos-causal-reasoning-master routes to this specialized capability.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-counterfactual-reasoning-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/causal-reasoning
+- canon-group/tech-ai
+- topic/causality
+- capability/counterfactual
+- capability/governance
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-counterfactual-reasoning-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Counterfactual Reasoning Governor

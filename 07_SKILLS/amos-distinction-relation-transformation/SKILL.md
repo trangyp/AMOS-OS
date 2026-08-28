@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Distinction Relation Transformation"
+title: SKILL — Amos Distinction Relation Transformation
 type: skill
 source: 07_SKILLS/amos-distinction-relation-transformation
 name: amos-distinction-relation-transformation
-description: Distinction Relation Transformation — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability.
+description: Distinction Relation Transformation — super engines capability. Use when
+  super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when
+  amos-super-engines-master routes to this specialized capability.
 parent_skill: amos-super-engines-master
 domain: super
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-distinction-relation-transformation, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/super-engines
+- canon-group/human-system
+- topic/consciousness
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-distinction-relation-transformation
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Distinction Relation Transformation

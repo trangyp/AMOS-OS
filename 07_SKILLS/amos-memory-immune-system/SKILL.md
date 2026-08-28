@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Memory Immune System"
+title: SKILL — Amos Memory Immune System
 type: skill
 source: 07_SKILLS/amos-memory-immune-system
 name: amos-memory-immune-system
-description: Memory Immune System — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability.
+description: Memory Immune System — memory systems capability. Use when memory management,
+  context continuity, or memory conflict resolution. Use when amos-memory-systems-master
+  routes to this specialized capability.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-memory-immune-system, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/memory-systems
+- canon-group/tech-ai
+- topic/memory
+- capability/memory
+- capability/immune-system
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-memory-immune-system
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Memory Immune System

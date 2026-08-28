@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Ast Control Dataflow Rscf Engine"
+title: SKILL — Amos Ast Control Dataflow Rscf Engine
 type: skill
 source: 07_SKILLS/amos-ast-control-dataflow-rscf-engine
 name: amos-ast-control-dataflow-rscf-engine
-description: Ast Control Dataflow — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability.
+description: Ast Control Dataflow — technology and engineering capability. Use when
+  software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master
+  routes to this specialized capability.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-ast-control-dataflow-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/tech-engineering
+- canon-group/tech-ai
+- topic/engineering
+- capability/ast
+- capability/dataflow
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-ast-control-dataflow-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Ast Control Dataflow Rscf Engine

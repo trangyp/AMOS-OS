@@ -1,9 +1,18 @@
 ---
-title: "SKILL — Amos Security Control Access Bridge Governor"
+title: SKILL — Amos Security Control Access Bridge Governor
 type: skill
 source: 07_SKILLS/amos-security-control-access-bridge-governor
 name: amos-security-control-access-bridge-governor
-description: "Security-Control-Access Bridge Governor — cross-domain capability bridging C09 Org-Law-Policy (policy definition), C10 Tech-Engineering (access control mechanisms), and Runtime Enforcement (enforcement attestation). Governs the unified policy-to-enforcement pipeline: C09 policy → translate to mechanism → C10 mechanism → validate enforcement → Runtime enforcement → audit feedback → C09 policy. Enforces policy-mechanism match (every mechanism has a policy), mechanism-enforcement match (every enforcement matches mechanism), and no layer drift. Use when security policies need to be translated to access control mechanisms, when mechanisms need runtime enforcement validation, or when the full policy-to-enforcement pipeline needs governance. Use when amos-security-safety-master routes to this specialized capability."
+description: 'Security-Control-Access Bridge Governor — cross-domain capability bridging
+  C09 Org-Law-Policy (policy definition), C10 Tech-Engineering (access control mechanisms),
+  and Runtime Enforcement (enforcement attestation). Governs the unified policy-to-enforcement
+  pipeline: C09 policy → translate to mechanism → C10 mechanism → validate enforcement
+  → Runtime enforcement → audit feedback → C09 policy. Enforces policy-mechanism match
+  (every mechanism has a policy), mechanism-enforcement match (every enforcement matches
+  mechanism), and no layer drift. Use when security policies need to be translated
+  to access control mechanisms, when mechanisms need runtime enforcement validation,
+  or when the full policy-to-enforcement pipeline needs governance. Use when amos-security-safety-master
+  routes to this specialized capability.'
 parent_skill: amos-security-safety-master
 domain: cross-domain (C09 → C10 → Runtime)
 origin_architect: Trang Phan
@@ -11,14 +20,27 @@ epistemic_class: SOURCE_CLAIM
 claim_ceiling: 0.9
 status: production_ready
 created: 2026-08-27
-tags: [note, amos-security-control-access-bridge-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- capability/security
+- capability/governance
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-security-control-access-bridge-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Security-Control-Access Bridge Governor

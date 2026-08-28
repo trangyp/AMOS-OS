@@ -7,13 +7,27 @@ Skill: amos-retrieval-conditioned-orchestration-budget-rscf
 Agent: amos-retrieval-conditioned-orchestration-budget-rscf-agent
 Trigger: When knowledge-research engine is needed within the knowledge domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/orchestration
+- capability/workflow
+- capability/budget
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Retrieval Conditioned Orchestration Budget Rscf

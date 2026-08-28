@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Repair Priority Governor"
+title: SKILL — Amos Repair Priority Governor
 type: skill
 source: 07_SKILLS/amos-repair-priority-governor
 name: amos-repair-priority-governor
-description: Repair Priority Governor — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
+description: Repair Priority Governor — audit and repair capability. Use when auditing,
+  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
+  routes to this specialized capability.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-repair-priority-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/audit-repair
+- canon-group/tech-ai
+- topic/quality-assurance
+- capability/repair
+- capability/governance
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-repair-priority-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Repair Priority Governor

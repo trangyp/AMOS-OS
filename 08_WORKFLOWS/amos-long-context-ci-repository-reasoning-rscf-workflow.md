@@ -7,13 +7,27 @@ Skill: amos-long-context-ci-repository-reasoning-rscf
 Agent: amos-long-context-ci-repository-reasoning-rscf-agent
 Trigger: When boundary and scope engine is needed within the boundary domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/context-management
+- capability/workflow
+- capability/repository
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Long Context Ci Repository Reasoning Rscf

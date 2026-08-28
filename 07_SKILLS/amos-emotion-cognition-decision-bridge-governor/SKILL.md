@@ -1,21 +1,42 @@
 ---
-title: "SKILL — Amos Emotion Cognition Decision Bridge Governor"
+title: SKILL — Amos Emotion Cognition Decision Bridge Governor
 type: skill
 source: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor
 name: amos-emotion-cognition-decision-bridge-governor
-description: Emotion-Cognition-Decision Bridge Governor — mind and behavior capability. Bridges C05 emotion/personality/behavior engines with C01 meta-logic decision gates and C10 technical decision-making. Enforces the emotion influence gating invariant (emotion may bias prioritization and tone, NEVER facts or logic), connects C05's 5-axis emotion state to C01's reasoning mode selection, and unifies C05's decision style ordering with C10's diagnose-before-edit principle. Use when a decision requires both emotional state awareness and cognitive/technical rigor. Use when amos-c05-mind-behavior-master routes to this specialized capability.
+description: Emotion-Cognition-Decision Bridge Governor — mind and behavior capability.
+  Bridges C05 emotion/personality/behavior engines with C01 meta-logic decision gates
+  and C10 technical decision-making. Enforces the emotion influence gating invariant
+  (emotion may bias prioritization and tone, NEVER facts or logic), connects C05's
+  5-axis emotion state to C01's reasoning mode selection, and unifies C05's decision
+  style ordering with C10's diagnose-before-edit principle. Use when a decision requires
+  both emotional state awareness and cognitive/technical rigor. Use when amos-c05-mind-behavior-master
+  routes to this specialized capability.
 parent_skill: amos-c05-mind-behavior-master
 domain: cross-domain (C05→C01→C10)
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-emotion-cognition-decision-bridge-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/mind-behavior
+- canon-group/human-system
+- topic/cognition
+- capability/governance
+- capability/emotion
+- capability/cognition
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-emotion-cognition-decision-bridge-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Emotion-Cognition-Decision Bridge Governor

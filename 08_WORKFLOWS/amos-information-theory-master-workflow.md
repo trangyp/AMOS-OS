@@ -5,15 +5,30 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-information-theory-master
 Agent: amos-information-theory-agent
-Trigger: AMOS Information Theory — entropy, complexity, information boundaries, information collapse topology, exposure control. Use for information-theoretic analysis, entropy reasoning, or complexity meas
+Trigger: AMOS Information Theory — entropy, complexity, information boundaries, information
+  collapse topology, exposure control. Use for information-theoretic analysis, entropy
+  reasoning, or complexity meas
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/information-theory
+- canon-group/tech-ai
+- topic/information
+- capability/workflow
+- capability/ast
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: AMOS Information Theory Master

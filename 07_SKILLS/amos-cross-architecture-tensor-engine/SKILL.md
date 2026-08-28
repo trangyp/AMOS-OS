@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Cross Architecture Tensor Engine"
+title: SKILL — Amos Cross Architecture Tensor Engine
 type: skill
 source: 07_SKILLS/amos-cross-architecture-tensor-engine
 name: amos-cross-architecture-tensor-engine
-description: Cross Architecture Tensor Engine — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability.
+description: Cross Architecture Tensor Engine — formal verification capability. Use
+  when formal verification, symbolic execution, proof checking, or mathematical reasoning.
+  Use when amos-formal-engines-master routes to this specialized capability.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-cross-architecture-tensor-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/formal-engines
+- canon-group/tech-ai
+- topic/formal-verification
+- capability/tensor
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-cross-architecture-tensor-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Cross Architecture Tensor Engine

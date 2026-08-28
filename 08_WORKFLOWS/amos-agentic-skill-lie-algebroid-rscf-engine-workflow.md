@@ -7,13 +7,27 @@ Skill: amos-agentic-skill-lie-algebroid-rscf-engine
 Agent: amos-agentic-skill-lie-algebroid-rscf-engine-agent
 Trigger: When runtime and os engine is needed within the runtime domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/agent-design
+- capability/workflow
+- capability/skill-design
+- rscf/epistemic
+- orchestration/orchestrator-worker
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Agentic Skill Lie Algebroid Rscf Engine

@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Tensor Train Sketching Rscf Engine"
+title: SKILL — Amos Tensor Train Sketching Rscf Engine
 type: skill
 source: 07_SKILLS/amos-tensor-train-sketching-rscf-engine
 name: amos-tensor-train-sketching-rscf-engine
-description: Tensor Train Sketching — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability.
+description: Tensor Train Sketching — formal verification capability. Use when formal
+  verification, symbolic execution, proof checking, or mathematical reasoning. Use
+  when amos-formal-engines-master routes to this specialized capability.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-tensor-train-sketching-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/formal-engines
+- canon-group/tech-ai
+- topic/formal-verification
+- capability/tensor
+- capability/sketching
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-tensor-train-sketching-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Tensor Train Sketching Rscf Engine

@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Fx Tensor Train Greeks Rscf Engine"
+title: SKILL — Amos Fx Tensor Train Greeks Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-tensor-train-greeks-rscf-engine
 name: amos-fx-tensor-train-greeks-rscf-engine
-description: Tensor Train Greeks — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Tensor Train Greeks — forex and finance capability. Use when forex analysis,
+  currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes
+  to this specialized capability.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-fx-tensor-train-greeks-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/econ-finance
+- canon-group/tech-ai
+- topic/finance
+- capability/forex
+- topic/forex
+- capability/tensor
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-fx-tensor-train-greeks-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Fx Tensor Train Greeks Rscf Engine

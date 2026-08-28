@@ -7,13 +7,26 @@ Skill: amos-observability-driven-harness-evolution-rscf
 Agent: amos-observability-driven-harness-evolution-rscf-agent
 Trigger: When tech-engineering engine is needed within the c10 domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/workflow
+- capability/harness
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Observability Driven Harness Evolution Rscf

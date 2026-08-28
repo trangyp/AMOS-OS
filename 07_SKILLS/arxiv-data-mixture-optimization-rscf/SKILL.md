@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Arxiv Data Mixture Optimization Rscf"
+title: SKILL — Arxiv Data Mixture Optimization Rscf
 type: skill
 source: 07_SKILLS/arxiv-data-mixture-optimization-rscf
 name: arxiv-data-mixture-optimization-rscf
-description: Data Mixture Optimization — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Data Mixture Optimization — arxiv research capability. Use when arxiv
+  research, paper analysis, or literature review. Use when amos-knowledge-research-master
+  routes to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, arxiv-data-mixture-optimization-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/arxiv-research
+- topic/research
+- capability/data-mixture
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- arxiv-data-mixture-optimization-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Arxiv: data Mixture Optimization Rscf

@@ -57,3 +57,13 @@ This skill governs the execution of multi-century ancestral decision intelligenc
 3. **Pre-Mortem Stress Test:** Run adversarial scenarios simulating structural shock and supply chain rupture.
 4. **Polycentric Redundancy Check:** Verify that no single point of failure exists in the proposed execution plan.
 5. **Decision Receipt Generation:** Compile SHA-256 signed decision receipt with full dependency and rollback paths.
+
+## Examples
+
+- **Scenario**: User says "Should we adopt this ancestral farming practice in modern agriculture?"
+  - **Input**: Cross-temporal decision inquiry
+  - **Output**: 32-layer evaluation mapping hydrological buffering topology, civilizational shock-damping score, source-independence provenance audit, tagged AMOS_MODEL with context-dependent recommendations
+
+- **Scenario**: User says "Is this governance model resilient to civilizational shock?"
+  - **Input**: Governance resilience inquiry
+  - **Output**: Polycentric village topology analysis, single-point-of-failure check, shock-damping heuristic evaluation, decision receipt with rollback paths

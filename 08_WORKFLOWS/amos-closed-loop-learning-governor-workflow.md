@@ -7,13 +7,27 @@ Skill: amos-closed-loop-learning-governor
 Agent: amos-closed-loop-learning-governor-agent
 Trigger: When runtime governance engine is needed within the runtime domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/governance
+- capability/learning
+- capability/workflow
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Closed Loop Learning Governor

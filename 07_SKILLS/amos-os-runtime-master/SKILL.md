@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Os Runtime Master"
+title: SKILL — Amos Os Runtime Master
 type: skill
 source: 07_SKILLS/amos-os-runtime-master
 name: amos-os-runtime-master
-description: "AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use for runtime reasoning,..."
+description: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize),
+  infrastructure control plane, deployment. Use for runtime reasoning,...
 parent_skill: none
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-os-runtime-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/runtime
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-os-runtime-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS Full Brain OS — Rebuilt Architecture (2026-08-22)

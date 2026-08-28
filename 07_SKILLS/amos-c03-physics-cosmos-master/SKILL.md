@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos C03 Physics Cosmos Master"
+title: SKILL — Amos C03 Physics Cosmos Master
 type: skill
 source: 07_SKILLS/amos-c03-physics-cosmos-master
 name: amos-c03-physics-cosmos-master
-description: "AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r..."
+description: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime,
+  particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL,
+  never physics claims. Use for physics r...
 parent_skill: none
 domain: c03
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c03-physics-cosmos-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/physics-cosmos
+- canon-group/science
+- topic/physics
+- capability/physics
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-c03-physics-cosmos-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS C03 — Physics & Cosmos Master Knowledge

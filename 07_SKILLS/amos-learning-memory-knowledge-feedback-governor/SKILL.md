@@ -1,21 +1,44 @@
 ---
-title: "SKILL — Amos Learning Memory Knowledge Feedback Governor"
+title: SKILL — Amos Learning Memory Knowledge Feedback Governor
 type: skill
 source: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor
 name: amos-learning-memory-knowledge-feedback-governor
-description: "Learning-Memory-Knowledge Feedback Governor — cross-domain capability bridging C05 Mind & Behavior (inference/learning), Memory Systems (encode/consolidate/retrieve), and Knowledge Research (index/curate/retrieve). Governs the unified feedback loop: C05 inference → encode → Memory → consolidate → Knowledge → retrieve → C05 inference. Enforces epistemic preservation across domain transitions, requires 2+ corroborating entries for consolidation, validates knowledge freshness before application, and traces full provenance chains across the loop. Use when learning outcomes need to be encoded to memory, memory entries need to be consolidated to knowledge, knowledge needs to be retrieved to inform new inference, or the full feedback loop needs governance. Use when amos-knowledge-research-master routes to this specialized capability."
+description: 'Learning-Memory-Knowledge Feedback Governor — cross-domain capability
+  bridging C05 Mind & Behavior (inference/learning), Memory Systems (encode/consolidate/retrieve),
+  and Knowledge Research (index/curate/retrieve). Governs the unified feedback loop:
+  C05 inference → encode → Memory → consolidate → Knowledge → retrieve → C05 inference.
+  Enforces epistemic preservation across domain transitions, requires 2+ corroborating
+  entries for consolidation, validates knowledge freshness before application, and
+  traces full provenance chains across the loop. Use when learning outcomes need to
+  be encoded to memory, memory entries need to be consolidated to knowledge, knowledge
+  needs to be retrieved to inform new inference, or the full feedback loop needs governance.
+  Use when amos-knowledge-research-master routes to this specialized capability.'
 parent_skill: amos-knowledge-research-master
 domain: cross-domain (C05 → Memory → Knowledge)
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-learning-memory-knowledge-feedback-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/memory
+- capability/governance
+- capability/learning
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-learning-memory-knowledge-feedback-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Learning-Memory-Knowledge Feedback Governor

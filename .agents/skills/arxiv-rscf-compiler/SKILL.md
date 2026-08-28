@@ -126,3 +126,13 @@ proof_capsule:
 - **[Schema Specification](references/schema.md)**: Full 22-section schema catalog, flexible output rules, and object templates.
 - **[Quality Gates & Auditing](references/quality-gates.md)**: Mandatory verification checklist covering source fidelity, theorem scope, and epistemic boundaries.
 - **[Canonical Example Node](references/example-node.md)**: Complete normalized reference node for `0708.2180v1`.
+
+## Examples
+
+- **Scenario**: User says "Convert this arXiv paper to AMOS RSCF format"
+  - **Input**: arXiv paper (e.g., 2401.12345v2)
+  - **Output**: Compact AMOS_KNOWLEDGE_OBJECT with 22-section schema, H/M/L tiered content, theorem scope boundaries, epistemic class labels, low retrieval-token cost
+
+- **Scenario**: User says "Ingest this scientific literature into AMOS knowledge"
+  - **Input**: Multiple scientific papers
+  - **Output**: Batch of normalized AMOS_KNOWLEDGE_OBJECTs, each with source-faithful content, equation status tags (ESTABLISHED_MATH/SOURCE_DERIVED/AMOS_MODEL), provenance to arXiv ID

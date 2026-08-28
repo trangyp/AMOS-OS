@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Runtime Benchmarking"
+title: SKILL — Amos Runtime Benchmarking
 type: skill
 source: 07_SKILLS/amos-runtime-benchmarking
 name: amos-runtime-benchmarking
-description: Runtime Benchmarking — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
+description: Runtime Benchmarking — audit and repair capability. Use when auditing,
+  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
+  routes to this specialized capability.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-runtime-benchmarking, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/audit-repair
+- canon-group/tech-ai
+- topic/quality-assurance
+- capability/benchmarking
+- capability/runtime
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-runtime-benchmarking
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Runtime Benchmarking

@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Multimodal Perception Layer"
+title: SKILL — Amos Multimodal Perception Layer
 type: skill
 source: 07_SKILLS/amos-multimodal-perception-layer
 name: amos-multimodal-perception-layer
-description: Multimodal Perception Layer — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability.
+description: Multimodal Perception Layer — mind and behavior capability. Use when
+  psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
+  routes to this specialized capability.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-multimodal-perception-layer, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/mind-behavior
+- canon-group/human-system
+- topic/cognition
+- capability/perception
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-multimodal-perception-layer
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Multimodal Perception Layer

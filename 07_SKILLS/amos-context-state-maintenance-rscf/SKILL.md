@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Context State Maintenance Rscf"
+title: SKILL — Amos Context State Maintenance Rscf
 type: skill
 source: 07_SKILLS/amos-context-state-maintenance-rscf
 name: amos-context-state-maintenance-rscf
-description: Context State Maintenance — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability.
+description: Context State Maintenance — boundary and scope capability. Use when evaluating
+  scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master
+  routes to this specialized capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-context-state-maintenance-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/boundary-scope
+- canon-group/tech-ai
+- topic/scope-management
+- capability/context-management
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-context-state-maintenance-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Context State Maintenance Rscf

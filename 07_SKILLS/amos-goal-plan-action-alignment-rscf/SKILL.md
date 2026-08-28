@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Goal Plan Action Alignment Rscf"
+title: SKILL — Amos Goal Plan Action Alignment Rscf
 type: skill
 source: 07_SKILLS/amos-goal-plan-action-alignment-rscf
 name: amos-goal-plan-action-alignment-rscf
-description: Goal Plan Action Alignment — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this...
+description: Goal Plan Action Alignment — RSCF epistemic capability. Use when classifying
+  claims by epistemic state, validating outputs against epistemic and scope constraints,
+  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-goal-plan-action-alignment-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-goal-plan-action-alignment-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Goal Plan Action Alignment Rscf

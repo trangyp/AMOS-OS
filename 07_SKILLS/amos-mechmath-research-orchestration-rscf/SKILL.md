@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Mechmath Research Orchestration Rscf"
+title: SKILL — Amos Mechmath Research Orchestration Rscf
 type: skill
 source: 07_SKILLS/amos-mechmath-research-orchestration-rscf
 name: amos-mechmath-research-orchestration-rscf
-description: Mechmath Research Orchestration — knowledge research capability. Use when knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Mechmath Research Orchestration — knowledge research capability. Use
+  when knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master
+  routes to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-mechmath-research-orchestration-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/orchestration
+- capability/research
+- capability/mathematics
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-mechmath-research-orchestration-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Mechmath Research Orchestration Rscf

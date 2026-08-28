@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Hierarchical Stack Orchestration Rscf"
+title: SKILL — Amos Hierarchical Stack Orchestration Rscf
 type: skill
 source: 07_SKILLS/amos-hierarchical-stack-orchestration-rscf
 name: amos-hierarchical-stack-orchestration-rscf
-description: Hierarchical Stack Orchestration — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes t...
+description: Hierarchical Stack Orchestration — RSCF epistemic capability. Use when
+  classifying claims by epistemic state, validating outputs against epistemic and
+  scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master
+  routes t...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-hierarchical-stack-orchestration-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- capability/orchestration
+- capability/stack
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-hierarchical-stack-orchestration-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Hierarchical Stack Orchestration Rscf

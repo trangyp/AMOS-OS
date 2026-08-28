@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Counterfactual Selfhood Mapper"
+title: SKILL — Amos Counterfactual Selfhood Mapper
 type: skill
 source: 07_SKILLS/amos-counterfactual-selfhood-mapper
 name: amos-counterfactual-selfhood-mapper
-description: Counterfactual Selfhood Mapper — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability.
+description: Counterfactual Selfhood Mapper — causal reasoning capability. Use when
+  causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
+  routes to this specialized capability.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-counterfactual-selfhood-mapper, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/causal-reasoning
+- canon-group/tech-ai
+- topic/causality
+- capability/counterfactual
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-counterfactual-selfhood-mapper
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Counterfactual Selfhood Mapper

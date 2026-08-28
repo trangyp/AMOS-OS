@@ -7,13 +7,27 @@ Skill: amos-code-agent-harness-rscf
 Agent: amos-code-agent-harness-rscf-agent
 Trigger: When tech-engineering engine is needed within the c10 domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/agent-design
+- capability/workflow
+- capability/code
+- rscf/epistemic
+- orchestration/orchestrator-worker
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Code Agent Harness Rscf

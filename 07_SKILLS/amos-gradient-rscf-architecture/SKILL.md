@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Gradient Rscf Architecture"
+title: SKILL — Amos Gradient Rscf Architecture
 type: skill
 source: 07_SKILLS/amos-gradient-rscf-architecture
 name: amos-gradient-rscf-architecture
-description: Gradient Rscf Architecture — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this...
+description: Gradient Rscf Architecture — RSCF epistemic capability. Use when classifying
+  claims by epistemic state, validating outputs against epistemic and scope constraints,
+  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-gradient-rscf-architecture, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-gradient-rscf-architecture
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Gradient Rscf Architecture

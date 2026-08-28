@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Cognitive Compression Kernel"
+title: SKILL — Amos Cognitive Compression Kernel
 type: skill
 source: 07_SKILLS/amos-cognitive-compression-kernel
 name: amos-cognitive-compression-kernel
-description: Cognitive Compression Kernel — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability.
+description: Cognitive Compression Kernel — mind and behavior capability. Use when
+  psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
+  routes to this specialized capability.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-cognitive-compression-kernel, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/mind-behavior
+- canon-group/human-system
+- topic/cognition
+- capability/kernel
+- capability/cognition
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-cognitive-compression-kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Cognitive Compression Kernel

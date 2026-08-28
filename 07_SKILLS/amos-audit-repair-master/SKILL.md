@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Audit Repair Master"
+title: SKILL — Amos Audit Repair Master
 type: skill
 source: 07_SKILLS/amos-audit-repair-master
 name: amos-audit-repair-master
-description: "AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair allocation. Use for system auditing, gap analysis, or failure recovery."
+description: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing,
+  validation gates, repair allocation. Use for system auditing, gap analysis, or failure
+  recovery.
 parent_skill: none
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-audit-repair-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/audit-repair
+- canon-group/tech-ai
+- topic/quality-assurance
+- capability/repair
+- capability/audit
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-audit-repair-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # L10 Failure & Recovery Laws

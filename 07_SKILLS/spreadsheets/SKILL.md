@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Spreadsheets"
+title: SKILL — Spreadsheets
 type: skill
 source: 07_SKILLS/spreadsheets
 name: spreadsheets
-description: Spreadsheets — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability.
+description: Spreadsheets — technology and engineering capability. Use when software
+  development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master
+  routes to this specialized capability.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, spreadsheets, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/tech-engineering
+- canon-group/tech-ai
+- topic/engineering
+- capability/spreadsheets
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- spreadsheets
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Spreadsheets

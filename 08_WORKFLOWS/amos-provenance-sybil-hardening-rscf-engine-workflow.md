@@ -7,13 +7,25 @@ Skill: amos-provenance-sybil-hardening-rscf-engine
 Agent: amos-provenance-sybil-hardening-rscf-engine-agent
 Trigger: When security and trust engine is needed within the security domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/workflow
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Provenance Sybil Hardening Rscf Engine

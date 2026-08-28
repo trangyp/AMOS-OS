@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Rscf Epistemic Master"
+title: SKILL — Amos Rscf Epistemic Master
 type: skill
 source: 07_SKILLS/amos-rscf-epistemic-master
 name: amos-rscf-epistemic-master
-description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence ceiling. 6 state kinds. Use for epistemic classification, claim assessment, or evidence validation.
+description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence
+  ceiling. 6 state kinds. Use for epistemic classification, claim assessment, or evidence
+  validation.
 parent_skill: none
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-rscf-epistemic-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-rscf-epistemic-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # L11 Knowledge & Memory Laws

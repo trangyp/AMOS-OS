@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Mckinsey Banking Crm Assessment Rscf"
+title: SKILL — Mckinsey Banking Crm Assessment Rscf
 type: skill
 source: 07_SKILLS/mckinsey-banking-crm-assessment-rscf
 name: mckinsey-banking-crm-assessment-rscf
-description: Banking Crm Assessment — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability.
+description: Banking Crm Assessment — McKinsey strategic capability. Use when strategic
+  analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master
+  routes to this specialized capability.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, mckinsey-banking-crm-assessment-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/strategy-game
+- canon-group/human-system
+- topic/strategy
+- capability/mckinsey-strategy
+- topic/consulting
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- mckinsey-banking-crm-assessment-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Mckinsey: banking Crm Assessment Rscf

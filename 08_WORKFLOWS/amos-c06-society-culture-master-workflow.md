@@ -5,15 +5,30 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c06-society-culture-master
 Agent: amos-c06-society-culture-agent
-Trigger: "AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic patterns, anthropology. Use for social analysis, cultural reasoning, or Vietnamese"
+Trigger: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese
+  language/regional analysis, linguistic patterns, anthropology. Use for social analysis,
+  cultural reasoning, or Vietnamese
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/society-culture
+- canon-group/human-system
+- topic/sociology
+- capability/workflow
+- capability/ast
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: AMOS C06 — Society & Culture Master

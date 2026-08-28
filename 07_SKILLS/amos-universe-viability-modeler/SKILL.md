@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Universe Viability Modeler"
+title: SKILL — Amos Universe Viability Modeler
 type: skill
 source: 07_SKILLS/amos-universe-viability-modeler
 name: amos-universe-viability-modeler
-description: Universe Viability Modeler — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability.
+description: Universe Viability Modeler — canon and universe capability. Use when
+  canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master
+  routes to this specialized capability.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-universe-viability-modeler, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/canon-universe
+- canon-group/tech-ai
+- topic/canon
+- capability/universe
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-universe-viability-modeler
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Universe Viability Modeler

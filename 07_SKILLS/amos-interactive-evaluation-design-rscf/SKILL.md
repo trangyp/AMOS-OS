@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Interactive Evaluation Design Rscf"
+title: SKILL — Amos Interactive Evaluation Design Rscf
 type: skill
 source: 07_SKILLS/amos-interactive-evaluation-design-rscf
 name: amos-interactive-evaluation-design-rscf
-description: Interactive Evaluation Design — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability.
+description: Interactive Evaluation Design — technology and engineering capability.
+  Use when software development, engineering design, or technical architecture. Use
+  when amos-c10-tech-engineering-master routes to this specialized capability.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-interactive-evaluation-design-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/tech-engineering
+- canon-group/tech-ai
+- topic/engineering
+- capability/design
+- capability/interactive
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-interactive-evaluation-design-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Interactive Evaluation Design Rscf

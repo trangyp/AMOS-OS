@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Strict Fractal Equation Rscf Registry"
+title: SKILL — Amos Strict Fractal Equation Rscf Registry
 type: skill
 source: 07_SKILLS/amos-strict-fractal-equation-rscf-registry
 name: amos-strict-fractal-equation-rscf-registry
-description: Strict Fractal Equation Rscf Registry — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized capability.
+description: Strict Fractal Equation Rscf Registry — fractal systems capability. Use
+  when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master
+  routes to this specialized capability.
 parent_skill: amos-fractal-systems-master
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-strict-fractal-equation-rscf-registry, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/fractal-systems
+- canon-group/tech-ai
+- topic/fractals
+- capability/fractal
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-strict-fractal-equation-rscf-registry
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Strict Fractal Equation Rscf Registry

@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Fractal Math"
+title: SKILL — Amos Fractal Math
 type: skill
 source: 07_SKILLS/amos-fractal-math
 name: amos-fractal-math
-description: Fractal Math — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized capability.
+description: Fractal Math — fractal systems capability. Use when fractal analysis,
+  scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master
+  routes to this specialized capability.
 parent_skill: amos-fractal-systems-master
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-fractal-math, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/fractal-systems
+- canon-group/tech-ai
+- topic/fractals
+- capability/fractal
+- capability/mathematics
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-fractal-math
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Fractal Math

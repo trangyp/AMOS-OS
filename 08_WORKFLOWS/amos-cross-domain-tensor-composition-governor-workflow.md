@@ -5,15 +5,32 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-cross-domain-tensor-composition-governor
 Agent: amos-cross-domain-tensor-composition-governor-agent
-Trigger: When composing typed tensors (claims, evidence, reasoning) across two or more AMOS domain boundaries (C01-C12), or when validating cross-domain epistemic integrity, or when amos-rscf-epistemic-master routes to cross-domain composition governance
+Trigger: When composing typed tensors (claims, evidence, reasoning) across two or
+  more AMOS domain boundaries (C01-C12), or when validating cross-domain epistemic
+  integrity, or when amos-rscf-epistemic-master routes to cross-domain composition
+  governance
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/tensor
+- capability/governance
+- capability/workflow
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Cross-Domain Tensor Composition Governor

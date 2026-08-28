@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Arxiv Quantum Koopman Rscf"
+title: SKILL — Amos Arxiv Quantum Koopman Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf
 name: amos-arxiv-quantum-koopman-rscf
-description: Arxiv Quantum Koopman — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Arxiv Quantum Koopman — arxiv research capability. Use when arxiv research,
+  paper analysis, or literature review. Use when amos-knowledge-research-master routes
+  to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-arxiv-quantum-koopman-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/arxiv-research
+- topic/research
+- capability/quantum
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-arxiv-quantum-koopman-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Arxiv: quantum Koopman Rscf

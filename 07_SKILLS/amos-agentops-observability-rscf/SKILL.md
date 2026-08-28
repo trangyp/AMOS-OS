@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Agentops Observability Rscf"
+title: SKILL — Amos Agentops Observability Rscf
 type: skill
 source: 07_SKILLS/amos-agentops-observability-rscf
 name: amos-agentops-observability-rscf
-description: Agentops Observability — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability.
+description: Agentops Observability — agent systems capability. Use when agent design,
+  delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master
+  routes to this specialized capability.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-agentops-observability-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/agent-design
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-agentops-observability-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Agentops Observability Rscf

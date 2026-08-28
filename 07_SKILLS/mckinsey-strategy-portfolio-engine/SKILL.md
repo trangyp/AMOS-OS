@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Mckinsey Strategy Portfolio Engine"
+title: SKILL — Mckinsey Strategy Portfolio Engine
 type: skill
 source: 07_SKILLS/mckinsey-strategy-portfolio-engine
 name: mckinsey-strategy-portfolio-engine
-description: Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability.
+description: Strategy Portfolio Engine — McKinsey strategic capability. Use when strategic
+  analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master
+  routes to this specialized capability.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, mckinsey-strategy-portfolio-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/strategy-game
+- canon-group/human-system
+- topic/strategy
+- capability/mckinsey-strategy
+- topic/consulting
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- mckinsey-strategy-portfolio-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Mckinsey: strategy Portfolio Engine

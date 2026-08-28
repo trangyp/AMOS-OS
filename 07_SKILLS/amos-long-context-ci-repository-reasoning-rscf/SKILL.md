@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Long Context Ci Repository Reasoning Rscf"
+title: SKILL — Amos Long Context Ci Repository Reasoning Rscf
 type: skill
 source: 07_SKILLS/amos-long-context-ci-repository-reasoning-rscf
 name: amos-long-context-ci-repository-reasoning-rscf
-description: Long Context Ci Repository Reasoning — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability.
+description: Long Context Ci Repository Reasoning — boundary and scope capability.
+  Use when evaluating scope boundaries, context continuity, or capability bounds.
+  Use when amos-boundary-scope-master routes to this specialized capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-long-context-ci-repository-reasoning-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/boundary-scope
+- canon-group/tech-ai
+- topic/scope-management
+- capability/context-management
+- capability/repository
+- capability/long-context
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-long-context-ci-repository-reasoning-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Long Context Ci Repository Reasoning Rscf

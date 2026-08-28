@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Context Persona Drift Rscf"
+title: SKILL — Amos Context Persona Drift Rscf
 type: skill
 source: 07_SKILLS/amos-context-persona-drift-rscf
 name: amos-context-persona-drift-rscf
-description: Context Persona Drift — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability.
+description: Context Persona Drift — boundary and scope capability. Use when evaluating
+  scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master
+  routes to this specialized capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-context-persona-drift-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/boundary-scope
+- canon-group/tech-ai
+- topic/scope-management
+- capability/context-management
+- capability/drift-detection
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-context-persona-drift-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Context Persona Drift Rscf

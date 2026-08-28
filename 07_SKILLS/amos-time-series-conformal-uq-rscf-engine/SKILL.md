@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Time Series Conformal Uq Rscf Engine"
+title: SKILL — Amos Time Series Conformal Uq Rscf Engine
 type: skill
 source: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine
 name: amos-time-series-conformal-uq-rscf-engine
-description: Time Series Conformal Uq — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability.
+description: Time Series Conformal Uq — formal verification capability. Use when formal
+  verification, symbolic execution, proof checking, or mathematical reasoning. Use
+  when amos-formal-engines-master routes to this specialized capability.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-time-series-conformal-uq-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/formal-engines
+- canon-group/tech-ai
+- topic/formal-verification
+- capability/formal-verification
+- capability/conformal
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-time-series-conformal-uq-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Time Series Conformal Uq Rscf Engine

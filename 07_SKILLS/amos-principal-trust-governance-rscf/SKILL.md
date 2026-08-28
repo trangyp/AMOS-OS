@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Principal Trust Governance Rscf"
+title: SKILL — Amos Principal Trust Governance Rscf
 type: skill
 source: 07_SKILLS/amos-principal-trust-governance-rscf
 name: amos-principal-trust-governance-rscf
-description: Principal Trust Governance — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability.
+description: Principal Trust Governance — security and safety capability. Use when
+  security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master
+  routes to this specialized capability.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-principal-trust-governance-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- capability/trust
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-principal-trust-governance-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Principal Trust Governance Rscf

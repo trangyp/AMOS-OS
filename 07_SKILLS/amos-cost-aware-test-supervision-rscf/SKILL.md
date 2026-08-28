@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Cost Aware Test Supervision Rscf"
+title: SKILL — Amos Cost Aware Test Supervision Rscf
 type: skill
 source: 07_SKILLS/amos-cost-aware-test-supervision-rscf
 name: amos-cost-aware-test-supervision-rscf
-description: Cost Aware Test Supervision — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability.
+description: Cost Aware Test Supervision — super engines capability. Use when super-engine
+  reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master
+  routes to this specialized capability.
 parent_skill: amos-super-engines-master
 domain: super
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-cost-aware-test-supervision-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/super-engines
+- canon-group/human-system
+- topic/consciousness
+- capability/testing
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-cost-aware-test-supervision-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Cost Aware Test Supervision Rscf

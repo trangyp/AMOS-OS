@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos C09 Org Law Policy Master"
+title: SKILL — Amos C09 Org Law Policy Master
 type: skill
 source: 07_SKILLS/amos-c09-org-law-policy-master
 name: amos-c09-org-law-policy-master
-description: "AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol..."
+description: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory
+  frameworks, constitutional governance, legal reasoning, policy analysis. Use for
+  governance design, legal analysis, or pol...
 parent_skill: none
 domain: c09
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c09-org-law-policy-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/org-law-policy
+- canon-group/human-system
+- topic/governance
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-c09-org-law-policy-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS C09 — Organization, Law & Policy Master Knowledge

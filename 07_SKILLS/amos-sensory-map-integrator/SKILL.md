@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Sensory Map Integrator"
+title: SKILL — Amos Sensory Map Integrator
 type: skill
 source: 07_SKILLS/amos-sensory-map-integrator
 name: amos-sensory-map-integrator
-description: Sensory Map Integrator — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability.
+description: Sensory Map Integrator — biology and neuroscience capability. Use when
+  biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
+  routes to this specialized capability.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-sensory-map-integrator, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/bio-neuro
+- canon-group/biology
+- topic/neuroscience
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-sensory-map-integrator
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Sensory Map Integrator

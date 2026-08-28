@@ -56,3 +56,13 @@ This skill governs the execution of structural lifecycle modeling and predictive
 3. **Decoupling Gating:** If $\Omega \ge 0.7$, partition affected subsystems and emit decoupling alert.
 4. **Scenario Superposition:** Expand competing multi-horizon forecast branches and probe for structural bifurcations.
 5. **Signed Playbook Synthesis:** Generate actionable strategic playbooks with explicit falsification conditions and rollback paths.
+
+## Examples
+
+- **Scenario**: User says "Is our startup at risk of structural collapse?"
+  - **Input**: Startup health inquiry
+  - **Output**: TSS state tracking ($\Omega, H, F, S$ vectors), 7-cycle phase mapping (identify current cycle $C_n$), decoupling gate check ($\Omega \ge 0.7$), multi-horizon intervention plan
+
+- **Scenario**: User says "When should we pivot vs. persevere?"
+  - **Input**: Strategic direction decision
+  - **Output**: TPE 7-layer foresight analysis, competing forecast branches (COMPETING, no forced convergence), falsification conditions per branch, signed playbook with rollback paths

@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Neural Ode Dynamics Rscf Engine"
+title: SKILL — Amos Neural Ode Dynamics Rscf Engine
 type: skill
 source: 07_SKILLS/amos-neural-ode-dynamics-rscf-engine
 name: amos-neural-ode-dynamics-rscf-engine
-description: Neural Ode Dynamics — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability.
+description: Neural Ode Dynamics — biology and neuroscience capability. Use when biological
+  reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
+  routes to this specialized capability.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-neural-ode-dynamics-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/bio-neuro
+- canon-group/biology
+- topic/neuroscience
+- capability/neural
+- capability/dynamics
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-neural-ode-dynamics-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Neural Ode Dynamics Rscf Engine

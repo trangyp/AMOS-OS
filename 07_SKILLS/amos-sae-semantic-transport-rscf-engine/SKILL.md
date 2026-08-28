@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Sae Semantic Transport Rscf Engine"
+title: SKILL — Amos Sae Semantic Transport Rscf Engine
 type: skill
 source: 07_SKILLS/amos-sae-semantic-transport-rscf-engine
 name: amos-sae-semantic-transport-rscf-engine
-description: Sae Semantic Transport — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this spe...
+description: Sae Semantic Transport — RSCF epistemic capability. Use when classifying
+  claims by epistemic state, validating outputs against epistemic and scope constraints,
+  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this
+  spe...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-sae-semantic-transport-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- capability/sparse-autoencoder
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-sae-semantic-transport-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Sae Semantic Transport Rscf Engine

@@ -5,15 +5,34 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-security-control-access-bridge-governor
 Agent: amos-security-control-access-bridge-governor-agent
-Trigger: When designing, validating, or auditing a security control access pipeline from policy to enforcement, or when translating C09 security policy into C10 access control mechanisms, or when validating that runtime enforcement matches policy and mechanism, or when detecting drift between security policy and access control implementation, or when amos-security-safety-master routes to cross-domain security-control-access bridge governance
+Trigger: When designing, validating, or auditing a security control access pipeline
+  from policy to enforcement, or when translating C09 security policy into C10 access
+  control mechanisms, or when validating that runtime enforcement matches policy and
+  mechanism, or when detecting drift between security policy and access control implementation,
+  or when amos-security-safety-master routes to cross-domain security-control-access
+  bridge governance
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- capability/security
+- capability/governance
+- capability/workflow
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Security-Control-Access Bridge Governor

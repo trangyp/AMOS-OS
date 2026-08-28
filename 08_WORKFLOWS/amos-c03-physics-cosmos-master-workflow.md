@@ -5,15 +5,31 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c03-physics-cosmos-master
 Agent: amos-c03-physics-cosmos-agent
-Trigger: "AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL, never physics claims. Use for physics r"
+Trigger: AMOS C03 Physics & Cosmos — quantum mechanics, cosmology, spacetime, particle
+  physics, and quantum analogies for reasoning. Quantum terms labeled AMOS_MODEL,
+  never physics claims. Use for physics r
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/physics-cosmos
+- canon-group/science
+- topic/physics
+- capability/workflow
+- capability/physics
+- capability/ast
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: AMOS C03 — Physics & Cosmos Master

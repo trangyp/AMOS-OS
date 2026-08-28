@@ -40,3 +40,13 @@ This skill governs high-dimensional quantum-analogous logical reasoning, multi-s
 3. **Lacunarity Texture Check:** Evaluate structural gaps ($\Lambda$) in the reasoning graph.
 4. **Interference & Constraint Filtering:** Apply constructive and destructive logic filters (ULK ALUs).
 5. **Deterministic Collapse:** Apply $\hat{\mathcal{M}}$ to commit the verified solution branch into an atomic RSCF proof capsule.
+
+## Examples
+
+- **Scenario**: User says "Evaluate these 3 competing logic branches simultaneously"
+  - **Input**: Multi-state logic problem with 3 branches
+  - **Output**: QLS superposition of all 3 branches, fractal H/M/L decomposition, lacunarity check, deterministic collapse to verified solution with RSCF proof capsule
+
+- **Scenario**: User says "What's the fractal dimension of this reasoning structure?"
+  - **Input**: Reasoning graph structure
+  - **Output**: Scale-invariant fractal decomposition (H/M/L levels), lacunarity texture analysis $\Lambda$, self-similarity detection tagged AMOS_MODEL

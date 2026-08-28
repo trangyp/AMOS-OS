@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Awareness Inference Governor"
+title: SKILL — Amos Awareness Inference Governor
 type: skill
 source: 07_SKILLS/amos-awareness-inference-governor
 name: amos-awareness-inference-governor
-description: Awareness Inference Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability.
+description: Awareness Inference Governor — mind and behavior capability. Use when
+  psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master
+  routes to this specialized capability.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-awareness-inference-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/mind-behavior
+- canon-group/human-system
+- topic/cognition
+- capability/governance
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-awareness-inference-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Awareness Inference Governor

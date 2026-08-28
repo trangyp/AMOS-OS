@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos C12 Earth Ecology Master"
+title: SKILL — Amos C12 Earth Ecology Master
 type: skill
 source: 07_SKILLS/amos-c12-earth-ecology-master
 name: amos-c12-earth-ecology-master
-description: "AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure, electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental analysis, energy system..."
+description: AMOS C12 Earth & Ecology — climate, environment, hydro energy, EV infrastructure,
+  electrical power, hydrogen, battery systems, solar, wind, green tech. Use for environmental
+  analysis, energy system...
 parent_skill: none
 domain: c12
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c12-earth-ecology-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/earth-ecology
+- canon-group/science
+- topic/ecology
+- capability/ecology
+- capability/earth
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-c12-earth-ecology-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS C12 — Earth & Ecology Master Knowledge

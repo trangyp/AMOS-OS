@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Fractal Systems Master"
+title: SKILL — Amos Fractal Systems Master
 type: skill
 source: 07_SKILLS/amos-fractal-systems-master
 name: amos-fractal-systems-master
-description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use for fractal analysis, scale r...
+description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity,
+  scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal
+  database. Use for fractal analysis, scale r...
 parent_skill: none
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-fractal-systems-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/fractal-systems
+- canon-group/tech-ai
+- topic/fractals
+- capability/fractal
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-fractal-systems-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # L15 Fractal Knowledge Laws

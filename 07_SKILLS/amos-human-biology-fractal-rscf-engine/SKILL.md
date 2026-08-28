@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Human Biology Fractal Rscf Engine"
+title: SKILL — Amos Human Biology Fractal Rscf Engine
 type: skill
 source: 07_SKILLS/amos-human-biology-fractal-rscf-engine
 name: amos-human-biology-fractal-rscf-engine
-description: Human Biology Fractal — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized capability.
+description: Human Biology Fractal — fractal systems capability. Use when fractal
+  analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master
+  routes to this specialized capability.
 parent_skill: amos-fractal-systems-master
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-human-biology-fractal-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/fractal-systems
+- canon-group/tech-ai
+- topic/fractals
+- capability/fractal
+- capability/biology
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-human-biology-fractal-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Human Biology Fractal Rscf Engine

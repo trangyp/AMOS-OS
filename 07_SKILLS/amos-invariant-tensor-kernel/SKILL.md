@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Invariant Tensor Kernel"
+title: SKILL — Amos Invariant Tensor Kernel
 type: skill
 source: 07_SKILLS/amos-invariant-tensor-kernel
 name: amos-invariant-tensor-kernel
-description: Invariant Tensor Kernel — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability.
+description: Invariant Tensor Kernel — formal verification capability. Use when formal
+  verification, symbolic execution, proof checking, or mathematical reasoning. Use
+  when amos-formal-engines-master routes to this specialized capability.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-invariant-tensor-kernel, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/formal-engines
+- canon-group/tech-ai
+- topic/formal-verification
+- capability/tensor
+- capability/kernel
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-invariant-tensor-kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Invariant Tensor Kernel

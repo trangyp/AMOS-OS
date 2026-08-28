@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Arxiv Conrad Radiomics Rscf"
+title: SKILL — Amos Arxiv Conrad Radiomics Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-conrad-radiomics-rscf
 name: amos-arxiv-conrad-radiomics-rscf
-description: Arxiv Conrad Radiomics — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Arxiv Conrad Radiomics — arxiv research capability. Use when arxiv research,
+  paper analysis, or literature review. Use when amos-knowledge-research-master routes
+  to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-arxiv-conrad-radiomics-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/arxiv-research
+- topic/research
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-arxiv-conrad-radiomics-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Arxiv: conrad Radiomics Rscf

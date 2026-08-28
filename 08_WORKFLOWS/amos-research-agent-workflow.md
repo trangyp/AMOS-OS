@@ -7,13 +7,27 @@ Skill: amos-research-agent
 Agent: amos-research-agent-agent
 Trigger: When knowledge-research engine is needed within the knowledge domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/research
+- capability/agent-design
+- capability/workflow
+- rscf/epistemic
+- orchestration/orchestrator-worker
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Research Agent

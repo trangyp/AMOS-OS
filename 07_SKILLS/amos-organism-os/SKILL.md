@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Organism Os"
+title: SKILL — Amos Organism Os
 type: skill
 source: 07_SKILLS/amos-organism-os
 name: amos-organism-os
-description: Organism Os — canon and universe capability. Use when canon reasoning, universe-level analysis, or invariant verification. Use when amos-canon-universe-master routes to this specialized capability.
+description: Organism Os — canon and universe capability. Use when canon reasoning,
+  universe-level analysis, or invariant verification. Use when amos-canon-universe-master
+  routes to this specialized capability.
 parent_skill: amos-canon-universe-master
 domain: canon
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-organism-os, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/canon-universe
+- canon-group/tech-ai
+- topic/canon
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-organism-os
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Organism Os

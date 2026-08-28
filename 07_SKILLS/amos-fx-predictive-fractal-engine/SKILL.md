@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Fx Predictive Fractal Engine"
+title: SKILL — Amos Fx Predictive Fractal Engine
 type: skill
 source: 07_SKILLS/amos-fx-predictive-fractal-engine
 name: amos-fx-predictive-fractal-engine
-description: Predictive Fractal Engine — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Predictive Fractal Engine — forex and finance capability. Use when forex
+  analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master
+  routes to this specialized capability.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-fx-predictive-fractal-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/econ-finance
+- canon-group/tech-ai
+- topic/finance
+- capability/forex
+- topic/forex
+- capability/fractal
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-fx-predictive-fractal-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Fx Predictive Fractal Engine

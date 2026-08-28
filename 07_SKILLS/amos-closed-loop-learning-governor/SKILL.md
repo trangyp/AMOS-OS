@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Closed Loop Learning Governor"
+title: SKILL — Amos Closed Loop Learning Governor
 type: skill
 source: 07_SKILLS/amos-closed-loop-learning-governor
 name: amos-closed-loop-learning-governor
-description: Closed Loop Learning Governor — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
+description: Closed Loop Learning Governor — runtime and OS capability. Use when runtime
+  reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master
+  routes to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-closed-loop-learning-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/governance
+- capability/learning
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-closed-loop-learning-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Closed Loop Learning Governor

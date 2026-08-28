@@ -17,3 +17,13 @@ This skill allows Antigravity to parse and execute any of the 200+ canonical wor
 3. **Transform / Compute**: Execute the step-by-step instructions defined in `amos-*-workflow.md`.
 4. **Validate**: Perform promotion-gate checklists, receipt logging, and invariant checks.
 5. **Commit / Export**: Update vault notes, indexes, or state registries following AMOS standards.
+
+## Examples
+
+- **Scenario**: User says "Run the gap closure workflow"
+  - **Input**: Request to execute multi-step AMOS workflow
+  - **Output**: Load `amos-gap-closure-workflow.md`, execute steps in sequence with gate checks between each, return structured result with provenance and epistemic labels
+
+- **Scenario**: User says "Execute the epistemic audit pipeline"
+  - **Input**: Audit pipeline request
+  - **Output**: Sequential execution of audit workflow steps, gate enforcement at each checkpoint, failure-path activation if any gate fails, final audit report with confidence ceiling

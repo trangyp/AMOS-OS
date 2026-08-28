@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Arxiv Structured Gp Omics Uq Rscf"
+title: SKILL — Arxiv Structured Gp Omics Uq Rscf
 type: skill
 source: 07_SKILLS/arxiv-structured-gp-omics-uq-rscf
 name: arxiv-structured-gp-omics-uq-rscf
-description: Structured Gp Omics Uq — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Structured Gp Omics Uq — arxiv research capability. Use when arxiv research,
+  paper analysis, or literature review. Use when amos-knowledge-research-master routes
+  to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, arxiv-structured-gp-omics-uq-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/arxiv-research
+- topic/research
+- capability/structured-execution
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- arxiv-structured-gp-omics-uq-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Arxiv: structured Gp Omics Uq Rscf

@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Agent Externalization Architecture Rscf"
+title: SKILL — Amos Agent Externalization Architecture Rscf
 type: skill
 source: 07_SKILLS/amos-agent-externalization-architecture-rscf
 name: amos-agent-externalization-architecture-rscf
-description: Agent Externalization Architecture — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability.
+description: Agent Externalization Architecture — agent systems capability. Use when
+  agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master
+  routes to this specialized capability.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-agent-externalization-architecture-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/agent-design
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-agent-externalization-architecture-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Agent Externalization Architecture Rscf

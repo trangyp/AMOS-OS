@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Law Hierarchy Resolver"
+title: SKILL — Amos Law Hierarchy Resolver
 type: skill
 source: 07_SKILLS/amos-law-hierarchy-resolver
 name: amos-law-hierarchy-resolver
-description: Law Hierarchy Resolver — meta logic capability. Use when logic reasoning, decomposition, or meta-law validation. Use when amos-c01-meta-logic-master routes to this specialized capability.
+description: Law Hierarchy Resolver — meta logic capability. Use when logic reasoning,
+  decomposition, or meta-law validation. Use when amos-c01-meta-logic-master routes
+  to this specialized capability.
 parent_skill: amos-c01-meta-logic-master
 domain: c01
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-law-hierarchy-resolver, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/meta-logic
+- canon-group/tech-ai
+- topic/logic
+- capability/hierarchy
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-law-hierarchy-resolver
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Law Hierarchy Resolver

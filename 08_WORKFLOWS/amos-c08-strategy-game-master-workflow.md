@@ -5,15 +5,30 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c08-strategy-game-master
 Agent: amos-c08-strategy-game-agent
-Trigger: "AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use for strategic analysi"
+Trigger: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation,
+  Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook
+  strategy. Use for strategic analysi
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/strategy-game
+- canon-group/human-system
+- topic/strategy
+- capability/workflow
+- capability/ast
+- rscf/epistemic
+- orchestration/orchestrator-worker
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: AMOS C08 — Strategy & Game Master

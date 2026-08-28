@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Security Safety Master"
+title: SKILL — Amos Security Safety Master
 type: skill
 source: 07_SKILLS/amos-security-safety-master
 name: amos-security-safety-master
-description: "AMOS Security & Safety — adversarial robustness, privacy, safety firewalls, immune systems, drift alignment. Use for security analysis, safety verification, or adversarial defense."
+description: AMOS Security & Safety — adversarial robustness, privacy, safety firewalls,
+  immune systems, drift alignment. Use for security analysis, safety verification,
+  or adversarial defense.
 parent_skill: none
 domain: security
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-security-safety-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- capability/security
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-security-safety-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # SECURITY README

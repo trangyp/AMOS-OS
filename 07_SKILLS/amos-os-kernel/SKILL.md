@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Os Kernel"
+title: SKILL — Amos Os Kernel
 type: skill
 source: 07_SKILLS/amos-os-kernel
 name: amos-os-kernel
-description: Os Kernel — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
+description: Os Kernel — runtime and OS capability. Use when runtime reasoning, OS
+  kernel operations, or adaptive stability. Use when amos-os-runtime-master routes
+  to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-os-kernel, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/kernel
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-os-kernel
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Os Kernel

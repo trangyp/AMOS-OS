@@ -5,15 +5,31 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-7-part-universe-canon-full
 Agent: amos-7-part-universe-canon-full-agent
-Trigger: When canon and universe engine is needed within the canon domain, including structural coverage analysis, persistence function mapping, canon compliance validation, or 7-part canon testing.
+Trigger: When canon and universe engine is needed within the canon domain, including
+  structural coverage analysis, persistence function mapping, canon compliance validation,
+  or 7-part canon testing.
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/canon-universe
+- canon-group/tech-ai
+- topic/canon
+- capability/canon
+- capability/universe
+- capability/workflow
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: 7 Part Universe Canon Full

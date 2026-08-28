@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Qls Qic Substrate Mapper"
+title: SKILL — Amos Qls Qic Substrate Mapper
 type: skill
 source: 07_SKILLS/amos-qls-qic-substrate-mapper
 name: amos-qls-qic-substrate-mapper
-description: Qls Qic Substrate Mapper — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
+description: Qls Qic Substrate Mapper — runtime and OS capability. Use when runtime
+  reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master
+  routes to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-qls-qic-substrate-mapper, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-qls-qic-substrate-mapper
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Qls Qic Substrate Mapper

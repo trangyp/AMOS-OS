@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Forex Unified Os"
+title: SKILL — Amos Forex Unified Os
 type: skill
 source: 07_SKILLS/amos-forex-unified-os
 name: amos-forex-unified-os
-description: Forex Unified Os — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Forex Unified Os — forex and finance capability. Use when forex analysis,
+  currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes
+  to this specialized capability.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-forex-unified-os, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/econ-finance
+- canon-group/tech-ai
+- topic/finance
+- capability/forex
+- topic/forex
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-forex-unified-os
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Forex Unified Os

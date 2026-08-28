@@ -5,15 +5,30 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c04-bio-neuro-master
 Agent: amos-c04-bio-neuro-agent
-Trigger: "AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological"
+Trigger: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI,
+  cell intelligence, genetics, molecular biology. Biological logic translation for
+  cognitive architecture. Use for biological
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/bio-neuro
+- canon-group/biology
+- topic/neuroscience
+- capability/workflow
+- capability/ast
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: AMOS C04 — Bio & Neuro Master

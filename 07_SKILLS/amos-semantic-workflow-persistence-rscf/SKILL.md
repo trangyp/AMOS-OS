@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Semantic Workflow Persistence Rscf"
+title: SKILL — Amos Semantic Workflow Persistence Rscf
 type: skill
 source: 07_SKILLS/amos-semantic-workflow-persistence-rscf
 name: amos-semantic-workflow-persistence-rscf
-description: Semantic Workflow Persistence — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to t...
+description: Semantic Workflow Persistence — RSCF epistemic capability. Use when classifying
+  claims by epistemic state, validating outputs against epistemic and scope constraints,
+  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to t...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-semantic-workflow-persistence-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- capability/workflow
+- capability/persistence
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-semantic-workflow-persistence-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Semantic Workflow Persistence Rscf

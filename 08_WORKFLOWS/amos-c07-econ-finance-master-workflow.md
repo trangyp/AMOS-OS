@@ -5,15 +5,30 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c07-econ-finance-master
 Agent: amos-c07-econ-finance-agent
-Trigger: "AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale. Use for financial analysis, economic"
+Trigger: 'AMOS C07 Econ & Finance — unit economics, forex, investment, wealth, business
+  analysis, market dynamics, trade. BizFin Engine: unit economics first, then scale.
+  Use for financial analysis, economic'
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/econ-finance
+- canon-group/tech-ai
+- topic/finance
+- capability/workflow
+- capability/ast
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: AMOS C07 — Econ & Finance Master

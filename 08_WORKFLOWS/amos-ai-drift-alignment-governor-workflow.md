@@ -7,13 +7,27 @@ Skill: amos-ai-drift-alignment-governor
 Agent: amos-ai-drift-alignment-governor-agent
 Trigger: When runtime governance engine is needed within the runtime domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/governance
+- capability/workflow
+- capability/drift-detection
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Ai Drift Alignment Governor

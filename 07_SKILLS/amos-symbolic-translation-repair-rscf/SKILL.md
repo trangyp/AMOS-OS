@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Symbolic Translation Repair Rscf"
+title: SKILL — Amos Symbolic Translation Repair Rscf
 type: skill
 source: 07_SKILLS/amos-symbolic-translation-repair-rscf
 name: amos-symbolic-translation-repair-rscf
-description: Symbolic Translation Repair — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
+description: Symbolic Translation Repair — audit and repair capability. Use when auditing,
+  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
+  routes to this specialized capability.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-symbolic-translation-repair-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/audit-repair
+- canon-group/tech-ai
+- topic/quality-assurance
+- capability/repair
+- capability/symbolic
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-symbolic-translation-repair-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Symbolic Translation Repair Rscf

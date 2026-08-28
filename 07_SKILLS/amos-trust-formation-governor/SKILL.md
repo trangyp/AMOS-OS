@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Trust Formation Governor"
+title: SKILL — Amos Trust Formation Governor
 type: skill
 source: 07_SKILLS/amos-trust-formation-governor
 name: amos-trust-formation-governor
-description: Trust Formation Governor — organization, law and policy capability. Use when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized capability.
+description: Trust Formation Governor — organization, law and policy capability. Use
+  when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master
+  routes to this specialized capability.
 parent_skill: amos-c09-org-law-policy-master
 domain: c09
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-trust-formation-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/org-law-policy
+- canon-group/human-system
+- topic/governance
+- capability/trust
+- capability/governance
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-trust-formation-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Trust Formation Governor

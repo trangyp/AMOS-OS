@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Skill Creator"
+title: SKILL — Skill Creator
 type: skill
 source: 07_SKILLS/skill-creator
 name: skill-creator
-description: Skill Creator — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability.
+description: Skill Creator — agent systems capability. Use when agent design, delegation
+  reasoning, or multi-agent governance. Use when amos-agent-systems-master routes
+  to this specialized capability.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, skill-creator, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/skill-design
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- skill-creator
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Skill Creator

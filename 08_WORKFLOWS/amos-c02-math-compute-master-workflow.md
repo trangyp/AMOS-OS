@@ -5,15 +5,31 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c02-math-compute-master
 Agent: amos-c02-math-compute-agent
-Trigger: "AMOS C02 Math & Compute — 10 knowledge families: problem framing, numerical methods, probability/statistics, optimization, complexity, control systems, signal processing, simulation, meta-control,"
+Trigger: 'AMOS C02 Math & Compute — 10 knowledge families: problem framing, numerical
+  methods, probability/statistics, optimization, complexity, control systems, signal
+  processing, simulation, meta-control,'
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/math-compute
+- canon-group/tech-ai
+- topic/mathematics
+- capability/workflow
+- capability/mathematics
+- capability/ast
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: AMOS C02 — Math & Compute Master

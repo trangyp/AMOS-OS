@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Ai Drift Alignment Governor"
+title: SKILL — Amos Ai Drift Alignment Governor
 type: skill
 source: 07_SKILLS/amos-ai-drift-alignment-governor
 name: amos-ai-drift-alignment-governor
-description: Ai Drift Alignment Governor — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
+description: Ai Drift Alignment Governor — runtime and OS capability. Use when runtime
+  reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master
+  routes to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-ai-drift-alignment-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/governance
+- capability/drift-detection
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-ai-drift-alignment-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Ai Drift Alignment Governor

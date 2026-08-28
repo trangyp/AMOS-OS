@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Neural Computation Mapper"
+title: SKILL — Amos Neural Computation Mapper
 type: skill
 source: 07_SKILLS/amos-neural-computation-mapper
 name: amos-neural-computation-mapper
-description: Neural Computation Mapper — biology and neuroscience capability. Use when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master routes to this specialized capability.
+description: Neural Computation Mapper — biology and neuroscience capability. Use
+  when biological reasoning, neuroscience, or medical analysis. Use when amos-c04-bio-neuro-master
+  routes to this specialized capability.
 parent_skill: amos-c04-bio-neuro-master
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-neural-computation-mapper, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/bio-neuro
+- canon-group/biology
+- topic/neuroscience
+- capability/neural
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-neural-computation-mapper
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Neural Computation Mapper

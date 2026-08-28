@@ -7,13 +7,27 @@ Skill: amos-canon-compiler
 Agent: amos-canon-compiler-agent
 Trigger: When canon and universe engine is needed within the canon domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/canon-universe
+- canon-group/tech-ai
+- topic/canon
+- capability/compilation
+- capability/canon
+- capability/workflow
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Canon Compiler

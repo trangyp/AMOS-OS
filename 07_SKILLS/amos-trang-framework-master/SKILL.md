@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Trang Framework Master"
+title: SKILL — Amos Trang Framework Master
 type: skill
 source: 07_SKILLS/amos-trang-framework-master
 name: amos-trang-framework-master
-description: AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal reasoning, LDAI formalization, reality architecture, equation registry. Use for Trang framework reasoning or cascade anal...
+description: AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal
+  reasoning, LDAI formalization, reality architecture, equation registry. Use for
+  Trang framework reasoning or cascade anal...
 parent_skill: none
 domain: trang
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-trang-framework-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/trang-framework
+- canon-group/tech-ai
+- topic/trang-framework
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-trang-framework-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics

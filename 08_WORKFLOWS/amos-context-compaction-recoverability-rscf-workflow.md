@@ -7,13 +7,27 @@ Skill: amos-context-compaction-recoverability-rscf
 Agent: amos-context-compaction-recoverability-rscf-agent
 Trigger: When boundary and scope engine is needed within the boundary domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/context-management
+- capability/workflow
+- capability/compaction
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Context Compaction Recoverability Rscf

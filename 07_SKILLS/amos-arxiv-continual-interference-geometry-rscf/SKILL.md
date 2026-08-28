@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Arxiv Continual Interference Geometry Rscf"
+title: SKILL — Amos Arxiv Continual Interference Geometry Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-continual-interference-geometry-rscf
 name: amos-arxiv-continual-interference-geometry-rscf
-description: Arxiv Continual Interference Geometry — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Arxiv Continual Interference Geometry — arxiv research capability. Use
+  when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master
+  routes to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-arxiv-continual-interference-geometry-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/arxiv-research
+- topic/research
+- capability/continual-learning
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-arxiv-continual-interference-geometry-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Arxiv: continual Interference Geometry Rscf

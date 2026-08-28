@@ -140,5 +140,20 @@
     "log_outputs": true,
     "log_intermediate": true,
     "metrics_enabled": true
-  }
+  },
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/econ-finance",
+    "canon-group/tech-ai",
+    "topic/finance",
+    "capability/forex",
+    "topic/forex",
+    "capability/formal-verification",
+    "rscf/epistemic",
+    "reasoning/react",
+    "sota/termination-criteria",
+    "sota/error-recovery",
+    "amos_os"
+  ]
 }

@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Ai Entropy Rscf Engine"
+title: SKILL — Amos Ai Entropy Rscf Engine
 type: skill
 source: 07_SKILLS/amos-ai-entropy-rscf-engine
 name: amos-ai-entropy-rscf-engine
-description: Ai Entropy — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized capability.
+description: Ai Entropy — fractal systems capability. Use when fractal analysis, scale
+  reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes
+  to this specialized capability.
 parent_skill: amos-fractal-systems-master
 domain: fractal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-ai-entropy-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/fractal-systems
+- canon-group/tech-ai
+- topic/fractals
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-ai-entropy-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Ai Entropy Rscf Engine

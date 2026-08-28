@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Deterministic Ai Control Plane"
+title: SKILL — Amos Deterministic Ai Control Plane
 type: skill
 source: 07_SKILLS/amos-deterministic-ai-control-plane
 name: amos-deterministic-ai-control-plane
-description: Deterministic Ai Control Plane — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
+description: Deterministic Ai Control Plane — runtime and OS capability. Use when
+  runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master
+  routes to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-deterministic-ai-control-plane, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/deterministic
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-deterministic-ai-control-plane
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Deterministic Ai Control Plane

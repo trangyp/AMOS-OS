@@ -7,13 +7,25 @@ Skill: bluebook-strategy-system
 Agent: bluebook-strategy-system-agent
 Trigger: When strategy and game engine is needed within the c08 domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/strategy-game
+- canon-group/human-system
+- topic/strategy
+- capability/workflow
+- rscf/epistemic
+- orchestration/orchestrator-worker
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Bluebook Strategy System

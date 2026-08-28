@@ -7,13 +7,27 @@ Skill: amos-fx-macro-differential-mapper
 Agent: amos-fx-macro-differential-mapper-agent
 Trigger: When fx market analysis engine is needed within the fx domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/econ-finance
+- canon-group/tech-ai
+- topic/finance
+- capability/forex
+- topic/forex
+- capability/workflow
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Fx Macro Differential Mapper

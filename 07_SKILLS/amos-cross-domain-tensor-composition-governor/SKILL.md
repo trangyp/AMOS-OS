@@ -1,21 +1,40 @@
 ---
-title: "SKILL — Amos Cross Domain Tensor Composition Governor"
+title: SKILL — Amos Cross Domain Tensor Composition Governor
 type: skill
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor
 name: amos-cross-domain-tensor-composition-governor
-description: Cross-Domain Tensor Composition Governor — RSCF epistemic capability. Governs when and how typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) from different AMOS domains (C01-C12) can be composed. Enforces the tensor compatibility invariant, epistemic class preservation across domain boundaries, the weakest-load-bearing-edge confidence rule, and cross-domain provenance tracking. Use when composing claims, evidence, or reasoning across two or more AMOS domains. Use when amos-rscf-epistemic-master routes to this specialized capability.
+description: Cross-Domain Tensor Composition Governor — RSCF epistemic capability.
+  Governs when and how typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) from different
+  AMOS domains (C01-C12) can be composed. Enforces the tensor compatibility invariant,
+  epistemic class preservation across domain boundaries, the weakest-load-bearing-edge
+  confidence rule, and cross-domain provenance tracking. Use when composing claims,
+  evidence, or reasoning across two or more AMOS domains. Use when amos-rscf-epistemic-master
+  routes to this specialized capability.
 parent_skill: amos-rscf-epistemic-master
 domain: cross-domain
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-cross-domain-tensor-composition-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- capability/tensor
+- capability/governance
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-cross-domain-tensor-composition-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Cross-Domain Tensor Composition Governor

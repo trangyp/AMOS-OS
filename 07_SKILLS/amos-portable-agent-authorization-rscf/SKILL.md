@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Portable Agent Authorization Rscf"
+title: SKILL — Amos Portable Agent Authorization Rscf
 type: skill
 source: 07_SKILLS/amos-portable-agent-authorization-rscf
 name: amos-portable-agent-authorization-rscf
-description: Portable Agent Authorization — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability.
+description: Portable Agent Authorization — agent systems capability. Use when agent
+  design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master
+  routes to this specialized capability.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-portable-agent-authorization-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/agent-design
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-portable-agent-authorization-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Portable Agent Authorization Rscf

@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Future Debt Option Value Governor"
+title: SKILL — Amos Future Debt Option Value Governor
 type: skill
 source: 07_SKILLS/amos-future-debt-option-value-governor
 name: amos-future-debt-option-value-governor
-description: Future Debt Option Value Governor — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability.
+description: Future Debt Option Value Governor — econ capability. Use when executing
+  the core capability within this domain. Use when amos-c07-econ-finance-master routes
+  to this specialized capability.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-future-debt-option-value-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/econ-finance
+- canon-group/tech-ai
+- topic/finance
+- capability/governance
+- capability/options
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-future-debt-option-value-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Future Debt Option Value Governor

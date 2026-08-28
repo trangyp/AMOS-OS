@@ -160,5 +160,19 @@
     "log_outputs": true,
     "log_intermediate": true,
     "metrics_enabled": true
-  }
+  },
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/security-safety",
+    "canon-group/tech-ai",
+    "topic/security",
+    "capability/firewall",
+    "capability/agent-design",
+    "rscf/epistemic",
+    "reasoning/reflexion",
+    "sota/termination-criteria",
+    "sota/error-recovery",
+    "amos_os"
+  ]
 }

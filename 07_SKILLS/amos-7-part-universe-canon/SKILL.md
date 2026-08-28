@@ -1,15 +1,28 @@
 ---
-title: "SKILL — Amos 7 Part Universe Canon"
+title: SKILL — Amos 7 Part Universe Canon
 type: note
 source: 07_SKILLS/amos-7-part-universe-canon
-tags: [note, amos-7-part-universe-canon, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/canon-universe
+- canon-group/tech-ai
+- topic/canon
+- capability/canon
+- capability/universe
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-7-part-universe-canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS 7-Part Universe Canon — Persistence Canon

@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Universal Coordinate Rscf Engine"
+title: SKILL — Amos Universal Coordinate Rscf Engine
 type: skill
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine
 name: amos-universal-coordinate-rscf-engine
-description: Universal Coordinate — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this speci...
+description: Universal Coordinate — RSCF epistemic capability. Use when classifying
+  claims by epistemic state, validating outputs against epistemic and scope constraints,
+  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this
+  speci...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-universal-coordinate-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-universal-coordinate-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Universal Coordinate Rscf Engine

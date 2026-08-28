@@ -7,13 +7,27 @@ Skill: amos-tensor-train-sketching-rscf-engine
 Agent: amos-tensor-train-sketching-rscf-engine-agent
 Trigger: When runtime and os engine is needed within the runtime domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/tensor
+- capability/workflow
+- capability/sketching
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Tensor Train Sketching Rscf Engine

@@ -1,15 +1,27 @@
 ---
-title: "SKILL — Amos Law Stack Enforcement"
+title: SKILL — Amos Law Stack Enforcement
 type: note
 source: 07_SKILLS/amos-law-stack-enforcement
-tags: [note, amos-law-stack-enforcement, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/stack
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-law-stack-enforcement
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS Law Stack Enforcement

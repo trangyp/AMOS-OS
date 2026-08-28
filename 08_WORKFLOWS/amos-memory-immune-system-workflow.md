@@ -7,13 +7,27 @@ Skill: amos-memory-immune-system
 Agent: amos-memory-immune-system-agent
 Trigger: When memory system engine is needed within the memory domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/memory-systems
+- canon-group/tech-ai
+- topic/memory
+- capability/memory
+- capability/workflow
+- capability/immune-system
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Memory Immune System

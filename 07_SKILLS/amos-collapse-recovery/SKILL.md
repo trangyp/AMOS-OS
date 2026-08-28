@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Collapse Recovery"
+title: SKILL — Amos Collapse Recovery
 type: skill
 source: 07_SKILLS/amos-collapse-recovery
 name: amos-collapse-recovery
-description: Collapse Recovery — Trang framework capability. Use when Trang framework reasoning, cascade analysis, or reality architecture. Use when amos-trang-framework-master routes to this specialized capability.
+description: Collapse Recovery — Trang framework capability. Use when Trang framework
+  reasoning, cascade analysis, or reality architecture. Use when amos-trang-framework-master
+  routes to this specialized capability.
 parent_skill: amos-trang-framework-master
 domain: trang
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-collapse-recovery, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/trang-framework
+- canon-group/tech-ai
+- topic/trang-framework
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-collapse-recovery
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Collapse Recovery

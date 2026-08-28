@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos C11 Design Language Master"
+title: SKILL — Amos C11 Design Language Master
 type: skill
 source: 07_SKILLS/amos-c11-design-language-master
 name: amos-c11-design-language-master
-description: "AMOS C11 Design & Language — content creation, corporate documentation, academic writing, artistic expression, presentation design, language patterns. Use for content creation, documentation, or de..."
+description: AMOS C11 Design & Language — content creation, corporate documentation,
+  academic writing, artistic expression, presentation design, language patterns. Use
+  for content creation, documentation, or de...
 parent_skill: none
 domain: c11
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c11-design-language-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/design-language
+- canon-group/human-system
+- topic/design
+- capability/design
+- capability/language
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-c11-design-language-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS C11 — Design & Language Master Knowledge

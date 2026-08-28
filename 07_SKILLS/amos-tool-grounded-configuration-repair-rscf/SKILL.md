@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Tool Grounded Configuration Repair Rscf"
+title: SKILL — Amos Tool Grounded Configuration Repair Rscf
 type: skill
 source: 07_SKILLS/amos-tool-grounded-configuration-repair-rscf
 name: amos-tool-grounded-configuration-repair-rscf
-description: Tool Grounded Configuration Repair — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability.
+description: Tool Grounded Configuration Repair — audit and repair capability. Use
+  when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
+  routes to this specialized capability.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-tool-grounded-configuration-repair-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/audit-repair
+- canon-group/tech-ai
+- topic/quality-assurance
+- capability/repair
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-tool-grounded-configuration-repair-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Tool Grounded Configuration Repair Rscf

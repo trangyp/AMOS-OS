@@ -7,13 +7,27 @@ Skill: amos-provenance-trust-firewall
 Agent: amos-provenance-trust-firewall-agent
 Trigger: When security and trust engine is needed within the security domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- capability/trust
+- capability/firewall
+- capability/workflow
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Provenance Trust Firewall

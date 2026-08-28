@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Information Geometry Mapper"
+title: SKILL — Amos Information Geometry Mapper
 type: skill
 source: 07_SKILLS/amos-information-geometry-mapper
 name: amos-information-geometry-mapper
-description: Information Geometry Mapper — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability.
+description: Information Geometry Mapper — info capability. Use when executing the
+  core capability within this domain. Use when amos-information-theory-master routes
+  to this specialized capability.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-information-geometry-mapper, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/information-theory
+- canon-group/tech-ai
+- topic/information
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-information-geometry-mapper
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Information Geometry Mapper

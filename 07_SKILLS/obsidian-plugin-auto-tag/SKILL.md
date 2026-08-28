@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Obsidian Plugin Auto Tag"
+title: SKILL — Obsidian Plugin Auto Tag
 type: skill
 source: 07_SKILLS/obsidian-plugin-auto-tag
 name: obsidian-plugin-auto-tag
-description: Auto Tag — AMOS knowledge-management utility. Use when automatically generating, normalizing, or reconciling tags and frontmatter metadata in the Obsidian vault. Use when amos-knowledge-research-master routes to this tool capability.
+description: Auto Tag — AMOS knowledge-management utility. Use when automatically
+  generating, normalizing, or reconciling tags and frontmatter metadata in the Obsidian
+  vault. Use when amos-knowledge-research-master routes to this tool capability.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, obsidian-plugin-auto-tag, canon/skill, tagging, auto-tag, metadata]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- obsidian-plugin-auto-tag
+- tagging
+- auto-tag
+- metadata
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.0.0"
+version: 1.0.0
 ---
+
 
 # Obsidian Plugin Auto Tag
 

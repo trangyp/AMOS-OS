@@ -7,13 +7,27 @@ Skill: amos-trust-formation-governor
 Agent: amos-trust-formation-governor-agent
 Trigger: When trust governance engine is needed within the c09 domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- capability/trust
+- capability/governance
+- capability/workflow
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Trust Formation Governor

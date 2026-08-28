@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Self Regulated Simulative Planning Rscf"
+title: SKILL — Amos Self Regulated Simulative Planning Rscf
 type: skill
 source: 07_SKILLS/amos-self-regulated-simulative-planning-rscf
 name: amos-self-regulated-simulative-planning-rscf
-description: Self Regulated Simulative Planning — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes...
+description: Self Regulated Simulative Planning — RSCF epistemic capability. Use when
+  classifying claims by epistemic state, validating outputs against epistemic and
+  scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master
+  routes...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-self-regulated-simulative-planning-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-self-regulated-simulative-planning-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Self Regulated Simulative Planning Rscf

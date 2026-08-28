@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Mckinsey Credit Lending Rscf"
+title: SKILL — Mckinsey Credit Lending Rscf
 type: skill
 source: 07_SKILLS/mckinsey-credit-lending-rscf
 name: mckinsey-credit-lending-rscf
-description: Credit Lending — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability.
+description: Credit Lending — McKinsey strategic capability. Use when strategic analysis,
+  business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master
+  routes to this specialized capability.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, mckinsey-credit-lending-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/strategy-game
+- canon-group/human-system
+- topic/strategy
+- capability/mckinsey-strategy
+- topic/consulting
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- mckinsey-credit-lending-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Mckinsey: credit Lending Rscf

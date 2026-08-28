@@ -7,13 +7,26 @@ Skill: frontend-engineering-qa
 Agent: frontend-engineering-qa-agent
 Trigger: When tech-engineering engine is needed within the c10 domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/tech-engineering
+- canon-group/tech-ai
+- topic/engineering
+- capability/workflow
+- capability/frontend
+- rscf/epistemic
+- orchestration/orchestrator-worker
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Frontend Engineering Qa

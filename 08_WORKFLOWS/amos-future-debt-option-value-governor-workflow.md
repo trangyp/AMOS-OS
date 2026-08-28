@@ -7,13 +7,27 @@ Skill: amos-future-debt-option-value-governor
 Agent: amos-future-debt-option-value-governor-agent
 Trigger: When future debt governance engine is needed within the econ domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/governance
+- capability/workflow
+- capability/options
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Future Debt Option Value Governor

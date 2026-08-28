@@ -1,21 +1,41 @@
 ---
-title: "SKILL — Amos Workflow Builder"
+title: SKILL — Amos Workflow Builder
 type: skill
 source: 07_SKILLS/amos-workflow-builder
 name: amos-workflow-builder
-description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows from capability gaps, existing skills, agent bindings, engine/runtime specifications, or operational sequences. Use when creating a new AMOS-aligned Workflow, strengthening a thin workflow, converting an AMOS engine/spec into an operational workflow, checking agent-skill-workflow routing, separating operational steps from validation gates, adding RSCF/HML/provenance/governance controls, validating step ordering and gate enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized Workflow factory; do not use it as a generic replacement for ordinary non-AMOS workflow creation.
+description: Build, update, audit, and package advanced AMOS/COSMO/Trang ChatGPT Workflows
+  from capability gaps, existing skills, agent bindings, engine/runtime specifications,
+  or operational sequences. Use when creating a new AMOS-aligned Workflow, strengthening
+  a thin workflow, converting an AMOS engine/spec into an operational workflow, checking
+  agent-skill-workflow routing, separating operational steps from validation gates,
+  adding RSCF/HML/provenance/governance controls, validating step ordering and gate
+  enforcement, or preparing a complete installable workflow bundle. This is the AMOS-specialized
+  Workflow factory; do not use it as a generic replacement for ordinary non-AMOS workflow
+  creation.
 parent_skill: none
 domain: workflow
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-workflow-builder, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/workflow
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-workflow-builder
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS Workflow Builder

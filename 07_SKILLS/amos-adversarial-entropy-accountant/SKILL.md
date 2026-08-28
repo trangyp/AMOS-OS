@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Adversarial Entropy Accountant"
+title: SKILL — Amos Adversarial Entropy Accountant
 type: skill
 source: 07_SKILLS/amos-adversarial-entropy-accountant
 name: amos-adversarial-entropy-accountant
-description: Adversarial Entropy Accountant — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability.
+description: Adversarial Entropy Accountant — security and safety capability. Use
+  when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master
+  routes to this specialized capability.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-adversarial-entropy-accountant, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-adversarial-entropy-accountant
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Adversarial Entropy Accountant

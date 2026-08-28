@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Rscf Modeler"
+title: SKILL — Rscf Modeler
 type: skill
 source: 07_SKILLS/rscf-modeler
 name: rscf-modeler
-description: Rscf Modeler — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability.
+description: Rscf Modeler — agent systems capability. Use when agent design, delegation
+  reasoning, or multi-agent governance. Use when amos-agent-systems-master routes
+  to this specialized capability.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, rscf-modeler, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- rscf-modeler
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Rscf Modeler

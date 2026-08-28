@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Agency Consequence Governor"
+title: SKILL — Amos Agency Consequence Governor
 type: skill
 source: 07_SKILLS/amos-agency-consequence-governor
 name: amos-agency-consequence-governor
-description: Agency Consequence Governor — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability.
+description: Agency Consequence Governor — agent systems capability. Use when agent
+  design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master
+  routes to this specialized capability.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-agency-consequence-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/agent-systems
+- canon-group/tech-ai
+- topic/multi-agent
+- capability/governance
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-agency-consequence-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Agency Consequence Governor

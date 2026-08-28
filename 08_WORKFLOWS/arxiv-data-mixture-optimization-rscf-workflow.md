@@ -7,13 +7,27 @@ Skill: arxiv-data-mixture-optimization-rscf
 Agent: arxiv-data-mixture-optimization-rscf-agent
 Trigger: When arxiv research paper rscf skill is needed within the arxiv domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/arxiv-research
+- topic/research
+- capability/workflow
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Arxiv: data Mixture Optimization Rscf

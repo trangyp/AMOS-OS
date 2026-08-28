@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos C06 Society Culture Master"
+title: SKILL — Amos C06 Society Culture Master
 type: skill
 source: 07_SKILLS/amos-c06-society-culture-master
 name: amos-c06-society-culture-master
-description: "AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic patterns, anthropology. Use for social analysis, cultural reasoning, or Vietnamese..."
+description: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese
+  language/regional analysis, linguistic patterns, anthropology. Use for social analysis,
+  cultural reasoning, or Vietnamese...
 parent_skill: none
 domain: c06
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c06-society-culture-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/society-culture
+- canon-group/human-system
+- topic/sociology
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-c06-society-culture-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS C06 — Society & Culture Master Knowledge

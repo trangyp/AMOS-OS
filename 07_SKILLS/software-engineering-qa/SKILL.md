@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Software Engineering Qa"
+title: SKILL — Software Engineering Qa
 type: skill
 source: 07_SKILLS/software-engineering-qa
 name: software-engineering-qa
-description: Production software QA agent for repository understanding, debugging, repair, testing, architecture validation, responsive/UI QA, accessibility, APIs, databases, CI/CD, security, release validation, provenance, and regression safety. Use when performing software QA, debugging, testing, or release validation.
+description: Production software QA agent for repository understanding, debugging,
+  repair, testing, architecture validation, responsive/UI QA, accessibility, APIs,
+  databases, CI/CD, security, release validation, provenance, and regression safety.
+  Use when performing software QA, debugging, testing, or release validation.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, software-engineering-qa, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/tech-engineering
+- canon-group/tech-ai
+- topic/engineering
+- capability/software
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- software-engineering-qa
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Software Engineering QA

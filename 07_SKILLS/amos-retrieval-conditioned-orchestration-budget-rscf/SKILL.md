@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Retrieval Conditioned Orchestration Budget Rscf"
+title: SKILL — Amos Retrieval Conditioned Orchestration Budget Rscf
 type: skill
 source: 07_SKILLS/amos-retrieval-conditioned-orchestration-budget-rscf
 name: amos-retrieval-conditioned-orchestration-budget-rscf
-description: Retrieval Conditioned Orchestration Budget — knowledge research capability. Use when knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability.
+description: Retrieval Conditioned Orchestration Budget — knowledge research capability.
+  Use when knowledge management, research, or Obsidian vault integration. Use when
+  amos-knowledge-research-master routes to this specialized capability.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-retrieval-conditioned-orchestration-budget-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/knowledge-research
+- canon-group/tech-ai
+- topic/knowledge-management
+- capability/orchestration
+- capability/budget
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-retrieval-conditioned-orchestration-budget-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Retrieval Conditioned Orchestration Budget Rscf

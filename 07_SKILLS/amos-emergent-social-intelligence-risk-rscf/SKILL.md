@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Emergent Social Intelligence Risk Rscf"
+title: SKILL — Amos Emergent Social Intelligence Risk Rscf
 type: skill
 source: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf
 name: amos-emergent-social-intelligence-risk-rscf
-description: Emergent Social Intelligence Risk — society and culture capability. Use when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master routes to this specialized capability.
+description: Emergent Social Intelligence Risk — society and culture capability. Use
+  when social analysis, cultural reasoning, or anthropological study. Use when amos-c06-society-culture-master
+  routes to this specialized capability.
 parent_skill: amos-c06-society-culture-master
 domain: c06
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-emergent-social-intelligence-risk-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/society-culture
+- canon-group/human-system
+- topic/sociology
+- capability/social
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-emergent-social-intelligence-risk-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Emergent Social Intelligence Risk Rscf

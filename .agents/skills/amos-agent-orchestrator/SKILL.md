@@ -26,3 +26,13 @@ All canonical AMOS agents are defined as JSON structures with:
 2. **Load Specifications**: Read the agent JSON to inspect its entry point, invariants, and declared workflows.
 3. **Execute Matching Workflow**: Check `.devin/workflows/amos-{name}-workflow.md` to perform the exact multi-step protocol.
 4. **Enforce Epistemic Gates**: Ensure `PROPOSAL != COMMIT` and `MODEL != OBSERVATION`.
+
+## Examples
+
+- **Scenario**: User says "Run the quantum fractal math agent"
+  - **Input**: Request to execute specialized reasoning
+  - **Output**: Load `amos-quantum-fractal-math-engine-agent.json`, verify capabilities, execute matching workflow, return results with epistemic labels
+
+- **Scenario**: User says "What agents do we have for governance?"
+  - **Input**: Agent discovery query
+  - **Output**: List governance-domain agents (amos-ethics-os-governor, amos-trust-formation-governor, amos-risk-constraint-governor) with their capabilities and bound workflows

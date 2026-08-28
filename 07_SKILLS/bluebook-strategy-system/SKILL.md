@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Bluebook Strategy System"
+title: SKILL — Bluebook Strategy System
 type: skill
 source: 07_SKILLS/bluebook-strategy-system
 name: bluebook-strategy-system
-description: Strategy System — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability.
+description: Strategy System — strategy and game theory capability. Use when strategic
+  analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master
+  routes to this specialized capability.
 parent_skill: amos-c08-strategy-game-master
 domain: c08
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, bluebook-strategy-system, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/strategy-game
+- canon-group/human-system
+- topic/strategy
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- bluebook-strategy-system
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Bluebook Strategy System

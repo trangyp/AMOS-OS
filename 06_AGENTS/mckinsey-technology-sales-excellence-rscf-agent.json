@@ -155,5 +155,20 @@
     "log_outputs": true,
     "log_intermediate": true,
     "metrics_enabled": true
-  }
+  },
+  "tags": [
+    "type/agent",
+    "canon/agent",
+    "domain/strategy-game",
+    "canon-group/human-system",
+    "topic/strategy",
+    "capability/mckinsey-strategy",
+    "topic/consulting",
+    "capability/agent-design",
+    "rscf/epistemic",
+    "reasoning/plan-execute",
+    "sota/termination-criteria",
+    "sota/error-recovery",
+    "amos_os"
+  ]
 }

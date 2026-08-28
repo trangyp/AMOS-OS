@@ -48,3 +48,13 @@ This skill governs the execution of biological intelligence constraints, living-
 3. **Emergence Throttling:** Calculate $i_{\text{UBI}}$ and scale permissible token budget and search tree depth according to $e = i^2$.
 4. **Bio-Synchrony Cadence:** Adjust UI contrast and LLM generation latency via NeurosyncAI bi-directional pacing loops.
 5. **RSCF Proof Emission:** Assemble signed proof capsule linking bio-telemetry to the causal state commit.
+
+## Examples
+
+- **Scenario**: User says "Am I cognitively overloaded right now?"
+  - **Input**: Physiological telemetry (heart rate variability, pupil dilation)
+  - **Output**: NBI cognitive load assessment, NEI autonomic vagal coherence, 40Hz clock pacing recommendation, substrate distress veto check ($\tau < 0.2$), tagged AMOS_MODEL
+
+- **Scenario**: User says "Is this team's collective intelligence emerging?"
+  - **Input**: Team interaction telemetry
+  - **Output**: UBI 4-domain analysis (NBI/NEI/SI/BEI), quadratic emergence check ($e = i^2$), emergence throttling recommendation, RSCF proof capsule

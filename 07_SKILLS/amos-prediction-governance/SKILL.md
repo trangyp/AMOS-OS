@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Prediction Governance"
+title: SKILL — Amos Prediction Governance
 type: skill
 source: 07_SKILLS/amos-prediction-governance
 name: amos-prediction-governance
-description: Prediction Governance — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability.
+description: Prediction Governance — runtime and OS capability. Use when runtime reasoning,
+  OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes
+  to this specialized capability.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-prediction-governance, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/prediction
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-prediction-governance
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Prediction Governance

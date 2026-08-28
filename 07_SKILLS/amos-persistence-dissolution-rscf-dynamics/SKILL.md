@@ -1,21 +1,37 @@
 ---
-title: "SKILL — Amos Persistence Dissolution Rscf Dynamics"
+title: SKILL — Amos Persistence Dissolution Rscf Dynamics
 type: skill
 source: 07_SKILLS/amos-persistence-dissolution-rscf-dynamics
 name: amos-persistence-dissolution-rscf-dynamics
-description: Persistence Dissolution Rscf Dynamics — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master rou...
+description: Persistence Dissolution Rscf Dynamics — RSCF epistemic capability. Use
+  when classifying claims by epistemic state, validating outputs against epistemic
+  and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master
+  rou...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-persistence-dissolution-rscf-dynamics, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- capability/persistence
+- capability/dynamics
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-persistence-dissolution-rscf-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Persistence Dissolution Rscf Dynamics

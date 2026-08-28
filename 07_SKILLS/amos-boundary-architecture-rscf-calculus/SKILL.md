@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Boundary Architecture Rscf Calculus"
+title: SKILL — Amos Boundary Architecture Rscf Calculus
 type: skill
 source: 07_SKILLS/amos-boundary-architecture-rscf-calculus
 name: amos-boundary-architecture-rscf-calculus
-description: Boundary Architecture Rscf Calculus — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability.
+description: Boundary Architecture Rscf Calculus — boundary and scope capability.
+  Use when evaluating scope boundaries, context continuity, or capability bounds.
+  Use when amos-boundary-scope-master routes to this specialized capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-boundary-architecture-rscf-calculus, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/boundary-scope
+- canon-group/tech-ai
+- topic/scope-management
+- capability/boundary
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-boundary-architecture-rscf-calculus
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Boundary Architecture Rscf Calculus

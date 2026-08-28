@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Formal Engines Master"
+title: SKILL — Amos Formal Engines Master
 type: skill
 source: 07_SKILLS/amos-formal-engines-master
 name: amos-formal-engines-master
-description: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition, formal specifications, proof systems. 6 typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) with 5-check axis table. Use for formal re...
+description: AMOS Formal Engines — MURK 19x19, Go Board 19x19, tensor composition,
+  formal specifications, proof systems. 6 typed tensors (T_R, T_F, T_E, T_C, T_G,
+  T_M) with 5-check axis table. Use for formal re...
 parent_skill: none
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-formal-engines-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/formal-engines
+- canon-group/tech-ai
+- topic/formal-verification
+- capability/formal-verification
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-formal-engines-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # L02_ATTENTION — Purpose

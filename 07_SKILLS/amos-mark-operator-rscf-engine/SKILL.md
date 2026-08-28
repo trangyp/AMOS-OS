@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Mark Operator Rscf Engine"
+title: SKILL — Amos Mark Operator Rscf Engine
 type: skill
 source: 07_SKILLS/amos-mark-operator-rscf-engine
 name: amos-mark-operator-rscf-engine
-description: Mark Operator — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this specialized ...
+description: Mark Operator — RSCF epistemic capability. Use when classifying claims
+  by epistemic state, validating outputs against epistemic and scope constraints,
+  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this
+  specialized ...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-mark-operator-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-mark-operator-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Mark Operator Rscf Engine

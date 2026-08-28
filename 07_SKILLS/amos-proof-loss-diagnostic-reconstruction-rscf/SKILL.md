@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos Proof Loss Diagnostic Reconstruction Rscf"
+title: SKILL — Amos Proof Loss Diagnostic Reconstruction Rscf
 type: skill
 source: 07_SKILLS/amos-proof-loss-diagnostic-reconstruction-rscf
 name: amos-proof-loss-diagnostic-reconstruction-rscf
-description: Proof Loss Diagnostic Reconstruction — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability.
+description: Proof Loss Diagnostic Reconstruction — formal verification capability.
+  Use when formal verification, symbolic execution, proof checking, or mathematical
+  reasoning. Use when amos-formal-engines-master routes to this specialized capability.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-proof-loss-diagnostic-reconstruction-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/formal-engines
+- canon-group/tech-ai
+- topic/formal-verification
+- capability/proof
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-proof-loss-diagnostic-reconstruction-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Proof Loss Diagnostic Reconstruction Rscf

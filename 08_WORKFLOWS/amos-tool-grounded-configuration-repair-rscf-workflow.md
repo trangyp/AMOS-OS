@@ -7,13 +7,26 @@ Skill: amos-tool-grounded-configuration-repair-rscf
 Agent: amos-tool-grounded-configuration-repair-rscf-agent
 Trigger: When repair engine is needed within the audit domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/os-runtime
+- canon-group/tech-ai
+- topic/runtime
+- capability/repair
+- capability/workflow
+- rscf/epistemic
+- orchestration/event-driven
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Tool Grounded Configuration Repair Rscf

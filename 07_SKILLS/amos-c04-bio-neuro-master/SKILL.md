@@ -1,21 +1,35 @@
 ---
-title: "SKILL — Amos C04 Bio Neuro Master"
+title: SKILL — Amos C04 Bio Neuro Master
 type: skill
 source: 07_SKILLS/amos-c04-bio-neuro-master
 name: amos-c04-bio-neuro-master
-description: "AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI, SI, cell intelligence, genetics, molecular biology. Biological logic translation for cognitive architecture. Use for biological ..."
+description: AMOS C04 Bio & Neuro — NBI (Neurobiological Intelligence), NEI, BEI,
+  SI, cell intelligence, genetics, molecular biology. Biological logic translation
+  for cognitive architecture. Use for biological ...
 parent_skill: none
 domain: c04
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CANON
-tags: [note, amos-c04-bio-neuro-master, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/bio-neuro
+- canon-group/biology
+- topic/neuroscience
+- capability/ast
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-c04-bio-neuro-master
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS C04 — Biology & Neuro Master Knowledge

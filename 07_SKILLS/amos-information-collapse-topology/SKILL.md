@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Information Collapse Topology"
+title: SKILL — Amos Information Collapse Topology
 type: skill
 source: 07_SKILLS/amos-information-collapse-topology
 name: amos-information-collapse-topology
-description: Information Collapse Topology — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability.
+description: Information Collapse Topology — info capability. Use when executing the
+  core capability within this domain. Use when amos-information-theory-master routes
+  to this specialized capability.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-information-collapse-topology, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/information-theory
+- canon-group/tech-ai
+- topic/information
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-information-collapse-topology
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Information Collapse Topology

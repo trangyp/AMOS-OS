@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Managed Autonomy Escalation Rscf"
+title: SKILL — Amos Managed Autonomy Escalation Rscf
 type: skill
 source: 07_SKILLS/amos-managed-autonomy-escalation-rscf
 name: amos-managed-autonomy-escalation-rscf
-description: Managed Autonomy Escalation — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to thi...
+description: Managed Autonomy Escalation — RSCF epistemic capability. Use when classifying
+  claims by epistemic state, validating outputs against epistemic and scope constraints,
+  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to thi...
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-managed-autonomy-escalation-rscf, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/rscf-epistemic
+- canon-group/tech-ai
+- topic/epistemology
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-managed-autonomy-escalation-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Managed Autonomy Escalation Rscf

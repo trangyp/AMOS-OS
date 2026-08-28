@@ -1,21 +1,36 @@
 ---
-title: "SKILL — Amos Boundary Admission Governor"
+title: SKILL — Amos Boundary Admission Governor
 type: skill
 source: 07_SKILLS/amos-boundary-admission-governor
 name: amos-boundary-admission-governor
-description: Boundary Admission Governor — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability.
+description: Boundary Admission Governor — boundary and scope capability. Use when
+  evaluating scope boundaries, context continuity, or capability bounds. Use when
+  amos-boundary-scope-master routes to this specialized capability.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-boundary-admission-governor, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/boundary-scope
+- canon-group/tech-ai
+- topic/scope-management
+- capability/boundary
+- capability/governance
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-boundary-admission-governor
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Boundary Admission Governor

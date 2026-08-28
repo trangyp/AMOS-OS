@@ -7,13 +7,27 @@ Skill: amos-action-memory-firewall
 Agent: amos-action-memory-firewall-agent
 Trigger: When memory system engine is needed within the memory domain
 Version: 1.0.0
-tags: [note, vault, canon/workflow]
+tags:
+- type/workflow
+- canon/workflow
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- capability/firewall
+- capability/memory
+- capability/workflow
+- rscf/epistemic
+- orchestration/pipeline
+- sota/evaluation-gates
+- sota/human-in-the-loop
+- amos_os
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
+
 
 
 # Workflow: Action Memory Firewall

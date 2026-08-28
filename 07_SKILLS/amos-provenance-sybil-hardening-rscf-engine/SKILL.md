@@ -1,21 +1,34 @@
 ---
-title: "SKILL — Amos Provenance Sybil Hardening Rscf Engine"
+title: SKILL — Amos Provenance Sybil Hardening Rscf Engine
 type: skill
 source: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine
 name: amos-provenance-sybil-hardening-rscf-engine
-description: Provenance Sybil Hardening — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability.
+description: Provenance Sybil Hardening — security and safety capability. Use when
+  security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master
+  routes to this specialized capability.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
 epistemic_class: SOURCE_CLAIM
-tags: [note, amos-provenance-sybil-hardening-rscf-engine, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/security-safety
+- canon-group/tech-ai
+- topic/security
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-provenance-sybil-hardening-rscf-engine
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # Provenance Sybil Hardening Rscf Engine

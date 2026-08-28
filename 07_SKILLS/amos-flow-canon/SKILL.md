@@ -1,15 +1,27 @@
 ---
-title: "SKILL — Amos Flow Canon"
+title: SKILL — Amos Flow Canon
 type: note
 source: 07_SKILLS/amos-flow-canon
-tags: [note, amos-flow-canon, canon/skill]
+tags:
+- type/skill
+- canon/skill
+- domain/canon-universe
+- canon-group/tech-ai
+- topic/canon
+- capability/canon
+- rscf/epistemic
+- sota/progressive-disclosure
+- sota/anti-patterns
+- amos_os
+- amos-flow-canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
-version: "1.1.0"
+version: 1.1.0
 ---
+
 
 
 # AMOS Flow Canon
