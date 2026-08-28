@@ -411,7 +411,7 @@ ABSOLUTE OMNIVERSE U∞
 │
 ├── HUMAN STATES
 ├── EMOTION × ACTION MATRIX
-├── SENSORY MICRO-SIGNALS
+├── SENSORY MICRO-[[SIGNALS]]
 ├── PATHOLOGY STATES
 ├── MULTI-AGENT PATTERNS
 ├── SPECIES BEHAVIOUR
@@ -420,7 +420,7 @@ ABSOLUTE OMNIVERSE U∞
 ├── CREATIVITY / IMAGINATION
 ├── SYMBOLIC / DREAM
 ├── EXPRESSION / TONE
-├── MORAL SIGNALS
+├── MORAL [[SIGNALS]]
 ├── PERSONAS
 └── BINDING LAYER
 ```
@@ -853,7 +853,7 @@ They are not individualized medical or psychological treatment prescriptions.
 ```text
 STATE LABEL
 ≠
-DIAGNOSIS
+[[DIAGNOSIS]]
 ```
 
 ---
@@ -1204,7 +1204,7 @@ BREATH
 +
 GAZE
 ≠
-CLINICAL DIAGNOSIS
+CLINICAL [[DIAGNOSIS]]
 ```
 
 ---
@@ -1896,7 +1896,7 @@ ONE UNIVERSAL INTERPRETATION
 ```text
 DREAM SYMBOL
 ≠
-DIAGNOSIS
+[[DIAGNOSIS]]
 ```
 
 ---
@@ -2403,7 +2403,7 @@ persona context
 The Absolute Omniverse itself should be understood as yielding:
 
 ```text
-TYPED CONTENT REFERENCES
+TYPED CONTENT [[REFERENCES]]
 ```
 
 rather than autonomous decisions.
@@ -2733,9 +2733,9 @@ The source describing a relationship does not make that relationship observation
 # 150. Native Canon ≠ Empirical Verification
 
 ```text
-NATIVE AMOS CANON
+NATIVE AMOS [[CANON]]
 ≠
-EXTERNAL SCIENTIFIC VALIDATION
+EXTERNAL SCIENTIFIC [[VALIDATION]]
 ```
 
 ---
@@ -3472,7 +3472,7 @@ must be valid for the relevant epoch and scope.
 ```text
 CAN EDIT FILE
 ≠
-AUTHORIZED TO PROMOTE CANON
+AUTHORIZED TO PROMOTE [[CANON]]
 ```
 
 ---
@@ -3595,8 +3595,8 @@ before promotion or structural mutation.
 
 Referenced contextual receipts:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+* 
+* 
 
 These do not automatically constitute an artifact-specific validation receipt for the Absolute Omniverse Model.
 
@@ -3607,7 +3607,7 @@ These do not automatically constitute an artifact-specific validation receipt fo
 ```text
 RELATED RECEIPT
 ≠
-ABSOLUTE OMNIVERSE VALIDATION
+ABSOLUTE OMNIVERSE [[VALIDATION]]
 ```
 
 ---
@@ -4606,7 +4606,7 @@ HUMAN STATES
 +
 EMOTION / ACTION
 +
-SENSORY MICRO-SIGNALS
+SENSORY MICRO-[[SIGNALS]]
 +
 PATHOLOGY-STATE MODEL CONTENT
 +
@@ -4624,7 +4624,7 @@ SYMBOLIC / DREAM CONTENT
 +
 EXPRESSION / TONE
 +
-MORAL SIGNALS
+MORAL [[SIGNALS]]
 +
 PERSONAS
 +
@@ -4656,7 +4656,7 @@ STATE
 
 STATE
 ≠
-DIAGNOSIS
+[[DIAGNOSIS]]
 
 CULTURAL PROFILE
 ≠
@@ -4765,15 +4765,15 @@ ABSOLUTE_OMNIVERSE_PROMOTION_STATE:
 
 # 259. Cross-Plane Bindings
 
-* Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-* Models-plane navigation — [[MODEL_MAP]]
-* Models foundation — [[01_FOUNDATION_MOC]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]] · never treated as authority
-* Recovered via operations — [[OPERATIONS_README]]
-* RSCF graph — [[AMOS_RSCF_NODES]]
-* Root navigation — [[00_HOME]]
+* Governed by canon —  · 
+* Models-plane navigation — 
+* Models foundation — 
+* Kernel interaction — 
+* Control-plane gates — 
+* Observed by —  · never treated as authority
+* Recovered via operations — 
+* RSCF graph — 
+* Root navigation — 
 
 ---
 
@@ -4805,20 +4805,20 @@ These names are preserved as source terminology rather than silently remapped to
 
 # 261. Related
 
-[[00_HOME]] ·
-[[AMOS_RSCF_NODES]] ·
-[[MODEL_MAP]] ·
-[[LAW_HIERARCHY]] ·
-[[KERNEL_README]] ·
-[[CONTROL_PLANE_README]] ·
-[[OBSERVABILITY_README]] ·
-[[OPERATIONS_README]] ·
-[[ROUTING_POLICY_VALIDATION_RECEIPT]] ·
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
 
 ---
 
@@ -4855,7 +4855,7 @@ RSCF-NODE:
 
   provenance:
     - AMOS_corpus
-    - ABSOLUTE_OMNIVERSE_U_INFINITY
+    - [[ABSOLUTE_OMNIVERSE_U_INFINITY]]
 
   scope:
     - AMOS_general
@@ -5033,7 +5033,7 @@ RSCF-PROOF-CAPSULE:
 
   provenance:
     root:
-      - ABSOLUTE_OMNIVERSE_U_INFINITY
+      - [[ABSOLUTE_OMNIVERSE_U_INFINITY]]
     independence:
       status: SINGLE_NATIVE_SOURCE_LINEAGE
 
@@ -5155,7 +5155,7 @@ EMOTIONS
 +
 ACTIONS
 +
-SENSORY MICRO-SIGNALS
+SENSORY MICRO-[[SIGNALS]]
 +
 PSYCHOLOGICAL/PATHOLOGY-LABELED MODEL STATES
 +
@@ -5173,7 +5173,7 @@ SYMBOLS / DREAM CONTENT
 +
 EXPRESSION / TONE
 +
-MORAL SIGNALS
+MORAL [[SIGNALS]]
 +
 PERSONAS
 +
@@ -5205,7 +5205,7 @@ PERSON
 
 STATE LABEL
 ≠
-CLINICAL DIAGNOSIS
+CLINICAL [[DIAGNOSIS]]
 ```
 
 Its behavioral firewall is:
@@ -5335,7 +5335,7 @@ UNCERTAINTY
 →
 GAP OR COMPETING
 
-MISSING CANON
+MISSING [[CANON]]
 →
 NEVER INVENT
 ```
@@ -5355,7 +5355,7 @@ RSCF-NORMALIZED
 +
 PROVENANCE-PRESERVING
 +
-EMPIRICAL-VALIDATION-NOT-ESTABLISHED
+EMPIRICAL-[[VALIDATION]]-NOT-ESTABLISHED
 +
 IMPLEMENTATION-NOT-ESTABLISHED
 +
@@ -5373,7 +5373,7 @@ node_type: model
 path: 13_MODELS/01_FOUNDATION/ABSOLUTE_OMNIVERSE_MODEL.md
 claim_class: AMOS_MODEL
 rscf_state: DERIVED
-source_artifact: ABSOLUTE_OMNIVERSE_U_INFINITY
+source_artifact: [[ABSOLUTE_OMNIVERSE_U_INFINITY]]
 source_version: vInfinity
 source_author: Trang_Phan
 canonical_status: CANON_CANDIDATE

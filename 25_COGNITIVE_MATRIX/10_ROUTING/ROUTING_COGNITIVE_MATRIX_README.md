@@ -49,7 +49,7 @@ rscf:
 
 `ROUTING_COGNITIVE_MATRIX_README.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
 
-It reserves the canonical slot for the AMOS framework family named **ROUTING COGNITIVE MATRIX README**.
+It reserves the canonical slot for the AMOS framework family named **ROUTING COGNITIVE MATRIX [[README]]**.
 
 The artifact is presently:
 
@@ -2119,7 +2119,7 @@ Detailed binding semantics belong in:
 10_ROUTING/BINDING_RULES.md
 ```
 
-README-level contract:
+[[README]]-level contract:
 
 ```text
 ROUTING
@@ -2129,7 +2129,7 @@ BINDING
 = exact identity/version/context attachment
 ```
 
-The README should reference, not duplicate, the entire sibling contract.
+The [[README]] should reference, not duplicate, the entire sibling contract.
 
 ---
 
@@ -2948,7 +2948,7 @@ routing proposal
 → canon/policy admission
 ```
 
-README presence alone does not establish canon.
+[[README]] presence alone does not establish canon.
 
 ---
 
@@ -3664,7 +3664,7 @@ UNBOUND
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

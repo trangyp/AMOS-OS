@@ -28,7 +28,7 @@ Covers the operation contract for this lifecycle operator.
 
 ## Contract content
 
-MEMORY
+[[MEMORY]]
 
 ## Rules
 
@@ -46,7 +46,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 RSCF-NODE

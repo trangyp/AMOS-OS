@@ -14,10 +14,10 @@ rscf:
 ---
 
 
-# KERNEL INTEGRATION CONTRACT
+# KERNEL [[INTEGRATION]] CONTRACT
 
 ## 0. Status
-Kernel-plane contract for **INTEGRATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Kernel-plane contract for **[[INTEGRATION]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration as they bear on `INTEGRATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
@@ -62,14 +62,14 @@ Given an operation touching `KERNEL · INTEGRATION CONTRACT` within the Kernel p
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

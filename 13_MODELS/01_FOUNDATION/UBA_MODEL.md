@@ -2238,9 +2238,9 @@ UBA_VALIDATION:
 Existing receipts:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+
 ```
 
 may demonstrate validation patterns elsewhere in AMOS.
@@ -2809,7 +2809,7 @@ VALIDATED KNOWLEDGE
 
 # 172. Source Documentation
 
-README claims remain:
+[[README]] claims remain:
 
 ```text
 SOURCE_CLAIM
@@ -4247,7 +4247,7 @@ not arbitrary source selection.
 UBA may be observed by:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 but:
@@ -4265,7 +4265,7 @@ AUTHORITY
 Mutation gates belong to:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 where applicable.
@@ -4277,7 +4277,7 @@ where applicable.
 Potential executable interaction belongs through:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 rather than being implied by this documentation artifact.
@@ -4289,7 +4289,7 @@ rather than being implied by this documentation artifact.
 Recovery belongs through:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 where implemented.
@@ -4301,7 +4301,7 @@ where implemented.
 The artifact is governed by:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 and applicable AMOS core laws.
@@ -4313,7 +4313,7 @@ and applicable AMOS core laws.
 The node is indexed through:
 
 ```text
-[[AMOS_RSCF_NODES]]
+
 ```
 
 ---
@@ -4323,7 +4323,7 @@ The node is indexed through:
 Primary root navigation:
 
 ```text
-[[00_HOME]]
+
 ```
 
 ---
@@ -4333,7 +4333,7 @@ Primary root navigation:
 Foundation MOC:
 
 ```text
-[[01_FOUNDATION_MOC]]
+
 ```
 
 ---
@@ -4343,7 +4343,7 @@ Foundation MOC:
 When present and bound:
 
 ```text
-[[MODEL_MAP]]
+
 ```
 
 may index the UBA node.
@@ -4358,27 +4358,27 @@ Index membership does not prove model validity.
 UBA_CROSS_PLANE:
 
   canon:
-    ref: "[[LAW_HIERARCHY]]"
+    ref: ""
     role: GOVERNANCE
 
   kernel:
-    ref: "[[KERNEL_README]]"
+    ref: ""
     role: EXECUTION_INTERFACE_TARGET
 
   control_plane:
-    ref: "[[CONTROL_PLANE_README]]"
+    ref: ""
     role: AUTHORITY_AND_MUTATION_GATES
 
   observability:
-    ref: "[[OBSERVABILITY_README]]"
+    ref: ""
     role: OBSERVATION_NOT_AUTHORITY
 
   operations:
-    ref: "[[OPERATIONS_README]]"
+    ref: ""
     role: RECOVERY
 
   rscf:
-    ref: "[[AMOS_RSCF_NODES]]"
+    ref: ""
     role: GRAPH_INDEX
 ```
 
@@ -4986,7 +4986,7 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - INDEXED_BY: [[01_FOUNDATION_MOC]]
+  - INDEXED_BY: [[13_MODELS_MOC]]
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 

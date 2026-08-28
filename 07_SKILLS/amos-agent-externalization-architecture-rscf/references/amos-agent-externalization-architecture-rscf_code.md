@@ -16,7 +16,7 @@ rscf:
 
 # Code Reference
 
-> Moved from SKILL.md for progressive loading.
+> Moved from [[SKILL]].md for progressive loading.
 
 ## Pseudocode: amos-agent-externalization-architecture-rscf
 

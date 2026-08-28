@@ -230,9 +230,9 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 - `references/tech_quantum_engine.md` — loaded on demand
 - `references/u3h_atemporal_field.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-c03-physics-cosmos-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-c03-physics-cosmos-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-c03-physics-cosmos-master-agent` — corresponding agent
 ---
 
@@ -246,7 +246,7 @@ AMOS/Trang abstractions remain research models until precise mapping and indepen
 RSCF-NODE
 node_id: amos-c03-physics-cosmos-master
 node_type: skill
-path: 07_SKILLS/amos-c03-physics-cosmos-master/SKILL.md
+path: 07_SKILLS/amos-c03-physics-cosmos-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

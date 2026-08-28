@@ -1241,7 +1241,7 @@ SOURCE_CLAIM
 VERIFIED
 ```
 
-A README, paper, report, specification, model card, benchmark claim, or architecture document remains a source claim until the relevant validation path supports stronger status.
+A [[README]], paper, report, specification, model card, benchmark claim, or architecture document remains a source claim until the relevant validation path supports stronger status.
 
 ---
 
@@ -3345,7 +3345,7 @@ This is the cleaned, paste-ready Markdown version of the uploaded provenance con
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

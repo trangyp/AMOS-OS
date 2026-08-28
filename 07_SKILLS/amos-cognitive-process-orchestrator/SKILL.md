@@ -208,9 +208,9 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-cognitive-process-orchestrator_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-cognitive-process-orchestrator-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-cognitive-process-orchestrator-agent` — corresponding agent
 ---
 
@@ -224,7 +224,7 @@ Cognitive process orchestration is a runtime architecture. It does not prove cog
 RSCF-NODE
 node_id: amos-cognitive-process-orchestrator
 node_type: skill
-path: 07_SKILLS/amos-cognitive-process-orchestrator/SKILL.md
+path: 07_SKILLS/amos-cognitive-process-orchestrator/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

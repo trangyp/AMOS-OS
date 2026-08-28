@@ -1227,7 +1227,7 @@ Freshness and source validity must be checked when material.
 
 # 53. L1-E039 — Documentation Claims Are SOURCE_CLAIM Until Validated
 
-README files, architecture documents, specifications, comments, marketing material, or internal descriptions may state that a system performs `X`.
+[[README]] files, architecture documents, specifications, comments, marketing material, or internal descriptions may state that a system performs `X`.
 
 Until independently validated:
 
@@ -3241,7 +3241,7 @@ KEEP UNKNOWN UNKNOWN
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -3267,13 +3267,13 @@ RSCF-RELATIONS:
 
 - INDEXED_BY: [[00_HOME]]
 
-- INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-- GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
+- GOVERNED_BY: [[CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 
-- MAPPED_BY: CORE_LAWS_MAP
+- MAPPED_BY: [[CORE_LAWS_MAP]]
 
-- DEPENDS_ON: L0_INTEGRITY
+- DEPENDS_ON: [[L0_INTEGRITY]]
 
 - DEPENDS_ON: [[00_ROOT_MOC]]
 

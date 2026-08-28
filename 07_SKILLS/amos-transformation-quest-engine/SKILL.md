@@ -205,9 +205,9 @@ Transformation quests are operational constructs. They do not prove transformati
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-transformation-quest-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-super-engines-master` — parent skill
-- `[[amos-transformation-quest-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-transformation-quest-engine-agent` — corresponding agent
 ---
 
@@ -221,7 +221,7 @@ Transformation quests are operational constructs. They do not prove transformati
 RSCF-NODE
 node_id: amos-transformation-quest-engine
 node_type: skill
-path: 07_SKILLS/amos-transformation-quest-engine/SKILL.md
+path: 07_SKILLS/amos-transformation-quest-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -45,7 +45,7 @@ aliases:
 - AMOS Meta Logic Kernel - Meta Logic Kernel - K Meta Logic - K_META_LOGIC
 ---
 
-# K_META_LOGIC
+# [[K_META_LOGIC]]
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
 > **Plane:** `02_KERNEL`
@@ -2051,7 +2051,7 @@ PRIVATE CHAIN-OF-THOUGHT
 
 ---
 
-# 89. Integration with K_CORE19_LOGIC
+# 89. Integration with [[K_CORE19_LOGIC]]
 
 ```text
 K_CORE19_LOGIC
@@ -2075,7 +2075,7 @@ VALIDATE OPERATION
 
 ---
 
-# 90. Integration with K_DISTINCTION_RELATION_CONSTRAINT
+# 90. Integration with [[K_DISTINCTION_RELATION_CONSTRAINT]]
 
 Meta-logic depends on stable distinctions.
 
@@ -2107,7 +2107,7 @@ and corrupt downstream reasoning.
 
 ---
 
-# 91. Integration with K_LAW_HIERARCHY
+# 91. Integration with [[K_LAW_HIERARCHY]]
 
 `K_META_LOGIC` does not independently determine authoritative precedence among laws.
 
@@ -2475,21 +2475,21 @@ RSCF-RELATIONS:
 [[SOURCE_REGISTRY]] ·
 [[CONFLICT_REGISTRY]] ·
 [[SUPERSESSION_LOG]] ·
-README ·
+[[README]] ·
 [[KERNEL_MAP]] ·
 [[K_CORE19_LOGIC]] ·
 [[K_DISTINCTION_RELATION_CONSTRAINT]] ·
 [[K_LAW_HIERARCHY]] ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
-README ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
 [[CONTROL_PLANE_MAP]] ·
 [[RUNTIME_MAP]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
@@ -2502,7 +2502,7 @@ README ·
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

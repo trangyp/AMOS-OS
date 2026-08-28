@@ -205,9 +205,9 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 - `references/rscf_proof_capsule.md` — loaded on demand
 - `references/rscf_state_architecture.md` — loaded on demand
 - `references/validate_rscf.md` — loaded on demand
-- `[[amos-rscf-epistemic-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-rscf-epistemic-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-rscf-epistemic-master-agent` — corresponding agent
 ---
 
@@ -221,7 +221,7 @@ Proposed specification replacing placeholder. AMOS_MODEL. Canonical status: COND
 RSCF-NODE
 node_id: amos-rscf-epistemic-master
 node_type: skill
-path: 07_SKILLS/amos-rscf-epistemic-master/SKILL.md
+path: 07_SKILLS/amos-rscf-epistemic-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

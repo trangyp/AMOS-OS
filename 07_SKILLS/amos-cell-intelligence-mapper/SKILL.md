@@ -200,9 +200,9 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-cell-intelligence-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c04-bio-neuro-master` — parent skill
-- `[[amos-cell-intelligence-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-cell-intelligence-mapper-agent` — corresponding agent
 ---
 
@@ -216,7 +216,7 @@ NBI is AMOS_MODEL — structural reasoning about biological systems, NOT medical
 RSCF-NODE
 node_id: amos-cell-intelligence-mapper
 node_type: skill
-path: 07_SKILLS/amos-cell-intelligence-mapper/SKILL.md
+path: 07_SKILLS/amos-cell-intelligence-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

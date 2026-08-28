@@ -321,9 +321,9 @@ but the relevant validation evidence has not been inspected or
 executed:
 
 ```text
-VALIDATION CLAIM
+[[VALIDATION]] CLAIM
 !=
-VALIDATION OBSERVATION
+[[VALIDATION]] OBSERVATION
 ```
 
 The gap remains visible.
@@ -1097,7 +1097,7 @@ Therefore:
 ```text
 RESTATEMENT
 !=
-VALIDATION
+[[VALIDATION]]
 ```
 
 ---
@@ -1519,7 +1519,7 @@ Exact historical storage semantics are not supplied.
 
 # 72. Gap and L10 Failure Recovery
 
-[[L10_FAILURE_RECOVERY]] naturally interacts with L27.
+ naturally interacts with L27.
 
 When recovery encounters missing information:
 
@@ -1542,7 +1542,7 @@ Exact coupling is not supplied by the terse source.
 
 # 73. Gap and L17 RSCF
 
-[[L17_RSCF]] can provide a natural structure for bounded gaps.
+ can provide a natural structure for bounded gaps.
 
 Conceptually:
 
@@ -1711,7 +1711,7 @@ may follow new evidence.
 
 # 81. Gap and L25 Shard Local
 
-[[L25_SHARD_LOCAL]] raises an important locality question:
+ raises an important locality question:
 
 ```text
 Is this gap local or global?
@@ -1979,7 +1979,7 @@ Correct:
 
 ```text
 MODEL SUPPORTED
-EMPIRICAL VALIDATION GAP
+EMPIRICAL [[VALIDATION]] GAP
 ```
 
 ---
@@ -2694,7 +2694,7 @@ Root-cause resolution may close several dependent gaps at once.
 NEW EVIDENCE
      |
      v
-VALIDATION
+[[VALIDATION]]
      |
      v
 GAP G001
@@ -2817,7 +2817,7 @@ CLOSED   REOPEN
 
 # 145. Fail-Closed Governance
 
-[[FAIL_CLOSED_GOVERNANCE]] is a natural L27 integration.
+ is a natural L27 integration.
 
 When a gap affects:
 
@@ -3294,7 +3294,7 @@ GAP
 NEW EVIDENCE
  |
  v
-VALIDATION
+[[VALIDATION]]
  |
  v
 CLOSURE
@@ -3485,7 +3485,7 @@ written as an equation.
 ```text
 FORMALIZATION
 !=
-VALIDATION
+[[VALIDATION]]
 ```
 
 ---
@@ -3755,9 +3755,9 @@ CORRECT EVIDENCE TYPE
 +
 EVIDENCE ACQUIRED
 +
-VALIDATION EXECUTED
+[[VALIDATION]] EXECUTED
 +
-VALIDATION PASSED
+[[VALIDATION]] PASSED
 +
 SCOPE MATCHED
 +
@@ -4980,7 +4980,7 @@ L27 is directly relevant to reconstruction integrity.
 If a canonical section is absent:
 
 ```text
-MISSING CANON
+MISSING [[CANON]]
 ```
 
 should remain visible.
@@ -5241,26 +5241,26 @@ source_established:
 
   relations:
     indexed_by:
-      - 00_HOME
-      - AMOS_RSCF_NODES
+      - [[00_HOME]]
+      - [[AMOS_RSCF_NODES]]
     child_of:
-      - LAW_HIERARCHY
+      - [[LAW_HIERARCHY]]
 
   related:
-    - 00_HOME
-    - AMOS_RSCF_NODES
-    - LAW_HIERARCHY
-    - L25_SHARD_LOCAL
-    - L28_CRITICAL_GAP
-    - L10_FAILURE_RECOVERY
-    - L17_RSCF
-    - FAIL_CLOSED_GOVERNANCE
+    - [[00_HOME]]
+    - [[AMOS_RSCF_NODES]]
+    - [[LAW_HIERARCHY]]
+    - [[L25_SHARD_LOCAL]]
+    - [[L28_CRITICAL_GAP]]
+    - [[L10_FAILURE_RECOVERY]]
+    - [[L17_RSCF]]
+    - [[FAIL_CLOSED_GOVERNANCE]]
 
   moc:
-    - 01_CORE_LAWS_MOC
+    - [[01_CORE_LAWS_MOC]]
 
   trang_framework:
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+    - [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 ```
 
 ---
@@ -5514,7 +5514,7 @@ What is forbidden is:
 ```text
 MODEL DETAIL
 ->
-SILENT CANON PROMOTION
+SILENT [[CANON]] PROMOTION
 ```
 
 ---
@@ -5562,7 +5562,7 @@ GAP
 |
 +--> SEEK MATCHING EVIDENCE
 |
-+--> EXECUTE VALIDATION
++--> EXECUTE [[VALIDATION]]
 |
 +--> CLOSE / PARTIAL / KEEP OPEN
 |
@@ -5606,7 +5606,7 @@ GAP
                                     NEW EVIDENCE
                                          |
                                          v
-                               EXECUTED VALIDATION
+                               EXECUTED [[VALIDATION]]
                                          |
                                   +------+------+
                                   |             |
@@ -5675,7 +5675,7 @@ GAP-I1
 MISSING EVIDENCE REMAINS VISIBLE.
 
 GAP-I2
-PLAUSIBLE ARCHITECTURE DOES NOT CLOSE A GAP.
+PLAUSIBLE [[ARCHITECTURE]] DOES NOT CLOSE A GAP.
 
 GAP-I3
 UNKNOWN/GAP IS A VALID FIRST-CLASS OUTPUT.
@@ -5702,13 +5702,13 @@ GAP-I10
 RESTATEMENT IS NOT EVIDENCE.
 
 GAP-I11
-REPETITION IS NOT VALIDATION.
+REPETITION IS NOT [[VALIDATION]].
 
 GAP-I12
 DOCUMENTATION CLAIMS ARE NOT EXECUTION OBSERVATIONS.
 
 GAP-I13
-VALIDATION CLOSES ONLY THE SCOPE IT ACTUALLY TESTS.
+[[VALIDATION]] CLOSES ONLY THE SCOPE IT ACTUALLY TESTS.
 
 GAP-I14
 SIMULATION DOES NOT SILENTLY CLOSE EMPIRICAL GAPS.
@@ -6130,7 +6130,7 @@ IMPLEMENTATION GAP
 AUTHORITY GAP
     -> authoritative governance evidence
 
-VALIDATION GAP
+[[VALIDATION]] GAP
     -> executed validation evidence
 
 PROVENANCE GAP
@@ -6652,7 +6652,7 @@ EPHEMERAL CLAIM
 PERSISTENT EVIDENCE
       |
       v
-VALIDATION
+[[VALIDATION]]
       |
       v
 VALIDATED KNOWLEDGE
@@ -7283,7 +7283,7 @@ Therefore independence is scoped and typed.
 SOURCE S
    |
    v
-VALIDATION V
+[[VALIDATION]] V
   / \
  v   v
 R1   R2
@@ -7545,7 +7545,7 @@ TO CLOSE:
 
 OBTAIN NEW EVIDENCE.
 
-EXECUTE THE RELEVANT VALIDATION.
+EXECUTE THE RELEVANT [[VALIDATION]].
 
 VERIFY SCOPE.
 
@@ -7812,7 +7812,7 @@ dependency tracking
 When canon is unavailable:
 
 ```text
-UNKNOWN CANON
+UNKNOWN [[CANON]]
 ```
 
 is the correct state.
@@ -7942,7 +7942,7 @@ It does not itself define the complete governance authority hierarchy.
 
 # 414. Gap Law L28 Boundary
 
-The reference to [[L28_CRITICAL_GAP]] establishes relationship, not
+The reference to  establishes relationship, not
 content.
 
 Until L28 is supplied:
@@ -8035,7 +8035,7 @@ canonical_status: CONDITIONAL
 Therefore:
 
 ```text
-CANON DIRECTORY
+[[CANON]] DIRECTORY
 !=
 UNCONDITIONAL CANONICAL STATUS
 ```
@@ -8371,10 +8371,10 @@ IS MISSING:
 SAY AUTHORITY
 IS NOT ESTABLISHED.
 
-WHEN VALIDATION
+WHEN [[VALIDATION]]
 IS MISSING:
 
-SAY VALIDATION
+SAY [[VALIDATION]]
 IS NOT ESTABLISHED.
 
 WHEN PROVENANCE
@@ -8428,7 +8428,7 @@ BRING NEW EVIDENCE.
 
 EXECUTE
 THE RELEVANT
-VALIDATION.
+[[VALIDATION]].
 
 MATCH
 THE EVIDENCE
@@ -8449,10 +8449,10 @@ WHEN MATERIAL.
 
 DO NOT CLOSE
 AN IMPLEMENTATION GAP
-WITH AN ARCHITECTURE.
+WITH AN [[ARCHITECTURE]].
 
 DO NOT CLOSE
-A VALIDATION GAP
+A [[VALIDATION]] GAP
 WITH DOCUMENTATION.
 
 DO NOT CLOSE
@@ -8478,7 +8478,7 @@ MORE EVIDENCE.
 
 MORE DETAIL
 IS NOT
-MORE VALIDATION.
+MORE [[VALIDATION]].
 
 MORE COPIES
 ARE NOT
@@ -8605,7 +8605,7 @@ THE EPISTEMIC BASIS.
 EXECUTED,
 RELEVANT,
 SCOPE-CORRECT
-VALIDATION CAN.
+[[VALIDATION]] CAN.
 ```
 
 The detailed qualifiers beyond "executed validation" are derived
@@ -8651,7 +8651,7 @@ integrity extensions.
 > Those remain `MODEL`, `DERIVED`, or `UNKNOWN/GAP` unless separately
 > established.
 >
-> In particular, the exact semantics of [[L28_CRITICAL_GAP]] must not be
+> In particular, the exact semantics of  must not be
 > invented from its title or relationship alone.
 
 ---
@@ -8694,10 +8694,10 @@ L27_GAP:
     - "PLAUSIBLE != ESTABLISHED"
     - "UNKNOWN != FALSE"
     - "UNKNOWN != TRUE"
-    - "RESTATEMENT != VALIDATION"
+    - "RESTATEMENT != [[VALIDATION]]"
     - "DOCUMENTATION != EXECUTION"
     - "MODEL != IMPLEMENTATION"
-    - "SIMULATION != EMPIRICAL VALIDATION"
+    - "SIMULATION != EMPIRICAL [[VALIDATION]]"
     - "CORRELATION != CAUSATION"
     - "DESCENDANT MULTIPLICITY != INDEPENDENCE"
     - "MORE PROSE != MORE EVIDENCE"
@@ -8747,7 +8747,7 @@ UNKNOWN/GAP
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

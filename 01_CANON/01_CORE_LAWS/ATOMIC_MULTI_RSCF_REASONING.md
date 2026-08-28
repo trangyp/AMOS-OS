@@ -60,10 +60,10 @@ The supplied source establishes the canonical kernel reference:
 ```text
 See canonical kernel:
 
-[[K_ATOMIC_MULTI_RSCF]]
+
 ```
 
-Accordingly, this artifact defines the governing contract and delegates kernel-level semantics to `[[K_ATOMIC_MULTI_RSCF]]`.
+Accordingly, this artifact defines the governing contract and delegates kernel-level semantics to ``.
 
 Where the kernel contains more specific requirements, the kernel governs.
 
@@ -1220,7 +1220,7 @@ GLOBAL LOCKING ALWAYS
 This artifact explicitly delegates canonical kernel detail to:
 
 ```text
-[[K_ATOMIC_MULTI_RSCF]]
+
 ```
 
 Therefore any semantics in this specification that are not explicitly supported by the kernel must remain:
@@ -1234,7 +1234,7 @@ until reconciled against that canonical kernel.
 If the kernel contradicts an inferred detail in this artifact:
 
 ```text
-[[K_ATOMIC_MULTI_RSCF]]
+
 >
 INFERRED DETAIL
 ```
@@ -1263,10 +1263,10 @@ TAGS:
 rscf, atomic, reasoning
 
 CANONICAL REFERENCE:
-[[K_ATOMIC_MULTI_RSCF]]
+
 ```
 
-It does not independently provide the contents of `[[K_ATOMIC_MULTI_RSCF]]`.
+It does not independently provide the contents of ``.
 
 Accordingly:
 
@@ -1292,7 +1292,7 @@ PROOF_CAPSULE:
   claim:
     >
     ATOMIC_MULTI_RSCF_REASONING is governed by the
-    canonical kernel [[K_ATOMIC_MULTI_RSCF]].
+    canonical kernel .
 
   class:
     SOURCE_CLAIM
@@ -1301,7 +1301,7 @@ PROOF_CAPSULE:
     supplied_ATOMIC_MULTI_RSCF_REASONING_specification
 
   evidence:
-    - "See canonical kernel: [[K_ATOMIC_MULTI_RSCF]]."
+    - "See canonical kernel: ."
 
   scope:
     - 01_CANON
@@ -1309,7 +1309,7 @@ PROOF_CAPSULE:
     - MULTI_RSCF_REASONING
 
   dependencies:
-    - [[K_ATOMIC_MULTI_RSCF]]
+    - 
 
   unresolved_dependency:
     full_K_ATOMIC_MULTI_RSCF_content
@@ -1378,7 +1378,7 @@ RSCF:
 
   L:
     canonical_kernel:
-      [[K_ATOMIC_MULTI_RSCF]]
+      
 
     kernel_content_loaded:
       false
@@ -1391,7 +1391,7 @@ RSCF:
     - supplied_source_artifact
 
   dependencies:
-    - [[K_ATOMIC_MULTI_RSCF]]
+    - 
 
   confidence_ceiling:
     source_model: SOURCE_BOUND
@@ -1517,7 +1517,7 @@ RSCF-RELATIONS:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -1533,5 +1533,5 @@ RSCF-RELATIONS:
 
 ```
 
-The key gap remains explicit: the source you supplied establishes the `[[K_ATOMIC_MULTI_RSCF]]` binding, but not that kernel's actual contents. Therefore the kernel reference is **SOURCE_GROUNDED**, while any expanded semantics not directly recovered from that kernel remain **AMOS_MODEL** rather than being silently promoted to kernel canon.
+The key gap remains explicit: the source you supplied establishes the `` binding, but not that kernel's actual contents. Therefore the kernel reference is **SOURCE_GROUNDED**, while any expanded semantics not directly recovered from that kernel remain **AMOS_MODEL** rather than being silently promoted to kernel canon.
 ```

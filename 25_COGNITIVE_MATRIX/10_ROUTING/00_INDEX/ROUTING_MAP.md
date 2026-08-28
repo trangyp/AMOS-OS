@@ -95,7 +95,7 @@ ROUTING_MAP
 
 ## 2.1 Readme
 
-**INDEX_ROUTING_COGNITIVE_MATRIX_README**
+**[[INDEX_ROUTING_COGNITIVE_MATRIX_README]]**
 
 Purpose:
 
@@ -107,7 +107,7 @@ Purpose:
 * known gaps;
 * links into detailed routing artifacts.
 
-The README is explanatory unless stronger canonical status is explicitly established.
+The [[README]] is explanatory unless stronger canonical status is explicitly established.
 
 Documentation statements remain `SOURCE_CLAIM` or `AMOS_MODEL` according to their provenance and classification.
 
@@ -115,7 +115,7 @@ Documentation statements remain `SOURCE_CLAIM` or `AMOS_MODEL` according to thei
 
 ## 2.2 Contract
 
-**ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT**
+**[[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]**
 
 Purpose:
 
@@ -129,7 +129,7 @@ Purpose:
 * validation requirements;
 * routing invariants.
 
-Where the README and Contract differ, the map MUST NOT silently decide precedence.
+Where the [[README]] and Contract differ, the map MUST NOT silently decide precedence.
 
 The applicable canon/version/supersession rules must resolve the conflict.
 
@@ -254,7 +254,7 @@ Not every route requires every layer at maximum depth.
 
 Where applicable, Routing consumes the output of:
 
-**TASK_RESOLVER**
+**[[TASK_RESOLVER]]**
 
 The task resolver SHOULD establish enough structure to distinguish:
 
@@ -276,7 +276,7 @@ Routing MUST NOT silently invent missing load-bearing task requirements.
 
 Where applicable, Routing depends on:
 
-**CAPABILITY_RESOLVER**
+**[[CAPABILITY_RESOLVER]]**
 
 Capability resolution SHOULD distinguish:
 
@@ -302,7 +302,7 @@ $$AvailableCapability \not\Rightarrow ValidatedCapability$$
 
 Where applicable, candidate routes interact with:
 
-**MODE_ADMISSION_QUEUE**
+**[[MODE_ADMISSION_QUEUE]]**
 
 Admission SHOULD evaluate whether a candidate mode is eligible under the current:
 
@@ -324,7 +324,7 @@ A queued candidate is not necessarily admitted.
 
 Composable routes MAY depend on:
 
-**MODE_COMPOSITION_REGISTRY**
+**[[MODE_COMPOSITION_REGISTRY]]**
 
 Composition MUST NOT be inferred merely because two modes independently exist.
 
@@ -338,7 +338,7 @@ Composition-level compatibility must be established where consequential.
 
 Routing SHOULD consult:
 
-**MODE_CONFLICT_REGISTRY**
+**[[MODE_CONFLICT_REGISTRY]]**
 
 when candidate routes require potentially incompatible modes.
 
@@ -361,7 +361,7 @@ UNKNOWN/GAP
 
 Routing MAY use:
 
-**MODE_COVERAGE_MATRIX**
+**[[MODE_COVERAGE_MATRIX]]**
 
 to evaluate whether a candidate route covers required task capabilities.
 
@@ -375,7 +375,7 @@ $$Coverage(T,M) \not\Rightarrow CorrectExecution(T,M)$$
 
 Routing SHOULD use:
 
-**MODE_DEPENDENCY_GRAPH**
+**[[MODE_DEPENDENCY_GRAPH]]**
 
 where route validity depends on mode or capability dependencies.
 
@@ -741,7 +741,7 @@ Routing policy and authorization evidence therefore require separate treatment w
 
 The map recognizes the validation reference:
 
-**ROUTING_POLICY_VALIDATION_RECEIPT**
+**[[ROUTING_POLICY_VALIDATION_RECEIPT]]**
 
 This receipt is intended to provide evidence concerning routing-policy behavior.
 
@@ -761,7 +761,7 @@ The receipt itself must be inspected when its evidence is decision-relevant.
 
 The map recognizes:
 
-**AUTHZ_ENGINE_VALIDATION_RECEIPT**
+**[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]**
 
 This artifact is intended to evidence relevant authorization-engine behavior.
 
@@ -817,7 +817,7 @@ This file intentionally covers its own directory.
 Cross-segment edges SHOULD be resolved through:
 
 * [[00_ROOT_MAP]]
-* AMOS_RSCF_NODES
+* [[AMOS_RSCF_NODES]]
 
 and applicable subsystem maps.
 
@@ -1190,8 +1190,8 @@ Declared topology does not itself prove executable bindings.
 
 Relevant evidence references:
 
-* ROUTING_POLICY_VALIDATION_RECEIPT
-* AUTHZ_ENGINE_VALIDATION_RECEIPT
+* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ---
 
@@ -1210,7 +1210,7 @@ only.
 Cross-segment topology belongs in:
 
 * [[00_ROOT_MAP]]
-* AMOS_RSCF_NODES
+* [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -1304,35 +1304,35 @@ The decisive routing discipline is:
 
 ### Orientation
 
-* INDEX_ROUTING_COGNITIVE_MATRIX_README
+* [[INDEX_ROUTING_COGNITIVE_MATRIX_README]]
 
 ### Normative Contract
 
-* ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT
+* [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
 
 ### Resolution / Mode Dependencies
 
-* TASK_RESOLVER
-* CAPABILITY_RESOLVER
-* MODE_ADMISSION_QUEUE
-* MODE_COMPOSITION_REGISTRY
-* MODE_CONFLICT_REGISTRY
-* MODE_COVERAGE_MATRIX
-* MODE_DEPENDENCY_GRAPH
+* [[TASK_RESOLVER]]
+* [[CAPABILITY_RESOLVER]]
+* [[MODE_ADMISSION_QUEUE]]
+* [[MODE_COMPOSITION_REGISTRY]]
+* [[MODE_CONFLICT_REGISTRY]]
+* [[MODE_COVERAGE_MATRIX]]
+* [[MODE_DEPENDENCY_GRAPH]]
 
 ### Validation Evidence
 
-* ROUTING_POLICY_VALIDATION_RECEIPT
-* AUTHZ_ENGINE_VALIDATION_RECEIPT
+* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 ### Global Topology
 
 * [[00_ROOT_MAP]]
-* AMOS_RSCF_NODES
+* [[AMOS_RSCF_NODES]]
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -1352,37 +1352,37 @@ RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: COGNITIVE_MATRIX_MOC
+* PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
 * PART_OF: [[00_ROOT_MAP]]
 
-* MAPS: INDEX_ROUTING_COGNITIVE_MATRIX_README
+* MAPS: [[INDEX_ROUTING_COGNITIVE_MATRIX_README]]
 
-* MAPS: ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT
+* MAPS: [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
 
-* REFERENCES: TASK_RESOLVER
+* [[REFERENCES]]: [[TASK_RESOLVER]]
 
-* REFERENCES: CAPABILITY_RESOLVER
+* [[REFERENCES]]: [[CAPABILITY_RESOLVER]]
 
-* REFERENCES: MODE_ADMISSION_QUEUE
+* [[REFERENCES]]: [[MODE_ADMISSION_QUEUE]]
 
-* REFERENCES: MODE_COMPOSITION_REGISTRY
+* [[REFERENCES]]: [[MODE_COMPOSITION_REGISTRY]]
 
-* REFERENCES: MODE_CONFLICT_REGISTRY
+* [[REFERENCES]]: [[MODE_CONFLICT_REGISTRY]]
 
-* REFERENCES: MODE_COVERAGE_MATRIX
+* [[REFERENCES]]: [[MODE_COVERAGE_MATRIX]]
 
-* REFERENCES: MODE_DEPENDENCY_GRAPH
+* [[REFERENCES]]: [[MODE_DEPENDENCY_GRAPH]]
 
-* VALIDATED_BY: ROUTING_POLICY_VALIDATION_RECEIPT
+* VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* VALIDATED_BY: AUTHZ_ENGINE_VALIDATION_RECEIPT
+* VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-* USES: K_RSCF
+* USES: [[K_RSCF]]
 
-* USES: L17_RSCF
+* USES: [[L17_RSCF]]
 
 claim_class: AMOS_MODEL
 canonical_status: CONDITIONAL

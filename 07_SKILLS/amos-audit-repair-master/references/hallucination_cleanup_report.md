@@ -139,11 +139,11 @@ User correctly identified nonsensical hallucination directories:
 [TIMESTAMP] 2025-03-0
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

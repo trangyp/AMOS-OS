@@ -195,9 +195,9 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-artistic-expression-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-artistic-expression-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-artistic-expression-governor-agent` — corresponding agent
 ---
 
@@ -211,7 +211,7 @@ Artistic expression governance is a creative construct. It does not prove aesthe
 RSCF-NODE
 node_id: amos-artistic-expression-governor
 node_type: skill
-path: 07_SKILLS/amos-artistic-expression-governor/SKILL.md
+path: 07_SKILLS/amos-artistic-expression-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

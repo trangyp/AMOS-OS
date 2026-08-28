@@ -208,9 +208,9 @@ UST structure mapping is an analytical framework. It does not prove the 7-part c
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-ust-structure-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-ust-structure-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-ust-structure-mapper-agent` — corresponding agent
 ---
 
@@ -224,7 +224,7 @@ UST structure mapping is an analytical framework. It does not prove the 7-part c
 RSCF-NODE
 node_id: amos-ust-structure-mapper
 node_type: skill
-path: 07_SKILLS/amos-ust-structure-mapper/SKILL.md
+path: 07_SKILLS/amos-ust-structure-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

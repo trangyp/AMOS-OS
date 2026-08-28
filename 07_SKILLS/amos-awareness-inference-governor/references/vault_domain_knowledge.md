@@ -212,7 +212,7 @@ The strongest AMOS brain has evolved into a comprehensive next-generation system
 - Real-time coordination metrics and status monitoring
 - Automatic repository validation and health checking
 
-## EVOLUTION ARCHITECTURE
+## EVOLUTION [[ARCHITECTURE]]
 
 ### Layer 1: Foundation (Completed)
 - **Canonical Kernel**: Single source of truth governance

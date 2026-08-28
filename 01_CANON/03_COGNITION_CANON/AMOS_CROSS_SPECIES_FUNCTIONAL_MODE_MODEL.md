@@ -4014,7 +4014,7 @@ uncertainty:
 Target relation:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 The source requires observability never be treated as authority.
@@ -4048,7 +4048,7 @@ APPROVED CANONICAL MAPPING
 Target:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 But:
@@ -4072,7 +4072,7 @@ NOT_ESTABLISHED
 Target:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 But:
@@ -4090,7 +4090,7 @@ EXECUTABLE CROSS-SPECIES ENFORCEMENT
 Target:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 But:
@@ -4108,7 +4108,7 @@ VALIDATED MODEL-RECOVERY IMPLEMENTATION
 Required before promotion:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
+
 ```
 
 Current:
@@ -4124,7 +4124,7 @@ NOT_ESTABLISHED
 Required before promotion:
 
 ```text
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
 ```
 
 Current:
@@ -4996,7 +4996,7 @@ Source-supported governance:
 ```text
 AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL
 ↓ GOVERNED_BY
-[[LAW_HIERARCHY]]
+
 ```
 
 Source-supported indexing:
@@ -5004,23 +5004,23 @@ Source-supported indexing:
 ```text
 AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL
 ↓ INDEXED_BY
-[[00_HOME]]
+
 
 AMOS_CROSS_SPECIES_FUNCTIONAL_MODE_MODEL
 ↓ INDEXED_BY
-[[AMOS_RSCF_NODES]]
+
 ```
 
 Target integration:
 
 ```text
-[[KERNEL_README]]
 
-[[CONTROL_PLANE_README]]
 
-[[OBSERVABILITY_README]]
 
-[[OPERATIONS_README]]
+
+
+
+
 ```
 
 These are target references, not validated executable bindings.
@@ -5910,7 +5910,7 @@ PROMOTE ONLY AFTER VALIDATION
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

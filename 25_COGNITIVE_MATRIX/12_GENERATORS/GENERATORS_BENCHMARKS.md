@@ -2419,17 +2419,17 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY:
-      "[[00_HOME]]"
+  - INDEXED_BY: [[00_HOME]]
+      ""
 
-  - INDEXED_BY:
-      "[[AMOS_RSCF_NODES]]"
-
-  - PART_OF:
-      "[[GENERATORS_MAP]]"
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+      ""
 
   - PART_OF:
-      "[[COGNITIVE_MATRIX_MOC]]"
+      ""
+
+  - PART_OF:
+      ""
 
   - RELATED_TO:
       "GENERATOR_CONTRACT|Generator Contract"
@@ -3177,7 +3177,7 @@ NON_AUTHORITATIVE
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -3202,10 +3202,10 @@ NON_AUTHORITATIVE
 The clean ownership across this Generator cluster is now:
 
 ```text
-GENERATOR_CONTRACT.md
+[[GENERATOR_CONTRACT]].md
 → Generator semantics
 
-VALIDATION.md
+[[VALIDATION]].md
 → admissibility
 
 TESTS.md
@@ -3217,22 +3217,22 @@ GENERATORS_BENCHMARKS.md
 PROVENANCE.md
 → ancestry and evidence topology
 
-INTEGRATION.md
+[[INTEGRATION]].md
 → subsystem bindings
 
-ROADMAP.md
+[[ROADMAP]].md
 → future sequencing
 
 HISTORY.md
 → evidenced evolution
 
-GENERATORS_CHANGE_LOG.md
+[[GENERATORS_CHANGE_LOG]].md
 → individual recorded changes
 ```
 
 That separation is important because **tests answer whether a property held in a test, while benchmarks answer how a system performed under a measurement envelope; neither alone proves global correctness or readiness.**
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** 
 
 ```

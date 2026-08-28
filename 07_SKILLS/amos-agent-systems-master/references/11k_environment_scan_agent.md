@@ -214,11 +214,11 @@ Category: agents
 Com
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

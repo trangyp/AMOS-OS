@@ -195,7 +195,7 @@ FORMAL SEMANTICS OF S₀
 
 FORMAL SEMANTICS OF 𝒞, ℰ, ℱ
 
-EMPIRICAL RUNTIME VALIDATION
+EMPIRICAL RUNTIME [[VALIDATION]]
 
 FORMAL VERIFICATION
 ```
@@ -275,7 +275,7 @@ This tuple representation is derived from the source table.
 The source links:
 
 ```text
-CORE CANON
+CORE [[CANON]]
     │
     ▼
 25_COGNITIVE_MATRIX
@@ -460,13 +460,13 @@ INTEGRITY ALGORITHM
 
 INTEGRITY HASH
 
-VALIDATION METHOD
+[[VALIDATION]] METHOD
 
 HARDWARE BOUNDARY
 
 BIOLOGICAL BOUNDARY
 
-MEMORY BOUNDARY
+[[MEMORY]] BOUNDARY
 ```
 
 These remain dependency gaps unless established elsewhere.
@@ -561,7 +561,7 @@ Boot_Route:
     01_BOOT
 
   subsystem:
-    FULL_BRAIN_BOOTSTRAP
+    [[FULL_BRAIN_BOOTSTRAP]]
 
   invariant:
     - SUBSTRATE_INTEGRITY
@@ -1337,7 +1337,7 @@ Finalization_Route:
     09_FINALIZATION
 
   subsystem:
-    LOCAL_PROOF_FINALIZER
+    [[LOCAL_PROOF_FINALIZER]]
 
   invariant:
     LAW_OF_LAW_C_E_F_COMPLIANCE
@@ -1486,7 +1486,7 @@ Core_X_Runtime_Matrix:
   01_BOOT:
 
     subsystem:
-      FULL_BRAIN_BOOTSTRAP
+      [[FULL_BRAIN_BOOTSTRAP]]
 
     primary_invariant:
       - SUBSTRATE_INTEGRITY
@@ -1520,7 +1520,7 @@ Core_X_Runtime_Matrix:
   09_FINALIZATION:
 
     subsystem:
-      LOCAL_PROOF_FINALIZER
+      [[LOCAL_PROOF_FINALIZER]]
 
     primary_invariant:
       LAW_OF_LAW_C_E_F_COMPLIANCE
@@ -1600,7 +1600,7 @@ The matrix counterpart is:
 Relationship:
 
 ```text
-CORE_X_RUNTIME
+[[CORE_X_RUNTIME]]
        │
        │ specification
        ▼
@@ -1646,9 +1646,9 @@ The source explicitly connects:
 ```text
 [[CORE_X_RUNTIME]]
 
-04_RUNTIME/04_RUNTIME_MOC
+04_RUNTIME/[[04_RUNTIME_MOC]]
 
-01_CANON/01_CANON_MOC
+01_CANON/[[01_CANON_MOC]]
 ```
 
 This creates a source-defined cross-plane topology:
@@ -1657,7 +1657,7 @@ This creates a source-defined cross-plane topology:
 01_CANON
     │
     ▼
-CORE_X_RUNTIME
+[[CORE_X_RUNTIME]]
     │
     ▼
 CORE_X_RUNTIME_MATRIX
@@ -1675,7 +1675,7 @@ The exact dependency direction beyond the explicit references should be governed
 Referenced:
 
 ```text
-01_CANON/01_CANON_MOC
+01_CANON/[[01_CANON_MOC]]
 ```
 
 The matrix claims to map:
@@ -1697,7 +1697,7 @@ Therefore no exact L0–L3 row mapping should be invented from this artifact alo
 Referenced:
 
 ```text
-04_RUNTIME/04_RUNTIME_MOC
+04_RUNTIME/[[04_RUNTIME_MOC]]
 ```
 
 The matrix establishes selected runtime stage names.
@@ -1786,7 +1786,7 @@ RSCF:
       01_BOOT
 
     subsystem:
-      FULL_BRAIN_BOOTSTRAP
+      [[FULL_BRAIN_BOOTSTRAP]]
 
   M:
 
@@ -1910,7 +1910,7 @@ RSCF:
       09_FINALIZATION
 
     subsystem:
-      LOCAL_PROOF_FINALIZER
+      [[LOCAL_PROOF_FINALIZER]]
 
   M:
 
@@ -2243,7 +2243,7 @@ Multiple runtime artifacts do not provide independent confirmation if they desce
 For example:
 
 ```text
-RUNTIME README
+RUNTIME [[README]]
 RUNTIME MATRIX
 GENERATED DOCUMENTATION
 ```
@@ -2578,7 +2578,7 @@ Therefore:
 TABLE STRUCTURE:
 VERIFIED_SOURCE_STRUCTURE
 
-TOTAL RUNTIME ARCHITECTURE:
+TOTAL RUNTIME [[ARCHITECTURE]]:
 UNKNOWN FROM THIS ARTIFACT ALONE
 ```
 
@@ -3764,7 +3764,7 @@ SAFETY EFFECT
 
 BIOLOGICAL EFFECT
 
-CANON EFFECT
+[[CANON]] EFFECT
 
 LARGE DOWNSTREAM DEPENDENCY
 ```
@@ -4027,9 +4027,9 @@ Regime:
     "2026-08-27"
 
   dependencies:
-    - CORE_X_RUNTIME
-    - 04_RUNTIME/04_RUNTIME_MOC
-    - 01_CANON/01_CANON_MOC
+    - [[CORE_X_RUNTIME]]
+    - 04_RUNTIME/[[04_RUNTIME_MOC]]
+    - 01_CANON/[[01_CANON_MOC]]
 
   revalidate_on:
     - matrix_change
@@ -4194,7 +4194,7 @@ COMPETING
 If:
 
 ```text
-04_RUNTIME/04_RUNTIME_MOC
+04_RUNTIME/[[04_RUNTIME_MOC]]
 ```
 
 defines a stage differently from this matrix, the conflict must remain visible until authority/supersession analysis resolves it.
@@ -4214,7 +4214,7 @@ RUNTIME CAPABILITY
 does not silently override:
 
 ```text
-CANON AUTHORITY
+[[CANON]] AUTHORITY
 ```
 
 The exact governance response must follow applicable Canon rules.
@@ -4286,11 +4286,11 @@ FAILURE RECOVERABILITY
 Revalidate this matrix when:
 
 ```text
-CORE_X_RUNTIME CHANGES
+[[CORE_X_RUNTIME]] CHANGES
 
 04_RUNTIME MOC CHANGES
 
-CANON CHANGES
+[[CANON]] CHANGES
 
 BOOT STAGE CHANGES
 
@@ -4477,7 +4477,7 @@ SPECIFICATION COUNTERPART
 
 RUNTIME MOC CONNECTION
 
-CANON MOC CONNECTION
+[[CANON]] MOC CONNECTION
 
 STAGE NAMES
 
@@ -4565,7 +4565,7 @@ Core_X_Runtime_Matrix:
     "01_BOOT":
 
       subsystem:
-        FULL_BRAIN_BOOTSTRAP
+        [[FULL_BRAIN_BOOTSTRAP]]
 
       primary_invariant:
         - SUBSTRATE_INTEGRITY
@@ -4617,7 +4617,7 @@ Core_X_Runtime_Matrix:
     "09_FINALIZATION":
 
       subsystem:
-        LOCAL_PROOF_FINALIZER
+        [[LOCAL_PROOF_FINALIZER]]
 
       primary_invariant:
         LAW_OF_LAW_C_E_F_COMPLIANCE
@@ -4660,7 +4660,7 @@ Runtime_Stage_Registry:
     - stage:
         01_BOOT
       subsystem:
-        FULL_BRAIN_BOOTSTRAP
+        [[FULL_BRAIN_BOOTSTRAP]]
 
     - stage:
         02_ROUTER
@@ -4675,7 +4675,7 @@ Runtime_Stage_Registry:
     - stage:
         09_FINALIZATION
       subsystem:
-        LOCAL_PROOF_FINALIZER
+        [[LOCAL_PROOF_FINALIZER]]
 
   completeness:
     SELECTED_STAGE_SET_ONLY
@@ -4716,8 +4716,8 @@ PROOF_CAPSULE:
     - RSCF Contract
 
   provenance:
-    - 25_COGNITIVE_MATRIX/CORE_X_RUNTIME
-    - 04_RUNTIME/04_RUNTIME_MOC
+    - 25_COGNITIVE_MATRIX/[[CORE_X_RUNTIME]]
+    - 04_RUNTIME/[[04_RUNTIME_MOC]]
     - AMOS_CORPUS
 
   scope:
@@ -4921,7 +4921,7 @@ RSCF:
         stage:
           01_BOOT
         subsystem:
-          FULL_BRAIN_BOOTSTRAP
+          [[FULL_BRAIN_BOOTSTRAP]]
         invariant:
           SUBSTRATE_INTEGRITY_AND_NULL_INVARIANT_S0
         failure:
@@ -4951,7 +4951,7 @@ RSCF:
         stage:
           09_FINALIZATION
         subsystem:
-          LOCAL_PROOF_FINALIZER
+          [[LOCAL_PROOF_FINALIZER]]
         invariant:
           LAW_OF_LAW_C_E_F_COMPLIANCE
         failure:
@@ -4960,9 +4960,9 @@ RSCF:
   L:
 
     load_on_demand:
-      - CORE_X_RUNTIME
-      - 04_RUNTIME/04_RUNTIME_MOC
-      - 01_CANON/01_CANON_MOC
+      - [[CORE_X_RUNTIME]]
+      - 04_RUNTIME/[[04_RUNTIME_MOC]]
+      - 01_CANON/[[01_CANON_MOC]]
       - S0_definition
       - law_of_law_C_E_F_definition
       - default_safe_route_definition
@@ -5010,10 +5010,10 @@ RSCF_RELATIONS:
   - COUNTERPART: "[[CORE_X_RUNTIME]]"
 
   - ROUTES_FROM:
-      "01_CANON/01_CANON_MOC"
+      "01_CANON/[[01_CANON_MOC]]"
 
   - ROUTES_TO:
-      "04_RUNTIME/04_RUNTIME_MOC"
+      "04_RUNTIME/[[04_RUNTIME_MOC]]"
 
   - MAPS_STAGE:
       01_BOOT
@@ -5429,9 +5429,9 @@ Triggers Automatic Rollback
 ```text
 [[CORE_X_RUNTIME]]
 
-04_RUNTIME/04_RUNTIME_MOC
+04_RUNTIME/[[04_RUNTIME_MOC]]
 
-01_CANON/01_CANON_MOC
+01_CANON/[[01_CANON_MOC]]
 ```
 
 ## Derived expansion
@@ -5485,7 +5485,7 @@ INTERMEDIATE RUNTIME STAGES
 
 EXECUTABLE BINDING
 
-EMPIRICAL VALIDATION
+EMPIRICAL [[VALIDATION]]
 
 FORMAL VERIFICATION
 ```
@@ -5528,7 +5528,7 @@ RSCF:
       - id:
           01_BOOT
         subsystem:
-          FULL_BRAIN_BOOTSTRAP
+          [[FULL_BRAIN_BOOTSTRAP]]
         invariant:
           SUBSTRATE_INTEGRITY_AND_NULL_INVARIANT_S0
         failure_action:
@@ -5555,7 +5555,7 @@ RSCF:
       - id:
           09_FINALIZATION
         subsystem:
-          LOCAL_PROOF_FINALIZER
+          [[LOCAL_PROOF_FINALIZER]]
         invariant:
           LAW_OF_LAW_C_E_F_COMPLIANCE
         failure_action:
@@ -5569,9 +5569,9 @@ RSCF:
         DO_NOT_LOAD_UNLESS_REQUIRED
 
       dependencies:
-        - CORE_X_RUNTIME
-        - 04_RUNTIME/04_RUNTIME_MOC
-        - 01_CANON/01_CANON_MOC
+        - [[CORE_X_RUNTIME]]
+        - 04_RUNTIME/[[04_RUNTIME_MOC]]
+        - 01_CANON/[[01_CANON_MOC]]
         - S0_definition
         - law_of_law_definition
         - default_safe_route_definition
@@ -5625,8 +5625,8 @@ PROOF_CAPSULE:
     - "09_FINALIZATION → Local Proof Finalizer → Law of Law (𝒞, ℰ, ℱ) Compliance → Triggers Automatic Rollback"
 
   provenance:
-    - 25_COGNITIVE_MATRIX/CORE_X_RUNTIME
-    - 04_RUNTIME/04_RUNTIME_MOC
+    - 25_COGNITIVE_MATRIX/[[CORE_X_RUNTIME]]
+    - 04_RUNTIME/[[04_RUNTIME_MOC]]
     - AMOS_CORPUS
 
   scope:
@@ -5816,7 +5816,7 @@ DEPENDENCIES ARE AMBIGUOUS.
 
 DO NOT CLAIM EXECUTABLE BINDING,
 RUNTIME ENFORCEMENT, EMPIRICAL
-VALIDATION, OR FORMAL VERIFICATION
+[[VALIDATION]], OR FORMAL VERIFICATION
 WITHOUT THE REQUIRED EVIDENCE.
 
 WHEN A LOAD-BEARING DEFINITION
@@ -5827,11 +5827,11 @@ UNKNOWN/GAP.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_RUNTIME]] · `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC` · [[AMOS_RSCF_NODES]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]]
+**Related:**  ·  ·  · `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC` ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 
 ---
 
@@ -5851,13 +5851,13 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+* PART_OF: 
 
-* COUNTERPART: [[CORE_X_RUNTIME]]
+* COUNTERPART: 
 
 * ROUTES_FROM: 01_CANON/01_CANON_MOC
 
@@ -5871,31 +5871,31 @@ RSCF-RELATIONS:
 
 * MAPS_STAGE: 09_FINALIZATION
 
-* RELATED_TO: [[K_RSCF]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_HML]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_GMEF]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_PROVENANCE]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_FAILURE_RECOVERY]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_CAUSAL_EPOCH]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_MVCC]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_CAS]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
+* RELATED_TO: 
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+* LINEAGE_TARGET: 
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** 
 
 ---
 

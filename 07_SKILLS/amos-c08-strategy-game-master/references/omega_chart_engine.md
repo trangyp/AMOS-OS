@@ -161,11 +161,11 @@ class AMOSOmegaChartEngine:
             if symbol not in self.price_data:
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

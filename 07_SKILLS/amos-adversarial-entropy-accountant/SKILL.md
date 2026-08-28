@@ -204,9 +204,9 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-adversarial-entropy-accountant_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-security-safety-master` — parent skill
-- `[[amos-adversarial-entropy-accountant-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-adversarial-entropy-accountant-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Adversarial entropy accounting is a security construct. It does not prove all ad
 RSCF-NODE
 node_id: amos-adversarial-entropy-accountant
 node_type: skill
-path: 07_SKILLS/amos-adversarial-entropy-accountant/SKILL.md
+path: 07_SKILLS/amos-adversarial-entropy-accountant/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

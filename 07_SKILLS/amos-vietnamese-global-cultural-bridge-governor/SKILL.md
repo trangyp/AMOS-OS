@@ -192,9 +192,9 @@ Bidirectional translation with two firewall rules:
 - `references/vn_map_of_everything.md` — loaded on demand
 - `references/vn_neural_invariance_silence.md` — loaded on demand
 - `references/vn_what_you_discovered.md` — loaded on demand
-- `[[amos-vietnamese-global-cultural-bridge-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c06-society-culture-master` — parent skill
-- `[[amos-vietnamese-global-cultural-bridge-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-vietnamese-global-cultural-bridge-governor-agent` — corresponding agent
 ---
 
@@ -208,7 +208,7 @@ Bidirectional translation with two firewall rules:
 RSCF-NODE
 node_id: amos-vietnamese-global-cultural-bridge-governor
 node_type: skill
-path: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/SKILL.md
+path: 07_SKILLS/amos-vietnamese-global-cultural-bridge-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

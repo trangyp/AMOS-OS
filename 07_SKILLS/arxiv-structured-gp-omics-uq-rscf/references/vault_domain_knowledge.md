@@ -146,7 +146,7 @@ Models assets, liabilities, leverage, liquidity, and default risk in banks and c
 - AMOS Agile Delivery Kernel v0 Tech7 3
 - human biology fractal equations 25000
 - AMOS Policy Geostrategy Engine v0 Org Risk Policy7 2
-- AGENTS 2
+- [[AGENTS]] 2
 - AMOS Documentation Kernel v0 Tech Systems7 4
 - AMOS Psychology Decision Kernel v0 Human Society4 2
 - AMOS Cognitive Compression Kernel v0 Meta Cognition4 2

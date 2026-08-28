@@ -13,7 +13,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-# AMOS 7PT CANON MIGRATION ENGINE
+# AMOS 7PT [[CANON]] MIGRATION ENGINE
 
 """
 AMOS 7PT Canon Migration Engine

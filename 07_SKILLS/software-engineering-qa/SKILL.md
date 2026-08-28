@@ -190,9 +190,9 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[software-engineering-qa_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c10-tech-engineering-master` — parent skill
-- `[[software-engineering-qa-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `software-engineering-qa-agent` — corresponding agent
 ---
 
@@ -206,7 +206,7 @@ Origin architect: **Trang Phan**. Domain: c10. Parent: amos-c10-tech-engineering
 RSCF-NODE
 node_id: software-engineering-qa
 node_type: skill
-path: 07_SKILLS/software-engineering-qa/SKILL.md
+path: 07_SKILLS/software-engineering-qa/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

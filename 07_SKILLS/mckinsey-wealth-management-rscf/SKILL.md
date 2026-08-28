@@ -215,9 +215,9 @@ fully COVERED.
 
 - `references/money_regimes_for_wealth.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[mckinsey-wealth-management-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[mckinsey-wealth-management-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `mckinsey-wealth-management-rscf-agent` — corresponding agent
 ---
 
@@ -231,7 +231,7 @@ fully COVERED.
 RSCF-NODE
 node_id: mckinsey-wealth-management-rscf
 node_type: skill
-path: 07_SKILLS/mckinsey-wealth-management-rscf/SKILL.md
+path: 07_SKILLS/mckinsey-wealth-management-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

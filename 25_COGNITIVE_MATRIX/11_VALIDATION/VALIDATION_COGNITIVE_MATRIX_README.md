@@ -2629,7 +2629,7 @@ KNOWLEDGE CANDIDATE
 CANON ADMISSION
 ```
 
-Documentation and README claims remain `SOURCE_CLAIM` until validated.
+Documentation and [[README]] claims remain `SOURCE_CLAIM` until validated.
 
 ---
 
@@ -3260,7 +3260,7 @@ This keeps the validation subsystem aligned with the Full Brain OS integrity rul
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

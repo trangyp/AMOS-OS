@@ -316,7 +316,7 @@ node_type: agent
 domain: AMOS_AGENT
 path: .devin/agents/amos-agent-registry-index.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
 claim_class: AMOS_MODEL
 ```
 

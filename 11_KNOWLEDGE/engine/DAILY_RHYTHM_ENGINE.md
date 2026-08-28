@@ -15,7 +15,7 @@ rscf:
 ---
 
 
-# DAILY RHYTHM ENGINE
+# [[DAILY]] RHYTHM ENGINE
 
 """AMOS logical component.
 

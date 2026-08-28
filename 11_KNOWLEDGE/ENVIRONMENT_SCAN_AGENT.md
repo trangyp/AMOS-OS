@@ -354,7 +354,7 @@ not the full chain.
 
 ---
 
-# 6. H / M / L ARCHITECTURE
+# 6. H / M / L [[ARCHITECTURE]]
 
 ```text
 H — SENSE_SYSTEM
@@ -1506,7 +1506,7 @@ filesystem state
 
 ---
 
-# 47. MEMORY ADMISSION
+# 47. [[MEMORY]] ADMISSION
 
 Persistent environment observations should not automatically become memory.
 
@@ -2446,7 +2446,7 @@ The central invariant is:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# INDEX UBI NBI NEUROBIOLOGICAL DOMAINS README
+# INDEX UBI NBI NEUROBIOLOGICAL DOMAINS [[README]]
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL
@@ -32,7 +32,7 @@ Executable binding PARTIAL unless an executed validation receipt exists for this
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

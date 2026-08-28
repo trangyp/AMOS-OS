@@ -450,11 +450,11 @@ Absolute Structural Integrity governs the architecture carrying that inference.
 Conceptually:
 
 ```text
-[[ABSOLUTE_LOGIC_CANON]]
+
         ↓
 valid reasoning relations
 
-[[ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
+
         ↓
 valid representation and dependency topology
 ```
@@ -468,13 +468,13 @@ A logically valid inference stored in a corrupted dependency graph may become op
 Absolute Structural Integrity is constrained by the higher-order integrity discipline represented by:
 
 ```text
-[[ABSOLUTE_INTEGRITY_CANON]]
+
 ```
 
 Exact precedence MUST be inherited from:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 and is not independently established here.
@@ -3312,23 +3312,23 @@ NOT_ESTABLISHED
 Expected receipts may include:
 
 ```text
-[[ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT]]
 
-[[RSCF_STRUCTURE_VALIDATION_RECEIPT]]
 
-[[PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT]]
 
-[[VERSIONING_VALIDATION_RECEIPT]]
 
-[[ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT]]
 
-[[SCOPE_REGIME_VALIDATION_RECEIPT]]
 
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-[[ROLLBACK_VALIDATION_RECEIPT]]
+
+
+
+
+
+
+
+
+
 ```
 
 Missing receipt:
@@ -3858,7 +3858,7 @@ CRITICAL
 └── artifact-specific executed validation receipt absent
 
 DECISION-RELEVANT
-├── exact law hierarchy position requires [[LAW_HIERARCHY]]
+├── exact law hierarchy position requires 
 ├── exact MVCC/CAS runtime binding not established
 ├── atomic multi-RSCF runtime binding not established
 ├── causal epoch implementation not established
@@ -3956,34 +3956,34 @@ RSCF_NODE:
   RSCF_RELATIONS:
 
     - relation: INDEXED_BY
-      target: "[[00_HOME]]"
+      target: ""
 
     - relation: INDEXED_BY
-      target: "[[AMOS_RSCF_NODES]]"
+      target: ""
 
     - relation: GOVERNED_BY
-      target: "[[LAW_HIERARCHY]]"
+      target: ""
 
     - relation: CONSTRAINED_BY
-      target: "[[ABSOLUTE_INTEGRITY_CANON]]"
+      target: ""
 
     - relation: COORDINATES_WITH
-      target: "[[ABSOLUTE_LOGIC_CANON]]"
+      target: ""
 
     - relation: PART_OF
-      target: "[[01_CORE_LAWS_MOC]]"
+      target: ""
 
     - relation: INTERACTS_WITH
-      target: "[[KERNEL_README]]"
+      target: ""
 
     - relation: GOVERNED_AT_RUNTIME_BY
-      target: "[[CONTROL_PLANE_README]]"
+      target: ""
 
     - relation: OBSERVED_BY
-      target: "[[OBSERVABILITY_README]]"
+      target: ""
 
     - relation: RECOVERED_VIA
-      target: "[[OPERATIONS_README]]"
+      target: ""
 ```
 
 ---

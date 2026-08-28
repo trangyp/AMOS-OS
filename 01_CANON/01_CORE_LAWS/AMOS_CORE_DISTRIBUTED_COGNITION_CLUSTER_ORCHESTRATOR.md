@@ -111,15 +111,15 @@ It MUST NOT be interpreted as evidence that a corresponding production runtime h
 Canonical boundary:
 
 ```text
-ARCHITECTURE
+[[ARCHITECTURE]]
 ≠
 IMPLEMENTATION
 
 IMPLEMENTATION
 ≠
-VALIDATION
+[[VALIDATION]]
 
-VALIDATION
+[[VALIDATION]]
 ≠
 PRODUCTION READINESS
 
@@ -347,7 +347,7 @@ Material claims require evidence, verification, or explicit uncertainty.
 Neither one agent nor many agents constitute evidence merely by agreeing.
 
 ```text
-6 AGENTS AGREE
+6 [[AGENTS]] AGREE
 ≠
 6 INDEPENDENT CONFIRMATIONS
 ```
@@ -367,7 +367,7 @@ TOKENS
 WALL_TIME
 TOOL_CALLS
 RETRIES
-MEMORY
+[[MEMORY]]
 COMPUTE
 EVIDENCE_ACQUISITION
 VERIFICATION_EFFORT
@@ -718,7 +718,7 @@ Implementation is a proposal until verification and governance gates pass.
 Role:
 
 ```text
-ADVERSARIAL VALIDATION
+ADVERSARIAL [[VALIDATION]]
 ```
 
 Responsibilities:
@@ -784,7 +784,7 @@ Compression MUST NOT increase confidence.
 Role:
 
 ```text
-GOVERNANCE VALIDATION
+GOVERNANCE [[VALIDATION]]
 ```
 
 Responsibilities:
@@ -3032,7 +3032,7 @@ AGENT_COUNT != INDEPENDENT_SOURCE_COUNT
 
 HASH_STABILITY != SYSTEM_DETERMINISM
 
-ARCHITECTURE != IMPLEMENTATION
+[[ARCHITECTURE]] != IMPLEMENTATION
 
 IMPLEMENTED != VALIDATED
 
@@ -3070,9 +3070,9 @@ No state may be inferred solely because later-state terminology appears in docum
 Target bindings:
 
 ```text
-CANON
+[[CANON]]
   ↓ governs
-DCO ARCHITECTURE
+DCO [[ARCHITECTURE]]
 
 KERNEL
   ↔ executes / routes
@@ -3095,13 +3095,13 @@ GOVERNANCE
 
 Conceptual references:
 
-* [[LAW_HIERARCHY]]
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
-* [[AMOS_RSCF_NODES]]
-* [[00_HOME]]
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ---
 
@@ -3282,7 +3282,7 @@ UNKNOWN/GAP
 # 94. Final Integrity Boundary
 
 ```text
-WHAT THE ARCHITECTURE SPECIFIES
+WHAT THE [[ARCHITECTURE]] SPECIFIES
 ≠
 WHAT A RUNTIME HAS DEMONSTRATED
 
@@ -3290,7 +3290,7 @@ WHAT A SOURCE CLAIMS
 ≠
 WHAT INDEPENDENT EVIDENCE VERIFIES
 
-WHAT MULTIPLE AGENTS REPEAT
+WHAT MULTIPLE [[AGENTS]] REPEAT
 ≠
 WHAT MULTIPLE INDEPENDENT SOURCES CONFIRM
 
@@ -3317,7 +3317,7 @@ The governing invariant remains:
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:**  · 
 
 ---
 
@@ -3325,11 +3325,11 @@ The governing invariant remains:
 
 ---
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
 ---
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** 
 
 ---
 

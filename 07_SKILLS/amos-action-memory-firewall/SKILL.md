@@ -197,9 +197,9 @@ The action-memory firewall is an architectural safety construct. It does not pro
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-action-memory-firewall_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-memory-systems-master` — parent skill
-- `[[amos-action-memory-firewall-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-action-memory-firewall-agent` — corresponding agent
 ---
 
@@ -213,7 +213,7 @@ The action-memory firewall is an architectural safety construct. It does not pro
 RSCF-NODE
 node_id: amos-action-memory-firewall
 node_type: skill
-path: 07_SKILLS/amos-action-memory-firewall/SKILL.md
+path: 07_SKILLS/amos-action-memory-firewall/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

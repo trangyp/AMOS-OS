@@ -3124,17 +3124,17 @@ Only substantive account semantics require deeper retrieval.
 The artifact explicitly links:
 
 ```text
-[[00_HOME]]
-[[KNOWLEDGE_MOC]]
-[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-[[SYSTEM_SCAN_AGENT]]
-[[AUTOMATION_PROFILES]]
+
+
+
+
+
 ```
 
 and:
 
 ```text
-[[KERNEL_MOC]]
+
 ```
 
 ---
@@ -3462,14 +3462,14 @@ RSCF-NODE:
 
   relations:
     RELATED:
-      - "[[00_HOME]]"
-      - "[[KNOWLEDGE_MOC]]"
-      - "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
-      - "[[SYSTEM_SCAN_AGENT]]"
-      - "[[AUTOMATION_PROFILES]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
 
     INDEXED_BY:
-      - "[[KERNEL_MOC]]"
+      - ""
 ```
 
 ---
@@ -3512,7 +3512,7 @@ This query depends on metadata not present in the current source frontmatter.
 ```dataview
 LIST
 FROM "11_KNOWLEDGE/kernel"
-WHERE contains(file.outlinks, [[KERNEL_MOC]])
+WHERE contains(file.outlinks, )
 SORT file.name ASC
 ```
 
@@ -4576,13 +4576,13 @@ require separate evidence.
 
 ---
 
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] ·
-[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] ·
-[[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:**  ·  ·
+ ·
+ · 
 
 ---
 
-**MOC:** [[KERNEL_MOC]]
+**MOC:** 
 ```
 
 This skeleton is DERIVED from the source and intended for ingestion; it does not replace the original source.
@@ -4739,14 +4739,14 @@ ACCOUNTS_KERNEL_CANONICAL_CAPSULE:
     - do_not_infer_registry_presence_from_decorator_alone
 
   related:
-    - "[[00_HOME]]"
-    - "[[KNOWLEDGE_MOC]]"
-    - "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
-    - "[[SYSTEM_SCAN_AGENT]]"
-    - "[[AUTOMATION_PROFILES]]"
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
 
   moc:
-    - "[[KERNEL_MOC]]"
+    - ""
 ```
 
 ---

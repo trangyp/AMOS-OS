@@ -199,7 +199,7 @@ rscf:
 
   scope:
     - COGNITIVE_MATRIX
-    - UNIVERSE_X_OMEGA
+    - [[UNIVERSE_X_OMEGA]]
     - UNIVERSE_STRATA
     - OMEGA_STRESS
     - RUNTIME_DEFENSE
@@ -1610,13 +1610,13 @@ Status:
 
 The next smallest sufficient source is:
 
-[[UNIVERSE_X_OMEGA]]
+
 
 because it is the matrix's explicit specification counterpart.
 
 Only if unresolved semantics remain material should retrieval expand toward:
 
-[[02_UNIVERSE_CANON_MOC]]
+
 
 and then the relevant P1–P7 canonical nodes.
 
@@ -2018,7 +2018,7 @@ Likewise, `Ground State Recovery` implies a recovery target, but its exact ident
 
 The missing source symbol may be material.
 
-Therefore retrieval of [[UNIVERSE_X_OMEGA]] should precede normalization.
+Therefore retrieval of  should precede normalization.
 
 ---
 
@@ -2223,7 +2223,7 @@ applicability_envelope:
     25_COGNITIVE_MATRIX
 
   cross_plane:
-    UNIVERSE_X_OMEGA
+    [[UNIVERSE_X_OMEGA]]
 
   strata:
     P1_TO_P7
@@ -3876,16 +3876,16 @@ It does not independently establish their empirical validity, physical implement
 
 ## Source-Defined
 
-* **Specification:** [[UNIVERSE_X_OMEGA]]
-* **Universe Canon MOC:** [[02_UNIVERSE_CANON_MOC]]
-* **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+* **Specification:** 
+* **Universe Canon MOC:** 
+* **Cognitive Matrix Plane:** 
 
 ## Derived Navigation Candidates
 
-* **Provenance:** [[K_PROVENANCE]]
+* **Provenance:** 
 * **Scope Firewall:** K_SCOPE_FIREWALL
 * **Causal Firewall:** K_CAUSAL_FIREWALL
-* **Fail-Closed Governance:** [[K_FAIL_CLOSED]]
+* **Fail-Closed Governance:** 
 
 > [!warning]
 > Only the first three connections are explicitly supplied by this artifact. Derived navigation candidates must not be treated as canonical dependency edges without confirmation.
@@ -4186,11 +4186,11 @@ $$
 
 ---
 
-**Specification:** [[UNIVERSE_X_OMEGA]]
+**Specification:** 
 
-**Universe Canon:** [[02_UNIVERSE_CANON_MOC]]
+**Universe Canon:** 
 
-**Cognitive Matrix:** [[25_COGNITIVE_MATRIX_MOC]]
+**Cognitive Matrix:** 
 
 ---
 

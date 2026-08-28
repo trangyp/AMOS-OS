@@ -2449,7 +2449,7 @@ modify this kernel specification.
 | Canon dependency list            | SOURCE_CLAIM       |
 | Domain registry                  | SOURCE_CLAIM       |
 | Standard pipeline                | SOURCE_CLAIM       |
-| Rule of 2 / Rule of 4            | CANON MODEL        |
+| Rule of 2 / Rule of 4            | [[CANON]] MODEL        |
 | Safety guardrails                | SOURCE RULE        |
 | Output structure                 | SOURCE RULE        |
 | Deterministic guarantee          | NOT DEMONSTRATED   |

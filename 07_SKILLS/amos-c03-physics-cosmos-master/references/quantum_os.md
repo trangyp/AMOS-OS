@@ -111,11 +111,11 @@ created: 2026-08-22
       "AMOS_FULL_BRAIN_OS",
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

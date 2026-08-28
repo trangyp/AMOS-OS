@@ -14,9 +14,9 @@ rscf:
 ---
 
 
-# INFRASTRUCTURE CANON MAP
+# INFRASTRUCTURE [[CANON]] MAP
 
-## Map — INFRASTRUCTURE CANON MAP
+## Map — INFRASTRUCTURE [[CANON]] MAP
 Navigation map for the `01_CANON/04_INFRASTRUCTURE_CANON/00_INDEX` segment of the Canon plane.
 
 - **Readme** — [[INDEX_INFRASTRUCTURE_CANON_CANON_README]]
@@ -46,14 +46,14 @@ Given an operation touching `INFRASTRUCTURE CANON MAP` within the Canon plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -110,11 +110,11 @@ class Agent:
     mechanistic_interpretability: float = 0.6
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

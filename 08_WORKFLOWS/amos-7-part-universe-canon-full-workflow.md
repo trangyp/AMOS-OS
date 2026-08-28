@@ -90,7 +90,7 @@ ORIENT -> MAP -> TEST -> CHALLENGE -> SYNTHESIZE
 4. **CHALLENGE**: Challenge epistemic firewall.
    - Verify SOURCE_CANON != EMPIRICAL_LAW
    - Verify STRUCTURAL_MAPPING != CAUSAL_PROOF
-   - Verify FORMAL_ELEGANCE != VALIDATION
+   - Verify FORMAL_ELEGANCE != [[VALIDATION]]
    - Verify ALL_SEVEN_PRESENT != SYSTEM_TRUE
    - Verify CROSS_DOMAIN_ANALOGY != MECHANISM
    - Gate: `firewall_passed` — no epistemic firewall violations

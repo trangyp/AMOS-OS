@@ -22,7 +22,7 @@ tags:
 
 ## Orchestration Pattern
 
-1. **Load skill** — Read kimi-k3-in-c SKILL.md and verify capabilities match the request.
+1. **Load skill** — Read kimi-k3-in-c [[SKILL]].md and verify capabilities match the request.
 2. **Classify request** — Map to one of: build, test, run, diagnose, budget, info, preset, verify.
 3. **Check preconditions** — Verify toolchain (C99 compiler, make, libm, pthread), storage, and RAM.
 4. **Execute capability** — Run the matching command with appropriate flags.

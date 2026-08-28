@@ -1105,7 +1105,7 @@ HSE_ID_REGISTRY = {
     # 27 archetypes (behavioral templates, not psychology).
     # Fill from your canonical list (EN or VI) – IDs must be stable.
     "archetypes": [
-        # EXAMPLE ONLY – REPLACE / EXTEND FROM CANON
+        # EXAMPLE ONLY – REPLACE / EXTEND FROM [[CANON]]
         # GAP NOTE: Full canon list not available in vault as of 2026-08-26. Example data retained per G6 (fail closed, do not fabricate).
         {"id": "ARCH_EXECUTOR", "en": "The Executor", "vi": "Người thực thi", "active": True},
         {"id": "ARCH_PERFORMER", "en": "The Performer", "vi": "Người làm màu", "active": True},
@@ -5330,7 +5330,7 @@ HSE_GLOBAL_ENGINE_V1:
       - undocumented_critical_knowledge
 
   # ============================================================
-  # 4. ROLE & SKILL LAYER – GLOBAL + TECH + AI
+  # 4. ROLE & [[SKILL]] LAYER – GLOBAL + TECH + AI
   # ============================================================
   role_skill_layer:
     description: >
@@ -5980,7 +5980,7 @@ HSE_GLOBAL_ENGINE_V1:
         meaning: "phá hệ – risk cao"
 
   # ============================================================
-  # 14. PROMPT ARCHITECTURE – HOW TO DRIVE AN AI
+  # 14. PROMPT [[ARCHITECTURE]] – HOW TO DRIVE AN AI
   # ============================================================
   prompt_architecture:
     system_prompt_core: >
@@ -6052,7 +6052,7 @@ HSE_GLOBAL_ENGINE_V1:
 This block adds every missing module that completes global coverage for:
 195 COUNTRIES
 7,000+ CULTURAL PATTERNS (schema-level)
-GLOBAL ECONOMIC ARCHITECTURE
+GLOBAL ECONOMIC [[ARCHITECTURE]]
 SECTOR × COUNTRY MATRIX
 MACRO BANDS
 TRADE / EXPOSURE
@@ -6191,7 +6191,7 @@ REGION_PROFILE {
 }
 
 ===========================================================
-III. GLOBAL ECONOMIC ARCHITECTURE (COUNTRY-LEVEL)
+III. GLOBAL ECONOMIC [[ARCHITECTURE]] (COUNTRY-LEVEL)
 ===========================================================
 
 1. MACRO BANDS (global)
@@ -6213,7 +6213,7 @@ TRADE_STRUCTURE {
     trade_concentration_risk_band
 }
 
-3. BALANCE-SHEET ARCHITECTURE
+3. BALANCE-SHEET [[ARCHITECTURE]]
 -------------------------------------
 BALANCE_SHEET_BANDS {
     public_debt_stress_band,
@@ -6331,7 +6331,7 @@ COUNTRY_CYCLE_SENSITIVITY {
 }
 
 ===========================================================
-VIII. GLOBAL LABOR + SKILL ARCHITECTURE
+VIII. GLOBAL LABOR + [[SKILL]] [[ARCHITECTURE]]
 ===========================================================
 
 SKILL_CLUSTER {
@@ -6381,7 +6381,7 @@ GLOBAL_INFRA_LAYER {
 }
 
 ===========================================================
-X. GLOBAL SOCIO-RISK ARCHITECTURE
+X. GLOBAL SOCIO-RISK [[ARCHITECTURE]]
 ===========================================================
 
 SOCIAL_RISK_MODEL {
@@ -6581,7 +6581,7 @@ TABLE dim_role (
 
 # All VN tech roles (Dev, Cloud, AI, Security, Ops, etc.) plug here.
 
-1.5 SKILL REGISTRY
+1.5 [[SKILL]] REGISTRY
 ------------------
 
 TABLE dim_skill (
@@ -7286,7 +7286,7 @@ Outputs:
 - price_shock_response
 
 ===========================================================
-13. GLOBAL HR + SKILL TAXONOMY
+13. GLOBAL HR + [[SKILL]] TAXONOMY
 ===========================================================
 Skill categories:
 - STEM
@@ -7383,7 +7383,7 @@ Outputs:
 - intervention_threshold
 
 ===========================================================
-19. GLOBAL AI INTEGRATION LAYER
+19. GLOBAL AI [[INTEGRATION]] LAYER
 ===========================================================
 Dimensions:
 - AI trust score
@@ -8347,7 +8347,7 @@ This layer encodes global skills, roles, career flows, competency shapes,
 and workforce evolution. It integrates labour markets in 195+ countries.
 
 --------------------------------------------------
-13.1 GLOBAL SKILL FAMILIES
+13.1 GLOBAL [[SKILL]] FAMILIES
 --------------------------------------------------
 STEM:
 - mathematics
@@ -8412,7 +8412,7 @@ SERVICE SKILLS:
 - community engagement
 
 --------------------------------------------------
-13.2 GLOBAL SKILL LEVEL SCALE
+13.2 GLOBAL [[SKILL]] LEVEL SCALE
 --------------------------------------------------
 skill_novice:
 - requires step-by-step guidance
@@ -8435,7 +8435,7 @@ skill_master:
 - operates under failure conditions reliably
 
 --------------------------------------------------
-13.3 GLOBAL ROLE → SKILL MAP (ABRIDGED)
+13.3 GLOBAL ROLE → [[SKILL]] MAP (ABRIDGED)
 --------------------------------------------------
 Software Engineer: 50% digital, 30% STEM, 10% analytical, 10% managerial
 AI Engineer: 60% digital, 20% STEM, 20% analytical
@@ -8764,7 +8764,7 @@ CONTENTS:
 27. Final Canon Lock Layer
 
 ====================================================================
-19. GLOBAL PSYCHOLOGICAL ARCHITECTURE
+19. GLOBAL PSYCHOLOGICAL [[ARCHITECTURE]]
 ====================================================================
 
 Definition:
@@ -8829,7 +8829,7 @@ decision_style_map
 conflict_behavior_map
 
 ====================================================================
-20. GLOBAL ORGANIZATIONAL ARCHITECTURE
+20. GLOBAL ORGANIZATIONAL [[ARCHITECTURE]]
 ====================================================================
 
 Definition:
@@ -9073,7 +9073,7 @@ governance_reform
 risk-adjusted_investment_thesis
 
 ====================================================================
-25. GLOBAL INTEGRATION (195 countries × 62 sectors × 7 cycles)
+25. GLOBAL [[INTEGRATION]] (195 countries × 62 sectors × 7 cycles)
 ====================================================================
 
 DEFINITION:
@@ -9143,7 +9143,7 @@ Every query to this engine returns a 12-line deterministic output.
 12. system-level recommendation
 
 ====================================================================
-27. FINAL CANON LOCK LAYER
+27. FINAL [[CANON]] LOCK LAYER
 ====================================================================
 
 Purpose:
@@ -10811,7 +10811,7 @@ income_group_tag: (low, lower-middle, upper-middle, high)
 regional_tag: (Africa, Europe, Asia, etc.)
 
 ---------------------------------------------------------
-IV. UNIVERSAL VALIDATION RULES
+IV. UNIVERSAL [[VALIDATION]] RULES
 ---------------------------------------------------------
 1. Every variable must exist (no nulls).
 2. Every object must implement full structure.
@@ -10837,7 +10837,7 @@ END OF PART 3/60
 =========================
 
 ==========================================================
-GLOBAL REGION MATRICES — BASE ARCHITECTURE v1.0
+GLOBAL REGION MATRICES — BASE [[ARCHITECTURE]] v1.0
 ==========================================================
 This layer establishes:
 - 5 global regions
@@ -12112,7 +12112,7 @@ META_CAUSAL_PATTERNS:
     - inter-domain_bridges
 
 ============================================================
-SECTION 11 — PLANETARY-VN INTEGRATION (COLLAPSED)
+SECTION 11 — PLANETARY-VN [[INTEGRATION]] (COLLAPSED)
 ============================================================
 
 PLANETARY_FACTORS:
@@ -12246,7 +12246,7 @@ CAUSAL_GRAPH_RULES:
     5. Multi-causality allowed if MultiLogic active
 
 ============================================================
-SECTION 16 — ABSOLUTE VN VALIDATION ENGINE
+SECTION 16 — ABSOLUTE VN [[VALIDATION]] ENGINE
 ============================================================
 
 VALIDATION_PIPELINE:
@@ -12836,7 +12836,7 @@ FLOW_MODIFIERS:
     FM5: cultural_resonance
 
 ============================================================
-SECTION 34 — VN MEMORY SYSTEM (COLLECTIVE + STRUCTURAL)
+SECTION 34 — VN [[MEMORY]] SYSTEM (COLLECTIVE + STRUCTURAL)
 ============================================================
 
 MEMORY_TYPES:
@@ -12855,7 +12855,7 @@ MEMORY_FUNCTIONS:
     F5: reformation
     F6: forgetting
 
-MEMORY-DISTORTION FACTORS:
+[[MEMORY]]-DISTORTION FACTORS:
     D1: propaganda
     D2: trauma
     D3: global media wash

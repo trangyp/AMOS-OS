@@ -15,13 +15,13 @@ tags:
 canon-group: canon/cognitive-matrix
 ---
 
----title: "INDEX ROUTING COGNITIVE MATRIX README"
+---title: "INDEX ROUTING COGNITIVE MATRIX [[README]]"
 type: document
 tags: [note]
 ---
 
 
-# INDEX ROUTING COGNITIVE MATRIX README
+# INDEX ROUTING COGNITIVE MATRIX [[README]]
 
 **STATUS:** DERIVED_REFERENCE_SPECIFICATION
 **epistemic_class:** AMOS_MODEL
@@ -91,32 +91,32 @@ $$\boxed{ Index \neq Contract \neq Runtime \neq Validation }$$
 Primary local references:
 
 * **Readme / this artifact** — INDEX_ROUTING_COGNITIVE_MATRIX_README
-* **Contract** — ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT
-* **Map** — ROUTING_MAP
+* **Contract** — [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
+* **Map** — [[ROUTING_MAP]]
 
 Supporting routing artifacts MAY include:
 
-* TASK_CONTRACT
-* TASK_RESOLVER
-* CAPABILITY_RESOLVER
-* MODE_ADMISSION_QUEUE
-* MODE_COMPOSITION_REGISTRY
-* MODE_CONFLICT_REGISTRY
-* MODE_COVERAGE_MATRIX
-* MODE_DEPENDENCY_GRAPH
+* [[TASK_CONTRACT]]
+* [[TASK_RESOLVER]]
+* [[CAPABILITY_RESOLVER]]
+* [[MODE_ADMISSION_QUEUE]]
+* [[MODE_COMPOSITION_REGISTRY]]
+* [[MODE_CONFLICT_REGISTRY]]
+* [[MODE_COVERAGE_MATRIX]]
+* [[MODE_DEPENDENCY_GRAPH]]
 
 Validation evidence references include:
 
-* ROUTING_POLICY_VALIDATION_RECEIPT
-* AUTHZ_ENGINE_VALIDATION_RECEIPT
+* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 Cross-plane navigation includes:
 
 * [[00_HOME]]
 * [[00_ROOT_MAP]]
-* AMOS_RSCF_NODES
-* K_RSCF
-* L17_RSCF
+* [[AMOS_RSCF_NODES]]
+* [[K_RSCF]]
+* [[L17_RSCF]]
 
 ---
 
@@ -204,7 +204,7 @@ Cross-plane resolution goes through:
 
 * [[00_HOME]]
 * [[00_ROOT_MAP]]
-* AMOS_RSCF_NODES
+* [[AMOS_RSCF_NODES]]
 
 and the applicable subsystem map.
 
@@ -322,7 +322,7 @@ rather than relying on filename similarity.
 
 # 8. Locality Firewall
 
-This README is authoritative only for the semantics explicitly assigned to this index segment under its declared status.
+This [[README]] is authoritative only for the semantics explicitly assigned to this index segment under its declared status.
 
 It MUST NOT be used to claim:
 
@@ -601,7 +601,7 @@ $$Observed(x) \not\Rightarrow AuthorizedToChange(x)$$
 
 This is why:
 
-OBSERVABILITY_README
+[[OBSERVABILITY_README]]
 
 is explicitly treated as observation, not governing authority.
 
@@ -1308,8 +1308,8 @@ AUTOMATED LINK-INTEGRITY EXECUTION: PARTIAL
 
 Relevant evidence references:
 
-* ROUTING_POLICY_VALIDATION_RECEIPT
-* AUTHZ_ENGINE_VALIDATION_RECEIPT
+* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 This means:
 
@@ -1388,7 +1388,7 @@ These relationships are references to specialized governing surfaces, not proof 
 Governed by canon:
 
 * AMOS Core Laws
-* LAW_HIERARCHY
+* [[LAW_HIERARCHY]]
 
 The local index MUST NOT override a higher applicable canonical law.
 
@@ -1424,7 +1424,7 @@ resolve or preserve UNKNOWN/COMPETING
 
 Kernel interaction:
 
-* KERNEL_README
+* [[KERNEL_README]]
 
 The Routing index may reference kernel-level services or semantics.
 
@@ -1444,7 +1444,7 @@ The kernel artifact itself and its evidence govern kernel claims.
 
 Control-plane gates:
 
-* CONTROL_PLANE_README
+* [[CONTROL_PLANE_README]]
 
 The control plane may govern:
 
@@ -1476,7 +1476,7 @@ $$RouteValid \not\Rightarrow ControlGatePassed$$
 
 Observed by:
 
-* OBSERVABILITY_README
+* [[OBSERVABILITY_README]]
 
 Observability may provide:
 
@@ -1520,7 +1520,7 @@ These evidence types MUST remain distinct.
 
 Recovered through:
 
-* OPERATIONS_README
+* [[OPERATIONS_README]]
 
 Operations may define procedures for:
 
@@ -2056,7 +2056,7 @@ This index does not claim a complete global dependency graph.
 Global graph resolution belongs to:
 
 * [[00_ROOT_MAP]]
-* AMOS_RSCF_NODES
+* [[AMOS_RSCF_NODES]]
 
 Therefore:
 
@@ -2155,7 +2155,7 @@ remains an architectural/reference surface unless stronger execution evidence ex
 
 # 105. Routing Policy Receipt Boundary
 
-ROUTING_POLICY_VALIDATION_RECEIPT
+[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
 may support claims about routing-policy execution.
 
@@ -2179,7 +2179,7 @@ before using it as implementation evidence.
 
 # 106. Authorization Receipt Boundary
 
-AUTHZ_ENGINE_VALIDATION_RECEIPT
+[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 may support claims about authorization behavior.
 
@@ -2374,7 +2374,7 @@ infer runtime binding from Markdown links.
 
 # 117. Documentation Claim Rule
 
-Statements in this README about intended behavior remain:
+Statements in this [[README]] about intended behavior remain:
 
 ```text
 AMOS_MODEL
@@ -3001,7 +3001,7 @@ If any load-bearing answer is missing, AMOS preserves the gap instead of inventi
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -3021,53 +3021,53 @@ RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* INDEXED_BY: ROUTING_MAP
+* INDEXED_BY: [[ROUTING_MAP]]
 
-* PART_OF: COGNITIVE_MATRIX_MOC
+* PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
 * PART_OF: [[00_ROOT_MAP]]
 
-* ORIENTS_TO: ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT
+* ORIENTS_TO: [[ROUTING_COGNITIVE_MATRIX_ROUTING_CONTRACT]]
 
-* ORIENTS_TO: ROUTING_MAP
+* ORIENTS_TO: [[ROUTING_MAP]]
 
-* REFERENCES: TASK_CONTRACT
+* [[REFERENCES]]: [[TASK_CONTRACT]]
 
-* REFERENCES: TASK_RESOLVER
+* [[REFERENCES]]: [[TASK_RESOLVER]]
 
-* REFERENCES: CAPABILITY_RESOLVER
+* [[REFERENCES]]: [[CAPABILITY_RESOLVER]]
 
-* REFERENCES: MODE_ADMISSION_QUEUE
+* [[REFERENCES]]: [[MODE_ADMISSION_QUEUE]]
 
-* REFERENCES: MODE_COMPOSITION_REGISTRY
+* [[REFERENCES]]: [[MODE_COMPOSITION_REGISTRY]]
 
-* REFERENCES: MODE_CONFLICT_REGISTRY
+* [[REFERENCES]]: [[MODE_CONFLICT_REGISTRY]]
 
-* REFERENCES: MODE_COVERAGE_MATRIX
+* [[REFERENCES]]: [[MODE_COVERAGE_MATRIX]]
 
-* REFERENCES: MODE_DEPENDENCY_GRAPH
+* [[REFERENCES]]: [[MODE_DEPENDENCY_GRAPH]]
 
 * GOVERNED_BY: AMOS Core Laws
 
-* GOVERNED_BY: LAW_HIERARCHY
+* GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* INTERACTS_WITH: KERNEL_README
+* INTERACTS_WITH: [[KERNEL_README]]
 
-* GATED_BY: CONTROL_PLANE_README
+* GATED_BY: [[CONTROL_PLANE_README]]
 
-* OBSERVED_BY: OBSERVABILITY_README
+* OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* RECOVERED_BY: OPERATIONS_README
+* RECOVERED_BY: [[OPERATIONS_README]]
 
-* VALIDATED_BY: ROUTING_POLICY_VALIDATION_RECEIPT
+* VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* VALIDATED_BY: AUTHZ_ENGINE_VALIDATION_RECEIPT
+* VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-* USES: K_RSCF
+* USES: [[K_RSCF]]
 
-* USES: L17_RSCF
+* USES: [[L17_RSCF]]
 
 claim_class: AMOS_MODEL
 canonical_status: CONDITIONAL

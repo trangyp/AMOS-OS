@@ -21,7 +21,7 @@ Chronological, append-only record of ingests, queries, and lint passes.
 ## [2026-08-28] init | AMOS LLM Wiki created
 - Created `00_ROOT/AMOS_LLM_WIKI.md` schema
 - Created `11_KNOWLEDGE/LLM_WIKI/` with `raw/`, `wiki/`, and MOC
-- Added links to `[[_MOC]]` and `[[KNOWLEDGE_MOC]]`
+- Added links to `` and ``
 - First raw source: [Karpathy LLM Wiki gist](https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f)
 - First wiki page: [[karpathy_llm_wiki_summary]]
 
@@ -34,11 +34,11 @@ Chronological, append-only record of ingests, queries, and lint passes.
 - `agent_sync_validator.py` reports `amos-llm-wiki-agent` as VERIFIED
 
 ## [2026-08-28] populate | Wiki text filled and health checked
-- Filled `[[LLM_WIKI_INDEX]]` with sources, concepts, entities, syntheses, and tools
-- Created concept page `[[llm_wiki_pattern]]`
-- Created synthesis page `[[amos_llm_wiki_operations]]`
+- Filled `` with sources, concepts, entities, syntheses, and tools
+- Created concept page ``
+- Created synthesis page ``
 - Ran `AMOS_OBSIDIAN_MEMORY_BRIDGE` self-test: 43 passed, 0 failed
-- Fixed orphan `08_WORKFLOWS/kimi-k3-in-c-workflow.md` by linking `[[08_WORKFLOWS_MOC]]`
+- Fixed orphan `08_WORKFLOWS/kimi-k3-in-c-workflow.md` by linking ``
 
 ---
 RSCF-NODE

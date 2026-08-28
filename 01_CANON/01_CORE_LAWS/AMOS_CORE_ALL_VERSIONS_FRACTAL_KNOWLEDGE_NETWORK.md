@@ -2176,7 +2176,7 @@ REVALIDATION TIMING
 LINEAGE
 ```
 
-A README statement remains a:
+A [[README]] statement remains a:
 
 ```text
 SOURCE_CLAIM
@@ -3431,7 +3431,7 @@ RSCF-RELATIONS:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

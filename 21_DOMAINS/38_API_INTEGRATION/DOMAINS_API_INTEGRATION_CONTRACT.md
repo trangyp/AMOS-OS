@@ -14,10 +14,10 @@ rscf:
 ---
 
 
-# DOMAINS API INTEGRATION CONTRACT
+# DOMAINS API [[INTEGRATION]] CONTRACT
 
 ## 0. Status
-Domains-plane contract for **DOMAINS API INTEGRATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Domains-plane contract for **DOMAINS API [[INTEGRATION]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs C-family domain engine mappings (C01–C12) onto the OS planes as they bear on `DOMAINS API INTEGRATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
@@ -62,14 +62,14 @@ Given an operation touching `DOMAINS API INTEGRATION CONTRACT` within the Domain
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

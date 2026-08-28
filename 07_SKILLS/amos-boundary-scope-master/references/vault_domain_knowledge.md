@@ -17,7 +17,7 @@ rscf:
 # amos-boundary-scope-master — Vault-Sourced Domain Knowledge
 
 > Load this reference only when detailed domain knowledge is needed.
-> This content was moved from SKILL.md for progressive loading.
+> This content was moved from [[SKILL]].md for progressive loading.
 
 ---
 
@@ -455,7 +455,7 @@ CRISIS
 RECOVERY
 
 TRAINING
-VALIDATION
+[[VALIDATION]]
 PRODUCTION
 
 LOW_LOAD
@@ -1354,7 +1354,7 @@ STATUS = VERIFIED_FINAL_CANON
 
 ---
 
-AMOS MOC
+[[AMOS MOC]]
 
 ---
 
@@ -1368,13 +1368,13 @@ node_id: l5_scope_regime
 
 node_type: core_law
 
-path: 01_CANON/01_CORE_LAWS/L5_SCOPE_REGIME.md
+path: 01_CANON/01_CORE_LAWS/[[L5_SCOPE_REGIME]].md
 
 RSCF-RELATIONS:
 
 * DEPENDS_ON: [[L0_INTEGRITY]]
 * DEPENDS_ON: [[L1_EPISTEMIC]]
-* DEPENDS_ON: [[L2_PROVENANCE]
+* DEPENDS_ON: [[[[L2_PROVENANCE]]]
 
 ... (truncated, see vault source for full content)
 

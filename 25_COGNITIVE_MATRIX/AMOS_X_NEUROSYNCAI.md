@@ -166,7 +166,7 @@ native framework
 The artifact serves as the long-form semantic source for:
 
 ```text
-[[AMOS_X_NEUROSYNCAI_MATRIX]]
+
 ```
 
 The matrix provides cross-dimensional mappings.
@@ -4075,7 +4075,7 @@ UBI + NeuroSyncAI Integration Framework
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

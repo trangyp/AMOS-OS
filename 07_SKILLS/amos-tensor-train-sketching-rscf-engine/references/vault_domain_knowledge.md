@@ -210,11 +210,11 @@ The system should also:
 
 ---
 
-### Source 3: THE UNCOPYABLE TRAINING ARCHITECTURE
+### Source 3: THE UNCOPYABLE TRAINING [[ARCHITECTURE]]
 
 > Path: `amos-general/A/UNCOPYABLE/AMOS_UNCOPYABLE_TRAINING_ARCHITECTURE_v2.0.0_CORE-v4.4.md` | Size: 25142 chars | Match score: 10
 
-# THE UNCOPYABLE TRAINING ARCHITECTURE
+# THE UNCOPYABLE TRAINING [[ARCHITECTURE]]
 ## AMOS Governed Edition v2.0.0 · CORE target v4.4
 
 > **Canonical status:** governed derivative of the source architecture.
@@ -309,11 +309,11 @@ SourceLineagePreserved
 ∧ StewardA
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

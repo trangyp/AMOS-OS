@@ -146,8 +146,8 @@ or decisions that require evidence-grounded conclusions.
 ---
 
 ---
-- [[07_SKILLS_MOC]]
-**MOC:** [[references_MOC]]
+- 
+**MOC:** 
 ```
 
 ---

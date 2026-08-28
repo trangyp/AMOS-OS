@@ -72,7 +72,7 @@ authorized durable effect
 
 ---
 
-# 1. TWO-LAYER CANON: PRESERVE, THEN TEST
+# 1. TWO-LAYER [[CANON]]: PRESERVE, THEN TEST
 
 The earlier repair was too destructive because it replaced Trang constructs with ordinary quant terminology. The correct AMOS operation is **dual representation**.
 

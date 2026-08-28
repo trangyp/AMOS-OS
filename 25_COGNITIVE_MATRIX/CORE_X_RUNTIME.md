@@ -189,7 +189,7 @@ The artifact does not independently establish:
 ```text
 EXECUTABLE REALITY GATE
 
-PHYSICAL SENSOR INTEGRATION
+PHYSICAL SENSOR [[INTEGRATION]]
 
 COMPLETE PROMPT INGESTION IMPLEMENTATION
 
@@ -219,7 +219,7 @@ CAUSAL EPOCH IMPLEMENTATION
 
 DISTRIBUTED FINALIZATION
 
-EMPIRICAL RUNTIME VALIDATION
+EMPIRICAL RUNTIME [[VALIDATION]]
 
 FORMAL VERIFICATION
 ```
@@ -556,7 +556,7 @@ UNKNOWN/GAP
 IMPLEMENTATION:
 NOT_ESTABLISHED
 
-VALIDATION PERFORMANCE:
+[[VALIDATION]] PERFORMANCE:
 NOT_ESTABLISHED
 
 FORMAL SOUNDNESS:
@@ -1418,7 +1418,7 @@ CORE_X_RUNTIME
        │
        │ specification
        ▼
-CORE_X_RUNTIME_MATRIX
+[[CORE_X_RUNTIME_MATRIX]]
        │
        │ routing table
        ▼
@@ -1465,7 +1465,7 @@ CORE_X_RUNTIME SPECIFICATION
         └── Verified Commit Dispatch
         │
         ▼
-CORE_X_RUNTIME_MATRIX
+[[CORE_X_RUNTIME_MATRIX]]
         │
         ├── 01_BOOT
         ├── 02_ROUTER
@@ -1618,7 +1618,7 @@ Proof_Capsule:
 
   claim: >
     CORE_X_RUNTIME defines a three-primitive execution
-    mesh, while CORE_X_RUNTIME_MATRIX defines four
+    mesh, while [[CORE_X_RUNTIME_MATRIX]] defines four
     selected Runtime-stage routing contracts. The sources
     establish counterpart status but do not explicitly
     establish a one-to-one primitive-to-stage mapping.
@@ -1628,7 +1628,7 @@ Proof_Capsule:
 
   premises:
     - CORE_X_RUNTIME execution mesh
-    - CORE_X_RUNTIME_MATRIX routing grid
+    - [[CORE_X_RUNTIME_MATRIX]] routing grid
     - explicit counterpart relationship
 
   scope:
@@ -1655,7 +1655,7 @@ Proof_Capsule:
 The source explicitly references:
 
 ```text
-04_RUNTIME/04_RUNTIME_MOC
+04_RUNTIME/[[04_RUNTIME_MOC]]
 ```
 
 This is the authoritative dependency to load when exact Runtime semantics become decision-relevant.
@@ -1676,7 +1676,7 @@ the deeper Runtime corpus should not be loaded merely to decorate this specifica
 The source explicitly references:
 
 ```text
-01_CANON/01_CANON_MOC
+01_CANON/[[01_CANON_MOC]]
 ```
 
 The artifact therefore participates in a Core-to-Runtime interface.
@@ -1798,7 +1798,7 @@ REALITY GATE RESULT
 
 REASONING STATE
 
-CANON CONSTRAINTS
+[[CANON]] CONSTRAINTS
 
 SCOPE
 
@@ -1824,7 +1824,7 @@ There is no need to load:
 ```text
 FULL RUNTIME IMPLEMENTATION
 
-CANON CORPUS
+[[CANON]] CORPUS
 
 STATE STORAGE
 
@@ -1872,7 +1872,7 @@ COMMIT SEMANTICS ARE REQUIRED
 
 STATE VERSION IS AMBIGUOUS
 
-CANON LAW BINDING IS UNCLEAR
+[[CANON]] LAW BINDING IS UNCLEAR
 
 RUNTIME MOC CONFLICTS
 
@@ -1896,7 +1896,7 @@ A claim repeated in:
 ```text
 CORE_X_RUNTIME
 
-CORE_X_RUNTIME_MATRIX
+[[CORE_X_RUNTIME_MATRIX]]
 
 04_RUNTIME DOCUMENTATION
 ```
@@ -1920,7 +1920,7 @@ A robust derived Runtime flow should preserve provenance across:
 ```text
 INPUT
     ↓
-VALIDATION
+[[VALIDATION]]
     ↓
 REASONING
     ↓
@@ -2432,7 +2432,7 @@ Preserve:
 CORE_X_RUNTIME.md
 → three execution-mesh primitives
 
-CORE_X_RUNTIME_MATRIX.md
+[[CORE_X_RUNTIME_MATRIX]].md
 → four stage-routing rows
 ```
 
@@ -2614,7 +2614,7 @@ where they determine execution integrity.
 ## DECISION-RELEVANT
 
 ```text
-CANON-TO-PRIMITIVE BINDINGS
+[[CANON]]-TO-PRIMITIVE BINDINGS
 
 PRIMITIVE-TO-STAGE BINDINGS
 
@@ -2646,7 +2646,7 @@ Challenge:
 ```text
 SOURCE CLAIM:
 INPUT TELEMETRY INGESTION INCLUDES
-REALITY GATE VALIDATION
+REALITY GATE [[VALIDATION]]
 ```
 
 Ask:
@@ -2666,7 +2666,7 @@ WHAT PROVENANCE DOES IT PRESERVE?
 
 WHAT HAPPENS ON FAILURE?
 
-IS VALIDATION SCOPE-BOUND?
+IS [[VALIDATION]] SCOPE-BOUND?
 ```
 
 Until these are established, runtime behavior remains unknown.
@@ -2772,7 +2772,7 @@ Potential result-flipping premises include:
 ```text
 INPUT VALIDITY
 
-CANON CONSTRAINTS
+[[CANON]] CONSTRAINTS
 
 PHASE SEMANTICS
 
@@ -3603,7 +3603,7 @@ CORE_X_RUNTIME
 conflicts with:
 
 ```text
-CORE_X_RUNTIME_MATRIX
+[[CORE_X_RUNTIME_MATRIX]]
 ```
 
 do not silently reconcile.
@@ -3639,7 +3639,7 @@ COMPETING
 If:
 
 ```text
-04_RUNTIME/04_RUNTIME_MOC
+04_RUNTIME/[[04_RUNTIME_MOC]]
 ```
 
 defines the Runtime differently, preserve the conflict until authority and supersession are established.
@@ -3760,9 +3760,9 @@ Regime:
     "2026-08-27"
 
   dependencies:
-    - 01_CANON/01_CANON_MOC
-    - 04_RUNTIME/04_RUNTIME_MOC
-    - CORE_X_RUNTIME_MATRIX
+    - 01_CANON/[[01_CANON_MOC]]
+    - 04_RUNTIME/[[04_RUNTIME_MOC]]
+    - [[CORE_X_RUNTIME_MATRIX]]
 
   revalidate_on:
     - canon_change
@@ -3891,7 +3891,7 @@ THREE-PRIMITIVE IDENTITY
 
 COUNTERPART MATRIX LINK
 
-CANON LINK
+[[CANON]] LINK
 
 RUNTIME LINK
 
@@ -3929,7 +3929,7 @@ Revalidate this specification when:
 ```text
 CORE_X_RUNTIME IS SUPERSEDED
 
-CORE_X_RUNTIME_MATRIX CHANGES
+[[CORE_X_RUNTIME_MATRIX]] CHANGES
 
 01_CANON MOC CHANGES
 
@@ -3969,7 +3969,7 @@ Preserve:
 
 ```text
 SOURCE CLAIM:
-CORE_X_RUNTIME NAMES REALITY GATE VALIDATION
+CORE_X_RUNTIME NAMES REALITY GATE [[VALIDATION]]
 ```
 
 unless the source itself is superseded.
@@ -4064,7 +4064,7 @@ Runtime_Conformance_Receipt:
     "1.0.0"
 
   matrix_counterpart:
-    CORE_X_RUNTIME_MATRIX
+    [[CORE_X_RUNTIME_MATRIX]]
 
   runtime_version:
 
@@ -4125,7 +4125,7 @@ VERSION
 
 PROVENANCE
 
-CANON MOC BINDING
+[[CANON]] MOC BINDING
 
 RUNTIME MOC BINDING
 
@@ -4270,7 +4270,7 @@ Core_X_Runtime:
         UNKNOWN
 
   counterpart:
-    CORE_X_RUNTIME_MATRIX
+    [[CORE_X_RUNTIME_MATRIX]]
 
   executable_binding:
     NOT_ESTABLISHED
@@ -4365,7 +4365,7 @@ A complete audit should answer:
 
 4. WHAT DOES THE REALITY GATE VALIDATE?
 
-5. WHAT HAPPENS WHEN VALIDATION FAILS?
+5. WHAT HAPPENS WHEN [[VALIDATION]] FAILS?
 
 6. WHAT ARE ALL SEVEN PHASES?
 
@@ -4391,7 +4391,7 @@ A complete audit should answer:
 
 17. WHAT HAPPENS ON STATE CONFLICT?
 
-18. WHICH CANON LAWS BIND EACH PRIMITIVE?
+18. WHICH [[CANON]] LAWS BIND EACH PRIMITIVE?
 
 19. HOW DO THE THREE PRIMITIVES MAP TO RUNTIME STAGES?
 
@@ -4471,9 +4471,9 @@ RSCF:
   L:
 
     load_on_demand:
-      - 01_CANON/01_CANON_MOC
-      - 04_RUNTIME/04_RUNTIME_MOC
-      - CORE_X_RUNTIME_MATRIX
+      - 01_CANON/[[01_CANON_MOC]]
+      - 04_RUNTIME/[[04_RUNTIME_MOC]]
+      - [[CORE_X_RUNTIME_MATRIX]]
       - Reality_Gate_definition
       - seven_phase_loop_definition
       - Intake_definition
@@ -4523,10 +4523,10 @@ RSCF_RELATIONS:
   - COUNTERPART: "[[CORE_X_RUNTIME_MATRIX]]"
 
   - ROUTES_FROM:
-      "01_CANON/01_CANON_MOC"
+      "01_CANON/[[01_CANON_MOC]]"
 
   - ROUTES_TO:
-      "04_RUNTIME/04_RUNTIME_MOC"
+      "04_RUNTIME/[[04_RUNTIME_MOC]]"
 
   - DEFINES_PRIMITIVE:
       INPUT_TELEMETRY_INGESTION
@@ -4955,9 +4955,9 @@ VERIFIED COMMIT DISPATCH
 ```text
 [[CORE_X_RUNTIME_MATRIX]]
 
-04_RUNTIME/04_RUNTIME_MOC
+04_RUNTIME/[[04_RUNTIME_MOC]]
 
-01_CANON/01_CANON_MOC
+01_CANON/[[01_CANON_MOC]]
 ```
 
 ## Derived expansion
@@ -5021,7 +5021,7 @@ DURABILITY
 
 EXECUTABLE BINDING
 
-EMPIRICAL VALIDATION
+EMPIRICAL [[VALIDATION]]
 
 FORMAL VERIFICATION
 ```
@@ -5092,9 +5092,9 @@ RSCF:
         DO_NOT_LOAD_UNLESS_REQUIRED
 
       dependencies:
-        - 01_CANON/01_CANON_MOC
-        - 04_RUNTIME/04_RUNTIME_MOC
-        - CORE_X_RUNTIME_MATRIX
+        - 01_CANON/[[01_CANON_MOC]]
+        - 04_RUNTIME/[[04_RUNTIME_MOC]]
+        - [[CORE_X_RUNTIME_MATRIX]]
         - Reality_Gate_definition
         - seven_phase_loop_definition
         - state_transition_definition
@@ -5146,8 +5146,8 @@ PROOF_CAPSULE:
     - "Verified Commit Dispatch → Emits signed state transition (S_{t+1})"
 
   provenance:
-    - 01_CANON/01_CANON_MOC
-    - 04_RUNTIME/04_RUNTIME_MOC
+    - 01_CANON/[[01_CANON_MOC]]
+    - 04_RUNTIME/[[04_RUNTIME_MOC]]
     - AMOS_CORPUS
 
   scope:
@@ -5156,9 +5156,9 @@ PROOF_CAPSULE:
     - SOURCE_DEFINED_MODEL
 
   dependencies:
-    - CORE_X_RUNTIME_MATRIX
-    - 01_CANON/01_CANON_MOC
-    - 04_RUNTIME/04_RUNTIME_MOC
+    - [[CORE_X_RUNTIME_MATRIX]]
+    - 01_CANON/[[01_CANON_MOC]]
+    - 04_RUNTIME/[[04_RUNTIME_MOC]]
 
   competing_explanations:
     - the three primitives may span multiple Runtime stages
@@ -5372,7 +5372,7 @@ EXECUTION PRIMITIVES.
 PRESERVE SENSOR READINGS AND PROMPTS
 AS SOURCE-DEFINED INPUT CLASSES.
 
-PRESERVE REALITY GATE VALIDATION
+PRESERVE REALITY GATE [[VALIDATION]]
 WITHOUT INVENTING ITS ALGORITHM.
 
 PRESERVE THE SEVEN-PHASE COUNT.
@@ -5406,7 +5406,7 @@ FRESHNESS, AND DEPENDENCIES.
 DO NOT INVENT ONE-TO-ONE BINDINGS
 BETWEEN THE THREE EXECUTION
 PRIMITIVES AND THE FOUR ROUTED
-STAGES OF CORE_X_RUNTIME_MATRIX.
+STAGES OF [[CORE_X_RUNTIME_MATRIX]].
 
 USE THE SMALLEST SUFFICIENT
 DEPENDENCY CLOSURE.
@@ -5427,7 +5427,7 @@ DECISION-RELEVANT AND UNRESOLVED.
 
 DO NOT CLAIM EXECUTABLE BINDING,
 RUNTIME ENFORCEMENT, EMPIRICAL
-VALIDATION, CRYPTOGRAPHIC SIGNING,
+[[VALIDATION]], CRYPTOGRAPHIC SIGNING,
 MVCC, CAS, CAUSAL-EPOCH FINALITY,
 OR FORMAL VERIFICATION WITHOUT
 THE REQUIRED EVIDENCE.
@@ -5440,11 +5440,11 @@ UNKNOWN/GAP.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+
 
 ---
 
-**Related:** [[00_HOME]] · [[25_COGNITIVE_MATRIX_MOC]] · [[CORE_X_RUNTIME_MATRIX]] · `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC` · [[AMOS_RSCF_NODES]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]]
+**Related:**  ·  ·  · `04_RUNTIME/04_RUNTIME_MOC` · `01_CANON/01_CANON_MOC` ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 
 ---
 
@@ -5464,13 +5464,13 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+* PART_OF: 
 
-* COUNTERPART: [[CORE_X_RUNTIME_MATRIX]]
+* COUNTERPART: 
 
 * ROUTES_FROM: 01_CANON/01_CANON_MOC
 
@@ -5482,31 +5482,31 @@ RSCF-RELATIONS:
 
 * DEFINES_PRIMITIVE: VERIFIED_COMMIT_DISPATCH
 
-* RELATED_TO: [[K_RSCF]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_HML]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_GMEF]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_PROVENANCE]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_FAILURE_RECOVERY]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_CAUSAL_EPOCH]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_MVCC]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_CAS]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
+* RELATED_TO: 
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+* LINEAGE_TARGET: 
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** 
 
 ---
 

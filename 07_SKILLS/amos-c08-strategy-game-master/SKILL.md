@@ -215,9 +215,9 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/strategic_partners_list.md` — loaded on demand
 - `references/strategy_game_engine_cognitive.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-c08-strategy-game-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-c08-strategy-game-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-c08-strategy-game-master-agent` — corresponding agent
 ---
 
@@ -231,7 +231,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-c08-strategy-game-master
 node_type: skill
-path: 07_SKILLS/amos-c08-strategy-game-master/SKILL.md
+path: 07_SKILLS/amos-c08-strategy-game-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

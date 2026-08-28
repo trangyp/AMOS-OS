@@ -179,8 +179,8 @@ Eleven supplemental modules built covering every missing section:
 
 - `cosmo-brain/executable_brain_model.py`: `build_deterministic_prompt()` method restructured
 - `cosmo-brain/test_deterministic_improvements.py`: A1-A4 tests (tests 0-3 in test suite)
-- Memory entry: see ~/.devin/memories/MEMORY.md
-- Skill entry: see ~/.devin/skills/amos-deterministic-verification/SKILL.md
+- Memory entry: see ~/.devin/memories/[[MEMORY]].md
+- Skill entry: see ~/.devin/skills/amos-deterministic-verification/[[SKILL]].md
 - Workflow entry: see .devin/workflows/ for existing patterns
 
 ## Task 2: Cosmo Pipeline Determinism Audit

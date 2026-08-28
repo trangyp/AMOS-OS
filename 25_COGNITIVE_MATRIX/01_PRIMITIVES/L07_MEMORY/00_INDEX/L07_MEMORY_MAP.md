@@ -14,9 +14,9 @@ rscf:
 ---
 
 
-# L07 MEMORY MAP
+# L07 [[MEMORY]] MAP
 
-## Map — L07 MEMORY MAP
+## Map — L07 [[MEMORY]] MAP
 Navigation map for the `25_COGNITIVE_MATRIX/01_PRIMITIVES/L07_MEMORY/00_INDEX` segment of the Cognitive Matrix plane.
 
 - **Readme** — [[INDEX_L07_MEMORY_PRIMITIVES_COGNITIVE_MATRIX_README]]
@@ -46,14 +46,14 @@ Given an operation touching `L07 MEMORY MAP` within the Cognitive Matrix plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 RSCF-NODE

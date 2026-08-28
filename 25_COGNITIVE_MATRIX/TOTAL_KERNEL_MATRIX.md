@@ -166,7 +166,7 @@ One plane may receive multiple kernels.
 
 The Total Framework Matrix identifies ULK as a framework-level architectural object.
 
-The Total Kernel Matrix represents `[[ULK_LOGIC_KERNEL]] (ALU 0-5)` as a kernel subsystem.
+The Total Kernel Matrix represents ` (ALU 0-5)` as a kernel subsystem.
 
 The relationship is structurally strong, but:
 
@@ -218,7 +218,7 @@ The supplied architecture contains three principal regions:
                  │                                 │
           ULK ALUs 0–5                         K_MVCC
           MURK 19×19                           K_CAS
-          QLS multi-state              [[K_ATOMIC_MULTI_RSCF]]
+          QLS multi-state              
                  │                                 │
                  └────────────────┬────────────────┘
                                   │
@@ -239,10 +239,10 @@ The diagram explicitly names:
 - ULK;
 - MURK;
 - QLS;
-- K_MVCC;
-- K_CAS;
+- [[K_MVCC]];
+- [[K_CAS]];
 - [[K_ATOMIC_MULTI_RSCF]];
-- K_FAILURE_RECOVERY.
+- [[K_FAILURE_RECOVERY]].
 
 The table additionally contains:
 
@@ -292,7 +292,7 @@ Correct classification:
 ULK:
 
   identity:
-    "[[ULK_LOGIC_KERNEL]]"
+    ""
 
   alu_range:
     "0-5"
@@ -710,7 +710,7 @@ This is **DERIVED**.
 
 ---
 
-# 32. K_MVCC
+# 32. [[K_MVCC]]
 
 ```yaml
 K_MVCC:
@@ -824,7 +824,7 @@ This establishes rejection rather than silent conflict acceptance at the source-
 
 ---
 
-# 39. K_CAS
+# 39. [[K_CAS]]
 
 ```yaml
 K_CAS:
@@ -890,7 +890,7 @@ Independent implementation verification would require evidence that no observabl
 
 # 43. CAS ≠ Multi-RSCF Atomicity
 
-K_CAS concerns an atomic state transition.
+[[K_CAS]] concerns an atomic state transition.
 
 [[K_ATOMIC_MULTI_RSCF]] concerns a multi-capsule cross-plane commit.
 
@@ -1012,7 +1012,7 @@ The kernel construct remains an AMOS architectural model unless implementation e
 
 ---
 
-# 51. K_FAILURE_RECOVERY
+# 51. [[K_FAILURE_RECOVERY]]
 
 ```yaml
 K_FAILURE_RECOVERY:
@@ -1119,7 +1119,7 @@ Therefore:
 
 # 57. ULK × Failure Recovery
 
-Both ULK and K_FAILURE_RECOVERY route toward:
+Both ULK and [[K_FAILURE_RECOVERY]] route toward:
 
 $$
 S_0
@@ -1153,7 +1153,7 @@ and:
 
 `Immediate Clean State Reset`.
 
-The Kernel Matrix uses \(S_0\) in both ULK and K_FAILURE_RECOVERY.
+The Kernel Matrix uses \(S_0\) in both ULK and [[K_FAILURE_RECOVERY]].
 
 This creates strong cross-matrix structural continuity:
 
@@ -1536,9 +1536,9 @@ The artifact does not explicitly state that every signed state-transition receip
 `04_RUNTIME` receives five displayed kernels:
 
 - ULK;
-- K_MVCC;
-- K_CAS;
-- K_FAILURE_RECOVERY;
+- [[K_MVCC]];
+- [[K_CAS]];
+- [[K_FAILURE_RECOVERY]];
 - DCP.
 
 Therefore:
@@ -1581,7 +1581,7 @@ within the table.
 `12_STATE` receives:
 
 - Go Board Engine;
-- K_CAS.
+- [[K_CAS]].
 
 Thus:
 
@@ -1884,7 +1884,7 @@ If a multi-RSCF commit cannot complete safely, the supplied fallback is:
 
 `Atomic Rollback All`.
 
-K_FAILURE_RECOVERY separately supplies rollback/ground-state recovery.
+[[K_FAILURE_RECOVERY]] separately supplies rollback/ground-state recovery.
 
 This creates a source-level recovery relationship, but exact coordination between the two kernels is not defined here.
 
@@ -2086,7 +2086,7 @@ SINGLE TRANSITION SCOPE
       │
       ▼
 MULTI-CAPSULE SCOPE
-   [[K_ATOMIC_MULTI_RSCF]]
+   
       │
       ▼
 RECOVERY SCOPE
@@ -2578,7 +2578,7 @@ This is a cross-matrix dependency, not evidence that the kernel itself performs 
 
 | Framework   | Kernel Relation                                           | Status                                |
 | ----------- | --------------------------------------------------------- | ------------------------------------- |
-| Trang ∅     | ULK / K_FAILURE_RECOVERY via \(S_0\)                        | Strong structural correspondence      |
+| Trang ∅     | ULK / [[K_FAILURE_RECOVERY]] via \(S_0\)                        | Strong structural correspondence      |
 | TRA         | ULK / Meta-Logic via Canon + Kernel                       | Structural correspondence             |
 | Khung Trang | MURK / topology family                                    | Plausible structural correspondence   |
 | UBI         | No explicit dedicated kernel row here                     | GAP / external dependency             |
@@ -2616,7 +2616,7 @@ Retrieve their runtime bindings if that becomes material.
 
 The supplied inter-plane connections explicitly include:
 
-`[[TOTAL_CANON_MATRIX]]`.
+``.
 
 A conservative architectural distinction is:
 
@@ -2644,19 +2644,19 @@ The provenance explicitly includes:
 
 and the inter-plane links include:
 
-`[[REALITY_X_ULK_MATRIX]]`.
+``.
 
 Therefore Reality × ULK is a first-class dependency for exact ontology-to-kernel transformation semantics.
 
 ---
 
-# 145. Kernel Matrix × MVCC_CAS
+# 145. Kernel Matrix × [[MVCC_CAS]]
 
 The inter-plane connections explicitly name:
 
-`[[MVCC_CAS]]`.
+``.
 
-This is the appropriate source to retrieve if the exact relationship between K_MVCC and K_CAS becomes load-bearing.
+This is the appropriate source to retrieve if the exact relationship between [[K_MVCC]] and [[K_CAS]] becomes load-bearing.
 
 Do not fabricate that protocol from conventional database knowledge.
 
@@ -2664,7 +2664,7 @@ Do not fabricate that protocol from conventional database knowledge.
 
 # 146. Kernel Matrix × Failure Recovery
 
-`[[K_FAILURE_RECOVERY]]` is explicitly linked.
+`` is explicitly linked.
 
 That source should govern exact:
 
@@ -2678,7 +2678,7 @@ That source should govern exact:
 
 # 147. Kernel Matrix × Atomic Multi-RSCF
 
-`[[K_ATOMIC_MULTI_RSCF]]` is explicitly linked.
+`` is explicitly linked.
 
 That source should govern exact:
 
@@ -3581,7 +3581,7 @@ CAS(S_t,S_expected,S_new)
 
 STATE MISMATCH REJECTION
 
-[[K_ATOMIC_MULTI_RSCF]]
+
 
 MULTI-CAPSULE CROSS-PLANE COMMIT
 
@@ -3747,20 +3747,20 @@ EXECUTION REGIME CHANGES
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: ""
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
-
-  - GROUNDED_BY:
-      "[[02_KERNEL_MOC]]"
+  - PART_OF: ""
 
   - GROUNDED_BY:
-      "[[ULK_LOGIC_KERNEL]]"
+      ""
 
   - GROUNDED_BY:
-      "[[REALITY_X_ULK_MATRIX]]"
+      ""
+
+  - GROUNDED_BY:
+      ""
 
   - DEFINES:
       MASTER_KERNEL_CONVERGENCE_GRID
@@ -3781,7 +3781,7 @@ RSCF_RELATIONS:
       K_CAS
 
   - ROUTES:
-      [[K_ATOMIC_MULTI_RSCF]]
+      
 
   - ROUTES:
       K_FAILURE_RECOVERY
@@ -3802,28 +3802,28 @@ RSCF_RELATIONS:
       FAIL_CLOSED_GATED
 
   - CONNECTS_TO:
-      "[[MVCC_CAS]]"
+      ""
 
   - CONNECTS_TO:
-      "[[TOTAL_CANON_MATRIX]]"
+      ""
 
   - RELATED_TO:
-      - "[[TOTAL_FRAMEWORK_MATRIX]]"
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_CANON]]"
+      - ""
+      - ""
+      - ""
+      - ""
       - "K_KERNEL"
-      - "[[K_MVCC]]"
-      - "[[K_CAS]]"
-      - "[[K_ATOMIC_MULTI_RSCF]]"
-      - "[[K_FAILURE_RECOVERY]]"
-      - "[[K_FAIL_CLOSED]]"
-      - "[[K_PROVENANCE]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
       - "K_CAUSAL_FIREWALL"
-      - "[[K_GOVERNED_EVOLUTION]]"
+      - ""
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      ""
 ```
 
 ---
@@ -3862,7 +3862,7 @@ TOTAL_KERNEL_MATRIX_INGESTION:
       - PRESERVE_GO_BOARD_19X19
       - PRESERVE_K_MVCC
       - PRESERVE_K_CAS
-      - PRESERVE_[[K_ATOMIC_MULTI_RSCF]]
+      - PRESERVE_
       - PRESERVE_K_FAILURE_RECOVERY
       - PRESERVE_META_LOGIC_CORE_19
       - PRESERVE_QCLA
@@ -4016,7 +4016,7 @@ EXPECTED STATE
 MULTI-CAPSULE VALIDATION
    │
    ▼
-[[K_ATOMIC_MULTI_RSCF]]
+
    │
    ▼
 COMMIT / ROLLBACK
@@ -4260,7 +4260,7 @@ The deepest compression is:
 
 $$
 \boxed{
-CANON
+[[CANON]]
 \neq
 FRAMEWORK
 \neq
@@ -4376,13 +4376,13 @@ RSCF-RELATIONS:
 
 - ROUTES: GO_BOARD_19X19
 
-- ROUTES: K_MVCC
+- ROUTES: [[K_MVCC]]
 
-- ROUTES: K_CAS
+- ROUTES: [[K_CAS]]
 
 - ROUTES: [[K_ATOMIC_MULTI_RSCF]]
 
-- ROUTES: K_FAILURE_RECOVERY
+- ROUTES: [[K_FAILURE_RECOVERY]]
 
 - ROUTES: META_LOGIC_CORE_19
 

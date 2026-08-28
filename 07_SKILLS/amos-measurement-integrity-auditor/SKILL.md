@@ -207,9 +207,9 @@ Measurement integrity auditing is an operational governance construct. It does n
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-measurement-integrity-auditor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-measurement-integrity-auditor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-measurement-integrity-auditor-agent` — corresponding agent
 ---
 
@@ -223,7 +223,7 @@ Measurement integrity auditing is an operational governance construct. It does n
 RSCF-NODE
 node_id: amos-measurement-integrity-auditor
 node_type: skill
-path: 07_SKILLS/amos-measurement-integrity-auditor/SKILL.md
+path: 07_SKILLS/amos-measurement-integrity-auditor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -209,9 +209,9 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-information-geometry-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-information-theory-master` — parent skill
-- `[[amos-information-geometry-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-information-geometry-mapper-agent` — corresponding agent
 ---
 
@@ -225,7 +225,7 @@ Information geometry mapping is an AMOS_MODEL. It does not prove the manifold is
 RSCF-NODE
 node_id: amos-information-geometry-mapper
 node_type: skill
-path: 07_SKILLS/amos-information-geometry-mapper/SKILL.md
+path: 07_SKILLS/amos-information-geometry-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

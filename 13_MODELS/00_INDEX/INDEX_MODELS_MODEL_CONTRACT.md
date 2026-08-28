@@ -121,7 +121,7 @@ gaps:
 >
 > Its source-grounded indexing rule is:
 >
-> **Local resolution occurs by basename within the index's own directory. Cross-plane resolution goes through `[[00_HOME]]` and `[[AMOS_RSCF_NODES]]`.**
+> **Local resolution occurs by basename within the index's own directory. Cross-plane resolution goes through `` and ``.**
 >
 > This artifact is an `AMOS_MODEL` contract with partial automated link-integrity execution. It must not be represented as a complete executable model registry or fully validated resolver until artifact-specific evidence establishes those properties.
 
@@ -278,7 +278,7 @@ RESOLUTION KEY = BASENAME
 Conceptually:
 
 ```text
-[[MODEL_MAP]]
+
 ```
 
 requests resolution of:
@@ -409,7 +409,7 @@ When a reference crosses plane boundaries, the canonical navigation surfaces sho
 
 # 11. `00_HOME`
 
-Within this contract, `[[00_HOME]]` functions as an explicit cross-plane navigation reference.
+Within this contract, `` functions as an explicit cross-plane navigation reference.
 
 This artifact does not independently establish every semantic responsibility of `00_HOME`.
 
@@ -419,7 +419,7 @@ Those responsibilities remain governed by the authoritative `00_HOME` artifact i
 
 # 12. `AMOS_RSCF_NODES`
 
-Within this contract, `[[AMOS_RSCF_NODES]]` is an explicit cross-plane resolution/index reference.
+Within this contract, `` is an explicit cross-plane resolution/index reference.
 
 It provides a route into the RSCF node topology.
 
@@ -429,7 +429,7 @@ This contract must not invent node semantics absent from the governing RSCF corp
 
 # 13. Model Map
 
-`[[MODEL_MAP]]` is explicitly linked by the source.
+`` is explicitly linked by the source.
 
 Its natural role in this contract is model navigation/mapping.
 
@@ -455,9 +455,9 @@ Completeness requires separate validation.
 
 ---
 
-# 14. Models README
+# 14. Models [[README]]
 
-`[[INDEX_MODELS_README]]` is explicitly linked as a companion artifact.
+`` is explicitly linked as a companion artifact.
 
 Conceptually:
 
@@ -866,7 +866,7 @@ Structural similarity cannot substitute for identity.
 If:
 
 ```text
-[[MODEL_X]]
+
 ```
 
 cannot be resolved:
@@ -886,188 +886,8 @@ Malformed links should be surfaced as integrity failures or gaps.
 Example:
 
 ```text
-[[MODEL_
-```
 
-must not be guessed into a canonical target.
-
----
-
-# 38. Stale Target
-
-A link may resolve while its target is stale.
-
-Therefore link validity and model freshness are separate axes:
-
-```text
-LINK_VALID = TRUE
-MODEL_FRESH = FALSE
-```
-
-is possible.
-
----
-
-# 39. Unauthorized Target Mutation
-
-A valid index target may still be unauthorized for mutation.
-
-```text
-RESOLVED
-!=
-AUTHORIZED TO MODIFY
-```
-
----
-
-# 40. Read vs Write
-
-Index resolution for reading may require less authority than mutation.
-
-Conceptually:
-
-```text
-READ RESOLUTION
-```
-
-and:
-
-```text
-WRITE AUTHORIZATION
-```
-
-are separate gates.
-
----
-
-# 41. Capability ≠ Authority
-
-Protected firewall:
-
-```text
-CAPABILITY ≠ AUTHORITY
-```
-
-A resolver capable of editing an indexed model is not thereby authorized to edit it.
-
----
-
-# 42. Proposal ≠ Commit
-
-Protected firewall:
-
-```text
-PROPOSAL ≠ COMMIT
-```
-
-A proposed model-index mutation remains non-authoritative until required gates pass.
-
----
-
-# 43. Observed ≠ Current
-
-Protected firewall:
-
-```text
-OBSERVED ≠ CURRENT
-```
-
-Seeing a model at one snapshot does not prove that it remains the current authoritative model.
-
----
-
-# 44. Test Pass ≠ Truth
-
-Protected firewall:
-
-```text
-TEST_PASS ≠ TRUTH
-```
-
-A passing link-integrity test proves only the tested link-integrity conditions.
-
-It does not prove the substantive truth of indexed models.
-
----
-
-# 45. Link Integrity ≠ Model Integrity
-
-Critical distinction:
-
-```text
-LINK INTEGRITY
-!=
-MODEL INTEGRITY
-```
-
-A model may be perfectly linked and substantively invalid.
-
-A model may also be substantively useful while its index link is broken.
-
-These are independent validation dimensions.
-
----
-
-# 46. Navigation Integrity
-
-Navigation integrity concerns whether the requested model reference resolves correctly under the declared indexing rules.
-
-Conceptually:
-
-$$
-NavigationIntegrity =
-Resolvable
-\land Unambiguous
-\land CorrectTarget
-$$
-
-within the applicable scope.
-
----
-
-# 47. Model Integrity
-
-Model integrity is a separate concern involving such dimensions as:
-
-```text
-assumptions
-provenance
-scope
-regime
-validation
-falsifiers
-internal consistency
-dependency integrity
-```
-
-where applicable.
-
-The index does not independently establish them.
-
----
-
-# 48. Source Gap — Automated Link Integrity
-
-The supplied contract states:
-
-> Automated link-integrity execution for this index is PARTIAL.
-
-Therefore:
-
-```text
-AUTOMATED LINK INTEGRITY = PARTIAL
-```
-
-is the strongest direct status.
-
----
-
-# 49. Validation References
-
-The supplied contract references:
-
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+* 
 
 These are contextual validation references.
 
@@ -1080,7 +900,7 @@ They do not automatically constitute artifact-specific validation of this index 
 Correct:
 
 ```text
-THE OS HAS REFERENCED VALIDATION PATTERNS
+THE OS HAS REFERENCED [[VALIDATION]] PATTERNS
 ```
 
 Incorrect:
@@ -1126,7 +946,7 @@ but does not independently prove model-index correctness.
 Promotion requires:
 
 ```text
-EXECUTED VALIDATION RECEIPT
+EXECUTED [[VALIDATION]] RECEIPT
 SPECIFIC TO
 INDEX_MODELS_MODEL_CONTRACT
 ```
@@ -1589,13 +1409,13 @@ unless independently validated.
 Similarly:
 
 ```text
-MODEL_MAP EXISTS
+[[MODEL_MAP]] EXISTS
 ```
 
 does not prove:
 
 ```text
-MODEL_MAP IS COMPLETE
+[[MODEL_MAP]] IS COMPLETE
 ```
 
 Completeness is a separate claim.
@@ -1628,12 +1448,12 @@ Conceptually:
 ```text
 INDEX_MODELS_MODEL_CONTRACT
         │
-        ├── INDEX_MODELS_README
-        ├── MODEL_MAP
+        ├── [[INDEX_MODELS_README]]
+        ├── [[MODEL_MAP]]
         │
-        ├── 00_HOME
+        ├── [[00_HOME]]
         │
-        └── AMOS_RSCF_NODES
+        └── [[AMOS_RSCF_NODES]]
 ```
 
 This diagram represents the explicit navigation relationships in the seed plus their contract roles; it is not a claim that all edges are implemented runtime dependencies.
@@ -2421,7 +2241,7 @@ ADD MODEL_X
 +
 ADD MODEL_X RSCF EDGE
 +
-UPDATE MODEL_MAP
+UPDATE [[MODEL_MAP]]
 ```
 
 If these constitute one governed atomic change, partial commit must be prevented or recoverable.
@@ -2435,7 +2255,7 @@ Exact atomic boundary remains implementation-specific.
 If:
 
 ```text
-MODEL_MAP updated
+[[MODEL_MAP]] updated
 ```
 
 but:
@@ -2468,7 +2288,7 @@ rather than globally erasing unrelated index state.
 
 The index may be observed by:
 
-* [[OBSERVABILITY_README]]
+* 
 
 But:
 
@@ -2488,7 +2308,7 @@ Telemetry does not itself authorize repair.
 
 Kernel interaction:
 
-* [[KERNEL_README]]
+* 
 
 Kernel capabilities may support resolution or execution.
 
@@ -2500,7 +2320,7 @@ They do not automatically define the canonical Models-plane indexing rule.
 
 Control-plane gates:
 
-* [[CONTROL_PLANE_README]]
+* 
 
 Consequential mutations should pass applicable governance gates.
 
@@ -2510,7 +2330,7 @@ Consequential mutations should pass applicable governance gates.
 
 Recovery via:
 
-* [[OPERATIONS_README]]
+* 
 
 Operational recovery may include:
 
@@ -2530,7 +2350,7 @@ under applicable authority.
 
 Governed by:
 
-* [[LAW_HIERARCHY]]
+* 
 
 A stronger canonical law overrides incompatible normalized semantics in this page.
 
@@ -3060,8 +2880,8 @@ Robustness does not imply substantive model truth.
 
 # 167. Extended Promotion Gate — Cross-Plane Resolution
 
-* [ ] `[[00_HOME]]` cross-plane path validated
-* [ ] `[[AMOS_RSCF_NODES]]` cross-plane path validated
+* [ ] `` cross-plane path validated
+* [ ] `` cross-plane path validated
 * [ ] local/cross-plane boundary validated
 * [ ] no arbitrary global first-match resolution
 * [ ] cross-plane ambiguity fails closed
@@ -3547,7 +3367,7 @@ ROLL BACK THE OPTIMIZATION
 Request:
 
 ```text
-[[MODEL_MAP]]
+
 ```
 
 Context:
@@ -3578,7 +3398,7 @@ No global search is required unless another dependency can materially change the
 Request:
 
 ```text
-[[MODEL_UNKNOWN]]
+
 ```
 
 Local result:
@@ -3606,8 +3426,8 @@ Do not silently resolve through an arbitrary filesystem-wide basename match.
 Use the explicit cross-plane navigation surfaces:
 
 ```text
-[[00_HOME]]
-[[AMOS_RSCF_NODES]]
+
+
 ```
 
 ---
@@ -3744,7 +3564,7 @@ INDEX v10
 Proposal:
 
 ```text
-ADD [[MODEL_NEW]]
+ADD 
 → candidate INDEX v11
 ```
 
@@ -3912,9 +3732,9 @@ BASENAME WITHIN OWN DIRECTORY
 
 CROSS-PLANE RESOLUTION
 =
-[[00_HOME]]
+
 +
-[[AMOS_RSCF_NODES]]
+
 
 INDEXED
 ≠
@@ -4086,15 +3906,15 @@ provenance = AMOS_corpus
 scope = index_navigation
 
 INDEX:
-[[INDEX_MODELS_README]]
-[[MODEL_MAP]]
+
+
 
 INDEXING RULE:
 resolve by basename within own directory
 
 CROSS-PLANE RESOLUTION:
-[[00_HOME]]
-[[AMOS_RSCF_NODES]]
+
+
 
 AUTOMATED LINK-INTEGRITY:
 PARTIAL
@@ -4123,7 +3943,7 @@ NODE CLAIM CLASS:
 AMOS_MODEL
 
 MOC:
-[[00_INDEX_MOC]]
+
 ```
 
 Everything beyond this nucleus should be interpreted as normalized AMOS semantics/canon-candidate elaboration unless independently validated against stronger source material.
@@ -4211,10 +4031,10 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
-  - INDEXED_BY: [[00_INDEX_MOC]]
+  - INDEXED_BY: [[13_MODELS_MOC]]
 
-  - REFERENCES: [[INDEX_MODELS_README]]
-  - REFERENCES: [[MODEL_MAP]]
+  - REFERENCES: 
+  - REFERENCES: 
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
@@ -4256,9 +4076,9 @@ WITHIN OWN DIRECTORY
 CROSS-PLANE
 →
 RESOLVE THROUGH
-[[00_HOME]]
+
 AND
-[[AMOS_RSCF_NODES]]
+
 ```
 
 Its integrity boundary is:
@@ -4323,8 +4143,8 @@ RSCF-RELATIONS:
 * INDEXED_BY: [[00_HOME]]
 * INDEXED_BY: [[AMOS_RSCF_NODES]]
 * INDEXED_BY: [[00_INDEX_MOC]]
-* REFERENCES: [[INDEX_MODELS_README]]
-* REFERENCES: [[MODEL_MAP]]
+* [[REFERENCES]]: [[INDEX_MODELS_README]]
+* [[REFERENCES]]: [[MODEL_MAP]]
 * GOVERNED_BY: [[LAW_HIERARCHY]]
 
 ---

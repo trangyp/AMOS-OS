@@ -3215,7 +3215,7 @@ NOT_ESTABLISHED
 The target cross-plane binding references:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 but:
@@ -3239,7 +3239,7 @@ NOT_ESTABLISHED
 The placeholder requires validation receipt reference:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
+
 ```
 
 This establishes a target validation dependency reference.
@@ -3263,7 +3263,7 @@ ROUTING POLICY VALIDATED
 The placeholder references:
 
 ```text
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
 ```
 
 Therefore authorization-engine validation is a target promotion dependency.
@@ -4066,7 +4066,7 @@ Source-supported governance relation:
 ```text
 AMOS_ATTENTION_CANON
 ↓ GOVERNED_BY
-[[LAW_HIERARCHY]]
+
 ```
 
 Source-supported indexing:
@@ -4074,23 +4074,23 @@ Source-supported indexing:
 ```text
 AMOS_ATTENTION_CANON
 ↓ INDEXED_BY
-[[00_HOME]]
+
 
 AMOS_ATTENTION_CANON
 ↓ INDEXED_BY
-[[AMOS_RSCF_NODES]]
+
 ```
 
 Target integration points:
 
 ```text
-[[KERNEL_README]]
 
-[[CONTROL_PLANE_README]]
 
-[[OBSERVABILITY_README]]
 
-[[OPERATIONS_README]]
+
+
+
+
 ```
 
 These target references do not establish executable bindings.
@@ -4820,7 +4820,7 @@ NEVER_INVENT_CANON
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

@@ -15,7 +15,7 @@ rscf:
 ---
 
 
-# TECH ARCHITECTURE KERNEL V0
+# TECH [[ARCHITECTURE]] KERNEL V0
 
 """Auto-generated AMOS framework module.
 

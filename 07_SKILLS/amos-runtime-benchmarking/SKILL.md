@@ -202,9 +202,9 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-runtime-benchmarking_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-runtime-benchmarking-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-runtime-benchmarking-agent` — corresponding agent
 ---
 
@@ -218,7 +218,7 @@ Runtime benchmarking is an engineering quality construct. It does not prove all 
 RSCF-NODE
 node_id: amos-runtime-benchmarking
 node_type: skill
-path: 07_SKILLS/amos-runtime-benchmarking/SKILL.md
+path: 07_SKILLS/amos-runtime-benchmarking/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

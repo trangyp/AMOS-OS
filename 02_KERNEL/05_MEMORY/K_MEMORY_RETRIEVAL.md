@@ -45,7 +45,7 @@ rscf:
 ---
 
 
-# K MEMORY RETRIEVAL
+# K [[MEMORY]] RETRIEVAL
 
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
@@ -2204,21 +2204,21 @@ RECALL.
 [[K_WORLD_MODEL]] ·
 [[K_CAUSAL_CLOSURE]] ·
 [[K_CAUSAL_EPOCH]] ·
-README ·
+[[README]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-README ·
-README ·
 [[README]] ·
-README ·
 [[README]] ·
-README
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]]
 
 ```text
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

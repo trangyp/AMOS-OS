@@ -22,7 +22,7 @@ tags:
 
 ## Identity
 
-Operational skill for the FareedKhan-dev/kimi-k3-in-c Kimi K3 C99 inference engine. Origin: repository README and source (SOURCE_CLAIM). This skill is an AMOS operational wrapper, not a Moonshot product claim.
+Operational skill for the FareedKhan-dev/kimi-k3-in-c Kimi K3 C99 inference engine. Origin: repository [[README]] and source (SOURCE_CLAIM). This skill is an AMOS operational wrapper, not a Moonshot product claim.
 
 ## When to Use
 
@@ -110,4 +110,4 @@ Use `--ids` to bypass the tokenizer and run ids-to-ids with no checkpoint vocabu
 
 - **Best available C99 inference implementation**: `https://github.com/FareedKhan-dev/kimi-k3-in-c` (portable C99, no BLAS/GPU, weightless tests, 1.56 TB checkpoint for full generation).
 - **Official model canon**: `https://github.com/MoonshotAI/Kimi-K3` — Moonshot AI model card, API, and vLLM/SGLang recipes. This is the upstream model, not the C99 engine; do not conflate the two.
-- **Build/test reference for this skill**: the FareedKhan-dev repository README, `docs/`, `scripts/k3-doctor.sh`, `tools/budget.py`, and the weightless test suite.
+- **Build/test reference for this skill**: the FareedKhan-dev repository [[README]], `docs/`, `scripts/k3-doctor.sh`, `tools/budget.py`, and the weightless test suite.

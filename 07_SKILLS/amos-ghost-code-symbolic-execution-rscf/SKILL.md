@@ -214,9 +214,9 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 
 - `references/references_MOC.md` — loaded on demand
 - `references/unified_coding_engine_spec.md` — loaded on demand
-- `[[amos-ghost-code-symbolic-execution-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-formal-engines-master` — parent skill
-- `[[amos-ghost-code-symbolic-execution-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-ghost-code-symbolic-execution-rscf-agent` — corresponding agent
 ---
 
@@ -230,7 +230,7 @@ Ghost code symbolic execution is a formal verification method. It does not prove
 RSCF-NODE
 node_id: amos-ghost-code-symbolic-execution-rscf
 node_type: skill
-path: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf/SKILL.md
+path: 07_SKILLS/amos-ghost-code-symbolic-execution-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

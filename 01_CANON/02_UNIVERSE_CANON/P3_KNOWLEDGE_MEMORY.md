@@ -87,7 +87,7 @@ IMPLEMENTATION
 =
 NOT ESTABLISHED
 
-RUNTIME VALIDATION
+RUNTIME [[VALIDATION]]
 =
 NOT ESTABLISHED
 ```
@@ -95,9 +95,9 @@ NOT ESTABLISHED
 The governing distinctions are:
 
 ```text
-MEMORY != OBSERVATION
+[[MEMORY]] != OBSERVATION
 
-MEMORY != CURRENT REALITY
+[[MEMORY]] != CURRENT REALITY
 
 STORED != VERIFIED
 
@@ -195,7 +195,7 @@ P1 — REALITY / ENVIRONMENT
         ↓
 P2 — SENSE / EVIDENCE
         ↓
-P3 — KNOWLEDGE / MEMORY
+P3 — KNOWLEDGE / [[MEMORY]]
 ```
 
 P2 answers:
@@ -380,7 +380,7 @@ EPOCH
 +
 SCOPE
 =
-MEMORY RECORD
+[[MEMORY]] RECORD
 ```
 
 where required by the decision context.
@@ -428,7 +428,7 @@ P2 OBSERVATION
       ↓
 P2 EVIDENCE
       ↓
-P3 MEMORY
+P3 [[MEMORY]]
       ↓
 P3 CONSOLIDATED KNOWLEDGE
 ```
@@ -582,7 +582,7 @@ This is particularly important for changing:
 ## Law
 
 ```text
-P3-2 MEMORY IS MODEL
+P3-2 [[MEMORY]] IS MODEL
 
 Stored state is a claim about the past;
 validators outrank memory.
@@ -617,7 +617,7 @@ If current validation contradicts stored memory:
 ```text
 CURRENT VALIDATOR
 >
-STALE MEMORY
+STALE [[MEMORY]]
 ```
 
 within the validator's valid scope and regime.
@@ -633,7 +633,7 @@ The validator itself must be admissible, scoped, provenance-aware, and sufficien
 Example:
 
 ```text
-MEMORY:
+[[MEMORY]]:
 service endpoint = A
 
 CURRENT VALIDATOR:
@@ -643,7 +643,7 @@ service registry says endpoint = B
 If the registry is the valid current authority for that scope:
 
 ```text
-MEMORY A
+[[MEMORY]] A
 →
 STALE / SUPERSEDED
 ```
@@ -667,7 +667,7 @@ $$
 and:
 
 ```text
-CANON REMEMBERS X
+[[CANON]] REMEMBERS X
 ```
 
 does not establish:
@@ -901,9 +901,9 @@ provided their validity does not depend on the failed edge.
 Therefore:
 
 ```text
-LOCAL MEMORY FAILURE
+LOCAL [[MEMORY]] FAILURE
 !=
-GLOBAL MEMORY RESET
+GLOBAL [[MEMORY]] RESET
 ```
 
 ---
@@ -1039,11 +1039,11 @@ when correlation is present.
 ```text
 EPHEMERAL EVIDENCE
        ↓
-CANDIDATE MEMORY
+CANDIDATE [[MEMORY]]
        ↓
-PERSISTED MEMORY
+PERSISTED [[MEMORY]]
        ↓
-REVALIDATED MEMORY
+REVALIDATED [[MEMORY]]
        ↓
 DIVERSITY CHECK
        ↓
@@ -1498,7 +1498,7 @@ DOMAIN STATE
 
 MAJOR CLAIMS
 
-CANON STATUS
+[[CANON]] STATUS
 
 ACTIVE COMPETING MODELS
 
@@ -1530,7 +1530,7 @@ REVALIDATION STATUS
 L-level may include:
 
 ```text
-INDIVIDUAL MEMORY ENTRY
+INDIVIDUAL [[MEMORY]] ENTRY
 
 EXACT VERSION
 
@@ -1552,7 +1552,7 @@ Load only when needed.
 The target is:
 
 ```text
-SMALLEST SUFFICIENT MEMORY SET
+SMALLEST SUFFICIENT [[MEMORY]] SET
 ```
 
 not:
@@ -1638,15 +1638,15 @@ No persistence class automatically changes claim class.
 # 55. Durable Does Not Mean Canonical
 
 ```text
-DURABLE MEMORY
+DURABLE [[MEMORY]]
 !=
-CANON
+[[CANON]]
 ```
 
 Likewise:
 
 ```text
-CANON
+[[CANON]]
 !=
 EMPIRICAL TRUTH
 ```
@@ -1662,7 +1662,7 @@ Stored authorization or authority state may become stale.
 Therefore:
 
 ```text
-MEMORY OF AUTHORITY
+[[MEMORY]] OF AUTHORITY
 !=
 CURRENT AUTHORITY
 ```
@@ -1798,7 +1798,7 @@ The source explicitly states:
 ```text
 VAULT / FILES
 =
-EXTERNALIZED MEMORY SUBSTRATE
+EXTERNALIZED [[MEMORY]] SUBSTRATE
 
 VAULT / FILES
 !=
@@ -2109,7 +2109,7 @@ PERSISTENCE DECISION
         │
         ▼
 P3
-TYPED MEMORY
+TYPED [[MEMORY]]
         │
         ▼
 REVALIDATION
@@ -2299,7 +2299,7 @@ RSCF:
 
     memory:
       epistemic_boundary:
-        "MEMORY != CURRENT REALITY"
+        "[[MEMORY]] != CURRENT REALITY"
 
     validators:
       outrank_stale_memory: true
@@ -2313,10 +2313,10 @@ RSCF:
 
   provenance:
     - AMOS_corpus
-    - AMOS_7_PART_UNIVERSE_CANON
-    - HML_CANON
-    - P2_SENSE_EVIDENCE
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+    - [[AMOS_7_PART_UNIVERSE_CANON]]
+    - [[HML_CANON]]
+    - [[P2_SENSE_EVIDENCE]]
+    - [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 
   scope:
     - UNIVERSE_CANON
@@ -2416,7 +2416,7 @@ TYPED PERSISTENCE
     ↓
 PROVENANCE + CONFIDENCE + EPOCH
     ↓
-P3 MEMORY
+P3 [[MEMORY]]
     ↓
 FRESHNESS / VALIDITY CHECK
     ↓
@@ -2432,7 +2432,7 @@ VERSIONED / RETRIEVABLE / REVALIDATABLE
 Strongest current aggregate classification:
 
 ```text
-P3 KNOWLEDGE & MEMORY
+P3 KNOWLEDGE & [[MEMORY]]
 =
 SOURCE-GROUNDED
 CONDITIONAL
@@ -2443,7 +2443,7 @@ IMPLEMENTATION
 =
 NOT ESTABLISHED
 
-RUNTIME VALIDATION
+RUNTIME [[VALIDATION]]
 =
 NOT ESTABLISHED
 
@@ -2496,21 +2496,21 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[02_UNIVERSE_CANON_MOC]]
+* INDEXED_BY: 
 
-* CHILD_OF: [[AMOS_7_PART_UNIVERSE_CANON]]
+* CHILD_OF: 
 
-* RECEIVES_FROM: [[P2_SENSE_EVIDENCE]]
+* RECEIVES_FROM: 
 
-* INHERITS_REALITY_BOUNDARY_FROM: [[P1_REALITY_ENVIRONMENT]]
+* INHERITS_REALITY_BOUNDARY_FROM: 
 
-* RELATED_HIERARCHY: [[HML_CANON]]
+* RELATED_HIERARCHY: 
 
-* RELATED_FRAMEWORK: [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+* RELATED_FRAMEWORK: 
 
 * GOVERNS:
   TYPED_PERSISTENCE
@@ -2539,15 +2539,15 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:** [[AMOS_7_PART_UNIVERSE_CANON]] · [[P1_REALITY_ENVIRONMENT]] · [[P2_SENSE_EVIDENCE]] · [[HML_CANON]] · [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:**  ·  ·  ·  ·  ·  · 
 
 ---
 
-**MOC:** [[02_UNIVERSE_CANON_MOC]]
+**MOC:** 
 
 ---
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** 
 
 ---
 

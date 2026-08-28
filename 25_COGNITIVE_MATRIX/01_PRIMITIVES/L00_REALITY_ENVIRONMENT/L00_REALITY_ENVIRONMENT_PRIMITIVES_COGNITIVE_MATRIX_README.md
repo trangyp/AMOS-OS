@@ -26,7 +26,7 @@ rscf:
 ---
 
 
-# L00_REALITY_ENVIRONMENT — README
+# L00_REALITY_ENVIRONMENT — [[README]]
 
 **Class:** `AMOS_REALITY_ENVIRONMENT_ROOT_ARCHITECTURE`
 **Origin architect / steward:** Trang Phan
@@ -3407,7 +3407,7 @@ The governing architectural principle is:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

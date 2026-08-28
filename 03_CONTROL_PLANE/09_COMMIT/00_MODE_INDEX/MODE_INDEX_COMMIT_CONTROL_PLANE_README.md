@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# MODE INDEX COMMIT CONTROL PLANE README
+# MODE INDEX COMMIT CONTROL PLANE [[README]]
 
 ## Purpose
 `MODE INDEX COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX`.

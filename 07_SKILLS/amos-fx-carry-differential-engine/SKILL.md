@@ -207,9 +207,9 @@ FX carry differential engine is an AMOS_MODEL. It does not prove carry trades ar
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-fx-carry-differential-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `[[amos-fx-carry-differential-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-fx-carry-differential-engine-agent` — corresponding agent
 ---
 
@@ -223,7 +223,7 @@ FX carry differential engine is an AMOS_MODEL. It does not prove carry trades ar
 RSCF-NODE
 node_id: amos-fx-carry-differential-engine
 node_type: skill
-path: 07_SKILLS/amos-fx-carry-differential-engine/SKILL.md
+path: 07_SKILLS/amos-fx-carry-differential-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

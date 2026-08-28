@@ -713,11 +713,11 @@ At present, the supplied evidence strongly favors \(H_1\) structurally, but it d
 
 The cheapest discriminating evidence is the source specification:
 
-`[[UBI_X_FULL_BRAIN]]`
+``
 
 followed by:
 
-`[[UBI_FULL_BRAIN_BINDING]]`.
+``.
 
 ---
 
@@ -1470,21 +1470,21 @@ RSCF:
   dependencies:
 
     primary_specification:
-      "[[UBI_X_FULL_BRAIN]]"
+      ""
 
     knowledge_binding:
-      "[[UBI_FULL_BRAIN_BINDING]]"
+      ""
 
     matrix_plane:
-      "[[25_COGNITIVE_MATRIX_MOC]]"
+      ""
 
     candidate_cross_matrix_dependencies:
-      - "[[UBI_X_COGNITION]]"
-      - "[[UBI_X_COGNITION_MATRIX]]"
-      - "[[UBI_X_EMOTION]]"
-      - "[[TOTAL_KERNEL_MATRIX]]"
-      - "[[TOTAL_ENGINE_MATRIX]]"
-      - "[[TOTAL_CANON_MATRIX]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
 
   invariants:
 

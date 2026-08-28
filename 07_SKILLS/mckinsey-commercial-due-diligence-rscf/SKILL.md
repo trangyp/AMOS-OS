@@ -196,9 +196,9 @@ Commercial due diligence is an analytical process. It does not prove all risks a
 
 - `references/consulting_engine_for_due_diligence.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[mckinsey-commercial-due-diligence-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[mckinsey-commercial-due-diligence-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `mckinsey-commercial-due-diligence-rscf-agent` — corresponding agent
 ---
 
@@ -212,7 +212,7 @@ Commercial due diligence is an analytical process. It does not prove all risks a
 RSCF-NODE
 node_id: mckinsey-commercial-due-diligence-rscf
 node_type: skill
-path: 07_SKILLS/mckinsey-commercial-due-diligence-rscf/SKILL.md
+path: 07_SKILLS/mckinsey-commercial-due-diligence-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -41,7 +41,7 @@ rscf:
 - Apply G1–G10 hard gates
 
 ### Phase 5: BUILD
-- Generate SKILL.md with meaningful content
+- Generate [[SKILL]].md with meaningful content
 - Create reference files if needed
 - Validate against frontmatter, binding, and content rules
 - Package with provenance and confidence ceiling

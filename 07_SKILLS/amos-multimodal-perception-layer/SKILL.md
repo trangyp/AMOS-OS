@@ -195,9 +195,9 @@ Multimodal perception layer is an AMOS_MODEL. It does not prove all perception i
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-multimodal-perception-layer_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-multimodal-perception-layer-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-multimodal-perception-layer-agent` — corresponding agent
 ---
 
@@ -211,7 +211,7 @@ Multimodal perception layer is an AMOS_MODEL. It does not prove all perception i
 RSCF-NODE
 node_id: amos-multimodal-perception-layer
 node_type: skill
-path: 07_SKILLS/amos-multimodal-perception-layer/SKILL.md
+path: 07_SKILLS/amos-multimodal-perception-layer/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

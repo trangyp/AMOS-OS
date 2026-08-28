@@ -59,7 +59,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 - The `amos-cross-domain-tensor-composition-governor` skill exists and is loaded.
 - The `amos-cross-domain-tensor-composition-governor-agent` agent is available and has valid content_hash.
 - The query involves composition across two or more AMOS domains (C01-C12).
-- All required vault sources are accessible (TENSOR_CONTRACTS.md, domain master knowledge files).
+- All required vault sources are accessible ([[TENSOR_CONTRACTS]].md, domain master knowledge files).
 - Epistemic class labeling is enabled (SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL).
 - The domain axis registry is available for semantic compatibility checks.
 

@@ -19,7 +19,7 @@ rscf:
 ## Index
 - See also — [[INDEX_OBSERVABILITY_README]]
 - See also — [[OBSERVABILITY_OBSERVABILITY_MAP]]
-- See also — README
+- See also — [[README]]
 
 ## Indexing rule
 This index resolves by basename within its own directory. Cross-plane resolution goes through [[00_HOME]] and [[AMOS_RSCF_NODES]].
@@ -45,14 +45,14 @@ Given an operation touching `OBSERVABILITY · OBSERVABILITY CONTRACT` within the
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

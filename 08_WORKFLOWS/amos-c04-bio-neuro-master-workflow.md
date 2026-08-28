@@ -154,7 +154,7 @@ Origin architect: **Trang Phan**. Domain: workflow. Parent: none. Epistemic clas
 # amos human intellige
 
 ---
-**MOC:** [[08_WORKFLOWS_MOC]]
+**MOC:** 
 ```
 
 ## Orchestration Pattern

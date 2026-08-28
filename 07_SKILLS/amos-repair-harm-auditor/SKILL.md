@@ -211,9 +211,9 @@ Repair harm auditing is an operational construct. It does not prove all repair h
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-repair-harm-auditor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-repair-harm-auditor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-repair-harm-auditor-agent` — corresponding agent
 ---
 
@@ -227,7 +227,7 @@ Repair harm auditing is an operational construct. It does not prove all repair h
 RSCF-NODE
 node_id: amos-repair-harm-auditor
 node_type: skill
-path: 07_SKILLS/amos-repair-harm-auditor/SKILL.md
+path: 07_SKILLS/amos-repair-harm-auditor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

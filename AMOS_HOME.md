@@ -37,12 +37,12 @@ rscf:
 
 ---
 
-## README and architecture stubs
+## [[README]] and architecture stubs
 
-- [[README]] — root README
+- [[README]] — root [[README]]
 - [[ARCHITECTURE]] — root architecture overview
-- [[README]] — observability layer README
-- [[README]] — tests layer README
+- [[README]] — observability layer [[README]]
+- [[README]] — tests layer [[README]]
 
 ---
 

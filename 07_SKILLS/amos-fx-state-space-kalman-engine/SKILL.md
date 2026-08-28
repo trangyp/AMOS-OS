@@ -204,9 +204,9 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-fx-state-space-kalman-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `[[amos-fx-state-space-kalman-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-fx-state-space-kalman-engine-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ FX state-space Kalman engine is an analytical model. It does not prove optimal f
 RSCF-NODE
 node_id: amos-fx-state-space-kalman-engine
 node_type: skill
-path: 07_SKILLS/amos-fx-state-space-kalman-engine/SKILL.md
+path: 07_SKILLS/amos-fx-state-space-kalman-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -16,7 +16,7 @@ rscf:
 
 # JSON Specification
 
-> Moved from SKILL.md for progressive loading.
+> Moved from [[SKILL]].md for progressive loading.
 
 ```json
 {

@@ -200,9 +200,9 @@ Knowledge harvest runtime is an operational construct. It does not prove all kno
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-knowledge-harvest-runtime_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[amos-knowledge-harvest-runtime-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-knowledge-harvest-runtime-agent` — corresponding agent
 ---
 
@@ -216,7 +216,7 @@ Knowledge harvest runtime is an operational construct. It does not prove all kno
 RSCF-NODE
 node_id: amos-knowledge-harvest-runtime
 node_type: skill
-path: 07_SKILLS/amos-knowledge-harvest-runtime/SKILL.md
+path: 07_SKILLS/amos-knowledge-harvest-runtime/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

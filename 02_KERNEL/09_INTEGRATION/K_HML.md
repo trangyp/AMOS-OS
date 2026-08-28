@@ -22,7 +22,7 @@ rscf:
 **AMOS Core target:** `v4.4`
 **Origin architect / steward:** Trang Phan
 
-I broadened the corpus search beyond the literal filename. The relevant AMOS corpus contains major architecture/state artifacts including **AMOS ARCHITECTURE**, **AMOS OS**, the max-detail Reality Architecture master, and the Trang Reality Architecture corpus.
+I broadened the corpus search beyond the literal filename. The relevant AMOS corpus contains major architecture/state artifacts including **AMOS [[ARCHITECTURE]]**, **AMOS OS**, the max-detail Reality Architecture master, and the Trang Reality Architecture corpus.
 
 There is still no independently identified artifact titled `K_HML`. Therefore the document below is the **full kernel reconstruction consistent with the supplied AMOS v4.4 H/M/L contract**, not falsely presented as a verbatim historical source file.
 
@@ -70,7 +70,7 @@ Canonical distinction:
 
 H/M/L STRUCTURE
 !=
-EMPIRICAL VALIDATION
+EMPIRICAL [[VALIDATION]]
 
 H/M/L LOCATION
 !=
@@ -775,9 +775,9 @@ does not establish three independent confirmations.
 
 H/M/L must therefore interact with:
 
-K_PROVENANCE
-K_PROVENANCE_TOPOLOGY
-K_SYBIL_HARDENING
+[[K_PROVENANCE]]
+[[K_PROVENANCE_TOPOLOGY]]
+[[K_SYBIL_HARDENING]]
 
 ---
 
@@ -2248,7 +2248,7 @@ RETRIEVAL NEED.
 
 KHML-046
 ADVERSARIAL
-VALIDATION SHOULD
+[[VALIDATION]] SHOULD
 USE A GENUINELY
 DIFFERENT PATH.
 
@@ -2257,7 +2257,7 @@ CORRELATED CHALLENGE
 PATHS MUST NOT
 MASQUERADE AS
 INDEPENDENT
-VALIDATION.
+[[VALIDATION]].
 
 KHML-048
 LOCAL COORDINATION
@@ -2388,9 +2388,9 @@ DECISION-LOSS TEST
 
 PROOF-CAPSULE TEST
 
-RSCF-INTEGRATION TEST
+RSCF-[[INTEGRATION]] TEST
 
-GMEF-INTEGRATION TEST
+GMEF-[[INTEGRATION]] TEST
 
 AUTHORITY-FIREWALL TEST
 
@@ -2589,9 +2589,9 @@ Required evidence:
 
 Until then:
 
-HML ARCHITECTURE = AMOS MODEL
+HML [[ARCHITECTURE]] = AMOS MODEL
 
-HML RETRIEVAL CONTRACT = AMOS v4.4 CANON-COMPATIBLE MODEL
+HML RETRIEVAL CONTRACT = AMOS v4.4 [[CANON]]-COMPATIBLE MODEL
 
 FULL HISTORICAL K_HML SOURCE = UNKNOWN/GAP
 
@@ -2701,7 +2701,7 @@ So this is suitable as the **full `K_HML` canon-candidate specification**, but t
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

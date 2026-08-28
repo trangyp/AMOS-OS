@@ -21,7 +21,7 @@ tags: [note]
 ---
 
 
-# COGNITIVE MATRIX VALIDATION CONTRACT
+# COGNITIVE MATRIX [[VALIDATION]] CONTRACT
 
 ## 0. Status
 
@@ -1187,7 +1187,7 @@ Known examples include:
 
 ### Routing Policy
 
-ROUTING_POLICY_VALIDATION_RECEIPT
+[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
 Recorded result:
 
@@ -1202,7 +1202,7 @@ It does not validate this contract.
 
 ### Authorization Invariant Engine
 
-AUTHZ_ENGINE_VALIDATION_RECEIPT
+[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 Recorded result:
 
@@ -1216,7 +1216,7 @@ It does not validate this contract.
 
 ### L00 Reality Environment
 
-L00_REALITY_VALIDATION_RECEIPT
+[[L00_REALITY_VALIDATION_RECEIPT]]
 
 Recorded result:
 
@@ -1812,11 +1812,11 @@ $$GeneratorOutput \neq CanonicalArtifact$$
 
 See:
 
-GENERATOR_CONTRACT
-GENERATOR_OUTPUT
-GENERATOR_VALIDATION
-GENERATOR_FALSIFICATION
-GENERATOR_PROMOTION
+[[GENERATOR_CONTRACT]]
+[[GENERATOR_OUTPUT]]
+[[GENERATOR_VALIDATION]]
+[[GENERATOR_FALSIFICATION]]
+[[GENERATOR_PROMOTION]]
 
 ---
 
@@ -1838,7 +1838,7 @@ The two surfaces remain separately governed.
 
 Related:
 
-ROUTING_POLICY_VALIDATION_RECEIPT
+[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
 ---
 
@@ -1863,7 +1863,7 @@ OBSERVABILITY
 
 Related:
 
-OBSERVABILITY_README
+[[OBSERVABILITY_README]]
 
 ---
 
@@ -1877,7 +1877,7 @@ Validation itself MUST NOT silently bypass control-plane authority.
 
 Related:
 
-CONTROL_PLANE_README
+[[CONTROL_PLANE_README]]
 
 ---
 
@@ -1899,7 +1899,7 @@ A validation result stripped of its applicability envelope MUST NOT be treated a
 
 Related:
 
-KERNEL_README
+[[KERNEL_README]]
 
 ---
 
@@ -1911,7 +1911,7 @@ Recovery SHOULD preserve unaffected state and reroute only failed dependency pat
 
 Related:
 
-OPERATIONS_README
+[[OPERATIONS_README]]
 
 ---
 
@@ -2099,9 +2099,9 @@ gaps:
 | Surface                                   | Evidence                              | Supported state           |
 | ----------------------------------------- | ------------------------------------- | ------------------------- |
 | Validation contract specification         | this artifact                         | AMOS_MODEL                |
-| Routing policy validation                 | ROUTING_POLICY_VALIDATION_RECEIPT | EXECUTED within its scope |
-| Authorization validation                  | AUTHZ_ENGINE_VALIDATION_RECEIPT   | EXECUTED within its scope |
-| L00 validation                            | L00_REALITY_VALIDATION_RECEIPT    | EXECUTED within its scope |
+| Routing policy validation                 | [[ROUTING_POLICY_VALIDATION_RECEIPT]] | EXECUTED within its scope |
+| Authorization validation                  | [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]   | EXECUTED within its scope |
+| L00 validation                            | [[L00_REALITY_VALIDATION_RECEIPT]]    | EXECUTED within its scope |
 | Full validation-contract executor         | none established here                 | UNKNOWN/GAP               |
 | Full Cognitive Matrix runtime enforcement | none established here                 | UNKNOWN/GAP               |
 | Full L00–L29 validation                   | incomplete                            | PARTIAL                   |
@@ -2240,20 +2240,20 @@ They MUST NOT silently promote this entire contract or the entire Cognitive Matr
 
 ## Cross-Plane Bindings
 
-* Governed by canon — AMOS Core Laws · LAW_HIERARCHY
-* Kernel interaction — KERNEL_README
-* Control-plane gates — CONTROL_PLANE_README
-* Observed by — OBSERVABILITY_README · never treated as authority
-* Recovered via operations — OPERATIONS_README
-* Routing evidence — ROUTING_POLICY_VALIDATION_RECEIPT
-* Authorization evidence — AUTHZ_ENGINE_VALIDATION_RECEIPT
-* L00 validation evidence — L00_REALITY_VALIDATION_RECEIPT
-* Promotion governance — PROMOTION_GATES
-* Binding governance — BINDING_RULES
+* Governed by canon — AMOS Core Laws · [[LAW_HIERARCHY]]
+* Kernel interaction — [[KERNEL_README]]
+* Control-plane gates — [[CONTROL_PLANE_README]]
+* Observed by — [[OBSERVABILITY_README]] · never treated as authority
+* Recovered via operations — [[OPERATIONS_README]]
+* Routing evidence — [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+* Authorization evidence — [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+* L00 validation evidence — [[L00_REALITY_VALIDATION_RECEIPT]]
+* Promotion governance — [[PROMOTION_GATES]]
+* Binding governance — [[BINDING_RULES]]
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -2267,9 +2267,9 @@ node_id: cm_25_cognitive_matrix_11_validation_cognitive_matrix_validation_contra
 
 node_type: contract
 
-path: 25_COGNITIVE_MATRIX/11_VALIDATION/COGNITIVE_MATRIX_VALIDATION_CONTRACT.md
+path: 25_COGNITIVE_MATRIX/11_VALIDATION/[[COGNITIVE_MATRIX_VALIDATION_CONTRACT]].md
 
-artifact_id: AMOS-CM-11-VALIDATION-CONTRACT
+artifact_id: AMOS-CM-11-[[VALIDATION]]-CONTRACT
 
 claim_class: AMOS_MODEL
 
@@ -2283,13 +2283,13 @@ RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: 00_ROOT_MOC|AMOS MOC
+* INDEXED_BY: [[00_ROOT_MOC]]|[[AMOS MOC]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: COGNITIVE_MATRIX_MOC
+* PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
-* GOVERNS: L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README
+* GOVERNS: [[L00_REALITY_ENVIRONMENT_PRIMITIVES_COGNITIVE_MATRIX_README]]
 
 * GOVERNS: L00-L29_PRIMITIVES
 
@@ -2303,25 +2303,25 @@ RSCF-RELATIONS:
 
 * GOVERNS: COGNITIVE_MATRIX_GENERATORS
 
-* GOVERNED_BY: LAW_HIERARCHY
+* GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* GOVERNED_BY: PROMOTION_GATES
+* GOVERNED_BY: [[PROMOTION_GATES]]
 
-* GOVERNED_BY: BINDING_RULES
+* GOVERNED_BY: [[BINDING_RULES]]
 
-* VALIDATION_PATTERN_FROM: ROUTING_POLICY_VALIDATION_RECEIPT
+* VALIDATION_PATTERN_FROM: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* VALIDATION_PATTERN_FROM: AUTHZ_ENGINE_VALIDATION_RECEIPT
+* VALIDATION_PATTERN_FROM: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-* VALIDATION_PATTERN_FROM: L00_REALITY_VALIDATION_RECEIPT
+* VALIDATION_PATTERN_FROM: [[L00_REALITY_VALIDATION_RECEIPT]]
 
-* INTERACTS_WITH: KERNEL_README
+* INTERACTS_WITH: [[KERNEL_README]]
 
-* INTERACTS_WITH: CONTROL_PLANE_README
+* INTERACTS_WITH: [[CONTROL_PLANE_README]]
 
-* OBSERVED_BY: OBSERVABILITY_README
+* OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* RECOVERED_VIA: OPERATIONS_README
+* RECOVERED_VIA: [[OPERATIONS_README]]
 
 validation_state: SPECIFICATION_ONLY
 

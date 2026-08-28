@@ -48,7 +48,7 @@ rscf:
 
 `GENERATOR_VALIDATION.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
 
-It reserves the canonical slot for the AMOS framework family named **GENERATOR VALIDATION**.
+It reserves the canonical slot for the AMOS framework family named **GENERATOR [[VALIDATION]]**.
 
 The artifact is presently:
 
@@ -567,7 +567,7 @@ INPUT_PROVENANCE_VALID
 
 # 14. Source claim validation
 
-Documentation or README content remains:
+Documentation or [[README]] content remains:
 
 ```text
 SOURCE_CLAIM
@@ -2791,17 +2791,17 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY:
-      "[[00_HOME]]"
+  - INDEXED_BY: [[00_HOME]]
+      ""
 
-  - INDEXED_BY:
-      "[[AMOS_RSCF_NODES]]"
-
-  - PART_OF:
-      "[[GENERATORS_MAP]]"
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+      ""
 
   - PART_OF:
-      "[[COGNITIVE_MATRIX_MOC]]"
+      ""
+
+  - PART_OF:
+      ""
 
   - VALIDATES:
       "GENERATOR_CONTRACT|Generator Contract"
@@ -3576,7 +3576,7 @@ READ_ONLY_BY_DEFAULT
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -3608,7 +3608,7 @@ READ_ONLY_BY_DEFAULT
 The ownership distinction should remain:
 
 ```text
-12_GENERATORS/VALIDATION.md
+12_GENERATORS/[[VALIDATION]].md
 → subsystem-level Generator validation architecture
 
 GENERATOR_VALIDATION.md
@@ -3618,13 +3618,13 @@ GENERATOR_VALIDATION.md
 TESTS.md
 → executable property evidence
 
-GENERATORS_BENCHMARKS.md
+[[GENERATORS_BENCHMARKS]].md
 → bounded measurement
 
-GENERATORS_AUDIT.md
+[[GENERATORS_AUDIT]].md
 → cross-layer assurance challenge
 
-11_VALIDATION/PROMOTION_GATES.md
+11_VALIDATION/[[PROMOTION_GATES]].md
 → lifecycle elevation after evidence exists
 
 CONTROL PLANE / AUTHORITY
@@ -3661,6 +3661,6 @@ not simply:
 ```
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** 
 
 ```

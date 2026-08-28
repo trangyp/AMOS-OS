@@ -200,9 +200,9 @@ The research agent is an operational construct. It does not prove research compl
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-research-agent_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[amos-research-agent-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-research-agent-agent` — corresponding agent
 ---
 
@@ -216,7 +216,7 @@ The research agent is an operational construct. It does not prove research compl
 RSCF-NODE
 node_id: amos-research-agent
 node_type: skill
-path: 07_SKILLS/amos-research-agent/SKILL.md
+path: 07_SKILLS/amos-research-agent/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

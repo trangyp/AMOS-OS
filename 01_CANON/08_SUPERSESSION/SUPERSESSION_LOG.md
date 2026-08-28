@@ -2140,7 +2140,7 @@ UNKNOWN/GAP.
 ## Related
 
 [[README]] ·
-00_ROOT_MOC|AMOS MOC ·
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[ROADMAP]] ·
@@ -2163,15 +2163,15 @@ ALIASES ·
 [[AUTHORITATIVE_STATE]] ·
 [[README]] ·
 [[README]] ·
-README ·
-README
+[[README]] ·
+[[README]]
 
 ```text
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

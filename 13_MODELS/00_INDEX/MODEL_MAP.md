@@ -160,7 +160,7 @@ gaps:
 
 > [!note] Source preface
 >
-> I checked the exact `MODEL_MAP.md` in Drive. The native file confirms the same load-bearing nucleus: local scope is `13_MODELS/00_INDEX`, reading order is README → contract → artifacts, cross-segment edges are delegated to `[[00_ROOT_MAP]]` and `[[AMOS_RSCF_NODES]]`, graph validation is `PARTIAL`, and the six-stage Admit → Commit/Hold semantics are present.
+> I checked the exact `MODEL_MAP.md` in Drive. The native file confirms the same load-bearing nucleus: local scope is `13_MODELS/00_INDEX`, reading order is [[README]] → contract → artifacts, cross-segment edges are delegated to `` and ``, graph validation is `PARTIAL`, and the six-stage Admit → Commit/Hold semantics are present.
 > 
 > Below is the **full expanded Obsidian note**, preserving that source canon while adding typed map semantics, provenance, scope/regime firewalls, H/M/L navigation, competing-model handling, graph invariants, validation contracts, negative cases, RSCF structure, and explicit `UNKNOWN/GAP` boundaries rather than inventing implementation.
 
@@ -172,11 +172,11 @@ gaps:
 >
 > Its source-grounded responsibilities are:
 >
-> 1. orient the reader through `[[INDEX_MODELS_README]]`;
-> 2. bind interpretation to `[[INDEX_MODELS_MODEL_CONTRACT]]`;
+> 1. orient the reader through ``;
+> 2. bind interpretation to ``;
 > 3. route onward to artifacts governed by that contract;
 > 4. preserve local-directory scope;
-> 5. delegate cross-segment graph traversal to `[[00_ROOT_MAP]]` and `[[AMOS_RSCF_NODES]]`;
+> 5. delegate cross-segment graph traversal to `` and ``;
 > 6. preserve epistemic, provenance, scope, regime, version, and authority boundaries during navigation.
 >
 > A model being present on this map means **navigable within the declared map scope**. It does **not** mean empirically verified, current, authoritative, canonical, causally valid, or applicable outside its declared envelope.
@@ -310,8 +310,8 @@ segment of the Models plane.
 
 Primary local nodes:
 
-* **Contract** — [[INDEX_MODELS_MODEL_CONTRACT]]
-* **Readme** — [[INDEX_MODELS_README]]
+* **Contract** — 
+* **Readme** — 
 
 ---
 
@@ -370,14 +370,14 @@ It reduces the risk of interpreting an artifact before knowing:
 The fact that the README comes first does not imply:
 
 ```text
-README > CONTRACT > ARTIFACT
+[[README]] > CONTRACT > ARTIFACT
 ```
 
 as a universal law hierarchy.
 
 Canonical precedence remains governed by:
 
-[[LAW_HIERARCHY]]
+
 
 Therefore:
 
@@ -435,8 +435,8 @@ unless a separate map establishes exhaustive coverage.
 
 The source states that cross-segment edges live in:
 
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
+* 
+* 
 
 Therefore:
 
@@ -445,7 +445,7 @@ LOCAL GRAPH
 → MODEL_MAP
 
 CROSS-SEGMENT GRAPH
-→ 00_ROOT_MAP / AMOS_RSCF_NODES
+→ [[00_ROOT_MAP]] / [[AMOS_RSCF_NODES]]
 ```
 
 ---
@@ -794,9 +794,9 @@ The functional role supplements rather than overwrites the source-native type.
 
 Related root surfaces:
 
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
-* [[00_INDEX_MOC]]
+* 
+* 
+* 
 
 ---
 
@@ -905,7 +905,7 @@ Use the smallest dependency closure capable of changing the answer.
 Example:
 
 ```text
-README
+[[README]]
 +
 CONTRACT
 +
@@ -1665,7 +1665,7 @@ MODEL
 MODEL_FAMILY
 MODEL_VERSION
 CONTRACT
-README
+[[README]]
 INDEX
 RECEIPT
 EVIDENCE
@@ -1700,7 +1700,7 @@ Normalized candidate relation types include:
 
 ```text
 INDEXES
-REFERENCES
+[[REFERENCES]]
 DEPENDS_ON
 DERIVED_FROM
 GOVERNED_BY
@@ -1728,7 +1728,7 @@ ARE NOT INTERCHANGEABLE
 # 109. REFERENCES ≠ DEPENDS_ON
 
 ```text
-A REFERENCES B
+A [[REFERENCES]] B
 ≠
 A DEPENDS_ON B
 ```
@@ -1796,14 +1796,14 @@ Do not assume arbitrary edge types are transitive.
 Example:
 
 ```text
-A REFERENCES B
-B REFERENCES C
+A [[REFERENCES]] B
+B [[REFERENCES]] C
 ```
 
 does not necessarily mean:
 
 ```text
-A REFERENCES C
+A [[REFERENCES]] C
 ```
 
 ---
@@ -1919,8 +1919,8 @@ Map position does not supply that validation.
 
 The source references:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+* 
+* 
 
 These are contextual validation references.
 
@@ -1931,7 +1931,7 @@ These are contextual validation references.
 ```text
 RELATED RECEIPT
 ≠
-ARTIFACT-SPECIFIC COMPLETE VALIDATION
+ARTIFACT-SPECIFIC COMPLETE [[VALIDATION]]
 ```
 
 unless the receipt explicitly covers this map and all relevant gates.
@@ -2490,8 +2490,8 @@ A model may remain structurally unchanged while the environment shifts into a ne
 
 # 182. Extended Gate — Cross-Segment Routing
 
-* [ ] `[[00_ROOT_MAP]]` resolves
-* [ ] `[[AMOS_RSCF_NODES]]` resolves
+* [ ] `` resolves
+* [ ] `` resolves
 * [ ] cross-segment lookup is distinguished from local lookup
 * [ ] no silent global first-match behavior
 
@@ -2499,8 +2499,8 @@ A model may remain structurally unchanged while the environment shifts into a ne
 
 # 183. Extended Gate — Reading Order
 
-* [ ] `[[INDEX_MODELS_README]]` resolves
-* [ ] `[[INDEX_MODELS_MODEL_CONTRACT]]` resolves
+* [ ] `` resolves
+* [ ] `` resolves
 * [ ] artifact interpretation is contract-bound
 * [ ] reading order does not become false authority hierarchy
 
@@ -3390,7 +3390,7 @@ Irreversible model-driven action requires stronger evidence and governance.
 
 Binding:
 
-[[OBSERVABILITY_README]]
+
 
 Observability may report:
 
@@ -3418,7 +3418,7 @@ AUTHORIZED
 
 Binding:
 
-[[KERNEL_README]]
+
 
 Kernel interaction may support execution of map operations.
 
@@ -3430,7 +3430,7 @@ It does not redefine Models-plane ontology by itself.
 
 Binding:
 
-[[CONTROL_PLANE_README]]
+
 
 The control plane may govern:
 
@@ -3450,7 +3450,7 @@ where implemented.
 
 Binding:
 
-[[OPERATIONS_README]]
+
 
 Operations provides repair and recovery pathways.
 
@@ -3460,29 +3460,29 @@ Operations provides repair and recovery pathways.
 
 Binding:
 
-[[LAW_HIERARCHY]]
+
 
 If this normalized expansion conflicts with stronger canon:
 
 ```text
-STRONGER CANON WINS
+STRONGER [[CANON]] WINS
 ```
 
 ---
 
 # 252. Root Navigation
 
-* [[00_HOME]]
-* [[00_ROOT_MAP]]
-* [[AMOS_RSCF_NODES]]
+* 
+* 
+* 
 
 ---
 
 # 253. Local Navigation
 
-* [[INDEX_MODELS_README]]
-* [[INDEX_MODELS_MODEL_CONTRACT]]
-* [[00_INDEX_MOC]]
+* 
+* 
+* 
 
 ---
 
@@ -3490,19 +3490,19 @@ STRONGER CANON WINS
 
 | Function                         | Artifact                              |
 | -------------------------------- | ------------------------------------- |
-| Root orientation                 | [[00_HOME]]                           |
-| Root map                         | [[00_ROOT_MAP]]                       |
-| RSCF graph                       | [[AMOS_RSCF_NODES]]                   |
-| Models orientation               | [[INDEX_MODELS_README]]               |
-| Models contract                  | [[INDEX_MODELS_MODEL_CONTRACT]]       |
-| Canon governance                 | [[LAW_HIERARCHY]]                     |
-| Kernel interaction               | [[KERNEL_README]]                     |
-| Control-plane gating             | [[CONTROL_PLANE_README]]              |
-| Observability                    | [[OBSERVABILITY_README]]              |
-| Recovery                         | [[OPERATIONS_README]]                 |
-| Routing validation context       | [[ROUTING_POLICY_VALIDATION_RECEIPT]] |
-| Authorization validation context | [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]   |
-| Local MOC                        | [[00_INDEX_MOC]]                      |
+| Root orientation                 |                            |
+| Root map                         |                        |
+| RSCF graph                       |                    |
+| Models orientation               |                |
+| Models contract                  |        |
+| Canon governance                 |                      |
+| Kernel interaction               |                      |
+| Control-plane gating             |               |
+| Observability                    |               |
+| Recovery                         |                  |
+| Routing validation context       |  |
+| Authorization validation context |    |
+| Local MOC                        |                       |
 
 ---
 
@@ -3533,7 +3533,7 @@ MODEL ARTIFACT
 ```text
 MODEL_MAP
 ↓
-README
+[[README]]
 ↓
 CONTRACT
 ↓
@@ -3544,7 +3544,7 @@ ARTIFACT
 
 # 257. Reverse Navigation
 
-A model artifact may reference `[[MODEL_MAP]]` for discovery.
+A model artifact may reference `` for discovery.
 
 That navigation edge does not automatically imply semantic dependency.
 
@@ -3743,12 +3743,12 @@ MAP_RESOLUTION_CAPSULE:
 
   cross_segment:
     routes:
-      - 00_ROOT_MAP
-      - AMOS_RSCF_NODES
+      - [[00_ROOT_MAP]]
+      - [[AMOS_RSCF_NODES]]
 
   governing_context:
-    readme: INDEX_MODELS_README
-    contract: INDEX_MODELS_MODEL_CONTRACT
+    readme: [[INDEX_MODELS_README]]
+    contract: [[INDEX_MODELS_MODEL_CONTRACT]]
 
   scope:
   regime:
@@ -4033,8 +4033,8 @@ MODEL_MAP_GAPS:
     class: EXPLANATORY
     status: DELEGATED
     delegates:
-      - 00_ROOT_MAP
-      - AMOS_RSCF_NODES
+      - [[00_ROOT_MAP]]
+      - [[AMOS_RSCF_NODES]]
 
   - id: MM-G005
     subject: executable_model_map_schema
@@ -4128,7 +4128,7 @@ NODE CLASS
 =
 AMOS_MODEL
 
-EXECUTABLE GRAPH VALIDATION
+EXECUTABLE GRAPH [[VALIDATION]]
 =
 PARTIAL
 ```
@@ -4346,19 +4346,19 @@ IDENTITY BINDING
 ↓
 VERSION BINDING
 ↓
-LOCAL GRAPH VALIDATION
+LOCAL GRAPH [[VALIDATION]]
 ↓
-CROSS-SEGMENT ROUTING VALIDATION
+CROSS-SEGMENT ROUTING [[VALIDATION]]
 ↓
 NEGATIVE TESTS
 ↓
-PROVENANCE VALIDATION
+PROVENANCE [[VALIDATION]]
 ↓
-SCOPE / REGIME VALIDATION
+SCOPE / REGIME [[VALIDATION]]
 ↓
-AUTHORITY VALIDATION
+AUTHORITY [[VALIDATION]]
 ↓
-ROLLBACK VALIDATION
+ROLLBACK [[VALIDATION]]
 ↓
 ARTIFACT-SPECIFIC RECEIPT
 ↓
@@ -4454,13 +4454,13 @@ OWN DIRECTORY ONLY
 
 READING ORDER
 =
-README
+[[README]]
 →
 CONTRACT
 →
 ARTIFACTS
 
-README
+[[README]]
 =
 ORIENTATION
 
@@ -4565,11 +4565,11 @@ UNAFFECTED VALID STATE
 →
 PRESERVE
 
-EXECUTABLE GRAPH VALIDATION
+EXECUTABLE GRAPH [[VALIDATION]]
 =
 PARTIAL
 
-ARTIFACT-SPECIFIC VALIDATION RECEIPT
+ARTIFACT-SPECIFIC [[VALIDATION]] RECEIPT
 =
 UNKNOWN/GAP
 ```
@@ -4608,35 +4608,35 @@ RECORD RECEIPT
 
 # 296. Cross-Plane Bindings
 
-* Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]] · never treated as authority
-* Recovered via operations — [[OPERATIONS_README]]
-* Root navigation — [[00_HOME]]
-* Root map — [[00_ROOT_MAP]]
-* RSCF graph — [[AMOS_RSCF_NODES]]
+* Governed by canon —  · 
+* Kernel interaction — 
+* Control-plane gates — 
+* Observed by —  · never treated as authority
+* Recovered via operations — 
+* Root navigation — 
+* Root map — 
+* RSCF graph — 
 
 ---
 
 # 297. Related
 
-[[00_HOME]] ·
-[[00_ROOT_MAP]] ·
-[[AMOS_RSCF_NODES]] ·
-[[INDEX_MODELS_README]] ·
-[[INDEX_MODELS_MODEL_CONTRACT]] ·
-[[LAW_HIERARCHY]] ·
-[[KERNEL_README]] ·
-[[CONTROL_PLANE_README]] ·
-[[OBSERVABILITY_README]] ·
-[[OPERATIONS_README]] ·
-[[ROUTING_POLICY_VALIDATION_RECEIPT]] ·
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
 
 ---
 
@@ -4679,13 +4679,13 @@ RSCF-NODE:
     cross_segment_edges: false
 
   reading_order:
-    - INDEX_MODELS_README
-    - INDEX_MODELS_MODEL_CONTRACT
+    - [[INDEX_MODELS_README]]
+    - [[INDEX_MODELS_MODEL_CONTRACT]]
     - CONTRACT_BOUND_MODEL_ARTIFACTS
 
   cross_segment_navigation:
-    - 00_ROOT_MAP
-    - AMOS_RSCF_NODES
+    - [[00_ROOT_MAP]]
+    - [[AMOS_RSCF_NODES]]
 
   implementation:
     graph_validation: PARTIAL
@@ -4771,10 +4771,10 @@ RSCF-PROOF-CAPSULE:
     statement: >
       MODEL MAP is the navigation map for the
       13_MODELS/00_INDEX segment of the Models plane.
-      It directs the reader first to INDEX_MODELS_README,
-      then to INDEX_MODELS_MODEL_CONTRACT, then to
+      It directs the reader first to [[INDEX_MODELS_README]],
+      then to [[INDEX_MODELS_MODEL_CONTRACT]], then to
       contract-bound artifacts. Cross-segment graph edges
-      are delegated to 00_ROOT_MAP and AMOS_RSCF_NODES.
+      are delegated to [[00_ROOT_MAP]] and [[AMOS_RSCF_NODES]].
     class: DERIVED
 
   node_class:
@@ -4787,7 +4787,7 @@ RSCF-PROOF-CAPSULE:
   load_bearing_premises:
     - local scope is 13_MODELS/00_INDEX
     - map covers its own directory only
-    - README provides orientation
+    - [[README]] provides orientation
     - contract provides normative terms
     - artifacts are interpreted under the contract
     - cross-segment edges are external to the local map
@@ -4852,7 +4852,7 @@ RSCF-PROOF-CAPSULE:
 Its source-grounded orientation law is:
 
 ```text
-README
+[[README]]
 →
 ORIENTATION
 ```
@@ -5022,7 +5022,7 @@ PASS
 Its current source-grounded implementation boundary remains:
 
 ```text
-EXECUTABLE GRAPH VALIDATION
+EXECUTABLE GRAPH [[VALIDATION]]
 =
 PARTIAL
 ```
@@ -5058,7 +5058,7 @@ COMPETING-MODEL PRESERVATION
 +
 SELECTIVE INVALIDATION
 +
-PARTIAL EXECUTABLE GRAPH VALIDATION
+PARTIAL EXECUTABLE GRAPH [[VALIDATION]]
 +
 CONDITIONAL PROMOTION STATUS
 ```

@@ -52,7 +52,7 @@ rscf:
 
 ---
 
-## SECTION 2 — OFFICIAL BEST-PRACTICE REFERENCES
+## SECTION 2 — OFFICIAL BEST-PRACTICE [[REFERENCES]]
 
 1. **Scientific Python Discussion** - NumPy performance optimization
 2. **Python Performance Guide 2025** - Vectorization and profiling

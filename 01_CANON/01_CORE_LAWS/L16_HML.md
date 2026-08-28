@@ -88,7 +88,7 @@ The central invariant is:
 THE REQUIRED RIGOR OF AN OUTPUT
 MUST NEVER BE LOWER
 THAN THE STRICTEST LOAD-BEARING REQUIREMENT
-OF ITS VALIDATION PATH.
+OF ITS [[VALIDATION]] PATH.
 ```
 
 ---
@@ -162,7 +162,7 @@ DISCOVER DEPENDENCIES
           ↓
 FIND STRICTEST APPLICABLE LEVEL
           ↓
-RUN SUFFICIENT VALIDATION
+RUN SUFFICIENT [[VALIDATION]]
           ↓
 CHECK FOR LEVEL SKIPPING
           ↓
@@ -229,7 +229,7 @@ GOVERNANCE-SENSITIVE
 +
 HIGH DOWNSTREAM DEPENDENCY
 +
-HIGH VALIDATION RIGOR
+HIGH [[VALIDATION]] RIGOR
 ```
 
 An H-level conclusion may influence many M- and L-level descendants.
@@ -940,7 +940,7 @@ What is prohibited is:
 ```text
 L EVIDENCE
    ↓
-NO H VALIDATION
+NO H [[VALIDATION]]
    ↓
 H CONCLUSION
 ```
@@ -953,7 +953,7 @@ CAN SUPPORT
 HIGH-LEVEL REASONING
 
 BUT CANNOT REPLACE
-HIGH-LEVEL VALIDATION
+HIGH-LEVEL [[VALIDATION]]
 ```
 
 ---
@@ -1047,7 +1047,7 @@ Without such a bridge:
 
 ```text
 L → H
-VALIDATION
+[[VALIDATION]]
 =
 BLOCKED
 ```
@@ -1568,7 +1568,7 @@ weakest load-bearing premise
 Thus AMOS must avoid both:
 
 ```text
-UNDER-VALIDATION
+UNDER-[[VALIDATION]]
 ```
 
 and:
@@ -1598,7 +1598,7 @@ Therefore:
 ```text
 L INTEGRITY CHECK
 ≠
-H/M PROVENANCE VALIDATION
+H/M PROVENANCE [[VALIDATION]]
 ```
 
 ---
@@ -1889,7 +1889,7 @@ Then:
 
 ```text
 L TASK
-→ L VALIDATION
+→ L [[VALIDATION]]
 → STOP
 ```
 
@@ -2055,7 +2055,7 @@ DEPENDENCIES DISCOVERED
       ↓
 STRICTEST LEVEL COMPUTED
       ↓
-VALIDATION SUFFICIENT?
+[[VALIDATION]] SUFFICIENT?
  ├── NO → ESCALATE
  └── YES
       ↓
@@ -2087,7 +2087,7 @@ PROVENANCE VALID?
        ↓
 DEPENDENCY + SCOPE + REGIME CHECK
        ↓
-ADVERSARIAL VALIDATION
+ADVERSARIAL [[VALIDATION]]
        ↓
 CLAIM CLASS
 ```
@@ -2278,7 +2278,7 @@ requires at minimum:
 ```text
 CORRECT LEVEL ASSIGNMENT
 +
-SUFFICIENT VALIDATION AT THAT LEVEL
+SUFFICIENT [[VALIDATION]] AT THAT LEVEL
 +
 LOAD-BEARING DEPENDENCY CLOSURE
 +
@@ -2303,7 +2303,7 @@ ACTION IMPACT = H
 Then:
 
 ```text
-ACTION VALIDATION
+ACTION [[VALIDATION]]
 → H
 ```
 
@@ -2652,7 +2652,7 @@ This means:
 
 ```text
 THE CLAIM CONCERNS GOVERNANCE
-BUT IS NOT YET AUTHORITATIVE CANON
+BUT IS NOT YET AUTHORITATIVE [[CANON]]
 ```
 
 This distinction is especially important for L16 itself.
@@ -3748,7 +3748,7 @@ LEVEL ASSIGNMENT
 STRICTNESS INHERITANCE
 ✓
 
-REQUIRED VALIDATION
+REQUIRED [[VALIDATION]]
 ✓
 
 NO UNGOVERNED LEVEL SKIP
@@ -4086,7 +4086,7 @@ or materially changes their relation, L16 must be revised.
 Process:
 
 ```text
-RECOVER AUTHORITATIVE HML CANON
+RECOVER AUTHORITATIVE HML [[CANON]]
              ↓
 COMPARE SEMANTICS
              ↓
@@ -4165,7 +4165,7 @@ gaps:
   G9:
     severity: EXPLANATORY
     description:
-      Exact mapping between LAW_HIERARCHY and H/M/L is not supplied.
+      Exact mapping between [[LAW_HIERARCHY]] and H/M/L is not supplied.
 
   G10:
     severity: EXPLANATORY
@@ -4313,7 +4313,7 @@ dependency_graph:
                       ↓
              STRICTEST APPLICABLE
                       ↓
-               VALIDATION PATH
+               [[VALIDATION]] PATH
                       ↓
               LEVEL-SKIP CHECK
                       ↓
@@ -4400,7 +4400,7 @@ And:
 ```text
 LOWER-LEVEL SUCCESS
 ≠
-HIGHER-LEVEL VALIDATION
+HIGHER-LEVEL [[VALIDATION]]
 ```
 
 Finally:
@@ -4468,7 +4468,7 @@ Therefore:
 ```text
 HML STRICTNESS
 determines
-VALIDATION FLOOR
+[[VALIDATION]] FLOOR
 
 EPISTEMIC SUPPORT
 determines
@@ -4511,7 +4511,7 @@ proof_capsule:
 
   dependencies:
     - RSCF
-    - LAW_HIERARCHY
+    - [[LAW_HIERARCHY]]
     - provenance_topology
     - scope_regime_firewall
     - competing_hypotheses
@@ -4605,13 +4605,13 @@ RSCF-RELATIONS:
 
 ---
 
-**00_ROOT_MOC:** [[AMOS MOC]]
+**00_ROOT_MOC:** 
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:**  ·  · 
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** 
 
 ---
 

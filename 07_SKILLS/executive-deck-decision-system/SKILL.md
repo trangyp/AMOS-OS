@@ -204,9 +204,9 @@ The executive deck decision system is a communication tool. It does not prove th
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[executive-deck-decision-system_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[executive-deck-decision-system-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `executive-deck-decision-system-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ The executive deck decision system is a communication tool. It does not prove th
 RSCF-NODE
 node_id: executive-deck-decision-system
 node_type: skill
-path: 07_SKILLS/executive-deck-decision-system/SKILL.md
+path: 07_SKILLS/executive-deck-decision-system/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

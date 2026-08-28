@@ -105,7 +105,7 @@ rscf:
 
 ## Source Metadata
 
-- **Title**: KHUNG TRANG — MAX DETAIL ARCHITECTURE WITH FULL EQUATION REGISTRY
+- **Title**: KHUNG TRANG — MAX DETAIL [[ARCHITECTURE]] WITH FULL EQUATION REGISTRY
 - **Version**: U∞_full_source_preserved_v3
 - **Source character count**: 306,574
 - **Source line count**: 13,670

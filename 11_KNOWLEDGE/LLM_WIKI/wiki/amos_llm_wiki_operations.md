@@ -23,8 +23,8 @@ The `LLM_WIKI` subsystem is maintained through four canonical operations. Each o
 2. Read the source without modifying it.
 3. Write a source-summary under `wiki/`.
 4. Create or update concept/entity pages.
-5. Update `[[LLM_WIKI_INDEX]]`.
-6. Append a timestamped entry to `[[LLM_WIKI_LOG]]`.
+5. Update ``.
+6. Append a timestamped entry to ``.
 
 **Skill capability**: `llmwiki.ingest`
 **Bound workflow**: `amos-llm-wiki-workflow.md`
@@ -32,7 +32,7 @@ The `LLM_WIKI` subsystem is maintained through four canonical operations. Each o
 
 ## 2. Query
 
-1. Read `[[LLM_WIKI_INDEX]]` to locate relevant pages.
+1. Read `` to locate relevant pages.
 2. Collect concept/entity/source pages.
 3. Synthesize a cited answer with epistemic class labels.
 4. Optionally file the answer as a new wiki page and update the index/log.
@@ -42,7 +42,7 @@ The `LLM_WIKI` subsystem is maintained through four canonical operations. Each o
 ## 3. Lint
 
 1. Scan `wiki/` for orphan pages, broken wikilinks, stale claims, and missing concept pages.
-2. Record findings in `[[LLM_WIKI_LOG]]`.
+2. Record findings in ``.
 3. Do not auto-delete; either link or explicitly deprecate.
 
 **Skill capability**: `llmwiki.lint`
@@ -54,7 +54,7 @@ The `LLM_WIKI` subsystem is maintained through four canonical operations. Each o
 3. Trigger `llmwiki.ingest`.
 
 **Skill capability**: `llmwiki.clip`
-**Supporting tool**: `[[AMOS_LLM_WIKI_TOOL]]`
+**Supporting tool**: ``
 
 ## Canonical AMOS bindings
 

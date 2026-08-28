@@ -4139,7 +4139,7 @@ under applicable authority.
 
 ---
 
-# 186. Relationship to STATE README
+# 186. Relationship to STATE [[README]]
 
 Orientation:
 
@@ -4169,7 +4169,7 @@ STATE-PLANE CONTRACT
 
 # 187. Contract Precedence
 
-Where this README-style explanatory expansion conflicts with the source-grounded contract nucleus or stronger canon:
+Where this [[README]]-style explanatory expansion conflicts with the source-grounded contract nucleus or stronger canon:
 
 ```text
 STRONGER SOURCE

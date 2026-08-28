@@ -24,11 +24,11 @@ rscf:
 ---
 
 
-# PROVENANCE CANON MAP
+# PROVENANCE [[CANON]] MAP
 
 This note is a MOC alias for the canonical provenance map.
 
-> For the full provenance canon, see CANON_PROVENANCE_MAP|CANON PROVENANCE MAP.
+> For the full provenance canon, see [[CANON_PROVENANCE_MAP]]|[[CANON]] PROVENANCE MAP.
 
 ---
 
@@ -36,7 +36,7 @@ This note is a MOC alias for the canonical provenance map.
 
 - [[00_HOME]]
 - [[AMOS_RSCF_NODES]]
-- 00_ROOT_MOC|AMOS MOC
+- [[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 RSCF-NODE

@@ -188,9 +188,9 @@ The pipeline has 4 transition types:
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-security-control-access-bridge-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-security-safety-master` — parent skill
-- `[[amos-security-control-access-bridge-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-security-control-access-bridge-governor-agent` — corresponding agent
 ---
 
@@ -204,7 +204,7 @@ The pipeline has 4 transition types:
 RSCF-NODE
 node_id: amos-security-control-access-bridge-governor
 node_type: skill
-path: 07_SKILLS/amos-security-control-access-bridge-governor/SKILL.md
+path: 07_SKILLS/amos-security-control-access-bridge-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

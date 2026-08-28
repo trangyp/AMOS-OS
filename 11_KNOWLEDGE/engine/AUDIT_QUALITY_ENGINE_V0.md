@@ -1661,7 +1661,7 @@ _SPEC_JSON = r"""{
           ],
           "technology": [
             "AMOS.TECH.DATA_INTEGRITY",
-            "AMOS.TECH.ACCESS_CONTROL"
+            "AMOS.TECH.[[ACCESS_CONTROL]]"
           ]
         },
         "propagation_rule": "Any audit weakness updates the corresponding AMOS node state and pushes a TTS delta and TPE cycle adjustment."

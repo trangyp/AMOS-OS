@@ -70,7 +70,7 @@ rscf:
  },
 
  // -------------------------------------------------
- // 1. CANON REGISTRY (WHAT EXISTS)
+ // 1. [[CANON]] REGISTRY (WHAT EXISTS)
  // -------------------------------------------------
  "CIL_Registry": {
  "Canon_Groups": [

@@ -99,11 +99,11 @@ CONFIDENCE
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[HERITAGE_PROVENANCE]] · [[L0_INTEGRITY]]
+**Related:**  ·  ·  ·  · 
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** 
 
 ---
 

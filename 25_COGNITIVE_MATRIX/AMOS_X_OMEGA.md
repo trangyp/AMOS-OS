@@ -705,7 +705,7 @@ CANON_MAP
 
 ---
 
-# 25. CANON_MAP
+# 25. [[CANON_MAP]]
 
 Purpose:
 

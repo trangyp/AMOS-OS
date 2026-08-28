@@ -36,7 +36,7 @@ F1: authoritative plane canon merges plane responsibilities.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L33_KERNEL]] · [[L32_CANON]] · [[L8_EXECUTION]] · [[L3_DEPENDENCY]] · [[L10_FAILURE_RECOVERY]]

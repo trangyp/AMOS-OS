@@ -3974,7 +3974,7 @@ Do not merge them.
 
 # 168. Documentation Evidence
 
-README/documentation statements remain:
+[[README]]/documentation statements remain:
 
 ```text
 SOURCE_CLAIM
@@ -5402,7 +5402,7 @@ DESCENDANTS OF ONE CLAIM.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

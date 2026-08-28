@@ -130,10 +130,10 @@ class AMOSContinuationEngine:
             logger.error(f"Error fixing syntax in {file_path}: {e}")
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ---
-**MOC:** [[SKILL]]
+**MOC:** 
 ```
 
 ---

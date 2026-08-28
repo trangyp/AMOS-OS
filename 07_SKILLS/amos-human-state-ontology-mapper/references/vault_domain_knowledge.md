@@ -98,7 +98,7 @@ rather than achieving discrete endpoints?
 
 The Living State represents a paradigm shift from transactional economics to continuity economics.
 
-Through the orchestrated fusion of RATPAK (distributed orchestration), NEUROPAK (brain-computer
+Through the orchestrated fusion of [[RATPAK]] (distributed orchestration), NEUROPAK (brain-computer
 
 interfaces), MyNeuralSignal (cognitive load monitoring), and AHC (augmented human coaching), we
 
@@ -112,13 +112,13 @@ mechanism that turns stability itself into a billable service.
 
 The Architecture of Continuity
 
-RATPAK: The Orchestration Layer
+[[RATPAK]]: The Orchestration Layer
 
-RATPAK operates as the central nervous system, processing millions of data points from IoT sensors,
+[[RATPAK]] operates as the central nervous system, processing millions of data points from IoT sensors,
 
 human biometrics, environmental feeds, and machine states. Unlike traditional automation that
 
-responds to threshold breaches, RATPAK maintains states by predicting and preventing deviations
+responds to threshold breaches, [[RATPAK]] maintains states by predicting and preventing deviations
 
 before they become visible problems.
 
@@ -161,7 +161,7 @@ responding to frequency drift after it's already begun. By the time operators re
 
 call for corrective action, precious seconds—sometimes minutes—have been lost.
 
-Technical Integration: The Symphony of Stability RATPAK orchestrates a dist
+Technical Integration: The Symphony of Stability [[RATPAK]] orchestrates a dist
 
 ---
 **MOC:** [[references_MOC]]

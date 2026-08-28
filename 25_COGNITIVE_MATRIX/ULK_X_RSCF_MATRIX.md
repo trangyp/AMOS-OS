@@ -230,11 +230,11 @@ This artifact is the operational matrix counterpart of:
 The relationship is:
 
 ```text
-[[ULK_X_RSCF]]
+
       │
       │ specifies
       ▼
-[[ULK_X_RSCF_MATRIX]]
+
       │
       │ tabulates
       ▼
@@ -1382,8 +1382,8 @@ L:
 
   load_on_demand:
 
-    - "[[ULK_X_RSCF]]"
-    - "[[ULK_LOGIC_KERNEL]]"
+    - ""
+    - ""
     - definitions of all 21 core laws
     - RSCF section-generation mapping
     - ground-state representation
@@ -1424,8 +1424,8 @@ RSCF_CORE_CLAIM:
       ULK_X_RSCF_MATRIX.md
 
   dependencies:
-    - "[[ULK_X_RSCF]]"
-    - "[[ULK_LOGIC_KERNEL]]"
+    - ""
+    - ""
 
   scope:
     AMOS_OS_COGNITIVE_MATRIX
@@ -2207,13 +2207,13 @@ ULK_X_RSCF_MATRIX:
   bindings:
 
     specification:
-      "[[ULK_X_RSCF]]"
+      ""
 
     universal_logic_kernel:
-      "[[ULK_LOGIC_KERNEL]]"
+      ""
 
     cognitive_matrix:
-      "[[25_COGNITIVE_MATRIX_MOC]]"
+      ""
 ```
 
 ---
@@ -2464,14 +2464,14 @@ Canonical navigation:
 # 70. Canonical Dependency Topology
 
 ```text
-[[25_COGNITIVE_MATRIX_MOC]]
+
               │
               ▼
-[[ULK_X_RSCF_MATRIX]]
+
        │              │
        │              │
        ▼              ▼
-[[ULK_X_RSCF]]   [[ULK_LOGIC_KERNEL]]
+   
        │              │
        └──────┬───────┘
               ▼
@@ -2860,15 +2860,15 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: ""
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: ""
 
-  - MATRIX_OF: "[[ULK_X_RSCF]]"
+  - MATRIX_OF: ""
 
-  - USES_OPERATORS_FROM: "[[ULK_LOGIC_KERNEL]]"
+  - USES_OPERATORS_FROM: ""
 
   - DEFINES_VERIFICATION_FOR: ALU_0
 
@@ -2896,15 +2896,15 @@ RSCF-RELATIONS:
 
   - GENERATED_RSCF_MAPPING: UNKNOWN_GAP
 
-  - GOVERNED_BY: "[[LAW_HIERARCHY]]"
+  - GOVERNED_BY: ""
 
-  - PROVENANCE_GOVERNED_BY: "[[K_PROVENANCE]]"
+  - PROVENANCE_GOVERNED_BY: ""
 
-  - FAIL_CLOSED_GOVERNED_BY: "[[K_FAIL_CLOSED]]"
+  - FAIL_CLOSED_GOVERNED_BY: ""
 
   - CAUSAL_FIREWALL: "K_CAUSAL_FIREWALL"
 
-  - LINEAGE_TARGET: "[[AMOS_CORE_v4_4]]"
+  - LINEAGE_TARGET: ""
 ```
 
 ---

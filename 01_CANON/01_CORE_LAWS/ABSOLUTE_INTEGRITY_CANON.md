@@ -2305,7 +2305,7 @@ knowledge_object:
 
 # 84. Documentation Integrity
 
-README, documentation, architecture descriptions, and comments remain:
+[[README]], documentation, architecture descriptions, and comments remain:
 
 ```text
 SOURCE_CLAIM
@@ -3287,7 +3287,7 @@ Every translation MUST preserve required semantics.
 Absolute Integrity is governed through:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 Its precise hierarchy position MUST be established by the governing Law Hierarchy canon rather than invented here.
@@ -3906,7 +3906,7 @@ DECISION-RELEVANT
 
 EXPLANATORY
 ├── formal-proof status of individual invariants not established
-└── exact hierarchy position depends on [[LAW_HIERARCHY]]
+└── exact hierarchy position depends on 
 ```
 
 These gaps MUST remain visible until resolved.
@@ -3974,28 +3974,28 @@ RSCF_NODE:
   RSCF_RELATIONS:
 
     - relation: INDEXED_BY
-      target: "[[00_HOME]]"
+      target: ""
 
     - relation: INDEXED_BY
-      target: "[[AMOS_RSCF_NODES]]"
+      target: ""
 
     - relation: GOVERNED_BY
-      target: "[[LAW_HIERARCHY]]"
+      target: ""
 
     - relation: PART_OF
-      target: "[[01_CORE_LAWS_MOC]]"
+      target: ""
 
     - relation: INTERACTS_WITH
-      target: "[[KERNEL_README]]"
+      target: ""
 
     - relation: GOVERNED_AT_RUNTIME_BY
-      target: "[[CONTROL_PLANE_README]]"
+      target: ""
 
     - relation: OBSERVED_BY
-      target: "[[OBSERVABILITY_README]]"
+      target: ""
 
     - relation: RECOVERED_VIA
-      target: "[[OPERATIONS_README]]"
+      target: ""
 ```
 
 ---

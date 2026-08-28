@@ -1,0 +1,13 @@
+---
+title: 2026 08 22 amos fairness ethics externalities
+tags:
+- stub
+- amos
+- fairness
+- ethics
+- externalities
+---
+
+# 2026 08 22 amos fairness ethics externalities
+
+Stub note for [[2026_08_22_amos_fairness_ethics_externalities]].

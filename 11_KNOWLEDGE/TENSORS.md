@@ -85,8 +85,8 @@ rscf:
   provenance:
     - AMOS_corpus
     - 11_KNOWLEDGE/tensors.md
-    - 11_KNOWLEDGE/TENSOR_CONTRACTS.md
-    - AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR.md
+    - 11_KNOWLEDGE/[[TENSOR_CONTRACTS]].md
+    - [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]].md
 
   scope:
     - AMOS_knowledge
@@ -4340,7 +4340,7 @@ AMOS_MODEL
 
 ---
 
-00_ROOT_MOC|AMOS MOC · [[AMOS_RSCF_NODES]]
+[[00_ROOT_MOC]]|[[AMOS MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 

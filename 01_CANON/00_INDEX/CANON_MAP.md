@@ -1789,7 +1789,7 @@ dependencies:
   - "SYSTEM_MAP"
   - "DEPENDENCY_MAP"
   - "AUTHORITATIVE_STATE"
-  - "[[00_ROOT_NAMING_STANDARD]]"
+  - ""
   - "PLACEMENT_RULES"
 
 hard_invariants:
@@ -1990,11 +1990,11 @@ FINAL CANON
 
 ---
 
-**Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · DEPENDENCY_MAP|Dependency Map · AUTHORITATIVE_STATE|Authoritative State · 00_ROOT_NAMING_STANDARD|Naming Standard · PLACEMENT_RULES|Placement Rules · CANON_MAP|Canon Map · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture]] · INDEX_RESEARCH_README|Research · OPERATING_MODEL|Operating Model · LEGACY_ARCHIVE_README|Archive
+**Related:** [[README]]|AMOS OS · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[DEPENDENCY_MAP]]|Dependency Map · [[AUTHORITATIVE_STATE]]|Authoritative State · [[00_ROOT_NAMING_STANDARD]]|Naming Standard · [[PLACEMENT_RULES]]|Placement Rules · CANON_MAP|Canon Map · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|Knowledge Architecture]] · [[INDEX_RESEARCH_README]]|Research · [[OPERATING_MODEL]]|Operating Model · [[LEGACY_ARCHIVE_README]]|Archive
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

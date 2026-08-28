@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# INDEX ROLES OPERATING MODEL README
+# INDEX ROLES OPERATING MODEL [[README]]
 
 ## Index
 - See also — [[ROLES_MAP]]

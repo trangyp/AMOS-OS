@@ -179,7 +179,7 @@ This workflow follows a single-agent orchestration with explicit validation gate
 
 ## Composition
 
-- **Skill**: `[[rscf-modeler_MOC]]`
+- **Skill**: ``
 - **Agent**: `rscf-modeler-agent`
 - **Parent workflow**: Routes via `AMOS_HOME` or parent skill workflow
 - **Chain depth**: Maximum 3 workflows in sequence without orchestrator approval

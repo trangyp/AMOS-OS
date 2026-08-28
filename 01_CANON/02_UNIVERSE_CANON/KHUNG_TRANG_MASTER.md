@@ -783,7 +783,7 @@ PRE_SYMBOLIC_PRIMACY:
 # 13. Master Equation Registry
 
 ```yaml
-KHUNG_TRANG_MASTER_EQUATIONS:
+[[KHUNG_TRANG_MASTER_EQUATIONS]]:
 
   KT-MASTER-001:
     name: TRANG_NULL_GROUND_STATE_RESET
@@ -1637,13 +1637,13 @@ provided no hidden dependency connects them.
 The artifact declares provenance from:
 
 ```text
-01_CANON/01_CANON_MOC
+01_CANON/[[01_CANON_MOC]]
 
 11_KNOWLEDGE/05_FRAMEWORKS/
-TRANG_REALITY_ARCHITECTURE_MASTER
+[[TRANG_REALITY_ARCHITECTURE_MASTER]]
 
 25_COGNITIVE_MATRIX/
-AMOS_X_TRANG_REALITY
+[[AMOS_X_TRANG_REALITY]]
 
 AMOS_CORPUS
 ```
@@ -1661,7 +1661,7 @@ They do not automatically establish evidentiary independence.
                      │
           ┌──────────┼───────────┐
           ▼          ▼           ▼
-   CANON MOC    TRANG REALITY   AMOS × TRANG
+   [[CANON]] MOC    TRANG REALITY   AMOS × TRANG
                    MASTER          REALITY
           │          │           │
           └──────────┼───────────┘
@@ -1673,7 +1673,7 @@ They do not automatically establish evidentiary independence.
 Where nodes share ancestry:
 
 ```text
-MULTIPLE REFERENCES
+MULTIPLE [[REFERENCES]]
 !=
 INDEPENDENT CONFIRMATION
 ```
@@ -1685,22 +1685,22 @@ INDEPENDENT CONFIRMATION
 The supplied bindings are:
 
 ```text
-00_ROOT_MOC
+[[00_ROOT_MOC]]
      │
      ▼
-UNIVERSE CANON
+UNIVERSE [[CANON]]
      │
      ▼
 KHUNG TRANG MASTER
      │
      ├────────────► COGNITIVE MATRIX
-     │              AMOS_X_TRANG_REALITY
+     │              [[AMOS_X_TRANG_REALITY]]
      │
      ├────────────► KNOWLEDGE
-     │              TRANG_REALITY_ARCHITECTURE_MASTER
+     │              [[TRANG_REALITY_ARCHITECTURE_MASTER]]
      │
      └────────────► RUNTIME ROUTER
-                    CANON_ROUTER
+                    [[CANON_ROUTER]]
 ```
 
 These links indicate intended architectural relationships.
@@ -1942,11 +1942,11 @@ RSCF:
 
   provenance:
 
-    - 01_CANON/01_CANON_MOC
+    - 01_CANON/[[01_CANON_MOC]]
 
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER
+    - 11_KNOWLEDGE/05_FRAMEWORKS/[[TRANG_REALITY_ARCHITECTURE_MASTER]]
 
-    - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
+    - 25_COGNITIVE_MATRIX/[[AMOS_X_TRANG_REALITY]]
 
     - AMOS_CORPUS
 
@@ -2946,7 +2946,7 @@ KHUNG TRANG MASTER
 SOURCE-GROUNDED
 PRE-SYMBOLIC
 ONTOLOGICAL + MATHEMATICAL
-AMOS MODEL ARCHITECTURE
+AMOS MODEL [[ARCHITECTURE]]
 
 CANONICAL STATUS
 =
@@ -3055,11 +3055,11 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:** [[00_HOME]] · [[02_UNIVERSE_CANON_MOC]] · [[AMOS_X_TRANG_REALITY]] · [[TRANG_REALITY_ARCHITECTURE_MASTER]] · [[CANON_ROUTER]] · [[KHUNG_TRANG_EQUATIONS]] · [[KHUNG_TRANG_EQUATIONS_CANON]] · [[KNOWLEDGE_MOC]]
+**Related:**  ·  ·  ·  ·  ·  ·  · 
 
 ---
 
-**MOC:** [[02_UNIVERSE_CANON_MOC]]
+**MOC:** 
 
 ---
 

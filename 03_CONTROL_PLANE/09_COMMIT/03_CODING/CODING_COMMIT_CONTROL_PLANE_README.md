@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# CODING COMMIT CONTROL PLANE README
+# CODING COMMIT CONTROL PLANE [[README]]
 
 ## Purpose
 `CODING COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/03_CODING`.

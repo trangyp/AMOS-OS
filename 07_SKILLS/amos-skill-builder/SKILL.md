@@ -224,9 +224,9 @@ Check when available:
 - `references/references_MOC.md` — loaded on demand
 - `references/validation.md` — loaded on demand
 - `references/workflows.md` — loaded on demand
-- `[[amos-skill-builder_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-skill-builder-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-skill-builder-agent` — corresponding agent
 ---
 
@@ -240,7 +240,7 @@ Check when available:
 RSCF-NODE
 node_id: amos-skill-builder
 node_type: skill
-path: 07_SKILLS/amos-skill-builder/SKILL.md
+path: 07_SKILLS/amos-skill-builder/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

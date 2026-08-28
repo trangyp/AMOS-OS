@@ -60,7 +60,7 @@ epistemic_boundary:
 
 # Canon Source Claim Audit Report
 
-`CANON_SOURCE_CLAIM_AUDIT.md` documents the systematic provenance verification and invariant compliance auditing across all registered claims in 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY.
+`CANON_SOURCE_CLAIM_AUDIT.md` documents the systematic provenance verification and invariant compliance auditing across all registered claims in 11_KNOWLEDGE/02_CLAIMS/[[CANON_CLAIM_REGISTRY]].
 
 ---
 
@@ -77,9 +77,9 @@ epistemic_boundary:
 
 # 2. Inter-Plane & Vault Connections
 
-- **Validation MOC:** 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC
-- **Claims Registry:** 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY
-- **Canon Plane MOC:** 01_CANON/01_CANON_MOC
+- **Validation MOC:** 22_RESEARCH/04_VALIDATION/[[04_VALIDATION_MOC]]
+- **Claims Registry:** 11_KNOWLEDGE/02_CLAIMS/[[CANON_CLAIM_REGISTRY]]
+- **Canon Plane MOC:** 01_CANON/[[01_CANON_MOC]]
 
 ---
 
@@ -103,7 +103,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[22_RESEARCH_MOC]] · 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC · 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY
+**Related:** [[00_HOME]] · [[22_RESEARCH_MOC]] · 22_RESEARCH/04_VALIDATION/[[04_VALIDATION_MOC]] · 11_KNOWLEDGE/02_CLAIMS/[[CANON_CLAIM_REGISTRY]]
 
 ---
-**MOC:** 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC
+**MOC:** 22_RESEARCH/04_VALIDATION/[[04_VALIDATION_MOC]]

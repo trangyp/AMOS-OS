@@ -126,9 +126,9 @@ derived_tags:
 
 proposed_framework_links:
   - "AMOS_SECURITY_SAFETY_MASTER"
-  - "[[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]"
-  - "[[KNOWLEDGE_MOC]]"
-  - "[[11_KNOWLEDGE_MOC]]"
+  - ""
+  - ""
+  - ""
 
 epistemic_boundary:
   source_status: SOURCE_CLAIM

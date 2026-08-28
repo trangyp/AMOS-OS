@@ -22,7 +22,7 @@ rscf:
 - `O02` — RELATION
 - `O03` — BINDING
 - `O04` — STATE
-- `O05` — MEMORY
+- `O05` — [[MEMORY]]
 - `O06` — MODEL
 - `O07` — INFERENCE
 - `O08` — PREDICTION
@@ -37,7 +37,7 @@ rscf:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

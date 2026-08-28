@@ -3395,7 +3395,7 @@ STRUCTURAL\ EXISTENCE
 \neq
 IMPLEMENTATION
 \neq
-VALIDATION
+[[VALIDATION]]
 \neq
 AUTHORITY
 \neq
@@ -3417,7 +3417,7 @@ This makes `STATUS_LEGEND.md` the semantic firewall preventing the AMOS Cognitiv
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

@@ -220,9 +220,9 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 - `references/references_MOC.md` — loaded on demand
 - `references/tensor_composition_governance.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-formal-engines-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-formal-engines-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-formal-engines-master-agent` — corresponding agent
 ---
 
@@ -236,7 +236,7 @@ The Go Board 19x19 is a formal system implementing 62+ sections from a 75-sectio
 RSCF-NODE
 node_id: amos-formal-engines-master
 node_type: skill
-path: 07_SKILLS/amos-formal-engines-master/SKILL.md
+path: 07_SKILLS/amos-formal-engines-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -206,9 +206,9 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-risk-constraint-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c09-org-law-policy-master` — parent skill
-- `[[amos-risk-constraint-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-risk-constraint-governor-agent` — corresponding agent
 ---
 
@@ -222,7 +222,7 @@ Governance design is SOURCE_CLAIM (vault-sourced framework). Legal analysis is N
 RSCF-NODE
 node_id: amos-risk-constraint-governor
 node_type: skill
-path: 07_SKILLS/amos-risk-constraint-governor/SKILL.md
+path: 07_SKILLS/amos-risk-constraint-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

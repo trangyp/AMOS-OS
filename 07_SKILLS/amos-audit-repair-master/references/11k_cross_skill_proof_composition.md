@@ -197,11 +197,11 @@ REQUIRED_PROOF_CLOSURE[
     capabil
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

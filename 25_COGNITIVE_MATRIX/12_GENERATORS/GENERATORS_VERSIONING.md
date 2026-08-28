@@ -1983,7 +1983,7 @@ unless additional validation establishes correctness.
 
 ---
 
-# 86. GENERATED CANON
+# 86. GENERATED [[CANON]]
 
 Generators may produce candidate canonical artifacts.
 
@@ -2004,7 +2004,7 @@ ADMISSION
 
 ---
 
-# 87. GENERATION ≠ CANON ADMISSION
+# 87. GENERATION ≠ [[CANON]] ADMISSION
 
 This firewall is mandatory:
 
@@ -2016,7 +2016,7 @@ CANONICAL STATUS
 
 ---
 
-# 88. CANON GENERATOR VERSION PINNING
+# 88. [[CANON]] GENERATOR VERSION PINNING
 
 Canonical artifacts produced by generators should preserve the concrete
 generator version that produced them.
@@ -2040,7 +2040,7 @@ It must not automatically overwrite existing canon.
 
 ---
 
-# 90. REGENERATION WORKFLOW
+# 90. REGENERATION [[WORKFLOW]]
 
 ```text
 EXISTING ARTIFACT
@@ -2274,7 +2274,7 @@ RollbackManifest:
 
 ---
 
-# 104. VERSION REVOCATION
+# 104. VERSION [[REVOCATION]]
 
 A release may require emergency revocation for:
 
@@ -2298,7 +2298,7 @@ SCOPE LEAK
 
 ---
 
-# 105. REVOCATION PROPAGATION
+# 105. [[REVOCATION]] PROPAGATION
 
 Revocation should identify affected descendants.
 
@@ -3117,7 +3117,7 @@ without validating the provenance channel where stakes require it.
 
 ---
 
-# 151. VALIDATION SUITE
+# 151. [[VALIDATION]] SUITE
 
 A generator release should have a version-specific validation suite.
 
@@ -3757,7 +3757,7 @@ of the effective generation envelope.
 
 ---
 
-# 189. CANON EPOCH
+# 189. [[CANON]] EPOCH
 
 Canonical generator output should bind the canon epoch or equivalent
 authoritative-state version when canon state materially influences generation.
@@ -4824,7 +4824,7 @@ These should be evaluated against a coherent state before final commit.
 
 ---
 
-# 226. GMEF INTEGRATION
+# 226. GMEF [[INTEGRATION]]
 
 Generator evolution enters governed evolution when it changes:
 
@@ -5472,7 +5472,7 @@ VERSION CERTAINTY.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
@@ -5484,7 +5484,7 @@ node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VERSIONING.md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: AMOS_RSCF_NODES
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
 
 ---

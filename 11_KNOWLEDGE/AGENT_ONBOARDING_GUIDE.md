@@ -467,7 +467,7 @@ They are preserved as the historical slice registry.
 
 ---
 
-# 9. SLICE VALIDATION STATE
+# 9. SLICE [[VALIDATION]] STATE
 
 Do not equate:
 
@@ -548,7 +548,7 @@ load-bearing M/L evidence.
 
 ---
 
-# 11. GOVERNANCE ARCHITECTURE
+# 11. GOVERNANCE [[ARCHITECTURE]]
 
 Historical source components:
 
@@ -574,7 +574,7 @@ AUDIT
 
 ---
 
-# 12. MEMORY GOVERNANCE
+# 12. [[MEMORY]] GOVERNANCE
 
 Memory is persistent state, not truth.
 
@@ -684,7 +684,7 @@ independent validation
 
 ---
 
-# 16. STANDARD INTEGRATION PATTERN
+# 16. STANDARD [[INTEGRATION]] PATTERN
 
 The historical guide contains placeholder integration such as:
 
@@ -713,7 +713,7 @@ cannot count as integration.
 
 ---
 
-# 17. GOVERNED INTEGRATION CONTRACT
+# 17. GOVERNED [[INTEGRATION]] CONTRACT
 
 Use the actual repository APIs.
 
@@ -1396,7 +1396,7 @@ until recovered from authoritative source.
 
 ---
 
-# 42. MEMORY GOVERNANCE VALIDATION
+# 42. [[MEMORY]] GOVERNANCE [[VALIDATION]]
 
 Minimum tests:
 
@@ -1413,7 +1413,7 @@ M08 rollback
 
 ---
 
-# 43. POLICY GATE VALIDATION
+# 43. POLICY GATE [[VALIDATION]]
 
 Minimum:
 
@@ -1479,7 +1479,7 @@ It MUST NOT classify builds solely from filenames or documentation claims.
 
 ---
 
-# 46. INTEGRATION STATUS REPORTER
+# 46. [[INTEGRATION]] STATUS REPORTER
 
 Status reporting is downstream of evidence.
 
@@ -1540,7 +1540,7 @@ ProductionPathUsesIt
 
 ---
 
-# 48. INTEGRATION INVARIANT
+# 48. [[INTEGRATION]] INVARIANT
 
 ```text
 Integrated(component)
@@ -1962,7 +1962,7 @@ class = HYPOTHESIS
 
 ---
 
-# 64. TROUBLESHOOTING WORKFLOW
+# 64. TROUBLESHOOTING [[WORKFLOW]]
 
 ## Component unavailable
 
@@ -2419,7 +2419,7 @@ CALL VERIFIED
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

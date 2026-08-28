@@ -154,7 +154,7 @@ This applies to the currently declared family folders:
 
 `16_MODE_TEMPLATE` is the expanded contract template and contains the reserved slots for:
 
-- README
+- [[README]]
 - MODE_SPEC
 - PURPOSE_SCOPE
 - ACTIVATION_RULES
@@ -170,7 +170,7 @@ This applies to the currently declared family folders:
 - SAFETY_GATES
 - GOVERNANCE
 - PROVENANCE
-- VALIDATION
+- [[VALIDATION]]
 - BENCHMARKS
 - FAILURE_RECOVERY
 - OBSERVABILITY

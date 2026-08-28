@@ -382,7 +382,7 @@ $$
 
 Those definitions should be retrieved from:
 
-`[[TRANG_REALITY_ARCHITECTURE_MASTER]]`
+``
 
 when exact interpretation matters.
 
@@ -570,7 +570,7 @@ The matrix does not independently define:
 - (e);
 - (\\tau\_{bio}).
 
-Retrieve `[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]` for exact semantics.
+Retrieve `` for exact semantics.
 
 ---
 
@@ -672,7 +672,7 @@ but does not define each cycle.
 
 Retrieve:
 
-`[[TSS_SEVEN_CYCLES]]`
+``
 
 for the exact cycle model.
 
@@ -860,7 +860,7 @@ are not defined by this matrix.
 
 The artifact explicitly links:
 
-`[[HERITAGE_PROVENANCE]]`.
+``.
 
 That is the appropriate dependency for exact ancestry/provenance semantics.
 
@@ -3063,38 +3063,38 @@ AUTHORITATIVE CONTRADICTION APPEARS
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: ""
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
-
-  - GROUNDED_BY:
-      "[[11_KNOWLEDGE_MOC]]"
+  - PART_OF: ""
 
   - GROUNDED_BY:
-      "[[TSS_THE_TRANG_SYSTEM]]"
+      ""
 
   - GROUNDED_BY:
-      "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+      ""
+
+  - GROUNDED_BY:
+      ""
 
   - CONNECTS_TO:
-      "[[_MOC]]"
+      ""
 
   - CONNECTS_TO:
-      "[[TRANG_REALITY_ARCHITECTURE_MASTER]]"
+      ""
 
   - CONNECTS_TO:
-      "[[KHUNG_TRANG_MASTER]]"
+      ""
 
   - CONNECTS_TO:
-      "[[TSS_SEVEN_CYCLES]]"
+      ""
 
   - CONNECTS_TO:
-      "[[TPE_TRANG_PREDICTION_ENGINE]]"
+      ""
 
   - CONNECTS_TO:
-      "[[HERITAGE_PROVENANCE]]"
+      ""
 
   - DEFINES:
       MASTER_FRAMEWORK_CONVERGENCE_GRID
@@ -3130,23 +3130,23 @@ RSCF_RELATIONS:
       FAIL_CLOSED_GATED
 
   - RELATED_TO:
-      - "[[TOTAL_ENGINE_MATRIX]]"
-      - "[[TOTAL_CANON_MATRIX]]"
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_CANON]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
       - "K_FRAMEWORKS"
-      - "[[K_CONTROL_PLANE]]"
-      - "[[K_PROVENANCE]]"
-      - "[[K_PROVENANCE_TOPOLOGY]]"
-      - "[[K_FAIL_CLOSED]]"
-      - "[[K_AUTHORITY]]"
-      - "[[K_GOVERNANCE]]"
-      - "[[K_ANTI_AUTOPOISONING]]"
-      - "[[K_GOVERNED_EVOLUTION]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      ""
 ```
 
 ---
@@ -3430,7 +3430,7 @@ The decisive integrity boundaries are:
 
 **THE NINE ROWS ARE THE FRAMEWORKS REPRESENTED BY THIS MATRIX; THIS ARTIFACT ALONE DOES NOT PROVE THAT NO OTHER FRAMEWORK EXISTS ELSEWHERE IN THE AMOS CORPUS.**
 
-**FRAMEWORKS, ENGINES, CANON LAWS, AND PLANES ARE DISTINCT ARCHITECTURAL OBJECTS.**
+**FRAMEWORKS, ENGINES, [[CANON]] LAWS, AND PLANES ARE DISTINCT ARCHITECTURAL OBJECTS.**
 
 **SHARED TARGET PLANES DO NOT MAKE FRAMEWORKS IDENTICAL.**
 
@@ -3448,7 +3448,7 @@ The decisive integrity boundaries are:
 
 **TSS'S COLLAPSE RELATION REMAINS A SOURCE MODEL AND MUST NOT BE PRESENTED AS A CALIBRATED REAL-WORLD PROBABILITY WITHOUT EVIDENCE.**
 
-**TPE'S PREDICTIVE ARCHITECTURE DOES NOT ITSELF ESTABLISH FORECAST ACCURACY.**
+**TPE'S PREDICTIVE [[ARCHITECTURE]] DOES NOT ITSELF ESTABLISH FORECAST ACCURACY.**
 
 **HERITAGE'S SYBIL QUARANTINE PROVIDES SOURCE-DEFINED PROVENANCE GOVERNANCE, NOT AN INDEPENDENT SECURITY PROOF.**
 
@@ -3527,7 +3527,7 @@ The deepest compression is:
 
 $$
 \boxed{
-CANON
+[[CANON]]
 \neq
 FRAMEWORK
 \neq
@@ -3635,9 +3635,9 @@ RSCF-RELATIONS:
 
 - ROUTES: TRANG_ZERO
 
-- ROUTES: TRANG_REALITY_ARCHITECTURE
+- ROUTES: [[TRANG_REALITY_ARCHITECTURE]]
 
-- ROUTES: KHUNG_TRANG
+- ROUTES: [[KHUNG_TRANG]]
 
 - ROUTES: UBI
 

@@ -2843,7 +2843,7 @@ uncertainty:
 Target relation:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 The source explicitly requires observability never be treated as authority.
@@ -2871,7 +2871,7 @@ APPROVED
 Target relation:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 But:
@@ -2895,7 +2895,7 @@ NOT_ESTABLISHED
 Target relation:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 But:
@@ -2913,7 +2913,7 @@ EXECUTABLE FIELD-CANON ENFORCEMENT
 Target relation:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 But:
@@ -2931,7 +2931,7 @@ VALIDATED RECOVERY IMPLEMENTATION
 Required before promotion:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
+
 ```
 
 Current:
@@ -2947,7 +2947,7 @@ NOT_ESTABLISHED
 Required before promotion:
 
 ```text
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
 ```
 
 Current:
@@ -3619,7 +3619,7 @@ Source-supported governance:
 ```text
 AMOS_COGNITIVE_FIELD_CANON
 ↓ GOVERNED_BY
-[[LAW_HIERARCHY]]
+
 ```
 
 Source-supported indexing:
@@ -3627,23 +3627,23 @@ Source-supported indexing:
 ```text
 AMOS_COGNITIVE_FIELD_CANON
 ↓ INDEXED_BY
-[[00_HOME]]
+
 
 AMOS_COGNITIVE_FIELD_CANON
 ↓ INDEXED_BY
-[[AMOS_RSCF_NODES]]
+
 ```
 
 Target integration:
 
 ```text
-[[KERNEL_README]]
 
-[[CONTROL_PLANE_README]]
 
-[[OBSERVABILITY_README]]
 
-[[OPERATIONS_README]]
+
+
+
+
 ```
 
 These are target references, not validated executable bindings.
@@ -4274,7 +4274,7 @@ PROMOTE ONLY AFTER VALIDATION
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

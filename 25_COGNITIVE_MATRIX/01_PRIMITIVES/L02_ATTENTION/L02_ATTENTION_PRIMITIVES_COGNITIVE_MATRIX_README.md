@@ -24,7 +24,7 @@ rscf:
 ---
 
 
-# L02_ATTENTION — README
+# L02_ATTENTION — [[README]]
 
 **Class:** `COGNITIVE_PRIMITIVE_CONTRACT`
 **Origin architect / steward:** Trang Phan
@@ -32,7 +32,7 @@ rscf:
 **Artifact:** `README.md`
 **Status:** `AMOS_MODEL / SOURCE-BOUNDED / UNVALIDATED`
 
-> **Canon boundary:** the available L02 material supports an attention primitive concerned with allocation/budgeting of scarce reasoning or observation resources. This README organizes that semantic core into an AMOS contract. Detailed interfaces, operators, equations, agents, workflows, thresholds, and runtime behavior remain `AMOS_MODEL` unless separately grounded in direct canon or executable evidence.
+> **Canon boundary:** the available L02 material supports an attention primitive concerned with allocation/budgeting of scarce reasoning or observation resources. This [[README]] organizes that semantic core into an AMOS contract. Detailed interfaces, operators, equations, agents, workflows, thresholds, and runtime behavior remain `AMOS_MODEL` unless separately grounded in direct canon or executable evidence.
 
 ---
 
@@ -1115,7 +1115,7 @@ Tests remain `UNEXECUTED` unless actual validator evidence exists.
 
 # 23. Falsifiers
 
-This README must be revised if evidence establishes that:
+This [[README]] must be revised if evidence establishes that:
 
 ```text
 L02 is not an attention primitive.
@@ -1257,7 +1257,7 @@ L02_ATTENTION/
 └── TESTS.md
 ```
 
-README role:
+[[README]] role:
 
 ```text
 README
@@ -1604,7 +1604,7 @@ Cosmo_Brain_BRIDGE_INDEX
 
 ---
 
-# 31. Governing README Contract
+# 31. Governing [[README]] Contract
 
 > **`L02_ATTENTION` is the AMOS cognitive primitive for bounded allocation of scarce reasoning and observation resources. It converts a candidate cognitive field into a governed focus/allocation state while preserving objectives, hard constraints, dependency structure, provenance, scope, regime, freshness, H/M/L identity, uncertainty, and authority boundaries. Attention may determine what receives processing, but it cannot by itself establish truth, evidence, causation, confidence, authority, implementation, validation, or commit eligibility.**
 
@@ -1727,7 +1727,7 @@ AUTHORIZATION TO COMMIT
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

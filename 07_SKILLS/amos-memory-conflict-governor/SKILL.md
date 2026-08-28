@@ -207,9 +207,9 @@ Memory conflict governance is an operational construct. It does not prove all co
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-memory-conflict-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-memory-systems-master` — parent skill
-- `[[amos-memory-conflict-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-memory-conflict-governor-agent` — corresponding agent
 ---
 
@@ -223,7 +223,7 @@ Memory conflict governance is an operational construct. It does not prove all co
 RSCF-NODE
 node_id: amos-memory-conflict-governor
 node_type: skill
-path: 07_SKILLS/amos-memory-conflict-governor/SKILL.md
+path: 07_SKILLS/amos-memory-conflict-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

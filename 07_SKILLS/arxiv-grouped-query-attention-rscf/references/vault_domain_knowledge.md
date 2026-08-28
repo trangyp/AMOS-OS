@@ -150,7 +150,7 @@ captures transitions. The `transition_mode()` method now appends a
 - 2026-08-23 Brain Integrity Restoration Audit Report
 - amos conversation snapshot
 - Tech Architecture Model
-- 7PT TIME CANON
+- 7PT TIME [[CANON]]
 - Neurotransmitter Map — Complete Human System
 - AMOS Brain Engine Specs
 - ABSOLUTE OMNIVERSE U∞ root4
@@ -159,21 +159,21 @@ captures transitions. The `transition_mode()` method now appends a
 - OS Masterfile Model
 - Mechanical Structural Model
 - The Biological Science Behind Buddhas Teachings
-- 7PT ADAPTATION CANON
+- 7PT ADAPTATION [[CANON]]
 - Coding Engine Model
 - NeuroSyncAI Dual-System Architecture for Biological Recovery and Integrity Enforcement
 - Absolute Omniverse Model
 - Physics Cosmos Model
 - Human Interaction Engine Model
 - Unified Biological Intelligence (UBI) A New Infrastructure for Intelligence
-- 7PT TERMINATION CANON
+- 7PT TERMINATION [[CANON]]
 - 2026-08-23 Hermes-Only Skills Report
 - Society Culture Model
 - Reasoning kernel
 - [[2026_08_22_AMOS_GO_BOARD_19X19_FORMAL_SYSTEM]]
 - NeuroSyncAI as Certifiable Intelligence Infrastructure
 - AMOS China Engines Model
-- 7PT FLOW CANON
+- 7PT FLOW [[CANON]]
 - [[2026_08_22_BRAIN_INVENTORY]]
 - Policy Geostrategy Model
 - C401–C500 System Dynamics Constraints
@@ -460,7 +460,7 @@ structural abstraction
 rscf/P-
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 ```
 ---
 

@@ -138,7 +138,7 @@ tags:
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c01 specialization is needed
+- **Parent**: `` — routes to this skill when c01 specialization is needed
 - **Peers**: Other skills in the `c01` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -251,10 +251,10 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 - `references/trang_fpr.md` — loaded on demand
 - `references/universal_reasoning_framework.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-c01-meta-logic-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
-- `[[amos-c01-meta-logic-master-workflow]]` — corresponding workflow
-- `[[amos-c01-meta-logic-master-agent]]` — corresponding agent
+- `` — skill Map of Content
+- `` — parent skill
+- `` — corresponding workflow
+- `` — corresponding agent
 
 
 ## Do not use

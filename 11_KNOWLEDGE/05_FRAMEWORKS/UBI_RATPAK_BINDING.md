@@ -57,9 +57,9 @@ epistemic_boundary:
 ---
 
 
-# UBI-RATPAK Binding
+# UBI-[[RATPAK]] Binding
 
-`UBI_RATPAK_BINDING.md` is the canonical Knowledge Plane reference artifact for the **UBI-RATPAK Binding** within `11_KNOWLEDGE/05_FRAMEWORKS`.
+`UBI_RATPAK_BINDING.md` is the canonical Knowledge Plane reference artifact for the **UBI-[[RATPAK]] Binding** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
 It formalizes the relational packaging schemas that serialize multi-channel continuous biological telemetry (NBI, NEI, SI, BEI) into high-efficiency [[RATPAK]] payloads.
 
@@ -76,7 +76,7 @@ It formalizes the relational packaging schemas that serialize multi-channel cont
 # 2. Inter-Plane & Vault Connections
 
 - **Biological Master:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-- **RATPAK Master:** [[RATPAK]]
+- **[[RATPAK]] Master:** [[RATPAK]]
 - **Wearable Sensors:** [[UBI_WEARABLE_FRAMEWORK]]
 
 ---

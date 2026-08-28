@@ -128,11 +128,11 @@ python goal_driven_ai_architecture_generator_v2.py generate \
 python goal_driven_ai_architecture_ge
 
 ---
-**Links:** [[07_SKILLS_MOC]]
+**Links:** 
 
 ## Related
 
-- [[mckinsey-architecture-reference-transfer-rscf_MOC]]
+- 
 ```
 
 ## Examples
@@ -213,9 +213,9 @@ python goal_driven_ai_architecture_ge
 
 - `references/mckinsey-architecture-reference-transfer-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[mckinsey-architecture-reference-transfer-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[mckinsey-architecture-reference-transfer-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `mckinsey-architecture-reference-transfer-rscf-agent` — corresponding agent
 ---
 
@@ -229,7 +229,7 @@ python goal_driven_ai_architecture_ge
 RSCF-NODE
 node_id: mckinsey-architecture-reference-transfer-rscf
 node_type: skill
-path: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/SKILL.md
+path: 07_SKILLS/mckinsey-architecture-reference-transfer-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

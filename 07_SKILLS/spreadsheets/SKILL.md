@@ -206,9 +206,9 @@ This utility skill is an operational tool. It does not prove content correctness
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[spreadsheets_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c10-tech-engineering-master` — parent skill
-- `[[spreadsheets-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `spreadsheets-agent` — corresponding agent
 ---
 
@@ -222,7 +222,7 @@ This utility skill is an operational tool. It does not prove content correctness
 RSCF-NODE
 node_id: spreadsheets
 node_type: skill
-path: 07_SKILLS/spreadsheets/SKILL.md
+path: 07_SKILLS/spreadsheets/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

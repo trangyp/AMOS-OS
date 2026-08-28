@@ -17,7 +17,7 @@ rscf:
 # amos-causal-reasoning-master — Vault-Sourced Domain Knowledge
 
 > Load this reference only when detailed domain knowledge is needed.
-> This content was moved from SKILL.md for progressive loading.
+> This content was moved from [[SKILL]].md for progressive loading.
 
 ---
 
@@ -965,7 +965,7 @@ The missing counterfactual must be inferred through an appropriately justified m
 
 ---
 
-# 42. Relationship to K_COUNTERFACTUAL
+# 42. Relationship to [[K_COUNTERFACTUAL]]
 
 `K_COUNTERFACTUAL` governs the logical construction and evaluation of counterfactual branches.
 

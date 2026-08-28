@@ -201,9 +201,9 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-universal-variable-registry-rscf-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-rscf-epistemic-master` — parent skill
-- `[[amos-universal-variable-registry-rscf-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-universal-variable-registry-rscf-engine-agent` — corresponding agent
 ---
 
@@ -217,7 +217,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 RSCF-NODE
 node_id: amos-universal-variable-registry-rscf-engine
 node_type: skill
-path: 07_SKILLS/amos-universal-variable-registry-rscf-engine/SKILL.md
+path: 07_SKILLS/amos-universal-variable-registry-rscf-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

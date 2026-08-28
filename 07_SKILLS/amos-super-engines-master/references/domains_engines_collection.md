@@ -58,7 +58,7 @@ The 17 domain engines form the **application layer** of AMOS. They consume the c
 
 ### 5. AMOS_Design_Engine
 
-**Description**: Tech Engine vInfinity with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full CANON engine with QUANTUM augmentation layer.
+**Description**: Tech Engine vInfinity with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full [[CANON]] engine with QUANTUM augmentation layer.
 
 **Role**: Full-power design engine.
 

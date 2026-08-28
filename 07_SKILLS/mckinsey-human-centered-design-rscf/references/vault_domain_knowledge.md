@@ -33,7 +33,7 @@ rscf:
 - **Version**: v∞_MAX_1.0
 - **Density Level**: x1000
 - **Expansion Label**: TECH_ENGINE_vInfinity_X1000
-- **Description**: Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. Wraps full CANON engine, QUANTUM augmentation layers, and explicit benchmark matrix for covered roles.
+- **Description**: Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. Wraps full [[CANON]] engine, QUANTUM augmentation layers, and explicit benchmark matrix for covered roles.
 - **Base Engine File**: Tech_Engine_vInfinity_CANON_EXPANDED.json
 - **Coverage**: 100% conceptual structural coverage vs global best (design space covers all known dimensions/roles; numerical performance depends on data, human execution, context)
 - **Linked Super Engines**: UNIVERSE_BRAIN_SUPER_ENGINE, AMOS_OMNIVERSE_BRAIN, _AMOS_FABRICATION_LAYER, AMOS_GLOBAL_AUDIT_AND_EXPANSION_ENGINE, AMOS_SUPER_CODE_Engine_v1.6.0

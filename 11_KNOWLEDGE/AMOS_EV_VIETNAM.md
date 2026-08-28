@@ -3203,12 +3203,12 @@ hạ tầng và dữ liệu.
 Đây là cơ hội chiến lược 10 năm chỉ xảy ra 1 lần tại Việt Nam.
 
 ---
-**Related:** [[00_HOME]] · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
+**Related:**  · 06-Knowledge-Base-MOC · AMOS_Simulation_Kernel_v0_Math_Foundations · system_scan_agent · automation_profiles
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC · [[AMOS_RSCF_NODES]]
+[[00_ROOT_MOC]]|[[AMOS MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 RSCF-NODE

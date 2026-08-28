@@ -451,7 +451,7 @@ while retaining one authoritative home.
 Therefore:
 
 ```text
-MANY REFERENCES
+MANY [[REFERENCES]]
 +
 ONE AUTHORITY
 ```
@@ -821,7 +821,7 @@ depends on mutable state.
 
 L26 itself does not define causal epoch mechanics.
 
-That belongs to [[L24_CAUSAL_EPOCH]].
+That belongs to .
 
 ---
 
@@ -1795,7 +1795,7 @@ This naturally connects L26 to L22 replayability.
 
 # 67. L22 Replayability Integration
 
-[[L22_REPLAYABILITY]] can support proof verification by requiring
+ can support proof verification by requiring
 deterministic replay of valid state transitions from receipts and root
 inputs.
 
@@ -1842,7 +1842,7 @@ causal inference is valid
 
 # 69. L23 MVCC/CAS Integration
 
-[[L23_MVCC_CAS]] can protect concurrent mutation of proof state.
+ can protect concurrent mutation of proof state.
 
 Conceptually:
 
@@ -1907,7 +1907,7 @@ This is a natural L23/L26 integration.
 
 # 72. L24 Causal Epoch Integration
 
-[[L24_CAUSAL_EPOCH]] can preserve proof evolution across causal epochs.
+ can preserve proof evolution across causal epochs.
 
 Conceptually:
 
@@ -1969,7 +1969,7 @@ where causal epoch law applies.
 
 # 75. L25 Shard-Local Integration
 
-[[L25_SHARD_LOCAL]] may permit local proof validation where the proof
+ may permit local proof validation where the proof
 and all material dependencies are shard-local.
 
 Conceptually:
@@ -2070,7 +2070,7 @@ COORDINATION MAY BE AVOIDABLE
 
 # 80. Atomic Multi-RSCF Integration
 
-[[ATOMIC_MULTI_RSCF]] can use L26 when one conclusion depends on
+ can use L26 when one conclusion depends on
 multiple RSCF proof capsules.
 
 Example:
@@ -2113,7 +2113,7 @@ Exact transaction mechanics belong to the concurrency/atomicity laws.
 
 # 82. L19 Proof Capsule Integration
 
-[[L19_PROOF_CAPSULE]] provides a natural representation for coordinated
+ provides a natural representation for coordinated
 proof state.
 
 A proof capsule can carry:
@@ -3402,7 +3402,7 @@ PXC-4 directly reinforces this boundary.
 # 136. Test Report vs Test Observation
 
 ```text
-README:
+[[README]]:
 "100 tests pass"
 ```
 
@@ -4918,27 +4918,27 @@ source_established:
 
   relations:
     indexed_by:
-      - 00_HOME
-      - AMOS_RSCF_NODES
+      - [[00_HOME]]
+      - [[AMOS_RSCF_NODES]]
     child_of:
-      - LAW_HIERARCHY
+      - [[LAW_HIERARCHY]]
 
   related:
-    - 00_HOME
-    - AMOS_RSCF_NODES
-    - LAW_HIERARCHY
-    - L19_PROOF_CAPSULE
-    - L22_REPLAYABILITY
-    - L23_MVCC_CAS
-    - L24_CAUSAL_EPOCH
-    - L25_SHARD_LOCAL
-    - ATOMIC_MULTI_RSCF
+    - [[00_HOME]]
+    - [[AMOS_RSCF_NODES]]
+    - [[LAW_HIERARCHY]]
+    - [[L19_PROOF_CAPSULE]]
+    - [[L22_REPLAYABILITY]]
+    - [[L23_MVCC_CAS]]
+    - [[L24_CAUSAL_EPOCH]]
+    - [[L25_SHARD_LOCAL]]
+    - [[ATOMIC_MULTI_RSCF]]
 
   moc:
-    - 01_CORE_LAWS_MOC
+    - [[01_CORE_LAWS_MOC]]
 
   trang_framework:
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+    - [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
 ```
 
 ---
@@ -5551,7 +5551,7 @@ law to unconditional canon.
 Critical firewall:
 
 ```text
-CANON DIRECTORY
+[[CANON]] DIRECTORY
 !=
 UNCONDITIONAL CANONICAL STATUS
 ```
@@ -5992,7 +5992,7 @@ $$
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

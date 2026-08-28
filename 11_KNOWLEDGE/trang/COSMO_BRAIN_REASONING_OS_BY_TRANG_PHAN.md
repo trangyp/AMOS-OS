@@ -108,11 +108,11 @@ Target: `Cosmo Brain — Reasoning OS by Trang Phan`
 
 ## Related
 
-- [[00_COSMO_BRAIN_MOC]]
+- 
 
 ---
 
-**MOC:** [[trang_MOC]]
+**MOC:** 
 ```
 
 ---
@@ -241,14 +241,14 @@ B. Missing target
    "Cosmo Brain — Reasoning OS by Trang Phan"
 
 C. Cosmo Brain MOC
-   [[00_COSMO_BRAIN_MOC]]
+   
 ```
 
 Additionally:
 
 ```text
 D. Trang MOC
-   [[trang_MOC]]
+   
 ```
 
 indexes or contextualizes the bridge.
@@ -463,7 +463,7 @@ Target: `Cosmo Brain — Reasoning OS by Trang Phan`
 rather than:
 
 ```text
-Target: [[Cosmo Brain — Reasoning OS by Trang Phan]]
+Target: 
 ```
 
 Yet the warning describes it as a wikilink.
@@ -493,7 +493,7 @@ DERIVED / CONDITIONAL
 Because the source deliberately presents the target in code formatting, a canonical reconstruction should not silently replace it with:
 
 ```text
-[[Cosmo Brain — Reasoning OS by Trang Phan]]
+
 ```
 
 unless explicitly marked as a proposed graph repair.
@@ -505,7 +505,7 @@ unless explicitly marked as a proposed graph repair.
 If desired for Obsidian resolution workflows:
 
 ```markdown
-Target candidate: [[Cosmo Brain — Reasoning OS by Trang Phan]]
+Target candidate: 
 ```
 
 should be marked:
@@ -523,7 +523,7 @@ not source-original.
 Source relation:
 
 ```text
-[[00_COSMO_BRAIN_MOC]]
+
 ```
 
 This is explicitly grounded.
@@ -543,7 +543,7 @@ Bridge
 Source:
 
 ```text
-MOC: [[trang_MOC]]
+MOC: 
 ```
 
 Safe relation:
@@ -571,7 +571,7 @@ from:
 
 ```text
 Related:
-[[00_COSMO_BRAIN_MOC]]
+
 ```
 
 Therefore:
@@ -1722,7 +1722,7 @@ The gap does not invalidate unrelated information.
 For example:
 
 ```text
-[[00_COSMO_BRAIN_MOC]] relation
+ relation
 ```
 
 remains source-grounded.
@@ -2306,12 +2306,12 @@ This contextualizes the bridge within Trang-related corpus material.
 Source-grounded topology:
 
 ```text
-[[trang_MOC]]
+
       │
       ▼
 Bridge to Cosmo Brain — Reasoning OS by Trang Phan
       │
-      ├── Related → [[00_COSMO_BRAIN_MOC]]
+      ├── Related → 
       │
       └── Target → "Cosmo Brain — Reasoning OS by Trang Phan"
                         │
@@ -2404,10 +2404,10 @@ graph:
 
   edges:
     - relation: RELATED_TO
-      target: "[[00_COSMO_BRAIN_MOC]]"
+      target: ""
 
     - relation: INDEXED_BY
-      target: "[[trang_MOC]]"
+      target: ""
 
     - relation: BRIDGES_TO_MISSING
       target: "Cosmo Brain — Reasoning OS by Trang Phan"
@@ -2438,8 +2438,8 @@ RSCF-NODE:
     preserve_graph_integrity
 
   RSCF-RELATIONS:
-    - RELATED_TO: "[[00_COSMO_BRAIN_MOC]]"
-    - INDEXED_BY: "[[trang_MOC]]"
+    - RELATED_TO: ""
+    - INDEXED_BY: ""
     - BRIDGES_TO_MISSING: "Cosmo Brain — Reasoning OS by Trang Phan"
 ```
 
@@ -2665,9 +2665,9 @@ target content is not invented
 PASS iff:
 
 ```text
-[[00_COSMO_BRAIN_MOC]]
+
 and
-[[trang_MOC]]
+
 remain distinguishable
 ```
 
@@ -2840,7 +2840,7 @@ FAIL without identity evidence.
 Incorrect:
 
 ```text
-[[00_COSMO_BRAIN_MOC]] is the missing target.
+ is the missing target.
 ```
 
 FAIL.
@@ -3165,7 +3165,7 @@ SORT file.name ASC
 ```dataview
 LIST
 FROM "11_KNOWLEDGE"
-WHERE contains(file.outlinks, [[00_COSMO_BRAIN_MOC]])
+WHERE contains(file.outlinks, )
 SORT file.name ASC
 ```
 
@@ -3211,7 +3211,7 @@ Target: `<expected target>`
 
 ## Related
 
-- [[Relevant_MOC]]
+- 
 ```
 
 This is a reusable **PROPOSED** template, not source canon.
@@ -3416,7 +3416,7 @@ A bridge could then carry:
 
 resolution:
   state: RESOLVED
-  resolved_target: "[[...]]"
+  resolved_target: ""
   original_gap_date: 2026-08-26
   resolved_date: "<date>"
 ```
@@ -3920,9 +3920,9 @@ bridge:
   audit_date: 2026-08-26
   reason_for_retention: graph_integrity
   related:
-    - "[[00_COSMO_BRAIN_MOC]]"
+    - ""
   moc:
-    - "[[trang_MOC]]"
+    - ""
 ```
 
 DERIVED compression.
@@ -4222,10 +4222,10 @@ BRIDGE_TO_COSMO_BRAIN_REASONING_OS:
   source_relations:
 
     related:
-      - "[[00_COSMO_BRAIN_MOC]]"
+      - ""
 
     moc:
-      - "[[trang_MOC]]"
+      - ""
 
   derived_classification:
 
@@ -4273,10 +4273,10 @@ BRIDGE_TO_COSMO_BRAIN_REASONING_OS:
 ## Navigation
 
 ### MOC
-- [[trang_MOC]]
+- 
 
 ### Related
-- [[00_COSMO_BRAIN_MOC]]
+- 
 
 ### Missing Target
 - `Cosmo Brain — Reasoning OS by Trang Phan`
@@ -4434,7 +4434,7 @@ The bridge establishes four things strongly:
 2. the fact that the target was not found in the recorded audit;
 3. the decision to retain the bridge;
 4. its explicit graph relationships to
-   [[00_COSMO_BRAIN_MOC]] and [[trang_MOC]].
+    and .
 ```
 
 It does **not** establish the target's architecture, equations, version, frontmatter, epistemic class, runtime, reasoning method, dependencies, Full Brain integration, RSCF mechanics, UBI coupling, validation status, or implementation state.
@@ -4516,10 +4516,10 @@ bridge_function:
   preserve_graph_integrity
 
 related:
-  - "[[00_COSMO_BRAIN_MOC]]"
+  - ""
 
 moc:
-  - "[[trang_MOC]]"
+  - ""
 
 safe_action:
   RETAIN_GAP_UNTIL_AUTHORITATIVE_RESOLUTION

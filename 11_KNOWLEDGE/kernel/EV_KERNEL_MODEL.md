@@ -51,7 +51,7 @@ The **Unified EV Kernel** models electric vehicle infrastructure spanning strate
 
 ## Critical Safety Constraints
 - **NO LIVE CONTROL:** The engine must NEVER connect directly to live control systems, SCADA, BMS, EMS, or any hardware interface.
-- **VALIDATION REQUIRED:** All outputs must be interpreted, validated, and implemented by qualified human engineers, planners, and regulators.
+- **[[VALIDATION]] REQUIRED:** All outputs must be interpreted, validated, and implemented by qualified human engineers, planners, and regulators.
 - **NO BYPASS:** The engine must not be used to bypass local environmental, electrical, or construction regulations.
 
 ---

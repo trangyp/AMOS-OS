@@ -235,9 +235,9 @@ Benchmark results are preserved only within their tested operationalization and 
 
 - `references/asymptotic_ceiling_analysis.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-benchmark-forensics_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-benchmark-forensics-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-benchmark-forensics-agent` — corresponding agent
 ---
 
@@ -251,7 +251,7 @@ Benchmark results are preserved only within their tested operationalization and 
 RSCF-NODE
 node_id: amos-benchmark-forensics
 node_type: skill
-path: 07_SKILLS/amos-benchmark-forensics/SKILL.md
+path: 07_SKILLS/amos-benchmark-forensics/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

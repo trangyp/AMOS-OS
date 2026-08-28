@@ -160,8 +160,8 @@ Total knowledge tests: 33 (was 29, +4 new)
 
 ## Links (2)
 
-- [[COSMO_BRAIN_MOC]]
-- [[2026_08_22_AMOS_CORE_MODULE_TEST_COVERAGE]]
+- 
+- 
 
 ---
 
@@ -219,12 +219,12 @@ npm test
 
 ## Links
 
-- [[COSMO_BRAIN_MOC]]
-- [[2026_08_22_AMOS_CORE_INFRASTRUCTURE_MODULES]]
+- 
+- 
 - 2026-08-22 AMOS Structural Gap Promotion 340-347
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 ```
 
 ---

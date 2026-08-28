@@ -48,7 +48,7 @@ rscf:
 
 `GENERATORS_INTEGRATION.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
 
-It reserves the canonical slot for the AMOS framework family named **GENERATORS INTEGRATION**.
+It reserves the canonical slot for the AMOS framework family named **GENERATORS [[INTEGRATION]]**.
 
 The artifact is presently:
 
@@ -3841,7 +3841,7 @@ NON_AUTHORITATIVE
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ## Related
 
@@ -3906,7 +3906,7 @@ That keeps the Generator subsystem integrated with AMOS infrastructure without t
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:**  · 
 
 ---
 RSCF-NODE
@@ -3914,11 +3914,11 @@ node_id: generators_integration
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_INTEGRATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
+  - INDEXED_BY: 
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** 
 
 ```

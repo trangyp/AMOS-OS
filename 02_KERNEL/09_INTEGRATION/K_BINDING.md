@@ -3162,9 +3162,9 @@ ALIASES ·
 [[K_REPAIR_PRIORITY]] ·
 [[K_REPAIR_HARM]] ·
 [[README]] ·
-README ·
 [[README]] ·
-README
+[[README]] ·
+[[README]]
 
 ```text
 
@@ -3173,7 +3173,7 @@ README
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

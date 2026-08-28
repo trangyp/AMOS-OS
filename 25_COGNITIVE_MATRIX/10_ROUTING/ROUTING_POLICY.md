@@ -222,7 +222,7 @@ tags:
     - GMEF
     - HML
     - FRACTAL_KNOWLEDGE_NETWORK
-    - [[L19_PROOF_CAPSULE]]
+    - 
     - ADAPTIVE_COMPLEXITY
     - COMPETING_HYPOTHESES
     - UNCERTAINTY_VECTOR
@@ -332,7 +332,7 @@ ELIGIBLE ROUTES
     ↓
 BINDING
     ↓
-VALIDATION
+[[VALIDATION]]
     ↓
 AUTHORITY / CONTROL PLANE
 ```
@@ -1935,7 +1935,7 @@ SOFT_PREFERENCES_EVALUATED
     ↓
 CONFLICTS_CHECKED
     ↓
-POLICY_DECISION
+[[POLICY_DECISION]]
 ```
 
 ---
@@ -1951,7 +1951,7 @@ ROUTING POLICY
     ↓
 BINDING
     ↓
-VALIDATION
+[[VALIDATION]]
     ↓
 AUTHORITY
     ↓
@@ -2221,7 +2221,7 @@ A routing policy version should not become active because a file exists.
 
 ```text
 POLICY_CANDIDATE
-→ VALIDATION
+→ [[VALIDATION]]
 → PROMOTION GATES
 → AUTHORITY
 → ACTIVE POLICY
@@ -2256,7 +2256,7 @@ rscf:
   load_bearing_premises:
     - authoritative routing policy canon recovered
     - active policy epoch known
-    - routing README accepted
+    - routing [[README]] accepted
     - binding rules accepted
     - mode registry recovered
     - component registries recovered
@@ -2264,17 +2264,17 @@ rscf:
     - policy tests executed
 
   dependencies:
-    - AUTHORITATIVE_STATE
-    - 10_ROUTING/README.md
-    - 10_ROUTING/BINDING_RULES.md
-    - 10_ROUTING/ROUTING_AUDIT.md
-    - MODE_REGISTRY
+    - [[AUTHORITATIVE_STATE]]
+    - 10_ROUTING/[[README]].md
+    - 10_ROUTING/[[BINDING_RULES]].md
+    - 10_ROUTING/[[ROUTING_AUDIT]].md
+    - [[MODE_REGISTRY]]
     - CAPABILITY_REGISTRY
     - POLICY_MANIFEST
-    - AUTHORITY_REGISTRY
+    - [[AUTHORITY_REGISTRY]]
     - PROVENANCE_MANIFEST
     - 11_VALIDATION
-    - 11_VALIDATION/PROMOTION_GATES.md
+    - 11_VALIDATION/[[PROMOTION_GATES]].md
 
   competing:
     - authoritative routing policy may exist elsewhere
@@ -2679,11 +2679,11 @@ source_canon:
     - RSCF
     - GMEF
     - HML
-    - FRACTAL_KNOWLEDGE_NETWORK
+    - [[FRACTAL_KNOWLEDGE_NETWORK]]
     - COMPETING_HYPOTHESES
     - PROVENANCE_TOPOLOGY
-    - MVCC_CAS
-    - PROOF_BASED_COORDINATION_AVOIDANCE
+    - [[MVCC_CAS]]
+    - [[PROOF_BASED_COORDINATION_AVOIDANCE]]
 
   authoritative_routing_policy_source:
     status: UNKNOWN/GAP
@@ -2698,15 +2698,15 @@ The Full Brain OS source is the primary canon source for this Skill, but preserv
 ```text
 ROUTING_POLICY
 │
-├── 10_ROUTING/README.md
-├── 10_ROUTING/BINDING_RULES.md
-├── 10_ROUTING/ROUTING_AUDIT.md
+├── 10_ROUTING/[[README]].md
+├── 10_ROUTING/[[BINDING_RULES]].md
+├── 10_ROUTING/[[ROUTING_AUDIT]].md
 │
-├── MODE_REGISTRY
+├── [[MODE_REGISTRY]]
 ├── CAPABILITY_REGISTRY
 ├── COMPONENT_REGISTRIES
 │   ├── AGENT
-│   ├── SKILL
+│   ├── [[SKILL]]
 │   ├── ENGINE
 │   ├── KERNEL
 │   ├── WORKER
@@ -2714,11 +2714,11 @@ ROUTING_POLICY
 │   └── GENERATOR
 │
 ├── 11_VALIDATION
-├── 11_VALIDATION/PROMOTION_GATES.md
+├── 11_VALIDATION/[[PROMOTION_GATES]].md
 ├── POLICY_MANIFEST
-├── AUTHORITY_REGISTRY
+├── [[AUTHORITY_REGISTRY]]
 ├── PROVENANCE_MANIFEST
-├── AUTHORITATIVE_STATE
+├── [[AUTHORITATIVE_STATE]]
 ├── EVENT_BUS
 └── STATE_STORE
 ```
@@ -2735,30 +2735,30 @@ related:
     - 10_ROUTING
 
   routing:
-    - 10_ROUTING/README.md
-    - 10_ROUTING/BINDING_RULES.md
-    - 10_ROUTING/ROUTING_AUDIT.md
+    - 10_ROUTING/[[README]].md
+    - 10_ROUTING/[[BINDING_RULES]].md
+    - 10_ROUTING/[[ROUTING_AUDIT]].md
     - ROUTER_REGISTRY
     - ROUTE_RECEIPTS
     - ROUTING_PROTOCOLS
 
   matrix:
-    - MODE_REGISTRY
+    - [[MODE_REGISTRY]]
     - CELL_REGISTRY
     - CELL_CONTRACTS
     - STRUCTURAL_GAPS
 
   validation:
-    - 11_VALIDATION/README.md
-    - 11_VALIDATION/PROMOTION_GATES.md
+    - 11_VALIDATION/[[README]].md
+    - 11_VALIDATION/[[PROMOTION_GATES]].md
 
   generators:
-    - 12_GENERATORS/GENERATOR_CONTRACT.md
+    - 12_GENERATORS/[[GENERATOR_CONTRACT]].md
 
   governance:
-    - AUTHORITATIVE_STATE.md
+    - [[AUTHORITATIVE_STATE]].md
     - POLICY_MANIFEST
-    - AUTHORITY_REGISTRY
+    - [[AUTHORITY_REGISTRY]]
     - PROVENANCE_MANIFEST
     - SUPERSESSION_REGISTRY
     - ROLLBACK_MANIFEST
@@ -3127,7 +3127,7 @@ This version makes `ROUTING_POLICY.md` the **policy layer above route selection 
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:**  ·  · 
 
 ---
 RSCF-NODE
@@ -3135,12 +3135,12 @@ node_id: routing_policy
 node_type: note
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
   - INDEXED_BY: AMOS_RSCF_NODES
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[10_ROUTING_MOC]]
+**MOC:** 
 ```
 
 ---

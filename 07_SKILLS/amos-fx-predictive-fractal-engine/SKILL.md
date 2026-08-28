@@ -199,9 +199,9 @@ FX predictive fractal engine is an analytical model. It does not prove fractal p
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-fx-predictive-fractal-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `[[amos-fx-predictive-fractal-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-fx-predictive-fractal-engine-agent` — corresponding agent
 ---
 
@@ -215,7 +215,7 @@ FX predictive fractal engine is an analytical model. It does not prove fractal p
 RSCF-NODE
 node_id: amos-fx-predictive-fractal-engine
 node_type: skill
-path: 07_SKILLS/amos-fx-predictive-fractal-engine/SKILL.md
+path: 07_SKILLS/amos-fx-predictive-fractal-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

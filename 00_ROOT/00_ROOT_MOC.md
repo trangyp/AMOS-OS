@@ -1999,7 +1999,7 @@ confidence_ceiling:
 * escaped 6 math notation false-positive wiki-links in arxiv paper (formal power series double-brackets → backslash-escaped);
 * fixed 4 stale MOC descriptions (bridge count 2,844→8,253, arXiv count 66,042→66,028/68,367);
 * vault-wide: 0 unindexed, 0 unclassified, 0 orphans, 0 stale entries, 0 broken links;
-* fixed external Cosmo_Brain vault MOCs: 29 arXiv MOCs (66,026 paper links de-wikilinked + redirect notices), 00-Home.md (2,304 agent refs de-wikilinked, 2 path-fixed to .json), 02-Skills-MOC.md (772 de-wikilinked, 6 path-fixed to SKILL.md), 147 remaining MOCs (9 case-fixed, 647 de-wikilinked) — total 69,759 broken links → 0 real broken links.
+* fixed external Cosmo_Brain vault MOCs: 29 arXiv MOCs (66,026 paper links de-wikilinked + redirect notices), 00-Home.md (2,304 agent refs de-wikilinked, 2 path-fixed to .json), 02-Skills-MOC.md (772 de-wikilinked, 6 path-fixed to [[SKILL]].md), 147 remaining MOCs (9 case-fixed, 647 de-wikilinked) — total 69,759 broken links → 0 real broken links.
 
 ## v2.0.0 — 2026-08-25
 

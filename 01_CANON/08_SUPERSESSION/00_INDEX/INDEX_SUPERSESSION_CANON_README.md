@@ -12,7 +12,7 @@ rscf:
   scope: index_navigation
 ---
 
-# INDEX SUPERSESSION CANON README
+# INDEX SUPERSESSION [[CANON]] [[README]]
 
 ## 1. Purpose
 
@@ -181,7 +181,7 @@ LAW_HIERARCHY
 SUPERSESSION_CANON_SUPERSESSION_CONTRACT
 SUPERSESSION_MAP
 AMOS_RSCF_NODES
-[[00_HOME]]
+
 ```
 
 Where these references disagree, the index must not silently choose a winner.
@@ -282,7 +282,7 @@ directory-local candidate set
 Cross-plane resolution must proceed through canonical navigation structures:
 
 ```text
-[[00_HOME]]
+
         +
 AMOS_RSCF_NODES
 ```
@@ -520,7 +520,7 @@ REGISTER_GAP(gap)
 EMIT_RESOLUTION_RECEIPT(result)
 ```
 
-Mutation operators belong to governed supersession/control-plane paths and are not granted by this README.
+Mutation operators belong to governed supersession/control-plane paths and are not granted by this [[README]].
 
 ---
 
@@ -686,7 +686,7 @@ no authoritative supersession state becomes visible
 
 This is a model-level integrity requirement.
 
-It does not assert that this README implements distributed atomic transactions.
+It does not assert that this [[README]] implements distributed atomic transactions.
 
 ---
 
@@ -1746,7 +1746,7 @@ Before this artifact or its executable bindings are promoted beyond conditional 
 
 Governed by:
 
-LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+[[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 
 The supersession index cannot supersede higher-order law merely by recording an edge.
 
@@ -1821,7 +1821,7 @@ until repaired.
 
 # 50. Supersession map semantics
 
-`[[SUPERSESSION_MAP]]` should represent lineage relationships without becoming the sole proof of those relationships.
+`` should represent lineage relationships without becoming the sole proof of those relationships.
 
 Conceptually:
 
@@ -1959,7 +1959,7 @@ These boundaries are load-bearing.
 
 # 55. Canonical index contract
 
-The operational meaning of this README can be compressed to:
+The operational meaning of this [[README]] can be compressed to:
 
 ```text
 RESOLVE EXACTLY
@@ -2067,7 +2067,7 @@ path: 01_CANON/08_SUPERSESSION/00_INDEX/INDEX_SUPERSESSION_CANON_README.md
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
   - INDEXED_BY: AMOS_RSCF_NODES
 
   - GOVERNED_BY: LAW_HIERARCHY
@@ -2107,7 +2107,7 @@ The artifact is therefore suitable as a **full AMOS supersession index specifica
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

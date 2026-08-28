@@ -14,10 +14,10 @@ rscf:
 ---
 
 
-# VALIDATION RESEARCH VALIDATION CONTRACT
+# [[VALIDATION]] RESEARCH [[VALIDATION]] CONTRACT
 
 ## 0. Status
-Research-plane contract for **RESEARCH VALIDATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Research-plane contract for **RESEARCH [[VALIDATION]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs research questions, experiments, competing models, validation, benchmarks as they bear on `RESEARCH VALIDATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
@@ -62,14 +62,14 @@ Given an operation touching `VALIDATION · RESEARCH VALIDATION CONTRACT` within 
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

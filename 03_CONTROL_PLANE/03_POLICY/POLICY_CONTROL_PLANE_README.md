@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# POLICY CONTROL PLANE README
+# POLICY CONTROL PLANE [[README]]
 
 ## Purpose
 `POLICY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/03_POLICY`.

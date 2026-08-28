@@ -12,7 +12,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-# README — Readme
+# [[README]] — Readme
 
 """
 COSMO Monorepo - Production Readiness Summary
@@ -378,7 +378,7 @@ node_type: doc
 domain: DOC
 path: README.md
 RSCF-RELATIONS:
-  - INDEXED_BY: P1
+  - INDEXED_BY: 
   - RELATED_TO: AMOS_quantum_library_v0.1.0
   - RELATED_TO: PRIVACY_POLICY
 claim_class: AMOS_MODEL

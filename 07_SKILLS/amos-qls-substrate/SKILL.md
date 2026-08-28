@@ -202,9 +202,9 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-qls-substrate_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-qls-substrate-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-qls-substrate-agent` — corresponding agent
 ---
 
@@ -218,7 +218,7 @@ QLS substrate is a canon (SOURCE_CLAIM). It does not prove QLS constants are phy
 RSCF-NODE
 node_id: amos-qls-substrate
 node_type: skill
-path: 07_SKILLS/amos-qls-substrate/SKILL.md
+path: 07_SKILLS/amos-qls-substrate/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

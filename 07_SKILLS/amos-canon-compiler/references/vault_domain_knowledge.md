@@ -123,11 +123,11 @@ This is not merely a taxonomy. The source attempts to define a **reasoning and s
 
 ---
 
-### Source 2: AMOS CANON Integration Marker
+### Source 2: AMOS [[CANON]] Integration Marker
 
 > Path: `amos-general/A/CANON/AMOS CANON Integration Marker.md` | Size: 24840 chars | Match score: 10
 
-# AMOS CANON Integration Marker
+# AMOS [[CANON]] Integration Marker
 
 ## Overview
 
@@ -476,11 +476,11 @@ QUESTION_OWNER: Final = {
 class PatchR
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

@@ -178,7 +178,7 @@ A generated answer or tool proposal becomes an effect only after applicable gate
 
 ---
 
-# 2. H / M / L ARCHITECTURE
+# 2. H / M / L [[ARCHITECTURE]]
 
 ```text
 H — Agent sovereignty
@@ -226,8 +226,8 @@ AMOS separates agent cognition into explicit artifacts:
 | Cognitive burden | Correct externalization target |
 |---|---|
 | transient one-turn information | CONTEXT |
-| persistent user/system state | MEMORY |
-| reusable procedure | SKILL |
+| persistent user/system state | [[MEMORY]] |
+| reusable procedure | [[SKILL]] |
 | cross-agent/tool interaction contract | PROTOCOL |
 | deterministic computation | CODE |
 | external action interface | TOOL |
@@ -659,7 +659,7 @@ Aliases, summaries, copies, and transformations retain ancestry.
 
 ---
 
-# 16. MEMORY CONTRACT
+# 16. [[MEMORY]] CONTRACT
 
 ```yaml
 memory:
@@ -695,7 +695,7 @@ Memory must not silently authorize irreversible action.
 
 ---
 
-# 17. SKILL CONTRACT
+# 17. [[SKILL]] CONTRACT
 
 ```yaml
 skills:
@@ -1165,7 +1165,7 @@ interactions:
 
 ---
 
-# 35. VALIDATION SUITE
+# 35. [[VALIDATION]] SUITE
 
 Minimum deterministic schema tests:
 
@@ -1816,7 +1816,7 @@ The third invariant is:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -220,9 +220,9 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/boundary_identity.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-boundary-scope-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-boundary-scope-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-boundary-scope-master-agent` — corresponding agent
 ---
 
@@ -236,7 +236,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-boundary-scope-master
 node_type: skill
-path: 07_SKILLS/amos-boundary-scope-master/SKILL.md
+path: 07_SKILLS/amos-boundary-scope-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

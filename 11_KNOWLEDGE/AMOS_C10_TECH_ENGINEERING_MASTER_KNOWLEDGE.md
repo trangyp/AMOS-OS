@@ -579,10 +579,10 @@ The tech quantum engine organizes technical reasoning as layers:
 **Class:** MODEL — an AMOS reasoning structure, not a claim about physical computation.
 
 ### L2. Routing
-ROUTE_TECH (software, ai, architecture, system_design) activates K_META_LOGIC +
+ROUTE_TECH (software, ai, architecture, system_design) activates [[K_META_LOGIC]] +
 K_MATH_COMPUTE + K_TECH_ENGINE (+ K_UNIPOWER_TECH). ROUTE_DEFAULT falls back to
-K_META_LOGIC + K_MATH_COMPUTE + K_BIO_NEURO. Kernel dependencies: K_TECH_ENGINE (optional),
-K_UNIPOWER_TECH (optional), K_META_LOGIC (required), K_MATH_COMPUTE (required).
+[[K_META_LOGIC]] + K_MATH_COMPUTE + K_BIO_NEURO. Kernel dependencies: K_TECH_ENGINE (optional),
+K_UNIPOWER_TECH (optional), [[K_META_LOGIC]] (required), K_MATH_COMPUTE (required).
 
 ### L3. HML mapping for tech systems
 - **H layer**: platform viability, multi-year architecture direction, ecosystem position.
@@ -786,7 +786,7 @@ The architecture should remain open and repairable:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

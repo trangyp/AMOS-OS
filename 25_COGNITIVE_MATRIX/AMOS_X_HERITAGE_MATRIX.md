@@ -3717,18 +3717,18 @@ CONSTRAINED_BY
 RSCF_RELATIONS:
 
   INDEXED_BY:
-    - "[[00_HOME]]"
-    - "[[AMOS_RSCF_NODES]]"
+    - ""
+    - ""
 
   BELONGS_TO:
     - "25_COGNITIVE_MATRIX"
 
   GOVERNED_BY:
-    - "[[LAW_HIERARCHY]]"
+    - ""
 
   RELATED_TO:
-    - "[[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]]"
-    - "[[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]"
+    - ""
+    - ""
     - "AMOS Physics Cosmos Engine"
     - "AMOS Strategy Game Engine"
     - "AMOS Econ Finance Engine"
@@ -3925,7 +3925,7 @@ No AMOS process should replace a genuine gap with fabricated certainty.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

@@ -86,7 +86,7 @@ tags: [system]
 
 ---
 
-## **TECHNICAL ARCHITECTURE**
+## **TECHNICAL [[ARCHITECTURE]]**
 
 ### **Bridge Layer Pattern**
 - **Location**: `amos/integration/[component]_bridge.py`

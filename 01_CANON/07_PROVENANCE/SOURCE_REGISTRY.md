@@ -2852,7 +2852,7 @@ UNKNOWN/GAP.
 ## Related
 
 [[README]] ·
-00_ROOT_MOC|AMOS MOC ·
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -2874,15 +2874,15 @@ ALIASES ·
 [[AUTHORITY_CANON]] ·
 [[CONTROL_PLANE_CANON]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-README ·
-README
+[[README]] ·
+[[README]]
 
 ```text
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -214,9 +214,9 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-full-brain-os_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-super-engines-master` — parent skill
-- `[[amos-full-brain-os-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-full-brain-os-agent` — corresponding agent
 ---
 
@@ -230,7 +230,7 @@ Full Brain OS is AMOS_MODEL. The pipeline is a governance-aware demonstration, n
 RSCF-NODE
 node_id: amos-full-brain-os
 node_type: skill
-path: 07_SKILLS/amos-full-brain-os/SKILL.md
+path: 07_SKILLS/amos-full-brain-os/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

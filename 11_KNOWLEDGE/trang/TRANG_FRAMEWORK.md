@@ -265,7 +265,7 @@ x & \text{nếu } x \text{ thỏa mãn các ràng buộc} \\\
 \$$\text{Survive}(x) \iff \big( E_L(x) < 0.1 \big) \land \big( 0.1 < E_M(x) < 0.2 \big) \land \big( E_H(x) < 0.3 \big)
 \$$(Tùy hệ thống, có thể điều chỉnh ngưỡng.)
 * * *
-## NHÓM 5: TÁT 2 (CROSS‑VALIDATION)
+## NHÓM 5: TÁT 2 (CROSS‑[[VALIDATION]])
 ### (5.1) Định nghĩa Tát 2
 \$$\mathcal{T}_2(\text{claim}) = \bigwedge_{i=1}^{n} \text{source}_i(\text{claim}) \quad \text{với } n \ge 2
 \$$Một tuyên bố (claim) được coi là "đúng" (trong khuôn khổ của hệ thống) nếu có ít nhất hai nguồn (nguồn bằng chứng, phương pháp, hoặc tầng) độc lập xác nhận nó.
@@ -318,7 +318,7 @@ $$* * * ## NHÓM 12: CÁC HẰNG SỐ RIÊNG (DOMAIN‑SPECIFIC) CỦA TRANG ∅
 \$$(Resilience càng cao, hệ thống càng khó sụp đổ.)
 ### (13.3) Tốc độ tiến hóa (Evolution rate)
 \$$\frac{d\Lambda}{dt} = \text{MutationRate} \cdot \text{SelectionPressure}
-$$* * * ## NHÓM 14: PHƯƠNG TRÌNH KIỂM TRA (VALIDATION EQUATIONS) ### (14.1) Tát 2 tự động (cho AI) \$$\text{Valid}( \text{output} ) \iff \exists i,j : \text{Method}_i(\text{output}) \land \text{Method}_j(\text{output}) \quad (i \ne j)$$
+$$* * * ## NHÓM 14: PHƯƠNG TRÌNH KIỂM TRA ([[VALIDATION]] EQUATIONS) ### (14.1) Tát 2 tự động (cho AI) \$$\text{Valid}( \text{output} ) \iff \exists i,j : \text{Method}_i(\text{output}) \land \text{Method}_j(\text{output}) \quad (i \ne j)$$
 ### (14.2) Kiểm tra tính nhất quán giữa các tầng L, M, H
 \$$\Delta_{LM} = d(L, M) < \theta_{LM}, \quad \Delta_{MH} = d(M, H) < \theta_{MH}, \quad \Delta_{HL} = d(H, L) < \theta_{HL}
 \$$Với \$ d \$ là hàm khoảng cách (metric) phù hợp.
@@ -494,7 +494,7 @@ $$### (8) Điều kiện sống sót khác nhau cho từng tầng \$$\text{Survi
 \$$\Lambda(\mu) = \frac{\text{Variance of empty spaces}}{\text{Mean of empty spaces}^2}
 \$$(Λ lớn → nhiều khoảng trống → dễ sinh đột biến mới → tăng cơ hội sống sót cho hệ thống, nhưng không đảm bảo cá thể đột biến sống sót.)
 * * *
-## VI. TÁT 2 (CROSS‑VALIDATION) – CƠ CHẾ TĂNG KHẢ NĂNG SỐNG SÓT
+## VI. TÁT 2 (CROSS‑[[VALIDATION]]) – CƠ CHẾ TĂNG KHẢ NĂNG SỐNG SÓT
 ### (12) Xác suất sống sót khi có Tát 2
 \$$P_{\text{survive}}(\mu) = 1 - \prod_{i=1}^{n} (1 - p_i)
 \$$Với \$ p_i \$ là xác suất xác nhận từ nguồn thứ `i` (tối thiểu `n=2`).

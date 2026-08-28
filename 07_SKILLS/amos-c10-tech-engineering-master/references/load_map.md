@@ -34,21 +34,21 @@ Do not load all modules.
 - CLAIM_CLASSES.md
 
 ## T1 — common
-- FRACTAL_RUNTIME.md
+- [[FRACTAL_RUNTIME]].md
 - RSCF.md
 - PROVENANCE.md
 - TOKEN_GOVERNOR.md
 
 ## T2 — issue-specific
 - CAUSAL_FIREWALL.md
-- REGIME_FRESHNESS.md
+- [[REGIME_FRESHNESS]].md
 - COMPETING_HYPOTHESES.md
 - GMEF.md
 - REPOSITORY_REASONING.md
 - v4 runtime modules
 
 ## T3 — verification
-- SOURCE_REGISTRY.md
+- [[SOURCE_REGISTRY]].md
 - EQUATION_REGISTRY.md
 - benchmark/runtime lineage
 

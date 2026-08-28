@@ -218,9 +218,9 @@ Governance requirement scales with recursion depth and consequence level.
 - `references/gmef_full.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[gmef-governance_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[gmef-governance-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `gmef-governance-agent` — corresponding agent
 ---
 
@@ -234,7 +234,7 @@ Governance requirement scales with recursion depth and consequence level.
 RSCF-NODE
 node_id: gmef-governance
 node_type: skill
-path: 07_SKILLS/gmef-governance/SKILL.md
+path: 07_SKILLS/gmef-governance/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

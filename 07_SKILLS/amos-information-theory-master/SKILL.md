@@ -209,9 +209,9 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/signals.md` — loaded on demand
 - `references/types_of_signals.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-information-theory-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-information-theory-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-information-theory-master-agent` — corresponding agent
 ---
 
@@ -225,7 +225,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-information-theory-master
 node_type: skill
-path: 07_SKILLS/amos-information-theory-master/SKILL.md
+path: 07_SKILLS/amos-information-theory-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -102,7 +102,7 @@ Flow (Part II) maps to the Law Stack's Rule of 2™ as the named binary attracto
 - Outside the AMOS canon law hierarchy
 ## References
 - [[references]] — session-specific detail and authoritative sources
-- references/README — references subdirectory readme
+- references/[[README]] — references subdirectory readme
 
 ---
 **MOC:** [[amos-flow-canon_MOC]]
@@ -183,7 +183,7 @@ Flow (Part II) maps to the Law Stack's Rule of 2™ as the named binary attracto
 RSCF-NODE
 node_id: amos-flow-canon
 node_type: skill
-path: 07_SKILLS/amos-flow-canon/SKILL.md
+path: 07_SKILLS/amos-flow-canon/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

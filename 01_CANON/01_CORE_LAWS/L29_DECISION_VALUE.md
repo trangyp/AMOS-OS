@@ -36,7 +36,7 @@ F1: authoritative decision canon defines different value hierarchy.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L6_UNCERTAINTY]] · [[L7_AUTHORITY]] · [[L8_EXECUTION]] · [[L30_AUTHORITY_BOUNDARY]] · [[L28_CRITICAL_GAP]]

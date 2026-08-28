@@ -3319,30 +3319,30 @@ SOURCE_BOUND
 FAIL_CLOSED_GOVERNANCE_BINDINGS:
 
   canon:
-    - "[[LAW_HIERARCHY]]"
-    - "[[01_CORE_LAWS_MOC]]"
+    - ""
+    - ""
 
   kernel:
-    - "[[KERNEL_README]]"
+    - ""
 
   runtime:
-    - "[[RUNTIME_README]]"
+    - ""
 
   control_plane:
-    - "[[CONTROL_PLANE_README]]"
+    - ""
 
   observability:
-    - "[[OBSERVABILITY_README]]"
+    - ""
 
   operations:
-    - "[[OPERATIONS_README]]"
+    - ""
 
   related_core_laws:
-    - "[[ATOMIC_MULTI_RSCF_REASONING]]"
+    - ""
 
   indexed_by:
-    - "[[00_HOME]]"
-    - "[[AMOS_RSCF_NODES]]"
+    - ""
+    - ""
 ```
 
 Cross-plane links do not themselves prove enforcement.
@@ -3509,7 +3509,7 @@ RSCF-RELATIONS:
   EXECUTABLE_GOVERNANCE_GATE
 
 - REQUIRES:
-  INVARIANT_REGISTRY
+  [[INVARIANT_REGISTRY]]
 
 - REQUIRES:
   AUTHORITY_VALIDATOR
@@ -3519,7 +3519,7 @@ RSCF-RELATIONS:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

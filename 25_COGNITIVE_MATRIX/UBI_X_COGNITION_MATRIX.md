@@ -1329,7 +1329,7 @@ Exact source/target plane identifiers beyond `25_COGNITIVE_MATRIX` are not enume
 
 The presence of a cross-plane mapping does not establish atomic transaction semantics.
 
-That would require a binding to mechanisms such as `[[K_ATOMIC_MULTI_RSCF]]` or another authoritative protocol.
+That would require a binding to mechanisms such as `` or another authoritative protocol.
 
 No such binding is explicitly supplied here.
 
@@ -1366,15 +1366,15 @@ Those are plausible architectural hypotheses.
 
 They are **not source-established by this artifact**.
 
-Retrieve `[[UBI_COGNITION_BINDING]]` before asserting them.
+Retrieve `` before asserting them.
 
 ---
 
-# 68. UBI_X_COGNITION Specification
+# 68. [[UBI_X_COGNITION]] Specification
 
 The Connections section explicitly identifies:
 
-`[[UBI_X_COGNITION]]`
+``
 
 as:
 
@@ -1384,11 +1384,11 @@ Therefore this is a first-order dependency for exact semantics of the matrix.
 
 ---
 
-# 69. UBI_COGNITION_BINDING
+# 69. [[UBI_COGNITION_BINDING]]
 
 The artifact explicitly identifies:
 
-`[[UBI_COGNITION_BINDING]]`
+``
 
 as:
 
@@ -1408,7 +1408,7 @@ This should be the preferred source for resolving:
 
 The artifact explicitly links:
 
-`[[25_COGNITIVE_MATRIX_MOC]]`.
+``.
 
 Therefore the matrix belongs to the Cognitive Matrix plane's navigational/canonical structure.
 
@@ -2376,10 +2376,10 @@ UBI_X_COGNITION_MATRIX:
   bindings:
 
     specification:
-      "[[UBI_X_COGNITION]]"
+      ""
 
     cognition:
-      "[[UBI_COGNITION_BINDING]]"
+      ""
 
   routes:
 
@@ -2558,8 +2558,8 @@ PROOF_CAPSULE:
   provenance:
 
     - UBI_X_COGNITION_MATRIX.md
-    - "[[UBI_X_COGNITION]]"
-    - "[[UBI_COGNITION_BINDING]]"
+    - ""
+    - ""
     - 25_COGNITIVE_MATRIX
 
   scope:
@@ -3000,7 +3000,7 @@ This artifact MUST NOT by itself be used to claim:
 1. Somatic means clinically measured physiology.
 1. Bioelectromagnetic means independently verified electromagnetic causation.
 1. The matrix defines the exact low-level kernel executing each action.
-1. Cache eviction is definitely K_MVCC behavior.
+1. Cache eviction is definitely [[K_MVCC]] behavior.
 1. Resynchronization is definitely an epoch-clock operation.
 1. P3 is definitely a Canon-plane operation.
 1. Multi-trigger enforcement definitely uses [[K_ATOMIC_MULTI_RSCF]].
@@ -3103,11 +3103,11 @@ PROVENANCE-INDEPENDENCE FIREWALL
 
 SCOPE / REGIME FIREWALL
 
-[[UBI_X_COGNITION]]
 
-[[UBI_COGNITION_BINDING]]
 
-[[25_COGNITIVE_MATRIX_MOC]]
+
+
+
 ```
 
 ---
@@ -3191,17 +3191,17 @@ SCOPE OR ENVIRONMENT CHANGES
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: ""
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: ""
 
   - SPECIFIED_BY:
-      "[[UBI_X_COGNITION]]"
+      ""
 
   - BOUND_BY:
-      "[[UBI_COGNITION_BINDING]]"
+      ""
 
   - DEFINES:
       UBI_TO_COGNITION_THRESHOLD_ROUTING
@@ -3231,18 +3231,18 @@ RSCF_RELATIONS:
       BEI_AGENT_RESYNCHRONIZATION
 
   - RELATED_TO:
-      - "[[TOTAL_FRAMEWORK_MATRIX]]"
-      - "[[TOTAL_KERNEL_MATRIX]]"
-      - "[[TOTAL_CANON_MATRIX]]"
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_PROVENANCE]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
       - "K_CAUSAL_FIREWALL"
-      - "[[K_FAIL_CLOSED]]"
-      - "[[K_GOVERNED_EVOLUTION]]"
+      - ""
+      - ""
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      ""
 ```
 
 ---
@@ -3543,7 +3543,7 @@ The decisive integrity boundaries are:
 
 **THE FOUR SIGNAL CLASSES, THRESHOLDS, TARGETS, AND ACTIONS ARE SOURCE-DEFINED AMOS MODEL ELEMENTS.**
 
-**THE NUMERICAL THRESHOLDS MUST NOT BE PROMOTED INTO UNIVERSAL OR CLINICAL BIOLOGICAL CUTOFFS WITHOUT INDEPENDENT VALIDATION.**
+**THE NUMERICAL THRESHOLDS MUST NOT BE PROMOTED INTO UNIVERSAL OR CLINICAL BIOLOGICAL CUTOFFS WITHOUT INDEPENDENT [[VALIDATION]].**
 
 **THE SOURCE DECLARES `PASSED_CONSTITUTIONAL_TESTS`; THE COMPLETE TEST EVIDENCE IS NOT EMBEDDED IN THIS ARTIFACT.**
 
@@ -3557,7 +3557,7 @@ The decisive integrity boundaries are:
 
 **THRESHOLD CROSSING DEFINES OPERATIONAL ROUTING; IT DOES NOT BY ITSELF PROVE A BIOLOGICAL CAUSAL MECHANISM.**
 
-**NBI MUST NOT BE SILENTLY IDENTIFIED WITH HUMAN WORKING-MEMORY PATHOLOGY.**
+**NBI MUST NOT BE SILENTLY IDENTIFIED WITH HUMAN WORKING-[[MEMORY]] PATHOLOGY.**
 
 **NEI MUST NOT BE SILENTLY IDENTIFIED WITH PSYCHIATRIC STATE.**
 
@@ -3571,7 +3571,7 @@ The decisive integrity boundaries are:
 
 **THE MATRIX DOES NOT SPECIFY HYSTERESIS, DEBOUNCE, SAMPLING FREQUENCY, DEACTIVATION THRESHOLDS, OR SIGNAL DYNAMICS.**
 
-**THE MATRIX DOES NOT SPECIFY PRIORITY, CONFLICT RESOLUTION, OR ATOMICITY WHEN MULTIPLE SIGNALS TRIGGER TOGETHER.**
+**THE MATRIX DOES NOT SPECIFY PRIORITY, CONFLICT RESOLUTION, OR ATOMICITY WHEN MULTIPLE [[SIGNALS]] TRIGGER TOGETHER.**
 
 **ENFORCEMENT ACTIONS ARE NOT AUTOMATICALLY FAIL-CLOSED FALLBACKS.**
 
@@ -3581,9 +3581,9 @@ The decisive integrity boundaries are:
 
 **THE EXACT LOW-LEVEL KERNEL EXECUTING EACH ACTION IS NOT ESTABLISHED BY THIS ARTIFACT.**
 
-**`[[UBI_X_COGNITION]]` SHOULD GOVERN EXACT SIGNAL/MATRIX SEMANTICS.**
+**`` SHOULD GOVERN EXACT SIGNAL/MATRIX SEMANTICS.**
 
-**`[[UBI_COGNITION_BINDING]]` SHOULD GOVERN EXACT COGNITIVE/RUNTIME BINDING.**
+**`` SHOULD GOVERN EXACT COGNITIVE/RUNTIME BINDING.**
 
 Operationally:
 

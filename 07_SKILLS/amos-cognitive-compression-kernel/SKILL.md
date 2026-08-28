@@ -194,9 +194,9 @@ Cognitive compression is an operational construct. It does not prove compression
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-cognitive-compression-kernel_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-cognitive-compression-kernel-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-cognitive-compression-kernel-agent` — corresponding agent
 ---
 
@@ -210,7 +210,7 @@ Cognitive compression is an operational construct. It does not prove compression
 RSCF-NODE
 node_id: amos-cognitive-compression-kernel
 node_type: skill
-path: 07_SKILLS/amos-cognitive-compression-kernel/SKILL.md
+path: 07_SKILLS/amos-cognitive-compression-kernel/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

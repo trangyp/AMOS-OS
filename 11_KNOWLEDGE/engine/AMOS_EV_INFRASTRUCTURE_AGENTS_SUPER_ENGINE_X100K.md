@@ -21,7 +21,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-# AMOS EV INFRASTRUCTURE AGENTS SUPER ENGINE X100K
+# AMOS EV INFRASTRUCTURE [[AGENTS]] SUPER ENGINE X100K
 
 ```json
 {
@@ -648,7 +648,7 @@ rscf:
 }
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:**  ·  ·  ·  · 
 ```
 
 ---

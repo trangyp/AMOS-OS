@@ -42,7 +42,7 @@ rscf:
 ---
 
 
-# K MEMORY ADMISSION
+# K [[MEMORY]] ADMISSION
 
 > **AMOS Core target:** `v4.4`
 > **Origin architect / steward:** Trang Phan
@@ -2571,12 +2571,12 @@ UNKNOWN/GAP.
 [[K_MULTI_HYPOTHESIS]] ·
 [[K_CAUSAL_CLOSURE]] ·
 [[K_CAUSAL_EPOCH]] ·
-README ·
-11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
-README ·
-README ·
 [[README]] ·
-README ·
+11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
 [[README]]
 
 ```text
@@ -2584,7 +2584,7 @@ README ·
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

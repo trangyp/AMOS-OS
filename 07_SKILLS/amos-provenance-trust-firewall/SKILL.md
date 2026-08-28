@@ -206,9 +206,9 @@ Provenance trust firewall is a security construct. It does not prove all autopoi
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-provenance-trust-firewall_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-security-safety-master` — parent skill
-- `[[amos-provenance-trust-firewall-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-provenance-trust-firewall-agent` — corresponding agent
 ---
 
@@ -222,7 +222,7 @@ Provenance trust firewall is a security construct. It does not prove all autopoi
 RSCF-NODE
 node_id: amos-provenance-trust-firewall
 node_type: skill
-path: 07_SKILLS/amos-provenance-trust-firewall/SKILL.md
+path: 07_SKILLS/amos-provenance-trust-firewall/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

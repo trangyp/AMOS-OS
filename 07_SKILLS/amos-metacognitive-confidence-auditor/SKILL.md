@@ -207,9 +207,9 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-metacognitive-confidence-auditor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-metacognitive-confidence-auditor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-metacognitive-confidence-auditor-agent` — corresponding agent
 ---
 
@@ -223,7 +223,7 @@ Metacognitive confidence auditing is an epistemic construct. It does not prove c
 RSCF-NODE
 node_id: amos-metacognitive-confidence-auditor
 node_type: skill
-path: 07_SKILLS/amos-metacognitive-confidence-auditor/SKILL.md
+path: 07_SKILLS/amos-metacognitive-confidence-auditor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -18,7 +18,7 @@ rscf:
 ---
 
 
-# README
+# [[README]]
 
 ## Purpose
 `README` is the package readme for the **Root** plane segment at `00_ROOT`.
@@ -75,7 +75,7 @@ Given an operation touching `README` within the Root plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
@@ -83,7 +83,7 @@ Given an operation touching `README` within the Root plane:
 RSCF-NODE
 node_id: 00_ROOT_READMEmd
 node_type: note
-path: 00_ROOT/README.md
+path: 00_ROOT/[[README]].md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]

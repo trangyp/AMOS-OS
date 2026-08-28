@@ -203,9 +203,9 @@ Neural computation mapping is an analytical analogy. It does not prove the syste
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-neural-computation-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c04-bio-neuro-master` — parent skill
-- `[[amos-neural-computation-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-neural-computation-mapper-agent` — corresponding agent
 ---
 
@@ -219,7 +219,7 @@ Neural computation mapping is an analytical analogy. It does not prove the syste
 RSCF-NODE
 node_id: amos-neural-computation-mapper
 node_type: skill
-path: 07_SKILLS/amos-neural-computation-mapper/SKILL.md
+path: 07_SKILLS/amos-neural-computation-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

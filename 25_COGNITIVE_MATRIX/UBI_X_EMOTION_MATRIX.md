@@ -385,7 +385,7 @@ HighThreat
 AutomaticRefusal
 $$
 
-unless `[[UBI_X_EMOTION]]` defines that transition.
+unless `` defines that transition.
 
 ---
 
@@ -413,8 +413,8 @@ HIGH_THREAT_TARGET_PLANE:
     DECISION_RELEVANT_GAP
 
   recovery_source:
-    - "[[UBI_X_EMOTION]]"
-    - "[[UBI_EMOTION_BINDING]]"
+    - ""
+    - ""
 ```
 
 ---
@@ -1185,7 +1185,7 @@ is unresolved.
 
 The artifact explicitly points to:
 
-`[[UBI_X_EMOTION]]`.
+``.
 
 That is the highest-priority dependency for recovering:
 
@@ -1200,7 +1200,7 @@ That is the highest-priority dependency for recovering:
 
 The artifact also points to:
 
-`[[UBI_EMOTION_BINDING]]`.
+``.
 
 That is the highest-priority dependency for recovering:
 
@@ -1299,7 +1299,7 @@ The supplied rendering cannot discriminate between these hypotheses.
 
 The cheapest high-information test is:
 
-**retrieve the intact `[[UBI_X_EMOTION]]` specification or `[[UBI_EMOTION_BINDING]]` and inspect the original matrix equations.**
+**retrieve the intact `` specification or `` and inspect the original matrix equations.**
 
 This could resolve all three missing variables and the missing target-plane routing without speculative reconstruction.
 
@@ -2500,13 +2500,13 @@ UBI_X_EMOTION_MATRIX:
   framework_binding:
 
     matrix_spec:
-      "[[UBI_X_EMOTION]]"
+      ""
 
     knowledge_binding:
-      "[[UBI_EMOTION_BINDING]]"
+      ""
 
     cognitive_matrix_plane:
-      "[[25_COGNITIVE_MATRIX_MOC]]"
+      ""
 ```
 
 ---
@@ -3069,17 +3069,17 @@ ENVIRONMENT OR REGIME CHANGES
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: ""
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: ""
 
   - TABLE_FOR:
-      "[[UBI_X_EMOTION]]"
+      ""
 
   - BOUND_BY:
-      "[[UBI_EMOTION_BINDING]]"
+      ""
 
   - DEFINES:
       UBI_EMOTION_CROSS_PLANE_ROUTING
@@ -3103,20 +3103,20 @@ RSCF_RELATIONS:
       GAMMA_COHERENCE_LOCK
 
   - RELATED_TO:
-      - "[[UBI_X_COGNITION]]"
-      - "[[UBI_X_COGNITION_MATRIX]]"
-      - "[[TOTAL_FRAMEWORK_MATRIX]]"
-      - "[[TOTAL_KERNEL_MATRIX]]"
-      - "[[TOTAL_CANON_MATRIX]]"
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_PROVENANCE]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
       - "K_CAUSAL_FIREWALL"
-      - "[[K_FAIL_CLOSED]]"
-      - "[[K_GOVERNED_EVOLUTION]]"
+      - ""
+      - ""
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      ""
 ```
 
 ---
@@ -3442,11 +3442,11 @@ The decisive integrity boundaries are:
 
 **AFFECTIVE STATE MODULATES COGNITIVE POLICY WITHIN THE AMOS MODEL; IT DOES NOT DETERMINE TRUTH OR OVERRIDE EVIDENCE QUALITY.**
 
-**THE SOURCE DECLARES `PASSED_CONSTITUTIONAL_TESTS`; INDEPENDENT VALIDATION REQUIRES THE ACTUAL TEST ARTIFACTS.**
+**THE SOURCE DECLARES `PASSED_CONSTITUTIONAL_TESTS`; INDEPENDENT [[VALIDATION]] REQUIRES THE ACTUAL TEST ARTIFACTS.**
 
 **THE SOURCE DECLARES `executable_binding: ESTABLISHED`; INDEPENDENT RUNTIME VERIFICATION REQUIRES THE EXECUTABLE BINDING AND TRACES.**
 
-**THE CHEAPEST HIGH-INFORMATION RETRIEVAL IS `[[UBI_X_EMOTION]]` FOLLOWED BY `[[UBI_EMOTION_BINDING]]`, BECAUSE THOSE dependencies can resolve the missing trigger variables, target planes, state arbitration, and guard semantics without speculative reconstruction.**
+**THE CHEAPEST HIGH-INFORMATION RETRIEVAL IS `` FOLLOWED BY ``, BECAUSE THOSE dependencies can resolve the missing trigger variables, target planes, state arbitration, and guard semantics without speculative reconstruction.**
 
 Operational compression:
 

@@ -32,7 +32,7 @@ rscf:
 
 ---
 
-# 0. CANON STATUS AND EPISTEMIC FIREWALL
+# 0. [[CANON]] STATUS AND EPISTEMIC FIREWALL
 
 The seven-part framework is preserved as Trang Phan's **source canon**:
 
@@ -90,7 +90,7 @@ FORMAL_ELEGANCE != VALIDATION
 
 ---
 
-# 1. CANON NUCLEUS
+# 1. [[CANON]] NUCLEUS
 
 ## Part I — Constraint
 

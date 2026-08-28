@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# INDEX C06 SOCIETY CULTURE DOMAINS README
+# INDEX C06 SOCIETY CULTURE DOMAINS [[README]]
 
 ## Index
 - See also — [[C06_SOCIETY_CULTURE_DOMAINS_C06_SOCIETY_CULTURE_CONTRACT]]
@@ -44,14 +44,14 @@ Given an operation touching `C06 SOCIETY CULTURE DOMAINS README` within the Doma
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

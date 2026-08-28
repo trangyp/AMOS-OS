@@ -108,7 +108,7 @@ tags:
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c06 specialization is needed
+- **Parent**: `` — routes to this skill when c06 specialization is needed
 - **Peers**: Other skills in the `c06` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -229,10 +229,10 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 - `references/vn_omnistructure_model.md` — loaded on demand
 - `references/vn_trust_marketplace_strategy.md` — loaded on demand
 - `references/when_humanity_began.md` — loaded on demand
-- `[[amos-c06-society-culture-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
-- `[[amos-c06-society-culture-master-workflow]]` — corresponding workflow
-- `[[amos-c06-society-culture-master-agent]]` — corresponding agent
+- `` — skill Map of Content
+- `` — parent skill
+- `` — corresponding workflow
+- `` — corresponding agent
 
 
 ## Do not use

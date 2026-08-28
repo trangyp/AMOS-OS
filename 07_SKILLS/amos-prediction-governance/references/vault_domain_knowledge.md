@@ -345,11 +345,11 @@ The Governance_Risk kernel integrates multiple sub-kernels, each addressing a di
       "human_
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

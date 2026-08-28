@@ -21,7 +21,7 @@ Navigation map for the `17_OBSERVABILITY/00_INDEX` segment of the Observability 
 
 - **Contract** — [[INDEX_OBSERVABILITY_OBSERVABILITY_CONTRACT]]
 - **Readme** — [[INDEX_OBSERVABILITY_README]]
-- **Readme** — README
+- **Readme** — [[README]]
 
 ## Reading order
 1. Readme → orientation.  2. Contract → normative terms.  3. Artifacts → instances bound by the contract.
@@ -47,14 +47,14 @@ Given an operation touching `OBSERVABILITY · OBSERVABILITY MAP` within the Obse
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

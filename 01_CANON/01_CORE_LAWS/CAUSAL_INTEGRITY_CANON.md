@@ -864,7 +864,7 @@ It cannot by itself prove that the model is an empirically correct causal repres
 ```text
 SIMULATION CONSISTENT
 !=
-REAL-WORLD CAUSAL VALIDATION
+REAL-WORLD CAUSAL [[VALIDATION]]
 ```
 
 ---
@@ -1453,7 +1453,7 @@ POLICY CHANGE
 
 ENVIRONMENT CHANGE
 
-ARCHITECTURE CHANGE
+[[ARCHITECTURE]] CHANGE
 
 POPULATION CHANGE
 
@@ -2076,7 +2076,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 Target node:
 
 ```text
-RSCF.AMOS.CANON.CAUSAL_INTEGRITY.H.SYSTEM
+RSCF.AMOS.[[CANON]].CAUSAL_INTEGRITY.H.SYSTEM
 ```
 
 Responsibilities:
@@ -2094,7 +2094,7 @@ PROVENANCE CONTROL
 
 CONFLICT VISIBILITY
 
-VALIDATION ROUTING
+[[VALIDATION]] ROUTING
 ```
 
 ---
@@ -2128,7 +2128,7 @@ M.SCOPE_REGIME
 
 M.FALSIFICATION
 
-M.VALIDATION
+M.[[VALIDATION]]
 ```
 
 These are organizational target categories, not claims of already populated native canon.
@@ -2959,7 +2959,7 @@ MISSING VERSION
 
 FAILED IDENTIFICATION ASSUMPTION
 
-FAILED VALIDATION RECEIPT
+FAILED [[VALIDATION]] RECEIPT
 
 UNKNOWN/GAP TREATED AS PASS
 ```
@@ -3103,13 +3103,13 @@ Target:
 ```text
 CAUSAL_INTEGRITY_CANON
         │
-        ├─ GOVERNED_BY ─────> LAW_HIERARCHY
+        ├─ GOVERNED_BY ─────> [[LAW_HIERARCHY]]
         │
-        ├─ INDEXED_BY ──────> 00_HOME
+        ├─ INDEXED_BY ──────> [[00_HOME]]
         │
-        ├─ INDEXED_BY ──────> AMOS_RSCF_NODES
+        ├─ INDEXED_BY ──────> [[AMOS_RSCF_NODES]]
         │
-        ├─ CROSSWALKED_BY ──> CANON_LAW_CROSSWALK
+        ├─ CROSSWALKED_BY ──> [[CANON_LAW_CROSSWALK]]
         │
         ├─ INTERACTS_WITH ──> KERNEL
         │
@@ -3122,14 +3122,14 @@ CAUSAL_INTEGRITY_CANON
 
 References:
 
-* [[LAW_HIERARCHY]]
-* [[CANON_LAW_CROSSWALK]]
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
+* 
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 The `CROSSWALKED_BY` relation above is a **target relation** until independently established in native canon.
 
@@ -3563,7 +3563,7 @@ FALSIFIABILITY
 
 ROLLBACK
 
-VALIDATION
+[[VALIDATION]]
 ```
 
 A faster causal inference that silently removes these protections is a regression.
@@ -3883,7 +3883,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:**  · 
 
 ---
 
@@ -3919,25 +3919,25 @@ causal_inference_engine_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+* GOVERNED_BY: 
 
-* TARGET_CROSSWALKED_BY: [[CANON_LAW_CROSSWALK]]
+* TARGET_CROSSWALKED_BY: 
 
-* INTERACTS_WITH: [[KERNEL_README]]
+* INTERACTS_WITH: 
 
-* CONTROLLED_BY: [[CONTROL_PLANE_README]]
+* CONTROLLED_BY: 
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+* OBSERVED_BY: 
 
-* RECOVERED_BY: [[OPERATIONS_README]]
+* RECOVERED_BY: 
 
 ---
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
 ---
 

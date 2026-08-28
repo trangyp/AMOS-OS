@@ -205,9 +205,9 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[bluebook-strategy-system_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[bluebook-strategy-system-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `bluebook-strategy-system-agent` — corresponding agent
 ---
 
@@ -221,7 +221,7 @@ The Bluebook strategy system is an analytical methodology. It does not prove str
 RSCF-NODE
 node_id: bluebook-strategy-system
 node_type: skill
-path: 07_SKILLS/bluebook-strategy-system/SKILL.md
+path: 07_SKILLS/bluebook-strategy-system/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

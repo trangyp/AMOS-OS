@@ -43,7 +43,7 @@ Most LLM-document workflows are RAG: the LLM re-derives answers from raw documen
 - `qmd` is a local search option for larger wikis.
 
 ## AMOS integration
-The AMOS vault instantiates this pattern as the `LLM_WIKI` subsystem under `11_KNOWLEDGE/LLM_WIKI/`, governed by `[[AMOS_LLM_WIKI]]`.
+The AMOS vault instantiates this pattern as the `LLM_WIKI` subsystem under `11_KNOWLEDGE/LLM_WIKI/`, governed by ``.
 
 ---
 RSCF-NODE

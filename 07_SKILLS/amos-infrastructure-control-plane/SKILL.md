@@ -202,9 +202,9 @@ Infrastructure control plane is a runtime architecture. It does not prove all in
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-infrastructure-control-plane_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c10-tech-engineering-master` — parent skill
-- `[[amos-infrastructure-control-plane-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-infrastructure-control-plane-agent` — corresponding agent
 ---
 
@@ -218,7 +218,7 @@ Infrastructure control plane is a runtime architecture. It does not prove all in
 RSCF-NODE
 node_id: amos-infrastructure-control-plane
 node_type: skill
-path: 07_SKILLS/amos-infrastructure-control-plane/SKILL.md
+path: 07_SKILLS/amos-infrastructure-control-plane/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

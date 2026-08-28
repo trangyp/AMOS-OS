@@ -2734,7 +2734,7 @@ UNKNOWN/GAP.
 ## Related
 
 [[README]] ·
-00_ROOT_MOC|AMOS MOC ·
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 [[NEURAL_NETWORK]] ·
@@ -2754,15 +2754,15 @@ ALIASES ·
 [[PERSISTENCE_CANON]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
 [[AUTHORITATIVE_STATE]] ·
-README ·
-README
+[[README]] ·
+[[README]]
 
 ```text
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

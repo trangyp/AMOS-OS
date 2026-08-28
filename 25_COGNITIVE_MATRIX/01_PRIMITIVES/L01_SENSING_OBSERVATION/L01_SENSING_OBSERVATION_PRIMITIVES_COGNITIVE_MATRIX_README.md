@@ -16,7 +16,7 @@ rscf:
 ---
 
 
-Here is the full `L01_SENSING_OBSERVATION/README.md` content to paste. I’m keeping the README as the **integration/index contract** for the L01 primitive rather than duplicating every sibling file in full.
+Here is the full `L01_SENSING_OBSERVATION/README.md` content to paste. I’m keeping the [[README]] as the **integration/index contract** for the L01 primitive rather than duplicating every sibling file in full.
 
 ---
 tags:
@@ -31,7 +31,7 @@ tags:
   - control-plane
 ---
 
-# L01_SENSING_OBSERVATION — README
+# L01_SENSING_OBSERVATION — [[README]]
 
 **Class:** `COGNITIVE_PRIMITIVE_INTEGRATION_CONTRACT`
 **Origin architect / steward:** Trang Phan
@@ -41,7 +41,7 @@ tags:
 **Role:** `PRIMITIVE ENTRYPOINT / INTEGRATION MAP / CONTRACT INDEX`
 **Status:** `AMOS_MODEL / SOURCE-CANON BOUNDED / UNVALIDATED`
 
-> **Epistemic boundary:** this README defines the proposed integration contract for `L01_SENSING_OBSERVATION`. It organizes the primitive's purpose, boundaries, interfaces, state, dependencies, governance, evidence requirements, failure handling, and sibling artifacts. It does not establish that L01 has been implemented, executed, formally verified, empirically validated, or canonically completed.
+> **Epistemic boundary:** this [[README]] defines the proposed integration contract for `L01_SENSING_OBSERVATION`. It organizes the primitive's purpose, boundaries, interfaces, state, dependencies, governance, evidence requirements, failure handling, and sibling artifacts. It does not establish that L01 has been implemented, executed, formally verified, empirically validated, or canonically completed.
 
 ---
 
@@ -1633,7 +1633,7 @@ TEST_EXECUTED
 
 # 36. Falsifiers
 
-This README and its integrated model should be revised if:
+This [[README]] and its integrated model should be revised if:
 
 ```text
 direct L01 canon materially contradicts the proposed definition
@@ -1991,7 +1991,7 @@ artifact_responsibilities:
 
 # 41. Cross-File Consistency Rules
 
-The README must not override a more specific sibling contract without an explicit canonical update.
+The [[README]] must not override a more specific sibling contract without an explicit canonical update.
 
 Priority conceptually follows:
 
@@ -2187,7 +2187,7 @@ PRIMITIVE_IMPLEMENTED
 
 ---
 
-# 44. Evidence / Provenance of This README
+# 44. Evidence / Provenance of This [[README]]
 
 ```yaml
 artifact_provenance:
@@ -2216,7 +2216,7 @@ artifact_provenance:
     status: NOT_ESTABLISHED
 ```
 
-This README must not become self-validating evidence for its own reconstructed architecture.
+This [[README]] must not become self-validating evidence for its own reconstructed architecture.
 
 ---
 
@@ -2494,7 +2494,7 @@ completion_state:
 
 ---
 
-# 49. README Contract Summary
+# 49. [[README]] Contract Summary
 
 The integrated L01 architecture is:
 
@@ -2670,7 +2670,7 @@ UNIVERSALLY TRUE
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]] · [[AMOS_RSCF_NODES]]

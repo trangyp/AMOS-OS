@@ -40,14 +40,14 @@ World Modeling × Prediction × Reasoning Control Plane × High scale.
 
 ## Critical separation
 
-CANON != KERNEL != PRIMITIVE != AGENT != SKILL != WORKFLOW != CONTROL_PLANE
+[[CANON]] != KERNEL != PRIMITIVE != AGENT != [[SKILL]] != [[WORKFLOW]] != CONTROL_PLANE
 
 A cell does not claim implementation merely because a candidate kernel/agent/skill/workflow can be routed to it.
 Each binding is `UNVALIDATED_BINDING` until validated by tests and provenance.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

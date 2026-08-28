@@ -209,9 +209,9 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-reality-meta-law-auditor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-reality-meta-law-auditor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-reality-meta-law-auditor-agent` — corresponding agent
 ---
 
@@ -225,7 +225,7 @@ Reality meta-law auditing is an epistemic governance construct. It does not prov
 RSCF-NODE
 node_id: amos-reality-meta-law-auditor
 node_type: skill
-path: 07_SKILLS/amos-reality-meta-law-auditor/SKILL.md
+path: 07_SKILLS/amos-reality-meta-law-auditor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

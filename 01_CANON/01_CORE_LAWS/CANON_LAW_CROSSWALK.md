@@ -892,11 +892,11 @@ They are not assertions that `LAW_A` through `LAW_G` exist.
 From the presently supplied Canon-plane artifact context, the crosswalk can safely recognize the existence of reserved artifact identities including:
 
 ```text
-ABSOLUTE_LOGIC_CANON
-ABSOLUTE_STRUCTURAL_INTEGRITY_CANON
-BIO_LOGICAL_LAWS_CANON
+[[ABSOLUTE_LOGIC_CANON]]
+[[ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
+[[BIO_LOGICAL_LAWS_CANON]]
 CANON_LAW_CROSSWALK
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 ```
 
 For the first three named canon artifacts, the supplied state indicates placeholder status rather than populated substantive canon.
@@ -931,21 +931,21 @@ No stronger semantic equivalence among these artifacts is established by their p
 Based only on the supplied placeholder contracts, the following relation class is supportable:
 
 ```text
-ABSOLUTE_LOGIC_CANON
+[[ABSOLUTE_LOGIC_CANON]]
 GOVERNED_BY
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 
-ABSOLUTE_STRUCTURAL_INTEGRITY_CANON
+[[ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
 GOVERNED_BY
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 
-BIO_LOGICAL_LAWS_CANON
+[[BIO_LOGICAL_LAWS_CANON]]
 GOVERNED_BY
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 
 CANON_LAW_CROSSWALK
 GOVERNED_BY
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 ```
 
 These are artifact metadata relations inherited from the supplied RSCF relation blocks.
@@ -959,13 +959,13 @@ They do not establish the substantive content of `LAW_HIERARCHY`.
 The supplied artifacts additionally declare:
 
 ```text
-ABSOLUTE_LOGIC_CANON
+[[ABSOLUTE_LOGIC_CANON]]
 INDEXED_BY
-00_HOME
+[[00_HOME]]
 
-ABSOLUTE_LOGIC_CANON
+[[ABSOLUTE_LOGIC_CANON]]
 INDEXED_BY
-AMOS_RSCF_NODES
+[[AMOS_RSCF_NODES]]
 ```
 
 and equivalent index relationships for the other supplied core-law artifacts.
@@ -979,25 +979,25 @@ These are graph-navigation relations, not epistemic validation relations.
 The current evidence does **not** establish:
 
 ```text
-ABSOLUTE_LOGIC_CANON
+[[ABSOLUTE_LOGIC_CANON]]
 IDENTICAL_TO
-ABSOLUTE_STRUCTURAL_INTEGRITY_CANON
+[[ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
 ```
 
 nor:
 
 ```text
-BIO_LOGICAL_LAWS_CANON
+[[BIO_LOGICAL_LAWS_CANON]]
 DERIVED_FROM
-ABSOLUTE_LOGIC_CANON
+[[ABSOLUTE_LOGIC_CANON]]
 ```
 
 nor:
 
 ```text
-ABSOLUTE_STRUCTURAL_INTEGRITY_CANON
+[[ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
 GOVERNS
-BIO_LOGICAL_LAWS_CANON
+[[BIO_LOGICAL_LAWS_CANON]]
 ```
 
 nor any substantive ordering among these framework families.
@@ -1027,7 +1027,7 @@ However, the supplied crosswalk placeholder does not itself establish its substa
 Therefore:
 
 ```text
-LAW_HIERARCHY REFERENCE EXISTS
+[[LAW_HIERARCHY]] REFERENCE EXISTS
 ```
 
 does not imply:
@@ -1228,7 +1228,7 @@ SOURCE
   ↓
 HISTORICAL FORMULATION
   ↓
-CANON CANDIDATE
+[[CANON]] CANDIDATE
   ↓
 CANONICAL VERSION
   ↓
@@ -1620,9 +1620,9 @@ CANON_LAW_CROSSWALK
         │
         ├── PRESERVES ───────> CONFLICT
         │
-        ├── REFERENCES ──────> EVIDENCE
+        ├── [[REFERENCES]] ──────> EVIDENCE
         │
-        └── REFERENCES ──────> VALIDATION_RECEIPT
+        └── [[REFERENCES]] ──────> VALIDATION_RECEIPT
 ```
 
 ---
@@ -1630,7 +1630,7 @@ CANON_LAW_CROSSWALK
 # 58. H/M/L Fractal Target
 
 ```text
-H — CANON LAW SYSTEM
+H — [[CANON]] LAW SYSTEM
       ↓
 M — LAW FAMILY / RELATION FAMILY
       ↓
@@ -1652,7 +1652,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 Target:
 
 ```text
-RSCF.AMOS.CANON.CROSSWALK.H.SYSTEM
+RSCF.AMOS.[[CANON]].CROSSWALK.H.SYSTEM
 ```
 
 Responsibility:
@@ -1917,7 +1917,7 @@ gap:
   state: UNKNOWN/GAP
 
   description: >
-    LAW_HIERARCHY is referenced as a governing artifact, but
+    [[LAW_HIERARCHY]] is referenced as a governing artifact, but
     its complete substantive precedence semantics are not
     established by the supplied crosswalk placeholder.
 ```
@@ -2399,7 +2399,7 @@ CYCLIC SUPERSESSION
 
 UNAUTHORIZED GOVERNANCE EDGE
 
-FAILED VALIDATION RECEIPT
+FAILED [[VALIDATION]] RECEIPT
 
 FAILED ROLLBACK
 
@@ -2620,7 +2620,7 @@ DEPENDENCY
 
 SUPERSESSION STATE
 
-VALIDATION RECEIPT
+[[VALIDATION]] RECEIPT
 ```
 
 ---
@@ -2632,11 +2632,11 @@ Target:
 ```text
 CANON_LAW_CROSSWALK
         │
-        ├─ GOVERNED_BY ─────> LAW_HIERARCHY
+        ├─ GOVERNED_BY ─────> [[LAW_HIERARCHY]]
         │
-        ├─ INDEXED_BY ──────> 00_HOME
+        ├─ INDEXED_BY ──────> [[00_HOME]]
         │
-        ├─ INDEXED_BY ──────> AMOS_RSCF_NODES
+        ├─ INDEXED_BY ──────> [[AMOS_RSCF_NODES]]
         │
         ├─ INTERACTS_WITH ──> KERNEL
         │
@@ -2649,13 +2649,13 @@ CANON_LAW_CROSSWALK
 
 References:
 
-* [[LAW_HIERARCHY]]
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ---
 
@@ -2771,16 +2771,16 @@ NO CONFLICT FOUND != VERIFIED COMPATIBILITY
 The supplied artifact context supports recognition of reserved canonical slots including:
 
 ```text
-ABSOLUTE_LOGIC_CANON
-ABSOLUTE_STRUCTURAL_INTEGRITY_CANON
-BIO_LOGICAL_LAWS_CANON
+[[ABSOLUTE_LOGIC_CANON]]
+[[ABSOLUTE_STRUCTURAL_INTEGRITY_CANON]]
+[[BIO_LOGICAL_LAWS_CANON]]
 CANON_LAW_CROSSWALK
 ```
 
 and their declared governance relation to:
 
 ```text
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 ```
 
 but does not yet establish substantive semantic mappings among those law families.
@@ -2888,7 +2888,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:**  · 
 
 ---
 
@@ -2924,23 +2924,23 @@ native_mapping_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+* GOVERNED_BY: 
 
-* INTERACTS_WITH: [[KERNEL_README]]
+* INTERACTS_WITH: 
 
-* CONTROLLED_BY: [[CONTROL_PLANE_README]]
+* CONTROLLED_BY: 
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+* OBSERVED_BY: 
 
-* RECOVERED_BY: [[OPERATIONS_README]]
+* RECOVERED_BY: 
 
 ---
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
 ---
 

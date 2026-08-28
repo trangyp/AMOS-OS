@@ -105,7 +105,7 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 - Outside the AMOS canon law hierarchy
 ## References
 - [[references]] — session-specific detail and authoritative sources
-- references/README — references subdirectory readme
+- references/[[README]] — references subdirectory readme
 
 ---
 **MOC:** [[amos-law-stack-enforcement_MOC]]
@@ -186,7 +186,7 @@ This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most
 RSCF-NODE
 node_id: amos-law-stack-enforcement
 node_type: skill
-path: 07_SKILLS/amos-law-stack-enforcement/SKILL.md
+path: 07_SKILLS/amos-law-stack-enforcement/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -79,7 +79,7 @@ tags: [reports]
 - Performance metrics tracking
 - Artifact-based verification
 
-### CORE KERNEL INTEGRATION
+### CORE KERNEL [[INTEGRATION]]
 
 #### **Kernel Choke Point** (`01_KERNEL/kernel.py`)
 - `persist()` method for all write operations

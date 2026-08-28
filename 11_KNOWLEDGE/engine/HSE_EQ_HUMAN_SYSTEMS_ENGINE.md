@@ -4262,7 +4262,7 @@ Hệ thống phải xác định:
 Hầu hết các thất bại xảy ra từ tối ưu hóa bên ngoài các ranh giới cho phép.
 **Hệ quả vận hành:** Không được phép mở rộng quy mô trước khi các ràng buộc được khép kín. Tăng trưởng mà không có ranh giới là tự sát có hệ thống.
 * * *
-## ĐỊNH LUẬT 5 — ĐỊNH LUẬT NHÂN PHẨM LÀ RANH GIỚI CẤU TRÚC (DIGNITY AS STRUCTURAL BOUNDARY LAW)
+## ĐỊNH LUẬT 5 — ĐỊNH LUẬT NHÂN PHẨM LÀ RANH GIỚI CẤU TRÚC ([[DIGNITY]] AS STRUCTURAL BOUNDARY LAW)
 **Nhân phẩm không phải đạo đức. Nhân phẩm là một bất biến phối hợp. (Dignity is not morality. Dignity is a coordination invariant.)**
 Nếu con người trở nên có thể thay thế được bên trong một hệ thống:
   * Lòng tin sụp đổ

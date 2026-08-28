@@ -213,9 +213,9 @@ Repair priority governance is an operational construct. It does not prove optima
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-repair-priority-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-repair-priority-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-repair-priority-governor-agent` — corresponding agent
 ---
 
@@ -229,7 +229,7 @@ Repair priority governance is an operational construct. It does not prove optima
 RSCF-NODE
 node_id: amos-repair-priority-governor
 node_type: skill
-path: 07_SKILLS/amos-repair-priority-governor/SKILL.md
+path: 07_SKILLS/amos-repair-priority-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

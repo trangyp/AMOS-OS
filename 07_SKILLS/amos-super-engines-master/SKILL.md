@@ -301,7 +301,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when super specialization is needed
+- **Parent**: `` — routes to this skill when super specialization is needed
 - **Peers**: Other skills in the `super` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -372,10 +372,10 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 - `references/unipower_engines_layer.md` — loaded on demand
 - `references/unipower_tech_design_metabrain.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-super-engines-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
-- `[[amos-super-engines-master-workflow]]` — corresponding workflow
-- `[[amos-super-engines-master-agent]]` — corresponding agent
+- `` — skill Map of Content
+- `` — parent skill
+- `` — corresponding workflow
+- `` — corresponding agent
 
 
 ## Do not use

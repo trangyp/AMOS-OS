@@ -2473,7 +2473,7 @@ is the appropriate class.
 
 ---
 
-# 130. ADVERSARIAL VALIDATION
+# 130. ADVERSARIAL [[VALIDATION]]
 
 For consequential conflicts, challenge the conflict itself:
 
@@ -3673,7 +3673,7 @@ KnownGaps:
 
 ---
 
-# 178. CANON PROMOTION CHECKLIST
+# 178. [[CANON]] PROMOTION CHECKLIST
 
 ```text
 [ ] canonical location confirmed

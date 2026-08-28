@@ -178,7 +178,7 @@ RUNTIME ENFORCEMENT
 
 FORMAL PROOF
 
-EMPIRICAL VALIDATION
+EMPIRICAL [[VALIDATION]]
 
 COMPLETE NATIVE FEEDBACK LAW
 ```
@@ -307,7 +307,7 @@ feedback_canon_identity:
     01_CANON/01_CORE_LAWS
 
   artifact_kind:
-    CANON
+    [[CANON]]
 
   origin_architect:
     Trang Phan
@@ -500,9 +500,9 @@ SCOPE / REGIME BINDING
 ↓
 DEPENDENCY RESOLUTION
 ↓
-VALIDATION
+[[VALIDATION]]
 ↓
-CANON PROMOTION
+[[CANON]] PROMOTION
 ```
 
 No stage may be silently skipped.
@@ -834,7 +834,7 @@ EXTRACT
 ↓
 REWRITE AS GENERIC CONTROL THEORY
 ↓
-DECLARE AMOS CANON
+DECLARE AMOS [[CANON]]
 ```
 
 ---
@@ -1672,13 +1672,13 @@ A system may change state without satisfying any native definition of learning.
 ```text
 FEEDBACK
 !=
-MEMORY
+[[MEMORY]]
 ```
 
 and:
 
 ```text
-MEMORY
+[[MEMORY]]
 !=
 FEEDBACK
 ```
@@ -1816,7 +1816,7 @@ A system capable of generating feedback is not thereby authorized to mutate cano
 ```text
 FEEDBACK CAPABILITY
 !=
-CANON AUTHORITY
+[[CANON]] AUTHORITY
 ```
 
 This follows the supplied boundary:
@@ -2706,7 +2706,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 # 89. H-Layer Target
 
 ```text
-RSCF.AMOS.CANON.FEEDBACK.H.SYSTEM
+RSCF.AMOS.[[CANON]].FEEDBACK.H.SYSTEM
 ```
 
 Candidate responsibilities:
@@ -2740,7 +2740,7 @@ REGIME
 
 DEPENDENCIES
 
-VALIDATION
+[[VALIDATION]]
 
 SUPERSESSION
 
@@ -2790,7 +2790,7 @@ M.REGIME
 
 M.DEPENDENCIES
 
-M.VALIDATION
+M.[[VALIDATION]]
 
 M.SUPERSESSION
 
@@ -3113,7 +3113,7 @@ feedback_dependencies:
     UNKNOWN/GAP
 
   governance:
-    - LAW_HIERARCHY
+    - [[LAW_HIERARCHY]]
 
   implementation:
     UNKNOWN/GAP
@@ -3636,7 +3636,7 @@ FEEDBACK TREATED AS ADAPTATION
 
 ADAPTATION TREATED AS LEARNING
 
-FEEDBACK TREATED AS MEMORY
+FEEDBACK TREATED AS [[MEMORY]]
 
 FEEDBACK TREATED AS OPTIMIZATION
 
@@ -4516,9 +4516,9 @@ These references do not establish executable binding.
 # 151. Kernel Boundary
 
 ```text
-FEEDBACK CANON EXISTS
+FEEDBACK [[CANON]] EXISTS
 !=
-KERNEL ENFORCES FEEDBACK CANON
+KERNEL ENFORCES FEEDBACK [[CANON]]
 ```
 
 Current executable kernel binding:
@@ -4556,7 +4556,7 @@ COMMIT
 Observability may expose:
 
 ```text
-SIGNALS
+[[SIGNALS]]
 
 STATES
 
@@ -4678,7 +4678,7 @@ proof_capsule:
 
   dependencies:
     - AMOS_CANON_INGESTION_RULE
-    - LAW_HIERARCHY
+    - [[LAW_HIERARCHY]]
 
   competing_explanations: []
 
@@ -4885,7 +4885,7 @@ NOT_ESTABLISHED
 ```
 
 ```text
-VALIDATION
+[[VALIDATION]]
 =
 NOT_ESTABLISHED
 ```
@@ -4907,7 +4907,7 @@ and:
 DO NOT IMPORT GENERIC CONTROL-THEORY,
 CYBERNETIC, BIOLOGICAL, COGNITIVE,
 OR MACHINE-LEARNING DEFINITIONS
-AS NATIVE AMOS CANON
+AS NATIVE AMOS [[CANON]]
 ```
 
 and:
@@ -4940,7 +4940,7 @@ EXTRACT NATIVE DEFINITION
 +
 EXTRACT NATIVE LAW
 +
-TYPE SIGNALS
+TYPE [[SIGNALS]]
 +
 TYPE PATHS
 +
@@ -5028,7 +5028,7 @@ FEEDBACK != ADAPTATION
 
 ADAPTATION != LEARNING
 
-FEEDBACK != MEMORY
+FEEDBACK != [[MEMORY]]
 
 FEEDBACK != OPTIMIZATION
 
@@ -5204,7 +5204,7 @@ NEVER_INVENT_CANON
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:**  ·  · 
 
 ---
 
@@ -5272,23 +5272,23 @@ artifact_node_identity_relation: UNKNOWN/GAP
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+* GOVERNED_BY: 
 
-* TARGET_INTERACTS_WITH: [[KERNEL_README]]
+* TARGET_INTERACTS_WITH: 
 
-* TARGET_CONTROLLED_BY: [[CONTROL_PLANE_README]]
+* TARGET_CONTROLLED_BY: 
 
-* TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
+* TARGET_OBSERVED_BY: 
 
-* TARGET_RECOVERED_BY: [[OPERATIONS_README]]
+* TARGET_RECOVERED_BY: 
 
 ---
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
 ---
 

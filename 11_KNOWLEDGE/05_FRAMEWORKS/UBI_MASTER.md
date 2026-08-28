@@ -78,7 +78,7 @@ It coordinates biological intelligence across diagnostic scoring, real-time wear
          ┌───────────────────┬─────────────┴─────┬───────────────────┐
          ▼                   ▼                   ▼                   ▼
 DIAGNOSTIC SCORING     WEARABLE TELEMETRY   CROSS-SPECIES MODES  OS CONTROL PLANE
-• [[UBI_SCORE_FRAMEWORK]]• `UBI_WEARABLE_     • `UBI_CROSS_      • Paces token generation
+• • `UBI_WEARABLE_     • `UBI_CROSS_      • Paces token generation
 • Evaluates 4 domains  FRAMEWORK`             SPECIES_FUNCTIONAL_ • Blocks cognitive fatigue
 • Pinpoints bottlenecks• Live HRV & EMG        MODES`             • Sustains flow state
 ```

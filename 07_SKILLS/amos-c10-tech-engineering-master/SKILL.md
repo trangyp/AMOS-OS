@@ -240,9 +240,9 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - `references/total_technical_engine_universe.md` — loaded on demand
 - `references/unix_automated_tools.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-c10-tech-engineering-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-c10-tech-engineering-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-c10-tech-engineering-master-agent` — corresponding agent
 ---
 
@@ -256,7 +256,7 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 RSCF-NODE
 node_id: amos-c10-tech-engineering-master
 node_type: skill
-path: 07_SKILLS/amos-c10-tech-engineering-master/SKILL.md
+path: 07_SKILLS/amos-c10-tech-engineering-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -91,11 +91,11 @@ created: 2026-08-22
         "State colors are reserved for stat
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

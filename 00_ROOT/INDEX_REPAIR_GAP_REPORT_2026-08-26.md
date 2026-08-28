@@ -161,9 +161,9 @@ Extended bridge to cover ALL meaningful subdirectories:
 - **Cosmo_Brain external vault** has ~2,546 files in `node_modules/` and ~586 in other excluded dirs that are third-party dependencies, not brain content. These are deliberately excluded.
 - **1,107 broken wiki-links repaired** across 82+ AMOS_OS navigation files: section-style links converted to file links, skill display names redirected to bridge index, concept abbreviations de-wikilinked, path-style links corrected to actual filenames.
 - **4 stale MOC descriptions fixed** — 3 in `11_KNOWLEDGE_MOC.md` (bridge count 2,844→8,253, arXiv count 66,042→66,028/68,367), 1 in `00_ROOT_MOC.md` (arXiv entries 68,379→68,367).
-- **KNOWN GAP — External vault MOCs**: FIXED. The Cosmo_Brain external vault's 210 MOCs (under `docs/moc/`) had ~69,759 broken wiki-links. All fixed: 29 arXiv MOCs (66,026 paper links de-wikilinked + redirect notices to AMOS_OS), `00-Home.md` (2,304 agent refs de-wikilinked, 2 path-fixed to .json), `02-Skills-MOC.md` (772 de-wikilinked, 6 path-fixed to SKILL.md), 147 remaining MOCs (9 case-fixed, 647 de-wikilinked). Total: 69,759 → 0 real broken links.
+- **KNOWN GAP — External vault MOCs**: FIXED. The Cosmo_Brain external vault's 210 MOCs (under `docs/moc/`) had ~69,759 broken wiki-links. All fixed: 29 arXiv MOCs (66,026 paper links de-wikilinked + redirect notices to AMOS_OS), `00-Home.md` (2,304 agent refs de-wikilinked, 2 path-fixed to .json), `02-Skills-MOC.md` (772 de-wikilinked, 6 path-fixed to [[SKILL]].md), 147 remaining MOCs (9 case-fixed, 647 de-wikilinked). Total: 69,759 → 0 real broken links.
 
-## Falsifiers (per §6 of 00_ROOT_IDENTITY)
+## Falsifiers (per §6 of [[00_ROOT_IDENTITY]])
 
 - F1: if filesystem walk missed files → coverage claim is wrong. Mitigation: verified `find` count matches index count for all 3 zones.
 - F2: if MOC entries point to non-existent files → broken links. Mitigation: zone 2 verified all 1,551. Zone 3 verified 8,253 = 8,253.

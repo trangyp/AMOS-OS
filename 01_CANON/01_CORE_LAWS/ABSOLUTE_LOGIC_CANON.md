@@ -2564,8 +2564,8 @@ Canonical progression:
 EPHEMERAL OUTPUT
 → PERSISTENT EVIDENCE
 → VALIDATED KNOWLEDGE
-→ CANON CANDIDATE
-→ GOVERNED CANON
+→ [[CANON]] CANDIDATE
+→ GOVERNED [[CANON]]
 ```
 
 Each arrow requires its own justification.
@@ -3219,7 +3219,7 @@ Before `ABSOLUTE_LOGIC_CANON.md` may be promoted beyond candidate status:
 
 * [ ] authoritative native-canon source identified
 * [ ] historical logic lineage reconciled
-* [ ] overlap with [[ABSOLUTE_INTEGRITY_CANON]] reviewed
+* [ ] overlap with  reviewed
 * [ ] overlap with RSCF canon reviewed
 * [ ] overlap with H/M/L canon reviewed
 * [ ] law hierarchy position explicitly established
@@ -3297,8 +3297,8 @@ Target topology:
 01_CANON
 └── 01_CORE_LAWS
     ├── ABSOLUTE_LOGIC_CANON
-    ├── ABSOLUTE_INTEGRITY_CANON
-    └── LAW_HIERARCHY
+    ├── [[ABSOLUTE_INTEGRITY_CANON]]
+    └── [[LAW_HIERARCHY]]
 
 03_COGNITION_CANON
 ├── RSCF
@@ -3403,15 +3403,15 @@ RSCF_VALIDATION_RECEIPT
 
 CAUSAL_FIREWALL_VALIDATION_RECEIPT
 
-PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT
+[[PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT]]
 
-SCOPE_REGIME_VALIDATION_RECEIPT
+[[SCOPE_REGIME_VALIDATION_RECEIPT]]
 
 [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
 [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-ROLLBACK_VALIDATION_RECEIPT
+[[ROLLBACK_VALIDATION_RECEIPT]]
 ```
 
 Missing receipt:
@@ -3709,20 +3709,20 @@ ABSOLUTE_LOGIC
 │   ├── REGIME
 │   └── FRESHNESS
 │
-├── FRACTAL_REASONING
+├── [[FRACTAL_REASONING]]
 │   ├── H
 │   ├── M
 │   └── L
 │
 ├── TRANSACTIONAL_LOGIC
-│   ├── MVCC_CAS
+│   ├── [[MVCC_CAS]]
 │   ├── MULTI_RSCF
 │   └── CAUSAL_EPOCH
 │
 └── GOVERNED_EVOLUTION
     ├── ANTI_REGRESSION
     ├── LINEAGE
-    └── VALIDATION
+    └── [[VALIDATION]]
 ```
 
 ---
@@ -3765,7 +3765,7 @@ COMPETING             CLASSIFY
               ↓
           PROPOSAL
               ↓
-         VALIDATION
+         [[VALIDATION]]
               ↓
         AUTHORIZATION
               ↓
@@ -3981,15 +3981,15 @@ No downstream system should silently convert these gaps to `PASS`.
 
 # 165. MOC
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
-**Root:** [[00_HOME]]
+**Root:** 
 
-**RSCF Index:** [[AMOS_RSCF_NODES]]
+**RSCF Index:** 
 
-**Law Hierarchy:** [[LAW_HIERARCHY]]
+**Law Hierarchy:** 
 
-**Integrity Canon:** [[ABSOLUTE_INTEGRITY_CANON]]
+**Integrity Canon:** 
 
 ---
 
@@ -4031,12 +4031,12 @@ RSCF_NODE:
     scope, regime, or temporal validity.
 
   core_dependencies:
-    - LAW_HIERARCHY
-    - ABSOLUTE_INTEGRITY_CANON
+    - [[LAW_HIERARCHY]]
+    - [[ABSOLUTE_INTEGRITY_CANON]]
     - RSCF
     - H_M_L
     - PROVENANCE
-    - EPISTEMIC_REGIMES
+    - [[EPISTEMIC_REGIMES]]
     - GOVERNANCE
 
   unresolved:
@@ -4080,7 +4080,7 @@ RSCF_NODE:
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[01_CORE_LAWS_MOC]] · [[LAW_HIERARCHY]] · [[ABSOLUTE_INTEGRITY_CANON]]
+**Related:**  ·  ·  ·  · 
 
 ---
 

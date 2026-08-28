@@ -91,7 +91,7 @@ tags: [reports]
 # - **No Mysticism**: Pure engineering with state-space based design
 # - **Memory Safe**: All operations bounded and reversible
 #
-# ## 16GB MAC SAFETY VALIDATION
+# ## 16GB MAC SAFETY [[VALIDATION]]
 # **Hardware-aware constraints for safe operation**
 #
 # - **RAM Limit**: < 6GB usage (leaves 10GB for system)

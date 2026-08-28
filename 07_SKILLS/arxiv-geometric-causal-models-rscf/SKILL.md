@@ -225,9 +225,9 @@ falsifiers, and confidence ceilings.
 
 - `references/geometric_causal_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[arxiv-geometric-causal-models-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[arxiv-geometric-causal-models-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `arxiv-geometric-causal-models-rscf-agent` — corresponding agent
 ---
 
@@ -241,7 +241,7 @@ falsifiers, and confidence ceilings.
 RSCF-NODE
 node_id: arxiv-geometric-causal-models-rscf
 node_type: skill
-path: 07_SKILLS/arxiv-geometric-causal-models-rscf/SKILL.md
+path: 07_SKILLS/arxiv-geometric-causal-models-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

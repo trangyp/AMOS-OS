@@ -3123,7 +3123,7 @@ This artifact defines the framework-level object.
 Its structured Cognitive Matrix representation is:
 
 ```text
-[[AMOS_X_TRANG_REALITY_MATRIX]]
+
 ```
 
 Relationship:
@@ -3911,7 +3911,7 @@ Questions requiring explicit multi-axis matrix traversal should delegate
 to:
 
 ```text
-[[AMOS_X_TRANG_REALITY_MATRIX]]
+
 ```
 
 Examples:
@@ -4148,31 +4148,31 @@ typed artifacts
 Governed by:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 Matrix representation:
 
 ```text
-[[AMOS_X_TRANG_REALITY_MATRIX]]
+
 ```
 
 Kernel interaction:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 Control-plane gates:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 Observed by:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 but:
@@ -4186,17 +4186,17 @@ AUTHORITY
 Recovered through:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 Indexed through:
 
 ```text
-[[00_HOME]]
 
-[[AMOS_RSCF_NODES]]
 
-[[25_COGNITIVE_MATRIX_MOC]]
+
+
+
 ```
 
 ---

@@ -203,9 +203,9 @@ Invariant tensor kernel is a structural construct. It does not prove all invaria
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-invariant-tensor-kernel_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-formal-engines-master` — parent skill
-- `[[amos-invariant-tensor-kernel-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-invariant-tensor-kernel-agent` — corresponding agent
 ---
 
@@ -219,7 +219,7 @@ Invariant tensor kernel is a structural construct. It does not prove all invaria
 RSCF-NODE
 node_id: amos-invariant-tensor-kernel
 node_type: skill
-path: 07_SKILLS/amos-invariant-tensor-kernel/SKILL.md
+path: 07_SKILLS/amos-invariant-tensor-kernel/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

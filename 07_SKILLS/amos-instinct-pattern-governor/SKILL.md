@@ -197,9 +197,9 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-instinct-pattern-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-instinct-pattern-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-instinct-pattern-governor-agent` — corresponding agent
 ---
 
@@ -213,7 +213,7 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 RSCF-NODE
 node_id: amos-instinct-pattern-governor
 node_type: skill
-path: 07_SKILLS/amos-instinct-pattern-governor/SKILL.md
+path: 07_SKILLS/amos-instinct-pattern-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -168,9 +168,9 @@ No existing skill governs this composition operation. Only 3 cross-domain skills
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-cross-domain-tensor-composition-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-rscf-epistemic-master` — parent skill
-- `[[amos-cross-domain-tensor-composition-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-cross-domain-tensor-composition-governor-agent` — corresponding agent
 ---
 
@@ -184,7 +184,7 @@ No existing skill governs this composition operation. Only 3 cross-domain skills
 RSCF-NODE
 node_id: amos-cross-domain-tensor-composition-governor
 node_type: skill
-path: 07_SKILLS/amos-cross-domain-tensor-composition-governor/SKILL.md
+path: 07_SKILLS/amos-cross-domain-tensor-composition-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

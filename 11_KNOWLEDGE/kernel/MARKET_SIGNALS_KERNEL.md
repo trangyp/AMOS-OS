@@ -15,7 +15,7 @@ rscf:
 ---
 
 
-# MARKET SIGNALS KERNEL
+# MARKET [[SIGNALS]] KERNEL
 
 """AMOS logical component.
 

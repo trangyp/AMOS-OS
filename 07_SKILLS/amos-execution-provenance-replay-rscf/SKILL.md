@@ -227,9 +227,9 @@ Expanded test coverage in 3 existing test files:
 
 - `references/execution_provenance_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-execution-provenance-replay-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-security-safety-master` — parent skill
-- `[[amos-execution-provenance-replay-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-execution-provenance-replay-rscf-agent` — corresponding agent
 ---
 
@@ -243,7 +243,7 @@ Expanded test coverage in 3 existing test files:
 RSCF-NODE
 node_id: amos-execution-provenance-replay-rscf
 node_type: skill
-path: 07_SKILLS/amos-execution-provenance-replay-rscf/SKILL.md
+path: 07_SKILLS/amos-execution-provenance-replay-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

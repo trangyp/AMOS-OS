@@ -106,7 +106,7 @@ x & \text{nếu } x \text{ thỏa mãn ràng buộc} \\\
 $$### 4.4 Điều kiện sống sót cơ bản \$$\boxed{\text{Survive}(x) \iff E_L(x) < 0.1 \;\land\; 0.1 < E_M(x) < 0.2 \;\land\; E_H(x) < 0.3}$$
 ### 4.5 Điều kiện sống sót mở rộng (có lacunarity và Tát 2)
 \$$\boxed{\text{Survive}(x) \iff E_L(x) < 0.1 \;\land\; 0.1 < E_M(x) < 0.2 \;\land\; E_H(x) < 0.3 \;\land\; \Lambda_L(x) < 0.1 \;\land\; 0.1 < \Lambda_M(x) < 0.3 \;\land\; 0.2 < \Lambda_H(x) < 0.5 \;\land\; \mathcal{T}_2(x) = \text{True}}
-$$* * * ## NHÓM 5: TÁT 2 (CROSS-VALIDATION) ### 5.1 Định nghĩa \$$\boxed{\mathcal{T}_2(\text{claim}) = \bigwedge_{i=1}^{n} \text{source}_i(\text{claim}), \quad n \ge 2}$$
+$$* * * ## NHÓM 5: TÁT 2 (CROSS-[[VALIDATION]]) ### 5.1 Định nghĩa \$$\boxed{\mathcal{T}_2(\text{claim}) = \bigwedge_{i=1}^{n} \text{source}_i(\text{claim}), \quad n \ge 2}$$
 ### 5.2 Xác suất đúng khi có Tát 2
 \$$\boxed{P_{\text{correct}}(\mathcal{T}_2) = 1 - \prod_{i=1}^{n} (1 - P_i)}
 \$$\$P_i\$: xác suất đúng của từng nguồn \$i\$

@@ -6,7 +6,7 @@ tags:
 - kernel.md
 ---
 
-# AGENTS AMOS OS KERNEL — Full Canonical Expansion
+# [[AGENTS]] AMOS OS KERNEL — Full Canonical Expansion
 
 ## 0. Canonical Status
 
@@ -3101,11 +3101,11 @@ It does not prove a filesystem path exists in a running host.
 The source supplies:
 
 ```text
-[[00_HOME]]
-[[KNOWLEDGE_MOC]]
-[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-[[SYSTEM_SCAN_AGENT]]
-[[AUTOMATION_PROFILES]]
+
+
+
+
+
 ```
 
 ---
@@ -3133,7 +3133,7 @@ without explicit binding.
 The source supplies:
 
 ```text
-[[KERNEL_MOC]]
+
 ```
 
 as its MOC.
@@ -3148,12 +3148,12 @@ This supports indexing/navigation.
 
 ```yaml
 RSCF_RELATIONS:
-  - INDEXED_BY: "[[KERNEL_MOC]]"
-  - RELATED_TO: "[[00_HOME]]"
-  - RELATED_TO: "[[KNOWLEDGE_MOC]]"
-  - RELATED_TO: "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
-  - RELATED_TO: "[[SYSTEM_SCAN_AGENT]]"
-  - RELATED_TO: "[[AUTOMATION_PROFILES]]"
+  - INDEXED_BY: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
 ```
 
 These relation labels are inferred from the source formatting.
@@ -3192,7 +3192,7 @@ $$
 
 # 208. Kernel MOC Role
 
-`[[KERNEL_MOC]]` is the strongest explicit organizational parent/index reference.
+`` is the strongest explicit organizational parent/index reference.
 
 Do not infer operational parentage unless MOC semantics establish it.
 
@@ -6175,7 +6175,7 @@ epistemic_class: DERIVED
 # AMOS Model ABI
 
 Source-defined boundary behind which the model operates as a
-"cognitive worker" in [[AGENTS AMOS OS KERNEL]].
+"cognitive worker" in .
 
 Exact ABI schema: UNKNOWN/GAP.
 ```
@@ -6198,7 +6198,7 @@ epistemic_class: DERIVED
 The model may read only context handles admitted for the
 nontrivial task.
 
-[[AGENTS AMOS OS KERNEL]]
+
 ```
 
 ---
@@ -6214,7 +6214,7 @@ epistemic_class: SOURCE_CLAIM
 
 # AMOS Authority Tokens
 
-[[AGENTS AMOS OS KERNEL]] prohibits tool execution without
+ prohibits tool execution without
 authority tokens.
 
 Exact token protocol: UNKNOWN/GAP.
@@ -6234,7 +6234,7 @@ epistemic_class: DERIVED
 # AMOS Persistent Memory Firewall
 
 Model-side direct persistent-memory mutation is prohibited by
-[[AGENTS AMOS OS KERNEL]].
+.
 
 Authorized mutation path: UNKNOWN/GAP.
 ```
@@ -6255,7 +6255,7 @@ epistemic_class: DERIVED
 `MODEL` must not be promoted to `VERIFIED` by the model
 without the governed validation path.
 
-[[AGENTS AMOS OS KERNEL]]
+
 ```
 
 ---
@@ -6274,7 +6274,7 @@ epistemic_class: DERIVED
 `COMPETING` hypotheses remain competing until discriminating
 evidence exists.
 
-[[AGENTS AMOS OS KERNEL]]
+
 ```
 
 ---
@@ -6293,7 +6293,7 @@ epistemic_class: DERIVED
 Correlated evidence must not be represented as independent
 confirmation.
 
-[[AGENTS AMOS OS KERNEL]]
+
 ```
 
 ---
@@ -6313,7 +6313,7 @@ AMOS conceptual mechanisms must not be represented as
 distributed host-runtime guarantees unless the host actually
 implements those guarantees.
 
-[[AGENTS AMOS OS KERNEL]]
+
 ```
 
 ---
@@ -8029,13 +8029,13 @@ PROPOSED.
 
 ```yaml
 RSCF_RELATIONS:
-  - INDEXED_BY: "[[KERNEL_MOC]]"
-  - RELATED_TO: "[[00_HOME]]"
-  - RELATED_TO: "[[KNOWLEDGE_MOC]]"
-  - RELATED_TO: "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
-  - RELATED_TO: "[[SYSTEM_SCAN_AGENT]]"
-  - RELATED_TO: "[[AUTOMATION_PROFILES]]"
-  - STRUCTURALLY_COMPLEMENTS: "[[AGENTS AMOS EXECUTION KERNEL V1]]"
+  - INDEXED_BY: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
+  - STRUCTURALLY_COMPLEMENTS: ""
 ```
 
 The final relation is DERIVED from the supplied pair of artifacts and was not present in the source.
@@ -8075,28 +8075,28 @@ These are **knowledge dependencies required to fully resolve the artifact**, not
 ```markdown
 ## Kernel Architecture
 
-- [[AGENTS AMOS EXECUTION KERNEL V1]]
-- [[AGENTS AMOS OS KERNEL]]
-- [[AMOS Model ABI]]
-- [[AMOS Proof Engine]]
-- [[AMOS Policy Engine]]
-- [[AMOS Transaction Manager]]
-- [[AMOS Finalizer]]
-- [[AMOS Authority Tokens]]
-- [[AMOS Persistent Memory Contract]]
-- [[AMOS Host Runtime Capability Contract]]
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
+- 
 
 ## Related
 
-- [[00_HOME]]
-- [[KNOWLEDGE_MOC]]
-- [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-- [[SYSTEM_SCAN_AGENT]]
-- [[AUTOMATION_PROFILES]]
+- 
+- 
+- 
+- 
+- 
 
 ## MOC
 
-- [[KERNEL_MOC]]
+- 
 ```
 
 Only the original Related/MOC links are source-grounded; the architecture links are proposed.

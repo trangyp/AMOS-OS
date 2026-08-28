@@ -209,9 +209,9 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-causal-hierarchy-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-causal-reasoning-master` — parent skill
-- `[[amos-causal-hierarchy-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-causal-hierarchy-governor-agent` — corresponding agent
 ---
 
@@ -225,7 +225,7 @@ Causal hierarchy governance is an epistemic construct. It does not prove causati
 RSCF-NODE
 node_id: amos-causal-hierarchy-governor
 node_type: skill
-path: 07_SKILLS/amos-causal-hierarchy-governor/SKILL.md
+path: 07_SKILLS/amos-causal-hierarchy-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

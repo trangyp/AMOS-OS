@@ -207,9 +207,9 @@ OS Kernel is a runtime architecture. It does not prove all state is typed, that 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-os-kernel_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-os-kernel-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-os-kernel-agent` — corresponding agent
 ---
 
@@ -223,7 +223,7 @@ OS Kernel is a runtime architecture. It does not prove all state is typed, that 
 RSCF-NODE
 node_id: amos-os-kernel
 node_type: skill
-path: 07_SKILLS/amos-os-kernel/SKILL.md
+path: 07_SKILLS/amos-os-kernel/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

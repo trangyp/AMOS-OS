@@ -193,11 +193,11 @@ GOOD: Social pain activates overlapping neural substrates in dorsal anterior cin
         "coordination_and_collaboration": "Team coordination, roles, interdependencies, communication, trust, psychological safe
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

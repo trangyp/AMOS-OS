@@ -8,7 +8,7 @@ tags:
 - governor
 ---
 
-# AMOS LEARNING MEMORY KNOWLEDGE FEEDBACK GOVERNOR
+# AMOS LEARNING [[MEMORY]] KNOWLEDGE FEEDBACK GOVERNOR
 
 ## Full Canonical Content + Tags + RSCF + Obsidian Integration
 
@@ -2767,7 +2767,7 @@ INDEXED_BY:
 Related links also include:
 
 ```text
-[[KNOWLEDGE_MOC]]
+
 ```
 
 The artifact does not explicitly establish whether:
@@ -2779,7 +2779,7 @@ The artifact does not explicitly establish whether:
 and:
 
 ```text
-[[KNOWLEDGE_MOC]]
+
 ```
 
 are exact aliases for the same note.
@@ -2791,16 +2791,16 @@ Likely correspondence should remain **DERIVED** unless vault alias metadata conf
 # 116. Related — SOURCE
 
 ```markdown
-[[00_HOME]]
-[[KNOWLEDGE_MOC]]
-[[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
-[[AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR]]
+
+
+
+
 ```
 
 MOC:
 
 ```markdown
-[[KNOWLEDGE_MOC]]
+
 ```
 
 ---
@@ -3386,7 +3386,7 @@ Do not infer from this artifact alone that:
 27. Full Brain OS implements this exact loop;
 28. Tensor Contracts define this exact transition schema;
 29. the parent skill relation direction is resolved;
-30. `11_KNOWLEDGE_MOC` and `[[KNOWLEDGE_MOC]]` are definitely identical;
+30. `11_KNOWLEDGE_MOC` and `` are definitely identical;
 31. drift capabilities 5 and 9 are semantically identical;
 32. the loop cannot self-reinforce;
 33. provenance automatically guarantees independence;

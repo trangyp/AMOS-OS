@@ -227,9 +227,9 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/science_engine_sector_packs.md` — loaded on demand
 - `references/scientific_engine_layer.md` — loaded on demand
 - `references/scientific_engine_vinfinity.md` — loaded on demand
-- `[[amos-knowledge-research-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-knowledge-research-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-knowledge-research-master-agent` — corresponding agent
 ---
 
@@ -243,7 +243,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-knowledge-research-master
 node_type: skill
-path: 07_SKILLS/amos-knowledge-research-master/SKILL.md
+path: 07_SKILLS/amos-knowledge-research-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

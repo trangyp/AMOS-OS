@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# INDEX L29 EVOLUTION PRIMITIVES COGNITIVE MATRIX README
+# INDEX L29 EVOLUTION PRIMITIVES COGNITIVE MATRIX [[README]]
 
 ## Index
 - See also — [[L29_EVOLUTION_MAP]]
@@ -44,14 +44,14 @@ Given an operation touching `L29 EVOLUTION PRIMITIVES COGNITIVE MATRIX README` w
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 RSCF-NODE

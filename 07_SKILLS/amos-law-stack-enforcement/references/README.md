@@ -16,9 +16,9 @@ rscf:
 
 # References — amos-law-stack-enforcement
 
-No reference files yet. Canonical content lives in SKILL|SKILL.md and in the Hermes-side skill of the same name (`~/.hermes/skills/amos-law-stack-enforcement/`). This directory is an EMPTY-BY-HONESTY placeholder: entries are added only with real source provenance, never fabricated.
+No reference files yet. Canonical content lives in [[SKILL]]|[[SKILL]].md and in the Hermes-side skill of the same name (`~/.hermes/skills/amos-law-stack-enforcement/`). This directory is an EMPTY-BY-HONESTY placeholder: entries are added only with real source provenance, never fabricated.
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Links:** [[SKILL]]
@@ -35,9 +35,9 @@ No reference files yet. Canonical content lives in SKILL|SKILL.md and in the Her
 
 ---
 RSCF-NODE
-node_id: amos-law-stack-enforcement-README
+node_id: amos-law-stack-enforcement-[[README]]
 node_type: reference
-path: 07_SKILLS/amos-law-stack-enforcement/references/README.md
+path: 07_SKILLS/amos-law-stack-enforcement/references/[[README]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

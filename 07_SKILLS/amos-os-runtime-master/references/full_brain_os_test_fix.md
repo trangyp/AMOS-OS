@@ -79,7 +79,7 @@ TS suites:        1,142 tests, 0 failures
 | SPIFFE/SPIRE (CNCF grad.) | ERA workload_identity | node AND workload attestation, SPIFFE ID/SVID issuance, AI-agent identity management |
 | ActPlane | OS reference monitor layer | eBPF/BPF-LSM info-flow DSL across process lineage trees; corrective hooks to Claude Code/Codex |
 | NVIDIA OpenShell | environment/enforcement epochs | static filesystem (Landlock) vs hot-reloadable network policy w/ generation-pinned connections — direct analog of epoch freshness; REST/WS/GraphQL/MCP inspection; fail-closed middleware |
-| agent-ledger | EFFECT_RELEASE_STATE | idempotency+replay, intent-bound approvals (no arg drift), started/succeeded ledger states for ambiguous crashes — independent production confirmation of v42 design |
+| agent-ledger | [[EFFECT_RELEASE_STATE]] | idempotency+replay, intent-bound approvals (no arg drift), started/succeeded ledger states for ambiguous crashes — independent production confirmation of v42 design |
 | gVisor/Firecracker | isolation layers | unchanged |
 
 Notable corroboration: agent-ledger's started/succeeded ledger-state split independently confirms AMOS's EXTERNALIZED_UNKNOWN→RECONCILE_EFFECT handling matches current production practice.

@@ -308,7 +308,7 @@ does not imply:
 C = VERIFIED
 ```
 
-Documentation, README files, design notes, generated specifications, and repository comments remain `SOURCE_CLAIM` unless independently validated.
+Documentation, [[README]] files, design notes, generated specifications, and repository comments remain `SOURCE_CLAIM` unless independently validated.
 
 ---
 
@@ -2892,7 +2892,7 @@ RSCF-RELATIONS:
 ## Related
 
 [[README]] ·
-00_ROOT_MOC|AMOS MOC ·
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[SYSTEM_MAP]] ·
 NAMING_STANDARD ·
@@ -2921,7 +2921,7 @@ ALIASES ·
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

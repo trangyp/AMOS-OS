@@ -200,9 +200,9 @@ The skill creator is an operational process. It does not prove skills are always
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[skill-creator_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-agent-systems-master` — parent skill
-- `[[skill-creator-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `skill-creator-agent` — corresponding agent
 ---
 
@@ -216,7 +216,7 @@ The skill creator is an operational process. It does not prove skills are always
 RSCF-NODE
 node_id: skill-creator
 node_type: skill
-path: 07_SKILLS/skill-creator/SKILL.md
+path: 07_SKILLS/skill-creator/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -983,7 +983,7 @@ The missing counterfactual must be inferred through an appropriately justified m
 
 ---
 
-# 42. Relationship to K_COUNTERFACTUAL
+# 42. Relationship to [[K_COUNTERFACTUAL]]
 
 `K_COUNTERFACTUAL` governs the logical construction and evaluation of counterfactual branches.
 
@@ -1868,7 +1868,7 @@ They solve different ordering problems.
 
 ---
 
-# 78. Relationship to K_CORE19_LOGIC
+# 78. Relationship to [[K_CORE19_LOGIC]]
 
 Core logical consistency is prerequisite to causal reasoning.
 
@@ -1886,7 +1886,7 @@ CAUSAL VALIDATION
 
 ---
 
-# 79. Relationship to K_META_LOGIC
+# 79. Relationship to [[K_META_LOGIC]]
 
 `K_META_LOGIC` governs reasoning about reasoning structures.
 
@@ -2375,7 +2375,7 @@ WITH FLUENT EXPLANATION.
 ## Related
 
 [[README]] ·
-00_ROOT_MOC|AMOS MOC ·
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
@@ -2396,10 +2396,10 @@ WITH FLUENT EXPLANATION.
 [[K_COUNTERFACTUAL]] ·
 [[K_METACOGNITION]] ·
 [[K_MULTI_HYPOTHESIS]] ·
-README ·
-README ·
-README ·
-README ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
 [[CONTROL_PLANE_MAP]] ·
 [[RUNTIME_MAP]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
@@ -2412,7 +2412,7 @@ README ·
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# CONTROL PLANE VALIDATION
+# CONTROL PLANE [[VALIDATION]]
 
 ## 0. Status
 Control Plane-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.

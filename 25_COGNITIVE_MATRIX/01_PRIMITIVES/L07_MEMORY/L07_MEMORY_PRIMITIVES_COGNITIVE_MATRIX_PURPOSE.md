@@ -28,7 +28,7 @@ Covers write gating, consolidation thresholds, retrieval diversity, and falsific
 
 ## Purpose
 
-MEMORY.
+[[MEMORY]].
 
 Durable storage of consolidated knowledge with trust-state lifecycle (TRUSTED → PROVISIONAL → QUARANTINED → …).
 
@@ -43,7 +43,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 RSCF-NODE

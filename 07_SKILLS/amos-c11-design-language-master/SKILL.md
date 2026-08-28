@@ -231,9 +231,9 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/tech_expanded_design_engine.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `references/vietnamese_writing_engine.md` — loaded on demand
-- `[[amos-c11-design-language-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-c11-design-language-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-c11-design-language-master-agent` — corresponding agent
 ---
 
@@ -247,7 +247,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-c11-design-language-master
 node_type: skill
-path: 07_SKILLS/amos-c11-design-language-master/SKILL.md
+path: 07_SKILLS/amos-c11-design-language-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

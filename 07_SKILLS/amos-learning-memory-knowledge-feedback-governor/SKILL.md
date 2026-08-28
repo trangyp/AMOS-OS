@@ -188,9 +188,9 @@ The loop has 4 transition types:
 - `references/mvp_ai_roleplay_language_learning.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-learning-memory-knowledge-feedback-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[amos-learning-memory-knowledge-feedback-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-learning-memory-knowledge-feedback-governor-agent` — corresponding agent
 ---
 
@@ -204,7 +204,7 @@ The loop has 4 transition types:
 RSCF-NODE
 node_id: amos-learning-memory-knowledge-feedback-governor
 node_type: skill
-path: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/SKILL.md
+path: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

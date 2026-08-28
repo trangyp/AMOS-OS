@@ -265,9 +265,9 @@ Prevention
 
 - `references/memory_optimization_for_kv_cache.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[arxiv-kv-cache-quantization-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[arxiv-kv-cache-quantization-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `arxiv-kv-cache-quantization-rscf-agent` — corresponding agent
 ---
 
@@ -281,7 +281,7 @@ Prevention
 RSCF-NODE
 node_id: arxiv-kv-cache-quantization-rscf
 node_type: skill
-path: 07_SKILLS/arxiv-kv-cache-quantization-rscf/SKILL.md
+path: 07_SKILLS/arxiv-kv-cache-quantization-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

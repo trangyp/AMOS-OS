@@ -237,9 +237,9 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 
 - `references/asymptotic_transcendence.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-sae-benchmark-reliability-rscf-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-sae-benchmark-reliability-rscf-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-sae-benchmark-reliability-rscf-engine-agent` — corresponding agent
 ---
 
@@ -253,7 +253,7 @@ From C02 Math & Compute: Sparse Autoencoder (SAE) benchmarking and reliability. 
 RSCF-NODE
 node_id: amos-sae-benchmark-reliability-rscf-engine
 node_type: skill
-path: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/SKILL.md
+path: 07_SKILLS/amos-sae-benchmark-reliability-rscf-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

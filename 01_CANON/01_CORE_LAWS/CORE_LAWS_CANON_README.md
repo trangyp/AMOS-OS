@@ -119,7 +119,7 @@ RUNTIME CONSUMPTION
 
 These functions MUST remain distinguishable.
 
-A navigational README does not itself perform runtime enforcement.
+A navigational [[README]] does not itself perform runtime enforcement.
 
 A canonical law does not automatically have executable enforcement.
 
@@ -287,7 +287,7 @@ AMOS CANON
 
 The exact complete canonical hierarchy remains dependent on authoritative source recovery and canon approval.
 
-Therefore this README MUST NOT claim that this representation is the exhaustive final AMOS canon hierarchy.
+Therefore this [[README]] MUST NOT claim that this representation is the exhaustive final AMOS canon hierarchy.
 
 ---
 
@@ -1053,7 +1053,7 @@ A mature Core Law control plane SHOULD be able to:
 - record canon decisions;
 - support rollback and recovery.
 
-This README specifies those requirements conceptually.
+This [[README]] specifies those requirements conceptually.
 
 It does not claim that all are currently implemented.
 
@@ -1204,61 +1204,61 @@ The canon governor explicitly treats completeness as scoped and states that abse
 
 # 35. Failure Modes
 
-## CL-README-FM001 — File-location promotion
+## CL-[[README]]-FM001 — File-location promotion
 
 A document is assumed canonical solely because it resides under `01_CANON`.
 
 **Response:** reject promotion; resolve canonical status independently.
 
-## CL-README-FM002 — Generated-law promotion
+## CL-[[README]]-FM002 — Generated-law promotion
 
 Generated material is treated as source canon.
 
 **Response:** downgrade to `AMOS_MODEL`, `DERIVED`, or `CANDIDATE`.
 
-## CL-README-FM003 — Missing provenance
+## CL-[[README]]-FM003 — Missing provenance
 
 A law cannot be traced to an admissible origin.
 
 **Response:** `UNKNOWN/GAP` or quarantine.
 
-## CL-README-FM004 — Alias duplication
+## CL-[[README]]-FM004 — Alias duplication
 
 One law appears as multiple independent laws.
 
 **Response:** identity resolution and `MERGE_ALIAS` where supported.
 
-## CL-README-FM005 — Silent supersession
+## CL-[[README]]-FM005 — Silent supersession
 
 A newer artifact replaces an older law without explicit lineage.
 
 **Response:** block supersession.
 
-## CL-README-FM006 — Scope leakage
+## CL-[[README]]-FM006 — Scope leakage
 
 A scoped law is generalized beyond its applicability envelope.
 
 **Response:** restore scope and invalidate unsupported descendants.
 
-## CL-README-FM007 — Canon/empirical collapse
+## CL-[[README]]-FM007 — Canon/empirical collapse
 
 AMOS canon is represented as scientific fact.
 
 **Response:** restore epistemic classification.
 
-## CL-README-FM008 — Policy/law collapse
+## CL-[[README]]-FM008 — Policy/law collapse
 
 A policy is treated as a Core Law.
 
 **Response:** restore object type and hierarchy.
 
-## CL-README-FM009 — Capability/authority collapse
+## CL-[[README]]-FM009 — Capability/authority collapse
 
 Technical ability to modify canon is treated as permission.
 
 **Response:** reject mutation pending authority.
 
-## CL-README-FM010 — Conflict suppression
+## CL-[[README]]-FM010 — Conflict suppression
 
 Incompatible canonical candidates are silently merged.
 
@@ -1407,43 +1407,43 @@ validate_registry_consistency()
 
 # 40. Tests
 
-## CL-README-T001
+## CL-[[README]]-T001
 
 A placeholder MUST NOT validate as a Core Law.
 
-## CL-README-T002
+## CL-[[README]]-T002
 
 A generated candidate MUST NOT self-promote to canon.
 
-## CL-README-T003
+## CL-[[README]]-T003
 
 A Core Law without stable identity MUST fail canonical completeness validation.
 
-## CL-README-T004
+## CL-[[README]]-T004
 
 A Core Law without provenance MUST NOT receive unconditional canonical promotion.
 
-## CL-README-T005
+## CL-[[README]]-T005
 
 A newer file MUST NOT automatically supersede an older law.
 
-## CL-README-T006
+## CL-[[README]]-T006
 
 A lower-level policy MUST NOT silently override a higher applicable Core Law.
 
-## CL-README-T007
+## CL-[[README]]-T007
 
 A scoped law MUST NOT automatically generalize beyond its scope.
 
-## CL-README-T008
+## CL-[[README]]-T008
 
 A `MODEL` object MUST NOT automatically validate as empirical truth.
 
-## CL-README-T009
+## CL-[[README]]-T009
 
 A conflicting candidate MUST remain visible until governed resolution.
 
-## CL-README-T010
+## CL-[[README]]-T010
 
 `UNKNOWN/GAP` MUST NOT satisfy a required validator.
 
@@ -1487,7 +1487,7 @@ Rollback preserves failed-version provenance.
 
 # 42. Falsifiers
 
-This README's proposed governance contract should be rejected or revised if authoritative AMOS canon establishes that:
+This [[README]]'s proposed governance contract should be rejected or revised if authoritative AMOS canon establishes that:
 
 - Core Laws are intentionally unversioned;
 - law provenance is intentionally irrelevant;
@@ -1529,7 +1529,7 @@ No single confidence value should conceal these distinctions.
 
 # 44. Confidence Ceiling
 
-Because the complete authoritative Core Law inventory and its admitted canonical hierarchy have not been established by this README:
+Because the complete authoritative Core Law inventory and its admitted canonical hierarchy have not been established by this [[README]]:
 
 ```yaml
 confidence_ceiling:
@@ -1664,7 +1664,7 @@ confidence_ceiling: 0
 
 # 47. Required Promotion Surface
 
-Before this README or its proposed organization is promoted to admitted canonical status, establish or approve:
+Before this [[README]] or its proposed organization is promoted to admitted canonical status, establish or approve:
 
 - authoritative source references;
 - complete Core Law inventory for the declared scope;
@@ -1834,7 +1834,7 @@ This artifact therefore replaces the empty structural placeholder but does **not
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -1860,7 +1860,7 @@ RSCF-RELATIONS:
 
 - INDEXED_BY: [[00_HOME]]
 
-- INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
 - GOVERNED_BY: CANON_CONTRACT
 
@@ -1872,7 +1872,7 @@ RSCF-RELATIONS:
 
 - DEPENDS_ON: AUTHORITY
 
-- RELATED_TO: AMOS_RSCF_NODES
+- RELATED_TO: [[AMOS_RSCF_NODES]]
 
 claim_class: AMOS_MODEL
 

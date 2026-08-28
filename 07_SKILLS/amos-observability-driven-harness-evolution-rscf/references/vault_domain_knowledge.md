@@ -356,11 +356,11 @@ class Formula:
             args_str = ", ".join(repr(a) for a in
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

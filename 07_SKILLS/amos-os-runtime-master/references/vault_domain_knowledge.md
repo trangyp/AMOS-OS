@@ -166,7 +166,7 @@ canonical supersession across vInfinity and v4.4.
 
 ---
 
-AMOS MOC
+[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

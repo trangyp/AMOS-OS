@@ -47,7 +47,7 @@ license: MIT
 steward: Trang Phan
 ---
 
-# AGENTS README
+# [[AGENTS]] [[README]]
 
 ## Identity
 
@@ -83,7 +83,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `06_AGENTS/AGENTS_README.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# AGENTS README
+# [[AGENTS]] [[README]]
 
 ## Purpose
 `AGENTS README` is the package readme for the **Agents** plane segment at `06_AGENTS`.
@@ -208,9 +208,9 @@ Given an operation touching `AGENTS README` within the Agents plane:
 - `references/fabrication_engine_layer.md` — loaded on demand
 - `references/os_agent_model.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-agent-systems-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-agent-systems-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-agent-systems-master-agent` — corresponding agent
 ---
 
@@ -224,7 +224,7 @@ Given an operation touching `AGENTS README` within the Agents plane:
 RSCF-NODE
 node_id: amos-agent-systems-master
 node_type: skill
-path: 07_SKILLS/amos-agent-systems-master/SKILL.md
+path: 07_SKILLS/amos-agent-systems-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

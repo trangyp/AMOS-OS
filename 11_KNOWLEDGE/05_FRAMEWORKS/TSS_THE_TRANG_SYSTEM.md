@@ -73,8 +73,8 @@ epistemic_boundary:
 `TSS_THE_TRANG_SYSTEM.md` is the canonical Knowledge Plane reference artifact for **The Trang System™ (TSS)** within `11_KNOWLEDGE/05_FRAMEWORKS`.
 
 It integrates the foundational models established in native vault manuals:
-* [`11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL.md)
-* [`11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M.md)
+* [`11_KNOWLEDGE/trang/TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/[[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]].md)
+* [`11_KNOWLEDGE/trang/THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M.md`](file:///Users/mac/Documents/AMOS_OS/11_KNOWLEDGE/trang/[[THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M]].md)
 
 ---
 

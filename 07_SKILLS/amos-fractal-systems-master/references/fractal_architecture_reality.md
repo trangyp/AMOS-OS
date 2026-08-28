@@ -22,7 +22,7 @@ rscf:
 ---
 tags: [fractal]
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>KIẾN TRÚC PHÂN DẠNG (FRACTAL ARCHITECTURE) CỦA THỰC TẠI</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>KIẾN TRÚC PHÂN DẠNG (FRACTAL [[ARCHITECTURE]]) CỦA THỰC TẠI</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {

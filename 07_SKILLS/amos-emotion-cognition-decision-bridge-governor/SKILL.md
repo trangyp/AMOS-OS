@@ -168,9 +168,9 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-emotion-cognition-decision-bridge-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-emotion-cognition-decision-bridge-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-emotion-cognition-decision-bridge-governor-agent` — corresponding agent
 ---
 
@@ -184,7 +184,7 @@ The `_00_Cosmo brain` exploration explicitly identified this gap: *"Emotion ↔ 
 RSCF-NODE
 node_id: amos-emotion-cognition-decision-bridge-governor
 node_type: skill
-path: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/SKILL.md
+path: 07_SKILLS/amos-emotion-cognition-decision-bridge-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

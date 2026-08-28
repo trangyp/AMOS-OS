@@ -18,7 +18,7 @@ rscf:
 
 > **Source**: AMOS_OS Obsidian vault and Cosmo Brain vault (`_00_Cosmo brain/`)
 
-## 1. Tensor Compatibility Invariant (TENSOR_CONTRACTS.md)
+## 1. Tensor Compatibility Invariant ([[TENSOR_CONTRACTS]].md)
 
 The canonical tensor contracts define 6 typed tensors:
 
@@ -140,7 +140,7 @@ Each domain has explicit anti-overclaim firewalls that must be preserved across 
 - C11: "Aesthetic judgments are VALUES, not FACTS"
 - C12: "A project is not ecologically beneficial merely because it contains vegetation (greenwashing firewall)"
 
-## 9. Relation Tensor (RELATION_TENSOR.md)
+## 9. Relation Tensor ([[RELATION_TENSOR]].md)
 
 The relation tensor R_ij represents typed relations between AMOS objects:
 

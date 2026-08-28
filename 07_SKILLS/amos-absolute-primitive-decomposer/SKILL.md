@@ -204,9 +204,9 @@ Absolute primitive decomposition is an analytical method. It does not prove the 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-absolute-primitive-decomposer_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-absolute-primitive-decomposer-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-absolute-primitive-decomposer-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Absolute primitive decomposition is an analytical method. It does not prove the 
 RSCF-NODE
 node_id: amos-absolute-primitive-decomposer
 node_type: skill
-path: 07_SKILLS/amos-absolute-primitive-decomposer/SKILL.md
+path: 07_SKILLS/amos-absolute-primitive-decomposer/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

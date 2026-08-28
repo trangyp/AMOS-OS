@@ -14,9 +14,9 @@ rscf:
 ---
 
 
-# SKILL MAP
+# [[SKILL]] MAP
 
-## Map — SKILL MAP
+## Map — [[SKILL]] MAP
 Navigation map for the `07_SKILLS/00_INDEX` segment of the Skills plane.
 
 - **Readme** — [[INDEX_SKILLS_README]]
@@ -54,14 +54,14 @@ Given an operation touching `SKILL MAP` within the Skills plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

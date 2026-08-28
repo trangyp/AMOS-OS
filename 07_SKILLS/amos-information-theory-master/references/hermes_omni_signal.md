@@ -140,11 +140,11 @@ class CanonicalSignal:
     confidence:
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

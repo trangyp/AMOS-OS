@@ -16,7 +16,7 @@ rscf:
 ---
 # MODE ADMISSION QUEUE
 
-`MODE_ADMISSION_QUEUE.md` currently contains only a generic README placeholder, so there is no substantive existing file to reproduce verbatim.  There is, however, a related AMOS structural placeholder for `25_CANON_ADMISSION_MODE.md` whose required contract explicitly calls for candidate/schema/provenance/contradiction/scope/authority/admitted/rejected state, transition graphs, entry/exit conditions, provenance, RSCF/GMEF, H/M/L, event bus, MVCC/read-set dependencies, observability, repair, tests, and supersession.
+`MODE_ADMISSION_QUEUE.md` currently contains only a generic [[README]] placeholder, so there is no substantive existing file to reproduce verbatim.  There is, however, a related AMOS structural placeholder for `25_CANON_ADMISSION_MODE.md` whose required contract explicitly calls for candidate/schema/provenance/contradiction/scope/authority/admitted/rejected state, transition graphs, entry/exit conditions, provenance, RSCF/GMEF, H/M/L, event bus, MVCC/read-set dependencies, observability, repair, tests, and supersession.
 
 ---
 artifact_id: AMOS-OS-MODE-ADMISSION-QUEUE
@@ -1219,7 +1219,7 @@ where evidence exists.
 
 ---
 
-# 52. EMPIRICAL VALIDATION BOUNDARY
+# 52. EMPIRICAL [[VALIDATION]] BOUNDARY
 
 One successful execution does not establish universal validity.
 
@@ -1331,7 +1331,7 @@ seek the cheapest test or evidence that distinguishes them materially.
 
 ---
 
-# 58. VALIDATION CONTRACT
+# 58. [[VALIDATION]] CONTRACT
 
 Conceptually:
 
@@ -1365,7 +1365,7 @@ Not every admission requires runtime execution.
 
 ---
 
-# 59. SCHEMA VALIDATION
+# 59. SCHEMA [[VALIDATION]]
 
 Check:
 
@@ -1383,7 +1383,7 @@ NO IMPOSSIBLE INTERNAL COMBINATION
 
 ---
 
-# 60. SEMANTIC VALIDATION
+# 60. SEMANTIC [[VALIDATION]]
 
 Check that:
 
@@ -1403,7 +1403,7 @@ THE MODE'S DECLARED SCOPE
 
 ---
 
-# 61. DEPENDENCY VALIDATION
+# 61. DEPENDENCY [[VALIDATION]]
 
 Check required dependencies for:
 
@@ -1423,7 +1423,7 @@ CONFLICT
 
 ---
 
-# 62. PROVENANCE VALIDATION
+# 62. PROVENANCE [[VALIDATION]]
 
 Check:
 
@@ -1441,7 +1441,7 @@ FRESHNESS SUFFICIENT
 
 ---
 
-# 63. CONFLICT VALIDATION
+# 63. CONFLICT [[VALIDATION]]
 
 Check unresolved conflict registry.
 
@@ -1461,7 +1461,7 @@ depending on their impact.
 
 ---
 
-# 64. POLICY VALIDATION
+# 64. POLICY [[VALIDATION]]
 
 Admission policy may differ from runtime policy.
 
@@ -1479,7 +1479,7 @@ NOT ADMISSIBLE UNDER CURRENT POLICY
 
 ---
 
-# 65. AUTHORITY VALIDATION
+# 65. AUTHORITY [[VALIDATION]]
 
 Mode admission requires the appropriate authority.
 
@@ -2332,7 +2332,7 @@ DOWNGRADE CONFIDENCE
 
 ---
 
-# 110. STALE VALIDATION FAILURE
+# 110. STALE [[VALIDATION]] FAILURE
 
 Candidate admitted using expired validation evidence.
 
@@ -2717,7 +2717,7 @@ SUPERSESSION COMPLEXITY
 
 ---
 
-# 129. ADVERSARIAL VALIDATION
+# 129. ADVERSARIAL [[VALIDATION]]
 
 Before consequential admission, challenge:
 
@@ -3010,7 +3010,7 @@ TEST RESULTS
 
 ---
 
-# 145. READ-SET VALIDATION
+# 145. READ-SET [[VALIDATION]]
 
 Before admission commit:
 
@@ -3840,7 +3840,7 @@ SUPERSESSION TRACEABILITY
 
 ---
 
-# 170. CANON PROMOTION BOUNDARY
+# 170. [[CANON]] PROMOTION BOUNDARY
 
 `MODE_ADMISSION_QUEUE.md` may define how candidate modes are staged.
 

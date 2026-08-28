@@ -2363,7 +2363,7 @@ These questions can materially alter almost every downstream action.
 
 ---
 
-# PART XIII — IMPLEMENTATION ROADMAP
+# PART XIII — IMPLEMENTATION [[ROADMAP]]
 
 # 111. Source Timeline
 
@@ -2646,7 +2646,7 @@ They are different dimensions.
 
 ---
 
-# PART XV — AMOS-SPECIFIC PROTECTION ARCHITECTURE
+# PART XV — AMOS-SPECIFIC PROTECTION [[ARCHITECTURE]]
 
 # 127. Canon Layer
 
@@ -3318,7 +3318,7 @@ This should not be elevated into canonical verified fact.
 
 ---
 
-# PART XX — ADVERSARIAL VALIDATION
+# PART XX — ADVERSARIAL [[VALIDATION]]
 
 # 165. Strongest Supported Thesis
 
@@ -3482,7 +3482,7 @@ These should not be prioritized ahead of ownership and disclosure evidence.
 
 ---
 
-# PART XXII — PRIORITY ARCHITECTURE
+# PART XXII — PRIORITY [[ARCHITECTURE]]
 
 # 178. Priority 0 — Preserve Evidence
 
@@ -4186,12 +4186,12 @@ FAIL.
 ## 225. Core Links
 
 ```markdown
-[[KNOWLEDGE_MOC]]
-[[trang_MOC]]
-[[00_HOME]]
-[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-[[SYSTEM_SCAN_AGENT]]
-[[AUTOMATION_PROFILES]]
+
+
+
+
+
+
 ```
 
 These preserve the supplied related-link structure.
@@ -4201,16 +4201,16 @@ These preserve the supplied related-link structure.
 # 226. Proposed Additional Notes
 
 ```markdown
-[[AMOS_IP_ASSET_REGISTER]]
-[[AMOS_IP_CHAIN_OF_TITLE]]
-[[AMOS_TRADE_SECRET_GOVERNANCE]]
-[[AMOS_PATENT_CANDIDATE_REGISTER]]
-[[AMOS_TRADEMARK_REGISTER]]
-[[AMOS_DISCLOSURE_REGISTER]]
-[[AMOS_LICENSE_GOVERNANCE]]
-[[AMOS_EXPORT_CONTROL_REGISTER]]
-[[AMOS_IP_SECURITY_ARCHITECTURE]]
-[[AMOS_IP_INCIDENT_RESPONSE]]
+
+
+
+
+
+
+
+
+
+
 ```
 
 These are **PROPOSED** and were not present in the source.
@@ -4848,32 +4848,32 @@ RSCF-NODE:
   RSCF-RELATIONS:
 
     - INDEXED_BY:
-        "[[trang_MOC]]"
+        ""
 
     - INDEXED_BY:
-        "[[KNOWLEDGE_MOC]]"
+        ""
 
     - RELATES_TO:
-        "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
+        ""
 
     - RELATES_TO:
-        "[[SYSTEM_SCAN_AGENT]]"
+        ""
 
     - RELATES_TO:
-        "[[AUTOMATION_PROFILES]]"
+        ""
 
     # PROPOSED RELATIONS
     - PROPOSED_GOVERNS:
-        "[[AMOS_IP_ASSET_REGISTER]]"
+        ""
 
     - PROPOSED_GOVERNS:
-        "[[AMOS_TRADE_SECRET_GOVERNANCE]]"
+        ""
 
     - PROPOSED_GOVERNS:
-        "[[AMOS_PATENT_CANDIDATE_REGISTER]]"
+        ""
 
     - PROPOSED_GOVERNS:
-        "[[AMOS_LICENSE_GOVERNANCE]]"
+        ""
 ```
 
 ---

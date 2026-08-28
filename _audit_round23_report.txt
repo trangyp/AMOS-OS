@@ -1,0 +1,43 @@
+Round 23 Audit Report
+======================================================================
+Skills: 642 | Agents: 677 | Workflows: 647
+
+
+--- SKILLS (28 issues) ---
+  STUB_MARKER: amos-arxiv-multistage-order-causal-discovery-rscf — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-c01-meta-logic-master — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-c06-society-culture-master — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-capability-resolver — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-cas-canon — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-distributed-causal-evolution-rscf-engine — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-homeostasis-canon — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-identity-canon — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l0-integrity — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l1-epistemic — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l10-failure-recovery — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l17-rscf — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l18-gmef — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l19-proof-capsule — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l21-epistemic-regime — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l22-atomic-reasoning — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l25-shard-local — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l28-critical-gap — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l29-decision-value — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-l32-canon — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-llm-wiki — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-mode-admission-queue — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-mode-placeholder-audit-2026-08-25 — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-omega-quantum-stack-canon — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-skill-builder — contains TODO/PLACEHOLDER
+  STUB_MARKER: amos-workflow-builder — contains TODO/PLACEHOLDER
+  STUB_MARKER: arxiv-cdfm-causal-discovery-foundation-rscf — contains TODO/PLACEHOLDER
+  STUB_MARKER: software-engineering-qa — contains TODO/PLACEHOLDER
+
+--- AGENTS (0 issues) ---
+
+--- WORKFLOWS (0 issues) ---
+
+--- CROSS_REFS (0 issues) ---
+
+======================================================================
+TOTAL ISSUES: 28

@@ -209,9 +209,9 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 
 - `references/amos-structured-execution-graph-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-structured-execution-graph-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-structured-execution-graph-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-structured-execution-graph-rscf-agent` — corresponding agent
 ---
 
@@ -225,7 +225,7 @@ Complete AMOS v1 production for declared scope only when all of these are simult
 RSCF-NODE
 node_id: amos-structured-execution-graph-rscf
 node_type: skill
-path: 07_SKILLS/amos-structured-execution-graph-rscf/SKILL.md
+path: 07_SKILLS/amos-structured-execution-graph-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

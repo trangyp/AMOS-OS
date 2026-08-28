@@ -44,7 +44,7 @@ license: MIT
 steward: Trang Phan
 ---
 
-# MEMORY README
+# [[MEMORY]] [[README]]
 
 ## Identity
 
@@ -75,7 +75,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `10_MEMORY/MEMORY_README.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# MEMORY README
+# [[MEMORY]] [[README]]
 
 ## Purpose
 `MEMORY README` is the package readme for the **Memory** plane segment at `10_MEMORY`.
@@ -195,9 +195,9 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 - `references/memory_write_agent.md` — loaded on demand
 - `references/new_memory.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-memory-systems-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-memory-systems-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-memory-systems-master-agent` — corresponding agent
 ---
 
@@ -211,7 +211,7 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 RSCF-NODE
 node_id: amos-memory-systems-master
 node_type: skill
-path: 07_SKILLS/amos-memory-systems-master/SKILL.md
+path: 07_SKILLS/amos-memory-systems-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

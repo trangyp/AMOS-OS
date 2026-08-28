@@ -3765,7 +3765,7 @@ MISCOUNTED AS INDEPENDENT CONFIRMATION.
 
 PI-I10
 FINALITY MUST REMAIN SCOPED TO WHATEVER
-FINALIZATION SEMANTICS AUTHORITATIVE CANON DEFINES.
+FINALIZATION SEMANTICS AUTHORITATIVE [[CANON]] DEFINES.
 ```
 
 PI-I1 through PI-I3 are direct paraphrases of the supplied source.
@@ -4577,7 +4577,7 @@ The supplied node is extremely compact.
 Therefore this reconstruction must distinguish:
 
 ```text
-SOURCE CANON:
+SOURCE [[CANON]]:
 one title
 one metadata block
 one governing sentence
@@ -5025,7 +5025,7 @@ with respect to empirical external reality.
 Therefore:
 
 ```text
-CORPUS CANON
+CORPUS [[CANON]]
 !=
 UNIVERSAL EMPIRICAL FACT
 ```
@@ -5170,7 +5170,7 @@ CORRELATION
 !=
 CAUSATION
 
-CORPUS CANON
+CORPUS [[CANON]]
 !=
 EMPIRICAL UNIVERSAL LAW
 ```
@@ -5466,7 +5466,7 @@ MISSING INTERFACE STATE.
 
 DO NOT GENERALIZE
 BEYOND
-THE SUPPLIED CANON.
+THE SUPPLIED [[CANON]].
 
 WHERE DETAIL
 IS ABSENT:

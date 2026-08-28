@@ -477,7 +477,7 @@ Example:
 
 ```yaml
 output_contract:
-  ref: "[[GENERATOR_OUTPUT]]"
+  ref: ""
   output_schema: null
   compliance_state: UNKNOWN
 ```
@@ -1107,7 +1107,7 @@ Every consequential generator SHOULD expose falsification state.
 
 ```yaml
 falsification:
-  ref: "[[GENERATOR_FALSIFICATION]]"
+  ref: ""
 
   status: NOT_RUN
 
@@ -1129,7 +1129,7 @@ Example:
 
 ```yaml
 promotion:
-  ref: "[[GENERATOR_PROMOTION]]"
+  ref: ""
 
   current_level: REGISTERED
   requested_level: null
@@ -1483,28 +1483,28 @@ RSCF-NODE:
 
 ```yaml
 RSCF-RELATIONS:
-  - INDEXED_BY: "[[00_HOME]]"
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[GENERATORS_MAP]]"
-  - PART_OF: "[[COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: ""
+  - PART_OF: ""
 
   - GOVERNED_BY: "12_GENERATORS_CONTRACT"
   - VERSIONED_BY: "12_GENERATORS_VERSIONING"
 
-  - VALIDATED_BY: "[[GENERATOR_FALSIFICATION]]"
-  - PROMOTED_BY: "[[GENERATOR_PROMOTION]]"
+  - VALIDATED_BY: ""
+  - PROMOTED_BY: ""
 
-  - PRODUCES_ACCORDING_TO: "[[GENERATOR_OUTPUT]]"
+  - PRODUCES_ACCORDING_TO: ""
 
-  - QUERIED_BY: "[[TASK_RESOLVER]]"
-  - QUERIED_BY: "[[CAPABILITY_RESOLVER]]"
+  - QUERIED_BY: ""
+  - QUERIED_BY: ""
 
-  - INTERACTS_WITH: "[[MODE_ADMISSION_QUEUE]]"
-  - INTERACTS_WITH: "[[MODE_COMPOSITION_REGISTRY]]"
-  - INTERACTS_WITH: "[[MODE_CONFLICT_REGISTRY]]"
-  - INTERACTS_WITH: "[[MODE_COVERAGE_MATRIX]]"
-  - INTERACTS_WITH: "[[MODE_DEPENDENCY_GRAPH]]"
+  - INTERACTS_WITH: ""
+  - INTERACTS_WITH: ""
+  - INTERACTS_WITH: ""
+  - INTERACTS_WITH: ""
+  - INTERACTS_WITH: ""
 ```
 
 These relations describe intended architecture unless separately verified as implemented.
@@ -2596,7 +2596,7 @@ These require their own evidence.
 
 # 101. Documentation Firewall
 
-README, registry, architecture, or specification claims are:
+[[README]], registry, architecture, or specification claims are:
 
 ```text
 SOURCE_CLAIM
@@ -2747,7 +2747,7 @@ It does not invent completion.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -2768,16 +2768,16 @@ claim_class: AMOS_MODEL
 RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
-* INDEXED_BY: AMOS_RSCF_NODES
-* PART_OF: GENERATORS_MAP
-* PART_OF: COGNITIVE_MATRIX_MOC
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* PART_OF: [[GENERATORS_MAP]]
+* PART_OF: [[COGNITIVE_MATRIX_MOC]]
 * GOVERNED_BY: 12_GENERATORS_CONTRACT
 * VERSIONED_BY: 12_GENERATORS_VERSIONING
-* VALIDATED_BY: GENERATOR_FALSIFICATION
-* PROMOTED_BY: GENERATOR_PROMOTION
-* PRODUCES_ACCORDING_TO: GENERATOR_OUTPUT
-* QUERIED_BY: TASK_RESOLVER
-* QUERIED_BY: CAPABILITY_RESOLVER
+* VALIDATED_BY: [[GENERATOR_FALSIFICATION]]
+* PROMOTED_BY: [[GENERATOR_PROMOTION]]
+* PRODUCES_ACCORDING_TO: [[GENERATOR_OUTPUT]]
+* QUERIED_BY: [[TASK_RESOLVER]]
+* QUERIED_BY: [[CAPABILITY_RESOLVER]]
 
 ```
 

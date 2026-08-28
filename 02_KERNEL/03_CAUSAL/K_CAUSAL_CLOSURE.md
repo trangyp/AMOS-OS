@@ -1856,7 +1856,7 @@ def revalidate_causal_closure(closure, new_context):
 
 ---
 
-# 80. Relationship to K_STRUCTURAL_REASONING
+# 80. Relationship to [[K_STRUCTURAL_REASONING]]
 
 ```text
 K_STRUCTURAL_REASONING
@@ -1882,7 +1882,7 @@ CAUSAL CLOSURE
 
 ---
 
-# 81. Relationship to K_COUNTERFACTUAL
+# 81. Relationship to [[K_COUNTERFACTUAL]]
 
 ```text
 K_CAUSAL_CLOSURE
@@ -1899,7 +1899,7 @@ Counterfactual analysis without sufficient causal closure should remain `MODEL` 
 
 ---
 
-# 82. Relationship to K_MULTI_HYPOTHESIS
+# 82. Relationship to [[K_MULTI_HYPOTHESIS]]
 
 Multiple hypotheses may produce multiple closures:
 
@@ -1915,7 +1915,7 @@ H3 → CC3
 
 ---
 
-# 83. Relationship to K_METACOGNITION
+# 83. Relationship to [[K_METACOGNITION]]
 
 `K_METACOGNITION` evaluates whether the causal closure is:
 
@@ -2265,7 +2265,7 @@ CHANGE THAT CLAIM.
 ## Related
 
 [[README]] ·
-00_ROOT_MOC|AMOS MOC ·
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[CANON_MAP]] ·
@@ -2284,11 +2284,11 @@ CHANGE THAT CLAIM.
 [[K_COUNTERFACTUAL]] ·
 [[K_METACOGNITION]] ·
 [[K_MULTI_HYPOTHESIS]] ·
-README ·
-README ·
-README ·
-README ·
-README ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
 [[CONTROL_PLANE_MAP]] ·
 [[RUNTIME_MAP]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
@@ -2301,7 +2301,7 @@ README ·
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

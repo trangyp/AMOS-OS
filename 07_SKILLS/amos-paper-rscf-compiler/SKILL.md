@@ -203,9 +203,9 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-paper-rscf-compiler_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c10-tech-engineering-master` — parent skill
-- `[[amos-paper-rscf-compiler-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-paper-rscf-compiler-agent` — corresponding agent
 ---
 
@@ -219,7 +219,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 RSCF-NODE
 node_id: amos-paper-rscf-compiler
 node_type: skill
-path: 07_SKILLS/amos-paper-rscf-compiler/SKILL.md
+path: 07_SKILLS/amos-paper-rscf-compiler/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

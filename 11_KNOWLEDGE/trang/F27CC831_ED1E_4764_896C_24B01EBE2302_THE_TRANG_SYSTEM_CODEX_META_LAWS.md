@@ -225,7 +225,7 @@ forecasting, civilizational analysis, and institutional planning.
 
 *THE TRANG SYSTEM™ CODEX (VOLUME
 II)
-TSS LAWS  CYCLE & VARIABLE ARCHITECTURE
+TSS LAWS  CYCLE & VARIABLE [[ARCHITECTURE]]
 
 Law 013 (TSS) – The System Emergence Law
 

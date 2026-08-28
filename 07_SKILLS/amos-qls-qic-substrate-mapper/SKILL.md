@@ -211,9 +211,9 @@ QLS QIC substrate mapping is an AMOS_MODEL. It does not prove QIC units are phys
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-qls-qic-substrate-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-qls-qic-substrate-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-qls-qic-substrate-mapper-agent` — corresponding agent
 ---
 
@@ -227,7 +227,7 @@ QLS QIC substrate mapping is an AMOS_MODEL. It does not prove QIC units are phys
 RSCF-NODE
 node_id: amos-qls-qic-substrate-mapper
 node_type: skill
-path: 07_SKILLS/amos-qls-qic-substrate-mapper/SKILL.md
+path: 07_SKILLS/amos-qls-qic-substrate-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

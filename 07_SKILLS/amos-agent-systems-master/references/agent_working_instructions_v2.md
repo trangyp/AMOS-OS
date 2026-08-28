@@ -27,8 +27,8 @@ tags: [agents]
 ## PRE-WORK REQUIREMENTS
 
 ### **BEFORE STARTING ANY WORK**
-1. **READ SYSTEM ARCHITECTURE REPORT**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V2.md`
-2. **UNDERSTAND PACK ARCHITECTURE**: Review kernel pack registry system
+1. **READ SYSTEM [[ARCHITECTURE]] REPORT**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V2.md`
+2. **UNDERSTAND PACK [[ARCHITECTURE]]**: Review kernel pack registry system
 3. **VALIDATE SYSTEM STATUS**: Check all components are operational
 4. **REVIEW SECURITY GUIDELINES**: Understand threat detection and validation
 5. **CHECK PERFORMANCE METRICS**: Verify optimization components

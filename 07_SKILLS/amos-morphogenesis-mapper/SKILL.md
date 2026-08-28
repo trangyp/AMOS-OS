@@ -204,9 +204,9 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-morphogenesis-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c04-bio-neuro-master` — parent skill
-- `[[amos-morphogenesis-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-morphogenesis-mapper-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Morphogenesis mapping is an analytical analogy. It does not prove the system dev
 RSCF-NODE
 node_id: amos-morphogenesis-mapper
 node_type: skill
-path: 07_SKILLS/amos-morphogenesis-mapper/SKILL.md
+path: 07_SKILLS/amos-morphogenesis-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

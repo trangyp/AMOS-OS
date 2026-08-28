@@ -48,7 +48,7 @@ rscf:
 
 `GENERATORS_VALIDATION.md` is an **ADD-ONLY placeholder-expanded artifact** for the **25_COGNITIVE_MATRIX** plane segment.
 
-It reserves the canonical slot for the AMOS framework family named **GENERATORS VALIDATION**.
+It reserves the canonical slot for the AMOS framework family named **GENERATORS [[VALIDATION]]**.
 
 The artifact is presently:
 
@@ -3137,13 +3137,13 @@ READ_ONLY_BY_DEFAULT
 The central relationship should remain:
 
 ```text
-12_GENERATORS/GENERATOR_CONTRACT.md
+12_GENERATORS/[[GENERATOR_CONTRACT]].md
           ↓ defines generator semantics
 
-12_GENERATORS/VALIDATION.md
+12_GENERATORS/[[VALIDATION]].md
           ↓ validates generator + output
 
-11_VALIDATION/PROMOTION_GATES.md
+11_VALIDATION/[[PROMOTION_GATES]].md
           ↓ decides promotion eligibility
 
 CONTROL PLANE / AUTHORITY
@@ -3160,7 +3160,7 @@ That gives `12_GENERATORS` its own validation surface without duplicating the ge
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:**  ·  ·  · 
 
 ---
 RSCF-NODE
@@ -3168,11 +3168,11 @@ node_id: generators_validation
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VALIDATION.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
+  - INDEXED_BY: 
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** 
 
 ```

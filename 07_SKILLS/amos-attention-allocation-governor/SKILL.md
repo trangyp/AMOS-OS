@@ -208,9 +208,9 @@ Attention allocation is a resource management construct. It does not prove optim
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-attention-allocation-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-attention-allocation-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-attention-allocation-governor-agent` — corresponding agent
 ---
 
@@ -224,7 +224,7 @@ Attention allocation is a resource management construct. It does not prove optim
 RSCF-NODE
 node_id: amos-attention-allocation-governor
 node_type: skill
-path: 07_SKILLS/amos-attention-allocation-governor/SKILL.md
+path: 07_SKILLS/amos-attention-allocation-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -48,7 +48,7 @@ rscf:
 ## Rename Manifest
 112 skills have a proposed canonical name different from the current `name`.
 
-See `[[SKILL_RENAME_MANIFEST]]` for the full mapping.
+See `` for the full mapping.
 
 ## Enhancement Pass
 After the rename, a second pass ran through all `SKILL.md` files:

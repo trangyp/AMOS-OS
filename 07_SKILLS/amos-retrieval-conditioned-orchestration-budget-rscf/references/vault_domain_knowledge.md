@@ -295,7 +295,7 @@ All 36 agents follow the same 10-step execution loop:
   "priority": 7,
   "required": false,
   "domains": ["workflow", "automation", "orchestration", "pipeline", "monitoring"],
-  "depends_on": ["K_META_LOGIC", "K_TECH_ENGINE"],
+  "depends_on": ["[[K_META_LOGIC]]", "K_TECH_ENGINE"],
 
   "meta": {
     "role": "Workflow Orchestration Kernel",

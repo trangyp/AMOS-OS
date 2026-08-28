@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# SERVICE LEVELS OPERATING MODEL README
+# SERVICE LEVELS OPERATING MODEL [[README]]
 
 ## Purpose
 `SERVICE LEVELS OPERATING MODEL README` is the package readme for the **Operating Model** plane segment at `23_OPERATING_MODEL/05_SERVICE_LEVELS`.

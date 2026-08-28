@@ -3196,25 +3196,25 @@ typed artifacts
 Governed by:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 Kernel interaction:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 Control-plane gates:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 Observed by:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 Prediction observations never become authority merely because they are
@@ -3223,17 +3223,17 @@ logged.
 Recovered through:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 Indexed through:
 
 ```text
-[[00_HOME]]
 
-[[AMOS_RSCF_NODES]]
 
-[[25_COGNITIVE_MATRIX_MOC]]
+
+
+
 ```
 
 ---
@@ -3625,7 +3625,7 @@ PLACEHOLDER
 UNKNOWN/GAP source identity
 
 AFTER
-SOURCE-GROUNDED CANON CANDIDATE
+SOURCE-GROUNDED [[CANON]] CANDIDATE
 +
 TSS source located
 +

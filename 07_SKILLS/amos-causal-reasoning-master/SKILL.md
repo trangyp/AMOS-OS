@@ -206,9 +206,9 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: none. Epistemic class:
 - `references/references_MOC.md` — loaded on demand
 - `references/sensitivity_falsifiers.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-causal-reasoning-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-causal-reasoning-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-causal-reasoning-master-agent` — corresponding agent
 ---
 
@@ -222,7 +222,7 @@ Origin architect: **Trang Phan**. Domain: causal. Parent: none. Epistemic class:
 RSCF-NODE
 node_id: amos-causal-reasoning-master
 node_type: skill
-path: 07_SKILLS/amos-causal-reasoning-master/SKILL.md
+path: 07_SKILLS/amos-causal-reasoning-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

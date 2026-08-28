@@ -136,7 +136,7 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 ## References
 
 - `references/vault_domain_knowledge.md` — full plugin documentation and integration notes
-- `[[obsidian-plugin-auto-tag_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
 - `obsidian-plugin-auto-tag-workflow` — corresponding workflow
 - `obsidian-plugin-auto-tag-agent` — corresponding agent
@@ -210,7 +210,7 @@ This is an operational tool. Generated tags are `SOURCE_DERIVED` or `AMOS_MODEL`
 RSCF-NODE
 node_id: obsidian-plugin-auto-tag
 node_type: skill
-path: 07_SKILLS/obsidian-plugin-auto-tag/SKILL.md
+path: 07_SKILLS/obsidian-plugin-auto-tag/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -216,9 +216,9 @@ AMOS has 36 agents organized into 7 canonical systems. This
 
 - `references/amos-agent-memory-dynamics-rscf-engine_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-agent-memory-dynamics-rscf-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-memory-systems-master` — parent skill
-- `[[amos-agent-memory-dynamics-rscf-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-agent-memory-dynamics-rscf-engine-agent` — corresponding agent
 ---
 
@@ -232,7 +232,7 @@ AMOS has 36 agents organized into 7 canonical systems. This
 RSCF-NODE
 node_id: amos-agent-memory-dynamics-rscf-engine
 node_type: skill
-path: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/SKILL.md
+path: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

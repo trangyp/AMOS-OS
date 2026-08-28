@@ -1963,7 +1963,7 @@ Do not invalidate unrelated valid state merely because one action failed.
 
 ---
 
-## 71. Interaction with K_REPAIR_PRIORITY
+## 71. Interaction with [[K_REPAIR_PRIORITY]]
 
 ```text
 K_REPAIR_PRIORITY
@@ -1997,7 +1997,7 @@ UNCONSTRAINED EXECUTION
 
 ---
 
-## 72. Interaction with K_REPAIR_HARM
+## 72. Interaction with [[K_REPAIR_HARM]]
 
 `K_REPAIR_HARM` provides repair-specific downside analysis.
 
@@ -2013,7 +2013,7 @@ conceptually, without collapsing the two kernel contracts.
 
 ---
 
-## 73. Interaction with K_HOMEOSTASIS
+## 73. Interaction with [[K_HOMEOSTASIS]]
 
 ```text
 K_HOMEOSTASIS
@@ -2028,7 +2028,7 @@ K_REPAIR_PRIORITY
 
 ---
 
-## 74. Interaction with K_CAUSAL_CLOSURE
+## 74. Interaction with [[K_CAUSAL_CLOSURE]]
 
 Risk propagation across a causal boundary must respect validated causal closure.
 
@@ -2056,7 +2056,7 @@ should remain available.
 
 ---
 
-## 75. Interaction with K_SYSTEM_STATE
+## 75. Interaction with [[K_SYSTEM_STATE]]
 
 Risk evaluation is state-relative.
 
@@ -2074,7 +2074,7 @@ Therefore material state changes can invalidate previous action permission.
 
 ---
 
-## 76. Interaction with K_CONTEXT_STATE
+## 76. Interaction with [[K_CONTEXT_STATE]]
 
 Context may change interpretation and applicability but must not silently override canonical constraints.
 
@@ -2093,7 +2093,7 @@ PROVENANCE
 
 ---
 
-## 77. Interaction with K_EVENT_BUS
+## 77. Interaction with [[K_EVENT_BUS]]
 
 Risk-relevant events may include:
 
@@ -2501,11 +2501,11 @@ PROVENANCE.
 [[K_MEMORY_ADMISSION]] ·
 [[K_MEMORY_CONFLICT]] ·
 [[K_MEMORY_IMMUNE]] ·
-README ·
 [[README]] ·
-README ·
 [[README]] ·
-README
+[[README]] ·
+[[README]] ·
+[[README]]
 
 ```text
 
@@ -2514,7 +2514,7 @@ README
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

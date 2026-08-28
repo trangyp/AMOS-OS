@@ -36,7 +36,7 @@ F1: authoritative canon law defines different location/supersession rules.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L33_KERNEL]] · [[L31_AMOS_PLANE]] · [[L1_EPISTEMIC]] · [[L17_RSCF]] · [[L26_PROOF_COORDINATION]]

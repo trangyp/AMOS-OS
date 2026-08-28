@@ -1111,7 +1111,7 @@ Escalate counterfactual reasoning when any of the following holds:
 
 ---
 
-# 36. ADVERSARIAL COUNTERFACTUAL VALIDATION
+# 36. ADVERSARIAL COUNTERFACTUAL [[VALIDATION]]
 
 For consequential conclusions AMOS performs a challenge pass.
 
@@ -1686,7 +1686,7 @@ Freshness is part of epistemic validity.
 
 ---
 
-# 56. COUNTERFACTUAL MEMORY
+# 56. COUNTERFACTUAL [[MEMORY]]
 
 Stored counterfactual conclusions MUST retain their assumptions.
 
@@ -1715,7 +1715,7 @@ that made it valid.
 
 ---
 
-# 57. MEMORY ADMISSION
+# 57. [[MEMORY]] ADMISSION
 
 A counterfactual should enter persistent validated knowledge only when:
 
@@ -1741,7 +1741,7 @@ class.
 
 ---
 
-# 58. COUNTERFACTUAL MEMORY CONFLICT
+# 58. COUNTERFACTUAL [[MEMORY]] CONFLICT
 
 When retrieved counterfactual knowledge conflicts with new evidence:
 

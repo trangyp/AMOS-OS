@@ -204,9 +204,9 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-heritage-decision-intelligence_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c06-society-culture-master` — parent skill
-- `[[amos-heritage-decision-intelligence-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-heritage-decision-intelligence-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 RSCF-NODE
 node_id: amos-heritage-decision-intelligence
 node_type: skill
-path: 07_SKILLS/amos-heritage-decision-intelligence/SKILL.md
+path: 07_SKILLS/amos-heritage-decision-intelligence/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

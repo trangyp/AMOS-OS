@@ -87,11 +87,11 @@ PREDICTION_ERROR != OBJECTIVE_ERROR
 BELIEF_UPDA
 
 ---
-**Links:** [[07_SKILLS_MOC]]
+**Links:** 
 
 ## Related
 
-- [[amos-active-inference-governor_MOC]]
+- 
 ```
 
 ## Examples
@@ -172,9 +172,9 @@ BELIEF_UPDA
 
 - `references/pragmatic_action.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-active-inference-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-active-inference-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-active-inference-governor-agent` — corresponding agent
 ---
 
@@ -188,7 +188,7 @@ BELIEF_UPDA
 RSCF-NODE
 node_id: amos-active-inference-governor
 node_type: skill
-path: 07_SKILLS/amos-active-inference-governor/SKILL.md
+path: 07_SKILLS/amos-active-inference-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

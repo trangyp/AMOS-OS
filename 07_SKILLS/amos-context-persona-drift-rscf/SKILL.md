@@ -217,9 +217,9 @@ From C05 Mind & Behavior: Persona drift detection and boundary identity governan
 
 - `references/nervous_system_state_drift.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-context-persona-drift-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-boundary-scope-master` — parent skill
-- `[[amos-context-persona-drift-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-context-persona-drift-rscf-agent` — corresponding agent
 ---
 
@@ -233,7 +233,7 @@ From C05 Mind & Behavior: Persona drift detection and boundary identity governan
 RSCF-NODE
 node_id: amos-context-persona-drift-rscf
 node_type: skill
-path: 07_SKILLS/amos-context-persona-drift-rscf/SKILL.md
+path: 07_SKILLS/amos-context-persona-drift-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

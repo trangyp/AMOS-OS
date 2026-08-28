@@ -98,8 +98,8 @@ await subsystem.initialize()
 > | `rscf.provenance` | `AMOS_corpus` | SOURCE_GROUNDED |
 > | `rscf.scope` | `AMOS_knowledge` | SOURCE_GROUNDED |
 > | Body heading | `01_BRAIN` | SOURCE_GROUNDED |
-> | Linked MOC | `[[COSMO_BRAIN_MOC]]` | SOURCE_GROUNDED |
-> | Linked MOC | `[[KNOWLEDGE_MOC]]` | SOURCE_GROUNDED |
+> | Linked MOC | `` | SOURCE_GROUNDED |
+> | Linked MOC | `` | SOURCE_GROUNDED |
 > 
 > ---
 > 
@@ -108,7 +108,7 @@ await subsystem.initialize()
 > The supplied metadata identifies the artifact as:
 > 
 > ```yaml
-> title: README — 11 Knowledge
+> title: [[README]] — 11 Knowledge
 > source: "11_KNOWLEDGE/root"
 > type: document
 > ````
@@ -138,7 +138,7 @@ await subsystem.initialize()
 > ```yaml
 > artifact_identity:
 >   metadata_identity:
->     title: "README — 11 Knowledge"
+>     title: "[[README]] — 11 Knowledge"
 >     location: "11_KNOWLEDGE/root"
 > 
 >   body_identity:
@@ -156,7 +156,7 @@ await subsystem.initialize()
 > The mismatch must not be silently normalized into either of these assumptions:
 > 
 > ```text
-> README — 11 Knowledge == README — 01_BRAIN
+> [[README]] — 11 Knowledge == [[README]] — 01_BRAIN
 > ```
 > 
 > or:
@@ -224,7 +224,7 @@ Follow AMOS development guidelines...
 Source links:
 
 ```markdown
-**Links:** [[COSMO_BRAIN_MOC]] | [[KNOWLEDGE_MOC]]
+**Links:**  | 
 ````
 
 ---
@@ -265,7 +265,7 @@ is a **SOURCE_CLAIM about operational status**, not independent runtime evidence
 
 The artifact visibly performs at least three documentation roles:
 
-1. README-style subsystem description.
+1. [[README]]-style subsystem description.
 2. Index/MOC participation through its tags and links.
 3. AMOS knowledge-corpus source claim.
 
@@ -274,7 +274,7 @@ This can be represented as:
 $$
 ArtifactRole
 =
-README
+[[README]]
 +
 IndexParticipation
 +
@@ -351,7 +351,7 @@ the AMOS system
 
 but does not define its exact system boundary in this artifact.
 
-Do not infer from this README alone:
+Do not infer from this [[README]] alone:
 
 * exact AMOS version;
 * runtime topology;
@@ -389,7 +389,7 @@ The ellipsis must not be filled with invented responsibilities.
 
 # 10. Purpose Gap
 
-The missing purpose is a **DECISION-RELEVANT GAP** if this README is used to determine:
+The missing purpose is a **DECISION-RELEVANT GAP** if this [[README]] is used to determine:
 
 * subsystem ownership;
 * API responsibility;
@@ -906,8 +906,8 @@ Do not invent them here.
 Source:
 
 ```markdown
-[[COSMO_BRAIN_MOC]]
-[[KNOWLEDGE_MOC]]
+
+
 ```
 
 These are explicit graph links.
@@ -916,10 +916,10 @@ Canonical relations are only:
 
 ```yaml
 links:
-  - target: "[[COSMO_BRAIN_MOC]]"
+  - target: ""
     relation: LINKED_FROM_SOURCE
 
-  - target: "[[KNOWLEDGE_MOC]]"
+  - target: ""
     relation: LINKED_FROM_SOURCE
 ```
 
@@ -927,12 +927,12 @@ The source does not specify stronger edge types.
 
 ---
 
-# 34. COSMO_BRAIN_MOC
+# 34. [[COSMO_BRAIN_MOC]]
 
 The link:
 
 ```text
-[[COSMO_BRAIN_MOC]]
+
 ```
 
 provides a candidate route for resolving `01_BRAIN` semantics.
@@ -952,12 +952,12 @@ Therefore:
 
 ---
 
-# 35. KNOWLEDGE_MOC
+# 35. [[KNOWLEDGE_MOC]]
 
 The link:
 
 ```text
-[[KNOWLEDGE_MOC]]
+
 ```
 
 is structurally consistent with the artifact's:
@@ -1100,7 +1100,7 @@ rscf:
 This gives four explicit dimensions:
 
 $$
-RSCF_{README}
+RSCF_{[[README]]}
 =
 (
 State,
@@ -1286,7 +1286,7 @@ RSCF_RETRIEVAL:
 | Contributing  |     ✓    |           No           |
 | Links         |     ✓    |         Partial        |
 
-The README is therefore structurally scaffolded but semantically incomplete.
+The [[README]] is therefore structurally scaffolded but semantically incomplete.
 
 ---
 
@@ -1348,9 +1348,9 @@ No supplied evidence discriminates decisively among them.
 The highest-information next artifacts would be:
 
 1. the directory listing or MOC for `11_KNOWLEDGE`;
-2. `[[KNOWLEDGE_MOC]]`;
-3. `[[COSMO_BRAIN_MOC]]`;
-4. the canonical `01_BRAIN` README/path;
+2. ``;
+3. ``;
+4. the canonical `01_BRAIN` [[README]]/path;
 5. the implementation containing `BRAINSubsystem`;
 6. the repository/module layout.
 
@@ -1511,7 +1511,7 @@ PROOF_CAPSULE:
 
 Strongest source-supported conclusion:
 
-> The README labels `01_BRAIN` operational.
+> The [[README]] labels `01_BRAIN` operational.
 
 Challenge:
 
@@ -1535,7 +1535,7 @@ INDEPENDENTLY VERIFIED RUNTIME FACT.
 
 Strongest source-supported conclusion:
 
-> The README intends Python-like initialization through `BRAINSubsystem`.
+> The [[README]] intends Python-like initialization through `BRAINSubsystem`.
 
 Challenge:
 
@@ -1568,11 +1568,11 @@ Only two placeholder rows are visible.
 
 ---
 
-# 59. Adversarial Validation — README Identity
+# 59. Adversarial Validation — [[README]] Identity
 
 Potential conclusion:
 
-> This is definitively the `01_BRAIN` README.
+> This is definitively the `01_BRAIN` [[README]].
 
 Challenge:
 
@@ -1589,11 +1589,11 @@ Result:
 
 ---
 
-# 60. Adversarial Validation — Knowledge README
+# 60. Adversarial Validation — Knowledge [[README]]
 
 Potential conclusion:
 
-> This is definitively the complete `11_KNOWLEDGE` README.
+> This is definitively the complete `11_KNOWLEDGE` [[README]].
 
 Challenge:
 
@@ -1607,7 +1607,7 @@ Result:
 
 # 61. Causal Firewall
 
-Nothing in this README establishes causal claims about cognition, brain function, intelligence, or external biological systems.
+Nothing in this [[README]] establishes causal claims about cognition, brain function, intelligence, or external biological systems.
 
 The name:
 
@@ -1651,7 +1651,7 @@ Documentation statements do not prove deployment.
 Therefore:
 
 $$
-README
+[[README]]
 \neq
 RuntimeReceipt.
 $$
@@ -1959,9 +1959,9 @@ A minimal dependency path for further resolution is:
 ```text
 README — 11 Knowledge
         │
-        ├──► [[KNOWLEDGE_MOC]]
+        ├──► 
         │
-        └──► [[COSMO_BRAIN_MOC]]
+        └──► 
                     │
                     ▼
              01_BRAIN canon
@@ -2087,8 +2087,8 @@ knowledge_graph:
     relationship_to_artifact: UNKNOWN
 
   explicit_links:
-    - "[[COSMO_BRAIN_MOC]]"
-    - "[[KNOWLEDGE_MOC]]"
+    - ""
+    - ""
 ```
 
 ---
@@ -2152,8 +2152,8 @@ README_11_KNOWLEDGE:
       value: "Follow AMOS development guidelines..."
 
   links:
-    - "[[COSMO_BRAIN_MOC]]"
-    - "[[KNOWLEDGE_MOC]]"
+    - ""
+    - ""
 ```
 
 ---
@@ -2199,8 +2199,8 @@ DERIVED_VALIDATION:
 Do not claim from this artifact alone that:
 
 1. `01_BRAIN` is the same thing as `11_KNOWLEDGE`;
-2. this is definitely the canonical `01_BRAIN` README;
-3. this is definitely the complete `11_KNOWLEDGE` README;
+2. this is definitely the canonical `01_BRAIN` [[README]];
+3. this is definitely the complete `11_KNOWLEDGE` [[README]];
 4. `01_BRAIN` has exactly two components;
 5. Component 1 has a known identity;
 6. Component 2 has a known identity;
@@ -2425,9 +2425,9 @@ AMOS_knowledge
     ▼
 README — 11 Knowledge
     │
-    ├──► [[KNOWLEDGE_MOC]]
+    ├──► 
     │
-    └──► [[COSMO_BRAIN_MOC]]
+    └──► 
 ```
 
 The body then introduces:
@@ -2706,8 +2706,8 @@ documentation_state:
   contributing: "PLACEHOLDER"
 
 explicit_links:
-  - "[[COSMO_BRAIN_MOC]]"
-  - "[[KNOWLEDGE_MOC]]"
+  - ""
+  - ""
 ---
 ```
 
@@ -2821,8 +2821,8 @@ RSCF-NODE:
     binding_to_node_identity: UNRESOLVED
 
   RSCF-RELATIONS:
-    - LINKED_TO: "[[COSMO_BRAIN_MOC]]"
-    - LINKED_TO: "[[KNOWLEDGE_MOC]]"
+    - LINKED_TO: ""
+    - LINKED_TO: ""
 ```
 
 The exact filename/path beyond `11_KNOWLEDGE/root` is not supplied, so `11_KNOWLEDGE/README.md` remains a proposed path only.
@@ -2837,10 +2837,10 @@ Source-grounded:
 SOURCE_RELATIONS:
 
   - relation: LINKED
-    target: "[[COSMO_BRAIN_MOC]]"
+    target: ""
 
   - relation: LINKED
-    target: "[[KNOWLEDGE_MOC]]"
+    target: ""
 ```
 
 Possible derived relations requiring validation:
@@ -2849,11 +2849,11 @@ Possible derived relations requiring validation:
 PROPOSED_RELATIONS:
 
   - relation: INDEXED_BY
-    target: "[[KNOWLEDGE_MOC]]"
+    target: ""
     status: PROPOSED
 
   - relation: RELATED_TO
-    target: "[[COSMO_BRAIN_MOC]]"
+    target: ""
     status: PROPOSED
 
   - relation: DESCRIBES
@@ -2863,9 +2863,9 @@ PROPOSED_RELATIONS:
 
 ---
 
-# 104. Canonical README Reconstruction
+# 104. Canonical [[README]] Reconstruction
 
-The strongest source-preserving normalized README remains:
+The strongest source-preserving normalized [[README]] remains:
 
 ## 01_BRAIN
 
@@ -3128,9 +3128,9 @@ The artifact should **not** be expanded by inventing missing brain components, c
 The smallest high-information next retrieval targets are:
 
 ```text
-[[KNOWLEDGE_MOC]]
+
         ↓
-[[COSMO_BRAIN_MOC]]
+
         ↓
 canonical 01_BRAIN artifact
         ↓

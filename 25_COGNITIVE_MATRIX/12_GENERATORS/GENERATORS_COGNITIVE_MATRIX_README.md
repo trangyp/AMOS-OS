@@ -2105,7 +2105,7 @@ A generator may be indexed across several independent axes.
 | Epistemic output | MODEL           |
 | Execution        | NON_EFFECTFUL   |
 | Governance       | REVIEW_REQUIRED |
-| Deployment       | SKILL + TOOL    |
+| Deployment       | [[SKILL]] + TOOL    |
 
 This is why `12_GENERATORS` is appropriately a **matrix infrastructure** branch.
 
@@ -2184,9 +2184,9 @@ Unimplemented families should remain explicit placeholders until real content ex
 
 ---
 
-# 49. Generator README Template
+# 49. Generator [[README]] Template
 
-Every generator folder should include a README with at least:
+Every generator folder should include a [[README]] with at least:
 
 # Generator Name
 
@@ -2254,9 +2254,9 @@ Every generator folder should include a README with at least:
 
 ---
 
-# 50. RSCF State for This README
+# 50. RSCF State for This [[README]]
 
-This README is no longer accurately represented as:
+This [[README]] is no longer accurately represented as:
 
 ```yaml
 claim_class: UNKNOWN/GAP
@@ -2644,7 +2644,7 @@ This is the appropriate replacement for the current placeholder README: the **br
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

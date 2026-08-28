@@ -1235,23 +1235,23 @@ CONDITIONAL
 P1_BINDINGS:
 
   parent:
-    - "[[AMOS_7_PART_UNIVERSE_CANON]]"
+    - ""
 
   hierarchy:
-    - "[[HML_CANON]]"
+    - ""
 
   universe_canon:
-    - "[[02_UNIVERSE_CANON_MOC]]"
+    - ""
 
   related_framework:
-    - "[[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]"
+    - ""
 
   related_khung_trang:
-    - "[[KHUNG_TRANG_MASTER]]"
+    - ""
 
   indexed_by:
-    - "[[00_HOME]]"
-    - "[[AMOS_RSCF_NODES]]"
+    - ""
+    - ""
 ```
 
 Cross-plane links do not establish empirical validity or ontological identity.

@@ -13,7 +13,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-# KHUNG TRANG FULL MAX DETAIL ARCHITECTURE EQUATIONS
+# KHUNG TRANG FULL MAX DETAIL [[ARCHITECTURE]] EQUATIONS
 
 ```json
 {
@@ -11360,7 +11360,7 @@ coarse-grained boundary / observer / system distinction\nWithout plurality:\nnot
 }
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:**  ·  ·  ·  · 
 ```
 
 ---

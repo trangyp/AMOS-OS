@@ -31,7 +31,7 @@ tags: [indexes]
 - INDEX_AMOS forex
 - INDEX_AMOS_Consulting
 - INDEX_root-misc-01
-- INDEX_MAIN
+- [[INDEX_MAIN]]
 - INDEX_LOGIC
 - INDEX_root-misc-05
 - INDEX_openclaw-main

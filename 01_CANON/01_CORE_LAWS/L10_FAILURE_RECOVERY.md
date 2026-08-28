@@ -361,7 +361,7 @@ Because the supplied L10 source does not provide the complete authoritative DMER
 
 ```yaml
 dependency:
-  target: DMER_L5
+  target: [[DMER_L5]]
   role: correlated_damage_semantics
   status: REQUIRED_REFERENCE
   exact_semantics: GAP_IF_NOT_LOADED
@@ -1517,7 +1517,7 @@ Thus:
 
 ```text
 HIGH IRREVERSIBILITY
-→ MORE VALIDATION
+→ MORE [[VALIDATION]]
 → SMALLER MUTATION STEPS
 → STRONGER RECOVERY BASINS
 ```
@@ -1531,7 +1531,7 @@ Prefer staged restoration:
 ```text
 RESTORE
    ↓
-ISOLATED VALIDATION
+ISOLATED [[VALIDATION]]
    ↓
 LIMITED TRAFFIC / LIMITED AUTHORITY
    ↓
@@ -1847,7 +1847,7 @@ Then:
 ```text
 LOCAL FAILURE
 → LOCAL ROLLBACK/REPAIR
-→ LOCAL VALIDATION
+→ LOCAL [[VALIDATION]]
 → RESUME
 ```
 
@@ -2429,7 +2429,7 @@ Original falsifier:
 If authoritative canon appears:
 
 ```text
-NEW AUTHORITATIVE CANON
+NEW AUTHORITATIVE [[CANON]]
           ↓
 COMPARE AGAINST L10
           ↓
@@ -2607,7 +2607,7 @@ proof_capsule:
 
   dependencies:
     - DMER_L5_for_correlated_damage_semantics
-    - LAW_HIERARCHY
+    - [[LAW_HIERARCHY]]
     - AMOS_CORE_integrity_law
     - provenance_topology
     - dependency_local_invalidation
@@ -2691,13 +2691,13 @@ RSCF-RELATIONS:
 
 ---
 
-**00_ROOT_MOC:** [[AMOS MOC]]
+**00_ROOT_MOC:** 
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:**  ·  · 
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** 
 
 ---
 

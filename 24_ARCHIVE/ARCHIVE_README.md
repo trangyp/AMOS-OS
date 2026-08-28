@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# ARCHIVE README
+# ARCHIVE [[README]]
 
 STATUS: PROPOSED_SPECIFICATION
 epistemic_class: AMOS_MODEL

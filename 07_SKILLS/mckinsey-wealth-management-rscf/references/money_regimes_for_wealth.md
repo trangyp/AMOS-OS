@@ -117,11 +117,11 @@ Policy_Rate_Effectiveness = f(CBDC_Design, Market_Penetration)
 1. **Multi-Layered System**: CBDC (reta
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

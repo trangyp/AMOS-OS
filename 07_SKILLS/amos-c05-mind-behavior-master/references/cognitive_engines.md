@@ -43,7 +43,7 @@ These 13 engines form the domain-neutral reasoning layer, sitting above the Dete
 | 4 | Physics Cosmos | Physics | Full-stack model of classical, quantum, statistical, and cosmological systems |
 | 5 | Signal Processing | DSP | Signal analysis, noise filtering, feature extraction, DSP pipelines |
 | 6 | Society Culture | Sociology | Kernel+engine for institutions, norms, demographics, media, and cultural evolution |
-| 7 | Design Engine | Tech Design | 100% structural coverage across tech domains; MAX variant wraps CANON engine + QUANTUM augmentation |
+| 7 | Design Engine | Tech Design | 100% structural coverage across tech domains; MAX variant wraps [[CANON]] engine + QUANTUM augmentation |
 | 8 | Design Language | Design/Language | Cross-modal design + linguistic kernel for structure, clarity, and UX |
 | 9 | Biology Cognition | Biology | Biological cognition kernel+engine |
 | 10 | Engineering Math | Math/Eng | Control, optimization, simulation, engineering mathematics |

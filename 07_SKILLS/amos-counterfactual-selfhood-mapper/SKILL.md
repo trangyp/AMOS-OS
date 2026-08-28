@@ -198,9 +198,9 @@ Counterfactual selfhood mapping is an analytical model. It does not prove the sy
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-counterfactual-selfhood-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-causal-reasoning-master` — parent skill
-- `[[amos-counterfactual-selfhood-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-counterfactual-selfhood-mapper-agent` — corresponding agent
 ---
 
@@ -214,7 +214,7 @@ Counterfactual selfhood mapping is an analytical model. It does not prove the sy
 RSCF-NODE
 node_id: amos-counterfactual-selfhood-mapper
 node_type: skill
-path: 07_SKILLS/amos-counterfactual-selfhood-mapper/SKILL.md
+path: 07_SKILLS/amos-counterfactual-selfhood-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

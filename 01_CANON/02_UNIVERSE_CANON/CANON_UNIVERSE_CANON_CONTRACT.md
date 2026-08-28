@@ -61,7 +61,7 @@ governance:
   independence_must_be_demonstrated: true
 ---
 
-# CANON UNIVERSE CANON CONTRACT
+# [[CANON]] UNIVERSE [[CANON]] CONTRACT
 
 > **Origin architect / steward:** Trang Phan
 > **System:** AMOS OS
@@ -1939,7 +1939,7 @@ External evidence may validate or challenge canon but should not silently become
 This contract is governed by:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 It does not outrank its governing laws.
@@ -2555,7 +2555,7 @@ Before promotion beyond the present `AMOS_MODEL / CONDITIONAL` state:
 The source contract cites:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
+
 ```
 
 with:
@@ -2567,7 +2567,7 @@ with:
 and:
 
 ```text
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
 ```
 
 with:
@@ -2603,7 +2603,7 @@ UNIVERSE CANON CONTRACT PASS
 Required future artifact:
 
 ```text
-[[CANON_UNIVERSE_CANON_CONTRACT_VALIDATION_RECEIPT]]
+
 ```
 
 Until such an executed receipt exists:
@@ -3005,7 +3005,7 @@ RSCF_PROOF_CAPSULE:
 ## Canon governance
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 Relationship:
@@ -3019,7 +3019,7 @@ LAW_HIERARCHY
 ## Kernel interaction
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 The kernel may consume or enforce canon-governed state only through its own implemented contract.
@@ -3027,7 +3027,7 @@ The kernel may consume or enforce canon-governed state only through its own impl
 ## Control plane
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 Control-plane gates govern consequential effects.
@@ -3035,7 +3035,7 @@ Control-plane gates govern consequential effects.
 ## Observability
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 Critical firewall:
@@ -3053,7 +3053,7 @@ It cannot authorize canon mutation merely by observing it.
 ## Operations
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 Operational recovery provides rollback/recovery mechanisms where implemented.
@@ -3304,7 +3304,7 @@ RECOVER TO THE NEAREST VALID STATE.
 | Dimension                        | Current state      |
 | -------------------------------- | ------------------ |
 | Artifact identity                | SOURCE-DEFINED     |
-| Artifact type                    | CANON CONTRACT     |
+| Artifact type                    | [[CANON]] CONTRACT     |
 | Epistemic class                  | AMOS_MODEL         |
 | Canonical status                 | CONDITIONAL        |
 | Implementation                   | PARTIAL            |
@@ -3421,38 +3421,38 @@ ARTIFACT_SPECIFIC_VALIDATION_NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[02_UNIVERSE_CANON_MOC]]
+  - INDEXED_BY: 
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+  - GOVERNED_BY: 
 
-  - INTERACTS_WITH: [[KERNEL_README]]
+  - INTERACTS_WITH: 
 
-  - GATED_BY: [[CONTROL_PLANE_README]]
+  - GATED_BY: 
 
-  - OBSERVED_BY: [[OBSERVABILITY_README]]
+  - OBSERVED_BY: 
 
-  - RECOVERED_VIA: [[OPERATIONS_README]]
-
-  - VALIDATION_PATTERN_REFERENCE:
-      [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+  - RECOVERED_VIA: 
 
   - VALIDATION_PATTERN_REFERENCE:
-      [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+      
+
+  - VALIDATION_PATTERN_REFERENCE:
+      
 
   - REQUIRES_VALIDATION:
-      [[CANON_UNIVERSE_CANON_CONTRACT_VALIDATION_RECEIPT]]
+      
 
   - FRAMEWORK_CONTEXT:
-      [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+      
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

@@ -14,9 +14,9 @@ rscf:
 ---
 
 
-# C06 MEMORY MAP
+# C06 [[MEMORY]] MAP
 
-## Map — C06 MEMORY MAP
+## Map — C06 [[MEMORY]] MAP
 Navigation map for the `25_COGNITIVE_MATRIX/03_CONTROL_PLANES/C06_MEMORY/00_INDEX` segment of the Cognitive Matrix plane.
 
 - **Contract** — [[CONTROL_PLANES_COGNITIVE_MATRIX_C06_MEMORY_CONTRACT]]
@@ -46,14 +46,14 @@ Given an operation touching `C06 MEMORY MAP` within the Cognitive Matrix plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 RSCF-NODE

@@ -84,7 +84,7 @@ created: 2026-08-22
     },
     "human_interface": {
       "emotional_and_tone": "AMOS_ABSOLUE_HUMAN",
-      "consciousness": "AMOS_CONSCIOUSNESS_ENGINE"
+      "consciousness": "[[AMOS_CONSCIOUSNESS_ENGINE]]"
     }
   },
   "benchmarking_policy": {

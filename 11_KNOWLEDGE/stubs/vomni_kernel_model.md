@@ -1,0 +1,12 @@
+---
+title: vomni kernel model
+tags:
+- stub
+- vomni
+- kernel
+- model
+---
+
+# vomni kernel model
+
+Stub note for [[vomni_kernel_model]].

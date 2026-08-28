@@ -198,9 +198,9 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[arxiv-flow-matching-generative-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[arxiv-flow-matching-generative-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `arxiv-flow-matching-generative-rscf-agent` — corresponding agent
 ---
 
@@ -214,7 +214,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 RSCF-NODE
 node_id: arxiv-flow-matching-generative-rscf
 node_type: skill
-path: 07_SKILLS/arxiv-flow-matching-generative-rscf/SKILL.md
+path: 07_SKILLS/arxiv-flow-matching-generative-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

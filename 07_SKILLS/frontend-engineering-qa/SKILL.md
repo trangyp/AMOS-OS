@@ -205,9 +205,9 @@ Frontend engineering QA is an engineering process. It does not prove the UI is p
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[frontend-engineering-qa_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c10-tech-engineering-master` — parent skill
-- `[[frontend-engineering-qa-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `frontend-engineering-qa-agent` — corresponding agent
 ---
 
@@ -221,7 +221,7 @@ Frontend engineering QA is an engineering process. It does not prove the UI is p
 RSCF-NODE
 node_id: frontend-engineering-qa
 node_type: skill
-path: 07_SKILLS/frontend-engineering-qa/SKILL.md
+path: 07_SKILLS/frontend-engineering-qa/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

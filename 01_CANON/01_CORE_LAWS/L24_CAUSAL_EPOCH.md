@@ -1758,7 +1758,7 @@ These require additional canon.
 L24 explicitly relates to:
 
 ```text
-[[L22_REPLAYABILITY]]
+
 ```
 
 The supplied note does not define that law's content.
@@ -1774,7 +1774,7 @@ Do not import additional L22 semantics without retrieving that canon.
 L24 explicitly relates to:
 
 ```text
-[[L8_EXECUTION]]
+
 ```
 
 and directly establishes one execution rule:
@@ -3715,41 +3715,41 @@ RSCF-NODE:
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
 
-  - CHILD_OF: [[LAW_HIERARCHY]]
+  - CHILD_OF: 
 
-  - MEMBER_OF: [[01_CORE_LAWS_MOC]]
+  - MEMBER_OF: 
 
-  - RELATED_TO: [[L8_EXECUTION]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L22_REPLAYABILITY]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L23_MVCC_CAS]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L25_SHARD_LOCAL]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L19_PROOF_CAPSULE]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[PERSISTENT_PROVENANCE]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[PROVENANCE_TOPOLOGY]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[DEPENDENT_INVALIDATION]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[ATOMIC_MULTI_RSCF_REASONING]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[CAUSAL_EPOCH_FINALITY]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[SHARD_LOCAL_FINALIZATION]]
+  - RELATED_TO: 
 
   - RELATED_TO: EPISTEMIC_REGIME
 
-  - RELATED_TO: [[COMPETING_HYPOTHESES]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[SCOPE_REGIME_FIREWALL]]
+  - RELATED_TO: 
 
   - RELATED_TO: FAILURE_RECOVERY
 ```

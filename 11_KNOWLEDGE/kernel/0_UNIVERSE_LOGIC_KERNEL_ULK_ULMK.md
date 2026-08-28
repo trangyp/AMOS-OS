@@ -3319,17 +3319,17 @@ It is not independently verified external authorship evidence.
 Source explicitly gives:
 
 ```text
-[[00_HOME]]
-[[KNOWLEDGE_MOC]]
-[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-[[SYSTEM_SCAN_AGENT]]
-[[AUTOMATION_PROFILES]]
+
+
+
+
+
 ```
 
 and MOC:
 
 ```text
-[[KERNEL_MOC]]
+
 ```
 
 ---
@@ -4720,14 +4720,14 @@ RSCF-NODE:
 
   relations:
     RELATED_TO:
-      - "[[00_HOME]]"
-      - "[[KNOWLEDGE_MOC]]"
-      - "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
-      - "[[SYSTEM_SCAN_AGENT]]"
-      - "[[AUTOMATION_PROFILES]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
 
     INDEXED_BY:
-      - "[[KERNEL_MOC]]"
+      - ""
 ```
 
 ---
@@ -4766,7 +4766,7 @@ SORT file.name ASC
 ```dataview
 LIST
 FROM "11_KNOWLEDGE"
-WHERE contains(file.outlinks, [[KERNEL_MOC]])
+WHERE contains(file.outlinks, )
 SORT file.name ASC
 ```
 
@@ -4780,16 +4780,16 @@ SORT file.name ASC
 ## Navigation
 
 ### Kernel MOC
-- [[KERNEL_MOC]]
+- 
 
 ### Knowledge
-- [[KNOWLEDGE_MOC]]
+- 
 
 ### Related
-- [[00_HOME]]
-- [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-- [[SYSTEM_SCAN_AGENT]]
-- [[AUTOMATION_PROFILES]]
+- 
+- 
+- 
+- 
 
 ---
 ```
@@ -5404,14 +5404,14 @@ ULK_CANONICAL_CAPSULE:
   source_relations:
 
     related:
-      - "[[00_HOME]]"
-      - "[[KNOWLEDGE_MOC]]"
-      - "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
-      - "[[SYSTEM_SCAN_AGENT]]"
-      - "[[AUTOMATION_PROFILES]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
 
     moc:
-      - "[[KERNEL_MOC]]"
+      - ""
 ```
 
 ---

@@ -32,7 +32,7 @@ created: 2026-08-22
   "meta": {
     "name": "Tech Engine v∞ — MAX (Gap-Closed)",
     "version": "v∞_MAX_1.0",
-    "description": "Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. This MAX variant wraps the full CANON engine, QUANTUM augmentation layers, and an explicit benchmark matrix for covered roles.",
+    "description": "Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. This MAX variant wraps the full [[CANON]] engine, QUANTUM augmentation layers, and an explicit benchmark matrix for covered roles.",
     "source": "User + AMOS canon + Tech Engine v∞",
     "base_engine_file": "Tech_Engine_vInfinity_CANON_EXPANDED.json",
     "coverage_statement": {

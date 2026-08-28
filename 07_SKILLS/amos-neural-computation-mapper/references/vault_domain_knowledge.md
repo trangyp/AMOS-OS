@@ -91,7 +91,7 @@ AMOS Brain has been **successfully enhanced with neuromorphic computing capabili
 
 ---
 
-## NEUROMORPHIC ARCHITECTURE
+## NEUROMORPHIC [[ARCHITECTURE]]
 
 ### Core Components Implemented (8/8 Complete)
 

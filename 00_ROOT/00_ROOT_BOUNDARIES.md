@@ -58,7 +58,7 @@ The central contract is:
 DISTINCTION BEFORE COMPOSITION
 BOUNDARY BEFORE TRANSFER
 AUTHORITY BEFORE EFFECT
-VALIDATION BEFORE PROMOTION
+[[VALIDATION]] BEFORE PROMOTION
 REVALIDATION BEFORE COMMIT
 ```
 
@@ -85,9 +85,9 @@ or external consequence
 AMOS SHALL preserve the following root distinctions:
 
 ```text
-SOURCE != CANON
+SOURCE != [[CANON]]
 
-CANON != MODEL
+[[CANON]] != MODEL
 
 MODEL != EVIDENCE
 
@@ -105,11 +105,11 @@ AUTHORITY != AUTHORIZATION
 
 AUTHORIZATION != EXECUTION
 
-EXECUTION != VALIDATION
+EXECUTION != [[VALIDATION]]
 
 OBSERVATION != CAUSATION
 
-MEMORY != CURRENT_TRUTH
+[[MEMORY]] != CURRENT_TRUTH
 
 RETRIEVAL != ADMISSION
 
@@ -370,13 +370,13 @@ AMOS SHALL distinguish:
 ```text
 SOURCE MATERIAL
         ↓
-CANON CANDIDATE
+[[CANON]] CANDIDATE
         ↓
-CANON REVIEW
+[[CANON]] REVIEW
         ↓
-CANON ADMISSION
+[[CANON]] ADMISSION
         ↓
-CANON
+[[CANON]]
 ```
 
 Source material does not become canon merely because it is:
@@ -812,9 +812,9 @@ CURRENT OBSERVATION
 
 WORKING STATE
 
-PERSISTENT MEMORY
+PERSISTENT [[MEMORY]]
 
-RETRIEVED MEMORY
+RETRIEVED [[MEMORY]]
 
 VALIDATED CURRENT STATE
 ```
@@ -824,7 +824,7 @@ A memory object represents a stored claim or state from some prior context.
 It is not automatically current.
 
 ```text
-MEMORY(x)
+[[MEMORY]](x)
 !=
 CURRENT_TRUTH(x)
 ```
@@ -2665,7 +2665,7 @@ T-BND-004 POLICY_ALLOW cannot create authority
 
 T-BND-005 PROPOSAL cannot become COMMIT without required gates
 
-T-BND-006 MEMORY cannot become current truth without required validation
+T-BND-006 [[MEMORY]] cannot become current truth without required validation
 
 T-BND-007 PLACEHOLDER cannot become IMPLEMENTED by rename
 
@@ -2793,27 +2793,27 @@ or UNKNOWN/GAP being treated as PASS.
 Root boundaries depend conceptually on:
 
 ```text
-00_ROOT_AUTHORIZATION
+[[00_ROOT_AUTHORIZATION]]
 
-AUTHORITY_RESOLVER
+[[AUTHORITY_RESOLVER]]
 
-AUTHORITY_WITNESS
+[[AUTHORITY_WITNESS]]
 
-AUTHORIZATION_SPEC
+[[AUTHORIZATION_SPEC]]
 
-DELEGATION
+[[DELEGATION]]
 
-REVOCATION
+[[REVOCATION]]
 
 CAPABILITY_CONTRACT
 
-CAPABILITY_MANIFEST
+[[CAPABILITY_MANIFEST]]
 
-POLICY_ENGINE
+[[POLICY_ENGINE]]
 
-POLICY_REGISTRY
+[[POLICY_REGISTRY]]
 
-POLICY_DECISION
+[[POLICY_DECISION]]
 
 PROVENANCE
 
@@ -2840,10 +2840,10 @@ The exact repository paths and implementation bindings remain subject to the aut
 
 ```text
                          ┌──────────────────┐
-                         │   ROOT CANON     │
+                         │   ROOT [[CANON]]     │
                          └────────┬─────────┘
                                   │
-                         CANON BOUNDARY
+                         [[CANON]] BOUNDARY
                                   │
                                   ▼
 ┌──────────┐             ┌──────────────────┐
@@ -3066,14 +3066,14 @@ rscf:
     layer: "Root Governance"
 
   regime:
-    - ARCHITECTURE
+    - [[ARCHITECTURE]]
     - GOVERNANCE_MODEL
 
   dependencies:
     - ROOT_AUTHORIZATION
-    - AUTHORITY_RESOLVER
-    - AUTHORIZATION_SPEC
-    - POLICY_ENGINE
+    - [[AUTHORITY_RESOLVER]]
+    - [[AUTHORIZATION_SPEC]]
+    - [[POLICY_ENGINE]]
     - CAPABILITY_CONTRACT
     - PROVENANCE
     - TRANSACTION_CONTROL
@@ -3302,7 +3302,7 @@ SOURCE
   ↓
 ADMISSION
   ↓
-EVIDENCE / CANON / MEMORY
+EVIDENCE / [[CANON]] / [[MEMORY]]
   ↓
 REASONING
   ↓
@@ -3316,7 +3316,7 @@ TRANSACTION
   ↓
 EXECUTION
   ↓
-VALIDATION
+[[VALIDATION]]
   ↓
 COMMIT
   ↓
@@ -3355,7 +3355,7 @@ The governing root law is:
 ```
 
 ---
-**Related:** [[00_HOME]]
+**Related:** 
 
 ---
 
@@ -3367,12 +3367,12 @@ node_id: 00_root_boundaries
 node_type: note
 path: 00_ROOT/00_ROOT_BOUNDARIES.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
   - INDEXED_BY: AMOS_RSCF_NODES
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[00_COSMO_BRAIN_MOC]]
+**MOC:** 
 ```
 
 ---

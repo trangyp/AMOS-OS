@@ -941,7 +941,7 @@ when future evidence may reactivate them.
 
 ---
 
-# 36. MEMORY SYSTEM
+# 36. [[MEMORY]] SYSTEM
 
 AMOS Cognitive Organism uses distinct memory classes:
 
@@ -965,7 +965,7 @@ QUARANTINED
 
 ---
 
-# 37. WORKING MEMORY
+# 37. WORKING [[MEMORY]]
 
 Working memory contains:
 
@@ -979,7 +979,7 @@ Working memory contains:
 
 ---
 
-# 38. EPISODIC MEMORY
+# 38. EPISODIC [[MEMORY]]
 
 Stores interaction trajectories.
 
@@ -998,7 +998,7 @@ Episode = {
 
 ---
 
-# 39. SEMANTIC MEMORY
+# 39. SEMANTIC [[MEMORY]]
 
 Stores stable concepts and learned relations.
 
@@ -1006,7 +1006,7 @@ Semantic memory does not automatically have canonical authority.
 
 ---
 
-# 40. CANONICAL MEMORY
+# 40. CANONICAL [[MEMORY]]
 
 Stores governed AMOS source/canon objects.
 
@@ -1024,7 +1024,7 @@ supersession rule
 
 ---
 
-# 41. PROCEDURAL MEMORY
+# 41. PROCEDURAL [[MEMORY]]
 
 Stores reusable action/process patterns.
 
@@ -1039,7 +1039,7 @@ how to run a repository analysis
 
 ---
 
-# 42. CASE MEMORY
+# 42. CASE [[MEMORY]]
 
 Stores solved examples.
 
@@ -1047,7 +1047,7 @@ A case memory provides analogy, not proof.
 
 ---
 
-# 43. MEMORY STATE MACHINE
+# 43. [[MEMORY]] STATE MACHINE
 
 ```text
 CANDIDATE
@@ -1062,7 +1062,7 @@ CANDIDATE
 
 ---
 
-# 44. MEMORY ADMISSION
+# 44. [[MEMORY]] ADMISSION
 
 ```text
 MayRemember =
@@ -1076,7 +1076,7 @@ AND NoCriticalConflict
 
 ---
 
-# 45. MEMORY IMMUNE SYSTEM
+# 45. [[MEMORY]] IMMUNE SYSTEM
 
 Detect:
 
@@ -1089,7 +1089,7 @@ Detect:
 
 ---
 
-# 46. MEMORY REPAIR
+# 46. [[MEMORY]] REPAIR
 
 Never globally delete because one memory fails.
 
@@ -1323,7 +1323,7 @@ Plan = {
 
 ---
 
-# 60. PLAN VALIDATION
+# 60. PLAN [[VALIDATION]]
 
 Before use:
 
@@ -2141,7 +2141,7 @@ M_HEALTH != H_VIABILITY
 
 ---
 
-# 116. SEVEN-PART CANON MAPPING
+# 116. SEVEN-PART [[CANON]] MAPPING
 
 ```text
 Constraint
@@ -2379,7 +2379,7 @@ enough separation for independent error detection
 
 ---
 
-# 133. MEMORY ACROSS AGENTS
+# 133. [[MEMORY]] ACROSS [[AGENTS]]
 
 Shared memory must distinguish:
 
@@ -2685,7 +2685,7 @@ T40 whole-organism replay
 
 ---
 
-# 153. VALIDATION LEVELS
+# 153. [[VALIDATION]] LEVELS
 
 ```text
 V0 Conceptual
@@ -2901,7 +2901,7 @@ organism_state:
 
 ---
 
-# 164. MEMORY ABI
+# 164. [[MEMORY]] ABI
 
 ```yaml
 memory:
@@ -3101,7 +3101,7 @@ I40 INTEGRITY > COMPLETENESS > FLUENCY > SPEED
 
 ---
 
-# 169. IMPLEMENTATION ROADMAP
+# 169. IMPLEMENTATION [[ROADMAP]]
 
 ## Wave 1 — Kernel
 
@@ -3230,7 +3230,7 @@ independent assessment
 
 ---
 
-# 170. FINAL ARCHITECTURE
+# 170. FINAL [[ARCHITECTURE]]
 
 ```text
                          USER / SYSTEM AUTHORITY
@@ -3364,7 +3364,7 @@ This is the level at which “AMOS organism” becomes structurally useful: not 
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

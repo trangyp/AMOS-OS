@@ -27,11 +27,11 @@ Every AMOS skill MUST pass these gates before promotion to `production`.
 
 ### G2: Description Meaningful
 - `description` MUST be ≥ 20 characters
-- MUST NOT be a placeholder ("Placeholder SKILL.md for ...")
+- MUST NOT be a placeholder ("Placeholder [[SKILL]].md for ...")
 - MUST describe what the skill does and when to use it
 
 ### G3: No Placeholder Content
-- SKILL.md MUST NOT contain "Placeholder SKILL.md" in the first 500 chars
+- [[SKILL]].md MUST NOT contain "Placeholder [[SKILL]].md" in the first 500 chars
 
 ### G4: Epistemic Class Labeling
 - All claims MUST be labeled: SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL

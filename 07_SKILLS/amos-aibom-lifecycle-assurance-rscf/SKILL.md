@@ -227,9 +227,9 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 
 - `references/aibom_subsystems.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-aibom-lifecycle-assurance-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-rscf-epistemic-master` — parent skill
-- `[[amos-aibom-lifecycle-assurance-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-aibom-lifecycle-assurance-rscf-agent` — corresponding agent
 ---
 
@@ -243,7 +243,7 @@ Gate: FAIL if quarantined without authority; CONDITIONAL if quarantined with aut
 RSCF-NODE
 node_id: amos-aibom-lifecycle-assurance-rscf
 node_type: skill
-path: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/SKILL.md
+path: 07_SKILLS/amos-aibom-lifecycle-assurance-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

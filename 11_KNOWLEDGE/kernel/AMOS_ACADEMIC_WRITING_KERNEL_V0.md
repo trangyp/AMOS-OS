@@ -4153,7 +4153,7 @@ Thus all such edge types remain unresolved.
 
 # 214. MOC Relation
 
-`[[KERNEL_MOC]]` is explicitly labeled:
+`` is explicitly labeled:
 
 ```text
 MOC
@@ -6702,12 +6702,12 @@ RSCF_NODE:
   dependencies:
     explicit: []
     navigational:
-      - 00_HOME
-      - KNOWLEDGE_MOC
-      - AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS
+      - [[00_HOME]]
+      - [[KNOWLEDGE_MOC]]
+      - [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
       - SYSTEM_SCAN_AGENT
       - AUTOMATION_PROFILES
-      - KERNEL_MOC
+      - [[KERNEL_MOC]]
   unresolved:
     - executable_binding
     - validation_status
@@ -6724,19 +6724,19 @@ Everything under this proposed node beyond the source-declared RSCF values is au
 ```yaml
 RSCF_RELATIONS:
   - relation: INDEXED_BY
-    target: KERNEL_MOC
+    target: [[KERNEL_MOC]]
     status: DERIVED_FROM_MOC_LABEL
 
   - relation: RELATED_TO
-    target: 00_HOME
+    target: [[00_HOME]]
     status: SOURCE_EXPLICIT
 
   - relation: RELATED_TO
-    target: KNOWLEDGE_MOC
+    target: [[KNOWLEDGE_MOC]]
     status: SOURCE_EXPLICIT
 
   - relation: RELATED_TO
-    target: AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS
+    target: [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
     status: SOURCE_EXPLICIT
 
   - relation: RELATED_TO

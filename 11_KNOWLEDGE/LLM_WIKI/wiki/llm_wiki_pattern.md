@@ -36,7 +36,7 @@ RAG retrieves raw text at query time and re-reasons each time. A wiki is a persi
 
 ## AMOS instantiation
 
-The AMOS vault realizes this pattern as the `LLM_WIKI` subsystem under `11_KNOWLEDGE/LLM_WIKI/`, governed by `[[AMOS_LLM_WIKI]]` and supported by the `[[AMOS_LLM_WIKI_TOOL]]` guide.
+The AMOS vault realizes this pattern as the `LLM_WIKI` subsystem under `11_KNOWLEDGE/LLM_WIKI/`, governed by `` and supported by the `` guide.
 
 ---
 RSCF-NODE

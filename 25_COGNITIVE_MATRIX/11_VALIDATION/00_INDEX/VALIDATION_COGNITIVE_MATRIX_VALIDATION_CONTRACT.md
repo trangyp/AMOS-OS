@@ -14,10 +14,10 @@ rscf:
 ---
 
 
-# VALIDATION COGNITIVE MATRIX VALIDATION CONTRACT
+# [[VALIDATION]] COGNITIVE MATRIX [[VALIDATION]] CONTRACT
 
 ## 0. Status
-Cognitive Matrix-plane contract for **COGNITIVE MATRIX VALIDATION CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Cognitive Matrix-plane contract for **COGNITIVE MATRIX [[VALIDATION]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs primitives L00–L29, lifecycle operations O00–O16, control planes C01–C09, scales, cell registry, routing, validation, generators as they bear on `COGNITIVE MATRIX VALIDATION CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
@@ -62,14 +62,14 @@ Given an operation touching `VALIDATION · COGNITIVE MATRIX VALIDATION CONTRACT`
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

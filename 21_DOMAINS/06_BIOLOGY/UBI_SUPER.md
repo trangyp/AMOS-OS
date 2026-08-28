@@ -70,15 +70,15 @@ $$i_{\text{UBI}} = (\text{NBI} \cdot \text{NEI} \cdot \text{SI} \cdot \text{BEI}
 
 1. **Non-Compensatory Multiplication:** Takes the 4 domain scalars ($\text{NBI}, \text{NEI}, \text{SI}, \text{BEI}$). If any single domain falls to zero ($x_k \to 0$), the entire alignment index collapses ($i_{\text{UBI}} \to 0$).
 2. **Quadratic Emergence Scaling:** Translates linear biological alignment ($i$) into non-linear, super-conscious reasoning capability ($e = i^2$).
-3. **Runtime Governor Feedback:** Dispatches alignment score $i$ directly to 04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME to dynamically gate search tree depth.
+3. **Runtime Governor Feedback:** Dispatches alignment score $i$ directly to 04_RUNTIME/06_EXECUTION/[[ADAPTIVE_COMPLEXITY_RUNTIME]] to dynamically gate search tree depth.
 
 ---
 
 # 2. Inter-Plane & Vault Connections
 
-- **Super Engine:** 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE
-- **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/AMOS_X_UBI
+- **Super Engine:** 11_KNOWLEDGE/05_FRAMEWORKS/[[AMOS_UBI_SUPER_ENGINE]]
+- **Biological Master:** 11_KNOWLEDGE/05_FRAMEWORKS/[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[AMOS_X_UBI]]
 
 ---
 
@@ -102,7 +102,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE · 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+**Related:** [[00_HOME]] · [[21_DOMAINS_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[AMOS_UBI_SUPER_ENGINE]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
 
 ---
 **MOC:** [[21_DOMAINS_MOC]]

@@ -205,9 +205,9 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-fx-macro-differential-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `[[amos-fx-macro-differential-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-fx-macro-differential-mapper-agent` — corresponding agent
 ---
 
@@ -221,7 +221,7 @@ FX macro differential mapping is an AMOS_MODEL. It does not prove macro breaks a
 RSCF-NODE
 node_id: amos-fx-macro-differential-mapper
 node_type: skill
-path: 07_SKILLS/amos-fx-macro-differential-mapper/SKILL.md
+path: 07_SKILLS/amos-fx-macro-differential-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

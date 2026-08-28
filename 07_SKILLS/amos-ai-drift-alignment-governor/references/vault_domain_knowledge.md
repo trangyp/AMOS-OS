@@ -302,11 +302,11 @@ Current interpretations of cognitive debt assume all brains respond identically 
 scaffolding. This assumption contradicts substan
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

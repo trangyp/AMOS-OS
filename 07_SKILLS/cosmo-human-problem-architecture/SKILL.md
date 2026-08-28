@@ -202,9 +202,9 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[cosmo-human-problem-architecture_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[cosmo-human-problem-architecture-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `cosmo-human-problem-architecture-agent` — corresponding agent
 ---
 
@@ -218,7 +218,7 @@ Cosmo human problem architecture is an analytical model. It does not prove probl
 RSCF-NODE
 node_id: cosmo-human-problem-architecture
 node_type: skill
-path: 07_SKILLS/cosmo-human-problem-architecture/SKILL.md
+path: 07_SKILLS/cosmo-human-problem-architecture/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

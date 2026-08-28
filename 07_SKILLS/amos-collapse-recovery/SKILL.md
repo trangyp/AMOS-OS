@@ -215,9 +215,9 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-collapse-recovery_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-trang-framework-master` — parent skill
-- `[[amos-collapse-recovery-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-collapse-recovery-agent` — corresponding agent
 ---
 
@@ -231,7 +231,7 @@ Collapse prediction is AMOS_MODEL. Coverage percentages are legacy estimates, NO
 RSCF-NODE
 node_id: amos-collapse-recovery
 node_type: skill
-path: 07_SKILLS/amos-collapse-recovery/SKILL.md
+path: 07_SKILLS/amos-collapse-recovery/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

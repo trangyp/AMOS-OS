@@ -205,9 +205,9 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-target-of-repair-intelligence_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-target-of-repair-intelligence-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-target-of-repair-intelligence-agent` — corresponding agent
 ---
 
@@ -221,7 +221,7 @@ Target-of-repair intelligence is a diagnostic construct. It does not prove all f
 RSCF-NODE
 node_id: amos-target-of-repair-intelligence
 node_type: skill
-path: 07_SKILLS/amos-target-of-repair-intelligence/SKILL.md
+path: 07_SKILLS/amos-target-of-repair-intelligence/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

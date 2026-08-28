@@ -22,13 +22,13 @@ rscf:
 - [[AMOS_HOME]] — AMOS Home dashboard
 - [[AGENTS]] — Agent contract
 - [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]] — Cognitive architecture matrix
-- [[README]] — Project README
+- [[README]] — Project [[README]]
 - [[AMOS_LLM_WIKI]] — LLM Wiki schema & operations
 
 ## Layer MOCs
 
 - [[00_ROOT_MOC]] — 00 ROOT
-- [[01_CANON_MOC]] — 01 CANON
+- [[01_CANON_MOC]] — 01 [[CANON]]
 - [[02_KERNEL_MOC]] — 02 KERNEL
 - [[03_CONTROL_PLANE_MOC]] — 03 CONTROL PLANE
 - [[04_RUNTIME_MOC]] — 04 RUNTIME
@@ -37,7 +37,7 @@ rscf:
 - [[07_SKILLS_MOC]] — 07 SKILLS
 - [[08_WORKFLOWS_MOC]] — 08 [[WORKFLOWS]]
 - [[09_PROTOCOLS_MOC]] — 09 PROTOCOLS
-- [[10_MEMORY_MOC]] — 10 MEMORY
+- [[10_MEMORY_MOC]] — 10 [[MEMORY]]
 - [[KNOWLEDGE_MOC]] — 11 KNOWLEDGE
 - [[12_STATE_MOC]] — 12 STATE
 - [[13_MODELS_MOC]] — 13 MODELS

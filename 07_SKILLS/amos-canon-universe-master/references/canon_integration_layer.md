@@ -67,7 +67,7 @@ tags: [canon-group/human-system, canon/framework, rscf/claim, rscf/provenance, r
   },
 
   // -------------------------------------------------
-  // 1. CANON REGISTRY (WHAT EXISTS)
+  // 1. [[CANON]] REGISTRY (WHAT EXISTS)
   // -------------------------------------------------
   "CIL_Registry": {
     "Canon_Groups": [

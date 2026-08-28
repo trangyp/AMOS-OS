@@ -118,7 +118,7 @@ The AMOS UNIVERSE system has been successfully integrated and is ready for produ
 
 | Document | Status |
 |----------|--------|
-| README.md | ✅ Complete |
+| [[README]].md | ✅ Complete |
 | CHANGELOG.md | ✅ Complete |
 | REPO_CANONICALIZATION_STATUS.md | ✅ Complete |
 | FINAL_RELEASE_READINESS.md | ✅ Complete |

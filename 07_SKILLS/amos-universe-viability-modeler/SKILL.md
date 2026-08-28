@@ -210,9 +210,9 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-universe-viability-modeler_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-canon-universe-master` — parent skill
-- `[[amos-universe-viability-modeler-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-universe-viability-modeler-agent` — corresponding agent
 ---
 
@@ -226,7 +226,7 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 RSCF-NODE
 node_id: amos-universe-viability-modeler
 node_type: skill
-path: 07_SKILLS/amos-universe-viability-modeler/SKILL.md
+path: 07_SKILLS/amos-universe-viability-modeler/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -16,7 +16,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-# AMOS MEMORY OPTIMIZATION KERNEL V0 MACHINE ARCHITECTURE4 2
+# AMOS [[MEMORY]] OPTIMIZATION KERNEL V0 MACHINE ARCHITECTURE4 2
 
 ```json
 {
@@ -70,7 +70,7 @@ rscf:
 }
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:**  ·  ·  ·  · 
 ```
 
 ---

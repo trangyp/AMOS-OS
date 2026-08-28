@@ -84,7 +84,7 @@ The matrix structure and assignments are source-grounded. The artifact does **no
 
 `REALITY_X_ULK_MATRIX.md` defines the source-grounded AMOS Cognitive Matrix:
 
-REALITY ARCHITECTURE
+REALITY [[ARCHITECTURE]]
         ×
 UNIVERSAL LOGIC KERNEL
 
@@ -1272,7 +1272,7 @@ This should be the first dependency for deeper matrix semantics.
 
 The source explicitly binds:
 
-11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
+11_KNOWLEDGE/05_FRAMEWORKS/[[TRANG_REALITY_ARCHITECTURE]]
 
 as:
 
@@ -1300,9 +1300,9 @@ Questions about ALU semantics should route there before speculative interpretati
 
 The artifact explicitly records provenance through:
 
-25_COGNITIVE_MATRIX/REALITY_X_ULK
+25_COGNITIVE_MATRIX/[[REALITY_X_ULK]]
 
-11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
+11_KNOWLEDGE/05_FRAMEWORKS/[[TRANG_REALITY_ARCHITECTURE]]
 
 02_KERNEL/01_ULK
 

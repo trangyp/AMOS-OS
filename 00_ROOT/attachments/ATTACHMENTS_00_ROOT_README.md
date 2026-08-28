@@ -15,13 +15,13 @@ tags:
 canon-group: canon/root
 ---
 
----title: "CANON README"
+---title: "[[CANON]] [[README]]"
 type: document
 tags: [note]
 ---
 
 
-# CANON README
+# [[CANON]] [[README]]
 
 > **AMOS OS Canon Plane — orientation, authority boundaries, admission semantics, lineage, provenance, supersession, and canonical-state governance.**
 
@@ -70,7 +70,7 @@ Its scope includes, where corresponding artifacts exist:
 * compatibility boundaries;
 * version and epoch relationships.
 
-This README does **not** make every file inside `01_CANON` authoritative.
+This [[README]] does **not** make every file inside `01_CANON` authoritative.
 
 It defines the navigation and governance model by which authoritative status must be resolved.
 
@@ -1215,61 +1215,61 @@ An unresolved required invariant is not equivalent to `PASS`.
 
 Canonical identifiers should ultimately resolve to explicit registry definitions. Until such registry bindings are confirmed, the following names are conceptual.
 
-### I-CANON-IDENTITY
+### I-[[CANON]]-IDENTITY
 
 ```text
 No consequential canonical mutation without resolvable artifact identity.
 ```
 
-### I-CANON-PROVENANCE
+### I-[[CANON]]-PROVENANCE
 
 ```text
 No canonical promotion requiring evidence without recoverable load-bearing provenance.
 ```
 
-### I-CANON-AUTHORITY
+### I-[[CANON]]-AUTHORITY
 
 ```text
 No canonical mutation without valid authority for the requested mutation scope.
 ```
 
-### I-CANON-VERSION
+### I-[[CANON]]-VERSION
 
 ```text
 No stale write may silently overwrite a newer authoritative state.
 ```
 
-### I-CANON-SCOPE
+### I-[[CANON]]-SCOPE
 
 ```text
 No claim may silently expand beyond its validated applicability envelope.
 ```
 
-### I-CANON-REGIME
+### I-[[CANON]]-REGIME
 
 ```text
 No stale regime-bound conclusion may be reused after a material regime shift without revalidation.
 ```
 
-### I-CANON-CONTRADICTION
+### I-[[CANON]]-CONTRADICTION
 
 ```text
 No unresolved material contradiction may be erased merely to produce a single answer.
 ```
 
-### I-CANON-CONFIDENCE
+### I-[[CANON]]-CONFIDENCE
 
 ```text
 Derived confidence cannot exceed the weakest unresolved load-bearing premise.
 ```
 
-### I-CANON-PROPOSAL-COMMIT
+### I-[[CANON]]-PROPOSAL-COMMIT
 
 ```text
 Proposal is never equivalent to commit.
 ```
 
-### I-CANON-UNKNOWN
+### I-[[CANON]]-UNKNOWN
 
 ```text
 UNKNOWN/GAP on a load-bearing gate cannot be interpreted as PASS.
@@ -1304,7 +1304,7 @@ SWAP(candidate_state)
 
 only after all other required gates pass.
 
-This README does not assert that a specific underlying repository currently implements full MVCC or CAS semantics.
+This [[README]] does not assert that a specific underlying repository currently implements full MVCC or CAS semantics.
 
 ---
 
@@ -1780,12 +1780,12 @@ AMOS documentation must not grant AMOS capabilities merely by describing them.
 The normative package-level contract SHOULD reside in:
 
 ```text
-[[CANON_CANON_CONTRACT]]
+
 ```
 
-This README is an orientation and integration surface.
+This [[README]] is an orientation and integration surface.
 
-If this README conflicts with a properly admitted higher-authority Canon contract:
+If this [[README]] conflicts with a properly admitted higher-authority Canon contract:
 
 ```text
 README yields to higher-authority admitted contract
@@ -1824,7 +1824,7 @@ This ordering is a conceptual governance hierarchy and must be reconciled with t
 See:
 
 AMOS Core Laws
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 
 ---
 
@@ -1899,7 +1899,7 @@ GitHub may provide:
 
 GitHub does not inherently provide epistemic authority.
 
-A README claim in GitHub remains:
+A [[README]] claim in GitHub remains:
 
 ```text
 SOURCE_CLAIM
@@ -2225,17 +2225,17 @@ provided no unresolved load-bearing gap remains hidden.
 
 ## Root
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 [[00_HOME]]
 
 ## Core laws
 
 AMOS Core Laws
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 
 ## Kernel
 
-KERNEL_README
+[[KERNEL_README]]
 
 Canon provides governed knowledge and constraints.
 
@@ -2243,16 +2243,16 @@ Kernel primitives enforce deterministic control semantics.
 
 ## Control plane
 
-CONTROL_PLANE_README
+[[CONTROL_PLANE_README]]
 
 Control-plane infrastructure governs authorization and transition admission.
 
 ## Routing
 
 ROUTING_README
-ROUTING_POLICY
-BINDING_RULES
-ROUTING_AUDIT
+[[ROUTING_POLICY]]
+[[BINDING_RULES]]
+[[ROUTING_AUDIT]]
 
 Routing determines where requests and artifacts may be bound.
 
@@ -2261,7 +2261,7 @@ Routing does not itself establish canonical truth.
 ## Validation
 
 VALIDATION_README
-PROMOTION_GATES
+[[PROMOTION_GATES]]
 
 Validation supplies evidence required by promotion.
 
@@ -2269,7 +2269,7 @@ Validation success alone still requires the applicable admission authority.
 
 ## Observability
 
-OBSERVABILITY_README
+[[OBSERVABILITY_README]]
 
 Observability records system behavior.
 
@@ -2277,19 +2277,19 @@ It is never treated as authority merely because it observed an event.
 
 ## Operations
 
-OPERATIONS_README
+[[OPERATIONS_README]]
 
 Operations handles recovery, rollback, incident procedures, and state restoration.
 
 ## Cognitive Matrix
 
-COGNITIVE_MATRIX_MOC
+[[COGNITIVE_MATRIX_MOC]]
 
 Cognitive structures may consume and propose Canon knowledge but remain subject to Canon epistemic boundaries.
 
 ## RSCF
 
-AMOS_RSCF_NODES
+[[AMOS_RSCF_NODES]]
 
 RSCF nodes expose dependency and proof relationships where implemented.
 
@@ -2299,8 +2299,8 @@ RSCF nodes expose dependency and proof relationships where implemented.
 
 Current architecture references may include:
 
-ROUTING_POLICY_VALIDATION_RECEIPT
-AUTHZ_ENGINE_VALIDATION_RECEIPT
+[[ROUTING_POLICY_VALIDATION_RECEIPT]]
+[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 Their mere existence must not be interpreted as proof that they contain successful executed validation.
 
@@ -2629,7 +2629,7 @@ Each transition requires its own evidence.
 
 ---
 
-# 83. Current epistemic status of this README
+# 83. Current epistemic status of this [[README]]
 
 This document should be interpreted as:
 
@@ -2692,7 +2692,7 @@ Until verified, these remain implementation questions rather than established ca
 
 # 85. Promotion-gate checklist for this artifact
 
-Before this README itself is promoted beyond `MODEL`:
+Before this [[README]] itself is promoted beyond `MODEL`:
 
 * [ ] authoritative source references resolved
 * [ ] `CANON_CANON_CONTRACT` compatibility checked
@@ -2755,7 +2755,7 @@ EVENT_EMITTED != STATE_COMMITTED
 
 ---
 
-# 87. RSCF state for this README
+# 87. RSCF state for this [[README]]
 
 ```yaml
 RSCF:
@@ -2836,24 +2836,24 @@ RSCF-NODE:
   path: 01_CANON/CANON_README.md
 
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
   - INDEXED_BY: 00_ROOT_MOC|AMOS MOC
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-  - CONTRACTED_BY: [[CANON_CANON_CONTRACT]]
+  - GOVERNED_BY: 
+  - CONTRACTED_BY: 
 
   - BINDS_TO: AMOS_OS_AUTHORITATIVE_STATE
 
-  - INTERACTS_WITH: [[KERNEL_README]]
-  - INTERACTS_WITH: [[CONTROL_PLANE_README]]
+  - INTERACTS_WITH: 
+  - INTERACTS_WITH: 
   - INTERACTS_WITH: ROUTING_README
   - INTERACTS_WITH: VALIDATION_README
-  - INTERACTS_WITH: [[OBSERVABILITY_README]]
-  - INTERACTS_WITH: [[OPERATIONS_README]]
+  - INTERACTS_WITH: 
+  - INTERACTS_WITH: 
 
-  - VALIDATED_BY: [[PROMOTION_GATES]]
-  - OBSERVED_BY: [[OBSERVABILITY_README]]
+  - VALIDATED_BY: 
+  - OBSERVED_BY: 
 
 claim_class: AMOS_MODEL
 ```
@@ -2865,40 +2865,40 @@ claim_class: AMOS_MODEL
 **Root / navigation**
 
 [[00_HOME]] ·
-00_ROOT_MOC|AMOS MOC ·
-AMOS_RSCF_NODES
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
+[[AMOS_RSCF_NODES]]
 
 **Canon**
 
-CANON_CANON_CONTRACT ·
+[[CANON_CANON_CONTRACT]] ·
 AMOS_OS_AUTHORITATIVE_STATE ·
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 
 **Infrastructure**
 
-KERNEL_README ·
-CONTROL_PLANE_README ·
+[[KERNEL_README]] ·
+[[CONTROL_PLANE_README]] ·
 ROUTING_README ·
-ROUTING_POLICY ·
-BINDING_RULES ·
-ROUTING_AUDIT
+[[ROUTING_POLICY]] ·
+[[BINDING_RULES]] ·
+[[ROUTING_AUDIT]]
 
 **Validation**
 
 VALIDATION_README ·
-PROMOTION_GATES ·
-ROUTING_POLICY_VALIDATION_RECEIPT ·
-AUTHZ_ENGINE_VALIDATION_RECEIPT
+[[PROMOTION_GATES]] ·
+[[ROUTING_POLICY_VALIDATION_RECEIPT]] ·
+[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 **Operations**
 
-OBSERVABILITY_README ·
-OPERATIONS_README
+[[OBSERVABILITY_README]] ·
+[[OPERATIONS_README]]
 
 **Cognition / knowledge graph**
 
-COGNITIVE_MATRIX_MOC ·
-AMOS_RSCF_NODES
+[[COGNITIVE_MATRIX_MOC]] ·
+[[AMOS_RSCF_NODES]]
 
 ---
 
@@ -2947,11 +2947,11 @@ DO NOT CONVERT UNKNOWN INTO PASS.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
-**Related:** [[00_HOME]] · CANON_CANON_CONTRACT · AMOS_OS_AUTHORITATIVE_STATE · LAW_HIERARCHY · KERNEL_README · CONTROL_PLANE_README · ROUTING_README · VALIDATION_README · PROMOTION_GATES · OBSERVABILITY_README · OPERATIONS_README · COGNITIVE_MATRIX_MOC · AMOS_RSCF_NODES
+**Related:** [[00_HOME]] · [[CANON_CANON_CONTRACT]] · AMOS_OS_AUTHORITATIVE_STATE · [[LAW_HIERARCHY]] · [[KERNEL_README]] · [[CONTROL_PLANE_README]] · ROUTING_README · VALIDATION_README · [[PROMOTION_GATES]] · [[OBSERVABILITY_README]] · [[OPERATIONS_README]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
 
 ---
 
@@ -2959,7 +2959,7 @@ RSCF-NODE
 
 node_id: amos_01_canon_canon_readme_md
 node_type: plane_readme
-path: 01_CANON/CANON_README.md
+path: 01_CANON/[[CANON_README]].md
 claim_class: AMOS_MODEL
 
 ```

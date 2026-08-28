@@ -88,7 +88,7 @@ E_L(x) < 0,1 \;\land\; 0,1 < E_M(x) < 0,2 \;\land\; E_H(x) < 0,3
 \$$\$$\land\; \Lambda_x \in (\Lambda_{\min}, \Lambda_{\max}) \;\land\; \text{T2}(x)=\text{True}
 $$### Phân loại đột biến (Nhóm 20) \$$\mu_B \;(\text{tốt}) \iff \text{Survive}(\mu) \land \Delta\text{Performance}>0 \$$\$$\mu_D \;(\text{xấu}) \iff \neg\text{Survive}(\mu) \land \Delta\text{Performance}<0 \$$\$$\mu_N \;(\text{trung tính}) \iff \text{Survive}(\mu) \land |\Delta\text{Performance}|<\varepsilon$$
 * * *
-## V. TÁT 2 – CROSS‑VALIDATION
+## V. TÁT 2 – CROSS‑[[VALIDATION]]
 \$$\text{T2}(C) = \bigwedge_{i=1}^{n} \text{source}_i(C),\quad n\ge 2
 $$Xác suất tuyên bố đúng khi có Tát 2: \$$P_{\text{correct}}(\text{T2}) = 1 - \prod_{i=1}^{n} (1-P_i)$$
 (\$ P_i \$ : độ tin cậy của nguồn thứ \$ i \$)

@@ -592,7 +592,7 @@ Example:
 ```text
 SOURCE
   ↓
-INDEPENDENT VALIDATION
+INDEPENDENT [[VALIDATION]]
   ↓
 ESTABLISHED OBSERVATION
 ```
@@ -1350,7 +1350,7 @@ Do not reconstruct the missing source from downstream summaries and present the 
 If canonical detail is absent:
 
 ```text
-CANON GAP
+[[CANON]] GAP
 ```
 
 must remain visible.
@@ -1358,7 +1358,7 @@ must remain visible.
 Do not replace it with:
 
 ```text
-LIKELY CANON
+LIKELY [[CANON]]
 ```
 
 merely because a model extension fits the architecture.
@@ -2296,7 +2296,7 @@ WHAT IS THE EPISTEMIC STATUS?
 
 H/M/L
 answers:
-WHAT VALIDATION RIGOR APPLIES?
+WHAT [[VALIDATION]] RIGOR APPLIES?
 ```
 
 Together:
@@ -2334,7 +2334,7 @@ HOW STRONGLY MAY THE RESULT BE CLAIMED?
 Thus:
 
 ```text
-VALIDATION FLOOR
+[[VALIDATION]] FLOOR
 +
 CONFIDENCE CEILING
 ```
@@ -3049,7 +3049,7 @@ LABEL SOURCE
 PRESERVE ATTRIBUTION
    ↓
 DO NOT UPGRADE
-WITHOUT VALIDATION
+WITHOUT [[VALIDATION]]
 ```
 
 ---
@@ -3459,7 +3459,7 @@ Rejected when the unknown is load-bearing.
 ```text
 MODEL
 → STORED
-→ CANON
+→ [[CANON]]
 ```
 
 Rejected.
@@ -3649,7 +3649,7 @@ This prevents architectural canon from being misrepresented as empirical science
 A canonical source may raise confidence about:
 
 ```text
-WHAT THE CANON DEFINES
+WHAT THE [[CANON]] DEFINES
 ```
 
 but not necessarily about:
@@ -4465,7 +4465,7 @@ L17 DEFINES RSCF
       ↓
 RSCF CAPSULE SAYS L17 IS VALID
       ↓
-L17 IS CANON
+L17 IS [[CANON]]
 ```
 
 Correct:
@@ -5094,13 +5094,13 @@ RSCF-RELATIONS:
 
 ---
 
-**00_ROOT_MOC:** [[AMOS MOC]]
+**00_ROOT_MOC:** 
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:**  ·  · 
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** 
 
 ---
 
@@ -5202,7 +5202,7 @@ INDEPENDENT CONFIRMATION
 
 STORAGE
 ≠
-VALIDATION
+[[VALIDATION]]
 
 SCOPE-SPECIFIC PROOF
 ≠

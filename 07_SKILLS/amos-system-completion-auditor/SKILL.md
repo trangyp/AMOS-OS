@@ -202,9 +202,9 @@ System completion audit is a quality construct. It does not prove the system is 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-system-completion-auditor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-system-completion-auditor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-system-completion-auditor-agent` — corresponding agent
 ---
 
@@ -218,7 +218,7 @@ System completion audit is a quality construct. It does not prove the system is 
 RSCF-NODE
 node_id: amos-system-completion-auditor
 node_type: skill
-path: 07_SKILLS/amos-system-completion-auditor/SKILL.md
+path: 07_SKILLS/amos-system-completion-auditor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

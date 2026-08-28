@@ -118,7 +118,7 @@ HERITAGE × TSS
 Canonical source flow:
 
 ```text
-TSS SYSTEM DIAGNOSIS
+TSS SYSTEM [[DIAGNOSIS]]
 (State & Force Vector)
 
         ↓
@@ -839,7 +839,7 @@ Preserve human trust networks.
 Primary failure avoided:
 
 ```text
-TOTAL MEMORY LOSS
+TOTAL [[MEMORY]] LOSS
 
 LIQUIDATION OF FOUNDATIONAL ASSETS
 ```
@@ -1836,7 +1836,7 @@ A credible rollback analysis must account for irreversible downstream effects wh
 A derived governance traversal is:
 
 ```text
-TSS DIAGNOSIS
+TSS [[DIAGNOSIS]]
       ↓
 TRUST SCORING
       ↓
@@ -2082,7 +2082,7 @@ Therefore:
 HERITAGE_X_TSS
 → framework integration
 
-HERITAGE_X_TSS_MATRIX
+[[HERITAGE_X_TSS_MATRIX]]
 → matrix routing interface
 ```
 
@@ -2178,7 +2178,7 @@ Thus Trang Zero is positioned as an invariant boundary layer.
 
 ```text
               THE TRANG SYSTEM™
-                  AMOS_X_TSS
+                  [[AMOS_X_TSS]]
                       │
                       ▼
           HERITAGE DECISION INTELLIGENCE
@@ -2196,7 +2196,7 @@ Additional logical/causal validation:
 QLS / QCLA
     │
     ▼
-DECISION PREMISE VALIDATION
+DECISION PREMISE [[VALIDATION]]
 ```
 
 ---
@@ -3667,7 +3667,7 @@ MODEL
 
 COMPETING CLAIMS
 
-VALIDATION STATE
+[[VALIDATION]] STATE
 
 REVALIDATION CONDITIONS
 
@@ -3836,7 +3836,7 @@ GAP CLASSIFICATION
 
 ETHICAL REFUSAL
 
-AUTHORITY WARRANT VALIDATION
+AUTHORITY WARRANT [[VALIDATION]]
 
 ROLLBACK EXECUTION
 
@@ -3900,7 +3900,7 @@ INVARIANT CHECKER
 
 AUTHORITY-WARRANT VALIDATOR
 
-EPOCH VALIDATION
+EPOCH [[VALIDATION]]
 
 ROLLBACK VALIDATOR
 
@@ -4094,15 +4094,15 @@ LOGGED != APPROVED
 
 UNKNOWN/GAP != PASS
 
-HERITAGE_X_TSS_MATRIX BINDING
+[[HERITAGE_X_TSS_MATRIX]] BINDING
 
-AMOS_X_TSS BINDING
+[[AMOS_X_TSS]] BINDING
 
-AMOS_X_TPE BINDING
+[[AMOS_X_TPE]] BINDING
 
 QLS / QCLA BINDING
 
-HERITAGE_X_TRANG_ZERO BINDING
+[[HERITAGE_X_TRANG_ZERO]] BINDING
 
 SOURCE / DERIVED SEPARATION
 
@@ -4134,7 +4134,7 @@ Revalidate this artifact when:
 ```text
 HERITAGE_X_TSS IS SUPERSEDED
 
-HERITAGE INTELLIGENCE CANON CHANGES
+HERITAGE INTELLIGENCE [[CANON]] CHANGES
 
 TSS OFFICIAL MANUAL CHANGES
 
@@ -4172,7 +4172,7 @@ CROSS-FRAMEWORK BINDINGS CHANGE
 
 RUNTIME IMPLEMENTATION APPEARS
 
-EMPIRICAL VALIDATION FALSIFIES
+EMPIRICAL [[VALIDATION]] FALSIFIES
 A LOAD-BEARING CLAIM
 ```
 
@@ -4423,13 +4423,13 @@ HML:
 
     load_only_when_required:
       - HERITAGE_INTELLIGENCE_CANON
-      - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-      - AMOS_X_TSS
-      - HERITAGE_X_TSS_MATRIX
-      - AMOS_X_TPE
-      - AMOS_X_QLS
-      - AMOS_X_QCLA
-      - HERITAGE_X_TRANG_ZERO
+      - [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
+      - [[AMOS_X_TSS]]
+      - [[HERITAGE_X_TSS_MATRIX]]
+      - [[AMOS_X_TPE]]
+      - [[AMOS_X_QLS]]
+      - [[AMOS_X_QCLA]]
+      - [[HERITAGE_X_TRANG_ZERO]]
       - historical_governance_case_studies
       - runtime_validation
       - formal_proofs
@@ -4687,7 +4687,7 @@ PROOF_CAPSULE:
 
   provenance:
     - HERITAGE_INTELLIGENCE_CANON
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
     - AMOS_CORPUS
 
   scope:
@@ -4696,16 +4696,16 @@ PROOF_CAPSULE:
     - COGNITIVE_MATRIX
 
   dependencies:
-    - AMOS_X_TSS
-    - HERITAGE_X_TSS_MATRIX
+    - [[AMOS_X_TSS]]
+    - [[HERITAGE_X_TSS_MATRIX]]
     - HERITAGE_INTELLIGENCE_CANON
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+    - [[TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL]]
 
   related_dependencies:
-    - AMOS_X_TPE
-    - AMOS_X_QLS
-    - AMOS_X_QCLA
-    - HERITAGE_X_TRANG_ZERO
+    - [[AMOS_X_TPE]]
+    - [[AMOS_X_QLS]]
+    - [[AMOS_X_QCLA]]
+    - [[HERITAGE_X_TRANG_ZERO]]
 
   competing_explanations:
     - TSS cycles may be heuristic model states rather than universal natural phases
@@ -5083,11 +5083,11 @@ AND AUTHORITY ENVELOPE.
 
 ---
 
-[[00_ROOT_MOC|AMOS MOC]]
+
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[25_COGNITIVE_MATRIX_MOC]] · [[AMOS_X_TSS]] · [[HERITAGE_X_TSS_MATRIX]] · [[AMOS_X_TPE]] · [[AMOS_X_QLS]] · [[AMOS_X_QCLA]] · [[HERITAGE_X_TRANG_ZERO]] · [[K_RSCF]] · [[K_HML]] · [[K_GMEF]] · [[K_PROVENANCE]] · [[K_PROVENANCE_TOPOLOGY]] · [[K_FAILURE_RECOVERY]] · [[K_CAUSAL_EPOCH]] · [[K_MVCC]] · [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]]
+**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 
 ---
 
@@ -5107,23 +5107,23 @@ canonical_status: SOURCE_GROUNDED_CANON_CANDIDATE
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* PART_OF: [[25_COGNITIVE_MATRIX_MOC]]
+* PART_OF: 
 
-* UPSTREAM: [[AMOS_X_TSS]]
+* UPSTREAM: 
 
-* ROUTED_BY: [[HERITAGE_X_TSS_MATRIX]]
+* ROUTED_BY: 
 
-* RELATED_TO: [[AMOS_X_TPE]]
+* RELATED_TO: 
 
-* RELATED_TO: [[AMOS_X_QLS]]
+* RELATED_TO: 
 
-* RELATED_TO: [[AMOS_X_QCLA]]
+* RELATED_TO: 
 
-* RELATED_TO: [[HERITAGE_X_TRANG_ZERO]]
+* RELATED_TO: 
 
 * DEFINES: HERITAGE_TSS_RESPONSIBILITY_DIVISION
 
@@ -5147,31 +5147,31 @@ RSCF-RELATIONS:
 
 * DEFINES: UNKNOWN_GAP_NE_PASS
 
-* RELATED_TO: [[K_RSCF]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_HML]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_GMEF]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_PROVENANCE]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_PROVENANCE_TOPOLOGY]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_FAILURE_RECOVERY]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_CAUSAL_EPOCH]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_MVCC]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_CAS]]
+* RELATED_TO: 
 
-* RELATED_TO: [[K_ATOMIC_MULTI_RSCF]]
+* RELATED_TO: 
 
-* LINEAGE_TARGET: [[AMOS_CORE_v4_4]]
+* LINEAGE_TARGET: 
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** 
 
 ---
 

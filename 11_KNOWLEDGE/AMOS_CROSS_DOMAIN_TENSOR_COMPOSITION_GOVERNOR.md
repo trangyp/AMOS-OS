@@ -119,11 +119,11 @@ gaps:
 >
 > Its source-grounded responsibility is deliberately bounded:
 >
-> **orient the reader to the local README and contract, then route from those definitions toward artifacts governed by that contract.**
+> **orient the reader to the local [[README]] and contract, then route from those definitions toward artifacts governed by that contract.**
 >
 > This map covers its own directory only.
 >
-> Cross-segment navigation belongs to `[[00_ROOT_MAP]]` and `[[AMOS_RSCF_NODES]]`.
+> Cross-segment navigation belongs to `` and ``.
 >
 > A model's presence on a map establishes **discoverability**, not empirical truth, canonical promotion, causal validity, authorization, freshness, or applicability.
 
@@ -340,15 +340,15 @@ CROSS-SEGMENT EDGE
 The source establishes two direct map targets:
 
 ```text
-[[INDEX_MODELS_README]]
-[[INDEX_MODELS_MODEL_CONTRACT]]
+
+
 ```
 
 ---
 
-# 12. README Role
+# 12. [[README]] Role
 
-`[[INDEX_MODELS_README]]` provides orientation.
+`` provides orientation.
 
 Normalized role:
 
@@ -363,7 +363,7 @@ README
 
 # 13. Contract Role
 
-`[[INDEX_MODELS_MODEL_CONTRACT]]` provides normative terms.
+`` provides normative terms.
 
 Normalized role:
 
@@ -415,7 +415,7 @@ ARTIFACTS
 
 # 16. Why Orientation Comes First
 
-The README establishes the navigation context before the reader interprets model artifacts.
+The [[README]] establishes the navigation context before the reader interprets model artifacts.
 
 This reduces:
 
@@ -483,7 +483,7 @@ does not mean:
 README HAS HIGHER CANONICAL AUTHORITY
 ```
 
-Canonical precedence remains governed by applicable canon such as `[[LAW_HIERARCHY]]`.
+Canonical precedence remains governed by applicable canon such as ``.
 
 ---
 
@@ -2837,14 +2837,14 @@ MODEL_MAP_GAPS:
 * [ ] local directory boundary enforced
 * [ ] no implicit whole-plane coverage
 * [ ] cross-segment edges delegated correctly
-* [ ] `[[00_ROOT_MAP]]` route validated
-* [ ] `[[AMOS_RSCF_NODES]]` route validated
+* [ ] `` route validated
+* [ ] `` route validated
 
 ---
 
 # 212. Extended Promotion Gate — Reading Order
 
-* [ ] README resolves
+* [ ] [[README]] resolves
 * [ ] contract resolves
 * [ ] contract binding is explicit
 * [ ] artifact instances preserve contract identity
@@ -3630,13 +3630,13 @@ MODEL_MAP_INVARIANTS:
 Start:
 
 ```text
-[[MODEL_MAP]]
+
 ```
 
 Step 1:
 
 ```text
-[[INDEX_MODELS_README]]
+
 ```
 
 Purpose:
@@ -3648,7 +3648,7 @@ ORIENTATION
 Step 2:
 
 ```text
-[[INDEX_MODELS_MODEL_CONTRACT]]
+
 ```
 
 Purpose:
@@ -3698,9 +3698,9 @@ Then:
 ```text
 MODEL_MAP
 ↓
-[[00_ROOT_MAP]]
+
 and/or
-[[AMOS_RSCF_NODES]]
+
 ↓
 TARGET
 ```
@@ -4369,19 +4369,19 @@ This artifact belongs to:
 # 300. Canonical Reading Path
 
 ```text
-[[00_HOME]]
+
      ↓
-[[00_ROOT_MAP]]
+
      ↓
 13_MODELS
      ↓
 13_MODELS/00_INDEX
      ↓
-[[MODEL_MAP]]
+
      ↓
-[[INDEX_MODELS_README]]
+
      ↓
-[[INDEX_MODELS_MODEL_CONTRACT]]
+
      ↓
 MODEL ARTIFACTS
 ```
@@ -4395,11 +4395,11 @@ This is a normalized navigation representation.
 Within the local segment:
 
 ```text
-[[MODEL_MAP]]
+
      ↓
-[[INDEX_MODELS_README]]
+
      ↓
-[[INDEX_MODELS_MODEL_CONTRACT]]
+
      ↓
 ARTIFACT
 ```
@@ -4411,7 +4411,7 @@ ARTIFACT
 An artifact may also link back to:
 
 ```text
-[[MODEL_MAP]]
+
 ```
 
 for navigation.
@@ -5184,9 +5184,9 @@ CONTRACT-BOUND INSTANCES
 
 CROSS-SEGMENT NAVIGATION
 =
-[[00_ROOT_MAP]]
+
 +
-[[AMOS_RSCF_NODES]]
+
 
 MAPPED
 ≠
@@ -5364,13 +5364,13 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
-  - INDEXED_BY: [[00_INDEX_MOC]]
+  - INDEXED_BY: [[13_MODELS_MOC]]
 
-  - ORIENTED_BY: [[INDEX_MODELS_README]]
-  - CONTRACT_BOUND_BY: [[INDEX_MODELS_MODEL_CONTRACT]]
+  - ORIENTED_BY: [[MODELS_README]]
+  - CONTRACT_BOUND_BY: 
 
-  - CROSS_SEGMENT_ROUTED_BY: [[00_ROOT_MAP]]
-  - CROSS_SEGMENT_ROUTED_BY: [[AMOS_RSCF_NODES]]
+  - CROSS_SEGMENT_ROUTED_BY: 
+  - CROSS_SEGMENT_ROUTED_BY: 
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
@@ -5379,8 +5379,8 @@ RSCF-RELATIONS:
   - OBSERVED_BY: [[OBSERVABILITY_README]]
   - RECOVERED_VIA: [[OPERATIONS_README]]
 
-  - VALIDATION_CONTEXT: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-  - VALIDATION_CONTEXT: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+  - VALIDATION_CONTEXT: 
+  - VALIDATION_CONTEXT: 
 
   - MAPS_CONCEPT: MODEL_NAVIGATION
   - MAPS_CONCEPT: MODEL_INDEXING
@@ -5493,8 +5493,8 @@ Its cross-segment law is:
 
 ```text
 CROSS-SEGMENT
-→ [[00_ROOT_MAP]]
-→ [[AMOS_RSCF_NODES]]
+→ 
+→ 
 ```
 
 Its operational law is:
@@ -5613,7 +5613,7 @@ RSCF-NODE
 
 node_id: amos_13_models_00_index_model_map_md
 node_type: note
-path: 13_MODELS/00_INDEX/MODEL_MAP.md
+path: 13_MODELS/00_INDEX/[[MODEL_MAP]].md
 claim_class: AMOS_MODEL
 
 RSCF-RELATIONS:

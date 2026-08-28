@@ -318,7 +318,7 @@ VERIFIED:
 README CLAIMS P
 ```
 
-if directly observed in the README.
+if directly observed in the [[README]].
 
 It does **not** by itself support:
 
@@ -3024,13 +3024,13 @@ ARE IMPLEMENTED.
 [[K_COLLAPSE_RECOVERY]] ·
 [[K_COMMIT_TIME_AUTHORITY]] ·
 [[K_INFORMATION_EXPOSURE]] ·
-README ·
-README ·
-README ·
 [[README]] ·
-README ·
 [[README]] ·
-README
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]]
 
 ```text
 
@@ -3039,7 +3039,7 @@ README
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

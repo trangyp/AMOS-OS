@@ -2020,17 +2020,17 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY:
-      "[[00_HOME]]"
+  - INDEXED_BY: [[00_HOME]]
+      ""
 
-  - INDEXED_BY:
-      "[[AMOS_RSCF_NODES]]"
-
-  - PART_OF:
-      "[[GENERATORS_MAP]]"
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+      ""
 
   - PART_OF:
-      "[[COGNITIVE_MATRIX_MOC]]"
+      ""
+
+  - PART_OF:
+      ""
 
   - RELATED_TO:
       "GENERATOR_CONTRACT|Generator Contract"
@@ -2838,7 +2838,7 @@ NON_AUTHORITATIVE
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -2864,22 +2864,22 @@ NON_AUTHORITATIVE
 The intended separation across the Generator records is:
 
 ```text
-GENERATOR_CONTRACT.md
+[[GENERATOR_CONTRACT]].md
 → what Generators mean
 
 PROVENANCE.md
 → where artifacts and decisions came from
 
-VALIDATION.md
+[[VALIDATION]].md
 → whether contracts/results satisfy required checks
 
 TESTS.md
 → executable assurance
 
-ROADMAP.md
+[[ROADMAP]].md
 → intended future work
 
-INTEGRATION.md
+[[INTEGRATION]].md
 → subsystem boundaries and bindings
 
 HISTORY.md
@@ -2892,6 +2892,6 @@ GENERATORS_CHANGE_LOG.md
 That keeps the Change Log operational and auditable instead of allowing it to become a second History file or a narrative list of unsupported “updates.”
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** 
 
 ```

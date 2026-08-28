@@ -75,7 +75,7 @@ Organized into 4 subfolders: Tech_Systems, Science_Health, Org_Risk_Policy, Sub.
 
 ### 5. AMOS_Design_Engine
 
-**Description**: Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full CANON engine, QUANTUM augmentation layer.
+**Description**: Tech Engine v∞ with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full [[CANON]] engine, QUANTUM augmentation layer.
 
 **Role**: Full-power design engine.
 

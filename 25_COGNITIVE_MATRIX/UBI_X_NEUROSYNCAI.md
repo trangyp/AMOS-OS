@@ -160,19 +160,19 @@ tags:
 framework_binding:
 
   matrix_counterpart:
-    artifact: "[[UBI_X_NEUROSYNCAI_MATRIX]]"
+    artifact: ""
 
   knowledge_binding:
-    artifact: "[[UBI_NEUROSYNCAI_BINDING]]"
+    artifact: ""
 
   ubi_master:
-    artifact: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    artifact: ""
 
   neurosyncai:
-    artifact: "[[AMOS_X_NEUROSYNCAI]]"
+    artifact: ""
 
   cognitive_matrix:
-    artifact: "[[25_COGNITIVE_MATRIX_MOC]]"
+    artifact: ""
 
 rscf:
 
@@ -182,8 +182,8 @@ rscf:
 
   provenance:
     - "25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI.md"
-    - "[[UBI_X_NEUROSYNCAI_MATRIX]]"
-    - "[[UBI_NEUROSYNCAI_BINDING]]"
+    - ""
+    - ""
     - "AMOS_CORPUS"
 
   scope:
@@ -346,7 +346,7 @@ MATRIX_SPEC
 
 while:
 
-[[UBI_X_NEUROSYNCAI_MATRIX]]
+
 
 is the:
 
@@ -369,7 +369,7 @@ UBI_X_NEUROSYNCAI
         │
         │ specifies
         ▼
-UBI_X_NEUROSYNCAI_MATRIX
+[[UBI_X_NEUROSYNCAI_MATRIX]]
         │
         │ expresses
         ▼
@@ -386,7 +386,7 @@ The matrix counterpart defines the currently supplied operational rows:
 
 These values belong to the linked matrix artifact and should remain synchronized with:
 
-[[UBI_X_NEUROSYNCAI_MATRIX]]
+
 
 rather than being independently modified here.
 
@@ -408,7 +408,7 @@ The two artifacts form a natural pair:
                    │
                    ▼
 ┌──────────────────────────────────────┐
-│ UBI_X_NEUROSYNCAI_MATRIX             │
+│ [[UBI_X_NEUROSYNCAI_MATRIX]]             │
 │                                      │
 │ MATRIX_TABLE                         │
 │                                      │
@@ -425,7 +425,7 @@ This distinction prevents the specification from becoming overloaded with row-le
 
 The artifact explicitly references:
 
-[[UBI_NEUROSYNCAI_BINDING]]
+
 
 as its knowledge binding.
 
@@ -435,7 +435,7 @@ Therefore:
 UBI_X_NEUROSYNCAI
         │
         ▼
-UBI_NEUROSYNCAI_BINDING
+[[UBI_NEUROSYNCAI_BINDING]]
 ```
 
 is a source-defined dependency edge.
@@ -1580,11 +1580,11 @@ or any other one-to-one mapping.
 
 Therefore all such mappings remain dependent on:
 
-[[UBI_NEUROSYNCAI_BINDING]]
+
 
 and/or:
 
-[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+
 
 ---
 
@@ -1622,11 +1622,11 @@ $$
 
 This supports linking:
 
-[[UBI_X_COGNITION]]
+
 
 and:
 
-[[UBI_X_COGNITION_MATRIX]]
+
 
 as related artifacts.
 
@@ -1644,11 +1644,11 @@ Stress Cool-down Trigger
 
 which makes:
 
-[[UBI_X_EMOTION]]
+
 
 and:
 
-[[UBI_X_EMOTION_MATRIX]]
+
 
 relevant neighboring artifacts.
 
@@ -1676,11 +1676,11 @@ Neural telemetry, vagal feedback, biological synchronization, cognitive-load ada
 
 Therefore:
 
-[[UBI_X_FULL_BRAIN]]
+
 
 and:
 
-[[UBI_X_FULL_BRAIN_MATRIX]]
+
 
 are appropriate related links.
 
@@ -2415,17 +2415,17 @@ No hypothesis should be forced into `VERIFIED` without discriminating evidence.
 
 The highest-value dependency for resolving the competing architectures is:
 
-[[UBI_NEUROSYNCAI_BINDING]]
+
 
 because it should define the knowledge-level mapping between UBI and NeuroSyncAI.
 
 The next highest-value dependencies are:
 
-[[AMOS_X_NEUROSYNCAI]]
+
 
 and:
 
-[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+
 
 Only after those dependencies fail to resolve a material question should raw implementation evidence be loaded.
 
@@ -2643,13 +2643,13 @@ $$
 Therefore the strongest safe interpretation is:
 
 ```text
-SOURCE DECLARES CONSTITUTIONAL VALIDATION
+SOURCE DECLARES CONSTITUTIONAL [[VALIDATION]]
 ```
 
 not:
 
 ```text
-ALL EXTERNAL VALIDATION COMPLETE.
+ALL EXTERNAL [[VALIDATION]] COMPLETE.
 ```
 
 ---
@@ -3163,16 +3163,16 @@ graph TD
 
     A[UBI_X_NEUROSYNCAI]
 
-    B[UBI_X_NEUROSYNCAI_MATRIX]
-    C[UBI_NEUROSYNCAI_BINDING]
-    D[25_COGNITIVE_MATRIX_MOC]
+    B[[[UBI_X_NEUROSYNCAI_MATRIX]]]
+    C[[[UBI_NEUROSYNCAI_BINDING]]]
+    D[[[25_COGNITIVE_MATRIX_MOC]]]
 
-    E[UNIFIED_BIOLOGICAL_INTELLIGENCE]
-    F[AMOS_X_NEUROSYNCAI]
+    E[[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]]
+    F[[[AMOS_X_NEUROSYNCAI]]]
 
-    G[UBI_X_COGNITION]
-    H[UBI_X_EMOTION]
-    I[UBI_X_FULL_BRAIN]
+    G[[[UBI_X_COGNITION]]]
+    H[[[UBI_X_EMOTION]]]
+    I[[[UBI_X_FULL_BRAIN]]]
 
     A -->|MATRIX_COUNTERPART| B
     A -->|KNOWLEDGE_BINDING| C
@@ -3235,9 +3235,9 @@ flowchart TD
 > * neural telemetry capture;
 > * vagal nerve modulation feedback;
 > * bio-coherent state synchronization;
-> * [[UBI_X_NEUROSYNCAI_MATRIX]] as the matrix counterpart;
-> * [[UBI_NEUROSYNCAI_BINDING]] as the knowledge binding;
-> * [[25_COGNITIVE_MATRIX_MOC]] as the parent plane.
+> *  as the matrix counterpart;
+> *  as the knowledge binding;
+> *  as the parent plane.
 
 ---
 
@@ -3255,7 +3255,7 @@ flowchart TD
 > [!danger] Critical Dependency
 > The detailed meaning of the UBI ↔ NeuroSyncAI relationship depends on:
 >
-> **[[UBI_NEUROSYNCAI_BINDING]]**
+> ****
 >
 > Missing binding details must remain `UNKNOWN/GAP` rather than being reconstructed from structural similarity.
 
@@ -3266,7 +3266,7 @@ flowchart TD
 > [!info] Matrix Counterpart
 > Operational telemetry thresholds and anomaly actions belong to:
 >
-> **[[UBI_X_NEUROSYNCAI_MATRIX]]**
+> ****
 >
 > Keep this specification focused on architectural responsibilities and use the matrix artifact for row-level control semantics.
 
@@ -3450,7 +3450,7 @@ for the NeuroSyncAI platform.
 
 Its operational matrix counterpart is:
 
-[[UBI_X_NEUROSYNCAI_MATRIX]]
+
 
 which currently defines the explicit telemetry routes:
 
@@ -3477,11 +3477,11 @@ Tonic drift < 1.5 μS/min
 
 Its explicit knowledge dependency is:
 
-[[UBI_NEUROSYNCAI_BINDING]]
+
 
 and its parent Cognitive Matrix plane is:
 
-[[25_COGNITIVE_MATRIX_MOC]].
+.
 
 The artifact can therefore be preserved as a:
 
@@ -3574,38 +3574,38 @@ $$
 
 ## Inter-Plane Connections
 
-* **Matrix Table:** [[UBI_X_NEUROSYNCAI_MATRIX]]
-* **Knowledge Binding:** [[UBI_NEUROSYNCAI_BINDING]]
-* **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+* **Matrix Table:** 
+* **Knowledge Binding:** 
+* **Cognitive Matrix Plane:** 
 
 ## Extended Vault Connections
 
-* **UBI:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
-* **NeuroSyncAI:** [[AMOS_X_NEUROSYNCAI]]
-* **UBI × Cognition:** [[UBI_X_COGNITION]]
-* **UBI × Cognition Matrix:** [[UBI_X_COGNITION_MATRIX]]
-* **UBI × Emotion:** [[UBI_X_EMOTION]]
-* **UBI × Emotion Matrix:** [[UBI_X_EMOTION_MATRIX]]
-* **UBI × Full Brain:** [[UBI_X_FULL_BRAIN]]
-* **UBI × Full Brain Matrix:** [[UBI_X_FULL_BRAIN_MATRIX]]
+* **UBI:** 
+* **NeuroSyncAI:** 
+* **UBI × Cognition:** 
+* **UBI × Cognition Matrix:** 
+* **UBI × Emotion:** 
+* **UBI × Emotion Matrix:** 
+* **UBI × Full Brain:** 
+* **UBI × Full Brain Matrix:** 
 
 ---
 
 # 92. Obsidian Navigation Footer
 
-**Home:** [[00_HOME]]
+**Home:** 
 
-**RSCF Index:** [[AMOS_RSCF_NODES]]
+**RSCF Index:** 
 
-**Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+**Plane:** 
 
-**Matrix:** [[UBI_X_NEUROSYNCAI_MATRIX]]
+**Matrix:** 
 
-**Binding:** [[UBI_NEUROSYNCAI_BINDING]]
+**Binding:** 
 
-**UBI:** [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+**UBI:** 
 
-**NeuroSyncAI:** [[AMOS_X_NEUROSYNCAI]]
+**NeuroSyncAI:** 
 
 ---
 
@@ -3724,11 +3724,11 @@ RSCF-RELATIONS:
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** 
 
-**Matrix Counterpart:** [[UBI_X_NEUROSYNCAI_MATRIX]]
+**Matrix Counterpart:** 
 
-**Knowledge Binding:** [[UBI_NEUROSYNCAI_BINDING]]
+**Knowledge Binding:** 
 
 ---
 

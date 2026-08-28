@@ -88,7 +88,7 @@ AMOS_MODEL
 +
 TARGET CONTRACT
 +
-CANON CANDIDATE
+[[CANON]] CANDIDATE
 ```
 
 until verified native-canon sources establish otherwise.
@@ -202,13 +202,13 @@ DEPENDENCY MAPPING
 ↓
 SCOPE / REGIME BINDING
 ↓
-PRECEDENCE / GOVERNANCE REFERENCES
+PRECEDENCE / GOVERNANCE [[REFERENCES]]
 ↓
 CONFLICT VISIBILITY
 ↓
 SUPERSESSION LINEAGE
 ↓
-VALIDATION STATUS
+[[VALIDATION]] STATUS
 ```
 
 The crosswalk is not itself a substitute for the laws it references.
@@ -216,8 +216,8 @@ The crosswalk is not itself a substitute for the laws it references.
 Target invariant:
 
 ```text
-CROSSWALK MAPS CANON
-BUT DOES NOT CREATE CANON
+CROSSWALK MAPS [[CANON]]
+BUT DOES NOT CREATE [[CANON]]
 ```
 
 ---
@@ -482,7 +482,7 @@ CROSSWALKS_TO
 
 INDEXED_BY
 
-REFERENCES
+[[REFERENCES]]
 
 EVIDENCED_BY
 
@@ -697,7 +697,7 @@ MULTIPLE PROVENANCE EDGES
 not:
 
 ```text
-THREE DUPLICATE CANON NODES
+THREE DUPLICATE [[CANON]] NODES
 ```
 
 when identity has been established.
@@ -745,7 +745,7 @@ Multiple documents repeating the same law relationship may share ancestry.
 Therefore:
 
 ```text
-THREE REFERENCES
+THREE [[REFERENCES]]
 !=
 THREE INDEPENDENT CONFIRMATIONS
 ```
@@ -842,7 +842,7 @@ RELATION MAP
 while:
 
 ```text
-LAW_HIERARCHY
+[[LAW_HIERARCHY]]
 =
 GOVERNANCE / ORDERING SOURCE
 ```
@@ -1150,7 +1150,7 @@ EXPLICIT SUPERSESSION DECLARATION
 
 NATIVE LAW DEFINITION
 
-VALIDATION RECEIPT
+[[VALIDATION]] RECEIPT
 
 DEPENDENCY SCHEMA
 
@@ -1385,7 +1385,7 @@ Two law nodes stored separately are not necessarily independent.
 ```text
 SEPARATE FILES
 !=
-INDEPENDENT CANON
+INDEPENDENT [[CANON]]
 ```
 
 Likewise:
@@ -1419,7 +1419,7 @@ A structural relationship does not establish causation.
 Therefore:
 
 ```text
-A REFERENCES B
+A [[REFERENCES]] B
 ```
 
 does not imply:
@@ -1704,7 +1704,7 @@ SUPERSESSION STATE
 
 AUTHORITY STATE
 
-VALIDATION STATE
+[[VALIDATION]] STATE
 ```
 
 ---
@@ -1808,7 +1808,7 @@ Target conceptual sequence:
 ```text
 CROSSWALK@E
 ↓
-NEW CANON EVENT
+NEW [[CANON]] EVENT
 ↓
 E+1
 ↓
@@ -1864,7 +1864,7 @@ is authoritative only to the degree the relation is supported by governing canon
 ```text
 SYSTEM CAN EDIT CROSSWALK
 !=
-SYSTEM AUTHORIZED TO CHANGE CANON
+SYSTEM AUTHORIZED TO CHANGE [[CANON]]
 ```
 
 ---
@@ -2145,14 +2145,14 @@ Do not assume every relation is transitive.
 Example:
 
 ```text
-A REFERENCES B
-B REFERENCES C
+A [[REFERENCES]] B
+B [[REFERENCES]] C
 ```
 
 does not necessarily imply:
 
 ```text
-A REFERENCES C
+A [[REFERENCES]] C
 ```
 
 Likewise:
@@ -2309,7 +2309,7 @@ WHICH RELATIONS DEPEND ON IT?
 
 WHICH SUPERSESSION EVENT CHANGED IT?
 
-WHICH VALIDATION RECEIPT COVERED IT?
+WHICH [[VALIDATION]] RECEIPT COVERED IT?
 ```
 
 ---
@@ -2353,7 +2353,7 @@ If provenance confirms identity:
 ```text
 ONE NODE
 +
-MULTIPLE SOURCE REFERENCES
+MULTIPLE SOURCE [[REFERENCES]]
 ```
 
 ---
@@ -2842,7 +2842,7 @@ Core Law `A` references a kernel artifact.
 Correct relation may be:
 
 ```text
-A REFERENCES KERNEL_X
+A [[REFERENCES]] KERNEL_X
 ```
 
 This does not automatically mean:
@@ -2890,7 +2890,7 @@ but artifact identity/version is missing.
 Correct:
 
 ```text
-VALIDATION APPLICABILITY = UNKNOWN/GAP
+[[VALIDATION]] APPLICABILITY = UNKNOWN/GAP
 ```
 
 Do not attach it to the current crosswalk automatically.
@@ -3030,7 +3030,7 @@ DO_NOT_LOAD_UNLESS_REQUIRED
 Target node:
 
 ```text
-RSCF.AMOS.CANON.CORE_LAW_CROSSWALK.H.SYSTEM
+RSCF.AMOS.[[CANON]].CORE_LAW_CROSSWALK.H.SYSTEM
 ```
 
 Responsibilities:
@@ -3050,7 +3050,7 @@ SUPERSESSION LINEAGE
 
 CONFLICT VISIBILITY
 
-VALIDATION ROUTING
+[[VALIDATION]] ROUTING
 ```
 
 ---
@@ -3078,7 +3078,7 @@ M.SCOPE_REGIME
 
 M.CONFLICTS
 
-M.VALIDATION
+M.[[VALIDATION]]
 
 M.RECOVERY
 ```
@@ -3491,7 +3491,7 @@ CAUSAL AMBIGUITY
 
 UNKNOWN AUTHORITY
 
-IRREVERSIBLE CANON MUTATION
+IRREVERSIBLE [[CANON]] MUTATION
 ```
 
 ---
@@ -3987,7 +3987,7 @@ DIRECT_EDGE != DERIVED_EDGE
 
 STRUCTURAL RELATION != CAUSAL RELATION
 
-SEPARATE FILES != INDEPENDENT CANON
+SEPARATE FILES != INDEPENDENT [[CANON]]
 
 MULTIPLE DESCENDANTS != INDEPENDENT CONFIRMATION
 
@@ -4033,7 +4033,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[COLLAPSE_RECOVERY_CANON]]
+**Related:**  ·  ·  · 
 
 ---
 
@@ -4071,27 +4071,27 @@ native_precedence_matrix_status: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+* GOVERNED_BY: 
 
-* TARGET_CROSSWALKS: [[LAW_HIERARCHY]]
+* TARGET_CROSSWALKS: 
 
-* TARGET_CROSSWALKS: [[COLLAPSE_RECOVERY_CANON]]
+* TARGET_CROSSWALKS: 
 
-* INTERACTS_WITH: [[KERNEL_README]]
+* INTERACTS_WITH: 
 
-* CONTROLLED_BY: [[CONTROL_PLANE_README]]
+* CONTROLLED_BY: 
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+* OBSERVED_BY: 
 
-* RECOVERED_BY: [[OPERATIONS_README]]
+* RECOVERED_BY: 
 
 ---
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
 ---
 

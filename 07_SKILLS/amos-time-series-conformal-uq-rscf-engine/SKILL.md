@@ -204,9 +204,9 @@ Time series conformal UQ is a statistical method. It does not prove intervals al
 
 - `references/biostatistics_kernel.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-time-series-conformal-uq-rscf-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-formal-engines-master` — parent skill
-- `[[amos-time-series-conformal-uq-rscf-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-time-series-conformal-uq-rscf-engine-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Time series conformal UQ is a statistical method. It does not prove intervals al
 RSCF-NODE
 node_id: amos-time-series-conformal-uq-rscf-engine
 node_type: skill
-path: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine/SKILL.md
+path: 07_SKILLS/amos-time-series-conformal-uq-rscf-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

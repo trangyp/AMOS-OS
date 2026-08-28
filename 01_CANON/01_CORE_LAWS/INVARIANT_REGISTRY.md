@@ -1706,14 +1706,14 @@ proof_capsule:
 
 | Plane / Entity     | Defines invariant | Evaluates |                  Enforces | May override by default |
 | ------------------ | ----------------: | --------: | ------------------------: | ----------------------: |
-| CANON              |               Yes |       Yes |      Governing definition |                      No |
+| [[CANON]]              |               Yes |       Yes |      Governing definition |                      No |
 | KERNEL             |                No |       Yes | Deterministic constraints |                      No |
 | CONTROL_PLANE      |      Policy-level |       Yes |                       Yes |   Only if canon permits |
 | RUNTIME            |                No |       Yes |             Runtime gates |                      No |
 | COGNITIVE_ORGANISM |                No |       Yes |        Internal reasoning |                      No |
 | AGENT              |                No |   Limited |            Local contract |                      No |
-| SKILL              |                No |   Limited |           Procedure-local |                      No |
-| WORKFLOW           |                No |       Yes |       Orchestration gates |                      No |
+| [[SKILL]]              |                No |   Limited |           Procedure-local |                      No |
+| [[WORKFLOW]]           |                No |       Yes |       Orchestration gates |                      No |
 | MODEL              |                No |  Advisory |                        No |                      No |
 | TOOL               |                No |        No |           Capability only |                      No |
 
@@ -2155,14 +2155,14 @@ UNKNOWN/GAP != PASS
 
 ---
 
-**Related:** README|AMOS OS · 00_ROOT_MOC|MOC · ARCHITECTURE|Architecture · SYSTEM_MAP|System Map · AUTHORITATIVE_STATE|Authoritative State · PLACEMENT_RULES|Placement Rules · AMOS Canon · CANON_MAP|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · KERNEL_MAP|Kernel Map · CONTROL_PLANE_MAP|Control Plane Map · RUNTIME_MAP|Runtime Map · MEMORY_MEMORY_MAP|Memory Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · STATE_STATE_MAP|State Map · SCHEMA_MAP|Schema Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · SECURITY_MAP|Security Map · TEST_MAP|Tests · OPERATIONS_MAP|Operations
+**Related:** [[README]]|AMOS OS · [[00_ROOT_MOC]]|MOC · [[ARCHITECTURE]]|Architecture · [[SYSTEM_MAP]]|System Map · [[AUTHORITATIVE_STATE]]|Authoritative State · [[PLACEMENT_RULES]]|Placement Rules · AMOS Canon · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[KERNEL_MAP]]|Kernel Map · [[CONTROL_PLANE_MAP]]|Control Plane Map · [[RUNTIME_MAP]]|Runtime Map · [[MEMORY_MEMORY_MAP]]|Memory Map · [[AMOS_FULL_BRAIN_OS_ARCHITECTURE|AMOS Full Brain OS Architecture]] · [[STATE_STATE_MAP]]|State Map · [[SCHEMA_MAP]]|Schema Map · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[SECURITY_MAP]]|Security Map · [[TEST_MAP]]|Tests · [[OPERATIONS_MAP]]|Operations
 
 ```
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

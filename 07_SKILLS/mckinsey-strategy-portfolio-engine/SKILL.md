@@ -197,9 +197,9 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[mckinsey-strategy-portfolio-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[mckinsey-strategy-portfolio-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `mckinsey-strategy-portfolio-engine-agent` — corresponding agent
 ---
 
@@ -213,7 +213,7 @@ The strategy portfolio engine is an analytical toolset. It does not prove optima
 RSCF-NODE
 node_id: mckinsey-strategy-portfolio-engine
 node_type: skill
-path: 07_SKILLS/mckinsey-strategy-portfolio-engine/SKILL.md
+path: 07_SKILLS/mckinsey-strategy-portfolio-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -15,7 +15,7 @@ rscf:
 ---
 
 
-# TRANG REALITY ARCHITECTURE
+# TRANG REALITY [[ARCHITECTURE]]
 
 ﻿Trang Reality Architecture
 Ontological Foundation
@@ -6845,7 +6845,7 @@ Governance
 ________________
 
 
-III. CROSS-DOMAIN TENSORS
+III. CROSS-DOMAIN [[TENSORS]]
 The engine maps recursive structural equivalences between domains.
 Examples:
 Tensor Mapping
@@ -6873,7 +6873,7 @@ Tensor Mapping
 	________________
 
 
-IV. THE 14 UNIVERSAL TENSORS
+IV. THE 14 UNIVERSAL [[TENSORS]]
 The proposed universal tensors are:
 1. Propagation
 2. Constraint
@@ -23343,17 +23343,17 @@ Governs: anti-hallucination, action permission, truth gating. The file defines T
 FORM = Field × Gradient × Constraint × Boundary × Flow × Stabilization
 
 
-Governs: form arising across universe, crystal, cell, embryo, identity, civilization, and AI architecture formation. The corpus names morphogenesis as the missing core word and gives the grammar: field → gradient → constraint → boundary → flow → stabilization → form.【331:18†KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json†L9953-L9967】
+Governs: form arising across universe, crystal, cell, embryo, identity, civilization, and AI architecture formation. The corpus names morphogenesis as the missing core word and gives the grammar: field → gradient → constraint → boundary → flow → stabilization → form.【331:18†[[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]].json†L9953-L9967】
 99. Pre-Math / Observer-Bound Mathematics Architecture
 MATH = RecurringRelation × ObserverCompression − OntologyOverclaim
 
 
-Governs: pattern before number, universe before math, equation as local compression. The corpus states any equation is local, any measurement is observer-bound, and math is a late-stage observer artifact.【331:18†KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json†L9968-L10022】
+Governs: pattern before number, universe before math, equation as local compression. The corpus states any equation is local, any measurement is observer-bound, and math is a late-stage observer artifact.【331:18†[[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]].json†L9968-L10022】
 100. Observer / Self-Reference Field
 Oₜ = Model(Xₜ, Oₜ₋₁)
 
 
-Governs: self-model, observer loop, uncertainty, model error, drift, hallucinated self, infinite regress. The AMOS file defines the observer as the system modeling runtime while inside it, with this core equation.【331:12†AMOS — FULL ARCHITECTURE (COMPLETE FORM) .rtf†L1-L1】
+Governs: self-model, observer loop, uncertainty, model error, drift, hallucinated self, infinite regress. The AMOS file defines the observer as the system modeling runtime while inside it, with this core equation.【331:12†AMOS — FULL [[ARCHITECTURE]] (COMPLETE FORM) .rtf†L1-L1】
 101. Runtime Execution Architecture
 RUN = Executor × Scheduler × Verifier × CommitGate × Ledger − Drift
 

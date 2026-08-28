@@ -47,7 +47,7 @@ rscf:
 
 ---
 
-## title: "AMOS QUANTUM STACK CANON" type: document source: 01_CANON/04_INFRASTRUCTURE_CANON tags: [amos_os, 04_INFRASTRUCTURE_CANON, canon/universe] rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
+## title: "AMOS QUANTUM STACK [[CANON]]" type: document source: 01_CANON/04_INFRASTRUCTURE_CANON tags: [amos_os, 04_INFRASTRUCTURE_CANON, canon/universe] rscf: state: DERIVED claim_class: DERIVED provenance: AMOS_corpus scope: AMOS_general
 
 # AMOS_QUANTUM_STACK_CANON — Canon-Safe Expansion
 
@@ -906,9 +906,9 @@ FAILED ROLLBACK
 The placeholder declares:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+
 ```
 
 These references establish declared dependencies only.
@@ -1032,25 +1032,25 @@ ERASE HISTORY
 Governed by:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 Kernel interaction target:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 Control-plane gates:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 Observed by:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 with:
@@ -1062,7 +1062,7 @@ OBSERVATION != AUTHORITY
 Recovered through:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 ---
@@ -1322,27 +1322,27 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[04_INFRASTRUCTURE_CANON_MOC]]
+  - INDEXED_BY: 
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+  - GOVERNED_BY: 
 
-  - TARGET_INTERACTION: [[KERNEL_README]]
+  - TARGET_INTERACTION: 
 
-  - TARGET_GATED_BY: [[CONTROL_PLANE_README]]
+  - TARGET_GATED_BY: 
 
-  - TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
+  - TARGET_OBSERVED_BY: 
 
-  - TARGET_RECOVERED_BY: [[OPERATIONS_README]]
-
-  - VALIDATION_DEPENDENCY:
-      [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+  - TARGET_RECOVERED_BY: 
 
   - VALIDATION_DEPENDENCY:
-      [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+      
+
+  - VALIDATION_DEPENDENCY:
+      
 ```
 
 ---
@@ -1461,7 +1461,7 @@ NOT_ESTABLISHED
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

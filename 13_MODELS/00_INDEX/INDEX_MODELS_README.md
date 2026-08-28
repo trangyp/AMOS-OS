@@ -98,14 +98,14 @@ gaps:
   complete_collision_policy: NOT_ESTABLISHED
 ---
 
-# INDEX MODELS README
+# INDEX MODELS [[README]]
 
 > [!abstract] Models Index
 > `INDEX MODELS README` is the primary orientation and navigation artifact for the `13_MODELS/00_INDEX` surface.
 >
 > Its source-grounded indexing law is:
 >
-> **Resolve by basename within this index's own directory. Cross-plane resolution goes through `[[00_HOME]]` and `[[AMOS_RSCF_NODES]]`.**
+> **Resolve by basename within this index's own directory. Cross-plane resolution goes through `` and ``.**
 >
 > This artifact provides navigation into the Models plane. It does not, merely by indexing an artifact, establish that the referenced model is verified, empirically correct, current, authoritative, causally valid, or universally applicable.
 
@@ -194,9 +194,9 @@ INDEX_MODELS_README
 
 ---
 
-# 2. Role of This README
+# 2. Role of This [[README]]
 
-This file is an **index README**, not the substantive definition of every model.
+This file is an **index [[README]]**, not the substantive definition of every model.
 
 Its role is primarily:
 
@@ -307,7 +307,7 @@ Local references resolve by basename within:
 Conceptually:
 
 ```text
-[[MODEL_MAP]]
+
 ```
 
 requests a local target whose basename is:
@@ -469,15 +469,15 @@ CROSS-PLANE RESOLUTION AUTHORITY
 
 # 15. `00_HOME`
 
-Within this contract, `[[00_HOME]]` is an explicit root-level cross-plane navigation surface.
+Within this contract, `` is an explicit root-level cross-plane navigation surface.
 
-This README does not independently redefine the full semantics of `00_HOME`.
+This [[README]] does not independently redefine the full semantics of `00_HOME`.
 
 ---
 
 # 16. `AMOS_RSCF_NODES`
 
-`[[AMOS_RSCF_NODES]]` provides the explicitly referenced RSCF navigation surface.
+`` provides the explicitly referenced RSCF navigation surface.
 
 It can connect model navigation with the broader AMOS Fractal Knowledge Network.
 
@@ -485,9 +485,9 @@ The precise node registry semantics remain governed by the corresponding authori
 
 ---
 
-# 17. README ≠ Registry
+# 17. [[README]] ≠ Registry
 
-This README is not automatically a complete model registry.
+This [[README]] is not automatically a complete model registry.
 
 ```text
 README
@@ -502,7 +502,7 @@ COMPLETE REGISTRY
 The existence of:
 
 ```text
-[[MODEL_MAP]]
+
 ```
 
 does not prove:
@@ -1149,242 +1149,7 @@ Malformed input must not be repaired by unrecorded guessing.
 Example:
 
 ```text
-[[MODEL_A
-```
 
-should produce a visible malformed/gap condition.
-
----
-
-# 61. Cross-Plane Guessing Prohibited
-
-If local resolution fails, invalid behavior is:
-
-```text
-SEARCH EVERYTHING
-→ PICK SOMETHING SIMILAR
-```
-
-The governed cross-plane path should be used.
-
----
-
-# 62. Worked Semantics Overview
-
-The supplied source defines six stages:
-
-```text
-1. ADMIT
-2. BIND SCOPE
-3. CHECK AUTHORITY
-4. VALIDATE PRECONDITIONS
-5. PROPOSE
-6. COMMIT OR HOLD
-```
-
-These form the source-grounded operational spine.
-
----
-
-# 63. Stage 1 — Admit
-
-Source rule:
-
-> resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-
-Normalized:
-
-```text
-REQUEST
-↓
-IDENTITY
-↓
-VERSION
-↓
-ADMISSION RESULT
-```
-
----
-
-# 64. Admission Success
-
-A consequential operation can proceed only when the load-bearing artifact identity is sufficiently resolved.
-
-Conceptually:
-
-```text
-ID RESOLVED
-AND
-VERSION RESOLVED
-```
-
-where version is required.
-
----
-
-# 65. Admission Failure
-
-Examples:
-
-```text
-MISSING ID
-AMBIGUOUS ID
-MALFORMED ID
-MISSING REQUIRED VERSION
-CONFLICTING VERSION
-```
-
-Then:
-
-```text
-UNKNOWN/GAP
-```
-
-or the applicable typed failure state.
-
----
-
-# 66. Fail-Closed Admission
-
-Fail closed means unresolved load-bearing identity does not become implicit permission to proceed.
-
-```text
-UNKNOWN
-≠
-PASS
-```
-
----
-
-# 67. Stage 2 — Bind Scope
-
-Before mutation, declare:
-
-```text
-DOMAIN
-REGIME
-H/M/L APPLICABILITY
-```
-
-This prevents silent scope leakage.
-
----
-
-# 68. Mutation Scope
-
-A mutation touching this index may affect:
-
-```text
-LOCAL LINK
-MODEL MAP
-MODEL IDENTITY
-MODEL VERSION REFERENCE
-CROSS-PLANE EDGE
-RSCF RELATION
-```
-
-The actual affected set should be established before commit.
-
----
-
-# 69. Stage 3 — Check Authority
-
-The source requires:
-
-```text
-authority_ref
-```
-
-to be epoch-valid.
-
----
-
-# 70. Capability ≠ Authority
-
-Core law:
-
-```text
-CAPABILITY
-≠
-AUTHORITY
-```
-
-The ability to modify a model index does not authorize modification.
-
----
-
-# 71. Authority Epoch
-
-Authority may be valid only for a bounded policy epoch.
-
-```text
-VALID AT P1
-```
-
-does not automatically mean:
-
-```text
-VALID AT P2
-```
-
----
-
-# 72. Authority Scope
-
-Authority may also be scoped.
-
-For example:
-
-```text
-AUTHORIZED FOR LOCAL INDEX ENTRY
-```
-
-does not necessarily imply:
-
-```text
-AUTHORIZED FOR CROSS-PLANE CANONICAL ROUTING
-```
-
----
-
-# 73. Stage 4 — Validate Preconditions
-
-The source requires dependency closure to be traversed to:
-
-```text
-SMALLEST RESULT-CHANGING SET
-```
-
----
-
-# 74. Possible Preconditions
-
-Normalized candidates include:
-
-```text
-identity
-version
-target existence
-basename uniqueness
-scope
-regime
-authority
-dependency closure
-provenance
-freshness
-collision status
-```
-
-Exact executable preconditions remain implementation-dependent.
-
----
-
-# 75. Smallest Sufficient Proof Scope
-
-For a simple local lookup:
-
-```text
-[[MODEL_MAP]]
 ```
 
 a unique local basename may be sufficient.
@@ -1661,7 +1426,7 @@ ARTIFACT-SPECIFIC FULL VALIDATION
 
 # 92. Routing Receipt Boundary
 
-`[[ROUTING_POLICY_VALIDATION_RECEIPT]]` may support routing-related semantics to the extent its actual evidence applies.
+`` may support routing-related semantics to the extent its actual evidence applies.
 
 Do not infer more than the receipt establishes.
 
@@ -1669,7 +1434,7 @@ Do not infer more than the receipt establishes.
 
 # 93. Authorization Receipt Boundary
 
-`[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]` may support authorization-related semantics to the extent its actual evidence applies.
+`` may support authorization-related semantics to the extent its actual evidence applies.
 
 It does not independently prove model truth or index completeness.
 
@@ -2217,7 +1982,7 @@ unless the index explicitly defines ranked semantics.
 
 # 132. Model Map Order ≠ Authority
 
-Likewise, ordering inside `[[MODEL_MAP]]` must not be treated as authority unless explicitly defined.
+Likewise, ordering inside `` must not be treated as authority unless explicitly defined.
 
 ---
 
@@ -2619,7 +2384,7 @@ ARTIFACT VALIDATED
 
 # 158. Documentation Claims
 
-A model README may say:
+A model [[README]] may say:
 
 ```text
 THIS MODEL ACHIEVES X
@@ -2880,8 +2645,8 @@ INDEX_MODELS_README_GAPS:
 
 # 174. Extended Gate — Cross-Plane Navigation
 
-* [ ] `[[00_HOME]]` route validated
-* [ ] `[[AMOS_RSCF_NODES]]` route validated
+* [ ] `` route validated
+* [ ] `` route validated
 * [ ] local/cross-plane boundary validated
 * [ ] ambiguous cross-plane target fails closed
 * [ ] no arbitrary global first-match behavior
@@ -2956,7 +2721,7 @@ INDEX_MODELS_README_GAPS:
 Request:
 
 ```text
-[[MODEL_UNKNOWN]]
+
 ```
 
 No valid target exists under the applicable resolution rule.
@@ -3441,7 +3206,7 @@ index_resolution_capsule:
 | Multiple valid local matches | `AMBIGUOUS`                                         |
 | Malformed reference          | `MALFORMED`                                         |
 | Required version absent      | `UNKNOWN/GAP`                                       |
-| Cross-plane target required  | route through `[[00_HOME]]` / `[[AMOS_RSCF_NODES]]` |
+| Cross-plane target required  | route through `` / `` |
 | Cross-plane target ambiguous | hold / fail closed if consequential                 |
 | Target stale                 | revalidate                                          |
 | Scope mismatch               | do not silently apply                               |
@@ -3532,7 +3297,7 @@ INDEX_MODELS_README_INVARIANTS:
 Input:
 
 ```text
-[[MODEL_MAP]]
+
 ```
 
 Scope:
@@ -3562,7 +3327,7 @@ If exactly one target exists, return that target.
 Input:
 
 ```text
-[[MODEL_NOT_FOUND]]
+
 ```
 
 No local target exists.
@@ -3586,9 +3351,9 @@ Procedure:
 ```text
 DETECT CROSS-PLANE
 ↓
-USE [[00_HOME]]
+USE 
 AND/OR
-[[AMOS_RSCF_NODES]]
+
 ↓
 RESOLVE GOVERNED TARGET
 ```
@@ -3745,8 +3510,8 @@ Operational validity requires regime review.
 Request:
 
 ```text
-REPLACE [[MODEL_A]]
-WITH [[MODEL_B]]
+REPLACE 
+WITH 
 ```
 
 Capability:
@@ -3940,15 +3705,15 @@ BASENAME WITHIN OWN DIRECTORY
 
 CROSS-PLANE RESOLUTION
 =
-[[00_HOME]]
+
 +
-[[AMOS_RSCF_NODES]]
+
 
 PRIMARY INDEX LINKS
 =
-[[INDEX_MODELS_MODEL_CONTRACT]]
+
 +
-[[MODEL_MAP]]
+
 
 INDEXED
 ≠
@@ -4126,10 +3891,10 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
-  - INDEXED_BY: [[00_INDEX_MOC]]
+  - INDEXED_BY: [[13_MODELS_MOC]]
 
-  - REFERENCES: [[INDEX_MODELS_MODEL_CONTRACT]]
-  - REFERENCES: [[MODEL_MAP]]
+  - REFERENCES: 
+  - REFERENCES: 
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
@@ -4235,9 +4000,9 @@ WITHIN OWN DIRECTORY
 CROSS-PLANE
 →
 RESOLVE THROUGH
-[[00_HOME]]
+
 AND
-[[AMOS_RSCF_NODES]]
+
 ```
 
 The artifact must preserve the distinction between:
@@ -4348,8 +4113,8 @@ RSCF-RELATIONS:
 * INDEXED_BY: [[00_HOME]]
 * INDEXED_BY: [[AMOS_RSCF_NODES]]
 * INDEXED_BY: [[00_INDEX_MOC]]
-* REFERENCES: [[INDEX_MODELS_MODEL_CONTRACT]]
-* REFERENCES: [[MODEL_MAP]]
+* [[REFERENCES]]: [[INDEX_MODELS_MODEL_CONTRACT]]
+* [[REFERENCES]]: [[MODEL_MAP]]
 * GOVERNED_BY: [[LAW_HIERARCHY]]
 
 ---

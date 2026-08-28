@@ -712,7 +712,7 @@ The specification explicitly binds:
 
 ```yaml
 matrix_counterpart:
-  artifact: "[[UBI_X_EMOTION_MATRIX]]"
+  artifact: ""
 ```
 
 Thus the specification and matrix table are authoritative counterparts
@@ -726,7 +726,7 @@ The specification explicitly binds:
 
 ```yaml
 knowledge_binding:
-  artifact: "[[UBI_EMOTION_BINDING]]"
+  artifact: ""
 ```
 
 This remains the primary unresolved semantic dependency.
@@ -737,7 +737,7 @@ This remains the primary unresolved semantic dependency.
 
 The specification explicitly connects:
 
-`[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]`.
+``.
 
 This establishes a declared architectural connection between the
 affective specification and the biological master.
@@ -750,7 +750,7 @@ It does not by itself specify the exact dependency direction.
 
 The artifact explicitly connects to:
 
-`[[25_COGNITIVE_MATRIX_MOC]]`.
+``.
 
 Thus its placement within the Cognitive Matrix plane is directly
 source-grounded.
@@ -973,9 +973,9 @@ PROOF_CAPSULE:
 
   dependencies:
 
-    - "[[UBI_X_EMOTION_MATRIX]]"
-    - "[[UBI_EMOTION_BINDING]]"
-    - "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+    - ""
+    - ""
+    - ""
 
   competing_explanations:
 
@@ -1318,17 +1318,17 @@ This specification MUST NOT by itself be used to claim:
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: ""
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: ""
 
-  - COUNTERPART_OF: "[[UBI_X_EMOTION_MATRIX]]"
+  - COUNTERPART_OF: ""
 
-  - BOUND_BY: "[[UBI_EMOTION_BINDING]]"
+  - BOUND_BY: ""
 
-  - CONNECTED_TO: "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+  - CONNECTED_TO: ""
 
   - DEFINES: AFFECTIVE_VECTOR
 
@@ -1351,23 +1351,23 @@ RSCF_RELATIONS:
   - RESOLVES:
       "d_t = DOMINANCE"
 
-  - RELATED_TO: "[[UBI_X_COGNITION]]"
+  - RELATED_TO: ""
 
-  - RELATED_TO: "[[UBI_X_COGNITION_MATRIX]]"
+  - RELATED_TO: ""
 
-  - RELATED_TO: "[[K_RSCF]]"
+  - RELATED_TO: ""
 
-  - RELATED_TO: "[[K_HML]]"
+  - RELATED_TO: ""
 
-  - RELATED_TO: "[[K_PROVENANCE]]"
+  - RELATED_TO: ""
 
   - RELATED_TO: "K_CAUSAL_FIREWALL"
 
-  - RELATED_TO: "[[K_FAIL_CLOSED]]"
+  - RELATED_TO: ""
 
-  - RELATED_TO: "[[K_GOVERNED_EVOLUTION]]"
+  - RELATED_TO: ""
 
-  - LINEAGE_TARGET: "[[AMOS_CORE_v4_4]]"
+  - LINEAGE_TARGET: ""
 ```
 
 ---
@@ -1564,16 +1564,16 @@ UBI_X_EMOTION:
   bindings:
 
     matrix_counterpart:
-      "[[UBI_X_EMOTION_MATRIX]]"
+      ""
 
     knowledge_binding:
-      "[[UBI_EMOTION_BINDING]]"
+      ""
 
     biological_master:
-      "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+      ""
 
     cognitive_matrix_plane:
-      "[[25_COGNITIVE_MATRIX_MOC]]"
+      ""
 
   unresolved:
 
@@ -1756,7 +1756,7 @@ MetabolicPacing.
 $$
 
 Those remain competing architectural hypotheses pending
-`[[UBI_EMOTION_BINDING]]`.
+``.
 
 The updated smallest sufficient retrieval path is therefore:
 

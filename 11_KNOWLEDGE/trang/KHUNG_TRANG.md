@@ -924,7 +924,7 @@ Không có containment:
     Recursive reinforcement
 ```
 * * *
-# XXIII. SPACETIME INTEGRATION — Ψ_ST
+# XXIII. SPACETIME [[INTEGRATION]] — Ψ_ST
 ## Vấn đề
 Khung cũ chưa bridge spacetime.
 * * *

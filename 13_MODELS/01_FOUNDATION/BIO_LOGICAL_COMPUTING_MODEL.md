@@ -181,7 +181,7 @@ AMOS_COGNITION.json
 with supporting corpus material in:
 
 ```text
-KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
+[[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]].json
 └── 14. Biological Logic
 ```
 
@@ -597,7 +597,7 @@ CAN SUSTAIN
 ```text
 BODY SIGNAL
 ≠
-CLINICAL DIAGNOSIS
+CLINICAL [[DIAGNOSIS]]
 ```
 
 ---
@@ -910,7 +910,7 @@ This does not establish a clinical trauma model.
 ```text
 AMOS TRAUMA MODEL
 ≠
-CLINICAL DIAGNOSIS
+CLINICAL [[DIAGNOSIS]]
 ```
 
 ---
@@ -918,7 +918,7 @@ CLINICAL DIAGNOSIS
 # 44. Memory Imprinting Firewall
 
 ```text
-MEMORY EFFECT
+[[MEMORY]] EFFECT
 ≠
 PERMANENT DETERMINISM
 ```
@@ -1169,7 +1169,7 @@ The source therefore associates intuition with:
 
 ```text
 MICRO CUES
-MEMORY MATCHING
+[[MEMORY]] MATCHING
 BODY PREDICTION
 SOCIAL PATTERN
 RISK CALCULATION
@@ -1273,7 +1273,7 @@ Normalized:
 ```text
 HIGH-DIMENSIONAL INPUT
 ↓
-COMPRESSED INTEGRATION
+COMPRESSED [[INTEGRATION]]
 ↓
 INTUITIVE SIGNAL
 ```
@@ -1415,7 +1415,7 @@ COGNITION
    ↓
 ACTION / EXPERIENCE
    ↓
-MEMORY / STATE CHANGE
+[[MEMORY]] / STATE CHANGE
    ↺
 ```
 
@@ -1610,7 +1610,7 @@ It is not a biomedical equation.
 ```text
 BIOLOGICAL DEBT MODEL
 ≠
-MEDICAL DIAGNOSIS
+MEDICAL [[DIAGNOSIS]]
 ```
 
 ---
@@ -1699,7 +1699,7 @@ This remains a model.
 ```text
 AMOS COLLAPSE STATE
 ≠
-CLINICAL EMERGENCY DIAGNOSIS
+CLINICAL EMERGENCY [[DIAGNOSIS]]
 ```
 
 ---
@@ -2511,7 +2511,7 @@ AMOS_COGNITION.json
 Supporting source lineage:
 
 ```text
-KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
+[[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]].json
 ```
 
 ---
@@ -2535,7 +2535,7 @@ Possible:
 ```text
 MASTER SOURCE
 ├── AMOS_COGNITION
-└── KHUNG_TRANG ARCHITECTURE
+└── [[KHUNG_TRANG]] [[ARCHITECTURE]]
 ```
 
 or other shared lineage cannot be excluded merely from duplication across files.
@@ -3006,7 +3006,7 @@ action is irreversible
 When a conclusion could affect health or medical decisions:
 
 ```text
-VALIDATION REQUIREMENT ↑
+[[VALIDATION]] REQUIREMENT ↑
 ```
 
 ---
@@ -3016,7 +3016,7 @@ VALIDATION REQUIREMENT ↑
 ```text
 BIOLOGICAL MODEL OUTPUT
 ≠
-MEDICAL DIAGNOSIS
+MEDICAL [[DIAGNOSIS]]
 ```
 
 ---
@@ -3245,7 +3245,7 @@ BIO_LOGICAL_MODEL:
   source:
     primary: AMOS_COGNITION.json
     supporting:
-      - KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
+      - [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]].json
 
   purpose:
     anchor_reasoning_in_modeled_biological_constraints: true
@@ -4162,7 +4162,7 @@ SCHEMA BOUND
 ↓
 IMPLEMENTATION
 ↓
-EXECUTED VALIDATION
+EXECUTED [[VALIDATION]]
 ↓
 ARTIFACT-SPECIFIC RECEIPT
 ↓
@@ -4211,8 +4211,8 @@ The existence of cognition-engine source structures is not sufficient proof that
 
 Existing references:
 
-* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+* 
+* 
 
 remain architectural validation patterns.
 
@@ -4473,7 +4473,7 @@ IDENTITY
 
 SIGNAL
 ≠
-DIAGNOSIS
+[[DIAGNOSIS]]
 
 POPULATION PATTERN
 ≠
@@ -4529,7 +4529,7 @@ AMOS_MODEL
 +
 CANON_CANDIDATE
 +
-BIOLOGICAL-CONSTRAINT ARCHITECTURE
+BIOLOGICAL-CONSTRAINT [[ARCHITECTURE]]
 +
 COGNITION-INTEGRATED
 +
@@ -4537,7 +4537,7 @@ UBI-LINKED
 +
 PROVENANCE-BOUND
 +
-EMPIRICAL-VALIDATION-NOT-ESTABLISHED
+EMPIRICAL-[[VALIDATION]]-NOT-ESTABLISHED
 +
 ARTIFACT-SPECIFIC-RUNTIME-NOT-ESTABLISHED
 ```
@@ -4558,15 +4558,15 @@ without additional independent evidence.
 
 # 261. Cross-Plane Bindings
 
-* Governed by canon — [[01_CANON/01_CORE_LAWS/LAW_HIERARCHY|AMOS Core Laws]] · [[LAW_HIERARCHY]]
-* Models navigation — [[MODEL_MAP]]
-* Foundation models — [[01_FOUNDATION_MOC]]
-* Kernel interaction — [[KERNEL_README]]
-* Control-plane gates — [[CONTROL_PLANE_README]]
-* Observed by — [[OBSERVABILITY_README]] · observation never grants authority
-* Recovered via operations — [[OPERATIONS_README]]
-* RSCF graph — [[AMOS_RSCF_NODES]]
-* Root navigation — [[00_HOME]]
+* Governed by canon —  · 
+* Models navigation — 
+* Foundation models — 
+* Kernel interaction — 
+* Control-plane gates — 
+* Observed by —  · observation never grants authority
+* Recovered via operations — 
+* RSCF graph — 
+* Root navigation — 
 
 ---
 
@@ -4592,20 +4592,20 @@ Exact canonical wiki-link targets should only be added where their canonical fil
 
 # 263. Related
 
-[[00_HOME]] ·
-[[AMOS_RSCF_NODES]] ·
-[[MODEL_MAP]] ·
-[[LAW_HIERARCHY]] ·
-[[KERNEL_README]] ·
-[[CONTROL_PLANE_README]] ·
-[[OBSERVABILITY_README]] ·
-[[OPERATIONS_README]] ·
-[[ROUTING_POLICY_VALIDATION_RECEIPT]] ·
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+ ·
+
 
 ---
 
-[[00_ROOT/00_ROOT_MOC.md|AMOS MOC]]
+
 
 ---
 
@@ -4637,7 +4637,7 @@ RSCF-NODE:
   provenance:
     - AMOS_corpus
     - AMOS_COGNITION
-    - KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS
+    - [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]]
 
   provenance_independence:
     status: NOT_ASSUMED
@@ -4659,7 +4659,7 @@ RSCF-NODE:
   confidence_ceiling: SOURCE_BOUND
 
   HML:
-    H: BIO_LOGICAL_COMPUTING
+    H: [[BIO_LOGICAL_COMPUTING]]
 
     M:
       - NEUROBIOLOGICAL_INTELLIGENCE
@@ -4744,7 +4744,7 @@ RSCF-RELATIONS:
 
   - SOURCE_DERIVED_FROM: AMOS_COGNITION
 
-  - SOURCE_SUPPORTED_BY: KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS
+  - SOURCE_SUPPORTED_BY: [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]]
 
   - CONTAINS_DOMAIN: NEUROBIOLOGY
 
@@ -4799,7 +4799,7 @@ RSCF-PROOF-CAPSULE:
       locus: layer_5_biological_logic_layer
 
     supporting:
-      artifact: KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
+      artifact: [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]].json
       locus: "14. Biological Logic"
 
   load_bearing_source_claims:
@@ -5036,7 +5036,7 @@ and:
 ```text
 SIGNAL
 ≠
-DIAGNOSIS
+[[DIAGNOSIS]]
 ```
 
 and:
@@ -5128,7 +5128,7 @@ SOURCE-POPULATED
 +
 AMOS-MODEL
 +
-CANON-CANDIDATE
+[[CANON]]-CANDIDATE
 +
 BIOLOGICAL-CONSTRAINT-AWARE
 +
@@ -5144,9 +5144,9 @@ CAUSAL-FIREWALLED
 +
 SCOPE-FIREWALLED
 +
-EMPIRICAL-VALIDATION-NOT-ESTABLISHED
+EMPIRICAL-[[VALIDATION]]-NOT-ESTABLISHED
 +
-CLINICAL-VALIDATION-NOT-ESTABLISHED
+CLINICAL-[[VALIDATION]]-NOT-ESTABLISHED
 +
 EXECUTABLE-BINDING-NOT-ESTABLISHED
 ```
@@ -5161,7 +5161,7 @@ path: 13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL.md
 claim_class: AMOS_MODEL
 rscf_state: DERIVED
 source_primary: AMOS_COGNITION
-source_supporting: KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS
+source_supporting: [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]]
 canonical_status: CANON_CANDIDATE
 implementation_status: NOT_ESTABLISHED
 validation_status: SOURCE_GROUNDED_NOT_EMPIRICALLY_VALIDATED
@@ -5175,7 +5175,7 @@ RSCF-RELATIONS:
 * INDEXED_BY: [[01_FOUNDATION_MOC]]
 * GOVERNED_BY: [[LAW_HIERARCHY]]
 * SOURCE_DERIVED_FROM: AMOS_COGNITION
-* SOURCE_SUPPORTED_BY: KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS
+* SOURCE_SUPPORTED_BY: [[KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS]]
 * INTERACTS_WITH: [[KERNEL_README]]
 * GATED_BY: [[CONTROL_PLANE_README]]
 * OBSERVED_BY: [[OBSERVABILITY_README]]

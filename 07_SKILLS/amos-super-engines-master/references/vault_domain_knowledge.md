@@ -17,7 +17,7 @@ rscf:
 # amos-super-engines-master — Vault-Sourced Domain Knowledge
 
 > Load this reference only when detailed domain knowledge is needed.
-> This content was moved from SKILL.md for progressive loading.
+> This content was moved from [[SKILL]].md for progressive loading.
 
 ---
 
@@ -951,7 +951,7 @@ when future evidence may reactivate them.
 
 ---
 
-# 36. MEMORY SYSTEM
+# 36. [[MEMORY]] SYSTEM
 
 AMOS Cognitive Organism uses distinct memory classes:
 
@@ -975,7 +975,7 @@ QUARANTINED
 
 ---
 
-# 37. WORKING MEMORY
+# 37. WORKING [[MEMORY]]
 
 Working memory contains:
 
@@ -989,7 +989,7 @@ Working memory contains:
 
 ---
 
-# 38. EPISODIC MEMORY
+# 38. EPISODIC [[MEMORY]]
 
 Stores interaction trajectories.
 
@@ -1008,7 +1008,7 @@ Episode = {
 
 ---
 
-# 39. SEMANTIC MEMORY
+# 39. SEMANTIC [[MEMORY]]
 
 Stores stable concepts and learned relations.
 
@@ -1016,7 +1016,7 @@ Semantic memory does not automatically have canonical authority.
 
 ---
 
-# 40. CANONICAL MEMORY
+# 40. CANONICAL [[MEMORY]]
 
 Stores governed AMOS source/canon objects.
 
@@ -1034,7 +1034,7 @@ supersession rule
 
 ---
 
-# 41. PROCEDURAL MEMORY
+# 41. PROCEDURAL [[MEMORY]]
 
 Stores reusable action/process patterns.
 
@@ -1049,7 +1049,7 @@ how to run a repository analysis
 
 ---
 
-# 42. CASE MEMORY
+# 42. CASE [[MEMORY]]
 
 Stores solved examples.
 
@@ -1057,7 +1057,7 @@ A case memory provides analogy, not proof.
 
 ---
 
-# 43. MEMORY STATE MACHINE
+# 43. [[MEMORY]] STATE MACHINE
 
 ```text
 CANDIDATE
@@ -1072,7 +1072,7 @@ CANDIDATE
 
 ---
 
-# 44. MEMORY ADMISSION
+# 44. [[MEMORY]] ADMISSION
 
 ```text
 MayRemember =
@@ -1086,7 +1086,7 @@ AND NoCriticalConflict
 
 ---
 
-# 45. MEMORY IMMUNE SYSTEM
+# 45. [[MEMORY]] IMMUNE SYSTEM
 
 Detect:
 
@@ -1099,7 +1099,7 @@ Detect:
 
 ---
 
-# 46. MEMORY REPAIR
+# 46. [[MEMORY]] REPAIR
 
 Never globally delete because one memory fails.
 
@@ -1244,7 +1244,7 @@ AMOS COGNITIVE ORGANISM OS
         ↓
 FULL BRAIN COGNITIVE ORCHESTRATION
         ↓
-DOMAIN ENGINES / SKILLS / AGENTS
+DOMAIN ENGINES / SKILLS / [[AGENTS]]
         ↓
 TOOLS / EXECUTORS
         ↓
@@ -1361,11 +1361,11 @@ diversity/coherence governance
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

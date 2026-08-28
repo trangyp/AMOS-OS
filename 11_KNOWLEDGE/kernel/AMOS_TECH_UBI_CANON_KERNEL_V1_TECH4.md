@@ -21,7 +21,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-# AMOS TECH UBI CANON KERNEL V1 TECH4
+# AMOS TECH UBI [[CANON]] KERNEL V1 TECH4
 
 ```json
 [
@@ -56,7 +56,7 @@ rscf:
 ]
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:**  ·  ·  ·  · 
 ```
 
 ---

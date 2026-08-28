@@ -110,7 +110,7 @@ regimes:
 - **Runtime Path**: ✅ All active code points to canonical brain
 - **Legacy Support**: ✅ Backward compatibility maintained
 
-**PHASE 9 - VALIDATION COMPLETE**
+**PHASE 9 - [[VALIDATION]] COMPLETE**
 - **Syntax Check**: ✅ All code compiles without errors
 - **Import Test**: ✅ Consolidation test passes
 - **Functionality**: ✅ Core brain operations verified
@@ -127,11 +127,11 @@ conflicts_detected: 0 (clean consolidation)
 brain_ssot_hash: 6d3c7196fc9e7bb1489943
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

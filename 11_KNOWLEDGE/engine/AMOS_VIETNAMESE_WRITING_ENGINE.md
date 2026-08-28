@@ -162,7 +162,7 @@ The engine will infer the mode and respond with a structured, high-quality draft
 ]
 
 ---
-**Related:** [[00_HOME]] · [[KNOWLEDGE_MOC]] · [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]] · [[SYSTEM_SCAN_AGENT]] · [[AUTOMATION_PROFILES]]
+**Related:**  ·  ·  ·  · 
 ```
 
 ---

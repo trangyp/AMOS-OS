@@ -152,7 +152,7 @@ class PatchR
 > Durable map of what is in the Cosmo Brain. Counts verified by direct filesystem scan; the vault is co-edited by parallel Devin/Antigravity agents so numbers drift upward between scans.
 
 ## Corpus (verified this scan)
-- **Skills**: 803 `.devin/skills/` (0 empty dirs — every skill has SKILL.md)
+- **Skills**: 803 `.devin/skills/` (0 empty dirs — every skill has [[SKILL]].md)
 - **Agents**: 61 `*.md`
 - **Workflows**: 48 `*.md`
 - **Bridge notes**: 54 `_00_Cosmo brain/md/bridges/`
@@ -171,7 +171,7 @@ tech 30 · training 23 · vn 23 · absolute 20 · governance 13 · sector 13 · 
 - Obsidian resolves `link` by FILENAME anywhere in vault (bridges/ make MOC links resolve).
 - Engine-layer skills (19 MOC-linked) are mostly reference-only; only CodingOmegaEngineLayer has a real brain class.
 - Kernel JSON specs are source blueprints; the 146 kernel *skills* are their wrappers.
-- Thresholds in Trang ∅ Framework are AMOS_MODEL/UNVERIFIED (per EQUATION_FIREWALL.md), not universal.
+- Thresholds in Trang ∅ Framework are AMOS_MODEL/UNVERIFIED (per [[EQUATION_FIREWALL]].md), not universal.
 
 ## Links
 - [[2026_08_22_TRANG_PHI_FRAMEWORK]]
@@ -451,7 +451,7 @@ structural abstraction
 rscf/P-
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 ```
 ---
 

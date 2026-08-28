@@ -7,7 +7,7 @@ tags:
 - architecture
 ---
 
-# AMOS FULL BRAIN OS ARCHITECTURE
+# AMOS FULL BRAIN OS [[ARCHITECTURE]]
 
 ## Full Canonical Content + Extended Tags + RSCF + Obsidian Integration
 
@@ -3546,8 +3546,8 @@ RSCF:
 # 137. RSCF Relations — SOURCE
 
 ```text
-INDEXED_BY: [[00_HOME]]
-INDEXED_BY: [[AMOS_RSCF_NODES]]
+INDEXED_BY: 
+INDEXED_BY: 
 ```
 
 Source terminal block:
@@ -3632,14 +3632,14 @@ Source:
 Related:
 
 ```markdown
-[[00_HOME]]
-[[AMOS_RSCF_NODES]]
+
+
 ```
 
 MOC:
 
 ```markdown
-[[KNOWLEDGE_MOC]]
+
 ```
 
 ---
@@ -3649,16 +3649,16 @@ MOC:
 For Obsidian integration, likely high-value links include:
 
 ```markdown
-[[AMOS_CORE_ALL_VERSIONS]]
-[[AMOS_OS_KERNEL_V4_4]]
-[[OMNI_KERNEL]]
-[[BRAIN_CORE]]
-[[OMNIVERSE_BRAIN]]
-[[SUPER_MIND_OS]]
-[[OMEGA_INFINITY_STACK]]
-[[RSCF]]
-[[CONTROL_PLANE_README]]
-[[AMOS_LAYER_MAPS]]
+
+
+
+
+
+
+
+
+
+
 ```
 
 These are **PROPOSED** unless the exact vault note identities are confirmed.
@@ -4127,11 +4127,11 @@ canonical_class: CONDITIONAL
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[KNOWLEDGE_MOC]]
+  - INDEXED_BY: 
 
   - SUPERSEDES_MODEL: Kernel→Engine→Agent→Control Plane universal hierarchy
 

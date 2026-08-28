@@ -29,7 +29,7 @@ rscf:
 > Epistemic class: MODEL (an index the agent maintains; not a claim about the corpus).
 > Core law: `integrity > completeness > fluency > speed > token savings`
 >
-> **CANONICAL ARCHITECTURE (2026-08-22):** AMOS is a multi-dimensional cognitive operating architecture — **NOT** a linear Kernel→Engine→Agent chain (that framing is REJECTED as inaccurate). Full Brain OS = 5 components (`brain_core`, `omni_kernel`, `omniverse_brain`, `personality`, `expression_translation`) + `gap_management`. See amos-full-brain-os-architecture and `00_AMOS_Full_Brain_OS_Architecture.md` for the Brain/Runtime/Body model, 8 axes, and canon classification. Skills/agents/tools are deployment artifacts beneath the AMOS semantic/runtime architecture, not its ontology.
+> **CANONICAL [[ARCHITECTURE]] (2026-08-22):** AMOS is a multi-dimensional cognitive operating architecture — **NOT** a linear Kernel→Engine→Agent chain (that framing is REJECTED as inaccurate). Full Brain OS = 5 components (`brain_core`, `omni_kernel`, `omniverse_brain`, `personality`, `expression_translation`) + `gap_management`. See amos-full-brain-os-architecture and `00_AMOS_Full_Brain_OS_Architecture.md` for the Brain/Runtime/Body model, 8 axes, and canon classification. Skills/agents/tools are deployment artifacts beneath the AMOS semantic/runtime architecture, not its ontology.
 
 Central map of the Cosmo Brain vault. Use capsule-first: open the smallest node that can
 answer the question, expand only when outcome-changing uncertainty remains.
@@ -57,15 +57,15 @@ answer the question, expand only when outcome-changing uncertainty remains.
 - [[00_HOME]] — universal vault hub
 ## Operational brain — module map
 
-- 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · LOAD_MAP · OS_Agent_Model
-- 10_core: INVARIANTS · CLAIM_CLASSES · FRACTAL_RUNTIME · LOGIC_KERNEL · EQUATION_* · VARIABLE_REGISTRY · CONSTRAINT_ENGINE · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
-- 20_state: TENSOR_CONTRACTS · CLAIM_TENSOR · EVIDENCE_TENSOR · RELATION_TENSOR · MEMORY_ARCHITECTURE · WORKING_MEMORY · BOUNDARY_IDENTITY · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · GOVERNANCE_TENSOR
-- 30_epistemics: PROVENANCE_TOPOLOGY · RSCF_PROOF_CAPSULE · COMPETING_HYPOTHESES · REGIME_FRESHNESS · ADVERSARIAL_VALIDATION · SENSITIVITY_FALSIFIERS · CAUSAL_FIREWALL · ERROR_RECOVERY · SYBIL_HARDENING
+- 00_boot: brain/00_boot/BOOTSTRAP · ROUTER · [[LOAD_MAP]] · OS_Agent_Model
+- 10_core: INVARIANTS · CLAIM_CLASSES · [[FRACTAL_RUNTIME]] · [[LOGIC_KERNEL]] · EQUATION_* · VARIABLE_REGISTRY · [[CONSTRAINT_ENGINE]] · Consciousness_Engine_Model · Personality_Engine_Model · Emotion_Engine_Model · Cognition_Engine_Model · Mind_OS_Model
+- 20_state: [[TENSOR_CONTRACTS]] · [[CLAIM_TENSOR]] · [[EVIDENCE_TENSOR]] · [[RELATION_TENSOR]] · [[MEMORY_ARCHITECTURE]] · WORKING_MEMORY · [[BOUNDARY_IDENTITY]] · UNCERTAINTY_VECTOR · ENTROPY_LACUNARITY · STATE_MACHINE · CONTEXT_ORIENTATION · [[GOVERNANCE_TENSOR]]
+- 30_epistemics: PROVENANCE_TOPOLOGY · [[RSCF_PROOF_CAPSULE]] · COMPETING_HYPOTHESES · [[REGIME_FRESHNESS]] · [[ADVERSARIAL_VALIDATION]] · [[SENSITIVITY_FALSIFIERS]] · CAUSAL_FIREWALL · [[ERROR_RECOVERY]] · SYBIL_HARDENING
 - 40_runtime: RUNTIME_LINEAGE · TRANSACTION_PROTOCOL · V3_0…V4_4 (MVCC/CAS, causal epoch, coordination avoidance)
 - 50_governance: GMEF · AUTHORITY_GOVERNOR · EVOLUTION_DEBT · EVOLUTION_MEMORY · REPAIR_ROLLBACK
 - 60_execution: REPOSITORY_REASONING · KNOWLEDGE_HARVEST · EXECUTION_HARNESS · EXECUTION_PROVENANCE · BENCHMARK_FIREWALL · *_EVIDENCE_SCHEMA
-- 70_domain: COGNITION_KERNEL · UNIVERSAL_FIELD_MODEL · SOURCE_MODEL_BOUNDARY
-- 90_output: FINAL_GATE · OUTPUT_PROTOCOL · CONTEXT_BUDGET · TOKEN_GOVERNOR · SPEED_GOVERNOR
+- 70_domain: [[COGNITION_KERNEL]] · UNIVERSAL_FIELD_MODEL · SOURCE_MODEL_BOUNDARY
+- 90_output: [[FINAL_GATE]] · OUTPUT_PROTOCOL · CONTEXT_BUDGET · TOKEN_GOVERNOR · [[SPEED_GOVERNOR]]
 - 95_meta: SELF_REVIEW (self-review loop — hardens reasoning before any consequential output or brain write)
 
 ## Reasoning skills (progressive load)
@@ -255,7 +255,7 @@ each lists its REAL member specs. Coverage: 135 → 0 genuine gaps.
 - amos-full-brain-os-architecture — **CORRECTED architecture**: Full Brain OS (5 components + gap mgmt), not a linear Kernel→Engine→Agent chain. Brain/Runtime/Body model, 8 axes, canon-classification. Source note: `00_AMOS_Full_Brain_OS_Architecture.md`
 - brain-architecture-audit — classify any AMOS component against the corrected canon ladder (CANONICAL / COMPATIBLE EXTENSION / IMPLEMENTATION / MODEL / DRAFT / SUPERSEDED / UNKNOWN) + 8 axes; rejects the linear-chain framing and parent-child invention. Pair with brain-consistency-audit.
 - brain-consistency-audit workflow + Brain_Consistency_Auditor_Agent — four-way audit
-  (skills / agents / registry / AGENTS.md). Run after bulk changes or pre-release.
+  (skills / agents / registry / [[AGENTS]].md). Run after bulk changes or pre-release.
 - Architecture_Guardian_Agent — standing owner of architectural consistency: owns `brain-architecture-audit` (canon ladder) + `brain-consistency-audit`; flags the rejected linear-chain framing and unsourced parent-child edges; never auto-fixes canon.
 - **Round 4 (2026-08-22): closed the 22 prior empty placeholders.** Created `amos-training-manuals` (cluster wrapper over the 20 `training/` PDFs, each mapped to its real UUID-prefixed file), `amos-living-stack-thesis` (Living Stack Architecture Thesis in `new troy/`), `amos-the-system` (Trang System/TSS pointer), and 20 thin per-manual pointers. **0 empty `.devin/skills` dirs remain (774 total).** Corrected a prior false-negative: the placeholders DID map to real training PDFs (UUID-prefixed) my first scanner missed — per `amos-meta-epistemology-kernel` re-verified before acting.
   Brain grew to 783 skill dirs + 56 agents (parallel agent also extending). Fixes: reconciled registry
@@ -942,7 +942,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 - **File health**: PASS — 0 empty files, 0 broken symlinks
 - **Graph health**: 124 broken wikilinks found → 69 bridge notes created → 24 remaining (all code examples, path refs, or section anchors — acceptable)
-- **Brain consistency**: 17,022 skill dirs, 522 AGENTS.md refs, 9 phantom skills flagged for review
+- **Brain consistency**: 17,022 skill dirs, 522 [[AGENTS]].md refs, 9 phantom skills flagged for review
 - **Bridge notes**: `md/bridges/` directory contains 246+ bridge notes resolving skill and wikilink references
 
 ### QFM v2.7 Consolidation (2026-08-25)
@@ -1109,7 +1109,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 #### New web-synthesized best-practice skill, agent, and workflow
 
-- `amos-agent-skill-workflow-best-practices` — best-practice guide for designing, distributing, and evaluating AI agent skills and workflows. Synthesizes 2026 Red Hat, Anthropic, OpenAI, and Arize AI guidance with AMOS conventions. Covers skill triplet structure (SKILL.md + agent JSON + workflow), progressive disclosure, metadata-driven routing, deterministic scripting vs. LLM reasoning, evaluation-gated changes, and MOC/AGENTS integration.
+- `amos-agent-skill-workflow-best-practices` — best-practice guide for designing, distributing, and evaluating AI agent skills and workflows. Synthesizes 2026 Red Hat, Anthropic, OpenAI, and Arize AI guidance with AMOS conventions. Covers skill triplet structure ([[SKILL]].md + agent JSON + workflow), progressive disclosure, metadata-driven routing, deterministic scripting vs. LLM reasoning, evaluation-gated changes, and MOC/[[AGENTS]] integration.
 - `amos-agent-skill-workflow-best-practices-agent.json` — agent for auditing, designing, and evaluating skill triplets; validates JSON and dependencies.
 - `amos-agent-skill-workflow-best-practices-workflow.md` — 12-phase workflow: scope → focus rules → triplet design → naming → metadata → deterministic scripts → guardrails → validation → MOC/index → eval → epistemic label.
 
@@ -1232,7 +1232,7 @@ to architectural skills in `.devin/skills/`. Each skill contains:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

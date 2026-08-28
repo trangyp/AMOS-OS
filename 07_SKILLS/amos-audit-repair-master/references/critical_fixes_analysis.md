@@ -56,7 +56,7 @@ tags: [audit]
 
 ## CRITICAL SYSTEM ISSUES IDENTIFIED (H2)
 
-### 1. MEMORY CONTAINMENT CRITICAL ⚠️
+### 1. [[MEMORY]] CONTAINMENT CRITICAL ⚠️
 **Issue**: 16.7GB swap usage (418% over 4GB limit)
 **Risk Level**: CRITICAL
 **Impact**: System instability, potential crash

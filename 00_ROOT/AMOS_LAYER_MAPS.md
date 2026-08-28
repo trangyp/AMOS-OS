@@ -30,7 +30,7 @@ rscf:
 
 # AMOS Layer Maps
 
-Canonical map index for the AMOS OS layer structure. Each top-level layer has a `00_INDEX/*MAP.md` that provides the entry map for that layer. Use `[[00_ROOT_MOC]]` for the master navigation contract.
+Canonical map index for the AMOS OS layer structure. Each top-level layer has a `00_INDEX/*MAP.md` that provides the entry map for that layer. Use `` for the master navigation contract.
 
 ---
 

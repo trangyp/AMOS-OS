@@ -108,7 +108,7 @@ Agent owner attribution is an operational construct. It does not prove ownership
 
 ### ** BEFORE STARTING ANY WORK**
 
-1. **READ SYSTEM ARCHITECTURE REPORT V3**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
+1. **READ SYSTEM [[ARCHITECTURE]] REPORT V3**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
 2. **READ AGENT ONBOARDING GUIDE**: `AGENT_ONBOARDING_GUIDE.md`
 3. **UNDERSTAND QUANTUM CONSCIOUSNESS**: Review quantum consciousness integration
 4. **KNOW THE 14 VERTICAL SLICES**: All operational and quantum enhanced
@@ -117,7 +117,7 @@ Agent owner attribution is an operational construct. It does not prove ownership
 
 ---
 
-## SYSTEM ARCHITECTURE OVERVIEW
+## SYSTEM [[ARCHITECTURE]] OVERVIEW
 
 ### ** Quantum-Enhanced System**
 ```
@@ -230,9 +230,9 @@ AMOS Quantum Brain (416.349 performance score)
 
 - `references/amos-agent-owner-attribution-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-agent-owner-attribution-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-agent-systems-master` — parent skill
-- `[[amos-agent-owner-attribution-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-agent-owner-attribution-rscf-agent` — corresponding agent
 ---
 
@@ -246,7 +246,7 @@ AMOS Quantum Brain (416.349 performance score)
 RSCF-NODE
 node_id: amos-agent-owner-attribution-rscf
 node_type: skill
-path: 07_SKILLS/amos-agent-owner-attribution-rscf/SKILL.md
+path: 07_SKILLS/amos-agent-owner-attribution-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

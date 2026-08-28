@@ -266,7 +266,7 @@ scaffolding. This assumption contradicts substan
 > **Model boundary**: The 19×19 field is a formal coordinate system for organizing AI cognition — not a claim that an LLM literally contains a Go board or biological brain. Mappings are structural analogies (`AMOS MODEL`), not proof of biological cognition or consciousness.
 >
 > Source: `AMOS_GO_BOARD_19X19.py` (geometry), `AMOS_GO_BOARD_19X19_STRATEGIC.py` (strategic field), `AMOS_STRATEGIC_FIELD_19X19.py` (recursive field). This note extends those to AI cognition.
-> See also: [[2026_08_22_19X19_STRATEGIC_FIELD_MODEL]], amos-go-board-19x19, [[2026_08_22_AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+> See also: , amos-go-board-19x19, 
 
 ## 1. Core reinterpretation
 
@@ -330,7 +330,7 @@ K10 is the geometric fixed point = executive focus, not a magic cognitive center
 Before a cognition object becomes load
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 ```
 
 ---

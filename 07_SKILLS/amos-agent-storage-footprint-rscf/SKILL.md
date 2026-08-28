@@ -208,9 +208,9 @@ Generators drift in schema even within one session's outputs. The registry-level
 
 - `references/amos-agent-storage-footprint-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-agent-storage-footprint-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[amos-agent-storage-footprint-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-agent-storage-footprint-rscf-agent` — corresponding agent
 ---
 
@@ -224,7 +224,7 @@ Generators drift in schema even within one session's outputs. The registry-level
 RSCF-NODE
 node_id: amos-agent-storage-footprint-rscf
 node_type: skill
-path: 07_SKILLS/amos-agent-storage-footprint-rscf/SKILL.md
+path: 07_SKILLS/amos-agent-storage-footprint-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

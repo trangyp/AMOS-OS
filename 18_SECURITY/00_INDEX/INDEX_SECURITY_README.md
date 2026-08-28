@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# INDEX SECURITY README
+# INDEX SECURITY [[README]]
 
 ## Index
 - See also — [[INDEX_SECURITY_SECURITY_CONTRACT]]

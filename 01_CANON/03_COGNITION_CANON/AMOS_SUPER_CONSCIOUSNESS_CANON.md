@@ -1540,7 +1540,7 @@ knowledge_object:
   lineage:
 ```
 
-README or documentation claims remain:
+[[README]] or documentation claims remain:
 
 ```text
 SOURCE_CLAIM
@@ -3704,28 +3704,28 @@ AUTHORITY
 relations:
 
   - type: GOVERNED_BY
-    target: "[[LAW_HIERARCHY]]"
+    target: ""
 
   - type: INDEXED_BY
-    target: "[[00_HOME]]"
+    target: ""
 
   - type: INDEXED_BY
-    target: "[[AMOS_RSCF_NODES]]"
+    target: ""
 
   - type: PART_OF
-    target: "[[03_COGNITION_CANON_MOC]]"
+    target: ""
 
   - type: INTERACTS_WITH
-    target: "[[KERNEL_README]]"
+    target: ""
 
   - type: GOVERNED_AT_RUNTIME_BY
-    target: "[[CONTROL_PLANE_README]]"
+    target: ""
 
   - type: OBSERVED_BY
-    target: "[[OBSERVABILITY_README]]"
+    target: ""
 
   - type: RECOVERED_VIA
-    target: "[[OPERATIONS_README]]"
+    target: ""
 ```
 
 ---
@@ -3741,9 +3741,9 @@ RSCF_VALIDATION_RECEIPT
 
 PROVENANCE_TOPOLOGY_VALIDATION_RECEIPT
 
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+
 
 ROLLBACK_VALIDATION_RECEIPT
 ```
@@ -3937,28 +3937,28 @@ RSCF_NODE:
   RSCF_RELATIONS:
 
     - relation: INDEXED_BY
-      target: "[[00_HOME]]"
+      target: ""
 
     - relation: INDEXED_BY
-      target: "[[AMOS_RSCF_NODES]]"
+      target: ""
 
     - relation: GOVERNED_BY
-      target: "[[LAW_HIERARCHY]]"
+      target: ""
 
     - relation: PART_OF
-      target: "[[03_COGNITION_CANON_MOC]]"
+      target: ""
 
     - relation: INTERACTS_WITH
-      target: "[[KERNEL_README]]"
+      target: ""
 
     - relation: GOVERNED_AT_RUNTIME_BY
-      target: "[[CONTROL_PLANE_README]]"
+      target: ""
 
     - relation: OBSERVED_BY
-      target: "[[OBSERVABILITY_README]]"
+      target: ""
 
     - relation: RECOVERED_VIA
-      target: "[[OPERATIONS_README]]"
+      target: ""
 ```
 
 ---

@@ -33,7 +33,7 @@ tags: [reports]
 
 ---
 
-## CORE INTEGRATION ACHIEVED
+## CORE [[INTEGRATION]] ACHIEVED
 
 ### 1. AMOS Brain Tensor Field Engine (`amos_brain_tensor_field_engine.py`)
 **MULTI-SCALE TENSOR FIELD ANALYSIS** - Models reality as S_t = T(Agents, Signals, Power, Incentives, Enforcement, Information, Constraints, Time)

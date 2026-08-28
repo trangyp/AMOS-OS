@@ -2094,7 +2094,7 @@ knowledge_record:
   lineage: []
 ```
 
-README/documentation claims remain:
+[[README]]/documentation claims remain:
 
 ```text
 SOURCE_CLAIM
@@ -2830,7 +2830,7 @@ LOG ENTRY
 APPROVAL
 ```
 
-`[[OBSERVABILITY_README]]` may consume kernel events, but it must never be treated as the authority source solely because it recorded them.
+`` may consume kernel events, but it must never be treated as the authority source solely because it recorded them.
 
 ---
 
@@ -3066,8 +3066,8 @@ Requirements:
 Required target references currently include:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+
 ```
 
 These references indicate intended validation relationships.
@@ -3172,7 +3172,7 @@ This notation is a compact target representation, not a claim that the listed in
 Target relation:
 
 ```text
-[[KERNEL_README]]
+
        │
        ├── defines kernel-plane integration
        │
@@ -3192,7 +3192,7 @@ It MUST NOT be interpreted as the entirety of the AMOS Kernel.
 Target governance relation:
 
 ```text
-[[LAW_HIERARCHY]]
+
        ↓
 GOVERNS
        ↓
@@ -3214,7 +3214,7 @@ K_ABSOLUTE_LOGIC
       ↓
 reasoning / admissibility semantics
       ↓
-[[CONTROL_PLANE_README]]
+
       ↓
 authority / state / transaction enforcement
 ```
@@ -3228,7 +3228,7 @@ The Kernel logic layer does not independently grant execution authority.
 ```text
 K_ABSOLUTE_LOGIC
       ↓ events / receipts / state transitions
-[[OBSERVABILITY_README]]
+
 ```
 
 Observability may inspect and record.
@@ -3246,7 +3246,7 @@ K_ABSOLUTE_LOGIC
       ↓
 failure state
       ↓
-[[OPERATIONS_README]]
+
       ↓
 repair / rollback / recovery / incident handling
 ```
@@ -4297,31 +4297,31 @@ cross_plane_bindings:
 RSCF_RELATIONS:
 
   - relation: INDEXED_BY
-    target: "[[00_HOME]]"
+    target: ""
 
   - relation: INDEXED_BY
-    target: "[[AMOS_RSCF_NODES]]"
+    target: ""
 
   - relation: GOVERNED_BY
-    target: "[[LAW_HIERARCHY]]"
+    target: ""
 
   - relation: KERNEL_INTERACTION
-    target: "[[KERNEL_README]]"
+    target: ""
 
   - relation: EFFECTS_GATED_BY
-    target: "[[CONTROL_PLANE_README]]"
+    target: ""
 
   - relation: OBSERVED_BY
-    target: "[[OBSERVABILITY_README]]"
+    target: ""
 
   - relation: RECOVERED_VIA
-    target: "[[OPERATIONS_README]]"
+    target: ""
 
   - relation: VALIDATION_TARGET
-    target: "[[ROUTING_POLICY_VALIDATION_RECEIPT]]"
+    target: ""
 
   - relation: VALIDATION_TARGET
-    target: "[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]"
+    target: ""
 ```
 
 ---
@@ -4438,17 +4438,17 @@ RSCF-RELATIONS:
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
-  - KERNEL_INTERACTION: [[KERNEL_README]]
+  - KERNEL_INTERACTION: 
 
-  - EFFECTS_GATED_BY: [[CONTROL_PLANE_README]]
+  - EFFECTS_GATED_BY: 
 
   - OBSERVED_BY: [[OBSERVABILITY_README]]
 
   - RECOVERED_VIA: [[OPERATIONS_README]]
 
-  - VALIDATION_TARGET: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+  - VALIDATION_TARGET: 
 
-  - VALIDATION_TARGET: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+  - VALIDATION_TARGET: 
 ```
 
 ---

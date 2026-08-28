@@ -204,9 +204,9 @@ Closed-loop learning governance is an operational construct. It does not prove l
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-closed-loop-learning-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-closed-loop-learning-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-closed-loop-learning-governor-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Closed-loop learning governance is an operational construct. It does not prove l
 RSCF-NODE
 node_id: amos-closed-loop-learning-governor
 node_type: skill
-path: 07_SKILLS/amos-closed-loop-learning-governor/SKILL.md
+path: 07_SKILLS/amos-closed-loop-learning-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

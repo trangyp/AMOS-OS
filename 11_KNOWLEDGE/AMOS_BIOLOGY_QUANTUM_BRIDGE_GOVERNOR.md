@@ -2507,7 +2507,7 @@ A widely repeated quantum-consciousness claim does not gain independent support 
 
 # 168. Documentation ≠ Validation
 
-README or documentation statements remain:
+[[README]] or documentation statements remain:
 
 ```text
 SOURCE_CLAIM
@@ -4380,12 +4380,12 @@ RSCF-RELATIONS:
 
   - RELATION_DIRECTION_STATUS: COMPETING/GAP
 
-  - COMPOSES_WITH: [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+  - COMPOSES_WITH: 
 
   - BRIDGES: C04_Bio_Neuro
   - BRIDGES: C03_Physics_Cosmos
 
-  - INDEXED_BY: [[KNOWLEDGE_MOC]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 ```
 
@@ -5802,12 +5802,12 @@ RSCF-RELATIONS:
   # Therefore:
   - RELATION_DIRECTION_STATUS: COMPETING/GAP
 
-  - COMPOSES_WITH: [[AMOS_CROSS_DOMAIN_TENSOR_COMPOSITION_GOVERNOR]]
+  - COMPOSES_WITH: 
 
   - BRIDGES: C04_Bio_Neuro
   - BRIDGES: C03_Physics_Cosmos
 
-  - INDEXED_BY: [[KNOWLEDGE_MOC]]
+  - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
   - MAPS_CONCEPT: BIOLOGY_QUANTUM

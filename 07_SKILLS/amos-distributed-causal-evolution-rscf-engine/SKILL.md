@@ -218,9 +218,9 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 
 - `references/distributed_causal_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-distributed-causal-evolution-rscf-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-causal-reasoning-master` — parent skill
-- `[[amos-distributed-causal-evolution-rscf-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-distributed-causal-evolution-rscf-engine-agent` — corresponding agent
 ---
 
@@ -234,7 +234,7 @@ Benchmark claims are bounded to the recorded test corpus/environment and must no
 RSCF-NODE
 node_id: amos-distributed-causal-evolution-rscf-engine
 node_type: skill
-path: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine/SKILL.md
+path: 07_SKILLS/amos-distributed-causal-evolution-rscf-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

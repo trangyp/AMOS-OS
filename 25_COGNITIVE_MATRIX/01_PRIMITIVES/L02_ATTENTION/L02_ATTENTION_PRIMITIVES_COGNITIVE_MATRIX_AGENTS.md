@@ -2623,7 +2623,7 @@ Therefore:
 
 [
 \boxed{
-C_{L02-AGENTS}
+C_{L02-[[AGENTS]]}
 \le
 C_{weakest\ load-bearing\ premise}
 }
@@ -3048,7 +3048,7 @@ AMOS_COGNITION
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]

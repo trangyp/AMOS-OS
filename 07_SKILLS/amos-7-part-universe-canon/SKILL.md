@@ -144,7 +144,7 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 - Outside the AMOS canon law hierarchy
 ## References
 - [[references]] — session-specific detail and authoritative sources
-- references/README — references subdirectory readme
+- references/[[README]] — references subdirectory readme
 
 ---
 **MOC:** [[amos-7-part-universe-canon_MOC]]
@@ -225,7 +225,7 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 RSCF-NODE
 node_id: amos-7-part-universe-canon
 node_type: skill
-path: 07_SKILLS/amos-7-part-universe-canon/SKILL.md
+path: 07_SKILLS/amos-7-part-universe-canon/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

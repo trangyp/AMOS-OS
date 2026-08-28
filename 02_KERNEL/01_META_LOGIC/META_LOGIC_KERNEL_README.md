@@ -69,7 +69,7 @@ integrity:
   observation_grants_authority: false
 ---
 
-# META LOGIC KERNEL README
+# META LOGIC KERNEL [[README]]
 
 > **Package:** `02_KERNEL/01_META_LOGIC`
 > **Plane:** `02_KERNEL · KERNEL`
@@ -179,7 +179,7 @@ Integration
 \}
 $$
 
-The README maps this subsystem.
+The [[README]] maps this subsystem.
 
 Normative definitions remain in their governing contracts and canonical artifacts.
 
@@ -187,7 +187,7 @@ Normative definitions remain in their governing contracts and canonical artifact
 
 # 2. Non-Purpose
 
-This README MUST NOT independently be used to claim:
+This [[README]] MUST NOT independently be used to claim:
 
 ```text
 A SIBLING CONTRACT IS IMPLEMENTED
@@ -395,13 +395,13 @@ The supplied package declares the following siblings:
 
 | Artifact                                | Package role                               |
 | --------------------------------------- | ------------------------------------------ |
-| `[[KERNEL_META_LOGIC_CONTRACT]]`        | normative meta-logic kernel contract       |
-| `[[K_CORE19_LOGIC]]`                    | Core19 logic framework                     |
-| `[[K_DISTINCTION_RELATION_CONSTRAINT]]` | distinction/relation/constraint primitives |
-| `[[K_LAW_HIERARCHY]]`                   | kernel law ordering / hierarchy            |
-| `[[K_META_LOGIC]]`                      | meta-logic model / kernel logic            |
+| ``        | normative meta-logic kernel contract       |
+| ``                    | Core19 logic framework                     |
+| `` | distinction/relation/constraint primitives |
+| ``                   | kernel law ordering / hierarchy            |
+| ``                      | meta-logic model / kernel logic            |
 
-The existence of a wiki-link in this README establishes a declared relationship.
+The existence of a wiki-link in this [[README]] establishes a declared relationship.
 
 It does not by itself establish:
 
@@ -442,7 +442,7 @@ UNRESOLVED SIBLING
 UNKNOWN/GAP
 ```
 
-The README MUST NOT invent missing sibling content.
+The [[README]] MUST NOT invent missing sibling content.
 
 ---
 
@@ -482,11 +482,11 @@ Exact precedence remains governed by the applicable law hierarchy.
 
 # 11. Kernel Meta-Logic Contract
 
-`[[KERNEL_META_LOGIC_CONTRACT]]` is the declared sibling contract.
+`` is the declared sibling contract.
 
 Its expected role is to hold normative requirements for the segment.
 
-The README SHOULD orient toward that contract rather than duplicate its entire normative content.
+The [[README]] SHOULD orient toward that contract rather than duplicate its entire normative content.
 
 Therefore:
 
@@ -500,9 +500,9 @@ CONTRACT = NORMATIVE REQUIREMENTS
 
 # 12. Core19 Binding
 
-`[[K_CORE19_LOGIC]]` is declared as a sibling artifact.
+`` is declared as a sibling artifact.
 
-The README does not establish its detailed semantics.
+The [[README]] does not establish its detailed semantics.
 
 Accordingly:
 
@@ -526,7 +526,7 @@ No detailed Core19 law should be invented here.
 
 # 13. Distinction · Relation · Constraint
 
-`[[K_DISTINCTION_RELATION_CONSTRAINT]]` is a declared sibling.
+`` is a declared sibling.
 
 At package level, its architectural role can safely be represented as the kernel discipline for separating:
 
@@ -638,7 +638,7 @@ $$
 
 # 17. Law Hierarchy
 
-`[[K_LAW_HIERARCHY]]` is a declared sibling artifact.
+`` is a declared sibling artifact.
 
 The package-level rule is:
 
@@ -665,7 +665,7 @@ OR PRESERVE CONFLICT
 
 # 18. Meta Logic
 
-`[[K_META_LOGIC]]` is the declared sibling representing the package's meta-logic framework.
+`` is the declared sibling representing the package's meta-logic framework.
 
 At package level, meta-logic concerns rules about how logic itself is selected, bounded, combined, challenged, and applied.
 
@@ -727,7 +727,7 @@ DECISION
 UNKNOWN
 ```
 
-The README itself is:
+The [[README]] itself is:
 
 ```text
 RSCF STATE = DERIVED
@@ -1405,7 +1405,7 @@ REJECT / REVALIDATE
 
 This is consistent with CAS/MVCC-style integrity reasoning.
 
-It is not a claim that this README itself implements CAS or MVCC.
+It is not a claim that this [[README]] itself implements CAS or MVCC.
 
 ---
 
@@ -2105,7 +2105,7 @@ It does not make itself canonical merely by referring to canon.
 Declared binding:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 The segment inherits broader Kernel-plane boundaries from its parent package.
@@ -2127,7 +2127,7 @@ conceptually.
 Declared binding:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 The control plane is responsible for gates governing authority and effect eligibility.
@@ -2151,7 +2151,7 @@ AUTHORIZED / DENIED / HELD
 Declared binding:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 The source explicitly states observability is:
@@ -2179,7 +2179,7 @@ It does not decide what was permitted.
 Declared binding:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 Operations supplies recovery pathways.
@@ -2205,12 +2205,12 @@ REVALIDATION
 The source explicitly declares:
 
 ```text
-[[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
 ```
 
 as the associated Trang Framework reference.
 
-This README establishes the link.
+This [[README]] establishes the link.
 
 It does not establish the complete semantics of that framework.
 
@@ -2220,7 +2220,7 @@ Those semantics must be resolved from the referenced artifact.
 
 # 84. RSCF Package Role
 
-The README itself is represented as an RSCF node:
+The [[README]] itself is represented as an RSCF node:
 
 ```text
 node_id:
@@ -2585,9 +2585,9 @@ An executed validation receipt specific to the subsystem is required.
 Declared references:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+
 ```
 
 The existence of these links does not prove the receipts currently exist or pass.
@@ -3467,7 +3467,7 @@ gaps:
 
 # 133. Invalidation Conditions
 
-Re-evaluate this README if evidence establishes:
+Re-evaluate this [[README]] if evidence establishes:
 
 ```text
 A DIFFERENT PACKAGE STRUCTURE
@@ -3903,38 +3903,38 @@ RECEIPT_DEPENDENT
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
 
-  - PARENT_PACKAGE: [[KERNEL_README]]
+  - PARENT_PACKAGE: 
 
-  - DECLARES_SIBLING: [[KERNEL_META_LOGIC_CONTRACT]]
+  - DECLARES_SIBLING: 
 
-  - DECLARES_SIBLING: [[K_CORE19_LOGIC]]
+  - DECLARES_SIBLING: 
 
-  - DECLARES_SIBLING: [[K_DISTINCTION_RELATION_CONSTRAINT]]
+  - DECLARES_SIBLING: 
 
-  - DECLARES_SIBLING: [[K_LAW_HIERARCHY]]
+  - DECLARES_SIBLING: 
 
-  - DECLARES_SIBLING: [[K_META_LOGIC]]
+  - DECLARES_SIBLING: 
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+  - GOVERNED_BY: 
 
-  - GATED_BY: [[CONTROL_PLANE_README]]
+  - GATED_BY: 
 
-  - OBSERVED_BY: [[OBSERVABILITY_README]]
+  - OBSERVED_BY: 
 
-  - RECOVERED_BY: [[OPERATIONS_README]]
+  - RECOVERED_BY: 
 
-  - VALIDATED_BY: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+  - VALIDATED_BY: 
 
-  - VALIDATED_BY: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+  - VALIDATED_BY: 
 
   - FRAMEWORK_LINK:
-    [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+    
 
-  - INDEXED_BY: [[01_META_LOGIC_MOC]]
+  - INDEXED_BY: 
 ```
 
 ---
@@ -3942,40 +3942,40 @@ RSCF-RELATIONS:
 # 147. Navigation Map
 
 ```text
-[[00_HOME]]
+
     ↓
-[[KERNEL_README]]
+
     ↓
-[[01_META_LOGIC_MOC]]
+
     ↓
-[[META_LOGIC_KERNEL_README]]
+
     │
-    ├── [[KERNEL_META_LOGIC_CONTRACT]]
-    ├── [[K_CORE19_LOGIC]]
-    ├── [[K_DISTINCTION_RELATION_CONSTRAINT]]
-    ├── [[K_LAW_HIERARCHY]]
-    └── [[K_META_LOGIC]]
+    ├── 
+    ├── 
+    ├── 
+    ├── 
+    └── 
 ```
 
 Cross-plane navigation:
 
 ```text
-[[LAW_HIERARCHY]]
+
        ↓
 META LOGIC KERNEL
        ↓
-[[CONTROL_PLANE_README]]
+
        ↓
-[[OBSERVABILITY_README]]
+
        ↓
-[[OPERATIONS_README]]
+
 ```
 
 ---
 
 # 148. Package Integrity Declaration
 
-The package README establishes an architectural navigation and integration layer.
+The package [[README]] establishes an architectural navigation and integration layer.
 
 It does not independently establish complete executable enforcement.
 
@@ -3983,7 +3983,7 @@ The controlling boundaries are:
 
 $$
 \boxed{
-README
+[[README]]
 \neq
 Contract
 }
@@ -4129,7 +4129,7 @@ production_readiness:
 
 # 151. Canon-Safe Terminal Rule
 
-The README should be treated as the authoritative **navigation point for the package only to the extent established by the corpus**, not as automatic proof of every implementation behind it.
+The [[README]] should be treated as the authoritative **navigation point for the package only to the extent established by the corpus**, not as automatic proof of every implementation behind it.
 
 Therefore:
 
@@ -4213,7 +4213,7 @@ until the corresponding executable artifacts and receipts establish those strong
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

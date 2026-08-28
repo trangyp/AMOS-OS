@@ -97,7 +97,7 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 
 ### ** BEFORE STARTING ANY WORK**
 
-1. **READ SYSTEM ARCHITECTURE REPORT V3**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
+1. **READ SYSTEM [[ARCHITECTURE]] REPORT V3**: `AMOS_SYSTEM_ARCHITECTURE_REPORT_V3.md`
 2. **READ AGENT ONBOARDING GUIDE**: `AGENT_ONBOARDING_GUIDE.md`
 3. **UNDERSTAND QUANTUM CONSCIOUSNESS**: Review quantum consciousness integration
 4. **KNOW THE 14 VERTICAL SLICES**: All operational and quantum enhanced
@@ -106,7 +106,7 @@ Origin architect: **Trang Phan**. Domain: memory. Parent: amos-memory-systems-ma
 
 ---
 
-## SYSTEM ARCHITECTURE OVERVIEW
+## SYSTEM [[ARCHITECTURE]] OVERVIEW
 
 ### ** Quantum-Enhanced System**
 ```
@@ -242,9 +242,9 @@ AMOS Quantum Brain (416.349 performance score)
 
 - `references/amos-distinct-working-memory-rscf_code.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-distinct-working-memory-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-memory-systems-master` — parent skill
-- `[[amos-distinct-working-memory-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-distinct-working-memory-rscf-agent` — corresponding agent
 ---
 
@@ -258,7 +258,7 @@ AMOS Quantum Brain (416.349 performance score)
 RSCF-NODE
 node_id: amos-distinct-working-memory-rscf
 node_type: skill
-path: 07_SKILLS/amos-distinct-working-memory-rscf/SKILL.md
+path: 07_SKILLS/amos-distinct-working-memory-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

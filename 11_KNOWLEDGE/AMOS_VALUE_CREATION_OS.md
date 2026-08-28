@@ -15,7 +15,7 @@ rscf:
 
 
 # ⭐ AMOS GIANT VALUE CREATION OS
-## MAX-DETAIL MASTER ARCHITECTURE FOR COMMERCIALIZATION, VALIDATION, LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
+## MAX-DETAIL MASTER [[ARCHITECTURE]] FOR COMMERCIALIZATION, [[VALIDATION]], LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE
 
 > **Origin architect / steward:** Trang Phan
 > **Purpose:** chuyển kiến trúc AMOS/TSS/TPE/UBI/QLS thành một hệ điều hành tạo giá trị có thể kiểm định, thương mại hóa, vận hành, học, sửa, cấp phép và scale mà không biến ambition thành unsupported certainty.
@@ -297,7 +297,7 @@ Shared vocabulary
 
 ---
 
-# 2. AMOS COMMERCIAL META-ARCHITECTURE
+# 2. AMOS COMMERCIAL META-[[ARCHITECTURE]]
 
 ## 2.1 Stack
 
@@ -580,7 +580,7 @@ Severity
 
 ---
 
-# 7. VALUE PROPOSITION ARCHITECTURE
+# 7. VALUE PROPOSITION [[ARCHITECTURE]]
 
 ## 7.1 Value types
 
@@ -851,7 +851,7 @@ StartingARR
 
 ---
 
-# 11. TSS/TPE VALIDATION ARCHITECTURE
+# 11. TSS/TPE [[VALIDATION]] [[ARCHITECTURE]]
 
 This is one of the most important commercial components because high-value claims create both upside and reputational risk.
 
@@ -1007,7 +1007,7 @@ promotion_requirement:
 
 ---
 
-# 14. MARKET EVIDENCE ARCHITECTURE
+# 14. MARKET EVIDENCE [[ARCHITECTURE]]
 
 ## 14.1 Evidence levels
 
@@ -1062,7 +1062,7 @@ But stage probability must be learned from actual conversion history.
 
 ---
 
-# 16. PRICING ARCHITECTURE
+# 16. PRICING [[ARCHITECTURE]]
 
 ## 16.1 Three price tests
 
@@ -1208,7 +1208,7 @@ GrossProfit_t
 
 ---
 
-# 19. VALUE POOL ARCHITECTURE
+# 19. VALUE POOL [[ARCHITECTURE]]
 
 Potential value pools:
 
@@ -1244,7 +1244,7 @@ EvidenceGain
 
 ---
 
-# 20. PRODUCT ROADMAP ARCHITECTURE
+# 20. PRODUCT [[ROADMAP]] [[ARCHITECTURE]]
 
 ## Phase 0 — No product
 Manual / advisory evidence.
@@ -1338,7 +1338,7 @@ AgentProposal != DurableCommit
 
 ---
 
-# 23. SKILL CONTRACT
+# 23. [[SKILL]] CONTRACT
 
 ```text
 SkillContract = {
@@ -1444,7 +1444,7 @@ because it preserves option value while generating evidence and cash.
 
 ---
 
-# 27. IP ARCHITECTURE
+# 27. IP [[ARCHITECTURE]]
 
 ## Layers
 
@@ -1467,7 +1467,7 @@ External research cannot become proprietary canon merely through ingestion.
 
 ---
 
-# 28. PROVENANCE ARCHITECTURE
+# 28. PROVENANCE [[ARCHITECTURE]]
 
 Every commercial output should trace:
 
@@ -1501,7 +1501,7 @@ Provenance = {
 
 ---
 
-# 29. TRUST ARCHITECTURE
+# 29. TRUST [[ARCHITECTURE]]
 
 Trust dimensions:
 
@@ -1533,7 +1533,7 @@ Multiplicative form reflects that severe failure in one dimension may dominate.
 
 ---
 
-# 30. SECURITY ARCHITECTURE
+# 30. SECURITY [[ARCHITECTURE]]
 
 Threat classes:
 
@@ -1563,7 +1563,7 @@ Threat classes:
 
 ---
 
-# 31. LEGAL / REGULATORY ARCHITECTURE
+# 31. LEGAL / REGULATORY [[ARCHITECTURE]]
 
 For every deployment:
 
@@ -1603,7 +1603,7 @@ Sell bounded decision support.
 
 ---
 
-# 33. FUTURE-DEBT ARCHITECTURE
+# 33. FUTURE-DEBT [[ARCHITECTURE]]
 
 ```text
 FutureDebt =
@@ -1692,7 +1692,7 @@ Scale based on evidence.
 
 ---
 
-# 36. TALENT ARCHITECTURE
+# 36. TALENT [[ARCHITECTURE]]
 
 Hire only when a role removes a proven bottleneck.
 
@@ -1747,7 +1747,7 @@ CustomerValueRecord = {
 
 ---
 
-# 39. BENCHMARK ARCHITECTURE
+# 39. BENCHMARK [[ARCHITECTURE]]
 
 For high claims, compare AMOS to:
 
@@ -1788,7 +1788,7 @@ Do Ω/H/F/S and C1–C7 add value beyond simpler models?
 
 ---
 
-# 41. ABLATION ARCHITECTURE
+# 41. ABLATION [[ARCHITECTURE]]
 
 Test:
 
@@ -1959,7 +1959,7 @@ Avoid false precision.
 
 ---
 
-# 49. EARLY-WARNING ARCHITECTURE
+# 49. EARLY-WARNING [[ARCHITECTURE]]
 
 If TSS/TPE supports risk warning, define:
 
@@ -1979,7 +1979,7 @@ Warning = {
 
 ---
 
-# 50. DECISION TRIGGER ARCHITECTURE
+# 50. DECISION TRIGGER [[ARCHITECTURE]]
 
 Example:
 
@@ -1996,7 +1996,7 @@ NOT
 
 ---
 
-# 51. INTERVENTION ARCHITECTURE
+# 51. INTERVENTION [[ARCHITECTURE]]
 
 Every intervention requires:
 
@@ -2011,7 +2011,7 @@ Every intervention requires:
 
 ---
 
-# 52. COMMERCIAL BRAND ARCHITECTURE
+# 52. COMMERCIAL BRAND [[ARCHITECTURE]]
 
 Recommended positioning:
 
@@ -2082,7 +2082,7 @@ OutcomeGain
 
 ---
 
-# 56. MOAT ARCHITECTURE
+# 56. MOAT [[ARCHITECTURE]]
 
 Potential moat layers:
 
@@ -2114,7 +2114,7 @@ OriginalIP
 
 ---
 
-# 58. FAILURE MEMORY
+# 58. FAILURE [[MEMORY]]
 
 Every failed commercial hypothesis enters persistent memory.
 
@@ -2269,7 +2269,7 @@ Every model must have:
 
 ---
 
-# 66. DATA ARCHITECTURE
+# 66. DATA [[ARCHITECTURE]]
 
 Data classes:
 
@@ -2334,7 +2334,7 @@ Track:
 
 ---
 
-# 70. RELIABILITY ARCHITECTURE
+# 70. RELIABILITY [[ARCHITECTURE]]
 
 SLO examples:
 
@@ -2365,7 +2365,7 @@ Detect
 
 ---
 
-# 72. CUSTOMER PROCUREMENT ARCHITECTURE
+# 72. CUSTOMER PROCUREMENT [[ARCHITECTURE]]
 
 Enterprise sale requires:
 
@@ -2397,7 +2397,7 @@ Possible blockers:
 
 ---
 
-# 74. STRATEGIC PARTNERSHIP ARCHITECTURE
+# 74. STRATEGIC PARTNERSHIP [[ARCHITECTURE]]
 
 Partner categories:
 
@@ -2429,7 +2429,7 @@ Only after core product reliability.
 
 ---
 
-# 76. CERTIFICATION ARCHITECTURE
+# 76. CERTIFICATION [[ARCHITECTURE]]
 
 Do not claim “certified” without external authority.
 
@@ -2443,7 +2443,7 @@ It must not be confused with regulator or standards certification.
 
 ---
 
-# 77. REPUTATION ARCHITECTURE
+# 77. REPUTATION [[ARCHITECTURE]]
 
 Reputation is especially sensitive to strong prediction claims.
 
@@ -2935,7 +2935,7 @@ Choose one expensive decision problem
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -68,21 +68,21 @@ epistemic_boundary:
 ```text
   Incoming Cognitive Task / Query
      │
-  ├── Reality / Ground State ──────> [[TRANG_REALITY_ARCHITECTURE]] & [[TRANG_ZERO_FRAMEWORK]]
-  ├── Biological Alignment ────────> [[UNIFIED_BIOLOGICAL_INTELLIGENCE]] & [[AMOS_UBI_SUPER_ENGINE]]
-  ├── Structural Foresight ────────> [[TSS_THE_TRANG_SYSTEM]] & [[TPE_TRANG_PREDICTION_ENGINE]]
-  ├── Deterministic Logic ─────────> [[LDAI_LOGICALLY_DETERMINISTIC_AI]] & [[DOMAIN_CANON_PROGRAMMING]]
-  ├── Fractal Multi-Scale Search ──> [[FRAI_FRACTAL_REASONING_AI]] & [[TRANG_LACUNARITY]]
-  └── Heritage Decision Intel ─────> [[HERITAGE_INTELLIGENCE_MASTER]] & [[HERITAGE_HANDBOOK]]
+  ├── Reality / Ground State ──────>  & 
+  ├── Biological Alignment ────────>  & 
+  ├── Structural Foresight ────────>  & 
+  ├── Deterministic Logic ─────────>  & 
+  ├── Fractal Multi-Scale Search ──>  & 
+  └── Heritage Decision Intel ─────>  & 
 ```
 
 ---
 
 # 2. Inter-Plane & Vault Connections
 
-- **Router MOC:** 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
-- **Frameworks MOC:** 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
-- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX
+- **Router MOC:** 04_RUNTIME/02_ROUTER/[[02_ROUTER_MOC]]
+- **Frameworks MOC:** 11_KNOWLEDGE/05_FRAMEWORKS/[[05_FRAMEWORKS_MOC]]
+- **Cognitive Matrix:** 25_COGNITIVE_MATRIX/[[TOTAL_FRAMEWORK_MATRIX]]
 
 ---
 
@@ -106,7 +106,7 @@ RSCF:
 
 ---
 
-**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/02_ROUTER/02_ROUTER_MOC · 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
+**Related:** [[00_HOME]] · [[04_RUNTIME_MOC]] · 04_RUNTIME/02_ROUTER/[[02_ROUTER_MOC]] · 11_KNOWLEDGE/05_FRAMEWORKS/[[05_FRAMEWORKS_MOC]]
 
 ---
-**MOC:** 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+**MOC:** 04_RUNTIME/02_ROUTER/[[02_ROUTER_MOC]]

@@ -204,9 +204,9 @@ Information operator engine is an AMOS_MODEL. It does not prove all information 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-information-operator-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-information-theory-master` — parent skill
-- `[[amos-information-operator-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-information-operator-engine-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Information operator engine is an AMOS_MODEL. It does not prove all information 
 RSCF-NODE
 node_id: amos-information-operator-engine
 node_type: skill
-path: 07_SKILLS/amos-information-operator-engine/SKILL.md
+path: 07_SKILLS/amos-information-operator-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

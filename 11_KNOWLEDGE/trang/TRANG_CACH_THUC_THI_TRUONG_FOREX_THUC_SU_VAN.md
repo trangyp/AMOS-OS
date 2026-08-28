@@ -953,7 +953,7 @@ Trong thị trường tài chính:
 * * *
 # PHẦN II: THE TRANG ∅ FRAMEWORK
 * * *
-# CHƯƠNG 4: THE [L, M, H] ARCHITECTURE
+# CHƯƠNG 4: THE [L, M, H] [[ARCHITECTURE]]
 ## Ba tầng của thị trường – Nền tảng, Kết nối, Đỉnh
 * * *
 ### 4.1 Khám phá cấu trúc ba tầng
@@ -3592,7 +3592,7 @@ Không phải vì họ không đủ thông minh. Mà vì họ không nhìn thị
 ## Xây dựng đế chế bot tự động – từ 1 bot đến 10,000 bot, từ 0 đến 1 triệu đô la mỗi năm
 Phần này là bản thiết kế chi tiết để bạn xây dựng một đế chế giao dịch tự động hoàn chỉnh. Không cần đội ngũ. Không cần văn phòng. Chỉ cần bạn, code, và 100 VPS. Từ một bot demo đơn giản, bạn sẽ leo lên đến 10,000 bot hoạt động đồng thời trên mọi thị trường, mọi khung thời gian, mọi chiến thuật. Doanh thu mục tiêu: 1 triệu đô la mỗi năm.
 * * *
-## CHƯƠNG 19: ONE PERSON, 1000 AGENTS
+## CHƯƠNG 19: ONE PERSON, 1000 [[AGENTS]]
 ### Mở đầu: Một mình bạn chống lại cả phố Wall
 Bạn không cần đội ngũ 100 người. Bạn không cần văn phòng tại New York hay London. Bạn không cần bằng cấp từ Harvard hay MIT. Bạn chỉ cần một kiến trúc đúng đắn và một đội quân bot tự động.
 Trong chương này, tôi sẽ chỉ cho bạn kiến trúc của một đế chế giao dịch mà một người có thể xây dựng và vận hành. Kiến trúc này có 6 cấp độ bot, mỗi cấp độ có vai trò riêng, từ những bot thợ đơn giản đến những bot chỉ huy thông minh.
@@ -4117,7 +4117,7 @@ Ví dụ template:
 ```
 Infinite Recursion Engine sẽ điền các placeholder {BOT_NAME}, {STRATEGY_TYPE}, {ENTRY_LOGIC}, v.v. và sinh ra file Python hoàn chỉnh.
 * * *
-## CHƯƠNG 22: DISTRIBUTED ARCHITECTURE
+## CHƯƠNG 22: DISTRIBUTED [[ARCHITECTURE]]
 ### Mở đầu: Chạy 10,000 bot trên 100 VPS
 Một VPS không thể chạy 10,000 bot. Bạn cần một kiến trúc phân tán. Chương này hướng dẫn bạn xây dựng hệ thống với 100 VPS, mỗi VPS chạy 100 bot, tất cả được điều phối bởi một trung tâm.
 ### 22.1 Kiến trúc tổng thể

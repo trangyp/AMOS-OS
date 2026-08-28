@@ -118,7 +118,7 @@ From md/Core/AMOS_Kernel_Routing_Workflow.md:
 
 | Kernel ID | Name | Priority | Required | Domains |
 |-----------|------|----------|----------|---------|
-| K_META_LOGIC | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning |
+| [[K_META_LOGIC]] | Meta Logic & Law Kernel | 10 | Yes | logic, law_of_law, reasoning |
 | K_MATH_COMPUTE | Math & Computation Kernel | 9 | Yes | math, compute, optimization |
 | K_BIO_NEURO | Biology & Neuro Kernel | 9 | Yes | ubi, biology, nervous_system |
 | K_MIND_BEHAVIOR | Mind, Emotion & Behaviour Kernel | 8 | Yes | psychology, emotion, behaviour |
@@ -131,17 +131,17 @@ From md/Core/AMOS_Kernel_Routing_Workflow.md:
 
 | Route | Match Tags | Kernels Activated |
 |-------|------------|-------------------|
-| ROUTE_EV | ev, charging, station, driver, fleet | K_META_LOGIC, K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
-| ROUTE_TECH | software, ai, architecture, system_design | K_META_LOGIC, K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
-| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | K_META_LOGIC, K_BIO_NEURO, K_MIND_BEHAVIOR |
-| ROUTE_DEFAULT | * (all) | K_META_LOGIC, K_MATH_COMPUTE, K_BIO_NEURO |
+| ROUTE_EV | ev, charging, station, driver, fleet | [[K_META_LOGIC]], K_MATH_COMPUTE, K_EV_INFRA, K_UNIPOWER_OPS |
+| ROUTE_TECH | software, ai, architecture, system_design | [[K_META_LOGIC]], K_MATH_COMPUTE, K_TECH_ENGINE, K_UNIPOWER_TECH |
+| ROUTE_PSYCH | emotion, behaviour, psychology, ubi | [[K_META_LOGIC]], K_BIO_NEURO, K_MIND_BEHAVIOR |
+| ROUTE_DEFAULT | * (all) | [[K_META_LOGIC]], K_MATH_COMPUTE, K_BIO_NEURO |
 
 ## Proposed Future Skills
 
 These skills would extend coverage to domains currently served only by brain kernels:
 
 ### Reasoning Extensions
-1. **amos-multi-perspective** — Multi-perspective reasoning, bias detection, viewpoint comparison (K_META_LOGIC + K_MIND_BEHAVIOR)
+1. **amos-multi-perspective** — Multi-perspective reasoning, bias detection, viewpoint comparison ([[K_META_LOGIC]] + K_MIND_BEHAVIOR)
 2. **amos-counterfactual** — Counterfactual reasoning, what-if
 
 ---
@@ -168,7 +168,7 @@ Use this workflow to create new AMOS skills that extend the brain's capabilities
    - `communication/` — amos-expression-overlay
 
 2. Check the brain's kernel registry (md/Core/AMOS_Kernel_Routing_Workflow.md):
-   - K_META_LOGIC — logic, law_of_law, reasoning
+   - [[K_META_LOGIC]] — logic, law_of_law, reasoning
 - K_MATH_COMPUTE — math, compute, optimization
    - K_BIO_NEURO — ubi, biology, nervous_system
 - K_MIND_BEHAVIOR — psychology, emotion, behaviour

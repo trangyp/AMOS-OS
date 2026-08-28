@@ -45,7 +45,7 @@ The AMOS vault is already a structured knowledge base. This schema adds a dedica
 ## Conventions
 
 - Use the standard AMOS YAML frontmatter: `title`, `type`, `source`, `tags`, `rscf`.
-- Use Obsidian wikilinks (`[[...]]`) for cross-references.
+- Use Obsidian wikilinks (``) for cross-references.
 - One concept per page. Keep pages focused enough to link.
 - Raw-source pages use `rscf.state: SOURCE_CLAIM` and `rscf.claim_class: SOURCE_CLAIM`.
 - Synthesized/derived pages use `rscf.state: DERIVED` and `rscf.claim_class: AMOS_MODEL`.
@@ -58,11 +58,11 @@ The AMOS vault is already a structured knowledge base. This schema adds a dedica
 1. Place or clip the source into `11_KNOWLEDGE/LLM_WIKI/raw/`.
 2. Create or update a source-summary page in `11_KNOWLEDGE/LLM_WIKI/wiki/`.
 3. Update relevant entity, concept, and synthesis pages.
-4. Update `[[LLM_WIKI_INDEX]]`.
-5. Append an entry to `[[LLM_WIKI_LOG]]`.
+4. Update ``.
+5. Append an entry to ``.
 
 ### Query
-1. Read `[[LLM_WIKI_INDEX]]` to find relevant pages.
+1. Read `` to find relevant pages.
 2. Read those pages and synthesize an answer with citations.
 3. If the answer has lasting value, file it back as a new wiki page and update the index/log.
 
@@ -70,7 +70,7 @@ The AMOS vault is already a structured knowledge base. This schema adds a dedica
 1. Scan for orphan pages, broken wikilinks, and missing concept pages.
 2. Flag contradictions between pages and stale claims that newer sources have superseded.
 3. Suggest new questions or sources to close gaps.
-4. Append findings to `[[LLM_WIKI_LOG]]`.
+4. Append findings to ``.
 
 ## Special files
 

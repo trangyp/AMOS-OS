@@ -81,7 +81,7 @@ NATIVE SOURCE CONTENT
     =
 NOT RETRIEVED IN CURRENT PASS
 
-SUBSTANTIVE CANON
+SUBSTANTIVE [[CANON]]
     =
 PENDING SOURCE INGESTION
 
@@ -123,7 +123,7 @@ SOURCE CLAIM
 !=
 VERIFIED
 
-CANON CANDIDATE
+[[CANON]] CANDIDATE
 !=
 EMPIRICAL TRUTH
 
@@ -412,11 +412,11 @@ NATIVE SOURCE
      │      ↓
      │   EQUATION
      │
-     └── ARCHITECTURE
+     └── [[ARCHITECTURE]]
             ↓
         SUBSYSTEM MODEL
             ↓
-        CANON NODE
+        [[CANON]] NODE
 ```
 
 Every derived node SHOULD retain ancestry to the originating source fragment.
@@ -1001,7 +1001,7 @@ CANONICAL STATUS
         =
 UNKNOWN/GAP
 
-EMPIRICAL VALIDATION
+EMPIRICAL [[VALIDATION]]
         =
 NOT ESTABLISHED
 
@@ -1034,11 +1034,11 @@ $$
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[KERNEL_README]] · [[CONTROL_PLANE_README]] · [[OBSERVABILITY_README]] · [[OPERATIONS_README]]
+**Related:**  ·  ·  ·  ·  ·  · 
 
 ---
 
-**MOC:** [[02_UNIVERSE_CANON_MOC]]
+**MOC:** 
 
 ```
 

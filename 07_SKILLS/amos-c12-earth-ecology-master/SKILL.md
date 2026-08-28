@@ -327,7 +327,7 @@ Climate sensitivity and tipping points are MODEL_PROJECTIONS, not established ob
 
 ## Composition
 
-- **Parent**: `[[none]]` — routes to this skill when c12 specialization is needed
+- **Parent**: `` — routes to this skill when c12 specialization is needed
 - **Peers**: Other skills in the `c12` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -397,10 +397,10 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 - `references/vn_ev_china_market_analysis.md` — loaded on demand
 - `references/vn_ev_china_trend_strategy.md` — loaded on demand
 - `references/vn_ev_unitax_100_vehicles.md` — loaded on demand
-- `[[amos-c12-earth-ecology-master_MOC]]` — skill Map of Content
-- `[[none]]` — parent skill
-- `[[amos-c12-earth-ecology-master-workflow]]` — corresponding workflow
-- `[[amos-c12-earth-ecology-master-agent]]` — corresponding agent
+- `` — skill Map of Content
+- `` — parent skill
+- `` — corresponding workflow
+- `` — corresponding agent
 
 
 ## Do not use

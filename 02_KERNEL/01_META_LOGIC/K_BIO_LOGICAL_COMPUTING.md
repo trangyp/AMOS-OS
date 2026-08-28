@@ -819,7 +819,7 @@ Do not assume independence from:
 * multiple summaries of one study;
 * mirrored datasets;
 * multiple AMOS derivatives from one master artifact;
-* repeated README claims;
+* repeated [[README]] claims;
 * generated summaries;
 * or duplicated corpus entries.
 
@@ -2253,7 +2253,7 @@ LOGGED
 APPROVED
 ```
 
-`[[OBSERVABILITY_README]]` may observe runtime behavior but cannot grant authority merely by recording it.
+`` may observe runtime behavior but cannot grant authority merely by recording it.
 
 ---
 
@@ -2478,8 +2478,8 @@ Required:
 Target references:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+
 ```
 
 Their textual presence does not establish that the receipts exist or pass.
@@ -2571,7 +2571,7 @@ I22: Canonical status never automatically establishes empirical truth.
 # 90. Kernel Interaction
 
 ```text
-[[KERNEL_README]]
+
        ↓
 K_BIO_LOGICAL_COMPUTING
 ```
@@ -2585,7 +2585,7 @@ It is not the entirety of AMOS Kernel semantics.
 # 91. Law Hierarchy
 
 ```text
-[[LAW_HIERARCHY]]
+
        ↓ GOVERNED_BY
 K_BIO_LOGICAL_COMPUTING
 ```
@@ -2609,7 +2609,7 @@ BIO-LOGICAL COMPUTING
         ↓
 candidate reasoning/state
         ↓
-[[CONTROL_PLANE_README]]
+
         ↓
 authority + transaction gates
 ```
@@ -2625,7 +2625,7 @@ K_BIO_LOGICAL_COMPUTING
         ↓
 events / state / receipts
         ↓
-[[OBSERVABILITY_README]]
+
 ```
 
 Observability remains non-authoritative.
@@ -2637,7 +2637,7 @@ Observability remains non-authoritative.
 ```text
 failure
   ↓
-[[OPERATIONS_README]]
+
   ↓
 repair / rollback / recovery
 ```
@@ -3575,17 +3575,17 @@ RSCF-RELATIONS:
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
-  - KERNEL_INTERACTION: [[KERNEL_README]]
+  - KERNEL_INTERACTION: 
 
-  - EFFECTS_GATED_BY: [[CONTROL_PLANE_README]]
+  - EFFECTS_GATED_BY: 
 
   - OBSERVED_BY: [[OBSERVABILITY_README]]
 
   - RECOVERED_VIA: [[OPERATIONS_README]]
 
-  - VALIDATION_TARGET: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+  - VALIDATION_TARGET: 
 
-  - VALIDATION_TARGET: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+  - VALIDATION_TARGET: 
 ```
 
 ---

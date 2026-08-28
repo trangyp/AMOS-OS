@@ -204,9 +204,9 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-cross-species-cognition-mapper_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c04-bio-neuro-master` — parent skill
-- `[[amos-cross-species-cognition-mapper-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-cross-species-cognition-mapper-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Cross-species cognition mapping is an analytical model. It does not prove cognit
 RSCF-NODE
 node_id: amos-cross-species-cognition-mapper
 node_type: skill
-path: 07_SKILLS/amos-cross-species-cognition-mapper/SKILL.md
+path: 07_SKILLS/amos-cross-species-cognition-mapper/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

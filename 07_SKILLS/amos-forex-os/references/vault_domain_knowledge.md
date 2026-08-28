@@ -257,11 +257,11 @@ def test_ukr_pipeline():
     state = UKRState(instrument="EUR_USD"
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

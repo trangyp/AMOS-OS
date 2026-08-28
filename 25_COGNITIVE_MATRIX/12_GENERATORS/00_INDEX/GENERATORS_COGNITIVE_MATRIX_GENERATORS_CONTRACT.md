@@ -218,7 +218,7 @@ unless the relevant semantic equivalence has been demonstrated.
 
 # 7. Generator Registry
 
-GENERATOR_REGISTRY is the canonical registry surface for governed generators.
+[[GENERATOR_REGISTRY]] is the canonical registry surface for governed generators.
 
 A registry entry SHOULD include, where available:
 
@@ -255,7 +255,7 @@ REGISTERED ≠ CANONICAL
 
 # 8. Generator Admission
 
-GENERATOR_ADMISSION governs whether a generator may enter a governed execution path.
+[[GENERATOR_ADMISSION]] governs whether a generator may enter a governed execution path.
 
 Admission SHOULD verify:
 
@@ -307,7 +307,7 @@ Consequential effects require separately valid authority.
 
 # 10. Generator Seed
 
-GENERATOR_SEED defines the initial governed input state from which generation proceeds.
+[[GENERATOR_SEED]] defines the initial governed input state from which generation proceeds.
 
 A seed SHOULD preserve:
 
@@ -370,7 +370,7 @@ unless stronger applicable canon explicitly provides otherwise.
 
 # 12. Generator Templates
 
-GENERATOR_TEMPLATES defines reusable structures controlling output shape.
+[[GENERATOR_TEMPLATES]] defines reusable structures controlling output shape.
 
 A template SHOULD declare:
 
@@ -442,7 +442,7 @@ The generator MUST NOT erase distinctions between these classes when producing o
 
 # 15. Typed Outputs
 
-GENERATOR_OUTPUT governs generated artifacts.
+[[GENERATOR_OUTPUT]] governs generated artifacts.
 
 A generated output SHOULD carry:
 
@@ -499,7 +499,7 @@ It does not prove:
 
 # 17. Provenance
 
-GENERATORS_PROVENANCE governs generator lineage.
+[[GENERATORS_PROVENANCE]] governs generator lineage.
 
 Every consequential generated output SHOULD preserve enough information to reconstruct:
 
@@ -784,7 +784,7 @@ rather than forcing convergence.
 
 # 31. Generator Falsification
 
-GENERATOR_FALSIFICATION governs attempts to invalidate generated claims or generator behavior.
+[[GENERATOR_FALSIFICATION]] governs attempts to invalidate generated claims or generator behavior.
 
 Falsification SHOULD seek:
 
@@ -840,7 +840,7 @@ as appropriate.
 
 # 33. Generator Validation
 
-GENERATOR_VALIDATION governs validation of generated outputs and generator implementations.
+[[GENERATOR_VALIDATION]] governs validation of generated outputs and generator implementations.
 
 Validation MAY occur at multiple layers:
 
@@ -875,7 +875,7 @@ $$TestPass(G) \not\Rightarrow UniversalValidity(G)$$
 
 # 35. Generator Tests
 
-GENERATOR_TESTS SHOULD contain both positive and negative paths.
+[[GENERATOR_TESTS]] SHOULD contain both positive and negative paths.
 
 Negative cases SHOULD include, where applicable:
 
@@ -998,7 +998,7 @@ A single output MUST NOT be represented as the uniquely necessary output of a no
 
 # 40. Generator Promotion
 
-GENERATOR_PROMOTION governs movement from candidate output toward an authoritative artifact state.
+[[GENERATOR_PROMOTION]] governs movement from candidate output toward an authoritative artifact state.
 
 Promotion requires more than generation.
 
@@ -1140,7 +1140,7 @@ PROMOTE
 
 # 44. Generator Supersession
 
-GENERATOR_SUPERSESSION governs replacement of generators or generated artifacts.
+[[GENERATOR_SUPERSESSION]] governs replacement of generators or generated artifacts.
 
 Supersession SHOULD preserve:
 
@@ -1511,7 +1511,7 @@ Existing executed OS validators include:
 
 ### Routing policy
 
-ROUTING_POLICY_VALIDATION_RECEIPT
+[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
 Recorded result:
 
@@ -1526,7 +1526,7 @@ It is **pattern evidence only** for this generator contract.
 
 ### Authorization invariant engine
 
-AUTHZ_ENGINE_VALIDATION_RECEIPT
+[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 Recorded result:
 
@@ -1540,7 +1540,7 @@ It is not direct validation of this contract.
 
 ### L00 Reality Environment
 
-L00_REALITY_VALIDATION_RECEIPT
+[[L00_REALITY_VALIDATION_RECEIPT]]
 
 Recorded result:
 
@@ -1864,7 +1864,7 @@ Invalidate affected descendants only and preserve unrelated valid state.
 
 Generator behavior is bounded by the broader Cognitive Matrix validation contract:
 
-COGNITIVE_MATRIX_VALIDATION_CONTRACT
+[[COGNITIVE_MATRIX_VALIDATION_CONTRACT]]
 
 The relationship is:
 
@@ -1898,7 +1898,7 @@ Likewise, valid output does not prove that routing authority was valid.
 
 Related:
 
-ROUTING_POLICY_VALIDATION_RECEIPT
+[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
 ---
 
@@ -1906,7 +1906,7 @@ ROUTING_POLICY_VALIDATION_RECEIPT
 
 Generator validation MUST follow:
 
-COGNITIVE_MATRIX_VALIDATION_CONTRACT
+[[COGNITIVE_MATRIX_VALIDATION_CONTRACT]]
 
 where applicable.
 
@@ -1936,7 +1936,7 @@ AUTHORIZED GENERATION
 
 Related:
 
-OBSERVABILITY_README
+[[OBSERVABILITY_README]]
 
 ---
 
@@ -1954,7 +1954,7 @@ Generators MUST NOT bypass these gates merely because they possess the technical
 
 Related:
 
-CONTROL_PLANE_README
+[[CONTROL_PLANE_README]]
 
 ---
 
@@ -1978,7 +1978,7 @@ Removing these qualifiers changes the semantics of the artifact.
 
 Related:
 
-KERNEL_README
+[[KERNEL_README]]
 
 ---
 
@@ -1990,7 +1990,7 @@ Generator failures SHOULD recover through the smallest affected dependency basin
 
 Related:
 
-OPERATIONS_README
+[[OPERATIONS_README]]
 
 ---
 
@@ -2145,40 +2145,40 @@ No stronger claim is licensed by the supplied evidence.
 
 ## Cross-plane bindings
 
-* Governed by canon — AMOS Core Laws · LAW_HIERARCHY
-* Validation — COGNITIVE_MATRIX_VALIDATION_CONTRACT
-* Kernel interaction — KERNEL_README
-* Control-plane gates — CONTROL_PLANE_README
-* Observed by — OBSERVABILITY_README · never treated as authority
-* Recovered via operations — OPERATIONS_README
-* Promotion governance — PROMOTION_GATES
-* Binding governance — BINDING_RULES
+* Governed by canon — AMOS Core Laws · [[LAW_HIERARCHY]]
+* Validation — [[COGNITIVE_MATRIX_VALIDATION_CONTRACT]]
+* Kernel interaction — [[KERNEL_README]]
+* Control-plane gates — [[CONTROL_PLANE_README]]
+* Observed by — [[OBSERVABILITY_README]] · never treated as authority
+* Recovered via operations — [[OPERATIONS_README]]
+* Promotion governance — [[PROMOTION_GATES]]
+* Binding governance — [[BINDING_RULES]]
 
 ---
 
 ## Generator subsystem bindings
 
-* GENERATORS_MAP
-* GENERATOR_ADMISSION
-* GENERATOR_CONTRACT
-* GENERATOR_SEED
-* GENERATOR_TEMPLATES
-* GENERATOR_REGISTRY
-* GENERATOR_OUTPUT
-* GENERATOR_TESTS
-* GENERATOR_VALIDATION
-* GENERATOR_FALSIFICATION
-* GENERATOR_PROMOTION
-* GENERATOR_SUPERSESSION
-* GENERATORS_PROVENANCE
-* GENERATORS_VERSIONING
-* GENERATORS_CHANGE_LOG
-* GENERATORS_HISTORY
-* GENERATORS_ROADMAP
+* [[GENERATORS_MAP]]
+* [[GENERATOR_ADMISSION]]
+* [[GENERATOR_CONTRACT]]
+* [[GENERATOR_SEED]]
+* [[GENERATOR_TEMPLATES]]
+* [[GENERATOR_REGISTRY]]
+* [[GENERATOR_OUTPUT]]
+* [[GENERATOR_TESTS]]
+* [[GENERATOR_VALIDATION]]
+* [[GENERATOR_FALSIFICATION]]
+* [[GENERATOR_PROMOTION]]
+* [[GENERATOR_SUPERSESSION]]
+* [[GENERATORS_PROVENANCE]]
+* [[GENERATORS_VERSIONING]]
+* [[GENERATORS_CHANGE_LOG]]
+* [[GENERATORS_HISTORY]]
+* [[GENERATORS_ROADMAP]]
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -2208,61 +2208,61 @@ RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: 00_ROOT_MOC|AMOS MOC
+* INDEXED_BY: [[00_ROOT_MOC]]|[[AMOS MOC]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: GENERATORS_MAP
+* PART_OF: [[GENERATORS_MAP]]
 
-* PART_OF: COGNITIVE_MATRIX_MOC
+* PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
-* GOVERNED_BY: LAW_HIERARCHY
+* GOVERNED_BY: [[LAW_HIERARCHY]]
 
-* GOVERNED_BY: COGNITIVE_MATRIX_VALIDATION_CONTRACT
+* GOVERNED_BY: [[COGNITIVE_MATRIX_VALIDATION_CONTRACT]]
 
-* GOVERNED_BY: PROMOTION_GATES
+* GOVERNED_BY: [[PROMOTION_GATES]]
 
-* GOVERNED_BY: BINDING_RULES
+* GOVERNED_BY: [[BINDING_RULES]]
 
-* GOVERNS: GENERATOR_ADMISSION
+* GOVERNS: [[GENERATOR_ADMISSION]]
 
-* GOVERNS: GENERATOR_CONTRACT
+* GOVERNS: [[GENERATOR_CONTRACT]]
 
-* GOVERNS: GENERATOR_SEED
+* GOVERNS: [[GENERATOR_SEED]]
 
-* GOVERNS: GENERATOR_TEMPLATES
+* GOVERNS: [[GENERATOR_TEMPLATES]]
 
-* GOVERNS: GENERATOR_REGISTRY
+* GOVERNS: [[GENERATOR_REGISTRY]]
 
-* GOVERNS: GENERATOR_OUTPUT
+* GOVERNS: [[GENERATOR_OUTPUT]]
 
-* GOVERNS: GENERATOR_TESTS
+* GOVERNS: [[GENERATOR_TESTS]]
 
-* GOVERNS: GENERATOR_VALIDATION
+* GOVERNS: [[GENERATOR_VALIDATION]]
 
-* GOVERNS: GENERATOR_FALSIFICATION
+* GOVERNS: [[GENERATOR_FALSIFICATION]]
 
-* GOVERNS: GENERATOR_PROMOTION
+* GOVERNS: [[GENERATOR_PROMOTION]]
 
-* GOVERNS: GENERATOR_SUPERSESSION
+* GOVERNS: [[GENERATOR_SUPERSESSION]]
 
-* GOVERNS: GENERATORS_PROVENANCE
+* GOVERNS: [[GENERATORS_PROVENANCE]]
 
-* GOVERNS: GENERATORS_VERSIONING
+* GOVERNS: [[GENERATORS_VERSIONING]]
 
-* VALIDATION_PATTERN_FROM: ROUTING_POLICY_VALIDATION_RECEIPT
+* VALIDATION_PATTERN_FROM: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* VALIDATION_PATTERN_FROM: AUTHZ_ENGINE_VALIDATION_RECEIPT
+* VALIDATION_PATTERN_FROM: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-* VALIDATION_PATTERN_FROM: L00_REALITY_VALIDATION_RECEIPT
+* VALIDATION_PATTERN_FROM: [[L00_REALITY_VALIDATION_RECEIPT]]
 
-* INTERACTS_WITH: KERNEL_README
+* INTERACTS_WITH: [[KERNEL_README]]
 
-* INTERACTS_WITH: CONTROL_PLANE_README
+* INTERACTS_WITH: [[CONTROL_PLANE_README]]
 
-* OBSERVED_BY: OBSERVABILITY_README
+* OBSERVED_BY: [[OBSERVABILITY_README]]
 
-* RECOVERED_VIA: OPERATIONS_README
+* RECOVERED_VIA: [[OPERATIONS_README]]
 
 validation_state: SPECIFICATION_ONLY
 

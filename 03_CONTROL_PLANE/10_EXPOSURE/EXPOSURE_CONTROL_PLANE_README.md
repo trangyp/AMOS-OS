@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# EXPOSURE CONTROL PLANE README
+# EXPOSURE CONTROL PLANE [[README]]
 
 ## Purpose
 `EXPOSURE CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/10_EXPOSURE`.

@@ -40,7 +40,7 @@ rscf:
 - Python: MURK comprehensive 110/110, Go Board 190/190, Go Board self-test 226/226, MURK engine 10/10, MURK brain integration 9/9, brain determinism 9/9.
    - **Total verified passing tests: ~1,693** (TS 1,139 + Py ~554).
 3. Inspected `core/` TS runtime: typed `MemoryClass` + `RetentionPolicy`, `core/orchestration/pipeline.ts` (659 lines), `core/reasoning/meta-logic.ts` (407 lines), `governance/{provenance,consent,ethics,safety,audit,claims,privacy,uncertainty,scientific-claims,consent-tokens}/` (10 modules, 1,091 lines).
-4. Inspected `AMOS_MD_BRAIN_FULL_INFRA/brain/{20_state,30_epistemics,40_runtime,50_governance,60_execution}/` — these are **markdown specs** (V3.0…V4.4 runtime versions, GMEF, AUTHORITY_GOVERNOR, REPAIR_ROLLBACK, PROVENANCE_TOPOLOGY, RSCF_PROOF_CAPSULE, etc.), not executable code.
+4. Inspected `AMOS_MD_BRAIN_FULL_INFRA/brain/{20_state,30_epistemics,40_runtime,50_governance,60_execution}/` — these are **markdown specs** (V3.0…V4.4 runtime versions, GMEF, AUTHORITY_GOVERNOR, REPAIR_ROLLBACK, PROVENANCE_TOPOLOGY, [[RSCF_PROOF_CAPSULE]], etc.), not executable code.
 
 ## Decisive finding: two parallel brains, not one
 

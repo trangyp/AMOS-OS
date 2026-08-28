@@ -168,7 +168,7 @@ Specialises in: AI augmentation, BCI, robotics integration, digital transformati
 
 ## Floating Economy Research
 Key insight: Value comes from **maintaining optimal states** (continuity economics), not task completion. The floating economy operates through:
-- **RATPAK**: Real-time sensor fusion, predictive intervention
+- **[[RATPAK]]**: Real-time sensor fusion, predictive intervention
 - **NEUROPAK**: BCI for subconscious pattern recognition
 - **MyNeuralSignal**: Cognitive guardian monitoring load/drift
 - **AHC**: Just-in-time training for human-AI collaboration

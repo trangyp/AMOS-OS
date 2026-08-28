@@ -46,7 +46,7 @@ Index of Obsidian note and automation templates used by the AMOS vault.
 
 - [[00_HOME]] — universal vault hub
 - [[00_ROOT_MOC]] — AMOS OS master map
-- 00_COSMO_BRAIN_MOC|00 Cosmo Brain MOC — Cosmo Brain root stub
+- [[00_COSMO_BRAIN_MOC]]|00 Cosmo Brain MOC — Cosmo Brain root stub
 - [[AMOS_LAYER_MAPS]] — top-level layer map index
 - [[AMOS_OBSIDIAN_LINKING_PLUGINS]] — Obsidian linking plugin stack
 

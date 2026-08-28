@@ -31,7 +31,7 @@ tags: [specs]
 
 ---
 
-## ENTERPRISE DEPLOYMENT ARCHITECTURE
+## ENTERPRISE DEPLOYMENT [[ARCHITECTURE]]
 
 ### **Production Deployment System** (`amos/production_deployment.py`)
 **Enterprise-grade production deployment with comprehensive monitoring and auto-scaling**
@@ -69,7 +69,7 @@ tags: [specs]
 
 ---
 
-## SERVICE ARCHITECTURE & MONITORING
+## SERVICE [[ARCHITECTURE]] & MONITORING
 
 ### **Complete Service Registry**
 **10 core services with comprehensive monitoring and management**

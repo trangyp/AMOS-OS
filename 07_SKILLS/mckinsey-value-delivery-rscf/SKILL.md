@@ -198,9 +198,9 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[mckinsey-value-delivery-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[mckinsey-value-delivery-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `mckinsey-value-delivery-rscf-agent` — corresponding agent
 ---
 
@@ -214,7 +214,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 RSCF-NODE
 node_id: mckinsey-value-delivery-rscf
 node_type: skill
-path: 07_SKILLS/mckinsey-value-delivery-rscf/SKILL.md
+path: 07_SKILLS/mckinsey-value-delivery-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

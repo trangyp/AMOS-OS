@@ -22,11 +22,11 @@ rscf:
 
 ## Vault-Sourced Content
 
-### Source 1: AMOS CANON Integration Marker
+### Source 1: AMOS [[CANON]] Integration Marker
 
 > Path: `amos-general/A/CANON/AMOS CANON Integration Marker.md` | Size: 24840 chars | Match score: 10 | content_hash: e542a15026c5d02c
 
-# AMOS CANON Integration Marker
+# AMOS [[CANON]] Integration Marker
 
 ## Overview
 
@@ -358,11 +358,11 @@ Stateframes are constructed by intersecting:
 ---
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

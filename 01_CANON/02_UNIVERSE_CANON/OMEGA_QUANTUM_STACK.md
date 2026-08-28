@@ -68,7 +68,7 @@ rscf:
 
 It is paired with:
 
-`[[OMEGA_QUANTUM_STACK_CANON]]`
+``
 
 which defines the normative canonical contract governing this artifact.
 
@@ -108,7 +108,7 @@ MODEL != OBSERVATION
 
 SOURCE_CLAIM != VERIFIED
 
-ARCHITECTURE != IMPLEMENTATION
+[[ARCHITECTURE]] != IMPLEMENTATION
 
 IMPLEMENTED != VALIDATED
 
@@ -170,7 +170,7 @@ ACTION / TOOL
    ↓
 OBSERVATION
    ↓
-VALIDATION
+[[VALIDATION]]
    ↓
 STATE UPDATE
 ```
@@ -198,7 +198,7 @@ It does not establish that AMOS cognition is implemented by physical quantum com
 The two Omega Quantum Stack surfaces have distinct roles.
 
 ```text
-OMEGA_QUANTUM_STACK_CANON.md
+[[OMEGA_QUANTUM_STACK_CANON]].md
 =
 NORMATIVE CONTRACT
 
@@ -210,7 +210,7 @@ ARCHITECTURAL / OPERATIONAL MODEL
 Therefore:
 
 ```text
-CANON CONTRACT
+[[CANON]] CONTRACT
     │
     │ governs
     ▼
@@ -226,7 +226,7 @@ The artifact may not weaken the governing canon.
 If a conflict occurs:
 
 ```text
-CANON CONTRACT
+[[CANON]] CONTRACT
 >
 ARTIFACT INTERPRETATION
 ```
@@ -328,7 +328,7 @@ TOOL OR RESPONSE
   ↓
 OBSERVATION
   ↓
-VALIDATION
+[[VALIDATION]]
   ↓
 OUTPUT / STATE UPDATE
 ```
@@ -343,7 +343,7 @@ The stack is decomposed as:
 
 ```text
 ┌──────────────────────────────────────────────┐
-│                CANON LAYER                   │
+│                [[CANON]] LAYER                   │
 │ laws · constraints · epistemic boundaries   │
 └──────────────────────┬───────────────────────┘
                        ▼
@@ -501,7 +501,7 @@ REGIME MISMATCH
 
 UNRECOVERABLE EXECUTION RISK
 
-VALIDATION FAILURE
+[[VALIDATION]] FAILURE
 ```
 
 Termination is an integrity-preserving state.
@@ -1243,11 +1243,11 @@ The Omega architecture distinguishes storage classes.
 These classes are not epistemically interchangeable.
 
 ```text
-MEMORY != CANON
+[[MEMORY]] != [[CANON]]
 
-SKILL != AUTHORITY
+[[SKILL]] != AUTHORITY
 
-WORKFLOW != VALIDATION
+[[WORKFLOW]] != [[VALIDATION]]
 
 VAULT NOTE != VERIFIED CLAIM
 
@@ -1269,13 +1269,13 @@ ACTION PROPOSAL
    ↓
 AUTHORITY CHECK
    ↓
-PRECONDITION VALIDATION
+PRECONDITION [[VALIDATION]]
    ↓
 EXECUTION
    ↓
 OBSERVATION
    ↓
-VALIDATION
+[[VALIDATION]]
    ↓
 STATE UPDATE
 ```
@@ -1485,17 +1485,17 @@ Proof capsules may be reused only while their dependencies and applicability env
 The stack separates:
 
 ```text
-L0  SCHEMA VALIDATION
+L0  SCHEMA [[VALIDATION]]
 
-L1  STRUCTURAL VALIDATION
+L1  STRUCTURAL [[VALIDATION]]
 
-L2  INVARIANT VALIDATION
+L2  INVARIANT [[VALIDATION]]
 
-L3  INTEGRATION VALIDATION
+L3  [[INTEGRATION]] [[VALIDATION]]
 
-L4  RUNTIME VALIDATION
+L4  RUNTIME [[VALIDATION]]
 
-L5  EMPIRICAL VALIDATION
+L5  EMPIRICAL [[VALIDATION]]
 ```
 
 No lower layer automatically implies a higher one.
@@ -1525,7 +1525,7 @@ APPROVED KNOWLEDGE INDEX
 
 MURK REASONING ENGINE
 
-MURK / BRAIN INTEGRATION
+MURK / BRAIN [[INTEGRATION]]
 
 EXECUTABLE BRAIN MODEL
 ```
@@ -1689,7 +1689,7 @@ SOURCE_GROUNDED_CANON_CANDIDATE
     │
     │ governance promotion
     ▼
-CANONICAL / CANON-BOUND ARTIFACT
+CANONICAL / [[CANON]]-BOUND ARTIFACT
     │
     │ executable implementation binding
     ▼
@@ -1844,7 +1844,7 @@ L:
     "2026-08-27"
 
   governing_canon:
-    OMEGA_QUANTUM_STACK_CANON
+    [[OMEGA_QUANTUM_STACK_CANON]]
 
   implementation:
     SOURCE_REPORTED_PARTIAL
@@ -1890,7 +1890,7 @@ RSCF:
 
   M:
     architecture:
-      - CANON
+      - [[CANON]]
       - QUANTUM_KNOWLEDGE
       - MURK
       - COGNITIVE_STATE
@@ -1898,7 +1898,7 @@ RSCF:
       - STORAGE
       - TOOLS
       - OBSERVATION
-      - VALIDATION
+      - [[VALIDATION]]
       - RECOVERY
 
     state_transition:
@@ -1917,7 +1917,7 @@ RSCF:
   provenance:
     - AMOS_corpus
     - AMOS_OMEGA_QUANTUM_STACK
-    - OMEGA_QUANTUM_STACK_CANON
+    - [[OMEGA_QUANTUM_STACK_CANON]]
     - Quantum_Omega_Cognitive_Architecture_Overview
 
   scope:
@@ -2093,31 +2093,31 @@ SOURCE_REPORTED_NOT_INDEPENDENTLY_REVALIDATED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[02_UNIVERSE_CANON_MOC]]
+* INDEXED_BY: 
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+* GOVERNED_BY: 
 
-* GOVERNED_BY: [[CANON_UNIVERSE_CANON_CONTRACT]]
+* GOVERNED_BY: 
 
-* GOVERNED_BY: [[OMEGA_QUANTUM_STACK_CANON]]
+* GOVERNED_BY: 
 
-* RELATED_TO: [[OMEGA_ARCHITECTURE_CANON]]
+* RELATED_TO: 
 
-* RELATED_FRAMEWORK: [[KHUNG_TRANG_MASTER]]
+* RELATED_FRAMEWORK: 
 
-* RELATED_EQUATIONS: [[KHUNG_TRANG_EQUATIONS]]
+* RELATED_EQUATIONS: 
 
-* TARGET_BINDING: [[KERNEL_README]]
+* TARGET_BINDING: 
 
-* TARGET_BINDING: [[CONTROL_PLANE_README]]
+* TARGET_BINDING: 
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+* OBSERVED_BY: 
 
-* RECOVERED_VIA: [[OPERATIONS_README]]
+* RECOVERED_VIA: 
 
 ---
 
@@ -2125,11 +2125,11 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[02_UNIVERSE_CANON_MOC]] · [[OMEGA_QUANTUM_STACK_CANON]] · [[OMEGA_ARCHITECTURE_CANON]] · [[KHUNG_TRANG_MASTER]] · [[KHUNG_TRANG_EQUATIONS]] · [[KHUNG_TRANG_EQUATIONS_CANON]] · [[LAW_HIERARCHY]] · [[KERNEL_README]] · [[CONTROL_PLANE_README]] · [[OBSERVABILITY_README]] · [[OPERATIONS_README]]
+**Related:**  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  ·  · 
 
 ---
 
-**MOC:** [[02_UNIVERSE_CANON_MOC]]
+**MOC:** 
 
 ---
 

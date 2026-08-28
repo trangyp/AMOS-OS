@@ -134,7 +134,7 @@ Deep code-level inspection of 5 AMOS brain Python files:
 ## Links
 - [[COSMO_BRAIN_MOC]]
 - executable brain model
-- AMOS INTEGRATION TEST DASHBOARD
+- AMOS [[INTEGRATION]] TEST DASHBOARD
 - [[2026_08_22_EXECUTABLE_CODE_INTERNALS]] — companion inspection of core brain Python files
 - [[2026_08_22_DEVIN_MEMORY_UPDATE]] — V22 RSCF Formal Layer verification
 - [[2026_08_22_AMOS_GO_BOARD_19X19_RUNTIME_METHODS]] — Go board integration tests

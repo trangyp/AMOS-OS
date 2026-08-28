@@ -14,10 +14,10 @@ rscf:
 ---
 
 
-# MEMORY MEMORY CONTRACT
+# [[MEMORY]] [[MEMORY]] CONTRACT
 
 ## 0. Status
-Memory-plane contract for **MEMORY CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Memory-plane contract for **[[MEMORY]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs durable memory stores, trust classes, admission, retrieval, and conflict policy as they bear on `MEMORY CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
@@ -62,14 +62,14 @@ Given an operation touching `MEMORY · MEMORY CONTRACT` within the Memory plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -1161,7 +1161,7 @@ SAME ACTION
 
 # 29. Purpose
 
-This artifact reserves the canonical CANON slot for future verified native content associated with:
+This artifact reserves the canonical [[CANON]] slot for future verified native content associated with:
 
 ```text
 AMOS Emotion Canon
@@ -4073,7 +4073,7 @@ uncertainty:
 Target relation:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 The source requires observability never be treated as authority.
@@ -4107,7 +4107,7 @@ APPROVED CANONICAL EMOTION STATE
 Target:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 But:
@@ -4131,7 +4131,7 @@ NOT_ESTABLISHED
 Target:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 But:
@@ -4149,7 +4149,7 @@ EXECUTABLE EMOTION ENFORCEMENT
 Target:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 But:
@@ -4167,7 +4167,7 @@ VALIDATED EMOTION-CANON RECOVERY IMPLEMENTATION
 Required before promotion:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
+
 ```
 
 Current:
@@ -4183,7 +4183,7 @@ NOT_ESTABLISHED
 Required before promotion:
 
 ```text
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
 ```
 
 Current:
@@ -4988,7 +4988,7 @@ Source-supported governance:
 ```text
 AMOS_EMOTION_CANON
 ↓ GOVERNED_BY
-[[LAW_HIERARCHY]]
+
 ```
 
 Source-supported indexing:
@@ -4996,23 +4996,23 @@ Source-supported indexing:
 ```text
 AMOS_EMOTION_CANON
 ↓ INDEXED_BY
-[[00_HOME]]
+
 
 AMOS_EMOTION_CANON
 ↓ INDEXED_BY
-[[AMOS_RSCF_NODES]]
+
 ```
 
 Target integration:
 
 ```text
-[[KERNEL_README]]
 
-[[CONTROL_PLANE_README]]
 
-[[OBSERVABILITY_README]]
 
-[[OPERATIONS_README]]
+
+
+
+
 ```
 
 These are target references, not validated executable bindings.
@@ -5288,7 +5288,7 @@ validation_status = NOT_ESTABLISHED
 executable_binding = NOT_ESTABLISHED
 ```
 
-The source establishes canon-governance boundaries and target CANON-mutation semantics.
+The source establishes canon-governance boundaries and target [[CANON]]-mutation semantics.
 
 It does **not** establish:
 
@@ -5528,12 +5528,12 @@ ONE FAILED EMOTION CLASSIFICATION != ALL EMOTION CANON INVALID
 | Artifact path                     | SOURCE-SUPPORTED           | preserve exact path              |
 | Framework label                   | SOURCE-SUPPORTED           | native identity validation       |
 | Cognition-canon placement         | SOURCE-SUPPORTED           | preserve lineage                 |
-| Artifact kind = CANON             | SOURCE-SUPPORTED           | preserve type                    |
+| Artifact kind = [[CANON]]             | SOURCE-SUPPORTED           | preserve type                    |
 | Frontmatter artifact_id           | SOURCE-SUPPORTED           | preserve exact value             |
 | RSCF node_id                      | SOURCE-SUPPORTED           | preserve exact value             |
 | artifact_id/node_id textual match | SOURCE-SUPPORTED           | semantic resolver still required |
 | Integrity boundaries              | SOURCE-SUPPORTED           | preserve distinctions            |
-| CANON mutation target semantics   | SOURCE-SUPPORTED           | implementation validation        |
+| [[CANON]] mutation target semantics   | SOURCE-SUPPORTED           | implementation validation        |
 | Emotion definition                | UNKNOWN/GAP                | verified native source           |
 | Affect definition                 | UNKNOWN/GAP                | verified native source if used   |
 | Feeling definition                | UNKNOWN/GAP                | verified native source if used   |
@@ -5849,7 +5849,7 @@ PROMOTE ONLY AFTER VALIDATION
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -5995,7 +5995,7 @@ RSCF-RELATIONS:
 
 **Canon governance boundaries:** SOURCE-SUPPORTED
 
-**CANON-operation target semantics:** SOURCE-SUPPORTED
+**[[CANON]]-operation target semantics:** SOURCE-SUPPORTED
 
 **Native emotion definition:** NOT_ESTABLISHED
 

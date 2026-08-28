@@ -219,9 +219,9 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-growth-graph_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c06-society-culture-master` — parent skill
-- `[[amos-growth-graph-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-growth-graph-agent` — corresponding agent
 ---
 
@@ -235,7 +235,7 @@ Memory graph formalization is AMOS_MODEL. The cognitive substrate is a structura
 RSCF-NODE
 node_id: amos-growth-graph
 node_type: skill
-path: 07_SKILLS/amos-growth-graph/SKILL.md
+path: 07_SKILLS/amos-growth-graph/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

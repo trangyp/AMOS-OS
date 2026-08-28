@@ -17,7 +17,7 @@ rscf:
 # amos-c02-math-compute-master — Vault-Sourced Domain Knowledge
 
 > Load this reference only when detailed domain knowledge is needed.
-> This content was moved from SKILL.md for progressive loading.
+> This content was moved from [[SKILL]].md for progressive loading.
 
 ---
 
@@ -666,11 +666,11 @@ C
 - **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

@@ -212,9 +212,9 @@ Ethical alignment is AMOS_MODEL. The UEAE is a structural ethics governance fram
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-ethics-os-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c09-org-law-policy-master` — parent skill
-- `[[amos-ethics-os-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-ethics-os-governor-agent` — corresponding agent
 ---
 
@@ -228,7 +228,7 @@ Ethical alignment is AMOS_MODEL. The UEAE is a structural ethics governance fram
 RSCF-NODE
 node_id: amos-ethics-os-governor
 node_type: skill
-path: 07_SKILLS/amos-ethics-os-governor/SKILL.md
+path: 07_SKILLS/amos-ethics-os-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

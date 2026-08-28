@@ -2881,17 +2881,17 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY:
-      "[[00_HOME]]"
+  - INDEXED_BY: [[00_HOME]]
+      ""
 
-  - INDEXED_BY:
-      "[[AMOS_RSCF_NODES]]"
-
-  - PART_OF:
-      "[[GENERATORS_MAP]]"
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+      ""
 
   - PART_OF:
-      "[[COGNITIVE_MATRIX_MOC]]"
+      ""
+
+  - PART_OF:
+      ""
 
   - AUDITS:
       "GENERATOR_CONTRACT|Generator Contract"
@@ -3687,7 +3687,7 @@ READ_ONLY_BY_DEFAULT
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -3719,40 +3719,40 @@ READ_ONLY_BY_DEFAULT
 The ownership split across `12_GENERATORS` is now clean:
 
 ```text
-GENERATOR_CONTRACT.md
+[[GENERATOR_CONTRACT]].md
 → what Generators are and may do
 
 PROVENANCE.md
 → where Generator inputs/outputs came from
 
-VALIDATION.md
+[[VALIDATION]].md
 → whether a Generator/output satisfies declared requirements
 
 TESTS.md
 → executable property assurance
 
-GENERATORS_BENCHMARKS.md
+[[GENERATORS_BENCHMARKS]].md
 → bounded measurement and comparison
 
 GENERATORS_AUDIT.md
 → independent cross-layer examination of whether the whole control story is actually supported
 
-INTEGRATION.md
+[[INTEGRATION]].md
 → how Generators connect to the rest of AMOS
 
-ROADMAP.md
+[[ROADMAP]].md
 → intended future evolution
 
 HISTORY.md
 → evidenced historical evolution
 
-GENERATORS_CHANGE_LOG.md
+[[GENERATORS_CHANGE_LOG]].md
 → append-oriented change record
 ```
 
 The load-bearing addition here is that **Audit checks the integrity of the relationships between all of those artifacts and the runtime**, instead of simply becoming another test or validation document.
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** 
 
 ```

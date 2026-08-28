@@ -253,11 +253,11 @@ The artifact does not independently provide:
 
 Therefore those details must be retrieved from:
 
-`[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]`
+``
 
 or:
 
-`[[UBI_COGNITION_BINDING]]`.
+``.
 
 ---
 
@@ -1246,7 +1246,7 @@ COGNITION_TO_UBI_PATH:
     GAP
 
   preferred_dependency:
-    "[[UBI_COGNITION_BINDING]]"
+    ""
 ```
 
 ---
@@ -1437,7 +1437,7 @@ They can interact conceptually, but equivalence is not source-established here.
 
 The artifact explicitly identifies:
 
-`[[UBI_X_COGNITION_MATRIX]]`
+``
 
 as its matrix counterpart.
 
@@ -1942,11 +1942,11 @@ But `Safe Mode` itself is not defined here.
 
 Required retrieval target:
 
-`[[UBI_COGNITION_BINDING]]`
+``
 
 and potentially:
 
-`[[AMOS_MIND_OS_FRAMEWORK]]`.
+``.
 
 ---
 
@@ -2425,7 +2425,7 @@ The source excerpt does not resolve this.
 
 Because multiple cognitive/biological states may interact, atomic multi-RSCF reasoning concepts may become relevant at the AMOS architectural level.
 
-But this specification does not explicitly bind its state transitions to `[[K_ATOMIC_MULTI_RSCF]]`.
+But this specification does not explicitly bind its state transitions to ``.
 
 Therefore no such implementation claim should be made.
 
@@ -3080,19 +3080,19 @@ UBI_X_COGNITION_SPEC:
   bindings:
 
     matrix:
-      "[[UBI_X_COGNITION_MATRIX]]"
+      ""
 
     cognition:
-      "[[UBI_COGNITION_BINDING]]"
+      ""
 
     biological_master:
-      "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+      ""
 
     mind_os:
-      "[[AMOS_MIND_OS_FRAMEWORK]]"
+      ""
 
     moc:
-      "[[25_COGNITIVE_MATRIX_MOC]]"
+      ""
 ```
 
 ---
@@ -3670,23 +3670,23 @@ ENVIRONMENT OR REGIME CHANGES
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: ""
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
+  - PART_OF: ""
 
   - COUNTERPART_OF:
-      "[[UBI_X_COGNITION_MATRIX]]"
+      ""
 
   - BOUND_BY:
-      "[[UBI_COGNITION_BINDING]]"
+      ""
 
   - DERIVES_BIOLOGICAL_MODEL_FROM:
-      "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+      ""
 
   - CONNECTS_TO:
-      "[[AMOS_MIND_OS_FRAMEWORK]]"
+      ""
 
   - DEFINES:
       UBI_COGNITIVE_PACING
@@ -3713,18 +3713,18 @@ RSCF_RELATIONS:
       EMERGENCY_STATE
 
   - RELATED_TO:
-      - "[[TOTAL_FRAMEWORK_MATRIX]]"
-      - "[[TOTAL_KERNEL_MATRIX]]"
-      - "[[TOTAL_CANON_MATRIX]]"
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_PROVENANCE]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
       - "K_CAUSAL_FIREWALL"
-      - "[[K_FAIL_CLOSED]]"
-      - "[[K_GOVERNED_EVOLUTION]]"
+      - ""
+      - ""
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      ""
 ```
 
 ---
@@ -4154,7 +4154,7 @@ The decisive integrity boundaries are:
 
 **THE SOURCE DECLARES `executable_binding: ESTABLISHED`; INDEPENDENT RUNTIME VERIFICATION REQUIRES THE EXECUTABLE BINDING AND TRACES.**
 
-**THE CHEAPEST HIGH-INFORMATION NEXT RETRIEVAL IS THE INTACT `[[UBI_COGNITION_BINDING]]` / `[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]` SOURCE PATH, BECAUSE IT CAN RESOLVE THE MISSING TIER VARIABLE, (\\tau\_{bio}), AND EMERGENCY ROLLBACK SEMANTICS WITHOUT SPECULATIVE RECONSTRUCTION.**
+**THE CHEAPEST HIGH-INFORMATION NEXT RETRIEVAL IS THE INTACT `` / `` SOURCE PATH, BECAUSE IT CAN RESOLVE THE MISSING TIER VARIABLE, (\\tau\_{bio}), AND EMERGENCY ROLLBACK SEMANTICS WITHOUT SPECULATIVE RECONSTRUCTION.**
 
 Operational compression:
 

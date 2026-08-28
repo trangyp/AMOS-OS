@@ -177,7 +177,7 @@ Both registered additively in `_00_Cosmo Brain/AMOS_AGENT_REGISTRY.json` with pr
 
 ## Verification
 
-- `scripts/brain-integrity-repair.py` then `scripts/brain-consistency-audit.py`: **RESULT: OK** — skills 69 dirs / 0 missing SKILL.md / 0 tiny, 0 empty core files, 0 broken MOC links, registry 137 registered ↔ 94 files, **0 unregistered**.
+- `scripts/brain-integrity-repair.py` then `scripts/brain-consistency-audit.py`: **RESULT: OK** — skills 69 dirs / 0 missing [[SKILL]].md / 0 tiny, 0 empty core files, 0 broken MOC links, registry 137 registered ↔ 94 files, **0 unregistered**.
 - Both agent JSONs parse (`json.load` OK); dependency check: all deps resolve on disk.
 - `sh scripts/obsidian-health-check.sh`: all checks passed.
 

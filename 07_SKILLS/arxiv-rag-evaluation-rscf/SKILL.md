@@ -195,9 +195,9 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 
 - `references/brain_router_for_rag.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[arxiv-rag-evaluation-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[arxiv-rag-evaluation-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `arxiv-rag-evaluation-rscf-agent` — corresponding agent
 ---
 
@@ -211,7 +211,7 @@ Origin architect: **Trang Phan**. Domain: arxiv. Parent: amos-knowledge-research
 RSCF-NODE
 node_id: arxiv-rag-evaluation-rscf
 node_type: skill
-path: 07_SKILLS/arxiv-rag-evaluation-rscf/SKILL.md
+path: 07_SKILLS/arxiv-rag-evaluation-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

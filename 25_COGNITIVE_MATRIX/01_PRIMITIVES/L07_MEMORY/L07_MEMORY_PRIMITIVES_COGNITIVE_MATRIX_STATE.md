@@ -28,7 +28,7 @@ Covers write gating, consolidation thresholds, retrieval diversity, and falsific
 
 ## Contract content
 
-MEMORY
+[[MEMORY]]
 
 ## State ownership
 
@@ -45,7 +45,7 @@ UNKNOWN/GAP != PASS
 
 ---
 
-[[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC
+[[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 RSCF-NODE

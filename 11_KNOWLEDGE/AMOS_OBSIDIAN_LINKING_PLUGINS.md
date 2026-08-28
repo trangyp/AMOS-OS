@@ -300,7 +300,7 @@ SORT file.name ASC
 >        ↓
 > RELATED-NOTE DISCOVERY
 >        ↓
-> GRAPH INTEGRATION
+> GRAPH [[INTEGRATION]]
 > ```
 > 
 > This is a structural interpretation of the supplied template and plugin recommendations.
@@ -341,7 +341,7 @@ SORT file.name ASC
 > 
 > RECOMMENDED STACK
 > !=
-> MANDATORY CANON
+> MANDATORY [[CANON]]
 > 
 > AI LINK SUGGESTION
 > !=
@@ -1779,7 +1779,7 @@ SORT file.name ASC
 > not:
 > 
 > ```text
-> CANON GOVERNANCE AUTHORITY
+> [[CANON]] GOVERNANCE AUTHORITY
 > ```
 > 
 > ---
@@ -1811,7 +1811,7 @@ SORT file.name ASC
 > not:
 > 
 > ```text
-> EPISTEMIC VALIDATION
+> EPISTEMIC [[VALIDATION]]
 > ```
 > 
 > ---
@@ -2025,7 +2025,7 @@ SORT file.name ASC
 >      ↓
 > PROVENANCE CHECK
 >      ↓
-> RELATION VALIDATION
+> RELATION [[VALIDATION]]
 >      ↓
 > CANONICAL / NONCANONICAL CLASSIFICATION
 > ```
@@ -2550,7 +2550,7 @@ proof_capsule:
   claim:
     >
       The supplied RSCF block indexes the artifact by
-      [[00_HOME]] and [[AMOS_RSCF_NODES]].
+       and .
 
   class: SOURCE_CLAIM
 
@@ -2925,9 +2925,9 @@ tags:
   - rscf/state/model
 
 related:
-  - "[[00_ROOT_MOC]]"
-  - "[[00_HOME]]"
-  - "[[KNOWLEDGE_MOC]]"
+  - ""
+  - ""
+  - ""
 rscf:
   state: MODEL
   claim_class: MODEL
@@ -2950,9 +2950,9 @@ rscf:
 
 ## Links
 
-- [[00_ROOT_MOC]]
-- [[00_HOME]]
-- [[KNOWLEDGE_MOC]]
+- 
+- 
+- 
 
 ## Competing Explanations
 
@@ -2962,11 +2962,11 @@ rscf:
 
 ## RSCF-RELATIONS
 
-- INDEXED_BY: [[KNOWLEDGE_MOC]]
+- INDEXED_BY: 
 
 ---
 
-**MOC:** [[KNOWLEDGE_MOC]]
+**MOC:** 
 ```
 
 This is a **PROPOSED AMOS augmentation**, not the supplied source template.
@@ -3629,16 +3629,16 @@ RSCF-NODE:
 
   source_relations:
     indexed_by:
-      - "[[00_HOME]]"
-      - "[[AMOS_RSCF_NODES]]"
+      - ""
+      - ""
 
   source_navigation:
     - "00 Cosmo Brain MOC"
-    - "[[00_ROOT_MOC]]"
-    - "[[00_HOME]]"
-    - "[[AMOS_LAYER_MAPS]]"
-    - "[[KNOWLEDGE_MOC]]"
-    - "[[AMOS_TEMPLATES]]"
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
 ```
 
 ---
@@ -3702,24 +3702,24 @@ RSCF_RELATIONS:
 
   SOURCE:
     INDEXED_BY:
-      - "[[00_HOME]]"
-      - "[[AMOS_RSCF_NODES]]"
+      - ""
+      - ""
 
   SOURCE_RELATED:
     - "00 Cosmo Brain MOC"
-    - "[[00_ROOT_MOC]]"
-    - "[[00_HOME]]"
-    - "[[AMOS_LAYER_MAPS]]"
-    - "[[KNOWLEDGE_MOC]]"
-    - "[[AMOS_TEMPLATES]]"
+    - ""
+    - ""
+    - ""
+    - ""
+    - ""
 
   DERIVED_PROPOSED:
     INDEXED_BY:
-      - "[[KNOWLEDGE_MOC]]"
+      - ""
 
     RELATED_TO:
-      - "[[AMOS_TEMPLATES]]"
-      - "[[AMOS_LAYER_MAPS]]"
+      - ""
+      - ""
 
     TOOLING_FOR:
       - AMOS_PERSISTENT_KNOWLEDGE_SURFACE
@@ -4007,8 +4007,8 @@ AMOS Home
 rather than explicit:
 
 ```markdown
-[[00 Cosmo Brain MOC]]
-[[00_HOME]]
+
+
 ```
 
 Accordingly, the intended pre-linking behavior is **SOURCE_CLAIM**, while literal wikilink creation remains **DECISION-RELEVANT / UNRESOLVED** without additional behavior or configuration.

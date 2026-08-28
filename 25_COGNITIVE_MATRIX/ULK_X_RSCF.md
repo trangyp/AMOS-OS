@@ -35,7 +35,7 @@ rscf:
   regime: AMOS_OS_MODEL
 ---
 
-Below is the expanded **Obsidian-native canonical candidate**. I preserve the source-defined compiler invariant and Proof Conservation Law, while treating the visibly corrupted equation tokens conservatively. The recoverable structure is `∀ op ∈ {...}, ∃ Capsule = ⟨H(Intent), M(ProofSteps), L(Receipt)⟩`; the exact corrupted ALU-0/ALU-4 glyphs remain subordinate to `[[ULK_LOGIC_KERNEL]]`.
+Below is the expanded **Obsidian-native canonical candidate**. I preserve the source-defined compiler invariant and Proof Conservation Law, while treating the visibly corrupted equation tokens conservatively. The recoverable structure is `∀ op ∈ {...}, ∃ Capsule = ⟨H(Intent), M(ProofSteps), L(Receipt)⟩`; the exact corrupted ALU-0/ALU-4 glyphs remain subordinate to ``.
 
 ```markdown
 ---
@@ -158,16 +158,16 @@ tags:
 framework_binding:
 
   matrix_counterpart:
-    artifact: "[[ULK_X_RSCF_MATRIX]]"
+    artifact: ""
 
   ulk:
-    artifact: "[[ULK_LOGIC_KERNEL]]"
+    artifact: ""
 
   reality_ulk:
-    artifact: "[[REALITY_X_ULK]]"
+    artifact: ""
 
   cognitive_matrix:
-    artifact: "[[25_COGNITIVE_MATRIX_MOC]]"
+    artifact: ""
 
 rscf:
 
@@ -182,9 +182,9 @@ rscf:
 
   provenance:
     - "25_COGNITIVE_MATRIX/ULK_X_RSCF.md"
-    - "[[ULK_X_RSCF_MATRIX]]"
-    - "[[ULK_LOGIC_KERNEL]]"
-    - "[[REALITY_X_ULK]]"
+    - ""
+    - ""
+    - ""
     - "AMOS_CORPUS"
 
   scope:
@@ -369,7 +369,7 @@ $$
 $$
 
 > [!warning] Symbol authority
-> `\emptyset \to S_0` and `\tau` are normalized from corrupted source rendering and the matrix counterpart. Their exact canonical glyphs remain governed by [[ULK_LOGIC_KERNEL]].
+> `\emptyset \to S_0` and `\tau` are normalized from corrupted source rendering and the matrix counterpart. Their exact canonical glyphs remain governed by .
 >
 > The structural claim that six ULK operators participate in the compiler invariant is stronger than the certainty of every recovered glyph.
 
@@ -1056,7 +1056,7 @@ Normalized against the matrix counterpart:
 > [!info] Provenance distinction
 > The operator set appears directly in this specification.
 >
-> The verification descriptions in the third column are supplied by [[ULK_X_RSCF_MATRIX]], not by the visible body of this specification.
+> The verification descriptions in the third column are supplied by , not by the visible body of this specification.
 
 ---
 
@@ -1086,7 +1086,7 @@ GroundStateConservation
 NullStateAbort_{failure}.
 $$
 
-The exact semantics of \(S_0\) remain governed by [[ULK_LOGIC_KERNEL]].
+The exact semantics of \(S_0\) remain governed by .
 
 ---
 
@@ -1631,7 +1631,7 @@ Therefore `logic_proof_mesh` remains a source-defined architectural label rather
 
 # 38. Matrix Counterpart Reconciliation
 
-The matrix counterpart [[ULK_X_RSCF_MATRIX]] contains a column:
+The matrix counterpart  contains a column:
 
 **Generated RSCF Section**
 
@@ -1814,8 +1814,8 @@ remain `COMPETING` where their detailed claims differ.
 
 The next smallest sufficient sources would be:
 
-1. explicit compiler schema inside [[ULK_LOGIC_KERNEL]];
-2. populated version of [[ULK_X_RSCF_MATRIX]];
+1. explicit compiler schema inside ;
+2. populated version of ;
 3. canonical RSCF schema;
 4. executable compiler binding;
 5. runtime proof capsule example;
@@ -1831,7 +1831,7 @@ Raw implementation evidence should remain:
 
 The source explicitly links:
 
-[[REALITY_X_ULK]]
+
 
 Therefore `ULK_X_RSCF` participates in a broader inter-plane topology:
 
@@ -2114,11 +2114,11 @@ The specification and matrix counterpart are closely related artifacts.
 
 Therefore agreement between:
 
-[[ULK_X_RSCF]]
+
 
 and:
 
-[[ULK_X_RSCF_MATRIX]]
+
 
 should not automatically count as two independent confirmations.
 
@@ -2393,7 +2393,7 @@ The matrix counterpart reinforces fail-closed behavior through explicit fallback
 
 # 62. Cross-Artifact Fail-Closed Integration
 
-[[ULK_X_RSCF_MATRIX]] defines:
+ defines:
 
 | ALU   | Failure Route              |
 | ----- | -------------------------- |
@@ -3781,7 +3781,7 @@ This artifact MUST NOT be used to claim without additional canonical evidence th
 30. the runtime implementation has been independently observed;
 31. `PASSED_CONSTITUTIONAL_TESTS` means universal formal correctness;
 32. `ESTABLISHED` executable binding means deployment has been independently verified;
-33. the corrupted source symbols may be permanently normalized without checking [[ULK_LOGIC_KERNEL]];
+33. the corrupted source symbols may be permanently normalized without checking ;
 34. structural similarity to external proof systems establishes implementation identity;
 35. RSCF proof capsules are blockchain transactions;
 36. RSCF proof capsules are zero-knowledge proofs;
@@ -3984,11 +3984,11 @@ flowchart LR
 ```mermaid
 graph TD
 
-    CM["25_COGNITIVE_MATRIX_MOC"]
+    CM["[[25_COGNITIVE_MATRIX_MOC]]"]
     SPEC["ULK_X_RSCF"]
-    MATRIX["ULK_X_RSCF_MATRIX"]
-    ULK["ULK_LOGIC_KERNEL"]
-    REALITY["REALITY_X_ULK"]
+    MATRIX["[[ULK_X_RSCF_MATRIX]]"]
+    ULK["[[ULK_LOGIC_KERNEL]]"]
+    REALITY["[[REALITY_X_ULK]]"]
     RSCF["RSCF Proof Capsule"]
 
     CM --> SPEC
@@ -4371,7 +4371,7 @@ $$
 }
 $$
 
-subject to authoritative symbol definitions in [[ULK_LOGIC_KERNEL]].
+subject to authoritative symbol definitions in .
 
 Its central governance invariant is the **Proof Conservation Law**:
 
@@ -4433,18 +4433,18 @@ It does not independently establish the cryptographic implementation, signature 
 
 ## Source-Defined Connections
 
-* **Matrix Table:** [[ULK_X_RSCF_MATRIX]]
-* **Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
-* **Reality × ULK:** [[REALITY_X_ULK]]
-* **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+* **Matrix Table:** 
+* **Universal Logic Kernel:** 
+* **Reality × ULK:** 
+* **Cognitive Matrix Plane:** 
 
 ## Derived Navigation Surfaces
 
-* **RSCF:** [[RSCF]]
-* **Proof Capsules:** [[RSCF_PROOF_CAPSULE]]
+* **RSCF:** 
+* **Proof Capsules:** 
 * **Scope Firewall:** K_SCOPE_FIREWALL
-* **Fail-Closed Governance:** [[K_FAIL_CLOSED]]
-* **Provenance:** [[K_PROVENANCE]]
+* **Fail-Closed Governance:** 
+* **Provenance:** 
 * **Causal Firewall:** K_CAUSAL_FIREWALL
 
 > [!warning]
@@ -4456,17 +4456,17 @@ It does not independently establish the cryptographic implementation, signature 
 
 # 124. Obsidian Navigation Footer
 
-**Home:** [[00_HOME]]
+**Home:** 
 
-**RSCF Index:** [[AMOS_RSCF_NODES]]
+**RSCF Index:** 
 
-**Cognitive Matrix:** [[25_COGNITIVE_MATRIX_MOC]]
+**Cognitive Matrix:** 
 
-**Matrix Counterpart:** [[ULK_X_RSCF_MATRIX]]
+**Matrix Counterpart:** 
 
-**Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
+**Universal Logic Kernel:** 
 
-**Reality × ULK:** [[REALITY_X_ULK]]
+**Reality × ULK:** 
 
 ---
 
@@ -4754,13 +4754,13 @@ $$
 
 ---
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** 
 
-**Matrix:** [[ULK_X_RSCF_MATRIX]]
+**Matrix:** 
 
-**Universal Logic Kernel:** [[ULK_LOGIC_KERNEL]]
+**Universal Logic Kernel:** 
 
-**Reality × ULK:** [[REALITY_X_ULK]]
+**Reality × ULK:** 
 
 ---
 

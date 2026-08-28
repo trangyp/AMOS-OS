@@ -56,7 +56,7 @@ Signal processing kernel+engine for noise filtering, feature extraction, and DSP
 Kernel+engine stack for institutions, norms, demographics, media, and cultural evolution.
 
 ### 7. AMOS_Design_Engine
-Tech Engine v-infinity with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full CANON engine + QUANTUM augmentation layer.
+Tech Engine v-infinity with all conceptual gaps closed to 100% structural coverage across tech domains and leadership/specialist roles. MAX variant wraps the full [[CANON]] engine + QUANTUM augmentation layer.
 
 ### 8. AMOS_Design_Language_Engine
 Cross-modal design + linguistic kernel+engine for structure, clarity, and user experience.

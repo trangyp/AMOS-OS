@@ -116,11 +116,11 @@ created: 2026-08-22
     "description": "Unified template for EV infrastructure agent creation, scaling to 100k+ instances via fabrication.",
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

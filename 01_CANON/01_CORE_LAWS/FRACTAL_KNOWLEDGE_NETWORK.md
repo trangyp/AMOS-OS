@@ -5061,16 +5061,16 @@ proof_capsule:
 # 199. Dependency Graph
 
 ```text
-                         [[00_HOME]]
+                         
                               |
                               v
-                    [[AMOS_RSCF_NODES]]
+                    
                               |
                               v
-                       [[LAW_HIERARCHY]]
+                       
                               |
                               v
-              [[FRACTAL_KNOWLEDGE_NETWORK]]
+              
                      /        |         \
                     /         |          \
                    v          v           v
@@ -5366,12 +5366,12 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - CHILD_OF: [[LAW_HIERARCHY]]
+  - CHILD_OF: 
 
-  - INDEXED_BY: [[01_CORE_LAWS_MOC]]
+  - INDEXED_BY: [[01_CANON_MOC]]
 
   - FRAMEWORK_CONTEXT:
-      [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+      
 ```
 
 ---

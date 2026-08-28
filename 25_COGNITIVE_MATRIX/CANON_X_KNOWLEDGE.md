@@ -71,7 +71,7 @@ The Canon × Knowledge matrix binds applicable canonical constraints
 to knowledge objects without collapsing the two planes.
 
 ```text
-CANON
+[[CANON]]
 !=
 KNOWLEDGE
 
@@ -81,7 +81,7 @@ EMPIRICAL EVIDENCE
 
 KNOWLEDGE CLAIM
 !=
-CANON
+[[CANON]]
 
 COMPLIANCE
 !=
@@ -91,7 +91,7 @@ NON-CONTRADICTION
 !=
 VERIFICATION
 
-MODEL CONSISTENT WITH CANON
+MODEL CONSISTENT WITH [[CANON]]
 !=
 EMPIRICALLY VALID MODEL
 
@@ -131,7 +131,7 @@ It MUST NOT silently promote:
 ```text
 SOURCE_CLAIM → VERIFIED
 MODEL → FACT
-KNOWLEDGE → CANON
+KNOWLEDGE → [[CANON]]
 COMPLIANT → TRUE
 PROPOSAL → COMMIT
 ```
@@ -157,7 +157,7 @@ Knowledge may provide evidence relevant to proposed canon evolution:
     │
     │ informs
     ▼
-CANON PROPOSAL
+[[CANON]] PROPOSAL
 ```
 
 but this reverse path MUST pass an explicit governance boundary:
@@ -165,8 +165,8 @@ but this reverse path MUST pass an explicit governance boundary:
 ```text
 KNOWLEDGE
 → EVIDENCE
-→ CANON PROPOSAL
-→ VALIDATION
+→ [[CANON]] PROPOSAL
+→ [[VALIDATION]]
 → AUTHORIZATION
 → COMMIT
 ```
@@ -176,7 +176,7 @@ Therefore:
 ```text
 KNOWLEDGE
 DOES NOT
-SILENTLY REWRITE CANON
+SILENTLY REWRITE [[CANON]]
 ```
 
 ---
@@ -293,7 +293,7 @@ unless independent revalidation supplies stronger support.
 Therefore:
 
 ```text
-CANON COMPLIANCE
+[[CANON]] COMPLIANCE
 !=
 EVIDENCE AMPLIFICATION
 ```
@@ -308,7 +308,7 @@ the conflict type:
 ```text
 KNOWLEDGE ERROR
 
-CANON APPLICABILITY ERROR
+[[CANON]] APPLICABILITY ERROR
 
 SCOPE CONFLICT
 
@@ -320,7 +320,7 @@ VERSION CONFLICT
 
 DEFINITION CONFLICT
 
-GENUINE CANON CHALLENGE
+GENUINE [[CANON]] CHALLENGE
 
 UNKNOWN
 ```
@@ -336,9 +336,9 @@ CONDITION KNOWLEDGE OBJECT
 
 PRESERVE COMPETING
 
-REVALIDATE CANON APPLICATION
+REVALIDATE [[CANON]] APPLICATION
 
-OPEN CANON-EVOLUTION PROPOSAL
+OPEN [[CANON]]-EVOLUTION PROPOSAL
 
 UNKNOWN/GAP
 ```
@@ -350,15 +350,15 @@ UNKNOWN/GAP
 Canon and knowledge provenance MUST remain distinguishable.
 
 ```text
-CANON SOURCE
+[[CANON]] SOURCE
 !=
 KNOWLEDGE EVIDENCE
 
-KNOWLEDGE CITING CANON
+KNOWLEDGE CITING [[CANON]]
 !=
-INDEPENDENT CONFIRMATION OF CANON
+INDEPENDENT CONFIRMATION OF [[CANON]]
 
-CANON CITING KNOWLEDGE
+[[CANON]] CITING KNOWLEDGE
 !=
 INDEPENDENT CONFIRMATION OF KNOWLEDGE
 ```
@@ -366,9 +366,9 @@ INDEPENDENT CONFIRMATION OF KNOWLEDGE
 Circular support is prohibited:
 
 ```text
-CANON A
+[[CANON]] A
 → KNOWLEDGE B
-→ CANON A
+→ [[CANON]] A
 ```
 
 does not create independent validation.
@@ -413,14 +413,14 @@ No runtime enforcement may be inferred from this matrix specification.
 The central matrix invariant is:
 
 ```text
-CANON CONSTRAINS
+[[CANON]] CONSTRAINS
 WITHOUT BECOMING EVIDENCE
 
 KNOWLEDGE INFORMS
 WITHOUT BECOMING AUTHORITY
 
 PROOFS SUPPORT CLAIMS
-WITHOUT AUTOMATICALLY CREATING CANON
+WITHOUT AUTOMATICALLY CREATING [[CANON]]
 
 CONTRADICTIONS REMAIN VISIBLE
 
@@ -565,6 +565,6 @@ One additional correction is important: the diagram's **“Verifies all knowledg
 I could not independently traverse the referenced AMOS corpus files in this turn, so the assessment above is grounded in the artifact you supplied; the exact contents and authority of `01_CANON_MOC`, `KNOWLEDGE_MOC`, `02_CLAIMS_MOC`, and `03_RSCF_MOC` remain unresolved rather than assumed.
 ```
 
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** 
 
 ```

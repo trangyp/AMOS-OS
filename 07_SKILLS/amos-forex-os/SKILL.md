@@ -206,9 +206,9 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-forex-os_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `[[amos-forex-os-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-forex-os-agent` — corresponding agent
 ---
 
@@ -222,7 +222,7 @@ Forex OS is a domain-specific subsystem. It does not prove Forex is the most imp
 RSCF-NODE
 node_id: amos-forex-os
 node_type: skill
-path: 07_SKILLS/amos-forex-os/SKILL.md
+path: 07_SKILLS/amos-forex-os/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

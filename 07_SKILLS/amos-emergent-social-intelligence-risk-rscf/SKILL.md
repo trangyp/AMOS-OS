@@ -203,9 +203,9 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-emergent-social-intelligence-risk-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c06-society-culture-master` — parent skill
-- `[[amos-emergent-social-intelligence-risk-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-emergent-social-intelligence-risk-rscf-agent` — corresponding agent
 ---
 
@@ -219,7 +219,7 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 RSCF-NODE
 node_id: amos-emergent-social-intelligence-risk-rscf
 node_type: skill
-path: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf/SKILL.md
+path: 07_SKILLS/amos-emergent-social-intelligence-risk-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

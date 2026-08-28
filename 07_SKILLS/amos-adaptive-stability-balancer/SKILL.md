@@ -202,9 +202,9 @@ within current constraints.
 
 - `references/references_MOC.md` — loaded on demand
 - `references/stability_reference.md` — loaded on demand
-- `[[amos-adaptive-stability-balancer_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-adaptive-stability-balancer-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-adaptive-stability-balancer-agent` — corresponding agent
 ---
 
@@ -218,7 +218,7 @@ within current constraints.
 RSCF-NODE
 node_id: amos-adaptive-stability-balancer
 node_type: skill
-path: 07_SKILLS/amos-adaptive-stability-balancer/SKILL.md
+path: 07_SKILLS/amos-adaptive-stability-balancer/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

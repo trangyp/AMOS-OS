@@ -210,9 +210,9 @@ Repair allocation optimization is an operational construct. It does not prove op
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-repair-allocation-optimizer_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-audit-repair-master` — parent skill
-- `[[amos-repair-allocation-optimizer-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-repair-allocation-optimizer-agent` — corresponding agent
 ---
 
@@ -226,7 +226,7 @@ Repair allocation optimization is an operational construct. It does not prove op
 RSCF-NODE
 node_id: amos-repair-allocation-optimizer
 node_type: skill
-path: 07_SKILLS/amos-repair-allocation-optimizer/SKILL.md
+path: 07_SKILLS/amos-repair-allocation-optimizer/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

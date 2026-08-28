@@ -17,7 +17,7 @@ rscf:
 # amos-c10-tech-engineering-master — Vault-Sourced Domain Knowledge
 
 > Load this reference only when detailed domain knowledge is needed.
-> This content was moved from SKILL.md for progressive loading.
+> This content was moved from [[SKILL]].md for progressive loading.
 
 ---
 
@@ -629,7 +629,7 @@ The architecture should remain open and repairable:
 
 ---
 
-AMOS MOC
+[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
@@ -638,7 +638,7 @@ AMOS MOC
 RSCF-NODE
 node_id: amos_c10_tech_engineering_master_knowledge
 node_type: note
-path: 11_KNOWLEDGE/AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE.md
+path: 11_KNOWLEDGE/[[AMOS_C10_TECH_ENGINEERING_MASTER_KNOWLEDGE]].md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]

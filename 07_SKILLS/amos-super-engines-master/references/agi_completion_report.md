@@ -48,7 +48,7 @@ AMOS Brain has been **successfully enhanced with Artificial General Intelligence
 
 ---
 
-## ️ AGI ARCHITECTURE
+## ️ AGI [[ARCHITECTURE]]
 
 ### Core Components Implemented (8/8 Complete)
 

@@ -204,9 +204,9 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-reality-simulation-distinction_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-canon-universe-master` — parent skill
-- `[[amos-reality-simulation-distinction-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-reality-simulation-distinction-agent` — corresponding agent
 ---
 
@@ -220,7 +220,7 @@ Reality-simulation distinction is an epistemological framework. It does not prov
 RSCF-NODE
 node_id: amos-reality-simulation-distinction
 node_type: skill
-path: 07_SKILLS/amos-reality-simulation-distinction/SKILL.md
+path: 07_SKILLS/amos-reality-simulation-distinction/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

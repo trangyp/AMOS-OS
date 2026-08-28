@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# 00 ROOT INTEGRATION CHECKLIST
+# 00 ROOT [[INTEGRATION]] CHECKLIST
 
 ## 0. Status
 Root-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
@@ -57,14 +57,14 @@ Given an operation touching `00 ROOT INTEGRATION CHECKLIST` within the Root plan
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

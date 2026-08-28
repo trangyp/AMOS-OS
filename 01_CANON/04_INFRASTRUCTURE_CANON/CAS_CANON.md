@@ -1463,9 +1463,9 @@ Required:
 The supplied artifact names:
 
 ```text
-[[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+
 ```
 
 as validation dependencies before stronger promotion.
@@ -1538,7 +1538,7 @@ This schema is a derived target, not present validation evidence.
 The artifact is governed by:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 and applicable AMOS Core Laws.
@@ -1552,7 +1552,7 @@ A lower-level CAS rule may not silently override higher-order canon.
 Target interaction:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 The existence of this binding does not define what kernel primitive CAS uses.
@@ -1566,7 +1566,7 @@ That remains dependent on substantive CAS canon.
 Target binding:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 The control plane governs authorization/effect gates.
@@ -1590,7 +1590,7 @@ is the target architecture.
 Target binding:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 with the explicit firewall:
@@ -1610,7 +1610,7 @@ Telemetry concerning CAS cannot itself authorize CAS mutation.
 Target recovery binding:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 Operations may support recovery but does not rewrite canon merely because recovery machinery exists.
@@ -2371,7 +2371,7 @@ SUBSTANTIVELY RESOLVED
 The artifact is indexed by:
 
 ```text
-[[04_INFRASTRUCTURE_CANON_MOC]]
+
 ```
 
 This establishes its navigation relationship to the infrastructure-canon map.
@@ -2385,9 +2385,9 @@ It does not alter canonical status.
 Declared indexing:
 
 ```text
-[[00_HOME]]
 
-[[AMOS_RSCF_NODES]]
+
+
 ```
 
 These relationships support navigation and RSCF discovery.
@@ -2399,7 +2399,7 @@ These relationships support navigation and RSCF discovery.
 Declared governance:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 A future CAS canon must comply with the applicable law hierarchy.
@@ -2699,27 +2699,27 @@ NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-  - INDEXED_BY: [[00_HOME]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
 
-  - INDEXED_BY: [[04_INFRASTRUCTURE_CANON_MOC]]
+  - INDEXED_BY: 
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+  - GOVERNED_BY: 
 
-  - TARGET_INTERACTION: [[KERNEL_README]]
+  - TARGET_INTERACTION: 
 
-  - TARGET_GATED_BY: [[CONTROL_PLANE_README]]
+  - TARGET_GATED_BY: 
 
-  - TARGET_OBSERVED_BY: [[OBSERVABILITY_README]]
+  - TARGET_OBSERVED_BY: 
 
-  - TARGET_RECOVERED_BY: [[OPERATIONS_README]]
-
-  - VALIDATION_DEPENDENCY:
-    [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+  - TARGET_RECOVERED_BY: 
 
   - VALIDATION_DEPENDENCY:
-    [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+    
+
+  - VALIDATION_DEPENDENCY:
+    
 ```
 
 ---
@@ -2727,19 +2727,19 @@ RSCF-RELATIONS:
 # 92. Navigation
 
 ```text
-[[00_HOME]]
+
      ↓
-[[04_INFRASTRUCTURE_CANON_MOC]]
+
      ↓
-[[CAS_CANON]]
+
 ```
 
 Governance:
 
 ```text
-[[LAW_HIERARCHY]]
+
      ↓
-[[CAS_CANON]]
+
 ```
 
 Target runtime relationships:
@@ -2747,10 +2747,10 @@ Target runtime relationships:
 ```text
 CAS_CANON
    │
-   ├── [[KERNEL_README]]
-   ├── [[CONTROL_PLANE_README]]
-   ├── [[OBSERVABILITY_README]]
-   └── [[OPERATIONS_README]]
+   ├── 
+   ├── 
+   ├── 
+   └── 
 ```
 
 ---
@@ -2962,7 +2962,7 @@ until native AMOS source material and the required promotion evidence establish 
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 

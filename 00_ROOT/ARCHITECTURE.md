@@ -18,7 +18,7 @@ rscf:
 ---
 
 
-# ARCHITECTURE
+# [[ARCHITECTURE]]
 
 ## 0. Status
 Root-plane artifact. AMOS_MODEL · CONDITIONAL · implementation PARTIAL.
@@ -69,7 +69,7 @@ Given an operation touching `ARCHITECTURE` within the Root plane:
 RSCF-NODE
 node_id: 00_ROOT_ARCHITECTUREmd
 node_type: note
-path: 00_ROOT/ARCHITECTURE.md
+path: 00_ROOT/[[ARCHITECTURE]].md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]

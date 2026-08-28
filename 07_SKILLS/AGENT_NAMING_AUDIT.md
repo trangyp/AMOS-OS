@@ -79,7 +79,7 @@ Every agent was brought to the `Agent Structure Standard`:
 - Legacy `dependencies` / `entry_points` arrays were preserved and mapped into the standard fields where applicable
 - Original `procedures` blocks were retained inside `operations` as extra context when present
 
-### v2 — SKILL.md Real-Content Re-fill
+### v2 — [[SKILL]].md Real-Content Re-fill
 
 After the structural pass, every agent was re-visited against its matching `.devin/skills/` file:
 

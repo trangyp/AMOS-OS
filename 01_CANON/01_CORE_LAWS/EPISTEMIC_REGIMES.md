@@ -3433,7 +3433,7 @@ Historical epistemic class rewritten without lineage.
 | ----------------------------------------- | ------------------------------------------------------------------ |
 | A document asserts X                      | `SOURCE_CLAIM`                                                     |
 | A person reports X                        | `SOURCE_CLAIM`                                                     |
-| A README reports test success             | `SOURCE_CLAIM`                                                     |
+| A [[README]] reports test success             | `SOURCE_CLAIM`                                                     |
 | A test is directly executed and returns X | `OBSERVATION`                                                      |
 | A sensor directly records X               | `OBSERVATION`                                                      |
 | File inspection finds X                   | `OBSERVATION`                                                      |
@@ -3868,28 +3868,28 @@ falsifiers:
 # 122. Dependency Graph
 
 ```text
-                         [[L1_EPISTEMIC]]
+                         
                                 |
                                 v
-                    [[EPISTEMIC_REGIMES]]
+                    
                        /      |       \
                       /       |        \
                      v        v         v
-              [[L17_RSCF]]  [[L21_EPISTEMIC_REGIME]]
+                
                      |               |
                      |               v
-                     |       [[L5_SCOPE_REGIME]]
+                     |       
                      |               |
                      |               v
-                     |    [[SCOPE_REGIME_FIREWALL]]
+                     |    
                      |
                      +----------------------+
                                             |
                                             v
-                                      [[L27_GAP]]
+                                      
                                             |
                                             v
-                                  [[L28_CRITICAL_GAP]]
+                                  
 ```
 
 This graph represents architectural relationships suggested by the
@@ -4251,28 +4251,28 @@ RSCF-RELATIONS:
 
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-  - CHILD_OF: [[LAW_HIERARCHY]]
+  - CHILD_OF: 
 
-  - RELATED_TO: [[L17_RSCF]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L21_EPISTEMIC_REGIME]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L22_ATOMIC_REASONING]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L1_EPISTEMIC]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L5_SCOPE_REGIME]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[SCOPE_REGIME_FIREWALL]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L27_GAP]]
+  - RELATED_TO: 
 
-  - RELATED_TO: [[L28_CRITICAL_GAP]]
+  - RELATED_TO: 
 
-  - INDEXED_BY: [[01_CORE_LAWS_MOC]]
+  - INDEXED_BY: [[01_CANON_MOC]]
 
   - FRAMEWORK_CONTEXT:
-      [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+      
 ```
 
 ---

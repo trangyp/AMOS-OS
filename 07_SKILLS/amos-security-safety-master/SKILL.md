@@ -49,7 +49,7 @@ license: MIT
 steward: Trang Phan
 ---
 
-# SECURITY README
+# SECURITY [[README]]
 
 ## Identity
 
@@ -80,7 +80,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 > **Source**: `18_SECURITY/SECURITY_README.md` from the AMOS_OS Obsidian vault.
 > This is substantive domain knowledge, not script-generated content.
 
-# SECURITY README
+# SECURITY [[README]]
 
 ## Purpose
 `SECURITY README` is the package readme for the **Security** plane segment at `18_SECURITY`.
@@ -221,9 +221,9 @@ Given an operation touching `SECURITY · README` within the Security plane:
 - `references/shellshock.md` — loaded on demand
 - `references/tech_safe_honest_societies.md` — loaded on demand
 - `references/web_cache_poisoning.md` — loaded on demand
-- `[[amos-security-safety-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-security-safety-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-security-safety-master-agent` — corresponding agent
 ---
 
@@ -237,7 +237,7 @@ Given an operation touching `SECURITY · README` within the Security plane:
 RSCF-NODE
 node_id: amos-security-safety-master
 node_type: skill
-path: 07_SKILLS/amos-security-safety-master/SKILL.md
+path: 07_SKILLS/amos-security-safety-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

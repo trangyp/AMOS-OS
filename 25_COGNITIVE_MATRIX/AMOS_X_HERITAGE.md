@@ -175,13 +175,13 @@ No single signal layer is assumed sufficient.
 A decision is instead formed by evaluating:
 
 ```text
-WHAT SIGNALS EXIST?
+WHAT [[SIGNALS]] EXIST?
         ↓
 HOW RELIABLE ARE THEY?
         ↓
-WHICH SIGNALS AGREE?
+WHICH [[SIGNALS]] AGREE?
         ↓
-WHICH SIGNALS CONTRADICT?
+WHICH [[SIGNALS]] CONTRADICT?
         ↓
 WHAT REGIME ARE WE IN?
         ↓
@@ -2582,13 +2582,13 @@ AMOS Heritage
 
 Related canonical targets:
 
-* [[AMOS_X_HERITAGE_MATRIX]]
-* [[AMOS_RSCF_NODES]]
-* [[LAW_HIERARCHY]]
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 ---
 
@@ -2604,7 +2604,7 @@ AMOS_X_HERITAGE.md
     =
 framework / architecture / semantics / equations / governance
 
-AMOS_X_HERITAGE_MATRIX.md
+[[AMOS_X_HERITAGE_MATRIX]].md
     =
 matrix representation / mappings / registry / cross-domain index
 ```
@@ -2860,7 +2860,7 @@ That boundary is part of the architecture itself.
 
 00_ROOT_MOC|AMOS MOC
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[AMOS_X_HERITAGE_MATRIX]]
+**Related:**  ·  · 
 
 ```
 
@@ -2872,5 +2872,5 @@ The next level beyond this would be a true **MAX-detail ingestion** of the hundr
 ```
 
 ---
-**MOC:** [[25_COGNITIVE_MATRIX_MOC]]
+**MOC:** 
 ```

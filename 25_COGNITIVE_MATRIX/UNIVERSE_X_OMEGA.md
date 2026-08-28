@@ -1291,7 +1291,7 @@ But positivity of `Reserves` remains unsupplied.
 
 The explicit counterpart is:
 
-[[UNIVERSE_X_OMEGA_MATRIX]]
+
 
 The matrix supplies the seven Universe strata:
 
@@ -1315,11 +1315,11 @@ Omega collapse formulation
         │
         ├───────────────┐
         ▼               ▼
-UNIVERSE CANON      OMEGA LIMITS
+UNIVERSE [[CANON]]      OMEGA LIMITS
         │               │
         └───────┬───────┘
                 ▼
-UNIVERSE_X_OMEGA_MATRIX.md
+[[UNIVERSE_X_OMEGA_MATRIX]].md
                 │
                 ▼
 P1–P7 typed stress/defense mapping
@@ -2620,7 +2620,7 @@ Confidence:
 
 # 94. Preserve Competition
 
-Until [[UNIVERSE_X_OMEGA]] itself contains additional sections or a connected Omega theorem artifact resolves the semantics:
+Until  itself contains additional sections or a connected Omega theorem artifact resolves the semantics:
 
 ```yaml
 P_collapse_semantics:
@@ -2724,7 +2724,7 @@ The exact runtime link between the global model and local trigger evaluation rem
 
 The specification explicitly links:
 
-[[02_UNIVERSE_CANON_MOC]]
+
 
 and states convergence with the:
 
@@ -2803,7 +2803,7 @@ seven_part_universe_canon:
 
 The source explicitly connects:
 
-[[KHUNG_TRANG_MASTER]]
+
 
 This establishes a navigation/dependency edge.
 
@@ -2833,7 +2833,7 @@ khung_trang_binding:
 
 The specification also explicitly links:
 
-[[25_COGNITIVE_MATRIX_MOC]]
+
 
 Therefore it is part of the broader Cognitive Matrix plane.
 
@@ -2850,9 +2850,9 @@ For interpreting this artifact, the smallest sufficient dependency chain is:
 ```text
 UNIVERSE_X_OMEGA.md
         │
-        ├── UNIVERSE_X_OMEGA_MATRIX.md
+        ├── [[UNIVERSE_X_OMEGA_MATRIX]].md
         │
-        └── 02_UNIVERSE_CANON_MOC
+        └── [[02_UNIVERSE_CANON_MOC]]
 ```
 
 `KHUNG_TRANG_MASTER` should be retrieved only when a question materially depends on its equations or definitions.
@@ -3116,8 +3116,8 @@ PROOF_CAPSULE_P5:
   premises:
 
     - "UNIVERSE_X_OMEGA: Omega = systemic overreach / overhead ratio"
-    - "UNIVERSE_X_OMEGA_MATRIX: Omega >= 0.70"
-    - "UNIVERSE_X_OMEGA_MATRIX: defense = Modular Decoupling Protocol"
+    - "[[UNIVERSE_X_OMEGA_MATRIX]]: Omega >= 0.70"
+    - "[[UNIVERSE_X_OMEGA_MATRIX]]: defense = Modular Decoupling Protocol"
 
   result:
     "SystemicOverreachRatio >= 0.70 => ModularDecouplingProtocol"
@@ -3786,7 +3786,7 @@ flowchart TD
     SPEC["UNIVERSE_X_OMEGA.md"]
     EQ["Pcollapse ~ ΩFS / (H·Reserves)"]
 
-    MATRIX["UNIVERSE_X_OMEGA_MATRIX.md"]
+    MATRIX["[[UNIVERSE_X_OMEGA_MATRIX]].md"]
     P1["P1 Reality"]
     P2["P2 Logic"]
     P3["P3 Organism"]
@@ -4100,13 +4100,13 @@ When a question cannot be resolved locally:
 ```text
 1. UNIVERSE_X_OMEGA.md
         ↓
-2. UNIVERSE_X_OMEGA_MATRIX.md
+2. [[UNIVERSE_X_OMEGA_MATRIX]].md
         ↓
-3. 02_UNIVERSE_CANON_MOC
+3. [[02_UNIVERSE_CANON_MOC]]
         ↓
 4. relevant Omega theorem node
         ↓
-5. KHUNG_TRANG_MASTER
+5. [[KHUNG_TRANG_MASTER]]
         ↓
 6. raw evidence only if required
 ```
@@ -4152,7 +4152,7 @@ Pcollapse ~ ΩFS/(H·Reserves)
 The paired artifacts now support the following source-grounded/derived architecture:
 
 ```text
-7-PART UNIVERSE CANON
+7-PART UNIVERSE [[CANON]]
         │
         ▼
 P1 Reality

@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# UBI NeuroSyncAI RATPAK Integration Module
+# UBI NeuroSyncAI [[RATPAK]] Integration Module
 
 > Source: `_00_Cosmo brain/biology-ubi/🔗 INTEGRATION MODULE UBI + NeuroSyncAI™ + RATPAK.md`
 > Epistemic class: SOURCE_DERIVED
@@ -22,7 +22,7 @@ rscf:
 ---
 tags: [biology-ubi]
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>🔗 INTEGRATION MODULE: UBI + NeuroSyncAI™ + RATPAK</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>🔗 [[INTEGRATION]] MODULE: UBI + NeuroSyncAI™ + [[RATPAK]]</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {

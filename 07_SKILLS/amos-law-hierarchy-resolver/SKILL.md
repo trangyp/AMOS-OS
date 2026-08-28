@@ -211,9 +211,9 @@ Defines the structural quadrants that govern all higher-order system behavior.
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-law-hierarchy-resolver_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c01-meta-logic-master` — parent skill
-- `[[amos-law-hierarchy-resolver-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-law-hierarchy-resolver-agent` — corresponding agent
 ---
 
@@ -227,7 +227,7 @@ Defines the structural quadrants that govern all higher-order system behavior.
 RSCF-NODE
 node_id: amos-law-hierarchy-resolver
 node_type: skill
-path: 07_SKILLS/amos-law-hierarchy-resolver/SKILL.md
+path: 07_SKILLS/amos-law-hierarchy-resolver/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

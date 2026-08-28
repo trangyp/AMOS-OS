@@ -92,7 +92,7 @@ This pipeline performs:
 
 ---
 
-# 4. OFFICIAL CANON RULES
+# 4. OFFICIAL [[CANON]] RULES
 
 AMOS must always maintain this deterministic tree:
 

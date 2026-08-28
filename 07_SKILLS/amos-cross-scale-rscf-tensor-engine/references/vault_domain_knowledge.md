@@ -155,7 +155,7 @@ AMOS Brain has been **successfully enhanced with quantum tensor network processi
 
 ---
 
-## QUANTUM TENSOR ARCHITECTURE
+## QUANTUM TENSOR [[ARCHITECTURE]]
 
 ### Core Components Implemented (8/8 Complete)
 

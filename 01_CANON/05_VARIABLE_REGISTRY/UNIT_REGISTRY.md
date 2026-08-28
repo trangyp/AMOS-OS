@@ -4009,14 +4009,14 @@ KEEP IT UNKNOWN/GAP.
 
 ---
 
-**Related:** README|AMOS OS · ARCHITECTURE|Architecture · 00_ROOT_NAMING_STANDARD|Naming Standard · PLACEMENT_RULES|Placement Rules · CANON_MAP|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · INVARIANT_REGISTRY|Invariant Registry · LAW_HIERARCHY|Law Hierarchy · SYMBOL_REGISTRY|Symbol Registry · HML_CANON|H/M/L Canon · PERSISTENCE_CANON|Persistence Canon · COGNITION_CANON|Cognition Canon · INFRASTRUCTURE_CANON|Infrastructure Canon · KERNEL_MAP|Kernel Map · RUNTIME_MAP|Runtime Map · COGNITIVE_ORGANISM_MAP|Cognitive Organism Map · Knowledge Map · STATE_STATE_MAP|State Map · MODEL_MAP|Model Map · SCHEMA_MAP|Schema Map · OBSERVABILITY_OBSERVABILITY_MAP|Observability Map · TEST_MAP|Test Map · INDEX_RESEARCH_README|Research · COGNITIVE_MATRIX_ARCHITECTURE|Cognitive Matrix
+**Related:** [[README]]|AMOS OS · [[ARCHITECTURE]]|Architecture · [[00_ROOT_NAMING_STANDARD]]|Naming Standard · [[PLACEMENT_RULES]]|Placement Rules · [[CANON_MAP]]|Canon Map · [[AMOS_CORE_LAWS|AMOS Core Laws]] · [[INVARIANT_REGISTRY]]|Invariant Registry · [[LAW_HIERARCHY]]|Law Hierarchy · [[SYMBOL_REGISTRY]]|Symbol Registry · [[HML_CANON]]|H/M/L Canon · [[PERSISTENCE_CANON]]|Persistence Canon · [[COGNITION_CANON]]|Cognition Canon · [[INFRASTRUCTURE_CANON]]|Infrastructure Canon · [[KERNEL_MAP]]|Kernel Map · [[RUNTIME_MAP]]|Runtime Map · [[COGNITIVE_ORGANISM_MAP]]|Cognitive Organism Map · Knowledge Map · [[STATE_STATE_MAP]]|State Map · [[MODEL_MAP]]|Model Map · [[SCHEMA_MAP]]|Schema Map · [[OBSERVABILITY_OBSERVABILITY_MAP]]|Observability Map · [[TEST_MAP]]|Test Map · [[INDEX_RESEARCH_README]]|Research · [[COGNITIVE_MATRIX_ARCHITECTURE]]|Cognitive Matrix
 
 ```text
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

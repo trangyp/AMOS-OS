@@ -1369,9 +1369,9 @@ CAUSAL EQUIVALENCE
 Where AMOS connects UBI to:
 
 ```text
-[[AMOS_X_QLS]]
 
-[[AMOS_X_TRANG_REALITY]]
+
+
 ```
 
 the relationship remains:
@@ -2300,10 +2300,10 @@ AMOS_DERIVED
 
 # 77. Cross-Artifact Consistency
 
-`[[AMOS_X_UBI]]` and:
+`` and:
 
 ```text
-[[AMOS_X_UBI_MATRIX]]
+
 ```
 
 MUST use the same canonical mathematical boundary:
@@ -2530,41 +2530,41 @@ typed artifacts
 Governed by:
 
 ```text
-[[LAW_HIERARCHY]]
+
 ```
 
 Kernel interaction:
 
 ```text
-[[KERNEL_README]]
+
 ```
 
 Control-plane gates:
 
 ```text
-[[CONTROL_PLANE_README]]
+
 ```
 
 Observed by:
 
 ```text
-[[OBSERVABILITY_README]]
+
 ```
 
 Recovered through:
 
 ```text
-[[OPERATIONS_README]]
+
 ```
 
 Indexed through:
 
 ```text
-[[00_HOME]]
 
-[[AMOS_RSCF_NODES]]
 
-[[25_COGNITIVE_MATRIX_MOC]]
+
+
+
 ```
 
 ---
@@ -2572,17 +2572,17 @@ Indexed through:
 # 86. Framework Bindings
 
 ```text
-[[AMOS_X_UBI_MATRIX]]
 
-[[AMOS_X_TSS]]
 
-[[AMOS_X_TPE]]
 
-[[AMOS_X_NEUROSYNCAI]]
 
-[[AMOS_X_QLS]]
 
-[[AMOS_X_TRANG_REALITY]]
+
+
+
+
+
+
 ```
 
 Paired biological framework:

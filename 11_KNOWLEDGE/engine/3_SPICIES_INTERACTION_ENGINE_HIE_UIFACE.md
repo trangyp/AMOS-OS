@@ -3210,7 +3210,7 @@ Universe_Interaction_Engine:
 # END OF Universe_Interaction_Engine.uops (FULL MERGE)
 
 
-- [[00_COSMO_BRAIN_MOC]]
+- 
 ```
 
 ---

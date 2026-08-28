@@ -209,9 +209,9 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 - `references/fractal_forex_enterprise.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-forex-unified-os_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `[[amos-forex-unified-os-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-forex-unified-os-agent` — corresponding agent
 ---
 
@@ -225,7 +225,7 @@ The Omega FX Engine is **structural (NOT predictive)** FX analysis. It provides 
 RSCF-NODE
 node_id: amos-forex-unified-os
 node_type: skill
-path: 07_SKILLS/amos-forex-unified-os/SKILL.md
+path: 07_SKILLS/amos-forex-unified-os/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

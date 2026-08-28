@@ -1485,7 +1485,7 @@ Recursive reinforcement
 ---
 
 
-## XXIII. SPACETIME INTEGRATION — Ψ_ST
+## XXIII. SPACETIME [[INTEGRATION]] — Ψ_ST
 
 
 ### Vấn đề
@@ -4048,7 +4048,7 @@ This preserves the source as a stable research object while validation evolves i
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

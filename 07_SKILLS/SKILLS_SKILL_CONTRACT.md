@@ -14,10 +14,10 @@ rscf:
 ---
 
 
-# SKILLS SKILL CONTRACT
+# SKILLS [[SKILL]] CONTRACT
 
 ## 0. Status
-Skills-plane contract for **SKILLS SKILL CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
+Skills-plane contract for **SKILLS [[SKILL]] CONTRACT**. AMOS_MODEL; canonical status CONDITIONAL; implementation PARTIAL.
 
 ## 1. Scope
 Governs host skill packages exposing workflows; deployment infrastructure, never truth authorities as they bear on `SKILLS SKILL CONTRACT`. Bounded by dependency closure: conclusions inherit the weakest load-bearing premise.
@@ -62,14 +62,14 @@ Given an operation touching `SKILLS SKILL CONTRACT` within the Skills plane:
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

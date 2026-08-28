@@ -116,7 +116,7 @@ The AMOS (Advanced Mathematical Optimization System) has achieved significant pr
 
 ---
 
-## ️ **SYSTEM ARCHITECTURE**
+## ️ **SYSTEM [[ARCHITECTURE]]**
 
 ### **Repository Structure Sta
 

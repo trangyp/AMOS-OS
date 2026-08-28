@@ -222,9 +222,9 @@ This file is designed as a stabl
 
 - `references/causal_discovery_spec.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-arxiv-multistage-order-causal-discovery-rscf_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-knowledge-research-master` — parent skill
-- `[[amos-arxiv-multistage-order-causal-discovery-rscf-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-arxiv-multistage-order-causal-discovery-rscf-agent` — corresponding agent
 ---
 
@@ -238,7 +238,7 @@ This file is designed as a stabl
 RSCF-NODE
 node_id: amos-arxiv-multistage-order-causal-discovery-rscf
 node_type: skill
-path: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf/SKILL.md
+path: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

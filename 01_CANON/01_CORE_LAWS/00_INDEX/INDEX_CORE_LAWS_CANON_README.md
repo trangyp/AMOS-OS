@@ -15,17 +15,17 @@ tags:
 canon-group: canon/core-laws
 ---
 
----title: "AMOS Core Laws Canon Index README"
+---title: "AMOS Core Laws Canon Index [[README]]"
 type: document
 tags: [note]
 ---
 
 
-# README
+# [[README]]
 
 ## 0. Status
 
-This document defines the substantive README and navigation contract for:
+This document defines the substantive [[README]] and navigation contract for:
 
 `01_CANON/01_CORE_LAWS/00_INDEX/`
 
@@ -127,7 +127,7 @@ VALIDATED(x)
 
 # 3. Non-Purpose
 
-This README is not:
+This [[README]] is not:
 
 - the complete Core Laws canon;
 - the authoritative text of every Core Law;
@@ -205,7 +205,7 @@ The index SHOULD optimize discoverability without weakening epistemic or governa
 
 The `00_INDEX` layer SHOULD distinguish the following responsibilities.
 
-## 6.1 README
+## 6.1 [[README]]
 
 `INDEX_CORE_LAWS_CANON_README.md`
 
@@ -242,7 +242,7 @@ These responsibilities SHOULD remain separate even if some implementations combi
 
 ---
 
-# 7. README → Contract Relationship
+# 7. [[README]] → Contract Relationship
 
 ```text
 README
@@ -264,13 +264,13 @@ Therefore:
 README != CONTRACT
 ```
 
-The README describes orientation and usage.
+The [[README]] describes orientation and usage.
 
 The contract defines requirements and boundaries.
 
 ---
 
-# 8. README → Map Relationship
+# 8. [[README]] → Map Relationship
 
 ```text
 README
@@ -286,11 +286,11 @@ The map answers structural questions such as:
 - what law constrains which policy;
 - and what downstream components may require revalidation.
 
-The README should not duplicate the complete map.
+The [[README]] should not duplicate the complete map.
 
 ---
 
-# 9. README → Registry Relationship
+# 9. [[README]] → Registry Relationship
 
 ```text
 README
@@ -309,7 +309,7 @@ status: null
 source_refs: []
 ```
 
-The README itself does not establish those values.
+The [[README]] itself does not establish those values.
 
 ---
 
@@ -1116,7 +1116,7 @@ VALIDATION CONTROL
 EXECUTION CONTROL
 ```
 
-The README describes these integration requirements.
+The [[README]] describes these integration requirements.
 
 It does not claim every control plane is currently implemented.
 
@@ -1495,7 +1495,7 @@ This specification should be revised if authoritative AMOS material establishes:
 - different authority semantics;
 - different dependency semantics;
 - different supersession semantics;
-- or a superseding canonical README.
+- or a superseding canonical [[README]].
 
 ---
 
@@ -1503,7 +1503,7 @@ This specification should be revised if authoritative AMOS material establishes:
 
 | Area                        | Current status         | Gap class         |
 | --------------------------- | ---------------------- | ----------------- |
-| README structure            | `FILLED_AS_AMOS_MODEL` | —                 |
+| [[README]] structure            | `FILLED_AS_AMOS_MODEL` | —                 |
 | Core Laws purpose           | `PROPOSED`             | Explanatory       |
 | Complete law inventory      | `UNKNOWN/GAP`          | Critical          |
 | Canonical law IDs           | `UNKNOWN/GAP`          | Critical          |
@@ -1556,7 +1556,7 @@ CHANGE / ROLLBACK PROCESS
 
 # 58. Canon Admission Boundary
 
-No content generated within this README automatically enters canon.
+No content generated within this [[README]] automatically enters canon.
 
 Promotion requires the appropriate AMOS process for:
 
@@ -1757,13 +1757,13 @@ completion:
 
 ---
 
-# 63. Governing README Law
+# 63. Governing [[README]] Law
 
 > **The Core Laws index exists to make law discoverable without making unsupported law authoritative. An index entry is a pointer, not proof; a map edge is a relationship claim, not automatic truth; a newer representation is not automatic supersession; a generated specification is not source canon; capability does not confer authority; proposals do not commit themselves; and unresolved provenance, dependency, scope, regime, version, conflict, or authority remains explicitly unresolved.**
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -1789,11 +1789,11 @@ RSCF-RELATIONS:
 
 - INDEXED_BY: [[00_HOME]]
 
-- INDEXED_BY: AMOS_RSCF_NODES
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-- GOVERNED_BY: CORE_LAWS_CANON_CORE_LAWS_CONTRACT
+- GOVERNED_BY: [[CORE_LAWS_CANON_CORE_LAWS_CONTRACT]]
 
-- MAPS_TO: CORE_LAWS_MAP
+- MAPS_TO: [[CORE_LAWS_MAP]]
 
 - DEPENDS_ON: [[00_ROOT_MOC]]
 

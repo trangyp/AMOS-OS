@@ -2008,7 +2008,7 @@ def recover_from_failure(failed_premise, epoch):
 
 ---
 
-# 85. Relationship to K_CAUSAL_CLOSURE
+# 85. Relationship to [[K_CAUSAL_CLOSURE]]
 
 ```text
 K_CAUSAL_CLOSURE
@@ -2034,7 +2034,7 @@ EPOCH-BOUNDED CAUSAL CLAIM
 
 ---
 
-# 86. Relationship to K_COUNTERFACTUAL
+# 86. Relationship to [[K_COUNTERFACTUAL]]
 
 Counterfactual branches should normally preserve their source epoch.
 
@@ -2048,7 +2048,7 @@ The counterfactual branch must not silently replace authoritative epoch state.
 
 ---
 
-# 87. Relationship to K_MULTI_HYPOTHESIS
+# 87. Relationship to [[K_MULTI_HYPOTHESIS]]
 
 Competing hypotheses may produce competing causal epoch candidates.
 
@@ -2061,7 +2061,7 @@ Preserve both until discriminating evidence or governed authority resolves the c
 
 ---
 
-# 88. Relationship to K_METACOGNITION
+# 88. Relationship to [[K_METACOGNITION]]
 
 `K_METACOGNITION` should challenge epoch validity for:
 
@@ -2078,7 +2078,7 @@ UNAUTHORIZED COMMIT
 
 ---
 
-# 89. Relationship to K_STRUCTURAL_REASONING
+# 89. Relationship to [[K_STRUCTURAL_REASONING]]
 
 `K_STRUCTURAL_REASONING` identifies system structure.
 
@@ -2531,7 +2531,7 @@ SILENTLY MUTATING HISTORY.
 ## Related
 
 [[README]] ·
-00_ROOT_MOC|AMOS MOC ·
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[AUTHORITATIVE_STATE]] ·
 [[DEPENDENCY_MAP]] ·
@@ -2553,11 +2553,11 @@ SILENTLY MUTATING HISTORY.
 [[K_COUNTERFACTUAL]] ·
 [[K_METACOGNITION]] ·
 [[K_MULTI_HYPOTHESIS]] ·
-README ·
-README ·
-README ·
-README ·
-README ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
 [[CONTROL_PLANE_MAP]] ·
 [[RUNTIME_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
@@ -2569,7 +2569,7 @@ README ·
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

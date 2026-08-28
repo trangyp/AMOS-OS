@@ -448,7 +448,7 @@ for infrastructure authorization
 
 ---
 
-# 7. H / M / L ARCHITECTURE
+# 7. H / M / L [[ARCHITECTURE]]
 
 ```text
 H — EXECUTION_SYSTEM governance
@@ -1138,7 +1138,7 @@ revocation not triggered
 
 ---
 
-# 30. POLICY VALIDATION
+# 30. POLICY [[VALIDATION]]
 
 ```yaml
 PolicyDecision:
@@ -3003,7 +3003,7 @@ The third invariant is:
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

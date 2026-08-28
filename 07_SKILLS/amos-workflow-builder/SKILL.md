@@ -222,9 +222,9 @@ Do not ask again for information already available from the request, source bund
 - `references/references_MOC.md` — loaded on demand
 - `references/validation.md` — loaded on demand
 - `references/workflows.md` — loaded on demand
-- `[[amos-workflow-builder_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-workflow-builder-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-workflow-builder-agent` — corresponding agent
 ---
 
@@ -238,7 +238,7 @@ Do not ask again for information already available from the request, source bund
 RSCF-NODE
 node_id: amos-workflow-builder
 node_type: skill
-path: 07_SKILLS/amos-workflow-builder/SKILL.md
+path: 07_SKILLS/amos-workflow-builder/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

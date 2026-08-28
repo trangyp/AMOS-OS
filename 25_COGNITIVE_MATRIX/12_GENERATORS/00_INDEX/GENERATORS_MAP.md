@@ -210,33 +210,33 @@ The generator subsystem currently maps the following artifact names.
 
 ## 4.1 Subsystem-Level Governance
 
-* COGNITIVE_MATRIX_GENERATORS_CONTRACT
-* GENERATORS_AUDIT
-* GENERATORS_BENCHMARKS
-* GENERATORS_CHANGE_LOG
-* GENERATORS_COGNITIVE_MATRIX_README
-* GENERATORS_HISTORY
-* GENERATORS_INTEGRATION
-* GENERATORS_PROVENANCE
-* GENERATORS_ROADMAP
-* GENERATORS_TESTS
-* GENERATORS_VALIDATION
-* GENERATORS_VERSIONING
+* [[COGNITIVE_MATRIX_GENERATORS_CONTRACT]]
+* [[GENERATORS_AUDIT]]
+* [[GENERATORS_BENCHMARKS]]
+* [[GENERATORS_CHANGE_LOG]]
+* [[GENERATORS_COGNITIVE_MATRIX_README]]
+* [[GENERATORS_HISTORY]]
+* [[GENERATORS_INTEGRATION]]
+* [[GENERATORS_PROVENANCE]]
+* [[GENERATORS_ROADMAP]]
+* [[GENERATORS_TESTS]]
+* [[GENERATORS_VALIDATION]]
+* [[GENERATORS_VERSIONING]]
 
 ## 4.2 Generator-Level Lifecycle
 
-* GENERATOR_ADMISSION
-* GENERATOR_CONTRACT
-* GENERATOR_FALSIFICATION
-* GENERATOR_OUTPUT
-* GENERATOR_PROMOTION
-* GENERATOR_REGISTRY
-* GENERATOR_SEED
-* GENERATOR_SUPERSESSION
-* GENERATOR_TEMPLATES
-* GENERATOR_TESTS
-* GENERATOR_VALIDATION
-* GENERATOR_VERSIONING
+* [[GENERATOR_ADMISSION]]
+* [[GENERATOR_CONTRACT]]
+* [[GENERATOR_FALSIFICATION]]
+* [[GENERATOR_OUTPUT]]
+* [[GENERATOR_PROMOTION]]
+* [[GENERATOR_REGISTRY]]
+* [[GENERATOR_SEED]]
+* [[GENERATOR_SUPERSESSION]]
+* [[GENERATOR_TEMPLATES]]
+* [[GENERATOR_TESTS]]
+* [[GENERATOR_VALIDATION]]
+* [[GENERATOR_VERSIONING]]
 
 ---
 
@@ -244,30 +244,30 @@ The generator subsystem currently maps the following artifact names.
 
 | Artifact                                 | Primary Responsibility                                                           |
 | ---------------------------------------- | -------------------------------------------------------------------------------- |
-| COGNITIVE_MATRIX_GENERATORS_CONTRACT | Governing contract for the generator subsystem                                   |
-| GENERATORS_COGNITIVE_MATRIX_README   | Human-readable subsystem orientation and operating overview                      |
-| GENERATOR_CONTRACT                   | Contract applying to an individual generator                                     |
-| GENERATOR_REGISTRY                   | Registry/index of known generator identities and metadata                        |
-| GENERATOR_SEED                       | Definition and governance of generator initialization material                   |
-| GENERATOR_TEMPLATES                  | Reusable generator structural templates                                          |
-| GENERATOR_OUTPUT                     | Output envelope, typing, provenance, and result requirements                     |
-| GENERATOR_FALSIFICATION              | Conditions and procedures capable of challenging generated claims                |
-| GENERATOR_TESTS                      | Tests applicable to individual generators                                        |
-| GENERATORS_TESTS                     | Tests applying across the generator subsystem                                    |
-| GENERATOR_VALIDATION                 | Validation state and rules for individual generators                             |
-| GENERATORS_VALIDATION                | System-level validation architecture                                             |
-| GENERATOR_ADMISSION                  | Conditions for admitting a generator into an allowed operational/reference state |
-| GENERATOR_PROMOTION                  | Governance for promotion between lifecycle states                                |
-| GENERATOR_VERSIONING                 | Version identity and lineage for individual generators                           |
-| GENERATORS_VERSIONING                | System-wide generator versioning policy                                          |
-| GENERATOR_SUPERSESSION               | Replacement relationships between generator versions/artifacts                   |
-| GENERATORS_PROVENANCE                | Provenance topology across generator artifacts                                   |
-| GENERATORS_INTEGRATION               | Interfaces with other AMOS subsystems                                            |
-| GENERATORS_BENCHMARKS                | Benchmark definitions/results where evidence exists                              |
-| GENERATORS_AUDIT                     | Audit surfaces and integrity inspection                                          |
-| GENERATORS_CHANGE_LOG                | Recorded generator subsystem changes                                             |
-| GENERATORS_HISTORY                   | Historical lineage and prior states                                              |
-| GENERATORS_ROADMAP                   | Proposed future development; not implementation evidence                         |
+| [[COGNITIVE_MATRIX_GENERATORS_CONTRACT]] | Governing contract for the generator subsystem                                   |
+| [[GENERATORS_COGNITIVE_MATRIX_README]]   | Human-readable subsystem orientation and operating overview                      |
+| [[GENERATOR_CONTRACT]]                   | Contract applying to an individual generator                                     |
+| [[GENERATOR_REGISTRY]]                   | Registry/index of known generator identities and metadata                        |
+| [[GENERATOR_SEED]]                       | Definition and governance of generator initialization material                   |
+| [[GENERATOR_TEMPLATES]]                  | Reusable generator structural templates                                          |
+| [[GENERATOR_OUTPUT]]                     | Output envelope, typing, provenance, and result requirements                     |
+| [[GENERATOR_FALSIFICATION]]              | Conditions and procedures capable of challenging generated claims                |
+| [[GENERATOR_TESTS]]                      | Tests applicable to individual generators                                        |
+| [[GENERATORS_TESTS]]                     | Tests applying across the generator subsystem                                    |
+| [[GENERATOR_VALIDATION]]                 | Validation state and rules for individual generators                             |
+| [[GENERATORS_VALIDATION]]                | System-level validation architecture                                             |
+| [[GENERATOR_ADMISSION]]                  | Conditions for admitting a generator into an allowed operational/reference state |
+| [[GENERATOR_PROMOTION]]                  | Governance for promotion between lifecycle states                                |
+| [[GENERATOR_VERSIONING]]                 | Version identity and lineage for individual generators                           |
+| [[GENERATORS_VERSIONING]]                | System-wide generator versioning policy                                          |
+| [[GENERATOR_SUPERSESSION]]               | Replacement relationships between generator versions/artifacts                   |
+| [[GENERATORS_PROVENANCE]]                | Provenance topology across generator artifacts                                   |
+| [[GENERATORS_INTEGRATION]]               | Interfaces with other AMOS subsystems                                            |
+| [[GENERATORS_BENCHMARKS]]                | Benchmark definitions/results where evidence exists                              |
+| [[GENERATORS_AUDIT]]                     | Audit surfaces and integrity inspection                                          |
+| [[GENERATORS_CHANGE_LOG]]                | Recorded generator subsystem changes                                             |
+| [[GENERATORS_HISTORY]]                   | Historical lineage and prior states                                              |
+| [[GENERATORS_ROADMAP]]                   | Proposed future development; not implementation evidence                         |
 
 ---
 
@@ -277,7 +277,7 @@ The generator architecture has at least two conceptual contract scopes.
 
 ## 6.1 Subsystem Contract
 
-COGNITIVE_MATRIX_GENERATORS_CONTRACT
+[[COGNITIVE_MATRIX_GENERATORS_CONTRACT]]
 
 governs the generator subsystem as a whole.
 
@@ -301,7 +301,7 @@ failure behavior
 
 ## 6.2 Individual Generator Contract
 
-GENERATOR_CONTRACT
+[[GENERATOR_CONTRACT]]
 
 defines requirements applying to an individual generator or generator class.
 
@@ -317,7 +317,7 @@ unless the applicable canon establishes another relationship.
 
 # 7. Generator Registry
 
-GENERATOR_REGISTRY is the primary map from generator identity to generator metadata.
+[[GENERATOR_REGISTRY]] is the primary map from generator identity to generator metadata.
 
 A conceptual registry record may contain:
 
@@ -383,7 +383,7 @@ $$G_{family} \neq G_{v3} \neq Execution(G_{v3},t) \neq Output(G_{v3},t)$$
 
 # 9. Generator Seed
 
-GENERATOR_SEED governs initialization material from which a generator may be instantiated, configured, or derived.
+[[GENERATOR_SEED]] governs initialization material from which a generator may be instantiated, configured, or derived.
 
 A seed may contain:
 
@@ -428,7 +428,7 @@ Unknown provenance remains unknown.
 
 # 11. Generator Templates
 
-GENERATOR_TEMPLATES defines reusable structures from which generator artifacts may be instantiated.
+[[GENERATOR_TEMPLATES]] defines reusable structures from which generator artifacts may be instantiated.
 
 Templates SHOULD distinguish:
 
@@ -493,7 +493,7 @@ dependency availability
 
 # 14. Generator Output
 
-GENERATOR_OUTPUT governs generated output.
+[[GENERATOR_OUTPUT]] governs generated output.
 
 A generator output SHOULD preserve enough information to distinguish the result from the generator that created it.
 
@@ -571,7 +571,7 @@ A generator must not self-upgrade an unsupported output to `VERIFIED`.
 
 # 17. Generator Falsification
 
-GENERATOR_FALSIFICATION defines mechanisms for actively attempting to invalidate generator outputs or generator-level assumptions.
+[[GENERATOR_FALSIFICATION]] defines mechanisms for actively attempting to invalidate generator outputs or generator-level assumptions.
 
 Potential falsification surfaces include:
 
@@ -611,9 +611,9 @@ falsifier:
 
 # 19. Generator Testing
 
-GENERATOR_TESTS addresses individual generator tests.
+[[GENERATOR_TESTS]] addresses individual generator tests.
 
-GENERATORS_TESTS addresses broader subsystem-level testing.
+[[GENERATORS_TESTS]] addresses broader subsystem-level testing.
 
 These layers SHOULD remain distinct.
 
@@ -668,9 +668,9 @@ where material.
 
 # 21. Generator Validation
 
-GENERATOR_VALIDATION governs validation of individual generators.
+[[GENERATOR_VALIDATION]] governs validation of individual generators.
 
-GENERATORS_VALIDATION governs validation at the subsystem level.
+[[GENERATORS_VALIDATION]] governs validation at the subsystem level.
 
 Validation SHOULD distinguish at least:
 
@@ -722,7 +722,7 @@ $$Validated(G,V_1) \not\Rightarrow Validated(G,V_2)$$
 
 # 24. Generator Admission
 
-GENERATOR_ADMISSION governs whether a generator is eligible to enter a particular operational or reference state.
+[[GENERATOR_ADMISSION]] governs whether a generator is eligible to enter a particular operational or reference state.
 
 Admission may require:
 
@@ -764,7 +764,7 @@ without being promoted to canonical status.
 
 # 26. Generator Promotion
 
-GENERATOR_PROMOTION governs transitions between lifecycle states.
+[[GENERATOR_PROMOTION]] governs transitions between lifecycle states.
 
 Conceptually:
 
@@ -826,9 +826,9 @@ unless the promotion itself depends on valid empirical verification evidence.
 
 # 29. Generator Versioning
 
-GENERATOR_VERSIONING governs version identity for individual generators.
+[[GENERATOR_VERSIONING]] governs version identity for individual generators.
 
-GENERATORS_VERSIONING governs system-wide versioning behavior.
+[[GENERATORS_VERSIONING]] governs system-wide versioning behavior.
 
 Version identity SHOULD allow reconstruction of:
 
@@ -864,7 +864,7 @@ $$G@v_2$$
 
 # 31. Generator Supersession
 
-GENERATOR_SUPERSESSION governs replacement relationships.
+[[GENERATOR_SUPERSESSION]] governs replacement relationships.
 
 Conceptually:
 
@@ -897,7 +897,7 @@ causal lineage
 
 # 33. Generator Provenance
 
-GENERATORS_PROVENANCE provides subsystem-level provenance architecture.
+[[GENERATORS_PROVENANCE]] provides subsystem-level provenance architecture.
 
 Generator provenance SHOULD be capable of representing:
 
@@ -995,7 +995,7 @@ $$N \times Descendant(P) \not\Rightarrow N \times IndependentEvidence(P)$$
 
 # 38. Generator Integration
 
-GENERATORS_INTEGRATION governs interaction with other AMOS components.
+[[GENERATORS_INTEGRATION]] governs interaction with other AMOS components.
 
 Potential integration surfaces include:
 
@@ -1173,13 +1173,13 @@ INDEXED_BY
 PART_OF
 ```
 
-The canonical RSCF vocabulary remains governed by K_RSCF and applicable lineage artifacts.
+The canonical RSCF vocabulary remains governed by [[K_RSCF]] and applicable lineage artifacts.
 
 ---
 
 # 46. Generator Audit
 
-GENERATORS_AUDIT SHOULD provide inspection surfaces for generator subsystem integrity.
+[[GENERATORS_AUDIT]] SHOULD provide inspection surfaces for generator subsystem integrity.
 
 Audit questions may include:
 
@@ -1226,7 +1226,7 @@ but audit completion does not itself prove generator correctness.
 
 # 48. Generator Benchmarks
 
-GENERATORS_BENCHMARKS contains benchmark-related material.
+[[GENERATORS_BENCHMARKS]] contains benchmark-related material.
 
 Benchmark results SHOULD preserve:
 
@@ -1260,7 +1260,7 @@ $$Pass(Benchmark) \not\Rightarrow UniversalValidity$$
 
 # 50. Generator History
 
-GENERATORS_HISTORY preserves historical subsystem development.
+[[GENERATORS_HISTORY]] preserves historical subsystem development.
 
 History SHOULD distinguish:
 
@@ -1278,7 +1278,7 @@ Historical presence does not establish current validity.
 
 # 51. Generator Change Log
 
-GENERATORS_CHANGE_LOG SHOULD record material modifications such as:
+[[GENERATORS_CHANGE_LOG]] SHOULD record material modifications such as:
 
 ```text
 new generator
@@ -1305,7 +1305,7 @@ It is not independently evidence that the change was correct.
 
 # 53. Generator Roadmap
 
-GENERATORS_ROADMAP describes intended or proposed future development.
+[[GENERATORS_ROADMAP]] describes intended or proposed future development.
 
 Roadmap items are prospective.
 
@@ -2174,58 +2174,58 @@ $$\boxed{ Creation \neq Validation \neq Admission \neq Promotion \neq Canon }$$
 
 ## Contracts
 
-* COGNITIVE_MATRIX_GENERATORS_CONTRACT
-* GENERATOR_CONTRACT
+* [[COGNITIVE_MATRIX_GENERATORS_CONTRACT]]
+* [[GENERATOR_CONTRACT]]
 
 ## Orientation / Map
 
-* GENERATORS_COGNITIVE_MATRIX_README
+* [[GENERATORS_COGNITIVE_MATRIX_README]]
 * GENERATORS_MAP
 
 ## Registry / Construction
 
-* GENERATOR_REGISTRY
-* GENERATOR_SEED
-* GENERATOR_TEMPLATES
+* [[GENERATOR_REGISTRY]]
+* [[GENERATOR_SEED]]
+* [[GENERATOR_TEMPLATES]]
 
 ## Output / Challenge
 
-* GENERATOR_OUTPUT
-* GENERATOR_FALSIFICATION
+* [[GENERATOR_OUTPUT]]
+* [[GENERATOR_FALSIFICATION]]
 
 ## Testing
 
-* GENERATOR_TESTS
-* GENERATORS_TESTS
+* [[GENERATOR_TESTS]]
+* [[GENERATORS_TESTS]]
 
 ## Validation
 
-* GENERATOR_VALIDATION
-* GENERATORS_VALIDATION
+* [[GENERATOR_VALIDATION]]
+* [[GENERATORS_VALIDATION]]
 
 ## Governance
 
-* GENERATOR_ADMISSION
-* GENERATOR_PROMOTION
+* [[GENERATOR_ADMISSION]]
+* [[GENERATOR_PROMOTION]]
 
 ## Lineage
 
-* GENERATOR_VERSIONING
-* GENERATORS_VERSIONING
-* GENERATOR_SUPERSESSION
-* GENERATORS_HISTORY
-* GENERATORS_CHANGE_LOG
+* [[GENERATOR_VERSIONING]]
+* [[GENERATORS_VERSIONING]]
+* [[GENERATOR_SUPERSESSION]]
+* [[GENERATORS_HISTORY]]
+* [[GENERATORS_CHANGE_LOG]]
 
 ## Evidence / Integrity
 
-* GENERATORS_PROVENANCE
-* GENERATORS_AUDIT
-* GENERATORS_BENCHMARKS
+* [[GENERATORS_PROVENANCE]]
+* [[GENERATORS_AUDIT]]
+* [[GENERATORS_BENCHMARKS]]
 
 ## Integration / Future
 
-* GENERATORS_INTEGRATION
-* GENERATORS_ROADMAP
+* [[GENERATORS_INTEGRATION]]
+* [[GENERATORS_ROADMAP]]
 
 ---
 
@@ -2355,7 +2355,7 @@ None of these functions should silently substitute for another.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -2375,71 +2375,71 @@ RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: COGNITIVE_MATRIX_MOC
+* PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
-* INDEXES: COGNITIVE_MATRIX_GENERATORS_CONTRACT
+* INDEXES: [[COGNITIVE_MATRIX_GENERATORS_CONTRACT]]
 
-* INDEXES: GENERATORS_AUDIT
+* INDEXES: [[GENERATORS_AUDIT]]
 
-* INDEXES: GENERATORS_BENCHMARKS
+* INDEXES: [[GENERATORS_BENCHMARKS]]
 
-* INDEXES: GENERATORS_CHANGE_LOG
+* INDEXES: [[GENERATORS_CHANGE_LOG]]
 
-* INDEXES: GENERATORS_COGNITIVE_MATRIX_README
+* INDEXES: [[GENERATORS_COGNITIVE_MATRIX_README]]
 
-* INDEXES: GENERATORS_HISTORY
+* INDEXES: [[GENERATORS_HISTORY]]
 
-* INDEXES: GENERATORS_INTEGRATION
+* INDEXES: [[GENERATORS_INTEGRATION]]
 
-* INDEXES: GENERATORS_PROVENANCE
+* INDEXES: [[GENERATORS_PROVENANCE]]
 
-* INDEXES: GENERATORS_ROADMAP
+* INDEXES: [[GENERATORS_ROADMAP]]
 
-* INDEXES: GENERATORS_TESTS
+* INDEXES: [[GENERATORS_TESTS]]
 
-* INDEXES: GENERATORS_VALIDATION
+* INDEXES: [[GENERATORS_VALIDATION]]
 
-* INDEXES: GENERATORS_VERSIONING
+* INDEXES: [[GENERATORS_VERSIONING]]
 
-* INDEXES: GENERATOR_ADMISSION
+* INDEXES: [[GENERATOR_ADMISSION]]
 
-* INDEXES: GENERATOR_CONTRACT
+* INDEXES: [[GENERATOR_CONTRACT]]
 
-* INDEXES: GENERATOR_FALSIFICATION
+* INDEXES: [[GENERATOR_FALSIFICATION]]
 
-* INDEXES: GENERATOR_OUTPUT
+* INDEXES: [[GENERATOR_OUTPUT]]
 
-* INDEXES: GENERATOR_PROMOTION
+* INDEXES: [[GENERATOR_PROMOTION]]
 
-* INDEXES: GENERATOR_REGISTRY
+* INDEXES: [[GENERATOR_REGISTRY]]
 
-* INDEXES: GENERATOR_SEED
+* INDEXES: [[GENERATOR_SEED]]
 
-* INDEXES: GENERATOR_SUPERSESSION
+* INDEXES: [[GENERATOR_SUPERSESSION]]
 
-* INDEXES: GENERATOR_TEMPLATES
+* INDEXES: [[GENERATOR_TEMPLATES]]
 
-* INDEXES: GENERATOR_TESTS
+* INDEXES: [[GENERATOR_TESTS]]
 
-* INDEXES: GENERATOR_VALIDATION
+* INDEXES: [[GENERATOR_VALIDATION]]
 
-* INDEXES: GENERATOR_VERSIONING
+* INDEXES: [[GENERATOR_VERSIONING]]
 
-* GOVERNED_BY: COGNITIVE_MATRIX_GENERATORS_CONTRACT
+* GOVERNED_BY: [[COGNITIVE_MATRIX_GENERATORS_CONTRACT]]
 
-* USES: K_RSCF
+* USES: [[K_RSCF]]
 
-* USES: L17_RSCF
+* USES: [[L17_RSCF]]
 
-* RELATED_TO: GENERATOR_REGISTRY
+* RELATED_TO: [[GENERATOR_REGISTRY]]
 
-* RELATED_TO: GENERATORS_PROVENANCE
+* RELATED_TO: [[GENERATORS_PROVENANCE]]
 
-* RELATED_TO: GENERATORS_INTEGRATION
+* RELATED_TO: [[GENERATORS_INTEGRATION]]
 
-claim_class: AMOS_MODEL · L17_RSCF · K_RSCF
+claim_class: AMOS_MODEL · [[L17_RSCF]] · [[K_RSCF]]
 
 ```
 ```

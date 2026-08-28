@@ -654,7 +654,7 @@ WEAKEST LOAD-BEARING PREMISE
       ↓
 UNRESOLVED GAPS
       ↓
-VALIDATION ACTUALLY EXECUTED
+[[VALIDATION]] ACTUALLY EXECUTED
       ↓
 CONFIDENCE CEILING
 ```
@@ -828,7 +828,7 @@ THE SYSTEM IS DESIGNED TO...
 ```text
 DESIGN SPECIFICATION
 ≠
-EXECUTED VALIDATION
+EXECUTED [[VALIDATION]]
 ```
 
 and:
@@ -864,7 +864,7 @@ This is one of the strongest explicit anti-fabrication constraints in L19.
 A zero implementation-claim ceiling means:
 
 ```text
-NO EXECUTED VALIDATION
+NO EXECUTED [[VALIDATION]]
 SUPPORTS THE IMPLEMENTATION CLAIM
 ```
 
@@ -877,7 +877,7 @@ THE IMPLEMENTATION CLAIM IS FALSE
 Thus:
 
 ```text
-NO VALIDATION
+NO [[VALIDATION]]
 ≠
 FALSIFICATION
 ```
@@ -1235,7 +1235,7 @@ Only the first two rows follow directly from the explicit zero-if-none law; late
 Invalid:
 
 ```text
-README:
+[[README]]:
 "production ready"
 
 ↓
@@ -1256,7 +1256,7 @@ Documentation remains a source claim unless independently validated.
 Invalid:
 
 ```text
-FORMALLY CLEAN ARCHITECTURE
+FORMALLY CLEAN [[ARCHITECTURE]]
 ↓
 IMPLEMENTATION MUST WORK
 ```
@@ -2611,7 +2611,7 @@ COMPACT CAPSULE
 
 HIGH CONSEQUENCE
 →
-DEEPER VALIDATION
+DEEPER [[VALIDATION]]
 →
 MORE EXPLICIT DEPENDENCIES
 →
@@ -2781,7 +2781,7 @@ For implementation claims:
 ```text
 CODE EXECUTION
      ↓
-VALIDATION ARTIFACT
+[[VALIDATION]] ARTIFACT
      ↓
 PERSISTENT EVIDENCE
      ↓
@@ -3573,7 +3573,7 @@ Rejected.
 ## PC-A5 — Source-Reported Test Laundering
 
 ```text
-README SAYS TESTS PASS
+[[README]] SAYS TESTS PASS
 ↓
 INDEPENDENTLY VERIFIED
 ```
@@ -4036,7 +4036,7 @@ IMPLEMENTATION CLAIM?
        │ EXECUTED VALIDATIONS?
        │    ├── NONE → CEILING = 0
        │    └── YES → CEILING LIMITED
-       │              BY ACTUAL VALIDATION
+       │              BY ACTUAL [[VALIDATION]]
        │
        ▼
 COMPETING HYPOTHESES?
@@ -4583,7 +4583,7 @@ OF CURRENT SUPPORT
       ↓
 STILL CONDITIONAL
 UNTIL AUTHORIZED
-VALIDATION / PROMOTION
+[[VALIDATION]] / PROMOTION
 ```
 
 ---
@@ -4598,7 +4598,7 @@ Operationally:
 
 ```text
 RECOVER AUTHORITATIVE
-PROOF-CAPSULE CANON
+PROOF-CAPSULE [[CANON]]
         ↓
 COMPARE REQUIRED FIELDS
         ↓
@@ -4676,7 +4676,7 @@ CONFIDENCE_CEILING
 For implementation claims:
 
 ```text
-NO EXECUTED VALIDATION
+NO EXECUTED [[VALIDATION]]
 =
 IMPLEMENTATION CEILING 0
 ```
@@ -4914,7 +4914,7 @@ IMPLEMENTATION CLAIM?
       │
       ├── YES
       │    ↓
-      │ EXECUTED VALIDATION?
+      │ EXECUTED [[VALIDATION]]?
       │    │
       │    ├── NONE
       │    │    ↓
@@ -4923,7 +4923,7 @@ IMPLEMENTATION CLAIM?
       │    └── YES
       │         ↓
       │ CEILING LIMITED TO
-      │ ACTUAL VALIDATION
+      │ ACTUAL [[VALIDATION]]
       │
       ▼
 COMPETING HYPOTHESES?
@@ -4975,7 +4975,7 @@ PROOF
 
 SOURCE CLAIM
 ≠
-VALIDATION
+[[VALIDATION]]
 
 DESIGN
 ≠
@@ -4993,7 +4993,7 @@ TEST REPORTED
 ≠
 INDEPENDENTLY VERIFIED
 
-NO EXECUTED VALIDATION
+NO EXECUTED [[VALIDATION]]
 =
 IMPLEMENTATION CLAIM CEILING 0
 
@@ -5043,7 +5043,7 @@ EPISTEMIC UPGRADE
 
 SELF-DESCRIPTION
 ≠
-SELF-VALIDATION
+SELF-[[VALIDATION]]
 ```
 
 ---
@@ -5113,13 +5113,13 @@ RSCF-RELATIONS:
 
 ---
 
-**00_ROOT_MOC:** [[AMOS MOC]]
+**00_ROOT_MOC:** 
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:**  ·  · 
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+**Trang Framework:** 
 
 ---
 

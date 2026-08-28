@@ -208,9 +208,9 @@ Session control plane is a runtime architecture. It does not prove all sessions 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-session-control-plane_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-session-control-plane-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-session-control-plane-agent` — corresponding agent
 ---
 
@@ -224,7 +224,7 @@ Session control plane is a runtime architecture. It does not prove all sessions 
 RSCF-NODE
 node_id: amos-session-control-plane
 node_type: skill
-path: 07_SKILLS/amos-session-control-plane/SKILL.md
+path: 07_SKILLS/amos-session-control-plane/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

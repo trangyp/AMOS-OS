@@ -237,9 +237,9 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/v43_shard_local_finalization.md` — loaded on demand
 - `references/v44_coordination_avoidance_detailed.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-os-runtime-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-os-runtime-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-os-runtime-master-agent` — corresponding agent
 ---
 
@@ -253,7 +253,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-os-runtime-master
 node_type: skill
-path: 07_SKILLS/amos-os-runtime-master/SKILL.md
+path: 07_SKILLS/amos-os-runtime-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

@@ -22,7 +22,7 @@ rscf:
 ---
 tags: [architecture]
 ---
-<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>THE ARCHITECTURE OF WAR AND PEACE</title><style>
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>THE [[ARCHITECTURE]] OF WAR AND PEACE</title><style>
 /* cspell:disable-file */
 /* webkit printing magic: print all background colors */
 html {

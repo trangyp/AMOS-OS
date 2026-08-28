@@ -1964,7 +1964,7 @@ Generator provenance should preserve the lineage of each transition rather than 
 
 # 90. Documentation claim status
 
-README/documentation claims remain:
+[[README]]/documentation claims remain:
 
 ```text
 SOURCE_CLAIM
@@ -3410,22 +3410,22 @@ NON_AUTHORITATIVE
 The intended separation across `12_GENERATORS` is now:
 
 ```text
-GENERATOR_CONTRACT.md
+[[GENERATOR_CONTRACT]].md
 → what a Generator is allowed/expected to do
 
 PROVENANCE.md
 → where Generator inputs/outputs came from and how lineage persists
 
-VALIDATION.md
+[[VALIDATION]].md
 → whether Generator/output satisfies declared contracts
 
 TESTS.md
 → executable evidence for those properties
 
-ROADMAP.md
+[[ROADMAP]].md
 → sequencing and maturity path
 
-11_VALIDATION/PROMOTION_GATES.md
+11_VALIDATION/[[PROMOTION_GATES]].md
 → whether validated candidates may advance lifecycle state
 
 CONTROL PLANE / AUTHORITY
@@ -3438,7 +3438,7 @@ WORKER
 That makes provenance a durable infrastructure dimension rather than a decorative metadata field, while keeping the critical AMOS boundary intact: **traceability can support trust, but it does not manufacture truth, independence, authority, or canon.**
 
 ---
-**Related:** [[00_HOME]] · [[GENERATORS_MAP]] · [[COGNITIVE_MATRIX_MOC]] · [[AMOS_RSCF_NODES]]
+**Related:**  ·  ·  · 
 
 ---
 RSCF-NODE
@@ -3446,11 +3446,11 @@ node_id: generators_provenance
 node_type: note
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE.md
 RSCF-RELATIONS:
-  - INDEXED_BY: [[00_HOME]]
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+  - INDEXED_BY: 
+  - INDEXED_BY: 
 claim_class: AMOS_MODEL
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** 
 
 ```

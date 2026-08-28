@@ -7,7 +7,7 @@ tags:
 - v1.md
 ---
 
-# AGENTS AMOS EXECUTION KERNEL V1 — Full Canonical Expansion
+# [[AGENTS]] AMOS EXECUTION KERNEL V1 — Full Canonical Expansion
 
 ## 0. Normalized Source Frontmatter
 
@@ -3775,7 +3775,7 @@ To convert this architecture into an exact executable specification, the most va
 The source links:
 
 ```text
-[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
+
 ```
 
 This establishes a relationship but not the exact dependency type.
@@ -3789,7 +3789,7 @@ Do not infer that the execution kernel mathematically depends on it without addi
 The source links:
 
 ```text
-[[SYSTEM_SCAN_AGENT]]
+
 ```
 
 Again:
@@ -3807,7 +3807,7 @@ DEPENDS_ON
 The source links:
 
 ```text
-[[AUTOMATION_PROFILES]]
+
 ```
 
 No execution dependency is explicitly declared.
@@ -3819,7 +3819,7 @@ No execution dependency is explicitly declared.
 The source explicitly indexes to:
 
 ```text
-[[KERNEL_MOC]]
+
 ```
 
 This is the clearest navigation/index relation.
@@ -3831,7 +3831,7 @@ This is the clearest navigation/index relation.
 The source also links:
 
 ```text
-[[KNOWLEDGE_MOC]]
+
 ```
 
 which structurally places the artifact in the knowledge layer.
@@ -3861,11 +3861,11 @@ RSCF_NODE:
 
 ```yaml
 RSCF_RELATIONS:
-  - INDEXED_BY: "[[KERNEL_MOC]]"
-  - INDEXED_BY: "[[KNOWLEDGE_MOC]]"
-  - RELATED_TO: "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
-  - RELATED_TO: "[[SYSTEM_SCAN_AGENT]]"
-  - RELATED_TO: "[[AUTOMATION_PROFILES]]"
+  - INDEXED_BY: ""
+  - INDEXED_BY: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
+  - RELATED_TO: ""
 ```
 
 These relation types are PROPOSED interpretations of the supplied `Related`/`MOC` links.
@@ -3875,15 +3875,15 @@ These relation types are PROPOSED interpretations of the supplied `Related`/`MOC
 # 249. Obsidian Navigation
 
 ```markdown
-**Parent MOC:** [[KERNEL_MOC]]
+**Parent MOC:** 
 
-**Knowledge Index:** [[KNOWLEDGE_MOC]]
+**Knowledge Index:** 
 
 **Related:**
-- [[00_HOME]]
-- [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-- [[SYSTEM_SCAN_AGENT]]
-- [[AUTOMATION_PROFILES]]
+- 
+- 
+- 
+- 
 ```
 
 ---
@@ -4787,17 +4787,17 @@ This is the preferred fractal retrieval path.
 
 ## Related
 
-[[00_HOME]]  
-[[KNOWLEDGE_MOC]]  
-[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]  
-[[SYSTEM_SCAN_AGENT]]  
-[[AUTOMATION_PROFILES]]
+  
+  
+  
+  
+
 
 ---
 
 ## MOC
 
-[[KERNEL_MOC]]
+
 ```
 
 ---

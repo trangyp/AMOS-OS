@@ -178,14 +178,14 @@ gaps:
   complete_schema_binding: NOT_ESTABLISHED
 ---
 
-# STATE README
+# STATE [[README]]
 
 > [!abstract] State Plane
 > `STATE README` is the package-level orientation note for the **State plane** at `12_STATE`.
 >
 > The State plane governs **authoritative state records and state-versioned artifacts**.
 >
-> This README is navigational and explanatory. Normative, load-bearing State-plane requirements belong in the applicable contract artifacts, beginning with [[STATE_STATE_CONTRACT]].
+> This [[README]] is navigational and explanatory. Normative, load-bearing State-plane requirements belong in the applicable contract artifacts, beginning with [[STATE_STATE_CONTRACT]].
 
 ---
 
@@ -215,7 +215,7 @@ It does **not** independently establish that every described mechanism has an ex
 
 # 1. Purpose
 
-`STATE README` is the package README for the **State** plane segment at:
+`STATE README` is the package [[README]] for the **State** plane segment at:
 
 ```text
 12_STATE
@@ -265,7 +265,7 @@ NORMATIVE LOAD-BEARING REQUIREMENTS
 
 # 2. Epistemic Status
 
-This README is classified:
+This [[README]] is classified:
 
 ```yaml
 rscf:
@@ -615,7 +615,7 @@ Snapshot =
 }
 ```
 
-Exact implementation is not established by this README.
+Exact implementation is not established by this [[README]].
 
 ---
 
@@ -666,7 +666,7 @@ COMMIT IF COMPATIBLE
 However:
 
 > [!warning] Implementation Boundary
-> This README does not prove that an actual MVCC storage engine is implemented in `12_STATE`.
+> This [[README]] does not prove that an actual MVCC storage engine is implemented in `12_STATE`.
 
 MVCC here is a reasoning/architecture concept unless executable implementation evidence exists.
 
@@ -1722,7 +1722,7 @@ Referenced receipts:
 * [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 * [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-These references do not, by themselves, establish that the State README has a complete artifact-specific executed validation receipt.
+These references do not, by themselves, establish that the State [[README]] has a complete artifact-specific executed validation receipt.
 
 ---
 
@@ -2430,7 +2430,7 @@ Kernel interaction:
 
 The kernel may consume, validate, route, or operate on State-plane information according to its own contract.
 
-This README does not grant the kernel unrestricted mutation authority.
+This [[README]] does not grant the kernel unrestricted mutation authority.
 
 ---
 
@@ -2507,9 +2507,9 @@ Lower layers must remain compatible with governing higher layers.
 
 ---
 
-# 103. README Authority Boundary
+# 103. [[README]] Authority Boundary
 
-This README is not itself the strongest normative authority for State-plane behavior.
+This [[README]] is not itself the strongest normative authority for State-plane behavior.
 
 Therefore:
 
@@ -3323,7 +3323,7 @@ These are normalized strengthening gates and do not imply they are already satis
 
 # 140. Validation Matrix
 
-| Dimension                             | Required Principle                   | Current README Status |
+| Dimension                             | Required Principle                   | Current [[README]] Status |
 | ------------------------------------- | ------------------------------------ | --------------------- |
 | Identity                              | ID + version resolution              | Defined conceptually  |
 | Versioning                            | Version-aware state                  | Required              |
@@ -3836,7 +3836,7 @@ STATE_README_GAPS:
 
 # 155. Promotion Law
 
-This README must not be promoted from:
+This [[README]] must not be promoted from:
 
 ```text
 DERIVED / AMOS_MODEL
@@ -3888,7 +3888,7 @@ REPRODUCIBLE VALIDATION
 
 # 157. Invalidation Conditions
 
-This README's derived semantics require revalidation if:
+This [[README]]'s derived semantics require revalidation if:
 
 ```text
 STATE_STATE_CONTRACT changes
@@ -4196,11 +4196,11 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
   - INDEXED_BY: [[12_STATE_MOC]]
 
-  - CONTRACT_BOUND_TO: [[STATE_STATE_CONTRACT]]
+  - CONTRACT_BOUND_TO: 
 
-  - NAVIGATES_TO: [[STATE_STATE_MAP]]
-  - NAVIGATES_TO: [[INDEX_STATE_README]]
-  - NAVIGATES_TO: [[INDEX_STATE_STATE_CONTRACT]]
+  - NAVIGATES_TO: 
+  - NAVIGATES_TO: 
+  - NAVIGATES_TO: 
 
   - GOVERNED_BY: [[LAW_HIERARCHY]]
 
@@ -4209,8 +4209,8 @@ RSCF-RELATIONS:
   - OBSERVED_BY: [[OBSERVABILITY_README]]
   - RECOVERED_VIA: [[OPERATIONS_README]]
 
-  - VALIDATION_RELATED_TO: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
-  - VALIDATION_RELATED_TO: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+  - VALIDATION_RELATED_TO: 
+  - VALIDATION_RELATED_TO: 
 
   - GOVERNS_CONCEPT:
       AUTHORITATIVE_STATE

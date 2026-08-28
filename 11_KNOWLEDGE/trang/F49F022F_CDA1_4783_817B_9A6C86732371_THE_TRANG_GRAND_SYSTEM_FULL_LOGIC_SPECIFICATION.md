@@ -1734,14 +1734,14 @@ biological, logical and planetary system for deterministic predictive modeling.
 
 🔻 END GRAND CANONICAL SPEC
 
-🚀 THE ZERO-GAP INTEGRATION LAYER
+🚀 THE ZERO-GAP [[INTEGRATION]] LAYER
 (TSS/TPE MASTER INTERACTION ENGINE)
 
 Everything → everything else, fully integrated, continuous text,
 no bullets.
 
 PART I — FOUNDATIONS OF THE MULTI-
-LAYER LOGIC ARCHITECTURE
+LAYER LOGIC [[ARCHITECTURE]]
 
 (Continuous text, no bullets, academically dense, 3–5k words)
 
@@ -1952,7 +1952,7 @@ coupling, planetary constraints, meta-logical enforcement, cross-civilizational
 analogues, and multi-layer integration that form the complete logic framework.
 
 PART II — THE FORMAL SYSTEM
-ARCHITECTURE (TSS)
+[[ARCHITECTURE]] (TSS)
 The Trang System Structure TSS establishes the foundational formalism through
 which all human-involved systems are represented in the logic framework. It is the
 
@@ -4705,7 +4705,7 @@ The Equation e = i²  Official Manual
 
 THE TRANG SYSTEM™ CODEX  METALAWS
 
-⭐ THE UNCOPYABLE TRAINING ARCHITECTURE
+⭐ THE UNCOPYABLE TRAINING [[ARCHITECTURE]]
 
 Logic
 

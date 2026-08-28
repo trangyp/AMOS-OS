@@ -77,7 +77,7 @@ All engine specs from: `Google Drive /_00_AMOS_CANON/Cognitive/*.json` (13 files
 # The Living Stack — A Cognitive Reef Architecture
 
 ## Abstract
-Layered architecture modeled as a **Cognitive Reef** — a dynamic ecosystem where tasks are treated as signals, roles mutate per context, and recovery mechanisms ensure continuity under drift. Integrates 6 frameworks: RATPAK, NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX.
+Layered architecture modeled as a **Cognitive Reef** — a dynamic ecosystem where tasks are treated as signals, roles mutate per context, and recovery mechanisms ensure continuity under drift. Integrates 6 frameworks: [[RATPAK]], NEUROPAK, HoloOrg, MyNeuralSignal, FAR-CAGE, ConsentX.
 
 ## Novel Contributions
 1. **Task-as-signal architecture** — outcomes as atomic unit of value
@@ -112,7 +112,7 @@ Biological systems maintain **signal continuity** — purpose AND mechanics. Cor
 From transactional economics (completing tasks) to **continuity economics** (maintaining optimal states). Value lies in the space between moments.
 
 ### Architecture
-- **RATPAK** — Orchestration layer: real-time sensor fusion, predictive intervention
+- **[[RATPAK]]** — Orchestration layer: real-time sensor fusion, predictive intervention
 - **NEUROPAK** — Intuition amplifier: BCI for subconscious pattern recognition
 - **MyNeuralSignal** — Cognitive guardian: monitors cognitive load, attention drift, decision quality
 - **AHC** — Capability multiplier: just-in-time training, adaptive scenarios

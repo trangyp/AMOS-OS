@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# OPERATING MODEL README
+# OPERATING MODEL [[README]]
 
 ## Purpose
 `OPERATING MODEL README` is the package readme for the **Operating Model** plane segment at `23_OPERATING_MODEL`.

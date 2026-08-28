@@ -22,7 +22,7 @@ rscf:
 ---
 tags: [amos-general]
 ---
-# AMOS ABSOLUTE PROTOCOL SYNTHESIS — COMPLETE ARCHITECTURE
+# AMOS ABSOLUTE PROTOCOL SYNTHESIS — COMPLETE [[ARCHITECTURE]]
 ## MAX-LENGTH "ABSOLUTE PROTOCOL SYNTHESIS" DIRECTIVE EXECUTED
 
 ---
@@ -107,11 +107,11 @@ A_i = (resources, incentives, constraints, network, information, enforcementExpo
 K = {Gov
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

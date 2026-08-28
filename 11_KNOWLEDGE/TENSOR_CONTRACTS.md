@@ -48,7 +48,7 @@ rscf:
 | Node Type | `note` |
 | Path | `11_KNOWLEDGE/TENSOR_CONTRACTS.md` |
 | RSCF Node Claim Class | `AMOS_MODEL` |
-| MOC | `[[KNOWLEDGE_MOC]]` |
+| MOC | `` |
 
 The source contains two different claim-class declarations:
 
@@ -2708,7 +2708,7 @@ tensor_registry:
       - provenance
 
   T_E:
-    name: EVIDENCE_TENSOR
+    name: [[EVIDENCE_TENSOR]]
     axes:
       - evidence_id
       - source_id
@@ -2724,7 +2724,7 @@ tensor_registry:
       - revocation_state
 
   T_C:
-    name: CLAIM_TENSOR
+    name: [[CLAIM_TENSOR]]
     axes:
       - claim_id
       - text
@@ -2740,7 +2740,7 @@ tensor_registry:
       - confidence_ceiling
 
   T_G:
-    name: GOVERNANCE_TENSOR
+    name: [[GOVERNANCE_TENSOR]]
     axes:
       - action
       - capability
@@ -3344,13 +3344,13 @@ epistemic_dual_receipt:
 
 The source explicitly lists:
 
-* [[00_HOME]]
+* 
 * `06-Knowledge-Base-MOC`
 * `AMOS_Simulation_Kernel_v0_Math_Foundations`
 * `system_scan_agent`
 * `automation_profiles`
-* [[AMOS_RSCF_NODES]]
-* [[KNOWLEDGE_MOC]]
+* 
+* 
 
 These are source-defined graph connections.
 
@@ -4235,9 +4235,9 @@ FRACTAL_RETRIEVAL:
     load_on_demand:
       - REASONING_TENSOR
       - FRACTAL_TENSOR
-      - EVIDENCE_TENSOR
-      - CLAIM_TENSOR
-      - GOVERNANCE_TENSOR
+      - [[EVIDENCE_TENSOR]]
+      - [[CLAIM_TENSOR]]
+      - [[GOVERNANCE_TENSOR]]
       - MEMORY_TENSOR
 
   L:
@@ -4932,13 +4932,13 @@ It does **not** establish that these contracts are conventional numerical tensor
 
 # Related
 
-* [[00_HOME]]
+* 
 * 06-Knowledge-Base-MOC
 * AMOS_Simulation_Kernel_v0_Math_Foundations
 * system_scan_agent
 * automation_profiles
-* [[AMOS_RSCF_NODES]]
-* [[KNOWLEDGE_MOC]]
+* 
+* 
 
 ---
 

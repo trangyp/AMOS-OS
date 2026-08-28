@@ -1991,7 +1991,7 @@ Again, this specifies a reasoning architecture, not verified runtime behavior.
 
 ---
 
-# 84. Relationship to K_STRUCTURAL_REASONING
+# 84. Relationship to [[K_STRUCTURAL_REASONING]]
 
 `K_STRUCTURAL_REASONING` determines relevant structural relationships.
 
@@ -2007,7 +2007,7 @@ CONTEXT PROJECTION
 
 ---
 
-# 85. Relationship to K_CAUSAL_CLOSURE
+# 85. Relationship to [[K_CAUSAL_CLOSURE]]
 
 `K_CAUSAL_CLOSURE` determines causal dependencies required for a conclusion.
 
@@ -2015,7 +2015,7 @@ CONTEXT PROJECTION
 
 ---
 
-# 86. Relationship to K_CAUSAL_EPOCH
+# 86. Relationship to [[K_CAUSAL_EPOCH]]
 
 `K_CAUSAL_EPOCH` provides temporal/causal validity boundaries.
 
@@ -2023,7 +2023,7 @@ CONTEXT PROJECTION
 
 ---
 
-# 87. Relationship to K_CAUSAL_HIERARCHY
+# 87. Relationship to [[K_CAUSAL_HIERARCHY]]
 
 `K_CAUSAL_HIERARCHY` determines the permitted causal strength of claims.
 
@@ -2031,7 +2031,7 @@ CONTEXT PROJECTION
 
 ---
 
-# 88. Relationship to K_COUNTERFACTUAL
+# 88. Relationship to [[K_COUNTERFACTUAL]]
 
 Counterfactual branches require isolated hypothetical contexts.
 
@@ -2045,7 +2045,7 @@ Counterfactual state must never silently overwrite observed state.
 
 ---
 
-# 89. Relationship to K_MULTI_HYPOTHESIS
+# 89. Relationship to [[K_MULTI_HYPOTHESIS]]
 
 Competing hypotheses may maintain separate contexts until discriminating evidence exists.
 
@@ -2059,7 +2059,7 @@ AMOS must not force them into a single asserted truth state.
 
 ---
 
-# 90. Relationship to K_METACOGNITION
+# 90. Relationship to [[K_METACOGNITION]]
 
 Metacognitive validation should challenge context for:
 
@@ -2447,7 +2447,7 @@ CONTEXT COMPLETENESS.
 ## Related
 
 [[README]] ·
-00_ROOT_MOC|AMOS MOC ·
+[[00_ROOT_MOC]]|[[AMOS MOC]] ·
 [[ARCHITECTURE]] ·
 [[DEPENDENCY_MAP]] ·
 [[AUTHORITATIVE_STATE]] ·
@@ -2469,12 +2469,12 @@ CONTEXT COMPLETENESS.
 [[K_CAUSAL_CLOSURE]] ·
 [[K_CAUSAL_EPOCH]] ·
 [[K_CAUSAL_HIERARCHY]] ·
-README ·
-README ·
-README ·
+[[README]] ·
+[[README]] ·
+[[README]] ·
 [[CONTROL_PLANE_MAP]] ·
 [[RUNTIME_MAP]] ·
-README ·
+[[README]] ·
 11_KNOWLEDGE/00_AMOS_Full_Brain_OS_Architecture ·
 [[AUTHORITATIVE_STATE]] ·
 [[README]] ·
@@ -2485,7 +2485,7 @@ README ·
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

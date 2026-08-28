@@ -198,9 +198,9 @@ Recursive observer contamination is an epistemic construct. It does not prove al
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-recursive-observer-contamination_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-os-runtime-master` — parent skill
-- `[[amos-recursive-observer-contamination-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-recursive-observer-contamination-agent` — corresponding agent
 ---
 
@@ -214,7 +214,7 @@ Recursive observer contamination is an epistemic construct. It does not prove al
 RSCF-NODE
 node_id: amos-recursive-observer-contamination
 node_type: skill
-path: 07_SKILLS/amos-recursive-observer-contamination/SKILL.md
+path: 07_SKILLS/amos-recursive-observer-contamination/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

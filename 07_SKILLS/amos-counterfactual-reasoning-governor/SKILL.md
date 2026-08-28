@@ -200,9 +200,9 @@ From Cosmo Brain Counterfactual Reasoning Kernel v0: What-if analysis, alternati
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-counterfactual-reasoning-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-causal-reasoning-master` — parent skill
-- `[[amos-counterfactual-reasoning-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-counterfactual-reasoning-governor-agent` — corresponding agent
 ---
 
@@ -216,7 +216,7 @@ From Cosmo Brain Counterfactual Reasoning Kernel v0: What-if analysis, alternati
 RSCF-NODE
 node_id: amos-counterfactual-reasoning-governor
 node_type: skill
-path: 07_SKILLS/amos-counterfactual-reasoning-governor/SKILL.md
+path: 07_SKILLS/amos-counterfactual-reasoning-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

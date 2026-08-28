@@ -1241,7 +1241,7 @@ unless all required parent-level promotion conditions are independently satisfie
 
 Related governance surface:
 
-PROMOTION_GATES
+[[PROMOTION_GATES]]
 
 This receipt may satisfy a validation-evidence prerequisite for the L00 leaf.
 
@@ -1257,7 +1257,7 @@ $$ValidationReceipt \neq PromotionAuthority$$
 
 Related:
 
-BINDING_RULES
+[[BINDING_RULES]]
 
 This receipt establishes evidence that a validator implementation is bound to the L00 test semantics.
 
@@ -2020,7 +2020,7 @@ runtime binding requirements
 remaining critical gaps
 ```
 
-according to PROMOTION_GATES and BINDING_RULES.
+according to [[PROMOTION_GATES]] and [[BINDING_RULES]].
 
 ---
 
@@ -2126,7 +2126,7 @@ This receipt closes the **L00 executable-validator binding gap**, not every L00 
 
 ---
 
-**Related:** [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] · [[PROMOTION_GATES]] · [[BINDING_RULES]] · [[COGNITIVE_MATRIX_MOC]] · 00_ROOT_MOC|AMOS MOC · [[AMOS_RSCF_NODES]] · l00_reality_validator
+**Related:** [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] · [[PROMOTION_GATES]] · [[BINDING_RULES]] · [[COGNITIVE_MATRIX_MOC]] · [[00_ROOT_MOC]]|[[AMOS MOC]] · [[AMOS_RSCF_NODES]] · l00_reality_validator
 
 ---
 
@@ -2138,7 +2138,7 @@ node_type: validation_evidence
 
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/L00_REALITY_VALIDATION_RECEIPT.md
 
-artifact_id: AMOS-CM-11-VALIDATION-L00-REALITY
+artifact_id: AMOS-CM-11-[[VALIDATION]]-L00-REALITY
 
 claim_class: AMOS_DERIVED
 
@@ -2150,11 +2150,11 @@ RSCF-RELATIONS:
 
 * INDEXED_BY: [[00_HOME]]
 
-* INDEXED_BY: 00_ROOT_MOC|AMOS MOC
+* INDEXED_BY: [[00_ROOT_MOC]]|[[AMOS MOC]]
 
-* INDEXED_BY: AMOS_RSCF_NODES
+* INDEXED_BY: [[AMOS_RSCF_NODES]]
 
-* PART_OF: COGNITIVE_MATRIX_MOC
+* PART_OF: [[COGNITIVE_MATRIX_MOC]]
 
 * VALIDATES: L00_REALITY_ENVIRONMENT
 
@@ -2165,13 +2165,13 @@ RSCF-RELATIONS:
 * SATISFIES:
   L00 executable validation binding for the tested validator layer
 
-* GOVERNED_BY: PROMOTION_GATES
+* GOVERNED_BY: [[PROMOTION_GATES]]
 
-* GOVERNED_BY: BINDING_RULES
+* GOVERNED_BY: [[BINDING_RULES]]
 
-* RELATED_TO: ROUTING_POLICY_VALIDATION_RECEIPT
+* RELATED_TO: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
 
-* RELATED_TO: AUTHZ_ENGINE_VALIDATION_RECEIPT
+* RELATED_TO: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
 validation_state: EXECUTED_VALIDATED
 

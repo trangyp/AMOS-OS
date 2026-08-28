@@ -197,9 +197,9 @@ McKinsey framework navigation is an analytical toolset. It does not prove framew
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[mckinsey-framework-navigator_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c08-strategy-game-master` — parent skill
-- `[[mckinsey-framework-navigator-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `mckinsey-framework-navigator-agent` — corresponding agent
 ---
 
@@ -213,7 +213,7 @@ McKinsey framework navigation is an analytical toolset. It does not prove framew
 RSCF-NODE
 node_id: mckinsey-framework-navigator
 node_type: skill
-path: 07_SKILLS/mckinsey-framework-navigator/SKILL.md
+path: 07_SKILLS/mckinsey-framework-navigator/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

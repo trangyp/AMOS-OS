@@ -15,7 +15,7 @@ rscf:
 ---
 
 
-# CONTROL PLANE README
+# CONTROL PLANE [[README]]
 
 ## Purpose
 `CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE`.

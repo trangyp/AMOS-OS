@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# PROCEDURES OPERATIONS README
+# PROCEDURES OPERATIONS [[README]]
 
 ## Purpose
 `PROCEDURES OPERATIONS README` is the package readme for the **Operations** plane segment at `20_OPERATIONS/03_PROCEDURES`.
@@ -47,14 +47,14 @@ Given an operation touching `PROCEDURES OPERATIONS README` within the Operations
 - [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
 
 ## Cross-plane bindings
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
+- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
 - Kernel interaction — [[KERNEL_README]]
 - Control-plane gates — [[CONTROL_PLANE_README]]
 - Observed by — [[OBSERVABILITY_README]] · never treated as authority
 - Recovered via operations — [[OPERATIONS_README]]
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

@@ -194,9 +194,9 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-consciousness-candidate-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c05-mind-behavior-master` — parent skill
-- `[[amos-consciousness-candidate-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-consciousness-candidate-governor-agent` — corresponding agent
 ---
 
@@ -210,7 +210,7 @@ Consciousness-candidate governance is an AMOS_MODEL. It does not prove conscious
 RSCF-NODE
 node_id: amos-consciousness-candidate-governor
 node_type: skill
-path: 07_SKILLS/amos-consciousness-candidate-governor/SKILL.md
+path: 07_SKILLS/amos-consciousness-candidate-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

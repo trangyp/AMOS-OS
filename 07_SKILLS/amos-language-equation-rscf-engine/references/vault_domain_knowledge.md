@@ -98,7 +98,7 @@ The AMOS brain reorganization evolved into a complete master equation cosmos sys
 ## Architecture
 
 ### Core Brain Layer
-- Enhanced AMOS CANON Brain (`brain_canonical_consolidated_fixed.py`)
+- Enhanced AMOS [[CANON]] Brain (`brain_canonical_consolidated_fixed.py`)
 - 19-Primitive Logic System (Rule of 2 & 4)
 - Quantum Stack (creator-attributed: Trang Phan)
 - UBI Framework (4 biological intelligence domains, 300 BEI layers)

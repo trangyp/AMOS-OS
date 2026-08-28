@@ -207,9 +207,9 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 - `references/universe_interaction_engine.md` — loaded on demand
 - `references/universe_total_canon.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-canon-universe-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-canon-universe-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-canon-universe-master-agent` — corresponding agent
 ---
 
@@ -223,7 +223,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 RSCF-NODE
 node_id: amos-canon-universe-master
 node_type: skill
-path: 07_SKILLS/amos-canon-universe-master/SKILL.md
+path: 07_SKILLS/amos-canon-universe-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

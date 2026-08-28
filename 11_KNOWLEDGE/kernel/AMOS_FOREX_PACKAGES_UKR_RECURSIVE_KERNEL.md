@@ -210,7 +210,7 @@ def process_ukr(state) -> CanonPermission:
     # 3. Filter – apply distinction filter to remove noise/irrelevant features
     _dummy_stage(state, "FILTER")
     # 4. Memory – bind recursive memory trace for continuity preservation
-    _dummy_stage(state, "MEMORY")
+    _dummy_stage(state, "[[MEMORY]]")
     # 5. Valuation – assess load vs capacity (set load/capacity)
     state.load = Decimal(state.load or "0")
     state.capacity = Decimal(state.capacity or "1")

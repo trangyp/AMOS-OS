@@ -5247,14 +5247,14 @@ should be used whenever the distinction materially affects interpretation.
 Potential decomposition:
 
 ```text
-[[AMOS_PERSONALITY_TRANG_MAX]]
-[[AMOS_TRANG_COMMUNICATION_MASK]]
-[[AMOS_LANGUAGE_GOVERNOR]]
-[[AMOS_PERSONA_IDENTITY_FIREWALL]]
-[[AMOS_PERSONA_SIGNAL_FIDELITY]]
-[[AMOS_PERSONA_DECISION_PROTOCOL]]
-[[AMOS_PERSONA_EMOTION_DOCTRINE]]
-[[AMOS_PERSONA_FAILURE_RECOVERY]]
+
+
+
+
+
+
+
+
 ```
 
 PROPOSED.
@@ -5267,23 +5267,23 @@ PROPOSED.
 # AMOS Trang Persona MOC
 
 ## Core
-- [[AMOS PERSONALITY TRANG ENGINE V0 WEB7]]
+- 
 
 ## Components
-- [[AMOS_PERSONALITY_TRANG_MAX]]
-- [[AMOS_TRANG_COMMUNICATION_MASK]]
-- [[AMOS_LANGUAGE_GOVERNOR]]
+- 
+- 
+- 
 
 ## Governance
-- [[AMOS_PERSONA_IDENTITY_FIREWALL]]
-- [[AMOS_PERSONA_SIGNAL_FIDELITY]]
-- [[AMOS_PERSONA_DECISION_PROTOCOL]]
-- [[AMOS_PERSONA_FAILURE_RECOVERY]]
+- 
+- 
+- 
+- 
 
 ## Existing Navigation
-- [[00_HOME]]
-- [[KNOWLEDGE_MOC]]
-- [[trang_MOC]]
+- 
+- 
+- 
 ```
 
 PROPOSED.
@@ -6721,40 +6721,40 @@ RSCF-NODE:
   RSCF-RELATIONS:
 
     - INDEXED_BY:
-        "[[trang_MOC]]"
+        ""
 
     - INDEXED_BY:
-        "[[KNOWLEDGE_MOC]]"
+        ""
 
     - RELATED_TO:
-        "[[00_HOME]]"
+        ""
 
     - RELATED_TO:
-        "[[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]"
+        ""
 
     - RELATED_TO:
-        "[[SYSTEM_SCAN_AGENT]]"
+        ""
 
     - RELATED_TO:
-        "[[AUTOMATION_PROFILES]]"
+        ""
 
     - SOURCE_ATTACH_TO:
-        "[[AMOS_FULL_BRAIN_OS]]"
+        ""
 
     - SOURCE_ATTACH_TO:
-        "[[AMOS_COGNITION]]"
+        ""
 
     - SOURCE_ATTACH_TO:
-        "[[AMOS_ABSOLUTE_HUMAN]]"
+        ""
 
     - PROPOSED_CONTAINS:
-        "[[AMOS_PERSONALITY_TRANG_MAX]]"
+        ""
 
     - PROPOSED_CONTAINS:
-        "[[AMOS_TRANG_COMMUNICATION_MASK]]"
+        ""
 
     - PROPOSED_CONTAINS:
-        "[[AMOS_LANGUAGE_GOVERNOR]]"
+        ""
 ```
 
 ---
@@ -7093,24 +7093,24 @@ Raw source should be reopened when:
 ```markdown
 ## Navigation
 
-- [[00_HOME]]
-- [[KNOWLEDGE_MOC]]
-- [[trang_MOC]]
-- [[AMOS_SIMULATION_KERNEL_V0_MATH_FOUNDATIONS]]
-- [[SYSTEM_SCAN_AGENT]]
-- [[AUTOMATION_PROFILES]]
+- 
+- 
+- 
+- 
+- 
+- 
 
 ## Source-Named Attachments
 
-- [[AMOS_FULL_BRAIN_OS]]
-- [[AMOS_COGNITION]]
-- [[AMOS_ABSOLUTE_HUMAN]]
+- 
+- 
+- 
 
 ## Proposed Component Notes
 
-- [[AMOS_PERSONALITY_TRANG_MAX]]
-- [[AMOS_TRANG_COMMUNICATION_MASK]]
-- [[AMOS_LANGUAGE_GOVERNOR]]
+- 
+- 
+- 
 ```
 
 ---

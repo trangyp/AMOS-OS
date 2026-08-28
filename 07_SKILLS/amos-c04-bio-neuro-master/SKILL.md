@@ -238,9 +238,9 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 - `references/ubi_operators.md` — loaded on demand
 - `references/unified_biological_governance.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-c04-bio-neuro-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-c04-bio-neuro-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-c04-bio-neuro-master-agent` — corresponding agent
 ---
 
@@ -254,7 +254,7 @@ Hard anti-overclaim: quantum effects in brain, quantum consciousness, macroscopi
 RSCF-NODE
 node_id: amos-c04-bio-neuro-master
 node_type: skill
-path: 07_SKILLS/amos-c04-bio-neuro-master/SKILL.md
+path: 07_SKILLS/amos-c04-bio-neuro-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

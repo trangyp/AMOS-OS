@@ -1703,7 +1703,7 @@ This should remain a model interpretation unless the corpus defines it explicitl
 
 The artifact explicitly binds to:
 
-`[[03_CONTROL_PLANE_MOC]]`.
+``.
 
 C09 also targets:
 
@@ -1717,7 +1717,7 @@ This makes governance a direct engine-to-control-plane route in the source struc
 
 The artifact binds to:
 
-`[[21_DOMAINS_MOC]]`.
+``.
 
 C06 and C07 directly target:
 
@@ -1729,7 +1729,7 @@ C06 and C07 directly target:
 
 The artifact explicitly connects:
 
-`[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]`.
+``.
 
 This is the authoritative retrieval target for C04's NBI/NEI/SI/BEI model when exact semantics matter.
 
@@ -1739,7 +1739,7 @@ This is the authoritative retrieval target for C04's NBI/NEI/SI/BEI model when e
 
 The artifact explicitly connects:
 
-`[[TSS_THE_TRANG_SYSTEM]]`.
+``.
 
 Retrieve it for exact C07 symbol and collapse-model semantics.
 
@@ -1749,7 +1749,7 @@ Retrieve it for exact C07 symbol and collapse-model semantics.
 
 The artifact explicitly connects:
 
-`[[TPE_TRANG_PREDICTION_ENGINE]]`.
+``.
 
 Retrieve it for exact C08 horizon, Nash, Pareto, and (\\Omega) semantics.
 
@@ -1759,7 +1759,7 @@ Retrieve it for exact C08 horizon, Nash, Pareto, and (\\Omega) semantics.
 
 The artifact explicitly connects:
 
-`[[TOTAL_CANON_MATRIX]]`.
+``.
 
 This establishes an explicit source relationship between master canon convergence and master engine convergence.
 
@@ -3221,32 +3221,32 @@ AUTHORITATIVE CONTRADICTION APPEARS
 ```yaml
 RSCF_RELATIONS:
 
-  - INDEXED_BY: "[[00_HOME]]"
+  - INDEXED_BY: ""
 
-  - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+  - INDEXED_BY: ""
 
-  - PART_OF: "[[25_COGNITIVE_MATRIX_MOC]]"
-
-  - GROUNDED_BY:
-      "[[03_CONTROL_PLANE_MOC]]"
+  - PART_OF: ""
 
   - GROUNDED_BY:
-      "[[21_DOMAINS_MOC]]"
+      ""
 
   - GROUNDED_BY:
-      "[[11_KNOWLEDGE_MOC]]"
+      ""
+
+  - GROUNDED_BY:
+      ""
 
   - CONNECTS_TO:
-      "[[TOTAL_CANON_MATRIX]]"
+      ""
 
   - CONNECTS_TO:
-      "[[UNIFIED_BIOLOGICAL_INTELLIGENCE]]"
+      ""
 
   - CONNECTS_TO:
-      "[[TSS_THE_TRANG_SYSTEM]]"
+      ""
 
   - CONNECTS_TO:
-      "[[TPE_TRANG_PREDICTION_ENGINE]]"
+      ""
 
   - DEFINES:
       MASTER_ENGINE_CONVERGENCE_GRID
@@ -3303,21 +3303,21 @@ RSCF_RELATIONS:
       FAIL_CLOSED_GATED
 
   - RELATED_TO:
-      - "[[K_RSCF]]"
-      - "[[K_HML]]"
-      - "[[K_CANON]]"
-      - "[[K_CONTROL_PLANE]]"
-      - "[[K_DOMAINS]]"
-      - "[[K_PROVENANCE]]"
-      - "[[K_PROVENANCE_TOPOLOGY]]"
-      - "[[K_FAIL_CLOSED]]"
-      - "[[K_AUTHORITY]]"
-      - "[[K_GOVERNANCE]]"
-      - "[[K_ANTI_AUTOPOISONING]]"
-      - "[[K_GOVERNED_EVOLUTION]]"
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
+      - ""
 
   - LINEAGE_TARGET:
-      "[[AMOS_CORE_v4_4]]"
+      ""
 ```
 
 ---
@@ -3654,7 +3654,7 @@ The decisive integrity boundaries are:
 
 **FORMULAS WITH DIRECTIONAL OPERATORS DO NOT AUTOMATICALLY EXPRESS CAUSATION.**
 
-**AMOS PHYSICAL, BIOLOGICAL, FINANCIAL, STRATEGIC, AND ECOLOGICAL MODEL CLAIMS REMAIN DISTINCT FROM INDEPENDENT EMPIRICAL VALIDATION.**
+**AMOS PHYSICAL, BIOLOGICAL, FINANCIAL, STRATEGIC, AND ECOLOGICAL MODEL CLAIMS REMAIN DISTINCT FROM INDEPENDENT EMPIRICAL [[VALIDATION]].**
 
 The canonical operational interpretation is:
 
@@ -3819,7 +3819,7 @@ RSCF-RELATIONS:
 
 - ROUTES: C09_ORG_LAW_POLICY
 
-- ROUTES: C10_TECH_ENGINEERING
+- ROUTES: [[C10_TECH_ENGINEERING]]
 
 - ROUTES: C11_DESIGN_LANGUAGE
 

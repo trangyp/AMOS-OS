@@ -206,9 +206,9 @@ F1: recovered fractal canon defines diff
 - `references/rg_fractal_bridge.md` — loaded on demand
 - `references/scaling_law_diagnostics.md` — loaded on demand
 - `references/ubi_fractal_entropy_correction.md` — loaded on demand
-- `[[amos-fractal-systems-master_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `none` — parent skill
-- `[[amos-fractal-systems-master-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-fractal-systems-master-agent` — corresponding agent
 ---
 
@@ -222,7 +222,7 @@ F1: recovered fractal canon defines diff
 RSCF-NODE
 node_id: amos-fractal-systems-master
 node_type: skill
-path: 07_SKILLS/amos-fractal-systems-master/SKILL.md
+path: 07_SKILLS/amos-fractal-systems-master/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

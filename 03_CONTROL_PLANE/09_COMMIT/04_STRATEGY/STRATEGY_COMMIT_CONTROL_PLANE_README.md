@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# STRATEGY COMMIT CONTROL PLANE README
+# STRATEGY COMMIT CONTROL PLANE [[README]]
 
 ## Purpose
 `STRATEGY COMMIT CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/09_COMMIT/04_STRATEGY`.

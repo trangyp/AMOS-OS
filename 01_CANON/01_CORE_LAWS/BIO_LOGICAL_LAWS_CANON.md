@@ -198,7 +198,7 @@ REGULATION
 FEEDBACK
 ADAPTATION
 SELECTION
-MEMORY
+[[MEMORY]]
 INFORMATION
 ENERGY / RESOURCE FLOW
 BOUNDARY
@@ -317,7 +317,7 @@ NATIVE SOURCE IDENTIFIED?
                   ↓
              CHECK CONFLICTS
                   ↓
-             CANON CANDIDATE
+             [[CANON]] CANDIDATE
 ```
 
 External scientific literature may validate or challenge a native AMOS claim.
@@ -479,7 +479,7 @@ TIME VARIABLES
 ADAPTATION VARIABLES
 FITNESS-RELATED VARIABLES
 ROBUSTNESS VARIABLES
-MEMORY VARIABLES
+[[MEMORY]] VARIABLES
 SIGNAL VARIABLES
 ```
 
@@ -658,9 +658,9 @@ unless independently validated.
 Examples of invalid automatic promotion:
 
 ```text
-COMPUTATIONAL MEMORY
+COMPUTATIONAL [[MEMORY]]
 !=
-BIOLOGICAL MEMORY
+BIOLOGICAL [[MEMORY]]
 
 SOFTWARE REPLICATION
 !=
@@ -854,7 +854,7 @@ SIGNAL
 SEMANTIC CONTENT
 GENETIC SEQUENCE
 REGULATORY STATE
-MEMORY STATE
+[[MEMORY]] STATE
 MODEL REPRESENTATION
 ```
 
@@ -1368,7 +1368,7 @@ Substantive Bio-Logical claims SHOULD preserve:
 ```text
 NATIVE AMOS SOURCE
         ↓
-CANON CANDIDATE
+[[CANON]] CANDIDATE
         ↓
 NORMALIZED CLAIM
         ↓
@@ -1376,7 +1376,7 @@ DEPENDENCIES
         ↓
 EXTERNAL EVIDENCE
         ↓
-VALIDATION STATE
+[[VALIDATION]] STATE
         ↓
 CANONICAL DECISION
 ```
@@ -1776,7 +1776,7 @@ LAW FAMILY ROUTING
 +
 PROVENANCE
 +
-VALIDATION STATE
+[[VALIDATION]] STATE
 ```
 
 The H node does not create truth by aggregation.
@@ -1983,7 +1983,7 @@ SCOPE
        ↓
 REGIME
        ↓
-VALIDATION
+[[VALIDATION]]
 ```
 
 A documentation statement is not an observation.
@@ -2089,7 +2089,7 @@ It MUST be represented as linked evidence.
 ```text
 EXTERNAL RESEARCH
 !=
-NATIVE AMOS CANON
+NATIVE AMOS [[CANON]]
 ```
 
 ---
@@ -2293,7 +2293,7 @@ Therefore:
 ```text
 SIMULATION SUCCESS
 !=
-REAL-WORLD BIOLOGICAL VALIDATION
+REAL-WORLD BIOLOGICAL [[VALIDATION]]
 ```
 
 ---
@@ -2462,7 +2462,7 @@ STALE VERSION
 
 FAILED DEPENDENCY
 
-FAILED VALIDATION RECEIPT
+FAILED [[VALIDATION]] RECEIPT
 ```
 
 ---
@@ -2560,7 +2560,7 @@ BOTH CONTAIN FEEDBACK
 Invalid without further evidence:
 
 ```text
-AMOS ARCHITECTURE
+AMOS [[ARCHITECTURE]]
 IS
 BIOLOGICALLY EQUIVALENT
 TO
@@ -2841,11 +2841,11 @@ with respect to substantive Bio-Logical laws.
 ```text
 BIO_LOGICAL_LAWS_CANON
         │
-        ├─ GOVERNED_BY ──> LAW_HIERARCHY
+        ├─ GOVERNED_BY ──> [[LAW_HIERARCHY]]
         │
-        ├─ INDEXED_BY ──> 00_HOME
+        ├─ INDEXED_BY ──> [[00_HOME]]
         │
-        ├─ INDEXED_BY ──> AMOS_RSCF_NODES
+        ├─ INDEXED_BY ──> [[AMOS_RSCF_NODES]]
         │
         ├─ INTERACTS_WITH ──> KERNEL
         │
@@ -2858,13 +2858,13 @@ BIO_LOGICAL_LAWS_CANON
 
 Target references:
 
-* [[LAW_HIERARCHY]]
-* [[KERNEL_README]]
-* [[CONTROL_PLANE_README]]
-* [[OBSERVABILITY_README]]
-* [[OPERATIONS_README]]
-* [[00_HOME]]
-* [[AMOS_RSCF_NODES]]
+* 
+* 
+* 
+* 
+* 
+* 
+* 
 
 Observability remains non-authoritative.
 
@@ -2915,7 +2915,7 @@ SOURCE_CLAIM
 ↓
 NORMALIZED MODEL
 ↓
-CANON CANDIDATE
+[[CANON]] CANDIDATE
 ↓
 VALIDATED WITHIN DECLARED SCOPE
 ↓
@@ -2975,7 +2975,7 @@ FEEDBACK != INTENTIONALITY
 
 SELF-ORGANIZATION != CONSCIOUSNESS
 
-SIMULATION != EMPIRICAL VALIDATION
+SIMULATION != EMPIRICAL [[VALIDATION]]
 
 IMPLEMENTED != VALIDATED
 
@@ -3029,7 +3029,7 @@ This is the governing behavior of the current artifact.
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+**Related:**  · 
 
 ---
 
@@ -3063,23 +3063,23 @@ executable_binding: NOT_ESTABLISHED
 
 RSCF-RELATIONS:
 
-* INDEXED_BY: [[00_HOME]]
+* INDEXED_BY: 
 
-* INDEXED_BY: [[AMOS_RSCF_NODES]]
+* INDEXED_BY: 
 
-* GOVERNED_BY: [[LAW_HIERARCHY]]
+* GOVERNED_BY: 
 
-* INTERACTS_WITH: [[KERNEL_README]]
+* INTERACTS_WITH: 
 
-* CONTROLLED_BY: [[CONTROL_PLANE_README]]
+* CONTROLLED_BY: 
 
-* OBSERVED_BY: [[OBSERVABILITY_README]]
+* OBSERVED_BY: 
 
-* RECOVERED_BY: [[OPERATIONS_README]]
+* RECOVERED_BY: 
 
 ---
 
-**MOC:** [[01_CORE_LAWS_MOC]]
+**MOC:** 
 
 ---
 

@@ -203,9 +203,9 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-fractal-math_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-fractal-systems-master` — parent skill
-- `[[amos-fractal-math-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-fractal-math-agent` — corresponding agent
 ---
 
@@ -219,7 +219,7 @@ Fractal math is an analytical framework. It does not prove physical fractality, 
 RSCF-NODE
 node_id: amos-fractal-math
 node_type: skill
-path: 07_SKILLS/amos-fractal-math/SKILL.md
+path: 07_SKILLS/amos-fractal-math/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

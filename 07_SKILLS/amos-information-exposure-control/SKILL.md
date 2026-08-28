@@ -201,9 +201,9 @@ Information exposure control is a security construct. It does not prove all expo
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-information-exposure-control_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-information-theory-master` — parent skill
-- `[[amos-information-exposure-control-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-information-exposure-control-agent` — corresponding agent
 ---
 
@@ -217,7 +217,7 @@ Information exposure control is a security construct. It does not prove all expo
 RSCF-NODE
 node_id: amos-information-exposure-control
 node_type: skill
-path: 07_SKILLS/amos-information-exposure-control/SKILL.md
+path: 07_SKILLS/amos-information-exposure-control/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

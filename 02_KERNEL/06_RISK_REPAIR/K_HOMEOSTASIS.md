@@ -1902,18 +1902,18 @@ UNKNOWN/GAP.
 [[K_MEMORY_IMMUNE]] ·
 [[K_MEMORY_RETRIEVAL]] ·
 [[K_COLLAPSE_RECOVERY]] ·
-README ·
 [[README]] ·
-README ·
 [[README]] ·
-README
+[[README]] ·
+[[README]] ·
+[[README]]
 
 ```text
 ```
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 **Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]

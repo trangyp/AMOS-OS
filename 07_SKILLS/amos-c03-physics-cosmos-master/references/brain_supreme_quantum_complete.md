@@ -94,11 +94,11 @@ self.research_sources = {
     "google_willow_processor": "https://markets.financialcontent.com/wral/article/to
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

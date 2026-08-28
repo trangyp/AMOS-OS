@@ -283,9 +283,9 @@ A hard failure is not c
 
 - `references/equations_docs.md` — loaded on demand
 - `references/references_MOC.md` — loaded on demand
-- `[[amos-contravariance-alignment-rscf-engine_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-rscf-epistemic-master` — parent skill
-- `[[amos-contravariance-alignment-rscf-engine-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-contravariance-alignment-rscf-engine-agent` — corresponding agent
 ---
 
@@ -299,7 +299,7 @@ A hard failure is not c
 RSCF-NODE
 node_id: amos-contravariance-alignment-rscf-engine
 node_type: skill
-path: 07_SKILLS/amos-contravariance-alignment-rscf-engine/SKILL.md
+path: 07_SKILLS/amos-contravariance-alignment-rscf-engine/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

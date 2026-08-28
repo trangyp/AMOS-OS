@@ -36,7 +36,7 @@ rscf:
   "priority": 7,
   "required": false,
   "domains": ["workflow", "automation", "orchestration", "pipeline", "monitoring"],
-  "depends_on": ["K_META_LOGIC", "K_TECH_ENGINE"],
+  "depends_on": ["[[K_META_LOGIC]]", "K_TECH_ENGINE"],
 
   "meta": {
     "role": "Workflow Orchestration Kernel",
@@ -241,11 +241,11 @@ Activate: K_META_LOGIC, K_MATH_COMPUTE, K_BIO_NEURO
 | VN operations, drivers
 
 ---
-**MOC:** [[references_MOC]]
+**MOC:** 
 
 ## Related
 
-- [[07_SKILLS_MOC]]
+- 
 ```
 
 ---

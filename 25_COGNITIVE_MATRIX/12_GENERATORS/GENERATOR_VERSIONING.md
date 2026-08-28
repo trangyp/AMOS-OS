@@ -3091,17 +3091,17 @@ RSCF-NODE:
 ```yaml
 RSCF-RELATIONS:
 
-  - INDEXED_BY:
-      "[[00_HOME]]"
+  - INDEXED_BY: [[00_HOME]]
+      ""
 
-  - INDEXED_BY:
-      "[[AMOS_RSCF_NODES]]"
-
-  - PART_OF:
-      "[[GENERATORS_MAP]]"
+  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+      ""
 
   - PART_OF:
-      "[[COGNITIVE_MATRIX_MOC]]"
+      ""
+
+  - PART_OF:
+      ""
 
   - GOVERNS_VERSION_OF:
       "GENERATOR_CONTRACT|Generator Contract"
@@ -3889,7 +3889,7 @@ NON_AUTHORITATIVE
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+[[00_ROOT_MOC]]|[[AMOS MOC]]
 
 ---
 
@@ -3918,7 +3918,7 @@ NON_AUTHORITATIVE
 The clean ownership distinction is now:
 
 ```text
-GENERATOR_CONTRACT.md
+[[GENERATOR_CONTRACT]].md
 → Generator semantics
 
 GENERATOR_VERSIONING.md
@@ -3929,28 +3929,28 @@ GENERATOR_VERSIONING.md
 PROVENANCE.md
 → ancestry and derivation lineage
 
-VALIDATION.md
+[[VALIDATION]].md
 → admissibility
 
 TESTS.md
 → executable assurance
 
-GENERATORS_BENCHMARKS.md
+[[GENERATORS_BENCHMARKS]].md
 → bounded performance/comparison
 
-GENERATORS_AUDIT.md
+[[GENERATORS_AUDIT]].md
 → cross-layer integrity examination
 
-INTEGRATION.md
+[[INTEGRATION]].md
 → subsystem bindings
 
-ROADMAP.md
+[[ROADMAP]].md
 → planned future evolution
 
 HISTORY.md
 → evidenced historical evolution
 
-GENERATORS_CHANGE_LOG.md
+[[GENERATORS_CHANGE_LOG]].md
 → individual recorded transitions
 ```
 
@@ -3977,6 +3977,6 @@ not merely:
 That prevents silent Generator drift from invalidating provenance, tests, validation, routing, and rollback while continuing to masquerade as the “same version.”
 
 ---
-**MOC:** [[12_GENERATORS_MOC]]
+**MOC:** 
 
 ```

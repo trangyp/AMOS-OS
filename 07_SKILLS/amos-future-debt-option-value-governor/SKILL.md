@@ -209,9 +209,9 @@ Future debt option value governance is a decision-support construct. It does not
 
 - `references/references_MOC.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
-- `[[amos-future-debt-option-value-governor_MOC]]` — skill Map of Content
+- `` — skill Map of Content
 - `amos-c07-econ-finance-master` — parent skill
-- `[[amos-future-debt-option-value-governor-workflow]]` — corresponding workflow
+- `` — corresponding workflow
 - `amos-future-debt-option-value-governor-agent` — corresponding agent
 ---
 
@@ -225,7 +225,7 @@ Future debt option value governance is a decision-support construct. It does not
 RSCF-NODE
 node_id: amos-future-debt-option-value-governor
 node_type: skill
-path: 07_SKILLS/amos-future-debt-option-value-governor/SKILL.md
+path: 07_SKILLS/amos-future-debt-option-value-governor/[[SKILL]].md
 RSCF-RELATIONS:
 - INDEXED_BY: [[00_HOME]]
 - INDEXED_BY: [[AMOS_RSCF_NODES]]

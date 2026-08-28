@@ -14,7 +14,7 @@ rscf:
 ---
 
 
-# REPLAY CONTROL PLANE README
+# REPLAY CONTROL PLANE [[README]]
 
 ## Purpose
 `REPLAY CONTROL PLANE README` is the package readme for the **Control Plane** plane segment at `03_CONTROL_PLANE/11_REPLAY`.

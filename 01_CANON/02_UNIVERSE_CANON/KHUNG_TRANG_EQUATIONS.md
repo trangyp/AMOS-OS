@@ -1422,7 +1422,7 @@ Every use of an equation inherits its applicability envelope.
 
 ```yaml
 applicability:
-  framework: KHUNG_TRANG
+  framework: [[KHUNG_TRANG]]
   system:
   domain:
   environment:
@@ -1719,11 +1719,11 @@ This is an AMOS epistemic governance rule, not a universal probability theorem.
 The current provenance declared by this artifact is:
 
 ```text
-01_CANON/01_CANON_MOC
+01_CANON/[[01_CANON_MOC]]
             │
             ├──────────────┐
             ▼              ▼
-KHUNG_TRANG_MASTER   AMOS_X_TRANG_REALITY
+[[KHUNG_TRANG_MASTER]]   [[AMOS_X_TRANG_REALITY]]
             │              │
             └──────┬───────┘
                    ▼
@@ -1751,7 +1751,7 @@ SOURCE EQUATION REGISTRY
         │
         │ governed by
         ▼
-KHUNG_TRANG_EQUATIONS_CANON
+[[KHUNG_TRANG_EQUATIONS_CANON]]
         │
         ├── dimensional consistency
         ├── entropy non-accumulation
@@ -1767,7 +1767,7 @@ KHUNG_TRANG_EQUATIONS
 =
 WHAT THE EQUATION REGISTRY CONTAINS
 
-KHUNG_TRANG_EQUATIONS_CANON
+[[KHUNG_TRANG_EQUATIONS_CANON]]
 =
 HOW THOSE EQUATIONS ARE GOVERNED
 ```
@@ -1779,7 +1779,7 @@ HOW THOSE EQUATIONS ARE GOVERNED
 The declared provenance includes:
 
 ```text
-01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER
+01_CANON/02_UNIVERSE_CANON/[[KHUNG_TRANG_MASTER]]
 ```
 
 Therefore this registry SHOULD preserve source-level equation lineage back to the master framework.
@@ -1953,9 +1953,9 @@ RSCF:
         SOURCE_DEPENDENT
 
   provenance:
-    - 01_CANON/01_CANON_MOC
-    - 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER
-    - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
+    - 01_CANON/[[01_CANON_MOC]]
+    - 01_CANON/02_UNIVERSE_CANON/[[KHUNG_TRANG_MASTER]]
+    - 25_COGNITIVE_MATRIX/[[AMOS_X_TRANG_REALITY]]
 
   confidence_ceiling:
     source_model:
@@ -2443,7 +2443,7 @@ RSCF-RELATIONS:
 
 ---
 
-**Related:** [[00_HOME]] · [[02_UNIVERSE_CANON_MOC]] · [[KHUNG_TRANG_MASTER]] · [[KHUNG_TRANG_EQUATIONS_CANON]] · [[AMOS_X_TRANG_REALITY]]
+**Related:**  ·  ·  ·  · 
 
 ---
 
