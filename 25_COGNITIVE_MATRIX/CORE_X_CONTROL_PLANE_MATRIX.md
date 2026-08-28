@@ -3529,7 +3529,7 @@ RSCF_RELATIONS:
 # 113. Proof Capsule — Artifact Status
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   artifact:
     CORE_X_CONTROL_PLANE_MATRIX.md

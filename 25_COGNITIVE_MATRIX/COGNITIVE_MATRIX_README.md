@@ -6185,7 +6185,7 @@ RSCF:
 # 199. MATRIX PROOF CAPSULE
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     text: >

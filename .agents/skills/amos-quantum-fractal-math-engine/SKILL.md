@@ -19,6 +19,17 @@ law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 
 # AMOS Quantum Fractal Math Engine Skill
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: formal. Parent: amos-formal-engines-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+## When to Use
+
+- When evaluating multi-state logic branches via Quantum Logic Superposition (QLS)
+- When performing scale-invariant fractal decomposition (H/M/L levels)
+- When analyzing lacunarity texture and fractal dimension scaling
+- When resolving non-binary constraint satisfaction with deterministic state collapse (M-hat)
+
 This skill governs high-dimensional quantum-analogous logical reasoning, multi-scale fractal decomposition, and arithmetic geometry across the AMOS OS mathematical core.
 
 ---

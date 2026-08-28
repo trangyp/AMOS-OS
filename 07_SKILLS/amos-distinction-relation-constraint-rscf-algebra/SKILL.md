@@ -33,7 +33,33 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 version: 1.1.0
+rscf_state: SOURCE_CLAIM
+hml_level: H
+gmef_gates:
+- L0_integrity
+- L1_epistemic
+- L2_provenance
+- L3_dependency
+- L5_scope
+- L7_authority
+- L22_replayability
+collapse_class: reversible
+qfm_gate_set: QFM_v43
+law_compliance:
+- L0
+- L1
+- L2
+- L3
+- L4
+- L5
+- L7
+- L16
+- L17
+- L18
+- L19
+- L22
 ---
+
 
 
 

@@ -3036,7 +3036,7 @@ RSCF_RELATIONS:
 # 108. Proof Capsule — Core Equation
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim:
     >

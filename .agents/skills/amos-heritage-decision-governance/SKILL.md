@@ -19,6 +19,17 @@ law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 
 # AMOS Heritage Decision Governance Skill
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: society. Parent: amos-c06-society-culture-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+## When to Use
+
+- When evaluating historical survival invariants and civilizational shock-damping heuristics
+- When modeling polycentric village topology and hydrological buffering architectures
+- When auditing source-independence provenance for decision lineages
+- When analyzing 32-layer ancestral decision intelligence patterns
+
 This skill governs the execution of multi-century ancestral decision intelligence, polycentric structural topologies, and historical shock-resilience heuristics across the AMOS OS governance and architectural planes.
 
 ---

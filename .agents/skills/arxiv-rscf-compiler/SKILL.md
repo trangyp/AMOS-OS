@@ -17,6 +17,17 @@ law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 
 # arXiv-RSCF Knowledge Compiler
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: knowledge. Parent: amos-knowledge-research-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+## When to Use
+
+- When reformatting an arXiv paper into AMOS RSCF knowledge objects
+- When normalizing research papers into H/M/L knowledge capsules
+- When ingesting scientific literature into AMOS knowledge
+- When creating theorem/equation knowledge nodes from academic papers
+
 The `arxiv-rscf-compiler` transforms raw academic and scientific literature into compact, source-grounded, and invariant-gated **`AMOS_KNOWLEDGE_OBJECT`** nodes.
 
 This is **not** an extractive summarizer or text condenser. It is a **semantic knowledge compiler** that executes a one-time, model-driven semantic conversion to enable amortized, sub-second, ultra-low-token downstream querying ($100$–$1,000$ tokens per query).

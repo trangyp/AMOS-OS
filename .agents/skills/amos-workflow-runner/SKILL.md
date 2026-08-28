@@ -19,6 +19,17 @@ law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 
 # AMOS Workflow Runner
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: runtime. Parent: amos-os-runtime-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+## When to Use
+
+- When the user requests multi-step AMOS workflows (gap closure, epistemic audit, quantum fractal synthesis)
+- When executing canon integration, verification pipelines, or code refactoring workflows
+- When coordinating sequential workflow steps with validation gates
+- When parsing and executing any of the 200+ canonical workflows in .devin/workflows/
+
 This skill allows Antigravity to parse and execute any of the 200+ canonical workflows in `.devin/workflows/`.
 
 ## Capabilities

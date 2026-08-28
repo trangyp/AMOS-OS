@@ -6077,7 +6077,7 @@ RSCF:
 # 202. Final Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim: >
     HERITAGE_X_TRANG_ZERO_MATRIX.md source-defines three

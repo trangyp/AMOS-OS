@@ -19,6 +19,17 @@ law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 
 # AMOS Strategic Foresight (TSS × TPE) Reasoning Skill
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: strategy. Parent: amos-c08-strategy-game-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+## When to Use
+
+- When evaluating systemic risk vectors (Omega, H, F, S) across strategic lifecycle states
+- When mapping 7-cycle evolutionary transitions (C1..C7) and modular decoupling gates (Omega > 0.7)
+- When performing multi-horizon predictive foresight analysis (7-layer TPE)
+- When planning interventions across multiple temporal horizons
+
 This skill governs the execution of structural lifecycle modeling and predictive scenario analysis across the AMOS OS strategic and governance planes.
 
 ---

@@ -5115,7 +5115,7 @@ HERITAGE_X_TSS_MATRIX_INGESTION:
 # 200. Final Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim: >
     HERITAGE_X_TSS_MATRIX.md source-defines a

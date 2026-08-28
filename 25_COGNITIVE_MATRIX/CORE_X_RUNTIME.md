@@ -5155,7 +5155,7 @@ RSCF:
 # 174. Final Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim: >
     CORE_X_RUNTIME.md defines a source-level Core-to-Runtime

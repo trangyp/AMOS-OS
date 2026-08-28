@@ -4717,7 +4717,7 @@ Runtime_Stage_Registry:
 # 174. Proof Capsule — Artifact Status
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   artifact:
     CORE_X_RUNTIME_MATRIX.md
@@ -5631,7 +5631,7 @@ RSCF:
 # 192. Final Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim: >
     CORE_X_RUNTIME_MATRIX.md defines a source-level

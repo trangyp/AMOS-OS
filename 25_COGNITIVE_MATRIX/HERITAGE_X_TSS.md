@@ -4632,7 +4632,7 @@ HERITAGE_X_TSS_INGESTION:
 # 172. Final Proof Capsule
 
 ```yaml
-[[L19_PROOF_CAPSULE]]:
+PROOF_CAPSULE:
 
   claim: >
     HERITAGE_X_TSS.md source-defines the AMOS Cognitive Matrix

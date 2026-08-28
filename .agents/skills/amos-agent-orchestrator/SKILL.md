@@ -19,7 +19,16 @@ law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 
 # AMOS Agent Orchestrator
 
-This skill allows Antigravity to discover, configure, and operate any of the 678 canonical AMOS agents located in `.devin/agents/`.
+## Identity
+
+Origin architect: **Trang Phan**. Domain: agent. Parent: amos-agent-systems-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+## When to Use
+
+- When the user asks to run or invoke a specific AMOS agent
+- When specialized reasoning is needed (quantum fractal math, logic kernel, RSCF proofs, governance, biology, finance, legal)
+- When inspecting agent capabilities, bindings, or system routing
+- When discovering which agent handles a particular task type
 
 ## Capabilities
 

@@ -19,6 +19,17 @@ law_compliance: [L0, L1, L2, L4, L5, L7, L16, L17, L18]
 
 # AMOS Unified Biological Intelligence (UBI) Reasoning Skill
 
+## Identity
+
+Origin architect: **Trang Phan**. Domain: bio. Parent: amos-c04-bio-neuro-master. Epistemic class: SOURCE_CLAIM. H/M/L: M.
+
+## When to Use
+
+- When evaluating physiological telemetry, cognitive load, and autonomic vagal coherence
+- When assessing 40Hz multi-agent clock pacing and quadratic emergence (e = i^2)
+- When applying substrate distress veto (tau < 0.2) across NBI/NEI/SI/BEI domains
+- When reasoning about non-compensatory biological intelligence constraints
+
 This skill governs the execution of biological intelligence constraints, living-substrate primacy, and bio-adaptive runtime pacing across the AMOS OS cognitive architecture.
 
 ---
