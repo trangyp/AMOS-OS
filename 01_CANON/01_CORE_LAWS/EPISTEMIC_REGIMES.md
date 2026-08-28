@@ -71,7 +71,7 @@ status:
     - inference_boundary_control
     - evidence_typing
     - model_boundary_control
-````
+```
 
 The supplied source establishes four discrete knowledge classes:
 
