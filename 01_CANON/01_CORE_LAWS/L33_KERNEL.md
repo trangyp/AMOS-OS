@@ -35,7 +35,7 @@ F1: authoritative kernel canon defines different minimality contract.
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L31_AMOS_PLANE]] · [[L32_CANON]] · [[L8_EXECUTION]] · [[L10_FAILURE_RECOVERY]] · [[L22_REPLAYABILITY]]
 
 ---
 RSCF-NODE

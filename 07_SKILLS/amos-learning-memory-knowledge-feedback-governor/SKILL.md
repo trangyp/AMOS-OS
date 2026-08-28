@@ -155,4 +155,20 @@ The loop has 4 transition types:
 - `amos-knowledge-research-master` — parent skill
 - `[[amos-learning-memory-knowledge-feedback-governor-workflow]]` — corresponding workflow
 - `amos-learning-memory-knowledge-feedback-governor-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-learning-memory-knowledge-feedback-governor
+node_type: skill
+path: 07_SKILLS/amos-learning-memory-knowledge-feedback-governor/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

@@ -175,4 +175,20 @@ Trust formation governance is a social model. It does not prove trust is always 
 - `amos-c09-org-law-policy-master` — parent skill
 - `[[amos-trust-formation-governor-workflow]]` — corresponding workflow
 - `amos-trust-formation-governor-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-trust-formation-governor
+node_type: skill
+path: 07_SKILLS/amos-trust-formation-governor/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

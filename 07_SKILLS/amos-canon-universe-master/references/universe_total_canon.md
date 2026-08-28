@@ -37,3 +37,20 @@ Target: `Universe Total Canon.utc`
 
 ---
 **MOC:** [[references_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-canon-universe-master-universe-total-canon
+node_type: reference
+path: 07_SKILLS/amos-canon-universe-master/references/universe_total_canon.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

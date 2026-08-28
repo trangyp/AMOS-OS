@@ -171,4 +171,20 @@ Core-19 is a source-defined AMOS symbolic substrate. It does not prove reality i
 - `amos-os-runtime-master` — parent skill
 - `[[amos-core19-logic-kernel-workflow]]` — corresponding workflow
 - `amos-core19-logic-kernel-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-core19-logic-kernel
+node_type: skill
+path: 07_SKILLS/amos-core19-logic-kernel/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

@@ -102,3 +102,20 @@ Successfully implemented AMOS BRAIN OMEGA with advanced tensor field analysis, i
 ## Related
 
 - [[07_SKILLS_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-formal-engines-master-omega-advanced-tensor-analysis
+node_type: reference
+path: 07_SKILLS/amos-formal-engines-master/references/omega_advanced_tensor_analysis.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

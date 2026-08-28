@@ -136,3 +136,20 @@ class AMOSContinuationEngine:
 ---
 
 **Related:** [[amos-os-runtime-master_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-os-runtime-master-continuation-engine
+node_type: reference
+path: 07_SKILLS/amos-os-runtime-master/references/continuation_engine.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

@@ -171,4 +171,20 @@ Information exposure control is a security construct. It does not prove all expo
 - `amos-information-theory-master` — parent skill
 - `[[amos-information-exposure-control-workflow]]` — corresponding workflow
 - `amos-information-exposure-control-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-information-exposure-control
+node_type: skill
+path: 07_SKILLS/amos-information-exposure-control/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

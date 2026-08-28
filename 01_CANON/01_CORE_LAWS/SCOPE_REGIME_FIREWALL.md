@@ -11,10 +11,10 @@ rscf:
 
 # SCOPE_REGIME_FIREWALL — Epistemic Regime Boundary Law
 
-The  strictly prohibits reasoning principles, heuristics, or confidence ratings valid in one regime (e.g. theoretical modeling) from leaking un-gated into distinct operational regimes (e.g. safety-critical execution).
+The SCOPE_REGIME_FIREWALL strictly prohibits reasoning principles, heuristics, or confidence ratings valid in one regime (e.g. theoretical modeling) from leaking un-gated into distinct operational regimes (e.g. safety-critical execution).
 
 ## Invariant
-3689	ext{RegimeTransfer}(C, 	ext{Regime}_A, 	ext{Regime}_B) \le 	ext{Gate}(	ext{BoundaryWitness})3689
+$$\text{RegimeTransfer}(C, \text{Regime}_A, \text{Regime}_B) \le \text{Gate}(\text{BoundaryWitness})$$
 
 ## Related
-- [[L0_INTEGRITY]] · [[01_CORE_LAWS_MOC]] · [[PROVENANCE_X_CONFIDENCE]]
+- [[L0_INTEGRITY]] · [[01_CORE_LAWS_MOC]] · [[PROVENANCE_X_CONFIDENCE]] · [[L5_SCOPE_REGIME]] · [[L21_EPISTEMIC_REGIME]] · [[EPISTEMIC_REGIMES]] · [[L30_AUTHORITY_BOUNDARY]] · [[PERSISTENT_PROVENANCE]] · [[FAIL_CLOSED_GOVERNANCE]] · [[SCOPE_REGIME_VALIDATION_RECEIPT]]

@@ -35,7 +35,7 @@ F1: authoritative canon treats gaps as failures to hide.
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L25_SHARD_LOCAL]] · [[L28_CRITICAL_GAP]] · [[L10_FAILURE_RECOVERY]] · [[L17_RSCF]] · [[FAIL_CLOSED_GOVERNANCE]]
 
 ---
 RSCF-NODE

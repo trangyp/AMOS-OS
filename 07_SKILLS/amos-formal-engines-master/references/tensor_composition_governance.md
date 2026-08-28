@@ -54,3 +54,20 @@ This closes the last unowned composition surface in the QFM architecture: knowle
 
 ---
 **MOC:** [[references_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-formal-engines-master-tensor-composition-governance
+node_type: reference
+path: 07_SKILLS/amos-formal-engines-master/references/tensor_composition_governance.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

@@ -35,7 +35,7 @@ F1: authoritative canon permits consequential execution across critical gaps.
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L27_GAP]] · [[L10_FAILURE_RECOVERY]] · [[L8_EXECUTION]] · [[FAIL_CLOSED_GOVERNANCE]] · [[L30_AUTHORITY_BOUNDARY]]
 
 ---
 RSCF-NODE

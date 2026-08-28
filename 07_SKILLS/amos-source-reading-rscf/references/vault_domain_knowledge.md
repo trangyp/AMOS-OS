@@ -416,3 +416,20 @@ if [ -x "scripts/run/god_mode_introspect_daemon.sh" ]; then
 ## Related
 
 - [[07_SKILLS_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-source-reading-rscf-vault-domain-knowledge
+node_type: reference
+path: 07_SKILLS/amos-source-reading-rscf/references/vault_domain_knowledge.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

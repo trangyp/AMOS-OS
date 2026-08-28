@@ -174,4 +174,20 @@ Instinct pattern governance is a cognitive model. It does not prove the system h
 - `amos-c05-mind-behavior-master` — parent skill
 - `[[amos-instinct-pattern-governor-workflow]]` — corresponding workflow
 - `amos-instinct-pattern-governor-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-instinct-pattern-governor
+node_type: skill
+path: 07_SKILLS/amos-instinct-pattern-governor/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

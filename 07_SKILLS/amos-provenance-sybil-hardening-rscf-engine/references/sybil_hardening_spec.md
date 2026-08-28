@@ -43,3 +43,20 @@ rscf:
 ## Related
 
 - [[07_SKILLS_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-provenance-sybil-hardening-rscf-engine-sybil-hardening-spec
+node_type: reference
+path: 07_SKILLS/amos-provenance-sybil-hardening-rscf-engine/references/sybil_hardening_spec.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

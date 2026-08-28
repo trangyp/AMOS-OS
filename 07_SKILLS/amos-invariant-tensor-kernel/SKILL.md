@@ -172,4 +172,20 @@ Invariant tensor kernel is a structural construct. It does not prove all invaria
 - `amos-formal-engines-master` — parent skill
 - `[[amos-invariant-tensor-kernel-workflow]]` — corresponding workflow
 - `amos-invariant-tensor-kernel-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-invariant-tensor-kernel
+node_type: skill
+path: 07_SKILLS/amos-invariant-tensor-kernel/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

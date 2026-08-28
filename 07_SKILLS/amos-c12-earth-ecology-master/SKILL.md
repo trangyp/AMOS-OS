@@ -196,4 +196,20 @@ The C12 Earth & Ecology domain is organized into 10 source families:
 - `none` — parent skill
 - `[[amos-c12-earth-ecology-master-workflow]]` — corresponding workflow
 - `amos-c12-earth-ecology-master-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-c12-earth-ecology-master
+node_type: skill
+path: 07_SKILLS/amos-c12-earth-ecology-master/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

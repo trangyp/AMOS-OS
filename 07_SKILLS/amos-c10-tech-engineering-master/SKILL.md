@@ -206,4 +206,20 @@ Engineering recommendations are always scope-, scale-, workload-, team-, and con
 - `none` — parent skill
 - `[[amos-c10-tech-engineering-master-workflow]]` — corresponding workflow
 - `amos-c10-tech-engineering-master-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-c10-tech-engineering-master
+node_type: skill
+path: 07_SKILLS/amos-c10-tech-engineering-master/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

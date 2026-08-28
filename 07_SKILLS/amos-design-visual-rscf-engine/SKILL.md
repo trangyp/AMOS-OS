@@ -175,4 +175,20 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `amos-c10-tech-engineering-master` — parent skill
 - `[[amos-design-visual-rscf-engine-workflow]]` — corresponding workflow
 - `amos-design-visual-rscf-engine-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-design-visual-rscf-engine
+node_type: skill
+path: 07_SKILLS/amos-design-visual-rscf-engine/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

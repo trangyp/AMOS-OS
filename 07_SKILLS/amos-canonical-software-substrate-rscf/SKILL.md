@@ -175,4 +175,20 @@ This RSCF engine is an epistemic governance tool. It does not prove claims are t
 - `amos-canon-universe-master` — parent skill
 - `[[amos-canonical-software-substrate-rscf-workflow]]` — corresponding workflow
 - `amos-canonical-software-substrate-rscf-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-canonical-software-substrate-rscf
+node_type: skill
+path: 07_SKILLS/amos-canonical-software-substrate-rscf/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

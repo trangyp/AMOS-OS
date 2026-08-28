@@ -166,4 +166,20 @@ Given an operation touching `MEMORY · README` within the Memory plane:
 - `none` — parent skill
 - `[[amos-memory-systems-master-workflow]]` — corresponding workflow
 - `amos-memory-systems-master-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-memory-systems-master
+node_type: skill
+path: 07_SKILLS/amos-memory-systems-master/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

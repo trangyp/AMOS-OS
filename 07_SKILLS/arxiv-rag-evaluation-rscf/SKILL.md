@@ -172,4 +172,20 @@ Arxiv research paper RSCF skill for Arxiv: rag Evaluation Rscf
 - `amos-knowledge-research-master` — parent skill
 - `[[arxiv-rag-evaluation-rscf-workflow]]` — corresponding workflow
 - `arxiv-rag-evaluation-rscf-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: arxiv-rag-evaluation-rscf
+node_type: skill
+path: 07_SKILLS/arxiv-rag-evaluation-rscf/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

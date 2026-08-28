@@ -174,4 +174,20 @@ Human state ontology mapping is an analytical model. It does not prove all human
 - `amos-canon-universe-master` — parent skill
 - `[[amos-human-state-ontology-mapper-workflow]]` — corresponding workflow
 - `amos-human-state-ontology-mapper-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-human-state-ontology-mapper
+node_type: skill
+path: 07_SKILLS/amos-human-state-ontology-mapper/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

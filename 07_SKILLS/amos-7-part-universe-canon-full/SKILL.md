@@ -165,4 +165,20 @@ The 7-part canon is an analytical framework. It does not prove the system has co
 - `amos-canon-universe-master` — parent skill
 - `[[amos-7-part-universe-canon-full-workflow]]` — corresponding workflow
 - `amos-7-part-universe-canon-full-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-7-part-universe-canon-full
+node_type: skill
+path: 07_SKILLS/amos-7-part-universe-canon-full/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

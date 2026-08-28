@@ -173,4 +173,20 @@ Prediction governance is an epistemic construct. It does not prove predictions a
 - `amos-os-runtime-master` — parent skill
 - `[[amos-prediction-governance-workflow]]` — corresponding workflow
 - `amos-prediction-governance-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-prediction-governance
+node_type: skill
+path: 07_SKILLS/amos-prediction-governance/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

@@ -157,4 +157,20 @@ Production software QA agent for repository understanding, debugging, repair, te
 - `amos-c10-tech-engineering-master` — parent skill
 - `[[software-engineering-qa-workflow]]` — corresponding workflow
 - `software-engineering-qa-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: software-engineering-qa
+node_type: skill
+path: 07_SKILLS/software-engineering-qa/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

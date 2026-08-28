@@ -171,4 +171,20 @@ Heritage patterns are SOURCE_CLAIM. Statistical significance claims (e.g., p < 0
 - `amos-c06-society-culture-master` — parent skill
 - `[[amos-heritage-decision-intelligence-workflow]]` — corresponding workflow
 - `amos-heritage-decision-intelligence-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-heritage-decision-intelligence
+node_type: skill
+path: 07_SKILLS/amos-heritage-decision-intelligence/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

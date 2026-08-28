@@ -179,4 +179,20 @@ Neurotransmitter mapping is SOURCE_CLAIM (vault-sourced structural model). Biolo
 - `amos-c04-bio-neuro-master` — parent skill
 - `[[amos-sensory-map-integrator-workflow]]` — corresponding workflow
 - `amos-sensory-map-integrator-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-sensory-map-integrator
+node_type: skill
+path: 07_SKILLS/amos-sensory-map-integrator/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

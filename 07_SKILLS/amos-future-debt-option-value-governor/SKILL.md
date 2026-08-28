@@ -184,4 +184,20 @@ Future debt option value governance is a decision-support construct. It does not
 - `amos-c07-econ-finance-master` — parent skill
 - `[[amos-future-debt-option-value-governor-workflow]]` — corresponding workflow
 - `amos-future-debt-option-value-governor-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-future-debt-option-value-governor
+node_type: skill
+path: 07_SKILLS/amos-future-debt-option-value-governor/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

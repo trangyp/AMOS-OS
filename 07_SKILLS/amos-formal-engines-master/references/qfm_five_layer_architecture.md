@@ -68,3 +68,20 @@ This pass was architectural rather than content-adding: the corpus had the piece
 
 ---
 **MOC:** [[references_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-formal-engines-master-qfm-five-layer-architecture
+node_type: reference
+path: 07_SKILLS/amos-formal-engines-master/references/qfm_five_layer_architecture.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

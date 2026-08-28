@@ -35,7 +35,7 @@ F1: authoritative authority canon merges any separated term.
 00_ROOT_MOC|AMOS MOC
 
 ---
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]]
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[L7_AUTHORITY]] · [[L1_EPISTEMIC]] · [[L5_SCOPE_REGIME]] · [[L29_DECISION_VALUE]] · [[SCOPE_REGIME_FIREWALL]] · [[L28_CRITICAL_GAP]]
 
 ---
 RSCF-NODE

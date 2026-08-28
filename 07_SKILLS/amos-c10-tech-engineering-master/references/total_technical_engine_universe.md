@@ -122,3 +122,20 @@ OP_LOGIC_STRENGTH= "L(A) = I(A) * S(A)"    # 0
 ---
 
 **Related:** [[amos-c10-tech-engineering-master_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-c10-tech-engineering-master-total-technical-engine-universe
+node_type: reference
+path: 07_SKILLS/amos-c10-tech-engineering-master/references/total_technical_engine_universe.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

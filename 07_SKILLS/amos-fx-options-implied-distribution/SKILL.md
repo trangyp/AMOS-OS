@@ -168,4 +168,20 @@ FX options implied distribution is an analytical framework. It does not prove th
 - `amos-c07-econ-finance-master` — parent skill
 - `[[amos-fx-options-implied-distribution-workflow]]` — corresponding workflow
 - `amos-fx-options-implied-distribution-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-fx-options-implied-distribution
+node_type: skill
+path: 07_SKILLS/amos-fx-options-implied-distribution/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

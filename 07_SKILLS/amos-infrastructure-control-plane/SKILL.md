@@ -174,4 +174,20 @@ Infrastructure control plane is a runtime architecture. It does not prove all in
 - `amos-c10-tech-engineering-master` — parent skill
 - `[[amos-infrastructure-control-plane-workflow]]` — corresponding workflow
 - `amos-infrastructure-control-plane-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-infrastructure-control-plane
+node_type: skill
+path: 07_SKILLS/amos-infrastructure-control-plane/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

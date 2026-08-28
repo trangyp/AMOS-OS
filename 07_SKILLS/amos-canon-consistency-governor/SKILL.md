@@ -175,4 +175,20 @@ Canon consistency is a structural property. It does not prove the canon is true,
 - `amos-canon-universe-master` — parent skill
 - `[[amos-canon-consistency-governor-workflow]]` — corresponding workflow
 - `amos-canon-consistency-governor-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-canon-consistency-governor
+node_type: skill
+path: 07_SKILLS/amos-canon-consistency-governor/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

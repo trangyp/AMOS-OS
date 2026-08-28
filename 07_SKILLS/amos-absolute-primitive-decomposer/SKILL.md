@@ -176,4 +176,20 @@ Absolute primitive decomposition is an analytical method. It does not prove the 
 - `amos-os-runtime-master` — parent skill
 - `[[amos-absolute-primitive-decomposer-workflow]]` — corresponding workflow
 - `amos-absolute-primitive-decomposer-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-absolute-primitive-decomposer
+node_type: skill
+path: 07_SKILLS/amos-absolute-primitive-decomposer/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]

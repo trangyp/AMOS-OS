@@ -37,3 +37,20 @@ Lu\u00f4n hi\u1ec7u qu\u1ea3, b\u1ea5t k\u1ec3 ch\u1ee7 \u0111\u1ec1.\",\n      
 ## Related
 
 - [[07_SKILLS_MOC]]
+---
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[references_MOC]] · [[07_SKILLS_MOC]]
+
+**MOC:** [[references_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-c06-society-culture-master-vietnamese-writing-engine
+node_type: reference
+path: 07_SKILLS/amos-c06-society-culture-master/references/vietnamese_writing_engine.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[references_MOC]]

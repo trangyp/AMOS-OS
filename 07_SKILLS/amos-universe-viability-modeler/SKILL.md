@@ -174,4 +174,20 @@ Universe viability modeling is an AMOS_MODEL. It does not prove our universe is 
 - `amos-canon-universe-master` — parent skill
 - `[[amos-universe-viability-modeler-workflow]]` — corresponding workflow
 - `amos-universe-viability-modeler-agent` — corresponding agent
+---
 
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
+
+**MOC:** [[07_SKILLS_MOC]]
+
+**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+RSCF-NODE
+node_id: amos-universe-viability-modeler
+node_type: skill
+path: 07_SKILLS/amos-universe-viability-modeler/SKILL.md
+RSCF-RELATIONS:
+- INDEXED_BY: [[00_HOME]]
+- INDEXED_BY: [[AMOS_RSCF_NODES]]
+- CHILD_OF: [[07_SKILLS_MOC]]
