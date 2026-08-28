@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "EPISTEMIC_REGIMES Classification Law"
 aliases:
@@ -4465,7 +4464,4 @@ FLUENCY.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
-
-```
-```
+[[00_ROOT_MOC|AMOS MOC]]
