@@ -1,304 +1,116 @@
 ---
-title: Kernel · QCLA
-type: note
+title: K_QCLA — Quantum Coherence & Logic Architecture Kernel
+type: kernel
 source: 02_KERNEL/01_META_LOGIC
-artifact: K_QCLA.md
-artifact_id: 02_kernel_01_meta_logic_k_qcla
+artifact_id: AMOS-OS-K-QCLA
+canonical_name: K_QCLA
+artifact_type: kernel_quantum_coherence_contract
+status: AMOS_MODEL
+conclusion_class: AMOS_MODEL
+amos_core_target: v4.4
 origin_architect: Trang Phan
 steward: Trang Phan
-system: AMOS OS
 plane: 02_KERNEL
 segment: 02_KERNEL/01_META_LOGIC
-artifact_kind: NOTE
-path: 02_KERNEL/01_META_LOGIC/K_QCLA.md
+kernel_family: META_LOGIC
+domain: quantum-coherence-logic
+scope: AMOS_OS
+created: '2026-08-25'
+updated: '2026-08-28'
 tags:
-- 01_meta_logic
-- 02_kernel
-- amos_os
-- artifact
-- canon/kernel
-- canon/universe
-- canon_placeholder
-- core
-- k_qcla.md
+- amos-os
 - kernel
-- note
 - qcla
-- rscf
-- placeholder_expanded
-- routing-policy-validation-receipt
-- authz-engine-validation-receipt
-- law-hierarchy
-- kernel-readme
-- control-plane-readme
-- observability-readme
-- operations-readme
-- 00-root-moc
-- amos-moc
-- 00-home
-- amos-rscf-nodes
+- quantum-coherence
+- logic-architecture
+- k1-k5-claims
+- bio-quantum-coherence
+- rscf/claim
+- rscf/state/model
 - 01-meta-logic-moc
-version: 0.2.0
-updated: '2026-08-27'
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: 02_KERNEL
-  regime: canon_placeholder
-  confidence_ceiling: source_supported
-  provenance_independence: NOT_ESTABLISHED
+- 02-kernel-moc
+- 00-home
+- 00-root-moc
+aliases:
+- Quantum Coherence & Logic Architecture Kernel
+- K_QCLA
+- QCLA Kernel
+- AMOS QCLA Contract
 ---
 
-## 0. Canonical Status
+# K_QCLA — Quantum Coherence & Logic Architecture Kernel
 
-`K_QCLA.md` is an **ADD-ONLY placeholder-expanded artifact** for the **02_KERNEL** plane segment.
+> **Origin Architect / Steward:** Trang Phan  
+> **Plane:** `02_KERNEL/01_META_LOGIC`  
+> **Status:** `AMOS_MODEL`  
+> **Core Substrate:** 5 Invariant Claims ($K_1 \dots K_5$) $\times$ Bio-Quantum Coherence Bridge
 
-It reserves the canonical slot for the AMOS framework family named **Kernel · QCLA**.
+---
 
-The artifact is presently:
+## 1. Purpose and Foundational Architecture
 
-```text
-status: PLACEHOLDER_EXPANDED
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
+`K_QCLA` establishes the formal interface between quantum logical models (superposition, entanglement, state collapse) and macro-biological coherence. In AMOS OS, "quantum" semantics are utilized as **formal reasoning analogies and multi-hypothesis algebraic operators**, bridging abstract logical state vectors with biological and cognitive information processing.
+
 ```
-
-This artifact MUST NOT be interpreted as establishing completed, validated, or enforced canon.
-
-## 1. Governing Integrity Boundary
-
-The following distinctions are mandatory:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-No downstream layer may silently collapse these distinctions.
-
-Origin architect / steward: **Trang Phan**
-
-System: **AMOS OS**
-
----
-
-# Kernel · QCLA
-
-## 0. Status
-
-`K_QCLA.md` is an **ADD-ONLY placeholder** for the **Kernel** plane segment at `02_KERNEL/01_META_LOGIC`.
-
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
-
-The governing boundaries are:
-
-```text
-PLACEHOLDER != IMPLEMENTED
-
-ADDRESSABLE != VALIDATED
-
-DOCUMENTED != ENFORCED
-
-MODEL != OBSERVATION
-
-SOURCE_CLAIM != VERIFIED
-
-CANON_CANDIDATE != CANONICAL
-
-CANONICAL != EMPIRICAL_TRUTH
-
-CAPABILITY != AUTHORITY
-
-AUTHORIZATION != COMMIT
-
-PROPOSAL != COMMIT
-
-IMPLEMENTED != VALIDATED
-
-LOGGED != APPROVED
-
-UNKNOWN/GAP != PASS
-```
-
-Origin architect / steward:
-
-**Trang Phan**
-
----
-
-## 1. Purpose
-
-This artifact reserves the **Kernel · QCLA** slot within the Kernel plane. The Kernel plane governs kernel-plane reasoning primitives: meta-logic, cognition, causality, state, memory, risk-repair, authority, provenance, integration.
-
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
-
----
-
-## 2. Non-Purpose
-
-This placeholder MUST NOT be used to claim:
-
-* universal laws of reality;
-* scientific proof;
-* biological truth;
-* mathematical theoremhood;
-* philosophical certainty;
-* runtime enforcement that has not been implemented;
-* final canonical status;
-* authority merely from architectural importance;
-* or successful validation merely because the slot is addressable.
-
----
-
-## 3. Ingestion Rule
-
-```yaml
-AMOS_CANON_INGESTION_RULE:
-  existing_folder:
-    preserve: true
-  existing_file:
-    preserve: true
-    overwrite: false
-  new_framework:
-    action: ADD_FILE_TO_EXISTING_FOLDER
-  master_source:
-    action: NORMALIZE_TO_RSCF_FILE
-  framework_existing_in_multiple_sources:
-    action:
-      - CREATE_ONE_CANONICAL_NODE
-      - LINK_ALL_SOURCE_PROVENANCE
-      - DO_NOT_CREATE_DUPLICATE_CANON
-  historical_source:
-    action:
-      - LINK_TO_CANON
-      - RECORD_LINEAGE
-      - PRESERVE_HERITAGE
-  external_research:
-    action:
-      - KEEP_OUT_OF_NATIVE_CANON
-      - LINK_AS_EVIDENCE
-  duplicate_filename:
-    action:
-      - COMPARE_CONTENT_AND_LINEAGE
-      - DO_NOT_OVERWRITE
-  uncertainty:
-    action:
-      - MARK_GAP_OR_COMPETING
-      - NEVER_INVENT_CANON
++-------------------------------------------------------------------------+
+|                    QCLA REASONING & COHERENCE BRIDGE                    |
+|                                                                         |
+|  [ Multi-Hypothesis Input Space {H_1, H_2, ... H_n} ]                   |
+|                               |                                         |
+|                               v                                         |
+|        ( Superposition Preparation: |Ψ> = Σ c_i |H_i> )                 |
+|                               |                                         |
+|                               v                                         |
+|        ( Entanglement & Constraint Propagation: K1..K5 )                |
+|                               |                                         |
+|                +--------------+--------------+                          |
+|                |                             |                          |
+|      [ Coherent Trajectory ]       [ Decoherence / Thermal Drift ]      |
+|                |                             |                          |
+|                v                             v                          |
+|     ( Dominance Collapse κ )       ( Phase Error Correction )           |
+|                |                             |                          |
+|                v                             v                          |
+|     [ Deterministic Output ]       [ Restored Coherent State ]          |
++-------------------------------------------------------------------------+
 ```
 
 ---
 
-## 4. Contract discipline
+## 2. The Five Foundational Claims ($K_1 \dots K_5$)
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
-
----
-
-## 5. Gaps
-
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
-
----
-
-## 6. Worked semantics (target)
-
-Given an operation touching `02_KERNEL · ARTIFACT` within the Kernel plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+| Claim ID | Formal Name | Mathematical Invariant | Operational Role |
+| :--- | :--- | :--- | :--- |
+| **$K_1$** | **Coherent State Superposition** | $\sum |c_i|^2 = 1, \quad \mathcal{H}(|\Psi\rangle) \ge \mathcal{H}_{\text{floor}}$ | Allows evaluating competing hypotheses in parallel without premature collapse. |
+| **$K_2$** | **Entangled Constraint Coupling** | $\mathcal{S}_{A \otimes B} \neq \mathcal{S}_A \otimes \mathcal{S}_B$ | Represents non-local relational dependencies across domain boundaries. |
+| **$K_3$** | **Coherence-Energy Bridge (CEL)** | $E_{\text{coherence}} = \hbar_{\text{eff}} \cdot \omega_{\text{sync}} \cdot (1 - S_{\text{entropy}})$ | Binds computational work to thermodynamic and biological dissipation limits. |
+| **$K_4$** | **Deterministic Dominance Collapse** | $\kappa(|\Psi\rangle) \to |H_{\text{dominant}}\rangle \iff \Delta \text{Proof} > \theta_{\text{cert}}$ | Collapses multi-state branches into a single authoritative commitment. |
+| **$K_5$** | **Molecular Bio-Coherence Bridge** | $\tau_{\text{decoherence}}^{\text{bio}} \ge \tau_{\text{decision}}$ | Maps biological regulation (NBI/SI) to coherent decision time windows. |
 
 ---
 
-## 7. Promotion-gate checklist
+## 3. The Molecular-Biological Coherence Template
 
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+`K_QCLA` provides a 4-layer template connecting quantum reasoning with UBI Layer 5:
+1. **Sub-Cellular Quantum Substrate:** Micro-tubule / ion-channel electromagnetic field coherence modeling.
+2. **Cellular Synchronization Layer:** Calcium-wave phase locking and oscillatory neural assemblies.
+3. **Cognitive Coherence Lattice:** Working memory buffer maintenance and attention steering.
+4. **Macro-System Integration:** High-level strategic consensus and coordinated multi-agent alignment.
 
 ---
 
-## 8. Cross-plane bindings (target)
+## 4. Epistemic Boundary & Anti-Overclaim Invariant
 
-- Governed by canon — [[LAW_HIERARCHY]]|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+> [!IMPORTANT]
+> - **Analogical Reasoning Constraint:** All quantum terminology ($|\Psi\rangle$, entanglement, superposition) within `K_QCLA` represents formal mathematical algorithms for computational reasoning, NOT empirical physics claims about hardware or physical brains.
+> - **Symbolic $\neq$ Empirical:** Symbolic coherence proofs do not substitute for empirical biological laboratory data.
 
 ---
 
-[[00_ROOT_MOC]]|[[AMOS MOC]]
+## 5. Cross-Plane Bindings
 
----
+- **Model Registry:** [[QCLA_MODEL_REGISTRY]] · [[QLS_MODEL_REGISTRY]]
+- **Quantum Systems:** [[K_QUANTUM_LOGIC_SYSTEM]] · [[K_QUANTUM_CAUSALITY]] · [[0_UNIVERSE_LOGIC_KERNEL_ULK_ULMK]]
+- **Biological Logic:** [[BIO_LOGICAL_COMPUTING_MODEL]] · [[K_BIO_LOGICAL_COMPUTING]] · [[K_BIOELECTROMAGNETIC_BEI]]
+- **Navigation:** [[00_HOME]] · [[02_KERNEL_MOC]] · [[01_META_LOGIC_MOC]] · [[00_ROOT_MOC]]
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
-
----
-
-RSCF-NODE
-
-node_id: amos_02_kernel_01_meta_logic_k_qcla
-
-node_type: artifact
-
-path: 02_KERNEL/01_META_LOGIC/K_QCLA.md
-
-claim_class: AMOS_MODEL
-
-rscf_state: placeholder
-
-canonical_status: UNKNOWN/GAP
-
-RSCF-RELATIONS:
-
-  - INDEXED_BY: [[00_HOME]]
-
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
-
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
-
----
-**MOC:** [[01_META_LOGIC_MOC]]
