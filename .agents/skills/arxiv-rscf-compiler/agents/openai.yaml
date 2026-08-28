@@ -1,8 +1,0 @@
-interface:
-  display_name: "arXiv RSCF Knowledge Compiler"
-  short_description: "Compiles arXiv scientific papers into source-grounded AMOS RSCF knowledge objects with H/M/L fractal decomposition."
-  default_prompt: "Compile this scientific paper into a normalized AMOS_KNOWLEDGE_OBJECT adhering to the AMOS RSCF schema."
-policy:
-  allow_implicit_invocation: true
-  model_requirements:
-    min_context_window: 32768
