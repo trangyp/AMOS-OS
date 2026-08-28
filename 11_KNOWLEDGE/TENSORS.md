@@ -1,3 +1,22 @@
+---
+title: TENSORS — Full Source-Grounded Expansion
+type: knowledge
+source: 11_KNOWLEDGE
+tags:
+- tensors
+- rscf/T-topology
+- rscf/G-relation
+- rscf/type-model
+- rscf/epistemic
+- topic/tensors
+- knowledge
+rscf:
+  state: SOURCE_CLAIM
+  claim_class: SOURCE_CLAIM
+  provenance: AMOS_corpus
+  scope: tensor_framework
+---
+
 # TENSORS — Full Source-Grounded Expansion
 
 The Drive corpus confirms the seed `tensors.md` exactly around the nine-axis tensor `M[cause,mediator,target,relation_type,time,scale,regime,evidence_class,provenance]`, with the explicit rule that axes are typed/non-interchangeable and `UNKNOWN` plus provenance must be preserved.
