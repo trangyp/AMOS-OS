@@ -19,4 +19,4 @@ rscf:
 - Transitions must satisfy $	ext{CommitTimestamp} > 	ext{ReadTimestamp}$.
 
 ## Related
-- [[K_CAS]] · K_ATOMIC_MULTI_RSCF · [[02_KERNEL_MOC]]
+- [[K_CAS]] · [[K_ATOMIC_MULTI_RSCF]] · [[02_KERNEL_MOC]]
