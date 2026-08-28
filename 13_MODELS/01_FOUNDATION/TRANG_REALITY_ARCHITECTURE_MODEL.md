@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "TRANG Reality Architecture Model"
 aliases:
@@ -173,7 +172,7 @@ The previous artifact state was:
 
 ```text
 PLACEHOLDER
-````
+---
 
 Native AMOS/Trang corpus material exists for this framework family, including:
 
@@ -6551,6 +6550,3 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[01_FOUNDATION_MOC]]
-
-```
-```

@@ -1,8 +1,3 @@
-I checked the exact `MODEL_MAP.md` in Drive. The native file confirms the same load-bearing nucleus: local scope is `13_MODELS/00_INDEX`, reading order is README → contract → artifacts, cross-segment edges are delegated to `[[00_ROOT_MAP]]` and `[[AMOS_RSCF_NODES]]`, graph validation is `PARTIAL`, and the six-stage Admit → Commit/Hold semantics are present.
-
-Below is the **full expanded Obsidian note**, preserving that source canon while adding typed map semantics, provenance, scope/regime firewalls, H/M/L navigation, competing-model handling, graph invariants, validation contracts, negative cases, RSCF structure, and explicit `UNKNOWN/GAP` boundaries rather than inventing implementation.
-
-````markdown
 ---
 title: MODEL MAP
 aliases:
@@ -163,6 +158,13 @@ gaps:
   persistent_graph_transaction_binding: NOT_ESTABLISHED
 ---
 
+> [!note] Source preface
+>
+> I checked the exact `MODEL_MAP.md` in Drive. The native file confirms the same load-bearing nucleus: local scope is `13_MODELS/00_INDEX`, reading order is README → contract → artifacts, cross-segment edges are delegated to `[[00_ROOT_MAP]]` and `[[AMOS_RSCF_NODES]]`, graph validation is `PARTIAL`, and the six-stage Admit → Commit/Hold semantics are present.
+> 
+> Below is the **full expanded Obsidian note**, preserving that source canon while adding typed map semantics, provenance, scope/regime firewalls, H/M/L navigation, competing-model handling, graph invariants, validation contracts, negative cases, RSCF structure, and explicit `UNKNOWN/GAP` boundaries rather than inventing implementation.
+
+
 # MODEL MAP
 
 > [!abstract] Models Plane Navigation Map
@@ -242,7 +244,7 @@ MODEL_MAP_SOURCE_NUCLEUS:
     node_type: note
     path: 13_MODELS/00_INDEX/MODEL_MAP.md
     claim_class: AMOS_MODEL
-````
+---
 
 This expanded note preserves that nucleus.
 

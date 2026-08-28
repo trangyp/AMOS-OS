@@ -1,6 +1,3 @@
-I found a native AMOS basis for this slot in the corpus: `AMOS_COGNITION.json` contains `layer_5_biological_logic_layer`, whose stated purpose is to anchor reasoning in biological constraints, with domains for neurobiology, emotion/state, somatic patterns, and bioelectromagnetic effects. The Khung Trang corpus adds the model sequence `Instinct → Emotion → Intuition → Cognition` and associated model equations. I therefore populate the placeholder as an **AMOS biological-computing model**, while keeping those equations and biological assertions typed as corpus models/source claims rather than established neuroscience or biological law.
-
-````markdown
 ---
 title: Bio-Logical Computing Model
 aliases:
@@ -150,6 +147,11 @@ gaps:
   artifact_specific_validation_receipt: "NOT_ESTABLISHED"
 ---
 
+> [!note] Source preface
+>
+> I found a native AMOS basis for this slot in the corpus: `AMOS_COGNITION.json` contains `layer_5_biological_logic_layer`, whose stated purpose is to anchor reasoning in biological constraints, with domains for neurobiology, emotion/state, somatic patterns, and bioelectromagnetic effects. The Khung Trang corpus adds the model sequence `Instinct → Emotion → Intuition → Cognition` and associated model equations. I therefore populate the placeholder as an **AMOS biological-computing model**, while keeping those equations and biological assertions typed as corpus models/source claims rather than established neuroscience or biological law.
+
+
 # Bio-Logical Computing Model
 
 > [!abstract] Canonical Position
@@ -167,7 +169,7 @@ The previous artifact was:
 
 ```text
 PLACEHOLDER
-````
+---
 
 A substantive native AMOS source has now been identified:
 

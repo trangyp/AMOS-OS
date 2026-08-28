@@ -1,6 +1,3 @@
-The placeholder can now be populated from the native `ABSOLUTE OMNIVERSE U∞` corpus artifact rather than left as an empty canonical slot. The source identifies itself as **vInfinity**, authored by **Trang Phan**, under **AMOS / UNIVERSE_OS**, and—critically—defines itself as a **content universe** containing multimodal ontologies while explicitly saying **“Pure content only. No logic, no prediction, no rules.”** I preserve that boundary below. Entries concerning psychology, culture, animal behavior, moral dimensions, dreams, and micro-signals therefore remain **AMOS model/content taxonomy**, not verified clinical, biological, cultural, or scientific truth.
-
-````markdown
 ---
 title: Absolute Omniverse Model
 aliases:
@@ -161,6 +158,11 @@ gaps:
   artifact_specific_validation_receipt: "NOT_ESTABLISHED"
 ---
 
+> [!note] Source preface
+>
+> The placeholder can now be populated from the native `ABSOLUTE OMNIVERSE U∞` corpus artifact rather than left as an empty canonical slot. The source identifies itself as **vInfinity**, authored by **Trang Phan**, under **AMOS / UNIVERSE_OS**, and—critically—defines itself as a **content universe** containing multimodal ontologies while explicitly saying **“Pure content only. No logic, no prediction, no rules.”** I preserve that boundary below. Entries concerning psychology, culture, animal behavior, moral dimensions, dreams, and micro-signals therefore remain **AMOS model/content taxonomy**, not verified clinical, biological, cultural, or scientific truth.
+
+
 # Absolute Omniverse Model
 
 > [!abstract] Canonical Position
@@ -182,7 +184,7 @@ The former placeholder state:
 
 ```text
 PLACEHOLDER
-````
+---
 
 can be superseded at the document-content level because a native AMOS corpus source is available:
 

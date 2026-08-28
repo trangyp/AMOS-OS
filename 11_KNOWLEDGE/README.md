@@ -1,173 +1,3 @@
----
-title: README — 11 Knowledge
-tags:
-- moc
-- index
-- canon/knowledge
-type: document
-source: 11_KNOWLEDGE/root
-rscf:
-  state: SOURCE_CLAIM
-  claim_class: SOURCE_CLAIM
-  provenance: AMOS_corpus
-  scope: AMOS_knowledge
----
-
-# README
-
-> **Source note**: Below is a **source-preserving, full Obsidian-ready canonical expansion with tagging**. The supplied frontmatter and source text remain the source layer; inferred structure, proposed tags, corrected executable examples, and vault enhancements are explicitly separated as **DERIVED / PROPOSED**.
-
-A de...
-
-
-# README — 11 Knowledge
-
-> [!abstract] Source Boundary
-> This note is a source-grounded expansion of the supplied `README — 11 Knowledge` artifact.
->
-> The source metadata places the artifact in:
->
-> `11_KNOWLEDGE/root`
->
-> while the body begins:
->
-> `# 01_BRAIN`
->
-> and describes an `01_BRAIN` subsystem.
->
-> This discrepancy is preserved as an **UNRESOLVED SOURCE STRUCTURE GAP** rather than silently corrected.
->
-> The body also contains placeholder-style descriptions such as:
->
-> - `This subsystem handles...`
-> - `Component 1: Description`
-> - `Configuration options...`
-> - `Other AMOS subsystems`
-> - `Required libraries`
->
-> Therefore the source establishes the presence and intended documentation structure of the subsystem description, but it does **not** provide enough detail to reconstruct the missing implementation canon.
-
----
-
-# 0. Canonical Source Receipt
-
-## 0.1 Source Metadata
-
-| Field | Source Value | Class |
-|---|---|---|
-| `title` | `README — 11 Knowledge` | SOURCE_GROUNDED |
-| `tags` | `moc`, `index`, `canon/knowledge` | SOURCE_GROUNDED |
-| `type` | `document` | SOURCE_GROUNDED |
-| `source` | `11_KNOWLEDGE/root` | SOURCE_GROUNDED |
-| `rscf.state` | `SOURCE_CLAIM` | SOURCE_GROUNDED |
-| `rscf.claim_class` | `SOURCE_CLAIM` | SOURCE_GROUNDED |
-| `rscf.provenance` | `AMOS_corpus` | SOURCE_GROUNDED |
-| `rscf.scope` | `AMOS_knowledge` | SOURCE_GROUNDED |
-| Body heading | `01_BRAIN` | SOURCE_GROUNDED |
-| Linked MOC | `[[COSMO_BRAIN_MOC]]` | SOURCE_GROUNDED |
-| Linked MOC | `[[KNOWLEDGE_MOC]]` | SOURCE_GROUNDED |
-
----
-
-# 1. Source Identity
-
-The supplied metadata identifies the artifact as:
-
-```yaml
-title: README — 11 Knowledge
-source: "11_KNOWLEDGE/root"
-type: document
-````
-
-The supplied body identifies its primary subject as:
-
-```text
-01_BRAIN
-```
-
-Therefore the current source receipt contains two structural identities:
-
-$$
-ArtifactLocation = 11\_KNOWLEDGE/root
-$$
-
-and:
-
-$$
-BodySubject = 01\_BRAIN
-$$
-
-No supplied statement explains the relationship.
-
-Canonical classification:
-
-```yaml
-artifact_identity:
-  metadata_identity:
-    title: "README — 11 Knowledge"
-    location: "11_KNOWLEDGE/root"
-
-  body_identity:
-    primary_heading: "01_BRAIN"
-
-  relationship:
-    state: UNKNOWN
-    class: GAP
-```
-
----
-
-# 2. Identity Mismatch
-
-The mismatch must not be silently normalized into either of these assumptions:
-
-```text
-README — 11 Knowledge == README — 01_BRAIN
-```
-
-or:
-
-```text
-11_KNOWLEDGE == 01_BRAIN
-```
-
-Neither identity is established.
-
-The source may represent several possibilities.
-
-### H1 — README Content Drift
-
-The metadata correctly identifies an `11_KNOWLEDGE` README, but the body was copied from an `01_BRAIN` template.
-
-### H2 — Embedded Subsystem Documentation
-
-The `11_KNOWLEDGE` README intentionally documents `01_BRAIN` as a component or knowledge object.
-
-### H3 — Template Artifact
-
-The body is a generic subsystem README template whose placeholders were not yet replaced.
-
-### H4 — Path Drift
-
-The body is correct, but the source/path metadata is stale or incorrectly assigned.
-
-### H5 — Generated Scaffold
-
-The artifact was generated from a standard AMOS subsystem documentation scaffold and has not yet undergone semantic completion.
-
-All remain:
-
-`COMPETING / UNRESOLVED`
-
-until discriminating source evidence exists.
-
----
-
-# 3. Source Body
-
-The canonical supplied body is structurally:
-
-````markdown
 # 01_BRAIN
 
 ## Overview
@@ -191,7 +21,179 @@ from 01_BRAIN.main import BRAINSubsystem
 subsystem = BRAINSubsystem()
 
 await subsystem.initialize()
-````
+---
+
+> [!note] Source preface
+>
+> ---
+> title: README — 11 Knowledge
+> tags:
+> - moc
+> - index
+> - canon/knowledge
+> type: document
+> source: 11_KNOWLEDGE/root
+> rscf:
+>   state: SOURCE_CLAIM
+>   claim_class: SOURCE_CLAIM
+>   provenance: AMOS_corpus
+>   scope: AMOS_knowledge
+> ---
+> 
+> # README
+> 
+> > **Source note**: Below is a **source-preserving, full Obsidian-ready canonical expansion with tagging**. The supplied frontmatter and source text remain the source layer; inferred structure, proposed tags, corrected executable examples, and vault enhancements are explicitly separated as **DERIVED / PROPOSED**.
+> 
+> A de...
+> 
+> 
+> # README — 11 Knowledge
+> 
+> > [!abstract] Source Boundary
+> > This note is a source-grounded expansion of the supplied `README — 11 Knowledge` artifact.
+> >
+> > The source metadata places the artifact in:
+> >
+> > `11_KNOWLEDGE/root`
+> >
+> > while the body begins:
+> >
+> > `# 01_BRAIN`
+> >
+> > and describes an `01_BRAIN` subsystem.
+> >
+> > This discrepancy is preserved as an **UNRESOLVED SOURCE STRUCTURE GAP** rather than silently corrected.
+> >
+> > The body also contains placeholder-style descriptions such as:
+> >
+> > - `This subsystem handles...`
+> > - `Component 1: Description`
+> > - `Configuration options...`
+> > - `Other AMOS subsystems`
+> > - `Required libraries`
+> >
+> > Therefore the source establishes the presence and intended documentation structure of the subsystem description, but it does **not** provide enough detail to reconstruct the missing implementation canon.
+> 
+> ---
+> 
+> # 0. Canonical Source Receipt
+> 
+> ## 0.1 Source Metadata
+> 
+> | Field | Source Value | Class |
+> |---|---|---|
+> | `title` | `README — 11 Knowledge` | SOURCE_GROUNDED |
+> | `tags` | `moc`, `index`, `canon/knowledge` | SOURCE_GROUNDED |
+> | `type` | `document` | SOURCE_GROUNDED |
+> | `source` | `11_KNOWLEDGE/root` | SOURCE_GROUNDED |
+> | `rscf.state` | `SOURCE_CLAIM` | SOURCE_GROUNDED |
+> | `rscf.claim_class` | `SOURCE_CLAIM` | SOURCE_GROUNDED |
+> | `rscf.provenance` | `AMOS_corpus` | SOURCE_GROUNDED |
+> | `rscf.scope` | `AMOS_knowledge` | SOURCE_GROUNDED |
+> | Body heading | `01_BRAIN` | SOURCE_GROUNDED |
+> | Linked MOC | `[[COSMO_BRAIN_MOC]]` | SOURCE_GROUNDED |
+> | Linked MOC | `[[KNOWLEDGE_MOC]]` | SOURCE_GROUNDED |
+> 
+> ---
+> 
+> # 1. Source Identity
+> 
+> The supplied metadata identifies the artifact as:
+> 
+> ```yaml
+> title: README — 11 Knowledge
+> source: "11_KNOWLEDGE/root"
+> type: document
+> ````
+> 
+> The supplied body identifies its primary subject as:
+> 
+> ```text
+> 01_BRAIN
+> ```
+> 
+> Therefore the current source receipt contains two structural identities:
+> 
+> $$
+> ArtifactLocation = 11\_KNOWLEDGE/root
+> $$
+> 
+> and:
+> 
+> $$
+> BodySubject = 01\_BRAIN
+> $$
+> 
+> No supplied statement explains the relationship.
+> 
+> Canonical classification:
+> 
+> ```yaml
+> artifact_identity:
+>   metadata_identity:
+>     title: "README — 11 Knowledge"
+>     location: "11_KNOWLEDGE/root"
+> 
+>   body_identity:
+>     primary_heading: "01_BRAIN"
+> 
+>   relationship:
+>     state: UNKNOWN
+>     class: GAP
+> ```
+> 
+> ---
+> 
+> # 2. Identity Mismatch
+> 
+> The mismatch must not be silently normalized into either of these assumptions:
+> 
+> ```text
+> README — 11 Knowledge == README — 01_BRAIN
+> ```
+> 
+> or:
+> 
+> ```text
+> 11_KNOWLEDGE == 01_BRAIN
+> ```
+> 
+> Neither identity is established.
+> 
+> The source may represent several possibilities.
+> 
+> ### H1 — README Content Drift
+> 
+> The metadata correctly identifies an `11_KNOWLEDGE` README, but the body was copied from an `01_BRAIN` template.
+> 
+> ### H2 — Embedded Subsystem Documentation
+> 
+> The `11_KNOWLEDGE` README intentionally documents `01_BRAIN` as a component or knowledge object.
+> 
+> ### H3 — Template Artifact
+> 
+> The body is a generic subsystem README template whose placeholders were not yet replaced.
+> 
+> ### H4 — Path Drift
+> 
+> The body is correct, but the source/path metadata is stale or incorrectly assigned.
+> 
+> ### H5 — Generated Scaffold
+> 
+> The artifact was generated from a standard AMOS subsystem documentation scaffold and has not yet undergone semantic completion.
+> 
+> All remain:
+> 
+> `COMPETING / UNRESOLVED`
+> 
+> until discriminating source evidence exists.
+> 
+> ---
+> 
+> # 3. Source Body
+> 
+> The canonical supplied body is structurally:
+
 
 ## Configuration
 
