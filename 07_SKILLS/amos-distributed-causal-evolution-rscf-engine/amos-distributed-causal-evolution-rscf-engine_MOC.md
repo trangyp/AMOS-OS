@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-distributed-causal-evolution-rscf-e
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Distributed-Causal-Evolution-Rscf-Engine — Map of Content
 

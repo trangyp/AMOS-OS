@@ -6,13 +6,16 @@ tags:
 - moc
 - 09-finalization
 - canon/runtime
+- causal-epoch-finalizer
+- local-proof-finalizer
+- proof-capsule-finalizer
+- 04-runtime-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 09 Finalization — Map of Content
 

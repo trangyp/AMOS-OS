@@ -12,19 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MATHEMATICS
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_FRACTAL_MATHEMATICS.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - heritage_fractal_mathematics
-  - ancient_fractals
-  - 12_fractal_types
-  - repeating_geometry
-  - self_similarity
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- heritage_fractal_mathematics
+- ancient_fractals
+- 12_fractal_types
+- repeating_geometry
+- self_similarity
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- frai-fractal-reasoning-ai
+- heritage-pattern-intelligence
+- heritage-spatial-intelligence
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,28 +46,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_ANCIENT_FRACTAL_MATHEMATICS_AND_REPEATI
-    - HERITAGE_12_LOAI_FRACTAL_VA_UNG_DUNG_CUA_CHUN
-    - AMOS_CORPUS
+  - HERITAGE_ANCIENT_FRACTAL_MATHEMATICS_AND_REPEATI
+  - HERITAGE_12_LOAI_FRACTAL_VA_UNG_DUNG_CUA_CHUN
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRACTAL_MATHEMATICS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FRACTAL_MATHEMATICS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Heritage Ancient Fractal Mathematics & Geometry
     role: FRACTAL_MATHEMATICAL_FOUNDATIONS
   master_framework:
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   fractal_reasoning:
-    artifact: [[FRAI_FRACTAL_REASONING_AI]]
+    artifact:
+    - - FRAI_FRACTAL_REASONING_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   mathematical_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage Fractal Mathematics
 

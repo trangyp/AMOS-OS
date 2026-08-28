@@ -6,13 +6,16 @@ tags:
 - moc
 - 38-api-integration
 - canon/domain
+- api-integration-domains-readme
+- domains-api-integration-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 38 Api Integration — Map of Content
 

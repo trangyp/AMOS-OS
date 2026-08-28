@@ -12,17 +12,22 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/ADVERSARIAL_VALIDATION_RUNTIME.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 06_execution
-  - adversarial_validation_runtime
-  - stress_testing
-  - falsifier_synthesis
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 06_execution
+- adversarial_validation_runtime
+- stress_testing
+- falsifier_synthesis
+- rscf
+- canon_candidate
+- canon/runtime
+- 06-execution-moc
+- l0-integrity
+- design-for-absolute-integrity
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-    - AMOS_CORPUS
+  - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_EXECUTION
-    - ADVERSARIAL_VALIDATION
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_EXECUTION
+  - ADVERSARIAL_VALIDATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
     artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC

@@ -12,19 +12,25 @@ segment: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_kind: COGNITIVE
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_COGNITIVE_MATRIX_README.md
 tags:
-  - 10_routing
-  - 25_cognitive_matrix
-  - amos_os
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive
-  - cognitive_matrix
-  - matrix
-  - readme
-  - routing
-  - routing_cognitive_matrix_readme.md
-  - rscf
-  - placeholder_expanded
+- 10_routing
+- 25_cognitive_matrix
+- amos_os
+- canon/cognitive-matrix
+- canon/universe
+- cognitive
+- cognitive_matrix
+- matrix
+- readme
+- routing
+- routing_cognitive_matrix_readme.md
+- rscf
+- placeholder_expanded
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 10-routing-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -43,7 +49,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

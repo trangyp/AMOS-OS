@@ -5,6 +5,23 @@ tags:
 - heritage
 - registry.md
 - registry
+- validation
+- architecture
+- heritage-lineage
+- references
+- memory
+- canon
+- domain-registry
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-home
+- amos-rscf-nodes
+- 04-domain-moc
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
 ---
 
 Below is the full expanded Obsidian-ready registry. I’m keeping the supplied artifact as the source nucleus and treating the expanded registry semantics as **AMOS_MODEL / normalized AMOS governance**, not inventing specific heritage-domain models that were not supplied or independently established.

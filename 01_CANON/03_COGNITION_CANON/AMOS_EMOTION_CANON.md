@@ -18,20 +18,34 @@ schema_family: RSCF
 schema_role: EMOTION_CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - cognition
-  - emotion
-  - affect
-  - 01_canon
-  - 03_cognition_canon
-  - canon_placeholder
-  - rscf
-  - provenance
-  - scope
-  - regime
-  - validation
-  - canon/universe
+- amos_os
+- canon
+- cognition
+- emotion
+- affect
+- 01_canon
+- 03_cognition_canon
+- canon_placeholder
+- rscf
+- provenance
+- scope
+- regime
+- validation
+- canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- amos-cognition-canon
+- amos-consciousness-canon
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 03-cognition-canon-moc
 version: 0.2.0
 updated: '2026-08-28'
 status: PLACEHOLDER_EXPANDED

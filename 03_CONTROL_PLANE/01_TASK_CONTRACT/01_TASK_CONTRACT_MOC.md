@@ -6,13 +6,17 @@ tags:
 - moc
 - 01-task-contract
 - canon/control-plane
+- task-contract
+- task-contract-control-plane-readme
+- task-resolver
+- 00-index-moc
+- 03-control-plane-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Task Contract — Map of Content
 

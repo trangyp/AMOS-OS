@@ -6,13 +6,14 @@ tags:
 - moc
 - 35-resource-budget-modes
 - canon/control-plane
+- 09-commit-moc
+- resource-budget-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 35 Resource Budget Modes — Map of Content
 

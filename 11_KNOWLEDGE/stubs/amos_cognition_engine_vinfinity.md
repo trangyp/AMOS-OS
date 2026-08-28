@@ -6,8 +6,15 @@ tags:
 - cognition
 - engine
 - vinfinity
+- amos-cognition-engine-vinfinity
+- kernel-moc
+- 00-home
 ---
 
 # amos cognition engine vinfinity
 
 Stub note for [[amos_cognition_engine_vinfinity]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

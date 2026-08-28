@@ -6,13 +6,19 @@ tags:
 - moc
 - 09-dependency-graph
 - canon/cognitive-matrix
+- dependency-audit
+- dependency-graph-cognitive-matrix-readme
+- dependency-types
+- invalidation-rules
+- 00-index-moc
+- cognitive-matrix-dependency-graph-contract
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 09 Dependency Graph — Map of Content
 

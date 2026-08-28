@@ -4,7 +4,10 @@ title: SKILL — Amos Causal Abstraction Validity Rscf Engine
 type: skill
 source: 07_SKILLS/amos-causal-abstraction-validity-rscf-engine
 name: amos-causal-abstraction-validity-rscf-engine
-description: Causal Abstraction Validity — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
+description: Causal Abstraction Validity — causal reasoning capability. Use when causal
+  analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
+  routes to this specialized capability. Do not use for generic tasks outside causal
+  domain.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-causal-abstraction-validity-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: SPECIFICATION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - uba_specification
-  - universal_biological_architecture
-  - living_morphology
-  - biological_tensegrity
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- uba_specification
+- universal_biological_architecture
+- living_morphology
+- biological_tensegrity
+- rscf
+- canon_candidate
+- canon/knowledge
+- uba-framework
+- unified-biological-intelligence
+- ubi-fractal-architecture
+- ubi-homeostasis
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,27 +45,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBA_FRAMEWORK
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBA_FRAMEWORK
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_SPECIFICATION
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_SPECIFICATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   framework:
-    artifact: [[UBA_FRAMEWORK]]
+    artifact:
+    - - UBA_FRAMEWORK
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   fractal_biology:
-    artifact: [[UBI_FRACTAL_ARCHITECTURE]]
+    artifact:
+    - - UBI_FRACTAL_ARCHITECTURE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   uba_specification: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Universal Biological Architecture (UBA) Detailed Specification
 

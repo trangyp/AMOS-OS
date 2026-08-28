@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-distinct-working-memory-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Distinct-Working-Memory-Rscf — Map of Content
 

@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-distributed-attack-composition-moni
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Distributed-Attack-Composition-Monitor-Rscf — Map of Content
 

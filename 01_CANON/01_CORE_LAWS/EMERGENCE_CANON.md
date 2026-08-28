@@ -17,23 +17,31 @@ schema_family: RSCF
 schema_role: EMERGENCE_CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - core_laws
-  - emergence
-  - canon_placeholder
-  - provenance
-  - lineage
-  - scope
-  - regime
-  - causality
-  - validation
-  - governance
-  - rscf
-  - canon/universe
-  - placeholder_expanded
+- amos_os
+- canon
+- universe
+- 01_canon
+- core_laws
+- emergence
+- canon_placeholder
+- provenance
+- lineage
+- scope
+- regime
+- causality
+- validation
+- governance
+- rscf
+- canon/universe
+- placeholder_expanded
+- agents
+- law-hierarchy
+- 00-home
+- amos-rscf-nodes
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

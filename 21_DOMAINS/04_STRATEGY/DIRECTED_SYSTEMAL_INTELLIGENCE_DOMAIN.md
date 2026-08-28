@@ -12,17 +12,22 @@ segment: 21_DOMAINS/04_STRATEGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/04_STRATEGY/DIRECTED_SYSTEMAL_INTELLIGENCE_DOMAIN.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 04_strategy
-  - directed_systemal_intelligence_domain
-  - teleological_navigation
-  - dynamic_trajectory_steering
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 04_strategy
+- directed_systemal_intelligence_domain
+- teleological_navigation
+- dynamic_trajectory_steering
+- rscf
+- canon_candidate
+- canon/domain
+- directed-systemal-intelligence
+- 04-strategy-moc
+- tss-domain-model
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE
-    - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE
+  - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_STRATEGY
-    - DSI_ENGINE
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_STRATEGY
+  - DSI_ENGINE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   dsi_framework:
-    artifact: [[DIRECTED_SYSTEMAL_INTELLIGENCE]]
+    artifact:
+    - - DIRECTED_SYSTEMAL_INTELLIGENCE
   strategy_moc:
-    artifact: [[04_STRATEGY_MOC]]
+    artifact:
+    - - 04_STRATEGY_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

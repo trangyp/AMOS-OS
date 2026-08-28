@@ -28,37 +28,58 @@ executable_binding: NOT_ESTABLISHED
 created: '2026-08-25'
 updated: '2026-08-27'
 tags:
-  - amos-os
-  - kernel
-  - foundation
-  - core19
-  - deterministic-logic
-  - kernel/core19
-  - kernel/logic
-  - kernel/deterministic
-  - kernel/invariants
-  - kernel/state-transition
-  - kernel/dependency
-  - kernel/provenance
-  - kernel/scope
-  - kernel/regime
-  - kernel/validation
-  - kernel/recovery
-  - kernel/concurrency
-  - kernel/atomicity
-  - kernel/finality
-  - canon-group/tech-ai
-  - canon/model
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/model
-  - topic/core19
-  - topic/deterministic-logic
+- amos-os
+- kernel
+- foundation
+- core19
+- deterministic-logic
+- kernel/core19
+- kernel/logic
+- kernel/deterministic
+- kernel/invariants
+- kernel/state-transition
+- kernel/dependency
+- kernel/provenance
+- kernel/scope
+- kernel/regime
+- kernel/validation
+- kernel/recovery
+- kernel/concurrency
+- kernel/atomicity
+- kernel/finality
+- canon-group/tech-ai
+- canon/model
+- rscf/claim
+- rscf/provenance
+- rscf/state/model
+- topic/core19
+- topic/deterministic-logic
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- kernel-map
+- canon
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- hml-canon
+- persistence-canon
+- authority-canon
+- canon-provenance
+- source-lineage
+- source-registry
+- conflict-registry
+- supersession-log
+- control-plane-map
+- runtime-map
+- authoritative-state
+- 01-meta-logic-moc
 aliases:
-  - CORE19 Logic
-  - K CORE19 LOGIC
-  - AMOS CORE19 Logic Kernel
-  - CORE19 Deterministic Logic Kernel
+- CORE19 Logic
+- K CORE19 LOGIC
+- AMOS CORE19 Logic Kernel
+- CORE19 Deterministic Logic Kernel
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
@@ -79,8 +100,6 @@ integrity:
   deterministic_derivation_verifies_premises: false
 source: 02_KERNEL/01_META_LOGIC
 ---
-
-
 
 # K_CORE19_LOGIC
 

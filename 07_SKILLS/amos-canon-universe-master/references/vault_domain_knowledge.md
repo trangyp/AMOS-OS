@@ -6,13 +6,20 @@ tags:
 - reference
 - amos-canon-universe-master
 - canon/skill
+- skill
+- amos-canon-universe-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # amos-canon-universe-master — Vault-Sourced Domain Knowledge
 

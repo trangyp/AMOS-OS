@@ -6,13 +6,17 @@ tags:
 - moc
 - 26-ubi-si-somatic
 - canon/domain
+- domains-ubi-si-somatic-contract
+- ubi-si-somatic-domains-domain-spec
+- ubi-si-somatic-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 26 Ubi Si Somatic — Map of Content
 

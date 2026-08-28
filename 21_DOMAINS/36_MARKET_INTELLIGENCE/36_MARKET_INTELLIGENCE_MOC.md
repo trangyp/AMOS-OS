@@ -6,13 +6,16 @@ tags:
 - moc
 - 36-market-intelligence
 - canon/domain
+- domains-market-intelligence-contract
+- market-intelligence-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 36 Market Intelligence — Map of Content
 

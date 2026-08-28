@@ -8,6 +8,11 @@ tags:
 - state_transition
 - atomicity
 - rscf
+- k-mvcc
+- mvcc-cas
+- 02-kernel-moc
+- 03-causal-moc
+- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE
@@ -23,3 +28,7 @@ rscf:
 
 ## Related
 - [[K_MVCC]] · [[MVCC_CAS]] · [[02_KERNEL_MOC]]
+
+---
+
+**MOC:** [[03_CAUSAL_MOC]] · [[00_HOME]]

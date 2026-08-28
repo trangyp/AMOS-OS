@@ -12,17 +12,22 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 03_rscf
-  - canon_rscf_index
-  - proof_capsules
-  - canon_proofs
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 03_rscf
+- canon_rscf_index
+- proof_capsules
+- canon_proofs
+- rscf
+- canon_candidate
+- canon/knowledge
+- 03-rscf-moc
+- 01-canon-moc
+- canon-claim-registry
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,15 +42,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 01_CANON/01_CANON_MOC
-    - AMOS_CORPUS
+  - 01_CANON/01_CANON_MOC
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_RSCF
-    - CANON_RSCF_INDEX
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_RSCF
+  - CANON_RSCF_INDEX
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
-    artifact: [[03_RSCF_MOC]]
+    artifact:
+    - - 03_RSCF_MOC
   canon_moc:
     artifact: 01_CANON/01_CANON_MOC
   claims_registry:
@@ -56,7 +62,6 @@ epistemic_boundary:
   proof_index: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Canon RSCF Proof Capsule Index
 

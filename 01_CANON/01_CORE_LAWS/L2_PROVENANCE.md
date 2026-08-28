@@ -6,12 +6,21 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-    - internal
+  - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
 - note
 - 01-core-laws
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- l0-integrity
+- l1-epistemic
+- core-laws-map
+- core-laws-canon-core-laws-contract
+- 01-core-laws-moc
 canon-group: canon/core-laws
 ---
 

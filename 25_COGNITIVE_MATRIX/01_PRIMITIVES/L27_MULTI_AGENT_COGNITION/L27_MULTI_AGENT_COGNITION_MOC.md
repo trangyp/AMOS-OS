@@ -6,13 +6,35 @@ tags:
 - moc
 - l27-multi-agent-cognition
 - canon/cognitive-matrix
+- cognitive-matrix-agents
+- cognitive-matrix-control-planes
+- cognitive-matrix-definition
+- cognitive-matrix-dependencies
+- cognitive-matrix-equations
+- cognitive-matrix-failure-modes
+- cognitive-matrix-gap-matrix
+- cognitive-matrix-hml
+- cognitive-matrix-invariants
+- cognitive-matrix-memory
+- cognitive-matrix-operators
+- cognitive-matrix-protocols
+- cognitive-matrix-provenance
+- cognitive-matrix-purpose
+- cognitive-matrix-repair
+- cognitive-matrix-rscf
+- cognitive-matrix-skills
+- cognitive-matrix-state
+- cognitive-matrix-tests
+- cognitive-matrix-variables
+- cognitive-matrix-workflows
+- 00-index-moc
+- 01-primitives-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L27 Multi Agent Cognition — Map of Content
 

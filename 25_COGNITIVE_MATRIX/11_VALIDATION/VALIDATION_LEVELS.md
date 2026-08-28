@@ -6,13 +6,18 @@ tags:
 - note
 - 11-validation
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 11-validation-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 11_VALIDATION — Validation Levels
 

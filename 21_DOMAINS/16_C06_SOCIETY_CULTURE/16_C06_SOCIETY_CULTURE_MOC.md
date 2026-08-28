@@ -6,13 +6,17 @@ tags:
 - moc
 - 16-c06-society-culture
 - canon/domain
+- c06-society-culture-domains-domain-spec
+- c06-society-culture-domains-readme
+- domains-c06-society-culture-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 16 C06 Society Culture — Map of Content
 

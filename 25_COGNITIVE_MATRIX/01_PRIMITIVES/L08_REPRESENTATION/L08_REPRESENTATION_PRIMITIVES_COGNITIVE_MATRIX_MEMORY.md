@@ -6,13 +6,17 @@ tags:
 - note
 - l08-representation
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- l08-representation-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L08 — Memory Contract
 

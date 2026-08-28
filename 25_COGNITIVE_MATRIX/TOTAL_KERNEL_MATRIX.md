@@ -12,29 +12,51 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_KERNEL_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - total_kernel_matrix
-  - kernel_routing
-  - kernel_convergence
-  - 02_kernel_convergence
-  - ulk
-  - murk
-  - go_board
-  - mvcc
-  - cas
-  - atomic_multi_rscf
-  - failure_recovery
-  - meta_logic
-  - qcla
-  - dcp
-  - proof_compiler
-  - fail_closed
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- total_kernel_matrix
+- kernel_routing
+- kernel_convergence
+- 02_kernel_convergence
+- ulk
+- murk
+- go_board
+- mvcc
+- cas
+- atomic_multi_rscf
+- failure_recovery
+- meta_logic
+- qcla
+- dcp
+- proof_compiler
+- fail_closed
+- rscf
+- canon_candidate
+- canon/matrix
+- 02-kernel-moc
+- ulk-logic-kernel
+- 25-cognitive-matrix-moc
+- k-mvcc
+- k-cas
+- k-atomic-multi-rscf
+- k-failure-recovery
+- mvcc-cas
+- canon
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- reality-x-ulk-matrix
+- total-canon-matrix
+- total-framework-matrix
+- k-rscf
+- k-hml
+- k-canon
+- k-fail-closed
+- k-provenance
+- k-governed-evolution
+- amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -49,22 +71,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 02_KERNEL/02_KERNEL_MOC
-    - 02_KERNEL/ULK_LOGIC_KERNEL
-    - 25_COGNITIVE_MATRIX/REALITY_X_ULK
-    - AMOS_CORPUS
+  - 02_KERNEL/02_KERNEL_MOC
+  - 02_KERNEL/ULK_LOGIC_KERNEL
+  - 25_COGNITIVE_MATRIX/REALITY_X_ULK
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - MASTER_KERNEL_MATRIX
-    - KERNEL_CONVERGENCE
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - MASTER_KERNEL_MATRIX
+  - KERNEL_CONVERGENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   kernel_moc:
-    artifact: [[02_KERNEL_MOC]]
+    artifact:
+    - - 02_KERNEL_MOC
   ulk:
-    artifact: [[ULK_LOGIC_KERNEL]]
+    artifact:
+    - - ULK_LOGIC_KERNEL
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

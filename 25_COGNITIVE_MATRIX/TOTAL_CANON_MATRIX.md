@@ -12,32 +12,54 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_CANON_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - total_canon_matrix
-  - master_canon
-  - master_convergence_grid
-  - cross_plane
-  - canon_routing
-  - core_laws
-  - l0_integrity
-  - l1_reality
-  - l2_cognition
-  - l3_governance
-  - universe_strata
-  - seven_part_universe
-  - epistemic_invariants
-  - enforcement_gates
-  - authority_envelopes
-  - physical_conservation
-  - anti_autopoisoning
-  - null_state
-  - rscf
-  - provenance
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- total_canon_matrix
+- master_canon
+- master_convergence_grid
+- cross_plane
+- canon_routing
+- core_laws
+- l0_integrity
+- l1_reality
+- l2_cognition
+- l3_governance
+- universe_strata
+- seven_part_universe
+- epistemic_invariants
+- enforcement_gates
+- authority_envelopes
+- physical_conservation
+- anti_autopoisoning
+- null_state
+- rscf
+- provenance
+- canon_candidate
+- canon/matrix
+- architecture
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- 25-cognitive-matrix-moc
+- canon
+- 01-canon-moc
+- 01-core-laws-moc
+- canon-claim-registry
+- k-rscf
+- k-hml
+- k-canon
+- k-core-laws
+- k-provenance
+- k-provenance-topology
+- k-anti-autopoisoning
+- k-authority
+- k-governance
+- k-reality
+- k-universe-strata
+- l0-integrity
+- amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -55,13 +77,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 01_CANON/01_CANON_MOC
-    - 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
-    - AMOS_CORPUS
+  - 01_CANON/01_CANON_MOC
+  - 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - MASTER_CANON_MATRIX
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - MASTER_CANON_MATRIX
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   canon_moc:
     artifact: 01_CANON/01_CANON_MOC

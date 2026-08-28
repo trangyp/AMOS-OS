@@ -6,13 +6,15 @@ tags:
 - moc
 - l25-identity-continuity
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l25-identity-continuity-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L25 Identity Continuity — Map of Content
 

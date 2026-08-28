@@ -1,10 +1,10 @@
 ---
 title: AMOS BIOLOGY QUANTUM BRIDGE GOVERNOR
 aliases:
-  - "AMOS Biology-Quantum Bridge Governor"
-  - "Biology Quantum Bridge Governor"
-  - "BQ Bridge Governor"
-  - "Bio-Quantum Anti-Overclaim Governor"
+- AMOS Biology-Quantum Bridge Governor
+- Biology Quantum Bridge Governor
+- BQ Bridge Governor
+- Bio-Quantum Anti-Overclaim Governor
 type: quantum
 artifact_type: cross_domain_governor
 document_role: epistemic_bridge_governor
@@ -31,87 +31,92 @@ canonical_status: SOURCE_GROUNDED_AMOS_MODEL
 bridge_status: GOVERNED
 anti_overclaim_firewall: REQUIRED
 tags:
-  - amos_os
-  - amos-os
-  - rscf
-  - rscf/node
-  - rscf/skill
-  - knowledge
-  - vault
-  - cross-domain
-  - cross-domain-governance
-  - cross-domain-bridge
-  - bridge-governor
-  - biology
-  - neuroscience
-  - bio-neuro
-  - quantum
-  - quantum-biology
-  - quantum-mechanics
-  - physics
-  - physics-cosmos
-  - biology-quantum
-  - biology-quantum-bridge
-  - bio-quantum
-  - bio-quantum-bridge
-  - analogy
-  - metaphor
-  - model
-  - structural-comparison
-  - epistemic
-  - epistemic-classification
-  - epistemic-firewall
-  - epistemic-regime
-  - epistemic-governance
-  - anti-overclaim
-  - anti-overclaim-firewall
-  - causal-firewall
-  - causality
-  - causal-discipline
-  - provenance
-  - provenance-topology
-  - evidence
-  - evidence-governance
-  - evidence-independence
-  - scope
-  - regime
-  - freshness
-  - drift-detection
-  - claim-ceiling
-  - confidence-ceiling
-  - competing-hypotheses
-  - falsification
-  - validation
-  - qa
-  - lifecycle
-  - translation
-  - bidirectional-translation
-  - mapping
-  - governed-mapping
-  - model-metaphor
-  - diagnostic-metaphor
-  - structural-analogy
-  - quantum-analogy
-  - consciousness-firewall
-  - physical-prediction-firewall
-  - empirical-firewall
-  - biology-cognition
-  - nervous-system
-  - neural-computation
-  - cognition
-  - embodied-machine
-  - living-body
-  - neuromorphic
-  - quantum-engine
-  - quantum-stack
-  - qft-mapping
-  - rscf-governance
-  - hml
-  - tensor-composition
-  - canon-group/cross-domain
-  - topic/biology-quantum
-  - topic/anti-overclaim-firewall
-  - canon/knowledge
+- amos_os
+- amos-os
+- rscf
+- rscf/node
+- rscf/skill
+- knowledge
+- vault
+- cross-domain
+- cross-domain-governance
+- cross-domain-bridge
+- bridge-governor
+- biology
+- neuroscience
+- bio-neuro
+- quantum
+- quantum-biology
+- quantum-mechanics
+- physics
+- physics-cosmos
+- biology-quantum
+- biology-quantum-bridge
+- bio-quantum
+- bio-quantum-bridge
+- analogy
+- metaphor
+- model
+- structural-comparison
+- epistemic
+- epistemic-classification
+- epistemic-firewall
+- epistemic-regime
+- epistemic-governance
+- anti-overclaim
+- anti-overclaim-firewall
+- causal-firewall
+- causality
+- causal-discipline
+- provenance
+- provenance-topology
+- evidence
+- evidence-governance
+- evidence-independence
+- scope
+- regime
+- freshness
+- drift-detection
+- claim-ceiling
+- confidence-ceiling
+- competing-hypotheses
+- falsification
+- validation
+- qa
+- lifecycle
+- translation
+- bidirectional-translation
+- mapping
+- governed-mapping
+- model-metaphor
+- diagnostic-metaphor
+- structural-analogy
+- quantum-analogy
+- consciousness-firewall
+- physical-prediction-firewall
+- empirical-firewall
+- biology-cognition
+- nervous-system
+- neural-computation
+- cognition
+- embodied-machine
+- living-body
+- neuromorphic
+- quantum-engine
+- quantum-stack
+- qft-mapping
+- rscf-governance
+- hml
+- tensor-composition
+- canon-group/cross-domain
+- topic/biology-quantum
+- topic/anti-overclaim-firewall
+- canon/knowledge
+- readme
+- 00-home
+- amos-rscf-nodes
+- knowledge-moc
+- amos-cross-domain-tensor-composition-governor
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL

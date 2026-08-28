@@ -6,13 +6,23 @@ tags:
 - moc
 - 00-index
 - canon/cognitive-matrix
+- cognitive-matrix-architecture
+- cognitive-matrix-map
+- cognitive-matrix-naming-standard
+- control-plane-registry
+- index-cognitive-matrix-readme
+- index-cognitive-matrix-cognitive-matrix-contract
+- lifecycle-operation-registry
+- primitive-registry
+- scale-registry
+- status-legend
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # 00 Index — Map of Content
 

@@ -6,13 +6,13 @@ tags:
 - moc
 - 73-retrieval-context-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 73 Retrieval Context Modes — Map of Content
 

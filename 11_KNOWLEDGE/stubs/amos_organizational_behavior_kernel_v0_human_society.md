@@ -8,8 +8,14 @@ tags:
 - kernel
 - human
 - society
+- kernel-moc
+- 00-home
 ---
 
 # amos organizational behavior kernel v0 human society
 
 Stub note for [[amos_organizational_behavior_kernel_v0_human_society]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

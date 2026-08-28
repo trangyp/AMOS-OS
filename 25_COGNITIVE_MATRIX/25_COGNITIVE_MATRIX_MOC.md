@@ -6,13 +6,76 @@ tags:
 - moc
 - 25-cognitive-matrix
 - canon/cognitive-matrix
+- amos-x-heritage
+- amos-x-heritage-matrix
+- amos-x-neurosyncai
+- amos-x-neurosyncai-matrix
+- amos-x-omega
+- amos-x-qcla
+- amos-x-qls
+- amos-x-qls-qcla-matrix
+- amos-x-tpe
+- amos-x-trang-reality
+- amos-x-trang-reality-matrix
+- amos-x-tss
+- amos-x-tss-tpe-matrix
+- amos-x-ubi
+- amos-x-ubi-matrix
+- amos-x-universe-canon
+- amos-x-universe-canon-matrix
+- canon-x-domains
+- canon-x-knowledge
+- cognitive-matrix-cognitive-matrix-contract
+- cognitive-matrix-readme
+- core-x-control-plane
+- core-x-control-plane-matrix
+- core-x-runtime
+- core-x-runtime-matrix
+- heritage-x-trang-zero
+- heritage-x-trang-zero-matrix
+- heritage-x-tss
+- heritage-x-tss-matrix
+- placeholder-seed-status
+- provenance-x-confidence
+- reality-x-rscf-matrix
+- reality-x-ulk
+- reality-x-ulk-matrix
+- rscf-x-gmef
+- total-canon-matrix
+- total-canon-relation-matrix
+- total-engine-matrix
+- total-framework-matrix
+- total-kernel-matrix
+- ubi-x-cognition
+- ubi-x-cognition-matrix
+- ubi-x-emotion
+- ubi-x-emotion-matrix
+- ubi-x-full-brain
+- ubi-x-full-brain-matrix
+- ubi-x-neurosyncai
+- ubi-x-neurosyncai-matrix
+- ulk-x-rscf
+- universe-x-omega-matrix
+- 00-index-moc
+- 01-primitives-moc
+- 02-lifecycle-operations-moc
+- 03-control-planes-moc
+- 04-scales-moc
+- 05-cell-registry-moc
+- 06-cell-contracts-moc
+- 07-coverage-moc
+- 08-structural-gaps-moc
+- 09-dependency-graph-moc
+- 10-routing-moc
+- 11-validation-moc
+- 12-generators-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 25 Cognitive Matrix — Map of Content
 

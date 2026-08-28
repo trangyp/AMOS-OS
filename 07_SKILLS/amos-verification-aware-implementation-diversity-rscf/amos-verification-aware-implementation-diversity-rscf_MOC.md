@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-verification-aware-implementation-d
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Verification-Aware-Implementation-Diversity-Rscf — Map of Content
 

@@ -12,18 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MASTER
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - neurosyncai_master
-  - bio_adaptive_ai
-  - cognitive_synchrony
-  - fatigue_mitigation
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- neurosyncai_master
+- bio_adaptive_ai
+- cognitive_synchrony
+- fatigue_mitigation
+- rscf
+- canon_candidate
+- canon/knowledge
+- neurosyncai-framework
+- ubi-neurosyncai-binding
+- unified-biological-intelligence
+- consentx
+- id-exchange
+- amos-x-neurosyncai
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,28 +47,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - NEUROSYNCAI_FRAMEWORK
-    - UBI_NEUROSYNCAI_BINDING
-    - AMOS_CORPUS
+  - NEUROSYNCAI_FRAMEWORK
+  - UBI_NEUROSYNCAI_BINDING
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - ADAPTIVE_AI_MASTER
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - ADAPTIVE_AI_MASTER
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: NeurosyncAI Master Architecture
     role: COGNITIVE_PACING_AND_BIO_SYNCHRONY_MASTER
   framework:
-    artifact: [[NEUROSYNCAI_FRAMEWORK]]
+    artifact:
+    - - NEUROSYNCAI_FRAMEWORK
   biological_bridge:
-    artifact: [[UBI_NEUROSYNCAI_BINDING]]
+    artifact:
+    - - UBI_NEUROSYNCAI_BINDING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   master_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # NeurosyncAI Master Architecture
 

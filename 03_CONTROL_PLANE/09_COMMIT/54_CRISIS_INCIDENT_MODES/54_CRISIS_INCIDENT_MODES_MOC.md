@@ -6,13 +6,14 @@ tags:
 - moc
 - 54-crisis-incident-modes
 - canon/control-plane
+- 09-commit-moc
+- crisis-incident-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 54 Crisis Incident Modes — Map of Content
 

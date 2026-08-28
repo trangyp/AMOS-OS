@@ -6,13 +6,14 @@ tags:
 - moc
 - 19-learning-modes
 - canon/control-plane
+- 09-commit-moc
+- learning-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 19 Learning Modes — Map of Content
 

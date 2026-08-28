@@ -20,13 +20,27 @@ tags:
 - note
 - 00-root
 - canon/root
+- validation
+- memory
+- 00-root-authorization
+- authority-resolver
+- authority-witness
+- canon
+- authorization-spec
+- delegation
+- revocation
+- capability-manifest
+- policy-engine
+- policy-registry
+- policy-decision
+- architecture
+- 00-root-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: root_index
 ---
-
 
 ```
 

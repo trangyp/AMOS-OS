@@ -14,6 +14,12 @@ tags:
 - rscf/state/observation
 - topic/automation-super-engine
 - engine
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +27,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AUTOMATION SUPER ENGINE
 
 ```json

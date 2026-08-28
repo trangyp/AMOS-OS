@@ -3,32 +3,38 @@ title: L23 — Multi-Version Concurrency Control & CAS Law
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_law
-  - mvcc
-  - cas
-  - concurrency
-  - snapshot_isolation
-  - transaction
-  - transaction_isolation
-  - atomic_compare_and_swap
-  - state_transition
-  - concurrent_reasoning
-  - reasoning_loop
-  - read_set
-  - snapshot
-  - commit
-  - conflict
-  - rollback
-  - retry
-  - safe_epoch
-  - dirty_read
-  - phantom_state
-  - runtime_memory
-  - monotonic_commit
-  - serializability
-  - provenance
-  - canon/universe
+- canon
+- core_law
+- mvcc
+- cas
+- concurrency
+- snapshot_isolation
+- transaction
+- transaction_isolation
+- atomic_compare_and_swap
+- state_transition
+- concurrent_reasoning
+- reasoning_loop
+- read_set
+- snapshot
+- commit
+- conflict
+- rollback
+- retry
+- safe_epoch
+- dirty_read
+- phantom_state
+- runtime_memory
+- monotonic_commit
+- serializability
+- provenance
+- canon/universe
+- k-mvcc
+- k-cas
+- mvcc-cas
+- 01-core-laws-moc
+- 00-index-moc
+- 00-home
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT
@@ -3958,3 +3964,7 @@ scope:
 ```
 
 **Conclusion class: CANONICAL_INVARIANT within AMOS_CANON.**
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

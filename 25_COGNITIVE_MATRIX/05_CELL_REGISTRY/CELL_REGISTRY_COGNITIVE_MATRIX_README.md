@@ -8,13 +8,17 @@ tags:
 - readme
 - contract_filled
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- 05-cell-registry-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05_CELL_REGISTRY — Cell Registry Contract Overview
 

@@ -6,13 +6,13 @@ tags:
 - moc
 - 98-delegation-assignment-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 98 Delegation Assignment Modes — Map of Content
 

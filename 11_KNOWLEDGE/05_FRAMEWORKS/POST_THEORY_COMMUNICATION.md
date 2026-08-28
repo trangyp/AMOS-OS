@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/POST_THEORY_COMMUNICATION.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - post_theory_communication
-  - precise_language
-  - loop_closure
-  - structural_communication
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- post_theory_communication
+- precise_language
+- loop_closure
+- structural_communication
+- rscf
+- canon_candidate
+- canon/knowledge
+- phuong-phap-trang
+- neutral-interface-training-protocol
+- absolute-structural-integrity
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,24 +44,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - PHUONG_PHAP_TRANG_TAI_CAU_TRUC_TOAN_BO
-    - AMOS_CORPUS
+  - PHUONG_PHAP_TRANG_TAI_CAU_TRUC_TOAN_BO
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - COMMUNICATION_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - COMMUNICATION_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   phuong_phap_trang:
-    artifact: [[PHUONG_PHAP_TRANG]]
+    artifact:
+    - - PHUONG_PHAP_TRANG
   neutral_interface:
-    artifact: [[NEUTRAL_INTERFACE_TRAINING_PROTOCOL]]
+    artifact:
+    - - NEUTRAL_INTERFACE_TRAINING_PROTOCOL
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   communication_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Post-Theory Communication™
 

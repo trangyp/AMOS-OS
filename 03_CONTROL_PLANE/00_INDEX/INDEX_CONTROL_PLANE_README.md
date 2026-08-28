@@ -7,12 +7,20 @@ tags:
 - index
 - readme
 - canon/control-plane
+- control-plane-readme
+- control-plane-map
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
+
 # INDEX CONTROL PLANE [[README]]
 
 ---

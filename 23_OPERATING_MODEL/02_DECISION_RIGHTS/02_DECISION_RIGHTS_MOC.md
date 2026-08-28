@@ -6,13 +6,17 @@ tags:
 - moc
 - 02-decision-rights
 - canon/operating-model
+- decision-rights
+- decision-rights-operating-model-readme
+- operating-model-decision-rights-contract
+- 00-index-moc
+- 23-operating-model-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Decision Rights — Map of Content
 

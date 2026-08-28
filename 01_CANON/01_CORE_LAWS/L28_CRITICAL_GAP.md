@@ -7,13 +7,24 @@ tags:
 - core_laws
 - note
 - canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- l27-gap
+- l10-failure-recovery
+- l8-execution
+- fail-closed-governance
+- l30-authority-boundary
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: core_laws
 ---
-
 
 # L28 Critical Gap Law
 

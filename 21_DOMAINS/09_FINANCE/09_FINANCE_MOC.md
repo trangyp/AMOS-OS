@@ -6,13 +6,22 @@ tags:
 - moc
 - 09-finance
 - canon/domain
+- domains-finance-contract
+- finance-domains-domain-spec
+- finance-domains-interfaces
+- finance-domains-provenance
+- finance-domains-readme
+- macro-economy-kernel
+- omega-fx-structural-os
+- trang-zero-forex
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 09 Finance — Map of Content
 

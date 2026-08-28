@@ -6,13 +6,20 @@ tags:
 - index
 - llm-wiki
 - canon/knowledge
+- karpathy-llm-wiki-summary
+- llm-wiki-pattern
+- amos-llm-wiki
+- llm-wiki-moc
+- llm-wiki-index
+- llm-wiki-log
+- amos-llm-wiki-operations
+- amos-llm-wiki-tool
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # LLM Wiki Index
 

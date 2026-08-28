@@ -15,6 +15,12 @@ tags:
 - amos_os
 - canon-group/tech-ai
 - canon/tooling
+- moc
+- 00-root-moc
+- knowledge-moc
+- llm-wiki-moc
+- llm-wiki-index
+- llm-wiki-log
 title: AMOS LLM Wiki
 type: schema
 source: 00_ROOT
@@ -24,7 +30,6 @@ rscf:
   provenance: karpathy_gist
   scope: AMOS_knowledge
 ---
-
 
 # AMOS LLM Wiki
 

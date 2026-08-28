@@ -6,13 +6,27 @@ tags:
 - control_plane
 - rollback_control_plane_readme.md
 - canon/control-plane
+- readme
+- control-plane-rollback-contract
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 12-rollback-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # ROLLBACK CONTROL PLANE [[README]]
 

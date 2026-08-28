@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-proof-loss-diagnostic-reconstructio
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Proof-Loss-Diagnostic-Reconstruction-Rscf — Map of Content
 

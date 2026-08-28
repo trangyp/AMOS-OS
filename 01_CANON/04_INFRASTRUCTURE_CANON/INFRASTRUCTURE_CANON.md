@@ -3,7 +3,8 @@ type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-INFRASTRUCTURE-CANON
 name: INFRASTRUCTURE_CANON
-title: AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and Operational Foundations
+title: AMOS Infrastructure Canon — Substrate, Resource, Deployment, Resilience, and
+  Operational Foundations
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -53,10 +54,39 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/infrastructure-canon
+- readme
+- architecture
+- system-map
+- placement-rules
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- persistence-canon
+- authority-canon
+- control-plane-canon
+- kernel-map
+- control-plane-map
+- runtime-map
+- memory-memory-map
+- state-state-map
+- tool-map
+- interface-map
+- schema-map
+- observability-observability-map
+- security-map
+- test-map
+- operations-map
+- operating-model
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 04-infrastructure-canon-moc
 aliases:
-- AMOS Infrastructure Canon - Infrastructure Canon - AMOS Infrastructure Foundation - AMOS Ope
+- AMOS Infrastructure Canon - Infrastructure Canon - AMOS Infrastructure Foundation
+  - AMOS Ope
 ---
-
 
 # AMOS Infrastructure Canon
 **Origin architect / steward:** Trang Phan

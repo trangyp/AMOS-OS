@@ -6,13 +6,13 @@ tags:
 - moc
 - 81-transaction-commit-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 81 Transaction Commit Modes — Map of Content
 

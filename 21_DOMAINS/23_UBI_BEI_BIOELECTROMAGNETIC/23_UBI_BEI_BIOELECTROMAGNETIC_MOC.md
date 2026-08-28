@@ -6,13 +6,17 @@ tags:
 - moc
 - 23-ubi-bei-bioelectromagnetic
 - canon/domain
+- 00-index-moc
+- 21-domains-moc
+- domains-ubi-bei-bioelectromagnetic-contract
+- ubi-bei-bioelectromagnetic-domains-domain-spec
+- ubi-bei-bioelectromagnetic-domains-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 23 Ubi Bei Bioelectromagnetic — Map of Content
 

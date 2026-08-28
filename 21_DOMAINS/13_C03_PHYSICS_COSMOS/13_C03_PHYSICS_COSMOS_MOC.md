@@ -6,13 +6,17 @@ tags:
 - moc
 - 13-c03-physics-cosmos
 - canon/domain
+- c03-physics-cosmos-domains-domain-spec
+- c03-physics-cosmos-domains-readme
+- domains-c03-physics-cosmos-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 13 C03 Physics Cosmos — Map of Content
 

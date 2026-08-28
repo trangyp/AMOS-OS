@@ -8,13 +8,19 @@ tags:
 - l_low_scale
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- hml-canon
+- cognitive-matrix-moc
+- 00-home
+- l-low-scale-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L_LOW_SCALE — Low scale: mechanical checks and reflexes; fastest cadence, deterministic validators only.
 

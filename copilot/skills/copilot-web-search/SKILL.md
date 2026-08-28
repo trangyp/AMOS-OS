@@ -1,12 +1,19 @@
 ---
 name: copilot-web-search
-description: Search the web for current information using Copilot Plus or the configured Self-Host search provider. Use when the user asks to search online, look something up on the internet, or needs up-to-date facts beyond the vault. Prefer reading the vault for anything about the user's own notes.
+description: Search the web for current information using Copilot Plus or the configured
+  Self-Host search provider. Use when the user asks to search online, look something
+  up on the internet, or needs up-to-date facts beyond the vault. Prefer reading the
+  vault for anything about the user's own notes.
 language: en
 license: Copilot Plus or Self-Host
 metadata:
   steward: Trang Phan
   copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: "6"
+  copilot-builtin-version: '6'
+tags:
+- skill
+- 00-root-moc
+- 00-home
 ---
 
 # Copilot web search
@@ -44,3 +51,7 @@ refuse or block the user. Only mention upgrading or renewing Copilot Plus when
 the script's message explicitly invites it, and keep any such note short and
 friendly.
 
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

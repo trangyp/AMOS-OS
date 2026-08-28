@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - trang_grand_system_logic_spec
-  - formal_logic
-  - logic_specification
-  - formal_axiomatization
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- trang_grand_system_logic_spec
+- formal_logic
+- logic_specification
+- formal_axiomatization
+- rscf
+- canon_candidate
+- canon/knowledge
+- trang-grand-system
+- trang-grand-system-codex
+- ldai-logically-deterministic-ai
+- qls-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,27 +45,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
-    - TRANG_FRAMEWORK_FORMALIZATION
-    - AMOS_CORPUS
+  - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
+  - TRANG_FRAMEWORK_FORMALIZATION
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - LOGICAL_SPECIFICATIONS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - LOGICAL_SPECIFICATIONS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   grand_system:
-    artifact: [[TRANG_GRAND_SYSTEM]]
+    artifact:
+    - - TRANG_GRAND_SYSTEM
   codex:
-    artifact: [[TRANG_GRAND_SYSTEM_CODEX]]
+    artifact:
+    - - TRANG_GRAND_SYSTEM_CODEX
   deterministic_engine:
-    artifact: [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
+    artifact:
+    - - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   formal_logic: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Trang Grand System Logic Specification
 

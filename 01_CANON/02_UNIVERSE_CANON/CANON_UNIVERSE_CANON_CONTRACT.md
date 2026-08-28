@@ -15,26 +15,40 @@ segment_name: 02_UNIVERSE_CANON
 artifact_kind: CANON_CONTRACT
 path: 01_CANON/02_UNIVERSE_CANON/CANON_UNIVERSE_CANON_CONTRACT.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - universe_canon
-  - canon_contract
-  - law_hierarchy
-  - typed_artifacts
-  - epistemic_governance
-  - provenance
-  - lineage
-  - supersession
-  - dependency_closure
-  - local_finality
-  - selective_invalidation
-  - epoch_separation
-  - receipts
-  - rollback
-  - rscf
-  - gmef
-  - canon/universe
+- amos_os
+- canon
+- universe
+- universe_canon
+- canon_contract
+- law_hierarchy
+- typed_artifacts
+- epistemic_governance
+- provenance
+- lineage
+- supersession
+- dependency_closure
+- local_finality
+- selective_invalidation
+- epoch_separation
+- receipts
+- rollback
+- rscf
+- gmef
+- canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- canon-universe-canon-contract-validation-receipt
+- 02-universe-canon-moc
+- trang-framework-recursive-ontology-dynamics
 version: 1.0.0-contract-candidate
 updated: '2026-08-27'
 status: CONDITIONAL

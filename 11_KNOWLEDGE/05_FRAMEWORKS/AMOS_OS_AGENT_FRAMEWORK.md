@@ -12,18 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_OS_AGENT_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - agent_framework
-  - multi_agent_systems
-  - agent_contract
-  - agent_schema
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- agent_framework
+- multi_agent_systems
+- agent_contract
+- agent_schema
+- rscf
+- canon_candidate
+- canon/knowledge
+- agents
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,29 +42,28 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - AGENT_SCHEMA
-    - AGENT_TEMPLATES
-    - AGENT_ONBOARDING_GUIDE
-    - AMOS_CORPUS
+  - AGENT_SCHEMA
+  - AGENT_TEMPLATES
+  - AGENT_ONBOARDING_GUIDE
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - AGENT_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - AGENT_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   agent_contract:
-    artifact: [[AGENTS]]
+    artifact:
+    - - AGENTS
   agent_schema:
-    artifact: '11_KNOWLEDGE/AGENT_SCHEMA'
+    artifact: 11_KNOWLEDGE/AGENT_SCHEMA
   agent_templates:
-    artifact: '11_KNOWLEDGE/AGENT_TEMPLATES'
+    artifact: 11_KNOWLEDGE/AGENT_TEMPLATES
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   agent_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # AMOS OS Agent Framework
 

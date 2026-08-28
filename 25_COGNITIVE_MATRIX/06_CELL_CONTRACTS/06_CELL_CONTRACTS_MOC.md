@@ -6,13 +6,20 @@ tags:
 - moc
 - 06-cell-contracts
 - canon/cognitive-matrix
+- cell-authority
+- cell-bindings
+- cell-contracts-cognitive-matrix-readme
+- cell-evidence
+- cell-state
+- cognitive-matrix-cell-contracts-contract
+- 00-index-moc
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 06 Cell Contracts — Map of Content
 

@@ -7,13 +7,35 @@ tags:
 - matrix
 - cognition
 - canon/cognitive-matrix
+- cognitive-matrix-architecture
+- cognitive-matrix-moc
+- cognitive-matrix-naming-standard
+- control-plane-registry
+- index-cognitive-matrix-readme
+- index-cognitive-matrix-cognitive-matrix-contract
+- lifecycle-operation-registry
+- primitive-registry
+- scale-registry
+- status-legend
+- 00-root-map
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- trang-framework-recursive-ontology-dynamics
+- 00-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # COGNITIVE MATRIX MAP
 
@@ -73,3 +95,7 @@ claim_class: AMOS_MODEL
 
 ---
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

@@ -7,8 +7,14 @@ tags:
 - validation
 - khung_trang
 - pass
+- 00-index-moc
+- 00-home
 ---
 
 # Khung Trang Canon Validation Receipt
 
 Cryptographic receipt certifying that Khung Trang Master Canon adheres to all constitutional invariants and passes the 110-gate validation suite.
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

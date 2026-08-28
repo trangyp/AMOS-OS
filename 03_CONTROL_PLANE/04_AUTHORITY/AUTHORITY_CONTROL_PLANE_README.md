@@ -6,13 +6,50 @@ tags:
 - control_plane
 - authority_control_plane_readme.md
 - canon/control-plane
+- readme
+- atomic-state-transition
+- audit-provenance
+- authority-audit
+- authority-history
+- authority-lifecycle
+- authority-log
+- authority-policy
+- authority-registry
+- authority-resolver
+- authority-source
+- authority-witness
+- authorization-audit
+- authorization-binding
+- authorization-decision
+- authorization-delegation
+- authorization-deny
+- authorization-evidence
+- authorization-grant
+- authorization-history
+- authorization-invalidation
+- authorization-lifecycle
+- authorization-log
+- authorization-policy
+- authorization-request
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 04-authority-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: authority_governance
 ---
-
 
 # AUTHORITY CONTROL PLANE [[README]]
 

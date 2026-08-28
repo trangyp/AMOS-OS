@@ -6,13 +6,13 @@ tags:
 - moc
 - 99-escalation-intervention-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 99 Escalation Intervention Modes — Map of Content
 

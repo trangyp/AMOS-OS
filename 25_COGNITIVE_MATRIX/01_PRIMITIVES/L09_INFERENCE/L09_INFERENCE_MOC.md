@@ -6,13 +6,25 @@ tags:
 - moc
 - l09-inference
 - canon/cognitive-matrix
+- cognitive-matrix-l09-inference-contract
+- 00-index-moc
+- 01-primitives-moc
+- l09-inference-primitives-cognitive-matrix-agents
+- l09-inference-primitives-cognitive-matrix-hml
+- l09-inference-primitives-cognitive-matrix-memory
+- l09-inference-primitives-cognitive-matrix-purpose
+- l09-inference-primitives-cognitive-matrix-readme
+- l09-inference-primitives-cognitive-matrix-repair
+- l09-inference-primitives-cognitive-matrix-rscf
+- l09-inference-primitives-cognitive-matrix-skills
+- l09-inference-primitives-cognitive-matrix-state
+- l09-inference-primitives-cognitive-matrix-tests
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L09 Inference — Map of Content
 

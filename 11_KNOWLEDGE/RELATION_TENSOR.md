@@ -6,13 +6,17 @@ tags:
 - knowledge
 - note
 - canon/knowledge
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS Relation Tensor
 

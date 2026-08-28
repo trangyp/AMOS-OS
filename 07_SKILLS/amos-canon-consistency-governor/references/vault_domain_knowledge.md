@@ -6,13 +6,20 @@ tags:
 - reference
 - amos-canon-consistency-governor
 - canon/skill
+- amos-canon-consistency-governor-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- canon
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Vault-Sourced Domain Knowledge
 

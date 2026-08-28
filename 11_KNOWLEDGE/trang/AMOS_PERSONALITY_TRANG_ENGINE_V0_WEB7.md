@@ -6,6 +6,10 @@ tags:
 - engine
 - web7.md
 - web
+- trang-moc
+- knowledge-moc
+- kernel-moc
+- 00-home
 ---
 
 # AMOS PERSONALITY TRANG ENGINE V0 WEB7
@@ -7604,3 +7608,7 @@ $$
 **Epistemic firewall:** `Fluency ≠ evidence`
 **Runtime status:** `UNKNOWN/GAP`
 **Empirical psychological validation:** `NOT ESTABLISHED`
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

@@ -14,6 +14,7 @@ tags:
 - rscf/state/observation
 - topic/design-engine-v3-0-0
 - engine
+- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # DESIGN ENGINE V3 0 0
 
 ```json

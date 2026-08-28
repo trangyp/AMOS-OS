@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 45_compression_expansion_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 45-compression-expansion-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # COMPRESSION EXPANSION MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 

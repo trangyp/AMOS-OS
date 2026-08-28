@@ -6,13 +6,22 @@ tags:
 - amos_os
 - 01_canon
 - canon/universe
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- canon
+- amos-rscf-nodes
+- index-infrastructure-canon-canon-readme
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # INFRASTRUCTURE [[CANON]] [[CANON]] INFRASTRUCTURE [[CANON]] CONTRACT
 

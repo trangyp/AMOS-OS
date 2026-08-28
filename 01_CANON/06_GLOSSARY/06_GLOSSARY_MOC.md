@@ -6,13 +6,28 @@ tags:
 - moc
 - 06-glossary
 - canon/universe
+- amos-framework-glossary
+- canonical-glossary
+- canon-aliases
+- canon-glossary-contract
+- cross-framework-alias-table
+- deprecated-terms
+- glossary-canon-readme
+- heritage-glossary
+- neurosyncai-glossary
+- qls-qcla-glossary
+- trang-framework-glossary
+- tss-tpe-glossary
+- ubi-glossary
+- universe-omega-glossary
+- 00-index-moc
+- 01-canon-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 06 Glossary — Map of Content
 

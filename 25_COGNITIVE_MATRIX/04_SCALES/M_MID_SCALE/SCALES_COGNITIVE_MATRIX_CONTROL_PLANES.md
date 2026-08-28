@@ -6,13 +6,17 @@ tags:
 - note
 - m-mid-scale
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- m-mid-scale-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # M — Control-Plane Requirements
 

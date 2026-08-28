@@ -6,13 +6,24 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 16-c06-society-culture-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # DOMAINS C06 SOCIETY CULTURE CONTRACT
 

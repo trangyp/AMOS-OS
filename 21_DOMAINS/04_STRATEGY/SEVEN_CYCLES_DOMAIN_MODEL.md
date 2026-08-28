@@ -12,17 +12,23 @@ segment: 21_DOMAINS/04_STRATEGY
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/04_STRATEGY/SEVEN_CYCLES_DOMAIN_MODEL.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 04_strategy
-  - seven_cycles_domain_model
-  - evolutionary_cycles
-  - phase_transition_mapping
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 04_strategy
+- seven_cycles_domain_model
+- evolutionary_cycles
+- phase_transition_mapping
+- rscf
+- canon_candidate
+- canon/domain
+- tss-seven-cycles
+- tss-the-trang-system
+- tpe-trang-prediction-engine
+- 00-home
+- 21-domains-moc
+- 04-strategy-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +43,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_STRATEGY
-    - SEVEN_CYCLES_MODEL
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_STRATEGY
+  - SEVEN_CYCLES_MODEL
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   seven_cycles_framework:
-    artifact: [[TSS_SEVEN_CYCLES]]
+    artifact:
+    - - TSS_SEVEN_CYCLES
   tss_master:
-    artifact: [[TSS_THE_TRANG_SYSTEM]]
+    artifact:
+    - - TSS_THE_TRANG_SYSTEM
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

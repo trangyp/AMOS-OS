@@ -1,7 +1,9 @@
 ---
 schema_version: 1.0
 name: kimi-k3-in-c
-description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine. Weightless tests need no checkpoint; full generation requires the 1.56 TB model. Do not use for training, fine-tuning, or non-C99 inference.
+description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference
+  engine. Weightless tests need no checkpoint; full generation requires the 1.56 TB
+  model. Do not use for training, fine-tuning, or non-C99 inference.
 license: MIT
 steward: Trang Phan
 version: 1.1.0
@@ -10,12 +12,15 @@ epistemic_class: SOURCE_CLAIM
 rscf_state: DERIVED
 hml_level: L
 tags:
-  - c99
-  - inference
-  - kimi-k3
-  - weightless-test
-  - model-free
-  - operational
+- c99
+- inference
+- kimi-k3
+- weightless-test
+- model-free
+- operational
+- readme
+- references-moc
+- 00-home
 ---
 
 # Kimi K3 in C
@@ -111,3 +116,7 @@ Use `--ids` to bypass the tokenizer and run ids-to-ids with no checkpoint vocabu
 - **Best available C99 inference implementation**: `https://github.com/FareedKhan-dev/kimi-k3-in-c` (portable C99, no BLAS/GPU, weightless tests, 1.56 TB checkpoint for full generation).
 - **Official model canon**: `https://github.com/MoonshotAI/Kimi-K3` — Moonshot AI model card, API, and vLLM/SGLang recipes. This is the upstream model, not the C99 engine; do not conflate the two.
 - **Build/test reference for this skill**: the FareedKhan-dev repository [[README]], `docs/`, `scripts/k3-doctor.sh`, `tools/budget.py`, and the weightless test suite.
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

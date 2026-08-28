@@ -4,7 +4,10 @@ title: SKILL — Amos Fractal Systems Master
 type: skill
 source: 07_SKILLS/amos-fractal-systems-master
 name: amos-fractal-systems-master
-description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal database. Use when fractal analysis, scale r. Do not use for generic tasks outside fractal domain.
+description: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity,
+  scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal
+  database. Use when fractal analysis, scale r. Do not use for generic tasks outside
+  fractal domain.
 parent_skill: none
 domain: fractal
 origin_architect: Trang Phan
@@ -17,6 +20,15 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos_os
+- agent-template
+- amos-fractal-systems-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -7,13 +7,17 @@ tags:
 - knowledge
 - vault
 - canon/knowledge
+- 00-home
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS Evidence Tensor
 

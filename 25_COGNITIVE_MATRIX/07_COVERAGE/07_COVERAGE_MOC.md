@@ -6,13 +6,20 @@ tags:
 - moc
 - 07-coverage
 - canon/cognitive-matrix
+- 2026-08-26-contract-fill-pass
+- cognitive-matrix-coverage-contract
+- coverage-audit
+- coverage-cognitive-matrix-readme
+- coverage-model
+- coverage-thresholds
+- 00-index-moc
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 07 Coverage — Map of Content
 

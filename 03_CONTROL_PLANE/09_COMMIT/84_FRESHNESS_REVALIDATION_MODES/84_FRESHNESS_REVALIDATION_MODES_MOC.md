@@ -6,13 +6,13 @@ tags:
 - moc
 - 84-freshness-revalidation-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 84 Freshness Revalidation Modes — Map of Content
 

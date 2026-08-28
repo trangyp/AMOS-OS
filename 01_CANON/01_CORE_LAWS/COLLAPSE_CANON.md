@@ -16,25 +16,28 @@ schema_family: RSCF
 schema_role: COLLAPSE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - core_laws
-  - collapse
-  - state_reduction
-  - uncertainty
-  - decision
-  - commitment
-  - finality
-  - reversibility
-  - dependency_graph
-  - provenance
-  - epistemic_regimes
-  - competing_hypotheses
-  - rscf
-  - canon/universe
-  - placeholder_expanded
+- amos_os
+- canon
+- universe
+- 01_canon
+- core_laws
+- collapse
+- state_reduction
+- uncertainty
+- decision
+- commitment
+- finality
+- reversibility
+- dependency_graph
+- provenance
+- epistemic_regimes
+- competing_hypotheses
+- rscf
+- canon/universe
+- placeholder_expanded
+- validation
+- local-finality
+- l19-proof-capsule
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -154,7 +157,7 @@ IRREVERSIBLE != FINAL_TRUTH
 
 FINALIZED_STATE != UNIVERSAL_FINALITY
 
-LOCAL_FINALITY != GLOBAL_FINALITY
+[[LOCAL_FINALITY]] != GLOBAL_FINALITY
 
 EPISTEMIC_COLLAPSE != PHYSICAL_COLLAPSE
 
@@ -1668,7 +1671,7 @@ Finality MUST be typed.
 Possible target classes:
 
 ```text
-LOCAL_FINALITY
+[[LOCAL_FINALITY]]
 
 SHARD_LOCAL_FINALITY
 
@@ -2629,7 +2632,7 @@ S_local
 Correct claim:
 
 ```text
-LOCAL_FINALITY ESTABLISHED
+[[LOCAL_FINALITY]] ESTABLISHED
 ```
 
 Not:
@@ -4089,7 +4092,7 @@ DECISION != EXECUTION
 
 EXECUTION != [[VALIDATION]]
 
-LOCAL_FINALITY != GLOBAL_FINALITY
+[[LOCAL_FINALITY]] != GLOBAL_FINALITY
 
 EPISTEMIC_COLLAPSE != PHYSICAL_COLLAPSE
 
@@ -4239,7 +4242,7 @@ NO_COLLAPSE != FAILURE
 
 COMPETING != RESOLVED
 
-LOCAL_FINALITY != GLOBAL_FINALITY
+[[LOCAL_FINALITY]] != GLOBAL_FINALITY
 
 FINALIZED_AT_t1 != PERMANENTLY_FINAL
 

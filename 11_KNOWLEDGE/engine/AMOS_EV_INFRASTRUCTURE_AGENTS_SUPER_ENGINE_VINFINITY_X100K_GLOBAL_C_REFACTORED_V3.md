@@ -1,5 +1,6 @@
 ---
-title: AMOS EV INFRASTRUCTURE AGENTS SUPER ENGINE VINFINITY X100K GLOBAL C REFACTORED V3
+title: AMOS EV INFRASTRUCTURE AGENTS SUPER ENGINE VINFINITY X100K GLOBAL C REFACTORED
+  V3
 type: agent
 source: 11_KNOWLEDGE/engine
 canon-group: meta
@@ -14,6 +15,14 @@ tags:
 - rscf/state/observation
 - topic/amos-ev-infrastructure-agents-super-engi
 - engine
+- agents
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +30,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS EV INFRASTRUCTURE [[AGENTS]] SUPER ENGINE VINFINITY X100K GLOBAL C REFACTORED V3
 
 ```json

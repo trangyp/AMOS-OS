@@ -14,6 +14,8 @@ tags:
 - rscf/state/source-claim
 - topic/amos-clinical-research-kernel-v0
 - kernel
+- 00-cosmo-brain-moc
+- kernel-moc
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -21,7 +23,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS_Clinical_Research_Kernel_v0
 

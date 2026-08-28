@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-trajectory-bug-specification-refine
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Trajectory-Bug-Specification-Refinement-Rscf — Map of Content
 

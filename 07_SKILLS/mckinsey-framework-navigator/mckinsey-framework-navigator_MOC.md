@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-framework-navigator
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Framework-Navigator — Map of Content
 

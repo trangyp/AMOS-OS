@@ -8,13 +8,19 @@ tags:
 - o16_learning
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- o16-learning-moc
+- cognitive-matrix-lifecycle-operations-contract
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O16_LEARNING — O16 Learning
 

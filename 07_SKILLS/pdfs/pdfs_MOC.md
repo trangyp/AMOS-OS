@@ -6,13 +6,15 @@ tags:
 - moc
 - pdfs
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Pdfs — Map of Content
 

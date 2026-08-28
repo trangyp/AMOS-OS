@@ -6,13 +6,35 @@ tags:
 - moc
 - c06-memory
 - canon/cognitive-matrix
+- cognitive-matrix-authority
+- cognitive-matrix-c06-memory-contract
+- cognitive-matrix-decision-rules
+- cognitive-matrix-observability
+- cognitive-matrix-policies
+- c06-memory-control-planes-cognitive-matrix-readme
+- cognitive-matrix-scope
+- control-planes-cognitive-matrix-agents
+- control-planes-cognitive-matrix-definition
+- control-planes-cognitive-matrix-dependencies
+- control-planes-cognitive-matrix-failure-modes
+- control-planes-cognitive-matrix-gap-matrix
+- control-planes-cognitive-matrix-invariants
+- control-planes-cognitive-matrix-protocols
+- control-planes-cognitive-matrix-provenance
+- control-planes-cognitive-matrix-repair
+- control-planes-cognitive-matrix-rscf
+- control-planes-cognitive-matrix-skills
+- control-planes-cognitive-matrix-state
+- control-planes-cognitive-matrix-tests
+- control-planes-cognitive-matrix-workflows
+- 00-index-moc
+- 03-control-planes-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C06 Memory — Map of Content
 

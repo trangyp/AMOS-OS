@@ -6,13 +6,30 @@ tags:
 - moc
 - l17-decision
 - canon/cognitive-matrix
+- cognitive-matrix-l17-decision-contract
+- 00-index-moc
+- 01-primitives-moc
+- l17-decision-primitives-cognitive-matrix-agents
+- l17-decision-primitives-cognitive-matrix-equations
+- l17-decision-primitives-cognitive-matrix-hml
+- l17-decision-primitives-cognitive-matrix-memory
+- l17-decision-primitives-cognitive-matrix-operators
+- l17-decision-primitives-cognitive-matrix-protocols
+- l17-decision-primitives-cognitive-matrix-purpose
+- l17-decision-primitives-cognitive-matrix-readme
+- l17-decision-primitives-cognitive-matrix-repair
+- l17-decision-primitives-cognitive-matrix-rscf
+- l17-decision-primitives-cognitive-matrix-skills
+- l17-decision-primitives-cognitive-matrix-state
+- l17-decision-primitives-cognitive-matrix-tests
+- l17-decision-primitives-cognitive-matrix-variables
+- l17-decision-primitives-cognitive-matrix-workflows
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L17 Decision — Map of Content
 

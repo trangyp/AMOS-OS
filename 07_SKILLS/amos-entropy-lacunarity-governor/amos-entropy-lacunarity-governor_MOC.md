@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-entropy-lacunarity-governor
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Entropy-Lacunarity-Governor — Map of Content
 

@@ -6,13 +6,33 @@ tags:
 - moc
 - 02-lifecycle-operations
 - canon/cognitive-matrix
+- 00-index-moc
+- o00-distinction-moc
+- o01-object-moc
+- o02-relation-moc
+- o03-binding-moc
+- cognitive-matrix-lifecycle-operations-contract
+- lifecycle-operations-cognitive-matrix-readme
+- o04-state-moc
+- o05-memory-moc
+- o06-model-moc
+- o07-inference-moc
+- o08-prediction-moc
+- o09-simulation-moc
+- o10-value-moc
+- o11-goal-moc
+- o12-plan-moc
+- o13-decision-moc
+- o14-action-moc
+- o15-observation-moc
+- o16-learning-moc
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Lifecycle Operations — Map of Content
 

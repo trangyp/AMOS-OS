@@ -5,9 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-canon-universe-master
 Agent: amos-canon-universe-agent
-Trigger: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants, law hierarchy,
-  universe-scale canonical structures. Use for canon reasoning, universe-level analysis, or invariant
-  ver
+Trigger: AMOS Canon & Universe — 7-Part Universe Canon, absolute protocols, invariants,
+  law hierarchy, universe-scale canonical structures. Use for canon reasoning, universe-level
+  analysis, or invariant ver
 Version: 1.0.0
 tags:
 - type/workflow
@@ -17,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -47,7 +48,6 @@ law_compliance:
 - L18
 domain: canon
 ---
-
 
 # Workflow: AMOS Canon & Universe Master
 

@@ -6,13 +6,30 @@ tags:
 - moc
 - 09-integration
 - canon/kernel
+- integration-kernel-readme
+- kernel-integration-contract
+- k-binding
+- k-cil
+- k-constraint-propagation
+- k-dcp
+- k-gmef
+- k-heritage-binding
+- k-hml
+- k-neurosyncai-binding
+- k-rscf
+- k-translation
+- k-tss-tpe-binding
+- k-uba
+- k-ubi-binding
+- k-universe-amos-binding
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 09 Integration — Map of Content
 

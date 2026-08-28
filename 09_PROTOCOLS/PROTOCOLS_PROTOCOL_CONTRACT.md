@@ -6,13 +6,24 @@ tags:
 - amos_os
 - 09_protocols
 - canon/protocol
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 09-protocols-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # PROTOCOLS PROTOCOL CONTRACT
 

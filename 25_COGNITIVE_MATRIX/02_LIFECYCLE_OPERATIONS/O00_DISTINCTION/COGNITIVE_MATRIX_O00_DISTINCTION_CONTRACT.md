@@ -8,13 +8,19 @@ tags:
 - o00_distinction
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- o00-distinction-moc
+- cognitive-matrix-lifecycle-operations-contract
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O00_DISTINCTION — Drawing boundaries: what is distinct from what, under scope compatibility checks.
 

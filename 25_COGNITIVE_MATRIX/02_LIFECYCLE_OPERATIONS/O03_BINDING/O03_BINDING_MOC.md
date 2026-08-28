@@ -6,13 +6,15 @@ tags:
 - moc
 - o03-binding
 - canon/cognitive-matrix
+- cognitive-matrix-o03-binding-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O03 Binding — Map of Content
 

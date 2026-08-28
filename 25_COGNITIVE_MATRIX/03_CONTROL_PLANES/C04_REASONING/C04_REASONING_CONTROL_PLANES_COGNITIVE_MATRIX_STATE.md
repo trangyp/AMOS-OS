@@ -6,13 +6,17 @@ tags:
 - note
 - c04-reasoning
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- c04-reasoning-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C04 — State
 

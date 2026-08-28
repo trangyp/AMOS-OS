@@ -12,35 +12,58 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - 25_cognitive_matrix
-  - artifact
-  - heritage
-  - heritage_decision_intelligence
-  - trang_zero
-  - trang_null
-  - null_state_ground
-  - invariant_root
-  - invariant_anchor
-  - decision_governance
-  - zero_point_reset
-  - rollback_basin
-  - anti_autopoisoning
-  - ground_state
-  - proposal_audit
-  - ethical_refusal
-  - reversibility
-  - trust
-  - timing
-  - self_refutation
-  - epistemic_firewall
-  - provenance
-  - scope
-  - regime
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- 25_cognitive_matrix
+- artifact
+- heritage
+- heritage_decision_intelligence
+- trang_zero
+- trang_null
+- null_state_ground
+- invariant_root
+- invariant_anchor
+- decision_governance
+- zero_point_reset
+- rollback_basin
+- anti_autopoisoning
+- ground_state
+- proposal_audit
+- ethical_refusal
+- reversibility
+- trust
+- timing
+- self_refutation
+- epistemic_firewall
+- provenance
+- scope
+- regime
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- heritage-x-trang-zero-matrix
+- heritage-x-tss
+- amos-x-trang-reality
+- amos-x-qls
+- validation
+- trang-zero-framework-canon
+- rollback-basin
+- 00-home
+- amos-rscf-nodes
+- 25-cognitive-matrix-moc
+- k-rscf
+- k-hml
+- k-gmef
+- k-provenance
+- k-provenance-topology
+- k-failure-recovery
+- k-causal-epoch
+- k-mvcc
+- k-cas
+- k-atomic-multi-rscf
+- amos-core-v4-4
+- trang-zero-framework
+- canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -57,15 +80,15 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_ZERO_FRAMEWORK_CANON
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
+  - TRANG_ZERO_FRAMEWORK_CANON
+  - HERITAGE_INTELLIGENCE_CANON
+  - AMOS_CORPUS
   scope:
-    - FOUNDATIONAL_INVARIANTS
-    - NULL_STATE_GOVERNANCE
-    - DECISION_GOVERNANCE
-    - ANTI_AUTOPOISONING
-    - COGNITIVE_MATRIX
+  - FOUNDATIONAL_INVARIANTS
+  - NULL_STATE_GOVERNANCE
+  - DECISION_GOVERNANCE
+  - ANTI_AUTOPOISONING
+  - COGNITIVE_MATRIX
 framework_binding:
   heritage:
     name: Heritage Decision Intelligence™
@@ -75,40 +98,31 @@ framework_binding:
     role: ABSOLUTE_NULL_STATE_AND_INVARIANT_ROOT
   matrix_conjunction:
     name: Heritage × TRANG Zero Matrix
-    artifact: [[HERITAGE_X_TRANG_ZERO_MATRIX]]
+    artifact:
+    - - HERITAGE_X_TRANG_ZERO_MATRIX
   heritage_tss:
-    artifact: [[HERITAGE_X_TSS]]
+    artifact:
+    - - HERITAGE_X_TSS
   trang_reality:
-    artifact: [[AMOS_X_TRANG_REALITY]]
+    artifact:
+    - - AMOS_X_TRANG_REALITY
   qls:
-    artifact: [[AMOS_X_QLS]]
+    artifact:
+    - - AMOS_X_QLS
 epistemic_boundary:
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
-  framework_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  null_state_ground:
-    SOURCE_DEFINED_MODEL
-  invariant_root:
-    SOURCE_DEFINED_MODEL
-  zero_point_reset:
-    SOURCE_DEFINED_MODEL
-  anti_autopoisoning:
-    SOURCE_DEFINED_MODEL
-  decision_governance:
-    SOURCE_DEFINED_MODEL
-  ontological_boundary:
-    SOURCE_DEFINED_MODEL
-  physical_interpretation:
-    NOT_ESTABLISHED
-  runtime_enforcement:
-    NOT_ESTABLISHED
-  executable_reset:
-    NOT_ESTABLISHED
-  empirical_validation:
-    NOT_ESTABLISHED
-  formal_verification:
-    NOT_ESTABLISHED
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  null_state_ground: SOURCE_DEFINED_MODEL
+  invariant_root: SOURCE_DEFINED_MODEL
+  zero_point_reset: SOURCE_DEFINED_MODEL
+  anti_autopoisoning: SOURCE_DEFINED_MODEL
+  decision_governance: SOURCE_DEFINED_MODEL
+  ontological_boundary: SOURCE_DEFINED_MODEL
+  physical_interpretation: NOT_ESTABLISHED
+  runtime_enforcement: NOT_ESTABLISHED
+  executable_reset: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  formal_verification: NOT_ESTABLISHED
 ---
 
 # Heritage × TRANG Zero
@@ -4448,7 +4462,7 @@ RSCF:
       - INVARIANT_ANCHOR
       - ZERO_POINT_RESET
       - ANTI_AUTOPOISONING
-      - ROLLBACK_BASIN
+      - [[ROLLBACK_BASIN]]
 
     decision_pipeline:
       - PROPOSAL
@@ -5680,7 +5694,7 @@ RSCF:
       - INVARIANT_ANCHOR
       - ZERO_POINT_RESET
       - ANTI_AUTOPOISONING
-      - ROLLBACK_BASIN
+      - [[ROLLBACK_BASIN]]
 
     decision_pipeline:
 

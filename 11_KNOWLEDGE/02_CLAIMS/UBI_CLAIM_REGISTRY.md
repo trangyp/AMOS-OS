@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/02_CLAIMS
 artifact_kind: REGISTRY
 path: 11_KNOWLEDGE/02_CLAIMS/UBI_CLAIM_REGISTRY.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 02_claims
-  - ubi_claim_registry
-  - biological_claims
-  - ubi
-  - non_compensatory_claims
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 02_claims
+- ubi_claim_registry
+- biological_claims
+- ubi
+- non_compensatory_claims
+- rscf
+- canon_candidate
+- canon/knowledge
+- 02-claims-moc
+- unified-biological-intelligence
+- ubi-entropy-correction
+- absolute-biological-integrity-framework
+- amos-ubi-super-engine
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,28 +45,28 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_CLAIMS
-    - UBI_CLAIMS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_CLAIMS
+  - UBI_CLAIMS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   claims_moc:
-    artifact: [[02_CLAIMS_MOC]]
+    artifact:
+    - - 02_CLAIMS_MOC
   rscf_index:
-    artifact: '11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX'
+    artifact: 11_KNOWLEDGE/03_RSCF/UBI_RSCF_INDEX
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   registry_structure: VERIFIED_SOURCE_STRUCTURE
   claim_catalog: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # UBI Claim Registry
 

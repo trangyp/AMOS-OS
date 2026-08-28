@@ -5,9 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: software-engineering-qa
 Agent: software-engineering-qa-agent
-Trigger: When repository-scale software diagnosis, repair, testing, architecture validation, UI/accessibility
-  QA, API/database QA, release validation, drift detection, provenance tracing, claim assessment, gap
-  escalation, or commit-time validation is needed.
+Trigger: When repository-scale software diagnosis, repair, testing, architecture validation,
+  UI/accessibility QA, API/database QA, release validation, drift detection, provenance
+  tracing, claim assessment, gap escalation, or commit-time validation is needed.
 Version: 1.0.0
 tags:
 - type/workflow
@@ -17,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -47,7 +48,6 @@ law_compliance:
 - L18
 domain: c10
 ---
-
 
 # Workflow: Software Engineering QA
 

@@ -12,25 +12,32 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_QLS.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - matrix
-  - 25_cognitive_matrix
-  - artifact
-  - qls
-  - quantum_logic_scaffold
-  - quantum_logic_system
-  - logic
-  - non_contradiction
-  - multi_state_reasoning
-  - collapse_conditions
-  - constraint_integrity
-  - uncertainty
-  - logic_gate
-  - qcap
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- artifact
+- qls
+- quantum_logic_scaffold
+- quantum_logic_system
+- logic
+- non_contradiction
+- multi_state_reasoning
+- collapse_conditions
+- constraint_integrity
+- uncertainty
+- logic_gate
+- qcap
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- amos-x-qls-qcla-matrix
+- 25-cognitive-matrix-moc
+- law-hierarchy
+- ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,11 +52,11 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_QLS_CORPUS
+  - AMOS_QLS_CORPUS
   scope:
-    - AMOS_LOGIC_LAYER
-    - COGNITIVE_MATRIX
-    - SOURCE_DEFINED_QLS_MODEL
+  - AMOS_LOGIC_LAYER
+  - COGNITIVE_MATRIX
+  - SOURCE_DEFINED_QLS_MODEL
 framework_binding:
   primary:
     name: Quantum Logic Scaffold™
@@ -75,7 +82,6 @@ epistemic_boundary:
   runtime_enforcement: NOT_ESTABLISHED
   theoremhood: NOT_ESTABLISHED
 ---
-
 
 # AMOS × QLS
 

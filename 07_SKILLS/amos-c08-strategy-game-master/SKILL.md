@@ -4,7 +4,9 @@ title: SKILL — Amos C08 Strategy Game Master
 type: skill
 source: 07_SKILLS/amos-c08-strategy-game-master
 name: amos-c08-strategy-game-master
-description: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation, Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook strategy. Use when strategic analysi. Do not use for generic tasks outside c08 domain.
+description: AMOS C08 Strategy & Game — MECE decomposition, hypothesis-first investigation,
+  Nash equilibria, game theory, consulting discipline, McKinsey frameworks, Bluebook
+  strategy. Use when strategic analysi. Do not use for generic tasks outside c08 domain.
 parent_skill: none
 domain: c08
 origin_architect: Trang Phan
@@ -17,6 +19,15 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos_os
+- agent-template
+- amos-c08-strategy-game-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

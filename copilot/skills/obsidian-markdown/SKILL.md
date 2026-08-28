@@ -1,12 +1,21 @@
 ---
 name: obsidian-markdown
-description: Create and edit Obsidian-specific Markdown syntax, including wikilinks, embeds, block references, callouts, properties, tags, and comments. Use for Obsidian notes when these extensions matter; ordinary Markdown is assumed knowledge.
+description: Create and edit Obsidian-specific Markdown syntax, including wikilinks,
+  embeds, block references, callouts, properties, tags, and comments. Use for Obsidian
+  notes when these extensions matter; ordinary Markdown is assumed knowledge.
 license: MIT
 metadata:
   steward: Trang Phan
   copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: "1"
-  copilot-upstream-revision: "a1dc48e68138490d522c04cbf5822214c6eb1202"
+  copilot-builtin-version: '1'
+  copilot-upstream-revision: a1dc48e68138490d522c04cbf5822214c6eb1202
+tags:
+- note-name
+- imagepng
+- documentpdf
+- other-note
+- 00-root-moc
+- 00-home
 ---
 
 # Obsidian Markdown
@@ -87,3 +96,7 @@ separate lines.
 
 Adapted from <code>kepano/obsidian-skills</code> at revision
 <code>a1dc48e68138490d522c04cbf5822214c6eb1202</code>. See <code>LICENSE</code>.
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

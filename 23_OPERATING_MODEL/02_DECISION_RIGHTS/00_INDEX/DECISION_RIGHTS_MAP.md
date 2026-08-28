@@ -6,13 +6,26 @@ tags:
 - amos_os
 - 23_operating_model
 - canon/operating-model
+- 00-root-map
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- index-decision-rights-operating-model-readme
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # DECISION RIGHTS MAP
 

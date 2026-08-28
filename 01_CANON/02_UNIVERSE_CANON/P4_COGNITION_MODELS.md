@@ -12,24 +12,36 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: UNIVERSE_PLANE
 path: 01_CANON/02_UNIVERSE_CANON/P4_COGNITION_MODELS.md
 tags:
-  - amos_os
-  - canon
-  - universe_canon
-  - cognition
-  - models
-  - inference
-  - prediction
-  - hypothesis
-  - competing
-  - derivation
-  - speculation
-  - epistemic_discipline
-  - provenance
-  - falsification
-  - uncertainty
-  - rscf
-  - p4_plane
-  - canon/universe
+- amos_os
+- canon
+- universe_canon
+- cognition
+- models
+- inference
+- prediction
+- hypothesis
+- competing
+- derivation
+- speculation
+- epistemic_discipline
+- provenance
+- falsification
+- uncertainty
+- rscf
+- p4_plane
+- canon/universe
+- validation
+- memory
+- l19-proof-capsule
+- amos-7-part-universe-canon
+- p3-knowledge-memory
+- p2-sense-evidence
+- p1-reality-environment
+- hml-canon
+- 02-universe-canon-moc
+- trang-framework-recursive-ontology-dynamics
+- 00-home
+- amos-rscf-nodes
 version: 0.2.0
 updated: '2026-08-26'
 status: PROPOSED_SPECIFICATION
@@ -44,14 +56,14 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-    - 01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+  - AMOS_corpus
+  - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
+  - 01_CANON/02_UNIVERSE_CANON/HML_CANON
+  - 01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY
+  - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
   scope:
-    - UNIVERSE_CANON
-    - P4_COGNITION_MODELS
+  - UNIVERSE_CANON
+  - P4_COGNITION_MODELS
 ---
 
 # P4 — Cognition & Models Plane

@@ -12,20 +12,32 @@ segment: 00_ROOT/AMOS_ORIGIN_HERITAGE_MASTER.md
 artifact_kind: HERITAGE
 path: 00_ROOT/AMOS_ORIGIN_HERITAGE_MASTER.md
 tags:
-  - 00_root
-  - amos_origin_heritage_master.md
-  - amos_os
-  - artifact
-  - canon/root
-  - canon/universe
-  - canon_placeholder
-  - heritage
-  - index
-  - master
-  - origin
-  - root
-  - rscf
-  - placeholder_expanded
+- 00_root
+- amos_origin_heritage_master.md
+- amos_os
+- artifact
+- canon/root
+- canon/universe
+- canon_placeholder
+- heritage
+- index
+- master
+- origin
+- root
+- rscf
+- placeholder_expanded
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -44,7 +56,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

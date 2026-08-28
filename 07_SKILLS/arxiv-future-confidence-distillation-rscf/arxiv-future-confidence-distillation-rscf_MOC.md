@@ -6,13 +6,15 @@ tags:
 - moc
 - arxiv-future-confidence-distillation-rsc
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Arxiv-Future-Confidence-Distillation-Rscf — Map of Content
 

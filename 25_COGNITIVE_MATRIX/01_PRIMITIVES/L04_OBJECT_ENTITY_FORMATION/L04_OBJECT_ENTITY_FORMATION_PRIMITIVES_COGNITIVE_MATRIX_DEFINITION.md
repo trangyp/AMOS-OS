@@ -6,13 +6,17 @@ tags:
 - note
 - l04-object-entity-formation
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- l04-object-entity-formation-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L04 — Definition
 

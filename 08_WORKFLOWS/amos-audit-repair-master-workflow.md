@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-audit-repair-master
 Agent: amos-audit-repair-agent
-Trigger: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing, validation gates, repair
-  allocation. Use for system auditing, gap analysis, or failure recovery.
+Trigger: AMOS Audit & Repair — failure recovery, gap discovery, quality auditing,
+  validation gates, repair allocation. Use for system auditing, gap analysis, or failure
+  recovery.
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: audit
 ---
-
 
 # Workflow: AMOS Audit & Repair Master
 

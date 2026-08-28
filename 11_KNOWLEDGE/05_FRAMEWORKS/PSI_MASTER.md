@@ -12,17 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MASTER
 path: 11_KNOWLEDGE/05_FRAMEWORKS/PSI_MASTER.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - psi_master
-  - integrity_evaluations
-  - structural_auditing
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- psi_master
+- integrity_evaluations
+- structural_auditing
+- rscf
+- canon_candidate
+- canon/knowledge
+- psi-framework
+- absolute-structural-integrity
+- heritage-intelligence-master
+- heritage-handbook
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,26 +44,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - LAWFUL_SYSTEM_PERCEPTION_MODEL
-    - PSI_FRAMEWORK
-    - AMOS_CORPUS
+  - LAWFUL_SYSTEM_PERCEPTION_MODEL
+  - PSI_FRAMEWORK
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - INTEGRITY_EVALUATION
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - INTEGRITY_EVALUATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: PSI Master Evaluation System
     role: INTEGRITY_AUDITING_AND_EVALUATION_MASTER
   framework:
-    artifact: [[PSI_FRAMEWORK]]
+    artifact:
+    - - PSI_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   master_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # PSI Master Evaluation System
 

@@ -6,13 +6,15 @@ tags:
 - moc
 - 02-diagnose
 - canon/control-plane
+- commit-control-plane-mode-spec
+- commit-control-plane-provenance
+- 06-reasoning-modes-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Diagnose — Map of Content
 

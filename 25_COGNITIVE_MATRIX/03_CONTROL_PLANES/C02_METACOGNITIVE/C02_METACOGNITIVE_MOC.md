@@ -6,13 +6,20 @@ tags:
 - moc
 - c02-metacognitive
 - canon/cognitive-matrix
+- control-planes-cognitive-matrix-policies
+- control-planes-cognitive-matrix-scope
+- 00-index-moc
+- 03-control-planes-moc
+- cognitive-matrix-c02-metacognitive-contract
+- control-planes-cognitive-matrix-authority
+- control-planes-cognitive-matrix-decision-rules
+- control-planes-cognitive-matrix-observability
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C02 Metacognitive — Map of Content
 

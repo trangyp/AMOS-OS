@@ -28,6 +28,15 @@ tags:
 - rscf/provenance
 - rscf/state/observation
 - topic/agent-schema-full
+- architecture
+- memory
+- skill
+- validation
+- 00-home
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- knowledge-moc
 aliases:
 - AGENT_SCHEMA - AMOS Agent Schema - Unified Agent Construction Schema
 governing_law: integrity > completeness > fluency > speed > token savings
@@ -37,8 +46,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
-
 
 # AMOS Agent Schema — Full Governed Specification
 

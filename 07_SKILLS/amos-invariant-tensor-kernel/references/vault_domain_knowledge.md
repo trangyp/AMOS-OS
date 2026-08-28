@@ -6,13 +6,19 @@ tags:
 - reference
 - amos-invariant-tensor-kernel
 - canon/skill
+- 2026-08-22-trang-phi-framework
+- references-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Vault-Sourced Domain Knowledge
 

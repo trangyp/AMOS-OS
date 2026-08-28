@@ -6,13 +6,13 @@ tags:
 - moc
 - 96-scheduling-orchestration-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 96 Scheduling Orchestration Modes — Map of Content
 

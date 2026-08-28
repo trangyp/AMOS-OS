@@ -5,8 +5,15 @@ tags:
 - risk
 - compliance
 - model
+- risk-compliance-model
+- kernel-moc
+- 00-home
 ---
 
 # risk compliance model
 
 Stub note for [[risk_compliance_model]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

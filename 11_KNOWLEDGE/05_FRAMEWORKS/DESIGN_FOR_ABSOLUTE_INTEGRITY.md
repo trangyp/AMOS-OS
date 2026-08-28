@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/DESIGN_FOR_ABSOLUTE_INTEGRITY.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - design_for_absolute_integrity
-  - dfai
-  - structural_design
-  - engineering_methodology
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- design_for_absolute_integrity
+- dfai
+- structural_design
+- engineering_methodology
+- rscf
+- canon_candidate
+- canon/knowledge
+- absolute-structural-integrity
+- domain-canon-programming
+- psi-framework
+- amos-organism-os-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,24 +45,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
-    - AMOS_CORPUS
+  - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DESIGN_METHODOLOGY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - DESIGN_METHODOLOGY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   root_theorem:
-    artifact: [[ABSOLUTE_STRUCTURAL_INTEGRITY]]
+    artifact:
+    - - ABSOLUTE_STRUCTURAL_INTEGRITY
   canonical_programming:
-    artifact: [[DOMAIN_CANON_PROGRAMMING]]
+    artifact:
+    - - DOMAIN_CANON_PROGRAMMING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   design_methodology: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Design for Absolute Integrity™ (DFAI)
 

@@ -6,6 +6,10 @@ tags:
 - feedback
 - governor.md
 - governor
+- 00-home
+- knowledge-moc
+- amos-cross-domain-tensor-composition-governor
+- amos-emotion-cognition-decision-bridge-governor
 ---
 
 # AMOS LEARNING [[MEMORY]] KNOWLEDGE FEEDBACK GOVERNOR

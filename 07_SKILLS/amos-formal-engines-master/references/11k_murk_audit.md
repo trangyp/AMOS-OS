@@ -6,13 +6,36 @@ tags:
 - reference
 - amos-formal-engines-master
 - canon/skill
+- agent-onboarding-guide
+- amos-c01-meta-logic-master-knowledge
+- amos-c02-math-compute-master-knowledge
+- amos-c03-physics-cosmos-master-knowledge
+- amos-c04-bio-neuro-master-knowledge
+- amos-c05-mind-behavior-master-knowledge
+- amos-c06-society-culture-master-knowledge
+- amos-c07-econ-finance-master-knowledge
+- amos-c08-strategy-game-master-knowledge
+- amos-c09-org-law-policy-master-knowledge
+- amos-c10-tech-engineering-master-knowledge
+- amos-c11-design-language-master-knowledge
+- amos-c12-earth-ecology-master-knowledge
+- amos-cognitive-organism-os
+- amos-cognitive-organism-os-detail
+- amos-ev-vietnam
+- amos-full-brain-os-architecture
+- amos-runtime-state
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # 11K MURK Audit
 

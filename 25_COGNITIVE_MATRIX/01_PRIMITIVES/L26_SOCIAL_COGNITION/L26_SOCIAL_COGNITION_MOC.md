@@ -6,13 +6,15 @@ tags:
 - moc
 - l26-social-cognition
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l26-social-cognition-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L26 Social Cognition — Map of Content
 

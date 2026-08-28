@@ -12,17 +12,22 @@ segment: 21_DOMAINS/05_DESIGN
 artifact_kind: DOMAIN_DESIGN
 path: 21_DOMAINS/05_DESIGN/IRREDUCIBLE_SYSTEMS_DESIGN.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 05_design
-  - irreducible_systems_design
-  - minimal_architecture
-  - parsimony_law
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 05_design
+- irreducible_systems_design
+- minimal_architecture
+- parsimony_law
+- rscf
+- canon_candidate
+- canon/domain
+- irreducible-systems-architecture
+- 05-design-moc
+- design-for-absolute-integrity
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE
-    - 21_DOMAINS/05_DESIGN/05_DESIGN_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE
+  - 21_DOMAINS/05_DESIGN/05_DESIGN_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_DESIGN
-    - IRREDUCIBLE_DESIGN
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_DESIGN
+  - IRREDUCIBLE_DESIGN
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   irreducible_framework:
-    artifact: [[IRREDUCIBLE_SYSTEMS_ARCHITECTURE]]
+    artifact:
+    - - IRREDUCIBLE_SYSTEMS_ARCHITECTURE
   design_moc:
-    artifact: [[05_DESIGN_MOC]]
+    artifact:
+    - - 05_DESIGN_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

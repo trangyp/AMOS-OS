@@ -5,6 +5,24 @@ tags:
 - neurosyncai
 - registry.md
 - registry
+- validation
+- architecture
+- diagnosis
+- signals
+- memory
+- integration
+- neurosyncai-domain
+- canon
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-home
+- amos-rscf-nodes
+- 04-domain-moc
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
 ---
 
 Below is the **full expanded Obsidian-ready `NEUROSYNCAI_MODEL_REGISTRY.md`**. The supplied seed establishes the registry slot, but it does **not** provide verified native NeuroSyncAI model definitions. Accordingly, the expansion defines the registry contract, neural-model epistemics, provenance, validation, safety, RSCF/H-M-L, lifecycle, and promotion semantics while keeping the actual NeuroSyncAI model inventory explicitly `UNKNOWN/GAP` rather than inventing it.

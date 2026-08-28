@@ -27,3 +27,7 @@ it does not transform the model's epistemic type into `observation`.
 ---
 
 ]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

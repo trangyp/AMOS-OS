@@ -12,19 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_STRUCTURAL_INTEGRITY.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - absolute_structural_integrity
-  - law_of_law
-  - ucia_closure
-  - failure_determinism
-  - enforceable_invariants
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- absolute_structural_integrity
+- law_of_law
+- ucia_closure
+- failure_determinism
+- enforceable_invariants
+- rscf
+- canon_candidate
+- canon/knowledge
+- design-for-absolute-integrity
+- psi-framework
+- psi-master
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,28 +45,27 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
-    - AMOS_CORPUS
+  - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - STRUCTURAL_INTEGRITY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - STRUCTURAL_INTEGRITY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Absolute Integrity Architecture™ — Canonical Root
     role: ROOT_STRUCTURAL_INTEGRITY_AND_LAW_OF_LAW
   design_counterpart:
-    artifact: [[DESIGN_FOR_ABSOLUTE_INTEGRITY]]
+    artifact:
+    - - DESIGN_FOR_ABSOLUTE_INTEGRITY
   canonical_law:
-    artifact: '01_CANON/01_CORE_LAWS/L0_INTEGRITY'
+    artifact: 01_CANON/01_CORE_LAWS/L0_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   integrity_theorem: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # Absolute Structural Integrity™ — Canonical Root
 

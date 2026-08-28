@@ -6,13 +6,17 @@ tags:
 - moc
 - 34-health-policy
 - canon/domain
+- domains-health-policy-contract
+- health-policy-domains-domain-spec
+- health-policy-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 34 Health Policy — Map of Content
 

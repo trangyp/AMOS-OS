@@ -6,13 +6,16 @@ tags:
 - reference
 - amos-os-runtime-master
 - canon/skill
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- references-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # amos-os-runtime-master — Vault-Sourced Domain Knowledge
 

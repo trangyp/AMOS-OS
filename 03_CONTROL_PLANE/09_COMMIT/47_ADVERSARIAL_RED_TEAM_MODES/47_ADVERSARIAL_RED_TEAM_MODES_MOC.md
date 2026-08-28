@@ -6,13 +6,13 @@ tags:
 - moc
 - 47-adversarial-red-team-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 47 Adversarial Red Team Modes — Map of Content
 

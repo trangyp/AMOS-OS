@@ -7,8 +7,15 @@ tags:
 - delivery
 - kernel
 - tech
+- amos-agile-delivery-kernel-v0-tech7-3
+- kernel-moc
+- 00-home
 ---
 
 # amos agile delivery kernel v0 tech7 3
 
 Stub note for [[amos agile delivery kernel v0 tech7 3]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

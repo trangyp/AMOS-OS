@@ -8,13 +8,19 @@ tags:
 - h_high_scale
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- hml-canon
+- cognitive-matrix-moc
+- 00-home
+- h-high-scale-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # H_HIGH_SCALE — High scale: constitutional/governance reasoning; strictest gates, slowest cadence, highest evidence bar.
 

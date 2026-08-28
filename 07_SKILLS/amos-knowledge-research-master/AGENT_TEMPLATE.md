@@ -6,13 +6,14 @@ tags:
 - note
 - amos-knowledge-research-master
 - canon/skill
+- skill
+- amos-knowledge-research-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-knowledge-research-master
 

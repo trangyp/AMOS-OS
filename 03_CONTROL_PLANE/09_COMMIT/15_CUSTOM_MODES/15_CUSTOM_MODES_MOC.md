@@ -6,13 +6,15 @@ tags:
 - moc
 - 15-custom-modes
 - canon/control-plane
+- custom-modes-commit-control-plane-readme
+- 09-commit-moc
+- custom-modes-commit-control-plane-mode-family-spec
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 15 Custom Modes — Map of Content
 

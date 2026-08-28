@@ -6,13 +6,25 @@ tags:
 - moc
 - 06-risk-repair
 - canon/kernel
+- kernel-risk-repair-contract
+- k-absolute-biological-integrity
+- k-collapse-recovery
+- k-homeostasis
+- k-neurosyncai-recovery
+- k-repair-harm
+- k-repair-priority
+- k-risk-constraint
+- k-ubi-entropy-correction
+- k-ubi-homeostasis
+- risk-repair-kernel-readme
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 06 Risk Repair — Map of Content
 

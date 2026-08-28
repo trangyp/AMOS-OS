@@ -8,13 +8,19 @@ tags:
 - c09_kernel_control
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- cognitive-matrix-control-planes-contract
+- c09-kernel-control-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C09_KERNEL_CONTROL — Kernel integrity control: boot order, immutability under operation, fail-closed boot.
 

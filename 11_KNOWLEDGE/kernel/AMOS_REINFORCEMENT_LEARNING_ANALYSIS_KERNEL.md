@@ -8,6 +8,7 @@ tags:
 - rscf/state/source-claim
 - topic/amos-reinforcement-learning-analysis-ker
 - kernel
+- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -16,6 +17,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS REINFORCEMENT LEARNING ANALYSIS KERNEL V0 MACHINE ARCHITECTURE4 2
 
 ```json

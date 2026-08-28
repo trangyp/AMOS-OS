@@ -20,6 +20,19 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- index-canon-readme
+- 00-index-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
@@ -35,7 +48,6 @@ rscf:
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # Canon Active vs Legacy Matrix
 

@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ENGINE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_RECOVERY_ENGINE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - neurosyncai_recovery_engine
-  - fatigue_recovery
-  - autonomic_reset
-  - flow_restoration
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- neurosyncai_recovery_engine
+- fatigue_recovery
+- autonomic_reset
+- flow_restoration
+- rscf
+- canon_candidate
+- canon/knowledge
+- neurosyncai-master
+- neurosyncai-framework
+- ubi-entropy-correction
+- phuong-phap-trang
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,27 +45,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - NEUROSYNCAI_FRAMEWORK
-    - UBI_NEUROSYNCAI_BINDING
-    - AMOS_CORPUS
+  - NEUROSYNCAI_FRAMEWORK
+  - UBI_NEUROSYNCAI_BINDING
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - RECOVERY_ENGINES
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - RECOVERY_ENGINES
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master:
-    artifact: [[NEUROSYNCAI_MASTER]]
+    artifact:
+    - - NEUROSYNCAI_MASTER
   framework:
-    artifact: [[NEUROSYNCAI_FRAMEWORK]]
+    artifact:
+    - - NEUROSYNCAI_FRAMEWORK
   entropy_correction:
-    artifact: [[UBI_ENTROPY_CORRECTION]]
+    artifact:
+    - - UBI_ENTROPY_CORRECTION
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   recovery_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # NeurosyncAI Recovery Engine
 

@@ -6,13 +6,19 @@ tags:
 - note
 - l12-counterfactual-simulation
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- l12-counterfactual-simulation-moc
+- l14-valuation-primitives-cognitive-matrix-readme
+- l16-planning-primitives-cognitive-matrix-readme
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L12 — Dependencies
 

@@ -6,13 +6,27 @@ tags:
 - amos_os
 - 22_research
 - canon/research
+- benchmarks-research-benchmarks-contract
+- index-benchmarks-research-readme
+- 00-root-map
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # BENCHMARKS MAP
 

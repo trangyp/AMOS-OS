@@ -6,13 +6,22 @@ tags:
 - amos_os
 - 24_archive
 - canon/archive
+- readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- experimental-archive-experimental-contract
+- experimental-map
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # INDEX EXPERIMENTAL ARCHIVE [[README]]
 

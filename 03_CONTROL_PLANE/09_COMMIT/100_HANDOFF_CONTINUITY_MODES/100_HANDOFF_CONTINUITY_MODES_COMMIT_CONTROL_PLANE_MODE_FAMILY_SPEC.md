@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 100_handoff_continuity_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 100-handoff-continuity-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 100 HANDOFF CONTINUITY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 

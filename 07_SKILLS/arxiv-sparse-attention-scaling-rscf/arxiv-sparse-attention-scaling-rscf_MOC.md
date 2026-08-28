@@ -6,13 +6,15 @@ tags:
 - moc
 - arxiv-sparse-attention-scaling-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Arxiv-Sparse-Attention-Scaling-Rscf — Map of Content
 

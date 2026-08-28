@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-action-memory-firewall
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Action-Memory-Firewall — Map of Content
 

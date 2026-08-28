@@ -12,19 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_META_LAWS.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - tss
-  - meta_laws
-  - non_compensatory
-  - conservation_of_debt
-  - scale_fragility
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- tss
+- meta_laws
+- non_compensatory
+- conservation_of_debt
+- scale_fragility
+- rscf
+- canon_candidate
+- canon/knowledge
+- tss-the-trang-system
+- amos-x-tss
+- tss-seven-cycles
+- tss-tpe-integration
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,27 +46,28 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - THE_TRANG_SYSTEM_CODEX_META_LAWS
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - THE_TRANG_SYSTEM_CODEX_META_LAWS
+  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - STRUCTURAL_LAWS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - STRUCTURAL_LAWS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   parent_framework:
     name: The Trang System™
     acronym: TSS
-    artifact: [[TSS_THE_TRANG_SYSTEM]]
+    artifact:
+    - - TSS_THE_TRANG_SYSTEM
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_TSS]]
+    artifact:
+    - - AMOS_X_TSS
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   law_statements: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # TSS Meta Laws
 

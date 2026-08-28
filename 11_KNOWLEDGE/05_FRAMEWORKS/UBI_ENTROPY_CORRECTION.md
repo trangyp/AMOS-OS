@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ENTROPY_CORRECTION.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_entropy_correction
-  - biological_entropy
-  - non_equilibrium_thermodynamics
-  - homeostasis_recovery
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_entropy_correction
+- biological_entropy
+- non_equilibrium_thermodynamics
+- homeostasis_recovery
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- ubi-homeostasis
+- ubi-fractal-architecture
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,26 +44,28 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_ENTROPY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_ENTROPY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   homeostasis:
-    artifact: [[UBI_HOMEOSTASIS]]
+    artifact:
+    - - UBI_HOMEOSTASIS
   fractal_architecture:
-    artifact: [[UBI_FRACTAL_ARCHITECTURE]]
+    artifact:
+    - - UBI_FRACTAL_ARCHITECTURE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   entropy_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI Entropy Correction & Thermodynamic Dissipation
 

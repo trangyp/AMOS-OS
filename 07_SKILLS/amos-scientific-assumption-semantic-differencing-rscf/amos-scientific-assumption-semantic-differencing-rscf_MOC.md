@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-scientific-assumption-semantic-diff
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Scientific-Assumption-Semantic-Differencing-Rscf — Map of Content
 

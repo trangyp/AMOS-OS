@@ -8,12 +8,19 @@ tags:
 - l02_attention
 - note
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l02-attention-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 # L02 ATTENTION PRIMITIVES COGNITIVE MATRIX OPERATORS
 
 The source placeholder explicitly defines L02 as **“attention allocation; budget scarce reasoning/observation resources”** and requires operators/kernels, invariants, H/M/L, interfaces, dependencies, provenance, repair, tests, governance, freshness, and version lineage before promotion. It also explicitly prohibits inventing missing canon or implementation status.

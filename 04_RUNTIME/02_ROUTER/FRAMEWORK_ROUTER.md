@@ -12,16 +12,21 @@ segment: 04_RUNTIME/02_ROUTER
 artifact_kind: ROUTER_SPEC
 path: 04_RUNTIME/02_ROUTER/FRAMEWORK_ROUTER.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 02_router
-  - framework_router
-  - multi_framework_routing
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 02_router
+- framework_router
+- multi_framework_routing
+- rscf
+- canon_candidate
+- canon/runtime
+- 02-router-moc
+- 05-frameworks-moc
+- total-framework-matrix
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,13 +41,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
-    - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
+  - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_ROUTER
-    - FRAMEWORK_ROUTING
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_ROUTER
+  - FRAMEWORK_ROUTING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   router_moc:
     artifact: 04_RUNTIME/02_ROUTER/02_ROUTER_MOC

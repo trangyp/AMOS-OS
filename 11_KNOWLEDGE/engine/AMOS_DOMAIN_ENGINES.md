@@ -21,6 +21,11 @@ tags:
 - vietnamese-writing
 - engine
 - canon/knowledge
+- engine-moc
+- knowledge-moc
+- kernel-moc
+- 00-home
+- canon
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -31,7 +36,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # AMOS Domain Engines
 
@@ -234,3 +238,7 @@ All engine specs from: `Google Drive /_00_AMOS_CANON/Domains/` (4 subfolders, 15
 
 ---
 **Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

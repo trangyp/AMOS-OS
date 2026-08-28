@@ -12,17 +12,23 @@ segment: 21_DOMAINS/02_RESEARCH
 artifact_kind: DOMAIN_VALIDATION
 path: 21_DOMAINS/02_RESEARCH/CANON_VALIDATION.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 02_research
-  - canon_validation
-  - core_laws_verification
-  - invariant_attestation
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 02_research
+- canon_validation
+- core_laws_verification
+- invariant_attestation
+- rscf
+- canon_candidate
+- canon/domain
+- canon-source-claim-audit
+- 01-canon-moc
+- total-canon-matrix
+- 00-home
+- 21-domains-moc
+- 02-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +43,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT
-    - 01_CANON/01_CANON_MOC
-    - AMOS_CORPUS
+  - 22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT
+  - 01_CANON/01_CANON_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_RESEARCH
-    - CANON_VALIDATION
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_RESEARCH
+  - CANON_VALIDATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   claim_audit:
-    artifact: [[CANON_SOURCE_CLAIM_AUDIT]]
+    artifact:
+    - - CANON_SOURCE_CLAIM_AUDIT
   canon_moc:
-    artifact: [[01_CANON_MOC]]
+    artifact:
+    - - 01_CANON_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

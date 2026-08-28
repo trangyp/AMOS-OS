@@ -12,19 +12,28 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TSS_BINDING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - heritage_tss_binding
-  - tss
-  - heritage
-  - decision_governance
-  - lifecycle_coupling
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- heritage_tss_binding
+- tss
+- heritage
+- decision_governance
+- lifecycle_coupling
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- tss-the-trang-system
+- heritage-x-tss
+- heritage-x-tss-matrix
+- tpe-trang-prediction-engine
+- tss-seven-cycles
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,30 +48,33 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRAMEWORK_BINDINGS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FRAMEWORK_BINDINGS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   source_framework:
     name: Heritage Decision Intelligence™
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   target_framework:
     name: The Trang System™
-    artifact: [[TSS_THE_TRANG_SYSTEM]]
+    artifact:
+    - - TSS_THE_TRANG_SYSTEM
   cognitive_matrix_binding:
-    artifact: [[HERITAGE_X_TSS]]
-    matrix: [[HERITAGE_X_TSS_MATRIX]]
+    artifact:
+    - - HERITAGE_X_TSS
+    matrix:
+    - - HERITAGE_X_TSS_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
   decision_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage-to-TSS Binding
 

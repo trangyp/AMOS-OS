@@ -6,13 +6,15 @@ tags:
 - moc
 - o00-distinction
 - canon/cognitive-matrix
+- 00-index-moc
+- 02-lifecycle-operations-moc
+- cognitive-matrix-o00-distinction-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O00 Distinction — Map of Content
 

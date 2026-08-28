@@ -6,13 +6,14 @@ tags:
 - note
 - amos-information-theory-master
 - canon/skill
+- skill
+- amos-information-theory-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-information-theory-master
 

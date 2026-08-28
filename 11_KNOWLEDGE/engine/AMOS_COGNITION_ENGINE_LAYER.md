@@ -12,6 +12,10 @@ tags:
 - rscf/state/observation
 - topic/amos-cognition-engine-layer
 - engine
+- engine-moc
+- knowledge-moc
+- kernel-moc
+- 00-home
 status: index
 provenance: SOURCE_CLAIM
 confidence: VERIFIED
@@ -21,7 +25,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # amos-cognition-engine-layer
 
@@ -33,3 +36,7 @@ rscf:
 
 ---
 **Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

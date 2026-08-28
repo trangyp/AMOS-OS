@@ -4,7 +4,10 @@ title: SKILL — Amos Agent Systems Master
 type: skill
 source: 07_SKILLS/amos-agent-systems-master
 name: amos-agent-systems-master
-description: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy governance, agent-to-agent protocols. Use when agent design, delegation reasoning, or multi-agent govern. Do not use for generic tasks outside agent domain.
+description: AMOS Agent Systems — agent fabrication, delegation, agency-consequence
+  tensors, agent economy governance, agent-to-agent protocols. Use when agent design,
+  delegation reasoning, or multi-agent govern. Do not use for generic tasks outside
+  agent domain.
 parent_skill: none
 domain: agent
 origin_architect: Trang Phan
@@ -17,6 +20,20 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos_os
+- agents
+- readme
+- agents-agent-contract
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- agent-template
+- amos-agent-systems-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,13 +6,13 @@ tags:
 - moc
 - 97-allocation-resource-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 97 Allocation Resource Modes — Map of Content
 

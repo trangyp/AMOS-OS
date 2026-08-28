@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ENGINE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_UBI_SUPER_ENGINE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_super_engine
-  - biological_engine
-  - alignment_computation
-  - super_engine
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_super_engine
+- biological_engine
+- alignment_computation
+- super_engine
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- ubi-score-framework
+- ubi-wearable-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,25 +44,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_UBI_OMNIS_USE_CASES
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_UBI_OMNIS_USE_CASES
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_ENGINES
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_ENGINES
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   score_framework:
-    artifact: [[UBI_SCORE_FRAMEWORK]]
+    artifact:
+    - - UBI_SCORE_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   engine_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # AMOS UBI Super Engine
 

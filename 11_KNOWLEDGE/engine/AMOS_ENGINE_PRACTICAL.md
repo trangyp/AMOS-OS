@@ -5,6 +5,11 @@ tags:
 - processing
 - runtime
 - canon/knowledge
+- engine-moc
+- knowledge-moc
+- kernel-moc
+- 00-home
+- trang-framework-recursive-ontology-dynamics
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -13,7 +18,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # AMOS Engine - Practical Post-LLM Intelligence System - Implementation Complete
 
@@ -184,3 +188,7 @@ The AMOS Engine is now ready to integrate with:
 
 ---
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

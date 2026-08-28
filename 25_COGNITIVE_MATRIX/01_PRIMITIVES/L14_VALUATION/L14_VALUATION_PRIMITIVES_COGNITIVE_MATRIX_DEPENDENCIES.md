@@ -6,13 +6,19 @@ tags:
 - note
 - l14-valuation
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- l14-valuation-moc
+- l13-prediction-primitives-cognitive-matrix-readme
+- l17-decision-primitives-cognitive-matrix-readme
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L14 — Dependencies
 

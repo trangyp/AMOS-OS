@@ -7,13 +7,17 @@ tags:
 - index
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # 00_INDEX — AMOS Cognitive Matrix Contract
 
@@ -2670,3 +2674,7 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

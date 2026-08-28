@@ -6,13 +6,59 @@ tags:
 - amos_os
 - 00_root
 - canon/root
+- 00-home
+- 00-cosmo-brain-moc
+- 00-root-architecture
+- 00-root-audit
+- 00-root-authorization
+- 00-root-boundaries
+- 00-root-change-log
+- 00-root-contract
+- 00-root-coverage
+- 00-root-dependencies
+- 00-root-glossary
+- 00-root-history
+- 00-root-identity
+- 00-root-integration-checklist
+- 00-root-lifecycle
+- 00-root-moc
+- 00-root-naming-standard
+- 00-root-provenance
+- 00-root-readme
+- 00-root-registry
+- 00-root-release-notes
+- 00-root-status
+- 00-root-versioning
+- amos-layer-maps
+- amos-rscf-nodes
+- amos-templates
+- architecture
+- authoritative-state
+- cognitive-matrix-integration
+- dependency-map
+- full-tree
+- neural-network
+- placement-rules
+- readme
+- roadmap
+- rscf-node-index
+- system-map
+- system-map-v1
+- 00-root-map
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- amos-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: root_index
 ---
-
 
 # 00 ROOT MAP
 

@@ -12,14 +12,17 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/CANON_X_KNOWLEDGE.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - canon_x_knowledge
-  - structural_review
-  - epistemic_boundary
-  - provenance
-  - rscf
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- canon_x_knowledge
+- structural_review
+- epistemic_boundary
+- provenance
+- rscf
+- canon/matrix
+- validation
+- l19-proof-capsule
+- canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE

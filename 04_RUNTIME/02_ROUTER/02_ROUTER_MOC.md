@@ -6,13 +6,17 @@ tags:
 - moc
 - 02-router
 - canon/runtime
+- canon-router
+- framework-router
+- hml-router
+- rscf-router
+- 04-runtime-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Router — Map of Content
 

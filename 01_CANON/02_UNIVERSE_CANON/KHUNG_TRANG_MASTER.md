@@ -12,28 +12,41 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - khung_trang
-  - trang_framework
-  - pre_symbolic_spine
-  - perception
-  - distinction
-  - relationship
-  - constraint
-  - function
-  - meaning
-  - null_ground
-  - emergence
-  - entropy
-  - master_equations
-  - mathematical_foundations
-  - epistemic_governance
-  - rscf
-  - provenance
-  - canon/universe
+- amos_os
+- canon
+- universe
+- 01_canon
+- khung_trang
+- trang_framework
+- pre_symbolic_spine
+- perception
+- distinction
+- relationship
+- constraint
+- function
+- meaning
+- null_ground
+- emergence
+- entropy
+- master_equations
+- mathematical_foundations
+- epistemic_governance
+- rscf
+- provenance
+- canon/universe
+- khung-trang-master-equations
+- 01-canon-moc
+- trang-reality-architecture-master
+- amos-x-trang-reality
+- references
+- 00-root-moc
+- canon-router
+- l19-proof-capsule
+- 02-universe-canon-moc
+- khung-trang-equations
+- khung-trang-equations-canon
+- architecture
+- 00-home
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -48,15 +61,15 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - "01_CANON/01_CANON_MOC"
-    - "11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER"
-    - "25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY"
-    - "AMOS_CORPUS"
+  - 01_CANON/01_CANON_MOC
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE_MASTER
+  - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
+  - AMOS_CORPUS
   scope:
-    - UNIVERSE_CANON
-    - KHUNG_TRANG_FRAMEWORK
-    - PRE_SYMBOLIC_ONTOLOGY
-    - MATHEMATICAL_FOUNDATIONS
+  - UNIVERSE_CANON
+  - KHUNG_TRANG_FRAMEWORK
+  - PRE_SYMBOLIC_ONTOLOGY
+  - MATHEMATICAL_FOUNDATIONS
   confidence_ceiling:
     source_model: SOURCE_BOUND
     runtime: RUNTIME_VERIFIED

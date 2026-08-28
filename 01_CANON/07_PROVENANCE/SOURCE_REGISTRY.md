@@ -37,6 +37,30 @@ tags:
 - topic/freshness
 - topic/sybil-hardening
 - topic/persistent-provenance
+- readme
+- 00-root-moc
+- amos-moc
+- architecture
+- system-map
+- neural-network
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- canon-provenance
+- source-lineage
+- canonical-glossary
+- deprecated-terms
+- symbol-registry
+- unit-registry
+- universal-variable-registry
+- hml-canon
+- persistence-canon
+- authority-canon
+- control-plane-canon
+- 00-home
+- amos-rscf-nodes
+- 07-provenance-moc
 aliases:
 - AMOS Source Registry - AMOS OS Source Registry - Canon Source Registry
 ---

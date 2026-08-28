@@ -6,13 +6,21 @@ tags:
 - reference
 - amos-os-runtime-master
 - canon/skill
+- integration
+- diagnosis
+- validation
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Complete System Integration Mission
 

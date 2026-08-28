@@ -6,12 +6,17 @@ tags:
 - note
 - vault
 - canon/general
+- readme
+- 00-home
+- amos-home
+- moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 # [[README]] — Readme
 
 """

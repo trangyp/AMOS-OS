@@ -5,8 +5,8 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-workflow-builder
 Agent: amos-workflow-builder-agent
-Trigger: When creating, updating, auditing, or packaging AMOS-aligned workflows with validation gates
-  and agent bindings
+Trigger: When creating, updating, auditing, or packaging AMOS-aligned workflows with
+  validation gates and agent bindings
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +16,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +47,6 @@ law_compliance:
 - L18
 domain: workflow
 ---
-
 
 # AMOS Workflow Builder Workflow
 

@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-memory-systems-master
 Agent: amos-memory-systems-agent
-Trigger: AMOS Memory Systems — 3 memory types, context compaction, memory conflict resolution, memory
-  immune system, action-memory firewall. Use for memory management, context continuity, or memory conflict
+Trigger: AMOS Memory Systems — 3 memory types, context compaction, memory conflict
+  resolution, memory immune system, action-memory firewall. Use for memory management,
+  context continuity, or memory conflict
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: memory
 ---
-
 
 # Workflow: AMOS Memory Systems Master
 

@@ -6,13 +6,21 @@ tags:
 - moc
 - 22-research
 - canon/research
+- research-readme
+- research-research-contract
+- 00-index-moc
+- 01-papers-moc
+- 02-experiments-moc
+- 03-competing-models-moc
+- 04-validation-moc
+- 05-benchmarks-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 22 Research — Map of Content
 

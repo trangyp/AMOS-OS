@@ -8,13 +8,18 @@ tags:
 - l02_attention
 - note
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l02-attention-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L02_ATTENTION — Skills
 

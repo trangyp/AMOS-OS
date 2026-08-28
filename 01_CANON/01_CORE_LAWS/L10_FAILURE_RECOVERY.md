@@ -3,14 +3,27 @@ title: L10 FAILURE RECOVERY
 type: failure-mode
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - failure_recovery
-  - resilience
-  - rollback
-  - provenance
-  - governance
-  - canon/universe
+- canon
+- core_laws
+- failure_recovery
+- resilience
+- rollback
+- provenance
+- governance
+- canon/universe
+- dmer-l5
+- validation
+- law-hierarchy
+- 00-home
+- amos-rscf-nodes
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- provenance-topology
+- mvcc-cas
+- causal-epoch-finality
+- atomic-multi-rscf-reasoning
+- fail-closed-governance
+- rollback-and-recovery-basins
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

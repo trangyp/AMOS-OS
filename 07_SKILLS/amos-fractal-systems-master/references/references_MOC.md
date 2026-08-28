@@ -6,13 +6,38 @@ tags:
 - moc
 - references
 - canon/skill
+- chaos-diagnostics
+- forex-fractal-geometry-research
+- fractal-architecture-reality
+- fractal-cognitive-architecture-equations
+- fractal-cognitive-architecture-rules
+- fractal-cognitive-architecture-requirements
+- fractal-ips
+- fractal-math-core
+- fractal-state-skill
+- generative-family-validation
+- heritage-12-fractal-types
+- hexagonal-fractal-mars-pineapple
+- lacunarity-in-brain
+- language-fractal-architecture
+- lmh-structure
+- multifractal-hurst-diagnostics
+- rg-fractal-bridge
+- scaling-law-diagnostics
+- ubi-fractal-entropy-correction
+- amos-fractal-systems-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # References — Map of Content
 

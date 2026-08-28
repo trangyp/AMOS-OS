@@ -8,13 +8,19 @@ tags:
 - c05_representation
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- cognitive-matrix-control-planes-contract
+- c05-representation-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C05_REPRESENTATION — Representation control: tensor axis discipline, class demarcation on encodings.
 

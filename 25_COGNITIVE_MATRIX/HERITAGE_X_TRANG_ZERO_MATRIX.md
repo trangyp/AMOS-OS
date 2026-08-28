@@ -12,40 +12,60 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - heritage_x_trang_zero_matrix
-  - heritage
-  - trang_zero
-  - matrix_table
-  - cross_plane_routing
-  - crisis_routing
-  - zero_reset
-  - null_state
-  - null_state_invariant
-  - reset_basin
-  - epistemic_null
-  - modular_null
-  - substrate_ground
-  - anti_autopoisoning
-  - reconstruction
-  - historical_false_consensus
-  - village_autonomy_decoupling
-  - asymmetric_defense_reset
-  - polycentric_reconstruction
-  - primary_source_reanchoring
-  - core_metabolic_baseline
-  - provenance
-  - scope
-  - regime
-  - threshold_semantics
-  - failure_recovery
-  - reversibility
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- heritage_x_trang_zero_matrix
+- heritage
+- trang_zero
+- matrix_table
+- cross_plane_routing
+- crisis_routing
+- zero_reset
+- null_state
+- null_state_invariant
+- reset_basin
+- epistemic_null
+- modular_null
+- substrate_ground
+- anti_autopoisoning
+- reconstruction
+- historical_false_consensus
+- village_autonomy_decoupling
+- asymmetric_defense_reset
+- polycentric_reconstruction
+- primary_source_reanchoring
+- core_metabolic_baseline
+- provenance
+- scope
+- regime
+- threshold_semantics
+- failure_recovery
+- reversibility
+- rscf
+- canon_candidate
+- canon/matrix
+- heritage-x-trang-zero
+- heritage-zero-framework
+- 25-cognitive-matrix-moc
+- trang-zero-framework
+- memory
+- validation
+- 00-home
+- amos-rscf-nodes
+- k-rscf
+- k-hml
+- k-gmef
+- k-provenance
+- k-provenance-topology
+- k-failure-recovery
+- k-causal-epoch
+- k-mvcc
+- k-cas
+- k-atomic-multi-rscf
+- amos-core-v4-4
+- canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -62,52 +82,41 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK
-    - AMOS_CORPUS
+  - 25_COGNITIVE_MATRIX/HERITAGE_X_TRANG_ZERO
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - HERITAGE_ZERO_ROUTING
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - CROSS_PLANE_MATRIX_TABLE
+  - HERITAGE_ZERO_ROUTING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
-    artifact: [[HERITAGE_X_TRANG_ZERO]]
+    artifact:
+    - - HERITAGE_X_TRANG_ZERO
   zero_master:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_ZERO_FRAMEWORK
   heritage_zero:
-    artifact: [[HERITAGE_ZERO_FRAMEWORK]]
+    artifact:
+    - - HERITAGE_ZERO_FRAMEWORK
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
-  matrix_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  routing_rows:
-    VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing:
-    SOURCE_DEFINED_MODEL
-  crisis_threshold_semantics:
-    SOURCE_DEFINED_MODEL_WITH_UNRESOLVED_MEASUREMENT_BINDING
-  historical_archetype_mapping:
-    SOURCE_DEFINED_MODEL
-  zero_reset_basins:
-    SOURCE_DEFINED_MODEL
-  anti_autopoisoning_actions:
-    SOURCE_DEFINED_MODEL
-  post_reset_reconstruction:
-    SOURCE_DEFINED_MODEL
-  runtime_enforcement:
-    NOT_ESTABLISHED
-  executable_reset:
-    NOT_ESTABLISHED
-  empirical_validation:
-    NOT_ESTABLISHED
-  historical_causal_validation:
-    NOT_ESTABLISHED
-  formal_verification:
-    NOT_ESTABLISHED
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  matrix_structure: VERIFIED_SOURCE_STRUCTURE
+  routing_rows: VERIFIED_SOURCE_STRUCTURE
+  cross_plane_routing: SOURCE_DEFINED_MODEL
+  crisis_threshold_semantics: SOURCE_DEFINED_MODEL_WITH_UNRESOLVED_MEASUREMENT_BINDING
+  historical_archetype_mapping: SOURCE_DEFINED_MODEL
+  zero_reset_basins: SOURCE_DEFINED_MODEL
+  anti_autopoisoning_actions: SOURCE_DEFINED_MODEL
+  post_reset_reconstruction: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
+  executable_reset: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  historical_causal_validation: NOT_ESTABLISHED
+  formal_verification: NOT_ESTABLISHED
 ---
 
 # Heritage x Trang Zero Cross-Plane Routing Matrix Table

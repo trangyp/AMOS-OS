@@ -6,13 +6,16 @@ tags:
 - moc
 - amos-c10-tech-engineering-master
 - canon/skill
+- agent-template
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-C10-Tech-Engineering-Master — Map of Content
 

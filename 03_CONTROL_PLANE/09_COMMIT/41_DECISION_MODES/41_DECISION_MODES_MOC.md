@@ -6,13 +6,14 @@ tags:
 - moc
 - 41-decision-modes
 - canon/control-plane
+- 09-commit-moc
+- decision-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 41 Decision Modes — Map of Content
 

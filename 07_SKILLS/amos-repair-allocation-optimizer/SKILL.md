@@ -4,7 +4,10 @@ title: SKILL — Amos Repair Allocation Optimizer
 type: skill
 source: 07_SKILLS/amos-repair-allocation-optimizer
 name: amos-repair-allocation-optimizer
-description: Repair Allocation Optimizer — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
+description: Repair Allocation Optimizer — audit and repair capability. Use when auditing,
+  failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
+  routes to this specialized capability. Do not use for generic tasks outside audit
+  domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-repair-allocation-optimizer-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -14,6 +14,9 @@ tags:
 - rscf/state/observation
 - topic/amos-ev-infrastructure-agents-super-engi
 - engine
+- agents
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +24,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS EV INFRASTRUCTURE [[AGENTS]] SUPER ENGINE X100K
 
 ```json

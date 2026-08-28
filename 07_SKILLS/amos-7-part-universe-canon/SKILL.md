@@ -12,6 +12,16 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- references
+- readme
+- amos-7-part-universe-canon-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -42,7 +52,11 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers, or mapping persistence logic. Do not use for generic tasks outside canon/universe domain.
+description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness
+  across 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination).
+  Use when auditing whether a theory/system/institution is structurally complete,
+  analyzing why a system emerges/operates/changes/survives/collapses/recovers, or
+  mapping persistence logic. Do not use for generic tasks outside canon/universe domain.
 license: MIT
 steward: Trang Phan
 ---

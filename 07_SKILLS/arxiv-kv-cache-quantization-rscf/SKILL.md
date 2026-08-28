@@ -4,7 +4,9 @@ title: SKILL — Arxiv Kv Cache Quantization Rscf
 type: skill
 source: 07_SKILLS/arxiv-kv-cache-quantization-rscf
 name: arxiv-kv-cache-quantization-rscf
-description: Kv Cache Quantization — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Kv Cache Quantization — arxiv research capability. Use when arxiv research,
+  paper analysis, or literature review. Use when amos-knowledge-research-master routes
+  to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- arxiv-kv-cache-quantization-rscf-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

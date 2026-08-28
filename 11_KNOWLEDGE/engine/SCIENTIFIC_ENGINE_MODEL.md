@@ -13,14 +13,19 @@ tags:
 - rscf/state/derived
 - topic/scientific-engine-model
 - engine
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: AMOS_MODEL
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
-
 
 # AMOS Scientific Engine Kernel
 

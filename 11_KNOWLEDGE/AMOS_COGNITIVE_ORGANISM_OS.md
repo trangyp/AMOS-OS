@@ -4,6 +4,17 @@ tags:
 - knowledge
 - note
 - canon/knowledge
+- memory
+- validation
+- agents
+- roadmap
+- architecture
+- canon
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- knowledge-moc
 type: document
 source: 11_KNOWLEDGE/root
 rscf:
@@ -12,7 +23,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS COGNITIVE ORGANISM OS
 ## Maximum-Detail Unified Cognitive-Life Architecture

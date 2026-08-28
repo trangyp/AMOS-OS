@@ -8,13 +8,19 @@ tags:
 - m_mid_scale
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- hml-canon
+- cognitive-matrix-moc
+- 00-home
+- m-mid-scale-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # M_MID_SCALE — Mid scale: domain policy and planning; medium rigor, batched evaluation.
 

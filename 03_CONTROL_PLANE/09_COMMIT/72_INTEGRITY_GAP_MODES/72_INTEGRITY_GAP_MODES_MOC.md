@@ -6,13 +6,14 @@ tags:
 - moc
 - 72-integrity-gap-modes
 - canon/control-plane
+- 09-commit-moc
+- integrity-gap-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 72 Integrity Gap Modes — Map of Content
 

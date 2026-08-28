@@ -6,13 +6,14 @@ tags:
 - note
 - amos-c03-physics-cosmos-master
 - canon/skill
+- skill
+- amos-c03-physics-cosmos-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-c03-physics-cosmos-master
 

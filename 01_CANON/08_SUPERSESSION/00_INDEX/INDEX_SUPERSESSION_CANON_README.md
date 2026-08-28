@@ -5,6 +5,24 @@ source: 01_CANON/08_SUPERSESSION/00_INDEX
 tags:
 - 00_INDEX
 - canon/universe
+- readme
+- supersession-canon-supersession-contract
+- supersession-map
+- law-hierarchy
+- amos-rscf-nodes
+- canon
+- 00-home
+- hml-canon
+- persistence-canon
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED

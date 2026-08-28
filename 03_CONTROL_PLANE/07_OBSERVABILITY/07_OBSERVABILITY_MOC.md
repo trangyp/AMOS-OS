@@ -6,13 +6,19 @@ tags:
 - moc
 - 07-observability
 - canon/control-plane
+- blind-spot-registry
+- control-plane-observability-contract
+- monitor-registry
+- observability-control-plane-readme
+- observability-envelope
+- 00-index-moc
+- 03-control-plane-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 07 Observability — Map of Content
 

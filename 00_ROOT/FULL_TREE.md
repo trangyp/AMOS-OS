@@ -6,13 +6,17 @@ tags:
 - 00_root
 - note
 - canon/root
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: root_index
 ---
-
 
 # AMOS OS Full Tree
 

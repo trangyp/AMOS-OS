@@ -5,6 +5,8 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- architecture
+- trang-moc
 type: data
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,6 +15,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # TRANG AMOS REALITY [[ARCHITECTURE]] MASTER MAX DETAIL
 
 ```json

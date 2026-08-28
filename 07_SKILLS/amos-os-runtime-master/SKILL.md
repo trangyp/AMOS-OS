@@ -4,7 +4,9 @@ title: SKILL — Amos Os Runtime Master
 type: skill
 source: 07_SKILLS/amos-os-runtime-master
 name: amos-os-runtime-master
-description: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize), infrastructure control plane, deployment. Use when runtime reasoning,. Do not use for generic tasks outside runtime domain.
+description: AMOS OS & Runtime — OS Kernel v4.4, runtime pipeline (Perceive→Route→Admit→Plan→Schedule→Execute→Observe→Repair→Audit→Finalize),
+  infrastructure control plane, deployment. Use when runtime reasoning,. Do not use
+  for generic tasks outside runtime domain.
 parent_skill: none
 domain: runtime
 origin_architect: Trang Phan
@@ -17,6 +19,15 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos_os
+- agent-template
+- amos-os-runtime-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -3,20 +3,41 @@ title: L19 PROOF CAPSULE
 type: proof
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - proof
-  - proof_capsule
-  - epistemic_governance
-  - mandatory_fields
-  - confidence_ceiling
-  - implementation_claims
-  - competing_hypotheses
-  - falsifiers
-  - supersession
-  - provenance
-  - dependency_invalidation
-  - canon/universe
+- canon
+- core_laws
+- proof
+- proof_capsule
+- epistemic_governance
+- mandatory_fields
+- confidence_ceiling
+- implementation_claims
+- competing_hypotheses
+- falsifiers
+- supersession
+- provenance
+- dependency_invalidation
+- canon/universe
+- validation
+- readme
+- architecture
+- l19-proof-capsule
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- l17-rscf
+- l18-gmef
+- l16-hml
+- provenance-topology
+- persistent-provenance
+- scope-regime-firewall
+- causal-firewall
+- causal-epoch-finality
+- atomic-multi-rscf
+- l10-failure-recovery
+- l11-knowledge-memory
+- l15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

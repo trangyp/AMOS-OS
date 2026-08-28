@@ -6,13 +6,17 @@ tags:
 - moc
 - 24-ubi-nbi-neurobiological
 - canon/domain
+- domains-ubi-nbi-neurobiological-contract
+- ubi-nbi-neurobiological-domains-readme
+- 00-index-moc
+- 21-domains-moc
+- ubi-nbi-neurobiological-domains-domain-spec
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 24 Ubi Nbi Neurobiological — Map of Content
 

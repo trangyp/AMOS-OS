@@ -6,13 +6,18 @@ tags:
 - moc
 - 16-schemas
 - canon/schema
+- schemas-readme
+- schemas-schema-contract
+- 00-index-moc
+- 10-rscf-moc
+- 11-observability-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 16 Schemas — Map of Content
 

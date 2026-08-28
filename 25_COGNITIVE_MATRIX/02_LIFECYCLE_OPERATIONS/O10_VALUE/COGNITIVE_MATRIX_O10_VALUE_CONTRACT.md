@@ -8,13 +8,19 @@ tags:
 - o10_value
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- o10-value-moc
+- cognitive-matrix-lifecycle-operations-contract
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O10_VALUE — O10 Value
 

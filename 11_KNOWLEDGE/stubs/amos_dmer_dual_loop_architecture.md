@@ -7,8 +7,15 @@ tags:
 - dual
 - loop
 - architecture
+- amos-dmer-dual-loop-architecture
+- kernel-moc
+- 00-home
 ---
 
 # amos dmer dual loop architecture
 
 Stub note for [[amos_dmer_dual_loop_architecture]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

@@ -6,13 +6,19 @@ tags:
 - reference
 - amos-fractal-systems-master
 - canon/skill
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- canon
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # AMOS Forex Fractal Geometry Research Capsule v2 DEEP
 

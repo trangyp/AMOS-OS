@@ -8,13 +8,20 @@ tags:
 - l27_multi_agent_cognition
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- amos-rscf-nodes
+- cognitive-matrix-primitives-contract
+- l27-multi-agent-cognition-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L27_MULTI_AGENT_COGNITION — Multi-agent cognition Contract
 

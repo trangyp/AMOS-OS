@@ -7,8 +7,15 @@ tags:
 - kernel
 - vinfinity
 - max
+- amos-vomni-kernel-vinfinity-max
+- kernel-moc
+- 00-home
 ---
 
 # amos vomni kernel vinfinity max
 
 Stub note for [[amos_vomni_kernel_vinfinity_max]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

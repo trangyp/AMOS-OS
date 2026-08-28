@@ -6,13 +6,14 @@ tags:
 - moc
 - 04-audit
 - canon/control-plane
+- 06-reasoning-modes-moc
+- audit-reasoning-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 04 Audit — Map of Content
 

@@ -7,13 +7,20 @@ tags:
 - llm-wiki
 - 11-knowledge
 - canon/knowledge
+- amos-llm-wiki
+- llm-wiki-index
+- llm-wiki-log
+- llm-wiki-raw-readme
+- amos-llm-wiki-tool
+- karpathy-llm-wiki-summary
+- knowledge-moc
+- 00-root-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # LLM Wiki — Map of Content
 

@@ -16,26 +16,40 @@ schema_family: RSCF
 schema_role: KNOWLEDGE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - amos_core
-  - cognition
-  - distributed_cognition
-  - cluster
-  - orchestrator
-  - multi_role_reasoning
-  - rscf
-  - fractal_knowledge
-  - provenance
-  - verification
-  - governance
-  - mvcc
-  - cas
-  - atomic_reasoning
-  - failure_recovery
-  - anti_sybil
-  - epistemic_firewall
-  - determinism
-  - canon/universe
+- amos_os
+- amos_core
+- cognition
+- distributed_cognition
+- cluster
+- orchestrator
+- multi_role_reasoning
+- rscf
+- fractal_knowledge
+- provenance
+- verification
+- governance
+- mvcc
+- cas
+- atomic_reasoning
+- failure_recovery
+- anti_sybil
+- epistemic_firewall
+- determinism
+- canon/universe
+- architecture
+- validation
+- agents
+- memory
+- l19-proof-capsule
+- canon
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- trang-framework-recursive-ontology-dynamics
 version: 1.0.0
 updated: '2026-08-27'
 status: MODEL
@@ -49,11 +63,12 @@ determinism_validation_status: UNKNOWN/GAP
 executable_binding: NOT_ESTABLISHED
 ingestion_action: ADD_ONLY
 overclaim_risk: true
-overclaim_note: >
-  Architecture-level descriptions are retained as AMOS_MODEL.
-  Runtime, determinism, security, latency, production-readiness,
-  autonomous operation, and performance claims remain CONDITIONAL,
-  SOURCE_CLAIM, or UNKNOWN/GAP unless independently validated.
+overclaim_note: 'Architecture-level descriptions are retained as AMOS_MODEL. Runtime,
+  determinism, security, latency, production-readiness, autonomous operation, and
+  performance claims remain CONDITIONAL, SOURCE_CLAIM, or UNKNOWN/GAP unless independently
+  validated.
+
+  '
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL

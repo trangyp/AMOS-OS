@@ -4,7 +4,10 @@ title: SKILL — Amos Information Theory Master
 type: skill
 source: 07_SKILLS/amos-information-theory-master
 name: amos-information-theory-master
-description: AMOS Information Theory — entropy, complexity, information boundaries, information collapse topology, exposure control. Use when information-theoretic analysis, entropy reasoning, or complexity meas... Do not use for generic statistics, probability theory, or tasks outside AMOS information-theoretic framework.
+description: AMOS Information Theory — entropy, complexity, information boundaries,
+  information collapse topology, exposure control. Use when information-theoretic
+  analysis, entropy reasoning, or complexity meas... Do not use for generic statistics,
+  probability theory, or tasks outside AMOS information-theoretic framework.
 parent_skill: none
 domain: information
 origin_architect: Trang Phan
@@ -17,6 +20,15 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos_os
+- agent-template
+- amos-information-theory-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

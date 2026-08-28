@@ -4,7 +4,9 @@ title: SKILL — Amos Information Geometry Mapper
 type: skill
 source: 07_SKILLS/amos-information-geometry-mapper
 name: amos-information-geometry-mapper
-description: Information Geometry Mapper — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability. Do not use for generic tasks outside info domain.
+description: Information Geometry Mapper — info capability. Use when executing the
+  core capability within this domain. Use when amos-information-theory-master routes
+  to this specialized capability. Do not use for generic tasks outside info domain.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-information-geometry-mapper-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

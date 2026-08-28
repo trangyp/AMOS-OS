@@ -13,7 +13,8 @@ validation_status: UNVALIDATED
 research_status: OPEN
 language: en
 domains:
-- foundational_ontology - quantum_systems - thermodynamics - complex_systems - emergence -
+- foundational_ontology - quantum_systems - thermodynamics - complex_systems - emergence
+  -
 frameworks:
 - Trang_Framework - HML - recursive_survival_dynamics
 proposed_location: 22_RESEARCH/03_COMPETING_MODELS
@@ -24,14 +25,17 @@ tags:
 - knowledge
 - note
 - canon/knowledge
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
-
 
 # Trang Framework — Recursive Ontology, Emergence, and Computable Survival Dynamics
 

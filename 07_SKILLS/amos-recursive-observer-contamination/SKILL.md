@@ -4,7 +4,10 @@ title: SKILL — Amos Recursive Observer Contamination
 type: skill
 source: 07_SKILLS/amos-recursive-observer-contamination
 name: amos-recursive-observer-contamination
-description: Recursive Observer Contamination — runtime and OS capability. Use when runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master routes to this specialized capability. Do not use for generic tasks outside runtime domain.
+description: Recursive Observer Contamination — runtime and OS capability. Use when
+  runtime reasoning, OS kernel operations, or adaptive stability. Use when amos-os-runtime-master
+  routes to this specialized capability. Do not use for generic tasks outside runtime
+  domain.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-recursive-observer-contamination-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,13 +6,28 @@ tags:
 - control_plane
 - task_contract_control_plane_readme.md
 - canon/control-plane
+- readme
+- task-contract
+- task-resolver
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 01-task-contract-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # TASK CONTRACT CONTROL PLANE [[README]]
 

@@ -6,13 +6,25 @@ tags:
 - moc
 - l29-evolution
 - canon/cognitive-matrix
+- cognitive-matrix-l29-evolution-contract
+- 00-index-moc
+- 01-primitives-moc
+- l29-evolution-primitives-cognitive-matrix-agents
+- l29-evolution-primitives-cognitive-matrix-hml
+- l29-evolution-primitives-cognitive-matrix-memory
+- l29-evolution-primitives-cognitive-matrix-purpose
+- l29-evolution-primitives-cognitive-matrix-readme
+- l29-evolution-primitives-cognitive-matrix-repair
+- l29-evolution-primitives-cognitive-matrix-rscf
+- l29-evolution-primitives-cognitive-matrix-skills
+- l29-evolution-primitives-cognitive-matrix-state
+- l29-evolution-primitives-cognitive-matrix-tests
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L29 Evolution — Map of Content
 

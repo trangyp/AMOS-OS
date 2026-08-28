@@ -3,20 +3,32 @@ title: README — 00 Index — 17 Observability
 type: note
 source: 17_OBSERVABILITY/00_INDEX
 aliases:
-- README
+- - - README
 rscf-state: derived
 tags:
 - index
 - readme
 - moc
 - canon/observability
+- index-observability-readme
+- observability-observability-map
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- index-observability-observability-contract
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-home
+- amos-rscf-nodes
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # [[README]]
 

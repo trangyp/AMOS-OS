@@ -6,13 +6,27 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- index-geo-geopolitics-domains-readme
+- 00-root-map
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- geo-geopolitics-domains-geo-geopolitics-contract
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # GEO GEOPOLITICS MAP
 

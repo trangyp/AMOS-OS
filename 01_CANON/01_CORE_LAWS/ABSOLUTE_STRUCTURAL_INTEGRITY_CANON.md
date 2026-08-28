@@ -12,22 +12,28 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CANON
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
 tags:
-  - amos_os
-  - canon
-  - core_laws
-  - structural_integrity
-  - absolute_structural_integrity
-  - dependency_integrity
-  - topology
-  - invariants
-  - provenance
-  - lineage
-  - rscf
-  - fractal_knowledge
-  - atomic_reasoning
-  - governed_evolution
-  - rollback
-  - canon/core_laws
+- amos_os
+- canon
+- core_laws
+- structural_integrity
+- absolute_structural_integrity
+- dependency_integrity
+- topology
+- invariants
+- provenance
+- lineage
+- rscf
+- fractal_knowledge
+- atomic_reasoning
+- governed_evolution
+- rollback
+- canon/core_laws
+- absolute-integrity-canon
+- absolute-logic-canon
+- law-hierarchy
+- 01-core-laws-moc
+- 00-home
+- amos-rscf-nodes
 version: 1.0.0
 updated: '2026-08-27'
 status: CANON_CANDIDATE

@@ -4,7 +4,14 @@ title: SKILL — Amos Cross Domain Tensor Composition Governor
 type: skill
 source: 07_SKILLS/amos-cross-domain-tensor-composition-governor
 name: amos-cross-domain-tensor-composition-governor
-description: Cross-Domain Tensor Composition Governor — RSCF epistemic capability. Governs when and how typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) from different AMOS domains (C01-C12) can be composed. Enforces the tensor compatibility invariant, epistemic class preservation across domain boundaries, the weakest-load-bearing-edge confidence rule, and cross-domain provenance tracking. Use when composing claims, evidence, or reasoning across two or more AMOS domains. Use when amos-rscf-epistemic-master routes to this specialized capability. Do not use for single-domain tensor operations or tasks outside cross-domain composition governance.
+description: Cross-Domain Tensor Composition Governor — RSCF epistemic capability.
+  Governs when and how typed tensors (T_R, T_F, T_E, T_C, T_G, T_M) from different
+  AMOS domains (C01-C12) can be composed. Enforces the tensor compatibility invariant,
+  epistemic class preservation across domain boundaries, the weakest-load-bearing-edge
+  confidence rule, and cross-domain provenance tracking. Use when composing claims,
+  evidence, or reasoning across two or more AMOS domains. Use when amos-rscf-epistemic-master
+  routes to this specialized capability. Do not use for single-domain tensor operations
+  or tasks outside cross-domain composition governance.
 parent_skill: amos-rscf-epistemic-master
 domain: cross-domain
 origin_architect: Trang Phan
@@ -17,6 +24,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-cross-domain-tensor-composition-governor-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

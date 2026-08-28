@@ -12,20 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/SI_SOMATIC_INTELLIGENCE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - si
-  - somatic_intelligence
-  - fascial_tensegrity
-  - proprioception
-  - biomechanics
-  - ubi
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- si
+- somatic_intelligence
+- fascial_tensegrity
+- proprioception
+- biomechanics
+- ubi
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- uba-universal-biological-architecture
+- ubi-wearable-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,26 +46,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - SOMATIC_INTELLIGENCE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - SOMATIC_INTELLIGENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   domain_knowledge:
-    artifact: '11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE'
+    artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   si_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # SI — Somatic Intelligence
 

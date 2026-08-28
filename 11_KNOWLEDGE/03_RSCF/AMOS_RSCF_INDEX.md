@@ -12,17 +12,22 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/AMOS_RSCF_INDEX.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 03_rscf
-  - amos_rscf_index
-  - proof_capsules
-  - rscf_nodes
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 03_rscf
+- amos_rscf_index
+- proof_capsules
+- rscf_nodes
+- rscf
+- canon_candidate
+- canon/knowledge
+- 03-rscf-moc
+- amos-full-brain-os-architecture
+- 25-cognitive-matrix-moc
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,15 +42,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 03_RSCF_MOC
-    - AMOS_CORPUS
+  - 03_RSCF_MOC
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_RSCF
-    - AMOS_RSCF_INDEX
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_RSCF
+  - AMOS_RSCF_INDEX
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
-    artifact: [[03_RSCF_MOC]]
+    artifact:
+    - - 03_RSCF_MOC
   brain_os:
     artifact: 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
 epistemic_boundary:
@@ -54,7 +60,6 @@ epistemic_boundary:
   proof_index: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # AMOS OS RSCF Proof Capsule Index
 

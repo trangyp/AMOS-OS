@@ -1,161 +1,165 @@
 ---
 title: Absolute Omniverse Model
 aliases:
-  - "Absolute Omniverse"
-  - "Absolute Omniverse U∞"
-  - "ABSOLUTE OMNIVERSE U∞"
-  - "Absolute Omniverse Content Universe"
-  - "AMOS Absolute Omniverse Model"
-
+- Absolute Omniverse
+- Absolute Omniverse U∞
+- ABSOLUTE OMNIVERSE U∞
+- Absolute Omniverse Content Universe
+- AMOS Absolute Omniverse Model
 type: model
-artifact: "ABSOLUTE_OMNIVERSE_MODEL.md"
-artifact_id: "amos_13_models_01_foundation_absolute_omniverse_model"
-
-source: "13_MODELS/01_FOUNDATION"
-path: "13_MODELS/01_FOUNDATION/ABSOLUTE_OMNIVERSE_MODEL.md"
-
+artifact: ABSOLUTE_OMNIVERSE_MODEL.md
+artifact_id: amos_13_models_01_foundation_absolute_omniverse_model
+source: 13_MODELS/01_FOUNDATION
+path: 13_MODELS/01_FOUNDATION/ABSOLUTE_OMNIVERSE_MODEL.md
 native_source:
-  artifact: "ABSOLUTE OMNIVERSE U∞"
-  source_version: "vInfinity"
-  source_author: "Trang Phan"
-  source_system: "AMOS / UNIVERSE_OS"
-  source_layer_type: "content_universe"
-  ingestion_state: "SOURCE_LOCATED"
-  source_role: "NATIVE_CORPUS_SOURCE"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-
-plane: "13_MODELS"
-segment: "13_MODELS/01_FOUNDATION"
-artifact_kind: "MODEL"
-
-version: "0.2.0"
-previous_version: "0.1.0"
-updated: "2026-08-28"
-
-status: "SOURCE_POPULATED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CANON_CANDIDATE"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "SOURCE_GROUNDED_NOT_EMPIRICALLY_VALIDATED"
-executable_binding: "NOT_ESTABLISHED"
-
-content_layer_type: "content_universe"
+  artifact: ABSOLUTE OMNIVERSE U∞
+  source_version: vInfinity
+  source_author: Trang Phan
+  source_system: AMOS / UNIVERSE_OS
+  source_layer_type: content_universe
+  ingestion_state: SOURCE_LOCATED
+  source_role: NATIVE_CORPUS_SOURCE
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 13_MODELS
+segment: 13_MODELS/01_FOUNDATION
+artifact_kind: MODEL
+version: 0.2.0
+previous_version: 0.1.0
+updated: '2026-08-28'
+status: SOURCE_POPULATED
+epistemic_class: AMOS_MODEL
+canonical_status: CANON_CANDIDATE
+implementation_status: NOT_ESTABLISHED
+validation_status: SOURCE_GROUNDED_NOT_EMPIRICALLY_VALIDATED
+executable_binding: NOT_ESTABLISHED
+content_layer_type: content_universe
 logic_layer: false
 prediction_layer: false
 rules_layer: false
-
-ingestion_action: "ADD_ONLY"
-overwrite_policy: "PRESERVE_EXISTING"
-duplicate_policy: "COMPARE_CONTENT_AND_LINEAGE"
-
+ingestion_action: ADD_ONLY
+overwrite_policy: PRESERVE_EXISTING
+duplicate_policy: COMPARE_CONTENT_AND_LINEAGE
 tags:
-  - amos_os
-  - amos
-  - universe_os
-  - model
-  - specification
-  - foundation
-  - 13_models
-  - 01_foundation
-  - absolute_omniverse
-  - absolute-omniverse
-  - absolute_omniverse_u_infinity
-  - omniverse
-  - u_infinity
-  - content_universe
-  - content-universe
-  - ontology
-  - multimodal_ontology
-  - content_ontology
-  - human_states
-  - human_state_taxonomy
-  - emotion
-  - emotion_action_matrix
-  - sensory_micro_signals
-  - behavioural_signals
-  - pathology_states
-  - psychological_patterns
-  - multi_agent_patterns
-  - dyadic_patterns
-  - group_patterns
-  - organizational_patterns
-  - species_behaviour
-  - animal_behaviour
-  - culture_behaviour
-  - cultural_profiles
-  - crisis_behaviour
-  - creativity
-  - imagination
-  - symbolic_dream
-  - symbols
-  - dream_descriptors
-  - expression
-  - tone
-  - moral_signals
-  - personas
-  - archetypes
-  - binding_layer
-  - ubi
-  - tss
-  - tpe
-  - psi
-  - pisync
-  - ulk
-  - ust
-  - uie
-  - hie
-  - umpl
-  - uel
-  - cil
-  - uai
-  - urta
-  - source_grounded
-  - source_claim
-  - amos_model
-  - canon_candidate
-  - provenance
-  - rscf
-  - hml
-  - scope
-  - regime
-  - epistemic_firewall
-  - causal_firewall
-  - model_observation_firewall
-  - fail_closed
-  - unknown_gap
-  - add_only
-  - native_canon_ingestion
-  - canon/model
+- amos_os
+- amos
+- universe_os
+- model
+- specification
+- foundation
+- 13_models
+- 01_foundation
+- absolute_omniverse
+- absolute-omniverse
+- absolute_omniverse_u_infinity
+- omniverse
+- u_infinity
+- content_universe
+- content-universe
+- ontology
+- multimodal_ontology
+- content_ontology
+- human_states
+- human_state_taxonomy
+- emotion
+- emotion_action_matrix
+- sensory_micro_signals
+- behavioural_signals
+- pathology_states
+- psychological_patterns
+- multi_agent_patterns
+- dyadic_patterns
+- group_patterns
+- organizational_patterns
+- species_behaviour
+- animal_behaviour
+- culture_behaviour
+- cultural_profiles
+- crisis_behaviour
+- creativity
+- imagination
+- symbolic_dream
+- symbols
+- dream_descriptors
+- expression
+- tone
+- moral_signals
+- personas
+- archetypes
+- binding_layer
+- ubi
+- tss
+- tpe
+- psi
+- pisync
+- ulk
+- ust
+- uie
+- hie
+- umpl
+- uel
+- cil
+- uai
+- urta
+- source_grounded
+- source_claim
+- amos_model
+- canon_candidate
+- provenance
+- rscf
+- hml
+- scope
+- regime
+- epistemic_firewall
+- causal_firewall
+- model_observation_firewall
+- fail_closed
+- unknown_gap
+- add_only
+- native_canon_ingestion
+- canon/model
+- signals
+- diagnosis
+- references
+- validation
+- absolute-omniverse-u-infinity
+- canon
+- 00-home
+- amos-rscf-nodes
+- model-map
+- 01-foundation-moc
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   node_claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - "ABSOLUTE OMNIVERSE U∞"
+  - AMOS_corpus
+  - ABSOLUTE OMNIVERSE U∞
   scope:
-    - AMOS_general
-    - content_universe
-    - multimodal_content_ontology
-  source_version: "vInfinity"
-  source_layer_type: "content_universe"
-  confidence_ceiling: "SOURCE_BOUND"
-  empirical_validation: "NOT_ESTABLISHED"
-
+  - AMOS_general
+  - content_universe
+  - multimodal_content_ontology
+  source_version: vInfinity
+  source_layer_type: content_universe
+  confidence_ceiling: SOURCE_BOUND
+  empirical_validation: NOT_ESTABLISHED
 gaps:
-  executable_binding: "NOT_ESTABLISHED"
-  runtime_enforcement: "NOT_ESTABLISHED"
-  empirical_validation: "NOT_ESTABLISHED"
-  scientific_validation: "NOT_ESTABLISHED"
-  clinical_validation: "NOT_ESTABLISHED"
-  cross_cultural_validation: "NOT_ESTABLISHED"
-  species_behavior_validation: "NOT_ESTABLISHED"
-  probability_calibration: "NOT_ESTABLISHED"
-  source_to_runtime_binding_validation: "NOT_ESTABLISHED"
-  artifact_specific_validation_receipt: "NOT_ESTABLISHED"
+  executable_binding: NOT_ESTABLISHED
+  runtime_enforcement: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  scientific_validation: NOT_ESTABLISHED
+  clinical_validation: NOT_ESTABLISHED
+  cross_cultural_validation: NOT_ESTABLISHED
+  species_behavior_validation: NOT_ESTABLISHED
+  probability_calibration: NOT_ESTABLISHED
+  source_to_runtime_binding_validation: NOT_ESTABLISHED
+  artifact_specific_validation_receipt: NOT_ESTABLISHED
 ---
 
 > [!note] Source preface

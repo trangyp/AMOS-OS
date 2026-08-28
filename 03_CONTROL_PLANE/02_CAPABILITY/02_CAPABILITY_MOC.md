@@ -6,13 +6,18 @@ tags:
 - moc
 - 02-capability
 - canon/control-plane
+- capability-control-plane-readme
+- capability-manifest
+- capability-resolver
+- control-plane-capability-contract
+- 00-index-moc
+- 03-control-plane-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Capability — Map of Content
 

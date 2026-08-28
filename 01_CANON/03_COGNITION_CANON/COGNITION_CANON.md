@@ -3,7 +3,8 @@ type: canon
 source: 01_CANON/03_COGNITION_CANON
 artifact_id: AMOS-COGNITION-CANON
 name: COGNITION_CANON
-title: AMOS Cognition Canon — Governed Reasoning, Epistemic Integrity, and Adaptive Intelligence
+title: AMOS Cognition Canon — Governed Reasoning, Epistemic Integrity, and Adaptive
+  Intelligence
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -47,10 +48,38 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/cognition-canon
+- readme
+- 00-root-moc
+- architecture
+- system-map
+- neural-network
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- hml-canon
+- persistence-canon
+- kernel-map
+- control-plane-map
+- runtime-map
+- cognitive-organism-map
+- agent-map
+- workflow-map
+- memory-memory-map
+- state-state-map
+- model-map
+- schema-map
+- observability-observability-map
+- test-map
+- cognitive-matrix-architecture
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 03-cognition-canon-moc
 aliases:
-- AMOS Cognition Canon - Cognition Canon - AMOS Reasoning Canon - AMOS Cognitive Integrity Can
+- AMOS Cognition Canon - Cognition Canon - AMOS Reasoning Canon - AMOS Cognitive Integrity
+  Can
 ---
-
 
 # AMOS Cognition Canon
 **Origin architect / steward:** Trang Phan

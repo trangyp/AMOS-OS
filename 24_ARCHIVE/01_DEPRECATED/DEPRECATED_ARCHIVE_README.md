@@ -6,13 +6,20 @@ tags:
 - amos_os
 - 24_archive
 - canon/archive
+- readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 01-deprecated-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # DEPRECATED ARCHIVE [[README]]
 

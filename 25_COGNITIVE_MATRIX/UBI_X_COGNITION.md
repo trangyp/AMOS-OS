@@ -12,20 +12,37 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_SPEC
 path: 25_COGNITIVE_MATRIX/UBI_X_COGNITION.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - ubi_x_cognition
-  - cognitive_pacing
-  - working_memory_governance
-  - biological_cognitive_coupling
-  - reasoning_depth
-  - distress_veto
-  - emergency_state
-  - 40hz
-  - rscf
-  - canon_candidate
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- ubi_x_cognition
+- cognitive_pacing
+- working_memory_governance
+- biological_cognitive_coupling
+- reasoning_depth
+- distress_veto
+- emergency_state
+- 40hz
+- rscf
+- canon_candidate
+- ubi-x-cognition-matrix
+- ubi-cognition-binding
+- unified-biological-intelligence
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- 25-cognitive-matrix-moc
+- amos-mind-os-framework
+- total-framework-matrix
+- total-kernel-matrix
+- total-canon-matrix
+- k-rscf
+- k-hml
+- k-provenance
+- k-fail-closed
+- k-governed-evolution
+- amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -38,20 +55,23 @@ rscf:
   state: CANON_SPEC
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - COGNITIVE_INTEGRATION
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - COGNITIVE_INTEGRATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
-    artifact: [[UBI_X_COGNITION_MATRIX]]
+    artifact:
+    - - UBI_X_COGNITION_MATRIX
   knowledge_binding:
-    artifact: [[UBI_COGNITION_BINDING]]
+    artifact:
+    - - UBI_COGNITION_BINDING
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   specification_structure: VERIFIED_SOURCE_STRUCTURE

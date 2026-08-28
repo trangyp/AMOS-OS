@@ -6,13 +6,28 @@ tags:
 - amos_os
 - 06_agents
 - canon/agent
+- agents
+- readme
+- agent-map
+- index-agents-agent-contract
+- 00-home
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # INDEX [[AGENTS]] [[README]]
 

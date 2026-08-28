@@ -6,13 +6,16 @@ tags:
 - moc
 - amos-c02-math-compute-master
 - canon/skill
+- agent-template
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-C02-Math-Compute-Master — Map of Content
 

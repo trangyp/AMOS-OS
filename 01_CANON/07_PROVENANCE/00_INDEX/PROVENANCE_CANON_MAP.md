@@ -15,6 +15,13 @@ tags:
 - provenance
 - navigation
 - canon/universe
+- canon-provenance-map
+- 00-home
+- amos-rscf-nodes
+- 00-root-moc
+- amos-moc
+- index-provenance-canon-readme
+- 00-index-moc
 title: PROVENANCE CANON MAP
 rscf:
   state: DERIVED
@@ -22,7 +29,6 @@ rscf:
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # PROVENANCE [[CANON]] MAP
 

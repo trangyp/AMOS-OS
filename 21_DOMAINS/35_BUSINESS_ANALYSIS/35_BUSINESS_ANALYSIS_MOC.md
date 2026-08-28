@@ -6,13 +6,16 @@ tags:
 - moc
 - 35-business-analysis
 - canon/domain
+- business-analysis-domains-readme
+- domains-business-analysis-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 35 Business Analysis — Map of Content
 

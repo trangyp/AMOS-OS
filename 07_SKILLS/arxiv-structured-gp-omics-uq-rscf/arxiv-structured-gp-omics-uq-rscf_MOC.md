@@ -6,13 +6,15 @@ tags:
 - moc
 - arxiv-structured-gp-omics-uq-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Arxiv-Structured-Gp-Omics-Uq-Rscf — Map of Content
 

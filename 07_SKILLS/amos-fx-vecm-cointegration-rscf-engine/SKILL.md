@@ -4,7 +4,9 @@ title: SKILL — Amos Fx Vecm Cointegration Rscf Engine
 type: skill
 source: 07_SKILLS/amos-fx-vecm-cointegration-rscf-engine
 name: amos-fx-vecm-cointegration-rscf-engine
-description: Vecm Cointegration — forex and finance capability. Use when forex analysis, currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside fx domain.
+description: Vecm Cointegration — forex and finance capability. Use when forex analysis,
+  currency trading, or market dynamics. Use when amos-c07-econ-finance-master routes
+  to this specialized capability. Do not use for generic tasks outside fx domain.
 parent_skill: amos-c07-econ-finance-master
 domain: fx
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-fx-vecm-cointegration-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

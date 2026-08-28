@@ -1,11 +1,11 @@
 ---
 title: INDEX MODELS MODEL CONTRACT
 aliases:
-  - Models Model Contract
-  - Models Index Contract
-  - Model Index Contract
-  - AMOS Models Index Contract
-  - 13 Models Model Contract
+- Models Model Contract
+- Models Index Contract
+- Model Index Contract
+- AMOS Models Index Contract
+- 13 Models Model Contract
 type: index
 artifact_type: index_contract
 contract_type: model_index_contract
@@ -26,73 +26,99 @@ automated_link_integrity: PARTIAL
 artifact_specific_validation: UNKNOWN/GAP
 executable_binding: NOT_ESTABLISHED
 scope:
-  - "index_navigation"
-  - "models_plane"
-  - "model_discovery"
-  - "model_resolution"
-  - "model_relationship_navigation"
+- index_navigation
+- models_plane
+- model_discovery
+- model_resolution
+- model_relationship_navigation
 resolution_policy:
   local: BASENAME_WITHIN_OWN_DIRECTORY
   cross_plane:
-    - "[[00_HOME]]"
-    - "[[AMOS_RSCF_NODES]]"
+  - '[[00_HOME]]'
+  - '[[AMOS_RSCF_NODES]]'
 tags:
-  - amos_os
-  - 13_models
-  - 00_index
-  - models
-  - model
-  - model-contract
-  - models-index
-  - index
-  - index-contract
-  - model-index
-  - navigation
-  - index-navigation
-  - model-navigation
-  - model-discovery
-  - model-resolution
-  - basename-resolution
-  - cross-plane-resolution
-  - cross-plane-navigation
-  - model-map
-  - rscf
-  - rscf-node
-  - rscf-index
-  - provenance
-  - dependency
-  - dependency-closure
-  - scope
-  - regime
-  - hml
-  - h-m-l
-  - authority
-  - authorization
-  - capability
-  - proposal
-  - commit
-  - fail-closed
-  - unknown-gap
-  - selective-invalidation
-  - rollback
-  - receipt
-  - validation
-  - validation-receipt
-  - link-integrity
-  - routing
-  - governance
-  - model-governance
-  - model-provenance
-  - model-versioning
-  - model-scope
-  - model-regime
-  - model-falsifier
-  - model-assumptions
-  - competing-models
-  - epistemic-regime
-  - canon/model
-  - conditional-canon
-  - amos-model
+- amos_os
+- 13_models
+- 00_index
+- models
+- model
+- model-contract
+- models-index
+- index
+- index-contract
+- model-index
+- navigation
+- index-navigation
+- model-navigation
+- model-discovery
+- model-resolution
+- basename-resolution
+- cross-plane-resolution
+- cross-plane-navigation
+- model-map
+- rscf
+- rscf-node
+- rscf-index
+- provenance
+- dependency
+- dependency-closure
+- scope
+- regime
+- hml
+- h-m-l
+- authority
+- authorization
+- capability
+- proposal
+- commit
+- fail-closed
+- unknown-gap
+- selective-invalidation
+- rollback
+- receipt
+- validation
+- validation-receipt
+- link-integrity
+- routing
+- governance
+- model-governance
+- model-provenance
+- model-versioning
+- model-scope
+- model-regime
+- model-falsifier
+- model-assumptions
+- competing-models
+- epistemic-regime
+- canon/model
+- conditional-canon
+- amos-model
+- 00-home
+- amos-rscf-nodes
+- index-models-readme
+- readme
+- model-x
+- nonexistent-model
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- 13-models-moc
+- model-indexing
+- local-basename-resolution
+- cross-plane-model-resolution
+- model-identity
+- model-version-resolution
+- model-provenance-preservation
+- index-link-integrity
+- model-index-mutation
+- selective-index-invalidation
+- 00-index-moc
+- references
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -4046,17 +4072,17 @@ RSCF-RELATIONS:
   - VALIDATION_PATTERN_REFERENCE: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
   - VALIDATION_PATTERN_REFERENCE: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-  - GOVERNS_CONCEPT: MODEL_INDEXING
-  - GOVERNS_CONCEPT: LOCAL_BASENAME_RESOLUTION
-  - GOVERNS_CONCEPT: CROSS_PLANE_MODEL_RESOLUTION
-  - GOVERNS_CONCEPT: MODEL_DISCOVERY
-  - GOVERNS_CONCEPT: MODEL_NAVIGATION
-  - GOVERNS_CONCEPT: MODEL_IDENTITY
-  - GOVERNS_CONCEPT: MODEL_VERSION_RESOLUTION
-  - GOVERNS_CONCEPT: MODEL_PROVENANCE_PRESERVATION
-  - GOVERNS_CONCEPT: INDEX_LINK_INTEGRITY
-  - GOVERNS_CONCEPT: MODEL_INDEX_MUTATION
-  - GOVERNS_CONCEPT: SELECTIVE_INDEX_INVALIDATION
+  - GOVERNS_CONCEPT: [[MODEL_INDEXING]]
+  - GOVERNS_CONCEPT: [[LOCAL_BASENAME_RESOLUTION]]
+  - GOVERNS_CONCEPT: [[CROSS_PLANE_MODEL_RESOLUTION]]
+  - GOVERNS_CONCEPT: [[MODEL_DISCOVERY]]
+  - GOVERNS_CONCEPT: [[MODEL_NAVIGATION]]
+  - GOVERNS_CONCEPT: [[MODEL_IDENTITY]]
+  - GOVERNS_CONCEPT: [[MODEL_VERSION_RESOLUTION]]
+  - GOVERNS_CONCEPT: [[MODEL_PROVENANCE_PRESERVATION]]
+  - GOVERNS_CONCEPT: [[INDEX_LINK_INTEGRITY]]
+  - GOVERNS_CONCEPT: [[MODEL_INDEX_MUTATION]]
+  - GOVERNS_CONCEPT: [[SELECTIVE_INDEX_INVALIDATION]]
 ```
 
 ---

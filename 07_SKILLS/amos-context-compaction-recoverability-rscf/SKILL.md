@@ -4,7 +4,10 @@ title: SKILL — Amos Context Compaction Recoverability Rscf
 type: skill
 source: 07_SKILLS/amos-context-compaction-recoverability-rscf
 name: amos-context-compaction-recoverability-rscf
-description: Context Compaction Recoverability — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability. Do not use for generic tasks outside boundary domain.
+description: Context Compaction Recoverability — boundary and scope capability. Use
+  when evaluating scope boundaries, context continuity, or capability bounds. Use
+  when amos-boundary-scope-master routes to this specialized capability. Do not use
+  for generic tasks outside boundary domain.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-context-compaction-recoverability-rscf-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

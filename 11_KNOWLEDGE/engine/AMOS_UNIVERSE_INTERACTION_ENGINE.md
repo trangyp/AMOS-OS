@@ -16,14 +16,17 @@ tags:
 - pointer
 - engine
 - canon/knowledge
+- engine-moc
+- knowledge-moc
+- kernel-moc
+- 00-home
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
-
 
 # AMOS Universe Interaction Engine (UIE)
 
@@ -48,3 +51,7 @@ This note is a **link-resolution anchor**, not an independent architecture claim
 
 ---
 **Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

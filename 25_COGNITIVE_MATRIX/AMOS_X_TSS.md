@@ -12,25 +12,32 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - matrix
-  - 25_cognitive_matrix
-  - tss
-  - tpe
-  - tss_tpe
-  - trang_system
-  - trang_prediction_engine
-  - strategic_analysis
-  - prediction
-  - decision_intelligence
-  - scenario_analysis
-  - uncertainty
-  - competing_hypotheses
-  - provenance
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- tss
+- tpe
+- tss_tpe
+- trang_system
+- trang_prediction_engine
+- strategic_analysis
+- prediction
+- decision_intelligence
+- scenario_analysis
+- uncertainty
+- competing_hypotheses
+- provenance
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- amos-x-tss-tpe-matrix
+- 25-cognitive-matrix-moc
+- canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,15 +52,15 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TSS_NATIVE_SOURCE
-    - TPE_NATIVE_SOURCE
-    - TSS_X_TPE_NATIVE_SOURCE
-    - AMOS_CORPUS
+  - TSS_NATIVE_SOURCE
+  - TPE_NATIVE_SOURCE
+  - TSS_X_TPE_NATIVE_SOURCE
+  - AMOS_CORPUS
   scope:
-    - AMOS_COGNITIVE_MATRIX
-    - TSS
-    - TPE
-    - TSS_X_TPE
+  - AMOS_COGNITIVE_MATRIX
+  - TSS
+  - TPE
+  - TSS_X_TPE
 source_bindings:
   tss:
     title: The Trang System™ (TSS) – Official Manual

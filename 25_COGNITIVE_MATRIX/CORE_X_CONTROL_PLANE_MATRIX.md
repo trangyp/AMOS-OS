@@ -12,43 +12,63 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - core_x_control_plane_matrix
-  - matrix_table
-  - cross_plane
-  - routing_matrix
-  - control_plane
-  - canon_plane
-  - authority_envelopes
-  - control_harnesses
-  - integrity
-  - reality
-  - cognition
-  - governance
-  - state_validation
-  - telemetry
-  - prompt_harness
-  - skill_harness
-  - multi_agent_dispatcher
-  - enforcement_gates
-  - provenance
-  - scope
-  - regime
-  - authority
-  - capability
-  - rscf
-  - proof_capsules
-  - dependency_closure
-  - causal_epoch
-  - mvcc
-  - cas
-  - shard_local_finalization
-  - proof_based_coordination_avoidance
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- core_x_control_plane_matrix
+- matrix_table
+- cross_plane
+- routing_matrix
+- control_plane
+- canon_plane
+- authority_envelopes
+- control_harnesses
+- integrity
+- reality
+- cognition
+- governance
+- state_validation
+- telemetry
+- prompt_harness
+- skill_harness
+- multi_agent_dispatcher
+- enforcement_gates
+- provenance
+- scope
+- regime
+- authority
+- capability
+- rscf
+- proof_capsules
+- dependency_closure
+- causal_epoch
+- mvcc
+- cas
+- shard_local_finalization
+- proof_based_coordination_avoidance
+- canon_candidate
+- canon/matrix
+- core-x-control-plane
+- 25-cognitive-matrix-moc
+- skill
+- validation
+- 01-canon-moc
+- 03-control-plane-moc
+- canon
+- l0-integrity
+- 00-home
+- amos-rscf-nodes
+- task-contract
+- capability-resolver
+- k-rscf
+- k-hml
+- k-gmef
+- k-provenance
+- k-provenance-topology
+- k-capability-authorization
+- k-commit-time-authority
+- amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -65,21 +85,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE
-    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-    - 01_CANON/01_CANON_MOC
-    - AMOS_CORPUS
+  - 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE
+  - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+  - 01_CANON/01_CANON_MOC
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - CORE_CONTROL_PLANE_ROUTING
-    - AUTHORITY_ENVELOPE_ROUTING
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - CROSS_PLANE_MATRIX_TABLE
+  - CORE_CONTROL_PLANE_ROUTING
+  - AUTHORITY_ENVELOPE_ROUTING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
-    artifact: [[CORE_X_CONTROL_PLANE]]
+    artifact:
+    - - CORE_X_CONTROL_PLANE
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
   control_plane:
     artifact: 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
   canon_plane:

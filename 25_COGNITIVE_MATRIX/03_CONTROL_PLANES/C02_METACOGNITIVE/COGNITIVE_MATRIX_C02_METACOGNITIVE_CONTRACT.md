@@ -8,13 +8,19 @@ tags:
 - c02_metacognitive
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- cognitive-matrix-control-planes-contract
+- c02-metacognitive-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C02_METACOGNITIVE — Monitors cognition itself: loop detection, drift alarms, interrupt taxonomy.
 

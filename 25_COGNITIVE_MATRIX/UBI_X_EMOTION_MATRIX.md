@@ -12,21 +12,39 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - ubi_x_emotion_matrix
-  - matrix_table
-  - affective_state
-  - cognitive_control
-  - cross_plane
-  - emotional_governance
-  - refusal_firewall
-  - metabolic_pacing
-  - gamma_coherence
-  - rscf
-  - canon_candidate
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- ubi_x_emotion_matrix
+- matrix_table
+- affective_state
+- cognitive_control
+- cross_plane
+- emotional_governance
+- refusal_firewall
+- metabolic_pacing
+- gamma_coherence
+- rscf
+- canon_candidate
+- ubi-x-emotion
+- ubi-emotion-binding
+- validation
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- 25-cognitive-matrix-moc
+- ubi-x-cognition
+- ubi-x-cognition-matrix
+- total-framework-matrix
+- total-kernel-matrix
+- total-canon-matrix
+- k-rscf
+- k-hml
+- k-provenance
+- k-fail-closed
+- k-governed-evolution
+- amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -37,21 +55,23 @@ validation_status: PASSED_CONSTITUTIONAL_TESTS
 executable_binding: ESTABLISHED
 framework_binding:
   matrix_spec:
-    artifact: [[UBI_X_EMOTION]]
+    artifact:
+    - - UBI_X_EMOTION
   knowledge_binding:
-    artifact: [[UBI_EMOTION_BINDING]]
+    artifact:
+    - - UBI_EMOTION_BINDING
 rscf:
   state: CANON_MATRIX
   claim_class: AMOS_MODEL
   provenance:
-    - 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING
-    - AMOS_CORPUS
+  - 25_COGNITIVE_MATRIX/UBI_X_EMOTION_MATRIX
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - EMOTION_COGNITION_INTEGRATION
-    - CROSS_PLANE_ROUTING
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - EMOTION_COGNITION_INTEGRATION
+  - CROSS_PLANE_ROUTING
+  - SOURCE_DEFINED_MODEL
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

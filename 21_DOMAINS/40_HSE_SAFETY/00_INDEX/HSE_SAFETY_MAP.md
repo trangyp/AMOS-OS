@@ -6,13 +6,27 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- hse-safety-domains-hse-safety-contract
+- index-hse-safety-domains-readme
+- 00-root-map
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # HSE SAFETY MAP
 

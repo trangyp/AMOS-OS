@@ -17,28 +17,47 @@ artifact_kind: README
 package_role: KERNEL_SEGMENT_ORIENTATION_AND_INTEGRATION_MAP
 path: 02_KERNEL/01_META_LOGIC/META_LOGIC_KERNEL_README.md
 tags:
-  - amos_os
-  - kernel
-  - core
-  - 02_kernel
-  - meta_logic
-  - kernel/meta_logic
-  - canon/kernel
-  - package_readme
-  - integration_map
-  - rscf
-  - hml
-  - provenance
-  - epistemic
-  - causality
-  - state
-  - memory
-  - authority
-  - risk_repair
-  - governance
-  - validation
-  - recovery
-  - trang_framework
+- amos_os
+- kernel
+- core
+- 02_kernel
+- meta_logic
+- kernel/meta_logic
+- canon/kernel
+- package_readme
+- integration_map
+- rscf
+- hml
+- provenance
+- epistemic
+- causality
+- state
+- memory
+- authority
+- risk_repair
+- governance
+- validation
+- recovery
+- trang_framework
+- readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- kernel-readme
+- kernel-meta-logic-contract
+- k-core19-logic
+- k-distinction-relation-constraint
+- k-law-hierarchy
+- k-meta-logic
+- law-hierarchy
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 01-meta-logic-moc
+- trang-framework-recursive-ontology-dynamics
 version: 0.2.0
 updated: '2026-08-27'
 status: AMOS_MODEL

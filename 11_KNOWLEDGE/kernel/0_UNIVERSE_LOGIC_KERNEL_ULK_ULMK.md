@@ -7,6 +7,8 @@ tags:
 - ulk
 - ulmk.md
 - ulmk
+- kernel-moc
+- 00-home
 ---
 
 # 0 UNIVERSE LOGIC KERNEL ULK ULMK
@@ -5657,3 +5659,7 @@ PreserveItsGaps
 $$
 
 rather than converting the ambition into unsupported certainty.
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

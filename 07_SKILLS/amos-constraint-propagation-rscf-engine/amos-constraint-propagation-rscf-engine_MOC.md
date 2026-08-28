@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-constraint-propagation-rscf-engine
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Constraint-Propagation-Rscf-Engine — Map of Content
 

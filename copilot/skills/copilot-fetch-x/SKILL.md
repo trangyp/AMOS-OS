@@ -1,12 +1,18 @@
 ---
 name: copilot-fetch-x
-description: Fetch the content of an X (Twitter) post using Copilot Plus. Use when the user shares an x.com or twitter.com URL and wants its text or context. Requires an active Copilot Plus license.
+description: Fetch the content of an X (Twitter) post using Copilot Plus. Use when
+  the user shares an x.com or twitter.com URL and wants its text or context. Requires
+  an active Copilot Plus license.
 language: en
 license: Copilot Plus
 metadata:
   steward: Trang Phan
   copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: "6"
+  copilot-builtin-version: '6'
+tags:
+- skill
+- 00-root-moc
+- 00-home
 ---
 
 # Copilot fetch X
@@ -44,3 +50,7 @@ refuse or block the user. Only mention upgrading or renewing Copilot Plus when
 the script's message explicitly invites it, and keep any such note short and
 friendly.
 
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

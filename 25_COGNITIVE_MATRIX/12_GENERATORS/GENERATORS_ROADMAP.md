@@ -12,18 +12,25 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: ROADMAP
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_ROADMAP.md
 tags:
-  - 12_generators
-  - 25_cognitive_matrix
-  - amos_os
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive_matrix
-  - generators
-  - generators_roadmap.md
-  - note
-  - roadmap
-  - rscf
-  - placeholder_expanded
+- 12_generators
+- 25_cognitive_matrix
+- amos_os
+- canon/cognitive-matrix
+- canon/universe
+- cognitive_matrix
+- generators
+- generators_roadmap.md
+- note
+- roadmap
+- rscf
+- placeholder_expanded
+- 00-root-moc
+- amos-moc
+- 00-home
+- generators-map
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 12-generators-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -42,7 +49,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-symbolic-translation-repair-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Symbolic-Translation-Repair-Rscf — Map of Content
 

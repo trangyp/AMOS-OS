@@ -6,6 +6,9 @@ tags:
 - moc
 - attachments
 - canon/root
+- amos-home
+- attachments-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

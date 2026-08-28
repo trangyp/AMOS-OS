@@ -6,13 +6,14 @@ tags:
 - moc
 - 37-uncertainty-modes
 - canon/control-plane
+- 09-commit-moc
+- uncertainty-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 37 Uncertainty Modes — Map of Content
 

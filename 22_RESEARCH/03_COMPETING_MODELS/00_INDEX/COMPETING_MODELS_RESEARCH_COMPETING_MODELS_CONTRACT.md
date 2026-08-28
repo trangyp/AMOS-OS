@@ -6,13 +6,20 @@ tags:
 - amos_os
 - 22_research
 - canon/research
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- index-competing-models-research-readme
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # COMPETING MODELS RESEARCH COMPETING MODELS CONTRACT
 

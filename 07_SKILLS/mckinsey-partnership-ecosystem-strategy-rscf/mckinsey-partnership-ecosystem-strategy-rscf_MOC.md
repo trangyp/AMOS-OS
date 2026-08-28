@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-partnership-ecosystem-strategy-
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Partnership-Ecosystem-Strategy-Rscf — Map of Content
 

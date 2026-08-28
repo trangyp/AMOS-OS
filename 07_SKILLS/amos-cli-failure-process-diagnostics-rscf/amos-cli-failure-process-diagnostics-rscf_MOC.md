@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-cli-failure-process-diagnostics-rsc
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Cli-Failure-Process-Diagnostics-Rscf — Map of Content
 

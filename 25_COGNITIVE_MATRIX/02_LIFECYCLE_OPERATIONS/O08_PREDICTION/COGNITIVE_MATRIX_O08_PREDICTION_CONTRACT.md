@@ -8,13 +8,19 @@ tags:
 - o08_prediction
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- o08-prediction-moc
+- cognitive-matrix-lifecycle-operations-contract
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O08_PREDICTION — O08 Prediction
 

@@ -12,18 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTELLIGENCE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/DIRECTED_SYSTEMAL_INTELLIGENCE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - directed_systemal_intelligence
-  - goal_directed_systems
-  - teleological_architecture
-  - alignment
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- directed_systemal_intelligence
+- goal_directed_systems
+- teleological_architecture
+- alignment
+- rscf
+- canon_candidate
+- canon/knowledge
+- cognitive-systems-architecture
+- amos-mind-os-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,24 +43,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - GOAL_DRIVEN_AI_ARCHITECTURE_GENERATOR_V2
-    - AMOS_CORPUS
+  - GOAL_DRIVEN_AI_ARCHITECTURE_GENERATOR_V2
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DIRECTED_INTELLIGENCE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - DIRECTED_INTELLIGENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   cognitive_systems:
-    artifact: [[COGNITIVE_SYSTEMS_ARCHITECTURE]]
+    artifact:
+    - - COGNITIVE_SYSTEMS_ARCHITECTURE
   mind_os:
-    artifact: [[AMOS_MIND_OS_FRAMEWORK]]
+    artifact:
+    - - AMOS_MIND_OS_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   teleological_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Directed Systemal Intelligence
 

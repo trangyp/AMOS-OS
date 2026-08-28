@@ -6,13 +6,20 @@ tags:
 - moc
 - 24-archive
 - canon/archive
+- archive-archive-contract
+- archive-readme
+- 00-index-moc
+- 00-legacy-moc
+- 01-deprecated-moc
+- 02-superseded-moc
+- 03-experimental-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 24 Archive — Map of Content
 

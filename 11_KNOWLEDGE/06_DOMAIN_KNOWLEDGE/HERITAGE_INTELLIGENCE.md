@@ -12,19 +12,32 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_INTELLIGENCE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 06_domain_knowledge
-  - heritage_intelligence
-  - decision_governance
-  - civilizational_memory
-  - provenance
-  - trust_auditing
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 06_domain_knowledge
+- heritage_intelligence
+- decision_governance
+- civilizational_memory
+- provenance
+- trust_auditing
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- amos-x-heritage
+- amos-x-heritage-matrix
+- heritage-x-tss
+- heritage-x-tss-matrix
+- heritage-civilization-history
+- heritage-fractal-mathematics
+- heritage-pattern-systems
+- heritage-spatial-intelligence
+- heritage-music-acoustic-rules
+- 00-home
+- knowledge-moc
+- 06-domain-knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,29 +52,33 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DECISION_INTELLIGENCE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - DECISION_INTELLIGENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   parent_framework:
     name: Heritage Decision Intelligence™ Master
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   matrix_binding:
-    artifact: [[AMOS_X_HERITAGE]]
-    matrix: [[AMOS_X_HERITAGE_MATRIX]]
+    artifact:
+    - - AMOS_X_HERITAGE
+    matrix:
+    - - AMOS_X_HERITAGE_MATRIX
   tss_coupling:
-    artifact: [[HERITAGE_X_TSS]]
-    matrix: [[HERITAGE_X_TSS_MATRIX]]
+    artifact:
+    - - HERITAGE_X_TSS
+    matrix:
+    - - HERITAGE_X_TSS_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
   decision_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage Intelligence
 

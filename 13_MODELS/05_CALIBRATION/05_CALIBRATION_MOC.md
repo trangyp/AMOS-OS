@@ -6,13 +6,16 @@ tags:
 - moc
 - 05-calibration
 - canon/model
+- confidence-ceiling-calibration
+- provenance-independence-calibration
+- ubi-score-calibration
+- 13-models-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Calibration — Map of Content
 

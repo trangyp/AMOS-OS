@@ -5,6 +5,13 @@ tags:
 - core
 - runtime
 - canon/knowledge
+- memory
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- kernel-moc
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -13,6 +20,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS FOREX PACKAGES UKR RECURSIVE KERNEL
 
 """UKR recursive kernel – orchestrates the 17-stage pipeline.

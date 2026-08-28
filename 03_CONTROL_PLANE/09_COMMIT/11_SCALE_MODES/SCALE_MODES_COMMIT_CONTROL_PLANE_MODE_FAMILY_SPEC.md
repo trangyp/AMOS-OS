@@ -17,13 +17,17 @@ tags:
 - scale_modes
 - note
 - canon/control-plane
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 11-scale-modes-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 11_SCALE_MODES
 

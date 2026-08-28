@@ -12,21 +12,29 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi
-  - unified_biological_intelligence
-  - nbi
-  - nei
-  - si
-  - bei
-  - biological_logic
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi
+- unified_biological_intelligence
+- nbi
+- nei
+- si
+- bei
+- biological_logic
+- rscf
+- canon_candidate
+- canon/knowledge
+- amos-x-ubi
+- amos-x-ubi-matrix
+- neurosyncai-framework
+- neurosyncai-dual-system-architecture
+- tss-the-trang-system
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,28 +49,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_INTELLIGENCE
-    - SOURCE_DEFINED_UBI_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_INTELLIGENCE
+  - SOURCE_DEFINED_UBI_MODEL
 framework_binding:
   primary:
     name: Unified Biological Intelligence™
     acronym: UBI
     role: BIOLOGICAL_FOUNDATION_OF_INTELLIGENCE
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_UBI]]
-    matrix: [[AMOS_X_UBI_MATRIX]]
+    artifact:
+    - - AMOS_X_UBI
+    matrix:
+    - - AMOS_X_UBI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   domain_models: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Unified Biological Intelligence™ (UBI)
 

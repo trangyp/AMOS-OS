@@ -6,13 +6,14 @@ tags:
 - moc
 - 09-governance-modes
 - canon/control-plane
+- 09-commit-moc
+- governance-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 09 Governance Modes — Map of Content
 

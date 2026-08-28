@@ -6,13 +6,16 @@ tags:
 - moc
 - 07-emotion-regulation
 - canon/cognitive
+- amos-emotion-engine
+- biological-emotion-regulation
+- nei-engine
+- 05-cognitive-organism-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 07 Emotion Regulation — Map of Content
 

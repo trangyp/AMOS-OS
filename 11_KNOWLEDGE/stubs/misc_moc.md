@@ -4,8 +4,15 @@ tags:
 - stub
 - misc
 - moc
+- misc-moc
+- kernel-moc
+- 00-home
 ---
 
 # misc moc
 
 Stub note for [[misc_moc]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

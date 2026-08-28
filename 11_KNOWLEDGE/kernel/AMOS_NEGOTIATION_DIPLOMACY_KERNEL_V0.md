@@ -8,6 +8,7 @@ tags:
 - rscf/state/source-claim
 - topic/amos-negotiation-diplomacy-kernel-v0
 - kernel
+- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -16,6 +17,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS NEGOTIATION DIPLOMACY KERNEL V0
 
 ```json

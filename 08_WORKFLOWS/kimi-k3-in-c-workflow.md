@@ -2,13 +2,18 @@
 Type: Workflow
 Skill: kimi-k3-in-c
 Agent: amos-kimi-k3-in-c-agent
-Trigger: When the kimi-k3-in-c C99 inference engine needs building, testing, running, or diagnosing without requiring the full 1.56 TB checkpoint.
+Trigger: When the kimi-k3-in-c C99 inference engine needs building, testing, running,
+  or diagnosing without requiring the full 1.56 TB checkpoint.
 Version: 1.0.0
 title: Kimi K3 in C Workflow
 tags:
 - type/workflow
 - domain/tech-engineering
 - amos_os
+- skill
+- 08-workflows-moc
+- law-stack-enforcement-pipeline-moc
+- 00-home
 ---
 
 # Workflow: Kimi K3 in C
@@ -66,3 +71,7 @@ tags:
 ## Related
 
 - [[08_WORKFLOWS_MOC]]
+
+---
+
+**MOC:** [[law-stack-enforcement-pipeline_MOC]] · [[00_HOME]]

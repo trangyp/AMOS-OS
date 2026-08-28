@@ -8,6 +8,11 @@ tags:
 - resilience
 - fail_closed
 - rscf
+- 04-runtime-moc
+- 02-kernel-moc
+- heritage-x-trang-zero-matrix
+- 03-causal-moc
+- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE
@@ -27,3 +32,7 @@ rscf:
 - **Runtime:** [[04_RUNTIME_MOC]]
 - **Universal Kernel:** [[02_KERNEL_MOC]]
 - **Matrix Binding:** [[HERITAGE_X_TRANG_ZERO_MATRIX]]
+
+---
+
+**MOC:** [[03_CAUSAL_MOC]] · [[00_HOME]]

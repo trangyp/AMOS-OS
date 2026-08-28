@@ -6,13 +6,19 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 23-ubi-bei-bioelectromagnetic-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # UBI BEI BIOELECTROMAGNETIC DOMAINS DOMAIN SPEC
 

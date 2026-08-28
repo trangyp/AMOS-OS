@@ -8,6 +8,8 @@ tags:
 - rscf/state/observation
 - topic/amos-tech-architecture-kernel-v0
 - kernel
+- architecture
+- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -16,6 +18,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS TECH [[ARCHITECTURE]] KERNEL V0 TECH SYSTEMS7 4
 
 ```json

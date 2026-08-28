@@ -6,13 +6,32 @@ tags:
 - amos_os
 - 02_kernel
 - canon/kernel
+- readme
+- kernel-cognition-contract
+- k-cognition
+- k-counterfactual
+- k-metacognition
+- k-multi-hypothesis
+- k-structural-reasoning
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 02-cognition-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # COGNITION KERNEL [[README]]
 

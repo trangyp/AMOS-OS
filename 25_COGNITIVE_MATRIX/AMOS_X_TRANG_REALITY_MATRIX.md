@@ -12,34 +12,41 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - matrix
-  - 25_cognitive_matrix
-  - trang_reality_matrix
-  - trang_reality_architecture
-  - reality_architecture
-  - ontology
-  - recursive_architecture
-  - distinction
-  - relation
-  - constraint
-  - transformation
-  - memory
-  - entropy
-  - feedback
-  - persistence
-  - morphogenesis
-  - observer
-  - causality
-  - scale
-  - emergence
-  - viability
-  - reality_contact
-  - truth_maintenance
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- trang_reality_matrix
+- trang_reality_architecture
+- reality_architecture
+- ontology
+- recursive_architecture
+- distinction
+- relation
+- constraint
+- transformation
+- memory
+- entropy
+- feedback
+- persistence
+- morphogenesis
+- observer
+- causality
+- scale
+- emergence
+- viability
+- reality_contact
+- truth_maintenance
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 25-cognitive-matrix-moc
+- trang-reality-architecture
+- ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -54,44 +61,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_REALITY_ARCHITECTURE_CORPUS
-    - AMOS_CORPUS
+  - TRANG_REALITY_ARCHITECTURE_CORPUS
+  - AMOS_CORPUS
   scope:
-    - REALITY_ARCHITECTURE
-    - COGNITIVE_MATRIX
-    - CROSS_DOMAIN_STRUCTURAL_MODEL
+  - REALITY_ARCHITECTURE
+  - COGNITIVE_MATRIX
+  - CROSS_DOMAIN_STRUCTURAL_MODEL
 framework_binding:
-  cognitive_matrix_name:
-    "TRANG Reality Matrix"
-  native_source_name:
-    "Trang Reality Architecture"
-  relation:
-    "COGNITIVE_MATRIX_NORMALIZATION_OF_SOURCE_ARCHITECTURE"
+  cognitive_matrix_name: TRANG Reality Matrix
+  native_source_name: Trang Reality Architecture
+  relation: COGNITIVE_MATRIX_NORMALIZATION_OF_SOURCE_ARCHITECTURE
 epistemic_boundary:
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
-  architecture_presence:
-    VERIFIED_SOURCE_STRUCTURE
-  136_architecture_index:
-    VERIFIED_SOURCE_STRUCTURE
-  deepest_structural_spine:
-    SOURCE_DEFINED_MODEL
-  universal_ontology:
-    SOURCE_CLAIM
-  physical_truth:
-    NOT_ESTABLISHED
-  biological_truth:
-    NOT_ESTABLISHED_GLOBALLY
-  consciousness_truth:
-    NOT_ESTABLISHED
-  mathematical_theoremhood:
-    NOT_ESTABLISHED
-  empirical_unification:
-    NOT_ESTABLISHED
-  runtime_enforcement:
-    NOT_ESTABLISHED
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  architecture_presence: VERIFIED_SOURCE_STRUCTURE
+  136_architecture_index: VERIFIED_SOURCE_STRUCTURE
+  deepest_structural_spine: SOURCE_DEFINED_MODEL
+  universal_ontology: SOURCE_CLAIM
+  physical_truth: NOT_ESTABLISHED
+  biological_truth: NOT_ESTABLISHED_GLOBALLY
+  consciousness_truth: NOT_ESTABLISHED
+  mathematical_theoremhood: NOT_ESTABLISHED
+  empirical_unification: NOT_ESTABLISHED
+  runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # AMOS × TRANG Reality Matrix
 

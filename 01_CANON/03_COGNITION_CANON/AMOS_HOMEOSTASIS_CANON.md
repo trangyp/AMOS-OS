@@ -1,19 +1,17 @@
 ---
-title: "AMOS Homeostasis Canon"
+title: AMOS Homeostasis Canon
 type: canon
-source: "01_CANON/03_COGNITION_CANON"
-artifact: "AMOS_HOMEOSTASIS_CANON.md"
-artifact_id: "amos_01_canon_03_cognition_canon_amos_homeostasis_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/03_COGNITION_CANON"
-artifact_kind: "CANON"
-path: "01_CANON/03_COGNITION_CANON/AMOS_HOMEOSTASIS_CANON.md"
-
+source: 01_CANON/03_COGNITION_CANON
+artifact: AMOS_HOMEOSTASIS_CANON.md
+artifact_id: amos_01_canon_03_cognition_canon_amos_homeostasis_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/03_COGNITION_CANON
+artifact_kind: CANON
+path: 01_CANON/03_COGNITION_CANON/AMOS_HOMEOSTASIS_CANON.md
 tags:
-
 - amos_os
 - amos_homeostasis
 - amos_homeostasis_canon
@@ -41,58 +39,73 @@ tags:
 - governed_evolution
 - competing_hypotheses
 - canon/universe
-
+- amos-os
+- 01-canon
+- 03-cognition-canon-moc
+- amos-cognition-canon
+- amos-emotion-canon
+- amos-consciousness-canon
+- amos-full-brain-os-canon
+- amos-full-brain-os-master-canon
+- amos-cognitive-field-canon
+- amos-cognition-master-canon
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- amos-homeostasis-canon
 aliases:
-
-- "AMOS Homeostasis Canon"
-- "AMOS Homeostasis"
-
-version: "0.2.0"
-updated: "2026-08-27"
-
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-
-native_definition_status: "NOT_ESTABLISHED"
-native_homeostasis_definition_status: "NOT_ESTABLISHED"
-native_homeostatic_variable_status: "NOT_ESTABLISHED"
-native_setpoint_status: "NOT_ESTABLISHED"
-native_target_range_status: "NOT_ESTABLISHED"
-native_error_signal_status: "NOT_ESTABLISHED"
-native_sensor_status: "NOT_ESTABLISHED"
-native_controller_status: "NOT_ESTABLISHED"
-native_effector_status: "NOT_ESTABLISHED"
-native_feedback_status: "NOT_ESTABLISHED"
-native_feedforward_status: "NOT_ESTABLISHED"
-native_equilibrium_status: "NOT_ESTABLISHED"
-native_stability_status: "NOT_ESTABLISHED"
-native_adaptation_status: "NOT_ESTABLISHED"
-native_allostasis_status: "NOT_ESTABLISHED"
-native_dynamics_status: "NOT_ESTABLISHED"
-native_equation_status: "NOT_ESTABLISHED"
-native_measurement_status: "NOT_ESTABLISHED"
-native_causal_status: "NOT_ESTABLISHED"
-native_biological_status: "NOT_ESTABLISHED"
-native_cognition_relation_status: "NOT_ESTABLISHED"
-native_emotion_relation_status: "NOT_ESTABLISHED"
-native_attention_relation_status: "NOT_ESTABLISHED"
-native_agency_relation_status: "NOT_ESTABLISHED"
-native_consciousness_relation_status: "NOT_ESTABLISHED"
-native_full_brain_os_relation_status: "NOT_ESTABLISHED"
-native_rscf_binding_status: "NOT_ESTABLISHED"
-native_hml_binding_status: "NOT_ESTABLISHED"
-native_scope_status: "NOT_ESTABLISHED"
-native_regime_status: "NOT_ESTABLISHED"
-native_temporal_status: "NOT_ESTABLISHED"
-native_dependency_status: "NOT_ESTABLISHED"
-native_provenance_status: "PARTIALLY_SOURCE_SUPPORTED"
-provenance_independence_status: "NOT_ESTABLISHED"
-
+- AMOS Homeostasis Canon
+- AMOS Homeostasis
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+native_definition_status: NOT_ESTABLISHED
+native_homeostasis_definition_status: NOT_ESTABLISHED
+native_homeostatic_variable_status: NOT_ESTABLISHED
+native_setpoint_status: NOT_ESTABLISHED
+native_target_range_status: NOT_ESTABLISHED
+native_error_signal_status: NOT_ESTABLISHED
+native_sensor_status: NOT_ESTABLISHED
+native_controller_status: NOT_ESTABLISHED
+native_effector_status: NOT_ESTABLISHED
+native_feedback_status: NOT_ESTABLISHED
+native_feedforward_status: NOT_ESTABLISHED
+native_equilibrium_status: NOT_ESTABLISHED
+native_stability_status: NOT_ESTABLISHED
+native_adaptation_status: NOT_ESTABLISHED
+native_allostasis_status: NOT_ESTABLISHED
+native_dynamics_status: NOT_ESTABLISHED
+native_equation_status: NOT_ESTABLISHED
+native_measurement_status: NOT_ESTABLISHED
+native_causal_status: NOT_ESTABLISHED
+native_biological_status: NOT_ESTABLISHED
+native_cognition_relation_status: NOT_ESTABLISHED
+native_emotion_relation_status: NOT_ESTABLISHED
+native_attention_relation_status: NOT_ESTABLISHED
+native_agency_relation_status: NOT_ESTABLISHED
+native_consciousness_relation_status: NOT_ESTABLISHED
+native_full_brain_os_relation_status: NOT_ESTABLISHED
+native_rscf_binding_status: NOT_ESTABLISHED
+native_hml_binding_status: NOT_ESTABLISHED
+native_scope_status: NOT_ESTABLISHED
+native_regime_status: NOT_ESTABLISHED
+native_temporal_status: NOT_ESTABLISHED
+native_dependency_status: NOT_ESTABLISHED
+native_provenance_status: PARTIALLY_SOURCE_SUPPORTED
+provenance_independence_status: NOT_ESTABLISHED
 rscf:
   state: DERIVED
   claim_class: DERIVED

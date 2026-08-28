@@ -6,12 +6,18 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-    - internal
+  - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
 - reference
 - references
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 canon-group: canon/skills
 ---
 

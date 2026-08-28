@@ -6,8 +6,15 @@ tags:
 - orchestrator
 - routing
 - kernel
+- amos-orchestrator-routing-kernel
+- kernel-moc
+- 00-home
 ---
 
 # amos orchestrator routing kernel
 
 Stub note for [[amos_orchestrator_routing_kernel]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

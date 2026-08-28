@@ -6,6 +6,13 @@ tags:
 - moc
 - references
 - canon/skill
+- amos-home
+- references-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
+- 07-skills-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

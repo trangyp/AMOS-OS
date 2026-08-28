@@ -12,36 +12,60 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - matrix
-  - 25_cognitive_matrix
-  - heritage
-  - heritage_decision_intelligence
-  - tss
-  - trang_system
-  - heritage_tss_matrix
-  - decision_routing
-  - governance
-  - lifecycle_matrix
-  - cycle_governance
-  - risk_lattice
-  - cycle_location
-  - trust
-  - identity
-  - timing
-  - readiness
-  - self_refutation
-  - rollback
-  - preservation
-  - adversarial_pass
-  - authority_warrant
-  - decision_receipt
-  - fail_closed
-  - hold
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- heritage
+- heritage_decision_intelligence
+- tss
+- trang_system
+- heritage_tss_matrix
+- decision_routing
+- governance
+- lifecycle_matrix
+- cycle_governance
+- risk_lattice
+- cycle_location
+- trust
+- identity
+- timing
+- readiness
+- self_refutation
+- rollback
+- preservation
+- adversarial_pass
+- authority_warrant
+- decision_receipt
+- fail_closed
+- hold
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- heritage-x-tss
+- validation
+- adversarial-validation
+- tss-the-trang-system-official-manual
+- amos-x-tss
+- canon
+- amos-x-tss-tpe-matrix
+- amos-x-tpe
+- heritage-x-trang-zero
+- 00-home
+- amos-rscf-nodes
+- 25-cognitive-matrix-moc
+- k-rscf
+- k-hml
+- k-gmef
+- k-provenance
+- k-provenance-topology
+- k-failure-recovery
+- k-causal-epoch
+- k-mvcc
+- k-cas
+- k-atomic-multi-rscf
+- amos-core-v4-4
+- diagnosis
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -58,48 +82,38 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - DECISION_ROUTING
-    - MATRIX_TRAVERSAL
-    - CYCLE_GOVERNANCE
-    - RISK_LATTICE
-    - COGNITIVE_MATRIX
+  - DECISION_ROUTING
+  - MATRIX_TRAVERSAL
+  - CYCLE_GOVERNANCE
+  - RISK_LATTICE
+  - COGNITIVE_MATRIX
 framework_binding:
   artifact:
     name: Heritage × TSS
-    artifact_ref: [[HERITAGE_X_TSS]]
+    artifact_ref:
+    - - HERITAGE_X_TSS
   heritage:
     name: Heritage Decision Intelligence™
     role: DECISION_INTELLIGENCE_AND_GOVERNANCE
   tss:
     name: The Trang System™
     role: CYCLE_AND_SYSTEM_STATE_FRAMEWORK
-  role:
-    MULTIDIMENSIONAL_DECISION_ROUTING_MATRIX
+  role: MULTIDIMENSIONAL_DECISION_ROUTING_MATRIX
 epistemic_boundary:
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
-  framework_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  matrix_cells:
-    SOURCE_DEFINED_MODEL
-  traversal_protocol:
-    SOURCE_DEFINED_MODEL
-  decision_rules:
-    SOURCE_DEFINED_MODEL
-  cycle_diagnosis:
-    SOURCE_DEFINED_MODEL
-  risk_lattice:
-    SOURCE_DEFINED_MODEL
-  runtime_enforcement:
-    NOT_ESTABLISHED
-  empirical_validation:
-    NOT_ESTABLISHED
-  formal_verification:
-    NOT_ESTABLISHED
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  framework_structure: VERIFIED_SOURCE_STRUCTURE
+  matrix_cells: SOURCE_DEFINED_MODEL
+  traversal_protocol: SOURCE_DEFINED_MODEL
+  decision_rules: SOURCE_DEFINED_MODEL
+  cycle_diagnosis: SOURCE_DEFINED_MODEL
+  risk_lattice: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  formal_verification: NOT_ESTABLISHED
 ---
 
 # Heritage × TSS Matrix

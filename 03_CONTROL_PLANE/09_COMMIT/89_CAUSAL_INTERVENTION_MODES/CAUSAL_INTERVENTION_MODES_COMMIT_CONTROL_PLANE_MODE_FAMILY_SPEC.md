@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 89_causal_intervention_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 89-causal-intervention-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # CAUSAL INTERVENTION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 

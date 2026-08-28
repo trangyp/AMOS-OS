@@ -4,7 +4,10 @@ title: SKILL — Amos Transformation Quest Engine
 type: skill
 source: 07_SKILLS/amos-transformation-quest-engine
 name: amos-transformation-quest-engine
-description: Transformation Quest Engine — super engines capability. Use when super-engine reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master routes to this specialized capability. Do not use for generic tasks outside super domain.
+description: Transformation Quest Engine — super engines capability. Use when super-engine
+  reasoning, consciousness emulation, or mega-engine analysis. Use when amos-super-engines-master
+  routes to this specialized capability. Do not use for generic tasks outside super
+  domain.
 parent_skill: amos-super-engines-master
 domain: super
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-transformation-quest-engine-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -3,7 +3,8 @@ type: registry
 source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-SYMBOL-REGISTRY
 name: SYMBOL_REGISTRY
-title: AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic Identity
+title: AMOS Symbol Registry — Canonical Symbols, Operators, Types, States, and Semantic
+  Identity
 document_version: 1.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -47,10 +48,34 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/symbol-registry
+- readme
+- architecture
+- 00-root-naming-standard
+- placement-rules
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- hml-canon
+- persistence-canon
+- authority-canon
+- control-plane-canon
+- infrastructure-canon
+- kernel-map
+- control-plane-map
+- amos-full-brain-os-architecture
+- schema-map
+- observability-observability-map
+- operating-model
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 05-variable-registry-moc
 aliases:
-- AMOS Symbol Registry - Symbol Registry - AMOS Notation Registry - AMOS Semantic Symbol Table
+- AMOS Symbol Registry - Symbol Registry - AMOS Notation Registry - AMOS Semantic
+  Symbol Table
 ---
-
 
 # AMOS Symbol Registry
 **Origin architect / steward:** Trang Phan

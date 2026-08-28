@@ -7,12 +7,19 @@ tags:
 - capability
 - note
 - canon/control-plane
+- capability-manifest
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 02-capability-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 # CAPABILITY RESOLVER
 
 The current Drive artifact `CAPABILITY_RESOLVER.md` is **not substantive canon**. It contains the same misplaced `# K COUNTERFACTUAL` placeholder and explicitly says it is only reserving the canonical location.  The architecture tree places it with `CAPABILITY_CONTRACT.md` and `CAPABILITY_MANIFEST.md` in the Capability subsystem.

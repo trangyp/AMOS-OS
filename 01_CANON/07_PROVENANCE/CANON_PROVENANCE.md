@@ -36,8 +36,35 @@ tags:
 - topic/causal-lineage
 - topic/sybil-hardening
 - topic/persistent-provenance
+- readme
+- 00-root-moc
+- amos-moc
+- architecture
+- system-map
+- neural-network
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- hml-canon
+- persistence-canon
+- cognition-canon
+- cognitive-organism-canon
+- full-brain-os-canon
+- authority-canon
+- control-plane-canon
+- infrastructure-canon
+- symbol-registry
+- unit-registry
+- universal-variable-registry
+- canonical-glossary
+- deprecated-terms
+- 00-home
+- amos-rscf-nodes
+- 07-provenance-moc
 aliases:
-- AMOS Canon Provenance - Canon Provenance Registry - AMOS Canon Lineage Registry - Canon Sour
+- AMOS Canon Provenance - Canon Provenance Registry - AMOS Canon Lineage Registry
+  - Canon Sour
 ---
 
 # AMOS OS Canon Provenance

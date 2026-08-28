@@ -6,13 +6,14 @@ tags:
 - note
 - amos-trang-framework-master
 - canon/skill
+- skill
+- amos-trang-framework-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-trang-framework-master
 

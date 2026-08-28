@@ -8,6 +8,7 @@ tags:
 - rscf/state/source-claim
 - topic/amos-legal-kernel-v0
 - kernel
+- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -16,6 +17,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS LEGAL KERNEL V0 ORG RISK POLICY7 4
 
 ```json

@@ -20,6 +20,12 @@ tags:
 - 5-modes
 - engine
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -29,7 +35,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # AMOS SUPER KERNEL & SUPER ENGINE
 

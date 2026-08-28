@@ -6,13 +6,15 @@ tags:
 - moc
 - o13-decision
 - canon/cognitive-matrix
+- cognitive-matrix-o13-decision-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O13 Decision — Map of Content
 

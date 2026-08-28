@@ -6,13 +6,39 @@ tags:
 - moc
 - 03-coding
 - canon/control-plane
+- coding-commit-control-plane-readme
+- commit-control-plane-mode-family-spec
+- control-plane-activation-rules
+- control-plane-aliases
+- control-plane-benchmarks
+- commit-control-plane-mode-family-registry
+- control-plane-composition
+- control-plane-deprecation-supersession
+- control-plane-domain-weights
+- control-plane-engine-weights
+- control-plane-exit-criteria
+- control-plane-failure-recovery
+- control-plane-governance
+- control-plane-input-contract
+- control-plane-layer-weights
+- control-plane-mode-spec
+- control-plane-observability
+- control-plane-output-contract
+- control-plane-preconditions
+- control-plane-provenance
+- control-plane-purpose-scope
+- control-plane-routing-bindings
+- control-plane-safety-gates
+- control-plane-tests
+- control-plane-transition-rules
+- control-plane-validation
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Coding — Map of Content
 

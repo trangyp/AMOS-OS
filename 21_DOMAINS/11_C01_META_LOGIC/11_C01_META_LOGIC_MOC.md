@@ -6,13 +6,17 @@ tags:
 - moc
 - 11-c01-meta-logic
 - canon/domain
+- c01-meta-logic-domains-domain-spec
+- c01-meta-logic-domains-readme
+- domains-c01-meta-logic-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 11 C01 Meta Logic — Map of Content
 

@@ -8,13 +8,18 @@ tags:
 - note
 - 07-coverage
 - canon/cognitive-matrix
+- readme
+- promotion-gates
+- cognitive-matrix-moc
+- placeholder-seed-status
+- 07-coverage-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 2026-08-26 — Cognitive Matrix Contract Fill Pass
 

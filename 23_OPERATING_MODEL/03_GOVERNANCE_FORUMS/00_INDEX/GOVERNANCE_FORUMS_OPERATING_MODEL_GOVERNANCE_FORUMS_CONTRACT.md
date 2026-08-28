@@ -6,13 +6,20 @@ tags:
 - amos_os
 - 23_operating_model
 - canon/operating-model
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- index-governance-forums-operating-model-readme
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # GOVERNANCE FORUMS OPERATING MODEL GOVERNANCE FORUMS CONTRACT
 

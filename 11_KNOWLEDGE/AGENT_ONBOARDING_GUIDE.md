@@ -8,7 +8,7 @@ document_version: 3.0.0
 onboarding_protocol_version: 2.0.0
 amos_core_target: v4.4
 supersedes: QUANTUM_SUPREMACY_ENHANCED onboarding guide
-source_created: 2026-03-16T21:37:00+07:00
+source_created: 2026-03-16 21:37:00+07:00
 updated: '2026-08-25'
 origin_architect: Trang Phan
 steward: Trang Phan
@@ -28,6 +28,16 @@ tags:
 - topic/agent-onboarding
 - topic/runtime-governance
 - topic/amos-core
+- validation
+- architecture
+- memory
+- integration
+- workflow
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- knowledge-moc
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -35,7 +45,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS AGENT ONBOARDING GUIDE
 

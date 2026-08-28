@@ -8,6 +8,14 @@ tags:
 - rscf/state/observation
 - topic/hse-ceo-enginev
 - engine
+- skill
+- architecture
+- integration
+- validation
+- memory
+- canon
+- 00-cosmo-brain-moc
+- engine-moc
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -16,6 +24,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # HSE CEO ENGINEV ROOT
 
 ============================================================

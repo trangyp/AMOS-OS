@@ -7,13 +7,19 @@ tags:
 - policy
 - note
 - canon/control-plane
+- policy-registry
+- capability-manifest
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 03-policy-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # AMOS Policy Decision
 

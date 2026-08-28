@@ -3,20 +3,35 @@ title: Universe Canon Contract Validation Receipt
 type: receipt
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
-  - receipt
-  - validation
-  - universe_canon
-  - contract
-  - universe_contract
-  - seven_layers
-  - cosmological_layers
-  - verification
-  - cryptographic_verification
-  - integrity
-  - provenance
-  - deterministic
-  - replayability
-  - canon/universe
+- receipt
+- validation
+- universe_canon
+- contract
+- universe_contract
+- seven_layers
+- cosmological_layers
+- verification
+- cryptographic_verification
+- integrity
+- provenance
+- deterministic
+- replayability
+- canon/universe
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 00-root-moc
+- amos-moc
+- 02-universe-canon-moc
+- l17-rscf
+- l18-gmef
+- l19-proof-capsule
+- l20-adversarial
+- l21-epistemic-regime
+- l22-replayability
+- l23-mvcc-cas
+- l24-causal-epoch
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

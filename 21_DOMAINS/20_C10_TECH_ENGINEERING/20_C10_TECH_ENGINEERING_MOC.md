@@ -6,13 +6,17 @@ tags:
 - moc
 - 20-c10-tech-engineering
 - canon/domain
+- c10-tech-engineering-domains-domain-spec
+- c10-tech-engineering-domains-readme
+- domains-c10-tech-engineering-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 20 C10 Tech Engineering — Map of Content
 

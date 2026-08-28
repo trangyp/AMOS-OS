@@ -6,13 +6,24 @@ tags:
 - reference
 - arxiv-structured-gp-omics-uq-rscf
 - canon/skill
+- v3-7-1
+- agents
+- amos-acceptance-report-20260321-013004
+- v3-8
+- v3-4-1
+- v3-2-1
+- references-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Vault-Sourced Domain Knowledge
 

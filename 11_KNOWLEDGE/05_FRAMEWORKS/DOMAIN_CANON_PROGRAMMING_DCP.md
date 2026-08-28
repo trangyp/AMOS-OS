@@ -12,17 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: SPECIFICATION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/DOMAIN_CANON_PROGRAMMING_DCP.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - dcp_specification
-  - domain_canon_programming
-  - formal_type_contracts
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- dcp_specification
+- domain_canon_programming
+- formal_type_contracts
+- rscf
+- canon_candidate
+- canon/knowledge
+- domain-canon-programming
+- ldai-logically-deterministic-ai
+- absolute-structural-integrity
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,25 +43,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - DOMAIN_CANON_PROGRAMMING
-    - AMOS_CORPUS
+  - DOMAIN_CANON_PROGRAMMING
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DCP_SPECIFICATION
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - DCP_SPECIFICATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Domain Canon Programming (DCP) Detailed Specification
     role: PROOF_FIRST_CANONICAL_SPECIFICATION
   parent_framework:
-    artifact: [[DOMAIN_CANON_PROGRAMMING]]
+    artifact:
+    - - DOMAIN_CANON_PROGRAMMING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   dcp_specification: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Domain Canon Programming (DCP) Detailed Specification
 

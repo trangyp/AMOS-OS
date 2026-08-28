@@ -12,18 +12,30 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CANON
 path: 01_CANON/01_CORE_LAWS/META_LAWS_CANON.md
 tags:
-  - 01_canon
-  - 01_core_laws
-  - amos_os
-  - canon
-  - canon/universe
-  - canon_placeholder
-  - laws
-  - meta
-  - meta_laws_canon.md
-  - rscf
-  - universe
-  - placeholder_expanded
+- 01_canon
+- 01_core_laws
+- amos_os
+- canon
+- canon/universe
+- canon_placeholder
+- laws
+- meta
+- meta_laws_canon.md
+- rscf
+- universe
+- placeholder_expanded
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 01-core-laws-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -42,7 +54,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -4,7 +4,10 @@ title: SKILL — Amos Knowledge Research Master
 type: skill
 source: 07_SKILLS/amos-knowledge-research-master
 name: amos-knowledge-research-master
-description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use when knowledge management, researc. Do not use for generic tasks outside knowledge domain.
+description: AMOS Knowledge & Research — Obsidian vault integration, arxiv research,
+  knowledge indexing, curation, RAG best practices. 68,979-note vault as reasoning
+  brain. Use when knowledge management, researc. Do not use for generic tasks outside
+  knowledge domain.
 parent_skill: none
 domain: knowledge
 origin_architect: Trang Phan
@@ -17,6 +20,32 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos_os
+- amos-c01-meta-logic-master-knowledge
+- amos-c12-earth-ecology-master-knowledge
+- amos-c02-math-compute-master-knowledge
+- amos-c03-physics-cosmos-master-knowledge
+- amos-c04-bio-neuro-master-knowledge
+- amos-c10-tech-engineering-master-knowledge
+- amos-c11-design-language-master-knowledge
+- amos-c05-mind-behavior-master-knowledge
+- amos-c06-society-culture-master-knowledge
+- amos-c07-econ-finance-master-knowledge
+- amos-c08-strategy-game-master-knowledge
+- amos-c09-org-law-policy-master-knowledge
+- agent-onboarding-guide
+- agent-schema
+- agent-templates
+- amos-content-agent-matrix-system
+- environment-scan-agent
+- agent-template
+- amos-knowledge-research-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

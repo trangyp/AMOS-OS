@@ -12,17 +12,22 @@ segment: 22_RESEARCH/04_VALIDATION
 artifact_kind: VALIDATION_REPORT
 path: 22_RESEARCH/04_VALIDATION/FRAMEWORK_EMPIRICAL_STATUS.md
 tags:
-  - amos_os
-  - research
-  - vault
-  - 22_research
-  - 04_validation
-  - framework_empirical_status
-  - model_vs_observation
-  - confidence_bounds
-  - rscf
-  - canon_candidate
-  - canon/research
+- amos_os
+- research
+- vault
+- 22_research
+- 04_validation
+- framework_empirical_status
+- model_vs_observation
+- confidence_bounds
+- rscf
+- canon_candidate
+- canon/research
+- 04-validation-moc
+- 05-frameworks-moc
+- provenance-x-confidence
+- 00-home
+- 22-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
-    - 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
+  - 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC
+  - AMOS_CORPUS
   scope:
-    - RESEARCH_VALIDATION
-    - EMPIRICAL_STATUS_AUDIT
-    - SOURCE_DEFINED_MODEL
+  - RESEARCH_VALIDATION
+  - EMPIRICAL_STATUS_AUDIT
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   validation_moc:
     artifact: 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC

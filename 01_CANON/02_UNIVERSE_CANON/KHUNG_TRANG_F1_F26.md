@@ -7,6 +7,10 @@ tags:
 - 26_planes
 - structure
 - canon
+- moc
+- 25-cognitive-matrix-moc
+- 00-index-moc
+- 00-home
 ---
 
 # Khung Trang 26 Planes Structural Mapping (F1-F26)
@@ -15,3 +19,7 @@ Defines the 26 topological planes ($F_1 \text{--} F_{26}$) of AMOS OS and their 
 
 ## Related
 - [[_MOC]] · [[25_COGNITIVE_MATRIX_MOC]]
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

@@ -12,23 +12,28 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/REALITY_X_ULK_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - reality_x_ulk_matrix
-  - matrix_table
-  - cross_plane_routing
-  - pre_symbolic_operators
-  - reality_architecture
-  - universal_logic_kernel
-  - ulk
-  - alu
-  - operator_routing
-  - transformation_contract
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- reality_x_ulk_matrix
+- matrix_table
+- cross_plane_routing
+- pre_symbolic_operators
+- reality_architecture
+- universal_logic_kernel
+- ulk
+- alu
+- operator_routing
+- transformation_contract
+- rscf
+- canon_candidate
+- canon/matrix
+- reality-x-ulk
+- architecture
+- trang-reality-architecture
+- cognitive-matrix-moc
+- 00-home
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,17 +50,18 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 25_COGNITIVE_MATRIX/REALITY_X_ULK
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
-    - 02_KERNEL/01_ULK
-    - AMOS_CORPUS
+  - 25_COGNITIVE_MATRIX/REALITY_X_ULK
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
+  - 02_KERNEL/01_ULK
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - CROSS_PLANE_MATRIX_TABLE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
-    artifact: [[REALITY_X_ULK]]
+    artifact:
+    - - REALITY_X_ULK
   reality_master:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
   ulk_moc:
@@ -1836,3 +1842,7 @@ Reality_ULK_Route_Receipt:
   runtime_state:
 
 ```
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

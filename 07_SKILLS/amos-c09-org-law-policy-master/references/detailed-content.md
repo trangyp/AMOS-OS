@@ -7,6 +7,9 @@ tags:
 - master
 - references
 - detailed
+- moc
+- references-moc
+- 00-home
 ---
 
 ## AMOS Canon Grounding
@@ -71,3 +74,7 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 ## Related
 
 - [[_MOC]]
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

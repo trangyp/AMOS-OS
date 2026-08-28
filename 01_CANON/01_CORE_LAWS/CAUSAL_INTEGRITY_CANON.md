@@ -16,26 +16,34 @@ schema_family: RSCF
 schema_role: CAUSAL_INTEGRITY_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - core_laws
-  - causal_integrity
-  - causal_firewall
-  - causal_lineage
-  - provenance
-  - provenance_topology
-  - competing_hypotheses
-  - epistemic_regimes
-  - scope
-  - regime
-  - dependency_graph
-  - falsification
-  - validation
-  - rscf
-  - canon/universe
-  - placeholder_expanded
+- amos_os
+- canon
+- universe
+- 01_canon
+- core_laws
+- causal_integrity
+- causal_firewall
+- causal_lineage
+- provenance
+- provenance_topology
+- competing_hypotheses
+- epistemic_regimes
+- scope
+- regime
+- dependency_graph
+- falsification
+- validation
+- rscf
+- canon/universe
+- placeholder_expanded
+- architecture
+- l19-proof-capsule
+- law-hierarchy
+- 00-home
+- amos-rscf-nodes
+- canon-law-crosswalk
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

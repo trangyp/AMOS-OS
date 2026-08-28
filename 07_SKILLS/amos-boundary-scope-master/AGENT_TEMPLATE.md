@@ -6,13 +6,14 @@ tags:
 - note
 - amos-boundary-scope-master
 - canon/skill
+- skill
+- amos-boundary-scope-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-boundary-scope-master
 

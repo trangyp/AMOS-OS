@@ -12,17 +12,21 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_CANON
 path: 21_DOMAINS/06_BIOLOGY/UBI_DOMAIN_CANON.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 06_biology
-  - ubi_domain_canon
-  - biological_laws
-  - non_compensatory_invariants
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 06_biology
+- ubi_domain_canon
+- biological_laws
+- non_compensatory_invariants
+- rscf
+- canon_candidate
+- canon/domain
+- unified-biological-intelligence
+- absolute-biological-integrity-framework
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +41,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 01_CANON/01_CORE_LAWS/L1_REALITY
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
+  - 01_CANON/01_CORE_LAWS/L1_REALITY
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_BIOLOGY
-    - BIOLOGICAL_CANON
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_BIOLOGY
+  - BIOLOGICAL_CANON
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE

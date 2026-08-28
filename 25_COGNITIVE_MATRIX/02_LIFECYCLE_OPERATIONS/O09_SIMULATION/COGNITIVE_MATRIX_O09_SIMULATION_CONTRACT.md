@@ -8,13 +8,19 @@ tags:
 - o09_simulation
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- o09-simulation-moc
+- cognitive-matrix-lifecycle-operations-contract
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O09_SIMULATION — O09 Simulation
 

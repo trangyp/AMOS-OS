@@ -12,19 +12,28 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - neurosyncai
-  - adaptive_ai
-  - bio_adaptive_interface
-  - dual_system_architecture
-  - ubi
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- neurosyncai
+- adaptive_ai
+- bio_adaptive_interface
+- dual_system_architecture
+- ubi
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- amos-x-neurosyncai
+- amos-x-neurosyncai-matrix
+- ubi-neurosyncai-binding
+- neurosyncai-dual-system-architecture
+- neurosyncai-recovery-engine
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,12 +48,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - NEUROSYNCAI_CANON
-    - AMOS_CORPUS
+  - NEUROSYNCAI_CANON
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - ADAPTIVE_AI_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - ADAPTIVE_AI_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: NeurosyncAI™ Framework
@@ -52,17 +61,19 @@ framework_binding:
   biological_grounding:
     name: Unified Biological Intelligence™
     acronym: UBI
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_NEUROSYNCAI]]
-    matrix: [[AMOS_X_NEUROSYNCAI_MATRIX]]
+    artifact:
+    - - AMOS_X_NEUROSYNCAI
+    matrix:
+    - - AMOS_X_NEUROSYNCAI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   adaptive_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # NeurosyncAI™ Framework
 

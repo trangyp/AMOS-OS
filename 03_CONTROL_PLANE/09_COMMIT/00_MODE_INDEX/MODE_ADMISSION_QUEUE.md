@@ -8,12 +8,35 @@ tags:
 - mode_index
 - note
 - canon/control-plane
+- readme
+- k-gmef
+- k-rscf
+- k-hml
+- k-provenance
+- k-provenance-topology
+- k-sybil-hardening
+- k-constraint-propagation
+- k-commit-time-authority
+- k-event-bus
+- k-system-state
+- k-context-state
+- validation
+- delegation
+- revocation
+- integration
+- canon
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-mode-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 # MODE ADMISSION QUEUE
 
 `MODE_ADMISSION_QUEUE.md` currently contains only a generic [[README]] placeholder, so there is no substantive existing file to reproduce verbatim.  There is, however, a related AMOS structural placeholder for `25_CANON_ADMISSION_MODE.md` whose required contract explicitly calls for candidate/schema/provenance/contradiction/scope/authority/admitted/rejected state, transition graphs, entry/exit conditions, provenance, RSCF/GMEF, H/M/L, event bus, MVCC/read-set dependencies, observability, repair, tests, and supersession.

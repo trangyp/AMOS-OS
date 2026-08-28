@@ -6,13 +6,19 @@ tags:
 - moc
 - 08-effects
 - canon/control-plane
+- control-plane-effects-contract
+- effects-control-plane-readme
+- effect-intent
+- effect-manifest
+- effect-release-state
+- 00-index-moc
+- 03-control-plane-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 08 Effects — Map of Content
 

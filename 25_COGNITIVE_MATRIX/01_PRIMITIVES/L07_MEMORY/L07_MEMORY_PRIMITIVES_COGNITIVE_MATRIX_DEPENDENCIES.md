@@ -6,13 +6,18 @@ tags:
 - note
 - l07-memory
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- l07-memory-moc
+- l09-inference-primitives-cognitive-matrix-readme
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L07 — Dependencies
 

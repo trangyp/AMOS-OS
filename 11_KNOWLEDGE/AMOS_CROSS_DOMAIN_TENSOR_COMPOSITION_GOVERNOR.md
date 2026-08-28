@@ -1,10 +1,10 @@
 ---
 title: MODEL MAP
 aliases:
-  - "Models Map"
-  - "AMOS Model Map"
-  - "13 Models Map"
-  - "Models Plane Index Map"
+- Models Map
+- AMOS Model Map
+- 13 Models Map
+- Models Plane Index Map
 type: map
 artifact_type: navigation_map
 document_role: models_plane_segment_map
@@ -23,76 +23,95 @@ graph_validation_status: PARTIAL
 artifact_specific_validation: UNKNOWN/GAP
 executable_binding: NOT_ESTABLISHED
 scope:
-  - "index_navigation"
-  - "models_plane"
-  - "models_index_segment"
-  - "local_model_navigation"
-  - "artifact_discovery"
-  - "contract_navigation"
+- index_navigation
+- models_plane
+- models_index_segment
+- local_model_navigation
+- artifact_discovery
+- contract_navigation
 coverage:
   directory: 13_MODELS/00_INDEX
   recursive: false
   cross_segment: false
   exhaustive_models_plane: false
 navigation_contract:
-  orientation: [[INDEX_MODELS_README]]
-  normative_contract: [[INDEX_MODELS_MODEL_CONTRACT]]
+  orientation:
+  - - INDEX_MODELS_README
+  normative_contract:
+  - - INDEX_MODELS_MODEL_CONTRACT
   cross_segment:
-    - "[[00_ROOT_MAP]]"
-    - "[[AMOS_RSCF_NODES]]"
+  - '[[00_ROOT_MAP]]'
+  - '[[AMOS_RSCF_NODES]]'
 tags:
-  - amos_os
-  - amos-os
-  - 13_models
-  - 00_index
-  - models
-  - model
-  - map
-  - model-map
-  - navigation
-  - navigation-map
-  - index
-  - model-index
-  - model-navigation
-  - artifact-map
-  - artifact-discovery
-  - local-navigation
-  - segment-navigation
-  - local-scope
-  - directory-scope
-  - model-contract
-  - model-readme
-  - model-instances
-  - rscf
-  - rscf-node
-  - fractal-knowledge-network
-  - hml
-  - scope
-  - regime
-  - provenance
-  - provenance-topology
-  - dependency
-  - dependency-closure
-  - authority
-  - authorization
-  - governance
-  - proposal
-  - commit
-  - fail-closed
-  - unknown-gap
-  - rollback
-  - selective-invalidation
-  - validation
-  - graph-validation
-  - validation-receipt
-  - routing
-  - link-integrity
-  - model-identity
-  - model-versioning
-  - model-provenance
-  - competing-models
-  - epistemic-regime
-  - canon/model
+- amos_os
+- amos-os
+- 13_models
+- 00_index
+- models
+- model
+- map
+- model-map
+- navigation
+- navigation-map
+- index
+- model-index
+- model-navigation
+- artifact-map
+- artifact-discovery
+- local-navigation
+- segment-navigation
+- local-scope
+- directory-scope
+- model-contract
+- model-readme
+- model-instances
+- rscf
+- rscf-node
+- fractal-knowledge-network
+- hml
+- scope
+- regime
+- provenance
+- provenance-topology
+- dependency
+- dependency-closure
+- authority
+- authorization
+- governance
+- proposal
+- commit
+- fail-closed
+- unknown-gap
+- rollback
+- selective-invalidation
+- validation
+- graph-validation
+- validation-receipt
+- routing
+- link-integrity
+- model-identity
+- model-versioning
+- model-provenance
+- competing-models
+- epistemic-regime
+- canon/model
+- index-models-readme
+- index-models-model-contract
+- 00-root-map
+- amos-rscf-nodes
+- readme
+- 00-home
+- 00-index-moc
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- observability-readme
+- kernel-readme
+- control-plane-readme
+- operations-readme
+- law-hierarchy
+- 00-root-moc
+- 13-models-moc
+- models-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED

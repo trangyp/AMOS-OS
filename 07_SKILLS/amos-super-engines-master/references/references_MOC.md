@@ -6,13 +6,50 @@ tags:
 - moc
 - references
 - canon/skill
+- agi-completion-report
+- amos-infinite-complete
+- brain-omega-complete
+- brain-singularity-complete
+- brain-transcendent-complete
+- brain-transcendental-complete
+- brain-ultimate-intelligence-2026
+- brain-ultimate-synthesis
+- brain-ultimate-transcendence
+- domain-engines
+- domains-engines-collection
+- engine-complete
+- engine-final-complete
+- engine-models
+- engine-practical-complete
+- index-unipower
+- meta-engines-index
+- omega-advanced-intelligence
+- omega-maximum-enhancement
+- omega-state-of-the-art
+- super-consciousness-engine
+- super-consciousness-engine-max
+- super-engine-omni-x1000
+- super-engine-v1
+- super-engine-v100
+- super-kernel-engine
+- trang-asea
+- unipower-engines-collection
+- unipower-engines-layer
+- unipower-tech-design-metabrain
+- vault-domain-knowledge
+- amos-super-engines-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # References — Map of Content
 

@@ -18,13 +18,21 @@ tags:
 - validation
 - ai
 - canon/cognitive-matrix
+- readme
+- l00-reality-validation-receipt
+- 00-home
+- cosmo-brain-bridge-index
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l00-reality-environment-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L00_REALITY_ENVIRONMENT — [[README]]
 

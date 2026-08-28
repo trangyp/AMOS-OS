@@ -6,13 +6,17 @@ tags:
 - moc
 - 14-tools
 - canon/tool
+- tools-readme
+- tools-tool-contract
+- amos-llm-wiki-tool
+- 00-index-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 14 Tools — Map of Content
 

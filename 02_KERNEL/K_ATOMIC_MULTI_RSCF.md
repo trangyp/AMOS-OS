@@ -8,6 +8,11 @@ tags:
 - transaction
 - atomicity
 - cross_plane
+- k-mvcc
+- k-cas
+- rscf-x-gmef
+- 03-causal-moc
+- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE
@@ -24,3 +29,7 @@ rscf:
 
 ## Related
 - [[K_MVCC]] · [[K_CAS]] · [[RSCF_X_GMEF]]
+
+---
+
+**MOC:** [[03_CAUSAL_MOC]] · [[00_HOME]]

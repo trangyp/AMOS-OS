@@ -12,20 +12,28 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: REASONING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - frai
-  - fractal_reasoning_ai
-  - self_similarity
-  - multi_scale_reasoning
-  - lmh_architecture
-  - recursive_decomposition
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- frai
+- fractal_reasoning_ai
+- self_similarity
+- multi_scale_reasoning
+- lmh_architecture
+- recursive_decomposition
+- rscf
+- canon_candidate
+- canon/knowledge
+- ldai-logically-deterministic-ai
+- trang-lmh-architecture
+- 25-cognitive-matrix-moc
+- trang-reality-architecture
+- khung-trang
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,13 +48,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_FRAI_FRACTAL_REASONING_AI
-    - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
-    - AMOS_CORPUS
+  - TRANG_FRAI_FRACTAL_REASONING_AI
+  - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRACTAL_REASONING
-    - SOURCE_DEFINED_FRAI_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FRACTAL_REASONING
+  - SOURCE_DEFINED_FRAI_MODEL
 framework_binding:
   primary:
     name: Trang FRAI (Fractal Reasoning AI)
@@ -55,19 +63,21 @@ framework_binding:
   underlying_deterministic_engine:
     name: Trang LDAI (Logically Deterministic AI)
     acronym: LDAI
-    artifact: [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
+    artifact:
+    - - LDAI_LOGICALLY_DETERMINISTIC_AI
   structural_grounding:
     name: Trang LMH Architecture
-    artifact: [[TRANG_LMH_ARCHITECTURE]]
+    artifact:
+    - - TRANG_LMH_ARCHITECTURE
   cognitive_matrix_binding:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   fractal_logic: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # FRAI — Fractal Reasoning AI™
 

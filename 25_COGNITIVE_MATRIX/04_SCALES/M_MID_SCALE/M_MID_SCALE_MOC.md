@@ -6,13 +6,26 @@ tags:
 - moc
 - m-mid-scale
 - canon/cognitive-matrix
+- cognitive-matrix-boundaries
+- cognitive-matrix-m-mid-scale-contract
+- cognitive-matrix-semantics
+- cognitive-matrix-translation-rules
+- scales-cognitive-matrix-control-planes
+- m-mid-scale-scales-cognitive-matrix-readme
+- scales-cognitive-matrix-definition
+- scales-cognitive-matrix-dependencies
+- scales-cognitive-matrix-gap-matrix
+- scales-cognitive-matrix-invariants
+- scales-cognitive-matrix-rscf
+- scales-cognitive-matrix-tests
+- 00-index-moc
+- 04-scales-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # M Mid Scale — Map of Content
 

@@ -4,7 +4,10 @@ title: SKILL — Amos C02 Math Compute Master
 type: skill
 source: 07_SKILLS/amos-c02-math-compute-master
 name: amos-c02-math-compute-master
-description: 'AMOS C02 Math & Compute — 10 families: problem framing, numerical methods, probability, optimization, complexity, control, signal processing, simulation. Use when mathematical reasoning or computational analysis. Do not use for generic math tutoring, symbolic algebra, or tasks outside the 10-family computational framework.'
+description: 'AMOS C02 Math & Compute — 10 families: problem framing, numerical methods,
+  probability, optimization, complexity, control, signal processing, simulation. Use
+  when mathematical reasoning or computational analysis. Do not use for generic math
+  tutoring, symbolic algebra, or tasks outside the 10-family computational framework.'
 parent_skill: none
 domain: c02
 origin_architect: Trang Phan
@@ -17,6 +20,8 @@ tags:
 - hml/h
 - epistemic/source_canon
 - amos_os
+- references-moc
+- 00-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -46,6 +51,7 @@ law_compliance:
 license: MIT
 steward: Trang Phan
 ---
+
 # AMOS C02 — Math & Compute Master Knowledge
 
 ## Identity
@@ -398,3 +404,7 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 - To claim empirical validation of computational complexity laws
 - As a substitute for domain-specific mathematical or computational evidence
 - Outside math/compute domain reasoning
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

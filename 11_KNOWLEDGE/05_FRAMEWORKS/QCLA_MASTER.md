@@ -12,22 +12,29 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/QCLA_MASTER.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - qcla
-  - quantum_causality_layer_architecture
-  - causality
-  - causal_pathways
-  - direct_causality
-  - distributed_causality
-  - delayed_causality
-  - cascading_causality
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- qcla
+- quantum_causality_layer_architecture
+- causality
+- causal_pathways
+- direct_causality
+- distributed_causality
+- delayed_causality
+- cascading_causality
+- rscf
+- canon_candidate
+- canon/knowledge
+- qls-framework
+- amos-x-qcla
+- amos-x-qls-qcla-matrix
+- tpe-trang-prediction-engine
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -42,12 +49,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF
-    - AMOS_CORPUS
+  - QUANTUM_CAUSALITY_LAYER_ARCHITECTURE_QCLA_OFF
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - CAUSAL_ARCHITECTURE
-    - SOURCE_DEFINED_QCLA_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - CAUSAL_ARCHITECTURE
+  - SOURCE_DEFINED_QCLA_MODEL
 framework_binding:
   primary:
     name: Quantum Causality Layer Architecture™
@@ -56,17 +63,19 @@ framework_binding:
   paired_framework:
     name: Quantum Logic Scaffold™
     acronym: QLS
-    artifact: [[QLS_FRAMEWORK]]
+    artifact:
+    - - QLS_FRAMEWORK
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_QCLA]]
-    matrix: [[AMOS_X_QLS_QCLA_MATRIX]]
+    artifact:
+    - - AMOS_X_QCLA
+    matrix:
+    - - AMOS_X_QLS_QCLA_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   causal_models: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # QCLA — Quantum Causality Layer Architecture™
 

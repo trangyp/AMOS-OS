@@ -6,13 +6,25 @@ tags:
 - note
 - 02-universe-canon
 - canon/universe
+- 00-root-moc
+- amos-moc
+- amos-7-part-universe-canon
+- hml-canon
+- 00-home
+- amos-rscf-nodes
+- p1-reality-environment
+- p2-sense-evidence
+- p3-knowledge-memory
+- p4-cognition-models
+- p5-governance-authority
+- p6-execution-agency
+- 02-universe-canon-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: universe_canon
 ---
-
 
 # P7 Evolution / Learning
 

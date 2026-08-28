@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 69_perspective_observer_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 69-perspective-observer-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # PERSPECTIVE OBSERVER MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 

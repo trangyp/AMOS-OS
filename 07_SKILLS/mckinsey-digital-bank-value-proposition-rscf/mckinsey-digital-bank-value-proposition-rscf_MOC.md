@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-digital-bank-value-proposition-
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Digital-Bank-Value-Proposition-Rscf — Map of Content
 

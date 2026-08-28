@@ -12,11 +12,19 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/UNIVERSE_X_OMEGA.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - canon/matrix
-  - rscf
-  - provenance
+- amos_os
+- cognitive_matrix
+- canon/matrix
+- rscf
+- provenance
+- universe-x-omega-matrix
+- 02-universe-canon-moc
+- khung-trang-master
+- 25-cognitive-matrix-moc
+- universe-x-omega
+- canon
+- cognitive-matrix-moc
+- 00-home
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE
@@ -4483,3 +4491,7 @@ $$
 ---
 
 **END OF `UNIVERSE_X_OMEGA.md`**
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

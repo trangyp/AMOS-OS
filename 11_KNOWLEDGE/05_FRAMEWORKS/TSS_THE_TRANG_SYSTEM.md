@@ -12,21 +12,31 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - tss
-  - trang_system
-  - seven_cycles
-  - four_variables
-  - systems_dynamics
-  - governance
-  - lifecycle_analysis
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- tss
+- trang_system
+- seven_cycles
+- four_variables
+- systems_dynamics
+- governance
+- lifecycle_analysis
+- rscf
+- canon_candidate
+- canon/knowledge
+- tpe-trang-prediction-engine
+- amos-x-tss
+- amos-x-tss-tpe-matrix
+- tss-the-trang-system-official-manual
+- unified-biological-intelligence
+- the-seven-cycles-of-the-trang-system-official-m
+- trang-reality-architecture
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,13 +51,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
-    - AMOS_CORPUS
+  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+  - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - SYSTEMS_DYNAMICS
-    - SOURCE_DEFINED_TSS_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - SYSTEMS_DYNAMICS
+  - SOURCE_DEFINED_TSS_MODEL
 framework_binding:
   primary:
     name: The Trang System™
@@ -56,17 +66,19 @@ framework_binding:
   downstream_prediction_engine:
     name: The Trang Prediction Engine™
     acronym: TPE
-    artifact: [[TPE_TRANG_PREDICTION_ENGINE]]
+    artifact:
+    - - TPE_TRANG_PREDICTION_ENGINE
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_TSS]]
-    matrix: [[AMOS_X_TSS_TPE_MATRIX]]
+    artifact:
+    - - AMOS_X_TSS
+    matrix:
+    - - AMOS_X_TSS_TPE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   structural_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # TSS — The Trang System™
 

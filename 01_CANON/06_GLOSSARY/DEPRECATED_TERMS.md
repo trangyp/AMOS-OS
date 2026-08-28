@@ -34,8 +34,32 @@ tags:
 - topic/semantic-migration
 - topic/lineage
 - topic/provenance
+- readme
+- 00-root-moc
+- amos-moc
+- architecture
+- system-map
+- neural-network
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- canonical-glossary
+- symbol-registry
+- unit-registry
+- universal-variable-registry
+- hml-canon
+- cognition-canon
+- cognitive-organism-canon
+- full-brain-os-canon
+- authority-canon
+- control-plane-canon
+- 00-home
+- amos-rscf-nodes
+- 06-glossary-moc
 aliases:
-- AMOS Deprecated Terms - Deprecated Terminology Registry - AMOS Terminology Migration Registry
+- AMOS Deprecated Terms - Deprecated Terminology Registry - AMOS Terminology Migration
+  Registry
 ---
 
 # AMOS OS Deprecated Terms

@@ -4,7 +4,10 @@ title: SKILL — Amos Tensor Accelerator Activity Rscf Engine
 type: skill
 source: 07_SKILLS/amos-tensor-accelerator-activity-rscf-engine
 name: amos-tensor-accelerator-activity-rscf-engine
-description: Tensor Accelerator Activity — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability. Do not use for generic tasks outside formal domain.
+description: Tensor Accelerator Activity — formal verification capability. Use when
+  formal verification, symbolic execution, proof checking, or mathematical reasoning.
+  Use when amos-formal-engines-master routes to this specialized capability. Do not
+  use for generic tasks outside formal domain.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-tensor-accelerator-activity-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

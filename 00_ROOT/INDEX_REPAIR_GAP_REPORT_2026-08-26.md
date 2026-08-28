@@ -9,13 +9,18 @@ tags:
 - index-repair
 - audit
 - canon/root
+- skill
+- 00-root-identity
+- 00-root-moc
+- knowledge-moc
+- cognitive-matrix-moc
+- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: root_index
 ---
-
 
 # Index Repair Gap Report — 2026-08-26
 

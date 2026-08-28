@@ -12,18 +12,28 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_GRAND_SYSTEM.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - trang_grand_system
-  - grand_codex
-  - grand_logic
-  - total_architecture
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- trang_grand_system
+- grand_codex
+- grand_logic
+- total_architecture
+- rscf
+- canon_candidate
+- canon/knowledge
+- trang-grand-system-codex
+- trang-grand-system-logic-specification
+- trang-reality-architecture
+- tss-the-trang-system
+- tpe-trang-prediction-engine
+- unified-biological-intelligence
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
+- heritage-intelligence-master
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,28 +48,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_GRAND_SYSTEM_CODEX
-    - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
-    - AMOS_CORPUS
+  - TRANG_GRAND_SYSTEM_CODEX
+  - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - TOTAL_SYSTEMS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - TOTAL_SYSTEMS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Trang Grand System
     role: TOTAL_ARCHITECTURAL_CONVERGENCE_SYSTEM
   codex:
-    artifact: [[TRANG_GRAND_SYSTEM_CODEX]]
+    artifact:
+    - - TRANG_GRAND_SYSTEM_CODEX
   logic_spec:
-    artifact: [[TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION]]
+    artifact:
+    - - TRANG_GRAND_SYSTEM_LOGIC_SPECIFICATION
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   grand_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Trang Grand System
 

@@ -6,13 +6,19 @@ tags:
 - moc
 - 01-software
 - canon/domain
+- domains-software-contract
+- software-domains-domain-spec
+- software-domains-interfaces
+- software-domains-provenance
+- software-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Software — Map of Content
 

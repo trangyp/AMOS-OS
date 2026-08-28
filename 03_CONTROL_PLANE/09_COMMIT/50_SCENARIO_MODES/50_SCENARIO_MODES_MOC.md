@@ -6,13 +6,14 @@ tags:
 - moc
 - 50-scenario-modes
 - canon/control-plane
+- 09-commit-moc
+- scenario-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 50 Scenario Modes — Map of Content
 

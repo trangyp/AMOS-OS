@@ -4,7 +4,10 @@ title: SKILL — Amos Action Memory Firewall
 type: skill
 source: 07_SKILLS/amos-action-memory-firewall
 name: amos-action-memory-firewall
-description: Action Memory Firewall — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability. Do not use for generic tasks outside memory domain.
+description: Action Memory Firewall — memory systems capability. Use when memory management,
+  context continuity, or memory conflict resolution. Use when amos-memory-systems-master
+  routes to this specialized capability. Do not use for generic tasks outside memory
+  domain.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-action-memory-firewall-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

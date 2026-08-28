@@ -18,23 +18,40 @@ schema_family: RSCF
 schema_role: CROSS_SPECIES_FUNCTIONAL_MODE_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - cognition
-  - cross_species
-  - functional_mode
-  - comparative_model
-  - 01_canon
-  - 03_cognition_canon
-  - spec
-  - canon_placeholder
-  - rscf
-  - provenance
-  - scope
-  - regime
-  - validation
-  - canon/universe
-  - placeholder_expanded
+- amos_os
+- canon
+- cognition
+- cross_species
+- functional_mode
+- comparative_model
+- 01_canon
+- 03_cognition_canon
+- spec
+- canon_placeholder
+- rscf
+- provenance
+- scope
+- regime
+- validation
+- canon/universe
+- placeholder_expanded
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- amos-cognition-canon
+- amos-consciousness-canon
+- amos-cognitive-field-canon
+- amos-cognition-master-canon
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 03-cognition-canon-moc
+- trang-framework-recursive-ontology-dynamics
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

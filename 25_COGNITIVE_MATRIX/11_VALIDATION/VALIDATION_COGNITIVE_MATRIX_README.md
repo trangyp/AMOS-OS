@@ -12,28 +12,35 @@ segment: 25_COGNITIVE_MATRIX/11_VALIDATION
 artifact_kind: COGNITIVE
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/VALIDATION_COGNITIVE_MATRIX_README.md
 tags:
-  - 11_validation
-  - 25_cognitive_matrix
-  - AMOS
-  - AMOS_CORE_v4_4
-  - AMOS_OS
-  - COGNITIVE_MATRIX
-  - VALIDATION
-  - VALIDATION_CONTRACT
-  - VALIDATOR
-  - amos_os
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive
-  - cognitive_matrix
-  - contract
-  - infrastructure
-  - matrix
-  - rscf
-  - validation
-  - validation_cognitive_matrix_readme.md
-  - {'identity':-None}
-  - placeholder_expanded
+- 11_validation
+- 25_cognitive_matrix
+- AMOS
+- AMOS_CORE_v4_4
+- AMOS_OS
+- COGNITIVE_MATRIX
+- - - VALIDATION
+- VALIDATION_CONTRACT
+- VALIDATOR
+- amos_os
+- canon/cognitive-matrix
+- canon/universe
+- cognitive
+- cognitive_matrix
+- contract
+- infrastructure
+- matrix
+- rscf
+- validation
+- validation_cognitive_matrix_readme.md
+- identity: -None
+- placeholder_expanded
+- readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 11-validation-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -52,7 +59,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -4,7 +4,10 @@ title: SKILL — Amos Target Of Repair Intelligence
 type: skill
 source: 07_SKILLS/amos-target-of-repair-intelligence
 name: amos-target-of-repair-intelligence
-description: Target Of Repair Intelligence — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
+description: Target Of Repair Intelligence — audit and repair capability. Use when
+  auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
+  routes to this specialized capability. Do not use for generic tasks outside audit
+  domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-target-of-repair-intelligence-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

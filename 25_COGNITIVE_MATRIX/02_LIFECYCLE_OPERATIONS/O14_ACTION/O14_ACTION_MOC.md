@@ -6,13 +6,15 @@ tags:
 - moc
 - o14-action
 - canon/cognitive-matrix
+- cognitive-matrix-o14-action-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O14 Action — Map of Content
 

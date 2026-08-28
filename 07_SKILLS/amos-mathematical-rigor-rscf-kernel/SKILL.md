@@ -4,7 +4,10 @@ title: SKILL — Amos Mathematical Rigor Rscf Kernel
 type: skill
 source: 07_SKILLS/amos-mathematical-rigor-rscf-kernel
 name: amos-mathematical-rigor-rscf-kernel
-description: Mathematical Rigor Rscf Kernel — formal verification capability. Use when formal verification, symbolic execution, proof checking, or mathematical reasoning. Use when amos-formal-engines-master routes to this specialized capability. Do not use for generic tasks outside formal domain.
+description: Mathematical Rigor Rscf Kernel — formal verification capability. Use
+  when formal verification, symbolic execution, proof checking, or mathematical reasoning.
+  Use when amos-formal-engines-master routes to this specialized capability. Do not
+  use for generic tasks outside formal domain.
 parent_skill: amos-formal-engines-master
 domain: formal
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-mathematical-rigor-rscf-kernel-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

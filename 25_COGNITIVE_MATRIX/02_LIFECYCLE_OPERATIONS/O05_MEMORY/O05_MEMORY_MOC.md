@@ -6,13 +6,15 @@ tags:
 - moc
 - o05-memory
 - canon/cognitive-matrix
+- cognitive-matrix-o05-memory-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O05 Memory — Map of Content
 

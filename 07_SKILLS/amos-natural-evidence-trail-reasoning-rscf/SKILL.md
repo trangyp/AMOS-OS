@@ -4,7 +4,10 @@ title: SKILL — Amos Natural Evidence Trail Reasoning Rscf
 type: skill
 source: 07_SKILLS/amos-natural-evidence-trail-reasoning-rscf
 name: amos-natural-evidence-trail-reasoning-rscf
-description: Natural Evidence Trail Reasoning — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes t. Do not use for generic tasks outside rscf domain.
+description: Natural Evidence Trail Reasoning — RSCF epistemic capability. Use when
+  classifying claims by epistemic state, validating outputs against epistemic and
+  scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master
+  routes t. Do not use for generic tasks outside rscf domain.
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-natural-evidence-trail-reasoning-rscf-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

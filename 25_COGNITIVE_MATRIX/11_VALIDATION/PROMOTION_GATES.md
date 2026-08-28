@@ -12,19 +12,25 @@ segment: 25_COGNITIVE_MATRIX/11_VALIDATION
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/11_VALIDATION/PROMOTION_GATES.md
 tags:
-  - 11_validation
-  - 25_cognitive_matrix
-  - amos_os
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive_matrix
-  - gates
-  - note
-  - promotion
-  - promotion_gates.md
-  - rscf
-  - validation
-  - placeholder_expanded
+- 11_validation
+- 25_cognitive_matrix
+- amos_os
+- canon/cognitive-matrix
+- canon/universe
+- cognitive_matrix
+- gates
+- note
+- promotion
+- promotion_gates.md
+- rscf
+- validation
+- placeholder_expanded
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 11-validation-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -43,7 +49,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -12,20 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/QLS_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - qls
-  - quantum_logic_scaffold
-  - non_contradiction
-  - multi_state_reasoning
-  - collapse_conditions
-  - constraint_integrity
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- qls
+- quantum_logic_scaffold
+- non_contradiction
+- multi_state_reasoning
+- collapse_conditions
+- constraint_integrity
+- rscf
+- canon_candidate
+- canon/knowledge
+- amos-x-qls
+- amos-x-qls-qcla-matrix
+- qcla-master
+- trang-reality-architecture
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,28 +47,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - QUANTUM_LOGIC_SCAFFOLD_QLS_OFFICIAL_MANUAL
-    - QUANTUM_LOGIC_SYSTEM_QLS_SYSTEM_OFFICIAL_MANU
-    - AMOS_CORPUS
+  - QUANTUM_LOGIC_SCAFFOLD_QLS_OFFICIAL_MANUAL
+  - QUANTUM_LOGIC_SYSTEM_QLS_SYSTEM_OFFICIAL_MANU
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - LOGIC_SCAFFOLD
-    - SOURCE_DEFINED_QLS_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - LOGIC_SCAFFOLD
+  - SOURCE_DEFINED_QLS_MODEL
 framework_binding:
   primary:
     name: Quantum Logic Scaffold™
     acronym: QLS
     role: STRUCTURAL_LOGIC_VALIDATION
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_QLS]]
-    matrix: [[AMOS_X_QLS_QCLA_MATRIX]]
+    artifact:
+    - - AMOS_X_QLS
+    matrix:
+    - - AMOS_X_QLS_QCLA_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   logic_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # QLS — Quantum Logic Scaffold™
 

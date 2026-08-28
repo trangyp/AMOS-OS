@@ -8,13 +8,20 @@ tags:
 - l25_identity_continuity
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- amos-rscf-nodes
+- cognitive-matrix-primitives-contract
+- l25-identity-continuity-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L25_IDENTITY_CONTINUITY — Identity continuity Contract
 

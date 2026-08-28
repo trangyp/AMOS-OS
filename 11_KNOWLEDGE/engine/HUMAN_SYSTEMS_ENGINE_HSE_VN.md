@@ -14,6 +14,14 @@ tags:
 - rscf/state/observation
 - topic/human-systems-engine-hse-vn
 - engine
+- integration
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,7 +29,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # HUMAN SYSTEMS ENGINE HSE VN
 

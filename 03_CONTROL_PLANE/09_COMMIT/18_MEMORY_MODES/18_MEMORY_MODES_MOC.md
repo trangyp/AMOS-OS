@@ -6,13 +6,15 @@ tags:
 - moc
 - 18-memory-modes
 - canon/control-plane
+- memory-modes-commit-control-plane-readme
+- 09-commit-moc
+- memory-modes-commit-control-plane-mode-family-spec
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 18 Memory Modes — Map of Content
 

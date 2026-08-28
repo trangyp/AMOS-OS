@@ -5,6 +5,13 @@ tags:
 - core
 - runtime
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- kernel-moc
+- canon
+- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -13,7 +20,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS Super Kernel — Unified Meta-Orchestration Architecture
 

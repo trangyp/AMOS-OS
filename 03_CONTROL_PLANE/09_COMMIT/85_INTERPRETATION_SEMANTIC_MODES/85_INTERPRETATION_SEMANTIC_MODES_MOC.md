@@ -6,13 +6,13 @@ tags:
 - moc
 - 85-interpretation-semantic-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 85 Interpretation Semantic Modes — Map of Content
 

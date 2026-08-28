@@ -3,20 +3,30 @@ title: ARCHITECTURE
 type: architecture
 source: 00_ROOT
 aliases:
-- ARCHITECTURE
+- - - ARCHITECTURE
 rscf-state: derived
 tags:
 - index
 - readme
 - moc
 - canon/root
+- architecture
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-home
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: root_index
 ---
-
 
 # [[ARCHITECTURE]]
 

@@ -6,13 +6,14 @@ tags:
 - note
 - law-stack-enforcement-pipeline
 - canon/workflow
+- law-stack-enforcement-pipeline-moc
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
-
 
 # Law Stack Enforcement Pipeline
 

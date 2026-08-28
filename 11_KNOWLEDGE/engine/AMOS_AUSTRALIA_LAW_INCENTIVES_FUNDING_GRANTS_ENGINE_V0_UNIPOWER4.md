@@ -14,6 +14,7 @@ tags:
 - rscf/state/source-claim
 - topic/amos-australia-law-incentives-funding-gr
 - engine
+- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS AUSTRALIA LAW INCENTIVES FUNDING GRANTS ENGINE V0 UNIPOWER4
 
 ```json

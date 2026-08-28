@@ -12,23 +12,32 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: UNIVERSE_PLANE
 path: 01_CANON/02_UNIVERSE_CANON/P3_KNOWLEDGE_MEMORY.md
 tags:
-  - amos_os
-  - canon
-  - universe_canon
-  - knowledge
-  - memory
-  - persistence
-  - consolidation
-  - staleness
-  - retrieval
-  - provenance
-  - confidence
-  - epoch
-  - diversity
-  - revalidation
-  - p3_plane
-  - rscf
-  - canon/universe
+- amos_os
+- canon
+- universe_canon
+- knowledge
+- memory
+- persistence
+- consolidation
+- staleness
+- retrieval
+- provenance
+- confidence
+- epoch
+- diversity
+- revalidation
+- p3_plane
+- rscf
+- canon/universe
+- validation
+- amos-7-part-universe-canon
+- p2-sense-evidence
+- p1-reality-environment
+- hml-canon
+- 02-universe-canon-moc
+- trang-framework-recursive-ontology-dynamics
+- 00-home
+- amos-rscf-nodes
 version: 0.2.0
 updated: '2026-08-26'
 status: PROPOSED_SPECIFICATION
@@ -43,14 +52,14 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-    - 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+  - AMOS_corpus
+  - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
+  - 01_CANON/02_UNIVERSE_CANON/HML_CANON
+  - 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE
+  - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
   scope:
-    - UNIVERSE_CANON
-    - P3_KNOWLEDGE_MEMORY
+  - UNIVERSE_CANON
+  - P3_KNOWLEDGE_MEMORY
 ---
 
 # P3 — Knowledge & Memory Plane

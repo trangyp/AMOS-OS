@@ -6,13 +6,15 @@ tags:
 - moc
 - o02-relation
 - canon/cognitive-matrix
+- cognitive-matrix-o02-relation-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O02 Relation — Map of Content
 

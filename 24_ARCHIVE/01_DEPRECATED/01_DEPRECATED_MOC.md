@@ -6,13 +6,17 @@ tags:
 - moc
 - 01-deprecated
 - canon/archive
+- archive-deprecated-contract
+- deprecated-archive-readme
+- deprecated-framework-registry
+- 00-index-moc
+- 24-archive-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Deprecated — Map of Content
 

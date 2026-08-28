@@ -3,18 +3,33 @@ title: L16 HML
 type: note
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - hml
-  - three_speed_lens
-  - governance
-  - domain_policy
-  - mechanical_checks
-  - strictness_inheritance
-  - level_assignment
-  - no_level_skipping
-  - epistemic_governance
-  - canon/universe
+- canon
+- core_laws
+- hml
+- three_speed_lens
+- governance
+- domain_policy
+- mechanical_checks
+- strictness_inheritance
+- level_assignment
+- no_level_skipping
+- epistemic_governance
+- canon/universe
+- validation
+- law-hierarchy
+- 00-home
+- amos-rscf-nodes
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- amos-core-all-versions-fractal-knowledge-network
+- rscf
+- gmef
+- provenance-topology
+- competing-hypotheses
+- scope-regime-firewall
+- l10-failure-recovery
+- l11-knowledge-memory
+- l15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

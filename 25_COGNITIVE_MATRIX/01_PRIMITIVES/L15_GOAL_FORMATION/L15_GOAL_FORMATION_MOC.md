@@ -6,13 +6,16 @@ tags:
 - moc
 - l15-goal-formation
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l15-goal-formation-contract
+- l15-goal-formation-primitives-cognitive-matrix-hml
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L15 Goal Formation — Map of Content
 

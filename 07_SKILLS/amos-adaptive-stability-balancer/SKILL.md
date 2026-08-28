@@ -4,8 +4,19 @@ title: SKILL — Amos Adaptive Stability Balancer
 type: skill
 source: 07_SKILLS/amos-adaptive-stability-balancer
 name: amos-adaptive-stability-balancer
-description: Balance stability-preserving operation against adaptation, scaling, exploration, mutation, and recovery in AMOS runtimes. Use when a system risks collapse from excessive load, recursion, concurrency, memory pressure, dependency degradation, operational pressure, oscillation, uncontrolled adaptation, or excessive rigidity; when deciding whether to freeze, contain, degrade gracefully, maintain, recover, cautiously adapt, scale, or resume normal operation; when resource headroom, observability, resilience, dependency health, damping, saturation, collapse thresholds, or recovery capacity matter; or when amos-os-runtime-master routes a runtime stability decision. Preserve hard safety boundaries, hardware/environment scope, H/M/L coupling, bounded resources, reversibility, provenance, regime validity, and selective recovery. Stability does not mean immobility, and adaptation is never allowed to consume th Do not use for generic load balancing, network traffic routing, or tasks outside
-  AMOS runtime stability domain.
+description: Balance stability-preserving operation against adaptation, scaling, exploration,
+  mutation, and recovery in AMOS runtimes. Use when a system risks collapse from excessive
+  load, recursion, concurrency, memory pressure, dependency degradation, operational
+  pressure, oscillation, uncontrolled adaptation, or excessive rigidity; when deciding
+  whether to freeze, contain, degrade gracefully, maintain, recover, cautiously adapt,
+  scale, or resume normal operation; when resource headroom, observability, resilience,
+  dependency health, damping, saturation, collapse thresholds, or recovery capacity
+  matter; or when amos-os-runtime-master routes a runtime stability decision. Preserve
+  hard safety boundaries, hardware/environment scope, H/M/L coupling, bounded resources,
+  reversibility, provenance, regime validity, and selective recovery. Stability does
+  not mean immobility, and adaptation is never allowed to consume th Do not use for
+  generic load balancing, network traffic routing, or tasks outside AMOS runtime stability
+  domain.
 parent_skill: amos-os-runtime-master
 domain: runtime
 origin_architect: Trang Phan
@@ -18,6 +29,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-adaptive-stability-balancer-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

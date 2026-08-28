@@ -6,13 +6,24 @@ tags:
 - moc
 - references
 - canon/skill
+- integration
+- output-patterns
+- validation
+- workflows
+- amos-skill-builder-moc
+- canon
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # References — Map of Content
 

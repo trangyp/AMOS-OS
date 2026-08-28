@@ -12,20 +12,29 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - khung_trang
-  - equations
-  - master_mathematics
-  - emergence
-  - ontology
-  - entropy
-  - null_ground
-  - rscf
-  - provenance
-  - canon/universe
+- amos_os
+- canon
+- universe
+- 01_canon
+- khung_trang
+- equations
+- master_mathematics
+- emergence
+- ontology
+- entropy
+- null_ground
+- rscf
+- provenance
+- canon/universe
+- khung-trang
+- l19-proof-capsule
+- 01-canon-moc
+- khung-trang-master
+- amos-x-trang-reality
+- khung-trang-equations-canon
+- 00-home
+- 02-universe-canon-moc
+- 00-index-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,12 +49,12 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - "01_CANON/01_CANON_MOC"
-    - "01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER"
-    - "25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY"
+  - 01_CANON/01_CANON_MOC
+  - 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_MASTER
+  - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
   scope:
-    - UNIVERSE_CANON
-    - KHUNG_TRANG_EQUATIONS
+  - UNIVERSE_CANON
+  - KHUNG_TRANG_EQUATIONS
   confidence_ceiling:
     source_model: SOURCE_BOUND
     runtime: RUNTIME_VERIFIED
@@ -2452,3 +2461,7 @@ RSCF-RELATIONS:
 ```
 
 One mathematically material issue is preserved rather than silently repaired: in Equation 3, **\(\dot S_{export}<0\) alone does not imply \(dS/dt\le0\)**. Given the supplied balance equation, that conclusion additionally requires \(\dot S_{internal}\le|\dot S_{export}|\). The source statement remains intact, while the necessary condition is separately typed as a derived algebraic clarification.
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

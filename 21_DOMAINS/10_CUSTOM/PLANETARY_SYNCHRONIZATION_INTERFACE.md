@@ -12,17 +12,22 @@ segment: 21_DOMAINS/10_CUSTOM
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/10_CUSTOM/PLANETARY_SYNCHRONIZATION_INTERFACE.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 10_custom
-  - planetary_synchronization_interface
-  - psi
-  - planetary_coherence
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 10_custom
+- planetary_synchronization_interface
+- psi
+- planetary_coherence
+- rscf
+- canon_candidate
+- canon/domain
+- psi-framework
+- ubi-omnis
+- 02-universe-canon-moc
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_OMNIS
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_OMNIS
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_CUSTOM
-    - PSI_ENGINE
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_CUSTOM
+  - PSI_ENGINE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   psi_framework:
-    artifact: [[PSI_FRAMEWORK]]
+    artifact:
+    - - PSI_FRAMEWORK
   ubi_omnis:
-    artifact: [[UBI_OMNIS]]
+    artifact:
+    - - UBI_OMNIS
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

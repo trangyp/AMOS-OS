@@ -6,13 +6,24 @@ tags:
 - moc
 - 10-custom
 - canon/domain
+- custom-domains-domain-spec
+- custom-domains-interfaces
+- custom-domains-provenance
+- custom-domains-readme
+- domains-custom-contract
+- domain-canon-programming
+- domain-template
+- heritage-intelligence-domain
+- neurosyncai-domain
+- planetary-synchronization-interface
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 10 Custom — Map of Content
 

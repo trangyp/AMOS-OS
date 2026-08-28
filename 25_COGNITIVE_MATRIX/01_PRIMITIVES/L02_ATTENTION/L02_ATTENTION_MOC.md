@@ -6,13 +6,25 @@ tags:
 - moc
 - l02-attention
 - canon/cognitive-matrix
+- cognitive-matrix-l02-attention-contract
+- 00-index-moc
+- 01-primitives-moc
+- l02-attention-primitives-cognitive-matrix-agents
+- l02-attention-primitives-cognitive-matrix-hml
+- l02-attention-primitives-cognitive-matrix-memory
+- l02-attention-primitives-cognitive-matrix-purpose
+- l02-attention-primitives-cognitive-matrix-readme
+- l02-attention-primitives-cognitive-matrix-repair
+- l02-attention-primitives-cognitive-matrix-rscf
+- l02-attention-primitives-cognitive-matrix-skills
+- l02-attention-primitives-cognitive-matrix-state
+- l02-attention-primitives-cognitive-matrix-tests
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L02 Attention — Map of Content
 

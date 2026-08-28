@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - absolute_biological_integrity_framework
-  - biological_firewalls
-  - anti_depletion
-  - organismic_safety
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- absolute_biological_integrity_framework
+- biological_firewalls
+- anti_depletion
+- organismic_safety
+- rscf
+- canon_candidate
+- canon/knowledge
+- ubi-absolute-biological-integrity
+- absolute-structural-integrity
+- unified-biological-intelligence
+- consentx
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,25 +45,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY
-    - ABSOLUTE_STRUCTURAL_INTEGRITY
-    - AMOS_CORPUS
+  - UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY
+  - ABSOLUTE_STRUCTURAL_INTEGRITY
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_INTEGRITY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_INTEGRITY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_integrity:
-    artifact: [[UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY]]
+    artifact:
+    - - UBI_ABSOLUTE_BIOLOGICAL_INTEGRITY
   structural_integrity:
-    artifact: [[ABSOLUTE_STRUCTURAL_INTEGRITY]]
+    artifact:
+    - - ABSOLUTE_STRUCTURAL_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   integrity_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Absolute Biological Integrity Framework
 

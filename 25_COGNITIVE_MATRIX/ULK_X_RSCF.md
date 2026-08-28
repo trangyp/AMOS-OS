@@ -12,11 +12,22 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/ULK_X_RSCF.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - canon/matrix
-  - rscf
-  - provenance
+- amos_os
+- cognitive_matrix
+- canon/matrix
+- rscf
+- provenance
+- reality-x-ulk
+- ulk-logic-kernel
+- ulk-x-rscf
+- l19-proof-capsule
+- ulk-x-rscf-matrix
+- 25-cognitive-matrix-moc
+- 00-home
+- amos-rscf-nodes
+- k-provenance
+- k-fail-closed
+- amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE

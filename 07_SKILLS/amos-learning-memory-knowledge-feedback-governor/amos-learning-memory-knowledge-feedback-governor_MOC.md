@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-learning-memory-knowledge-feedback-
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Learning-Memory-Knowledge-Feedback-Governor — Map of Content
 

@@ -6,13 +6,16 @@ tags:
 - moc
 - 06-world-model
 - canon/cognitive
+- trang-reality-architecture-binding
+- universal-field-world-model
+- universe-canon-world-model
+- 05-cognitive-organism-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 06 World Model — Map of Content
 

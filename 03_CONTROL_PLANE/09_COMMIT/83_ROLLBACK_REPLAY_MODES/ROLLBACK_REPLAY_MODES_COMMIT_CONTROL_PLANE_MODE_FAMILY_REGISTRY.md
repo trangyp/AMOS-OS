@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 83_rollback_replay_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 83-rollback-replay-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # ROLLBACK REPLAY MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 

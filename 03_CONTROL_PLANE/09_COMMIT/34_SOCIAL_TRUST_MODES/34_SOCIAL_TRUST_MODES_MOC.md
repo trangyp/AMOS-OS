@@ -6,13 +6,14 @@ tags:
 - moc
 - 34-social-trust-modes
 - canon/control-plane
+- 09-commit-moc
+- social-trust-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 34 Social Trust Modes — Map of Content
 

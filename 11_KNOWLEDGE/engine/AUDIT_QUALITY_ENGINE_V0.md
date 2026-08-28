@@ -5,6 +5,14 @@ tags:
 - processing
 - runtime
 - canon/knowledge
+- access-control
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 type: note
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -13,7 +21,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # AUDIT QUALITY ENGINE V0
 

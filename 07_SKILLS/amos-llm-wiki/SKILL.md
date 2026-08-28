@@ -1,7 +1,11 @@
 ---
 schema_version: 1.0
 name: amos-llm-wiki
-description: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained markdown wiki inside the AMOS Obsidian vault. Use when adding a new source to the wiki, answering questions from the wiki, running a wiki health check, or filing a synthesized answer back into 11_KNOWLEDGE/LLM_WIKI/. Do not use for generic note taking, non-AMOS vaults, or tasks outside the LLM_WIKI subsystem.
+description: AMOS LLM Wiki — ingest, query, lint, and maintain a compounding LLM-maintained
+  markdown wiki inside the AMOS Obsidian vault. Use when adding a new source to the
+  wiki, answering questions from the wiki, running a wiki health check, or filing
+  a synthesized answer back into 11_KNOWLEDGE/LLM_WIKI/. Do not use for generic note
+  taking, non-AMOS vaults, or tasks outside the LLM_WIKI subsystem.
 license: MIT
 parent_skill: amos-knowledge-research-master
 domain: knowledge
@@ -28,6 +32,10 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- amos-llm-wiki-workflow
+- amos-llm-wiki-agent
+- references-moc
+- 00-home
 steward: Trang Phan
 ---
 
@@ -113,3 +121,7 @@ This skill is governed by the AMOS constitutional law hierarchy. See `01_CANON/0
 - `11_KNOWLEDGE/LLM_WIKI/wiki/LLM_WIKI_LOG.md` — log
 - [[amos-llm-wiki-workflow]] — bound workflow
 - [[amos-llm-wiki-agent]] — bound agent
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

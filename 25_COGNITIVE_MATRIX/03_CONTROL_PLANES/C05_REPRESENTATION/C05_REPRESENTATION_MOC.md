@@ -6,13 +6,15 @@ tags:
 - moc
 - c05-representation
 - canon/cognitive-matrix
+- 00-index-moc
+- 03-control-planes-moc
+- cognitive-matrix-c05-representation-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C05 Representation — Map of Content
 

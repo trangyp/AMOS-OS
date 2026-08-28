@@ -4,7 +4,9 @@ title: SKILL — Amos Information Collapse Topology
 type: skill
 source: 07_SKILLS/amos-information-collapse-topology
 name: amos-information-collapse-topology
-description: Information Collapse Topology — info capability. Use when executing the core capability within this domain. Use when amos-information-theory-master routes to this specialized capability. Do not use for generic tasks outside info domain.
+description: Information Collapse Topology — info capability. Use when executing the
+  core capability within this domain. Use when amos-information-theory-master routes
+  to this specialized capability. Do not use for generic tasks outside info domain.
 parent_skill: amos-information-theory-master
 domain: info
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-information-collapse-topology-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

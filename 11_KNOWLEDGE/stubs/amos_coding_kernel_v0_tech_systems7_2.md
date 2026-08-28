@@ -7,8 +7,15 @@ tags:
 - kernel
 - tech
 - systems
+- amos-coding-kernel-v0-tech-systems7-2
+- kernel-moc
+- 00-home
 ---
 
 # amos coding kernel v0 tech systems7 2
 
 Stub note for [[amos_coding_kernel_v0_tech_systems7_2]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

@@ -12,29 +12,34 @@ segment: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_AUDIT.md
 tags:
-  - 10_routing
-  - 25_cognitive_matrix
-  - AMOS
-  - AMOS_CORE
-  - AMOS_CORE_v4_4
-  - AMOS_FULL_BRAIN_OS
-  - AMOS_OS
-  - COGNITIVE_MATRIX
-  - ROUTING
-  - ROUTING_AUDIT
-  - TRANG_PHAN
-  - amos_os
-  - audit
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive_matrix
-  - matrix
-  - note
-  - routing
-  - routing_audit.md
-  - rscf
-  - {'identity':-None}
-  - placeholder_expanded
+- 10_routing
+- 25_cognitive_matrix
+- AMOS
+- AMOS_CORE
+- AMOS_CORE_v4_4
+- AMOS_FULL_BRAIN_OS
+- AMOS_OS
+- COGNITIVE_MATRIX
+- ROUTING
+- ROUTING_AUDIT
+- TRANG_PHAN
+- amos_os
+- audit
+- canon/cognitive-matrix
+- canon/universe
+- cognitive_matrix
+- matrix
+- note
+- routing
+- routing_audit.md
+- rscf
+- identity: -None
+- placeholder_expanded
+- 10-routing-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 25-cognitive-matrix-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -53,7 +58,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

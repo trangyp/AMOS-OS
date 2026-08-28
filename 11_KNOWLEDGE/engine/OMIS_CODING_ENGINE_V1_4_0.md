@@ -14,6 +14,13 @@ tags:
 - rscf/state/observation
 - topic/omis-coding-engine-v1-4-0
 - engine
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
+- trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +28,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # OMIS CODING ENGINE V1 4 0
 
 ```json

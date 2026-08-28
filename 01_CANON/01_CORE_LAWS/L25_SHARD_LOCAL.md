@@ -3,29 +3,36 @@ title: L25 SHARD LOCAL
 type: note
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - note
-  - shard_local
-  - sharding
-  - shard_boundaries
-  - local_decisions
-  - local_facts
-  - global_facts
-  - global_invariants
-  - cross_shard
-  - coordination
-  - boundary_contracts
-  - shard_interfaces
-  - conflict_protocol
-  - concurrent_histories
-  - merge_discipline
-  - last_write_wins
-  - locality
-  - distributed_reasoning
-  - coordination_avoidance
-  - provenance
-  - canon/universe
+- canon
+- core_laws
+- note
+- shard_local
+- sharding
+- shard_boundaries
+- local_decisions
+- local_facts
+- global_facts
+- global_invariants
+- cross_shard
+- coordination
+- boundary_contracts
+- shard_interfaces
+- conflict_protocol
+- concurrent_histories
+- merge_discipline
+- last_write_wins
+- locality
+- distributed_reasoning
+- coordination_avoidance
+- provenance
+- canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

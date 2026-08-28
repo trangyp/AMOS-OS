@@ -12,17 +12,22 @@ segment: 22_RESEARCH/04_VALIDATION
 artifact_kind: VALIDATION_AUDIT
 path: 22_RESEARCH/04_VALIDATION/CANON_SOURCE_CLAIM_AUDIT.md
 tags:
-  - amos_os
-  - research
-  - vault
-  - 22_research
-  - 04_validation
-  - canon_source_claim_audit
-  - epistemic_audit
-  - provenance_verification
-  - rscf
-  - canon_candidate
-  - canon/research
+- amos_os
+- research
+- vault
+- 22_research
+- 04_validation
+- canon_source_claim_audit
+- epistemic_audit
+- provenance_verification
+- rscf
+- canon_candidate
+- canon/research
+- canon-claim-registry
+- 04-validation-moc
+- 01-canon-moc
+- 00-home
+- 22-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 01_CANON/01_CANON_MOC
-    - 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY
-    - AMOS_CORPUS
+  - 01_CANON/01_CANON_MOC
+  - 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY
+  - AMOS_CORPUS
   scope:
-    - RESEARCH_VALIDATION
-    - CANON_CLAIM_AUDIT
-    - SOURCE_DEFINED_MODEL
+  - RESEARCH_VALIDATION
+  - CANON_CLAIM_AUDIT
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   validation_moc:
     artifact: 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC

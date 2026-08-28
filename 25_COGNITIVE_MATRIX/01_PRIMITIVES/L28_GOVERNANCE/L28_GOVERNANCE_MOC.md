@@ -6,13 +6,25 @@ tags:
 - moc
 - l28-governance
 - canon/cognitive-matrix
+- cognitive-matrix-l28-governance-contract
+- 00-index-moc
+- 01-primitives-moc
+- l28-governance-primitives-cognitive-matrix-agents
+- l28-governance-primitives-cognitive-matrix-hml
+- l28-governance-primitives-cognitive-matrix-memory
+- l28-governance-primitives-cognitive-matrix-purpose
+- l28-governance-primitives-cognitive-matrix-readme
+- l28-governance-primitives-cognitive-matrix-repair
+- l28-governance-primitives-cognitive-matrix-rscf
+- l28-governance-primitives-cognitive-matrix-skills
+- l28-governance-primitives-cognitive-matrix-state
+- l28-governance-primitives-cognitive-matrix-tests
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L28 Governance — Map of Content
 

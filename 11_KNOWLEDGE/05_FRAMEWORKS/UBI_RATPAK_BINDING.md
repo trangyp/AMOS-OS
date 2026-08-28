@@ -12,17 +12,23 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_RATPAK_BINDING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_ratpak_binding
-  - relational_telemetry
-  - data_packaging
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_ratpak_binding
+- relational_telemetry
+- data_packaging
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- ratpak
+- ubi-wearable-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,25 +43,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - RATPAK_SPECIFICATION
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - RATPAK_SPECIFICATION
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BINDINGS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BINDINGS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   ratpak:
-    artifact: [[RATPAK]]
+    artifact:
+    - - RATPAK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   binding_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI-[[RATPAK]] Binding
 

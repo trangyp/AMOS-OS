@@ -12,21 +12,25 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_SPEC
 path: 25_COGNITIVE_MATRIX/UBI_X_EMOTION.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - ubi_x_emotion
-  - emotion_engine
-  - affective_computing
-  - affective_vector
-  - nei
-  - valence
-  - arousal
-  - dominance
-  - cooling_circuit
-  - substrate_refusal
-  - rscf
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- ubi_x_emotion
+- emotion_engine
+- affective_computing
+- affective_vector
+- nei
+- valence
+- arousal
+- dominance
+- cooling_circuit
+- substrate_refusal
+- rscf
+- ubi-x-emotion-matrix
+- ubi-emotion-binding
+- unified-biological-intelligence
+- 25-cognitive-matrix-moc
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -37,16 +41,18 @@ validation_status: PASSED_CONSTITUTIONAL_TESTS
 executable_binding: ESTABLISHED
 framework_binding:
   matrix_counterpart:
-    artifact: [[UBI_X_EMOTION_MATRIX]]
+    artifact:
+    - - UBI_X_EMOTION_MATRIX
   knowledge_binding:
-    artifact: [[UBI_EMOTION_BINDING]]
+    artifact:
+    - - UBI_EMOTION_BINDING
 source_integrity:
   equation_rendering: PARTIALLY_CORRUPTED
   recoverable_equation: E_t = <v_t, a_t, d_t> ∈ [-1,1] × [0,1] × [-1,1]
   component_semantics: RECOVERABLE_FROM_LOCAL_SOURCE_CONTEXT
   unresolved_matrix_fields:
-    - FIRST_TRIGGER_VARIABLES
-    - TARGET_PLANES
+  - FIRST_TRIGGER_VARIABLES
+  - TARGET_PLANES
   reconstruction_policy: DO_NOT_INVENT_MISSING_CANON
 ---
 

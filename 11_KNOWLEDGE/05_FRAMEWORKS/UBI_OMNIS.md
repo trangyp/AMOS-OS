@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_OMNIS.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_omnis
-  - omniverse_biological_intelligence
-  - planetary_coherence
-  - multi_scale_biology
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_omnis
+- omniverse_biological_intelligence
+- planetary_coherence
+- multi_scale_biology
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- amos-ubi-super-engine
+- ubi-fractal-architecture
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,28 +44,28 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_UBI_OMNIS_USE_CASES
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - AMOS_UBI_OMNIS_USE_CASES
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - OMNIVERSE_BIOLOGY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - OMNIVERSE_BIOLOGY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   super_engine:
-    artifact: [[AMOS_UBI_SUPER_ENGINE]]
+    artifact:
+    - - AMOS_UBI_SUPER_ENGINE
   use_cases:
-    artifact: '11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES'
+    artifact: 11_KNOWLEDGE/AMOS_UBI_OMNIS_USE_CASES
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   omnis_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # UBI OMNIS — Multi-Scale Biological Intelligence
 

@@ -5,8 +5,15 @@ tags:
 - analogy
 - abstraction
 - kernel
+- analogy-abstraction-kernel
+- kernel-moc
+- 00-home
 ---
 
 # analogy abstraction kernel
 
 Stub note for [[analogy abstraction kernel]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

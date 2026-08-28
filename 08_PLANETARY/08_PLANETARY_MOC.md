@@ -6,6 +6,7 @@ tags:
 - moc
 - planetary
 - biosphere
+- psi-planetary-layer
 ---
 
 # 08_PLANETARY MOC

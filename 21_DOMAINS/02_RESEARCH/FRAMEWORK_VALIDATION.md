@@ -12,17 +12,23 @@ segment: 21_DOMAINS/02_RESEARCH
 artifact_kind: DOMAIN_VALIDATION
 path: 21_DOMAINS/02_RESEARCH/FRAMEWORK_VALIDATION.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 02_research
-  - framework_validation
-  - theoretical_verification
-  - multi_system_coherence
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 02_research
+- framework_validation
+- theoretical_verification
+- multi_system_coherence
+- rscf
+- canon_candidate
+- canon/domain
+- cross-framework-validation
+- 05-frameworks-moc
+- framework-empirical-status
+- 00-home
+- 21-domains-moc
+- 02-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +43,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 22_RESEARCH/04_VALIDATION/CROSS_FRAMEWORK_VALIDATION
-    - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
-    - AMOS_CORPUS
+  - 22_RESEARCH/04_VALIDATION/CROSS_FRAMEWORK_VALIDATION
+  - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_RESEARCH
-    - FRAMEWORK_VALIDATION
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_RESEARCH
+  - FRAMEWORK_VALIDATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   validation_report:
-    artifact: [[CROSS_FRAMEWORK_VALIDATION]]
+    artifact:
+    - - CROSS_FRAMEWORK_VALIDATION
   frameworks_moc:
-    artifact: [[05_FRAMEWORKS_MOC]]
+    artifact:
+    - - 05_FRAMEWORKS_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

@@ -6,13 +6,16 @@ tags:
 - moc
 - 19-tests
 - canon/test
+- tests-readme
+- tests-test-contract
+- 00-index-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 19 Tests — Map of Content
 

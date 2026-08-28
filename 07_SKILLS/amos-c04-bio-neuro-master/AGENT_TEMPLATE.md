@@ -6,13 +6,14 @@ tags:
 - note
 - amos-c04-bio-neuro-master
 - canon/skill
+- skill
+- amos-c04-bio-neuro-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-c04-bio-neuro-master
 

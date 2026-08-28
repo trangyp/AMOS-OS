@@ -12,17 +12,22 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/06_BIOLOGY/SI.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 06_biology
-  - si
-  - somatic_intelligence
-  - biotensegrity_proprioception
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 06_biology
+- si
+- somatic_intelligence
+- biotensegrity_proprioception
+- rscf
+- canon_candidate
+- canon/domain
+- ubi-somatic-intelligence
+- unified-biological-intelligence
+- uba-framework
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_BIOLOGY
-    - SI_ENGINE
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_BIOLOGY
+  - SI_ENGINE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   domain_knowledge:
     artifact: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_SOMATIC_INTELLIGENCE

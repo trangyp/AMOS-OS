@@ -6,13 +6,14 @@ tags:
 - moc
 - 25-scope-regime-modes
 - canon/control-plane
+- 09-commit-moc
+- scope-regime-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 25 Scope Regime Modes — Map of Content
 

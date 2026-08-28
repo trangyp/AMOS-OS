@@ -6,13 +6,47 @@ tags:
 - moc
 - 03-cognition-canon
 - canon/universe
+- amos-19x19-cognitive-field
+- amos-agency-canon
+- amos-attention-canon
+- amos-cognition-canon
+- amos-cognition-master-canon
+- amos-cognitive-field-canon
+- amos-consciousness-canon
+- amos-cross-species-functional-mode-model
+- amos-emotion-canon
+- amos-emotion-master-canon
+- amos-full-brain-os-canon
+- amos-full-brain-os-master-canon
+- amos-homeostasis-canon
+- amos-human-intelligence-canon
+- amos-identity-canon
+- amos-instinct-canon
+- amos-intuition-canon
+- amos-learning-canon
+- amos-memory-canon
+- amos-metacognition-canon
+- amos-perception-canon
+- amos-personality-canon
+- amos-prediction-canon
+- amos-super-consciousness-canon
+- amos-super-mind-os-canon
+- amos-world-model-canon
+- canon-cognition-canon-contract
+- cognition-canon
+- cognition-canon-canon-readme
+- cognitive-canon-relation-map
+- cognitive-organism-canon
+- cross-species-functional-mode-canon
+- full-brain-os-canon
+- 01-canon-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Cognition Canon — Map of Content
 

@@ -5,6 +5,15 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- integration
+- architecture
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- canon
+- amos-simulation-kernel-v0-math-foundations
+- automation-profiles
+- trang-moc
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +22,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # **THE TRANG GRAND SYSTEM CODEX™**
 * * *

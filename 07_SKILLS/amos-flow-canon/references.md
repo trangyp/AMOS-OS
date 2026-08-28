@@ -6,13 +6,14 @@ tags:
 - note
 - amos-flow-canon
 - canon/skill
+- skill
+- amos-flow-canon-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # References — amos-flow-canon
 

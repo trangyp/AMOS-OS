@@ -12,19 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_ZERO_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - heritage_zero_framework
-  - zero_state
-  - invariant_origin
-  - anti_autopoisoning
-  - ground_state
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- heritage_zero_framework
+- zero_state
+- invariant_origin
+- anti_autopoisoning
+- ground_state
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- trang-zero-framework
+- heritage-x-trang-zero
+- heritage-to-trang-zero-binding
+- heritage-x-trang-zero-matrix
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,27 +47,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - TRANG_ZERO_FRAMEWORK_CANON
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - TRANG_ZERO_FRAMEWORK_CANON
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - NULL_STATE_GOVERNANCE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - NULL_STATE_GOVERNANCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   trang_zero_coupling:
-    artifact: [[TRANG_ZERO_FRAMEWORK]]
+    artifact:
+    - - TRANG_ZERO_FRAMEWORK
   cognitive_matrix_binding:
-    artifact: [[HERITAGE_X_TRANG_ZERO]]
+    artifact:
+    - - HERITAGE_X_TRANG_ZERO
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   zero_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage Zero Framework
 

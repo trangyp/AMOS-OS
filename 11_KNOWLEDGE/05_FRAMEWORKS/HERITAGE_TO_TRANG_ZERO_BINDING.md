@@ -12,20 +12,29 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_TRANG_ZERO_BINDING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - heritage_zero_binding
-  - trang_zero
-  - heritage
-  - null_state_ground
-  - invariant_root
-  - anti_autopoisoning
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- heritage_zero_binding
+- trang_zero
+- heritage
+- null_state_ground
+- invariant_root
+- anti_autopoisoning
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- trang-zero-framework
+- heritage-x-trang-zero
+- heritage-x-trang-zero-matrix
+- trang-reality-architecture
+- heritage-zero-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,30 +49,33 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - TRANG_ZERO_FRAMEWORK_CANON
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - TRANG_ZERO_FRAMEWORK_CANON
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRAMEWORK_BINDINGS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FRAMEWORK_BINDINGS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   source_framework:
     name: Heritage Decision Intelligence™
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   target_framework:
     name: Trang ∅ / Trang Zero Framework
-    artifact: [[TRANG_ZERO_FRAMEWORK]]
+    artifact:
+    - - TRANG_ZERO_FRAMEWORK
   cognitive_matrix_binding:
-    artifact: [[HERITAGE_X_TRANG_ZERO]]
-    matrix: [[HERITAGE_X_TRANG_ZERO_MATRIX]]
+    artifact:
+    - - HERITAGE_X_TRANG_ZERO
+    matrix:
+    - - HERITAGE_X_TRANG_ZERO_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
   null_state_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage-to-TRANG Zero Binding
 

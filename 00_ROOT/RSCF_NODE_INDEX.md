@@ -19,6 +19,11 @@ tags:
 - index
 - navigation
 - canon/root
+- 00-home
+- amos-rscf-nodes
+- 00-root-moc
+- amos-moc
+- 00-cosmo-brain-moc
 title: RSCF Node Index
 rscf:
   state: SOURCE_CLAIM
@@ -26,7 +31,6 @@ rscf:
   provenance: AMOS_corpus
   scope: root_index
 ---
-
 
 # RSCF Node Index
 

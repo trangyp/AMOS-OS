@@ -6,13 +6,18 @@ tags:
 - note
 - c06-memory
 - canon/cognitive-matrix
+- memory
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- c06-memory-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C06 — Definition
 

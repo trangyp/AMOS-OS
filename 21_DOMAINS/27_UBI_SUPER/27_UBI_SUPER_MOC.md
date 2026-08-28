@@ -6,13 +6,17 @@ tags:
 - moc
 - 27-ubi-super
 - canon/domain
+- domains-ubi-super-contract
+- ubi-super-domains-domain-spec
+- ubi-super-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 27 Ubi Super — Map of Content
 

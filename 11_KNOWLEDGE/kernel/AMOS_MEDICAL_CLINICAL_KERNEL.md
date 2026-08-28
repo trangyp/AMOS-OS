@@ -14,6 +14,7 @@ tags:
 - rscf/state/source-claim
 - topic/amos-medical-clinical-kernel-v0
 - kernel
+- kernel-moc
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS MEDICAL CLINICAL KERNEL V0 BIOLOGY COGNITION7
 
 ```json

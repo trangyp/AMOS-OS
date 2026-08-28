@@ -14,6 +14,17 @@ tags:
 - rscf/state/observation
 - topic/hse-engine
 - engine
+- skill
+- architecture
+- integration
+- validation
+- 00-home
+- canon
+- knowledge-moc
+- amos-simulation-kernel-v0-math-foundations
+- system-scan-agent
+- automation-profiles
+- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +32,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # HSE ENGINE UNIPOWER
 
 ============================================================

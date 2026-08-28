@@ -6,13 +6,14 @@ tags:
 - moc
 - 08-execution-modes
 - canon/control-plane
+- 09-commit-moc
+- execution-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 08 Execution Modes — Map of Content
 

@@ -12,17 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/RATPAK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ratpak
-  - relational_adaptive_toolkit
-  - adaptive_protocol
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ratpak
+- relational_adaptive_toolkit
+- adaptive_protocol
+- rscf
+- canon_candidate
+- canon/knowledge
+- ubi-ratpak-binding
+- unified-biological-intelligence
+- id-exchange
+- consentx
+- ubi-wearable-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,25 +45,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - RATPAK_SPECIFICATION
-    - AMOS_CORPUS
+  - RATPAK_SPECIFICATION
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - ADAPTIVE_TOOLKITS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - ADAPTIVE_TOOLKITS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: RATPAK — Relational Adaptive Toolkit & Protocol Architecture
     role: RELATIONAL_DATA_PACKAGING_AND_INTERFACE_ADAPTATION
   biological_binding:
-    artifact: [[UBI_RATPAK_BINDING]]
+    artifact:
+    - - UBI_RATPAK_BINDING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   protocol_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # RATPAK — Relational Adaptive Toolkit & Protocol Architecture
 

@@ -6,13 +6,16 @@ tags:
 - moc
 - 40-hse-safety
 - canon/domain
+- domains-hse-safety-contract
+- hse-safety-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 40 Hse Safety — Map of Content
 

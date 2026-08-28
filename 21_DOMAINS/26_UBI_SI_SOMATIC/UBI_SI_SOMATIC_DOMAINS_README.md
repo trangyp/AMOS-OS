@@ -6,13 +6,27 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- readme
+- domains-ubi-si-somatic-contract
+- ubi-si-somatic-domains-domain-spec
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 26-ubi-si-somatic-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # UBI SI SOMATIC DOMAINS [[README]]
 

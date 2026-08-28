@@ -6,13 +6,22 @@ tags:
 - moc
 - 03-rscf
 - canon/knowledge
+- amos-rscf-index
+- canon-rscf-index
+- heritage-rscf-index
+- neurosyncai-rscf-index
+- qls-qcla-rscf-index
+- trang-reality-rscf-index
+- tss-tpe-rscf-index
+- ubi-rscf-index
+- universe-rscf-index
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # 03 Rscf — Map of Content
 

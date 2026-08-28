@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-translation-rscf-architecture
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Translation-Rscf-Architecture — Map of Content
 

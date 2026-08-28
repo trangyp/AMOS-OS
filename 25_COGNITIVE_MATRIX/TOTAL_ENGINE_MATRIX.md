@@ -12,29 +12,55 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_ENGINE_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - total_engine_matrix
-  - engine_routing
-  - multi_engine_convergence
-  - domain_engines
-  - canonical_domain_engines
-  - c01_c12
-  - super_engines
-  - ldai
-  - frai
-  - asea
-  - dcp
-  - fail_closed
-  - cross_plane
-  - control_plane
-  - runtime
-  - domains
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- total_engine_matrix
+- engine_routing
+- multi_engine_convergence
+- domain_engines
+- canonical_domain_engines
+- c01_c12
+- super_engines
+- ldai
+- frai
+- asea
+- dcp
+- fail_closed
+- cross_plane
+- control_plane
+- runtime
+- domains
+- rscf
+- canon_candidate
+- canon/matrix
+- 03-control-plane-moc
+- 21-domains-moc
+- 25-cognitive-matrix-moc
+- validation
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- 11-knowledge-moc
+- total-canon-matrix
+- unified-biological-intelligence
+- tss-the-trang-system
+- tpe-trang-prediction-engine
+- k-rscf
+- k-hml
+- k-canon
+- k-control-plane
+- k-domains
+- k-provenance
+- k-provenance-topology
+- k-fail-closed
+- k-authority
+- k-governance
+- k-anti-autopoisoning
+- k-governed-evolution
+- c10-tech-engineering
+- amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -49,22 +75,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-    - 21_DOMAINS/21_DOMAINS_MOC
-    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
-    - AMOS_CORPUS
+  - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+  - 21_DOMAINS/21_DOMAINS_MOC
+  - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - MASTER_ENGINE_MATRIX
-    - DOMAIN_ENGINES_C01_C12
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - MASTER_ENGINE_MATRIX
+  - DOMAIN_ENGINES_C01_C12
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   control_plane:
-    artifact: [[03_CONTROL_PLANE_MOC]]
+    artifact:
+    - - 03_CONTROL_PLANE_MOC
   domains_moc:
-    artifact: [[21_DOMAINS_MOC]]
+    artifact:
+    - - 21_DOMAINS_MOC
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

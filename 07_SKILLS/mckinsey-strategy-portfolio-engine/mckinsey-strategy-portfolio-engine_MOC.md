@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-strategy-portfolio-engine
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Strategy-Portfolio-Engine — Map of Content
 

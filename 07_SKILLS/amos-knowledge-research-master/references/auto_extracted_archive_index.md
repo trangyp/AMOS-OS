@@ -6,13 +6,22 @@ tags:
 - reference
 - amos-knowledge-research-master
 - canon/skill
+- index-main
+- 00-home
+- system-scan-agent
+- automation-profiles
+- references-moc
+- amos-simulation-kernel-v0-math-foundations
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Auto-Extracted and Archive Index
 

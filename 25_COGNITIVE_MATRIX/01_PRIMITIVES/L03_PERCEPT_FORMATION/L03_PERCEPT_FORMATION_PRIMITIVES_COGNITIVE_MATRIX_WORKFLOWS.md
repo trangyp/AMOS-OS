@@ -11,6 +11,12 @@ tags:
 - rscf
 - governance
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l03-percept-formation-moc
 title: L03_PERCEPT_FORMATION — Workflows
 origin_architect: Trang Phan
 status: MODEL_CONTRACT / UNVALIDATED
@@ -22,7 +28,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L03_PERCEPT_FORMATION — Workflows
 

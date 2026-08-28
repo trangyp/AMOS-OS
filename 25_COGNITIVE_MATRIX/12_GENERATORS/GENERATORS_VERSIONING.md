@@ -12,18 +12,30 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: DOCUMENT
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_VERSIONING.md
 tags:
-  - 12_GENERATORS
-  - 12_generators
-  - 25_cognitive_matrix
-  - amos_os
-  - canon/cognitive-matrix
-  - canon/universe
-  - document
-  - generators
-  - generators_versioning.md
-  - rscf
-  - versioning
-  - placeholder_expanded
+- 12_GENERATORS
+- 12_generators
+- 25_cognitive_matrix
+- amos_os
+- canon/cognitive-matrix
+- canon/universe
+- document
+- generators
+- generators_versioning.md
+- rscf
+- versioning
+- placeholder_expanded
+- workflow
+- revocation
+- validation
+- integration
+- 00-root-moc
+- canon
+- amos-moc
+- 00-home
+- generators-map
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 12-generators-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -42,7 +54,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -12,22 +12,27 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: VALIDATION
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_REVALIDATION_SCHEDULE.md
 tags:
-  - 00_mode_index
-  - 03_control_plane
-  - 09_commit
-  - amos_os
-  - canon/control-plane
-  - canon/universe
-  - commit
-  - control_plane
-  - mode_index
-  - mode_revalidation_schedule.md
-  - note
-  - revalidation
-  - rscf
-  - schedule
-  - validation
-  - placeholder_expanded
+- 00_mode_index
+- 03_control_plane
+- 09_commit
+- amos_os
+- canon/control-plane
+- canon/universe
+- commit
+- control_plane
+- mode_index
+- mode_revalidation_schedule.md
+- note
+- revalidation
+- rscf
+- schedule
+- validation
+- placeholder_expanded
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-mode-index-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -46,7 +51,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

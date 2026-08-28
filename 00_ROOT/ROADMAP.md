@@ -3,7 +3,8 @@ type: roadmap
 source: 00_ROOT
 artifact_id: AMOS-OS-ROADMAP
 name: AMOS_OS_ROADMAP
-title: AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational Maturity Plan
+title: AMOS OS Roadmap — Governed Promotion, Integration, Validation, and Operational
+  Maturity Plan
 document_version: 2.0.0
 roadmap_version: 1.0.0
 amos_core_target: v4.4
@@ -73,8 +74,48 @@ tags:
 - topic/roadmap
 - topic/system-promotion
 - topic/operational-maturity
+- readme
+- 00-root-moc
+- neural-network
+- architecture
+- full-tree
+- system-map
+- dependency-map
+- authoritative-state
+- 00-root-naming-standard
+- placement-rules
+- canon-map
+- kernel-map
+- control-plane-map
+- runtime-map
+- cognitive-organism-map
+- agent-map
+- skill-map
+- workflow-map
+- protocol-map
+- memory-memory-map
+- amos-full-brain-os-architecture
+- state-state-map
+- model-map
+- tool-map
+- interface-map
+- schema-map
+- observability-observability-map
+- security-map
+- test-map
+- operations-map
+- domain-alias-map
+- index-research-readme
+- operating-model
+- legacy-archive-readme
+- cognitive-matrix-architecture
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 aliases:
-- AMOS Roadmap - AMOS OS Roadmap - AMOS Implementation Roadmap - AMOS Promotion Roadmap - AM
+- AMOS Roadmap - AMOS OS Roadmap - AMOS Implementation Roadmap - AMOS Promotion Roadmap
+  - AM
 ---
 
 # AMOS OS Roadmap

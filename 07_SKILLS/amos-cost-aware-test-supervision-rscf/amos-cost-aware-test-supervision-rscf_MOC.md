@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-cost-aware-test-supervision-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Cost-Aware-Test-Supervision-Rscf — Map of Content
 

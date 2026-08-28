@@ -12,27 +12,37 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CORE_LAW
 path: 01_CANON/01_CORE_LAWS/FAIL_CLOSED_GOVERNANCE.md
 tags:
-  - amos_os
-  - canon
-  - core_law
-  - fail_closed
-  - governance
-  - authority
-  - ambiguity
-  - invariant
-  - execution
-  - suspension
-  - admission
-  - authorization
-  - commit
-  - rollback
-  - repair
-  - provenance
-  - freshness
-  - rscf
-  - transactions
-  - safety
-  - canon/core
+- amos_os
+- canon
+- core_law
+- fail_closed
+- governance
+- authority
+- ambiguity
+- invariant
+- execution
+- suspension
+- admission
+- authorization
+- commit
+- rollback
+- repair
+- provenance
+- freshness
+- rscf
+- transactions
+- safety
+- canon/core
+- 00-home
+- amos-rscf-nodes
+- 01-core-laws-moc
+- law-hierarchy
+- atomic-multi-rscf-reasoning
+- invariant-registry
+- 00-root-moc
+- amos-moc
+- kernel-readme
+- control-plane-readme
 version: 1.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -47,14 +57,14 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - 01_CANON/01_CORE_LAWS
+  - AMOS_corpus
+  - 01_CANON/01_CORE_LAWS
   scope:
-    - CORE_LAWS
-    - GOVERNANCE
-    - EXECUTION_GATING
-    - AUTHORITY
-    - INVARIANT_ENFORCEMENT
+  - CORE_LAWS
+  - GOVERNANCE
+  - EXECUTION_GATING
+  - AUTHORITY
+  - INVARIANT_ENFORCEMENT
   regime: governed_execution
   confidence_ceiling:
     source_rule: SOURCE_GROUNDED

@@ -6,13 +6,43 @@ tags:
 - control_plane
 - 16_mode_template
 - canon/control-plane
+- readme
+- mode-template-commit-control-plane-tests
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- mode-template-commit-control-plane-aliases
+- mode-template-commit-control-plane-benchmarks
+- mode-template-commit-control-plane-composition
+- mode-template-commit-control-plane-domain-weights
+- mode-template-commit-control-plane-engine-weights
+- mode-template-commit-control-plane-exit-criteria
+- mode-template-commit-control-plane-governance
+- mode-template-commit-control-plane-input-contract
+- mode-template-commit-control-plane-layer-weights
+- mode-template-commit-control-plane-mode-spec
+- mode-template-commit-control-plane-observability
+- mode-template-commit-control-plane-output-contract
+- mode-template-commit-control-plane-preconditions
+- mode-template-commit-control-plane-provenance
+- mode-template-commit-control-plane-purpose-scope
+- mode-template-commit-control-plane-safety-gates
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 16-mode-template-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # MODE TEMPLATE COMMIT CONTROL PLANE [[README]]
 

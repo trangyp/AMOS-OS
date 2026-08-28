@@ -12,41 +12,66 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/CORE_X_RUNTIME_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - core_x_runtime_matrix
-  - matrix_table
-  - runtime_dispatch
-  - runtime_pipeline
-  - boot
-  - router
-  - execution
-  - finalization
-  - deterministic_engine
-  - local_proof_finalizer
-  - safe_route
-  - rollback
-  - proof_capsule
-  - substrate_integrity
-  - null_invariant
-  - mece_route_decomposition
-  - syntax_invariant_logic
-  - law_of_law
-  - dependency_closure
-  - causal_epoch
-  - mvcc
-  - cas
-  - atomic_multi_rscf
-  - shard_local_finalization
-  - proof_based_coordination_avoidance
-  - provenance
-  - scope
-  - regime
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- core_x_runtime_matrix
+- matrix_table
+- runtime_dispatch
+- runtime_pipeline
+- boot
+- router
+- execution
+- finalization
+- deterministic_engine
+- local_proof_finalizer
+- safe_route
+- rollback
+- proof_capsule
+- substrate_integrity
+- null_invariant
+- mece_route_decomposition
+- syntax_invariant_logic
+- law_of_law
+- dependency_closure
+- causal_epoch
+- mvcc
+- cas
+- atomic_multi_rscf
+- shard_local_finalization
+- proof_based_coordination_avoidance
+- provenance
+- scope
+- regime
+- rscf
+- canon_candidate
+- canon/matrix
+- core-x-runtime
+- 25-cognitive-matrix-moc
+- validation
+- memory
+- full-brain-bootstrap
+- canon
+- l19-proof-capsule
+- local-proof-finalizer
+- 04-runtime-moc
+- 01-canon-moc
+- readme
+- architecture
+- 00-home
+- amos-rscf-nodes
+- k-rscf
+- k-hml
+- k-gmef
+- k-provenance
+- k-provenance-topology
+- k-failure-recovery
+- k-causal-epoch
+- k-mvcc
+- k-cas
+- k-atomic-multi-rscf
+- amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -63,48 +88,38 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 25_COGNITIVE_MATRIX/CORE_X_RUNTIME
-    - 04_RUNTIME/04_RUNTIME_MOC
-    - AMOS_CORPUS
+  - 25_COGNITIVE_MATRIX/CORE_X_RUNTIME
+  - 04_RUNTIME/04_RUNTIME_MOC
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - RUNTIME_STAGE_ROUTING
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - CROSS_PLANE_MATRIX_TABLE
+  - RUNTIME_STAGE_ROUTING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
-    artifact: [[CORE_X_RUNTIME]]
+    artifact:
+    - - CORE_X_RUNTIME
   runtime_moc:
     artifact: 04_RUNTIME/04_RUNTIME_MOC
   canon_moc:
     artifact: 01_CANON/01_CANON_MOC
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
-  matrix_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  routed_stage_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing:
-    SOURCE_DEFINED_MODEL
-  runtime_stage_names:
-    SOURCE_DEFINED_MODEL
-  subsystem_bindings:
-    SOURCE_DEFINED_MODEL
-  failure_actions:
-    SOURCE_DEFINED_MODEL
-  runtime_enforcement:
-    NOT_ESTABLISHED
-  executable_pipeline:
-    NOT_ESTABLISHED
-  automatic_rollback_runtime:
-    NOT_ESTABLISHED
-  empirical_validation:
-    NOT_ESTABLISHED
-  formal_verification:
-    NOT_ESTABLISHED
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  matrix_structure: VERIFIED_SOURCE_STRUCTURE
+  routed_stage_structure: VERIFIED_SOURCE_STRUCTURE
+  cross_plane_routing: SOURCE_DEFINED_MODEL
+  runtime_stage_names: SOURCE_DEFINED_MODEL
+  subsystem_bindings: SOURCE_DEFINED_MODEL
+  failure_actions: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
+  executable_pipeline: NOT_ESTABLISHED
+  automatic_rollback_runtime: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  formal_verification: NOT_ESTABLISHED
 ---
 
 # Core x Runtime Cross-Plane Routing Matrix Table

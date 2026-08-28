@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTELLIGENCE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_LINEAGE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - heritage_lineage
-  - knowledge_lineage
-  - lineage_tree
-  - conceptual_transmission
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- heritage_lineage
+- knowledge_lineage
+- lineage_tree
+- conceptual_transmission
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- heritage-provenance
+- heritage-handbook
+- amos-x-heritage
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,24 +45,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - KNOWLEDGE_LINEAGE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - KNOWLEDGE_LINEAGE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   provenance:
-    artifact: [[HERITAGE_PROVENANCE]]
+    artifact:
+    - - HERITAGE_PROVENANCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   lineage_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage Lineage & Knowledge Transmission
 

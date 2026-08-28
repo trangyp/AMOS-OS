@@ -6,13 +6,15 @@ tags:
 - moc
 - c07-perception
 - canon/cognitive-matrix
+- cognitive-matrix-c07-perception-contract
+- 00-index-moc
+- 03-control-planes-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C07 Perception — Map of Content
 

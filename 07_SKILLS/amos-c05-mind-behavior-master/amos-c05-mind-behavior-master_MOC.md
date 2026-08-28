@@ -6,13 +6,16 @@ tags:
 - moc
 - amos-c05-mind-behavior-master
 - canon/skill
+- agent-template
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-C05-Mind-Behavior-Master — Map of Content
 

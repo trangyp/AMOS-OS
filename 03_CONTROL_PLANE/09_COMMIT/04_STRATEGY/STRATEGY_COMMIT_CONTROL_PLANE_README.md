@@ -6,13 +6,38 @@ tags:
 - control_plane
 - 04_strategy
 - canon/control-plane
+- readme
+- strategy-commit-control-plane-mode-spec
+- strategy-commit-control-plane-provenance
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- strategy-commit-control-plane-activation-rules
+- strategy-commit-control-plane-domain-weights
+- strategy-commit-control-plane-engine-weights
+- strategy-commit-control-plane-input-contract
+- strategy-commit-control-plane-layer-weights
+- strategy-commit-control-plane-mode-family-registry
+- strategy-commit-control-plane-mode-family-spec
+- strategy-commit-control-plane-output-contract
+- strategy-commit-control-plane-preconditions
+- strategy-commit-control-plane-purpose-scope
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 04-strategy-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # STRATEGY COMMIT CONTROL PLANE [[README]]
 

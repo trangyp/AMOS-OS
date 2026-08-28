@@ -6,13 +6,21 @@ tags:
 - reference
 - amos-representation-aware-bug-localization-rscf
 - canon/skill
+- cosmo-brain-moc
+- references-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 2026-08-23-amos-cognitive-substrate-bug-fixes
+- 2026-08-23-deterministic-verification-summary
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Vault-Sourced Domain Knowledge
 

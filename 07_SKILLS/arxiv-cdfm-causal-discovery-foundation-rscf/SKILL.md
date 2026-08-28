@@ -4,7 +4,10 @@ title: SKILL — Arxiv Cdfm Causal Discovery Foundation Rscf
 type: skill
 source: 07_SKILLS/arxiv-cdfm-causal-discovery-foundation-rscf
 name: arxiv-cdfm-causal-discovery-foundation-rscf
-description: Cdfm Causal Discovery Foundation — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Cdfm Causal Discovery Foundation — arxiv research capability. Use when
+  arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master
+  routes to this specialized capability. Do not use for generic tasks outside arxiv
+  domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- arxiv-cdfm-causal-discovery-foundation-rscf-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

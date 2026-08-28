@@ -6,13 +6,22 @@ tags:
 - moc
 - 05-design
 - canon/domain
+- bio-logical-architecture-design
+- design-domains-domain-spec
+- design-domains-interfaces
+- design-domains-provenance
+- design-domains-readme
+- design-for-absolute-integrity
+- domains-design-contract
+- irreducible-systems-design
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Design — Map of Content
 

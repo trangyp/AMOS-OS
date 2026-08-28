@@ -12,36 +12,56 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/CORE_X_RUNTIME.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - core_x_runtime
-  - runtime_execution
-  - deterministic_loop
-  - deterministic_reasoning_cycle
-  - input_telemetry_ingestion
-  - verified_commit_dispatch
-  - reality_gate
-  - canonical_laws
-  - runtime_integration
-  - state_transition
-  - proof_capsule
-  - provenance
-  - dependency_closure
-  - scope
-  - regime
-  - freshness
-  - causal_epoch
-  - mvcc
-  - cas
-  - atomic_multi_rscf
-  - local_finalization
-  - proof_based_coordination_avoidance
-  - failure_recovery
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- core_x_runtime
+- runtime_execution
+- deterministic_loop
+- deterministic_reasoning_cycle
+- input_telemetry_ingestion
+- verified_commit_dispatch
+- reality_gate
+- canonical_laws
+- runtime_integration
+- state_transition
+- proof_capsule
+- provenance
+- dependency_closure
+- scope
+- regime
+- freshness
+- causal_epoch
+- mvcc
+- cas
+- atomic_multi_rscf
+- local_finalization
+- proof_based_coordination_avoidance
+- failure_recovery
+- rscf
+- canon_candidate
+- canon/matrix
+- core-x-runtime-matrix
+- 25-cognitive-matrix-moc
+- integration
+- validation
+- 04-runtime-moc
+- 01-canon-moc
+- canon
+- 00-home
+- amos-rscf-nodes
+- k-rscf
+- k-hml
+- k-gmef
+- k-provenance
+- k-provenance-topology
+- k-failure-recovery
+- k-causal-epoch
+- k-mvcc
+- k-cas
+- k-atomic-multi-rscf
+- amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -58,48 +78,38 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 01_CANON/01_CANON_MOC
-    - 04_RUNTIME/04_RUNTIME_MOC
-    - AMOS_CORPUS
+  - 01_CANON/01_CANON_MOC
+  - 04_RUNTIME/04_RUNTIME_MOC
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - RUNTIME_INTEGRATION
-    - CORE_RUNTIME_INTERFACE
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - RUNTIME_INTEGRATION
+  - CORE_RUNTIME_INTERFACE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
-    artifact: [[CORE_X_RUNTIME_MATRIX]]
+    artifact:
+    - - CORE_X_RUNTIME_MATRIX
   runtime_moc:
     artifact: 04_RUNTIME/04_RUNTIME_MOC
   canon_moc:
     artifact: 01_CANON/01_CANON_MOC
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
-  matrix_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  execution_mesh_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing:
-    SOURCE_DEFINED_MODEL
-  input_telemetry_ingestion:
-    SOURCE_DEFINED_MODEL
-  deterministic_reasoning_cycle:
-    SOURCE_DEFINED_MODEL
-  verified_commit_dispatch:
-    SOURCE_DEFINED_MODEL
-  runtime_enforcement:
-    NOT_ESTABLISHED
-  executable_pipeline:
-    NOT_ESTABLISHED
-  signed_state_transition_runtime:
-    NOT_ESTABLISHED
-  empirical_validation:
-    NOT_ESTABLISHED
-  formal_verification:
-    NOT_ESTABLISHED
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  matrix_structure: VERIFIED_SOURCE_STRUCTURE
+  execution_mesh_structure: VERIFIED_SOURCE_STRUCTURE
+  cross_plane_routing: SOURCE_DEFINED_MODEL
+  input_telemetry_ingestion: SOURCE_DEFINED_MODEL
+  deterministic_reasoning_cycle: SOURCE_DEFINED_MODEL
+  verified_commit_dispatch: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
+  executable_pipeline: NOT_ESTABLISHED
+  signed_state_transition_runtime: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  formal_verification: NOT_ESTABLISHED
 ---
 
 # Core x Runtime Cognitive Matrix Specification

@@ -6,13 +6,14 @@ tags:
 - note
 - amos-audit-repair-master
 - canon/skill
+- skill
+- amos-audit-repair-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-audit-repair-master
 

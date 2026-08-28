@@ -12,20 +12,25 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CANON
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_INTEGRITY_CANON.md
 tags:
-  - amos_os
-  - canon
-  - core_laws
-  - absolute_integrity
-  - integrity
-  - epistemic_integrity
-  - provenance
-  - causal_integrity
-  - scope_integrity
-  - governance
-  - anti_fabrication
-  - anti_regression
-  - rscf
-  - canon/core_laws
+- amos_os
+- canon
+- core_laws
+- absolute_integrity
+- integrity
+- epistemic_integrity
+- provenance
+- causal_integrity
+- scope_integrity
+- governance
+- anti_fabrication
+- anti_regression
+- rscf
+- canon/core_laws
+- readme
+- 01-core-laws-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'
 status: CANON_CANDIDATE

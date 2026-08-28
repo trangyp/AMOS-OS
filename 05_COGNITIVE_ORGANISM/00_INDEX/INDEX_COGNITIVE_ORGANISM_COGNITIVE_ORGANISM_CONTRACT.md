@@ -6,13 +6,21 @@ tags:
 - amos_os
 - 05_cognitive_organism
 - canon/cognitive
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- index-cognitive-organism-readme
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # INDEX COGNITIVE ORGANISM COGNITIVE ORGANISM CONTRACT
 

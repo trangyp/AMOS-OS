@@ -6,13 +6,17 @@ tags:
 - moc
 - 30-clinical-research
 - canon/domain
+- clinical-research-domains-domain-spec
+- clinical-research-domains-readme
+- domains-clinical-research-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 30 Clinical Research — Map of Content
 

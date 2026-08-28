@@ -6,6 +6,9 @@ tags:
 - moc
 - templates
 - canon/template
+- amos-home
+- templates-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED

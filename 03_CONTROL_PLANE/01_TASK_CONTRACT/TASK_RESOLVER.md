@@ -7,13 +7,17 @@ tags:
 - task_contract
 - note
 - canon/control-plane
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 01-task-contract-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # AMOS OS — TASK RESOLVER
 

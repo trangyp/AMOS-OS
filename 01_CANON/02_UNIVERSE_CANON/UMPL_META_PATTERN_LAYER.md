@@ -6,8 +6,14 @@ tags:
 - umpl
 - meta_pattern
 - universe_canon
+- 00-index-moc
+- 00-home
 ---
 
 # UMPL Meta Pattern Layer
 
 Universal meta-pattern recognition plane detecting cross-scale isomorphisms.
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

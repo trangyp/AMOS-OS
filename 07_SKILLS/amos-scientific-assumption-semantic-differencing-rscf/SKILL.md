@@ -4,7 +4,10 @@ title: SKILL — Amos Scientific Assumption Semantic Differencing Rscf
 type: skill
 source: 07_SKILLS/amos-scientific-assumption-semantic-differencing-rscf
 name: amos-scientific-assumption-semantic-differencing-rscf
-description: Scientific Assumption Semantic Differencing — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-mast. Do not use for generic tasks outside rscf domain.
+description: Scientific Assumption Semantic Differencing — RSCF epistemic capability.
+  Use when classifying claims by epistemic state, validating outputs against epistemic
+  and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-mast.
+  Do not use for generic tasks outside rscf domain.
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
@@ -17,6 +20,13 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

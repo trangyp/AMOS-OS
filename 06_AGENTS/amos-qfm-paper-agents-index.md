@@ -6,13 +6,14 @@ tags:
 - index
 - vault
 - canon/agent
+- 00-home
+- 06-agents-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # AMOS Q/F/M Paper Agents Index
 

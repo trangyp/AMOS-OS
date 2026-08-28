@@ -6,13 +6,15 @@ tags:
 - moc
 - executive-deck-decision-system
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Executive-Deck-Decision-System — Map of Content
 

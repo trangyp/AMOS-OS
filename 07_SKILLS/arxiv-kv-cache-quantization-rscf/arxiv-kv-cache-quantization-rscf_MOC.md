@@ -6,13 +6,15 @@ tags:
 - moc
 - arxiv-kv-cache-quantization-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Arxiv-Kv-Cache-Quantization-Rscf — Map of Content
 

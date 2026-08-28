@@ -6,13 +6,14 @@ tags:
 - moc
 - 21-simulation-modes
 - canon/control-plane
+- 09-commit-moc
+- simulation-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 21 Simulation Modes — Map of Content
 

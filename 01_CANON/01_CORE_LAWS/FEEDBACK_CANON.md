@@ -17,26 +17,35 @@ schema_family: RSCF
 schema_role: FEEDBACK_CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - 01_canon
-  - 01_core_laws
-  - amos_os
-  - canon
-  - canon/universe
-  - canon_placeholder
-  - core_laws
-  - feedback
-  - feedback_canon.md
-  - feedback_loop
-  - feedback_signal
-  - provenance
-  - scope
-  - regime
-  - causality
-  - governance
-  - validation
-  - rscf
-  - universe
-  - placeholder_expanded
+- 01_canon
+- 01_core_laws
+- amos_os
+- canon
+- canon/universe
+- canon_placeholder
+- core_laws
+- feedback
+- feedback_canon.md
+- feedback_loop
+- feedback_signal
+- provenance
+- scope
+- regime
+- causality
+- governance
+- validation
+- rscf
+- universe
+- placeholder_expanded
+- memory
+- law-hierarchy
+- 00-home
+- amos-rscf-nodes
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- signals
 version: 0.3.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

@@ -3,18 +3,32 @@ title: L15 FRACTAL KNOWLEDGE
 type: fractal
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - fractal
-  - fractal_knowledge
-  - family_taxonomy
-  - statistical_validation
-  - generative_systems
-  - constructive_trace
-  - analogy_firewall
-  - bridge_governance
-  - epistemic_governance
-  - canon/universe
+- canon
+- core_laws
+- fractal
+- fractal_knowledge
+- family_taxonomy
+- statistical_validation
+- generative_systems
+- constructive_trace
+- analogy_firewall
+- bridge_governance
+- epistemic_governance
+- canon/universe
+- validation
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- amos-core-all-versions-fractal-knowledge-network
+- rscf
+- gmef
+- provenance-topology
+- competing-hypotheses
+- causal-firewall
+- scope-regime-firewall
+- l11-knowledge-memory
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

@@ -12,23 +12,31 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS_CANON.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - khung_trang
-  - trang_framework
-  - equations
-  - equations_canon
-  - dimensional_consistency
-  - entropy
-  - emergence
-  - capability
-  - authority
-  - validation
-  - rscf
-  - provenance
-  - canon/universe
+- amos_os
+- canon
+- universe
+- 01_canon
+- khung_trang
+- trang_framework
+- equations
+- equations_canon
+- dimensional_consistency
+- entropy
+- emergence
+- capability
+- authority
+- validation
+- rscf
+- provenance
+- canon/universe
+- 01-canon-moc
+- khung-trang-equations
+- amos-x-trang-reality
+- khung-trang-canon
+- 00-home
+- 02-universe-canon-moc
+- capability-authority-separation
+- 00-index-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -43,12 +51,12 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - "01_CANON/01_CANON_MOC"
-    - "01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS"
-    - "25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY"
+  - 01_CANON/01_CANON_MOC
+  - 01_CANON/02_UNIVERSE_CANON/KHUNG_TRANG_EQUATIONS
+  - 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY
   scope:
-    - UNIVERSE_CANON
-    - KHUNG_TRANG_EQUATIONS_CANON
+  - UNIVERSE_CANON
+  - KHUNG_TRANG_EQUATIONS_CANON
   confidence_ceiling:
     source_model: SOURCE_BOUND
     runtime_enforcement: RUNTIME_VERIFIED
@@ -1699,7 +1707,7 @@ RSCF-RELATIONS:
       ENTROPY_NON_ACCUMULATION
 
   - ENFORCES:
-      CAPABILITY_AUTHORITY_SEPARATION
+      [[CAPABILITY_AUTHORITY_SEPARATION]]
 ```
 
 ---
@@ -1803,3 +1811,7 @@ SOURCE_GROUNDED_CANON_CANDIDATE
 ```
 
 The key integrity correction is the separation of **`RUNTIME_VERIFIED` from empirical equation validation**. The supplied artifact supports the former as its declared runtime state; it does not supply evidence sufficient to promote every Khung Trang equation to an empirically verified physical, biological, cognitive, or universal law.
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

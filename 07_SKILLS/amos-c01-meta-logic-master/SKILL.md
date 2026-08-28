@@ -4,7 +4,10 @@ title: SKILL — Amos C01 Meta Logic Master
 type: skill
 source: 07_SKILLS/amos-c01-meta-logic-master
 name: amos-c01-meta-logic-master
-description: 'AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs, 5 Pattern Families. Law of Law, Rule of 2, Rule of 4. Use when logic reasoning, decomposition, or meta-law validation. Do not use for generic tasks outside c01 domain.'
+description: 'AMOS C01 Meta Logic — irreducible logic core: 8 ALUs, 7 UMLs, 6 UOPs,
+  5 Pattern Families. Law of Law, Rule of 2, Rule of 4. Use when logic reasoning,
+  decomposition, or meta-law validation. Do not use for generic tasks outside c01
+  domain.'
 parent_skill: none
 domain: c01
 origin_architect: Trang Phan
@@ -17,6 +20,9 @@ tags:
 - hml/h
 - epistemic/source_canon
 - amos_os
+- 07-skills-moc
+- references-moc
+- 00-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -47,6 +53,7 @@ law_compliance:
 license: MIT
 steward: Trang Phan
 ---
+
 # AMOS C01 — Meta-Logic Master Knowledge
 
 ## Identity
@@ -278,3 +285,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 - See `references/` directory for detailed reference materials
 - [[07_SKILLS_MOC]] — Skills map of content
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

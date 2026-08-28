@@ -12,17 +12,22 @@ segment: 22_RESEARCH/04_VALIDATION
 artifact_kind: VALIDATION_REPORT
 path: 22_RESEARCH/04_VALIDATION/CROSS_FRAMEWORK_VALIDATION.md
 tags:
-  - amos_os
-  - research
-  - vault
-  - 22_research
-  - 04_validation
-  - cross_framework_validation
-  - theoretical_consistency
-  - multi_system_coherence
-  - rscf
-  - canon_candidate
-  - canon/research
+- amos_os
+- research
+- vault
+- 22_research
+- 04_validation
+- cross_framework_validation
+- theoretical_consistency
+- multi_system_coherence
+- rscf
+- canon_candidate
+- canon/research
+- 04-validation-moc
+- 05-frameworks-moc
+- total-framework-matrix
+- 00-home
+- 22-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
-    - 25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/05_FRAMEWORKS_MOC
+  - 25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX
+  - AMOS_CORPUS
   scope:
-    - RESEARCH_VALIDATION
-    - CROSS_FRAMEWORK_COHERENCE
-    - SOURCE_DEFINED_MODEL
+  - RESEARCH_VALIDATION
+  - CROSS_FRAMEWORK_COHERENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   validation_moc:
     artifact: 22_RESEARCH/04_VALIDATION/04_VALIDATION_MOC

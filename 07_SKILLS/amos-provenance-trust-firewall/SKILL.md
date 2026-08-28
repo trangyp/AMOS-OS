@@ -4,7 +4,10 @@ title: SKILL — Amos Provenance Trust Firewall
 type: skill
 source: 07_SKILLS/amos-provenance-trust-firewall
 name: amos-provenance-trust-firewall
-description: Provenance Trust Firewall — security and safety capability. Use when security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master routes to this specialized capability. Do not use for generic tasks outside security domain.
+description: Provenance Trust Firewall — security and safety capability. Use when
+  security analysis, safety verification, or adversarial defense. Use when amos-security-safety-master
+  routes to this specialized capability. Do not use for generic tasks outside security
+  domain.
 parent_skill: amos-security-safety-master
 domain: security
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-provenance-trust-firewall-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

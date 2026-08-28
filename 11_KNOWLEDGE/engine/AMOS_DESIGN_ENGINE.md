@@ -14,6 +14,8 @@ tags:
 - rscf/state/observation
 - topic/amos-design-engine-v0
 - engine
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +23,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS DESIGN ENGINE V0 TECH7
 
 ```json

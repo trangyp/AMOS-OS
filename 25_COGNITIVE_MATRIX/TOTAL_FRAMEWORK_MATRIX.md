@@ -12,28 +12,59 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/TOTAL_FRAMEWORK_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - total_framework_matrix
-  - master_matrix
-  - framework_convergence
-  - cross_plane
-  - 26_planes
-  - trang_zero
-  - tra
-  - khung_trang
-  - ubi
-  - tss
-  - tpe
-  - heritage
-  - gmef
-  - ulk
-  - fail_closed
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- total_framework_matrix
+- master_matrix
+- framework_convergence
+- cross_plane
+- 26_planes
+- trang_zero
+- tra
+- khung_trang
+- ubi
+- tss
+- tpe
+- heritage
+- gmef
+- ulk
+- fail_closed
+- rscf
+- canon_candidate
+- canon/matrix
+- 11-knowledge-moc
+- tss-the-trang-system
+- unified-biological-intelligence
+- 25-cognitive-matrix-moc
+- architecture
+- canon
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- trang-reality-architecture-master
+- khung-trang-master
+- tss-seven-cycles
+- tpe-trang-prediction-engine
+- heritage-provenance
+- total-engine-matrix
+- total-canon-matrix
+- k-rscf
+- k-hml
+- k-canon
+- k-control-plane
+- k-provenance
+- k-provenance-topology
+- k-fail-closed
+- k-authority
+- k-governance
+- k-anti-autopoisoning
+- k-governed-evolution
+- moc
+- trang-reality-architecture
+- khung-trang
+- amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -48,24 +79,28 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - MASTER_FRAMEWORK_MATRIX
-    - FRAMEWORK_CONVERGENCE
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - MASTER_FRAMEWORK_MATRIX
+  - FRAMEWORK_CONVERGENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   knowledge_moc:
-    artifact: [[11_KNOWLEDGE_MOC]]
+    artifact:
+    - - 11_KNOWLEDGE_MOC
   tss:
-    artifact: [[TSS_THE_TRANG_SYSTEM]]
+    artifact:
+    - - TSS_THE_TRANG_SYSTEM
   ubi:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

@@ -4,7 +4,9 @@ title: SKILL — Amos Economic Model
 type: skill
 source: 07_SKILLS/amos-economic-model
 name: amos-economic-model
-description: Economic Model — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside econ domain.
+description: Economic Model — econ capability. Use when executing the core capability
+  within this domain. Use when amos-c07-econ-finance-master routes to this specialized
+  capability. Do not use for generic tasks outside econ domain.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-economic-model-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

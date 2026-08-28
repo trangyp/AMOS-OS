@@ -6,13 +6,32 @@ tags:
 - moc
 - 16-mode-template
 - canon/control-plane
+- mode-template-commit-control-plane-tests
+- 09-commit-moc
+- mode-template-commit-control-plane-aliases
+- mode-template-commit-control-plane-benchmarks
+- mode-template-commit-control-plane-composition
+- mode-template-commit-control-plane-domain-weights
+- mode-template-commit-control-plane-engine-weights
+- mode-template-commit-control-plane-exit-criteria
+- mode-template-commit-control-plane-governance
+- mode-template-commit-control-plane-input-contract
+- mode-template-commit-control-plane-layer-weights
+- mode-template-commit-control-plane-mode-spec
+- mode-template-commit-control-plane-observability
+- mode-template-commit-control-plane-output-contract
+- mode-template-commit-control-plane-preconditions
+- mode-template-commit-control-plane-provenance
+- mode-template-commit-control-plane-purpose-scope
+- mode-template-commit-control-plane-readme
+- mode-template-commit-control-plane-safety-gates
+- mode-template-commit-control-plane-validation
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 16 Mode Template — Map of Content
 

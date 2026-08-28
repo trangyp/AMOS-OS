@@ -12,17 +12,22 @@ segment: 21_DOMAINS/10_CUSTOM
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/10_CUSTOM/NEUROSYNCAI_DOMAIN.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 10_custom
-  - neurosyncai_domain
-  - bio_adaptive_orchestration
-  - user_flow_synchrony
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 10_custom
+- neurosyncai_domain
+- bio_adaptive_orchestration
+- user_flow_synchrony
+- rscf
+- canon_candidate
+- canon/domain
+- neurosyncai-master
+- ubi-x-neurosyncai
+- neurosyncai-recovery-engine
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER
-    - 21_DOMAINS/10_CUSTOM/10_CUSTOM_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER
+  - 21_DOMAINS/10_CUSTOM/10_CUSTOM_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_CUSTOM
-    - NEUROSYNCAI_CUSTOM_ENGINE
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_CUSTOM
+  - NEUROSYNCAI_CUSTOM_ENGINE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   neurosyncai_master:
-    artifact: [[NEUROSYNCAI_MASTER]]
+    artifact:
+    - - NEUROSYNCAI_MASTER
   matrix_binding:
-    artifact: [[UBI_X_NEUROSYNCAI]]
+    artifact:
+    - - UBI_X_NEUROSYNCAI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-arxiv-time-series-bootstrap-conform
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Arxiv-Time-Series-Bootstrap-Conformal-Rscf — Map of Content
 

@@ -6,13 +6,17 @@ tags:
 - moc
 - 33-organizational-behavior
 - canon/domain
+- domains-organizational-behavior-contract
+- organizational-behavior-domains-readme
+- 00-index-moc
+- 21-domains-moc
+- organizational-behavior-domains-domain-spec
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 33 Organizational Behavior — Map of Content
 

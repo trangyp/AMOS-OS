@@ -6,13 +6,16 @@ tags:
 - moc
 - l08-representation
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l08-representation-contract
+- l08-representation-primitives-cognitive-matrix-hml
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L08 Representation — Map of Content
 

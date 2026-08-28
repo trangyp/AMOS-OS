@@ -12,6 +12,9 @@ tags:
 - rscf/state/observation
 - topic/amos-probability-statistics-kernel
 - kernel
+- kernel-moc
+- knowledge-moc
+- 00-home
 status: index
 provenance: SOURCE_CLAIM
 confidence: VERIFIED
@@ -21,7 +24,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # amos-probability-statistics-kernel
 
@@ -33,3 +35,7 @@ rscf:
 
 ---
 **Links:** [[KERNEL_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

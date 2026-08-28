@@ -12,19 +12,37 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: TEST
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_TESTS.md
 tags:
-  - 12_generators
-  - 25_cognitive_matrix
-  - amos_os
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive_matrix
-  - generators
-  - generators_tests.md
-  - note
-  - rscf
-  - test
-  - tests
-  - placeholder_expanded
+- 12_generators
+- 25_cognitive_matrix
+- amos_os
+- canon/cognitive-matrix
+- canon/universe
+- cognitive_matrix
+- generators
+- generators_tests.md
+- note
+- rscf
+- test
+- tests
+- placeholder_expanded
+- generator-contract
+- validation
+- fractal-knowledge-network
+- mvcc-cas
+- atomic-multi-rscf
+- canon
+- causal-epoch-finality
+- proof-based-coordination-avoidance
+- readme
+- promotion-gates
+- binding-rules
+- routing-policy
+- routing-audit
+- generator-registry
+- mode-registry
+- authority-registry
+- authoritative-state
+- 25-cognitive-matrix-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -43,7 +61,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 # GENERATORS TESTS
 

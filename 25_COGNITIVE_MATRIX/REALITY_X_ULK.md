@@ -12,23 +12,26 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/REALITY_X_ULK.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - reality_x_ulk
-  - reality_architecture
-  - universal_logic_kernel
-  - pre_symbolic_logic
-  - pre_symbolic_spine
-  - cross_plane_routing
-  - deterministic_compiler
-  - state_transition
-  - symbolic_drift
-  - rscf
-  - provenance
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- reality_x_ulk
+- reality_architecture
+- universal_logic_kernel
+- pre_symbolic_logic
+- pre_symbolic_spine
+- cross_plane_routing
+- deterministic_compiler
+- state_transition
+- symbolic_drift
+- rscf
+- provenance
+- canon_candidate
+- canon/matrix
+- reality-x-ulk-matrix
+- cognitive-matrix-moc
+- 00-home
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,16 +48,17 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
-    - 02_KERNEL/01_ULK
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
+  - 02_KERNEL/01_ULK
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - REALITY_ULK_INTEGRATION
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - REALITY_ULK_INTEGRATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
-    artifact: [[REALITY_X_ULK_MATRIX]]
+    artifact:
+    - - REALITY_X_ULK_MATRIX
   reality_master:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
   ulk_kernel:
@@ -211,3 +215,7 @@ PRE-SYMBOLIC REALITY SPINE         ULK LOGIC OPERATORS (ALUs)         DETERMINIS
 • Relation (R)                     • Constraint Licensing ALU           without symbolic drift
 
 ```
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

@@ -7,13 +7,15 @@ tags:
 - arxiv
 - knowledge
 - canon/knowledge
+- moc-2007
+- moc-2008
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: arxiv
   scope: AMOS_research
 ---
-
 
 # arxiv_md — Map of Content
 

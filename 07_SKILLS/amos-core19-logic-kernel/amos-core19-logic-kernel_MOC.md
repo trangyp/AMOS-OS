@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-core19-logic-kernel
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Core19-Logic-Kernel — Map of Content
 

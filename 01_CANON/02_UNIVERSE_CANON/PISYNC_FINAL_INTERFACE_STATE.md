@@ -1,27 +1,30 @@
 ---
-title: "PISYNC Final Interface State"
+title: PISYNC Final Interface State
 aliases:
-  - "PISYNC"
-  - "PISYNC Final State"
-  - "PISYNC Interface State"
-  - "PISYNC Final Interface"
+- PISYNC
+- PISYNC Final State
+- PISYNC Interface State
+- PISYNC Final Interface
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
-  - pisync
-  - interface
-  - interface_state
-  - final_interface_state
-  - synchronization
-  - synchronous_feedback
-  - cross_modal
-  - cross_modal_feedback
-  - perception
-  - cognition
-  - external_interface
-  - actuary_interface
-  - universe_canon
-  - canon/universe
+- pisync
+- interface
+- interface_state
+- final_interface_state
+- synchronization
+- synchronous_feedback
+- cross_modal
+- cross_modal_feedback
+- perception
+- cognition
+- external_interface
+- actuary_interface
+- universe_canon
+- canon/universe
+- 00-index-moc
+- 00-home
+- canon
 ---
 
 # PISYNC Final Interface State
@@ -5494,3 +5497,7 @@ tags:
 
 Final interface state model governing synchronous cross-modal feedback across perception, cognition, and external actuary interfaces.
 ```
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

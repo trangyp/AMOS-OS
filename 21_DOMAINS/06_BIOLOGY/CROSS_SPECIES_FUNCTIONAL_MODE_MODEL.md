@@ -12,17 +12,22 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/06_BIOLOGY/CROSS_SPECIES_FUNCTIONAL_MODE_MODEL.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 06_biology
-  - cross_species_functional_mode_model
-  - comparative_ethology
-  - organismic_adaptation
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 06_biology
+- cross_species_functional_mode_model
+- comparative_ethology
+- organismic_adaptation
+- rscf
+- canon_candidate
+- canon/domain
+- uba-framework
+- unified-biological-intelligence
+- amos-organism-os-framework
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_BIOLOGY
-    - CROSS_SPECIES_MODES
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_BIOLOGY
+  - CROSS_SPECIES_MODES
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   uba_framework:
-    artifact: [[UBA_FRAMEWORK]]
+    artifact:
+    - - UBA_FRAMEWORK
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

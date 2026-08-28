@@ -4,7 +4,10 @@ title: SKILL — Mckinsey Healthcare Strategy Rscf
 type: skill
 source: 07_SKILLS/mckinsey-healthcare-strategy-rscf
 name: mckinsey-healthcare-strategy-rscf
-description: Healthcare Strategy — McKinsey strategic capability. Use when strategic analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside mckinsey domain.
+description: Healthcare Strategy — McKinsey strategic capability. Use when strategic
+  analysis, business consulting, or McKinsey-framework reasoning. Use when amos-c08-strategy-game-master
+  routes to this specialized capability. Do not use for generic tasks outside mckinsey
+  domain.
 parent_skill: amos-c08-strategy-game-master
 domain: mckinsey
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- mckinsey-healthcare-strategy-rscf-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,13 +6,13 @@ tags:
 - moc
 - 78-proof-verification-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 78 Proof Verification Modes — Map of Content
 

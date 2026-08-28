@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTERFACE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_wearable
-  - wearable_devices
-  - real_time_telemetry
-  - biosensing
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_wearable
+- wearable_devices
+- real_time_telemetry
+- biosensing
+- rscf
+- canon_candidate
+- canon/knowledge
+- ubi-wearable-framework
+- unified-biological-intelligence
+- ubi-score
+- amos-ubi-super-engine
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,25 +45,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_WEARABLE_FRAMEWORK
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBI_WEARABLE_FRAMEWORK
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - WEARABLE_TELEMETRY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - WEARABLE_TELEMETRY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   framework:
-    artifact: [[UBI_WEARABLE_FRAMEWORK]]
+    artifact:
+    - - UBI_WEARABLE_FRAMEWORK
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   wearable_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI Wearable Interface Specification
 

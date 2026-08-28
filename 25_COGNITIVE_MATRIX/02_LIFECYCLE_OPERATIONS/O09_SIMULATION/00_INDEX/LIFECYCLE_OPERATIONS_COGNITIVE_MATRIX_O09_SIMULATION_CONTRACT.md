@@ -6,13 +6,25 @@ tags:
 - cognitive_matrix
 - o09_simulation
 - canon/cognitive-matrix
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # LIFECYCLE OPERATIONS COGNITIVE MATRIX O09 SIMULATION CONTRACT
 

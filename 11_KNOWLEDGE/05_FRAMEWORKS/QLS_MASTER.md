@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MASTER
 path: 11_KNOWLEDGE/05_FRAMEWORKS/QLS_MASTER.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - qls_master
-  - quantum_logic_structure
-  - four_pillars
-  - formal_logic
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- qls_master
+- quantum_logic_structure
+- four_pillars
+- formal_logic
+- rscf
+- canon_candidate
+- canon/knowledge
+- qls-framework
+- qcla-master
+- ldai-logically-deterministic-ai
+- amos-x-qls
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,27 +45,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - QLS_FRAMEWORK
-    - QLS_QUANTUM_LOGIC_STRUCTURE_MASTER_PROVENANCE_AND
-    - AMOS_CORPUS
+  - QLS_FRAMEWORK
+  - QLS_QUANTUM_LOGIC_STRUCTURE_MASTER_PROVENANCE_AND
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - LOGIC_MASTER
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - LOGIC_MASTER
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   framework:
-    artifact: [[QLS_FRAMEWORK]]
+    artifact:
+    - - QLS_FRAMEWORK
   causal_logic:
-    artifact: [[QCLA_MASTER]]
+    artifact:
+    - - QCLA_MASTER
   deterministic_logic:
-    artifact: [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
+    artifact:
+    - - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   master_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # QLS Master Specification
 

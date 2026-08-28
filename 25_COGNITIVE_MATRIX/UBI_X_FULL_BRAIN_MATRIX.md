@@ -12,11 +12,13 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - canon/matrix
-  - rscf
-  - provenance
+- amos_os
+- cognitive_matrix
+- canon/matrix
+- rscf
+- provenance
+- cognitive-matrix-moc
+- 00-home
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE
@@ -1823,3 +1825,7 @@ $$
 without the missing binding and implementation evidence.
 
 For future `full` requests on these matrix artifacts, I’ll use this depth as the baseline rather than the compressed format.
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

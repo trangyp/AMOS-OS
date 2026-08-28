@@ -6,13 +6,23 @@ tags:
 - knowledge
 - note
 - canon/knowledge
+- architecture
+- validation
+- roadmap
+- skill
+- memory
+- 00-home
+- 00-cosmo-brain-moc
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # ⭐ AMOS GIANT VALUE CREATION OS
 ## MAX-DETAIL MASTER [[ARCHITECTURE]] FOR COMMERCIALIZATION, [[VALIDATION]], LICENSING, PRODUCTIZATION, GOVERNANCE & SCALE

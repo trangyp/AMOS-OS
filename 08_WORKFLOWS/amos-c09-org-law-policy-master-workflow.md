@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c09-org-law-policy-master
 Agent: amos-c09-org-law-policy-agent
-Trigger: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional
-  governance, legal reasoning, policy analysis. Use for governance design, legal analysis, or pol
+Trigger: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory
+  frameworks, constitutional governance, legal reasoning, policy analysis. Use for
+  governance design, legal analysis, or pol
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: c09
 ---
-
 
 # Workflow: AMOS C09 — Org, Law & Policy Master
 

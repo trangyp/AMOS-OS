@@ -6,13 +6,16 @@ tags:
 - moc
 - 15-interfaces
 - canon/interface
+- interfaces-interface-contract
+- interfaces-readme
+- 00-index-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 15 Interfaces — Map of Content
 

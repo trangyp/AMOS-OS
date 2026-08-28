@@ -6,13 +6,26 @@ tags:
 - cognitive_matrix
 - cognitive_matrix_validation_contract.md
 - canon/cognitive-matrix
+- validation
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- 11-validation-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # COGNITIVE MATRIX [[VALIDATION]] CONTRACT
 

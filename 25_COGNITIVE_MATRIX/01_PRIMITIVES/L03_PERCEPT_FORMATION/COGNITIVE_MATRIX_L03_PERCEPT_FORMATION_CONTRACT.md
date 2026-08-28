@@ -8,13 +8,20 @@ tags:
 - l03_percept_formation
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- amos-rscf-nodes
+- cognitive-matrix-primitives-contract
+- l03-percept-formation-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L03_PERCEPT_FORMATION — Percept formation Contract
 

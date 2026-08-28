@@ -6,13 +6,28 @@ tags:
 - moc
 - 03-control-plane
 - canon/control-plane
+- control-plane-control-plane-contract
+- control-plane-readme
+- 00-index-moc
+- 01-task-contract-moc
+- 02-capability-moc
+- 03-policy-moc
+- 04-authority-moc
+- 05-provenance-moc
+- 06-semantic-transaction-moc
+- 07-observability-moc
+- 08-effects-moc
+- 09-commit-moc
+- 10-exposure-moc
+- 11-replay-moc
+- 12-rollback-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Control Plane — Map of Content
 

@@ -6,13 +6,14 @@ tags:
 - note
 - amos-fractal-systems-master
 - canon/skill
+- skill
+- amos-fractal-systems-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-fractal-systems-master
 

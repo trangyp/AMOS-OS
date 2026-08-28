@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 09_governance_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 09-governance-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # GOVERNANCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 

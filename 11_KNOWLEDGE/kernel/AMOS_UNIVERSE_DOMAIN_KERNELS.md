@@ -17,6 +17,12 @@ tags:
 - x100k
 - kernel
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- kernel-moc
+- amos-simulation-kernel-v0-math-foundations
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -26,7 +32,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS Universe Domain Kernels — 24 Kernels Across 4 Domain Categories
 

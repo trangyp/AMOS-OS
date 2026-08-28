@@ -4,7 +4,10 @@ title: SKILL — Arxiv Future Confidence Distillation Rscf
 type: skill
 source: 07_SKILLS/arxiv-future-confidence-distillation-rscf
 name: arxiv-future-confidence-distillation-rscf
-description: Future Confidence Distillation — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Future Confidence Distillation — arxiv research capability. Use when
+  arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master
+  routes to this specialized capability. Do not use for generic tasks outside arxiv
+  domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- arxiv-future-confidence-distillation-rscf-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

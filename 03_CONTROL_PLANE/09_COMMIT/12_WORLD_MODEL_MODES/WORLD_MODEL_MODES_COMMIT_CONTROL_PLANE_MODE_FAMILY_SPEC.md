@@ -17,13 +17,17 @@ tags:
 - world_model_modes
 - note
 - canon/control-plane
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 12-world-model-modes-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 12_WORLD_MODEL_MODES
 

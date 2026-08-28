@@ -6,13 +6,26 @@ tags:
 - amos_os
 - 08_workflows
 - canon/workflow
+- workflows
+- workflow
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
-
 
 # [[WORKFLOWS]] [[WORKFLOW]] CONTRACT
 

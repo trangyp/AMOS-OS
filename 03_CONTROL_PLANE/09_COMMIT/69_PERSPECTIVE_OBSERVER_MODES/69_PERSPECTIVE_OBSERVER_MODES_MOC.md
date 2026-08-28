@@ -6,13 +6,13 @@ tags:
 - moc
 - 69-perspective-observer-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 69 Perspective Observer Modes — Map of Content
 

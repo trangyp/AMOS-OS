@@ -6,13 +6,15 @@ tags:
 - moc
 - 24-causal-modes
 - canon/control-plane
+- causal-modes-commit-control-plane-readme
+- 09-commit-moc
+- causal-modes-commit-control-plane-mode-family-spec
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 24 Causal Modes — Map of Content
 

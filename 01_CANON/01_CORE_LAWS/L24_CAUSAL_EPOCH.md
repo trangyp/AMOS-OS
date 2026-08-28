@@ -3,22 +3,27 @@ title: L24 — Causal Epoch Law
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_law
-  - causal_epoch
-  - causal_time
-  - monotonicity
-  - epoch_boundary
-  - causal_lineage
-  - causal_lineage_closure
-  - verdict_immutability
-  - explicit_supersession
-  - witness_receipts
-  - fail_closed
-  - replayability
-  - provenance
-  - time
-  - canon/universe
+- canon
+- core_law
+- causal_epoch
+- causal_time
+- monotonicity
+- epoch_boundary
+- causal_lineage
+- causal_lineage_closure
+- verdict_immutability
+- explicit_supersession
+- witness_receipts
+- fail_closed
+- replayability
+- provenance
+- time
+- canon/universe
+- l8-execution
+- l22-replayability
+- 01-core-laws-moc
+- 00-index-moc
+- 00-home
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT
@@ -3807,3 +3812,7 @@ scope:
 ```
 
 **Conclusion class: CANONICAL_INVARIANT within AMOS_CANON.**
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

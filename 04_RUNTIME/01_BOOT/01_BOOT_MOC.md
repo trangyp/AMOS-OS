@@ -6,13 +6,17 @@ tags:
 - moc
 - 01-boot
 - canon/runtime
+- canon-bootstrap
+- full-brain-bootstrap
+- ubi-bootstrap
+- universe-canon-bootstrap
+- 04-runtime-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Boot — Map of Content
 

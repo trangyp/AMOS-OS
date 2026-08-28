@@ -12,17 +12,23 @@ segment: 21_DOMAINS/05_DESIGN
 artifact_kind: DOMAIN_DESIGN
 path: 21_DOMAINS/05_DESIGN/BIO_LOGICAL_ARCHITECTURE_DESIGN.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 05_design
-  - bio_logical_architecture_design
-  - living_systems_design
-  - morphological_computation
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 05_design
+- bio_logical_architecture_design
+- living_systems_design
+- morphological_computation
+- rscf
+- canon_candidate
+- canon/domain
+- bio-logical-architecture
+- unified-biological-intelligence
+- amos-organism-os-framework
+- 00-home
+- 21-domains-moc
+- 05-design-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +43,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_DESIGN
-    - BIO_LOGICAL_DESIGN
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_DESIGN
+  - BIO_LOGICAL_DESIGN
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   bio_architecture_framework:
-    artifact: [[BIO_LOGICAL_ARCHITECTURE]]
+    artifact:
+    - - BIO_LOGICAL_ARCHITECTURE
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

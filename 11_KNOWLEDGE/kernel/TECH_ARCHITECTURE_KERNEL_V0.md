@@ -5,6 +5,13 @@ tags:
 - core
 - runtime
 - canon/knowledge
+- architecture
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- kernel-moc
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -13,7 +20,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # TECH [[ARCHITECTURE]] KERNEL V0
 

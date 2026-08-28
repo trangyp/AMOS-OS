@@ -6,13 +6,18 @@ tags:
 - note
 - l26-social-cognition
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- l26-social-cognition-moc
+- l17-decision-primitives-cognitive-matrix-readme
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L26 — Dependencies
 

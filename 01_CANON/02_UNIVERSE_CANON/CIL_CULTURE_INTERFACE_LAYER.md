@@ -3,25 +3,39 @@ title: CIL Culture Interface Layer
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 tags:
-  - cil
-  - culture
-  - interface
-  - universe_canon
-  - localization
-  - language
-  - semantics
-  - contextualization
-  - semantic_fidelity
-  - cultural_fidelity
-  - translation
-  - interpretation
-  - provenance
-  - epistemic_regime
-  - scope_control
-  - interface_layer
-  - rscf/C-constraint
-  - rscf/B-boundary
-  - rscf/type-process
+- cil
+- culture
+- interface
+- universe_canon
+- localization
+- language
+- semantics
+- contextualization
+- semantic_fidelity
+- cultural_fidelity
+- translation
+- interpretation
+- provenance
+- epistemic_regime
+- scope_control
+- interface_layer
+- rscf/C-constraint
+- rscf/B-boundary
+- rscf/type-process
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
+- l17-rscf
+- l18-gmef
+- l19-proof-capsule
+- l20-adversarial
+- l21-epistemic-regime
+- l22-replayability
+- l23-mvcc-cas
+- l24-causal-epoch
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

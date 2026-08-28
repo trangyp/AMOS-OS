@@ -6,12 +6,25 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-    - internal
+  - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
 - note
 - 25-cognitive-matrix
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- amos-x-neurosyncai-matrix
+- amos-x-ubi
+- law-hierarchy
+- absolute-biological-integrity
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 25-cognitive-matrix-moc
 canon-group: canon/cognitive-matrix
 ---
 

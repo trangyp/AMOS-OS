@@ -4,6 +4,11 @@ tags:
 - knowledge
 - note
 - canon/knowledge
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- knowledge-moc
 type: document
 source: 11_KNOWLEDGE/root
 rscf:
@@ -12,7 +17,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS Cognitive Organism OS — Full Maximum-Detail Architecture
 ## Cognition • Emotion • Perception • Memory • Agency • Lifecycle • Homeostasis • Identity • World Model • Learning • Reflection • Governance

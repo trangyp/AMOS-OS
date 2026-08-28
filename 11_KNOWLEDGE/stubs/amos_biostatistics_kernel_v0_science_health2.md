@@ -7,8 +7,15 @@ tags:
 - kernel
 - science
 - health
+- kernel-moc
+- 00-home
+- amos-biostatistics-kernel-v0-science-health2
 ---
 
 # amos biostatistics kernel v0 science health2
 
 Stub note for [[amos_biostatistics_kernel_v0_science_health2]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

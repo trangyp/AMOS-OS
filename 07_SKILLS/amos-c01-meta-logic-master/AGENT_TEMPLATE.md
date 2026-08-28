@@ -6,13 +6,14 @@ tags:
 - note
 - amos-c01-meta-logic-master
 - canon/skill
+- skill
+- amos-c01-meta-logic-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-c01-meta-logic-master
 

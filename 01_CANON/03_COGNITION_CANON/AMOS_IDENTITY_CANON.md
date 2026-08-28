@@ -12,21 +12,35 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_IDENTITY_CANON.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - canon_placeholder
-  - identity
-  - cognition
-  - provenance
-  - lineage
-  - authority
-  - scope
-  - versioning
-  - supersession
-  - rscf
-  - canon/universe
+- amos_os
+- canon
+- universe
+- 01_canon
+- canon_placeholder
+- identity
+- cognition
+- provenance
+- lineage
+- authority
+- scope
+- versioning
+- supersession
+- rscf
+- canon/universe
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-home
+- amos-rscf-nodes
+- validation
+- architecture
+- 00-root-moc
+- amos-moc
+- 03-cognition-canon-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER

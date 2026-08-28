@@ -1,18 +1,25 @@
 ---
-title: References MOC — References — Amos Arxiv Influence Guided Symbolic Regression Rscf
+title: References MOC — References — Amos Arxiv Influence Guided Symbolic Regression
+  Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-influence-guided-symbolic-regression-rscf/references
 tags:
 - moc
 - references
 - canon/skill
+- vault-domain-knowledge
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # References — Map of Content
 

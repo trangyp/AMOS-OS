@@ -5,6 +5,17 @@ tags:
 - processing
 - runtime
 - canon/knowledge
+- integration
+- architecture
+- delegation
+- 00-home
+- knowledge-moc
+- canon
+- amos-simulation-kernel-v0-math-foundations
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -13,7 +24,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # **UNIFIED ORGANIZATIONAL SYSTEMS ENGINE™**
  _A complete structural architecture for predicting, designing, scaling, and governing organizations through deterministic human-system logic._

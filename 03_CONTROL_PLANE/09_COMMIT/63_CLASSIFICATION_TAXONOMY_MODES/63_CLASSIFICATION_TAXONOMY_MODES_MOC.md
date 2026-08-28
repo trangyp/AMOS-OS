@@ -6,13 +6,13 @@ tags:
 - moc
 - 63-classification-taxonomy-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 63 Classification Taxonomy Modes — Map of Content
 

@@ -4,7 +4,9 @@ title: SKILL — Amos Rscf Epistemic Master
 type: skill
 source: 07_SKILLS/amos-rscf-epistemic-master
 name: amos-rscf-epistemic-master
-description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence ceiling. 6 state kinds. Use when epistemic classification, claim assessment, or evidence validation. Do not use for generic tasks outside rscf domain.
+description: AMOS RSCF Epistemic — claim/class/premises/evidence/provenance/scope/regime/freshness/falsifiers/confidence
+  ceiling. 6 state kinds. Use when epistemic classification, claim assessment, or
+  evidence validation. Do not use for generic tasks outside rscf domain.
 parent_skill: none
 domain: rscf
 origin_architect: Trang Phan
@@ -17,6 +19,15 @@ tags:
 - hml/h
 - epistemic/source_canon
 - amos_os
+- agent-template
+- amos-rscf-epistemic-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

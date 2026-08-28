@@ -6,8 +6,15 @@ tags:
 - automation
 - kernel
 - vinfinity
+- amos-automation-kernel-vinfinity
+- kernel-moc
+- 00-home
 ---
 
 # amos automation kernel vinfinity
 
 Stub note for [[amos_automation_kernel_vinfinity]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

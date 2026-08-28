@@ -14,6 +14,7 @@ tags:
 - rscf/state/observation
 - topic/amos-nbi-engine-v0
 - engine
+- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS NBI ENGINE V0 UBI7
 
 ```json

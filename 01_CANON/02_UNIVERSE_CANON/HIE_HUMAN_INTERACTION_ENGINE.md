@@ -1,34 +1,52 @@
 ---
 title: HIE Human Interaction Engine
 aliases:
-  - HIE
-  - Human Interaction Engine
-  - HIE Human-Agent Interaction Engine
+- HIE
+- Human Interaction Engine
+- HIE Human-Agent Interaction Engine
 type: universe_canon
 source: 01_CANON/02_UNIVERSE_CANON
 status: canonical
 tags:
-  - hie
-  - human_interaction
-  - human_agent
-  - interaction_engine
-  - interaction_envelope
-  - safety
-  - safety_governance
-  - tone
-  - tone_governance
-  - semantics
-  - intent
-  - context
-  - agency
-  - consent
-  - trust
-  - uncertainty
-  - provenance
-  - scope
-  - epistemic_regime
-  - universe_canon
-  - rscf
+- hie
+- human_interaction
+- human_agent
+- interaction_engine
+- interaction_envelope
+- safety
+- safety_governance
+- tone
+- tone_governance
+- semantics
+- intent
+- context
+- agency
+- consent
+- trust
+- uncertainty
+- provenance
+- scope
+- epistemic_regime
+- universe_canon
+- rscf
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 02-universe-canon-moc
+- khung-trang-master
+- cil-culture-interface-layer
+- universe-canon-contract
+- universe-canon-contract-validation-receipt
+- l17-rscf
+- l18-gmef
+- l19-proof-capsule
+- l20-adversarial
+- l21-epistemic-regime
+- l22-replayability
+- l23-mvcc-cas
+- l24-causal-epoch
+- trang-framework-recursive-ontology-dynamics
+- 00-root-moc
 ---
 
 # HIE Human Interaction Engine> [!abstract] Canon Function> **HIE — Human Interaction Engine** governs the **7-layer human-agent interaction envelopes** with **strict safety tone governance**.>> HIE is the Universe Canon interface responsible for controlling how agent reasoning, knowledge, uncertainty, recommendations, decisions, and actions are exposed to a human participant.>> Its governing objective is not merely to produce fluent conversation.>> Its objective is to preserve:>> **human agency + semantic fidelity + epistemic integrity + interaction safety + proportional tone + scope integrity + reversible action under uncertainty.**---

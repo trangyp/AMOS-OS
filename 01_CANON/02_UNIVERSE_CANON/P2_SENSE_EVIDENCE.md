@@ -12,24 +12,35 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/P2_SENSE_EVIDENCE.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - universe_canon
-  - p2
-  - sense
-  - evidence
-  - perception
-  - measurement
-  - observation
-  - provenance
-  - source_identity
-  - independence
-  - observer_effect
-  - admission
-  - epistemic_boundary
-  - rscf
-  - canon/universe
+- amos_os
+- canon
+- universe
+- universe_canon
+- p2
+- sense
+- evidence
+- perception
+- measurement
+- observation
+- provenance
+- source_identity
+- independence
+- observer_effect
+- admission
+- epistemic_boundary
+- rscf
+- canon/universe
+- validation
+- integration
+- l19-proof-capsule
+- amos-7-part-universe-canon
+- p1-reality-environment
+- hml-canon
+- 02-universe-canon-moc
+- trang-framework-recursive-ontology-dynamics
+- khung-trang-master
+- 00-home
+- amos-rscf-nodes
 version: 1.0.0
 updated: '2026-08-27'
 status: PROPOSED_SPECIFICATION
@@ -44,13 +55,13 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+  - AMOS_corpus
+  - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
+  - 01_CANON/02_UNIVERSE_CANON/HML_CANON
+  - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
   scope:
-    - UNIVERSE_CANON
-    - P2_SENSE_EVIDENCE
+  - UNIVERSE_CANON
+  - P2_SENSE_EVIDENCE
 ---
 
 # P2 — Sense & Evidence Plane

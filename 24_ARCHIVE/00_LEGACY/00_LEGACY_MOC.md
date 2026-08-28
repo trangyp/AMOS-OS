@@ -6,13 +6,20 @@ tags:
 - moc
 - 00-legacy
 - canon/archive
+- amos-core-historical-index
+- archive-legacy-contract
+- heritage-historical-index
+- legacy-archive-readme
+- trang-framework-historical-index
+- ubi-historical-index
+- 00-index-moc
+- 24-archive-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 00 Legacy — Map of Content
 

@@ -12,19 +12,29 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTEGRATION
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_TPE_INTEGRATION.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - tss_tpe_integration
-  - tss
-  - tpe
-  - structural_dynamics
-  - structural_foresight
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- tss_tpe_integration
+- tss
+- tpe
+- structural_dynamics
+- structural_foresight
+- rscf
+- canon_candidate
+- canon/knowledge
+- tss-the-trang-system
+- tpe-trang-prediction-engine
+- amos-x-tss-tpe-matrix
+- tss-seven-cycles
+- tss-meta-laws
+- heritage-to-tss-binding
+- heritage-x-tss
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,29 +49,31 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - THE_TRANG_PREDICTION_ENGINE_TPE_OFFICIAL_MANU
-    - AMOS_CORPUS
+  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+  - THE_TRANG_PREDICTION_ENGINE_TPE_OFFICIAL_MANU
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRAMEWORK_INTEGRATION
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FRAMEWORK_INTEGRATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   structural_system:
     name: The Trang System™
-    artifact: [[TSS_THE_TRANG_SYSTEM]]
+    artifact:
+    - - TSS_THE_TRANG_SYSTEM
   foresight_engine:
     name: The Trang Prediction Engine™
-    artifact: [[TPE_TRANG_PREDICTION_ENGINE]]
+    artifact:
+    - - TPE_TRANG_PREDICTION_ENGINE
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_TSS_TPE_MATRIX]]
+    artifact:
+    - - AMOS_X_TSS_TPE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   integration_structure: VERIFIED_SOURCE_STRUCTURE
   predictive_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # TSS-TPE Integration
 

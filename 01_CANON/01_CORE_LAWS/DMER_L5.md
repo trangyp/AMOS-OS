@@ -3,25 +3,34 @@ title: DMER_L5 — Deterministic Multi-Epoch Recovery (Level 5)
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_law
-  - dmer
-  - recovery
-  - distinction
-  - mutation
-  - entropy
-  - repair
-  - dual_loop
-  - multi_epoch
-  - cascading_fault
-  - state_rewind
-  - rollback
-  - collapse_recovery
-  - viability
-  - adaptive_optionality
-  - silent_decay
-  - repair_capacity
-  - canon/universe
+- canon
+- core_law
+- dmer
+- recovery
+- distinction
+- mutation
+- entropy
+- repair
+- dual_loop
+- multi_epoch
+- cascading_fault
+- state_rewind
+- rollback
+- collapse_recovery
+- viability
+- adaptive_optionality
+- silent_decay
+- repair_capacity
+- canon/universe
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- k-failure-recovery
+- collapse-recovery-canon
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- amos-dmer-dual-loop-architecture
+- four-process-architecture-dmer
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_CROSS_SPECIES_FUNCTIONAL_MODES.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_cross_species
-  - cross_species_modes
-  - comparative_biology
-  - evolutionary_adaptations
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_cross_species
+- cross_species_modes
+- comparative_biology
+- evolutionary_adaptations
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- ubi-absolute-biological-integrity
+- ubi-fractal-architecture
+- 05-frameworks-moc
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,22 +44,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - COMPARATIVE_BIOLOGY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - COMPARATIVE_BIOLOGY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   comparative_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI Cross-Species Functional Modes
 

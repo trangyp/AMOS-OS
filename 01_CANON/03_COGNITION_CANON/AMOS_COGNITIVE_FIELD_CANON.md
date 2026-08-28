@@ -68,6 +68,21 @@ tags:
 - scope
 - regime
 - validation
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- amos-cognition-canon
+- amos-cognition-master-canon
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 03-cognition-canon-moc
+- trang-framework-recursive-ontology-dynamics
 title: AMOS Cognitive Field Canon
 type: canon
 updated: 2026-08-27

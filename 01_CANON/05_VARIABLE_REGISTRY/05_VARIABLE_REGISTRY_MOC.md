@@ -6,13 +6,29 @@ tags:
 - moc
 - 05-variable-registry
 - canon/universe
+- bio-logical-variable-registry
+- canon-variable-registry-contract
+- cross-canon-symbol-crosswalk
+- gmef-variable-registry
+- heritage-variable-registry
+- omega-variable-registry
+- qls-qcla-variable-registry
+- rscf-variable-registry
+- symbol-registry
+- trang-variable-registry
+- ubi-variable-registry
+- unit-registry
+- universal-variable-registry
+- universe-variable-registry
+- variable-registry-canon-readme
+- 00-index-moc
+- 01-canon-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Variable Registry — Map of Content
 

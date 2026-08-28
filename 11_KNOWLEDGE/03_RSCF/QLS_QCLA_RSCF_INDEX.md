@@ -12,17 +12,23 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/QLS_QCLA_RSCF_INDEX.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 03_rscf
-  - qls_qcla_rscf_index
-  - proof_capsules
-  - logic_proofs
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 03_rscf
+- qls_qcla_rscf_index
+- proof_capsules
+- logic_proofs
+- rscf
+- canon_candidate
+- canon/knowledge
+- 03-rscf-moc
+- qls-master
+- qcla-master
+- amos-x-qls-qcla-matrix
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,27 +43,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - QLS_FRAMEWORK
-    - QCLA_MASTER
-    - AMOS_CORPUS
+  - QLS_FRAMEWORK
+  - QCLA_MASTER
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_RSCF
-    - QLS_QCLA_RSCF_INDEX
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_RSCF
+  - QLS_QCLA_RSCF_INDEX
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
-    artifact: [[03_RSCF_MOC]]
+    artifact:
+    - - 03_RSCF_MOC
   qls_master:
-    artifact: [[QLS_MASTER]]
+    artifact:
+    - - QLS_MASTER
   qcla_master:
-    artifact: [[QCLA_MASTER]]
+    artifact:
+    - - QCLA_MASTER
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   index_structure: VERIFIED_SOURCE_STRUCTURE
   proof_index: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # QLS-QCLA RSCF Proof Capsule Index
 

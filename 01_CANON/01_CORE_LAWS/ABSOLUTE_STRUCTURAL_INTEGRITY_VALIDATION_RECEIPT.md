@@ -12,18 +12,26 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: VALIDATION_RECEIPT
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_VALIDATION_RECEIPT.md
 tags:
-  - amos_os
-  - canon
-  - core_laws
-  - receipt
-  - validation
-  - structural_integrity
-  - integrity
-  - verification
-  - provenance
-  - rscf
-  - validation_receipt
-  - canon/core
+- amos_os
+- canon
+- core_laws
+- receipt
+- validation
+- structural_integrity
+- integrity
+- verification
+- provenance
+- rscf
+- validation_receipt
+- canon/core
+- 00-home
+- amos-rscf-nodes
+- 01-core-laws-moc
+- amos-core
+- law-hierarchy
+- amos-core-all-versions-fractal-knowledge-network
+- 00-root-moc
+- amos-moc
 version: 0.2.0
 updated: '2026-08-28'
 status: RECEIPT_SLOT_DEFINED
@@ -38,12 +46,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-    - AMOS_corpus
-    - source_note_absolute_structural_integrity_validation_receipt
+  - AMOS_corpus
+  - source_note_absolute_structural_integrity_validation_receipt
   scope:
-    - 01_CANON
-    - 01_CORE_LAWS
-    - STRUCTURAL_INTEGRITY
+  - 01_CANON
+  - 01_CORE_LAWS
+  - STRUCTURAL_INTEGRITY
   regime: canon_validation_receipt
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED

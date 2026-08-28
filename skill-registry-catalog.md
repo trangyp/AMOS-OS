@@ -4,6 +4,9 @@ tags:
 - registry
 - catalog.md
 - catalog
+- moc
+- 00-root-moc
+- 00-home
 ---
 
 # AMOS Skill Registry Catalog
@@ -3905,3 +3908,7 @@ Total size: 11,702,299 bytes (11.2 MB)
 - **SHA-256**: `7ffc81038b9f020b...`
 
 [[_MOC]]
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

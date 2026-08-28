@@ -6,13 +6,27 @@ tags:
 - reference
 - arxiv-streaming-attention-sinks-rscf
 - canon/skill
+- cosmo-brain-moc
+- amos-build-from-spec
+- 2026-08-22-tests-logic-bridge-registry
+- 2026-08-22-brain-inventory
+- 2026-08-22-executable-code-internals
+- 2026-08-22-amos-full-brain-os-architecture
+- canon
+- 2026-08-22-amos-go-board-19x19-formal-system
+- amos-agent-registry
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Vault-Sourced Domain Knowledge
 

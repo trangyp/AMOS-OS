@@ -19,6 +19,18 @@ tags:
 - canon_placeholder
 - rscf
 - canon/universe
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 03-cognition-canon-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
@@ -34,7 +46,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # AMOS Memory Canon
 

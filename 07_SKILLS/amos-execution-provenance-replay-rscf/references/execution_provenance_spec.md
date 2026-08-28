@@ -6,13 +6,19 @@ tags:
 - reference
 - amos-execution-provenance-replay-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # JSON Specification
 

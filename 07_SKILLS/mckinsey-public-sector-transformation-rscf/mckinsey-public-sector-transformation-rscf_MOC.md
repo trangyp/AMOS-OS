@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-public-sector-transformation-rs
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Public-Sector-Transformation-Rscf — Map of Content
 

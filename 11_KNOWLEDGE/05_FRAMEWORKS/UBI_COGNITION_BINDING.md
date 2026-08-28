@@ -12,19 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_COGNITION_BINDING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_cognition_binding
-  - nbi
-  - cognition
-  - working_memory
-  - executive_function
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_cognition_binding
+- nbi
+- cognition
+- working_memory
+- executive_function
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- ubi-neurobiological-intelligence
+- ubi-full-brain-binding
+- ubi-emotion-binding
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,24 +46,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - COGNITIVE_BINDING
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - COGNITIVE_BINDING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_source:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   domain_knowledge:
-    artifact: [[UBI_NEUROBIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UBI_NEUROBIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
   cognitive_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI Cognition Binding
 

@@ -6,13 +6,28 @@ tags:
 - cognitive_matrix
 - l05_binding
 - canon/cognitive-matrix
+- readme
+- l05-binding-map
+- 00-home
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- primitives-cognitive-matrix-l05-binding-contract
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # INDEX L05 BINDING PRIMITIVES COGNITIVE MATRIX [[README]]
 

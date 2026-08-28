@@ -12,6 +12,16 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- references
+- readme
+- amos-law-stack-enforcement-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
@@ -42,7 +52,12 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement across scale transitions, UBI Score/ledger integrity. Use when validating whether system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or when a draft law short-circuits canonical order. Do not use for generic tasks outside the declared amos domain.
+description: AMOS Law Stack Enforcement — Part IV (Enforcement) of the 7-Part Universe
+  Canon. Validates Law of Law / Rule of 2 / Rule of 4 hierarchy, invariant enforcement
+  across scale transitions, UBI Score/ledger integrity. Use when validating whether
+  system rules hold across scale, checking law adherence to LoL/R2/R4 hierarchy, or
+  when a draft law short-circuits canonical order. Do not use for generic tasks outside
+  the declared amos domain.
 license: MIT
 steward: Trang Phan
 ---

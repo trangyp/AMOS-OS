@@ -4,7 +4,10 @@ title: SKILL — Amos Ssa Ir Compiler Rscf
 type: skill
 source: 07_SKILLS/amos-ssa-ir-compiler-rscf
 name: amos-ssa-ir-compiler-rscf
-description: Ssa Ir Compiler — technology and engineering capability. Use when software development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master routes to this specialized capability. Do not use for generic tasks outside c10 domain.
+description: Ssa Ir Compiler — technology and engineering capability. Use when software
+  development, engineering design, or technical architecture. Use when amos-c10-tech-engineering-master
+  routes to this specialized capability. Do not use for generic tasks outside c10
+  domain.
 parent_skill: amos-c10-tech-engineering-master
 domain: c10
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-ssa-ir-compiler-rscf-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

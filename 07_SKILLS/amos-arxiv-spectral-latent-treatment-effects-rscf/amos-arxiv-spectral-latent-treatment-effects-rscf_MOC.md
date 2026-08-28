@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-arxiv-spectral-latent-treatment-eff
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Arxiv-Spectral-Latent-Treatment-Effects-Rscf — Map of Content
 

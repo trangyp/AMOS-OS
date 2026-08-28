@@ -12,17 +12,23 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/NEUROSYNCAI_RSCF_INDEX.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 03_rscf
-  - neurosyncai_rscf_index
-  - proof_capsules
-  - bio_adaptive_proofs
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 03_rscf
+- neurosyncai_rscf_index
+- proof_capsules
+- bio_adaptive_proofs
+- rscf
+- canon_candidate
+- canon/knowledge
+- 03-rscf-moc
+- neurosyncai-master
+- unified-biological-intelligence
+- amos-x-neurosyncai
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,24 +43,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - NEUROSYNCAI_FRAMEWORK
-    - AMOS_CORPUS
+  - NEUROSYNCAI_FRAMEWORK
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_RSCF
-    - NEUROSYNCAI_RSCF_INDEX
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_RSCF
+  - NEUROSYNCAI_RSCF_INDEX
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
-    artifact: [[03_RSCF_MOC]]
+    artifact:
+    - - 03_RSCF_MOC
   neurosyncai_master:
-    artifact: [[NEUROSYNCAI_MASTER]]
+    artifact:
+    - - NEUROSYNCAI_MASTER
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   index_structure: VERIFIED_SOURCE_STRUCTURE
   proof_index: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # NeurosyncAI RSCF Proof Capsule Index
 

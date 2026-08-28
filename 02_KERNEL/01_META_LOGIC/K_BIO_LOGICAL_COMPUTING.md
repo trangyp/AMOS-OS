@@ -1,11 +1,11 @@
 ---
 title: Kernel · Bio-Logical Computing
 aliases:
-  - K Bio-Logical Computing
-  - AMOS Bio-Logical Computing
-  - AMOS Kernel Bio-Logical Computing
-  - Bio-Logical Computing Kernel
-  - Bio Logical Computing
+- K Bio-Logical Computing
+- AMOS Bio-Logical Computing
+- AMOS Kernel Bio-Logical Computing
+- Bio-Logical Computing Kernel
+- Bio Logical Computing
 type: logic
 document_type: kernel-logic-artifact
 source: 02_KERNEL/01_META_LOGIC
@@ -21,32 +21,43 @@ segment_role: meta-logic
 artifact_kind: LOG
 path: 02_KERNEL/01_META_LOGIC/K_BIO_LOGICAL_COMPUTING.md
 tags:
-  - amos_os
-  - amos-general
-  - kernel
-  - core
-  - logic
-  - meta_logic
-  - bio_logical_computing
-  - 02_kernel
-  - 01_meta_logic
-  - log
-  - canon_placeholder
-  - canon/kernel
-  - canon/meta-logic
-  - rscf
-  - rscf/node
-  - rscf/claim
-  - rscf/provenance
-  - provenance
-  - governance
-  - epistemic-discipline
-  - scope
-  - regime
-  - causality
-  - validation
-  - rollback
-  - uncertainty
+- amos_os
+- amos-general
+- kernel
+- core
+- logic
+- meta_logic
+- bio_logical_computing
+- 02_kernel
+- 01_meta_logic
+- log
+- canon_placeholder
+- canon/kernel
+- canon/meta-logic
+- rscf
+- rscf/node
+- rscf/claim
+- rscf/provenance
+- provenance
+- governance
+- epistemic-discipline
+- scope
+- regime
+- causality
+- validation
+- rollback
+- uncertainty
+- law-hierarchy
+- amos-rscf-nodes
+- 00-home
+- readme
+- observability-readme
+- operations-readme
+- kernel-readme
+- control-plane-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 01-meta-logic-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
@@ -73,22 +84,22 @@ rscf:
   freshness: 2026-08-27
   confidence_ceiling: UNKNOWN/GAP for substantive Bio-Logical Computing canon
   dependencies:
-    - LAW_HIERARCHY
-    - KERNEL_README
-    - AMOS_RSCF_NODES
+  - - - LAW_HIERARCHY
+  - KERNEL_README
+  - - - AMOS_RSCF_NODES
   competing_hypotheses: []
   falsifiers:
-    - verified native canon contradicts placeholder assumptions
-    - canonical registry assigns this identity differently
-    - lineage establishes another canonical node
-    - verified implementation contradicts documented target semantics
+  - verified native canon contradicts placeholder assumptions
+  - canonical registry assigns this identity differently
+  - lineage establishes another canonical node
+  - verified implementation contradicts documented target semantics
   promotion_requires:
-    - native_canon_source
-    - provenance_binding
-    - canonical_lineage_resolution
-    - typed_schema
-    - implementation_binding
-    - validation_receipt
+  - native_canon_source
+  - provenance_binding
+  - canonical_lineage_resolution
+  - typed_schema
+  - implementation_binding
+  - validation_receipt
 governance:
   fail_closed_on_unknown: true
   capability_is_authority: false
@@ -102,20 +113,19 @@ governance:
   rollback_required_for_consequential_mutation: true
 relations:
   indexed_by:
-    - 00_HOME
-    - AMOS_RSCF_NODES
+  - - - 00_HOME
+  - - - AMOS_RSCF_NODES
   governed_by:
-    - LAW_HIERARCHY
+  - - - LAW_HIERARCHY
   kernel_binding:
-    - KERNEL_README
+  - KERNEL_README
   control_binding:
-    - CONTROL_PLANE_README
+  - CONTROL_PLANE_README
   observed_by:
-    - OBSERVABILITY_README
+  - OBSERVABILITY_README
   recovery_binding:
-    - OPERATIONS_README
+  - OPERATIONS_README
 ---
-
 
 # Kernel · Bio-Logical Computing
 

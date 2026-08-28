@@ -12,16 +12,21 @@ segment: 04_RUNTIME/01_BOOT
 artifact_kind: BOOTSTRAP_SPEC
 path: 04_RUNTIME/01_BOOT/FULL_BRAIN_BOOTSTRAP.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 01_boot
-  - full_brain_bootstrap
-  - system_initialization
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 01_boot
+- full_brain_bootstrap
+- system_initialization
+- rscf
+- canon_candidate
+- canon/runtime
+- 01-boot-moc
+- amos-full-brain-os-architecture
+- ubi-x-full-brain
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,13 +41,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
-    - 04_RUNTIME/01_BOOT/01_BOOT_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
+  - 04_RUNTIME/01_BOOT/01_BOOT_MOC
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_BOOT
-    - FULL_BRAIN_BOOTSTRAP
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_BOOT
+  - FULL_BRAIN_BOOTSTRAP
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   boot_moc:
     artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC

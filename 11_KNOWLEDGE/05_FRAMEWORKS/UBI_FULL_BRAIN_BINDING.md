@@ -12,18 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_FULL_BRAIN_BINDING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_full_brain_binding
-  - cosmo_brain
-  - cognitive_substrate
-  - biological_logic
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_full_brain_binding
+- cosmo_brain
+- cognitive_substrate
+- biological_logic
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- amos-x-ubi
+- amos-x-ubi-matrix
+- ubi-cognition-binding
+- 00-home
+- md-2026-08-23-cosmo-brain-full-architecture
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,27 +46,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - COSMO_BRAIN_FULL_ARCHITECTURE
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - COSMO_BRAIN_FULL_ARCHITECTURE
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BRAIN_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BRAIN_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_source:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   brain_target:
-    artifact: [[MD_2026_08_23_COSMO_BRAIN_FULL_ARCHITECTURE]]
+    artifact:
+    - - MD_2026_08_23_COSMO_BRAIN_FULL_ARCHITECTURE
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_UBI]]
+    artifact:
+    - - AMOS_X_UBI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
   brain_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI Full Brain Binding
 

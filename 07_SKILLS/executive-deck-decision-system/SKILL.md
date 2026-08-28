@@ -4,7 +4,10 @@ title: SKILL — Executive Deck Decision System
 type: skill
 source: 07_SKILLS/executive-deck-decision-system
 name: executive-deck-decision-system
-description: Executive Deck Decision System — strategy and game theory capability. Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master routes to this specialized capability. Do not use for generic tasks outside c08 domain.
+description: Executive Deck Decision System — strategy and game theory capability.
+  Use when strategic analysis, game theory, or competitive reasoning. Use when amos-c08-strategy-game-master
+  routes to this specialized capability. Do not use for generic tasks outside c08
+  domain.
 parent_skill: amos-c08-strategy-game-master
 domain: c08
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- executive-deck-decision-system-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

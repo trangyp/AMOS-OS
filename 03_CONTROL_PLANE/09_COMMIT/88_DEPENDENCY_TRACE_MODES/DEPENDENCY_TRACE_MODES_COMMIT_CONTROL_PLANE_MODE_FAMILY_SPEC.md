@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 88_dependency_trace_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 88-dependency-trace-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # DEPENDENCY TRACE MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 

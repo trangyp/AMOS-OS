@@ -12,20 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - id_exchange
-  - sovereign_identity
-  - biological_identity
-  - zero_knowledge_auth
-  - ubi
-  - consentx
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- id_exchange
+- sovereign_identity
+- biological_identity
+- zero_knowledge_auth
+- ubi
+- consentx
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- ubi-consentx-binding
+- ubi-id-exchange-binding
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,27 +46,28 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI
-    - AMOS_CORPUS
+  - ID_EXCHANGE_PLUS_UBI_PLUS_NEUROSYNCAI
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - IDENTITY_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - IDENTITY_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: ID Exchange — Sovereign Biological Identity
     role: IDENTITY_VERIFICATION_AND_DATA_SOVEREIGNTY
   consent_engine:
-    artifact: [[CONSENTX]]
+    artifact:
+    - - CONSENTX
   biological_grounding:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   identity_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # ID Exchange — Sovereign Biological Identity
 

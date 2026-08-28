@@ -6,13 +6,17 @@ tags:
 - moc
 - 22-c12-earth-ecology
 - canon/domain
+- c12-earth-ecology-domains-domain-spec
+- c12-earth-ecology-domains-readme
+- domains-c12-earth-ecology-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 22 C12 Earth Ecology — Map of Content
 

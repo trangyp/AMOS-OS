@@ -6,13 +6,24 @@ tags:
 - reference
 - amos-boundary-scope-master
 - canon/skill
+- skill
+- validation
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- l0-integrity
+- l1-epistemic
+- l2-provenance
+- l3-dependency
+- l4-causal
+- l5-scope-regime
+- references-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # amos-boundary-scope-master — Vault-Sourced Domain Knowledge
 

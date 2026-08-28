@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/TSS_TPE_RSCF_INDEX.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 03_rscf
-  - tss_tpe_rscf_index
-  - proof_capsules
-  - tss_proofs
-  - tpe_proofs
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 03_rscf
+- tss_tpe_rscf_index
+- proof_capsules
+- tss_proofs
+- tpe_proofs
+- rscf
+- canon_candidate
+- canon/knowledge
+- 03-rscf-moc
+- tss-the-trang-system
+- tpe-trang-prediction-engine
+- amos-x-tss-tpe-matrix
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,27 +44,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TSS_THE_TRANG_SYSTEM
-    - TPE_TRANG_PREDICTION_ENGINE
-    - AMOS_CORPUS
+  - TSS_THE_TRANG_SYSTEM
+  - TPE_TRANG_PREDICTION_ENGINE
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_RSCF
-    - TSS_TPE_RSCF_INDEX
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_RSCF
+  - TSS_TPE_RSCF_INDEX
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
-    artifact: [[03_RSCF_MOC]]
+    artifact:
+    - - 03_RSCF_MOC
   tss_master:
-    artifact: [[TSS_THE_TRANG_SYSTEM]]
+    artifact:
+    - - TSS_THE_TRANG_SYSTEM
   tpe_master:
-    artifact: [[TPE_TRANG_PREDICTION_ENGINE]]
+    artifact:
+    - - TPE_TRANG_PREDICTION_ENGINE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   index_structure: VERIFIED_SOURCE_STRUCTURE
   proof_index: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # TSS-TPE RSCF Proof Capsule Index
 

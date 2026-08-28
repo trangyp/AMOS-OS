@@ -8,6 +8,14 @@ tags:
 - rscf/state/observation
 - topic/f49f022f-cda1-4783-817b-9a6c86732371-the
 - trang
+- integration
+- architecture
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- amos-simulation-kernel-v0-math-foundations
+- automation-profiles
+- trang-moc
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -16,7 +24,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # F49F022F CDA1 4783 817B 9A6C86732371 THE TRANG GRAND SYSTEM FULL LOGIC SPECIFICATION
 

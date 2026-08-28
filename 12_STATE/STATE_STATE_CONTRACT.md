@@ -1,12 +1,12 @@
 ---
 title: STATE STATE CONTRACT
 aliases:
-  - State State Contract
-  - State Contract
-  - AMOS State Contract
-  - State Plane Contract
-  - 12 STATE Contract
-  - Authoritative State Contract
+- State State Contract
+- State Contract
+- AMOS State Contract
+- State Plane Contract
+- 12 STATE Contract
+- Authoritative State Contract
 type: state
 artifact_type: contract
 contract_type: state_plane_contract
@@ -15,9 +15,190 @@ plane: 12_STATE
 source: 12_STATE
 path: 12_STATE/STATE_STATE_CONTRACT.md
 tags:
+- amos
+- amos_os
+- amos/state
+- amos/state-plane
+- amos/state-contract
+- amos/contract
+- amos/governance
+- amos/runtime
+- amos/architecture
+- 12_state
 - state
-- contract
 - state-plane
+- state-contract
+- state-management
+- state-governance
+- authoritative-state
+- authoritative-record
+- authoritative-state-record
+- state-record
+- state-records
+- state-artifact
+- state-artifacts
+- state-version
+- state-versioning
+- versioned-state
+- state-identity
+- state-transition
+- state-mutation
+- mutation
+- mutation-control
+- commit
+- proposal
+- proposal-commit
+- proposal-not-commit
+- transaction
+- transaction-semantics
+- atomicity
+- consistency
+- concurrency
+- conflict
+- stale-write
+- mvcc
+- cas
+- compare-and-swap
+- snapshot
+- snapshot-consistency
+- epoch
+- causal-epoch
+- policy-epoch
+- provenance-epoch
+- epoch-validity
+- local-finality
+- causal-finality
+- shard-local-finality
+- coordination
+- coordination-avoidance
+- proof-based-coordination
+- dependency
+- dependency-closure
+- dependency-graph
+- selective-invalidation
+- descendant-invalidation
+- causal-lineage
+- provenance
+- provenance-lineage
+- provenance-topology
+- provenance-independence
+- provenance-stamp
+- provenance-persistence
+- authority
+- authorization
+- authority-ref
+- capability
+- capability-authority-firewall
+- governance
+- governance-gate
+- control-plane
+- kernel
+- observability
+- operations
+- recovery
+- rollback
+- rollback-basin
+- repair
+- retry
+- receipt
+- effect-receipt
+- validation-receipt
+- execution-receipt
+- validation
+- verification
+- precondition
+- postcondition
+- invariant
+- invariant-preservation
+- fail-closed
+- unknown
+- gap
+- unknown-gap
+- epistemic
+- epistemic-regime
+- epistemic-class
+- source-claim
+- observation
+- derived
+- model
+- confidence
+- confidence-ceiling
+- weakest-premise
+- scope
+- scope-binding
+- scope-firewall
+- regime
+- regime-binding
+- regime-firewall
+- freshness
+- temporal-validity
+- hml
+- h-m-l
+- rscf
+- rscf-node
+- atomic-rscf
+- multi-rscf
+- typed-artifact
+- typed-state
+- schema
+- state-schema
+- contract-discipline
+- negative-case
+- malformed-state
+- missing-state
+- stale-state
+- unauthorized-state
+- contradiction
+- competing-hypotheses
+- competing
+- falsifier
+- sensitivity
+- reversibility
+- reversible-action
+- irreversible-action
+- consequence
+- consequence-radius
+- audit
+- auditability
+- traceability
+- deterministic-logic
+- governed-evolution
+- integrity
+- integrity-first
+- canon
+- canon/state
+- canon/governance
+- runtime/state
+- knowledge/state
+- persistence
+- promotion-gate
+- partial-implementation
+- conditional-canon
+- amos-model
+- obsidian
+- moc/state
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- readme
+- state-readme
+- state-state-contract
+- 00-home
+- amos-rscf-nodes
+- 12-state-moc
+- state-finality
+- proposal-commit-separation
+- capability-authority-separation
+- observed-current-separation
+- test-truth-separation
+- epoch-separation
+- consequential-effect-receipts
+- competing-hypothesis-preservation
+- 00-root-mocmd
 system: AMOS_OS
 origin_architect: Trang_Phan
 steward: Trang_Phan
@@ -32,189 +213,26 @@ empirical_validation: UNKNOWN/GAP
 authority_class: STATE_PLANE_CONTRACT
 normative_scope: STATE_CONTRACT
 confidence_ceiling: 0.95
-tags:
-  - amos
-  - amos_os
-  - amos/state
-  - amos/state-plane
-  - amos/state-contract
-  - amos/contract
-  - amos/governance
-  - amos/runtime
-  - amos/architecture
-  - 12_state
-  - state
-  - state-plane
-  - state-contract
-  - state-management
-  - state-governance
-  - authoritative-state
-  - authoritative-record
-  - authoritative-state-record
-  - state-record
-  - state-records
-  - state-artifact
-  - state-artifacts
-  - state-version
-  - state-versioning
-  - versioned-state
-  - state-identity
-  - state-transition
-  - state-mutation
-  - mutation
-  - mutation-control
-  - commit
-  - proposal
-  - proposal-commit
-  - proposal-not-commit
-  - transaction
-  - transaction-semantics
-  - atomicity
-  - consistency
-  - concurrency
-  - conflict
-  - stale-write
-  - mvcc
-  - cas
-  - compare-and-swap
-  - snapshot
-  - snapshot-consistency
-  - epoch
-  - causal-epoch
-  - policy-epoch
-  - provenance-epoch
-  - epoch-validity
-  - local-finality
-  - causal-finality
-  - shard-local-finality
-  - coordination
-  - coordination-avoidance
-  - proof-based-coordination
-  - dependency
-  - dependency-closure
-  - dependency-graph
-  - selective-invalidation
-  - descendant-invalidation
-  - causal-lineage
-  - provenance
-  - provenance-lineage
-  - provenance-topology
-  - provenance-independence
-  - provenance-stamp
-  - provenance-persistence
-  - authority
-  - authorization
-  - authority-ref
-  - capability
-  - capability-authority-firewall
-  - governance
-  - governance-gate
-  - control-plane
-  - kernel
-  - observability
-  - operations
-  - recovery
-  - rollback
-  - rollback-basin
-  - repair
-  - retry
-  - receipt
-  - effect-receipt
-  - validation-receipt
-  - execution-receipt
-  - validation
-  - verification
-  - precondition
-  - postcondition
-  - invariant
-  - invariant-preservation
-  - fail-closed
-  - unknown
-  - gap
-  - unknown-gap
-  - epistemic
-  - epistemic-regime
-  - epistemic-class
-  - source-claim
-  - observation
-  - derived
-  - model
-  - confidence
-  - confidence-ceiling
-  - weakest-premise
-  - scope
-  - scope-binding
-  - scope-firewall
-  - regime
-  - regime-binding
-  - regime-firewall
-  - freshness
-  - temporal-validity
-  - hml
-  - h-m-l
-  - rscf
-  - rscf-node
-  - atomic-rscf
-  - multi-rscf
-  - typed-artifact
-  - typed-state
-  - schema
-  - state-schema
-  - contract-discipline
-  - negative-case
-  - malformed-state
-  - missing-state
-  - stale-state
-  - unauthorized-state
-  - contradiction
-  - competing-hypotheses
-  - competing
-  - falsifier
-  - sensitivity
-  - reversibility
-  - reversible-action
-  - irreversible-action
-  - consequence
-  - consequence-radius
-  - audit
-  - auditability
-  - traceability
-  - deterministic-logic
-  - governed-evolution
-  - integrity
-  - integrity-first
-  - canon
-  - canon/state
-  - canon/governance
-  - runtime/state
-  - knowledge/state
-  - persistence
-  - promotion-gate
-  - partial-implementation
-  - conditional-canon
-  - amos-model
-  - obsidian
-  - moc/state
 rscf:
   state: DERIVED
   claim_class: DERIVED
   node_claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - 12_STATE/STATE_STATE_CONTRACT.md
+  - AMOS_corpus
+  - 12_STATE/STATE_STATE_CONTRACT.md
   scope:
-    - AMOS_general
-    - AMOS_state
-    - STATE_CONTRACT
-    - 12_STATE
+  - AMOS_general
+  - AMOS_state
+  - STATE_CONTRACT
+  - 12_STATE
   regime: AMOS_MODEL
   confidence_ceiling: 0.95
   implementation: PARTIAL
   canonical_status: CONDITIONAL
   falsifiers:
-    - F1_CANONICAL_SEMANTIC_CONTRADICTION
-    - F2_EXECUTED_INVARIANT_FAILURE
-    - F3_PROTECTED_FIREWALL_COLLAPSE
+  - F1_CANONICAL_SEMANTIC_CONTRADICTION
+  - F2_EXECUTED_INVARIANT_FAILURE
+  - F3_PROTECTED_FIREWALL_COLLAPSE
 gaps:
   runtime_enforcement: OPEN
   persistence_binding: OPEN
@@ -4688,22 +4706,22 @@ RSCF-RELATIONS:
   - VALIDATION_PATTERN_REFERENCE: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
   - VALIDATION_PATTERN_REFERENCE: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-  - GOVERNS_CONCEPT: AUTHORITATIVE_STATE
-  - GOVERNS_CONCEPT: STATE_VERSIONING
-  - GOVERNS_CONCEPT: STATE_IDENTITY
-  - GOVERNS_CONCEPT: STATE_MUTATION
-  - GOVERNS_CONCEPT: STATE_FINALITY
-  - GOVERNS_CONCEPT: PROPOSAL_COMMIT_SEPARATION
-  - GOVERNS_CONCEPT: CAPABILITY_AUTHORITY_SEPARATION
-  - GOVERNS_CONCEPT: OBSERVED_CURRENT_SEPARATION
-  - GOVERNS_CONCEPT: TEST_TRUTH_SEPARATION
-  - GOVERNS_CONCEPT: EPOCH_SEPARATION
-  - GOVERNS_CONCEPT: DEPENDENCY_CLOSURE
-  - GOVERNS_CONCEPT: LOCAL_FINALITY
-  - GOVERNS_CONCEPT: SELECTIVE_INVALIDATION
-  - GOVERNS_CONCEPT: ROLLBACK_BASIN
-  - GOVERNS_CONCEPT: CONSEQUENTIAL_EFFECT_RECEIPTS
-  - GOVERNS_CONCEPT: COMPETING_HYPOTHESIS_PRESERVATION
+  - GOVERNS_CONCEPT: [[AUTHORITATIVE_STATE]]
+  - GOVERNS_CONCEPT: [[STATE_VERSIONING]]
+  - GOVERNS_CONCEPT: [[STATE_IDENTITY]]
+  - GOVERNS_CONCEPT: [[STATE_MUTATION]]
+  - GOVERNS_CONCEPT: [[STATE_FINALITY]]
+  - GOVERNS_CONCEPT: [[PROPOSAL_COMMIT_SEPARATION]]
+  - GOVERNS_CONCEPT: [[CAPABILITY_AUTHORITY_SEPARATION]]
+  - GOVERNS_CONCEPT: [[OBSERVED_CURRENT_SEPARATION]]
+  - GOVERNS_CONCEPT: [[TEST_TRUTH_SEPARATION]]
+  - GOVERNS_CONCEPT: [[EPOCH_SEPARATION]]
+  - GOVERNS_CONCEPT: [[DEPENDENCY_CLOSURE]]
+  - GOVERNS_CONCEPT: [[LOCAL_FINALITY]]
+  - GOVERNS_CONCEPT: [[SELECTIVE_INVALIDATION]]
+  - GOVERNS_CONCEPT: [[ROLLBACK_BASIN]]
+  - GOVERNS_CONCEPT: [[CONSEQUENTIAL_EFFECT_RECEIPTS]]
+  - GOVERNS_CONCEPT: [[COMPETING_HYPOTHESIS_PRESERVATION]]
 ```
 
 ---

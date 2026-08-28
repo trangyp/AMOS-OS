@@ -14,6 +14,8 @@ tags:
 - rscf/state/observation
 - topic/amos-super-code-engine-v1-6-0
 - engine
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +23,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS SUPER CODE ENGINE V1 6 0
 
 ```json

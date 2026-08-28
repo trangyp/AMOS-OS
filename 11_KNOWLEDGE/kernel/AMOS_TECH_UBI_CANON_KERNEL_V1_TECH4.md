@@ -14,6 +14,8 @@ tags:
 - rscf/state/source-claim
 - topic/amos-tech-ubi-canon-kernel-v1
 - kernel
+- kernel-moc
+- canon
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -21,6 +23,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS TECH UBI [[CANON]] KERNEL V1 TECH4
 
 ```json

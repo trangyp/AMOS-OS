@@ -12,20 +12,32 @@ segment: 00_ROOT/AMOS_CANON_RUNTIME_BINDING_MAP.md
 artifact_kind: CANON
 path: 00_ROOT/AMOS_CANON_RUNTIME_BINDING_MAP.md
 tags:
-  - 00_root
-  - amos_canon_runtime_binding_map.md
-  - amos_os
-  - binding
-  - canon
-  - canon/root
-  - canon/universe
-  - canon_placeholder
-  - index
-  - map
-  - root
-  - rscf
-  - runtime
-  - placeholder_expanded
+- 00_root
+- amos_canon_runtime_binding_map.md
+- amos_os
+- binding
+- canon
+- canon/root
+- canon/universe
+- canon_placeholder
+- index
+- map
+- root
+- rscf
+- runtime
+- placeholder_expanded
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -44,7 +56,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

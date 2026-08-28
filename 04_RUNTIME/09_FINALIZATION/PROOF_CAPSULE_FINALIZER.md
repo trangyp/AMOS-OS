@@ -12,17 +12,22 @@ segment: 04_RUNTIME/09_FINALIZATION
 artifact_kind: FINALIZER_SPEC
 path: 04_RUNTIME/09_FINALIZATION/PROOF_CAPSULE_FINALIZER.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 09_finalization
-  - proof_capsule_finalizer
-  - cryptographic_signing
-  - rscf_header_emission
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 09_finalization
+- proof_capsule_finalizer
+- cryptographic_signing
+- rscf_header_emission
+- rscf
+- canon_candidate
+- canon/runtime
+- 09-finalization-moc
+- 03-rscf-moc
+- 03-control-plane-moc
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
-    - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-    - AMOS_CORPUS
+  - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
+  - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_FINALIZATION
-    - PROOF_CAPSULE_EMISSION
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_FINALIZATION
+  - PROOF_CAPSULE_EMISSION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   finalization_moc:
     artifact: 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC

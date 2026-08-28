@@ -6,13 +6,15 @@ tags:
 - moc
 - o09-simulation
 - canon/cognitive-matrix
+- cognitive-matrix-o09-simulation-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O09 Simulation — Map of Content
 

@@ -12,24 +12,34 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_UBI_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - matrix
-  - 25_cognitive_matrix
-  - ubi
-  - unified_biological_intelligence
-  - biological_intelligence
-  - nbi
-  - nei
-  - si
-  - bei
-  - biological_alignment
-  - effectiveness
-  - human_ai_interaction
-  - systems_design
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- ubi
+- unified_biological_intelligence
+- biological_intelligence
+- nbi
+- nei
+- si
+- bei
+- biological_alignment
+- effectiveness
+- human_ai_interaction
+- systems_design
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- amos-x-ubi
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- amos-x-tss
+- amos-x-tpe
+- amos-x-neurosyncai
+- amos-x-trang-reality
+- law-hierarchy
+- 25-cognitive-matrix-moc
 version: 1.1.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -44,17 +54,18 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - BIOLOGICAL_INTELLIGENCE
-    - BIOLOGICAL_ROUTING
-    - MATRIX_TRAVERSAL
-    - COGNITIVE_MATRIX
+  - BIOLOGICAL_INTELLIGENCE
+  - BIOLOGICAL_ROUTING
+  - MATRIX_TRAVERSAL
+  - COGNITIVE_MATRIX
 framework_binding:
   artifact:
     name: AMOS × UBI
-    artifact_ref: [[AMOS_X_UBI]]
+    artifact_ref:
+    - - AMOS_X_UBI
   role: BIOLOGICAL_DOMAINS_AND_SYSTEMIC_PERFORMANCE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE

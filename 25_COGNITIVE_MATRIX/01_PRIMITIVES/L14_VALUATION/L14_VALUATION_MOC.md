@@ -6,13 +6,25 @@ tags:
 - moc
 - l14-valuation
 - canon/cognitive-matrix
+- cognitive-matrix-l14-valuation-contract
+- 00-index-moc
+- 01-primitives-moc
+- l14-valuation-primitives-cognitive-matrix-agents
+- l14-valuation-primitives-cognitive-matrix-hml
+- l14-valuation-primitives-cognitive-matrix-memory
+- l14-valuation-primitives-cognitive-matrix-purpose
+- l14-valuation-primitives-cognitive-matrix-readme
+- l14-valuation-primitives-cognitive-matrix-repair
+- l14-valuation-primitives-cognitive-matrix-rscf
+- l14-valuation-primitives-cognitive-matrix-skills
+- l14-valuation-primitives-cognitive-matrix-state
+- l14-valuation-primitives-cognitive-matrix-tests
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L14 Valuation — Map of Content
 

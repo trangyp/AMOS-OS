@@ -12,18 +12,23 @@ segment: 25_COGNITIVE_MATRIX/12_GENERATORS
 artifact_kind: NOTE
 path: 25_COGNITIVE_MATRIX/12_GENERATORS/GENERATORS_PROVENANCE.md
 tags:
-  - 12-generators
-  - 12_generators
-  - 25_cognitive_matrix
-  - amos_os
-  - canon/cognitive-matrix
-  - canon/universe
-  - generators
-  - generators_provenance.md
-  - note
-  - provenance
-  - rscf
-  - placeholder_expanded
+- 12-generators
+- 12_generators
+- 25_cognitive_matrix
+- amos_os
+- canon/cognitive-matrix
+- canon/universe
+- generators
+- generators_provenance.md
+- note
+- provenance
+- rscf
+- placeholder_expanded
+- readme
+- generator-contract
+- validation
+- roadmap
+- promotion-gates
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -42,7 +47,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -6,13 +6,28 @@ tags:
 - moc
 - 00-mode-index
 - canon/control-plane
+- mode-admission-queue
+- mode-composition-registry
+- mode-conflict-registry
+- mode-coverage-matrix
+- mode-dependency-graph
+- mode-discovery-queue
+- mode-extension-protocol
+- mode-falsifier-registry
+- mode-gap-registry
+- mode-index-commit-control-plane-readme
+- mode-ontology
+- mode-placeholder-audit-2026-08-25
+- mode-registry
+- mode-revalidation-schedule
+- mode-transition-matrix
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 00 Mode Index — Map of Content
 

@@ -17,6 +17,10 @@ tags:
 - moc
 - canon-group/tech-ai
 - canon/tooling
+- 00-home
+- 00-root-moc
+- amos-rscf-nodes
+- templates-moc
 title: linked-note template
 type: template
 source: Templates
@@ -26,7 +30,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # <% tp.file.title %>
 

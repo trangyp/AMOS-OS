@@ -4,7 +4,10 @@ title: SKILL — Amos Knowledge Epistemology Rscf Engine
 type: skill
 source: 07_SKILLS/amos-knowledge-epistemology-rscf-engine
 name: amos-knowledge-epistemology-rscf-engine
-description: Knowledge Epistemology — knowledge research capability. Use when knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside knowledge domain.
+description: Knowledge Epistemology — knowledge research capability. Use when knowledge
+  management, research, or Obsidian vault integration. Use when amos-knowledge-research-master
+  routes to this specialized capability. Do not use for generic tasks outside knowledge
+  domain.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-knowledge-epistemology-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

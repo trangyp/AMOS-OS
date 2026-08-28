@@ -6,13 +6,17 @@ tags:
 - moc
 - 03-governance-forums
 - canon/operating-model
+- governance-forums
+- governance-forums-operating-model-readme
+- 00-index-moc
+- 23-operating-model-moc
+- operating-model-governance-forums-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Governance Forums — Map of Content
 

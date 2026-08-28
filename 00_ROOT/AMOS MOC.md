@@ -6,8 +6,15 @@ tags:
 - moc
 - root
 - navigation
+- 01-canon-moc
+- 07-skills-moc
+- 06-agents-moc
+- 08-workflows-moc
+- 11-knowledge-moc
+- 21-domains-moc
+- 00-root-moc
+- 00-home
 ---
-
 
 # AMOS MOC
 
@@ -23,3 +30,7 @@ This is the root Map of Content for the AMOS OS vault.
 - [[08_WORKFLOWS_MOC]] — Workflows registry
 - [[11_KNOWLEDGE_MOC]] — Knowledge base
 - [[21_DOMAINS_MOC]] — Domain specifications
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

@@ -6,13 +6,15 @@ tags:
 - moc
 - c09-kernel-control
 - canon/cognitive-matrix
+- 00-index-moc
+- 03-control-planes-moc
+- cognitive-matrix-c09-kernel-control-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C09 Kernel Control — Map of Content
 

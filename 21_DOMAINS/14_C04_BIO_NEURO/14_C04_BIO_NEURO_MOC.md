@@ -6,13 +6,17 @@ tags:
 - moc
 - 14-c04-bio-neuro
 - canon/domain
+- c04-bio-neuro-domains-readme
+- domains-c04-bio-neuro-contract
+- domains-domain-spec
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 14 C04 Bio Neuro — Map of Content
 

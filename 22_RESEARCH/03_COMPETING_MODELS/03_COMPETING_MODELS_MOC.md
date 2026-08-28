@@ -6,13 +6,21 @@ tags:
 - moc
 - 03-competing-models
 - canon/research
+- canon-competing-definitions
+- competing-models-research-readme
+- competing-model-registry
+- heritage-competing-models
+- reality-architecture-competing-models
+- research-competing-models-contract
+- ubi-competing-models
+- 00-index-moc
+- 22-research-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Competing Models — Map of Content
 

@@ -18,13 +18,35 @@ tags:
 - authority
 - note
 - canon/kernel
+- readme
+- dependency-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- authority-canon
+- canon-provenance
+- kernel-map
+- k-core19-logic
+- k-structural-reasoning
+- k-causal-closure
+- k-causal-epoch
+- k-system-state
+- k-context-state
+- k-capability-authorization
+- k-commit-time-authority
+- k-risk-constraint
+- k-event-bus
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 07-authority-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # K EFFECT CLASSIFICATION
 

@@ -6,13 +6,15 @@ tags:
 - moc
 - 67-monitoring-alerting-modes
 - canon/control-plane
+- control-plane-mode-family-registry
+- control-plane-mode-family-spec
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 67 Monitoring Alerting Modes — Map of Content
 

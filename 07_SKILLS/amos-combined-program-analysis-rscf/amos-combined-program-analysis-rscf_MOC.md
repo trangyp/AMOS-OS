@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-combined-program-analysis-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Combined-Program-Analysis-Rscf — Map of Content
 

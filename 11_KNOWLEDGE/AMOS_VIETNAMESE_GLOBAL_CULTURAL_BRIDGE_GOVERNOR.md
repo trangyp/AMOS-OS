@@ -120,6 +120,14 @@ tags:
 - canon/provenance
 - canon/bridge
 - canon/rscf
+- 00-home
+- knowledge-moc
+- amos-vn-legal-engine
+- heritage-intelligence
+- trang-zero-framework
+- amos-cross-domain-tensor-composition-governor
+- 25-cognitive-matrix-moc
+- kernel-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -3431,3 +3439,7 @@ The governor exists to make the bridge possible **without collapsing the distinc
 ---
 
 **END — `AMOS_VIETNAMESE_GLOBAL_CULTURAL_BRIDGE_GOVERNOR.md`**
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

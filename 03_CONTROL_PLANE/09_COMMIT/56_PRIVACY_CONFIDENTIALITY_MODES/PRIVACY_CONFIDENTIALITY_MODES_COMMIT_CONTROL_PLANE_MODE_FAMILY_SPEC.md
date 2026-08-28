@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 56_privacy_confidentiality_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 56-privacy-confidentiality-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # PRIVACY CONFIDENTIALITY MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 

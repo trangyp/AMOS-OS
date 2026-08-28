@@ -12,17 +12,22 @@ segment: 21_DOMAINS/04_STRATEGY
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/04_STRATEGY/TSS_DOMAIN_MODEL.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 04_strategy
-  - tss_domain_model
-  - lifecycle_strategy
-  - state_vector_omega_h_f_s
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 04_strategy
+- tss_domain_model
+- lifecycle_strategy
+- state_vector_omega_h_f_s
+- rscf
+- canon_candidate
+- canon/domain
+- tss-the-trang-system
+- 04-strategy-moc
+- amos-x-tss
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,20 +42,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-    - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
+  - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_STRATEGY
-    - TSS_STRATEGY_MODEL
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_STRATEGY
+  - TSS_STRATEGY_MODEL
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   tss_master:
-    artifact: [[TSS_THE_TRANG_SYSTEM]]
+    artifact:
+    - - TSS_THE_TRANG_SYSTEM
   strategy_moc:
-    artifact: [[04_STRATEGY_MOC]]
+    artifact:
+    - - 04_STRATEGY_MOC
   matrix_binding:
-    artifact: [[AMOS_X_TSS]]
+    artifact:
+    - - AMOS_X_TSS
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

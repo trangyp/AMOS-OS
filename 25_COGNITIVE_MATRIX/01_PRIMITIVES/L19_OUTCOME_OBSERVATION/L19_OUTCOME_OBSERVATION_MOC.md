@@ -6,13 +6,15 @@ tags:
 - moc
 - l19-outcome-observation
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l19-outcome-observation-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L19 Outcome Observation — Map of Content
 

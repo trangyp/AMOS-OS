@@ -1,10 +1,10 @@
 ---
 title: ULK x RSCF Cross-Plane Matrix Table
 aliases:
-  - ULK × RSCF Cross-Plane Matrix
-  - ULK x RSCF Matrix
-  - ULK RSCF Matrix
-  - ULK RSCF Cross-Plane Matrix Table
+- ULK × RSCF Cross-Plane Matrix
+- ULK x RSCF Matrix
+- ULK RSCF Matrix
+- ULK RSCF Cross-Plane Matrix Table
 type: cognitive_matrix
 source: 25_COGNITIVE_MATRIX
 artifact: ULK_X_RSCF_MATRIX.md
@@ -27,105 +27,105 @@ executable_binding: ESTABLISHED
 ingestion_action: NATIVE_CANON_INGESTION
 raw_source_policy: DO_NOT_LOAD_UNLESS_REQUIRED
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - ulk_x_rscf
-  - ulk_x_rscf_matrix
-  - matrix_table
-  - cross_plane
-  - cross_plane_matrix
-  - universal_logic_kernel
-  - ulk
-  - logic_kernel
-  - rscf
-  - rscf_node
-  - recursive_structure
-  - recursive_reasoning
-  - deterministic_logic
-  - alu
-  - alu_operator
-  - ground_state
-  - distinction
-  - regime
-  - relational_coupling
-  - tensor_coupling
-  - constitutional_projection
-  - type_system
-  - state_hash
-  - sha256
-  - merkle_verification
-  - fail_closed
-  - scope_firewall
-  - invariant
-  - invariant_verification
-  - type_safety
-  - provenance
-  - provenance_aware
-  - source_grounded
-  - source_claim
-  - amos_model
-  - canon_candidate
-  - active_reference
-  - conceptual_source_defined
-  - executable_binding
-  - constitutional_tests
-  - epistemic_boundary
-  - verification
-  - verification_matrix
-  - governance
-  - integrity
-  - causal_firewall
-  - scope_firewall
-  - fractal_knowledge_network
-  - hml
-  - canon/cognitive-matrix
-  - canon/ulk
-  - canon/rscf
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- ulk_x_rscf
+- ulk_x_rscf_matrix
+- matrix_table
+- cross_plane
+- cross_plane_matrix
+- universal_logic_kernel
+- ulk
+- logic_kernel
+- rscf
+- rscf_node
+- recursive_structure
+- recursive_reasoning
+- deterministic_logic
+- alu
+- alu_operator
+- ground_state
+- distinction
+- regime
+- relational_coupling
+- tensor_coupling
+- constitutional_projection
+- type_system
+- state_hash
+- sha256
+- merkle_verification
+- fail_closed
+- scope_firewall
+- invariant
+- invariant_verification
+- type_safety
+- provenance
+- provenance_aware
+- source_grounded
+- source_claim
+- amos_model
+- canon_candidate
+- active_reference
+- conceptual_source_defined
+- executable_binding
+- constitutional_tests
+- epistemic_boundary
+- verification
+- verification_matrix
+- governance
+- integrity
+- causal_firewall
+- scope_firewall
+- fractal_knowledge_network
+- hml
+- canon/cognitive-matrix
+- canon/ulk
+- canon/rscf
+- ulk-x-rscf
+- ulk-logic-kernel
+- 25-cognitive-matrix-moc
+- k-fail-closed
+- k-provenance
+- 00-home
+- amos-rscf-nodes
 framework_binding:
   matrix_spec:
-    artifact: [[ULK_X_RSCF]]
+    artifact:
+    - - ULK_X_RSCF
   ulk:
-    artifact: [[ULK_LOGIC_KERNEL]]
+    artifact:
+    - - ULK_LOGIC_KERNEL
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - "25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md"
-    - "[[ULK_X_RSCF]]"
-    - "[[ULK_LOGIC_KERNEL]]"
-    - "AMOS_CORPUS"
+  - 25_COGNITIVE_MATRIX/ULK_X_RSCF_MATRIX.md
+  - '[[ULK_X_RSCF]]'
+  - '[[ULK_LOGIC_KERNEL]]'
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - ULK_RSCF_INTEGRATION
-    - LOGIC_TO_RSCF_MAPPING
-    - VERIFICATION
-    - FAIL_CLOSED_GOVERNANCE
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - ULK_RSCF_INTEGRATION
+  - LOGIC_TO_RSCF_MAPPING
+  - VERIFICATION
+  - FAIL_CLOSED_GOVERNANCE
+  - SOURCE_DEFINED_MODEL
 epistemic_boundary:
-  artifact_presence:
-    VERIFIED_SOURCE_PRESENCE
-  matrix_rows:
-    VERIFIED_SOURCE_STRUCTURE
-  alu_operator_mapping:
-    SOURCE_DEFINED_MODEL
-  generated_rscf_sections:
-    SOURCE_BLANK_UNRESOLVED
-  verification_checks:
-    SOURCE_DEFINED_MODEL
-  fail_closed_fallbacks:
-    SOURCE_DEFINED_MODEL
-  runtime_implementation:
-    NOT_INDEPENDENTLY_VERIFIED
-  mathematical_completeness:
-    NOT_ESTABLISHED_BY_THIS_ARTIFACT
-  executable_binding:
-    SOURCE_DECLARED_ESTABLISHED_NOT_INDEPENDENTLY_REVALIDATED
+  artifact_presence: VERIFIED_SOURCE_PRESENCE
+  matrix_rows: VERIFIED_SOURCE_STRUCTURE
+  alu_operator_mapping: SOURCE_DEFINED_MODEL
+  generated_rscf_sections: SOURCE_BLANK_UNRESOLVED
+  verification_checks: SOURCE_DEFINED_MODEL
+  fail_closed_fallbacks: SOURCE_DEFINED_MODEL
+  runtime_implementation: NOT_INDEPENDENTLY_VERIFIED
+  mathematical_completeness: NOT_ESTABLISHED_BY_THIS_ARTIFACT
+  executable_binding: SOURCE_DECLARED_ESTABLISHED_NOT_INDEPENDENTLY_REVALIDATED
 ---
-
 
 # ULK × RSCF Cross-Plane Matrix Table
 

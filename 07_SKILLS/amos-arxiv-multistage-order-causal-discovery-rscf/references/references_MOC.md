@@ -1,18 +1,25 @@
 ---
-title: References MOC — References — Amos Arxiv Multistage Order Causal Discovery Rscf
+title: References MOC — References — Amos Arxiv Multistage Order Causal Discovery
+  Rscf
 type: moc
 source: 07_SKILLS/amos-arxiv-multistage-order-causal-discovery-rscf/references
 tags:
 - moc
 - references
 - canon/skill
+- causal-discovery-spec
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # References — Map of Content
 

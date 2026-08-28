@@ -3,22 +3,39 @@ title: L18 GMEF
 type: gmef
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - gmef
-  - gate_laws
-  - governance
-  - gate_composition
-  - fail_closed
-  - decision_receipts
-  - authority_separation
-  - promotion
-  - audit
-  - state_transition
-  - epoch
-  - digest
-  - provenance
-  - canon/universe
+- canon
+- core_laws
+- gmef
+- gate_laws
+- governance
+- gate_composition
+- fail_closed
+- decision_receipts
+- authority_separation
+- promotion
+- audit
+- state_transition
+- epoch
+- digest
+- provenance
+- canon/universe
+- validation
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- l17-rscf
+- l16-hml
+- provenance-topology
+- scope-regime-firewall
+- causal-epoch-finality
+- persistent-provenance
+- mvcc-cas
+- atomic-multi-rscf
+- l10-failure-recovery
+- l11-knowledge-memory
+- l15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

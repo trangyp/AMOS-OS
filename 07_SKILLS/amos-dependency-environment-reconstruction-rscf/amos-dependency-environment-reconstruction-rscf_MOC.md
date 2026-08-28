@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-dependency-environment-reconstructi
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Dependency-Environment-Reconstruction-Rscf — Map of Content
 

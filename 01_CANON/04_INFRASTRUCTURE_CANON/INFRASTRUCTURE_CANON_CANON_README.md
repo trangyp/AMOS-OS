@@ -6,13 +6,31 @@ tags:
 - amos_os
 - 01_canon
 - canon/universe
+- readme
+- authority-canon
+- canon-infrastructure-canon-contract
+- control-plane-canon
+- infrastructure-canon
+- canon
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 04-infrastructure-canon-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # INFRASTRUCTURE [[CANON]] [[CANON]] [[README]]
 

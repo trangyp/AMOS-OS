@@ -5,6 +5,7 @@ tags:
 - core
 - runtime
 - canon/knowledge
+- kernel-moc
 type: data
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -13,6 +14,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # TECH SYSTEMS PRODUCT MANAGEMENT KERNEL
 
 ```json

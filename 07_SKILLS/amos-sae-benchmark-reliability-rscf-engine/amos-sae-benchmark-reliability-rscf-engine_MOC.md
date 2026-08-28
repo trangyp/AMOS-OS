@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-sae-benchmark-reliability-rscf-engi
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Sae-Benchmark-Reliability-Rscf-Engine — Map of Content
 

@@ -6,13 +6,32 @@ tags:
 - amos_os
 - 02_kernel
 - canon/kernel
+- readme
+- kernel-risk-repair-contract
+- k-collapse-recovery
+- k-homeostasis
+- k-repair-harm
+- k-repair-priority
+- k-risk-constraint
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 06-risk-repair-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # RISK REPAIR KERNEL [[README]]
 

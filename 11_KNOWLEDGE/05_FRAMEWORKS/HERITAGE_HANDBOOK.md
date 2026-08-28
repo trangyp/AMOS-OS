@@ -12,18 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: HANDBOOK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_HANDBOOK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - heritage_handbook
-  - operational_handbook
-  - decision_protocols
-  - governance_manual
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- heritage_handbook
+- operational_handbook
+- decision_protocols
+- governance_manual
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- skill
+- heritage-to-tss-binding
+- heritage-x-tss
+- heritage-zero-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,24 +46,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - OPERATIONAL_HANDBOOK
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - OPERATIONAL_HANDBOOK
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   decision_intelligence_skill:
-    artifact: [[SKILL]]
+    artifact:
+    - - SKILL
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   handbook_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage Decision Intelligence Handbook
 

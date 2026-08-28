@@ -6,13 +6,14 @@ tags:
 - note
 - 07-skills
 - canon/skill
+- skill
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # AMOS OS Skills — Complete Inventory
 

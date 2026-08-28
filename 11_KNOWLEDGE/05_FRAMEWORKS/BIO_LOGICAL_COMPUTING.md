@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_COMPUTING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - bio_logical_computing
-  - biological_computing
-  - living_circuits
-  - non_von_neumann
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- bio_logical_computing
+- biological_computing
+- living_circuits
+- non_von_neumann
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- uba-framework
+- ubi-biological-programming
+- domain-canon-programming
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,26 +45,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - BIO_LOGICAL_COMPUTING_FRAMEWORK
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - BIO_LOGICAL_COMPUTING_FRAMEWORK
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_COMPUTING
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_COMPUTING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Bio-Logical Computing Architecture
     role: NON_VON_NEUMANN_BIOLOGICAL_COMPUTING
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   computing_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Bio-Logical Computing Architecture
 

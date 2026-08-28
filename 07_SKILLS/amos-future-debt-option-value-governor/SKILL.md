@@ -4,7 +4,9 @@ title: SKILL — Amos Future Debt Option Value Governor
 type: skill
 source: 07_SKILLS/amos-future-debt-option-value-governor
 name: amos-future-debt-option-value-governor
-description: Future Debt Option Value Governor — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside econ domain.
+description: Future Debt Option Value Governor — econ capability. Use when executing
+  the core capability within this domain. Use when amos-c07-econ-finance-master routes
+  to this specialized capability. Do not use for generic tasks outside econ domain.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-future-debt-option-value-governor-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

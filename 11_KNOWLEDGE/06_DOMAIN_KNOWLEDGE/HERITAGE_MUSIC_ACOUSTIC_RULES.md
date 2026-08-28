@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_MUSIC_ACOUSTIC_RULES.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 06_domain_knowledge
-  - heritage_music_acoustic_rules
-  - harmonic_ratios
-  - acoustic_entrainment
-  - resonance
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 06_domain_knowledge
+- heritage_music_acoustic_rules
+- harmonic_ratios
+- acoustic_entrainment
+- resonance
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- bei-bioelectromagnetic-intelligence
+- unified-biological-intelligence
+- 00-home
+- knowledge-moc
+- 06-domain-knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,25 +44,24 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_KNOWLEDGE
-    - ACOUSTIC_RULES
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_KNOWLEDGE
+  - ACOUSTIC_RULES
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   framework_counterpart:
-    artifact: '11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE'
+    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_MUSIC_ACOUSTIC_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
   acoustic_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # Heritage Music Acoustic Rules — Domain Knowledge
 

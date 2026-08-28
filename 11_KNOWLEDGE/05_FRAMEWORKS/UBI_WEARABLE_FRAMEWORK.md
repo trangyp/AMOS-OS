@@ -12,19 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_WEARABLE_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_wearable_framework
-  - wearable_sensors
-  - real_time_telemetry
-  - biological_monitoring
-  - adaptive_interfaces
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_wearable_framework
+- wearable_sensors
+- real_time_telemetry
+- biological_monitoring
+- adaptive_interfaces
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- ubi-score-framework
+- neurosyncai-framework
+- ubi-neurosyncai-binding
+- ubi-absolute-biological-integrity
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,19 +47,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - WEARABLE_TECHNOLOGY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - WEARABLE_TECHNOLOGY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   score_framework:
-    artifact: [[UBI_SCORE_FRAMEWORK]]
+    artifact:
+    - - UBI_SCORE_FRAMEWORK
   neurosyncai_coupling:
-    artifact: [[NEUROSYNCAI_FRAMEWORK]]
+    artifact:
+    - - NEUROSYNCAI_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -59,7 +70,6 @@ epistemic_boundary:
   medical_device_status: NOT_ESTABLISHED
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI Wearable Framework
 

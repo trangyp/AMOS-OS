@@ -1,10 +1,15 @@
 ---
 name: symposium-publish
-description: Publish, update, or withdraw an existing Markdown note through Symposium's host-owned review flow. Use when the user asks to publish, share, update, delete, remove, or withdraw a Symposium page.
+description: Publish, update, or withdraw an existing Markdown note through Symposium's
+  host-owned review flow. Use when the user asks to publish, share, update, delete,
+  remove, or withdraw a Symposium page.
 metadata:
   steward: Trang Phan
   copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: "8"
+  copilot-builtin-version: '8'
+tags:
+- 00-root-moc
+- 00-home
 ---
 
 # Publish Markdown to Symposium
@@ -66,3 +71,7 @@ choose an action or document id.
   that same file and retry exactly once. Otherwise, or if that retry fails, stop and
   report the exact host message. Never invent a cause, change unrelated styling, create
   another filename, bypass the review, or publish directly.
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

@@ -42,10 +42,42 @@ tags:
 - canon/registry
 - topic/variables
 - topic/semantic-identity
+- readme
+- architecture
+- 00-root-naming-standard
+- placement-rules
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- symbol-registry
+- unit-registry
+- hml-canon
+- persistence-canon
+- cognition-canon
+- authority-canon
+- control-plane-canon
+- kernel-map
+- control-plane-map
+- runtime-map
+- cognitive-organism-map
+- memory-memory-map
+- state-state-map
+- model-map
+- schema-map
+- observability-observability-map
+- security-map
+- test-map
+- cognitive-matrix-architecture
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 05-variable-registry-moc
 aliases:
-- AMOS Universal Variable Registry - Universal Variable Registry - AMOS Variable Registry - AM
+- AMOS Universal Variable Registry - Universal Variable Registry - AMOS Variable Registry
+  - AM
 ---
-
 
 # AMOS Universal Variable Registry
 **Origin architect / steward:** Trang Phan

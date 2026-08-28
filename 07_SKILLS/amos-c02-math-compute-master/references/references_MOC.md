@@ -6,13 +6,32 @@ tags:
 - moc
 - references
 - canon/skill
+- ancient-math
+- complex-analysis-bridge
+- computational-complexity-model
+- control-systems-kernel
+- domain-config
+- engineering-math-engine-cognitive
+- engineering-math-kernel
+- engineering-math-kernel-vinfinity
+- integrated-optimization
+- network-structure-diagnostics
+- numerical-methods-engine-layer
+- spectral-method-governance
+- vault-domain-knowledge
+- amos-c02-math-compute-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # References — Map of Content
 

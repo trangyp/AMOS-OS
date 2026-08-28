@@ -6,13 +6,14 @@ tags:
 - moc
 - 44-analogy-transfer-modes
 - canon/control-plane
+- 09-commit-moc
+- analogy-transfer-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 44 Analogy Transfer Modes — Map of Content
 

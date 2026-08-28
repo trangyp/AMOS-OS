@@ -12,13 +12,18 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_SPEC
 path: 25_COGNITIVE_MATRIX/UBI_X_FULL_BRAIN.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - ubi_x_full_brain
-  - full_brain_os
-  - rscf
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- ubi_x_full_brain
+- full_brain_os
+- rscf
+- ubi-x-full-brain-matrix
+- ubi-full-brain-binding
+- 25-cognitive-matrix-moc
+- cognitive-matrix-moc
+- 00-home
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -29,9 +34,11 @@ validation_status: PASSED_CONSTITUTIONAL_TESTS
 executable_binding: ESTABLISHED
 framework_binding:
   matrix_counterpart:
-    artifact: [[UBI_X_FULL_BRAIN_MATRIX]]
+    artifact:
+    - - UBI_X_FULL_BRAIN_MATRIX
   knowledge_binding:
-    artifact: [[UBI_FULL_BRAIN_BINDING]]
+    artifact:
+    - - UBI_FULL_BRAIN_BINDING
 ---
 
 # UBI x Full Brain Cognitive Matrix Specification (v2.0.0)
@@ -42,3 +49,7 @@ framework_binding:
 - **Matrix Table:** [[UBI_X_FULL_BRAIN_MATRIX]]
 - **Knowledge Binding:** [[UBI_FULL_BRAIN_BINDING]]
 - **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

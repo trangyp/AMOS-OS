@@ -5,6 +5,15 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- architecture
+- tensors
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- khung-trang-full-max-detail-architecture-equations
+- amos-simulation-kernel-v0-math-foundations
+- automation-profiles
+- trang-moc
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +22,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # TRANG REALITY [[ARCHITECTURE]]
 

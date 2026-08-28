@@ -4,8 +4,15 @@ tags:
 - stub
 - memory
 - moc
+- memory-moc
+- kernel-moc
+- 00-home
 ---
 
 # memory moc
 
 Stub note for [[memory_moc]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

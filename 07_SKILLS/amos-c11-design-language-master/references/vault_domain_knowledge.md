@@ -6,13 +6,20 @@ tags:
 - reference
 - amos-c11-design-language-master
 - canon/skill
+- skill
+- amos-c11-design-language-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # amos-c11-design-language-master — Vault-Sourced Domain Knowledge
 

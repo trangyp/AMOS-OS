@@ -3,7 +3,8 @@ type: canon
 source: 01_CANON/02_UNIVERSE_CANON
 artifact_id: AMOS-7-PART-UNIVERSE-CANON
 name: AMOS_7_PART_UNIVERSE_CANON
-title: AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration Model
+title: AMOS 7-Part Universe Canon — Universal Partition, Boundary, and Integration
+  Model
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -44,10 +45,44 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/amos-7-part-universe
+- readme
+- 00-root-moc
+- system-map
+- neural-network
+- authoritative-state
+- placement-rules
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- kernel-map
+- control-plane-map
+- runtime-map
+- cognitive-organism-map
+- agent-map
+- skill-map
+- workflow-map
+- memory-memory-map
+- amos-full-brain-os-architecture
+- state-state-map
+- model-map
+- tool-map
+- observability-observability-map
+- security-map
+- test-map
+- operations-map
+- domain-alias-map
+- index-research-readme
+- operating-model
+- cognitive-matrix-architecture
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
 aliases:
-- AMOS 7-Part Universe - AMOS Seven-Part Universe - AMOS Universe Canon - AMOS Universal Parti
+- AMOS 7-Part Universe - AMOS Seven-Part Universe - AMOS Universe Canon - AMOS Universal
+  Parti
 ---
-
 
 # AMOS 7-Part Universe Canon
 **Origin architect / steward:** Trang Phan

@@ -7,13 +7,25 @@ tags:
 - matrix
 - cognition
 - canon/cognitive-matrix
+- readme
+- cognitive-matrix-control-planes-contract
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 03-control-planes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # CONTROL PLANES COGNITIVE MATRIX [[README]]
 

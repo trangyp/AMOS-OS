@@ -16,24 +16,26 @@ schema_family: RSCF
 schema_role: CORE_LAW_CROSSWALK_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - core_laws
-  - crosswalk
-  - law_hierarchy
-  - law_relations
-  - dependency_graph
-  - provenance
-  - supersession
-  - scope
-  - regime
-  - authority
-  - validation
-  - rscf
-  - canon/universe
-  - placeholder_expanded
+- amos_os
+- canon
+- universe
+- 01_canon
+- core_laws
+- crosswalk
+- law_hierarchy
+- law_relations
+- dependency_graph
+- provenance
+- supersession
+- scope
+- regime
+- authority
+- validation
+- rscf
+- canon/universe
+- placeholder_expanded
+- references
+- law-hierarchy
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

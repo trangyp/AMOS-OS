@@ -6,13 +6,37 @@ tags:
 - moc
 - l05-binding
 - canon/cognitive-matrix
+- cognitive-matrix-l05-binding-contract
+- primitives-cognitive-matrix-agents
+- primitives-cognitive-matrix-definition
+- primitives-cognitive-matrix-dependencies
+- primitives-cognitive-matrix-equations
+- l05-binding-primitives-cognitive-matrix-readme
+- primitives-cognitive-matrix-control-planes
+- primitives-cognitive-matrix-failure-modes
+- primitives-cognitive-matrix-gap-matrix
+- primitives-cognitive-matrix-hml
+- primitives-cognitive-matrix-invariants
+- primitives-cognitive-matrix-memory
+- primitives-cognitive-matrix-operators
+- primitives-cognitive-matrix-protocols
+- primitives-cognitive-matrix-provenance
+- primitives-cognitive-matrix-purpose
+- primitives-cognitive-matrix-repair
+- primitives-cognitive-matrix-rscf
+- primitives-cognitive-matrix-skills
+- primitives-cognitive-matrix-state
+- primitives-cognitive-matrix-tests
+- primitives-cognitive-matrix-variables
+- primitives-cognitive-matrix-workflows
+- 00-index-moc
+- 01-primitives-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L05 Binding — Map of Content
 

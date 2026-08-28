@@ -6,13 +6,20 @@ tags:
 - moc
 - 04-validation
 - canon/research
+- canon-source-claim-audit
+- cross-framework-validation
+- framework-empirical-status
+- research-validation-contract
+- validation-registry
+- validation-research-readme
+- 00-index-moc
+- 22-research-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 04 Validation — Map of Content
 

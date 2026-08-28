@@ -6,13 +6,18 @@ tags:
 - moc
 - 04-cognition
 - canon/cognitive
+- amos-cognition-engine
+- first-principles-reasoning
+- fractal-reasoning
+- human-intelligence-engine
+- nbi-engine
+- 05-cognitive-organism-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 04 Cognition — Map of Content
 

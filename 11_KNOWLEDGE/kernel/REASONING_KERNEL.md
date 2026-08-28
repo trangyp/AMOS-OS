@@ -8,6 +8,12 @@ tags:
 - rscf/state/source-claim
 - topic/reasoning-kernel
 - kernel
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- kernel-moc
+- amos-simulation-kernel-v0-math-foundations
 type: note
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -16,7 +22,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # REASONING KERNEL
 

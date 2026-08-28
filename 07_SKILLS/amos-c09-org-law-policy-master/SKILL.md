@@ -4,7 +4,10 @@ title: SKILL — Amos C09 Org Law Policy Master
 type: skill
 source: 07_SKILLS/amos-c09-org-law-policy-master
 name: amos-c09-org-law-policy-master
-description: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory frameworks, constitutional governance, legal reasoning, policy analysis. Use when governance design, legal analysis, or pol. Do not use for generic tasks outside c09 domain.
+description: AMOS C09 Org, Law & Policy — governance, authority, compliance, regulatory
+  frameworks, constitutional governance, legal reasoning, policy analysis. Use when
+  governance design, legal analysis, or pol. Do not use for generic tasks outside
+  c09 domain.
 parent_skill: none
 domain: c09
 origin_architect: Trang Phan
@@ -17,6 +20,8 @@ tags:
 - hml/h
 - epistemic/source_canon
 - amos_os
+- references-moc
+- 00-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -46,6 +51,7 @@ law_compliance:
 license: MIT
 steward: Trang Phan
 ---
+
 # AMOS C09 — Organization, Law & Policy Master Knowledge
 
 ## Identity
@@ -401,3 +407,7 @@ See `references/detailed-content.md` for detailed amos canon grounding.
 - To claim empirical validation of governance or legal theories
 - As a substitute for domain-specific legal or compliance evidence
 - Outside org/law/policy domain reasoning
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

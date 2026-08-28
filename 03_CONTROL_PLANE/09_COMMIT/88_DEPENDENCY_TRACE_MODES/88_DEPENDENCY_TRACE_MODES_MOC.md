@@ -6,13 +6,14 @@ tags:
 - moc
 - 88-dependency-trace-modes
 - canon/control-plane
+- 09-commit-moc
+- dependency-trace-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 88 Dependency Trace Modes — Map of Content
 

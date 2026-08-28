@@ -6,13 +6,17 @@ tags:
 - moc
 - 15-homeostasis
 - canon/cognitive
+- absolute-biological-integrity
+- bioelectromagnetic-intelligence-bei
+- somatic-intelligence-si
+- ubi-homeostasis
+- 05-cognitive-organism-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 15 Homeostasis — Map of Content
 

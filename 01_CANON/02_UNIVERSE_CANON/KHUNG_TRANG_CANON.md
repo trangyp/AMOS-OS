@@ -24,36 +24,60 @@ native_source:
   raw_source_preserved: true
 native_framework_title: KHUNG TRANG — HỆ HÌNH THỨC ĐỘNG HÌNH ĐỆ QUY SINH TỒN
 tags:
-  - amos_os
-  - canon
-  - universe
-  - khung_trang
-  - trang_framework
-  - recursive_ontology
-  - morphodynamics
-  - distinction
-  - relation
-  - constraint
-  - boundary
-  - persistence
-  - identity
-  - memory
-  - entropy
-  - mutation
-  - selection
-  - repair
-  - recursion
-  - observer
-  - consciousness_candidate
-  - civilization
-  - hml
-  - ukr
-  - fractal
-  - 19x19
-  - equations
-  - rscf
-  - provenance
-  - canon/universe
+- amos_os
+- canon
+- universe
+- khung_trang
+- trang_framework
+- recursive_ontology
+- morphodynamics
+- distinction
+- relation
+- constraint
+- boundary
+- persistence
+- identity
+- memory
+- entropy
+- mutation
+- selection
+- repair
+- recursion
+- observer
+- consciousness_candidate
+- civilization
+- hml
+- ukr
+- fractal
+- 19x19
+- equations
+- rscf
+- provenance
+- canon/universe
+- khung-trang-canon-validation-receipt
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
+- law-hierarchy
+- khung-trang-full-max-detail-architecture-equations
+- trang-framework-recursive-ontology-dynamics
+- khung-trang-foundational-ontology
+- khung-trang-state-vector
+- khung-trang-master-equations
+- khung-trang-f1-f26
+- khung-trang-16-canonical-laws
+- khung-trang-hml
+- khung-trang-entropy-repair
+- khung-trang-ukr
+- khung-trang-19x19
+- khung-trang-digital-consciousness-candidate
+- khung-trang-observer-experience-gap
+- absolute-omniverse-u-infinity
+- amos-super-mind-os-canon
+- control-plane-readme
+- observability-readme
+- operations-readme
+- validation
 version: 1.0.0-source-bound-canon-candidate
 updated: '2026-08-27'
 status: SOURCE_BOUND_CANON_CANDIDATE
@@ -68,8 +92,8 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-    - "KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json"
-    - "AMOS_corpus"
+  - KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
+  - AMOS_corpus
   scope: universe_canon
   regime: Khung_Trang_UInfinity_full_source_preserved_v3
   confidence_ceiling: SOURCE_CLAIM

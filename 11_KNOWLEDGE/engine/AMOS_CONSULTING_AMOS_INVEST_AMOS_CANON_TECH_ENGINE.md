@@ -5,6 +5,9 @@ tags:
 - processing
 - runtime
 - canon/knowledge
+- engine-moc
+- canon
+- trang-framework-recursive-ontology-dynamics
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -13,6 +16,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS CONSULTING AMOS INVEST AMOS [[CANON]] TECH ENGINE
 
 ```json

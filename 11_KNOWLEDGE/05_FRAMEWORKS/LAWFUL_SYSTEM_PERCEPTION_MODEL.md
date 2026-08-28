@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: MODEL
 path: 11_KNOWLEDGE/05_FRAMEWORKS/LAWFUL_SYSTEM_PERCEPTION_MODEL.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - lawful_system_perception
-  - perception_model
-  - invariant_perception
-  - structural_sensing
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- lawful_system_perception
+- perception_model
+- invariant_perception
+- structural_sensing
+- rscf
+- canon_candidate
+- canon/knowledge
+- absolute-structural-integrity
+- cognitive-systems-architecture
+- psi-framework
+- first-principles-articulation
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,27 +45,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION
-    - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
-    - AMOS_CORPUS
+  - THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION
+  - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - PERCEPTION_MODELS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - PERCEPTION_MODELS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   structural_integrity:
-    artifact: [[ABSOLUTE_STRUCTURAL_INTEGRITY]]
+    artifact:
+    - - ABSOLUTE_STRUCTURAL_INTEGRITY
   cognitive_systems:
-    artifact: [[COGNITIVE_SYSTEMS_ARCHITECTURE]]
+    artifact:
+    - - COGNITIVE_SYSTEMS_ARCHITECTURE
   psi_framework:
-    artifact: [[PSI_FRAMEWORK]]
+    artifact:
+    - - PSI_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   perception_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Lawful System Perception Model
 

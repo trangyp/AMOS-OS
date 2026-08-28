@@ -6,13 +6,16 @@ tags:
 - moc
 - 44-ev-infrastructure
 - canon/domain
+- domains-ev-infrastructure-contract
+- ev-infrastructure-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 44 Ev Infrastructure — Map of Content
 

@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-agent-systems-master
 Agent: amos-agent-systems-agent
-Trigger: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors, agent economy
-  governance, agent-to-agent protocols. Use for agent design, delegation reasoning, or multi-agent govern
+Trigger: AMOS Agent Systems — agent fabrication, delegation, agency-consequence tensors,
+  agent economy governance, agent-to-agent protocols. Use for agent design, delegation
+  reasoning, or multi-agent govern
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: agent
 ---
-
 
 # Workflow: AMOS Agent Systems Master
 

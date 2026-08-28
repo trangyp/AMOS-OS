@@ -6,13 +6,16 @@ tags:
 - moc
 - amos-c09-org-law-policy-master
 - canon/skill
+- agent-template
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-C09-Org-Law-Policy-Master — Map of Content
 

@@ -8,13 +8,19 @@ tags:
 - c07_perception
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- cognitive-matrix-control-planes-contract
+- c07-perception-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C07_PERCEPTION — Perception control: reality gate, evidence admission typing, observer-effect logging.
 

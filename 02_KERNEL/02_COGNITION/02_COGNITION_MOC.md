@@ -6,13 +6,29 @@ tags:
 - moc
 - 02-cognition
 - canon/kernel
+- cognition-kernel-readme
+- kernel-cognition-contract
+- k-bioelectromagnetic-bei
+- k-cognition
+- k-cognition-nbi
+- k-consciousness
+- k-counterfactual
+- k-emotion-nei
+- k-human-intelligence
+- k-metacognition
+- k-metacognitive-loop
+- k-multi-hypothesis
+- k-personality
+- k-somatic-si
+- k-structural-reasoning
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Cognition — Map of Content
 

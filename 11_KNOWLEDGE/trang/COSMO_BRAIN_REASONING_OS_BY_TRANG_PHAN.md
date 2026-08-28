@@ -7,6 +7,8 @@ tags:
 - reasoning
 - phan.md
 - phan
+- trang-moc
+- 00-cosmo-brain-moc
 ---
 
 # Bridge to Cosmo Brain — Reasoning OS by Trang Phan

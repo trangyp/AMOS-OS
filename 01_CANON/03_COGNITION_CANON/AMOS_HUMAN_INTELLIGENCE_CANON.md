@@ -1,93 +1,108 @@
 ---
-title: "AMOS Human Intelligence Canon"
+title: AMOS Human Intelligence Canon
 type: canon
-source: "01_CANON/03_COGNITION_CANON"
-artifact: "AMOS_HUMAN_INTELLIGENCE_CANON.md"
-artifact_id: "amos_01_canon_03_cognition_canon_amos_human_intelligence_canon"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-plane: "01_CANON"
-segment: "01_CANON/03_COGNITION_CANON"
-artifact_kind: "CANON"
-path: "01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md"
-
+source: 01_CANON/03_COGNITION_CANON
+artifact: AMOS_HUMAN_INTELLIGENCE_CANON.md
+artifact_id: amos_01_canon_03_cognition_canon_amos_human_intelligence_canon
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 01_CANON
+segment: 01_CANON/03_COGNITION_CANON
+artifact_kind: CANON
+path: 01_CANON/03_COGNITION_CANON/AMOS_HUMAN_INTELLIGENCE_CANON.md
 tags:
-  - amos_os
-  - amos_human_intelligence
-  - human_intelligence
-  - intelligence
-  - cognition
-  - cognition_canon
-  - canon
-  - universe
-  - 01_canon
-  - 03_cognition_canon
-  - canon_placeholder
-  - rscf
-  - provenance
-  - lineage
-  - epistemic_integrity
-  - scope
-  - regime
-  - temporal_validity
-  - causal_firewall
-  - validation
-  - competing_hypotheses
-  - canon/universe
-
+- amos_os
+- amos_human_intelligence
+- human_intelligence
+- intelligence
+- cognition
+- cognition_canon
+- canon
+- universe
+- 01_canon
+- 03_cognition_canon
+- canon_placeholder
+- rscf
+- provenance
+- lineage
+- epistemic_integrity
+- scope
+- regime
+- temporal_validity
+- causal_firewall
+- validation
+- competing_hypotheses
+- canon/universe
+- memory
+- dignity
+- architecture
+- law-hierarchy
+- 00-home
+- amos-rscf-nodes
+- 03-cognition-canon-moc
+- amos-cognition-canon
+- amos-cognition-master-canon
+- amos-cognitive-field-canon
+- amos-consciousness-canon
+- amos-homeostasis-canon
+- amos-cross-species-functional-mode-model
+- amos-full-brain-os-canon
+- amos-full-brain-os-master-canon
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
 aliases:
-  - "AMOS Human Intelligence Canon"
-  - "AMOS Human Intelligence"
-
-version: "0.2.0"
-updated: "2026-08-27"
-
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-
-native_definition_status: "NOT_ESTABLISHED"
-native_human_definition_status: "NOT_ESTABLISHED"
-native_intelligence_definition_status: "NOT_ESTABLISHED"
-native_human_intelligence_definition_status: "NOT_ESTABLISHED"
-native_intelligence_architecture_status: "NOT_ESTABLISHED"
-native_capability_registry_status: "NOT_ESTABLISHED"
-native_factor_model_status: "NOT_ESTABLISHED"
-native_measurement_status: "NOT_ESTABLISHED"
-native_metric_status: "NOT_ESTABLISHED"
-native_benchmark_status: "NOT_ESTABLISHED"
-native_reasoning_relation_status: "NOT_ESTABLISHED"
-native_memory_relation_status: "NOT_ESTABLISHED"
-native_attention_relation_status: "NOT_ESTABLISHED"
-native_learning_relation_status: "NOT_ESTABLISHED"
-native_perception_relation_status: "NOT_ESTABLISHED"
-native_language_relation_status: "NOT_ESTABLISHED"
-native_decision_relation_status: "NOT_ESTABLISHED"
-native_agency_relation_status: "NOT_ESTABLISHED"
-native_emotion_relation_status: "NOT_ESTABLISHED"
-native_metacognition_relation_status: "NOT_ESTABLISHED"
-native_consciousness_relation_status: "NOT_ESTABLISHED"
-native_homeostasis_relation_status: "NOT_ESTABLISHED"
-native_cognitive_field_relation_status: "NOT_ESTABLISHED"
-native_cross_species_relation_status: "NOT_ESTABLISHED"
-native_ai_relation_status: "NOT_ESTABLISHED"
-native_biological_status: "NOT_ESTABLISHED"
-native_causal_status: "NOT_ESTABLISHED"
-native_normative_status: "NOT_ESTABLISHED"
-native_rscf_binding_status: "NOT_ESTABLISHED"
-native_hml_binding_status: "NOT_ESTABLISHED"
-native_scope_status: "NOT_ESTABLISHED"
-native_regime_status: "NOT_ESTABLISHED"
-native_temporal_status: "NOT_ESTABLISHED"
-native_dependency_status: "NOT_ESTABLISHED"
-native_provenance_status: "PARTIALLY_SOURCE_SUPPORTED"
-provenance_independence_status: "NOT_ESTABLISHED"
-
+- AMOS Human Intelligence Canon
+- AMOS Human Intelligence
+version: 0.2.0
+updated: '2026-08-27'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+native_definition_status: NOT_ESTABLISHED
+native_human_definition_status: NOT_ESTABLISHED
+native_intelligence_definition_status: NOT_ESTABLISHED
+native_human_intelligence_definition_status: NOT_ESTABLISHED
+native_intelligence_architecture_status: NOT_ESTABLISHED
+native_capability_registry_status: NOT_ESTABLISHED
+native_factor_model_status: NOT_ESTABLISHED
+native_measurement_status: NOT_ESTABLISHED
+native_metric_status: NOT_ESTABLISHED
+native_benchmark_status: NOT_ESTABLISHED
+native_reasoning_relation_status: NOT_ESTABLISHED
+native_memory_relation_status: NOT_ESTABLISHED
+native_attention_relation_status: NOT_ESTABLISHED
+native_learning_relation_status: NOT_ESTABLISHED
+native_perception_relation_status: NOT_ESTABLISHED
+native_language_relation_status: NOT_ESTABLISHED
+native_decision_relation_status: NOT_ESTABLISHED
+native_agency_relation_status: NOT_ESTABLISHED
+native_emotion_relation_status: NOT_ESTABLISHED
+native_metacognition_relation_status: NOT_ESTABLISHED
+native_consciousness_relation_status: NOT_ESTABLISHED
+native_homeostasis_relation_status: NOT_ESTABLISHED
+native_cognitive_field_relation_status: NOT_ESTABLISHED
+native_cross_species_relation_status: NOT_ESTABLISHED
+native_ai_relation_status: NOT_ESTABLISHED
+native_biological_status: NOT_ESTABLISHED
+native_causal_status: NOT_ESTABLISHED
+native_normative_status: NOT_ESTABLISHED
+native_rscf_binding_status: NOT_ESTABLISHED
+native_hml_binding_status: NOT_ESTABLISHED
+native_scope_status: NOT_ESTABLISHED
+native_regime_status: NOT_ESTABLISHED
+native_temporal_status: NOT_ESTABLISHED
+native_dependency_status: NOT_ESTABLISHED
+native_provenance_status: PARTIALLY_SOURCE_SUPPORTED
+provenance_independence_status: NOT_ESTABLISHED
 rscf:
   state: DERIVED
   claim_class: DERIVED

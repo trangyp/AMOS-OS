@@ -6,13 +6,14 @@ tags:
 - reference
 - amos-learning-memory-knowledge-feedback-governor
 - canon/skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # 11K Learning Memory Knowledge Feedback Governor
 

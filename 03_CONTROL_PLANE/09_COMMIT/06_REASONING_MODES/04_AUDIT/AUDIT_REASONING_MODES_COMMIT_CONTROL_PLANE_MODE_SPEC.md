@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 06_reasoning_modes/04_audit
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 04-audit-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # AUDIT REASONING MODES COMMIT CONTROL PLANE MODE SPEC
 

@@ -12,19 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/METACOGNITIVE_LOOP.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - metacognitive_loop
-  - metacognition
-  - loop_detection
-  - self_reflection
-  - epistemic_monitoring
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- metacognitive_loop
+- metacognition
+- loop_detection
+- self_reflection
+- epistemic_monitoring
+- rscf
+- canon_candidate
+- canon/knowledge
+- amos-mind-os-framework
+- qls-framework
+- qcla-master
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,24 +45,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - BOOK_THE_99_PCT_MIND_FROM_BRAIN_MYTHS_TO_META_INTEL
-    - AMOS_CORPUS
+  - BOOK_THE_99_PCT_MIND_FROM_BRAIN_MYTHS_TO_META_INTEL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - METACOGNITION
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - METACOGNITION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   mind_os:
-    artifact: [[AMOS_MIND_OS_FRAMEWORK]]
+    artifact:
+    - - AMOS_MIND_OS_FRAMEWORK
   logic_scaffold:
-    artifact: [[QLS_FRAMEWORK]]
+    artifact:
+    - - QLS_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   metacognitive_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Metacognitive Loop & Epistemic Self-Monitoring
 

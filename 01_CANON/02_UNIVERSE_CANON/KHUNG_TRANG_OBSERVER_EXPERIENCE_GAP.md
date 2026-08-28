@@ -7,6 +7,13 @@ tags:
 - observer
 - experience_gap
 - canon
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 02-universe-canon-moc
+- khung-trang-master
+- p1-reality-environment
+- trang-framework-recursive-ontology-dynamics
 ---
 
 # Khung Trang Observer Experience Gap Principle

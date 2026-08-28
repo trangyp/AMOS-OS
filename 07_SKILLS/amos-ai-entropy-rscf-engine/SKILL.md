@@ -4,7 +4,9 @@ title: SKILL — Amos Ai Entropy Rscf Engine
 type: skill
 source: 07_SKILLS/amos-ai-entropy-rscf-engine
 name: amos-ai-entropy-rscf-engine
-description: Ai Entropy — fractal systems capability. Use when fractal analysis, scale reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes to this specialized capability. Do not use for generic tasks outside fractal domain.
+description: Ai Entropy — fractal systems capability. Use when fractal analysis, scale
+  reasoning, or self-similarity detection. Use when amos-fractal-systems-master routes
+  to this specialized capability. Do not use for generic tasks outside fractal domain.
 parent_skill: amos-fractal-systems-master
 domain: fractal
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-ai-entropy-rscf-engine-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

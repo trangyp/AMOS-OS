@@ -12,19 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBA_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - uba_framework
-  - universal_biological_architecture
-  - uba
-  - bio_architecture
-  - living_systems
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- uba_framework
+- universal_biological_architecture
+- uba
+- bio_architecture
+- living_systems
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- uba-universal-biological-architecture
+- ubi-fractal-architecture
+- bio-logical-computing
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,27 +46,27 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Universal Biological Architecture (UBA)
     acronym: UBA
     role: STRUCTURAL_BIOLOGICAL_ARCHITECTURE
   biological_intelligence:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   architectural_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBA — Universal Biological Architecture
 

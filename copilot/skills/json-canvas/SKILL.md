@@ -1,13 +1,19 @@
 ---
 name: json-canvas
-description: Create and edit JSON Canvas (.canvas) files with valid nodes, edges, groups, colors, layout, IDs, and referential integrity. Use for Obsidian Canvas files, visual maps, flowcharts, project boards, or any request involving the JSON Canvas format.
+description: Create and edit JSON Canvas (.canvas) files with valid nodes, edges,
+  groups, colors, layout, IDs, and referential integrity. Use for Obsidian Canvas
+  files, visual maps, flowcharts, project boards, or any request involving the JSON
+  Canvas format.
 language: en
 license: MIT
 metadata:
   steward: Trang Phan
   copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: "1"
-  copilot-upstream-revision: "a1dc48e68138490d522c04cbf5822214c6eb1202"
+  copilot-builtin-version: '1'
+  copilot-upstream-revision: a1dc48e68138490d522c04cbf5822214c6eb1202
+tags:
+- 00-root-moc
+- 00-home
 ---
 
 # JSON Canvas
@@ -99,3 +105,7 @@ canvases.
 
 Adapted from <code>kepano/obsidian-skills</code> at revision
 <code>a1dc48e68138490d522c04cbf5822214c6eb1202</code>. See <code>LICENSE</code>.
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

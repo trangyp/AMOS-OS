@@ -5,9 +5,10 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-emotion-cognition-decision-bridge-governor
 Agent: amos-emotion-cognition-decision-bridge-governor-agent
-Trigger: When a decision requires both emotional state awareness from C05 (mind/behavior) and cognitive/technical
-  rigor from C01 (meta-logic) or C10 (tech/engineering), or when routing a query based on emotional state,
-  or when validating that emotion influence gating is preserved across domain boundaries, or when amos-c05-mind-behavior-master
+Trigger: When a decision requires both emotional state awareness from C05 (mind/behavior)
+  and cognitive/technical rigor from C01 (meta-logic) or C10 (tech/engineering), or
+  when routing a query based on emotional state, or when validating that emotion influence
+  gating is preserved across domain boundaries, or when amos-c05-mind-behavior-master
   routes to cross-domain emotion-cognition-decision bridge governance
 Version: 1.0.0
 tags:
@@ -18,6 +19,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL

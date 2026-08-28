@@ -1,18 +1,24 @@
 ---
-title: Vault Domain Knowledge — Amos Arxiv Structure Preserving Variational Neural Fields Rscf
+title: Vault Domain Knowledge — Amos Arxiv Structure Preserving Variational Neural
+  Fields Rscf
 type: reference
 source: 07_SKILLS/amos-arxiv-structure-preserving-variational-neural-fields-rscf/references
 tags:
 - reference
 - amos-arxiv-structure-preserving-variational-neural
 - canon/skill
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Vault-Sourced Domain Knowledge
 

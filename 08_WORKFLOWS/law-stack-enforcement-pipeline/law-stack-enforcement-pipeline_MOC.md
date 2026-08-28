@@ -6,13 +6,14 @@ tags:
 - moc
 - law-stack-enforcement-pipeline
 - canon/workflow
+- workflow
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: workflow_process
 ---
-
 
 # Law-Stack-Enforcement-Pipeline — Map of Content
 

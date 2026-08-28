@@ -6,13 +6,26 @@ tags:
 - control_plane
 - 83_rollback_replay_modes
 - canon/control-plane
+- readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 83-rollback-replay-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # ROLLBACK REPLAY MODES COMMIT CONTROL PLANE [[README]]
 

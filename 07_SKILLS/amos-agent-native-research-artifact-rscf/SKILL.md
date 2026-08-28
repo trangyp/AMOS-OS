@@ -4,7 +4,10 @@ title: SKILL — Amos Agent Native Research Artifact Rscf
 type: skill
 source: 07_SKILLS/amos-agent-native-research-artifact-rscf
 name: amos-agent-native-research-artifact-rscf
-description: Agent Native Research Artifact — knowledge research capability. Use when knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside knowledge domain.
+description: Agent Native Research Artifact — knowledge research capability. Use when
+  knowledge management, research, or Obsidian vault integration. Use when amos-knowledge-research-master
+  routes to this specialized capability. Do not use for generic tasks outside knowledge
+  domain.
 parent_skill: amos-knowledge-research-master
 domain: knowledge
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-agent-native-research-artifact-rscf-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

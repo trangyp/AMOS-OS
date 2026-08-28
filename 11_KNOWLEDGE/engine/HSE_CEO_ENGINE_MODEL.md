@@ -12,6 +12,12 @@ tags:
 - rscf/state/derived
 - topic/hse-ceo-engine-model
 - engine
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
 status: active
 provenance: HSE_CEO_Enginev.txt
 confidence: STRUCTURAL
@@ -21,7 +27,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # AMOS HSE CEO Engine Model
 

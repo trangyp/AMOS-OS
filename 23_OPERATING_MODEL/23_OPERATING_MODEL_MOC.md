@@ -6,13 +6,21 @@ tags:
 - moc
 - 23-operating-model
 - canon/operating-model
+- operating-model-operating-model-contract
+- operating-model-readme
+- 00-index-moc
+- 01-roles-moc
+- 02-decision-rights-moc
+- 03-governance-forums-moc
+- 04-escalation-moc
+- 05-service-levels-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 23 Operating Model — Map of Content
 

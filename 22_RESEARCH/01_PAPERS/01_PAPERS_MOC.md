@@ -6,13 +6,19 @@ tags:
 - moc
 - 01-papers
 - canon/research
+- external-evidence-source-registry
+- native-canon-source-registry
+- papers-research-readme
+- paper-registry
+- research-papers-contract
+- 00-index-moc
+- 22-research-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Papers — Map of Content
 

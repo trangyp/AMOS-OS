@@ -3,33 +3,53 @@ title: L21 EPISTEMIC REGIME
 type: epistemic
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - epistemic
-  - epistemic_regime
-  - declared_regime
-  - regime_firewall
-  - regime_bridge
-  - governed_payload
-  - non_portables
-  - simulation
-  - empirical
-  - canonical
-  - speculative
-  - simulation_pessimism
-  - branch_stability
-  - worst_branch_drift
-  - freshness
-  - freshness_axes
-  - temporal_freshness
-  - environmental_freshness
-  - regimeal_freshness
-  - provenance_freshness
-  - scope_freshness
-  - model_freshness
-  - source_freshness
-  - applicability
-  - canon/universe
+- canon
+- core_laws
+- epistemic
+- epistemic_regime
+- declared_regime
+- regime_firewall
+- regime_bridge
+- governed_payload
+- non_portables
+- simulation
+- empirical
+- canonical
+- speculative
+- simulation_pessimism
+- branch_stability
+- worst_branch_drift
+- freshness
+- freshness_axes
+- temporal_freshness
+- environmental_freshness
+- regimeal_freshness
+- provenance_freshness
+- scope_freshness
+- model_freshness
+- source_freshness
+- applicability
+- canon/universe
+- validation
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- l17-rscf
+- l18-gmef
+- l19-proof-capsule
+- l20-adversarial
+- l16-hml
+- provenance-topology
+- persistent-provenance
+- scope-regime-firewall
+- causal-firewall
+- competing-hypotheses
+- causal-epoch-finality
+- l10-failure-recovery
+- l11-knowledge-memory
+- l15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

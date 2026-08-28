@@ -6,13 +6,18 @@ tags:
 - moc
 - 12-rollback
 - canon/control-plane
+- canon-local-invalidation
+- control-plane-rollback-contract
+- framework-lineage-rollback
+- rollback-control-plane-readme
+- 00-index-moc
+- 03-control-plane-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 12 Rollback — Map of Content
 

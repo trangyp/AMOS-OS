@@ -4,7 +4,10 @@ title: SKILL — Amos Agentic Skill Lie Algebroid Rscf Engine
 type: skill
 source: 07_SKILLS/amos-agentic-skill-lie-algebroid-rscf-engine
 name: amos-agentic-skill-lie-algebroid-rscf-engine
-description: Agentic Skill Lie Algebroid — agent systems capability. Use when agent design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master routes to this specialized capability. Do not use for generic tasks outside agent domain.
+description: Agentic Skill Lie Algebroid — agent systems capability. Use when agent
+  design, delegation reasoning, or multi-agent governance. Use when amos-agent-systems-master
+  routes to this specialized capability. Do not use for generic tasks outside agent
+  domain.
 parent_skill: amos-agent-systems-master
 domain: agent
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-agentic-skill-lie-algebroid-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

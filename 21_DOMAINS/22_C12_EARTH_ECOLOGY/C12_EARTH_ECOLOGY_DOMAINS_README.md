@@ -6,13 +6,27 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- readme
+- c12-earth-ecology-domains-domain-spec
+- domains-c12-earth-ecology-contract
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 22-c12-earth-ecology-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C12 EARTH ECOLOGY DOMAINS [[README]]
 

@@ -12,39 +12,64 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/HERITAGE_X_TSS.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - 25_cognitive_matrix
-  - artifact
-  - heritage
-  - heritage_intelligence
-  - heritage_decision_intelligence
-  - tss
-  - trang_system
-  - decision_governance
-  - system_lifecycles
-  - lifecycle_transitions
-  - structural_dynamics
-  - trust_scoring
-  - collapse_probability
-  - collapse_avoidance
-  - regime_shift
-  - timing_readiness
-  - self_refutation
-  - gap_classification
-  - ethical_refusal
-  - rollback
-  - authority
-  - decision_receipt
-  - viability_preservation
-  - reversible_action
-  - staged_action
-  - provenance
-  - scope
-  - regime
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- 25_cognitive_matrix
+- artifact
+- heritage
+- heritage_intelligence
+- heritage_decision_intelligence
+- tss
+- trang_system
+- decision_governance
+- system_lifecycles
+- lifecycle_transitions
+- structural_dynamics
+- trust_scoring
+- collapse_probability
+- collapse_avoidance
+- regime_shift
+- timing_readiness
+- self_refutation
+- gap_classification
+- ethical_refusal
+- rollback
+- authority
+- decision_receipt
+- viability_preservation
+- reversible_action
+- staged_action
+- provenance
+- scope
+- regime
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- heritage-x-tss-matrix
+- diagnosis
+- memory
+- amos-x-tss
+- amos-x-tpe
+- amos-x-qls
+- amos-x-qcla
+- heritage-x-trang-zero
+- validation
+- canon
+- tss-the-trang-system-official-manual
+- 00-home
+- amos-rscf-nodes
+- 25-cognitive-matrix-moc
+- k-rscf
+- k-hml
+- k-gmef
+- k-provenance
+- k-provenance-topology
+- k-failure-recovery
+- k-causal-epoch
+- k-mvcc
+- k-cas
+- k-atomic-multi-rscf
+- amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -61,13 +86,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - DECISION_GOVERNANCE
-    - SYSTEM_LIFECYCLES
-    - COGNITIVE_MATRIX
+  - DECISION_GOVERNANCE
+  - SYSTEM_LIFECYCLES
+  - COGNITIVE_MATRIX
 framework_binding:
   heritage:
     name: Heritage Decision Intelligence™
@@ -77,7 +102,8 @@ framework_binding:
     role: STRUCTURAL_SYSTEMS_DYNAMICS_AND_CYCLES
   matrix_conjunction:
     name: Heritage × TSS Matrix
-    artifact: [[HERITAGE_X_TSS_MATRIX]]
+    artifact:
+    - - HERITAGE_X_TSS_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE

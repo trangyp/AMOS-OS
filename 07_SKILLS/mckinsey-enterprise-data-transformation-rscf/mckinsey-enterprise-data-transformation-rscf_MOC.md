@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-enterprise-data-transformation-
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Enterprise-Data-Transformation-Rscf — Map of Content
 

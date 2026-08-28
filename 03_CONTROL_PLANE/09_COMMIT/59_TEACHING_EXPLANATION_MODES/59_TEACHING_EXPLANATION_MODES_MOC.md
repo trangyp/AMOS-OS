@@ -6,13 +6,13 @@ tags:
 - moc
 - 59-teaching-explanation-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 59 Teaching Explanation Modes — Map of Content
 

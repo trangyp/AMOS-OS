@@ -7,13 +7,22 @@ tags:
 - generators
 - contract
 - canon/cognitive-matrix
+- validation
+- integration
+- 00-root-moc
+- amos-moc
+- 00-home
+- canon
+- generators-map
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 12-generators-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 ## 0. CONTRACT DECLARATION
 

@@ -3,6 +3,10 @@ tags:
 - knowledge
 - readme.md
 - readme
+- cosmo-brain-moc
+- knowledge-moc
+- kernel-moc
+- 00-home
 ---
 
 # 01_BRAIN
@@ -3159,3 +3163,7 @@ Those sources can determine whether the current body is intentional, misplaced, 
 ---
 
 **END — `README — 11 Knowledge`**
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

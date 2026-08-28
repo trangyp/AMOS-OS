@@ -6,12 +6,36 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-    - internal
+  - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
 - note
 - 12-generators
+- readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- generators-map
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- generator-registry
+- generator-seed
+- generator-output
+- generator-promotion
+- generator-falsification
+- task-contract
+- capability-resolver
+- mode-admission-queue
+- mode-composition-registry
+- mode-conflict-registry
+- k-provenance
+- k-provenance-topology
+- k-sybil-hardening
+- k-binding
+- k-constraint-propagation
+- k-rscf
+- 12-generators-moc
 canon-group: canon/cognitive-matrix
 ---
 

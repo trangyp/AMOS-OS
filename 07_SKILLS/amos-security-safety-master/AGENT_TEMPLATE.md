@@ -6,13 +6,14 @@ tags:
 - note
 - amos-security-safety-master
 - canon/skill
+- skill
+- amos-security-safety-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-security-safety-master
 

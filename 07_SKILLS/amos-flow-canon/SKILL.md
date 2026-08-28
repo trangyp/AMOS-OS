@@ -12,6 +12,16 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- references
+- readme
+- amos-flow-canon-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -42,7 +52,11 @@ law_compliance:
 - L18
 parent_skill: amos-canon-universe-master
 domain: canon
-description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained throughput, conversion under limits, bottleneck/leakage/queue dynamics. Use when analyzing how power/energy/capital/information moves through a system, when throughput needs structural characterization, or when identifying bottlenecks or leakage. Do not use for generic tasks outside canon/universe domain.
+description: AMOS Flow Canon — Part II (Flow) of the 7-Part Universe Canon. Constrained
+  throughput, conversion under limits, bottleneck/leakage/queue dynamics. Use when
+  analyzing how power/energy/capital/information moves through a system, when throughput
+  needs structural characterization, or when identifying bottlenecks or leakage. Do
+  not use for generic tasks outside canon/universe domain.
 license: MIT
 steward: Trang Phan
 ---

@@ -6,13 +6,14 @@ tags:
 - moc
 - 86-ontology-concept-modes
 - canon/control-plane
+- 09-commit-moc
+- ontology-concept-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 86 Ontology Concept Modes — Map of Content
 

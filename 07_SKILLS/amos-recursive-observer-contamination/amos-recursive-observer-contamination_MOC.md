@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-recursive-observer-contamination
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Recursive-Observer-Contamination — Map of Content
 

@@ -6,13 +6,19 @@ tags:
 - moc
 - 10-routing
 - canon/cognitive-matrix
+- binding-rules
+- cognitive-matrix-routing-contract
+- routing-audit
+- routing-cognitive-matrix-readme
+- routing-policy
+- 00-index-moc
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 10 Routing — Map of Content
 

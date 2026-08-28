@@ -6,13 +6,22 @@ tags:
 - moc
 - 08-legal
 - canon/domain
+- amos-legal-kernel
+- canon-ip-governance
+- domains-legal-contract
+- legal-domains-domain-spec
+- legal-domains-interfaces
+- legal-domains-provenance
+- legal-domains-readme
+- vn-legal-engine
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 08 Legal — Map of Content
 

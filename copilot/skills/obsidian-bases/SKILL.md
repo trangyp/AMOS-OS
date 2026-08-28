@@ -1,12 +1,19 @@
 ---
 name: obsidian-bases
-description: Create and edit Obsidian Bases (.base files) with valid YAML schemas, filters, formulas, properties, summaries, and views. Use for database-like Obsidian views or when the user mentions Bases, .base files, table/card/list views, filters, formulas, or summaries.
+description: Create and edit Obsidian Bases (.base files) with valid YAML schemas,
+  filters, formulas, properties, summaries, and views. Use for database-like Obsidian
+  views or when the user mentions Bases, .base files, table/card/list views, filters,
+  formulas, or summaries.
 license: MIT
 metadata:
   steward: Trang Phan
   copilot-enabled-agents: claude, codex, opencode
-  copilot-builtin-version: "1"
-  copilot-upstream-revision: "a1dc48e68138490d522c04cbf5822214c6eb1202"
+  copilot-builtin-version: '1'
+  copilot-upstream-revision: a1dc48e68138490d522c04cbf5822214c6eb1202
+tags:
+- my-basebase
+- 00-root-moc
+- 00-home
 ---
 
 # Obsidian Bases
@@ -106,3 +113,7 @@ task-tracker and daily-notes Bases.
 
 Adapted from <code>kepano/obsidian-skills</code> at revision
 <code>a1dc48e68138490d522c04cbf5822214c6eb1202</code>. See <code>LICENSE</code>.
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

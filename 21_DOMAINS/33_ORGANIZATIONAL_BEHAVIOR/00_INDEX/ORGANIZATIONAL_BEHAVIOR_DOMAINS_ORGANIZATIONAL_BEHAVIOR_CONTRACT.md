@@ -6,13 +6,20 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- index-organizational-behavior-domains-readme
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # ORGANIZATIONAL BEHAVIOR DOMAINS ORGANIZATIONAL BEHAVIOR CONTRACT
 

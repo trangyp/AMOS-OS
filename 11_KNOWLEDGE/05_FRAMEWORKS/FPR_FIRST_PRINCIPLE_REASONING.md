@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/FPR_FIRST_PRINCIPLE_REASONING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - fpr
-  - first_principle_reasoning
-  - foundational_proofs
-  - invariant_derivation
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- fpr
+- first_principle_reasoning
+- foundational_proofs
+- invariant_derivation
+- rscf
+- canon_candidate
+- canon/knowledge
+- first-principles-articulation
+- ldai-logically-deterministic-ai
+- absolute-structural-integrity
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,24 +44,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - FIRST_PRINCIPLES_ARTICULATION
-    - AMOS_CORPUS
+  - FIRST_PRINCIPLES_ARTICULATION
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FIRST_PRINCIPLE_REASONING
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FIRST_PRINCIPLE_REASONING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   articulation:
-    artifact: [[FIRST_PRINCIPLES_ARTICULATION]]
+    artifact:
+    - - FIRST_PRINCIPLES_ARTICULATION
   deterministic_logic:
-    artifact: [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
+    artifact:
+    - - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   reasoning_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # FPR — First Principle Reasoning
 

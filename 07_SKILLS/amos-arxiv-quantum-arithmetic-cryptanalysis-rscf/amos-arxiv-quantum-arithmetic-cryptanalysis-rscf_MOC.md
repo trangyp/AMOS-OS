@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-arxiv-quantum-arithmetic-cryptanaly
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Arxiv-Quantum-Arithmetic-Cryptanalysis-Rscf — Map of Content
 

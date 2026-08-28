@@ -6,13 +6,21 @@ tags:
 - moc
 - 04-state
 - canon/kernel
+- kernel-state-contract
+- k-context-state
+- k-event-bus
+- k-identity
+- k-system-state
+- k-world-model
+- state-kernel-readme
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 04 State — Map of Content
 

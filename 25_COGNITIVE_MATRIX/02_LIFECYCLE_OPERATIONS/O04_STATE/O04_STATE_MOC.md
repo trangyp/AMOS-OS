@@ -6,13 +6,15 @@ tags:
 - moc
 - o04-state
 - canon/cognitive-matrix
+- cognitive-matrix-o04-state-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O04 State — Map of Content
 

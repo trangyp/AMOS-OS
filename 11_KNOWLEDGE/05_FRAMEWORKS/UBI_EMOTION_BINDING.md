@@ -12,19 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_EMOTION_BINDING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_emotion_binding
-  - nei
-  - affect_regulation
-  - emotion_bridge
-  - decision_dynamics
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_emotion_binding
+- nei
+- affect_regulation
+- emotion_bridge
+- decision_dynamics
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- amos-x-ubi
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
+- ubi-cognition-binding
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,28 +45,27 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - EMOTIONAL_BINDING
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - EMOTIONAL_BINDING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_source:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   domain_knowledge:
-    artifact: 'UBI_NEUROEMOTIONAL_INTELLIGENCE'
+    artifact: UBI_NEUROEMOTIONAL_INTELLIGENCE
   bridge_governor:
-    artifact: 'AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR'
+    artifact: AMOS_EMOTION_COGNITION_DECISION_BRIDGE_GOVERNOR
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
   affective_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # UBI Emotion Binding
 

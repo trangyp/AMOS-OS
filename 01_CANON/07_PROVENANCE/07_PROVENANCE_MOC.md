@@ -6,13 +6,44 @@ tags:
 - moc
 - 07-provenance
 - canon/universe
+- amos-core-lineage-provenance
+- canon-hash-registry
+- canon-provenance
+- canon-provenance-contract
+- canon-to-source-map
+- derived-canon-source-registry
+- file-hash-registry
+- framework-ancestry-graph
+- framework-ip-lineage
+- heritage-provenance
+- heritage-source-registry
+- ip-ownership-registry
+- license-registry
+- native-canon-source-registry
+- neurosyncai-provenance
+- original-source-registry
+- origin-architect-registry
+- provenance-canon-readme
+- provenance-independence-registry
+- provenance-root-registry
+- qls-qcla-provenance
+- source-ancestry-graph
+- source-lineage
+- source-registry
+- source-to-canon-map
+- trang-origin-provenance
+- tss-tpe-provenance
+- ubi-provenance
+- universe-canon-provenance
+- version-hash-registry
+- 00-index-moc
+- 01-canon-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 07 Provenance — Map of Content
 

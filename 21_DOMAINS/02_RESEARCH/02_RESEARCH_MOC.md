@@ -6,13 +6,22 @@ tags:
 - moc
 - 02-research
 - canon/domain
+- canon-validation
+- domains-research-contract
+- framework-validation
+- heritage-research-method
+- research-domains-domain-spec
+- research-domains-interfaces
+- research-domains-provenance
+- research-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Research — Map of Content
 

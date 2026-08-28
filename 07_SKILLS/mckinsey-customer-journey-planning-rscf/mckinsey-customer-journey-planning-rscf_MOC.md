@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-customer-journey-planning-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Customer-Journey-Planning-Rscf — Map of Content
 

@@ -12,17 +12,22 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/ADAPTIVE_COMPLEXITY_RUNTIME.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 06_execution
-  - adaptive_complexity_runtime
-  - system2_reasoning
-  - depth_governor
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 06_execution
+- adaptive_complexity_runtime
+- system2_reasoning
+- depth_governor
+- rscf
+- canon_candidate
+- canon/runtime
+- 06-execution-moc
+- frai-fractal-reasoning-ai
+- ubi-x-cognition-matrix
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-    - 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
-    - AMOS_CORPUS
+  - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+  - 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_EXECUTION
-    - ADAPTIVE_COMPLEXITY
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_EXECUTION
+  - ADAPTIVE_COMPLEXITY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
     artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC

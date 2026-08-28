@@ -6,13 +6,13 @@ tags:
 - moc
 - 70-modality-translation-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 70 Modality Translation Modes — Map of Content
 

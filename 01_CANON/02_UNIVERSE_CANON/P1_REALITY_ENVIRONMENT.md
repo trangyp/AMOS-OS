@@ -12,18 +12,22 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON_SPECIFICATION
 path: 01_CANON/02_UNIVERSE_CANON/P1_REALITY_ENVIRONMENT.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - universe_canon
-  - p1
-  - reality
-  - environment
-  - falsifiability
-  - constraint_inheritance
-  - epistemic_boundary
-  - rscf
-  - canon/universe
+- amos_os
+- canon
+- universe
+- universe_canon
+- p1
+- reality
+- environment
+- falsifiability
+- constraint_inheritance
+- epistemic_boundary
+- rscf
+- canon/universe
+- 00-home
+- amos-7-part-universe-canon
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 version: 1.0.0
 updated: '2026-08-27'
 status: PROPOSED_SPECIFICATION
@@ -38,13 +42,13 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/02_UNIVERSE_CANON/HML_CANON
-    - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
+  - AMOS_corpus
+  - 01_CANON/02_UNIVERSE_CANON/AMOS_7_PART_UNIVERSE_CANON
+  - 01_CANON/02_UNIVERSE_CANON/HML_CANON
+  - TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS
   scope:
-    - UNIVERSE_CANON
-    - P1_REALITY_ENVIRONMENT
+  - UNIVERSE_CANON
+  - P1_REALITY_ENVIRONMENT
 ---
 
 # P1 — Reality & Environment Plane
@@ -1356,3 +1360,7 @@ CONDITIONAL.
 - [[00_HOME]]
 - [[AMOS_7_PART_UNIVERSE_CANON]]
 - [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

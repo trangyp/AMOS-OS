@@ -8,6 +8,11 @@ tags:
 - mvcc
 - cas
 - atomic
+- k-mvcc
+- k-cas
+- 02-kernel-moc
+- 03-causal-moc
+- 00-home
 rscf:
   state: CANON_SPEC
   claim_class: AMOS_SYSTEM_CORE
@@ -20,3 +25,7 @@ Unified specification combining [[K_MVCC]] (multi-version snapshot isolation) an
 
 ## Related
 - [[K_MVCC]] · [[K_CAS]] · [[02_KERNEL_MOC]]
+
+---
+
+**MOC:** [[03_CAUSAL_MOC]] · [[00_HOME]]

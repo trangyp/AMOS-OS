@@ -7,6 +7,18 @@ tags:
 - core_law
 - firewall
 - epistemic_boundary
+- l0-integrity
+- 01-core-laws-moc
+- provenance-x-confidence
+- l5-scope-regime
+- l21-epistemic-regime
+- epistemic-regimes
+- l30-authority-boundary
+- persistent-provenance
+- fail-closed-governance
+- scope-regime-validation-receipt
+- 00-index-moc
+- 00-home
 rscf:
   state: CANON_LAW
   claim_class: CANONICAL_INVARIANT
@@ -22,3 +34,7 @@ $$\text{RegimeTransfer}(C, \text{Regime}_A, \text{Regime}_B) \le \text{Gate}(\te
 
 ## Related
 - [[L0_INTEGRITY]] · [[01_CORE_LAWS_MOC]] · [[PROVENANCE_X_CONFIDENCE]] · [[L5_SCOPE_REGIME]] · [[L21_EPISTEMIC_REGIME]] · [[EPISTEMIC_REGIMES]] · [[L30_AUTHORITY_BOUNDARY]] · [[PERSISTENT_PROVENANCE]] · [[FAIL_CLOSED_GOVERNANCE]] · [[SCOPE_REGIME_VALIDATION_RECEIPT]]
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

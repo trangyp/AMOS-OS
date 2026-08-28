@@ -6,13 +6,17 @@ tags:
 - moc
 - 05-healing-recovery
 - canon/control-plane
+- commit-control-plane-activation-rules
+- 09-commit-moc
+- healing-recovery-commit-control-plane-mode-spec
+- healing-recovery-commit-control-plane-provenance
+- healing-recovery-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Healing Recovery — Map of Content
 

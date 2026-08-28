@@ -6,13 +6,16 @@ tags:
 - moc
 - c03-executive
 - canon/cognitive-matrix
+- cognitive-matrix-c03-executive-contract
+- 00-index-moc
+- 03-control-planes-moc
+- c03-executive-control-planes-cognitive-matrix-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C03 Executive — Map of Content
 

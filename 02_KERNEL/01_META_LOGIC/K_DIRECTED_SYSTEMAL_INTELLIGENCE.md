@@ -16,27 +16,45 @@ artifact_kind: INTELLIGENCE
 domain: directed-systemal-intelligence
 path: 02_KERNEL/01_META_LOGIC/K_DIRECTED_SYSTEMAL_INTELLIGENCE.md
 tags:
-  - amos_os
-  - kernel
-  - core
-  - 02_kernel
-  - intelligence
-  - directed_intelligence
-  - systemal_intelligence
-  - meta_logic
-  - canon/kernel
-  - canon/model
-  - rscf
-  - rscf/claim
-  - rscf/provenance
-  - hml
-  - dependency
-  - provenance
-  - scope
-  - regime
-  - governance
-  - validation
-  - recovery
+- amos_os
+- kernel
+- core
+- 02_kernel
+- intelligence
+- directed_intelligence
+- systemal_intelligence
+- meta_logic
+- canon/kernel
+- canon/model
+- rscf
+- rscf/claim
+- rscf/provenance
+- hml
+- dependency
+- provenance
+- scope
+- regime
+- governance
+- validation
+- recovery
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- kernel-readme
+- law-hierarchy
+- amos-core-laws
+- invariant-registry
+- hml-canon
+- canon-provenance
+- source-lineage
+- conflict-registry
+- supersession-log
+- control-plane-readme
+- runtime-map
+- observability-readme
+- operations-readme
+- 01-meta-logic-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: AMOS_MODEL

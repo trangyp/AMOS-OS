@@ -13,6 +13,36 @@ tags:
 - topic/00-cosmo-brain-moc
 - moc
 - index
+- architecture
+- amos-obsidian-linking-plugins
+- amos-layer-maps
+- amos-templates
+- 00-home
+- load-map
+- fractal-runtime
+- logic-kernel
+- constraint-engine
+- tensor-contracts
+- claim-tensor
+- evidence-tensor
+- relation-tensor
+- memory-architecture
+- boundary-identity
+- governance-tensor
+- rscf-proof-capsule
+- regime-freshness
+- adversarial-validation
+- sensitivity-falsifiers
+- error-recovery
+- cognition-kernel
+- final-gate
+- speed-governor
+- agents
+- skill
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- knowledge-moc
 status: living
 provenance: MODEL
 confidence: DERIVED
@@ -22,7 +52,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # 00 Cosmo Brain MOC
 

@@ -16,28 +16,37 @@ schema_family: RSCF
 schema_role: CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - log
-  - bio_logical
-  - biological_logic
-  - life_systems
-  - adaptive_systems
-  - cognition
-  - emergence
-  - regulation
-  - homeostasis
-  - feedback
-  - evolution
-  - causality
-  - epistemic_firewall
-  - scope_firewall
-  - provenance
-  - rscf
-  - canon/universe
-  - placeholder_expanded
+- amos_os
+- canon
+- universe
+- 01_canon
+- log
+- bio_logical
+- biological_logic
+- life_systems
+- adaptive_systems
+- cognition
+- emergence
+- regulation
+- homeostasis
+- feedback
+- evolution
+- causality
+- epistemic_firewall
+- scope_firewall
+- provenance
+- rscf
+- canon/universe
+- placeholder_expanded
+- memory
+- validation
+- l19-proof-capsule
+- architecture
+- law-hierarchy
+- 00-home
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -51,12 +60,13 @@ mathematical_validation_status: NOT_ESTABLISHED
 executable_binding: NOT_ESTABLISHED
 ingestion_action: ADD_ONLY
 overclaim_risk: true
-overclaim_note: >
-  "Bio-Logical Laws" is presently an addressable AMOS framework family,
-  not an established body of biological laws. Any substantive law,
-  equation, mechanism, biological interpretation, cross-scale mapping,
-  or universal claim requires native-canon provenance and, where it
-  concerns the empirical world, appropriately typed independent evidence.
+overclaim_note: '"Bio-Logical Laws" is presently an addressable AMOS framework family,
+  not an established body of biological laws. Any substantive law, equation, mechanism,
+  biological interpretation, cross-scale mapping, or universal claim requires native-canon
+  provenance and, where it concerns the empirical world, appropriately typed independent
+  evidence.
+
+  '
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

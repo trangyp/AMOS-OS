@@ -5,6 +5,12 @@ tags:
 - processing
 - runtime
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
 type: note
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -13,7 +19,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # CONSCIOUSNESS ENGINE V0
 

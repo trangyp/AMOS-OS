@@ -1,10 +1,10 @@
 ---
 title: INDEX MODELS README
 aliases:
-  - "Models Index README"
-  - "AMOS Models Index"
-  - "13 Models Index"
-  - "Models Navigation Index"
+- Models Index [[README]]
+- AMOS Models Index
+- 13 Models Index
+- Models Navigation Index
 type: index
 artifact_type: index_readme
 document_role: models_plane_navigation_index
@@ -24,61 +24,84 @@ automated_link_integrity: PARTIAL
 artifact_specific_validation: UNKNOWN/GAP
 executable_binding: NOT_ESTABLISHED
 scope:
-  - "index_navigation"
-  - "models_plane"
-  - "model_discovery"
-  - "model_resolution"
-  - "model_navigation"
-  - "model_orientation"
+- index_navigation
+- models_plane
+- model_discovery
+- model_resolution
+- model_navigation
+- model_orientation
 resolution_policy:
   local: BASENAME_WITHIN_OWN_DIRECTORY
   cross_plane:
-    - "[[00_HOME]]"
-    - "[[AMOS_RSCF_NODES]]"
+  - '[[00_HOME]]'
+  - '[[AMOS_RSCF_NODES]]'
 tags:
-  - amos_os
-  - 13_models
-  - 00_index
-  - models
-  - model
-  - index
-  - readme
-  - index-readme
-  - model-index
-  - model-navigation
-  - model-discovery
-  - model-resolution
-  - basename-resolution
-  - cross-plane-resolution
-  - cross-plane-navigation
-  - rscf
-  - rscf-node
-  - provenance
-  - dependency
-  - dependency-closure
-  - scope
-  - regime
-  - hml
-  - authority
-  - authorization
-  - capability
-  - proposal
-  - commit
-  - fail-closed
-  - unknown-gap
-  - rollback
-  - selective-invalidation
-  - validation
-  - validation-receipt
-  - link-integrity
-  - routing
-  - governance
-  - model-governance
-  - model-provenance
-  - model-versioning
-  - competing-models
-  - epistemic-regime
-  - canon/model
+- amos_os
+- 13_models
+- 00_index
+- models
+- model
+- index
+- readme
+- index-readme
+- model-index
+- model-navigation
+- model-discovery
+- model-resolution
+- basename-resolution
+- cross-plane-resolution
+- cross-plane-navigation
+- rscf
+- rscf-node
+- provenance
+- dependency
+- dependency-closure
+- scope
+- regime
+- hml
+- authority
+- authorization
+- capability
+- proposal
+- commit
+- fail-closed
+- unknown-gap
+- rollback
+- selective-invalidation
+- validation
+- validation-receipt
+- link-integrity
+- routing
+- governance
+- model-governance
+- model-provenance
+- model-versioning
+- competing-models
+- epistemic-regime
+- canon/model
+- 00-home
+- amos-rscf-nodes
+- index-models-model-contract
+- model-map
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- observability-readme
+- kernel-readme
+- control-plane-readme
+- operations-readme
+- law-hierarchy
+- 00-index-moc
+- 00-root-moc
+- 13-models-moc
+- model-index-navigation
+- local-basename-resolution
+- model-identity-preservation
+- model-version-navigation
+- model-provenance-preservation
+- model-scope-preservation
+- model-regime-preservation
+- index-failure-visibility
+- references
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -3906,16 +3929,16 @@ RSCF-RELATIONS:
   - VALIDATION_PATTERN_REFERENCE: [[ROUTING_POLICY_VALIDATION_RECEIPT]]
   - VALIDATION_PATTERN_REFERENCE: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-  - GOVERNS_CONCEPT: MODEL_INDEX_NAVIGATION
-  - GOVERNS_CONCEPT: MODEL_DISCOVERY
-  - GOVERNS_CONCEPT: LOCAL_BASENAME_RESOLUTION
-  - GOVERNS_CONCEPT: CROSS_PLANE_RESOLUTION
-  - GOVERNS_CONCEPT: MODEL_IDENTITY_PRESERVATION
-  - GOVERNS_CONCEPT: MODEL_VERSION_NAVIGATION
-  - GOVERNS_CONCEPT: MODEL_PROVENANCE_PRESERVATION
-  - GOVERNS_CONCEPT: MODEL_SCOPE_PRESERVATION
-  - GOVERNS_CONCEPT: MODEL_REGIME_PRESERVATION
-  - GOVERNS_CONCEPT: INDEX_FAILURE_VISIBILITY
+  - GOVERNS_CONCEPT: [[MODEL_INDEX_NAVIGATION]]
+  - GOVERNS_CONCEPT: [[MODEL_DISCOVERY]]
+  - GOVERNS_CONCEPT: [[LOCAL_BASENAME_RESOLUTION]]
+  - GOVERNS_CONCEPT: [[CROSS_PLANE_RESOLUTION]]
+  - GOVERNS_CONCEPT: [[MODEL_IDENTITY_PRESERVATION]]
+  - GOVERNS_CONCEPT: [[MODEL_VERSION_NAVIGATION]]
+  - GOVERNS_CONCEPT: [[MODEL_PROVENANCE_PRESERVATION]]
+  - GOVERNS_CONCEPT: [[MODEL_SCOPE_PRESERVATION]]
+  - GOVERNS_CONCEPT: [[MODEL_REGIME_PRESERVATION]]
+  - GOVERNS_CONCEPT: [[INDEX_FAILURE_VISIBILITY]]
 ```
 
 ---

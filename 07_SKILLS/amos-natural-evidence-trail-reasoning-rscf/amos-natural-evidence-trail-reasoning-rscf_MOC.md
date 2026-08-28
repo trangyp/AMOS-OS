@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-natural-evidence-trail-reasoning-rs
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Natural-Evidence-Trail-Reasoning-Rscf — Map of Content
 

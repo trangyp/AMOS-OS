@@ -14,14 +14,19 @@ tags:
 - rscf/state/observation
 - topic/ev-kernel-model
 - kernel
+- validation
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- kernel-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
-
 
 # AMOS EV Kernel
 

@@ -6,13 +6,14 @@ tags:
 - moc
 - 57-security-threat-modes
 - canon/control-plane
+- 09-commit-moc
+- security-threat-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 57 Security Threat Modes — Map of Content
 

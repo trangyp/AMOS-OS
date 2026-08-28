@@ -6,6 +6,9 @@ tags:
 - moc
 - 04-handbooks
 - canon/operations
+- amos-home
+- 04-handbooks-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -3,7 +3,8 @@ type: canon
 source: 01_CANON/00_INDEX
 artifact_id: AMOS-OS-CANON-MAP
 name: AMOS_OS_CANON_MAP
-title: AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion Topology
+title: AMOS OS Canon Map — Canonical Authority, Lineage, Provenance, and Promotion
+  Topology
 document_version: 2.0.0
 map_version: 1.0.0
 amos_core_target: v4.4
@@ -17,7 +18,8 @@ steward: Trang Phan
 created: 2026-08-25
 updated: 2026-08-25
 scope:
-- AMOS_OS - canon - canonical_authority - canon_lineage - provenance - supersession - pr
+- AMOS_OS - canon - canonical_authority - canon_lineage - provenance - supersession
+  - pr
 tags:
 - amos
 - canon
@@ -51,6 +53,26 @@ tags:
 - topic/canon
 - topic/canon-map
 - topic/canonical-authority
+- readme
+- 00-root-moc
+- architecture
+- system-map
+- dependency-map
+- authoritative-state
+- 00-root-naming-standard
+- placement-rules
+- kernel-map
+- control-plane-map
+- amos-full-brain-os-architecture
+- index-research-readme
+- operating-model
+- legacy-archive-readme
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- amos-layer-maps
+- index-canon-readme
+- 00-index-moc
 aliases:
 - AMOS Canon Map - AMOS OS Canon Map - Canon Authority Map - Canon Lineage Map
 ---

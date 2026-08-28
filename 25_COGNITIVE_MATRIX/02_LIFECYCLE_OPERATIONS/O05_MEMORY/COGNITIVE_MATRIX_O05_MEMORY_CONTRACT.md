@@ -8,13 +8,19 @@ tags:
 - o05_memory
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- o05-memory-moc
+- cognitive-matrix-lifecycle-operations-contract
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O05_MEMORY — Persist/retrieve with lifecycle (formation→evolution→retrieval) and trust gating.
 

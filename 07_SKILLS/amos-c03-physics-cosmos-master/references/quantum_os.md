@@ -6,13 +6,19 @@ tags:
 - reference
 - amos-c03-physics-cosmos-master
 - canon/skill
+- amos-c03-physics-cosmos-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # AMOS Quantum OS
 

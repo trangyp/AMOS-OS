@@ -12,39 +12,74 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: COGNITIVE_ARCHITECTURE
 path: 25_COGNITIVE_MATRIX/COGNITIVE_MATRIX_README.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - cognitive_architecture
-  - reasoning_architecture
-  - governed_cognition
-  - hml
-  - rscf
-  - gmef
-  - proof_capsules
-  - provenance
-  - provenance_topology
-  - sybil_hardening
-  - competing_hypotheses
-  - causal_firewall
-  - scope_firewall
-  - regime_firewall
-  - temporal_validity
-  - uncertainty
-  - sensitivity
-  - cognitive_modes
-  - capability_resolution
-  - governance
-  - repair
-  - fast_path
-  - mvcc
-  - cas
-  - causal_epoch
-  - shard_local_finalization
-  - proof_based_coordination_avoidance
-  - anti_fabrication
-  - anti_regression
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- cognitive_architecture
+- reasoning_architecture
+- governed_cognition
+- hml
+- rscf
+- gmef
+- proof_capsules
+- provenance
+- provenance_topology
+- sybil_hardening
+- competing_hypotheses
+- causal_firewall
+- scope_firewall
+- regime_firewall
+- temporal_validity
+- uncertainty
+- sensitivity
+- cognitive_modes
+- capability_resolution
+- governance
+- repair
+- fast_path
+- mvcc
+- cas
+- causal_epoch
+- shard_local_finalization
+- proof_based_coordination_avoidance
+- anti_fabrication
+- anti_regression
+- canon_candidate
+- canon/cognitive-matrix
+- readme
+- validation
+- task-contract
+- task-resolver
+- capability-resolver
+- mode-admission-queue
+- mode-composition-registry
+- mode-conflict-registry
+- mode-coverage-matrix
+- mode-dependency-graph
+- k-hml
+- k-rscf
+- k-gmef
+- k-binding
+- k-constraint-propagation
+- k-provenance
+- k-provenance-topology
+- k-sybil-hardening
+- k-counterfactual
+- k-translation
+- k-effect-classification
+- k-information-exposure
+- k-risk-constraint
+- k-capability-authorization
+- k-commit-time-authority
+- k-homeostasis
+- k-repair-harm
+- k-repair-priority
+- architecture
+- integration
+- canon
+- l19-proof-capsule
+- causal-epoch-finality
+- shard-local-finalization
+- proof-based-coordination-avoidance
 version: 1.0.0
 updated: '2026-08-27'
 status: DERIVED_CANDIDATE_CANON
@@ -60,14 +95,14 @@ rscf:
   state: DERIVED
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_CORPUS
-    - AMOS_CORE_LINEAGE
-    - COGNITIVE_MATRIX_SOURCE
+  - AMOS_CORPUS
+  - AMOS_CORE_LINEAGE
+  - COGNITIVE_MATRIX_SOURCE
   scope:
-    - AMOS_GENERAL
-    - COGNITIVE_MATRIX
-    - REASONING_ARCHITECTURE
-    - GOVERNED_COGNITION
+  - AMOS_GENERAL
+  - COGNITIVE_MATRIX
+  - REASONING_ARCHITECTURE
+  - GOVERNED_COGNITION
 epistemic_boundary:
   architecture_definition: SOURCE_GROUNDED
   architecture_normalization: DERIVED
@@ -79,20 +114,20 @@ epistemic_boundary:
 lineage:
   lineage_target: AMOS_CORE_v4_4
   spine:
-    - deterministic_logic
-    - recursive_rscf_hml
-    - governed_evolution
-    - causal_lineage
-    - epistemic_regimes
-    - competing_hypotheses
-    - provenance_topology
-    - sybil_hardening
-    - persistent_provenance
-    - mvcc_cas_concepts
-    - atomic_multi_rscf_reasoning
-    - causal_epoch_finality
-    - hardened_shard_local_finalization
-    - proof_based_coordination_avoidance
+  - deterministic_logic
+  - recursive_rscf_hml
+  - governed_evolution
+  - causal_lineage
+  - epistemic_regimes
+  - competing_hypotheses
+  - provenance_topology
+  - sybil_hardening
+  - persistent_provenance
+  - mvcc_cas_concepts
+  - atomic_multi_rscf_reasoning
+  - causal_epoch_finality
+  - hardened_shard_local_finalization
+  - proof_based_coordination_avoidance
 ---
 
 # COGNITIVE MATRIX [[README]]

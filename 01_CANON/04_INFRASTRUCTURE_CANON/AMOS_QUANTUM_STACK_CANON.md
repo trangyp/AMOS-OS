@@ -14,17 +14,27 @@ artifact_kind: CANON_PLACEHOLDER
 package_role: RESERVED_INFRASTRUCTURE_CANON_SLOT
 path: 01_CANON/04_INFRASTRUCTURE_CANON/AMOS_QUANTUM_STACK_CANON.md
 tags:
-  - amos_os
-  - canon
-  - infrastructure_canon
-  - quantum_stack
-  - amos_quantum_stack
-  - 01_canon
-  - canon_placeholder
-  - rscf
-  - provenance
-  - lineage
-  - unknown_gap
+- amos_os
+- canon
+- infrastructure_canon
+- quantum_stack
+- amos_quantum_stack
+- 01_canon
+- canon_placeholder
+- rscf
+- provenance
+- lineage
+- unknown_gap
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 04-infrastructure-canon-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER

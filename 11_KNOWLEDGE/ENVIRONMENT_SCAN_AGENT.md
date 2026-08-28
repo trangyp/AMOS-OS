@@ -36,6 +36,13 @@ tags:
 - topic/sense-system
 - topic/agent-runtime
 - topic/context-observation
+- architecture
+- memory
+- 00-home
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- knowledge-moc
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -43,8 +50,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
-
 
 # AMOS EnvironmentScan Agent
 ## Governed Sense-System Component

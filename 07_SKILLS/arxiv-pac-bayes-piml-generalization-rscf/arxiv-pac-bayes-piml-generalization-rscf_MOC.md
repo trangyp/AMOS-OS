@@ -6,13 +6,15 @@ tags:
 - moc
 - arxiv-pac-bayes-piml-generalization-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Arxiv-Pac-Bayes-Piml-Generalization-Rscf — Map of Content
 

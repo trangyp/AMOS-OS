@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-mathematical-rigor-rscf-kernel
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Mathematical-Rigor-Rscf-Kernel — Map of Content
 

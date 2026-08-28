@@ -6,12 +6,23 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-    - internal
+  - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
 - note
 - 11-validation
+- promotion-gates
+- binding-rules
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- validation
+- 00-home
+- 11-validation-moc
 canon-group: canon/cognitive-matrix
 ---
 

@@ -6,13 +6,14 @@ tags:
 - moc
 - 51-temporal-horizon-modes
 - canon/control-plane
+- 09-commit-moc
+- temporal-horizon-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 51 Temporal Horizon Modes — Map of Content
 

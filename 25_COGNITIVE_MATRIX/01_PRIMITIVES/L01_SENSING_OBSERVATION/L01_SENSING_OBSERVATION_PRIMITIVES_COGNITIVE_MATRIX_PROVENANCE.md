@@ -13,13 +13,18 @@ tags:
 - hml
 - control-plane
 - canon/cognitive-matrix
+- 00-home
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l01-sensing-observation-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L01_SENSING_OBSERVATION — Provenance
 

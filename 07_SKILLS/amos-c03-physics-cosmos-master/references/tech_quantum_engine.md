@@ -6,13 +6,18 @@ tags:
 - reference
 - amos-c03-physics-cosmos-master
 - canon/skill
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # AMOS Tech Quantum Engine vInfinity
 

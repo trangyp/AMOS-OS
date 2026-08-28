@@ -6,13 +6,16 @@ tags:
 - moc
 - o01-object
 - canon/cognitive-matrix
+- cognitive-matrix-o01-object-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
+- lifecycle-operations-cognitive-matrix-input-output
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O01 Object — Map of Content
 

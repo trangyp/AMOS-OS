@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c10-tech-engineering-master
 Agent: amos-c10-tech-engineering-agent
-Trigger: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps, architecture,
-  factory systems, production. Use for software development, engineering design, or technical architecture.
+Trigger: AMOS C10 Tech & Engineering — coding, software engineering, automation, DevOps,
+  architecture, factory systems, production. Use for software development, engineering
+  design, or technical architecture.
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: c10
 ---
-
 
 # Workflow: AMOS C10 — Tech & Engineering Master
 

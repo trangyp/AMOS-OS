@@ -12,17 +12,29 @@ segment: 01_CANON/06_GLOSSARY
 artifact_kind: GLOSSARY
 path: 01_CANON/06_GLOSSARY/UBI_GLOSSARY.md
 tags:
-  - 01_canon
-  - 06_glossary
-  - amos_os
-  - canon
-  - canon/universe
-  - canon_placeholder
-  - glossary
-  - rscf
-  - ubi_glossary.md
-  - universe
-  - placeholder_expanded
+- 01_canon
+- 06_glossary
+- amos_os
+- canon
+- canon/universe
+- canon_placeholder
+- glossary
+- rscf
+- ubi_glossary.md
+- universe
+- placeholder_expanded
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 06-glossary-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -41,7 +53,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -8,6 +8,13 @@ tags:
 - rscf/state/observation
 - topic/hse-enginev-amos-format-with-ucm
 - engine
+- skill
+- architecture
+- integration
+- validation
+- 00-cosmo-brain-moc
+- canon
+- engine-moc
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -16,6 +23,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # HSE ENGINEV AMOS FORMAT WITH UCM
 
 === AMOS_CORE_FORMATTED_FILE ===

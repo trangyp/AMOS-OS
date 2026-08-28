@@ -4,6 +4,22 @@ tags:
 - full
 - brain
 - canon.md
+- 03-cognition-canon-moc
+- amos-cognition-canon
+- amos-cognition-master-canon
+- amos-emotion-canon
+- amos-emotion-master-canon
+- amos-cross-species-functional-mode-model
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
 ---
 
 ---

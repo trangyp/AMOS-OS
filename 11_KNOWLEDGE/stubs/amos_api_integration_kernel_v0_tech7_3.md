@@ -7,8 +7,15 @@ tags:
 - integration
 - kernel
 - tech
+- amos-api-integration-kernel-v0-tech7-3
+- kernel-moc
+- 00-home
 ---
 
 # amos api integration kernel v0 tech7 3
 
 Stub note for [[amos_api_integration_kernel_v0_tech7_3]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

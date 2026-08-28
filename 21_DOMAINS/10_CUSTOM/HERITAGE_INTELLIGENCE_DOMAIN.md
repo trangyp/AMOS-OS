@@ -12,17 +12,22 @@ segment: 21_DOMAINS/10_CUSTOM
 artifact_kind: DOMAIN_ENGINE
 path: 21_DOMAINS/10_CUSTOM/HERITAGE_INTELLIGENCE_DOMAIN.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 10_custom
-  - heritage_intelligence_domain
-  - 32_layer_custom_engine
-  - ancestral_decision_science
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 10_custom
+- heritage_intelligence_domain
+- 32_layer_custom_engine
+- ancestral_decision_science
+- rscf
+- canon_candidate
+- canon/domain
+- heritage-intelligence-master
+- amos-x-heritage
+- heritage-handbook
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER
-    - 21_DOMAINS/10_CUSTOM/10_CUSTOM_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER
+  - 21_DOMAINS/10_CUSTOM/10_CUSTOM_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_CUSTOM
-    - HERITAGE_CUSTOM_ENGINE
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_CUSTOM
+  - HERITAGE_CUSTOM_ENGINE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   heritage_master:
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   matrix_binding:
-    artifact: [[AMOS_X_HERITAGE]]
+    artifact:
+    - - AMOS_X_HERITAGE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

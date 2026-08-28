@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-arxiv-autonomous-scientific-knowled
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Arxiv-Autonomous-Scientific-Knowledge-Rscf — Map of Content
 

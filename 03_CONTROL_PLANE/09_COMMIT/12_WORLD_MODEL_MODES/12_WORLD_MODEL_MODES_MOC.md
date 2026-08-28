@@ -6,13 +6,14 @@ tags:
 - moc
 - 12-world-model-modes
 - canon/control-plane
+- 09-commit-moc
+- world-model-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 12 World Model Modes — Map of Content
 

@@ -6,13 +6,27 @@ tags:
 - control_plane
 - 11_scale_modes
 - canon/control-plane
+- readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- scale-modes-commit-control-plane-mode-family-spec
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 11-scale-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # SCALE MODES COMMIT CONTROL PLANE [[README]]
 

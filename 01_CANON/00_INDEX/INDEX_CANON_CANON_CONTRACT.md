@@ -6,13 +6,19 @@ tags:
 - note
 - 00-index
 - canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- index-canon-readme
+- canon
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # AMOS OS — [[CANON]] Contract
 

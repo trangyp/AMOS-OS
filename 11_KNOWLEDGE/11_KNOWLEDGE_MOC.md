@@ -6,6 +6,7 @@ tags:
 - moc
 - knowledge
 - rscf
+- 25-cognitive-matrix-moc
 ---
 
 # 11_KNOWLEDGE MOC

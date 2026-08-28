@@ -12,20 +12,39 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: ARTIFACT
 path: 01_CANON/02_UNIVERSE_CANON/OMEGA_QUANTUM_STACK.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - omega
-  - omega_quantum_stack
-  - quantum
-  - quantum_knowledge
-  - cognitive_architecture
-  - murk
-  - executable_brain_model
-  - provenance
-  - rscf
-  - canon/universe
+- amos_os
+- canon
+- universe
+- 01_canon
+- omega
+- omega_quantum_stack
+- quantum
+- quantum_knowledge
+- cognitive_architecture
+- murk
+- executable_brain_model
+- provenance
+- rscf
+- canon/universe
+- architecture
+- validation
+- omega-quantum-stack-canon
+- memory
+- skill
+- workflow
+- l19-proof-capsule
+- integration
+- law-hierarchy
+- canon-universe-canon-contract
+- 02-universe-canon-moc
+- omega-architecture-canon
+- khung-trang-master
+- khung-trang-equations
+- khung-trang-equations-canon
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,19 +59,19 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - AMOS_OMEGA_QUANTUM_STACK
-    - OMEGA_QUANTUM_STACK_CANON
-    - Quantum_Omega_Cognitive_Architecture_Overview
-    - AMOS_QUANTUM_LIBRARY
-    - AMOS_MURK_REASONING_ENGINE
-    - AMOS_MURK_BRAIN_INTEGRATION
-    - EXECUTABLE_BRAIN_MODEL
+  - AMOS_corpus
+  - AMOS_OMEGA_QUANTUM_STACK
+  - OMEGA_QUANTUM_STACK_CANON
+  - Quantum_Omega_Cognitive_Architecture_Overview
+  - AMOS_QUANTUM_LIBRARY
+  - AMOS_MURK_REASONING_ENGINE
+  - AMOS_MURK_BRAIN_INTEGRATION
+  - EXECUTABLE_BRAIN_MODEL
   scope:
-    - UNIVERSE_CANON
-    - OMEGA_QUANTUM_STACK
-    - QUANTUM_KNOWLEDGE_ARCHITECTURE
-    - COGNITIVE_ARCHITECTURE
+  - UNIVERSE_CANON
+  - OMEGA_QUANTUM_STACK
+  - QUANTUM_KNOWLEDGE_ARCHITECTURE
+  - COGNITIVE_ARCHITECTURE
   confidence_ceiling:
     architecture: SOURCE_GROUNDED
     implementation: SOURCE_REPORTED

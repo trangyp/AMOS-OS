@@ -18,6 +18,12 @@ tags:
 - rscf/X-crossscale
 - topic/vomni-kernel-model
 - kernel
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- kernel-moc
+- amos-simulation-kernel-v0-math-foundations
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -27,7 +33,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS vOmni Master Kernel vInfinity_MAX
 

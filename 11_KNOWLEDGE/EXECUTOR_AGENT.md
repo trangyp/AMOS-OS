@@ -22,7 +22,8 @@ conclusion_class: SOURCE_CLAIM / STRUCTURAL_MODEL
 implementation_state: REGISTERED_STUB
 runtime_state: NON_DESTRUCTIVE_TRACE_ONLY
 aliases:
-- Executor Agent - AMOS Executor Agent - Execution System Executor - Governed Effect Executor
+- Executor Agent - AMOS Executor Agent - Execution System Executor - Governed Effect
+  Executor
 tags:
 - agents
 - knowledge
@@ -37,6 +38,13 @@ tags:
 - topic/effect-execution
 - topic/commit-governance
 - topic/agent-runtime
+- architecture
+- validation
+- 00-home
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- knowledge-moc
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -44,8 +52,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
-
 
 # AMOS Executor Agent
 ## Governed Execution-System Component

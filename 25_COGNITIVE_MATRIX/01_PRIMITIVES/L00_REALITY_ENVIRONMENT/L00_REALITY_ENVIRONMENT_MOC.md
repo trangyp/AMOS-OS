@@ -6,13 +6,15 @@ tags:
 - moc
 - l00-reality-environment
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l00-reality-environment-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L00 Reality Environment — Map of Content
 

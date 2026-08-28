@@ -6,13 +6,17 @@ tags:
 - moc
 - 02-experiments
 - canon/research
+- experiments-research-readme
+- experiment-registry
+- research-experiments-contract
+- 00-index-moc
+- 22-research-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Experiments — Map of Content
 

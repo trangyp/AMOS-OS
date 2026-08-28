@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 29_fabrication_design_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 29-fabrication-design-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # FABRICATION DESIGN MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 

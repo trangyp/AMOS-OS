@@ -6,13 +6,16 @@ tags:
 - moc
 - 09-protocols
 - canon/protocol
+- protocols-protocol-contract
+- protocols-readme
+- 00-index-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 09 Protocols — Map of Content
 

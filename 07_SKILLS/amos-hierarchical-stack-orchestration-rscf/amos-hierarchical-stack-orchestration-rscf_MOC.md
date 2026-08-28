@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-hierarchical-stack-orchestration-rs
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Hierarchical-Stack-Orchestration-Rscf — Map of Content
 

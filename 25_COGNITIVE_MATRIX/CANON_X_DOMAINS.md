@@ -12,27 +12,46 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CANON
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_STRUCTURAL_INTEGRITY_CANON.md
 tags:
-  - amos_os
-  - canon
-  - core_law
-  - structural_integrity
-  - absolute_integrity
-  - integrity
-  - law_of_law
-  - coherence
-  - contradiction
-  - traceability
-  - provenance
-  - structural_validity
-  - epistemic_integrity
-  - causal_integrity
-  - scope_integrity
-  - governance_integrity
-  - execution_integrity
-  - recursive_integrity
-  - rscf
-  - canon_candidate
-  - canon/core-laws
+- amos_os
+- canon
+- core_law
+- structural_integrity
+- absolute_integrity
+- integrity
+- law_of_law
+- coherence
+- contradiction
+- traceability
+- provenance
+- structural_validity
+- epistemic_integrity
+- causal_integrity
+- scope_integrity
+- governance_integrity
+- execution_integrity
+- recursive_integrity
+- rscf
+- canon_candidate
+- canon/core-laws
+- law-hierarchy
+- amos-x-qls
+- amos-x-qcla
+- amos-x-ubi
+- amos-x-neurosyncai
+- amos-x-trang-reality
+- readme
+- validation
+- absolute-structural-integrity
+- quantum-integrity-stack
+- architecture
+- 01-core-laws-moc
+- amos-rscf-nodes
+- 00-home
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- absolute-structural-integrity-canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -47,47 +66,41 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_OS_ABSOLUTE
-    - QUANTUM_INTEGRITY_STACK_LAW_OF_LAW
-    - AMOS_CORE_LINEAGE
-    - AMOS_CORPUS
+  - AMOS_OS_ABSOLUTE
+  - QUANTUM_INTEGRITY_STACK_LAW_OF_LAW
+  - AMOS_CORE_LINEAGE
+  - AMOS_CORPUS
   scope:
-    - CORE_LAWS
-    - STRUCTURAL_INTEGRITY
-    - REASONING_INTEGRITY
-    - EPISTEMIC_INTEGRITY
-    - PROVENANCE_INTEGRITY
-    - GOVERNANCE_INTEGRITY
-    - EXECUTION_INTEGRITY
-    - EVOLUTION_INTEGRITY
+  - CORE_LAWS
+  - STRUCTURAL_INTEGRITY
+  - REASONING_INTEGRITY
+  - EPISTEMIC_INTEGRITY
+  - PROVENANCE_INTEGRITY
+  - GOVERNANCE_INTEGRITY
+  - EXECUTION_INTEGRITY
+  - EVOLUTION_INTEGRITY
 framework_binding:
   primary_law:
     name: Absolute Structural Integrity
     role: TOP_LEVEL_STRUCTURAL_VALIDITY_CONSTRAINT
   parent_principle:
     name: Law of Law
-    artifact: [[LAW_HIERARCHY]]
+    artifact:
+    - - LAW_HIERARCHY
   related_frameworks:
-    - "[[AMOS_X_QLS]]"
-    - "[[AMOS_X_QCLA]]"
-    - "[[AMOS_X_UBI]]"
-    - "[[AMOS_X_NEUROSYNCAI]]"
-    - "[[AMOS_X_TRANG_REALITY]]"
+  - '[[AMOS_X_QLS]]'
+  - '[[AMOS_X_QCLA]]'
+  - '[[AMOS_X_UBI]]'
+  - '[[AMOS_X_NEUROSYNCAI]]'
+  - '[[AMOS_X_TRANG_REALITY]]'
 epistemic_boundary:
-  law_of_law_presence:
-    VERIFIED_SOURCE_PRESENCE
-  integrity_framework_presence:
-    VERIFIED_SOURCE_PRESENCE
-  structural_integrity_normalization:
-    AMOS_DERIVED_FROM_SOURCE_LINEAGE
-  E_equals_I_squared:
-    SOURCE_CLAIM
-  E_equals_I_squared_empirical_status:
-    NOT_INDEPENDENTLY_ESTABLISHED_AS_PHYSICAL_LAW
-  universal_integrity_claim:
-    SOURCE_CLAIM_NOT_EMPIRICALLY_ESTABLISHED
-  runtime_enforcement:
-    PARTIAL_DISTRIBUTED_CONCEPTS_PRESENT_SINGLE_BINDING_NOT_ESTABLISHED
+  law_of_law_presence: VERIFIED_SOURCE_PRESENCE
+  integrity_framework_presence: VERIFIED_SOURCE_PRESENCE
+  structural_integrity_normalization: AMOS_DERIVED_FROM_SOURCE_LINEAGE
+  E_equals_I_squared: SOURCE_CLAIM
+  E_equals_I_squared_empirical_status: NOT_INDEPENDENTLY_ESTABLISHED_AS_PHYSICAL_LAW
+  universal_integrity_claim: SOURCE_CLAIM_NOT_EMPIRICALLY_ESTABLISHED
+  runtime_enforcement: PARTIAL_DISTRIBUTED_CONCEPTS_PRESENT_SINGLE_BINDING_NOT_ESTABLISHED
 ---
 
 # Absolute Structural Integrity Canon

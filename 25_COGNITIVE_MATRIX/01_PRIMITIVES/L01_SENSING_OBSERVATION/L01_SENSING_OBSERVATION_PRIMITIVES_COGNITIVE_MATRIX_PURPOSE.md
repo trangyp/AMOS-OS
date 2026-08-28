@@ -6,13 +6,18 @@ tags:
 - note
 - vault
 - canon/cognitive-matrix
+- 00-home
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l01-sensing-observation-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 ---tags:
   - amos

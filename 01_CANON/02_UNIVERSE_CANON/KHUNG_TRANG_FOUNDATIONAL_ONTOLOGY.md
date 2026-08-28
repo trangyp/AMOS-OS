@@ -7,6 +7,13 @@ tags:
 - ontology
 - canon
 - pre_symbolic
+- khung-trang-master
+- khung-trang-canon
+- 02-universe-canon-moc
+- 00-home
+- amos-rscf-nodes
+- trang-framework-recursive-ontology-dynamics
+- 00-index-moc
 rscf:
   state: CANON_SPEC
   claim_class: CANONICAL_INVARIANT
@@ -36,3 +43,7 @@ RSCF-RELATIONS:
   - CHILD_OF: [[02_UNIVERSE_CANON_MOC]]
   - RELATED_TO: [[KHUNG_TRANG_MASTER]]
   - RELATED_TO: [[KHUNG_TRANG_CANON]]
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

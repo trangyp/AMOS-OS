@@ -12,17 +12,22 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/SENSITIVITY_RUNTIME.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 06_execution
-  - sensitivity_runtime
-  - perturbation_analysis
-  - stability_governor
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 06_execution
+- sensitivity_runtime
+- perturbation_analysis
+- stability_governor
+- rscf
+- canon_candidate
+- canon/runtime
+- 06-execution-moc
+- tss-the-trang-system
+- tpe-trang-prediction-engine
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
-    - AMOS_CORPUS
+  - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TSS_THE_TRANG_SYSTEM
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_EXECUTION
-    - SENSITIVITY_ANALYSIS
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_EXECUTION
+  - SENSITIVITY_ANALYSIS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
     artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC

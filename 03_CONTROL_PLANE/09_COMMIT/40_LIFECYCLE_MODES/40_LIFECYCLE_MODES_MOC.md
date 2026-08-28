@@ -6,13 +6,14 @@ tags:
 - moc
 - 40-lifecycle-modes
 - canon/control-plane
+- 09-commit-moc
+- lifecycle-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 40 Lifecycle Modes — Map of Content
 

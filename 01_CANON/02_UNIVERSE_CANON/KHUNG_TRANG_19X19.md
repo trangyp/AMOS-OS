@@ -7,6 +7,10 @@ tags:
 - go_board
 - topology
 - canon
+- khung-trang-canon
+- 02-kernel-moc
+- 00-index-moc
+- 00-home
 ---
 
 # Khung Trang 19×19 Universal Topology
@@ -15,3 +19,7 @@ The 19×19 discrete topological matrix formalizing bounded state interactions, l
 
 ## Related
 - [[KHUNG_TRANG_CANON]] · [[02_KERNEL_MOC]]
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

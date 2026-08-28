@@ -8,13 +8,18 @@ tags:
 - l01_sensing_observation
 - readme
 - canon/cognitive-matrix
+- 00-home
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l01-sensing-observation-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 Here is the full `L01_SENSING_OBSERVATION/README.md` content to paste. I’m keeping the [[README]] as the **integration/index contract** for the L01 primitive rather than duplicating every sibling file in full.
 

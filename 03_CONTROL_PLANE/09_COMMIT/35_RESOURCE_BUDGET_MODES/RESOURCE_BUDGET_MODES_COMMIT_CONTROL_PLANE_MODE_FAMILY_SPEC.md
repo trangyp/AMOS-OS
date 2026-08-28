@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 35_resource_budget_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 35-resource-budget-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # RESOURCE BUDGET MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 

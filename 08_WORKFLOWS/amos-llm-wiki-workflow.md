@@ -2,13 +2,16 @@
 Type: Workflow
 Skill: amos-llm-wiki
 Agent: amos-llm-wiki-agent
-Trigger: When the user asks to ingest, query, lint, or maintain the AMOS LLM Wiki in 11_KNOWLEDGE/LLM_WIKI/
+Trigger: When the user asks to ingest, query, lint, or maintain the AMOS LLM Wiki
+  in 11_KNOWLEDGE/LLM_WIKI/
 Version: 1.0.0
 title: AMOS LLM Wiki
 tags:
 - type/workflow
 - domain/knowledge
 - amos_os
+- law-stack-enforcement-pipeline-moc
+- 00-home
 ---
 
 # Workflow: AMOS LLM Wiki
@@ -80,3 +83,7 @@ tags:
 - Raw-source summaries are `SOURCE_CLAIM`
 - Synthesized concept/entity pages are `DERIVED` / `AMOS_MODEL`
 - Provenance: raw source path + schema reference
+
+---
+
+**MOC:** [[law-stack-enforcement-pipeline_MOC]] · [[00_HOME]]

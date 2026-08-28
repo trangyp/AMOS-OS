@@ -6,13 +6,38 @@ tags:
 - moc
 - 12-generators
 - canon/cognitive-matrix
+- cognitive-matrix-generators-contract
+- generators-audit
+- generators-benchmarks
+- generators-change-log
+- generators-cognitive-matrix-readme
+- generators-history
+- generators-integration
+- generators-provenance
+- generators-roadmap
+- generators-tests
+- generators-validation
+- generators-versioning
+- generator-admission
+- generator-contract
+- generator-falsification
+- generator-output
+- generator-promotion
+- generator-registry
+- generator-seed
+- generator-supersession
+- generator-templates
+- generator-tests
+- generator-validation
+- generator-versioning
+- 00-index-moc
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 12 Generators — Map of Content
 

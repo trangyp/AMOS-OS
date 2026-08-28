@@ -6,12 +6,22 @@ tags:
 - note
 - 25-cognitive-matrix
 - canon/cognitive-matrix
+- signals
+- amos-x-heritage-matrix
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 # AMOS X HERITAGE
 
 Agreed. The previous version was too skeletal. The Drive source is much richer: the primary `heritage_intelligence.md` alone is ~464 KB, and there are multiple Heritage-lineage artifacts, including a ~650 KB `HERITAGE INTELLIGENCE.md`, a ~448 KB `HERITAGE INTELLIGENCE™.md`, and the Heritage ∅ corpus.

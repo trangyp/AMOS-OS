@@ -6,13 +6,23 @@ tags:
 - moc
 - 03-policy
 - canon/control-plane
+- bio-logical-governance-policy
+- canon-policy
+- heritage-policy
+- neurosyncai-governance-policy
+- policy-control-plane-readme
+- policy-decision
+- policy-engine
+- policy-registry
+- ubi-integrity-policy
+- 00-index-moc
+- 03-control-plane-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Policy — Map of Content
 

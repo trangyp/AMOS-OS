@@ -10,3 +10,7 @@ tags:
 # [ubi neurosyncai binding
 
 Stub note for [[[ubi_neurosyncai_binding]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

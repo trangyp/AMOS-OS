@@ -12,19 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: REASONING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/LDAI_LOGICALLY_DETERMINISTIC_AI.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ldai
-  - logically_deterministic_ai
-  - syntax_invariant
-  - deterministic_logic
-  - formal_reasoning
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ldai
+- logically_deterministic_ai
+- syntax_invariant
+- deterministic_logic
+- formal_reasoning
+- rscf
+- canon_candidate
+- canon/knowledge
+- frai-fractal-reasoning-ai
+- qls-framework
+- qcla-master
+- trang-reality-architecture
+- khung-trang
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,12 +47,12 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_LDAI_LOGICALLY_DETERMINISTIC_ARTIFICIAL_INT
-    - AMOS_CORPUS
+  - TRANG_LDAI_LOGICALLY_DETERMINISTIC_ARTIFICIAL_INT
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DETERMINISTIC_REASONING
-    - SOURCE_DEFINED_LDAI_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - DETERMINISTIC_REASONING
+  - SOURCE_DEFINED_LDAI_MODEL
 framework_binding:
   primary:
     name: Trang LDAI (Logically Deterministic AI)
@@ -53,16 +61,17 @@ framework_binding:
   upstream_fractal_engine:
     name: Trang FRAI (Fractal Reasoning AI)
     acronym: FRAI
-    artifact: [[FRAI_FRACTAL_REASONING_AI]]
+    artifact:
+    - - FRAI_FRACTAL_REASONING_AI
   logic_scaffold_coupling:
-    artifact: [[QLS_FRAMEWORK]]
+    artifact:
+    - - QLS_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   deterministic_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # LDAI — Logically Deterministic AI™
 

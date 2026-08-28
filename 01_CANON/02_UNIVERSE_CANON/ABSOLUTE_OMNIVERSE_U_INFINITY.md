@@ -21,47 +21,74 @@ native_framework:
   version: vInfinity
   author: Trang Phan
   layer_type: content_universe
-  description: >
-    Complete multimodal content ontology for humans, animals,
-    culture, crisis, symbols, tone, morality and interaction.
-    Pure content only. No logic, no prediction, no rules.
+  description: 'Complete multimodal content ontology for humans, animals, culture,
+    crisis, symbols, tone, morality and interaction. Pure content only. No logic,
+    no prediction, no rules.
+
+    '
 native_source:
   file: ABSOLUTE OMNIVERSE U∞.txt
   source_class: AMOS_NATIVE_SOURCE
   content_resolved: true
 anchors:
-  - UBI_4_domain
-  - TSS_7_cycle
-  - TPE_prediction_layer
-  - PSI_planetary_layer
-  - PISync_final_interface_state
+- UBI_4_domain
+- TSS_7_cycle
+- TPE_prediction_layer
+- PSI_planetary_layer
+- PISync_final_interface_state
 tags:
-  - amos_os
-  - canon
-  - universe
-  - universe_canon
-  - absolute_omniverse
-  - u_infinity
-  - content_universe
-  - multimodal_content
-  - human_states
-  - emotion
-  - sensory_signals
-  - pathology_patterns
-  - multi_agent
-  - species
-  - culture
-  - crisis
-  - creativity
-  - symbols
-  - dream
-  - expression
-  - morality
-  - personas
-  - binding_layer
-  - rscf
-  - provenance
-  - canon/universe
+- amos_os
+- canon
+- universe
+- universe_canon
+- absolute_omniverse
+- u_infinity
+- content_universe
+- multimodal_content
+- human_states
+- emotion
+- sensory_signals
+- pathology_patterns
+- multi_agent
+- species
+- culture
+- crisis
+- creativity
+- symbols
+- dream
+- expression
+- morality
+- personas
+- binding_layer
+- rscf
+- provenance
+- canon/universe
+- diagnosis
+- absolute-omniverse-u-infinity-canon
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
+- law-hierarchy
+- absolute-omniverse-u-infinity
+- ubi-4-domain
+- tss-7-cycle
+- tpe-prediction-layer
+- psi-planetary-layer
+- pisync-final-interface-state
+- ulk-logic-kernel
+- ust-structure-tree
+- uie-interaction-engine
+- hie-human-interaction-engine
+- umpl-meta-pattern-layer
+- uel-expression-layer
+- cil-culture-interface-layer
+- uai-alignment-interface
+- urta-risk-tension-architecture
+- control-plane-readme
+- observability-readme
+- operations-readme
+- signals
+- validation
 version: 1.0.0-canon-candidate
 native_version: vInfinity
 updated: '2026-08-27'
@@ -77,8 +104,8 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-    - "ABSOLUTE OMNIVERSE U∞.txt"
-    - "AMOS_corpus"
+  - ABSOLUTE OMNIVERSE U∞.txt
+  - AMOS_corpus
   scope: universe_canon
   regime: U_INFINITY_vInfinity
   confidence_ceiling: SOURCE_CLAIM

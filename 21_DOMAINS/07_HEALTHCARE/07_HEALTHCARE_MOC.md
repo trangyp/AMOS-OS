@@ -6,13 +6,22 @@ tags:
 - moc
 - 07-healthcare
 - canon/domain
+- amos-medical-clinical-kernel
+- biological-integrity-health-model
+- domains-healthcare-contract
+- healthcare-domains-domain-spec
+- healthcare-domains-interfaces
+- healthcare-domains-provenance
+- healthcare-domains-readme
+- ubi-health-application
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 07 Healthcare — Map of Content
 

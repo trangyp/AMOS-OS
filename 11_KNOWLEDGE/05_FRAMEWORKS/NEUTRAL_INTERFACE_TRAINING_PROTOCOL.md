@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: PROTOCOL
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUTRAL_INTERFACE_TRAINING_PROTOCOL.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - neutral_interface
-  - training_protocol
-  - bias_elimination
-  - non_coercive_ui
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- neutral_interface
+- training_protocol
+- bias_elimination
+- non_coercive_ui
+- rscf
+- canon_candidate
+- canon/knowledge
+- post-theory-communication
+- consentx
+- unified-biological-intelligence
+- phuong-phap-trang
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,24 +45,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - PHUONG_PHAP_TRANG_TAI_CAU_TRUC_TOAN_BO
-    - AMOS_CORPUS
+  - PHUONG_PHAP_TRANG_TAI_CAU_TRUC_TOAN_BO
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - INTERFACE_PROTOCOLS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - INTERFACE_PROTOCOLS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   communication:
-    artifact: [[POST_THEORY_COMMUNICATION]]
+    artifact:
+    - - POST_THEORY_COMMUNICATION
   consent:
-    artifact: [[CONSENTX]]
+    artifact:
+    - - CONSENTX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   protocol_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Neutral Interface Training Protocol
 

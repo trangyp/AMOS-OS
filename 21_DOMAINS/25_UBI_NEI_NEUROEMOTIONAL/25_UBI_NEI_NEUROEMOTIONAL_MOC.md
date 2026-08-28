@@ -6,13 +6,17 @@ tags:
 - moc
 - 25-ubi-nei-neuroemotional
 - canon/domain
+- domains-ubi-nei-neuroemotional-contract
+- ubi-nei-neuroemotional-domains-readme
+- 00-index-moc
+- 21-domains-moc
+- ubi-nei-neuroemotional-domains-domain-spec
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 25 Ubi Nei Neuroemotional — Map of Content
 

@@ -4,7 +4,10 @@ title: SKILL — Amos Agent Memory Dynamics Rscf Engine
 type: skill
 source: 07_SKILLS/amos-agent-memory-dynamics-rscf-engine
 name: amos-agent-memory-dynamics-rscf-engine
-description: Agent Memory Dynamics — memory systems capability. Use when memory management, context continuity, or memory conflict resolution. Use when amos-memory-systems-master routes to this specialized capability. Do not use for generic tasks outside memory domain.
+description: Agent Memory Dynamics — memory systems capability. Use when memory management,
+  context continuity, or memory conflict resolution. Use when amos-memory-systems-master
+  routes to this specialized capability. Do not use for generic tasks outside memory
+  domain.
 parent_skill: amos-memory-systems-master
 domain: memory
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-agent-memory-dynamics-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

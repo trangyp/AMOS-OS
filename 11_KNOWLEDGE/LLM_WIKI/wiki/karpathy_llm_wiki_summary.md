@@ -6,13 +6,14 @@ tags:
 - source-summary
 - llm-wiki
 - canon/knowledge
+- llm-wiki-index
+- llm-wiki-moc
 rscf:
   state: DERIVED
   claim_class: SOURCE_CLAIM
   provenance: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
   scope: AMOS_knowledge
 ---
-
 
 # Karpathy LLM Wiki Pattern
 

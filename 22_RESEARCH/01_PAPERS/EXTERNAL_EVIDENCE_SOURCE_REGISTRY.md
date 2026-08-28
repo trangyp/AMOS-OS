@@ -12,17 +12,22 @@ segment: 22_RESEARCH/01_PAPERS
 artifact_kind: REGISTRY
 path: 22_RESEARCH/01_PAPERS/EXTERNAL_EVIDENCE_SOURCE_REGISTRY.md
 tags:
-  - amos_os
-  - research
-  - vault
-  - 22_research
-  - 01_papers
-  - external_evidence_source_registry
-  - arxiv_corpus
-  - peer_reviewed_sources
-  - rscf
-  - canon_candidate
-  - canon/research
+- amos_os
+- research
+- vault
+- 22_research
+- 01_papers
+- external_evidence_source_registry
+- arxiv_corpus
+- peer_reviewed_sources
+- rscf
+- canon_candidate
+- canon/research
+- 01-papers-moc
+- 11-knowledge-moc
+- provenance-x-confidence
+- 00-home
+- 22-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: OBSERVATION_GROUNDED
   provenance:
-    - 11_KNOWLEDGE/_arxiv_md
-    - 22_RESEARCH/01_PAPERS/01_PAPERS_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/_arxiv_md
+  - 22_RESEARCH/01_PAPERS/01_PAPERS_MOC
+  - AMOS_CORPUS
   scope:
-    - RESEARCH_PAPERS
-    - EXTERNAL_EVIDENCE
-    - SOURCE_DEFINED_MODEL
+  - RESEARCH_PAPERS
+  - EXTERNAL_EVIDENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   papers_moc:
     artifact: 22_RESEARCH/01_PAPERS/01_PAPERS_MOC

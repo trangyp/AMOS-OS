@@ -6,13 +6,15 @@ tags:
 - moc
 - l01-sensing-observation
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l01-sensing-observation-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L01 Sensing Observation — Map of Content
 

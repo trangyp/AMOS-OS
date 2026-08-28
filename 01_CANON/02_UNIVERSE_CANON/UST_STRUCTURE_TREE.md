@@ -6,8 +6,11 @@ tags:
 - ust
 - structure_tree
 - universe_canon
+- 02-universe-canon-moc
+- absolute-omniverse-u-infinity-canon
+- 00-index-moc
+- 00-home
 ---
-
 
 # UST Structure Tree
 
@@ -28,3 +31,7 @@ AMOS OS
 
 - [[02_UNIVERSE_CANON_MOC]] — Universe canon MOC
 - [[ABSOLUTE_OMNIVERSE_U_INFINITY_CANON]] — Omniverse canon
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

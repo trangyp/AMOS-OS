@@ -4,8 +4,15 @@ tags:
 - stub
 - document
 - pdf
+- documentpdf
+- kernel-moc
+- 00-home
 ---
 
 # document.pdf
 
 Stub note for [[document.pdf]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

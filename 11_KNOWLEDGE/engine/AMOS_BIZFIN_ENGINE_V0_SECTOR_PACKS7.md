@@ -14,6 +14,8 @@ tags:
 - rscf/state/source-claim
 - topic/amos-bizfin-engine-v0
 - engine
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +23,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS BIZFIN ENGINE V0 SECTOR PACKS7
 
 ```json

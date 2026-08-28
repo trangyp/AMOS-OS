@@ -4,7 +4,10 @@ title: SKILL — Amos Trust Formation Governor
 type: skill
 source: 07_SKILLS/amos-trust-formation-governor
 name: amos-trust-formation-governor
-description: Trust Formation Governor — organization, law and policy capability. Use when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master routes to this specialized capability. Do not use for generic tasks outside c09 domain.
+description: Trust Formation Governor — organization, law and policy capability. Use
+  when governance design, legal analysis, or policy reasoning. Use when amos-c09-org-law-policy-master
+  routes to this specialized capability. Do not use for generic tasks outside c09
+  domain.
 parent_skill: amos-c09-org-law-policy-master
 domain: c09
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-trust-formation-governor-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -14,6 +14,7 @@ tags:
 - rscf/state/source-claim
 - topic/amos-absolute-vn-omnistructure-clean-eng
 - engine
+- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS ABSOLUTE VN OMNISTRUCTURE CLEAN ENGINE V0 COUNTRY PACKS7
 
 ```json

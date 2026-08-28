@@ -12,17 +12,22 @@ segment: 22_RESEARCH/03_COMPETING_MODELS
 artifact_kind: COMPETING_MODELS_ANALYSIS
 path: 22_RESEARCH/03_COMPETING_MODELS/UBI_COMPETING_MODELS.md
 tags:
-  - amos_os
-  - research
-  - vault
-  - 22_research
-  - 03_competing_models
-  - ubi_competing_models
-  - biological_ai_comparisons
-  - non_compensatory_vs_linear
-  - rscf
-  - canon_candidate
-  - canon/research
+- amos_os
+- research
+- vault
+- 22_research
+- 03_competing_models
+- ubi_competing_models
+- biological_ai_comparisons
+- non_compensatory_vs_linear
+- rscf
+- canon_candidate
+- canon/research
+- 03-competing-models-moc
+- unified-biological-intelligence
+- absolute-biological-integrity-framework
+- 00-home
+- 22-research-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC
+  - AMOS_CORPUS
   scope:
-    - RESEARCH_ANALYSIS
-    - COMPETING_MODELS
-    - SOURCE_DEFINED_MODEL
+  - RESEARCH_ANALYSIS
+  - COMPETING_MODELS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   competing_moc:
     artifact: 22_RESEARCH/03_COMPETING_MODELS/03_COMPETING_MODELS_MOC

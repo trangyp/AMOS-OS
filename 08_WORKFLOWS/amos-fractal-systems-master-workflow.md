@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-fractal-systems-master
 Agent: amos-fractal-systems-agent
-Trigger: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity, scale-invariance, H/M/L
-  fractal integrity levels. 500,000-entry quantum fractal database. Use for fractal analysis, scale r
+Trigger: AMOS Fractal Systems — fractal architecture, lacunarity, self-similarity,
+  scale-invariance, H/M/L fractal integrity levels. 500,000-entry quantum fractal
+  database. Use for fractal analysis, scale r
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: fractal
 ---
-
 
 # Workflow: AMOS Fractal Systems Master
 

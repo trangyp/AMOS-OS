@@ -6,13 +6,25 @@ tags:
 - moc
 - 02-kernel
 - canon/kernel
+- kernel-kernel-contract
+- kernel-readme
+- 00-index-moc
+- 01-meta-logic-moc
+- 02-cognition-moc
+- 03-causal-moc
+- 04-state-moc
+- 05-memory-moc
+- 06-risk-repair-moc
+- 07-authority-moc
+- 08-provenance-moc
+- 09-integration-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 02 Kernel — Map of Content
 

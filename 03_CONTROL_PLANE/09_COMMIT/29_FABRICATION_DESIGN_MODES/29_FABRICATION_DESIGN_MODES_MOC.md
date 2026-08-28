@@ -6,13 +6,13 @@ tags:
 - moc
 - 29-fabrication-design-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 29 Fabrication Design Modes — Map of Content
 

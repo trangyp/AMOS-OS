@@ -12,18 +12,33 @@ segment: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_kind: ROUTING
 path: 25_COGNITIVE_MATRIX/10_ROUTING/ROUTING_POLICY.md
 tags:
-  - 10_routing
-  - 25_cognitive_matrix
-  - amos_os
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive_matrix
-  - note
-  - policy
-  - routing
-  - routing_policy.md
-  - rscf
-  - placeholder_expanded
+- 10_routing
+- 25_cognitive_matrix
+- amos_os
+- canon/cognitive-matrix
+- canon/universe
+- cognitive_matrix
+- note
+- policy
+- routing
+- routing_policy.md
+- rscf
+- placeholder_expanded
+- validation
+- policy-decision
+- readme
+- authoritative-state
+- binding-rules
+- routing-audit
+- mode-registry
+- authority-registry
+- promotion-gates
+- fractal-knowledge-network
+- mvcc-cas
+- proof-based-coordination-avoidance
+- skill
+- generator-contract
+- 25-cognitive-matrix-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -42,7 +57,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 # ROUTING POLICY
 

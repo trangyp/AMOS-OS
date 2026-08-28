@@ -1,122 +1,128 @@
 ---
-title: "UBA Model"
+title: UBA Model
 aliases:
-  - "UBA"
-  - "UBA MODEL"
-  - "UBA Foundation Model"
-
+- UBA
+- UBA MODEL
+- UBA Foundation Model
 type: model
-source: "13_MODELS/01_FOUNDATION"
-artifact: "UBA_MODEL.md"
-artifact_id: "13_models_01_foundation_uba_model"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-
-plane: "13_MODELS"
-segment: "13_MODELS/01_FOUNDATION"
-artifact_kind: "MODEL"
-path: "13_MODELS/01_FOUNDATION/UBA_MODEL.md"
-
-version: "0.3.0"
-previous_version: "0.2.0"
-updated: "2026-08-28"
-
-status: "PLACEHOLDER_EXPANDED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "UNKNOWN/GAP"
-implementation_status: "NOT_ESTABLISHED"
-validation_status: "NOT_ESTABLISHED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-
+source: 13_MODELS/01_FOUNDATION
+artifact: UBA_MODEL.md
+artifact_id: 13_models_01_foundation_uba_model
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 13_MODELS
+segment: 13_MODELS/01_FOUNDATION
+artifact_kind: MODEL
+path: 13_MODELS/01_FOUNDATION/UBA_MODEL.md
+version: 0.3.0
+previous_version: 0.2.0
+updated: '2026-08-28'
+status: PLACEHOLDER_EXPANDED
+epistemic_class: AMOS_MODEL
+canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 source_resolution:
-  uba_native_definition: "NOT_FOUND_IN_AVAILABLE_CORPUS"
-  uba_acronym_expansion: "UNKNOWN/GAP"
-  uba_native_equations: "UNKNOWN/GAP"
-  uba_native_laws: "UNKNOWN/GAP"
-  uba_native_schema: "UNKNOWN/GAP"
-  uba_native_runtime: "UNKNOWN/GAP"
-  uba_empirical_validation: "NOT_ESTABLISHED"
-  action: "PRESERVE_PLACEHOLDER_AND_DO_NOT_INVENT"
-
+  uba_native_definition: NOT_FOUND_IN_AVAILABLE_CORPUS
+  uba_acronym_expansion: UNKNOWN/GAP
+  uba_native_equations: UNKNOWN/GAP
+  uba_native_laws: UNKNOWN/GAP
+  uba_native_schema: UNKNOWN/GAP
+  uba_native_runtime: UNKNOWN/GAP
+  uba_empirical_validation: NOT_ESTABLISHED
+  action: PRESERVE_PLACEHOLDER_AND_DO_NOT_INVENT
 tags:
-  - amos_os
-  - amos
-  - trang
-  - trang_phan
-  - uba
-  - uba_model
-  - foundation
-  - foundation_model
-  - 01_foundation
-  - 13_models
-  - model
-  - specification
-  - architecture
-  - canon/model
-  - canon/universe
-  - canon_placeholder
-  - placeholder
-  - placeholder_expanded
-  - source_claim
-  - amos_model
-  - rscf
-  - provenance
-  - provenance_topology
-  - provenance_independence
-  - epistemic_regime
-  - epistemic_class
-  - scope
-  - regime
-  - freshness
-  - confidence_ceiling
-  - falsifier
-  - sensitivity
-  - competing_hypotheses
-  - causal_firewall
-  - scope_firewall
-  - regime_firewall
-  - scale_firewall
-  - temporal_firewall
-  - model_observation_firewall
-  - fail_closed
-  - unknown_gap
-  - add_only
-  - canon_ingestion
-  - native_canon_required
-  - promotion_gate
-  - validation
-  - validation_receipt
-  - dependency_closure
-  - selective_invalidation
-  - rollback
-  - rollback_basin
-  - authority
-  - authorization
-  - capability
-  - proposal
-  - commit
-  - state_version
-  - causal_epoch
-  - policy_epoch
-  - provenance_epoch
-  - HML
-  - fractal_runtime
-  - atomic_reasoning
-  - proof_capsule
-  - integrity
-  - anti_fabrication
-  - heritage_preservation
-  - source_lineage
-  - source_resolution
-  - gap_registry
-  - canon_candidate
-  - model_registry
-  - models_plane
-  - uba_model.md
-
+- amos_os
+- amos
+- trang
+- trang_phan
+- uba
+- uba_model
+- foundation
+- foundation_model
+- 01_foundation
+- 13_models
+- model
+- specification
+- architecture
+- canon/model
+- canon/universe
+- canon_placeholder
+- placeholder
+- placeholder_expanded
+- source_claim
+- amos_model
+- rscf
+- provenance
+- provenance_topology
+- provenance_independence
+- epistemic_regime
+- epistemic_class
+- scope
+- regime
+- freshness
+- confidence_ceiling
+- falsifier
+- sensitivity
+- competing_hypotheses
+- causal_firewall
+- scope_firewall
+- regime_firewall
+- scale_firewall
+- temporal_firewall
+- model_observation_firewall
+- fail_closed
+- unknown_gap
+- add_only
+- canon_ingestion
+- native_canon_required
+- promotion_gate
+- validation
+- validation_receipt
+- dependency_closure
+- selective_invalidation
+- rollback
+- rollback_basin
+- authority
+- authorization
+- capability
+- proposal
+- commit
+- state_version
+- causal_epoch
+- policy_epoch
+- provenance_epoch
+- HML
+- fractal_runtime
+- atomic_reasoning
+- proof_capsule
+- integrity
+- anti_fabrication
+- heritage_preservation
+- source_lineage
+- source_resolution
+- gap_registry
+- canon_candidate
+- model_registry
+- models_plane
+- uba_model.md
+- readme
+- 00-home
+- amos-rscf-nodes
+- 13-models-moc
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-mocmd
+- model-map
+- 01-foundation-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
@@ -127,20 +133,19 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
   substantive_uba_semantics: UNKNOWN/GAP
-
 gaps:
-  acronym_expansion: "UNKNOWN/GAP"
-  native_definition: "UNKNOWN/GAP"
-  native_framework_source: "UNKNOWN/GAP"
-  native_laws: "UNKNOWN/GAP"
-  native_equations: "UNKNOWN/GAP"
-  native_schema: "UNKNOWN/GAP"
-  canonical_status: "UNKNOWN/GAP"
-  implementation: "NOT_ESTABLISHED"
-  validation: "NOT_ESTABLISHED"
-  executable_binding: "NOT_ESTABLISHED"
-  empirical_validation: "NOT_ESTABLISHED"
-  artifact_specific_validation_receipt: "NOT_ESTABLISHED"
+  acronym_expansion: UNKNOWN/GAP
+  native_definition: UNKNOWN/GAP
+  native_framework_source: UNKNOWN/GAP
+  native_laws: UNKNOWN/GAP
+  native_equations: UNKNOWN/GAP
+  native_schema: UNKNOWN/GAP
+  canonical_status: UNKNOWN/GAP
+  implementation: NOT_ESTABLISHED
+  validation: NOT_ESTABLISHED
+  executable_binding: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  artifact_specific_validation_receipt: NOT_ESTABLISHED
 ---
 
 > [!note] Source resolution

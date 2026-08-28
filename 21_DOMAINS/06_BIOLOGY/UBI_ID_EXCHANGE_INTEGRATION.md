@@ -12,17 +12,22 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_INTEGRATION
 path: 21_DOMAINS/06_BIOLOGY/UBI_ID_EXCHANGE_INTEGRATION.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 06_biology
-  - ubi_id_exchange_integration
-  - sovereign_identity
-  - biological_attestation
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 06_biology
+- ubi_id_exchange_integration
+- sovereign_identity
+- biological_attestation
+- rscf
+- canon_candidate
+- canon/domain
+- id-exchange
+- ubi-id-exchange-binding
+- consentx
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_ID_EXCHANGE_BINDING
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_BIOLOGY
-    - ID_EXCHANGE_INTEGRATION
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_BIOLOGY
+  - ID_EXCHANGE_INTEGRATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   id_exchange_framework:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/ID_EXCHANGE

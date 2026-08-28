@@ -6,13 +6,21 @@ tags:
 - moc
 - 05-memory
 - canon/kernel
+- kernel-memory-contract
+- k-context-compaction
+- k-memory-admission
+- k-memory-conflict
+- k-memory-immune
+- k-memory-retrieval
+- memory-kernel-readme
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Memory — Map of Content
 

@@ -6,13 +6,30 @@ tags:
 - moc
 - l21-learning
 - canon/cognitive-matrix
+- cognitive-matrix-l21-learning-contract
+- 00-index-moc
+- 01-primitives-moc
+- l21-learning-primitives-cognitive-matrix-agents
+- l21-learning-primitives-cognitive-matrix-equations
+- l21-learning-primitives-cognitive-matrix-hml
+- l21-learning-primitives-cognitive-matrix-memory
+- l21-learning-primitives-cognitive-matrix-operators
+- l21-learning-primitives-cognitive-matrix-protocols
+- l21-learning-primitives-cognitive-matrix-purpose
+- l21-learning-primitives-cognitive-matrix-readme
+- l21-learning-primitives-cognitive-matrix-repair
+- l21-learning-primitives-cognitive-matrix-rscf
+- l21-learning-primitives-cognitive-matrix-skills
+- l21-learning-primitives-cognitive-matrix-state
+- l21-learning-primitives-cognitive-matrix-tests
+- l21-learning-primitives-cognitive-matrix-variables
+- l21-learning-primitives-cognitive-matrix-workflows
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L21 Learning — Map of Content
 

@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-transaction-banking-diagnostic-
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Transaction-Banking-Diagnostic-Rscf — Map of Content
 

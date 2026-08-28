@@ -25,7 +25,8 @@ runtime_state: NON_DESTRUCTIVE_TRACE_ONLY
 financial_authority_state: NONE_IMPLEMENTED
 topic: investment-agent
 aliases:
-- Investment Agent - AMOS Investment Agent - Money System Investment Agent - Governed Investme
+- Investment Agent - AMOS Investment Agent - Money System Investment Agent - Governed
+  Investme
 tags:
 - agents
 - knowledge
@@ -40,6 +41,15 @@ tags:
 - topic/investment-analysis
 - topic/portfolio
 - topic/financial-governance
+- architecture
+- memory
+- skill
+- validation
+- 00-home
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- knowledge-moc
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -47,8 +57,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
-
 
 # AMOS Investment Agent
 ## Governed Money-System Component

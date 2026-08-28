@@ -6,13 +6,17 @@ tags:
 - moc
 - l23-metacognition
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l23-metacognition-contract
+- l23-metacognition-primitives-cognitive-matrix-hml
+- l23-metacognition-primitives-cognitive-matrix-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L23 Metacognition — Map of Content
 

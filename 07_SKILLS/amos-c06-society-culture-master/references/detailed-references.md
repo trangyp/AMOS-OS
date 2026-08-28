@@ -7,6 +7,8 @@ tags:
 - references
 - detailed
 - references.md
+- references-moc
+- 00-home
 ---
 
 ## Provenance
@@ -241,3 +243,7 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 - To claim empirical validation of civilizational survival laws
 - As a substitute for domain-specific historical or anthropological evidence
 - Outside society/culture domain reasoning
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

@@ -6,8 +6,15 @@ tags:
 - board
 - runtime
 - methods
+- kernel-moc
+- 00-home
+- 2026-08-22-amos-go-board-19x19-runtime-methods
 ---
 
 # 2026 08 22 amos go board 19x19 runtime methods
 
 Stub note for [[2026_08_22_amos_go_board_19x19_runtime_methods]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

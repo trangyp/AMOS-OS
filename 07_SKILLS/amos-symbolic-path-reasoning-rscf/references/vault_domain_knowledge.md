@@ -6,13 +6,20 @@ tags:
 - reference
 - amos-symbolic-path-reasoning-rscf
 - canon/skill
+- cosmo-brain-moc
+- references-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 2026-08-22-cognitive-substrate-reality-gate
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Vault-Sourced Domain Knowledge
 

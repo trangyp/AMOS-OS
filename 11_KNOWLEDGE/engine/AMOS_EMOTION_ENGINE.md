@@ -14,6 +14,7 @@ tags:
 - rscf/state/observation
 - topic/amos-emotion-engine-v0
 - engine
+- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS EMOTION ENGINE V0 CORE7
 
 ```json

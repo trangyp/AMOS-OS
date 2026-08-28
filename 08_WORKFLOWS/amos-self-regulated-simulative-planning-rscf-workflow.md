@@ -15,6 +15,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -45,7 +46,6 @@ law_compliance:
 - L18
 domain: rscf
 ---
-
 
 # Workflow: Self Regulated Simulative Planning Rscf
 

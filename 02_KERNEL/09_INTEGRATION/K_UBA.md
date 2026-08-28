@@ -12,19 +12,31 @@ segment: 02_KERNEL/09_INTEGRATION
 artifact_kind: NOTE
 path: 02_KERNEL/09_INTEGRATION/K_UBA.md
 tags:
-  - 02_kernel
-  - 09_integration
-  - amos_os
-  - artifact
-  - canon/kernel
-  - canon/universe
-  - canon_placeholder
-  - core
-  - k_uba.md
-  - kernel
-  - note
-  - rscf
-  - placeholder_expanded
+- 02_kernel
+- 09_integration
+- amos_os
+- artifact
+- canon/kernel
+- canon/universe
+- canon_placeholder
+- core
+- k_uba.md
+- kernel
+- note
+- rscf
+- placeholder_expanded
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 09-integration-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -43,7 +55,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

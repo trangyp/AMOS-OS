@@ -4,7 +4,10 @@ title: SKILL — Amos Context Continuity Governor
 type: skill
 source: 07_SKILLS/amos-context-continuity-governor
 name: amos-context-continuity-governor
-description: Context Continuity Governor — boundary and scope capability. Use when evaluating scope boundaries, context continuity, or capability bounds. Use when amos-boundary-scope-master routes to this specialized capability. Do not use for generic tasks outside boundary domain.
+description: Context Continuity Governor — boundary and scope capability. Use when
+  evaluating scope boundaries, context continuity, or capability bounds. Use when
+  amos-boundary-scope-master routes to this specialized capability. Do not use for
+  generic tasks outside boundary domain.
 parent_skill: amos-boundary-scope-master
 domain: boundary
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-context-continuity-governor-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

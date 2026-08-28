@@ -6,13 +6,16 @@ tags:
 - moc
 - 18-security
 - canon/security
+- security-readme
+- security-security-contract
+- 00-index-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 18 Security — Map of Content
 

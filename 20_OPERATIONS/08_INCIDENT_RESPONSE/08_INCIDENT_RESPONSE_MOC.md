@@ -6,13 +6,14 @@ tags:
 - moc
 - 08-incident-response
 - canon/operations
+- incident-response-operations-readme
+- 20-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 08 Incident Response — Map of Content
 

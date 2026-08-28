@@ -1,29 +1,44 @@
 ---
-title: "L26 PROOF COORDINATION"
+title: L26 PROOF COORDINATION
 aliases:
-  - "L26 Proof Coordination"
-  - "L26 Proof Coordination Laws"
-  - "Proof Coordination Laws"
-  - "PXC"
+- L26 Proof Coordination
+- L26 Proof Coordination Laws
+- Proof Coordination Laws
+- PXC
 type: proof
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - proof
-  - proof_coordination
-  - compositional_proof
-  - proof_home
-  - independence
-  - provenance
-  - verification
-  - validators
-  - replayability
-  - atomic_reasoning
-  - coordination
-  - note
-  - canon/universe
-
+- canon
+- core_laws
+- proof
+- proof_coordination
+- compositional_proof
+- proof_home
+- independence
+- provenance
+- verification
+- validators
+- replayability
+- atomic_reasoning
+- coordination
+- note
+- canon/universe
+- references
+- readme
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- l19-proof-capsule
+- l22-replayability
+- l23-mvcc-cas
+- l24-causal-epoch
+- l25-shard-local
+- atomic-multi-rscf
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- l26-proof-coordination
+- 00-root-moc
+- amos-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

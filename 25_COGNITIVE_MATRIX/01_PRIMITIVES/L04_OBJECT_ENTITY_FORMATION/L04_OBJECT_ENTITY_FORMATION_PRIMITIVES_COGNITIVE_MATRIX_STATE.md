@@ -15,13 +15,18 @@ tags:
 - l04_object_entity_formation
 - note
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l04-object-entity-formation-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L04_OBJECT_ENTITY_FORMATION — State
 

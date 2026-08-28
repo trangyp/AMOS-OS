@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 97_allocation_resource_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 97-allocation-resource-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # ALLOCATION RESOURCE MODES COMMIT CONTROL PLANE MODE FAMILY REGISTRY
 

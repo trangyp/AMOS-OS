@@ -6,13 +6,14 @@ tags:
 - note
 - amos-formal-engines-master
 - canon/skill
+- skill
+- amos-formal-engines-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-formal-engines-master
 

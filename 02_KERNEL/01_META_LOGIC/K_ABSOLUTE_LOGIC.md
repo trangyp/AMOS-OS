@@ -1,11 +1,11 @@
 ---
 title: Kernel · Absolute Logic
 aliases:
-  - K Absolute Logic
-  - AMOS Absolute Logic
-  - AMOS Kernel Absolute Logic
-  - Absolute Logic Kernel
-  - Meta Logic · Absolute Logic
+- K Absolute Logic
+- AMOS Absolute Logic
+- AMOS Kernel Absolute Logic
+- Absolute Logic Kernel
+- Meta Logic · Absolute Logic
 type: logic
 document_type: kernel-logic-artifact
 source: 02_KERNEL/01_META_LOGIC
@@ -21,36 +21,47 @@ segment_role: meta-logic
 artifact_kind: LOG
 path: 02_KERNEL/01_META_LOGIC/K_ABSOLUTE_LOGIC.md
 tags:
-  - amos_os
-  - amos-general
-  - kernel
-  - core
-  - logic
-  - meta_logic
-  - absolute_logic
-  - 02_kernel
-  - 01_meta_logic
-  - log
-  - canon_placeholder
-  - canon/kernel
-  - canon/meta-logic
-  - rscf
-  - rscf/node
-  - rscf/claim
-  - rscf/provenance
-  - rscf/state/derived
-  - provenance
-  - governance
-  - integrity
-  - scope
-  - regime
-  - authority
-  - transactions
-  - validation
-  - rollback
-  - repair
-  - uncertainty
-  - epistemic-discipline
+- amos_os
+- amos-general
+- kernel
+- core
+- logic
+- meta_logic
+- absolute_logic
+- 02_kernel
+- 01_meta_logic
+- log
+- canon_placeholder
+- canon/kernel
+- canon/meta-logic
+- rscf
+- rscf/node
+- rscf/claim
+- rscf/provenance
+- rscf/state/derived
+- provenance
+- governance
+- integrity
+- scope
+- regime
+- authority
+- transactions
+- validation
+- rollback
+- repair
+- uncertainty
+- epistemic-discipline
+- law-hierarchy
+- amos-rscf-nodes
+- 00-home
+- readme
+- observability-readme
+- operations-readme
+- kernel-readme
+- control-plane-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 01-meta-logic-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
@@ -67,11 +78,11 @@ ingestion_action: ADD_ONLY
 overwrite_policy: NEVER_OVERWRITE_EXISTING_CANON
 promotion_status: BLOCKED_PENDING_NATIVE_CANON
 integrity_priority:
-  - integrity
-  - completeness
-  - fluency
-  - speed
-  - token_savings
+- integrity
+- completeness
+- fluency
+- speed
+- token_savings
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -82,22 +93,22 @@ rscf:
   freshness: 2026-08-27
   confidence_ceiling: UNKNOWN/GAP for substantive Absolute Logic canon
   dependencies:
-    - LAW_HIERARCHY
-    - KERNEL_README
-    - AMOS_RSCF_NODES
+  - - - LAW_HIERARCHY
+  - KERNEL_README
+  - - - AMOS_RSCF_NODES
   competing_hypotheses: []
   falsifiers:
-    - verified native canon contradicts placeholder assumptions
-    - canonical registry assigns this identity to a different artifact
-    - lineage establishes another artifact as canonical predecessor/successor
-    - runtime implementation contradicts documented target contract
+  - verified native canon contradicts placeholder assumptions
+  - canonical registry assigns this identity to a different artifact
+  - lineage establishes another artifact as canonical predecessor/successor
+  - runtime implementation contradicts documented target contract
   promotion_requires:
-    - native_canon_source
-    - provenance_binding
-    - typed_schema
-    - validation_receipt
-    - dependency_resolution
-    - canonical_precedence_resolution
+  - native_canon_source
+  - provenance_binding
+  - typed_schema
+  - validation_receipt
+  - dependency_resolution
+  - canonical_precedence_resolution
 governance:
   fail_closed_on_unknown: true
   capability_is_authority: false
@@ -108,20 +119,19 @@ governance:
   rollback_required_for_consequential_mutation: true
 relations:
   indexed_by:
-    - 00_HOME
-    - AMOS_RSCF_NODES
+  - - - 00_HOME
+  - - - AMOS_RSCF_NODES
   governed_by:
-    - LAW_HIERARCHY
+  - - - LAW_HIERARCHY
   kernel_binding:
-    - KERNEL_README
+  - KERNEL_README
   control_binding:
-    - CONTROL_PLANE_README
+  - CONTROL_PLANE_README
   observed_by:
-    - OBSERVABILITY_README
+  - OBSERVABILITY_README
   recovery_binding:
-    - OPERATIONS_README
+  - OPERATIONS_README
 ---
-
 
 # Kernel · Absolute Logic
 

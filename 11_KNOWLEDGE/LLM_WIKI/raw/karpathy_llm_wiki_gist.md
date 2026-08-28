@@ -6,13 +6,15 @@ tags:
 - raw
 - source
 - llm-wiki
+- karpathy-llm-wiki-summary
+- llm-wiki-raw-readme
+- llm-wiki-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: https://gist.github.com/karpathy/442a6bf555914893e9891c11519de94f
   scope: AMOS_knowledge
 ---
-
 
 # Karpathy LLM Wiki Gist (Raw)
 

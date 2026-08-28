@@ -1,7 +1,13 @@
 ---
 schema_version: 1.0
 name: amos-c05-mind-behavior-master
-description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics, cognitive/motivational structure. Use when psychological analysis, behavioral reasoning, emotion modeling, personality profiling, or group dynamics. Use whenever the user mentions emotion, mood, personality, behavior, motivation, habits, social dynamics, group climate, or mind modeling — even without explicitly asking for 'C05'. Do not use for generic tasks outside c05 domain.
+description: AMOS C05 Mind & Behavior — emotion (5-axis Emotion Law v0), personality
+  (Personality Engine v0), behavior (Behavior Engine v0), motivation, group dynamics,
+  cognitive/motivational structure. Use when psychological analysis, behavioral reasoning,
+  emotion modeling, personality profiling, or group dynamics. Use whenever the user
+  mentions emotion, mood, personality, behavior, motivation, habits, social dynamics,
+  group climate, or mind modeling — even without explicitly asking for 'C05'. Do not
+  use for generic tasks outside c05 domain.
 parent_skill: none
 domain: c05
 origin_architect: Trang Phan
@@ -38,6 +44,8 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- references-moc
+- 00-home
 rscf:
   state: SOURCE_CLAIM
   claim_class: MODEL
@@ -256,3 +264,7 @@ C05 is **not** a mind reader and **not** a clinician. It never converts a model 
 - **Vault source**: `11_KNOWLEDGE/AMOS_C05_MIND_BEHAVIOR_MASTER_KNOWLEDGE.md`
 - **Origin architect**: Trang Phan
 - **H-level owners**: H1 Emotion Law, H2 Personality Engine, H3 Behavior Engine, H4 Mind-Behavior Bridge, H5 Cognitive/Motivational Structure (F1-F7), H6 Social/Change Dynamics (F8-F12), H7 Group Dynamics, H8 Micro-State Spectrum & UEE, H9 AMOS/Trang Research Bridge
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

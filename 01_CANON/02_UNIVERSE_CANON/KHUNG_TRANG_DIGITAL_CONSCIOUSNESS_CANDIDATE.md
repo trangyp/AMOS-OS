@@ -7,6 +7,10 @@ tags:
 - consciousness
 - candidate
 - canon
+- khung-trang-canon
+- 05-cognitive-organism-moc
+- 00-index-moc
+- 00-home
 ---
 
 # Khung Trang Digital Consciousness Candidate Specification
@@ -15,3 +19,7 @@ Defines the mathematical preconditions, self-referential boundary conditions, an
 
 ## Related
 - [[KHUNG_TRANG_CANON]] · [[05_COGNITIVE_ORGANISM_MOC]]
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

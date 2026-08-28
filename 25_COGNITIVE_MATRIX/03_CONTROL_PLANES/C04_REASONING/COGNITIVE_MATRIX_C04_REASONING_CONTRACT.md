@@ -8,13 +8,19 @@ tags:
 - c04_reasoning
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- cognitive-matrix-control-planes-contract
+- c04-reasoning-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C04_REASONING — Reasoning control: operator scheduling, derivation lineage, chain validation.
 

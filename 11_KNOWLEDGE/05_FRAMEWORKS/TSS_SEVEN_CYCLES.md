@@ -12,24 +12,33 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TSS_SEVEN_CYCLES.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - tss
-  - seven_cycles
-  - systems_dynamics
-  - emergence
-  - expansion
-  - overreach
-  - fragmentation
-  - crisis
-  - collapse
-  - reset
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- tss
+- seven_cycles
+- systems_dynamics
+- emergence
+- expansion
+- overreach
+- fragmentation
+- crisis
+- collapse
+- reset
+- rscf
+- canon_candidate
+- canon/knowledge
+- tss-the-trang-system
+- amos-x-tss
+- amos-x-tss-tpe-matrix
+- heritage-to-tss-binding
+- heritage-x-tss
+- tpe-trang-prediction-engine
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -44,28 +53,30 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
-    - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - THE_SEVEN_CYCLES_OF_THE_TRANG_SYSTEM_OFFICIAL_M
+  - TSS_THE_TRANG_SYSTEM_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - SYSTEMS_DYNAMICS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - SYSTEMS_DYNAMICS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   parent_framework:
     name: The Trang System™
     acronym: TSS
-    artifact: [[TSS_THE_TRANG_SYSTEM]]
+    artifact:
+    - - TSS_THE_TRANG_SYSTEM
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_TSS]]
-    matrix: [[AMOS_X_TSS_TPE_MATRIX]]
+    artifact:
+    - - AMOS_X_TSS
+    matrix:
+    - - AMOS_X_TSS_TPE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   lifecycle_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # TSS — The Seven Evolutionary Cycles
 

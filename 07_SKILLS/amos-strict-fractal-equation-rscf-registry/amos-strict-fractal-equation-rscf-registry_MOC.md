@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-strict-fractal-equation-rscf-regist
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Strict-Fractal-Equation-Rscf-Registry — Map of Content
 

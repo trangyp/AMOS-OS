@@ -4,7 +4,10 @@ title: SKILL — Amos Universal Coordinate Rscf Engine
 type: skill
 source: 07_SKILLS/amos-universal-coordinate-rscf-engine
 name: amos-universal-coordinate-rscf-engine
-description: Universal Coordinate — RSCF epistemic capability. Use when classifying claims by epistemic state, validating outputs against epistemic and scope constraints, or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this speci. Do not use for generic tasks outside rscf domain.
+description: Universal Coordinate — RSCF epistemic capability. Use when classifying
+  claims by epistemic state, validating outputs against epistemic and scope constraints,
+  or analyzing evidence structure. Use when amos-rscf-epistemic-master routes to this
+  speci. Do not use for generic tasks outside rscf domain.
 parent_skill: amos-rscf-epistemic-master
 domain: rscf
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-universal-coordinate-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

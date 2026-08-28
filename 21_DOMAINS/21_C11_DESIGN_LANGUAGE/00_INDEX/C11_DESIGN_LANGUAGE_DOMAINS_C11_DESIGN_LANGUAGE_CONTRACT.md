@@ -6,13 +6,20 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- index-c11-design-language-domains-readme
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # C11 DESIGN LANGUAGE DOMAINS C11 DESIGN LANGUAGE CONTRACT
 

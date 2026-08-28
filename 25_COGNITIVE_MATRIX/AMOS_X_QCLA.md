@@ -12,27 +12,38 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_QCLA.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - matrix
-  - 25_cognitive_matrix
-  - artifact
-  - qcla
-  - quantum_chemical_logic_architecture
-  - molecular_logic
-  - quantum_chemical
-  - coherence
-  - molecular_computation
-  - qclu
-  - coherence_hamiltonian
-  - physics
-  - chemistry
-  - computation
-  - biology
-  - deterministic_logic
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- artifact
+- qcla
+- quantum_chemical_logic_architecture
+- molecular_logic
+- quantum_chemical
+- coherence
+- molecular_computation
+- qclu
+- coherence_hamiltonian
+- physics
+- chemistry
+- computation
+- biology
+- deterministic_logic
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- 25-cognitive-matrix-moc
+- law-hierarchy
+- quantum-chemical-logic-architecture-qcla
+- quantum-moc
+- amos-quantum-stack-v0-core
+- ubi
+- neurosyncai
+- quantum-causality-layer-architecture-qcla-off
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -68,7 +79,6 @@ epistemic_boundary:
   biological_claims: NOT_ESTABLISHED
   universal_claims: NOT_ESTABLISHED
 ---
-
 
 # AMOS × QCLA
 

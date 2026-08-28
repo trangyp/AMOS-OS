@@ -4,7 +4,10 @@ title: SKILL — Amos Memory Systems Master
 type: skill
 source: 07_SKILLS/amos-memory-systems-master
 name: amos-memory-systems-master
-description: AMOS Memory Systems — 3 memory types, context compaction, memory conflict resolution, memory immune system, action-memory firewall. Use when memory management, context continuity, or memory conflict. Do not use for generic tasks outside memory domain.
+description: AMOS Memory Systems — 3 memory types, context compaction, memory conflict
+  resolution, memory immune system, action-memory firewall. Use when memory management,
+  context continuity, or memory conflict. Do not use for generic tasks outside memory
+  domain.
 parent_skill: none
 domain: memory
 origin_architect: Trang Phan
@@ -17,6 +20,23 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos_os
+- memory
+- readme
+- memory-memory-contract
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- agent-template
+- amos-memory-systems-master-moc
+- 00-home
+- amos-rscf-nodes
+- 07-skills-moc
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

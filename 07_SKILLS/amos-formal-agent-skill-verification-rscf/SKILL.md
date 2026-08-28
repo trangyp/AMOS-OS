@@ -4,7 +4,10 @@ title: SKILL — Amos Formal Agent Skill Verification Rscf
 type: skill
 source: 07_SKILLS/amos-formal-agent-skill-verification-rscf
 name: amos-formal-agent-skill-verification-rscf
-description: Formal Agent Skill Verification — audit and repair capability. Use when auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master routes to this specialized capability. Do not use for generic tasks outside audit domain.
+description: Formal Agent Skill Verification — audit and repair capability. Use when
+  auditing, failure analysis, gap discovery, or repair allocation. Use when amos-audit-repair-master
+  routes to this specialized capability. Do not use for generic tasks outside audit
+  domain.
 parent_skill: amos-audit-repair-master
 domain: audit
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-formal-agent-skill-verification-rscf-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

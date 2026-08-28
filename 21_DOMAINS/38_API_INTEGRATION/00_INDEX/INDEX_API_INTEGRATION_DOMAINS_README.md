@@ -6,13 +6,28 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- integration
+- readme
+- api-integration-map
+- 00-home
+- amos-rscf-nodes
+- api-integration-domains-api-integration-contract
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # INDEX API [[INTEGRATION]] DOMAINS [[README]]
 

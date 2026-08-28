@@ -6,13 +6,20 @@ tags:
 - note
 - l17-decision
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- l17-decision-moc
+- l16-planning-primitives-cognitive-matrix-readme
+- l14-valuation-primitives-cognitive-matrix-readme
+- l18-action-primitives-cognitive-matrix-readme
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L17 — Dependencies
 

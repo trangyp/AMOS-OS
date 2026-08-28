@@ -6,13 +6,17 @@ tags:
 - moc
 - 01-roles
 - canon/operating-model
+- operating-model-roles-contract
+- roles-operating-model-readme
+- role-registry
+- 00-index-moc
+- 23-operating-model-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Roles — Map of Content
 

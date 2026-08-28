@@ -12,17 +12,22 @@ segment: 04_RUNTIME/02_ROUTER
 artifact_kind: ROUTER_SPEC
 path: 04_RUNTIME/02_ROUTER/HML_ROUTER.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 02_router
-  - hml_router
-  - high_mid_low
-  - progressive_disclosure
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 02_router
+- hml_router
+- high_mid_low
+- progressive_disclosure
+- rscf
+- canon_candidate
+- canon/runtime
+- 02-router-moc
+- knowledge-moc
+- 25-cognitive-matrix-moc
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
-    - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
-    - AMOS_CORPUS
+  - 04_RUNTIME/02_ROUTER/02_ROUTER_MOC
+  - 11_KNOWLEDGE/11_KNOWLEDGE_MOC
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_ROUTER
-    - HML_ROUTING
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_ROUTER
+  - HML_ROUTING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   router_moc:
     artifact: 04_RUNTIME/02_ROUTER/02_ROUTER_MOC

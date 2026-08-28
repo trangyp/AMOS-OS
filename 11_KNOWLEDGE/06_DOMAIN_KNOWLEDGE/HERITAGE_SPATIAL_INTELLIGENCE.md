@@ -12,18 +12,22 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/HERITAGE_SPATIAL_INTELLIGENCE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 06_domain_knowledge
-  - heritage_spatial_intelligence
-  - spatial_resilience
-  - polycentric_topography
-  - environmental_adaptation
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 06_domain_knowledge
+- heritage_spatial_intelligence
+- spatial_resilience
+- polycentric_topography
+- environmental_adaptation
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- 00-home
+- knowledge-moc
+- 06-domain-knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,25 +42,24 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_KNOWLEDGE
-    - SPATIAL_INTELLIGENCE
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_KNOWLEDGE
+  - SPATIAL_INTELLIGENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master_framework:
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   framework_counterpart:
-    artifact: '11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_SPATIAL_INTELLIGENCE'
+    artifact: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_SPATIAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
   spatial_models: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # Heritage Spatial Intelligence — Domain Knowledge
 

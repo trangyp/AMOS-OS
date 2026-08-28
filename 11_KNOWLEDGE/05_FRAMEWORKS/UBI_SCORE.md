@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: METRIC
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_SCORE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_score
-  - biological_scoring
-  - alignment_metric
-  - non_compensatory_score
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_score
+- biological_scoring
+- alignment_metric
+- non_compensatory_score
+- rscf
+- canon_candidate
+- canon/knowledge
+- ubi-score-framework
+- unified-biological-intelligence
+- amos-ubi-super-engine
+- amos-x-ubi
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,25 +45,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_SCORE_FRAMEWORK
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBI_SCORE_FRAMEWORK
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_METRICS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_METRICS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   score_framework:
-    artifact: [[UBI_SCORE_FRAMEWORK]]
+    artifact:
+    - - UBI_SCORE_FRAMEWORK
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   score_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI Score — Non-Compensatory Alignment Metric
 

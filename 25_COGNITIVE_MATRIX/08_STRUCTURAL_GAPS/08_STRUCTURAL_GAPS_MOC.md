@@ -6,13 +6,19 @@ tags:
 - moc
 - 08-structural-gaps
 - canon/cognitive-matrix
+- gap-priority
+- gap-promotion
+- gap-registry
+- structural-gaps-cognitive-matrix-readme
+- 00-index-moc
+- cognitive-matrix-structural-gaps-contract
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 08 Structural Gaps — Map of Content
 

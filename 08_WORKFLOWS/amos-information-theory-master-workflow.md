@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-information-theory-master
 Agent: amos-information-theory-agent
-Trigger: AMOS Information Theory — entropy, complexity, information boundaries, information collapse topology,
-  exposure control. Use for information-theoretic analysis, entropy reasoning, or complexity meas
+Trigger: AMOS Information Theory — entropy, complexity, information boundaries, information
+  collapse topology, exposure control. Use for information-theoretic analysis, entropy
+  reasoning, or complexity meas
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: information
 ---
-
 
 # Workflow: AMOS Information Theory Master
 

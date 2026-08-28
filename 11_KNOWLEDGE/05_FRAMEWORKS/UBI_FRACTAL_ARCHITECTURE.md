@@ -12,19 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/UBI_FRACTAL_ARCHITECTURE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - ubi_fractal_architecture
-  - ubi
-  - fractal_biology
-  - entropy_correction
-  - living_systems
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- ubi_fractal_architecture
+- ubi
+- fractal_biology
+- entropy_correction
+- living_systems
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- frai-fractal-reasoning-ai
+- ubi-neurobiological-intelligence
+- 00-home
+- knowledge-moc
+- ubi-fractal-architecture-entropy-correction
+- 05-frameworks-moc
+- heritage-fractal-mathematics
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,28 +47,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_FRACTAL_ARCHITECTURE_ENTROPY_CORRECTION
-    - UBI_OFFICIAL_MANUAL
-    - AMOS_CORPUS
+  - UBI_FRACTAL_ARCHITECTURE_ENTROPY_CORRECTION
+  - UBI_OFFICIAL_MANUAL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRACTAL_BIOLOGY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FRACTAL_BIOLOGY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: UBI Fractal Architecture & Entropy Correction
     role: FRACTAL_BIOLOGICAL_STRUCTURE_AND_ENTROPY_REGULATION
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   fractal_reasoning:
-    artifact: [[FRAI_FRACTAL_REASONING_AI]]
+    artifact:
+    - - FRAI_FRACTAL_REASONING_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   biological_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # UBI Fractal Architecture & Entropy Correction
 

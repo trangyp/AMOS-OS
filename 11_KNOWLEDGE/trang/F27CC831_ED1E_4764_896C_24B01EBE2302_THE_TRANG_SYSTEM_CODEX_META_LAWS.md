@@ -8,6 +8,13 @@ tags:
 - rscf/state/observation
 - topic/f27cc831-ed1e-4764-896c-24b01ebe2302-the
 - trang
+- architecture
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- trang-moc
 type: note
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -16,7 +23,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # F27CC831 ED1E 4764 896C 24B01EBE2302 THE TRANG SYSTEM CODEX META LAWS
 

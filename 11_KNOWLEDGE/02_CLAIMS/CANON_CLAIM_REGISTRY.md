@@ -12,17 +12,20 @@ segment: 11_KNOWLEDGE/02_CLAIMS
 artifact_kind: REGISTRY
 path: 11_KNOWLEDGE/02_CLAIMS/CANON_CLAIM_REGISTRY.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 02_claims
-  - canon_claim_registry
-  - epistemic_claims
-  - claim_verification
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 02_claims
+- canon_claim_registry
+- epistemic_claims
+- claim_verification
+- rscf
+- canon_candidate
+- canon/knowledge
+- 02-claims-moc
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,27 +40,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-    - AMOS_CORPUS
+  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_CLAIMS
-    - CANON_CLAIMS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_CLAIMS
+  - CANON_CLAIMS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   claims_moc:
-    artifact: [[02_CLAIMS_MOC]]
+    artifact:
+    - - 02_CLAIMS_MOC
   rscf_index:
-    artifact: '11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX'
+    artifact: 11_KNOWLEDGE/03_RSCF/CANON_RSCF_INDEX
   core_laws:
-    artifact: '01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC'
+    artifact: 01_CANON/01_CORE_LAWS/01_CORE_LAWS_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   registry_structure: VERIFIED_SOURCE_STRUCTURE
   claim_catalog: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # Canon Claim Registry
 

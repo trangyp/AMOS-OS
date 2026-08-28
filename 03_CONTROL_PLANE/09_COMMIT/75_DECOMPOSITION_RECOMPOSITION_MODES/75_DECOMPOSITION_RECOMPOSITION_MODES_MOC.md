@@ -6,13 +6,13 @@ tags:
 - moc
 - 75-decomposition-recomposition-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 75 Decomposition Recomposition Modes — Map of Content
 

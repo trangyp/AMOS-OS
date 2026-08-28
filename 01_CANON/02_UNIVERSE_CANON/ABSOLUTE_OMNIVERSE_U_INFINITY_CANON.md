@@ -12,17 +12,29 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON
 path: 01_CANON/02_UNIVERSE_CANON/ABSOLUTE_OMNIVERSE_U_INFINITY_CANON.md
 native_source_candidate:
-  - ABSOLUTE OMNIVERSE U∞.txt
+- ABSOLUTE OMNIVERSE U∞.txt
 tags:
-  - amos_os
-  - canon
-  - universe
-  - absolute_omniverse
-  - u_infinity
-  - 01_canon
-  - rscf
-  - provenance
-  - canon/universe
+- amos_os
+- canon
+- universe
+- absolute_omniverse
+- u_infinity
+- 01_canon
+- rscf
+- provenance
+- canon/universe
+- architecture
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- validation
 version: 0.1.0
 updated: '2026-08-27'
 status: SOURCE_IDENTIFIED_CONTENT_PENDING
@@ -37,8 +49,8 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-    - "ABSOLUTE OMNIVERSE U∞.txt"
-    - "AMOS_corpus"
+  - ABSOLUTE OMNIVERSE U∞.txt
+  - AMOS_corpus
   scope: universe_canon
   confidence_ceiling: SOURCE_CLAIM
 integrity:
@@ -51,7 +63,6 @@ integrity:
   capability_is_authority: false
   proposal_is_commit: false
 ---
-
 
 # Absolute Omniverse / U-Infinity Canon
 

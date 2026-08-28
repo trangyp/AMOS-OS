@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-retrieval-conditioned-orchestration
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Retrieval-Conditioned-Orchestration-Budget-Rscf — Map of Content
 

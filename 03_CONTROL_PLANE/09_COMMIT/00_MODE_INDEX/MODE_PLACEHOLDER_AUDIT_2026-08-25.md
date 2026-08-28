@@ -12,22 +12,29 @@ segment: 03_CONTROL_PLANE/09_COMMIT
 artifact_kind: NOTE
 path: 03_CONTROL_PLANE/09_COMMIT/00_MODE_INDEX/MODE_PLACEHOLDER_AUDIT_2026-08-25.md
 tags:
-  - 00_mode_index
-  - 03_control_plane
-  - 09_commit
-  - amos_os
-  - audit
-  - canon/control-plane
-  - canon/universe
-  - commit
-  - control_plane
-  - coverage
-  - mode_index
-  - mode_placeholder_audit_2026_08_25.md
-  - note
-  - placeholder
-  - rscf
-  - placeholder_expanded
+- 00_mode_index
+- 03_control_plane
+- 09_commit
+- amos_os
+- audit
+- canon/control-plane
+- canon/universe
+- commit
+- control_plane
+- coverage
+- mode_index
+- mode_placeholder_audit_2026_08_25.md
+- note
+- placeholder
+- rscf
+- placeholder_expanded
+- readme
+- validation
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-mode-index-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -46,7 +53,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

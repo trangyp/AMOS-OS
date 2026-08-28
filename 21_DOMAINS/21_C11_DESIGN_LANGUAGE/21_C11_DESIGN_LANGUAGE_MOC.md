@@ -6,13 +6,17 @@ tags:
 - moc
 - 21-c11-design-language
 - canon/domain
+- c11-design-language-domains-domain-spec
+- c11-design-language-domains-readme
+- domains-c11-design-language-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 21 C11 Design Language — Map of Content
 

@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-law-hierarchy-resolver
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Law-Hierarchy-Resolver — Map of Content
 

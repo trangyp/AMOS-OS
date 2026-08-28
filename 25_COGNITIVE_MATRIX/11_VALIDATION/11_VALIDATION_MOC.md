@@ -6,13 +6,21 @@ tags:
 - moc
 - 11-validation
 - canon/cognitive-matrix
+- cognitive-matrix-validation-contract
+- l00-reality-validation-receipt
+- promotion-gates
+- routing-policy-validation-receipt
+- validation-cognitive-matrix-readme
+- validation-evidence
+- validation-levels
+- 00-index-moc
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 11 Validation — Map of Content
 

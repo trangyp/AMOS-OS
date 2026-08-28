@@ -6,13 +6,20 @@ tags:
 - cognitive_matrix
 - l24_self_regulation
 - canon/cognitive-matrix
+- validation-evidence
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- cognitive-matrix-l24-self-regulation-contract
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # PRIMITIVES COGNITIVE MATRIX L24 SELF REGULATION CONTRACT
 

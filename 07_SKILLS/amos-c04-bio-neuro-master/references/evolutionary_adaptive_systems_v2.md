@@ -6,13 +6,18 @@ tags:
 - reference
 - amos-c04-bio-neuro-master
 - canon/skill
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # AMOS Evolutionary Adaptive Systems Cancer to AI v2
 

@@ -1,33 +1,52 @@
 ---
 title: Atomic Multi-RSCF Validation Receipt
 aliases:
-  - ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT
-  - Atomic Multi-Capsule Validation Receipt
-  - Multi-RSCF Atomicity Receipt
+- ATOMIC_MULTI_RSCF_VALIDATION_RECEIPT
+- Atomic Multi-Capsule Validation Receipt
+- Multi-RSCF Atomicity Receipt
 type: receipt
 source: 01_CANON/01_CORE_LAWS
 status: VALIDATION_RECEIPT
 canonical_status: CONDITIONAL
 epistemic_class: VALIDATION_RECEIPT
 tags:
-  - receipt
-  - validation
-  - atomic
-  - multi_rscf
-  - rscf
-  - transaction
-  - atomicity
-  - consistency
-  - isolation
-  - rollback
-  - commit
-  - abort
-  - validation_receipt
-  - core_laws
-  - canon
-  - canon/universe
-  - rscf/type-evidence
-  - rscf/P-repair
+- receipt
+- validation
+- atomic
+- multi_rscf
+- rscf
+- transaction
+- atomicity
+- consistency
+- isolation
+- rollback
+- commit
+- abort
+- validation_receipt
+- core_laws
+- canon
+- canon/universe
+- rscf/type-evidence
+- rscf/P-repair
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- atomic-multi-rscf
+- atomic-multi-rscf-reasoning
+- k-atomic-multi-rscf
+- l17-rscf
+- l18-gmef
+- l19-proof-capsule
+- l20-adversarial
+- l21-epistemic-regime
+- l22-replayability
+- l23-mvcc-cas
+- l24-causal-epoch
+- l25-shard-local
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- 00-root-moc
+- amos-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: VALIDATION_RECEIPT
@@ -36,17 +55,17 @@ rscf:
   node_id: atomic_multi_rscf_validation_receipt
   node_type: receipt
   dependencies:
-    - ATOMIC_MULTI_RSCF
-    - ATOMIC_MULTI_RSCF_REASONING
-    - K_ATOMIC_MULTI_RSCF
+  - ATOMIC_MULTI_RSCF
+  - ATOMIC_MULTI_RSCF_REASONING
+  - K_ATOMIC_MULTI_RSCF
   validity:
     regime: canonical_validation
     implementation_verified: false
     empirical_verified: false
     conditional_on:
-      - underlying_atomic_multi_rscf_specification
-      - transaction_validation_evidence
-      - referenced_execution_receipts
+    - underlying_atomic_multi_rscf_specification
+    - transaction_validation_evidence
+    - referenced_execution_receipts
 ---
 
 # Atomic Multi-RSCF Validation Receipt

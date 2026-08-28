@@ -6,13 +6,15 @@ tags:
 - moc
 - 18-lifecycle
 - canon/cognitive
+- biological-cognitive-lifecycle
+- cognitive-organism-evolution
+- 05-cognitive-organism-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 18 Lifecycle — Map of Content
 

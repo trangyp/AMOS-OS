@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-recruiting-workforce-acquisitio
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Recruiting-Workforce-Acquisition-Rscf — Map of Content
 

@@ -12,17 +12,29 @@ segment: 00_ROOT/AMOS_ALL_FRAMEWORKS_INDEX.md
 artifact_kind: INDEX
 path: 00_ROOT/AMOS_ALL_FRAMEWORKS_INDEX.md
 tags:
-  - 00_root
-  - amos_all_frameworks_index.md
-  - amos_os
-  - canon/root
-  - canon/universe
-  - canon_placeholder
-  - frameworks
-  - index
-  - root
-  - rscf
-  - placeholder_expanded
+- 00_root
+- amos_all_frameworks_index.md
+- amos_os
+- canon/root
+- canon/universe
+- canon_placeholder
+- frameworks
+- index
+- root
+- rscf
+- placeholder_expanded
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -41,7 +53,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

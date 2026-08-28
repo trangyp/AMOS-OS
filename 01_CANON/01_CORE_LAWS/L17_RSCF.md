@@ -3,21 +3,37 @@ title: L17 RSCF
 type: rscf
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - rscf
-  - claim_discipline
-  - claim_taxonomy
-  - proof_capsule
-  - no_proof_no_claim
-  - conditional_carry
-  - dependency_propagation
-  - confidence_ceiling
-  - gaps
-  - falsifiers
-  - epistemic_governance
-  - provenance
-  - canon/universe
+- canon
+- core_laws
+- rscf
+- claim_discipline
+- claim_taxonomy
+- proof_capsule
+- no_proof_no_claim
+- conditional_carry
+- dependency_propagation
+- confidence_ceiling
+- gaps
+- falsifiers
+- epistemic_governance
+- provenance
+- canon/universe
+- validation
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- amos-core-all-versions-fractal-knowledge-network
+- l16-hml
+- gmef
+- provenance-topology
+- competing-hypotheses
+- scope-regime-firewall
+- causal-firewall
+- l10-failure-recovery
+- l11-knowledge-memory
+- l15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

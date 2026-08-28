@@ -12,16 +12,25 @@ segment: 11_KNOWLEDGE/02_CLAIMS
 artifact_kind: REGISTRY
 path: 11_KNOWLEDGE/02_CLAIMS/FRAMEWORK_CLAIM_REGISTRY.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 02_claims
-  - framework_claim_registry
-  - epistemic_claims
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 02_claims
+- framework_claim_registry
+- epistemic_claims
+- rscf
+- canon_candidate
+- canon/knowledge
+- 02-claims-moc
+- 05-frameworks-moc
+- tss-the-trang-system
+- trang-reality-architecture
+- frai-fractal-reasoning-ai
+- trang-lacunarity
+- trang-equation-registry
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,24 +45,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 05_FRAMEWORKS_MOC
-    - AMOS_CORPUS
+  - 05_FRAMEWORKS_MOC
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_CLAIMS
-    - FRAMEWORK_CLAIMS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_CLAIMS
+  - FRAMEWORK_CLAIMS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   claims_moc:
-    artifact: [[02_CLAIMS_MOC]]
+    artifact:
+    - - 02_CLAIMS_MOC
   frameworks_moc:
-    artifact: [[05_FRAMEWORKS_MOC]]
+    artifact:
+    - - 05_FRAMEWORKS_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   registry_structure: VERIFIED_SOURCE_STRUCTURE
   claim_catalog: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Framework Claim Registry
 

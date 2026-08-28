@@ -3,26 +3,46 @@ title: L20 ADVERSARIAL
 type: note
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - adversarial
-  - adversarial_validation
-  - threat_model
-  - attack_surface
-  - transitive_reachability
-  - enforcement_roots
-  - attestation
-  - agent_immutability
-  - deterministic_fuzz
-  - reproducibility
-  - receipts
-  - evidence_gated_escalation
-  - retry_governance
-  - scope_expansion
-  - order_manipulation
-  - cache_poisoning
-  - spoofing
-  - canon/universe
+- canon
+- core_laws
+- adversarial
+- adversarial_validation
+- threat_model
+- attack_surface
+- transitive_reachability
+- enforcement_roots
+- attestation
+- agent_immutability
+- deterministic_fuzz
+- reproducibility
+- receipts
+- evidence_gated_escalation
+- retry_governance
+- scope_expansion
+- order_manipulation
+- cache_poisoning
+- spoofing
+- canon/universe
+- validation
+- diagnosis
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- l17-rscf
+- l18-gmef
+- l19-proof-capsule
+- l16-hml
+- provenance-topology
+- persistent-provenance
+- scope-regime-firewall
+- causal-firewall
+- atomic-multi-rscf
+- causal-epoch-finality
+- l10-failure-recovery
+- l11-knowledge-memory
+- l15-fractal-knowledge
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

@@ -6,13 +6,17 @@ tags:
 - moc
 - 12-c02-math-compute
 - canon/domain
+- c02-math-compute-domains-domain-spec
+- c02-math-compute-domains-readme
+- domains-c02-math-compute-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 12 C02 Math Compute — Map of Content
 

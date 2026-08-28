@@ -12,19 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/PSI_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - psi_framework
-  - perceived_system_integrity
-  - psi
-  - integrity_metrics
-  - structural_auditing
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- psi_framework
+- perceived_system_integrity
+- psi
+- integrity_metrics
+- structural_auditing
+- rscf
+- canon_candidate
+- canon/knowledge
+- psi-master
+- absolute-structural-integrity
+- design-for-absolute-integrity
+- lawful-system-perception-model
+- 25-cognitive-matrix-moc
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,28 +47,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - LAWFUL_SYSTEM_PERCEPTION_MODEL
-    - AMOS_CORPUS
+  - LAWFUL_SYSTEM_PERCEPTION_MODEL
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - SYSTEMIC_INTEGRITY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - SYSTEMIC_INTEGRITY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Perceived System Integrity (PSI) Framework
     acronym: PSI
     role: SYSTEMIC_INTEGRITY_AND_COHERENCE_EVALUATION
   psi_master:
-    artifact: [[PSI_MASTER]]
+    artifact:
+    - - PSI_MASTER
   structural_integrity:
-    artifact: [[ABSOLUTE_STRUCTURAL_INTEGRITY]]
+    artifact:
+    - - ABSOLUTE_STRUCTURAL_INTEGRITY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   psi_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # PSI — Perceived System Integrity Framework
 

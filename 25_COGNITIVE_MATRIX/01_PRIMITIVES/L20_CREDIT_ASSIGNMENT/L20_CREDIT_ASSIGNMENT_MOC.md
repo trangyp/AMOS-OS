@@ -6,13 +6,15 @@ tags:
 - moc
 - l20-credit-assignment
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l20-credit-assignment-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L20 Credit Assignment — Map of Content
 

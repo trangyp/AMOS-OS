@@ -6,13 +6,14 @@ tags:
 - moc
 - 23-multi-hypothesis-modes
 - canon/control-plane
+- 09-commit-moc
+- multi-hypothesis-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 23 Multi Hypothesis Modes — Map of Content
 

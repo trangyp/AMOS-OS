@@ -6,13 +6,13 @@ tags:
 - moc
 - 46-creative-generative-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 46 Creative Generative Modes — Map of Content
 

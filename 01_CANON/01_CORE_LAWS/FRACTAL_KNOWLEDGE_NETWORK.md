@@ -1,31 +1,38 @@
 ---
-title: "FRACTAL_KNOWLEDGE_NETWORK Specification"
+title: FRACTAL_KNOWLEDGE_NETWORK Specification
 aliases:
-  - "FRACTAL_KNOWLEDGE_NETWORK"
-  - "Fractal Knowledge Network"
-  - "FKN"
-  - "H/M/L Knowledge Network"
+- FRACTAL_KNOWLEDGE_NETWORK
+- Fractal Knowledge Network
+- FKN
+- H/M/L Knowledge Network
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - core_law
-  - fractal
-  - knowledge_network
-  - hml
-  - hierarchical_resolution
-  - traversal
-  - retrieval
-  - dependency
-  - provenance
-  - rscf
-  - gmef
-  - knowledge_graph
-  - adaptive_resolution
-  - selective_loading
-  - context_efficiency
-  - canon
-  - canon/universe
-
+- core_law
+- fractal
+- knowledge_network
+- hml
+- hierarchical_resolution
+- traversal
+- retrieval
+- dependency
+- provenance
+- rscf
+- gmef
+- knowledge_graph
+- adaptive_resolution
+- selective_loading
+- context_efficiency
+- canon
+- canon/universe
+- l22-replayability
+- 00-home
+- amos-rscf-nodes
+- 01-canon-moc
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- 00-root-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

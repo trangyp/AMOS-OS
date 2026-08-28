@@ -6,13 +6,16 @@ tags:
 - moc
 - amos-flow-canon
 - canon/skill
+- skill
+- references
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Flow-Canon — Map of Content
 

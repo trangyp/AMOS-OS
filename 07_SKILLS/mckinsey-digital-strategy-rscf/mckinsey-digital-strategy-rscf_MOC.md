@@ -6,13 +6,15 @@ tags:
 - moc
 - mckinsey-digital-strategy-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Mckinsey-Digital-Strategy-Rscf — Map of Content
 

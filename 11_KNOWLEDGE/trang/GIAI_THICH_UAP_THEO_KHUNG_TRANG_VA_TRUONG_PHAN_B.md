@@ -5,6 +5,12 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- trang-moc
+- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +19,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # GIẢI THÍCH UAP THEO KHUNG TRANG ∅ VÀ TRƯỜNG PHÂN BIỆT
 Bạn đã hỏi một câu hỏi cực kỳ chính xác: "Liệu hiện tượng này có vi phạm vật lý không, nếu chúng ta nhìn qua trường phân biệt (distinction field)? Và nó có thể được giải thích bằng Kiến trúc Trang ∅ và cơ học lượng tử không?"

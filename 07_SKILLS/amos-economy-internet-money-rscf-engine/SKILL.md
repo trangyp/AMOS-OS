@@ -4,7 +4,9 @@ title: SKILL — Amos Economy Internet Money Rscf Engine
 type: skill
 source: 07_SKILLS/amos-economy-internet-money-rscf-engine
 name: amos-economy-internet-money-rscf-engine
-description: Economy Internet Money — econ capability. Use when executing the core capability within this domain. Use when amos-c07-econ-finance-master routes to this specialized capability. Do not use for generic tasks outside econ domain.
+description: Economy Internet Money — econ capability. Use when executing the core
+  capability within this domain. Use when amos-c07-econ-finance-master routes to this
+  specialized capability. Do not use for generic tasks outside econ domain.
 parent_skill: amos-c07-econ-finance-master
 domain: econ
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-economy-internet-money-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

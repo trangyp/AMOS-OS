@@ -5,6 +5,14 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- architecture
+- agents
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- amos-simulation-kernel-v0-math-foundations
+- automation-profiles
+- trang-moc
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +21,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # TRANG ∅**– Cách Thức Thị Trường FOREX Thực Sự Vận Hành**
 * * *

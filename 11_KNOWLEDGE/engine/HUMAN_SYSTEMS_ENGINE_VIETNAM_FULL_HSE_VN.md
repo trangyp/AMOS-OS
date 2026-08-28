@@ -27,13 +27,19 @@ tags:
 - AI-ready
 - engine
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # Human Systems Engine™ VN (HSE VN) — Complete Deterministic Model
 

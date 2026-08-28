@@ -6,13 +6,13 @@ tags:
 - moc
 - 92-comparison-benchmark-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 92 Comparison Benchmark Modes — Map of Content
 

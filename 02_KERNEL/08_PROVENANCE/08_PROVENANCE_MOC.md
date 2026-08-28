@@ -6,13 +6,19 @@ tags:
 - moc
 - 08-provenance
 - canon/kernel
+- kernel-provenance-contract
+- k-provenance
+- k-provenance-topology
+- k-sybil-hardening
+- provenance-kernel-readme
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 08 Provenance — Map of Content
 

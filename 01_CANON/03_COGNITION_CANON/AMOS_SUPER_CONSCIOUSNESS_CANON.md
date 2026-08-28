@@ -12,19 +12,24 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_SUPER_CONSCIOUSNESS_CANON.md
 tags:
-  - amos_os
-  - canon
-  - cognition
-  - super_consciousness
-  - consciousness_model
-  - metacognition
-  - recursive_reasoning
-  - epistemic_governance
-  - provenance
-  - rscf
-  - gmef
-  - fractal_knowledge
-  - canon/cognition
+- amos_os
+- canon
+- cognition
+- super_consciousness
+- consciousness_model
+- metacognition
+- recursive_reasoning
+- epistemic_governance
+- provenance
+- rscf
+- gmef
+- fractal_knowledge
+- canon/cognition
+- readme
+- 03-cognition-canon-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'
 status: CANON_CANDIDATE

@@ -6,13 +6,14 @@ tags:
 - moc
 - l12-counterfactual-simulation
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L12 Counterfactual Simulation — Map of Content
 

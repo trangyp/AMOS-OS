@@ -5,6 +5,12 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- trang-moc
+- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +19,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # **The Trang System™ (TSS) – Official Manual**
 The Trang System™ (TSS) is a universal structural framework for understanding how human-linked systems evolve. From families and organizations to states and civilizations, TSS provides a shared language for describing why systems grow, why they destabilize, and how they ultimately renew or collapse. TSS is not a theory tied to any ideology, time period, or culture. Instead, it identifies the structural forces that operate in every system shaped by human cooperation, conflict, and decision-making. It translates these forces into a compact architecture of four variables, seven developmental cycles, and four long-term outcomes. This architecture allows researchers, policymakers, analysts, and institutions to evaluate system health, anticipate transitions, and design interventions with clarity and precision.

@@ -12,19 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - trang_lacunarity
-  - lacunarity
-  - gapping
-  - texture_invariance
-  - void_distribution
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- trang_lacunarity
+- lacunarity
+- gapping
+- texture_invariance
+- void_distribution
+- rscf
+- canon_candidate
+- canon/knowledge
+- frai-fractal-reasoning-ai
+- heritage-fractal-mathematics
+- trang-lmh-architecture
+- 05-frameworks-moc
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,28 +45,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_FRAI_FRACTAL_REASONING_AI
-    - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
-    - AMOS_CORPUS
+  - TRANG_FRAI_FRACTAL_REASONING_AI
+  - AMOS_FRACTAL_CONSCIOUSNESS_WHITEPAPER_FULL_FIXED
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRACTAL_GEOMETRY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FRACTAL_GEOMETRY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Trang Lacunarity & Void Distribution
     role: GAPPING_AND_TEXTURE_DENSITY_ANALYSIS
   fractal_reasoning:
-    artifact: [[FRAI_FRACTAL_REASONING_AI]]
+    artifact:
+    - - FRAI_FRACTAL_REASONING_AI
   fractal_math:
-    artifact: [[HERITAGE_FRACTAL_MATHEMATICS]]
+    artifact:
+    - - HERITAGE_FRACTAL_MATHEMATICS
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   lacunarity_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Trang Lacunarity & Void Distribution
 

@@ -7,13 +7,20 @@ tags:
 - index
 - readme
 - canon/cognitive-matrix
+- skill
+- workflow
+- 00-root-moc
+- amos-moc
+- 00-home
+- canon
+- cognitive-matrix-moc
+- amos-rscf-nodes
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # AMOS Cognitive Matrix
 
@@ -61,3 +68,7 @@ RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
   - INDEXED_BY: [[AMOS_RSCF_NODES]]
 claim_class: AMOS_MODEL
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

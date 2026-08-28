@@ -3,16 +3,35 @@ title: L11 KNOWLEDGE MEMORY
 type: memory
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - knowledge
-  - memory
-  - provenance
-  - durability
-  - staleness
-  - validation
-  - epistemic_governance
-  - canon/universe
+- canon
+- core_laws
+- knowledge
+- memory
+- provenance
+- durability
+- staleness
+- validation
+- epistemic_governance
+- canon/universe
+- readme
+- skill
+- workflow
+- workflows
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- provenance-topology
+- persistent-provenance
+- epistemic-regimes
+- knowledge-harvest
+- l10-failure-recovery
+- rscf
+- gmef
+- mvcc-cas
+- causal-epoch-finality
+- fractal-knowledge-network
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

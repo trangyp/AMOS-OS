@@ -12,18 +12,24 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/BIO_LOGICAL_ARCHITECTURE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - bio_logical_architecture
-  - living_architecture
-  - biological_logic
-  - entropy_dissipation
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- bio_logical_architecture
+- living_architecture
+- biological_logic
+- entropy_dissipation
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- uba-universal-biological-architecture
+- bio-logical-computing
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,27 +44,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - THE_LIVING_STACK_A_COMPREHENSIVE_SCIENTIFIC_ARCHITECTURE_THESIS_EXPANDED
-    - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
-    - AMOS_CORPUS
+  - THE_LIVING_STACK_A_COMPREHENSIVE_SCIENTIFIC_ARCHITECTURE_THESIS_EXPANDED
+  - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   uba_specification:
-    artifact: [[UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE]]
+    artifact:
+    - - UBA_UNIVERSAL_BIOLOGICAL_ARCHITECTURE
   living_computing:
-    artifact: [[BIO_LOGICAL_COMPUTING]]
+    artifact:
+    - - BIO_LOGICAL_COMPUTING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   architecture_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Bio-Logical Architecture
 

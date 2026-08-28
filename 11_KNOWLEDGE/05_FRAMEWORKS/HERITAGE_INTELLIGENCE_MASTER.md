@@ -12,21 +12,34 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: INTELLIGENCE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_INTELLIGENCE_MASTER.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - heritage_intelligence
-  - heritage_master
-  - decision_intelligence
-  - 32_layers
-  - 10_signal_classes
-  - trust_scoring
-  - timing_readiness
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- heritage_intelligence
+- heritage_master
+- decision_intelligence
+- 32_layers
+- 10_signal_classes
+- trust_scoring
+- timing_readiness
+- rscf
+- canon_candidate
+- canon/knowledge
+- amos-x-heritage
+- amos-x-heritage-matrix
+- heritage-to-tss-binding
+- heritage-x-tss-matrix
+- heritage-to-trang-zero-binding
+- heritage-x-tss
+- heritage-x-trang-zero
+- heritage-civilization-system
+- heritage-fractal-mathematics
+- heritage-spatial-intelligence
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,32 +54,36 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - COSMO_BRAIN_HERITAGE_MANUALS
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - COSMO_BRAIN_HERITAGE_MANUALS
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DECISION_INTELLIGENCE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - DECISION_INTELLIGENCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Heritage Decision Intelligence™
     role: DECISION_INTELLIGENCE_AND_GOVERNANCE_SYSTEM
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_HERITAGE]]
-    matrix: [[AMOS_X_HERITAGE_MATRIX]]
+    artifact:
+    - - AMOS_X_HERITAGE
+    matrix:
+    - - AMOS_X_HERITAGE_MATRIX
   tss_coupling:
-    artifact: [[HERITAGE_TO_TSS_BINDING]]
-    matrix: [[HERITAGE_X_TSS_MATRIX]]
+    artifact:
+    - - HERITAGE_TO_TSS_BINDING
+    matrix:
+    - - HERITAGE_X_TSS_MATRIX
   null_state_coupling:
-    artifact: [[HERITAGE_TO_TRANG_ZERO_BINDING]]
+    artifact:
+    - - HERITAGE_TO_TRANG_ZERO_BINDING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   decision_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage Intelligence Master
 

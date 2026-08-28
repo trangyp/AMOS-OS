@@ -4,7 +4,10 @@ title: SKILL — Amos Scientific Closure Governor Rscf
 type: skill
 source: 07_SKILLS/amos-scientific-closure-governor-rscf
 name: amos-scientific-closure-governor-rscf
-description: Scientific Closure Governor — causal reasoning capability. Use when causal analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master routes to this specialized capability. Do not use for generic tasks outside causal domain.
+description: Scientific Closure Governor — causal reasoning capability. Use when causal
+  analysis, counterfactual reasoning, or intervention design. Use when amos-causal-reasoning-master
+  routes to this specialized capability. Do not use for generic tasks outside causal
+  domain.
 parent_skill: amos-causal-reasoning-master
 domain: causal
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/h
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-scientific-closure-governor-rscf-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

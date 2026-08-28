@@ -6,13 +6,49 @@ tags:
 - control_plane
 - 01_baseline
 - canon/control-plane
+- readme
+- baseline-commit-control-plane-aliases
+- baseline-commit-control-plane-benchmarks
+- baseline-commit-control-plane-governance
+- baseline-commit-control-plane-mode-spec
+- baseline-commit-control-plane-activation-rules
+- baseline-commit-control-plane-composition
+- baseline-commit-control-plane-domain-weights
+- baseline-commit-control-plane-engine-weights
+- baseline-commit-control-plane-exit-criteria
+- baseline-commit-control-plane-failure-recovery
+- baseline-commit-control-plane-input-contract
+- baseline-commit-control-plane-layer-weights
+- baseline-commit-control-plane-mode-family-registry
+- baseline-commit-control-plane-mode-family-spec
+- baseline-commit-control-plane-observability
+- baseline-commit-control-plane-output-contract
+- baseline-commit-control-plane-preconditions
+- baseline-commit-control-plane-provenance
+- baseline-commit-control-plane-purpose-scope
+- baseline-commit-control-plane-routing-bindings
+- baseline-commit-control-plane-safety-gates
+- baseline-commit-control-plane-tests
+- baseline-commit-control-plane-transition-rules
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 01-baseline-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # BASELINE COMMIT CONTROL PLANE [[README]]
 

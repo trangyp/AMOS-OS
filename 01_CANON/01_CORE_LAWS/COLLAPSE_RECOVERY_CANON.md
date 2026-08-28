@@ -16,25 +16,27 @@ schema_family: RSCF
 schema_role: COLLAPSE_RECOVERY_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - core_laws
-  - collapse
-  - collapse_recovery
-  - recovery
-  - rollback
-  - repair
-  - selective_invalidation
-  - dependency_graph
-  - provenance
-  - epistemic_regimes
-  - competing_hypotheses
-  - finality
-  - rscf
-  - canon/universe
-  - placeholder_expanded
+- amos_os
+- canon
+- universe
+- 01_canon
+- core_laws
+- collapse
+- collapse_recovery
+- recovery
+- rollback
+- repair
+- selective_invalidation
+- dependency_graph
+- provenance
+- epistemic_regimes
+- competing_hypotheses
+- finality
+- rscf
+- canon/universe
+- placeholder_expanded
+- validation
+- local-finality
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -1373,7 +1375,7 @@ Finality must remain scoped and typed.
 If a shard-local finalized state becomes invalid:
 
 ```text
-LOCAL_FINALITY
+[[LOCAL_FINALITY]]
 ↓
 INVALIDATING EVENT
 ↓

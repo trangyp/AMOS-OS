@@ -7,6 +7,8 @@ tags:
 - references
 - detailed
 - references.md
+- references-moc
+- 00-home
 ---
 
 ## Provenance
@@ -263,3 +265,7 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 - To claim empirical validation of logical laws
 - As a substitute for domain-specific mathematical or logical evidence
 - Outside meta-logic domain reasoning
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

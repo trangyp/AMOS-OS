@@ -12,24 +12,26 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/REALITY_X_RSCF_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - reality_x_rscf_matrix
-  - matrix_table
-  - cross_plane_routing
-  - reality_architecture
-  - proof_capsule_routing
-  - pre_symbolic
-  - null_invariant
-  - khung_trang
-  - trang_lacunarity
-  - epistemic_bound
-  - confidence_ceiling
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- reality_x_rscf_matrix
+- matrix_table
+- cross_plane_routing
+- reality_architecture
+- proof_capsule_routing
+- pre_symbolic
+- null_invariant
+- khung_trang
+- trang_lacunarity
+- epistemic_bound
+- confidence_ceiling
+- rscf
+- canon_candidate
+- canon/matrix
+- cognitive-matrix-moc
+- 00-home
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -46,13 +48,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
-    - 11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
+  - 11_KNOWLEDGE/03_RSCF/TRANG_REALITY_RSCF_INDEX
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - CROSS_PLANE_MATRIX_TABLE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   reality_master:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_REALITY_ARCHITECTURE
@@ -86,3 +88,7 @@ REALITY ARCHITECTURE
 RSCF PROOF STRUCTURE
 
 ```
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

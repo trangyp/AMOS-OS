@@ -6,13 +6,19 @@ tags:
 - moc
 - 05-provenance
 - canon/control-plane
+- control-plane-provenance-contract
+- observed-read-set
+- provenance-control-plane-readme
+- provenance-ledger
+- read-set-validator
+- 00-index-moc
+- 03-control-plane-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Provenance — Map of Content
 

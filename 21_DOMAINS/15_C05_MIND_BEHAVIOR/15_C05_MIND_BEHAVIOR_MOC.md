@@ -6,13 +6,17 @@ tags:
 - moc
 - 15-c05-mind-behavior
 - canon/domain
+- c05-mind-behavior-domains-domain-spec
+- c05-mind-behavior-domains-readme
+- domains-c05-mind-behavior-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 15 C05 Mind Behavior — Map of Content
 

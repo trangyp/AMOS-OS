@@ -8,6 +8,7 @@ tags:
 - rscf/state/source-claim
 - topic/amos-governance-economy-engine-v0
 - engine
+- engine-moc
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -16,6 +17,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS GOVERNANCE ECONOMY ENGINE V0 ORG RISK POLICY7 2
 
 ```json

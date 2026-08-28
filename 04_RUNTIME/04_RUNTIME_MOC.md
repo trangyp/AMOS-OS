@@ -6,13 +6,20 @@ tags:
 - moc
 - 04-runtime
 - canon/runtime
+- runtime-readme
+- runtime-runtime-contract
+- 00-index-moc
+- 01-boot-moc
+- 02-router-moc
+- 06-execution-moc
+- 09-finalization-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 04 Runtime — Map of Content
 

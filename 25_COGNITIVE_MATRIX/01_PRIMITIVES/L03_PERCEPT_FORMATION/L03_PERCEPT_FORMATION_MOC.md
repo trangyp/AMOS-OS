@@ -6,13 +6,15 @@ tags:
 - moc
 - l03-percept-formation
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l03-percept-formation-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L03 Percept Formation — Map of Content
 

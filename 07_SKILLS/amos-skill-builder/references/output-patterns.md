@@ -6,13 +6,18 @@ tags:
 - reference
 - amos-skill-builder
 - canon/skill
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Skill Builder — Output Patterns Reference
 

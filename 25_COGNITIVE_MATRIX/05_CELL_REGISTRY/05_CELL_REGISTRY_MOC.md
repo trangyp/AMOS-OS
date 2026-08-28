@@ -6,13 +6,18 @@ tags:
 - moc
 - 05-cell-registry
 - canon/cognitive-matrix
+- cell-index
+- cell-registry-cognitive-matrix-readme
+- cell-status-registry
+- cognitive-matrix-cell-registry-contract
+- 00-index-moc
+- 25-cognitive-matrix-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Cell Registry — Map of Content
 

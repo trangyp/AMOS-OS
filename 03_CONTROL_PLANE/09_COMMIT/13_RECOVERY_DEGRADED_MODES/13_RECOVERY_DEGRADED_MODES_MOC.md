@@ -6,13 +6,13 @@ tags:
 - moc
 - 13-recovery-degraded-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 13 Recovery Degraded Modes — Map of Content
 

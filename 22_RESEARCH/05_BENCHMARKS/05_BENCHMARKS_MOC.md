@@ -6,13 +6,17 @@ tags:
 - moc
 - 05-benchmarks
 - canon/research
+- benchmarks-research-readme
+- research-benchmarks
+- research-benchmarks-contract
+- 00-index-moc
+- 22-research-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Benchmarks — Map of Content
 

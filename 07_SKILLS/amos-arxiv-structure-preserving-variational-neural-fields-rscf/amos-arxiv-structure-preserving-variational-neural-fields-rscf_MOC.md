@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-arxiv-structure-preserving-variatio
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Arxiv-Structure-Preserving-Variational-Neural-Fields-Rscf — Map of Content
 

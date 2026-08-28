@@ -9,7 +9,8 @@ aliases:
 - AMOS Identity Standard
 artifact_id: AMOS-OS-NAMING-STANDARD
 name: AMOS_OS_NAMING_STANDARD
-title: AMOS OS Naming Standard — Canonical Identity, Namespace, Versioning, and Rename Governance
+title: AMOS OS Naming Standard — Canonical Identity, Namespace, Versioning, and Rename
+  Governance
 document_version: 2.0.0
 naming_standard_version: 1.0.0
 namespace_contract_version: 1.0.0
@@ -67,6 +68,19 @@ tags:
 - topic/naming-standard
 - topic/namespace-governance
 - topic/version-governance
+- 00-home
+- architecture
+- full-tree
+- system-map
+- authoritative-state
+- dependency-map
+- placement-rules
+- roadmap
+- rscf-node-index
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 ---
 
 # AMOS OS Naming Standard

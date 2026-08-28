@@ -3,7 +3,8 @@ type: registry
 source: 01_CANON/05_VARIABLE_REGISTRY
 artifact_id: AMOS-UNIT-REGISTRY
 name: UNIT_REGISTRY
-title: AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement Semantics
+title: AMOS Unit Registry — Canonical Dimensions, Units, Scales, Conversion, and Measurement
+  Semantics
 document_version: 1.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -46,10 +47,38 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/unit-registry
+- readme
+- architecture
+- 00-root-naming-standard
+- placement-rules
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- symbol-registry
+- hml-canon
+- persistence-canon
+- cognition-canon
+- infrastructure-canon
+- kernel-map
+- runtime-map
+- cognitive-organism-map
+- state-state-map
+- model-map
+- schema-map
+- observability-observability-map
+- test-map
+- index-research-readme
+- cognitive-matrix-architecture
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 05-variable-registry-moc
 aliases:
-- AMOS Unit Registry - Unit Registry - AMOS Measurement Registry - AMOS Quantity and Dimension
+- AMOS Unit Registry - Unit Registry - AMOS Measurement Registry - AMOS Quantity and
+  Dimension
 ---
-
 
 # AMOS Unit Registry
 **Origin architect / steward:** Trang Phan

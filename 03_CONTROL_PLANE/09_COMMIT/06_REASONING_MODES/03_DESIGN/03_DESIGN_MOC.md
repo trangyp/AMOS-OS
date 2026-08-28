@@ -6,13 +6,14 @@ tags:
 - moc
 - 03-design
 - canon/control-plane
+- 06-reasoning-modes-moc
+- design-reasoning-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Design — Map of Content
 

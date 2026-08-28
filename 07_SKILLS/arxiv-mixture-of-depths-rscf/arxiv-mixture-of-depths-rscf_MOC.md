@@ -6,13 +6,15 @@ tags:
 - moc
 - arxiv-mixture-of-depths-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Arxiv-Mixture-Of-Depths-Rscf — Map of Content
 

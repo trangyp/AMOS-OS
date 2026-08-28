@@ -6,13 +6,23 @@ tags:
 - moc
 - 04-strategy
 - canon/domain
+- directed-systemal-intelligence-domain
+- domains-strategy-contract
+- seven-cycles-domain-model
+- strategy-domains-domain-spec
+- strategy-domains-interfaces
+- strategy-domains-provenance
+- strategy-domains-readme
+- tpe-domain-model
+- tss-domain-model
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 04 Strategy — Map of Content
 

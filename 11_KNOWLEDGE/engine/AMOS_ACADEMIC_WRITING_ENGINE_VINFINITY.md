@@ -3,7 +3,8 @@ title: AMOS Academic Writing Engine vInfinity
 type: engine
 source: 11_KNOWLEDGE/engine
 created: '2026-08-22'
-origin: Google Drive — _00_AMOS_CANON/Kernels/Logic/AMOS_Academic_Writing_Kernal_Engine_v0.json (75KB, massive multi-layer engine)
+origin: Google Drive — _00_AMOS_CANON/Kernels/Logic/AMOS_Academic_Writing_Kernal_Engine_v0.json
+  (75KB, massive multi-layer engine)
 origin_type: SOURCE
 category: kernel
 tags:
@@ -19,13 +20,18 @@ tags:
 - composition
 - cross-domain
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
 rscf:
   state: AMOS_MODEL
   claim_class: AMOS_MODEL
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # AMOS Academic Writing Engine vInfinity
 

@@ -6,13 +6,17 @@ tags:
 - moc
 - 18-c08-strategy-game
 - canon/domain
+- c08-strategy-game-domains-domain-spec
+- c08-strategy-game-domains-readme
+- domains-c08-strategy-game-contract
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 18 C08 Strategy Game — Map of Content
 

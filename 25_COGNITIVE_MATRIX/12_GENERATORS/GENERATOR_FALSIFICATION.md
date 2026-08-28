@@ -9,13 +9,23 @@ tags:
 - falsification
 - note
 - canon/cognitive-matrix
+- integration
+- generators-map
+- generator-contract
+- generator-admission
+- 00-root-moc
+- canon
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 12-generators-moc
 rscf:
   state: DERIVED
   claim_class: EMPIRICAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Generator Falsification
 

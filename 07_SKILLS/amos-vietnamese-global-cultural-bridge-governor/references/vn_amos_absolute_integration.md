@@ -6,13 +6,18 @@ tags:
 - reference
 - amos-vietnamese-global-cultural-bridge-governor
 - canon/skill
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # AMOS Absolute Architecture Integration 800K+
 

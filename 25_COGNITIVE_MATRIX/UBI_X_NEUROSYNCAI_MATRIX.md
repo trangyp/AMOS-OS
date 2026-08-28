@@ -12,13 +12,18 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - ubi_x_neurosyncai_matrix
-  - matrix_table
-  - rscf
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- ubi_x_neurosyncai_matrix
+- matrix_table
+- rscf
+- ubi-x-neurosyncai
+- ubi-neurosyncai-binding
+- 25-cognitive-matrix-moc
+- cognitive-matrix-moc
+- 00-home
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -29,9 +34,11 @@ validation_status: PASSED_CONSTITUTIONAL_TESTS
 executable_binding: ESTABLISHED
 framework_binding:
   matrix_spec:
-    artifact: [[UBI_X_NEUROSYNCAI]]
+    artifact:
+    - - UBI_X_NEUROSYNCAI
   knowledge_binding:
-    artifact: [[UBI_NEUROSYNCAI_BINDING]]
+    artifact:
+    - - UBI_NEUROSYNCAI_BINDING
 ---
 
 # UBI x NeuroSyncAI Cross-Plane Matrix Table (v2.0.0)
@@ -45,3 +52,7 @@ framework_binding:
 ## Connections
 - **Specification:** [[UBI_X_NEUROSYNCAI]]
 - **Cognitive Matrix Plane:** [[25_COGNITIVE_MATRIX_MOC]]
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

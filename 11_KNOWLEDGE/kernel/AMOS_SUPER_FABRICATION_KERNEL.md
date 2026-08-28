@@ -14,6 +14,7 @@ tags:
 - rscf/state/observation
 - topic/amos-super-fabrication
 - kernel
+- kernel-moc
 created: 2026-08-22
 rscf:
   state: CONDITIONAL
@@ -21,7 +22,8 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 overclaim_risk: true
-overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles;
+  classified as CONDITIONAL pending validation.
 ---
 
 # AMOS SUPER FABRICATION KERNEL

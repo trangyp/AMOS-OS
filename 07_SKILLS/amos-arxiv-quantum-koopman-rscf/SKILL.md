@@ -4,7 +4,9 @@ title: SKILL — Amos Arxiv Quantum Koopman Rscf
 type: skill
 source: 07_SKILLS/amos-arxiv-quantum-koopman-rscf
 name: amos-arxiv-quantum-koopman-rscf
-description: Arxiv Quantum Koopman — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Arxiv Quantum Koopman — arxiv research capability. Use when arxiv research,
+  paper analysis, or literature review. Use when amos-knowledge-research-master routes
+  to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- amos-arxiv-quantum-koopman-rscf-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

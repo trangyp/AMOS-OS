@@ -6,13 +6,16 @@ tags:
 - moc
 - 43-geo-geopolitics
 - canon/domain
+- domains-geo-geopolitics-contract
+- geo-geopolitics-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 43 Geo Geopolitics — Map of Content
 

@@ -7,13 +7,26 @@ tags:
 - authority
 - note
 - canon/control-plane
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- dependency-closure
+- 04-authority-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: authority_governance
 ---
-
 
 # Dependency Closure
 
@@ -74,7 +87,7 @@ Given an operation touching `DEPENDENCY CLOSURE` within the Control Plane plane:
 RSCF-NODE
 node_id: authz_dependency_closure
 node_type: note
-path: 03_CONTROL_PLANE/04_AUTHORITY/DEPENDENCY_CLOSURE.md
+path: 03_CONTROL_PLANE/04_AUTHORITY/[[DEPENDENCY_CLOSURE]].md
 RSCF-RELATIONS:
   - INDEXED_BY: [[00_HOME]]
 claim_class: AMOS_MODEL

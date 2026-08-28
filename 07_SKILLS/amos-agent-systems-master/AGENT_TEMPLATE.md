@@ -6,13 +6,14 @@ tags:
 - note
 - amos-agent-systems-master
 - canon/skill
+- skill
+- amos-agent-systems-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-agent-systems-master
 

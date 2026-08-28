@@ -12,39 +12,61 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/CORE_X_CONTROL_PLANE.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - core_x_control_plane
-  - control_plane_governance
-  - authority_routing
-  - authority_envelopes
-  - canonical_core_invariants
-  - control_harness_router
-  - capability_authority_separation
-  - governance
-  - integrity
-  - reality
-  - cognition
-  - multi_agent
-  - cryptographic_envelopes
-  - biological_substrate_firewalls
-  - provenance
-  - scope
-  - regime
-  - rscf
-  - gmef
-  - proof_capsules
-  - dependency_closure
-  - causal_epoch
-  - mvcc
-  - cas
-  - atomic_multi_rscf
-  - shard_local_finalization
-  - proof_based_coordination_avoidance
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- core_x_control_plane
+- control_plane_governance
+- authority_routing
+- authority_envelopes
+- canonical_core_invariants
+- control_harness_router
+- capability_authority_separation
+- governance
+- integrity
+- reality
+- cognition
+- multi_agent
+- cryptographic_envelopes
+- biological_substrate_firewalls
+- provenance
+- scope
+- regime
+- rscf
+- gmef
+- proof_capsules
+- dependency_closure
+- causal_epoch
+- mvcc
+- cas
+- atomic_multi_rscf
+- shard_local_finalization
+- proof_based_coordination_avoidance
+- canon_candidate
+- canon/matrix
+- core-x-control-plane-matrix
+- 25-cognitive-matrix-moc
+- agents
+- validation
+- skill
+- canon
+- revocation
+- delegation
+- 01-canon-moc
+- 03-control-plane-moc
+- l0-integrity
+- references
+- 00-home
+- amos-rscf-nodes
+- k-rscf
+- k-hml
+- k-gmef
+- k-provenance
+- k-provenance-topology
+- k-capability-authorization
+- k-commit-time-authority
+- amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -61,51 +83,40 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 01_CANON/01_CANON_MOC
-    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-    - AMOS_CORPUS
+  - 01_CANON/01_CANON_MOC
+  - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - CONTROL_PLANE_INTEGRATION
-    - AUTHORITY_ROUTING
-    - CROSS_PLANE_GOVERNANCE
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - CONTROL_PLANE_INTEGRATION
+  - AUTHORITY_ROUTING
+  - CROSS_PLANE_GOVERNANCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_counterpart:
-    artifact: [[CORE_X_CONTROL_PLANE_MATRIX]]
+    artifact:
+    - - CORE_X_CONTROL_PLANE_MATRIX
   control_plane:
     artifact: 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
   canon_plane:
     artifact: 01_CANON/01_CANON_MOC
   cognitive_matrix:
-    artifact: [[25_COGNITIVE_MATRIX_MOC]]
+    artifact:
+    - - 25_COGNITIVE_MATRIX_MOC
 epistemic_boundary:
-  source_presence:
-    VERIFIED_SOURCE_PRESENCE
-  matrix_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  primitive_structure:
-    VERIFIED_SOURCE_STRUCTURE
-  cross_plane_routing:
-    SOURCE_DEFINED_MODEL
-  authority_envelopes:
-    SOURCE_DEFINED_MODEL
-  signed_cryptographic_tokens:
-    SOURCE_DEFINED_MODEL
-  agent_count_678_plus:
-    SOURCE_CLAIM
-  biological_substrate_firewalls:
-    SOURCE_DEFINED_MODEL
-  runtime_enforcement:
-    NOT_ESTABLISHED
-  executable_multi_agent_routing:
-    NOT_ESTABLISHED
-  cryptographic_implementation:
-    NOT_ESTABLISHED
-  empirical_validation:
-    NOT_ESTABLISHED
-  formal_verification:
-    NOT_ESTABLISHED
+  source_presence: VERIFIED_SOURCE_PRESENCE
+  matrix_structure: VERIFIED_SOURCE_STRUCTURE
+  primitive_structure: VERIFIED_SOURCE_STRUCTURE
+  cross_plane_routing: SOURCE_DEFINED_MODEL
+  authority_envelopes: SOURCE_DEFINED_MODEL
+  signed_cryptographic_tokens: SOURCE_DEFINED_MODEL
+  agent_count_678_plus: SOURCE_CLAIM
+  biological_substrate_firewalls: SOURCE_DEFINED_MODEL
+  runtime_enforcement: NOT_ESTABLISHED
+  executable_multi_agent_routing: NOT_ESTABLISHED
+  cryptographic_implementation: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  formal_verification: NOT_ESTABLISHED
 ---
 
 # Core x Control Plane Cognitive Matrix Specification

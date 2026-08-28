@@ -12,27 +12,40 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - amos_x_universe_canon_matrix
-  - matrix_table
-  - universe_canon
-  - seven_part_universe
-  - cross_plane_routing
-  - reality
-  - sense
-  - knowledge
-  - cognition
-  - governance
-  - execution
-  - evolution
-  - provenance
-  - authority
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- amos_x_universe_canon_matrix
+- matrix_table
+- universe_canon
+- seven_part_universe
+- cross_plane_routing
+- reality
+- sense
+- knowledge
+- cognition
+- governance
+- execution
+- evolution
+- provenance
+- authority
+- rscf
+- canon_candidate
+- canon/matrix
+- amos-x-universe-canon
+- 00-root-moc
+- 00-home
+- 25-cognitive-matrix-moc
+- universe-rscf-index
+- canon
+- amos-x-ubi
+- amos-x-tss
+- amos-x-tpe
+- amos-x-qls
+- amos-rscf-nodes
+- law-hierarchy
+- memory
 version: 1.1.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -47,18 +60,19 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON
-    - AMOS_7_PART_UNIVERSE_CANON
-    - 01_CANON/07_PART_UNIVERSE_CANON
-    - AMOS_CORPUS
+  - 25_COGNITIVE_MATRIX/AMOS_X_UNIVERSE_CANON
+  - AMOS_7_PART_UNIVERSE_CANON
+  - 01_CANON/07_PART_UNIVERSE_CANON
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - CROSS_PLANE_MATRIX_TABLE
-    - SEVEN_PART_UNIVERSE_CANON
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - CROSS_PLANE_MATRIX_TABLE
+  - SEVEN_PART_UNIVERSE_CANON
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   matrix_spec:
-    artifact: [[AMOS_X_UNIVERSE_CANON]]
+    artifact:
+    - - AMOS_X_UNIVERSE_CANON
   universe_canon:
     artifact: 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
   canonical_partition:

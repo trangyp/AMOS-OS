@@ -6,13 +6,15 @@ tags:
 - moc
 - 05-measure
 - canon/control-plane
+- 06-reasoning-modes-moc
+- reasoning-modes-commit-control-plane-mode-spec
+- reasoning-modes-commit-control-plane-provenance
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Measure — Map of Content
 

@@ -12,25 +12,31 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_TSS_TPE_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - matrix
-  - 25_cognitive_matrix
-  - tss
-  - tpe
-  - tss_tpe
-  - trang_system
-  - trang_prediction_engine
-  - strategic_analysis
-  - prediction
-  - decision_intelligence
-  - scenario_analysis
-  - uncertainty
-  - competing_hypotheses
-  - provenance
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- tss
+- tpe
+- tss_tpe
+- trang_system
+- trang_prediction_engine
+- strategic_analysis
+- prediction
+- decision_intelligence
+- scenario_analysis
+- uncertainty
+- competing_hypotheses
+- provenance
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 25-cognitive-matrix-moc
+- canon
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -45,15 +51,15 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TSS_NATIVE_SOURCE
-    - TPE_NATIVE_SOURCE
-    - TSS_X_TPE_NATIVE_SOURCE
-    - AMOS_CORPUS
+  - TSS_NATIVE_SOURCE
+  - TPE_NATIVE_SOURCE
+  - TSS_X_TPE_NATIVE_SOURCE
+  - AMOS_CORPUS
   scope:
-    - AMOS_COGNITIVE_MATRIX
-    - TSS
-    - TPE
-    - TSS_X_TPE
+  - AMOS_COGNITIVE_MATRIX
+  - TSS
+  - TPE
+  - TSS_X_TPE
 source_bindings:
   tss:
     title: The Trang System™ (TSS) – Official Manual
@@ -65,20 +71,13 @@ source_bindings:
     title: PHÂN TÍCH CHIẾN LƯỢC ĐA CHIỀU (TSS × TPE)
     source_status: LOCATED
 epistemic_boundary:
-  source_family_presence:
-    VERIFIED_SOURCE_STRUCTURE
-  matrix_normalization:
-    DERIVED
-  empirical_prediction_accuracy:
-    NOT_ESTABLISHED
-  universal_strategy_validity:
-    NOT_ESTABLISHED
-  causal_validity:
-    CLAIM_SPECIFIC
-  runtime_enforcement:
-    NOT_ESTABLISHED
+  source_family_presence: VERIFIED_SOURCE_STRUCTURE
+  matrix_normalization: DERIVED
+  empirical_prediction_accuracy: NOT_ESTABLISHED
+  universal_strategy_validity: NOT_ESTABLISHED
+  causal_validity: CLAIM_SPECIFIC
+  runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # AMOS × TSS/TPE Matrix
 

@@ -3,7 +3,8 @@ type: canon
 source: 01_CANON/04_INFRASTRUCTURE_CANON
 artifact_id: AMOS-AUTHORITY-CANON
 name: AUTHORITY_CANON
-title: AMOS Authority Canon — Decision Rights, Permission, Commit, and Governance Law
+title: AMOS Authority Canon — Decision Rights, Permission, Commit, and Governance
+  Law
 document_version: 2.0.0
 canon_version: 4.4
 amos_core_target: v4.4
@@ -46,10 +47,40 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/authority-canon
+- readme
+- architecture
+- system-map
+- placement-rules
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- persistence-canon
+- cognition-canon
+- full-brain-os-canon
+- kernel-map
+- control-plane-map
+- runtime-map
+- agent-map
+- workflow-map
+- protocol-map
+- state-state-map
+- tool-map
+- schema-map
+- observability-observability-map
+- security-map
+- test-map
+- operations-map
+- operating-model
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 04-infrastructure-canon-moc
 aliases:
-- AMOS Authority Canon - Authority Canon - AMOS Decision Rights Canon - AMOS Governance Author
+- AMOS Authority Canon - Authority Canon - AMOS Decision Rights Canon - AMOS Governance
+  Author
 ---
-
 
 # AMOS Authority Canon
 **Origin architect / steward:** Trang Phan

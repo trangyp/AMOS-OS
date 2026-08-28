@@ -6,13 +6,20 @@ tags:
 - control_plane
 - 96_scheduling_orchestration_modes
 - canon/control-plane
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 96-scheduling-orchestration-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # SCHEDULING ORCHESTRATION MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 

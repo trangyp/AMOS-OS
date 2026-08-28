@@ -38,8 +38,34 @@ tags:
 - rscf/provenance
 - rscf/state/model
 - topic/distinction-relation-constraint
+- readme
+- architecture
+- system-map
+- placement-rules
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- hml-canon
+- authority-canon
+- canon-provenance
+- source-lineage
+- source-registry
+- conflict-registry
+- supersession-log
+- kernel-map
+- k-core19-logic
+- control-plane-map
+- runtime-map
+- authoritative-state
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 01-meta-logic-moc
 aliases:
-- DRC Kernel - Distinction Relation Constraint - K DRC - AMOS Distinction Relation Constraint
+- DRC Kernel - Distinction Relation Constraint - K DRC - AMOS Distinction Relation
+  Constraint
 ---
 
 # K_DISTINCTION_RELATION_CONSTRAINT

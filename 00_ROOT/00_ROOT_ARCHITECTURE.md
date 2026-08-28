@@ -2,7 +2,7 @@
 type: architecture
 source: 00_ROOT
 aliases:
-- ARCHITECTURE
+- - - ARCHITECTURE
 - AMOS OS Architecture
 - AMOS Root Architecture
 - AMOS System Architecture
@@ -23,7 +23,8 @@ steward: Trang Phan
 created: '2026-08-25'
 updated: '2026-08-25'
 scope:
-- AMOS_OS - repository_architecture - runtime_architecture - cognition_architecture - govern
+- AMOS_OS - repository_architecture - runtime_architecture - cognition_architecture
+  - govern
 tags:
 - amos
 - amos_os
@@ -66,6 +67,25 @@ tags:
 - topic/amos-os
 - topic/system-architecture
 - topic/cognitive-operating-system
+- 00-home
+- full-tree
+- system-map
+- authoritative-state
+- dependency-map
+- placement-rules
+- roadmap
+- amos-core-laws
+- full-brain-os-canon
+- cognition-canon
+- cognitive-organism-canon
+- control-plane-canon
+- authority-canon
+- hml-canon
+- rscf-node-index
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 ---
 
 # AMOS OS Architecture

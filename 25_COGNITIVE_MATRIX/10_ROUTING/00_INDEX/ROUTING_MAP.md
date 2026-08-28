@@ -6,12 +6,35 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-    - internal
+  - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
 - note
 - 00-index
+- index-routing-cognitive-matrix-readme
+- readme
+- task-resolver
+- capability-resolver
+- mode-admission-queue
+- routing-cognitive-matrix-routing-contract
+- mode-composition-registry
+- mode-conflict-registry
+- mode-coverage-matrix
+- mode-dependency-graph
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-root-map
+- amos-rscf-nodes
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- k-rscf
+- l17-rscf
+- references
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 canon-group: canon/cognitive-matrix
 ---
 

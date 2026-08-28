@@ -12,21 +12,30 @@ segment: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE
 artifact_kind: DOMAIN_KNOWLEDGE
 path: 11_KNOWLEDGE/06_DOMAIN_KNOWLEDGE/UBI_NEUROEMOTIONAL_INTELLIGENCE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 06_domain_knowledge
-  - ubi
-  - nei
-  - neuroemotional
-  - affect_regulation
-  - empathy
-  - vagus_nerve
-  - autonomic_balance
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 06_domain_knowledge
+- ubi
+- nei
+- neuroemotional
+- affect_regulation
+- empathy
+- vagus_nerve
+- autonomic_balance
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- amos-x-ubi
+- amos-x-ubi-matrix
+- ubi-neurobiological-intelligence
+- ubi-somatic-intelligence
+- ubi-bioelectromagnetic-intelligence
+- 00-home
+- knowledge-moc
+- 06-domain-knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -41,28 +50,30 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_OFFICIAL_MANUAL
-    - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
-    - AMOS_CORPUS
+  - UBI_OFFICIAL_MANUAL
+  - UNIFIED_BIOLOGICAL_INTELLIGENCE_UBI_OFFICIAL
+  - AMOS_CORPUS
   scope:
-    - BIOLOGICAL_INTELLIGENCE
-    - NEUROEMOTION
-    - SOURCE_DEFINED_NEI_MODEL
+  - BIOLOGICAL_INTELLIGENCE
+  - NEUROEMOTION
+  - SOURCE_DEFINED_NEI_MODEL
 framework_binding:
   parent_framework:
     name: Unified Biological Intelligence™
     acronym: UBI
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   matrix_binding:
-    artifact: [[AMOS_X_UBI]]
-    matrix: [[AMOS_X_UBI_MATRIX]]
+    artifact:
+    - - AMOS_X_UBI
+    matrix:
+    - - AMOS_X_UBI_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE
   clinical_fact: NOT_ESTABLISHED
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Neuroemotional Intelligence™ (NEI)
 

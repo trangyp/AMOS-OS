@@ -6,13 +6,17 @@ tags:
 - moc
 - 03-experimental
 - canon/archive
+- archive-experimental-contract
+- experimental-archive-readme
+- experimental-framework-registry
+- 00-index-moc
+- 24-archive-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Experimental — Map of Content
 

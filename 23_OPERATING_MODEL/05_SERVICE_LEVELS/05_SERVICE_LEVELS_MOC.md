@@ -6,13 +6,17 @@ tags:
 - moc
 - 05-service-levels
 - canon/operating-model
+- operating-model-service-levels-contract
+- service-levels
+- service-levels-operating-model-readme
+- 00-index-moc
+- 23-operating-model-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 05 Service Levels — Map of Content
 

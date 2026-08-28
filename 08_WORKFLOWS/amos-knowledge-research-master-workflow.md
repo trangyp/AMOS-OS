@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-knowledge-research-master
 Agent: amos-knowledge-research-agent
-Trigger: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge indexing, curation,
-  RAG best practices. 68,979-note vault as reasoning brain. Use for knowledge management, researc
+Trigger: AMOS Knowledge & Research — Obsidian vault integration, arxiv research, knowledge
+  indexing, curation, RAG best practices. 68,979-note vault as reasoning brain. Use
+  for knowledge management, researc
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: knowledge
 ---
-
 
 # Workflow: AMOS Knowledge & Research Master
 

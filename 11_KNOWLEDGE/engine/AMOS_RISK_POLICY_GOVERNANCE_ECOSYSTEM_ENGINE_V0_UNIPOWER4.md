@@ -14,6 +14,7 @@ tags:
 - rscf/state/source-claim
 - topic/amos-risk-policy-governance-ecosystem-en
 - engine
+- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS RISK POLICY GOVERNANCE ECOSYSTEM ENGINE V0 UNIPOWER4
 
 ```json

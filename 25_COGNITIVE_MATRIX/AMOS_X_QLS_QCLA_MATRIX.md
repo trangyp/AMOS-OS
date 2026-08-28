@@ -12,26 +12,34 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/AMOS_X_QLS_QCLA_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - matrix
-  - 25_cognitive_matrix
-  - qls
-  - qcla
-  - quantum_logic_scaffold
-  - quantum_logic_system
-  - quantum_causality_layer_architecture
-  - logic
-  - causality
-  - multi_state_reasoning
-  - causal_propagation
-  - collapse
-  - constraints
-  - causal_firewall
-  - deterministic_logic
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- matrix
+- 25_cognitive_matrix
+- qls
+- qcla
+- quantum_logic_scaffold
+- quantum_logic_system
+- quantum_causality_layer_architecture
+- logic
+- causality
+- multi_state_reasoning
+- causal_propagation
+- collapse
+- constraints
+- causal_firewall
+- deterministic_logic
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- amos-x-qls
+- amos-x-qcla
+- 25-cognitive-matrix-moc
+- law-hierarchy
+- ubi
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -46,8 +54,8 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_QLS_CORPUS
-    - AMOS_QCLA_CAUSALITY_CORPUS
+  - AMOS_QLS_CORPUS
+  - AMOS_QCLA_CAUSALITY_CORPUS
   scope: QLS_QCLA_INTEGRATION_MODEL
 framework_binding:
   QLS:
@@ -73,7 +81,6 @@ epistemic_boundary:
   deterministic_prediction: NOT_ESTABLISHED
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # AMOS × QLS/QCLA Matrix
 

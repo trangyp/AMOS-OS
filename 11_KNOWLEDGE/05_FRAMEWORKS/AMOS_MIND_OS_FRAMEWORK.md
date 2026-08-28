@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/AMOS_MIND_OS_FRAMEWORK.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - mind_os
-  - cognitive_architecture
-  - mental_models
-  - metacognition
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- mind_os
+- cognitive_architecture
+- mental_models
+- metacognition
+- rscf
+- canon_candidate
+- canon/knowledge
+- amos-organism-os-framework
+- metacognitive-loop
+- qls-framework
+- ldai-logically-deterministic-ai
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,25 +45,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - BOOK_THE_99_PCT_MIND_FROM_BRAIN_MYTHS_TO_META_INTEL
-    - AMOS_FULL_BRAIN_OS_ARCHITECTURE
-    - AMOS_CORPUS
+  - BOOK_THE_99_PCT_MIND_FROM_BRAIN_MYTHS_TO_META_INTEL
+  - AMOS_FULL_BRAIN_OS_ARCHITECTURE
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - COGNITIVE_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - COGNITIVE_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   organism_os:
-    artifact: [[AMOS_ORGANISM_OS_FRAMEWORK]]
+    artifact:
+    - - AMOS_ORGANISM_OS_FRAMEWORK
   metacognitive_loop:
-    artifact: [[METACOGNITIVE_LOOP]]
+    artifact:
+    - - METACOGNITIVE_LOOP
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   mind_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # AMOS Mind OS Framework
 

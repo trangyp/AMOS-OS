@@ -6,13 +6,28 @@ tags:
 - control_plane
 - 18_memory_modes
 - canon/control-plane
+- memory
+- readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- memory-modes-commit-control-plane-mode-family-spec
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 18-memory-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # [[MEMORY]] MODES COMMIT CONTROL PLANE [[README]]
 

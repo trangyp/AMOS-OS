@@ -6,13 +6,23 @@ tags:
 - moc
 - 03-causal
 - canon/kernel
+- causal-kernel-readme
+- kernel-causal-contract
+- k-biological-causality
+- k-causal-closure
+- k-causal-epoch
+- k-causal-hierarchy
+- k-cross-scale-causality
+- k-quantum-causality
+- k-reality-causality
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Causal — Map of Content
 

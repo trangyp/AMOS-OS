@@ -8,6 +8,14 @@ tags:
 - rscf/state/source-claim
 - topic/amos-kernel-routing-workflow
 - kernel
+- k-meta-logic
+- amos-ubi-kernel
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- amos-simulation-kernel-v0-math-foundations
+- automation-profiles
+- kernel-moc
 type: document
 source: 11_KNOWLEDGE/kernel
 rscf:
@@ -16,7 +24,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS Kernel Routing Workflow
 

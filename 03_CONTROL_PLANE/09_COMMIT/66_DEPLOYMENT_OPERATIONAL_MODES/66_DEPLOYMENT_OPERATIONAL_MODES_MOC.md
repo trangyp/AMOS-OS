@@ -6,13 +6,13 @@ tags:
 - moc
 - 66-deployment-operational-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 66 Deployment Operational Modes — Map of Content
 

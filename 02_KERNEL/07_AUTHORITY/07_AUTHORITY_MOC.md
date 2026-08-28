@@ -6,13 +6,20 @@ tags:
 - moc
 - 07-authority
 - canon/kernel
+- authority-kernel-readme
+- kernel-authority-contract
+- k-capability-authorization
+- k-commit-time-authority
+- k-effect-classification
+- k-information-exposure
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 07 Authority — Map of Content
 

@@ -5,6 +5,13 @@ tags:
 - processing
 - runtime
 - canon/knowledge
+- dignity
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- engine-moc
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -13,7 +20,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # **HSE = Human Systems Engine.**
 # **ĐỀ ÁN: HSE VIỆT NAM**

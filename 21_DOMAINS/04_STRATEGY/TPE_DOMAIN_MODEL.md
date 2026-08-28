@@ -12,17 +12,23 @@ segment: 21_DOMAINS/04_STRATEGY
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/04_STRATEGY/TPE_DOMAIN_MODEL.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 04_strategy
-  - tpe_domain_model
-  - predictive_foresight
-  - structural_forecasting
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 04_strategy
+- tpe_domain_model
+- predictive_foresight
+- structural_forecasting
+- rscf
+- canon_candidate
+- canon/domain
+- tpe-trang-prediction-engine
+- 04-strategy-moc
+- amos-x-tpe
+- tss-seven-cycles
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,20 +43,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE
-    - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TPE_TRANG_PREDICTION_ENGINE
+  - 21_DOMAINS/04_STRATEGY/04_STRATEGY_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_STRATEGY
-    - TPE_STRATEGY_MODEL
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_STRATEGY
+  - TPE_STRATEGY_MODEL
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   tpe_master:
-    artifact: [[TPE_TRANG_PREDICTION_ENGINE]]
+    artifact:
+    - - TPE_TRANG_PREDICTION_ENGINE
   strategy_moc:
-    artifact: [[04_STRATEGY_MOC]]
+    artifact:
+    - - 04_STRATEGY_MOC
   matrix_binding:
-    artifact: [[AMOS_X_TPE]]
+    artifact:
+    - - AMOS_X_TPE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

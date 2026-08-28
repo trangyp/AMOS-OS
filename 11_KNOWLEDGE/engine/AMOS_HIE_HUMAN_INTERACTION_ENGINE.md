@@ -12,6 +12,8 @@ tags:
 - rscf/state/observation
 - topic/amos-hie-human-interaction-engine
 - engine
+- 00-cosmo-brain-moc
+- engine-moc
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -22,7 +24,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
 
 # AMOS HIE — Human Interaction Engine
 

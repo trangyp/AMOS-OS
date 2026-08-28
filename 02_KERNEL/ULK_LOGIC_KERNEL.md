@@ -7,6 +7,11 @@ tags:
 - kernel
 - logic
 - alu
+- 02-kernel-moc
+- reality-x-ulk
+- reality-x-ulk-matrix
+- 03-causal-moc
+- 00-home
 ---
 
 # ULK Logic Kernel (Universal Logic Kernel)
@@ -15,3 +20,7 @@ The 6-ALU Universal Logic Kernel mapping pre-symbolic ontology to formal logic o
 
 ## Related
 - [[02_KERNEL_MOC]] · [[REALITY_X_ULK]] · [[REALITY_X_ULK_MATRIX]]
+
+---
+
+**MOC:** [[03_CAUSAL_MOC]] · [[00_HOME]]

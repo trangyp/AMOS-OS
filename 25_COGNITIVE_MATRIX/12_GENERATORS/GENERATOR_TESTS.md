@@ -6,13 +6,19 @@ tags:
 - note
 - 12-generators
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- 00-home
+- generators-map
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 12-generators-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 12_GENERATORS — Generator Tests
 

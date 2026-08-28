@@ -20,7 +20,8 @@ implementation_state: SOURCE_IMPLEMENTATION
 execution_risk: MUTATING_FILESYSTEM
 topic: integratedagent
 aliases:
-- AMOS Universal Rename Engine - AMOS Namespace Migration Engine - AMOS Deterministic Rename Eng
+- AMOS Universal Rename Engine - AMOS Namespace Migration Engine - AMOS Deterministic
+  Rename Eng
 tags:
 - canon-group/tech-ai
 - knowledge
@@ -34,6 +35,15 @@ tags:
 - topic/namespace-migration
 - topic/repository-migration
 - agents
+- architecture
+- validation
+- references
+- 00-home
+- 00-root-moc
+- canon
+- amos-moc
+- amos-rscf-nodes
+- knowledge-moc
 governing_law: integrity > completeness > fluency > speed > token savings
 rscf:
   state: SOURCE_CLAIM
@@ -41,8 +51,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
-
 
 # AMOS Universal Rename Engine
 ## Governed Deterministic Namespace Migration

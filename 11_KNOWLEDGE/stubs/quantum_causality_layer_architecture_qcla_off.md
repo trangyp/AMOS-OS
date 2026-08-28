@@ -7,9 +7,16 @@ tags:
 - layer
 - architecture
 - qcla
-- off
+- false
+- kernel-moc
+- 00-home
+- quantum-causality-layer-architecture-qcla-off
 ---
 
 # quantum causality layer architecture qcla off
 
 Stub note for [[quantum_causality_layer_architecture_qcla_off]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

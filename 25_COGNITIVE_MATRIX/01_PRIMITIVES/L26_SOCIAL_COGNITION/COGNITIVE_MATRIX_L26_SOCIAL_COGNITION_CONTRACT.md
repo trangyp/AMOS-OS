@@ -8,13 +8,20 @@ tags:
 - l26_social_cognition
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- amos-rscf-nodes
+- cognitive-matrix-primitives-contract
+- l26-social-cognition-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L26_SOCIAL_COGNITION — Social cognition Contract
 

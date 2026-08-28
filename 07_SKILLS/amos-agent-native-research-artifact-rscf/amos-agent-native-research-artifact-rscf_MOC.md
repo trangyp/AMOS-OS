@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-agent-native-research-artifact-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Agent-Native-Research-Artifact-Rscf — Map of Content
 

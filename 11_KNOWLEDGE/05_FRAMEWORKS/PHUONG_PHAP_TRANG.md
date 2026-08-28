@@ -12,20 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/PHUONG_PHAP_TRANG.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - phuong_phap_trang
-  - cognitive_restructuring
-  - closed_loops
-  - precise_language
-  - flow_state
-  - entropy_reduction
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- phuong_phap_trang
+- cognitive_restructuring
+- closed_loops
+- precise_language
+- flow_state
+- entropy_reduction
+- rscf
+- canon_candidate
+- canon/knowledge
+- post-theory-communication
+- unified-biological-intelligence
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
+- trang-reality-architecture
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,21 +46,23 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - PHUONG_PHAP_TRANG_TAI_CAU_TRUC_TOAN_BO
-    - FULL_PHUONG_PHAP_TRANG
-    - AMOS_CORPUS
+  - PHUONG_PHAP_TRANG_TAI_CAU_TRUC_TOAN_BO
+  - FULL_PHUONG_PHAP_TRANG
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - COGNITIVE_RESTRUCTURING
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - COGNITIVE_RESTRUCTURING
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Phương Pháp Trang — Toàn Diện Tái Cấu Trúc Não Bộ & Nhận Thức
     role: COGNITIVE_RESTRUCTURING_AND_CLOSED_LOOP_METHODOLOGY
   post_theory:
-    artifact: [[POST_THEORY_COMMUNICATION]]
+    artifact:
+    - - POST_THEORY_COMMUNICATION
   biological_grounding:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -62,7 +70,6 @@ epistemic_boundary:
   clinical_therapy: NOT_ESTABLISHED
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Phương Pháp Trang — Toàn Diện Tái Cấu Trúc Nhận Thức
 

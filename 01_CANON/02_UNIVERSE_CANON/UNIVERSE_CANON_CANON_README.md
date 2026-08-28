@@ -6,13 +6,38 @@ tags:
 - amos_os
 - 01_canon
 - canon/universe
+- readme
+- amos-7-part-universe-canon
+- canon-universe-canon-contract
+- hml-canon
+- p1-reality-environment
+- canon
+- p2-sense-evidence
+- p3-knowledge-memory
+- p4-cognition-models
+- p5-governance-authority
+- p6-execution-agency
+- p7-evolution-learning
+- persistence-canon
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: universe_canon
 ---
-
 
 # UNIVERSE [[CANON]] [[CANON]] [[README]]
 

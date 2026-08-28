@@ -6,13 +6,13 @@ tags:
 - moc
 - 01-explore
 - canon/control-plane
+- 06-reasoning-modes-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Explore — Map of Content
 

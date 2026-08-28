@@ -12,17 +12,22 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ARCHITECTURE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/COGNITIVE_SYSTEMS_ARCHITECTURE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - cognitive_systems_architecture
-  - multi_layer_cognition
-  - perception_reasoning_action
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- cognitive_systems_architecture
+- multi_layer_cognition
+- perception_reasoning_action
+- rscf
+- canon_candidate
+- canon/knowledge
+- amos-mind-os-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
+- ldai-logically-deterministic-ai
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,26 +42,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION
-    - AMOS_FULL_BRAIN_OS_ARCHITECTURE
-    - AMOS_CORPUS
+  - THE_ARCHITECTURE_OF_INTELLIGENCE_AND_PERCEPTION
+  - AMOS_FULL_BRAIN_OS_ARCHITECTURE
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - COGNITIVE_SYSTEMS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - COGNITIVE_SYSTEMS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   brain_os:
-    artifact: '11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE'
+    artifact: 11_KNOWLEDGE/AMOS_FULL_BRAIN_OS_ARCHITECTURE
   mind_os:
-    artifact: [[AMOS_MIND_OS_FRAMEWORK]]
+    artifact:
+    - - AMOS_MIND_OS_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   cognitive_architecture: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
-
 
 # Cognitive Systems Architecture
 

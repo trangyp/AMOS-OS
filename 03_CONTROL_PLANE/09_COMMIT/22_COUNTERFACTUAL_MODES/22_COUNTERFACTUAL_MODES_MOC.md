@@ -6,13 +6,14 @@ tags:
 - moc
 - 22-counterfactual-modes
 - canon/control-plane
+- 09-commit-moc
+- counterfactual-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 22 Counterfactual Modes — Map of Content
 

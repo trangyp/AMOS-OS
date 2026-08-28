@@ -39,18 +39,14 @@ local resolution
 ---
 
 Stub note for [[00_index
-```
-
-identity resolves uniquely.
-
-no cross-segment dependency can alter the result.
-
-correct:
-
-```text
+text
 local resolution
 ```
 
 ---
 
 ]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

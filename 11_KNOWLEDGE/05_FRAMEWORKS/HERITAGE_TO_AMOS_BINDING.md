@@ -12,19 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: BINDING
 path: 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_TO_AMOS_BINDING.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - heritage_amos_binding
-  - amos_os
-  - heritage
-  - decision_governance
-  - control_plane
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- heritage_amos_binding
+- amos_os
+- heritage
+- decision_governance
+- control_plane
+- rscf
+- canon_candidate
+- canon/knowledge
+- heritage-intelligence-master
+- amos-full-brain-os-architecture
+- amos-x-heritage
+- amos-x-heritage-matrix
+- heritage-handbook
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,28 +47,31 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - HERITAGE_INTELLIGENCE_CANON
-    - AMOS_CORPUS
+  - HERITAGE_INTELLIGENCE_CANON
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - OS_BINDINGS
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - OS_BINDINGS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   source_framework:
-    artifact: [[HERITAGE_INTELLIGENCE_MASTER]]
+    artifact:
+    - - HERITAGE_INTELLIGENCE_MASTER
   target_os:
     name: AMOS OS Core Architecture
-    artifact: [[AMOS_FULL_BRAIN_OS_ARCHITECTURE]]
+    artifact:
+    - - AMOS_FULL_BRAIN_OS_ARCHITECTURE
   cognitive_matrix_binding:
-    artifact: [[AMOS_X_HERITAGE]]
-    matrix: [[AMOS_X_HERITAGE_MATRIX]]
+    artifact:
+    - - AMOS_X_HERITAGE
+    matrix:
+    - - AMOS_X_HERITAGE_MATRIX
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   binding_structure: VERIFIED_SOURCE_STRUCTURE
   governance_rules: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Heritage-to-AMOS Binding
 

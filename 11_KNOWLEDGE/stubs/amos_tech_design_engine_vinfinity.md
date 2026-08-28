@@ -7,8 +7,15 @@ tags:
 - design
 - engine
 - vinfinity
+- amos-tech-design-engine-vinfinity
+- kernel-moc
+- 00-home
 ---
 
 # amos tech design engine vinfinity
 
 Stub note for [[amos_tech_design_engine_vinfinity]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

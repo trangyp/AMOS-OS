@@ -8,6 +8,8 @@ tags:
 - rscf/state/source-claim
 - topic/amos-ml-engineering-kernel-v0
 - engine
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -16,6 +18,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS ML ENGINEERING KERNEL V0 TECH
 
 ```json

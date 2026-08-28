@@ -6,13 +6,19 @@ tags:
 - reference
 - amos-super-engines-master
 - canon/skill
+- architecture
+- references-moc
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # AMOS Omega State of the Art Complete
 

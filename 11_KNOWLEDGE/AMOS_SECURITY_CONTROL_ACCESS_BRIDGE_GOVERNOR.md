@@ -18,6 +18,15 @@ tags:
 - topic/security-control-access
 - topic/pipeline-governance
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- 11-knowledge-moc
+- access-control
+- bounded-intelligence-security
+- amos-cross-domain-tensor-composition-governor
+- risk-compliance-model
+- c09-org-law-policy
+- c10-tech-engineering
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM

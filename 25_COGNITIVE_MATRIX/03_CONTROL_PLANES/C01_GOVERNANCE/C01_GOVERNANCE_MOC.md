@@ -6,13 +6,15 @@ tags:
 - moc
 - c01-governance
 - canon/cognitive-matrix
+- cognitive-matrix-c01-governance-contract
+- 00-index-moc
+- 03-control-planes-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C01 Governance — Map of Content
 

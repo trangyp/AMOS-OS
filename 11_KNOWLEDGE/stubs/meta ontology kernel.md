@@ -5,8 +5,15 @@ tags:
 - meta
 - ontology
 - kernel
+- meta-ontology-kernel
+- kernel-moc
+- 00-home
 ---
 
 # meta ontology kernel
 
 Stub note for [[meta ontology kernel]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

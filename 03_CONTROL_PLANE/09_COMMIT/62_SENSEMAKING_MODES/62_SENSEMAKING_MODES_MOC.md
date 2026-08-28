@@ -6,13 +6,14 @@ tags:
 - moc
 - 62-sensemaking-modes
 - canon/control-plane
+- 09-commit-moc
+- sensemaking-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 62 Sensemaking Modes — Map of Content
 

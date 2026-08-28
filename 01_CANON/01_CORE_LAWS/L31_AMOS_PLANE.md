@@ -7,13 +7,24 @@ tags:
 - core_laws
 - note
 - canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- l33-kernel
+- l32-canon
+- l8-execution
+- l3-dependency
+- l10-failure-recovery
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: core_laws
 ---
-
 
 # L31 AMOS Plane Law
 

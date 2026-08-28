@@ -6,13 +6,16 @@ tags:
 - moc
 - amos-c06-society-culture-master
 - canon/skill
+- agent-template
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-C06-Society-Culture-Master — Map of Content
 

@@ -12,17 +12,22 @@ segment: 21_DOMAINS/07_HEALTHCARE
 artifact_kind: DOMAIN_MODEL
 path: 21_DOMAINS/07_HEALTHCARE/BIOLOGICAL_INTEGRITY_HEALTH_MODEL.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 07_healthcare
-  - biological_integrity_health_model
-  - homeostatic_resilience
-  - allostatic_load
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 07_healthcare
+- biological_integrity_health_model
+- homeostatic_resilience
+- allostatic_load
+- rscf
+- canon_candidate
+- canon/domain
+- absolute-biological-integrity-framework
+- 07-healthcare-moc
+- ubi-health-application
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
-    - 21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
+  - 21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_HEALTHCARE
-    - HEALTH_INTEGRITY_MODEL
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_HEALTHCARE
+  - HEALTH_INTEGRITY_MODEL
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   firewall_framework:
-    artifact: [[ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK]]
+    artifact:
+    - - ABSOLUTE_BIOLOGICAL_INTEGRITY_FRAMEWORK
   healthcare_moc:
-    artifact: [[07_HEALTHCARE_MOC]]
+    artifact:
+    - - 07_HEALTHCARE_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

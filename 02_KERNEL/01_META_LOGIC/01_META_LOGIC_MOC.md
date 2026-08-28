@@ -6,13 +6,27 @@ tags:
 - moc
 - 01-meta-logic
 - canon/kernel
+- kernel-meta-logic-contract
+- k-absolute-logic
+- k-bio-logical-computing
+- k-core19-logic
+- k-directed-systemal-intelligence
+- k-distinction-relation-constraint
+- k-irreducible-systems
+- k-law-hierarchy
+- k-meta-logic
+- k-qcla
+- k-quantum-logic-system
+- k-universe-logic-kernel
+- meta-logic-kernel-readme
+- 00-index-moc
+- 02-kernel-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Meta Logic — Map of Content
 

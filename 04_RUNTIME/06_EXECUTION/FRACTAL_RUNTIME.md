@@ -12,17 +12,23 @@ segment: 04_RUNTIME/06_EXECUTION
 artifact_kind: RUNTIME_SPEC
 path: 04_RUNTIME/06_EXECUTION/FRACTAL_RUNTIME.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 06_execution
-  - fractal_runtime
-  - multi_scale_recursion
-  - lacunarity_gating
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 06_execution
+- fractal_runtime
+- multi_scale_recursion
+- lacunarity_gating
+- rscf
+- canon_candidate
+- canon/runtime
+- 06-execution-moc
+- frai-fractal-reasoning-ai
+- trang-lacunarity
+- heritage-fractal-mathematics
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,14 +43,14 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
-    - 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
-    - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY
-    - AMOS_CORPUS
+  - 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC
+  - 11_KNOWLEDGE/05_FRAMEWORKS/FRAI_FRACTAL_REASONING_AI
+  - 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_LACUNARITY
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_EXECUTION
-    - FRACTAL_EXECUTION
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_EXECUTION
+  - FRACTAL_EXECUTION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   execution_moc:
     artifact: 04_RUNTIME/06_EXECUTION/06_EXECUTION_MOC

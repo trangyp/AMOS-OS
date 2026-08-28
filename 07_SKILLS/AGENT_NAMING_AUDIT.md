@@ -4,18 +4,20 @@ type: agent
 name: agent-naming-audit
 version: 1.0.0
 source: AGENT_SCHEMA.md, Agent_Templates.md, amos-agent-registry-index.md
-description: AMOS agent naming and structure audit produced from .devin/agents across the vault.
+description: AMOS agent naming and structure audit produced from .devin/agents across
+  the vault.
 tags:
 - note
 - 07-skills
 - canon/skill
+- skill
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # AMOS Agent Naming Audit
 

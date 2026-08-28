@@ -6,13 +6,17 @@ tags:
 - moc
 - l06-working-state
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l06-working-state-contract
+- l06-working-state-primitives-cognitive-matrix-hml
+- l06-working-state-primitives-cognitive-matrix-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L06 Working State — Map of Content
 

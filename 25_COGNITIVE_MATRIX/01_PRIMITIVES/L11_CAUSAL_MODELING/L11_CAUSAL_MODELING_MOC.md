@@ -6,13 +6,15 @@ tags:
 - moc
 - l11-causal-modeling
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l11-causal-modeling-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L11 Causal Modeling — Map of Content
 

@@ -6,13 +6,14 @@ tags:
 - note
 - amos-c12-earth-ecology-master
 - canon/skill
+- skill
+- amos-c12-earth-ecology-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-c12-earth-ecology-master
 

@@ -6,13 +6,13 @@ tags:
 - moc
 - 91-calibration-confidence-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 91 Calibration Confidence Modes — Map of Content
 

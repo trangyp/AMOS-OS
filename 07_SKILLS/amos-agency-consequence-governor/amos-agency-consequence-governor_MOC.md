@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-agency-consequence-governor
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Agency-Consequence-Governor — Map of Content
 

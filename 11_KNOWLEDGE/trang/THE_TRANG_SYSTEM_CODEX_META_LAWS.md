@@ -5,6 +5,13 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- architecture
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- trang-moc
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +20,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # **THE TRANG SYSTEM™ CODEX – META-LAWS**
 ## **Law 001 (META) – The Law of Law™**

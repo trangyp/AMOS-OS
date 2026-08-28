@@ -6,13 +6,19 @@ tags:
 - moc
 - 06-reasoning-modes
 - canon/control-plane
+- 01-explore-moc
+- 02-diagnose-moc
+- 03-design-moc
+- 04-audit-moc
+- 05-measure-moc
+- reasoning-modes-commit-control-plane-readme
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 06 Reasoning Modes — Map of Content
 

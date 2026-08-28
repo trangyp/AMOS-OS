@@ -14,6 +14,11 @@ tags:
 - ai
 - governance
 - canon/kernel
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 01-meta-logic-moc
 title: L02_ATTENTION — Purpose
 origin_architect: Trang Phan
 status: MODEL_SPECIFICATION / SOURCE-BOUNDED / UNVALIDATED
@@ -25,7 +30,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L02_ATTENTION — Purpose
 

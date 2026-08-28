@@ -6,13 +6,14 @@ tags:
 - note
 - amos-causal-reasoning-master
 - canon/skill
+- skill
+- amos-causal-reasoning-master-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Template: amos-causal-reasoning-master
 

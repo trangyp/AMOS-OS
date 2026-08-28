@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-persistence-dissolution-rscf-dynami
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Persistence-Dissolution-Rscf-Dynamics — Map of Content
 

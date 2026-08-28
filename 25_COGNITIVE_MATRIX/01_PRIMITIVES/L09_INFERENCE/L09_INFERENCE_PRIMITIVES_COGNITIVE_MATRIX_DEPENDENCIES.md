@@ -6,13 +6,20 @@ tags:
 - note
 - l09-inference
 - canon/cognitive-matrix
+- cognitive-matrix-moc
+- 00-root-moc
+- amos-moc
+- l09-inference-moc
+- l05-binding-primitives-cognitive-matrix-readme
+- l07-memory-primitives-cognitive-matrix-readme
+- l13-prediction-primitives-cognitive-matrix-readme
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L09 — Dependencies
 

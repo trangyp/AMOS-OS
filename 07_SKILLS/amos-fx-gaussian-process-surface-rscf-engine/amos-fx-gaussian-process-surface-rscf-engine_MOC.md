@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-fx-gaussian-process-surface-rscf-en
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Fx-Gaussian-Process-Surface-Rscf-Engine — Map of Content
 

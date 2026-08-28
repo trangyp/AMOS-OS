@@ -17,29 +17,36 @@ schema_family: RSCF
 schema_role: EPISTEMIC_INTEGRITY_CANON_RSCF
 schema_version: AMOS_CORE_v4.4-compatible-conceptual
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - core_laws
-  - epistemic_integrity
-  - canon_placeholder
-  - epistemic_class
-  - evidence
-  - provenance
-  - lineage
-  - confidence
-  - uncertainty
-  - contradiction
-  - competing_hypotheses
-  - scope
-  - regime
-  - causality
-  - validation
-  - governance
-  - rscf
-  - canon/universe
-  - placeholder_expanded
+- amos_os
+- canon
+- universe
+- 01_canon
+- core_laws
+- epistemic_integrity
+- canon_placeholder
+- epistemic_class
+- evidence
+- provenance
+- lineage
+- confidence
+- uncertainty
+- contradiction
+- competing_hypotheses
+- scope
+- regime
+- causality
+- validation
+- governance
+- rscf
+- canon/universe
+- placeholder_expanded
+- law-hierarchy
+- 00-home
+- amos-rscf-nodes
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED

@@ -12,19 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_EQUATION_REGISTRY.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - trang_equation_registry
-  - equations
-  - master_equations
-  - e_equals_i_squared
-  - alignment
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- trang_equation_registry
+- equations
+- master_equations
+- e_equals_i_squared
+- alignment
+- rscf
+- canon_candidate
+- canon/knowledge
+- equation-registry
+- tss-the-trang-system
+- unified-biological-intelligence
+- trang-reality-architecture
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,26 +46,26 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - EQUATION_REGISTRY
-    - KHUNG_TRANG_FULL_EQUATIONS
-    - AMOS_CORPUS
+  - EQUATION_REGISTRY
+  - KHUNG_TRANG_FULL_EQUATIONS
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - EQUATION_REGISTRY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - EQUATION_REGISTRY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: Trang Master Equation Registry
     role: CANONICAL_EQUATION_CATALOG
   index_binding:
-    artifact: [[EQUATION_REGISTRY]]
+    artifact:
+    - - EQUATION_REGISTRY
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   equation_truth: MODEL_LEVEL_ANALYTIC_EQUATIONS
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Trang Master Equation Registry
 

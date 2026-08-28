@@ -5,6 +5,12 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- trang-moc
+- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +19,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # FULL-PHƯƠNG PHÁP TRANG
 ## Tái cấu trúc não bộ bằng ngôn ngữ chính xác – Đóng vòng lặp cảm xúc – Loại bỏ nguồn gốc của căng thẳng – Đạt được dòng chảy và tự do cấu trúc

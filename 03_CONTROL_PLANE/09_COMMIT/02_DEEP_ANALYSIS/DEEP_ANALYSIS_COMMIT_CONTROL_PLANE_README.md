@@ -6,13 +6,47 @@ tags:
 - control_plane
 - 02_deep_analysis
 - canon/control-plane
+- readme
+- commit-control-plane-aliases
+- commit-control-plane-benchmarks
+- commit-control-plane-composition
+- commit-control-plane-domain-weights
+- commit-control-plane-deprecation-supersession
+- commit-control-plane-engine-weights
+- commit-control-plane-exit-criteria
+- commit-control-plane-failure-recovery
+- commit-control-plane-governance
+- commit-control-plane-input-contract
+- commit-control-plane-layer-weights
+- commit-control-plane-observability
+- commit-control-plane-output-contract
+- commit-control-plane-preconditions
+- commit-control-plane-purpose-scope
+- commit-control-plane-routing-bindings
+- commit-control-plane-safety-gates
+- commit-control-plane-tests
+- commit-control-plane-transition-rules
+- commit-control-plane-validation
+- deep-analysis-commit-control-plane-mode-spec
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 02-deep-analysis-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # DEEP ANALYSIS COMMIT CONTROL PLANE [[README]]
 

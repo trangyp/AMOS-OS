@@ -6,13 +6,32 @@ tags:
 - moc
 - references
 - canon/skill
+- 11k-murk-audit
+- amatrix-dynamics
+- constraint-engine
+- equation-firewall
+- murk-engine-expansion
+- omega-advanced-tensor-analysis
+- qfm-adversarial-hardening
+- qfm-architecture-refinement
+- qfm-consolidation
+- qfm-five-layer-architecture
+- qfm-max-power-consolidation
+- tensor-composition-governance
+- vault-domain-knowledge
+- amos-formal-engines-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # References — Map of Content
 

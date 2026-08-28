@@ -6,13 +6,15 @@ tags:
 - moc
 - 01-identity
 - canon/cognitive
+- directed-systemal-identity
+- identity-continuity-model
+- 05-cognitive-organism-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Identity — Map of Content
 

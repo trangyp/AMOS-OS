@@ -6,13 +6,34 @@ tags:
 - moc
 - 06-biology
 - canon/domain
+- absolute-biological-integrity
+- bei
+- biological-programming
+- biology-domains-domain-spec
+- biology-domains-readme
+- cross-species-functional-mode-model
+- domains-biology-contract
+- domains-interfaces
+- domains-provenance
+- nbi
+- nei
+- ubi-consentx-integration
+- ubi-domain-canon
+- ubi-entropy-correction
+- ubi-fractal-architecture
+- ubi-id-exchange-integration
+- ubi-neurosyncai-integration
+- ubi-omnis
+- ubi-ratpak-integration
+- ubi-super
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 06 Biology — Map of Content
 

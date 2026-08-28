@@ -7,8 +7,15 @@ tags:
 - engine
 - vinfinity
 - max
+- amos-design-engine-vinfinity-max
+- kernel-moc
+- 00-home
 ---
 
 # amos design engine vinfinity max
 
 Stub note for [[amos_design_engine_vinfinity_max]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

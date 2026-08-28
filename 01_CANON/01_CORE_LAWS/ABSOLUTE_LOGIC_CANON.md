@@ -12,22 +12,41 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: LOG
 path: 01_CANON/01_CORE_LAWS/ABSOLUTE_LOGIC_CANON.md
 tags:
-  - amos_os
-  - canon
-  - core_laws
-  - absolute_logic
-  - deterministic_logic
-  - recursive_reasoning
-  - epistemic_logic
-  - causal_logic
-  - scope_logic
-  - contradiction
-  - competing_hypotheses
-  - provenance
-  - rscf
-  - fractal_knowledge
-  - governance
-  - canon/core_laws
+- amos_os
+- canon
+- core_laws
+- absolute_logic
+- deterministic_logic
+- recursive_reasoning
+- epistemic_logic
+- causal_logic
+- scope_logic
+- contradiction
+- competing_hypotheses
+- provenance
+- rscf
+- fractal_knowledge
+- governance
+- canon/core_laws
+- absolute-integrity-canon
+- law-hierarchy
+- provenance-topology-validation-receipt
+- scope-regime-validation-receipt
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- rollback-validation-receipt
+- selective-invalidation
+- fractal-reasoning
+- mvcc-cas
+- validation
+- epistemic-regimes
+- 00-home
+- amos-rscf-nodes
+- 01-core-laws-moc
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
 version: 1.0.0
 updated: '2026-08-27'
 status: CANON_CANDIDATE
@@ -3692,7 +3711,7 @@ ABSOLUTE_LOGIC
 ├── RSCF
 │   ├── DEPENDENCIES
 │   ├── PROOF_CAPSULES
-│   └── SELECTIVE_INVALIDATION
+│   └── [[SELECTIVE_INVALIDATION]]
 │
 ├── CONTRADICTION
 │   ├── CONFLICT_PRESERVATION
@@ -3779,7 +3798,7 @@ At any point:
 ```text
 FAILED_LOAD_BEARING_PREMISE
 →
-SELECTIVE_INVALIDATION
+[[SELECTIVE_INVALIDATION]]
 →
 NEAREST_VALID_STATE
 ```

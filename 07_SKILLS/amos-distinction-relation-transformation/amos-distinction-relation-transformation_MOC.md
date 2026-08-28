@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-distinction-relation-transformation
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Distinction-Relation-Transformation — Map of Content
 

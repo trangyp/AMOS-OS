@@ -1,31 +1,47 @@
 ---
 title: EPISTEMIC_REGIMES Classification Law
 aliases:
-  - "EPISTEMIC_REGIMES"
-  - "Epistemic Regimes"
-  - "Epistemic Regimes Classification"
-  - "Epistemic Classification Law"
+- EPISTEMIC_REGIMES
+- Epistemic Regimes
+- Epistemic Regimes Classification
+- Epistemic Classification Law
 type: core_law
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - core_law
-  - epistemic
-  - epistemic_regimes
-  - classification
-  - knowledge_class
-  - source_claim
-  - observation
-  - derived
-  - model
-  - provenance
-  - evidence
-  - scope
-  - regime
-  - confidence
-  - rscf
-  - core_laws
-  - canon
-  - canon/universe
+- core_law
+- epistemic
+- epistemic_regimes
+- classification
+- knowledge_class
+- source_claim
+- observation
+- derived
+- model
+- provenance
+- evidence
+- scope
+- regime
+- confidence
+- rscf
+- core_laws
+- canon
+- canon/universe
+- l21-epistemic-regime
+- l27-gap
+- l28-critical-gap
+- l17-rscf
+- readme
+- 00-home
+- amos-rscf-nodes
+- 01-canon-moc
+- law-hierarchy
+- l22-atomic-reasoning
+- l1-epistemic
+- l5-scope-regime
+- scope-regime-firewall
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- 00-root-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL

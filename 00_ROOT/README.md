@@ -3,20 +3,51 @@ title: README — 00 Root
 type: note
 source: 00_ROOT
 aliases:
-- README
+- - - README
 rscf-state: derived
 tags:
 - index
 - readme
 - moc
 - canon/root
+- 00-home
+- 00-cosmo-brain-moc
+- 00-root-architecture
+- 00-root-audit
+- 00-root-authorization
+- 00-root-boundaries
+- 00-root-change-log
+- 00-root-contract
+- 00-root-coverage
+- 00-root-dependencies
+- 00-root-glossary
+- 00-root-history
+- 00-root-identity
+- 00-root-integration-checklist
+- 00-root-lifecycle
+- 00-root-map
+- 00-root-moc
+- 00-root-naming-standard
+- 00-root-provenance
+- 00-root-readme
+- 00-root-registry
+- 00-root-release-notes
+- 00-root-status
+- 00-root-versioning
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- amos-rscf-nodes
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: root_index
 ---
-
 
 # [[README]]
 

@@ -9,6 +9,9 @@ tags:
 - registry
 - gateway.md
 - gateway
+- moc
+- 00-root-moc
+- 00-home
 ---
 
 # AMOS Skill Registry Gateway
@@ -107,3 +110,7 @@ This registry supports installation to multiple agent platforms:
 - **Steward**: Trang Phan
 
 [[_MOC]]
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

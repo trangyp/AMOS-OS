@@ -12,13 +12,16 @@ tags:
 - reasoning-brain
 - worklog
 - canon/agent
+- agent-registry
+- agent-naming-convention
+- skill
+- 06-agents-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Agent Fix Reasoning Brain
 

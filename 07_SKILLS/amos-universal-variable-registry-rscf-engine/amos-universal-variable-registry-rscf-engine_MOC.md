@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-universal-variable-registry-rscf-en
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Universal-Variable-Registry-Rscf-Engine — Map of Content
 

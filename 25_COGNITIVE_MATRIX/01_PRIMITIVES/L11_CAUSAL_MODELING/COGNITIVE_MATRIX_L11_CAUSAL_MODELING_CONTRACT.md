@@ -8,13 +8,20 @@ tags:
 - l11_causal_modeling
 - contract
 - canon/cognitive-matrix
+- 00-root-moc
+- amos-moc
+- cognitive-matrix-moc
+- 00-home
+- amos-rscf-nodes
+- cognitive-matrix-primitives-contract
+- l11-causal-modeling-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L11_CAUSAL_MODELING — Causal modeling Contract
 

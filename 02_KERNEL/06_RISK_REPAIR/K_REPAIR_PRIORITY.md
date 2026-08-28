@@ -32,13 +32,38 @@ tags:
 - topic/failure-containment
 - topic/reversibility
 - canon/kernel
+- readme
+- dependency-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- canon-provenance
+- authority-canon
+- kernel-map
+- k-core19-logic
+- k-meta-logic
+- k-structural-reasoning
+- k-causal-closure
+- k-causal-epoch
+- k-system-state
+- k-homeostasis
+- k-repair-harm
+- k-collapse-recovery
+- k-memory-admission
+- k-memory-conflict
+- k-memory-immune
+- k-memory-retrieval
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 06-risk-repair-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # K REPAIR PRIORITY
 

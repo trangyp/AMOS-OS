@@ -12,17 +12,22 @@ segment: 04_RUNTIME/09_FINALIZATION
 artifact_kind: FINALIZER_SPEC
 path: 04_RUNTIME/09_FINALIZATION/CAUSAL_EPOCH_FINALIZER.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 09_finalization
-  - causal_epoch_finalizer
-  - state_transition_commit
-  - temporal_boundary
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 09_finalization
+- causal_epoch_finalizer
+- state_transition_commit
+- temporal_boundary
+- rscf
+- canon_candidate
+- canon/runtime
+- 09-finalization-moc
+- l0-integrity
+- 03-control-plane-moc
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
-    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-    - AMOS_CORPUS
+  - 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC
+  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_FINALIZATION
-    - CAUSAL_EPOCH_COMMIT
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_FINALIZATION
+  - CAUSAL_EPOCH_COMMIT
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   finalization_moc:
     artifact: 04_RUNTIME/09_FINALIZATION/09_FINALIZATION_MOC

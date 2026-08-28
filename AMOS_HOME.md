@@ -8,13 +8,24 @@ tags:
 - note
 - vault
 - canon/general
+- 00-root-moc
+- knowledge-moc
+- cosmo-brain-moc
+- amos-obsidian-linking-plugins
+- amos-templates
+- amos-layer-maps
+- 00-home
+- amos-rscf-nodes
+- readme
+- architecture
+- agents
+- moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # AMOS Home
 

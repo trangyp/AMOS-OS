@@ -25,3 +25,7 @@ Obsidian query block:
 tag:#project status:done
 ~~~
 ~~~~
+
+---
+
+**MOC:** [[00_ROOT_MOC]] · [[00_HOME]]

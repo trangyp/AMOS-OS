@@ -6,13 +6,21 @@ tags:
 - control_plane
 - 98_delegation_assignment_modes
 - canon/control-plane
+- delegation
+- authz-engine-validation-receipt
+- routing-policy-validation-receipt
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 98-delegation-assignment-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # [[DELEGATION]] ASSIGNMENT MODES COMMIT CONTROL PLANE MODE FAMILY SPEC
 

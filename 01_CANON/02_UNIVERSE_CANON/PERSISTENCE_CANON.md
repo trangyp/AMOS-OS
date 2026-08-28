@@ -48,10 +48,37 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/persistence-canon
+- readme
+- 00-root-moc
+- architecture
+- system-map
+- neural-network
+- authoritative-state
+- placement-rules
+- canon-map
+- amos-core-laws
+- invariant-registry
+- law-hierarchy
+- hml-canon
+- kernel-map
+- control-plane-map
+- runtime-map
+- protocol-map
+- memory-memory-map
+- state-state-map
+- schema-map
+- observability-observability-map
+- security-map
+- test-map
+- operations-map
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
 aliases:
-- AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent Prov
+- AMOS Persistence Canon - Persistence Canon - AMOS Durable State Canon - AMOS Persistent
+  Prov
 ---
-
 
 # AMOS Persistence Canon
 **Origin architect / steward:** Trang Phan

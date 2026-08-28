@@ -6,13 +6,30 @@ tags:
 - control_plane
 - semantic_transaction_control_plane_readme.md
 - canon/control-plane
+- readme
+- lineage-graph
+- parameter-provenance
+- semantic-transaction
+- routing-policy-validation-receipt
+- control-plane-semantic-transaction-contract
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 06-semantic-transaction-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # SEMANTIC TRANSACTION CONTROL PLANE [[README]]
 

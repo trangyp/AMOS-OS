@@ -6,13 +6,16 @@ tags:
 - moc
 - o12-plan
 - canon/cognitive-matrix
+- cognitive-matrix-o12-plan-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
+- o12-plan-lifecycle-operations-cognitive-matrix-hml
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O12 Plan — Map of Content
 

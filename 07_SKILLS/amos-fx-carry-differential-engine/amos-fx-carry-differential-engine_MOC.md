@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-fx-carry-differential-engine
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Fx-Carry-Differential-Engine — Map of Content
 

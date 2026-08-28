@@ -1,6 +1,12 @@
 ---
 title: VIETNAM DEMOGRAPHIC ENGINE
-tags: canon-group/biology, canon/framework, rscf/claim, rscf/provenance, rscf/state/source...
+tags:
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- engine-moc
+- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/engine
 rscf:

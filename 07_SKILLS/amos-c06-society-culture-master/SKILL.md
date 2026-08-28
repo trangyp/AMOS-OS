@@ -4,7 +4,9 @@ title: SKILL — Amos C06 Society Culture Master
 type: skill
 source: 07_SKILLS/amos-c06-society-culture-master
 name: amos-c06-society-culture-master
-description: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese language/regional analysis, linguistic patterns, anthropology. Use when social analysis, cultural reasoning, or Vietnamese. Do not use for generic tasks outside c06 domain.
+description: AMOS C06 Society & Culture — social dynamics, cultural analysis, Vietnamese
+  language/regional analysis, linguistic patterns, anthropology. Use when social analysis,
+  cultural reasoning, or Vietnamese. Do not use for generic tasks outside c06 domain.
 parent_skill: none
 domain: c06
 origin_architect: Trang Phan
@@ -17,6 +19,9 @@ tags:
 - hml/m
 - epistemic/source_canon
 - amos_os
+- 07-skills-moc
+- references-moc
+- 00-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -46,6 +51,7 @@ law_compliance:
 license: MIT
 steward: Trang Phan
 ---
+
 # AMOS C06 — Society & Culture Master Knowledge
 
 ## Identity
@@ -301,3 +307,7 @@ This parent skill consolidates the following sub-skills. Each is a section withi
 
 - See `references/` directory for detailed reference materials
 - [[07_SKILLS_MOC]] — Skills map of content
+
+---
+
+**MOC:** [[references_MOC]] · [[00_HOME]]

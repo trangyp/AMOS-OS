@@ -12,18 +12,30 @@ segment: 00_ROOT/AMOS_TOTAL_DOMAIN_REGISTRY.md
 artifact_kind: REGISTRY
 path: 00_ROOT/AMOS_TOTAL_DOMAIN_REGISTRY.md
 tags:
-  - 00_root
-  - amos_os
-  - amos_total_domain_registry.md
-  - canon/root
-  - canon/universe
-  - canon_placeholder
-  - domain
-  - index
-  - registry
-  - root
-  - rscf
-  - placeholder_expanded
+- 00_root
+- amos_os
+- amos_total_domain_registry.md
+- canon/root
+- canon/universe
+- canon_placeholder
+- domain
+- index
+- registry
+- root
+- rscf
+- placeholder_expanded
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -42,7 +54,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -8,6 +8,8 @@ tags:
 - rscf/state/source-claim
 - topic/amos-change-management-engine-v0
 - engine
+- engine-moc
+- trang-framework-recursive-ontology-dynamics
 type: data
 source: 11_KNOWLEDGE/engine
 rscf:
@@ -16,6 +18,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS CHANGE MANAGEMENT ENGINE V0 GOVERNANCE RISK
 
 ```json

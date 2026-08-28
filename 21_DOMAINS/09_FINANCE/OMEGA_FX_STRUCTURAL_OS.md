@@ -12,17 +12,22 @@ segment: 21_DOMAINS/09_FINANCE
 artifact_kind: DOMAIN_OS
 path: 21_DOMAINS/09_FINANCE/OMEGA_FX_STRUCTURAL_OS.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 09_finance
-  - omega_fx_structural_os
-  - currency_architecture
-  - fx_execution_platform
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 09_finance
+- omega_fx_structural_os
+- currency_architecture
+- fx_execution_platform
+- rscf
+- canon_candidate
+- canon/domain
+- trang-zero-forex
+- 09-finance-moc
+- macro-economy-kernel
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX
-    - 21_DOMAINS/09_FINANCE/09_FINANCE_MOC
-    - AMOS_CORPUS
+  - 21_DOMAINS/09_FINANCE/TRANG_ZERO_FOREX
+  - 21_DOMAINS/09_FINANCE/09_FINANCE_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_FINANCE
-    - FX_OS
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_FINANCE
+  - FX_OS
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   forex_engine:
-    artifact: [[TRANG_ZERO_FOREX]]
+    artifact:
+    - - TRANG_ZERO_FOREX
   finance_moc:
-    artifact: [[09_FINANCE_MOC]]
+    artifact:
+    - - 09_FINANCE_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

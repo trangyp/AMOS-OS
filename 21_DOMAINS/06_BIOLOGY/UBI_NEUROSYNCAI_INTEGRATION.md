@@ -12,17 +12,22 @@ segment: 21_DOMAINS/06_BIOLOGY
 artifact_kind: DOMAIN_INTEGRATION
 path: 21_DOMAINS/06_BIOLOGY/UBI_NEUROSYNCAI_INTEGRATION.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 06_biology
-  - ubi_neurosyncai_integration
-  - bio_synchrony_dispatch
-  - adaptive_interface
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 06_biology
+- ubi_neurosyncai_integration
+- bio_synchrony_dispatch
+- adaptive_interface
+- rscf
+- canon_candidate
+- canon/domain
+- neurosyncai-recovery-engine
+- neurosyncai-master
+- ubi-neurosyncai-binding
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,13 +42,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UBI_NEUROSYNCAI_BINDING
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_BIOLOGY
-    - NEUROSYNCAI_INTEGRATION
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_BIOLOGY
+  - NEUROSYNCAI_INTEGRATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   neurosyncai_master:
     artifact: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_MASTER

@@ -12,17 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: LINEAGE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/TRANG_FRAMEWORK_LINEAGE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - trang_framework_lineage
-  - conceptual_lineage
-  - ontology_to_engineering
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- trang_framework_lineage
+- conceptual_lineage
+- ontology_to_engineering
+- rscf
+- canon_candidate
+- canon/knowledge
+- trang-grand-system
+- trang-reality-architecture
+- trang-zero-framework
+- trang-grand-system-codex
+- trang-equation-registry
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,27 +45,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_GRAND_SYSTEM
-    - TRANG_GRAND_SYSTEM_CODEX
-    - AMOS_CORPUS
+  - TRANG_GRAND_SYSTEM
+  - TRANG_GRAND_SYSTEM_CODEX
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - FRAMEWORK_LINEAGE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - FRAMEWORK_LINEAGE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   grand_system:
-    artifact: [[TRANG_GRAND_SYSTEM]]
+    artifact:
+    - - TRANG_GRAND_SYSTEM
   reality_architecture:
-    artifact: [[TRANG_REALITY_ARCHITECTURE]]
+    artifact:
+    - - TRANG_REALITY_ARCHITECTURE
   zero_framework:
-    artifact: [[TRANG_ZERO_FRAMEWORK]]
+    artifact:
+    - - TRANG_ZERO_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   lineage_graph: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Trang Framework Lineage & Ontological Transmission
 

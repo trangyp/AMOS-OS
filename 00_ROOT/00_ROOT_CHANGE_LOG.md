@@ -20,13 +20,17 @@ tags:
 - note
 - 00-root
 - canon/root
+- 00-home
+- 00-root-moc
+- amos-moc
+- amos-rscf-nodes
+- 00-cosmo-brain-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: root_index
 ---
-
 
 # AMOS OS — 00 Root Change Log
 

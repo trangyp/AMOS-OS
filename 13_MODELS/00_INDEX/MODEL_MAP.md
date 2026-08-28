@@ -1,139 +1,146 @@
 ---
 title: MODEL MAP
 aliases:
-  - "Models Map"
-  - "AMOS Model Map"
-  - "13 Models Map"
-  - "Models Plane Map"
-  - "Models Index Map"
-
+- Models Map
+- AMOS Model Map
+- 13 Models Map
+- Models Plane Map
+- Models Index Map
 type: map
 artifact_type: navigation_map
 artifact_kind: MODEL_MAP
 document_role: models_plane_segment_navigation_map
-
-source: "13_MODELS/00_INDEX"
-path: "13_MODELS/00_INDEX/MODEL_MAP.md"
-
-artifact_id: "amos_13_models_00_index_model_map_md"
-node_id: "amos_13_models_00_index_model_map_md"
-
-system: "AMOS OS"
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-
-plane: "13_MODELS"
-segment: "13_MODELS/00_INDEX"
-
-status: "ACTIVE_REFERENCE"
-canonical_status: "CONDITIONAL"
-epistemic_class: "AMOS_MODEL"
-implementation_status: "PARTIAL"
-validation_status: "PARTIAL"
-executable_graph_validation: "PARTIAL"
-artifact_specific_validation_receipt: "UNKNOWN/GAP"
-executable_binding: "NOT_ESTABLISHED"
-
+source: 13_MODELS/00_INDEX
+path: 13_MODELS/00_INDEX/MODEL_MAP.md
+artifact_id: amos_13_models_00_index_model_map_md
+node_id: amos_13_models_00_index_model_map_md
+system: AMOS OS
+origin_architect: Trang Phan
+steward: Trang Phan
+plane: 13_MODELS
+segment: 13_MODELS/00_INDEX
+status: ACTIVE_REFERENCE
+canonical_status: CONDITIONAL
+epistemic_class: AMOS_MODEL
+implementation_status: PARTIAL
+validation_status: PARTIAL
+executable_graph_validation: PARTIAL
+artifact_specific_validation_receipt: UNKNOWN/GAP
+executable_binding: NOT_ESTABLISHED
 scope:
-  - index_navigation
-  - models_plane
-  - model_discovery
-  - model_resolution
-  - model_contract_navigation
-  - local_graph_navigation
-  - 13_MODELS
-  - 13_MODELS/00_INDEX
-
+- index_navigation
+- models_plane
+- model_discovery
+- model_resolution
+- model_contract_navigation
+- local_graph_navigation
+- 13_MODELS
+- 13_MODELS/00_INDEX
 coverage:
-  local_directory: "13_MODELS/00_INDEX"
+  local_directory: 13_MODELS/00_INDEX
   covers_own_directory_only: true
   recursive_global_coverage: false
   whole_models_plane_complete: false
   cross_segment_edges_local: false
   cross_segment_routes:
-    - "[[00_ROOT_MAP]]"
-    - "[[AMOS_RSCF_NODES]]"
-
+  - '[[00_ROOT_MAP]]'
+  - '[[AMOS_RSCF_NODES]]'
 reading_order:
-  - "[[INDEX_MODELS_README]]"
-  - "[[INDEX_MODELS_MODEL_CONTRACT]]"
-  - "contract-bound model artifacts"
-
+- '[[INDEX_MODELS_README]]'
+- '[[INDEX_MODELS_MODEL_CONTRACT]]'
+- contract-bound model artifacts
 tags:
-  - amos_os
-  - amos-os
-  - 13_models
-  - 00_index
-  - models
-  - model
-  - map
-  - model-map
-  - models-map
-  - navigation
-  - navigation-map
-  - index
-  - index-navigation
-  - model-navigation
-  - model-discovery
-  - model-resolution
-  - model-registry
-  - model-contract
-  - model-readme
-  - artifact-navigation
-  - graph
-  - knowledge-graph
-  - model-graph
-  - local-graph
-  - cross-segment
-  - local-scope
-  - directory-scope
-  - rscf
-  - rscf-node
-  - rscf-map
-  - fractal-knowledge-network
-  - hml
-  - h-level
-  - m-level
-  - l-level
-  - provenance
-  - provenance-topology
-  - provenance-independence
-  - dependency
-  - dependency-closure
-  - scope
-  - regime
-  - freshness
-  - model-versioning
-  - model-identity
-  - model-lineage
-  - supersession
-  - competing-models
-  - competing-hypotheses
-  - epistemic-regime
-  - epistemic-firewall
-  - source-claim
-  - observation
-  - derived
-  - model
-  - unknown-gap
-  - fail-closed
-  - authority
-  - authorization
-  - capability
-  - proposal
-  - commit
-  - rollback
-  - selective-invalidation
-  - repair
-  - recovery
-  - receipt
-  - graph-validation
-  - link-integrity
-  - routing
-  - control-plane
-  - observability
-  - kernel
-  - canon/model
+- amos_os
+- amos-os
+- 13_models
+- 00_index
+- models
+- model
+- map
+- model-map
+- models-map
+- navigation
+- navigation-map
+- index
+- index-navigation
+- model-navigation
+- model-discovery
+- model-resolution
+- model-registry
+- model-contract
+- model-readme
+- artifact-navigation
+- graph
+- knowledge-graph
+- model-graph
+- local-graph
+- cross-segment
+- local-scope
+- directory-scope
+- rscf
+- rscf-node
+- rscf-map
+- fractal-knowledge-network
+- hml
+- h-level
+- m-level
+- l-level
+- provenance
+- provenance-topology
+- provenance-independence
+- dependency
+- dependency-closure
+- scope
+- regime
+- freshness
+- model-versioning
+- model-identity
+- model-lineage
+- supersession
+- competing-models
+- competing-hypotheses
+- epistemic-regime
+- epistemic-firewall
+- source-claim
+- observation
+- derived
+- model
+- unknown-gap
+- fail-closed
+- authority
+- authorization
+- capability
+- proposal
+- commit
+- rollback
+- selective-invalidation
+- repair
+- recovery
+- receipt
+- graph-validation
+- link-integrity
+- routing
+- control-plane
+- observability
+- kernel
+- canon/model
+- 00-root-map
+- amos-rscf-nodes
+- index-models-readme
+- index-models-model-contract
+- readme
+- references
+- validation
+- canon
+- 00-home
+- 00-index-moc
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -146,7 +153,6 @@ rscf:
   implementation_status: PARTIAL
   confidence_ceiling: SOURCE_BOUND
   provenance_independence: NOT_ESTABLISHED
-
 gaps:
   executable_graph_validation: PARTIAL
   artifact_specific_validation_receipt: UNKNOWN/GAP
@@ -2597,281 +2603,81 @@ Input:
 
 ```text
 [[MODEL_X
-```
-
-Correct:
-
-```text
+text
 MALFORMED
-```
-
-Do not guess the target for consequential operations.
-
----
-
-# 192. Negative Case — Ambiguous Identity
-
-Two targets satisfy the identifier.
-
-Correct:
-
-```text
+text
 AMBIGUOUS
 → DISAMBIGUATE
-```
-
----
-
-# 193. Negative Case — Stale Version
-
-Requested:
-
-```text
+text
 MODEL_X v2
-```
-
-Current required:
-
-```text
+text
 MODEL_X v5
-```
-
-Correct:
-
-```text
+text
 STALE / VERSION CONFLICT
 → REVALIDATE
-```
-
----
-
-# 194. Negative Case — Unauthorized Mutation
-
-Request:
-
-```text
+text
 ADD MODEL_X TO MODEL_MAP
-```
-
-Authority invalid.
-
-Correct:
-
-```text
+text
 HOLD
-```
-
----
-
-# 195. Negative Case — Capability Mistaken for Authority
-
-```text
+text
 CAN_WRITE = TRUE
 AUTHORITY = FALSE
-```
-
-Correct:
-
-```text
+text
 NO COMMIT
-```
-
----
-
-# 196. Negative Case — Map Presence Mistaken for Truth
-
-Invalid:
-
-```text
+text
 MODEL_X IS MAPPED
 THEREFORE MODEL_X IS TRUE
-```
-
----
-
-# 197. Negative Case — Map Presence Mistaken for Canon
-
-Invalid:
-
-```text
+text
 MODEL_X IS MAPPED
 THEREFORE MODEL_X IS CANONICAL
-```
-
----
-
-# 198. Negative Case — Map Presence Mistaken for Current
-
-Invalid:
-
-```text
+text
 MODEL_X IS MAPPED
 THEREFORE MODEL_X IS CURRENT
-```
-
----
-
-# 199. Negative Case — Local Absence Mistaken for Nonexistence
-
-Invalid:
-
-```text
+text
 MODEL_X NOT IN MODEL_MAP
 THEREFORE MODEL_X DOES NOT EXIST IN AMOS
-```
-
----
-
-# 200. Negative Case — Graph Pass Mistaken for Model Validation
-
-Invalid:
-
-```text
+text
 MODEL_MAP LINKS PASS
 THEREFORE ALL MODELS ARE VALID
-```
-
----
-
-# 201. Negative Case — Graph Pass Mistaken for Completeness
-
-Invalid:
-
-```text
+text
 ALL DECLARED LINKS PASS
 THEREFORE ALL REQUIRED LINKS EXIST
-```
-
----
-
-# 202. Negative Case — Repetition Mistaken for Independence
-
-```text
+text
 SOURCE_A
 ├── MODEL_X
 ├── MODEL_Y
 └── MODEL_Z
-```
-
-Invalid:
-
-```text
+text
 THREE INDEPENDENT CONFIRMATIONS
-```
-
-Correct:
-
-```text
+text
 THREE DESCENDANTS
 ONE SHARED SOURCE ROOT
-```
-
----
-
-# 203. Negative Case — Structural Similarity Mistaken for Causation
-
-Invalid:
-
-```text
+text
 MODEL_X resembles MODEL_Y
 THEREFORE X causes Y
-```
-
----
-
-# 204. Negative Case — Scope Leakage
-
-Model:
-
-```text
+text
 scope = subsystem
-```
-
-Request:
-
-```text
+text
 apply system-wide
-```
-
-Correct:
-
-```text
+text
 SCOPE MISMATCH
-```
-
----
-
-# 205. Negative Case — Regime Leakage
-
-Model validated under:
-
-```text
+text
 R1
-```
-
-Request made under:
-
-```text
+text
 R2
-```
-
-Correct:
-
-```text
+text
 REVALIDATE / CONDITIONAL
-```
-
----
-
-# 206. Negative Case — Proposal Treated as Commit
-
-Invalid:
-
-```text
+text
 PROPOSAL CREATED
 → AUTHORITATIVE MAP CHANGED
-```
-
----
-
-# 207. Negative Case — Monitoring Treated as Authority
-
-Invalid:
-
-```text
+text
 OBSERVABILITY DETECTED ERROR
 → OBSERVABILITY MAY MUTATE MAP
-```
-
----
-
-# 208. Positive Case — Local Navigation
-
-Target exists in:
-
-```text
+text
 13_MODELS/00_INDEX
-```
-
-Identity resolves uniquely.
-
-No cross-segment dependency can alter the result.
-
-Correct:
-
-```text
+text
 LOCAL RESOLUTION
-```
-
----
-
-# 209. Positive Case — Cross-Segment Navigation
-
-Target is outside the local index.
-
-Correct:
-
-```text
+text
 MODEL_MAP
 ↓
 [[00_ROOT_MAP]]
@@ -4729,11 +4535,11 @@ RSCF-RELATIONS:
 
   - VALIDATION_CONTEXT: [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
 
-  - MAPS_CONCEPT: MODEL_NAVIGATION
+  - MAPS_CONCEPT: [[MODEL_NAVIGATION]]
 
-  - MAPS_CONCEPT: MODEL_DISCOVERY
+  - MAPS_CONCEPT: [[MODEL_DISCOVERY]]
 
-  - MAPS_CONCEPT: MODEL_IDENTITY
+  - MAPS_CONCEPT: [[MODEL_IDENTITY]]
 
   - MAPS_CONCEPT: MODEL_VERSIONING
 
@@ -4751,7 +4557,7 @@ RSCF-RELATIONS:
 
   - MAPS_CONCEPT: LOCAL_GRAPH_INTEGRITY
 
-  - MAPS_CONCEPT: SELECTIVE_INVALIDATION
+  - MAPS_CONCEPT: [[SELECTIVE_INVALIDATION]]
 
   - MAPS_CONCEPT: RSCF_NAVIGATION
 ```

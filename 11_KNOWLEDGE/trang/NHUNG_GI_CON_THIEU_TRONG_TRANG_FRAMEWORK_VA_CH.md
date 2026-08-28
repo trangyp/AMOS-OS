@@ -5,6 +5,12 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- trang-moc
+- amos-simulation-kernel-v0-math-foundations
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +19,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # NHỮNG GÌ CÒN THIẾU TRONG TRANG ∅ FRAMEWORK – VÀ CHÚNG TA CÓ THỂ LÀM GÌ
 Em hỏi: _" What is missing?"_ và _" Can we?"_

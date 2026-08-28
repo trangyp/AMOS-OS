@@ -12,16 +12,28 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON
 path: 01_CANON/02_UNIVERSE_CANON/ULK_CANON.md
 tags:
-  - 01_canon
-  - 02_universe_canon
-  - amos_os
-  - canon
-  - canon/universe
-  - canon_placeholder
-  - rscf
-  - ulk_canon.md
-  - universe
-  - placeholder_expanded
+- 01_canon
+- 02_universe_canon
+- amos_os
+- canon
+- canon/universe
+- canon_placeholder
+- rscf
+- ulk_canon.md
+- universe
+- placeholder_expanded
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -40,7 +52,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -7,6 +7,10 @@ tags:
 - ukr
 - knowledge
 - canon
+- khung-trang-canon
+- 11-knowledge-moc
+- 00-index-moc
+- 00-home
 ---
 
 # Khung Trang Universal Knowledge Representation (UKR)
@@ -15,3 +19,7 @@ Universal knowledge representation framework governing lossless cross-plane abst
 
 ## Related
 - [[KHUNG_TRANG_CANON]] · [[11_KNOWLEDGE_MOC]]
+
+---
+
+**MOC:** [[00_INDEX_MOC]] · [[00_HOME]]

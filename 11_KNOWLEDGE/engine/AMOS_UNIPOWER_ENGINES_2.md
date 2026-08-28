@@ -27,6 +27,10 @@ tags:
 - omnistructure
 - engine
 - canon/knowledge
+- engine-moc
+- knowledge-moc
+- kernel-moc
+- 00-home
 status: active
 provenance: VERIFIED
 confidence: VERIFIED
@@ -37,8 +41,6 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
-
-
 
 # AMOS Unipower Engines
 
@@ -271,3 +273,7 @@ All engine specs from: `Google Drive /_00_AMOS_CANON/Unipower/` (20 files: 18 JS
 
 ---
 **Links:** [[ENGINE_MOC]] | [[KNOWLEDGE_MOC]]
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-growth-graph
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Growth-Graph — Map of Content
 

@@ -14,6 +14,7 @@ tags:
 - rscf/state/observation
 - topic/amos-os-integrated-agent
 - kernel
+- kernel-moc
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
+
 # AMOS OS INTEGRATED AGENT KERNEL
 
 ```json

@@ -6,13 +6,16 @@ tags:
 - moc
 - 11-replay
 - canon/control-plane
+- control-plane-replay-contract
+- replay-control-plane-readme
+- 00-index-moc
+- 03-control-plane-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 11 Replay — Map of Content
 

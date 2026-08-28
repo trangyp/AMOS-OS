@@ -12,28 +12,34 @@ segment: 25_COGNITIVE_MATRIX/10_ROUTING
 artifact_kind: RULE
 path: 25_COGNITIVE_MATRIX/10_ROUTING/BINDING_RULES.md
 tags:
-  - 10_routing
-  - 25_cognitive_matrix
-  - AMOS
-  - AMOS_CORE
-  - AMOS_CORE_v4_4
-  - AMOS_OS
-  - BINDING_RULES
-  - COGNITIVE_MATRIX
-  - ROUTING
-  - amos_os
-  - binding
-  - binding_rules.md
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive_matrix
-  - matrix
-  - routing
-  - rscf
-  - rule
-  - rules
-  - {'identity':-None}
-  - placeholder_expanded
+- 10_routing
+- 25_cognitive_matrix
+- AMOS
+- AMOS_CORE
+- AMOS_CORE_v4_4
+- AMOS_OS
+- BINDING_RULES
+- COGNITIVE_MATRIX
+- ROUTING
+- amos_os
+- binding
+- binding_rules.md
+- canon/cognitive-matrix
+- canon/universe
+- cognitive_matrix
+- matrix
+- routing
+- rscf
+- rule
+- rules
+- identity: -None
+- placeholder_expanded
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- 10-routing-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -52,7 +58,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

@@ -6,13 +6,16 @@ tags:
 - moc
 - o11-goal
 - canon/cognitive-matrix
+- cognitive-matrix-o11-goal-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
+- o11-goal-lifecycle-operations-cognitive-matrix-hml
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O11 Goal — Map of Content
 

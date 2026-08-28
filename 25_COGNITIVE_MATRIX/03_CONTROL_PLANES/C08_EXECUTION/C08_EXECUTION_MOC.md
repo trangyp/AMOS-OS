@@ -6,13 +6,16 @@ tags:
 - moc
 - c08-execution
 - canon/cognitive-matrix
+- cognitive-matrix-c08-execution-contract
+- 00-index-moc
+- 03-control-planes-moc
+- c08-execution-control-planes-cognitive-matrix-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # C08 Execution — Map of Content
 

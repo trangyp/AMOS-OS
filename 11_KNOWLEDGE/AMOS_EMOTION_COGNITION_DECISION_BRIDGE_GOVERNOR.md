@@ -7,6 +7,7 @@ tags:
 - bridge
 - governor.md
 - governor
+- knowledge-moc
 ---
 
 # AMOS EMOTION COGNITION DECISION BRIDGE GOVERNOR

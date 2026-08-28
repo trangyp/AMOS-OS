@@ -6,12 +6,33 @@ rscf:
   state: SOURCE_CLAIM
   class: STRUCTURAL
   provenance:
-    - internal
+  - internal
   freshness: EVERGREEN
   falsifiers: []
 tags:
 - note
 - attachments
+- readme
+- law-hierarchy
+- 00-root-moc
+- amos-moc
+- 00-home
+- canon
+- kernel-readme
+- control-plane-readme
+- routing-policy
+- binding-rules
+- routing-audit
+- promotion-gates
+- observability-readme
+- operations-readme
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- canon-canon-contract
+- canon-readme
+- attachments-moc
 canon-group: canon/root
 ---
 

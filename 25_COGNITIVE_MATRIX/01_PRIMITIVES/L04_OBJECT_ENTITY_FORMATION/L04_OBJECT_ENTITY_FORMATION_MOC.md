@@ -6,13 +6,14 @@ tags:
 - moc
 - l04-object-entity-formation
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L04 Object Entity Formation — Map of Content
 

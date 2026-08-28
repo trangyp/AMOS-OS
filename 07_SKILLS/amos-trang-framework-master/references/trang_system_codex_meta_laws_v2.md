@@ -6,13 +6,19 @@ tags:
 - reference
 - amos-trang-framework-master
 - canon/skill
+- cosmo-brain-moc
+- references-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # Trang System Codex Meta-Laws v2
 

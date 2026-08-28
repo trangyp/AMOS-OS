@@ -1,28 +1,43 @@
 ---
-title: "L27 GAP"
+title: L27 GAP
 aliases:
-  - "L27 Gap"
-  - "L27 Gap Law"
-  - "Gap Law"
+- L27 Gap
+- L27 Gap Law
+- Gap Law
 type: gap
 source: 01_CANON/01_CORE_LAWS
 tags:
-  - canon
-  - core_laws
-  - gap
-  - unknown
-  - epistemic_integrity
-  - anti_fabrication
-  - provenance
-  - validation
-  - proof_capsule
-  - gap_registry
-  - gap_closure
-  - fail_closed
-  - recovery
-  - note
-  - canon/universe
-
+- canon
+- core_laws
+- gap
+- unknown
+- epistemic_integrity
+- anti_fabrication
+- provenance
+- validation
+- proof_capsule
+- gap_registry
+- gap_closure
+- fail_closed
+- recovery
+- note
+- canon/universe
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- l25-shard-local
+- l28-critical-gap
+- l10-failure-recovery
+- l17-rscf
+- fail-closed-governance
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
+- l19-proof-capsule
+- l26-proof-coordination
+- l27-gap
+- architecture
+- 00-root-moc
+- amos-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL

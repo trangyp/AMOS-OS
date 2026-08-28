@@ -6,13 +6,13 @@ tags:
 - moc
 - 90-anomaly-detection-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 90 Anomaly Detection Modes — Map of Content
 

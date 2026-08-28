@@ -11,6 +11,15 @@ tags:
 - rscf
 - governance
 - canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- l0-integrity
+- l1-epistemic
+- l2-provenance
+- l3-dependency
+- 01-core-laws-moc
 title: L4 Causal Laws
 origin_architect: Trang Phan
 status: AMOS_MODEL
@@ -22,7 +31,6 @@ rscf:
   provenance: AMOS_corpus
   scope: core_laws
 ---
-
 
 # L4 Causal Laws
 

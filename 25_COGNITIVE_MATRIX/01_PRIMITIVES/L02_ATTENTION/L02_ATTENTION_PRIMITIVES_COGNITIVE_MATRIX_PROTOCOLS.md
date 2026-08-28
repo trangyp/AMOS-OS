@@ -12,23 +12,29 @@ segment: 25_COGNITIVE_MATRIX/01_PRIMITIVES
 artifact_kind: PROTOCOL
 path: 25_COGNITIVE_MATRIX/01_PRIMITIVES/L02_ATTENTION/L02_ATTENTION_PRIMITIVES_COGNITIVE_MATRIX_PROTOCOLS.md
 tags:
-  - 01_primitives
-  - 25_cognitive_matrix
-  - amos_os
-  - attention
-  - canon/cognitive-matrix
-  - canon/universe
-  - cognitive
-  - cognitive_matrix
-  - l02_attention
-  - l02_attention_primitives_cognitive_matrix_protocols.md
-  - matrix
-  - note
-  - primitives
-  - protocol
-  - protocols
-  - rscf
-  - placeholder_expanded
+- 01_primitives
+- 25_cognitive_matrix
+- amos_os
+- attention
+- canon/cognitive-matrix
+- canon/universe
+- cognitive
+- cognitive_matrix
+- l02_attention
+- l02_attention_primitives_cognitive_matrix_protocols.md
+- matrix
+- note
+- primitives
+- protocol
+- protocols
+- rscf
+- placeholder_expanded
+- 00-root-moc
+- amos-moc
+- 00-home
+- cognitive-matrix-moc
+- amos-rscf-nodes
+- l02-attention-moc
 version: 0.2.0
 updated: '2026-08-27'
 status: PLACEHOLDER_EXPANDED
@@ -47,7 +53,6 @@ rscf:
   confidence_ceiling: source_supported
   provenance_independence: NOT_ESTABLISHED
 ---
-
 
 ## 0. Canonical Status
 

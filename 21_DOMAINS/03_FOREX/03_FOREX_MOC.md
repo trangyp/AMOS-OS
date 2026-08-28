@@ -6,13 +6,19 @@ tags:
 - moc
 - 03-forex
 - canon/domain
+- domains-forex-contract
+- forex-domains-domain-spec
+- forex-domains-interfaces
+- forex-domains-provenance
+- forex-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 03 Forex — Map of Content
 

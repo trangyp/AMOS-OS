@@ -6,13 +6,15 @@ tags:
 - moc
 - 11-scale-modes
 - canon/control-plane
+- scale-modes-commit-control-plane-readme
+- 09-commit-moc
+- scale-modes-commit-control-plane-mode-family-spec
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 11 Scale Modes — Map of Content
 

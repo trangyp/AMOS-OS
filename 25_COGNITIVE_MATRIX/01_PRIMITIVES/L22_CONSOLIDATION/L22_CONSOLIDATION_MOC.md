@@ -6,13 +6,17 @@ tags:
 - moc
 - l22-consolidation
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l22-consolidation-contract
+- l22-consolidation-primitives-cognitive-matrix-hml
+- l22-consolidation-primitives-cognitive-matrix-rscf
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L22 Consolidation — Map of Content
 

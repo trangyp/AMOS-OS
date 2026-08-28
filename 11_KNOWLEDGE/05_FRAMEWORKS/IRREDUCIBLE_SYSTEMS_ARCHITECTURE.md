@@ -12,18 +12,25 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ARCHITECTURE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/IRREDUCIBLE_SYSTEMS_ARCHITECTURE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - irreducible_systems_architecture
-  - minimality
-  - non_redundant_architecture
-  - core_kernel
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- irreducible_systems_architecture
+- minimality
+- non_redundant_architecture
+- core_kernel
+- rscf
+- canon_candidate
+- canon/knowledge
+- absolute-structural-integrity
+- trang-zero-framework
+- first-principles-articulation
+- trang-lmh-architecture
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,24 +45,25 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
-    - AMOS_CORPUS
+  - ABSOLUTE_INTEGRITY_ARCHITECTURE_CANONICAL_ROOT
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - ARCHITECTURAL_MINIMALITY
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - ARCHITECTURAL_MINIMALITY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   structural_integrity:
-    artifact: [[ABSOLUTE_STRUCTURAL_INTEGRITY]]
+    artifact:
+    - - ABSOLUTE_STRUCTURAL_INTEGRITY
   null_state:
-    artifact: [[TRANG_ZERO_FRAMEWORK]]
+    artifact:
+    - - TRANG_ZERO_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   irreducibility_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Irreducible Systems Architecture
 

@@ -6,13 +6,16 @@ tags:
 - moc
 - 42-sector-value-chain
 - canon/domain
+- domains-sector-value-chain-contract
+- sector-value-chain-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 42 Sector Value Chain — Map of Content
 

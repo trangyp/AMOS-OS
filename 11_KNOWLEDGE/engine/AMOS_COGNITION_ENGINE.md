@@ -14,6 +14,7 @@ tags:
 - rscf/state/observation
 - topic/amos-cognition-engine-v0
 - engine
+- engine-moc
 created: 2026-08-22
 rscf:
   state: AMOS_MODEL
@@ -21,6 +22,7 @@ rscf:
   provenance: AMOS_corpus
   scope: engine_specification
 ---
+
 # AMOS COGNITION ENGINE V0 CORE7
 
 ```json

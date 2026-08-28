@@ -12,20 +12,27 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: FRAMEWORK
 path: 11_KNOWLEDGE/05_FRAMEWORKS/CONSENTX.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - consentx
-  - biological_consent
-  - autonomic_agreement
-  - anti_coercion
-  - ubi
-  - neurosyncai
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- consentx
+- biological_consent
+- autonomic_agreement
+- anti_coercion
+- ubi
+- neurosyncai
+- rscf
+- canon_candidate
+- canon/knowledge
+- unified-biological-intelligence
+- neurosyncai-framework
+- ubi-consentx-binding
+- id-exchange
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -40,20 +47,22 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX
-    - AMOS_CORPUS
+  - UBI_PLUS_NEUROSYNCAI_INTEGRATION_WITH_CONSENTX
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - BIOLOGICAL_CONSENT
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - BIOLOGICAL_CONSENT
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   primary:
     name: ConsentX — Biological Consent Arbitration
     role: BIOLOGICAL_AND_AUTONOMIC_CONSENT_ENGINE
   biological_grounding:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   adaptive_interface:
-    artifact: [[NEUROSYNCAI_FRAMEWORK]]
+    artifact:
+    - - NEUROSYNCAI_FRAMEWORK
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -61,7 +70,6 @@ epistemic_boundary:
   legal_status: NOT_INDEPENDENTLY_ESTABLISHED_GLOBALLY
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # ConsentX — Biological Consent Arbitration™
 

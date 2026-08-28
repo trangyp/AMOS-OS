@@ -6,13 +6,18 @@ tags:
 - moc
 - 01-foundation
 - canon/model
+- absolute-omniverse-model
+- bio-logical-computing-model
+- trang-reality-architecture-model
+- uba-model
+- universal-field-architecture-model
+- 13-models-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 01 Foundation — Map of Content
 

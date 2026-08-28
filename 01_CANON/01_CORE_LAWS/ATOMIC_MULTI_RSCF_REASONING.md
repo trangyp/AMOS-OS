@@ -12,20 +12,28 @@ segment: 01_CANON/01_CORE_LAWS
 artifact_kind: CORE_LAW_SPECIFICATION
 path: 01_CANON/01_CORE_LAWS/ATOMIC_MULTI_RSCF_REASONING.md
 tags:
-  - amos_os
-  - canon
-  - core_laws
-  - rscf
-  - atomic
-  - reasoning
-  - multi_rscf
-  - transaction
-  - consistency
-  - dependency_closure
-  - provenance
-  - rollback
-  - rscf
-  - canon/core
+- amos_os
+- canon
+- core_laws
+- rscf
+- atomic
+- reasoning
+- multi_rscf
+- transaction
+- consistency
+- dependency_closure
+- provenance
+- rollback
+- rscf
+- canon/core
+- k-atomic-multi-rscf
+- 00-home
+- amos-rscf-nodes
+- 01-core-laws-moc
+- law-hierarchy
+- amos-core
+- 00-root-moc
+- amos-moc
 version: 1.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -39,13 +47,13 @@ rscf:
   state: SOURCE_GROUNDED
   claim_class: AMOS_MODEL
   provenance:
-    - 01_CANON/01_CORE_LAWS
-    - [[K_ATOMIC_MULTI_RSCF]]
-    - AMOS_corpus
+  - 01_CANON/01_CORE_LAWS
+  - - - K_ATOMIC_MULTI_RSCF
+  - AMOS_corpus
   scope:
-    - CORE_LAWS
-    - MULTI_RSCF_REASONING
-    - ATOMIC_REASONING
+  - CORE_LAWS
+  - MULTI_RSCF_REASONING
+  - ATOMIC_REASONING
   regime: governed_reasoning
   confidence_ceiling: SOURCE_BOUND
   provenance_independence: NOT_ESTABLISHED

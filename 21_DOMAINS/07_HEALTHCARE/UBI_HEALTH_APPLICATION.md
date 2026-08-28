@@ -12,17 +12,22 @@ segment: 21_DOMAINS/07_HEALTHCARE
 artifact_kind: DOMAIN_APPLICATION
 path: 21_DOMAINS/07_HEALTHCARE/UBI_HEALTH_APPLICATION.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 07_healthcare
-  - ubi_health_application
-  - clinical_vitality
-  - preventive_medicine
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 07_healthcare
+- ubi_health_application
+- clinical_vitality
+- preventive_medicine
+- rscf
+- canon_candidate
+- canon/domain
+- unified-biological-intelligence
+- 07-healthcare-moc
+- amos-medical-clinical-kernel
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
-    - 21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/UNIFIED_BIOLOGICAL_INTELLIGENCE
+  - 21_DOMAINS/07_HEALTHCARE/07_HEALTHCARE_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_HEALTHCARE
-    - UBI_HEALTH_APPLICATION
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_HEALTHCARE
+  - UBI_HEALTH_APPLICATION
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   biological_master:
-    artifact: [[UNIFIED_BIOLOGICAL_INTELLIGENCE]]
+    artifact:
+    - - UNIFIED_BIOLOGICAL_INTELLIGENCE
   healthcare_moc:
-    artifact: [[07_HEALTHCARE_MOC]]
+    artifact:
+    - - 07_HEALTHCARE_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

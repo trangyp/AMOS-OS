@@ -6,13 +6,27 @@ tags:
 - control_plane
 - commit_control_plane_readme.md
 - canon/control-plane
+- readme
+- control-plane-commit-contract
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 09-commit-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # COMMIT CONTROL PLANE [[README]]
 

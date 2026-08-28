@@ -17,15 +17,17 @@ tags:
 - knowledge
 - note
 - canon/knowledge
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
-
-
 
 # AMOS C01 — Meta-Logic Master Knowledge
 

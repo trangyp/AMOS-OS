@@ -6,13 +6,16 @@ tags:
 - moc
 - l10-world-modeling
 - canon/cognitive-matrix
+- 00-index-moc
+- 01-primitives-moc
+- cognitive-matrix-l10-world-modeling-contract
+- l10-world-modeling-primitives-cognitive-matrix-hml
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L10 World Modeling — Map of Content
 

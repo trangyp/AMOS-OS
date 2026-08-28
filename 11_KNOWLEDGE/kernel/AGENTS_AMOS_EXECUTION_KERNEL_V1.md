@@ -5,6 +5,12 @@ tags:
 - agents
 - execution
 - v1.md
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- kernel-moc
+- amos-simulation-kernel-v0-math-foundations
 ---
 
 # [[AGENTS]] AMOS EXECUTION KERNEL V1 — Full Canonical Expansion

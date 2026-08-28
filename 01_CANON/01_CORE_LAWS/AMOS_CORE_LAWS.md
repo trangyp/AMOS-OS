@@ -52,10 +52,32 @@ tags:
 - rscf/provenance
 - rscf/state/derived
 - topic/amos-core-laws
+- readme
+- 00-root-moc
+- architecture
+- system-map
+- authoritative-state
+- placement-rules
+- canon-map
+- kernel-map
+- control-plane-map
+- runtime-map
+- cognitive-organism-map
+- memory-memory-map
+- amos-full-brain-os-architecture
+- state-state-map
+- observability-observability-map
+- security-map
+- test-map
+- legacy-archive-readme
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 01-core-laws-moc
 aliases:
-- AMOS Core Laws - AMOS Constitutional Laws - AMOS Integrity Laws - AMOS Core Invariants - A
+- AMOS Core Laws - AMOS Constitutional Laws - AMOS Integrity Laws - AMOS Core Invariants
+  - A
 ---
-
 
 # AMOS Core Laws
 **Origin architect / steward:** Trang Phan

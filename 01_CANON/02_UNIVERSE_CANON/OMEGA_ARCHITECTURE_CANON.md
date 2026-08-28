@@ -12,19 +12,32 @@ segment: 01_CANON/02_UNIVERSE_CANON
 artifact_kind: CANON
 path: 01_CANON/02_UNIVERSE_CANON/OMEGA_ARCHITECTURE_CANON.md
 tags:
-  - amos_os
-  - canon
-  - universe
-  - 01_canon
-  - omega
-  - omega_architecture
-  - canon_placeholder
-  - add_only
-  - provenance
-  - promotion_gate
-  - fail_closed
-  - rscf
-  - canon/universe
+- amos_os
+- canon
+- universe
+- 01_canon
+- omega
+- omega_architecture
+- canon_placeholder
+- add_only
+- provenance
+- promotion_gate
+- fail_closed
+- rscf
+- canon/universe
+- validation
+- l19-proof-capsule
+- architecture
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- 00-home
+- amos-rscf-nodes
+- 02-universe-canon-moc
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER
@@ -39,10 +52,10 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance:
-    - AMOS_corpus
+  - AMOS_corpus
   scope:
-    - UNIVERSE_CANON
-    - OMEGA_ARCHITECTURE_CANON
+  - UNIVERSE_CANON
+  - OMEGA_ARCHITECTURE_CANON
   confidence_ceiling:
     source: SOURCE_CLAIM
     canon: UNKNOWN/GAP

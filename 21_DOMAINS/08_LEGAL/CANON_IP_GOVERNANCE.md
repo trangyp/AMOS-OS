@@ -12,17 +12,22 @@ segment: 21_DOMAINS/08_LEGAL
 artifact_kind: DOMAIN_GOVERNANCE
 path: 21_DOMAINS/08_LEGAL/CANON_IP_GOVERNANCE.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 08_legal
-  - canon_ip_governance
-  - intellectual_property
-  - cryptographic_provenance_licensing
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 08_legal
+- canon_ip_governance
+- intellectual_property
+- cryptographic_provenance_licensing
+- rscf
+- canon_candidate
+- canon/domain
+- l0-integrity
+- 08-legal-moc
+- amos-legal-kernel
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
-    - 21_DOMAINS/08_LEGAL/08_LEGAL_MOC
-    - AMOS_CORPUS
+  - 01_CANON/01_CORE_LAWS/L0_INTEGRITY
+  - 21_DOMAINS/08_LEGAL/08_LEGAL_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_LEGAL
-    - IP_GOVERNANCE
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_LEGAL
+  - IP_GOVERNANCE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   law_of_law:
-    artifact: [[L0_INTEGRITY]]
+    artifact:
+    - - L0_INTEGRITY
   legal_moc:
-    artifact: [[08_LEGAL_MOC]]
+    artifact:
+    - - 08_LEGAL_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

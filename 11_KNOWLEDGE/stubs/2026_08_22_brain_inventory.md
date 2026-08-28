@@ -4,8 +4,15 @@ tags:
 - stub
 - brain
 - inventory
+- 2026-08-22-brain-inventory
+- kernel-moc
+- 00-home
 ---
 
 # 2026 08 22 brain inventory
 
 Stub note for [[2026_08_22_brain_inventory]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

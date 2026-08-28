@@ -4,7 +4,10 @@ title: SKILL — Amos Consciousness Candidate Governor
 type: skill
 source: 07_SKILLS/amos-consciousness-candidate-governor
 name: amos-consciousness-candidate-governor
-description: Consciousness Candidate Governor — mind and behavior capability. Use when psychological analysis, behavioral reasoning, or cognitive modeling. Use when amos-c05-mind-behavior-master routes to this specialized capability. Do not use for generic tasks outside c05 domain.
+description: Consciousness Candidate Governor — mind and behavior capability. Use
+  when psychological analysis, behavioral reasoning, or cognitive modeling. Use when
+  amos-c05-mind-behavior-master routes to this specialized capability. Do not use
+  for generic tasks outside c05 domain.
 parent_skill: amos-c05-mind-behavior-master
 domain: c05
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-consciousness-candidate-governor-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

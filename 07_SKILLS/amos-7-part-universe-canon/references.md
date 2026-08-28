@@ -6,13 +6,14 @@ tags:
 - note
 - amos-7-part-universe-canon
 - canon/skill
+- skill
+- amos-7-part-universe-canon-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # References — amos-7-part-universe-canon
 

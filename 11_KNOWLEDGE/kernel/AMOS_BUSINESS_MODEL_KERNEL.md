@@ -14,6 +14,12 @@ tags:
 - rscf/state/derived
 - topic/amos-business-model-kernel-v0
 - kernel
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- kernel-moc
+- amos-simulation-kernel-v0-math-foundations
 created: 2026-08-22
 rscf:
   state: SOURCE_CLAIM
@@ -21,7 +27,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # AMOS Business Model Kernel v0 Business4
 

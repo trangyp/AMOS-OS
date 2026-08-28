@@ -7,6 +7,10 @@ tags:
 - llm-wiki
 - obsidian
 - amos_os
+- amos-llm-wiki
+- llm-wiki-moc
+- moc
+- 14-tools-moc
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL

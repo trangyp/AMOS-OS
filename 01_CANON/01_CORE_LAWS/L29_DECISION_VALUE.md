@@ -7,13 +7,24 @@ tags:
 - core_laws
 - note
 - canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- l6-uncertainty
+- l7-authority
+- l8-execution
+- l30-authority-boundary
+- l28-critical-gap
+- 01-core-laws-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: core_laws
 ---
-
 
 # L29 Decision Value Laws
 

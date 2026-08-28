@@ -6,13 +6,17 @@ tags:
 - moc
 - 29-medical-clinical
 - canon/domain
+- domains-medical-clinical-contract
+- medical-clinical-domains-domain-spec
+- medical-clinical-domains-readme
+- 00-index-moc
+- 21-domains-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 29 Medical Clinical — Map of Content
 

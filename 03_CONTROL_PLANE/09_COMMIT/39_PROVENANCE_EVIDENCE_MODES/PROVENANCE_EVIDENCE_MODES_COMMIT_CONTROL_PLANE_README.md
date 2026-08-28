@@ -6,13 +6,26 @@ tags:
 - control_plane
 - 39_provenance_evidence_modes
 - canon/control-plane
+- readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 39-provenance-evidence-modes-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # PROVENANCE EVIDENCE MODES COMMIT CONTROL PLANE [[README]]
 

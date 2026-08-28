@@ -4,7 +4,10 @@ title: SKILL — Arxiv Activation Checkpointing Rscf
 type: skill
 source: 07_SKILLS/arxiv-activation-checkpointing-rscf
 name: arxiv-activation-checkpointing-rscf
-description: Activation Checkpointing — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Activation Checkpointing — arxiv research capability. Use when arxiv
+  research, paper analysis, or literature review. Use when amos-knowledge-research-master
+  routes to this specialized capability. Do not use for generic tasks outside arxiv
+  domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -17,6 +20,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- arxiv-activation-checkpointing-rscf-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

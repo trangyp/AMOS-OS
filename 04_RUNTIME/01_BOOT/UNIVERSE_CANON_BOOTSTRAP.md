@@ -12,16 +12,20 @@ segment: 04_RUNTIME/01_BOOT
 artifact_kind: BOOTSTRAP_SPEC
 path: 04_RUNTIME/01_BOOT/UNIVERSE_CANON_BOOTSTRAP.md
 tags:
-  - amos_os
-  - runtime
-  - vault
-  - 04_runtime
-  - 01_boot
-  - universe_canon_bootstrap
-  - 7_part_universe_init
-  - rscf
-  - canon_candidate
-  - canon/runtime
+- amos_os
+- runtime
+- vault
+- 04_runtime
+- 01_boot
+- universe_canon_bootstrap
+- 7_part_universe_init
+- rscf
+- canon_candidate
+- canon/runtime
+- 01-boot-moc
+- amos-x-universe-canon
+- 00-home
+- 04-runtime-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -36,13 +40,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 01_CANON/07_PART_UNIVERSE_CANON
-    - 04_RUNTIME/01_BOOT/01_BOOT_MOC
-    - AMOS_CORPUS
+  - 01_CANON/07_PART_UNIVERSE_CANON
+  - 04_RUNTIME/01_BOOT/01_BOOT_MOC
+  - AMOS_CORPUS
   scope:
-    - RUNTIME_BOOT
-    - UNIVERSE_BOOTSTRAP
-    - SOURCE_DEFINED_MODEL
+  - RUNTIME_BOOT
+  - UNIVERSE_BOOTSTRAP
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   boot_moc:
     artifact: 04_RUNTIME/01_BOOT/01_BOOT_MOC

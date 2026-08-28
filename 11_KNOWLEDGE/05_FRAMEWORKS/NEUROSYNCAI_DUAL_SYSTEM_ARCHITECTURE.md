@@ -12,19 +12,26 @@ segment: 11_KNOWLEDGE/05_FRAMEWORKS
 artifact_kind: ARCHITECTURE
 path: 11_KNOWLEDGE/05_FRAMEWORKS/NEUROSYNCAI_DUAL_SYSTEM_ARCHITECTURE.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 05_frameworks
-  - neurosyncai_dual_system
-  - dual_system_cognition
-  - system_1_fast
-  - system_2_slow
-  - cognitive_arbitration
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 05_frameworks
+- neurosyncai_dual_system
+- dual_system_cognition
+- system_1_fast
+- system_2_slow
+- cognitive_arbitration
+- rscf
+- canon_candidate
+- canon/knowledge
+- neurosyncai-master
+- amos-mind-os-framework
+- ldai-logically-deterministic-ai
+- qls-framework
+- 00-home
+- knowledge-moc
+- 05-frameworks-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -39,26 +46,28 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - NEUROSYNCAI_FRAMEWORK
-    - AMOS_CORPUS
+  - NEUROSYNCAI_FRAMEWORK
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_FRAMEWORKS
-    - DUAL_SYSTEM_ARCHITECTURE
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_FRAMEWORKS
+  - DUAL_SYSTEM_ARCHITECTURE
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   master:
-    artifact: [[NEUROSYNCAI_MASTER]]
+    artifact:
+    - - NEUROSYNCAI_MASTER
   mind_os:
-    artifact: [[AMOS_MIND_OS_FRAMEWORK]]
+    artifact:
+    - - AMOS_MIND_OS_FRAMEWORK
   deterministic_logic:
-    artifact: [[LDAI_LOGICALLY_DETERMINISTIC_AI]]
+    artifact:
+    - - LDAI_LOGICALLY_DETERMINISTIC_AI
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
   dual_system_model: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # NeurosyncAI Dual-System Cognitive Architecture
 

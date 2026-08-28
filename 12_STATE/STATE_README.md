@@ -1,12 +1,12 @@
 ---
 title: STATE README
 aliases:
-  - State README
-  - AMOS State README
-  - State Plane README
-  - State Plane
-  - AMOS State Plane
-  - 12 STATE
+- State [[README]]
+- AMOS State [[README]]
+- State Plane [[README]]
+- State Plane
+- AMOS State Plane
+- 12 STATE
 type: state
 artifact_type: package_readme
 document_role: navigation_and_orientation
@@ -23,154 +23,176 @@ executable_binding: PARTIAL
 empirical_status: NOT_APPLICABLE
 authority_class: ORIENTATION_NOT_NORMATIVE_CONTRACT
 tags:
-  - amos
-  - amos_os
-  - amos/state
-  - amos/state-plane
-  - amos/architecture
-  - amos/runtime
-  - amos/governance
-  - 12_state
-  - state
-  - state-plane
-  - state-management
-  - state-model
-  - state-machine
-  - state-record
-  - state-records
-  - state-artifact
-  - state-artifacts
-  - state-versioning
-  - versioned-state
-  - authoritative-state
-  - authoritative-record
-  - canonical-state
-  - state-integrity
-  - state-consistency
-  - state-transition
-  - state-mutation
-  - mutation
-  - mutation-control
-  - commit
-  - proposal
-  - proposal-commit
-  - transaction
-  - transaction-semantics
-  - atomicity
-  - consistency
-  - concurrency
-  - mvcc
-  - cas
-  - compare-and-swap
-  - snapshot
-  - version
-  - versioning
-  - epoch
-  - causal-epoch
-  - policy-epoch
-  - provenance-epoch
-  - state-version
-  - authority
-  - authorization
-  - capability
-  - permission
-  - governance
-  - control-plane
-  - kernel
-  - observability
-  - operations
-  - recovery
-  - rollback
-  - rollback-basin
-  - repair
-  - receipt
-  - validation-receipt
-  - validation
-  - verification
-  - precondition
-  - postcondition
-  - invariant
-  - invariant-preservation
-  - fail-closed
-  - unknown
-  - gap
-  - unknown-gap
-  - dependency
-  - dependency-closure
-  - selective-invalidation
-  - causal-lineage
-  - provenance
-  - provenance-lineage
-  - provenance-topology
-  - provenance-stamp
-  - epistemic
-  - epistemic-class
-  - confidence
-  - confidence-ceiling
-  - scope
-  - scope-binding
-  - regime
-  - regime-binding
-  - freshness
-  - temporal-validity
-  - hml
-  - h-m-l
-  - rscf
-  - rscf-node
-  - typed-artifact
-  - typed-state
-  - schema
-  - state-schema
-  - contract
-  - state-contract
-  - contract-discipline
-  - negative-case
-  - stale-state
-  - malformed-state
-  - unauthorized-input
-  - conflict
-  - contradiction
-  - concurrency-conflict
-  - stale-write
-  - recovery-path
-  - reversible-action
-  - irreversible-action
-  - consequence
-  - consequence-radius
-  - audit
-  - auditability
-  - traceability
-  - deterministic-reasoning
-  - governed-evolution
-  - integrity
-  - integrity-first
-  - canon
-  - canon/state
-  - canon/governance
-  - knowledge/state
-  - runtime/state
-  - vault
-  - obsidian
-  - moc/state
+- amos
+- amos_os
+- amos/state
+- amos/state-plane
+- amos/architecture
+- amos/runtime
+- amos/governance
+- 12_state
+- state
+- state-plane
+- state-management
+- state-model
+- state-machine
+- state-record
+- state-records
+- state-artifact
+- state-artifacts
+- state-versioning
+- versioned-state
+- authoritative-state
+- authoritative-record
+- canonical-state
+- state-integrity
+- state-consistency
+- state-transition
+- state-mutation
+- mutation
+- mutation-control
+- commit
+- proposal
+- proposal-commit
+- transaction
+- transaction-semantics
+- atomicity
+- consistency
+- concurrency
+- mvcc
+- cas
+- compare-and-swap
+- snapshot
+- version
+- versioning
+- epoch
+- causal-epoch
+- policy-epoch
+- provenance-epoch
+- state-version
+- authority
+- authorization
+- capability
+- permission
+- governance
+- control-plane
+- kernel
+- observability
+- operations
+- recovery
+- rollback
+- rollback-basin
+- repair
+- receipt
+- validation-receipt
+- validation
+- verification
+- precondition
+- postcondition
+- invariant
+- invariant-preservation
+- fail-closed
+- unknown
+- gap
+- unknown-gap
+- dependency
+- dependency-closure
+- selective-invalidation
+- causal-lineage
+- provenance
+- provenance-lineage
+- provenance-topology
+- provenance-stamp
+- epistemic
+- epistemic-class
+- confidence
+- confidence-ceiling
+- scope
+- scope-binding
+- regime
+- regime-binding
+- freshness
+- temporal-validity
+- hml
+- h-m-l
+- rscf
+- rscf-node
+- typed-artifact
+- typed-state
+- schema
+- state-schema
+- contract
+- state-contract
+- contract-discipline
+- negative-case
+- stale-state
+- malformed-state
+- unauthorized-input
+- conflict
+- contradiction
+- concurrency-conflict
+- stale-write
+- recovery-path
+- reversible-action
+- irreversible-action
+- consequence
+- consequence-radius
+- audit
+- auditability
+- traceability
+- deterministic-reasoning
+- governed-evolution
+- integrity
+- integrity-first
+- canon
+- canon/state
+- canon/governance
+- knowledge/state
+- runtime/state
+- vault
+- obsidian
+- moc/state
+- readme
+- state-state-contract
+- observability-readme
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- kernel-readme
+- control-plane-readme
+- operations-readme
+- law-hierarchy
+- state-state-map
+- index-state-readme
+- index-state-state-contract
+- 00-home
+- 12-state-moc
+- state-readme
+- amos-rscf-nodes
+- state-identity
+- proposal-commit-separation
+- state-provenance
+- state-mutation-discipline
+- state-rollback
+- 00-root-mocmd
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance:
-    - AMOS_corpus
-    - 12_STATE/STATE_README.md
-    - 12_STATE/STATE_STATE_CONTRACT.md
+  - AMOS_corpus
+  - 12_STATE/STATE_README.md
+  - 12_STATE/STATE_STATE_CONTRACT.md
   scope:
-    - AMOS_general
-    - AMOS_state
-    - 12_STATE
+  - AMOS_general
+  - AMOS_state
+  - 12_STATE
   regime: AMOS_MODEL
   HML: H
   confidence_ceiling: SOURCE_BOUND
   falsifier:
-    - contradictory_state_contract
-    - superseding_state_canon
-    - invalidated_provenance
-    - executed_validation_failure
+  - contradictory_state_contract
+  - superseding_state_canon
+  - invalidated_provenance
+  - executed_validation_failure
 gaps:
   executable_binding: PARTIAL
   runtime_validation: PARTIAL
@@ -4213,28 +4235,28 @@ RSCF-RELATIONS:
   - VALIDATION_RELATED_TO: 
 
   - GOVERNS_CONCEPT:
-      AUTHORITATIVE_STATE
+      [[AUTHORITATIVE_STATE]]
 
   - GOVERNS_CONCEPT:
-      STATE_VERSIONING
+      [[STATE_VERSIONING]]
 
   - GOVERNS_CONCEPT:
-      STATE_IDENTITY
+      [[STATE_IDENTITY]]
 
   - GOVERNS_CONCEPT:
-      PROPOSAL_COMMIT_SEPARATION
+      [[PROPOSAL_COMMIT_SEPARATION]]
 
   - GOVERNS_CONCEPT:
-      STATE_PROVENANCE
+      [[STATE_PROVENANCE]]
 
   - GOVERNS_CONCEPT:
-      STATE_MUTATION_DISCIPLINE
+      [[STATE_MUTATION_DISCIPLINE]]
 
   - GOVERNS_CONCEPT:
-      STATE_ROLLBACK
+      [[STATE_ROLLBACK]]
 
   - GOVERNS_CONCEPT:
-      SELECTIVE_INVALIDATION
+      [[SELECTIVE_INVALIDATION]]
 ```
 
 ---

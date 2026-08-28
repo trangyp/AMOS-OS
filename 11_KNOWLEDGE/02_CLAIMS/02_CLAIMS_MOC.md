@@ -6,13 +6,17 @@ tags:
 - moc
 - 02-claims
 - canon/knowledge
+- canon-claim-registry
+- framework-claim-registry
+- heritage-claim-registry
+- ubi-claim-registry
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # 02 Claims — Map of Content
 

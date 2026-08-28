@@ -12,27 +12,47 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX_TABLE
 path: 25_COGNITIVE_MATRIX/UBI_X_COGNITION_MATRIX.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - ubi_x_cognition_matrix
-  - matrix_table
-  - ubi
-  - cognition
-  - biological_signal
-  - threshold_routing
-  - working_memory
-  - tone_filter
-  - execution_throttle
-  - gamma_clock
-  - nbi
-  - nei
-  - si
-  - bei
-  - rscf
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- ubi_x_cognition_matrix
+- matrix_table
+- ubi
+- cognition
+- biological_signal
+- threshold_routing
+- working_memory
+- tone_filter
+- execution_throttle
+- gamma_clock
+- nbi
+- nei
+- si
+- bei
+- rscf
+- canon_candidate
+- canon/matrix
+- ubi-x-cognition
+- ubi-cognition-binding
+- k-mvcc
+- k-atomic-multi-rscf
+- validation
+- memory
+- signals
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- 25-cognitive-matrix-moc
+- total-framework-matrix
+- total-kernel-matrix
+- total-canon-matrix
+- k-rscf
+- k-hml
+- k-provenance
+- k-fail-closed
+- k-governed-evolution
+- amos-core-v4-4
 version: 2.0.0
 updated: '2026-08-28'
 status: ACTIVE_REFERENCE
@@ -43,9 +63,11 @@ validation_status: PASSED_CONSTITUTIONAL_TESTS
 executable_binding: ESTABLISHED
 framework_binding:
   matrix_spec:
-    artifact: [[UBI_X_COGNITION]]
+    artifact:
+    - - UBI_X_COGNITION
   knowledge_binding:
-    artifact: [[UBI_COGNITION_BINDING]]
+    artifact:
+    - - UBI_COGNITION_BINDING
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   matrix_structure: VERIFIED_SOURCE_STRUCTURE

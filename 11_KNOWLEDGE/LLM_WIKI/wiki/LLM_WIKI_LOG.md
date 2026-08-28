@@ -6,13 +6,14 @@ tags:
 - log
 - llm-wiki
 - canon/knowledge
+- karpathy-llm-wiki-summary
+- llm-wiki-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # LLM Wiki Log
 

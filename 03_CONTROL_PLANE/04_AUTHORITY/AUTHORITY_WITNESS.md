@@ -7,13 +7,17 @@ tags:
 - authority
 - note
 - canon/control-plane
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 04-authority-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: authority_governance
 ---
-
 
 # AUTHORITY_WITNESS.md
 

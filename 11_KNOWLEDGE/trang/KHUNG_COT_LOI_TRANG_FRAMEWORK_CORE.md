@@ -5,6 +5,13 @@ tags:
 - framework
 - reality
 - canon/knowledge
+- validation
+- 00-home
+- knowledge-moc
+- system-scan-agent
+- automation-profiles
+- amos-simulation-kernel-v0-math-foundations
+- trang-moc
 type: document
 source: 11_KNOWLEDGE/trang
 rscf:
@@ -13,7 +20,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # KHUNG CỐT LÕI (TRANG ∅ FRAMEWORK)CORE
 ### Ký hiệu chung

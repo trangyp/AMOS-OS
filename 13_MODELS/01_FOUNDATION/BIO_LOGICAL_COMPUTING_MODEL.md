@@ -1,150 +1,160 @@
 ---
 title: Bio-Logical Computing Model
 aliases:
-  - "Bio Logical Computing Model"
-  - "Bio-Logical Computing"
-  - "Biological Logic Model"
-  - "Biological Logic Computing"
-  - "AMOS Bio-Logical Computing"
-  - "AMOS Biological Logic Layer"
-
+- Bio Logical Computing Model
+- Bio-Logical Computing
+- Biological Logic Model
+- Biological Logic Computing
+- AMOS Bio-Logical Computing
+- AMOS Biological Logic Layer
 type: model
-source: "13_MODELS/01_FOUNDATION"
-artifact: "BIO_LOGICAL_COMPUTING_MODEL.md"
-artifact_id: "amos_13_models_01_foundation_bio_logical_computing_model"
-
-origin_architect: "Trang Phan"
-steward: "Trang Phan"
-system: "AMOS OS"
-
-plane: "13_MODELS"
-segment: "13_MODELS/01_FOUNDATION"
-artifact_kind: "MODEL"
-path: "13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL.md"
-
-version: "0.2.0"
-previous_version: "0.1.0"
-updated: "2026-08-28"
-
-status: "SOURCE_POPULATED"
-epistemic_class: "AMOS_MODEL"
-canonical_status: "CANON_CANDIDATE"
-implementation_status: "PARTIAL_OR_NOT_ESTABLISHED"
-validation_status: "SOURCE_GROUNDED_NOT_EMPIRICALLY_VALIDATED"
-executable_binding: "NOT_ESTABLISHED"
-ingestion_action: "ADD_ONLY"
-
+source: 13_MODELS/01_FOUNDATION
+artifact: BIO_LOGICAL_COMPUTING_MODEL.md
+artifact_id: amos_13_models_01_foundation_bio_logical_computing_model
+origin_architect: Trang Phan
+steward: Trang Phan
+system: AMOS OS
+plane: 13_MODELS
+segment: 13_MODELS/01_FOUNDATION
+artifact_kind: MODEL
+path: 13_MODELS/01_FOUNDATION/BIO_LOGICAL_COMPUTING_MODEL.md
+version: 0.2.0
+previous_version: 0.1.0
+updated: '2026-08-28'
+status: SOURCE_POPULATED
+epistemic_class: AMOS_MODEL
+canonical_status: CANON_CANDIDATE
+implementation_status: PARTIAL_OR_NOT_ESTABLISHED
+validation_status: SOURCE_GROUNDED_NOT_EMPIRICALLY_VALIDATED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
 source_basis:
   primary:
-    artifact: "AMOS_COGNITION.json"
-    locus: "layer_5_biological_logic_layer"
-    provenance_class: "AMOS_corpus"
+    artifact: AMOS_COGNITION.json
+    locus: layer_5_biological_logic_layer
+    provenance_class: AMOS_corpus
   supporting:
-    artifact: "KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json"
-    locus: "14. Biological Logic"
-    provenance_class: "AMOS_corpus"
-  source_independence: "NOT_ASSUMED"
-  note: "Corpus artifacts may share AMOS ancestry and therefore are not treated as independent empirical confirmation."
-
+    artifact: KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.json
+    locus: 14. Biological Logic
+    provenance_class: AMOS_corpus
+  source_independence: NOT_ASSUMED
+  note: Corpus artifacts may share AMOS ancestry and therefore are not treated as
+    independent empirical confirmation.
 tags:
-  - amos_os
-  - amos
-  - model
-  - specification
-  - 13_models
-  - 01_foundation
-  - foundation
-  - bio_logical_computing
-  - biological_logic
-  - biological_computing
-  - bio_logic
-  - biological_constraints
-  - organism_constraints
-  - organism_computation
-  - embodied_constraints
-  - cognition
-  - nervous_system
-  - neurobiology
-  - neurobiological_intelligence
-  - neuroemotional_intelligence
-  - somatic_intelligence
-  - bioelectromagnetic_intelligence
-  - emotion
-  - state
-  - intuition
-  - instinct
-  - cognition_layer
-  - perception
-  - memory
-  - micro_cues
-  - body_prediction
-  - social_pattern
-  - risk_calculation
-  - attention
-  - stress
-  - sleep
-  - nutrition
-  - metabolic_cost
-  - executive_function
-  - somatic_patterns
-  - population_dynamics
-  - burnout
-  - collapse
-  - group_state
-  - memory_imprinting
-  - UBI
-  - NBI
-  - NEI
-  - SI
-  - BEI
-  - model_observation_firewall
-  - causal_firewall
-  - scope_firewall
-  - regime_firewall
-  - provenance
-  - provenance_topology
-  - epistemic_regimes
-  - source_claim
-  - observation
-  - derived
-  - amos_model
-  - confidence_ceiling
-  - competing_hypotheses
-  - falsifier
-  - sensitivity
-  - fail_closed
-  - unknown_gap
-  - rscf
-  - hml
-  - recursive_reasoning
-  - canon_candidate
-  - source_grounded
-  - add_only
-  - canon/model
+- amos_os
+- amos
+- model
+- specification
+- 13_models
+- 01_foundation
+- foundation
+- bio_logical_computing
+- biological_logic
+- biological_computing
+- bio_logic
+- biological_constraints
+- organism_constraints
+- organism_computation
+- embodied_constraints
+- cognition
+- nervous_system
+- neurobiology
+- neurobiological_intelligence
+- neuroemotional_intelligence
+- somatic_intelligence
+- bioelectromagnetic_intelligence
+- emotion
+- state
+- intuition
+- instinct
+- cognition_layer
+- perception
+- memory
+- micro_cues
+- body_prediction
+- social_pattern
+- risk_calculation
+- attention
+- stress
+- sleep
+- nutrition
+- metabolic_cost
+- executive_function
+- somatic_patterns
+- population_dynamics
+- burnout
+- collapse
+- group_state
+- memory_imprinting
+- UBI
+- NBI
+- NEI
+- SI
+- BEI
+- model_observation_firewall
+- causal_firewall
+- scope_firewall
+- regime_firewall
+- provenance
+- provenance_topology
+- epistemic_regimes
+- source_claim
+- observation
+- derived
+- amos_model
+- confidence_ceiling
+- competing_hypotheses
+- falsifier
+- sensitivity
+- fail_closed
+- unknown_gap
+- rscf
+- hml
+- recursive_reasoning
+- canon_candidate
+- source_grounded
+- add_only
+- canon/model
+- diagnosis
+- integration
+- khung-trang
+- architecture
+- validation
+- khung-trang-full-max-detail-architecture-equations
+- bio-logical-computing
+- 00-home
+- amos-rscf-nodes
+- model-map
+- 01-foundation-moc
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- canon
 rscf:
   state: DERIVED
   claim_class: DERIVED
   node_claim_class: AMOS_MODEL
   provenance:
-    - AMOS_corpus
-    - AMOS_COGNITION
-    - KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS
+  - AMOS_corpus
+  - AMOS_COGNITION
+  - KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS
   scope:
-    - AMOS_general
-    - cognition
-    - biological_constraint_model
-  confidence_ceiling: "SOURCE_BOUND"
-  empirical_validation: "NOT_ESTABLISHED"
-
+  - AMOS_general
+  - cognition
+  - biological_constraint_model
+  confidence_ceiling: SOURCE_BOUND
+  empirical_validation: NOT_ESTABLISHED
 gaps:
-  canonical_promotion: "OPEN"
-  executable_binding: "NOT_ESTABLISHED"
-  empirical_validation: "NOT_ESTABLISHED"
-  neuroscience_validation: "NOT_ESTABLISHED"
-  clinical_validation: "NOT_ESTABLISHED"
-  bioelectromagnetic_validation: "NOT_ESTABLISHED"
-  runtime_enforcement: "NOT_ESTABLISHED"
-  artifact_specific_validation_receipt: "NOT_ESTABLISHED"
+  canonical_promotion: OPEN
+  executable_binding: NOT_ESTABLISHED
+  empirical_validation: NOT_ESTABLISHED
+  neuroscience_validation: NOT_ESTABLISHED
+  clinical_validation: NOT_ESTABLISHED
+  bioelectromagnetic_validation: NOT_ESTABLISHED
+  runtime_enforcement: NOT_ESTABLISHED
+  artifact_specific_validation_receipt: NOT_ESTABLISHED
 ---
 
 > [!note] Source preface

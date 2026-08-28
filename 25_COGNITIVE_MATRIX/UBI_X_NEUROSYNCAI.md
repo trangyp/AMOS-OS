@@ -12,11 +12,30 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/UBI_X_NEUROSYNCAI.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - canon/matrix
-  - rscf
-  - provenance
+- amos_os
+- cognitive_matrix
+- canon/matrix
+- rscf
+- provenance
+- ubi-x-neurosyncai-matrix
+- ubi-neurosyncai-binding
+- unified-biological-intelligence
+- amos-x-neurosyncai
+- 25-cognitive-matrix-moc
+- validation
+- ubi-x-cognition
+- ubi-x-emotion
+- ubi-x-full-brain
+- ubi-x-neurosyncai
+- 00-home
+- amos-rscf-nodes
+- ubi-x-cognition-matrix
+- ubi-x-emotion-matrix
+- ubi-x-full-brain-matrix
+- law-hierarchy
+- k-provenance
+- k-fail-closed
+- amos-core-v4-4
 version: 1.0.0
 updated: '2026-08-28'
 status: CANON_CANDIDATE

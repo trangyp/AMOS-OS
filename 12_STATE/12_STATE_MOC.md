@@ -6,13 +6,16 @@ tags:
 - moc
 - 12-state
 - canon/state
+- state-readme
+- state-state-contract
+- 00-index-moc
+- amos-home
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 12 State — Map of Content
 

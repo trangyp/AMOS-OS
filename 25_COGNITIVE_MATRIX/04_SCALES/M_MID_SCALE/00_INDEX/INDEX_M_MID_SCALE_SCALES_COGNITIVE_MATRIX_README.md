@@ -6,13 +6,28 @@ tags:
 - cognitive_matrix
 - m_mid_scale
 - canon/cognitive-matrix
+- readme
+- m-mid-scale-map
+- 00-home
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- scales-cognitive-matrix-m-mid-scale-contract
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # INDEX M MID SCALE SCALES COGNITIVE MATRIX [[README]]
 

@@ -6,13 +6,23 @@ tags:
 - moc
 - 06-domain-knowledge
 - canon/knowledge
+- heritage-civilization-history
+- heritage-fractal-mathematics
+- heritage-intelligence
+- heritage-music-acoustic-rules
+- heritage-pattern-systems
+- heritage-spatial-intelligence
+- ubi-bioelectromagnetic-intelligence
+- ubi-neurobiological-intelligence
+- ubi-neuroemotional-intelligence
+- ubi-somatic-intelligence
+- knowledge-moc
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: AMOS_knowledge
 ---
-
 
 # 06 Domain Knowledge — Map of Content
 

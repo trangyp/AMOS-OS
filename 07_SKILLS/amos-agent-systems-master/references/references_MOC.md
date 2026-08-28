@@ -6,13 +6,28 @@ tags:
 - moc
 - references
 - canon/skill
+- 11k-agent-templates
+- 11k-environment-scan-agent
+- agent-registry
+- agent-working-instructions-v2
+- ai-workforce-layer
+- architecture-guardian-agent
+- fabrication-engine
+- fabrication-engine-layer
+- os-agent-model
+- amos-agent-systems-master-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- 07-skills-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: SOURCE_CLAIM
   claim_class: SOURCE_CLAIM
   provenance: AMOS_corpus
   scope: skill_reference
 ---
-
 
 # References — Map of Content
 

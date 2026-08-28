@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-c05-mind-behavior-master
 Agent: amos-c05-mind-behavior-agent
-Trigger: AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness, metacognition, thinking,
-  reasoning, perception, attention. 5-axis Emotion Law, HIE/UMPL/UST/UIE/UEL super-consciousness emul
+Trigger: AMOS C05 Mind & Behavior — cognition, emotion, consciousness, awareness,
+  metacognition, thinking, reasoning, perception, attention. 5-axis Emotion Law, HIE/UMPL/UST/UIE/UEL
+  super-consciousness emul
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: c05
 ---
-
 
 # Workflow: AMOS C05 — Mind & Behavior Master
 

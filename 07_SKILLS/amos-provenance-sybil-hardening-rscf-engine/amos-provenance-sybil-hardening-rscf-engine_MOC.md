@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-provenance-sybil-hardening-rscf-eng
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Provenance-Sybil-Hardening-Rscf-Engine — Map of Content
 

@@ -6,13 +6,15 @@ tags:
 - moc
 - o15-observation
 - canon/cognitive-matrix
+- 00-index-moc
+- 02-lifecycle-operations-moc
+- cognitive-matrix-o15-observation-contract
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O15 Observation — Map of Content
 

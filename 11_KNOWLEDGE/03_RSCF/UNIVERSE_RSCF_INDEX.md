@@ -12,18 +12,22 @@ segment: 11_KNOWLEDGE/03_RSCF
 artifact_kind: INDEX
 path: 11_KNOWLEDGE/03_RSCF/UNIVERSE_RSCF_INDEX.md
 tags:
-  - amos_os
-  - knowledge
-  - vault
-  - 11_knowledge
-  - 03_rscf
-  - universe_rscf_index
-  - proof_capsules
-  - cosmological_proofs
-  - 7_part_universe_canon
-  - rscf
-  - canon_candidate
-  - canon/knowledge
+- amos_os
+- knowledge
+- vault
+- 11_knowledge
+- 03_rscf
+- universe_rscf_index
+- proof_capsules
+- cosmological_proofs
+- 7_part_universe_canon
+- rscf
+- canon_candidate
+- canon/knowledge
+- 03-rscf-moc
+- 25-cognitive-matrix-moc
+- 00-home
+- knowledge-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -38,15 +42,16 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 01_CANON/07_PART_UNIVERSE_CANON
-    - AMOS_CORPUS
+  - 01_CANON/07_PART_UNIVERSE_CANON
+  - AMOS_CORPUS
   scope:
-    - KNOWLEDGE_RSCF
-    - UNIVERSE_RSCF_INDEX
-    - SOURCE_DEFINED_MODEL
+  - KNOWLEDGE_RSCF
+  - UNIVERSE_RSCF_INDEX
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
-    artifact: [[03_RSCF_MOC]]
+    artifact:
+    - - 03_RSCF_MOC
   universe_canon:
     artifact: 01_CANON/07_PART_UNIVERSE_CANON/07_PART_UNIVERSE_CANON_MOC
 epistemic_boundary:
@@ -55,7 +60,6 @@ epistemic_boundary:
   proof_index: SOURCE_DEFINED_MODEL
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # Universe Total Canon RSCF Proof Capsule Index
 

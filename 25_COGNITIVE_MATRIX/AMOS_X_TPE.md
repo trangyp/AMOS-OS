@@ -12,32 +12,39 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_TPE.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - 25_cognitive_matrix
-  - artifact
-  - tpe
-  - trang_prediction_engine
-  - structural_foresight
-  - forecasting
-  - prediction
-  - systems_dynamics
-  - structural_drift
-  - transition_prediction
-  - window_prediction
-  - cascade_prediction
-  - intervention_sensitivity
-  - tss
-  - qls
-  - qcla
-  - ucp
-  - ubi
-  - ulf
-  - cci
-  - psi
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- 25_cognitive_matrix
+- artifact
+- tpe
+- trang_prediction_engine
+- structural_foresight
+- forecasting
+- prediction
+- systems_dynamics
+- structural_drift
+- transition_prediction
+- window_prediction
+- cascade_prediction
+- intervention_sensitivity
+- tss
+- qls
+- qcla
+- ucp
+- ubi
+- ulf
+- cci
+- psi
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- amos-x-qls
+- amos-x-qls-qcla-matrix
+- 25-cognitive-matrix-moc
+- law-hierarchy
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -52,11 +59,11 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - AMOS_TPE_CORPUS
+  - AMOS_TPE_CORPUS
   scope:
-    - STRUCTURAL_FORESIGHT
-    - HUMAN_LINKED_SYSTEMS
-    - COGNITIVE_MATRIX
+  - STRUCTURAL_FORESIGHT
+  - HUMAN_LINKED_SYSTEMS
+  - COGNITIVE_MATRIX
 framework_binding:
   primary:
     name: The Trang Prediction Engine™
@@ -68,17 +75,17 @@ framework_binding:
     relation: OPERATIONALIZES_STRUCTURAL_LOGIC
 prediction_boundary:
   predicts:
-    - transition_classes
-    - time_windows
-    - cascade_effects
-    - structural_trajectories
-    - intervention_sensitivity
+  - transition_classes
+  - time_windows
+  - cascade_effects
+  - structural_trajectories
+  - intervention_sensitivity
   does_not_predict:
-    - exact_dates
-    - specific_individuals
-    - assassinations
-    - sudden_disasters
-    - deterministic_personal_outcomes
+  - exact_dates
+  - specific_individuals
+  - assassinations
+  - sudden_disasters
+  - deterministic_personal_outcomes
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   framework_structure: VERIFIED_SOURCE_STRUCTURE
@@ -91,7 +98,6 @@ epistemic_boundary:
   intervention_effectiveness: NOT_ESTABLISHED_GLOBALLY
   runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # AMOS × TPE
 

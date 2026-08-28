@@ -4,7 +4,9 @@ title: SKILL — Amos Arxiv Embodied Runtime Rscf Engine
 type: skill
 source: 07_SKILLS/amos-arxiv-embodied-runtime-rscf-engine
 name: amos-arxiv-embodied-runtime-rscf-engine
-description: Arxiv Embodied Runtime — arxiv research capability. Use when arxiv research, paper analysis, or literature review. Use when amos-knowledge-research-master routes to this specialized capability. Do not use for generic tasks outside arxiv domain.
+description: Arxiv Embodied Runtime — arxiv research capability. Use when arxiv research,
+  paper analysis, or literature review. Use when amos-knowledge-research-master routes
+  to this specialized capability. Do not use for generic tasks outside arxiv domain.
 parent_skill: amos-knowledge-research-master
 domain: arxiv
 origin_architect: Trang Phan
@@ -17,6 +19,14 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 07-skills-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- references-moc
+- amos-arxiv-embodied-runtime-rscf-engine-moc
+- trang-framework-recursive-ontology-dynamics
+- skill
 rscf:
   state: DERIVED
   claim_class: DERIVED

@@ -6,13 +6,14 @@ tags:
 - moc
 - 32-tool-use-modes
 - canon/control-plane
+- 09-commit-moc
+- tool-use-modes-commit-control-plane-readme
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 32 Tool Use Modes — Map of Content
 

@@ -12,30 +12,45 @@ segment: 01_CANON/03_COGNITION_CANON
 artifact_kind: CANON
 path: 01_CANON/03_COGNITION_CANON/AMOS_EMOTION_MASTER_CANON.md
 tags:
-  - amos_os
-  - amos_emotion
-  - amos_emotion_master_canon
-  - emotion
-  - emotion_canon
-  - cognition
-  - cognition_canon
-  - canon
-  - master_canon
-  - universe
-  - 01_canon
-  - 03_cognition_canon
-  - canon_placeholder
-  - rscf
-  - provenance
-  - epistemic_integrity
-  - scope
-  - regime
-  - validation
-  - canon/universe
+- amos_os
+- amos_emotion
+- amos_emotion_master_canon
+- emotion
+- emotion_canon
+- cognition
+- cognition_canon
+- canon
+- master_canon
+- universe
+- 01_canon
+- 03_cognition_canon
+- canon_placeholder
+- rscf
+- provenance
+- epistemic_integrity
+- scope
+- regime
+- validation
+- canon/universe
+- 03-cognition-canon-moc
+- amos-consciousness-canon
+- amos-emotion-master-canon
+- amos-cognition-canon
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- amos-emotion-canon
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
 aliases:
-  - "AMOS Emotion Master Canon"
-  - "AMOS Emotion Canon Master"
-  - "Emotion Master Canon"
+- AMOS Emotion Master Canon
+- AMOS Emotion Canon Master
+- Emotion Master Canon
 version: 0.1.0
 updated: '2026-08-27'
 status: PLACEHOLDER

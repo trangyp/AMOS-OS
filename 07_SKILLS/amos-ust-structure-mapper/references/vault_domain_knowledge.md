@@ -6,15 +6,21 @@ tags:
 - reference
 - amos-ust-structure-mapper
 - canon/skill
+- 07-skills-moc
+- references-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: CONDITIONAL
   claim_class: CONDITIONAL
   provenance: AMOS_corpus
   scope: skill_reference
 overclaim_risk: true
-overclaim_note: Contains language that may violate AMOS anti-overclaim principles; classified as CONDITIONAL pending validation.
+overclaim_note: Contains language that may violate AMOS anti-overclaim principles;
+  classified as CONDITIONAL pending validation.
 ---
-
 
 # Vault-Sourced Domain Knowledge
 

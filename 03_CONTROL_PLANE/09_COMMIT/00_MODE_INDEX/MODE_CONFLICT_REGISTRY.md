@@ -8,12 +8,44 @@ tags:
 - mode_index
 - note
 - canon/control-plane
+- mode-admission-queue
+- mode-composition-registry
+- task-contract
+- task-resolver
+- capability-resolver
+- k-system-state
+- k-gmef
+- k-rscf
+- k-hml
+- k-binding
+- k-constraint-propagation
+- k-capability-authorization
+- k-risk-constraint
+- k-effect-classification
+- k-information-exposure
+- k-provenance
+- k-provenance-topology
+- k-sybil-hardening
+- k-commit-time-authority
+- k-collapse-recovery
+- k-homeostasis
+- k-repair-harm
+- k-repair-priority
+- validation
+- integration
+- canon
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- 00-mode-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
+
 # MODE CONFLICT REGISTRY
 
 `MODE_CONFLICT_REGISTRY.md` in Drive is also only the reservation placeholder; there is no substantive canonical implementation in that artifact to reproduce verbatim.

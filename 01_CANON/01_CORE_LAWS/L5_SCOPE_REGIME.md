@@ -10,6 +10,16 @@ tags:
 - rscf
 - governance
 - canon/universe
+- 00-root-moc
+- amos-moc
+- 00-home
+- amos-rscf-nodes
+- l0-integrity
+- l1-epistemic
+- l2-provenance
+- l3-dependency
+- l4-causal
+- 01-core-laws-moc
 title: L5 Scope, Regime, and Temporal Laws
 origin_architect: Trang Phan
 status: AMOS_MODEL
@@ -23,7 +33,6 @@ rscf:
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # L5 Scope, Regime, and Temporal Laws
 

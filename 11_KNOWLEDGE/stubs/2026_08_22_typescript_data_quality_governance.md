@@ -6,8 +6,15 @@ tags:
 - data
 - quality
 - governance
+- kernel-moc
+- 00-home
+- 2026-08-22-typescript-data-quality-governance
 ---
 
 # 2026 08 22 typescript data quality governance
 
 Stub note for [[2026_08_22_typescript_data_quality_governance]].
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

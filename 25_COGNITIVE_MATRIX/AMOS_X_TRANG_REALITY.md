@@ -12,32 +12,39 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: ARTIFACT
 path: 25_COGNITIVE_MATRIX/AMOS_X_TRANG_REALITY.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - 25_cognitive_matrix
-  - artifact
-  - trang_reality
-  - trang_reality_architecture
-  - reality_architecture
-  - reality_model
-  - ontology
-  - distinction
-  - relation
-  - constraint
-  - transformation
-  - memory
-  - feedback
-  - persistence
-  - possibility
-  - actualization
-  - observer
-  - causality
-  - viability
-  - reality_contact
-  - truth_maintenance
-  - rscf
-  - canon_candidate
-  - canon/cognitive-matrix
+- amos_os
+- cognitive_matrix
+- 25_cognitive_matrix
+- artifact
+- trang_reality
+- trang_reality_architecture
+- reality_architecture
+- reality_model
+- ontology
+- distinction
+- relation
+- constraint
+- transformation
+- memory
+- feedback
+- persistence
+- possibility
+- actualization
+- observer
+- causality
+- viability
+- reality_contact
+- truth_maintenance
+- rscf
+- canon_candidate
+- canon/cognitive-matrix
+- amos-x-trang-reality-matrix
+- 00-root-moc
+- 00-home
+- amos-rscf-nodes
+- law-hierarchy
+- trang-reality-architecture
+- 25-cognitive-matrix-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -52,44 +59,29 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - TRANG_REALITY_ARCHITECTURE_CORPUS
-    - AMOS_CORPUS
+  - TRANG_REALITY_ARCHITECTURE_CORPUS
+  - AMOS_CORPUS
   scope:
-    - AMOS_REALITY_MODEL
-    - REALITY_ARCHITECTURE
-    - COGNITIVE_MATRIX
+  - AMOS_REALITY_MODEL
+  - REALITY_ARCHITECTURE
+  - COGNITIVE_MATRIX
 framework_binding:
-  artifact_name:
-    "AMOS × TRANG Reality"
-  native_source_family:
-    "Trang Reality Architecture"
-  relation:
-    "FRAMEWORK_LEVEL_NORMALIZATION_OF_SOURCE_ARCHITECTURE"
-  matrix_representation:
-    "[[AMOS_X_TRANG_REALITY_MATRIX]]"
+  artifact_name: AMOS × TRANG Reality
+  native_source_family: Trang Reality Architecture
+  relation: FRAMEWORK_LEVEL_NORMALIZATION_OF_SOURCE_ARCHITECTURE
+  matrix_representation: '[[AMOS_X_TRANG_REALITY_MATRIX]]'
 epistemic_boundary:
-  source_architecture_presence:
-    VERIFIED_SOURCE_STRUCTURE
-  framework_normalization:
-    DERIVED
-  ontology:
-    AMOS_MODEL
-  universal_reality_claim:
-    NOT_ESTABLISHED
-  physical_truth:
-    NOT_ESTABLISHED
-  biological_truth:
-    NOT_ESTABLISHED_GLOBALLY
-  consciousness_truth:
-    NOT_ESTABLISHED
-  mathematical_theoremhood:
-    NOT_ESTABLISHED
-  empirical_unification:
-    NOT_ESTABLISHED
-  runtime_enforcement:
-    NOT_ESTABLISHED
+  source_architecture_presence: VERIFIED_SOURCE_STRUCTURE
+  framework_normalization: DERIVED
+  ontology: AMOS_MODEL
+  universal_reality_claim: NOT_ESTABLISHED
+  physical_truth: NOT_ESTABLISHED
+  biological_truth: NOT_ESTABLISHED_GLOBALLY
+  consciousness_truth: NOT_ESTABLISHED
+  mathematical_theoremhood: NOT_ESTABLISHED
+  empirical_unification: NOT_ESTABLISHED
+  runtime_enforcement: NOT_ESTABLISHED
 ---
-
 
 # AMOS × TRANG Reality
 

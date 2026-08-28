@@ -6,13 +6,27 @@ tags:
 - amos_os
 - 21_domains
 - canon/domain
+- readme
+- c04-bio-neuro-map
+- 00-home
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- c04-bio-neuro-domains-c04-bio-neuro-contract
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-index-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # INDEX C04 BIO NEURO DOMAINS [[README]]
 

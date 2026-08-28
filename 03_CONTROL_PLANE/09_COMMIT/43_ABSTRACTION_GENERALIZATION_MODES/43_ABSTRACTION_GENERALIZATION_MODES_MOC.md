@@ -6,13 +6,13 @@ tags:
 - moc
 - 43-abstraction-generalization-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 43 Abstraction Generalization Modes — Map of Content
 

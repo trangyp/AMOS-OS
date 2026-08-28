@@ -12,29 +12,31 @@ segment: 25_COGNITIVE_MATRIX
 artifact_kind: MATRIX
 path: 25_COGNITIVE_MATRIX/RSCF_X_GMEF.md
 tags:
-  - amos_os
-  - cognitive_matrix
-  - vault
-  - 25_cognitive_matrix
-  - rscf_x_gmef
-  - rscf
-  - gmef
-  - gmef_v4_8
-  - governed_mutation
-  - evolution_framework
-  - evolution_governance
-  - evolutionary_debt
-  - non_compensatory_debt
-  - proof_continuity
-  - proof_capsule
-  - mutation_gate
-  - rollback
-  - anti_autopoisoning
-  - semantic_drift
-  - evolution_receipt
-  - provenance
-  - canon_candidate
-  - canon/matrix
+- amos_os
+- cognitive_matrix
+- vault
+- 25_cognitive_matrix
+- rscf_x_gmef
+- rscf
+- gmef
+- gmef_v4_8
+- governed_mutation
+- evolution_framework
+- evolution_governance
+- evolutionary_debt
+- non_compensatory_debt
+- proof_continuity
+- proof_capsule
+- mutation_gate
+- rollback
+- anti_autopoisoning
+- semantic_drift
+- evolution_receipt
+- provenance
+- canon_candidate
+- canon/matrix
+- cognitive-matrix-moc
+- 00-home
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -51,13 +53,13 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: AMOS_MODEL
   provenance:
-    - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
-    - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
+  - 03_CONTROL_PLANE/03_CONTROL_PLANE_MOC
+  - AMOS_CORPUS
   scope:
-    - COGNITIVE_MATRIX
-    - EVOLUTION_PROOF_GOVERNOR
-    - SOURCE_DEFINED_MODEL
+  - COGNITIVE_MATRIX
+  - EVOLUTION_PROOF_GOVERNOR
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   rscf_moc:
     artifact: 11_KNOWLEDGE/03_RSCF/03_RSCF_MOC
@@ -242,3 +244,7 @@ PROPOSED SYSTEM MUTATION (μ)       RSCF INVARIANT AUDITOR            COMMIT / R
 • Structural re-weighting            and non-compensatory debt         receipt or triggers S₀
 
 ```
+
+---
+
+**MOC:** [[COGNITIVE_MATRIX_MOC]] · [[00_HOME]]

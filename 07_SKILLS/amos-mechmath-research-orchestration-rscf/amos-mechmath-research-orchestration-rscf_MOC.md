@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-mechmath-research-orchestration-rsc
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Mechmath-Research-Orchestration-Rscf — Map of Content
 

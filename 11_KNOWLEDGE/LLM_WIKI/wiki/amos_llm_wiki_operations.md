@@ -6,6 +6,9 @@ tags:
 - synthesis
 - llm-wiki
 - amos_os
+- llm-wiki-index
+- amos-llm-wiki
+- llm-wiki-moc
 rscf:
   state: DERIVED
   claim_class: AMOS_MODEL

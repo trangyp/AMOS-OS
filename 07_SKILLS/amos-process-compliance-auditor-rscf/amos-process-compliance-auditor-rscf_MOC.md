@@ -6,13 +6,15 @@ tags:
 - moc
 - amos-process-compliance-auditor-rscf
 - canon/skill
+- skill
+- references-moc
+- 07-skills-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # Amos-Process-Compliance-Auditor-Rscf — Map of Content
 

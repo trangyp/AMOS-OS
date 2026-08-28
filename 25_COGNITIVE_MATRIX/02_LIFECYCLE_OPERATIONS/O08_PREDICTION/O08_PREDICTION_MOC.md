@@ -6,13 +6,15 @@ tags:
 - moc
 - o08-prediction
 - canon/cognitive-matrix
+- cognitive-matrix-o08-prediction-contract
+- 00-index-moc
+- 02-lifecycle-operations-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # O08 Prediction — Map of Content
 

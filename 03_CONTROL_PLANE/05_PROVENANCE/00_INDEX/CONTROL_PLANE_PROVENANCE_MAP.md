@@ -6,13 +6,28 @@ tags:
 - control_plane
 - 00_index
 - canon/control-plane
+- index-provenance-control-plane-readme
+- 00-root-map
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- authz-engine-validation-receipt
+- provenance-control-plane-provenance-contract
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-home
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # CONTROL PLANE PROVENANCE MAP
 

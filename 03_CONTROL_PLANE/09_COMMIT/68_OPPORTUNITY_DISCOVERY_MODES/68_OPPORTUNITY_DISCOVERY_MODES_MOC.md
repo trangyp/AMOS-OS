@@ -6,13 +6,13 @@ tags:
 - moc
 - 68-opportunity-discovery-modes
 - canon/control-plane
+- 09-commit-moc
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: AMOS_general
 ---
-
 
 # 68 Opportunity Discovery Modes — Map of Content
 

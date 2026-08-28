@@ -7,6 +7,16 @@ tags:
 - plan
 - phan.md
 - phan
+- roadmap
+- architecture
+- validation
+- 00-home
+- knowledge-moc
+- amos-simulation-kernel-v0-math-foundations
+- system-scan-agent
+- automation-profiles
+- trang-moc
+- kernel-moc
 ---
 
 # ABSOLUTE IP PROTECTION PLAN FOR TRANG PHAN
@@ -4897,3 +4907,7 @@ RSCF-NODE:
 **Primary corporate firewall:** `Foreign entity ≠ guaranteed protection`
 **Primary export firewall:** `Advanced technology ≠ automatic controlled classification`
 **Primary epistemic boundary:** `Source IP strategy ≠ verified jurisdiction-specific legal conclusion`
+
+---
+
+**MOC:** [[KERNEL_MOC]] · [[00_HOME]]

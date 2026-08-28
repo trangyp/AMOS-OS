@@ -12,17 +12,22 @@ segment: 21_DOMAINS/02_RESEARCH
 artifact_kind: DOMAIN_METHODOLOGY
 path: 21_DOMAINS/02_RESEARCH/HERITAGE_RESEARCH_METHOD.md
 tags:
-  - amos_os
-  - domain
-  - vault
-  - 21_domains
-  - 02_research
-  - heritage_research_method
-  - historical_epistemology
-  - civilizational_archiving
-  - rscf
-  - canon_candidate
-  - canon/domain
+- amos_os
+- domain
+- vault
+- 21_domains
+- 02_research
+- heritage_research_method
+- historical_epistemology
+- civilizational_archiving
+- rscf
+- canon_candidate
+- canon/domain
+- heritage-provenance
+- 02-research-moc
+- heritage-civilization-history
+- 00-home
+- 21-domains-moc
 version: 1.0.0
 updated: '2026-08-27'
 status: ACTIVE_REFERENCE
@@ -37,18 +42,20 @@ rscf:
   state: SOURCE_CLAIM
   claim_class: SYSTEM_INVARIANT
   provenance:
-    - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
-    - 21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC
-    - AMOS_CORPUS
+  - 11_KNOWLEDGE/05_FRAMEWORKS/HERITAGE_PROVENANCE
+  - 21_DOMAINS/02_RESEARCH/02_RESEARCH_MOC
+  - AMOS_CORPUS
   scope:
-    - DOMAIN_RESEARCH
-    - HERITAGE_METHODOLOGY
-    - SOURCE_DEFINED_MODEL
+  - DOMAIN_RESEARCH
+  - HERITAGE_METHODOLOGY
+  - SOURCE_DEFINED_MODEL
 framework_binding:
   provenance_framework:
-    artifact: [[HERITAGE_PROVENANCE]]
+    artifact:
+    - - HERITAGE_PROVENANCE
   research_moc:
-    artifact: [[02_RESEARCH_MOC]]
+    artifact:
+    - - 02_RESEARCH_MOC
 epistemic_boundary:
   source_presence: VERIFIED_SOURCE_PRESENCE
   domain_structure: VERIFIED_SOURCE_STRUCTURE

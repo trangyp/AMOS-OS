@@ -6,13 +6,28 @@ tags:
 - cognitive_matrix
 - 00_index
 - canon/cognitive-matrix
+- validation
+- index-validation-cognitive-matrix-readme
+- 00-root-map
+- amos-rscf-nodes
+- routing-policy-validation-receipt
+- validation-cognitive-matrix-validation-contract
+- authz-engine-validation-receipt
+- law-hierarchy
+- kernel-readme
+- control-plane-readme
+- observability-readme
+- operations-readme
+- 00-root-moc
+- amos-moc
+- 00-index-moc
+- trang-framework-recursive-ontology-dynamics
 rscf:
   state: DERIVED
   claim_class: DERIVED
   provenance: AMOS_corpus
   scope: index_navigation
 ---
-
 
 # COGNITIVE MATRIX [[VALIDATION]] MAP
 

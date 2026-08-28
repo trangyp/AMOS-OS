@@ -5,8 +5,9 @@ source: 08_WORKFLOWS
 Type: Workflow
 Skill: amos-trang-framework-master
 Agent: amos-trang-framework-agent
-Trigger: AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal reasoning, LDAI formalization,
-  reality architecture, equation registry. Use for Trang framework reasoning or cascade anal
+Trigger: AMOS Trang Framework — Khung Trang, cascade collapse-recovery, FRAI fractal
+  reasoning, LDAI formalization, reality architecture, equation registry. Use for
+  Trang framework reasoning or cascade anal
 Version: 1.0.0
 tags:
 - type/workflow
@@ -16,6 +17,7 @@ tags:
 - hml/m
 - epistemic/source_claim
 - amos_os
+- 08-workflows-moc
 rscf:
   state: AMOS_MODEL
   claim_class: EMPIRICAL
@@ -46,7 +48,6 @@ law_compliance:
 - L18
 domain: trang
 ---
-
 
 # Workflow: AMOS Trang Framework Master
 
