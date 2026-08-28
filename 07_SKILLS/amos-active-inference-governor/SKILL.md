@@ -3,15 +3,7 @@ title: SKILL — Amos Active Inference Governor
 type: skill
 source: 07_SKILLS/amos-active-inference-governor
 name: amos-active-inference-governor
-description: Govern active-inference-style perception-belief-action loops inside AMOS by separating observations,
-  latent-state beliefs, uncertainty, preferences or goals, candidate actions, expected consequences, prediction
-  error, evidence updates, authority, and actual effects. Use when an AMOS agent must decide whether to
-  update beliefs, gather information, act, continue observing, or stop; when prediction-error minimization
-  could conflict with truth, safety, authority, or user intent; when perception and action form a feedback
-  loop; or when amos-c05-mind-behavior-master routes a cognition/behavior task requiring bounded active
-  inference. Treat active inference as an AMOS_MODEL unless independently grounded in established domain
-  theory; never use it to claim consciousness, neuroscience proof, free-energy-theory validation, or autonomous
-  authority.
+description: Govern active-inference-style perception-belief-action loops inside AMOS by separating observations, latent-state beliefs, uncertainty, preferences or goals, candidate actions, expected consequences, prediction error, evidence updates, authority, and actual effects. Use when an AMOS agent must decide whether to update beliefs, gather information, act, continue observing, or stop; when prediction-error minimization could conflict with truth, safety, authority, or user intent; when perception and action form a feedback loop; or when amos-c05-mind-behavior-master routes a cognition/behavior task requiring bounded active inference. Treat active inference as an AMOS_MODEL unless independently grounded in established domain theory; never use it to claim consciousness, neuroscience proof, free-energy-theory validation, or autonomous authority. Do not use for consciousness claims, neuroscience proof, free-energy-theory validation, or autonomous authority beyond declared scope.
 parent_skill: amos-c05-mind-behavior-master
 domain: mind_behavior
 origin_architect: Trang Phan

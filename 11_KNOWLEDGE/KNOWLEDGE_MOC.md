@@ -67,6 +67,7 @@ rscf:
 - [[TENSOR_CONTRACTS]] — Tensor type contracts
 - [[TENSOR_REGISTRY]] — Tensor registry
 - [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]] — Trang recursive ontology dynamics
+- [[AMOS_LLM_WIKI]] — Karpathy LLM Wiki pattern adapted for AMOS
 
 ---
 

@@ -3,12 +3,7 @@ title: SKILL — Amos Biology Quantum Bridge Governor
 type: skill
 source: 07_SKILLS/amos-biology-quantum-bridge-governor
 name: amos-biology-quantum-bridge-governor
-description: 'Biology-Quantum Bridge Governor — biology and neuroscience capability. Bridges C04 biological/neurological
-  systems with C03 quantum physics models. Creates a governed translation layer that maps biological concepts
-  to quantum-mechanical analogues (and vice versa) while enforcing the critical anti-overclaim firewall:
-  quantum-biological mappings are MODEL/METAPHOR, never physical predictions. Enforces the invariant that
-  no AMOS decision may cite quantum entanglement of biological systems as causal evidence. Use when bridging
-  biological and quantum reasoning. Use when amos-c04-bio-neuro-master routes to this specialized capability.'
+description: 'Biology-Quantum Bridge Governor — biology and neuroscience capability. Bridges C04 biological/neurological systems with C03 quantum physics models. Creates a governed translation layer that maps biological concepts to quantum-mechanical analogues (and vice versa) while enforcing the critical anti-overclaim firewall: quantum-biological mappings are MODEL/METAPHOR, never physical predictions. Enforces the invariant that no AMOS decision may cite quantum entanglement of biological systems as causal evidence. Use when bridging biological and quantum reasoning. Use when amos-c04-bio-neuro-master routes to this specialized capability. Do not use for generic quantum physics analysis or biological research outside the AMOS bridge framework.'
 parent_skill: amos-c04-bio-neuro-master
 domain: cross-domain (C04 Bio-Neuro ↔ C03 Physics-Cosmos)
 origin_architect: Trang Phan

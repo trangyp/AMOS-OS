@@ -23,6 +23,7 @@ rscf:
 - [[AGENTS]] — Agent contract
 - [[AMOS_COGNITIVE_ARCHITECTURE_MATRIX]] — Cognitive architecture matrix
 - [[README]] — Project README
+- [[AMOS_LLM_WIKI]] — LLM Wiki schema & operations
 
 ## Layer MOCs
 

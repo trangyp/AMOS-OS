@@ -3,9 +3,7 @@ title: SKILL — Amos C02 Math Compute Master
 type: skill
 source: 07_SKILLS/amos-c02-math-compute-master
 name: amos-c02-math-compute-master
-description: 'AMOS C02 Math & Compute — 10 families: problem framing, numerical methods, probability,
-  optimization, complexity, control, signal processing, simulation. Use for mathematical reasoning or
-  computational analysis.'
+description: 'AMOS C02 Math & Compute — 10 families: problem framing, numerical methods, probability, optimization, complexity, control, signal processing, simulation. Use when mathematical reasoning or computational analysis. Do not use for generic math tutoring, symbolic algebra, or tasks outside the 10-family computational framework.'
 parent_skill: none
 domain: c02
 origin_architect: Trang Phan
