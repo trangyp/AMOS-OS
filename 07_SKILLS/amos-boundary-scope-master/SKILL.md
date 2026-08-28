@@ -42,6 +42,7 @@ law_compliance:
 - L16
 - L17
 - L18
+license: MIT
 ---
 
 # L5 Scope, Regime, and Temporal Laws

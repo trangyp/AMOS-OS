@@ -44,6 +44,7 @@ law_compliance:
 - L16
 - L17
 - L18
+license: MIT
 ---
 
 # AMOS Full Brain OS — Rebuilt Architecture (2026-08-22)

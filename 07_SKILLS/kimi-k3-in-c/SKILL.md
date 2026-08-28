@@ -1,6 +1,7 @@
 ---
 name: kimi-k3-in-c
 description: Build, test, and run the FareedKhan-dev/kimi-k3-in-c C99 Kimi K3 inference engine without a 1.56 TB checkpoint. Supports weightless tests, memory-budget probes, and local model-free verification. Do not use for generic LLM fine-tuning, training, or claiming official Moonshot product status.
+license: MIT
 ---
 
 # Kimi K3 in C

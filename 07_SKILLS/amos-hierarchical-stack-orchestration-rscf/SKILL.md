@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 - L19
+license: MIT
 ---
 
 # Hierarchical Stack Orchestration Rscf

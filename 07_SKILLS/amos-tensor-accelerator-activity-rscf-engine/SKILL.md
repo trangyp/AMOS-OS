@@ -47,6 +47,7 @@ law_compliance:
 - L18
 - L19
 - L22
+license: MIT
 ---
 
 # Tensor Accelerator Activity Rscf Engine

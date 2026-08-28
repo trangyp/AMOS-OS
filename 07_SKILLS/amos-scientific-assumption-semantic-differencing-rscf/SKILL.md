@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 - L19
+license: MIT
 ---
 
 # Scientific Assumption Semantic Differencing Rscf

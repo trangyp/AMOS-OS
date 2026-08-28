@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 - L24
+license: MIT
 ---
 
 # Causal Abstraction Validity Rscf Engine

@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 - L19
+license: MIT
 ---
 # AMOS C01 — Meta-Logic Master Knowledge
 

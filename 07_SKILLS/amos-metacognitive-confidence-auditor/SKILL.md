@@ -44,6 +44,7 @@ law_compliance:
 - L17
 - L18
 - L22
+license: MIT
 ---
 
 # Metacognitive Confidence Auditor

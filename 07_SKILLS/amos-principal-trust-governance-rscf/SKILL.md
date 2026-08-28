@@ -44,6 +44,7 @@ law_compliance:
 - L17
 - L18
 - L23
+license: MIT
 ---
 
 # Principal Trust Governance Rscf

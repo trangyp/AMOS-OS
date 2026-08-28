@@ -39,6 +39,7 @@ law_compliance:
 - L5
 - L16
 - L17
+license: MIT
 ---
 
 # Retrieval Conditioned Orchestration Budget Rscf

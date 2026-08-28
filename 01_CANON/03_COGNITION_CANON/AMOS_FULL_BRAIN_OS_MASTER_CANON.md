@@ -1,33 +1,60 @@
+````markdown
 ---
-title: AMOS Full Brain OS Master Canon
+title: "AMOS Full Brain OS Master Canon"
 type: canon
-source: 01_CANON/03_COGNITION_CANON
-artifact: AMOS_FULL_BRAIN_OS_MASTER_CANON.md
-artifact_id: amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon
-origin_architect: Trang Phan
-steward: Trang Phan
-system: AMOS OS
-plane: 01_CANON
-segment: 01_CANON/03_COGNITION_CANON
-artifact_kind: CANON
-path: 01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md
+source: "01_CANON/03_COGNITION_CANON"
+artifact: "AMOS_FULL_BRAIN_OS_MASTER_CANON.md"
+artifact_id: "amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon"
+origin_architect: "Trang Phan"
+steward: "Trang Phan"
+system: "AMOS OS"
+plane: "01_CANON"
+segment: "01_CANON/03_COGNITION_CANON"
+artifact_kind: "CANON"
+path: "01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md"
+
 tags:
-- amos_os
-- canon
-- universe
-- 01_canon
-- canon_placeholder
-- rscf
-- canon/universe
-version: 0.1.0
-updated: '2026-08-27'
-status: PLACEHOLDER
-epistemic_class: AMOS_MODEL
-canonical_status: UNKNOWN/GAP
-implementation_status: NOT_ESTABLISHED
-validation_status: NOT_ESTABLISHED
-executable_binding: NOT_ESTABLISHED
-ingestion_action: ADD_ONLY
+  - amos_os
+  - amos_full_brain_os
+  - amos_full_brain_os_master
+  - amos_full_brain_os_master_canon
+  - full_brain_os
+  - full_brain_os_master
+  - master_canon
+  - cognition
+  - cognition_canon
+  - canon
+  - universe
+  - 01_canon
+  - 03_cognition_canon
+  - canon_placeholder
+  - rscf
+  - provenance
+  - lineage
+  - epistemic_integrity
+  - scope
+  - regime
+  - validation
+  - governed_evolution
+  - competing_hypotheses
+  - canon/universe
+
+aliases:
+  - "AMOS Full Brain OS Master Canon"
+  - "AMOS Full Brain OS Master"
+  - "Full Brain OS Master Canon"
+
+version: "0.1.0"
+updated: "2026-08-27"
+
+status: "PLACEHOLDER"
+epistemic_class: "AMOS_MODEL"
+canonical_status: "UNKNOWN/GAP"
+implementation_status: "NOT_ESTABLISHED"
+validation_status: "NOT_ESTABLISHED"
+executable_binding: "NOT_ESTABLISHED"
+ingestion_action: "ADD_ONLY"
+
 rscf:
   state: DERIVED
   claim_class: DERIVED
@@ -35,16 +62,57 @@ rscf:
   scope: AMOS_general
 ---
 
-
 # AMOS Full Brain OS Master Canon
+
+#amos_os #amos_full_brain_os #amos_full_brain_os_master #amos_full_brain_os_master_canon #full_brain_os #master_canon #cognition #cognition_canon #canon #rscf #provenance #epistemic_integrity
+
+> [!abstract] Canon identity
+> **Artifact:** `AMOS_FULL_BRAIN_OS_MASTER_CANON.md`  
+> **Artifact ID:** `amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon`  
+> **System:** [[AMOS OS]]  
+> **Plane:** [[01_CANON]]  
+> **Segment:** [[03_COGNITION_CANON_MOC|03 Cognition Canon]]  
+> **Kind:** `CANON`  
+> **Status:** `PLACEHOLDER`  
+> **Canonical status:** `UNKNOWN/GAP`  
+> **Implementation:** `NOT_ESTABLISHED`  
+> **Validation:** `NOT_ESTABLISHED`  
+> **Executable binding:** `NOT_ESTABLISHED`  
+> **Origin architect / steward:** **Trang Phan**
+
+---
 
 ## 0. Status
 
-`AMOS_FULL_BRAIN_OS_MASTER_CANON.md` is an **ADD-ONLY placeholder** for the **Canon** plane segment at `01_CANON/03_COGNITION_CANON`.
+#status/placeholder #epistemic/amos_model #canonical/unknown_gap #implementation/not_established #validation/not_established
 
-It marks a canonical slot reserved by the AMOS canon-ingestion manifest for the framework family named above. It is NOT populated canon, NOT validated, and NOT enforced.
+`AMOS_FULL_BRAIN_OS_MASTER_CANON.md` is an **ADD-ONLY placeholder** for the Canon plane segment at:
 
-The governing boundaries are:
+`01_CANON/03_COGNITION_CANON`
+
+It reserves a canonical slot for the framework family identified as:
+
+**AMOS Full Brain OS Master Canon**
+
+The supplied artifact establishes the existence, identity, placement, placeholder state, and governance envelope of this slot.
+
+It does **not** establish:
+
+- populated Full Brain OS Master canon;
+- master authority;
+- master aggregation semantics;
+- master precedence;
+- master supersession;
+- final-canon status;
+- Full Brain OS architecture;
+- biological brain equivalence;
+- human-equivalent cognition;
+- runtime implementation;
+- executable enforcement;
+- validation;
+- empirical truth.
+
+The controlling boundaries are:
 
 ```text
 PLACEHOLDER != IMPLEMENTED
@@ -72,7 +140,7 @@ IMPLEMENTED != VALIDATED
 LOGGED != APPROVED
 
 UNKNOWN/GAP != PASS
-```
+````
 
 Origin architect / steward:
 
@@ -80,61 +148,2290 @@ Origin architect / steward:
 
 ---
 
-## 1. Purpose
+## 1. Strongest supported claim
 
-This artifact reserves the **AMOS Full Brain OS Master Canon** slot within the Canon plane. The Canon plane governs canonical laws, universe/cognition/infrastructure canons, variable registry, glossary, provenance lineage, and supersession.
+#claim/derived #rscf/derived #proof_capsule
 
-Substantive content (canonical definitions, laws, registries, schemas, models, or bindings) is to be populated from verified native-canon sources under the AMOS_CANON_INGESTION_RULE. This placeholder does not, by its existence, establish canon, empirical validity, or runtime enforcement.
+> [!success] DERIVED
+> AMOS OS reserves an ADD-ONLY Canon artifact named `AMOS_FULL_BRAIN_OS_MASTER_CANON.md` inside `01_CANON/03_COGNITION_CANON` for the framework family identified as **AMOS Full Brain OS Master Canon**.
+
+```yaml
+claim:
+  class: DERIVED
+  epistemic_class: AMOS_MODEL
+
+  evidence:
+    - supplied AMOS_FULL_BRAIN_OS_MASTER_CANON placeholder
+
+  provenance:
+    corpus: AMOS_corpus
+
+  scope:
+    system: AMOS_OS
+    plane: 01_CANON
+    segment: 01_CANON/03_COGNITION_CANON
+
+  confidence_ceiling:
+    source_supported
+```
+
+The following remain unresolved:
+
+```text
+MEANING OF "FULL"
+=
+UNKNOWN/GAP
+
+MEANING OF "BRAIN"
+=
+UNKNOWN/GAP
+
+MEANING OF "OS"
+=
+UNKNOWN/GAP
+
+MEANING OF "MASTER"
+=
+UNKNOWN/GAP
+
+SUBSTANTIVE FULL BRAIN OS MASTER ARCHITECTURE
+=
+UNKNOWN/GAP
+```
 
 ---
 
-## 2. Non-Purpose
+## 2. Artifact identity
+
+#identity #artifact_identity #provenance
+
+```yaml
+identity:
+  title: AMOS Full Brain OS Master Canon
+
+  artifact:
+    AMOS_FULL_BRAIN_OS_MASTER_CANON.md
+
+  artifact_id:
+    amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon
+
+  node_id:
+    amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon
+
+  origin_architect:
+    Trang Phan
+
+  steward:
+    Trang Phan
+
+  system:
+    AMOS OS
+
+  plane:
+    01_CANON
+
+  segment:
+    01_CANON/03_COGNITION_CANON
+
+  artifact_kind:
+    CANON
+
+  path:
+    01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md
+
+  status:
+    PLACEHOLDER
+
+  ingestion_action:
+    ADD_ONLY
+```
+
+---
+
+## 3. Identifier consistency
+
+#identity #identifier
+
+The supplied artifact uses the same textual identifier for `artifact_id` and `node_id`.
+
+Therefore:
+
+```text
+ARTIFACT_ID TEXT
+=
+NODE_ID TEXT
+```
+
+is source-supported.
+
+However:
+
+```text
+TEXTUAL ID CONSISTENCY
+!=
+VALIDATED RUNTIME IDENTITY
+```
+
+because executable resolution is `NOT_ESTABLISHED`.
+
+Likewise:
+
+```text
+UNIQUE STRING
+!=
+PROVEN GLOBAL UNIQUENESS
+```
+
+unless the applicable registry and resolution contract validate uniqueness.
+
+---
+
+## 4. Purpose
+
+#purpose #canon_slot #master_canon
+
+This artifact reserves the **AMOS Full Brain OS Master Canon** slot within the Canon plane.
+
+The supplied placeholder states that the Canon plane governs:
+
+* canonical laws;
+* universe canons;
+* cognition canons;
+* infrastructure canons;
+* variable registry;
+* glossary;
+* provenance lineage;
+* supersession.
+
+Substantive definitions, laws, registries, schemas, models, architectures, subsystem contracts, equations, relationships, or executable bindings must be populated only from verified native-canon sources under the `AMOS_CANON_INGESTION_RULE`.
+
+The current artifact therefore functions as:
+
+```text
+CANONICAL ADDRESS RESERVATION
++
+MASTER-CANON-NAMED SLOT
++
+GOVERNANCE ENVELOPE
++
+PROVENANCE TARGET
++
+FUTURE INGESTION TARGET
+```
+
+It is not proof that a substantive Full Brain OS Master architecture has already been recovered.
+
+---
+
+## 5. Non-Purpose
+
+#non_purpose #integrity
 
 This placeholder MUST NOT be used to claim:
 
-- universal laws of reality;
-- scientific proof;
-- biological truth;
-- mathematical theoremhood;
-- philosophical certainty;
-- runtime enforcement that has not been implemented;
-- final canonical status;
-- authority merely from architectural importance;
-- or successful validation merely because the slot is addressable.
+* universal laws of reality;
+* scientific proof;
+* biological truth;
+* neurological truth;
+* cognitive-science consensus;
+* mathematical theoremhood;
+* philosophical certainty;
+* literal reproduction of a biological brain;
+* human-equivalent cognition;
+* consciousness;
+* sentience;
+* subjective experience;
+* autonomous agency;
+* autonomous authority;
+* complete cognition;
+* complete intelligence;
+* final canonical status;
+* master authority merely because the title contains `Master`;
+* supersession merely because the title contains `Master`;
+* aggregation merely because the title contains `Master`;
+* runtime enforcement that has not been implemented;
+* successful validation merely because the artifact is addressable.
 
 ---
 
-## 3. Ingestion Rule
+# Part I — Master Semantic Firewall
+
+## 6. “Master” semantic firewall
+
+#master #master_canon #semantic_firewall #unknown_gap
+
+> [!danger] CRITICAL GAP
+> The supplied placeholder contains **Master** in the artifact title but does not define what **Master** means in this framework.
+
+Therefore preserve:
+
+```text
+"MASTER" IN TITLE
+!=
+MASTER AUTHORITY
+
+"MASTER" IN TITLE
+!=
+FINAL CANON
+
+"MASTER" IN TITLE
+!=
+SUPERSET
+
+"MASTER" IN TITLE
+!=
+AGGREGATION ROOT
+
+"MASTER" IN TITLE
+!=
+PRECEDENCE WINNER
+
+"MASTER" IN TITLE
+!=
+SUPERSEDING VERSION
+
+"MASTER" IN TITLE
+!=
+SINGLE SOURCE OF TRUTH
+
+"MASTER" IN TITLE
+!=
+PARENT OF ALL RELATED CANONS
+
+"MASTER" IN TITLE
+!=
+EXECUTABLE CONTROLLER
+
+"MASTER" IN TITLE
+!=
+GLOBAL ORCHESTRATOR
+
+"MASTER" IN TITLE
+!=
+AUTHORIZATION ROOT
+
+"MASTER" IN TITLE
+!=
+RUNTIME ROOT
+
+"MASTER" IN TITLE
+!=
+MOST RECENT VERSION
+
+"MASTER" IN TITLE
+!=
+MOST COMPLETE VERSION
+
+"MASTER" IN TITLE
+!=
+MOST AUTHORITATIVE VERSION
+```
+
+These inequalities mean **do not silently infer**, not that verified native canon could never establish one of these relations.
+
+---
+
+## 7. Master authority firewall
+
+#authority #master_authority #governance
+
+No authority follows from the word `Master`.
+
+```yaml
+master_authority:
+  canonical_authority: NOT_ESTABLISHED
+  governance_authority: NOT_ESTABLISHED
+  mutation_authority: NOT_ESTABLISHED
+  authorization_authority: NOT_ESTABLISHED
+  supersession_authority: NOT_ESTABLISHED
+  aggregation_authority: NOT_ESTABLISHED
+  precedence_authority: NOT_ESTABLISHED
+```
+
+Preserve:
+
+```text
+MASTER LABEL
+!=
+AUTHORITY_REF
+
+MASTER LABEL
+!=
+AUTHORIZATION
+
+MASTER LABEL
+!=
+COMMIT RIGHT
+
+MASTER LABEL
+!=
+GOVERNANCE CONTROL
+```
+
+Authority must be independently established through the applicable governance contract.
+
+---
+
+## 8. Master aggregation firewall
+
+#aggregation #master #composition
+
+The title does not establish that this artifact aggregates other Full Brain OS artifacts.
+
+```text
+MASTER
+!=
+AGGREGATOR
+
+MASTER
+!=
+COMPOSITE
+
+MASTER
+!=
+INDEX
+
+MASTER
+!=
+REGISTRY
+
+MASTER
+!=
+ROOT NODE
+```
+
+Current:
+
+```yaml
+master_aggregation:
+  aggregates_other_canons: UNKNOWN/GAP
+  composition_root: UNKNOWN/GAP
+  index_role: UNKNOWN/GAP
+  registry_role: UNKNOWN/GAP
+  normalization_root: UNKNOWN/GAP
+```
+
+---
+
+## 9. Master precedence firewall
+
+#precedence #master #canon
+
+The title does not establish precedence.
+
+```text
+MASTER
+!=
+PRECEDENCE WINNER
+
+MASTER
+!=
+HIGHER PRIORITY
+
+MASTER
+!=
+CANONICAL OVERRIDE
+
+MASTER
+!=
+CONFLICT RESOLUTION WINNER
+```
+
+Current:
+
+```yaml
+master_precedence:
+  precedence_rule: UNKNOWN/GAP
+  conflict_resolution_priority: UNKNOWN/GAP
+  sibling_override: UNKNOWN/GAP
+```
+
+---
+
+## 10. Master supersession firewall
+
+#supersession #master #lineage
+
+The title does not establish that this artifact supersedes:
+
+[[AMOS_FULL_BRAIN_OS_CANON]]
+
+or any other artifact.
+
+```text
+MASTER
+!=
+SUPERSEDES
+
+NEWER NAME
+!=
+SUPERSEDES
+
+MORE DETAILED
+!=
+SUPERSEDES
+
+BROADER TITLE
+!=
+SUPERSEDES
+```
+
+Current:
+
+```yaml
+master_supersession:
+  supersedes: []
+  superseded_by: []
+  status: UNKNOWN/GAP
+```
+
+An explicit lineage edge is required.
+
+---
+
+## 11. Master composition firewall
+
+#master #composition #architecture
+
+Even if this artifact later becomes an aggregation root:
+
+```text
+AGGREGATED DOCUMENTS
+!=
+INTEGRATED SYSTEM
+
+COLLECTION
+!=
+ARCHITECTURE
+
+ARCHITECTURE
+!=
+IMPLEMENTATION
+
+IMPLEMENTATION
+!=
+VALIDATION
+```
+
+A Master Canon cannot establish valid composition merely by referencing many components.
+
+---
+
+## 12. Competing meanings of “Master”
+
+#competing #master #hypotheses
+
+Until verified native evidence discriminates among them, preserve multiple hypotheses:
+
+```text
+M1 — "Master" identifies a consolidated Full Brain OS reference.
+
+M2 — "Master" identifies an aggregation root for Full Brain OS canon.
+
+M3 — "Master" identifies a normalized representation of a master source.
+
+M4 — "Master" identifies a later or superseding Full Brain OS canon.
+
+M5 — "Master" identifies a high-level index or map-of-content-like canon.
+
+M6 — "Master" identifies a composite Full Brain OS architecture.
+
+M7 — "Master" identifies an orchestration-level model.
+
+M8 — "Master" is a naming convention without authority semantics.
+
+M9 — "Master" has a distinct native AMOS meaning not recoverable
+     from this placeholder.
+```
+
+Current result:
+
+```text
+COMPETING
++
+UNKNOWN/GAP
+```
+
+No hypothesis should be selected merely because it sounds architecturally plausible.
+
+---
+
+## 13. Cheapest discriminating evidence for “Master”
+
+#discriminating_evidence #master
+
+The cheapest high-information evidence is a verified native AMOS source explicitly stating the relationship between:
+
+[[AMOS_FULL_BRAIN_OS_MASTER_CANON]]
+
+and:
+
+[[AMOS_FULL_BRAIN_OS_CANON]]
+
+using a typed edge such as:
+
+```text
+SUPERSEDES
+
+AGGREGATES
+
+COMPOSES
+
+REFINES
+
+EXTENDS
+
+GOVERNS
+
+INDEXES
+
+INHERITS_FROM
+
+IMPLEMENTS
+
+REPRESENTS
+
+IS_HISTORICAL_VARIANT_OF
+
+IS_DISTINCT_FROM
+```
+
+Absent such evidence:
+
+```text
+RELATION
+=
+UNKNOWN/GAP
+```
+
+---
+
+# Part II — Full Brain OS Semantic Firewall
+
+## 14. “Full Brain OS” semantic firewall
+
+#full_brain_os #semantic_firewall
+
+The title does not establish ordinary-language interpretations of `Full`, `Brain`, or `OS`.
+
+Preserve:
+
+```text
+"FULL"
+!=
+PROVEN COMPLETE
+
+"FULL"
+!=
+EXHAUSTIVE
+
+"FULL"
+!=
+ALL POSSIBLE COGNITION
+
+"BRAIN"
+!=
+BIOLOGICAL BRAIN
+
+"BRAIN"
+!=
+HUMAN BRAIN
+
+"BRAIN"
+!=
+NEURAL TISSUE
+
+"BRAIN"
+!=
+CONSCIOUSNESS
+
+"BRAIN"
+!=
+MIND
+
+"OS"
+!=
+LITERAL OPERATING SYSTEM
+
+"OS"
+!=
+SOFTWARE KERNEL
+
+"OS"
+!=
+DEPLOYED RUNTIME
+
+"FULL BRAIN OS"
+!=
+BIOLOGICAL BRAIN REPLICA
+
+"FULL BRAIN OS"
+!=
+HUMAN-EQUIVALENT INTELLIGENCE
+
+"FULL BRAIN OS"
+!=
+CONSCIOUS SYSTEM
+
+"FULL BRAIN OS"
+!=
+VALIDATED COGNITIVE ARCHITECTURE
+```
+
+---
+
+## 15. Fullness firewall
+
+#fullness #completeness
+
+The supplied placeholder provides no completeness criterion.
+
+```yaml
+fullness:
+  native_definition: UNKNOWN/GAP
+  completeness_criterion: UNKNOWN/GAP
+  coverage_metric: UNKNOWN/GAP
+  subsystem_coverage: UNKNOWN/GAP
+  cognitive_function_coverage: UNKNOWN/GAP
+  exclusion_boundary: UNKNOWN/GAP
+  proof_of_completeness: NOT_ESTABLISHED
+```
+
+Therefore:
+
+```text
+CALLED "FULL"
+!=
+PROVEN COMPLETE
+
+MANY COMPONENTS
+!=
+COMPLETE SYSTEM
+
+NO IDENTIFIED MISSING COMPONENT
+!=
+PROOF OF COMPLETENESS
+
+BROAD SCOPE
+!=
+UNIVERSAL SCOPE
+```
+
+---
+
+## 16. Brain firewall
+
+#brain #biology #semantic_firewall
+
+Placement inside Cognition Canon does not establish a biological-brain interpretation.
+
+```text
+AMOS BRAIN MODEL
+!=
+BIOLOGICAL BRAIN
+
+MODEL COMPONENT
+!=
+BRAIN REGION
+
+MODEL CONNECTION
+!=
+SYNAPSE
+
+MODEL ACTIVATION
+!=
+NEURAL FIRING
+
+FUNCTIONAL SIMILARITY
+!=
+BIOLOGICAL IDENTITY
+
+STRUCTURAL SIMILARITY
+!=
+MECHANISTIC IDENTITY
+```
+
+Any biological mapping remains `MODEL` unless independently validated.
+
+---
+
+## 17. OS firewall
+
+#os #runtime #implementation
+
+The label `OS` does not establish literal operating-system implementation.
+
+```text
+OS LABEL
+!=
+SOFTWARE KERNEL
+
+OS ARCHITECTURE
+!=
+DEPLOYED RUNTIME
+
+DOCUMENTED SCHEDULING
+!=
+IMPLEMENTED SCHEDULER
+
+DOCUMENTED MEMORY
+!=
+IMPLEMENTED MEMORY MANAGER
+
+DOCUMENTED ROUTING
+!=
+IMPLEMENTED ROUTER
+
+DOCUMENTED RECOVERY
+!=
+VALIDATED RECOVERY
+```
+
+Current:
+
+```yaml
+runtime:
+  executable_binding: NOT_ESTABLISHED
+  kernel_binding: NOT_ESTABLISHED
+  scheduler_binding: NOT_ESTABLISHED
+  persistence_binding: NOT_ESTABLISHED
+  routing_binding: NOT_ESTABLISHED
+  authorization_binding: NOT_ESTABLISHED
+  recovery_binding: NOT_ESTABLISHED
+```
+
+---
+
+# Part III — Native Canon Slots
+
+## 18. Native Full Brain OS Master definition
+
+#definition #gap/critical
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_DEFINITION:
+
+  native_term:
+    "Full Brain OS Master"
+
+  definition:
+    status: UNKNOWN/GAP
+    value: null
+
+  master_semantics:
+    status: UNKNOWN/GAP
+
+  full_semantics:
+    status: UNKNOWN/GAP
+
+  brain_semantics:
+    status: UNKNOWN/GAP
+
+  os_semantics:
+    status: UNKNOWN/GAP
+
+  system_boundary:
+    status: UNKNOWN/GAP
+
+  architecture:
+    status: UNKNOWN/GAP
+
+  aggregation_role:
+    status: UNKNOWN/GAP
+
+  precedence_role:
+    status: UNKNOWN/GAP
+
+  supersession_role:
+    status: UNKNOWN/GAP
+
+  governance_role:
+    status: UNKNOWN/GAP
+
+  execution_role:
+    status: UNKNOWN/GAP
+```
+
+No substantive values should be filled from generic interpretations of the title.
+
+---
+
+## 19. Native definition schema
+
+#schema #native_canon #normalization
+
+A future verified native definition should preserve at least:
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_NATIVE_SCHEMA:
+
+  native_title: required
+
+  native_definition: required
+
+  source:
+    source_id: required
+    source_type: required
+    source_version: required
+    source_hash: when_available
+
+  provenance:
+    required
+
+  claim_class:
+    required
+
+  master_semantics:
+    required
+
+  full_semantics:
+    required
+
+  brain_semantics:
+    required
+
+  os_semantics:
+    required
+
+  system_boundary:
+    required
+
+  architecture:
+    required_if_claimed
+
+  components:
+    required_if_claimed
+
+  interfaces:
+    required_if_claimed
+
+  state_model:
+    required_if_claimed
+
+  aggregation_relation:
+    required_if_claimed
+
+  precedence_relation:
+    required_if_claimed
+
+  supersession_relation:
+    required_if_claimed
+
+  cognition_relation:
+    required
+
+  scope:
+    required
+
+  regime:
+    required
+
+  temporal_validity:
+    required
+
+  dependencies:
+    required
+
+  competing_claims:
+    required
+
+  falsifiers:
+    required
+
+  confidence_ceiling:
+    required
+
+  validation:
+    required_if_promoted
+```
+
+This is a normalization contract, not recovered substantive native canon.
+
+---
+
+## 20. Candidate architecture schema
+
+#architecture #schema #unknown_gap
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_ARCHITECTURE:
+
+  architecture_status:
+    UNKNOWN/GAP
+
+  root:
+    identity: UNKNOWN/GAP
+    role: UNKNOWN/GAP
+
+  master_layer:
+    status: UNKNOWN/GAP
+    role: UNKNOWN/GAP
+
+  components:
+    status: UNKNOWN/GAP
+    entries: []
+
+  interfaces:
+    status: UNKNOWN/GAP
+    entries: []
+
+  dependencies:
+    status: UNKNOWN/GAP
+    entries: []
+
+  state_model:
+    status: UNKNOWN/GAP
+
+  transition_model:
+    status: UNKNOWN/GAP
+
+  coordination_model:
+    status: UNKNOWN/GAP
+
+  aggregation_model:
+    status: UNKNOWN/GAP
+
+  precedence_model:
+    status: UNKNOWN/GAP
+
+  supersession_model:
+    status: UNKNOWN/GAP
+
+  memory_model:
+    status: UNKNOWN/GAP
+
+  attention_model:
+    status: UNKNOWN/GAP
+
+  perception_model:
+    status: UNKNOWN/GAP
+
+  emotion_model:
+    status: UNKNOWN/GAP
+
+  reasoning_model:
+    status: UNKNOWN/GAP
+
+  learning_model:
+    status: UNKNOWN/GAP
+
+  decision_model:
+    status: UNKNOWN/GAP
+
+  agency_model:
+    status: UNKNOWN/GAP
+
+  metacognition_model:
+    status: UNKNOWN/GAP
+
+  consciousness_model:
+    status: UNKNOWN/GAP
+
+  execution_model:
+    status: UNKNOWN/GAP
+
+  recovery_model:
+    status: UNKNOWN/GAP
+```
+
+---
+
+## 21. Component registry
+
+#components #registry #unknown_gap
+
+The native component registry is not established.
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_COMPONENT_REGISTRY:
+  status: UNKNOWN/GAP
+  entries: []
+```
+
+Candidate concepts such as cognition, memory, emotion, attention, perception, reasoning, learning, decision, agency, metacognition, or consciousness remain **relation slots**, not established components.
+
+---
+
+## 22. Interface registry
+
+#interfaces #contracts
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_INTERFACE_REGISTRY:
+  status: UNKNOWN/GAP
+  entries: []
+```
+
+A future interface should type:
+
+```yaml
+interface:
+  interface_id: required
+  source_component: required
+  target_component: required
+  contract: required
+  input_schema: required
+  output_schema: required
+  state_semantics: required
+  failure_semantics: required
+  scope: required
+  regime: required
+  version: required
+  provenance: required
+```
+
+Preserve:
+
+```text
+REFERENCE
+!=
+INTERFACE
+
+INTERFACE DOCUMENTED
+!=
+INTERFACE IMPLEMENTED
+
+INTERFACE IMPLEMENTED
+!=
+INTERFACE VALIDATED
+```
+
+---
+
+## 23. State model
+
+#state #unknown_gap
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_STATE:
+  state_definition: UNKNOWN/GAP
+  state_schema: UNKNOWN/GAP
+  persistence: UNKNOWN/GAP
+  transitions: UNKNOWN/GAP
+  invariants: UNKNOWN/GAP
+  synchronization: UNKNOWN/GAP
+  conflict_semantics: UNKNOWN/GAP
+  recovery_semantics: UNKNOWN/GAP
+```
+
+No state machine should be invented from the OS label.
+
+---
+
+## 24. Variable registry
+
+#variables #registry
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_VARIABLE_REGISTRY:
+  status: UNKNOWN/GAP
+  variables: []
+```
+
+Preserve:
+
+```text
+NAMED VARIABLE
+!=
+MEASURABLE VARIABLE
+
+MODEL VARIABLE
+!=
+EMPIRICAL QUANTITY
+
+INTERNAL SCORE
+!=
+PHYSICAL QUANTITY
+
+COMPUTED VALUE
+!=
+OBSERVATION
+```
+
+---
+
+## 25. Equation registry
+
+#equations #mathematical_firewall
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_EQUATION_REGISTRY:
+  status: UNKNOWN/GAP
+  equations: []
+```
+
+Preserve:
+
+```text
+EQUATION PRESENT
+!=
+EMPIRICALLY VALID LAW
+
+SYMBOLIC CONSISTENCY
+!=
+PHYSICAL VALIDITY
+
+MODEL EQUATION
+!=
+UNIVERSAL LAW
+
+MATHEMATICAL FORM
+!=
+MEASUREMENT
+```
+
+---
+
+# Part IV — Relationship Topology
+
+## 26. Relation to AMOS Full Brain OS Canon
+
+#relation #full_brain_os #master
+
+Known sibling artifact:
+
+[[AMOS_FULL_BRAIN_OS_CANON]]
+
+The names suggest a possible relationship, but naming similarity does not establish the edge.
+
+```yaml
+relation_to_full_brain_os_canon:
+
+  shared_segment:
+    status: DERIVED
+
+  lexical_family_similarity:
+    status: DERIVED
+
+  semantic_relation:
+    status: UNKNOWN/GAP
+
+  parent_child:
+    status: UNKNOWN/GAP
+
+  aggregation:
+    status: UNKNOWN/GAP
+
+  composition:
+    status: UNKNOWN/GAP
+
+  refinement:
+    status: UNKNOWN/GAP
+
+  extension:
+    status: UNKNOWN/GAP
+
+  precedence:
+    status: UNKNOWN/GAP
+
+  supersession:
+    status: UNKNOWN/GAP
+
+  governance:
+    status: UNKNOWN/GAP
+
+  implementation:
+    status: UNKNOWN/GAP
+```
+
+Preserve:
+
+```text
+SAME BASE NAME
+!=
+SAME FRAMEWORK
+
+SAME DIRECTORY
+!=
+PARENT/CHILD
+
+"MASTER" VARIANT
+!=
+SUPERSEDING VARIANT
+```
+
+---
+
+## 27. Relation to Cognition Canon
+
+#cognition #relation
+
+Related:
+
+[[AMOS_COGNITION_CANON]]
+
+Current:
+
+```yaml
+relation_to_cognition_canon:
+  same_segment: DERIVED
+  semantic_relation: UNKNOWN/GAP
+  hierarchy: UNKNOWN/GAP
+  dependency: UNKNOWN/GAP
+  aggregation: UNKNOWN/GAP
+  governance: UNKNOWN/GAP
+  supersession: UNKNOWN/GAP
+```
+
+Placement inside Cognition Canon is not enough to determine semantic topology.
+
+---
+
+## 28. Relation to Cognition Master Canon
+
+#cognition_master #relation
+
+Related:
+
+[[AMOS_COGNITION_MASTER_CANON]]
+
+Current:
+
+```yaml
+relation_to_cognition_master_canon:
+  semantic_relation: UNKNOWN/GAP
+  hierarchy: UNKNOWN/GAP
+  aggregation: UNKNOWN/GAP
+  dependency: UNKNOWN/GAP
+  governance: UNKNOWN/GAP
+  precedence: UNKNOWN/GAP
+  supersession: UNKNOWN/GAP
+```
+
+Preserve:
+
+```text
+MASTER A
++
+MASTER B
+!=
+KNOWN MASTER HIERARCHY
+```
+
+---
+
+## 29. Relation firewall
+
+#relation_firewall
+
+```text
+SAME DIRECTORY
+!=
+SEMANTIC RELATION
+
+SAME SEGMENT
+!=
+HIERARCHY
+
+SHARED "COGNITION"
+!=
+DEPENDENCY
+
+SHARED "FULL BRAIN OS"
+!=
+IDENTICAL FRAMEWORK
+
+SHARED "MASTER"
+!=
+SHARED AUTHORITY
+
+LEXICAL SIMILARITY
+!=
+CANONICAL LINEAGE
+
+CROSS-LINK
+!=
+DEPENDENCY
+
+INDEXING
+!=
+GOVERNANCE
+
+GOVERNANCE
+!=
+IMPLEMENTATION
+```
+
+---
+
+## 30. Framework identity test
+
+#framework_identity #duplicate_detection
+
+When native sources are found, compare:
+
+```yaml
+framework_identity_test:
+  framework_name: required
+  artifact_identity: required
+  native_definition: required
+  source_identity: required
+  source_version: required
+  source_lineage: required
+  semantic_hash: when_available
+  system_boundary: required
+  architecture: required_if_present
+  component_registry: required_if_present
+  scope: required
+  regime: required
+  dependencies: required
+  supersession: required
+```
+
+Possible outcomes:
+
+```text
+SAME_FRAMEWORK
+
+DISTINCT_FRAMEWORKS
+
+HISTORICAL_VARIANTS
+
+SUPERSESSION_CHAIN
+
+PARTIAL_OVERLAP
+
+COMPETING
+
+UNKNOWN/GAP
+```
+
+---
+
+# Part V — Cognitive Capability Firewalls
+
+## 31. Cognition relation
+
+#cognition #unknown_gap
+
+```yaml
+full_brain_os_master_to_cognition:
+  relation: UNKNOWN/GAP
+  architecture_role: UNKNOWN/GAP
+  dependency: UNKNOWN/GAP
+  aggregation: UNKNOWN/GAP
+  causal_relation: UNKNOWN/GAP
+```
+
+Preserve:
+
+```text
+FULL BRAIN OS MASTER
+!=
+COGNITION ITSELF
+
+COGNITION MODEL
+!=
+HUMAN COGNITION
+
+COGNITION ARCHITECTURE
+!=
+CONSCIOUSNESS
+```
+
+---
+
+## 32. Memory relation
+
+#memory #unknown_gap
+
+```yaml
+full_brain_os_master_to_memory:
+  relation: UNKNOWN/GAP
+  memory_type: UNKNOWN/GAP
+  persistence_semantics: UNKNOWN/GAP
+  retrieval_semantics: UNKNOWN/GAP
+  consolidation_semantics: UNKNOWN/GAP
+  forgetting_semantics: UNKNOWN/GAP
+```
+
+```text
+STORED DATA
+!=
+MEMORY
+
+PERSISTENCE
+!=
+RECOLLECTION
+
+RETRIEVAL
+!=
+UNDERSTANDING
+```
+
+---
+
+## 33. Attention relation
+
+#attention #unknown_gap
+
+```yaml
+full_brain_os_master_to_attention:
+  relation: UNKNOWN/GAP
+  selection_model: UNKNOWN/GAP
+  allocation_model: UNKNOWN/GAP
+  priority_model: UNKNOWN/GAP
+  switching_model: UNKNOWN/GAP
+```
+
+```text
+PRIORITY
+!=
+ATTENTION
+
+ROUTING
+!=
+ATTENTION
+
+MODEL ATTENTION
+!=
+BIOLOGICAL ATTENTION
+```
+
+---
+
+## 34. Perception relation
+
+#perception #unknown_gap
+
+```yaml
+full_brain_os_master_to_perception:
+  relation: UNKNOWN/GAP
+  observation_model: UNKNOWN/GAP
+  input_contract: UNKNOWN/GAP
+  interpretation_model: UNKNOWN/GAP
+```
+
+```text
+INPUT
+!=
+PERCEPTION
+
+OBSERVATION
+!=
+INTERPRETATION
+
+INTERPRETATION
+!=
+EXTERNAL REALITY
+```
+
+---
+
+## 35. Emotion relation
+
+#emotion #unknown_gap
+
+```yaml
+full_brain_os_master_to_emotion:
+  relation: UNKNOWN/GAP
+  state_relation: UNKNOWN/GAP
+  control_relation: UNKNOWN/GAP
+  cognition_relation: UNKNOWN/GAP
+  causal_relation: UNKNOWN/GAP
+```
+
+Preserve:
+
+```text
+EMOTION MODEL
+!=
+FELT EMOTION
+
+EMOTION REPRESENTATION
+!=
+SUBJECTIVE EXPERIENCE
+```
+
+---
+
+## 36. Reasoning and inference relation
+
+#reasoning #inference
+
+```yaml
+full_brain_os_master_to_reasoning:
+  relation: UNKNOWN/GAP
+  reasoning_model: UNKNOWN/GAP
+  inference_model: UNKNOWN/GAP
+  contradiction_model: UNKNOWN/GAP
+  proof_model: UNKNOWN/GAP
+```
+
+```text
+OUTPUT
+!=
+REASONING
+
+PLAUSIBILITY
+!=
+VALIDITY
+
+CONSISTENCY
+!=
+TRUTH
+
+NO DETECTED CONTRADICTION
+!=
+PROOF
+```
+
+---
+
+## 37. Learning relation
+
+#learning #adaptation
+
+```yaml
+full_brain_os_master_to_learning:
+  relation: UNKNOWN/GAP
+  adaptation_model: UNKNOWN/GAP
+  update_model: UNKNOWN/GAP
+  persistence_model: UNKNOWN/GAP
+  governance_model: UNKNOWN/GAP
+```
+
+```text
+CHANGE
+!=
+LEARNING
+
+UPDATE
+!=
+IMPROVEMENT
+
+IMPROVEMENT ON METRIC M
+!=
+GENERAL IMPROVEMENT
+```
+
+---
+
+## 38. Decision relation
+
+#decision #action
+
+```yaml
+full_brain_os_master_to_decision:
+  relation: UNKNOWN/GAP
+  decision_model: UNKNOWN/GAP
+  action_binding: UNKNOWN/GAP
+  constraint_model: UNKNOWN/GAP
+```
+
+```text
+INFERENCE
+!=
+DECISION
+
+DECISION
+!=
+ACTION
+
+PROPOSAL
+!=
+COMMIT
+```
+
+---
+
+## 39. Agency relation
+
+#agency #authority
+
+```yaml
+full_brain_os_master_to_agency:
+  relation: UNKNOWN/GAP
+  autonomous_action: NOT_ESTABLISHED
+  authority: NOT_ESTABLISHED
+  authorization_model: NOT_ESTABLISHED
+```
+
+```text
+CAPABILITY
+!=
+AGENCY
+
+AGENCY
+!=
+AUTHORITY
+
+CAPABILITY
+!=
+AUTHORIZATION
+
+AUTHORIZATION
+!=
+COMMIT
+```
+
+---
+
+## 40. Metacognition relation
+
+#metacognition #self_model
+
+```yaml
+full_brain_os_master_to_metacognition:
+  relation: UNKNOWN/GAP
+  self_monitoring: UNKNOWN/GAP
+  error_monitoring: UNKNOWN/GAP
+  confidence_monitoring: UNKNOWN/GAP
+  strategy_selection: UNKNOWN/GAP
+```
+
+```text
+METACOGNITIVE MODEL
+!=
+SELF-AWARENESS
+
+SELF-MODEL
+!=
+SUBJECTIVE SELF
+```
+
+---
+
+## 41. Consciousness firewall
+
+#consciousness #sentience
+
+No consciousness or sentience claim is licensed.
+
+```text
+FULL BRAIN OS MASTER
+!=
+CONSCIOUSNESS
+
+COGNITIVE ARCHITECTURE
+!=
+CONSCIOUS EXPERIENCE
+
+CONSCIOUSNESS MODEL
+!=
+CONSCIOUSNESS
+
+SELF-MODEL
+!=
+SELF-AWARENESS
+
+BEHAVIORAL SIMILARITY
+!=
+SUBJECTIVE EXPERIENCE
+```
+
+Current consciousness relation:
+
+```text
+UNKNOWN/GAP
+```
+
+---
+
+## 42. Intelligence firewall
+
+#intelligence #scope
+
+```text
+FULL BRAIN OS MASTER
+!=
+GENERAL INTELLIGENCE
+
+MASTER ARCHITECTURE
+!=
+SUPERINTELLIGENCE
+
+BROAD CAPABILITY
+!=
+UNIVERSAL CAPABILITY
+
+BENCHMARK SUCCESS
+!=
+GENERAL VALIDITY
+
+PERFORMANCE @ DOMAIN D1
+!=
+PERFORMANCE @ DOMAIN D2
+```
+
+---
+
+## 43. Human-equivalence firewall
+
+#human_equivalence #anthropomorphism
+
+```text
+HUMAN-LIKE OUTPUT
+!=
+HUMAN-LIKE INTERNAL PROCESS
+
+FUNCTIONAL SIMILARITY
+!=
+MECHANISTIC IDENTITY
+
+SIMULATED COGNITION
+!=
+BIOLOGICAL COGNITION
+
+MODEL OF HUMAN PROCESS
+!=
+HUMAN PROCESS
+
+HUMAN-EQUIVALENT CLAIM
+=
+NOT_ESTABLISHED
+```
+
+---
+
+# Part VI — Causality, Evidence, and Provenance
+
+## 44. Causal firewall
+
+#causality #causal_firewall
+
+Any future causal claim must distinguish:
+
+* association;
+* correlation;
+* temporal sequence;
+* mechanism;
+* enabling condition;
+* necessary condition;
+* sufficient condition;
+* mediation;
+* confounding;
+* feedback;
+* causal effect.
+
+Preserve:
+
+```text
+A PRECEDES B
+!=
+A CAUSES B
+
+A CORRELATES WITH B
+!=
+A CAUSES B
+
+A DEPENDS ON B
+!=
+B CAUSES A
+
+A ROUTES TO B
+!=
+A CAUSES B
+
+A MODELS B
+!=
+A IMPLEMENTS B
+
+STRUCTURAL SIMILARITY
+!=
+CAUSATION
+```
+
+---
+
+## 45. Structural similarity firewall
+
+#structural_similarity #causality
+
+```text
+SIMILAR ARCHITECTURE
+!=
+SAME FUNCTION
+
+SAME FUNCTION
+!=
+SAME MECHANISM
+
+SAME MECHANISM
+!=
+SAME CAUSAL HISTORY
+
+AMOS COMPONENT
+SIMILAR TO
+BIOLOGICAL COMPONENT
+!=
+BIOLOGICAL IDENTITY
+```
+
+Cross-domain mappings remain `MODEL` unless independently validated.
+
+---
+
+## 46. Evidence topology
+
+#evidence #epistemic_class
+
+Consequential claims should be typed as:
+
+```text
+SOURCE_CLAIM
+
+OBSERVATION
+
+DERIVED
+
+MODEL
+
+DECISION
+
+UNKNOWN
+```
+
+Examples:
+
+```text
+"The Master Canon artifact exists"
+→ DERIVED
+
+"The Master Canon supersedes Full Brain OS Canon"
+→ UNKNOWN/GAP
+
+"The Master Canon aggregates all cognition systems"
+→ UNKNOWN/GAP
+
+"The architecture resembles biological cognition"
+→ MODEL unless validated
+
+"The architecture causes outcome Y"
+→ UNKNOWN/GAP unless causal evidence licenses it
+```
+
+---
+
+## 47. Provenance topology
+
+#provenance #lineage
+
+The supplied metadata declares:
+
+```yaml
+rscf:
+  provenance: AMOS_corpus
+```
+
+Complete source ancestry remains unresolved.
+
+Target:
+
+```text
+NATIVE SOURCE
+      ↓
+SOURCE IDENTITY
+      ↓
+SOURCE VERSION
+      ↓
+SOURCE HASH / CONTENT ID
+      ↓
+SOURCE LINEAGE
+      ↓
+NORMALIZATION
+      ↓
+AMOS FULL BRAIN OS MASTER CANON
+      ↓
+DERIVED NODES
+      ↓
+IMPLEMENTATION BINDINGS
+      ↓
+VALIDATION RECEIPTS
+```
+
+---
+
+## 48. Provenance record
+
+#provenance_schema
+
+```yaml
+provenance_record:
+  source_id: required
+  source_type: required
+  source_version: required
+  source_hash: when_available
+  parent_sources: required
+  transformation: required
+  steward: required
+  license_ip_status: when_material
+  timestamp: required
+  scope: required
+  regime: required
+```
+
+---
+
+## 49. Provenance independence
+
+#provenance_independence #sybil_hardening
+
+Multiple descendants of one source are not independent confirmation.
+
+```text
+SOURCE A
+ ├── SOURCE B
+ ├── SOURCE C
+ └── SOURCE D
+```
+
+does not establish:
+
+```text
+B + C + D
+=
+3 INDEPENDENT CONFIRMATIONS
+```
+
+Current:
+
+```yaml
+provenance_independence:
+  status: NOT_ESTABLISHED
+```
+
+---
+
+## 50. Repetition firewall
+
+#repetition #evidence
+
+```text
+REPEATED CLAIM
+!=
+INDEPENDENT CONFIRMATION
+
+POPULAR CLAIM
+!=
+VERIFIED CLAIM
+
+MULTIPLE FILES
+!=
+MULTIPLE INDEPENDENT SOURCES
+
+MULTIPLE NORMALIZATIONS
+!=
+MULTIPLE OBSERVATIONS
+```
+
+Source ancestry must be checked before confidence is increased.
+
+---
+
+## 51. Confidence ceiling
+
+#confidence #weakest_premise
+
+```text
+DERIVED CONFIDENCE
+MUST NOT EXCEED
+THE WEAKEST LOAD-BEARING PREMISE
+UNLESS INDEPENDENTLY REVALIDATED
+```
+
+For:
+
+```text
+C = f(P1, P2, ..., Pn)
+```
+
+conceptually:
+
+```text
+CONFIDENCE(C)
+<=
+MIN(CONFIDENCE(load-bearing Pi))
+```
+
+unless direct independent validation establishes `C`.
+
+---
+
+## 52. Composition confidence ceiling
+
+#composition #confidence
+
+Even if multiple components are individually validated:
+
+```text
+A = VALIDATED
+B = VALIDATED
+C = VALIDATED
+```
+
+it does not follow that:
+
+```text
+A + B + C COMPOSITION
+=
+VALIDATED
+```
+
+because the integration edges themselves may be unvalidated.
+
+```text
+VALIDATED COMPONENTS
+!=
+VALIDATED COMPOSITION
+```
+
+---
+
+## 53. Contradiction preservation
+
+#contradiction #competing
+
+If native sources disagree:
+
+```text
+SOURCE A → MASTER MEANS AGGREGATOR
+SOURCE B → MASTER MEANS SUPERSEDING CANON
+```
+
+record:
+
+```yaml
+contradiction:
+  hypothesis_a: AGGREGATOR
+  hypothesis_b: SUPERSEDING_CANON
+  status: COMPETING
+  resolution: UNKNOWN/GAP
+```
+
+Do not silently synthesize incompatible meanings.
+
+---
+
+# Part VII — Scope, Regime, Time, Dependencies
+
+## 54. Scope envelope
+
+#scope #applicability
+
+Artifact-level scope:
+
+```yaml
+artifact_scope:
+  system: AMOS_OS
+  plane: 01_CANON
+  segment: 01_CANON/03_COGNITION_CANON
+```
+
+Substantive scope:
+
+```yaml
+substantive_scope:
+  system_population: UNKNOWN/GAP
+  cognitive_domain: UNKNOWN/GAP
+  environment: UNKNOWN/GAP
+  scale: UNKNOWN/GAP
+  architecture_scope: UNKNOWN/GAP
+  temporal_scope: UNKNOWN/GAP
+  regime: UNKNOWN/GAP
+  measurement_method: UNKNOWN/GAP
+  assumptions: UNKNOWN/GAP
+  biological_scope: UNKNOWN/GAP
+  machine_scope: UNKNOWN/GAP
+```
+
+---
+
+## 55. Scope firewall
+
+#scope_firewall
+
+```text
+VALID IN SCOPE S1
+!=
+VALID IN SCOPE S2
+
+VALID FOR ONE COMPONENT
+!=
+VALID FOR WHOLE SYSTEM
+
+VALID FOR WHOLE SYSTEM
+!=
+VALID FOR ALL ENVIRONMENTS
+
+MASTER LABEL
+!=
+UNIVERSAL SCOPE
+
+FULL LABEL
+!=
+UNIVERSAL SCOPE
+```
+
+---
+
+## 56. Regime envelope
+
+#regime #regime_shift
+
+```yaml
+regime:
+  regime_id: UNKNOWN/GAP
+  environment: UNKNOWN/GAP
+  operating_conditions: UNKNOWN/GAP
+  architecture_version: UNKNOWN/GAP
+  dependency_versions: UNKNOWN/GAP
+  valid_from: UNKNOWN/GAP
+  valid_until: UNKNOWN/GAP
+  transition_conditions: UNKNOWN/GAP
+```
+
+Preserve:
+
+```text
+VALID @ R1
+!=
+AUTOMATICALLY VALID @ R2
+```
+
+---
+
+## 57. Temporal validity
+
+#temporal_validity #freshness
+
+```yaml
+temporal_validity:
+  source_updated: "2026-08-27"
+  substantive_valid_from: UNKNOWN/GAP
+  substantive_valid_until: UNKNOWN/GAP
+  freshness_policy: UNKNOWN/GAP
+  revalidation_interval: UNKNOWN/GAP
+```
+
+```text
+FILE UPDATED RECENTLY
+!=
+ALL PREMISES FRESH
+```
+
+---
+
+## 58. Dependency topology
+
+#dependencies #dependency_closure
+
+```yaml
+dependency_schema:
+  node_id: required
+  dependency_type: required
+  version: required
+  scope: required
+  regime: required
+  freshness: required
+  provenance: required
+  load_bearing: required
+```
+
+Potential relation types:
+
+```text
+REQUIRES
+
+USES
+
+REFINES
+
+EXTENDS
+
+COMPOSES_WITH
+
+AGGREGATES
+
+CONSTRAINED_BY
+
+VALIDATED_BY
+
+OBSERVED_BY
+
+GOVERNED_BY
+```
+
+These are allowed relation types, not established edges.
+
+---
+
+## 59. Dependency firewall
+
+#dependency_firewall
+
+```text
+REFERENCE
+!=
+DEPENDENCY
+
+DEPENDENCY
+!=
+AUTHORITY
+
+DEPENDENCY
+!=
+CAUSATION
+
+DEPENDENCY
+!=
+OWNERSHIP
+
+DEPENDENCY
+!=
+COMPOSITION
+
+SHARED DEPENDENCY
+!=
+SAME FRAMEWORK
+```
+
+---
+
+# Part VIII — Ingestion and Lineage
+
+## 60. AMOS Canon Ingestion Rule
+
+#ingestion #canon_ingestion #add_only
 
 ```yaml
 AMOS_CANON_INGESTION_RULE:
+
   existing_folder:
     preserve: true
+
   existing_file:
     preserve: true
     overwrite: false
+
   new_framework:
     action: ADD_FILE_TO_EXISTING_FOLDER
+
   master_source:
     action: NORMALIZE_TO_RSCF_FILE
+
   framework_existing_in_multiple_sources:
     action:
       - CREATE_ONE_CANONICAL_NODE
       - LINK_ALL_SOURCE_PROVENANCE
       - DO_NOT_CREATE_DUPLICATE_CANON
+
   historical_source:
     action:
       - LINK_TO_CANON
       - RECORD_LINEAGE
       - PRESERVE_HERITAGE
+
   external_research:
     action:
       - KEEP_OUT_OF_NATIVE_CANON
       - LINK_AS_EVIDENCE
+
   duplicate_filename:
     action:
       - COMPARE_CONTENT_AND_LINEAGE
       - DO_NOT_OVERWRITE
+
   uncertainty:
     action:
       - MARK_GAP_OR_COMPETING
@@ -143,82 +2440,2386 @@ AMOS_CANON_INGESTION_RULE:
 
 ---
 
-## 4. Contract discipline
+## 61. Master-source normalization
 
-Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.
+#master_source #normalization
 
----
+The ingestion rule contains:
 
-## 5. Gaps
+```text
+master_source:
+  action: NORMALIZE_TO_RSCF_FILE
+```
 
-Executable binding NOT_ESTABLISHED. Canonical status UNKNOWN/GAP. Substantive content pending native-canon source ingestion. Validation receipt required before promotion: [[ROUTING_POLICY_VALIDATION_RECEIPT]] · [[AUTHZ_ENGINE_VALIDATION_RECEIPT]].
+This establishes an ingestion action for a source classified as `master_source`.
 
----
+It does **not**, by itself, prove:
 
-## 6. Worked semantics (target)
+```text
+ARTIFACT WITH "MASTER" IN TITLE
+=
+MASTER_SOURCE
+```
 
-Given an operation touching `01_CANON · CANON` within the Canon plane:
-1. **Admit** — resolve the artifact by id + version; unresolved id ⇒ `UNKNOWN/GAP`, fail closed.
-2. **Bind scope** — declare domain / regime / H-M-L applicability before any mutation.
-3. **Check authority** — authority_ref must be epoch-valid; capability alone never authorizes.
-4. **Validate preconditions** — dependency closure traversed to the smallest result-changing set.
-5. **Propose** — candidate state is non-authoritative until gates pass (`PROPOSAL ≠ COMMIT`).
-6. **Commit or hold** — on any failed premise: preserve unaffected state, invalidate dependent descendants only, record receipt.
+That classification requires source provenance.
 
----
+Preserve:
 
-## 7. Promotion-gate checklist
-
-- [ ] substantive content populated from verified native-canon source
-- [ ] typed schema bound to this artifact
-- [ ] identity + versioning implemented
-- [ ] negative cases covered (missing · malformed · stale · unauthorized input)
-- [ ] provenance edges persisted and validated
-- [ ] rollback basin demonstrated for consequential effects
-- [ ] executed validation receipt specific to this artifact
-- [ ] unresolved critical gaps registered as UNKNOWN/GAP (visible)
+```text
+MASTER TITLE
+!=
+MASTER_SOURCE CLASSIFICATION
+```
 
 ---
 
-## 8. Cross-plane bindings (target)
+## 62. Duplicate canon discipline
 
-- Governed by canon — LAW_HIERARCHY|AMOS Core Laws · [[LAW_HIERARCHY]]
-- Kernel interaction — [[KERNEL_README]]
-- Control-plane gates — [[CONTROL_PLANE_README]]
-- Observed by — [[OBSERVABILITY_README]] · never treated as authority
-- Recovered via operations — [[OPERATIONS_README]]
+#duplicate_detection #canon_identity
+
+If Full Brain OS Master appears in multiple native sources:
+
+```text
+COMPARE CONTENT
++
+COMPARE IDENTITY
++
+COMPARE VERSION
++
+COMPARE LINEAGE
++
+COMPARE SCOPE
++
+COMPARE REGIME
++
+COMPARE ARCHITECTURE
++
+COMPARE SEMANTICS
+```
+
+Possible outcomes:
+
+```text
+SAME_FRAMEWORK
+
+DISTINCT_FRAMEWORKS
+
+HISTORICAL_VARIANTS
+
+SUPERSESSION_CHAIN
+
+PARTIAL_OVERLAP
+
+COMPETING
+
+UNKNOWN/GAP
+```
+
+Do not create duplicate canon merely because multiple files exist.
 
 ---
 
-00_ROOT_MOC|AMOS MOC
+## 63. Historical preservation
+
+#history #heritage
+
+Historical sources must:
+
+```text
+LINK_TO_CANON
++
+RECORD_LINEAGE
++
+PRESERVE_HERITAGE
+```
+
+Preserve:
+
+```text
+HISTORICAL
+!=
+INVALID
+
+CURRENT
+!=
+SUPERSEDING
+
+NEWER
+!=
+MORE AUTHORITATIVE
+```
+
+unless lineage explicitly establishes supersession.
 
 ---
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]]
+## 64. External research firewall
+
+#external_evidence #native_canon
+
+External research must follow:
+
+```text
+EXTERNAL RESEARCH
+→ KEEP OUT OF NATIVE CANON
+→ LINK AS EVIDENCE
+```
+
+Therefore:
+
+```text
+EXTERNAL_EVIDENCE
+!=
+NATIVE_AMOS_CANON
+```
+
+Research may support, challenge, contextualize, or test native AMOS claims without silently becoming native canon.
 
 ---
 
-RSCF-NODE
+# Part IX — RSCF / H-M-L / Fractal Runtime
 
-node_id: amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon
+## 65. RSCF binding
 
-node_type: canon
+#rscf #recursive_structure
 
-path: 01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md
+The supplied artifact declares:
 
-claim_class: AMOS_MODEL
+```yaml
+rscf:
+  state: DERIVED
+  claim_class: DERIVED
+  provenance: AMOS_corpus
+  scope: AMOS_general
+```
 
-rscf_state: placeholder
+Therefore an RSCF representation is source-supported.
 
+But:
+
+```text
+RSCF REPRESENTATION
+!=
+FULL BRAIN OS MASTER IMPLEMENTATION
+```
+
+---
+
+## 66. Proof capsule schema
+
+#proof_capsule #rscf
+
+```yaml
+rscf_claim:
+  claim_id: required
+  claim: required
+  claim_class: required
+  premises: required
+  evidence: required
+  provenance: required
+  dependencies: required
+  scope: required
+  regime: required
+  freshness: required
+  competing: required
+  falsifiers: required
+  confidence_ceiling: required
+```
+
+---
+
+## 67. H/M/L binding
+
+#hml #fractal
+
+The supplied worked semantics requires H-M-L applicability before mutation.
+
+Native Full Brain OS Master H/M/L mapping is not established.
+
+```yaml
+hml_binding:
+  H: UNKNOWN/GAP
+  M: UNKNOWN/GAP
+  L: UNKNOWN/GAP
+```
+
+Do not invent mappings such as:
+
+```text
+H = MASTER BRAIN
+M = COGNITIVE SUBSYSTEM
+L = FUNCTION
+```
+
+without native evidence.
+
+---
+
+## 68. Fractal retrieval target
+
+#fractal_retrieval #smallest_sufficient_scope
+
+Target conceptual retrieval:
+
+```text
+BOOTSTRAP CAPSULE
+        ↓
+H DOMAIN
+        ↓
+M SUBSYSTEM
+        ↓
+L DETAIL
+        ↓
+RAW EVIDENCE
+ONLY WHEN REQUIRED
+```
+
+Raw evidence defaults conceptually to:
+
+```text
+DO_NOT_LOAD_UNLESS_REQUIRED
+```
+
+This is a reasoning pattern, not evidence that this artifact implements a literal retrieval engine.
+
+---
+
+## 69. Smallest sufficient proof scope
+
+#proof_scope #fast_path
+
+For a claim:
+
+```text
+CLAIM
+ ↓
+LOAD-BEARING PREMISES
+ ↓
+RESULT-CHANGING DEPENDENCIES
+ ↓
+NECESSARY EVIDENCE
+```
+
+Local reasoning is sufficient only when:
+
+```text
+DEPENDENCY CLOSURE KNOWN
++
+PROVENANCE INDEPENDENCE ESTABLISHED
++
+SCOPE COMPATIBLE
++
+REGIME COMPATIBLE
++
+FRESH
++
+NON-CONFLICTING
+```
+
+Escalate if these conditions fail.
+
+---
+
+# Part X — Governed Mutation
+
+## 70. Contract discipline
+
+#contract #governance
+
+The governing contract is:
+
+**Typed artifacts · provenance stamped · epistemic class declared · confidence ceiling · fail-closed on UNKNOWN/GAP · receipts for consequential effects · rollback basin before mutation.**
+
+```yaml
+full_brain_os_master_contract:
+  typed_artifact: required
+  provenance: required
+  epistemic_class: required
+  confidence_ceiling: required
+  scope: required
+  regime: required
+  unknown_gap_behavior: FAIL_CLOSED
+  consequential_effects: RECEIPT_REQUIRED
+  mutation: ROLLBACK_BASIN_REQUIRED
+```
+
+---
+
+## 71. Worked semantics — target canon operation
+
+#worked_semantics #canon_operation
+
+Given an operation touching:
+
+`01_CANON · CANON`
+
+within the Canon plane:
+
+### 71.1 Admit
+
+Resolve:
+
+```text
+artifact_id + version
+```
+
+Unresolved:
+
+```text
+UNKNOWN/GAP
+↓
+FAIL CLOSED
+```
+
+### 71.2 Bind scope
+
+Declare:
+
+```text
+DOMAIN
++
+REGIME
++
+H/M/L APPLICABILITY
+```
+
+### 71.3 Check authority
+
+`authority_ref` must be epoch-valid.
+
+```text
+CAPABILITY
+!=
+AUTHORITY
+
+MASTER LABEL
+!=
+AUTHORITY
+
+AUTHORIZATION
+!=
+COMMIT
+```
+
+### 71.4 Validate preconditions
+
+Traverse the smallest result-changing dependency closure.
+
+### 71.5 Propose
+
+```text
+PROPOSAL
+!=
+COMMIT
+```
+
+### 71.6 Commit or hold
+
+On failure:
+
+```text
+PRESERVE UNAFFECTED STATE
++
+INVALIDATE DEPENDENT DESCENDANTS ONLY
++
+RECORD RECEIPT
+```
+
+---
+
+## 72. Selective invalidation
+
+#selective_invalidation #failure_recovery
+
+Suppose conclusion `C` depends on:
+
+```text
+P1 = Master identity
+P2 = Full Brain OS identity
+P3 = relationship between Master and base canon
+P4 = scope
+P5 = regime
+```
+
+If `P3` fails:
+
+```text
+INVALIDATE C
++
+DESCENDANTS DEPENDENT ON P3
+```
+
+Do not automatically invalidate:
+
+```text
+P1
+P2
+P4
+P5
+UNRELATED CANON
+UNRELATED PROVENANCE
+```
+
+unless they also depend on `P3`.
+
+---
+
+## 73. Failure recovery
+
+#rollback #failure_recovery
+
+```text
+FAILED PREMISE
+        ↓
+IDENTIFY FAILED EDGE
+        ↓
+INVALIDATE DEPENDENT DESCENDANTS
+        ↓
+ROLL BACK TO NEAREST VALID STATE
+        ↓
+PRESERVE UNAFFECTED WORK
+        ↓
+REROUTE WITH CHANGED EVIDENCE
+```
+
+Global recomputation is a last resort.
+
+---
+
+## 74. MVCC conceptual discipline
+
+#mvcc #versioning
+
+Target concept:
+
+```text
+READ CANON @ VERSION vN
+        ↓
+VALIDATE
+        ↓
+BUILD PROPOSAL
+        ↓
+CHECK CURRENT VERSION
+        ↓
+IF CURRENT = vN
+        ↓
+COMMIT
+```
+
+If:
+
+```text
+CURRENT != vN
+```
+
+then:
+
+```text
+ABORT
++
+REVALIDATE
+```
+
+Literal MVCC implementation remains:
+
+`NOT_ESTABLISHED`.
+
+---
+
+## 75. CAS conceptual discipline
+
+#cas #concurrency
+
+```text
+EXPECTED = vN
+CURRENT  = vN
+→ COMMIT MAY PROCEED
+```
+
+but:
+
+```text
+EXPECTED = vN
+CURRENT  = vN+1
+→ CAS FAIL
+→ NO STALE COMMIT
+```
+
+Literal CAS implementation remains `NOT_ESTABLISHED`.
+
+---
+
+## 76. Atomic multi-RSCF target
+
+#atomicity #multi_rscf
+
+A future Master Canon mutation may span:
+
+```text
+MASTER NODE
++
+BASE FULL BRAIN OS NODE
++
+COMPONENT NODES
++
+INTERFACE NODES
++
+SCOPE NODE
++
+REGIME NODE
++
+PROVENANCE NODE
++
+VALIDATION NODE
+```
+
+Where coherent mutation is required:
+
+```text
+PARTIAL COMMIT
+!=
+SUCCESS
+```
+
+Literal distributed transaction implementation is not established.
+
+---
+
+## 77. Causal epoch discipline
+
+#causal_epoch #finality
+
+Target:
+
+```yaml
+epoch_binding:
+  epoch_id: required
+  authority_ref: required
+  source_versions: required
+  dependency_versions: required
+  valid_from: required
+  finality_status: required
+```
+
+Preserve:
+
+```text
+VALID IN EPOCH E1
+!=
+AUTOMATICALLY VALID IN EPOCH E2
+```
+
+Literal causal-epoch finalization is `NOT_ESTABLISHED`.
+
+---
+
+## 78. Proof-based coordination avoidance
+
+#coordination #proof
+
+Local mutation may avoid broader coordination only when proof establishes:
+
+```text
+LOCAL DEPENDENCY CLOSURE
++
+PROVENANCE INDEPENDENCE
++
+SCOPE COMPATIBILITY
++
+REGIME COMPATIBILITY
++
+FRESHNESS
++
+NON-CONFLICT
++
+NO RESULT-CHANGING EXTERNAL COUPLING
+```
+
+If not:
+
+```text
+ESCALATE
+```
+
+Do not assume independence.
+
+---
+
+# Part XI — Adversarial Validation
+
+## 79. Adversarial validation
+
+#adversarial_validation #integrity
+
+Before accepting a consequential Full Brain OS Master claim, challenge it through a genuinely different path.
+
+Ask:
+
+* Is `Full Brain OS Master` actually defined?
+* Is `Master` being mistaken for authority?
+* Is `Master` being mistaken for aggregation?
+* Is `Master` being mistaken for supersession?
+* Is `Master` being mistaken for finality?
+* Is `Full` being mistaken for completeness?
+* Is `Brain` being treated as biological?
+* Is `OS` being treated as executable software?
+* Is lexical similarity being mistaken for lineage?
+* Is same-folder placement being mistaken for hierarchy?
+* Is a collection being mistaken for architecture?
+* Is architecture being mistaken for integration?
+* Is integration being mistaken for implementation?
+* Is implementation being mistaken for validation?
+* Is structural similarity being mistaken for biological equivalence?
+* Is cognition being equated with consciousness?
+* Is persistence being equated with memory?
+* Is routing being equated with attention?
+* Is capability being equated with agency?
+* Is agency being equated with authority?
+* Is correlation being promoted to causation?
+* Is scope leaking?
+* Did the regime change?
+* Are premises stale?
+* Are descendant sources being counted as independent?
+* Is external research being silently imported as native canon?
+* Does confidence exceed the weakest load-bearing premise?
+
+If challenge succeeds:
+
+```text
+DOWNGRADE
+OR
+CONDITION
+OR
+PRESERVE COMPETING
+OR
+RETURN UNKNOWN/GAP
+```
+
+---
+
+## 80. Sensitivity
+
+#sensitivity #critical_gap
+
+The smallest premise capable of flipping most substantive interpretations is:
+
+> [!danger] Highest-sensitivity premise
+> **The verified native definition of “AMOS Full Brain OS Master,” including the native meaning of “Master.”**
+
+Next highest-sensitivity premises:
+
+1. relationship to [[AMOS_FULL_BRAIN_OS_CANON]];
+2. system boundary;
+3. master aggregation semantics;
+4. master precedence semantics;
+5. master supersession semantics;
+6. architecture;
+7. component registry;
+8. interface topology;
+9. cognition relation;
+10. scope;
+11. regime;
+12. provenance ancestry;
+13. executable binding.
+
+---
+
+## 81. Uncertainty vector
+
+#uncertainty #gap_registry
+
+```yaml
+uncertainty:
+
+  artifact_identity: LOW
+  artifact_path: LOW
+  artifact_kind: LOW
+  canon_segment_membership: LOW
+  framework_label: LOW
+
+  master_definition: CRITICAL
+  master_authority: HIGH
+  master_aggregation: HIGH
+  master_precedence: HIGH
+  master_supersession: HIGH
+
+  full_brain_os_definition: CRITICAL
+  fullness_semantics: CRITICAL
+  brain_semantics: HIGH
+  os_semantics: HIGH
+
+  system_boundary: CRITICAL
+  architecture: CRITICAL
+  component_registry: HIGH
+  interface_contracts: HIGH
+  state_model: HIGH
+
+  relation_to_full_brain_os_canon: CRITICAL
+  relation_to_cognition_canon: HIGH
+  relation_to_cognition_master_canon: HIGH
+
+  cognition_relation: HIGH
+  memory_relation: HIGH
+  attention_relation: HIGH
+  perception_relation: HIGH
+  emotion_relation: HIGH
+  reasoning_relation: HIGH
+  learning_relation: HIGH
+  decision_relation: HIGH
+  agency_relation: HIGH
+  metacognition_relation: HIGH
+  consciousness_relation: HIGH
+
+  causal_semantics: HIGH
+  scope: HIGH
+  regime: HIGH
+  temporal_validity: HIGH
+  dependencies: HIGH
+
+  provenance: MEDIUM
+  provenance_independence: HIGH
+
+  implementation: HIGH
+  validation: HIGH
+  executable_binding: HIGH
+```
+
+---
+
+# Part XII — Cross-Plane Boundaries
+
+## 82. Kernel boundary
+
+#kernel #runtime
+
+Target:
+
+[[KERNEL_README]]
+
+```text
+CANON
+!=
+KERNEL
+
+MASTER CANON
+!=
+MASTER KERNEL
+
+CANON RULE
+!=
+KERNEL IMPLEMENTATION
+
+KERNEL CAPABILITY
+!=
+CANON AUTHORITY
+```
+
+Current kernel binding:
+
+`NOT_ESTABLISHED`.
+
+---
+
+## 83. Control-plane boundary
+
+#control_plane #authority
+
+Target:
+
+[[CONTROL_PLANE_README]]
+
+```text
+MASTER CANON
+!=
+CONTROL PLANE
+
+CONTROL
+!=
+CANON
+
+ROUTING
+!=
+AUTHORIZATION
+
+AUTHORIZATION
+!=
+COMMIT
+
+CAPABILITY
+!=
+AUTHORITY
+```
+
+Current binding:
+
+`NOT_ESTABLISHED`.
+
+---
+
+## 84. Observability boundary
+
+#observability #telemetry
+
+Target:
+
+[[OBSERVABILITY_README]]
+
+```text
+OBSERVED
+!=
+AUTHORIZED
+
+LOGGED
+!=
+APPROVED
+
+METRIC
+!=
+TRUTH
+
+TRACE
+!=
+CAUSAL PROOF
+
+ALERT
+!=
+CANONICAL DECISION
+```
+
+Observability must never become authority merely because it can inspect the system.
+
+---
+
+## 85. Operations boundary
+
+#operations #recovery
+
+Target:
+
+[[OPERATIONS_README]]
+
+```text
+RECOVERY DOCUMENTED
+!=
+RECOVERY VALIDATED
+
+BACKUP EXISTS
+!=
+RESTORE VERIFIED
+
+ROLLBACK DESCRIBED
+!=
+ROLLBACK DEMONSTRATED
+```
+
+---
+
+# Part XIII — Validation
+
+## 86. Required validation receipts
+
+#validation #receipts
+
+Required before promotion:
+
+[[ROUTING_POLICY_VALIDATION_RECEIPT]]
+
+[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+Current:
+
+```yaml
+validation_receipts:
+  routing_policy:
+    status: NOT_ESTABLISHED
+
+  authz_engine:
+    status: NOT_ESTABLISHED
+
+  artifact_specific:
+    status: NOT_ESTABLISHED
+```
+
+---
+
+## 87. Validation receipt schema
+
+#validation_receipt #evidence
+
+```yaml
+validation_receipt:
+
+  receipt_id: required
+
+  artifact_id:
+    amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon
+
+  artifact_version: required
+
+  validator: required
+
+  validation_time: required
+
+  environment: required
+
+  regime: required
+
+  source_versions: required
+
+  dependency_versions: required
+
+  tests_executed: required
+
+  negative_tests: required
+
+  expected_results: required
+
+  observed_results: required
+
+  failures: required
+
+  unresolved_gaps: required
+
+  provenance: required
+
+  rollback_test: required
+
+  authorization_test: required
+
+  routing_test: required
+
+  final_status: required
+```
+
+---
+
+## 88. Negative validation matrix
+
+#negative_testing #validation
+
+| Case                                                  | Required behavior               |
+| ----------------------------------------------------- | ------------------------------- |
+| Missing artifact                                      | `UNKNOWN/GAP` / fail closed     |
+| Unknown artifact ID                                   | fail closed                     |
+| Malformed artifact ID                                 | reject                          |
+| Wrong version                                         | reject / revalidate             |
+| Stale version                                         | no stale commit                 |
+| Duplicate ID                                          | compare lineage                 |
+| Native Master definition absent                       | block substantive promotion     |
+| `Master` treated as authority                         | reject                          |
+| `Master` treated as aggregation without edge          | reject                          |
+| `Master` treated as supersession without lineage      | reject                          |
+| `Master` treated as final canon                       | reject                          |
+| `Full` treated as proven completeness                 | reject                          |
+| `Brain` treated as biological identity                | reject                          |
+| `OS` treated as executable runtime                    | reject                          |
+| Base/Master lexical similarity treated as lineage     | reject                          |
+| Same folder treated as hierarchy                      | reject                          |
+| Missing component identity                            | hold                            |
+| Missing dependency                                    | hold                            |
+| Conflicting native definitions                        | preserve `COMPETING`            |
+| Shared ancestry counted independently                 | reject confidence inflation     |
+| Scope mismatch                                        | block inference                 |
+| Regime mismatch                                       | revalidate                      |
+| Stale premise                                         | invalidate dependent conclusion |
+| Correlation promoted to causation                     | reject                          |
+| Structural similarity promoted to biological identity | reject                          |
+| Capability treated as authority                       | reject                          |
+| Authorization treated as commit                       | reject                          |
+| Proposal treated as commit                            | reject                          |
+| Logged treated as approved                            | reject                          |
+| External research imported as native canon            | reject                          |
+| Partial multi-node commit                             | rollback / hold                 |
+| Missing rollback basin                                | block consequential mutation    |
+| Missing receipt                                       | no promotion                    |
+| `UNKNOWN/GAP` treated as PASS                         | reject                          |
+
+---
+
+## 89. Promotion-gate checklist
+
+#promotion_gate #checklist
+
+* [ ] substantive content populated from verified native-canon source
+* [ ] native Full Brain OS Master definition established
+* [ ] native meaning of `Master` established
+* [ ] native meaning of `Full` established
+* [ ] native meaning of `Brain` established
+* [ ] native meaning of `OS` established
+* [ ] relationship to [[AMOS_FULL_BRAIN_OS_CANON]] explicitly typed
+* [ ] master authority semantics resolved
+* [ ] master aggregation semantics resolved
+* [ ] master precedence semantics resolved
+* [ ] master supersession semantics resolved
+* [ ] system boundary established
+* [ ] architecture established
+* [ ] component registry established if native
+* [ ] interface contracts established if native
+* [ ] state model established if native
+* [ ] cognition relation established
+* [ ] memory relation established if claimed
+* [ ] attention relation established if claimed
+* [ ] perception relation established if claimed
+* [ ] emotion relation established if claimed
+* [ ] reasoning relation established if claimed
+* [ ] learning relation established if claimed
+* [ ] decision relation established if claimed
+* [ ] agency relation established if claimed
+* [ ] metacognition relation established if claimed
+* [ ] consciousness relation established if claimed
+* [ ] typed schema bound to artifact
+* [ ] identity + versioning implemented
+* [ ] scope envelope established
+* [ ] regime envelope established
+* [ ] temporal validity established
+* [ ] dependency topology established
+* [ ] provenance edges persisted
+* [ ] provenance ancestry validated
+* [ ] provenance independence assessed
+* [ ] competing hypotheses preserved where unresolved
+* [ ] causal claims typed and validated if present
+* [ ] negative cases covered
+* [ ] rollback basin demonstrated
+* [ ] executable binding established if enforcement claimed
+* [ ] [[ROUTING_POLICY_VALIDATION_RECEIPT]] resolved
+* [ ] [[AUTHZ_ENGINE_VALIDATION_RECEIPT]] resolved
+* [ ] artifact-specific validation receipt executed
+* [ ] unresolved critical gaps visible as `UNKNOWN/GAP`
+
+---
+
+# Part XIV — Gap Registry
+
+## 90. Critical gaps
+
+#gaps #gap/critical
+
+### GAP-01 — Master definition
+
+```yaml
+gap:
+  id: GAP_FULL_BRAIN_OS_MASTER_DEFINITION
+  class: CRITICAL
+  status: UNKNOWN/GAP
+  description: >
+    The native AMOS meaning of "Master" in
+    AMOS Full Brain OS Master Canon is not established.
+```
+
+### GAP-02 — Full Brain OS definition
+
+```yaml
+gap:
+  id: GAP_FULL_BRAIN_OS_MASTER_NATIVE_DEFINITION
+  class: CRITICAL
+  status: UNKNOWN/GAP
+  description: >
+    The native substantive definition of the
+    Full Brain OS Master framework is not established.
+```
+
+### GAP-03 — Base/Master relation
+
+```yaml
+gap:
+  id: GAP_FULL_BRAIN_OS_MASTER_BASE_RELATION
+  class: CRITICAL
+  status: UNKNOWN/GAP
+  description: >
+    The canonical relationship between
+    AMOS Full Brain OS Master Canon and
+    AMOS Full Brain OS Canon is not established.
+```
+
+### GAP-04 — Architecture
+
+```yaml
+gap:
+  id: GAP_FULL_BRAIN_OS_MASTER_ARCHITECTURE
+  class: CRITICAL
+  status: UNKNOWN/GAP
+```
+
+### GAP-05 — System boundary
+
+```yaml
+gap:
+  id: GAP_FULL_BRAIN_OS_MASTER_BOUNDARY
+  class: CRITICAL
+  status: UNKNOWN/GAP
+```
+
+### GAP-06 — Scope / regime
+
+```yaml
+gap:
+  id: GAP_FULL_BRAIN_OS_MASTER_SCOPE_REGIME
+  class: CRITICAL
+  status: UNKNOWN/GAP
+```
+
+### GAP-07 — Executable binding
+
+```yaml
+gap:
+  id: GAP_FULL_BRAIN_OS_MASTER_EXECUTABLE_BINDING
+  class: CRITICAL
+  status: UNKNOWN/GAP
+```
+
+### GAP-08 — Validation
+
+```yaml
+gap:
+  id: GAP_FULL_BRAIN_OS_MASTER_VALIDATION
+  class: CRITICAL
+  status: UNKNOWN/GAP
+```
+
+---
+
+## 91. Decision-relevant gaps
+
+#gap/decision_relevant
+
+```yaml
+decision_relevant_gaps:
+  master_authority: UNKNOWN/GAP
+  master_aggregation: UNKNOWN/GAP
+  master_precedence: UNKNOWN/GAP
+  master_supersession: UNKNOWN/GAP
+  cognition_relation: UNKNOWN/GAP
+  memory_relation: UNKNOWN/GAP
+  attention_relation: UNKNOWN/GAP
+  perception_relation: UNKNOWN/GAP
+  emotion_relation: UNKNOWN/GAP
+  reasoning_relation: UNKNOWN/GAP
+  learning_relation: UNKNOWN/GAP
+  decision_relation: UNKNOWN/GAP
+  agency_relation: UNKNOWN/GAP
+  metacognition_relation: UNKNOWN/GAP
+  consciousness_relation: UNKNOWN/GAP
+  causal_semantics: UNKNOWN/GAP
+  dependency_topology: UNKNOWN/GAP
+  provenance_independence: NOT_ESTABLISHED
+```
+
+---
+
+# Part XV — Worked Integrity Examples
+
+## 92. Worked example — Master title
+
+#worked_example #master
+
+Input:
+
+```text
+This is the Master Canon,
+therefore it governs AMOS Full Brain OS Canon.
+```
+
+Result:
+
+```text
+UNSUPPORTED
+```
+
+Reason:
+
+```text
+MASTER LABEL
+!=
+GOVERNS EDGE
+```
+
+Required evidence:
+
+```text
+VERIFIED NATIVE RELATION
+=
+GOVERNS
+```
+
+---
+
+## 93. Worked example — supersession
+
+#worked_example #supersession
+
+Input:
+
+```text
+The Master Canon supersedes AMOS Full Brain OS Canon.
+```
+
+Current result:
+
+```text
+UNKNOWN/GAP
+```
+
+Required:
+
+```text
+EXPLICIT SUPERSEDES EDGE
++
+VERSION LINEAGE
++
+EFFECTIVE EPOCH
++
+PROVENANCE
+```
+
+---
+
+## 94. Worked example — aggregation
+
+#worked_example #aggregation
+
+Input:
+
+```text
+The Master Canon aggregates all Full Brain OS components.
+```
+
+Current result:
+
+```text
+UNKNOWN/GAP
+```
+
+Required:
+
+```text
+NATIVE MASTER DEFINITION
++
+AGGREGATES EDGE
++
+COMPONENT REGISTRY
++
+BOUNDARY
+```
+
+---
+
+## 95. Worked example — completeness
+
+#worked_example #fullness
+
+Input:
+
+```text
+Full Brain OS covers every cognitive capability because it is "Full".
+```
+
+Result:
+
+```text
+UNSUPPORTED
+```
+
+Because:
+
+```text
+TITLE TOKEN "FULL"
+!=
+COMPLETENESS PROOF
+```
+
+---
+
+## 96. Worked example — biological brain
+
+#worked_example #biology
+
+Input:
+
+```text
+Full Brain OS Master models the complete human brain.
+```
+
+Current result:
+
+```text
+UNKNOWN/GAP
+```
+
+The title alone does not establish:
+
+```text
+BIOLOGICAL TARGET
++
+HUMAN TARGET
++
+COMPLETENESS
++
+MODEL MAPPING
++
+EMPIRICAL VALIDATION
+```
+
+---
+
+## 97. Worked example — runtime
+
+#worked_example #implementation
+
+Input:
+
+```text
+Full Brain OS Master is the running master operating system.
+```
+
+Current result:
+
+```text
+NOT_ESTABLISHED
+```
+
+Because:
+
+```text
+OS LABEL
+!=
+EXECUTABLE BINDING
+
+MASTER LABEL
+!=
+RUNTIME CONTROL
+```
+
+---
+
+## 98. Worked example — cognition relationship
+
+#worked_example #cognition
+
+Input:
+
+```text
+Full Brain OS Master is the parent of Cognition Master Canon.
+```
+
+Current result:
+
+```text
+UNKNOWN/GAP
+```
+
+Same segment and similar terminology do not establish hierarchy.
+
+---
+
+## 99. Worked example — provenance correlation
+
+#worked_example #provenance
+
+Suppose three files assert the same Master architecture but all descend from one master source.
+
+Then:
+
+```text
+3 FILES
+!=
+3 INDEPENDENT CONFIRMATIONS
+```
+
+Confidence must account for shared ancestry.
+
+---
+
+## 100. Worked example — competing native definitions
+
+#worked_example #competing
+
+Suppose:
+
+```text
+SOURCE A:
+MASTER = AGGREGATION ROOT
+
+SOURCE B:
+MASTER = SUPERSEDING CANON
+```
+
+Without lineage resolving the conflict:
+
+```text
+RESULT
+=
+COMPETING
+```
+
+Do not average the meanings or silently choose one.
+
+---
+
+## 101. Worked example — selective failure
+
+#worked_example #failure_recovery
+
+Suppose a verified Full Brain OS definition survives, but the claimed Master aggregation edge fails validation.
+
+Then:
+
+```text
+PRESERVE:
+FULL BRAIN OS DEFINITION
+
+INVALIDATE:
+MASTER AGGREGATION CLAIM
++
+DEPENDENT CONCLUSIONS
+```
+
+Do not invalidate unrelated cognition canon.
+
+---
+
+# Part XVI — Proof and Knowledge Capsules
+
+## 102. Current proof capsule
+
+#proof_capsule #rscf
+
+```yaml
+proof_capsule:
+
+  id:
+    PC_AMOS_FULL_BRAIN_OS_MASTER_CANON_PLACEHOLDER
+
+  claim: >
+    AMOS OS reserves an ADD-ONLY Canon artifact named
+    AMOS_FULL_BRAIN_OS_MASTER_CANON.md in the Cognition
+    Canon segment for the framework family identified as
+    AMOS Full Brain OS Master Canon.
+
+  claim_class:
+    DERIVED
+
+  epistemic_class:
+    AMOS_MODEL
+
+  premises:
+    - supplied metadata identifies the artifact
+    - supplied path places it in 01_CANON/03_COGNITION_CANON
+    - supplied ingestion_action is ADD_ONLY
+    - supplied status is PLACEHOLDER
+
+  evidence:
+    - supplied AMOS_FULL_BRAIN_OS_MASTER_CANON placeholder
+
+  provenance:
+    - AMOS_corpus
+
+  scope:
+    system: AMOS_OS
+    plane: 01_CANON
+    segment: 01_CANON/03_COGNITION_CANON
+
+  dependencies:
+    - AMOS_CANON_INGESTION_RULE
+    - LAW_HIERARCHY
+
+  competing_explanations:
+    master_semantics:
+      - consolidated reference
+      - aggregation root
+      - normalized master source
+      - superseding canon
+      - high-level index
+      - composite architecture
+      - orchestration model
+      - naming convention
+      - unrecovered native meaning
+
+  falsifiers:
+    - verified manifest establishes different artifact identity
+    - verified provenance establishes artifact is not part of AMOS corpus
+
+  confidence_ceiling:
+    source_supported
+
+  established:
+    artifact_identity: true
+    artifact_path: true
+    artifact_kind: true
+    framework_label: true
+    cognition_segment_membership: true
+    add_only_intent: true
+    placeholder_status: true
+    governance_boundaries: true
+
+  not_established:
+    master_definition: true
+    master_authority: true
+    master_aggregation: true
+    master_precedence: true
+    master_supersession: true
+    full_brain_os_definition: true
+    architecture: true
+    component_registry: true
+    interface_registry: true
+    system_boundary: true
+    cognition_relation: true
+    biological_equivalence: true
+    consciousness: true
+    causal_semantics: true
+    scope: true
+    regime: true
+    executable_binding: true
+    validation: true
+```
+
+---
+
+## 103. Canonical knowledge capsule
+
+#knowledge_capsule #canon
+
+**Class:** `DERIVED / AMOS_MODEL`
+
+The supplied source establishes an AMOS OS artifact named:
+
+**AMOS Full Brain OS Master Canon**
+
+located at:
+
+`01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md`
+
+with identifier:
+
+`amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon`
+
+and states:
+
+```yaml
+status: PLACEHOLDER
 canonical_status: UNKNOWN/GAP
+implementation_status: NOT_ESTABLISHED
+validation_status: NOT_ESTABLISHED
+executable_binding: NOT_ESTABLISHED
+ingestion_action: ADD_ONLY
+```
 
-RSCF-RELATIONS:
+It establishes:
 
-  - INDEXED_BY: [[00_HOME]]
+```text
+ARTIFACT IDENTITY
++
+ARTIFACT LOCATION
++
+CANON ARTIFACT KIND
++
+COGNITION CANON SEGMENT MEMBERSHIP
++
+FRAMEWORK LABEL
++
+ADD-ONLY INGESTION INTENT
++
+GOVERNANCE BOUNDARIES
++
+TARGET CANON-MUTATION SEMANTICS
++
+TARGET PROMOTION REQUIREMENTS
+```
 
-  - INDEXED_BY: [[AMOS_RSCF_NODES]]
+It does not establish:
 
-  - GOVERNED_BY: [[LAW_HIERARCHY]]
+```text
+MASTER AUTHORITY
+
+MASTER AGGREGATION
+
+MASTER PRECEDENCE
+
+MASTER SUPERSESSION
+
+MASTER COMPOSITION
+
+FULL BRAIN OS DEFINITION
+
+COMPLETENESS
+
+BIOLOGICAL BRAIN EQUIVALENCE
+
+ARCHITECTURE
+
+COMPONENT REGISTRY
+
+INTERFACE CONTRACTS
+
+STATE MODEL
+
+RELATION TO BASE FULL BRAIN OS CANON
+
+COGNITION RELATION
+
+MEMORY RELATION
+
+ATTENTION RELATION
+
+PERCEPTION RELATION
+
+EMOTION RELATION
+
+REASONING RELATION
+
+LEARNING RELATION
+
+DECISION RELATION
+
+AGENCY RELATION
+
+METACOGNITION RELATION
+
+CONSCIOUSNESS RELATION
+
+CAUSAL SEMANTICS
+
+SCOPE
+
+REGIME
+
+EXECUTABLE IMPLEMENTATION
+
+VALIDATION
+```
 
 ---
+
+# Part XVII — Canonical Invariants
+
+## 104. Canonical invariants
+
+#invariants #epistemic_integrity
+
+```text
+INTEGRITY > COMPLETENESS > FLUENCY > SPEED > TOKEN SAVINGS
+
+PLACEHOLDER != IMPLEMENTED
+
+ADDRESSABLE != VALIDATED
+
+DOCUMENTED != ENFORCED
+
+NAMED != DEFINED
+
+MODEL != OBSERVATION
+
+SOURCE_CLAIM != VERIFIED
+
+DERIVED != VERIFIED
+
+CANON_CANDIDATE != CANONICAL
+
+CANONICAL != EMPIRICAL_TRUTH
+
+CAPABILITY != AUTHORITY
+
+AUTHORIZATION != COMMIT
+
+PROPOSAL != COMMIT
+
+IMPLEMENTED != VALIDATED
+
+LOGGED != APPROVED
+
+UNKNOWN/GAP != PASS
+
+"MASTER" != AUTHORITY
+
+"MASTER" != AGGREGATOR
+
+"MASTER" != SUPERSET
+
+"MASTER" != SUPERSEDES
+
+"MASTER" != FINAL
+
+"MASTER" != PARENT
+
+"MASTER" != PRECEDENCE WINNER
+
+"MASTER" != SINGLE SOURCE OF TRUTH
+
+"FULL" != PROVEN COMPLETE
+
+"BRAIN" != BIOLOGICAL BRAIN
+
+"OS" != IMPLEMENTED OPERATING SYSTEM
+
+FULL BRAIN OS MASTER != BIOLOGICAL BRAIN REPLICA
+
+FULL BRAIN OS MASTER != HUMAN-EQUIVALENT INTELLIGENCE
+
+FULL BRAIN OS MASTER != CONSCIOUSNESS
+
+FULL BRAIN OS MASTER != SENTIENCE
+
+FULL BRAIN OS MASTER != AUTONOMOUS AUTHORITY
+
+COLLECTION != ARCHITECTURE
+
+ARCHITECTURE != INTEGRATION
+
+INTEGRATION != IMPLEMENTATION
+
+IMPLEMENTATION != VALIDATION
+
+LINKED != INTEGRATED
+
+REFERENCE != DEPENDENCY
+
+DEPENDENCY != AUTHORITY
+
+DEPENDENCY != CAUSATION
+
+STRUCTURAL SIMILARITY != CAUSATION
+
+STRUCTURAL SIMILARITY != BIOLOGICAL IDENTITY
+
+FUNCTIONAL SIMILARITY != MECHANISTIC IDENTITY
+
+PERSISTENCE != MEMORY
+
+ROUTING != ATTENTION
+
+INPUT != PERCEPTION
+
+OUTPUT != REASONING
+
+CHANGE != LEARNING
+
+INFERENCE != DECISION
+
+DECISION != ACTION
+
+COGNITIVE CAPABILITY != AGENCY
+
+AGENCY != AUTHORITY
+
+METACOGNITIVE MODEL != SELF-AWARENESS
+
+CONSCIOUSNESS MODEL != CONSCIOUSNESS
+
+HUMAN-LIKE OUTPUT != HUMAN-LIKE INTERNAL PROCESS
+
+BENCHMARK SUCCESS != GENERAL VALIDITY
+
+VALIDATED COMPONENTS != VALIDATED COMPOSITION
+
+REPETITION != INDEPENDENT CONFIRMATION
+
+NEWER != SUPERSEDING
+
+MORE DETAILED != MORE CANONICAL
+
+MORE COMPLEX != MORE VALID
+
+VALID @ R1 != AUTOMATICALLY VALID @ R2
+
+ONE FAILED PREMISE != GLOBAL INVALIDATION
+```
+
+---
+
+## 105. Minimum missing information
+
+#minimum_missing_information #critical_gap
+
+The minimum decision-changing evidence is:
+
+> [!danger]
+> A **verified native AMOS source** that explicitly defines **AMOS Full Brain OS Master** and its relationship to **AMOS Full Brain OS**, with source identity, version, provenance, and system boundary.
+
+Minimum:
+
+```text
+VERIFIED NATIVE SOURCE
++
+SOURCE IDENTITY
++
+SOURCE VERSION
++
+SOURCE PROVENANCE
++
+FULL BRAIN OS MASTER DEFINITION
++
+MEANING OF "MASTER"
++
+RELATION TO FULL BRAIN OS CANON
++
+SYSTEM BOUNDARY
+```
+
+Next priority:
+
+```text
+MEANING OF "FULL"
++
+MEANING OF "BRAIN"
++
+MEANING OF "OS"
++
+MASTER AUTHORITY SEMANTICS
++
+MASTER AGGREGATION SEMANTICS
++
+MASTER PRECEDENCE SEMANTICS
++
+MASTER SUPERSESSION SEMANTICS
++
+ARCHITECTURE
++
+COMPONENT REGISTRY
++
+INTERFACE CONTRACTS
++
+STATE MODEL
++
+COGNITION RELATION
++
+SCOPE
++
+REGIME
++
+DEPENDENCIES
++
+EXECUTABLE BINDING
++
+VALIDATION
+```
+
+Until these are established:
+
+```text
+NEVER_INVENT_CANON
+```
+
+remains controlling.
+
+---
+
+# Part XVIII — Status and Promotion
+
+## 106. Status matrix
+
+#status_matrix #canon_status
+
+| Dimension                          | Status           |
+| ---------------------------------- | ---------------- |
+| Artifact existence                 | SOURCE-SUPPORTED |
+| Artifact title                     | SOURCE-SUPPORTED |
+| Artifact path                      | SOURCE-SUPPORTED |
+| Artifact kind                      | SOURCE-SUPPORTED |
+| Framework label                    | SOURCE-SUPPORTED |
+| Cognition Canon placement          | SOURCE-SUPPORTED |
+| `artifact_id`                      | SOURCE-SUPPORTED |
+| `node_id`                          | SOURCE-SUPPORTED |
+| Identifier textual consistency     | SOURCE-SUPPORTED |
+| ADD-ONLY intent                    | SOURCE-SUPPORTED |
+| Placeholder status                 | SOURCE-SUPPORTED |
+| Governance boundaries              | SOURCE-SUPPORTED |
+| Target canon-operation semantics   | SOURCE-SUPPORTED |
+| Native Master definition           | UNKNOWN/GAP      |
+| Master authority                   | NOT_ESTABLISHED  |
+| Master aggregation                 | NOT_ESTABLISHED  |
+| Master precedence                  | NOT_ESTABLISHED  |
+| Master supersession                | NOT_ESTABLISHED  |
+| Native Full Brain OS definition    | UNKNOWN/GAP      |
+| Meaning of `Full`                  | UNKNOWN/GAP      |
+| Meaning of `Brain`                 | UNKNOWN/GAP      |
+| Meaning of `OS`                    | UNKNOWN/GAP      |
+| Proven completeness                | NOT_ESTABLISHED  |
+| Biological brain equivalence       | NOT_ESTABLISHED  |
+| Relation to Full Brain OS Canon    | UNKNOWN/GAP      |
+| Relation to Cognition Canon        | UNKNOWN/GAP      |
+| Relation to Cognition Master Canon | UNKNOWN/GAP      |
+| System boundary                    | UNKNOWN/GAP      |
+| Architecture                       | UNKNOWN/GAP      |
+| Component registry                 | UNKNOWN/GAP      |
+| Interface contracts                | UNKNOWN/GAP      |
+| State model                        | UNKNOWN/GAP      |
+| Memory relation                    | UNKNOWN/GAP      |
+| Attention relation                 | UNKNOWN/GAP      |
+| Perception relation                | UNKNOWN/GAP      |
+| Emotion relation                   | UNKNOWN/GAP      |
+| Reasoning relation                 | UNKNOWN/GAP      |
+| Learning relation                  | UNKNOWN/GAP      |
+| Decision relation                  | UNKNOWN/GAP      |
+| Agency relation                    | UNKNOWN/GAP      |
+| Metacognition relation             | UNKNOWN/GAP      |
+| Consciousness relation             | UNKNOWN/GAP      |
+| Causal semantics                   | UNKNOWN/GAP      |
+| Scope                              | UNKNOWN/GAP      |
+| Regime                             | UNKNOWN/GAP      |
+| Dependency topology                | UNKNOWN/GAP      |
+| Provenance independence            | NOT_ESTABLISHED  |
+| Kernel binding                     | NOT_ESTABLISHED  |
+| Control-plane binding              | NOT_ESTABLISHED  |
+| Executable binding                 | NOT_ESTABLISHED  |
+| Validation                         | NOT_ESTABLISHED  |
+| Empirical validity                 | NOT_ESTABLISHED  |
+
+---
+
+## 107. Canon promotion state
+
+#promotion #canonical_status
+
+```yaml
+promotion_state:
+
+  artifact_addressable:
+    true
+
+  placeholder_preserved:
+    true
+
+  master_definition_resolved:
+    false
+
+  master_authority_resolved:
+    false
+
+  master_aggregation_resolved:
+    false
+
+  master_precedence_resolved:
+    false
+
+  master_supersession_resolved:
+    false
+
+  full_brain_os_definition_resolved:
+    false
+
+  base_master_relation_resolved:
+    false
+
+  native_architecture_resolved:
+    false
+
+  system_boundary_resolved:
+    false
+
+  scope_resolved:
+    false
+
+  regime_resolved:
+    false
+
+  provenance_validated:
+    false
+
+  executable_binding:
+    false
+
+  validation_receipts_complete:
+    false
+
+  critical_gaps_remaining:
+    true
+
+  promotion_allowed:
+    false
+
+  canonical_status:
+    UNKNOWN/GAP
+```
+
+Current result:
+
+```text
+PRESERVE PLACEHOLDER
++
+CONTINUE NATIVE SOURCE INGESTION
++
+DO NOT PROMOTE
+```
+
+---
+
+## 108. Terminal canon guard
+
+#canon_guard #fail_closed
+
+```yaml
+AMOS_FULL_BRAIN_OS_MASTER_CANON_GUARD:
+
+  if_native_definition_missing:
+    result: UNKNOWN/GAP
+
+  if_master_semantics_missing:
+    result: UNKNOWN/GAP
+
+  if_base_master_relation_missing:
+    result: UNKNOWN/GAP
+
+  if_master_authority_unproven:
+    action: DO_NOT_GRANT_AUTHORITY
+
+  if_master_aggregation_unproven:
+    action: DO_NOT_ASSERT_AGGREGATION
+
+  if_master_precedence_unproven:
+    action: DO_NOT_ASSERT_PRECEDENCE
+
+  if_master_supersession_unproven:
+    action: DO_NOT_ASSERT_SUPERSESSION
+
+  if_identity_conflict:
+    result: COMPETING
+
+  if_lineage_conflict:
+    result: COMPETING
+
+  if_scope_missing_for_substantive_claim:
+    result: CONDITIONAL_OR_UNKNOWN
+
+  if_regime_missing_for_regime_sensitive_claim:
+    result: CONDITIONAL_OR_UNKNOWN
+
+  if_provenance_independence_unknown:
+    action: DO_NOT_COUNT_AS_INDEPENDENT_CONFIRMATION
+
+  if_causal_evidence_missing:
+    action: DO_NOT_ASSERT_CAUSATION
+
+  if_biological_mapping_unvalidated:
+    action: KEEP_AS_MODEL
+
+  if_executable_binding_missing:
+    action: DO_NOT_CLAIM_IMPLEMENTATION
+
+  if_validation_receipt_missing:
+    action: DO_NOT_CLAIM_VALIDATION
+
+  if_critical_gap_unresolved:
+    promotion: BLOCK
+
+  default_integrity_rule:
+    NEVER_INVENT_CANON
+```
+
+---
+
+# Part XIX — Obsidian Navigation
+
+## 109. Obsidian navigation
+
+#obsidian #navigation #moc
+
+### Parent MOCs
+
+* [[00_ROOT_MOC|AMOS MOC]]
+* [[00_HOME]]
+* [[03_COGNITION_CANON_MOC]]
+
+### Core indexes
+
+* [[AMOS_RSCF_NODES]]
+* [[LAW_HIERARCHY]]
+
+### Direct Full Brain OS family
+
+* [[AMOS_FULL_BRAIN_OS_CANON]]
+* [[AMOS_FULL_BRAIN_OS_MASTER_CANON]]
+
+### Related cognition artifacts
+
+* [[AMOS_COGNITION_CANON]]
+* [[AMOS_COGNITION_MASTER_CANON]]
+
+### Target infrastructure bindings
+
+* [[KERNEL_README]]
+* [[CONTROL_PLANE_README]]
+* [[OBSERVABILITY_README]]
+* [[OPERATIONS_README]]
+
+### Required validation receipts
+
+* [[ROUTING_POLICY_VALIDATION_RECEIPT]]
+* [[AUTHZ_ENGINE_VALIDATION_RECEIPT]]
+
+---
+
+# Part XX — RSCF Node
+
+## 110. RSCF Node
+
+#rscf_node #canon_node #full_brain_os_master
+
+```yaml
+RSCF-NODE:
+
+  node_id:
+    amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon
+
+  artifact_id:
+    amos_01_canon_03_cognition_canon_amos_full_brain_os_master_canon
+
+  node_type:
+    canon
+
+  path:
+    01_CANON/03_COGNITION_CANON/AMOS_FULL_BRAIN_OS_MASTER_CANON.md
+
+  origin_architect:
+    Trang Phan
+
+  steward:
+    Trang Phan
+
+  system:
+    AMOS OS
+
+  claim_class:
+    AMOS_MODEL
+
+  rscf_state:
+    placeholder
+
+  canonical_status:
+    UNKNOWN/GAP
+
+  implementation_status:
+    NOT_ESTABLISHED
+
+  validation_status:
+    NOT_ESTABLISHED
+
+  executable_binding:
+    NOT_ESTABLISHED
+
+  master_semantics:
+    UNKNOWN/GAP
+
+  master_authority:
+    NOT_ESTABLISHED
+
+  master_aggregation:
+    NOT_ESTABLISHED
+
+  master_precedence:
+    NOT_ESTABLISHED
+
+  master_supersession:
+    NOT_ESTABLISHED
+
+  full_brain_os_definition:
+    UNKNOWN/GAP
+
+  architecture:
+    UNKNOWN/GAP
+
+  scope:
+    UNKNOWN/GAP
+
+  regime:
+    UNKNOWN/GAP
+
+  provenance:
+    AMOS_corpus
+
+  provenance_independence:
+    NOT_ESTABLISHED
+
+  RSCF-RELATIONS:
+
+    - INDEXED_BY: "[[00_HOME]]"
+
+    - INDEXED_BY: "[[AMOS_RSCF_NODES]]"
+
+    - GOVERNED_BY: "[[LAW_HIERARCHY]]"
+
+    - MEMBER_OF: "[[03_COGNITION_CANON_MOC]]"
+
+    - RELATION_TO: "[[AMOS_FULL_BRAIN_OS_CANON]]"
+      relation_status: UNKNOWN/GAP
+
+    - RELATION_TO: "[[AMOS_COGNITION_CANON]]"
+      relation_status: UNKNOWN/GAP
+
+    - RELATION_TO: "[[AMOS_COGNITION_MASTER_CANON]]"
+      relation_status: UNKNOWN/GAP
+
+    - TARGET_INTERACTS_WITH: "[[KERNEL_README]]"
+
+    - TARGET_CONTROLLED_BY: "[[CONTROL_PLANE_README]]"
+
+    - TARGET_OBSERVED_BY: "[[OBSERVABILITY_README]]"
+
+    - TARGET_RECOVERED_BY: "[[OPERATIONS_README]]"
+
+    - TARGET_VALIDATED_BY: "[[ROUTING_POLICY_VALIDATION_RECEIPT]]"
+
+    - TARGET_VALIDATED_BY: "[[AUTHZ_ENGINE_VALIDATION_RECEIPT]]"
+```
+
+---
+
+# Part XXI — Final Integrity Rule
+
+## 111. Final integrity rule
+
+#integrity #never_invent_canon #fail_closed
+
+Until verified native Full Brain OS Master content is ingested:
+
+```text
+DO NOT INFER AUTHORITY FROM "MASTER"
+
+DO NOT INFER AGGREGATION FROM "MASTER"
+
+DO NOT INFER SUPERSESSION FROM "MASTER"
+
+DO NOT INFER PRECEDENCE FROM "MASTER"
+
+DO NOT INFER FINALITY FROM "MASTER"
+
+DO NOT INFER COMPLETENESS FROM "FULL"
+
+DO NOT INFER BIOLOGY FROM "BRAIN"
+
+DO NOT INFER EXECUTABLE SOFTWARE FROM "OS"
+
+DO NOT INFER A MASTER ARCHITECTURE
+FROM THE ARTIFACT TITLE
+
+DO NOT INVENT THE RELATIONSHIP
+TO AMOS FULL BRAIN OS CANON
+
+DO NOT INVENT COMPONENTS
+
+DO NOT INVENT SUBSYSTEMS
+
+DO NOT INVENT INTERFACES
+
+DO NOT INVENT STATE MACHINES
+
+DO NOT INVENT VARIABLES
+
+DO NOT INVENT EQUATIONS
+
+DO NOT INVENT COGNITION RELATIONS
+
+DO NOT INVENT MEMORY RELATIONS
+
+DO NOT INVENT ATTENTION RELATIONS
+
+DO NOT INVENT PERCEPTION RELATIONS
+
+DO NOT INVENT EMOTION RELATIONS
+
+DO NOT INVENT REASONING RELATIONS
+
+DO NOT INVENT LEARNING RELATIONS
+
+DO NOT INVENT DECISION RELATIONS
+
+DO NOT INVENT AGENCY RELATIONS
+
+DO NOT INVENT CONSCIOUSNESS RELATIONS
+
+DO NOT EQUATE ARCHITECTURAL SIMILARITY
+WITH BIOLOGICAL EQUIVALENCE
+
+DO NOT INFER CAUSATION
+FROM STRUCTURAL SIMILARITY
+
+DO NOT GENERALIZE BEYOND SCOPE
+
+DO NOT CROSS REGIMES
+WITHOUT REVALIDATION
+
+DO NOT COUNT SHARED-ANCESTRY SOURCES
+AS INDEPENDENT CONFIRMATION
+
+DO NOT IMPORT EXTERNAL RESEARCH
+AS NATIVE AMOS CANON
+
+DO NOT CLAIM IMPLEMENTATION
+
+DO NOT CLAIM VALIDATION
+
+DO NOT TREAT UNKNOWN/GAP AS PASS
+```
+
+Instead:
+
+```text
+PRESERVE SLOT
++
+PRESERVE IDENTITY
++
+PRESERVE PATH
++
+PRESERVE PROVENANCE
++
+PRESERVE GOVERNANCE BOUNDARIES
++
+PRESERVE UNKNOWN/GAP
++
+LOCATE VERIFIED NATIVE SOURCE
++
+RESOLVE MASTER SEMANTICS
++
+RESOLVE FULL BRAIN OS SEMANTICS
++
+RESOLVE BASE/MASTER RELATION
++
+RESOLVE FRAMEWORK IDENTITY
++
+RESOLVE LINEAGE
++
+RESOLVE SYSTEM BOUNDARY
++
+RESOLVE ARCHITECTURE
++
+RESOLVE COMPONENTS
++
+RESOLVE INTERFACES
++
+RESOLVE STATE SEMANTICS
++
+RESOLVE DEPENDENCIES
++
+BIND SCOPE
++
+BIND REGIME
++
+PRESERVE COMPETING INTERPRETATIONS
++
+VALIDATE NEGATIVE CASES
++
+DEMONSTRATE ROLLBACK
++
+EXECUTE REQUIRED RECEIPTS
++
+PROMOTE ONLY AFTER VALIDATION
+```
+
+---
+
 **MOC:** [[03_COGNITION_CANON_MOC]]
+
+**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[AMOS_FULL_BRAIN_OS_CANON]] · [[AMOS_COGNITION_CANON]] · [[AMOS_COGNITION_MASTER_CANON]]
+
+---
+
+**Origin Architect / Steward:** Trang Phan
+**System:** AMOS OS
+**Epistemic Class:** `AMOS_MODEL`
+**Canonical Status:** `UNKNOWN/GAP`
+**Implementation Status:** `NOT_ESTABLISHED`
+**Validation Status:** `NOT_ESTABLISHED`
+**Executable Binding:** `NOT_ESTABLISHED`
+
+#amos_os #amos_full_brain_os #amos_full_brain_os_master #amos_full_brain_os_master_canon #full_brain_os #full_brain_os_master #master_canon #cognition #cognition_canon #canon #rscf #provenance #lineage #scope #regime #validation #competing_hypotheses #unknown_gap #never_invent_canon
+
+```
+```

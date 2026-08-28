@@ -42,13 +42,20 @@ law_compliance:
 - L16
 - L17
 - L18
+license: MIT
 ---
-
 # Khung Trang — Quantum, Ontology & Computable Recursive Survival Dynamics
 
 ## Identity
 
-Origin architect: **Trang Phan**. Domain: trang. Parent: none. Epistemic class: SOURCE_CANON. H/M/L: H.
+Origin architect and steward: **Trang Phan**.
+
+This is a **parent skill** that consolidates 15 sub-skills into a single domain master.
+Following the skill-organizer best practice: fewer, richer skills beat many overlapping ones.
+A parent skill with clearly labeled sections is better than 15 separate shallow skills.
+
+**Epistemic class**: SOURCE_CLAIM (vault-sourced from `11_KNOWLEDGE/KHUNG_TRANG_QUANTUM_ONTOLOGY_COMPUTABLE_DYNAMICS_RESEARCH_MODEL.md` (content_hash: 67043ceb80559ca1)).
+
 ## When to Use
 
 - When reasoning about cascade collapse-recovery patterns in complex systems
@@ -105,11 +112,172 @@ Origin architect: **Trang Phan**. Domain: trang. Parent: none. Epistemic class: 
 
 ### Epistemic Boundary
 
-Research model and source claim, NOT verified physics and NOT AMOS canon. Mathematical expressions are proposed formalisms requiring operational definitions, dimensional analysis, simulation, empirical mapping, falsifiable predictions, and independent validation. Incomplete does not mean incorrect. HML mappings are MODEL — structural correspondence does not es
-- [[AGENT_TEMPLATE]]
+Research model and source claim, NOT verified physics and NOT AMOS canon. Mathematical expressions are proposed formalisms requiring operational definitions, dimensional analysis, simulation, empirical mapping, falsifiable predictions, and independent validation. Incomplete does not mean incorrect. HML mappings are MODEL — structural correspondence does not establish physical or causal equivalence. All constructs remain MODEL until operationalized and validated.
 
----
-**MOC:** [[amos-trang-framework-master_MOC]]
+
+## Consolidated Sub-Skills (15)
+
+This parent skill consolidates the following sub-skills. Each is a section within this domain:
+
+
+> **Reference**: See `references/khung_trang_architecture.md` (content_hash: bb01df8366f834bc) for the full Khung Trang architecture map (19-layer primary stack, operational subsystems, equation registry).
+
+
+> **Reference**: See `references/reality_grammar_equation.md` (content_hash: 3271e58f3cb7f684) for the Reality Grammar Equation v0 (reality grammar formalization, equation structure, grammar rules).
+
+
+> **Reference**: See `references/cosmo_brain_reasoning_os.md` (content_hash: f64479fe6dc5f58c) for the Cosmo Brain Reasoning OS by Trang Phan (reasoning OS architecture, Trang framework integration, brain-cosmo bridge).
+
+
+> **Reference**: See `references/full_phuong_phap_trang.md` (content_hash: 577cbc7cbd5507d7) for the Full Phương Pháp Trang (complete Trang methodology, framework operations, reasoning procedures).
+
+
+> **Reference**: See `references/trang_cascade.md` (content_hash: 9942a4c5314e58fc) for the Trang Cascade (cascade collapse-recovery, cascade dynamics, multi-level cascade analysis).
+
+
+> **Reference**: See `references/trang_empty_framework.md` (content_hash: be625676c2fa76ad) for the Trang Empty Framework (empty set framework, null-state formalization, ∅-based reasoning).
+
+
+> **Reference**: See `references/vault_domain_knowledge.md` (content_hash: cc0a6d4f5fbce99c) for additional vault-sourced domain knowledge.
+
+
+> **Reference**: See `references/khung_trang_formalization.md` (content_hash: 1008ef61a2c734f7) for the Khung Trang Formalization v0.1 (Trang framework formalization, formal spec, mathematical foundation).
+
+
+> **Reference**: See `references/trang_grand_system_codex.md` (content_hash: cc908e60a98af76c) for the Trang Grand System Codex (grand system, codex, master specification).
+
+
+> **Reference**: See `references/trang_grand_system_logic_spec.md` (content_hash: a9648c56047b08ae) for the Trang Grand System Full Logic Specification (full logic spec, formal logic, system specification).
+
+
+> **Reference**: See `references/trang_system_codex_meta_laws.md` (content_hash: c02d7bb06d452dae) for the Trang System Codex Meta-Laws (meta-laws, codex, system laws, governing principles).
+
+
+> **Reference**: See `references/kien_truc_trang.md` (content_hash: a054674295fd5b44) for the Kiến Trúc Trang (Trang architecture, Vietnamese architecture, system architecture).
+
+
+> **Reference**: See `references/khung_trang_language.md` (content_hash: 14c907955fb068dc) for the Khung Trang Language (Trang language, framework language, Vietnamese formal language).
+
+
+> **Reference**: See `references/khung_trang.md` (content_hash: 24f95a5f9f56a514) for the Khung Trang (Trang framework, Vietnamese framework, core framework).
+
+
+> **Reference**: See `references/phuong_phap_trang_restructure.md` (content_hash: be6fa08a507c0a42) for the Phương Pháp Trang Tái Cấu Trúc (Trang restructuring method, system restructure, Vietnamese method).
+
+
+> **Reference**: See `references/first_principle_reasoning_trang.md` (content_hash: cf716e0a84d97bbf) for the First Principle Reasoning theo Trang ∅ Framework (first principles, ∅ framework, foundational reasoning).
+
+
+> **Reference**: See `references/tpe_trang_prediction_engine.md` (content_hash: f765f3333d5461a2) for the TPE Trang Prediction Engine (prediction engine, Trang prediction, forecasting).
+
+
+> **Reference**: See `references/trang_master_equation_registry.md` (content_hash: 8ab1174a62e36f46) for the Trang Master Equation Registry (master equations, equation registry, Trang equations).
+
+
+> **Reference**: See `references/trang_empty_framework_complete.md` (content_hash: ad75799593c929eb) for the Trang ∅ Framework Complete Formalization (∅ framework, complete formalization, empty set).
+
+
+> **Reference**: See `references/tpe_official_manual.md` (content_hash: bf098a4eeac27199) for the TPE Official Manual (prediction engine manual, TPE manual, official guide).
+
+
+> **Reference**: See `references/tss_official_manual.md` (content_hash: d5d45824a089bc1d) for the TSS Official Manual (Trang System manual, TSS manual, system guide).
+
+
+> **Reference**: See `references/seven_cycles_trang_system.md` (content_hash: b2fe5fc1fcedb75e) for the Seven Cycles of Trang System (seven cycles, Trang cycles, system cycles).
+
+
+> **Reference**: See `references/trang_reality_architecture_corpus.md` (content_hash: ee3fb115d0135c1c) for the Trang Reality Architecture AMOS Corpus (reality architecture, AMOS corpus, Trang reality).
+
+
+> **Reference**: See `references/trangs_legacy.md` (content_hash: fdb05e141441c0e6) for the Trang's Legacy (Trang legacy, foundational work, intellectual heritage).
+
+
+> **Reference**: See `references/trang_dsc_submission_portfolio.md` (content_hash: c16e05ffce22fd5a) for the Doctor of Science Submission Portfolio Trang Phan (DSc, ScD, submission portfolio).
+
+
+> **Reference**: See `references/uap_trang_empty_framework.md` (content_hash: aaf43fe25d7bb90d) for the UAP Explanation via Trang ∅ Framework (UAP, Trang ∅, field explanation).
+
+
+> **Reference**: See `references/trang_system_codex_meta_laws_v2.md` (content_hash: 552a6fa99a705c37) for the Trang System Codex Meta-Laws v2 (meta-laws, codex, Trang system).
+
+
+> **Reference**: See `references/kien_truc_trang_v2.md` (content_hash: 35286a64651272c7) for the Kien Truc Trang v2 (Trang architecture, Vietnamese, system architecture).
+
+
+> **Reference**: See `references/khung_trang_language_v2.md` (content_hash: 5005bbb154a125f5) for the Khung Trang Language v2 (Trang language, framework language, Vietnamese).
+
+
+> **Reference**: See `references/full_phuong_phap_trang_v2.md` (content_hash: 226244d2b02aca5c) for the Full Phuong Phap Trang v2 (full Trang methodology, Vietnamese, complete method).
+
+
+> **Reference**: See `references/phuong_phap_trang_restructure_v2.md` (content_hash: e896c1f7d1b3b4d3) for the Phuong Phap Trang Restructure v2 (Trang restructuring, Vietnamese, system restructure).
+
+## Provenance
+
+- **Skill**: amos-trang-framework-master
+- **Source**: AMOS_OS Obsidian vault (`/Users/mac/Documents/AMOS_OS`)
+- **Vault source**: `11_KNOWLEDGE/KHUNG_TRANG_QUANTUM_ONTOLOGY_COMPUTABLE_DYNAMICS_RESEARCH_MODEL.md` (content_hash: 67043ceb80559ca1)
+- **_00_Cosmo brain source**: `trang/KHUNG_TRANG_FULL_MAX_DETAIL_ARCHITECTURE_EQUATIONS.md` (content_hash: 608ba8d64b0833f0)
+- **Origin architect**: Trang Phan
+- **Consolidation**: 15 sub-skills merged into domain master
+- **Merge date**: 2026-08-26
+
+## Merged Skills (Full List)
+
+- `amos-khung-trang-architecture`
+- `amos-khung-trang-equations`
+- `amos-khung-trang-equations-2`
+- `amos-khung-trang-formal-dynamics`
+- `amos-khung-trang-full-architecture`
+- `amos-khung-trang-full-equations`
+- `amos-khung-trang-master-equations`
+- `amos-trang-agent-python-verified`
+- `amos-trang-asea-adaptive-evolution`
+- `amos-trang-formal-dynamics`
+- `amos-trang-fpr-neural-mechanism`
+- `amos-trang-grand-system`
+- `amos-trang-ldai-formal-definition`
+- `amos-trang-seven-cycles`
+- `amos-trang-∅-framework-formalization`
+
+## Environment Requirements
+
+- Access to AMOS skill corpus for dependency resolution
+- Access to AMOS_OS Obsidian vault for vault-sourced content
+- No external API credentials required
+
+
+## Validation
+
+- **Consistency**: Results must not contain unresolved contradictions within the skill's scope (Law of Law).
+- **Epistemic class**: All claims must be labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
+- **Provenance**: Source path must be recorded for any derived claim.
+- **Anti-overreach**: No claim beyond the skill's declared scope and epistemic class.
+- **Bridge discipline**: Cross-domain bridges must be declared; symbolic equality ≠ empirical equality.
+- **Equation firewall**: Any equation used must carry a status tag (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
+- **Failure mode**: If validation fails, downgrade confidence, flag the gap, and escalate — do not force-fit.
+
+## Failure Modes
+
+- **Insufficient evidence**: If source material is insufficient, mark as UNKNOWN/GAP and fail closed — do not fabricate.
+- **Scope violation**: If the query falls outside the skill's declared scope, escalate to the parent skill or steward.
+- **Binding broken**: If 1:1:1 binding (skill→agent→workflow) is broken, flag routing mismatch and block execution.
+- **Validation failure**: If validation gates fail, downgrade confidence, flag the gap, and escalate — do not force-fit.
+- **Epistemic overreach**: If a claim exceeds the established evidence or epistemic class, retract and relabel.
+
+
+## Validation Gates
+
+- **G1 (Law of Law)**: No unresolved contradictions within the skill's scope.
+- **G2 (Epistemic class)**: All claims labeled SOURCE / DERIVED / AMOS_MODEL / EMPIRICAL — never claim beyond evidence.
+- **G3 (Provenance)**: Source path recorded for every derived claim.
+- **G4 (Anti-overreach)**: No claim beyond the skill's declared scope and epistemic class.
+- **G5 (Bridge discipline)**: Cross-domain bridges declared; symbolic equality ≠ empirical equality.
+- **G6 (Equation firewall)**: Any equation carries a status tag (ESTABLISHED_MATH / SOURCE_DERIVED / AMOS_MODEL / EMPIRICALLY_CALIBRATED / UNVERIFIED).
+- **G7 (1:1:1 binding)**: Skill binds to exactly one agent and one workflow.
+- **G8 (Failure mode)**: On validation failure, downgrade confidence, flag the gap, escalate — do not force-fit.
+- **G9 (Capability naming)**: Capabilities use `<domain>.<verb>` format, no hyphens, no `run_` prefix.
+- **G10 (Content integrity)**: Content hash matches, promotion state is production.
 
 ## Examples
 
@@ -126,13 +294,6 @@ Research model and source claim, NOT verified physics and NOT AMOS canon. Mathem
   - **Output**: Structured result with epistemic labels and provenance
 
 
-## Validation Gates
-
-- **L0 Integrity**: All structural elements accounted for; no silent gaps
-- **L1 Epistemic**: Every claim tagged with epistemic class (SOURCE_CLAIM / DERIVED / AMOS_MODEL)
-- **L5 Scope**: Analysis confined to declared scope and domain
-- **L7 Authority**: No autonomous action beyond authority boundary
-
 ## Anti-Patterns
 
 - **Do not use** for tasks outside the trang domain
@@ -144,7 +305,7 @@ Research model and source claim, NOT verified physics and NOT AMOS canon. Mathem
 
 ## Composition
 
-- **Parent**: `none` — routes to this skill when trang specialization is needed
+- **Parent**: `[[none]]` — routes to this skill when trang specialization is needed
 - **Peers**: Other skills in the `trang` domain may be composed in sequence
 - **Orchestrator**: The parent skill or `AMOS_HOME` orchestrates routing
 - **Workflow**: Each skill has a corresponding workflow in `08_WORKFLOWS/`
@@ -178,12 +339,9 @@ Research model and source claim, NOT verified physics and NOT AMOS canon. Mathem
 - **On drift**: Trigger drift alignment via `amos-ai-drift-alignment-governor`
 
 
-## Do not use
 
-- For generic reality analysis outside the Trang framework
-- To claim empirical validation of cascade or collapse theories
-- As a substitute for domain-specific reality or ontology evidence
-- Outside Trang framework domain reasoning
+
+See `references/detailed-content.md` for detailed amos canon grounding.
 
 ## References
 
@@ -201,7 +359,6 @@ Research model and source claim, NOT verified physics and NOT AMOS canon. Mathem
 - `references/phuong_phap_trang_restructure.md` — loaded on demand
 - `references/phuong_phap_trang_restructure_v2.md` — loaded on demand
 - `references/reality_grammar_equation.md` — loaded on demand
-- `references/references_MOC.md` — loaded on demand
 - `references/seven_cycles_trang_system.md` — loaded on demand
 - `references/tpe_official_manual.md` — loaded on demand
 - `references/tpe_trang_prediction_engine.md` — loaded on demand
@@ -220,23 +377,14 @@ Research model and source claim, NOT verified physics and NOT AMOS canon. Mathem
 - `references/uap_trang_empty_framework.md` — loaded on demand
 - `references/vault_domain_knowledge.md` — loaded on demand
 - `[[amos-trang-framework-master_MOC]]` — skill Map of Content
-- `none` — parent skill
+- `[[none]]` — parent skill
 - `[[amos-trang-framework-master-workflow]]` — corresponding workflow
-- `amos-trang-framework-master-agent` — corresponding agent
----
+- `[[amos-trang-framework-master-agent]]` — corresponding agent
 
-**Related:** [[00_HOME]] · [[AMOS_RSCF_NODES]] · [[LAW_HIERARCHY]] · [[07_SKILLS_MOC]] · [[references_MOC]]
 
-**MOC:** [[07_SKILLS_MOC]]
+## Do not use
 
-**Trang Framework:** [[TRANG_FRAMEWORK_RECURSIVE_ONTOLOGY_DYNAMICS]]
-
----
-RSCF-NODE
-node_id: amos-trang-framework-master
-node_type: skill
-path: 07_SKILLS/amos-trang-framework-master/SKILL.md
-RSCF-RELATIONS:
-- INDEXED_BY: [[00_HOME]]
-- INDEXED_BY: [[AMOS_RSCF_NODES]]
-- CHILD_OF: [[07_SKILLS_MOC]]
+- For generic reality analysis outside the Trang framework
+- To claim empirical validation of cascade or collapse theories
+- As a substitute for domain-specific reality or ontology evidence
+- Outside Trang framework domain reasoning

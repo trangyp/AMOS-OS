@@ -42,6 +42,7 @@ law_compliance:
 parent_skill: amos-canon-universe-master
 domain: canon
 description: AMOS 7-Part Universe Canon — Persistence Canon auditing structural completeness across 7 parts (Constraint, Flow, Structure, Enforcement, Time, Adaptation, Termination). Use when auditing whether a theory/system/institution is structurally complete, analyzing why a system emerges/operates/changes/survives/collapses/recovers, identifying the Flow gap (Part II), or mapping persistence logic. Use whenever the user mentions 7-part canon, persistence, structural completeness, system lifecycle, collapse, recovery, or universe canon — even without explicitly asking for '7-part'. Do not use for for generic tasks outside canon/universe domain (canon reasoning, universe-level analysis).
+license: MIT
 ---
 
 # AMOS 7-Part Universe Canon — Persistence Canon

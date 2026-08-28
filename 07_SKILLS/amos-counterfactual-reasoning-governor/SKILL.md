@@ -43,6 +43,7 @@ law_compliance:
 - L17
 - L18
 - L24
+license: MIT
 ---
 
 # Counterfactual Reasoning Governor

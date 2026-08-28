@@ -41,6 +41,7 @@ law_compliance:
 - L6
 - L16
 - L17
+license: MIT
 ---
 
 # Fx Conformal Tail Risk Control Rscf Engine

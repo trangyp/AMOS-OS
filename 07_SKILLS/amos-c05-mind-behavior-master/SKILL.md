@@ -45,6 +45,7 @@ rscf:
   canonical_status: DOMAIN_KNOWLEDGE_WITH_RESEARCH_BRIDGES
   node_id: amos_c05_mind_behavior_master_knowledge
   node_type: note
+license: MIT
 ---
 
 # AMOS C05 — Mind & Behavior Master Knowledge

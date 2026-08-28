@@ -44,6 +44,7 @@ law_compliance:
 - L16
 - L17
 - L18
+license: MIT
 ---
 
 # Core19 Logic Kernel

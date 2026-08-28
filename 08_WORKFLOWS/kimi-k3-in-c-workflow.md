@@ -62,3 +62,7 @@ tags:
 - Can be invoked by amos-c10-tech-engineering-master for C inference engine tasks.
 - Can delegate to amos-os-runtime-master for runtime execution monitoring.
 - No delegation to non-AMOS skills.
+
+## Related
+
+- [[08_WORKFLOWS_MOC]]

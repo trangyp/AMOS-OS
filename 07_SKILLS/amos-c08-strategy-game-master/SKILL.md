@@ -42,6 +42,7 @@ law_compliance:
 - L16
 - L17
 - L18
+license: MIT
 ---
 
 # AMOS C08 — Strategy, Game Theory & Negotiation Master Knowledge

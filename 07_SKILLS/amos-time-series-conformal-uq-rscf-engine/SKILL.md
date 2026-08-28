@@ -47,6 +47,7 @@ law_compliance:
 - L18
 - L19
 - L22
+license: MIT
 ---
 
 # Time Series Conformal Uq Rscf Engine
