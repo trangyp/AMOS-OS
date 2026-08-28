@@ -2953,3 +2953,5 @@ i = (NBI × NEI × SI × BEI)^(1/4)
 ```
 
 That distinction should now be invariant across `AMOS_X_UBI.md` and `AMOS_X_UBI_MATRIX.md`. The corpus also contains separate UBI × NeuroSyncAI integration artifacts, including a recently updated copy dated August 26–27, 2026; those are useful cross-framework provenance but should remain separate from the native UBI-definition ancestry.
+
+```

@@ -43,6 +43,16 @@ Vault-generated from law stack enforcement research (2026-08-25)
 ## Epistemic Boundary
 This skill enforces the **Law of Law™/Rule of 2™/Rule of 4™** — the most-cited framework in the vault (official manual 743 lines) with ZERO executable enforcement previously. Created to fill the G3 'Law Stack' gate which had no defined checks. Contradictory drafts short-circuit: LoL→R2→R4 order must be preserved, and R4 quadrant completeness requires declared canonical family (UBI/TSS/PSI/QLS).
 
+## Examples
+
+- **Scenario**: User says "Does this new rule follow the law hierarchy?"
+  - **Input**: Draft law proposal
+  - **Output**: LoL→R2→R4 gate sequence check; if R2 binary contrast missing or R4 quadrant incomplete, flag as gate failure with specific violation
+
+- **Scenario**: User says "Can we skip Rule of 2 for this emergency policy?"
+  - **Input**: Request to bypass canonical order
+  - **Output**: REJECTED — canonical order LoL→R2→R4 is non-negotiable; emergency policies still require binary contrast and quadrant completeness
+
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme

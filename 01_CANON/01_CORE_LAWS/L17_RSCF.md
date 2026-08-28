@@ -5227,3 +5227,5 @@ VERIFIED EMPIRICAL REALITY
 ```
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
+
+```

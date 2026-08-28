@@ -40,6 +40,16 @@ This skill directly addresses the **genuine gap** identified in the 7-Part Canon
 ## Law Stack Bridge
 Flow (Part II) maps to the Law Stack's Rule of 2™ as the named binary attractor — dual-frame test with rejection rationale. Rubber-stamp fails. Flow persistence depends on enforcement mechanisms (Part IV) maintaining the dual-frame test passing.
 
+## Examples
+
+- **Scenario**: User says "Why does power dissipate in this organization?"
+  - **Input**: System with asserted power but no flow characterization
+  - **Output**: Flow analysis identifying bottleneck (decision approval queue), leakage (unrecorded side-channels), conversion efficiency (input→output ratio), tagged AMOS_MODEL
+
+- **Scenario**: User says "Our supply chain throughput is degrading"
+  - **Input**: Throughput degradation claim without structural characterization
+  - **Output**: Flow canon analysis mapping input→transformation→output stages, identifying bottleneck stage and leakage points, recommendations tagged context-dependent
+
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme

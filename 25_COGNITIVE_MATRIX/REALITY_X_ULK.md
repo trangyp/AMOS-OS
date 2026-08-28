@@ -228,3 +228,5 @@ PRE-SYMBOLIC REALITY SPINE         ULK LOGIC OPERATORS (ALUs)         DETERMINIS
 • Potential (P)                    • Identity & Distinction ALU       • Emits verified state
 • Distinction (D)                  • Relational Tensor ALU              transitions (S_{t+1})
 • Relation (R)                     • Constraint Licensing ALU           without symbolic drift
+
+```

@@ -3014,3 +3014,5 @@ NOT_ESTABLISHED
 **Promotion rule:** the next valid step is not to invent the missing CAS theory. It is to resolve a native AMOS source that explicitly defines `CAS`, establish its identity/version/lineage, normalize that material into this ADD-ONLY slot, preserve competing sources where necessary, and only then evaluate promotion from `PLACEHOLDER` toward populated canon.
 
 ```
+
+```

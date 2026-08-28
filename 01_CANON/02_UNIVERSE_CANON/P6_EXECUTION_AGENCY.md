@@ -5536,3 +5536,5 @@ claim_class: AMOS_MODEL
 ---
 **MOC:** [[02_UNIVERSE_CANON_MOC]]
 ```
+
+```

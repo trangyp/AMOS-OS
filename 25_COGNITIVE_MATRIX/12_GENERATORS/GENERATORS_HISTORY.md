@@ -3069,3 +3069,4 @@ claim_class: AMOS_MODEL
 ---
 **MOC:** [[12_GENERATORS_MOC]]
 
+```

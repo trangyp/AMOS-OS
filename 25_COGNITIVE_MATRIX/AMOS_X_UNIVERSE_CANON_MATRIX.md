@@ -3023,3 +3023,5 @@ while the submitted physical → pre-symbolic → biological → logic → cogni
 ---
 
 **Related:** [[25_COGNITIVE_MATRIX_MOC]]
+
+```

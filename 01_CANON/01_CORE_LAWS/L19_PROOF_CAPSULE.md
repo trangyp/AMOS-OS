@@ -5149,3 +5149,5 @@ confidence_ceiling:
 until authoritative proof-capsule canon supplies discriminating validation.
 
 **Conclusion class: CONDITIONAL / AMOS_MODEL.**
+
+```

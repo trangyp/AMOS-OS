@@ -3667,3 +3667,4 @@ not simply:
 ---
 **MOC:** [[12_GENERATORS_MOC]]
 
+```

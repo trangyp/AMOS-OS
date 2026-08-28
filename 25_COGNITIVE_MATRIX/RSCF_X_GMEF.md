@@ -259,3 +259,5 @@ PROPOSED SYSTEM MUTATION (μ)       RSCF INVARIANT AUDITOR            COMMIT / R
 
 • Code / Prompt / Skill Change     • Validates proof preservation    • Emits signed evolution
 • Structural re-weighting            and non-compensatory debt         receipt or triggers S₀
+
+```

@@ -82,6 +82,16 @@ The 7-part canon's Enforcement (Part IV) directly gates the AMOS_OS Law Stack:
 - Rule of 2™ → Flow characterization enables dual-frame test
 - Rule of 4™ → Quadrant completeness after Flow + Structure + Enforcement are all first-class
 
+## Examples
+
+- **Scenario**: User says "Is this theory of consciousness structurally complete?"
+  - **Input**: A theory claiming to explain consciousness
+  - **Output**: 7-part audit: Constraint ✓, Flow ✓, Structure ✓, Enforcement ✗ (no mechanism), Time ✓, Adaptation ✓, Termination ✗ — flagged as structurally incomplete, 2 parts missing
+
+- **Scenario**: User says "Why did this civilization collapse?"
+  - **Input**: Historical collapse inquiry
+  - **Output**: 7-part persistence analysis mapping all 7 parts to collapse timeline, identifying Termination (Part VII) as the trigger and Enforcement (Part IV) decay as root cause
+
 ## References
 - [[references]] — session-specific detail and authoritative sources
 - references/README — references subdirectory readme
