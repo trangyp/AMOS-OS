@@ -1,8 +1,3 @@
-The current Drive note confirms the State-plane nucleus: authoritative state records/state-versioned artifacts, sibling `STATE_STATE_CONTRACT`, fail-closed handling, proposal/commit separation, dependency-scoped invalidation, rollback/receipt discipline, and the stated PARTIAL executable-binding gap.  The sibling contract also explicitly carries `AMOS_MODEL`, `CONDITIONAL`, and `PARTIAL` status, so the expanded note below does **not** promote the State plane to executed/verified implementation. 
-
-Here is the full **Obsidian-ready** content with dense tagging and source-preserving semantics:
-
-````markdown
 ---
 title: "STATE README"
 aliases:
@@ -4285,4 +4280,3 @@ RSCF-RELATIONS:
 ```
 
 This preserves the actual source boundary: the current `STATE_README.md` itself says its role is orientation and that normative load-bearing content belongs in sibling contracts; it also explicitly keeps executable binding `PARTIAL`. :contentReference[oaicite:2]{index=2}
-```

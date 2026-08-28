@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "AMOS Full Brain OS Master Canon"
 type: canon
@@ -4820,6 +4819,3 @@ PROMOTE ONLY AFTER VALIDATION
 **Executable Binding:** `NOT_ESTABLISHED`
 
 #amos_os #amos_full_brain_os #amos_full_brain_os_master #amos_full_brain_os_master_canon #full_brain_os #full_brain_os_master #master_canon #cognition #cognition_canon #canon #rscf #provenance #lineage #scope #regime #validation #competing_hypotheses #unknown_gap #never_invent_canon
-
-```
-```

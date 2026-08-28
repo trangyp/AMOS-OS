@@ -56,3 +56,7 @@ Per `01_CANON/01_CORE_LAWS/COLLAPSE_CANON.md`:
 - **State reduction**: Collapse reduces competing states to one only when evidence discriminates
 - **Finality**: Finalized state has decision receipt with epoch and digest
 - **Recovery**: Collapsed state retains recovery path if reversibility is preserved
+
+## Related
+
+- [[_MOC]]

@@ -1,4 +1,3 @@
-````markdown
 ---
 title: "ATOMIC_MULTI_RSCF Law (Redirect)"
 aliases:
@@ -2242,6 +2241,3 @@ NO FABRICATED CANON.
 ---
 
 00_ROOT_MOC|AMOS MOC
-
-```
-```

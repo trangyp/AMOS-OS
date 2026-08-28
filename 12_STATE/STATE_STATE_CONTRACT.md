@@ -1,6 +1,3 @@
-Yes — below is the **full Obsidian-ready `STATE_STATE_CONTRACT.md`**, expanded from your supplied contract nucleus while preserving the explicit boundaries: `AMOS_MODEL`, canonical status `CONDITIONAL`, implementation `PARTIAL`, and subsystem-local runtime enforcement still `UNKNOWN/GAP`. I am not treating other State artifacts found in the corpus as proof that this specific contract is executed; the corpus does contain separate authoritative-state and state-contract artifacts, which supports keeping those concepts explicitly linked rather than collapsing them. 
-
-````markdown
 ---
 title: "STATE STATE CONTRACT"
 aliases:
@@ -4765,4 +4762,3 @@ RSCF-RELATIONS:
 ```
 
 The key boundary remains unchanged from your seed: the `19/19` routing and `17/17` authz validators are **patterns, not validation evidence for this State contract**. Likewise, concepts such as MVCC/CAS, atomic multi-RSCF reasoning, causal-epoch finality, and shard-local finalization above are explicitly architecture/model semantics rather than claims of a verified distributed runtime.
-```

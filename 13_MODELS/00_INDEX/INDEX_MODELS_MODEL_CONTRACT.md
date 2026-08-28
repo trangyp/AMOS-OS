@@ -1,6 +1,3 @@
-Below is the **full-max Obsidian-ready `INDEX_MODELS_MODEL_CONTRACT.md`** expansion. I preserve your supplied nucleus as source-grounded; the deeper indexing, model-governance, provenance, RSCF, versioning, validation, and failure semantics are marked as normalized AMOS semantics where they are not directly established by the seed.
-
-````markdown
 ---
 title: "INDEX MODELS MODEL CONTRACT"
 aliases:
@@ -4342,6 +4339,3 @@ RSCF-RELATIONS:
 ---
 
 **MOC:** [[00_INDEX_MOC]]
-
-```
-```

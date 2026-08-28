@@ -28,19 +28,29 @@ Content catalog for the AMOS LLM Wiki. Updated on every ingest, query, and lint.
 
 | Page | Summary |
 |------|---------|
-| | |
+| [[llm_wiki_pattern]] | The compounding-knowledge wiki architecture |
 
 ## Entities
 
 | Page | Summary |
 |------|---------|
-| | |
+| [[AMOS_LLM_WIKI]] | Schema and directory layout for the AMOS LLM Wiki |
+| [[LLM_WIKI_MOC]] | Map of Content for the wiki subsystem |
+| [[LLM_WIKI_INDEX]] | This content catalog |
+| [[LLM_WIKI_LOG]] | Chronological activity log |
 
 ## Syntheses
 
 | Page | Summary |
 |------|---------|
-| | |
+| [[karpathy_llm_wiki_summary]] | AMOS interpretation of Karpathy's gist |
+| [[amos_llm_wiki_operations]] | Ingest, query, lint, and clip for the AMOS wiki |
+
+## Tools
+
+| Page | Summary |
+|------|---------|
+| [[AMOS_LLM_WIKI_TOOL]] | Obsidian Web Clipper, qmd, grep, Dataview guide |
 
 ## Activity
 - [[LLM_WIKI_LOG]] — Chronological log
