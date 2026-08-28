@@ -611,9 +611,9 @@ class CognitiveMatrixEngine:
             freshness_horizon_tau=obs.freshness_horizon_tau,
             status=MemoryStatus.PROPOSED,
         )
-        gate, gwhy = self.L21_apply(cell, budget=budget)     # L07 inside L21 gate
-        trace["L07"] = gate.value
-        trace["L21"] = gate.value
+        outcome = self.L21_apply(cell, budget=budget)        # L07 inside L21 gate
+        trace["L07"] = outcome.value
+        trace["L21"] = outcome.value
 
         # L22 Consolidation of the committed memory (if any)
         committed = next((m for m in self.state.memories
