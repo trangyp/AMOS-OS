@@ -612,8 +612,16 @@ class CognitiveMatrixEngine:
             status=MemoryStatus.PROPOSED,
         )
         outcome = self.L21_apply(cell, budget=budget)        # L07 inside L21 gate
-        trace["L07"] = outcome.value
-        trace["L21"] = outcome.value
+        # Map learning outcome (which already ran L07's write gate) to a
+        # verdict-shaped trace entry for uniform downstream reasoning.
+        _l21_to_verdict = {
+            LearningOutcome.APPLIED: Verdict.PASS,
+            LearningOutcome.NO_CHANGE: Verdict.CONDITIONAL,
+            LearningOutcome.BLOCKED: Verdict.FAIL,
+            LearningOutcome.UNKNOWN: Verdict.UNKNOWN,
+        }
+        trace["L07"] = _l21_to_verdict[outcome].value
+        trace["L21"] = _l21_to_verdict[outcome].value
 
         # L22 Consolidation of the committed memory (if any)
         committed = next((m for m in self.state.memories
