@@ -1,0 +1,277 @@
+name: Skill Audit
+
+# AMOS Skill Suite CI — validates all skills, agents, and workflows.
+#
+# Inspired by SOTA repos:
+#   - agent-ecosystem/skill-validator: pre-commit hook, per-platform schema
+#   - moonrunnerkc/skillcheck: frontmatter, sizing, references, capability graph
+#   - bitflight-devops/skilllint: GitHub Action, platform adapters, auto-fix
+#   - kriptoburak/agent-skill-validator: multi-ecosystem, registry compatibility
+#   - arash77/github-actions-skill: least-privilege, concurrency, timeout guards
+#   - Kevinweisl/claude-skills-cicd: lint+test, dependency audit, security scan
+
+on:
+  push:
+    branches: [main, develop]
+    paths:
+      - '.devin/skills/**'
+      - '07_SKILLS/**'
+      - 'scripts/**'
+      - 'skills-lock.json'
+  pull_request:
+    branches: [main]
+    paths:
+      - '.devin/skills/**'
+      - '07_SKILLS/**'
+      - 'scripts/**'
+      - 'skills-lock.json'
+  schedule:
+    - cron: '0 6 * * 1'  # Weekly Monday 06:00 UTC
+
+concurrency:
+  group: skill-audit-${{ github.ref }}
+  cancel-in-progress: true
+
+env:
+  PYTHON_VERSION: '3.12'
+  TIMEOUT_MINUTES: 10
+
+jobs:
+  validate:
+    name: Validate Skills
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run structural validation (L1-L3)
+        run: |
+          python3 scripts/validate.py --skills-dir 07_SKILLS 2>&1 | tee validate.log
+          # Fail if any P1 errors
+          if grep -q "P1 errors: [1-9]" validate.log; then
+            echo "::error::P1 validation errors found"
+            exit 1
+          fi
+
+      - name: Run vault graph audit
+        run: python3 scripts/vault_graph_audit.py 2>&1 || true
+
+      - name: Upload validation log
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: validation-log
+          path: validate.log
+          retention-days: 30
+
+  security:
+    name: Security Scan
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run security scanner (40 patterns, 17 categories)
+        run: |
+          python3 scripts/skill_security_scanner.py --skills-dir 07_SKILLS 2>&1 | tee security.log
+          # Fail if any critical findings
+          if grep -q "critical  : [1-9]" security.log; then
+            echo "::error::Critical security findings detected"
+            exit 1
+          fi
+
+      - name: Upload security report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: security-report
+          path: |
+            security.log
+            *.sarif
+          retention-days: 30
+
+  integrity:
+    name: Lock File Verification
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Verify skill integrity lock file
+        run: |
+          python3 scripts/skill_integrity_lock.py --skills-dir 07_SKILLS --lock-file skills-lock.json --verify 2>&1 | tee lock.log
+          # Fail if any mismatches
+          if grep -q "Mismatched:.*[1-9]" lock.log; then
+            echo "::error::Lock file mismatch — run skill_integrity_lock.py --output skills-lock.json"
+            exit 1
+          fi
+
+  dependency-graph:
+    name: Dependency Graph
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run dependency graph analysis
+        run: |
+          python3 scripts/skill_dependency_graph.py --skills-dir 07_SKILLS 2>&1 | tee deps.log
+          # Fail if cycles detected
+          if grep -qi "cycle" deps.log; then
+            echo "::error::Dependency cycle detected"
+            exit 1
+          fi
+
+  token-budget:
+    name: Token Budget Analysis
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run token budget analyzer
+        run: python3 scripts/token_budget_analyzer.py --skills-dir 07_SKILLS 2>&1 | tee token-budget.log || true
+
+      - name: Upload token budget report
+        uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: token-budget-report
+          path: token-budget.log
+          retention-days: 30
+
+  eval-harness:
+    name: Eval Harness Check
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Generate eval scaffolding summary
+        run: python3 scripts/skill_eval_harness.py --skills-dir 07_SKILLS --summary 2>&1 | tee eval.log || true
+
+  version-check:
+    name: Version & Manifest Check
+    runs-on: ubuntu-latest
+    timeout-minutes: ${{ env.TIMEOUT_MINUTES }}
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Run version manager summary
+        run: python3 scripts/skill_version_manager.py --skills-dir 07_SKILLS --summary 2>&1 | tee version.log
+
+      - name: Check for stale skills (version drift)
+        run: |
+          python3 scripts/skill_version_manager.py --skills-dir 07_SKILLS --stale 2>&1 | tee stale.log
+          if grep -q "drift" stale.log | grep -v "None"; then
+            echo "::warning::Stale skills detected — manifest version != frontmatter version"
+          fi
+
+  bom-check:
+    name: BOM & Encoding Check
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    permissions:
+      contents: read
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: ${{ env.PYTHON_VERSION }}
+
+      - name: Check for BOM characters
+        run: |
+          python3 -c "
+          from pathlib import Path
+          boms = [str(f) for f in Path('07_SKILLS').rglob('*.md') if open(f,'rb').read(3) == b'\xef\xbb\xbf']
+          if boms:
+            print('::error::BOM characters found:')
+            for b in boms:
+              print(f'  {b}')
+            exit(1)
+          print('No BOM characters found.')
+          "
+
+  summary:
+    name: Audit Summary
+    runs-on: ubuntu-latest
+    needs: [validate, security, integrity, dependency-graph, token-budget, eval-harness, version-check, bom-check]
+    if: always()
+    timeout-minutes: 5
+    permissions:
+      contents: read
+      pull-requests: write
+    steps:
+      - name: Audit Summary
+        run: |
+          echo "## Skill Audit Summary" >> $GITHUB_STEP_SUMMARY
+          echo "" >> $GITHUB_STEP_SUMMARY
+          echo "| Check | Status |" >> $GITHUB_STEP_SUMMARY
+          echo "|-------|--------|" >> $GITHUB_STEP_SUMMARY
+          echo "| Validate | ${{ needs.validate.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Security | ${{ needs.security.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Integrity | ${{ needs.integrity.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Dependencies | ${{ needs.dependency-graph.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Token Budget | ${{ needs.token-budget.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Eval Harness | ${{ needs.eval-harness.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| Version | ${{ needs.version-check.result }} |" >> $GITHUB_STEP_SUMMARY
+          echo "| BOM Check | ${{ needs.bom-check.result }} |" >> $GITHUB_STEP_SUMMARY
