@@ -471,3 +471,5 @@ rscf:
 
 ---
 **Parent:** [[AMOS_HOME]]
+
+- [[amos-7-part-universe-canon-workflow]]
