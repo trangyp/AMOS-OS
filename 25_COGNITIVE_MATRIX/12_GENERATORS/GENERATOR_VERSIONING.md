@@ -24,6 +24,7 @@ tags:
   - note
   - rscf
   - versioning
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -3981,3 +3982,4 @@ That prevents silent Generator drift from invalidating provenance, tests, valida
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
+

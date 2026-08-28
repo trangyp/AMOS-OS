@@ -35,6 +35,7 @@ tags:
   - governance
   - rscf
   - canon/universe
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -3885,3 +3886,4 @@ RSCF-RELATIONS:
 ```
 
 Critical gap preserved: the supplied placeholder does not contain the native substantive definition of **CORE-19**, so I have not assigned one. The expansion establishes the ingestion, RSCF, provenance, scope/regime, dependency, validation, recovery, and anti-fabrication contracts around the reserved law slot without converting architectural inference into canon.
+

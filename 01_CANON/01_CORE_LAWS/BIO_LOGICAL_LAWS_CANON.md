@@ -39,6 +39,7 @@ tags:
   - provenance
   - rscf
   - canon/universe
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -3101,3 +3102,4 @@ RSCF-RELATIONS:
 **Validation:** NOT_ESTABLISHED
 
 **Substantive native Bio-Logical laws:** UNKNOWN/GAP
+

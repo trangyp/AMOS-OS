@@ -34,6 +34,7 @@ tags:
   - validation
   - validation_cognitive_matrix_readme.md
   - {'identity':-None}
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -3280,3 +3281,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[11_VALIDATION_MOC]]
+

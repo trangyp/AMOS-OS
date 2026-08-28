@@ -41,6 +41,7 @@ tags:
   - governance
   - rscf
   - canon/universe
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -5703,3 +5704,4 @@ RSCF-RELATIONS:
 ```
 
 Critical distinction preserved: unlike a completely content-empty title placeholder, this source already contains **explicit epistemic boundary and contract statements**—for example `MODEL != OBSERVATION`, `SOURCE_CLAIM != VERIFIED`, `CANONICAL != EMPIRICAL_TRUTH`, `CAPABILITY != AUTHORITY`, and `UNKNOWN/GAP != PASS`. Those can be retained as `SOURCE_CLAIM`; they still do **not** establish a complete native Epistemic Integrity law, executable enforcement, or validation.
+

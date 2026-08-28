@@ -37,6 +37,7 @@ tags:
   - governance
   - rscf
   - canon/universe
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -4628,3 +4629,4 @@ RSCF-RELATIONS:
 ```
 
 Critical gap preserved: **the framework name does not itself license a `Difference → Relation → Boundary` law**. The expansion therefore treats Difference, Relation, Boundary, their directionality, necessity/sufficiency conditions, causal semantics, scope, and dependencies as separate unresolved native-canon slots rather than silently deriving ontology from the title.
+

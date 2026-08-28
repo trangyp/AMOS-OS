@@ -37,6 +37,7 @@ tags:
   - validation
   - rscf
   - canon/universe
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -3959,3 +3960,4 @@ RSCF-RELATIONS:
 **Executable binding:** NOT_ESTABLISHED
 
 **Validation:** NOT_ESTABLISHED
+

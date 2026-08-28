@@ -38,6 +38,7 @@ tags:
   - regime
   - validation
   - canon/universe
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -5019,3 +5020,4 @@ RSCF-RELATIONS:
 
 The decisive integrity boundary is that this source establishes the **Attention Canon slot and its governance contract**, but not an AMOS-native theory of attention. In particular, `attention`, `salience`, `selection`, `priority`, `focus`, `filtering`, and `allocation` remain **UNKNOWN/GAP** rather than being silently imported from psychology, neuroscience, transformer architectures, or generic cognition models.
 ```
+

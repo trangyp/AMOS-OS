@@ -24,6 +24,7 @@ tags:
   - note
   - provenance
   - rscf
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -3455,3 +3456,4 @@ claim_class: AMOS_MODEL
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
+

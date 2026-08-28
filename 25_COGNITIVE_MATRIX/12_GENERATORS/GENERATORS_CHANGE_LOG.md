@@ -24,6 +24,7 @@ tags:
   - generators_change_log.md
   - note
   - rscf
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -2896,3 +2897,4 @@ That keeps the Change Log operational and auditable instead of allowing it to be
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
+

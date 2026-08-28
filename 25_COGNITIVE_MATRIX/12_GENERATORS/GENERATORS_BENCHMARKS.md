@@ -24,6 +24,7 @@ tags:
   - generators_benchmarks.md
   - note
   - rscf
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -3237,3 +3238,4 @@ That separation is important because **tests answer whether a property held in a
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
+

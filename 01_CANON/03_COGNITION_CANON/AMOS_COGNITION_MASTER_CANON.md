@@ -36,6 +36,7 @@ tags:
   - regime
   - validation
   - canon/universe
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -4441,3 +4442,4 @@ RSCF-RELATIONS:
 
 The decisive new gap here is **not cognition itself but the semantics of “Master.”** The source establishes that the Master Canon artifact exists as a reserved ADD-ONLY slot, but it provides no evidence that `MASTER` means aggregator, authority, parent, latest version, superseding canon, or final canon. In particular, the relationship between `AMOS_COGNITION_MASTER_CANON.md` and `AMOS_COGNITION_CANON.md` must remain `UNKNOWN/GAP` until native provenance or lineage explicitly types that edge.
 ```
+

@@ -35,6 +35,7 @@ tags:
   - routing_audit.md
   - rscf
   - {'identity':-None}
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -196,3 +197,4 @@ The primary audit question is:
 ---
 
 *RSCF Status: SOURCE_CLAIM · Epistemic Class: AMOS_MODEL · Canonical Status: UNKNOWN/GAP*
+

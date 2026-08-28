@@ -25,6 +25,7 @@ tags:
   - kernel
   - note
   - rscf
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -293,3 +294,4 @@ RSCF-RELATIONS:
 
 ---
 **MOC:** [[09_INTEGRATION_MOC]]
+

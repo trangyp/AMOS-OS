@@ -23,6 +23,7 @@ tags:
   - rscf
   - ubi_glossary.md
   - universe
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -291,3 +292,4 @@ RSCF-RELATIONS:
 
 ---
 **MOC:** [[06_GLOSSARY_MOC]]
+

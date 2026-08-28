@@ -24,6 +24,7 @@ tags:
   - generators_audit.md
   - note
   - rscf
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"
@@ -3757,3 +3758,4 @@ The load-bearing addition here is that **Audit checks the integrity of the relat
 
 ---
 **MOC:** [[12_GENERATORS_MOC]]
+

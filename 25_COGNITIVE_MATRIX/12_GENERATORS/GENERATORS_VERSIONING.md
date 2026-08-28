@@ -24,6 +24,7 @@ tags:
   - generators_versioning.md
   - rscf
   - versioning
+  - placeholder_expanded
 
 version: "0.2.0"
 updated: "2026-08-27"

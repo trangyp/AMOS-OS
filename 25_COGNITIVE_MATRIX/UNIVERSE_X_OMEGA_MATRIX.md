@@ -1,6 +1,5 @@
 Below is the full canonical expansion with tags. I preserve all seven source rows and keep corrupted mathematical fragments conservative: `τ_bio < 0.20`, `Ω ≥ 0.70`, `Debt > 0`, semantic divergence `> 0.05`, and confidence ceiling `≤ 0.30` are recoverable; the P2 reset symbol and P7 ground-state symbol are not recoverable from this artifact and remain explicit gaps.
 
-````markdown
 ---
 title: "Universe x Omega Cross-Plane Matrix Table"
 aliases:
@@ -367,7 +366,6 @@ Semantic divergence > 0.05
         │
         ▼
 Clean Slate Ground State Recovery
-````
 
 ---
 
